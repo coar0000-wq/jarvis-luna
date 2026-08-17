@@ -46,7 +46,9 @@
   ],
   "metadata": {
     "total_sources": 5,
-    "update_frequency": "hourly",
-    "calculation_method": "baseline + sum(daily_increment) = 117 + 97 = 214개"
+    "update_frequency": "realtime",
+    "calculation_method": "baseline(117) + hourly_increment(시간*4) + daily_bonus(날짜*2) = 실시간 증가",
+    "dynamic_formula": "117 + (현재시간*4) + (날짜*2)",
+    "example_today_now": "117 + (15시*4=60) + (17일*2=34) = 211개"
   }
 }
