@@ -127,6 +127,50 @@
             order: 1;
         }
 
+        /* ✅ 새로운 렌더링 로직 CSS */
+        .log-item {
+            background: var(--card);
+            border: 2px solid var(--primary);
+            border-left: 3px solid var(--primary);
+            border-radius: 4px;
+            margin: 12px 0;
+            padding: 10px 12px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.95em;
+        }
+
+        .log-title {
+            color: var(--primary);
+            font-weight: bold;
+            flex: 0 0 auto;
+        }
+
+        .log-count {
+            background: var(--primary);
+            color: var(--dark);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: bold;
+            font-size: 0.9em;
+            flex: 0 0 auto;
+        }
+
+        .log-details {
+            color: #aaa;
+            font-size: 0.9em;
+            flex: 1 1 auto;
+        }
+
+        .log-time {
+            color: #888;
+            font-size: 0.8em;
+            flex: 0 0 auto;
+            margin-left: auto;
+        }
+
         .log-status {
             font-weight: bold;
             min-width: 100px;
@@ -1462,8 +1506,10 @@
 
                 if (dateTimeStr !== '정보 없음') {
                     currentHtml = `
-                        <div class="log-entry completed">
-                            <span class="log-task">✅ ${taskName}${countDisplay} | ${taskDetails}</span>
+                        <div class="log-item">
+                            <span class="log-title">✅ ${taskName}</span>
+                            <span class="log-count">${discoveredCount > 0 ? `(${discoveredCount}개)` : ''}</span>
+                            <span class="log-details">${taskDetails}</span>
                             <span class="log-time">${dateTimeStr}</span>
                         </div>
                     `;
@@ -1490,8 +1536,10 @@
 
                 if (dateTimeStr !== '정보 없음') {
                     completedHtml += `
-                        <div class="log-entry completed">
-                            <span class="log-task">✅ ${taskName}${countDisplay} | ${taskDetails}</span>
+                        <div class="log-item">
+                            <span class="log-title">✅ ${taskName}</span>
+                            <span class="log-count">${discoveredCount > 0 ? `(${discoveredCount}개)` : ''}</span>
+                            <span class="log-details">${taskDetails}</span>
                             <span class="log-time">${dateTimeStr}</span>
                         </div>
                     `;
@@ -1512,8 +1560,10 @@
 
                 if (dateTimeStr !== '정보 없음') {
                     historyHtml += `
-                        <div class="log-entry completed">
-                            <span class="log-task">✅ ${taskName}${countDisplay} | ${taskDetails}</span>
+                        <div class="log-item">
+                            <span class="log-title">✅ ${taskName}</span>
+                            <span class="log-count">${discoveredCount > 0 ? `(${discoveredCount}개)` : ''}</span>
+                            <span class="log-details">${taskDetails}</span>
                             <span class="log-time">${dateTimeStr}</span>
                         </div>
                     `;
