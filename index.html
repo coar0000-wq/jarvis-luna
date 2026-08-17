@@ -863,7 +863,7 @@
             console.log('✅ 모든 실제 JSON 데이터 로드 완료!');
         }
 
-        // Phase 진행도 표시
+        // Phase 진행도 상세 표시 (마일스톤 포함)
         function updateProgressDisplay(phase) {
             document.getElementById('phase-progress-title').textContent = `📈 Phase ${phase.phase} 진행도: ${phase.progress_percentage}%`;
 
@@ -873,11 +873,54 @@
             const statusEmoji = phase.progress_percentage < 50 ? '🟢' : phase.progress_percentage < 100 ? '🟡' : '✅';
             const statusText = phase.progress_percentage < 50 ? '진행 중' : phase.progress_percentage < 100 ? '마무리' : '완료';
 
+            // 마일스톤 HTML 구성
+            let milestonesHTML = '';
+            if (phase.milestones && phase.milestones.length > 0) {
+                milestonesHTML = '<div style="margin-top: 12px; font-size: 13px;">';
+
+                phase.milestones.forEach((milestone, index) => {
+                    const milestoneEmoji = milestone.status === 'completed' ? '✅' : '🟡';
+                    const progressBar = milestone.status === 'completed'
+                        ? '████████████████████░░ 100%'
+                        : `${'▓'.repeat(Math.floor(milestone.progress || 0) / 5)}${'░'.repeat(20 - Math.floor(milestone.progress || 0) / 5)} ${milestone.progress || 0}%`;
+
+                    const completedDate = milestone.completed_date ? ` (${milestone.completed_date})` : '';
+                    milestonesHTML += `
+                        <div style="margin-bottom: 10px; padding: 8px; background: rgba(0, 212, 255, 0.08); border-radius: 4px;">
+                            <div style="margin-bottom: 4px;">
+                                <span style="font-weight: bold; color: ${milestone.status === 'completed' ? '#00ff00' : '#ffaa00'}">
+                                    ${milestoneEmoji} ${index + 1}. ${milestone.name}${completedDate}
+                                </span>
+                            </div>
+                            <div style="font-family: monospace; font-size: 11px; color: #0f0; letter-spacing: 1px;">
+                                ${progressBar}
+                            </div>
+                        </div>
+                    `;
+                });
+                milestonesHTML += '</div>';
+            }
+
             const detailsEl = document.getElementById('progress-details');
             if (detailsEl) {
                 detailsEl.innerHTML = `
-                    <div>${statusEmoji} ${statusText} (${phase.progress_percentage}%)</div>
-                    <div style="margin-top: 8px; font-size: 12px; color: #666;">마지막 업데이트: ${time}</div>
+                    <div style="margin-bottom: 12px;">
+                        <div style="font-size: 14px; font-weight: bold; color: ${statusEmoji === '✅' ? '#00ff00' : statusEmoji === '🟡' ? '#ffaa00' : '#00d4ff'};">
+                            ${statusEmoji} ${statusText} (${phase.progress_percentage}%)
+                        </div>
+                        <div style="margin-top: 6px; font-size: 12px; color: #888;">
+                            📌 ${phase.description || '진행 중'}
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: 12px;">
+                        <div style="font-size: 13px; font-weight: bold; color: #0ff; margin-bottom: 6px;">마일스톤</div>
+                        ${milestonesHTML}
+                    </div>
+
+                    <div style="font-size: 11px; color: #666; border-top: 1px solid rgba(0, 212, 255, 0.1); padding-top: 8px;">
+                        ⏰ 마지막 업데이트: ${time}
+                    </div>
                 `;
             }
         }
