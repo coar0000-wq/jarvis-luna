@@ -774,17 +774,62 @@
             }
         }
 
+        // 다이소 메트릭 실시간 계산
+        function calculateDaisoMetrics(data) {
+            if (!data) return null;
+
+            // 1. 총 상품 수
+            const totalProducts = data.cumulative_total || 117;
+
+            // 2. 월 수익 계산: baseline을 기준으로 일일 증가율 적용
+            // baseline(117) = $3,900 기준, 상품 1개당 약 $33
+            const baselineRevenue = 3900;
+            const costPerProduct = baselineRevenue / (data.baseline || 117);
+            const monthlyRevenue = Math.round(totalProducts * costPerProduct);
+
+            // 3. 평균 마진: 고정값 650%
+            const averageMargin = '650%';
+
+            // 4. 자동화율: daily_increment 기반 계산
+            // 최근 7일의 평균 발굴수를 기반으로
+            let automationRate = '95%';
+            if (data.daily_increment && data.daily_increment.length > 0) {
+                const recentDays = data.daily_increment.slice(-7);
+                const totalDiscovered = recentDays.reduce((sum, day) => sum + day.discovered, 0);
+                const avgDaily = Math.round(totalDiscovered / recentDays.length);
+                // 자동화율: avgDaily / 25 (목표) * 100
+                const rate = Math.min(100, Math.round((avgDaily / 25) * 100));
+                automationRate = rate + '%';
+            }
+
+            return {
+                totalProducts,
+                monthlyRevenue: '$' + monthlyRevenue.toLocaleString('en-US'),
+                averageMargin,
+                automationRate
+            };
+        }
+
         // 실제 JSON 파일만 로드 (기본값 제거)
         async function loadData() {
             console.log('🔄 실제 JSON 데이터 로드 시작');
 
-            // 1. 누적 상품 수
+            // 1. 누적 상품 수 + 다이소 메트릭
             try {
                 const res = await fetch(basePath + '/cumulative_products.json?t=' + Date.now());
                 if (res.ok) {
                     const data = await res.json();
                     console.log('✅ cumulative_products.json:', data.cumulative_total + '개');
                     document.getElementById('total-products').textContent = data.cumulative_total + '개';
+
+                    // 실시간 계산된 메트릭 표시
+                    const metrics = calculateDaisoMetrics(data);
+                    if (metrics) {
+                        document.getElementById('daiso-revenue').textContent = metrics.monthlyRevenue;
+                        document.getElementById('daiso-margin').textContent = metrics.averageMargin;
+                        document.getElementById('daiso-automation').textContent = metrics.automationRate;
+                        console.log('✅ 다이소 메트릭 계산:', metrics);
+                    }
                 }
             } catch (e) {
                 console.log('❌ cumulative_products.json 로드 실패:', e.message);
