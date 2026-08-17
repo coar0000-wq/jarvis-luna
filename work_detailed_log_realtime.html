@@ -977,21 +977,33 @@
             };
         }
 
-        // ✅ 다이소 상품 누적 데이터 로드
-        // ✅ 누적 카운트 로드 (기존: 117개 + 새로 발굴한 개수)
+        // ✅ 다이소 상품 누적 데이터 로드 (실시간 증가 - pandas cumsum 방식)
         async function loadCumulativeCount() {
             try {
-                // ✅ 새문제 #1 해결: fetchWithTimeout 적용
-                const response = await fetchWithTimeout('./data/cumulative_products.json?t=' + Date.now());
+                // ✅ 수정: 올바른 경로로 누적 데이터 로드
+                const response = await fetchWithTimeout('./cumulative_products.json?t=' + Date.now());
                 if (response.ok) {
                     const data = await response.json();
-                    console.log('✅ [누적 카운트] 로드:', data);
-                    return data;
+
+                    // ✅ 누적 합산 계산 (pandas cumsum 개념)
+                    const dailyIncrements = data.daily_increment || [];
+                    const totalNewlyDiscovered = dailyIncrements.reduce((sum, day) => sum + (day.discovered || 0), 0);
+                    const dynamicTotal = (data.baseline || 117) + totalNewlyDiscovered;
+
+                    console.log(`📊 [누적 상품수] 기준: ${data.baseline}개 + 신규: ${totalNewlyDiscovered}개 = 합계: ${dynamicTotal}개`);
+
+                    return {
+                        cumulative_total: dynamicTotal,
+                        baseline: data.baseline || 117,
+                        last_updated: data.last_updated || new Date().toISOString(),
+                        daily_increment: dailyIncrements,
+                        breakdown: `기준 ${data.baseline}개 + 신규 ${totalNewlyDiscovered}개 = ${dynamicTotal}개`
+                    };
                 }
             } catch (e) {
                 console.warn('⚠️ [누적 카운트] 로드 실패:', e.message);
             }
-            // 기본값: 117개 (초기 누적)
+            // ✅ 폴백: 기본값 117개
             return { cumulative_total: 117, baseline: 117, last_updated: new Date().toISOString() };
         }
 

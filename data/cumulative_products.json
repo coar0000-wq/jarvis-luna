@@ -1,8 +1,10 @@
-{
+﻿{
   "cumulative_total": 117,
   "baseline": 117,
-  "last_updated": "2026-08-17T10:01:49.289274Z",
-  "description": "누적 상품 수 추적 (117개 기초선 + 새로 발굴한 제품)",
-  "calculation": "누적 = 117 (기존) + 새로 발굴한 개수",
-  "sources": {}
+  "last_updated": "2026-08-17T22:17:59Z",
+  "daily_increment": [
+    {"date": "2026-08-15", "discovered": 5},
+    {"date": "2026-08-16", "discovered": 8},
+    {"date": "2026-08-17", "discovered": 12}
+  ]
 }
