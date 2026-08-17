@@ -1,6 +1,20 @@
 {
   "events": [
     {
+      "task_name": "YouTube 자동 분석",
+      "details": "AI 에이전트 & 멀티에이전트 영상 분석",
+      "status": "success",
+      "timestamp": "2026-08-17T16:45:00Z",
+      "discovered_count": 12
+    },
+    {
+      "task_name": "논문 Google 검색",
+      "details": "arXiv + 학술 논문 자동 수집",
+      "status": "success",
+      "timestamp": "2026-08-17T16:20:00Z",
+      "discovered_count": 38
+    },
+    {
       "task_name": "다이소 제품 발굴",
       "details": "실시간 상품 데이터 수집",
       "status": "success",
