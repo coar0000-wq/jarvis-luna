@@ -769,7 +769,7 @@
     </div>
 
     <script>
-        // 기본 URL 판단 (GitHub Pages vs 로컬)
+        // 실제 JSON 파일만 사용하는 데이터 로드 (기본값 모두 제거)
         const isGitHubPages = window.location.pathname.includes('/jarvis-luna/');
         const basePath = isGitHubPages ? '/jarvis-luna' : '.';
 
@@ -812,32 +812,55 @@
             }
         }
 
-        // 데이터 로드 및 표시
+        // 데이터 로드 및 표시 (실제 JSON 파일만 사용)
         async function loadData() {
-            console.log('🔄 데이터 로드 시작 - basePath:', basePath);
+            console.log('🔄 실제 JSON 데이터 로드 시작 - basePath:', basePath);
 
+            // 1. 누적 상품 수 (cumulative_products.json - 루트)
             try {
-                // 작업 로그
-                const workRes = await fetch(basePath + '/data/jarvis_work_detailed_log.json?t=' + Date.now());
-                console.log('📝 작업 로그 URL:', basePath + '/data/jarvis_work_detailed_log.json');
-                if (workRes.ok) {
-                    const workData = await workRes.json();
-                    displayTasksRight(workData.completed_today || []);
-                    updateAtomIcon(workData.completed_today || []);
+                const cumulativeRes = await fetch(basePath + '/cumulative_products.json?t=' + Date.now());
+                if (cumulativeRes.ok) {
+                    const data = await cumulativeRes.json();
+                    console.log('✅ cumulative_products.json 로드:', data.cumulative_total + '개');
+                    document.getElementById('total-products').textContent = data.cumulative_total + '개';
+                } else {
+                    console.log('❌ cumulative_products.json 로드 실패:', cumulativeRes.status);
                 }
             } catch (e) {
-                console.log('작업 로그 로드 실패:', e);
+                console.log('❌ cumulative_products.json 에러:', e.message);
+            }
+
+            // 2. 작업 상세 로그 (scheduler_log.json - 루트)
+            try {
+                const schedulerRes = await fetch(basePath + '/scheduler_log.json?t=' + Date.now());
+                if (schedulerRes.ok) {
+                    const data = await schedulerRes.json();
+                    console.log('✅ scheduler_log.json 로드:', data.events.length + '개');
+                    displayTasksRight(data.events || []);
+                } else {
+                    console.log('❌ scheduler_log.json 로드 실패:', schedulerRes.status);
+                }
+            } catch (e) {
+                console.log('❌ scheduler_log.json 에러:', e.message);
                 displayTasksRight([]);
             }
 
+            // 3. Phase 진행도 (phase_26_progress.json - 루트, 파일명 통일)
             try {
-                // Phase 26 진행도
-                const phaseRes = await fetch(basePath + '/data/phase26_progress.json?t=' + Date.now());
+                const phaseRes = await fetch(basePath + '/phase_26_progress.json?t=' + Date.now());
                 if (phaseRes.ok) {
-                    const phaseData = await phaseRes.json();
-                    updateProgressDisplay(phaseData);
+                    const data = await phaseRes.json();
+                    console.log('✅ phase_26_progress.json 로드:', data.progress_percentage + '%');
+                    updateProgressDisplay(data);
+                } else {
+                    console.log('❌ phase_26_progress.json 로드 실패:', phaseRes.status);
                 }
-            } catch (e) { console.log('Phase 진행도 로드 실패'); }
+            } catch (e) {
+                console.log('❌ phase_26_progress.json 에러:', e.message);
+            }
+
+            console.log('\n✅ 모든 실제 JSON 데이터 로드 완료!');
+        }
 
             try {
                 // 다이소 사업
@@ -940,49 +963,50 @@
             console.log('네이버:', totalProductsCount.naver + '개');
             console.log('월마트:', totalProductsCount.walmart + '개');
             console.log('아마존:', totalProductsCount.amazon + '개');
-            const total = Object.values(totalProductsCount).reduce((sum, count) => sum + count, 0);
-            console.log('📈 총합계:', total + '개\n');
+            const channelTotal = Object.values(totalProductsCount)
+                .reduce(
+                    (sum, count) => sum + Number(count || 0),
+                    0
+                );
+
+            const actualTotal =
+                Number.isFinite(Number(cumulativeProductsTotal))
+                    ? Number(cumulativeProductsTotal)
+                    : channelTotal;
+
+            console.log(
+                '📦 실제 누적 상품:',
+                cumulativeProductsTotal ?? '미로드'
+            );
+
+            console.log(
+                '📊 채널 합산:',
+                channelTotal + '개'
+            );
+
+            console.log(
+                '📈 화면 표시 총합:',
+                actualTotal + '개\n'
+            );
         }
 
         // Phase 진행도 동적 업데이트
-        function updateProgressDisplay(phaseData) {
-            if (!phaseData) return;
+        // Phase 진행도 표시
+        function updateProgressDisplay(phase) {
+            document.getElementById('phase-progress-title').textContent = `📈 Phase ${phase.phase} 진행도: ${phase.progress_percentage}%`;
 
-            // Phase 진행도 제목
-            const title = document.getElementById('phase-progress-title');
-            if (title) {
-                title.textContent = `📈 Phase ${phaseData.phase} 진행도: ${phaseData.progress_percentage}%`;
-            }
+            const date = new Date(phase.last_updated);
+            const time = date.toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' });
 
-            // 진행 상태
-            const status = document.getElementById('progress-status');
-            if (status) {
-                const progress = phaseData.progress_percentage;
-                if (progress < 50) {
-                    status.textContent = `🟢 진행 중 (0-50%)`;
-                } else if (progress < 100) {
-                    status.textContent = `🟡 마무리 (50-100%)`;
-                } else {
-                    status.textContent = `✅ 완료 (100%)`;
-                }
-            }
+            const statusEmoji = phase.progress_percentage < 50 ? '🟢' : phase.progress_percentage < 100 ? '🟡' : '✅';
+            const statusText = phase.progress_percentage < 50 ? '진행 중' : phase.progress_percentage < 100 ? '마무리' : '완료';
 
-            // 마지막 업데이트 시간
-            const lastUpdate = document.getElementById('last-update');
-            if (lastUpdate && phaseData.timestamp) {
-                const date = new Date(phaseData.timestamp);
-                const formatted = date.toLocaleString('ko-KR');
-                lastUpdate.textContent = `마지막 업데이트: ${formatted}`;
-            }
-
-            // 다음 자동화 시간 (10분 후)
-            const nextAuto = document.getElementById('next-automation');
-            if (nextAuto && phaseData.timestamp) {
-                const date = new Date(phaseData.timestamp);
-                const nextTime = new Date(date.getTime() + 10 * 60000); // 10분 더함
-                const formatted = nextTime.toLocaleString('ko-KR');
-                nextAuto.textContent = `다음 자동화: ${formatted}`;
-            }
+            document.getElementById('progress-details').innerHTML = `
+                <div>${statusEmoji} ${statusText} (${phase.progress_percentage}%)</div>
+                <div style="margin-top: 8px; font-size: 12px; color: #666;">
+                    마지막 업데이트: ${time}
+                </div>
+            `;
         }
 
         // 다이소 사업 동적 업데이트
@@ -1032,16 +1056,37 @@
             }
         }
 
-        // 전체 상품 수 업데이트 (모든 채널 합산)
-        let totalProductsCount = { daiso: 0, olive: 0, naver: 0, walmart: 0, amazon: 0 };
+        // 채널별 상품 데이터
+        let totalProductsCount = {
+            daiso: 0,
+            olive: 0,
+            naver: 0,
+            walmart: 0,
+            amazon: 0
+        };
 
+        // 실제 cumulative_products.json 데이터를 최우선 사용
         function updateTotalProducts() {
-            const total = Object.values(totalProductsCount).reduce((sum, count) => sum + count, 0);
-            const totalEl = document.getElementById('total-products');
+            const channelTotal = Object.values(totalProductsCount)
+                .reduce(
+                    (sum, count) => sum + Number(count || 0),
+                    0
+                );
+
+            const total =
+                Number.isFinite(Number(cumulativeProductsTotal))
+                    ? Number(cumulativeProductsTotal)
+                    : channelTotal;
+
+            const totalEl =
+                document.getElementById('total-products');
+
             if (totalEl) {
                 totalEl.textContent = `${total}개`;
             }
         }
+
+}
 
         // 올리브영 상품 수
         function updateOliveYoungCount(oliveData) {
@@ -1107,48 +1152,37 @@
             list.innerHTML = html;
         }
 
+        // 작업 상세 로그 표시 (사용자 원하는 형식)
         function displayTasksRight(tasks) {
             let html = '';
             const rightDetails = document.getElementById('task-details-right');
 
-            // 실제 데이터만 표시 (거짓 데이터 제거)
             if (tasks && tasks.length > 0) {
-                // 최신 항목이 위로 오도록 역순 정렬 + 최대 6개만
-                // slice로 먼저 복사한 후 reverse (원본 배열 변경 방지)
-                const recentTasks = tasks.slice().reverse().slice(0, 6);
+                const recent = tasks.slice().reverse().slice(0, 6);
 
-                recentTasks.forEach(task => {
-                    let timestamp = '';
-                    // end_time 또는 timestamp 사용
-                    const timeStr = task.end_time || task.timestamp;
-                    if (timeStr) {
-                        const date = new Date(timeStr);
-                        const year = date.getFullYear();
-                        const month = String(date.getMonth() + 1).padStart(2, '0');
-                        const day = String(date.getDate()).padStart(2, '0');
-                        const hours = String(date.getHours()).padStart(2, '0');
-                        const minutes = String(date.getMinutes()).padStart(2, '0');
-                        const seconds = String(date.getSeconds()).padStart(2, '0');
-                        timestamp = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
-                    }
+                recent.forEach(task => {
+                    const date = new Date(task.timestamp);
+                    const time = date.toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' });
+                    const emoji = task.status === 'success' ? '✅' : '❌';
+                    const count = task.discovered_count > 0 ? `(${task.discovered_count}개)` : '';
 
-                    // 상태 표시
-                    const statusEmoji = task.status && task.status.includes('완료') ? '✅' : '❌';
-
-                    html += `<div class="status-item" style="padding: 8px 0; border-bottom: 1px solid rgba(0, 212, 255, 0.1); font-size: 14px; color: #aaa; opacity: 0.95;">
-                        <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
-                            <span style="flex: 1;">${statusEmoji} ${task.task || task.name || '작업'}</span>
+                    html += `<div class="status-item" style="padding: 8px 0;">
+                        <div style="display: flex; gap: 8px; align-items: baseline;">
+                            <span>${emoji}</span>
+                            <span style="color: #00d4ff; font-weight: 600;">${task.task_name}</span>
+                            <span style="color: #00ff00; font-weight: 600;">${count}</span>
                         </div>
-                        <div style="font-size: 12px; color: #666; margin-top: 3px;">${timestamp}</div>
+                        <div style="margin-left: 28px; font-size: 12px; color: #888;">${task.details}</div>
+                        <div style="margin-left: 28px; font-size: 11px; color: #666;">${time}</div>
                     </div>`;
                 });
             } else {
-                html = '<div style="color: #888; font-size: 14px; padding: 10px; text-align: center;">작업 로그가 없습니다.</div>';
+                html = '<div style="color: #888;">작업 로그가 없습니다.</div>';
             }
 
             if (rightDetails) {
                 rightDetails.innerHTML = html;
-                console.log('✅ 작업 로그 업데이트:', tasks.length, '개');
+                console.log('✅ 작업 로그 업데이트:', tasks.length + '개');
             }
         }
 
