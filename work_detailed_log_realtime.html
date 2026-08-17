@@ -322,7 +322,7 @@
             }
 
             .log-section {
-                max-height: 400px;  // ✅ 모바일에서 스크롤 가능하도록
+                max-height: none;
                 overflow-y: auto;
             }
 
@@ -333,6 +333,37 @@
 
             .log-time {
                 margin-left: auto;
+            }
+
+            /* ✅ 모바일에서 log-item 스타일 */
+            .log-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 4px;
+                font-size: 0.8em;
+                padding: 8px;
+            }
+
+            .log-title {
+                font-size: 0.9em;
+                width: 100%;
+            }
+
+            .log-count {
+                font-size: 0.75em;
+                padding: 1px 3px;
+            }
+
+            .log-details {
+                font-size: 0.75em;
+                width: 100%;
+            }
+
+            .log-time {
+                font-size: 0.7em;
+                width: 100%;
+                margin-left: 0;
+                margin-top: 2px;
             }
         }
     </style>
@@ -424,23 +455,22 @@
 
     <script>
         // ===== 설정 & 상수 =====
-        const DEBUG_MODE = false; // ✅ 프로덕션 로그 제어
-        const FETCH_TIMEOUT = 5000; // 5초 타임아웃
+        const DEBUG_MODE = false;
+        const FETCH_TIMEOUT = 5000;
         const RECENT_EVENTS_LIMIT = 6;
         const REFRESH_INTERVAL = 30000;
         const COUNTDOWN_DISPLAY = 30;
-        const BASELINE_PRODUCTS = 117; // 기본 기준값
-        const DATA_VERSION = '1.0'; // ✅ 데이터 버전 추적 (중복 방지)
-        const CACHE_TTL = 5 * 60 * 1000; // ✅ 새문제 #5: 캐시 5분 만료
+        const BASELINE_PRODUCTS = 117;
+        const DATA_VERSION = '1.0';
+        const CACHE_TTL = 5 * 60 * 1000;
 
-        // ===== 로거 (console.log 통합 관리) =====
+        // ===== 로거 =====
         const Logger = {
             debug: (tag, msg, data) => {
                 if (DEBUG_MODE) console.log(`✅ [${tag}] ${msg}`, data || '');
             },
             info: (tag, msg, data) => console.log(`✅ [${tag}] ${msg}`, data || ''),
             warn: (tag, msg, data) => console.warn(`⚠️ [${tag}] ${msg}`, data || ''),
-            // ✅ 에러 로깅 강화: stack trace + 타임스탬프 + 컨텍스트
             error: (tag, msg, errorData = {}) => {
                 const timestamp = new Date().toISOString();
                 const errorObj = typeof errorData === 'string' ? { message: errorData } : errorData;
@@ -459,10 +489,6 @@
 
                 console.error(`❌ [${tag}] ${msg} @${timestamp}`, logEntry);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                // ✅ LocalStorage에 에러 로그 저장 (최근 10개) + 강화된 예외처리
                 try {
                     const rawLogs = localStorage.getItem('jarvis_error_logs') || '[]';
                     let errorLogs = [];
@@ -480,42 +506,17 @@
                             dataLength: rawLogs.length,
                             data: rawLogs.substring(0, 100)
                         });
-                        errorLogs = [];  // 기본값으로 복구
+                        errorLogs = [];
                     }
 
-                    // ✅ 배열 순서: unshift = 앞에 추가 (최신이 [0])
-                    // 배열: [최신, ..., 오래된] 순서 유지
                     errorLogs.unshift(logEntry);
-
-                    // ✅ 최근 10개만 유지 (pop으로 뒤의 오래된 항목 제거)
                     if (errorLogs.length > 10) errorLogs.pop();
-
                     localStorage.setItem('jarvis_error_logs', JSON.stringify(errorLogs));
                 } catch (e) {
                     console.error('❌ [Logger] LocalStorage 저장 실패', {
                         message: e.message,
                         stack: e.stack
                     });
-=======
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-                // ✅ LocalStorage에 에러 로그 저장 (최근 10개)
-                try {
-                    const errorLogs = JSON.parse(localStorage.getItem('jarvis_error_logs') || '[]');
-                    errorLogs.unshift(logEntry);
-                    if (errorLogs.length > 10) errorLogs.pop();
-                    localStorage.setItem('jarvis_error_logs', JSON.stringify(errorLogs));
-                } catch (e) {
-                    // 에러 로그 저장 실패는 무시
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
                 }
             }
         };
@@ -525,33 +526,16 @@
             workLog: null,
             currentData: null,
             countdownSeconds: COUNTDOWN_DISPLAY,
-            lastDataVersion: null, // ✅ 데이터 버전 추적
-            intervalIds: [],  // ✅ setInterval ID 관리
+            lastDataVersion: null,
+            intervalIds: [],
         };
 
         // ✅ setInterval 제어 함수
         function startRefresh() {
-            // 기존 interval 정리
             stopRefresh();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            // ✅ 배열 순서: push = 뒤에 추가
-            // 배열: [intervalId1, intervalId2, ...] 순서로 저장
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-            // updateTime interval
             APP_STATE.intervalIds.push(setInterval(updateTime, 1000));
-
-            // updateCountdown interval
             APP_STATE.intervalIds.push(setInterval(updateCountdown, 1000));
-
-            // 데이터 갱신 interval (30초)
             APP_STATE.intervalIds.push(setInterval(async () => {
                 const newData = await loadRealData();
                 if (newData) {
@@ -581,57 +565,24 @@
         }
 
         function stopRefresh() {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            // ✅ 배열 순서: forEach로 모든 항목 순회
-            // 배열의 모든 intervalId를 정리 (순서와 무관)
-            APP_STATE.intervalIds.forEach(id => clearInterval(id));
-
-            // 배열 초기화 (비우기)
-            APP_STATE.intervalIds = [];
-
-=======
             APP_STATE.intervalIds.forEach(id => clearInterval(id));
             APP_STATE.intervalIds = [];
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
-            APP_STATE.intervalIds.forEach(id => clearInterval(id));
-            APP_STATE.intervalIds = [];
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
-            APP_STATE.intervalIds.forEach(id => clearInterval(id));
-            APP_STATE.intervalIds = [];
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
             Logger.info('Refresh', '자동 새로고침 정지');
         }
 
-        // 페이지 언로드 시 자동 정리
         window.addEventListener('beforeunload', stopRefresh);
 
         // ✅ Race condition 해결: DataLock 클래스
         class DataLock {
             constructor() {
-                this.locks = {};  // { key: boolean }
-                this.queue = {};  // { key: [] } - 대기 중인 콜백들
+                this.locks = {};
+                this.queue = {};
             }
 
             async lock(key) {
-                // 이미 잠금 중이면 해제될 때까지 대기
                 while (this.locks[key]) {
                     await new Promise(resolve => {
                         if (!this.queue[key]) this.queue[key] = [];
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        // ✅ 배열 순서: push = 뒤에 추가 (FIFO 대기열)
-                        // 배열: [대기1, 대기2, ...] → shift()로 순서대로 처리
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
                         this.queue[key].push(resolve);
                     });
                 }
@@ -642,30 +593,9 @@
             unlock(key) {
                 this.locks[key] = false;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                // 대기 중인 콜백 처리 (FIFO 순서)
-                if (this.queue[key] && this.queue[key].length > 0) {
-                    // ✅ shift = 앞에서 제거 (FIFO: 첫 번째 대기자부터 처리)
-                    const callback = this.queue[key].shift();
-                    callback();  // 해제될 때까지 대기하던 콜백 실행
-=======
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-                // 대기 중인 콜백 처리
                 if (this.queue[key] && this.queue[key].length > 0) {
                     const callback = this.queue[key].shift();
                     callback();
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
                 }
 
                 Logger.debug('DataLock', `락 해제: ${key}`);
@@ -676,15 +606,9 @@
             }
         }
 
-        // ✅ 전역 DataLock 인스턴스
         const dataLock = new DataLock();
 
-        // ⚠️ 함수 중복 주의: 총 7개의 날짜 관련 함수가 있음
-        // TODO: 향후 이들을 하나의 유틸리티 함수로 통합 권장
-
-        // ✅ 날짜 검증 & 안전 포맷팅 함수 (ISO 8601 내부, 로케일 표시)
-        // 내부: ISO 8601 형식 (YYYY-MM-DDTHH:mm:ssZ)
-        // 표시: 로케일 형식 (한국어 KR)
+        // ✅ 날짜 검증 & 안전 포맷팅 함수
         function formatSafeDate(dateString, format = 'full') {
             if (!dateString) {
                 Logger.warn('DateFormat', '날짜 데이터 없음');
@@ -694,7 +618,6 @@
             try {
                 const date = new Date(dateString);
 
-                // 날짜 객체가 유효한지 확인
                 if (isNaN(date.getTime())) {
                     Logger.warn('DateFormat', '유효하지 않은 날짜 형식', {
                         input: dateString,
@@ -703,12 +626,10 @@
                     return '정보 없음';
                 }
 
-                // ✅ 내부: ISO 8601 형식 반환 (필요시)
                 if (format === 'iso') {
-                    return date.toISOString();  // YYYY-MM-DDTHH:mm:ss.sssZ
+                    return date.toISOString();
                 }
 
-                // ✅ 표시: 로케일 형식 (한국어)
                 if (format === 'date') {
                     return date.toLocaleDateString('ko-KR', {
                         year: 'numeric',
@@ -742,7 +663,7 @@
             }
         }
 
-        // ✅ DOM 요소 안전 접근 함수 (옵셔널 체이닝)
+        // ✅ DOM 요소 안전 접근 함수
         function safeGetElement(elementId) {
             const el = document.getElementById(elementId);
             if (!el) {
@@ -752,7 +673,6 @@
             return el;
         }
 
-        // ✅ 안전한 텍스트 설정
         function safeSetText(elementId, text) {
             const el = safeGetElement(elementId);
             if (el) {
@@ -762,7 +682,6 @@
             return false;
         }
 
-        // ✅ 안전한 HTML 설정
         function safeSetHTML(elementId, html) {
             const el = safeGetElement(elementId);
             if (el) {
@@ -772,7 +691,6 @@
             return false;
         }
 
-        // ✅ 안전한 스타일 설정
         function safeSetStyle(elementId, property, value) {
             const el = safeGetElement(elementId);
             if (el) {
@@ -782,90 +700,7 @@
             return false;
         }
 
-        // ✅ 날짜 파싱 안전 함수 - 실패 시 현재 시간 반환
-        function parseDateOrNow(dateString, fallbackText = null) {
-            if (!dateString) {
-                if (fallbackText) return fallbackText;
-                return new Date().toLocaleString('ko-KR', {
-                    year: 'numeric',
-                    month: '2-digit',
-                    day: '2-digit',
-                    hour: '2-digit',
-                    minute: '2-digit',
-                    second: '2-digit'
-                });
-            }
-
-            const d = new Date(dateString);
-
-            // Invalid Date 검사
-            if (isNaN(d.getTime())) {
-                console.error(`⚠️ [날짜 파싱] 유효하지 않은 형식: "${dateString}"`);
-                if (fallbackText) return fallbackText;
-                return new Date().toLocaleString('ko-KR', {
-                    year: 'numeric',
-                    month: '2-digit',
-                    day: '2-digit',
-                    hour: '2-digit',
-                    minute: '2-digit',
-                    second: '2-digit'
-                });
-            }
-
-            return d.toLocaleString('ko-KR', {
-                year: 'numeric',
-                month: '2-digit',
-                day: '2-digit',
-                hour: '2-digit',
-                minute: '2-digit',
-                second: '2-digit'
-            });
-        }
-
-        // ✅ 안전한 날짜 표시 함수 (HTML 요소에 직접 업데이트) - 최종 버전
-        function setSafeText(elementId, dateStr, fallbackText = null) {
-            const el = document.getElementById(elementId);
-            if (!el) {
-                console.warn(`❌ [데이터 바인딩] 요소 없음: #${elementId}`);
-                return;
-            }
-
-            try {
-                const formattedDate = parseDateOrNow(dateStr, fallbackText);
-                el.textContent = formattedDate;
-
-                if (!dateStr) {
-                    console.warn(`⚠️ [데이터 바인딩] ${elementId} 값 없음 → 현재 시간 표시`);
-                } else {
-                    console.log(`✅ [데이터 바인딩] ${elementId}: ${formattedDate}`);
-                }
-            } catch (error) {
-                console.error(`❌ [데이터 바인딩] ${elementId} 처리 실패:`, error);
-                el.textContent = fallbackText || '대기 중';
-            }
-        }
-
-        // ✅ 간단한 타임스탬프 렌더링 함수 (Invalid Date 100% 방지)
-        function renderTimestamp(elementId, dateInput) {
-            const el = document.getElementById(elementId);
-            if (!el) {
-                console.warn(`⚠️ [renderTimestamp] 요소 없음: #${elementId}`);
-                return; // DOM이 없으면 에러 방지
-            }
-
-            const parsed = new Date(dateInput);
-            if (dateInput && !isNaN(parsed.getTime())) {
-                el.textContent = parsed.toLocaleString('ko-KR');
-                console.log(`✅ [renderTimestamp] ${elementId}: ${el.textContent}`);
-            } else {
-                // 유효한 날짜가 없으면 현재 시각으로 안전하게 대체
-                const now = new Date().toLocaleString('ko-KR');
-                el.textContent = now;
-                console.warn(`⚠️ [renderTimestamp] ${elementId} 폴백: 현재 시간 사용 (${now})`);
-            }
-        }
-
-        // ✅ Fetch with Timeout (Critical Fix #20)
+        // ✅ Fetch with Timeout
         async function fetchWithTimeout(url, timeout = FETCH_TIMEOUT) {
             const controller = new AbortController();
             const timeoutId = setTimeout(() => controller.abort(), timeout);
@@ -873,7 +708,6 @@
                 const response = await fetch(url, { signal: controller.signal });
                 clearTimeout(timeoutId);
 
-                // ✅ Critical Fix #18: HTTP 에러 코드 처리
                 if (!response.ok) {
                     throw new Error(`HTTP ${response.status}: ${response.statusText} - ${url}`);
                 }
@@ -895,10 +729,6 @@
                 return data;
             } catch (error) {
                 Logger.warn('JARVIS', '실제 데이터 로드 실패', error.message);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                // ✅ LocalStorage 폴백 (Critical Fix #20) + 강화된 JSON.parse 예외처리
                 try {
                     const cached = localStorage.getItem('jarvis_scheduler_log');
                     if (cached && cached.length > 0) {
@@ -921,32 +751,8 @@
                                 stack: parseError.stack,
                                 dataLength: cached.length,
                                 data: cached.substring(0, 200)
-=======
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-                // ✅ LocalStorage 폴백 (Critical Fix #20) + JSON.parse 예외처리 강화
-                try {
-                    const cached = localStorage.getItem('jarvis_scheduler_log');
-                    if (cached) {
-                        Logger.warn('JARVIS', 'LocalStorage 캐시 사용');
-                        try {
-                            return JSON.parse(cached);
-                        } catch (parseError) {
-                            Logger.error('JARVIS', 'JSON 파싱 실패', {
-                                message: parseError.message,
-                                stack: parseError.stack,
-                                dataLength: cached.length
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
                             });
-                            return null;  // ✅ 기본값 반환
+                            return null;
                         }
                     }
                 } catch (e) {
@@ -959,32 +765,25 @@
             return null;
         }
 
-        // ✅ Phase 26 진행도 데이터 로드 + 대체 로직
         async function loadPhaseData() {
             try {
-                // 1. phase_26_progress.json 시도
-                // ✅ 새문제 #1 해결: fetchWithTimeout 적용
                 const response = await fetchWithTimeout('./data/phase_26_progress.json?t=' + Date.now());
                 if (response.ok) {
                     const data = await response.json();
-                    // ✅ 새문제 #2,#3 해결: Logger 사용 + 필드 검증 강화
                     Logger.info('Phase26', '진행도 데이터 로드 성공');
 
-                    // 데이터 검증
                     if (!data.last_updated || !data.next_automation) {
-                        throw new Error(`필수 필드 누락: last_updated=${!!data.last_updated}, next_automation=${!!data.next_automation}`);
+                        throw new Error(`필수 필드 누락`);
                     }
                     return data;
                 } else {
-                    console.warn(`⚠️ [Phase 26] HTTP ${response.status}: ${response.statusText} - scheduler_log로 대체`);
+                    console.warn(`⚠️ [Phase 26] HTTP ${response.status}: ${response.statusText}`);
                 }
             } catch (error) {
                 console.warn('⚠️ [Phase 26] 진행도 데이터 로드 실패:', error.message);
             }
 
-            // 2. 대체 방법: scheduler_log.json에서 최신 타임스탬프 가져오기
             try {
-                // ✅ 새문제 #1 해결: fetchWithTimeout 적용
                 const response = await fetchWithTimeout('./data/scheduler_log.json?t=' + Date.now());
                 if (response.ok) {
                     const data = await response.json();
@@ -1000,7 +799,6 @@
                             status: '🟡 마무리 (50-100%)'
                         };
 
-                        // ✅ 새문제 #2 해결: Logger 사용
                         Logger.warn('Phase26', '폴백: scheduler_log.json에서 추출');
                         return phaseData;
                     }
@@ -1009,7 +807,6 @@
                 console.error('❌ [대체 데이터] scheduler_log.json도 로드 실패:', error.message);
             }
 
-            // 3. 최후의 보류: 현재 시간 사용
             console.warn('⚠️ [폴백] 현재 시간을 기본값으로 사용합니다');
             const now = new Date();
             const nextTime = new Date(now.getTime() + 10 * 60000);
@@ -1021,11 +818,10 @@
             };
         }
 
-        // ✅ 정확한 누적 합산 계산 (pandas cumsum 방식)
+        // ✅ 정확한 누적 합산 계산
         function calculateCumulativeProducts(data) {
             let currentSum = data.baseline || 117;
 
-            // 각 날짜별 누적 합계 배열 생성
             const cumulativeArray = data.daily_increment.map(item => {
                 currentSum += item.discovered;
                 return {
@@ -1036,7 +832,6 @@
                 };
             });
 
-            // 시간 기반 실시간 조정 (매시간 +4개, 매분 +0.1개)
             const now = new Date();
             const hour = now.getHours();
             const minutes = now.getMinutes();
@@ -1056,15 +851,12 @@
             };
         }
 
-        // ✅ 다이소 상품 누적 데이터 로드 (정확한 누적 + 실시간 증가)
+        // ✅ 다이소 상품 누적 데이터 로드
         async function loadCumulativeCount() {
             try {
-                // ✅ 올바른 경로로 누적 데이터 로드
                 const response = await fetchWithTimeout('./cumulative_products.json?t=' + Date.now());
                 if (response.ok) {
                     const data = await response.json();
-
-                    // ✅ 정확한 누적 합산 계산
                     const cumulative = calculateCumulativeProducts(data);
 
                     console.log(`📊 [누적 상품 추이]`, cumulative.cumulativeArray);
@@ -1083,223 +875,20 @@
             } catch (e) {
                 console.warn('⚠️ [누적 카운트] 로드 실패:', e.message);
             }
-            // ✅ 폴백: 기본값 + 동적 계산
-            const dynamic = calculateDynamicProductCount(117);
-            return { cumulative_total: dynamic.total, baseline: 117, last_updated: new Date().toISOString() };
+            return { cumulative_total: 117, baseline: 117, last_updated: new Date().toISOString() };
         }
 
-        // ✅ 모든 상품 파일 로드 (현재 발굴된 제품 수)
-        async function loadAllProductFiles() {
+        async function loadDaisoProducts() {
             try {
-                let currentTotal = 0;
-                const fileResults = {};
-
-                // 모든 상품 파일 로드
-                const productFiles = [
-                    { name: 'amazon_products.json', field: 'total_count' },
-                    { name: 'walmart_products.json', field: 'total_count' },
-                    { name: 'naver_shopping_products.json', field: 'total_count' },
-                    { name: 'oliveyoung_products.json', field: 'total_count' },
-                    { name: 'daiso_products.json', field: 'total_count' },
-                    { name: 'real_products.json', field: 'daiso_items' }
-                ];
-
-                for (const file of productFiles) {
-                    try {
-                        // ✅ 새문제 #1 해결: fetchWithTimeout 적용
-                        const response = await fetchWithTimeout(`./data/${file.name}?t=` + Date.now());
-                        if (response.ok) {
-                            const data = await response.json();
-                            let count = 0;
-
-                            if (file.field === 'daiso_items' && Array.isArray(data.daiso_items)) {
-                                count = data.daiso_items.length;
-                            } else if (data[file.field]) {
-                                count = data[file.field];
-                            }
-
-                            currentTotal += count;
-                            fileResults[file.name] = count;
-                            console.log(`✅ [${file.name}] ${count}개`);
-                        }
-                    } catch (e) {
-                        console.warn(`⚠️ [${file.name}] 로드 실패:`, e.message);
-                    }
-                }
-
-                // 누적 카운트 로드
                 const cumulative = await loadCumulativeCount();
-                // ✅ Critical Fix: cumulative.baseline 필드명 명확히 (baseline_products 제거)
-                const baselineValue = cumulative.baseline || BASELINE_PRODUCTS;
-                const newlyDiscovered = Math.max(0, currentTotal - baselineValue);
-                const totalCumulativeProducts = cumulative.cumulative_total + newlyDiscovered;
-
-                // ✅ 사용자 문제 2 해결: 상품 갯수 고정 문제 디버그
-                Logger.info('상품계산', `기준: ${baselineValue}개, 현재: ${currentTotal}개, 신규: ${newlyDiscovered}개`, {
-                    baseline: baselineValue,
-                    current: currentTotal,
-                    newlyDiscovered: newlyDiscovered,
-                    cumulativeBase: cumulative.cumulative_total,
-                    totalCumulativeProducts,
-                    breakdown: fileResults,
-                    version: cumulative.version || 'unknown',
-                    lastUpdated: cumulative.last_updated
-                });
-
-                // ✅ 강제 증가 테스트 (프로덕션에서는 제거)
-                if (DEBUG_MODE && newlyDiscovered === 0) {
-                    Logger.warn('상품계산', '신규 발굴 상품 없음 - 데이터 갱신 확인 필요');
-                }
-
-                // ✅ LocalStorage 캐싱 (문제 2 해결)
-                try {
-                    localStorage.setItem('jarvis_product_cache', JSON.stringify({
-                        total_products: totalCumulativeProducts,
-                        timestamp: new Date().toISOString(),
-                        breakdown: fileResults
-                    }));
-                } catch (e) {
-                    Logger.warn('상품계산', 'LocalStorage 캐싱 실패');
-                }
-
-                return {
-                    total_products: totalCumulativeProducts,
-                    cumulative_total: totalCumulativeProducts,
-                    current_discovered: currentTotal,
-                    newly_discovered: newlyDiscovered
-                };
-            } catch (error) {
-                Logger.error('상품계산', '전체 상품 로드 실패', error.message);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                // ✅ 문제 2 해결: 캐시 폴백 + 강화된 JSON.parse 예외처리
-                try {
-                    const rawData = localStorage.getItem('jarvis_product_cache');
-                    let cached = null;
-
-                    if (rawData && rawData.length > 0) {
-                        try {
-                            cached = JSON.parse(rawData);
-                            // 타입 검증
-                            if (typeof cached !== 'object' || cached === null) {
-                                Logger.error('상품계산', 'JSON.parse 결과 타입 오류', {
-                                    expectedType: 'object',
-                                    actualType: typeof cached,
-                                    value: cached
-                                });
-                                cached = null;
-                            }
-                        } catch (parseError) {
-                            Logger.error('상품계산', 'JSON.parse 실패 (product_cache)', {
-                                message: parseError.message,
-                                stack: parseError.stack,
-                                dataLength: rawData.length,
-                                data: rawData.substring(0, 200)
-                            });
-                            cached = null;  // ✅ 기본값으로 복구
-                        }
-                    }
-
-                    if (cached && typeof cached.total_products === 'number' && cached.total_products > 0) {
-=======
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-                // ✅ 문제 2 해결: 캐시 폴백 + JSON.parse 예외처리 강화
-                try {
-                    const rawData = localStorage.getItem('jarvis_product_cache');
-                    let cached = {};
-
-                    if (rawData) {
-                        try {
-                            cached = JSON.parse(rawData);
-                        } catch (parseError) {
-                            Logger.error('상품계산', 'JSON 파싱 실패', {
-                                message: parseError.message,
-                                stack: parseError.stack,
-                                dataLength: rawData.length
-                            });
-                            cached = {};  // ✅ 기본값으로 복구
-                        }
-                    }
-
-                    if (cached && cached.total_products) {
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-                        Logger.warn('상품계산', `캐시 사용: ${cached.total_products}개 (${cached.timestamp})`);
-                        return cached;
-                    }
-                } catch (e) {
-                    Logger.error('상품계산', 'LocalStorage 캐시 로드 실패', {
-                        message: e.message,
-                        stack: e.stack
-                    });
-                }
-            }
-            return null;
-        }
-
-        // ✅ 날짜 유효성 검사 함수 (엄격한 검증)
-        function isValidDate(d) {
-            if (!d) return false;
-            // ✅ Fix: 빈 문자열, null, undefined 명시적 제외
-            if (typeof d === 'string' && d.trim() === '') return false;
-
-            try {
-                const dateObj = new Date(d);
-                // ✅ Fix: NaN 체크 + 상식적 범위 검증 (1900-2100)
-                if (isNaN(dateObj.getTime())) return false;
-                const year = dateObj.getFullYear();
-                return year >= 1900 && year <= 2100;
+                return cumulative;
             } catch (e) {
-                return false;
+                Logger.warn('상품계산', 'Daiso 상품 로드 실패');
+                return null;
             }
         }
 
-        // ✅ 안전한 날짜 표시 함수 (formatSafeDate 통일)
-        function updateDateDisplay(elementId, value) {
-            const el = document.getElementById(elementId);
-            if (!el) {
-                Logger.warn('DateDisplay', `요소 없음: #${elementId}`);
-                return;
-            }
-
-            try {
-                if (value && isValidDate(value)) {
-                    // ✅ formatSafeDate 사용 (ISO 8601 → Asia/Seoul 로케일)
-                    const formatted = formatSafeDate(value, 'full');
-                    el.innerText = formatted;
-                    Logger.debug('DateDisplay', `정상 렌더링: #${elementId}`, { output: formatted });
-                } else {
-                    // 날짜가 없거나 유효하지 않으면 현재 시각으로 안전하게 대체
-                    const fallback = formatSafeDate(new Date().toISOString(), 'full');
-                    el.innerText = fallback;
-                    Logger.warn('DateDisplay', `폴백: 현재 시간 사용`, {
-                        elementId,
-                        input: value,
-                        fallback
-                    });
-                }
-            } catch (error) {
-                Logger.error('DateDisplay', `오류`, {
-                    message: error.message,
-                    elementId,
-                    value
-                });
-                el.innerText = formatSafeDate(new Date().toISOString(), 'full');
-            }
-        }
-
-        // ✅ 안전한 날짜 렌더링 함수 (Invalid Date 완벽 방지)
-        // ✅ 안전한 날짜 렌더링 함수 (ISO 8601 → Asia/Seoul 로케일)
+        // ✅ 안전한 날짜 렌더링
         function renderDateSafe(elementId, value) {
             const el = document.getElementById(elementId);
             if (!el) {
@@ -1308,30 +897,18 @@
             }
 
             try {
-                if (!isValidDate(value)) {
-                    // ✅ 기본값: formatSafeDate를 통해 현재 시간 표시 (일관된 포맷)
+                if (!value || isNaN(new Date(value).getTime())) {
                     const fallbackTime = formatSafeDate(new Date().toISOString(), 'full');
                     el.innerText = fallbackTime;
-                    Logger.warn('DateRender', `유효하지 않은 날짜: "${value}" → 현재 시간 사용`, {
-                        elementId,
-                        value,
-                        fallback: fallbackTime
-                    });
                     return;
                 }
 
-                // ✅ formatSafeDate 사용으로 ISO 8601 → 로케일 형식 통일
                 const formatted = formatSafeDate(value, 'full');
                 el.innerText = formatted;
-                Logger.debug('DateRender', `정상 렌더링: #${elementId}`, {
-                    elementId,
-                    input: value,
-                    output: formatted
-                });
+                Logger.debug('DateRender', `정상 렌더링: #${elementId}`);
             } catch (error) {
                 Logger.error('DateRender', `렌더링 실패`, {
                     message: error.message,
-                    stack: error.stack,
                     elementId,
                     value
                 });
@@ -1339,32 +916,201 @@
             }
         }
 
-        // ✅ 스케줄 정보 업데이트 (안전한 폴백 처리)
+        function updateTime() {
+            const now = new Date();
+            if (isNaN(now.getTime())) {
+                console.error('❌ 현재 시간 오류');
+                safeSetText('currentTime', '시간 오류');
+                return;
+            }
+            safeSetText('currentTime', formatSafeDate(now.toISOString(), 'full'));
+        }
+
+        let currentData = null;
+
+        function updateWorkLog(daisoData = null) {
+            if (!currentData || !currentData.events) {
+                console.log('⚠️ 데이터 없음');
+                return;
+            }
+
+            const events = currentData.events || [];
+            const completedEvents = events.filter(e => e.status === 'success');
+            const completedTaskCount = completedEvents.length;
+
+            const totalProducts = (daisoData && daisoData.cumulative_total) ? daisoData.cumulative_total : completedTaskCount;
+            safeSetText('completedCount', totalProducts.toString());
+            console.log(`📊 [누적 상품수] ${totalProducts}개`);
+
+            safeSetText('inProgressCount', '1');
+            safeSetText('pendingCount', '0');
+
+            const progress = Math.round((completedTaskCount / events.length) * 100) || 0;
+            safeSetText('totalProgress', progress + '%');
+            safeSetStyle('progressBar', 'width', progress + '%');
+
+            if (events.length > 0) {
+                const oldestEvent = events[events.length - 1];
+                const nextTaskText = `${oldestEvent.task_name} >> ${oldestEvent.details}`;
+                safeSetText('nextTaskInfo', nextTaskText);
+            }
+
+            let currentHtml = '';
+            if (events.length > 0) {
+                const latestEvent = events[0];
+                const dateTimeStr = formatSafeDate(latestEvent.timestamp, 'full');
+                const taskName = latestEvent.task_name || '알 수 없는 작업';
+                const taskDetails = latestEvent.details || '상세정보 없음';
+                const discoveredCount = latestEvent.discovered_count || latestEvent.count || 0;
+
+                if (dateTimeStr !== '정보 없음') {
+                    currentHtml = `
+                        <div class="log-item">
+                            <span class="log-title">✅ ${taskName}</span>
+                            <span class="log-count">${discoveredCount > 0 ? `(${discoveredCount}개)` : ''}</span>
+                            <span class="log-details">${taskDetails}</span>
+                            <span class="log-time">${dateTimeStr}</span>
+                        </div>
+                    `;
+                } else {
+                    currentHtml = '<div class="log-entry completed"><span style="color: #ff6b6b;">⚠️ 날짜 데이터 오류</span></div>';
+                }
+            }
+            const currentWorkDefault = '<div class="log-entry completed"><span style="color: #aaa;">진행 중인 작업 없음</span></div>';
+            safeSetHTML('currentWorkLog', currentHtml || currentWorkDefault);
+
+            let completedHtml = '';
+            const recentEvents = events.slice(0, RECENT_EVENTS_LIMIT);
+            recentEvents.forEach(task => {
+                const dateTimeStr = formatSafeDate(task.timestamp, 'full');
+                const taskName = task.task_name || '알 수 없는 작업';
+                const taskDetails = task.details || '상세정보 없음';
+                const discoveredCount = task.discovered_count || task.count || 0;
+
+                if (dateTimeStr !== '정보 없음') {
+                    completedHtml += `
+                        <div class="log-item">
+                            <span class="log-title">✅ ${taskName}</span>
+                            <span class="log-count">${discoveredCount > 0 ? `(${discoveredCount}개)` : ''}</span>
+                            <span class="log-details">${taskDetails}</span>
+                            <span class="log-time">${dateTimeStr}</span>
+                        </div>
+                    `;
+                }
+            });
+            const completedDefault = '<div class="log-entry completed"><span style="color: #aaa;">완료된 작업 없음</span></div>';
+            safeSetHTML('todayCompletedLog', completedHtml || completedDefault);
+
+            let historyHtml = '';
+            events.forEach(task => {
+                const dateTimeStr = formatSafeDate(task.timestamp, 'full');
+                const taskName = task.task_name || '알 수 없는 작업';
+                const taskDetails = task.details || '상세정보 없음';
+                const discoveredCount = task.discovered_count || task.count || 0;
+
+                if (dateTimeStr !== '정보 없음') {
+                    historyHtml += `
+                        <div class="log-item">
+                            <span class="log-title">✅ ${taskName}</span>
+                            <span class="log-count">${discoveredCount > 0 ? `(${discoveredCount}개)` : ''}</span>
+                            <span class="log-details">${taskDetails}</span>
+                            <span class="log-time">${dateTimeStr}</span>
+                        </div>
+                    `;
+                }
+            });
+            const historyDefault = '<div class="log-entry pending"><span style="color: #aaa;">작업 없음</span></div>';
+            safeSetHTML('recentHistory', historyHtml || historyDefault);
+        }
+
+        let countdownSeconds = COUNTDOWN_DISPLAY;
+        function updateCountdown() {
+            countdownSeconds--;
+            safeSetText('refreshCountdown', countdownSeconds.toString());
+
+            if (countdownSeconds <= 0) {
+                countdownSeconds = COUNTDOWN_DISPLAY;
+                updateWorkLog();
+            }
+        }
+
+        async function initialize() {
+            await dataLock.lock('initialize');
+
+            try {
+                updateTime();
+                await updateScheduleInfo();
+
+                const realData = await loadRealData();
+                let daisoData = null;
+
+                if (realData) {
+                    currentData = realData;
+                    console.log('✅ 작업 데이터 사용');
+
+                    daisoData = await loadDaisoProducts();
+                    if (daisoData) {
+                        console.log(`📊 [다이소 누적 상품수] ${daisoData.cumulative_total}개`);
+                        updateWorkLog(daisoData);
+                    } else {
+                        console.warn('⚠️ [다이소] 상품 데이터 없음');
+                        updateWorkLog();
+                    }
+                } else {
+                    console.error('❌ [거짓말 검증] 작업 데이터 없음');
+                    safeSetText('completedCount', '?');
+                    safeSetText('inProgressCount', '?');
+                    safeSetText('pendingCount', '?');
+                    safeSetText('totalProgress', '?');
+
+                    const errorHtml = '<div style="color: #ff6b6b; padding: 20px; text-align: center;">⚠️ 실제 데이터 없음</div>';
+                    safeSetHTML('currentWorkLog', errorHtml);
+                    safeSetHTML('todayCompletedLog', errorHtml);
+                    safeSetHTML('recentHistory', errorHtml);
+                    safeSetText('nextTaskInfo', '⚠️ 실제 데이터 없음');
+                }
+
+                const phaseData = await loadPhaseData();
+                if (phaseData) {
+                    console.log('✅ Phase 26 진행도 데이터 로드 완료');
+                    renderDateSafe('last-update', phaseData.last_updated);
+                    renderDateSafe('next-automation', phaseData.next_automation);
+                } else {
+                    console.error('❌ Phase 26 진행도 데이터 로드 실패');
+                    renderDateSafe('last-update', null);
+                    renderDateSafe('next-automation', null);
+                }
+
+                startRefresh();
+            } catch (error) {
+                Logger.error('Initialize', '초기화 중 오류 발생', {
+                    message: error.message,
+                    stack: error.stack
+                });
+            } finally {
+                dataLock.unlock('initialize');
+                Logger.info('Initialize', '초기화 완료');
+            }
+        }
+
         async function updateScheduleInfo() {
             try {
-                // ✅ 새문제 #1 해결: fetchWithTimeout 적용
                 const response = await fetchWithTimeout('./data/phase_26_progress.json?t=' + Date.now());
                 if (!response.ok) throw new Error('phase_26_progress.json 로드 실패');
 
                 const data = await response.json();
 
-                // JSON 내부의 실제 키 이름과 일치 확인
                 const rawLast = data.last_updated || data.lastUpdate || data.timestamp;
                 const rawNext = data.next_automation || data.nextAutomation || new Date(Date.now() + 600000);
 
-                // 유효한 날짜인지 검증 후 렌더링
-                renderDateSafe('last-update', isValidDate(rawLast) ? rawLast : null);
-                renderDateSafe('next-automation', isValidDate(rawNext) ? rawNext : new Date(Date.now() + 600000).toISOString());
+                renderDateSafe('last-update', rawLast);
+                renderDateSafe('next-automation', rawNext);
 
-                console.log('✅ [updateScheduleInfo] 스케줄 정보 업데이트 완료:', {
-                    last_updated: rawLast,
-                    next_automation: rawNext
-                });
+                console.log('✅ [updateScheduleInfo] 스케줄 정보 업데이트 완료');
 
             } catch (error) {
                 console.error(`❌ [updateScheduleInfo] 에러: ${error.message}`);
 
-                // 폴백: scheduler_log.json에서 데이터 가져오기
                 try {
                     const fallbackResponse = await fetch('./data/scheduler_log.json?t=' + Date.now());
                     if (fallbackResponse.ok) {
@@ -1384,7 +1130,6 @@
                     console.warn(`⚠️ [updateScheduleInfo] 폴백 실패:`, fallbackError.message);
                 }
 
-                // 최종 폴백: 현재 시간
                 const now = new Date().toISOString();
                 const next10min = new Date(Date.now() + 600000).toISOString();
                 renderDateSafe('last-update', now);
@@ -1393,282 +1138,11 @@
             }
         }
 
-        // ✅ 안전한 날짜 설정 함수 (Invalid Date 방지)
-        function setSafeDateText(elementId, dateValue, defaultLabel = '') {
-            const el = document.getElementById(elementId);
-            if (!el) {
-                console.warn(`⚠️ [setSafeDateText] 요소 없음: ${elementId}`);
-                return;
-            }
-
-            try {
-                if (!dateValue) {
-                    const now = new Date().toLocaleString('ko-KR');
-                    el.innerText = defaultLabel ? `${defaultLabel}: ${now}` : now;
-                    return;
-                }
-
-                const parsed = new Date(dateValue);
-                if (isNaN(parsed.getTime())) {
-                    const now = new Date().toLocaleString('ko-KR');
-                    el.innerText = defaultLabel ? `${defaultLabel}: ${now}` : now;
-                    console.warn(`⚠️ [setSafeDateText] 유효하지 않은 날짜: ${dateValue}, 현재 시간으로 대체`);
-                } else {
-                    const formatted = parsed.toLocaleString('ko-KR');
-                    el.innerText = defaultLabel ? `${defaultLabel}: ${formatted}` : formatted;
-                }
-            } catch (error) {
-                console.error(`❌ [setSafeDateText] 에러:`, error.message);
-                const now = new Date().toLocaleString('ko-KR');
-                el.innerText = defaultLabel ? `${defaultLabel}: ${now}` : now;
-            }
-        }
-
-        function updateTime() {
-            const now = new Date();
-            if (isNaN(now.getTime())) {
-                console.error('❌ 현재 시간 오류');
-                safeSetText('currentTime', '시간 오류');
-                return;
-            }
-            safeSetText('currentTime', formatSafeDate(now.toISOString(), 'full'));
-        }
-
-        function updateWorkLog(daisoData = null) {
-            if (!currentData || !currentData.events) {
-                console.log('⚠️ 데이터 없음');
-                return;
-            }
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            // ⚠️ 배열 순서 명확화 (중요!)
-            // events[0] = 가장 최신 항목 (최근 작업)
-            // events[length-1] = 가장 오래된 항목 (과거 작업/다음 할 일)
-            //
-            // 사용 예시:
-            // - events.slice(0, 6) = 최신 6개 항목
-            // - events[events.length-1] = 가장 오래된 항목
-            // - events.filter(...) = 상태별 필터링 (순서 유지)
-=======
-            // ⚠️ 배열 순서 명확화
-            // events[0] = 최신 항목 (최근순)
-            // events[length-1] = 오래된 항목 (가장 오래된순)
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
-            // ⚠️ 배열 순서 명확화
-            // events[0] = 최신 항목 (최근순)
-            // events[length-1] = 오래된 항목 (가장 오래된순)
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-=======
-            // ⚠️ 배열 순서 명확화
-            // events[0] = 최신 항목 (최근순)
-            // events[length-1] = 오래된 항목 (가장 오래된순)
->>>>>>> 162c9f1afe20620410b5418ec28038a733c13be7
-            const events = currentData.events || [];
-            const completedEvents = events.filter(e => e.status === 'success');
-            const completedTaskCount = completedEvents.length; // ✅ Critical Fix: 변수명 분리
-
-            // 통계 업데이트 - 안전한 DOM 접근
-            // 📊 누적 상품 개수 (다이소)
-            // ✅ Critical Fix: daisoData.total_products 유효성 검증 추가
-            const totalProducts = (daisoData && daisoData.total_products) ? daisoData.total_products : completedTaskCount;
-            safeSetText('completedCount', totalProducts.toString());
-            console.log(`📊 [누적 상품수] ${totalProducts}개 (다이소 발굴 누적) | 완료된 작업: ${completedTaskCount}개`);
-
-            safeSetText('inProgressCount', '1');
-            safeSetText('pendingCount', '0');
-
-            const progress = Math.round((completedTaskCount / events.length) * 100) || 0;
-            safeSetText('totalProgress', progress + '%');
-            safeSetStyle('progressBar', 'width', progress + '%');
-
-            // 다음 작업 표시 - 안전한 DOM 접근
-            if (events.length > 0) {
-                // ✅ Critical Fix: 명확한 변수명 사용 (oldestEvent)
-                const oldestEvent = events[events.length - 1];
-                const nextTaskText = `${oldestEvent.task_name} >> ${oldestEvent.details}`;
-                safeSetText('nextTaskInfo', nextTaskText);
-            }
-
-            // 최근 진행 중인 작업 (가장 최신) - 새로운 형식
-            let currentHtml = '';
-            if (events.length > 0) {
-                // ✅ Critical Fix: 명확한 변수명 사용 (latestEvent)
-                const latestEvent = events[0];
-                const dateTimeStr = formatSafeDate(latestEvent.timestamp, 'full');
-                const taskName = latestEvent.task_name || '알 수 없는 작업';
-                const taskDetails = latestEvent.details || '상세정보 없음';
-                // ✅ 사용자 요청: 발굴한 상품 갯수 표시
-                const discoveredCount = latestEvent.discovered_count || latestEvent.count || 0;
-                const countDisplay = discoveredCount > 0 ? ` (+${discoveredCount}개)` : '';
-
-                if (dateTimeStr !== '정보 없음') {
-                    currentHtml = `
-                        <div class="log-item">
-                            <span class="log-title">✅ ${taskName}</span>
-                            <span class="log-count">${discoveredCount > 0 ? `(${discoveredCount}개)` : ''}</span>
-                            <span class="log-details">${taskDetails}</span>
-                            <span class="log-time">${dateTimeStr}</span>
-                        </div>
-                    `;
-                } else {
-                    currentHtml = '<div class="log-entry completed"><span style="color: #ff6b6b;">⚠️ 날짜 데이터 오류</span></div>';
-                }
-            }
-            // 안전한 DOM 접근으로 현재 작업 표시
-            const currentWorkDefault = '<div class="log-entry completed"><span style="color: #aaa;">진행 중인 작업 없음</span></div>';
-            safeSetHTML('currentWorkLog', currentHtml || currentWorkDefault);
-
-            // 오늘 완료된 작업 (최신 N개) - 새로운 형식
-            let completedHtml = '';
-            // ✅ Fix: 하드코딩된 6을 상수로 변경
-            // ⚠️ 배열 순서: slice(0, N) = 최신 N개 항목 (events[0]부터 N-1까지)
-            const recentEvents = events.slice(0, RECENT_EVENTS_LIMIT);
-            recentEvents.forEach(task => {
-                const dateTimeStr = formatSafeDate(task.timestamp, 'full');
-                const taskName = task.task_name || '알 수 없는 작업';
-                const taskDetails = task.details || '상세정보 없음';
-                // ✅ 사용자 요청: 발굴한 상품 갯수 표시
-                const discoveredCount = task.discovered_count || task.count || 0;
-                const countDisplay = discoveredCount > 0 ? ` (+${discoveredCount}개)` : '';
-
-                if (dateTimeStr !== '정보 없음') {
-                    completedHtml += `
-                        <div class="log-item">
-                            <span class="log-title">✅ ${taskName}</span>
-                            <span class="log-count">${discoveredCount > 0 ? `(${discoveredCount}개)` : ''}</span>
-                            <span class="log-details">${taskDetails}</span>
-                            <span class="log-time">${dateTimeStr}</span>
-                        </div>
-                    `;
-                }
-            });
-            const completedDefault = '<div class="log-entry completed"><span style="color: #aaa;">완료된 작업 없음</span></div>';
-            safeSetHTML('todayCompletedLog', completedHtml || completedDefault);
-
-            // 최근 작업 히스토리 (전체) - 새로운 형식
-            let historyHtml = '';
-            events.forEach(task => {
-                const dateTimeStr = formatSafeDate(task.timestamp, 'full');
-                const taskName = task.task_name || '알 수 없는 작업';
-                const taskDetails = task.details || '상세정보 없음';
-                // ✅ 사용자 요청: 발굴한 상품 갯수 표시
-                const discoveredCount = task.discovered_count || task.count || 0;
-                const countDisplay = discoveredCount > 0 ? ` (+${discoveredCount}개)` : '';
-
-                if (dateTimeStr !== '정보 없음') {
-                    historyHtml += `
-                        <div class="log-item">
-                            <span class="log-title">✅ ${taskName}</span>
-                            <span class="log-count">${discoveredCount > 0 ? `(${discoveredCount}개)` : ''}</span>
-                            <span class="log-details">${taskDetails}</span>
-                            <span class="log-time">${dateTimeStr}</span>
-                        </div>
-                    `;
-                }
-            });
-            const historyDefault = '<div class="log-entry pending"><span style="color: #aaa;">작업 없음</span></div>';
-            safeSetHTML('recentHistory', historyHtml || historyDefault);
-        }
-
-        // ✅ 상수 정의 (하드코딩된 숫자 제거)
-        const RECENT_EVENTS_LIMIT = 6;  // 최근 작업 표시 개수
-        const REFRESH_INTERVAL = 30000; // 30초 (라인 986에서 사용)
-        const COUNTDOWN_DISPLAY = 30;   // 사용자에게 표시되는 카운트다운
-
-        let countdownSeconds = COUNTDOWN_DISPLAY;
-        function updateCountdown() {
-            countdownSeconds--;
-            safeSetText('refreshCountdown', countdownSeconds.toString());
-
-            if (countdownSeconds <= 0) {
-                countdownSeconds = COUNTDOWN_DISPLAY;
-                updateWorkLog();
-            }
-        }
-
-        // 초기화 - 실제 데이터만 로드 (거짓 데이터 절대 금지)
-        async function initialize() {
-            // ✅ Race condition 방지: 초기화 중 데이터 갱신 차단
-            await dataLock.lock('initialize');
-
-            try {
-                updateTime();
-
-                // ✅ 스케줄 정보 업데이트 (안전한 폴백 처리)
-                await updateScheduleInfo();
-
-            // ✅ scheduler_log.json 로드
-            const realData = await loadRealData();
-            let daisoData = null;
-
-            if (realData) {
-                currentData = realData;
-                console.log('✅ 작업 데이터 사용');
-
-                // ✅ 다이소 상품 누적 데이터 로드
-                daisoData = await loadDaisoProducts();
-                if (daisoData) {
-                    console.log(`📊 [다이소 누적 상품수] ${daisoData.total_products}개`);
-                    updateWorkLog(daisoData);
-                } else {
-                    console.warn('⚠️ [다이소] 상품 데이터 없음, 작업 개수로 표시');
-                    updateWorkLog();
-                }
-            } else {
-                console.error('❌ [거짓말 검증] 작업 데이터 없음 - 모의 데이터 표시 금지');
-                // 안전한 DOM 접근으로 에러 메시지 표시
-                safeSetText('completedCount', '?');
-                safeSetText('inProgressCount', '?');
-                safeSetText('pendingCount', '?');
-                safeSetText('totalProgress', '?');
-
-                const errorHtml = '<div style="color: #ff6b6b; padding: 20px; text-align: center;">⚠️ 실제 데이터 없음</div>';
-                safeSetHTML('currentWorkLog', errorHtml);
-                safeSetHTML('todayCompletedLog', errorHtml);
-                safeSetHTML('recentHistory', errorHtml);
-                safeSetText('nextTaskInfo', '⚠️ 실제 데이터 없음');
-            }
-
-            // ✅ phase_26_progress.json 로드
-            const phaseData = await loadPhaseData();
-            if (phaseData) {
-                console.log('✅ Phase 26 진행도 데이터 로드 완료', {
-                    last_updated: phaseData.last_updated,
-                    next_automation: phaseData.next_automation
-                });
-                renderDateSafe('last-update', phaseData.last_updated);
-                renderDateSafe('next-automation', phaseData.next_automation);
-            } else {
-                console.error('❌ Phase 26 진행도 데이터 로드 실패');
-                renderDateSafe('last-update', null);
-                renderDateSafe('next-automation', null);
-            }
-
-            // ✅ 정기적 업데이트 - startRefresh()로 관리
-            startRefresh();
-            } catch (error) {
-                Logger.error('Initialize', '초기화 중 오류 발생', {
-                    message: error.message,
-                    stack: error.stack
-                });
-            } finally {
-                // ✅ Race condition 방지: 초기화 완료 후 락 해제
-                dataLock.unlock('initialize');
-                Logger.info('Initialize', '초기화 완료');
-            }
-        }
-
-        // DOM 완전 로드 후 초기화
         if (document.readyState === 'loading') {
             document.addEventListener('DOMContentLoaded', initialize);
         } else {
             initialize();
         }
-
-        // ✅ DOMContentLoaded 통합 완료 - initialize() 함수에서 모든 처리
     </script>
 </body>
 </html>
