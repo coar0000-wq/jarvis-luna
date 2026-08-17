@@ -1,0 +1,56 @@
+name: 🧪 JARVIS 간단 테스트 (수동 실행만)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  simple_test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4.1.7
+
+      - name: Python 설정
+        uses: actions/setup-python@v5.2
+        with:
+          python-version: '3.10'
+
+      - name: 필수 라이브러리 설치
+        run: |
+          pip install requests feedparser --break-system-packages
+          echo "✅ 라이브러리 설치 완료"
+
+      - name: 📁 데이터 디렉토리 확인
+        run: |
+          ls -la data/ 2>&1 || echo "❌ data 폴더 없음"
+          if [ -f "data/jarvis_work_detailed_log.json" ]; then
+            echo "✅ 로그 파일 존재"
+            head -30 data/jarvis_work_detailed_log.json
+          else
+            echo "❌ 로그 파일 없음"
+          fi
+
+      - name: 📝 테스트: 작업 기록하기
+        run: |
+          python scripts/record_task_result.py "GitHub Actions 테스트" "completed" 5 10
+
+      - name: 📊 기록 확인
+        run: |
+          echo "=== 기록된 데이터 ==="
+          cat data/jarvis_work_detailed_log.json | python -m json.tool | head -50
+
+      - name: 📤 결과 커밋
+        run: |
+          git config --local user.email "jarvis@test.local"
+          git config --local user.name "JARVIS Test"
+          git add data/jarvis_work_detailed_log.json
+          git commit -m "🧪 테스트: 작업 기록 검증" || echo "변경사항 없음"
+          git push origin main || echo "푸시 실패"
+
+      - name: ✅ 완료
+        run: |
+          echo "테스트 완료!"
+          echo "대시보드에서 실시간으로 업데이트 확인: https://coar0000.github.io/jarvis-luna/"

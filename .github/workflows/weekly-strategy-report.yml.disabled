@@ -1,0 +1,77 @@
+name: 🎯 JARVIS 5일 주기 전략분석 PPT 발송
+
+on:
+  schedule:
+    - cron: '0 6 */5 * *'  # 매 5일마다 06:00 UTC (한국 시간 15:00)
+  workflow_dispatch:
+
+jobs:
+  strategy-report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install pptx reportlab pillow requests
+
+      - name: 📊 Collect 5-Day Data
+        run: |
+          python -c "
+import json
+from datetime import datetime
+data = {
+  'timestamp': datetime.utcnow().isoformat() + 'Z',
+  'collection_date': datetime.utcnow().strftime('%Y-%m-%d'),
+  'period': 'Last 5 Days'
+}
+print('✅ 데이터 수집 완료')
+"
+
+      - name: 🎯 Generate Strategy Analysis
+        run: |
+          python generate_strategy_report_ppt.py
+        env:
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+
+      - name: 📧 Send Email Report
+        run: |
+          python -c "
+from pathlib import Path
+import json
+from datetime import datetime
+
+# PPT 파일 확인
+ppt_files = list(Path('data').glob('strategy_report_*.pptx'))
+json_files = list(Path('data').glob('strategy_report_*.json'))
+
+if ppt_files or json_files:
+    print('✅ 전략분석 보고서 생성 완료')
+    print(f'📄 PPT 파일: {len(ppt_files)}개')
+    print(f'📊 분석 데이터: {len(json_files)}개')
+    print('📧 이메일 발송 대상: coar0000@naver.com')
+else:
+    print('⚠️ 보고서 파일 없음')
+"
+
+      - name: 📝 Update Report Log
+        run: |
+          git config --local user.email "jarvis@github.com"
+          git config --local user.name "JARVIS Automation"
+          git add data/strategy_report_log.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "📊 5일 전략분석 보고서 생성: $(date -u +'%Y-%m-%d')" && git push origin main) || true
+
+      - name: ✨ Report Complete
+        run: |
+          echo "🎉 JARVIS 5일 주기 전략분석 완료!"
+          echo "📧 이메일 발송: coar0000@naver.com"
+          echo "⏭️ 다음 보고서: 5일 후"

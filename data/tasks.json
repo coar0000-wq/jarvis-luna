@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "💊 의료 AI 팀",
+      "progress": 75,
+      "status": "진행중",
+      "updated": "2026-08-16T12:30:00Z"
+    },
+    {
+      "id": 2,
+      "name": "⚛️ 양자 알고리즘",
+      "progress": 60,
+      "status": "진행중",
+      "updated": "2026-08-16T12:30:00Z"
+    },
+    {
+      "id": 3,
+      "name": "🎵 음악 AI",
+      "progress": 85,
+      "status": "진행중",
+      "updated": "2026-08-16T12:30:00Z"
+    },
+    {
+      "id": 4,
+      "name": "💼 비즈니스 전략",
+      "progress": 70,
+      "status": "진행중",
+      "updated": "2026-08-16T12:30:00Z"
+    }
+  ],
+  "lastUpdate": "2026-08-16T12:30:00Z"
+}

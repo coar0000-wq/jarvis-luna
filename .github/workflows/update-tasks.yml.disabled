@@ -1,0 +1,56 @@
+name: 🤖 JARVIS Auto Update Tasks
+
+# ⏰ 매 1분마다 실행
+on:
+  schedule:
+    - cron: '* * * * *'  # 매 분 실행
+
+  # 수동으로도 실행 가능
+  workflow_dispatch:
+
+jobs:
+  update-tasks:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 📦 저장소 체크아웃
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # 🐍 Python 설정
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      # 📦 필수 라이브러리 설치
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 🚀 활동 로그 업데이트 실행 (실제 데이터 수집)
+      - name: Run JARVIS Activity Log Update
+        run: python update_activity_log.py
+
+      # 📝 변경사항 커밋 및 푸시
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "JARVIS Automation"
+
+          if git diff-index --quiet HEAD --; then
+            echo "✅ No changes to commit"
+          else
+            git add data/activity_log.json
+            git commit -m "🤖 [JARVIS] 실제 데이터 수집 완료 - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push
+            echo "✅ Changes pushed to repository"
+          fi
+
+      # 📊 완료 로그
+      - name: Log Completion
+        run: |
+          echo "🎉 JARVIS 자동 업데이트 완료!"
+          echo "⏰ 실행 시간: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          echo "📍 GitHub Actions: https://github.com/${{ github.repository }}/actions"

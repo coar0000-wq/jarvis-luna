@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "category": "🤖 JARVIS 진화",
+      "items": []
+    },
+    {
+      "id": 2,
+      "category": "💊 의료 AI 플랫폼",
+      "items": []
+    },
+    {
+      "id": 3,
+      "category": "💼 사업 플랫폼",
+      "items": []
+    },
+    {
+      "id": 4,
+      "category": "🚀 기술 인프라",
+      "items": []
+    }
+  ],
+  "summary": {
+    "total_projects": 4,
+    "categories": 4,
+    "total_items": 0,
+    "completed": 0,
+    "in_progress": 0,
+    "average_progress": 0,
+    "success_rate": "0%",
+    "verification": "✅ 실제 데이터만 사용",
+    "last_update": "2026-08-17T14:30:00+00:00",
+    "next_update": "2026-08-17T14:40:00+00:00"
+  },
+  "lastUpdate": "2026-08-17T04:36:39.121372Z"
+}

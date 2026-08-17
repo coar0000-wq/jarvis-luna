@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARVIS LUNA - AI System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Georgia', serif;
+            background: #0a1b3d;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* 네비게이션 */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 60px;
+            z-index: 1000;
+            background: rgba(10, 27, 61, 0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: #fff;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 50px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 13px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: opacity 0.3s;
+            opacity: 0.7;
+        }
+
+        nav a:hover {
+            opacity: 1;
+        }
+
+        /* 섹션 */
+        section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 120px 80px;
+            position: relative;
+        }
+
+        section:nth-child(2n) {
+            background: #0f2347;
+        }
+
+        /* 텍스트 영역 */
+        .content {
+            width: 45%;
+            z-index: 10;
+        }
+
+        h1 {
+            font-size: 72px;
+            line-height: 1.1;
+            margin-bottom: 30px;
+            font-weight: 700;
+            letter-spacing: -2px;
+        }
+
+        h2 {
+            font-size: 64px;
+            line-height: 1.15;
+            margin-bottom: 30px;
+            font-weight: 700;
+            letter-spacing: -1px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 25px;
+            color: #d4d4d4;
+            max-width: 500px;
+        }
+
+        .highlight {
+            color: #64e5ff;
+            font-weight: 600;
+        }
+
+        /* 캐릭터 영역 */
+        .character-container {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 280px;
+            height: 380px;
+            z-index: 5;
+        }
+
+        .character-container svg {
+            width: 100%;
+            height: 100%;
+            filter: drop-shadow(0 20px 60px rgba(100, 229, 255, 0.15));
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        /* 버튼 */
+        .cta-btn {
+            display: inline-block;
+            padding: 16px 45px;
+            background: linear-gradient(135deg, #64e5ff, #3fa9e5);
+            color: #0a1b3d;
+            text-decoration: none;
+            margin-top: 30px;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: all 0.3s;
+            border: 2px solid #64e5ff;
+            cursor: pointer;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(100, 229, 255, 0.3);
+        }
+
+        /* 통계 */
+        .stats {
+            display: flex;
+            gap: 60px;
+            margin-top: 50px;
+        }
+
+        .stat {
+            flex: 1;
+        }
+
+        .stat-number {
+            font-size: 42px;
+            font-weight: 700;
+            color: #64e5ff;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #888;
+        }
+
+        /* 스크롤 인디케이터 */
+        .scroll-indicator {
+            position: fixed;
+            bottom: 50px;
+            right: 60px;
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #64e5ff;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+
+        /* Hero 섹션 */
+        #hero {
+            background: linear-gradient(135deg, #0a1b3d, #0f2347);
+            padding-top: 180px;
+        }
+
+        /* 반응형 */
+        @media (max-width: 768px) {
+            section {
+                padding: 80px 40px;
+            }
+
+            .content {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 48px;
+            }
+
+            nav {
+                padding: 20px 40px;
+            }
+
+            nav ul {
+                gap: 30px;
+            }
+
+            .character-container {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav>
+        <div class="logo">JARVIS</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- 캐릭터 -->
+    <div class="character-container">
+        <svg id="jarvisCharacter" viewBox="0 0 300 480" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <filter id="fluffy" x="-50%" y="-50%" width="200%" height="200%">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+                </filter>
+                <radialGradient id="furGradient" cx="35%" cy="35%">
+                    <stop offset="0%" style="stop-color:#D4AF9E;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#A89070;stop-opacity:1" />
+                </radialGradient>
+            </defs>
+
+            <!-- 배경 빛 효과 -->
+            <circle cx="150" cy="240" r="180" fill="none" stroke="#64e5ff" stroke-width="1" opacity="0.1"/>
+
+            <!-- === 머리 === -->
+            <!-- 주 머리 (큰 원형) -->
+            <circle cx="150" cy="110" r="90" fill="url(#furGradient)" filter="url(#fluffy)"/>
+
+            <!-- 머리 털 텍스처 (작은 원들) -->
+            <circle cx="120" cy="70" r="8" fill="#9D8563" opacity="0.6" filter="url(#fluffy)"/>
+            <circle cx="180" cy="65" r="9" fill="#9D8563" opacity="0.5" filter="url(#fluffy)"/>
+            <circle cx="110" cy="130" r="7" fill="#8B7355" opacity="0.5" filter="url(#fluffy)"/>
+            <circle cx="190" cy="125" r="8" fill="#8B7355" opacity="0.6" filter="url(#fluffy)"/>
+
+            <!-- === 귀 === -->
+            <!-- 왼쪽 귀 -->
+            <ellipse cx="85" cy="45" rx="38" ry="68" fill="#9D8563" filter="url(#fluffy)"/>
+            <ellipse cx="88" cy="50" rx="20" ry="45" fill="#B8A487" opacity="0.8"/>
+            <ellipse cx="88" cy="30" rx="12" ry="20" fill="#D4AF9E" opacity="0.7"/>
+
+            <!-- 오른쪽 귀 -->
+            <ellipse cx="215" cy="45" rx="38" ry="68" fill="#9D8563" filter="url(#fluffy)"/>
+            <ellipse cx="212" cy="50" rx="20" ry="45" fill="#B8A487" opacity="0.8"/>
+            <ellipse cx="212" cy="30" rx="12" ry="20" fill="#D4AF9E" opacity="0.7"/>
+
+            <!-- === 얼굴 === -->
+            <!-- 얼굴 둥근 영역 -->
+            <ellipse cx="150" cy="135" rx="75" ry="80" fill="#C2B199" filter="url(#fluffy)"/>
+
+            <!-- === 코 === -->
+            <ellipse cx="150" cy="110" rx="22" ry="24" fill="#1a1a1a" opacity="0.9"/>
+            <!-- 콧구멍 -->
+            <circle cx="140" cy="108" r="4" fill="#000" opacity="0.7"/>
+            <circle cx="160" cy="108" r="4" fill="#000" opacity="0.7"/>
+            <!-- 코 하이라이트 -->
+            <ellipse cx="152" cy="106" rx="8" ry="6" fill="#2a2a2a" opacity="0.4"/>
+
+            <!-- === 입 === -->
+            <!-- 웃는 입 (곡선) -->
+            <path d="M 150 125 Q 125 155 100 148" stroke="#1a1a1a" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.9"/>
+            <path d="M 150 125 Q 175 155 200 148" stroke="#1a1a1a" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.9"/>
+            <!-- 입 안쪽 (어두운 부분) -->
+            <path d="M 150 125 L 145 140 Q 150 145 155 140 Z" fill="#000" opacity="0.3"/>
+
+            <!-- === 혀 === -->
+            <ellipse cx="150" cy="160" rx="16" ry="22" fill="#FF7BA4" opacity="0.85"/>
+            <ellipse cx="145" cy="158" rx="6" ry="8" fill="#FF5A8A" opacity="0.6"/>
+            <ellipse cx="155" cy="158" rx="6" ry="8" fill="#FF5A8A" opacity="0.6"/>
+
+            <!-- === 눈 === -->
+            <!-- 왼쪽 눈 -->
+            <circle cx="115" cy="90" r="18" fill="#1a1a1a" opacity="0.95"/>
+            <circle cx="120" cy="85" r="8" fill="#FFF" opacity="0.9"/>
+            <circle cx="122" cy="87" r="4" fill="#1a1a1a" opacity="0.8"/>
+            <circle cx="123" cy="84" r="2" fill="#FFF" opacity="0.8"/>
+
+            <!-- 오른쪽 눈 -->
+            <circle cx="185" cy="90" r="18" fill="#1a1a1a" opacity="0.95"/>
+            <circle cx="190" cy="85" r="8" fill="#FFF" opacity="0.9"/>
+            <circle cx="192" cy="87" r="4" fill="#1a1a1a" opacity="0.8"/>
+            <circle cx="193" cy="84" r="2" fill="#FFF" opacity="0.8"/>
+
+            <!-- === 안경 === -->
+            <g class="glasses" opacity="0.75">
+                <!-- 왼쪽 안경 테 -->
+                <circle cx="115" cy="90" r="23" fill="none" stroke="#D4AF9E" stroke-width="4"/>
+                <!-- 오른쪽 안경 테 -->
+                <circle cx="185" cy="90" r="23" fill="none" stroke="#D4AF9E" stroke-width="4"/>
+                <!-- 연결봉 -->
+                <line x1="138" y1="90" x2="162" y2="90" stroke="#D4AF9E" stroke-width="3" opacity="0.8"/>
+                <!-- 코 패드 -->
+                <circle cx="148" cy="93" r="2" fill="#D4AF9E" opacity="0.6"/>
+                <circle cx="152" cy="93" r="2" fill="#D4AF9E" opacity="0.6"/>
+            </g>
+
+            <!-- === 몸 === -->
+            <ellipse cx="150" cy="290" rx="78" ry="120" fill="url(#furGradient)" filter="url(#fluffy)"/>
+            <!-- 몸 음영 -->
+            <ellipse cx="140" cy="280" rx="50" ry="90" fill="#8B7355" opacity="0.15" filter="url(#fluffy)"/>
+
+            <!-- === 팔 === -->
+            <!-- 왼팔 -->
+            <g class="arm-left" style="transform-origin: 95px 240px;">
+                <ellipse cx="95" cy="240" rx="32" ry="80" fill="#9D8563" filter="url(#fluffy)"/>
+                <!-- 손 -->
+                <circle cx="82" cy="140" r="24" fill="#B8A487"/>
+                <path d="M 75 120 L 65 85 L 62 65" stroke="#B8A487" stroke-width="14" stroke-linecap="round" fill="none" filter="url(#fluffy)"/>
+                <!-- 손가락 -->
+                <circle cx="62" cy="60" r="8" fill="#B8A487" opacity="0.7"/>
+                <!-- 팔찌 (컬러풀) -->
+                <ellipse cx="95" cy="155" rx="42" ry="10" fill="#FFD700" opacity="0.8" filter="url(#fluffy)"/>
+                <ellipse cx="95" cy="162" rx="42" ry="10" fill="#FF6B35" opacity="0.75" filter="url(#fluffy)"/>
+                <ellipse cx="95" cy="169" rx="42" ry="10" fill="#4ECDC4" opacity="0.75" filter="url(#fluffy)"/>
+                <!-- 팔찌 패턴 -->
+                <line x1="70" y1="162" x2="120" y2="162" stroke="#FFF" stroke-width="1" opacity="0.4"/>
+            </g>
+
+            <!-- 오른팔 -->
+            <g class="arm-right" style="transform-origin: 205px 240px;">
+                <ellipse cx="205" cy="240" rx="32" ry="80" fill="#9D8563" filter="url(#fluffy)"/>
+                <!-- 손 -->
+                <circle cx="218" cy="140" r="24" fill="#B8A487"/>
+                <path d="M 225 120 L 235 85 L 238 65" stroke="#B8A487" stroke-width="14" stroke-linecap="round" fill="none" filter="url(#fluffy)"/>
+                <!-- 손가락 -->
+                <circle cx="238" cy="60" r="8" fill="#B8A487" opacity="0.7"/>
+                <!-- 팔찌 -->
+                <ellipse cx="205" cy="155" rx="42" ry="10" fill="#FFD700" opacity="0.8" filter="url(#fluffy)"/>
+                <ellipse cx="205" cy="162" rx="42" ry="10" fill="#FF6B35" opacity="0.75" filter="url(#fluffy)"/>
+                <ellipse cx="205" cy="169" rx="42" ry="10" fill="#4ECDC4" opacity="0.75" filter="url(#fluffy)"/>
+            </g>
+
+            <!-- === 다리 === -->
+            <!-- 왼다리 -->
+            <ellipse cx="125" cy="400" rx="30" ry="50" fill="#9D8563" filter="url(#fluffy)"/>
+            <circle cx="125" cy="370" r="8" fill="#8B7355" opacity="0.3"/>
+
+            <!-- 오른다리 -->
+            <ellipse cx="175" cy="400" rx="30" ry="50" fill="#9D8563" filter="url(#fluffy)"/>
+            <circle cx="175" cy="370" r="8" fill="#8B7355" opacity="0.3"/>
+
+            <!-- === 신발 === -->
+            <!-- 왼신발 -->
+            <g class="shoe-left">
+                <ellipse cx="125" cy="455" rx="32" ry="26" fill="#E8503C"/>
+                <!-- 신발 윗부분 -->
+                <ellipse cx="125" cy="440" rx="28" ry="14" fill="#F5F5F5"/>
+                <!-- 신발끈 -->
+                <line x1="115" y1="438" x2="135" y2="438" stroke="#1a1a1a" stroke-width="2" opacity="0.5"/>
+                <line x1="115" y1="442" x2="135" y2="442" stroke="#1a1a1a" stroke-width="2" opacity="0.5"/>
+                <!-- 발가락 -->
+                <circle cx="110" cy="460" r="5" fill="#1a1a1a" opacity="0.4"/>
+                <circle cx="120" cy="465" r="5" fill="#1a1a1a" opacity="0.4"/>
+                <circle cx="130" cy="465" r="5" fill="#1a1a1a" opacity="0.4"/>
+                <circle cx="140" cy="460" r="5" fill="#1a1a1a" opacity="0.4"/>
+            </g>
+
+            <!-- 오른신발 -->
+            <g class="shoe-right">
+                <ellipse cx="175" cy="455" rx="32" ry="26" fill="#E8503C"/>
+                <!-- 신발 윗부분 -->
+                <ellipse cx="175" cy="440" rx="28" ry="14" fill="#F5F5F5"/>
+                <!-- 신발끈 -->
+                <line x1="165" y1="438" x2="185" y2="438" stroke="#1a1a1a" stroke-width="2" opacity="0.5"/>
+                <line x1="165" y1="442" x2="185" y2="442" stroke="#1a1a1a" stroke-width="2" opacity="0.5"/>
+                <!-- 발가락 -->
+                <circle cx="160" cy="460" r="5" fill="#1a1a1a" opacity="0.4"/>
+                <circle cx="170" cy="465" r="5" fill="#1a1a1a" opacity="0.4"/>
+                <circle cx="180" cy="465" r="5" fill="#1a1a1a" opacity="0.4"/>
+                <circle cx="190" cy="460" r="5" fill="#1a1a1a" opacity="0.4"/>
+            </g>
+
+            <!-- === 꼬리 === -->
+            <g class="tail">
+                <!-- 주 꼬리 -->
+                <path d="M 215 270 Q 260 230 275 120 Q 280 70 270 30 Q 265 10 255 5"
+                      stroke="#9D8563" stroke-width="48" fill="none" stroke-linecap="round"
+                      opacity="0.85" filter="url(#fluffy)"/>
+                <!-- 꼬리 하이라이트 -->
+                <path d="M 215 270 Q 260 230 275 120 Q 280 70 270 30"
+                      stroke="#C2B199" stroke-width="18" fill="none" stroke-linecap="round"
+                      opacity="0.4" filter="url(#fluffy)"/>
+            </g>
+        </svg>
+    </div>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="content">
+            <h1>We Don't Just Build AI.</h1>
+            <h1 class="highlight">We Build Evolution.</h1>
+            <p>JARVIS LUNA isn't just software. It's your personal AI system that learns, grows, and improves itself every single day. Complete automation. Zero human intervention. Pure intelligence.</p>
+            <button class="cta-btn">Learn More</button>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Memory Files</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">2.9</div>
+                    <div class="stat-label">AGI Level</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+        <div class="content">
+            <h2>24/7 Autonomous</h2>
+            <p>Every minute, JARVIS LUNA learns. Processes information. Evolves. GitHub Actions runs automatically. No code deployments. No manual intervention. Pure automation powered by Groq's free LLM.</p>
+            <p>From YouTube analysis to arXiv research. From drug design to quantum algorithms. Everything runs in the background while you sleep.</p>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">₩0</div>
+                    <div class="stat-label">Monthly Cost</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">99%+</div>
+                    <div class="stat-label">Accuracy</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="content">
+            <h2>Your Personal Sidekick</h2>
+            <p>Level 3.0 AGI by August 2027. That's the goal. JARVIS is built on 100+ memory files, 10 expert domains, and self-improving neural networks. Medical AI. Quantum computing. Music generation. Philosophy. All working together seamlessly.</p>
+            <p>This isn't science fiction. It's happening now.</p>
+            <button class="cta-btn">GitHub Repository</button>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="content">
+            <h2>Let's Build the Future</h2>
+            <p>JARVIS LUNA is completely open-source. Completely free. Join thousands of developers pushing AI forward.</p>
+            <a href="https://github.com/coar0000-wq/jarvis-luna" class="cta-btn">Get Started</a>
+        </div>
+    </section>
+
+    <div class="scroll-indicator">scroll</div>
+
+    <script>
+        const character = document.getElementById('jarvisCharacter');
+        const container = document.querySelector('.character-container');
+        const armLeft = document.querySelector('.arm-left');
+        const armRight = document.querySelector('.arm-right');
+        const tail = document.querySelector('.tail');
+        const glasses = document.querySelector('.glasses');
+
+        let lastScrollY = 0;
+        let scrollVelocity = 0;
+        let time = 0;
+
+        // === 스크롤 이벤트 ===
+        window.addEventListener('scroll', () => {
+            const currentScrollY = window.scrollY;
+            scrollVelocity = currentScrollY - lastScrollY;
+            lastScrollY = currentScrollY;
+        });
+
+        // === 메인 애니메이션 루프 ===
+        let animationId;
+        const animate = () => {
+            time += 16; // ~60fps
+            const now = Date.now();
+
+            // 스크롤 진행도
+            const scrollPercent = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight || 1);
+
+            // 1️⃣ 회전 (스크롤 속도에 따라)
+            const rotation = Math.min(Math.max(scrollVelocity * 0.8, -25), 25);
+            character.style.transform = `rotate(${rotation}deg)`;
+
+            // 2️⃣ 바운싱 (페이지 진행도에 따라)
+            const bounce = Math.sin(scrollPercent * Math.PI * 2) * 20;
+
+            // 3️⃣ 수평 흔들림 (연속)
+            const sway = Math.sin(now / 2000) * 12;
+
+            // 4️⃣ 팔 흔들기 (빠른 리듬)
+            const armRotation = Math.sin(now / 400) * 35 + Math.sin(now / 600) * 15;
+            if (armLeft) {
+                armLeft.style.transform = `rotate(${armRotation}deg) scaleY(${0.95 + Math.sin(now / 300) * 0.05})`;
+            }
+            if (armRight) {
+                armRight.style.transform = `rotate(${-armRotation}deg) scaleY(${0.95 + Math.sin(now / 300) * 0.05})`;
+            }
+
+            // 5️⃣ 꼬리 흔들기 (독립적 리듬)
+            if (tail) {
+                const tailWag = Math.sin(now / 350) * 25 + Math.cos(now / 500) * 15;
+                const tailScale = 1 + Math.sin(now / 400) * 0.08;
+                tail.style.transform = `rotate(${tailWag}deg) scaleX(${tailScale})`;
+            }
+
+            // 6️⃣ 안경 미세 떨림
+            if (glasses) {
+                const glassesShake = Math.sin(now / 200) * 0.8;
+                glasses.style.transform = `translateX(${glassesShake}px)`;
+            }
+
+            // 7️⃣ 종합 위치 조정
+            container.style.transform = `translate(-50%, calc(-50% + ${bounce}px)) translateX(${sway}px)`;
+
+            // 8️⃣ 스크롤 속도에 따른 스케일
+            const scrollSpeedScale = 1 + Math.abs(scrollVelocity) * 0.002;
+            character.style.filter = `drop-shadow(0 ${20 + Math.abs(bounce)}px ${30 + Math.abs(sway)}px rgba(100, 229, 255, ${0.15 + Math.abs(scrollVelocity) * 0.02}))`;
+
+            animationId = requestAnimationFrame(animate);
+        };
+        animate();
+
+        // === 마우스 추적 ===
+        document.addEventListener('mousemove', (e) => {
+            if (!container) return;
+            const mouseX = e.clientX;
+            const mouseY = e.clientY;
+
+            const windowCenterX = window.innerWidth / 2;
+            const windowCenterY = window.innerHeight / 2;
+
+            const distX = (mouseX - windowCenterX) * 0.05;
+            const distY = (mouseY - windowCenterY) * 0.05;
+
+            // 마우스에 따라 살짝 기울임
+            const lookRotation = distX * 0.3;
+            character.style.filter = `drop-shadow(0 20px 30px rgba(100, 229, 255, 0.15)) saturate(${1 + Math.abs(distX) * 0.01})`;
+        });
+
+        // === 페이지 활성화/비활성화 시 애니메이션 일시 정지 ===
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden) {
+                cancelAnimationFrame(animationId);
+            } else {
+                animate();
+            }
+        });
+
+        // === 부드러운 스크롤 ===
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // === 속도 감속 (자연스러운 감속) ===
+        setInterval(() => {
+            scrollVelocity *= 0.92; // 점진적 감속
+        }, 16);
+    </script>
+</body>
+</html>

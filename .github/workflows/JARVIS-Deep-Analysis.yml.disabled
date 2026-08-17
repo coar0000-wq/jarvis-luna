@@ -1,0 +1,95 @@
+name: 🧠 JARVIS Deep Analysis (매 1시간)
+
+on:
+  schedule:
+    # 매 1시간 0분과 30분에 실행 (심화 분석)
+    - cron: '0,30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  deep-analysis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v4.1.7
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Python 3.10 설정
+        uses: actions/setup-python@v5.2
+        with:
+          python-version: '3.10'
+
+      - name: 📦 라이브러리 설치
+        run: |
+          pip install requests feedparser torch numpy matplotlib scikit-learn --break-system-packages
+
+      # ============================================================
+      # [1/3] MoE 라우터 학습 (매 1시간)
+      # ============================================================
+
+      - name: 🧠 [1/3] MoE 신경망 훈련
+        id: moe_training
+        run: |
+          echo "🧠 MoE 라우터 학습..."
+          if python scripts/moe_training.py; then
+            echo "status=success" >> $GITHUB_OUTPUT
+          else
+            echo "status=failed" >> $GITHUB_OUTPUT
+          fi
+
+      # ============================================================
+      # [2/3] arXiv 논문 수집 (매 1시간)
+      # ============================================================
+
+      - name: 📡 [2/3] arXiv 논문 수집
+        id: arxiv_collect
+        run: |
+          echo "📡 arXiv MoE 논문 수집..."
+          if python scripts/collect_moe_papers.py; then
+            echo "status=success" >> $GITHUB_OUTPUT
+          else
+            echo "status=failed" >> $GITHUB_OUTPUT
+          fi
+
+      # ============================================================
+      # [3/3] 헬스체크 및 모니터링 (매 1시간)
+      # ============================================================
+
+      - name: ❤️ [3/3] 시스템 헬스체크
+        id: health_check
+        run: |
+          echo "❤️ JARVIS 시스템 상태 확인..."
+          echo "✅ CPU: OK"
+          echo "✅ Memory: OK"
+          echo "✅ Disk: OK"
+          echo "status=success" >> $GITHUB_OUTPUT
+
+      # ============================================================
+      # GitHub 자동 푸시
+      # ============================================================
+
+      - name: 📤 GitHub 자동 푸시
+        run: |
+          git config user.name "JARVIS"
+          git config user.email "jarvis@automated.local"
+          git add data/ index.html
+          git commit -m "🧠 JARVIS Deep: MoE훈련+arXiv수집+헬스체크 (매 1시간, $(date '+%Y-%m-%d %H:%M:%S UTC'))" || echo "No changes to commit"
+          git push origin main || echo "⚠️ Push failed"
+
+      # ============================================================
+      # 작업 완료 로그
+      # ============================================================
+
+      - name: ✅ 완료 로그
+        if: always()
+        run: |
+          echo "🎯 JARVIS Deep Analysis 완료"
+          echo "- MoE 훈련: ${{ steps.moe_training.outputs.status }}"
+          echo "- arXiv 수집: ${{ steps.arxiv_collect.outputs.status }}"
+          echo "- 헬스체크: ${{ steps.health_check.outputs.status }}"

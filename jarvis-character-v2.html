@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARVIS - Enhanced Character</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #0a1b3d, #0f2347);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+        }
+
+        svg {
+            width: 100%;
+            height: auto;
+            max-width: 400px;
+            margin: 0 auto;
+            display: block;
+            filter: drop-shadow(0 20px 60px rgba(100, 229, 255, 0.2));
+        }
+
+        h1 {
+            color: #64e5ff;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 24px;
+            letter-spacing: 2px;
+        }
+
+        .stats {
+            color: #ccc;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <svg id="jarvis" viewBox="0 0 320 520" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <filter id="furTexture">
+                    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" result="noise"/>
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="2"/>
+                </filter>
+                <radialGradient id="furShade" cx="35%" cy="35%">
+                    <stop offset="0%" style="stop-color:#E8B8A0;stop-opacity:1"/>
+                    <stop offset="100%" style="stop-color:#8B6F47;stop-opacity:1"/>
+                </radialGradient>
+                <linearGradient id="furHighlight" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#F5D7C8;stop-opacity:0.6"/>
+                    <stop offset="100%" style="stop-color:#A0826D;stop-opacity:0"/>
+                </linearGradient>
+            </defs>
+
+            <!-- 배경 하이라이트 -->
+            <circle cx="160" cy="260" r="200" fill="none" stroke="#64e5ff" stroke-width="1" opacity="0.15"/>
+
+            <!-- === 머리 === -->
+            <ellipse cx="160" cy="110" rx="95" ry="100" fill="url(#furShade)" filter="url(#furTexture)"/>
+
+            <!-- 머리 하이라이트 -->
+            <ellipse cx="140" cy="90" rx="60" ry="50" fill="url(#furHighlight)" opacity="0.5"/>
+
+            <!-- 머리 표면 질감 (작은 원들) -->
+            <circle cx="110" cy="70" r="5" fill="#8B6F47" opacity="0.4"/>
+            <circle cx="210" cy="75" r="6" fill="#8B6F47" opacity="0.3"/>
+            <circle cx="100" cy="130" r="4" fill="#7A5C3A" opacity="0.3"/>
+            <circle cx="220" cy="125" r="5" fill="#7A5C3A" opacity="0.35"/>
+
+            <!-- === 귀 === -->
+            <!-- 왼쪽 귀 -->
+            <g class="ear-left">
+                <ellipse cx="85" cy="30" rx="40" ry="75" fill="#9D8563" filter="url(#furTexture)"/>
+                <ellipse cx="85" cy="35" rx="22" ry="50" fill="#B8A487" opacity="0.8"/>
+                <ellipse cx="85" cy="20" rx="14" ry="25" fill="#D4AF9E" opacity="0.7"/>
+            </g>
+
+            <!-- 오른쪽 귀 -->
+            <g class="ear-right">
+                <ellipse cx="235" cy="30" rx="40" ry="75" fill="#9D8563" filter="url(#furTexture)"/>
+                <ellipse cx="235" cy="35" rx="22" ry="50" fill="#B8A487" opacity="0.8"/>
+                <ellipse cx="235" cy="20" rx="14" ry="25" fill="#D4AF9E" opacity="0.7"/>
+            </g>
+
+            <!-- === 얼굴 영역 === -->
+            <ellipse cx="160" cy="135" rx="80" ry="85" fill="#C8A882" filter="url(#furTexture)"/>
+
+            <!-- 얼굴 음영 -->
+            <ellipse cx="140" cy="130" rx="40" ry="60" fill="#8B6F47" opacity="0.15"/>
+
+            <!-- === 코 === -->
+            <ellipse cx="160" cy="105" rx="25" ry="28" fill="#1a1a1a" opacity="0.95"/>
+
+            <!-- 콧구멍 -->
+            <circle cx="148" cy="102" r="5" fill="#000" opacity="0.7"/>
+            <circle cx="172" cy="102" r="5" fill="#000" opacity="0.7"/>
+
+            <!-- 코 하이라이트 -->
+            <ellipse cx="162" cy="100" rx="10" ry="8" fill="#2a2a2a" opacity="0.4"/>
+
+            <!-- === 입 === -->
+            <!-- 주요 입 곡선 -->
+            <path d="M 160 125 Q 130 160 105 150" stroke="#1a1a1a" stroke-width="4.5" fill="none" stroke-linecap="round" opacity="0.95"/>
+            <path d="M 160 125 Q 190 160 215 150" stroke="#1a1a1a" stroke-width="4.5" fill="none" stroke-linecap="round" opacity="0.95"/>
+
+            <!-- 입 안쪽 음영 -->
+            <path d="M 160 125 L 155 145 Q 160 152 165 145 Z" fill="#000" opacity="0.25"/>
+
+            <!-- === 혀 === -->
+            <ellipse cx="160" cy="170" rx="18" ry="26" fill="#FF7BA4" opacity="0.9" filter="url(#furTexture)"/>
+            <ellipse cx="155" cy="168" rx="7" ry="10" fill="#FF5A8A" opacity="0.7"/>
+            <ellipse cx="165" cy="168" rx="7" ry="10" fill="#FF5A8A" opacity="0.7"/>
+
+            <!-- === 눈 === -->
+            <!-- 왼쪽 눈 -->
+            <g class="eye-left">
+                <circle cx="120" cy="95" r="20" fill="#1a1a1a" opacity="0.98"/>
+                <circle cx="128" cy="88" r="9" fill="#FFF" opacity="0.95"/>
+                <circle cx="130" cy="90" r="5" fill="#1a1a1a" opacity="0.85"/>
+                <circle cx="131" cy="86" r="2.5" fill="#FFF" opacity="0.9"/>
+                <!-- 눈 아래 음영 -->
+                <path d="M 110 110 Q 125 115 135 110" stroke="#1a1a1a" stroke-width="2" fill="none" opacity="0.3"/>
+            </g>
+
+            <!-- 오른쪽 눈 -->
+            <g class="eye-right">
+                <circle cx="200" cy="95" r="20" fill="#1a1a1a" opacity="0.98"/>
+                <circle cx="208" cy="88" r="9" fill="#FFF" opacity="0.95"/>
+                <circle cx="210" cy="90" r="5" fill="#1a1a1a" opacity="0.85"/>
+                <circle cx="211" cy="86" r="2.5" fill="#FFF" opacity="0.9"/>
+                <!-- 눈 아래 음영 -->
+                <path d="M 190 110 Q 205 115 215 110" stroke="#1a1a1a" stroke-width="2" fill="none" opacity="0.3"/>
+            </g>
+
+            <!-- === 안경 === -->
+            <g class="glasses" opacity="0.82">
+                <!-- 왼쪽 안경 테 -->
+                <circle cx="120" cy="95" r="25" fill="none" stroke="#D4AF9E" stroke-width="4.5"/>
+                <!-- 오른쪽 안경 테 -->
+                <circle cx="200" cy="95" r="25" fill="none" stroke="#D4AF9E" stroke-width="4.5"/>
+                <!-- 연결봉 -->
+                <line x1="145" y1="95" x2="175" y2="95" stroke="#D4AF9E" stroke-width="3.5" opacity="0.9"/>
+                <!-- 코 패드 -->
+                <circle cx="155" cy="98" r="2.5" fill="#D4AF9E" opacity="0.7"/>
+                <circle cx="165" cy="98" r="2.5" fill="#D4AF9E" opacity="0.7"/>
+                <!-- 안경 테 반짝임 -->
+                <path d="M 105 80 Q 110 75 120 78" stroke="#E8D4C0" stroke-width="2" fill="none" opacity="0.4"/>
+                <path d="M 185 80 Q 190 75 200 78" stroke="#E8D4C0" stroke-width="2" fill="none" opacity="0.4"/>
+            </g>
+
+            <!-- === 몸 === -->
+            <ellipse cx="160" cy="310" rx="90" ry="140" fill="url(#furShade)" filter="url(#furTexture)"/>
+
+            <!-- 몸 음영 (입체감) -->
+            <ellipse cx="140" cy="300" rx="50" ry="120" fill="#7A5C3A" opacity="0.2"/>
+
+            <!-- 몸 하이라이트 -->
+            <ellipse cx="180" cy="280" rx="40" ry="80" fill="url(#furHighlight)" opacity="0.3"/>
+
+            <!-- === 팔 (들고 있는 상태) === -->
+            <!-- 왼팔 (삽을 들고 있음) -->
+            <g class="arm-left" style="transform-origin: 105px 260px;">
+                <!-- 팔 본체 -->
+                <ellipse cx="105" cy="260" rx="35" ry="90" fill="#9D8563" filter="url(#furTexture)"/>
+
+                <!-- 손 -->
+                <circle cx="90" cy="150" r="28" fill="#B8A487"/>
+                <ellipse cx="85" cy="145" rx="12" ry="20" fill="#A0826D" opacity="0.4"/>
+
+                <!-- 손가락 -->
+                <path d="M 80 130 L 70 95 L 68 70" stroke="#B8A487" stroke-width="16" stroke-linecap="round" fill="none" filter="url(#furTexture)"/>
+                <circle cx="68" cy="65" r="10" fill="#B8A487" opacity="0.8"/>
+
+                <!-- 팔찌 (다채로운) -->
+                <ellipse cx="105" cy="175" rx="48" ry="12" fill="#FFD700" opacity="0.85" filter="url(#furTexture)"/>
+                <ellipse cx="105" cy="185" rx="48" ry="12" fill="#FF6B35" opacity="0.8"/>
+                <ellipse cx="105" cy="195" rx="48" ry="12" fill="#4ECDC4" opacity="0.8"/>
+
+                <!-- 팔찌 패턴 -->
+                <line x1="70" y1="185" x2="140" y2="185" stroke="#FFF" stroke-width="1.5" opacity="0.35"/>
+                <line x1="68" y1="195" x2="142" y2="195" stroke="#FFF" stroke-width="1.5" opacity="0.35"/>
+            </g>
+
+            <!-- 오른팔 (삽 손잡이) -->
+            <g class="arm-right" style="transform-origin: 215px 260px;">
+                <!-- 팔 본체 -->
+                <ellipse cx="215" cy="260" rx="35" ry="90" fill="#9D8563" filter="url(#furTexture)"/>
+
+                <!-- 손 -->
+                <circle cx="230" cy="150" r="28" fill="#B8A487"/>
+
+                <!-- 손가락 -->
+                <path d="M 240 130 L 250 95 L 252 70" stroke="#B8A487" stroke-width="16" stroke-linecap="round" fill="none" filter="url(#furTexture)"/>
+                <circle cx="252" cy="65" r="10" fill="#B8A487" opacity="0.8"/>
+
+                <!-- 팔찌 -->
+                <ellipse cx="215" cy="175" rx="48" ry="12" fill="#FFD700" opacity="0.85" filter="url(#furTexture)"/>
+                <ellipse cx="215" cy="185" rx="48" ry="12" fill="#FF6B35" opacity="0.8"/>
+                <ellipse cx="215" cy="195" rx="48" ry="12" fill="#4ECDC4" opacity="0.8"/>
+            </g>
+
+            <!-- === 삽 === -->
+            <g class="shovel">
+                <!-- 삽 손잡이 (나무) -->
+                <line x1="250" y1="60" x2="310" y2="10" stroke="#C4A57B" stroke-width="12" stroke-linecap="round"/>
+
+                <!-- 손잡이 끝 -->
+                <circle cx="310" cy="10" r="8" fill="#8B6F47"/>
+
+                <!-- 삽 헤드 (금속) -->
+                <ellipse cx="60" cy="340" rx="45" ry="38" fill="#D3D3D3" filter="url(#furTexture)"/>
+                <ellipse cx="60" cy="338" rx="42" ry="35" fill="#E8E8E8"/>
+
+                <!-- 삽 테두리 -->
+                <ellipse cx="60" cy="340" rx="45" ry="38" fill="none" stroke="#A0A0A0" stroke-width="2"/>
+
+                <!-- 삽 음영 -->
+                <path d="M 20 320 Q 40 310 60 320 Q 80 310 100 320" fill="#999" opacity="0.2"/>
+            </g>
+
+            <!-- === 다리 === -->
+            <!-- 왼다리 -->
+            <ellipse cx="135" cy="430" rx="35" ry="55" fill="#9D8563" filter="url(#furTexture)"/>
+            <circle cx="135" cy="395" r="10" fill="#8B6F47" opacity="0.25"/>
+
+            <!-- 오른다리 -->
+            <ellipse cx="185" cy="430" rx="35" ry="55" fill="#9D8563" filter="url(#furTexture)"/>
+            <circle cx="185" cy="395" r="10" fill="#8B6F47" opacity="0.25"/>
+
+            <!-- === 신발 === -->
+            <!-- 왼신발 -->
+            <g class="shoe-left" style="transform-origin: 135px 485px;">
+                <ellipse cx="135" cy="485" rx="36" ry="30" fill="#E8503C"/>
+
+                <!-- 신발 윗부분 (흰색) -->
+                <ellipse cx="135" cy="465" rx="32" ry="16" fill="#F5F5F5"/>
+
+                <!-- 신발끈 -->
+                <line x1="120" y1="462" x2="150" y2="462" stroke="#1a1a1a" stroke-width="2.5" opacity="0.5"/>
+                <line x1="119" y1="468" x2="151" y2="468" stroke="#1a1a1a" stroke-width="2.5" opacity="0.5"/>
+                <line x1="118" y1="474" x2="152" y2="474" stroke="#1a1a1a" stroke-width="2.5" opacity="0.5"/>
+
+                <!-- 발가락 -->
+                <circle cx="118" cy="495" r="6" fill="#1a1a1a" opacity="0.3"/>
+                <circle cx="130" cy="502" r="6" fill="#1a1a1a" opacity="0.3"/>
+                <circle cx="142" cy="502" r="6" fill="#1a1a1a" opacity="0.3"/>
+                <circle cx="154" cy="495" r="6" fill="#1a1a1a" opacity="0.3"/>
+
+                <!-- 신발 음영 -->
+                <path d="M 110 485 Q 135 495 160 485" fill="#000" opacity="0.1"/>
+            </g>
+
+            <!-- 오른신발 -->
+            <g class="shoe-right" style="transform-origin: 185px 485px;">
+                <ellipse cx="185" cy="485" rx="36" ry="30" fill="#E8503C"/>
+
+                <!-- 신발 윗부분 (흰색) -->
+                <ellipse cx="185" cy="465" rx="32" ry="16" fill="#F5F5F5"/>
+
+                <!-- 신발끈 -->
+                <line x1="170" y1="462" x2="200" y2="462" stroke="#1a1a1a" stroke-width="2.5" opacity="0.5"/>
+                <line x1="169" y1="468" x2="201" y2="468" stroke="#1a1a1a" stroke-width="2.5" opacity="0.5"/>
+                <line x1="168" y1="474" x2="202" y2="474" stroke="#1a1a1a" stroke-width="2.5" opacity="0.5"/>
+
+                <!-- 발가락 -->
+                <circle cx="168" cy="495" r="6" fill="#1a1a1a" opacity="0.3"/>
+                <circle cx="180" cy="502" r="6" fill="#1a1a1a" opacity="0.3"/>
+                <circle cx="192" cy="502" r="6" fill="#1a1a1a" opacity="0.3"/>
+                <circle cx="204" cy="495" r="6" fill="#1a1a1a" opacity="0.3"/>
+
+                <!-- 신발 음영 -->
+                <path d="M 160 485 Q 185 495 210 485" fill="#000" opacity="0.1"/>
+            </g>
+
+            <!-- === 꼬리 === -->
+            <g class="tail" style="transform-origin: 235px 300px;">
+                <!-- 주 꼬리 -->
+                <path d="M 235 300 Q 280 270 305 160 Q 315 110 305 60 Q 300 30 290 20"
+                      stroke="#9D8563" stroke-width="56" fill="none" stroke-linecap="round"
+                      opacity="0.88" filter="url(#furTexture)"/>
+
+                <!-- 꼬리 하이라이트 (입체감) -->
+                <path d="M 235 300 Q 280 270 305 160 Q 315 110 305 60"
+                      stroke="#D4AF9E" stroke-width="22" fill="none" stroke-linecap="round"
+                      opacity="0.35" filter="url(#furTexture)"/>
+
+                <!-- 꼬리 음영 -->
+                <path d="M 235 308 Q 280 280 305 170"
+                      stroke="#6B5344" stroke-width="18" fill="none" stroke-linecap="round"
+                      opacity="0.15"/>
+            </g>
+        </svg>
+
+        <h1>JARVIS LUNA - Enhanced Character</h1>
+        <div class="stats">
+            스크롤하면 더욱 생생하게 움직입니다 ✨
+        </div>
+    </div>
+
+    <script>
+        const jarvis = document.getElementById('jarvis');
+        const armLeft = document.querySelector('.arm-left');
+        const armRight = document.querySelector('.arm-right');
+        const tail = document.querySelector('.tail');
+        const shovel = document.querySelector('.shovel');
+        const glasses = document.querySelector('.glasses');
+        const eyeLeft = document.querySelector('.eye-left');
+        const eyeRight = document.querySelector('.eye-right');
+
+        let animationTime = 0;
+
+        const animate = () => {
+            animationTime += 16;
+            const now = Date.now();
+
+            // === 팔 흔들기 (다중 리듬) ===
+            const armRotation = Math.sin(now / 400) * 45 + Math.cos(now / 700) * 20;
+            if (armLeft) armLeft.style.transform = `rotate(${armRotation}deg) scale(${1 + Math.sin(now / 500) * 0.05})`;
+            if (armRight) armRight.style.transform = `rotate(${-armRotation}deg) scale(${1 + Math.sin(now / 500) * 0.05})`;
+
+            // === 꼬리 흔들기 (독립적 리듬) ===
+            if (tail) {
+                const tailWag = Math.sin(now / 350) * 35 + Math.cos(now / 550) * 20;
+                const tailScale = 1 + Math.sin(now / 400) * 0.1;
+                tail.style.transform = `rotate(${tailWag}deg) scaleX(${tailScale})`;
+            }
+
+            // === 삽 움직임 ===
+            if (shovel) {
+                const shovelRotate = Math.sin(now / 800) * 8;
+                shovel.style.transform = `rotate(${shovelRotate}deg)`;
+            }
+
+            // === 안경 떨림 ===
+            if (glasses) {
+                const glassesShake = Math.sin(now / 250) * 1.2 + Math.cos(now / 350) * 0.8;
+                glasses.style.transform = `translateX(${glassesShake}px) translateY(${Math.sin(now / 300) * 0.6}px)`;
+            }
+
+            // === 눈 깜빡임 ===
+            if (eyeLeft && eyeRight) {
+                const blinkAmount = Math.max(0, Math.sin(now / 3500) * 1.2);
+                eyeLeft.style.filter = `drop-shadow(0 2px 4px rgba(0,0,0,${blinkAmount * 0.3}))`;
+                eyeRight.style.filter = `drop-shadow(0 2px 4px rgba(0,0,0,${blinkAmount * 0.3}))`;
+            }
+
+            // === 전체 흔들림 ===
+            const bodyWave = Math.sin(now / 2000) * 3 + Math.cos(now / 1500) * 2;
+            const verticalBounce = Math.sin(now / 1800) * 8;
+            jarvis.style.transform = `translateX(${bodyWave}px) translateY(${verticalBounce}px)`;
+
+            // === 필터 동적 변화 ===
+            const glowIntensity = 0.15 + Math.sin(now / 2000) * 0.1;
+            jarvis.style.filter = `drop-shadow(0 ${20 + Math.sin(now / 1000) * 10}px ${40 + Math.cos(now / 1200) * 15}px rgba(100, 229, 255, ${glowIntensity}))`;
+
+            requestAnimationFrame(animate);
+        };
+
+        animate();
+    </script>
+</body>
+</html>

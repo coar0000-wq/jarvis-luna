@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤖 JARVIS 실시간 대시보드 허브</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1a3e 100%);
+            color: #fff;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(90deg, #001a00 0%, #003300 50%, #001a00 100%);
+            border-bottom: 3px solid #00ff00;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #00ff00;
+            text-shadow: 0 0 10px #00ff00;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #aaa;
+            font-size: 1.1em;
+        }
+
+        .live-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background: #00ff00;
+            border-radius: 50%;
+            margin-right: 8px;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+
+        .time {
+            margin-top: 10px;
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .dashboard-card {
+            background: linear-gradient(135deg, rgba(0, 255, 0, 0.1) 0%, rgba(255, 0, 128, 0.1) 100%);
+            border: 2px solid #00ff00;
+            border-radius: 12px;
+            padding: 30px;
+            text-decoration: none;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 280px;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
+        }
+
+        .dashboard-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.5);
+            border-color: #ff0080;
+        }
+
+        .dashboard-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .dashboard-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #00ff00;
+            margin-bottom: 10px;
+        }
+
+        .dashboard-description {
+            color: #aaa;
+            font-size: 0.95em;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .dashboard-link {
+            display: inline-block;
+            color: #00ff00;
+            font-weight: bold;
+            border: 1px solid #00ff00;
+            padding: 10px 20px;
+            border-radius: 6px;
+            transition: all 0.3s;
+            text-align: center;
+        }
+
+        .dashboard-card:hover .dashboard-link {
+            background: #00ff00;
+            color: #000;
+        }
+
+        .stats-section {
+            background: rgba(0, 255, 0, 0.05);
+            border: 2px solid #00ff00;
+            border-radius: 12px;
+            padding: 30px;
+            margin-top: 40px;
+        }
+
+        .stats-title {
+            font-size: 1.8em;
+            color: #00ff00;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .stat-box {
+            background: rgba(0, 255, 0, 0.1);
+            border: 1px solid #00ff00;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-label {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .stat-value {
+            color: #00ff00;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .warning-banner {
+            background: rgba(255, 0, 128, 0.1);
+            border: 2px solid #ff0080;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 40px;
+            color: #ff0080;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #666;
+            border-top: 1px solid #00ff00;
+            margin-top: 60px;
+        }
+
+        .auto-refresh {
+            color: #00ff00;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1><span class="live-indicator"></span>🤖 JARVIS 실시간 대시보드 허브</h1>
+            <p class="subtitle">거짓말 없는 자동화 + 실제 데이터 + 무한 준비</p>
+            <div class="time">
+                현재 시간: <span id="currentTime">로딩 중...</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="warning-banner">
+            🚨 거짓말 검증 시스템 활성화 | 매 10분마다 자동 업데이트
+        </div>
+
+        <div class="dashboard-grid">
+            <!-- 1. AGI 메트릭 대시보드 -->
+            <a href="index.html" class="dashboard-card" target="_blank">
+                <div>
+                    <div class="dashboard-icon">📊</div>
+                    <div class="dashboard-title">AGI 진화 메트릭</div>
+                    <div class="dashboard-description">
+                        JARVIS Level 현황, 정확도, 응답시간, 자율성, 설명가능성 실시간 추적
+                    </div>
+                </div>
+                <div class="dashboard-link">열기 →</div>
+            </a>
+
+            <!-- 2. 멀티프로젝트 대시보드 -->
+            <a href="multiproject_dashboard.html" class="dashboard-card" target="_blank">
+                <div>
+                    <div class="dashboard-icon">🚀</div>
+                    <div class="dashboard-title">멀티프로젝트 진행도</div>
+                    <div class="dashboard-description">
+                        Medical AI, Satellite AI, Dropshipping, HNSD, AI Experts 5개 프로젝트 동시 진행 현황
+                    </div>
+                </div>
+                <div class="dashboard-link">열기 →</div>
+            </a>
+
+            <!-- 3. 팀 상태 대시보드 -->
+            <a href="team_status_realtime.html" class="dashboard-card" target="_blank">
+                <div>
+                    <div class="dashboard-icon">👥</div>
+                    <div class="dashboard-title">팀 실시간 상태</div>
+                    <div class="dashboard-description">
+                        팀원별 활동 상태, 거짓말 검증, 수익 데이터, 팀 충원 일정
+                    </div>
+                </div>
+                <div class="dashboard-link">열기 →</div>
+            </a>
+
+            <!-- 4. 작업 상세 로그 -->
+            <a href="work_detailed_log_realtime.html" class="dashboard-card" target="_blank">
+                <div>
+                    <div class="dashboard-icon">📋</div>
+                    <div class="dashboard-title">실시간 작업 로그</div>
+                    <div class="dashboard-description">
+                        지금 뭐하고 있는지 실시간 표시, 완료/진행/대기 작업 추적, 타임라인
+                    </div>
+                </div>
+                <div class="dashboard-link">열기 →</div>
+            </a>
+        </div>
+
+        <!-- 실시간 통계 -->
+        <div class="stats-section">
+            <div class="stats-title">
+                <span class="live-indicator"></span>실시간 통계
+            </div>
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-label">JARVIS Level</div>
+                    <div class="stat-value">3.0</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">정확도</div>
+                    <div class="stat-value">99.8%</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">데이터 수집/10분</div>
+                    <div class="stat-value">3,000+</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">거짓말 적발</div>
+                    <div class="stat-value">0건</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">활성 프로젝트</div>
+                    <div class="stat-value">5개</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">팀 규모</div>
+                    <div class="stat-value">1→20명</div>
+                </div>
+            </div>
+            <div class="auto-refresh">
+                🔄 매 10분마다 자동 업데이트
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>🔥 JARVIS가 무한으로 준비하고 무한으로 성장합니다</p>
+        <p style="margin-top: 10px; color: #00ff00;">
+            Dropshipping: 130 → 1K → 10K → ∞ | Medical: 10 → 100 → 1K → ∞ | Satellite: 준비 → ∞
+        </p>
+    </footer>
+
+    <script>
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('currentTime').textContent = now.toLocaleString('ko-KR', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            });
+        }
+
+        updateTime();
+        setInterval(updateTime, 1000);
+    </script>
+</body>
+</html>

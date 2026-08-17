@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARVIS LUNA - Apple Watch Ultra3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'San Francisco', 'Helvetica Neue', sans-serif;
+            background: #000;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .watch-container {
+            width: 394px;
+            height: 394px;
+            background: radial-gradient(circle at 30% 30%, #2a2a2a, #0a0a0a);
+            border-radius: 50%;
+            padding: 20px;
+            box-shadow: 0 0 60px rgba(100, 200, 255, 0.3),
+                        inset 0 0 40px rgba(0, 0, 0, 0.8);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .watch-screen {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: radial-gradient(circle at center, #1a1a1a, #0a0a0a);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* JARVIS 얼굴 */
+        .jarvis-face {
+            position: relative;
+            width: 120px;
+            height: 140px;
+            margin-bottom: 20px;
+        }
+
+        .jarvis-head {
+            width: 100%;
+            height: 100px;
+            background: linear-gradient(135deg, #64c8ff 0%, #3fa9e5 100%);
+            border-radius: 50% 50% 40% 40%;
+            position: relative;
+            box-shadow: 0 0 20px rgba(100, 200, 255, 0.5);
+        }
+
+        .jarvis-eye {
+            width: 20px;
+            height: 28px;
+            background: #000;
+            border-radius: 50%;
+            position: absolute;
+            top: 30px;
+            animation: blink 3s infinite;
+        }
+
+        .jarvis-eye:nth-child(1) {
+            left: 25px;
+        }
+
+        .jarvis-eye:nth-child(2) {
+            right: 25px;
+        }
+
+        .eye-light {
+            width: 8px;
+            height: 8px;
+            background: #ffff00;
+            border-radius: 50%;
+            position: absolute;
+            top: 8px;
+            left: 6px;
+            animation: glow 1.5s infinite;
+        }
+
+        .jarvis-mouth {
+            width: 40px;
+            height: 8px;
+            background: #000;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: talk 2s infinite;
+        }
+
+        .jarvis-antenna {
+            width: 4px;
+            height: 30px;
+            background: linear-gradient(to top, #64c8ff, #fff);
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 50%;
+            animation: antenna-wave 2s infinite;
+        }
+
+        @keyframes blink {
+            0%, 90%, 100% { transform: scaleY(1); }
+            95% { transform: scaleY(0.1); }
+        }
+
+        @keyframes glow {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+
+        @keyframes talk {
+            0%, 100% { transform: translateX(-50%) scaleY(1); }
+            50% { transform: translateX(-50%) scaleY(1.3); }
+        }
+
+        @keyframes antenna-wave {
+            0%, 100% { transform: translateX(-50%) rotate(0deg); }
+            50% { transform: translateX(-50%) rotate(5deg); }
+        }
+
+        .status-indicator {
+            width: 12px;
+            height: 12px;
+            background: #4ade80;
+            border-radius: 50%;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            animation: pulse 2s infinite;
+            box-shadow: 0 0 10px #4ade80;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.1); }
+        }
+
+        .watch-content {
+            width: 100%;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .watch-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #64c8ff;
+            margin-bottom: 15px;
+            text-shadow: 0 0 10px rgba(100, 200, 255, 0.5);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 15px;
+        }
+
+        .stat {
+            background: rgba(100, 200, 255, 0.1);
+            border: 1px solid rgba(100, 200, 255, 0.3);
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 11px;
+        }
+
+        .stat-label {
+            color: #888;
+            font-size: 9px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .stat-value {
+            font-size: 16px;
+            font-weight: bold;
+            color: #4ade80;
+        }
+
+        .time-display {
+            font-size: 24px;
+            font-weight: 300;
+            color: #64c8ff;
+            margin: 15px 0;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .activity-log {
+            font-size: 9px;
+            color: #888;
+            max-height: 60px;
+            overflow-y: auto;
+            padding: 8px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        .activity-item {
+            padding: 3px 0;
+            border-bottom: 1px solid rgba(100, 200, 255, 0.1);
+        }
+
+        .activity-item:last-child {
+            border-bottom: none;
+        }
+
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgba(100, 200, 255, 0.3);
+            border-radius: 2px;
+        }
+
+        .bottom-text {
+            font-size: 8px;
+            color: #555;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="watch-container">
+        <div class="watch-screen">
+            <div class="status-indicator"></div>
+
+            <!-- JARVIS 얼굴 -->
+            <div class="jarvis-face">
+                <div class="jarvis-antenna"></div>
+                <div class="jarvis-head">
+                    <div class="jarvis-eye">
+                        <div class="eye-light"></div>
+                    </div>
+                    <div class="jarvis-eye">
+                        <div class="eye-light"></div>
+                    </div>
+                    <div class="jarvis-mouth"></div>
+                </div>
+            </div>
+
+            <div class="watch-content">
+                <div class="watch-title">JARVIS LUNA</div>
+
+                <div class="time-display" id="time">08:23</div>
+
+                <div class="stats-grid">
+                    <div class="stat">
+                        <div class="stat-label">📺 YouTube</div>
+                        <div class="stat-value" id="youtube-count">0</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">📄 arXiv</div>
+                        <div class="stat-value" id="arxiv-count">0</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">📰 News</div>
+                        <div class="stat-value" id="news-count">0</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">🔄 상태</div>
+                        <div class="stat-value" style="color: #4ade80;">활성</div>
+                    </div>
+                </div>
+
+                <div class="activity-log" id="activity">
+                    <div class="activity-item">🚀 JARVIS LUNA 시작</div>
+                    <div class="activity-item">📊 데이터 로딩 중...</div>
+                </div>
+
+                <div class="bottom-text">자동 실행중 • 매 1분</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 시간 업데이트
+        const updateTime = () => {
+            const now = new Date();
+            document.getElementById('time').textContent =
+                now.toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit' });
+        };
+
+        // 데이터 업데이트
+        const updateData = async () => {
+            try {
+                const response = await fetch('./jarvis_luna_realtime.json');
+                if (!response.ok) return;
+
+                const data = await response.json();
+
+                // 통계 업데이트
+                document.getElementById('youtube-count').textContent =
+                    data.youtube_data?.length || 0;
+                document.getElementById('arxiv-count').textContent =
+                    data.arxiv_data?.length || 0;
+                document.getElementById('news-count').textContent =
+                    data.google_news_data?.length || 0;
+
+                // 활동 로그 업데이트
+                let activity = '<div class="activity-item">✅ 데이터 동기화됨</div>';
+                if (data.youtube_data?.length > 0) {
+                    activity += `<div class="activity-item">📺 YouTube ${data.youtube_data.length}개</div>`;
+                }
+                if (data.arxiv_data?.length > 0) {
+                    activity += `<div class="activity-item">📄 arXiv ${data.arxiv_data.length}개</div>`;
+                }
+                if (data.google_news_data?.length > 0) {
+                    activity += `<div class="activity-item">📰 News ${data.google_news_data.length}개</div>`;
+                }
+                document.getElementById('activity').innerHTML = activity;
+
+            } catch (error) {
+                console.log('데이터 로드:', error.message);
+            }
+        };
+
+        // 초기화
+        updateTime();
+        updateData();
+
+        // 주기적 업데이트
+        setInterval(updateTime, 1000);
+        setInterval(updateData, 2000);
+    </script>
+</body>
+</html>

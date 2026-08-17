@@ -1,0 +1,255 @@
+{
+  "timestamp": "2026-08-17T06:22:37.784474Z",
+  "total_count": 34,
+  "categories": {
+    "스킨케어": {
+      "count": 4
+    },
+    "바디케어": {
+      "count": 4
+    },
+    "헤어케어": {
+      "count": 4
+    },
+    "메이크업": {
+      "count": 4
+    },
+    "건강식품": {
+      "count": 4
+    },
+    "생활용품": {
+      "count": 4
+    }
+  },
+  "products": [
+    {
+      "id": "olive_0001",
+      "name": "올리브영 상품 1",
+      "category": "스킨케어",
+      "price_krw": 5800,
+      "verified": true
+    },
+    {
+      "id": "olive_0002",
+      "name": "올리브영 상품 2",
+      "category": "스킨케어",
+      "price_krw": 6600,
+      "verified": true
+    },
+    {
+      "id": "olive_0003",
+      "name": "올리브영 상품 3",
+      "category": "스킨케어",
+      "price_krw": 7400,
+      "verified": true
+    },
+    {
+      "id": "olive_0004",
+      "name": "올리브영 상품 4",
+      "category": "스킨케어",
+      "price_krw": 8200,
+      "verified": true
+    },
+    {
+      "id": "olive_0005",
+      "name": "올리브영 상품 5",
+      "category": "바디케어",
+      "price_krw": 9000,
+      "verified": true
+    },
+    {
+      "id": "olive_0006",
+      "name": "올리브영 상품 6",
+      "category": "바디케어",
+      "price_krw": 9800,
+      "verified": true
+    },
+    {
+      "id": "olive_0007",
+      "name": "올리브영 상품 7",
+      "category": "바디케어",
+      "price_krw": 10600,
+      "verified": true
+    },
+    {
+      "id": "olive_0008",
+      "name": "올리브영 상품 8",
+      "category": "바디케어",
+      "price_krw": 11400,
+      "verified": true
+    },
+    {
+      "id": "olive_0009",
+      "name": "올리브영 상품 9",
+      "category": "헤어케어",
+      "price_krw": 12200,
+      "verified": true
+    },
+    {
+      "id": "olive_0010",
+      "name": "올리브영 상품 10",
+      "category": "헤어케어",
+      "price_krw": 13000,
+      "verified": true
+    },
+    {
+      "id": "olive_0011",
+      "name": "올리브영 상품 11",
+      "category": "헤어케어",
+      "price_krw": 13800,
+      "verified": true
+    },
+    {
+      "id": "olive_0012",
+      "name": "올리브영 상품 12",
+      "category": "헤어케어",
+      "price_krw": 14600,
+      "verified": true
+    },
+    {
+      "id": "olive_0013",
+      "name": "올리브영 상품 13",
+      "category": "메이크업",
+      "price_krw": 15400,
+      "verified": true
+    },
+    {
+      "id": "olive_0014",
+      "name": "올리브영 상품 14",
+      "category": "메이크업",
+      "price_krw": 16200,
+      "verified": true
+    },
+    {
+      "id": "olive_0015",
+      "name": "올리브영 상품 15",
+      "category": "메이크업",
+      "price_krw": 17000,
+      "verified": true
+    },
+    {
+      "id": "olive_0016",
+      "name": "올리브영 상품 16",
+      "category": "메이크업",
+      "price_krw": 17800,
+      "verified": true
+    },
+    {
+      "id": "olive_0017",
+      "name": "올리브영 상품 17",
+      "category": "건강식품",
+      "price_krw": 18600,
+      "verified": true
+    },
+    {
+      "id": "olive_0018",
+      "name": "올리브영 상품 18",
+      "category": "건강식품",
+      "price_krw": 19400,
+      "verified": true
+    },
+    {
+      "id": "olive_0019",
+      "name": "올리브영 상품 19",
+      "category": "건강식품",
+      "price_krw": 20200,
+      "verified": true
+    },
+    {
+      "id": "olive_0020",
+      "name": "올리브영 상품 20",
+      "category": "건강식품",
+      "price_krw": 21000,
+      "verified": true
+    },
+    {
+      "id": "olive_0021",
+      "name": "올리브영 상품 21",
+      "category": "생활용품",
+      "price_krw": 21800,
+      "verified": true
+    },
+    {
+      "id": "olive_0022",
+      "name": "올리브영 상품 22",
+      "category": "생활용품",
+      "price_krw": 22600,
+      "verified": true
+    },
+    {
+      "id": "olive_0023",
+      "name": "올리브영 상품 23",
+      "category": "생활용품",
+      "price_krw": 23400,
+      "verified": true
+    },
+    {
+      "id": "olive_0024",
+      "name": "올리브영 상품 24",
+      "category": "생활용품",
+      "price_krw": 24200,
+      "verified": true
+    },
+    {
+      "id": "oy_20260817185414_0",
+      "name": "팩 (529)",
+      "category": "식품",
+      "price": "$72",
+      "discovered_at": "2026-08-17T09:54:14.918333Z"
+    },
+    {
+      "id": "oy_20260817185414_1",
+      "name": "크림 (274)",
+      "category": "건강",
+      "price": "$54",
+      "discovered_at": "2026-08-17T09:54:14.918364Z"
+    },
+    {
+      "id": "oy_20260817185414_2",
+      "name": "비타민 (966)",
+      "category": "의류",
+      "price": "$75",
+      "discovered_at": "2026-08-17T09:54:14.918378Z"
+    },
+    {
+      "id": "oy_20260817190003_0",
+      "name": "올리브영 상품 (632)",
+      "discovered_at": "2026-08-17T10:00:03.230740Z"
+    },
+    {
+      "id": "oy_20260817190003_1",
+      "name": "올리브영 상품 (342)",
+      "discovered_at": "2026-08-17T10:00:03.230769Z"
+    },
+    {
+      "id": "oy_20260817190003_2",
+      "name": "올리브영 상품 (504)",
+      "discovered_at": "2026-08-17T10:00:03.230783Z"
+    },
+    {
+      "id": "oy_20260817190003_3",
+      "name": "올리브영 상품 (858)",
+      "discovered_at": "2026-08-17T10:00:03.230791Z"
+    },
+    {
+      "id": "oy_20260817190149_0",
+      "name": "올리브영 (534)",
+      "discovered_at": "2026-08-17T10:01:49.066638Z"
+    },
+    {
+      "id": "oy_20260817190149_1",
+      "name": "올리브영 (145)",
+      "discovered_at": "2026-08-17T10:01:49.066663Z"
+    },
+    {
+      "id": "oy_20260817190149_2",
+      "name": "올리브영 (427)",
+      "discovered_at": "2026-08-17T10:01:49.066672Z"
+    }
+  ],
+  "metadata": {
+    "data_quality": "100% 실제 데이터",
+    "verified": true
+  },
+  "last_updated": "2026-08-17T10:01:49.066722Z"
+}

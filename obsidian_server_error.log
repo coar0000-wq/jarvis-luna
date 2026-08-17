@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Desktop\Claude\Projects\kms\scripts\obsidian_realtime_sync.py", line 289, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\Desktop\Claude\Projects\kms\scripts\obsidian_realtime_sync.py", line 283, in main
+    success = sync.sync_all()
+  File "C:\Users\Desktop\Claude\Projects\kms\scripts\obsidian_realtime_sync.py", line 239, in sync_all
+    print("\U0001f9e0 Obsidian 실시간 동기화 시작...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'cp949' codec can't encode character '\U0001f9e0' in position 0: illegal multibyte sequence

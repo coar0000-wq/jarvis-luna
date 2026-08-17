@@ -1,0 +1,76 @@
+name: JARVIS Real-Time Automation
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # 매 10분마다 실행 🔄
+  workflow_dispatch:
+
+jobs:
+  automation:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install requests
+
+      - name: 🚀 Run JARVIS Real-Time Automation
+        run: |
+          python jarvis_real_time_automation.py
+
+      - name: 🛍️ Run Real Data Product Discovery (Daiso)
+        run: |
+          python -m pip install beautifulsoup4 pytrends --break-system-packages
+          python real_product_discovery.py
+        env:
+          AMAZON_API_KEY: ${{ secrets.AMAZON_API_KEY }}
+
+      - name: 💄 Run Real Data Product Discovery (OliveYoung)
+        run: |
+          python -m pip install beautifulsoup4 requests --break-system-packages
+          python oliveyoung_product_discovery.py
+
+      - name: 🏪 Run Real Data Product Discovery (Naver Shopping)
+        run: |
+          python -m pip install beautifulsoup4 requests --break-system-packages
+          python naver_shopping_discovery.py
+
+      - name: 🛒 Run Real Data Product Discovery (Walmart)
+        run: |
+          python -m pip install beautifulsoup4 requests --break-system-packages
+          python walmart_product_discovery.py
+
+      - name: 🔵 Run Real Data Product Discovery (Amazon)
+        run: |
+          python -m pip install beautifulsoup4 requests --break-system-packages
+          python amazon_product_discovery.py
+
+      - name: 🌐 Run Unified Real-Time Data Collection
+        run: |
+          python -m pip install beautifulsoup4 requests pytrends --break-system-packages
+          python unified_data_collection.py
+
+      - name: ✅ Commit and push changes
+        run: |
+          git config --local user.email "jarvis@github.com"
+          git config --local user.name "JARVIS Automation"
+          git add data/jarvis_work_detailed_log.json data/phase26_progress.json data/real_products.json data/oliveyoung_products.json data/naver_shopping_products.json data/walmart_products.json data/amazon_products.json data/unified_realtime_data.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "⚡ 5채널 실시간 통합 데이터(Amazon+Trends+리뷰): $(date -u +'%Y-%m-%d %H:%M UTC')" && git push origin main)
+
+      - name: 📊 Verify update
+        run: |
+          echo "✨ JARVIS 자동화 완료!"
+          echo "다음 자동화: 10분 후"
+          ls -la data/jarvis_work_detailed_log.json
+          head -20 data/jarvis_work_detailed_log.json

@@ -1,0 +1,1353 @@
+[
+  {
+    "title": "DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding",
+    "authors": [
+      "Zewen Jin",
+      "Shen Fu",
+      "Zeping Duan",
+      "Shannon Wang",
+      "Weihao Wu",
+      "Chengjie Tang",
+      "Congkun Ai",
+      "Ping Gong",
+      "Zijian Dai",
+      "Youhui Bai",
+      "Cheng Li"
+    ],
+    "published": "2026-08-14",
+    "arxiv_id": "2608.14385v1",
+    "summary": "Mixture-of-Experts (MoE) models have been widely adopted in real-time interactive applications such as coding assistants, real-time audio-video interaction systems. To meet the extremely low response latency requirements of these scenarios, practitioners commonly employ small-batch decoding, under which MoE inference becomes memory-bound and is severely bottlenecked by expert weight loading. However, this bottleneck has received limited attention, and existing solutions such as post-training wei",
+    "pdf_url": "https://arxiv.org/pdf/2608.14385v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "FreeBalance: Pre-Routing Online Moe Load Balancing via Residual Workload Prediction",
+    "authors": [
+      "Pengfei Chen",
+      "Yize Wu",
+      "Shouxu Kuang",
+      "Ke Gao",
+      "Ling Li"
+    ],
+    "published": "2026-08-14",
+    "arxiv_id": "2608.14205v1",
+    "summary": "Load imbalance poses a major bottleneck to the efficiency of expert parallelism in distributed inference of Mixture-of-Experts (MoE) models. The most heavily loaded rank stalls global execution due to skewed routing distributions, directly increasing latency. While offline expert placement can alleviate persistent imbalance, practical multi-task serving workloads exhibit layer- and batch-dependent routing dynamics, making online load balancing indispensable. Existing approaches rely on routing s",
+    "pdf_url": "https://arxiv.org/pdf/2608.14205v1.pdf",
+    "categories": "cs.AI"
+  },
+  {
+    "title": "MedMix: Specialization-Consistent Federated Sparse MoEs under Modality Heterogeneity",
+    "authors": [
+      "Adiba Orzikulova",
+      "Dong Min Kim",
+      "Jaehong Yoon",
+      "Sung-Ju Lee"
+    ],
+    "published": "2026-08-14",
+    "arxiv_id": "2608.13911v1",
+    "summary": "Federated multimodal medical AI faces modality heterogeneity at both the client and sample levels: clients may systematically lack access to specific modality types, while individual records within the same client may contain different partial modality subsets. Sparse Mixture-of-Experts (MoE) architectures are a promising remedy for modality-adaptive computation, but their use in federated learning is fragile under cross-client modality heterogeneity, where locally learned routing policies can d",
+    "pdf_url": "https://arxiv.org/pdf/2608.13911v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Neural Quadratic Forms: A Unified Minimal Model for Sudden Learning and Scaling Laws",
+    "authors": [
+      "Liu Ziyin",
+      "Yizhou Xu",
+      "Tomaso Poggio",
+      "Isaac Chuang"
+    ],
+    "published": "2026-08-13",
+    "arxiv_id": "2608.13335v1",
+    "summary": "Neural networks trained by gradient descent on a smooth cost function can nevertheless learn in steps: the cost holds on long plateaus and then drops abruptly. Meanwhile, training losses instead follow smooth power laws. Variants of both behaviors occur in architectures with very different microscopic structures, which is the signature of a few relevant collective variables. We show that a symmetry fixes what those variables are: a network layer is a sum over interchangeable units, so relabeling",
+    "pdf_url": "https://arxiv.org/pdf/2608.13335v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Geometric and Behavioral Stratification in Transformer Residual Streams",
+    "authors": [
+      "Nelson Guda"
+    ],
+    "published": "2026-08-12",
+    "arxiv_id": "2608.12447v1",
+    "summary": "Trained transformer models develop privileged bases: coordinate axes whose statistics differ from the rest of the residual stream. But what kind of direction does such a basis select? We investigate the prediction direction, the unembedding direction of the token a model currently predicts, and find that it functions as a content-defined privileged anchor. Measured with respect to this anchor, residual-stream variation is geometrically and behaviorally stratified by proximity to the prediction.\n",
+    "pdf_url": "https://arxiv.org/pdf/2608.12447v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Regime-Gated Residual Mixture-of-Experts for Cross-Sectional Volatility Forecasting",
+    "authors": [
+      "Junyi Ye",
+      "Gargi Vijay Borde"
+    ],
+    "published": "2026-08-12",
+    "arxiv_id": "2608.12251v1",
+    "summary": "Financial volatility is regime dependent, yet incorporating regime information into neural networks can also destabilize training. This paper asks where such information should enter a neural cross-sectional volatility forecasting model. We study five-day realized-volatility forecasts for 1,027 U.S. equities using a rolling walk-forward evaluation framework in which information, model capacity, hyperparameter tuning, and random seeds are matched across architectures. We propose RG-ResMoE, a regi",
+    "pdf_url": "https://arxiv.org/pdf/2608.12251v1.pdf",
+    "categories": "q-fin.ST"
+  },
+  {
+    "title": "RoutePack: Expert Placement and Attention-Aware Data Packing for MoE Reinforcement Learning",
+    "authors": [
+      "Yibo Shen",
+      "Xudong Han",
+      "Xiaowei Zhu",
+      "Gen Li",
+      "Zhenxuan Pan"
+    ],
+    "published": "2026-08-12",
+    "arxiv_id": "2608.12146v1",
+    "summary": "Training Mixture-of-Experts (MoE) models for reinforcement learning (RL) couples two load-balancing problems: sequence composition determines dense attention work in each data-parallel microbatch, while token routing determines sparse expert work on expert-parallel ranks. Optimizing either alone can shift the bottleneck to the other. In MoE RL, rollout-time routing replay exposes every sample's sequence length and layer-wise expert demand before its training step. We present RoutePack, a hierarc",
+    "pdf_url": "https://arxiv.org/pdf/2608.12146v1.pdf",
+    "categories": "cs.DC"
+  },
+  {
+    "title": "TradingMoE: Routing the Right Experts in Evolving Markets",
+    "authors": [
+      "Chang Zhou",
+      "Xingtong Yu",
+      "Minbin Huang",
+      "Zhennan Wu",
+      "Yuan Fang",
+      "Hong Cheng",
+      "Xinming Zhang"
+    ],
+    "published": "2026-08-12",
+    "arxiv_id": "2608.11785v1",
+    "summary": "Large language models (LLMs) have shown strong potential for financial analysis and trading, but direct trading remains challenging because the predictive capabilities required can vary across assets, decision fields, and market conditions. Existing LLM-based trading systems either coordinate human-defined external experts or adopt conventional internal Mixture-of-Experts (MoE) routers that do not directly evaluate how individual experts contribute to trading decisions. Moreover, these routers r",
+    "pdf_url": "https://arxiv.org/pdf/2608.11785v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "LoKiFormer: Locality-aware Attention with Decoupled Knowledge Memory for Efficient Large Language Model Pretraining",
+    "authors": [
+      "Qiuwu Chen",
+      "Zimo Liu",
+      "Yuchen Li",
+      "Ying Sun",
+      "Yifan Zhang",
+      "Zhijie Qiu",
+      "Zeng You",
+      "Ryan Dong",
+      "Simeng Ma",
+      "Yaofo Chen",
+      "Mingkui Tan"
+    ],
+    "published": "2026-08-12",
+    "arxiv_id": "2608.12419v1",
+    "summary": "Large language models (LLMs) have achieved remarkable breakthroughs across various applications. However, their architectures remain inefficient in pretraining due to two main limitations: (i) self-attention lacks an explicit inductive bias for locality, leading to redundant modeling of sequence-internal local information; (ii) mixture-of-experts (MoE) implicitly couples knowledge storage with computational pathways, hindering flexible access to sequence-external global knowledge. To overcome th",
+    "pdf_url": "https://arxiv.org/pdf/2608.12419v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "APEX: Adaptive Expert Prefetching for Memory-Efficient Edge MoE Inference",
+    "authors": [
+      "Alish Kanani",
+      "Layan Badawi",
+      "Umit Y. Ogras"
+    ],
+    "published": "2026-08-12",
+    "arxiv_id": "2608.11688v1",
+    "summary": "Mixture-of-Experts (MoE) models are attractive for edge deployment because they provide high model capacity while activating only a small subset of parameters per token, improving compute efficiency. However, MoE inference at the edge is fundamentally limited by memory. Expert parameters are large and often reside in off-chip memory due to capacity, cost, and power constraints, putting expert loading to the critical path. We present APEX: Adaptive Expert Prefetching, a predictive resource manage",
+    "pdf_url": "https://arxiv.org/pdf/2608.11688v1.pdf",
+    "categories": "cs.AR"
+  },
+  {
+    "title": "FM-LLM: A frequency-enhanced mixture-of-experts framework for adapting LLMs to time series forecasting",
+    "authors": [
+      "Rentao Gu",
+      "Yihang Ding",
+      "Junjie Li",
+      "Yi Ding",
+      "Weijing Sang",
+      "Xiaoli Huo",
+      "Xin Qin",
+      "Yuefeng Ji"
+    ],
+    "published": "2026-08-12",
+    "arxiv_id": "2608.11623v1",
+    "summary": "Recent advances in Large Language Models (LLMs) have spurred cross-modal solutions for time-series forecasting. However, existing methods rely heavily on textual prompts for modality alignment-introducing nontrivial computational overhead and failing to leverage the rich spectral dynamics inherent in time-series data. To enable prompt-free, frequency-aware adaptation of frozen LLMs, we propose FM-LLM (Frequency-Enhanced Mixture-of-Experts for adapting LLMs to Time Series Forecasting), an autoreg",
+    "pdf_url": "https://arxiv.org/pdf/2608.11623v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "MoE Proxy Models for Low-Cost Failure Reproduction and Diagnosis in LLM RL Post-Training",
+    "authors": [
+      "Yikai Wang",
+      "Chuansai Zhou",
+      "Yuhang Zhou",
+      "Weiqiang Wu",
+      "Cong Wu",
+      "Yue Deng",
+      "Ben Feng",
+      "Mingming Zhu",
+      "Beirong Zhou",
+      "Zhibin Wang",
+      "Sheng Zhong",
+      "Chen Tian",
+      "Wangze Zhang"
+    ],
+    "published": "2026-08-11",
+    "arxiv_id": "2608.10823v1",
+    "summary": "Reinforcement learning (RL) post-training of large language models (LLMs) is computationally intensive and involves complex system pipelines with substantial debugging overhead. In practice, factors such as framework adaptation, numerical precision, and operator implementation can cause failures, including gradient overflow and loss divergence. Reproducing such failures directly on large models requires considerable time and computational resources. This paper systematically analyzes failures en",
+    "pdf_url": "https://arxiv.org/pdf/2608.10823v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Compute-Optimal Is Not Cluster-Optimal: Systems-Aware Scaling for Sparse Mixture-of-Experts",
+    "authors": [
+      "Soumajyoti Sarkar",
+      "Yuxin Tang",
+      "Sheng Zha"
+    ],
+    "published": "2026-08-11",
+    "arxiv_id": "2608.10605v1",
+    "summary": "In large-scale pretraining, the algorithm, architecture, and systems decisions are conventionally made in disconnected stages. A scaling law stage selects an architecture and training recipe, optimizing loss under compute constraints, and a separate systems stage then optimizes the implementation for hardware efficiency. In this work, we develop MOSAIC, which formulates model architecture and systems co-design as an optimization problem. MOSAIC couples a predictive scaling law with a calibrated ",
+    "pdf_url": "https://arxiv.org/pdf/2608.10605v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Benchmarking LLM-Guided Control-Plane Policies for Backend Fault Isolation in HAProxy",
+    "authors": [
+      "Aman Chauhan",
+      "Vishnu Pendyala"
+    ],
+    "published": "2026-08-11",
+    "arxiv_id": "2608.10532v1",
+    "summary": "Static load balancers cannot mitigate a backend that is degraded rather than down: round-robin and least-connections keep routing traffic to a server returning HTTP 500s until an operator intervenes. We ask whether a Large Language Model can replace the static routing policy itself, reading HAProxy and Prometheus telemetry every 10 seconds and isolating faulty servers through guardrailed calls to the HAProxy Data Plane API. On a reproducible benchmark with a persistent structural fault built int",
+    "pdf_url": "https://arxiv.org/pdf/2608.10532v1.pdf",
+    "categories": "cs.NI"
+  },
+  {
+    "title": "Riemann GeoResolver: A Non-Euclidean Attention Framework from Euclidean Resolver to Hyperbolic-Spherical Geometry",
+    "authors": [
+      "Liangchen Ge"
+    ],
+    "published": "2026-08-11",
+    "arxiv_id": "2608.10416v1",
+    "summary": "We present a theoretical foundation for inverse-distance attention, from its Euclidean prototype (Resolver) to its non-Euclidean realization (Riemann GeoResolver). The Euclidean part establishes three core theorems: (1) circuit separation---IDA achieves exact retrieval with $\\mathcal{O}(1)$ resources while softmax requires $Ω((\\log n)^2)$ width; (2) a Polyak--Lojasiewicz inequality with $Ω(e^{Δ^2/\\sqrt{d}}/Δ^2)$ stronger constant than softmax, implying linear convergence, $\\mathcal{O}(\\log n)$ L",
+    "pdf_url": "https://arxiv.org/pdf/2608.10416v1.pdf",
+    "categories": "cs.DS"
+  },
+  {
+    "title": "Share First, Route What Remains: A Unified Framework for Token-Adaptive MoE Computation",
+    "authors": [
+      "Gongli Zhang",
+      "Zhulin Liu",
+      "C. L. Philip Chen"
+    ],
+    "published": "2026-08-11",
+    "arxiv_id": "2608.10392v1",
+    "summary": "Mixture-of-experts (MoE) models have recently moved beyond routing a fixed number of complete experts. Shared-expert designs preserve reusable knowledge, fine-grained methods vary computation within experts, and dynamic routers adapt the number of active experts. Yet these decisions are usually made independently, overlooking a basic dependency: extracting reusable computation changes both what remains and how much expert capacity the remainder needs. We study this dependency by decomposing spar",
+    "pdf_url": "https://arxiv.org/pdf/2608.10392v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA",
+    "authors": [
+      "Mind Lab",
+      ":",
+      "Vin Bo",
+      "Asher Cai",
+      "Jingwei Cao",
+      "Song Cao",
+      "Vic Cao",
+      "Amelia Chen",
+      "Andrew Chen",
+      "Kaijie Chen",
+      "Cleon Cheng",
+      "Steven Chiang",
+      "Kaixuan Fan",
+      "Hera Feng",
+      "Huan Feng",
+      "Arthur Fu",
+      "Jun Gao",
+      "Pyke Han",
+      "Nolan Ho",
+      "Ori Hong",
+      "Hailee Hou",
+      "Piers Hua",
+      "Charles Huang",
+      "Miles Jiang",
+      "Nora Jiang",
+      "Yuyi Jiang",
+      "Qiuyu Jin",
+      "Fancy Kong",
+      "Kuss Koo",
+      "Jaron Lee",
+      "Andrew Lei",
+      "Alexy Li",
+      "Dawn Li",
+      "Lucian Li",
+      "Ray Li",
+      "Ricardo Li",
+      "Smith Li",
+      "Theo Li",
+      "Allen Lin",
+      "Elliot Lin",
+      "Fan Lin",
+      "Chen Ling",
+      "Kairus Liu",
+      "Kieran Liu",
+      "Logan Liu",
+      "Neo Liu",
+      "Xiang Liu",
+      "Yuxin Lu",
+      "Maeve Luo",
+      "Pony Ma",
+      "Verity Niu",
+      "Cole Qiao",
+      "Guian Qiu",
+      "Vince Qu",
+      "Sentry",
+      "Niko Song",
+      "Vincent Wang",
+      "Bo Wu",
+      "Rio Yang",
+      "Evelyn Ye",
+      "Fiona Ye",
+      "Ina Ye",
+      "Regis Ye",
+      "Josh Ying",
+      "Atlas Zeng",
+      "Danney Zeng",
+      "Salmon Zhan",
+      "Anya Zhang",
+      "Di Zhang",
+      "Mia Zhang",
+      "Sueky Zhang",
+      "Wei Zhao",
+      "Ada Zhou",
+      "Adrian Zhou",
+      "Yuhua Zhou",
+      "Juno Zhu",
+      "Murphy Zhuang"
+    ],
+    "published": "2026-08-10",
+    "arxiv_id": "2608.09819v1",
+    "summary": "Macaron-V1 is an open agent-model family for experiential intelligence: learning from experience in real environments and continuing to learn after deployment. It is organized around two system goals. Adaptation is pursued through recursive improvement of versioned model-harness pairs, where experience from one configuration is evaluated under an external contract and used to construct its successor. Collaboration is pursued via the Mixture-of-LoRA (MoL) architecture that freezes a base model, c",
+    "pdf_url": "https://arxiv.org/pdf/2608.09819v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Disentangling Co-Occurring Retinal Pathologies with Saliency-Guided Sparse Expert Routing",
+    "authors": [
+      "Nagur Shareef Shaik",
+      "Jeongwoo Park",
+      "Yeong-Jin Kim",
+      "Jaeuk Jung",
+      "Hyunjung Oh",
+      "Dong Hye Ye"
+    ],
+    "published": "2026-08-10",
+    "arxiv_id": "2608.09752v1",
+    "summary": "Retinal fundus images frequently exhibit multiple co-occurring pathologies, yet standard deep learning classifiers apply static, identical computation to every image regardless of the underlying disease distribution. We propose a novel architecture that resolves this via sparse conditional computation, pairing a Guided Context Gating (GCG) spatial attention front-end with a sparsely-routed Mixture-of-Experts (MoE) block operating over feature tokens. Crucially, this routing yields an interpretab",
+    "pdf_url": "https://arxiv.org/pdf/2608.09752v1.pdf",
+    "categories": "cs.CV"
+  },
+  {
+    "title": "MixFormer: Linear Transformer with Mixture of Memory Experts",
+    "authors": [
+      "Yu Guo",
+      "Lei Duan"
+    ],
+    "published": "2026-08-10",
+    "arxiv_id": "2608.09468v1",
+    "summary": "State Space Models (SSMs), as a mainstream research direction of linear Transformers, aim to achieve higher efficiency than standard Transformers in long-context modeling. However, existing SSMs suffer from limited input adaptivity and constrained memory capacity, leading to information loss when modeling ultra-long sequences. To address these limitations, we propose MixFormer, a novel linear Transformer that integrates a Mixture-of-Memory-Experts (MoE) mechanism. Specifically, the model maintai",
+    "pdf_url": "https://arxiv.org/pdf/2608.09468v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Tied Trit-Planes: Constraining PTQTP to a Uniform Nine-Level Quantizer, with a Persistent Folded Format for Disk-Streamed Mixture-of-Experts Serving",
+    "authors": [
+      "Matteo Grella"
+    ],
+    "published": "2026-08-09",
+    "arxiv_id": "2608.08910v1",
+    "summary": "PTQTP decomposes LLM weight matrices into two ternary (trit) planes with two free per-group scales. Tying the scales to a fixed ratio of three collapses the decomposition into a single uniform nine-level quantizer, a known balanced-ternary identity. To our knowledge, at the time of writing, this work is the first to impose that identity as a constraint inside PTQTP's solver. The two trit planes then fold losslessly into one 4-bit code plane that we make the persistent serving representation: dis",
+    "pdf_url": "https://arxiv.org/pdf/2608.08910v1.pdf",
+    "categories": "cs.CL"
+  },
+  {
+    "title": "Beyond Routing: Decoupling Expert Dispatch and Aggregation in Sparse Mixture-of-Experts",
+    "authors": [
+      "Zongfei Li"
+    ],
+    "published": "2026-08-09",
+    "arxiv_id": "2608.08853v1",
+    "summary": "Sparse Mixture-of-Experts (MoE) routers commonly use the same scores both to select experts and to weight their already-computed outputs. We study whether these two roles, dispatch and aggregation, should be coupled. On pretrained OLMoE-1B-7B, we keep selected Top-8 expert IDs, expert computation, and total selected router mass fixed and change only within-set aggregation. A structured oracle improves full-horizon cross-entropy by 0.0160 +/- 0.0039 across three seeds; the router's top-scored exp",
+    "pdf_url": "https://arxiv.org/pdf/2608.08853v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "DoGMA: A Central-Dogma-Guided Foundation Model for Multi-Omics Alignment and Multi-Task Learning in Oncology",
+    "authors": [
+      "Junfei Ling",
+      "Bangzheng Pu",
+      "Bingsen Xue",
+      "Tianle Li",
+      "Ruying Hu",
+      "Cheng Jin"
+    ],
+    "published": "2026-08-08",
+    "arxiv_id": "2608.08148v1",
+    "summary": "Attention mechanisms have been widely utilized in modern deep learning, and many existing multi-omics models inherit their conventional use to allow unrestricted bidirectional interactions. However, the fundamental logic of life is directional. Existing designs often overlook the directionality suggested by the central dogma, potentially limiting transfer across heterogeneous cancers, downstream tasks, and incomplete modality settings.In this work, we present DoGMA, a central-dogma-guided founda",
+    "pdf_url": "https://arxiv.org/pdf/2608.08148v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "RotaryQuant: Fitting 120B MoE Models on Consumer Hardware via Fused Compressed-Space Attention",
+    "authors": [
+      "Anthony. Lui",
+      "Mohamed. Elsaied",
+      "N. P. Savani"
+    ],
+    "published": "2026-08-08",
+    "arxiv_id": "2608.08081v1",
+    "summary": "Large mixture-of-experts (MoE) language models with 26--120 billion parameters exceed the memory capacity of consumer devices through three simultaneous pressures: resident weight matrices, key-value (KV) cache state that grows linearly with context, and dozens of expert sublayers that must be paged on demand. We present RotaryQuant, a three-axis compression system that addresses all three. Mixed-precision weight quantization assigns bit-widths by architectural role: 4-bit for dense layers, 2-bi",
+    "pdf_url": "https://arxiv.org/pdf/2608.08081v1.pdf",
+    "categories": "cs.NE"
+  },
+  {
+    "title": "EasyBalance: Cross-Layer Load Balancing in Distributed MoE Inference",
+    "authors": [
+      "Yize Wu",
+      "Ke Gao",
+      "Ling Li",
+      "Yanjun Wu"
+    ],
+    "published": "2026-08-08",
+    "arxiv_id": "2608.07964v1",
+    "summary": "Load Balancing has emerged as a critical problem in expert-parallel distributed inference of Mixture-of-Experts (MoE) models. As routing distributions are typically skewed across experts, devices hosting lighter-loaded experts must idle to wait for the heaviest during expert computing, leading to inefficiency. Existing load-balancing approaches primarily rely on expert replication or migration within each layer, which introduce additional overhead and limit their flexibility and scalability. To ",
+    "pdf_url": "https://arxiv.org/pdf/2608.07964v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "When Does Trace-Driven Evaluation Mislead MoE Expert Caching? Replay Semantics, Workload Contamination, and Operating Regimes",
+    "authors": [
+      "Yu Zhang"
+    ],
+    "published": "2026-08-08",
+    "arxiv_id": "2608.07911v2",
+    "summary": "Mixture-of-Experts (MoE) models have outgrown accelerator memory, and offloading expert weights to host memory is now standard. This makes expert cache management an attractive lever: a policy that raised the hit rate would cut expert traffic per token. Evaluating that is a measurement problem, and we find the measurement fragile.\n  With a trace-driven, event-atomic simulator over three MoE models (40, 64, 128 experts), we isolate three evaluation axes that change conclusions, not just numbers. ",
+    "pdf_url": "https://arxiv.org/pdf/2608.07911v2.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Router Sensitivity Under Lightweight Fine-Tuning Identifies Prunable Experts in Mixture-of-Experts Models",
+    "authors": [
+      "Ali Janati",
+      "Kaoutar El Maghraoui",
+      "Xinyi Luo",
+      "Wenyuan Shen",
+      "Owen Zou",
+      "Yankai Mao"
+    ],
+    "published": "2026-08-08",
+    "arxiv_id": "2608.07890v1",
+    "summary": "Mixture-of-Experts (MoE) models decouple total parameters from per-token compute, but deployment still requires storing every expert. Recent theory shows that pruning experts with the smallest router-norm changes during fine-tuning can preserve accuracy, but assumes full fine-tuning. We test whether lightweight adaptation can recover this signal. We briefly fine-tune with a parameter-efficient adapter, rank experts by the induced $\\ell_2$ router change, and prune the least-changed experts in one",
+    "pdf_url": "https://arxiv.org/pdf/2608.07890v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Shape Mutating Expert Compression:LorExperts and BTExperts",
+    "authors": [
+      "Inesh Chakrabarti",
+      "Sourjya Roy",
+      "Bowen Bao",
+      "Thiago Crepaldi",
+      "Spandan Tiwari",
+      "Ashish Sirasao"
+    ],
+    "published": "2026-08-07",
+    "arxiv_id": "2608.07814v1",
+    "summary": "Mixture-of-Experts (MoE) language models deliver high capacity at low per-token compute, but deploying them cheaply requires compressing their many expert weight matrices. Expert pruning (e.g., REAP) and merging reduce cost but sacrifice accuracy and require retraining the router; low-rank delta decomposition of experts (e.g., D^2-MoE) preserves all experts and the router, but degrades sharply as the expert count grows because a single shared component cannot approximate many near-orthogonal exp",
+    "pdf_url": "https://arxiv.org/pdf/2608.07814v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Fluid-DiT: Graph-Free Diffusion Transformers for Fluid Flow Simulations Learning",
+    "authors": [
+      "Shentong Mo",
+      "Guolin Ke"
+    ],
+    "published": "2026-08-07",
+    "arxiv_id": "2608.07161v1",
+    "summary": "Simulating complex fluid flows requires capturing full equilibrium distributions rather than just mean trajectories, yet high-fidelity solvers remain computationally prohibitive. Recent advances, such as Diffusion Graph Networks (DGNs), have combined diffusion models with graph neural networks to sample equilibrium states directly from unstructured meshes, enabling distributional accuracy even from short simulations. However, graph-based diffusion approaches suffer from hand-crafted architectura",
+    "pdf_url": "https://arxiv.org/pdf/2608.07161v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Multi-Level Modeling of Large Language Model Inference Latency and Energy via Hybrid Analytical--Machine-Learning Predictors",
+    "authors": [
+      "Saeid Shokoufa",
+      "Mohammad Erfan Sadeghi",
+      "Mehdi Kamal",
+      "Massoud Pedram"
+    ],
+    "published": "2026-08-07",
+    "arxiv_id": "2608.06723v1",
+    "summary": "The rapid scaling of Large Language Models (LLMs) has significantly increased computational cost, energy consumption, and inference latency, making accurate estimation essential for sustainable artificial intelligence deployment and hardware-aware design. In this work, we introduce Hybrid Modeling for Energy and Latency of LLMs (HYMELL), a hybrid three-level framework for estimating LLM inference latency and energy by combining analytical modeling with machine learning (ML). HYMELL models LLM ex",
+    "pdf_url": "https://arxiv.org/pdf/2608.06723v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
+    "authors": [
+      "Zhuoheng Huang",
+      "Mukesh Singh"
+    ],
+    "published": "2026-08-07",
+    "arxiv_id": "2608.06690v2",
+    "summary": "Most language-model access controls regulate behavior while leaving the same computation available to every request. We study a different systems question: can trusted authorization determine which newly trained parameters are reachable by the forward pass? Policy-Masked Private Experts freezes a pretrained sparse Mixture-of-Experts (MoE) model, trains a disjoint expert branch, and selects the public or private pool before top-k routing. The resulting claim is narrow but testable: under the decl",
+    "pdf_url": "https://arxiv.org/pdf/2608.06690v2.pdf",
+    "categories": "cs.CR"
+  },
+  {
+    "title": "FreeBalance: Pre-Routing Online Moe Load Balancing via Residual Workload Prediction",
+    "authors": [
+      "Pengfei Chen",
+      "Yize Wu",
+      "Shouxu Kuang",
+      "Ke Gao",
+      "Ling Li"
+    ],
+    "published": "2026-08-14",
+    "arxiv_id": "2608.14205v1",
+    "summary": "Load imbalance poses a major bottleneck to the efficiency of expert parallelism in distributed inference of Mixture-of-Experts (MoE) models. The most heavily loaded rank stalls global execution due to skewed routing distributions, directly increasing latency. While offline expert placement can alleviate persistent imbalance, practical multi-task serving workloads exhibit layer- and batch-dependent routing dynamics, making online load balancing indispensable. Existing approaches rely on routing s",
+    "pdf_url": "https://arxiv.org/pdf/2608.14205v1.pdf",
+    "categories": "cs.AI"
+  },
+  {
+    "title": "MLLM-Routed Heterogeneous Ensembles for Robust Cross-Dataset Image Classification",
+    "authors": [
+      "Daniel Perkins",
+      "John Squires",
+      "Janou Milligan",
+      "Chandra Raskoti",
+      "Linda Ungerboeck"
+    ],
+    "published": "2026-08-13",
+    "arxiv_id": "2608.13463v1",
+    "summary": "Modern image classification models excel when trained on single task-specific datasets but often struggle to generalize across domains and difficulty levels. We propose ARMDIL, an Adaptive Router for Multi-Domain Image classification with LLMs. ARMDIL is an ensemble that uses a multimodal large language model (MLLM) agent to dynamically route each image to the most suitable vision backbone. Our diverse ensemble employs convolutional neural networks (ResNets), self-supervised representation learn",
+    "pdf_url": "https://arxiv.org/pdf/2608.13463v1.pdf",
+    "categories": "cs.CV"
+  },
+  {
+    "title": "ERSkill: Evolving for Skill-Guided Adaptive Memory Retrieval",
+    "authors": [
+      "Haolong Chen",
+      "Liang Zhang",
+      "Zhuo Li",
+      "Lei Xue",
+      "Guanrxu Zhu"
+    ],
+    "published": "2026-08-13",
+    "arxiv_id": "2608.12720v1",
+    "summary": "While Large Language Model (LLM) agents increasingly rely on long-term memory for persistent interactions, the retrieval mechanisms governing this memory are rarely treated as evolvable components. This static approach limits performance on heterogeneous memory queries, which often demand diverse evidence construction strategies. To address this, we introduce \\textbf{ERSkill}, a retrieval-centric framework for self-evolving, skill-guided memory access. ERSkill compiles interaction histories into",
+    "pdf_url": "https://arxiv.org/pdf/2608.12720v1.pdf",
+    "categories": "cs.CL"
+  },
+  {
+    "title": "Error-Aware Reverse Auction Mechanism for Large Language Model Routing",
+    "authors": [
+      "Haolong Chen",
+      "Zhengyuan Xin",
+      "Liang Zhang",
+      "Lei Xue",
+      "Guangxu Zhu"
+    ],
+    "published": "2026-08-13",
+    "arxiv_id": "2608.12719v1",
+    "summary": "Routing each query to a cost-effective large language model (LLM) is critical for balancing quality and cost, yet most routers rely on a centralized task center to predict model performance, creating an information-risk mismatch and a scalability bottleneck as the model pool grows. We propose a market-based routing paradigm that shifts ex-ante prediction to LLM providers via a reverse auction, where providers bid with self-predicted success probabilities and execution costs. To account for inher",
+    "pdf_url": "https://arxiv.org/pdf/2608.12719v1.pdf",
+    "categories": "cs.GT"
+  },
+  {
+    "title": "Who Thinks Best Depends on How Long You Let Them: Budget-Dependent Rankings in LLM Evaluation",
+    "authors": [
+      "Rodrigo Guedes de Souza",
+      "Alison R. Panisson"
+    ],
+    "published": "2026-08-12",
+    "arxiv_id": "2608.12150v1",
+    "summary": "Standard evaluation of large language models assumes stable model rankings across inference conditions. We challenge this assumption by varying the token generation budget, i.e., the maximum tokens a model may produce, across seven levels (64--4,096), evaluating four models on three reasoning benchmarks (56,476 inferences). We report four findings: (i) 3--19% of items exhibit non-monotone behavior (accuracy decreasing with more budget), even after controlling for truncation, and this phenomenon ",
+    "pdf_url": "https://arxiv.org/pdf/2608.12150v1.pdf",
+    "categories": "cs.AI"
+  },
+  {
+    "title": "Consolidator: Learning Persistent Routed Memory Across Context Boundaries",
+    "authors": [
+      "Sungwoo Goo",
+      "Hwi-yeol Yun",
+      "Sangkeun Jung"
+    ],
+    "published": "2026-08-12",
+    "arxiv_id": "2608.11701v1",
+    "summary": "Copying short-term memory (STM) into a slower store can preserve state across a context boundary, but persistence alone does not ensure that the retained state influences subsequent memory access. We test this distinction in a Phasor Memory Network (PMNet) using Consolidator, a shared slot-local operator that transforms routed STM before accumulating it into long-term memory (LTM), without replaying the source tokens. After each consolidation, the KV cache and STM are cleared. The retained LTM c",
+    "pdf_url": "https://arxiv.org/pdf/2608.11701v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "APEX: Adaptive Expert Prefetching for Memory-Efficient Edge MoE Inference",
+    "authors": [
+      "Alish Kanani",
+      "Layan Badawi",
+      "Umit Y. Ogras"
+    ],
+    "published": "2026-08-12",
+    "arxiv_id": "2608.11688v1",
+    "summary": "Mixture-of-Experts (MoE) models are attractive for edge deployment because they provide high model capacity while activating only a small subset of parameters per token, improving compute efficiency. However, MoE inference at the edge is fundamentally limited by memory. Expert parameters are large and often reside in off-chip memory due to capacity, cost, and power constraints, putting expert loading to the critical path. We present APEX: Adaptive Expert Prefetching, a predictive resource manage",
+    "pdf_url": "https://arxiv.org/pdf/2608.11688v1.pdf",
+    "categories": "cs.AR"
+  },
+  {
+    "title": "Self-evolving network verifiers",
+    "authors": [
+      "Ioannis Protogeros",
+      "Tibor Schneider",
+      "Laurent Vanbever"
+    ],
+    "published": "2026-08-11",
+    "arxiv_id": "2608.11340v1",
+    "summary": "Symbolic network verifiers can reason about correctness across vast spaces of routing inputs and failures, but only for the protocols and features an expert has encoded by hand. Creating and maintaining a faithful model of the control plane is both difficult and never-ending, since no written source specifies perfectly what a network does: vendor implementations deviate from the RFCs, and behaviour shifts with releases. The burden of constant upkeep ultimately keeps verification out of many netw",
+    "pdf_url": "https://arxiv.org/pdf/2608.11340v1.pdf",
+    "categories": "cs.NI"
+  },
+  {
+    "title": "TimeRoute: Time-Aware Modality Routing and Diffusion for Multi-Modal Recommendation",
+    "authors": [
+      "Pengyu Zhang",
+      "Yangqin Jiang",
+      "Klim Zaporojets",
+      "Congfeng Cao",
+      "Paul Groth"
+    ],
+    "published": "2026-08-11",
+    "arxiv_id": "2608.10983v1",
+    "summary": "Multi-modal recommenders fuse collaborative signals with item modalities such as text, images, and audio, but the usefulness of each drifts over time and at different rates. For example, chocolate purchases typically guided by textual ingredient cues can shift toward visual packaging and ambient audio around Valentine's Day. This modality time-scale mismatch gives rise to two coupled challenges: (1) users require different modality proportions across temporal contexts, and (2) less relevant moda",
+    "pdf_url": "https://arxiv.org/pdf/2608.10983v1.pdf",
+    "categories": "cs.IR"
+  },
+  {
+    "title": "Beyond Forecasting: Recasting Volatility Control as a Routing Problem",
+    "authors": [
+      "Hongji Pu",
+      "Leyang Zhou"
+    ],
+    "published": "2026-08-11",
+    "arxiv_id": "2608.10375v1",
+    "summary": "Volatility control converts risk estimates into portfolio exposure, yet existing approaches often rely on a fixed volatility estimator or a pre-defined control rule that may not adapt to changing market conditions. We propose VolRouter, a modular framework that formulates volatility control as state-conditioned routing over estimator-controller pairs. VolRouter first summarizes market conditions into a control-relevant state profile and then performs routing through three stages: state inference",
+    "pdf_url": "https://arxiv.org/pdf/2608.10375v1.pdf",
+    "categories": "cs.CE"
+  },
+  {
+    "title": "STAIR: Effective Incident Response Using an End-to-End Agentic Planning Framework",
+    "authors": [
+      "Hanlin Jiang",
+      "Jionghao Huang",
+      "Shaofei Li",
+      "Bojia Yu",
+      "Peng Jiang",
+      "Yuxin Ren",
+      "Ning Jia",
+      "Yao Guo",
+      "Ding Li"
+    ],
+    "published": "2026-08-10",
+    "arxiv_id": "2608.09524v1",
+    "summary": "Incident response planning is critical for restoring compromised software systems after cyberattacks. Common practice relies on expert-driven playbooks that encode fixed response procedures, but these static workflows struggle to adapt to evolving incident states, changing recovery objectives, and execution feedback. Recent LLM-based planners and tool-using agents improve automation, yet they remain unstable in long-horizon response because they lack a unified basis for maintaining incident stat",
+    "pdf_url": "https://arxiv.org/pdf/2608.09524v1.pdf",
+    "categories": "cs.CR"
+  },
+  {
+    "title": "MoRSE: Task-Oriented Multi-Agent System with Mixture of Role-Subtask Experts",
+    "authors": [
+      "Peiwen Li",
+      "Shiyang Zhang",
+      "Yangtian Zhang",
+      "Sizhuang He",
+      "David van Dijk",
+      "Rex Ying"
+    ],
+    "published": "2026-08-10",
+    "arxiv_id": "2608.09251v1",
+    "summary": "Large language model-based multi-agent systems have recently shown strong potential for complex, long-horizon tasks. However, existing methods mainly rely on coarse prompt-level differentiation without parameter adaptation for diverse subtasks, resulting in insufficient inter-agent heterogeneity and limited specialized capability that bottleneck performance on tasks with complex requirements. To address this, we introduce a Task-Oriented Multi-Agent System with Mixture of Role-Subtask Experts (M",
+    "pdf_url": "https://arxiv.org/pdf/2608.09251v1.pdf",
+    "categories": "cs.MA"
+  },
+  {
+    "title": "Agentic Router: An Execution-Grounded Continual Learning Approach With Memory",
+    "authors": [
+      "Yuxuan Chen",
+      "Rongpeng Li",
+      "Zhifeng Zhao",
+      "Yuntao Liu",
+      "Xing Xu",
+      "Honggang Zhang"
+    ],
+    "published": "2026-08-10",
+    "arxiv_id": "2608.09184v1",
+    "summary": "Large language model (LLM) agents provide a promising interface for command-line-based network operations, but a plausible command may still fail or introduce operational risk after execution. Existing approaches mainly focus on command generation or final configuration correctness, and do not use execution-grounded experience to jointly improve candidate coverage and action selection. We propose an execution-grounded dual-path consequence-aware agent for CLI-based SONiC operations, which genera",
+    "pdf_url": "https://arxiv.org/pdf/2608.09184v1.pdf",
+    "categories": "cs.AI"
+  },
+  {
+    "title": "UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models",
+    "authors": [
+      "Lei Xin",
+      "Bin Gu",
+      "Peize Li",
+      "Zitong Wang",
+      "Jianbo Zhao",
+      "Changjiang Jiang",
+      "Yanyue Xie",
+      "Chao Huang",
+      "Xuyang Zhao",
+      "Zunhai Su",
+      "Fanhu Zeng",
+      "Zhenglun Kong"
+    ],
+    "published": "2026-08-09",
+    "arxiv_id": "2608.08627v1",
+    "summary": "Sparse mixture-of-experts (MoE) layers expand recommendation capacity through conditional computation, yet a trained checkpoint still stores and routes over its full expert bank. We study a deployment problem: convert that checkpoint to a smaller standard MoE under an explicit expert budget, without adding a compression-specific online module. To address this, we introduce UniMoMo, a post-training compression framework formulated as a constrained graph coarsening problem. Rather than relying on ",
+    "pdf_url": "https://arxiv.org/pdf/2608.08627v1.pdf",
+    "categories": "cs.AI"
+  },
+  {
+    "title": "Router Sensitivity Under Lightweight Fine-Tuning Identifies Prunable Experts in Mixture-of-Experts Models",
+    "authors": [
+      "Ali Janati",
+      "Kaoutar El Maghraoui",
+      "Xinyi Luo",
+      "Wenyuan Shen",
+      "Owen Zou",
+      "Yankai Mao"
+    ],
+    "published": "2026-08-08",
+    "arxiv_id": "2608.07890v1",
+    "summary": "Mixture-of-Experts (MoE) models decouple total parameters from per-token compute, but deployment still requires storing every expert. Recent theory shows that pruning experts with the smallest router-norm changes during fine-tuning can preserve accuracy, but assumes full fine-tuning. We test whether lightweight adaptation can recover this signal. We briefly fine-tune with a parameter-efficient adapter, rank experts by the induced $\\ell_2$ router change, and prune the least-changed experts in one",
+    "pdf_url": "https://arxiv.org/pdf/2608.07890v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Shape Mutating Expert Compression:LorExperts and BTExperts",
+    "authors": [
+      "Inesh Chakrabarti",
+      "Sourjya Roy",
+      "Bowen Bao",
+      "Thiago Crepaldi",
+      "Spandan Tiwari",
+      "Ashish Sirasao"
+    ],
+    "published": "2026-08-07",
+    "arxiv_id": "2608.07814v1",
+    "summary": "Mixture-of-Experts (MoE) language models deliver high capacity at low per-token compute, but deploying them cheaply requires compressing their many expert weight matrices. Expert pruning (e.g., REAP) and merging reduce cost but sacrifice accuracy and require retraining the router; low-rank delta decomposition of experts (e.g., D^2-MoE) preserves all experts and the router, but degrades sharply as the expert count grows because a single shared component cannot approximate many near-orthogonal exp",
+    "pdf_url": "https://arxiv.org/pdf/2608.07814v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "bioMoR: Biology-Guided Mixture-of-Recursions for Effective Genomic Learning",
+    "authors": [
+      "Koushik Howlader",
+      "Tirtho Roy",
+      "Md Tauhidul Islam",
+      "Wei Le"
+    ],
+    "published": "2026-08-07",
+    "arxiv_id": "2608.06727v2",
+    "summary": "Transformer models for high-dimensional omics analysis process thousands of genes or pathways, although only a subset requires deep computation. Mixture-of-Recursions (MoR) improves efficiency through adaptive token-choice or expert-choice routing. We propose bioMoR, which, to the best of our knowledge, is the first framework to apply MoR to gene-level and pathway-level learning. Our contributions include identifying three locations for integrating structured biological knowledge within an MoR b",
+    "pdf_url": "https://arxiv.org/pdf/2608.06727v2.pdf",
+    "categories": "cs.AI"
+  },
+  {
+    "title": "OrchestraBench: Evaluating Multi-Agent Orchestration Failure Modes, Recovery, and Decomposition Quality",
+    "authors": [
+      "Yidian Chen",
+      "Yingzi Gu",
+      "Natan Vidra",
+      "Spurthi Setty",
+      "Sharon Zheng"
+    ],
+    "published": "2026-08-05",
+    "arxiv_id": "2608.05263v1",
+    "summary": "Multi-agent orchestration frameworks are moving from demos to production, yet benchmarks typically report task accuracy without diagnosing why a pipeline failed, where a cascade began, or which routing decision caused the breakdown. OrchestraBench evaluates failure, recovery, and decomposition through a controlled, seed-reproducible failure-injection harness over templated enterprise workflows. It introduces cascade radius and per-failure-mode recovery as primary metrics and compares routing pol",
+    "pdf_url": "https://arxiv.org/pdf/2608.05263v1.pdf",
+    "categories": "cs.AI"
+  },
+  {
+    "title": "An Emerging Retail Portfolio Management Application: Personalized, Tax-Aware Reinforcement Learning with Natural Language Goals",
+    "authors": [
+      "Ramin Pishehvar"
+    ],
+    "published": "2026-08-05",
+    "arxiv_id": "2608.05255v1",
+    "summary": "Retail investors lack access to the kind of personalized, tax-aware portfolio management that institutional clients take for granted -- existing robo-advisors use static, rule-based allocation, and institutional-grade systems require account minimums and technology stacks unavailable to individual investors. We present a fully built, integration-tested application that closes this gap: a FastAPI backend and web dashboard that let a user describe an investment goal in plain language (e.g. \"I want",
+    "pdf_url": "https://arxiv.org/pdf/2608.05255v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Scrouting: Cost-Aware Routing of Coding Agents by Scouting the Repository First",
+    "authors": [
+      "Ishaan Bhola",
+      "Adithyan Krishnan",
+      "Mukunda NS"
+    ],
+    "published": "2026-08-05",
+    "arxiv_id": "2608.04804v1",
+    "summary": "Frontier language models can resolve repository-level software issues, but each attempt is expensive, and existing routers select a model from the issue text alone. We present SuperScout, which routes after scouting the repository: a 7B searcher, SuperScout-7B, first explores the repository and produces a structured handoff whose reproduction claims are sandbox-verified, with false claims stripped before delivery. The searcher's hidden states, together with the task text, then feed a resume-base",
+    "pdf_url": "https://arxiv.org/pdf/2608.04804v1.pdf",
+    "categories": "cs.SE"
+  },
+  {
+    "title": "Personalized Federated Sparse Adaptation of Time-Series Foundation Models",
+    "authors": [
+      "Priyanka Nihalchandani",
+      "Naman Srivastava",
+      "Varun Ojha",
+      "Pandarasamy Arjunan"
+    ],
+    "published": "2026-08-05",
+    "arxiv_id": "2608.04695v1",
+    "summary": "Federated adaptation of time-series foundation models (TSFMs) is attractive for building energy forecasting because meter data are private, distributed, and highly non-IID. However, a single parameter-sharing strategy is unlikely to serve all pretrained TSFMs or building clients: fully shared adapters can suppress building-specific temporal behavior, while fully local adaptation discards cross-building transfer. We propose a personalized federated sparse adaptation framework with a heterogeneous",
+    "pdf_url": "https://arxiv.org/pdf/2608.04695v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "EASy: Towards Efficient LLM-Based Agentic System",
+    "authors": [
+      "Junnan Liu",
+      "Linhao Luo",
+      "Thuy-Trang Vu",
+      "Gholamreza Haffari"
+    ],
+    "published": "2026-08-05",
+    "arxiv_id": "2608.04588v1",
+    "summary": "Agentic systems have emerged as a promising paradigm for solving complex tasks by coordinating specialized LLM-based agents. However, most existing systems primarily optimize task success while giving limited consideration to execution efficiency under practical constraints such as executor capability and computational cost. Existing router-based methods have limited ability to reason over rich, evolving task contexts, multi-step dependencies, and intermediate execution feedback, and often gener",
+    "pdf_url": "https://arxiv.org/pdf/2608.04588v1.pdf",
+    "categories": "cs.CL"
+  },
+  {
+    "title": "Breaking the Curse of Multilinguality in Many-to-Many Speech-to-Text Translation via a Resource-Aware Mixture of Speech Encoders",
+    "authors": [
+      "Yexing Du",
+      "Kaiyuan Liu",
+      "Youcheng Pan",
+      "Bo Yang",
+      "Chengpeng Fu",
+      "Yu Wang",
+      "Ming Liu"
+    ],
+    "published": "2026-08-05",
+    "arxiv_id": "2608.04586v2",
+    "summary": "Multimodal large language models (MLLMs) have achieved significant success in speech-to-text translation (S2TT). However, when processing multilingual speech inputs, a single speech encoder shared across all languages suffers from the curse of multilinguality: languages at different resource levels compete for limited representation capacity, leading to strong high-resource performance but substantial degradation on low-resource speech. To address this problem and improve multilingual consistenc",
+    "pdf_url": "https://arxiv.org/pdf/2608.04586v2.pdf",
+    "categories": "cs.CL"
+  },
+  {
+    "title": "COMPAS: Difficulty-Aware Joint Search for Optimizing Code Generation",
+    "authors": [
+      "Jingzhi Gong",
+      "Jie M. Zhang",
+      "Gunel Jahangirova",
+      "Dong Huang",
+      "Mohammad Reza Mousavi",
+      "Mark Harman"
+    ],
+    "published": "2026-08-05",
+    "arxiv_id": "2608.04336v1",
+    "summary": "Code generation systems make each LLM call with a model, a prompt, and decoding settings. However, existing optimization methods usually tune only part of these choices or use one fixed configuration for all tasks: global optimizers search one configuration for all tasks, routers choose only a model, and prompt optimizers keep the model and decoding settings fixed. This leaves their joint, group-specific interactions unclear. We therefore examine how these choices interact and observe that promp",
+    "pdf_url": "https://arxiv.org/pdf/2608.04336v1.pdf",
+    "categories": "cs.SE"
+  },
+  {
+    "title": "AgenticECO: An Agentic Framework for ECO on 3D Integrated Circuits",
+    "authors": [
+      "Shuo Ren",
+      "Yaohui Han",
+      "Libo Shen",
+      "Zhiqiang Jia",
+      "Rongliang Fu",
+      "Bei Yu",
+      "Tsung-Yi Ho"
+    ],
+    "published": "2026-08-04",
+    "arxiv_id": "2608.03738v1",
+    "summary": "As Moore's law slows, the industry is turning to three-dimensional integration; yet in merged 3D-IC flows, routed designs expose bond-level defects with no 2D analogue, and post-route engineering change orders (ECO) remain manual, expertise-bound work. Worse, the standard edit-then-fully-reroute practice entangles a repair with router churn, so a signoff number cannot be attributed to the edit that motivated it. We present AgenticECO, an evidence-gated tool-using agent workflow for 3D-IC ECO on ",
+    "pdf_url": "https://arxiv.org/pdf/2608.03738v1.pdf",
+    "categories": "cs.AI"
+  },
+  {
+    "title": "Cross-Layer Interaction under Weight-Space Ablation: A Closed-Form Attention Jacobian Bound and a Test on a Real Pretrained Model",
+    "authors": [
+      "Abdallah Khemais"
+    ],
+    "published": "2026-08-04",
+    "arxiv_id": "2608.03629v2",
+    "summary": "A companion paper studies when activation patching and weight-space ablation agree, inside an idealized model where a conditional computation is carried additively through a residual stream. For the one composition in that model where two carriers are architecturally dependent, an attention head and its own layer's normalization-MLP composition, it derives an exact first-order interaction formula, zero when only the MLP is ablated and second-order bounded when the head is also ablated. That resu",
+    "pdf_url": "https://arxiv.org/pdf/2608.03629v2.pdf",
+    "categories": "cs.AI"
+  },
+  {
+    "title": "A Theory of Conditional Collapse under Low-Rank Weight-Space Ablations: I. The Single-Block Theory and Synthetic Validation",
+    "authors": [
+      "Abdallah Khemais"
+    ],
+    "published": "2026-08-04",
+    "arxiv_id": "2608.03620v2",
+    "summary": "Activation patching and weight-space ablation both claim a component is causally responsible for a behavior, yet they act on different objects: one forward pass versus the parameters behind every forward pass. We ask when they agree.\n  We study an idealized model where a conditional computation is carried additively through a residual stream, $F(x)=F_0(x)+\\sum_iα_i(x)v_i$, read out by a linear functional, and prove three exact results. First, deleting a subset of carriers collapses a matched inp",
+    "pdf_url": "https://arxiv.org/pdf/2608.03620v2.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Shared Prefixes, Better Credit: Adaptive Routing for Multi-Agent Reasoning",
+    "authors": [
+      "Yiqing Liu",
+      "Zihao Wang",
+      "Hantao Yao",
+      "Wu Liu",
+      "Yongdong Zhang"
+    ],
+    "published": "2026-08-03",
+    "arxiv_id": "2608.02291v1",
+    "summary": "Multi-agent reasoning (MAR) improves reasoning reliability through iterative solution exchange and refinement. Existing adaptive MAR methods typically learn routing decisions from query-level labels or trajectory-level returns, but such coarse supervision cannot accurately estimate the state-conditioned utility of individual operators in multi-step collaboration. We propose TreeCredit, a shared-prefix credit assignment framework for efficient adaptive MAR. Its core insight is to estimate operato",
+    "pdf_url": "https://arxiv.org/pdf/2608.02291v1.pdf",
+    "categories": "cs.AI"
+  },
+  {
+    "title": "AdaThinkV: Adaptive Thinking for Token-Efficient Video Reasoning",
+    "authors": [
+      "Jingqi Tian",
+      "Haoji Zhang",
+      "Lin Chen",
+      "Hongbo Jin",
+      "Haonan Xu",
+      "Tianrui Zhu",
+      "Xingming Shui",
+      "Shilin Ma",
+      "Wenjing Yang",
+      "Yansong Tang"
+    ],
+    "published": "2026-08-03",
+    "arxiv_id": "2608.01980v1",
+    "summary": "Chain-of-thought (CoT) reasoning can improve performance on difficult video questions but often wastes decoding tokens on simple ones. We study whether a video multimodal large language model can adapt its reasoning effort to each question. We propose AdaThinkV, an adaptive framework for video reasoning that learns whether to reason explicitly without offline difficulty labels, manually tuned confidence thresholds, or an external router. During reinforcement learning, AdaThinkV samples matched r",
+    "pdf_url": "https://arxiv.org/pdf/2608.01980v1.pdf",
+    "categories": "cs.CV"
+  },
+  {
+    "title": "REFLEX: Rethinking MoE Inference as Refinement-Aware Compute Allocation in Diffusion Language Models",
+    "authors": [
+      "Xiang Xia",
+      "Cheng Yan",
+      "Yiming Zhang",
+      "Jiazheng Liu",
+      "Hongyu Zhang",
+      "Wuyang Zhang"
+    ],
+    "published": "2026-08-03",
+    "arxiv_id": "2608.01784v1",
+    "summary": "Mixture-of-experts (MoE) models increase parameter capacity by activating only a small subset of experts for each token. This conditional-computation paradigm has enabled autoregressive language models to scale model capacity without a proportional increase in per-token computation. In diffusion language models (DLMs), however, each denoising forward jointly revisits all token positions despite their sharply different refinement demands, while the default fixed token-choice routing assigns them ",
+    "pdf_url": "https://arxiv.org/pdf/2608.01784v1.pdf",
+    "categories": "cs.AI"
+  },
+  {
+    "title": "Adaptive Bayesian Online Learning via Expert Aggregation",
+    "authors": [
+      "Jungbin Jun",
+      "Ilsang Ohn"
+    ],
+    "published": "2026-07-22",
+    "arxiv_id": "2607.20239v1",
+    "summary": "Bayesian online learning promises uncertainty-aware prediction on data streams, but its performance hinges on inferential choices, including learning rates, prior distributions and variational families, which are usually fixed before seeing the stream. We address this by treating Bayesian update rules as experts and aggregating the Bayesian experts according to sequential predictive losses. We prove that the resulting aggregate competes with the best expert in hindsight at an aggregation cost de",
+    "pdf_url": "https://arxiv.org/pdf/2607.20239v1.pdf",
+    "categories": "stat.ML"
+  },
+  {
+    "title": "Variational Routing: A Scalable Bayesian Framework for Calibrated Mixture-of-Experts Transformers",
+    "authors": [
+      "Albus Yizhuo Li",
+      "Matthew Wicker"
+    ],
+    "published": "2026-03-10",
+    "arxiv_id": "2603.09453v3",
+    "summary": "Foundation models are increasingly being deployed in contexts where understanding the uncertainty of their outputs is critical to ensuring responsible deployment. While Bayesian methods offer a principled approach to uncertainty quantification, their computational overhead renders their use impractical for training or inference at foundation model scale. State-of-the-art models achieve parameter counts in the trillions through carefully engineered sparsity including Mixture-of-Experts (MoE) laye",
+    "pdf_url": "https://arxiv.org/pdf/2603.09453v3.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Mixture-of-experts Wishart model for covariance matrices with an application to Cancer drug screening",
+    "authors": [
+      "The Tien Mai",
+      "Zhi Zhao"
+    ],
+    "published": "2026-02-14",
+    "arxiv_id": "2602.13888v1",
+    "summary": "Covariance matrices arise naturally in different scientific fields, including finance, genomics, and neuroscience, where they encode dependence structures and reveal essential features of complex multivariate systems. In this work, we introduce a comprehensive Bayesian framework for analyzing heterogeneous covariance data through both classical mixture models and a novel mixture-of-experts Wishart (MoE-Wishart) model. The proposed MoE-Wishart model extends standard Wishart mixtures by allowing m",
+    "pdf_url": "https://arxiv.org/pdf/2602.13888v1.pdf",
+    "categories": "stat.ME"
+  },
+  {
+    "title": "Horseshoe Mixtures-of-Experts (HS-MoE)",
+    "authors": [
+      "Nick Polson",
+      "Vadim Sokolov"
+    ],
+    "published": "2026-01-14",
+    "arxiv_id": "2601.09043v1",
+    "summary": "Horseshoe mixtures-of-experts (HS-MoE) models provide a Bayesian framework for sparse expert selection in mixture-of-experts architectures. We combine the horseshoe prior's adaptive global-local shrinkage with input-dependent gating, yielding data-adaptive sparsity in expert usage. Our primary methodological contribution is a particle learning algorithm for sequential inference, in which the filter is propagated forward in time while tracking only sufficient statistics. We also discuss how HS-Mo",
+    "pdf_url": "https://arxiv.org/pdf/2601.09043v1.pdf",
+    "categories": "stat.ML"
+  },
+  {
+    "title": "Bayesian Mixture-of-Experts: Towards Making LLMs Know What They Don't Know",
+    "authors": [
+      "Albus Yizhuo Li"
+    ],
+    "published": "2025-09-28",
+    "arxiv_id": "2509.23830v1",
+    "summary": "The Mixture-of-Experts (MoE) architecture has enabled the creation of massive yet efficient Large Language Models (LLMs). However, the standard deterministic routing mechanism presents a significant limitation: its inherent brittleness is a key contributor to model miscalibration and overconfidence, resulting in systems that often do not know what they don't know.\n  This thesis confronts this challenge by proposing a structured \\textbf{Bayesian MoE routing framework}. Instead of forcing a single",
+    "pdf_url": "https://arxiv.org/pdf/2509.23830v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "N-BEATS-MOE: N-BEATS with a Mixture-of-Experts Layer for Heterogeneous Time Series Forecasting",
+    "authors": [
+      "Ricardo Matos",
+      "Luis Roque",
+      "Vitor Cerqueira"
+    ],
+    "published": "2025-08-10",
+    "arxiv_id": "2508.07490v1",
+    "summary": "Deep learning approaches are increasingly relevant for time series forecasting tasks. Methods such as N-BEATS, which is built on stacks of multilayer perceptrons (MLPs) blocks, have achieved state-of-the-art results on benchmark datasets and competitions. N-BEATS is also more interpretable relative to other deep learning approaches, as it decomposes forecasts into different time series components, such as trend and seasonality. In this work, we present N-BEATS-MOE, an extension of N-BEATS based ",
+    "pdf_url": "https://arxiv.org/pdf/2508.07490v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Gradient-free variational learning with conditional mixture networks",
+    "authors": [
+      "Conor Heins",
+      "Hao Wu",
+      "Dimitrije Markovic",
+      "Alexander Tschantz",
+      "Jeff Beck",
+      "Christopher Buckley"
+    ],
+    "published": "2024-08-29",
+    "arxiv_id": "2408.16429v2",
+    "summary": "Balancing computational efficiency with robust predictive performance is crucial in supervised learning, especially for critical applications. Standard deep learning models, while accurate and scalable, often lack probabilistic features like calibrated predictions and uncertainty quantification. Bayesian methods address these issues but can be computationally expensive as model and data complexity increase. Previous work shows that fast variational methods can reduce the compute requirements of ",
+    "pdf_url": "https://arxiv.org/pdf/2408.16429v2.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "On Least Square Estimation in Softmax Gating Mixture of Experts",
+    "authors": [
+      "Huy Nguyen",
+      "Nhat Ho",
+      "Alessandro Rinaldo"
+    ],
+    "published": "2024-02-05",
+    "arxiv_id": "2402.02952v2",
+    "summary": "Mixture of experts (MoE) model is a statistical machine learning design that aggregates multiple expert networks using a softmax gating function in order to form a more intricate and expressive model. Despite being commonly used in several applications owing to their scalability, the mathematical and statistical properties of MoE models are complex and difficult to analyze. As a result, previous theoretical works have primarily focused on probabilistic MoE models by imposing the impractical assu",
+    "pdf_url": "https://arxiv.org/pdf/2402.02952v2.pdf",
+    "categories": "stat.ML"
+  },
+  {
+    "title": "Statistical Perspective of Top-K Sparse Softmax Gating Mixture of Experts",
+    "authors": [
+      "Huy Nguyen",
+      "Pedram Akbarian",
+      "Fanqi Yan",
+      "Nhat Ho"
+    ],
+    "published": "2023-09-25",
+    "arxiv_id": "2309.13850v2",
+    "summary": "Top-K sparse softmax gating mixture of experts has been widely used for scaling up massive deep-learning architectures without increasing the computational cost. Despite its popularity in real-world applications, the theoretical understanding of that gating function has remained an open problem. The main challenge comes from the structure of the top-K sparse softmax gating function, which partitions the input space into multiple regions with distinct behaviors. By focusing on a Gaussian mixture ",
+    "pdf_url": "https://arxiv.org/pdf/2309.13850v2.pdf",
+    "categories": "stat.ML"
+  },
+  {
+    "title": "On an Interpretation of ResNets via Solution Constructions",
+    "authors": [
+      "Changcun Huang"
+    ],
+    "published": "2022-12-12",
+    "arxiv_id": "2212.05663v2",
+    "summary": "This paper first constructs a typical solution of ResNets for multi-category classifications by the principle of gate-network controls and deep-layer classifications, from which a general interpretation of the ResNet architecture is given and the performance mechanism is explained. We then use more solutions to further demonstrate the generality of that interpretation. The universal-approximation capability of ResNets is proved.",
+    "pdf_url": "https://arxiv.org/pdf/2212.05663v2.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Augmented Physics-Informed Neural Networks (APINNs): A gating network-based soft domain decomposition methodology",
+    "authors": [
+      "Zheyuan Hu",
+      "Ameya D. Jagtap",
+      "George Em Karniadakis",
+      "Kenji Kawaguchi"
+    ],
+    "published": "2022-11-16",
+    "arxiv_id": "2211.08939v3",
+    "summary": "In this paper, we propose the augmented physics-informed neural network (APINN), which adopts soft and trainable domain decomposition and flexible parameter sharing to further improve the extended PINN (XPINN) as well as the vanilla PINN methods. In particular, a trainable gate network is employed to mimic the hard decomposition of XPINN, which can be flexibly fine-tuned for discovering a potentially better partition. It weight-averages several sub-nets as the output of APINN. APINN does not req",
+    "pdf_url": "https://arxiv.org/pdf/2211.08939v3.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Mixtures of Gaussian Process Experts with SMC$^2$",
+    "authors": [
+      "Teemu Härkönen",
+      "Sara Wade",
+      "Kody Law",
+      "Lassi Roininen"
+    ],
+    "published": "2022-08-26",
+    "arxiv_id": "2208.12830v3",
+    "summary": "Gaussian processes are a key component of many flexible statistical and machine learning models. However, they exhibit cubic computational complexity and high memory constraints due to the need of inverting and storing a full covariance matrix. To circumvent this, mixtures of Gaussian process experts have been considered where data points are assigned to independent experts, reducing the complexity by allowing inference based on smaller, local covariance matrices. Moreover, mixtures of Gaussian ",
+    "pdf_url": "https://arxiv.org/pdf/2208.12830v3.pdf",
+    "categories": "stat.ML"
+  },
+  {
+    "title": "Second Order Regret Bounds Against Generalized Expert Sequences under Partial Bandit Feedback",
+    "authors": [
+      "Kaan Gokcesu",
+      "Hakan Gokcesu"
+    ],
+    "published": "2022-04-13",
+    "arxiv_id": "2204.06660v1",
+    "summary": "We study the problem of expert advice under partial bandit feedback setting and create a sequential minimax optimal algorithm. Our algorithm works with a more general partial monitoring setting, where, in contrast to the classical bandit feedback, the losses can be revealed in an adversarial manner. Our algorithm adopts a universal prediction perspective, whose performance is analyzed with regret against a general expert selection sequence. The regret we study is against a general competition cl",
+    "pdf_url": "https://arxiv.org/pdf/2204.06660v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Functional mixture-of-experts for classification",
+    "authors": [
+      "Nhat Thien Pham",
+      "Faicel Chamroukhi"
+    ],
+    "published": "2022-02-28",
+    "arxiv_id": "2202.13934v1",
+    "summary": "We develop a mixtures-of-experts (ME) approach to the multiclass classification where the predictors are univariate functions. It consists of a ME model in which both the gating network and the experts network are constructed upon multinomial logistic activation functions with functional inputs. We perform a regularized maximum likelihood estimation in which the coefficient functions enjoy interpretable sparsity constraints on targeted derivatives. We develop an EM-Lasso like algorithm to comput",
+    "pdf_url": "https://arxiv.org/pdf/2202.13934v1.pdf",
+    "categories": "stat.ML"
+  },
+  {
+    "title": "The Implicit Bias of Gradient Descent on Generalized Gated Linear Networks",
+    "authors": [
+      "Samuel Lippl",
+      "L. F. Abbott",
+      "SueYeon Chung"
+    ],
+    "published": "2022-02-05",
+    "arxiv_id": "2202.02649v1",
+    "summary": "Understanding the asymptotic behavior of gradient-descent training of deep neural networks is essential for revealing inductive biases and improving network performance. We derive the infinite-time training limit of a mathematically tractable class of deep nonlinear neural networks, gated linear networks (GLNs), and generalize these results to gated networks described by general homogeneous polynomials. We study the implications of our results, focusing first on two-layer GLNs. We then apply our",
+    "pdf_url": "https://arxiv.org/pdf/2202.02649v1.pdf",
+    "categories": "stat.ML"
+  },
+  {
+    "title": "Locally Sparse Neural Networks for Tabular Biomedical Data",
+    "authors": [
+      "Junchen Yang",
+      "Ofir Lindenbaum",
+      "Yuval Kluger"
+    ],
+    "published": "2021-06-11",
+    "arxiv_id": "2106.06468v2",
+    "summary": "Tabular datasets with low-sample-size or many variables are prevalent in biomedicine. Practitioners in this domain prefer linear or tree-based models over neural networks since the latter are harder to interpret and tend to overfit when applied to tabular datasets. To address these neural networks' shortcomings, we propose an intrinsically interpretable network for heterogeneous biomedical data. We design a locally sparse neural network where the local sparsity is learned to identify the subset ",
+    "pdf_url": "https://arxiv.org/pdf/2106.06468v2.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "DSelect-k: Differentiable Selection in the Mixture of Experts with Applications to Multi-Task Learning",
+    "authors": [
+      "Hussein Hazimeh",
+      "Zhe Zhao",
+      "Aakanksha Chowdhery",
+      "Maheswaran Sathiamoorthy",
+      "Yihua Chen",
+      "Rahul Mazumder",
+      "Lichan Hong",
+      "Ed H. Chi"
+    ],
+    "published": "2021-06-07",
+    "arxiv_id": "2106.03760v3",
+    "summary": "The Mixture-of-Experts (MoE) architecture is showing promising results in improving parameter sharing in multi-task learning (MTL) and in scaling high-capacity neural networks. State-of-the-art MoE models use a trainable sparse gate to select a subset of the experts for each input example. While conceptually appealing, existing sparse gates, such as Top-k, are not smooth. The lack of smoothness can lead to convergence and statistical performance issues when training with gradient-based methods. ",
+    "pdf_url": "https://arxiv.org/pdf/2106.03760v3.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Gaussian Experts Selection using Graphical Models",
+    "authors": [
+      "Hamed Jalali",
+      "Martin Pawelczyk",
+      "Gjergji Kasneci"
+    ],
+    "published": "2021-02-02",
+    "arxiv_id": "2102.01496v3",
+    "summary": "Local approximations are popular methods to scale Gaussian processes (GPs) to big data. Local approximations reduce time complexity by dividing the original dataset into subsets and training a local expert on each subset. Aggregating the experts' prediction is done assuming either conditional dependence or independence between the experts. Imposing the \\emph{conditional independence assumption} (CI) between the experts renders the aggregation of different expert predictions time efficient at the",
+    "pdf_url": "https://arxiv.org/pdf/2102.01496v3.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "A Generalized Online Algorithm for Translation and Scale Invariant Prediction with Expert Advice",
+    "authors": [
+      "Kaan Gokcesu",
+      "Hakan Gokcesu"
+    ],
+    "published": "2020-09-09",
+    "arxiv_id": "2009.04372v1",
+    "summary": "In this work, we aim to create a completely online algorithmic framework for prediction with expert advice that is translation-free and scale-free of the expert losses. Our goal is to create a generalized algorithm that is suitable for use in a wide variety of applications. For this purpose, we study the expected regret of our algorithm against a generic competition class in the sequential prediction by expert advice problem, where the expected regret measures the difference between the losses o",
+    "pdf_url": "https://arxiv.org/pdf/2009.04372v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "FleXOR: Trainable Fractional Quantization",
+    "authors": [
+      "Dongsoo Lee",
+      "Se Jung Kwon",
+      "Byeongwook Kim",
+      "Yongkweon Jeon",
+      "Baeseong Park",
+      "Jeongin Yun"
+    ],
+    "published": "2020-09-09",
+    "arxiv_id": "2009.04126v2",
+    "summary": "Quantization based on the binary codes is gaining attention because each quantized bit can be directly utilized for computations without dequantization using look-up tables. Previous attempts, however, only allow for integer numbers of quantization bits, which ends up restricting the search space for compression ratio and accuracy. In this paper, we propose an encryption algorithm/architecture to compress quantized weights so as to achieve fractional numbers of bits per weight. Decryption during",
+    "pdf_url": "https://arxiv.org/pdf/2009.04126v2.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Adversarial Mixture Of Experts with Category Hierarchy Soft Constraint",
+    "authors": [
+      "Zhuojian Xiao",
+      "Yunjiang jiang",
+      "Guoyu Tang",
+      "Lin Liu",
+      "Sulong Xu",
+      "Yun Xiao",
+      "Weipeng Yan"
+    ],
+    "published": "2020-07-24",
+    "arxiv_id": "2007.12349v3",
+    "summary": "Product search is the most common way for people to satisfy their shopping needs on e-commerce websites. Products are typically annotated with one of several broad categorical tags, such as \"Clothing\" or \"Electronics\", as well as finer-grained categories like \"Refrigerator\" or \"TV\", both under \"Electronics\". These tags are used to construct a hierarchy of query categories. Distributions of features such as price and brand popularity vary wildly across query categories. In addition, feature impor",
+    "pdf_url": "https://arxiv.org/pdf/2007.12349v3.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Fast Deep Mixtures of Gaussian Process Experts",
+    "authors": [
+      "Clement Etienam",
+      "Kody Law",
+      "Sara Wade",
+      "Vitaly Zankin"
+    ],
+    "published": "2020-06-11",
+    "arxiv_id": "2006.13309v4",
+    "summary": "Mixtures of experts have become an indispensable tool for flexible modelling in a supervised learning context, allowing not only the mean function but the entire density of the output to change with the inputs. Sparse Gaussian processes (GP) have shown promise as a leading candidate for the experts in such models, and in this article, we propose to design the gating network for selecting the experts from such mixtures of sparse GPs using a deep neural network (DNN). Furthermore, a fast one pass ",
+    "pdf_url": "https://arxiv.org/pdf/2006.13309v4.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Continuous Action Reinforcement Learning from a Mixture of Interpretable Experts",
+    "authors": [
+      "Riad Akrour",
+      "Davide Tateo",
+      "Jan Peters"
+    ],
+    "published": "2020-06-10",
+    "arxiv_id": "2006.05911v3",
+    "summary": "Reinforcement learning (RL) has demonstrated its ability to solve high dimensional tasks by leveraging non-linear function approximators. However, these successes are mostly achieved by 'black-box' policies in simulated domains. When deploying RL to the real world, several concerns regarding the use of a 'black-box' policy might be raised. In order to make the learned policies more transparent, we propose in this paper a policy iteration scheme that retains a complex function approximator for it",
+    "pdf_url": "https://arxiv.org/pdf/2006.05911v3.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Memory Augmented Neural Model for Incremental Session-based Recommendation",
+    "authors": [
+      "Fei Mi",
+      "Boi Faltings"
+    ],
+    "published": "2020-04-28",
+    "arxiv_id": "2005.01573v1",
+    "summary": "Increasing concerns with privacy have stimulated interests in Session-based Recommendation (SR) using no personal data other than what is observed in the current browser session. Existing methods are evaluated in static settings which rarely occur in real-world applications. To better address the dynamic nature of SR tasks, we study an incremental SR scenario, where new items and preferences appear continuously. We show that existing neural recommenders can be used in incremental SR scenarios wi",
+    "pdf_url": "https://arxiv.org/pdf/2005.01573v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Conditional Channel Gated Networks for Task-Aware Continual Learning",
+    "authors": [
+      "Davide Abati",
+      "Jakub Tomczak",
+      "Tijmen Blankevoort",
+      "Simone Calderara",
+      "Rita Cucchiara",
+      "Babak Ehteshami Bejnordi"
+    ],
+    "published": "2020-03-31",
+    "arxiv_id": "2004.00070v1",
+    "summary": "Convolutional Neural Networks experience catastrophic forgetting when optimized on a sequence of learning problems: as they meet the objective of the current training examples, their performance on previous tasks drops drastically. In this work, we introduce a novel framework to tackle this problem with conditional computation. We equip each convolutional layer with task-specific gating modules, selecting which filters to apply on the given input. This way, we achieve two appealing properties. F",
+    "pdf_url": "https://arxiv.org/pdf/2004.00070v1.pdf",
+    "categories": "cs.CV"
+  },
+  {
+    "title": "Deep Gated Networks: A framework to understand training and generalisation in deep learning",
+    "authors": [
+      "Chandrashekar Lakshminarayanan",
+      "Amit Vikram Singh"
+    ],
+    "published": "2020-02-10",
+    "arxiv_id": "2002.03996v2",
+    "summary": "Understanding the role of (stochastic) gradient descent (SGD) in the training and generalisation of deep neural networks (DNNs) with ReLU activation has been the object study in the recent past. In this paper, we make use of deep gated networks (DGNs) as a framework to obtain insights about DNNs with ReLU activation. In DGNs, a single neuronal unit has two components namely the pre-activation input (equal to the inner product the weights of the layer and the previous layer outputs), and a gating",
+    "pdf_url": "https://arxiv.org/pdf/2002.03996v2.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Learning From Multiple Experts: Self-paced Knowledge Distillation for Long-tailed Classification",
+    "authors": [
+      "Liuyu Xiang",
+      "Guiguang Ding",
+      "Jungong Han"
+    ],
+    "published": "2020-01-06",
+    "arxiv_id": "2001.01536v3",
+    "summary": "In real-world scenarios, data tends to exhibit a long-tailed distribution, which increases the difficulty of training deep networks. In this paper, we propose a novel self-paced knowledge distillation framework, termed Learning From Multiple Experts (LFME). Our method is inspired by the observation that networks trained on less imbalanced subsets of the distribution often yield better performances than their jointly-trained counterparts. We refer to these models as 'Experts', and the proposed LF",
+    "pdf_url": "https://arxiv.org/pdf/2001.01536v3.pdf",
+    "categories": "cs.CV"
+  },
+  {
+    "title": "InfoCNF: An Efficient Conditional Continuous Normalizing Flow with Adaptive Solvers",
+    "authors": [
+      "Tan M. Nguyen",
+      "Animesh Garg",
+      "Richard G. Baraniuk",
+      "Anima Anandkumar"
+    ],
+    "published": "2019-12-09",
+    "arxiv_id": "1912.03978v1",
+    "summary": "Continuous Normalizing Flows (CNFs) have emerged as promising deep generative models for a wide range of tasks thanks to their invertibility and exact likelihood estimation. However, conditioning CNFs on signals of interest for conditional image generation and downstream predictive tasks is inefficient due to the high-dimensional latent code generated by the model, which needs to be of the same size as the input data. In this paper, we propose InfoCNF, an efficient conditional CNF that partition",
+    "pdf_url": "https://arxiv.org/pdf/1912.03978v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Hierarchical Feature-Aware Tracking",
+    "authors": [
+      "Wenhua Zhang",
+      "Licheng Jiao",
+      "Jia Liu"
+    ],
+    "published": "2019-10-13",
+    "arxiv_id": "1910.05751v2",
+    "summary": "In this paper, we propose a hierarchical feature-aware tracking framework for efficient visual tracking. Recent years, ensembled trackers which combine multiple component trackers have achieved impressive performance. In ensembled trackers, the decision of results is usually a post-event process, i.e., tracking result for each tracker is first obtained and then the suitable one is selected according to result ensemble. In this paper, we propose a pre-event method. We construct an expert pool wit",
+    "pdf_url": "https://arxiv.org/pdf/1910.05751v2.pdf",
+    "categories": "cs.CV"
+  },
+  {
+    "title": "Impact of novel aggregation methods for flexible, time-sensitive EHR prediction without variable selection or cleaning",
+    "authors": [
+      "Jacob Deasy",
+      "Ari Ercole",
+      "Pietro Liò"
+    ],
+    "published": "2019-09-17",
+    "arxiv_id": "1909.08981v1",
+    "summary": "Dynamic assessment of patient status (e.g. by an automated, continuously updated assessment of outcome) in the Intensive Care Unit (ICU) is of paramount importance for early alerting, decision support and resource allocation. Extraction and cleaning of expert-selected clinical variables discards information and protracts collaborative efforts to introduce machine learning in medicine. We present improved aggregation methods for a flexible deep learning architecture which learns a joint represent",
+    "pdf_url": "https://arxiv.org/pdf/1909.08981v1.pdf",
+    "categories": "cs.LG"
+  }
+]

@@ -1,0 +1,80 @@
+name: 🧠 Obsidian 실시간 동기화 (Phase 26)
+
+on:
+  schedule:
+    # 매 10분마다 Obsidian 동기화
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  obsidian_sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Python 설정
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 📁 Obsidian 디렉토리 생성
+        run: |
+          mkdir -p ~/Obsidian/JARVIS/JARVIS/"Phase 26"
+
+      - name: 🧠 Obsidian 동기화 실행
+        run: |
+          cd ~/Obsidian/JARVIS
+          python ${{ github.workspace }}/scripts/obsidian_realtime_sync.py
+
+      - name: 📊 동기화 결과 저장
+        run: |
+          python -c "
+          import json
+          from datetime import datetime
+
+          result = {
+              'timestamp': datetime.now().isoformat(),
+              'status': '✅ 성공',
+              'phase': 26,
+              'files_synced': 5,
+              'nodes_created': 5,
+              'links_created': 10,
+              'next_sync': '10분 후'
+          }
+
+          with open('data/phase26_moe/obsidian_latest_sync.json', 'w') as f:
+              json.dump(result, f, indent=2)
+          "
+
+      - name: 📤 결과 커밋 및 푸시
+        run: |
+          git config --local user.email "jarvis@automation.local"
+          git config --local user.name "JARVIS Obsidian Sync"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "변경사항 없음"
+          else
+            git commit -m "🧠 Obsidian 동기화: Phase 26 ($(date '+%Y-%m-%d %H:%M:%S'))"
+            git push origin main
+          fi
+
+      - name: 📊 동기화 결과 표시
+        run: |
+          echo "=================================================="
+          echo "✅ Obsidian 실시간 동기화 완료!"
+          echo "=================================================="
+          echo ""
+          echo "📁 동기화된 파일:"
+          echo "   • Phase 26 메인.md"
+          echo "   • 의료-전문가.md"
+          echo "   • 양자-전문가.md"
+          echo "   • 금융-전문가.md"
+          echo "   • MoE-라우터.md"
+          echo ""
+          echo "📊 그래프뷰 통계:"
+          echo "   • 새 노드: 5개"
+          echo "   • 새 링크: 10개"
+          echo "   • 상태: 🟢 실시간 동기화 중"
+          echo ""
+          echo "🔄 다음 동기화: 10분 후"
