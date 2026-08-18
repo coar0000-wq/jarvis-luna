@@ -1,11 +1,11 @@
 {
-    "events":  [
-                   {
-                       "status":  "success",
-                       "timestamp":  "2026-08-18T23:22:00+09:00",
-                       "discovered_count":  5490,
-                       "task_name":  "Phase 26 MoE Router",
-                       "details":  "2,040ÁÙ ¶ó¿ìÅÍ ÄÚµå ¿Ï¼º"
-                   }
-               ]
+  "events": [
+    {
+      "status": "success",
+      "timestamp": "2026-08-19T00:02:25.427199+09:00",
+      "discovered_count": 5490,
+      "task_name": "Phase 26 MoE Router",
+      "details": "2,040  Úµ Ï¼"
+    }
+  ]
 }
