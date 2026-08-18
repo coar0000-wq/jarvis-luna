@@ -206,14 +206,17 @@
         .left-image-area {
             flex: 1;
             background: rgba(0, 0, 0, 0.2);
-            border-radius: 8px;
+            border-radius: 0;
             display: flex;
-            align-items: flex-end;
+            align-items: center;
             justify-content: center;
             color: rgba(255, 255, 255, 0.5);
             position: relative;
             overflow: hidden;
             min-height: 400px;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
         }
 
         .dog-image-slideshow {
@@ -223,14 +226,49 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            object-fit: contain;
-            padding: 20px;
-            animation: fadeInOut 4s infinite;
+            object-fit: cover;
+            padding: 0;
+            background-size: cover;
+            background-position: center;
+            animation: slideAndZoom 4s ease-in-out infinite;
         }
 
-        @keyframes fadeInOut {
-            0%, 100% { opacity: 1; }
-            45%, 55% { opacity: 0.8; }
+        /* 멀티플 애니메이션: fade + zoom + slide */
+        @keyframes slideAndZoom {
+            0% {
+                opacity: 0;
+                transform: scale(0.95) translateY(10px);
+            }
+            10% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+            40% {
+                opacity: 1;
+                transform: scale(1.05);
+            }
+            50% {
+                opacity: 0.95;
+                transform: scale(1.05);
+            }
+            70% {
+                opacity: 1;
+                transform: scale(1.02);
+            }
+            90% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            100% {
+                opacity: 0;
+                transform: scale(0.95) translateY(-10px);
+            }
+        }
+
+        /* 추가 애니메이션: 부드러운 회전 효과 */
+        @keyframes gentleRotate {
+            0%, 100% { transform: rotate(0deg) scale(1); }
+            50% { transform: rotate(1deg) scale(1.02); }
         }
 
         /* 오른쪽 섹션: 새 패널 (50%) */
@@ -742,16 +780,28 @@
         function rotateDogImage() {
             const imageArea = document.querySelector('.left-image-area');
             const imageNum = dogImageNumbers[currentDogImageIndex];
+
+            // 새 이미지 로드 (배경으로 설정)
             imageArea.style.backgroundImage = `url('${basePath}/images/${imageNum}.png')`;
             imageArea.style.backgroundSize = 'cover';
             imageArea.style.backgroundPosition = 'center';
             imageArea.style.backgroundRepeat = 'no-repeat';
+            imageArea.style.backgroundAttachment = 'fixed';
+
+            // 애니메이션 재시작
+            imageArea.style.animation = 'none';
+            setTimeout(() => {
+                imageArea.style.animation = 'slideAndZoom 4s ease-in-out infinite';
+            }, 10);
 
             currentDogImageIndex = (currentDogImageIndex + 1) % dogImageNumbers.length;
         }
 
-        // 2초마다 이미지 전환
-        setInterval(rotateDogImage, 2000);
+        // 초기 이미지 로드
+        rotateDogImage();
+
+        // 4초마다 이미지 전환 (애니메이션 길이와 동일)
+        setInterval(rotateDogImage, 4000);
 
         // 원자 아이콘 상태 업데이트
         function updateAtomIcon(tasks) {
