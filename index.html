@@ -226,30 +226,24 @@
             object-position: center; /* 이미지가 항상 정중앙을 기준으로 보이게 설정 */
             animation: imageFade 4s ease-in-out infinite;
             display: block;
+            /* GPU 가속을 강제하여 끊김 현상 방지 */
+            backface-visibility: hidden;
+            transform: translateZ(0);
         }
 
-        /* 이미지 애니메이션: opacity만 변경 (크기는 절대 안 변함) */
+        /* 이미지 애니메이션: fade + 미세한 확대 효과 */
         @keyframes imageFade {
             0% {
-                opacity: 0;
-            }
-            10% {
-                opacity: 1;
-            }
-            40% {
-                opacity: 1;
+                opacity: 0.9;
+                transform: scale(1) translate3d(0, 0, 0);
             }
             50% {
-                opacity: 0.95;
-            }
-            70% {
                 opacity: 1;
-            }
-            90% {
-                opacity: 1;
+                transform: scale(1.02) translate3d(0, 0, 0); /* 미세한 확대 효과 */
             }
             100% {
-                opacity: 0;
+                opacity: 0.9;
+                transform: scale(1) translate3d(0, 0, 0);
             }
         }
 
@@ -1179,6 +1173,58 @@
             // 데이터 로드만 함 (오른쪽 패널에서 표시)
         }
 
+        // 🔄 Obsidian 로컬 서버 실시간 데이터 동기화 함수
+        async function syncObsidianData() {
+            try {
+                // localhost:8001/api/stats 엔드포인트에서 그래프 통계 조회
+                const response = await fetch('http://localhost:8001/api/stats', {
+                    method: 'GET',
+                    mode: 'cors',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+
+                    // 1. Obsidian 상태 뱃지 업데이트 (실시간 연동 중)
+                    const obsidianStatus = document.getElementById('obsidian-status');
+                    if (obsidianStatus) {
+                        obsidianStatus.innerHTML = `🔗 실시간 연동 중 (${data.total_nodes.toLocaleString()} 노드 / ${data.total_links.toLocaleString()} 링크)`;
+                        obsidianStatus.style.color = '#10B981'; // 초록색
+                        obsidianStatus.style.fontSize = '14px';
+                        obsidianStatus.style.fontWeight = 'bold';
+                    }
+
+                    // 2. Obsidian 상태 도트 (초록 펄스)
+                    const statusDot = document.getElementById('obsidian-status-dot');
+                    if (statusDot) {
+                        statusDot.className = 'status-dot green-pulse';
+                    }
+
+                    // 3. 콘솔 로그 (디버깅용)
+                    console.log('✅ Obsidian 로컬 서버 동기화 성공:', {
+                        nodes: data.total_nodes,
+                        links: data.total_links,
+                        timestamp: new Date().toLocaleTimeString('ko-KR')
+                    });
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+            } catch (error) {
+                // 서버 연결 실패 시 기존 '오프라인' 상태 유지
+                console.warn('⚠️ Obsidian 로컬 서버가 오프라인 상태입니다 (localhost:8001).', error.message);
+
+                const obsidianStatus = document.getElementById('obsidian-status');
+                if (obsidianStatus && obsidianStatus.textContent.includes('실시간')) {
+                    // 이미 연동 중이던 상태에서만 오프라인으로 변경
+                    obsidianStatus.innerHTML = '⚠️ 서버 연결 끊김';
+                    obsidianStatus.style.color = '#ff6b6b';
+                }
+            }
+        }
+
         // Obsidian 저장 상태 업데이트
         function updateObsidianStatus() {
             const statusEl = document.getElementById('obsidian-status');
@@ -1231,13 +1277,22 @@
         window.addEventListener('load', function() {
             loadData();
             updateObsidianStatus();
+            syncObsidianData(); // 🔄 페이지 로드 시 즉시 Obsidian 동기화 시작
         });
 
-        // 매 1분마다 Obsidian 상태 업데이트
+        // ⏱️ 매 10초마다 Obsidian 로컬 서버 실시간 동기화
+        const obsidianSyncInterval = setInterval(syncObsidianData, 10000);
+
+        // 매 1분마다 Obsidian 저장 상태 업데이트 (기존 로직 유지)
         setInterval(updateObsidianStatus, 60000);
 
         // 매 10분마다 전체 데이터 새로고침
         setInterval(loadData, 600000);
+
+        // 정리: 페이지 언로드 시 interval 정리
+        window.addEventListener('beforeunload', function() {
+            if (obsidianSyncInterval) clearInterval(obsidianSyncInterval);
+        });
     </script>
 </body>
 </html>
