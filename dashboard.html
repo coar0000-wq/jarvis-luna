@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="updated" content="2026-08-18T23:04:00+09:00">
+    <meta name="updated" content="2026-08-18T23:22:00+09:00">
     <title>JARVIS LUNA - Performance & Evolution Dashboard</title>
     <style>
         * {
@@ -308,13 +308,30 @@
     <script>
         const updateData = async () => {
             try {
-                const response = await fetch('./work_log_realtime.json');
+                // GitHub raw URL with cache busting (timestamp)
+                const timestamp = new Date().getTime();
+                const url = `https://raw.githubusercontent.com/coar0000-wq/jarvis-luna/main/work_log_realtime.json?t=${timestamp}`;
+
+                const response = await fetch(url, { cache: 'no-store' });
                 if (!response.ok) {
-                    console.log('데이터 파일을 찾을 수 없습니다. (첫 실행 후 생성됩니다)');
+                    console.log('GitHub에서 데이터를 로드할 수 없습니다.');
                     return;
                 }
 
                 const data = await response.json();
+
+                // Phase 26 상태 표시
+                if (data.phase26_progress) {
+                    const phase26 = data.phase26_progress;
+                    console.log('✅ Phase 26 상태:', phase26.implementation.status);
+                    console.log('📊 완성도:', `${phase26.implementation.lines_of_code}줄, ${phase26.implementation.files_created}파일`);
+                    console.log('🧪 테스트:', phase26.testing.status);
+                }
+
+                // 타임스탐프 표시
+                if (data.metadata && data.metadata.timestamp) {
+                    console.log('🕐 데이터 시간:', data.metadata.timestamp);
+                }
 
                 // 통계 업데이트
                 document.getElementById('youtube-count').textContent =
