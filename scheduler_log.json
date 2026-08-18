@@ -1,39 +1,11 @@
 {
-  "events": [
-    {
-      "task_name": "YouTube 자동 분석",
-      "details": "AI 에이전트 & 멀티에이전트 영상 분석",
-      "status": "success",
-      "timestamp": "2026-08-17T16:45:00Z",
-      "discovered_count": 12
-    },
-    {
-      "task_name": "논문 Google 검색",
-      "details": "arXiv + 학술 논문 자동 수집",
-      "status": "success",
-      "timestamp": "2026-08-17T16:20:00Z",
-      "discovered_count": 38
-    },
-    {
-      "task_name": "다이소 제품 발굴",
-      "details": "실시간 상품 데이터 수집",
-      "status": "success",
-      "timestamp": "2026-08-17T15:30:00Z",
-      "discovered_count": 22
-    },
-    {
-      "task_name": "Shopify 동기화",
-      "details": "상품 정보 통합",
-      "status": "success",
-      "timestamp": "2026-08-17T14:15:00Z",
-      "discovered_count": 18
-    },
-    {
-      "task_name": "마케팅 데이터 수집",
-      "details": "SEO 키워드 분석",
-      "status": "success",
-      "timestamp": "2026-08-17T13:00:00Z",
-      "discovered_count": 15
-    }
-  ]
+    "events":  [
+                   {
+                       "status":  "success",
+                       "timestamp":  "2026-08-18T23:22:00+09:00",
+                       "discovered_count":  5490,
+                       "task_name":  "Phase 26 MoE Router",
+                       "details":  "2,040�� ����� �ڵ� �ϼ�"
+                   }
+               ]
 }
