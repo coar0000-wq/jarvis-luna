@@ -154,6 +154,7 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 15px;
+            flex: 0 0 auto; /* 필요한 크기만 차지 */
         }
 
         .left-metric-card {
@@ -203,65 +204,57 @@
             background-color: #666;
         }
 
+        /* 1️⃣ 이미지를 감싸는 박스(컨테이너) 고정 및 넘침 방지 */
         .left-image-area {
-            flex: 1;
-            background: rgba(0, 0, 0, 0.2);
-            border-radius: 0;
+            flex: 1; /* 나머지 공간을 모두 차지 */
+            width: 100%;
+            height: 100%; /* 부모 높이에 맞춤 */
+            overflow: hidden; /* 넘치는 이미지 숨기기 */
+            position: relative;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: rgba(255, 255, 255, 0.5);
-            position: relative;
-            overflow: hidden;
-            min-height: 400px;
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
+            background-color: #0f172a; /* 이미지 로드 전 배경색 */
+            border-radius: 0;
         }
 
+        /* 2️⃣ 이미지가 박스에 꽉 차도록 설정 (object-fit: cover 개념 적용) */
         .dog-image-slideshow {
             position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
             height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            object-fit: cover;
+            background-size: cover; /* 비율을 유지하면서 박스 내부를 완벽히 채움 */
+            background-position: center center; /* ✅ 명시적으로 중앙 정렬 */
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            animation: imageFade 4s ease-in-out infinite;
             padding: 0;
-            background-size: cover;
-            background-position: center;
-            animation: slideAndZoom 4s ease-in-out infinite;
         }
 
-        /* 멀티플 애니메이션: fade + zoom + slide */
-        @keyframes slideAndZoom {
+        /* 이미지 애니메이션: opacity만 변경 (크기는 절대 안 변함) */
+        @keyframes imageFade {
             0% {
                 opacity: 0;
-                transform: scale(0.95) translateY(10px);
             }
             10% {
                 opacity: 1;
-                transform: scale(1) translateY(0);
             }
             40% {
                 opacity: 1;
-                transform: scale(1.05);
             }
             50% {
                 opacity: 0.95;
-                transform: scale(1.05);
             }
             70% {
                 opacity: 1;
-                transform: scale(1.02);
             }
             90% {
                 opacity: 1;
-                transform: scale(1);
             }
             100% {
                 opacity: 0;
-                transform: scale(0.95) translateY(-10px);
             }
         }
 
@@ -269,6 +262,17 @@
         @keyframes gentleRotate {
             0%, 100% { transform: rotate(0deg) scale(1); }
             50% { transform: rotate(1deg) scale(1.02); }
+        }
+
+        /* 📜 작업 로그 자동 스크롤 애니메이션 */
+        @keyframes autoScroll {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-70px); /* 1개 항목 높이만큼 위로 스크롤 */ }
+        }
+
+        .task-log-item {
+            animation: autoScroll 8s ease-in-out infinite;
+            animation-delay: var(--delay, 0s);
         }
 
         /* 오른쪽 섹션: 새 패널 (50%) */
@@ -483,10 +487,17 @@
         }
 
         .status-item {
-            padding: 8px 0;
+            padding: 10px 8px;
             border-bottom: 1px solid rgba(0, 212, 255, 0.1);
             font-size: 13px;
             color: #aaa;
+            background: rgba(0, 212, 255, 0.02);
+            border-radius: 4px;
+            transition: background 0.2s ease;
+        }
+
+        .status-item:hover {
+            background: rgba(0, 212, 255, 0.05);
         }
 
         .status-item:last-child {
@@ -628,8 +639,9 @@
             }
 
             #task-details-right {
-                max-height: 200px !important;
-                gap: 4px !important;
+                max-height: 250px !important; /* 5개 항목 높이 맞춤 */
+                gap: 6px !important;
+                padding: 0 6px !important;
             }
 
             .status-title {
@@ -638,8 +650,13 @@
             }
 
             .status-item {
-                padding: 5px 0;
+                padding: 8px 6px !important;
                 font-size: 11px;
+            }
+
+            /* 모바일에서 이미지 영역 최소 높이 */
+            .left-image-area {
+                min-height: 300px !important;
             }
 
             .progress-section-right {
@@ -754,8 +771,8 @@
 
             <!-- 3️⃣ 작업 상세 로그 -->
             <div class="status-log" style="margin-top: 20px;">
-                <div class="status-title">📋 작업 상세 로그 (최신 6개)</div>
-                <div id="task-details-right" style="display: flex; flex-direction: column; gap: 5px; max-height: 420px; overflow: hidden; margin-top: 10px;">
+                <div class="status-title">📋 작업 상세 로그 (최신 5개)</div>
+                <div id="task-details-right" style="display: flex; flex-direction: column; gap: 8px; max-height: 330px; overflow: hidden; margin-top: 10px; padding: 0 8px;">
                     <!-- 데이터 로드됨 -->
                 </div>
             </div>
@@ -770,8 +787,8 @@
 
     <script>
         // 기본 URL 판단 (GitHub Pages vs 로컬)
-        const isGitHubPages = window.location.pathname.includes('/jarvis-luna/');
-        const basePath = isGitHubPages ? '/jarvis-luna' : '.';
+        const isGitHubPages = window.location.pathname.includes('/jarvis-agi/');
+        const basePath = isGitHubPages ? '/jarvis-agi' : '.';
 
         // 도그 이미지 슬라이드쇼 (1-6, 8-12번만 존재)
         const dogImageNumbers = [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12];
@@ -917,8 +934,8 @@
         function updateProgressDisplay(phase) {
             document.getElementById('phase-progress-title').textContent = `📈 Phase ${phase.phase} 진행도: ${phase.progress_percentage}%`;
 
-            const date = new Date(phase.last_updated);
-            const time = date.toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' });
+            // 🔄 작업 로그의 최신 시간을 사용하고, 없으면 Phase 시간 사용
+            const time = latestTaskTime || new Date(phase.last_updated).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' });
 
             const statusEmoji = phase.progress_percentage < 50 ? '🟢' : phase.progress_percentage < 100 ? '🟡' : '✅';
             const statusText = phase.progress_percentage < 50 ? '진행 중' : phase.progress_percentage < 100 ? '마무리' : '완료';
@@ -1031,6 +1048,9 @@
             amazon: 0
         };
 
+        // 🔄 작업 로그의 가장 최신 시간 (동적 업데이트용)
+        let latestTaskTime = '';
+
         // cumulative_products.json의 실제 누적값을 최우선 표시
         function updateTotalProducts() {
             const channelTotal = Object.values(totalProductsCount)
@@ -1125,22 +1145,40 @@
             }
 
             let html = '';
-            const recent = tasks.slice().reverse().slice(0, 6);
+            // ✅ 기존 로그 데이터에서 최신 5개만 추출
+            const latestFiveLogs = [...tasks]
+                .sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
+                .slice(0, 5);
 
-            recent.forEach(task => {
+            // 🔄 가장 최신 작업의 시간을 저장 (마지막 업데이트용)
+            if (latestFiveLogs && latestFiveLogs.length > 0) {
+                const latestDate = new Date(latestFiveLogs[0].timestamp);
+
+                latestTaskTime = latestDate.toLocaleString('ko-KR', {
+                    timeZone: 'Asia/Seoul',
+                    year: 'numeric',
+                    month: 'numeric',
+                    day: 'numeric',
+                    hour: 'numeric',
+                    minute: 'numeric',
+                    second: 'numeric'
+                });
+            }
+
+            latestFiveLogs.forEach((task, index) => {
                 const date = new Date(task.timestamp);
                 const time = date.toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' });
                 const emoji = task.status === 'success' ? '✅' : '❌';
                 const count = task.discovered_count > 0 ? `(${task.discovered_count}개)` : '';
 
-                html += `<div class="status-item" style="padding: 8px 0;">
-                    <div style="display: flex; gap: 8px; align-items: baseline;">
+                html += `<div class="status-item task-log-item" style="--delay: ${index * 0.2}s;">
+                    <div style="display: flex; gap: 8px; align-items: flex-start; flex-wrap: wrap;">
                         <span>${emoji}</span>
-                        <span style="color: #00d4ff; font-weight: 600;">${task.task_name}</span>
-                        <span style="color: #00ff00; font-weight: 600;">${count}</span>
+                        <span style="color: #00d4ff; font-weight: 600; flex: 1; min-width: 100px;">${task.task_name}</span>
+                        <span style="color: #00ff00; font-weight: 600; white-space: nowrap;">${count}</span>
                     </div>
-                    <div style="margin-left: 28px; font-size: 12px; color: #888;">${task.details}</div>
-                    <div style="margin-left: 28px; font-size: 11px; color: #666;">${time}</div>
+                    <div style="margin-left: 24px; font-size: 12px; color: #888; margin-top: 4px;">${task.details}</div>
+                    <div style="margin-left: 24px; font-size: 11px; color: #666; margin-top: 2px;">${time}</div>
                 </div>`;
             });
 

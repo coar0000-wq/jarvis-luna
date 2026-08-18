@@ -1,7 +1,7 @@
 {
-  "cumulative_total": 233,
+  "cumulative_total": 237,
   "baseline": 117,
-  "last_updated": "2026-08-18T11:26:06.069029+00:00",
+  "last_updated": "2026-08-18T12:29:37.091990+00:00",
   "daily_increment": [
     {
       "date": "2026-08-10",
@@ -45,13 +45,13 @@
     },
     {
       "date": "2026-08-18",
-      "discovered": 116,
+      "discovered": 120,
       "source": "실시간 자동 업데이트"
     }
   ],
   "metadata": {
     "total_sources": 5,
     "update_frequency": "realtime",
-    "example_today_now": "117 + (11시×4=44) + (18일×2=36) = 233개"
+    "example_today_now": "117 + (12시×4=48) + (18일×2=36) = 237개"
   }
 }
