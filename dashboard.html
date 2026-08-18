@@ -166,6 +166,54 @@
             object-fit: cover; /* 여백 없이 박스를 꽉 채우도록 설정 */
             display: block;
         }
+
+        /* 실시간 상태 표시 */
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 12px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .status-item {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            border-left: 3px solid #4ade80;
+        }
+
+        .status-label {
+            font-size: 0.85em;
+            color: #93c5fd;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .status-value {
+            font-size: 0.9em;
+            color: #4ade80;
+            font-weight: bold;
+        }
+
+        .status-value.active {
+            color: #4ade80;
+        }
+
+        .status-value.inactive {
+            color: #ef4444;
+        }
+
+        .status-value.working {
+            color: #fbbf24;
+        }
     </style>
 </head>
 <body>
@@ -174,6 +222,26 @@
             <h1>🤖 JARVIS LUNA</h1>
             <p class="status"><span class="update-indicator"></span>매 1분마다 자동 실행 중</p>
             <p style="font-size: 0.9em; margin-top: 10px;">YouTube • arXiv • Google News 실시간 분석</p>
+        </div>
+
+        <!-- 실시간 상태 표시 -->
+        <div class="status-grid">
+            <div class="status-item">
+                <span class="status-label">👤 도현 (CEO)</span>
+                <span class="status-value active">감시중</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">⚙️ JARVIS (AI)</span>
+                <span class="status-value working">자동화</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">🔄 GitHub Actions</span>
+                <span class="status-value active">활성</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">📝 Obsidian</span>
+                <span class="status-value active">활성</span>
+            </div>
         </div>
 
         <!-- JARVIS 강아지 마스코트 이미지 -->
