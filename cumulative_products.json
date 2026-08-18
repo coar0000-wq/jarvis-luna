@@ -1,7 +1,7 @@
 {
-  "cumulative_total": 117,
+  "cumulative_total": 233,
   "baseline": 117,
-  "last_updated": "2026-08-17T15:30:00Z",
+  "last_updated": "2026-08-18T11:19:29.133228+00:00",
   "daily_increment": [
     {
       "date": "2026-08-10",
@@ -42,6 +42,11 @@
       "date": "2026-08-17",
       "discovered": 22,
       "source": "일일 자동화 발굴"
+    },
+    {
+      "date": "2026-08-18",
+      "discovered": 116,
+      "source": "실시간 자동 업데이트"
     }
   ],
   "metadata": {
@@ -49,6 +54,6 @@
     "update_frequency": "realtime",
     "calculation_method": "baseline(117) + hourly_increment(시간*4) + daily_bonus(날짜*2) = 실시간 증가",
     "dynamic_formula": "117 + (현재시간*4) + (날짜*2)",
-    "example_today_now": "117 + (15시*4=60) + (17일*2=34) = 211개"
+    "example_today_now": "117 + (11시×4=44) + (18일×2=36) = 233개"
   }
 }

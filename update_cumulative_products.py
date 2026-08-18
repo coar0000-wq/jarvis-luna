@@ -7,7 +7,7 @@ cumulative_products.json을 10분마다 실시간으로 업데이트
 
 import json
 from datetime import datetime, UTC
-import time
+import sys
 import os
 
 # JSON 파일 경로
@@ -82,16 +82,10 @@ def update_cumulative_products():
         return False
 
 def main():
-    """메인 루프: 10분마다 업데이트"""
-    print("🚀 cumulative_products.json 자동 업데이트 시작")
-    print("⏱️  10분마다 실행 (Ctrl+C로 중지)")
-    print("📍 UTC 타임존 사용 (DeprecationWarning 해결됨)")
-    print("-" * 50)
-
-    while True:
-        update_cumulative_products()
-        # 10분 대기 (600초)
-        time.sleep(600)
+    """단 한 번 실행 후 종료 (Task Scheduler가 10분마다 호출)"""
+    update_cumulative_products()
+    # 스크립트는 곧바로 종료됨 (무한 루프 없음)
 
 if __name__ == '__main__':
     main()
+    sys.exit(0)
