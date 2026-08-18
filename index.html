@@ -204,33 +204,28 @@
             background-color: #666;
         }
 
-        /* 1️⃣ 이미지를 감싸는 박스(컨테이너) 고정 및 넘침 방지 */
-        .left-image-area {
+        /* 1️⃣ 이미지 박스 컨테이너 (중앙 정렬) */
+        .left-media-box {
             flex: 1; /* 나머지 공간을 모두 차지 */
             width: 100%;
             height: 100%; /* 부모 높이에 맞춤 */
-            overflow: hidden; /* 넘치는 이미지 숨기기 */
-            position: relative;
             display: flex;
-            align-items: center;
             justify-content: center;
+            align-items: center;
+            overflow: hidden; /* 넘치는 이미지 숨기기 */
             background-color: #0f172a; /* 이미지 로드 전 배경색 */
             border-radius: 0;
+            position: relative;
         }
 
-        /* 2️⃣ 이미지가 박스에 꽉 차도록 설정 (object-fit: cover 개념 적용) */
-        .dog-image-slideshow {
-            position: absolute;
-            top: 0;
-            left: 0;
+        /* 2️⃣ 내부 이미지 태그 (항상 중앙 기준 채우기) */
+        .left-media-box img {
             width: 100%;
             height: 100%;
-            background-size: cover; /* 비율을 유지하면서 박스 내부를 완벽히 채움 */
-            background-position: center center; /* ✅ 명시적으로 중앙 정렬 */
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+            object-fit: cover; /* 박스를 꽉 채우되 비율 유지 */
+            object-position: center; /* 이미지가 항상 정중앙을 기준으로 보이게 설정 */
             animation: imageFade 4s ease-in-out infinite;
-            padding: 0;
+            display: block;
         }
 
         /* 이미지 애니메이션: opacity만 변경 (크기는 절대 안 변함) */
@@ -262,17 +257,6 @@
         @keyframes gentleRotate {
             0%, 100% { transform: rotate(0deg) scale(1); }
             50% { transform: rotate(1deg) scale(1.02); }
-        }
-
-        /* 📜 작업 로그 자동 스크롤 애니메이션 */
-        @keyframes autoScroll {
-            0% { transform: translateY(0); }
-            100% { transform: translateY(-70px); /* 1개 항목 높이만큼 위로 스크롤 */ }
-        }
-
-        .task-log-item {
-            animation: autoScroll 8s ease-in-out infinite;
-            animation-delay: var(--delay, 0s);
         }
 
         /* 오른쪽 섹션: 새 패널 (50%) */
@@ -655,7 +639,7 @@
             }
 
             /* 모바일에서 이미지 영역 최소 높이 */
-            .left-image-area {
+            .left-media-box {
                 min-height: 300px !important;
             }
 
@@ -711,7 +695,9 @@
                         <div class="left-metric-value" id="obsidian-status" style="font-size: 18px;">활성</div>
                     </div>
                 </div>
-                <div class="left-image-area" style="background: #ffffff;"></div>
+                <div class="left-media-box">
+                    <img id="jarvis-image" src="" alt="JARVIS 개 이미지 - AGI Evolution OS" />
+                </div>
             </div>
         </div>
 
@@ -795,20 +781,16 @@
         let currentDogImageIndex = 0;
 
         function rotateDogImage() {
-            const imageArea = document.querySelector('.left-image-area');
+            const jarvisImage = document.getElementById('jarvis-image');
             const imageNum = dogImageNumbers[currentDogImageIndex];
 
-            // 새 이미지 로드 (배경으로 설정)
-            imageArea.style.backgroundImage = `url('${basePath}/images/${imageNum}.png')`;
-            imageArea.style.backgroundSize = 'cover';
-            imageArea.style.backgroundPosition = 'center';
-            imageArea.style.backgroundRepeat = 'no-repeat';
-            imageArea.style.backgroundAttachment = 'fixed';
+            // ✅ 새 이미지 로드 (img 태그 src 설정)
+            jarvisImage.src = `${basePath}/images/${imageNum}.png`;
 
             // 애니메이션 재시작
-            imageArea.style.animation = 'none';
+            jarvisImage.style.animation = 'none';
             setTimeout(() => {
-                imageArea.style.animation = 'slideAndZoom 4s ease-in-out infinite';
+                jarvisImage.style.animation = 'imageFade 4s ease-in-out infinite';
             }, 10);
 
             currentDogImageIndex = (currentDogImageIndex + 1) % dogImageNumbers.length;
@@ -1171,7 +1153,7 @@
                 const emoji = task.status === 'success' ? '✅' : '❌';
                 const count = task.discovered_count > 0 ? `(${task.discovered_count}개)` : '';
 
-                html += `<div class="status-item task-log-item" style="--delay: ${index * 0.2}s;">
+                html += `<div class="status-item">
                     <div style="display: flex; gap: 8px; align-items: flex-start; flex-wrap: wrap;">
                         <span>${emoji}</span>
                         <span style="color: #00d4ff; font-weight: 600; flex: 1; min-width: 100px;">${task.task_name}</span>
