@@ -1220,10 +1220,17 @@
                 console.warn('⚠️ Obsidian 로컬 서버가 오프라인 상태입니다 (localhost:8001).', error.message);
 
                 const obsidianStatus = document.getElementById('obsidian-status');
+                const statusDot = document.getElementById('obsidian-status-dot');
+
                 if (obsidianStatus && obsidianStatus.textContent.includes('실시간')) {
                     // 이미 연동 중이던 상태에서만 오프라인으로 변경
                     obsidianStatus.innerHTML = '⚠️ 서버 연결 끊김';
                     obsidianStatus.style.color = '#ff6b6b';
+                }
+
+                // ✅ 상태 점도 함께 업데이트 (회색 오프라인 표시)
+                if (statusDot) {
+                    statusDot.className = 'status-dot offline';
                 }
             }
         }
