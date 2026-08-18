@@ -632,12 +632,12 @@
                 font-size: 11px;
             }
 
-            /* 모바일에서 이미지 영역 - 높이 자동 조정 (여백 제거) */
+            /* 모바일에서 이미지 영역 - 정사각형 비율 (여백 완전 제거) */
             .left-media-box {
                 height: auto !important;
                 min-height: auto !important;
-                aspect-ratio: 4 / 3 !important; /* 이미지 비율 유지 */
-                max-height: 400px !important; /* 최대 높이 제한 */
+                aspect-ratio: 1 / 1 !important; /* 정사각형 비율 */
+                max-height: 350px !important; /* 최대 높이 제한 */
             }
 
             .progress-section-right {
