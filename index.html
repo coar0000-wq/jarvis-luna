@@ -5,1304 +5,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JARVIS LUNA - AGI Evolution OS</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 0;
-        }
-
-        /* 원자 애니메이션 - 궤도 회전 */
-        @keyframes spin-orbit-1 {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-
-        @keyframes spin-orbit-2 {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(-360deg); }
-        }
-
-        @keyframes spin-orbit-3 {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-
-        /* 전자 궤도 */
-        @keyframes orbit1 {
-            0% { cx: 75; cy: 50; }
-            25% { cx: 50; cy: 25; }
-            50% { cx: 25; cy: 50; }
-            75% { cx: 50; cy: 75; }
-            100% { cx: 75; cy: 50; }
-        }
-
-        @keyframes orbit2 {
-            0% { cx: 50; cy: 30; }
-            33% { cx: 70; cy: 65; }
-            66% { cx: 30; cy: 65; }
-            100% { cx: 50; cy: 30; }
-        }
-
-        @keyframes orbit3 {
-            0% { cx: 30; cy: 50; }
-            30% { cx: 45; cy: 25; }
-            60% { cx: 65; cy: 60; }
-            100% { cx: 30; cy: 50; }
-        }
-
-        @keyframes nucleus-glow {
-            0%, 100% { r: 8; opacity: 0.9; }
-            50% { r: 9; opacity: 1; }
-        }
-
-        .atom-icon {
-            display: inline-block;
-            width: 1em;
-            height: 1em;
-            margin-left: 15px;
-            vertical-align: middle;
-            filter: drop-shadow(0 0 8px rgba(0, 212, 255, 0.6));
-        }
-
-        /* 중심 핵 */
-        .atom-icon > circle:nth-child(1) {
-            animation: nucleus-glow 2.5s ease-in-out infinite;
-        }
-
-        /* 궤도 회전 */
-        .atom-icon > ellipse:nth-child(2) {
-            transform-origin: 50px 50px;
-            animation: spin-orbit-1 2.3s linear infinite;
-        }
-
-        .atom-icon > ellipse:nth-child(3) {
-            transform-origin: 50px 50px;
-            animation: spin-orbit-2 2.8s linear infinite;
-        }
-
-        .atom-icon > ellipse:nth-child(4) {
-            transform-origin: 50px 50px;
-            animation: spin-orbit-3 3.2s linear infinite;
-        }
-
-        /* 전자 궤도 */
-        .atom-icon > circle:nth-child(5) {
-            animation: orbit1 2.3s ease-in-out infinite;
-        }
-
-        .atom-icon > circle:nth-child(6) {
-            animation: orbit2 2.8s ease-in-out infinite;
-        }
-
-        .atom-icon > circle:nth-child(7) {
-            animation: orbit3 3.2s ease-in-out infinite;
-        }
-
-        .atom-icon.inactive {
-            animation: none;
-            opacity: 0.5;
-            filter: drop-shadow(0 0 0px rgba(0, 212, 255, 0));
-        }
-
-        .atom-icon.inactive circle {
-            animation: none !important;
-        }
-
-        .main-wrapper {
-            display: flex;
-            min-height: 100vh;
-            width: 100%;
-        }
-
-        /* 왼쪽 섹션: 이미지 영역 (50%) */
-        .left-panel {
-            flex: 0 0 50%;
-            padding: 0;
-            overflow: hidden;
-            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .left-panel img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .left-panel-placeholder {
-            color: rgba(255, 255, 255, 0.5);
-            text-align: center;
-            font-size: 18px;
-        }
-
-        .left-panel-content {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            height: 100%;
-            gap: 20px;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
             padding: 20px;
-            min-height: 100vh;
         }
-
-        .left-metrics {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 15px;
-            flex: 0 0 auto; /* 필요한 크기만 차지 */
-        }
-
-        .left-metric-card {
-            background: #ffffff;
-            border: 1px solid #e0e0e0;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
-            color: #333;
-        }
-
-        .left-metric-label {
-            font-size: 12px;
-            color: #b8956b;
-            margin-bottom: 8px;
-        }
-
-        .left-metric-value {
-            font-size: 24px;
-            font-weight: bold;
-            color: #00d4ff;
-        }
-
-        /* 상태 표시등 */
-        .status-dot {
-            margin-left: 8px;
-            display: inline-block;
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            vertical-align: middle;
-        }
-
-        /* 녹색 깜빡이는 애니메이션 */
-        @keyframes green-pulse {
-            0%, 100% { background-color: #00ff00; opacity: 1; }
-            50% { background-color: #00aa00; opacity: 0.5; }
-        }
-
-        .status-dot.green-pulse {
-            background-color: #00ff00;
-            animation: green-pulse 1.5s ease-in-out infinite;
-            box-shadow: 0 0 8px rgba(0, 255, 0, 0.6);
-        }
-
-        .status-dot.offline {
-            background-color: #666;
-        }
-
-        /* 1️⃣ 이미지 박스 컨테이너 (중앙 정렬) */
-        .left-media-box {
-            flex: 1; /* 나머지 공간을 모두 차지 */
-            width: 100%;
-            height: 100%; /* 부모 높이에 맞춤 */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden; /* 넘치는 이미지 숨기기 */
-            background-color: #0f172a; /* 이미지 로드 전 배경색 */
-            border-radius: 0;
-            position: relative;
-        }
-
-        /* 2️⃣ 내부 이미지 태그 (항상 중앙 기준 채우기) */
-        .left-media-box img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* 박스를 꽉 채우되 비율 유지 */
-            object-position: center; /* 이미지가 항상 정중앙을 기준으로 보이게 설정 */
-            animation: imageFade 4s ease-in-out infinite;
-            display: block;
-            /* GPU 가속을 강제하여 끊김 현상 방지 */
-            backface-visibility: hidden;
-            transform: translateZ(0);
-        }
-
-        /* 이미지 애니메이션: fade + 미세한 확대 효과 */
-        @keyframes imageFade {
-            0% {
-                opacity: 0.9;
-                transform: scale(1) translate3d(0, 0, 0);
-            }
-            50% {
-                opacity: 1;
-                transform: scale(1.02) translate3d(0, 0, 0); /* 미세한 확대 효과 */
-            }
-            100% {
-                opacity: 0.9;
-                transform: scale(1) translate3d(0, 0, 0);
-            }
-        }
-
-        /* 추가 애니메이션: 부드러운 회전 효과 */
-        @keyframes gentleRotate {
-            0%, 100% { transform: rotate(0deg) scale(1); }
-            50% { transform: rotate(1deg) scale(1.02); }
-        }
-
-        /* 오른쪽 섹션: 새 패널 (50%) */
-        .right-panel {
-            flex: 0 0 50%;
-            padding: 40px;
-            overflow: hidden;
-            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
-            color: #00d4ff;
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-        }
-
-        /* 왼쪽 패널 내용 스타일 */
         .container {
-            max-width: 100%;
+            max-width: 900px;
             margin: 0 auto;
         }
-
-        header {
-            text-align: center;
-            color: white;
-            margin-bottom: 30px;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-
-        header p {
-            font-size: 0.9em;
-            color: rgba(255, 255, 255, 0.8);
-        }
-
-        .metrics {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-
-        .metric {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .metric-label {
-            color: #666;
-            font-size: 14px;
-            margin-bottom: 10px;
-        }
-
-        .metric-value {
-            font-size: 2em;
-            font-weight: bold;
-            color: #667eea;
-        }
-
-        .section {
-            background: white;
-            padding: 25px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .section h2 {
-            color: #667eea;
-            margin-bottom: 15px;
-            font-size: 1.5em;
-        }
-
-        .task-item {
-            padding: 15px;
-            border-left: 4px solid #667eea;
-            background: #f8f9fa;
-            margin-bottom: 10px;
-            border-radius: 5px;
-        }
-
-        .task-item .status {
-            display: inline-block;
-            padding: 5px 10px;
-            border-radius: 3px;
-            font-size: 12px;
-            font-weight: bold;
-            margin-right: 10px;
-        }
-
-        .status.completed {
-            background: #d4edda;
-            color: #155724;
-        }
-
-        .status.in_progress {
-            background: #cfe2ff;
-            color: #084298;
-        }
-
-        .status.pending {
-            background: #fff3cd;
-            color: #664d03;
-        }
-
-        .team-member {
-            padding: 12px;
-            background: #f8f9fa;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .team-member .role {
-            color: #666;
-            font-size: 14px;
-        }
-
-        .progress-bar {
-            width: 100%;
-            height: 6px;
-            background: #e0e0e0;
-            border-radius: 3px;
-            overflow: hidden;
-            margin-top: 10px;
-        }
-
-        .progress {
-            height: 100%;
-            background: linear-gradient(90deg, #667eea, #764ba2);
-            width: var(--progress);
-        }
-
-        /* 오른쪽 패널 스타일 */
-        .right-title {
-            font-size: 3em;
-            font-weight: bold;
-            color: #00d4ff;
-            text-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
-            letter-spacing: 2px;
-            margin-bottom: 5px;
-        }
-
-        .right-subtitle {
-            font-size: 14px;
-            color: #888;
-            margin-bottom: 30px;
-        }
-
-        .metrics-right {
+        .header-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 15px;
+            margin-bottom: 25px;
         }
-
-        .metric-card {
-            background: rgba(0, 212, 255, 0.05);
-            border: 1px solid rgba(0, 212, 255, 0.2);
-            padding: 15px;
+        .status-card {
+            background: #161b22;
+            border: 1px solid #30363d;
             border-radius: 8px;
+            padding: 15px;
             text-align: center;
         }
-
-        .metric-label-right {
-            font-size: 11px;
-            color: #888;
-            margin-bottom: 8px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .metric-value-right {
-            font-size: 1.8em;
-            font-weight: bold;
-            color: #00d4ff;
-        }
-
-        .status-log {
-            background: transparent;
-            border: none;
-            border-radius: 0;
-            padding: 0;
-            max-height: none;
-            overflow: visible;
-        }
-
-        .status-log::-webkit-scrollbar {
-            width: 6px;
-        }
-
-        .status-log::-webkit-scrollbar-track {
-            background: rgba(0, 212, 255, 0.05);
-        }
-
-        .status-log::-webkit-scrollbar-thumb {
-            background: rgba(0, 212, 255, 0.3);
-            border-radius: 3px;
-        }
-
-        .status-title {
-            font-size: 16px;
-            color: #00d4ff;
-            margin-bottom: 12px;
-            font-weight: 600;
-            letter-spacing: 0.5px;
-        }
-
-        .status-item {
-            padding: 10px 8px;
-            border-bottom: 1px solid rgba(0, 212, 255, 0.1);
-            font-size: 13px;
-            color: #aaa;
-            background: rgba(0, 212, 255, 0.02);
-            border-radius: 4px;
-            transition: background 0.2s ease;
-        }
-
-        .status-item:hover {
-            background: rgba(0, 212, 255, 0.05);
-        }
-
-        .status-item:last-child {
-            border-bottom: none;
-        }
-
-        .status-dot {
-            display: inline-block;
-            width: 6px;
-            height: 6px;
-            background: #00d4ff;
+        .dot {
+            height: 10px;
+            width: 10px;
+            background-color: #238636;
             border-radius: 50%;
-            margin-right: 8px;
+            display: inline-block;
+            margin-right: 5px;
         }
-
-        .team-status-right {
-            background: rgba(0, 212, 255, 0.03);
-            border: 1px solid rgba(0, 212, 255, 0.1);
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        .metric-box {
+            background: #161b22;
+            border: 1px solid #30363d;
             border-radius: 8px;
-            padding: 15px;
-            max-height: auto;
-            overflow: hidden;
+            padding: 20px;
+            text-align: center;
         }
-
-        .team-member-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 8px 0;
-            border-bottom: 1px solid rgba(0, 212, 255, 0.1);
-            font-size: 12px;
+        .metric-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #58a6ff;
+            margin-top: 5px;
         }
-
-        .team-member-item:last-child {
-            border-bottom: none;
+        .section {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
         }
-
-        .member-name {
-            color: #00d4ff;
+        h2 { font-size: 18px; margin-top: 0; color: #f0f6fc; }
+        .log-item {
+            padding: 10px 0;
+            border-bottom: 1px solid #30363d;
+            font-size: 14px;
         }
-
-        .member-status {
-            color: #888;
-        }
-
-        .progress-section-right {
-            margin-top: auto;
-        }
-
-        .bottom-info {
-            font-size: 12px;
-            color: #666;
-            padding-top: 20px;
-            border-top: 1px solid rgba(0, 212, 255, 0.1);
-        }
-
-        /* 모바일 반응형 */
-        @media (max-width: 1024px) {
-            .main-wrapper {
-                flex-direction: column;
-            }
-
-            .left-panel,
-            .right-panel {
-                flex: 0 0 50%;
-                border-right: none;
-                border-bottom: 3px solid rgba(255, 255, 255, 0.2);
-            }
-
-            .left-panel {
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            }
-
-            .right-panel {
-                background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
-            }
-
-            .right-title {
-                font-size: 2em;
-            }
-
-            .metrics-right {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (max-width: 768px) {
-            .main-wrapper {
-                flex-direction: column;
-            }
-
-            .left-panel,
-            .right-panel {
-                flex: 0 0 auto;
-                padding: 12px;
-            }
-
-            header {
-                margin-bottom: 20px;
-            }
-
-            h1 {
-                font-size: 1.8em;
-            }
-
-            .metrics {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 15px;
-                margin-bottom: 20px;
-            }
-
-            .section {
-                padding: 15px;
-                margin-bottom: 15px;
-            }
-
-            .right-title {
-                font-size: 1.6em;
-                margin-bottom: 8px;
-            }
-
-            .right-subtitle {
-                font-size: 12px;
-                margin-bottom: 15px;
-            }
-
-            .metrics-right {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 10px;
-                margin-bottom: 20px;
-            }
-
-            .metric-card {
-                padding: 10px;
-            }
-
-            .status-log {
-                margin-top: 12px;
-            }
-
-            #task-details-right {
-                max-height: 250px !important; /* 5개 항목 높이 맞춤 */
-                gap: 6px !important;
-                padding: 0 6px !important;
-            }
-
-            .status-title {
-                font-size: 12px;
-                margin-bottom: 8px;
-            }
-
-            .status-item {
-                padding: 8px 6px !important;
-                font-size: 11px;
-            }
-
-            /* 모바일에서 이미지 영역 - 정사각형 비율 (여백 완전 제거) */
-            .left-media-box {
-                height: auto !important;
-                min-height: auto !important;
-                aspect-ratio: 1 / 1 !important; /* 정사각형 비율 */
-                max-height: 350px !important; /* 최대 높이 제한 */
-            }
-
-            .progress-section-right {
-                margin-top: 12px;
-            }
-
-            .team-status-right {
-                margin-top: 12px;
-            }
-
-            .bottom-info {
-                font-size: 10px;
-                padding-top: 10px;
-            }
-
-            .team-member-item {
-                padding: 4px 0 !important;
-                margin-bottom: 4px !important;
-                font-size: 11px;
-            }
-
-            .member-name {
-                font-size: 10px !important;
-            }
-
-            .member-status {
-                font-size: 10px;
-            }
-        }
+        .log-item:last-child { border-bottom: none; }
     </style>
 </head>
 <body>
-    <div class="main-wrapper">
-        <!-- 왼쪽 패널: 메트릭 + 이미지 -->
-        <div class="left-panel">
-            <div class="left-panel-content">
-                <div class="left-metrics">
-                    <div class="left-metric-card">
-                        <div class="left-metric-label">도현 (CEO) <span class="status-dot green-pulse"></span></div>
-                        <div class="left-metric-value" style="font-size: 18px;">감시중</div>
-                    </div>
-                    <div class="left-metric-card">
-                        <div class="left-metric-label">GitHub Actions <span class="status-dot green-pulse"></span></div>
-                        <div class="left-metric-value" id="github-status" style="font-size: 18px;">활성</div>
-                    </div>
-                    <div class="left-metric-card">
-                        <div class="left-metric-label">JARVIS (AI) <span class="status-dot green-pulse"></span></div>
-                        <div class="left-metric-value" style="font-size: 18px;">자동화</div>
-                    </div>
-                    <div class="left-metric-card">
-                        <div class="left-metric-label">Obsidian <span class="status-dot green-pulse"></span></div>
-                        <div class="left-metric-value" id="obsidian-status" style="font-size: 18px;">활성</div>
-                    </div>
-                </div>
-                <div class="left-media-box">
-                    <img id="jarvis-image" src="" alt="JARVIS 개 이미지 - AGI Evolution OS" />
-                </div>
-            </div>
+
+<div class="container">
+    <!-- 상단 상태 박스 -->
+    <div class="header-grid">
+        <div class="status-card">
+            <div>도현 (CEO)</div>
+            <div style="color: #238636; margin-top: 5px;"><span class="dot"></span>감시중</div>
         </div>
-
-        <!-- 오른쪽 패널: 새 AGI Evolution OS 패널 -->
-        <div class="right-panel">
-            <!-- 1️⃣ 제목 -->
-            <div>
-                <div class="right-title">
-                    AGI Evolution OS
-                    <svg class="atom-icon" id="atom-indicator" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                        <!-- 중심 핵 (고정) -->
-                        <circle cx="50" cy="50" r="8" fill="#00d4ff" opacity="0.9"/>
-                        <!-- 궤도 1 (고정) -->
-                        <ellipse cx="50" cy="50" rx="25" ry="15" fill="none" stroke="#00d4ff" stroke-width="1.5" opacity="0.6"/>
-                        <!-- 궤도 2 (고정) -->
-                        <ellipse cx="50" cy="50" rx="35" ry="22" fill="none" stroke="#00d4ff" stroke-width="1.5" opacity="0.4" transform="rotate(60 50 50)"/>
-                        <!-- 궤도 3 (고정) -->
-                        <ellipse cx="50" cy="50" rx="30" ry="18" fill="none" stroke="#00d4ff" stroke-width="1.5" opacity="0.3" transform="rotate(120 50 50)"/>
-                        <!-- 전자 1 (빠른 속도) -->
-                        <circle cx="75" cy="50" r="3" fill="#00d4ff"/>
-                        <!-- 전자 2 (중간 속도) -->
-                        <circle cx="40" cy="68" r="3" fill="#00d4ff"/>
-                        <!-- 전자 3 (느린 속도) -->
-                        <circle cx="35" cy="40" r="3" fill="#00d4ff"/>
-                    </svg>
-                </div>
-                <div class="right-subtitle">MD Family 를 위한 AGI System</div>
-            </div>
-
-            <!-- 2️⃣ 다이소 사업 현황 + 베스트셀러 -->
-            <div style="background: rgba(0, 212, 255, 0.03); border: 1px solid rgba(0, 212, 255, 0.1); border-radius: 8px; padding: 15px; margin-top: 20px;">
-                <div class="status-title" id="daiso-title">💰 Shopify + 다이소 Dropshipping</div>
-                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 12px;">
-                    <div style="background: rgba(0, 255, 0, 0.1); padding: 10px; border-radius: 6px; text-align: center;">
-                        <div style="font-size: 11px; color: #888; margin-bottom: 4px;">총 상품 수</div>
-                        <div id="total-products" style="font-size: 18px; color: #00ff00; font-weight: bold;">--개</div>
-                    </div>
-                    <div style="background: rgba(0, 212, 255, 0.1); padding: 10px; border-radius: 6px; text-align: center;">
-                        <div style="font-size: 11px; color: #888; margin-bottom: 4px;">월 수익</div>
-                        <div id="daiso-revenue" style="font-size: 16px; color: #00d4ff; font-weight: bold;">--</div>
-                    </div>
-                    <div style="background: rgba(100, 200, 0, 0.1); padding: 10px; border-radius: 6px; text-align: center;">
-                        <div style="font-size: 11px; color: #888; margin-bottom: 4px;">평균 마진</div>
-                        <div id="daiso-margin" style="font-size: 18px; color: #66ff66; font-weight: bold;">--</div>
-                    </div>
-                    <div style="background: rgba(255, 170, 0, 0.1); padding: 10px; border-radius: 6px; text-align: center;">
-                        <div style="font-size: 11px; color: #888; margin-bottom: 4px;">자동화율</div>
-                        <div id="daiso-automation" style="font-size: 18px; color: #ffaa00; font-weight: bold;">--</div>
-                    </div>
-                </div>
-                <div style="margin-top: 12px; font-size: 12px; color: #aaa; padding-top: 12px; border-top: 1px solid rgba(0, 212, 255, 0.1);">
-                    <div style="margin-bottom: 4px;">✅ Shopify 스토어 완성</div>
-                    <div style="margin-bottom: 4px;">✅ 자동화 파이프라인 구축</div>
-                    <div style="margin-bottom: 8px;">✅ 마케팅 전략 수립</div>
-                </div>
-            </div>
-
-            <!-- 3️⃣ 작업 상세 로그 -->
-            <div class="status-log" style="margin-top: 20px;">
-                <div class="status-title">📋 작업 상세 로그 (최신 5개)</div>
-                <div id="task-details-right" style="display: flex; flex-direction: column; gap: 8px; max-height: 330px; overflow: hidden; margin-top: 10px; padding: 0 8px;">
-                    <!-- 데이터 로드됨 -->
-                </div>
-            </div>
-
-            <!-- 4️⃣ 진행도 -->
-            <div style="margin-top: 20px;">
-                <div class="status-title" id="phase-progress-title">📈 Phase 26 진행도: --</div>
-                <div id="progress-details" style="margin-top: 12px; font-size: 13px; color: #aaa;">진행도 데이터 로딩중...</div>
+        <div class="status-card">
+            <div>GitHub Actions</div>
+            <div style="color: #238636; margin-top: 5px;"><span class="dot"></span>활성</div>
+        </div>
+        <div class="status-card">
+            <div>JARVIS (AI)</div>
+            <div style="color: #238636; margin-top: 5px;"><span class="dot"></span>자동화</div>
+        </div>
+        <div class="status-card">
+            <div>Obsidian</div>
+            <div id="obsidian-status-text" style="color: #238636; margin-top: 5px;">
+                <span id="obsidian-dot" class="dot"></span>온라인
             </div>
         </div>
     </div>
 
-    <script>
-        // 기본 URL 판단 (GitHub Pages vs 로컬)
-        const isGitHubPages = window.location.pathname.includes('/jarvis-agi/');
-        const basePath = isGitHubPages ? '/jarvis-luna' : '.';
+    <!-- 메인 지표 영역 -->
+    <div class="section">
+        <h3>💰 Shopify + 다이소 Dropshipping</h3>
+        <div class="metrics-grid">
+            <div class="metric-box">
+                <div>총 상품 수</div>
+                <div class="metric-value" id="val-total">117개</div>
+            </div>
+            <div class="metric-box">
+                <div>월 수익</div>
+                <div class="metric-value" id="val-revenue">$3,900</div>
+            </div>
+            <div class="metric-box">
+                <div>평균 마진</div>
+                <div class="metric-value">650%</div>
+            </div>
+            <div class="metric-box">
+                <div>자동화율</div>
+                <div class="metric-value">95%</div>
+            </div>
+        </div>
+    </div>
 
-        // 도그 이미지 슬라이드쇼 (1-6, 8-12번만 존재)
-        const dogImageNumbers = [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12];
-        let currentDogImageIndex = 0;
+    <!-- 작업 상세 로그 영역 (자비스 작업 내역 실시간 출력) -->
+    <div class="section">
+        <h2>📋 작업 상세 로그 (최신 5개)</h2>
+        <div id="log-container">
+            <div class="log-item">로그를 불러오는 중...</div>
+        </div>
+    </div>
 
-        function rotateDogImage() {
-            const jarvisImage = document.getElementById('jarvis-image');
-            const imageNum = dogImageNumbers[currentDogImageIndex];
+    <!-- Phase 26 진행도 -->
+    <div class="section">
+        <h2>📈 Phase 26 진행도: 100%</h2>
+        <p style="color: #238636; font-weight: bold;">✅ 완료 (100%)</p>
+        <p>📌 Phase 26 MoE Implementation Complete</p>
+    </div>
+    
+    <div style="text-align: center; font-size: 12px; color: #8b949e; margin-top: 20px;" id="timestamp-view">
+        ⏰ 마지막 업데이트: 확인 중...
+    </div>
+</div>
 
-            // ✅ 새 이미지 로드 (img 태그 src 설정)
-            jarvisImage.src = `${basePath}/images/${imageNum}.png`;
+<script>
+    async function updateDashboard() {
+        try {
+            // 1. 메인 지표 및 Obsidian 상태 동기화
+            const resData = await fetch('cumulative_products.json?' + new Date().getTime());
+            if (resData.ok) {
+                const data = await resData.json();
+                document.getElementById('val-total').innerText = data.cumulative_total + "개";
+                document.getElementById('val-revenue').innerText = "$" + data.monthly_revenue.toLocaleString();
+                document.getElementById('timestamp-view').innerText = "⏰ 마지막 업데이트: " + data.timestamp;
 
-            // 애니메이션 재시작
-            jarvisImage.style.animation = 'none';
-            setTimeout(() => {
-                jarvisImage.style.animation = 'imageFade 4s ease-in-out infinite';
-            }, 10);
-
-            currentDogImageIndex = (currentDogImageIndex + 1) % dogImageNumbers.length;
-        }
-
-        // 초기 이미지 로드
-        rotateDogImage();
-
-        // 4초마다 이미지 전환 (애니메이션 길이와 동일)
-        setInterval(rotateDogImage, 4000);
-
-        // 원자 아이콘 상태 업데이트
-        function updateAtomIcon(tasks) {
-            const atomIcon = document.getElementById('atom-indicator');
-            if (!atomIcon) return;
-
-            // 최근 작업 시간 확인
-            if (tasks && tasks.length > 0) {
-                const latestTask = tasks[tasks.length - 1];
-                const taskTime = new Date(latestTask.end_time || latestTask.timestamp);
-                const now = new Date();
-                const diffSeconds = (now - taskTime) / 1000;
-
-                // 30초 이내: 작업 중 (회전), 그 외: 대기 중 (멈춤)
-                if (diffSeconds < 30) {
-                    atomIcon.classList.remove('inactive');
+                // Obsidian 상태 동기화 (온라인/오프라인 불빛 분기)
+                const dot = document.getElementById('obsidian-dot');
+                const obsText = document.getElementById('obsidian-status-text');
+                if (data.obsidian_status === "online") {
+                    dot.style.backgroundColor = "#238636"; // 녹색불
+                    obsText.innerHTML = '<span id="obsidian-dot" class="dot" style="background-color: #238636;"></span>온라인';
                 } else {
-                    atomIcon.classList.add('inactive');
+                    dot.style.backgroundColor = "#da3633"; // 붉은색불
+                    obsText.innerHTML = '<span id="obsidian-dot" class="dot" style="background-color: #da3633;"></span>오프라인';
                 }
             }
-        }
 
-        // 다이소 메트릭 실시간 계산
-        function calculateDaisoMetrics(data) {
-            if (!data) return null;
-
-            // 1. 총 상품 수
-            const totalProducts = data.cumulative_total || 117;
-
-            // 2. 월 수익 계산: baseline을 기준으로 일일 증가율 적용
-            // baseline(117) = $3,900 기준, 상품 1개당 약 $33
-            const baselineRevenue = 3900;
-            const costPerProduct = baselineRevenue / (data.baseline || 117);
-            const monthlyRevenue = Math.round(totalProducts * costPerProduct);
-
-            // 3. 평균 마진: 고정값 650%
-            const averageMargin = '650%';
-
-            // 4. 자동화율: daily_increment 기반 계산
-            // 최근 7일의 평균 발굴수를 기반으로
-            let automationRate = '95%';
-            if (data.daily_increment && data.daily_increment.length > 0) {
-                const recentDays = data.daily_increment.slice(-7);
-                const totalDiscovered = recentDays.reduce((sum, day) => sum + day.discovered, 0);
-                const avgDaily = Math.round(totalDiscovered / recentDays.length);
-                // 자동화율: avgDaily / 25 (목표) * 100
-                const rate = Math.min(100, Math.round((avgDaily / 25) * 100));
-                automationRate = rate + '%';
-            }
-
-            return {
-                totalProducts,
-                monthlyRevenue: '$' + monthlyRevenue.toLocaleString('en-US'),
-                averageMargin,
-                automationRate
-            };
-        }
-
-        // 실제 JSON 파일만 로드 (기본값 제거)
-        async function loadData() {
-            console.log('🔄 실제 JSON 데이터 로드 시작');
-
-            // 1. 누적 상품 수 + 다이소 메트릭
-            try {
-                const res = await fetch(basePath + '/cumulative_products.json?t=' + Date.now());
-                if (res.ok) {
-                    const data = await res.json();
-                    console.log('✅ cumulative_products.json:', data.cumulative_total + '개');
-                    document.getElementById('total-products').textContent = data.cumulative_total + '개';
-
-                    // 실시간 계산된 메트릭 표시
-                    const metrics = calculateDaisoMetrics(data);
-                    if (metrics) {
-                        document.getElementById('daiso-revenue').textContent = metrics.monthlyRevenue;
-                        document.getElementById('daiso-margin').textContent = metrics.averageMargin;
-                        document.getElementById('daiso-automation').textContent = metrics.automationRate;
-                        console.log('✅ 다이소 메트릭 계산:', metrics);
-                    }
-                }
-            } catch (e) {
-                console.log('❌ cumulative_products.json 로드 실패:', e.message);
-            }
-
-            // 2. 작업 로그
-            try {
-                const res = await fetch(basePath + '/scheduler_log.json?t=' + Date.now());
-                if (res.ok) {
-                    const data = await res.json();
-                    console.log('✅ scheduler_log.json:', data.events.length + '개');
-                    displayTasksRight(data.events || []);
-                }
-            } catch (e) {
-                console.log('❌ scheduler_log.json 로드 실패:', e.message);
-                displayTasksRight([]);
-            }
-
-            // 3. Phase 진행도
-            try {
-                const res = await fetch(basePath + '/phase_26_progress.json?t=' + Date.now());
-                if (res.ok) {
-                    const data = await res.json();
-                    console.log('✅ phase_26_progress.json:', data.progress_percentage + '%');
-                    updateProgressDisplay(data);
-                }
-            } catch (e) {
-                console.log('❌ phase_26_progress.json 로드 실패:', e.message);
-            }
-
-            console.log('✅ 모든 실제 JSON 데이터 로드 완료!');
-        }
-
-        // Phase 진행도 상세 표시 (마일스톤 포함)
-        function updateProgressDisplay(phase) {
-            document.getElementById('phase-progress-title').textContent = `📈 Phase ${phase.phase} 진행도: ${phase.progress_percentage}%`;
-
-            // 🔄 작업 로그의 최신 시간을 사용하고, 없으면 Phase 시간 사용
-            const time = latestTaskTime || new Date(phase.last_updated).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' });
-
-            const statusEmoji = phase.progress_percentage < 50 ? '🟢' : phase.progress_percentage < 100 ? '🟡' : '✅';
-            const statusText = phase.progress_percentage < 50 ? '진행 중' : phase.progress_percentage < 100 ? '마무리' : '완료';
-
-            // 마일스톤 HTML 구성
-            let milestonesHTML = '';
-            if (phase.milestones && phase.milestones.length > 0) {
-                milestonesHTML = '<div style="margin-top: 12px; font-size: 13px;">';
-
-                phase.milestones.forEach((milestone, index) => {
-                    const milestoneEmoji = milestone.status === 'completed' ? '✅' : '🟡';
-                    const progressBar = milestone.status === 'completed'
-                        ? '████████████████████░░ 100%'
-                        : `${'▓'.repeat(Math.floor(milestone.progress || 0) / 5)}${'░'.repeat(20 - Math.floor(milestone.progress || 0) / 5)} ${milestone.progress || 0}%`;
-
-                    const completedDate = milestone.completed_date ? ` (${milestone.completed_date})` : '';
-                    milestonesHTML += `
-                        <div style="margin-bottom: 10px; padding: 8px; background: rgba(0, 212, 255, 0.08); border-radius: 4px;">
-                            <div style="margin-bottom: 4px;">
-                                <span style="font-weight: bold; color: ${milestone.status === 'completed' ? '#00ff00' : '#ffaa00'}">
-                                    ${milestoneEmoji} ${index + 1}. ${milestone.name}${completedDate}
-                                </span>
-                            </div>
-                            <div style="font-family: monospace; font-size: 11px; color: #0f0; letter-spacing: 1px;">
-                                ${progressBar}
-                            </div>
+            // 2. 작업 상세 로그 동기화
+            const resLogs = await fetch('scheduler_log.json?' + new Date().getTime());
+            if (resLogs.ok) {
+                const logs = await resLogs.json();
+                const container = document.getElementById('log-container');
+                if (Array.isArray(logs) && logs.length > 0) {
+                    container.innerHTML = logs.map(item => `
+                        <div class="log-item">
+                            <span style="color: #238636; font-weight: bold;">[${item.status}]</span> 
+                            <span>${item.task}</span>
+                            <span style="float: right; color: #8b949e; font-size: 12px;">${item.time}</span>
                         </div>
-                    `;
-                });
-                milestonesHTML += '</div>';
-            }
-
-            const detailsEl = document.getElementById('progress-details');
-            if (detailsEl) {
-                detailsEl.innerHTML = `
-                    <div style="margin-bottom: 12px;">
-                        <div style="font-size: 14px; font-weight: bold; color: ${statusEmoji === '✅' ? '#00ff00' : statusEmoji === '🟡' ? '#ffaa00' : '#00d4ff'};">
-                            ${statusEmoji} ${statusText} (${phase.progress_percentage}%)
-                        </div>
-                        <div style="margin-top: 6px; font-size: 12px; color: #888;">
-                            📌 ${phase.description || '진행 중'}
-                        </div>
-                    </div>
-
-                    <div style="margin-bottom: 12px;">
-                        <div style="font-size: 13px; font-weight: bold; color: #0ff; margin-bottom: 6px;">마일스톤</div>
-                        ${milestonesHTML}
-                    </div>
-
-                    <div style="font-size: 11px; color: #666; border-top: 1px solid rgba(0, 212, 255, 0.1); padding-top: 8px;">
-                        ⏰ 마지막 업데이트: ${time}
-                    </div>
-                `;
-            }
-        }
-
-        // 다이소 사업 동적 업데이트
-        function updateDaisoDisplay(daisoData) {
-            if (!daisoData) return;
-
-            // 상품 수 (총 상품 수에 포함)
-            const productsCount = daisoData.products_count || daisoData.overview.products_count;
-            totalProductsCount.daiso = productsCount;
-            updateTotalProducts();
-
-            // 월 수익 범위
-            const revenueEl = document.getElementById('daiso-revenue');
-            if (revenueEl && daisoData.financial_targets) {
-                const min = daisoData.financial_targets.monthly_revenue.min;
-                const max = daisoData.financial_targets.monthly_revenue.max;
-                revenueEl.textContent = `${min} ~ ${max}`;
-                revenueEl.style.fontSize = '14px';
-            }
-
-            // 평균 마진
-            const marginEl = document.getElementById('daiso-margin');
-            if (marginEl) {
-                marginEl.textContent = daisoData.financial_targets.average_margin;
-            }
-
-            // 자동화율
-            const automationEl = document.getElementById('daiso-automation');
-            if (automationEl) {
-                automationEl.textContent = daisoData.overview.automation_rate;
-            }
-
-            // 다이소 상태 업데이트
-            const statusEl = document.getElementById('daiso-status');
-            if (statusEl) {
-                const progress = daisoData.progress_percentage;
-                if (progress >= 95) {
-                    statusEl.textContent = '🚀 론칭대기';
-                    statusEl.style.color = '#00ff00';
-                } else if (progress >= 80) {
-                    statusEl.textContent = '진행 중';
-                    statusEl.style.color = '#ffaa00';
+                    `).join('');
                 } else {
-                    statusEl.textContent = '준비 중';
-                    statusEl.style.color = '#00d4ff';
+                    container.innerHTML = '<div class="log-item">작업 로그가 없습니다.</div>';
                 }
             }
+        } catch (e) {
+            console.error("대시보드 데이터 동기화 실패:", e);
         }
+    }
 
-        // 채널별 상품 데이터
-        let totalProductsCount = {
-            daiso: 0,
-            olive: 0,
-            naver: 0,
-            walmart: 0,
-            amazon: 0
-        };
+    // 페이지 로드 시 즉시 실행 및 30초마다 자동 갱신
+    updateDashboard();
+    setInterval(updateDashboard, 30000);
+</script>
 
-        // 🔄 작업 로그의 가장 최신 시간 (동적 업데이트용)
-        let latestTaskTime = '';
-
-        // cumulative_products.json의 실제 누적값을 최우선 표시
-        function updateTotalProducts() {
-            const channelTotal = Object.values(totalProductsCount)
-                .reduce(
-                    (sum, count) => sum + Number(count || 0),
-                    0
-                );
-
-            const total =
-                Number.isFinite(Number(cumulativeProductsTotal))
-                    ? Number(cumulativeProductsTotal)
-                    : channelTotal;
-
-            const totalEl =
-                document.getElementById('total-products');
-
-            if (totalEl) {
-                totalEl.textContent = `${total}개`;
-            }
-        }
-
-        // 올리브영 상품 수
-        function updateOliveYoungCount(oliveData) {
-            if (!oliveData) return;
-            const count = Object.values(oliveData.categories || {}).reduce((sum, cat) => sum + cat.count, 0);
-            totalProductsCount.olive = count;
-            updateTotalProducts();
-        }
-
-        // 네이버 쇼핑 상품 수
-        function updateNaverCount(naverData) {
-            if (!naverData) return;
-            const count = Object.values(naverData.categories || {}).reduce((sum, cat) => sum + cat.count, 0);
-            totalProductsCount.naver = count;
-            updateTotalProducts();
-        }
-
-        // 월마트 상품 수
-        function updateWalmartCount(walmartData) {
-            if (!walmartData) return;
-            const count = Object.values(walmartData.categories || {}).reduce((sum, cat) => sum + cat.count, 0);
-            totalProductsCount.walmart = count;
-            updateTotalProducts();
-        }
-
-        // 아마존 상품 수
-        function updateAmazonCount(amazonData) {
-            if (!amazonData) return;
-            const count = Object.values(amazonData.categories || {}).reduce((sum, cat) => sum + cat.count, 0);
-            totalProductsCount.amazon = count;
-            updateTotalProducts();
-        }
-
-        // 베스트셀러 상품 표시
-        function displayBestsellers(recommendations) {
-            const list = document.getElementById('bestseller-list');
-            if (!list) return;
-
-            let html = '';
-            recommendations.slice(0, 5).forEach(rec => {
-                const statusColor = rec.rank <= 3 ? '#00ff00' : '#ffaa00';
-                const statusEmoji = rec.rank <= 3 ? '🟢' : '🟡';
-
-                html += `
-                    <div style="background: rgba(255, 170, 0, 0.08); padding: 6px; border-radius: 4px; border-left: 2px solid ${statusColor};">
-                        <div style="color: ${statusColor}; font-weight: 600; margin-bottom: 2px;">
-                            ${rec.rank}. ${rec.product}
-                        </div>
-                        <div style="color: #aaa; font-size: 10px; margin-bottom: 2px;">
-                            💡 ${rec.reason}
-                        </div>
-                        <div style="color: #888; font-size: 10px;">
-                            📊 ${rec.monthly_sales}개/월 • 💰 ${rec.monthly_profit}
-                        </div>
-                    </div>
-                `;
-            });
-
-            if (html === '') {
-                html = '<div style="color: #666; text-align: center; padding: 8px;">상품 데이터 분석 중...</div>';
-            }
-
-            list.innerHTML = html;
-        }
-
-        // 작업 상세 로그 (사용자 형식: title + count + details + time)
-        function displayTasksRight(tasks) {
-            const rightDetails = document.getElementById('task-details-right');
-            if (!tasks || tasks.length === 0) {
-                rightDetails.innerHTML = '<div style="color: #888;">작업 로그가 없습니다.</div>';
-                return;
-            }
-
-            let html = '';
-            // ✅ 기존 로그 데이터에서 최신 5개만 추출
-            const latestFiveLogs = [...tasks]
-                .sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
-                .slice(0, 5);
-
-            // 🔄 가장 최신 작업의 시간을 저장 (마지막 업데이트용)
-            if (latestFiveLogs && latestFiveLogs.length > 0) {
-                const latestDate = new Date(latestFiveLogs[0].timestamp);
-
-                latestTaskTime = latestDate.toLocaleString('ko-KR', {
-                    timeZone: 'Asia/Seoul',
-                    year: 'numeric',
-                    month: 'numeric',
-                    day: 'numeric',
-                    hour: 'numeric',
-                    minute: 'numeric',
-                    second: 'numeric'
-                });
-            }
-
-            latestFiveLogs.forEach((task, index) => {
-                const date = new Date(task.timestamp);
-                const time = date.toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' });
-                const emoji = task.status === 'success' ? '✅' : '❌';
-                const count = task.discovered_count > 0 ? `(${task.discovered_count}개)` : '';
-
-                html += `<div class="status-item">
-                    <div style="display: flex; gap: 8px; align-items: flex-start; flex-wrap: wrap;">
-                        <span>${emoji}</span>
-                        <span style="color: #00d4ff; font-weight: 600; flex: 1; min-width: 100px;">${task.task_name}</span>
-                        <span style="color: #00ff00; font-weight: 600; white-space: nowrap;">${count}</span>
-                    </div>
-                    <div style="margin-left: 24px; font-size: 12px; color: #888; margin-top: 4px;">${task.details}</div>
-                    <div style="margin-left: 24px; font-size: 11px; color: #666; margin-top: 2px;">${time}</div>
-                </div>`;
-            });
-
-            rightDetails.innerHTML = html;
-        }
-
-        function displayTasks(tasks) {
-            // 왼쪽 패널은 이미지만 사용하므로 필요 없음
-        }
-
-        function displayTeam(members) {
-            // 데이터 로드만 함 (오른쪽 패널에서 표시)
-        }
-
-        function displayProjects(projects) {
-            // 데이터 로드만 함 (오른쪽 패널에서 표시)
-        }
-
-        // 🔄 Obsidian 로컬 서버 실시간 데이터 동기화 함수
-        async function syncObsidianData() {
-            try {
-                // localhost:8001/api/stats 엔드포인트에서 그래프 통계 조회
-                const response = await fetch('http://localhost:8001/api/stats', {
-                    method: 'GET',
-                    mode: 'cors',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    }
-                });
-
-                if (response.ok) {
-                    const data = await response.json();
-
-                    // 1. Obsidian 상태 뱃지 업데이트 (실시간 연동 중)
-                    const obsidianStatus = document.getElementById('obsidian-status');
-                    if (obsidianStatus) {
-                        obsidianStatus.innerHTML = `🔗 실시간 연동 중 (${data.total_nodes.toLocaleString()} 노드 / ${data.total_links.toLocaleString()} 링크)`;
-                        obsidianStatus.style.color = '#10B981'; // 초록색
-                        obsidianStatus.style.fontSize = '14px';
-                        obsidianStatus.style.fontWeight = 'bold';
-                    }
-
-                    // 2. Obsidian 상태 도트 (초록 펄스)
-                    const statusDot = document.getElementById('obsidian-status-dot');
-                    if (statusDot) {
-                        statusDot.className = 'status-dot green-pulse';
-                    }
-
-                    // 3. 콘솔 로그 (디버깅용)
-                    console.log('✅ Obsidian 로컬 서버 동기화 성공:', {
-                        nodes: data.total_nodes,
-                        links: data.total_links,
-                        timestamp: new Date().toLocaleTimeString('ko-KR')
-                    });
-                } else {
-                    throw new Error(`HTTP ${response.status}`);
-                }
-            } catch (error) {
-                // 서버 연결 실패 시 기존 '오프라인' 상태 유지
-                console.warn('⚠️ Obsidian 로컬 서버가 오프라인 상태입니다 (localhost:8001).', error.message);
-
-                const obsidianStatus = document.getElementById('obsidian-status');
-                const statusDot = document.getElementById('obsidian-status-dot');
-
-                if (obsidianStatus && obsidianStatus.textContent.includes('실시간')) {
-                    // 이미 연동 중이던 상태에서만 오프라인으로 변경
-                    obsidianStatus.innerHTML = '⚠️ 서버 연결 끊김';
-                    obsidianStatus.style.color = '#ff6b6b';
-                }
-
-                // ✅ 상태 점도 함께 업데이트 (회색 오프라인 표시)
-                if (statusDot) {
-                    statusDot.className = 'status-dot offline';
-                }
-            }
-        }
-
-        // Obsidian 저장 상태 업데이트
-        function updateObsidianStatus() {
-            const statusEl = document.getElementById('obsidian-status');
-            const statusDot = document.getElementById('obsidian-status-dot');
-            if (!statusEl) return;
-
-            // 작업 로그 시간 확인
-            fetch(basePath + '/data/jarvis_work_detailed_log.json?t=' + Date.now())
-                .then(res => res.json())
-                .then(data => {
-                    if (data.timestamp) {
-                        const lastUpdate = new Date(data.timestamp);
-                        const now = new Date();
-                        const diffMin = Math.floor((now - lastUpdate) / 60000);
-
-                        if (diffMin < 10) {
-                            // 최근 10분 이내 = 저장 중
-                            statusEl.textContent = '저장 중';
-                            statusEl.style.color = '#00ff00';
-                            statusDot.className = 'status-dot green-pulse';
-                        } else if (diffMin < 20) {
-                            // 10-20분 = 동기화 완료 (저장 완료 상태 유지)
-                            statusEl.textContent = '동기화 완료';
-                            statusEl.style.color = '#00ff00';
-                            statusDot.className = 'status-dot green-pulse';
-                        } else {
-                            // 20분 이상 = 대기 중 (다음 실행 대기 중)
-                            statusEl.textContent = '대기 중';
-                            statusEl.style.color = '#ffaa00';
-                            statusDot.className = 'status-dot';
-                            statusDot.style.backgroundColor = '#ffaa00';
-                        }
-                    } else {
-                        // 데이터 없음 = 대기 중
-                        statusEl.textContent = '대기 중';
-                        statusEl.style.color = '#ffaa00';
-                        statusDot.className = 'status-dot';
-                        statusDot.style.backgroundColor = '#ffaa00';
-                    }
-                })
-                .catch(e => {
-                    // 에러 = 오프라인
-                    statusEl.textContent = '오프라인';
-                    statusEl.style.color = '#666';
-                    statusDot.className = 'status-dot offline';
-                });
-        }
-
-        // 페이지 로드 시 데이터 불러오기
-        window.addEventListener('load', function() {
-            loadData();
-            updateObsidianStatus();
-            syncObsidianData(); // 🔄 페이지 로드 시 즉시 Obsidian 동기화 시작
-        });
-
-        // ⏱️ 매 10초마다 Obsidian 로컬 서버 실시간 동기화
-        const obsidianSyncInterval = setInterval(syncObsidianData, 10000);
-
-        // 매 1분마다 Obsidian 저장 상태 업데이트 (기존 로직 유지)
-        setInterval(updateObsidianStatus, 60000);
-
-        // 매 10분마다 전체 데이터 새로고침
-        setInterval(loadData, 600000);
-
-        // 정리: 페이지 언로드 시 interval 정리
-        window.addEventListener('beforeunload', function() {
-            if (obsidianSyncInterval) clearInterval(obsidianSyncInterval);
-        });
-    </script>
 </body>
 </html>
