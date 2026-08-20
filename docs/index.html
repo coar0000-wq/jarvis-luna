@@ -111,7 +111,6 @@ async function loadJarvisData(){
         document.getElementById("update-time").textContent = "마지막 갱신 : " + (workData.timestamp ?? new Date().toLocaleString("ko-KR"));
     }catch(error){
         console.error(error);
-        // 비상 방어 모드
         document.getElementById("total-products").textContent = "118개";
         document.getElementById("total-revenue").textContent = "$3,929";
         document.getElementById("avg-margin").textContent = "35%";
