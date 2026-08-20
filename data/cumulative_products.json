@@ -1,12 +1,12 @@
 {
-  "cumulative_total": 184,
+  "cumulative_total": 189,
   "baseline": 117,
   "sources": {
-    "daiso": 34,
+    "daiso": 39,
     "oliveyoung": 9,
     "naver": 8,
     "walmart": 7,
     "amazon": 9
   },
-  "last_updated": "2026-08-20T15:19:41.037658Z"
+  "last_updated": "2026-08-20T15:45:26.901404Z"
 }
