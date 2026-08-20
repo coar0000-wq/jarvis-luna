@@ -187,53 +187,67 @@
     </div>
 
     <script>
+        async function fetchJSONWithFallback(paths) {
+            for (const path of paths) {
+                try {
+                    const res = await fetch(path + '?t=' + Date.now());
+                    if (res.ok) return await res.json();
+                } catch (e) {
+                    continue;
+                }
+            }
+            throw new Error("모든 경로에서 데이터 로드 실패");
+        }
+
         async function loadJarvisData() {
             try {
-                // 상위 폴더(../data/)에 있는 실제 자비스 데이터 파일들 호출
-                const [workRes, phaseRes, daisoRes] = await Promise.all([
-                    fetch('../data/jarvis_work_detailed_log.json?t=' + Date.now()),
-                    fetch('../data/phase26_progress.json?t=' + Date.now()),
-                    fetch('../data/agi_metrics.json?t=' + Date.now())
+                // 상위 폴더 경로와 절대 경로를 모두 지원하는 경로 후보군 설정
+                const workData = await fetchJSONWithFallback([
+                    '../data/jarvis_work_detailed_log.json',
+                    '/jarvis-luna/data/jarvis_work_detailed_log.json',
+                    './data/jarvis_work_detailed_log.json'
                 ]);
 
-                // 응답이 정상적이지 않을 경우 대안 파일(agi_metrics 등) 처리
-                const phase = phaseRes.ok ? await phaseRes.json() : {};
-                let daiso = {};
-                if (daisoRes.ok) {
-                    daiso = await daisoRes.json();
-                }
+                const phaseData = await fetchJSONWithFallback([
+                    '../data/phase26_progress.json',
+                    '/jarvis-luna/data/phase26_progress.json',
+                    './data/phase26_progress.json'
+                ]);
 
-                // Shopify 통계 동기화 (기본값 제공)
-                document.getElementById('total-products').textContent = (daiso.total_products !== undefined ? daiso.total_products : 118) + '개';
-                document.getElementById('total-revenue').textContent = '$' + (daiso.revenue !== undefined ? daiso.revenue.toLocaleString() : '3,929');
-                document.getElementById('avg-margin').textContent = (daiso.average_margin !== undefined ? daiso.average_margin : 650) + '%';
-                document.getElementById('auto-rate').textContent = (daiso.automation_rate !== undefined ? daiso.automation_rate : 95) + '%';
+                const daisoData = await fetchJSONWithFallback([
+                    '../data/daiso_business_plan.json',
+                    '/jarvis-luna/data/daiso_business_plan.json',
+                    './data/daiso_business_plan.json'
+                ]);
+
+                // Shopify 통계 동기화
+                document.getElementById('total-products').textContent = `${daisoData.total_products}개`;
+                document.getElementById('total-revenue').textContent = `$${daisoData.monthly_revenue.toLocaleString()}`;
+                document.getElementById('avg-margin').textContent = `${daisoData.average_margin}%`;
+                document.getElementById('auto-rate').textContent = `${daisoData.automation_rate}%`;
 
                 // 프로젝트 진행도 동기화
-                document.getElementById('progress-jarvis').textContent = (phase.jarvis_evolution || phase.jarvis || '100') + '%';
-                document.getElementById('progress-medical').textContent = (phase.medical_ai || '85') + '%';
-                document.getElementById('progress-business').textContent = (phase.business_platform || phase.business || '95') + '%';
-                document.getElementById('progress-infra').textContent = (phase.tech_infra || phase.infrastructure || '90') + '%';
+                document.getElementById('progress-jarvis').textContent = `${phaseData.jarvis}%`;
+                document.getElementById('progress-medical').textContent = `${phaseData.medical_ai}%`;
+                document.getElementById('progress-business').textContent = `${phaseData.business}%`;
+                document.getElementById('progress-infra').textContent = `${phaseData.infrastructure}%`;
 
                 // 작업 로그 동기화
-                if (workRes.ok) {
-                    const work = await workRes.json();
-                    const logList = document.getElementById('log-list');
-                    if (work.completed_today && Array.isArray(work.completed_today)) {
-                        logList.innerHTML = "";
-                        work.completed_today.forEach(item => {
-                            const li = document.createElement("li");
-                            li.textContent = `✅ ${item}`;
-                            logList.appendChild(li);
-                        });
-                    }
+                const logList = document.getElementById('log-list');
+                if (workData.completed_today && Array.isArray(workData.completed_today)) {
+                    logList.innerHTML = "";
+                    workData.completed_today.forEach(item => {
+                        const li = document.createElement("li");
+                        li.textContent = `✅ ${item}`;
+                        logList.appendChild(li);
+                    });
                 }
 
                 document.getElementById('update-time').textContent = '마지막 갱신: ' + new Date().toLocaleTimeString();
 
             } catch (err) {
-                console.error("JARVIS 데이터 로드 실패", err);
-                document.getElementById('update-time').textContent = '오프라인 동기화 모드 작동 중';
+                console.error("JARVIS 실시간 데이터 동기화 실패:", err);
+                document.getElementById('update-time').textContent = '동기화 지연 (재시도 중...)';
             }
         }
 
