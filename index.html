@@ -38,8 +38,8 @@
         li{padding:10px 0;border-bottom:1px solid #21262d;font-size:14px;display:flex;gap:8px;}
         li:last-child{border-bottom:none;}
         .log-empty{color:#8b949e;text-align:center;padding:16px 0;}
-        .error-msg{color:#f85149;font-size:13px;text-align:center;padding:8px;background:rgba(248,81,73,0.1);border-radius:6px;margin-top:10px;display:none;}
         .footer{text-align:center;color:#6e7681;font-size:12px;margin-top:30px;padding-bottom:20px;}
+        @media(max-width:600px){h1 .title{font-size:1.25rem;}.stat-box p{font-size:20px;}}
     </style>
 </head>
 <body>
@@ -65,7 +65,6 @@
             <div class="stat-box"><h3>자동화율</h3><p id="auto-rate">--</p></div>
         </div>
         <div class="refresh-info" id="update-time">데이터 동기화 중...</div>
-        <div class="error-msg" id="error-msg"></div>
     </div>
 
     <div class="card">
@@ -97,13 +96,14 @@
         </div>
     </div>
 
-    <div class="footer">JARVIS LUNA Realtime Dashboard · GitHub Pages · Hybrid Safe Mode</div>
+    <div class="footer">JARVIS LUNA Realtime Dashboard · GitHub Pages · Final Hybrid Mode</div>
 </div>
 
 <script>
+/* ===================== FALLBACK ===================== */
 const FALLBACK = {
     work: {
-        timestamp: "2026-08-20 21:30:00",
+        timestamp: "2026-08-20 21:42:00",
         completed_today: [
             "JARVIS LUNA AGI 코어 엔진 실시간 동기화 모듈 점검 완료",
             "Shopify + 다이소 드랍쉬핑 자동화 파이프라인 신규 상품 연동",
@@ -112,22 +112,14 @@ const FALLBACK = {
             "의료 AI 데이터셋 전처리 배치 #48 완료"
         ]
     },
-    phase: {
-        jarvis: 92,
-        medical_ai: 87,
-        business: 90,
-        infrastructure: 95,
-        overall: 91
-    },
-    daiso: {
-        total_products: 128,
-        monthly_revenue: 4550,
-        average_margin: 38,
-        automation_rate: 96
-    }
+    phase: { jarvis: 92, medical_ai: 87, business: 90, infrastructure: 95, overall: 91 },
+    daiso: { total_products: 128, monthly_revenue: 4550, average_margin: 38, automation_rate: 96 }
 };
 
+/* ===================== HELPERS ===================== */
 function safeNumber(val, fallback = 0) {
+    if (val === null || val === undefined) return fallback;
+    if (typeof val === "string") val = val.replace(/[^0-9.\-]/g, "");
     const n = Number(val);
     return isNaN(n) ? fallback : n;
 }
@@ -135,7 +127,8 @@ function safeNumber(val, fallback = 0) {
 function extractLogText(item) {
     if (typeof item === "string") return item;
     if (item && typeof item === "object") {
-        return item.message || item.text || item.log || item.title || item.content || item.description || JSON.stringify(item);
+        return item.task || item.message || item.text || item.log || item.title ||
+               item.content || item.description || item.result || JSON.stringify(item);
     }
     return String(item);
 }
@@ -154,6 +147,97 @@ function updateProgress(id, val) {
     document.getElementById(`bar-${id}`).style.width = `${v}%`;
 }
 
+/* ===================== 데이터 정규화 ===================== */
+function normalizeDaiso(raw) {
+    if (!raw) return FALLBACK.daiso;
+
+    if (raw.total_products !== undefined) {
+        return {
+            total_products: safeNumber(raw.total_products, FALLBACK.daiso.total_products),
+            monthly_revenue: safeNumber(raw.monthly_revenue, FALLBACK.daiso.monthly_revenue),
+            average_margin: safeNumber(raw.average_margin, FALLBACK.daiso.average_margin),
+            automation_rate: safeNumber(raw.automation_rate, FALLBACK.daiso.automation_rate)
+        };
+    }
+
+    const products = safeNumber(
+        raw.overview?.products_count ||
+        raw.products_count ||
+        (raw.categories ? raw.categories.reduce((s, c) => s + (c.products || 0), 0) : null),
+        FALLBACK.daiso.total_products
+    );
+
+    let revenue = FALLBACK.daiso.monthly_revenue;
+    if (raw.financial_targets?.monthly_revenue) {
+        const mr = raw.financial_targets.monthly_revenue;
+        if (typeof mr === "object") {
+            const min = safeNumber(String(mr.min || "").replace(/[^0-9]/g, ""), 3900);
+            const max = safeNumber(String(mr.max || "").replace(/[^0-9]/g, ""), 7200);
+            revenue = Math.round((min + max) / 2);
+        } else {
+            revenue = safeNumber(mr, FALLBACK.daiso.monthly_revenue);
+        }
+    }
+
+    let margin = FALLBACK.daiso.average_margin;
+    if (raw.financial_targets?.average_margin) {
+        margin = safeNumber(raw.financial_targets.average_margin, margin);
+    } else if (raw.categories && raw.categories.length) {
+        const sum = raw.categories.reduce((s, c) => s + safeNumber(c.avg_margin, 0), 0);
+        margin = Math.round(sum / raw.categories.length);
+    }
+
+    let autoRate = FALLBACK.daiso.automation_rate;
+    if (raw.overview?.automation_rate) {
+        autoRate = safeNumber(raw.overview.automation_rate, autoRate);
+    } else if (raw.automation_workflow?.automation_rate) {
+        autoRate = safeNumber(raw.automation_workflow.automation_rate, autoRate);
+    } else if (raw.progress_percentage) {
+        autoRate = safeNumber(raw.progress_percentage, autoRate);
+    }
+
+    return { total_products: products, monthly_revenue: revenue, average_margin: margin, automation_rate: autoRate };
+}
+
+function normalizePhase(raw) {
+    if (!raw) return FALLBACK.phase;
+
+    if (raw.jarvis !== undefined || raw.medical_ai !== undefined) {
+        return {
+            jarvis: safeNumber(raw.jarvis, FALLBACK.phase.jarvis),
+            medical_ai: safeNumber(raw.medical_ai, FALLBACK.phase.medical_ai),
+            business: safeNumber(raw.business, FALLBACK.phase.business),
+            infrastructure: safeNumber(raw.infrastructure, FALLBACK.phase.infrastructure),
+            overall: safeNumber(raw.overall, null)
+        };
+    }
+
+    const overall = safeNumber(raw.progress_percentage, FALLBACK.phase.overall);
+    return {
+        jarvis: FALLBACK.phase.jarvis,
+        medical_ai: FALLBACK.phase.medical_ai,
+        business: FALLBACK.phase.business,
+        infrastructure: FALLBACK.phase.infrastructure,
+        overall: overall
+    };
+}
+
+function normalizeWork(raw) {
+    if (!raw) return FALLBACK.work;
+
+    let logs = [];
+    const rawLogs = raw.completed_today || raw.completed_tasks;
+    if (Array.isArray(rawLogs)) {
+        logs = rawLogs.map(extractLogText).filter(Boolean);
+    }
+
+    return {
+        timestamp: raw.timestamp || raw.current_date || FALLBACK.work.timestamp,
+        completed_today: logs.length ? logs : FALLBACK.work.completed_today
+    };
+}
+
+/* ===================== FETCH ===================== */
 async function fetchJSON(file) {
     const urls = [
         `./data/${file}?t=${Date.now()}`,
@@ -168,56 +252,41 @@ async function fetchJSON(file) {
     return null;
 }
 
+/* ===================== RENDER ===================== */
 function renderDashboard(workData, phaseData, daisoData, isFallback = false) {
-    const products = safeNumber(daisoData.total_products, FALLBACK.daiso.total_products);
-    const revenue  = safeNumber(daisoData.monthly_revenue, FALLBACK.daiso.monthly_revenue);
-    const margin   = safeNumber(daisoData.average_margin, FALLBACK.daiso.average_margin);
-    const autoRate = safeNumber(daisoData.automation_rate, FALLBACK.daiso.automation_rate);
+    document.getElementById("total-products").textContent = `${daisoData.total_products}개`;
+    document.getElementById("total-revenue").textContent = `$${Number(daisoData.monthly_revenue).toLocaleString()}`;
+    document.getElementById("avg-margin").textContent = `${daisoData.average_margin}%`;
+    document.getElementById("auto-rate").textContent = `${daisoData.automation_rate}%`;
 
-    document.getElementById("total-products").textContent = `${products}개`;
-    document.getElementById("total-revenue").textContent  = `$${revenue.toLocaleString()}`;
-    document.getElementById("avg-margin").textContent     = `${margin}%`;
-    document.getElementById("auto-rate").textContent      = `${autoRate}%`;
+    updateProgress("jarvis", phaseData.jarvis);
+    updateProgress("medical", phaseData.medical_ai);
+    updateProgress("business", phaseData.business);
+    updateProgress("infra", phaseData.infrastructure);
 
-    updateProgress("jarvis", phaseData.jarvis ?? FALLBACK.phase.jarvis);
-    updateProgress("medical", phaseData.medical_ai ?? FALLBACK.phase.medical_ai);
-    updateProgress("business", phaseData.business ?? FALLBACK.phase.business);
-    updateProgress("infra", phaseData.infrastructure ?? FALLBACK.phase.infrastructure);
-
-    const overall = safeNumber(
-        phaseData.overall,
-        Math.round((
-            safeNumber(phaseData.jarvis) +
-            safeNumber(phaseData.medical_ai) +
-            safeNumber(phaseData.business) +
-            safeNumber(phaseData.infrastructure)
-        ) / 4)
+    const overall = phaseData.overall ?? Math.round(
+        (phaseData.jarvis + phaseData.medical_ai + phaseData.business + phaseData.infrastructure) / 4
     );
     document.getElementById("overall-progress").textContent = `${overall}%`;
 
     const logList = document.getElementById("log-list");
     logList.innerHTML = "";
-
-    let logs = [];
-    if (Array.isArray(workData.completed_today)) {
-        logs = workData.completed_today.map(extractLogText).filter(Boolean);
-    }
-
+    const logs = workData.completed_today || [];
     if (logs.length === 0) {
-        logs = FALLBACK.work.completed_today;
+        logList.innerHTML = `<li class="log-empty">📭 오늘 완료된 작업이 없습니다.</li>`;
+    } else {
+        [...logs].reverse().forEach(text => {
+            const li = document.createElement("li");
+            li.innerHTML = `<span>✅</span><span>${text}</span>`;
+            logList.appendChild(li);
+        });
     }
 
-    [...logs].reverse().forEach(text => {
-        const li = document.createElement("li");
-        li.innerHTML = `<span>✅</span><span>${text}</span>`;
-        logList.appendChild(li);
-    });
-
-    const ts = workData.timestamp || FALLBACK.work.timestamp;
-    document.getElementById("update-time").textContent = `마지막 갱신 : ${ts}`;
+    document.getElementById("update-time").textContent = `마지막 갱신 : ${workData.timestamp}`;
     setLiveIndicator(isFallback ? "offline" : "online");
 }
 
+/* ===================== MAIN ===================== */
 async function loadJarvisData() {
     setLiveIndicator("loading");
     try {
@@ -227,15 +296,15 @@ async function loadJarvisData() {
             fetchJSON("daiso_business_plan.json")
         ]);
 
-        const useFallback = !workRes || !phaseRes || !daisoRes;
+        const useFallback = !workRes && !phaseRes && !daisoRes;
 
-        renderDashboard(
-            workRes || FALLBACK.work,
-            phaseRes || FALLBACK.phase,
-            daisoRes || FALLBACK.daiso,
-            useFallback
-        );
+        const workData  = normalizeWork(workRes);
+        const phaseData = normalizePhase(phaseRes);
+        const daisoData = normalizeDaiso(daisoRes);
+
+        renderDashboard(workData, phaseData, daisoData, useFallback);
     } catch (err) {
+        console.error(err);
         renderDashboard(FALLBACK.work, FALLBACK.phase, FALLBACK.daiso, true);
     }
 }
