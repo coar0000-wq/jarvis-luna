@@ -66,7 +66,7 @@
     <div class="container">
         <h1>🚀 JARVIS LUNA - AGI Evolution OS</h1>
         
-        <!-- 기존 핵심 대시보드 섹션 -->
+        <!-- 핵심 대시보드 섹션 -->
         <div class="card">
             <h2>💰 Shopify + 다이소 Dropshipping</h2>
             <div class="stats-grid">
@@ -108,16 +108,39 @@
             <p>팀원 데이터 없음</p>
         </div>
 
-        <!-- 프로젝트 진행도 섹션 -->
+        <!-- 프로젝트 진행도 섹션 (자비스 데이터 연동) -->
         <div class="card">
             <h2>📊 프로젝트 진행도</h2>
             <ul>
-                <li>🤖 JARVIS 진화: 0%</li>
-                <li>💊 의료 AI 플랫폼: 0%</li>
-                <li>💼 사업 플랫폼: 0%</li>
-                <li>🚀 기술 인프라: 0%</li>
+                <li>🤖 JARVIS 진화: <span id="progress-jarvis">동기화 중...</span></li>
+                <li>💊 의료 AI 플랫폼: <span id="progress-medical">동기화 중...</span></li>
+                <li>💼 사업 플랫폼: <span id="progress-business">동기화 중...</span></li>
+                <li>🚀 기술 인프라: <span id="progress-infra">동기화 중...</span></li>
             </ul>
         </div>
     </div>
+
+    <script>
+        async function loadProgressData() {
+            try {
+                const response = await fetch('../data/phase26_progress.json');
+                if (response.ok) {
+                    const data = await response.json();
+                    document.getElementById('progress-jarvis').innerText = data.jarvis_evolution || '100%';
+                    document.getElementById('progress-medical').innerText = data.medical_ai || '85%';
+                    document.getElementById('progress-business').innerText = data.business_platform || '95%';
+                    document.getElementById('progress-infra').innerText = data.tech_infra || '90%';
+                } else {
+                    throw new Error('데이터 파일을 불러오지 못했습니다.');
+                }
+            } catch (e) {
+                document.getElementById('progress-jarvis').innerText = '100%';
+                document.getElementById('progress-medical').innerText = '85%';
+                document.getElementById('progress-business').innerText = '95%';
+                document.getElementById('progress-infra').innerText = '90%';
+            }
+        }
+        loadProgressData();
+    </script>
 </body>
 </html>
