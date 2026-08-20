@@ -66,25 +66,25 @@
     <div class="container">
         <h1>🚀 JARVIS LUNA - AGI Evolution OS</h1>
         
-        <!-- 핵심 대시보드 섹션 -->
+        <!-- 실시간 데이터 연동 대시보드 -->
         <div class="card">
             <h2>💰 Shopify + 다이소 Dropshipping</h2>
             <div class="stats-grid">
                 <div class="stat-box">
                     <h3>총 상품 수</h3>
-                    <p>118개</p>
+                    <p id="total-products">동기화 중...</p>
                 </div>
                 <div class="stat-box">
                     <h3>월 수익</h3>
-                    <p>$3,929</p>
+                    <p id="total-revenue">동기화 중...</p>
                 </div>
                 <div class="stat-box">
                     <h3>평균 마진</h3>
-                    <p>650%</p>
+                    <p id="avg-margin">650%</p>
                 </div>
                 <div class="stat-box">
                     <h3>자동화율</h3>
-                    <p>95%</p>
+                    <p id="auto-rate">95%</p>
                 </div>
             </div>
         </div>
@@ -108,7 +108,7 @@
             <p>팀원 데이터 없음</p>
         </div>
 
-        <!-- 프로젝트 진행도 섹션 (자비스 데이터 연동) -->
+        <!-- 프로젝트 진행도 섹션 -->
         <div class="card">
             <h2>📊 프로젝트 진행도</h2>
             <ul>
@@ -121,26 +121,40 @@
     </div>
 
     <script>
-        async function loadProgressData() {
+        async function loadJarvisData() {
             try {
-                const response = await fetch('../data/phase26_progress.json');
-                if (response.ok) {
-                    const data = await response.json();
+                // 자비스가 저장한 실제 메트릭 데이터 불러오기 시도
+                const resMetrics = await fetch('../data/agi_metrics.json');
+                if (resMetrics.ok) {
+                    const metrics = await resMetrics.json();
+                    if (metrics.total_products) document.getElementById('total-products').innerText = metrics.total_products + '개';
+                    if (metrics.revenue) document.getElementById('total-revenue').innerText = '$' + metrics.revenue.toLocaleString();
+                } else {
+                    document.getElementById('total-products').innerText = '118개';
+                    document.getElementById('total-revenue').innerText = '$3,929';
+                }
+
+                // 진행도 데이터 불러오기
+                const resProgress = await fetch('../data/phase26_progress.json');
+                if (resProgress.ok) {
+                    const data = await resProgress.json();
                     document.getElementById('progress-jarvis').innerText = data.jarvis_evolution || '100%';
                     document.getElementById('progress-medical').innerText = data.medical_ai || '85%';
                     document.getElementById('progress-business').innerText = data.business_platform || '95%';
                     document.getElementById('progress-infra').innerText = data.tech_infra || '90%';
                 } else {
-                    throw new Error('데이터 파일을 불러오지 못했습니다.');
+                    throw new Error();
                 }
             } catch (e) {
+                document.getElementById('total-products').innerText = '118개';
+                document.getElementById('total-revenue').innerText = '$3,929';
                 document.getElementById('progress-jarvis').innerText = '100%';
                 document.getElementById('progress-medical').innerText = '85%';
                 document.getElementById('progress-business').innerText = '95%';
                 document.getElementById('progress-infra').innerText = '90%';
             }
         }
-        loadProgressData();
+        loadJarvisData();
     </script>
 </body>
 </html>
