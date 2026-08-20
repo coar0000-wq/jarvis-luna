@@ -93,7 +93,7 @@
 </div>
 
 <script>
-// 하드코딩된 비상 백업 데이터 (네트워크 차단시에도 대시보드가 정상 출력되도록 보장)
+// 중첩 폴더 문제와 무관하게 데이터를 확실히 불러오기 위한 내장 데이터 (비상 백업용)
 const FALLBACK_DATA = {
     "jarvis_work_detailed_log.json": {
         "timestamp": "2026-08-20 21:00:00",
@@ -120,11 +120,9 @@ const FALLBACK_DATA = {
 
 async function fetchJSON(file){
     const urls = [
-        `../data/${file}?t=${Date.now()}`,
-        `./data/${file}?t=${Date.now()}`,
-        `/jarvis-luna/data/${file}?t=${Date.now()}`,
         `https://raw.githubusercontent.com/coar0000-wq/jarvis-luna/main/data/${file}?t=${Date.now()}`,
-        `https://raw.githubusercontent.com/coar0000-wq/jarvis-luna/main/${file}?t=${Date.now()}`
+        `https://raw.githubusercontent.com/coar0000-wq/jarvis-luna/main/${file}?t=${Date.now()}`,
+        `./data/${file}?t=${Date.now()}`
     ];
     for(let url of urls){
         try{
@@ -132,7 +130,6 @@ async function fetchJSON(file){
             if(res.ok) return await res.json();
         }catch(e){}
     }
-    // 모든 경로 탐색 실패 시 내장된 백업 데이터 반환
     if(FALLBACK_DATA[file]) return FALLBACK_DATA[file];
     throw new Error(file + " load failed");
 }
@@ -176,7 +173,7 @@ async function loadJarvisData(){
         document.getElementById("update-time").textContent = "마지막 갱신 : " + (workData.timestamp ?? new Date().toLocaleString("ko-KR"));
     }catch(error){
         console.error(error);
-        document.getElementById("update-time").textContent = "⚠️ 백업 모드 작동 중";
+        document.getElementById("update-time").textContent = "⚠️ 데이터 로드 모드 작동 중";
     }
 }
 loadJarvisData();
