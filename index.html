@@ -6,38 +6,26 @@
 <title>JARVIS LUNA - Realtime AGI Evolution OS</title>
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
+*{margin:0;padding:0;box-sizing:border-box;}
 body{
-    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    font-family:'Segoe UI',Tahoma,sans-serif;
     background:#0d1117;
     color:#c9d1d9;
     padding:20px;
 }
-
-.container{
-    max-width:900px;
-    margin:auto;
-}
-
+.container{max-width:900px;margin:auto;}
 h1{
     color:#58a6ff;
     margin-bottom:25px;
     border-bottom:1px solid #30363d;
     padding-bottom:12px;
 }
-
 h2{
     color:#58a6ff;
     margin-bottom:18px;
     border-bottom:1px solid #30363d;
     padding-bottom:8px;
 }
-
 .card{
     background:#161b22;
     border:1px solid #30363d;
@@ -45,14 +33,12 @@ h2{
     padding:20px;
     margin-bottom:22px;
 }
-
 .status-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
     gap:15px;
     margin-bottom:22px;
 }
-
 .status-box{
     background:#21262d;
     border:1px solid #30363d;
@@ -62,18 +48,15 @@ h2{
     justify-content:space-between;
     align-items:center;
 }
-
 .status-info h4{
     color:#f0f6fc;
     font-size:14px;
     margin-bottom:4px;
 }
-
 .status-info p{
     color:#8b949e;
     font-size:12px;
 }
-
 .badge{
     color:#fff;
     font-size:11px;
@@ -81,10 +64,9 @@ h2{
     padding:5px 10px;
     border-radius:30px;
 }
-
-.online{background:#238636;}
-.active{background:#1f6feb;}
 .monitoring{background:#9e6a03;}
+.active{background:#1f6feb;}
+.online{background:#238636;}
 
 .stats-grid{
     display:grid;
@@ -92,7 +74,6 @@ h2{
     gap:15px;
     margin-bottom:10px;
 }
-
 .stat-box{
     background:#21262d;
     border:1px solid #30363d;
@@ -100,36 +81,28 @@ h2{
     padding:18px;
     text-align:center;
 }
-
 .stat-box h3{
     color:#8b949e;
     font-size:13px;
     margin-bottom:10px;
 }
-
 .stat-box p{
     color:#f0f6fc;
     font-size:24px;
     font-weight:bold;
 }
-
 .refresh-info{
     text-align:right;
     color:#8b949e;
     font-size:12px;
     margin-top:10px;
 }
-
-ul{
-    list-style:none;
-}
-
+ul{list-style:none;}
 li{
     padding:10px 0;
     border-bottom:1px solid #21262d;
     font-size:14px;
 }
-
 .footer{
     text-align:center;
     color:#6e7681;
@@ -258,71 +231,98 @@ JARVIS LUNA Realtime Dashboard · GitHub Pages
 </div>
 
 <script>
-const DATA = "./data";
+
+const DATA="./data";
 
 async function fetchJSON(file){
-    const response = await fetch(`${DATA}/${file}?t=${Date.now()}`);
-
-    if(!response.ok){
-        throw new Error(file + " load failed");
-    }
-
-    return await response.json();
+    const res=await fetch(`${DATA}/${file}?t=${Date.now()}`);
+    if(!res.ok) throw new Error(file);
+    return await res.json();
 }
 
-async function loadJarvisData(){
+// 여러 JSON 키 자동 인식
+function pick(obj,keys,def=0){
+    for(const k of keys){
+        if(obj && obj[k]!=null) return obj[k];
+    }
+    return def;
+}
+
+async function loadJarvis(){
 
     try{
 
-        const [workData, phaseData, daisoData] = await Promise.all([
+        const [work,phase,daiso]=await Promise.all([
             fetchJSON("jarvis_work_detailed_log.json"),
             fetchJSON("phase26_progress.json"),
             fetchJSON("daiso_business_plan.json")
         ]);
 
+        // Dropshipping
         document.getElementById("total-products").textContent =
-            `${daisoData.total_products ?? 0}개`;
+            `${pick(daiso,["total_products","products","product_count","totalItems"])}개`;
 
         document.getElementById("total-revenue").textContent =
-            `$${Number(daisoData.monthly_revenue ?? 0).toLocaleString()}`;
+            `$${Number(pick(daiso,["monthly_revenue","monthly_profit","revenue","monthly_sales"])).toLocaleString()}`;
 
         document.getElementById("avg-margin").textContent =
-            `${daisoData.average_margin ?? 0}%`;
+            `${pick(daiso,["average_margin","avg_margin","margin"])}%`;
 
         document.getElementById("auto-rate").textContent =
-            `${daisoData.automation_rate ?? 0}%`;
+            `${pick(daiso,["automation_rate","automation","auto_rate"])}%`;
 
+        // 프로젝트 진행도
         document.getElementById("progress-jarvis").textContent =
-            `${phaseData.jarvis ?? 0}%`;
+            `${pick(phase,["jarvis","jarvis_progress"])}%`;
 
         document.getElementById("progress-medical").textContent =
-            `${phaseData.medical_ai ?? 0}%`;
+            `${pick(phase,["medical_ai","medical"])}%`;
 
         document.getElementById("progress-business").textContent =
-            `${phaseData.business ?? 0}%`;
+            `${pick(phase,["business","business_platform"])}%`;
 
         document.getElementById("progress-infra").textContent =
-            `${phaseData.infrastructure ?? 0}%`;
+            `${pick(phase,["infrastructure","infra","technology"])}%`;
 
-        const logList = document.getElementById("log-list");
-        logList.innerHTML = "";
+        // 로그
+        const list=document.getElementById("log-list");
+        list.innerHTML="";
 
-        const logs = Array.isArray(workData.completed_today)
-            ? [...workData.completed_today].reverse()
-            : [];
+        const logs=work.completed_today || work.logs || [];
 
-        if(logs.length === 0){
-
-            logList.innerHTML =
-                "<li>📭 오늘 완료된 작업이 없습니다.</li>";
-
+        if(logs.length===0){
+            list.innerHTML="<li>📭 오늘 완료된 작업이 없습니다.</li>";
         }else{
 
-            logs.forEach(log=>{
+            logs.slice().reverse().forEach(item=>{
 
-                const li = document.createElement("li");
-                li.textContent = "✅ " + log;
-                logList.appendChild(li);
+                const li=document.createElement("li");
+
+                if(typeof item==="string"){
+
+                    li.textContent="✅ "+item;
+
+                }else{
+
+                    const text =
+                        item.task ||
+                        item.title ||
+                        item.name ||
+                        item.event ||
+                        "작업 완료";
+
+                    const time =
+                        item.duration ||
+                        item.time ||
+                        item.elapsed ||
+                        "";
+
+                    li.textContent = time
+                        ? `✅ ${text} (${time})`
+                        : `✅ ${text}`;
+                }
+
+                list.appendChild(li);
 
             });
 
@@ -330,25 +330,25 @@ async function loadJarvisData(){
 
         document.getElementById("update-time").textContent =
             "마지막 GitHub 갱신 : " +
-            (workData.timestamp ??
-            new Date().toLocaleString("ko-KR"));
+            (work.timestamp || work.last_update || new Date().toLocaleString("ko-KR"));
 
-    }catch(error){
+    }catch(e){
 
-        console.error(error);
+        console.error(e);
 
         document.getElementById("update-time").textContent =
-            "🔴 GitHub Actions 연결 실패";
+            "🔴 JSON 연결 실패";
 
         document.getElementById("log-list").innerHTML =
-            "<li>⚠️ data 폴더 또는 JSON 파일을 확인하세요.</li>";
+            "<li>⚠️ data 폴더의 JSON 파일을 확인하세요.</li>";
 
     }
 
 }
 
-loadJarvisData();
-setInterval(loadJarvisData,30000);
+loadJarvis();
+setInterval(loadJarvis,30000);
+
 </script>
 
 </body>
