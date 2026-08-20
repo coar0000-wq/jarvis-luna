@@ -101,7 +101,6 @@
 </div>
 
 <script>
-// 최신 백업 데이터 세트 (네트워크 차단이나 경로 에러 시 화면 보호용)
 const FALLBACK = {
     work: {
         timestamp: "2026-08-20 21:30:00",
@@ -133,7 +132,6 @@ function safeNumber(val, fallback = 0) {
     return isNaN(n) ? fallback : n;
 }
 
-// [object Object] 방지를 위한 강력한 로그 텍스트 추출기
 function extractLogText(item) {
     if (typeof item === "string") return item;
     if (item && typeof item === "object") {
@@ -229,7 +227,6 @@ async function loadJarvisData() {
             fetchJSON("daiso_business_plan.json")
         ]);
 
-        // 하나라도 못 가져오면 안전하게 하이브리드 백업 데이터 결합 적용
         const useFallback = !workRes || !phaseRes || !daisoRes;
 
         renderDashboard(
