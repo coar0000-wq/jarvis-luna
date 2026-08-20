@@ -1,6 +1,12 @@
 {
   "events": [
     {
+      "timestamp": "2026-08-20T23:18:41.905230Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 513개)",
+      "status": "success"
+    },
+    {
       "timestamp": "2026-08-20T23:14:35.709989Z",
       "task_name": "✅ 아마존 상품 발굴",
       "details": "아마존 상품 5개 발굴 (누적: 510개)",
@@ -592,12 +598,6 @@
       "timestamp": "2026-08-17T08:09:18Z",
       "task_name": "✅ Obsidian 동기화",
       "details": "815개 노드 | 1,200개 링크 동기화",
-      "status": "success"
-    },
-    {
-      "timestamp": "2026-08-17T08:15:30Z",
-      "task_name": "✅ GitHub Actions 최적화",
-      "details": "12개 워크플로우 → 5개 통합 | 이모지 제거",
       "status": "success"
     }
   ]
