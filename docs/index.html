@@ -93,9 +93,10 @@
 </div>
 
 <script>
-// 데이터 직접 내장 방식으로 경로 꼬임 원천 차단
+// 최신 JSON 데이터 스펙을 반영한 내장 데이터 객체
 const workData = {
     "timestamp": "2026-08-20 21:00:00",
+    "date": "2026-08-20",
     "completed_today": [
         "JARVIS LUNA AGI 코어 엔진 실시간 동기화 모듈 점검 완료",
         "Shopify + 다이소 드랍쉬핑 자동화 파이프라인 신규 상품 연동",
@@ -125,23 +126,19 @@ function updateProgress(id, val){
 }
 
 function renderDashboard(){
-    // 다이소 비즈니스 데이터 반영
     document.getElementById("total-products").textContent = `${daisoData.total_products}개`;
     document.getElementById("total-revenue").textContent = `$${Number(daisoData.monthly_revenue).toLocaleString()}`;
     document.getElementById("avg-margin").textContent = `${daisoData.average_margin}%`;
     document.getElementById("auto-rate").textContent = `${daisoData.automation_rate}%`;
 
-    // 프로그레스 바 반영
     updateProgress("jarvis", phaseData.jarvis);
     updateProgress("medical", phaseData.medical_ai);
     updateProgress("business", phaseData.business);
     updateProgress("infra", phaseData.infrastructure);
 
-    // 작업 상세 로그 반영
     const logList = document.getElementById("log-list");
     logList.innerHTML = "";
-    const logs = [...workData.completed_today].reverse();
-    logs.forEach(log => {
+    workData.completed_today.forEach(log => {
         const li = document.createElement("li");
         li.textContent = "✅ " + log;
         logList.appendChild(li);
