@@ -1,6 +1,36 @@
 {
   "events": [
     {
+      "timestamp": "2026-08-20T17:14:56.023098Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 3개 발굴 (누적: 259개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T17:14:55.984974Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 5개 발굴 (누적: 256개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T17:14:55.946902Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 3개 발굴 (누적: 251개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T17:14:55.906458Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 5개 발굴 (누적: 248개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T17:14:55.868163Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 243개)",
+      "status": "success"
+    },
+    {
       "timestamp": "2026-08-20T16:53:20.618960Z",
       "task_name": "✅ 다이소 상품 발굴",
       "details": "다이소 상품 5개 발굴 (누적: 240개)",
