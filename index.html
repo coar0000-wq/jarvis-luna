@@ -3,192 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JARVIS LUNA - AGI Evolution OS</title>
+    <title>JARVIS LUNA</title>
     <style>
-        body {
-            background-color: #0d1117;
-            color: #c9d1d9;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        .header-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 15px;
-            margin-bottom: 25px;
-        }
-        .status-card {
-            background: #161b22;
-            border: 1px solid #30363d;
-            border-radius: 8px;
-            padding: 15px;
-            text-align: center;
-        }
-        .dot {
-            height: 10px;
-            width: 10px;
-            background-color: #238636;
-            border-radius: 50%;
-            display: inline-block;
-            margin-right: 5px;
-        }
-        .metrics-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 15px;
-            margin-bottom: 25px;
-        }
-        .metric-box {
-            background: #161b22;
-            border: 1px solid #30363d;
-            border-radius: 8px;
-            padding: 20px;
-            text-align: center;
-        }
-        .metric-value {
-            font-size: 24px;
-            font-weight: bold;
-            color: #58a6ff;
-            margin-top: 5px;
-        }
-        .section {
-            background: #161b22;
-            border: 1px solid #30363d;
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        h2 { font-size: 18px; margin-top: 0; color: #f0f6fc; }
-        .log-item {
-            padding: 10px 0;
-            border-bottom: 1px solid #30363d;
-            font-size: 14px;
-        }
-        .log-item:last-child { border-bottom: none; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header { text-align: center; color: white; margin-bottom: 30px; }
+        h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 30px; }
+        .metric { background: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .metric-label { color: #666; font-size: 14px; margin-bottom: 10px; }
+        .metric-value { font-size: 2em; font-weight: bold; color: #667eea; }
+        .section { background: white; padding: 25px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .section h2 { color: #667eea; margin-bottom: 15px; font-size: 1.5em; }
+        .task-item { padding: 15px; border-left: 4px solid #667eea; background: #f8f9fa; margin-bottom: 10px; border-radius: 5px; }
+        .task-item .status { display: inline-block; padding: 5px 10px; border-radius: 3px; font-size: 12px; font-weight: bold; margin-right: 10px; }
+        .status.completed { background: #d4edda; color: #155724; }
+        .status.in_progress { background: #cfe2ff; color: #084298; }
+        .status.pending { background: #fff3cd; color: #664d03; }
+        .team-member { padding: 12px; background: #f8f9fa; margin-bottom: 10px; border-radius: 5px; display: flex; justify-content: space-between; align-items: center; }
+        .team-member .role { color: #666; font-size: 14px; }
+        .progress-bar { width: 100%; height: 6px; background: #e0e0e0; border-radius: 3px; overflow: hidden; margin-top: 10px; }
+        .progress { height: 100%; background: linear-gradient(90deg, #667eea, #764ba2); width: var(--progress); }
     </style>
 </head>
 <body>
+    <div class="container">
+        <header>
+            <h1>🤖 JARVIS LUNA</h1>
+            <p>AGI 진화 실시간 대시보드</p>
+        </header>
 
-<div class="container">
-    <!-- 상단 상태 박스 -->
-    <div class="header-grid">
-        <div class="status-card">
-            <div>도현 (CEO)</div>
-            <div style="color: #238636; margin-top: 5px;"><span class="dot"></span>감시중</div>
-        </div>
-        <div class="status-card">
-            <div>GitHub Actions</div>
-            <div style="color: #238636; margin-top: 5px;"><span class="dot"></span>활성</div>
-        </div>
-        <div class="status-card">
-            <div>JARVIS (AI)</div>
-            <div style="color: #238636; margin-top: 5px;"><span class="dot"></span>자동화</div>
-        </div>
-        <div class="status-card">
-            <div>Obsidian</div>
-            <div id="obsidian-status-text" style="color: #238636; margin-top: 5px;">
-                <span id="obsidian-dot" class="dot"></span>온라인
+        <div class="metrics">
+            <div class="metric">
+                <div class="metric-label">AGI 레벨</div>
+                <div class="metric-value">3.0</div>
             </div>
+            <div class="metric">
+                <div class="metric-label">진화도</div>
+                <div class="metric-value">50%</div>
+            </div>
+            <div class="metric">
+                <div class="metric-label">정확도</div>
+                <div class="metric-value">99.8%</div>
+            </div>
+            <div class="metric">
+                <div class="metric-label">가용성</div>
+                <div class="metric-value">99.9%</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📋 작업 상세 로그</h2>
+            <div id="task-details">로딩 중...</div>
+        </div>
+
+        <div class="section">
+            <h2>👥 팀원 실시간 상태</h2>
+            <div id="team-status">로딩 중...</div>
+        </div>
+
+        <div class="section">
+            <h2>📊 프로젝트 진행도</h2>
+            <div id="project-progress">로딩 중...</div>
         </div>
     </div>
 
-    <!-- 메인 지표 영역 -->
-    <div class="section">
-        <h3>💰 Shopify + 다이소 Dropshipping</h3>
-        <div class="metrics-grid">
-            <div class="metric-box">
-                <div>총 상품 수</div>
-                <div class="metric-value" id="val-total">117개</div>
-            </div>
-            <div class="metric-box">
-                <div>월 수익</div>
-                <div class="metric-value" id="val-revenue">$3,900</div>
-            </div>
-            <div class="metric-box">
-                <div>평균 마진</div>
-                <div class="metric-value">650%</div>
-            </div>
-            <div class="metric-box">
-                <div>자동화율</div>
-                <div class="metric-value">95%</div>
-            </div>
-        </div>
-    </div>
-
-    <!-- 작업 상세 로그 영역 (자비스 작업 내역 실시간 출력) -->
-    <div class="section">
-        <h2>📋 작업 상세 로그 (최신 5개)</h2>
-        <div id="log-container">
-            <div class="log-item">로그를 불러오는 중...</div>
-        </div>
-    </div>
-
-    <!-- Phase 26 진행도 -->
-    <div class="section">
-        <h2>📈 Phase 26 진행도: 100%</h2>
-        <p style="color: #238636; font-weight: bold;">✅ 완료 (100%)</p>
-        <p>📌 Phase 26 MoE Implementation Complete</p>
-    </div>
-    
-    <div style="text-align: center; font-size: 12px; color: #8b949e; margin-top: 20px;" id="timestamp-view">
-        ⏰ 마지막 업데이트: 확인 중...
-    </div>
-</div>
-
-<script>
-    async function updateDashboard() {
-        try {
-            // 1. 메인 지표 및 Obsidian 상태 동기화
-            const resData = await fetch('cumulative_products.json?' + new Date().getTime());
-            if (resData.ok) {
-                const data = await resData.json();
-                document.getElementById('val-total').innerText = data.cumulative_total + "개";
-                document.getElementById('val-revenue').innerText = "$" + data.monthly_revenue.toLocaleString();
-                document.getElementById('timestamp-view').innerText = "⏰ 마지막 업데이트: " + data.timestamp;
-
-                // Obsidian 상태 동기화 (온라인/오프라인 불빛 분기)
-                const dot = document.getElementById('obsidian-dot');
-                const obsText = document.getElementById('obsidian-status-text');
-                if (data.obsidian_status === "online") {
-                    dot.style.backgroundColor = "#238636"; // 녹색불
-                    obsText.innerHTML = '<span id="obsidian-dot" class="dot" style="background-color: #238636;"></span>온라인';
-                } else {
-                    dot.style.backgroundColor = "#da3633"; // 붉은색불
-                    obsText.innerHTML = '<span id="obsidian-dot" class="dot" style="background-color: #da3633;"></span>오프라인';
+    <script>
+        // 데이터 로드 및 표시
+        async function loadData() {
+            try {
+                // 작업 로그
+                const workRes = await fetch('./data/jarvis_work_detailed_log.json?t=' + Date.now());
+                if (workRes.ok) {
+                    const workData = await workRes.json();
+                    displayTasks(workData.completed_today || []);
                 }
-            }
+            } catch (e) { console.log('작업 로그 로드 실패'); }
 
-            // 2. 작업 상세 로그 동기화
-            const resLogs = await fetch('scheduler_log.json?' + new Date().getTime());
-            if (resLogs.ok) {
-                const logs = await resLogs.json();
-                const container = document.getElementById('log-container');
-                if (Array.isArray(logs) && logs.length > 0) {
-                    container.innerHTML = logs.map(item => `
-                        <div class="log-item">
-                            <span style="color: #238636; font-weight: bold;">[${item.status}]</span> 
-                            <span>${item.task}</span>
-                            <span style="float: right; color: #8b949e; font-size: 12px;">${item.time}</span>
-                        </div>
-                    `).join('');
-                } else {
-                    container.innerHTML = '<div class="log-item">작업 로그가 없습니다.</div>';
+            try {
+                // 팀원 상태
+                const teamRes = await fetch('./data/team_status.json?t=' + Date.now());
+                if (teamRes.ok) {
+                    const teamData = await teamRes.json();
+                    displayTeam(teamData.team_members || []);
                 }
-            }
-        } catch (e) {
-            console.error("대시보드 데이터 동기화 실패:", e);
+            } catch (e) { console.log('팀원 상태 로드 실패'); }
+
+            try {
+                // 프로젝트
+                const projRes = await fetch('./data/projects.json?t=' + Date.now());
+                if (projRes.ok) {
+                    const projData = await projRes.json();
+                    displayProjects(projData.projects || []);
+                }
+            } catch (e) { console.log('프로젝트 로드 실패'); }
         }
-    }
 
-    // 페이지 로드 시 즉시 실행 및 30초마다 자동 갱신
-    updateDashboard();
-    setInterval(updateDashboard, 30000);
-</script>
+        function displayTasks(tasks) {
+            let html = '';
+            tasks.forEach(task => {
+                html += `<div class="task-item">
+                    <span class="status completed">${task.status || '✅ 완료'}</span>
+                    <strong>${task.task}</strong>
+                    <div style="color: #999; font-size: 12px; margin-top: 5px;">${task.duration || ''}</div>
+                </div>`;
+            });
+            document.getElementById('task-details').innerHTML = html || '<p style="color: #999;">작업 데이터 없음</p>';
+        }
 
+        function displayTeam(members) {
+            let html = '';
+            members.forEach(member => {
+                html += `<div class="team-member">
+                    <div>
+                        <strong>${member.name}</strong>
+                        <div class="role">${member.role}</div>
+                    </div>
+                    <div>${member.status}</div>
+                </div>`;
+            });
+            document.getElementById('team-status').innerHTML = html || '<p style="color: #999;">팀원 데이터 없음</p>';
+        }
+
+        function displayProjects(projects) {
+            let html = '';
+            projects.forEach(proj => {
+                html += `<div style="margin-bottom: 20px;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                        <strong>${proj.name || proj.category}</strong>
+                        <span style="color: #667eea; font-weight: bold;">${proj.progress || 0}%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="--progress: ${proj.progress || 0}%"></div>
+                    </div>
+                </div>`;
+            });
+            document.getElementById('project-progress').innerHTML = html || '<p style="color: #999;">프로젝트 데이터 없음</p>';
+        }
+
+        // 페이지 로드 시 데이터 불러오기
+        window.addEventListener('load', loadData);
+    </script>
 </body>
 </html>
