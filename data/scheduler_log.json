@@ -1,6 +1,12 @@
 {
   "events": [
     {
+      "timestamp": "2026-08-20T09:50:54.091702Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 4개 발굴 (누적: 121개)",
+      "status": "success"
+    },
+    {
       "timestamp": "2026-08-17T08:09:13Z",
       "task_name": "✅ 다이소 제품 발굴",
       "details": "식탁보 방수, 침대 시트, 형광펜",

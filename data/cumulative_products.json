@@ -1,10 +1,8 @@
-﻿{
-  "cumulative_total": 117,
+{
+  "cumulative_total": 121,
   "baseline": 117,
-  "last_updated": "2026-08-17T22:17:59Z",
-  "daily_increment": [
-    {"date": "2026-08-15", "discovered": 5},
-    {"date": "2026-08-16", "discovered": 8},
-    {"date": "2026-08-17", "discovered": 12}
-  ]
+  "sources": {
+    "daiso": 4
+  },
+  "last_updated": "2026-08-20T09:50:54.091489Z"
 }
