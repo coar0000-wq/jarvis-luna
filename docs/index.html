@@ -4,255 +4,361 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JARVIS LUNA - Realtime AGI Evolution OS</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #0d1117;
-            color: #c9d1d9;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        h1, h2 {
-            color: #58a6ff;
-            border-bottom: 1px solid #30363d;
-            padding-bottom: 8px;
-        }
-        .card {
-            background-color: #161b22;
-            border: 1px solid #30363d;
-            border-radius: 6px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        .status-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-        .status-box {
-            background-color: #21262d;
-            border: 1px solid #30363d;
-            border-radius: 6px;
-            padding: 15px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .status-info h4 {
-            margin: 0 0 5px 0;
-            font-size: 14px;
-            color: #f0f6fc;
-        }
-        .status-info p {
-            margin: 0;
-            font-size: 12px;
-            color: #8b949e;
-        }
-        .badge {
-            padding: 4px 8px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: bold;
-            color: white;
-        }
-        .badge.online { background-color: #238636; }
-        .badge.active { background-color: #1f6feb; }
-        .badge.monitoring { background-color: #9e6a03; }
 
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 15px;
-            margin-bottom: 20px;
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
         }
-        .stat-box {
-            background-color: #21262d;
-            border: 1px solid #30363d;
-            border-radius: 6px;
-            padding: 15px;
-            text-align: center;
+
+        body{
+            font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+            background:#0d1117;
+            color:#c9d1d9;
+            padding:20px;
         }
-        .stat-box h3 {
-            margin: 0 0 10px 0;
-            font-size: 14px;
-            color: #8b949e;
+
+        .container{
+            max-width:900px;
+            margin:auto;
         }
-        .stat-box p {
-            margin: 0;
-            font-size: 20px;
-            font-weight: bold;
-            color: #f0f6fc;
+
+        h1{
+            color:#58a6ff;
+            margin-bottom:25px;
+            border-bottom:1px solid #30363d;
+            padding-bottom:12px;
         }
-        .refresh-info {
-            font-size: 11px;
-            color: #8b949e;
-            text-align: right;
-            margin-top: -10px;
-            margin-bottom: 10px;
+
+        h2{
+            color:#58a6ff;
+            margin-bottom:18px;
+            border-bottom:1px solid #30363d;
+            padding-bottom:8px;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
+
+        .card{
+            background:#161b22;
+            border:1px solid #30363d;
+            border-radius:10px;
+            padding:20px;
+            margin-bottom:22px;
         }
-        li {
-            padding: 8px 0;
-            border-bottom: 1px solid #21262d;
-            font-size: 14px;
+
+        .status-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+            gap:15px;
+            margin-bottom:22px;
+        }
+
+        .status-box{
+            background:#21262d;
+            border:1px solid #30363d;
+            border-radius:8px;
+            padding:14px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        .status-info h4{
+            color:#f0f6fc;
+            font-size:14px;
+            margin-bottom:4px;
+        }
+
+        .status-info p{
+            color:#8b949e;
+            font-size:12px;
+        }
+
+        .badge{
+            color:#fff;
+            font-size:11px;
+            font-weight:bold;
+            padding:5px 10px;
+            border-radius:30px;
+        }
+
+        .online{background:#238636;}
+        .active{background:#1f6feb;}
+        .monitoring{background:#9e6a03;}
+
+        .stats-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+            gap:15px;
+            margin-bottom:10px;
+        }
+
+        .stat-box{
+            background:#21262d;
+            border:1px solid #30363d;
+            border-radius:8px;
+            padding:18px;
+            text-align:center;
+        }
+
+        .stat-box h3{
+            color:#8b949e;
+            font-size:13px;
+            margin-bottom:10px;
+        }
+
+        .stat-box p{
+            color:#f0f6fc;
+            font-size:24px;
+            font-weight:bold;
+        }
+
+        .refresh-info{
+            text-align:right;
+            color:#8b949e;
+            font-size:12px;
+            margin-top:10px;
+        }
+
+        ul{
+            list-style:none;
+        }
+
+        li{
+            padding:10px 0;
+            border-bottom:1px solid #21262d;
+            font-size:14px;
+        }
+
+        .footer{
+            text-align:center;
+            color:#6e7681;
+            font-size:12px;
+            margin-top:30px;
         }
     </style>
 </head>
+
 <body>
-    <div class="container">
-        <h1>🚀 JARVIS LUNA - AGI Evolution OS</h1>
-        
-        <!-- 실시간 상태 배지 -->
-        <div class="status-grid">
-            <div class="status-box">
-                <div class="status-info">
-                    <h4>도현 (CEO)</h4>
-                    <p>시스템 총괄</p>
-                </div>
-                <span class="badge monitoring">감시중</span>
+
+<div class="container">
+
+    <h1>🚀 JARVIS LUNA - AGI Evolution OS</h1>
+
+    <div class="status-grid">
+
+        <div class="status-box">
+            <div class="status-info">
+                <h4>도현 (CEO)</h4>
+                <p>System Director</p>
             </div>
-            <div class="status-box">
-                <div class="status-info">
-                    <h4>GitHub Actions</h4>
-                    <p>파이프라인 자동화</p>
-                </div>
-                <span class="badge active">활성</span>
-            </div>
-            <div class="status-box">
-                <div class="status-info">
-                    <h4>JARVIS (AI)</h4>
-                    <p>코어 엔진</p>
-                </div>
-                <span class="badge active">자동화</span>
-            </div>
-            <div class="status-box">
-                <div class="status-info">
-                    <h4>Obsidian</h4>
-                    <p>지식 베이스</p>
-                </div>
-                <span class="badge online">온라인</span>
-            </div>
+            <span class="badge monitoring">감시중</span>
         </div>
 
-        <!-- Shopify + 다이소 Dropshipping (실시간 JSON Fetch 연동) -->
-        <div class="card">
-            <h2>💰 Shopify + 다이소 Dropshipping</h2>
-            <div class="stats-grid">
-                <div class="stat-box">
-                    <h3>총 상품 수</h3>
-                    <p id="total-products">동기화 중...</p>
-                </div>
-                <div class="stat-box">
-                    <h3>월 수익</h3>
-                    <p id="total-revenue">동기화 중...</p>
-                </div>
-                <div class="stat-box">
-                    <h3>평균 마진</h3>
-                    <p id="avg-margin">동기화 중...</p>
-                </div>
-                <div class="stat-box">
-                    <h3>자동화율</h3>
-                    <p id="auto-rate">동기화 중...</p>
-                </div>
+        <div class="status-box">
+            <div class="status-info">
+                <h4>GitHub Actions</h4>
+                <p>Automation</p>
             </div>
-            <div class="refresh-info" id="update-time">데이터 동기화 대기 중...</div>
+            <span class="badge active">활성</span>
         </div>
 
-        <!-- 작업 상세 로그 섹션 -->
-        <div class="card">
-            <h2>📋 작업 상세 로그</h2>
-            <ul id="log-list">
-                <li>⏳ 백그라운드 로그 불러오는 중...</li>
-            </ul>
+        <div class="status-box">
+            <div class="status-info">
+                <h4>JARVIS AI</h4>
+                <p>Core Engine</p>
+            </div>
+            <span class="badge active">자동화</span>
         </div>
 
-        <!-- 프로젝트 진행도 섹션 -->
-        <div class="card">
-            <h2>📊 프로젝트 진행도</h2>
-            <ul>
-                <li>🤖 JARVIS 진화: <span id="progress-jarvis">동기화 중...</span></li>
-                <li>💊 의료 AI 플랫폼: <span id="progress-medical">동기화 중...</span></li>
-                <li>💼 사업 플랫폼: <span id="progress-business">동기화 중...</span></li>
-                <li>🚀 기술 인프라: <span id="progress-infra">동기화 중...</span></li>
-            </ul>
+        <div class="status-box">
+            <div class="status-info">
+                <h4>Obsidian</h4>
+                <p>Knowledge Base</p>
+            </div>
+            <span class="badge online">온라인</span>
         </div>
+
     </div>
 
-    <script>
-        async function fetchJSONWithFallback(paths) {
-            for (const path of paths) {
-                try {
-                    const res = await fetch(path + '?t=' + Date.now());
-                    if (res.ok) return await res.json();
-                } catch (e) {
-                    continue;
-                }
-            }
-            throw new Error("모든 경로에서 데이터 로드 실패");
+    <div class="card">
+
+        <h2>💰 Shopify + 다이소 Dropshipping</h2>
+
+        <div class="stats-grid">
+
+            <div class="stat-box">
+                <h3>총 상품 수</h3>
+                <p id="total-products">--</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>월 수익</h3>
+                <p id="total-revenue">--</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>평균 마진</h3>
+                <p id="avg-margin">--</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>자동화율</h3>
+                <p id="auto-rate">--</p>
+            </div>
+
+        </div>
+
+        <div class="refresh-info" id="update-time">
+            데이터 동기화 중...
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>📋 작업 상세 로그</h2>
+
+        <ul id="log-list">
+            <li>⏳ GitHub Actions 로그 로딩 중...</li>
+        </ul>
+
+    </div>
+
+    <div class="card">
+
+        <h2>📊 프로젝트 진행도</h2>
+
+        <ul>
+
+            <li>🤖 JARVIS 진화 :
+                <strong id="progress-jarvis">--%</strong>
+            </li>
+
+            <li>💊 의료 AI 플랫폼 :
+                <strong id="progress-medical">--%</strong>
+            </li>
+
+            <li>💼 사업 플랫폼 :
+                <strong id="progress-business">--%</strong>
+            </li>
+
+            <li>🚀 기술 인프라 :
+                <strong id="progress-infra">--%</strong>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div class="footer">
+        JARVIS LUNA Realtime Dashboard · GitHub Pages
+    </div>
+
+</div>
+
+<script>
+
+const DATA_PATH="./data";
+
+async function fetchJSON(file){
+
+    const response=await fetch(
+        `${DATA_PATH}/${file}?t=${Date.now()}`
+    );
+
+    if(!response.ok){
+        throw new Error(file+" load failed");
+    }
+
+    return await response.json();
+}
+
+async function loadJarvisData(){
+
+    try{
+
+        const [workData,phaseData,daisoData]=await Promise.all([
+
+            fetchJSON("jarvis_work_detailed_log.json"),
+
+            fetchJSON("phase26_progress.json"),
+
+            fetchJSON("daiso_business_plan.json")
+
+        ]);
+
+        document.getElementById("total-products").textContent=
+            `${daisoData.total_products ?? 0}개`;
+
+        document.getElementById("total-revenue").textContent=
+            `$${Number(daisoData.monthly_revenue ?? 0).toLocaleString()}`;
+
+        document.getElementById("avg-margin").textContent=
+            `${daisoData.average_margin ?? 0}%`;
+
+        document.getElementById("auto-rate").textContent=
+            `${daisoData.automation_rate ?? 0}%`;
+
+        document.getElementById("progress-jarvis").textContent=
+            `${phaseData.jarvis ?? 0}%`;
+
+        document.getElementById("progress-medical").textContent=
+            `${phaseData.medical_ai ?? 0}%`;
+
+        document.getElementById("progress-business").textContent=
+            `${phaseData.business ?? 0}%`;
+
+        document.getElementById("progress-infra").textContent=
+            `${phaseData.infrastructure ?? 0}%`;
+
+        const logList=document.getElementById("log-list");
+        logList.innerHTML="";
+
+        const logs=Array.isArray(workData.completed_today)
+            ? [...workData.completed_today].reverse()
+            : [];
+
+        if(logs.length===0){
+
+            logList.innerHTML="<li>📭 오늘 완료된 작업이 없습니다.</li>";
+
+        }else{
+
+            logs.forEach(log=>{
+
+                const li=document.createElement("li");
+                li.textContent="✅ "+log;
+                logList.appendChild(li);
+
+            });
+
         }
 
-        async function loadJarvisData() {
-            try {
-                // 상위 폴더 경로와 절대 경로를 모두 지원하는 경로 후보군 설정
-                const workData = await fetchJSONWithFallback([
-                    '../data/jarvis_work_detailed_log.json',
-                    '/jarvis-luna/data/jarvis_work_detailed_log.json',
-                    './data/jarvis_work_detailed_log.json'
-                ]);
+        document.getElementById("update-time").textContent=
+            "마지막 GitHub 갱신 : "+
+            (workData.timestamp ??
+             new Date().toLocaleString("ko-KR"));
 
-                const phaseData = await fetchJSONWithFallback([
-                    '../data/phase26_progress.json',
-                    '/jarvis-luna/data/phase26_progress.json',
-                    './data/phase26_progress.json'
-                ]);
+    }catch(error){
 
-                const daisoData = await fetchJSONWithFallback([
-                    '../data/daiso_business_plan.json',
-                    '/jarvis-luna/data/daiso_business_plan.json',
-                    './data/daiso_business_plan.json'
-                ]);
+        console.error(error);
 
-                // Shopify 통계 동기화
-                document.getElementById('total-products').textContent = `${daisoData.total_products}개`;
-                document.getElementById('total-revenue').textContent = `$${daisoData.monthly_revenue.toLocaleString()}`;
-                document.getElementById('avg-margin').textContent = `${daisoData.average_margin}%`;
-                document.getElementById('auto-rate').textContent = `${daisoData.automation_rate}%`;
+        document.getElementById("update-time").textContent=
+            "🔴 GitHub Actions 연결 실패";
 
-                // 프로젝트 진행도 동기화
-                document.getElementById('progress-jarvis').textContent = `${phaseData.jarvis}%`;
-                document.getElementById('progress-medical').textContent = `${phaseData.medical_ai}%`;
-                document.getElementById('progress-business').textContent = `${phaseData.business}%`;
-                document.getElementById('progress-infra').textContent = `${phaseData.infrastructure}%`;
+        document.getElementById("log-list").innerHTML=
+            "<li>⚠️ data 폴더 또는 JSON 파일을 확인하세요.</li>";
 
-                // 작업 로그 동기화
-                const logList = document.getElementById('log-list');
-                if (workData.completed_today && Array.isArray(workData.completed_today)) {
-                    logList.innerHTML = "";
-                    workData.completed_today.forEach(item => {
-                        const li = document.createElement("li");
-                        li.textContent = `✅ ${item}`;
-                        logList.appendChild(li);
-                    });
-                }
+    }
 
-                document.getElementById('update-time').textContent = '마지막 갱신: ' + new Date().toLocaleTimeString();
+}
 
-            } catch (err) {
-                console.error("JARVIS 실시간 데이터 동기화 실패:", err);
-                document.getElementById('update-time').textContent = '동기화 지연 (재시도 중...)';
-            }
-        }
+loadJarvisData();
 
-        loadJarvisData();
-        setInterval(loadJarvisData, 30000); // 30초마다 자동 갱신
-    </script>
+setInterval(loadJarvisData,30000);
+
+</script>
+
 </body>
 </html>
