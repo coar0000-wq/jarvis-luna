@@ -1,209 +1,184 @@
 {
   "status": "✅ 성공",
-  "timestamp": "2026-08-17T02:41:54.669645",
+  "timestamp": "2026-08-20T14:45:39.686232",
   "papers_collected": 90,
   "summary": {
     "total": 90,
-    "unique_authors": 417,
+    "unique_authors": 336,
     "categories": [
-      "cs.MA",
-      "cs.CL",
-      "cs.CR",
-      "cs.LG",
-      "cs.DS",
-      "cs.IR",
-      "cs.SE",
-      "cs.DC",
-      "cs.NE",
-      "cs.CE",
-      "cs.NI",
-      "cs.AR",
-      "stat.ML",
-      "stat.ME",
       "cs.GT",
+      "stat.ML",
       "cs.AI",
+      "cs.CE",
+      "cs.DC",
+      "cs.DS",
+      "cs.CR",
+      "math.OC",
+      "q-fin.ST",
+      "cs.NI",
+      "cs.CL",
+      "q-bio.NC",
+      "cs.AR",
+      "cs.MA",
+      "cs.LG",
+      "cs.RO",
+      "stat.ME",
       "cs.CV",
-      "q-fin.ST"
+      "cs.IR"
     ],
     "date_range": {
       "earliest": "2019-09-17",
-      "latest": "2026-08-14"
+      "latest": "2026-08-19"
     }
   },
   "top_10_papers": [
     {
-      "title": "DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding",
+      "title": "Scalable Geospatial Machine Learning for Power-Line Asset Risk: Integrating Remote Sensing for Lightning and Vegetation Risk Modelling",
       "authors": [
-        "Zewen Jin",
-        "Shen Fu",
-        "Zeping Duan",
-        "Shannon Wang",
-        "Weihao Wu",
-        "Chengjie Tang",
-        "Congkun Ai",
-        "Ping Gong",
-        "Zijian Dai",
-        "Youhui Bai",
-        "Cheng Li"
+        "Artur Sokolovsky",
+        "Bhavik Merai",
+        "Moe Jafari",
+        "Muen Chen"
       ],
-      "published": "2026-08-14",
-      "arxiv_id": "2608.14385v1",
-      "summary": "Mixture-of-Experts (MoE) models have been widely adopted in real-time interactive applications such as coding assistants, real-time audio-video interaction systems. To meet the extremely low response latency requirements of these scenarios, practitioners commonly employ small-batch decoding, under which MoE inference becomes memory-bound and is severely bottlenecked by expert weight loading. However, this bottleneck has received limited attention, and existing solutions such as post-training wei",
-      "pdf_url": "https://arxiv.org/pdf/2608.14385v1.pdf",
+      "published": "2026-08-19",
+      "arxiv_id": "2608.18611v1",
+      "summary": "Electric power networks are increasingly exposed to weather-sensitive failure mechanisms that require asset-level, spatially explicit risk modelling for effective intervention planning. This study contributes a modular, robust, and explainable probability-of-failure (PoF) modelling framework for utility asset management. The central contribution is an asset-level architecture that can be scaled to new environmental data sources and additional PoF types without reworking the underlying pipeline. ",
+      "pdf_url": "https://arxiv.org/pdf/2608.18611v1.pdf",
       "categories": "cs.LG"
     },
     {
-      "title": "FreeBalance: Pre-Routing Online Moe Load Balancing via Residual Workload Prediction",
+      "title": "Self-supervised In-context Operator Learning for Stochastic Mean-Field Control",
       "authors": [
-        "Pengfei Chen",
-        "Yize Wu",
-        "Shouxu Kuang",
-        "Ke Gao",
-        "Ling Li"
+        "Suyi Gao",
+        "Mo Zhou",
+        "Rongjie Lai"
       ],
-      "published": "2026-08-14",
-      "arxiv_id": "2608.14205v1",
-      "summary": "Load imbalance poses a major bottleneck to the efficiency of expert parallelism in distributed inference of Mixture-of-Experts (MoE) models. The most heavily loaded rank stalls global execution due to skewed routing distributions, directly increasing latency. While offline expert placement can alleviate persistent imbalance, practical multi-task serving workloads exhibit layer- and batch-dependent routing dynamics, making online load balancing indispensable. Existing approaches rely on routing s",
-      "pdf_url": "https://arxiv.org/pdf/2608.14205v1.pdf",
+      "published": "2026-08-18",
+      "arxiv_id": "2608.18282v1",
+      "summary": "Stochastic mean-field control (MFC) provides a fundamental framework for coordinating large populations of interacting agents under uncertainty, with a wide range of applications. Existing numerical and deep-learning methods solve one MFC problem instance at a time and must be re-optimized whenever the task changes. In this work, we formulate stochastic MFC as an operator-learning problem and develop, to the best of our knowledge, the first mesh-free, self-supervised neural operator for stochast",
+      "pdf_url": "https://arxiv.org/pdf/2608.18282v1.pdf",
+      "categories": "math.OC"
+    },
+    {
+      "title": "Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study",
+      "authors": [
+        "Shriniwas Ramesh Suram"
+      ],
+      "published": "2026-08-18",
+      "arxiv_id": "2608.18261v1",
+      "summary": "Serving a 235B-parameter Mixture-of-Experts (MoE) model on a single 8 GB GPU is bottlenecked not by compute but by memory bandwidth: decode must stream each token's active experts from whichever tier holds them, and on consumer hardware most experts sit on an SSD far slower than RAM. We quantify this bandwidth wall on Qwen3-235B (Q4_K_M, 134 GB): measured decode is 0.44 tok/s warm, matching a bytes-per-token / bandwidth model, while a batching scheme that should amortize one disk sweep instead c",
+      "pdf_url": "https://arxiv.org/pdf/2608.18261v1.pdf",
       "categories": "cs.AI"
     },
     {
-      "title": "MedMix: Specialization-Consistent Federated Sparse MoEs under Modality Heterogeneity",
+      "title": "Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See",
       "authors": [
-        "Adiba Orzikulova",
-        "Dong Min Kim",
-        "Jaehong Yoon",
-        "Sung-Ju Lee"
+        "Ayoub Kirouane",
+        "Christos Petrocheilos"
       ],
-      "published": "2026-08-14",
-      "arxiv_id": "2608.13911v1",
-      "summary": "Federated multimodal medical AI faces modality heterogeneity at both the client and sample levels: clients may systematically lack access to specific modality types, while individual records within the same client may contain different partial modality subsets. Sparse Mixture-of-Experts (MoE) architectures are a promising remedy for modality-adaptive computation, but their use in federated learning is fragile under cross-client modality heterogeneity, where locally learned routing policies can d",
-      "pdf_url": "https://arxiv.org/pdf/2608.13911v1.pdf",
+      "published": "2026-08-18",
+      "arxiv_id": "2608.17744v1",
+      "summary": "Take three frontier mixture-of-experts models (Alibaba, OpenAI, NVIDIA; 3.6-4.0B active parameters each) and fine-tune them to reason in a low-resource language. On accuracy benchmarks almost nothing happens, and the benchmark itself is noise at this scale: changing only the random seed moves the score by 7.7 points, more than every data and recipe effect we measured. That null is our first result. The real changes live where accuracy cannot see. Base models never think in Greek: 0 of 1,000 reas",
+      "pdf_url": "https://arxiv.org/pdf/2608.17744v1.pdf",
+      "categories": "cs.CL"
+    },
+    {
+      "title": "Mixture-of-Expert Blocks Contain Strong Hallucination Detection Signals",
+      "authors": [
+        "Joao Fonseca",
+        "Rodrigo Rodrigues",
+        "Paolo Romano"
+      ],
+      "published": "2026-08-18",
+      "arxiv_id": "2608.17687v1",
+      "summary": "Despite their widespread use, Large Language Models (LLMs) remain limited by a fundamental problem: the generation of plausible but false content, known as hallucinations. Most existing detection methods operate at the answer or sentence level, yet per-token detection is essential for localizing hallucinated spans and enabling fine-grained interventions. In this paper, we explore the use of the Mixture-of-Experts (MoE) paradigm to address this gap. In MoE architectures, a single forward pass act",
+      "pdf_url": "https://arxiv.org/pdf/2608.17687v1.pdf",
+      "categories": "cs.AI"
+    },
+    {
+      "title": "MoFE: A Novel Mixture-of-Experts Framework with Fourier Neural Operators for Cryptocurrency Forecasting",
+      "authors": [
+        "Bowen Liu",
+        "Mingming Sun"
+      ],
+      "published": "2026-08-18",
+      "arxiv_id": "2608.17342v1",
+      "summary": "Forecasting cryptocurrency prices remains a formidable challenge due to inherent non-stationarity, abrupt regime shifts, and multi-scale stochastic dependencies. Conventional deep learning models often struggle to capture complex underlying dynamics, frequently resulting in persistent phase-lagged predictions. To address these limitations, we propose MoFE, a novel deep learning framework that integrates Fourier Neural Operators (FNOs) within a Mixture-of-Experts (MoE) architecture. Rooted in the",
+      "pdf_url": "https://arxiv.org/pdf/2608.17342v1.pdf",
       "categories": "cs.LG"
     },
     {
-      "title": "Neural Quadratic Forms: A Unified Minimal Model for Sudden Learning and Scaling Laws",
+      "title": "Self-Routed Tensor Adapters for Parameter-Efficient Universal Visual Adaptation",
       "authors": [
-        "Liu Ziyin",
-        "Yizhou Xu",
-        "Tomaso Poggio",
-        "Isaac Chuang"
+        "Suraj Yadav"
       ],
-      "published": "2026-08-13",
-      "arxiv_id": "2608.13335v1",
-      "summary": "Neural networks trained by gradient descent on a smooth cost function can nevertheless learn in steps: the cost holds on long plateaus and then drops abruptly. Meanwhile, training losses instead follow smooth power laws. Variants of both behaviors occur in architectures with very different microscopic structures, which is the signature of a few relevant collective variables. We show that a symmetry fixes what those variables are: a network layer is a sum over interchangeable units, so relabeling",
-      "pdf_url": "https://arxiv.org/pdf/2608.13335v1.pdf",
+      "published": "2026-08-17",
+      "arxiv_id": "2608.16384v1",
+      "summary": "Universal visual representations require adaptation mechanisms that adapt across heterogeneous domains without fragmenting knowledge into domain-specific modules. Parameter-efficient fine-tuning adapts frozen visual foundation models efficiently, but standard low-rank adapters use a fixed subspace for all inputs, which can be restrictive when domains differ in style, background, and semantic context. MoE-based adapters improve specialization through multiple expert pathways, but often rely on ex",
+      "pdf_url": "https://arxiv.org/pdf/2608.16384v1.pdf",
+      "categories": "cs.CV"
+    },
+    {
+      "title": "Routing Divergence Is Not Evidence of Behavioral Influence in Same-Weight MoE Self-Distillation",
+      "authors": [
+        "Cedric Caruzzo",
+        "Donggeun Yoo",
+        "Tae Soo Kim"
+      ],
+      "published": "2026-08-16",
+      "arxiv_id": "2608.15787v1",
+      "summary": "Two Mixture-of-Experts (MoE) forward passes can share every weight yet route the same token through different experts. This creates a possible blind spot in same-weight self-distillation, where a demonstration-conditioned teacher supervises a query-only student. We study this mismatch in its single-step form, with frozen weights rather than as a proxy for a full training trajectory. An exact blockwise decomposition separates a routing term, which changes gates at fixed content, from a dense-like",
+      "pdf_url": "https://arxiv.org/pdf/2608.15787v1.pdf",
       "categories": "cs.LG"
     },
     {
-      "title": "Geometric and Behavioral Stratification in Transformer Residual Streams",
+      "title": "UniFed-VLM: Federated Instruction Tuning for Vision-Language Models with Multiple Heterogeneity",
       "authors": [
-        "Nelson Guda"
+        "Pengyu Wang",
+        "Baochen Xiong",
+        "Xiaoshan Yang",
+        "Yifan Xu",
+        "Zhang Qimeng",
+        "Haifeng Chen",
+        "Changsheng Xu"
       ],
-      "published": "2026-08-12",
-      "arxiv_id": "2608.12447v1",
-      "summary": "Trained transformer models develop privileged bases: coordinate axes whose statistics differ from the rest of the residual stream. But what kind of direction does such a basis select? We investigate the prediction direction, the unembedding direction of the token a model currently predicts, and find that it functions as a content-defined privileged anchor. Measured with respect to this anchor, residual-stream variation is geometrically and behaviorally stratified by proximity to the prediction.\n",
-      "pdf_url": "https://arxiv.org/pdf/2608.12447v1.pdf",
+      "published": "2026-08-16",
+      "arxiv_id": "2608.15516v1",
+      "summary": "Vision-Language Models (VLMs) have demonstrated strong performance in multimodal understanding and generation. However, fine-tuning of VLMs typically relies on centralized data, which raises privacy concerns in certain domains (e.g. healthcare). Federated Learning (FL) provides a natural solution by enabling model training without sharing raw data. However, applying FL to VLM instruction tuning is highly challenging. VLMs have substantial parameter scales, and in real-world scenarios, clients ex",
+      "pdf_url": "https://arxiv.org/pdf/2608.15516v1.pdf",
       "categories": "cs.LG"
     },
     {
-      "title": "Regime-Gated Residual Mixture-of-Experts for Cross-Sectional Volatility Forecasting",
+      "title": "Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference",
       "authors": [
-        "Junyi Ye",
-        "Gargi Vijay Borde"
+        "Amjad Saab"
       ],
-      "published": "2026-08-12",
-      "arxiv_id": "2608.12251v1",
-      "summary": "Financial volatility is regime dependent, yet incorporating regime information into neural networks can also destabilize training. This paper asks where such information should enter a neural cross-sectional volatility forecasting model. We study five-day realized-volatility forecasts for 1,027 U.S. equities using a rolling walk-forward evaluation framework in which information, model capacity, hyperparameter tuning, and random seeds are matched across architectures. We propose RG-ResMoE, a regi",
-      "pdf_url": "https://arxiv.org/pdf/2608.12251v1.pdf",
-      "categories": "q-fin.ST"
-    },
-    {
-      "title": "RoutePack: Expert Placement and Attention-Aware Data Packing for MoE Reinforcement Learning",
-      "authors": [
-        "Yibo Shen",
-        "Xudong Han",
-        "Xiaowei Zhu",
-        "Gen Li",
-        "Zhenxuan Pan"
-      ],
-      "published": "2026-08-12",
-      "arxiv_id": "2608.12146v1",
-      "summary": "Training Mixture-of-Experts (MoE) models for reinforcement learning (RL) couples two load-balancing problems: sequence composition determines dense attention work in each data-parallel microbatch, while token routing determines sparse expert work on expert-parallel ranks. Optimizing either alone can shift the bottleneck to the other. In MoE RL, rollout-time routing replay exposes every sample's sequence length and layer-wise expert demand before its training step. We present RoutePack, a hierarc",
-      "pdf_url": "https://arxiv.org/pdf/2608.12146v1.pdf",
-      "categories": "cs.DC"
-    },
-    {
-      "title": "TradingMoE: Routing the Right Experts in Evolving Markets",
-      "authors": [
-        "Chang Zhou",
-        "Xingtong Yu",
-        "Minbin Huang",
-        "Zhennan Wu",
-        "Yuan Fang",
-        "Hong Cheng",
-        "Xinming Zhang"
-      ],
-      "published": "2026-08-12",
-      "arxiv_id": "2608.11785v1",
-      "summary": "Large language models (LLMs) have shown strong potential for financial analysis and trading, but direct trading remains challenging because the predictive capabilities required can vary across assets, decision fields, and market conditions. Existing LLM-based trading systems either coordinate human-defined external experts or adopt conventional internal Mixture-of-Experts (MoE) routers that do not directly evaluate how individual experts contribute to trading decisions. Moreover, these routers r",
-      "pdf_url": "https://arxiv.org/pdf/2608.11785v1.pdf",
+      "published": "2026-08-15",
+      "arxiv_id": "2608.15383v1",
+      "summary": "Sparse mixture-of-experts (MoE) language models reduce arithmetic by activating only a small subset of experts per token, yet deployment still requires storing and moving the full expert bank. We present ExactMoE, an inference design that applies symmetric group-128 four-bit weight quantization only to routed experts, stores those experts in kernel-native MARLIN form in pinned host memory, and executes all selected experts through a configurable GPU-resident slot cache and fused grouped MoE kern",
+      "pdf_url": "https://arxiv.org/pdf/2608.15383v1.pdf",
       "categories": "cs.LG"
-    },
-    {
-      "title": "LoKiFormer: Locality-aware Attention with Decoupled Knowledge Memory for Efficient Large Language Model Pretraining",
-      "authors": [
-        "Qiuwu Chen",
-        "Zimo Liu",
-        "Yuchen Li",
-        "Ying Sun",
-        "Yifan Zhang",
-        "Zhijie Qiu",
-        "Zeng You",
-        "Ryan Dong",
-        "Simeng Ma",
-        "Yaofo Chen",
-        "Mingkui Tan"
-      ],
-      "published": "2026-08-12",
-      "arxiv_id": "2608.12419v1",
-      "summary": "Large language models (LLMs) have achieved remarkable breakthroughs across various applications. However, their architectures remain inefficient in pretraining due to two main limitations: (i) self-attention lacks an explicit inductive bias for locality, leading to redundant modeling of sequence-internal local information; (ii) mixture-of-experts (MoE) implicitly couples knowledge storage with computational pathways, hindering flexible access to sequence-external global knowledge. To overcome th",
-      "pdf_url": "https://arxiv.org/pdf/2608.12419v1.pdf",
-      "categories": "cs.LG"
-    },
-    {
-      "title": "APEX: Adaptive Expert Prefetching for Memory-Efficient Edge MoE Inference",
-      "authors": [
-        "Alish Kanani",
-        "Layan Badawi",
-        "Umit Y. Ogras"
-      ],
-      "published": "2026-08-12",
-      "arxiv_id": "2608.11688v1",
-      "summary": "Mixture-of-Experts (MoE) models are attractive for edge deployment because they provide high model capacity while activating only a small subset of parameters per token, improving compute efficiency. However, MoE inference at the edge is fundamentally limited by memory. Expert parameters are large and often reside in off-chip memory due to capacity, cost, and power constraints, putting expert loading to the critical path. We present APEX: Adaptive Expert Prefetching, a predictive resource manage",
-      "pdf_url": "https://arxiv.org/pdf/2608.11688v1.pdf",
-      "categories": "cs.AR"
     }
   ],
   "top_authors": [
     [
-      "Yize Wu",
-      3
-    ],
-    [
-      "Pengfei Chen",
+      "Shriniwas Ramesh Suram",
       2
     ],
     [
-      "Alish Kanani",
+      "Joao Fonseca",
       2
     ],
     [
-      "Layan Badawi",
+      "Rodrigo Rodrigues",
       2
     ],
     [
-      "Ali Janati",
+      "Cedric Caruzzo",
+      2
+    ],
+    [
+      "Donggeun Yoo",
       2
     ]
   ],
