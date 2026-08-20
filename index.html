@@ -66,7 +66,7 @@
         <div class="refresh-info" id="update-time">데이터 동기화 중...</div>
     </div>
     <div class="card">
-        <h2>📋 작업 상세 로그 (년·월·일·시·분·초 표시)</h2>
+        <h2>📋 작업 상세 로그 (연·월·일·시·분·초 표시)</h2>
         <ul id="log-list"><li class="log-empty">⏳ 실시간 로그 불러오는 중...</li></ul>
     </div>
     <div class="card">
@@ -126,35 +126,40 @@ function safeNumber(val, fallback = 0) {
     const n = Number(val);
     return isNaN(n) ? fallback : n;
 }
+
+// 공통 날짜/시간 포맷 변환 함수 (UTC → KST + YYYY-MM-DD HH:MM:SS)
+function formatKST(timeInput, fallbackStr) {
+    if (!timeInput) return fallbackStr;
+    const timeStr = String(timeInput);
+    try {
+        const d = new Date(timeStr);
+        if (!isNaN(d.getTime())) {
+            const kst = new Date(d.getTime() + 9 * 60 * 60 * 1000);
+            const yyyy = kst.getUTCFullYear();
+            const MM = String(kst.getUTCMonth() + 1).padStart(2, "0");
+            const dd = String(kst.getUTCDate()).padStart(2, "0");
+            const hh = String(kst.getUTCHours()).padStart(2, "0");
+            const mm = String(kst.getUTCMinutes()).padStart(2, "0");
+            const ss = String(kst.getUTCSeconds()).padStart(2, "0");
+            return `${yyyy}-${MM}-${dd} ${hh}:${mm}:${ss}`;
+        }
+    } catch (e) {}
+    return timeStr;
+}
+
 function parseLogItem(item, fallbackTime) {
     if (typeof item === "string") {
-        return { text: item, time: fallbackTime };
+        return { text: item, time: formatKST(item, fallbackTime) };
     }
     if (item && typeof item === "object") {
         const text = item.task || item.message || item.text || item.log || item.title || item.content || item.description || JSON.stringify(item);
         let time = item.end_time || item.start_time || item.time || item.timestamp || item.created_at || fallbackTime;
-        let timeStr = String(time);
-        
-        // ISO 형식 또는 날짜 포함 문자열을 YYYY-MM-DD HH:MM:SS (KST) 형식으로 변환
-        try {
-            const d = new Date(timeStr);
-            if (!isNaN(d.getTime())) {
-                const kst = new Date(d.getTime() + 9 * 60 * 60 * 1000);
-                const yyyy = kst.getUTCFullYear();
-                const MM = String(kst.getUTCMonth() + 1).padStart(2, "0");
-                const dd = String(kst.getUTCDate()).padStart(2, "0");
-                const hh = String(kst.getUTCHours()).padStart(2, "0");
-                const mm = String(kst.getUTCMinutes()).padStart(2, "0");
-                const ss = String(kst.getUTCSeconds()).padStart(2, "0");
-                timeStr = `${yyyy}-${MM}-${dd} ${hh}:${mm}:${ss}`;
-            }
-        } catch (e) {
-            // 변환 실패 시 원본 유지
-        }
+        let timeStr = formatKST(time, fallbackTime);
         return { text: text, time: timeStr };
     }
     return { text: String(item), time: fallbackTime };
 }
+
 function setLiveIndicator(state) {
     const el = document.getElementById("live-indicator");
     el.className = state;
@@ -253,9 +258,11 @@ async function loadJarvisData() {
         if (!Array.isArray(rawLogs) || rawLogs.length === 0) {
             rawLogs = FALLBACK.work.completed_today;
         }
-        const globalTs = workData.timestamp || workData.current_date || "2026-08-20 21:00:00";
+        
+        const rawGlobalTs = workData.timestamp || workData.current_date || "2026-08-20 21:00:00";
+        const formattedGlobalTs = formatKST(rawGlobalTs, "2026-08-20 21:00:00");
 
-        [...rawLogs].reverse().map(item => parseLogItem(item, globalTs)).forEach(log => {
+        [...rawLogs].reverse().map(item => parseLogItem(item, formattedGlobalTs)).forEach(log => {
             const li = document.createElement("li");
             li.innerHTML = `
                 <div class="log-content"><span>✅</span><span>${log.text}</span></div>
@@ -263,7 +270,7 @@ async function loadJarvisData() {
             `;
             logList.appendChild(li);
         });
-        document.getElementById("update-time").textContent = `마지막 갱신 : ${globalTs}`;
+        document.getElementById("update-time").textContent = `마지막 갱신 : ${formattedGlobalTs}`;
         setLiveIndicator(isFallback ? "offline" : "online");
     } catch (err) {
         console.error(err);
