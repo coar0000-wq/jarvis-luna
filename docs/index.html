@@ -258,23 +258,35 @@
 </div>
 
 <script>
-// docs/ 폴더에서 상위 루트의 data 폴더를 참조하도록 설정
-const DATA = "../data";
+// GitHub Pages 환경에서 경로 오류를 원천 차단하기 위한 다중 후보 경로 매핑
+const POSSIBLE_PATHS = [
+    "/jarvis-luna/data", // GitHub Pages 레포지토리 배포 경로
+    "../data",           // 상대 경로 (상위 폴더)
+    "./data"             // 상대 경로 (동일 폴더)
+];
 
-async function fetchJSON(file){
-    const response = await fetch(`${DATA}/${file}?t=${Date.now()}`);
-    if(!response.ok){
-        throw new Error(file + " load failed");
+async function fetchJSONWithFallback(file) {
+    let lastError;
+    for (const basePath of POSSIBLE_PATHS) {
+        try {
+            const url = `${basePath}/${file}?t=${Date.now()}`;
+            const response = await fetch(url);
+            if (response.ok) {
+                return await response.json();
+            }
+        } catch (e) {
+            lastError = e;
+        }
     }
-    return await response.json();
+    throw new Error(`${file} 로드 실패: 모든 경로 탐색 실패`);
 }
 
 async function loadJarvisData(){
     try{
         const [workData, phaseData, daisoData] = await Promise.all([
-            fetchJSON("jarvis_work_detailed_log.json"),
-            fetchJSON("phase26_progress.json"),
-            fetchJSON("daiso_business_plan.json")
+            fetchJSONWithFallback("jarvis_work_detailed_log.json"),
+            fetchJSONWithFallback("phase26_progress.json"),
+            fetchJSONWithFallback("daiso_business_plan.json")
         ]);
 
         document.getElementById("total-products").textContent =
