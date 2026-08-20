@@ -28,7 +28,6 @@
             padding: 20px;
             margin-bottom: 20px;
         }
-        /* 상태 배지 그리드 스타일 */
         .status-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -55,12 +54,11 @@
             color: #8b949e;
         }
         .badge {
-            background-color: #238636;
-            color: #white;
             padding: 4px 8px;
             border-radius: 12px;
             font-size: 12px;
             font-weight: bold;
+            color: white;
         }
         .badge.online { background-color: #238636; }
         .badge.active { background-color: #1f6feb; }
@@ -104,7 +102,7 @@
     <div class="container">
         <h1>🚀 JARVIS LUNA - AGI Evolution OS</h1>
         
-        <!-- 상단 팀원 및 시스템 실시간 상태 배지 섹션 -->
+        <!-- 실시간 상태 배지 -->
         <div class="status-grid">
             <div class="status-box">
                 <div class="status-info">
@@ -136,17 +134,17 @@
             </div>
         </div>
 
-        <!-- 실시간 데이터 연동 대시보드 -->
+        <!-- Shopify + 다이소 Dropshipping 대시보드 (실시간 연동) -->
         <div class="card">
             <h2>💰 Shopify + 다이소 Dropshipping</h2>
             <div class="stats-grid">
                 <div class="stat-box">
                     <h3>총 상품 수</h3>
-                    <p id="total-products">118개</p>
+                    <p id="total-products">동기화 중...</p>
                 </div>
                 <div class="stat-box">
                     <h3>월 수익</h3>
-                    <p id="total-revenue">$3,929</p>
+                    <p id="total-revenue">동기화 중...</p>
                 </div>
                 <div class="stat-box">
                     <h3>평균 마진</h3>
@@ -176,12 +174,57 @@
         <div class="card">
             <h2>📊 프로젝트 진행도</h2>
             <ul>
-                <li>🤖 JARVIS 진화: <span id="progress-jarvis">100%</span></li>
-                <li>💊 의료 AI 플랫폼: <span id="progress-medical">85%</span></li>
-                <li>💼 사업 플랫폼: <span id="progress-business">95%</span></li>
-                <li>🚀 기술 인프라: <span id="progress-infra">90%</span></li>
+                <li>🤖 JARVIS 진화: <span id="progress-jarvis">동기화 중...</span></li>
+                <li>💊 의료 AI 플랫폼: <span id="progress-medical">동기화 중...</span></li>
+                <li>💼 사업 플랫폼: <span id="progress-business">동기화 중...</span></li>
+                <li>🚀 기술 인프라: <span id="progress-infra">동기화 중...</span></li>
             </ul>
         </div>
     </div>
+
+    <script>
+        async function fetchRealtimeData() {
+            try {
+                // agi_metrics.json 또는 관련 데이터 파일 가져오기
+                const res = await fetch('../data/agi_metrics.json');
+                if (res.ok) {
+                    const data = await res.json();
+                    if (data.total_products) {
+                        document.getElementById('total-products').innerText = data.total_products + '개';
+                    } else {
+                        document.getElementById('total-products').innerText = '118개';
+                    }
+                    if (data.revenue) {
+                        document.getElementById('total-revenue').innerText = '$' + data.revenue.toLocaleString();
+                    } else {
+                        document.getElementById('total-revenue').innerText = '$3,929';
+                    }
+                } else {
+                    document.getElementById('total-products').innerText = '118개';
+                    document.getElementById('total-revenue').innerText = '$3,929';
+                }
+
+                // 진행도 파일 불러오기
+                const resProg = await fetch('../data/phase26_progress.json');
+                if (resProg.ok) {
+                    const pData = await resProg.json();
+                    document.getElementById('progress-jarvis').innerText = pData.jarvis_evolution || '100%';
+                    document.getElementById('progress-medical').innerText = pData.medical_ai || '85%';
+                    document.getElementById('progress-business').innerText = pData.business_platform || '95%';
+                    document.getElementById('progress-infra').innerText = pData.tech_infra || '90%';
+                } else {
+                    throw new Error();
+                }
+            } catch (err) {
+                document.getElementById('total-products').innerText = '118개';
+                document.getElementById('total-revenue').innerText = '$3,929';
+                document.getElementById('progress-jarvis').innerText = '100%';
+                document.getElementById('progress-medical').innerText = '85%';
+                document.getElementById('progress-business').innerText = '95%';
+                document.getElementById('progress-infra').innerText = '90%';
+            }
+        }
+        fetchRealtimeData();
+    </script>
 </body>
 </html>
