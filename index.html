@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MD Family JARVIS - Realtime AGI Evolution OS</title>
+    <title>MD Family JARVIS LUNA - Realtime AGI Evolution OS</title>
     <style>
         *{margin:0;padding:0;box-sizing:border-box;}
         body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:#0d1117;color:#c9d1d9;padding:20px;min-height:100vh;}
@@ -35,8 +35,10 @@
         .overall-box .label{color:#8b949e;font-size:13px;}
         .overall-box .value{color:#58a6ff;font-size:22px;font-weight:bold;}
         ul{list-style:none;}
-        li{padding:10px 0;border-bottom:1px solid #21262d;font-size:14px;display:flex;gap:8px;}
+        li{padding:10px 0;border-bottom:1px solid #21262d;font-size:14px;display:flex;gap:8px;align-items:flex-start;}
         li:last-child{border-bottom:none;}
+        .log-time{color:#8b949e;font-size:12px;min-width:70px;flex-shrink:0;}
+        .log-text{flex:1;}
         .log-empty{color:#8b949e;text-align:center;padding:16px 0;}
         .footer{text-align:center;color:#6e7681;font-size:12px;margin-top:30px;padding-bottom:20px;}
     </style>
@@ -97,26 +99,15 @@ const FALLBACK = {
     work: {
         timestamp: "2026-08-20 21:30:00",
         completed_today: [
-            "JARVIS LUNA AGI 코어 엔진 실시간 동기화 모듈 점검 완료",
-            "Shopify + 다이소 드랍쉬핑 자동화 파이프라인 신규 상품 연동",
-            "GitHub Actions 워크플로 빌드 최적화 및 에러 대응 완료",
-            "오시디언(Obsidian) 지식 베이스 지식 그래프 자동 백업 수행",
-            "의료 AI 데이터셋 전처리 배치 #48 완료"
+            { task: "JARVIS LUNA AGI 코어 엔진 실시간 동기화 모듈 점검 완료", end_time: "2026-08-20T21:25:00Z" },
+            { task: "Shopify + 다이소 드랍쉬핑 자동화 파이프라인 신규 상품 연동", end_time: "2026-08-20T21:18:00Z" },
+            { task: "GitHub Actions 워크플로 빌드 최적화 및 에러 대응 완료", end_time: "2026-08-20T21:10:00Z" },
+            { task: "오시디언(Obsidian) 지식 베이스 지식 그래프 자동 백업 수행", end_time: "2026-08-20T21:05:00Z" },
+            { task: "의료 AI 데이터셋 전처리 배치 #48 완료", end_time: "2026-08-20T20:55:00Z" }
         ]
     },
-    phase: {
-        jarvis: 92,
-        medical_ai: 87,
-        business: 90,
-        infrastructure: 95,
-        overall: 91
-    },
-    daiso: {
-        total_products: 130,
-        monthly_revenue: 5550,
-        average_margin: 38,
-        automation_rate: 96
-    }
+    phase: { jarvis: 92, medical_ai: 87, business: 90, infrastructure: 95, overall: 91 },
+    daiso: { total_products: 130, monthly_revenue: 5550, average_margin: 38, automation_rate: 96 }
 };
 
 function safeNumber(val, fallback = 0) {
@@ -126,12 +117,32 @@ function safeNumber(val, fallback = 0) {
     return isNaN(n) ? fallback : n;
 }
 
-function extractLogText(item) {
-    if (typeof item === "string") return item;
-    if (item && typeof item === "object") {
-        return item.task || item.message || item.text || item.log || item.title || item.content || item.description || JSON.stringify(item);
+function formatTime(isoStr) {
+    if (!isoStr) return "";
+    try {
+        const d = new Date(isoStr);
+        if (isNaN(d.getTime())) return "";
+        const kst = new Date(d.getTime() + 9 * 60 * 60 * 1000);
+        const hh = String(kst.getUTCHours()).padStart(2, "0");
+        const mm = String(kst.getUTCMinutes()).padStart(2, "0");
+        const ss = String(kst.getUTCSeconds()).padStart(2, "0");
+        return `${hh}:${mm}:${ss}`;
+    } catch (e) {
+        return "";
     }
-    return String(item);
+}
+
+function extractLogItem(item) {
+    if (typeof item === "string") {
+        return { text: item, time: "" };
+    }
+    if (item && typeof item === "object") {
+        const text = item.task || item.message || item.text || item.log || item.title ||
+                     item.content || item.description || JSON.stringify(item);
+        const time = formatTime(item.end_time || item.start_time || item.timestamp || item.time);
+        return { text, time };
+    }
+    return { text: String(item), time: "" };
 }
 
 function setLiveIndicator(state) {
@@ -153,12 +164,8 @@ function calcTotalProducts(daisoData) {
         const sum = daisoData.categories.reduce((acc, cat) => acc + safeNumber(cat.products, 0), 0);
         if (sum > 0) return sum;
     }
-    if (daisoData.total_products !== undefined) {
-        return safeNumber(daisoData.total_products, FALLBACK.daiso.total_products);
-    }
-    if (daisoData.overview?.products_count !== undefined) {
-        return safeNumber(daisoData.overview.products_count, FALLBACK.daiso.total_products);
-    }
+    if (daisoData.total_products !== undefined) return safeNumber(daisoData.total_products, FALLBACK.daiso.total_products);
+    if (daisoData.overview?.products_count !== undefined) return safeNumber(daisoData.overview.products_count, FALLBACK.daiso.total_products);
     return FALLBACK.daiso.total_products;
 }
 
@@ -179,12 +186,8 @@ function calcRevenue(daisoData) {
 }
 
 function calcMargin(daisoData) {
-    if (daisoData.average_margin !== undefined) {
-        return safeNumber(daisoData.average_margin, FALLBACK.daiso.average_margin);
-    }
-    if (daisoData.financial_targets?.average_margin) {
-        return safeNumber(daisoData.financial_targets.average_margin, FALLBACK.daiso.average_margin);
-    }
+    if (daisoData.average_margin !== undefined) return safeNumber(daisoData.average_margin, FALLBACK.daiso.average_margin);
+    if (daisoData.financial_targets?.average_margin) return safeNumber(daisoData.financial_targets.average_margin, FALLBACK.daiso.average_margin);
     if (Array.isArray(daisoData.categories) && daisoData.categories.length > 0) {
         const sum = daisoData.categories.reduce((acc, cat) => acc + safeNumber(cat.avg_margin, 0), 0);
         return Math.round(sum / daisoData.categories.length);
@@ -193,18 +196,9 @@ function calcMargin(daisoData) {
 }
 
 function calcAutoRate(daisoData) {
-    if (daisoData.automation_rate !== undefined) {
-        return safeNumber(daisoData.automation_rate, FALLBACK.daiso.automation_rate);
-    }
-    if (daisoData.overview?.automation_rate) {
-        return safeNumber(daisoData.overview.automation_rate, FALLBACK.daiso.automation_rate);
-    }
-    if (daisoData.automation_workflow?.automation_rate) {
-        return safeNumber(daisoData.automation_workflow.automation_rate, FALLBACK.daiso.automation_rate);
-    }
-    if (daisoData.progress_percentage !== undefined) {
-        return safeNumber(daisoData.progress_percentage, FALLBACK.daiso.automation_rate);
-    }
+    if (daisoData.automation_rate !== undefined) return safeNumber(daisoData.automation_rate, FALLBACK.daiso.automation_rate);
+    if (daisoData.overview?.automation_rate) return safeNumber(daisoData.overview.automation_rate, FALLBACK.daiso.automation_rate);
+    if (daisoData.automation_workflow?.automation_rate) return safeNumber(daisoData.automation_workflow.automation_rate, FALLBACK.daiso.automation_rate);
     return FALLBACK.daiso.automation_rate;
 }
 
@@ -236,40 +230,36 @@ async function loadJarvisData() {
         const daisoData = daisoRes || FALLBACK.daiso;
         const isFallback = !workRes || !phaseRes || !daisoRes;
 
-        const products = calcTotalProducts(daisoData);
-        const revenue  = calcRevenue(daisoData);
-        const margin   = calcMargin(daisoData);
-        const autoRate = calcAutoRate(daisoData);
-
-        document.getElementById("total-products").textContent = `${products}개`;
-        document.getElementById("total-revenue").textContent  = `$${revenue.toLocaleString()}`;
-        document.getElementById("avg-margin").textContent     = `${margin}%`;
-        document.getElementById("auto-rate").textContent      = `${autoRate}%`;
+        document.getElementById("total-products").textContent = `${calcTotalProducts(daisoData)}개`;
+        document.getElementById("total-revenue").textContent  = `$${calcRevenue(daisoData).toLocaleString()}`;
+        document.getElementById("avg-margin").textContent     = `${calcMargin(daisoData)}%`;
+        document.getElementById("auto-rate").textContent      = `${calcAutoRate(daisoData)}%`;
 
         updateProgress("jarvis", phaseData.jarvis ?? FALLBACK.phase.jarvis);
         updateProgress("medical", phaseData.medical_ai ?? FALLBACK.phase.medical_ai);
         updateProgress("business", phaseData.business ?? FALLBACK.phase.business);
         updateProgress("infra", phaseData.infrastructure ?? FALLBACK.phase.infrastructure);
-
-        const overall = safeNumber(
-            phaseData.overall ?? phaseData.progress_percentage,
-            FALLBACK.phase.overall
-        );
+        const overall = safeNumber(phaseData.overall ?? phaseData.progress_percentage, FALLBACK.phase.overall);
         document.getElementById("overall-progress").textContent = `${overall}%`;
 
         const logList = document.getElementById("log-list");
         logList.innerHTML = "";
-        let logs = [];
+        let items = [];
         const rawLogs = workData.completed_today || workData.completed_tasks;
         if (Array.isArray(rawLogs)) {
-            logs = rawLogs.map(extractLogText).filter(Boolean);
+            items = rawLogs.map(extractLogItem);
         }
-        if (logs.length === 0) {
-            logs = FALLBACK.work.completed_today;
+        if (items.length === 0) {
+            items = FALLBACK.work.completed_today.map(extractLogItem);
         }
-        [...logs].reverse().forEach(text => {
+
+        [...items].reverse().forEach(({ text, time }) => {
             const li = document.createElement("li");
-            li.innerHTML = `<span>✅</span><span>${text}</span>`;
+            if (time) {
+                li.innerHTML = `<span class="log-time">${time}</span><span class="log-text">✅ ${text}</span>`;
+            } else {
+                li.innerHTML = `<span class="log-text">✅ ${text}</span>`;
+            }
             logList.appendChild(li);
         });
 
