@@ -66,7 +66,7 @@
         <div class="refresh-info" id="update-time">데이터 동기화 중...</div>
     </div>
     <div class="card">
-        <h2>📋 작업 상세 로그 (연·월·일·시·분·초 표시)</h2>
+        <h2>📋 작업 상세 로그 (시·분·초 표시)</h2>
         <ul id="log-list"><li class="log-empty">⏳ 실시간 로그 불러오는 중...</li></ul>
     </div>
     <div class="card">
@@ -99,11 +99,11 @@ const FALLBACK = {
     work: {
         timestamp: "2026-08-20 21:45:00",
         completed_today: [
-            { text: "JARVIS LUNA AGI 코어 엔진 실시간 동기화 모듈 점검 완료", time: "2026-08-20 21:45:12" },
-            { text: "Shopify + 다이소 드랍쉬핑 자동화 파이프라인 신규 상품 연동", time: "2026-08-20 21:30:45" },
-            { text: "GitHub Actions 워크플로 빌드 최적화 및 에러 대응 완료", time: "2026-08-20 21:15:02" },
-            { text: "오시디언(Obsidian) 지식 베이스 지식 그래프 자동 백업 수행", time: "2026-08-20 20:50:33" },
-            { text: "의료 AI 데이터셋 전처리 배치 #48 완료", time: "2026-08-20 20:30:10" }
+            { text: "JARVIS LUNA AGI 코어 엔진 실시간 동기화 모듈 점검 완료", time: "21:45:12" },
+            { text: "Shopify + 다이소 드랍쉬핑 자동화 파이프라인 신규 상품 연동", time: "21:30:45" },
+            { text: "GitHub Actions 워크플로 빌드 최적화 및 에러 대응 완료", time: "21:15:02" },
+            { text: "오시디언(Obsidian) 지식 베이스 지식 그래프 자동 백업 수행", time: "20:50:33" },
+            { text: "의료 AI 데이터셋 전처리 배치 #48 완료", time: "20:30:10" }
         ]
     },
     phase: {
@@ -127,8 +127,33 @@ function safeNumber(val, fallback = 0) {
     return isNaN(n) ? fallback : n;
 }
 
-// 공통 날짜/시간 포맷 변환 함수 (UTC → KST + YYYY-MM-DD HH:MM:SS)
-function formatKST(timeInput, fallbackStr) {
+// 작업 로그 전용: 시·분·초(HH:MM:SS)만 추출하는 함수 (KST 기준)
+function formatTimeOnly(timeInput, fallbackStr) {
+    if (!timeInput) return fallbackStr;
+    const timeStr = String(timeInput);
+    try {
+        const d = new Date(timeStr);
+        if (!isNaN(d.getTime())) {
+            const kst = new Date(d.getTime() + 9 * 60 * 60 * 1000);
+            const hh = String(kst.getUTCHours()).padStart(2, "0");
+            const mm = String(kst.getUTCMinutes()).padStart(2, "0");
+            const ss = String(kst.getUTCSeconds()).padStart(2, "0");
+            return `${hh}:${mm}:${ss}`;
+        }
+        if (timeStr.includes("T")) {
+            const part = timeStr.split("T")[1];
+            if (part) return part.split(".")[0];
+        }
+        if (timeStr.includes(" ")) {
+            const part = timeStr.split(" ")[1];
+            if (part) return part;
+        }
+    } catch (e) {}
+    return timeStr;
+}
+
+// 상단 마지막 갱신용: 연·월·일·시·분·초 표시 함수
+function formatDateTime(timeInput, fallbackStr) {
     if (!timeInput) return fallbackStr;
     const timeStr = String(timeInput);
     try {
@@ -149,12 +174,12 @@ function formatKST(timeInput, fallbackStr) {
 
 function parseLogItem(item, fallbackTime) {
     if (typeof item === "string") {
-        return { text: item, time: formatKST(item, fallbackTime) };
+        return { text: item, time: formatTimeOnly(item, fallbackTime) };
     }
     if (item && typeof item === "object") {
         const text = item.task || item.message || item.text || item.log || item.title || item.content || item.description || JSON.stringify(item);
         let time = item.end_time || item.start_time || item.time || item.timestamp || item.created_at || fallbackTime;
-        let timeStr = formatKST(time, fallbackTime);
+        let timeStr = formatTimeOnly(time, fallbackTime);
         return { text: text, time: timeStr };
     }
     return { text: String(item), time: fallbackTime };
@@ -260,9 +285,9 @@ async function loadJarvisData() {
         }
         
         const rawGlobalTs = workData.timestamp || workData.current_date || "2026-08-20 21:00:00";
-        const formattedGlobalTs = formatKST(rawGlobalTs, "2026-08-20 21:00:00");
+        const formattedGlobalTs = formatDateTime(rawGlobalTs, "2026-08-20 21:00:00");
 
-        [...rawLogs].reverse().map(item => parseLogItem(item, formattedGlobalTs)).forEach(log => {
+        [...rawLogs].reverse().map(item => parseLogItem(item, "21:00:00")).forEach(log => {
             const li = document.createElement("li");
             li.innerHTML = `
                 <div class="log-content"><span>✅</span><span>${log.text}</span></div>
