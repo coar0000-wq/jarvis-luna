@@ -93,7 +93,7 @@
             color: #8b949e;
             text-align: right;
             margin-top: -10px;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
         ul {
             list-style-type: none;
@@ -124,7 +124,7 @@
                     <h4>GitHub Actions</h4>
                     <p>파이프라인 자동화</p>
                 </div>
-                <span class="badge active" id="gha-badge">활성</span>
+                <span class="badge active">활성</span>
             </div>
             <div class="status-box">
                 <div class="status-info">
@@ -142,7 +142,7 @@
             </div>
         </div>
 
-        <!-- Shopify + 다이소 Dropshipping (실시간 Fetch 연동) -->
+        <!-- Shopify + 다이소 Dropshipping (실시간 JSON Fetch 연동) -->
         <div class="card">
             <h2>💰 Shopify + 다이소 Dropshipping</h2>
             <div class="stats-grid">
@@ -156,20 +156,20 @@
                 </div>
                 <div class="stat-box">
                     <h3>평균 마진</h3>
-                    <p id="avg-margin">650%</p>
+                    <p id="avg-margin">동기화 중...</p>
                 </div>
                 <div class="stat-box">
                     <h3>자동화율</h3>
-                    <p id="auto-rate">95%</p>
+                    <p id="auto-rate">동기화 중...</p>
                 </div>
             </div>
             <div class="refresh-info" id="update-time">데이터 동기화 대기 중...</div>
         </div>
 
-        <!-- 작업 상세 로그 섹션 (실시간 Fetch 연동) -->
+        <!-- 작업 상세 로그 섹션 -->
         <div class="card">
             <h2>📋 작업 상세 로그</h2>
-            <ul id="log-container">
+            <ul id="log-list">
                 <li>⏳ 백그라운드 로그 불러오는 중...</li>
             </ul>
         </div>
@@ -187,64 +187,58 @@
     </div>
 
     <script>
-        async function fetchJarvisData() {
+        async function loadJarvisData() {
             try {
-                // 1. 메트릭 데이터 파일 fetch (총 상품 수 및 수익)
-                const resMetrics = await fetch('../data/agi_metrics.json?' + new Date().getTime());
-                if (resMetrics.ok) {
-                    const metrics = await resMetrics.json();
-                    if (metrics.total_products !== undefined) {
-                        document.getElementById('total-products').innerText = metrics.total_products + '개';
-                    }
-                    if (metrics.revenue !== undefined) {
-                        document.getElementById('total-revenue').innerText = '$' + metrics.revenue.toLocaleString();
-                    }
-                } else {
-                    document.getElementById('total-products').innerText = '118개';
-                    document.getElementById('total-revenue').innerText = '$3,929';
+                // 상위 폴더(../data/)에 있는 실제 자비스 데이터 파일들 호출
+                const [workRes, phaseRes, daisoRes] = await Promise.all([
+                    fetch('../data/jarvis_work_detailed_log.json?t=' + Date.now()),
+                    fetch('../data/phase26_progress.json?t=' + Date.now()),
+                    fetch('../data/agi_metrics.json?t=' + Date.now())
+                ]);
+
+                // 응답이 정상적이지 않을 경우 대안 파일(agi_metrics 등) 처리
+                const phase = phaseRes.ok ? await phaseRes.json() : {};
+                let daiso = {};
+                if (daisoRes.ok) {
+                    daiso = await daisoRes.json();
                 }
 
-                // 2. 진행도 파일 fetch
-                const resProgress = await fetch('../data/phase26_progress.json?' + new Date().getTime());
-                if (resProgress.ok) {
-                    const prog = await resProgress.json();
-                    if (prog.jarvis_evolution) document.getElementById('progress-jarvis').innerText = prog.jarvis_evolution;
-                    if (prog.medical_ai) document.getElementById('progress-medical').innerText = prog.medical_ai;
-                    if (prog.business_platform) document.getElementById('progress-business').innerText = prog.business_platform;
-                    if (prog.tech_infra) document.getElementById('progress-infra').innerText = prog.tech_infra;
-                }
+                // Shopify 통계 동기화 (기본값 제공)
+                document.getElementById('total-products').textContent = (daiso.total_products !== undefined ? daiso.total_products : 118) + '개';
+                document.getElementById('total-revenue').textContent = '$' + (daiso.revenue !== undefined ? daiso.revenue.toLocaleString() : '3,929');
+                document.getElementById('avg-margin').textContent = (daiso.average_margin !== undefined ? daiso.average_margin : 650) + '%';
+                document.getElementById('auto-rate').textContent = (daiso.automation_rate !== undefined ? daiso.automation_rate : 95) + '%';
 
-                // 3. 활동 로그 파일 fetch
-                const resLogs = await fetch('../data/activity_log.json?' + new Date().getTime());
-                if (resLogs.ok) {
-                    const logs = await resLogs.json();
-                    const logContainer = document.getElementById('log-container');
-                    if (Array.isArray(logs) && logs.length > 0) {
-                        logContainer.innerHTML = '';
-                        logs.slice(-5).reverse().forEach(log => {
-                            const li = document.createElement('li');
-                            li.innerHTML = `✅ ${log.message || log.action || '자동화 작업 완료'} <span style="color:#8b949e; font-size:12px;">(${log.time || ''})</span>`;
-                            logContainer.appendChild(li);
+                // 프로젝트 진행도 동기화
+                document.getElementById('progress-jarvis').textContent = (phase.jarvis_evolution || phase.jarvis || '100') + '%';
+                document.getElementById('progress-medical').textContent = (phase.medical_ai || '85') + '%';
+                document.getElementById('progress-business').textContent = (phase.business_platform || phase.business || '95') + '%';
+                document.getElementById('progress-infra').textContent = (phase.tech_infra || phase.infrastructure || '90') + '%';
+
+                // 작업 로그 동기화
+                if (workRes.ok) {
+                    const work = await workRes.json();
+                    const logList = document.getElementById('log-list');
+                    if (work.completed_today && Array.isArray(work.completed_today)) {
+                        logList.innerHTML = "";
+                        work.completed_today.forEach(item => {
+                            const li = document.createElement("li");
+                            li.textContent = `✅ ${item}`;
+                            logList.appendChild(li);
                         });
                     }
                 }
 
-                document.getElementById('update-time').innerText = '마지막 동기화 시각: ' + new Date().toLocaleTimeString();
-            } catch (error) {
-                // 네트워크 오류 시 기본 백업 수치 적용
-                document.getElementById('total-products').innerText = '118개';
-                document.getElementById('total-revenue').innerText = '$3,929';
-                document.getElementById('progress-jarvis').innerText = '100%';
-                document.getElementById('progress-medical').innerText = '85%';
-                document.getElementById('progress-business').innerText = '95%';
-                document.getElementById('progress-infra').innerText = '90%';
-                document.getElementById('update-time').innerText = '오프라인 폴백 모드 작동 중';
+                document.getElementById('update-time').textContent = '마지막 갱신: ' + new Date().toLocaleTimeString();
+
+            } catch (err) {
+                console.error("JARVIS 데이터 로드 실패", err);
+                document.getElementById('update-time').textContent = '오프라인 동기화 모드 작동 중';
             }
         }
 
-        // 초기 실행 및 30초마다 자동 폴링(실시간 갱신)
-        fetchJarvisData();
-        setInterval(fetchJarvisData, 30000);
+        loadJarvisData();
+        setInterval(loadJarvisData, 30000); // 30초마다 자동 갱신
     </script>
 </body>
 </html>
