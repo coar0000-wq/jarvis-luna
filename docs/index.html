@@ -258,106 +258,78 @@
 </div>
 
 <script>
-
-const DATA_PATH="./data";
+// 동일한 루트 디렉토리에 있는 data 폴더를 직접 참조
+const DATA = "./data";
 
 async function fetchJSON(file){
-
-    const response=await fetch(
-        `${DATA_PATH}/${file}?t=${Date.now()}`
-    );
-
+    const response = await fetch(`${DATA}/${file}?t=${Date.now()}`);
     if(!response.ok){
-        throw new Error(file+" load failed");
+        throw new Error(file + " load failed");
     }
-
     return await response.json();
 }
 
 async function loadJarvisData(){
-
     try{
-
-        const [workData,phaseData,daisoData]=await Promise.all([
-
+        const [workData, phaseData, daisoData] = await Promise.all([
             fetchJSON("jarvis_work_detailed_log.json"),
-
             fetchJSON("phase26_progress.json"),
-
             fetchJSON("daiso_business_plan.json")
-
         ]);
 
-        document.getElementById("total-products").textContent=
+        document.getElementById("total-products").textContent =
             `${daisoData.total_products ?? 0}개`;
 
-        document.getElementById("total-revenue").textContent=
+        document.getElementById("total-revenue").textContent =
             `$${Number(daisoData.monthly_revenue ?? 0).toLocaleString()}`;
 
-        document.getElementById("avg-margin").textContent=
+        document.getElementById("avg-margin").textContent =
             `${daisoData.average_margin ?? 0}%`;
 
-        document.getElementById("auto-rate").textContent=
+        document.getElementById("auto-rate").textContent =
             `${daisoData.automation_rate ?? 0}%`;
 
-        document.getElementById("progress-jarvis").textContent=
+        document.getElementById("progress-jarvis").textContent =
             `${phaseData.jarvis ?? 0}%`;
 
-        document.getElementById("progress-medical").textContent=
+        document.getElementById("progress-medical").textContent =
             `${phaseData.medical_ai ?? 0}%`;
 
-        document.getElementById("progress-business").textContent=
+        document.getElementById("progress-business").textContent =
             `${phaseData.business ?? 0}%`;
 
-        document.getElementById("progress-infra").textContent=
+        document.getElementById("progress-infra").textContent =
             `${phaseData.infrastructure ?? 0}%`;
 
-        const logList=document.getElementById("log-list");
-        logList.innerHTML="";
+        const logList = document.getElementById("log-list");
+        logList.innerHTML = "";
 
-        const logs=Array.isArray(workData.completed_today)
+        const logs = Array.isArray(workData.completed_today)
             ? [...workData.completed_today].reverse()
             : [];
 
-        if(logs.length===0){
-
-            logList.innerHTML="<li>📭 오늘 완료된 작업이 없습니다.</li>";
-
-        }else{
-
-            logs.forEach(log=>{
-
-                const li=document.createElement("li");
-                li.textContent="✅ "+log;
+        if(logs.length === 0){
+            logList.innerHTML = "<li>📭 오늘 완료된 작업이 없습니다.</li>";
+        } else {
+            logs.forEach(log => {
+                const li = document.createElement("li");
+                li.textContent = "✅ " + log;
                 logList.appendChild(li);
-
             });
-
         }
 
-        document.getElementById("update-time").textContent=
-            "마지막 GitHub 갱신 : "+
-            (workData.timestamp ??
-             new Date().toLocaleString("ko-KR"));
+        document.getElementById("update-time").textContent =
+            "마지막 갱신 : " + (workData.timestamp ?? new Date().toLocaleString("ko-KR"));
 
     }catch(error){
-
         console.error(error);
-
-        document.getElementById("update-time").textContent=
-            "🔴 GitHub Actions 연결 실패";
-
-        document.getElementById("log-list").innerHTML=
-            "<li>⚠️ data 폴더 또는 JSON 파일을 확인하세요.</li>";
-
+        document.getElementById("update-time").textContent = "🔴 데이터 동기화 실패";
+        document.getElementById("log-list").innerHTML = "<li>⚠️ data 폴더 경로 또는 JSON 파일을 확인하세요.</li>";
     }
-
 }
 
 loadJarvisData();
-
-setInterval(loadJarvisData,30000);
-
+setInterval(loadJarvisData, 30000);
 </script>
 
 </body>
