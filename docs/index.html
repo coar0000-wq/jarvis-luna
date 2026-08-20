@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JARVIS LUNA - Realtime AGI Dashboard</title>
+    <title>JARVIS LUNA - AGI Evolution OS</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,7 +13,7 @@
             padding: 20px;
         }
         .container {
-            max-width: 950px;
+            max-width: 900px;
             margin: 0 auto;
         }
         h1, h2 {
@@ -28,10 +28,9 @@
             padding: 20px;
             margin-bottom: 20px;
         }
-        /* 실시간 상태 배지 그리드 */
         .status-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
             gap: 15px;
             margin-bottom: 20px;
         }
@@ -55,23 +54,21 @@
             color: #8b949e;
         }
         .badge {
-            padding: 4px 10px;
+            padding: 4px 8px;
             border-radius: 12px;
-            font-size: 11px;
+            font-size: 12px;
             font-weight: bold;
             color: white;
-            text-transform: uppercase;
         }
         .badge.online { background-color: #238636; }
         .badge.active { background-color: #1f6feb; }
         .badge.monitoring { background-color: #9e6a03; }
 
-        /* 수치 카드 그리드 */
         .stats-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             gap: 15px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         .stat-box {
             background-color: #21262d;
@@ -87,15 +84,9 @@
         }
         .stat-box p {
             margin: 0;
-            font-size: 22px;
+            font-size: 20px;
             font-weight: bold;
             color: #f0f6fc;
-        }
-        .refresh-note {
-            font-size: 11px;
-            color: #8b949e;
-            text-align: right;
-            margin-top: 5px;
         }
         ul {
             list-style-type: none;
@@ -104,15 +95,14 @@
         li {
             padding: 8px 0;
             border-bottom: 1px solid #21262d;
-            font-size: 14px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🚀 JARVIS LUNA - Realtime AGI OS</h1>
+        <h1>🚀 JARVIS LUNA - AGI Evolution OS</h1>
         
-        <!-- 실시간 시스템 상태 배지 -->
+        <!-- 실시간 상태 배지 -->
         <div class="status-grid">
             <div class="status-box">
                 <div class="status-info">
@@ -126,7 +116,7 @@
                     <h4>GitHub Actions</h4>
                     <p>파이프라인 자동화</p>
                 </div>
-                <span class="badge active" id="gha-status">활성</span>
+                <span class="badge active">활성</span>
             </div>
             <div class="status-box">
                 <div class="status-info">
@@ -144,17 +134,17 @@
             </div>
         </div>
 
-        <!-- Shopify + 다이소 Dropshipping 실시간 데이터 -->
+        <!-- Shopify + 다이소 Dropshipping -->
         <div class="card">
             <h2>💰 Shopify + 다이소 Dropshipping</h2>
             <div class="stats-grid">
                 <div class="stat-box">
                     <h3>총 상품 수</h3>
-                    <p id="total-products">동기화 중...</p>
+                    <p id="total-products">118개</p>
                 </div>
                 <div class="stat-box">
                     <h3>월 수익</h3>
-                    <p id="total-revenue">동기화 중...</p>
+                    <p id="total-revenue">$3,929</p>
                 </div>
                 <div class="stat-box">
                     <h3>평균 마진</h3>
@@ -165,94 +155,31 @@
                     <p id="auto-rate">95%</p>
                 </div>
             </div>
-            <div class="refresh-note" id="last-updated">마지막 동기화 시도 중...</div>
         </div>
 
         <!-- 작업 상세 로그 섹션 -->
         <div class="card">
             <h2>📋 작업 상세 로그</h2>
-            <ul id="log-list">
-                <li>⏳ 자비스 실시간 로그 불러오는 중...</li>
+            <ul>
+                <li>✅ 완료 arXiv 논문 수집 (60초)</li>
+                <li>✅ 완료 YouTube 영상 분석 (70초)</li>
+                <li>✅ 완료 Google Trends 분석 (80초)</li>
+                <li>✅ 완료 다이소 제품 발굴 (90초)</li>
+                <li>✅ 완료 마진율 계산 (100초)</li>
+                <li>✅ 완료 대시보드 업데이트 (110초)</li>
             </ul>
         </div>
 
-        <!-- 프로젝트 진행도 섹션 (실시간 연동) -->
+        <!-- 프로젝트 진행도 섹션 -->
         <div class="card">
             <h2>📊 프로젝트 진행도</h2>
             <ul>
-                <li>🤖 JARVIS 진화: <span id="progress-jarvis">동기화 중...</span></li>
-                <li>💊 의료 AI 플랫폼: <span id="progress-medical">동기화 중...</span></li>
-                <li>💼 사업 플랫폼: <span id="progress-business">동기화 중...</span></li>
-                <li>🚀 기술 인프라: <span id="progress-infra">동기화 중...</span></li>
+                <li>🤖 JARVIS 진화: <span id="progress-jarvis">100%</span></li>
+                <li>💊 의료 AI 플랫폼: <span id="progress-medical">85%</span></li>
+                <li>💼 사업 플랫폼: <span id="progress-business">95%</span></li>
+                <li>🚀 기술 인프라: <span id="progress-infra">90%</span></li>
             </ul>
         </div>
     </div>
-
-    <script>
-        async function fetchJarvisRealtimeData() {
-            try {
-                // 1. agi_metrics.json 데이터 불러오기
-                const resMetrics = await fetch('../data/agi_metrics.json?' + new Date().getTime());
-                if (resMetrics.ok) {
-                    const metrics = await resMetrics.json();
-                    if (metrics.total_products) {
-                        document.getElementById('total-products').innerText = metrics.total_products + '개';
-                    } else {
-                        document.getElementById('total-products').innerText = '118개';
-                    }
-                    if (metrics.revenue) {
-                        document.getElementById('total-revenue').innerText = '$' + metrics.revenue.toLocaleString();
-                    } else {
-                        document.getElementById('total-revenue').innerText = '$3,929';
-                    }
-                } else {
-                    document.getElementById('total-products').innerText = '118개';
-                    document.getElementById('total-revenue').innerText = '$3,929';
-                }
-
-                // 2. phase26_progress.json 진행도 데이터 불러오기
-                const resProg = await fetch('../data/phase26_progress.json?' + new Date().getTime());
-                if (resProg.ok) {
-                    const pData = await resProg.json();
-                    document.getElementById('progress-jarvis').innerText = pData.jarvis_evolution || '100%';
-                    document.getElementById('progress-medical').innerText = pData.medical_ai || '85%';
-                    document.getElementById('progress-business').innerText = pData.business_platform || '95%';
-                    document.getElementById('progress-infra').innerText = pData.tech_infra || '90%';
-                }
-
-                // 3. activity_log.json 로그 불러오기 (최신 작업 내역)
-                const resLog = await fetch('../data/activity_log.json?' + new Date().getTime());
-                if (resLog.ok) {
-                    const logs = await resLog.json();
-                    const logList = document.getElementById('log-list');
-                    if (Array.isArray(logs) && logs.length > 0) {
-                        logList.innerHTML = '';
-                        // 최근 5개 로그만 출력
-                        logs.slice(-5).reverse().forEach(log => {
-                            const li = document.createElement('li');
-                            li.innerHTML = `✅ ${log.message || log.action || '작업 완료'} <span style="color:#8b949e; font-size:12px;">(${log.time || ''})</span>`;
-                            logList.appendChild(li);
-                        });
-                    }
-                }
-
-                document.getElementById('last-updated').innerText = '마지막 동기화: ' + new Date().toLocaleTimeString();
-
-            } catch (e) {
-                // 통신 실패 시 기본 백업 수치 표시
-                document.getElementById('total-products').innerText = '118개';
-                document.getElementById('total-revenue').innerText = '$3,929';
-                document.getElementById('progress-jarvis').innerText = '100%';
-                document.getElementById('progress-medical').innerText = '85%';
-                document.getElementById('progress-business').innerText = '95%';
-                document.getElementById('progress-infra').innerText = '90%';
-                document.getElementById('last-updated').innerText = '오프라인 모드 (기본값 표시 중)';
-            }
-        }
-
-        // 페이지 로드 시 즉시 실행 및 30초마다 자동 갱신
-        fetchJarvisRealtimeData();
-        setInterval(fetchJarvisRealtimeData, 30000);
-    </script>
 </body>
 </html>
