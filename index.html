@@ -1,123 +1,355 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JARVIS LUNA - AGI Evolution OS</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #0d1117;
-            color: #c9d1d9;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        h1, h2 {
-            color: #58a6ff;
-            border-bottom: 1px solid #30363d;
-            padding-bottom: 8px;
-        }
-        .card {
-            background-color: #161b22;
-            border: 1px solid #30363d;
-            border-radius: 6px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-        .stat-box {
-            background-color: #21262d;
-            border: 1px solid #30363d;
-            border-radius: 6px;
-            padding: 15px;
-            text-align: center;
-        }
-        .stat-box h3 {
-            margin: 0 0 10px 0;
-            font-size: 14px;
-            color: #8b949e;
-        }
-        .stat-box p {
-            margin: 0;
-            font-size: 20px;
-            font-weight: bold;
-            color: #f0f6fc;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            padding: 8px 0;
-            border-bottom: 1px solid #21262d;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JARVIS LUNA - Realtime AGI Evolution OS</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    background:#0d1117;
+    color:#c9d1d9;
+    padding:20px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+}
+
+h1{
+    color:#58a6ff;
+    margin-bottom:25px;
+    border-bottom:1px solid #30363d;
+    padding-bottom:12px;
+}
+
+h2{
+    color:#58a6ff;
+    margin-bottom:18px;
+    border-bottom:1px solid #30363d;
+    padding-bottom:8px;
+}
+
+.card{
+    background:#161b22;
+    border:1px solid #30363d;
+    border-radius:10px;
+    padding:20px;
+    margin-bottom:22px;
+}
+
+.status-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:15px;
+    margin-bottom:22px;
+}
+
+.status-box{
+    background:#21262d;
+    border:1px solid #30363d;
+    border-radius:8px;
+    padding:14px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.status-info h4{
+    color:#f0f6fc;
+    font-size:14px;
+    margin-bottom:4px;
+}
+
+.status-info p{
+    color:#8b949e;
+    font-size:12px;
+}
+
+.badge{
+    color:#fff;
+    font-size:11px;
+    font-weight:bold;
+    padding:5px 10px;
+    border-radius:30px;
+}
+
+.online{background:#238636;}
+.active{background:#1f6feb;}
+.monitoring{background:#9e6a03;}
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+    gap:15px;
+    margin-bottom:10px;
+}
+
+.stat-box{
+    background:#21262d;
+    border:1px solid #30363d;
+    border-radius:8px;
+    padding:18px;
+    text-align:center;
+}
+
+.stat-box h3{
+    color:#8b949e;
+    font-size:13px;
+    margin-bottom:10px;
+}
+
+.stat-box p{
+    color:#f0f6fc;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.refresh-info{
+    text-align:right;
+    color:#8b949e;
+    font-size:12px;
+    margin-top:10px;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    padding:10px 0;
+    border-bottom:1px solid #21262d;
+    font-size:14px;
+}
+
+.footer{
+    text-align:center;
+    color:#6e7681;
+    font-size:12px;
+    margin-top:30px;
+}
+</style>
 </head>
+
 <body>
-    <div class="container">
-        <h1>🚀 JARVIS LUNA - AGI Evolution OS</h1>
-        
-        <!-- 기존 핵심 대시보드 섹션 -->
-        <div class="card">
-            <h2>💰 Shopify + 다이소 Dropshipping</h2>
-            <div class="stats-grid">
-                <div class="stat-box">
-                    <h3>총 상품 수</h3>
-                    <p>118개</p>
-                </div>
-                <div class="stat-box">
-                    <h3>월 수익</h3>
-                    <p>$3,929</p>
-                </div>
-                <div class="stat-box">
-                    <h3>평균 마진</h3>
-                    <p>650%</p>
-                </div>
-                <div class="stat-box">
-                    <h3>자동화율</h3>
-                    <p>95%</p>
-                </div>
-            </div>
-        </div>
 
-        <!-- 새로 추가된 작업 상세 로그 섹션 -->
-        <div class="card">
-            <h2>📋 작업 상세 로그</h2>
-            <ul>
-                <li>✅ 완료 arXiv 논문 수집 (60초)</li>
-                <li>✅ 완료 YouTube 영상 분석 (70초)</li>
-                <li>✅ 완료 Google Trends 분석 (80초)</li>
-                <li>✅ 완료 다이소 제품 발굴 (90초)</li>
-                <li>✅ 완료 마진율 계산 (100초)</li>
-                <li>✅ 완료 대시보드 업데이트 (110초)</li>
-            </ul>
-        </div>
+<div class="container">
 
-        <!-- 새로 추가된 팀원 실시간 상태 섹션 -->
-        <div class="card">
-            <h2>👥 팀원 실시간 상태</h2>
-            <p>팀원 데이터 없음</p>
-        </div>
+<h1>🚀 JARVIS LUNA - AGI Evolution OS</h1>
 
-        <!-- 새로 추가된 프로젝트 진행도 섹션 -->
-        <div class="card">
-            <h2>📊 프로젝트 진행도</h2>
-            <ul>
-                <li>🤖 JARVIS 진화: 0%</li>
-                <li>💊 의료 AI 플랫폼: 0%</li>
-                <li>💼 사업 플랫폼: 0%</li>
-                <li>🚀 기술 인프라: 0%</li>
-            </ul>
-        </div>
-    </div>
+<div class="status-grid">
+
+<div class="status-box">
+<div class="status-info">
+<h4>도현 (CEO)</h4>
+<p>System Director</p>
+</div>
+<span class="badge monitoring">감시중</span>
+</div>
+
+<div class="status-box">
+<div class="status-info">
+<h4>GitHub Actions</h4>
+<p>Automation</p>
+</div>
+<span class="badge active">활성</span>
+</div>
+
+<div class="status-box">
+<div class="status-info">
+<h4>JARVIS AI</h4>
+<p>Core Engine</p>
+</div>
+<span class="badge active">자동화</span>
+</div>
+
+<div class="status-box">
+<div class="status-info">
+<h4>Obsidian</h4>
+<p>Knowledge Base</p>
+</div>
+<span class="badge online">온라인</span>
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>💰 Shopify + 다이소 Dropshipping</h2>
+
+<div class="stats-grid">
+
+<div class="stat-box">
+<h3>총 상품 수</h3>
+<p id="total-products">--</p>
+</div>
+
+<div class="stat-box">
+<h3>월 수익</h3>
+<p id="total-revenue">--</p>
+</div>
+
+<div class="stat-box">
+<h3>평균 마진</h3>
+<p id="avg-margin">--</p>
+</div>
+
+<div class="stat-box">
+<h3>자동화율</h3>
+<p id="auto-rate">--</p>
+</div>
+
+</div>
+
+<div class="refresh-info" id="update-time">
+데이터 동기화 중...
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>📋 작업 상세 로그</h2>
+
+<ul id="log-list">
+<li>⏳ GitHub Actions 로그 로딩 중...</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>📊 프로젝트 진행도</h2>
+
+<ul>
+
+<li>🤖 JARVIS 진화 :
+<strong id="progress-jarvis">--%</strong>
+</li>
+
+<li>💊 의료 AI 플랫폼 :
+<strong id="progress-medical">--%</strong>
+</li>
+
+<li>💼 사업 플랫폼 :
+<strong id="progress-business">--%</strong>
+</li>
+
+<li>🚀 기술 인프라 :
+<strong id="progress-infra">--%</strong>
+</li>
+
+</ul>
+
+</div>
+
+<div class="footer">
+JARVIS LUNA Realtime Dashboard · GitHub Pages
+</div>
+
+</div>
+
+<script>
+const DATA = "./data";
+
+async function fetchJSON(file){
+    const response = await fetch(`${DATA}/${file}?t=${Date.now()}`);
+
+    if(!response.ok){
+        throw new Error(file + " load failed");
+    }
+
+    return await response.json();
+}
+
+async function loadJarvisData(){
+
+    try{
+
+        const [workData, phaseData, daisoData] = await Promise.all([
+            fetchJSON("jarvis_work_detailed_log.json"),
+            fetchJSON("phase26_progress.json"),
+            fetchJSON("daiso_business_plan.json")
+        ]);
+
+        document.getElementById("total-products").textContent =
+            `${daisoData.total_products ?? 0}개`;
+
+        document.getElementById("total-revenue").textContent =
+            `$${Number(daisoData.monthly_revenue ?? 0).toLocaleString()}`;
+
+        document.getElementById("avg-margin").textContent =
+            `${daisoData.average_margin ?? 0}%`;
+
+        document.getElementById("auto-rate").textContent =
+            `${daisoData.automation_rate ?? 0}%`;
+
+        document.getElementById("progress-jarvis").textContent =
+            `${phaseData.jarvis ?? 0}%`;
+
+        document.getElementById("progress-medical").textContent =
+            `${phaseData.medical_ai ?? 0}%`;
+
+        document.getElementById("progress-business").textContent =
+            `${phaseData.business ?? 0}%`;
+
+        document.getElementById("progress-infra").textContent =
+            `${phaseData.infrastructure ?? 0}%`;
+
+        const logList = document.getElementById("log-list");
+        logList.innerHTML = "";
+
+        const logs = Array.isArray(workData.completed_today)
+            ? [...workData.completed_today].reverse()
+            : [];
+
+        if(logs.length === 0){
+
+            logList.innerHTML =
+                "<li>📭 오늘 완료된 작업이 없습니다.</li>";
+
+        }else{
+
+            logs.forEach(log=>{
+
+                const li = document.createElement("li");
+                li.textContent = "✅ " + log;
+                logList.appendChild(li);
+
+            });
+
+        }
+
+        document.getElementById("update-time").textContent =
+            "마지막 GitHub 갱신 : " +
+            (workData.timestamp ??
+            new Date().toLocaleString("ko-KR"));
+
+    }catch(error){
+
+        console.error(error);
+
+        document.getElementById("update-time").textContent =
+            "🔴 GitHub Actions 연결 실패";
+
+        document.getElementById("log-list").innerHTML =
+            "<li>⚠️ data 폴더 또는 JSON 파일을 확인하세요.</li>";
+
+    }
+
+}
+
+loadJarvisData();
+setInterval(loadJarvisData,30000);
+</script>
+
 </body>
 </html>
