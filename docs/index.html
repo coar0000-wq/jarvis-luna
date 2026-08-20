@@ -258,8 +258,8 @@
 </div>
 
 <script>
-// 동일한 루트 디렉토리에 있는 data 폴더를 직접 참조
-const DATA = "./data";
+// docs/ 폴더에서 상위 루트의 data 폴더를 참조하도록 설정
+const DATA = "../data";
 
 async function fetchJSON(file){
     const response = await fetch(`${DATA}/${file}?t=${Date.now()}`);
