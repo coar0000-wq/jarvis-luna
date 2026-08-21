@@ -32,6 +32,9 @@ jobs:
       - name: 아마존 상품 발굴
         run: python amazon_product_discovery.py
 
+      - name: 상품 발굴팀 대시보드 데이터 갱신
+        run: python update_product_team.py
+
       - name: 변경사항 커밋 및 푸시
         run: |
           git config --global user.email "action@github.com"
