@@ -33,27 +33,12 @@
         .hero-eyebrow { color: #246fca; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(1.1rem, 1.7vw, 1.45rem); font-weight: 700; letter-spacing: .04em; line-height: 1; margin-bottom: 9px; transform: rotate(-1deg); transform-origin: left center; }
         .adaptive-hero h1 { color: #12151a; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(3.25rem, 5.6vw, 5.5rem); font-weight: 600; line-height: .84; letter-spacing: -.035em; margin-bottom: 18px; transform: rotate(-1.2deg); transform-origin: left center; }
         .hero-subtitle { color: #4d5662; max-width: 390px; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(1.35rem, 2.15vw, 1.8rem); font-weight: 600; line-height: 1.18; letter-spacing: .01em; transform: rotate(-.5deg); transform-origin: left center; }
-        .hero-actions { display: grid; grid-template-columns: repeat(2, minmax(250px, 1fr)); gap: 24px; width: min(100%, 650px); margin-top: 24px; }
-        .hero-slider { --slider-value: 40%; min-width: 0; }
-        .hero-slider-label { display: flex; justify-content: space-between; align-items: center; margin: 0 4px 7px; color: #44576a; font-size: 11px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
-        .hero-slider-value { color: #246fca; font-size: 11px; font-variant-numeric: tabular-nums; opacity: .72; }
-        .hero-slider-track { position: relative; height: 72px; overflow: hidden; border: 1px solid rgba(130,174,214,.18); border-radius: 999px; background: linear-gradient(180deg, #111923 0%, #03070d 100%); box-shadow: inset 0 2px 8px rgba(0,0,0,.72), inset 0 1px 0 rgba(255,255,255,.08), 0 12px 24px rgba(0,0,0,.26); cursor: ew-resize; touch-action: none; user-select: none; }
-        .hero-slider-track::after { content: ''; position: absolute; inset: 2px; border-radius: inherit; pointer-events: none; box-shadow: inset 0 0 0 1px rgba(255,255,255,.035), inset 0 -10px 20px rgba(0,0,0,.25); }
-        .hero-slider-fill { position: absolute; inset: 0 auto 0 0; width: var(--slider-value); min-width: 12%; max-width: 100%; overflow: hidden; border-radius: 22% 72% 58% 34% / 52% 42% 60% 48%; background: radial-gradient(ellipse at 72% 40%, rgba(118,210,255,.96) 0 7%, transparent 35%), linear-gradient(105deg, #0d4d99 0%, #168be8 48%, #54c8ff 100%); box-shadow: inset 0 2px 0 rgba(255,255,255,.45), inset 0 -13px 18px rgba(0,35,91,.4), 0 0 16px rgba(37,155,255,.65), 0 8px 20px rgba(0,53,123,.4); transition: width 130ms cubic-bezier(.2,.9,.2,1), border-radius 220ms cubic-bezier(.2,1.4,.36,1); }
-        .hero-slider-fill::before { content: ''; position: absolute; inset: -18px 12% -22px 24%; border-radius: 48% 52% 42% 58%; background: radial-gradient(ellipse at 50% 20%, rgba(193,238,255,.82), rgba(79,183,255,.26) 42%, transparent 70%); filter: blur(5px); transform: scaleY(1.25) rotate(-2deg); opacity: .9; transition: transform 220ms cubic-bezier(.2,1.4,.36,1); }
-        .hero-slider-fill::after { content: ''; position: absolute; inset: 0; border-radius: inherit; background: linear-gradient(115deg, rgba(255,255,255,.28), transparent 24%, transparent 68%, rgba(255,255,255,.2)); mix-blend-mode: screen; pointer-events: none; }
-        .hero-slider-number { position: absolute; right: 18px; top: 50%; z-index: 1; transform: translateY(-50%); color: rgba(244,250,255,.94); font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(1.55rem, 3.2vw, 2.4rem); font-weight: 600; letter-spacing: -.02em; white-space: nowrap; text-shadow: 0 2px 9px rgba(0,0,0,.65); }
-        .hero-slider-thumb { position: absolute; inset: 0 auto 0 0; z-index: 3; width: 100%; height: 100%; padding: 0; border: 0; border-radius: inherit; color: transparent; background: transparent; cursor: grab; outline: none; }
-        .hero-slider-thumb:hover, .hero-slider-thumb:focus-visible { background: rgba(104,197,255,.035); }
-        .hero-slider-thumb:active, .hero-slider.is-dragging .hero-slider-thumb { cursor: grabbing; }
-        .hero-slider.is-dragging .hero-slider-fill { border-radius: 18% 84% 64% 30% / 44% 58% 54% 66%; }
-        .hero-slider.is-dragging .hero-slider-fill::before { transform: scaleY(1.62) scaleX(1.08) rotate(-4deg); }
-        .hero-slider.secondary .hero-slider-fill { background: radial-gradient(ellipse at 72% 40%, rgba(255,216,150,.96) 0 7%, transparent 35%), linear-gradient(105deg, #6a260b 0%, #d85a0b 48%, #ffb12b 100%); box-shadow: inset 0 2px 0 rgba(255,255,255,.42), inset 0 -13px 18px rgba(87,26,0,.42), 0 0 16px rgba(255,128,28,.6), 0 8px 20px rgba(103,37,0,.4); }
-        .hero-slider.secondary .hero-slider-fill::before { background: radial-gradient(ellipse at 50% 20%, rgba(255,236,185,.84), rgba(255,152,44,.3) 42%, transparent 70%); }
-        .hero-slider.secondary .hero-slider-number { color: rgba(255,247,232,.95); }
-        @media (prefers-reduced-motion: reduce) {
-            .hero-slider-fill, .hero-slider-fill::before { transition: none; }
-        }
+        .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+        .hero-action { color: #f7f8fa; background: #13171e; border: 1px solid #13171e; border-radius: 999px; padding: 10px 15px; font-size: 12px; font-weight: 700; text-decoration: none; transition: transform 160ms cubic-bezier(.23,1,.32,1), background 160ms cubic-bezier(.23,1,.32,1); }
+        .hero-action.secondary { color: #1b2029; background: transparent; border-color: #7d8490; }
+        .hero-action:hover { color: #fff; background: #246fca; border-color: #246fca; transform: translateY(-2px); }
+        .hero-action.secondary:hover { color: #fff; }
+        .hero-action:active { transform: scale(.97); }
         .hero-intelligence { margin-top: 25px; padding: 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
         .hero-intelligence h3 { color: #246fca; font-size: 10px; letter-spacing: .12em; margin-bottom: 8px; }
         .hero-intelligence p { color: #535b66; font-size: 12px; line-height: 1.7; }
@@ -182,10 +167,8 @@
             .hero-copy { max-width: none; }
             .hero-kpis { grid-column: 1; grid-template-columns: 1fr 1fr; padding: 6px 14px; }
             .hero-kpi strong { font-size: 18px; }
-            .hero-actions { grid-template-columns: 1fr; width: 100%; gap: 10px; }
-            .hero-actions { grid-template-columns: 1fr; gap: 18px; width: 100%; }
-            .hero-slider-track { height: 64px; }
-            .hero-slider-number { font-size: 1.75rem; right: 14px; }
+            .hero-actions { gap: 8px; }
+            .hero-action { padding: 9px 12px; font-size: 11px; }
         }
     </style>
 </head>
@@ -207,21 +190,9 @@
                 <div class="hero-copy">
                     <h1>MD Family<br>Adaptive Intelligence</h1>
                     <p class="hero-subtitle">Knowledge graph, product discovery, and strategy analysis in one evolving system.</p>
-                    <div class="hero-actions" aria-label="Hero 진행 상태 슬라이더">
-                        <div class="hero-slider" data-slider="project" data-value="40" data-target="project-progress">
-                            <div class="hero-slider-label"><span>프로젝트 진행도</span><span class="hero-slider-value">40%</span></div>
-                            <div class="hero-slider-track" role="presentation">
-                                <div class="hero-slider-fill"><span class="hero-slider-number">Thirty %</span></div>
-                                <button class="hero-slider-thumb" type="button" role="slider" aria-label="프로젝트 진행도 조절" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40" aria-valuetext="프로젝트 진행도 40%"></button>
-                            </div>
-                        </div>
-                        <div class="hero-slider secondary" data-slider="strategy" data-value="40" data-target="strategy-report-card">
-                            <div class="hero-slider-label"><span>전략 분석 보기</span><span class="hero-slider-value">40%</span></div>
-                            <div class="hero-slider-track" role="presentation">
-                                <div class="hero-slider-fill"><span class="hero-slider-number">Thirty %</span></div>
-                                <button class="hero-slider-thumb" type="button" role="slider" aria-label="전략 분석 진행 상태 조절" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40" aria-valuetext="전략 분석 진행 상태 40%"></button>
-                            </div>
-                        </div>
+                    <div class="hero-actions" aria-label="Hero 바로가기">
+                        <a class="hero-action" href="#project-progress">프로젝트 진행도</a>
+                        <a class="hero-action secondary" href="#strategy-report-card">전략 분석 보기</a>
                     </div>
                     <div class="hero-intelligence hero-intelligence--desktop">
                         <h3>TODAY'S INTELLIGENCE</h3>
