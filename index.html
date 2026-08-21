@@ -217,7 +217,7 @@
         async function loadRealtimeData() {
             try {
                 // 1. Executive KPI
-                const kpiRes = await fetch('data/executive_kpi.json');
+                const kpiRes = await fetch(`data/executive_kpi.json?ts=${Date.now()}`, { cache: 'no-store' });
                 if (kpiRes.ok) {
                     const data = await kpiRes.json();
                     const todaySales = Number(data.today_sales);
