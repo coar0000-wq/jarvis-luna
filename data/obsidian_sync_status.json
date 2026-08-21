@@ -3,14 +3,14 @@
   "mode": "local_bidirectional_git_sync",
   "connected": true,
   "state": "connected",
-  "last_checked_at": "2026-08-21T12:47:51Z",
-  "last_successful_sync_at": "2026-08-21T12:47:51Z",
+  "last_checked_at": "2026-08-21T13:53:57Z",
+  "last_successful_sync_at": "2026-08-21T13:53:57Z",
   "workspace": "obsidian/JARVIS_LUNA",
   "summary": {
-    "repo_to_vault": 0,
-    "vault_to_repo": 1,
+    "repo_to_vault": 2,
+    "vault_to_repo": 0,
     "conflicts": 0,
-    "unchanged": 0
+    "unchanged": 1
   },
   "error": null
 }
