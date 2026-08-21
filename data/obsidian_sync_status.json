@@ -1,16 +1,16 @@
 {
   "service": "obsidian",
   "mode": "local_bidirectional_git_sync",
-  "connected": false,
-  "state": "unconfigured",
-  "last_checked_at": null,
-  "last_successful_sync_at": null,
+  "connected": true,
+  "state": "connected",
+  "last_checked_at": "2026-08-21T12:47:51Z",
+  "last_successful_sync_at": "2026-08-21T12:47:51Z",
   "workspace": "obsidian/JARVIS_LUNA",
   "summary": {
     "repo_to_vault": 0,
-    "vault_to_repo": 0,
+    "vault_to_repo": 1,
     "conflicts": 0,
     "unchanged": 0
   },
-  "error": "실제 Obsidian 볼트 경로와 로컬 실행 설정이 아직 등록되지 않았습니다."
+  "error": null
 }
