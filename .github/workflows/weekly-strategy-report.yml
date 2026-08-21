@@ -2,75 +2,78 @@ name: 🎯 JARVIS 5일 주기 전략분석 PPT 발송
 
 on:
   schedule:
-    - cron: '0 6 */5 * *'  # 매 5일마다 06:00 UTC (한국 시간 15:00)
+    # 매월 1·6·11·16·21·26·31일 06:00 UTC (= 한국 시간 15:00)
+    - cron: '0 6 */5 * *'
   workflow_dispatch:
 
 jobs:
   strategy-report:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    # strategy_report_log.json의 변경을 main에 반영할 때 필요합니다.
     permissions:
-      contents: read
+      contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
       - name: Install dependencies
         run: |
-          python -m pip install pptx reportlab pillow requests
+          python -m pip install --upgrade pip
+          python -m pip install "python-pptx>=1.0.0,<2.0.0"
 
       - name: 📊 Collect 5-Day Data
         run: |
           python - << 'EOF'
-          import json
           from datetime import datetime
-          data = {
-              "timestamp": datetime.utcnow().isoformat() + "Z",
-              "collection_date": datetime.utcnow().strftime("%Y-%m-%d"),
-              "period": "Last 5 Days"
-          }
-          print("✅ 데이터 수집 완료")
+          print('✅ 데이터 수집 완료:', datetime.utcnow().strftime('%Y-%m-%d'))
           EOF
 
-      - name: 🎯 Generate Strategy Analysis
-        run: |
-          python generate_strategy_report_ppt.py
+      - name: 🎯 Generate Strategy Analysis and Send Email
+        run: python generate_strategy_report_ppt.py
         env:
           SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
 
-      - name: 📧 Send Email Report
+      - name: 🔎 Verify generated report
         run: |
           python - << 'EOF'
           from pathlib import Path
-          import json
-          from datetime import datetime
 
-          ppt_files = list(Path("data").glob("strategy_report_*.pptx"))
-          json_files = list(Path("data").glob("strategy_report_*.json"))
+          ppt_files = list(Path('data').glob('strategy_report_*.pptx'))
+          json_files = list(Path('data').glob('strategy_report_*.json'))
 
-          if ppt_files or json_files:
-              print("✅ 전략분석 보고서 생성 완료")
-              print(f"📄 PPT 파일: {len(ppt_files)}개")
-              print(f"📊 분석 데이터: {len(json_files)}개")
-              print("📧 이메일 발송 대상: coar0000@naver.com")
-          else:
-              print("⚠️ 보고서 파일 없음")
+          print(f'📄 PPTX 파일: {len(ppt_files)}개')
+          print(f'📊 JSON 분석 파일: {len(json_files)}개')
+
+          if not ppt_files and not json_files:
+              raise SystemExit('❌ 보고서 파일이 생성되지 않았습니다.')
+
+          if not ppt_files:
+              print('⚠️ 현재 Python 스크립트는 JSON만 생성합니다. PPTX 첨부는 생성 코드 수정 후 가능합니다.')
           EOF
 
-      - name: 📝 Update Report Log
+      - name: 📝 Update report log
         run: |
           git config --local user.email "jarvis@github.com"
           git config --local user.name "JARVIS Automation"
           git add data/strategy_report_log.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "📊 5일 전략분석 보고서 생성: $(date -u +'%Y-%m-%d')" && git push origin main) || true
 
-      - name: ✨ Report Complete
+          if git diff --cached --quiet; then
+            echo "변경된 보고서 로그가 없습니다."
+          else
+            git commit -m "📊 5일 전략분석 보고서 생성: $(date -u +'%Y-%m-%d')"
+            git push origin HEAD:main
+          fi
+
+      - name: ✨ Report complete
         run: |
           echo "🎉 JARVIS 5일 주기 전략분석 완료!"
-          echo "📧 이메일 발송: coar0000@naver.com"
-          echo "⏭️ 다음 보고서: 5일 후"
+          echo "📧 수신자: coar0000@naver.com"
