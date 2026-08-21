@@ -1,6 +1,1 @@
-﻿{
-  "core_status": "AGI Evolution OS Active",
-  "automation_rate": 96,
-  "today_summary": "모든 파이프라인이 정상적으로 실시간 동기화 및 자동화 모드로 실행 중입니다.",
-  "timestamp": "2026-08-21 14:30:00"
-}
+﻿{"logs":[{"category":"상품","text":"다이소 신상품 자동 수집","time":"14:03"},{"category":"분석","text":"미국 판매 적합도 계산 완료","time":"14:08"},{"category":"Shopify","text":"상품 페이지 생성","time":"14:12"},{"category":"재무","text":"예상 순이익 계산","time":"14:15"}]}
