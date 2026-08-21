@@ -1,37 +1,52 @@
 {
   "status": "✅ 성공",
-  "timestamp": "2026-08-20T23:33:49.629660",
+  "timestamp": "2026-08-21T03:11:50.283262",
   "papers_collected": 90,
   "summary": {
     "total": 90,
-    "unique_authors": 336,
+    "unique_authors": 335,
     "categories": [
-      "q-fin.ST",
-      "cs.CV",
-      "cs.AR",
-      "cs.MA",
-      "q-bio.NC",
       "cs.CL",
-      "cs.LG",
-      "cs.CE",
-      "cs.DS",
-      "cs.NI",
       "cs.AI",
-      "cs.RO",
       "cs.GT",
-      "stat.ML",
-      "cs.DC",
-      "math.OC",
-      "cs.CR",
+      "cs.DS",
+      "cs.MA",
+      "cs.RO",
       "stat.ME",
-      "cs.IR"
+      "math.OC",
+      "cs.NI",
+      "cs.AR",
+      "cs.LG",
+      "q-bio.NC",
+      "cs.CR",
+      "stat.ML",
+      "cs.CE",
+      "q-fin.ST",
+      "cs.IR",
+      "cs.CV",
+      "cs.DC"
     ],
     "date_range": {
       "earliest": "2019-09-17",
-      "latest": "2026-08-19"
+      "latest": "2026-08-20"
     }
   },
   "top_10_papers": [
+    {
+      "title": "Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts",
+      "authors": [
+        "Nayeon Kim",
+        "Hojin Lee",
+        "Yunju Bak",
+        "Jaesun Park",
+        "Boseop Kim"
+      ],
+      "published": "2026-08-20",
+      "arxiv_id": "2608.20061v1",
+      "summary": "Mixture-of-Experts (MoE) architectures significantly expand model capacity without a proportional increase in computational cost. However, optimizing their hyperparameters---particularly the learning rate---at extreme scales of both model size and token budget via sweeping remains computationally prohibitive. In this paper, we propose a compute-efficient, two-step hyperparameter transfer framework that estimates optimal learning rates for training large MoE models by transferring them across sca",
+      "pdf_url": "https://arxiv.org/pdf/2608.20061v1.pdf",
+      "categories": "cs.LG"
+    },
     {
       "title": "Scalable Geospatial Machine Learning for Power-Line Asset Risk: Integrating Remote Sensing for Lightning and Vegetation Risk Modelling",
       "authors": [
@@ -146,17 +161,6 @@
       "arxiv_id": "2608.15516v1",
       "summary": "Vision-Language Models (VLMs) have demonstrated strong performance in multimodal understanding and generation. However, fine-tuning of VLMs typically relies on centralized data, which raises privacy concerns in certain domains (e.g. healthcare). Federated Learning (FL) provides a natural solution by enabling model training without sharing raw data. However, applying FL to VLM instruction tuning is highly challenging. VLMs have substantial parameter scales, and in real-world scenarios, clients ex",
       "pdf_url": "https://arxiv.org/pdf/2608.15516v1.pdf",
-      "categories": "cs.LG"
-    },
-    {
-      "title": "Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference",
-      "authors": [
-        "Amjad Saab"
-      ],
-      "published": "2026-08-15",
-      "arxiv_id": "2608.15383v1",
-      "summary": "Sparse mixture-of-experts (MoE) language models reduce arithmetic by activating only a small subset of experts per token, yet deployment still requires storing and moving the full expert bank. We present ExactMoE, an inference design that applies symmetric group-128 four-bit weight quantization only to routed experts, stores those experts in kernel-native MARLIN form in pinned host memory, and executes all selected experts through a configurable GPU-resident slot cache and fused grouped MoE kern",
-      "pdf_url": "https://arxiv.org/pdf/2608.15383v1.pdf",
       "categories": "cs.LG"
     }
   ],

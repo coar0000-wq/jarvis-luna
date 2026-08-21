@@ -1,5 +1,20 @@
 [
   {
+    "title": "Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts",
+    "authors": [
+      "Nayeon Kim",
+      "Hojin Lee",
+      "Yunju Bak",
+      "Jaesun Park",
+      "Boseop Kim"
+    ],
+    "published": "2026-08-20",
+    "arxiv_id": "2608.20061v1",
+    "summary": "Mixture-of-Experts (MoE) architectures significantly expand model capacity without a proportional increase in computational cost. However, optimizing their hyperparameters---particularly the learning rate---at extreme scales of both model size and token budget via sweeping remains computationally prohibitive. In this paper, we propose a compute-efficient, two-step hyperparameter transfer framework that estimates optimal learning rates for training large MoE models by transferring them across sca",
+    "pdf_url": "https://arxiv.org/pdf/2608.20061v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
     "title": "Scalable Geospatial Machine Learning for Power-Line Asset Risk: Integrating Remote Sensing for Lightning and Vegetation Risk Modelling",
     "authors": [
       "Artur Sokolovsky",
@@ -237,9 +252,9 @@
       "Nelson Guda"
     ],
     "published": "2026-08-12",
-    "arxiv_id": "2608.12447v2",
+    "arxiv_id": "2608.12447v3",
     "summary": "Trained transformer models develop privileged bases: coordinate axes whose statistics differ from the rest of the residual stream. But what kind of direction does such a basis select? We investigate the prediction direction, the unembedding direction of the token a model currently predicts, and find that it functions as a content-defined privileged anchor. Measured with respect to this anchor, residual-stream variation is geometrically and behaviorally stratified by proximity to the prediction.\n",
-    "pdf_url": "https://arxiv.org/pdf/2608.12447v2.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.12447v3.pdf",
     "categories": "cs.LG"
   },
   {
@@ -411,14 +426,92 @@
     "categories": "cs.LG"
   },
   {
-    "title": "Deep Analog: Open-Set Film Emulation with Reference-Conditioned 3D LUTs",
+    "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
     "authors": [
-      "Yitong Mu"
+      "Adam Fisch",
+      "Shubhendu Trivedi",
+      "Fantine Huot",
+      "William W. Cohen",
+      "Michael Kaisers",
+      "Mirella Lapata",
+      "Kate Larson",
+      "Jacob Eisenstein"
     ],
-    "published": "2026-08-10",
-    "arxiv_id": "2608.14702v1",
-    "summary": "Film emulation reproduces the look of an analog film stock on a new digital photograph. We target its open-set form -- matching any reference film frame from a single example -- with a 3D lookup table (LUT) predicted from that reference. Real-time image enhancement predicts per-image weights over a fixed bank of 3D LUTs and blends them. We show this is a gated mixture of experts and inherits its failure: trained end-to-end against reconstruction, the gate collapses onto a single expert, so a ban",
-    "pdf_url": "https://arxiv.org/pdf/2608.14702v1.pdf",
+    "published": "2026-08-20",
+    "arxiv_id": "2608.20316v1",
+    "summary": "Heterogeneous AI systems composed of multiple models, architectures, harnesses, or inference-time settings can improve quality and efficiency by routing queries to the specialist who can answer most effectively at the lowest cost. Routing requires estimating each specialist's expected return, but this value estimation has a cost. Cheap estimators (e.g., embedding-based predictors) are fast but noisy, while accurate estimators (e.g., fine-tuned models with access to retrieval results or partial r",
+    "pdf_url": "https://arxiv.org/pdf/2608.20316v1.pdf",
+    "categories": "cs.AI"
+  },
+  {
+    "title": "Learning When to Think: Adaptive Reasoning for Test-Time Compute Allocation",
+    "authors": [
+      "Gijs Kassenaar",
+      "Zhao Yang",
+      "Vincent François-Lavet"
+    ],
+    "published": "2026-08-20",
+    "arxiv_id": "2608.20256v1",
+    "summary": "Reasoning language models trained with reinforcement learning typically operate under a fixed token budget rather than an explicitly adaptive one, which can lead to over-computation on easy problems and insufficient computation on difficult ones. We study whether a model can learn to allocate its own reasoning effort by choosing, as the first token of its response, one of three modes: \\textsc{NoThink} (answer as quickly as possible), \\textsc{Short} (brief reasoning), or \\textsc{Long} (extended r",
+    "pdf_url": "https://arxiv.org/pdf/2608.20256v1.pdf",
+    "categories": "cs.AI"
+  },
+  {
+    "title": "Contrastive Mixed Prompt Learning for Incomplete Multimodal Sentiment Analysis with Unseen Modality Combination",
+    "authors": [
+      "Kaixin Xu",
+      "NaiJin Liu",
+      "Yulin Kang",
+      "Tangyue Jin",
+      "Zixuan Yu",
+      "Wenxi Zhao",
+      "Yibei Liu",
+      "Qianle Zhang",
+      "Yangyang Wu",
+      "Mengying Zhu",
+      "Meng Xi"
+    ],
+    "published": "2026-08-20",
+    "arxiv_id": "2608.20019v1",
+    "summary": "Incomplete multimodal sentiment analysis has garnered significant attention in recent years. Existing approaches typically assume that data is missing at random or are designed specifically for certain missing patterns, ignoring the modality combination inconsistency between training and testing phases. However, in real-world scenarios, the testing phase often encounters modal combinations that were not present during the training phase, which leads to insufficient generalization capabilities an",
+    "pdf_url": "https://arxiv.org/pdf/2608.20019v1.pdf",
+    "categories": "cs.AI"
+  },
+  {
+    "title": "Optimal Skill Selection for LLM Agents with Provable Bicriteria Guarantees",
+    "authors": [
+      "Yu Chen",
+      "Ruishuo Chen",
+      "Xun Wang",
+      "Zhuoran Li",
+      "Longbo Huang"
+    ],
+    "published": "2026-08-20",
+    "arxiv_id": "2608.19993v1",
+    "summary": "Loading reusable skill documents into a bounded context window is now the primary way large language model (LLM) agents acquire task-specific capabilities, which makes skill selection a first-order determinant of task performance and token cost. Yet current agents score skills independently by semantic relevance and assemble the set by top-$k$ or greedy packing, with no quality guarantee or cost awareness on the selected set. As a result, redundant or poorly chosen skills waste scarce context to",
+    "pdf_url": "https://arxiv.org/pdf/2608.19993v1.pdf",
+    "categories": "cs.AI"
+  },
+  {
+    "title": "Credit Without Ground Truth: Auditing Step-Level Credit Assignment in LLM Agents Against Executed Replay",
+    "authors": [
+      "Haiyue Zhang"
+    ],
+    "published": "2026-08-20",
+    "arxiv_id": "2608.19760v1",
+    "summary": "Audited against causal ground truth from executed replay in a single-agent tool environment (ALFWorld), none of the step-level credit signals used to train LLM agents -- LLM-judge scores, outcome-conditioned logprob ratios, or the policy's own confidence -- identifies which steps causally matter better than chance. Existing evaluations grade these signals against annotated step *correctness*; we audit them against step *contribution* -- what re-sampling the policy's own alternatives at each deci",
+    "pdf_url": "https://arxiv.org/pdf/2608.19760v1.pdf",
+    "categories": "cs.LG"
+  },
+  {
+    "title": "Question-Guided Evidence Acquisition for Multimodal Visual Question Answering",
+    "authors": [
+      "Alin-Ionut Popa"
+    ],
+    "published": "2026-08-20",
+    "arxiv_id": "2608.19739v1",
+    "summary": "Multimodal LLMs can see a document, but they often can't read it reliably. Small text, tables, visual cues, and topological elements still trip them up under direct visual inference, even when the page is already sitting in the model's context. Most document-VQA systems treat perception as fixed: they encode the page once, ask the question, and answer from whatever the model happened to extract in that single fast pass. We think document VQA needs slower, more deliberate perception: rather than ",
+    "pdf_url": "https://arxiv.org/pdf/2608.19739v1.pdf",
     "categories": "cs.CV"
   },
   {
@@ -765,100 +858,6 @@
     "summary": "Large language model (LLM) agents provide a promising interface for command-line-based network operations, but a plausible command may still fail or introduce operational risk after execution. Existing approaches mainly focus on command generation or final configuration correctness, and do not use execution-grounded experience to jointly improve candidate coverage and action selection. We propose an execution-grounded dual-path consequence-aware agent for CLI-based SONiC operations, which genera",
     "pdf_url": "https://arxiv.org/pdf/2608.09184v1.pdf",
     "categories": "cs.AI"
-  },
-  {
-    "title": "UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models",
-    "authors": [
-      "Lei Xin",
-      "Bin Gu",
-      "Peize Li",
-      "Zitong Wang",
-      "Jianbo Zhao",
-      "Changjiang Jiang",
-      "Yanyue Xie",
-      "Chao Huang",
-      "Xuyang Zhao",
-      "Zunhai Su",
-      "Fanhu Zeng",
-      "Zhenglun Kong"
-    ],
-    "published": "2026-08-09",
-    "arxiv_id": "2608.08627v1",
-    "summary": "Sparse mixture-of-experts (MoE) layers expand recommendation capacity through conditional computation, yet a trained checkpoint still stores and routes over its full expert bank. We study a deployment problem: convert that checkpoint to a smaller standard MoE under an explicit expert budget, without adding a compression-specific online module. To address this, we introduce UniMoMo, a post-training compression framework formulated as a constrained graph coarsening problem. Rather than relying on ",
-    "pdf_url": "https://arxiv.org/pdf/2608.08627v1.pdf",
-    "categories": "cs.AI"
-  },
-  {
-    "title": "Router Sensitivity Under Lightweight Fine-Tuning Identifies Prunable Experts in Mixture-of-Experts Models",
-    "authors": [
-      "Ali Janati",
-      "Kaoutar El Maghraoui",
-      "Xinyi Luo",
-      "Wenyuan Shen",
-      "Owen Zou",
-      "Yankai Mao"
-    ],
-    "published": "2026-08-08",
-    "arxiv_id": "2608.07890v1",
-    "summary": "Mixture-of-Experts (MoE) models decouple total parameters from per-token compute, but deployment still requires storing every expert. Recent theory shows that pruning experts with the smallest router-norm changes during fine-tuning can preserve accuracy, but assumes full fine-tuning. We test whether lightweight adaptation can recover this signal. We briefly fine-tune with a parameter-efficient adapter, rank experts by the induced $\\ell_2$ router change, and prune the least-changed experts in one",
-    "pdf_url": "https://arxiv.org/pdf/2608.07890v1.pdf",
-    "categories": "cs.LG"
-  },
-  {
-    "title": "Shape Mutating Expert Compression:LorExperts and BTExperts",
-    "authors": [
-      "Inesh Chakrabarti",
-      "Sourjya Roy",
-      "Bowen Bao",
-      "Thiago Crepaldi",
-      "Spandan Tiwari",
-      "Ashish Sirasao"
-    ],
-    "published": "2026-08-07",
-    "arxiv_id": "2608.07814v1",
-    "summary": "Mixture-of-Experts (MoE) language models deliver high capacity at low per-token compute, but deploying them cheaply requires compressing their many expert weight matrices. Expert pruning (e.g., REAP) and merging reduce cost but sacrifice accuracy and require retraining the router; low-rank delta decomposition of experts (e.g., D^2-MoE) preserves all experts and the router, but degrades sharply as the expert count grows because a single shared component cannot approximate many near-orthogonal exp",
-    "pdf_url": "https://arxiv.org/pdf/2608.07814v1.pdf",
-    "categories": "cs.LG"
-  },
-  {
-    "title": "bioMoR: Biology-Guided Mixture-of-Recursions for Effective Genomic Learning",
-    "authors": [
-      "Koushik Howlader",
-      "Tirtho Roy",
-      "Md Tauhidul Islam",
-      "Wei Le"
-    ],
-    "published": "2026-08-07",
-    "arxiv_id": "2608.06727v2",
-    "summary": "Transformer models for high-dimensional omics analysis process thousands of genes or pathways, although only a subset requires deep computation. Mixture-of-Recursions (MoR) improves efficiency through adaptive token-choice or expert-choice routing. We propose bioMoR, which, to the best of our knowledge, is the first framework to apply MoR to gene-level and pathway-level learning. Our contributions include identifying three locations for integrating structured biological knowledge within an MoR b",
-    "pdf_url": "https://arxiv.org/pdf/2608.06727v2.pdf",
-    "categories": "cs.AI"
-  },
-  {
-    "title": "OrchestraBench: Evaluating Multi-Agent Orchestration Failure Modes, Recovery, and Decomposition Quality",
-    "authors": [
-      "Yidian Chen",
-      "Yingzi Gu",
-      "Natan Vidra",
-      "Spurthi Setty",
-      "Sharon Zheng"
-    ],
-    "published": "2026-08-05",
-    "arxiv_id": "2608.05263v1",
-    "summary": "Multi-agent orchestration frameworks are moving from demos to production, yet benchmarks typically report task accuracy without diagnosing why a pipeline failed, where a cascade began, or which routing decision caused the breakdown. OrchestraBench evaluates failure, recovery, and decomposition through a controlled, seed-reproducible failure-injection harness over templated enterprise workflows. It introduces cascade radius and per-failure-mode recovery as primary metrics and compares routing pol",
-    "pdf_url": "https://arxiv.org/pdf/2608.05263v1.pdf",
-    "categories": "cs.AI"
-  },
-  {
-    "title": "An Emerging Retail Portfolio Management Application: Personalized, Tax-Aware Reinforcement Learning with Natural Language Goals",
-    "authors": [
-      "Ramin Pishehvar"
-    ],
-    "published": "2026-08-05",
-    "arxiv_id": "2608.05255v1",
-    "summary": "Retail investors lack access to the kind of personalized, tax-aware portfolio management that institutional clients take for granted -- existing robo-advisors use static, rule-based allocation, and institutional-grade systems require account minimums and technology stacks unavailable to individual investors. We present a fully built, integration-tested application that closes this gap: a FastAPI backend and web dashboard that let a user describe an investment goal in plain language (e.g. \"I want",
-    "pdf_url": "https://arxiv.org/pdf/2608.05255v1.pdf",
-    "categories": "cs.LG"
   },
   {
     "title": "Adaptive Bayesian Online Learning via Expert Aggregation",

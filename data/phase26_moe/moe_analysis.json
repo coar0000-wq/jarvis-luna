@@ -1,31 +1,31 @@
 {
-  "timestamp": "2026-08-20T23:33:49.629660",
+  "timestamp": "2026-08-21T03:11:50.283262",
   "total_papers": 90,
   "date_range": {
     "earliest": "2019-09-17",
-    "latest": "2026-08-19"
+    "latest": "2026-08-20"
   },
-  "authors": 336,
+  "authors": 335,
   "categories": [
-    "q-fin.ST",
-    "cs.CV",
-    "cs.AR",
-    "cs.MA",
-    "q-bio.NC",
     "cs.CL",
-    "cs.LG",
-    "cs.CE",
-    "cs.DS",
-    "cs.NI",
     "cs.AI",
-    "cs.RO",
     "cs.GT",
-    "stat.ML",
-    "cs.DC",
-    "math.OC",
-    "cs.CR",
+    "cs.DS",
+    "cs.MA",
+    "cs.RO",
     "stat.ME",
-    "cs.IR"
+    "math.OC",
+    "cs.NI",
+    "cs.AR",
+    "cs.LG",
+    "q-bio.NC",
+    "cs.CR",
+    "stat.ML",
+    "cs.CE",
+    "q-fin.ST",
+    "cs.IR",
+    "cs.CV",
+    "cs.DC"
   ],
   "top_authors": [
     [
@@ -70,6 +70,21 @@
     ]
   ],
   "papers": [
+    {
+      "title": "Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts",
+      "authors": [
+        "Nayeon Kim",
+        "Hojin Lee",
+        "Yunju Bak",
+        "Jaesun Park",
+        "Boseop Kim"
+      ],
+      "published": "2026-08-20",
+      "arxiv_id": "2608.20061v1",
+      "summary": "Mixture-of-Experts (MoE) architectures significantly expand model capacity without a proportional increase in computational cost. However, optimizing their hyperparameters---particularly the learning rate---at extreme scales of both model size and token budget via sweeping remains computationally prohibitive. In this paper, we propose a compute-efficient, two-step hyperparameter transfer framework that estimates optimal learning rates for training large MoE models by transferring them across sca",
+      "pdf_url": "https://arxiv.org/pdf/2608.20061v1.pdf",
+      "categories": "cs.LG"
+    },
     {
       "title": "Scalable Geospatial Machine Learning for Power-Line Asset Risk: Integrating Remote Sensing for Lightning and Vegetation Risk Modelling",
       "authors": [
@@ -308,9 +323,9 @@
         "Nelson Guda"
       ],
       "published": "2026-08-12",
-      "arxiv_id": "2608.12447v2",
+      "arxiv_id": "2608.12447v3",
       "summary": "Trained transformer models develop privileged bases: coordinate axes whose statistics differ from the rest of the residual stream. But what kind of direction does such a basis select? We investigate the prediction direction, the unembedding direction of the token a model currently predicts, and find that it functions as a content-defined privileged anchor. Measured with respect to this anchor, residual-stream variation is geometrically and behaviorally stratified by proximity to the prediction.\n",
-      "pdf_url": "https://arxiv.org/pdf/2608.12447v2.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2608.12447v3.pdf",
       "categories": "cs.LG"
     },
     {
@@ -482,14 +497,92 @@
       "categories": "cs.LG"
     },
     {
-      "title": "Deep Analog: Open-Set Film Emulation with Reference-Conditioned 3D LUTs",
+      "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
       "authors": [
-        "Yitong Mu"
+        "Adam Fisch",
+        "Shubhendu Trivedi",
+        "Fantine Huot",
+        "William W. Cohen",
+        "Michael Kaisers",
+        "Mirella Lapata",
+        "Kate Larson",
+        "Jacob Eisenstein"
       ],
-      "published": "2026-08-10",
-      "arxiv_id": "2608.14702v1",
-      "summary": "Film emulation reproduces the look of an analog film stock on a new digital photograph. We target its open-set form -- matching any reference film frame from a single example -- with a 3D lookup table (LUT) predicted from that reference. Real-time image enhancement predicts per-image weights over a fixed bank of 3D LUTs and blends them. We show this is a gated mixture of experts and inherits its failure: trained end-to-end against reconstruction, the gate collapses onto a single expert, so a ban",
-      "pdf_url": "https://arxiv.org/pdf/2608.14702v1.pdf",
+      "published": "2026-08-20",
+      "arxiv_id": "2608.20316v1",
+      "summary": "Heterogeneous AI systems composed of multiple models, architectures, harnesses, or inference-time settings can improve quality and efficiency by routing queries to the specialist who can answer most effectively at the lowest cost. Routing requires estimating each specialist's expected return, but this value estimation has a cost. Cheap estimators (e.g., embedding-based predictors) are fast but noisy, while accurate estimators (e.g., fine-tuned models with access to retrieval results or partial r",
+      "pdf_url": "https://arxiv.org/pdf/2608.20316v1.pdf",
+      "categories": "cs.AI"
+    },
+    {
+      "title": "Learning When to Think: Adaptive Reasoning for Test-Time Compute Allocation",
+      "authors": [
+        "Gijs Kassenaar",
+        "Zhao Yang",
+        "Vincent François-Lavet"
+      ],
+      "published": "2026-08-20",
+      "arxiv_id": "2608.20256v1",
+      "summary": "Reasoning language models trained with reinforcement learning typically operate under a fixed token budget rather than an explicitly adaptive one, which can lead to over-computation on easy problems and insufficient computation on difficult ones. We study whether a model can learn to allocate its own reasoning effort by choosing, as the first token of its response, one of three modes: \\textsc{NoThink} (answer as quickly as possible), \\textsc{Short} (brief reasoning), or \\textsc{Long} (extended r",
+      "pdf_url": "https://arxiv.org/pdf/2608.20256v1.pdf",
+      "categories": "cs.AI"
+    },
+    {
+      "title": "Contrastive Mixed Prompt Learning for Incomplete Multimodal Sentiment Analysis with Unseen Modality Combination",
+      "authors": [
+        "Kaixin Xu",
+        "NaiJin Liu",
+        "Yulin Kang",
+        "Tangyue Jin",
+        "Zixuan Yu",
+        "Wenxi Zhao",
+        "Yibei Liu",
+        "Qianle Zhang",
+        "Yangyang Wu",
+        "Mengying Zhu",
+        "Meng Xi"
+      ],
+      "published": "2026-08-20",
+      "arxiv_id": "2608.20019v1",
+      "summary": "Incomplete multimodal sentiment analysis has garnered significant attention in recent years. Existing approaches typically assume that data is missing at random or are designed specifically for certain missing patterns, ignoring the modality combination inconsistency between training and testing phases. However, in real-world scenarios, the testing phase often encounters modal combinations that were not present during the training phase, which leads to insufficient generalization capabilities an",
+      "pdf_url": "https://arxiv.org/pdf/2608.20019v1.pdf",
+      "categories": "cs.AI"
+    },
+    {
+      "title": "Optimal Skill Selection for LLM Agents with Provable Bicriteria Guarantees",
+      "authors": [
+        "Yu Chen",
+        "Ruishuo Chen",
+        "Xun Wang",
+        "Zhuoran Li",
+        "Longbo Huang"
+      ],
+      "published": "2026-08-20",
+      "arxiv_id": "2608.19993v1",
+      "summary": "Loading reusable skill documents into a bounded context window is now the primary way large language model (LLM) agents acquire task-specific capabilities, which makes skill selection a first-order determinant of task performance and token cost. Yet current agents score skills independently by semantic relevance and assemble the set by top-$k$ or greedy packing, with no quality guarantee or cost awareness on the selected set. As a result, redundant or poorly chosen skills waste scarce context to",
+      "pdf_url": "https://arxiv.org/pdf/2608.19993v1.pdf",
+      "categories": "cs.AI"
+    },
+    {
+      "title": "Credit Without Ground Truth: Auditing Step-Level Credit Assignment in LLM Agents Against Executed Replay",
+      "authors": [
+        "Haiyue Zhang"
+      ],
+      "published": "2026-08-20",
+      "arxiv_id": "2608.19760v1",
+      "summary": "Audited against causal ground truth from executed replay in a single-agent tool environment (ALFWorld), none of the step-level credit signals used to train LLM agents -- LLM-judge scores, outcome-conditioned logprob ratios, or the policy's own confidence -- identifies which steps causally matter better than chance. Existing evaluations grade these signals against annotated step *correctness*; we audit them against step *contribution* -- what re-sampling the policy's own alternatives at each deci",
+      "pdf_url": "https://arxiv.org/pdf/2608.19760v1.pdf",
+      "categories": "cs.LG"
+    },
+    {
+      "title": "Question-Guided Evidence Acquisition for Multimodal Visual Question Answering",
+      "authors": [
+        "Alin-Ionut Popa"
+      ],
+      "published": "2026-08-20",
+      "arxiv_id": "2608.19739v1",
+      "summary": "Multimodal LLMs can see a document, but they often can't read it reliably. Small text, tables, visual cues, and topological elements still trip them up under direct visual inference, even when the page is already sitting in the model's context. Most document-VQA systems treat perception as fixed: they encode the page once, ask the question, and answer from whatever the model happened to extract in that single fast pass. We think document VQA needs slower, more deliberate perception: rather than ",
+      "pdf_url": "https://arxiv.org/pdf/2608.19739v1.pdf",
       "categories": "cs.CV"
     },
     {
@@ -696,83 +789,6 @@
       "summary": "Routing each query to a cost-effective large language model (LLM) is critical for balancing quality and cost, yet most routers rely on a centralized task center to predict model performance, creating an information-risk mismatch and a scalability bottleneck as the model pool grows. We propose a market-based routing paradigm that shifts ex-ante prediction to LLM providers via a reverse auction, where providers bid with self-predicted success probabilities and execution costs. To account for inher",
       "pdf_url": "https://arxiv.org/pdf/2608.12719v1.pdf",
       "categories": "cs.GT"
-    },
-    {
-      "title": "Who Thinks Best Depends on How Long You Let Them: Budget-Dependent Rankings in LLM Evaluation",
-      "authors": [
-        "Rodrigo Guedes de Souza",
-        "Alison R. Panisson"
-      ],
-      "published": "2026-08-12",
-      "arxiv_id": "2608.12150v1",
-      "summary": "Standard evaluation of large language models assumes stable model rankings across inference conditions. We challenge this assumption by varying the token generation budget, i.e., the maximum tokens a model may produce, across seven levels (64--4,096), evaluating four models on three reasoning benchmarks (56,476 inferences). We report four findings: (i) 3--19% of items exhibit non-monotone behavior (accuracy decreasing with more budget), even after controlling for truncation, and this phenomenon ",
-      "pdf_url": "https://arxiv.org/pdf/2608.12150v1.pdf",
-      "categories": "cs.AI"
-    },
-    {
-      "title": "Consolidator: Learning Persistent Routed Memory Across Context Boundaries",
-      "authors": [
-        "Sungwoo Goo",
-        "Hwi-yeol Yun",
-        "Sangkeun Jung"
-      ],
-      "published": "2026-08-12",
-      "arxiv_id": "2608.11701v1",
-      "summary": "Copying short-term memory (STM) into a slower store can preserve state across a context boundary, but persistence alone does not ensure that the retained state influences subsequent memory access. We test this distinction in a Phasor Memory Network (PMNet) using Consolidator, a shared slot-local operator that transforms routed STM before accumulating it into long-term memory (LTM), without replaying the source tokens. After each consolidation, the KV cache and STM are cleared. The retained LTM c",
-      "pdf_url": "https://arxiv.org/pdf/2608.11701v1.pdf",
-      "categories": "cs.LG"
-    },
-    {
-      "title": "APEX: Adaptive Expert Prefetching for Memory-Efficient Edge MoE Inference",
-      "authors": [
-        "Alish Kanani",
-        "Layan Badawi",
-        "Umit Y. Ogras"
-      ],
-      "published": "2026-08-12",
-      "arxiv_id": "2608.11688v1",
-      "summary": "Mixture-of-Experts (MoE) models are attractive for edge deployment because they provide high model capacity while activating only a small subset of parameters per token, improving compute efficiency. However, MoE inference at the edge is fundamentally limited by memory. Expert parameters are large and often reside in off-chip memory due to capacity, cost, and power constraints, putting expert loading to the critical path. We present APEX: Adaptive Expert Prefetching, a predictive resource manage",
-      "pdf_url": "https://arxiv.org/pdf/2608.11688v1.pdf",
-      "categories": "cs.AR"
-    },
-    {
-      "title": "When Self-Consistency Backfires: Majority Vote Hurts the Majority of Hard Science Problems for Small LLMs",
-      "authors": [
-        "Utkarsh Bahuguna"
-      ],
-      "published": "2026-08-11",
-      "arxiv_id": "2608.11403v2",
-      "summary": "Self-consistency via majority vote reduces per-problem accuracy on most GPQA Diamond problems for small instruction-tuned models: 56.6% of problems for Qwen2.5-7B and 65.7% for Llama-3-8B. The obvious remedy is a verifier-free confidence gate. This version reports that the most natural repair also fails, and separates three signal failures that v1 treated as one. A token-entropy gate fails for a measurement reason: averaged over a chain of some 602 tokens, the statistic is a measurement of the p",
-      "pdf_url": "https://arxiv.org/pdf/2608.11403v2.pdf",
-      "categories": "cs.AI"
-    },
-    {
-      "title": "Self-evolving network verifiers",
-      "authors": [
-        "Ioannis Protogeros",
-        "Tibor Schneider",
-        "Laurent Vanbever"
-      ],
-      "published": "2026-08-11",
-      "arxiv_id": "2608.11340v1",
-      "summary": "Symbolic network verifiers can reason about correctness across vast spaces of routing inputs and failures, but only for the protocols and features an expert has encoded by hand. Creating and maintaining a faithful model of the control plane is both difficult and never-ending, since no written source specifies perfectly what a network does: vendor implementations deviate from the RFCs, and behaviour shifts with releases. The burden of constant upkeep ultimately keeps verification out of many netw",
-      "pdf_url": "https://arxiv.org/pdf/2608.11340v1.pdf",
-      "categories": "cs.NI"
-    },
-    {
-      "title": "TimeRoute: Time-Aware Modality Routing and Diffusion for Multi-Modal Recommendation",
-      "authors": [
-        "Pengyu Zhang",
-        "Yangqin Jiang",
-        "Klim Zaporojets",
-        "Congfeng Cao",
-        "Paul Groth"
-      ],
-      "published": "2026-08-11",
-      "arxiv_id": "2608.10983v1",
-      "summary": "Multi-modal recommenders fuse collaborative signals with item modalities such as text, images, and audio, but the usefulness of each drifts over time and at different rates. For example, chocolate purchases typically guided by textual ingredient cues can shift toward visual packaging and ambient audio around Valentine's Day. This modality time-scale mismatch gives rise to two coupled challenges: (1) users require different modality proportions across temporal contexts, and (2) less relevant moda",
-      "pdf_url": "https://arxiv.org/pdf/2608.10983v1.pdf",
-      "categories": "cs.IR"
     }
   ]
 }
