@@ -50,7 +50,6 @@ from pathlib import Path
 import json
 from datetime import datetime
 
-# PPT 파일 확인
 ppt_files = list(Path('data').glob('strategy_report_*.pptx'))
 json_files = list(Path('data').glob('strategy_report_*.json'))
 
