@@ -147,6 +147,8 @@
                 <span class="strategy-status" id="legal-detail-status">제품별 검토 대기</span>
             </div>
             <p class="legal-notice" id="legal-notice"></p>
+            <h3 class="strategy-updated">제품별 검토 시작에 필요한 정보</h3>
+            <ul class="legal-list" id="legal-intake"></ul>
             <div class="stats-grid">
                 <div class="stat-box"><h3>검토 완료 상품</h3><p id="legal-reviewed-products">0개</p></div>
                 <div class="stat-box"><h3>기본 절차</h3><p id="legal-checklist-count">0개</p></div>
@@ -270,6 +272,7 @@
                     const team = legal.team || {};
                     const dashboard = legal.dashboard || {};
                     const checklist = Array.isArray(legal.baseline_checklist) ? legal.baseline_checklist : [];
+                    const intakeItems = Array.isArray(legal.product_intake_required) ? legal.product_intake_required : [];
                     const routes = Array.isArray(legal.regulatory_routes) ? legal.regulatory_routes : [];
                     const sources = Array.isArray(legal.official_sources) ? legal.official_sources : [];
                     const reviewedProducts = Number(dashboard.reviewed_products) || 0;
@@ -286,6 +289,19 @@
                     document.getElementById('legal-reviewed-products').textContent = `${reviewedProducts}개`;
                     document.getElementById('legal-checklist-count').textContent = `${checklist.length}개`;
                     document.getElementById('legal-source-count').textContent = `${sources.length}개`;
+
+                    const intakeContainer = document.getElementById('legal-intake');
+                    intakeContainer.replaceChildren();
+                    intakeItems.forEach(item => {
+                        const row = document.createElement('li');
+                        const text = document.createElement('strong');
+                        text.textContent = item;
+                        const status = document.createElement('span');
+                        status.className = 'time-badge';
+                        status.textContent = '제품별 검토 전 필요';
+                        row.append(text, status);
+                        intakeContainer.appendChild(row);
+                    });
 
                     const checklistContainer = document.getElementById('legal-checklist');
                     checklistContainer.replaceChildren();
