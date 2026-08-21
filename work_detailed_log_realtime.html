@@ -818,56 +818,55 @@
             };
         }
 
-        // ✅ 정확한 누적 합산 계산
+        // ✅ data/cumulative_products.json의 현재 스키마를 기준으로 누적 상품 수 계산
         function calculateCumulativeProducts(data) {
-            let currentSum = data.baseline || 117;
-
-            const cumulativeArray = data.daily_increment.map(item => {
-                currentSum += item.discovered;
-                return {
-                    date: item.date,
-                    daily: item.discovered,
-                    cumulative: currentSum,
-                    source: item.source
-                };
-            });
-
-            const now = new Date();
-            const hour = now.getHours();
-            const minutes = now.getMinutes();
-            const hourlyBonus = hour * 4;
-            const minuteBonus = Math.floor(minutes * 0.1);
-            const realtimeAdjustment = hourlyBonus + minuteBonus;
-
-            const finalTotal = currentSum + realtimeAdjustment;
+            const baseline = Number(data.baseline || 0);
+            const sources = data.sources || {};
+            const sourceTotal = Object.values(sources).reduce((sum, value) => sum + Number(value || 0), 0);
+            const staticTotal = Number(data.cumulative_total) || baseline + sourceTotal;
+            const cumulativeArray = Array.isArray(data.daily_increment)
+                ? data.daily_increment.reduce((items, item) => {
+                    const previous = items.length ? items[items.length - 1].cumulative : baseline;
+                    items.push({
+                        date: item.date,
+                        daily: Number(item.discovered || 0),
+                        cumulative: previous + Number(item.discovered || 0),
+                        source: item.source
+                    });
+                    return items;
+                }, [])
+                : Object.entries(sources).map(([source, count]) => ({
+                    date: data.last_updated || null,
+                    daily: Number(count || 0),
+                    cumulative: Number(count || 0),
+                    source
+                }));
 
             return {
-                baseline: data.baseline || 117,
+                baseline,
                 cumulativeArray,
-                staticTotal: currentSum,
-                realtimeAdjustment,
-                finalTotal,
-                breakdown: `기준 ${data.baseline || 117}개 → 누적 ${currentSum}개 → 실시간 ${realtimeAdjustment}개 추가 = 최종 ${finalTotal}개`
+                staticTotal,
+                realtimeAdjustment: 0,
+                finalTotal: staticTotal,
+                breakdown: `기준 ${baseline}개 → 플랫폼 누적 ${sourceTotal}개 → 최종 ${staticTotal}개`
             };
         }
 
-        // ✅ 다이소 상품 누적 데이터 로드
+        // ✅ GitHub Actions가 갱신하는 누적 상품 데이터 직접 로드
         async function loadCumulativeCount() {
             try {
-                const response = await fetchWithTimeout('./cumulative_products.json?t=' + Date.now());
+                const response = await fetchWithTimeout('./data/cumulative_products.json?t=' + Date.now());
                 if (response.ok) {
                     const data = await response.json();
                     const cumulative = calculateCumulativeProducts(data);
-
                     console.log(`📊 [누적 상품 추이]`, cumulative.cumulativeArray);
-                    console.log(`📊 [실시간 누적 상품수] ${cumulative.breakdown}`);
-
+                    console.log(`📊 [누적 상품수] ${cumulative.breakdown}`);
                     return {
                         cumulative_total: cumulative.finalTotal,
                         static_total: cumulative.staticTotal,
-                        realtime_adjustment: cumulative.realtimeAdjustment,
+                        realtime_adjustment: 0,
                         baseline: cumulative.baseline,
-                        last_updated: new Date().toISOString(),
+                        last_updated: data.last_updated || new Date().toISOString(),
                         breakdown: cumulative.breakdown,
                         cumulativeArray: cumulative.cumulativeArray
                     };
@@ -875,8 +874,9 @@
             } catch (e) {
                 console.warn('⚠️ [누적 카운트] 로드 실패:', e.message);
             }
-            return { cumulative_total: 117, baseline: 117, last_updated: new Date().toISOString() };
+            return { cumulative_total: 0, baseline: 0, last_updated: new Date().toISOString(), cumulativeArray: [] };
         }
+
 
         async function loadDaisoProducts() {
             try {
