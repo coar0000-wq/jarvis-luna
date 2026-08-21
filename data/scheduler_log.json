@@ -1,6 +1,36 @@
 {
   "events": [
     {
+      "timestamp": "2026-08-21T10:44:57.906422Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 뷰티·스킨케어 상품 5개 발굴 (누적: 869개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T10:44:57.866120Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 뷰티·스킨케어 상품 5개 발굴 (누적: 864개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T10:44:57.824706Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 뷰티·스킨케어 상품 5개 발굴 (누적: 859개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T10:44:57.780608Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 뷰티·스킨케어 상품 5개 발굴 (누적: 854개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T10:44:57.738050Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 뷰티·스킨케어 상품 3개 발굴 (누적: 849개)",
+      "status": "success"
+    },
+    {
       "timestamp": "2026-08-21T10:22:09.599963Z",
       "task_name": "✅ 다이소 상품 발굴",
       "details": "다이소 뷰티·스킨케어 상품 5개 발굴 (누적: 846개)",
@@ -568,36 +598,6 @@
       "timestamp": "2026-08-20T22:49:08.022656Z",
       "task_name": "✅ 다이소 상품 발굴",
       "details": "다이소 상품 3개 발굴 (누적: 470개)",
-      "status": "success"
-    },
-    {
-      "timestamp": "2026-08-20T22:26:25.706356Z",
-      "task_name": "✅ 다이소 상품 발굴",
-      "details": "다이소 상품 5개 발굴 (누적: 467개)",
-      "status": "success"
-    },
-    {
-      "timestamp": "2026-08-20T22:11:34.761086Z",
-      "task_name": "✅ 아마존 상품 발굴",
-      "details": "아마존 상품 5개 발굴 (누적: 462개)",
-      "status": "success"
-    },
-    {
-      "timestamp": "2026-08-20T22:11:34.734520Z",
-      "task_name": "✅ 월마트 상품 발굴",
-      "details": "월마트 상품 3개 발굴 (누적: 457개)",
-      "status": "success"
-    },
-    {
-      "timestamp": "2026-08-20T22:11:34.708343Z",
-      "task_name": "✅ 네이버 상품 발굴",
-      "details": "네이버 상품 5개 발굴 (누적: 454개)",
-      "status": "success"
-    },
-    {
-      "timestamp": "2026-08-20T22:11:34.681910Z",
-      "task_name": "✅ 올리브영 상품 발굴",
-      "details": "올리브영 상품 5개 발굴 (누적: 449개)",
       "status": "success"
     }
   ]
