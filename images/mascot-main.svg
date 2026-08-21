@@ -1,0 +1,66 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 그라디언트 -->
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="30%">
+      <stop offset="0%" style="stop-color:#f5f5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="furGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c9884b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b6f47;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="400" height="500" fill="url(#bgGrad)"/>
+
+  <!-- 몸 -->
+  <ellipse cx="200" cy="280" rx="70" ry="90" fill="url(#furGrad)"/>
+
+  <!-- 왼쪽 팔 -->
+  <ellipse cx="130" cy="260" rx="35" ry="75" fill="url(#furGrad)" transform="rotate(-25 130 260)"/>
+
+  <!-- 오른쪽 팔 -->
+  <ellipse cx="270" cy="260" rx="35" ry="75" fill="url(#furGrad)" transform="rotate(25 270 260)"/>
+
+  <!-- 왼쪽 다리 -->
+  <rect x="165" y="350" width="30" height="80" rx="15" fill="#8b6f47"/>
+
+  <!-- 오른쪽 다리 -->
+  <rect x="205" y="350" width="30" height="80" rx="15" fill="#8b6f47"/>
+
+  <!-- 목 -->
+  <ellipse cx="200" cy="180" rx="45" ry="55" fill="url(#furGrad)"/>
+
+  <!-- 머리 -->
+  <circle cx="200" cy="100" r="60" fill="url(#furGrad)"/>
+
+  <!-- 왼쪽 귀 -->
+  <ellipse cx="150" cy="50" rx="25" ry="50" fill="url(#furGrad)" transform="rotate(-30 150 50)"/>
+
+  <!-- 오른쪽 귀 -->
+  <ellipse cx="250" cy="50" rx="25" ry="50" fill="url(#furGrad)" transform="rotate(30 250 50)"/>
+
+  <!-- 코 -->
+  <circle cx="200" cy="110" r="20" fill="#2c2c2c"/>
+
+  <!-- 왼쪽 눈 -->
+  <circle cx="175" cy="80" r="12" fill="#ffffff"/>
+  <circle cx="175" cy="80" r="8" fill="#2c2c2c"/>
+  <circle cx="177" cy="78" r="3" fill="#ffffff"/>
+
+  <!-- 오른쪽 눈 -->
+  <circle cx="225" cy="80" r="12" fill="#ffffff"/>
+  <circle cx="225" cy="80" r="8" fill="#2c2c2c"/>
+  <circle cx="227" cy="78" r="3" fill="#ffffff"/>
+
+  <!-- 입 -->
+  <path d="M 200 120 Q 190 135 180 130" stroke="#2c2c2c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 200 120 Q 210 135 220 130" stroke="#2c2c2c" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- 혀 -->
+  <ellipse cx="200" cy="135" rx="8" ry="10" fill="#ff69b4"/>
+
+  <!-- 텍스트 -->
+  <text x="200" y="460" font-size="24" font-weight="bold" text-anchor="middle" fill="#64e5ff">JARVIS LUNA</text>
+</svg>

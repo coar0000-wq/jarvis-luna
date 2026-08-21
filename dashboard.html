@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="updated" content="2026-08-18T23:22:00+09:00">
+    <title>JARVIS LUNA - Performance & Evolution Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .status {
+            font-size: 1em;
+            color: #4ade80;
+            font-weight: bold;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .stat-card h3 {
+            font-size: 0.9em;
+            color: #93c5fd;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .stat-card .value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #4ade80;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .section h2 {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            color: #93c5fd;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+            padding-bottom: 10px;
+        }
+
+        .item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border-left: 3px solid #4ade80;
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+
+        .item .title {
+            font-weight: bold;
+            color: #fbbf24;
+            margin-bottom: 5px;
+        }
+
+        .item .source {
+            font-size: 0.8em;
+            color: #94a3b8;
+        }
+
+        .timestamp {
+            text-align: center;
+            margin-top: 30px;
+            color: #cbd5e1;
+            font-size: 0.9em;
+        }
+
+        .update-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: #4ade80;
+            border-radius: 50%;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        /* 대시보드의 이미지 컨테이너 스타일 */
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* 여백 없이 박스를 꽉 채우도록 설정 */
+            display: block;
+        }
+
+        /* 실시간 상태 표시 */
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 12px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .status-item {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            border-left: 3px solid #4ade80;
+        }
+
+        .status-label {
+            font-size: 0.85em;
+            color: #93c5fd;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .status-value {
+            font-size: 0.9em;
+            color: #4ade80;
+            font-weight: bold;
+        }
+
+        .status-value.active {
+            color: #4ade80;
+        }
+
+        .status-value.inactive {
+            color: #ef4444;
+        }
+
+        .status-value.working {
+            color: #fbbf24;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 JARVIS LUNA</h1>
+            <p class="status"><span class="update-indicator"></span>매 1분마다 자동 실행 중</p>
+            <p style="font-size: 0.9em; margin-top: 10px;">YouTube • arXiv • Google News 실시간 분석</p>
+        </div>
+
+        <!-- 실시간 상태 표시 -->
+        <div class="status-grid">
+            <div class="status-item">
+                <span class="status-label">👤 도현 (CEO)</span>
+                <span class="status-value active">감시중</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">⚙️ JARVIS (AI)</span>
+                <span class="status-value working">자동화</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">🔄 GitHub Actions</span>
+                <span class="status-value active">활성</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">📝 Obsidian</span>
+                <span class="status-value active">활성</span>
+            </div>
+        </div>
+
+        <!-- JARVIS 강아지 마스코트 이미지 -->
+        <div class="image-container" style="max-width: 280px; height: 280px; margin: 20px auto; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);">
+            <img src="./stuffed-extracted/assets/dog.png" alt="JARVIS 강아지 마스코트 - AGI Evolution OS" />
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <h3>📺 YouTube</h3>
+                <div class="value" id="youtube-count">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>📄 arXiv</h3>
+                <div class="value" id="arxiv-count">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>📰 News</h3>
+                <div class="value" id="news-count">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>⏱️ 업데이트</h3>
+                <div class="value" id="last-update">대기중</div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>📺 YouTube 최신</h2>
+                <div id="youtube-list">
+                    <div class="item">
+                        <p style="color: #cbd5e1;">데이터 로딩 중...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>📄 arXiv 최신</h2>
+                <div id="arxiv-list">
+                    <div class="item">
+                        <p style="color: #cbd5e1;">데이터 로딩 중...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>📰 Google News</h2>
+                <div id="news-list">
+                    <div class="item">
+                        <p style="color: #cbd5e1;">데이터 로딩 중...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="timestamp">
+            <p>마지막 업데이트: <span id="last-update-time">대기중</span></p>
+            <p style="font-size: 0.8em; margin-top: 10px; color: #64748b;">
+                JARVIS LUNA는 클라우드에서 자동으로 실행됩니다 🚀
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const updateData = async () => {
+            try {
+                // GitHub raw URL with cache busting (timestamp)
+                const timestamp = new Date().getTime();
+                const url = `https://raw.githubusercontent.com/coar0000-wq/jarvis-luna/main/work_log_realtime.json?t=${timestamp}`;
+
+                const response = await fetch(url, { cache: 'no-store' });
+                if (!response.ok) {
+                    console.log('GitHub에서 데이터를 로드할 수 없습니다.');
+                    return;
+                }
+
+                const data = await response.json();
+
+                // Phase 26 상태 표시
+                if (data.phase26_progress) {
+                    const phase26 = data.phase26_progress;
+                    console.log('✅ Phase 26 상태:', phase26.implementation.status);
+                    console.log('📊 완성도:', `${phase26.implementation.lines_of_code}줄, ${phase26.implementation.files_created}파일`);
+                    console.log('🧪 테스트:', phase26.testing.status);
+                }
+
+                // 타임스탐프 표시
+                if (data.metadata && data.metadata.timestamp) {
+                    console.log('🕐 데이터 시간:', data.metadata.timestamp);
+                }
+
+                // 통계 업데이트
+                document.getElementById('youtube-count').textContent =
+                    data.youtube_data?.length || 0;
+                document.getElementById('arxiv-count').textContent =
+                    data.arxiv_data?.length || 0;
+                document.getElementById('news-count').textContent =
+                    data.google_news_data?.length || 0;
+
+                // YouTube 업데이트
+                if (data.youtube_data && data.youtube_data.length > 0) {
+                    const youtubeHtml = data.youtube_data.slice(0, 5).map(item => `
+                        <div class="item">
+                            <div class="title">🎬 ${item.title || '제목 없음'}</div>
+                            <div class="source">채널: ${item.channel || '정보 없음'}</div>
+                        </div>
+                    `).join('');
+                    document.getElementById('youtube-list').innerHTML = youtubeHtml;
+                }
+
+                // arXiv 업데이트
+                if (data.arxiv_data && data.arxiv_data.length > 0) {
+                    const arxivHtml = data.arxiv_data.slice(0, 5).map(item => `
+                        <div class="item">
+                            <div class="title">🧬 ${item.title || '제목 없음'}</div>
+                            <div class="source">저자: ${item.authors || '정보 없음'}</div>
+                        </div>
+                    `).join('');
+                    document.getElementById('arxiv-list').innerHTML = arxivHtml;
+                }
+
+                // News 업데이트
+                if (data.google_news_data && data.google_news_data.length > 0) {
+                    const newsHtml = data.google_news_data.slice(0, 5).map(item => `
+                        <div class="item">
+                            <div class="title">📰 ${item.title || '제목 없음'}</div>
+                            <div class="source">출처: ${item.source || '정보 없음'}</div>
+                        </div>
+                    `).join('');
+                    document.getElementById('news-list').innerHTML = newsHtml;
+                }
+
+                // 시간 업데이트
+                const now = new Date();
+                document.getElementById('last-update-time').textContent =
+                    now.toLocaleString('ko-KR');
+                document.getElementById('last-update').textContent =
+                    `${now.getMinutes()}분`;
+
+            } catch (error) {
+                console.log('데이터 로드 중 오류:', error);
+            }
+        };
+
+        // 초기 로드
+        updateData();
+
+        // 2초마다 업데이트
+        setInterval(updateData, 2000);
+    </script>
+</body>
+</html>

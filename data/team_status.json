@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-08-17T14:30:00+00:00",
+  "team_members": [],
+  "team_stats": {
+    "total_members": 0,
+    "active": 0,
+    "idle": 0,
+    "offline": 0,
+    "average_progress": 0,
+    "total_tasks_today": 0,
+    "total_success_rate": "0%",
+    "work_efficiency": "0%",
+    "collaboration_score": "0%"
+  },
+  "daily_stats": {
+    "date": "2026-08-17",
+    "work_started": "2026-08-17T06:00:00+00:00",
+    "current_time": "2026-08-17T14:30:00+00:00",
+    "working_hours": 0,
+    "total_completed": 0,
+    "in_progress": 0,
+    "pending": 0,
+    "completion_rate": "0%"
+  },
+  "status": {
+    "overall": "🔄 초기화됨",
+    "coordination": "대기 중",
+    "efficiency": "대기 중",
+    "data_integrity": "✅ 실제 데이터만 사용"
+  }
+}

@@ -1,0 +1,47 @@
+﻿name: 모든 플랫폼 상품 자동 발굴
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # 매 10분마다 실행
+  workflow_dispatch:
+
+jobs:
+  discover-all-platforms:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Python 설정
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: 다이소 상품 발굴
+        run: python daiso_product_discovery.py
+
+      - name: 올리브영 상품 발굴
+        run: python oliveyoung_product_discovery.py
+
+      - name: 네이버 상품 발굴
+        run: python naver_product_discovery.py
+
+      - name: 월마트 상품 발굴
+        run: python walmart_product_discovery.py
+
+      - name: 아마존 상품 발굴
+        run: python amazon_product_discovery.py
+
+      - name: 변경사항 커밋 및 푸시
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+
+          if [[ -z $(git status -s) ]]; then
+            echo "변경사항 없음"
+            exit 0
+          fi
+
+          git add -A
+          git commit -m "🤖 자동 발굴: 모든 플랫폼 상품 업데이트 (다이소+올리브영+네이버+월마트+아마존)"
+          git push origin main

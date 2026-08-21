@@ -1,0 +1,11 @@
+# JARVIS 자동화 시스템 필수 라이브러리
+yt-dlp>=2024.1.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+feedparser>=6.0.10
+google-generativeai>=0.3.0
+aiohttp>=3.9.1
+torch>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.8.0

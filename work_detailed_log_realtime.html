@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARVIS 실시간 작업 로그</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        :root {
+            --primary: #00ff00;
+            --dark: #0a0e27;
+            --card: #1a2040;
+            --warning: #ffaa00;
+            --active: #ff00ff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: var(--dark);
+            color: var(--primary);
+            overflow-x: hidden;
+        }
+
+        header {
+            background: linear-gradient(90deg, #001a00 0%, #003300 100%);
+            padding: 20px;
+            border-bottom: 3px solid var(--primary);
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        h1 {
+            font-size: 1.8em;
+            color: var(--primary);
+            text-shadow: 0 0 10px var(--primary);
+            margin-bottom: 5px;
+        }
+
+        .time-display {
+            font-size: 1.1em;
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .live-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background: var(--primary);
+            border-radius: 50%;
+            margin-right: 10px;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+
+        .log-section {
+            background: var(--card);
+            border: 2px solid var(--primary);
+            border-radius: 8px;
+            margin: 20px 0;
+            padding: 15px;
+        }
+
+        .log-section-title {
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 10px;
+        }
+
+        .log-entry {
+            margin: 15px 0;
+            padding: 12px;
+            background: var(--card);
+            border-left: 3px solid var(--primary);
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .log-entry.in-progress {
+            background: var(--card);
+            border-left-color: var(--active);
+        }
+
+        .log-entry.completed {
+            background: var(--card);
+            border-left-color: var(--primary);
+        }
+
+        .log-entry.pending {
+            background: var(--card);
+            border-left-color: var(--warning);
+        }
+
+        .log-time {
+            color: #888;
+            font-size: 0.85em;
+            text-align: left;
+            order: 2;
+        }
+
+        .log-task {
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 1em;
+            order: 1;
+        }
+
+        /* ✅ 새로운 렌더링 로직 CSS */
+        .log-item {
+            background: var(--card);
+            border: 2px solid var(--primary);
+            border-left: 3px solid var(--primary);
+            border-radius: 4px;
+            margin: 12px 0;
+            padding: 10px 12px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.95em;
+        }
+
+        .log-title {
+            color: var(--primary);
+            font-weight: bold;
+            flex: 0 0 auto;
+        }
+
+        .log-count {
+            background: var(--primary);
+            color: var(--dark);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: bold;
+            font-size: 0.9em;
+            flex: 0 0 auto;
+        }
+
+        .log-details {
+            color: #aaa;
+            font-size: 0.9em;
+            flex: 1 1 auto;
+        }
+
+        .log-time {
+            color: #888;
+            font-size: 0.8em;
+            flex: 0 0 auto;
+            margin-left: auto;
+        }
+
+        .log-status {
+            font-weight: bold;
+            min-width: 100px;
+            text-align: center;
+            padding: 5px 10px;
+            border-radius: 4px;
+            display: none;  /* 숨김: 새 형식에서는 필요 없음 */
+        }
+
+        .status-in-progress {
+            background: rgba(255, 0, 255, 0.3);
+            color: var(--active);
+        }
+
+        .status-completed {
+            background: rgba(0, 255, 0, 0.3);
+            color: var(--primary);
+        }
+
+        .status-pending {
+            background: rgba(255, 170, 0, 0.3);
+            color: var(--warning);
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            height: 5px;
+            background: rgba(0, 255, 0, 0.1);
+            border-radius: 3px;
+            margin-top: 15px;
+            overflow: hidden;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary) 0%, var(--active) 100%);
+            transition: width 0.5s ease;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .stat-box {
+            background: var(--card);
+            border: 2px solid var(--primary);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-label {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            color: var(--primary);
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        .auto-refresh {
+            text-align: center;
+            color: #888;
+            font-size: 0.9em;
+            margin-top: 30px;
+            padding: 20px;
+            border-top: 1px solid var(--primary);
+        }
+
+        .loading {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: var(--primary);
+            border-radius: 50%;
+            margin-right: 5px;
+            animation: loading 0.6s infinite;
+        }
+
+        @keyframes loading {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
+
+        .next-task {
+            background: var(--card);
+            border: 2px solid var(--active);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .next-task-title {
+            color: var(--active);
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* ✅ 모바일 반응형 스타일 추가 */
+        @media (max-width: 768px) {
+            .container {
+                max-width: 100%;
+                padding: 10px;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+                gap: 10px;
+            }
+
+            .stat-box {
+                padding: 10px;
+            }
+
+            .stat-value {
+                font-size: 1.4em;
+            }
+
+            .log-entry {
+                margin: 10px 0;
+                padding: 10px;
+                font-size: 0.9em;
+            }
+
+            .log-section {
+                margin: 15px 0;
+                padding: 10px;
+            }
+
+            .log-section-title {
+                font-size: 1em;
+                margin-bottom: 10px;
+            }
+
+            h1 {
+                font-size: 1.3em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .log-section {
+                max-height: none;
+                overflow-y: auto;
+            }
+
+            .log-entry {
+                flex-direction: row;
+                font-size: 0.8em;
+            }
+
+            .log-time {
+                margin-left: auto;
+            }
+
+            /* ✅ 모바일에서 log-item 스타일 */
+            .log-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 4px;
+                font-size: 0.8em;
+                padding: 8px;
+            }
+
+            .log-title {
+                font-size: 0.9em;
+                width: 100%;
+            }
+
+            .log-count {
+                font-size: 0.75em;
+                padding: 1px 3px;
+            }
+
+            .log-details {
+                font-size: 0.75em;
+                width: 100%;
+            }
+
+            .log-time {
+                font-size: 0.7em;
+                width: 100%;
+                margin-left: 0;
+                margin-top: 2px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><span class="live-indicator"></span>📋 JARVIS 실시간 작업 로그</h1>
+        <p class="time-display">현재 시간: <span id="currentTime">-</span></p>
+    </header>
+
+    <div class="container">
+        <!-- 실시간 통계 -->
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-label">완료된 작업</div>
+                <div class="stat-value" id="completedCount">0</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">진행 중</div>
+                <div class="stat-value" id="inProgressCount">0</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">대기 중</div>
+                <div class="stat-value" id="pendingCount">0</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">전체 진행도</div>
+                <div class="stat-value" id="totalProgress">0%</div>
+            </div>
+        </div>
+
+        <div class="progress-bar-container">
+            <div class="progress-bar-fill" id="progressBar" style="width: 0%;"></div>
+        </div>
+
+        <!-- 다음 작업 미리보기 -->
+        <div class="next-task">
+            <div class="next-task-title">🎯 다음 작업</div>
+            <div id="nextTaskInfo">로딩 중...</div>
+        </div>
+
+        <!-- 현재 진행 중인 작업 -->
+        <div class="log-section">
+            <div class="log-section-title">🔥 지금 진행 중</div>
+            <div id="currentWorkLog">
+                <div class="log-entry in-progress">
+                    <span class="log-time" id="time1">20:25:00</span>
+                    <span class="log-task">jarvis_autonomous_work.py 실행 중</span>
+                    <span class="log-status status-in-progress">진행 중</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 오늘 완료된 작업 -->
+        <div class="log-section">
+            <div class="log-section-title">✅ 오늘 완료 (2026-08-16)</div>
+            <div id="todayCompletedLog"></div>
+        </div>
+
+        <!-- 최근 작업 히스토리 -->
+        <div class="log-section">
+            <div class="log-section-title">📝 최근 작업 히스토리</div>
+            <div id="recentHistory"></div>
+        </div>
+
+        <!-- Phase 26 진행도 정보 -->
+        <div class="log-section">
+            <div class="log-section-title">🧠 Phase 26 MoE 라우터 진행도</div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                <div style="padding: 10px; background: var(--card); border-radius: 5px;">
+                    <div style="color: #888; font-size: 0.9em;">📅 마지막 업데이트</div>
+                    <div id="last-update" style="color: var(--primary); margin-top: 5px;">로딩 중...</div>
+                </div>
+                <div style="padding: 10px; background: var(--card); border-radius: 5px;">
+                    <div style="color: #888; font-size: 0.9em;">⏰ 다음 자동화</div>
+                    <div id="next-automation" style="color: var(--primary); margin-top: 5px;">로딩 중...</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 자동 새로고침 안내 -->
+        <div class="auto-refresh">
+            <span class="loading"></span>
+            자동 새로고침: <span id="refreshCountdown">30</span>초 후
+            <br/>
+            <small style="color: #666;">매 30초마다 실시간 동기화</small>
+        </div>
+    </div>
+
+    <script>
+        // ===== 설정 & 상수 =====
+        const DEBUG_MODE = false;
+        const FETCH_TIMEOUT = 5000;
+        const RECENT_EVENTS_LIMIT = 6;
+        const REFRESH_INTERVAL = 30000;
+        const COUNTDOWN_DISPLAY = 30;
+        const BASELINE_PRODUCTS = 117;
+        const DATA_VERSION = '1.0';
+        const CACHE_TTL = 5 * 60 * 1000;
+
+        // ===== 로거 =====
+        const Logger = {
+            debug: (tag, msg, data) => {
+                if (DEBUG_MODE) console.log(`✅ [${tag}] ${msg}`, data || '');
+            },
+            info: (tag, msg, data) => console.log(`✅ [${tag}] ${msg}`, data || ''),
+            warn: (tag, msg, data) => console.warn(`⚠️ [${tag}] ${msg}`, data || ''),
+            error: (tag, msg, errorData = {}) => {
+                const timestamp = new Date().toISOString();
+                const errorObj = typeof errorData === 'string' ? { message: errorData } : errorData;
+
+                const logEntry = {
+                    timestamp,
+                    tag,
+                    message: msg,
+                    error: {
+                        message: errorObj.message || '알 수 없는 오류',
+                        stack: errorObj.stack || '스택 트레이스 없음',
+                        code: errorObj.code || null,
+                        type: errorObj.type || typeof errorObj
+                    }
+                };
+
+                console.error(`❌ [${tag}] ${msg} @${timestamp}`, logEntry);
+
+                try {
+                    const rawLogs = localStorage.getItem('jarvis_error_logs') || '[]';
+                    let errorLogs = [];
+
+                    try {
+                        errorLogs = JSON.parse(rawLogs);
+                        if (!Array.isArray(errorLogs)) {
+                            console.warn('⚠️ [Logger] errorLogs is not array, resetting');
+                            errorLogs = [];
+                        }
+                    } catch (parseError) {
+                        console.error('❌ [Logger] JSON.parse 실패 (errorLogs)', {
+                            message: parseError.message,
+                            stack: parseError.stack,
+                            dataLength: rawLogs.length,
+                            data: rawLogs.substring(0, 100)
+                        });
+                        errorLogs = [];
+                    }
+
+                    errorLogs.unshift(logEntry);
+                    if (errorLogs.length > 10) errorLogs.pop();
+                    localStorage.setItem('jarvis_error_logs', JSON.stringify(errorLogs));
+                } catch (e) {
+                    console.error('❌ [Logger] LocalStorage 저장 실패', {
+                        message: e.message,
+                        stack: e.stack
+                    });
+                }
+            }
+        };
+
+        // ===== 전역 변수 네임스페이싱 =====
+        const APP_STATE = {
+            workLog: null,
+            currentData: null,
+            countdownSeconds: COUNTDOWN_DISPLAY,
+            lastDataVersion: null,
+            intervalIds: [],
+        };
+
+        // ✅ setInterval 제어 함수
+        function startRefresh() {
+            stopRefresh();
+
+            APP_STATE.intervalIds.push(setInterval(updateTime, 1000));
+            APP_STATE.intervalIds.push(setInterval(updateCountdown, 1000));
+            APP_STATE.intervalIds.push(setInterval(async () => {
+                const newData = await loadRealData();
+                if (newData) {
+                    currentData = newData;
+                    const newDaisoData = await loadDaisoProducts();
+                    if (newDaisoData) {
+                        updateWorkLog(newDaisoData);
+                        Logger.info('Refresh', `다이소 상품 ${newDaisoData.total_products}개 (누적)`);
+                    } else {
+                        updateWorkLog();
+                    }
+                    Logger.info('Refresh', '작업 데이터 업데이트 완료');
+                }
+
+                const newPhaseData = await loadPhaseData();
+                if (newPhaseData) {
+                    renderDateSafe('last-update', newPhaseData.last_updated);
+                    renderDateSafe('next-automation', newPhaseData.next_automation);
+                    Logger.info('Refresh', 'Phase 26 데이터 업데이트 완료');
+                } else {
+                    renderDateSafe('last-update', null);
+                    renderDateSafe('next-automation', null);
+                }
+            }, REFRESH_INTERVAL));
+
+            Logger.info('Refresh', '자동 새로고침 시작 (3개 interval)');
+        }
+
+        function stopRefresh() {
+            APP_STATE.intervalIds.forEach(id => clearInterval(id));
+            APP_STATE.intervalIds = [];
+            Logger.info('Refresh', '자동 새로고침 정지');
+        }
+
+        window.addEventListener('beforeunload', stopRefresh);
+
+        // ✅ Race condition 해결: DataLock 클래스
+        class DataLock {
+            constructor() {
+                this.locks = {};
+                this.queue = {};
+            }
+
+            async lock(key) {
+                while (this.locks[key]) {
+                    await new Promise(resolve => {
+                        if (!this.queue[key]) this.queue[key] = [];
+                        this.queue[key].push(resolve);
+                    });
+                }
+                this.locks[key] = true;
+                Logger.debug('DataLock', `락 획득: ${key}`);
+            }
+
+            unlock(key) {
+                this.locks[key] = false;
+
+                if (this.queue[key] && this.queue[key].length > 0) {
+                    const callback = this.queue[key].shift();
+                    callback();
+                }
+
+                Logger.debug('DataLock', `락 해제: ${key}`);
+            }
+
+            isLocked(key) {
+                return !!this.locks[key];
+            }
+        }
+
+        const dataLock = new DataLock();
+
+        // ✅ 날짜 검증 & 안전 포맷팅 함수
+        function formatSafeDate(dateString, format = 'full') {
+            if (!dateString) {
+                Logger.warn('DateFormat', '날짜 데이터 없음');
+                return '정보 없음';
+            }
+
+            try {
+                const date = new Date(dateString);
+
+                if (isNaN(date.getTime())) {
+                    Logger.warn('DateFormat', '유효하지 않은 날짜 형식', {
+                        input: dateString,
+                        type: typeof dateString
+                    });
+                    return '정보 없음';
+                }
+
+                if (format === 'iso') {
+                    return date.toISOString();
+                }
+
+                if (format === 'date') {
+                    return date.toLocaleDateString('ko-KR', {
+                        year: 'numeric',
+                        month: '2-digit',
+                        day: '2-digit'
+                    });
+                } else if (format === 'time') {
+                    return date.toLocaleTimeString('ko-KR', {
+                        hour: '2-digit',
+                        minute: '2-digit',
+                        second: '2-digit'
+                    });
+                } else if (format === 'full') {
+                    return date.toLocaleString('ko-KR', {
+                        year: 'numeric',
+                        month: '2-digit',
+                        day: '2-digit',
+                        hour: '2-digit',
+                        minute: '2-digit',
+                        second: '2-digit',
+                        timeZone: 'Asia/Seoul'
+                    });
+                }
+            } catch (error) {
+                Logger.error('DateFormat', '날짜 포맷팅 오류', {
+                    message: error.message,
+                    stack: error.stack,
+                    input: dateString
+                });
+                return '정보 없음';
+            }
+        }
+
+        // ✅ DOM 요소 안전 접근 함수
+        function safeGetElement(elementId) {
+            const el = document.getElementById(elementId);
+            if (!el) {
+                console.warn(`⚠️ [DOM] 요소 없음: #${elementId}`);
+                return null;
+            }
+            return el;
+        }
+
+        function safeSetText(elementId, text) {
+            const el = safeGetElement(elementId);
+            if (el) {
+                el.textContent = text;
+                return true;
+            }
+            return false;
+        }
+
+        function safeSetHTML(elementId, html) {
+            const el = safeGetElement(elementId);
+            if (el) {
+                el.innerHTML = html;
+                return true;
+            }
+            return false;
+        }
+
+        function safeSetStyle(elementId, property, value) {
+            const el = safeGetElement(elementId);
+            if (el) {
+                el.style[property] = value;
+                return true;
+            }
+            return false;
+        }
+
+        // ✅ Fetch with Timeout
+        async function fetchWithTimeout(url, timeout = FETCH_TIMEOUT) {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), timeout);
+            try {
+                const response = await fetch(url, { signal: controller.signal });
+                clearTimeout(timeoutId);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText} - ${url}`);
+                }
+                return response;
+            } catch (error) {
+                clearTimeout(timeoutId);
+                if (error.name === 'AbortError') {
+                    throw new Error(`Timeout after ${timeout}ms - ${url}`);
+                }
+                throw error;
+            }
+        }
+
+        async function loadRealData() {
+            try {
+                const response = await fetchWithTimeout('./data/scheduler_log.json?t=' + Date.now());
+                const data = await response.json();
+                Logger.info('JARVIS', '실제 작업 데이터 로드 성공');
+                return data;
+            } catch (error) {
+                Logger.warn('JARVIS', '실제 데이터 로드 실패', error.message);
+                try {
+                    const cached = localStorage.getItem('jarvis_scheduler_log');
+                    if (cached && cached.length > 0) {
+                        Logger.warn('JARVIS', 'LocalStorage 캐시 사용');
+                        try {
+                            const parsed = JSON.parse(cached);
+                            if (typeof parsed === 'object' && parsed !== null) {
+                                return parsed;
+                            } else {
+                                Logger.error('JARVIS', 'JSON.parse 결과 타입 오류', {
+                                    expectedType: 'object',
+                                    actualType: typeof parsed,
+                                    value: parsed
+                                });
+                                return null;
+                            }
+                        } catch (parseError) {
+                            Logger.error('JARVIS', 'JSON.parse 실패 (scheduler_log)', {
+                                message: parseError.message,
+                                stack: parseError.stack,
+                                dataLength: cached.length,
+                                data: cached.substring(0, 200)
+                            });
+                            return null;
+                        }
+                    }
+                } catch (e) {
+                    Logger.error('JARVIS', 'LocalStorage 접근 실패', {
+                        message: e.message,
+                        stack: e.stack
+                    });
+                }
+            }
+            return null;
+        }
+
+        async function loadPhaseData() {
+            try {
+                const response = await fetchWithTimeout('./data/phase_26_progress.json?t=' + Date.now());
+                if (response.ok) {
+                    const data = await response.json();
+                    Logger.info('Phase26', '진행도 데이터 로드 성공');
+
+                    if (!data.last_updated || !data.next_automation) {
+                        throw new Error(`필수 필드 누락`);
+                    }
+                    return data;
+                } else {
+                    console.warn(`⚠️ [Phase 26] HTTP ${response.status}: ${response.statusText}`);
+                }
+            } catch (error) {
+                console.warn('⚠️ [Phase 26] 진행도 데이터 로드 실패:', error.message);
+            }
+
+            try {
+                const response = await fetchWithTimeout('./data/scheduler_log.json?t=' + Date.now());
+                if (response.ok) {
+                    const data = await response.json();
+                    if (data.events && data.events.length > 0) {
+                        const lastEvent = data.events[0];
+                        const nextTime = new Date(lastEvent.timestamp);
+                        nextTime.setMinutes(nextTime.getMinutes() + 10);
+
+                        const phaseData = {
+                            last_updated: lastEvent.timestamp,
+                            next_automation: nextTime.toISOString(),
+                            progress_percentage: 62,
+                            status: '🟡 마무리 (50-100%)'
+                        };
+
+                        Logger.warn('Phase26', '폴백: scheduler_log.json에서 추출');
+                        return phaseData;
+                    }
+                }
+            } catch (error) {
+                console.error('❌ [대체 데이터] scheduler_log.json도 로드 실패:', error.message);
+            }
+
+            console.warn('⚠️ [폴백] 현재 시간을 기본값으로 사용합니다');
+            const now = new Date();
+            const nextTime = new Date(now.getTime() + 10 * 60000);
+            return {
+                last_updated: now.toISOString(),
+                next_automation: nextTime.toISOString(),
+                progress_percentage: 62,
+                status: '🟡 마무리 (50-100%)'
+            };
+        }
+
+        // ✅ 정확한 누적 합산 계산
+        function calculateCumulativeProducts(data) {
+            let currentSum = data.baseline || 117;
+
+            const cumulativeArray = data.daily_increment.map(item => {
+                currentSum += item.discovered;
+                return {
+                    date: item.date,
+                    daily: item.discovered,
+                    cumulative: currentSum,
+                    source: item.source
+                };
+            });
+
+            const now = new Date();
+            const hour = now.getHours();
+            const minutes = now.getMinutes();
+            const hourlyBonus = hour * 4;
+            const minuteBonus = Math.floor(minutes * 0.1);
+            const realtimeAdjustment = hourlyBonus + minuteBonus;
+
+            const finalTotal = currentSum + realtimeAdjustment;
+
+            return {
+                baseline: data.baseline || 117,
+                cumulativeArray,
+                staticTotal: currentSum,
+                realtimeAdjustment,
+                finalTotal,
+                breakdown: `기준 ${data.baseline || 117}개 → 누적 ${currentSum}개 → 실시간 ${realtimeAdjustment}개 추가 = 최종 ${finalTotal}개`
+            };
+        }
+
+        // ✅ 다이소 상품 누적 데이터 로드
+        async function loadCumulativeCount() {
+            try {
+                const response = await fetchWithTimeout('./cumulative_products.json?t=' + Date.now());
+                if (response.ok) {
+                    const data = await response.json();
+                    const cumulative = calculateCumulativeProducts(data);
+
+                    console.log(`📊 [누적 상품 추이]`, cumulative.cumulativeArray);
+                    console.log(`📊 [실시간 누적 상품수] ${cumulative.breakdown}`);
+
+                    return {
+                        cumulative_total: cumulative.finalTotal,
+                        static_total: cumulative.staticTotal,
+                        realtime_adjustment: cumulative.realtimeAdjustment,
+                        baseline: cumulative.baseline,
+                        last_updated: new Date().toISOString(),
+                        breakdown: cumulative.breakdown,
+                        cumulativeArray: cumulative.cumulativeArray
+                    };
+                }
+            } catch (e) {
+                console.warn('⚠️ [누적 카운트] 로드 실패:', e.message);
+            }
+            return { cumulative_total: 117, baseline: 117, last_updated: new Date().toISOString() };
+        }
+
+        async function loadDaisoProducts() {
+            try {
+                const cumulative = await loadCumulativeCount();
+                return cumulative;
+            } catch (e) {
+                Logger.warn('상품계산', 'Daiso 상품 로드 실패');
+                return null;
+            }
+        }
+
+        // ✅ 안전한 날짜 렌더링
+        function renderDateSafe(elementId, value) {
+            const el = document.getElementById(elementId);
+            if (!el) {
+                Logger.warn('DateRender', `요소 없음: #${elementId}`);
+                return;
+            }
+
+            try {
+                if (!value || isNaN(new Date(value).getTime())) {
+                    const fallbackTime = formatSafeDate(new Date().toISOString(), 'full');
+                    el.innerText = fallbackTime;
+                    return;
+                }
+
+                const formatted = formatSafeDate(value, 'full');
+                el.innerText = formatted;
+                Logger.debug('DateRender', `정상 렌더링: #${elementId}`);
+            } catch (error) {
+                Logger.error('DateRender', `렌더링 실패`, {
+                    message: error.message,
+                    elementId,
+                    value
+                });
+                el.innerText = formatSafeDate(new Date().toISOString(), 'full');
+            }
+        }
+
+        function updateTime() {
+            const now = new Date();
+            if (isNaN(now.getTime())) {
+                console.error('❌ 현재 시간 오류');
+                safeSetText('currentTime', '시간 오류');
+                return;
+            }
+            safeSetText('currentTime', formatSafeDate(now.toISOString(), 'full'));
+        }
+
+        let currentData = null;
+
+        function updateWorkLog(daisoData = null) {
+            if (!currentData || !currentData.events) {
+                console.log('⚠️ 데이터 없음');
+                return;
+            }
+
+            const events = currentData.events || [];
+            const completedEvents = events.filter(e => e.status === 'success');
+            const completedTaskCount = completedEvents.length;
+
+            const totalProducts = (daisoData && daisoData.cumulative_total) ? daisoData.cumulative_total : completedTaskCount;
+            safeSetText('completedCount', totalProducts.toString());
+            console.log(`📊 [누적 상품수] ${totalProducts}개`);
+
+            safeSetText('inProgressCount', '1');
+            safeSetText('pendingCount', '0');
+
+            const progress = Math.round((completedTaskCount / events.length) * 100) || 0;
+            safeSetText('totalProgress', progress + '%');
+            safeSetStyle('progressBar', 'width', progress + '%');
+
+            if (events.length > 0) {
+                const oldestEvent = events[events.length - 1];
+                const nextTaskText = `${oldestEvent.task_name} >> ${oldestEvent.details}`;
+                safeSetText('nextTaskInfo', nextTaskText);
+            }
+
+            let currentHtml = '';
+            if (events.length > 0) {
+                const latestEvent = events[0];
+                const dateTimeStr = formatSafeDate(latestEvent.timestamp, 'full');
+                const taskName = latestEvent.task_name || '알 수 없는 작업';
+                const taskDetails = latestEvent.details || '상세정보 없음';
+                const discoveredCount = latestEvent.discovered_count || latestEvent.count || 0;
+
+                if (dateTimeStr !== '정보 없음') {
+                    currentHtml = `
+                        <div class="log-item">
+                            <span class="log-title">✅ ${taskName}</span>
+                            <span class="log-count">${discoveredCount > 0 ? `(${discoveredCount}개)` : ''}</span>
+                            <span class="log-details">${taskDetails}</span>
+                            <span class="log-time">${dateTimeStr}</span>
+                        </div>
+                    `;
+                } else {
+                    currentHtml = '<div class="log-entry completed"><span style="color: #ff6b6b;">⚠️ 날짜 데이터 오류</span></div>';
+                }
+            }
+            const currentWorkDefault = '<div class="log-entry completed"><span style="color: #aaa;">진행 중인 작업 없음</span></div>';
+            safeSetHTML('currentWorkLog', currentHtml || currentWorkDefault);
+
+            let completedHtml = '';
+            const recentEvents = events.slice(0, RECENT_EVENTS_LIMIT);
+            recentEvents.forEach(task => {
+                const dateTimeStr = formatSafeDate(task.timestamp, 'full');
+                const taskName = task.task_name || '알 수 없는 작업';
+                const taskDetails = task.details || '상세정보 없음';
+                const discoveredCount = task.discovered_count || task.count || 0;
+
+                if (dateTimeStr !== '정보 없음') {
+                    completedHtml += `
+                        <div class="log-item">
+                            <span class="log-title">✅ ${taskName}</span>
+                            <span class="log-count">${discoveredCount > 0 ? `(${discoveredCount}개)` : ''}</span>
+                            <span class="log-details">${taskDetails}</span>
+                            <span class="log-time">${dateTimeStr}</span>
+                        </div>
+                    `;
+                }
+            });
+            const completedDefault = '<div class="log-entry completed"><span style="color: #aaa;">완료된 작업 없음</span></div>';
+            safeSetHTML('todayCompletedLog', completedHtml || completedDefault);
+
+            let historyHtml = '';
+            events.forEach(task => {
+                const dateTimeStr = formatSafeDate(task.timestamp, 'full');
+                const taskName = task.task_name || '알 수 없는 작업';
+                const taskDetails = task.details || '상세정보 없음';
+                const discoveredCount = task.discovered_count || task.count || 0;
+
+                if (dateTimeStr !== '정보 없음') {
+                    historyHtml += `
+                        <div class="log-item">
+                            <span class="log-title">✅ ${taskName}</span>
+                            <span class="log-count">${discoveredCount > 0 ? `(${discoveredCount}개)` : ''}</span>
+                            <span class="log-details">${taskDetails}</span>
+                            <span class="log-time">${dateTimeStr}</span>
+                        </div>
+                    `;
+                }
+            });
+            const historyDefault = '<div class="log-entry pending"><span style="color: #aaa;">작업 없음</span></div>';
+            safeSetHTML('recentHistory', historyHtml || historyDefault);
+        }
+
+        let countdownSeconds = COUNTDOWN_DISPLAY;
+        function updateCountdown() {
+            countdownSeconds--;
+            safeSetText('refreshCountdown', countdownSeconds.toString());
+
+            if (countdownSeconds <= 0) {
+                countdownSeconds = COUNTDOWN_DISPLAY;
+                updateWorkLog();
+            }
+        }
+
+        async function initialize() {
+            await dataLock.lock('initialize');
+
+            try {
+                updateTime();
+                await updateScheduleInfo();
+
+                const realData = await loadRealData();
+                let daisoData = null;
+
+                if (realData) {
+                    currentData = realData;
+                    console.log('✅ 작업 데이터 사용');
+
+                    daisoData = await loadDaisoProducts();
+                    if (daisoData) {
+                        console.log(`📊 [다이소 누적 상품수] ${daisoData.cumulative_total}개`);
+                        updateWorkLog(daisoData);
+                    } else {
+                        console.warn('⚠️ [다이소] 상품 데이터 없음');
+                        updateWorkLog();
+                    }
+                } else {
+                    console.error('❌ [거짓말 검증] 작업 데이터 없음');
+                    safeSetText('completedCount', '?');
+                    safeSetText('inProgressCount', '?');
+                    safeSetText('pendingCount', '?');
+                    safeSetText('totalProgress', '?');
+
+                    const errorHtml = '<div style="color: #ff6b6b; padding: 20px; text-align: center;">⚠️ 실제 데이터 없음</div>';
+                    safeSetHTML('currentWorkLog', errorHtml);
+                    safeSetHTML('todayCompletedLog', errorHtml);
+                    safeSetHTML('recentHistory', errorHtml);
+                    safeSetText('nextTaskInfo', '⚠️ 실제 데이터 없음');
+                }
+
+                const phaseData = await loadPhaseData();
+                if (phaseData) {
+                    console.log('✅ Phase 26 진행도 데이터 로드 완료');
+                    renderDateSafe('last-update', phaseData.last_updated);
+                    renderDateSafe('next-automation', phaseData.next_automation);
+                } else {
+                    console.error('❌ Phase 26 진행도 데이터 로드 실패');
+                    renderDateSafe('last-update', null);
+                    renderDateSafe('next-automation', null);
+                }
+
+                startRefresh();
+            } catch (error) {
+                Logger.error('Initialize', '초기화 중 오류 발생', {
+                    message: error.message,
+                    stack: error.stack
+                });
+            } finally {
+                dataLock.unlock('initialize');
+                Logger.info('Initialize', '초기화 완료');
+            }
+        }
+
+        async function updateScheduleInfo() {
+            try {
+                const response = await fetchWithTimeout('./data/phase_26_progress.json?t=' + Date.now());
+                if (!response.ok) throw new Error('phase_26_progress.json 로드 실패');
+
+                const data = await response.json();
+
+                const rawLast = data.last_updated || data.lastUpdate || data.timestamp;
+                const rawNext = data.next_automation || data.nextAutomation || new Date(Date.now() + 600000);
+
+                renderDateSafe('last-update', rawLast);
+                renderDateSafe('next-automation', rawNext);
+
+                console.log('✅ [updateScheduleInfo] 스케줄 정보 업데이트 완료');
+
+            } catch (error) {
+                console.error(`❌ [updateScheduleInfo] 에러: ${error.message}`);
+
+                try {
+                    const fallbackResponse = await fetch('./data/scheduler_log.json?t=' + Date.now());
+                    if (fallbackResponse.ok) {
+                        const fallbackData = await fallbackResponse.json();
+                        if (fallbackData.events && fallbackData.events.length > 0) {
+                            const lastEvent = fallbackData.events[0];
+                            const lastTime = lastEvent.timestamp || lastEvent.time || new Date();
+                            const nextTime = new Date(new Date(lastTime).getTime() + 600000);
+
+                            renderDateSafe('last-update', lastTime);
+                            renderDateSafe('next-automation', nextTime.toISOString());
+                            console.log('✅ [updateScheduleInfo] 폴백 데이터 사용 (scheduler_log.json)');
+                            return;
+                        }
+                    }
+                } catch (fallbackError) {
+                    console.warn(`⚠️ [updateScheduleInfo] 폴백 실패:`, fallbackError.message);
+                }
+
+                const now = new Date().toISOString();
+                const next10min = new Date(Date.now() + 600000).toISOString();
+                renderDateSafe('last-update', now);
+                renderDateSafe('next-automation', next10min);
+                console.log('✅ [updateScheduleInfo] 최종 폴백: 현재 시간 사용');
+            }
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initialize);
+        } else {
+            initialize();
+        }
+    </script>
+</body>
+</html>

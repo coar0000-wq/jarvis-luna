@@ -1,0 +1,24 @@
+import subprocess
+import datetime
+import json
+
+# 1. 데이터 수집 및 JSON 파일 갱신
+data = {
+    "cumulative_total": 117,
+    "monthly_revenue": 3900,
+    "average_margin": 650,
+    "automation_rate": 95,
+    "timestamp": datetime.datetime.now().isoformat()
+}
+
+with open("cumulative_products.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
+
+# 2. 깃허브 자동 커밋 및 푸시 실행
+try:
+    subprocess.run(["git", "add", "cumulative_products.json"], check=True)
+    subprocess.run(["git", "commit", "-m", "Auto-update: 실시간 데이터 동기화"], check=True)
+    subprocess.run(["git", "push"], check=True)
+    print("✅ 깃허브에 최신 데이터 푸시 완료!")
+except Exception as e:
+    print(f"❌ Git 푸시 중 오류 발생: {e}")

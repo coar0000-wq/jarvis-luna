@@ -1,0 +1,604 @@
+{
+  "events": [
+    {
+      "timestamp": "2026-08-21T05:43:53.095480Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 5개 발굴 (누적: 680개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T05:36:32.299363Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 5개 발굴 (누적: 675개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T05:36:32.258942Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 5개 발굴 (누적: 670개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T05:36:32.218845Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 4개 발굴 (누적: 665개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T05:36:32.176379Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 3개 발굴 (누적: 661개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T05:36:32.136169Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 658개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T05:03:01.762205Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 655개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T04:52:36.946810Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 3개 발굴 (누적: 652개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T04:52:36.914908Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 3개 발굴 (누적: 649개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T04:52:36.882657Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 3개 발굴 (누적: 646개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T04:52:36.849335Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 5개 발굴 (누적: 643개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T04:52:36.817243Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 5개 발굴 (누적: 638개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T04:24:54.284871Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 633개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T04:06:07.209676Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 4개 발굴 (누적: 630개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T04:06:07.180037Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 5개 발굴 (누적: 626개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T04:06:07.149853Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 4개 발굴 (누적: 621개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T04:06:07.119865Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 3개 발굴 (누적: 617개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T04:06:07.088723Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 614개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T03:44:30.559139Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 611개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T03:16:42.301198Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 3개 발굴 (누적: 608개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T03:16:42.268765Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 4개 발굴 (누적: 605개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T03:16:42.236293Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 3개 발굴 (누적: 601개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T03:16:42.197527Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 4개 발굴 (누적: 598개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T03:16:42.165145Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 594개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T02:56:32.775932Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 591개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T02:09:13.149437Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 3개 발굴 (누적: 588개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T02:09:13.117433Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 5개 발굴 (누적: 585개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T02:09:13.075831Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 5개 발굴 (누적: 580개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T02:09:13.028553Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 5개 발굴 (누적: 575개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T02:09:12.995768Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 4개 발굴 (누적: 570개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T01:54:09.995450Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 5개 발굴 (누적: 566개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T00:25:38.628731Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 5개 발굴 (누적: 561개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T00:25:38.600895Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 4개 발굴 (누적: 556개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T00:25:38.573544Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 4개 발굴 (누적: 552개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T00:25:38.545622Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 3개 발굴 (누적: 548개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T00:25:38.516893Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 545개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T00:01:56.474560Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 542개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T23:45:03.735406Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 5개 발굴 (누적: 539개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T23:45:03.709632Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 4개 발굴 (누적: 534개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T23:45:03.683614Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 4개 발굴 (누적: 530개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T23:45:03.656802Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 4개 발굴 (누적: 526개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T23:45:03.629770Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 5개 발굴 (누적: 522개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T23:44:27.559616Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 4개 발굴 (누적: 517개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T23:18:41.905230Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 513개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T23:14:35.709989Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 5개 발굴 (누적: 510개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T23:14:35.665838Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 3개 발굴 (누적: 505개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T23:14:35.623358Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 4개 발굴 (누적: 502개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T23:14:35.579036Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 5개 발굴 (누적: 498개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T23:14:35.536366Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 493개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T22:52:57.057092Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 490개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T22:49:08.191760Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 4개 발굴 (누적: 487개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T22:49:08.150439Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 4개 발굴 (누적: 483개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T22:49:08.108312Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 4개 발굴 (누적: 479개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T22:49:08.064384Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 5개 발굴 (누적: 475개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T22:49:08.022656Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 470개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T22:26:25.706356Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 5개 발굴 (누적: 467개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T22:11:34.761086Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 5개 발굴 (누적: 462개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T22:11:34.734520Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 3개 발굴 (누적: 457개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T22:11:34.708343Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 5개 발굴 (누적: 454개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T22:11:34.681910Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 5개 발굴 (누적: 449개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T22:11:34.654458Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 4개 발굴 (누적: 444개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T21:58:54.762481Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 440개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T21:41:04.187657Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 4개 발굴 (누적: 437개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T21:41:04.145776Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 4개 발굴 (누적: 433개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T21:41:04.103582Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 3개 발굴 (누적: 429개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T21:41:04.060392Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 5개 발굴 (누적: 426개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T21:41:04.018837Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 5개 발굴 (누적: 421개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T21:38:13.390401Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 4개 발굴 (누적: 416개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T21:04:42.258468Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 4개 발굴 (누적: 412개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T21:04:41.994147Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 3개 발굴 (누적: 408개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T21:04:41.638063Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 4개 발굴 (누적: 405개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T21:04:41.354913Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 5개 발굴 (누적: 401개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T21:04:41.300264Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 5개 발굴 (누적: 396개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T21:02:53.947813Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 4개 발굴 (누적: 391개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T20:40:52.381128Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 4개 발굴 (누적: 387개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T20:38:08.665167Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 3개 발굴 (누적: 383개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T20:38:08.634846Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 4개 발굴 (누적: 380개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T20:38:08.603976Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 5개 발굴 (누적: 376개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T20:38:08.570185Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 5개 발굴 (누적: 371개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T20:38:08.473229Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 366개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T20:05:02.186939Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 363개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T19:57:02.908365Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 4개 발굴 (누적: 360개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T19:57:02.878826Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 5개 발굴 (누적: 356개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T19:57:02.849898Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 4개 발굴 (누적: 351개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T19:57:02.820572Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 3개 발굴 (누적: 347개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T19:57:02.790625Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 4개 발굴 (누적: 344개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T19:43:32.464577Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 4개 발굴 (누적: 340개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T19:20:41.083862Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 4개 발굴 (누적: 336개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T19:20:41.040296Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 5개 발굴 (누적: 332개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T19:20:40.999426Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 4개 발굴 (누적: 327개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T19:20:40.956613Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 5개 발굴 (누적: 323개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T19:20:40.915132Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 318개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T19:10:09.692438Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 4개 발굴 (누적: 315개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T18:46:27.518963Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 상품 3개 발굴 (누적: 311개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T18:46:27.478938Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 상품 5개 발굴 (누적: 308개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T18:46:27.440513Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 상품 5개 발굴 (누적: 303개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T18:46:27.400332Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 상품 5개 발굴 (누적: 298개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T18:46:27.361965Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 5개 발굴 (누적: 293개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T18:26:20.140135Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 5개 발굴 (누적: 288개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-20T17:54:36.896297Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 상품 3개 발굴 (누적: 283개)",
+      "status": "success"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+name: 🤖 JARVIS Core Automation (매 10분)
+
+on:
+  schedule:
+    # 매 10분마다 실행 (통합 자동화)
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  core-automation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4.1.7
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Python 3.10 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 📦 라이브러리 설치
+        run: |
+          pip install requests feedparser torch numpy matplotlib --break-system-packages
+
+      # ============================================================
+      # [1/4] 다이소 상품 자동 발굴 (매 10분)
+      # ============================================================
+
+      - name: 🛍️ [1/4] 다이소 상품 발굴
+        id: daiso_discovery
+        run: |
+          echo "🛍️ 다이소 상품 자동 발굴..."
+          if python daiso_product_discovery.py; then
+            echo "status=success" >> $GITHUB_OUTPUT
+          else
+            echo "status=failed" >> $GITHUB_OUTPUT
+          fi
+
+      # ============================================================
+      # [2/4] Obsidian 실시간 동기화 (매 10분)
+      # ============================================================
+
+      - name: 📚 [2/4] Obsidian 동기화
+        id: obsidian_sync
+        run: |
+          echo "📚 Obsidian 그래프 동기화..."
+          if python scripts/obsidian_realtime_sync.py; then
+            echo "status=success" >> $GITHUB_OUTPUT
+          else
+            echo "status=failed" >> $GITHUB_OUTPUT
+          fi
+
+      # ============================================================
+      # [3/4] YouTube 데이터 수집 (매 10분)
+      # ============================================================
+
+      - name: 🎬 [3/4] YouTube 데이터 수집
+        id: youtube_collect
+        run: |
+          echo "🎬 YouTube 드롭쉬핑 분석..."
+          if python scripts/youtube_dropshipping_analysis.py; then
+            echo "status=success" >> $GITHUB_OUTPUT
+          else
+            echo "status=failed" >> $GITHUB_OUTPUT
+          fi
+
+      # ============================================================
+      # [4/4] Google 검색 데이터 수집 (매 10분)
+      # ============================================================
+
+      - name: 🔍 [4/4] Google 검색 데이터 수집
+        id: google_collect
+        run: |
+          echo "🔍 Google Trends 분석..."
+          if python scripts/google_search_data_collection.py; then
+            echo "status=success" >> $GITHUB_OUTPUT
+          else
+            echo "status=failed" >> $GITHUB_OUTPUT
+          fi
+
+      # ============================================================
+      # [5/5] Phase 26 실시간 진행도 업데이트 (매 10분)
+      # ============================================================
+
+      - name: 🧠 [5/5] Phase 26 진행도 업데이트
+        id: phase_26_progress
+        run: |
+          echo "🧠 Phase 26 MoE 라우터 진행도 업데이트..."
+          if python phase_26_progress_realtime.py; then
+            echo "status=success" >> $GITHUB_OUTPUT
+          else
+            echo "status=failed" >> $GITHUB_OUTPUT
+          fi
+
+      # ============================================================
+      # GitHub 자동 푸시
+      # ============================================================
+
+      - name: 📤 GitHub 자동 푸시
+        run: |
+          git config user.name "JARVIS"
+          git config user.email "jarvis@automated.local"
+          git add data/ index.html
+          git commit -m "🤖 JARVIS Core: 다이소+Obsidian+YouTube+Google (매 10분, $(date '+%Y-%m-%d %H:%M:%S UTC'))" || echo "No changes to commit"
+          git push origin main || echo "⚠️ Push failed"
+
+      # ============================================================
+      # 작업 완료 로그
+      # ============================================================
+
+      - name: ✅ 완료 로그
+        if: always()
+        run: |
+          echo "🎯 JARVIS Core Automation 완료"
+          echo "- 다이소 상품 발굴: ${{ steps.daiso_discovery.outputs.status }}"
+          echo "- Obsidian 동기화: ${{ steps.obsidian_sync.outputs.status }}"
+          echo "- YouTube 수집: ${{ steps.youtube_collect.outputs.status }}"
+          echo "- Google 수집: ${{ steps.google_collect.outputs.status }}"
+          echo "- Phase 26 진행도: ${{ steps.phase_26_progress.outputs.status }}"

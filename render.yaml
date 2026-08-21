@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: jarvis-luna
+    runtime: python3.11
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python jarvis_luna_complete.py"
+    envVars:
+      - key: OPENAI_API_KEY
+        scope: run
+        sync: false

@@ -1,0 +1,39 @@
+name: 🤖 JARVIS 자동화 시스템 (10분마다)
+
+on:
+  schedule:
+    # 매 10분마다 실행
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  jarvis_automation:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Python 설정
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 필수 라이브러리 설치
+        run: |
+          pip install requests feedparser --break-system-packages
+
+      - name: 🤖 JARVIS 자동 작업 실행
+        run: |
+          python scripts/jarvis_automation_real.py
+
+      - name: 📊 결과 커밋 및 푸시
+        run: |
+          git config --local user.email "jarvis@automation.local"
+          git config --local user.name "JARVIS Automation"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "변경사항 없음"
+          else
+            git commit -m "🤖 JARVIS 자동 실행: $(date '+%Y-%m-%d %H:%M:%S')"
+            git push origin main
+          fi

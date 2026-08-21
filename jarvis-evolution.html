@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARVIS LUNA - Evolution</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0a1b3d, #0f2347);
+            color: #fff;
+            overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #jarvis-container {
+            position: relative;
+            width: 500px;
+            height: 600px;
+            cursor: grab;
+        }
+
+        #jarvis-container:active {
+            cursor: grabbing;
+        }
+
+        svg {
+            width: 100%;
+            height: 100%;
+            filter: drop-shadow(0 20px 60px rgba(100, 229, 255, 0.25));
+            transition: filter 0.3s ease;
+        }
+
+        svg.energized {
+            filter: drop-shadow(0 30px 80px rgba(100, 229, 255, 0.5));
+        }
+
+        .info {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            color: #64e5ff;
+            font-size: 14px;
+            letter-spacing: 2px;
+            z-index: 10;
+        }
+
+        .status {
+            position: absolute;
+            bottom: 30px;
+            left: 30px;
+            color: #888;
+            font-size: 12px;
+            letter-spacing: 1px;
+            z-index: 10;
+        }
+
+        .stats {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            background: rgba(10, 27, 61, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(100, 229, 255, 0.2);
+            z-index: 10;
+            font-size: 12px;
+            min-width: 200px;
+        }
+
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            color: #ccc;
+        }
+
+        .stat-value {
+            color: #64e5ff;
+            font-weight: bold;
+        }
+
+        .controls {
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+            background: rgba(10, 27, 61, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(100, 229, 255, 0.2);
+            z-index: 10;
+            font-size: 12px;
+        }
+
+        .control-btn {
+            display: block;
+            margin-bottom: 8px;
+            padding: 8px 12px;
+            background: linear-gradient(135deg, #64e5ff, #3fa9e5);
+            color: #0a1b3d;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: all 0.3s;
+            font-size: 11px;
+        }
+
+        .control-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(100, 229, 255, 0.3);
+        }
+
+        .control-btn:active {
+            transform: scale(0.95);
+        }
+
+        .particle {
+            position: absolute;
+            pointer-events: none;
+        }
+
+        .pulse {
+            animation: pulse-ring 0.8s ease-out;
+        }
+
+        @keyframes pulse-ring {
+            0% {
+                r: 2px;
+                opacity: 1;
+            }
+            100% {
+                r: 30px;
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="info">JARVIS LUNA v2.0</div>
+        <div class="status">
+            <div>상태: <span id="state-text">대기중</span></div>
+            <div>에너지: <span id="energy-bar">████████░░</span></div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <span>행복도:</span>
+                <span class="stat-value" id="happiness">65%</span>
+            </div>
+            <div class="stat-item">
+                <span>에너지:</span>
+                <span class="stat-value" id="energy">80%</span>
+            </div>
+            <div class="stat-item">
+                <span>집중력:</span>
+                <span class="stat-value" id="focus">90%</span>
+            </div>
+            <div class="stat-item">
+                <span>진화도:</span>
+                <span class="stat-value" id="evolution">2.0</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="control-btn" onclick="jarvisInstance.dance()">춤추기</button>
+            <button class="control-btn" onclick="jarvisInstance.jump()">점프</button>
+            <button class="control-btn" onclick="jarvisInstance.sleep()">수면</button>
+            <button class="control-btn" onclick="jarvisInstance.energize()">충전</button>
+        </div>
+
+        <div id="jarvis-container">
+            <svg id="jarvis-svg" viewBox="0 0 320 520" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <filter id="furTexture">
+                        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" result="noise"/>
+                        <feDisplacementMap in="SourceGraphic" in2="noise" scale="2"/>
+                    </filter>
+                    <radialGradient id="furShade" cx="35%" cy="35%">
+                        <stop offset="0%" style="stop-color:#E8B8A0;stop-opacity:1"/>
+                        <stop offset="100%" style="stop-color:#8B6F47;stop-opacity:1"/>
+                    </radialGradient>
+                    <linearGradient id="furHighlight" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#F5D7C8;stop-opacity:0.6"/>
+                        <stop offset="100%" style="stop-color:#A0826D;stop-opacity:0"/>
+                    </linearGradient>
+                    <filter id="glow">
+                        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                        <feMerge>
+                            <feMergeNode in="coloredBlur"/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                </defs>
+
+                <!-- 배경 에너지 링 -->
+                <circle id="energy-ring" cx="160" cy="260" r="200" fill="none" stroke="#64e5ff" stroke-width="2" opacity="0.1"/>
+
+                <!-- === 머리 === -->
+                <ellipse id="head" cx="160" cy="110" rx="95" ry="100" fill="url(#furShade)" filter="url(#furTexture)"/>
+
+                <!-- 머리 하이라이트 -->
+                <ellipse cx="140" cy="90" rx="60" ry="50" fill="url(#furHighlight)" opacity="0.5"/>
+
+                <!-- 머리 표면 질감 -->
+                <circle cx="110" cy="70" r="5" fill="#8B6F47" opacity="0.4"/>
+                <circle cx="210" cy="75" r="6" fill="#8B6F47" opacity="0.3"/>
+
+                <!-- === 귀 === -->
+                <g class="ear-left">
+                    <ellipse cx="85" cy="30" rx="40" ry="75" fill="#9D8563" filter="url(#furTexture)"/>
+                    <ellipse cx="85" cy="35" rx="22" ry="50" fill="#B8A487" opacity="0.8"/>
+                    <ellipse cx="85" cy="20" rx="14" ry="25" fill="#D4AF9E" opacity="0.7"/>
+                </g>
+
+                <g class="ear-right">
+                    <ellipse cx="235" cy="30" rx="40" ry="75" fill="#9D8563" filter="url(#furTexture)"/>
+                    <ellipse cx="235" cy="35" rx="22" ry="50" fill="#B8A487" opacity="0.8"/>
+                    <ellipse cx="235" cy="20" rx="14" ry="25" fill="#D4AF9E" opacity="0.7"/>
+                </g>
+
+                <!-- === 얼굴 === -->
+                <ellipse id="face" cx="160" cy="135" rx="80" ry="85" fill="#C8A882" filter="url(#furTexture)"/>
+
+                <!-- === 코 === -->
+                <ellipse id="nose" cx="160" cy="105" rx="25" ry="28" fill="#1a1a1a" opacity="0.95"/>
+                <circle cx="148" cy="102" r="5" fill="#000" opacity="0.7"/>
+                <circle cx="172" cy="102" r="5" fill="#000" opacity="0.7"/>
+
+                <!-- === 입 === -->
+                <g id="mouth">
+                    <path d="M 160 125 Q 130 160 105 150" stroke="#1a1a1a" stroke-width="4.5" fill="none" stroke-linecap="round" opacity="0.95"/>
+                    <path d="M 160 125 Q 190 160 215 150" stroke="#1a1a1a" stroke-width="4.5" fill="none" stroke-linecap="round" opacity="0.95"/>
+                    <path d="M 160 125 L 155 145 Q 160 152 165 145 Z" fill="#000" opacity="0.25"/>
+                </g>
+
+                <!-- === 혀 === -->
+                <ellipse id="tongue" cx="160" cy="170" rx="18" ry="26" fill="#FF7BA4" opacity="0.9" filter="url(#furTexture)"/>
+
+                <!-- === 눈 === -->
+                <g id="eye-left" class="eye">
+                    <circle cx="120" cy="95" r="20" fill="#1a1a1a" opacity="0.98"/>
+                    <circle id="pupil-left" cx="128" cy="88" r="9" fill="#FFF" opacity="0.95"/>
+                    <circle cx="130" cy="90" r="5" fill="#1a1a1a" opacity="0.85"/>
+                    <circle cx="131" cy="86" r="2.5" fill="#FFF" opacity="0.9"/>
+                </g>
+
+                <g id="eye-right" class="eye">
+                    <circle cx="200" cy="95" r="20" fill="#1a1a1a" opacity="0.98"/>
+                    <circle id="pupil-right" cx="208" cy="88" r="9" fill="#FFF" opacity="0.95"/>
+                    <circle cx="210" cy="90" r="5" fill="#1a1a1a" opacity="0.85"/>
+                    <circle cx="211" cy="86" r="2.5" fill="#FFF" opacity="0.9"/>
+                </g>
+
+                <!-- === 안경 === -->
+                <g id="glasses" opacity="0.82">
+                    <circle cx="120" cy="95" r="25" fill="none" stroke="#D4AF9E" stroke-width="4.5"/>
+                    <circle cx="200" cy="95" r="25" fill="none" stroke="#D4AF9E" stroke-width="4.5"/>
+                    <line x1="145" y1="95" x2="175" y2="95" stroke="#D4AF9E" stroke-width="3.5" opacity="0.9"/>
+                    <circle cx="155" cy="98" r="2.5" fill="#D4AF9E" opacity="0.7"/>
+                    <circle cx="165" cy="98" r="2.5" fill="#D4AF9E" opacity="0.7"/>
+                </g>
+
+                <!-- === 몸 === -->
+                <ellipse id="body" cx="160" cy="310" rx="90" ry="140" fill="url(#furShade)" filter="url(#furTexture)"/>
+                <ellipse cx="140" cy="300" rx="50" ry="120" fill="#7A5C3A" opacity="0.2"/>
+                <ellipse cx="180" cy="280" rx="40" ry="80" fill="url(#furHighlight)" opacity="0.3"/>
+
+                <!-- === 팔 === -->
+                <g id="arm-left" class="arm" style="transform-origin: 105px 260px;">
+                    <ellipse cx="105" cy="260" rx="35" ry="90" fill="#9D8563" filter="url(#furTexture)"/>
+                    <circle cx="90" cy="150" r="28" fill="#B8A487"/>
+                    <path d="M 80 130 L 70 95 L 68 70" stroke="#B8A487" stroke-width="16" stroke-linecap="round" fill="none"/>
+                    <circle cx="68" cy="65" r="10" fill="#B8A487" opacity="0.8"/>
+                    <!-- 팔찌 -->
+                    <ellipse cx="105" cy="175" rx="48" ry="12" fill="#FFD700" opacity="0.85"/>
+                    <ellipse cx="105" cy="185" rx="48" ry="12" fill="#FF6B35" opacity="0.8"/>
+                    <ellipse cx="105" cy="195" rx="48" ry="12" fill="#4ECDC4" opacity="0.8"/>
+                </g>
+
+                <g id="arm-right" class="arm" style="transform-origin: 215px 260px;">
+                    <ellipse cx="215" cy="260" rx="35" ry="90" fill="#9D8563" filter="url(#furTexture)"/>
+                    <circle cx="230" cy="150" r="28" fill="#B8A487"/>
+                    <path d="M 240 130 L 250 95 L 252 70" stroke="#B8A487" stroke-width="16" stroke-linecap="round" fill="none"/>
+                    <circle cx="252" cy="65" r="10" fill="#B8A487" opacity="0.8"/>
+                    <!-- 팔찌 -->
+                    <ellipse cx="215" cy="175" rx="48" ry="12" fill="#FFD700" opacity="0.85"/>
+                    <ellipse cx="215" cy="185" rx="48" ry="12" fill="#FF6B35" opacity="0.8"/>
+                    <ellipse cx="215" cy="195" rx="48" ry="12" fill="#4ECDC4" opacity="0.8"/>
+                </g>
+
+                <!-- === 다리 === -->
+                <ellipse id="leg-left" cx="135" cy="430" rx="35" ry="55" fill="#9D8563" filter="url(#furTexture)"/>
+                <ellipse id="leg-right" cx="185" cy="430" rx="35" ry="55" fill="#9D8563" filter="url(#furTexture)"/>
+
+                <!-- === 신발 === -->
+                <g id="shoe-left" style="transform-origin: 135px 485px;">
+                    <ellipse cx="135" cy="485" rx="36" ry="30" fill="#E8503C"/>
+                    <ellipse cx="135" cy="465" rx="32" ry="16" fill="#F5F5F5"/>
+                    <line x1="120" y1="462" x2="150" y2="462" stroke="#1a1a1a" stroke-width="2.5" opacity="0.5"/>
+                    <line x1="119" y1="468" x2="151" y2="468" stroke="#1a1a1a" stroke-width="2.5" opacity="0.5"/>
+                </g>
+
+                <g id="shoe-right" style="transform-origin: 185px 485px;">
+                    <ellipse cx="185" cy="485" rx="36" ry="30" fill="#E8503C"/>
+                    <ellipse cx="185" cy="465" rx="32" ry="16" fill="#F5F5F5"/>
+                    <line x1="170" y1="462" x2="200" y2="462" stroke="#1a1a1a" stroke-width="2.5" opacity="0.5"/>
+                    <line x1="169" y1="468" x2="201" y2="468" stroke="#1a1a1a" stroke-width="2.5" opacity="0.5"/>
+                </g>
+
+                <!-- === 꼬리 === -->
+                <g id="tail" style="transform-origin: 235px 300px;">
+                    <path d="M 235 300 Q 280 270 305 160 Q 315 110 305 60 Q 300 30 290 20"
+                          stroke="#9D8563" stroke-width="56" fill="none" stroke-linecap="round" opacity="0.88" filter="url(#furTexture)"/>
+                    <path d="M 235 300 Q 280 270 305 160 Q 315 110 305 60"
+                          stroke="#D4AF9E" stroke-width="22" fill="none" stroke-linecap="round" opacity="0.35"/>
+                </g>
+            </svg>
+        </div>
+    </div>
+
+    <script>
+        class JarvisAI {
+            constructor() {
+                this.state = 'idle'; // idle, dancing, jumping, sleeping, energized
+                this.happiness = 65;
+                this.energy = 80;
+                this.focus = 90;
+                this.evolution = 2.0;
+
+                this.mouseX = window.innerWidth / 2;
+                this.mouseY = window.innerHeight / 2;
+                this.time = 0;
+
+                this.svg = document.getElementById('jarvis-svg');
+                this.container = document.getElementById('jarvis-container');
+
+                this.setupEventListeners();
+                this.animate();
+            }
+
+            setupEventListeners() {
+                document.addEventListener('mousemove', (e) => {
+                    this.mouseX = e.clientX;
+                    this.mouseY = e.clientY;
+                    this.trackMouse();
+                    this.updateHappiness(1);
+                });
+
+                this.container.addEventListener('click', () => {
+                    this.jump();
+                    this.updateEnergy(-5);
+                    this.updateFocus(-3);
+                });
+            }
+
+            trackMouse() {
+                const container = this.container.getBoundingClientRect();
+                const centerX = container.left + container.width / 2;
+                const centerY = container.top + container.height / 2;
+
+                const distX = (this.mouseX - centerX) * 0.08;
+                const distY = (this.mouseY - centerY) * 0.08;
+
+                // 눈 추적
+                const pupilLeft = document.getElementById('pupil-left');
+                const pupilRight = document.getElementById('pupil-right');
+
+                if (pupilLeft && pupilRight) {
+                    pupilLeft.style.transform = `translate(${Math.min(Math.max(distX * 0.3, -4), 4)}px, ${Math.min(Math.max(distY * 0.3, -4), 4)}px)`;
+                    pupilRight.style.transform = `translate(${Math.min(Math.max(distX * 0.3, -4), 4)}px, ${Math.min(Math.max(distY * 0.3, -4), 4)}px)`;
+                }
+
+                // 머리 기울임
+                const head = document.getElementById('head');
+                if (head) {
+                    head.style.transform = `rotate(${distX * 0.1}deg)`;
+                }
+            }
+
+            dance() {
+                this.state = 'dancing';
+                this.evolution = Math.min(this.evolution + 0.1, 3.0);
+                this.updateEnergy(-10);
+                this.updateHappiness(20);
+                setTimeout(() => { this.state = 'idle'; }, 3000);
+            }
+
+            jump() {
+                this.state = 'jumping';
+                this.updateEnergy(-8);
+                this.updateHappiness(15);
+                setTimeout(() => { this.state = 'idle'; }, 1000);
+            }
+
+            sleep() {
+                this.state = 'sleeping';
+                this.updateEnergy(30);
+                this.updateHappiness(-10);
+                setTimeout(() => { this.state = 'idle'; }, 2000);
+            }
+
+            energize() {
+                this.state = 'energized';
+                this.energy = 100;
+                this.svg.classList.add('energized');
+                this.evolution = Math.min(this.evolution + 0.2, 3.0);
+                setTimeout(() => {
+                    this.state = 'idle';
+                    this.svg.classList.remove('energized');
+                }, 2000);
+            }
+
+            updateHappiness(delta) {
+                this.happiness = Math.max(0, Math.min(100, this.happiness + delta));
+                document.getElementById('happiness').textContent = Math.round(this.happiness) + '%';
+            }
+
+            updateEnergy(delta) {
+                this.energy = Math.max(0, Math.min(100, this.energy + delta));
+                document.getElementById('energy').textContent = Math.round(this.energy) + '%';
+                this.updateEnergyBar();
+            }
+
+            updateFocus(delta) {
+                this.focus = Math.max(0, Math.min(100, this.focus + delta));
+                document.getElementById('focus').textContent = Math.round(this.focus) + '%';
+            }
+
+            updateEnergyBar() {
+                const filled = Math.round(this.energy / 10);
+                const bar = '█'.repeat(filled) + '░'.repeat(10 - filled);
+                document.getElementById('energy-bar').textContent = bar;
+            }
+
+            animate() {
+                this.time += 16;
+                const now = Date.now();
+
+                // === 상태별 애니메이션 ===
+                if (this.state === 'idle') {
+                    this.animateIdle(now);
+                } else if (this.state === 'dancing') {
+                    this.animateDance(now);
+                } else if (this.state === 'jumping') {
+                    this.animateJump(now);
+                } else if (this.state === 'sleeping') {
+                    this.animateSleep(now);
+                }
+
+                // === 에너지 소모 ===
+                if (this.energy > 0 && this.state !== 'sleeping') {
+                    this.updateEnergy(-0.1);
+                }
+
+                // === 진화도 업데이트 ===
+                document.getElementById('evolution').textContent = this.evolution.toFixed(2);
+                document.getElementById('state-text').textContent = this.getStateText();
+
+                requestAnimationFrame(() => this.animate());
+            }
+
+            animateIdle(now) {
+                const armLeft = document.getElementById('arm-left');
+                const armRight = document.getElementById('arm-right');
+                const tail = document.getElementById('tail');
+
+                const armRotation = Math.sin(now / 400) * 30 + Math.cos(now / 700) * 15;
+                if (armLeft) armLeft.style.transform = `rotate(${armRotation}deg)`;
+                if (armRight) armRight.style.transform = `rotate(${-armRotation}deg)`;
+
+                if (tail) {
+                    const tailWag = Math.sin(now / 350) * 30 + Math.cos(now / 550) * 15;
+                    tail.style.transform = `rotate(${tailWag}deg)`;
+                }
+
+                const bodyY = Math.sin(now / 2000) * 8;
+                this.container.style.transform = `translateY(${bodyY}px)`;
+            }
+
+            animateDance(now) {
+                const armLeft = document.getElementById('arm-left');
+                const armRight = document.getElementById('arm-right');
+                const legLeft = document.getElementById('leg-left');
+                const legRight = document.getElementById('leg-right');
+                const shoeLeft = document.getElementById('shoe-left');
+                const shoeRight = document.getElementById('shoe-right');
+
+                const armRotation = Math.sin(now / 200) * 60;
+                if (armLeft) armLeft.style.transform = `rotate(${armRotation}deg) scaleY(${1.1})`;
+                if (armRight) armRight.style.transform = `rotate(${-armRotation}deg) scaleY(${1.1})`;
+
+                if (legLeft) legLeft.style.transform = `rotate(${Math.sin(now / 250) * 20}deg)`;
+                if (legRight) legRight.style.transform = `rotate(${Math.cos(now / 250) * 20}deg)`;
+
+                if (shoeLeft) shoeLeft.style.transform = `rotate(${Math.sin(now / 150) * 25}deg)`;
+                if (shoeRight) shoeRight.style.transform = `rotate(${Math.cos(now / 150) * 25}deg)`;
+
+                const bounce = Math.abs(Math.sin(now / 300)) * 30;
+                this.container.style.transform = `translateY(${-bounce}px) rotate(${Math.sin(now / 500) * 5}deg)`;
+            }
+
+            animateJump(now) {
+                const jumpHeight = Math.max(0, Math.sin(now / 150)) * 100;
+                this.container.style.transform = `translateY(${-jumpHeight}px) scale(${1 + jumpHeight * 0.001})`;
+            }
+
+            animateSleep(now) {
+                const eyeLeft = document.getElementById('eye-left');
+                const eyeRight = document.getElementById('eye-right');
+                const tongue = document.getElementById('tongue');
+
+                if (eyeLeft && eyeRight) {
+                    const sleepClose = Math.sin(now / 1000) * 0.5 + 0.5;
+                    eyeLeft.style.opacity = 1 - sleepClose;
+                    eyeRight.style.opacity = 1 - sleepClose;
+                }
+
+                if (tongue) {
+                    tongue.style.opacity = 0.3;
+                }
+
+                const sway = Math.sin(now / 2000) * 5;
+                this.container.style.transform = `translateX(${sway}px)`;
+            }
+
+            getStateText() {
+                const texts = {
+                    'idle': '대기중',
+                    'dancing': '춤추는중 🎵',
+                    'jumping': '점프중 🚀',
+                    'sleeping': '수면중 💤',
+                    'energized': '충전중 ⚡'
+                };
+                return texts[this.state] || '대기중';
+            }
+        }
+
+        const jarvisInstance = new JarvisAI();
+    </script>
+</body>
+</html>

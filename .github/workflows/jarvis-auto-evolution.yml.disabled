@@ -1,0 +1,32 @@
+name: 🤖 JARVIS 자동 진화
+
+on:
+  schedule:
+    # 매 1분마다 실행 (UTC 시간)
+    - cron: '* * * * *'
+  workflow_dispatch:
+
+jobs:
+  auto-evolution:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📦 코드 체크아웃
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Python 설정
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: 🚀 JARVIS 자동 진화 시작
+        run: python .github/workflows/update_activity_log.py
+
+      - name: 📝 커밋 및 푸시
+        run: |
+          git config user.name "JARVIS"
+          git config user.email "jarvis@automated.local"
+          git add data/
+          git commit -m "🤖 JARVIS 자동 진화 - $(date +'%Y-%m-%d %H:%M:%S')" || true
+          git push origin main || true
