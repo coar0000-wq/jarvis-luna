@@ -16,14 +16,14 @@
         .adaptive-hero::before { content: ''; position: absolute; inset: 0; z-index: 0; background: linear-gradient(90deg, rgba(247,243,234,.88) 0%, rgba(247,243,234,.63) 34%, rgba(247,243,234,.18) 65%, rgba(247,243,234,.45) 100%); }
         .hero-brand-row { position: relative; z-index: 4; display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: clamp(48px, 7.5vw, 68px); }
         .hero-status-list { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 7px 9px; width: min(690px, 66vw); }
-        .hero-status-item { display: inline-flex; align-items: center; gap: 6px; padding: 5px 8px; border: 1px solid rgba(37, 54, 74, .16); border-radius: 999px; background: rgba(255,255,255,.72); color: #263442; font-size: 10px; font-weight: 700; white-space: nowrap; box-shadow: 0 4px 10px rgba(29, 39, 55, .08); }
+        .hero-status-item { display: inline-flex; align-items: center; gap: 6px; padding: 0; border: 0; background: transparent; color: #263442; font-size: 10px; font-weight: 700; white-space: nowrap; }
         .hero-status-dot { width: 7px; height: 7px; flex: 0 0 7px; border-radius: 50%; background: #35b55e; box-shadow: 0 0 0 3px rgba(53,181,94,.16); animation: status-pulse 1.7s ease-in-out infinite; }
         .hero-wordmark { color: #12151a; font-size: 12px; font-weight: 700; letter-spacing: .46em; }
         .hero-live { color: #167c3d; font-size: 12px; font-weight: 700; letter-spacing: .08em; display: inline-flex; align-items: center; gap: 7px; }
         .hero-live::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: #35b55e; box-shadow: 0 0 0 4px rgba(53,181,94,.14); animation: status-pulse 1.7s ease-in-out infinite; }
         @keyframes status-pulse { 0%, 100% { opacity: .5; transform: scale(.82); } 50% { opacity: 1; transform: scale(1); } }
         .hero-layout { position: relative; z-index: 2; display: grid; grid-template-columns: minmax(280px, 1fr) minmax(220px, .56fr); align-items: center; gap: 20px; min-height: 405px; }
-        .hero-copy { align-self: center; max-width: 430px; padding: 20px; border: 1px solid rgba(255,255,255,.40); border-radius: 18px; background: rgba(247,243,234,.58); box-shadow: 0 12px 28px rgba(48, 39, 27, .12); backdrop-filter: blur(4px); }
+        .hero-copy { align-self: center; max-width: 430px; }
         .hero-eyebrow { color: #246fca; font-size: 11px; font-weight: 800; letter-spacing: .13em; margin-bottom: 13px; }
         .adaptive-hero h1 { color: #12151a; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(2.3rem, 4.3vw, 4.2rem); line-height: .98; letter-spacing: -.045em; margin-bottom: 18px; }
         .hero-subtitle { color: #5d6470; max-width: 330px; font-size: 15px; line-height: 1.65; }
@@ -33,7 +33,7 @@
         .hero-action:hover { background: #246fca; border-color: #246fca; transform: translateY(-2px); }
         .hero-action.secondary:hover { color: #fff; }
         .hero-action:active { transform: scale(.97); }
-        .hero-intelligence { margin-top: 25px; border: 1px solid rgba(41, 55, 72, .15); border-radius: 12px; background: rgba(255, 255, 255, .52); padding: 13px 15px; box-shadow: 0 8px 20px rgba(39, 47, 58, .06); }
+        .hero-intelligence { margin-top: 25px; padding: 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
         .hero-intelligence h3 { color: #246fca; font-size: 10px; letter-spacing: .12em; margin-bottom: 8px; }
         .hero-intelligence p { color: #535b66; font-size: 12px; line-height: 1.7; }
         .hero-kpis { align-self: center; border-radius: 15px; background: #121820; border: 1px solid #252f3d; color: #e8edf5; padding: 8px 20px; box-shadow: 0 16px 28px rgba(0,0,0,.22); }
@@ -61,7 +61,8 @@
 
         .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; }
         .team-card { background: #21262d; border: 1px solid #30363d; border-radius: 8px; padding: 16px; }
-        .team-card h4 { color: #58a6ff; font-size: 14px; margin-bottom: 10px; display: flex; justify-content: space-between; }
+        .team-card h4 { color: #58a6ff; font-size: 14px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; gap: 6px; }
+        .legal-team-note { flex: 1; color: #c9d1d9; font-size: 10px; font-weight: 500; letter-spacing: 0; }
         .team-card p { font-size: 13px; color: #c9d1d9; line-height: 1.6; }
 
         /* 로그 및 프로그레스바 */
@@ -119,7 +120,7 @@
             .hero-brand-row { flex-wrap: wrap; min-height: auto; }
             .hero-status-list { position: static; transform: none; order: 3; width: 100%; margin: 4px auto 0; }
             .hero-status-item { font-size: 9px; padding: 4px 6px; }
-            .hero-copy { max-width: none; padding: 16px; }
+            .hero-copy { max-width: none; }
             .hero-kpis { grid-column: 1; grid-template-columns: 1fr 1fr; padding: 6px 14px; }
             .hero-kpi strong { font-size: 18px; }
         }
@@ -184,7 +185,7 @@
                     <p>배송 대기: <span id="order-pending">12건</span><br>출고 완료: <span id="order-shipped">28건</span></p>
                 </div>
                 <div class="team-card">
-                    <h4>⚖️ 법무팀 <span id="legal-status">검토 대기</span></h4>
+                    <h4>⚖️ 법무팀 <small class="legal-team-note">민서 posco future M-한성 월급 200만원 ㅋ</small><span id="legal-status">검토 대기</span></h4>
                     <p>검토 상품: <span id="legal-products">0개</span><br>우선 작업: <span id="legal-priority">제품 정보 확인</span></p>
                 </div>
             </div>
