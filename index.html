@@ -156,7 +156,7 @@
             .hero-intelligence--desktop { display: none; }
             .hero-intelligence--mobile { display: block; }
             .hero-intelligence--mobile p { color: #394858; font-size: 13px; font-weight: 700; line-height: 1.55; }
-            .adaptive-hero h1 { font-size: clamp(3rem, 15vw, 4.2rem); }
+            .adaptive-hero h1 { font-size: clamp(2.65rem, 13vw, 3.8rem); }
             .hero-subtitle { font-size: 1.3rem; max-width: 350px; }
             .hero-copy { max-width: none; }
             .hero-kpis { grid-column: 1; grid-template-columns: 1fr 1fr; padding: 6px 14px; }
@@ -233,33 +233,6 @@
             </div>
         </div>
 
-        <!-- 최신 전략 보고서 (동적 로딩) -->
-        <section class="card strategy-card" id="strategy-report-card" hidden>
-            <div class="strategy-header">
-                <div>
-                    <h2 id="strategy-title">🎯 최신 5일 전략 보고서</h2>
-                    <p class="strategy-updated" id="strategy-updated">최신 데이터를 불러오는 중입니다.</p>
-                </div>
-                <span class="strategy-status" id="strategy-status">보고서 생성 완료</span>
-            </div>
-            <div class="stats-grid">
-                <div class="stat-box"><h3>분석 상품 수</h3><p id="strategy-products">-</p></div>
-                <div class="stat-box"><h3>최근 5일 주문</h3><p id="strategy-orders">-</p></div>
-                <div class="stat-box"><h3>최근 5일 Shopify 매출</h3><p id="strategy-revenue">-</p></div>
-                <div class="stat-box"><h3>주문 이행률</h3><p id="strategy-fulfillment">-</p></div>
-                <div class="stat-box"><h3>전환율</h3><p id="strategy-conversion">-</p></div>
-                <div class="stat-box"><h3>미처리 주문</h3><p id="strategy-pending">-</p></div>
-            </div>
-            <section class="revenue-trend" id="revenue-trend" hidden>
-                <div class="revenue-trend-header">
-                    <h3>📈 최근 5일 Shopify 매출 추이</h3>
-                    <span class="revenue-trend-total" id="revenue-trend-total">$0</span>
-                </div>
-                <div class="daily-revenue-bars" id="daily-revenue-bars"></div>
-            </section>
-            <div class="strategy-recommendations" id="strategy-recommendations"></div>
-        </section>
-
         <!-- 작업 상세 로그 (동적 로딩) -->
         <div class="card briefing-card">
             <h2>📋 작업 상세 로그 (Live Briefing)</h2>
@@ -286,6 +259,33 @@
                 <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 100%;"></div></div>
             </div>
         </div>
+
+        <!-- 최신 전략 보고서 (동적 로딩) -->
+        <section class="card strategy-card" id="strategy-report-card" hidden>
+            <div class="strategy-header">
+                <div>
+                    <h2 id="strategy-title">🎯 최신 5일 전략 보고서</h2>
+                    <p class="strategy-updated" id="strategy-updated">최신 데이터를 불러오는 중입니다.</p>
+                </div>
+                <span class="strategy-status" id="strategy-status">보고서 생성 완료</span>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-box"><h3>분석 상품 수</h3><p id="strategy-products">-</p></div>
+                <div class="stat-box"><h3>최근 5일 주문</h3><p id="strategy-orders">-</p></div>
+                <div class="stat-box"><h3>최근 5일 Shopify 매출</h3><p id="strategy-revenue">-</p></div>
+                <div class="stat-box"><h3>주문 이행률</h3><p id="strategy-fulfillment">-</p></div>
+                <div class="stat-box"><h3>전환율</h3><p id="strategy-conversion">-</p></div>
+                <div class="stat-box"><h3>미처리 주문</h3><p id="strategy-pending">-</p></div>
+            </div>
+            <section class="revenue-trend" id="revenue-trend" hidden>
+                <div class="revenue-trend-header">
+                    <h3>📈 최근 5일 Shopify 매출 추이</h3>
+                    <span class="revenue-trend-total" id="revenue-trend-total">$0</span>
+                </div>
+                <div class="daily-revenue-bars" id="daily-revenue-bars"></div>
+            </section>
+            <div class="strategy-recommendations" id="strategy-recommendations"></div>
+        </section>
 
         <!-- 법무팀 수출 컴플라이언스 (동적 로딩) -->
         <section class="card legal-card" id="legal-compliance-card" hidden>
