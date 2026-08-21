@@ -43,11 +43,12 @@
         .hero-intelligence h3 { color: #246fca; font-size: 10px; letter-spacing: .12em; margin-bottom: 8px; }
         .hero-intelligence p { color: #535b66; font-size: 12px; line-height: 1.7; }
         .hero-intelligence--mobile { display: none; }
-        .hero-kpis { align-self: center; border-radius: 16px; background: rgba(255,255,255,.52); border: 0; color: #182531; padding: 8px 20px; box-shadow: 0 16px 30px rgba(35,30,24,.13); backdrop-filter: blur(14px) saturate(120%); -webkit-backdrop-filter: blur(14px) saturate(120%); }
-        .hero-kpi { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 18px 0; border-bottom: 1px solid rgba(39,58,74,.18); }
+        .hero-kpis { position: relative; isolation: isolate; overflow: hidden; align-self: center; border-radius: 22px; background: linear-gradient(135deg, rgba(255,255,255,.58) 0%, rgba(255,255,255,.28) 42%, rgba(255,255,255,.16) 100%); border: 0; color: #182531; padding: 8px 20px; box-shadow: inset 0 1px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(255,255,255,.12), 0 22px 42px rgba(8,18,28,.2); backdrop-filter: blur(24px) saturate(155%); -webkit-backdrop-filter: blur(24px) saturate(155%); }
+        .hero-kpis::before { content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: linear-gradient(118deg, rgba(255,255,255,.38) 0%, rgba(255,255,255,.08) 34%, transparent 56%, rgba(255,255,255,.14) 100%); }
+        .hero-kpi { position: relative; z-index: 1; display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 18px 0; border-bottom: 1px solid rgba(255,255,255,.28); }
         .hero-kpi:last-child { border-bottom: 0; }
-        .hero-kpi span { color: #536171; font-size: 12px; font-weight: 700; }
-        .hero-kpi strong { color: #172e43; font-size: 22px; text-shadow: 0 1px 0 rgba(255,255,255,.7); }
+        .hero-kpi span { color: #435466; font-size: 12px; font-weight: 700; text-shadow: 0 1px 0 rgba(255,255,255,.48); }
+        .hero-kpi strong { color: #102b43; font-size: 22px; text-shadow: 0 1px 0 rgba(255,255,255,.72), 0 3px 12px rgba(255,255,255,.18); }
         .hero-kpi:last-child strong { color: #14733d; }
         
         /* 상단 시스템 상태 카드 */
