@@ -12,10 +12,10 @@ jobs:
       contents: read
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -25,16 +25,16 @@ jobs:
 
       - name: 📊 Collect 5-Day Data
         run: |
-          python -c "
-import json
-from datetime import datetime
-data = {
-  'timestamp': datetime.utcnow().isoformat() + 'Z',
-  'collection_date': datetime.utcnow().strftime('%Y-%m-%d'),
-  'period': 'Last 5 Days'
-}
-print('✅ 데이터 수집 완료')
-"
+          python - << 'EOF'
+          import json
+          from datetime import datetime
+          data = {
+              "timestamp": datetime.utcnow().isoformat() + "Z",
+              "collection_date": datetime.utcnow().strftime("%Y-%m-%d"),
+              "period": "Last 5 Days"
+          }
+          print("✅ 데이터 수집 완료")
+          EOF
 
       - name: 🎯 Generate Strategy Analysis
         run: |
@@ -45,23 +45,22 @@ print('✅ 데이터 수집 완료')
 
       - name: 📧 Send Email Report
         run: |
-          python -c "
-from pathlib import Path
-import json
-from datetime import datetime
+          python - << 'EOF'
+          from pathlib import Path
+          import json
+          from datetime import datetime
 
-# PPT 파일 확인
-ppt_files = list(Path('data').glob('strategy_report_*.pptx'))
-json_files = list(Path('data').glob('strategy_report_*.json'))
+          ppt_files = list(Path("data").glob("strategy_report_*.pptx"))
+          json_files = list(Path("data").glob("strategy_report_*.json"))
 
-if ppt_files or json_files:
-    print('✅ 전략분석 보고서 생성 완료')
-    print(f'📄 PPT 파일: {len(ppt_files)}개')
-    print(f'📊 분석 데이터: {len(json_files)}개')
-    print('📧 이메일 발송 대상: coar0000@naver.com')
-else:
-    print('⚠️ 보고서 파일 없음')
-"
+          if ppt_files or json_files:
+              print("✅ 전략분석 보고서 생성 완료")
+              print(f"📄 PPT 파일: {len(ppt_files)}개")
+              print(f"📊 분석 데이터: {len(json_files)}개")
+              print("📧 이메일 발송 대상: coar0000@naver.com")
+          else:
+              print("⚠️ 보고서 파일 없음")
+          EOF
 
       - name: 📝 Update Report Log
         run: |
