@@ -13,7 +13,9 @@
 
         /* MD Family Adaptive Intelligence Hero: top navigation is intentionally omitted. */
         .adaptive-hero { position: relative; isolation: isolate; overflow: hidden; min-height: 485px; margin-bottom: 26px; padding: 26px 30px; border-radius: 18px; background: #f7f3ea; color: #15171b; box-shadow: 0 20px 54px rgba(0, 0, 0, .28); }
-        .hero-brand-row { position: relative; z-index: 4; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+        .hero-brand-row { position: relative; z-index: 4; display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: clamp(48px, 11.7vw, 90px); }
+        .hero-status-strip { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: min(348px, 45vw); }
+        .hero-status-strip img { display: block; width: 100%; height: auto; border: 1px solid rgba(32, 43, 65, .16); border-radius: 8px; box-shadow: 0 6px 15px rgba(34, 45, 68, .12); }
         .hero-wordmark { color: #12151a; font-size: 12px; font-weight: 700; letter-spacing: .46em; }
         .hero-live { color: #167c3d; font-size: 12px; font-weight: 700; letter-spacing: .08em; display: inline-flex; align-items: center; gap: 7px; }
         .hero-live::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: #35b55e; box-shadow: 0 0 0 4px rgba(53,181,94,.14); }
@@ -32,7 +34,7 @@
         .hero-intelligence h3 { color: #246fca; font-size: 10px; letter-spacing: .12em; margin-bottom: 8px; }
         .hero-intelligence p { color: #535b66; font-size: 12px; line-height: 1.7; }
         .hero-dna-stage { position: relative; align-self: stretch; min-height: 405px; overflow: hidden; display: grid; place-items: center; }
-        .hero-photo-motion { position: relative; width: 100%; max-width: 420px; aspect-ratio: 16 / 9; display: flex; align-items: center; justify-content: center; animation: hero-photo-drift 8s cubic-bezier(.77,0,.175,1) infinite alternate; }
+        .hero-photo-motion { position: relative; width: 100%; max-width: 420px; aspect-ratio: 16 / 9; display: flex; align-items: center; justify-content: center; }
         .hero-photo-image { position: relative; z-index: 1; width: 100%; height: 100%; object-fit: cover; border: 1px solid rgba(55, 46, 35, .22); border-radius: 18px; box-shadow: 0 18px 30px rgba(43, 33, 21, .22); }
         .hero-kpis { align-self: center; border-radius: 15px; background: #121820; border: 1px solid #252f3d; color: #e8edf5; padding: 8px 20px; box-shadow: 0 16px 28px rgba(0,0,0,.22); }
         .hero-kpi { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 18px 0; border-bottom: 1px solid #2a3443; }
@@ -40,7 +42,6 @@
         .hero-kpi span { color: #aeb9c9; font-size: 12px; }
         .hero-kpi strong { color: #f7fbff; font-size: 22px; }
         .hero-kpi:last-child strong { color: #52c978; }
-        @keyframes hero-photo-drift { 0% { transform: translate3d(-7px, 7px, 0) rotate(-2.5deg); } 50% { transform: translate3d(6px, -6px, 0) rotate(.5deg); } 100% { transform: translate3d(-3px, -9px, 0) rotate(-1.5deg); } }
         
         /* 상단 시스템 상태 카드 */
         .system-status { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 22px; }
@@ -118,12 +119,11 @@
             .hero-layout { grid-template-columns: 1fr; min-height: auto; }
             .hero-dna-stage { grid-column: 1; grid-row: auto; min-height: 285px; order: -1; }
             .hero-photo-motion { width: 100%; max-width: 360px; aspect-ratio: 16 / 9; }
+            .hero-brand-row { flex-wrap: wrap; min-height: auto; }
+            .hero-status-strip { position: static; transform: none; order: 3; width: min(100%, 360px); margin: 4px auto 0; }
             .hero-copy { max-width: none; }
             .hero-kpis { grid-column: 1; grid-template-columns: 1fr 1fr; padding: 6px 14px; }
             .hero-kpi strong { font-size: 18px; }
-        }
-        @media (prefers-reduced-motion: reduce) {
-            .hero-photo-motion { animation: none; }
         }
     </style>
 </head>
@@ -132,7 +132,8 @@
         <!-- 메뉴 없이 스크롤로 이어지는 MD Family Adaptive Intelligence Hero -->
         <section class="adaptive-hero" aria-label="MD Family Adaptive Intelligence">
             <div class="hero-brand-row">
-                <span class="hero-wordmark">MD FAMILY</span>
+                <span class="hero-wordmark">JARVIS</span>
+                <div class="hero-status-strip"><img src="assets/jarvis-operations-status.png" alt="JARVIS 운영 상태: 도현 CEO 감시중, GitHub Actions 활성, JARVIS AI 자동화, Obsidian 오프라인"></div>
                 <span class="hero-live">LIVE</span>
             </div>
             <div class="hero-layout">
