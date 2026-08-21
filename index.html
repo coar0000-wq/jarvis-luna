@@ -44,6 +44,7 @@
         .progress-label { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 5px; color: #c9d1d9; }
         .progress-bar-bg { background: #21262d; border-radius: 6px; height: 10px; overflow: hidden; border: 1px solid #30363d; margin-bottom: 12px; }
         .progress-bar-fill { background: #1f6feb; height: 100%; border-radius: 6px; }
+        .progress-note { color: #8b949e; font-size: 12px; margin: -3px 0 13px; line-height: 1.45; }
 
         .footer { text-align: center; color: #6e7681; font-size: 12px; margin-top: 30px; padding-bottom: 20px; }
         .strategy-card { border-color: #1f6feb; }
@@ -146,31 +147,25 @@
         <div class="card">
             <h2>📋 작업 상세 로그 (Live Briefing)</h2>
             <ul class="log-list" id="log-container">
-                <li><span>✅ 대시보드 실시간 JSON 연동 완료</span><span class="time-badge">15:10</span></li>
-                <li><span>✅ 다이소 신상품 자동 수집 및 마진 계산</span><span class="time-badge">15:00</span></li>
-                <li><span>✅ Google Trends 및 미국 시장 적합도 분석</span><span class="time-badge">15:01</span></li>
-                <li><span>✅ Shopify 상품 페이지 생성 및 재무 연동</span><span class="time-badge">15:05</span></li>
+                <li><span>🔧 JARVIS 기술 진화 습득 · Phase 3: 양자 알고리즘 VQE</span><span class="time-badge">진행중</span></li>
+                <li><span>🏥 의료 논문 사이트 수집 · 최신 논문 3개 선정</span><span class="time-badge">완료</span></li>
+                <li><span>🧠 Obsidian 그래프 실시간 업데이트 · 815개 노드 확인</span><span class="time-badge">완료</span></li>
+                <li><span>📄 arXiv 이미지 트레이닝 논문 50개 수집</span><span class="time-badge">완료</span></li>
+                <li><span>📺 YouTube 드롭쉬핑 영상 분석 · 3개 채널 분석</span><span class="time-badge">완료</span></li>
             </ul>
         </div>
 
-        <!-- 프로젝트 진행도 -->
+        <!-- 프로젝트 진행도 (Phase 26 실시간 데이터) -->
         <div class="card">
             <h2>📊 프로젝트 진행도</h2>
-            <div class="progress-container">
-                <div class="progress-label"><span>전체 진행률 (Phase 26)</span><span>62%</span></div>
-                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 62%;"></div></div>
-                
-                <div class="progress-label"><span>JARVIS 진화</span><span>92%</span></div>
-                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 92%;"></div></div>
-
-                <div class="progress-label"><span>의료 AI 플랫폼</span><span>87%</span></div>
-                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 87%;"></div></div>
-
-                <div class="progress-label"><span>사업 플랫폼</span><span>90%</span></div>
-                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 90%;"></div></div>
-
-                <div class="progress-label"><span>기술 인프라</span><span>95%</span></div>
-                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 95%;"></div></div>
+            <p class="progress-note" id="progress-summary">Phase 26 · MoE 라우터 진행 데이터를 불러오는 중입니다.</p>
+            <div class="progress-container" id="progress-container">
+                <div class="progress-label"><span>Phase 26 · MoE 라우터</span><span>40%</span></div>
+                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 40%;"></div></div>
+                <div class="progress-label"><span>신경망 훈련</span><span>40 / 100 에포크</span></div>
+                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 40%;"></div></div>
+                <div class="progress-label"><span>완료된 핵심 작업</span><span>2개</span></div>
+                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 100%;"></div></div>
             </div>
         </div>
 
@@ -279,19 +274,66 @@
                     document.getElementById('strategy-report-card').hidden = false;
                 }
 
-                // 8. AI Briefing / Logs 로드 (ai_briefing.json이 있을 경우 동적으로 채움)
-                const briefRes = await fetch('data/ai_briefing.json');
-                if (briefRes.ok) {
-                    const logs = await briefRes.json();
-                    if (Array.isArray(logs) && logs.length > 0) {
+                // 8. Live Briefing: activity_log.json의 최신 5개 항목만 표시
+                const activityRes = await fetch(`data/activity_log.json?ts=${Date.now()}`, { cache: 'no-store' });
+                if (activityRes.ok) {
+                    const activityData = await activityRes.json();
+                    const activities = Array.isArray(activityData.activities) ? activityData.activities.slice(0, 5) : [];
+                    if (activities.length === 5) {
                         const logContainer = document.getElementById('log-container');
-                        logContainer.innerHTML = ''; // 기존 임시 로그 비우기
-                        logs.forEach(item => {
+                        logContainer.replaceChildren();
+                        activities.forEach(item => {
                             const li = document.createElement('li');
-                            li.innerHTML = `<span>${item.task || item.text || '작업 완료'}</span><span class="time-badge">${item.time || '15:00'}</span>`;
+                            const detail = item.details ? ` · ${item.details}` : '';
+                            const title = document.createElement('span');
+                            title.textContent = `${item.title || '작업 업데이트'}${detail}`;
+                            const badge = document.createElement('span');
+                            badge.className = 'time-badge';
+                            badge.textContent = item.status || '업데이트';
+                            li.append(title, badge);
                             logContainer.appendChild(li);
                         });
                     }
+                }
+
+                // 9. 프로젝트 진행도: Phase 26 실시간 스냅샷으로 대체
+                const progressRes = await fetch(`data/phase_26_progress.json?ts=${Date.now()}`, { cache: 'no-store' });
+                if (progressRes.ok) {
+                    const progress = await progressRes.json();
+                    const percent = Math.max(0, Math.min(100, Number(progress.progress_percentage) || 0));
+                    const inProgress = progress.in_progress || {};
+                    const epoch = Number(inProgress.epoch) || 0;
+                    const totalEpochs = Number(inProgress.total_epochs) || 0;
+                    const epochPercent = totalEpochs ? Math.min(100, Math.round((epoch / totalEpochs) * 100)) : 0;
+                    const completedCount = Array.isArray(progress.completed_tasks) ? progress.completed_tasks.length : 0;
+                    const upcomingCount = Array.isArray(progress.upcoming_tasks) ? progress.upcoming_tasks.length : 0;
+                    const phaseLabel = `Phase ${progress.phase || '-'} · ${progress.name || '프로젝트'}`;
+                    const rows = [
+                        { label: phaseLabel, value: `${percent}%`, percent },
+                        { label: inProgress.task || '현재 작업', value: totalEpochs ? `${epoch} / ${totalEpochs} 에포크` : '진행 중', percent: epochPercent },
+                        { label: '완료된 핵심 작업', value: `${completedCount}개`, percent: completedCount ? 100 : 0 },
+                        { label: '다음 작업 준비', value: `${upcomingCount}개`, percent: 0 },
+                    ];
+                    const container = document.getElementById('progress-container');
+                    container.replaceChildren();
+                    rows.forEach(row => {
+                        const label = document.createElement('div');
+                        label.className = 'progress-label';
+                        const name = document.createElement('span');
+                        name.textContent = row.label;
+                        const value = document.createElement('span');
+                        value.textContent = row.value;
+                        label.append(name, value);
+                        const barBackground = document.createElement('div');
+                        barBackground.className = 'progress-bar-bg';
+                        const bar = document.createElement('div');
+                        bar.className = 'progress-bar-fill';
+                        bar.style.width = `${row.percent}%`;
+                        barBackground.appendChild(bar);
+                        container.append(label, barBackground);
+                    });
+                    const updatedAt = progress.last_updated ? new Date(progress.last_updated).toLocaleString('ko-KR', { dateStyle: 'medium', timeStyle: 'short' }) : '갱신 시각 정보 없음';
+                    document.getElementById('progress-summary').textContent = `${phaseLabel} · ${progress.status || '상태 정보 없음'} · 마지막 갱신 ${updatedAt}`;
                 }
 
             } catch (e) {
