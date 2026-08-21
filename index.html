@@ -46,6 +46,18 @@
         .progress-bar-fill { background: #1f6feb; height: 100%; border-radius: 6px; }
 
         .footer { text-align: center; color: #6e7681; font-size: 12px; margin-top: 30px; padding-bottom: 20px; }
+        .strategy-card { border-color: #1f6feb; }
+        .strategy-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+        .strategy-header h2 { margin-bottom: 6px; }
+        .strategy-updated { color: #8b949e; font-size: 12px; }
+        .strategy-status { color: #3fb950; background: #113822; border: 1px solid #238636; border-radius: 14px; font-size: 11px; font-weight: bold; padding: 5px 10px; white-space: nowrap; }
+        .strategy-recommendations { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin-top: 14px; }
+        .strategy-item { background: #21262d; border: 1px solid #30363d; border-radius: 8px; padding: 14px; }
+        .strategy-item h3 { color: #58a6ff; font-size: 14px; margin-bottom: 7px; }
+        .strategy-item p { color: #c9d1d9; font-size: 13px; line-height: 1.55; }
+        .strategy-impact { display: block; color: #3fb950; font-size: 12px; margin-top: 9px; font-weight: bold; }
+        .strategy-download { display: inline-block; margin-top: 17px; color: #f0f6fc; background: #238636; border: 1px solid #2ea043; border-radius: 7px; padding: 9px 13px; font-size: 13px; font-weight: bold; text-decoration: none; }
+        .strategy-download:hover { background: #2ea043; }
     </style>
 </head>
 <body>
@@ -108,6 +120,25 @@
                 </div>
             </div>
         </div>
+
+        <!-- 최신 전략 보고서 (동적 로딩) -->
+        <section class="card strategy-card" id="strategy-report-card" hidden>
+            <div class="strategy-header">
+                <div>
+                    <h2 id="strategy-title">🎯 최신 5일 전략 보고서</h2>
+                    <p class="strategy-updated" id="strategy-updated">최신 데이터를 불러오는 중입니다.</p>
+                </div>
+                <span class="strategy-status" id="strategy-status">보고서 생성 완료</span>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-box"><h3>분석 상품 수</h3><p id="strategy-products">-</p></div>
+                <div class="stat-box"><h3>평균 마진율</h3><p id="strategy-margin">-</p></div>
+                <div class="stat-box"><h3>월 수익 예상</h3><p id="strategy-revenue">-</p></div>
+                <div class="stat-box"><h3>성장률</h3><p id="strategy-growth">-</p></div>
+            </div>
+            <div class="strategy-recommendations" id="strategy-recommendations"></div>
+            <a class="strategy-download" id="strategy-ppt-download" href="#" target="_blank" rel="noopener" hidden>📥 PowerPoint 보고서 다운로드</a>
+        </section>
 
         <!-- 작업 상세 로그 (동적 로딩) -->
         <div class="card">
@@ -197,7 +228,54 @@
                     document.getElementById('order-shipped').innerText = (data.shipped_today || 28) + '건';
                 }
 
-                // 7. AI Briefing / Logs 로드 (ai_briefing.json이 있을 경우 동적으로 채움)
+                // 7. 최신 5일 전략 보고서 로드
+                const strategyRes = await fetch(`data/latest_strategy_report.json?ts=${Date.now()}`, { cache: 'no-store' });
+                if (strategyRes.ok) {
+                    const strategy = await strategyRes.json();
+                    const metrics = strategy.key_metrics || {};
+                    const formatGeneratedAt = strategy.generated_at
+                        ? new Date(strategy.generated_at).toLocaleString('ko-KR', { dateStyle: 'medium', timeStyle: 'short' })
+                        : '생성 시각 정보 없음';
+
+                    document.getElementById('strategy-title').textContent = strategy.title || '🎯 최신 5일 전략 보고서';
+                    document.getElementById('strategy-updated').textContent = `${strategy.period || '최근 5일'} 분석 · ${formatGeneratedAt}`;
+                    document.getElementById('strategy-products').textContent = `${metrics.total_products ?? '-'}개`;
+                    document.getElementById('strategy-margin').textContent = metrics.margin_average || '-';
+                    document.getElementById('strategy-revenue').textContent = metrics.monthly_revenue_projection || '-';
+                    document.getElementById('strategy-growth').textContent = metrics.growth_rate || '-';
+
+                    const statusText = strategy.email_delivery === 'sent'
+                        ? '보고서·이메일 발송 완료'
+                        : strategy.email_delivery === 'retry_needed'
+                            ? '보고서 생성 완료 · 이메일 재시도 필요'
+                            : '보고서 생성 완료';
+                    document.getElementById('strategy-status').textContent = statusText;
+
+                    const recommendationContainer = document.getElementById('strategy-recommendations');
+                    recommendationContainer.replaceChildren();
+                    (strategy.strategy_recommendations || []).forEach((item, index) => {
+                        const article = document.createElement('article');
+                        article.className = 'strategy-item';
+                        const heading = document.createElement('h3');
+                        heading.textContent = `${index + 1}. ${item.title || '전략 제안'}`;
+                        const description = document.createElement('p');
+                        description.textContent = item.description || '';
+                        const impact = document.createElement('span');
+                        impact.className = 'strategy-impact';
+                        impact.textContent = item.impact || '';
+                        article.append(heading, description, impact);
+                        recommendationContainer.appendChild(article);
+                    });
+
+                    const downloadLink = document.getElementById('strategy-ppt-download');
+                    if (strategy.pptx_url) {
+                        downloadLink.href = `data/${encodeURIComponent(strategy.pptx_url)}`;
+                        downloadLink.hidden = false;
+                    }
+                    document.getElementById('strategy-report-card').hidden = false;
+                }
+
+                // 8. AI Briefing / Logs 로드 (ai_briefing.json이 있을 경우 동적으로 채움)
                 const briefRes = await fetch('data/ai_briefing.json');
                 if (briefRes.ok) {
                     const logs = await briefRes.json();

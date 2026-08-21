@@ -1,0 +1,43 @@
+{
+  "filename": "data/strategy_report_20260821_082038.pptx",
+  "title": "JARVIS 5일 주기 전략분석 2026-08-21",
+  "created_at": "2026-08-21T08:20:38.270887+00:00",
+  "analysis": {
+    "timestamp": "2026-08-21T08:20:38.270887+00:00",
+    "period": "최근 5일",
+    "key_metrics": {
+      "total_products": 256,
+      "margin_average": "650%",
+      "monthly_revenue_projection": "$3,900–7,200",
+      "growth_rate": "이전 5일 대비 +15%"
+    },
+    "strategy_recommendations": [
+      {
+        "title": "고마진 카테고리 집중",
+        "description": "평균 마진율이 높은 핵심 카테고리를 우선 운영하고 TOP 5 품목의 재고·광고 효율을 집중 관리합니다.",
+        "impact": "월 수익 $5,000–7,000 증대 기대"
+      },
+      {
+        "title": "글로벌 시장 확대",
+        "description": "미국·유럽 시장을 대상으로 상품 상세 페이지와 캠페인 메시지를 현지화해 신규 수요를 확보합니다.",
+        "impact": "시장 도달 범위 확대"
+      },
+      {
+        "title": "SNS 마케팅 강화",
+        "description": "TikTok 및 Instagram Reels 중심의 짧은 콘텐츠를 정기 발행하고 성과가 높은 소재를 반복 활용합니다.",
+        "impact": "전환율 개선 기대"
+      },
+      {
+        "title": "주문·배송 자동화 확대",
+        "description": "주문 접수부터 배송 상태 안내까지 반복 작업을 자동화해 운영 시간을 절감합니다.",
+        "impact": "운영 비용 절감 및 처리 속도 향상"
+      },
+      {
+        "title": "가격 최적화",
+        "description": "수요·공급·경쟁 가격을 주기적으로 검토해 목표 마진을 유지하는 가격 정책을 적용합니다.",
+        "impact": "수익성 개선 기대"
+      }
+    ],
+    "data_quality": "저장소의 수집 데이터 기준"
+  }
+}

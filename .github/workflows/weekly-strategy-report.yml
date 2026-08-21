@@ -13,6 +13,8 @@ jobs:
 
     permissions:
       contents: write
+      pages: write
+      id-token: write
 
     steps:
       - name: Check out repository
@@ -41,29 +43,33 @@ jobs:
           SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
 
-      - name: 🔎 Verify generated report
+      - name: 🔎 Verify generated report and dashboard data
         run: |
           python - << 'EOF'
           from pathlib import Path
 
           ppt_files = list(Path('data').glob('strategy_report_*.pptx'))
           json_files = list(Path('data').glob('strategy_report_*.json'))
+          dashboard_json = Path('data/latest_strategy_report.json')
 
           print(f'📄 PPTX 파일: {len(ppt_files)}개')
           print(f'📊 JSON 분석 파일: {len(json_files)}개')
-
-          if not ppt_files and not json_files:
-              raise SystemExit('❌ 보고서 파일이 생성되지 않았습니다.')
+          print(f'🌐 Pages 최신 요약: {dashboard_json.exists()}')
 
           if not ppt_files:
-              print('⚠️ 현재 Python 스크립트는 JSON만 생성합니다. PPTX 첨부는 생성 코드 수정 후 가능합니다.')
+              raise SystemExit('❌ PPTX 보고서가 생성되지 않았습니다.')
+          if not dashboard_json.is_file():
+              raise SystemExit('❌ Pages 대시보드용 최신 전략 요약이 생성되지 않았습니다.')
           EOF
 
       - name: 📝 Update report log
         run: |
           git config --local user.email "jarvis@github.com"
           git config --local user.name "JARVIS Automation"
-          git add data/strategy_report_log.json
+          git add data/strategy_report_log.json \
+            data/latest_strategy_report.json \
+            data/strategy_report_*.pptx \
+            data/strategy_report_*.json
 
           if git diff --cached --quiet; then
             echo "변경된 보고서 로그가 없습니다."
@@ -71,6 +77,24 @@ jobs:
             git commit -m "📊 5일 전략분석 보고서 생성: $(date -u +'%Y-%m-%d')"
             git push origin HEAD:main
           fi
+
+      - name: ⚙️ Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 🏗️ Build GitHub Pages site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: .
+          destination: ./_site
+
+      - name: 🌐 Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+      - name: 🚀 Publish GitHub Pages
+        id: pages_deployment
+        uses: actions/deploy-pages@v5
 
       - name: ✨ Report complete
         run: |

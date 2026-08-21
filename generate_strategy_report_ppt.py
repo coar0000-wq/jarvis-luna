@@ -381,6 +381,33 @@ JARVIS
         with log_path.open("a", encoding="utf-8") as file:
             file.write(json.dumps(log_entry, ensure_ascii=False) + "\n")
 
+    def write_pages_snapshot(
+        self,
+        analysis: dict[str, Any],
+        ppt_path: Path,
+        metadata_path: Path,
+        email_status: bool | None,
+        status: str,
+    ) -> Path:
+        """GitHub Pages 대시보드가 읽는 최신 전략 보고서 요약을 저장한다."""
+        snapshot_path = self.output_dir / "latest_strategy_report.json"
+        email_delivery = "sent" if email_status is True else "skipped" if email_status is None else "retry_needed"
+        snapshot = {
+            "schema_version": 1,
+            "title": f"JARVIS 5일 전략분석 | {self.now.strftime('%Y-%m-%d')}",
+            "generated_at": self.now.isoformat(),
+            "period": analysis["period"],
+            "status": status,
+            "key_metrics": analysis["key_metrics"],
+            "strategy_recommendations": analysis["strategy_recommendations"],
+            "pptx_url": ppt_path.name,
+            "metadata_url": metadata_path.name,
+            "email_delivery": email_delivery,
+        }
+        with snapshot_path.open("w", encoding="utf-8") as file:
+            json.dump(snapshot, file, ensure_ascii=False, indent=2)
+        return snapshot_path
+
     def run(self) -> None:
         """전체 보고서 생성, 이메일 발송, 결과 기록을 수행한다."""
         print(f"\n🎯 JARVIS 5일 전략분석 시작 ({self.now.isoformat()})")
@@ -402,12 +429,24 @@ JARVIS
         print("📧 이메일 발송 중...")
         email_status = self.send_email(ppt_path, analysis)
 
-        if email_status is False:
-            self.write_log(ppt_path, metadata_path, email_status, "email_failed")
-            raise RuntimeError("PPTX는 생성되었지만 이메일 전송에 실패했습니다.")
+        if email_status is True:
+            status = "completed"
+        elif email_status is None:
+            status = "completed_without_email"
+        else:
+            status = "completed_with_email_error"
 
-        status = "completed" if email_status is True else "completed_without_email"
+        snapshot_path = self.write_pages_snapshot(
+            analysis,
+            ppt_path,
+            metadata_path,
+            email_status,
+            status,
+        )
         self.write_log(ppt_path, metadata_path, email_status, status)
+        print(f"✅ Pages 대시보드 요약 저장 완료: {snapshot_path}")
+        if email_status is False:
+            print("⚠️ 보고서와 Pages 데이터는 생성됐지만 이메일 전송은 재시도가 필요합니다.")
         print("=" * 60)
         print("🎉 JARVIS 5일 전략분석 완료!\n")
 
