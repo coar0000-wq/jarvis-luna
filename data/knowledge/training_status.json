@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-08-21T23:13:46.837584+00:00",
+  "real_records": 10,
+  "source_status": {
+    "arxiv": "ok",
+    "youtube": "not_configured",
+    "google": "not_configured"
+  },
+  "training_performed": false,
+  "weights_updated": false,
+  "note": "This is a real-data corpus preparation step. A model trainer must explicitly consume this JSONL before claiming weight updates.",
+  "corpus": "data/knowledge/training_corpus.jsonl"
+}
