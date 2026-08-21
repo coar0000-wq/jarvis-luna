@@ -68,24 +68,19 @@
         .stat-box p { color: #f0f6fc; font-size: 22px; font-weight: bold; }
 
         .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; }
-        .team-card { position: relative; overflow: hidden; border: 1px solid #30363d; border-radius: 12px; padding: 17px; box-shadow: 0 10px 20px rgba(0,0,0,.12); }
-        .team-card::before { content: ''; position: absolute; inset: 0 auto 0 0; width: 4px; border-radius: 12px 0 0 12px; }
+        .team-card { position: relative; overflow: hidden; border: 0; border-radius: 12px; padding: 17px; box-shadow: 0 10px 20px rgba(0,0,0,.12); }
+        .team-card::before { display: none; }
         .team-card h4 { font-size: 14px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; gap: 6px; }
         .team-card p { font-size: 13px; color: #c9d1d9; line-height: 1.6; }
-        .team-card--discovery { background: linear-gradient(135deg, #102b37, #171d24 78%); border-color: #246b7c; }
-        .team-card--discovery::before { background: #35c1d8; }
+        .team-card--discovery { background: linear-gradient(135deg, #102b37, #171d24 78%); }
         .team-card--discovery h4 { color: #65d8e9; }
-        .team-card--market { background: linear-gradient(135deg, #252044, #191d28 78%); border-color: #6250a3; }
-        .team-card--market::before { background: #9a82e9; }
+        .team-card--market { background: linear-gradient(135deg, #252044, #191d28 78%); }
         .team-card--market h4 { color: #b4a3f2; }
-        .team-card--shopify { background: linear-gradient(135deg, #12372e, #18221f 78%); border-color: #2e8263; }
-        .team-card--shopify::before { background: #48c985; }
+        .team-card--shopify { background: linear-gradient(135deg, #12372e, #18221f 78%); }
         .team-card--shopify h4 { color: #78dca7; }
-        .team-card--orders { background: linear-gradient(135deg, #3b281b, #231f1d 78%); border-color: #9b6133; }
-        .team-card--orders::before { background: #e6a75b; }
+        .team-card--orders { background: linear-gradient(135deg, #3b281b, #231f1d 78%); }
         .team-card--orders h4 { color: #f0bb79; }
-        .team-card--legal { background: linear-gradient(135deg, #3b321a, #24211a 78%); border-color: #987a31; }
-        .team-card--legal::before { background: #e0bf62; }
+        .team-card--legal { background: linear-gradient(135deg, #3b321a, #24211a 78%); }
         .team-card--legal h4 { color: #efd77f; }
 
         /* 로그 및 프로그레스바 */
