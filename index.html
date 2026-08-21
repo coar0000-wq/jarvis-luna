@@ -35,7 +35,7 @@
         .team-card p { font-size: 13px; color: #c9d1d9; line-height: 1.6; }
 
         /* 로그 및 프로그레스바 */
-        .log-list { list-style: none; }
+        .log-list { list-style: none; max-height: 250px; overflow-y: auto; }
         .log-list li { padding: 8px 0; border-bottom: 1px solid #21262d; font-size: 13px; display: flex; justify-content: space-between; align-items: center; }
         .log-list li:last-child { border-bottom: none; }
         .time-badge { color: #8b949e; font-size: 11px; background: #161b22; padding: 2px 8px; border-radius: 6px; border: 1px solid #30363d; }
@@ -75,7 +75,7 @@
             </div>
         </div>
 
-        <!-- CEO Executive Dashboard & 실시간 연동 영역 -->
+        <!-- CEO Executive Dashboard -->
         <div class="card">
             <h2>💰 Shopify + 다이소 Dropshipping & CEO Dashboard</h2>
             <div class="stats-grid">
@@ -86,16 +86,16 @@
             </div>
         </div>
 
-        <!-- 팀별 실시간 현황 (JSON 실시간 연동) -->
+        <!-- 팀별 실시간 현황 -->
         <div class="card">
             <h2>🏢 팀별 실시간 현황</h2>
             <div class="team-grid">
                 <div class="team-card">
-                    <h4>상품발굴팀 <span id="prod-active">130개</span></h4>
+                    <h4>상품 발굴팀 <span id="prod-active">130개</span></h4>
                     <p>카테고리: <span id="prod-cat">다이소 생활용품</span><br>상태: <span id="prod-status">정상 운영</span></p>
                 </div>
                 <div class="team-card">
-                    <h4>시장분석팀</h4>
+                    <h4>시장 분석팀</h4>
                     <p>경쟁력 분석: <span id="market-comp">완료</span><br>광고 효율: <span id="market-ad">최적화됨</span></p>
                 </div>
                 <div class="team-card">
@@ -103,17 +103,17 @@
                     <p>방문자: <span id="shop-visitors">1,240명</span><br>전환율: <span id="shop-conv">2.4%</span></p>
                 </div>
                 <div class="team-card">
-                    <h4>주문관리팀</h4>
+                    <h4>주문 관리팀</h4>
                     <p>배송 대기: <span id="order-pending">12건</span><br>출고 완료: <span id="order-shipped">28건</span></p>
                 </div>
             </div>
         </div>
 
-        <!-- 작업 상세 로그 -->
+        <!-- 작업 상세 로그 (동적 로딩) -->
         <div class="card">
-            <h2>📋 작업 상세 로그</h2>
-            <ul class="log-list">
-                <li><span>✅ 대시보드 실시간 JSON 연동 완료</span><span class="time-badge" id="log-time">15:10</span></li>
+            <h2>📋 작업 상세 로그 (Live Briefing)</h2>
+            <ul class="log-list" id="log-container">
+                <li><span>✅ 대시보드 실시간 JSON 연동 완료</span><span class="time-badge">15:10</span></li>
                 <li><span>✅ 다이소 신상품 자동 수집 및 마진 계산</span><span class="time-badge">15:00</span></li>
                 <li><span>✅ Google Trends 및 미국 시장 적합도 분석</span><span class="time-badge">15:01</span></li>
                 <li><span>✅ Shopify 상품 페이지 생성 및 재무 연동</span><span class="time-badge">15:05</span></li>
@@ -144,11 +144,11 @@
         <div class="footer">MD Family JARVIS LUNA Realtime Dashboard · GitHub Pages & Enterprise v2</div>
     </div>
 
-    <!-- 실시간 JSON 데이터를 불러오는 JavaScript 로직 -->
+    <!-- 실시간 JSON 및 브리핑 로그 연동 로직 -->
     <script>
         async function loadRealtimeData() {
             try {
-                // 1. Executive KPI 로드
+                // 1. Executive KPI
                 const kpiRes = await fetch('data/executive_kpi.json');
                 if (kpiRes.ok) {
                     const data = await kpiRes.json();
@@ -157,14 +157,14 @@
                     document.getElementById('auto-rate').innerText = (data.automation_rate || 96) + '%';
                 }
 
-                // 2. Finance Team 로드
+                // 2. Finance Team
                 const finRes = await fetch('data/finance_team.json');
                 if (finRes.ok) {
                     const data = await finRes.json();
                     document.getElementById('monthly-revenue').innerText = '$' + (data.monthly_revenue || 5550).toLocaleString();
                 }
 
-                // 3. Product Team 로드
+                // 3. Product Team
                 const prodRes = await fetch('data/product_team.json');
                 if (prodRes.ok) {
                     const data = await prodRes.json();
@@ -173,7 +173,7 @@
                     document.getElementById('prod-status').innerText = data.status || '정상 운영';
                 }
 
-                // 4. Market Team 로드
+                // 4. Market Team
                 const mktRes = await fetch('data/market_team.json');
                 if (mktRes.ok) {
                     const data = await mktRes.json();
@@ -181,7 +181,7 @@
                     document.getElementById('market-ad').innerText = data.ad_efficiency || '최적화됨';
                 }
 
-                // 5. Shopify Team 로드
+                // 5. Shopify Team
                 const shopRes = await fetch('data/shopify_team.json');
                 if (shopRes.ok) {
                     const data = await shopRes.json();
@@ -189,7 +189,7 @@
                     document.getElementById('shop-conv').innerText = data.conversion_rate || '2.4%';
                 }
 
-                // 6. Order Team 로드
+                // 6. Order Team
                 const ordRes = await fetch('data/order_team.json');
                 if (ordRes.ok) {
                     const data = await ordRes.json();
@@ -197,12 +197,26 @@
                     document.getElementById('order-shipped').innerText = (data.shipped_today || 28) + '건';
                 }
 
+                // 7. AI Briefing / Logs 로드 (ai_briefing.json이 있을 경우 동적으로 채움)
+                const briefRes = await fetch('data/ai_briefing.json');
+                if (briefRes.ok) {
+                    const logs = await briefRes.json();
+                    if (Array.isArray(logs) && logs.length > 0) {
+                        const logContainer = document.getElementById('log-container');
+                        logContainer.innerHTML = ''; // 기존 임시 로그 비우기
+                        logs.forEach(item => {
+                            const li = document.createElement('li');
+                            li.innerHTML = `<span>${item.task || item.text || '작업 완료'}</span><span class="time-badge">${item.time || '15:00'}</span>`;
+                            logContainer.appendChild(li);
+                        });
+                    }
+                }
+
             } catch (e) {
-                console.log('실시간 데이터 로딩 중 (로컬 또는 캐시 상태):', e);
+                console.log('실시간 데이터 로딩 대기 중...', e);
             }
         }
 
-        // 페이지 로드 시 실행
         loadRealtimeData();
     </script>
 </body>
