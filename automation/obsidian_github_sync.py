@@ -262,6 +262,8 @@ def synchronize_workspace(config: SyncConfig, *, dry_run: bool) -> dict[str, int
 
 def write_dashboard_note(config: SyncConfig, *, dry_run: bool) -> None:
     note_path = config.vault_workspace / "JARVIS Dashboard Sync.md"
+    if not dry_run:
+        note_path.parent.mkdir(parents=True, exist_ok=True)
     note = (
         "# JARVIS LUNA · GitHub 동기화\n\n"
         "- 동기화 대상: 이 `JARVIS_LUNA` 폴더와 GitHub 저장소의 `obsidian/JARVIS_LUNA` 폴더\n"
