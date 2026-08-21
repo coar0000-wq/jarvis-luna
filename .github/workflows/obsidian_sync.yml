@@ -1,9 +1,8 @@
-name: 🧠 Obsidian 실시간 동기화 (Phase 26)
+name: 🧠 Legacy Obsidian 동기화 (수동 실행 전용)
 
+# GitHub Actions는 사용자의 로컬 Obsidian 볼트에 접근할 수 없습니다.
+# 실제 동기화는 automation/obsidian_github_sync.py를 사용자 컴퓨터에서 실행합니다.
 on:
-  schedule:
-    # 매 10분마다 Obsidian 동기화
-    - cron: '*/10 * * * *'
   workflow_dispatch:
 
 jobs:

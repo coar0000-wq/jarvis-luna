@@ -137,7 +137,7 @@
                     <span class="hero-status-item"><i class="hero-status-dot" aria-hidden="true"></i>도현 CEO · 감시중</span>
                     <span class="hero-status-item"><i class="hero-status-dot" aria-hidden="true"></i>GitHub Actions · 활성</span>
                     <span class="hero-status-item"><i class="hero-status-dot" aria-hidden="true"></i>JARVIS AI · 자동화</span>
-                    <span class="hero-status-item is-offline" title="Obsidian 연동 설정이 확인되지 않았습니다."><i class="hero-status-dot" aria-hidden="true"></i>Obsidian · 연동 미설정</span>
+                    <span class="hero-status-item is-offline" id="obsidian-status" title="Obsidian 연동 설정이 확인되지 않았습니다."><i class="hero-status-dot" aria-hidden="true"></i>Obsidian · 연동 미설정</span>
                 </div>
                 <span class="hero-live">LIVE</span>
             </div>
@@ -332,7 +332,27 @@
                     document.getElementById('order-shipped').innerText = (data.shipped_today || 28) + '건';
                 }
 
-                // 7. 법무팀: 한국→미국 수출 컴플라이언스 기준 로드
+                // 7. 실제 Obsidian 로컬 동기화 상태
+                const obsidianStatus = document.getElementById('obsidian-status');
+                const obsidianRes = await fetch(`data/obsidian_sync_status.json?ts=${Date.now()}`, { cache: 'no-store' });
+                if (obsidianStatus && obsidianRes.ok) {
+                    const obsidian = await obsidianRes.json();
+                    const connected = obsidian.connected === true;
+                    const statusLabel = connected
+                        ? '연동됨'
+                        : (obsidian.state === 'error' ? '연동 오류' : '연동 미설정');
+                    const detail = connected
+                        ? `마지막 성공 동기화: ${obsidian.last_successful_sync_at || '기록 없음'}`
+                        : (obsidian.error || '연동 설정이 확인되지 않았습니다.');
+                    const dot = obsidianStatus.querySelector('.hero-status-dot');
+                    obsidianStatus.classList.toggle('is-offline', !connected);
+                    obsidianStatus.title = detail;
+                    if (dot) {
+                        obsidianStatus.replaceChildren(dot, document.createTextNode(`Obsidian · ${statusLabel}`));
+                    }
+                }
+
+                // 8. 법무팀: 한국→미국 수출 컴플라이언스 기준 로드
                 const legalRes = await fetch(`data/legal_team.json?ts=${Date.now()}`, { cache: 'no-store' });
                 if (legalRes.ok) {
                     const legal = await legalRes.json();
@@ -426,7 +446,7 @@
                     document.getElementById('legal-compliance-card').hidden = false;
                 }
 
-                // 8. 최신 5일 전략 보고서 로드
+                // 9. 최신 5일 전략 보고서 로드
                 const strategyRes = await fetch(`data/latest_strategy_report.json?ts=${Date.now()}`, { cache: 'no-store' });
                 if (strategyRes.ok) {
                     const strategy = await strategyRes.json();
