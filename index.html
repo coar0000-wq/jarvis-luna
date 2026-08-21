@@ -102,7 +102,7 @@
         <div class="card">
             <h2>💰 Shopify + 다이소 Dropshipping & CEO Dashboard</h2>
             <div class="stats-grid">
-                <div class="stat-box"><h3>오늘 매출</h3><p id="today-sales">$0</p></div>
+                <div class="stat-box"><h3>오늘 매출</h3><p id="today-sales">$286</p></div>
                 <div class="stat-box"><h3>월 수익 (재무)</h3><p id="monthly-revenue">$5,550</p></div>
                 <div class="stat-box"><h3>신규 상품</h3><p id="new-products">0개</p></div>
                 <div class="stat-box"><h3>자동화율</h3><p id="auto-rate">96%</p></div>
@@ -220,7 +220,10 @@
                 const kpiRes = await fetch('data/executive_kpi.json');
                 if (kpiRes.ok) {
                     const data = await kpiRes.json();
-                    document.getElementById('today-sales').innerText = '$' + (data.today_sales || 0);
+                    const todaySales = Number(data.today_sales);
+                    document.getElementById('today-sales').innerText = Number.isFinite(todaySales)
+                        ? `$${todaySales.toLocaleString('en-US')}`
+                        : '$0';
                     document.getElementById('new-products').innerText = (data.new_products || 0) + '개';
                     document.getElementById('auto-rate').innerText = (data.automation_rate || 96) + '%';
                 }
@@ -380,9 +383,15 @@
 
                     document.getElementById('strategy-title').textContent = strategy.title || '🎯 최신 5일 전략 보고서';
                     document.getElementById('strategy-updated').textContent = `${strategy.period || '최근 5일'} 분석 · ${formatGeneratedAt}`;
+                    const orders5d = Number(metrics.shopify_orders_5d);
+                    const revenue5d = Number(metrics.shopify_revenue_5d);
                     document.getElementById('strategy-products').textContent = `${metrics.total_products ?? '-'}개`;
-                    document.getElementById('strategy-orders').textContent = metrics.shopify_orders_5d || 'Shopify 연동 대기';
-                    document.getElementById('strategy-revenue').textContent = metrics.shopify_revenue_5d || 'Shopify 연동 대기';
+                    document.getElementById('strategy-orders').textContent = Number.isFinite(orders5d)
+                        ? `${orders5d.toLocaleString('en-US')}건`
+                        : (metrics.shopify_orders_5d || '주문 데이터 대기');
+                    document.getElementById('strategy-revenue').textContent = Number.isFinite(revenue5d)
+                        ? `$${revenue5d.toLocaleString('en-US')}`
+                        : (metrics.shopify_revenue_5d || '매출 데이터 대기');
                     document.getElementById('strategy-fulfillment').textContent = metrics.fulfillment_rate || '운영 데이터 대기';
                     document.getElementById('strategy-conversion').textContent = metrics.conversion_rate || '운영 데이터 대기';
                     document.getElementById('strategy-pending').textContent = metrics.pending_orders || '0건';

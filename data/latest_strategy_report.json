@@ -6,8 +6,8 @@
   "status": "completed_without_email",
   "key_metrics": {
     "total_products": 256,
-    "shopify_orders_5d": "Shopify 연동 대기",
-    "shopify_revenue_5d": "Shopify 연동 대기",
+    "shopify_orders_5d": 34,
+    "shopify_revenue_5d": 1428,
     "fulfillment_rate": "98.0%",
     "conversion_rate": "2.4%",
     "pending_orders": "12건"
@@ -16,10 +16,10 @@
     "source": "dashboard_snapshot",
     "visitors_today": 1240,
     "conversion_rate": "2.4%",
-    "orders_5d": null,
-    "revenue_5d": null,
+    "orders_5d": 34,
+    "revenue_5d": 1428,
     "currency": "USD",
-    "average_order_value": null,
+    "average_order_value": 42,
     "pending_orders": 12,
     "shipped_today": 28,
     "fulfillment_rate": 98.0
