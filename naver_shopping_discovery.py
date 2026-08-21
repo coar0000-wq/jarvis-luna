@@ -14,6 +14,7 @@ import requests
 from datetime import datetime
 from pathlib import Path
 from bs4 import BeautifulSoup
+from product_discovery_config import PLATFORM_KEYWORDS, TARGET_CATEGORY
 import logging
 
 logging.basicConfig(level=logging.INFO)
@@ -27,6 +28,8 @@ class NaverShoppingDiscovery:
         self.data = {
             "timestamp": self.now.replace(tzinfo=None).isoformat() + "Z" if hasattr(self.now, 'tzinfo') and self.now.tzinfo else self.now.isoformat() + "Z",
             "platform": "네이버 쇼핑",
+            "target_category": TARGET_CATEGORY,
+            "focus_keywords": PLATFORM_KEYWORDS["naver"],
             "data_sources": [],
             "categories": {},
             "bestsellers": [],
@@ -43,29 +46,21 @@ class NaverShoppingDiscovery:
         }
 
         self.categories = {
-            "패션": "fashion",
-            "가전": "appliances",
-            "뷰티": "beauty",
-            "식품": "food",
-            "스포츠": "sports"
+            "뷰티 & 스킨케어": "beauty"
         }
 
     def crawl_naver_shopping(self):
         """네이버 쇼핑 크롤링"""
-        logger.info("🏪 네이버 쇼핑 웹사이트 크롤링 시작...")
+        logger.info(f"🏪 네이버 쇼핑 {TARGET_CATEGORY} 웹사이트 크롤링 시작...")
 
         try:
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
             }
 
-            # 네이버 쇼핑 카테고리별 URL
+            # 네이버 쇼핑 뷰티·스킨케어 카테고리 URL
             urls = {
-                "패션": "https://shopping.naver.com/category/50000000",
-                "가전": "https://shopping.naver.com/category/40000000",
-                "뷰티": "https://shopping.naver.com/category/60000000",
-                "식품": "https://shopping.naver.com/category/30000000",
-                "스포츠": "https://shopping.naver.com/category/70000000"
+                "뷰티 & 스킨케어": "https://shopping.naver.com/category/60000000"
             }
 
             for category_name, url in urls.items():

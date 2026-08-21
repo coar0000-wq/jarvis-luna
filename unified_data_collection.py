@@ -13,6 +13,7 @@ import requests
 from datetime import datetime, timedelta
 from pathlib import Path
 from bs4 import BeautifulSoup
+from product_discovery_config import PLATFORM_KEYWORDS, TARGET_CATEGORY
 import logging
 import os
 
@@ -38,6 +39,7 @@ class UnifiedDataCollection:
                 "realtime_reviews": {"status": "✅ 수집 중", "total_reviews": 0, "avg_rating": 0}
             },
             "metadata": {
+                "target_category": TARGET_CATEGORY,
                 "data_quality": "100% 실제 데이터",
                 "fake_data_policy": "금지됨 ✅",
                 "verification_status": "검증됨",
@@ -57,8 +59,8 @@ class UnifiedDataCollection:
                 self.unified_data["integrations"]["amazon"]["status"] = "⏳ API 키 필요"
                 return
 
-            # Amazon 판매 랭킹 수집
-            categories = ["생활용품", "주방용품", "홈데코", "미용용품"]
+            # Amazon 뷰티·스킨케어 판매 랭킹 수집
+            categories = ["뷰티", "스킨케어", "메이크업", "헤어·바디"]
             for category in categories:
                 self.unified_data["channels"]["daiso"]["amazon_data"].append({
                     "category": category,
@@ -85,12 +87,10 @@ class UnifiedDataCollection:
 
             pytrends = TrendReq(hl='ko_KR', tz=360)
 
-            # 채널별 키워드
+            # 전체 채널별 뷰티·스킨케어 키워드
             keywords = {
-                "daiso": ["다이소 인기상품", "생활용품 트렌드", "주방용품 추천"],
-                "oliveyoung": ["올리브영 뷰티", "스킨케어 트렌드", "메이크업 인기"],
-                "naver": ["네이버 쇼핑 트렌드", "패션 핫딜", "가전제품 인기"],
-                "walmart": ["Walmart deals", "trending products", "bestselling items"]
+                channel: PLATFORM_KEYWORDS[channel]
+                for channel in ("daiso", "oliveyoung", "naver", "walmart")
             }
 
             for channel, kw_list in keywords.items():

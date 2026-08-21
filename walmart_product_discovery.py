@@ -1,9 +1,10 @@
 ﻿#!/usr/bin/env python3
 import json, random, os
 from datetime import datetime
+from product_discovery_config import PLATFORM_KEYWORDS, TARGET_CATEGORY
 
 def main():
-    print("🤖 월마트 상품 자동 발굴 시작...")
+    print(f"🤖 월마트 {TARGET_CATEGORY} 상품 자동 발굴 시작...")
     new_count = random.randint(3, 5)
     
     try:
@@ -13,8 +14,16 @@ def main():
         wm_data = {"total_count": 0, "products": []}
     
     for i in range(new_count):
-        wm_data["products"].append({"id": f"wm_{datetime.now().strftime('%Y%m%d%H%M%S')}_{i}", "name": f"월마트 ({random.randint(100,999)})", "discovered_at": datetime.utcnow().isoformat() + "Z"})
-    
+        wm_data["products"].append({
+            "id": f"wm_{datetime.now().strftime('%Y%m%d%H%M%S')}_{i}",
+            "name": f"월마트 뷰티·스킨케어 후보 ({random.randint(100,999)})",
+            "category": TARGET_CATEGORY,
+            "focus_keywords": PLATFORM_KEYWORDS["walmart"],
+            "discovered_at": datetime.utcnow().isoformat() + "Z"
+        })
+
+    wm_data["target_category"] = TARGET_CATEGORY
+    wm_data["focus_keywords"] = PLATFORM_KEYWORDS["walmart"]
     wm_data["total_count"] = len(wm_data["products"])
     wm_data["last_updated"] = datetime.utcnow().isoformat() + "Z"
 
@@ -46,7 +55,7 @@ def update_cumulative(count, source, new_count):
     with open("data/cumulative_products.json", "w", encoding="utf-8") as f:
         json.dump(cumulative, f, ensure_ascii=False, indent=2)
 
-    log_entry(f"월마트 상품 {new_count}개 발굴 (누적: {total}개)")
+    log_entry(f"월마트 뷰티·스킨케어 상품 {new_count}개 발굴 (누적: {total}개)")
     print(f"✅ 월마트: {new_count}개 발굴, 누적: {total}개")
 
 def log_entry(details):

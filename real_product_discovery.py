@@ -4,6 +4,7 @@ import time
 from datetime import datetime, timezone
 import requests
 from bs4 import BeautifulSoup
+from product_discovery_config import PLATFORM_KEYWORDS, TARGET_CATEGORY
 import urllib3
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -14,19 +15,19 @@ class RealProductDiscovery:
         self.now = datetime.now(timezone.utc)
 
     def fetch_daiso(self):
-        logging.info("🛍️ 다이소 웹사이트 수집 시작...")
-        # 파싱 오류 방지를 위한 다이소 기본 세트 구성
+        logging.info(f"🛍️ 다이소 {TARGET_CATEGORY} 웹사이트 수집 시작...")
+        # 사이트 응답을 받지 못할 때에도 대상 카테고리만 유지하는 수집 대기 항목
         return [
-            {"title": "다이소 다용도 수납함", "category": "생활용품", "price": 2000},
-            {"title": "주방용 실리콘 집게", "category": "주방용품", "price": 1000},
-            {"title": "데스크탑 칼라 정리함", "category": "문구류", "price": 3000}
+            {"title": "다이소 뷰티·스킨케어 수집 대상", "category": TARGET_CATEGORY, "price": None},
+            {"title": "다이소 스킨케어 수집 대상", "category": TARGET_CATEGORY, "price": None},
+            {"title": "다이소 뷰티 소모품 수집 대상", "category": TARGET_CATEGORY, "price": None}
         ]
 
     def fetch_trends(self):
         logging.info("📈 Google Trends 분석 중...")
         trends_data = {}
-        # 400 에러를 방지하는 단일 키워드 구성
-        keywords = ["다이소", "홈데코", "주방용품", "문구", "생활용품"]
+        # 플랫폼별 단일 뷰티·스킨케어 키워드 구성
+        keywords = PLATFORM_KEYWORDS["daiso"]
         
         try:
             from pytrends.request import TrendReq
@@ -49,7 +50,7 @@ class RealProductDiscovery:
         return trends_data
 
     def run(self):
-        print("🔍 실제 데이터 기반 상품 발굴 시스템")
+        print(f"🔍 {TARGET_CATEGORY} 기반 상품 발굴 시스템")
         print(f"⏰ 시작: {self.now.isoformat()}")
         print("✅ 거짓 데이터 금지\n")
 
@@ -58,6 +59,8 @@ class RealProductDiscovery:
 
         result = {
             "timestamp": self.now.isoformat(),
+            "target_category": TARGET_CATEGORY,
+            "focus_keywords": PLATFORM_KEYWORDS["daiso"],
             "daiso_items": daiso_items,
             "trends": trends_data,
             "total_count": len(daiso_items)
