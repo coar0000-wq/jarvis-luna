@@ -62,8 +62,6 @@
         .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; }
         .team-card { background: #21262d; border: 1px solid #30363d; border-radius: 8px; padding: 16px; }
         .team-card h4 { color: #58a6ff; font-size: 14px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; gap: 6px; }
-        .legal-team-note { flex: 0 1 auto; display: inline-flex; align-items: center; color: #dceeff; background: #11253b; border: 1px solid #2f81d1; border-radius: 6px; padding: 4px 7px; font-size: 10px; font-weight: 700; letter-spacing: 0; line-height: 1.25; box-shadow: inset 0 1px 0 rgba(255,255,255,.08); }
-        #legal-status { margin-left: auto; }
         .team-card p { font-size: 13px; color: #c9d1d9; line-height: 1.6; }
 
         /* 로그 및 프로그레스바 */
@@ -186,8 +184,12 @@
                     <p>배송 대기: <span id="order-pending">12건</span><br>출고 완료: <span id="order-shipped">28건</span></p>
                 </div>
                 <div class="team-card">
-                    <h4>⚖️ 법무팀 <small class="legal-team-note">민서 posco future M-한성 월급 200만원 ㅋ</small><span id="legal-status">검토 대기</span></h4>
+                    <h4>⚖️ 법무팀 <span id="legal-status">검토 대기</span></h4>
                     <p>검토 상품: <span id="legal-products">0개</span><br>우선 작업: <span id="legal-priority">제품 정보 확인</span></p>
+                </div>
+                <div class="team-card">
+                    <h4>민서 <span>posco future M-한성</span></h4>
+                    <p>월급: 200만원 ㅋ</p>
                 </div>
             </div>
         </div>
