@@ -45,6 +45,7 @@
         .progress-bar-bg { background: #21262d; border-radius: 6px; height: 10px; overflow: hidden; border: 1px solid #30363d; margin-bottom: 12px; }
         .progress-bar-fill { background: #1f6feb; height: 100%; border-radius: 6px; }
         .progress-note { color: #8b949e; font-size: 12px; margin: -3px 0 13px; line-height: 1.45; }
+        .current-time { color: #8b949e; font-size: 12px; margin: -7px 0 14px; line-height: 1.45; }
 
         .footer { text-align: center; color: #6e7681; font-size: 12px; margin-top: 30px; padding-bottom: 20px; }
         .strategy-card { border-color: #1f6feb; }
@@ -102,6 +103,7 @@
         <!-- 팀별 실시간 현황 -->
         <div class="card">
             <h2>🏢 팀별 실시간 현황</h2>
+            <p class="current-time" id="team-current-time">현재 날짜·시·분을 불러오는 중입니다.</p>
             <div class="team-grid">
                 <div class="team-card">
                     <h4>상품 발굴팀 <span id="prod-active">130개</span></h4>
@@ -146,6 +148,7 @@
         <!-- 작업 상세 로그 (동적 로딩) -->
         <div class="card">
             <h2>📋 작업 상세 로그 (Live Briefing)</h2>
+            <p class="current-time" id="briefing-current-time">현재 날짜·시·분을 불러오는 중입니다.</p>
             <ul class="log-list" id="log-container">
                 <li><span>🔧 JARVIS 기술 진화 습득 · Phase 3: 양자 알고리즘 VQE</span><span class="time-badge">진행중</span></li>
                 <li><span>🏥 의료 논문 사이트 수집 · 최신 논문 3개 선정</span><span class="time-badge">완료</span></li>
@@ -345,6 +348,19 @@
             }
         }
 
+        function updateKoreaCurrentTime() {
+            const formattedTime = new Intl.DateTimeFormat('ko-KR', {
+                timeZone: 'Asia/Seoul',
+                dateStyle: 'medium',
+                timeStyle: 'short',
+            }).format(new Date());
+            const label = `현재 날짜·시·분: ${formattedTime}`;
+            document.getElementById('team-current-time').textContent = label;
+            document.getElementById('briefing-current-time').textContent = label;
+        }
+
+        updateKoreaCurrentTime();
+        setInterval(updateKoreaCurrentTime, 30 * 1000);
         loadRealtimeData();
     </script>
 </body>
