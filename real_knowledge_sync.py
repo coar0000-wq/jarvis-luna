@@ -60,14 +60,41 @@ def collect_arxiv(max_results: int = 10) -> dict[str, Any]:
         return {"status": "error", "source": "arXiv API", "url": url, "items": [], "error": str(exc)}
 
 
+DEFAULT_YOUTUBE_HANDLES = ["@learnwithshopify", "@Shopify"]
+DEFAULT_KNOWLEDGE_QUERIES = [
+    "Shopify AI ecommerce product research",
+    "Shopify Magic AI product media generation",
+    "AI product photography ecommerce",
+    "generative AI image training data copyright licensing",
+    "text to image model evaluation ecommerce",
+]
+
+
+def resolve_channel_id(handle: str) -> str:
+    page = fetch("https://www.youtube.com/" + handle.lstrip("@"))
+    match = re.search(rb'"channelId":"(UC[a-zA-Z0-9_-]+)"', page)
+    if not match:
+        match = re.search(rb'"externalId":"(UC[a-zA-Z0-9_-]+)"', page)
+    if not match:
+        raise ValueError(f"channel ID not found for {handle}")
+    return match.group(1).decode("ascii")
+
+
 def collect_youtube() -> dict[str, Any]:
     channel_ids = [x.strip() for x in os.getenv("YOUTUBE_CHANNEL_IDS", "").split(",") if x.strip()]
-    if not channel_ids:
-        return {"status": "not_configured", "source": "YouTube channel RSS", "items": [], "error": "YOUTUBE_CHANNEL_IDS is not configured"}
-    items = []
+    handles = [x.strip() for x in os.getenv("YOUTUBE_CHANNEL_HANDLES", ",".join(DEFAULT_YOUTUBE_HANDLES)).split(",") if x.strip()]
+    resolved = []
     errors = []
+    for handle in handles:
+        try:
+            resolved.append((handle, resolve_channel_id(handle)))
+        except Exception as exc:
+            errors.append({"handle": handle, "error": str(exc)})
+    channel_pairs = [(f"channel:{channel_id}", channel_id) for channel_id in channel_ids]
+    channel_pairs.extend(resolved)
+    items = []
     ns = {"atom": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}
-    for channel_id in channel_ids:
+    for channel_label, channel_id in channel_pairs:
         url = f"https://www.youtube.com/feeds/videos.xml?channel_id={urllib.parse.quote(channel_id)}"
         try:
             root = ET.fromstring(fetch(url))
@@ -78,11 +105,12 @@ def collect_youtube() -> dict[str, Any]:
                     "updated": text(entry.findtext("atom:updated", namespaces=ns)),
                     "url": next((x.attrib.get("href") for x in entry.findall("atom:link", ns)), ""),
                     "channel_id": channel_id,
+                    "channel": channel_label,
                     "source": "YouTube channel RSS",
                 })
         except Exception as exc:
             errors.append({"channel_id": channel_id, "error": str(exc)})
-    result = {"status": "ok" if items else "error", "source": "YouTube channel RSS", "items": items}
+    result = {"status": "ok" if items else "error", "source": "YouTube channel RSS", "items": items, "channels": [label for label, _ in channel_pairs]}
     if errors:
         result["errors"] = errors
     return result
@@ -90,20 +118,31 @@ def collect_youtube() -> dict[str, Any]:
 
 def collect_google() -> dict[str, Any]:
     key, cx = os.getenv("GOOGLE_CSE_API_KEY"), os.getenv("GOOGLE_CSE_ID")
-    queries = [x.strip() for x in os.getenv("KNOWLEDGE_QUERIES", "AI agents 2026,medical AI research 2026,Mixture of Experts latest").split(",") if x.strip()]
-    if not (key and cx):
-        return {"status": "not_configured", "source": "Google Programmable Search JSON API", "items": [], "queries": queries, "error": "GOOGLE_CSE_API_KEY and GOOGLE_CSE_ID are not configured"}
+    queries = [x.strip() for x in os.getenv("KNOWLEDGE_QUERIES", ",".join(DEFAULT_KNOWLEDGE_QUERIES)).split(",") if x.strip()]
     items = []
     errors = []
-    for query in queries:
-        url = "https://www.googleapis.com/customsearch/v1?" + urllib.parse.urlencode({"key": key, "cx": cx, "q": query, "num": 10})
-        try:
-            payload = json.loads(fetch(url).decode("utf-8"))
-            for item in payload.get("items", []):
-                items.append({"query": query, "title": item.get("title", ""), "snippet": item.get("snippet", ""), "url": item.get("link", ""), "source": "Google Programmable Search"})
-        except Exception as exc:
-            errors.append({"query": query, "error": str(exc)})
-    result = {"status": "ok" if items else "error", "source": "Google Programmable Search JSON API", "queries": queries, "items": items}
+    if key and cx:
+        for query in queries:
+            url = "https://www.googleapis.com/customsearch/v1?" + urllib.parse.urlencode({"key": key, "cx": cx, "q": query, "num": 10})
+            try:
+                payload = json.loads(fetch(url).decode("utf-8"))
+                for item in payload.get("items", []):
+                    items.append({"query": query, "title": item.get("title", ""), "snippet": item.get("snippet", ""), "url": item.get("link", ""), "source": "Google Programmable Search"})
+            except Exception as exc:
+                errors.append({"query": query, "error": str(exc)})
+        source = "Google Programmable Search JSON API"
+    else:
+        # Public Google News RSS fallback: real Google-indexed results without API credentials.
+        source = "Google News RSS public fallback"
+        for query in queries:
+            url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({"q": query, "hl": "en-US", "gl": "US", "ceid": "US:en"})
+            try:
+                root = ET.fromstring(fetch(url))
+                for entry in root.findall("./channel/item"):
+                    items.append({"query": query, "title": text(entry.findtext("title")), "snippet": text(entry.findtext("description")), "published": text(entry.findtext("pubDate")), "url": text(entry.findtext("link")), "source": source})
+            except Exception as exc:
+                errors.append({"query": query, "error": str(exc)})
+    result = {"status": "ok" if items else "error", "source": source, "queries": queries, "items": items}
     if errors:
         result["errors"] = errors
     return result
@@ -143,8 +182,8 @@ def main() -> int:
     (DATA_DIR / "real_sources.json").write_text(json.dumps(collected, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     notes = {}
     notes["arxiv"] = write_note("JARVIS Real arXiv Papers", "arXiv API", collected["sources"]["arxiv"]["status"], collected["sources"]["arxiv"]["items"], ["JARVIS Real Knowledge Index"])
-    notes["youtube"] = write_note("JARVIS Real YouTube", "YouTube channel RSS", collected["sources"]["youtube"]["status"], collected["sources"]["youtube"]["items"], ["JARVIS Real Knowledge Index"])
-    notes["google"] = write_note("JARVIS Real Google Search", "Google Programmable Search JSON API", collected["sources"]["google"]["status"], collected["sources"]["google"]["items"], ["JARVIS Real Knowledge Index"])
+    notes["youtube"] = write_note("JARVIS Real YouTube", collected["sources"]["youtube"].get("source", "YouTube channel RSS"), collected["sources"]["youtube"]["status"], collected["sources"]["youtube"]["items"], ["JARVIS Real Knowledge Index"])
+    notes["google"] = write_note("JARVIS Real Google Search", collected["sources"]["google"].get("source", "Google News RSS public fallback"), collected["sources"]["google"]["status"], collected["sources"]["google"]["items"], ["JARVIS Real Knowledge Index"])
     index = ["---", 'title: "JARVIS Real Knowledge Index"', "tags: [jarvis, knowledge-graph, real-data]", f"updated: {collected['collected_at']}", "---", "# JARVIS Real Knowledge Index", "", "> 이 인덱스는 실제 원문 API에서 수집된 항목만 연결합니다. 인증·설정이 없는 소스는 임의의 샘플 데이터로 대체하지 않습니다.", "", "## 소스", "", f"- [[{notes['arxiv']}]]", f"- [[{notes['youtube']}]]", f"- [[{notes['google']}]]", "", "## 데이터 원천", "", "- JSON 원본: `data/knowledge/real_sources.json`", "- Graph View: 이 문서와 연결된 세 개의 소스 노트를 기준으로 확인", ""]
     (NOTE_DIR / "JARVIS Real Knowledge Index.md").write_text("\n".join(index), encoding="utf-8")
     print(json.dumps({"data_file": str(DATA_DIR / "real_sources.json"), "notes_dir": str(NOTE_DIR), "statuses": {k: v["status"] for k, v in collected["sources"].items()}}, ensure_ascii=False))

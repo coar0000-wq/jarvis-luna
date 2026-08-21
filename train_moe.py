@@ -11,6 +11,10 @@ Author: JARVIS
 Date: 2026-08-18
 """
 
+if __name__ == "__main__":
+    from train_real_knowledge import main as train_real_knowledge_main
+    raise SystemExit(train_real_knowledge_main())
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -111,10 +115,9 @@ class MoETrainer:
         logger.info("✅ MoE Trainer initialized")
 
     def create_dummy_data(self) -> Tuple[DataLoader, DataLoader]:
-        """
-        Create dummy medical data for demonstration
-        In production: use real medical datasets (MIMIC-IV, ChEMBL, etc.)
-        """
+        """Disabled: synthetic data must never be presented as real training."""
+        raise RuntimeError("Synthetic dummy training is disabled. Run train_real_knowledge.py on data/knowledge/training_corpus.jsonl instead.")
+
         logger.info(f"📊 Creating dummy medical data ({self.config.num_samples} samples)...")
 
         # Dummy input: random tensors representing medical features
@@ -422,23 +425,7 @@ def benchmark_moe_inference(
 
 
 if __name__ == "__main__":
-    # Configuration
-    config = TrainingConfig()
-
-    # Create trainer
-    trainer = MoETrainer(config)
-
-    # Create data
-    train_loader, val_loader = trainer.create_dummy_data()
-
-    # Train
-    trainer.train(train_loader, val_loader)
-
-    # Print summary
-    trainer.print_summary()
-
-    # Benchmark
-    benchmark_moe_inference(trainer.model)
-
-    print("\n✅ Phase 26 MoE training complete!")
-    print("   Next: Deploy to production with 1M samples (2027-01 Month 1)")
+    # The historical MoE demo used random tensors. Keep this entry point honest:
+    # the production path now trains only on the real collected knowledge corpus.
+    from train_real_knowledge import main as train_real_knowledge_main
+    raise SystemExit(train_real_knowledge_main())
