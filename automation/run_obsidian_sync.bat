@@ -3,6 +3,7 @@ setlocal
 
 set "SCRIPT_DIR=%~dp0"
 set "LOG_DIR=%SCRIPT_DIR%logs"
+set "LOG_FILE=%LOG_DIR%\obsidian_sync.log"
 set "CONFIG=%SCRIPT_DIR%obsidian_sync_config.json"
 set "PYTHON_CMD=py -3"
 
@@ -14,11 +15,11 @@ if not exist "%CONFIG%" (
 
 if not exist "%LOG_DIR%" mkdir "%LOG_DIR%"
 
-%PYTHON_CMD% "%SCRIPT_DIR%obsidian_github_sync.py" --config "%CONFIG%" >> "%LOG_DIR%obsidian_sync.log" 2>&1
+%PYTHON_CMD% "%SCRIPT_DIR%obsidian_github_sync.py" --config "%CONFIG%" >> "%LOG_FILE%" 2>&1
 set "RESULT=%ERRORLEVEL%"
 
 if not "%RESULT%"=="0" (
-  echo [ERROR] Synchronization failed. Log: "%LOG_DIR%obsidian_sync.log"
+  echo [ERROR] Synchronization failed. Log: "%LOG_FILE%"
   exit /b %RESULT%
 )
 

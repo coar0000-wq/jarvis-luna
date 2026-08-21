@@ -3,7 +3,7 @@ setlocal EnableExtensions
 
 rem Run this file from the extracted setup package's automation folder.
 set "SETUP_AUTOMATION_DIR=%~dp0"
-set "BASE_DIR=%USERPROFILE%\Desktop\Claude\Projects\kms"
+for %%I in ("%SETUP_AUTOMATION_DIR%..\..") do set "BASE_DIR=%%~fI"
 set "TARGET_DIR=%BASE_DIR%\jarvis-luna"
 set "REPOSITORY_URL=https://github.com/coar0000-wq/jarvis-luna.git"
 set "CONFIG_SOURCE=%SETUP_AUTOMATION_DIR%obsidian_sync_config.json"
