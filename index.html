@@ -33,18 +33,24 @@
         .hero-eyebrow { color: #246fca; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(1.1rem, 1.7vw, 1.45rem); font-weight: 700; letter-spacing: .04em; line-height: 1; margin-bottom: 9px; transform: rotate(-1deg); transform-origin: left center; }
         .adaptive-hero h1 { color: #12151a; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(3.25rem, 5.6vw, 5.5rem); font-weight: 600; line-height: .84; letter-spacing: -.035em; margin-bottom: 18px; transform: rotate(-1.2deg); transform-origin: left center; }
         .hero-subtitle { color: #4d5662; max-width: 390px; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(1.35rem, 2.15vw, 1.8rem); font-weight: 600; line-height: 1.18; letter-spacing: .01em; transform: rotate(-.5deg); transform-origin: left center; }
-        .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; perspective: 700px; }
-        .hero-action { position: relative; isolation: isolate; overflow: hidden; color: #f7f8fa; background: linear-gradient(145deg, rgba(24,31,43,.96), rgba(9,14,22,.94)); border: 0; border-radius: 999px; padding: 11px 17px; font-size: 12px; font-weight: 700; text-decoration: none; box-shadow: inset 0 1px 0 rgba(255,255,255,.38), inset 0 -5px 10px rgba(0,0,0,.24), 0 9px 16px rgba(10,15,24,.26); transform: translateZ(0); transition: transform 360ms cubic-bezier(.22,1.45,.36,1), box-shadow 260ms ease, filter 260ms ease; }
-        .hero-action::before { content: ''; position: absolute; z-index: -1; inset: -35% auto -35% -28%; width: 42%; border-radius: 50%; background: linear-gradient(90deg, transparent, rgba(255,255,255,.68), transparent); filter: blur(4px); opacity: .42; transform: translateX(-170%) skewX(-16deg) rotate(8deg); transition: transform 520ms cubic-bezier(.22,1.2,.36,1); }
-        .hero-action::after { content: ''; position: absolute; z-index: -1; top: -40%; right: 9%; width: 42%; aspect-ratio: 1; border-radius: 50%; background: rgba(255,255,255,.18); filter: blur(10px); opacity: .4; transition: transform 360ms cubic-bezier(.22,1.45,.36,1), opacity 260ms ease; }
-        .hero-action.secondary { color: #26384c; background: linear-gradient(145deg, rgba(255,255,255,.62), rgba(255,255,255,.24)); box-shadow: inset 0 1px 0 rgba(255,255,255,.75), inset 0 -5px 10px rgba(75,105,130,.12), 0 9px 16px rgba(24,45,61,.18); backdrop-filter: blur(12px) saturate(145%); -webkit-backdrop-filter: blur(12px) saturate(145%); }
-        .hero-action:hover, .hero-action:focus-visible { filter: saturate(1.2); transform: translateY(-4px) scale(1.055, .96) rotate(-1deg); box-shadow: inset 0 1px 0 rgba(255,255,255,.52), inset 0 -7px 12px rgba(0,0,0,.2), 0 15px 22px rgba(10,15,24,.3); outline: none; }
-        .hero-action:hover::before, .hero-action:focus-visible::before { transform: translateX(410%) skewX(-16deg) rotate(8deg); }
-        .hero-action:hover::after, .hero-action:focus-visible::after { transform: translate(20%, 22%) scale(1.35, .62); opacity: .72; }
-        .hero-action.secondary:hover, .hero-action.secondary:focus-visible { color: #102b43; box-shadow: inset 0 1px 0 rgba(255,255,255,.88), inset 0 -7px 12px rgba(75,105,130,.18), 0 15px 22px rgba(24,45,61,.22); }
-        .hero-action:active { transform: translateY(2px) scale(1.08, .84) rotate(1deg); box-shadow: inset 0 5px 10px rgba(0,0,0,.22), 0 4px 8px rgba(10,15,24,.2); transition-duration: 90ms; }
+        .hero-actions { display: grid; grid-template-columns: repeat(2, minmax(250px, 1fr)); gap: 14px; width: min(100%, 640px); margin-top: 24px; }
+        .hero-slider { --slider-value: 40%; min-width: 0; }
+        .hero-slider-label { display: flex; justify-content: space-between; align-items: center; margin: 0 5px 6px; color: #44576a; font-size: 11px; font-weight: 800; letter-spacing: .02em; }
+        .hero-slider-value { color: #246fca; font-variant-numeric: tabular-nums; }
+        .hero-slider-track { position: relative; height: 52px; overflow: visible; border-radius: 999px; background: rgba(255,255,255,.36); box-shadow: inset 0 2px 7px rgba(27,49,67,.18), 0 7px 16px rgba(13,28,43,.14); cursor: ew-resize; touch-action: none; user-select: none; }
+        .hero-slider-track::after { content: ''; position: absolute; inset: 2px; border-radius: inherit; pointer-events: none; box-shadow: inset 0 1px 0 rgba(255,255,255,.65); }
+        .hero-slider-fill { position: absolute; inset: 4px auto 4px 4px; width: var(--slider-value); max-width: calc(100% - 8px); border-radius: inherit; background: linear-gradient(90deg, rgba(36,111,202,.7), rgba(103,191,255,.88)); box-shadow: inset 0 1px 0 rgba(255,255,255,.58), 0 3px 8px rgba(36,111,202,.18); transition: width 120ms ease-out; }
+        .hero-slider-thumb { position: absolute; left: clamp(4px, calc(var(--slider-value) - 75px), calc(100% - 154px)); top: 5px; z-index: 2; display: inline-flex; align-items: center; justify-content: center; gap: 7px; width: 150px; height: 42px; padding: 0 14px; overflow: hidden; border: 0; border-radius: 999px; color: #f7f8fa; background: linear-gradient(145deg, rgba(24,31,43,.96), rgba(9,14,22,.9)); box-shadow: inset 0 1px 0 rgba(255,255,255,.5), inset 0 -7px 12px rgba(0,0,0,.25), 0 8px 14px rgba(10,15,24,.28); font: inherit; font-size: 11px; font-weight: 800; white-space: nowrap; cursor: grab; transform: translateZ(0); transition: left 120ms ease-out, transform 280ms cubic-bezier(.22,1.45,.36,1), box-shadow 220ms ease; }
+        .hero-slider-thumb::before { content: ''; position: absolute; top: -40%; left: -30%; width: 38%; height: 180%; border-radius: 50%; background: linear-gradient(90deg, transparent, rgba(255,255,255,.7), transparent); filter: blur(4px); opacity: .48; transform: translateX(-170%) skewX(-16deg); transition: transform 480ms cubic-bezier(.22,1.2,.36,1); }
+        .hero-slider-thumb::after { content: '↔'; color: rgba(255,255,255,.72); font-size: 15px; line-height: 1; }
+        .hero-slider-thumb:hover, .hero-slider-thumb:focus-visible { transform: translateY(-3px) scale(1.06, .94); box-shadow: inset 0 1px 0 rgba(255,255,255,.62), inset 0 -8px 13px rgba(0,0,0,.2), 0 13px 20px rgba(10,15,24,.32); outline: none; }
+        .hero-slider-thumb:hover::before, .hero-slider-thumb:focus-visible::before { transform: translateX(430%) skewX(-16deg); }
+        .hero-slider-thumb:active, .hero-slider.is-dragging .hero-slider-thumb { cursor: grabbing; transform: translateY(2px) scale(1.1, .82); box-shadow: inset 0 5px 10px rgba(0,0,0,.28), 0 4px 8px rgba(10,15,24,.2); }
+        .hero-slider.secondary .hero-slider-fill { background: linear-gradient(90deg, rgba(70,144,131,.68), rgba(130,224,196,.86)); }
+        .hero-slider.secondary .hero-slider-thumb { color: #183b3c; background: linear-gradient(145deg, rgba(255,255,255,.72), rgba(206,246,237,.4)); box-shadow: inset 0 1px 0 rgba(255,255,255,.85), inset 0 -7px 12px rgba(54,130,119,.14), 0 8px 14px rgba(24,77,70,.18); }
+        .hero-slider.secondary .hero-slider-thumb::after { color: rgba(24,59,60,.68); }
         @media (prefers-reduced-motion: reduce) {
-            .hero-action, .hero-action::before, .hero-action::after { transition: none; }
+            .hero-slider-fill, .hero-slider-thumb, .hero-slider-thumb::before { transition: none; }
         }
         .hero-intelligence { margin-top: 25px; padding: 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
         .hero-intelligence h3 { color: #246fca; font-size: 10px; letter-spacing: .12em; margin-bottom: 8px; }
@@ -174,6 +180,8 @@
             .hero-copy { max-width: none; }
             .hero-kpis { grid-column: 1; grid-template-columns: 1fr 1fr; padding: 6px 14px; }
             .hero-kpi strong { font-size: 18px; }
+            .hero-actions { grid-template-columns: 1fr; width: 100%; gap: 10px; }
+            .hero-slider-thumb { width: 138px; padding: 0 10px; font-size: 10px; }
         }
     </style>
 </head>
@@ -195,9 +203,21 @@
                 <div class="hero-copy">
                     <h1>MD Family<br>Adaptive Intelligence</h1>
                     <p class="hero-subtitle">Knowledge graph, product discovery, and strategy analysis in one evolving system.</p>
-                    <div class="hero-actions">
-                        <a class="hero-action" href="#project-progress">프로젝트 진행도</a>
-                        <a class="hero-action secondary" href="#strategy-report-card">전략 분석 보기</a>
+                    <div class="hero-actions" aria-label="Hero 진행 상태 슬라이더">
+                        <div class="hero-slider" data-slider="project" data-value="40" data-target="project-progress">
+                            <div class="hero-slider-label"><span>프로젝트 진행도</span><span class="hero-slider-value">40%</span></div>
+                            <div class="hero-slider-track" role="presentation">
+                                <div class="hero-slider-fill"></div>
+                                <button class="hero-slider-thumb" type="button" role="slider" aria-label="프로젝트 진행도 조절" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40" aria-valuetext="프로젝트 진행도 40%">프로젝트 진행도</button>
+                            </div>
+                        </div>
+                        <div class="hero-slider secondary" data-slider="strategy" data-value="40" data-target="strategy-report-card">
+                            <div class="hero-slider-label"><span>전략 분석 보기</span><span class="hero-slider-value">40%</span></div>
+                            <div class="hero-slider-track" role="presentation">
+                                <div class="hero-slider-fill"></div>
+                                <button class="hero-slider-thumb" type="button" role="slider" aria-label="전략 분석 진행 상태 조절" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40" aria-valuetext="전략 분석 진행 상태 40%">전략 분석 보기</button>
+                            </div>
+                        </div>
                     </div>
                     <div class="hero-intelligence hero-intelligence--desktop">
                         <h3>TODAY'S INTELLIGENCE</h3>
@@ -326,6 +346,89 @@
 
     <!-- 실시간 JSON 및 브리핑 로그 연동 로직 -->
     <script>
+        function initHeroSliders() {
+            document.querySelectorAll('.hero-slider').forEach((slider) => {
+                const track = slider.querySelector('.hero-slider-track');
+                const thumb = slider.querySelector('.hero-slider-thumb');
+                const fill = slider.querySelector('.hero-slider-fill');
+                const valueLabel = slider.querySelector('.hero-slider-value');
+                if (!track || !thumb || !fill || !valueLabel) return;
+
+                const update = (rawValue) => {
+                    const value = Math.max(0, Math.min(100, Math.round(Number(rawValue) || 0)));
+                    slider.dataset.value = String(value);
+                    slider.style.setProperty('--slider-value', `${value}%`);
+                    fill.style.width = `${value}%`;
+                    valueLabel.textContent = `${value}%`;
+                    thumb.setAttribute('aria-valuenow', String(value));
+                    thumb.setAttribute('aria-valuetext', `${thumb.getAttribute('aria-label')} ${value}%`);
+                    const target = document.getElementById(slider.dataset.target);
+                    if (target && slider.dataset.slider === 'project') {
+                        const progressFill = target.querySelector('.progress-bar-fill');
+                        const progressValue = target.querySelector('.progress-label span:last-child');
+                        if (progressFill) progressFill.style.width = `${value}%`;
+                        if (progressValue) progressValue.textContent = `${value}%`;
+                    }
+                    if (target && slider.dataset.slider === 'strategy') {
+                        target.style.setProperty('--strategy-slider-progress', `${value}%`);
+                        target.dataset.sliderProgress = String(value);
+                    }
+                    window.dispatchEvent(new CustomEvent('jarvis:hero-slider-change', {
+                        detail: { slider: slider.dataset.slider, value, target: slider.dataset.target }
+                    }));
+                };
+
+                const updateFromPointer = (clientX) => {
+                    const rect = track.getBoundingClientRect();
+                    const ratio = rect.width ? (clientX - rect.left) / rect.width : 0;
+                    update(ratio * 100);
+                };
+
+                let dragging = false;
+                const finishDrag = (event) => {
+                    if (!dragging) return;
+                    dragging = false;
+                    slider.classList.remove('is-dragging');
+                    if (event && track.hasPointerCapture?.(event.pointerId)) track.releasePointerCapture(event.pointerId);
+                };
+
+                track.addEventListener('pointerdown', (event) => {
+                    event.preventDefault();
+                    dragging = true;
+                    slider.classList.add('is-dragging');
+                    track.setPointerCapture?.(event.pointerId);
+                    updateFromPointer(event.clientX);
+                });
+                track.addEventListener('pointermove', (event) => {
+                    if (dragging) updateFromPointer(event.clientX);
+                });
+                track.addEventListener('pointerup', finishDrag);
+                track.addEventListener('pointercancel', finishDrag);
+                track.addEventListener('lostpointercapture', () => {
+                    dragging = false;
+                    slider.classList.remove('is-dragging');
+                });
+                thumb.addEventListener('keydown', (event) => {
+                    const current = Number(slider.dataset.value) || 0;
+                    const step = event.shiftKey ? 10 : 5;
+                    if (event.key === 'ArrowRight' || event.key === 'ArrowUp') {
+                        event.preventDefault();
+                        update(current + step);
+                    } else if (event.key === 'ArrowLeft' || event.key === 'ArrowDown') {
+                        event.preventDefault();
+                        update(current - step);
+                    } else if (event.key === 'Home') {
+                        event.preventDefault();
+                        update(0);
+                    } else if (event.key === 'End') {
+                        event.preventDefault();
+                        update(100);
+                    }
+                });
+                update(slider.dataset.value || 40);
+            });
+        }
+
         async function loadRealtimeData() {
             try {
                 // 1. Executive KPI
@@ -662,6 +765,7 @@
             document.getElementById('briefing-current-time').textContent = label;
         }
 
+        initHeroSliders();
         updateKoreaCurrentTime();
         setInterval(updateKoreaCurrentTime, 30 * 1000);
         loadRealtimeData();
