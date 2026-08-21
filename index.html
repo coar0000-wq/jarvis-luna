@@ -35,7 +35,7 @@
         .hero-dna-aura { position: absolute; width: 300px; height: 300px; border-radius: 50%; background: radial-gradient(circle, rgba(61,131,230,.19) 0%, rgba(61,131,230,.06) 34%, transparent 70%); filter: blur(6px); }
         .hero-dna-motion { position: relative; width: 255px; height: 520px; display: flex; align-items: center; justify-content: center; transform: rotate(-9deg); animation: dna-drift 8s cubic-bezier(.77,0,.175,1) infinite alternate; }
         .hero-dna-motion::after { content: ''; position: absolute; inset: 18% 5%; border-radius: 50%; border: 1px solid rgba(50, 123, 221, .18); box-shadow: 0 0 32px rgba(56, 135, 232, .22); animation: dna-aura 5s ease-in-out infinite; }
-        .hero-dna-image { position: relative; z-index: 1; width: 100%; height: auto; max-height: none; filter: saturate(1.04) contrast(1.05) drop-shadow(0 18px 16px rgba(20, 38, 67, .2)); }
+        .hero-dna-image { position: relative; z-index: 1; width: 100%; height: auto; max-height: none; mix-blend-mode: multiply; filter: saturate(1.05) contrast(1.06); }
         .hero-kpis { align-self: center; border-radius: 15px; background: #121820; border: 1px solid #252f3d; color: #e8edf5; padding: 8px 20px; box-shadow: 0 16px 28px rgba(0,0,0,.22); }
         .hero-kpi { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 18px 0; border-bottom: 1px solid #2a3443; }
         .hero-kpi:last-child { border-bottom: 0; }
