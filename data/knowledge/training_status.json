@@ -1,13 +1,16 @@
 {
-  "updated_at": "2026-08-21T23:19:15.345385+00:00",
-  "real_records": 10,
-  "source_status": {
-    "arxiv": "ok",
-    "youtube": "not_configured",
-    "google": "not_configured"
+  "updated_at": "2026-08-21T23:25:36.850314+00:00",
+  "real_records": 299,
+  "source_labels": {
+    "ai-image": 56,
+    "ai-research": 123,
+    "shopify-commerce-image": 120
   },
-  "training_performed": false,
-  "weights_updated": false,
-  "note": "This is a real-data corpus preparation step. A model trainer must explicitly consume this JSONL before claiming weight updates.",
-  "corpus": "data/knowledge/training_corpus.jsonl"
+  "corpus_sha256": "f15e47925285f7bcb21bee310bd63c71b0fd3f7e60aee059fb9bd651dec8b0e1",
+  "training_performed": true,
+  "weights_updated": true,
+  "model_type": "real-data bag-of-words linear router",
+  "model_file": "data/knowledge/real_knowledge_router.npz",
+  "training_accuracy_on_corpus": 0.7324414715719063,
+  "note": "This model routes collected knowledge records. It is not an image foundation model and does not claim image-weight training."
 }
