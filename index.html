@@ -332,7 +332,11 @@
                         barBackground.appendChild(bar);
                         container.append(label, barBackground);
                     });
-                    const updatedAt = progress.last_updated ? new Date(progress.last_updated).toLocaleString('ko-KR', { dateStyle: 'medium', timeStyle: 'short' }) : '갱신 시각 정보 없음';
+                    const rawTimestamp = String(progress.last_updated || '').replace(/([+-]\d{2}:\d{2})Z$/, '$1');
+                    const updatedDate = rawTimestamp ? new Date(rawTimestamp) : null;
+                    const updatedAt = updatedDate && !Number.isNaN(updatedDate.getTime())
+                        ? updatedDate.toLocaleString('ko-KR', { dateStyle: 'medium', timeStyle: 'short' })
+                        : '갱신 시각 정보 없음';
                     document.getElementById('progress-summary').textContent = `${phaseLabel} · ${progress.status || '상태 정보 없음'} · 마지막 갱신 ${updatedAt}`;
                 }
 
