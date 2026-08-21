@@ -32,15 +32,15 @@
         .hero-intelligence h3 { color: #246fca; font-size: 10px; letter-spacing: .12em; margin-bottom: 8px; }
         .hero-intelligence p { color: #535b66; font-size: 12px; line-height: 1.7; }
         .hero-dna-stage { position: relative; align-self: stretch; min-height: 405px; overflow: hidden; display: grid; place-items: center; }
-        .hero-dna-motion { position: relative; width: 255px; height: 520px; display: flex; align-items: center; justify-content: center; transform: rotate(-9deg); animation: dna-drift 8s cubic-bezier(.77,0,.175,1) infinite alternate; }
-        .hero-dna-image { position: relative; z-index: 1; width: 100%; height: auto; max-height: none; filter: saturate(1.05) contrast(1.06) drop-shadow(0 14px 15px rgba(20, 38, 67, .18)); }
+        .hero-photo-motion { position: relative; width: 100%; max-width: 420px; aspect-ratio: 16 / 9; display: flex; align-items: center; justify-content: center; animation: hero-photo-drift 8s cubic-bezier(.77,0,.175,1) infinite alternate; }
+        .hero-photo-image { position: relative; z-index: 1; width: 100%; height: 100%; object-fit: cover; border: 1px solid rgba(55, 46, 35, .22); border-radius: 18px; box-shadow: 0 18px 30px rgba(43, 33, 21, .22); }
         .hero-kpis { align-self: center; border-radius: 15px; background: #121820; border: 1px solid #252f3d; color: #e8edf5; padding: 8px 20px; box-shadow: 0 16px 28px rgba(0,0,0,.22); }
         .hero-kpi { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 18px 0; border-bottom: 1px solid #2a3443; }
         .hero-kpi:last-child { border-bottom: 0; }
         .hero-kpi span { color: #aeb9c9; font-size: 12px; }
         .hero-kpi strong { color: #f7fbff; font-size: 22px; }
         .hero-kpi:last-child strong { color: #52c978; }
-        @keyframes dna-drift { 0% { transform: translate3d(-8px, 8px, 0) rotate(-12deg); } 50% { transform: translate3d(7px, -7px, 0) rotate(-5deg); } 100% { transform: translate3d(-4px, -11px, 0) rotate(-10deg); } }
+        @keyframes hero-photo-drift { 0% { transform: translate3d(-7px, 7px, 0) rotate(-2.5deg); } 50% { transform: translate3d(6px, -6px, 0) rotate(.5deg); } 100% { transform: translate3d(-3px, -9px, 0) rotate(-1.5deg); } }
         
         /* 상단 시스템 상태 카드 */
         .system-status { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 22px; }
@@ -117,13 +117,13 @@
             .adaptive-hero { min-height: auto; padding: 18px; }
             .hero-layout { grid-template-columns: 1fr; min-height: auto; }
             .hero-dna-stage { grid-column: 1; grid-row: auto; min-height: 285px; order: -1; }
-            .hero-dna-motion { width: 185px; height: 360px; }
+            .hero-photo-motion { width: 100%; max-width: 360px; aspect-ratio: 16 / 9; }
             .hero-copy { max-width: none; }
             .hero-kpis { grid-column: 1; grid-template-columns: 1fr 1fr; padding: 6px 14px; }
             .hero-kpi strong { font-size: 18px; }
         }
         @media (prefers-reduced-motion: reduce) {
-            .hero-dna-motion { animation: none; }
+            .hero-photo-motion { animation: none; }
         }
     </style>
 </head>
@@ -150,7 +150,7 @@
                     </div>
                 </div>
                 <div class="hero-dna-stage" aria-hidden="true">
-                    <div class="hero-dna-motion"><img class="hero-dna-image" src="assets/md-family-dna-cutout.png" alt=""></div>
+                    <div class="hero-photo-motion"><img class="hero-photo-image" src="assets/md-family-hero-photo.webp" alt="사용자 제공 Hero 사진"></div>
                 </div>
                 <div class="hero-kpis" aria-label="핵심 운영 지표">
                     <div class="hero-kpi"><span>오늘 매출</span><strong id="today-sales">$286</strong></div>
