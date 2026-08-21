@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T17:03:32.636777",
+  "timestamp": "2026-08-21T17:55:15.644878",
   "total_papers": 90,
   "date_range": {
     "earliest": "2019-09-17",
@@ -7,25 +7,25 @@
   },
   "authors": 335,
   "categories": [
-    "cs.CL",
     "cs.IR",
-    "stat.ML",
     "cs.NI",
+    "cs.CR",
+    "q-bio.NC",
+    "cs.DC",
+    "cs.LG",
+    "cs.CL",
+    "math.OC",
+    "cs.CV",
+    "cs.CE",
+    "stat.ME",
+    "cs.AR",
+    "cs.RO",
+    "stat.ML",
+    "cs.GT",
     "q-fin.ST",
     "cs.MA",
-    "cs.RO",
-    "cs.GT",
-    "q-bio.NC",
-    "stat.ME",
-    "cs.CV",
-    "cs.DS",
-    "cs.CE",
-    "cs.AR",
-    "cs.DC",
     "cs.AI",
-    "cs.LG",
-    "math.OC",
-    "cs.CR"
+    "cs.DS"
   ],
   "top_authors": [
     [
