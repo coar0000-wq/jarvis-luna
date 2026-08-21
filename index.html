@@ -58,8 +58,6 @@
         .strategy-item h3 { color: #58a6ff; font-size: 14px; margin-bottom: 7px; }
         .strategy-item p { color: #c9d1d9; font-size: 13px; line-height: 1.55; }
         .strategy-impact { display: block; color: #3fb950; font-size: 12px; margin-top: 9px; font-weight: bold; }
-        .strategy-download { display: inline-block; margin-top: 17px; color: #f0f6fc; background: #238636; border: 1px solid #2ea043; border-radius: 7px; padding: 9px 13px; font-size: 13px; font-weight: bold; text-decoration: none; }
-        .strategy-download:hover { background: #2ea043; }
         .revenue-trend { background: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-top: 16px; }
         .revenue-trend-header { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
         .revenue-trend h3 { color: #58a6ff; font-size: 14px; }
@@ -71,7 +69,6 @@
         .daily-revenue-bar { width: 100%; min-height: 8px; background: linear-gradient(180deg, #58a6ff, #1f6feb); border: 1px solid #58a6ff; border-radius: 6px 6px 0 0; }
         .daily-revenue-label { color: #8b949e; font-size: 11px; }
         .legal-card { border-color: #d29922; }
-        .legal-notice { color: #d29922; background: #2d2512; border: 1px solid #6e5014; border-radius: 7px; padding: 11px 13px; font-size: 12px; line-height: 1.55; margin: 14px 0; }
         .legal-list { list-style: none; display: grid; gap: 9px; margin-top: 14px; }
         .legal-list li { background: #21262d; border: 1px solid #30363d; border-radius: 8px; padding: 12px; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
         .legal-list strong { display: block; color: #f0f6fc; font-size: 13px; margin-bottom: 4px; }
@@ -172,7 +169,6 @@
                 <div class="daily-revenue-bars" id="daily-revenue-bars"></div>
             </section>
             <div class="strategy-recommendations" id="strategy-recommendations"></div>
-            <a class="strategy-download" id="strategy-ppt-download" href="#" target="_blank" rel="noopener" hidden>📥 PowerPoint 보고서 다운로드</a>
         </section>
 
         <!-- 작업 상세 로그 (동적 로딩) -->
@@ -211,7 +207,6 @@
                 </div>
                 <span class="strategy-status" id="legal-detail-status">제품별 검토 대기</span>
             </div>
-            <p class="legal-notice" id="legal-notice"></p>
             <h3 class="strategy-updated">제품별 검토 시작에 필요한 정보</h3>
             <ul class="legal-list" id="legal-intake"></ul>
             <div class="stats-grid">
@@ -305,7 +300,6 @@
                     document.getElementById('legal-priority').textContent = dashboard.priority || '제품 정보 확인';
                     document.getElementById('legal-updated').textContent = `${team.scope || '수출 컴플라이언스'} · 마지막 검토 ${reviewedAt}`;
                     document.getElementById('legal-detail-status').textContent = team.status || '제품별 검토 대기';
-                    document.getElementById('legal-notice').textContent = team.legal_notice || '';
                     document.getElementById('legal-reviewed-products').textContent = `${reviewedProducts}개`;
                     document.getElementById('legal-checklist-count').textContent = `${checklist.length}개`;
                     document.getElementById('legal-source-count').textContent = `${sources.length}개`;
@@ -362,15 +356,6 @@
                         const focus = document.createElement('p');
                         focus.textContent = route.review_focus || '제품별 요구사항 검토 필요';
                         item.append(title, agency, focus);
-                        if (route.source_url) {
-                            const link = document.createElement('a');
-                            link.href = route.source_url;
-                            link.target = '_blank';
-                            link.rel = 'noopener';
-                            link.className = 'strategy-download';
-                            link.textContent = '공식 안내 열기';
-                            item.appendChild(link);
-                        }
                         routeContainer.appendChild(item);
                     });
 
@@ -472,11 +457,6 @@
                         recommendationContainer.appendChild(article);
                     });
 
-                    const downloadLink = document.getElementById('strategy-ppt-download');
-                    if (strategy.pptx_url) {
-                        downloadLink.href = `data/${encodeURIComponent(strategy.pptx_url)}`;
-                        downloadLink.hidden = false;
-                    }
                     document.getElementById('strategy-report-card').hidden = false;
                 }
 
