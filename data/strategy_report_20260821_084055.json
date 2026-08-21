@@ -1,0 +1,57 @@
+{
+  "filename": "data/strategy_report_20260821_084055.pptx",
+  "title": "JARVIS 5일 주기 전략분석 2026-08-21",
+  "created_at": "2026-08-21T08:40:55.801269+00:00",
+  "analysis": {
+    "timestamp": "2026-08-21T08:40:55.801269+00:00",
+    "period": "최근 5일",
+    "key_metrics": {
+      "total_products": 256,
+      "shopify_orders_5d": "Shopify 연동 대기",
+      "shopify_revenue_5d": "Shopify 연동 대기",
+      "fulfillment_rate": "98.0%",
+      "conversion_rate": "2.4%",
+      "pending_orders": "12건"
+    },
+    "shopify_operational": {
+      "source": "dashboard_snapshot",
+      "visitors_today": 1240,
+      "conversion_rate": "2.4%",
+      "orders_5d": null,
+      "revenue_5d": null,
+      "currency": "USD",
+      "average_order_value": null,
+      "pending_orders": 12,
+      "shipped_today": 28,
+      "fulfillment_rate": 98.0
+    },
+    "strategy_recommendations": [
+      {
+        "title": "주문·배송 병목 우선 해소",
+        "description": "현재 미처리 주문 12건을 배송 단계·재고·고객 안내 기준으로 분류하고, 처리 기한을 먼저 확정합니다.",
+        "impact": "배송 지연·취소 위험을 낮추고 고객 경험을 보호"
+      },
+      {
+        "title": "전환율 개선 실험",
+        "description": "현재 전환율 2.4%를 기준으로 상품 상세 페이지, 배송 메시지, 가격·번들 제안을 우선 A/B 점검합니다.",
+        "impact": "동일 유입 대비 주문 전환 개선"
+      },
+      {
+        "title": "고마진 카테고리 집중",
+        "description": "수익성이 높은 핵심 상품군의 재고·광고 효율을 집중 점검하고, 주문 성과가 확인된 품목의 노출을 확대합니다.",
+        "impact": "운영 자원을 수익 기회가 큰 상품에 집중"
+      },
+      {
+        "title": "글로벌 시장 확대",
+        "description": "주문과 전환 성과가 안정적인 상품부터 국가별 상세 페이지와 캠페인 메시지를 현지화합니다.",
+        "impact": "검증된 상품 중심의 시장 도달 범위 확대"
+      },
+      {
+        "title": "가격·재고 운영 최적화",
+        "description": "최근 주문·배송 데이터와 경쟁 가격을 함께 검토해 품절 위험과 과도한 할인 없이 목표 수익성을 유지합니다.",
+        "impact": "수익성·재고 회전·배송 안정성의 균형 개선"
+      }
+    ],
+    "data_quality": "저장소의 Shopify·주문 운영 스냅샷과 수집 데이터 기준"
+  }
+}

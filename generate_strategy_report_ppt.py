@@ -5,13 +5,15 @@
 import json
 import os
 import smtplib
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.encoders import encode_base64
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
 from typing import Any
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
 
 from pptx import Presentation
 from pptx.dml.color import RGBColor
@@ -46,15 +48,141 @@ class StrategyReportGenerator:
     def _load_json(path: Path, default: dict[str, Any]) -> dict[str, Any]:
         """JSON 파일을 읽고, 파일 부재 또는 형식 오류 시 기본값을 사용한다."""
         try:
-            with path.open("r", encoding="utf-8") as file:
+            with path.open("r", encoding="utf-8-sig") as file:
                 loaded = json.load(file)
                 return loaded if isinstance(loaded, dict) else default
         except (FileNotFoundError, OSError, json.JSONDecodeError) as error:
             print(f"⚠️ 데이터 파일을 읽지 못해 기본값을 사용합니다: {path} ({error})")
             return default
 
+    @staticmethod
+    def _number(value: Any, default: float = 0.0) -> float:
+        """통화·백분율 문자열을 계산 가능한 숫자로 변환한다."""
+        try:
+            return float(str(value).replace(",", "").replace("%", "").strip())
+        except (TypeError, ValueError):
+            return default
+
+    def fetch_shopify_order_metrics(self) -> dict[str, Any] | None:
+        """최근 5일의 Shopify 주문을 읽어 매출·이행 지표로 집계한다."""
+        shop_domain = os.getenv("SHOPIFY_SHOP_URL", "").strip().removeprefix("https://").removeprefix("http://").rstrip("/")
+        access_token = os.getenv("SHOPIFY_ACCESS_TOKEN", "").strip()
+        api_version = os.getenv("SHOPIFY_API_VERSION", "2026-07").strip()
+        if not shop_domain or not access_token:
+            print("ℹ️ Shopify Secrets가 없어 기존 운영 요약 JSON을 전략 분석 입력으로 사용합니다.")
+            return None
+
+        since = (self.now - timedelta(days=5)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        query = """
+        query RecentOrders($query: String!, $after: String) {
+          orders(first: 250, after: $after, query: $query, sortKey: PROCESSED_AT, reverse: true) {
+            nodes {
+              processedAt
+              cancelledAt
+              displayFinancialStatus
+              displayFulfillmentStatus
+              currentTotalPriceSet { shopMoney { amount currencyCode } }
+            }
+            pageInfo { hasNextPage endCursor }
+          }
+        }
+        """
+        orders: list[dict[str, Any]] = []
+        after: str | None = None
+        try:
+            while True:
+                payload = json.dumps(
+                    {"query": query, "variables": {"query": f"processed_at:>={since} status:any", "after": after}}
+                ).encode("utf-8")
+                request = Request(
+                    f"https://{shop_domain}/admin/api/{api_version}/graphql.json",
+                    data=payload,
+                    headers={
+                        "Content-Type": "application/json",
+                        "X-Shopify-Access-Token": access_token,
+                    },
+                    method="POST",
+                )
+                with urlopen(request, timeout=30) as response:
+                    response_data = json.loads(response.read().decode("utf-8"))
+                if response_data.get("errors"):
+                    raise RuntimeError(response_data["errors"])
+                result = response_data.get("data", {}).get("orders", {})
+                orders.extend(result.get("nodes", []))
+                page_info = result.get("pageInfo", {})
+                if not page_info.get("hasNextPage"):
+                    break
+                after = page_info.get("endCursor")
+        except (HTTPError, URLError, OSError, ValueError, RuntimeError) as error:
+            print(f"⚠️ Shopify 주문 API를 읽지 못해 기존 운영 요약 JSON을 사용합니다: {error}")
+            return None
+
+        active_orders = [order for order in orders if not order.get("cancelledAt")]
+        fulfilled_states = {"FULFILLED", "SHIPPED"}
+        pending_states = {"UNFULFILLED", "PARTIAL", "ON_HOLD", "SCHEDULED"}
+        fulfilled_orders = [order for order in active_orders if order.get("displayFulfillmentStatus") in fulfilled_states]
+        pending_orders = [order for order in active_orders if order.get("displayFulfillmentStatus") in pending_states]
+        total_revenue = sum(
+            self._number(order.get("currentTotalPriceSet", {}).get("shopMoney", {}).get("amount"))
+            for order in active_orders
+        )
+        currency = next(
+            (
+                order.get("currentTotalPriceSet", {}).get("shopMoney", {}).get("currencyCode")
+                for order in active_orders
+                if order.get("currentTotalPriceSet", {}).get("shopMoney", {}).get("currencyCode")
+            ),
+            "USD",
+        )
+        today = self.now.date().isoformat()
+        shipped_today = sum(
+            1
+            for order in fulfilled_orders
+            if str(order.get("processedAt", "")).startswith(today)
+        )
+        fulfillment_rate = (len(fulfilled_orders) / len(active_orders) * 100) if active_orders else 0.0
+        return {
+            "source": "shopify_admin_graphql",
+            "collected_at": self.now.isoformat(),
+            "period_start": since,
+            "orders_5d": len(active_orders),
+            "revenue_5d": round(total_revenue, 2),
+            "currency": currency,
+            "average_order_value": round(total_revenue / len(active_orders), 2) if active_orders else 0.0,
+            "fulfilled_orders_5d": len(fulfilled_orders),
+            "pending_orders": len(pending_orders),
+            "cancelled_orders_5d": len(orders) - len(active_orders),
+            "shipped_today": shipped_today,
+            "fulfillment_rate": round(fulfillment_rate, 1),
+        }
+
+    def _write_operational_snapshots(self, metrics: dict[str, Any], shopify_snapshot: dict[str, Any]) -> None:
+        """실시간 Shopify 집계를 기존 대시보드 JSON에도 반영한다."""
+        shopify_snapshot.update(
+            {
+                "store_status": shopify_snapshot.get("store_status", "온라인"),
+                "sync_status": f"Shopify Admin API 동기화: {self.now.strftime('%Y-%m-%d %H:%M UTC')}",
+                "orders_5d": metrics["orders_5d"],
+                "revenue_5d": metrics["revenue_5d"],
+                "currency": metrics["currency"],
+                "average_order_value": metrics["average_order_value"],
+            }
+        )
+        order_snapshot = {
+            "pending_orders": metrics["pending_orders"],
+            "shipped_today": metrics["shipped_today"],
+            "fulfillment_rate": f"{metrics['fulfillment_rate']:.1f}%",
+            "status": "정상 운영" if metrics["fulfillment_rate"] >= 95 else "배송 점검 필요",
+            "source": "Shopify Admin API",
+            "updated_at": self.now.isoformat(),
+        }
+        with (self.output_dir / "shopify_team.json").open("w", encoding="utf-8") as file:
+            json.dump(shopify_snapshot, file, ensure_ascii=False, indent=2)
+        with (self.output_dir / "order_team.json").open("w", encoding="utf-8") as file:
+            json.dump(order_snapshot, file, ensure_ascii=False, indent=2)
+
     def collect_5day_data(self) -> dict[str, Any]:
-        """저장된 최근 데이터 파일을 읽는다."""
+        """상품 데이터와 Shopify·주문 운영 지표를 최근 5일 분석 입력으로 수집한다."""
         daiso_data = self._load_json(
             self.output_dir / "daiso_products.json",
             {"total_count": 0, "products": []},
@@ -63,53 +191,125 @@ class StrategyReportGenerator:
             self.output_dir / "global_daiso_dropshipping.json",
             {"revenue_forecast": {}},
         )
+        shopify_snapshot = self._load_json(
+            self.output_dir / "shopify_team.json",
+            {"visitors_today": 0, "conversion_rate": "0%"},
+        )
+        order_snapshot = self._load_json(
+            self.output_dir / "order_team.json",
+            {"pending_orders": 0, "shipped_today": 0, "fulfillment_rate": "0%"},
+        )
+        live_metrics = self.fetch_shopify_order_metrics()
+        if live_metrics:
+            self._write_operational_snapshots(live_metrics, shopify_snapshot)
+            shopify_data = {**shopify_snapshot, **live_metrics}
+            data_quality = "Shopify Admin API 및 저장소 수집 데이터 기준"
+        else:
+            shopify_data = {
+                "source": "dashboard_snapshot",
+                "visitors_today": shopify_snapshot.get("visitors_today", 0),
+                "conversion_rate": shopify_snapshot.get("conversion_rate", "0%"),
+                "orders_5d": shopify_snapshot.get("orders_5d"),
+                "revenue_5d": shopify_snapshot.get("revenue_5d"),
+                "currency": shopify_snapshot.get("currency", "USD"),
+                "average_order_value": shopify_snapshot.get("average_order_value"),
+                "pending_orders": order_snapshot.get("pending_orders", 0),
+                "shipped_today": order_snapshot.get("shipped_today", 0),
+                "fulfillment_rate": self._number(order_snapshot.get("fulfillment_rate")),
+            }
+            data_quality = "저장소의 Shopify·주문 운영 스냅샷과 수집 데이터 기준"
         return {
             "timestamp": self.now.isoformat(),
             "collection_period": "5 days",
             "daiso": daiso_data,
             "dropshipping": dropshipping_data,
+            "shopify": shopify_data,
+            "data_quality": data_quality,
         }
 
     def analyze_strategy(self, data: dict[str, Any]) -> dict[str, Any]:
-        """수집 데이터로 보고서에 표시할 전략 요약을 구성한다."""
+        """Shopify 주문·이행 지표와 상품 데이터를 함께 반영해 전략 우선순위를 구성한다."""
         total_products = data.get("daiso", {}).get("total_count", 0)
+        shopify = data.get("shopify", {})
+        conversion_rate = self._number(shopify.get("conversion_rate"))
+        fulfillment_rate = self._number(shopify.get("fulfillment_rate"))
+        pending_orders = int(self._number(shopify.get("pending_orders")))
+        orders_5d = shopify.get("orders_5d")
+        revenue_5d = shopify.get("revenue_5d")
+        currency = shopify.get("currency", "USD")
+        recommendations: list[dict[str, str]] = []
+
+        if pending_orders > 0:
+            recommendations.append(
+                {
+                    "title": "주문·배송 병목 우선 해소",
+                    "description": f"현재 미처리 주문 {pending_orders}건을 배송 단계·재고·고객 안내 기준으로 분류하고, 처리 기한을 먼저 확정합니다.",
+                    "impact": "배송 지연·취소 위험을 낮추고 고객 경험을 보호",
+                }
+            )
+        if conversion_rate and conversion_rate < 2.5:
+            recommendations.append(
+                {
+                    "title": "전환율 개선 실험",
+                    "description": f"현재 전환율 {conversion_rate:.1f}%를 기준으로 상품 상세 페이지, 배송 메시지, 가격·번들 제안을 우선 A/B 점검합니다.",
+                    "impact": "동일 유입 대비 주문 전환 개선",
+                }
+            )
+        if fulfillment_rate and fulfillment_rate < 95:
+            recommendations.append(
+                {
+                    "title": "풀필먼트 품질 회복",
+                    "description": f"현재 주문 이행률 {fulfillment_rate:.1f}%의 하락 요인을 재고·배송사·처리 리드타임으로 분해해 개선합니다.",
+                    "impact": "배송 완결률 및 재구매 신뢰도 개선",
+                }
+            )
+        if revenue_5d is not None:
+            recommendations.append(
+                {
+                    "title": "최근 주문 매출 기반 객단가 최적화",
+                    "description": f"최근 5일 Shopify 매출 {currency} {self._number(revenue_5d):,.2f}와 주문 수를 기준으로 번들·업셀·무료배송 임계값을 조정합니다.",
+                    "impact": "객단가와 매출 효율 개선",
+                }
+            )
+        recommendations.extend(
+            [
+                {
+                    "title": "고마진 카테고리 집중",
+                    "description": "수익성이 높은 핵심 상품군의 재고·광고 효율을 집중 점검하고, 주문 성과가 확인된 품목의 노출을 확대합니다.",
+                    "impact": "운영 자원을 수익 기회가 큰 상품에 집중",
+                },
+                {
+                    "title": "글로벌 시장 확대",
+                    "description": "주문과 전환 성과가 안정적인 상품부터 국가별 상세 페이지와 캠페인 메시지를 현지화합니다.",
+                    "impact": "검증된 상품 중심의 시장 도달 범위 확대",
+                },
+                {
+                    "title": "가격·재고 운영 최적화",
+                    "description": "최근 주문·배송 데이터와 경쟁 가격을 함께 검토해 품절 위험과 과도한 할인 없이 목표 수익성을 유지합니다.",
+                    "impact": "수익성·재고 회전·배송 안정성의 균형 개선",
+                },
+            ]
+        )
+        revenue_label = (
+            f"{currency} {self._number(revenue_5d):,.2f}"
+            if revenue_5d is not None
+            else "Shopify 연동 대기"
+        )
+        orders_label = f"{int(self._number(orders_5d))}건" if orders_5d is not None else "Shopify 연동 대기"
         return {
             "timestamp": self.now.isoformat(),
             "period": "최근 5일",
             "key_metrics": {
                 "total_products": total_products,
-                "margin_average": "650%",
-                "monthly_revenue_projection": "$3,900–7,200",
-                "growth_rate": "이전 5일 대비 +15%",
+                "shopify_orders_5d": orders_label,
+                "shopify_revenue_5d": revenue_label,
+                "fulfillment_rate": f"{fulfillment_rate:.1f}%" if fulfillment_rate else "운영 데이터 대기",
+                "conversion_rate": f"{conversion_rate:.1f}%" if conversion_rate else "운영 데이터 대기",
+                "pending_orders": f"{pending_orders}건",
             },
-            "strategy_recommendations": [
-                {
-                    "title": "고마진 카테고리 집중",
-                    "description": "평균 마진율이 높은 핵심 카테고리를 우선 운영하고 TOP 5 품목의 재고·광고 효율을 집중 관리합니다.",
-                    "impact": "월 수익 $5,000–7,000 증대 기대",
-                },
-                {
-                    "title": "글로벌 시장 확대",
-                    "description": "미국·유럽 시장을 대상으로 상품 상세 페이지와 캠페인 메시지를 현지화해 신규 수요를 확보합니다.",
-                    "impact": "시장 도달 범위 확대",
-                },
-                {
-                    "title": "SNS 마케팅 강화",
-                    "description": "TikTok 및 Instagram Reels 중심의 짧은 콘텐츠를 정기 발행하고 성과가 높은 소재를 반복 활용합니다.",
-                    "impact": "전환율 개선 기대",
-                },
-                {
-                    "title": "주문·배송 자동화 확대",
-                    "description": "주문 접수부터 배송 상태 안내까지 반복 작업을 자동화해 운영 시간을 절감합니다.",
-                    "impact": "운영 비용 절감 및 처리 속도 향상",
-                },
-                {
-                    "title": "가격 최적화",
-                    "description": "수요·공급·경쟁 가격을 주기적으로 검토해 목표 마진을 유지하는 가격 정책을 적용합니다.",
-                    "impact": "수익성 개선 기대",
-                },
-            ],
-            "data_quality": "저장소의 수집 데이터 기준",
+            "shopify_operational": shopify,
+            "strategy_recommendations": recommendations[:5],
+            "data_quality": data["data_quality"],
         }
 
     @staticmethod
@@ -229,9 +429,9 @@ class StrategyReportGenerator:
         metrics = analysis["key_metrics"]
         cards = [
             ("총 상품 수", f"{metrics['total_products']}개"),
-            ("평균 마진율", metrics["margin_average"]),
-            ("월 수익 예상", metrics["monthly_revenue_projection"]),
-            ("성장률", metrics["growth_rate"]),
+            ("최근 5일 주문", metrics["shopify_orders_5d"]),
+            ("최근 5일 Shopify 매출", metrics["shopify_revenue_5d"]),
+            ("주문 이행률", metrics["fulfillment_rate"]),
         ]
         for index, (label, value) in enumerate(cards):
             col = index % 2
@@ -247,7 +447,7 @@ class StrategyReportGenerator:
             self._add_textbox(slide, value, left + 0.34, top + 0.82, 4.6, 0.58, 25, self.NAVY, bold=True)
         self._add_textbox(
             slide,
-            "지표는 저장소 내 수집 데이터와 현재 분석 기준을 바탕으로 산출되었습니다.",
+            "지표는 최근 5일 Shopify 주문·배송 운영 데이터와 저장소 수집 데이터를 바탕으로 산출되었습니다.",
             0.95,
             6.55,
             11.4,
@@ -330,9 +530,11 @@ JARVIS가 최근 5일 데이터를 기반으로 전략분석 보고서를 생성
 
 [주요 지표]
 - 총 상품 수: {metrics['total_products']}개
-- 평균 마진율: {metrics['margin_average']}
-- 월 수익 예상: {metrics['monthly_revenue_projection']}
-- 성장률: {metrics['growth_rate']}
+- 최근 5일 Shopify 주문: {metrics['shopify_orders_5d']}
+- 최근 5일 Shopify 매출: {metrics['shopify_revenue_5d']}
+- 주문 이행률: {metrics['fulfillment_rate']}
+- 전환율: {metrics['conversion_rate']}
+- 미처리 주문: {metrics['pending_orders']}
 
 [핵심 전략]
 {strategy_lines}
@@ -399,6 +601,7 @@ JARVIS
             "period": analysis["period"],
             "status": status,
             "key_metrics": analysis["key_metrics"],
+            "shopify_operational": analysis["shopify_operational"],
             "strategy_recommendations": analysis["strategy_recommendations"],
             "pptx_url": ppt_path.name,
             "metadata_url": metadata_path.name,
