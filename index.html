@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MD Family JARVIS LUNA - Realtime AGI Evolution OS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #080d13; color: #c9d1d9; padding: 20px; min-height: 100vh; }
@@ -15,20 +18,20 @@
         .adaptive-hero { position: relative; isolation: isolate; overflow: hidden; min-height: 485px; margin-bottom: 26px; padding: 26px 30px; border-radius: 18px; background: url('assets/md-family-hero-photo.webp') center / cover no-repeat; color: #15171b; box-shadow: 0 20px 54px rgba(0, 0, 0, .28); }
         .adaptive-hero::before { content: ''; position: absolute; inset: 0; z-index: 0; background: linear-gradient(90deg, rgba(247,243,234,.88) 0%, rgba(247,243,234,.63) 34%, rgba(247,243,234,.18) 65%, rgba(247,243,234,.45) 100%); }
         .hero-brand-row { position: relative; z-index: 4; display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: clamp(48px, 7.5vw, 68px); }
-        .hero-status-list { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 7px 9px; width: min(690px, 66vw); }
-        .hero-status-item { display: inline-flex; align-items: center; gap: 6px; padding: 0; border: 0; background: transparent; color: #263442; font-size: 10px; font-weight: 700; white-space: nowrap; }
-        .hero-status-dot { width: 7px; height: 7px; flex: 0 0 7px; border-radius: 50%; background: #35b55e; box-shadow: 0 0 0 3px rgba(53,181,94,.16); animation: status-pulse 1.7s ease-in-out infinite; }
+        .hero-status-list { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 9px 13px; width: min(760px, 70vw); }
+        .hero-status-item { display: inline-flex; align-items: center; gap: 7px; padding: 0; border: 0; background: transparent; color: #263442; font-size: 12px; font-weight: 700; white-space: nowrap; }
+        .hero-status-dot { width: 8px; height: 8px; flex: 0 0 8px; border-radius: 50%; background: #35b55e; box-shadow: 0 0 0 3px rgba(53,181,94,.16); animation: status-pulse 1.7s ease-in-out infinite; }
         .hero-status-item.is-offline { color: #9f2520; }
         .hero-status-item.is-offline .hero-status-dot { background: #e5534b; box-shadow: 0 0 0 3px rgba(229,83,75,.18); }
-        .hero-wordmark { color: #12151a; font-size: 12px; font-weight: 700; letter-spacing: .46em; }
-        .hero-live { color: #167c3d; font-size: 12px; font-weight: 700; letter-spacing: .08em; display: inline-flex; align-items: center; gap: 7px; }
-        .hero-live::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: #35b55e; box-shadow: 0 0 0 4px rgba(53,181,94,.14); animation: status-pulse 1.7s ease-in-out infinite; }
+        .hero-wordmark { color: #12151a; font-size: 14px; font-weight: 700; letter-spacing: .42em; }
+        .hero-live { color: #167c3d; font-size: 14px; font-weight: 700; letter-spacing: .08em; display: inline-flex; align-items: center; gap: 8px; }
+        .hero-live::before { content: ''; width: 9px; height: 9px; border-radius: 50%; background: #35b55e; box-shadow: 0 0 0 4px rgba(53,181,94,.14); animation: status-pulse 1.7s ease-in-out infinite; }
         @keyframes status-pulse { 0%, 100% { opacity: .5; transform: scale(.82); } 50% { opacity: 1; transform: scale(1); } }
         .hero-layout { position: relative; z-index: 2; display: grid; grid-template-columns: minmax(280px, 1fr) minmax(220px, .56fr); align-items: center; gap: 20px; min-height: 405px; }
         .hero-copy { align-self: center; max-width: 430px; }
-        .hero-eyebrow { color: #246fca; font-size: 11px; font-weight: 800; letter-spacing: .13em; margin-bottom: 13px; }
-        .adaptive-hero h1 { color: #12151a; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(2.3rem, 4.3vw, 4.2rem); line-height: .98; letter-spacing: -.045em; margin-bottom: 18px; }
-        .hero-subtitle { color: #5d6470; max-width: 330px; font-size: 15px; line-height: 1.65; }
+        .hero-eyebrow { color: #246fca; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(1.35rem, 2.1vw, 1.8rem); font-weight: 700; letter-spacing: .04em; line-height: 1; margin-bottom: 9px; transform: rotate(-1deg); transform-origin: left center; }
+        .adaptive-hero h1 { color: #12151a; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(3.25rem, 5.6vw, 5.5rem); font-weight: 600; line-height: .84; letter-spacing: -.035em; margin-bottom: 18px; transform: rotate(-1.2deg); transform-origin: left center; }
+        .hero-subtitle { color: #4d5662; max-width: 390px; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(1.35rem, 2.15vw, 1.8rem); font-weight: 600; line-height: 1.18; letter-spacing: .01em; transform: rotate(-.5deg); transform-origin: left center; }
         .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
         .hero-action { color: #f7f8fa; background: #13171e; border: 1px solid #13171e; border-radius: 999px; padding: 10px 15px; font-size: 12px; font-weight: 700; text-decoration: none; transition: transform 160ms cubic-bezier(.23,1,.32,1), background 160ms cubic-bezier(.23,1,.32,1); }
         .hero-action.secondary { color: #1b2029; background: transparent; border-color: #7d8490; }
@@ -120,7 +123,11 @@
             .hero-layout { grid-template-columns: 1fr; min-height: auto; }
             .hero-brand-row { flex-wrap: wrap; min-height: auto; }
             .hero-status-list { position: static; transform: none; order: 3; width: 100%; margin: 4px auto 0; }
-            .hero-status-item { font-size: 9px; padding: 4px 6px; }
+            .hero-status-item { font-size: 10.5px; padding: 4px 6px; }
+            .hero-wordmark, .hero-live { font-size: 12px; }
+            .hero-eyebrow { font-size: 1.25rem; }
+            .adaptive-hero h1 { font-size: clamp(3rem, 15vw, 4.2rem); }
+            .hero-subtitle { font-size: 1.3rem; max-width: 350px; }
             .hero-copy { max-width: none; }
             .hero-kpis { grid-column: 1; grid-template-columns: 1fr 1fr; padding: 6px 14px; }
             .hero-kpi strong { font-size: 18px; }
@@ -188,10 +195,6 @@
                 <div class="team-card">
                     <h4>⚖️ 법무팀 <span id="legal-status">검토 대기</span></h4>
                     <p>검토 상품: <span id="legal-products">0개</span><br>우선 작업: <span id="legal-priority">제품 정보 확인</span></p>
-                </div>
-                <div class="team-card">
-                    <h4>민서 <span>posco future M-한성</span></h4>
-                    <p>월급: 200만원 ㅋ</p>
                 </div>
             </div>
         </div>
