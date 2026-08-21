@@ -33,22 +33,22 @@
         .hero-eyebrow { color: #246fca; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(1.1rem, 1.7vw, 1.45rem); font-weight: 700; letter-spacing: .04em; line-height: 1; margin-bottom: 9px; transform: rotate(-1deg); transform-origin: left center; }
         .adaptive-hero h1 { color: #12151a; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(3.25rem, 5.6vw, 5.5rem); font-weight: 600; line-height: .84; letter-spacing: -.035em; margin-bottom: 18px; transform: rotate(-1.2deg); transform-origin: left center; }
         .hero-subtitle { color: #4d5662; max-width: 390px; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(1.35rem, 2.15vw, 1.8rem); font-weight: 600; line-height: 1.18; letter-spacing: .01em; transform: rotate(-.5deg); transform-origin: left center; }
-        .hero-actions { display: grid; grid-template-columns: repeat(2, minmax(250px, 1fr)); gap: 14px; width: min(100%, 640px); margin-top: 24px; }
+        .hero-actions { display: grid; grid-template-columns: repeat(2, minmax(220px, 1fr)); gap: 24px; width: min(100%, 580px); margin-top: 24px; }
         .hero-slider { --slider-value: 40%; min-width: 0; }
-        .hero-slider-label { display: flex; justify-content: space-between; align-items: center; margin: 0 5px 6px; color: #44576a; font-size: 11px; font-weight: 800; letter-spacing: .02em; }
-        .hero-slider-value { color: #246fca; font-variant-numeric: tabular-nums; }
-        .hero-slider-track { position: relative; height: 52px; overflow: visible; border-radius: 999px; background: rgba(255,255,255,.36); box-shadow: inset 0 2px 7px rgba(27,49,67,.18), 0 7px 16px rgba(13,28,43,.14); cursor: ew-resize; touch-action: none; user-select: none; }
-        .hero-slider-track::after { content: ''; position: absolute; inset: 2px; border-radius: inherit; pointer-events: none; box-shadow: inset 0 1px 0 rgba(255,255,255,.65); }
-        .hero-slider-fill { position: absolute; inset: 4px auto 4px 4px; width: var(--slider-value); max-width: calc(100% - 8px); border-radius: inherit; background: linear-gradient(90deg, rgba(36,111,202,.7), rgba(103,191,255,.88)); box-shadow: inset 0 1px 0 rgba(255,255,255,.58), 0 3px 8px rgba(36,111,202,.18); transition: width 120ms ease-out; }
-        .hero-slider-thumb { position: absolute; left: clamp(4px, calc(var(--slider-value) - 75px), calc(100% - 154px)); top: 5px; z-index: 2; display: inline-flex; align-items: center; justify-content: center; gap: 7px; width: 150px; height: 42px; padding: 0 14px; overflow: hidden; border: 0; border-radius: 999px; color: #f7f8fa; background: linear-gradient(145deg, rgba(24,31,43,.96), rgba(9,14,22,.9)); box-shadow: inset 0 1px 0 rgba(255,255,255,.5), inset 0 -7px 12px rgba(0,0,0,.25), 0 8px 14px rgba(10,15,24,.28); font: inherit; font-size: 11px; font-weight: 800; white-space: nowrap; cursor: grab; transform: translateZ(0); transition: left 120ms ease-out, transform 280ms cubic-bezier(.22,1.45,.36,1), box-shadow 220ms ease; }
-        .hero-slider-thumb::before { content: ''; position: absolute; top: -40%; left: -30%; width: 38%; height: 180%; border-radius: 50%; background: linear-gradient(90deg, transparent, rgba(255,255,255,.7), transparent); filter: blur(4px); opacity: .48; transform: translateX(-170%) skewX(-16deg); transition: transform 480ms cubic-bezier(.22,1.2,.36,1); }
-        .hero-slider-thumb::after { content: '↔'; color: rgba(255,255,255,.72); font-size: 15px; line-height: 1; }
-        .hero-slider-thumb:hover, .hero-slider-thumb:focus-visible { transform: translateY(-3px) scale(1.06, .94); box-shadow: inset 0 1px 0 rgba(255,255,255,.62), inset 0 -8px 13px rgba(0,0,0,.2), 0 13px 20px rgba(10,15,24,.32); outline: none; }
-        .hero-slider-thumb:hover::before, .hero-slider-thumb:focus-visible::before { transform: translateX(430%) skewX(-16deg); }
-        .hero-slider-thumb:active, .hero-slider.is-dragging .hero-slider-thumb { cursor: grabbing; transform: translateY(2px) scale(1.1, .82); box-shadow: inset 0 5px 10px rgba(0,0,0,.28), 0 4px 8px rgba(10,15,24,.2); }
-        .hero-slider.secondary .hero-slider-fill { background: linear-gradient(90deg, rgba(70,144,131,.68), rgba(130,224,196,.86)); }
-        .hero-slider.secondary .hero-slider-thumb { color: #183b3c; background: linear-gradient(145deg, rgba(255,255,255,.72), rgba(206,246,237,.4)); box-shadow: inset 0 1px 0 rgba(255,255,255,.85), inset 0 -7px 12px rgba(54,130,119,.14), 0 8px 14px rgba(24,77,70,.18); }
-        .hero-slider.secondary .hero-slider-thumb::after { color: rgba(24,59,60,.68); }
+        .hero-slider-label { display: flex; justify-content: space-between; align-items: center; margin: 0 4px 8px; color: #44576a; font-size: 12px; font-weight: 800; letter-spacing: .02em; }
+        .hero-slider-value { color: #246fca; font-size: 14px; font-variant-numeric: tabular-nums; }
+        .hero-slider-track { position: relative; height: 9px; margin: 0 14px 4px; overflow: visible; border-radius: 999px; background: rgba(255,255,255,.42); box-shadow: inset 0 1px 4px rgba(27,49,67,.2), 0 3px 8px rgba(13,28,43,.12); cursor: ew-resize; touch-action: none; user-select: none; }
+        .hero-slider-track::after { content: ''; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; box-shadow: inset 0 1px 0 rgba(255,255,255,.7); }
+        .hero-slider-fill { position: absolute; inset: 0 auto 0 0; width: var(--slider-value); max-width: 100%; border-radius: inherit; background: linear-gradient(90deg, rgba(36,111,202,.72), rgba(103,191,255,.9)); box-shadow: 0 1px 4px rgba(36,111,202,.25); transition: width 100ms ease-out; }
+        .hero-slider-thumb { position: absolute; left: clamp(0px, calc(var(--slider-value) - 14px), calc(100% - 28px)); top: -10px; z-index: 2; width: 28px; height: 28px; padding: 0; border: 1px solid rgba(255,255,255,.72); border-radius: 50%; color: transparent; background: radial-gradient(circle at 35% 28%, rgba(255,255,255,.98) 0 12%, rgba(190,235,255,.94) 28%, rgba(36,111,202,.9) 72%); box-shadow: inset 0 1px 2px rgba(255,255,255,.8), inset 0 -3px 5px rgba(16,67,130,.32), 0 5px 10px rgba(24,73,121,.28); cursor: grab; transform: scale(1); transition: left 100ms ease-out, transform 220ms cubic-bezier(.22,1.45,.36,1), box-shadow 180ms ease; }
+        .hero-slider-thumb::before { content: ''; position: absolute; inset: -3px -12px; z-index: -1; border-radius: 50%; background: rgba(103,191,255,.25); filter: blur(5px); opacity: .62; transform: scaleX(.35); transition: transform 220ms cubic-bezier(.22,1.45,.36,1); }
+        .hero-slider-thumb::after { content: ''; position: absolute; inset: 9px; border-radius: 50%; background: rgba(255,255,255,.92); box-shadow: 0 1px 2px rgba(30,68,104,.28); }
+        .hero-slider-thumb:hover, .hero-slider-thumb:focus-visible { transform: scale(1.18); outline: none; box-shadow: inset 0 1px 2px rgba(255,255,255,.9), inset 0 -3px 5px rgba(16,67,130,.3), 0 7px 13px rgba(24,73,121,.35); }
+        .hero-slider-thumb:active, .hero-slider.is-dragging .hero-slider-thumb { cursor: grabbing; transform: translateY(2px) scaleX(1.85) scaleY(.72); box-shadow: inset 0 2px 4px rgba(255,255,255,.5), inset 0 -3px 5px rgba(16,67,130,.35), 0 4px 8px rgba(24,73,121,.26); }
+        .hero-slider.is-dragging .hero-slider-thumb::before { transform: scaleX(1.65); opacity: .9; }
+        .hero-slider.secondary .hero-slider-fill { background: linear-gradient(90deg, rgba(70,144,131,.7), rgba(130,224,196,.9)); }
+        .hero-slider.secondary .hero-slider-thumb { background: radial-gradient(circle at 35% 28%, rgba(255,255,255,.98) 0 12%, rgba(206,246,237,.95) 28%, rgba(70,144,131,.9) 72%); box-shadow: inset 0 1px 2px rgba(255,255,255,.86), inset 0 -3px 5px rgba(54,130,119,.3), 0 5px 10px rgba(24,77,70,.24); }
+        .hero-slider.secondary .hero-slider-thumb::before { background: rgba(130,224,196,.3); }
         @media (prefers-reduced-motion: reduce) {
             .hero-slider-fill, .hero-slider-thumb, .hero-slider-thumb::before { transition: none; }
         }
@@ -181,7 +181,8 @@
             .hero-kpis { grid-column: 1; grid-template-columns: 1fr 1fr; padding: 6px 14px; }
             .hero-kpi strong { font-size: 18px; }
             .hero-actions { grid-template-columns: 1fr; width: 100%; gap: 10px; }
-            .hero-slider-thumb { width: 138px; padding: 0 10px; font-size: 10px; }
+            .hero-actions { grid-template-columns: 1fr; gap: 18px; width: 100%; }
+            .hero-slider-track { margin-left: 14px; margin-right: 14px; }
         }
     </style>
 </head>
@@ -208,14 +209,14 @@
                             <div class="hero-slider-label"><span>프로젝트 진행도</span><span class="hero-slider-value">40%</span></div>
                             <div class="hero-slider-track" role="presentation">
                                 <div class="hero-slider-fill"></div>
-                                <button class="hero-slider-thumb" type="button" role="slider" aria-label="프로젝트 진행도 조절" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40" aria-valuetext="프로젝트 진행도 40%">프로젝트 진행도</button>
+                                <button class="hero-slider-thumb" type="button" role="slider" aria-label="프로젝트 진행도 조절" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40" aria-valuetext="프로젝트 진행도 40%"></button>
                             </div>
                         </div>
                         <div class="hero-slider secondary" data-slider="strategy" data-value="40" data-target="strategy-report-card">
                             <div class="hero-slider-label"><span>전략 분석 보기</span><span class="hero-slider-value">40%</span></div>
                             <div class="hero-slider-track" role="presentation">
                                 <div class="hero-slider-fill"></div>
-                                <button class="hero-slider-thumb" type="button" role="slider" aria-label="전략 분석 진행 상태 조절" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40" aria-valuetext="전략 분석 진행 상태 40%">전략 분석 보기</button>
+                                <button class="hero-slider-thumb" type="button" role="slider" aria-label="전략 분석 진행 상태 조절" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40" aria-valuetext="전략 분석 진행 상태 40%"></button>
                             </div>
                         </div>
                     </div>
