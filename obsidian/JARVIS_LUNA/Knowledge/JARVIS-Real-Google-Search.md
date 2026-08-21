@@ -2,7 +2,7 @@
 title: "JARVIS Real Google Search"
 source: "Google Programmable Search JSON API"
 status: not_configured
-collected_at: 2026-08-21T23:13:15.504444+00:00
+collected_at: 2026-08-21T23:19:15.304490+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real Google Search

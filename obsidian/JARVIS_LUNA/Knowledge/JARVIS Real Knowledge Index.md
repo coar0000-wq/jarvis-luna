@@ -1,7 +1,7 @@
 ---
 title: "JARVIS Real Knowledge Index"
 tags: [jarvis, knowledge-graph, real-data]
-updated: 2026-08-21T23:13:15.285218+00:00
+updated: 2026-08-21T23:19:15.076772+00:00
 ---
 # JARVIS Real Knowledge Index
 

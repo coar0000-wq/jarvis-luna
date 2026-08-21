@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-21T23:13:15.285218+00:00",
+  "collected_at": "2026-08-21T23:19:15.076772+00:00",
   "sources": {
     "arxiv": {
       "status": "ok",
@@ -169,11 +169,7 @@
       "status": "not_configured",
       "source": "Google Programmable Search JSON API",
       "items": [],
-      "queries": [
-        "AI agents 2026",
-        "medical AI research 2026",
-        "Mixture of Experts latest"
-      ],
+      "queries": [],
       "error": "GOOGLE_CSE_API_KEY and GOOGLE_CSE_ID are not configured"
     }
   }
