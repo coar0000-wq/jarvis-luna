@@ -41,7 +41,8 @@
         .hero-intelligence { margin-top: 25px; padding: 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
         .hero-intelligence h3 { color: #246fca; font-size: 10px; letter-spacing: .12em; margin-bottom: 8px; }
         .hero-intelligence p { color: #535b66; font-size: 12px; line-height: 1.7; }
-        .hero-kpis { align-self: center; border-radius: 16px; background: rgba(255,255,255,.52); border: 1px solid rgba(255,255,255,.72); color: #182531; padding: 8px 20px; box-shadow: 0 16px 30px rgba(35,30,24,.13); backdrop-filter: blur(14px) saturate(120%); -webkit-backdrop-filter: blur(14px) saturate(120%); }
+        .hero-intelligence--mobile { display: none; }
+        .hero-kpis { align-self: center; border-radius: 16px; background: rgba(255,255,255,.52); border: 0; color: #182531; padding: 8px 20px; box-shadow: 0 16px 30px rgba(35,30,24,.13); backdrop-filter: blur(14px) saturate(120%); -webkit-backdrop-filter: blur(14px) saturate(120%); }
         .hero-kpi { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 18px 0; border-bottom: 1px solid rgba(39,58,74,.18); }
         .hero-kpi:last-child { border-bottom: 0; }
         .hero-kpi span { color: #536171; font-size: 12px; font-weight: 700; }
@@ -141,7 +142,9 @@
             .hero-status-list { position: static; transform: none; order: 3; width: 100%; margin: 4px auto 0; }
             .hero-status-item { font-size: 10.5px; padding: 4px 6px; }
             .hero-wordmark, .hero-live { font-size: 12px; }
-            .hero-eyebrow { font-size: 1.05rem; }
+            .hero-intelligence--desktop { display: none; }
+            .hero-intelligence--mobile { display: block; }
+            .hero-intelligence--mobile p { color: #394858; font-size: 13px; font-weight: 700; line-height: 1.55; }
             .adaptive-hero h1 { font-size: clamp(3rem, 15vw, 4.2rem); }
             .hero-subtitle { font-size: 1.3rem; max-width: 350px; }
             .hero-copy { max-width: none; }
@@ -166,16 +169,18 @@
             </div>
             <div class="hero-layout">
                 <div class="hero-copy">
-                    <p class="hero-eyebrow">ADAPTIVE BUSINESS INTELLIGENCE</p>
                     <h1>MD Family<br>Adaptive Intelligence</h1>
                     <p class="hero-subtitle">Knowledge graph, product discovery, and strategy analysis in one evolving system.</p>
                     <div class="hero-actions">
                         <a class="hero-action" href="#project-progress">프로젝트 진행도</a>
                         <a class="hero-action secondary" href="#strategy-report-card">전략 분석 보기</a>
                     </div>
-                    <div class="hero-intelligence">
+                    <div class="hero-intelligence hero-intelligence--desktop">
                         <h3>TODAY'S INTELLIGENCE</h3>
                         <p>다이소 뷰티 &amp; 스킨케어 발굴 · Obsidian 그래프 동기화 · 최근 5일 전략 추이</p>
+                    </div>
+                    <div class="hero-intelligence hero-intelligence--mobile">
+                        <p>민서 posco future M-한성 월급: 200만원 ㅋㅋ</p>
                     </div>
                 </div>
                 <div class="hero-kpis" aria-label="핵심 운영 지표">
