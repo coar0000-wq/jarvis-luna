@@ -6,12 +6,44 @@
     <title>MD Family JARVIS LUNA - Realtime AGI Evolution OS</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0d1117; color: #c9d1d9; padding: 20px; min-height: 100vh; }
-        .container { max-width: 950px; margin: auto; }
-        h1 { color: #58a6ff; margin-bottom: 25px; border-bottom: 1px solid #30363d; padding-bottom: 12px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; font-size: 1.4rem; }
-        #live-indicator { font-size: 12px; color: #3fb950; background: #21262d; padding: 4px 12px; border-radius: 20px; border: 1px solid #238636; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #080d13; color: #c9d1d9; padding: 20px; min-height: 100vh; }
+        .container { max-width: 1180px; margin: auto; }
         h2 { color: #58a6ff; margin-bottom: 18px; border-bottom: 1px solid #30363d; padding-bottom: 8px; font-size: 1.1rem; display: flex; align-items: center; gap: 8px; }
         .card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 20px; margin-bottom: 22px; }
+
+        /* MD Family Adaptive Intelligence Hero: top navigation is intentionally omitted. */
+        .adaptive-hero { position: relative; isolation: isolate; overflow: hidden; min-height: 485px; margin-bottom: 26px; padding: 26px 30px; border-radius: 18px; background: #f7f3ea; color: #15171b; box-shadow: 0 20px 54px rgba(0, 0, 0, .28); }
+        .hero-brand-row { position: relative; z-index: 4; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+        .hero-wordmark { color: #12151a; font-size: 12px; font-weight: 700; letter-spacing: .46em; }
+        .hero-live { color: #167c3d; font-size: 12px; font-weight: 700; letter-spacing: .08em; display: inline-flex; align-items: center; gap: 7px; }
+        .hero-live::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: #35b55e; box-shadow: 0 0 0 4px rgba(53,181,94,.14); }
+        .hero-layout { position: relative; z-index: 2; display: grid; grid-template-columns: minmax(280px, .86fr) minmax(260px, 1fr) minmax(220px, .6fr); align-items: center; gap: 20px; min-height: 405px; }
+        .hero-copy { align-self: center; max-width: 390px; }
+        .hero-eyebrow { color: #246fca; font-size: 11px; font-weight: 800; letter-spacing: .13em; margin-bottom: 13px; }
+        .adaptive-hero h1 { color: #12151a; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(2.3rem, 4.3vw, 4.2rem); line-height: .98; letter-spacing: -.045em; margin-bottom: 18px; }
+        .hero-subtitle { color: #5d6470; max-width: 330px; font-size: 15px; line-height: 1.65; }
+        .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+        .hero-action { color: #f7f8fa; background: #13171e; border: 1px solid #13171e; border-radius: 999px; padding: 10px 15px; font-size: 12px; font-weight: 700; text-decoration: none; transition: transform 160ms cubic-bezier(.23,1,.32,1), background 160ms cubic-bezier(.23,1,.32,1); }
+        .hero-action.secondary { color: #1b2029; background: transparent; border-color: #7d8490; }
+        .hero-action:hover { background: #246fca; border-color: #246fca; transform: translateY(-2px); }
+        .hero-action.secondary:hover { color: #fff; }
+        .hero-action:active { transform: scale(.97); }
+        .hero-intelligence { margin-top: 25px; border: 1px solid rgba(41, 55, 72, .15); border-radius: 12px; background: rgba(255, 255, 255, .52); padding: 13px 15px; box-shadow: 0 8px 20px rgba(39, 47, 58, .06); }
+        .hero-intelligence h3 { color: #246fca; font-size: 10px; letter-spacing: .12em; margin-bottom: 8px; }
+        .hero-intelligence p { color: #535b66; font-size: 12px; line-height: 1.7; }
+        .hero-dna-stage { position: relative; align-self: stretch; min-height: 405px; overflow: hidden; display: grid; place-items: center; }
+        .hero-dna-aura { position: absolute; width: 300px; height: 300px; border-radius: 50%; background: radial-gradient(circle, rgba(61,131,230,.19) 0%, rgba(61,131,230,.06) 34%, transparent 70%); filter: blur(6px); }
+        .hero-dna-motion { position: relative; width: 255px; height: 520px; display: flex; align-items: center; justify-content: center; transform: rotate(-9deg); animation: dna-drift 8s cubic-bezier(.77,0,.175,1) infinite alternate; }
+        .hero-dna-motion::after { content: ''; position: absolute; inset: 18% 5%; border-radius: 50%; border: 1px solid rgba(50, 123, 221, .18); box-shadow: 0 0 32px rgba(56, 135, 232, .22); animation: dna-aura 5s ease-in-out infinite; }
+        .hero-dna-image { position: relative; z-index: 1; width: 100%; height: auto; max-height: none; filter: saturate(1.04) contrast(1.05) drop-shadow(0 18px 16px rgba(20, 38, 67, .2)); }
+        .hero-kpis { align-self: center; border-radius: 15px; background: #121820; border: 1px solid #252f3d; color: #e8edf5; padding: 8px 20px; box-shadow: 0 16px 28px rgba(0,0,0,.22); }
+        .hero-kpi { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 18px 0; border-bottom: 1px solid #2a3443; }
+        .hero-kpi:last-child { border-bottom: 0; }
+        .hero-kpi span { color: #aeb9c9; font-size: 12px; }
+        .hero-kpi strong { color: #f7fbff; font-size: 22px; }
+        .hero-kpi:last-child strong { color: #52c978; }
+        @keyframes dna-drift { 0% { transform: translate3d(-8px, 8px, 0) rotate(-12deg); } 50% { transform: translate3d(7px, -7px, 0) rotate(-5deg); } 100% { transform: translate3d(-4px, -11px, 0) rotate(-10deg); } }
+        @keyframes dna-aura { 0%, 100% { opacity: .45; transform: scale(.92); } 50% { opacity: 1; transform: scale(1.08); } }
         
         /* 상단 시스템 상태 카드 */
         .system-status { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 22px; }
@@ -76,48 +108,65 @@
         .legal-list a, .legal-sources a { color: #58a6ff; font-size: 12px; text-decoration: none; }
         .legal-list a:hover, .legal-sources a:hover { text-decoration: underline; }
         .legal-sources { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-top: 15px; }
+        @media (max-width: 860px) {
+            .adaptive-hero { padding: 22px; }
+            .hero-layout { grid-template-columns: 1fr 1fr; }
+            .hero-dna-stage { grid-column: 2; grid-row: 1 / span 2; min-height: 430px; }
+            .hero-kpis { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 18px; }
+            .hero-kpi { padding: 14px 0; }
+        }
+        @media (max-width: 620px) {
+            body { padding: 12px; }
+            .adaptive-hero { min-height: auto; padding: 18px; }
+            .hero-layout { grid-template-columns: 1fr; min-height: auto; }
+            .hero-dna-stage { grid-column: 1; grid-row: auto; min-height: 285px; order: -1; }
+            .hero-dna-motion { width: 185px; height: 360px; }
+            .hero-copy { max-width: none; }
+            .hero-kpis { grid-column: 1; grid-template-columns: 1fr 1fr; padding: 6px 14px; }
+            .hero-kpi strong { font-size: 18px; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .hero-dna-motion, .hero-dna-motion::after { animation: none; }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>
-            <span>MD Family JARVIS LUNA - AGI Evolution OS</span>
-            <span id="live-indicator">🟢 LIVE SYNC</span>
-        </h1>
-
-        <!-- 상단 시스템 상태 -->
-        <div class="system-status">
-            <div class="sys-card">
-                <div class="sys-info"><h3>도현 (CEO)</h3><p>System Director</p></div>
-                <span class="badge orange">감시중</span>
+        <!-- 메뉴 없이 스크롤로 이어지는 MD Family Adaptive Intelligence Hero -->
+        <section class="adaptive-hero" aria-label="MD Family Adaptive Intelligence">
+            <div class="hero-brand-row">
+                <span class="hero-wordmark">MD FAMILY</span>
+                <span class="hero-live">LIVE</span>
             </div>
-            <div class="sys-card">
-                <div class="sys-info"><h3>GitHub Actions</h3><p>Automation</p></div>
-                <span class="badge blue">활성</span>
+            <div class="hero-layout">
+                <div class="hero-copy">
+                    <p class="hero-eyebrow">ADAPTIVE BUSINESS INTELLIGENCE</p>
+                    <h1>MD Family<br>Adaptive Intelligence</h1>
+                    <p class="hero-subtitle">Knowledge graph, product discovery, and strategy analysis in one evolving system.</p>
+                    <div class="hero-actions">
+                        <a class="hero-action" href="#project-progress">프로젝트 진행도</a>
+                        <a class="hero-action secondary" href="#strategy-report-card">전략 분석 보기</a>
+                    </div>
+                    <div class="hero-intelligence">
+                        <h3>TODAY'S INTELLIGENCE</h3>
+                        <p>다이소 뷰티 &amp; 스킨케어 발굴 · Obsidian 그래프 동기화 · 최근 5일 전략 추이</p>
+                    </div>
+                </div>
+                <div class="hero-dna-stage" aria-hidden="true">
+                    <div class="hero-dna-aura"></div>
+                    <div class="hero-dna-motion"><img class="hero-dna-image" src="assets/md-family-dna.png" alt=""></div>
+                </div>
+                <div class="hero-kpis" aria-label="핵심 운영 지표">
+                    <div class="hero-kpi"><span>오늘 매출</span><strong id="today-sales">$286</strong></div>
+                    <div class="hero-kpi"><span>월 수익</span><strong id="monthly-revenue">$5,550</strong></div>
+                    <div class="hero-kpi"><span>신규 상품</span><strong id="new-products">0개</strong></div>
+                    <div class="hero-kpi"><span>자동화율</span><strong id="auto-rate">96%</strong></div>
+                </div>
             </div>
-            <div class="sys-card">
-                <div class="sys-info"><h3>JARVIS AI</h3><p>Core Engine</p></div>
-                <span class="badge blue">자동화</span>
-            </div>
-            <div class="sys-card">
-                <div class="sys-info"><h3>Obsidian</h3><p>Knowledge Base</p></div>
-                <span class="badge green">온라인</span>
-            </div>
-        </div>
-
-        <!-- CEO Executive Dashboard -->
-        <div class="card">
-            <h2>💰 Shopify + 다이소 Dropshipping & CEO Dashboard</h2>
-            <div class="stats-grid">
-                <div class="stat-box"><h3>오늘 매출</h3><p id="today-sales">$286</p></div>
-                <div class="stat-box"><h3>월 수익 (재무)</h3><p id="monthly-revenue">$5,550</p></div>
-                <div class="stat-box"><h3>신규 상품</h3><p id="new-products">0개</p></div>
-                <div class="stat-box"><h3>자동화율</h3><p id="auto-rate">96%</p></div>
-            </div>
-        </div>
+        </section>
 
         <!-- 팀별 실시간 현황 -->
-        <div class="card">
+        <div class="card" id="team-status">
             <h2>🏢 팀별 실시간 현황</h2>
             <p class="current-time" id="team-current-time">현재 날짜·시·분을 불러오는 중입니다.</p>
             <div class="team-grid">
@@ -185,7 +234,7 @@
         </div>
 
         <!-- 프로젝트 진행도 (Phase 26 실시간 데이터) -->
-        <div class="card">
+        <div class="card" id="project-progress">
             <h2>📊 프로젝트 진행도</h2>
             <p class="progress-note" id="progress-summary">Phase 26 · MoE 라우터 진행 데이터를 불러오는 중입니다.</p>
             <div class="progress-container" id="progress-container">
