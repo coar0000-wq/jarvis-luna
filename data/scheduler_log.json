@@ -1,6 +1,36 @@
 {
   "events": [
     {
+      "timestamp": "2026-08-21T14:51:51.948647Z",
+      "task_name": "✅ 아마존 상품 발굴",
+      "details": "아마존 뷰티·스킨케어 상품 4개 발굴 (누적: 988개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T14:51:51.925174Z",
+      "task_name": "✅ 월마트 상품 발굴",
+      "details": "월마트 뷰티·스킨케어 상품 4개 발굴 (누적: 984개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T14:51:51.901658Z",
+      "task_name": "✅ 네이버 상품 발굴",
+      "details": "네이버 뷰티·스킨케어 상품 3개 발굴 (누적: 980개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T14:51:51.877199Z",
+      "task_name": "✅ 올리브영 상품 발굴",
+      "details": "올리브영 뷰티·스킨케어 상품 4개 발굴 (누적: 977개)",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-08-21T14:51:51.852035Z",
+      "task_name": "✅ 다이소 상품 발굴",
+      "details": "다이소 뷰티·스킨케어 상품 4개 발굴 (누적: 973개)",
+      "status": "success"
+    },
+    {
       "timestamp": "2026-08-21T14:26:12.372041Z",
       "task_name": "✅ 다이소 상품 발굴",
       "details": "다이소 뷰티·스킨케어 상품 5개 발굴 (누적: 969개)",
@@ -568,36 +598,6 @@
       "timestamp": "2026-08-21T02:56:32.775932Z",
       "task_name": "✅ 다이소 상품 발굴",
       "details": "다이소 상품 3개 발굴 (누적: 591개)",
-      "status": "success"
-    },
-    {
-      "timestamp": "2026-08-21T02:09:13.149437Z",
-      "task_name": "✅ 아마존 상품 발굴",
-      "details": "아마존 상품 3개 발굴 (누적: 588개)",
-      "status": "success"
-    },
-    {
-      "timestamp": "2026-08-21T02:09:13.117433Z",
-      "task_name": "✅ 월마트 상품 발굴",
-      "details": "월마트 상품 5개 발굴 (누적: 585개)",
-      "status": "success"
-    },
-    {
-      "timestamp": "2026-08-21T02:09:13.075831Z",
-      "task_name": "✅ 네이버 상품 발굴",
-      "details": "네이버 상품 5개 발굴 (누적: 580개)",
-      "status": "success"
-    },
-    {
-      "timestamp": "2026-08-21T02:09:13.028553Z",
-      "task_name": "✅ 올리브영 상품 발굴",
-      "details": "올리브영 상품 5개 발굴 (누적: 575개)",
-      "status": "success"
-    },
-    {
-      "timestamp": "2026-08-21T02:09:12.995768Z",
-      "task_name": "✅ 다이소 상품 발굴",
-      "details": "다이소 상품 4개 발굴 (누적: 570개)",
       "status": "success"
     }
   ]
