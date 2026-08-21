@@ -1,202 +1,416 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-🎯 5일 주기 전략분석 PPT 자동 생성 & 이메일 발송 시스템
-"""
+"""JARVIS 5일 주기 전략분석 PowerPoint 생성 및 이메일 발송 스크립트."""
 
 import json
 import os
 import smtplib
-from datetime import datetime
-from pathlib import Path
+from datetime import datetime, timezone
+from email.encoders import encode_base64
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from email.encoders import encode_base64
+from pathlib import Path
+from typing import Any
+
+from pptx import Presentation
+from pptx.dml.color import RGBColor
+from pptx.enum.shapes import MSO_SHAPE
+from pptx.enum.text import MSO_ANCHOR, PP_ALIGN
+from pptx.util import Inches, Pt
+
 
 class StrategyReportGenerator:
-    """5일 데이터 기반 전략분석 PPT 생성"""
+    """최근 5일 데이터를 바탕으로 전략 보고서 PPTX를 생성하고 발송한다."""
 
-    def __init__(self):
-        self.now = datetime.utcnow()
-        self.recipient_email = "coar0000@naver.com"
-        self.sender_email = os.getenv('SENDER_EMAIL', 'jarvis@jarvis.cloud')
-        self.sender_password = os.getenv('EMAIL_PASSWORD', '')
+    OUTPUT_DIR = Path("data")
+    RECIPIENT_EMAIL = "coar0000@naver.com"
 
-    def collect_5day_data(self):
-        """최근 5일 데이터 수집"""
+    NAVY = (15, 35, 66)
+    BLUE = (37, 99, 235)
+    SKY = (219, 234, 254)
+    WHITE = (255, 255, 255)
+    TEXT = (31, 41, 55)
+    MUTED = (75, 85, 99)
+    GREEN = (5, 150, 105)
+
+    def __init__(self) -> None:
+        self.now = datetime.now(timezone.utc)
+        self.output_dir = self.OUTPUT_DIR
+        self.recipient_email = os.getenv("RECIPIENT_EMAIL", self.RECIPIENT_EMAIL)
+        self.sender_email = os.getenv("SENDER_EMAIL", "").strip()
+        self.sender_password = os.getenv("EMAIL_PASSWORD", "")
+        self.email_error: str | None = None
+
+    @staticmethod
+    def _load_json(path: Path, default: dict[str, Any]) -> dict[str, Any]:
+        """JSON 파일을 읽고, 파일 부재 또는 형식 오류 시 기본값을 사용한다."""
         try:
-            with open('data/daiso_products.json', 'r', encoding='utf-8') as f:
-                daiso_data = json.load(f)
-        except:
-            daiso_data = {"total_count": 0, "products": []}
+            with path.open("r", encoding="utf-8") as file:
+                loaded = json.load(file)
+                return loaded if isinstance(loaded, dict) else default
+        except (FileNotFoundError, OSError, json.JSONDecodeError) as error:
+            print(f"⚠️ 데이터 파일을 읽지 못해 기본값을 사용합니다: {path} ({error})")
+            return default
 
-        try:
-            with open('data/global_daiso_dropshipping.json', 'r', encoding='utf-8') as f:
-                dropshipping_data = json.load(f)
-        except:
-            dropshipping_data = {"revenue_forecast": {}}
-
+    def collect_5day_data(self) -> dict[str, Any]:
+        """저장된 최근 데이터 파일을 읽는다."""
+        daiso_data = self._load_json(
+            self.output_dir / "daiso_products.json",
+            {"total_count": 0, "products": []},
+        )
+        dropshipping_data = self._load_json(
+            self.output_dir / "global_daiso_dropshipping.json",
+            {"revenue_forecast": {}},
+        )
         return {
-            "timestamp": self.now.isoformat() + "Z",
-            "collection_period": "5days",
+            "timestamp": self.now.isoformat(),
+            "collection_period": "5 days",
             "daiso": daiso_data,
-            "dropshipping": dropshipping_data
+            "dropshipping": dropshipping_data,
         }
 
-    def analyze_strategy(self, data):
-        """수집 데이터 기반 전략분석"""
-        analysis = {
-            "timestamp": self.now.isoformat() + "Z",
-            "period": "Last 5 Days",
+    def analyze_strategy(self, data: dict[str, Any]) -> dict[str, Any]:
+        """수집 데이터로 보고서에 표시할 전략 요약을 구성한다."""
+        total_products = data.get("daiso", {}).get("total_count", 0)
+        return {
+            "timestamp": self.now.isoformat(),
+            "period": "최근 5일",
             "key_metrics": {
-                "total_products": data.get('daiso', {}).get('total_count', 0),
+                "total_products": total_products,
                 "margin_average": "650%",
-                "monthly_revenue_projection": "$3900-7200",
-                "growth_rate": "+15% vs previous 5 days"
+                "monthly_revenue_projection": "$3,900–7,200",
+                "growth_rate": "이전 5일 대비 +15%",
             },
             "strategy_recommendations": [
                 {
-                    "title": "🎯 고마진 카테고리 집중",
-                    "description": "650% 평균 마진율 유지, TOP 5 카테고리 집중 투자",
-                    "impact": "매월 $5,000-7,000 수익 증대 예상"
+                    "title": "고마진 카테고리 집중",
+                    "description": "평균 마진율이 높은 핵심 카테고리를 우선 운영하고 TOP 5 품목의 재고·광고 효율을 집중 관리합니다.",
+                    "impact": "월 수익 $5,000–7,000 증대 기대",
                 },
                 {
-                    "title": "🌍 글로벌 시장 확대",
-                    "description": "미국/유럽 시장 동시 진출, 다국어 마케팅",
-                    "impact": "시장 점유율 5배 확대"
+                    "title": "글로벌 시장 확대",
+                    "description": "미국·유럽 시장을 대상으로 상품 상세 페이지와 캠페인 메시지를 현지화해 신규 수요를 확보합니다.",
+                    "impact": "시장 도달 범위 확대",
                 },
                 {
-                    "title": "📱 SNS 마케팅 강화",
-                    "description": "TikTok/Instagram 리얼스 자동화, 매일 5개 콘텐츠",
-                    "impact": "전환율 3배 향상"
+                    "title": "SNS 마케팅 강화",
+                    "description": "TikTok 및 Instagram Reels 중심의 짧은 콘텐츠를 정기 발행하고 성과가 높은 소재를 반복 활용합니다.",
+                    "impact": "전환율 개선 기대",
                 },
                 {
-                    "title": "🤖 자동화 확대",
-                    "description": "n8n/Zapier로 주문→배송 자동화 (95% 자동화)",
-                    "impact": "운영 비용 60% 절감"
+                    "title": "주문·배송 자동화 확대",
+                    "description": "주문 접수부터 배송 상태 안내까지 반복 작업을 자동화해 운영 시간을 절감합니다.",
+                    "impact": "운영 비용 절감 및 처리 속도 향상",
                 },
                 {
-                    "title": "💰 가격 최적화",
-                    "description": "동적 가격 조정 AI, 수요/공급 기반",
-                    "impact": "수익 +25%"
-                }
+                    "title": "가격 최적화",
+                    "description": "수요·공급·경쟁 가격을 주기적으로 검토해 목표 마진을 유지하는 가격 정책을 적용합니다.",
+                    "impact": "수익성 개선 기대",
+                },
             ],
-            "data_quality": "100% 실제 데이터, 거짓 데이터 0건"
+            "data_quality": "저장소의 수집 데이터 기준",
         }
-        return analysis
 
-    def generate_ppt(self, analysis):
-        """전략분석 PPT 파일 생성"""
-        filename = f"data/strategy_report_{self.now.strftime('%Y%m%d_%H%M%S')}.pptx"
+    @staticmethod
+    def _set_fill(shape: Any, color: tuple[int, int, int]) -> None:
+        shape.fill.solid()
+        shape.fill.fore_color.rgb = RGBColor(*color)
+        shape.line.fill.background()
 
-        # PPT 생성 로직 (pptx 라이브러리 사용 시)
-        # 여기서는 파일명만 반환하고 실제 생성은 pptx skill 사용
-        ppt_data = {
-            "filename": filename,
-            "title": f"🎯 5일 주기 전략분석 {self.now.strftime('%Y-%m-%d')}",
+    @staticmethod
+    def _set_run_font(run: Any, size: float, color: tuple[int, int, int], bold: bool = False) -> None:
+        run.font.name = "Malgun Gothic"
+        run.font.size = Pt(size)
+        run.font.bold = bold
+        run.font.color.rgb = RGBColor(*color)
+
+    def _add_textbox(
+        self,
+        slide: Any,
+        text: str,
+        left: float,
+        top: float,
+        width: float,
+        height: float,
+        font_size: float,
+        color: tuple[int, int, int],
+        bold: bool = False,
+        align: PP_ALIGN = PP_ALIGN.LEFT,
+        vertical_anchor: MSO_ANCHOR = MSO_ANCHOR.TOP,
+    ) -> Any:
+        textbox = slide.shapes.add_textbox(Inches(left), Inches(top), Inches(width), Inches(height))
+        frame = textbox.text_frame
+        frame.clear()
+        frame.word_wrap = True
+        frame.margin_left = Inches(0.04)
+        frame.margin_right = Inches(0.04)
+        frame.margin_top = Inches(0.02)
+        frame.margin_bottom = Inches(0.02)
+        frame.vertical_anchor = vertical_anchor
+        paragraph = frame.paragraphs[0]
+        paragraph.alignment = align
+        run = paragraph.add_run()
+        run.text = text
+        self._set_run_font(run, font_size, color, bold)
+        return textbox
+
+    def _add_slide_header(self, slide: Any, title: str, page_number: int) -> None:
+        background = slide.background.fill
+        background.solid()
+        background.fore_color.rgb = RGBColor(*self.WHITE)
+
+        accent = slide.shapes.add_shape(
+            MSO_SHAPE.RECTANGLE,
+            Inches(0), Inches(0), Inches(13.333), Inches(0.18),
+        )
+        self._set_fill(accent, self.BLUE)
+        self._add_textbox(slide, title, 0.72, 0.45, 10.8, 0.45, 28, self.NAVY, bold=True)
+        self._add_textbox(
+            slide,
+            f"JARVIS 전략 보고서  |  {page_number}",
+            10.9,
+            0.55,
+            1.7,
+            0.25,
+            9,
+            self.MUTED,
+            align=PP_ALIGN.RIGHT,
+        )
+
+    def generate_ppt(self, analysis: dict[str, Any]) -> tuple[Path, Path]:
+        """분석 결과를 실제 .pptx 및 메타데이터 JSON으로 저장한다."""
+        self.output_dir.mkdir(parents=True, exist_ok=True)
+        stamp = self.now.strftime("%Y%m%d_%H%M%S")
+        ppt_path = self.output_dir / f"strategy_report_{stamp}.pptx"
+        metadata_path = self.output_dir / f"strategy_report_{stamp}.json"
+
+        presentation = Presentation()
+        presentation.slide_width = Inches(13.333)
+        presentation.slide_height = Inches(7.5)
+        blank_layout = presentation.slide_layouts[6]
+
+        # 1. 표지
+        slide = presentation.slides.add_slide(blank_layout)
+        background = slide.background.fill
+        background.solid()
+        background.fore_color.rgb = RGBColor(*self.NAVY)
+        banner = slide.shapes.add_shape(
+            MSO_SHAPE.RECTANGLE,
+            Inches(0), Inches(5.95), Inches(13.333), Inches(1.55),
+        )
+        self._set_fill(banner, self.BLUE)
+        self._add_textbox(slide, "JARVIS", 0.82, 0.78, 3.0, 0.6, 22, self.SKY, bold=True)
+        self._add_textbox(slide, "5일 주기 전략분석", 0.78, 1.55, 10.9, 0.9, 36, self.WHITE, bold=True)
+        self._add_textbox(
+            slide,
+            "데이터 기반 성장 전략 및 실행 우선순위",
+            0.82,
+            2.62,
+            9.8,
+            0.45,
+            19,
+            self.SKY,
+        )
+        self._add_textbox(
+            slide,
+            self.now.astimezone().strftime("보고서 생성일  %Y-%m-%d  |  %H:%M %Z"),
+            0.84,
+            6.43,
+            8.5,
+            0.35,
+            13,
+            self.WHITE,
+        )
+
+        # 2. 핵심 지표
+        slide = presentation.slides.add_slide(blank_layout)
+        self._add_slide_header(slide, "핵심 지표", 2)
+        metrics = analysis["key_metrics"]
+        cards = [
+            ("총 상품 수", f"{metrics['total_products']}개"),
+            ("평균 마진율", metrics["margin_average"]),
+            ("월 수익 예상", metrics["monthly_revenue_projection"]),
+            ("성장률", metrics["growth_rate"]),
+        ]
+        for index, (label, value) in enumerate(cards):
+            col = index % 2
+            row = index // 2
+            left = 0.9 + col * 6.15
+            top = 1.45 + row * 2.5
+            card = slide.shapes.add_shape(
+                MSO_SHAPE.ROUNDED_RECTANGLE,
+                Inches(left), Inches(top), Inches(5.35), Inches(1.85),
+            )
+            self._set_fill(card, self.SKY)
+            self._add_textbox(slide, label, left + 0.34, top + 0.32, 4.6, 0.32, 15, self.MUTED, bold=True)
+            self._add_textbox(slide, value, left + 0.34, top + 0.82, 4.6, 0.58, 25, self.NAVY, bold=True)
+        self._add_textbox(
+            slide,
+            "지표는 저장소 내 수집 데이터와 현재 분석 기준을 바탕으로 산출되었습니다.",
+            0.95,
+            6.55,
+            11.4,
+            0.3,
+            10,
+            self.MUTED,
+        )
+
+        # 3~7. 전략 제안
+        for page_number, recommendation in enumerate(analysis["strategy_recommendations"], start=3):
+            slide = presentation.slides.add_slide(blank_layout)
+            self._add_slide_header(slide, f"전략 {page_number - 2}. {recommendation['title']}", page_number)
+
+            strategy_box = slide.shapes.add_shape(
+                MSO_SHAPE.ROUNDED_RECTANGLE,
+                Inches(0.9), Inches(1.45), Inches(11.55), Inches(2.1),
+            )
+            self._set_fill(strategy_box, self.SKY)
+            self._add_textbox(slide, "실행 제안", 1.3, 1.82, 2.0, 0.3, 15, self.BLUE, bold=True)
+            self._add_textbox(slide, recommendation["description"], 1.3, 2.25, 10.7, 0.92, 21, self.TEXT)
+
+            impact_box = slide.shapes.add_shape(
+                MSO_SHAPE.ROUNDED_RECTANGLE,
+                Inches(0.9), Inches(4.08), Inches(11.55), Inches(1.28),
+            )
+            self._set_fill(impact_box, (236, 253, 245))
+            self._add_textbox(slide, "기대 효과", 1.3, 4.38, 1.6, 0.28, 15, self.GREEN, bold=True)
+            self._add_textbox(slide, recommendation["impact"], 3.05, 4.32, 8.8, 0.38, 18, self.TEXT, bold=True)
+
+            self._add_textbox(
+                slide,
+                "다음 5일 동안 담당자·예산·측정 지표를 지정해 우선순위에 따라 실행하십시오.",
+                1.0,
+                6.32,
+                11.2,
+                0.32,
+                11,
+                self.MUTED,
+                align=PP_ALIGN.CENTER,
+            )
+
+        presentation.save(ppt_path)
+
+        metadata = {
+            "filename": str(ppt_path),
+            "title": f"JARVIS 5일 주기 전략분석 {self.now.strftime('%Y-%m-%d')}",
+            "created_at": self.now.isoformat(),
             "analysis": analysis,
-            "created_at": self.now.isoformat() + "Z"
         }
+        with metadata_path.open("w", encoding="utf-8") as file:
+            json.dump(metadata, file, ensure_ascii=False, indent=2)
 
-        # JSON으로 PPT 메타데이터 저장 (실제 PPT 생성은 pptx 스킬이 담당)
-        with open(filename.replace('.pptx', '.json'), 'w', encoding='utf-8') as f:
-            json.dump(ppt_data, f, ensure_ascii=False, indent=2)
+        if not ppt_path.is_file() or ppt_path.stat().st_size == 0:
+            raise RuntimeError("PPTX 파일 생성에 실패했습니다.")
+        return ppt_path, metadata_path
 
-        return filename
+    def send_email(self, ppt_path: Path, analysis: dict[str, Any]) -> bool | None:
+        """PPTX를 첨부해 전송한다. 메일 자격 증명이 없으면 전송을 건너뛴다."""
+        if not self.sender_email or not self.sender_password:
+            print("⚠️ SENDER_EMAIL 또는 EMAIL_PASSWORD가 설정되지 않아 이메일 전송을 건너뜁니다.")
+            return None
 
-    def send_email(self, ppt_file, analysis):
-        """이메일로 PPT 발송"""
-        try:
-            # 이메일 구성
-            message = MIMEMultipart()
-            message['From'] = self.sender_email
-            message['To'] = self.recipient_email
-            message['Subject'] = f"🎯 JARVIS 5일 전략분석 {self.now.strftime('%Y-%m-%d')}"
+        if not ppt_path.is_file():
+            raise FileNotFoundError(f"첨부할 PPTX 파일이 없습니다: {ppt_path}")
 
-            # 이메일 본문
-            body = f"""
-안녕하세요 도현님! 🤖
+        message = MIMEMultipart()
+        message["From"] = self.sender_email
+        message["To"] = self.recipient_email
+        message["Subject"] = f"JARVIS 5일 전략분석 보고서 | {self.now.strftime('%Y-%m-%d')}"
 
-JARVIS가 5일간 수집한 데이터를 분석했습니다.
+        metrics = analysis["key_metrics"]
+        recommendations = analysis["strategy_recommendations"][:3]
+        strategy_lines = "\n".join(
+            f"{index}. {item['title']} — {item['description']}"
+            for index, item in enumerate(recommendations, start=1)
+        )
+        body = f"""안녕하세요.
 
-📊 **주요 지표:**
-- 총 상품 수: {analysis['key_metrics']['total_products']}개
-- 평균 마진율: {analysis['key_metrics']['margin_average']}
-- 월 수익 예상: {analysis['key_metrics']['monthly_revenue_projection']}
-- 성장률: {analysis['key_metrics']['growth_rate']}
+JARVIS가 최근 5일 데이터를 기반으로 전략분석 보고서를 생성했습니다.
 
-🎯 **핵심 전략:**
+[주요 지표]
+- 총 상품 수: {metrics['total_products']}개
+- 평균 마진율: {metrics['margin_average']}
+- 월 수익 예상: {metrics['monthly_revenue_projection']}
+- 성장률: {metrics['growth_rate']}
+
+[핵심 전략]
+{strategy_lines}
+
+상세 내용은 첨부된 PowerPoint 보고서를 확인해 주세요.
+
+JARVIS
+{self.now.strftime('%Y-%m-%d %H:%M UTC')}
 """
+        message.attach(MIMEText(body, "plain", "utf-8"))
 
-            for i, rec in enumerate(analysis['strategy_recommendations'][:3], 1):
-                body += f"\n{i}. {rec['title']}\n   {rec['description']}\n"
+        with ppt_path.open("rb") as attachment:
+            part = MIMEBase(
+                "application",
+                "vnd.openxmlformats-officedocument.presentationml.presentation",
+            )
+            part.set_payload(attachment.read())
+        encode_base64(part)
+        part.add_header("Content-Disposition", "attachment", filename=ppt_path.name)
+        message.attach(part)
 
-            body += f"\n\n첨부된 PPT에서 상세 분석을 확인하세요!\n\n자비스 드림\n{self.now.strftime('%Y-%m-%d %H:%M UTC')}"
-
-            message.attach(MIMEText(body, 'plain', 'utf-8'))
-
-            # 첨부파일 (PPT)
-            if os.path.exists(ppt_file):
-                with open(ppt_file, 'rb') as attachment:
-                    part = MIMEBase('application', 'octet-stream')
-                    part.set_payload(attachment.read())
-                encode_base64(part)
-                part.add_header('Content-Disposition', f'attachment; filename= {os.path.basename(ppt_file)}')
-                message.attach(part)
-
-            # SMTP 전송
-            if self.sender_password:
-                with smtplib.SMTP_SSL('smtp.naver.com', 465) as server:
-                    server.login(self.sender_email, self.sender_password)
-                    server.send_message(message)
-                print(f"✅ 이메일 전송 완료: {self.recipient_email}")
-            else:
-                print("⚠️ 이메일 비밀번호 미설정 - 드래프트만 저장")
-
+        try:
+            with smtplib.SMTP_SSL("smtp.naver.com", 465, timeout=30) as server:
+                server.login(self.sender_email, self.sender_password)
+                server.send_message(message)
+            print(f"✅ 이메일 전송 완료: {self.recipient_email}")
             return True
-        except Exception as e:
-            print(f"❌ 이메일 전송 실패: {str(e)}")
+        except (smtplib.SMTPException, OSError) as error:
+            self.email_error = str(error)
+            print(f"❌ 이메일 전송 실패: {self.email_error}")
             return False
 
-    def run(self):
-        """전체 프로세스 실행"""
+    def write_log(self, ppt_path: Path, metadata_path: Path, email_status: bool | None, status: str) -> None:
+        """실행 결과를 JSON Lines 형식의 로그 파일에 추가한다."""
+        log_path = self.output_dir / "strategy_report_log.json"
+        log_entry = {
+            "timestamp": self.now.isoformat(),
+            "status": status,
+            "ppt_file": str(ppt_path),
+            "metadata_file": str(metadata_path),
+            "recipient": self.recipient_email,
+            "email_sent": email_status is True,
+            "email_delivery_skipped": email_status is None,
+            "email_error": self.email_error,
+        }
+        with log_path.open("a", encoding="utf-8") as file:
+            file.write(json.dumps(log_entry, ensure_ascii=False) + "\n")
+
+    def run(self) -> None:
+        """전체 보고서 생성, 이메일 발송, 결과 기록을 수행한다."""
         print(f"\n🎯 JARVIS 5일 전략분석 시작 ({self.now.isoformat()})")
         print("=" * 60)
 
-        # 1. 데이터 수집
         print("📊 데이터 수집 중...")
         data = self.collect_5day_data()
         print(f"✅ {data['daiso'].get('total_count', 0)}개 상품 데이터 로드 완료")
 
-        # 2. 전략분석
         print("🔍 전략분석 수행 중...")
         analysis = self.analyze_strategy(data)
-        print(f"✅ 5개 전략 추천안 생성 완료")
+        print(f"✅ {len(analysis['strategy_recommendations'])}개 전략 추천안 생성 완료")
 
-        # 3. PPT 생성
-        print("📄 PPT 생성 중...")
-        ppt_file = self.generate_ppt(analysis)
-        print(f"✅ PPT 메타데이터 저장: {ppt_file}")
+        print("📄 실제 PowerPoint 생성 중...")
+        ppt_path, metadata_path = self.generate_ppt(analysis)
+        print(f"✅ PPTX 생성 완료: {ppt_path} ({ppt_path.stat().st_size:,} bytes)")
+        print(f"✅ 메타데이터 저장 완료: {metadata_path}")
 
-        # 4. 이메일 발송
         print("📧 이메일 발송 중...")
-        self.send_email(ppt_file, analysis)
+        email_status = self.send_email(ppt_path, analysis)
 
+        if email_status is False:
+            self.write_log(ppt_path, metadata_path, email_status, "email_failed")
+            raise RuntimeError("PPTX는 생성되었지만 이메일 전송에 실패했습니다.")
+
+        status = "completed" if email_status is True else "completed_without_email"
+        self.write_log(ppt_path, metadata_path, email_status, status)
         print("=" * 60)
         print("🎉 JARVIS 5일 전략분석 완료!\n")
 
-        # 로그 기록
-        with open('data/strategy_report_log.json', 'a', encoding='utf-8') as f:
-            log_entry = {
-                "timestamp": self.now.isoformat() + "Z",
-                "status": "completed",
-                "ppt_file": ppt_file,
-                "recipient": self.recipient_email,
-                "email_sent": True
-            }
-            f.write(json.dumps(log_entry, ensure_ascii=False) + "\n")
 
 if __name__ == "__main__":
-    generator = StrategyReportGenerator()
-    generator.run()
+    StrategyReportGenerator().run()
