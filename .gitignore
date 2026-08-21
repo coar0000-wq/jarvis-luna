@@ -6,3 +6,6 @@ node_modules/
 # Local Obsidian ↔ GitHub sync configuration and logs
 automation/obsidian_sync_config.json
 automation/logs/
+
+__pycache__/
+*.pyc
