@@ -1,6 +1,6 @@
 {
   "timestamp": "2026-08-17T06:22:37.784474Z",
-  "total_count": 153,
+  "total_count": 158,
   "categories": {
     "주방용품": {
       "count": 4
@@ -842,11 +842,72 @@
       "id": "wm_20260821100204_2",
       "name": "월마트 (168)",
       "discovered_at": "2026-08-21T10:02:04.690850Z"
+    },
+    {
+      "id": "wm_20260821101522_0",
+      "name": "월마트 뷰티·스킨케어 후보 (429)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T10:15:22.228013Z"
+    },
+    {
+      "id": "wm_20260821101522_1",
+      "name": "월마트 뷰티·스킨케어 후보 (525)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T10:15:22.228025Z"
+    },
+    {
+      "id": "wm_20260821101522_2",
+      "name": "월마트 뷰티·스킨케어 후보 (828)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T10:15:22.228034Z"
+    },
+    {
+      "id": "wm_20260821101522_3",
+      "name": "월마트 뷰티·스킨케어 후보 (234)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T10:15:22.228039Z"
+    },
+    {
+      "id": "wm_20260821101522_4",
+      "name": "월마트 뷰티·스킨케어 후보 (191)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T10:15:22.228045Z"
     }
   ],
   "metadata": {
     "data_quality": "100% 실제 데이터",
     "verified": true
   },
-  "last_updated": "2026-08-21T10:02:04.690850Z"
+  "last_updated": "2026-08-21T10:15:22.228047Z",
+  "target_category": "다이소 뷰티 & 스킨케어",
+  "focus_keywords": [
+    "Walmart beauty",
+    "Walmart skincare",
+    "K-beauty"
+  ]
 }
