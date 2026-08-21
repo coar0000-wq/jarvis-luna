@@ -7,8 +7,8 @@ set "CONFIG=%SCRIPT_DIR%obsidian_sync_config.json"
 set "PYTHON_CMD=py -3"
 
 if not exist "%CONFIG%" (
-  echo [ERROR] obsidian_sync_config.json 파일이 없습니다.
-  echo automation\obsidian_sync_config.example.json을 복사한 뒤 vault_path를 실제 Obsidian 볼트 경로로 바꾸세요.
+  echo [ERROR] obsidian_sync_config.json is missing.
+  echo Copy obsidian_sync_config.example.json, then set vault_path to the actual Obsidian vault path.
   exit /b 1
 )
 
@@ -18,9 +18,9 @@ if not exist "%LOG_DIR%" mkdir "%LOG_DIR%"
 set "RESULT=%ERRORLEVEL%"
 
 if not "%RESULT%"=="0" (
-  echo [ERROR] 동기화에 실패했습니다. 로그: "%LOG_DIR%obsidian_sync.log"
+  echo [ERROR] Synchronization failed. Log: "%LOG_DIR%obsidian_sync.log"
   exit /b %RESULT%
 )
 
-echo [OK] Obsidian과 GitHub 동기화가 완료되었습니다.
+echo [OK] Obsidian and GitHub synchronization completed.
 exit /b 0

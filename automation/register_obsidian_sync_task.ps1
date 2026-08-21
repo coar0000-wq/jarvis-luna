@@ -9,13 +9,13 @@ $RunnerPath = Join-Path $ScriptDirectory "run_obsidian_sync.bat"
 $ConfigPath = Join-Path $ScriptDirectory "obsidian_sync_config.json"
 
 if ($IntervalMinutes -lt 5) {
-    throw "동기화 간격은 5분 이상으로 설정하세요."
+    throw "The synchronization interval must be at least 5 minutes."
 }
 if (-not (Test-Path $RunnerPath)) {
-    throw "실행 파일을 찾을 수 없습니다: $RunnerPath"
+    throw "Runner file not found: $RunnerPath"
 }
 if (-not (Test-Path $ConfigPath)) {
-    throw "설정 파일을 찾을 수 없습니다: $ConfigPath`n예제 설정 파일을 복사하고 vault_path를 실제 경로로 바꾼 뒤 다시 실행하세요."
+    throw "Configuration file not found: $ConfigPath"
 }
 
 $action = New-ScheduledTaskAction -Execute "cmd.exe" -Argument "/c `"$RunnerPath`""
@@ -28,6 +28,6 @@ $description = "Synchronizes the JARVIS_LUNA Obsidian workspace with GitHub ever
 Register-ScheduledTask -TaskName $TaskName -Action $action -Trigger $trigger -Settings $settings `
     -Description $description -User $env:USERNAME -RunLevel Limited -Force | Out-Null
 
-Write-Host "작업 스케줄러 등록 완료: $TaskName"
-Write-Host "실행 간격: $IntervalMinutes 분"
-Write-Host "현재 상태 확인: Get-ScheduledTask -TaskName `"$TaskName`""
+Write-Host "Scheduled task registered: $TaskName"
+Write-Host "Synchronization interval: $IntervalMinutes minutes"
+Write-Host "Check status: Get-ScheduledTask -TaskName `"$TaskName`""
