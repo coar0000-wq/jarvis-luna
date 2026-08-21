@@ -56,3 +56,9 @@ GitHub에서 바뀐 파일은 Obsidian 전용 폴더로 내려받고, Obsidian �
 ## 기존 GitHub Actions 동기화 워크플로
 
 기존의 `obsidian_sync.yml` 워크플로는 사용자의 컴퓨터에 있는 Obsidian 볼트에 접근할 수 없으므로 수동 실행 전용으로 전환했습니다. 실제 자동 동기화는 반드시 사용자의 Windows 컴퓨터에서 `run_obsidian_sync.bat`과 작업 스케줄러를 통해 실행됩니다.
+
+## 설치 패키지에서 한 번에 활성화하기
+
+개인 설정 파일이 포함된 설치 패키지를 `C:\Users\Desktop\Claude\Projects\kms\JARVIS_Obsidian_GitHub_Sync_Setup`에 풀었다면, 그 안의 `automation\install_and_start_obsidian_sync.bat`을 더블클릭할 수 있습니다. 이 설치 파일은 같은 `kms` 폴더 아래에 `jarvis-luna` 전체 저장소를 내려받고, 개인 Obsidian 설정을 복사한 뒤 첫 동기화와 5분 반복 작업 등록을 순서대로 수행합니다.
+
+> 이 설치 파일을 실행하려면 Git과 Python 3이 사용자 컴퓨터에 설치되어 있어야 하며, GitHub 저장소에 접근할 수 있어야 합니다.
