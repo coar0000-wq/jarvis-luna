@@ -20,6 +20,13 @@
     "revenue_5d": 1428,
     "currency": "USD",
     "average_order_value": 42,
+    "daily_revenue_5d": [
+      {"label": "8/17", "revenue": 218},
+      {"label": "8/18", "revenue": 254},
+      {"label": "8/19", "revenue": 276},
+      {"label": "8/20", "revenue": 301},
+      {"label": "8/21", "revenue": 379}
+    ],
     "pending_orders": 12,
     "shipped_today": 28,
     "fulfillment_rate": 98.0
