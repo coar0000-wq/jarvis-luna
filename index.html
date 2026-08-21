@@ -18,6 +18,8 @@
         .hero-status-list { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 7px 9px; width: min(690px, 66vw); }
         .hero-status-item { display: inline-flex; align-items: center; gap: 6px; padding: 0; border: 0; background: transparent; color: #263442; font-size: 10px; font-weight: 700; white-space: nowrap; }
         .hero-status-dot { width: 7px; height: 7px; flex: 0 0 7px; border-radius: 50%; background: #35b55e; box-shadow: 0 0 0 3px rgba(53,181,94,.16); animation: status-pulse 1.7s ease-in-out infinite; }
+        .hero-status-item.is-offline { color: #9f2520; }
+        .hero-status-item.is-offline .hero-status-dot { background: #e5534b; box-shadow: 0 0 0 3px rgba(229,83,75,.18); }
         .hero-wordmark { color: #12151a; font-size: 12px; font-weight: 700; letter-spacing: .46em; }
         .hero-live { color: #167c3d; font-size: 12px; font-weight: 700; letter-spacing: .08em; display: inline-flex; align-items: center; gap: 7px; }
         .hero-live::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: #35b55e; box-shadow: 0 0 0 4px rgba(53,181,94,.14); animation: status-pulse 1.7s ease-in-out infinite; }
@@ -135,7 +137,7 @@
                     <span class="hero-status-item"><i class="hero-status-dot" aria-hidden="true"></i>도현 CEO · 감시중</span>
                     <span class="hero-status-item"><i class="hero-status-dot" aria-hidden="true"></i>GitHub Actions · 활성</span>
                     <span class="hero-status-item"><i class="hero-status-dot" aria-hidden="true"></i>JARVIS AI · 자동화</span>
-                    <span class="hero-status-item"><i class="hero-status-dot" aria-hidden="true"></i>Obsidian · 오프라인</span>
+                    <span class="hero-status-item is-offline" title="Obsidian 연동 설정이 확인되지 않았습니다."><i class="hero-status-dot" aria-hidden="true"></i>Obsidian · 연동 미설정</span>
                 </div>
                 <span class="hero-live">LIVE</span>
             </div>
