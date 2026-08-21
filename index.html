@@ -99,6 +99,16 @@
         .progress-bar-fill { background: #1f6feb; height: 100%; border-radius: 6px; }
         .progress-note { color: #8b949e; font-size: 12px; margin: -3px 0 13px; line-height: 1.45; }
         .current-time { color: #8b949e; font-size: 12px; margin: -7px 0 14px; line-height: 1.45; }
+        @media (min-width: 861px) {
+            .briefing-card, .progress-card { padding: 26px 28px; }
+            .briefing-card .log-list { max-height: 360px; }
+            .briefing-card .log-list li { padding: 13px 0; font-size: 14px; line-height: 1.55; }
+            .briefing-card .time-badge { font-size: 12px; padding: 4px 9px; }
+            .progress-card .progress-note { font-size: 13px; margin-bottom: 18px; }
+            .progress-card .progress-container { margin-top: 16px; }
+            .progress-card .progress-label { font-size: 14px; margin-bottom: 8px; }
+            .progress-card .progress-bar-bg { height: 14px; margin-bottom: 18px; }
+        }
 
         .footer { text-align: center; color: #6e7681; font-size: 12px; margin-top: 30px; padding-bottom: 20px; }
         .strategy-card { border-color: #1f6feb; }
@@ -254,7 +264,7 @@
         </section>
 
         <!-- 작업 상세 로그 (동적 로딩) -->
-        <div class="card">
+        <div class="card briefing-card">
             <h2>📋 작업 상세 로그 (Live Briefing)</h2>
             <p class="current-time" id="briefing-current-time">현재 날짜·시·분을 불러오는 중입니다.</p>
             <ul class="log-list" id="log-container">
@@ -267,7 +277,7 @@
         </div>
 
         <!-- 프로젝트 진행도 (Phase 26 실시간 데이터) -->
-        <div class="card" id="project-progress">
+        <div class="card progress-card" id="project-progress">
             <h2>📊 프로젝트 진행도</h2>
             <p class="progress-note" id="progress-summary">Phase 26 · MoE 라우터 진행 데이터를 불러오는 중입니다.</p>
             <div class="progress-container" id="progress-container">
