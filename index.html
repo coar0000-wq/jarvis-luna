@@ -29,7 +29,7 @@
         @keyframes status-pulse { 0%, 100% { opacity: .5; transform: scale(.82); } 50% { opacity: 1; transform: scale(1); } }
         .hero-layout { position: relative; z-index: 2; display: grid; grid-template-columns: minmax(280px, 1fr) minmax(220px, .56fr); align-items: center; gap: 20px; min-height: 405px; }
         .hero-copy { align-self: center; max-width: 430px; }
-        .hero-eyebrow { color: #246fca; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(1.35rem, 2.1vw, 1.8rem); font-weight: 700; letter-spacing: .04em; line-height: 1; margin-bottom: 9px; transform: rotate(-1deg); transform-origin: left center; }
+        .hero-eyebrow { color: #246fca; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(1.1rem, 1.7vw, 1.45rem); font-weight: 700; letter-spacing: .04em; line-height: 1; margin-bottom: 9px; transform: rotate(-1deg); transform-origin: left center; }
         .adaptive-hero h1 { color: #12151a; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(3.25rem, 5.6vw, 5.5rem); font-weight: 600; line-height: .84; letter-spacing: -.035em; margin-bottom: 18px; transform: rotate(-1.2deg); transform-origin: left center; }
         .hero-subtitle { color: #4d5662; max-width: 390px; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(1.35rem, 2.15vw, 1.8rem); font-weight: 600; line-height: 1.18; letter-spacing: .01em; transform: rotate(-.5deg); transform-origin: left center; }
         .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
@@ -41,7 +41,7 @@
         .hero-intelligence { margin-top: 25px; padding: 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
         .hero-intelligence h3 { color: #246fca; font-size: 10px; letter-spacing: .12em; margin-bottom: 8px; }
         .hero-intelligence p { color: #535b66; font-size: 12px; line-height: 1.7; }
-        .hero-kpis { align-self: center; border-radius: 16px; background: rgba(255,255,255,.68); border: 1px solid rgba(255,255,255,.86); color: #182531; padding: 8px 20px; box-shadow: 0 16px 30px rgba(35,30,24,.16); backdrop-filter: blur(14px) saturate(120%); -webkit-backdrop-filter: blur(14px) saturate(120%); }
+        .hero-kpis { align-self: center; border-radius: 16px; background: rgba(255,255,255,.52); border: 1px solid rgba(255,255,255,.72); color: #182531; padding: 8px 20px; box-shadow: 0 16px 30px rgba(35,30,24,.13); backdrop-filter: blur(14px) saturate(120%); -webkit-backdrop-filter: blur(14px) saturate(120%); }
         .hero-kpi { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 18px 0; border-bottom: 1px solid rgba(39,58,74,.18); }
         .hero-kpi:last-child { border-bottom: 0; }
         .hero-kpi span { color: #536171; font-size: 12px; font-weight: 700; }
@@ -65,9 +65,25 @@
         .stat-box p { color: #f0f6fc; font-size: 22px; font-weight: bold; }
 
         .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; }
-        .team-card { background: #21262d; border: 1px solid #30363d; border-radius: 8px; padding: 16px; }
-        .team-card h4 { color: #58a6ff; font-size: 14px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; gap: 6px; }
+        .team-card { position: relative; overflow: hidden; border: 1px solid #30363d; border-radius: 12px; padding: 17px; box-shadow: 0 10px 20px rgba(0,0,0,.12); }
+        .team-card::before { content: ''; position: absolute; inset: 0 auto 0 0; width: 4px; border-radius: 12px 0 0 12px; }
+        .team-card h4 { font-size: 14px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; gap: 6px; }
         .team-card p { font-size: 13px; color: #c9d1d9; line-height: 1.6; }
+        .team-card--discovery { background: linear-gradient(135deg, #102b37, #171d24 78%); border-color: #246b7c; }
+        .team-card--discovery::before { background: #35c1d8; }
+        .team-card--discovery h4 { color: #65d8e9; }
+        .team-card--market { background: linear-gradient(135deg, #252044, #191d28 78%); border-color: #6250a3; }
+        .team-card--market::before { background: #9a82e9; }
+        .team-card--market h4 { color: #b4a3f2; }
+        .team-card--shopify { background: linear-gradient(135deg, #12372e, #18221f 78%); border-color: #2e8263; }
+        .team-card--shopify::before { background: #48c985; }
+        .team-card--shopify h4 { color: #78dca7; }
+        .team-card--orders { background: linear-gradient(135deg, #3b281b, #231f1d 78%); border-color: #9b6133; }
+        .team-card--orders::before { background: #e6a75b; }
+        .team-card--orders h4 { color: #f0bb79; }
+        .team-card--legal { background: linear-gradient(135deg, #3b321a, #24211a 78%); border-color: #987a31; }
+        .team-card--legal::before { background: #e0bf62; }
+        .team-card--legal h4 { color: #efd77f; }
 
         /* 로그 및 프로그레스바 */
         .log-list { list-style: none; max-height: 250px; overflow-y: auto; }
@@ -125,7 +141,7 @@
             .hero-status-list { position: static; transform: none; order: 3; width: 100%; margin: 4px auto 0; }
             .hero-status-item { font-size: 10.5px; padding: 4px 6px; }
             .hero-wordmark, .hero-live { font-size: 12px; }
-            .hero-eyebrow { font-size: 1.25rem; }
+            .hero-eyebrow { font-size: 1.05rem; }
             .adaptive-hero h1 { font-size: clamp(3rem, 15vw, 4.2rem); }
             .hero-subtitle { font-size: 1.3rem; max-width: 350px; }
             .hero-copy { max-width: none; }
@@ -176,23 +192,23 @@
             <h2>🏢 팀별 실시간 현황</h2>
             <p class="current-time" id="team-current-time">현재 날짜·시·분을 불러오는 중입니다.</p>
             <div class="team-grid">
-                <div class="team-card">
+                <div class="team-card team-card--discovery">
                     <h4>상품 발굴팀 <span id="prod-active">130개</span></h4>
                     <p>카테고리: <span id="prod-cat">다이소 생활용품</span><br>상태: <span id="prod-status">정상 운영</span></p>
                 </div>
-                <div class="team-card">
+                <div class="team-card team-card--market">
                     <h4>시장 분석팀</h4>
                     <p>경쟁력 분석: <span id="market-comp">완료</span><br>광고 효율: <span id="market-ad">최적화됨</span></p>
                 </div>
-                <div class="team-card">
+                <div class="team-card team-card--shopify">
                     <h4>Shopify 운영</h4>
                     <p>방문자: <span id="shop-visitors">1,240명</span><br>전환율: <span id="shop-conv">2.4%</span></p>
                 </div>
-                <div class="team-card">
+                <div class="team-card team-card--orders">
                     <h4>주문 관리팀</h4>
                     <p>배송 대기: <span id="order-pending">12건</span><br>출고 완료: <span id="order-shipped">28건</span></p>
                 </div>
-                <div class="team-card">
+                <div class="team-card team-card--legal">
                     <h4>⚖️ 법무팀 <span id="legal-status">검토 대기</span></h4>
                     <p>검토 상품: <span id="legal-products">0개</span><br>우선 작업: <span id="legal-priority">제품 정보 확인</span></p>
                 </div>
