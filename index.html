@@ -429,13 +429,15 @@
                     document.getElementById('monthly-revenue').innerText = '$' + (data.monthly_revenue || 5550).toLocaleString();
                 }
 
-                // 3. Product Team
-                const prodRes = await fetch('data/product_team.json');
-                if (prodRes.ok) {
-                    const data = await prodRes.json();
-                    document.getElementById('prod-active').innerText = (data.active_items || 130) + '개';
-                    document.getElementById('prod-cat').innerText = data.top_category || '다이소 생활용품';
-                    document.getElementById('prod-status').innerText = data.status || '정상 운영';
+                // 3. Product Team — cumulative_products.json을 단일 원천으로 사용
+                const cumulativeRes = await fetch(`data/cumulative_products.json?ts=${Date.now()}`, { cache: 'no-store' });
+                if (cumulativeRes.ok) {
+                    const data = await cumulativeRes.json();
+                    const sourceTotal = Object.values(data.sources || {}).reduce((sum, value) => sum + Number(value || 0), 0);
+                    const activeItems = Number(data.cumulative_total) || Number(data.baseline || 0) + sourceTotal;
+                    document.getElementById('prod-active').innerText = activeItems + '개';
+                    document.getElementById('prod-cat').innerText = '다이소·올리브영·네이버·월마트·아마존';
+                    document.getElementById('prod-status').innerText = data.last_updated ? `최근 갱신 ${new Date(data.last_updated).toLocaleString('ko-KR')}` : '정상 운영';
                 }
 
                 // 4. Market Team
