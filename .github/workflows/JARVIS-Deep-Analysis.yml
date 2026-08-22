@@ -1,4 +1,4 @@
-name: 🧠 JARVIS Deep Analysis (매 1시간)
+name: JARVIS Deep Analysis
 
 on:
   schedule:
@@ -7,62 +7,113 @@ on:
 
 permissions:
   contents: write
-  actions: read
+
+concurrency:
+  group: jarvis-deep-analysis-main
+  cancel-in-progress: false
 
 jobs:
   deep-analysis:
+    name: Collect, graph, train and publish runtime state
     runs-on: ubuntu-latest
     timeout-minutes: 60
 
     steps:
-      - uses: actions/checkout@v4.1.7
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: 🐍 Python 3.10 설정
-        uses: actions/setup-python@v4
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
+          cache: pip
 
-      - name: 📦 라이브러리 설치
+      - name: Install runtime dependencies
         run: |
-          pip install requests feedparser torch numpy matplotlib scikit-learn --break-system-packages
-
-      - name: 🧠 [1/3] MoE 신경망 훈련
-        id: moe_training
-        run: |
-          echo "🧠 MoE 라우터 학습..."
-          if python scripts/moe_training.py; then
-            echo "status=success" >> $GITHUB_OUTPUT
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            python -m pip install -r requirements.txt
+          fi
+          if [ -f requirements-moe.txt ]; then
+            python -m pip install -r requirements-moe.txt
           else
-            echo "status=failed" >> $GITHUB_OUTPUT
+            python -m pip install numpy
           fi
 
-      - name: 📡 [2/3] arXiv 논문 수집
-        id: arxiv_collect
+      - name: Collect real public sources
+        run: python real_knowledge_sync.py
+        env:
+          YOUTUBE_CHANNEL_IDS: ${{ secrets.YOUTUBE_CHANNEL_IDS }}
+          GOOGLE_CSE_API_KEY: ${{ secrets.GOOGLE_CSE_API_KEY }}
+          GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
+          KNOWLEDGE_QUERIES: ${{ vars.KNOWLEDGE_QUERIES }}
+
+      - name: Prepare transparent real-data corpus
+        run: python prepare_real_training_corpus.py
+
+      - name: Rebuild Obsidian graph from real records
         run: |
-          echo "📡 arXiv MoE 논문 수집..."
-          if python scripts/collect_moe_papers.py; then
-            echo "status=success" >> $GITHUB_OUTPUT
-          else
-            echo "status=failed" >> $GITHUB_OUTPUT
+          python organize_obsidian_graph.py
+          if [ -f expand_obsidian_graph.py ]; then
+            python expand_obsidian_graph.py
           fi
 
-      - name: ❤️ [3/3] 시스템 헬스체크
-        id: health_check
-        run: |
-          echo "❤️ JARVIS 시스템 상태 확인..."
-          echo "status=success" >> $GITHUB_OUTPUT
+      - name: Generate pre-training dashboard snapshot
+        run: python scripts/generate_dashboard_runtime.py
 
-      - name: 📤 GitHub 자동 푸시
-        run: |
-          git config user.name "JARVIS"
-          git config user.email "jarvis@automated.local"
-          git add data/ index.html
-          git commit -m "🧠 JARVIS Deep: MoE훈련+arXiv수집+헬스체크 (매 1시간)" || echo "No changes to commit"
-          git push origin main || echo "⚠️ Push failed"
+      - name: Train real-data 3-expert MoE
+        run: python train_real_knowledge.py
 
-      - name: ✅ 완료 로그
+      - name: Tune and promote 3-expert MoE
+        run: |
+          python tune_real_knowledge_moe.py \
+            --experts 3 \
+            --learning-rates 1.2 \
+            --l2-values 0.0001 \
+            --temperatures 0.9 \
+            --steps 500 \
+            --promote
+
+      - name: Generate final dashboard snapshot
+        run: python scripts/generate_dashboard_runtime.py
+
+      - name: Validate real-data artifacts
+        run: |
+          python -m json.tool data/knowledge/real_sources.json >/dev/null
+          python -m json.tool data/knowledge/training_status.json >/dev/null
+          python -m json.tool data/dashboard_runtime.json >/dev/null
+          test -f data/knowledge/training_corpus.jsonl
+          test -f data/knowledge/real_knowledge_moe.npz
+          test -f 'obsidian/JARVIS_LUNA/JARVIS Graph Hub.md'
+          test -d 'obsidian/JARVIS_LUNA/Knowledge/Records'
+          test -d 'obsidian/JARVIS_LUNA/Knowledge/Sources'
+          test -d 'obsidian/JARVIS_LUNA/Knowledge/Topics'
+          grep -q '"training_performed": true' data/knowledge/training_status.json
+          grep -q '"weights_updated": true' data/knowledge/training_status.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          runtime = json.loads(Path('data/dashboard_runtime.json').read_text(encoding='utf-8'))
+          assert runtime.get('graph', {}).get('dangling_links', 1) == 0
+          assert runtime.get('sources', {}).get('record_count', 0) > 0
+          assert runtime.get('training', {}).get('training_performed') is True
+          print('Runtime dashboard validation passed')
+          PY
+
+      - name: Commit generated knowledge and dashboard state
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/knowledge data/dashboard_runtime.json obsidian/JARVIS_LUNA index.html
+          if git diff --cached --quiet; then
+            echo 'No generated changes to commit'
+          else
+            git commit -m 'Run real knowledge pipeline and publish MoE graph state'
+            git push origin HEAD:main
+          fi
+
+      - name: Complete summary
         if: always()
-        run: |
-          echo "🎯 JARVIS Deep Analysis 완료"
+        run: echo 'JARVIS Deep Analysis finished.'
