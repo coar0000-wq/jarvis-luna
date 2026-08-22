@@ -84,7 +84,7 @@
         .team-card--legal h4 { color: #efd77f; }
 
         /* 로그 및 프로그레스바 */
-        .log-list { list-style: none; max-height: 250px; overflow-y: auto; }
+        .log-list { list-style: none; max-height: none; height: auto; overflow: visible; }
         .log-list li { padding: 8px 0; border-bottom: 1px solid #21262d; font-size: 13px; display: flex; justify-content: space-between; align-items: center; }
         .log-list li:last-child { border-bottom: none; }
         .time-badge { color: #8b949e; font-size: 11px; background: #161b22; padding: 2px 8px; border-radius: 6px; border: 1px solid #30363d; }
@@ -97,7 +97,7 @@
         .current-time { color: #8b949e; font-size: 12px; margin: -7px 0 14px; line-height: 1.45; }
         @media (min-width: 861px) {
             .briefing-card, .progress-card { padding: 26px 28px; }
-            .briefing-card .log-list { max-height: 360px; }
+            .briefing-card .log-list { max-height: none; height: auto; overflow: visible; }
             .briefing-card .log-list li { padding: 13px 0; font-size: 14px; line-height: 1.55; }
             .briefing-card .time-badge { font-size: 12px; padding: 4px 9px; }
             .progress-card .progress-note { font-size: 13px; margin-bottom: 18px; }
