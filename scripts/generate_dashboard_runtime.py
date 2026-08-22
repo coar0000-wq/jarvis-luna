@@ -35,7 +35,13 @@ def graph_metrics() -> dict:
         text = note.read_text(encoding="utf-8", errors="ignore")
         found = re.findall(r"\[\[([^\]|#]+)", text)
         links += len(found)
-        targets.update(x.strip() for x in found)
+        for target in found:
+            normalized = target.strip().replace('\\\\', '/')
+            normalized = normalized.rsplit('/', 1)[-1]
+            if normalized.endswith('.md'):
+                normalized = normalized[:-3]
+            if normalized:
+                targets.add(normalized)
     stems = {p.stem for p in notes}
     dangling = sorted(x for x in targets if x not in stems)
     return {
