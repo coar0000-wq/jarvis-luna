@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   deep-analysis:
-    name: Collect, graph, train and publish runtime state
+    name: Collect, normalize, graph, train and publish runtime state
     runs-on: ubuntu-latest
     timeout-minutes: 60
 
@@ -53,6 +53,11 @@ jobs:
       - name: Prepare transparent real-data corpus
         run: python prepare_real_training_corpus.py
 
+      - name: Normalize Obsidian wikilinks
+        run: |
+          test -f scripts/normalize_obsidian_links.py
+          python scripts/normalize_obsidian_links.py
+
       - name: Rebuild Obsidian graph from real records
         run: |
           python organize_obsidian_graph.py
@@ -84,22 +89,50 @@ jobs:
           python -m json.tool data/knowledge/real_sources.json >/dev/null
           python -m json.tool data/knowledge/training_status.json >/dev/null
           python -m json.tool data/dashboard_runtime.json >/dev/null
-          test -f data/knowledge/training_corpus.jsonl
+
+          test -s data/knowledge/training_corpus.jsonl
           test -f data/knowledge/real_knowledge_moe.npz
           test -f 'obsidian/JARVIS_LUNA/JARVIS Graph Hub.md'
           test -d 'obsidian/JARVIS_LUNA/Knowledge/Records'
           test -d 'obsidian/JARVIS_LUNA/Knowledge/Sources'
           test -d 'obsidian/JARVIS_LUNA/Knowledge/Topics'
-          grep -q '"training_performed": true' data/knowledge/training_status.json
-          grep -q '"weights_updated": true' data/knowledge/training_status.json
+
           python - <<'PY'
           import json
           from pathlib import Path
-          runtime = json.loads(Path('data/dashboard_runtime.json').read_text(encoding='utf-8'))
-          assert runtime.get('graph', {}).get('dangling_links', 1) == 0
-          assert runtime.get('sources', {}).get('record_count', 0) > 0
-          assert runtime.get('training', {}).get('training_performed') is True
-          print('Runtime dashboard validation passed')
+
+          training = json.loads(
+              Path('data/knowledge/training_status.json').read_text(encoding='utf-8')
+          )
+          runtime = json.loads(
+              Path('data/dashboard_runtime.json').read_text(encoding='utf-8')
+          )
+
+          assert training.get('training_performed') is True, (
+              'training_performed must be true'
+          )
+          assert training.get('weights_updated') is True, (
+              'weights_updated must be true'
+          )
+
+          graph = runtime.get('graph', {})
+          sources = runtime.get('sources', {})
+          dashboard_training = runtime.get('training', {})
+
+          dangling = graph.get('dangling_links', 1)
+          record_count = sources.get('record_count', 0)
+
+          print(f'graph notes={graph.get("notes", 0)}')
+          print(f'graph links={graph.get("links", 0)}')
+          print(f'dangling_links={dangling}')
+          print(f'record_count={record_count}')
+          print(f'experts={dashboard_training.get("experts", 0)}')
+
+          assert dangling == 0, f'dangling_links must be 0, got {dangling}'
+          assert record_count > 0, 'record_count must be greater than 0'
+          assert dashboard_training.get('training_performed') is True, (
+              'runtime training_performed must be true'
+          )
           PY
 
       - name: Commit generated knowledge and dashboard state
@@ -107,6 +140,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/knowledge data/dashboard_runtime.json obsidian/JARVIS_LUNA index.html
+
           if git diff --cached --quiet; then
             echo 'No generated changes to commit'
           else
@@ -116,4 +150,6 @@ jobs:
 
       - name: Complete summary
         if: always()
-        run: echo 'JARVIS Deep Analysis finished.'
+        run: |
+          echo 'JARVIS Deep Analysis finished.'
+          echo "Workflow conclusion: ${{ job.status }}"
