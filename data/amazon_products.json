@@ -1,5 +1,5 @@
 {
-  "total_count": 289,
+  "total_count": 293,
   "products": [
     {
       "id": "az_20260817185415_0",
@@ -2451,9 +2451,53 @@
         "K-beauty"
       ],
       "discovered_at": "2026-08-22T10:41:26.098280Z"
+    },
+    {
+      "id": "az_20260822110348_0",
+      "name": "아마존 뷰티·스킨케어 후보 (507)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Amazon beauty",
+        "Amazon skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-22T11:03:48.274940Z"
+    },
+    {
+      "id": "az_20260822110348_1",
+      "name": "아마존 뷰티·스킨케어 후보 (914)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Amazon beauty",
+        "Amazon skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-22T11:03:48.274952Z"
+    },
+    {
+      "id": "az_20260822110348_2",
+      "name": "아마존 뷰티·스킨케어 후보 (531)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Amazon beauty",
+        "Amazon skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-22T11:03:48.274957Z"
+    },
+    {
+      "id": "az_20260822110348_3",
+      "name": "아마존 뷰티·스킨케어 후보 (923)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Amazon beauty",
+        "Amazon skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-22T11:03:48.274961Z"
     }
   ],
-  "last_updated": "2026-08-22T10:41:26.098282Z",
+  "last_updated": "2026-08-22T11:03:48.274963Z",
   "target_category": "다이소 뷰티 & 스킨케어",
   "focus_keywords": [
     "Amazon beauty",
