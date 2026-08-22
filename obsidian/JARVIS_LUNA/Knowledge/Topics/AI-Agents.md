@@ -2,16 +2,20 @@
 title: "AI Agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-22T02:02:00.360766+00:00
+updated_at: 2026-08-22T02:13:26.150425+00:00
 tags: [{', '.join(tags)}]
 ---
 
 # AI Agents
 
-실제 수집 레코드 **1건**이 이 주제에 연결되어 있습니다.
+실제 수집 레코드 **5건**이 이 주제에 연결되어 있습니다.
 
-- [[Record-015--Actionable-insights-for-agentic-selling]]
+- [[Record-005--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]]
+- [[Record-006--Inducing-Task-Models-from-Computer-Use-Traces]]
+- [[Record-007--AI4AI-Bench-Benchmarking-LLM-Agents-in-Algorithmic-Design-]]
+- [[Record-010--MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use]]
+- [[Record-025--Actionable-insights-for-agentic-selling]]
 
 ## Connected nodes
 
-[[Record-015--Actionable-insights-for-agentic-selling]] [[Source--YouTube]] [[JARVIS Real Knowledge Index]]
+[[Record-005--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]] [[Record-006--Inducing-Task-Models-from-Computer-Use-Traces]] [[Record-007--AI4AI-Bench-Benchmarking-LLM-Agents-in-Algorithmic-Design-]] [[Record-010--MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use]] [[Record-025--Actionable-insights-for-agentic-selling]] [[Source--YouTube]] [[Source--arXiv]] [[JARVIS Real Knowledge Index]]
