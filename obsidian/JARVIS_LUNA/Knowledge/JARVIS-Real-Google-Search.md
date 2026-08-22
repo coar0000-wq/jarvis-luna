@@ -1,13 +1,13 @@
 ---
 title: "JARVIS Real Google Search"
-source: "Google Programmable Search JSON API"
-status: not_configured
-collected_at: 2026-08-21T23:19:15.304490+00:00
+source: "Google News RSS public fallback"
+status: error
+collected_at: 2026-08-22T02:02:00.138518+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real Google Search
 
-> 상태: **not_configured**
+> 상태: **error**
 
 ## 연결된 지식
 

@@ -1,16 +1,28 @@
 {
-  "updated_at": "2026-08-21T23:25:36.850314+00:00",
-  "real_records": 299,
+  "updated_at": "2026-08-22T02:02:00.959327+00:00",
+  "real_records": 30,
   "source_labels": {
-    "ai-image": 56,
-    "ai-research": 123,
-    "shopify-commerce-image": 120
+    "ai-research": 24,
+    "shopify-commerce-image": 6
   },
-  "corpus_sha256": "f15e47925285f7bcb21bee310bd63c71b0fd3f7e60aee059fb9bd651dec8b0e1",
+  "corpus_sha256": "e712855402272c33d3ea4f65600512003fafd43324853f2c93af21406b61ebd9",
   "training_performed": true,
   "weights_updated": true,
-  "model_type": "real-data bag-of-words linear router",
-  "model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.7324414715719063,
-  "note": "This model routes collected knowledge records. It is not an image foundation model and does not claim image-weight training."
+  "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
+  "experts": 3,
+  "top_k_inference": 2,
+  "model_file": "data/knowledge/real_knowledge_moe.npz",
+  "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
+  "training_accuracy_on_corpus": 0.9333333333333333,
+  "mean_gate_load": [
+    0.054465,
+    0.072908,
+    0.872628
+  ],
+  "note": "This is a text knowledge-routing MoE, not an image foundation model.",
+  "tuning_promoted": true,
+  "tuning_steps": 500,
+  "tuning_validation_accuracy": 0.75,
+  "tuning_final_loss": 0.15540648814078906,
+  "tuning_gate_load_std": 0.4530081803351574
 }
