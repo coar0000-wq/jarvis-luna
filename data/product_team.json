@@ -1,15 +1,15 @@
 {
-  "active_items": 1559,
-  "daily_new": 149,
+  "active_items": 1583,
+  "daily_new": 173,
   "top_category": "다이소 뷰티 & 스킨케어",
   "status": "5개 플랫폼 뷰티·스킨케어 발굴 중",
   "source": "data/cumulative_products.json",
   "sources": {
-    "daiso": 480,
-    "oliveyoung": 241,
-    "naver": 234,
-    "walmart": 248,
-    "amazon": 239
+    "daiso": 488,
+    "oliveyoung": 246,
+    "naver": 237,
+    "walmart": 253,
+    "amazon": 242
   },
-  "last_updated": "2026-08-22T05:32:03.570742Z"
+  "last_updated": "2026-08-22T05:59:30.511039Z"
 }
