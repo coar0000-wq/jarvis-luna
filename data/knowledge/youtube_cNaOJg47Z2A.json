@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "record_type": "youtube_video_analysis",
+  "analysis_status": "partial_verified",
+  "video": {
+    "video_id": "cNaOJg47Z2A",
+    "url": "https://www.youtube.com/watch?v=cNaOJg47Z2A",
+    "title": "ComfyUI Just Passed Higgsfield - ComfyUI Official MCP",
+    "channel": "Silent Snow",
+    "duration_seconds": 1100,
+    "language": "en",
+    "retrieved_at": "2026-08-22T03:30:00Z"
+  },
+  "verified_summary": "The video is about ComfyUI's official MCP integration and its positioning against Higgsfield. The exact full-video transcript was not available to the analysis environment, so claims beyond the public title, duration, and official Comfy MCP documentation are marked as unverified.",
+  "verified_topics": [
+    "Comfy MCP connects AI agents to ComfyUI over Model Context Protocol",
+    "Comfy Cloud MCP endpoint: https://cloud.comfy.org/mcp",
+    "Local ComfyUI MCP is open source",
+    "Supported workflows include image, video, audio, and 3D generation",
+    "Agents can search models, nodes, and templates",
+    "Agents can submit, track, and retrieve real workflows",
+    "Batch generation and reproducible workflows are supported"
+  ],
+  "jarvis_relevance": {
+    "knowledge_domain": "AI visual generation infrastructure",
+    "product_discovery": "Potential tool for automated creative asset and product-visual workflow generation; validate cost, licensing, and reproducibility before adoption.",
+    "training": "Store as a factual knowledge record for the real-data corpus; do not treat it as evidence that an image foundation model was trained.",
+    "obsidian_topics": ["AI", "ComfyUI", "MCP", "Generative Media", "Workflow Automation"]
+  },
+  "limitations": [
+    "Deep video analysis service returned permission_denied (403).",
+    "YouTube automated subtitle extraction returned bot verification/429 and no transcript.",
+    "No unverified scene-by-scene or speaker-claim summary is asserted."
+  ],
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=cNaOJg47Z2A",
+      "title": "ComfyUI Just Passed Higgsfield - ComfyUI Official MCP"
+    },
+    {
+      "type": "official_documentation",
+      "url": "https://comfy.org/mcp/",
+      "title": "Comfy MCP - Drive ComfyUI from any AI agent"
+    },
+    {
+      "type": "official_documentation",
+      "url": "https://docs.comfy.org/agent-tools/mcp",
+      "title": "Comfy MCP Documentation"
+    }
+  ]
+}
+
