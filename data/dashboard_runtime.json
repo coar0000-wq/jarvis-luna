@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-22T02:56:10.803849+00:00",
+  "generated_at": "2026-08-22T03:14:40.092307+00:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "299개 코퍼스 레코드"
+      "detail": "10개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "316개 노트 · 2620개 링크 · 끊어진 링크 0개"
+      "detail": "23개 노트 · 142개 링크 · 끊어진 링크 0개"
     },
     {
       "id": "dashboard",
@@ -25,7 +25,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "299건 · 3 experts · 정확도 73.24%"
+      "detail": "10건 · 3 experts · 정확도 70.00%"
     },
     {
       "id": "publish",
@@ -36,33 +36,33 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 299,
+    "record_count": 10,
     "source_counts": {},
-    "updated_at": "2026-08-22T01:57:23.401710+00:00"
+    "updated_at": "2026-08-22T03:14:38.816797+00:00"
   },
   "graph": {
-    "notes": 316,
-    "links": 2620,
+    "notes": 23,
+    "links": 142,
     "dangling_links": 0,
-    "records": 299,
-    "sources": 3,
-    "topics": 6,
+    "records": 10,
+    "sources": 1,
+    "topics": 4,
     "audit": "passed",
-    "last_generated": "2026-08-22T02:15:00.912282+00:00"
+    "last_generated": "2026-08-22T03:14:39.045990+00:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 299,
+    "records": 10,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.7324414715719063,
-    "validation_accuracy": 0.7166666666666667,
-    "final_loss": 0.943344659157463,
-    "gate_load_std": 0.26515274616080337,
+    "accuracy": 0.7,
+    "validation_accuracy": 1.0,
+    "final_loss": 0.5624746319923973,
+    "gate_load_std": 0.21461384081643567,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-08-22T02:38:49.995632+00:00"
+    "updated_at": "2026-08-22T03:14:40.034428+00:00"
   }
 }
