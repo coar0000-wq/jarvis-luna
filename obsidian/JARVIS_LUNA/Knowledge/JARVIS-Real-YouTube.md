@@ -2,7 +2,7 @@
 title: "JARVIS Real YouTube"
 source: "YouTube channel RSS"
 status: ok
-collected_at: 2026-08-23T13:10:42.338387+00:00
+collected_at: 2026-08-23T13:53:32.349459+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real YouTube
@@ -108,7 +108,7 @@ tags: [jarvis, real-data, knowledge]
 ### Luxury brand secrets they don't want you to know 🤫
 - 원문: [https://www.youtube.com/shorts/P0-JhQ37nhw](https://www.youtube.com/shorts/P0-JhQ37nhw)
 - published: 2026-08-23T12:00:12+00:00
-- updated: 2026-08-23T12:00:37+00:00
+- updated: 2026-08-23T13:26:36+00:00
 - channel_id: UC7geKfz2-IH0rsgRBtHTm0g
 
 ### Pro SEO tips for product pages
@@ -120,7 +120,7 @@ tags: [jarvis, real-data, knowledge]
 ### What’s new with Shop?
 - 원문: [https://www.youtube.com/shorts/pLW7Ffqddxo](https://www.youtube.com/shorts/pLW7Ffqddxo)
 - published: 2026-08-22T12:00:12+00:00
-- updated: 2026-08-22T16:23:51+00:00
+- updated: 2026-08-23T13:17:51+00:00
 - channel_id: UC7geKfz2-IH0rsgRBtHTm0g
 
 ### How to design and build a Shopify store with Claude
