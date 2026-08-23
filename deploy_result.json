@@ -1,16 +1,16 @@
 {
-  "time": "2026-08-23T14:07:12.579327",
+  "time": "2026-08-23T14:10:16.232933",
   "steps": [
     {
       "cmd": "git add -A",
       "rc": 0,
       "out": "",
-      "err": "warning: in the working copy of 'JARVIS_AUTO_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'mobile-preview.html', LF will be replaced by CRLF the next time Git touches it\n"
+      "err": "warning: in the working copy of 'JARVIS_AUTO_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\n"
     },
     {
-      "cmd": "git commit -m JARVIS: restore .nojekyll + mobile preview harness",
+      "cmd": "git commit -m JARVIS: mobile legibility - stronger hero overlay, tighter type, graph rim shadow",
       "rc": 0,
-      "out": "[main 55f7c9b] JARVIS: restore .nojekyll + mobile preview harness\n 5 files changed, 28 insertions(+), 27 deletions(-)\n create mode 100644 .nojekyll\n delete mode 100644 _mobile_preview.html\n create mode 100644 mobile-preview.html\n",
+      "out": "[main fe1ea1d] JARVIS: mobile legibility - stronger hero overlay, tighter type, graph rim shadow\n 3 files changed, 38 insertions(+), 25 deletions(-)\n",
       "err": ""
     },
     {
@@ -29,7 +29,7 @@
       "cmd": "git push origin HEAD:main",
       "rc": 0,
       "out": "",
-      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   43a17f9..55f7c9b  HEAD -> main\n"
+      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   55f7c9b..fe1ea1d  HEAD -> main\n"
     },
     {
       "cmd": "git fetch origin main",
@@ -46,13 +46,13 @@
     {
       "cmd": "git rev-parse HEAD",
       "rc": 0,
-      "out": "55f7c9b709bb18da84d2b6ff8724c2ef532a86ce\n",
+      "out": "fe1ea1d989eadb8d4f57bed2196db09ad5b2c6df\n",
       "err": ""
     },
     {
       "cmd": "git rev-parse origin/main",
       "rc": 0,
-      "out": "55f7c9b709bb18da84d2b6ff8724c2ef532a86ce\n",
+      "out": "fe1ea1d989eadb8d4f57bed2196db09ad5b2c6df\n",
       "err": ""
     },
     {
@@ -64,8 +64,8 @@
   ],
   "push_returncode": 0,
   "branch": "main",
-  "local_head": "55f7c9b709bb18da84d2b6ff8724c2ef532a86ce",
-  "remote_head": "55f7c9b709bb18da84d2b6ff8724c2ef532a86ce",
+  "local_head": "fe1ea1d989eadb8d4f57bed2196db09ad5b2c6df",
+  "remote_head": "fe1ea1d989eadb8d4f57bed2196db09ad5b2c6df",
   "status": "## main...origin/main\n",
   "remote_has_living_graph": true,
   "remote_has_hero_bg": true,
