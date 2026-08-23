@@ -1,22 +1,18 @@
-=== START 2026-08-23 14:57:21.47 === 
---- archive legacy --- 
-moved: ['amazon_product_discovery.py', 'walmart_product_discovery.py', 'oliveyoung_product_discovery.py', 'naver_product_discovery.py', 'data/amazon_products.json', 'data/walmart_products.json', 'data/oliveyoung_products.json', 'data/naver_shopping_products.json', 'data/real_products.json', 'phase_26_progress_realtime.py', 'update_tasks.py']
-absent: ['daiso_product_discovery.py', 'data/daiso_products.json', 'data/daiso_business_plan.json', 'data/data/data/data/daiso_business_plan.json', 'cumulative_products.json', 'data/cumulative_products.json', '.github/workflows/daiso-discovery.yml']
---- reset daiso store (scope changed to beauty) --- 
---- collect beauty (12 items, 5s delay) --- 
+=== START 2026-08-23 15:01:55.85 === 
+--- collect beauty (40 items, 3s delay) --- 
 {
-  "started_at": "2026-08-23T05:57:21.678336+00:00",
-  "requested": 12,
-  "ok": 0,
-  "parse_failed": 1,
+  "started_at": "2026-08-23T06:01:55.957203+00:00",
+  "requested": 40,
+  "ok": 11,
+  "parse_failed": 4,
   "http_error": 0,
-  "skipped_not_beauty": 11,
+  "skipped_not_beauty": 25,
   "scope": "다이소몰 뷰티관(C245) 12개 카테고리",
-  "delay_seconds": 5.0,
-  "max_items": 12,
+  "delay_seconds": 3.0,
+  "max_items": 40,
   "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
   "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
-  "finished_at": "2026-08-23T05:58:36.580065+00:00",
+  "finished_at": "2026-08-23T06:04:45.239915+00:00",
   "status": "ok"
 }
 --- deploy --- 

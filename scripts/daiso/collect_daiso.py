@@ -235,6 +235,10 @@ def main() -> int:
                                "fx": load_json(STATUS, {}).get("fx")})
             print(json.dumps(run, ensure_ascii=False, indent=2))
             return 1
+        # sitemap 순서는 카테고리와 무관하므로 섞어서 카탈로그 전체를 고르게 표본
+        # 추출한다. 그래야 뷰티관 상품이 특정 구간에 몰려 있어도 빨리 만난다.
+        random.seed(20260823)
+        random.shuffle(urls)
         state["urls"] = urls
         state["sitemap_cached_at"] = now_iso()
 

@@ -12,7 +12,7 @@ on:
       max_items:
         description: '이번 실행에서 수집할 상품 수'
         required: false
-        default: '60'
+        default: '110'
       delay:
         description: '요청 간 대기 초 (robots.txt 권장 30)'
         required: false
@@ -28,7 +28,7 @@ permissions:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
 
@@ -38,7 +38,7 @@ jobs:
 
       - name: Collect
         env:
-          DAISO_MAX_ITEMS: ${{ github.event.inputs.max_items || '60' }}
+          DAISO_MAX_ITEMS: ${{ github.event.inputs.max_items || '110' }}
           DAISO_DELAY: ${{ github.event.inputs.delay || '30' }}
         run: python scripts/daiso/collect_daiso.py
         continue-on-error: true

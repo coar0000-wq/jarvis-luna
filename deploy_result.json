@@ -1,35 +1,35 @@
 {
-  "time": "2026-08-23T14:44:01.839868",
+  "time": "2026-08-23T14:58:37.631421",
   "steps": [
     {
       "cmd": "git add -A",
       "rc": 0,
       "out": "",
-      "err": "e working copy of 'RUN_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of '.github/workflows/daiso-real-collection.yml', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/daiso/archive_legacy.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/daiso/category_map.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/daiso/collect_daiso.py', LF will be replaced by CRLF the next time Git touches it\n"
+      "err": "warning: in the working copy of 'RUN_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/daiso/archive_legacy.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/daiso/category_map.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/daiso/collect_daiso.py', LF will be replaced by CRLF the next time Git touches it\n"
     },
     {
-      "cmd": "git commit -m JARVIS: real Daiso collection pipeline + archive placeholder data",
+      "cmd": "git commit -m JARVIS: MD family header, beauty-only Daiso scope, archive fake collectors",
       "rc": 0,
-      "out": "ta/daiso_products.json => archive/daiso_placeholder/data__daiso_products.json (100%)\n rename data/data/data/data/daiso_business_plan.json => archive/daiso_placeholder/data__data__data__data__daiso_business_plan.json (100%)\n create mode 100644 archive/daiso_placeholder/manifest.json\n create mode 100644 data/daiso_real/collection_status.json\n create mode 100644 data/daiso_real/crawl_state.json\n create mode 100644 data/daiso_real/products.json\n create mode 100644 scripts/daiso/archive_legacy.py\n create mode 100644 scripts/daiso/category_map.json\n create mode 100644 scripts/daiso/collect_daiso.py\n",
+      "out": ".json (100%)\n rename data/walmart_products.json => archive/daiso_placeholder/data__walmart_products.json (100%)\n rename naver_product_discovery.py => archive/daiso_placeholder/naver_product_discovery.py (100%)\n rename oliveyoung_product_discovery.py => archive/daiso_placeholder/oliveyoung_product_discovery.py (100%)\n rename phase_26_progress_realtime.py => archive/daiso_placeholder/phase_26_progress_realtime.py (100%)\n rename update_tasks.py => archive/daiso_placeholder/update_tasks.py (100%)\n rename walmart_product_discovery.py => archive/daiso_placeholder/walmart_product_discovery.py (100%)\n",
       "err": ""
     },
     {
       "cmd": "git fetch origin main",
       "rc": 0,
       "out": "",
-      "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n"
+      "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n   ca6670e..b1b469b  main       -> origin/main\n"
     },
     {
       "cmd": "git merge --no-edit origin/main",
       "rc": 0,
-      "out": "Already up to date.\n",
+      "out": "secret-to-content-that-works-for-you-forever.md |   2 +-\n .../Knowledge/Sources/Source--YouTube.md           |   2 +-\n .../JARVIS_LUNA/Knowledge/Sources/Source--arXiv.md |   2 +-\n obsidian/JARVIS_LUNA/Knowledge/Topics/AI-Agents.md |   2 +-\n .../Knowledge/Topics/AI-Image-Generation.md        |   2 +-\n .../JARVIS_LUNA/Knowledge/Topics/AI-Research.md    |   2 +-\n .../Knowledge/Topics/Machine-Learning-Research.md  |   2 +-\n .../Knowledge/Topics/Model-Routing-and-MoE.md      |   2 +-\n .../Knowledge/Topics/Shopify-Commerce.md           |   2 +-\n 64 files changed, 156 insertions(+), 134 deletions(-)\n",
       "err": ""
     },
     {
       "cmd": "git push origin HEAD:main",
       "rc": 0,
       "out": "",
-      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   c216f6d..ca6670e  HEAD -> main\n"
+      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   b1b469b..5795ac4  HEAD -> main\n"
     },
     {
       "cmd": "git fetch origin main",
@@ -46,13 +46,13 @@
     {
       "cmd": "git rev-parse HEAD",
       "rc": 0,
-      "out": "ca6670eacce1e5ba1fd32a8e4e5f1d69cafc24c4\n",
+      "out": "5795ac4d896e42102f06e741ffe70e546fb62838\n",
       "err": ""
     },
     {
       "cmd": "git rev-parse origin/main",
       "rc": 0,
-      "out": "ca6670eacce1e5ba1fd32a8e4e5f1d69cafc24c4\n",
+      "out": "5795ac4d896e42102f06e741ffe70e546fb62838\n",
       "err": ""
     },
     {
@@ -64,8 +64,8 @@
   ],
   "push_returncode": 0,
   "branch": "main",
-  "local_head": "ca6670eacce1e5ba1fd32a8e4e5f1d69cafc24c4",
-  "remote_head": "ca6670eacce1e5ba1fd32a8e4e5f1d69cafc24c4",
+  "local_head": "5795ac4d896e42102f06e741ffe70e546fb62838",
+  "remote_head": "5795ac4d896e42102f06e741ffe70e546fb62838",
   "status": "## main...origin/main\n",
   "remote_has_hero_bg": true,
   "remote_reads_runtime_json": true,
