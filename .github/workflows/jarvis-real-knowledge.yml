@@ -66,5 +66,6 @@ jobs:
 
           git commit -m "🧠 Train real knowledge router and sync Obsidian graph"
 
-          git pull --rebase origin main
+          git fetch origin main
+          git rebase origin/main
           git push origin HEAD:main
