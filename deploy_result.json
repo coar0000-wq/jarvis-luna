@@ -1,5 +1,5 @@
 {
-  "time": "2026-08-23T14:10:16.232933",
+  "time": "2026-08-23T14:12:43.993528",
   "steps": [
     {
       "cmd": "git add -A",
@@ -8,9 +8,9 @@
       "err": "warning: in the working copy of 'JARVIS_AUTO_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\n"
     },
     {
-      "cmd": "git commit -m JARVIS: mobile legibility - stronger hero overlay, tighter type, graph rim shadow",
+      "cmd": "git commit -m JARVIS: remove temporary mobile preview harness",
       "rc": 0,
-      "out": "[main fe1ea1d] JARVIS: mobile legibility - stronger hero overlay, tighter type, graph rim shadow\n 3 files changed, 38 insertions(+), 25 deletions(-)\n",
+      "out": "[main 33d583b] JARVIS: remove temporary mobile preview harness\n 3 files changed, 12 insertions(+), 25 deletions(-)\n delete mode 100644 mobile-preview.html\n",
       "err": ""
     },
     {
@@ -29,7 +29,7 @@
       "cmd": "git push origin HEAD:main",
       "rc": 0,
       "out": "",
-      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   55f7c9b..fe1ea1d  HEAD -> main\n"
+      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   fe1ea1d..33d583b  HEAD -> main\n"
     },
     {
       "cmd": "git fetch origin main",
@@ -46,13 +46,13 @@
     {
       "cmd": "git rev-parse HEAD",
       "rc": 0,
-      "out": "fe1ea1d989eadb8d4f57bed2196db09ad5b2c6df\n",
+      "out": "33d583b5f9b67efaa196d6c8c82abbe2b6210f6a\n",
       "err": ""
     },
     {
       "cmd": "git rev-parse origin/main",
       "rc": 0,
-      "out": "fe1ea1d989eadb8d4f57bed2196db09ad5b2c6df\n",
+      "out": "33d583b5f9b67efaa196d6c8c82abbe2b6210f6a\n",
       "err": ""
     },
     {
@@ -64,8 +64,8 @@
   ],
   "push_returncode": 0,
   "branch": "main",
-  "local_head": "fe1ea1d989eadb8d4f57bed2196db09ad5b2c6df",
-  "remote_head": "fe1ea1d989eadb8d4f57bed2196db09ad5b2c6df",
+  "local_head": "33d583b5f9b67efaa196d6c8c82abbe2b6210f6a",
+  "remote_head": "33d583b5f9b67efaa196d6c8c82abbe2b6210f6a",
   "status": "## main...origin/main\n",
   "remote_has_living_graph": true,
   "remote_has_hero_bg": true,

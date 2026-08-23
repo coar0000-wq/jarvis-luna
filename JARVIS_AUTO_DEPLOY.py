@@ -3,7 +3,7 @@
 import os, subprocess, json, datetime, urllib.request
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-MSG = os.environ.get("JARVIS_MSG", "JARVIS: update")
+MSG = os.environ.get("JARVIS_MSG") or "JARVIS: cumulative ledger for records/notes/links"
 R = {"time": datetime.datetime.now().isoformat(), "steps": []}
 
 
