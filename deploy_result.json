@@ -1,5 +1,5 @@
 {
-  "time": "2026-08-23T15:44:38.758505",
+  "time": "2026-08-23T15:56:40.203131",
   "steps": [
     {
       "cmd": "git add -A",
@@ -8,9 +8,9 @@
       "err": "warning: in the working copy of 'RUN_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\n"
     },
     {
-      "cmd": "git commit -m JARVIS: restore trained MoE status after corpus rebuild",
+      "cmd": "git commit -m JARVIS: data composition detail, fix workflow push race",
       "rc": 0,
-      "out": "[main 58e3a98] JARVIS: restore trained MoE status after corpus rebuild\n 10 files changed, 108 insertions(+), 77 deletions(-)\n",
+      "out": "[main 651a18c] JARVIS: data composition detail, fix workflow push race\n 5 files changed, 82 insertions(+), 33 deletions(-)\n",
       "err": ""
     },
     {
@@ -29,7 +29,7 @@
       "cmd": "git push origin HEAD:main",
       "rc": 0,
       "out": "",
-      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   6e034f0..58e3a98  HEAD -> main\n"
+      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   58e3a98..651a18c  HEAD -> main\n"
     },
     {
       "cmd": "git fetch origin main",
@@ -46,13 +46,13 @@
     {
       "cmd": "git rev-parse HEAD",
       "rc": 0,
-      "out": "58e3a98502adfef4c9853295ec0b38e57c5b1062\n",
+      "out": "651a18ca54a88b8e110953965637aa47140035ba\n",
       "err": ""
     },
     {
       "cmd": "git rev-parse origin/main",
       "rc": 0,
-      "out": "58e3a98502adfef4c9853295ec0b38e57c5b1062\n",
+      "out": "651a18ca54a88b8e110953965637aa47140035ba\n",
       "err": ""
     },
     {
@@ -64,8 +64,8 @@
   ],
   "push_returncode": 0,
   "branch": "main",
-  "local_head": "58e3a98502adfef4c9853295ec0b38e57c5b1062",
-  "remote_head": "58e3a98502adfef4c9853295ec0b38e57c5b1062",
+  "local_head": "651a18ca54a88b8e110953965637aa47140035ba",
+  "remote_head": "651a18ca54a88b8e110953965637aa47140035ba",
   "status": "## main...origin/main\n",
   "remote_has_hero_bg": true,
   "remote_reads_runtime_json": true,
