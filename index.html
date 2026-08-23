@@ -60,11 +60,6 @@
         .stat-card{background:#1a1a1a;border-radius:12px;padding:25px;border:1px solid #2a2a2a;}
         .stat-card h4{color:#999;font-size:12px;margin-bottom:8px;text-transform:uppercase;}
         .stat-card .value{font-size:32px;font-weight:700;color:#fff;}
-        .stat-sub{margin-top:8px;font-size:12px;color:#777;display:flex;flex-wrap:wrap;gap:6px;align-items:center;}
-        .stat-sub .base{color:#8b8b8b;}
-        .stat-sub .plus{color:#555;}
-        .stat-sub .new{color:#3fb950;font-weight:600;}
-        .stat-sub .new.zero{color:#666;font-weight:400;}
 
         /* Side Stats */
         .side-stats{display:flex;flex-direction:column;gap:20px;}
@@ -266,12 +261,10 @@
                 <div class="stat-card">
                     <h4>지식 레코드 (누적)</h4>
                     <div class="value"><span id="stat-records">–</span></div>
-                    <div class="stat-sub" id="stat-records-sub"></div>
                 </div>
                 <div class="stat-card">
                     <h4>그래프 노트 · 링크 (누적)</h4>
                     <div class="value"><span id="stat-graph">–</span></div>
-                    <div class="stat-sub" id="stat-graph-sub"></div>
                 </div>
                 <div class="stat-card">
                     <h4>MoE 학습 정확도</h4>
@@ -477,39 +470,10 @@
                 links: (d.graph && d.graph.links) || 0
             };
 
-            if (!c || !c.totals) {
-                set('stat-records', n(snap.records));
-                set('stat-graph', n(snap.notes) + ' · ' + n(snap.links));
-                ['stat-records-sub', 'stat-graph-sub'].forEach(id => {
-                    const el = $(id);
-                    if (el) el.innerHTML = '<span class="base">누적 집계 준비 중 · 현재 스냅샷</span>';
-                });
-                return;
-            }
-
-            const t = c.totals, p = c.prior_totals || {}, a = c.added_this_run || {};
+            // 누적 총합만 표시한다 (기존/신규 분해는 표시하지 않음)
+            const t = (c && c.totals) ? c.totals : snap;
             set('stat-records', n(t.records));
             set('stat-graph', n(t.notes) + ' · ' + n(t.links));
-
-            const sub = (id, keys) => {
-                const el = $(id);
-                if (!el) return;
-                el.innerHTML = keys.map(k => {
-                    const add = Number(a[k] || 0);
-                    return '<span class="base">기존 ' + n(p[k]) + '</span>' +
-                           '<span class="plus">+</span>' +
-                           '<span class="new' + (add ? '' : ' zero') + '">신규 ' + n(add) + '</span>';
-                }).join('<span class="plus">·</span>');
-            };
-            sub('stat-records-sub', ['records']);
-            sub('stat-graph-sub', ['notes', 'links']);
-
-            const el = $('stat-records-sub');
-            if (el && c.since) {
-                el.insertAdjacentHTML('beforeend',
-                    '<span class="plus" style="width:100%;font-size:11px;">' +
-                    KST(c.since) + '부터 집계</span>');
-            }
         }
 
         // 다이소 실수집 현황. 아직 수집 전이면 "수집 대기"라고 밝힌다.
