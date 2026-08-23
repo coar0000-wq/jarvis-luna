@@ -9,14 +9,14 @@
   },
   "totals": {
     "records": 40,
-    "notes": 56,
+    "notes": 57,
     "links": 400
   },
   "last_snapshot": {
     "records": 40,
-    "notes": 56,
+    "notes": 57,
     "links": 400,
-    "recorded_at": "2026-08-23T07:12:12.501030+00:00"
+    "recorded_at": "2026-08-23T07:56:07.906124+00:00"
   },
   "runs": [
     {
@@ -106,7 +106,29 @@
         "notes": 0,
         "links": 0
       }
+    },
+    {
+      "at": "2026-08-23T07:56:04.950581+00:00",
+      "records": 40,
+      "notes": 57,
+      "links": 400,
+      "added": {
+        "records": 0,
+        "notes": 1,
+        "links": 0
+      }
+    },
+    {
+      "at": "2026-08-23T07:56:07.906124+00:00",
+      "records": 40,
+      "notes": 57,
+      "links": 400,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
     }
   ],
-  "updated_at": "2026-08-23T07:12:12.501030+00:00"
+  "updated_at": "2026-08-23T07:56:07.906124+00:00"
 }

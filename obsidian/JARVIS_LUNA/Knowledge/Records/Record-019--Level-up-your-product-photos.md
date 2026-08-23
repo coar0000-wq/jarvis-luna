@@ -2,7 +2,7 @@
 title: "Record 019 · Level-up-your-product-photos"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-23T07:12:09.366314+00:00
+updated_at: 2026-08-23T07:56:04.899088+00:00
 tags: [{', '.join(tags)}]
 ---
 

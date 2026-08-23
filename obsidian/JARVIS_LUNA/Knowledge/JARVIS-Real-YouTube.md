@@ -2,7 +2,7 @@
 title: "JARVIS Real YouTube"
 source: "YouTube channel RSS"
 status: ok
-collected_at: 2026-08-23T07:12:09.122881+00:00
+collected_at: 2026-08-23T07:56:04.671967+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real YouTube
@@ -108,7 +108,7 @@ tags: [jarvis, real-data, knowledge]
 ### Pro SEO tips for product pages
 - 원문: [https://www.youtube.com/shorts/oHx39xLZwHo](https://www.youtube.com/shorts/oHx39xLZwHo)
 - published: 2026-08-22T17:00:25+00:00
-- updated: 2026-08-22T17:00:46+00:00
+- updated: 2026-08-23T07:28:19+00:00
 - channel_id: UC7geKfz2-IH0rsgRBtHTm0g
 
 ### What’s new with Shop?
