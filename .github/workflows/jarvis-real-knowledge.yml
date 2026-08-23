@@ -1,9 +1,6 @@
 name: JARVIS Real Knowledge Sync
 
 on:
-  workflow_dispatch:name: JARVIS Real Knowledge Sync
-
-on:
   workflow_dispatch:
   schedule:
     - cron: "17 2 * * *"
@@ -75,61 +72,7 @@ jobs:
 
           git commit -m "🧠 Train real knowledge router and sync Obsidian graph"
 
-          # 최신 main과 동기화 (push 충돌 해결)
           git fetch origin main
           git rebase origin/main
 
-          git push origin HEAD:main
-  schedule:
-    - cron: "17 2 * * *"
-
-permissions:
-  contents: write
-
-jobs:
-  collect-and-sync:
-    runs-on: ubuntu-latest
-    env:
-      YOUTUBE_CHANNEL_IDS: ${{ secrets.YOUTUBE_CHANNEL_IDS }}
-      GOOGLE_CSE_API_KEY: ${{ secrets.GOOGLE_CSE_API_KEY }}
-      GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
-      KNOWLEDGE_QUERIES: ${{ vars.KNOWLEDGE_QUERIES }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Collect real public sources and update Obsidian notes
-        run: python real_knowledge_sync.py
-
-      - name: Prepare transparent real-data training corpus
-        run: python prepare_real_training_corpus.py
-
-      - name: Train the real-data knowledge router
-        run: python train_real_knowledge.py
-
-      - name: Validate generated files and real training status
-        run: |
-          python -m json.tool data/knowledge/real_sources.json >/dev/null
-          python -m json.tool data/knowledge/training_status.json >/dev/null
-          test -f "data/knowledge/real_knowledge_router.npz"
-          grep -q '"training_performed": true' data/knowledge/training_status.json
-          grep -q '"weights_updated": true' data/knowledge/training_status.json
-          test -f "obsidian/JARVIS_LUNA/Knowledge/JARVIS Real Knowledge Index.md"
-          grep -q "JARVIS Real Knowledge Index" "obsidian/JARVIS_LUNA/Knowledge/JARVIS Real Knowledge Index.md"
-
-      - name: Commit real data, model weights, and Obsidian graph notes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -z "$(git status --short)" ]]; then
-            echo "No changes to commit"
-            exit 0
-          fi
-          git add data/knowledge obsidian/JARVIS_LUNA/Knowledge real_knowledge_sync.py prepare_real_training_corpus.py train_real_knowledge.py .github/workflows/jarvis-real-knowledge.yml
-          git commit -m "🧠 Train real knowledge router and sync Obsidian graph"
           git push origin HEAD:main
