@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-23T06:41:46.348296+00:00",
+  "generated_at": "2026-08-23T06:44:38.651354+00:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
@@ -24,13 +24,13 @@
     {
       "id": "train",
       "title": "실제 데이터 MoE 학습",
-      "status": "not_verified",
-      "detail": "40건"
+      "status": "completed",
+      "detail": "40건 · 3 experts · 정확도 80.00%"
     },
     {
       "id": "publish",
       "title": "저장소·Pages 반영",
-      "status": "pending_workflow",
+      "status": "ready_for_pages",
       "detail": "GitHub Actions Pages 배포 워크플로에서 반영"
     }
   ],
@@ -51,19 +51,19 @@
     "last_generated": "2026-08-23T05:58:39.761592+00:00"
   },
   "training": {
-    "status": "not_verified",
-    "training_performed": false,
-    "weights_updated": false,
+    "status": "completed",
+    "training_performed": true,
+    "weights_updated": true,
     "records": 40,
-    "model_type": "확인 필요",
-    "experts": 0,
-    "accuracy": null,
-    "validation_accuracy": null,
-    "final_loss": null,
-    "gate_load_std": null,
-    "tuning_promoted": false,
-    "tuning_steps": null,
-    "updated_at": "2026-08-23T06:41:46.252865+00:00"
+    "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
+    "experts": 3,
+    "accuracy": 0.8,
+    "validation_accuracy": 0.8333333333333334,
+    "final_loss": 0.4037562964969758,
+    "gate_load_std": 0.4564442722896558,
+    "tuning_promoted": true,
+    "tuning_steps": 500,
+    "updated_at": "2026-08-23T06:44:38.476795+00:00"
   },
   "cumulative": {
     "totals": {
@@ -87,6 +87,6 @@
       "links": 400
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
-    "runs_recorded": 5
+    "runs_recorded": 6
   }
 }
