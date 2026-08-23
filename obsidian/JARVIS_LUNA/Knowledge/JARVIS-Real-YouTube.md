@@ -2,7 +2,7 @@
 title: "JARVIS Real YouTube"
 source: "YouTube channel RSS"
 status: ok
-collected_at: 2026-08-23T11:15:58.753993+00:00
+collected_at: 2026-08-23T11:45:07.253571+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real YouTube
@@ -168,7 +168,7 @@ tags: [jarvis, real-data, knowledge]
 ### How to use AI as a personal shopper
 - 원문: [https://www.youtube.com/shorts/jEG3g7G7-JY](https://www.youtube.com/shorts/jEG3g7G7-JY)
 - published: 2026-08-14T13:50:11+00:00
-- updated: 2026-08-15T12:52:46+00:00
+- updated: 2026-08-18T04:20:03+00:00
 - channel_id: UC7geKfz2-IH0rsgRBtHTm0g
 
 ### 7 Faceless Business Ideas for Beginners

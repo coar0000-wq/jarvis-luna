@@ -2,7 +2,7 @@
 title: "Record 001 · MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-23T11:15:58.977578+00:00
+updated_at: 2026-08-23T11:45:07.482605+00:00
 tags: [{', '.join(tags)}]
 ---
 
