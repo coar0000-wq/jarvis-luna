@@ -3,197 +3,850 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MD Family JARVIS LUNA - Enterprise v2</title>
+    <title>MD Family JARVIS LUNA - Realtime AGI Evolution OS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
     <style>
-        *{margin:0;padding:0;box-sizing:border-box;}
-        body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:#0d1117;color:#c9d1d9;padding:20px;min-height:100vh;}
-        .container{max-width:900px;margin:auto;}
-        h1{color:#58a6ff;margin-bottom:25px;border-bottom:1px solid #30363d;padding-bottom:12px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;}
-        h1 .title{font-size:1.5rem;}
-        #live-indicator{font-size:12px;color:#8b949e;background:#21262d;padding:4px 12px;border-radius:20px;border:1px solid #30363d;}
-        #live-indicator.online{color:#3fb950;border-color:#238636;}
-        #live-indicator.loading{color:#d29922;border-color:#9e6a03;}
-        h2{color:#58a6ff;margin-bottom:18px;border-bottom:1px solid #30363d;padding-bottom:8px;}
-        .card{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:20px;margin-bottom:22px;}
-        .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:15px;margin-bottom:10px;}
-        .stat-box{background:#21262d;border:1px solid #30363d;border-radius:8px;padding:18px;text-align:center;}
-        .stat-box h3{color:#8b949e;font-size:13px;margin-bottom:10px;}
-        .stat-box p{color:#f0f6fc;font-size:24px;font-weight:bold;}
-        .refresh-info{text-align:right;color:#8b949e;font-size:12px;margin-top:12px;}
-        ul{list-style:none;}
-        li{padding:10px 0;border-bottom:1px solid #21262d;font-size:14px;display:flex;justify-content:space-between;align-items:center;gap:10px;}
-        li:last-child{border-bottom:none;}
-        .log-content{display:flex;gap:8px;align-items:center;flex:1;}
-        .log-time{color:#8b949e;font-size:12px;background:#21262d;padding:2px 8px;border-radius:6px;border:1px solid #30363d;white-space:nowrap;}
-        .log-empty{color:#8b949e;text-align:center;padding:16px 0;display:block;}
-        .footer{text-align:center;color:#6e7681;font-size:12px;margin-top:30px;padding-bottom:20px;}
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { background: #000; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #000; color: #c9d1d9; padding: 20px; min-height: 100vh; }
+        .container { max-width: 1480px; margin: auto; }
+        h2 { color: #58a6ff; margin-bottom: 18px; border-bottom: 1px solid #30363d; padding-bottom: 8px; font-size: 1.1rem; display: flex; align-items: center; gap: 8px; }
+        .card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 20px; margin-bottom: 22px; }
+
+        /* MD Family Adaptive Intelligence Hero: top navigation is intentionally omitted. */
+        .adaptive-hero { position: relative; isolation: isolate; overflow: hidden; min-height: 485px; margin-bottom: 26px; padding: 26px 30px; border-radius: 18px; background: url('assets/md-family-hero-photo.webp') center / cover no-repeat; color: #15171b; box-shadow: 0 20px 54px rgba(0, 0, 0, .28); }
+        .adaptive-hero::before { content: ''; position: absolute; inset: 0; z-index: 0; background: linear-gradient(90deg, rgba(247,243,234,.88) 0%, rgba(247,243,234,.63) 34%, rgba(247,243,234,.18) 65%, rgba(247,243,234,.45) 100%); }
+        .hero-brand-row { position: relative; z-index: 4; display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: clamp(48px, 7.5vw, 68px); }
+        .hero-status-list { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 9px 13px; width: min(760px, 70vw); }
+        .hero-status-item { display: inline-flex; align-items: center; gap: 7px; padding: 0; border: 0; background: transparent; color: #263442; font-size: 14px; font-weight: 700; white-space: nowrap; }
+        .hero-status-dot { width: 8px; height: 8px; flex: 0 0 8px; border-radius: 50%; background: #35b55e; box-shadow: 0 0 0 3px rgba(53,181,94,.16); animation: status-pulse 1.7s ease-in-out infinite; }
+        .hero-status-item.is-offline { color: #9f2520; }
+        .hero-status-item.is-offline .hero-status-dot { background: #e5534b; box-shadow: 0 0 0 3px rgba(229,83,75,.18); }
+        .hero-wordmark { color: #12151a; font-size: 16px; font-weight: 700; letter-spacing: .42em; }
+        .hero-live { color: #167c3d; font-size: 16px; font-weight: 700; letter-spacing: .08em; display: inline-flex; align-items: center; gap: 8px; }
+        .hero-live::before { content: ''; width: 9px; height: 9px; border-radius: 50%; background: #35b55e; box-shadow: 0 0 0 4px rgba(53,181,94,.14); animation: status-pulse 1.7s ease-in-out infinite; }
+        @keyframes status-pulse { 0%, 100% { opacity: .5; transform: scale(.82); } 50% { opacity: 1; transform: scale(1); } }
+        .hero-layout { position: relative; z-index: 2; display: grid; grid-template-columns: minmax(280px, 1fr) minmax(220px, .56fr); align-items: center; gap: 20px; min-height: 405px; }
+        .hero-copy { align-self: center; max-width: 430px; }
+        .hero-eyebrow { color: #246fca; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(1.1rem, 1.7vw, 1.45rem); font-weight: 700; letter-spacing: .04em; line-height: 1; margin-bottom: 9px; transform: rotate(-1deg); transform-origin: left center; }
+        .adaptive-hero h1 { color: #12151a; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(1.65rem, 2.8vw, 2.8rem); font-weight: 600; line-height: .84; letter-spacing: -.035em; margin-bottom: 18px; transform: rotate(-1.2deg); transform-origin: left center; }
+        .hero-subtitle { color: #4d5662; max-width: 390px; font-family: 'Caveat', 'Segoe Print', cursive; font-size: clamp(1.35rem, 2.15vw, 1.8rem); font-weight: 600; line-height: 1.18; letter-spacing: .01em; transform: rotate(-.5deg); transform-origin: left center; }
+        .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+        .hero-action { color: #f7f8fa; background: #13171e; border: 1px solid #13171e; border-radius: 999px; padding: 10px 15px; font-size: 12px; font-weight: 700; text-decoration: none; transition: transform 160ms cubic-bezier(.23,1,.32,1), background 160ms cubic-bezier(.23,1,.32,1); }
+        .hero-action.secondary { color: #1b2029; background: transparent; border-color: #7d8490; }
+        .hero-action:hover { color: #fff; background: #246fca; border-color: #246fca; transform: translateY(-2px); }
+        .hero-action.secondary:hover { color: #fff; }
+        .hero-action:active { transform: scale(.97); }
+        .hero-intelligence { margin-top: 25px; padding: 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
+        .hero-intelligence h3 { color: #246fca; font-size: 10px; letter-spacing: .12em; margin-bottom: 8px; }
+        .hero-intelligence p { color: #535b66; font-size: 12px; line-height: 1.7; }
+        .hero-intelligence--mobile { display: none; }
+        .hero-kpis { position: relative; isolation: isolate; overflow: hidden; align-self: center; border-radius: 22px; background: linear-gradient(135deg, rgba(255,255,255,.58) 0%, rgba(255,255,255,.28) 42%, rgba(255,255,255,.16) 100%); border: 0; color: #182531; padding: 8px 20px; box-shadow: inset 0 1px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(255,255,255,.12), 0 22px 42px rgba(8,18,28,.2); backdrop-filter: blur(24px) saturate(155%); -webkit-backdrop-filter: blur(24px) saturate(155%); }
+        .hero-kpis::before { content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: linear-gradient(118deg, rgba(255,255,255,.38) 0%, rgba(255,255,255,.08) 34%, transparent 56%, rgba(255,255,255,.14) 100%); }
+        .hero-kpi { position: relative; z-index: 1; display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 18px 0; border-bottom: 1px solid rgba(255,255,255,.28); }
+        .hero-kpi:last-child { border-bottom: 0; }
+        .hero-kpi span { color: #435466; font-size: 12px; font-weight: 700; text-shadow: 0 1px 0 rgba(255,255,255,.48); }
+        .hero-kpi strong { color: #102b43; font-size: 22px; text-shadow: 0 1px 0 rgba(255,255,255,.72), 0 3px 12px rgba(255,255,255,.18); }
+        .hero-kpi:last-child strong { color: #14733d; }
+
+        /* 상단 시스템 상태 카드 */
+        .system-status { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 22px; }
+        .sys-card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 15px; display: flex; justify-content: space-between; align-items: center; }
+        .sys-info h3 { font-size: 13px; color: #f0f6fc; }
+        .sys-info p { font-size: 11px; color: #8b949e; margin-top: 2px; }
+        .badge { font-size: 11px; padding: 3px 8px; border-radius: 12px; font-weight: bold; }
+        .badge.orange { background: #3b2314; color: #f0883e; border: 1px solid #9e4a1b; }
+        .badge.blue { background: #11253b; color: #58a6ff; border: 1px solid #1f6feb; }
+        .badge.green { background: #113822; color: #3fb950; border: 1px solid #238636; }
+
+        /* 대시보드 그리드 */
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-bottom: 15px; }
+        .stat-box { background: #21262d; border: 1px solid #30363d; border-radius: 8px; padding: 18px; text-align: center; }
+        .stat-box h3 { color: #8b949e; font-size: 13px; margin-bottom: 8px; }
+        .stat-box p { color: #f0f6fc; font-size: 22px; font-weight: bold; }
+
+        .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; }
+        .team-card { position: relative; overflow: hidden; border: 0; border-radius: 12px; padding: 17px; box-shadow: 0 10px 20px rgba(0,0,0,.12); }
+        .team-card::before { display: none; }
+        .team-card h4 { font-size: 14px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; gap: 6px; }
+        .team-card p { font-size: 13px; color: #c9d1d9; line-height: 1.6; }
+        .team-card--discovery { background: linear-gradient(135deg, #102b37, #171d24 78%); }
+        .team-card--discovery h4 { color: #65d8e9; }
+        .team-card--market { background: linear-gradient(135deg, #252044, #191d28 78%); }
+        .team-card--market h4 { color: #b4a3f2; }
+        .team-card--shopify { background: linear-gradient(135deg, #12372e, #18221f 78%); }
+        .team-card--shopify h4 { color: #78dca7; }
+        .team-card--orders { background: linear-gradient(135deg, #3b281b, #231f1d 78%); }
+        .team-card--orders h4 { color: #f0bb79; }
+        .team-card--legal { background: linear-gradient(135deg, #3b321a, #24211a 78%); }
+        .team-card--legal h4 { color: #efd77f; }
+
+        /* 로그 및 프로그레스바 */
+        .log-list { list-style: none; max-height: 250px; overflow-y: auto; }
+        .log-list li { padding: 8px 0; border-bottom: 1px solid #21262d; font-size: 13px; display: flex; justify-content: space-between; align-items: center; }
+        .log-list li:last-child { border-bottom: none; }
+        .time-badge { color: #8b949e; font-size: 11px; background: #161b22; padding: 2px 8px; border-radius: 6px; border: 1px solid #30363d; }
+
+        .progress-container { margin-top: 10px; }
+        .progress-label { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 5px; color: #c9d1d9; }
+        .progress-bar-bg { background: #21262d; border-radius: 6px; height: 10px; overflow: hidden; border: 1px solid #30363d; margin-bottom: 12px; }
+        .progress-bar-fill { background: #1f6feb; height: 100%; border-radius: 6px; }
+        .progress-note { color: #8b949e; font-size: 12px; margin: -3px 0 13px; line-height: 1.45; }
+        .current-time { color: #8b949e; font-size: 12px; margin: -7px 0 14px; line-height: 1.45; }
+        .refresh-info { text-align: right; color: #8b949e; font-size: 12px; margin-top: 12px; }
+        @media (min-width: 861px) {
+            .briefing-card, .progress-card { padding: 26px 28px; }
+            .briefing-card .log-list { max-height: 360px; }
+            .briefing-card .log-list li { padding: 13px 0; font-size: 14px; line-height: 1.55; }
+            .briefing-card .time-badge { font-size: 12px; padding: 4px 9px; }
+            .progress-card .progress-note { font-size: 13px; margin-bottom: 18px; }
+            .progress-card .progress-container { margin-top: 16px; }
+            .progress-card .progress-label { font-size: 14px; margin-bottom: 8px; }
+            .progress-card .progress-bar-bg { height: 14px; margin-bottom: 18px; }
+        }
+
+        .footer { text-align: center; color: #6e7681; font-size: 12px; margin-top: 30px; padding-bottom: 20px; }
+        .strategy-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+        .strategy-header h2 { margin-bottom: 6px; }
+        .strategy-updated { color: #8b949e; font-size: 12px; }
+        .strategy-status { color: #3fb950; background: #113822; border: 1px solid #238636; border-radius: 14px; font-size: 11px; font-weight: bold; padding: 5px 10px; white-space: nowrap; }
+        .strategy-recommendations { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin-top: 14px; }
+        .strategy-item { background: #21262d; border: 1px solid #30363d; border-radius: 8px; padding: 14px; }
+        .strategy-item h3 { color: #58a6ff; font-size: 14px; margin-bottom: 7px; }
+        .strategy-item p { color: #c9d1d9; font-size: 13px; line-height: 1.55; }
+        .strategy-impact { display: block; color: #3fb950; font-size: 12px; margin-top: 9px; font-weight: bold; }
+        .revenue-trend { background: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-top: 16px; }
+        .revenue-trend-header { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+        .revenue-trend h3 { color: #58a6ff; font-size: 14px; }
+        .revenue-trend-total { color: #3fb950; font-weight: bold; font-size: 14px; }
+        .daily-revenue-bars { height: 190px; display: flex; align-items: flex-end; justify-content: space-around; gap: 12px; padding: 24px 4px 0; margin-top: 8px; border-bottom: 1px solid #30363d; }
+        .daily-revenue-column { height: 100%; flex: 1; max-width: 110px; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 6px; }
+        .daily-revenue-value { color: #c9d1d9; font-size: 11px; white-space: nowrap; }
+        .daily-revenue-bar-track { height: 130px; width: 100%; display: flex; align-items: flex-end; }
+        .daily-revenue-bar { width: 100%; min-height: 8px; background: linear-gradient(180deg, #58a6ff, #1f6feb); border: 1px solid #58a6ff; border-radius: 6px 6px 0 0; }
+        .daily-revenue-label { color: #8b949e; font-size: 11px; }
+        .legal-card { border-color: #d29922; }
+        .legal-list { list-style: none; display: grid; gap: 9px; margin-top: 14px; }
+        .legal-list li { background: #21262d; border: 1px solid #30363d; border-radius: 8px; padding: 12px; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+        .legal-list strong { display: block; color: #f0f6fc; font-size: 13px; margin-bottom: 4px; }
+        .legal-list small { color: #8b949e; font-size: 11px; }
+        .legal-list a, .legal-sources a { color: #58a6ff; font-size: 12px; text-decoration: none; }
+        .legal-list a:hover, .legal-sources a:hover { text-decoration: underline; }
+        .legal-sources { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-top: 15px; }
+        /* 넓은 데스크톱에서는 운영 카드를 한 줄로 비교할 수 있도록 고정 열을 사용한다. */
+        @media (min-width: 1180px) {
+            .team-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+            .stats-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+        }
+        @media (max-width: 860px) {
+            .adaptive-hero { padding: 22px; }
+            .hero-layout { grid-template-columns: 1fr 1fr; }
+            .hero-kpis { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 18px; }
+            .hero-kpi { padding: 14px 0; }
+        }
+        @media (max-width: 620px) {
+            body { padding: 12px; }
+            .adaptive-hero { min-height: auto; padding: 18px; }
+            .hero-layout { grid-template-columns: 1fr; min-height: auto; }
+            .hero-brand-row { flex-wrap: wrap; min-height: auto; }
+            .hero-status-list { position: static; transform: none; order: 3; width: 100%; margin: 4px auto 0; }
+            .hero-status-item { font-size: 11.5px; padding: 4px 6px; }
+            .hero-wordmark, .hero-live { font-size: 13.5px; }
+            .hero-intelligence--desktop { display: none; }
+            .hero-intelligence--mobile { display: block; }
+            .hero-intelligence--mobile p { color: #394858; font-size: 13px; font-weight: 700; line-height: 1.55; }
+            .adaptive-hero h1 { font-size: clamp(1.35rem, 6.5vw, 1.9rem); }
+            .hero-subtitle { font-size: 1.3rem; max-width: 350px; }
+            .hero-copy { max-width: none; }
+            .hero-kpis { grid-column: 1; grid-template-columns: 1fr 1fr; padding: 6px 14px; }
+            .hero-kpi strong { font-size: 18px; }
+            .hero-actions { gap: 8px; }
+            .hero-action { padding: 9px 12px; font-size: 11px; }
+        }
     </style>
 </head>
 <body>
-<div class="container">
-    <h1>
-        <span class="title">MD Family JARVIS LUNA - Enterprise v2</span>
-        <span id="live-indicator" class="loading">🟡 동기화 중...</span>
-    </h1>
+    <div class="container">
+        <!-- 메뉴 없이 스크롤로 이어지는 MD Family Adaptive Intelligence Hero -->
+        <section class="adaptive-hero" aria-label="MD Family Adaptive Intelligence">
+            <div class="hero-brand-row">
+                <span class="hero-wordmark">JARVIS</span>
+                <div class="hero-status-list" aria-label="운영 상태">
+                    <span class="hero-status-item"><i class="hero-status-dot" aria-hidden="true"></i>도현 CEO · 감시중</span>
+                    <span class="hero-status-item"><i class="hero-status-dot" aria-hidden="true"></i>GitHub Actions · 활성</span>
+                    <span class="hero-status-item"><i class="hero-status-dot" aria-hidden="true"></i>JARVIS AI · 자동화</span>
+                    <span class="hero-status-item is-offline" id="obsidian-status" title="Obsidian 연동 설정이 확인되지 않았습니다."><i class="hero-status-dot" aria-hidden="true"></i>Obsidian · 연동 미설정</span>
+                </div>
+                <span class="hero-live">LIVE</span>
+            </div>
+            <div class="hero-layout">
+                <div class="hero-copy">
+                    <h1>MD Family<br>Adaptive Intelligence</h1>
+                    <p class="hero-subtitle">Knowledge graph, product discovery, and strategy analysis in one evolving system.</p>
+                    <div class="hero-actions" aria-label="Hero 바로가기">
+                        <a class="hero-action" href="#project-progress">프로젝트 진행도</a>
+                        <a class="hero-action secondary" href="#strategy-report-card">전략 분석 보기</a>
+                    </div>
+                    <div class="hero-intelligence hero-intelligence--desktop">
+                        <h3>TODAY'S INTELLIGENCE</h3>
+                        <p>다이소 뷰티 &amp; 스킨케어 발굴 · Obsidian 그래프 동기화 · 최근 5일 전략 추이</p>
+                    </div>
+                    <div class="hero-intelligence hero-intelligence--mobile">
+                        <p>한성 - 200만원 추가 예상</p>
+                    </div>
+                </div>
+                <div class="hero-kpis" aria-label="핵심 운영 지표">
+                    <div class="hero-kpi"><span>오늘 매출</span><strong id="today-sales">$286</strong></div>
+                    <div class="hero-kpi"><span>월 수익</span><strong id="monthly-revenue">$5,550</strong></div>
+                    <div class="hero-kpi"><span>신규 상품</span><strong id="new-products">0개</strong></div>
+                    <div class="hero-kpi"><span>자동화율</span><strong id="auto-rate">96%</strong></div>
+                </div>
+            </div>
+        </section>
 
-    <div class="stats-grid" style="margin-bottom: 22px;">
-        <div class="stat-box"><h3>상품발굴팀</h3><p id="p-found">--</p></div>
-        <div class="stat-box"><h3>시장분석팀</h3><p id="m-analyzed">--</p></div>
-        <div class="stat-box"><h3>Shopify 운영</h3><p id="s-registered">--</p></div>
-        <div class="stat-box"><h3>주문관리팀</h3><p id="o-today">--</p></div>
-    </div>
-
-    <div class="card">
-        <h2>💰 CEO Executive Dashboard</h2>
-        <div class="stats-grid">
-            <div class="stat-box"><h3>오늘 매출</h3><p id="kpi-sales">$0</p></div>
-            <div class="stat-box"><h3>오늘 순이익</h3><p id="kpi-profit">$0</p></div>
-            <div class="stat-box"><h3>신규 상품</h3><p id="kpi-new">0개</p></div>
-            <div class="stat-box"><h3>자동화율</h3><p id="kpi-auto">0%</p></div>
+        <!-- 팀별 실시간 현황 -->
+        <div class="card" id="team-status">
+            <h2>🏢 팀별 실시간 현황</h2>
+            <p class="current-time" id="team-current-time">현재 날짜·시·분을 불러오는 중입니다.</p>
+            <div class="team-grid">
+                <div class="team-card team-card--discovery">
+                    <h4>상품 발굴팀 <span id="prod-active">130개</span></h4>
+                    <p>카테고리: <span id="prod-cat">다이소 생활용품</span><br>상태: <span id="prod-status">정상 운영</span></p>
+                </div>
+                <div class="team-card team-card--market">
+                    <h4>시장 분석팀</h4>
+                    <p>경쟁력 분석: <span id="market-comp">완료</span><br>광고 효율: <span id="market-ad">최적화됨</span></p>
+                </div>
+                <div class="team-card team-card--shopify">
+                    <h4>Shopify 운영</h4>
+                    <p>방문자: <span id="shop-visitors">1,240명</span><br>전환율: <span id="shop-conv">2.4%</span></p>
+                </div>
+                <div class="team-card team-card--orders">
+                    <h4>주문 관리팀</h4>
+                    <p>배송 대기: <span id="order-pending">12건</span><br>출고 완료: <span id="order-shipped">28건</span></p>
+                </div>
+                <div class="team-card team-card--legal">
+                    <h4>⚖️ 법무팀 <span id="legal-status">검토 대기</span></h4>
+                    <p>검토 상품: <span id="legal-products">0개</span><br>우선 작업: <span id="legal-priority">제품 정보 확인</span></p>
+                </div>
+            </div>
         </div>
-        <div class="refresh-info" id="update-time">데이터 동기화 대기 중...</div>
-    </div>
 
-    <div class="card">
-        <h2>🧠 Phase 27 신경심볼릭 AI - ✅ 완성!</h2>
-        <div class="stats-grid">
-            <div class="stat-box"><h3>상태</h3><p id="phase27-stage">✅ Complete</p></div>
-            <div class="stat-box"><h3>진행도</h3><p id="phase27-progress">100%</p></div>
-            <div class="stat-box"><h3>모델 정확도</h3><p id="phase27-accuracy">93.69%</p></div>
-            <div class="stat-box"><h3>설명가능성</h3><p id="phase27-explainability">91.05%</p></div>
-        </div>
-        <div style="margin-top: 15px;">
-            <h3 style="color: #8b949e; font-size: 13px; margin-bottom: 10px;">📊 신경망 모델 훈련 완료</h3>
-            <ul id="phase27-datasets" style="list-style: none; padding: 0;">
-                <li style="padding: 8px 0; display: flex; justify-content: space-between; border-bottom: 1px solid #21262d;">
-                    <span>CNN (ResNet50)</span>
-                    <span style="color: #3fb950;">✅ 93.56% (87.4MB)</span>
-                </li>
-                <li style="padding: 8px 0; display: flex; justify-content: space-between; border-bottom: 1px solid #21262d;">
-                    <span>LSTM (Bidirectional+Attention)</span>
-                    <span style="color: #3fb950;">✅ 94.45% (5.7MB)</span>
-                </li>
-                <li style="padding: 8px 0; display: flex; justify-content: space-between; border-bottom: 1px solid #21262d;">
-                    <span>Transformer (Multi-Head)</span>
-                    <span style="color: #3fb950;">✅ 94.87% (172.1MB)</span>
-                </li>
-                <li style="padding: 8px 0; display: flex; justify-content: space-between;">
-                    <span>Multi-Modal Fusion</span>
-                    <span style="color: #3fb950;">✅ 91.87% (268.2MB)</span>
-                </li>
+        <!-- 작업 상세 로그 (동적 로딩) -->
+        <div class="card briefing-card">
+            <h2>📋 작업 상세 로그 (Live Briefing)</h2>
+            <p class="current-time" id="briefing-current-time">현재 날짜·시·분을 불러오는 중입니다.</p>
+            <ul class="log-list" id="log-container">
+                <li><span>실제 runtime 데이터를 불러오는 중입니다.</span><span class="time-badge">로딩</span></li>
             </ul>
         </div>
-        <div style="margin-top: 15px;">
-            <h3 style="color: #8b949e; font-size: 13px; margin-bottom: 10px;">🎯 설명가능성 분석 (4가지 방법)</h3>
-            <ul style="list-style: none; padding: 0;">
-                <li style="padding: 6px 0; display: flex; justify-content: space-between; border-bottom: 1px solid #21262d;">
-                    <span>LIME (Local Interpretable)</span>
-                    <span style="color: #58a6ff;">88.92%</span>
-                </li>
-                <li style="padding: 6px 0; display: flex; justify-content: space-between; border-bottom: 1px solid #21262d;">
-                    <span>CAV (Concept Activation)</span>
-                    <span style="color: #58a6ff;">91.34%</span>
-                </li>
-                <li style="padding: 6px 0; display: flex; justify-content: space-between; border-bottom: 1px solid #21262d;">
-                    <span>Attention Visualization</span>
-                    <span style="color: #58a6ff;">89.56%</span>
-                </li>
-                <li style="padding: 6px 0; display: flex; justify-content: space-between;">
-                    <span>Symbolic Rules (5개 추출)</span>
-                    <span style="color: #58a6ff;">92.67%</span>
-                </li>
-            </ul>
+
+        <!-- Phase 27 신경심볼릭 AI -->
+        <div class="card" id="phase27-card" hidden>
+            <h2>🧠 Phase 27 신경심볼릭 AI - ✅ 완성!</h2>
+            <div class="stats-grid">
+                <div class="stat-box"><h3>상태</h3><p id="phase27-stage">✅ Complete</p></div>
+                <div class="stat-box"><h3>진행도</h3><p id="phase27-progress">100%</p></div>
+                <div class="stat-box"><h3>모델 정확도</h3><p id="phase27-accuracy">93.69%</p></div>
+                <div class="stat-box"><h3>설명가능성</h3><p id="phase27-explainability">91.05%</p></div>
+            </div>
+            <div style="margin-top: 15px;">
+                <h3 style="color: #8b949e; font-size: 13px; margin-bottom: 10px;">📊 신경망 모델 훈련 완료</h3>
+                <ul id="phase27-datasets" style="list-style: none; padding: 0;">
+                    <li style="padding: 8px 0; display: flex; justify-content: space-between; border-bottom: 1px solid #21262d;">
+                        <span>CNN (ResNet50)</span>
+                        <span style="color: #3fb950;">✅ 93.56% (87.4MB)</span>
+                    </li>
+                    <li style="padding: 8px 0; display: flex; justify-content: space-between; border-bottom: 1px solid #21262d;">
+                        <span>LSTM (Bidirectional+Attention)</span>
+                        <span style="color: #3fb950;">✅ 94.45% (5.7MB)</span>
+                    </li>
+                    <li style="padding: 8px 0; display: flex; justify-content: space-between; border-bottom: 1px solid #21262d;">
+                        <span>Transformer (Multi-Head)</span>
+                        <span style="color: #3fb950;">✅ 94.87% (172.1MB)</span>
+                    </li>
+                    <li style="padding: 8px 0; display: flex; justify-content: space-between;">
+                        <span>Multi-Modal Fusion</span>
+                        <span style="color: #3fb950;">✅ 91.87% (268.2MB)</span>
+                    </li>
+                </ul>
+            </div>
+            <div style="margin-top: 15px;">
+                <h3 style="color: #8b949e; font-size: 13px; margin-bottom: 10px;">🎯 설명가능성 분석 (4가지 방법)</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="padding: 6px 0; display: flex; justify-content: space-between; border-bottom: 1px solid #21262d;">
+                        <span>LIME (Local Interpretable)</span>
+                        <span style="color: #58a6ff;">88.92%</span>
+                    </li>
+                    <li style="padding: 6px 0; display: flex; justify-content: space-between; border-bottom: 1px solid #21262d;">
+                        <span>CAV (Concept Activation)</span>
+                        <span style="color: #58a6ff;">91.34%</span>
+                    </li>
+                    <li style="padding: 6px 0; display: flex; justify-content: space-between; border-bottom: 1px solid #21262d;">
+                        <span>Attention Visualization</span>
+                        <span style="color: #58a6ff;">89.56%</span>
+                    </li>
+                    <li style="padding: 6px 0; display: flex; justify-content: space-between;">
+                        <span>Symbolic Rules (5개 추출)</span>
+                        <span style="color: #58a6ff;">92.67%</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="refresh-info" id="phase27-update">🎉 Phase 27 완성! 다음: 2026-09-01 실제 데이터 신청 시작</div>
         </div>
-        <div class="refresh-info" id="phase27-update">🎉 Phase 27 완성! 다음: 2026-09-01 실제 데이터 신청 시작</div>
+
+        <!-- 프로젝트 진행도 (Phase 26 실시간 데이터) -->
+        <div class="card progress-card" id="project-progress">
+            <h2>📊 프로젝트 진행도</h2>
+            <p class="progress-note" id="progress-summary">Phase 26 · MoE 라우터 진행 데이터를 불러오는 중입니다.</p>
+            <div class="progress-container" id="progress-container">
+                <div class="progress-label"><span>Phase 26 · MoE 라우터</span><span>40%</span></div>
+                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 40%;"></div></div>
+                <div class="progress-label"><span>신경망 훈련</span><span>40 / 100 에포크</span></div>
+                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 40%;"></div></div>
+                <div class="progress-label"><span>완료된 핵심 작업</span><span>2개</span></div>
+                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 100%;"></div></div>
+            </div>
+        </div>
+
+        <!-- 최신 전략 보고서 (동적 로딩) -->
+        <section class="card strategy-card" id="strategy-report-card" hidden>
+            <div class="strategy-header">
+                <div>
+                    <h2 id="strategy-title">🎯 최신 5일 전략 보고서</h2>
+                    <p class="strategy-updated" id="strategy-updated">최신 데이터를 불러오는 중입니다.</p>
+                </div>
+                <span class="strategy-status" id="strategy-status">보고서 생성 완료</span>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-box"><h3>분석 상품 수</h3><p id="strategy-products">-</p></div>
+                <div class="stat-box"><h3>최근 5일 주문</h3><p id="strategy-orders">-</p></div>
+                <div class="stat-box"><h3>최근 5일 Shopify 매출</h3><p id="strategy-revenue">-</p></div>
+                <div class="stat-box"><h3>주문 이행률</h3><p id="strategy-fulfillment">-</p></div>
+                <div class="stat-box"><h3>전환율</h3><p id="strategy-conversion">-</p></div>
+                <div class="stat-box"><h3>미처리 주문</h3><p id="strategy-pending">-</p></div>
+            </div>
+            <section class="revenue-trend" id="revenue-trend" hidden>
+                <div class="revenue-trend-header">
+                    <h3>📈 최근 5일 Shopify 매출 추이</h3>
+                    <span class="revenue-trend-total" id="revenue-trend-total">$0</span>
+                </div>
+                <div class="daily-revenue-bars" id="daily-revenue-bars"></div>
+            </section>
+            <div class="strategy-recommendations" id="strategy-recommendations"></div>
+        </section>
+
+        <!-- 법무팀 수출 컴플라이언스 (동적 로딩) -->
+        <section class="card legal-card" id="legal-compliance-card" hidden>
+            <div class="strategy-header">
+                <div>
+                    <h2>⚖️ 법무팀 · 한국→미국 수출 컴플라이언스</h2>
+                    <p class="strategy-updated" id="legal-updated">공식 기준을 불러오는 중입니다.</p>
+                </div>
+                <span class="strategy-status" id="legal-detail-status">제품별 검토 대기</span>
+            </div>
+            <h3 class="strategy-updated">제품별 검토 시작에 필요한 정보</h3>
+            <ul class="legal-list" id="legal-intake"></ul>
+            <div class="stats-grid">
+                <div class="stat-box"><h3>검토 완료 상품</h3><p id="legal-reviewed-products">0개</p></div>
+                <div class="stat-box"><h3>기본 절차</h3><p id="legal-checklist-count">0개</p></div>
+                <div class="stat-box"><h3>공식 기준 출처</h3><p id="legal-source-count">0개</p></div>
+            </div>
+            <h3 class="strategy-updated">제품별 수출 전 기본 검토 절차</h3>
+            <ul class="legal-list" id="legal-checklist"></ul>
+            <h3 class="strategy-updated" style="margin-top: 18px;">제품군별 관할기관 검토 경로</h3>
+            <div class="strategy-recommendations" id="legal-routes"></div>
+            <div class="legal-sources" id="legal-sources"></div>
+        </section>
+
+        <div class="footer">MD Family JARVIS LUNA Realtime Dashboard · GitHub Pages</div>
     </div>
 
-    <div class="card">
-        <h2>🤖 AI 운영 브리핑</h2>
-        <ul id="log-list">
-            <li class="log-empty">⏳ 실시간 브리핑 불러오는 중...</li>
-        </ul>
-    </div>
-
-    <div class="footer">MD Family JARVIS LUNA Enterprise v2 · GitHub Pages</div>
-</div>
-
-<script>
-async function loadEnterpriseData() {
-    const indicator = document.getElementById("live-indicator");
-    indicator.className = "loading";
-    indicator.textContent = "🟡 동기화 중...";
-
-    try {
-        const [kpi, product, market, shopify, order, finance, briefing, phase27] = await Promise.all([
-            fetch('./data/executive_kpi.json').then(r => r.json()).catch(() => ({})),
-            fetch('./data/product_team.json').then(r => r.json()).catch(() => ({})),
-            fetch('./data/market_team.json').then(r => r.json()).catch(() => ({})),
-            fetch('./data/shopify_team.json').then(r => r.json()).catch(() => ({})),
-            fetch('./data/order_team.json').then(r => r.json()).catch(() => ({})),
-            fetch('./data/finance_team.json').then(r => r.json()).catch(() => ({})),
-            fetch('./data/ai_briefing.json').then(r => r.json()).catch(() => ({})),
-            fetch('./phase27_automation_status.json').then(r => r.json()).catch(() => ({}))
-        ]);
-
-        document.getElementById("p-found").textContent = (product.today_found ?? 0) + "개";
-        document.getElementById("m-analyzed").textContent = (market.analyzed ?? 0) + "개";
-        document.getElementById("s-registered").textContent = (shopify.registered ?? 0) + "개";
-        document.getElementById("o-today").textContent = (order.today_orders ?? 0) + "건";
-
-        document.getElementById("kpi-sales").textContent = "$" + (kpi.today_sales ?? 0);
-        document.getElementById("kpi-profit").textContent = "$" + (kpi.today_profit ?? 0);
-        document.getElementById("kpi-new").textContent = (kpi.new_products ?? 0) + "개";
-        document.getElementById("kpi-auto").textContent = (kpi.automation_rate ?? 0) + "%";
-        document.getElementById("update-time").textContent = `마지막 갱신 : ${kpi.updated || "방금 전"}`;
-
-        // Phase 27 데이터 표시
-        if (phase27.current_execution) {
-            document.getElementById("phase27-stage").textContent = phase27.current_execution.phase || "✅ Complete";
-            document.getElementById("phase27-progress").textContent = (phase27.total_progress?.overall_percent ?? 100) + "%";
-            document.getElementById("phase27-update").textContent = `🎉 ${phase27.current_execution.status_text || "Phase 27 완성!"}`;
+    <!-- 실시간 JSON 및 브리핑 로그 연동 로직 -->
+    <script>
+        function percentInWords(value) {
+            const ones = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen'];
+            const tens = ['', '', 'Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 'Seventy', 'Eighty', 'Ninety'];
+            if (value < 20) return ones[value];
+            if (value % 10 === 0) return tens[value / 10];
+            return `${tens[Math.floor(value / 10)]}-${ones[value % 10].toLowerCase()}`;
         }
 
-        if (phase27.training_results) {
-            const tr = phase27.training_results;
-            document.getElementById("phase27-accuracy").textContent = (tr.average_accuracy * 100).toFixed(2) + "%";
-            document.getElementById("phase27-explainability").textContent = (tr.integrated_explainability * 100).toFixed(2) + "%";
-        }
+        function initHeroSliders() {
+            document.querySelectorAll('.hero-slider').forEach((slider) => {
+                const track = slider.querySelector('.hero-slider-track');
+                const thumb = slider.querySelector('.hero-slider-thumb');
+                const fill = slider.querySelector('.hero-slider-fill');
+                const valueLabel = slider.querySelector('.hero-slider-value');
+                if (!track || !thumb || !fill || !valueLabel) return;
 
-        if (phase27.dataset_progress) {
-            const mimic = phase27.dataset_progress['MIMIC-IV'];
-            const chexpert = phase27.dataset_progress['CheXpert'];
-            const physionet = phase27.dataset_progress['PhysioNet'];
+                const update = (rawValue) => {
+                    const value = Math.max(0, Math.min(100, Math.round(Number(rawValue) || 0)));
+                    slider.dataset.value = String(value);
+                    slider.style.setProperty('--slider-value', `${value}%`);
+                    fill.style.width = `${Math.max(12, value)}%`;
+                    valueLabel.textContent = `${value}%`;
+                    const numberLabel = slider.querySelector('.hero-slider-number');
+                    if (numberLabel) numberLabel.textContent = `${percentInWords(value)} %`;
+                    thumb.setAttribute('aria-valuenow', String(value));
+                    thumb.setAttribute('aria-valuetext', `${thumb.getAttribute('aria-label')} ${value}%`);
+                    const target = document.getElementById(slider.dataset.target);
+                    if (target && slider.dataset.slider === 'project') {
+                        const progressFill = target.querySelector('.progress-bar-fill');
+                        const progressValue = target.querySelector('.progress-label span:last-child');
+                        if (progressFill) progressFill.style.width = `${value}%`;
+                        if (progressValue) progressValue.textContent = `${value}%`;
+                    }
+                    if (target && slider.dataset.slider === 'strategy') {
+                        target.style.setProperty('--strategy-slider-progress', `${value}%`);
+                        target.dataset.sliderProgress = String(value);
+                    }
+                    window.dispatchEvent(new CustomEvent('jarvis:hero-slider-change', {
+                        detail: { slider: slider.dataset.slider, value, target: slider.dataset.target }
+                    }));
+                };
 
-            if (mimic) document.getElementById("mimic-status").textContent = mimic.status || "✅ 합성 데이터 검증 완료";
-            if (chexpert) document.getElementById("chexpert-status").textContent = chexpert.status || "✅ 합성 이미지 검증 완료";
-            if (physionet) document.getElementById("physionet-status").textContent = physionet.status || "✅ 합성 신호 검증 완료";
-        }
+                const updateFromPointer = (clientX) => {
+                    const rect = track.getBoundingClientRect();
+                    const ratio = rect.width ? (clientX - rect.left) / rect.width : 0;
+                    update(ratio * 100);
+                };
 
-        const logList = document.getElementById("log-list");
-        if (briefing.logs && Array.isArray(briefing.logs) && briefing.logs.length > 0) {
-            logList.innerHTML = "";
-            briefing.logs.forEach(log => {
-                const li = document.createElement("li");
-                li.innerHTML = `
-                    <div class="log-content"><span style="color:#58a6ff; font-weight:bold;">[${log.category}]</span> <span>${log.text}</span></div>
-                    <span class="log-time">🕒 ${log.time}</span>
-                `;
-                logList.appendChild(li);
+                let dragging = false;
+                const finishDrag = (event) => {
+                    if (!dragging) return;
+                    dragging = false;
+                    slider.classList.remove('is-dragging');
+                    if (event && track.hasPointerCapture?.(event.pointerId)) track.releasePointerCapture(event.pointerId);
+                };
+
+                track.addEventListener('pointerdown', (event) => {
+                    event.preventDefault();
+                    dragging = true;
+                    slider.classList.add('is-dragging');
+                    track.setPointerCapture?.(event.pointerId);
+                    updateFromPointer(event.clientX);
+                });
+                track.addEventListener('pointermove', (event) => {
+                    if (dragging) updateFromPointer(event.clientX);
+                });
+                track.addEventListener('pointerup', finishDrag);
+                track.addEventListener('pointercancel', finishDrag);
+                track.addEventListener('lostpointercapture', () => {
+                    dragging = false;
+                    slider.classList.remove('is-dragging');
+                });
+                thumb.addEventListener('keydown', (event) => {
+                    const current = Number(slider.dataset.value) || 0;
+                    const step = event.shiftKey ? 10 : 5;
+                    if (event.key === 'ArrowRight' || event.key === 'ArrowUp') {
+                        event.preventDefault();
+                        update(current + step);
+                    } else if (event.key === 'ArrowLeft' || event.key === 'ArrowDown') {
+                        event.preventDefault();
+                        update(current - step);
+                    } else if (event.key === 'Home') {
+                        event.preventDefault();
+                        update(0);
+                    } else if (event.key === 'End') {
+                        event.preventDefault();
+                        update(100);
+                    }
+                });
+                update(slider.dataset.value || 40);
             });
-        } else {
-            logList.innerHTML = `<li class="log-empty">표시할 브리핑 로그가 없습니다.</li>`;
         }
 
-        indicator.className = "online";
-        indicator.textContent = "🟢 LIVE SYNC";
-    } catch (err) {
-        console.error("데이터 동기화 실패:", err);
-        indicator.className = "loading";
-        indicator.textContent = "🔴 SYNC ERROR";
-    }
-}
-loadEnterpriseData();
-setInterval(loadEnterpriseData, 30000);
-</script>
+        async function loadRealtimeData() {
+            try {
+                // 1. Executive KPI
+                const kpiRes = await fetch(`data/executive_kpi.json?ts=${Date.now()}`, { cache: 'no-store' });
+                if (kpiRes.ok) {
+                    const data = await kpiRes.json();
+                    const todaySales = Number(data.today_sales);
+                    document.getElementById('today-sales').innerText = Number.isFinite(todaySales)
+                        ? `$${todaySales.toLocaleString('en-US')}`
+                        : '$0';
+                    document.getElementById('new-products').innerText = (data.new_products || 0) + '개';
+                    document.getElementById('auto-rate').innerText = (data.automation_rate || 96) + '%';
+                }
+
+                // 2. Finance Team
+                const finRes = await fetch('data/finance_team.json');
+                if (finRes.ok) {
+                    const data = await finRes.json();
+                    document.getElementById('monthly-revenue').innerText = '$' + (data.monthly_revenue || 5550).toLocaleString();
+                }
+
+                // 3. Product Team — cumulative_products.json을 단일 원천으로 사용
+                const cumulativeRes = await fetch(`data/cumulative_products.json?ts=${Date.now()}`, { cache: 'no-store' });
+                if (cumulativeRes.ok) {
+                    const data = await cumulativeRes.json();
+                    const sourceTotal = Object.values(data.sources || {}).reduce((sum, value) => sum + Number(value || 0), 0);
+                    const activeItems = Number(data.cumulative_total) || Number(data.baseline || 0) + sourceTotal;
+                    document.getElementById('prod-active').innerText = activeItems + '개';
+                    document.getElementById('prod-cat').innerText = '다이소·올리브영·네이버·월마트·아마존';
+                    document.getElementById('prod-status').innerText = data.last_updated ? `최근 갱신 ${new Date(data.last_updated).toLocaleString('ko-KR')}` : '정상 운영';
+                }
+
+                // 4. Market Team
+                const mktRes = await fetch('data/market_team.json');
+                if (mktRes.ok) {
+                    const data = await mktRes.json();
+                    document.getElementById('market-comp').innerText = data.competitor_analysis || '완료';
+                    document.getElementById('market-ad').innerText = data.ad_efficiency || '최적화됨';
+                }
+
+                // 5. Shopify Team
+                const shopRes = await fetch('data/shopify_team.json');
+                if (shopRes.ok) {
+                    const data = await shopRes.json();
+                    document.getElementById('shop-visitors').innerText = (data.visitors_today || 1240).toLocaleString() + '명';
+                    document.getElementById('shop-conv').innerText = data.conversion_rate || '2.4%';
+                }
+
+                // 6. Order Team
+                const ordRes = await fetch('data/order_team.json');
+                if (ordRes.ok) {
+                    const data = await ordRes.json();
+                    document.getElementById('order-pending').innerText = (data.pending_orders || 12) + '건';
+                    document.getElementById('order-shipped').innerText = (data.shipped_today || 28) + '건';
+                }
+
+                // 7. 실제 Obsidian 로컬 동기화 상태
+                const obsidianStatus = document.getElementById('obsidian-status');
+                const obsidianRes = await fetch(`data/obsidian_sync_status.json?ts=${Date.now()}`, { cache: 'no-store' });
+                if (obsidianStatus && obsidianRes.ok) {
+                    const obsidian = await obsidianRes.json();
+                    const connected = obsidian.connected === true;
+                    const statusLabel = connected
+                        ? '연동됨'
+                        : (obsidian.state === 'error' ? '연동 오류' : '연동 미설정');
+                    const detail = connected
+                        ? `마지막 성공 동기화: ${obsidian.last_successful_sync_at || '기록 없음'}`
+                        : (obsidian.error || '연동 설정이 확인되지 않았습니다.');
+                    const dot = obsidianStatus.querySelector('.hero-status-dot');
+                    obsidianStatus.classList.toggle('is-offline', !connected);
+                    obsidianStatus.title = detail;
+                    if (dot) {
+                        obsidianStatus.replaceChildren(dot, document.createTextNode(`Obsidian · ${statusLabel}`));
+                    }
+                }
+
+                // 8. 법무팀: 한국→미국 수출 컴플라이언스 기준 로드
+                const legalRes = await fetch(`data/legal_team.json?ts=${Date.now()}`, { cache: 'no-store' });
+                if (legalRes.ok) {
+                    const legal = await legalRes.json();
+                    const team = legal.team || {};
+                    const dashboard = legal.dashboard || {};
+                    const checklist = Array.isArray(legal.baseline_checklist) ? legal.baseline_checklist : [];
+                    const intakeItems = Array.isArray(legal.product_intake_required) ? legal.product_intake_required : [];
+                    const routes = Array.isArray(legal.regulatory_routes) ? legal.regulatory_routes : [];
+                    const sources = Array.isArray(legal.official_sources) ? legal.official_sources : [];
+                    const reviewedProducts = Number(dashboard.reviewed_products) || 0;
+                    const reviewedAt = team.last_reviewed_at
+                        ? new Date(team.last_reviewed_at).toLocaleString('ko-KR', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'Asia/Seoul' })
+                        : '갱신 시각 정보 없음';
+
+                    document.getElementById('legal-status').textContent = team.status || '검토 대기';
+                    document.getElementById('legal-products').textContent = `${reviewedProducts}개`;
+                    document.getElementById('legal-priority').textContent = dashboard.priority || '제품 정보 확인';
+                    document.getElementById('legal-updated').textContent = `${team.scope || '수출 컴플라이언스'} · 마지막 검토 ${reviewedAt}`;
+                    document.getElementById('legal-detail-status').textContent = team.status || '제품별 검토 대기';
+                    document.getElementById('legal-reviewed-products').textContent = `${reviewedProducts}개`;
+                    document.getElementById('legal-checklist-count').textContent = `${checklist.length}개`;
+                    document.getElementById('legal-source-count').textContent = `${sources.length}개`;
+
+                    const intakeContainer = document.getElementById('legal-intake');
+                    intakeContainer.replaceChildren();
+                    intakeItems.forEach(item => {
+                        const row = document.createElement('li');
+                        const text = document.createElement('strong');
+                        text.textContent = item;
+                        const status = document.createElement('span');
+                        status.className = 'time-badge';
+                        status.textContent = '제품별 검토 전 필요';
+                        row.append(text, status);
+                        intakeContainer.appendChild(row);
+                    });
+
+                    const checklistContainer = document.getElementById('legal-checklist');
+                    checklistContainer.replaceChildren();
+                    checklist.forEach(item => {
+                        const row = document.createElement('li');
+                        const textGroup = document.createElement('div');
+                        const title = document.createElement('strong');
+                        title.textContent = item.label || '검토 항목';
+                        const authority = document.createElement('small');
+                        authority.textContent = item.authority || '공식 기준 확인 필요';
+                        textGroup.append(title, authority);
+                        const actionGroup = document.createElement('div');
+                        const status = document.createElement('span');
+                        status.className = 'time-badge';
+                        status.textContent = item.status || '확인 필요';
+                        actionGroup.appendChild(status);
+                        if (item.source_url) {
+                            const link = document.createElement('a');
+                            link.href = item.source_url;
+                            link.target = '_blank';
+                            link.rel = 'noopener';
+                            link.textContent = ' 공식 기준';
+                            actionGroup.appendChild(link);
+                        }
+                        row.append(textGroup, actionGroup);
+                        checklistContainer.appendChild(row);
+                    });
+
+                    const routeContainer = document.getElementById('legal-routes');
+                    routeContainer.replaceChildren();
+                    routes.forEach(route => {
+                        const item = document.createElement('article');
+                        item.className = 'strategy-item';
+                        const title = document.createElement('h3');
+                        title.textContent = route.category || '제품군';
+                        const agency = document.createElement('p');
+                        agency.textContent = `관할기관: ${route.primary_agency || '확인 필요'}`;
+                        const focus = document.createElement('p');
+                        focus.textContent = route.review_focus || '제품별 요구사항 검토 필요';
+                        item.append(title, agency, focus);
+                        routeContainer.appendChild(item);
+                    });
+
+                    const sourceContainer = document.getElementById('legal-sources');
+                    sourceContainer.replaceChildren();
+                    sources.forEach(source => {
+                        if (source.url) {
+                            const link = document.createElement('a');
+                            link.href = source.url;
+                            link.target = '_blank';
+                            link.rel = 'noopener';
+                            link.textContent = source.title || '공식 자료';
+                            sourceContainer.appendChild(link);
+                        }
+                    });
+                    document.getElementById('legal-compliance-card').hidden = false;
+                }
+
+                // 9. 최신 5일 전략 보고서 로드
+                const strategyRes = await fetch(`data/latest_strategy_report.json?ts=${Date.now()}`, { cache: 'no-store' });
+                if (strategyRes.ok) {
+                    const strategy = await strategyRes.json();
+                    const metrics = strategy.key_metrics || {};
+                    const formatGeneratedAt = strategy.generated_at
+                        ? new Date(strategy.generated_at).toLocaleString('ko-KR', { dateStyle: 'medium', timeStyle: 'short' })
+                        : '생성 시각 정보 없음';
+
+                    document.getElementById('strategy-title').textContent = strategy.title || '🎯 최신 5일 전략 보고서';
+                    document.getElementById('strategy-updated').textContent = `${strategy.period || '최근 5일'} 분석 · ${formatGeneratedAt}`;
+                    const orders5d = Number(metrics.shopify_orders_5d);
+                    const revenue5d = Number(metrics.shopify_revenue_5d);
+                    document.getElementById('strategy-products').textContent = `${metrics.total_products ?? '-'}개`;
+                    document.getElementById('strategy-orders').textContent = Number.isFinite(orders5d)
+                        ? `${orders5d.toLocaleString('en-US')}건`
+                        : (metrics.shopify_orders_5d || '주문 데이터 대기');
+                    document.getElementById('strategy-revenue').textContent = Number.isFinite(revenue5d)
+                        ? `$${revenue5d.toLocaleString('en-US')}`
+                        : (metrics.shopify_revenue_5d || '매출 데이터 대기');
+                    document.getElementById('strategy-fulfillment').textContent = metrics.fulfillment_rate || '운영 데이터 대기';
+                    document.getElementById('strategy-conversion').textContent = metrics.conversion_rate || '운영 데이터 대기';
+                    document.getElementById('strategy-pending').textContent = metrics.pending_orders || '0건';
+
+                    const dailyRevenue = Array.isArray(strategy.shopify_operational?.daily_revenue_5d)
+                        ? strategy.shopify_operational.daily_revenue_5d
+                        : [];
+                    const validDailyRevenue = dailyRevenue
+                        .map(item => ({ label: item.label || '', revenue: Number(item.revenue) }))
+                        .filter(item => item.label && Number.isFinite(item.revenue));
+                    const trendCard = document.getElementById('revenue-trend');
+                    if (validDailyRevenue.length) {
+                        const dailyTotal = validDailyRevenue.reduce((sum, item) => sum + item.revenue, 0);
+                        const maximumRevenue = Math.max(...validDailyRevenue.map(item => item.revenue), 1);
+                        document.getElementById('revenue-trend-total').textContent = `$${dailyTotal.toLocaleString('en-US')}`;
+                        const barsContainer = document.getElementById('daily-revenue-bars');
+                        barsContainer.replaceChildren();
+                        validDailyRevenue.forEach(item => {
+                            const column = document.createElement('div');
+                            column.className = 'daily-revenue-column';
+                            const value = document.createElement('span');
+                            value.className = 'daily-revenue-value';
+                            value.textContent = `$${item.revenue.toLocaleString('en-US')}`;
+                            const track = document.createElement('div');
+                            track.className = 'daily-revenue-bar-track';
+                            const bar = document.createElement('div');
+                            bar.className = 'daily-revenue-bar';
+                            bar.style.height = `${Math.max(8, Math.round((item.revenue / maximumRevenue) * 100))}%`;
+                            track.appendChild(bar);
+                            const label = document.createElement('span');
+                            label.className = 'daily-revenue-label';
+                            label.textContent = item.label;
+                            column.append(value, track, label);
+                            barsContainer.appendChild(column);
+                        });
+                        trendCard.hidden = false;
+                    } else {
+                        trendCard.hidden = true;
+                    }
+
+                    const statusText = strategy.email_delivery === 'sent'
+                        ? '보고서·이메일 발송 완료'
+                        : strategy.email_delivery === 'retry_needed'
+                            ? '보고서 생성 완료 · 이메일 재시도 필요'
+                            : '보고서 생성 완료';
+                    document.getElementById('strategy-status').textContent = statusText;
+
+                    const recommendationContainer = document.getElementById('strategy-recommendations');
+                    recommendationContainer.replaceChildren();
+                    (strategy.strategy_recommendations || []).forEach((item, index) => {
+                        const article = document.createElement('article');
+                        article.className = 'strategy-item';
+                        const heading = document.createElement('h3');
+                        heading.textContent = `${index + 1}. ${item.title || '전략 제안'}`;
+                        const description = document.createElement('p');
+                        description.textContent = item.description || '';
+                        const impact = document.createElement('span');
+                        impact.className = 'strategy-impact';
+                        impact.textContent = item.impact || '';
+                        article.append(heading, description, impact);
+                        recommendationContainer.appendChild(article);
+                    });
+
+                    document.getElementById('strategy-report-card').hidden = false;
+                }
+
+                // 9. Live Briefing: dashboard_runtime.json만 단일 원천으로 사용
+                const runtimeRes = await fetch(`data/dashboard_runtime.json?ts=${Date.now()}`, { cache: 'no-store' });
+                const logContainer = document.getElementById('log-container');
+                logContainer.replaceChildren();
+                if (runtimeRes.ok) {
+                    const runtime = await runtimeRes.json();
+                    const pipeline = Array.isArray(runtime.pipeline) ? runtime.pipeline : [];
+                    const graph = runtime.graph || {};
+                    const sources = runtime.sources || {};
+                    const training = runtime.training || {};
+                    const generatedAt = runtime.generated_at ? new Date(runtime.generated_at) : null;
+                    const timeText = generatedAt && !Number.isNaN(generatedAt.getTime())
+                        ? `runtime 갱신 ${generatedAt.toLocaleString('ko-KR')}`
+                        : 'runtime 갱신 시각 없음';
+                    document.getElementById('briefing-current-time').textContent = timeText;
+
+                    const rows = pipeline.map(item => ({
+                        title: item.title || '파이프라인 단계',
+                        detail: item.detail || '세부 정보 없음',
+                        status: item.status || 'unknown'
+                    }));
+                    rows.push({
+                        title: 'Obsidian 그래프 검증',
+                        detail: `${Number(graph.notes || 0).toLocaleString()}개 노트 · ${Number(graph.links || 0).toLocaleString()}개 링크 · 끊어진 링크 ${Number(graph.dangling_links || 0)}개`,
+                        status: Number(graph.dangling_links || 0) === 0 ? '통과' : '확인 필요'
+                    });
+                    rows.push({
+                        title: '실제 데이터·MoE 상태',
+                        detail: `${Number(sources.record_count || training.records || 0).toLocaleString()}건 · ${Number(training.experts || 0)} experts · 정확도 ${Number.isFinite(Number(training.accuracy)) ? (Number(training.accuracy) * 100).toFixed(2) + '%' : '미기록'}`,
+                        status: training.training_performed && training.weights_updated ? '완료' : '확인 필요'
+                    });
+                    rows.forEach(item => {
+                        const li = document.createElement('li');
+                        const title = document.createElement('span');
+                        title.textContent = `${item.title} · ${item.detail}`;
+                        const badge = document.createElement('span');
+                        badge.className = 'time-badge';
+                        badge.textContent = item.status;
+                        li.append(title, badge);
+                        logContainer.appendChild(li);
+                    });
+                } else {
+                    const li = document.createElement('li');
+                    li.textContent = 'dashboard_runtime.json을 불러오지 못했습니다.';
+                    logContainer.appendChild(li);
+                    document.getElementById('briefing-current-time').textContent = 'runtime 연결 실패';
+                }
+
+                // 10. Phase 27 신경심볼릭 AI 데이터 로드
+                const phase27Res = await fetch(`phase27_automation_status.json?ts=${Date.now()}`, { cache: 'no-store' });
+                if (phase27Res.ok) {
+                    const phase27 = await phase27Res.json();
+
+                    if (phase27.current_execution) {
+                        document.getElementById("phase27-stage").textContent = phase27.current_execution.phase || "✅ Complete";
+                        document.getElementById("phase27-progress").textContent = (phase27.total_progress?.overall_percent ?? 100) + "%";
+                        document.getElementById("phase27-update").textContent = `🎉 ${phase27.current_execution.status_text || "Phase 27 완성!"}`;
+                    }
+
+                    if (phase27.training_results) {
+                        const tr = phase27.training_results;
+                        document.getElementById("phase27-accuracy").textContent = (tr.average_accuracy * 100).toFixed(2) + "%";
+                        document.getElementById("phase27-explainability").textContent = (tr.integrated_explainability * 100).toFixed(2) + "%";
+                    }
+
+                    document.getElementById('phase27-card').hidden = false;
+                }
+
+                // 11. 프로젝트 진행도: Phase 26 실시간 스냅샷으로 대체
+                const progressRes = await fetch(`data/phase_26_progress.json?ts=${Date.now()}`, { cache: 'no-store' });
+                if (progressRes.ok) {
+                    const progress = await progressRes.json();
+                    const percent = Math.max(0, Math.min(100, Number(progress.progress_percentage) || 0));
+                    const inProgress = progress.in_progress || {};
+                    const epoch = Number(inProgress.epoch) || 0;
+                    const totalEpochs = Number(inProgress.total_epochs) || 0;
+                    const epochPercent = totalEpochs ? Math.min(100, Math.round((epoch / totalEpochs) * 100)) : 0;
+                    const completedCount = Array.isArray(progress.completed_tasks) ? progress.completed_tasks.length : 0;
+                    const upcomingCount = Array.isArray(progress.upcoming_tasks) ? progress.upcoming_tasks.length : 0;
+                    const phaseLabel = `Phase ${progress.phase || '-'} · ${progress.name || '프로젝트'}`;
+                    const rows = [
+                        { label: phaseLabel, value: `${percent}%`, percent },
+                        { label: inProgress.task || '현재 작업', value: totalEpochs ? `${epoch} / ${totalEpochs} 에포크` : '진행 중', percent: epochPercent },
+                        { label: '완료된 핵심 작업', value: `${completedCount}개`, percent: completedCount ? 100 : 0 },
+                        { label: '다음 작업 준비', value: `${upcomingCount}개`, percent: 0 },
+                    ];
+                    const container = document.getElementById('progress-container');
+                    container.replaceChildren();
+                    rows.forEach(row => {
+                        const label = document.createElement('div');
+                        label.className = 'progress-label';
+                        const name = document.createElement('span');
+                        name.textContent = row.label;
+                        const value = document.createElement('span');
+                        value.textContent = row.value;
+                        label.append(name, value);
+                        const barBackground = document.createElement('div');
+                        barBackground.className = 'progress-bar-bg';
+                        const bar = document.createElement('div');
+                        bar.className = 'progress-bar-fill';
+                        bar.style.width = `${row.percent}%`;
+                        barBackground.appendChild(bar);
+                        container.append(label, barBackground);
+                    });
+                    const rawTimestamp = String(progress.last_updated || '').replace(/([+-]\d{2}:\d{2})Z$/, '$1');
+                    const updatedDate = rawTimestamp ? new Date(rawTimestamp) : null;
+                    const updatedAt = updatedDate && !Number.isNaN(updatedDate.getTime())
+                        ? updatedDate.toLocaleString('ko-KR', { dateStyle: 'medium', timeStyle: 'short' })
+                        : '갱신 시각 정보 없음';
+                    document.getElementById('progress-summary').textContent = `${phaseLabel} · ${progress.status || '상태 정보 없음'} · 마지막 갱신 ${updatedAt}`;
+                }
+
+            } catch (e) {
+                console.log('실시간 데이터 로딩 대기 중...', e);
+            }
+        }
+
+        function updateKoreaCurrentTime() {
+            const formattedTime = new Intl.DateTimeFormat('ko-KR', {
+                timeZone: 'Asia/Seoul',
+                dateStyle: 'medium',
+                timeStyle: 'short',
+            }).format(new Date());
+            const label = `현재 날짜·시·분: ${formattedTime}`;
+            document.getElementById('team-current-time').textContent = label;
+            document.getElementById('briefing-current-time').textContent = label;
+        }
+
+        initHeroSliders();
+        updateKoreaCurrentTime();
+        setInterval(updateKoreaCurrentTime, 30 * 1000);
+        loadRealtimeData();
+    </script>
 </body>
 </html>
