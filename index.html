@@ -60,6 +60,11 @@
         .stat-card{background:#1a1a1a;border-radius:12px;padding:25px;border:1px solid #2a2a2a;}
         .stat-card h4{color:#999;font-size:12px;margin-bottom:8px;text-transform:uppercase;}
         .stat-card .value{font-size:32px;font-weight:700;color:#fff;}
+        .stat-detail{margin-top:12px;padding-top:12px;border-top:1px solid #2a2a2a;
+            font-size:12px;line-height:1.9;color:#888;}
+        .stat-detail .row{display:flex;justify-content:space-between;gap:12px;}
+        .stat-detail .row span:last-child{color:#e0e0e0;white-space:nowrap;}
+        .stat-detail .cap{color:#666;font-size:11px;margin-top:6px;display:block;}
 
         /* Side Stats */
         .side-stats{display:flex;flex-direction:column;gap:20px;}
@@ -263,10 +268,12 @@
                 <div class="stat-card">
                     <h4>지식 레코드 (누적)</h4>
                     <div class="value"><span id="stat-records">–</span></div>
+                    <div class="stat-detail" id="stat-records-detail"></div>
                 </div>
                 <div class="stat-card">
                     <h4>그래프 노트 · 링크 (누적)</h4>
                     <div class="value"><span id="stat-graph">–</span></div>
+                    <div class="stat-detail" id="stat-graph-detail"></div>
                 </div>
                 <div class="stat-card">
                     <h4>MoE 학습 정확도</h4>
@@ -476,6 +483,48 @@
             const t = (c && c.totals) ? c.totals : snap;
             set('stat-records', n(t.records));
             set('stat-graph', n(t.notes) + ' · ' + n(t.links));
+            renderDataDetail(d);
+        }
+
+        // 무엇을 데이터화했는지 구성 내역을 보여준다
+        const SOURCE_LABEL = {
+            'ai-research': 'arXiv 논문 (cs.AI · cs.LG)',
+            'ai-image': 'AI 이미지 생성 자료',
+            'shopify-commerce-image': 'Shopify 커머스 영상',
+            'arxiv': 'arXiv 논문',
+            'youtube': 'YouTube 영상',
+            'google': 'Google 검색 결과'
+        };
+
+        function renderDataDetail(d) {
+            const n = v => Number(v || 0).toLocaleString('ko-KR');
+            const row = (k, v) => '<div class="row"><span>' + esc(k) + '</span><span>' + v + '</span></div>';
+
+            const recBox = $('stat-records-detail');
+            if (recBox) {
+                const fromRuntime = (d.sources && d.sources.source_counts) || {};
+                const labels = Object.keys(fromRuntime).length ? fromRuntime : (window.__srcLabels || {});
+                const rows = Object.entries(labels)
+                    .sort((a, b) => b[1] - a[1])
+                    .map(([k, v]) => row(SOURCE_LABEL[k] || k, n(v) + '건'))
+                    .join('');
+                recBox.innerHTML = (rows || row('구성 내역', '집계 대기')) +
+                    '<span class="cap">논문 제목·초록과 영상 제목·설명을 텍스트로 저장한 학습 코퍼스입니다.</span>';
+            }
+
+            const g = d.graph || {};
+            const gBox = $('stat-graph-detail');
+            if (gBox) {
+                const other = Math.max(0, (g.notes || 0) - (g.records || 0) - (g.sources || 0) - (g.topics || 0));
+                gBox.innerHTML =
+                    row('개별 자료 노트', n(g.records) + '개') +
+                    row('주제 노트', n(g.topics) + '개') +
+                    row('출처 노트', n(g.sources) + '개') +
+                    (other ? row('허브 · 색인', n(other) + '개') : '') +
+                    row('노트 간 연결', n(g.links) + '개') +
+                    '<span class="cap">수집한 자료를 Obsidian 노트로 변환해 주제·출처로 상호 연결한 지식 그래프입니다. ' +
+                    '끊어진 링크 ' + n(g.dangling_links) + '건.</span>';
+            }
         }
 
         // 다이소 실수집 현황. 아직 수집 전이면 "수집 대기"라고 밝힌다.
@@ -516,8 +565,7 @@
                 tile('dz-green', '수집 상품 수', (t.products || 0) + '개',
                      run.finished_at ? KST(run.finished_at) + ' 기준' : '수집 전') +
                 // 사업 준비 단계 계획값. 실측이 아니므로 라벨에 '목표'를 명시한다.
-                tile('dz-blue', '월 평균 수입 <span class="tag">목표</span>', '$5,715',
-                     '사업 계획 기준 · 실적 아님') +
+                tile('dz-blue', '월 평균 수입 <span class="tag">목표</span>', '$5,715', '') +
                 tile('dz-slate', '카테고리', filled + ' / ' + total, '뷰티관 하위 분류') +
                 tile('dz-amber', '적용 환율',
                      fx.ok ? Number(fx.usd_to_krw).toLocaleString('ko-KR') : '–',
@@ -596,6 +644,9 @@
 
             if (tr.status === 'fulfilled') {
                 renderSources(tr.value);
+                // runtime JSON의 source_counts가 비어 있으면 학습 상태의 라벨을 쓴다
+                window.__srcLabels = tr.value.source_labels || {};
+                if (rt.status === 'fulfilled') renderDataDetail(rt.value);
                 if (rt.status !== 'fulfilled') renderTraining(tr.value);
             } else { renderSources(null); }
 
