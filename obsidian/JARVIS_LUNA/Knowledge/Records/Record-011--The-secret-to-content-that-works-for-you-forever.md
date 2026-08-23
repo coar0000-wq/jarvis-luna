@@ -2,7 +2,7 @@
 title: "Record 011 · The-secret-to-content-that-works-for-you-forever"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-23T14:48:34.120939+00:00
+updated_at: 2026-08-23T15:15:58.942267+00:00
 tags: [{', '.join(tags)}]
 ---
 
