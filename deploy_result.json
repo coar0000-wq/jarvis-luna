@@ -1,5 +1,5 @@
 {
-  "time": "2026-08-23T13:46:15.396893",
+  "time": "2026-08-23T14:02:54.549726",
   "steps": [
     {
       "cmd": "git add -A",
@@ -8,28 +8,28 @@
       "err": "warning: in the working copy of 'JARVIS_AUTO_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\n"
     },
     {
-      "cmd": "git commit -m JARVIS: wire dashboard to real pipeline JSON - remove hardcoded fallback data",
+      "cmd": "git commit -m JARVIS: hero bg scrolls with section + mobile layout fixes",
       "rc": 0,
-      "out": "[main c9198ea] JARVIS: wire dashboard to real pipeline JSON - remove hardcoded fallback data\n 3 files changed, 226 insertions(+), 110 deletions(-)\n",
+      "out": "[main 6e2cd30] JARVIS: hero bg scrolls with section + mobile layout fixes\n 3 files changed, 44 insertions(+), 27 deletions(-)\n",
       "err": ""
     },
     {
       "cmd": "git fetch origin main",
       "rc": 0,
       "out": "",
-      "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n   d7bb6da..586dd6d  main       -> origin/main\n"
+      "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n   ab28add..49e3e34  main       -> origin/main\n"
     },
     {
       "cmd": "git merge --no-edit origin/main",
       "rc": 0,
-      "out": "               |  37 ++++++++++++-\n data/cumulative_products.json                      |  14 ++---\n data/daiso_products.json                           |  48 ++++++++++++++++-\n data/naver_shopping_products.json                  |  59 +++++++++++++++++++-\n data/oliveyoung_products.json                      |  37 ++++++++++++-\n data/product_team.json                             |  16 +++---\n data/scheduler_log.json                            |  60 ++++++++++-----------\n data/walmart_products.json                         |  48 ++++++++++++++++-\n 9 files changed, 264 insertions(+), 55 deletions(-)\n",
+      "out": "secret-to-content-that-works-for-you-forever.md |   2 +-\n .../Knowledge/Sources/Source--YouTube.md           |   2 +-\n .../JARVIS_LUNA/Knowledge/Sources/Source--arXiv.md |   2 +-\n obsidian/JARVIS_LUNA/Knowledge/Topics/AI-Agents.md |   2 +-\n .../Knowledge/Topics/AI-Image-Generation.md        |   2 +-\n .../JARVIS_LUNA/Knowledge/Topics/AI-Research.md    |   2 +-\n .../Knowledge/Topics/Machine-Learning-Research.md  |   2 +-\n .../Knowledge/Topics/Model-Routing-and-MoE.md      |   2 +-\n .../Knowledge/Topics/Shopify-Commerce.md           |   2 +-\n 66 files changed, 180 insertions(+), 136 deletions(-)\n",
       "err": ""
     },
     {
       "cmd": "git push origin HEAD:main",
       "rc": 0,
       "out": "",
-      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   586dd6d..ab28add  HEAD -> main\n"
+      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   49e3e34..7327d6c  HEAD -> main\n"
     },
     {
       "cmd": "git fetch origin main",
@@ -46,13 +46,13 @@
     {
       "cmd": "git rev-parse HEAD",
       "rc": 0,
-      "out": "ab28add1a0cc88ae031c68e5a99bb4769d74cb38\n",
+      "out": "7327d6c1a0111bce8cbaa4159a5353c6fc6b8c06\n",
       "err": ""
     },
     {
       "cmd": "git rev-parse origin/main",
       "rc": 0,
-      "out": "ab28add1a0cc88ae031c68e5a99bb4769d74cb38\n",
+      "out": "7327d6c1a0111bce8cbaa4159a5353c6fc6b8c06\n",
       "err": ""
     },
     {
@@ -64,8 +64,8 @@
   ],
   "push_returncode": 0,
   "branch": "main",
-  "local_head": "ab28add1a0cc88ae031c68e5a99bb4769d74cb38",
-  "remote_head": "ab28add1a0cc88ae031c68e5a99bb4769d74cb38",
+  "local_head": "7327d6c1a0111bce8cbaa4159a5353c6fc6b8c06",
+  "remote_head": "7327d6c1a0111bce8cbaa4159a5353c6fc6b8c06",
   "status": "## main...origin/main\n",
   "remote_has_living_graph": true,
   "remote_has_hero_bg": true,
