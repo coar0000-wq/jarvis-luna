@@ -2,7 +2,7 @@
 title: "Record 016 · What-is-Psychological-Pricing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-23T18:20:16.988254+00:00
+updated_at: 2026-08-23T18:56:55.081535+00:00
 tags: [{', '.join(tags)}]
 ---
 
