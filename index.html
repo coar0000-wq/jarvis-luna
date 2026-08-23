@@ -262,17 +262,17 @@
                 this.canvas.height = this.canvas.offsetHeight;
 
                 // Create nodes with random properties
-                const nodeCount = 20;
+                const nodeCount = 30;
                 for (let i = 0; i < nodeCount; i++) {
                     this.nodes.push({
                         x: Math.random() * this.canvas.width * 0.8 + this.canvas.width * 0.1,
                         y: Math.random() * this.canvas.height * 0.8 + this.canvas.height * 0.1,
                         radius: Math.random() * 5 + 3,
-                        vx: (Math.random() - 0.5) * 2,
-                        vy: (Math.random() - 0.5) * 2,
+                        vx: (Math.random() - 0.5) * 3,
+                        vy: (Math.random() - 0.5) * 3,
                         phase: Math.random() * Math.PI * 2,
-                        frequency: Math.random() * 0.035 + 0.015,
-                        amplitude: 50 + Math.random() * 80
+                        frequency: Math.random() * 0.05 + 0.02,
+                        amplitude: 120 + Math.random() * 130
                     });
                 }
 
@@ -290,57 +290,59 @@
             },
 
             update() {
-                const time = Date.now() * 0.0008;
+                const time = Date.now() * 0.0012;
 
                 // Update node positions with smooth, dynamic oscillation
                 this.nodes.forEach((node, i) => {
-                    // Complex oscillating movement - more dynamic
+                    // Massive complex oscillating movement - ultra dynamic
                     const offsetX = Math.sin(time * node.frequency + node.phase) * node.amplitude +
-                                   Math.cos(time * node.frequency * 0.5 + node.phase) * node.amplitude * 0.5;
+                                   Math.cos(time * node.frequency * 0.7 + node.phase) * node.amplitude * 0.8 +
+                                   Math.sin(time * node.frequency * 1.3 + node.phase) * node.amplitude * 0.4;
                     const offsetY = Math.cos(time * node.frequency + node.phase) * node.amplitude +
-                                   Math.sin(time * node.frequency * 0.5 + node.phase) * node.amplitude * 0.5;
+                                   Math.sin(time * node.frequency * 0.7 + node.phase) * node.amplitude * 0.8 +
+                                   Math.cos(time * node.frequency * 1.3 + node.phase) * node.amplitude * 0.4;
 
                     node.targetX = this.canvas.width * 0.5 + offsetX;
                     node.targetY = this.canvas.height * 0.5 + offsetY;
 
-                    // Smooth movement toward target - faster response
-                    const easing = 0.08;
+                    // Smooth movement toward target - very responsive
+                    const easing = 0.12;
                     node.x += (node.targetX - node.x) * easing;
                     node.y += (node.targetY - node.y) * easing;
 
-                    // Add dynamic velocity changes
-                    if (Math.random() > 0.92) {
-                        node.vx = (Math.random() - 0.5) * 2;
-                        node.vy = (Math.random() - 0.5) * 2;
+                    // Add dynamic velocity changes more frequently
+                    if (Math.random() > 0.88) {
+                        node.vx = (Math.random() - 0.5) * 3.5;
+                        node.vy = (Math.random() - 0.5) * 3.5;
                     }
 
-                    // Apply velocity with damping for smooth movement
-                    node.vx *= 0.95;
-                    node.vy *= 0.95;
-                    node.x += node.vx * 0.15;
-                    node.y += node.vy * 0.15;
+                    // Apply velocity with light damping for smooth movement
+                    node.vx *= 0.92;
+                    node.vy *= 0.92;
+                    node.x += node.vx * 0.28;
+                    node.y += node.vy * 0.28;
 
-                    // Enhanced repulsion from other nodes
+                    // Strong repulsion from other nodes
                     this.nodes.forEach((other, j) => {
                         if (i !== j) {
                             const dx = node.x - other.x;
                             const dy = node.y - other.y;
                             const dist = Math.sqrt(dx * dx + dy * dy);
-                            if (dist < 120 && dist > 0) {
-                                const force = (120 - dist) / 120 * 0.8;
+                            if (dist < 150 && dist > 0) {
+                                const force = (150 - dist) / 150 * 1.3;
                                 const angle = Math.atan2(dy, dx);
-                                node.vx += Math.cos(angle) * force * 0.5;
-                                node.vy += Math.sin(angle) * force * 0.5;
+                                node.vx += Math.cos(angle) * force * 0.8;
+                                node.vy += Math.sin(angle) * force * 0.8;
                             }
                         }
                     });
 
                     // Soft boundary conditions with bounce
-                    const margin = 20;
-                    if (node.x < margin) { node.x = margin; node.vx *= -0.5; }
-                    if (node.x > this.canvas.width - margin) { node.x = this.canvas.width - margin; node.vx *= -0.5; }
-                    if (node.y < margin) { node.y = margin; node.vy *= -0.5; }
-                    if (node.y > this.canvas.height - margin) { node.y = this.canvas.height - margin; node.vy *= -0.5; }
+                    const margin = 30;
+                    if (node.x < margin) { node.x = margin; node.vx *= -0.6; }
+                    if (node.x > this.canvas.width - margin) { node.x = this.canvas.width - margin; node.vx *= -0.6; }
+                    if (node.y < margin) { node.y = margin; node.vy *= -0.6; }
+                    if (node.y > this.canvas.height - margin) { node.y = this.canvas.height - margin; node.vy *= -0.6; }
                 });
             },
 
