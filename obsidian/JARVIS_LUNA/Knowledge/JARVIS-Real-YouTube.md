@@ -2,7 +2,7 @@
 title: "JARVIS Real YouTube"
 source: "YouTube channel RSS"
 status: ok
-collected_at: 2026-08-22T02:13:25.973300+00:00
+collected_at: 2026-08-23T03:29:13.037776+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real YouTube
@@ -105,6 +105,18 @@ tags: [jarvis, real-data, knowledge]
 - updated: 2026-06-21T00:39:45+00:00
 - channel_id: UCIv38OrggTu3vNkCAo96-CQ
 
+### Pro SEO tips for product pages
+- 원문: [https://www.youtube.com/shorts/oHx39xLZwHo](https://www.youtube.com/shorts/oHx39xLZwHo)
+- published: 2026-08-22T17:00:25+00:00
+- updated: 2026-08-22T17:00:46+00:00
+- channel_id: UC7geKfz2-IH0rsgRBtHTm0g
+
+### What’s new with Shop?
+- 원문: [https://www.youtube.com/shorts/pLW7Ffqddxo](https://www.youtube.com/shorts/pLW7Ffqddxo)
+- published: 2026-08-22T12:00:12+00:00
+- updated: 2026-08-22T16:23:51+00:00
+- channel_id: UC7geKfz2-IH0rsgRBtHTm0g
+
 ### How to design and build a Shopify store with Claude
 - 원문: [https://www.youtube.com/shorts/zrJRlnfQTR0](https://www.youtube.com/shorts/zrJRlnfQTR0)
 - published: 2026-08-21T21:00:14+00:00
@@ -120,7 +132,7 @@ tags: [jarvis, real-data, knowledge]
 ### How to Start a 1-Person Business with Claude
 - 원문: [https://www.youtube.com/watch?v=irtf9-m-9uc](https://www.youtube.com/watch?v=irtf9-m-9uc)
 - published: 2026-08-20T15:45:06+00:00
-- updated: 2026-08-20T15:54:05+00:00
+- updated: 2026-08-22T04:24:01+00:00
 - channel_id: UC7geKfz2-IH0rsgRBtHTm0g
 
 ### How to use Claude to Create Digital Products
@@ -181,17 +193,5 @@ tags: [jarvis, real-data, knowledge]
 - 원문: [https://www.youtube.com/shorts/5u5xANNqYxQ](https://www.youtube.com/shorts/5u5xANNqYxQ)
 - published: 2026-08-08T17:00:05+00:00
 - updated: 2026-08-12T01:30:57+00:00
-- channel_id: UC7geKfz2-IH0rsgRBtHTm0g
-
-### The 3 purchase decision stages explained
-- 원문: [https://www.youtube.com/shorts/QoGO8sfEb0A](https://www.youtube.com/shorts/QoGO8sfEb0A)
-- published: 2026-08-08T12:00:19+00:00
-- updated: 2026-08-12T01:32:11+00:00
-- channel_id: UC7geKfz2-IH0rsgRBtHTm0g
-
-### AI Tools for Social Media Content Creation
-- 원문: [https://www.youtube.com/shorts/5U67mFwQOMU](https://www.youtube.com/shorts/5U67mFwQOMU)
-- published: 2026-08-07T21:22:52+00:00
-- updated: 2026-08-11T01:31:07+00:00
 - channel_id: UC7geKfz2-IH0rsgRBtHTm0g
 

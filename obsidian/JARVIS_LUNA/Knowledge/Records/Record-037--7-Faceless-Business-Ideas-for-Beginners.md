@@ -1,12 +1,12 @@
 ---
-title: "Record 025 · 7-Faceless-Business-Ideas-for-Beginners"
+title: "Record 037 · 7-Faceless-Business-Ideas-for-Beginners"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-22T02:02:00.359359+00:00
+updated_at: 2026-08-23T03:29:13.284828+00:00
 tags: [{', '.join(tags)}]
 ---
 
-# Record 025 · 7-Faceless-Business-Ideas-for-Beginners
+# Record 037 · 7-Faceless-Business-Ideas-for-Beginners
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/watch?v=4ulpu2uos8I)
 

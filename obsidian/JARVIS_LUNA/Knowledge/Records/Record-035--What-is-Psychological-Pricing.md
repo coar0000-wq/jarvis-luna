@@ -1,12 +1,12 @@
 ---
-title: "Record 033 · What-is-Psychological-Pricing"
+title: "Record 035 · What-is-Psychological-Pricing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-22T02:13:26.149263+00:00
+updated_at: 2026-08-23T03:29:13.284554+00:00
 tags: [{', '.join(tags)}]
 ---
 
-# Record 033 · What-is-Psychological-Pricing
+# Record 035 · What-is-Psychological-Pricing
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/UCJ32U2TyX4)
 

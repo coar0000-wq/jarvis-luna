@@ -1,12 +1,12 @@
 ---
-title: "Record 036 · No-Photoshop-Try-this-tool-instead"
+title: "Record 038 · No-Photoshop-Try-this-tool-instead"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-22T02:13:26.149467+00:00
+updated_at: 2026-08-23T03:29:13.284963+00:00
 tags: [{', '.join(tags)}]
 ---
 
-# Record 036 · No-Photoshop-Try-this-tool-instead
+# Record 038 · No-Photoshop-Try-this-tool-instead
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/eYEw5djh4gQ)
 

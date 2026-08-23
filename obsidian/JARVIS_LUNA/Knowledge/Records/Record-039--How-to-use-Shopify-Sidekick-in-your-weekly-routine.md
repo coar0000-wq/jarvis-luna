@@ -1,12 +1,12 @@
 ---
-title: "Record 037 · How-to-use-Shopify-Sidekick-in-your-weekly-routine"
+title: "Record 039 · How-to-use-Shopify-Sidekick-in-your-weekly-routine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-22T02:13:26.149530+00:00
+updated_at: 2026-08-23T03:29:13.285103+00:00
 tags: [{', '.join(tags)}]
 ---
 
-# Record 037 · How-to-use-Shopify-Sidekick-in-your-weekly-routine
+# Record 039 · How-to-use-Shopify-Sidekick-in-your-weekly-routine
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/rzk4_FFtdIg)
 

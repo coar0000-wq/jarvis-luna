@@ -1,12 +1,12 @@
 ---
-title: "Record 024 · How-to-use-AI-as-a-personal-shopper"
+title: "Record 036 · How-to-use-AI-as-a-personal-shopper"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-22T02:02:00.359194+00:00
+updated_at: 2026-08-23T03:29:13.284688+00:00
 tags: [{', '.join(tags)}]
 ---
 
-# Record 024 · How-to-use-AI-as-a-personal-shopper
+# Record 036 · How-to-use-AI-as-a-personal-shopper
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/jEG3g7G7-JY)
 

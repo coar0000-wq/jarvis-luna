@@ -1,12 +1,12 @@
 ---
-title: "Record 038 · The-secret-to-content-that-works-for-you-forever"
+title: "Record 040 · The-secret-to-content-that-works-for-you-forever"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-22T02:13:26.149612+00:00
+updated_at: 2026-08-23T03:29:13.285243+00:00
 tags: [{', '.join(tags)}]
 ---
 
-# Record 038 · The-secret-to-content-that-works-for-you-forever
+# Record 040 · The-secret-to-content-that-works-for-you-forever
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/5u5xANNqYxQ)
 

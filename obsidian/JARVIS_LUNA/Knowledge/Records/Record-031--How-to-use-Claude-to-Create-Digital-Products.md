@@ -1,12 +1,12 @@
 ---
-title: "Record 019 · How-to-use-Claude-to-Create-Digital-Products"
+title: "Record 031 · How-to-use-Claude-to-Create-Digital-Products"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-22T02:02:00.358369+00:00
+updated_at: 2026-08-23T03:29:13.283971+00:00
 tags: [{', '.join(tags)}]
 ---
 
-# Record 019 · How-to-use-Claude-to-Create-Digital-Products
+# Record 031 · How-to-use-Claude-to-Create-Digital-Products
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/watch?v=tZW0x_tDhSk)
 

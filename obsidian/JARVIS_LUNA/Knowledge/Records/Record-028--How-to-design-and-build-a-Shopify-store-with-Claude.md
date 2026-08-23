@@ -1,12 +1,12 @@
 ---
-title: "Record 016 · How-to-design-and-build-a-Shopify-store-with-Claude"
+title: "Record 028 · How-to-design-and-build-a-Shopify-store-with-Claude"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-22T02:02:00.357814+00:00
+updated_at: 2026-08-23T03:29:13.283511+00:00
 tags: [{', '.join(tags)}]
 ---
 
-# Record 016 · How-to-design-and-build-a-Shopify-store-with-Claude
+# Record 028 · How-to-design-and-build-a-Shopify-store-with-Claude
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/zrJRlnfQTR0)
 
