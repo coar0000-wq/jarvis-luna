@@ -1,35 +1,35 @@
 {
-  "time": "2026-08-23T14:58:37.631421",
+  "time": "2026-08-23T15:04:46.309147",
   "steps": [
     {
       "cmd": "git add -A",
       "rc": 0,
       "out": "",
-      "err": "warning: in the working copy of 'RUN_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/daiso/archive_legacy.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/daiso/category_map.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/daiso/collect_daiso.py', LF will be replaced by CRLF the next time Git touches it\n"
+      "err": "warning: in the working copy of '.github/workflows/daiso-real-collection.yml', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'RUN_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/daiso/category_map.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/daiso/collect_daiso.py', LF will be replaced by CRLF the next time Git touches it\n"
     },
     {
-      "cmd": "git commit -m JARVIS: MD family header, beauty-only Daiso scope, archive fake collectors",
+      "cmd": "git commit -m JARVIS: shuffle sitemap sampling for beauty scope, tune run budget",
       "rc": 0,
-      "out": ".json (100%)\n rename data/walmart_products.json => archive/daiso_placeholder/data__walmart_products.json (100%)\n rename naver_product_discovery.py => archive/daiso_placeholder/naver_product_discovery.py (100%)\n rename oliveyoung_product_discovery.py => archive/daiso_placeholder/oliveyoung_product_discovery.py (100%)\n rename phase_26_progress_realtime.py => archive/daiso_placeholder/phase_26_progress_realtime.py (100%)\n rename update_tasks.py => archive/daiso_placeholder/update_tasks.py (100%)\n rename walmart_product_discovery.py => archive/daiso_placeholder/walmart_product_discovery.py (100%)\n",
+      "out": "[main 5363a44] JARVIS: shuffle sitemap sampling for beauty scope, tune run budget\n 9 files changed, 19895 insertions(+), 19715 deletions(-)\n",
       "err": ""
     },
     {
       "cmd": "git fetch origin main",
       "rc": 0,
       "out": "",
-      "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n   ca6670e..b1b469b  main       -> origin/main\n"
+      "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n"
     },
     {
       "cmd": "git merge --no-edit origin/main",
       "rc": 0,
-      "out": "secret-to-content-that-works-for-you-forever.md |   2 +-\n .../Knowledge/Sources/Source--YouTube.md           |   2 +-\n .../JARVIS_LUNA/Knowledge/Sources/Source--arXiv.md |   2 +-\n obsidian/JARVIS_LUNA/Knowledge/Topics/AI-Agents.md |   2 +-\n .../Knowledge/Topics/AI-Image-Generation.md        |   2 +-\n .../JARVIS_LUNA/Knowledge/Topics/AI-Research.md    |   2 +-\n .../Knowledge/Topics/Machine-Learning-Research.md  |   2 +-\n .../Knowledge/Topics/Model-Routing-and-MoE.md      |   2 +-\n .../Knowledge/Topics/Shopify-Commerce.md           |   2 +-\n 64 files changed, 156 insertions(+), 134 deletions(-)\n",
+      "out": "Already up to date.\n",
       "err": ""
     },
     {
       "cmd": "git push origin HEAD:main",
       "rc": 0,
       "out": "",
-      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   b1b469b..5795ac4  HEAD -> main\n"
+      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   5795ac4..5363a44  HEAD -> main\n"
     },
     {
       "cmd": "git fetch origin main",
@@ -46,13 +46,13 @@
     {
       "cmd": "git rev-parse HEAD",
       "rc": 0,
-      "out": "5795ac4d896e42102f06e741ffe70e546fb62838\n",
+      "out": "5363a44afbc76d0a83ddcfe594508881f53e0687\n",
       "err": ""
     },
     {
       "cmd": "git rev-parse origin/main",
       "rc": 0,
-      "out": "5795ac4d896e42102f06e741ffe70e546fb62838\n",
+      "out": "5363a44afbc76d0a83ddcfe594508881f53e0687\n",
       "err": ""
     },
     {
@@ -64,8 +64,8 @@
   ],
   "push_returncode": 0,
   "branch": "main",
-  "local_head": "5795ac4d896e42102f06e741ffe70e546fb62838",
-  "remote_head": "5795ac4d896e42102f06e741ffe70e546fb62838",
+  "local_head": "5363a44afbc76d0a83ddcfe594508881f53e0687",
+  "remote_head": "5363a44afbc76d0a83ddcfe594508881f53e0687",
   "status": "## main...origin/main\n",
   "remote_has_hero_bg": true,
   "remote_reads_runtime_json": true,
