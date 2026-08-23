@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 START 
 C:\Users\Desktop\AppData\Local\Programs\Python\Python314\python.exe
 C:\Users\Desktop\AppData\Local\Microsoft\WindowsApps\python.exe
+=======
+=== RECOVER 2026-08-23 16:24:24.76 === 
+CHECK diagnose.json
+>>>>>>> origin/main

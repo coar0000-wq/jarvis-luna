@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "note": "누적 집계는 이 파일이 처음 생성된 시점부터 시작합니다. 그 이전 실행 기록이 없으므로 과거 수치는 추정하지 않습니다.",
+  "baseline": {
+    "records": 40,
+    "notes": 56,
+    "links": 400,
+    "recorded_at": "2026-08-23T05:21:53.378147+00:00"
+  },
+  "totals": {
+    "records": 40,
+    "notes": 56,
+    "links": 400
+  },
+  "last_snapshot": {
+    "records": 40,
+    "notes": 56,
+    "links": 400,
+    "recorded_at": "2026-08-23T07:12:12.501030+00:00"
+  },
+  "runs": [
+    {
+      "at": "2026-08-23T05:21:53.378147+00:00",
+      "records": 40,
+      "notes": 56,
+      "links": 400,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
+    },
+    {
+      "at": "2026-08-23T05:28:38.850548+00:00",
+      "records": 40,
+      "notes": 56,
+      "links": 400,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
+    },
+    {
+      "at": "2026-08-23T05:54:11.439899+00:00",
+      "records": 40,
+      "notes": 56,
+      "links": 400,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
+    },
+    {
+      "at": "2026-08-23T05:54:14.429026+00:00",
+      "records": 40,
+      "notes": 56,
+      "links": 400,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
+    },
+    {
+      "at": "2026-08-23T06:41:46.347373+00:00",
+      "records": 40,
+      "notes": 56,
+      "links": 400,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
+    },
+    {
+      "at": "2026-08-23T06:44:38.650679+00:00",
+      "records": 40,
+      "notes": 56,
+      "links": 400,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
+    },
+    {
+      "at": "2026-08-23T07:12:09.423725+00:00",
+      "records": 40,
+      "notes": 56,
+      "links": 400,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
+    },
+    {
+      "at": "2026-08-23T07:12:12.501030+00:00",
+      "records": 40,
+      "notes": 56,
+      "links": 400,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
+    }
+  ],
+  "updated_at": "2026-08-23T07:12:12.501030+00:00"
+}

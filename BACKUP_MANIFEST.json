@@ -1,0 +1,98 @@
+{
+  "stamp": "20260823-1514",
+  "tag": "backup-20260823-1514-kst",
+  "steps": [
+    {
+      "cmd": "git add -A",
+      "rc": 0,
+      "out": "",
+      "err": "warning: in the working copy of 'RUN_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/backup_repo.py', LF will be replaced by CRLF the next time Git touches it\n"
+    },
+    {
+      "cmd": "git commit -m JARVIS: 백업 시점 20260823-1514",
+      "rc": 0,
+      "out": "[main dd9d10f] JARVIS: 백업 시점 20260823-1514\n 4 files changed, 126 insertions(+), 40 deletions(-)\n create mode 100644 scripts/backup_repo.py\n",
+      "err": ""
+    },
+    {
+      "cmd": "git fetch origin main",
+      "rc": 0,
+      "out": "",
+      "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n"
+    },
+    {
+      "cmd": "git merge --no-edit origin/main",
+      "rc": 0,
+      "out": "Already up to date.\n",
+      "err": ""
+    },
+    {
+      "cmd": "git push origin HEAD:main",
+      "rc": 0,
+      "out": "",
+      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   5363a44..dd9d10f  HEAD -> main\n"
+    },
+    {
+      "cmd": "git rev-parse HEAD",
+      "rc": 0,
+      "out": "dd9d10f65ce4dd33087c00af2652b5a56b346f3e\n",
+      "err": ""
+    },
+    {
+      "cmd": "git tag -f -a backup-20260823-1514-kst -m 전체 백업 20260823-1514 KST · 다이소 뷰티 수집 파이프라인 및 실데이터 대시보드까지",
+      "rc": 0,
+      "out": "",
+      "err": ""
+    },
+    {
+      "cmd": "git push -f origin backup-20260823-1514-kst",
+      "rc": 0,
+      "out": "",
+      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n * [new tag]         backup-20260823-1514-kst -> backup-20260823-1514-kst\n"
+    },
+    {
+      "cmd": "git bundle create C:\\Users\\Desktop\\Claude\\Projects\\kms\\_backups\\jarvis-luna-20260823-1514.bundle --all",
+      "rc": 0,
+      "out": "",
+      "err": ""
+    },
+    {
+      "cmd": "git bundle verify C:\\Users\\Desktop\\Claude\\Projects\\kms\\_backups\\jarvis-luna-20260823-1514.bundle",
+      "rc": 0,
+      "out": "6179fc14391ec63c refs/remotes/origin/mastern\nb39b6c7f9d32327b7c4f51ff406f6e9047386b28 refs/tags/backup-20260821-2010-kst\na2b8a08f3ca708b106b3ff61c923deb263aff8b9 refs/tags/backup-20260823-1514-kst\n3e0e075b27ebf8b7319399d9bc49794da7c96d59 refs/tags/backup-before-final-push\ndd9d10f65ce4dd33087c00af2652b5a56b346f3e HEAD\nThe bundle records a complete history.\nThe bundle uses this hash algorithm: sha1\n",
+      "err": "C:/Users/Desktop/Claude/Projects/kms/_backups/jarvis-luna-20260823-1514.bundle is okay\n"
+    },
+    {
+      "cmd": "git rev-parse origin/main",
+      "rc": 0,
+      "out": "dd9d10f65ce4dd33087c00af2652b5a56b346f3e\n",
+      "err": ""
+    },
+    {
+      "cmd": "git status --short -b",
+      "rc": 0,
+      "out": "## main...origin/main\n",
+      "err": ""
+    }
+  ],
+  "head": "dd9d10f65ce4dd33087c00af2652b5a56b346f3e",
+  "push_rc": 0,
+  "tag_push_rc": 0,
+  "artifacts": [
+    {
+      "path": "C:\\Users\\Desktop\\Claude\\Projects\\kms\\_backups\\jarvis-luna-20260823-1514.bundle",
+      "size_mb": 221.28,
+      "sha256": "c224670f7be0d7452818d6a9105fe81c6eddb3140ec782452e7564b3c9eb51c2"
+    },
+    {
+      "path": "C:\\Users\\Desktop\\Claude\\Projects\\kms\\_backups\\jarvis-luna-20260823-1514.zip",
+      "size_mb": 27.96,
+      "sha256": "b7304cbdcb2b6b7bbae3f805c2784f2cba15d39c1deb0800c2811e12e327ec13"
+    }
+  ],
+  "zip_file_count": 605,
+  "verified_bundle": true,
+  "remote_head": "dd9d10f65ce4dd33087c00af2652b5a56b346f3e",
+  "working_tree": "## main...origin/main\n",
+  "SUCCESS": true
+}

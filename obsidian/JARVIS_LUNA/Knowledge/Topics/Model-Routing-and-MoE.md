@@ -2,7 +2,7 @@
 title: "Model Routing and MoE"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-23T03:29:13.287320+00:00
+updated_at: 2026-08-23T07:12:09.371849+00:00
 tags: [{', '.join(tags)}]
 ---
 
@@ -10,9 +10,9 @@ tags: [{', '.join(tags)}]
 
 실제 수집 레코드 **2건**이 이 주제에 연결되어 있습니다.
 
-- [[Record-005--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]]
-- [[Record-008--Pandoras-AI-Model-Routing-Box-Efficient-Allocation-with-Co]]
+- [[Record-003--Pandoras-AI-Model-Routing-Box-Efficient-Allocation-with-Co]]
+- [[Record-006--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]]
 
 ## Connected nodes
 
-[[Record-005--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]] [[Record-008--Pandoras-AI-Model-Routing-Box-Efficient-Allocation-with-Co]] [[Source--arXiv]] [[JARVIS Real Knowledge Index]]
+[[Record-003--Pandoras-AI-Model-Routing-Box-Efficient-Allocation-with-Co]] [[Record-006--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]] [[Source--arXiv]] [[JARVIS Real Knowledge Index]]

@@ -1,0 +1,27 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    { "query": "path:Knowledge/Records", "color": { "a": 1, "rgb": 5809151 } },
+    { "query": "path:Knowledge/Topics", "color": { "a": 1, "rgb": 4176720 } },
+    { "query": "path:Knowledge/Sources", "color": { "a": 1, "rgb": 13801250 } },
+    { "query": "path:Briefings", "color": { "a": 1, "rgb": 10708727 } }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -0.4,
+  "nodeSizeMultiplier": 1.35,
+  "lineSizeMultiplier": 0.9,
+  "collapse-forces": false,
+  "centerStrength": 0.42,
+  "repelStrength": 11.5,
+  "linkStrength": 0.65,
+  "linkDistance": 190,
+  "scale": 0.85,
+  "close": false
+}

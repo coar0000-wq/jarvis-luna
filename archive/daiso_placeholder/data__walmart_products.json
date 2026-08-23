@@ -1,0 +1,2211 @@
+{
+  "timestamp": "2026-08-17T06:22:37.784474Z",
+  "total_count": 276,
+  "categories": {
+    "주방용품": {
+      "count": 4
+    },
+    "생활용품": {
+      "count": 4
+    },
+    "침구류": {
+      "count": 4
+    },
+    "욕실용품": {
+      "count": 4
+    },
+    "정리용품": {
+      "count": 4
+    },
+    "조명": {
+      "count": 4
+    }
+  },
+  "products": [
+    {
+      "id": "walmart_0001",
+      "name": "월마트 상품 1",
+      "category": "주방용품",
+      "price_usd": "$6.50",
+      "verified": true
+    },
+    {
+      "id": "walmart_0002",
+      "name": "월마트 상품 2",
+      "category": "주방용품",
+      "price_usd": "$8.00",
+      "verified": true
+    },
+    {
+      "id": "walmart_0003",
+      "name": "월마트 상품 3",
+      "category": "주방용품",
+      "price_usd": "$9.50",
+      "verified": true
+    },
+    {
+      "id": "walmart_0004",
+      "name": "월마트 상품 4",
+      "category": "주방용품",
+      "price_usd": "$11.00",
+      "verified": true
+    },
+    {
+      "id": "walmart_0005",
+      "name": "월마트 상품 5",
+      "category": "생활용품",
+      "price_usd": "$12.50",
+      "verified": true
+    },
+    {
+      "id": "walmart_0006",
+      "name": "월마트 상품 6",
+      "category": "생활용품",
+      "price_usd": "$14.00",
+      "verified": true
+    },
+    {
+      "id": "walmart_0007",
+      "name": "월마트 상품 7",
+      "category": "생활용품",
+      "price_usd": "$15.50",
+      "verified": true
+    },
+    {
+      "id": "walmart_0008",
+      "name": "월마트 상품 8",
+      "category": "생활용품",
+      "price_usd": "$17.00",
+      "verified": true
+    },
+    {
+      "id": "walmart_0009",
+      "name": "월마트 상품 9",
+      "category": "침구류",
+      "price_usd": "$18.50",
+      "verified": true
+    },
+    {
+      "id": "walmart_0010",
+      "name": "월마트 상품 10",
+      "category": "침구류",
+      "price_usd": "$20.00",
+      "verified": true
+    },
+    {
+      "id": "walmart_0011",
+      "name": "월마트 상품 11",
+      "category": "침구류",
+      "price_usd": "$21.50",
+      "verified": true
+    },
+    {
+      "id": "walmart_0012",
+      "name": "월마트 상품 12",
+      "category": "침구류",
+      "price_usd": "$23.00",
+      "verified": true
+    },
+    {
+      "id": "walmart_0013",
+      "name": "월마트 상품 13",
+      "category": "욕실용품",
+      "price_usd": "$24.50",
+      "verified": true
+    },
+    {
+      "id": "walmart_0014",
+      "name": "월마트 상품 14",
+      "category": "욕실용품",
+      "price_usd": "$26.00",
+      "verified": true
+    },
+    {
+      "id": "walmart_0015",
+      "name": "월마트 상품 15",
+      "category": "욕실용품",
+      "price_usd": "$27.50",
+      "verified": true
+    },
+    {
+      "id": "walmart_0016",
+      "name": "월마트 상품 16",
+      "category": "욕실용품",
+      "price_usd": "$29.00",
+      "verified": true
+    },
+    {
+      "id": "walmart_0017",
+      "name": "월마트 상품 17",
+      "category": "정리용품",
+      "price_usd": "$30.50",
+      "verified": true
+    },
+    {
+      "id": "walmart_0018",
+      "name": "월마트 상품 18",
+      "category": "정리용품",
+      "price_usd": "$32.00",
+      "verified": true
+    },
+    {
+      "id": "walmart_0019",
+      "name": "월마트 상품 19",
+      "category": "정리용품",
+      "price_usd": "$33.50",
+      "verified": true
+    },
+    {
+      "id": "walmart_0020",
+      "name": "월마트 상품 20",
+      "category": "정리용품",
+      "price_usd": "$35.00",
+      "verified": true
+    },
+    {
+      "id": "walmart_0021",
+      "name": "월마트 상품 21",
+      "category": "조명",
+      "price_usd": "$36.50",
+      "verified": true
+    },
+    {
+      "id": "walmart_0022",
+      "name": "월마트 상품 22",
+      "category": "조명",
+      "price_usd": "$38.00",
+      "verified": true
+    },
+    {
+      "id": "walmart_0023",
+      "name": "월마트 상품 23",
+      "category": "조명",
+      "price_usd": "$39.50",
+      "verified": true
+    },
+    {
+      "id": "walmart_0024",
+      "name": "월마트 상품 24",
+      "category": "조명",
+      "price_usd": "$41.00",
+      "verified": true
+    },
+    {
+      "id": "wm_20260817185415_0",
+      "name": "Shirt (950)",
+      "category": "Grocery",
+      "price": "$411",
+      "discovered_at": "2026-08-17T09:54:15.056581Z"
+    },
+    {
+      "id": "wm_20260817185415_1",
+      "name": "Shirt (243)",
+      "category": "Home",
+      "price": "$258",
+      "discovered_at": "2026-08-17T09:54:15.056610Z"
+    },
+    {
+      "id": "wm_20260817185415_2",
+      "name": "TV (115)",
+      "category": "Grocery",
+      "price": "$330",
+      "discovered_at": "2026-08-17T09:54:15.056623Z"
+    },
+    {
+      "id": "wm_20260817185415_3",
+      "name": "Laptop (234)",
+      "category": "Electronics",
+      "price": "$334",
+      "discovered_at": "2026-08-17T09:54:15.056631Z"
+    },
+    {
+      "id": "wm_20260817190003_0",
+      "name": "월마트 상품 (645)",
+      "discovered_at": "2026-08-17T10:00:03.380902Z"
+    },
+    {
+      "id": "wm_20260817190003_1",
+      "name": "월마트 상품 (537)",
+      "discovered_at": "2026-08-17T10:00:03.380927Z"
+    },
+    {
+      "id": "wm_20260817190003_2",
+      "name": "월마트 상품 (414)",
+      "discovered_at": "2026-08-17T10:00:03.380937Z"
+    },
+    {
+      "id": "wm_20260817190149_0",
+      "name": "월마트 (394)",
+      "discovered_at": "2026-08-17T10:01:49.211855Z"
+    },
+    {
+      "id": "wm_20260817190149_1",
+      "name": "월마트 (310)",
+      "discovered_at": "2026-08-17T10:01:49.211884Z"
+    },
+    {
+      "id": "wm_20260817190149_2",
+      "name": "월마트 (301)",
+      "discovered_at": "2026-08-17T10:01:49.211896Z"
+    },
+    {
+      "id": "wm_20260820135742_0",
+      "name": "월마트 (295)",
+      "discovered_at": "2026-08-20T13:57:42.307100Z"
+    },
+    {
+      "id": "wm_20260820135742_1",
+      "name": "월마트 (870)",
+      "discovered_at": "2026-08-20T13:57:42.307113Z"
+    },
+    {
+      "id": "wm_20260820135742_2",
+      "name": "월마트 (737)",
+      "discovered_at": "2026-08-20T13:57:42.307120Z"
+    },
+    {
+      "id": "wm_20260820151940_0",
+      "name": "월마트 (200)",
+      "discovered_at": "2026-08-20T15:19:40.997696Z"
+    },
+    {
+      "id": "wm_20260820151940_1",
+      "name": "월마트 (346)",
+      "discovered_at": "2026-08-20T15:19:40.997709Z"
+    },
+    {
+      "id": "wm_20260820151940_2",
+      "name": "월마트 (783)",
+      "discovered_at": "2026-08-20T15:19:40.997715Z"
+    },
+    {
+      "id": "wm_20260820151940_3",
+      "name": "월마트 (846)",
+      "discovered_at": "2026-08-20T15:19:40.997720Z"
+    },
+    {
+      "id": "wm_20260820155605_0",
+      "name": "월마트 (914)",
+      "discovered_at": "2026-08-20T15:56:05.405176Z"
+    },
+    {
+      "id": "wm_20260820155605_1",
+      "name": "월마트 (481)",
+      "discovered_at": "2026-08-20T15:56:05.405189Z"
+    },
+    {
+      "id": "wm_20260820155605_2",
+      "name": "월마트 (480)",
+      "discovered_at": "2026-08-20T15:56:05.405195Z"
+    },
+    {
+      "id": "wm_20260820155605_3",
+      "name": "월마트 (714)",
+      "discovered_at": "2026-08-20T15:56:05.405200Z"
+    },
+    {
+      "id": "wm_20260820155605_4",
+      "name": "월마트 (827)",
+      "discovered_at": "2026-08-20T15:56:05.405205Z"
+    },
+    {
+      "id": "wm_20260820164155_0",
+      "name": "월마트 (417)",
+      "discovered_at": "2026-08-20T16:41:55.931896Z"
+    },
+    {
+      "id": "wm_20260820164155_1",
+      "name": "월마트 (718)",
+      "discovered_at": "2026-08-20T16:41:55.931904Z"
+    },
+    {
+      "id": "wm_20260820164155_2",
+      "name": "월마트 (775)",
+      "discovered_at": "2026-08-20T16:41:55.931907Z"
+    },
+    {
+      "id": "wm_20260820164155_3",
+      "name": "월마트 (100)",
+      "discovered_at": "2026-08-20T16:41:55.931910Z"
+    },
+    {
+      "id": "wm_20260820164155_4",
+      "name": "월마트 (520)",
+      "discovered_at": "2026-08-20T16:41:55.931913Z"
+    },
+    {
+      "id": "wm_20260820171455_0",
+      "name": "월마트 (431)",
+      "discovered_at": "2026-08-20T17:14:55.984154Z"
+    },
+    {
+      "id": "wm_20260820171455_1",
+      "name": "월마트 (107)",
+      "discovered_at": "2026-08-20T17:14:55.984166Z"
+    },
+    {
+      "id": "wm_20260820171455_2",
+      "name": "월마트 (690)",
+      "discovered_at": "2026-08-20T17:14:55.984173Z"
+    },
+    {
+      "id": "wm_20260820171455_3",
+      "name": "월마트 (151)",
+      "discovered_at": "2026-08-20T17:14:55.984178Z"
+    },
+    {
+      "id": "wm_20260820171455_4",
+      "name": "월마트 (225)",
+      "discovered_at": "2026-08-20T17:14:55.984184Z"
+    },
+    {
+      "id": "wm_20260820175041_0",
+      "name": "월마트 (944)",
+      "discovered_at": "2026-08-20T17:50:41.797937Z"
+    },
+    {
+      "id": "wm_20260820175041_1",
+      "name": "월마트 (689)",
+      "discovered_at": "2026-08-20T17:50:41.797949Z"
+    },
+    {
+      "id": "wm_20260820175041_2",
+      "name": "월마트 (833)",
+      "discovered_at": "2026-08-20T17:50:41.797955Z"
+    },
+    {
+      "id": "wm_20260820175041_3",
+      "name": "월마트 (158)",
+      "discovered_at": "2026-08-20T17:50:41.797961Z"
+    },
+    {
+      "id": "wm_20260820175041_4",
+      "name": "월마트 (229)",
+      "discovered_at": "2026-08-20T17:50:41.797969Z"
+    },
+    {
+      "id": "wm_20260820184627_0",
+      "name": "월마트 (295)",
+      "discovered_at": "2026-08-20T18:46:27.478015Z"
+    },
+    {
+      "id": "wm_20260820184627_1",
+      "name": "월마트 (971)",
+      "discovered_at": "2026-08-20T18:46:27.478028Z"
+    },
+    {
+      "id": "wm_20260820184627_2",
+      "name": "월마트 (267)",
+      "discovered_at": "2026-08-20T18:46:27.478034Z"
+    },
+    {
+      "id": "wm_20260820184627_3",
+      "name": "월마트 (263)",
+      "discovered_at": "2026-08-20T18:46:27.478040Z"
+    },
+    {
+      "id": "wm_20260820184627_4",
+      "name": "월마트 (500)",
+      "discovered_at": "2026-08-20T18:46:27.478053Z"
+    },
+    {
+      "id": "wm_20260820192041_0",
+      "name": "월마트 (212)",
+      "discovered_at": "2026-08-20T19:20:41.039333Z"
+    },
+    {
+      "id": "wm_20260820192041_1",
+      "name": "월마트 (688)",
+      "discovered_at": "2026-08-20T19:20:41.039346Z"
+    },
+    {
+      "id": "wm_20260820192041_2",
+      "name": "월마트 (469)",
+      "discovered_at": "2026-08-20T19:20:41.039352Z"
+    },
+    {
+      "id": "wm_20260820192041_3",
+      "name": "월마트 (524)",
+      "discovered_at": "2026-08-20T19:20:41.039357Z"
+    },
+    {
+      "id": "wm_20260820192041_4",
+      "name": "월마트 (859)",
+      "discovered_at": "2026-08-20T19:20:41.039362Z"
+    },
+    {
+      "id": "wm_20260820195702_0",
+      "name": "월마트 (815)",
+      "discovered_at": "2026-08-20T19:57:02.878110Z"
+    },
+    {
+      "id": "wm_20260820195702_1",
+      "name": "월마트 (531)",
+      "discovered_at": "2026-08-20T19:57:02.878120Z"
+    },
+    {
+      "id": "wm_20260820195702_2",
+      "name": "월마트 (489)",
+      "discovered_at": "2026-08-20T19:57:02.878124Z"
+    },
+    {
+      "id": "wm_20260820195702_3",
+      "name": "월마트 (344)",
+      "discovered_at": "2026-08-20T19:57:02.878128Z"
+    },
+    {
+      "id": "wm_20260820195702_4",
+      "name": "월마트 (229)",
+      "discovered_at": "2026-08-20T19:57:02.878133Z"
+    },
+    {
+      "id": "wm_20260820203808_0",
+      "name": "월마트 (761)",
+      "discovered_at": "2026-08-20T20:38:08.634052Z"
+    },
+    {
+      "id": "wm_20260820203808_1",
+      "name": "월마트 (430)",
+      "discovered_at": "2026-08-20T20:38:08.634063Z"
+    },
+    {
+      "id": "wm_20260820203808_2",
+      "name": "월마트 (750)",
+      "discovered_at": "2026-08-20T20:38:08.634068Z"
+    },
+    {
+      "id": "wm_20260820203808_3",
+      "name": "월마트 (456)",
+      "discovered_at": "2026-08-20T20:38:08.634074Z"
+    },
+    {
+      "id": "wm_20260820210441_0",
+      "name": "월마트 (671)",
+      "discovered_at": "2026-08-20T21:04:41.924305Z"
+    },
+    {
+      "id": "wm_20260820210441_1",
+      "name": "월마트 (736)",
+      "discovered_at": "2026-08-20T21:04:41.924315Z"
+    },
+    {
+      "id": "wm_20260820210441_2",
+      "name": "월마트 (684)",
+      "discovered_at": "2026-08-20T21:04:41.924319Z"
+    },
+    {
+      "id": "wm_20260820214104_0",
+      "name": "월마트 (926)",
+      "discovered_at": "2026-08-20T21:41:04.144678Z"
+    },
+    {
+      "id": "wm_20260820214104_1",
+      "name": "월마트 (390)",
+      "discovered_at": "2026-08-20T21:41:04.144693Z"
+    },
+    {
+      "id": "wm_20260820214104_2",
+      "name": "월마트 (175)",
+      "discovered_at": "2026-08-20T21:41:04.144702Z"
+    },
+    {
+      "id": "wm_20260820214104_3",
+      "name": "월마트 (881)",
+      "discovered_at": "2026-08-20T21:41:04.144708Z"
+    },
+    {
+      "id": "wm_20260820221134_0",
+      "name": "월마트 (306)",
+      "discovered_at": "2026-08-20T22:11:34.733824Z"
+    },
+    {
+      "id": "wm_20260820221134_1",
+      "name": "월마트 (652)",
+      "discovered_at": "2026-08-20T22:11:34.733833Z"
+    },
+    {
+      "id": "wm_20260820221134_2",
+      "name": "월마트 (522)",
+      "discovered_at": "2026-08-20T22:11:34.733837Z"
+    },
+    {
+      "id": "wm_20260820224908_0",
+      "name": "월마트 (945)",
+      "discovered_at": "2026-08-20T22:49:08.149264Z"
+    },
+    {
+      "id": "wm_20260820224908_1",
+      "name": "월마트 (547)",
+      "discovered_at": "2026-08-20T22:49:08.149277Z"
+    },
+    {
+      "id": "wm_20260820224908_2",
+      "name": "월마트 (405)",
+      "discovered_at": "2026-08-20T22:49:08.149284Z"
+    },
+    {
+      "id": "wm_20260820224908_3",
+      "name": "월마트 (608)",
+      "discovered_at": "2026-08-20T22:49:08.149289Z"
+    },
+    {
+      "id": "wm_20260820231435_0",
+      "name": "월마트 (207)",
+      "discovered_at": "2026-08-20T23:14:35.664628Z"
+    },
+    {
+      "id": "wm_20260820231435_1",
+      "name": "월마트 (157)",
+      "discovered_at": "2026-08-20T23:14:35.664642Z"
+    },
+    {
+      "id": "wm_20260820231435_2",
+      "name": "월마트 (273)",
+      "discovered_at": "2026-08-20T23:14:35.664674Z"
+    },
+    {
+      "id": "wm_20260820234503_0",
+      "name": "월마트 (195)",
+      "discovered_at": "2026-08-20T23:45:03.708931Z"
+    },
+    {
+      "id": "wm_20260820234503_1",
+      "name": "월마트 (764)",
+      "discovered_at": "2026-08-20T23:45:03.708940Z"
+    },
+    {
+      "id": "wm_20260820234503_2",
+      "name": "월마트 (568)",
+      "discovered_at": "2026-08-20T23:45:03.708944Z"
+    },
+    {
+      "id": "wm_20260820234503_3",
+      "name": "월마트 (933)",
+      "discovered_at": "2026-08-20T23:45:03.708947Z"
+    },
+    {
+      "id": "wm_20260821002538_0",
+      "name": "월마트 (282)",
+      "discovered_at": "2026-08-21T00:25:38.600112Z"
+    },
+    {
+      "id": "wm_20260821002538_1",
+      "name": "월마트 (519)",
+      "discovered_at": "2026-08-21T00:25:38.600121Z"
+    },
+    {
+      "id": "wm_20260821002538_2",
+      "name": "월마트 (206)",
+      "discovered_at": "2026-08-21T00:25:38.600125Z"
+    },
+    {
+      "id": "wm_20260821002538_3",
+      "name": "월마트 (574)",
+      "discovered_at": "2026-08-21T00:25:38.600129Z"
+    },
+    {
+      "id": "wm_20260821020913_0",
+      "name": "월마트 (855)",
+      "discovered_at": "2026-08-21T02:09:13.116348Z"
+    },
+    {
+      "id": "wm_20260821020913_1",
+      "name": "월마트 (268)",
+      "discovered_at": "2026-08-21T02:09:13.116361Z"
+    },
+    {
+      "id": "wm_20260821020913_2",
+      "name": "월마트 (739)",
+      "discovered_at": "2026-08-21T02:09:13.116366Z"
+    },
+    {
+      "id": "wm_20260821020913_3",
+      "name": "월마트 (256)",
+      "discovered_at": "2026-08-21T02:09:13.116371Z"
+    },
+    {
+      "id": "wm_20260821020913_4",
+      "name": "월마트 (728)",
+      "discovered_at": "2026-08-21T02:09:13.116376Z"
+    },
+    {
+      "id": "wm_20260821031642_0",
+      "name": "월마트 (236)",
+      "discovered_at": "2026-08-21T03:16:42.267729Z"
+    },
+    {
+      "id": "wm_20260821031642_1",
+      "name": "월마트 (895)",
+      "discovered_at": "2026-08-21T03:16:42.267740Z"
+    },
+    {
+      "id": "wm_20260821031642_2",
+      "name": "월마트 (913)",
+      "discovered_at": "2026-08-21T03:16:42.267745Z"
+    },
+    {
+      "id": "wm_20260821031642_3",
+      "name": "월마트 (559)",
+      "discovered_at": "2026-08-21T03:16:42.267750Z"
+    },
+    {
+      "id": "wm_20260821040607_0",
+      "name": "월마트 (333)",
+      "discovered_at": "2026-08-21T04:06:07.179070Z"
+    },
+    {
+      "id": "wm_20260821040607_1",
+      "name": "월마트 (983)",
+      "discovered_at": "2026-08-21T04:06:07.179081Z"
+    },
+    {
+      "id": "wm_20260821040607_2",
+      "name": "월마트 (432)",
+      "discovered_at": "2026-08-21T04:06:07.179085Z"
+    },
+    {
+      "id": "wm_20260821040607_3",
+      "name": "월마트 (608)",
+      "discovered_at": "2026-08-21T04:06:07.179089Z"
+    },
+    {
+      "id": "wm_20260821040607_4",
+      "name": "월마트 (443)",
+      "discovered_at": "2026-08-21T04:06:07.179093Z"
+    },
+    {
+      "id": "wm_20260821045236_0",
+      "name": "월마트 (526)",
+      "discovered_at": "2026-08-21T04:52:36.913941Z"
+    },
+    {
+      "id": "wm_20260821045236_1",
+      "name": "월마트 (438)",
+      "discovered_at": "2026-08-21T04:52:36.913952Z"
+    },
+    {
+      "id": "wm_20260821045236_2",
+      "name": "월마트 (121)",
+      "discovered_at": "2026-08-21T04:52:36.913959Z"
+    },
+    {
+      "id": "wm_20260821053632_0",
+      "name": "월마트 (977)",
+      "discovered_at": "2026-08-21T05:36:32.257649Z"
+    },
+    {
+      "id": "wm_20260821053632_1",
+      "name": "월마트 (846)",
+      "discovered_at": "2026-08-21T05:36:32.257661Z"
+    },
+    {
+      "id": "wm_20260821053632_2",
+      "name": "월마트 (509)",
+      "discovered_at": "2026-08-21T05:36:32.257667Z"
+    },
+    {
+      "id": "wm_20260821053632_3",
+      "name": "월마트 (537)",
+      "discovered_at": "2026-08-21T05:36:32.257673Z"
+    },
+    {
+      "id": "wm_20260821053632_4",
+      "name": "월마트 (245)",
+      "discovered_at": "2026-08-21T05:36:32.257678Z"
+    },
+    {
+      "id": "wm_20260821060331_0",
+      "name": "월마트 (761)",
+      "discovered_at": "2026-08-21T06:03:31.373616Z"
+    },
+    {
+      "id": "wm_20260821060331_1",
+      "name": "월마트 (205)",
+      "discovered_at": "2026-08-21T06:03:31.373624Z"
+    },
+    {
+      "id": "wm_20260821060331_2",
+      "name": "월마트 (387)",
+      "discovered_at": "2026-08-21T06:03:31.373628Z"
+    },
+    {
+      "id": "wm_20260821060331_3",
+      "name": "월마트 (721)",
+      "discovered_at": "2026-08-21T06:03:31.373630Z"
+    },
+    {
+      "id": "wm_20260821060331_4",
+      "name": "월마트 (949)",
+      "discovered_at": "2026-08-21T06:03:31.373633Z"
+    },
+    {
+      "id": "wm_20260821070537_0",
+      "name": "월마트 (831)",
+      "discovered_at": "2026-08-21T07:05:37.209845Z"
+    },
+    {
+      "id": "wm_20260821070537_1",
+      "name": "월마트 (462)",
+      "discovered_at": "2026-08-21T07:05:37.209858Z"
+    },
+    {
+      "id": "wm_20260821070537_2",
+      "name": "월마트 (824)",
+      "discovered_at": "2026-08-21T07:05:37.209867Z"
+    },
+    {
+      "id": "wm_20260821070537_3",
+      "name": "월마트 (551)",
+      "discovered_at": "2026-08-21T07:05:37.209872Z"
+    },
+    {
+      "id": "wm_20260821070537_4",
+      "name": "월마트 (535)",
+      "discovered_at": "2026-08-21T07:05:37.209878Z"
+    },
+    {
+      "id": "wm_20260821075458_0",
+      "name": "월마트 (988)",
+      "discovered_at": "2026-08-21T07:54:58.393938Z"
+    },
+    {
+      "id": "wm_20260821075458_1",
+      "name": "월마트 (477)",
+      "discovered_at": "2026-08-21T07:54:58.393950Z"
+    },
+    {
+      "id": "wm_20260821075458_2",
+      "name": "월마트 (271)",
+      "discovered_at": "2026-08-21T07:54:58.393956Z"
+    },
+    {
+      "id": "wm_20260821075458_3",
+      "name": "월마트 (858)",
+      "discovered_at": "2026-08-21T07:54:58.393962Z"
+    },
+    {
+      "id": "wm_20260821075458_4",
+      "name": "월마트 (531)",
+      "discovered_at": "2026-08-21T07:54:58.393967Z"
+    },
+    {
+      "id": "wm_20260821084648_0",
+      "name": "월마트 (888)",
+      "discovered_at": "2026-08-21T08:46:48.522031Z"
+    },
+    {
+      "id": "wm_20260821084648_1",
+      "name": "월마트 (560)",
+      "discovered_at": "2026-08-21T08:46:48.522045Z"
+    },
+    {
+      "id": "wm_20260821084648_2",
+      "name": "월마트 (630)",
+      "discovered_at": "2026-08-21T08:46:48.522051Z"
+    },
+    {
+      "id": "wm_20260821092157_0",
+      "name": "월마트 (601)",
+      "discovered_at": "2026-08-21T09:21:57.620939Z"
+    },
+    {
+      "id": "wm_20260821092157_1",
+      "name": "월마트 (456)",
+      "discovered_at": "2026-08-21T09:21:57.620950Z"
+    },
+    {
+      "id": "wm_20260821092157_2",
+      "name": "월마트 (300)",
+      "discovered_at": "2026-08-21T09:21:57.620955Z"
+    },
+    {
+      "id": "wm_20260821092157_3",
+      "name": "월마트 (818)",
+      "discovered_at": "2026-08-21T09:21:57.620959Z"
+    },
+    {
+      "id": "wm_20260821092157_4",
+      "name": "월마트 (746)",
+      "discovered_at": "2026-08-21T09:21:57.620964Z"
+    },
+    {
+      "id": "wm_20260821100204_0",
+      "name": "월마트 (894)",
+      "discovered_at": "2026-08-21T10:02:04.690839Z"
+    },
+    {
+      "id": "wm_20260821100204_1",
+      "name": "월마트 (101)",
+      "discovered_at": "2026-08-21T10:02:04.690846Z"
+    },
+    {
+      "id": "wm_20260821100204_2",
+      "name": "월마트 (168)",
+      "discovered_at": "2026-08-21T10:02:04.690850Z"
+    },
+    {
+      "id": "wm_20260821101522_0",
+      "name": "월마트 뷰티·스킨케어 후보 (429)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T10:15:22.228013Z"
+    },
+    {
+      "id": "wm_20260821101522_1",
+      "name": "월마트 뷰티·스킨케어 후보 (525)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T10:15:22.228025Z"
+    },
+    {
+      "id": "wm_20260821101522_2",
+      "name": "월마트 뷰티·스킨케어 후보 (828)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T10:15:22.228034Z"
+    },
+    {
+      "id": "wm_20260821101522_3",
+      "name": "월마트 뷰티·스킨케어 후보 (234)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T10:15:22.228039Z"
+    },
+    {
+      "id": "wm_20260821101522_4",
+      "name": "월마트 뷰티·스킨케어 후보 (191)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T10:15:22.228045Z"
+    },
+    {
+      "id": "wm_20260821104457_0",
+      "name": "월마트 뷰티·스킨케어 후보 (751)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T10:44:57.864504Z"
+    },
+    {
+      "id": "wm_20260821104457_1",
+      "name": "월마트 뷰티·스킨케어 후보 (476)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T10:44:57.864516Z"
+    },
+    {
+      "id": "wm_20260821104457_2",
+      "name": "월마트 뷰티·스킨케어 후보 (553)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T10:44:57.864522Z"
+    },
+    {
+      "id": "wm_20260821104457_3",
+      "name": "월마트 뷰티·스킨케어 후보 (216)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T10:44:57.864527Z"
+    },
+    {
+      "id": "wm_20260821104457_4",
+      "name": "월마트 뷰티·스킨케어 후보 (120)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T10:44:57.864533Z"
+    },
+    {
+      "id": "wm_20260821111230_0",
+      "name": "월마트 뷰티·스킨케어 후보 (208)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T11:12:30.601285Z"
+    },
+    {
+      "id": "wm_20260821111230_1",
+      "name": "월마트 뷰티·스킨케어 후보 (124)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T11:12:30.601298Z"
+    },
+    {
+      "id": "wm_20260821111230_2",
+      "name": "월마트 뷰티·스킨케어 후보 (337)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T11:12:30.601304Z"
+    },
+    {
+      "id": "wm_20260821111230_3",
+      "name": "월마트 뷰티·스킨케어 후보 (309)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T11:12:30.601309Z"
+    },
+    {
+      "id": "wm_20260821111230_4",
+      "name": "월마트 뷰티·스킨케어 후보 (143)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T11:12:30.601315Z"
+    },
+    {
+      "id": "wm_20260821121704_0",
+      "name": "월마트 뷰티·스킨케어 후보 (387)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T12:17:04.660602Z"
+    },
+    {
+      "id": "wm_20260821121704_1",
+      "name": "월마트 뷰티·스킨케어 후보 (996)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T12:17:04.660616Z"
+    },
+    {
+      "id": "wm_20260821121704_2",
+      "name": "월마트 뷰티·스킨케어 후보 (757)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T12:17:04.660622Z"
+    },
+    {
+      "id": "wm_20260821131743_0",
+      "name": "월마트 뷰티·스킨케어 후보 (161)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T13:17:43.330688Z"
+    },
+    {
+      "id": "wm_20260821131743_1",
+      "name": "월마트 뷰티·스킨케어 후보 (657)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T13:17:43.330701Z"
+    },
+    {
+      "id": "wm_20260821131743_2",
+      "name": "월마트 뷰티·스킨케어 후보 (431)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T13:17:43.330711Z"
+    },
+    {
+      "id": "wm_20260821131743_3",
+      "name": "월마트 뷰티·스킨케어 후보 (529)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T13:17:43.330717Z"
+    },
+    {
+      "id": "wm_20260821140310_0",
+      "name": "월마트 뷰티·스킨케어 후보 (552)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T14:03:10.766255Z"
+    },
+    {
+      "id": "wm_20260821140310_1",
+      "name": "월마트 뷰티·스킨케어 후보 (410)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T14:03:10.766266Z"
+    },
+    {
+      "id": "wm_20260821140310_2",
+      "name": "월마트 뷰티·스킨케어 후보 (955)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T14:03:10.766271Z"
+    },
+    {
+      "id": "wm_20260821140310_3",
+      "name": "월마트 뷰티·스킨케어 후보 (484)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T14:03:10.766279Z"
+    },
+    {
+      "id": "wm_20260821140310_4",
+      "name": "월마트 뷰티·스킨케어 후보 (686)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T14:03:10.766284Z"
+    },
+    {
+      "id": "wm_20260821145151_0",
+      "name": "월마트 뷰티·스킨케어 후보 (569)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T14:51:51.924132Z"
+    },
+    {
+      "id": "wm_20260821145151_1",
+      "name": "월마트 뷰티·스킨케어 후보 (381)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T14:51:51.924140Z"
+    },
+    {
+      "id": "wm_20260821145151_2",
+      "name": "월마트 뷰티·스킨케어 후보 (175)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T14:51:51.924143Z"
+    },
+    {
+      "id": "wm_20260821145151_3",
+      "name": "월마트 뷰티·스킨케어 후보 (702)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T14:51:51.924146Z"
+    },
+    {
+      "id": "wm_20260821153754_0",
+      "name": "월마트 뷰티·스킨케어 후보 (411)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T15:37:54.829827Z"
+    },
+    {
+      "id": "wm_20260821153754_1",
+      "name": "월마트 뷰티·스킨케어 후보 (654)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T15:37:54.829835Z"
+    },
+    {
+      "id": "wm_20260821153754_2",
+      "name": "월마트 뷰티·스킨케어 후보 (845)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T15:37:54.829838Z"
+    },
+    {
+      "id": "wm_20260821153754_3",
+      "name": "월마트 뷰티·스킨케어 후보 (197)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T15:37:54.829841Z"
+    },
+    {
+      "id": "wm_20260821153754_4",
+      "name": "월마트 뷰티·스킨케어 후보 (844)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T15:37:54.829844Z"
+    },
+    {
+      "id": "wm_20260821160428_0",
+      "name": "월마트 뷰티·스킨케어 후보 (931)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T16:04:28.774886Z"
+    },
+    {
+      "id": "wm_20260821160428_1",
+      "name": "월마트 뷰티·스킨케어 후보 (720)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T16:04:28.774901Z"
+    },
+    {
+      "id": "wm_20260821160428_2",
+      "name": "월마트 뷰티·스킨케어 후보 (102)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T16:04:28.774908Z"
+    },
+    {
+      "id": "wm_20260821160428_3",
+      "name": "월마트 뷰티·스킨케어 후보 (920)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T16:04:28.774913Z"
+    },
+    {
+      "id": "wm_20260821164939_0",
+      "name": "월마트 뷰티·스킨케어 후보 (799)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T16:49:39.948375Z"
+    },
+    {
+      "id": "wm_20260821164939_1",
+      "name": "월마트 뷰티·스킨케어 후보 (373)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T16:49:39.948389Z"
+    },
+    {
+      "id": "wm_20260821164939_2",
+      "name": "월마트 뷰티·스킨케어 후보 (778)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T16:49:39.948395Z"
+    },
+    {
+      "id": "wm_20260821164939_3",
+      "name": "월마트 뷰티·스킨케어 후보 (355)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T16:49:39.948400Z"
+    },
+    {
+      "id": "wm_20260821171929_0",
+      "name": "월마트 뷰티·스킨케어 후보 (933)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T17:19:29.490619Z"
+    },
+    {
+      "id": "wm_20260821171929_1",
+      "name": "월마트 뷰티·스킨케어 후보 (789)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T17:19:29.490629Z"
+    },
+    {
+      "id": "wm_20260821171929_2",
+      "name": "월마트 뷰티·스킨케어 후보 (491)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T17:19:29.490634Z"
+    },
+    {
+      "id": "wm_20260821171929_3",
+      "name": "월마트 뷰티·스킨케어 후보 (265)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T17:19:29.490639Z"
+    },
+    {
+      "id": "wm_20260821171929_4",
+      "name": "월마트 뷰티·스킨케어 후보 (828)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T17:19:29.490645Z"
+    },
+    {
+      "id": "wm_20260821175315_0",
+      "name": "월마트 뷰티·스킨케어 후보 (536)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T17:53:15.659393Z"
+    },
+    {
+      "id": "wm_20260821175315_1",
+      "name": "월마트 뷰티·스킨케어 후보 (940)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T17:53:15.659406Z"
+    },
+    {
+      "id": "wm_20260821175315_2",
+      "name": "월마트 뷰티·스킨케어 후보 (402)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T17:53:15.659411Z"
+    },
+    {
+      "id": "wm_20260821184245_0",
+      "name": "월마트 뷰티·스킨케어 후보 (329)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T18:42:45.998111Z"
+    },
+    {
+      "id": "wm_20260821184245_1",
+      "name": "월마트 뷰티·스킨케어 후보 (333)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T18:42:45.998127Z"
+    },
+    {
+      "id": "wm_20260821184245_2",
+      "name": "월마트 뷰티·스킨케어 후보 (773)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T18:42:45.998133Z"
+    },
+    {
+      "id": "wm_20260821184245_3",
+      "name": "월마트 뷰티·스킨케어 후보 (915)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T18:42:45.998138Z"
+    },
+    {
+      "id": "wm_20260821191609_0",
+      "name": "월마트 뷰티·스킨케어 후보 (164)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T19:16:09.101017Z"
+    },
+    {
+      "id": "wm_20260821191609_1",
+      "name": "월마트 뷰티·스킨케어 후보 (637)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T19:16:09.101028Z"
+    },
+    {
+      "id": "wm_20260821191609_2",
+      "name": "월마트 뷰티·스킨케어 후보 (119)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T19:16:09.101033Z"
+    },
+    {
+      "id": "wm_20260821191609_3",
+      "name": "월마트 뷰티·스킨케어 후보 (763)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T19:16:09.101037Z"
+    },
+    {
+      "id": "wm_20260821194258_0",
+      "name": "월마트 뷰티·스킨케어 후보 (126)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T19:42:58.656015Z"
+    },
+    {
+      "id": "wm_20260821194258_1",
+      "name": "월마트 뷰티·스킨케어 후보 (337)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T19:42:58.656024Z"
+    },
+    {
+      "id": "wm_20260821194258_2",
+      "name": "월마트 뷰티·스킨케어 후보 (768)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T19:42:58.656028Z"
+    },
+    {
+      "id": "wm_20260821194258_3",
+      "name": "월마트 뷰티·스킨케어 후보 (997)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T19:42:58.656031Z"
+    },
+    {
+      "id": "wm_20260821200243_0",
+      "name": "월마트 뷰티·스킨케어 후보 (545)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T20:02:43.768467Z"
+    },
+    {
+      "id": "wm_20260821200243_1",
+      "name": "월마트 뷰티·스킨케어 후보 (897)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T20:02:43.768481Z"
+    },
+    {
+      "id": "wm_20260821200243_2",
+      "name": "월마트 뷰티·스킨케어 후보 (861)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T20:02:43.768487Z"
+    },
+    {
+      "id": "wm_20260821203834_0",
+      "name": "월마트 뷰티·스킨케어 후보 (923)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T20:38:34.493248Z"
+    },
+    {
+      "id": "wm_20260821203834_1",
+      "name": "월마트 뷰티·스킨케어 후보 (430)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T20:38:34.493268Z"
+    },
+    {
+      "id": "wm_20260821203834_2",
+      "name": "월마트 뷰티·스킨케어 후보 (712)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T20:38:34.493277Z"
+    },
+    {
+      "id": "wm_20260821210051_0",
+      "name": "월마트 뷰티·스킨케어 후보 (669)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T21:00:51.134500Z"
+    },
+    {
+      "id": "wm_20260821210051_1",
+      "name": "월마트 뷰티·스킨케어 후보 (439)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T21:00:51.134513Z"
+    },
+    {
+      "id": "wm_20260821210051_2",
+      "name": "월마트 뷰티·스킨케어 후보 (508)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T21:00:51.134518Z"
+    },
+    {
+      "id": "wm_20260821213640_0",
+      "name": "월마트 뷰티·스킨케어 후보 (192)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T21:36:40.192547Z"
+    },
+    {
+      "id": "wm_20260821213640_1",
+      "name": "월마트 뷰티·스킨케어 후보 (349)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T21:36:40.192557Z"
+    },
+    {
+      "id": "wm_20260821213640_2",
+      "name": "월마트 뷰티·스킨케어 후보 (336)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T21:36:40.192560Z"
+    },
+    {
+      "id": "wm_20260821213640_3",
+      "name": "월마트 뷰티·스킨케어 후보 (359)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T21:36:40.192564Z"
+    },
+    {
+      "id": "wm_20260821213640_4",
+      "name": "월마트 뷰티·스킨케어 후보 (217)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T21:36:40.192568Z"
+    },
+    {
+      "id": "wm_20260821215909_0",
+      "name": "월마트 뷰티·스킨케어 후보 (179)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T21:59:09.297845Z"
+    },
+    {
+      "id": "wm_20260821215909_1",
+      "name": "월마트 뷰티·스킨케어 후보 (858)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T21:59:09.297858Z"
+    },
+    {
+      "id": "wm_20260821215909_2",
+      "name": "월마트 뷰티·스킨케어 후보 (103)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T21:59:09.297865Z"
+    },
+    {
+      "id": "wm_20260821215909_3",
+      "name": "월마트 뷰티·스킨케어 후보 (391)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T21:59:09.297875Z"
+    },
+    {
+      "id": "wm_20260821223517_0",
+      "name": "월마트 뷰티·스킨케어 후보 (443)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T22:35:17.497973Z"
+    },
+    {
+      "id": "wm_20260821223517_1",
+      "name": "월마트 뷰티·스킨케어 후보 (729)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T22:35:17.497985Z"
+    },
+    {
+      "id": "wm_20260821223517_2",
+      "name": "월마트 뷰티·스킨케어 후보 (522)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T22:35:17.497991Z"
+    },
+    {
+      "id": "wm_20260821223517_3",
+      "name": "월마트 뷰티·스킨케어 후보 (365)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T22:35:17.497996Z"
+    },
+    {
+      "id": "wm_20260821225915_0",
+      "name": "월마트 뷰티·스킨케어 후보 (649)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T22:59:15.788898Z"
+    },
+    {
+      "id": "wm_20260821225915_1",
+      "name": "월마트 뷰티·스킨케어 후보 (499)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T22:59:15.788906Z"
+    },
+    {
+      "id": "wm_20260821225915_2",
+      "name": "월마트 뷰티·스킨케어 후보 (544)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T22:59:15.788909Z"
+    },
+    {
+      "id": "wm_20260821225915_3",
+      "name": "월마트 뷰티·스킨케어 후보 (341)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T22:59:15.788912Z"
+    },
+    {
+      "id": "wm_20260821225915_4",
+      "name": "월마트 뷰티·스킨케어 후보 (755)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T22:59:15.788915Z"
+    },
+    {
+      "id": "wm_20260821230816_0",
+      "name": "월마트 뷰티·스킨케어 후보 (429)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T23:08:16.245509Z"
+    },
+    {
+      "id": "wm_20260821230816_1",
+      "name": "월마트 뷰티·스킨케어 후보 (866)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T23:08:16.245521Z"
+    },
+    {
+      "id": "wm_20260821230816_2",
+      "name": "월마트 뷰티·스킨케어 후보 (353)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T23:08:16.245527Z"
+    },
+    {
+      "id": "wm_20260821230816_3",
+      "name": "월마트 뷰티·스킨케어 후보 (993)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T23:08:16.245546Z"
+    },
+    {
+      "id": "wm_20260821230816_4",
+      "name": "월마트 뷰티·스킨케어 후보 (773)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T23:08:16.245551Z"
+    },
+    {
+      "id": "wm_20260821233248_0",
+      "name": "월마트 뷰티·스킨케어 후보 (722)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T23:32:48.422152Z"
+    },
+    {
+      "id": "wm_20260821233248_1",
+      "name": "월마트 뷰티·스킨케어 후보 (921)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T23:32:48.422165Z"
+    },
+    {
+      "id": "wm_20260821233248_2",
+      "name": "월마트 뷰티·스킨케어 후보 (983)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T23:32:48.422171Z"
+    },
+    {
+      "id": "wm_20260821235802_0",
+      "name": "월마트 뷰티·스킨케어 후보 (241)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T23:58:02.374796Z"
+    },
+    {
+      "id": "wm_20260821235802_1",
+      "name": "월마트 뷰티·스킨케어 후보 (888)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T23:58:02.374808Z"
+    },
+    {
+      "id": "wm_20260821235802_2",
+      "name": "월마트 뷰티·스킨케어 후보 (239)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T23:58:02.374814Z"
+    },
+    {
+      "id": "wm_20260821235802_3",
+      "name": "월마트 뷰티·스킨케어 후보 (730)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T23:58:02.374819Z"
+    },
+    {
+      "id": "wm_20260821235802_4",
+      "name": "월마트 뷰티·스킨케어 후보 (309)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-21T23:58:02.374825Z"
+    },
+    {
+      "id": "wm_20260822014400_0",
+      "name": "월마트 뷰티·스킨케어 후보 (319)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-22T01:44:00.194801Z"
+    },
+    {
+      "id": "wm_20260822014400_1",
+      "name": "월마트 뷰티·스킨케어 후보 (775)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-22T01:44:00.194814Z"
+    },
+    {
+      "id": "wm_20260822014400_2",
+      "name": "월마트 뷰티·스킨케어 후보 (857)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-22T01:44:00.194820Z"
+    },
+    {
+      "id": "wm_20260822014400_3",
+      "name": "월마트 뷰티·스킨케어 후보 (268)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-22T01:44:00.194825Z"
+    },
+    {
+      "id": "wm_20260822024218_0",
+      "name": "월마트 뷰티·스킨케어 후보 (331)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-22T02:42:18.302803Z"
+    },
+    {
+      "id": "wm_20260822024218_1",
+      "name": "월마트 뷰티·스킨케어 후보 (835)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-22T02:42:18.302811Z"
+    },
+    {
+      "id": "wm_20260822024218_2",
+      "name": "월마트 뷰티·스킨케어 후보 (858)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-22T02:42:18.302814Z"
+    },
+    {
+      "id": "wm_20260822024218_3",
+      "name": "월마트 뷰티·스킨케어 후보 (479)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-22T02:42:18.302817Z"
+    },
+    {
+      "id": "wm_20260822024218_4",
+      "name": "월마트 뷰티·스킨케어 후보 (688)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-22T02:42:18.302821Z"
+    },
+    {
+      "id": "wm_20260823025150_0",
+      "name": "월마트 뷰티·스킨케어 후보 (294)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-23T02:51:50.047217Z"
+    },
+    {
+      "id": "wm_20260823025150_1",
+      "name": "월마트 뷰티·스킨케어 후보 (923)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-23T02:51:50.047233Z"
+    },
+    {
+      "id": "wm_20260823025150_2",
+      "name": "월마트 뷰티·스킨케어 후보 (702)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-23T02:51:50.047240Z"
+    },
+    {
+      "id": "wm_20260823035400_0",
+      "name": "월마트 뷰티·스킨케어 후보 (160)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-23T03:54:00.202617Z"
+    },
+    {
+      "id": "wm_20260823035400_1",
+      "name": "월마트 뷰티·스킨케어 후보 (305)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-23T03:54:00.202628Z"
+    },
+    {
+      "id": "wm_20260823035400_2",
+      "name": "월마트 뷰티·스킨케어 후보 (153)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-23T03:54:00.202633Z"
+    },
+    {
+      "id": "wm_20260823044210_0",
+      "name": "월마트 뷰티·스킨케어 후보 (370)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-23T04:42:10.127590Z"
+    },
+    {
+      "id": "wm_20260823044210_1",
+      "name": "월마트 뷰티·스킨케어 후보 (464)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-23T04:42:10.127604Z"
+    },
+    {
+      "id": "wm_20260823044210_2",
+      "name": "월마트 뷰티·스킨케어 후보 (339)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-23T04:42:10.127610Z"
+    },
+    {
+      "id": "wm_20260823044210_3",
+      "name": "월마트 뷰티·스킨케어 후보 (997)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-23T04:42:10.127615Z"
+    }
+  ],
+  "metadata": {
+    "data_quality": "100% 실제 데이터",
+    "verified": true
+  },
+  "last_updated": "2026-08-23T04:42:10.127618Z",
+  "target_category": "다이소 뷰티 & 스킨케어",
+  "focus_keywords": [
+    "Walmart beauty",
+    "Walmart skincare",
+    "K-beauty"
+  ]
+}

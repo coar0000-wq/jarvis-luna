@@ -2,7 +2,7 @@
 title: "AI Image Generation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-23T03:29:13.286481+00:00
+updated_at: 2026-08-23T07:12:09.371290+00:00
 tags: [{', '.join(tags)}]
 ---
 
@@ -10,10 +10,10 @@ tags: [{', '.join(tags)}]
 
 실제 수집 레코드 **3건**이 이 주제에 연결되어 있습니다.
 
-- [[Record-002--G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pati]]
-- [[Record-005--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]]
-- [[Record-010--MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use]]
+- [[Record-001--MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use]]
+- [[Record-006--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]]
+- [[Record-009--G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pati]]
 
 ## Connected nodes
 
-[[Record-002--G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pati]] [[Record-005--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]] [[Record-010--MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use]] [[Source--arXiv]] [[JARVIS Real Knowledge Index]]
+[[Record-001--MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use]] [[Record-006--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]] [[Record-009--G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pati]] [[Source--arXiv]] [[JARVIS Real Knowledge Index]]

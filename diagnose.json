@@ -1,0 +1,71 @@
+{
+  "steps": [
+    {
+      "cmd": "git rebase --abort",
+      "rc": 128,
+      "out": "",
+      "err": "g_products.json\n\tdata/real_products.json\n\tdata/walmart_products.json\n\tdeploy-hero.bat\n\tdeploy-hero.ps1\n\tdeploy-hero.py\n\tencode-image.py\n\tnaver_product_discovery.py\n\toliveyoung_product_discovery.py\n\tphase_26_progress_realtime.py\n\tupdate_tasks.py\n\twalmart_product_discovery.py\nPlease move or remove them before you reset.\nAborting\nfatal: could not move back to d172e0121c23b2ddf243e5135747fba5cc485e07\n"
+    },
+    {
+      "cmd": "git fetch origin main",
+      "rc": 0,
+      "out": "",
+      "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n"
+    },
+    {
+      "cmd": "git merge --no-edit origin/main",
+      "rc": 128,
+      "out": "",
+      "err": "-to-start-a-beverage-company.md\n\tobsidian/JARVIS_LUNA/Knowledge/Records/Record-034--Metas-Ad-Algorithm-Explained.md\n\tobsidian/JARVIS_LUNA/Knowledge/Records/Record-035--What-is-Psychological-Pricing.md\n\tobsidian/JARVIS_LUNA/Knowledge/Records/Record-036--How-to-use-AI-as-a-personal-shopper.md\n\tobsidia\nAborting\nerror: unable to unlink old 'deploy_stdout.txt': Invalid argument\nfatal: read-tree failed\n"
+    },
+    {
+      "cmd": "git push origin HEAD:main",
+      "rc": 1,
+      "out": "",
+      "err": "ected]        HEAD -> main (non-fast-forward)\nerror: failed to push some refs to 'https://github.com/coar0000-wq/jarvis-luna.git'\nhint: Updates were rejected because the tip of your current branch is behind\nhint: its remote counterpart. If you want to integrate the remote changes,\nhint: use 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n"
+    },
+    {
+      "cmd": "git fetch origin main",
+      "rc": 0,
+      "out": "",
+      "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n"
+    },
+    {
+      "cmd": "git rev-parse HEAD",
+      "rc": 0,
+      "out": "2cbd809f5e8238173b902c8a90633f9f5d7d7c5a\n",
+      "err": ""
+    },
+    {
+      "cmd": "git rev-parse origin/main",
+      "rc": 0,
+      "out": "f7c3c3901fe0763692979c1d393ff31622513910\n",
+      "err": ""
+    },
+    {
+      "cmd": "git status --short -b",
+      "rc": 0,
+      "out": "oducts.json\n?? data/oliveyoung_products.json\n?? data/real_products.json\n?? data/walmart_products.json\n?? deploy-hero.bat\n?? deploy-hero.ps1\n?? deploy-hero.py\n?? diagnose.json\n?? encode-image.py\n?? naver_product_discovery.py\n?? oliveyoung_product_discovery.py\n?? phase_26_progress_realtime.py\n?? scripts/diagnose_state.py\n?? scripts/recover_state.py\n?? update_tasks.py\n?? walmart_product_discovery.py\n",
+      "err": ""
+    }
+  ],
+  "rebase_was_in_progress": true,
+  "push_rc": 1,
+  "head": "2cbd809f5e8238173b902c8a90633f9f5d7d7c5a",
+  "origin_main": "f7c3c3901fe0763692979c1d393ff31622513910",
+  "status": "## main...origin/main [ahead 1, behind 1]\n M .github/workflows/daiso-real-collection.yml\n M JARVIS_AUTO_DEPLOY.bat\n M JARVIS_AUTO_DEPLOY.py\n M RUN_DEPLOY.bat\n M deploy_stdout.txt\n M obsidian/JARVIS_LUNA/.obsidian/app.json\n M obsidian/JARVIS_LUNA/.obsidian/appearance.json\n M obsidian/JARVIS_LUNA/.obsidian/core-plugins.json\n M obsidian/JARVIS_LUNA/.obsidian/graph.json\n M obsidian/JARVIS_LUNA/README.md\n M scripts/backup_repo.py\n M scripts/daiso/archive_legacy.py\n M scripts/daiso/category_map.json\n M scripts/daiso/collect_daiso.py\n M scripts/strip_hero_graph.py\n?? .github/workflows/daiso-discovery",
+  "rebase_still_in_progress": true,
+  "checks": {
+    "corpus_accumulates": true,
+    "workflow_push_retry": true,
+    "liquid_glass": true,
+    "live_right_aligned": true,
+    "daiso_workflow": true,
+    "daiso_collector": true,
+    "archive_exists": true,
+    "fake_collector_gone": false,
+    "vault_obsidian_cfg": true,
+    "vault_sync_script": true
+  },
+  "SUCCESS": false
+}

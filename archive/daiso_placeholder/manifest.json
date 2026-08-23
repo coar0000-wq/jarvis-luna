@@ -1,0 +1,26 @@
+{
+  "archived_at": "2026-08-23T05:57:21.551602+00:00",
+  "moved": [
+    "amazon_product_discovery.py",
+    "walmart_product_discovery.py",
+    "oliveyoung_product_discovery.py",
+    "naver_product_discovery.py",
+    "data/amazon_products.json",
+    "data/walmart_products.json",
+    "data/oliveyoung_products.json",
+    "data/naver_shopping_products.json",
+    "data/real_products.json",
+    "phase_26_progress_realtime.py",
+    "update_tasks.py"
+  ],
+  "already_absent": [
+    "daiso_product_discovery.py",
+    "data/daiso_products.json",
+    "data/daiso_business_plan.json",
+    "data/data/data/data/daiso_business_plan.json",
+    "cumulative_products.json",
+    "data/cumulative_products.json",
+    ".github/workflows/daiso-discovery.yml"
+  ],
+  "reason": "실측 근거 없음 (난수 생성 및 단위 오류)"
+}

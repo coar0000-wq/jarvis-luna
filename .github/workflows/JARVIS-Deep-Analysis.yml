@@ -139,14 +139,29 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/knowledge data/dashboard_runtime.json obsidian/JARVIS_LUNA index.html
+          # index.html은 사람이 편집하는 화면이라 파이프라인 커밋 대상에서 제외한다
+          git add data/knowledge data/dashboard_runtime.json obsidian/JARVIS_LUNA
 
           if git diff --cached --quiet; then
             echo 'No generated changes to commit'
-          else
-            git commit -m 'Run real knowledge pipeline and publish MoE graph state'
-            git push origin HEAD:main
+            exit 0
           fi
+
+          git commit -m 'Run real knowledge pipeline and publish MoE graph state'
+
+          # 다른 푸시와 겹치면 non-fast-forward로 거부된다. 리베이스 후 재시도한다.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "pushed on attempt ${attempt}"
+              exit 0
+            fi
+            echo "push rejected, rebasing (attempt ${attempt})"
+            git fetch origin main
+            git rebase --autostash origin/main || { git rebase --abort || true; exit 1; }
+            sleep $(( attempt * 5 ))
+          done
+          echo 'push failed after 5 attempts'
+          exit 1
 
       - name: Complete summary
         if: always()

@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "dashboard_runtime.json"
 VAULT = ROOT / "obsidian" / "JARVIS_LUNA"
 KNOWLEDGE = ROOT / "data" / "knowledge"
+HISTORY = KNOWLEDGE / "cumulative_history.json"
 
 
 def load_json(path: Path, default):
@@ -94,10 +95,66 @@ def training_metrics() -> dict:
     }
 
 
+FIELDS = ("records", "notes", "links")
+
+
+def cumulative_metrics(graph: dict, sources: dict) -> dict:
+    """Maintain an append-only ledger so the dashboard can show 기존 + 신규.
+
+    The pipeline regenerates every artifact from scratch on each run, so a
+    single snapshot cannot tell us what was added. We therefore persist each
+    run's snapshot and accumulate only the positive deltas. The ledger starts
+    the first time this runs — earlier history is not invented.
+    """
+    now = datetime.now(timezone.utc).isoformat()
+    current = {
+        "records": int(sources.get("record_count") or 0),
+        "notes": int(graph.get("notes") or 0),
+        "links": int(graph.get("links") or 0),
+    }
+
+    hist = load_json(HISTORY, None)
+    if not isinstance(hist, dict) or "totals" not in hist:
+        hist = {
+            "schema_version": 1,
+            "note": ("누적 집계는 이 파일이 처음 생성된 시점부터 시작합니다. "
+                     "그 이전 실행 기록이 없으므로 과거 수치는 추정하지 않습니다."),
+            "baseline": {**current, "recorded_at": now},
+            "totals": dict(current),
+            "last_snapshot": {**current, "recorded_at": now},
+            "runs": [],
+        }
+        added = {k: 0 for k in FIELDS}
+    else:
+        prev = hist.get("last_snapshot") or {}
+        added = {}
+        for k in FIELDS:
+            before = prev.get(k)
+            before = current[k] if before is None else int(before)
+            added[k] = max(0, current[k] - before)
+            hist["totals"][k] = int(hist["totals"].get(k, 0)) + added[k]
+        hist["last_snapshot"] = {**current, "recorded_at": now}
+
+    hist["runs"] = (hist.get("runs", []) + [{"at": now, **current, "added": added}])[-90:]
+    hist["updated_at"] = now
+    HISTORY.parent.mkdir(parents=True, exist_ok=True)
+    HISTORY.write_text(json.dumps(hist, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    return {
+        "totals": {k: int(hist["totals"].get(k, 0)) for k in FIELDS},
+        "prior_totals": {k: int(hist["totals"].get(k, 0)) - added[k] for k in FIELDS},
+        "added_this_run": added,
+        "current_snapshot": current,
+        "since": hist["baseline"].get("recorded_at"),
+        "runs_recorded": len(hist["runs"]),
+    }
+
+
 def main() -> None:
     graph = graph_metrics()
     sources = source_metrics()
     training = training_metrics()
+    cumulative = cumulative_metrics(graph, sources)
     now = datetime.now(timezone.utc).isoformat()
     payload = {
         "schema_version": 1,
@@ -113,6 +170,7 @@ def main() -> None:
         "sources": sources,
         "graph": graph,
         "training": training,
+        "cumulative": cumulative,
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(payload, ensure_ascii=False, indent=2))
