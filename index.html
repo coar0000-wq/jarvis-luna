@@ -80,6 +80,34 @@
         .dashboard-card h4{color:#999;font-size:12px;margin-bottom:15px;text-transform:uppercase;display:flex;align-items:center;gap:8px;}
         .dashboard-card-icon{width:16px;height:16px;background:#2a2a2a;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:10px;}
 
+        /* Daiso commerce card — deep navy panel with tinted metric tiles */
+        #daiso.dashboard-card{background:linear-gradient(160deg,#0b1626 0%,#0d1b2e 55%,#0a1524 100%);border:1px solid #16304f;padding:24px;}
+        @media(min-width:900px){#daiso.dashboard-card{grid-column:span 2;}}
+        #daiso h4{color:#4da3ff;font-size:15px;font-weight:700;text-transform:none;letter-spacing:0;margin-bottom:18px;}
+        #daiso .dashboard-card-icon{background:#16304f;width:20px;height:20px;font-size:12px;}
+        .dz-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+        .dz-tile{border-radius:10px;padding:16px 14px;text-align:center;border:1px solid rgba(255,255,255,0.06);}
+        .dz-tile .k{font-size:12px;color:#9fb3c8;margin-bottom:8px;}
+        .dz-tile .v{font-size:26px;font-weight:800;line-height:1.15;}
+        .dz-tile .u{font-size:12px;font-weight:500;color:#9fb3c8;margin-top:4px;}
+        .dz-green{background:linear-gradient(160deg,#0d2a1e,#0b2018);}
+        .dz-green .v{color:#22e07a;}
+        .dz-blue{background:linear-gradient(160deg,#0f2438,#0c1d2e);}
+        .dz-blue .v{color:#3ec7f0;}
+        .dz-amber{background:linear-gradient(160deg,#2a2418,#201d14);}
+        .dz-amber .v{color:#f5a524;}
+        .dz-slate{background:linear-gradient(160deg,#1b2434,#151d2a);}
+        .dz-slate .v{color:#c7d5e4;}
+        .dz-rule{height:1px;background:#16304f;margin:18px 0 14px;}
+        .dz-check{list-style:none;display:flex;flex-direction:column;gap:9px;}
+        .dz-check li{display:flex;align-items:flex-start;gap:9px;font-size:13px;color:#dbe6f2;}
+        .dz-check .mark{flex-shrink:0;width:15px;height:15px;border-radius:3px;display:flex;align-items:center;
+            justify-content:center;font-size:10px;font-weight:700;background:#1a7f4b;color:#eafff3;}
+        .dz-check li.pending{color:#8fa3b8;}
+        .dz-check li.pending .mark{background:#243447;color:#7d90a6;}
+        .dz-note{margin-top:14px;font-size:11px;line-height:1.75;color:#6d8199;}
+        @media(max-width:480px){.dz-tile .v{font-size:22px;}}
+
         /* Log List */
         .log-list{list-style:none;margin-top:15px;}
         .log-list li{padding:10px 0;border-bottom:1px solid #2a2a2a;font-size:13px;color:#999;display:flex;justify-content:space-between;gap:15px;}
@@ -309,7 +337,7 @@
                 <div id="training-panel" style="margin-top:15px;color:#999;font-size:13px;">불러오는 중…</div>
             </div>
             <div class="dashboard-card" id="daiso">
-                <h4><span class="dashboard-card-icon">🛒</span>다이소 뷰티 원가 분석</h4>
+                <h4><span class="dashboard-card-icon">🛒</span>Shopify + 다이소 Dropshipping</h4>
                 <div id="daiso-panel" style="margin-top:15px;color:#999;font-size:13px;">불러오는 중…</div>
             </div>
         </div>
@@ -492,52 +520,55 @@
             const box = $('daiso-panel');
             if (!box) return;
             if (!s) {
-                box.innerHTML = '<div style="color:#666;">수집 실행 기록 없음' +
-                    '<div style="font-size:11px;margin-top:6px;">뷰티관 12개 카테고리 · 첫 수집 대기 중</div></div>';
+                box.innerHTML = '<div class="dz-note">수집 실행 기록이 없습니다. ' +
+                    '뷰티관 12개 카테고리 첫 수집을 기다리는 중입니다.</div>';
                 return;
             }
             const run = s.last_run || {}, t = s.totals || {}, fx = s.fx || {};
-            const [label, color] = RUN_LABEL[run.status] || [run.status || '알 수 없음', '#999'];
-            const krwToUsd = fx.ok ? Number(fx.krw_to_usd) : null;
-            const usd = krw => (krw == null || krwToUsd == null)
-                ? '–' : '$' + (krw * krwToUsd).toFixed(2);
-
-            // 기존 profit_analysis 표기 방식: 카테고리 · 원화 원가 · 환율 환산 USD
             const cats = t.categories || {};
-            const rows = Object.entries(cats)
-                .filter(([, v]) => v.count > 0)
-                .sort((a, b) => b[1].count - a[1].count)
-                .map(([k, v]) =>
-                    '<tr><td style="padding:5px 0;color:#e0e0e0;">' + esc(k) + '</td>' +
-                    '<td style="text-align:right;color:#8b8b8b;">' + v.count + '</td>' +
-                    '<td style="text-align:right;color:#e0e0e0;">' +
-                    (v.avg_price_krw != null ? v.avg_price_krw.toLocaleString('ko-KR') + '원' : '–') + '</td>' +
-                    '<td style="text-align:right;color:#58a6ff;">' + usd(v.avg_price_krw) + '</td></tr>')
-                .join('');
+            const filled = Object.values(cats).filter(v => v.count > 0).length;
+            const total = Object.keys(cats).length || 12;
+            const krwToUsd = fx.ok ? Number(fx.krw_to_usd) : null;
+            const avgKrw = t.avg_price_krw;
+            const avgUsd = (avgKrw != null && krwToUsd != null)
+                ? '$' + (avgKrw * krwToUsd).toFixed(2) : '–';
 
+            const tile = (cls, k, v, u) =>
+                '<div class="dz-tile ' + cls + '"><div class="k">' + k + '</div>' +
+                '<div class="v">' + v + '</div>' +
+                (u ? '<div class="u">' + u + '</div>' : '') + '</div>';
+
+            const check = (done, text) =>
+                '<li' + (done ? '' : ' class="pending"') + '>' +
+                '<span class="mark">' + (done ? '✓' : '·') + '</span><span>' + text + '</span></li>';
+
+            const collected = (t.products || 0) > 0;
             box.innerHTML =
-                '<div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px;">' +
-                '<span style="color:#e0e0e0;font-weight:600;font-size:15px;">' + (t.products || 0) + '개</span>' +
-                '<span style="color:' + color + ';font-size:12px;">' + esc(label) + '</span></div>' +
-                (fx.ok
-                    ? '<div style="font-size:11px;color:#8b8b8b;margin-bottom:10px;">1 USD = ' +
-                      Number(fx.usd_to_krw).toLocaleString('ko-KR') + ' KRW · ' + esc(fx.as_of) + ' 기준</div>'
-                    : '<div style="font-size:11px;color:#d29922;margin-bottom:10px;">환율 조회 실패</div>') +
-                (rows
-                    ? '<table style="width:100%;font-size:12px;border-collapse:collapse;">' +
-                      '<thead><tr style="color:#666;font-size:11px;font-weight:400;">' +
-                      '<th style="text-align:left;padding-bottom:6px;">카테고리</th>' +
-                      '<th style="text-align:right;">수</th>' +
-                      '<th style="text-align:right;">평균 원가</th>' +
-                      '<th style="text-align:right;">USD 환산</th></tr></thead>' +
-                      '<tbody>' + rows + '</tbody></table>'
-                    : '<div style="color:#666;font-size:12px;">뷰티관 상품 수집 대기 중</div>') +
-                '<div style="margin-top:12px;font-size:11px;line-height:1.8;color:#666;">' +
-                (run.finished_at ? KST(run.finished_at) + ' 수집 · ' : '') +
-                '뷰티관 12개 카테고리' +
-                (run.skipped_not_beauty ? ' · 비대상 ' + run.skipped_not_beauty + '건 제외' : '') +
-                (run.message ? '<br><span style="color:#d29922;">' + esc(run.message) + '</span>' : '') +
-                '<br>원가는 상품 페이지 실측 원화가 · 배송비·관세 미포함</div>';
+                '<div class="dz-grid">' +
+                tile('dz-green', '수집 상품 수', (t.products || 0) + '개',
+                     run.finished_at ? KST(run.finished_at) + ' 기준' : '수집 전') +
+                tile('dz-blue', '평균 원가', avgUsd,
+                     avgKrw != null ? avgKrw.toLocaleString('ko-KR') + '원' : '데이터 없음') +
+                tile('dz-slate', '카테고리', filled + ' / ' + total, '뷰티관 하위 분류') +
+                tile('dz-amber', '적용 환율',
+                     fx.ok ? Number(fx.usd_to_krw).toLocaleString('ko-KR') : '–',
+                     fx.ok ? 'KRW / USD · ' + esc(fx.as_of) : '조회 실패') +
+                '</div>' +
+                '<div class="dz-rule"></div>' +
+                '<ul class="dz-check">' +
+                check(true, '수집 파이프라인 구축 · robots.txt 준수 (30초 간격)') +
+                check(fx.ok, '실시간 환율 연동') +
+                check(collected, '뷰티관 실상품 수집' +
+                      (collected ? '' : ' · 첫 수집 대기')) +
+                check(false, '배송비·관세 확정 후 마진 산출') +
+                check(false, 'Shopify 스토어 연동') +
+                '</ul>' +
+                '<div class="dz-note">' +
+                '원가는 다이소몰 상품 페이지에 표시된 실측 원화가입니다. 배송비·관세·수수료는 ' +
+                '확정 견적이 없어 계산에 넣지 않았습니다.' +
+                (run.skipped_not_beauty ? '<br>이번 실행에서 뷰티관 밖 ' + run.skipped_not_beauty + '건 제외.' : '') +
+                (run.message ? '<br><span style="color:#f5a524;">' + esc(run.message) + '</span>' : '') +
+                '</div>';
         }
 
         function markOffline(msg) {
