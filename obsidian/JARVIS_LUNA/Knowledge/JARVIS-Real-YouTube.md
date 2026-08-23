@@ -2,7 +2,7 @@
 title: "JARVIS Real YouTube"
 source: "YouTube channel RSS"
 status: ok
-collected_at: 2026-08-23T19:19:34.684348+00:00
+collected_at: 2026-08-23T19:44:45.088352+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real YouTube
@@ -108,7 +108,7 @@ tags: [jarvis, real-data, knowledge]
 ### How to take your audience from "Hi!" to "Buy!"
 - 원문: [https://www.youtube.com/shorts/FcsakJ0mdrY](https://www.youtube.com/shorts/FcsakJ0mdrY)
 - published: 2026-08-23T17:00:07+00:00
-- updated: 2026-08-23T18:10:56+00:00
+- updated: 2026-08-23T19:22:27+00:00
 - channel_id: UC7geKfz2-IH0rsgRBtHTm0g
 
 ### Luxury brand secrets they don't want you to know 🤫
