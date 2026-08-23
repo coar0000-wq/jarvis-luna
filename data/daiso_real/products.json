@@ -1,0 +1,50 @@
+{
+  "updated_at": "2026-08-23T05:44:00.828553+00:00",
+  "source": "daisomall.co.kr (robots.txt 허용 경로 /pd/pdr/)",
+  "truth_note": "가격은 상품 페이지에 표시된 실제 원화 금액입니다. 배송비·관세·수수료는 확정 견적이 없어 계산하지 않습니다.",
+  "count": 3,
+  "products": [
+    {
+      "pd_no": "1045444",
+      "name": "플라워 실리콘 냄비 받침",
+      "brand": "다이소",
+      "site_category": "냄비/냄비뚜껑/냄비받침",
+      "price_krw": 1000,
+      "rating": 4.8,
+      "review_count": 389,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240424/l99QDj2fk5WOSE4SxSUX1045444_00_00l99QDj2fk5WOSE4SxSUX.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045444",
+      "collected_at": "2026-08-23T05:43:43.349050+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "주방용품"
+    },
+    {
+      "pd_no": "59902",
+      "name": "강화유리 뚜껑 30cm",
+      "brand": "다이소",
+      "site_category": "냄비/냄비뚜껑/냄비받침",
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 187,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231201/o9Yd5VUDr38CUcJpIbdM59902_00_00o9Yd5VUDr38CUcJpIbdM.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=59902",
+      "collected_at": "2026-08-23T05:43:49.223022+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "주방용품"
+    },
+    {
+      "pd_no": "58665",
+      "name": "편수 양은냄비 14cm",
+      "brand": "다이소",
+      "site_category": "냄비/냄비뚜껑/냄비받침",
+      "price_krw": 3000,
+      "rating": 4.7,
+      "review_count": 132,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231129/3WX5bwnJRIT4eaqVLTOH58665_00_003WX5bwnJRIT4eaqVLTOH.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=58665",
+      "collected_at": "2026-08-23T05:43:55.583888+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "주방용품"
+    }
+  ]
+}

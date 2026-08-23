@@ -1,0 +1,14 @@
+{
+  "archived_at": "2026-08-23T05:43:40.102310+00:00",
+  "moved": [
+    "daiso_product_discovery.py",
+    "data/daiso_products.json",
+    "data/daiso_business_plan.json",
+    "data/data/data/data/daiso_business_plan.json",
+    "cumulative_products.json",
+    "data/cumulative_products.json",
+    ".github/workflows/daiso-discovery.yml"
+  ],
+  "already_absent": [],
+  "reason": "실측 근거 없음 (난수 생성 및 단위 오류)"
+}

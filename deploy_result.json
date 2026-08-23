@@ -1,16 +1,16 @@
 {
-  "time": "2026-08-23T14:28:38.969534",
+  "time": "2026-08-23T14:30:09.926680",
   "steps": [
     {
       "cmd": "git add -A",
       "rc": 0,
       "out": "",
-      "err": "warning: in the working copy of 'RUN_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/strip_hero_graph.py', LF will be replaced by CRLF the next time Git touches it\n"
+      "err": "warning: in the working copy of 'JARVIS_AUTO_DEPLOY.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'RUN_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\n"
     },
     {
-      "cmd": "git commit -m JARVIS: remove hero canvas animation",
+      "cmd": "git commit -m JARVIS: drop fabricated automation metric, fix deploy verifier",
       "rc": 0,
-      "out": "[main d2eb8ee] JARVIS: remove hero canvas animation\n 7 files changed, 67 insertions(+), 327 deletions(-)\n create mode 100644 scripts/strip_hero_graph.py\n",
+      "out": "[main c216f6d] JARVIS: drop fabricated automation metric, fix deploy verifier\n 4 files changed, 20 insertions(+), 116 deletions(-)\n",
       "err": ""
     },
     {
@@ -29,7 +29,7 @@
       "cmd": "git push origin HEAD:main",
       "rc": 0,
       "out": "",
-      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   aab545f..d2eb8ee  HEAD -> main\n"
+      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   d2eb8ee..c216f6d  HEAD -> main\n"
     },
     {
       "cmd": "git fetch origin main",
@@ -46,13 +46,13 @@
     {
       "cmd": "git rev-parse HEAD",
       "rc": 0,
-      "out": "d2eb8ee08702c25d41c39bc8d9eac0fcf1feed4e\n",
+      "out": "c216f6d693358f04beac7fe6965a3e5643e354f1\n",
       "err": ""
     },
     {
       "cmd": "git rev-parse origin/main",
       "rc": 0,
-      "out": "d2eb8ee08702c25d41c39bc8d9eac0fcf1feed4e\n",
+      "out": "c216f6d693358f04beac7fe6965a3e5643e354f1\n",
       "err": ""
     },
     {
@@ -64,11 +64,12 @@
   ],
   "push_returncode": 0,
   "branch": "main",
-  "local_head": "d2eb8ee08702c25d41c39bc8d9eac0fcf1feed4e",
-  "remote_head": "d2eb8ee08702c25d41c39bc8d9eac0fcf1feed4e",
+  "local_head": "c216f6d693358f04beac7fe6965a3e5643e354f1",
+  "remote_head": "c216f6d693358f04beac7fe6965a3e5643e354f1",
   "status": "## main...origin/main\n",
-  "remote_has_living_graph": false,
   "remote_has_hero_bg": true,
+  "remote_reads_runtime_json": true,
+  "remote_canvas_removed": true,
   "remote_broken_glyphs": 0,
-  "SUCCESS": false
+  "SUCCESS": true
 }

@@ -1,0 +1,40 @@
+{
+  "last_run": {
+    "started_at": "2026-08-23T05:43:40.221903+00:00",
+    "requested": 3,
+    "ok": 3,
+    "parse_failed": 0,
+    "http_error": 0,
+    "delay_seconds": 5.0,
+    "max_items": 3,
+    "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
+    "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
+    "finished_at": "2026-08-23T05:44:00.820728+00:00",
+    "status": "ok"
+  },
+  "totals": {
+    "products": 3,
+    "target_per_bucket": 100,
+    "by_bucket": {
+      "주방용품": 3,
+      "홈데코": 0,
+      "문구용품": 0,
+      "일상용품": 0,
+      "미용건강": 0,
+      "미분류": 0
+    },
+    "price_krw_min": 1000,
+    "price_krw_max": 5000,
+    "with_rating": 3
+  },
+  "fx": {
+    "usd_to_krw": 1384.23,
+    "krw_to_usd": 0.00072242,
+    "as_of": "2026-08-21",
+    "source": "https://api.frankfurter.app/latest?from=USD&to=KRW",
+    "fetched_at": "2026-08-23T05:44:01.723058+00:00",
+    "ok": true
+  },
+  "sitemap_urls_known": 19739,
+  "visited": 3
+}

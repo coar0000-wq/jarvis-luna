@@ -1,1 +1,19 @@
-=== START 2026-08-23 14:30:09.82 === 
+=== START 2026-08-23 14:43:40.02 === 
+--- archive legacy --- 
+moved: ['daiso_product_discovery.py', 'data/daiso_products.json', 'data/daiso_business_plan.json', 'data/data/data/data/daiso_business_plan.json', 'cumulative_products.json', 'data/cumulative_products.json', '.github/workflows/daiso-discovery.yml']
+absent: []
+--- smoke test collector (3 items, 5s delay) --- 
+{
+  "started_at": "2026-08-23T05:43:40.221903+00:00",
+  "requested": 3,
+  "ok": 3,
+  "parse_failed": 0,
+  "http_error": 0,
+  "delay_seconds": 5.0,
+  "max_items": 3,
+  "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
+  "robots_note": "robots.txt: User-agent * ¡æ Allow /pd/pdr/, Crawl-delay 30",
+  "finished_at": "2026-08-23T05:44:00.820728+00:00",
+  "status": "ok"
+}
+--- deploy --- 
