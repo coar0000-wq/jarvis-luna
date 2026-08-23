@@ -2,7 +2,7 @@
 title: "JARVIS Real YouTube"
 source: "YouTube channel RSS"
 status: ok
-collected_at: 2026-08-23T22:15:02.226353+00:00
+collected_at: 2026-08-23T22:46:58.251463+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real YouTube
@@ -126,7 +126,7 @@ tags: [jarvis, real-data, knowledge]
 ### What’s new with Shop?
 - 원문: [https://www.youtube.com/shorts/pLW7Ffqddxo](https://www.youtube.com/shorts/pLW7Ffqddxo)
 - published: 2026-08-22T12:00:12+00:00
-- updated: 2026-08-23T13:17:51+00:00
+- updated: 2026-08-23T22:25:52+00:00
 - channel_id: UC7geKfz2-IH0rsgRBtHTm0g
 
 ### How to design and build a Shopify store with Claude
