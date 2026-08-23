@@ -27,7 +27,7 @@
 
         /* Hero Section - Wine Cellar Theme with Background Image */
         .hero{background:url('hero-bg.jpg') center/cover no-repeat,linear-gradient(135deg,#5a4a3a 0%,#8b6f47 25%,#a0845c 50%,#6b5844 75%,#4a3a2a 100%);background-size:cover;background-position:center center;background-attachment:scroll;background-repeat:no-repeat;border-radius:12px;overflow:hidden;padding:60px 50px;margin-bottom:40px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;position:relative;box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
-        .hero::before{content:'';position:absolute;inset:0;background:rgba(0,0,0,0.3);border-radius:inherit;z-index:1;}
+        .hero::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,0.32) 0%,rgba(0,0,0,0.42) 45%,rgba(0,0,0,0.62) 100%);border-radius:inherit;z-index:1;}
         .hero-text{position:relative;z-index:2;text-shadow:2px 2px 4px rgba(0,0,0,0.5);order:2;}
         .hero-visual{position:relative;z-index:2;order:1;align-self:center;}
         .hero-text h1{color:#fff;text-shadow:2px 2px 8px rgba(0,0,0,0.7);}
@@ -118,12 +118,16 @@
             .today-intelligence h3{font-size:11px;}
             #updated-at{font-size:11px;}
             .container{max-width:100%;padding:20px;}
-            .hero{padding:30px 20px;gap:20px;border-radius:8px;background-attachment:scroll;}
+            .hero{padding:28px 20px;gap:18px;border-radius:8px;background-attachment:scroll;}
+            /* Photo backgrounds are bright on phones — darken so text stays legible */
+            .hero::before{background:linear-gradient(180deg,rgba(0,0,0,0.62) 0%,rgba(0,0,0,0.5) 55%,rgba(0,0,0,0.66) 100%);}
             .log-list li{flex-wrap:wrap;gap:6px;}
-            .hero-text h1{font-size:36px;margin-bottom:15px;}
-            .hero-text p{font-size:14px;margin-bottom:20px;}
-            .btn{padding:10px 20px;font-size:12px;}
-            #knowledge-graph{height:280px;}
+            .hero-text h1{font-size:30px;line-height:1.25;margin-bottom:14px;letter-spacing:0;}
+            .hero-text p{font-size:14px;line-height:1.6;margin-bottom:20px;}
+            .hero-logo{font-size:13px;margin-bottom:14px;}
+            .hero-buttons{gap:10px;}
+            .btn{padding:11px 18px;font-size:13px;flex:1;}
+            #knowledge-graph{height:230px;}
             .today-intelligence{padding:20px;margin-bottom:30px;border-radius:8px;}
             .today-intelligence h3{font-size:11px;margin-bottom:15px;}
             .intelligence-items{flex-direction:column;gap:15px;}
@@ -159,12 +163,12 @@
             .logo{font-size:15px;}
             .intelligence-items{gap:10px;}
             .container{padding:15px;}
-            .hero{padding:20px 15px;gap:15px;}
-            .hero-text h1{font-size:28px;margin-bottom:10px;}
-            .hero-text p{font-size:13px;margin-bottom:15px;}
-            .hero-buttons{flex-direction:column;gap:10px;}
-            .btn{padding:10px 16px;font-size:11px;width:100%;}
-            #knowledge-graph{height:220px;}
+            .hero{padding:22px 16px;gap:14px;}
+            .hero-text h1{font-size:24px;line-height:1.28;margin-bottom:12px;}
+            .hero-text p{font-size:13px;margin-bottom:16px;}
+            .hero-buttons{gap:8px;}
+            .btn{padding:11px 12px;font-size:12px;flex:1;}
+            #knowledge-graph{height:190px;}
             .today-intelligence{padding:15px;margin-bottom:20px;}
             .today-intelligence h3{font-size:10px;margin-bottom:12px;}
             .intelligence-items{gap:12px;}
@@ -513,6 +517,10 @@
                 const ctx = this.ctx;
                 ctx.clearRect(0, 0, this.W, this.H);
 
+                // A soft dark rim keeps the network legible over any photo
+                ctx.shadowColor = 'rgba(0,0,0,0.55)';
+                ctx.shadowBlur = 4;
+
                 // Edges — fade with length so the web feels elastic
                 ctx.lineCap = 'round';
                 for (const c of this.connections) {
@@ -528,6 +536,9 @@
                     ctx.lineTo(b.x, b.y);
                     ctx.stroke();
                 }
+
+                // Glows must not be shadowed or they smear
+                ctx.shadowBlur = 0;
 
                 // Travelling signals
                 for (const p of this.pulses) {
@@ -562,12 +573,15 @@
                     ctx.arc(n.x, n.y, halo, 0, Math.PI * 2);
                     ctx.fill();
 
+                    ctx.shadowColor = 'rgba(0,0,0,0.6)';
+                    ctx.shadowBlur = 5;
                     ctx.fillStyle = n.glow > 0.05
-                        ? 'rgba(' + Math.round(120 + n.glow * 80) + ',200,255,1)'
-                        : '#7ab8ff';
+                        ? 'rgba(' + Math.round(140 + n.glow * 80) + ',210,255,1)'
+                        : '#8cc4ff';
                     ctx.beginPath();
                     ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
                     ctx.fill();
+                    ctx.shadowBlur = 0;
                 }
             },
 

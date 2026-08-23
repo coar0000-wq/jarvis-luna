@@ -1,16 +1,16 @@
 {
-  "time": "2026-08-23T14:05:27.663658",
+  "time": "2026-08-23T14:07:12.579327",
   "steps": [
     {
       "cmd": "git add -A",
       "rc": 0,
       "out": "",
-      "err": "warning: in the working copy of 'JARVIS_AUTO_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of '_mobile_preview.html', LF will be replaced by CRLF the next time Git touches it\n"
+      "err": "warning: in the working copy of 'JARVIS_AUTO_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'mobile-preview.html', LF will be replaced by CRLF the next time Git touches it\n"
     },
     {
-      "cmd": "git commit -m JARVIS: temporary mobile preview harness",
+      "cmd": "git commit -m JARVIS: restore .nojekyll + mobile preview harness",
       "rc": 0,
-      "out": "[main 43a17f9] JARVIS: temporary mobile preview harness\n 3 files changed, 26 insertions(+), 11 deletions(-)\n create mode 100644 _mobile_preview.html\n",
+      "out": "[main 55f7c9b] JARVIS: restore .nojekyll + mobile preview harness\n 5 files changed, 28 insertions(+), 27 deletions(-)\n create mode 100644 .nojekyll\n delete mode 100644 _mobile_preview.html\n create mode 100644 mobile-preview.html\n",
       "err": ""
     },
     {
@@ -29,7 +29,7 @@
       "cmd": "git push origin HEAD:main",
       "rc": 0,
       "out": "",
-      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   7327d6c..43a17f9  HEAD -> main\n"
+      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   43a17f9..55f7c9b  HEAD -> main\n"
     },
     {
       "cmd": "git fetch origin main",
@@ -46,13 +46,13 @@
     {
       "cmd": "git rev-parse HEAD",
       "rc": 0,
-      "out": "43a17f935a85603f8a71422a076c4f51ec6ddacd\n",
+      "out": "55f7c9b709bb18da84d2b6ff8724c2ef532a86ce\n",
       "err": ""
     },
     {
       "cmd": "git rev-parse origin/main",
       "rc": 0,
-      "out": "43a17f935a85603f8a71422a076c4f51ec6ddacd\n",
+      "out": "55f7c9b709bb18da84d2b6ff8724c2ef532a86ce\n",
       "err": ""
     },
     {
@@ -64,8 +64,8 @@
   ],
   "push_returncode": 0,
   "branch": "main",
-  "local_head": "43a17f935a85603f8a71422a076c4f51ec6ddacd",
-  "remote_head": "43a17f935a85603f8a71422a076c4f51ec6ddacd",
+  "local_head": "55f7c9b709bb18da84d2b6ff8724c2ef532a86ce",
+  "remote_head": "55f7c9b709bb18da84d2b6ff8724c2ef532a86ce",
   "status": "## main...origin/main\n",
   "remote_has_living_graph": true,
   "remote_has_hero_bg": true,
