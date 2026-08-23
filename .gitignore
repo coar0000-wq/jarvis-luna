@@ -9,3 +9,6 @@ automation/logs/
 
 __pycache__/
 *.pyc
+
+deploy_result.json
+deploy_stdout.txt

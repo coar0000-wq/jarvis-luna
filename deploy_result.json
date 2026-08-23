@@ -1,16 +1,34 @@
 {
-  "time": "2026-08-23T13:26:36.582397",
+  "time": "2026-08-23T13:27:53.487025",
   "steps": [
+    {
+      "cmd": "git branch -f main HEAD",
+      "rc": 128,
+      "out": "",
+      "err": "fatal: cannot force update the branch 'main' used by worktree at 'C:/Users/Desktop/Claude/Projects/kms/jarvis-luna'\n"
+    },
+    {
+      "cmd": "git checkout main",
+      "rc": 1,
+      "out": "",
+      "err": "error: Your local changes to the following files would be overwritten by checkout:\n\tJARVIS_AUTO_DEPLOY.py\n\tdeploy_result.json\nPlease commit your changes or stash them before you switch branches.\nAborting\n"
+    },
+    {
+      "cmd": "git branch --set-upstream-to=origin/main main",
+      "rc": 0,
+      "out": "branch 'main' set up to track 'origin/main'.\n",
+      "err": ""
+    },
     {
       "cmd": "git add -A",
       "rc": 0,
       "out": "",
-      "err": "warning: in the working copy of 'JARVIS_AUTO_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'JARVIS_AUTO_DEPLOY.py', LF will be replaced by CRLF the next time Git touches it\n"
+      "err": "warning: in the working copy of 'JARVIS_AUTO_DEPLOY.py', LF will be replaced by CRLF the next time Git touches it\n"
     },
     {
-      "cmd": "git commit -m JARVIS: fix corrupted emoji glyphs in index.html",
+      "cmd": "git commit -m JARVIS: clean invalid UTF-8 bytes in index.html",
       "rc": 0,
-      "out": "[detached HEAD be3ad90] JARVIS: fix corrupted emoji glyphs in index.html\n 5 files changed, 133 insertions(+), 12 deletions(-)\n create mode 100644 JARVIS_AUTO_DEPLOY.bat\n create mode 100644 JARVIS_AUTO_DEPLOY.py\n create mode 100644 deploy_result.json\n create mode 100644 deploy_stdout.txt\n",
+      "out": "[detached HEAD baeba8b] JARVIS: clean invalid UTF-8 bytes in index.html\n 2 files changed, 40 insertions(+), 46 deletions(-)\n",
       "err": ""
     },
     {
@@ -26,15 +44,21 @@
       "err": ""
     },
     {
-      "cmd": "git push origin HEAD:main",
-      "rc": 0,
+      "cmd": "git push origin main",
+      "rc": 1,
       "out": "",
-      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   d59ffba..be3ad90  HEAD -> main\n"
+      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n ! [rejected]        main -> main (non-fast-forward)\nerror: failed to push some refs to 'https://github.com/coar0000-wq/jarvis-luna.git'\nhint: Updates were rejected because a pushed branch tip is behind its remote\nhint: counterpart. If you want to integrate the remote changes, use 'git pull'\nhint: before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n"
+    },
+    {
+      "cmd": "git rev-parse --abbrev-ref HEAD",
+      "rc": 0,
+      "out": "HEAD\n",
+      "err": ""
     },
     {
       "cmd": "git rev-parse HEAD",
       "rc": 0,
-      "out": "be3ad90d80e4dde33088c470c06c275627f245b9\n",
+      "out": "baeba8bc67ac1655cc346b3917d2d9f7e3700e6d\n",
       "err": ""
     },
     {
@@ -44,10 +68,12 @@
       "err": ""
     }
   ],
-  "push_returncode": 0,
-  "local_head": "be3ad90d80e4dde33088c470c06c275627f245b9",
+  "local_broken_before": 0,
+  "local_broken_after": 0,
+  "push_returncode": 1,
+  "branch": "HEAD",
+  "local_head": "baeba8bc67ac1655cc346b3917d2d9f7e3700e6d",
   "remote_head": "be3ad90d80e4dde33088c470c06c275627f245b9",
-  "remote_has_hero_bg": true,
-  "remote_broken_glyphs": 23,
-  "SUCCESS": true
+  "remote_check_error": "HTTP Error 404: Not Found",
+  "SUCCESS": false
 }
