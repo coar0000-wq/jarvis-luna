@@ -1,0 +1,114 @@
+{
+  "steps": [
+    {
+      "cmd": "git rebase --abort",
+      "rc": 0,
+      "out": "",
+      "err": ""
+    },
+    {
+      "cmd": "git fetch origin main",
+      "rc": 0,
+      "out": "",
+      "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n"
+    },
+    {
+      "cmd": "git merge --no-edit origin/main",
+      "rc": 1,
+      "out": "er_log.json\nCONFLICT (content): Merge conflict in data/scheduler_log.json\nAuto-merging deploy_stdout.txt\nCONFLICT (add/add): Merge conflict in deploy_stdout.txt\nAuto-merging index.html\nCONFLICT (content): Merge conflict in index.html\nAutomatic merge failed; fix conflicts and then commit the result.\n",
+      "err": ""
+    },
+    {
+      "cmd": "git add -A",
+      "rc": 0,
+      "out": "",
+      "err": ""
+    },
+    {
+      "cmd": "git commit -m JARVIS: recover from interrupted rebase, vault setup",
+      "rc": 0,
+      "out": "[main 2663622] JARVIS: recover from interrupted rebase, vault setup\n",
+      "err": ""
+    },
+    {
+      "cmd": "git push origin HEAD:main",
+      "rc": 0,
+      "out": "",
+      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   f5aa5a6..2663622  HEAD -> main\n"
+    },
+    {
+      "cmd": "git fetch origin main",
+      "rc": 0,
+      "out": "",
+      "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n"
+    },
+    {
+      "cmd": "git rev-parse HEAD",
+      "rc": 0,
+      "out": "26636226873fa52490df3ee8144c850baeeb9338\n",
+      "err": ""
+    },
+    {
+      "cmd": "git rev-parse origin/main",
+      "rc": 0,
+      "out": "26636226873fa52490df3ee8144c850baeeb9338\n",
+      "err": ""
+    },
+    {
+      "cmd": "git status --short -b",
+      "rc": 0,
+      "out": "## main...origin/main\n",
+      "err": ""
+    }
+  ],
+  "removed": [
+    "amazon_product_discovery.py",
+    "naver_product_discovery.py",
+    "oliveyoung_product_discovery.py",
+    "walmart_product_discovery.py",
+    "daiso_product_discovery.py",
+    "phase_26_progress_realtime.py",
+    "update_tasks.py",
+    "cumulative_products.json",
+    "deploy-hero.bat",
+    "deploy-hero.ps1",
+    "deploy-hero.py",
+    "encode-image.py",
+    "auto-apply-design.ps1",
+    "auto-deploy.ps1",
+    "copy-image-and-deploy.ps1",
+    "data/amazon_products.json",
+    "data/walmart_products.json",
+    "data/oliveyoung_products.json",
+    "data/naver_shopping_products.json",
+    "data/real_products.json",
+    "data/daiso_products.json",
+    "data/cumulative_products.json",
+    "data/daiso_business_plan.json",
+    ".github/workflows/daiso-discovery.yml"
+  ],
+  "kept_backup": [
+    "automation/vault_sync.py",
+    "automation/vault_sync.bat",
+    "automation/register_vault_sync.ps1",
+    "scripts/diagnose_state.py",
+    "scripts/recover_state.py",
+    ".gitignore"
+  ],
+  "push_rc": 0,
+  "head": "26636226873fa52490df3ee8144c850baeeb9338",
+  "origin_main": "26636226873fa52490df3ee8144c850baeeb9338",
+  "rebase_still": false,
+  "status": "## main...origin/main\n",
+  "checks": {
+    "corpus_accumulates": true,
+    "workflow_push_retry": true,
+    "liquid_glass": true,
+    "live_right_aligned": true,
+    "daiso_workflow": true,
+    "vault_graph_cfg": true,
+    "vault_sync_script": true,
+    "fake_collector_gone": false
+  },
+  "SUCCESS": false
+}

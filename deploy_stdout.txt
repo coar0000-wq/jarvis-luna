@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-START 
-C:\Users\Desktop\AppData\Local\Programs\Python\Python314\python.exe
-C:\Users\Desktop\AppData\Local\Microsoft\WindowsApps\python.exe
-=======
-=== RECOVER 2026-08-23 16:24:24.76 === 
-CHECK diagnose.json
->>>>>>> origin/main
+=== START 2026-08-23 16:26:13.69 === 
+  File "C:\Users\Desktop\Claude\Projects\kms\jarvis-luna\JARVIS_AUTO_DEPLOY.py", line 78
+    "out": (p.stdout or "")[-600:], "err": (p.stderr or "")[-600:]})
+                                                                  ^
+SyntaxError: unmatched '}'
+=== END 16:26:13.77 === 
