@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-23T11:45:05.297989+00:00",
+  "collected_at": "2026-08-23T12:25:14.996030+00:00",
   "sources": {
     "arxiv": {
       "status": "ok",
@@ -299,6 +299,15 @@
           "source": "YouTube channel RSS"
         },
         {
+          "title": "Luxury brand secrets they don't want you to know 🤫",
+          "published": "2026-08-23T12:00:12+00:00",
+          "updated": "2026-08-23T12:00:37+00:00",
+          "url": "https://www.youtube.com/shorts/P0-JhQ37nhw",
+          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
+          "channel": "@Shopify",
+          "source": "YouTube channel RSS"
+        },
+        {
           "title": "Pro SEO tips for product pages",
           "published": "2026-08-22T17:00:25+00:00",
           "updated": "2026-08-23T09:26:57+00:00",
@@ -420,15 +429,6 @@
           "published": "2026-08-09T12:00:05+00:00",
           "updated": "2026-08-09T12:00:28+00:00",
           "url": "https://www.youtube.com/shorts/rzk4_FFtdIg",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "The secret to content that works for you forever",
-          "published": "2026-08-08T17:00:05+00:00",
-          "updated": "2026-08-12T01:30:57+00:00",
-          "url": "https://www.youtube.com/shorts/5u5xANNqYxQ",
           "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
           "channel": "@Shopify",
           "source": "YouTube channel RSS"
