@@ -2,7 +2,7 @@
 title: "JARVIS Real YouTube"
 source: "YouTube channel RSS"
 status: ok
-collected_at: 2026-08-23T09:51:38.355550+00:00
+collected_at: 2026-08-23T10:17:37.118492+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real YouTube
