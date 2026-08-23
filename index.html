@@ -370,62 +370,78 @@
             },
 
             update() {
-                const time = Date.now() * 0.0008;
+                const time = Date.now() * 0.0015;
 
-                // Update node positions with flowing, organic movement
+                // Update node positions - ALIVE like organism movement
                 this.nodes.forEach((node, i) => {
-                    // Smooth flowing path across entire canvas - organic wave motion
-                    const flowX = Math.sin(time * node.frequency + node.phase) * (this.canvas.width * 0.3) +
-                                 Math.cos(time * node.frequency * 0.6 + node.phase + i) * (this.canvas.width * 0.15);
-                    const flowY = Math.cos(time * node.frequency + node.phase + i * 0.5) * (this.canvas.height * 0.3) +
-                                 Math.sin(time * node.frequency * 0.6 + node.phase) * (this.canvas.height * 0.15);
+                    // Multi-layered organic motion - like living creature
+                    const t1 = time * node.frequency;
+                    const t2 = time * node.frequency * 0.3;
+                    const t3 = time * node.frequency * 0.7;
 
-                    // Calculate base position with smooth circular motion
-                    const angle = time * node.frequency * 0.5 + node.phase;
-                    const radiusX = this.canvas.width * (0.3 + Math.sin(angle) * 0.15);
-                    const radiusY = this.canvas.height * (0.3 + Math.cos(angle * 0.7) * 0.15);
+                    // Complex flowing path
+                    const flowX = Math.sin(t1 + node.phase) * (this.canvas.width * 0.35) +
+                                 Math.cos(t2 + node.phase + i) * (this.canvas.width * 0.2) +
+                                 Math.sin(t3 + node.phase + i * 0.7) * (this.canvas.width * 0.1);
+                    const flowY = Math.cos(t1 + node.phase + i * 0.5) * (this.canvas.height * 0.35) +
+                                 Math.sin(t2 + node.phase) * (this.canvas.height * 0.2) +
+                                 Math.cos(t3 + node.phase + i * 0.3) * (this.canvas.height * 0.1);
+
+                    // Circular motion with variation
+                    const angle = time * node.frequency * 0.7 + node.phase;
+                    const radiusX = this.canvas.width * (0.3 + Math.sin(angle) * 0.2);
+                    const radiusY = this.canvas.height * (0.3 + Math.cos(angle * 0.6) * 0.2);
 
                     node.targetX = this.canvas.width * 0.5 + flowX + Math.cos(angle) * radiusX;
-                    node.targetY = this.canvas.height * 0.5 + flowY + Math.sin(angle * 0.8) * radiusY;
+                    node.targetY = this.canvas.height * 0.5 + flowY + Math.sin(angle * 0.9) * radiusY;
 
-                    // Extremely smooth easing for organic movement
-                    const easing = 0.06;
+                    // Responsive easing - feels alive
+                    const easing = 0.14;
                     node.x += (node.targetX - node.x) * easing;
                     node.y += (node.targetY - node.y) * easing;
 
-                    // Gentle velocity drift for fluidity
-                    if (Math.random() > 0.95) {
-                        node.vx = (Math.random() - 0.5) * 1.5;
-                        node.vy = (Math.random() - 0.5) * 1.5;
+                    // Frequent, strong impulses - alive behavior
+                    if (Math.random() > 0.82) {
+                        node.vx = (Math.random() - 0.5) * 4.5;
+                        node.vy = (Math.random() - 0.5) * 4.5;
                     }
 
-                    // Apply velocity with strong damping for smooth, fluid movement
-                    node.vx *= 0.93;
-                    node.vy *= 0.93;
-                    node.x += node.vx * 0.15;
-                    node.y += node.vy * 0.15;
+                    // Lighter damping - more energetic movement
+                    node.vx *= 0.87;
+                    node.vy *= 0.87;
+                    node.x += node.vx * 0.4;
+                    node.y += node.vy * 0.4;
 
-                    // Gentle repulsion from nearby nodes
+                    // STRONG repulsion + attraction forces
                     this.nodes.forEach((other, j) => {
                         if (i !== j) {
                             const dx = node.x - other.x;
                             const dy = node.y - other.y;
                             const dist = Math.sqrt(dx * dx + dy * dy);
-                            if (dist < 140 && dist > 1) {
-                                const force = (140 - dist) / 140 * 0.6;
+
+                            if (dist < 160 && dist > 2) {
+                                const force = (160 - dist) / 160 * 1.5;
                                 const angle = Math.atan2(dy, dx);
-                                node.vx += Math.cos(angle) * force * 0.3;
-                                node.vy += Math.sin(angle) * force * 0.3;
+                                node.vx += Math.cos(angle) * force * 0.6;
+                                node.vy += Math.sin(angle) * force * 0.6;
+                            }
+
+                            // Weak attraction to nearby nodes (pulls them together slightly)
+                            if (dist < 300 && dist > 50) {
+                                const attractForce = (300 - dist) / 300 * 0.2;
+                                const attractAngle = Math.atan2(dy, dx);
+                                node.vx -= Math.cos(attractAngle) * attractForce * 0.15;
+                                node.vy -= Math.sin(attractAngle) * attractForce * 0.15;
                             }
                         }
                     });
 
-                    // Smooth boundary conditions - let nodes flow to edges
-                    const margin = 15;
-                    if (node.x < margin) { node.x = margin; node.vx *= -0.7; }
-                    if (node.x > this.canvas.width - margin) { node.x = this.canvas.width - margin; node.vx *= -0.7; }
-                    if (node.y < margin) { node.y = margin; node.vy *= -0.7; }
-                    if (node.y > this.canvas.height - margin) { node.y = this.canvas.height - margin; node.vy *= -0.7; }
+                    // Energetic boundary bounce
+                    const margin = 20;
+                    if (node.x < margin) { node.x = margin; node.vx = Math.abs(node.vx) * 0.8; }
+                    if (node.x > this.canvas.width - margin) { node.x = this.canvas.width - margin; node.vx = -Math.abs(node.vx) * 0.8; }
+                    if (node.y < margin) { node.y = margin; node.vy = Math.abs(node.vy) * 0.8; }
+                    if (node.y > this.canvas.height - margin) { node.y = this.canvas.height - margin; node.vy = -Math.abs(node.vy) * 0.8; }
                 });
             },
 
