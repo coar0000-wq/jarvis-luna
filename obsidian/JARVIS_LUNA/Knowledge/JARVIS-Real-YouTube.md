@@ -2,7 +2,7 @@
 title: "JARVIS Real YouTube"
 source: "YouTube channel RSS"
 status: ok
-collected_at: 2026-08-23T20:15:38.484890+00:00
+collected_at: 2026-08-23T20:47:19.205601+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real YouTube
@@ -150,7 +150,7 @@ tags: [jarvis, real-data, knowledge]
 ### How to use Claude to Create Digital Products
 - 원문: [https://www.youtube.com/watch?v=tZW0x_tDhSk](https://www.youtube.com/watch?v=tZW0x_tDhSk)
 - published: 2026-08-17T15:30:07+00:00
-- updated: 2026-08-17T21:01:12+00:00
+- updated: 2026-08-21T00:44:28+00:00
 - channel_id: UC7geKfz2-IH0rsgRBtHTm0g
 
 ### How to start a clothing business
