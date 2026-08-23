@@ -31,7 +31,7 @@ R["status"] = run("git", "status", "--short", "-b").stdout[:600]
 try:
     u = "https://raw.githubusercontent.com/coar0000-wq/jarvis-luna/%s/index.html" % R["local_head"]
     html = urllib.request.urlopen(u, timeout=30).read().decode("utf-8", "replace")
-    R["remote_has_living_graph"] = "Living Knowledge Graph" in html
+    R["remote_has_living_graph"] = "hero-visual" in html and "Living Knowledge Graph" in html
     R["remote_has_hero_bg"] = "hero-bg.jpg" in html
     R["remote_broken_glyphs"] = html.count("�")
 except Exception as e:

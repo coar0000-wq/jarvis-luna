@@ -25,7 +25,8 @@
         /* Hero Section - Wine Cellar Theme with Background Image */
         .hero{background:url('hero-bg.jpg') center/cover no-repeat,linear-gradient(135deg,#5a4a3a 0%,#8b6f47 25%,#a0845c 50%,#6b5844 75%,#4a3a2a 100%);background-size:cover;background-position:center;background-attachment:fixed;border-radius:12px;padding:60px 50px;margin-bottom:40px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;position:relative;box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
         .hero::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.3);border-radius:12px;z-index:1;}
-        .hero-text{position:relative;z-index:2;text-shadow:2px 2px 4px rgba(0,0,0,0.5);}
+        .hero-text{position:relative;z-index:2;text-shadow:2px 2px 4px rgba(0,0,0,0.5);order:2;}
+        .hero-visual{position:relative;z-index:2;order:1;align-self:center;}
         .hero-text h1{color:#fff;text-shadow:2px 2px 8px rgba(0,0,0,0.7);}
         .hero-text p{color:#f0f0f0;text-shadow:1px 1px 4px rgba(0,0,0,0.6);}
         .hero-logo{font-size:16px;letter-spacing:3px;color:#fff;margin-bottom:20px;text-shadow:2px 2px 8px rgba(0,0,0,0.8);font-weight:300;}
@@ -39,7 +40,7 @@
         .btn-secondary:hover{background:#f5f5f5;color:#2a2a2a;border-color:#f5f5f5;}
 
         /* Knowledge Graph */
-        #knowledge-graph{width:100%;height:400px;background:radial-gradient(circle at 50% 45%,#fbfcfe 0%,#f3f5f8 60%,#eef1f5 100%);border-radius:8px;display:block;cursor:crosshair;}
+        #knowledge-graph{width:100%;height:400px;background:transparent;display:block;cursor:crosshair;}
 
         /* Today's Intelligence */
         .today-intelligence{background:#1a1a1a;border-radius:12px;padding:30px;margin-bottom:40px;}
@@ -92,6 +93,8 @@
         /* Tablet: 1024px and below */
         @media(max-width:1024px){
             .hero{grid-template-columns:1fr;padding:40px 30px;}
+            .hero-text{order:1;}
+            .hero-visual{order:2;}
             .dashboard-grid{grid-template-columns:repeat(2,1fr);}
             .stats-section{grid-template-columns:1fr;}
             header{flex-direction:column;gap:20px;padding:20px;}
@@ -109,7 +112,7 @@
             .hero-text h1{font-size:36px;margin-bottom:15px;}
             .hero-text p{font-size:14px;margin-bottom:20px;}
             .btn{padding:10px 20px;font-size:12px;}
-            #knowledge-graph{height:280px;border-radius:8px;}
+            #knowledge-graph{height:280px;}
             .today-intelligence{padding:20px;margin-bottom:30px;border-radius:8px;}
             .today-intelligence h3{font-size:11px;margin-bottom:15px;}
             .intelligence-items{flex-direction:column;gap:15px;}
@@ -201,7 +204,7 @@
                     <button class="btn btn-secondary">Learn More</button>
                 </div>
             </div>
-            <div>
+            <div class="hero-visual">
                 <canvas id="knowledge-graph"></canvas>
             </div>
         </div>
@@ -530,7 +533,7 @@
                 for (const c of this.connections) {
                     const a = this.nodes[c.a], b = this.nodes[c.b];
                     const d = c.len || Math.hypot(b.x - a.x, b.y - a.y);
-                    const o = Math.max(0, 0.3 - d / 1150);
+                    const o = Math.max(0, 0.42 - d / 900);
                     if (o <= 0.005) continue;
                     const lit = Math.max(a.glow, b.glow);
                     ctx.strokeStyle = 'rgba(88,166,255,' + (o + lit * 0.35).toFixed(3) + ')';
@@ -566,8 +569,8 @@
                     const r = n.radius * (n.pulse || 1);
                     const halo = r * (3.2 + n.glow * 2.4);
                     const g = ctx.createRadialGradient(n.x, n.y, 0, n.x, n.y, halo);
-                    g.addColorStop(0, 'rgba(88,166,255,' + (0.24 + n.glow * 0.3).toFixed(3) + ')');
-                    g.addColorStop(0.55, 'rgba(88,166,255,0.07)');
+                    g.addColorStop(0, 'rgba(120,190,255,' + (0.34 + n.glow * 0.34).toFixed(3) + ')');
+                    g.addColorStop(0.55, 'rgba(100,175,255,0.10)');
                     g.addColorStop(1, 'rgba(88,166,255,0)');
                     ctx.fillStyle = g;
                     ctx.beginPath();
@@ -576,7 +579,7 @@
 
                     ctx.fillStyle = n.glow > 0.05
                         ? 'rgba(' + Math.round(120 + n.glow * 80) + ',200,255,1)'
-                        : '#58a6ff';
+                        : '#7ab8ff';
                     ctx.beginPath();
                     ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
                     ctx.fill();

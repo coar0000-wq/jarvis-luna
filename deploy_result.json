@@ -1,6 +1,18 @@
 {
-  "time": "2026-08-23T13:30:29.664562",
+  "time": "2026-08-23T13:36:32.774874",
   "steps": [
+    {
+      "cmd": "git add -A",
+      "rc": 0,
+      "out": "",
+      "err": "warning: in the working copy of 'JARVIS_AUTO_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'JARVIS_AUTO_DEPLOY.py', LF will be replaced by CRLF the next time Git touches it\n"
+    },
+    {
+      "cmd": "git commit -m JARVIS: living knowledge graph - organic spring network with signal pulses",
+      "rc": 0,
+      "out": "[main 4715457] JARVIS: living knowledge graph - organic spring network with signal pulses\n 4 files changed, 286 insertions(+), 178 deletions(-)\n",
+      "err": ""
+    },
     {
       "cmd": "git fetch origin main",
       "rc": 0,
@@ -8,22 +20,22 @@
       "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n"
     },
     {
-      "cmd": "git checkout main",
+      "cmd": "git merge --no-edit origin/main",
       "rc": 0,
-      "out": ".md\nM\tobsidian/JARVIS_LUNA/Knowledge/Sources/Source--arXiv.md\nM\tobsidian/JARVIS_LUNA/Knowledge/Topics/AI-Agents.md\nM\tobsidian/JARVIS_LUNA/Knowledge/Topics/AI-Image-Generation.md\nM\tobsidian/JARVIS_LUNA/Knowledge/Topics/AI-Research.md\nM\tobsidian/JARVIS_LUNA/Knowledge/Topics/Machine-Learning-Research.md\nM\tobsidian/JARVIS_LUNA/Knowledge/Topics/Model-Routing-and-MoE.md\nM\tobsidian/JARVIS_LUNA/Knowledge/Topics/Shopify-Commerce.md\nYour branch and 'origin/main' have diverged,\nand have 2 and 6 different commits each, respectively.\n  (use \"git pull\" if you want to integrate the remote branch with yours)\n",
-      "err": "Already on 'main'\n"
-    },
-    {
-      "cmd": "git reset --hard origin/main",
-      "rc": 0,
-      "out": "HEAD is now at e32a8f0 JARVIS: ignore deploy logs\n",
+      "out": "Already up to date.\n",
       "err": ""
     },
     {
-      "cmd": "git clean -fd .github/workflows",
+      "cmd": "git push origin HEAD:main",
       "rc": 0,
       "out": "",
-      "err": ""
+      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   e32a8f0..4715457  HEAD -> main\n"
+    },
+    {
+      "cmd": "git fetch origin main",
+      "rc": 0,
+      "out": "",
+      "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n"
     },
     {
       "cmd": "git rev-parse --abbrev-ref HEAD",
@@ -34,13 +46,13 @@
     {
       "cmd": "git rev-parse HEAD",
       "rc": 0,
-      "out": "e32a8f0f709497c8b700601bcf804d662cb19b5d\n",
+      "out": "47154577148044c5d40fc41c7922e0f349c6a266\n",
       "err": ""
     },
     {
       "cmd": "git rev-parse origin/main",
       "rc": 0,
-      "out": "e32a8f0f709497c8b700601bcf804d662cb19b5d\n",
+      "out": "47154577148044c5d40fc41c7922e0f349c6a266\n",
       "err": ""
     },
     {
@@ -50,29 +62,12 @@
       "err": ""
     }
   ],
+  "push_returncode": 0,
   "branch": "main",
-  "local_head": "e32a8f0f709497c8b700601bcf804d662cb19b5d",
-  "remote_head": "e32a8f0f709497c8b700601bcf804d662cb19b5d",
+  "local_head": "47154577148044c5d40fc41c7922e0f349c6a266",
+  "remote_head": "47154577148044c5d40fc41c7922e0f349c6a266",
   "status": "## main...origin/main\n",
-  "active_workflows": [
-    "JARVIS-Core-Automation.yml",
-    "JARVIS-Deep-Analysis.yml",
-    "auto-update.yml",
-    "daiso-discovery.yml",
-    "jarvis-auto-evolution.yml",
-    "jarvis-deploy.yml",
-    "jarvis-luna-deploy.yml",
-    "jarvis-real-knowledge.yml",
-    "jarvis_automation.yml",
-    "jarvis_final_automation.yml",
-    "jarvis_health_monitor.yml",
-    "jarvis_test_simple.yml",
-    "jekyll-gh-pages.yml",
-    "obsidian_sync.yml",
-    "phase26_complete_automation.yml",
-    "update-tasks.yml",
-    "weekly-strategy-report.yml"
-  ],
+  "remote_has_living_graph": true,
   "remote_has_hero_bg": true,
   "remote_broken_glyphs": 0,
   "SUCCESS": true
