@@ -31,8 +31,9 @@ R["status"] = run("git", "status", "--short", "-b").stdout[:600]
 try:
     u = "https://raw.githubusercontent.com/coar0000-wq/jarvis-luna/%s/index.html" % R["local_head"]
     html = urllib.request.urlopen(u, timeout=30).read().decode("utf-8", "replace")
-    R["remote_has_living_graph"] = "hero-visual" in html and "Living Knowledge Graph" in html
     R["remote_has_hero_bg"] = "hero-bg.jpg" in html
+    R["remote_reads_runtime_json"] = "data/dashboard_runtime.json" in html
+    R["remote_canvas_removed"] = "knowledge-graph" not in html
     R["remote_broken_glyphs"] = html.count("�")
 except Exception as e:
     R["remote_check_error"] = str(e)
@@ -40,7 +41,9 @@ except Exception as e:
 R["SUCCESS"] = (R.get("push_returncode") == 0
                 and R.get("branch") == "main"
                 and R.get("local_head") == R.get("remote_head")
-                and R.get("remote_has_living_graph") is True)
+                and R.get("remote_has_hero_bg") is True
+                and R.get("remote_reads_runtime_json") is True
+                and R.get("remote_broken_glyphs") == 0)
 
 with open(os.path.join(ROOT, "deploy_result.json"), "w", encoding="utf-8") as f:
     json.dump(R, f, ensure_ascii=False, indent=2)
