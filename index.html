@@ -210,21 +210,10 @@
         </div>
 
         <!-- Today's Intelligence -->
-        <div class="today-intelligence">
-            <h3>📊 Today's Intelligence</h3>
-            <div class="intelligence-items">
-                <div class="intelligence-item">
-                    <span style="font-size:18px;">🔍</span>
-                    <span>Product Discovery · Beauty & Skincare</span>
-                </div>
-                <div class="intelligence-item">
-                    <span style="font-size:18px;">🧠</span>
-                    <span>Obsidian Graph · 5 new nodes</span>
-                </div>
-                <div class="intelligence-item">
-                    <span style="font-size:18px;">📈</span>
-                    <span>Strategy Report · 5-day trend</span>
-                </div>
+        <div class="today-intelligence" id="knowledge">
+            <h3>📊 Today's Intelligence <span id="updated-at" style="float:right;text-transform:none;letter-spacing:0;">동기화 확인 중…</span></h3>
+            <div class="intelligence-items" id="intelligence-items">
+                <div class="intelligence-item"><span>실시간 데이터를 불러오는 중…</span></div>
             </div>
         </div>
 
@@ -232,43 +221,43 @@
         <div class="stats-section">
             <div class="stats-grid">
                 <div class="stat-card">
-                    <h4>Today Revenue</h4>
-                    <div class="value">$<span id="today-revenue">286</span></div>
+                    <h4>지식 레코드</h4>
+                    <div class="value"><span id="stat-records">–</span></div>
                 </div>
                 <div class="stat-card">
-                    <h4>5-Day Orders</h4>
-                    <div class="value"><span id="five-day-orders">34</span></div>
+                    <h4>그래프 노트 · 링크</h4>
+                    <div class="value"><span id="stat-graph">–</span></div>
                 </div>
                 <div class="stat-card">
-                    <h4>Shopify Revenue</h4>
-                    <div class="value">$<span id="shopify-revenue">1,428</span></div>
+                    <h4>MoE 학습 정확도</h4>
+                    <div class="value"><span id="stat-accuracy">–</span></div>
                 </div>
             </div>
             <div class="side-stats">
                 <div class="side-stat">
                     <div class="side-stat-label">
-                        <div class="side-stat-icon">💰</div>
+                        <div class="side-stat-icon">🧠</div>
                         <div class="side-stat-text">
-                            <span>Today Revenue</span>
-                            <span>$<span id="side-revenue">286</span></span>
+                            <span>검증 정확도</span>
+                            <span id="side-val">–</span>
                         </div>
                     </div>
                 </div>
                 <div class="side-stat">
                     <div class="side-stat-label">
-                        <div class="side-stat-icon">📦</div>
+                        <div class="side-stat-icon">🔀</div>
                         <div class="side-stat-text">
-                            <span>5-Day Orders</span>
-                            <span><span id="side-orders">34</span></span>
+                            <span>Expert 수</span>
+                            <span id="side-experts">–</span>
                         </div>
                     </div>
                 </div>
                 <div class="side-stat">
                     <div class="side-stat-label">
-                        <div class="side-stat-icon">🛒</div>
+                        <div class="side-stat-icon">🔗</div>
                         <div class="side-stat-text">
-                            <span>Shopify Revenue</span>
-                            <span>$<span id="side-shopify">1,428</span></span>
+                            <span>끊어진 링크</span>
+                            <span id="side-dangling">–</span>
                         </div>
                     </div>
                 </div>
@@ -276,8 +265,8 @@
                     <div class="side-stat-label">
                         <div class="side-stat-icon">⚙️</div>
                         <div class="side-stat-text">
-                            <span>Automation</span>
-                            <span><span id="side-automation">96</span>%</span>
+                            <span>자동화율</span>
+                            <span id="side-automation">–</span>
                         </div>
                     </div>
                 </div>
@@ -292,38 +281,17 @@
                     <li><span class="log-text">Loading...</span></li>
                 </ul>
             </div>
-            <div class="dashboard-card">
-                <h4><span class="dashboard-card-icon">🔍</span>Product Discovery</h4>
-                <div style="margin-top:15px;color:#999;font-size:13px;">
-                    <div style="padding:8px 0;border-bottom:1px solid #2a2a2a;">
-                        <div style="color:#e0e0e0;font-weight:500;">Hydrating Serum</div>
-                        <div style="font-size:12px;color:#666;">??24%</div>
-                    </div>
-                    <div style="padding:8px 0;border-bottom:1px solid #2a2a2a;">
-                        <div style="color:#e0e0e0;font-weight:500;">Ceramide Moisturizer</div>
-                        <div style="font-size:12px;color:#666;">??18%</div>
-                    </div>
-                    <div style="padding:8px 0;">
-                        <div style="color:#e0e0e0;font-weight:500;">Daily SPF 50</div>
-                        <div style="font-size:12px;color:#666;">??12%</div>
-                    </div>
-                </div>
+            <div class="dashboard-card" id="strategy">
+                <h4><span class="dashboard-card-icon">📚</span>수집 소스 분포</h4>
+                <div id="source-breakdown" style="margin-top:15px;color:#999;font-size:13px;">불러오는 중…</div>
             </div>
             <div class="dashboard-card">
-                <h4><span class="dashboard-card-icon">📈</span>5-Day Revenue Trend</h4>
-                <div class="chart-placeholder">Chart View</div>
+                <h4><span class="dashboard-card-icon">🛰️</span>최신 수집 자료</h4>
+                <div id="latest-items" style="margin-top:15px;color:#999;font-size:13px;">불러오는 중…</div>
             </div>
-            <div class="dashboard-card">
-                <h4><span class="dashboard-card-icon">🚀</span>Phase 26 Progress</h4>
-                <div style="margin-top:15px;">
-                    <div style="display:flex;justify-content:space-between;margin-bottom:10px;">
-                        <span style="color:#e0e0e0;font-weight:500;">40%</span>
-                        <span style="color:#666;font-size:12px;">On track</span>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="width:40%;"></div>
-                    </div>
-                </div>
+            <div class="dashboard-card" id="teams">
+                <h4><span class="dashboard-card-icon">🚀</span>MoE 학습 상태</h4>
+                <div id="training-panel" style="margin-top:15px;color:#999;font-size:13px;">불러오는 중…</div>
             </div>
         </div>
     </div>
@@ -600,54 +568,202 @@
             }
         };
 
-        // Data Loading
-        const FALLBACK = {
-            work: {
-                completed_today: [
-                    { text: "Market scan complete · Beauty & Skincare demand is rising.", time: "9:41 AM" },
-                    { text: "5 new nodes added · Obsidian graph expanded.", time: "9:22 AM" },
-                    { text: "Strategy update ready · 5-day trend analysis completed.", time: "9:05 AM" }
-                ]
-            },
-            stats: {
-                today_revenue: 286,
-                five_day_orders: 34,
-                shopify_revenue: 1428,
-                automation: 96
-            }
+        // ---------------------------------------------------------------
+        // Real data layer. Every number below comes from a JSON file that
+        // the GitHub Actions pipeline regenerates. Nothing is hardcoded —
+        // if a file is missing the UI says so instead of inventing values.
+        // ---------------------------------------------------------------
+        const esc = s => String(s == null ? '' : s)
+            .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+        const $ = id => document.getElementById(id);
+        const set = (id, v) => { const el = $(id); if (el) el.textContent = v; };
+
+        async function getJSON(path) {
+            const r = await fetch(path + '?t=' + Date.now(), { cache: 'no-store' });
+            if (!r.ok) throw new Error(path + ' → HTTP ' + r.status);
+            return r.json();
+        }
+
+        const KST = ts => {
+            if (!ts) return '시각 정보 없음';
+            const d = new Date(ts);
+            if (isNaN(d)) return '시각 정보 없음';
+            return d.toLocaleString('ko-KR', {
+                timeZone: 'Asia/Seoul', month: '2-digit', day: '2-digit',
+                hour: '2-digit', minute: '2-digit'
+            }) + ' KST';
         };
 
+        const STATUS_LABEL = {
+            completed: ['완료', '#3fb950'],
+            generated: ['생성됨', '#58a6ff'],
+            ready_for_pages: ['배포 대기', '#d29922'],
+            running: ['진행중', '#58a6ff'],
+            failed: ['실패', '#f85149']
+        };
+
+        function renderPipeline(rt) {
+            const list = $('log-list');
+            if (!list) return;
+            const steps = Array.isArray(rt.pipeline) ? rt.pipeline : [];
+            if (!steps.length) {
+                list.innerHTML = '<li><span class="log-text">파이프라인 기록 없음</span></li>';
+                return;
+            }
+            list.innerHTML = steps.map(s => {
+                const [label, color] = STATUS_LABEL[s.status] || [s.status || '알 수 없음', '#999'];
+                return '<li><span class="log-text">' + esc(s.title) +
+                    '<br><span style="color:#666;font-size:11px;">' + esc(s.detail || '') + '</span></span>' +
+                    '<span class="log-time" style="color:' + color + ';">' + esc(label) + '</span></li>';
+            }).join('');
+        }
+
+        function renderSources(ts) {
+            const box = $('source-breakdown');
+            if (!box) return;
+            const labels = ts && ts.source_labels;
+            if (!labels || !Object.keys(labels).length) {
+                box.textContent = '소스 분포 데이터 없음';
+                return;
+            }
+            const total = Object.values(labels).reduce((a, b) => a + b, 0) || 1;
+            box.innerHTML = Object.entries(labels)
+                .sort((a, b) => b[1] - a[1])
+                .map(([k, v]) => {
+                    const pct = (v / total * 100).toFixed(1);
+                    return '<div style="padding:7px 0;">' +
+                        '<div style="display:flex;justify-content:space-between;color:#e0e0e0;font-size:12px;">' +
+                        '<span>' + esc(k) + '</span><span>' + v + '건 · ' + pct + '%</span></div>' +
+                        '<div class="progress-bar" style="margin-top:6px;">' +
+                        '<div class="progress-fill" style="width:' + pct + '%;"></div></div></div>';
+                }).join('') +
+                '<div style="margin-top:10px;color:#666;font-size:11px;">총 ' + total + '건 · ' + KST(ts.updated_at) + '</div>';
+        }
+
+        function renderLatest(src) {
+            const box = $('latest-items');
+            if (!box) return;
+            const items = [];
+            const groups = (src && src.sources) || {};
+            Object.entries(groups).forEach(([name, g]) => {
+                (g.items || []).slice(0, 3).forEach(it => items.push({ name, it }));
+            });
+            if (!items.length) { box.textContent = '수집 자료 없음'; return; }
+            box.innerHTML = items.slice(0, 5).map(({ name, it }) =>
+                '<div style="padding:8px 0;border-bottom:1px solid #2a2a2a;">' +
+                (it.url ? '<a href="' + esc(it.url) + '" target="_blank" rel="noopener" style="color:#e0e0e0;font-weight:500;text-decoration:none;font-size:12px;line-height:1.4;display:block;">' + esc(it.title) + '</a>'
+                        : '<div style="color:#e0e0e0;font-weight:500;font-size:12px;">' + esc(it.title) + '</div>') +
+                '<div style="font-size:11px;color:#666;margin-top:4px;">' + esc(name) + '</div></div>'
+            ).join('') +
+            '<div style="margin-top:10px;color:#666;font-size:11px;">' + KST(src.collected_at) + ' 수집</div>';
+        }
+
+        function renderTraining(tr) {
+            const box = $('training-panel');
+            if (!box) return;
+            if (!tr) { box.textContent = '학습 기록 없음'; return; }
+            const acc = (tr.accuracy != null ? tr.accuracy : tr.training_accuracy_on_corpus);
+            const pct = acc != null ? (acc * 100).toFixed(1) : null;
+            box.innerHTML =
+                (pct !== null
+                    ? '<div style="display:flex;justify-content:space-between;margin-bottom:8px;">' +
+                      '<span style="color:#e0e0e0;font-weight:500;">' + pct + '%</span>' +
+                      '<span style="color:#666;font-size:12px;">학습 정확도</span></div>' +
+                      '<div class="progress-bar"><div class="progress-fill" style="width:' + pct + '%;"></div></div>'
+                    : '') +
+                '<div style="margin-top:14px;font-size:12px;line-height:1.9;">' +
+                row('레코드', tr.records) +
+                row('Expert', tr.experts) +
+                row('최종 loss', tr.final_loss != null ? tr.final_loss.toFixed(4) : null) +
+                row('게이트 편차', tr.gate_load_std != null ? tr.gate_load_std.toFixed(3) : null) +
+                row('튜닝 스텝', tr.tuning_steps) +
+                '</div><div style="margin-top:10px;color:#666;font-size:11px;">' + KST(tr.updated_at) + '</div>';
+        }
+
+        const row = (k, v) => v == null ? '' :
+            '<div style="display:flex;justify-content:space-between;"><span style="color:#666;">' + k +
+            '</span><span style="color:#e0e0e0;">' + esc(v) + '</span></div>';
+
+        function markOffline(msg) {
+            const t = $('live-text');
+            if (t) { t.textContent = 'OFFLINE'; t.parentElement.style.color = '#f85149'; }
+            const dot = document.querySelector('.live-dot');
+            if (dot) dot.style.background = '#f85149';
+            set('updated-at', msg);
+        }
+
         async function loadData() {
-            try {
-                const stats = FALLBACK.stats;
-                document.getElementById('today-revenue').textContent = stats.today_revenue;
-                document.getElementById('five-day-orders').textContent = stats.five_day_orders;
-                document.getElementById('shopify-revenue').textContent = stats.shopify_revenue.toLocaleString();
-                document.getElementById('side-revenue').textContent = stats.today_revenue;
-                document.getElementById('side-orders').textContent = stats.five_day_orders;
-                document.getElementById('side-shopify').textContent = stats.shopify_revenue.toLocaleString();
-                document.getElementById('side-automation').textContent = stats.automation;
+            try { graph.init(); } catch (e) { console.error('graph init', e); }
 
-                const logList = document.getElementById('log-list');
-                logList.innerHTML = '';
-                FALLBACK.work.completed_today.forEach(log => {
-                    const li = document.createElement('li');
-                    li.innerHTML = `<span class="log-text">${log.text}</span><span class="log-time">${log.time}</span>`;
-                    logList.appendChild(li);
-                });
+            const [rt, tr, src, prod] = await Promise.allSettled([
+                getJSON('data/dashboard_runtime.json'),
+                getJSON('data/knowledge/training_status.json'),
+                getJSON('data/knowledge/real_sources.json'),
+                getJSON('cumulative_products.json')
+            ]);
 
-                graph.init();
-            } catch (err) {
-                console.error('Data loading error:', err);
+            if (rt.status === 'fulfilled') {
+                const d = rt.value;
+                set('updated-at', KST(d.generated_at) + ' 동기화');
+                set('stat-records', (d.sources && d.sources.record_count != null) ? d.sources.record_count : '–');
+                if (d.graph) {
+                    set('stat-graph', d.graph.notes + ' · ' + d.graph.links);
+                    set('side-dangling', d.graph.dangling_links + '건');
+                }
+                if (d.training) {
+                    set('stat-accuracy', (d.training.accuracy * 100).toFixed(1) + '%');
+                    set('side-val', (d.training.validation_accuracy * 100).toFixed(1) + '%');
+                    set('side-experts', d.training.experts + '개');
+                }
+                renderPipeline(d);
+                renderTraining(d.training);
+
+                const items = $('intelligence-items');
+                if (items) {
+                    const done = (d.pipeline || []).filter(s => s.status === 'completed').length;
+                    items.innerHTML =
+                        '<div class="intelligence-item"><span style="font-size:18px;">🔍</span><span>수집 · ' +
+                        ((d.sources && d.sources.record_count) || 0) + '개 레코드</span></div>' +
+                        '<div class="intelligence-item"><span style="font-size:18px;">🧠</span><span>Obsidian 그래프 · ' +
+                        ((d.graph && d.graph.notes) || 0) + '개 노트 / ' + ((d.graph && d.graph.links) || 0) + '개 링크</span></div>' +
+                        '<div class="intelligence-item"><span style="font-size:18px;">📈</span><span>파이프라인 · ' +
+                        done + '/' + (d.pipeline || []).length + ' 단계 완료</span></div>';
+                }
+            } else {
+                console.error(rt.reason);
+                markOffline('실시간 데이터 연결 실패');
+                const list = $('log-list');
+                if (list) list.innerHTML = '<li><span class="log-text">dashboard_runtime.json을 불러오지 못했습니다.</span></li>';
+            }
+
+            if (tr.status === 'fulfilled') {
+                renderSources(tr.value);
+                if (rt.status !== 'fulfilled') renderTraining(tr.value);
+            } else { renderSources(null); }
+
+            renderLatest(src.status === 'fulfilled' ? src.value : null);
+
+            if (prod.status === 'fulfilled' && prod.value.automation_rate != null) {
+                set('side-automation', prod.value.automation_rate + '%');
+            } else {
+                set('side-automation', '–');
             }
         }
 
         document.addEventListener('DOMContentLoaded', loadData);
-        window.addEventListener('resize', () => {
-            if (graph.canvas) {
-                graph.canvas.width = graph.canvas.offsetWidth;
-                graph.canvas.height = graph.canvas.offsetHeight;
-            }
+        setInterval(loadData, 300000);   // re-sync every 5 minutes
+
+        document.querySelectorAll('nav a').forEach(a => {
+            a.addEventListener('click', () => {
+                const map = { 'Knowledge Graph': 'knowledge', 'Strategy': 'strategy', 'Teams': 'teams' };
+                const id = map[a.textContent.trim()];
+                const el = id && document.getElementById(id);
+                if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                else window.scrollTo({ top: 0, behavior: 'smooth' });
+                document.querySelectorAll('nav a').forEach(x => x.classList.remove('active'));
+                a.classList.add('active');
+            });
         });
     </script>
 </body>
