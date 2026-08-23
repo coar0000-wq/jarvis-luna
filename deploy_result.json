@@ -1,0 +1,79 @@
+{
+  "time": "2026-08-23T13:21:50.676577",
+  "steps": [
+    {
+      "cmd": "git config user.name JARVIS LUNA",
+      "rc": 0,
+      "out": "",
+      "err": ""
+    },
+    {
+      "cmd": "git config user.email coar0000@naver.com",
+      "rc": 0,
+      "out": "",
+      "err": ""
+    },
+    {
+      "cmd": "git add -A",
+      "rc": 0,
+      "out": "",
+      "err": "warning: in the working copy of 'JARVIS_AUTO_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'JARVIS_AUTO_DEPLOY.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'auto-apply-design.ps1', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'auto-deploy.ps1', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'copy-image-and-deploy.ps1', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'deploy-hero.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'deploy-hero.ps1', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'deploy-hero.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'encode-image.py', LF will be replaced by CRLF the next time Git touches it\n"
+    },
+    {
+      "cmd": "git commit -m JARVIS: hero section deploy + workflow cleanup + .nojekyll",
+      "rc": 0,
+      "out": "[main d172e01] JARVIS: hero section deploy + workflow cleanup + .nojekyll\n 29 files changed, 449 insertions(+), 1006 deletions(-)\n delete mode 100644 .github/workflows/auto-update.yml\n delete mode 100644 .github/workflows/jarvis-auto-evolution.yml\n delete mode 100644 .github/workflows/jarvis-deploy.yml\n delete mode 100644 .github/workflows/jarvis-luna-deploy.yml\n delete mode 100644 .github/workflows/jarvis_automation.yml\n delete mode 100644 .github/workflows/jarvis_final_automation.yml\n delete mode 100644 .github/workflows/jarvis_health_monitor.yml\n delete mode 100644 .github/workflows/jarvis_test_simple.yml\n delete mode 100644 .github/workflows/jekyll-gh-pages.yml\n delete mode 100644 .github/workflows/phase26_complete_automation.yml\n delete mode 100644 .github/workflows/update-tasks.yml\n delete mode 100644 .github/workflows/weekly-strategy-report.yml\n create mode 100644 .nojekyll\n create mode 100644 JARVIS_AUTO_DEPLOY.bat\n create mode 100644 JARVIS_AUTO_DEPLOY.py\n create mode 100644 auto-apply-design.ps1\n create mode 100644 auto-deploy.ps1\n create mode 100644 copy-image-and-deploy.ps1\n create mode 100644 deploy-hero.bat\n create mode 100644 deploy-hero.ps1\n create mode 100644 deploy-hero.py\n create mode 100644 deploy_stdout.txt\n create mode 100644 encode-image.py\n",
+      "err": ""
+    },
+    {
+      "cmd": "git fetch origin main",
+      "rc": 0,
+      "out": "",
+      "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n   3072ae0..9350e55  main       -> origin/main\n"
+    },
+    {
+      "cmd": "git pull --rebase origin main",
+      "rc": 1,
+      "out": "",
+      "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\nwarning: unable to unlink 'deploy_stdout.txt': Invalid argument\nRebasing (1/2)\nRebasing (2/2)\nerror: The following untracked working tree files would be overwritten by merge:\n\tdeploy_stdout.txt\nPlease move or remove them before you merge.\nAborting\nhint: Could not execute the todo command\nhint:\nhint:     pick d172e0121c23b2ddf243e5135747fba5cc485e07 # JARVIS: hero section deploy + workflow cleanup + .nojekyll\nhint:\nhint: It has been rescheduled; To edit the command before continuing, please\nhint: edit the todo list first:\nhint:\nhint:     git rebase --edit-todo\nhint:     git rebase --continue\n"
+    },
+    {
+      "cmd": "git push origin HEAD:main",
+      "rc": 0,
+      "out": "",
+      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   9350e55..d59ffba  HEAD -> main\n"
+    },
+    {
+      "cmd": "git rev-parse HEAD",
+      "rc": 0,
+      "out": "d59ffba237599bc762a605729f2819ecc116435c\n",
+      "err": ""
+    },
+    {
+      "cmd": "git rev-parse origin/main",
+      "rc": 0,
+      "out": "d59ffba237599bc762a605729f2819ecc116435c\n",
+      "err": ""
+    }
+  ],
+  "disabled_workflows": [
+    "auto-update.yml",
+    "jarvis-auto-evolution.yml",
+    "jarvis-deploy.yml",
+    "jarvis-luna-deploy.yml",
+    "jarvis_automation.yml",
+    "jarvis_final_automation.yml",
+    "jarvis_health_monitor.yml",
+    "jarvis_test_simple.yml",
+    "jekyll-gh-pages.yml",
+    "phase26_complete_automation.yml",
+    "update-tasks.yml",
+    "weekly-strategy-report.yml"
+  ],
+  "push_returncode": 0,
+  "local_head": "d59ffba237599bc762a605729f2819ecc116435c",
+  "remote_head": "d59ffba237599bc762a605729f2819ecc116435c",
+  "remote_has_hero_bg": true,
+  "remote_title": "JARVIS LUNA - Adaptive Intelligence",
+  "SUCCESS": true
+}
