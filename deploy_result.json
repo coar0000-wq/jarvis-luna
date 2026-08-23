@@ -1,35 +1,35 @@
 {
-  "time": "2026-08-23T14:02:54.549726",
+  "time": "2026-08-23T14:05:27.663658",
   "steps": [
     {
       "cmd": "git add -A",
       "rc": 0,
       "out": "",
-      "err": "warning: in the working copy of 'JARVIS_AUTO_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\n"
+      "err": "warning: in the working copy of 'JARVIS_AUTO_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of '_mobile_preview.html', LF will be replaced by CRLF the next time Git touches it\n"
     },
     {
-      "cmd": "git commit -m JARVIS: hero bg scrolls with section + mobile layout fixes",
+      "cmd": "git commit -m JARVIS: temporary mobile preview harness",
       "rc": 0,
-      "out": "[main 6e2cd30] JARVIS: hero bg scrolls with section + mobile layout fixes\n 3 files changed, 44 insertions(+), 27 deletions(-)\n",
+      "out": "[main 43a17f9] JARVIS: temporary mobile preview harness\n 3 files changed, 26 insertions(+), 11 deletions(-)\n create mode 100644 _mobile_preview.html\n",
       "err": ""
     },
     {
       "cmd": "git fetch origin main",
       "rc": 0,
       "out": "",
-      "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n   ab28add..49e3e34  main       -> origin/main\n"
+      "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n"
     },
     {
       "cmd": "git merge --no-edit origin/main",
       "rc": 0,
-      "out": "secret-to-content-that-works-for-you-forever.md |   2 +-\n .../Knowledge/Sources/Source--YouTube.md           |   2 +-\n .../JARVIS_LUNA/Knowledge/Sources/Source--arXiv.md |   2 +-\n obsidian/JARVIS_LUNA/Knowledge/Topics/AI-Agents.md |   2 +-\n .../Knowledge/Topics/AI-Image-Generation.md        |   2 +-\n .../JARVIS_LUNA/Knowledge/Topics/AI-Research.md    |   2 +-\n .../Knowledge/Topics/Machine-Learning-Research.md  |   2 +-\n .../Knowledge/Topics/Model-Routing-and-MoE.md      |   2 +-\n .../Knowledge/Topics/Shopify-Commerce.md           |   2 +-\n 66 files changed, 180 insertions(+), 136 deletions(-)\n",
+      "out": "Already up to date.\n",
       "err": ""
     },
     {
       "cmd": "git push origin HEAD:main",
       "rc": 0,
       "out": "",
-      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   49e3e34..7327d6c  HEAD -> main\n"
+      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   7327d6c..43a17f9  HEAD -> main\n"
     },
     {
       "cmd": "git fetch origin main",
@@ -46,13 +46,13 @@
     {
       "cmd": "git rev-parse HEAD",
       "rc": 0,
-      "out": "7327d6c1a0111bce8cbaa4159a5353c6fc6b8c06\n",
+      "out": "43a17f935a85603f8a71422a076c4f51ec6ddacd\n",
       "err": ""
     },
     {
       "cmd": "git rev-parse origin/main",
       "rc": 0,
-      "out": "7327d6c1a0111bce8cbaa4159a5353c6fc6b8c06\n",
+      "out": "43a17f935a85603f8a71422a076c4f51ec6ddacd\n",
       "err": ""
     },
     {
@@ -64,8 +64,8 @@
   ],
   "push_returncode": 0,
   "branch": "main",
-  "local_head": "7327d6c1a0111bce8cbaa4159a5353c6fc6b8c06",
-  "remote_head": "7327d6c1a0111bce8cbaa4159a5353c6fc6b8c06",
+  "local_head": "43a17f935a85603f8a71422a076c4f51ec6ddacd",
+  "remote_head": "43a17f935a85603f8a71422a076c4f51ec6ddacd",
   "status": "## main...origin/main\n",
   "remote_has_living_graph": true,
   "remote_has_hero_bg": true,
