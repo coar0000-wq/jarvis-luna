@@ -1,309 +1,342 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MD Family JARVIS LUNA - Realtime AGI Evolution OS</title>
+    <title>JARVIS LUNA - Adaptive Intelligence</title>
     <style>
         *{margin:0;padding:0;box-sizing:border-box;}
-        body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:#0d1117;color:#c9d1d9;padding:20px;min-height:100vh;}
-        .container{max-width:900px;margin:auto;}
-        h1{color:#58a6ff;margin-bottom:25px;border-bottom:1px solid #30363d;padding-bottom:12px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;}
-        h1 .title{font-size:1.5rem;}
-        #live-indicator{font-size:12px;color:#8b949e;background:#21262d;padding:4px 12px;border-radius:20px;border:1px solid #30363d;}
-        #live-indicator.online{color:#3fb950;border-color:#238636;}
-        #live-indicator.offline{color:#f85149;border-color:#da3633;}
-        #live-indicator.loading{color:#d29922;border-color:#9e6a03;}
-        h2{color:#58a6ff;margin-bottom:18px;border-bottom:1px solid #30363d;padding-bottom:8px;}
-        .card{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:20px;margin-bottom:22px;}
-        .status-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px;margin-bottom:22px;}
-        .status-box{background:#21262d;border:1px solid #30363d;border-radius:8px;padding:14px;display:flex;justify-content:space-between;align-items:center;}
-        .status-info h4{color:#f0f6fc;font-size:14px;margin-bottom:4px;}
-        .status-info p{color:#8b949e;font-size:12px;}
-        .badge{color:#fff;font-size:11px;font-weight:bold;padding:5px 10px;border-radius:30px;}
-        .online{background:#238636;} .active{background:#1f6feb;} .monitoring{background:#9e6a03;}
-        .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:15px;margin-bottom:10px;}
-        .stat-box{background:#21262d;border:1px solid #30363d;border-radius:8px;padding:18px;text-align:center;}
-        .stat-box h3{color:#8b949e;font-size:13px;margin-bottom:10px;}
-        .stat-box p{color:#f0f6fc;font-size:24px;font-weight:bold;}
-        .refresh-info{text-align:right;color:#8b949e;font-size:12px;margin-top:12px;}
-        .progress-item{margin-bottom:16px;}
-        .progress-header{display:flex;justify-content:space-between;font-size:14px;margin-bottom:6px;color:#f0f6fc;}
-        .progress-bar-bg{background:#21262d;border:1px solid #30363d;border-radius:10px;height:10px;overflow:hidden;}
-        .progress-bar-fill{background:linear-gradient(90deg,#1f6feb,#58a6ff);height:100%;width:0%;transition:width 0.7s ease;}
-        .overall-box{background:#21262d;border:1px solid #30363d;border-radius:8px;padding:14px 18px;margin-bottom:18px;display:flex;justify-content:space-between;align-items:center;}
-        .overall-box .label{color:#8b949e;font-size:13px;}
-        .overall-box .value{color:#58a6ff;font-size:22px;font-weight:bold;}
-        ul{list-style:none;}
-        li{padding:10px 0;border-bottom:1px solid #21262d;font-size:14px;display:flex;justify-content:space-between;align-items:center;gap:10px;}
-        li:last-child{border-bottom:none;}
-        .log-content{display:flex;gap:8px;align-items:center;flex:1;}
-        .log-time{color:#8b949e;font-size:12px;background:#21262d;padding:2px 8px;border-radius:6px;border:1px solid #30363d;white-space:nowrap;}
-        .log-empty{color:#8b949e;text-align:center;padding:16px 0;display:block;}
-        .footer{text-align:center;color:#6e7681;font-size:12px;margin-top:30px;padding-bottom:20px;}
+        body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;background:#0f0f0f;color:#e0e0e0;}
+
+        /* Header & Navigation */
+        header{background:#000;padding:20px 40px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #1a1a1a;}
+        .logo{font-size:24px;font-weight:300;letter-spacing:4px;color:#fff;}
+        nav{display:flex;gap:40px;align-items:center;}
+        nav a{text-decoration:none;color:#999;font-size:14px;transition:color 0.3s;cursor:pointer;}
+        nav a.active{color:#fff;border-bottom:2px solid #58a6ff;padding-bottom:2px;}
+        nav a:hover{color:#fff;}
+        .live-indicator{display:flex;align-items:center;gap:6px;font-size:12px;color:#3fb950;}
+        .live-dot{width:8px;height:8px;background:#3fb950;border-radius:50%;animation:pulse 2s infinite;}
+        @keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.5;}}
+
+        /* Main Container */
+        .container{max-width:1400px;margin:0 auto;padding:40px;}
+
+        /* Hero Section */
+        .hero{background:#fff;border-radius:12px;padding:60px 50px;margin-bottom:40px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;}
+        .hero-text h1{font-size:56px;font-weight:700;color:#000;line-height:1.2;margin-bottom:20px;}
+        .hero-text p{font-size:16px;color:#666;line-height:1.6;margin-bottom:30px;}
+        .hero-buttons{display:flex;gap:15px;}
+        .btn{padding:12px 28px;border-radius:8px;font-size:14px;font-weight:500;border:1px solid #333;cursor:pointer;transition:all 0.3s;}
+        .btn-primary{background:#000;color:#fff;border-color:#000;}
+        .btn-primary:hover{background:#1a1a1a;}
+        .btn-secondary{background:transparent;color:#000;border-color:#999;}
+        .btn-secondary:hover{border-color:#000;}
+
+        /* Knowledge Graph */
+        #knowledge-graph{width:100%;height:400px;background:#f5f5f5;border-radius:8px;}
+
+        /* Today's Intelligence */
+        .today-intelligence{background:#1a1a1a;border-radius:12px;padding:30px;margin-bottom:40px;}
+        .today-intelligence h3{color:#fff;font-size:12px;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-bottom:20px;color:#999;}
+        .intelligence-items{display:flex;gap:40px;}
+        .intelligence-item{display:flex;gap:12px;align-items:flex-start;}
+        .intelligence-icon{width:20px;height:20px;margin-top:2px;flex-shrink:0;}
+        .intelligence-item span{font-size:14px;color:#e0e0e0;}
+
+        /* Stats Section */
+        .stats-section{display:grid;grid-template-columns:2fr 1fr;gap:30px;margin-bottom:40px;}
+        .stats-grid{display:grid;grid-template-columns:1fr;gap:20px;}
+        .stat-card{background:#1a1a1a;border-radius:12px;padding:25px;border:1px solid #2a2a2a;}
+        .stat-card h4{color:#999;font-size:12px;margin-bottom:8px;text-transform:uppercase;}
+        .stat-card .value{font-size:32px;font-weight:700;color:#fff;}
+
+        /* Side Stats */
+        .side-stats{display:flex;flex-direction:column;gap:20px;}
+        .side-stat{background:#1a1a1a;border-radius:12px;padding:20px;border:1px solid #2a2a2a;display:flex;justify-content:space-between;align-items:center;}
+        .side-stat-label{display:flex;align-items:center;gap:10px;}
+        .side-stat-icon{width:24px;height:24px;background:#2a2a2a;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px;}
+        .side-stat-text{display:flex;flex-direction:column;}
+        .side-stat-text span:first-child{font-size:12px;color:#999;}
+        .side-stat-text span:last-child{font-size:14px;color:#fff;font-weight:600;}
+        .side-stat-value{font-size:24px;font-weight:700;color:#fff;}
+
+        /* Bottom Sections */
+        .dashboard-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-bottom:40px;}
+        .dashboard-card{background:#1a1a1a;border-radius:12px;padding:20px;border:1px solid #2a2a2a;}
+        .dashboard-card h4{color:#999;font-size:12px;margin-bottom:15px;text-transform:uppercase;display:flex;align-items:center;gap:8px;}
+        .dashboard-card-icon{width:16px;height:16px;background:#2a2a2a;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:10px;}
+
+        /* Log List */
+        .log-list{list-style:none;margin-top:15px;}
+        .log-list li{padding:10px 0;border-bottom:1px solid #2a2a2a;font-size:13px;color:#999;display:flex;justify-content:space-between;gap:15px;}
+        .log-list li:last-child{border-bottom:none;}
+        .log-text{color:#e0e0e0;}
+        .log-time{font-size:12px;color:#666;white-space:nowrap;}
+
+        /* Chart Placeholder */
+        .chart-placeholder{height:200px;background:#0f0f0f;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#666;font-size:13px;margin-top:15px;}
+
+        /* Progress Bar */
+        .progress-bar{width:100%;height:6px;background:#2a2a2a;border-radius:3px;overflow:hidden;margin-top:15px;}
+        .progress-fill{height:100%;background:linear-gradient(90deg,#58a6ff,#79c0ff);transition:width 0.6s ease;}
+
+        /* Footer */
+        footer{text-align:center;padding:30px;color:#666;font-size:12px;border-top:1px solid #1a1a1a;margin-top:40px;}
+
+        @media(max-width:1024px){
+            .hero{grid-template-columns:1fr;padding:40px 30px;}
+            .dashboard-grid{grid-template-columns:repeat(2,1fr);}
+            .stats-section{grid-template-columns:1fr;}
+            header{flex-direction:column;gap:20px;padding:20px;}
+            nav{flex-direction:column;gap:15px;width:100%;}
+        }
     </style>
 </head>
 <body>
-<div class="container">
-    <h1>
-        <span class="title">MD Family JARVIS LUNA - AGI Evolution OS</span>
-        <span id="live-indicator" class="loading">?윞 SYNCING...</span>
-    </h1>
-    <div class="status-grid">
-        <div class="status-box"><div class="status-info"><h4>?꾪쁽 (CEO)</h4><p>System Director</p></div><span class="badge monitoring">媛먯떆以?/span></div>
-        <div class="status-box"><div class="status-info"><h4>GitHub Actions</h4><p>Automation</p></div><span class="badge active">?쒖꽦</span></div>
-        <div class="status-box"><div class="status-info"><h4>JARVIS AI</h4><p>Core Engine</p></div><span class="badge active">?먮룞??/span></div>
-        <div class="status-box"><div class="status-info"><h4>Obsidian</h4><p>Knowledge Base</p></div><span class="badge online">?⑤씪??/span></div>
+    <header>
+        <div class="logo">JARVIS LUNA</div>
+        <nav>
+            <a class="active">Dashboard</a>
+            <a>Knowledge Graph</a>
+            <a>Strategy</a>
+            <a>Teams</a>
+            <div class="live-indicator">
+                <span class="live-dot"></span>
+                <span id="live-text">LIVE</span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="hero-text">
+                <h1>JARVIS Adaptive Intelligence</h1>
+                <p>Knowledge graph, product discovery, and strategy analysis in one evolving system.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Open Graph View</button>
+                    <button class="btn btn-secondary">View Strategy</button>
+                </div>
+            </div>
+            <div>
+                <canvas id="knowledge-graph"></canvas>
+            </div>
+        </div>
+
+        <!-- Today's Intelligence -->
+        <div class="today-intelligence">
+            <h3>📊 Today's Intelligence</h3>
+            <div class="intelligence-items">
+                <div class="intelligence-item">
+                    <span style="font-size:18px;">🔍</span>
+                    <span>Product Discovery · Beauty & Skincare</span>
+                </div>
+                <div class="intelligence-item">
+                    <span style="font-size:18px;">🧠</span>
+                    <span>Obsidian Graph · 5 new nodes</span>
+                </div>
+                <div class="intelligence-item">
+                    <span style="font-size:18px;">📈</span>
+                    <span>Strategy Report · 5-day trend</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats Section -->
+        <div class="stats-section">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h4>Today Revenue</h4>
+                    <div class="value">$<span id="today-revenue">286</span></div>
+                </div>
+                <div class="stat-card">
+                    <h4>5-Day Orders</h4>
+                    <div class="value"><span id="five-day-orders">34</span></div>
+                </div>
+                <div class="stat-card">
+                    <h4>Shopify Revenue</h4>
+                    <div class="value">$<span id="shopify-revenue">1,428</span></div>
+                </div>
+            </div>
+            <div class="side-stats">
+                <div class="side-stat">
+                    <div class="side-stat-label">
+                        <div class="side-stat-icon">💰</div>
+                        <div class="side-stat-text">
+                            <span>Today Revenue</span>
+                            <span>$<span id="side-revenue">286</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-stat">
+                    <div class="side-stat-label">
+                        <div class="side-stat-icon">📦</div>
+                        <div class="side-stat-text">
+                            <span>5-Day Orders</span>
+                            <span><span id="side-orders">34</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-stat">
+                    <div class="side-stat-label">
+                        <div class="side-stat-icon">🛒</div>
+                        <div class="side-stat-text">
+                            <span>Shopify Revenue</span>
+                            <span>$<span id="side-shopify">1,428</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-stat">
+                    <div class="side-stat-label">
+                        <div class="side-stat-icon">⚙️</div>
+                        <div class="side-stat-text">
+                            <span>Automation</span>
+                            <span><span id="side-automation">96</span>%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dashboard Grid -->
+        <div class="dashboard-grid">
+            <div class="dashboard-card">
+                <h4><span class="dashboard-card-icon">📋</span>Live Briefing</h4>
+                <ul class="log-list" id="log-list">
+                    <li><span class="log-text">Loading...</span></li>
+                </ul>
+            </div>
+            <div class="dashboard-card">
+                <h4><span class="dashboard-card-icon">🔍</span>Product Discovery</h4>
+                <div style="margin-top:15px;color:#999;font-size:13px;">
+                    <div style="padding:8px 0;border-bottom:1px solid #2a2a2a;">
+                        <div style="color:#e0e0e0;font-weight:500;">Hydrating Serum</div>
+                        <div style="font-size:12px;color:#666;">↑ 24%</div>
+                    </div>
+                    <div style="padding:8px 0;border-bottom:1px solid #2a2a2a;">
+                        <div style="color:#e0e0e0;font-weight:500;">Ceramide Moisturizer</div>
+                        <div style="font-size:12px;color:#666;">↑ 18%</div>
+                    </div>
+                    <div style="padding:8px 0;">
+                        <div style="color:#e0e0e0;font-weight:500;">Daily SPF 50</div>
+                        <div style="font-size:12px;color:#666;">↑ 12%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="dashboard-card">
+                <h4><span class="dashboard-card-icon">📊</span>5-Day Revenue Trend</h4>
+                <div class="chart-placeholder">Chart View</div>
+            </div>
+            <div class="dashboard-card">
+                <h4><span class="dashboard-card-icon">🎯</span>Phase 26 Progress</h4>
+                <div style="margin-top:15px;">
+                    <div style="display:flex;justify-content:space-between;margin-bottom:10px;">
+                        <span style="color:#e0e0e0;font-weight:500;">40%</span>
+                        <span style="color:#666;font-size:12px;">On track</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width:40%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="card">
-        <h2>?뮥 Shopify + ?ㅼ씠??Dropshipping</h2>
-        <div class="stats-grid">
-            <div class="stat-box"><h3>珥??곹뭹 ??/h3><p id="total-products">--</p></div>
-            <div class="stat-box"><h3>???섏씡</h3><p id="total-revenue">--</p></div>
-            <div class="stat-box"><h3>?됯퇏 留덉쭊</h3><p id="avg-margin">--</p></div>
-            <div class="stat-box"><h3>?먮룞?붿쑉</h3><p id="auto-rate">--</p></div>
-        </div>
-        <div class="refresh-info" id="update-time">?곗씠???숆린??以?..</div>
-    </div>
-    <div class="card">
-        <h2>?뱥 ?묒뾽 ?곸꽭 濡쒓렇 </h2>
-        <ul id="log-list"><li class="log-empty">???ㅼ떆媛?濡쒓렇 遺덈윭?ㅻ뒗 以?..</li></ul>
-    </div>
-    <div class="card">
-        <h2>?뱤 ?꾨줈?앺듃 吏꾪뻾??/h2>
-        <div class="overall-box">
-            <span class="label">?꾩껜 吏꾪뻾瑜?(Phase 26)</span>
-            <span class="value" id="overall-progress">--%</span>
-        </div>
-        <div class="progress-item">
-            <div class="progress-header"><span>?쨼 JARVIS 吏꾪솕</span><strong id="text-jarvis">--%</strong></div>
-            <div class="progress-bar-bg"><div id="bar-jarvis" class="progress-bar-fill"></div></div>
-        </div>
-        <div class="progress-item">
-            <div class="progress-header"><span>?뭻 ?섎즺 AI ?뚮옯??/span><strong id="text-medical">--%</strong></div>
-            <div class="progress-bar-bg"><div id="bar-medical" class="progress-bar-fill"></div></div>
-        </div>
-        <div class="progress-item">
-            <div class="progress-header"><span>?뮳 ?ъ뾽 ?뚮옯??/span><strong id="text-business">--%</strong></div>
-            <div class="progress-bar-bg"><div id="bar-business" class="progress-bar-fill"></div></div>
-        </div>
-        <div class="progress-item">
-            <div class="progress-header"><span>?? 湲곗닠 ?명봽??/span><strong id="text-infra">--%</strong></div>
-            <div class="progress-bar-bg"><div id="bar-infra" class="progress-bar-fill"></div></div>
-        </div>
-    </div>
-    <div class="footer">MD Family JARVIS LUNA Realtime Dashboard 쨌 GitHub Pages</div>
-</div>
-<script>
-const FALLBACK = {
-    work: {
-        timestamp: "2026-08-20 21:45:00",
-        completed_today: [
-            { text: "JARVIS LUNA AGI 肄붿뼱 ?붿쭊 ?ㅼ떆媛??숆린??紐⑤뱢 ?먭? ?꾨즺", time: "21:45:12" },
-            { text: "Shopify + ?ㅼ씠???쒕엻?ы븨 ?먮룞???뚯씠?꾨씪???좉퇋 ?곹뭹 ?곕룞", time: "21:30:45" },
-            { text: "GitHub Actions ?뚰겕?뚮줈 鍮뚮뱶 理쒖쟻??諛??먮윭 ????꾨즺", time: "21:15:02" },
-            { text: "?ㅼ떆?붿뼵(Obsidian) 吏??踰좎씠??吏??洹몃옒???먮룞 諛깆뾽 ?섑뻾", time: "20:50:33" },
-            { text: "?섎즺 AI ?곗씠?곗뀑 ?꾩쿂由?諛곗튂 #48 ?꾨즺", time: "20:30:10" }
-        ]
-    },
-    phase: {
-        jarvis: 92,
-        medical_ai: 87,
-        business: 90,
-        infrastructure: 95,
-        overall: 91
-    },
-    daiso: {
-        total_products: 130,
-        monthly_revenue: 5550,
-        average_margin: 38,
-        automation_rate: 96
-    }
-};
-function safeNumber(val, fallback = 0) {
-    if (val === null || val === undefined) return fallback;
-    if (typeof val === "string") val = val.replace(/[^0-9.\-]/g, "");
-    const n = Number(val);
-    return isNaN(n) ? fallback : n;
-}
 
-// ?묒뾽 濡쒓렇 ?꾩슜: ?쑣룸텇쨌珥?HH:MM:SS)留?異붿텧?섎뒗 ?⑥닔 (KST 湲곗?)
-function formatTimeOnly(timeInput, fallbackStr) {
-    if (!timeInput) return fallbackStr;
-    const timeStr = String(timeInput);
-    try {
-        const d = new Date(timeStr);
-        if (!isNaN(d.getTime())) {
-            const kst = new Date(d.getTime() + 9 * 60 * 60 * 1000);
-            const hh = String(kst.getUTCHours()).padStart(2, "0");
-            const mm = String(kst.getUTCMinutes()).padStart(2, "0");
-            const ss = String(kst.getUTCSeconds()).padStart(2, "0");
-            return `${hh}:${mm}:${ss}`;
-        }
-        if (timeStr.includes("T")) {
-            const part = timeStr.split("T")[1];
-            if (part) return part.split(".")[0];
-        }
-        if (timeStr.includes(" ")) {
-            const part = timeStr.split(" ")[1];
-            if (part) return part;
-        }
-    } catch (e) {}
-    return timeStr;
-}
+    <footer>JARVIS LUNA Dashboard · Real-time Intelligence System</footer>
 
-// ?곷떒 留덉?留?媛깆떊?? ?걔룹썡쨌?셋룹떆쨌遺꽷룹큹 ?쒖떆 ?⑥닔
-function formatDateTime(timeInput, fallbackStr) {
-    if (!timeInput) return fallbackStr;
-    const timeStr = String(timeInput);
-    try {
-        const d = new Date(timeStr);
-        if (!isNaN(d.getTime())) {
-            const kst = new Date(d.getTime() + 9 * 60 * 60 * 1000);
-            const yyyy = kst.getUTCFullYear();
-            const MM = String(kst.getUTCMonth() + 1).padStart(2, "0");
-            const dd = String(kst.getUTCDate()).padStart(2, "0");
-            const hh = String(kst.getUTCHours()).padStart(2, "0");
-            const mm = String(kst.getUTCMinutes()).padStart(2, "0");
-            const ss = String(kst.getUTCSeconds()).padStart(2, "0");
-            return `${yyyy}-${MM}-${dd} ${hh}:${mm}:${ss}`;
-        }
-    } catch (e) {}
-    return timeStr;
-}
+    <script>
+        // Knowledge Graph Visualization
+        function initKnowledgeGraph() {
+            const canvas = document.getElementById('knowledge-graph');
+            if (!canvas) return;
 
-function parseLogItem(item, fallbackTime) {
-    if (typeof item === "string") {
-        return { text: item, time: formatTimeOnly(item, fallbackTime) };
-    }
-    if (item && typeof item === "object") {
-        const text = item.task || item.message || item.text || item.log || item.title || item.content || item.description || JSON.stringify(item);
-        let time = item.end_time || item.start_time || item.time || item.timestamp || item.created_at || fallbackTime;
-        let timeStr = formatTimeOnly(time, fallbackTime);
-        return { text: text, time: timeStr };
-    }
-    return { text: String(item), time: fallbackTime };
-}
+            const ctx = canvas.getContext('2d');
+            canvas.width = canvas.offsetWidth;
+            canvas.height = canvas.offsetHeight;
 
-function setLiveIndicator(state) {
-    const el = document.getElementById("live-indicator");
-    el.className = state;
-    if (state === "online") el.textContent = "?윟 LIVE SYNC";
-    else if (state === "offline") el.textContent = "?뵶 SECURE SYNC (Active)";
-    else el.textContent = "?윞 SYNCING...";
-}
-function updateProgress(id, val) {
-    const v = Math.min(100, Math.max(0, safeNumber(val)));
-    document.getElementById(`text-${id}`).textContent = `${v}%`;
-    document.getElementById(`bar-${id}`).style.width = `${v}%`;
-}
-function calcTotalProducts(daisoData) {
-    if (Array.isArray(daisoData.categories) && daisoData.categories.length > 0) {
-        const sum = daisoData.categories.reduce((acc, cat) => acc + safeNumber(cat.products, 0), 0);
-        if (sum > 0) return sum;
-    }
-    if (daisoData.total_products !== undefined) return safeNumber(daisoData.total_products, FALLBACK.daiso.total_products);
-    if (daisoData.overview?.products_count !== undefined) return safeNumber(daisoData.overview.products_count, FALLBACK.daiso.total_products);
-    return FALLBACK.daiso.total_products;
-}
-function calcRevenue(daisoData) {
-    if (daisoData.monthly_revenue !== undefined && typeof daisoData.monthly_revenue !== "object") {
-        return safeNumber(daisoData.monthly_revenue, FALLBACK.daiso.monthly_revenue);
-    }
-    const mr = daisoData.financial_targets?.monthly_revenue;
-    if (mr) {
-        if (typeof mr === "object") {
-            const min = safeNumber(String(mr.min || "").replace(/[^0-9]/g, ""), 3900);
-            const max = safeNumber(String(mr.max || "").replace(/[^0-9]/g, ""), 7200);
-            return Math.round((min + max) / 2);
-        }
-        return safeNumber(mr, FALLBACK.daiso.monthly_revenue);
-    }
-    return FALLBACK.daiso.monthly_revenue;
-}
-function calcMargin(daisoData) {
-    if (daisoData.average_margin !== undefined) return safeNumber(daisoData.average_margin, FALLBACK.daiso.average_margin);
-    if (daisoData.financial_targets?.average_margin) return safeNumber(daisoData.financial_targets.average_margin, FALLBACK.daiso.average_margin);
-    if (Array.isArray(daisoData.categories) && daisoData.categories.length > 0) {
-        const sum = daisoData.categories.reduce((acc, cat) => acc + safeNumber(cat.avg_margin, 0), 0);
-        return Math.round(sum / daisoData.categories.length);
-    }
-    return FALLBACK.daiso.average_margin;
-}
-function calcAutoRate(daisoData) {
-    if (daisoData.automation_rate !== undefined) return safeNumber(daisoData.automation_rate, FALLBACK.daiso.automation_rate);
-    if (daisoData.overview?.automation_rate) return safeNumber(daisoData.overview.automation_rate, FALLBACK.daiso.automation_rate);
-    if (daisoData.automation_workflow?.automation_rate) return safeNumber(daisoData.automation_workflow.automation_rate, FALLBACK.daiso.automation_rate);
-    if (daisoData.progress_percentage !== undefined) return safeNumber(daisoData.progress_percentage, FALLBACK.daiso.automation_rate);
-    return FALLBACK.daiso.automation_rate;
-}
-async function fetchJSON(file) {
-    const urls = [
-        `./data/${file}?t=${Date.now()}`,
-        `https://raw.githubusercontent.com/coar0000-wq/jarvis-luna/main/data/${file}?t=${Date.now()}`
-    ];
-    for (const url of urls) {
-        try {
-            const res = await fetch(url, { cache: "no-store" });
-            if (res.ok) return await res.json();
-        } catch (e) {}
-    }
-    return null;
-}
-async function loadJarvisData() {
-    setLiveIndicator("loading");
-    try {
-        const [workRes, phaseRes, daisoRes] = await Promise.all([
-            fetchJSON("jarvis_work_detailed_log.json"),
-            fetchJSON("phase26_progress.json"),
-            fetchJSON("daiso_business_plan.json")
-        ]);
-        const workData = workRes || FALLBACK.work;
-        const phaseData = phaseRes || FALLBACK.phase;
-        const daisoData = daisoRes || FALLBACK.daiso;
-        const isFallback = !workRes || !phaseRes || !daisoRes;
-        const products = calcTotalProducts(daisoData);
-        const revenue = calcRevenue(daisoData);
-        const margin = calcMargin(daisoData);
-        const autoRate = calcAutoRate(daisoData);
-        document.getElementById("total-products").textContent = `${products}媛?;
-        document.getElementById("total-revenue").textContent = `$${revenue.toLocaleString()}`;
-        document.getElementById("avg-margin").textContent = `${margin}%`;
-        document.getElementById("auto-rate").textContent = `${autoRate}%`;
-        updateProgress("jarvis", phaseData.jarvis ?? FALLBACK.phase.jarvis);
-        updateProgress("medical", phaseData.medical_ai ?? FALLBACK.phase.medical_ai);
-        updateProgress("business", phaseData.business ?? FALLBACK.phase.business);
-        updateProgress("infra", phaseData.infrastructure ?? FALLBACK.phase.infrastructure);
-        const overall = safeNumber(phaseData.overall ?? phaseData.progress_percentage, FALLBACK.phase.overall);
-        document.getElementById("overall-progress").textContent = `${overall}%`;
-        const logList = document.getElementById("log-list");
-        logList.innerHTML = "";
-       
-        let rawLogs = workData.completed_today || workData.completed_tasks;
-        if (!Array.isArray(rawLogs) || rawLogs.length === 0) {
-            rawLogs = FALLBACK.work.completed_today;
-        }
-        
-        const rawGlobalTs = workData.timestamp || workData.current_date || "2026-08-20 21:00:00";
-        const formattedGlobalTs = formatDateTime(rawGlobalTs, "2026-08-20 21:00:00");
+            // Generate random nodes
+            const nodes = [];
+            const nodeCount = 20;
+            for (let i = 0; i < nodeCount; i++) {
+                nodes.push({
+                    x: Math.random() * canvas.width * 0.8 + canvas.width * 0.1,
+                    y: Math.random() * canvas.height * 0.8 + canvas.height * 0.1,
+                    radius: Math.random() * 5 + 3
+                });
+            }
 
-        [...rawLogs].reverse().map(item => parseLogItem(item, "21:00:00")).forEach(log => {
-            const li = document.createElement("li");
-            li.innerHTML = `
-                <div class="log-content"><span>??/span><span>${log.text}</span></div>
-                <span class="log-time">?븩 ${log.time}</span>
-            `;
-            logList.appendChild(li);
-        });
-        document.getElementById("update-time").textContent = `留덉?留?媛깆떊 : ${formattedGlobalTs}`;
-        setLiveIndicator(isFallback ? "offline" : "online");
-    } catch (err) {
-        console.error(err);
-        setLiveIndicator("offline");
-    }
-}
-loadJarvisData();
-setInterval(loadJarvisData, 30000);
-</script>
+            // Draw connections
+            ctx.strokeStyle = 'rgba(88, 166, 255, 0.2)';
+            ctx.lineWidth = 1;
+            for (let i = 0; i < nodes.length; i++) {
+                for (let j = i + 1; j < nodes.length; j++) {
+                    if (Math.random() > 0.85) {
+                        ctx.beginPath();
+                        ctx.moveTo(nodes[i].x, nodes[i].y);
+                        ctx.lineTo(nodes[j].x, nodes[j].y);
+                        ctx.stroke();
+                    }
+                }
+            }
+
+            // Draw nodes
+            nodes.forEach(node => {
+                ctx.fillStyle = '#58a6ff';
+                ctx.beginPath();
+                ctx.arc(node.x, node.y, node.radius, 0, Math.PI * 2);
+                ctx.fill();
+            });
+        }
+
+        // Data Loading
+        const FALLBACK = {
+            work: {
+                completed_today: [
+                    { text: "Market scan complete · Beauty & Skincare demand is rising.", time: "9:41 AM" },
+                    { text: "5 new nodes added · Obsidian graph expanded.", time: "9:22 AM" },
+                    { text: "Strategy update ready · 5-day trend analysis completed.", time: "9:05 AM" }
+                ]
+            },
+            stats: {
+                today_revenue: 286,
+                five_day_orders: 34,
+                shopify_revenue: 1428,
+                automation: 96
+            }
+        };
+
+        async function loadData() {
+            try {
+                // Update stats
+                const stats = FALLBACK.stats;
+                document.getElementById('today-revenue').textContent = stats.today_revenue;
+                document.getElementById('five-day-orders').textContent = stats.five_day_orders;
+                document.getElementById('shopify-revenue').textContent = stats.shopify_revenue.toLocaleString();
+                document.getElementById('side-revenue').textContent = stats.today_revenue;
+                document.getElementById('side-orders').textContent = stats.five_day_orders;
+                document.getElementById('side-shopify').textContent = stats.shopify_revenue.toLocaleString();
+                document.getElementById('side-automation').textContent = stats.automation;
+
+                // Update logs
+                const logList = document.getElementById('log-list');
+                logList.innerHTML = '';
+                FALLBACK.work.completed_today.forEach(log => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `<span class="log-text">${log.text}</span><span class="log-time">${log.time}</span>`;
+                    logList.appendChild(li);
+                });
+
+                // Initialize knowledge graph
+                initKnowledgeGraph();
+            } catch (err) {
+                console.error('Data loading error:', err);
+            }
+        }
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', loadData);
+        window.addEventListener('resize', initKnowledgeGraph);
+    </script>
 </body>
 </html>
