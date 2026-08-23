@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-23T16:50:41.567097+00:00",
+  "collected_at": "2026-08-23T17:15:19.637559+00:00",
   "sources": {
     "arxiv": {
       "status": "ok",
@@ -299,6 +299,15 @@
           "source": "YouTube channel RSS"
         },
         {
+          "title": "How to take your audience from \"Hi!\" to \"Buy!\"",
+          "published": "2026-08-23T17:00:07+00:00",
+          "updated": "2026-08-23T17:00:30+00:00",
+          "url": "https://www.youtube.com/shorts/FcsakJ0mdrY",
+          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
+          "channel": "@Shopify",
+          "source": "YouTube channel RSS"
+        },
+        {
           "title": "Luxury brand secrets they don't want you to know 🤫",
           "published": "2026-08-23T12:00:12+00:00",
           "updated": "2026-08-23T13:26:36+00:00",
@@ -420,15 +429,6 @@
           "published": "2026-08-09T17:00:08+00:00",
           "updated": "2026-08-13T03:18:26+00:00",
           "url": "https://www.youtube.com/shorts/eYEw5djh4gQ",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "How to use Shopify Sidekick in your weekly routine",
-          "published": "2026-08-09T12:00:05+00:00",
-          "updated": "2026-08-09T12:00:28+00:00",
-          "url": "https://www.youtube.com/shorts/rzk4_FFtdIg",
           "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
           "channel": "@Shopify",
           "source": "YouTube channel RSS"

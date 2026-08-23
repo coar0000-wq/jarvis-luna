@@ -2,7 +2,7 @@
 title: "JARVIS Real YouTube"
 source: "YouTube channel RSS"
 status: ok
-collected_at: 2026-08-23T16:50:43.833310+00:00
+collected_at: 2026-08-23T17:15:21.008148+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real YouTube
@@ -105,6 +105,12 @@ tags: [jarvis, real-data, knowledge]
 - updated: 2026-06-21T00:39:45+00:00
 - channel_id: UCIv38OrggTu3vNkCAo96-CQ
 
+### How to take your audience from "Hi!" to "Buy!"
+- 원문: [https://www.youtube.com/shorts/FcsakJ0mdrY](https://www.youtube.com/shorts/FcsakJ0mdrY)
+- published: 2026-08-23T17:00:07+00:00
+- updated: 2026-08-23T17:00:30+00:00
+- channel_id: UC7geKfz2-IH0rsgRBtHTm0g
+
 ### Luxury brand secrets they don't want you to know 🤫
 - 원문: [https://www.youtube.com/shorts/P0-JhQ37nhw](https://www.youtube.com/shorts/P0-JhQ37nhw)
 - published: 2026-08-23T12:00:12+00:00
@@ -187,11 +193,5 @@ tags: [jarvis, real-data, knowledge]
 - 원문: [https://www.youtube.com/shorts/eYEw5djh4gQ](https://www.youtube.com/shorts/eYEw5djh4gQ)
 - published: 2026-08-09T17:00:08+00:00
 - updated: 2026-08-13T03:18:26+00:00
-- channel_id: UC7geKfz2-IH0rsgRBtHTm0g
-
-### How to use Shopify Sidekick in your weekly routine
-- 원문: [https://www.youtube.com/shorts/rzk4_FFtdIg](https://www.youtube.com/shorts/rzk4_FFtdIg)
-- published: 2026-08-09T12:00:05+00:00
-- updated: 2026-08-09T12:00:28+00:00
 - channel_id: UC7geKfz2-IH0rsgRBtHTm0g
 
