@@ -39,7 +39,7 @@
         .btn-secondary:hover{background:#f5f5f5;color:#2a2a2a;border-color:#f5f5f5;}
 
         /* Knowledge Graph */
-        #knowledge-graph{width:100%;height:400px;background:#f5f5f5;border-radius:8px;display:block;}
+        #knowledge-graph{width:100%;height:400px;background:radial-gradient(circle at 50% 45%,#fbfcfe 0%,#f3f5f8 60%,#eef1f5 100%);border-radius:8px;display:block;cursor:crosshair;}
 
         /* Today's Intelligence */
         .today-intelligence{background:#1a1a1a;border-radius:12px;padding:30px;margin-bottom:40px;}
@@ -328,159 +328,270 @@
     <footer>JARVIS LUNA Dashboard · Real-time Intelligence System</footer>
 
     <script>
-        // Organic Knowledge Graph with Physics Simulation
+        // Living Knowledge Graph — breathing spring network with travelling signals
         const graph = {
             nodes: [],
+            connections: [],
+            pulses: [],
             canvas: null,
             ctx: null,
             animationId: null,
+            W: 0,
+            H: 0,
+            t: 0,
+            last: 0,
+            mouse: { x: -9999, y: -9999, active: false },
+            calm: false,
+
+            resize() {
+                const dpr = Math.min(window.devicePixelRatio || 1, 2);
+                this.W = this.canvas.offsetWidth;
+                this.H = this.canvas.offsetHeight;
+                this.canvas.width = this.W * dpr;
+                this.canvas.height = this.H * dpr;
+                this.ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+            },
 
             init() {
                 this.canvas = document.getElementById('knowledge-graph');
                 if (!this.canvas) return;
 
                 this.ctx = this.canvas.getContext('2d');
-                this.canvas.width = this.canvas.offsetWidth;
-                this.canvas.height = this.canvas.offsetHeight;
+                this.calm = window.matchMedia &&
+                    window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                this.resize();
 
-                // Create nodes with random properties
-                const nodeCount = 30;
+                let rt;
+                window.addEventListener('resize', () => {
+                    clearTimeout(rt);
+                    rt = setTimeout(() => this.resize(), 150);
+                });
+
+                this.canvas.addEventListener('pointermove', e => {
+                    const r = this.canvas.getBoundingClientRect();
+                    this.mouse.x = e.clientX - r.left;
+                    this.mouse.y = e.clientY - r.top;
+                    this.mouse.active = true;
+                });
+                this.canvas.addEventListener('pointerleave', () => {
+                    this.mouse.active = false;
+                    this.mouse.x = this.mouse.y = -9999;
+                });
+
+                // Nodes seeded on a loose ring so the network opens up naturally
+                const nodeCount = this.W < 520 ? 22 : 32;
                 for (let i = 0; i < nodeCount; i++) {
+                    const a = (i / nodeCount) * Math.PI * 2 + Math.random() * 0.4;
+                    const r = (0.18 + Math.random() * 0.24) * Math.min(this.W, this.H);
                     this.nodes.push({
-                        x: Math.random() * this.canvas.width * 0.8 + this.canvas.width * 0.1,
-                        y: Math.random() * this.canvas.height * 0.8 + this.canvas.height * 0.1,
-                        radius: Math.random() * 5 + 3,
-                        vx: (Math.random() - 0.5) * 3,
-                        vy: (Math.random() - 0.5) * 3,
+                        x: this.W / 2 + Math.cos(a) * r,
+                        y: this.H / 2 + Math.sin(a) * r,
+                        vx: 0,
+                        vy: 0,
+                        radius: 2.4 + Math.random() * 4.2,
                         phase: Math.random() * Math.PI * 2,
-                        frequency: Math.random() * 0.05 + 0.02,
-                        amplitude: 120 + Math.random() * 130
+                        drift: 0.10 + Math.random() * 0.22,
+                        glow: 0
                     });
                 }
 
-                // Create connections
-                this.connections = [];
-                for (let i = 0; i < this.nodes.length; i++) {
-                    for (let j = i + 1; j < this.nodes.length; j++) {
-                        if (Math.random() > 0.82) {
-                            this.connections.push([i, j]);
-                        }
+                // Each node links to its 2 nearest neighbours + a few long-range edges
+                const seen = new Set();
+                const add = (i, j) => {
+                    if (i === j) return;
+                    const k = i < j ? i + '-' + j : j + '-' + i;
+                    if (seen.has(k)) return;
+                    seen.add(k);
+                    this.connections.push({ a: i, b: j, rest: 90 + Math.random() * 70 });
+                };
+                this.nodes.forEach((n, i) => {
+                    const near = this.nodes
+                        .map((m, j) => ({ j, d: Math.hypot(n.x - m.x, n.y - m.y) }))
+                        .filter(o => o.j !== i)
+                        .sort((p, q) => p.d - q.d);
+                    add(i, near[0].j);
+                    add(i, near[1].j);
+                    if (Math.random() > 0.62) {
+                        add(i, near[3 + Math.floor(Math.random() * 6)].j);
                     }
-                }
+                });
 
+                this.last = performance.now();
                 this.animate();
             },
 
-            update() {
-                const time = Date.now() * 0.0015;
+            spawnPulse() {
+                if (this.pulses.length > 14 || !this.connections.length) return;
+                const c = this.connections[Math.floor(Math.random() * this.connections.length)];
+                this.pulses.push({
+                    c,
+                    t: 0,
+                    speed: 0.35 + Math.random() * 0.5,
+                    dir: Math.random() > 0.5 ? 1 : -1
+                });
+            },
 
-                // Update node positions - ALIVE like organism movement
-                this.nodes.forEach((node, i) => {
-                    // Multi-layered organic motion - like living creature
-                    const t1 = time * node.frequency;
-                    const t2 = time * node.frequency * 0.3;
-                    const t3 = time * node.frequency * 0.7;
+            update(dt) {
+                const t = this.t;
+                const cx = this.W / 2, cy = this.H / 2;
+                // Slow global breathing — the whole network inhales and exhales
+                const breath = 1 + Math.sin(t * 0.32) * 0.06;
 
-                    // Complex flowing path
-                    const flowX = Math.sin(t1 + node.phase) * (this.canvas.width * 0.35) +
-                                 Math.cos(t2 + node.phase + i) * (this.canvas.width * 0.2) +
-                                 Math.sin(t3 + node.phase + i * 0.7) * (this.canvas.width * 0.1);
-                    const flowY = Math.cos(t1 + node.phase + i * 0.5) * (this.canvas.height * 0.35) +
-                                 Math.sin(t2 + node.phase) * (this.canvas.height * 0.2) +
-                                 Math.cos(t3 + node.phase + i * 0.3) * (this.canvas.height * 0.1);
+                // 1. Spring forces along edges
+                for (const c of this.connections) {
+                    const a = this.nodes[c.a], b = this.nodes[c.b];
+                    const dx = b.x - a.x, dy = b.y - a.y;
+                    const d = Math.hypot(dx, dy) || 0.001;
+                    const f = (d - c.rest * breath) * 0.0016;
+                    const ux = dx / d, uy = dy / d;
+                    a.vx += ux * f; a.vy += uy * f;
+                    b.vx -= ux * f; b.vy -= uy * f;
+                    c.len = d;
+                }
 
-                    // Circular motion with variation
-                    const angle = time * node.frequency * 0.7 + node.phase;
-                    const radiusX = this.canvas.width * (0.3 + Math.sin(angle) * 0.2);
-                    const radiusY = this.canvas.height * (0.3 + Math.cos(angle * 0.6) * 0.2);
+                // 2. Soft repulsion so nodes never clump
+                for (let i = 0; i < this.nodes.length; i++) {
+                    const a = this.nodes[i];
+                    for (let j = i + 1; j < this.nodes.length; j++) {
+                        const b = this.nodes[j];
+                        const dx = a.x - b.x, dy = a.y - b.y;
+                        const d2 = dx * dx + dy * dy;
+                        if (d2 > 16900 || d2 < 0.01) continue;
+                        const d = Math.sqrt(d2);
+                        const f = (130 - d) / 130 * 0.09;
+                        const ux = dx / d, uy = dy / d;
+                        a.vx += ux * f; a.vy += uy * f;
+                        b.vx -= ux * f; b.vy -= uy * f;
+                    }
+                }
 
-                    node.targetX = this.canvas.width * 0.5 + flowX + Math.cos(angle) * radiusX;
-                    node.targetY = this.canvas.height * 0.5 + flowY + Math.sin(angle * 0.9) * radiusY;
+                this.nodes.forEach((n, i) => {
+                    // 3. Layered slow drift — the "alive" wander, no random jitter
+                    const p = n.phase;
+                    n.vx += (Math.sin(t * n.drift + p) * 0.55 +
+                             Math.sin(t * n.drift * 0.43 + p * 2.1) * 0.3) * 0.045;
+                    n.vy += (Math.cos(t * n.drift * 0.87 + p) * 0.55 +
+                             Math.cos(t * n.drift * 0.37 + p * 1.7) * 0.3) * 0.045;
 
-                    // Responsive easing - feels alive
-                    const easing = 0.14;
-                    node.x += (node.targetX - node.x) * easing;
-                    node.y += (node.targetY - node.y) * easing;
+                    // 4. Gentle swirl + pull to centre keeps it composed
+                    const ox = n.x - cx, oy = n.y - cy;
+                    n.vx += -oy * 0.00022 - ox * 0.0016;
+                    n.vy += ox * 0.00022 - oy * 0.0016;
 
-                    // Frequent, strong impulses - alive behavior
-                    if (Math.random() > 0.82) {
-                        node.vx = (Math.random() - 0.5) * 4.5;
-                        node.vy = (Math.random() - 0.5) * 4.5;
+                    // 5. Cursor gently parts the network
+                    if (this.mouse.active) {
+                        const dx = n.x - this.mouse.x, dy = n.y - this.mouse.y;
+                        const d = Math.hypot(dx, dy);
+                        if (d < 130 && d > 0.01) {
+                            const f = (130 - d) / 130;
+                            n.vx += (dx / d) * f * 0.9;
+                            n.vy += (dy / d) * f * 0.9;
+                            n.glow = Math.max(n.glow, f);
+                        }
                     }
 
-                    // Lighter damping - more energetic movement
-                    node.vx *= 0.87;
-                    node.vy *= 0.87;
-                    node.x += node.vx * 0.4;
-                    node.y += node.vy * 0.4;
+                    // 6. Integrate with damping and a speed ceiling
+                    n.vx *= 0.94; n.vy *= 0.94;
+                    const sp = Math.hypot(n.vx, n.vy);
+                    if (sp > 1.6) { n.vx = n.vx / sp * 1.6; n.vy = n.vy / sp * 1.6; }
+                    n.x += n.vx * dt * 60;
+                    n.y += n.vy * dt * 60;
 
-                    // STRONG repulsion + attraction forces
-                    this.nodes.forEach((other, j) => {
-                        if (i !== j) {
-                            const dx = node.x - other.x;
-                            const dy = node.y - other.y;
-                            const dist = Math.sqrt(dx * dx + dy * dy);
+                    // 7. Soft edges — ease back instead of hard bounce
+                    const m = 26;
+                    if (n.x < m) n.vx += (m - n.x) * 0.02;
+                    if (n.x > this.W - m) n.vx -= (n.x - (this.W - m)) * 0.02;
+                    if (n.y < m) n.vy += (m - n.y) * 0.02;
+                    if (n.y > this.H - m) n.vy -= (n.y - (this.H - m)) * 0.02;
 
-                            if (dist < 160 && dist > 2) {
-                                const force = (160 - dist) / 160 * 1.5;
-                                const angle = Math.atan2(dy, dx);
-                                node.vx += Math.cos(angle) * force * 0.6;
-                                node.vy += Math.sin(angle) * force * 0.6;
-                            }
-
-                            // Weak attraction to nearby nodes (pulls them together slightly)
-                            if (dist < 300 && dist > 50) {
-                                const attractForce = (300 - dist) / 300 * 0.2;
-                                const attractAngle = Math.atan2(dy, dx);
-                                node.vx -= Math.cos(attractAngle) * attractForce * 0.15;
-                                node.vy -= Math.sin(attractAngle) * attractForce * 0.15;
-                            }
-                        }
-                    });
-
-                    // Energetic boundary bounce
-                    const margin = 20;
-                    if (node.x < margin) { node.x = margin; node.vx = Math.abs(node.vx) * 0.8; }
-                    if (node.x > this.canvas.width - margin) { node.x = this.canvas.width - margin; node.vx = -Math.abs(node.vx) * 0.8; }
-                    if (node.y < margin) { node.y = margin; node.vy = Math.abs(node.vy) * 0.8; }
-                    if (node.y > this.canvas.height - margin) { node.y = this.canvas.height - margin; node.vy = -Math.abs(node.vy) * 0.8; }
+                    n.glow *= 0.94;
+                    n.pulse = 1 + Math.sin(t * 1.5 + p) * 0.16;
                 });
+
+                // 8. Signals travelling along the edges
+                if (!this.calm && Math.random() < dt * 4.5) this.spawnPulse();
+                for (let i = this.pulses.length - 1; i >= 0; i--) {
+                    const p = this.pulses[i];
+                    p.t += p.speed * dt;
+                    if (p.t >= 1) {
+                        const end = p.dir > 0 ? p.c.b : p.c.a;
+                        this.nodes[end].glow = 1;
+                        this.pulses.splice(i, 1);
+                    }
+                }
             },
 
             draw() {
-                this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+                const ctx = this.ctx;
+                ctx.clearRect(0, 0, this.W, this.H);
 
-                // Draw connections
-                this.ctx.strokeStyle = 'rgba(88, 166, 255, 0.15)';
-                this.ctx.lineWidth = 1;
-                this.connections.forEach(conn => {
-                    const n1 = this.nodes[conn[0]];
-                    const n2 = this.nodes[conn[1]];
-                    this.ctx.beginPath();
-                    this.ctx.moveTo(n1.x, n1.y);
-                    this.ctx.lineTo(n2.x, n2.y);
-                    this.ctx.stroke();
-                });
+                // Edges — fade with length so the web feels elastic
+                ctx.lineCap = 'round';
+                for (const c of this.connections) {
+                    const a = this.nodes[c.a], b = this.nodes[c.b];
+                    const d = c.len || Math.hypot(b.x - a.x, b.y - a.y);
+                    const o = Math.max(0, 0.3 - d / 1150);
+                    if (o <= 0.005) continue;
+                    const lit = Math.max(a.glow, b.glow);
+                    ctx.strokeStyle = 'rgba(88,166,255,' + (o + lit * 0.35).toFixed(3) + ')';
+                    ctx.lineWidth = 0.7 + lit * 1.1;
+                    ctx.beginPath();
+                    ctx.moveTo(a.x, a.y);
+                    ctx.lineTo(b.x, b.y);
+                    ctx.stroke();
+                }
 
-                // Draw nodes with glow effect
-                this.nodes.forEach(node => {
-                    // Glow
-                    const gradient = this.ctx.createRadialGradient(node.x, node.y, 0, node.x, node.y, node.radius * 3);
-                    gradient.addColorStop(0, 'rgba(88, 166, 255, 0.3)');
-                    gradient.addColorStop(1, 'rgba(88, 166, 255, 0)');
-                    this.ctx.fillStyle = gradient;
-                    this.ctx.fillRect(node.x - node.radius * 3, node.y - node.radius * 3, node.radius * 6, node.radius * 6);
+                // Travelling signals
+                for (const p of this.pulses) {
+                    const a = this.nodes[p.c.a], b = this.nodes[p.c.b];
+                    const k = p.dir > 0 ? p.t : 1 - p.t;
+                    const x = a.x + (b.x - a.x) * k;
+                    const y = a.y + (b.y - a.y) * k;
+                    const fade = Math.sin(p.t * Math.PI);
+                    const g = ctx.createRadialGradient(x, y, 0, x, y, 9);
+                    g.addColorStop(0, 'rgba(120,190,255,' + (0.55 * fade).toFixed(3) + ')');
+                    g.addColorStop(1, 'rgba(120,190,255,0)');
+                    ctx.fillStyle = g;
+                    ctx.beginPath();
+                    ctx.arc(x, y, 9, 0, Math.PI * 2);
+                    ctx.fill();
+                    ctx.fillStyle = 'rgba(160,210,255,' + (0.85 * fade).toFixed(3) + ')';
+                    ctx.beginPath();
+                    ctx.arc(x, y, 1.7, 0, Math.PI * 2);
+                    ctx.fill();
+                }
 
-                    // Node
-                    this.ctx.fillStyle = '#58a6ff';
-                    this.ctx.beginPath();
-                    this.ctx.arc(node.x, node.y, node.radius, 0, Math.PI * 2);
-                    this.ctx.fill();
-                });
+                // Nodes — soft halo + breathing core
+                for (const n of this.nodes) {
+                    const r = n.radius * (n.pulse || 1);
+                    const halo = r * (3.2 + n.glow * 2.4);
+                    const g = ctx.createRadialGradient(n.x, n.y, 0, n.x, n.y, halo);
+                    g.addColorStop(0, 'rgba(88,166,255,' + (0.24 + n.glow * 0.3).toFixed(3) + ')');
+                    g.addColorStop(0.55, 'rgba(88,166,255,0.07)');
+                    g.addColorStop(1, 'rgba(88,166,255,0)');
+                    ctx.fillStyle = g;
+                    ctx.beginPath();
+                    ctx.arc(n.x, n.y, halo, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    ctx.fillStyle = n.glow > 0.05
+                        ? 'rgba(' + Math.round(120 + n.glow * 80) + ',200,255,1)'
+                        : '#58a6ff';
+                    ctx.beginPath();
+                    ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
+                    ctx.fill();
+                }
             },
 
             animate() {
-                this.update();
+                const now = performance.now();
+                let dt = (now - this.last) / 1000;
+                this.last = now;
+                if (dt > 0.05) dt = 0.05;          // survive tab switches
+                if (this.calm) dt *= 0.25;         // respect reduced-motion
+                this.t += dt;
+
+                this.update(dt);
                 this.draw();
                 this.animationId = requestAnimationFrame(() => this.animate());
             }

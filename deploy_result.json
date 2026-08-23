@@ -1,36 +1,6 @@
 {
-  "time": "2026-08-23T13:27:53.487025",
+  "time": "2026-08-23T13:30:29.664562",
   "steps": [
-    {
-      "cmd": "git branch -f main HEAD",
-      "rc": 128,
-      "out": "",
-      "err": "fatal: cannot force update the branch 'main' used by worktree at 'C:/Users/Desktop/Claude/Projects/kms/jarvis-luna'\n"
-    },
-    {
-      "cmd": "git checkout main",
-      "rc": 1,
-      "out": "",
-      "err": "error: Your local changes to the following files would be overwritten by checkout:\n\tJARVIS_AUTO_DEPLOY.py\n\tdeploy_result.json\nPlease commit your changes or stash them before you switch branches.\nAborting\n"
-    },
-    {
-      "cmd": "git branch --set-upstream-to=origin/main main",
-      "rc": 0,
-      "out": "branch 'main' set up to track 'origin/main'.\n",
-      "err": ""
-    },
-    {
-      "cmd": "git add -A",
-      "rc": 0,
-      "out": "",
-      "err": "warning: in the working copy of 'JARVIS_AUTO_DEPLOY.py', LF will be replaced by CRLF the next time Git touches it\n"
-    },
-    {
-      "cmd": "git commit -m JARVIS: clean invalid UTF-8 bytes in index.html",
-      "rc": 0,
-      "out": "[detached HEAD baeba8b] JARVIS: clean invalid UTF-8 bytes in index.html\n 2 files changed, 40 insertions(+), 46 deletions(-)\n",
-      "err": ""
-    },
     {
       "cmd": "git fetch origin main",
       "rc": 0,
@@ -38,42 +8,72 @@
       "err": "From https://github.com/coar0000-wq/jarvis-luna\n * branch            main       -> FETCH_HEAD\n"
     },
     {
-      "cmd": "git merge --no-edit origin/main",
+      "cmd": "git checkout main",
       "rc": 0,
-      "out": "Already up to date.\n",
+      "out": ".md\nM\tobsidian/JARVIS_LUNA/Knowledge/Sources/Source--arXiv.md\nM\tobsidian/JARVIS_LUNA/Knowledge/Topics/AI-Agents.md\nM\tobsidian/JARVIS_LUNA/Knowledge/Topics/AI-Image-Generation.md\nM\tobsidian/JARVIS_LUNA/Knowledge/Topics/AI-Research.md\nM\tobsidian/JARVIS_LUNA/Knowledge/Topics/Machine-Learning-Research.md\nM\tobsidian/JARVIS_LUNA/Knowledge/Topics/Model-Routing-and-MoE.md\nM\tobsidian/JARVIS_LUNA/Knowledge/Topics/Shopify-Commerce.md\nYour branch and 'origin/main' have diverged,\nand have 2 and 6 different commits each, respectively.\n  (use \"git pull\" if you want to integrate the remote branch with yours)\n",
+      "err": "Already on 'main'\n"
+    },
+    {
+      "cmd": "git reset --hard origin/main",
+      "rc": 0,
+      "out": "HEAD is now at e32a8f0 JARVIS: ignore deploy logs\n",
       "err": ""
     },
     {
-      "cmd": "git push origin main",
-      "rc": 1,
+      "cmd": "git clean -fd .github/workflows",
+      "rc": 0,
       "out": "",
-      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n ! [rejected]        main -> main (non-fast-forward)\nerror: failed to push some refs to 'https://github.com/coar0000-wq/jarvis-luna.git'\nhint: Updates were rejected because a pushed branch tip is behind its remote\nhint: counterpart. If you want to integrate the remote changes, use 'git pull'\nhint: before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\n"
+      "err": ""
     },
     {
       "cmd": "git rev-parse --abbrev-ref HEAD",
       "rc": 0,
-      "out": "HEAD\n",
+      "out": "main\n",
       "err": ""
     },
     {
       "cmd": "git rev-parse HEAD",
       "rc": 0,
-      "out": "baeba8bc67ac1655cc346b3917d2d9f7e3700e6d\n",
+      "out": "e32a8f0f709497c8b700601bcf804d662cb19b5d\n",
       "err": ""
     },
     {
       "cmd": "git rev-parse origin/main",
       "rc": 0,
-      "out": "be3ad90d80e4dde33088c470c06c275627f245b9\n",
+      "out": "e32a8f0f709497c8b700601bcf804d662cb19b5d\n",
+      "err": ""
+    },
+    {
+      "cmd": "git status --short -b",
+      "rc": 0,
+      "out": "## main...origin/main\n",
       "err": ""
     }
   ],
-  "local_broken_before": 0,
-  "local_broken_after": 0,
-  "push_returncode": 1,
-  "branch": "HEAD",
-  "local_head": "baeba8bc67ac1655cc346b3917d2d9f7e3700e6d",
-  "remote_head": "be3ad90d80e4dde33088c470c06c275627f245b9",
-  "remote_check_error": "HTTP Error 404: Not Found",
-  "SUCCESS": false
+  "branch": "main",
+  "local_head": "e32a8f0f709497c8b700601bcf804d662cb19b5d",
+  "remote_head": "e32a8f0f709497c8b700601bcf804d662cb19b5d",
+  "status": "## main...origin/main\n",
+  "active_workflows": [
+    "JARVIS-Core-Automation.yml",
+    "JARVIS-Deep-Analysis.yml",
+    "auto-update.yml",
+    "daiso-discovery.yml",
+    "jarvis-auto-evolution.yml",
+    "jarvis-deploy.yml",
+    "jarvis-luna-deploy.yml",
+    "jarvis-real-knowledge.yml",
+    "jarvis_automation.yml",
+    "jarvis_final_automation.yml",
+    "jarvis_health_monitor.yml",
+    "jarvis_test_simple.yml",
+    "jekyll-gh-pages.yml",
+    "obsidian_sync.yml",
+    "phase26_complete_automation.yml",
+    "update-tasks.yml",
+    "weekly-strategy-report.yml"
+  ],
+  "remote_has_hero_bg": true,
+  "remote_broken_glyphs": 0,
+  "SUCCESS": true
 }
