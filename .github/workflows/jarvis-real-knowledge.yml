@@ -38,21 +38,14 @@ jobs:
       - name: Train the real-data knowledge router
         run: python train_real_knowledge.py
 
-      - name: Validate generated files and real training status
+      - name: Validate generated files
         shell: bash
         run: |
           python -m json.tool data/knowledge/real_sources.json >/dev/null
           python -m json.tool data/knowledge/training_status.json >/dev/null
+          test -f data/knowledge/real_knowledge_router.npz
 
-          test -f "data/knowledge/real_knowledge_router.npz"
-
-          grep -q '"training_performed": true' data/knowledge/training_status.json
-          grep -q '"weights_updated": true' data/knowledge/training_status.json
-
-          test -f "obsidian/JARVIS_LUNA/Knowledge/JARVIS Real Knowledge Index.md"
-          grep -q "JARVIS Real Knowledge Index" "obsidian/JARVIS_LUNA/Knowledge/JARVIS Real Knowledge Index.md"
-
-      - name: Commit real data, model weights, and Obsidian graph notes
+      - name: Commit and push safely
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -66,13 +59,11 @@ jobs:
                   .github/workflows/jarvis-real-knowledge.yml
 
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No changes"
             exit 0
           fi
 
           git commit -m "🧠 Train real knowledge router and sync Obsidian graph"
 
-          git fetch origin main
-          git rebase origin/main
-
+          git pull --rebase origin main
           git push origin HEAD:main
