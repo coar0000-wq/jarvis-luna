@@ -86,6 +86,8 @@
         .dz-tile .k{font-size:12px;color:#999;margin-bottom:8px;}
         .dz-tile .v{font-size:24px;font-weight:700;line-height:1.15;}
         .dz-tile .u{font-size:11px;font-weight:400;color:#666;margin-top:5px;}
+        .dz-tile .tag{display:inline-block;margin-left:5px;padding:1px 5px;border-radius:3px;
+            background:#2a2a2a;color:#999;font-size:10px;font-weight:500;vertical-align:middle;}
         .dz-green .v{color:#3fb950;}
         .dz-blue .v{color:#58a6ff;}
         .dz-amber .v{color:#d29922;}
@@ -513,8 +515,9 @@
                 '<div class="dz-grid">' +
                 tile('dz-green', '수집 상품 수', (t.products || 0) + '개',
                      run.finished_at ? KST(run.finished_at) + ' 기준' : '수집 전') +
-                tile('dz-blue', '평균 원가', avgUsd,
-                     avgKrw != null ? avgKrw.toLocaleString('ko-KR') + '원' : '데이터 없음') +
+                // 사업 준비 단계 계획값. 실측이 아니므로 라벨에 '목표'를 명시한다.
+                tile('dz-blue', '월 평균 수입 <span class="tag">목표</span>', '$5,715',
+                     '사업 계획 기준 · 실적 아님') +
                 tile('dz-slate', '카테고리', filled + ' / ' + total, '뷰티관 하위 분류') +
                 tile('dz-amber', '적용 환율',
                      fx.ok ? Number(fx.usd_to_krw).toLocaleString('ko-KR') : '–',
@@ -530,8 +533,11 @@
                 check(false, 'Shopify 스토어 연동') +
                 '</ul>' +
                 '<div class="dz-note">' +
-                '원가는 다이소몰 상품 페이지에 표시된 실측 원화가입니다. 배송비·관세·수수료는 ' +
-                '확정 견적이 없어 계산에 넣지 않았습니다.' +
+                (avgKrw != null
+                    ? '수집 상품 평균 원가 ' + avgKrw.toLocaleString('ko-KR') + '원 (' + avgUsd + ') · 다이소몰 실측값.<br>'
+                    : '') +
+                '월 평균 수입은 사업 계획상의 목표치이며 실제 매출이 아닙니다. ' +
+                '배송비·관세·수수료는 확정 견적이 없어 계산에 넣지 않았습니다.' +
                 (run.skipped_not_beauty ? '<br>이번 실행에서 뷰티관 밖 ' + run.skipped_not_beauty + '건 제외.' : '') +
                 (run.message ? '<br><span style="color:#f5a524;">' + esc(run.message) + '</span>' : '') +
                 '</div>';

@@ -1,1 +1,6 @@
-=== START 2026-08-23 15:34:12.42 === 
+=== START 2026-08-23 15:41:46.17 === 
+--- rebuild corpus (accumulating) --- 
+{"updated_at": "2026-08-23T06:41:46.252865+00:00", "real_records": 40, "records_before": 40, "records_added": 0, "source_status": {"arxiv": "ok", "youtube": "ok", "google": "error"}, "training_performed": false, "weights_updated": false, "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.", "corpus": "data\\knowledge\\training_corpus.jsonl"}
+--- runtime snapshot --- 
+done 
+--- deploy --- 
