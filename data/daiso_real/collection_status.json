@@ -1,40 +1,123 @@
 {
   "last_run": {
-    "started_at": "2026-08-23T05:43:40.221903+00:00",
-    "requested": 3,
-    "ok": 3,
-    "parse_failed": 0,
+    "started_at": "2026-08-23T05:57:21.678336+00:00",
+    "requested": 12,
+    "ok": 0,
+    "parse_failed": 1,
     "http_error": 0,
+    "skipped_not_beauty": 11,
+    "scope": "다이소몰 뷰티관(C245) 12개 카테고리",
     "delay_seconds": 5.0,
-    "max_items": 3,
+    "max_items": 12,
     "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
     "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
-    "finished_at": "2026-08-23T05:44:00.820728+00:00",
+    "finished_at": "2026-08-23T05:58:36.580065+00:00",
     "status": "ok"
   },
   "totals": {
-    "products": 3,
-    "target_per_bucket": 100,
+    "products": 0,
+    "target_per_bucket": 40,
     "by_bucket": {
-      "주방용품": 3,
-      "홈데코": 0,
-      "문구용품": 0,
-      "일상용품": 0,
-      "미용건강": 0,
-      "미분류": 0
+      "스킨케어": 0,
+      "마스크팩": 0,
+      "클렌징": 0,
+      "선케어": 0,
+      "메이크업": 0,
+      "네일": 0,
+      "뷰티소품": 0,
+      "맨즈케어": 0,
+      "향수": 0,
+      "헤어케어": 0,
+      "바디케어": 0,
+      "구강용품": 0
     },
-    "price_krw_min": 1000,
-    "price_krw_max": 5000,
-    "with_rating": 3
+    "categories": {
+      "스킨케어": {
+        "count": 0,
+        "avg_price_krw": null,
+        "min_price_krw": null,
+        "max_price_krw": null
+      },
+      "마스크팩": {
+        "count": 0,
+        "avg_price_krw": null,
+        "min_price_krw": null,
+        "max_price_krw": null
+      },
+      "클렌징": {
+        "count": 0,
+        "avg_price_krw": null,
+        "min_price_krw": null,
+        "max_price_krw": null
+      },
+      "선케어": {
+        "count": 0,
+        "avg_price_krw": null,
+        "min_price_krw": null,
+        "max_price_krw": null
+      },
+      "메이크업": {
+        "count": 0,
+        "avg_price_krw": null,
+        "min_price_krw": null,
+        "max_price_krw": null
+      },
+      "네일": {
+        "count": 0,
+        "avg_price_krw": null,
+        "min_price_krw": null,
+        "max_price_krw": null
+      },
+      "뷰티소품": {
+        "count": 0,
+        "avg_price_krw": null,
+        "min_price_krw": null,
+        "max_price_krw": null
+      },
+      "맨즈케어": {
+        "count": 0,
+        "avg_price_krw": null,
+        "min_price_krw": null,
+        "max_price_krw": null
+      },
+      "향수": {
+        "count": 0,
+        "avg_price_krw": null,
+        "min_price_krw": null,
+        "max_price_krw": null
+      },
+      "헤어케어": {
+        "count": 0,
+        "avg_price_krw": null,
+        "min_price_krw": null,
+        "max_price_krw": null
+      },
+      "바디케어": {
+        "count": 0,
+        "avg_price_krw": null,
+        "min_price_krw": null,
+        "max_price_krw": null
+      },
+      "구강용품": {
+        "count": 0,
+        "avg_price_krw": null,
+        "min_price_krw": null,
+        "max_price_krw": null
+      }
+    },
+    "avg_price_krw": null,
+    "price_krw_min": null,
+    "price_krw_max": null,
+    "with_rating": 0
   },
   "fx": {
     "usd_to_krw": 1384.23,
     "krw_to_usd": 0.00072242,
     "as_of": "2026-08-21",
     "source": "https://api.frankfurter.app/latest?from=USD&to=KRW",
-    "fetched_at": "2026-08-23T05:44:01.723058+00:00",
+    "fetched_at": "2026-08-23T05:58:37.507913+00:00",
     "ok": true
   },
   "sitemap_urls_known": 19739,
-  "visited": 3
+  "visited": 12
 }

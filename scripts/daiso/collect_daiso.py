@@ -149,13 +149,15 @@ def parse_product(pd_no: str, url: str, html: str) -> dict | None:
     }
 
 
-def classify(category: str | None, buckets: dict) -> str:
-    if not category:
-        return "미분류"
+def classify(item: dict, buckets: dict) -> str | None:
+    """뷰티관 12개 카테고리 중 하나로 분류. 해당 없으면 None (수집 대상 아님)."""
+    haystack = " ".join(filter(None, [item.get("site_category"), item.get("name")]))
+    if not haystack:
+        return None
     for bucket, keywords in buckets.items():
-        if any(kw in category for kw in keywords):
+        if any(kw in haystack for kw in keywords):
             return bucket
-    return "미분류"
+    return None
 
 
 # ----------------------------------------------------------------- fx rate
@@ -215,6 +217,8 @@ def main() -> int:
     run = {
         "started_at": now_iso(),
         "requested": 0, "ok": 0, "parse_failed": 0, "http_error": 0,
+        "skipped_not_beauty": 0,
+        "scope": "다이소몰 뷰티관(C245) 12개 카테고리",
         "delay_seconds": DELAY, "max_items": MAX_ITEMS,
         "user_agent": UA,
         "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
@@ -260,27 +264,30 @@ def main() -> int:
             if item is None:
                 run["parse_failed"] += 1
             else:
-                item["bucket"] = classify(item["site_category"], buckets)
-                if counts.get(item["bucket"], 0) >= target and item["bucket"] != "미분류":
-                    pass                          # 목표 도달 버킷은 갱신만
-                counts[item["bucket"]] = counts.get(item["bucket"], 0) + 1
-                if pd_no in by_no:
-                    products[by_no[pd_no]] = item
+                bucket = classify(item, buckets)
+                if bucket is None:
+                    run["skipped_not_beauty"] += 1     # 뷰티관 밖 상품은 저장하지 않는다
                 else:
-                    by_no[pd_no] = len(products)
-                    products.append(item)
-                run["ok"] += 1
+                    item["bucket"] = bucket
+                    counts[bucket] = counts.get(bucket, 0) + 1
+                    if pd_no in by_no:
+                        products[by_no[pd_no]] = item
+                    else:
+                        by_no[pd_no] = len(products)
+                        products.append(item)
+                    run["ok"] += 1
 
         time.sleep(DELAY + random.uniform(0, 2))
 
     run["finished_at"] = now_iso()
+    reached = run["ok"] + run["skipped_not_beauty"]
     if run["requested"] == 0:
         run["status"] = "nothing_to_do"
-    elif run["ok"] == 0:
+    elif reached == 0:
         run["status"] = "blocked"
         run["message"] = ("모든 요청이 실패했습니다. GitHub Actions 러너의 해외 IP가 "
                           "차단되었을 수 있습니다. 로컬(한국 IP) 실행을 검토하세요.")
-    elif run["ok"] < run["requested"] / 2:
+    elif reached < run["requested"] / 2:
         run["status"] = "degraded"
     else:
         run["status"] = "ok"
@@ -309,17 +316,31 @@ def main() -> int:
 def tally(products: list) -> dict:
     c: dict = {}
     for p in products:
-        c[p.get("bucket", "미분류")] = c.get(p.get("bucket", "미분류"), 0) + 1
+        b = p.get("bucket")
+        if b:
+            c[b] = c.get(b, 0) + 1
     return c
 
 
 def summarize(products: list, buckets: dict, target: int) -> dict:
-    c = tally(products)
+    """카테고리별 실측 원화 가격 요약. USD 환산은 화면에서 실시간 환율로 계산한다."""
+    rows = {}
+    for b in buckets:
+        items = [p for p in products if p.get("bucket") == b]
+        prices = [p["price_krw"] for p in items if isinstance(p.get("price_krw"), int)]
+        rows[b] = {
+            "count": len(items),
+            "avg_price_krw": round(sum(prices) / len(prices)) if prices else None,
+            "min_price_krw": min(prices) if prices else None,
+            "max_price_krw": max(prices) if prices else None,
+        }
     prices = [p["price_krw"] for p in products if isinstance(p.get("price_krw"), int)]
     return {
         "products": len(products),
         "target_per_bucket": target,
-        "by_bucket": {b: c.get(b, 0) for b in list(buckets) + ["미분류"]},
+        "by_bucket": {b: rows[b]["count"] for b in buckets},
+        "categories": rows,
+        "avg_price_krw": round(sum(prices) / len(prices)) if prices else None,
         "price_krw_min": min(prices) if prices else None,
         "price_krw_max": max(prices) if prices else None,
         "with_rating": sum(1 for p in products if p.get("rating") is not None),

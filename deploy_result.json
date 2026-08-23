@@ -1,16 +1,16 @@
 {
-  "time": "2026-08-23T14:30:09.926680",
+  "time": "2026-08-23T14:44:01.839868",
   "steps": [
     {
       "cmd": "git add -A",
       "rc": 0,
       "out": "",
-      "err": "warning: in the working copy of 'JARVIS_AUTO_DEPLOY.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'RUN_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\n"
+      "err": "e working copy of 'RUN_DEPLOY.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of '.github/workflows/daiso-real-collection.yml', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/daiso/archive_legacy.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/daiso/category_map.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/daiso/collect_daiso.py', LF will be replaced by CRLF the next time Git touches it\n"
     },
     {
-      "cmd": "git commit -m JARVIS: drop fabricated automation metric, fix deploy verifier",
+      "cmd": "git commit -m JARVIS: real Daiso collection pipeline + archive placeholder data",
       "rc": 0,
-      "out": "[main c216f6d] JARVIS: drop fabricated automation metric, fix deploy verifier\n 4 files changed, 20 insertions(+), 116 deletions(-)\n",
+      "out": "ta/daiso_products.json => archive/daiso_placeholder/data__daiso_products.json (100%)\n rename data/data/data/data/daiso_business_plan.json => archive/daiso_placeholder/data__data__data__data__daiso_business_plan.json (100%)\n create mode 100644 archive/daiso_placeholder/manifest.json\n create mode 100644 data/daiso_real/collection_status.json\n create mode 100644 data/daiso_real/crawl_state.json\n create mode 100644 data/daiso_real/products.json\n create mode 100644 scripts/daiso/archive_legacy.py\n create mode 100644 scripts/daiso/category_map.json\n create mode 100644 scripts/daiso/collect_daiso.py\n",
       "err": ""
     },
     {
@@ -29,7 +29,7 @@
       "cmd": "git push origin HEAD:main",
       "rc": 0,
       "out": "",
-      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   d2eb8ee..c216f6d  HEAD -> main\n"
+      "err": "To https://github.com/coar0000-wq/jarvis-luna.git\n   c216f6d..ca6670e  HEAD -> main\n"
     },
     {
       "cmd": "git fetch origin main",
@@ -46,13 +46,13 @@
     {
       "cmd": "git rev-parse HEAD",
       "rc": 0,
-      "out": "c216f6d693358f04beac7fe6965a3e5643e354f1\n",
+      "out": "ca6670eacce1e5ba1fd32a8e4e5f1d69cafc24c4\n",
       "err": ""
     },
     {
       "cmd": "git rev-parse origin/main",
       "rc": 0,
-      "out": "c216f6d693358f04beac7fe6965a3e5643e354f1\n",
+      "out": "ca6670eacce1e5ba1fd32a8e4e5f1d69cafc24c4\n",
       "err": ""
     },
     {
@@ -64,8 +64,8 @@
   ],
   "push_returncode": 0,
   "branch": "main",
-  "local_head": "c216f6d693358f04beac7fe6965a3e5643e354f1",
-  "remote_head": "c216f6d693358f04beac7fe6965a3e5643e354f1",
+  "local_head": "ca6670eacce1e5ba1fd32a8e4e5f1d69cafc24c4",
+  "remote_head": "ca6670eacce1e5ba1fd32a8e4e5f1d69cafc24c4",
   "status": "## main...origin/main\n",
   "remote_has_hero_bg": true,
   "remote_reads_runtime_json": true,
