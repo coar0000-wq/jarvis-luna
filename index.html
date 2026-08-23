@@ -31,13 +31,6 @@
         .today-intelligence::before,.stat-card::before,.dashboard-card::before,.side-stat::before{
             content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:0;
             background:linear-gradient(180deg,rgba(255,255,255,0.16) 0%,rgba(255,255,255,0.04) 18%,transparent 42%);}
-        /* 가장자리를 타고 도는 빛 */
-        .today-intelligence::after,.stat-card::after,.dashboard-card::after,.side-stat::after{
-            content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:0;
-            background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,0.10) 47%,transparent 62%);
-            opacity:0;transition:opacity .5s ease;}
-        .today-intelligence:hover::after,.stat-card:hover::after,
-        .dashboard-card:hover::after,.side-stat:hover::after{opacity:1;}
         .today-intelligence > *,.stat-card > *,.dashboard-card > *,.side-stat > *{position:relative;z-index:1;}
         @supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
             .today-intelligence,.stat-card,.dashboard-card,.side-stat{background:#1a1a1a;border-color:#2a2a2a;}
@@ -55,8 +48,11 @@
         nav a{text-decoration:none;color:#999;font-size:14px;line-height:1;transition:color 0.3s;cursor:pointer;display:flex;align-items:center;height:100%;border-bottom:2px solid transparent;}
         nav a.active{color:#fff;border-bottom-color:#58a6ff;}
         nav a:hover{color:#fff;}
-        .live-indicator{display:flex;align-items:center;gap:6px;font-size:12px;line-height:1;color:#3fb950;flex-shrink:0;margin-left:8px;}
-        .live-dot{width:8px;height:8px;background:#3fb950;border-radius:50%;animation:pulse 2s infinite;}
+        /* 로고와 같은 크기로 헤더 오른쪽 끝에 배치 */
+        .live-indicator{display:flex;align-items:center;gap:9px;font-size:22px;font-weight:300;letter-spacing:4px;
+            line-height:1;color:#3fb950;flex-shrink:0;justify-self:end;white-space:nowrap;}
+        .live-dot{width:11px;height:11px;background:#3fb950;border-radius:50%;flex-shrink:0;
+            box-shadow:0 0 10px rgba(63,185,80,0.65);animation:pulse 2s infinite;}
         @keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.5;}}
 
         /* Main Container */
@@ -169,8 +165,9 @@
             .dashboard-grid{grid-template-columns:repeat(2,1fr);}
             .stats-section{grid-template-columns:1fr;}
             header{display:flex;flex-wrap:wrap;gap:10px;padding:12px 20px;height:auto;}
-            nav{gap:22px;flex-wrap:wrap;justify-content:flex-start;height:auto;justify-self:auto;width:100%;}
+            nav{gap:22px;flex-wrap:wrap;justify-content:flex-start;height:auto;justify-self:auto;order:3;width:100%;}
             nav a{height:auto;padding-bottom:3px;}
+            .live-indicator{justify-self:auto;margin-left:auto;order:2;}
             .header-spacer{display:none;}
         }
 
@@ -181,7 +178,8 @@
             .logo{font-size:18px;letter-spacing:2px;}
             nav{gap:16px;font-size:12px;width:100%;}
             nav a{font-size:12px;}
-            .live-indicator{margin-left:auto;}
+            .live-indicator{font-size:18px;letter-spacing:2px;gap:7px;}
+            .live-dot{width:9px;height:9px;}
             .today-intelligence h3{font-size:11px;}
             #updated-at{font-size:11px;}
             .container{max-width:100%;padding:20px;}
@@ -267,12 +265,11 @@
             <a>Knowledge Graph</a>
             <a>Strategy</a>
             <a>Teams</a>
-            <div class="live-indicator">
-                <span class="live-dot"></span>
-                <span id="live-text">LIVE</span>
-            </div>
         </nav>
-        <div class="header-spacer"></div>
+        <div class="live-indicator">
+            <span class="live-dot"></span>
+            <span id="live-text">LIVE</span>
+        </div>
     </header>
 
     <div class="container">

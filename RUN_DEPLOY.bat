@@ -1,6 +1,6 @@
 @echo off
 set REPO=C:\Users\Desktop\Claude\Projects\kms\jarvis-luna
-set JARVIS_MSG=JARVIS: liquid glass on outer cards only
+set JARVIS_MSG=JARVIS: LIVE badge right-aligned at logo size, drop hover sheen
 cd /d "%REPO%"
 echo === START %DATE% %TIME% === >"%REPO%\deploy_stdout.txt"
 python "%REPO%\JARVIS_AUTO_DEPLOY.py" >>"%REPO%\deploy_stdout.txt" 2>&1
