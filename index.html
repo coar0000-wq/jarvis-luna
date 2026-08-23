@@ -84,12 +84,88 @@
         /* Footer */
         footer{text-align:center;padding:30px;color:#666;font-size:12px;border-top:1px solid #1a1a1a;margin-top:40px;}
 
+        /* Tablet: 1024px and below */
         @media(max-width:1024px){
             .hero{grid-template-columns:1fr;padding:40px 30px;}
             .dashboard-grid{grid-template-columns:repeat(2,1fr);}
             .stats-section{grid-template-columns:1fr;}
             header{flex-direction:column;gap:20px;padding:20px;}
             nav{flex-direction:column;gap:15px;width:100%;}
+        }
+
+        /* Mobile: 768px and below */
+        @media(max-width:768px){
+            body{font-size:14px;}
+            header{padding:15px 20px;gap:15px;}
+            .logo{font-size:18px;letter-spacing:2px;}
+            nav{gap:20px;font-size:12px;}
+            .container{max-width:100%;padding:20px;}
+            .hero{padding:30px 20px;gap:20px;border-radius:8px;}
+            .hero-text h1{font-size:36px;margin-bottom:15px;}
+            .hero-text p{font-size:14px;margin-bottom:20px;}
+            .btn{padding:10px 20px;font-size:12px;}
+            #knowledge-graph{height:280px;border-radius:8px;}
+            .today-intelligence{padding:20px;margin-bottom:30px;border-radius:8px;}
+            .today-intelligence h3{font-size:11px;margin-bottom:15px;}
+            .intelligence-items{flex-direction:column;gap:15px;}
+            .intelligence-item{gap:8px;}
+            .intelligence-item span:first-child{font-size:16px;}
+            .intelligence-item span{font-size:13px;}
+            .stats-section{grid-template-columns:1fr;gap:20px;}
+            .stats-grid{grid-template-columns:1fr;gap:15px;}
+            .stat-card{padding:20px;border-radius:8px;}
+            .stat-card h4{font-size:11px;margin-bottom:6px;}
+            .stat-card .value{font-size:24px;}
+            .side-stats{gap:15px;}
+            .side-stat{padding:15px;border-radius:8px;}
+            .side-stat-icon{width:20px;height:20px;font-size:10px;}
+            .side-stat-text span:first-child{font-size:11px;}
+            .side-stat-text span:last-child{font-size:12px;}
+            .dashboard-grid{grid-template-columns:1fr;gap:15px;margin-bottom:30px;}
+            .dashboard-card{padding:15px;border-radius:8px;}
+            .dashboard-card h4{font-size:11px;margin-bottom:12px;}
+            .log-list li{padding:8px 0;font-size:12px;}
+            .log-time{font-size:11px;}
+            .chart-placeholder{height:150px;font-size:12px;}
+            .progress-bar{margin-top:12px;}
+            footer{padding:20px;font-size:11px;margin-top:30px;}
+        }
+
+        /* Small Mobile: 480px and below */
+        @media(max-width:480px){
+            body{font-size:13px;}
+            header{padding:12px 15px;}
+            .logo{font-size:16px;letter-spacing:1px;}
+            nav{gap:12px;font-size:11px;}
+            .container{padding:15px;}
+            .hero{padding:20px 15px;gap:15px;}
+            .hero-text h1{font-size:28px;margin-bottom:10px;}
+            .hero-text p{font-size:13px;margin-bottom:15px;}
+            .hero-buttons{flex-direction:column;gap:10px;}
+            .btn{padding:10px 16px;font-size:11px;width:100%;}
+            #knowledge-graph{height:220px;}
+            .today-intelligence{padding:15px;margin-bottom:20px;}
+            .today-intelligence h3{font-size:10px;margin-bottom:12px;}
+            .intelligence-items{gap:12px;}
+            .intelligence-item span:first-child{font-size:14px;}
+            .intelligence-item span{font-size:12px;}
+            .stats-section{gap:15px;}
+            .stats-grid{gap:12px;}
+            .stat-card{padding:15px;}
+            .stat-card h4{font-size:10px;}
+            .stat-card .value{font-size:20px;}
+            .side-stats{gap:12px;}
+            .side-stat{padding:12px;}
+            .side-stat-icon{width:18px;height:18px;font-size:9px;}
+            .side-stat-text span:first-child{font-size:10px;}
+            .side-stat-text span:last-child{font-size:11px;}
+            .dashboard-grid{gap:12px;margin-bottom:20px;}
+            .dashboard-card{padding:12px;}
+            .dashboard-card h4{font-size:10px;margin-bottom:10px;}
+            .log-list li{padding:6px 0;font-size:11px;}
+            .log-time{font-size:10px;}
+            .chart-placeholder{height:120px;font-size:11px;}
+            footer{padding:15px;font-size:10px;margin-top:20px;}
         }
     </style>
 </head>
