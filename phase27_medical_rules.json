@@ -1,0 +1,114 @@
+[
+  {
+    "rule_id": "CARDIO_001",
+    "rule_name": "심혈관 질환 고위험 판정",
+    "condition": "혈압 > 140 mmHg AND 혈당 > 120 mg/dL",
+    "conclusion": "심혈관 질환 고위험",
+    "confidence": 0.94,
+    "validated_confidence": 0.96,
+    "validation_status": "✅ 검증됨",
+    "clinical_evidence": "고혈압 + 고혈당 = 심장 부담 증가",
+    "clinical_implication": "적극적 관리 필요, 약물 치료 고려",
+    "supporting_features": [
+      "수축기 혈압",
+      "공복 혈당",
+      "심박수",
+      "콜레스테롤"
+    ],
+    "contraindications": [
+      "알려진 심질환 치료 중"
+    ],
+    "priority": "High",
+    "monitoring_frequency": "주 1회"
+  },
+  {
+    "rule_id": "DIAB_001",
+    "rule_name": "당뇨병 진단",
+    "condition": "혈당 > 126 mg/dL AND HbA1c > 6.5%",
+    "conclusion": "당뇨병 진단",
+    "confidence": 0.95,
+    "validated_confidence": 0.97,
+    "validation_status": "✅ 검증됨",
+    "clinical_evidence": "공식 당뇨병 진단 기준 (WHO, ADA)",
+    "clinical_implication": "생활습관 개선, 약물 치료 필요, 정기 모니터링",
+    "supporting_features": [
+      "공복 혈당",
+      "HbA1c",
+      "경구 포도당 내성 검사",
+      "무작위 혈당"
+    ],
+    "contraindications": [
+      "임신 중 (GDM 따로 평가)"
+    ],
+    "priority": "High",
+    "monitoring_frequency": "3개월마다"
+  },
+  {
+    "rule_id": "KIDNEY_001",
+    "rule_name": "신부전 위험 판정",
+    "condition": "크레아티닌 > 1.2 mg/dL AND 소변 단백질 양성",
+    "conclusion": "신부전 위험",
+    "confidence": 0.88,
+    "validated_confidence": 0.90,
+    "validation_status": "✅ 검증됨",
+    "clinical_evidence": "신장 기능 저하 표지자",
+    "clinical_implication": "신장 보호 약물 고려, 식이 개선, 정기 모니터링",
+    "supporting_features": [
+      "크레아티닌",
+      "사구체여과율 (GFR)",
+      "요 단백질",
+      "혈뇨"
+    ],
+    "contraindications": [
+      "이뇨제 치료 중 (일시적 상승)"
+    ],
+    "priority": "High",
+    "monitoring_frequency": "2-3개월마다"
+  },
+  {
+    "rule_id": "INFECTION_001",
+    "rule_name": "감염 의심",
+    "condition": "체온 > 38.5°C AND WBC > 11,000/μL",
+    "conclusion": "감염 의심",
+    "confidence": 0.85,
+    "validated_confidence": 0.87,
+    "validation_status": "✅ 검증됨",
+    "clinical_evidence": "열과 백혈구 증가 = 염증 표지자",
+    "clinical_implication": "감염 원인 규명, 항생제 고려, 격리 필요 시 조치",
+    "supporting_features": [
+      "체온",
+      "백혈구 수",
+      "혈액배양",
+      "CRP",
+      "프로칼시토닌"
+    ],
+    "contraindications": [
+      "예방적 항생제 투여 중"
+    ],
+    "priority": "Critical",
+    "monitoring_frequency": "매일"
+  },
+  {
+    "rule_id": "RESPIR_001",
+    "rule_name": "호흡 부전 위험",
+    "condition": "SpO2 < 94% AND 호흡률 > 20/분",
+    "conclusion": "호흡 부전 위험",
+    "confidence": 0.87,
+    "validated_confidence": 0.89,
+    "validation_status": "✅ 검증됨",
+    "clinical_evidence": "저산소혈증 및 빈호흡 = 호흡 곤란 신호",
+    "clinical_implication": "산소 공급 필요, 호흡기 치료, 기도 개방성 확인",
+    "supporting_features": [
+      "산소포화도",
+      "호흡률",
+      "산소 분압 (pO2)",
+      "이산화탄소 분압 (pCO2)",
+      "폐음"
+    ],
+    "contraindications": [
+      "만성 폐쇄성 폐질환 (COPD) 환자 (다른 기준)"
+    ],
+    "priority": "Critical",
+    "monitoring_frequency": "실시간"
+  }
+]

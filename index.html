@@ -55,6 +55,34 @@
     </div>
 
     <div class="card">
+        <h2>🧠 Phase 27 신경심볼릭 AI - 자동화 진행 중</h2>
+        <div class="stats-grid">
+            <div class="stat-box"><h3>현재 단계</h3><p id="phase27-stage">Step 1</p></div>
+            <div class="stat-box"><h3>진행도</h3><p id="phase27-progress">0%</p></div>
+            <div class="stat-box"><h3>데이터 크기</h3><p id="phase27-size">650GB</p></div>
+            <div class="stat-box"><h3>예상 완료</h3><p id="phase27-eta">57일</p></div>
+        </div>
+        <div style="margin-top: 15px;">
+            <h3 style="color: #8b949e; font-size: 13px; margin-bottom: 10px;">📊 의료 데이터셋 다운로드 진행도</h3>
+            <ul id="phase27-datasets" style="list-style: none; padding: 0;">
+                <li style="padding: 8px 0; display: flex; justify-content: space-between; border-bottom: 1px solid #21262d;">
+                    <span>MIMIC-IV (50GB, 76K 환자)</span>
+                    <span id="mimic-status" style="color: #d29922;">🔴 대기 중</span>
+                </li>
+                <li style="padding: 8px 0; display: flex; justify-content: space-between; border-bottom: 1px solid #21262d;">
+                    <span>CheXpert (500GB, 224K 이미지)</span>
+                    <span id="chexpert-status" style="color: #d29922;">🔴 대기 중</span>
+                </li>
+                <li style="padding: 8px 0; display: flex; justify-content: space-between;">
+                    <span>PhysioNet (100GB, 50K 시계열)</span>
+                    <span id="physionet-status" style="color: #d29922;">🔴 대기 중</span>
+                </li>
+            </ul>
+        </div>
+        <div class="refresh-info" id="phase27-update">자동화 작업 시작: 2026-09-01</div>
+    </div>
+
+    <div class="card">
         <h2>🤖 AI 운영 브리핑</h2>
         <ul id="log-list">
             <li class="log-empty">⏳ 실시간 브리핑 불러오는 중...</li>
@@ -71,14 +99,15 @@ async function loadEnterpriseData() {
     indicator.textContent = "🟡 동기화 중...";
 
     try {
-        const [kpi, product, market, shopify, order, finance, briefing] = await Promise.all([
+        const [kpi, product, market, shopify, order, finance, briefing, phase27] = await Promise.all([
             fetch('./data/executive_kpi.json').then(r => r.json()).catch(() => ({})),
             fetch('./data/product_team.json').then(r => r.json()).catch(() => ({})),
             fetch('./data/market_team.json').then(r => r.json()).catch(() => ({})),
             fetch('./data/shopify_team.json').then(r => r.json()).catch(() => ({})),
             fetch('./data/order_team.json').then(r => r.json()).catch(() => ({})),
             fetch('./data/finance_team.json').then(r => r.json()).catch(() => ({})),
-            fetch('./data/ai_briefing.json').then(r => r.json()).catch(() => ({}))
+            fetch('./data/ai_briefing.json').then(r => r.json()).catch(() => ({})),
+            fetch('./phase27_automation_status.json').then(r => r.json()).catch(() => ({}))
         ]);
 
         document.getElementById("p-found").textContent = (product.today_found ?? 0) + "개";
@@ -91,6 +120,23 @@ async function loadEnterpriseData() {
         document.getElementById("kpi-new").textContent = (kpi.new_products ?? 0) + "개";
         document.getElementById("kpi-auto").textContent = (kpi.automation_rate ?? 0) + "%";
         document.getElementById("update-time").textContent = `마지막 갱신 : ${kpi.updated || "방금 전"}`;
+
+        // Phase 27 데이터 표시
+        if (phase27.current_execution) {
+            document.getElementById("phase27-stage").textContent = phase27.current_execution.phase || "Step 1";
+            document.getElementById("phase27-progress").textContent = (phase27.total_progress?.overall_percent ?? 0) + "%";
+            document.getElementById("phase27-update").textContent = `🚀 자동화 상태: ${phase27.current_execution.status_text || "진행 중"}`;
+        }
+
+        if (phase27.dataset_progress) {
+            const mimic = phase27.dataset_progress['MIMIC-IV'];
+            const chexpert = phase27.dataset_progress['CheXpert'];
+            const physionet = phase27.dataset_progress['PhysioNet'];
+
+            if (mimic) document.getElementById("mimic-status").textContent = mimic.status;
+            if (chexpert) document.getElementById("chexpert-status").textContent = chexpert.status;
+            if (physionet) document.getElementById("physionet-status").textContent = physionet.status;
+        }
 
         const logList = document.getElementById("log-list");
         if (briefing.logs && Array.isArray(briefing.logs) && briefing.logs.length > 0) {
