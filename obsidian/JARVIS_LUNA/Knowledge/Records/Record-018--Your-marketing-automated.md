@@ -2,7 +2,7 @@
 title: "Record 018 · Your-marketing-automated"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-24T23:18:05.754991+00:00
+updated_at: 2026-08-24T23:45:19.155617+00:00
 tags: [{', '.join(tags)}]
 ---
 
