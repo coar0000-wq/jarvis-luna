@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-24T05:10:41.252297+00:00",
+  "collected_at": "2026-08-24T06:03:18.571352+00:00",
   "sources": {
     "arxiv": {
       "status": "ok",
@@ -277,146 +277,17 @@
           "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
           "channel": "@learnwithshopify",
           "source": "YouTube channel RSS"
-        },
-        {
-          "title": "How to take your audience from \"Hi!\" to \"Buy!\"",
-          "published": "2026-08-23T17:00:07+00:00",
-          "updated": "2026-08-23T19:22:27+00:00",
-          "url": "https://www.youtube.com/shorts/FcsakJ0mdrY",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "Luxury brand secrets they don't want you to know 🤫",
-          "published": "2026-08-23T12:00:12+00:00",
-          "updated": "2026-08-23T13:26:36+00:00",
-          "url": "https://www.youtube.com/shorts/P0-JhQ37nhw",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "Pro SEO tips for product pages",
-          "published": "2026-08-22T17:00:25+00:00",
-          "updated": "2026-08-23T09:26:57+00:00",
-          "url": "https://www.youtube.com/shorts/oHx39xLZwHo",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "What’s new with Shop?",
-          "published": "2026-08-22T12:00:12+00:00",
-          "updated": "2026-08-23T22:25:52+00:00",
-          "url": "https://www.youtube.com/shorts/pLW7Ffqddxo",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "How to design and build a Shopify store with Claude",
-          "published": "2026-08-21T21:00:14+00:00",
-          "updated": "2026-08-21T21:17:38+00:00",
-          "url": "https://www.youtube.com/shorts/zrJRlnfQTR0",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "How to collect payments with your Claude website",
-          "published": "2026-08-21T16:00:08+00:00",
-          "updated": "2026-08-21T21:15:03+00:00",
-          "url": "https://www.youtube.com/shorts/lU6WIgu0Wzg",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "How to Start a 1-Person Business with Claude",
-          "published": "2026-08-20T15:45:06+00:00",
-          "updated": "2026-08-22T04:24:01+00:00",
-          "url": "https://www.youtube.com/watch?v=irtf9-m-9uc",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "How to use Claude to Create Digital Products",
-          "published": "2026-08-17T15:30:07+00:00",
-          "updated": "2026-08-21T00:44:28+00:00",
-          "url": "https://www.youtube.com/watch?v=tZW0x_tDhSk",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "How to start a clothing business",
-          "published": "2026-08-16T21:00:04+00:00",
-          "updated": "2026-08-20T01:42:49+00:00",
-          "url": "https://www.youtube.com/shorts/zeECuTChNWQ",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "How to start a beverage company",
-          "published": "2026-08-15T19:00:32+00:00",
-          "updated": "2026-08-21T16:03:13+00:00",
-          "url": "https://www.youtube.com/shorts/dOrhIkuhqtU",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "Meta's Ad Algorithm Explained",
-          "published": "2026-08-15T13:00:01+00:00",
-          "updated": "2026-08-18T23:05:48+00:00",
-          "url": "https://www.youtube.com/shorts/WH6vhVBC_OQ",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "What is Psychological Pricing?",
-          "published": "2026-08-14T23:00:16+00:00",
-          "updated": "2026-08-14T23:00:39+00:00",
-          "url": "https://www.youtube.com/shorts/UCJ32U2TyX4",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "How to use AI as a personal shopper",
-          "published": "2026-08-14T13:50:11+00:00",
-          "updated": "2026-08-18T04:20:03+00:00",
-          "url": "https://www.youtube.com/shorts/jEG3g7G7-JY",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "7 Faceless Business Ideas for Beginners",
-          "published": "2026-08-10T16:00:06+00:00",
-          "updated": "2026-08-20T19:41:38+00:00",
-          "url": "https://www.youtube.com/watch?v=4ulpu2uos8I",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "No Photoshop? Try this tool instead!",
-          "published": "2026-08-09T17:00:08+00:00",
-          "updated": "2026-08-13T03:18:26+00:00",
-          "url": "https://www.youtube.com/shorts/eYEw5djh4gQ",
-          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "channel": "@Shopify",
-          "source": "YouTube channel RSS"
         }
       ],
       "channels": [
         "@learnwithshopify",
         "@Shopify"
+      ],
+      "errors": [
+        {
+          "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
+          "error": "HTTP Error 404: Not Found"
+        }
       ]
     },
     "google": {

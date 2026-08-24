@@ -2,7 +2,7 @@
 title: "Record 013 · Manage-all-your-AI-channels-in-one-place"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-24T05:10:42.868289+00:00
+updated_at: 2026-08-24T06:03:36.010270+00:00
 tags: [{', '.join(tags)}]
 ---
 
