@@ -3,7 +3,9 @@ name: JARVIS Real Knowledge Sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 2 * * *"
+    # 6시간마다 (UTC 00:17, 06:17, 12:17, 18:17)
+    # 한국시간 09:17, 15:17, 21:17, 03:17
+    - cron: "17 0,6,12,18 * * *"
 
 permissions:
   contents: write
@@ -15,7 +17,7 @@ concurrency:
 jobs:
   collect-and-sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     env:
       YOUTUBE_CHANNEL_IDS: ${{ secrets.YOUTUBE_CHANNEL_IDS }}
@@ -45,12 +47,12 @@ jobs:
         run: |
           missing=()
           [[ -z "$YOUTUBE_CHANNEL_IDS" ]] && missing+=("YOUTUBE_CHANNEL_IDS")
-          [[ -z "$GOOGLE_CSE_API_KEY"  ]] && missing+=("GOOGLE_CSE_API_KEY")
-          [[ -z "$GOOGLE_CSE_ID"       ]] && missing+=("GOOGLE_CSE_ID")
-          [[ -z "$KNOWLEDGE_QUERIES"   ]] && missing+=("KNOWLEDGE_QUERIES")
+          [[ -z "$GOOGLE_CSE_API_KEY" ]] && missing+=("GOOGLE_CSE_API_KEY")
+          [[ -z "$GOOGLE_CSE_ID" ]] && missing+=("GOOGLE_CSE_ID")
+          [[ -z "$KNOWLEDGE_QUERIES" ]] && missing+=("KNOWLEDGE_QUERIES")
           if (( ${#missing[@]} )); then
             echo "::warning::Missing optional secrets/vars: ${missing[*]}"
-            echo "스크립트가 기본값 및 폴백(Google News RSS 등)으로 계속 진행합니다."
+            echo "스크립트가 기본값/폴백으로 계속 진행합니다."
           else
             echo "All secrets/vars present."
           fi
@@ -61,28 +63,79 @@ jobs:
       - name: Prepare transparent training corpus
         run: python prepare_real_training_corpus.py
 
+      - name: Normalize Obsidian links (if available)
+        run: |
+          if [ -f scripts/normalize_obsidian_links.py ]; then
+            python scripts/normalize_obsidian_links.py
+          else
+            echo "normalize_obsidian_links.py 없음 – 건너뜀"
+          fi
+
+      - name: Rebuild Obsidian graph (if available)
+        run: |
+          if [ -f organize_obsidian_graph.py ]; then
+            python organize_obsidian_graph.py
+          fi
+          if [ -f expand_obsidian_graph.py ]; then
+            python expand_obsidian_graph.py
+          fi
+
       - name: Train real-data knowledge router
         run: python train_real_knowledge.py
+
+      - name: Tune MoE (if available)
+        run: |
+          if [ -f tune_real_knowledge_moe.py ]; then
+            python tune_real_knowledge_moe.py \
+              --experts 3 \
+              --learning-rates 1.2 \
+              --l2-values 0.0001 \
+              --temperatures 0.9 \
+              --steps 500 \
+              --promote || echo "tune step soft-failed"
+          else
+            echo "tune_real_knowledge_moe.py 없음 – 건너뜀"
+          fi
+
+      - name: Generate dashboard_runtime.json for GitHub Pages
+        run: python scripts/generate_dashboard_runtime.py
 
       - name: Validate generated artefacts
         run: |
           set -euo pipefail
           python -m json.tool data/knowledge/real_sources.json >/dev/null
           python -m json.tool data/knowledge/training_status.json >/dev/null
+          python -m json.tool data/dashboard_runtime.json >/dev/null
           test -f data/knowledge/real_knowledge_router.npz
           test -f "obsidian/JARVIS_LUNA/Knowledge/JARVIS Real Knowledge Index.md"
           echo "All required files present and valid JSON."
 
-      - name: Commit & push (only if something changed)
+      - name: Commit & push (knowledge + dashboard for Pages)
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add data/knowledge \
-                  "obsidian/JARVIS_LUNA/Knowledge"
+                  data/dashboard_runtime.json \
+                  "obsidian/JARVIS_LUNA"
+
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "🧠 Train real knowledge router and sync Obsidian graph"
-          git push origin HEAD:main
+
+          git commit -m "🧠 Train real knowledge router, refresh dashboard, sync Obsidian"
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "pushed on attempt ${attempt}"
+              exit 0
+            fi
+            echo "push rejected, rebasing (attempt ${attempt})"
+            git fetch origin main
+            git rebase --autostash origin/main || { git rebase --abort || true; exit 1; }
+            sleep $(( attempt * 5 ))
+          done
+          echo "push failed after 3 attempts"
+          exit 1
