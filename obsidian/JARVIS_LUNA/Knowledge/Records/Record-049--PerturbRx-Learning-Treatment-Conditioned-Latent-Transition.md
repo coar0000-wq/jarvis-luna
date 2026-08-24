@@ -2,7 +2,7 @@
 title: "Record 049 · PerturbRx-Learning-Treatment-Conditioned-Latent-Transitions-for-Patien"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-24T11:52:52.490435+00:00
+updated_at: 2026-08-24T12:34:50.789922+00:00
 tags: [{', '.join(tags)}]
 ---
 

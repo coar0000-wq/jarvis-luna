@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-24T11:52:56.659896+00:00",
+  "updated_at": "2026-08-24T12:34:56.272923+00:00",
   "real_records": 52,
   "source_labels": {
     "ai-image": 7,
     "ai-research": 39,
     "shopify-commerce-image": 6
   },
-  "corpus_sha256": "d863e2fe34611aa6fdacade552a1977b18c4ef071c639de41640af002af22d30",
+  "corpus_sha256": "23ff4d35351966ea506290d372da071eb5c7ac4266c1d8b1a6a91c346aa89b71",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -24,6 +24,6 @@
   "tuning_promoted": true,
   "tuning_steps": 500,
   "tuning_validation_accuracy": 0.7142857142857143,
-  "tuning_final_loss": 0.5087248305990284,
+  "tuning_final_loss": 0.5087248305990283,
   "tuning_gate_load_std": 0.4416714930271537
 }
