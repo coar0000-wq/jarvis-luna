@@ -3,8 +3,8 @@
   "name": "MoE 라우터",
   "progress_percentage": 78,
   "status": "🟢 완료 (75-100%)",
-  "last_updated": "2026-08-24T17:04:17.684611+00:00Z",
-  "next_automation": "2026-08-24T17:14:17.684611+00:00Z",
+  "last_updated": "2026-08-24T17:41:03.678412+00:00Z",
+  "next_automation": "2026-08-24T17:51:03.678412+00:00Z",
   "automation_cycle": "매 10분 자동 실행",
   "completed_tasks": [
     "✅ Top-4 라우팅 시스템 (완료)",
