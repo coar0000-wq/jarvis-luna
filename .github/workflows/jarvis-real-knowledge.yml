@@ -6,11 +6,11 @@ on:
     - cron: "17 2 * * *"          # 02:17 UTC every day
 
 permissions:
-  contents: write                 # needed to push
+  contents: write
 
 concurrency:
   group: jarvis-real-knowledge
-  cancel-in-progress: false       # let the previous run finish
+  cancel-in-progress: false
 
 jobs:
   collect-and-sync:
@@ -28,13 +28,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # GITHUB_TOKEN is already available; no need for persist-credentials
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: "pip"              # speeds up subsequent runs
+          cache: "pip"
 
       - name: Install dependencies
         run: |
@@ -42,7 +41,7 @@ jobs:
           python -m pip install numpy pandas requests scikit-learn
           python -c "import numpy, pandas, requests, sklearn; print('deps OK')"
 
-      - name: Guard – required secrets/vars
+      - name: Check secrets/vars (optional – warn only)
         run: |
           missing=()
           [[ -z "$YOUTUBE_CHANNEL_IDS" ]] && missing+=("YOUTUBE_CHANNEL_IDS")
@@ -50,8 +49,10 @@ jobs:
           [[ -z "$GOOGLE_CSE_ID"       ]] && missing+=("GOOGLE_CSE_ID")
           [[ -z "$KNOWLEDGE_QUERIES"   ]] && missing+=("KNOWLEDGE_QUERIES")
           if (( ${#missing[@]} )); then
-            echo "::error::Missing required secrets/vars: ${missing[*]}"
-            exit 1
+            echo "::warning::Missing optional secrets/vars: ${missing[*]}"
+            echo "스크립트가 기본값/폴백(Google News RSS, 기본 YouTube 핸들)으로 계속 진행합니다."
+          else
+            echo "All secrets/vars present."
           fi
 
       - name: Collect real public sources
@@ -87,6 +88,4 @@ jobs:
           fi
 
           git commit -m "🧠 Train real knowledge router and sync Obsidian graph"
-
-          # Simple fast-forward push; concurrency group prevents races
           git push origin HEAD:main
