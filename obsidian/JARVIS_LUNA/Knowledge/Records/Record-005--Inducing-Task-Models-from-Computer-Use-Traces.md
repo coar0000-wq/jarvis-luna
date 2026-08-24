@@ -2,7 +2,7 @@
 title: "Record 005 · Inducing-Task-Models-from-Computer-Use-Traces"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-24T08:40:33.960803+00:00
+updated_at: 2026-08-24T09:40:08.889487+00:00
 tags: [{', '.join(tags)}]
 ---
 
