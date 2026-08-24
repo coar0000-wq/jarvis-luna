@@ -3,74 +3,83 @@ name: JARVIS Real Knowledge Sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 2 * * *"
+    - cron: "17 2 * * *"          # 02:17 UTC every day
 
 permissions:
-  contents: write
+  contents: write                 # needed to push
+
+concurrency:
+  group: jarvis-real-knowledge
+  cancel-in-progress: false       # let the previous run finish
 
 jobs:
   collect-and-sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     env:
       YOUTUBE_CHANNEL_IDS: ${{ secrets.YOUTUBE_CHANNEL_IDS }}
-      GOOGLE_CSE_API_KEY: ${{ secrets.GOOGLE_CSE_API_KEY }}
-      GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
-      KNOWLEDGE_QUERIES: ${{ vars.KNOWLEDGE_QUERIES }}
+      GOOGLE_CSE_API_KEY:  ${{ secrets.GOOGLE_CSE_API_KEY }}
+      GOOGLE_CSE_ID:       ${{ secrets.GOOGLE_CSE_ID }}
+      KNOWLEDGE_QUERIES:   ${{ vars.KNOWLEDGE_QUERIES }}
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: true
+          # GITHUB_TOKEN is already available; no need for persist-credentials
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"              # speeds up subsequent runs
 
-      - name: Install dependencies securely
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           python -m pip install numpy pandas requests scikit-learn
-          python -c "import numpy; print('Numpy successfully verified:', numpy.__version__)"
+          python -c "import numpy, pandas, requests, sklearn; print('deps OK')"
 
-      - name: Collect real public sources and update Obsidian notes
+      - name: Guard – required secrets/vars
+        run: |
+          missing=()
+          [[ -z "$YOUTUBE_CHANNEL_IDS" ]] && missing+=("YOUTUBE_CHANNEL_IDS")
+          [[ -z "$GOOGLE_CSE_API_KEY"  ]] && missing+=("GOOGLE_CSE_API_KEY")
+          [[ -z "$GOOGLE_CSE_ID"       ]] && missing+=("GOOGLE_CSE_ID")
+          [[ -z "$KNOWLEDGE_QUERIES"   ]] && missing+=("KNOWLEDGE_QUERIES")
+          if (( ${#missing[@]} )); then
+            echo "::error::Missing required secrets/vars: ${missing[*]}"
+            exit 1
+          fi
+
+      - name: Collect real public sources
         run: python real_knowledge_sync.py
 
-      - name: Prepare transparent real-data training corpus
+      - name: Prepare transparent training corpus
         run: python prepare_real_training_corpus.py
 
-      - name: Train the real-data knowledge router
+      - name: Train real-data knowledge router
         run: python train_real_knowledge.py
 
-      - name: Validate generated files
-        shell: bash
+      - name: Validate generated artefacts
         run: |
-          set -e
-
+          set -euo pipefail
           python -m json.tool data/knowledge/real_sources.json >/dev/null
           python -m json.tool data/knowledge/training_status.json >/dev/null
-
           test -f data/knowledge/real_knowledge_router.npz
-          test -f obsidian/JARVIS_LUNA/Knowledge/JARVIS\ Real\ Knowledge\ Index.md
+          test -f "obsidian/JARVIS_LUNA/Knowledge/JARVIS Real Knowledge Index.md"
+          echo "All required files present and valid JSON."
 
-      - name: Commit and push safely
-        shell: bash
+      - name: Commit & push (only if something changed)
         run: |
-          set -e
-
-          git config user.name "github-actions[bot]"
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add \
-            data/knowledge \
-            obsidian/JARVIS_LUNA/Knowledge \
-            real_knowledge_sync.py \
-            prepare_real_training_corpus.py \
-            train_real_knowledge.py \
-            .github/workflows/jarvis-real-knowledge.yml
+          git add data/knowledge \
+                  "obsidian/JARVIS_LUNA/Knowledge"
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
@@ -79,9 +88,5 @@ jobs:
 
           git commit -m "🧠 Train real knowledge router and sync Obsidian graph"
 
-          echo "Sync with latest origin/main..."
-          git fetch origin main
-          git rebase origin/main
-
-          echo "Push to GitHub..."
+          # Simple fast-forward push; concurrency group prevents races
           git push origin HEAD:main
