@@ -2,7 +2,7 @@
 title: "Record 043 · Time-Aware-Tranformer-Based-Prediction-Model-for-AECOPD"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-24T17:57:36.983209+00:00
+updated_at: 2026-08-24T18:34:03.988770+00:00
 tags: [{', '.join(tags)}]
 ---
 
