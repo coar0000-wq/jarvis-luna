@@ -2,7 +2,7 @@
 title: "Record 023 · How-to-use-AI-as-a-personal-shopper"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-24T19:00:38.135963+00:00
+updated_at: 2026-08-24T19:24:35.674005+00:00
 tags: [{', '.join(tags)}]
 ---
 
