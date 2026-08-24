@@ -2,7 +2,7 @@
 title: "JARVIS Real YouTube"
 source: "YouTube channel RSS"
 status: ok
-collected_at: 2026-08-24T16:28:54.439335+00:00
+collected_at: 2026-08-24T17:05:58.862291+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real YouTube
@@ -138,7 +138,7 @@ tags: [jarvis, real-data, knowledge]
 ### How to design and build a Shopify store with Claude
 - 원문: [https://www.youtube.com/shorts/zrJRlnfQTR0](https://www.youtube.com/shorts/zrJRlnfQTR0)
 - published: 2026-08-21T21:00:14+00:00
-- updated: 2026-08-21T21:17:38+00:00
+- updated: 2026-08-24T16:32:54+00:00
 - channel_id: UC7geKfz2-IH0rsgRBtHTm0g
 
 ### How to collect payments with your Claude website
