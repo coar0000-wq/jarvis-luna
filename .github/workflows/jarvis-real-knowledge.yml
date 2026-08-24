@@ -37,7 +37,7 @@ jobs:
       - name: Install Python packages
         run: |
           python -m pip install --upgrade pip
-          python -m pip install numpy pandas requests scikit-learn
+          python -m pip install --user numpy pandas requests scikit-learn
 
       - name: Collect real public sources and update Obsidian notes
         run: python real_knowledge_sync.py
