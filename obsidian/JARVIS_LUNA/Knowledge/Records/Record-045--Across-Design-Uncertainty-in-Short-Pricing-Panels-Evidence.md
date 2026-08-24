@@ -2,7 +2,7 @@
 title: "Record 045 · Across-Design-Uncertainty-in-Short-Pricing-Panels-Evidence-from-Simula"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-24T06:03:36.013143+00:00
+updated_at: 2026-08-24T07:36:45.489246+00:00
 tags: [{', '.join(tags)}]
 ---
 
