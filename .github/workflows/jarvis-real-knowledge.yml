@@ -58,4 +58,31 @@ jobs:
       - name: Collect real public sources
         run: python real_knowledge_sync.py
 
-      - name
+      - name: Prepare transparent training corpus
+        run: python prepare_real_training_corpus.py
+
+      - name: Train real-data knowledge router
+        run: python train_real_knowledge.py
+
+      - name: Validate generated artefacts
+        run: |
+          set -euo pipefail
+          python -m json.tool data/knowledge/real_sources.json >/dev/null
+          python -m json.tool data/knowledge/training_status.json >/dev/null
+          test -f data/knowledge/real_knowledge_router.npz
+          test -f "obsidian/JARVIS_LUNA/Knowledge/JARVIS Real Knowledge Index.md"
+          echo "All required files present and valid JSON."
+
+      - name: Commit & push (only if something changed)
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/knowledge \
+                  "obsidian/JARVIS_LUNA/Knowledge"
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "🧠 Train real knowledge router and sync Obsidian graph"
+          git push origin HEAD:main
