@@ -2,7 +2,7 @@
 title: "Record 034 · Online-to-in-person-with-the-Shop-app"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-24T22:52:38.226812+00:00
+updated_at: 2026-08-24T23:18:05.757414+00:00
 tags: [{', '.join(tags)}]
 ---
 
