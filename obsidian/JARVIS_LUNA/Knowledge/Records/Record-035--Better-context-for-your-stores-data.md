@@ -2,7 +2,7 @@
 title: "Record 035 · Better-context-for-your-stores-data"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-24T04:23:56.071387+00:00
+updated_at: 2026-08-24T05:10:42.872158+00:00
 tags: [{', '.join(tags)}]
 ---
 
