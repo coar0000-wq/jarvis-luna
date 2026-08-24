@@ -2,7 +2,7 @@
 title: "Record 053 · NEW-Instagram-Algorithm-Updates-2026-Grid-Rearrange-Carousel-Captions-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-24T14:35:50.345570+00:00
+updated_at: 2026-08-24T15:33:00.178121+00:00
 tags: [{', '.join(tags)}]
 ---
 
