@@ -2,7 +2,7 @@
 title: "JARVIS Real YouTube"
 source: "YouTube channel RSS"
 status: ok
-collected_at: 2026-08-24T15:32:59.921878+00:00
+collected_at: 2026-08-24T16:28:54.439335+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real YouTube
@@ -105,10 +105,10 @@ tags: [jarvis, real-data, knowledge]
 - updated: 2026-06-21T00:39:45+00:00
 - channel_id: UCIv38OrggTu3vNkCAo96-CQ
 
-### NEW Instagram Algorithm Updates 2026: Grid Rearrange, Carousel Captions & DM Instants
+### NEW Instagram Algorithm Updates 2026
 - 원문: [https://www.youtube.com/watch?v=dU_U1Pmmu5c](https://www.youtube.com/watch?v=dU_U1Pmmu5c)
 - published: 2026-08-24T14:00:06+00:00
-- updated: 2026-08-24T15:20:57+00:00
+- updated: 2026-08-24T16:22:41+00:00
 - channel_id: UC7geKfz2-IH0rsgRBtHTm0g
 
 ### How to take your audience from "Hi!" to "Buy!"
