@@ -2,7 +2,7 @@
 title: "JARVIS Real YouTube"
 source: "YouTube channel RSS"
 status: ok
-collected_at: 2026-08-24T13:45:16.123092+00:00
+collected_at: 2026-08-24T14:35:50.093650+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real YouTube
@@ -105,6 +105,12 @@ tags: [jarvis, real-data, knowledge]
 - updated: 2026-06-21T00:39:45+00:00
 - channel_id: UCIv38OrggTu3vNkCAo96-CQ
 
+### NEW Instagram Algorithm Updates 2026: Grid Rearrange, Carousel Captions & DM Instants
+- 원문: [https://www.youtube.com/watch?v=dU_U1Pmmu5c](https://www.youtube.com/watch?v=dU_U1Pmmu5c)
+- published: 2026-08-24T14:00:06+00:00
+- updated: 2026-08-24T14:13:12+00:00
+- channel_id: UC7geKfz2-IH0rsgRBtHTm0g
+
 ### How to take your audience from "Hi!" to "Buy!"
 - 원문: [https://www.youtube.com/shorts/FcsakJ0mdrY](https://www.youtube.com/shorts/FcsakJ0mdrY)
 - published: 2026-08-23T17:00:07+00:00
@@ -187,11 +193,5 @@ tags: [jarvis, real-data, knowledge]
 - 원문: [https://www.youtube.com/watch?v=4ulpu2uos8I](https://www.youtube.com/watch?v=4ulpu2uos8I)
 - published: 2026-08-10T16:00:06+00:00
 - updated: 2026-08-20T19:41:38+00:00
-- channel_id: UC7geKfz2-IH0rsgRBtHTm0g
-
-### No Photoshop? Try this tool instead!
-- 원문: [https://www.youtube.com/shorts/eYEw5djh4gQ](https://www.youtube.com/shorts/eYEw5djh4gQ)
-- published: 2026-08-09T17:00:08+00:00
-- updated: 2026-08-13T03:18:26+00:00
 - channel_id: UC7geKfz2-IH0rsgRBtHTm0g
 
