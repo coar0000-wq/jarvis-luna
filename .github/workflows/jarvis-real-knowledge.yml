@@ -30,13 +30,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Upgrade pip and setuptools
+      - name: Install dependencies securely
         run: |
-          python -m pip install --upgrade pip setuptools wheel
-
-      - name: Install Python packages
-        run: |
+          python -m pip install --upgrade pip
           python -m pip install numpy pandas requests scikit-learn
+          python -c "import numpy; print('Numpy successfully verified:', numpy.__version__)"
 
       - name: Collect real public sources and update Obsidian notes
         run: python real_knowledge_sync.py
