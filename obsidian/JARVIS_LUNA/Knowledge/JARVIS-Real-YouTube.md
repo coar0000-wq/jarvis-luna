@@ -2,7 +2,7 @@
 title: "JARVIS Real YouTube"
 source: "YouTube channel RSS"
 status: ok
-collected_at: 2026-08-24T03:31:10.146757+00:00
+collected_at: 2026-08-24T04:23:55.813491+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real YouTube
@@ -168,7 +168,7 @@ tags: [jarvis, real-data, knowledge]
 ### Meta's Ad Algorithm Explained
 - 원문: [https://www.youtube.com/shorts/WH6vhVBC_OQ](https://www.youtube.com/shorts/WH6vhVBC_OQ)
 - published: 2026-08-15T13:00:01+00:00
-- updated: 2026-08-15T16:37:19+00:00
+- updated: 2026-08-18T23:05:48+00:00
 - channel_id: UC7geKfz2-IH0rsgRBtHTm0g
 
 ### What is Psychological Pricing?
