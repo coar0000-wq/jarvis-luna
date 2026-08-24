@@ -2,7 +2,7 @@
 title: "JARVIS Real YouTube"
 source: "YouTube channel RSS"
 status: ok
-collected_at: 2026-08-24T02:20:06.673662+00:00
+collected_at: 2026-08-24T03:31:10.146757+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real YouTube
@@ -156,7 +156,7 @@ tags: [jarvis, real-data, knowledge]
 ### How to start a clothing business
 - 원문: [https://www.youtube.com/shorts/zeECuTChNWQ](https://www.youtube.com/shorts/zeECuTChNWQ)
 - published: 2026-08-16T21:00:04+00:00
-- updated: 2026-08-16T21:08:04+00:00
+- updated: 2026-08-20T01:42:49+00:00
 - channel_id: UC7geKfz2-IH0rsgRBtHTm0g
 
 ### How to start a beverage company
