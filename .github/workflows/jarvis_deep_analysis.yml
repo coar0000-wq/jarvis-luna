@@ -1,0 +1,169 @@
+name: JARVIS Deep Analysis
+
+on:
+  schedule:
+    - cron: '0,30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jarvis-deep-analysis-main
+  cancel-in-progress: false
+
+jobs:
+  deep-analysis:
+    name: Collect, normalize, graph, train and publish runtime state
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install runtime dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            python -m pip install -r requirements.txt
+          fi
+          if [ -f requirements-moe.txt ]; then
+            python -m pip install -r requirements-moe.txt
+          else
+            python -m pip install numpy
+          fi
+
+      - name: Collect real public sources
+        run: python real_knowledge_sync.py
+        env:
+          YOUTUBE_CHANNEL_IDS: ${{ secrets.YOUTUBE_CHANNEL_IDS }}
+          GOOGLE_CSE_API_KEY: ${{ secrets.GOOGLE_CSE_API_KEY }}
+          GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
+          KNOWLEDGE_QUERIES: ${{ vars.KNOWLEDGE_QUERIES }}
+
+      - name: Prepare transparent real-data corpus
+        run: python prepare_real_training_corpus.py
+
+      - name: Normalize Obsidian wikilinks
+        run: |
+          test -f scripts/normalize_obsidian_links.py
+          python scripts/normalize_obsidian_links.py
+
+      - name: Rebuild Obsidian graph from real records
+        run: |
+          python organize_obsidian_graph.py
+          if [ -f expand_obsidian_graph.py ]; then
+            python expand_obsidian_graph.py
+          fi
+
+      - name: Generate pre-training dashboard snapshot
+        run: python scripts/generate_dashboard_runtime.py
+
+      - name: Train real-data 3-expert MoE
+        run: python train_real_knowledge.py
+
+      - name: Tune and promote 3-expert MoE
+        run: |
+          python tune_real_knowledge_moe.py \
+            --experts 3 \
+            --learning-rates 1.2 \
+            --l2-values 0.0001 \
+            --temperatures 0.9 \
+            --steps 500 \
+            --promote
+
+      - name: Generate final dashboard snapshot
+        run: python scripts/generate_dashboard_runtime.py
+
+      - name: Validate real-data artifacts
+        run: |
+          python -m json.tool data/knowledge/real_sources.json >/dev/null
+          python -m json.tool data/knowledge/training_status.json >/dev/null
+          python -m json.tool data/dashboard_runtime.json >/dev/null
+
+          test -s data/knowledge/training_corpus.jsonl
+          test -f data/knowledge/real_knowledge_moe.npz
+          test -f 'obsidian/JARVIS_LUNA/JARVIS Graph Hub.md'
+          test -d 'obsidian/JARVIS_LUNA/Knowledge/Records'
+          test -d 'obsidian/JARVIS_LUNA/Knowledge/Sources'
+          test -d 'obsidian/JARVIS_LUNA/Knowledge/Topics'
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          training = json.loads(
+              Path('data/knowledge/training_status.json').read_text(encoding='utf-8')
+          )
+          runtime = json.loads(
+              Path('data/dashboard_runtime.json').read_text(encoding='utf-8')
+          )
+
+          assert training.get('training_performed') is True, (
+              'training_performed must be true'
+          )
+          assert training.get('weights_updated') is True, (
+              'weights_updated must be true'
+          )
+
+          graph = runtime.get('graph', {})
+          sources = runtime.get('sources', {})
+          dashboard_training = runtime.get('training', {})
+
+          dangling = graph.get('dangling_links', 1)
+          record_count = sources.get('record_count', 0)
+
+          print(f'graph notes={graph.get("notes", 0)}')
+          print(f'graph links={graph.get("links", 0)}')
+          print(f'dangling_links={dangling}')
+          print(f'record_count={record_count}')
+          print(f'experts={dashboard_training.get("experts", 0)}')
+
+          assert dangling == 0, f'dangling_links must be 0, got {dangling}'
+          assert record_count > 0, 'record_count must be greater than 0'
+          assert dashboard_training.get('training_performed') is True, (
+              'runtime training_performed must be true'
+          )
+          PY
+
+      - name: Commit generated knowledge and dashboard state
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html data/knowledge data/dashboard_runtime.json obsidian/JARVIS_LUNA
+
+          if git diff --cached --quiet; then
+            echo 'No generated changes to commit'
+            exit 0
+          fi
+
+          git commit -m 'Run real knowledge pipeline and publish MoE graph state'
+
+          # 다른 푸시와 겹치면 non-fast-forward로 거부된다. 리베이스 후 재시도한다.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "pushed on attempt ${attempt}"
+              exit 0
+            fi
+            echo "push rejected, rebasing (attempt ${attempt})"
+            git fetch origin main
+            git rebase --autostash origin/main || { git rebase --abort || true; exit 1; }
+            sleep $(( attempt * 5 ))
+          done
+          echo 'push failed after 5 attempts'
+          exit 1
+
+      - name: Complete summary
+        if: always()
+        run: |
+          echo 'JARVIS Deep Analysis finished.'
+          echo "Workflow conclusion: ${{ job.status }}"
