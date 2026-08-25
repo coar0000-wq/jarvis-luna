@@ -2,7 +2,7 @@
 title: "Model Routing and MoE"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-25T12:34:45.650752+00:00
+updated_at: 2026-08-25T13:12:43.666491+00:00
 tags: [{', '.join(tags)}]
 ---
 
