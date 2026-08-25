@@ -2,7 +2,7 @@
 title: "Record 009 · G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Patient-Oriented"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-25T05:04:07.695268+00:00
+updated_at: 2026-08-25T05:57:25.976363+00:00
 tags: [{', '.join(tags)}]
 ---
 
