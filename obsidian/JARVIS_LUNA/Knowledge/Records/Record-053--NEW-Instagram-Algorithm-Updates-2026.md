@@ -2,7 +2,7 @@
 title: "Record 053 · NEW-Instagram-Algorithm-Updates-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-24T23:45:19.160612+00:00
+updated_at: 2026-08-25T00:52:48.733704+00:00
 tags: [{', '.join(tags)}]
 ---
 
