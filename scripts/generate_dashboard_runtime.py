@@ -7,39 +7,6 @@ import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "data" / "dashboard_runtime.json"
-VAULT = ROOT / "obsidian" / "JARVIS_LUNA"
-KNOWLEDGE = ROOT / "data" / "knowledge"
-HISTORY = KNOWLEDGE / "cumulative_history.json"
-
-# 한국 시간(KST)
-KST = timezone(timedelta(hours=9))
-
-# ==========================================
-# [추가됨] 유튜브 홍보/광고 영상 대시보드 표시 제외 필터
-# ==========================================
-EXCLUDE_TITLE_KEYWORDS = [
-    "what is기존 코드를 분석하여 **메모리 효율성, 예외 처리, 코드 중복 제거 및 가독성**을 대폭 개선한 전체 수정본입니다. 
-
-주요 개선 사항은 다음과 같습니다.
-* **메모리 최적화:** 대용량일 수 있는 `training_corpus.jsonl` 파일을 한 번에 메모리에 올리지 않고(`.read_text().splitlines()`), 제너레이터를 사용하여 한 줄씩 읽도록(`with open(...)`) 수정했습니다.
-* **DRY(중복 제거) 원칙 적용:** `graph_metrics()` 내부에서 반복되던 경로 확인 및 파일 개수 측정 로직을 `get_md_count()` 헬퍼 함수로 분리했습니다.
-* **안정성 강화 (예외 처리):** `max()` 함수가 날짜를 비교할 때 `None` 값이 포함되어 발생할 수 있는 에러를 방지했습니다. 또한 파일 입출력 시 발생할 수 있는 `OSError`에 대한 방어 로직을 추가했습니다.
-* **정규식 최적화:** 루프 안에서 매번 컴파일되던 링크 추출 정규식을 루프 밖에서 미리 컴파일(`re.compile`)하여 성능을 높였습니다.
-
-아래는 즉시 교체하여 사용할 수 있는 최종 코드입니다.
-
-```python
-#!/usr/bin/env python3
-"""Generate a truthful, static-site-friendly runtime snapshot from real artifacts."""
-from __future__ import annotations
-
-import json
-import re
-from datetime import datetime, timezone, timedelta
-from pathlib import Path
-
 # 기준 경로 설정
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "dashboard_runtime.json"
@@ -86,7 +53,6 @@ def graph_metrics() -> dict:
     links = 0
     targets: set[str] = set()
 
-    # 정규식 미리 컴파일 (성능 최적화)
     link_pattern = re.compile(r"\[\[([^\]|#]+)")
 
     for note in notes:
@@ -103,12 +69,10 @@ def graph_metrics() -> dict:
                 if normalized:
                     targets.add(normalized)
         except OSError:
-            continue  # 개별 파일 읽기 실패 시 스킵
+            continue
 
     stems = {p.stem for p in notes}
     dangling = sorted(x for x in targets if x not in stems)
-
-    # 타임스탬프 계산 시 None 값 필터링을 통해 max() 에러 방지
     valid_mtimes = [iso_mtime(p) for p in notes if iso_mtime(p) is not None]
 
     return {
@@ -129,7 +93,6 @@ def source_metrics() -> dict:
     record_count = 0
     corpus_path = KNOWLEDGE / "training_corpus.jsonl"
 
-    # 대용량 .jsonl 파일을 고려하여 제너레이터로 메모리 효율적 읽기
     if corpus_path.exists():
         try:
             with corpus_path.open("r", encoding="utf-8", errors="ignore") as f:
@@ -211,7 +174,6 @@ def cumulative_metrics(graph: dict, sources: dict) -> dict:
 
         hist["last_snapshot"] = {**current, "recorded_at": now}
 
-    # 최근 90개의 실행 기록만 보관하여 파일 비대화 방지
     hist["runs"] = (hist.get("runs", []) + [{"at": now, **current, "added": added}])[-90:]
     hist["updated_at"] = now
 
@@ -241,7 +203,6 @@ def main() -> None:
 
     now = datetime.now(KST).isoformat()
 
-    # 정확도 데이터 포맷팅 안전 장치 (None인 경우 대응)
     accuracy_display = (
         f'{training["accuracy"]:.2%}'
         if isinstance(training["accuracy"], (int, float))
@@ -310,8 +271,7 @@ def main() -> None:
         with OUT.open("w", encoding="utf-8") as f:
             json.dump(payload, f, ensure_ascii=False, indent=2)
             f.write("\n")
-        
-        # Action Log 또는 stdout 모니터링을 위한 출력
+
         print(json.dumps(payload, ensure_ascii=False, indent=2))
     except OSError as e:
         print(f"Error: 런타임 스냅샷 데이터 생성 실패 - {e}")
