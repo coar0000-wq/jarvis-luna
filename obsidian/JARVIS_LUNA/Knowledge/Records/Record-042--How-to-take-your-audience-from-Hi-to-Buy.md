@@ -2,7 +2,7 @@
 title: "Record 042 · How-to-take-your-audience-from-Hi-to-Buy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-25T23:19:56.969989+00:00
+updated_at: 2026-08-25T23:48:19.893475+00:00
 tags: [{', '.join(tags)}]
 ---
 
