@@ -2,7 +2,7 @@
 title: "Record 024 · Whats-new-with-Sidekick"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-25T17:06:38.113157+00:00
+updated_at: 2026-08-25T17:55:29.296825+00:00
 tags: [{', '.join(tags)}]
 ---
 

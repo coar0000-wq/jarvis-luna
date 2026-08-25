@@ -2,7 +2,7 @@
 title: "JARVIS Real arXiv Papers"
 source: "arXiv API"
 status: ok
-collected_at: 2026-08-25T17:06:37.865066+00:00
+collected_at: 2026-08-25T17:55:29.139810+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real arXiv Papers
