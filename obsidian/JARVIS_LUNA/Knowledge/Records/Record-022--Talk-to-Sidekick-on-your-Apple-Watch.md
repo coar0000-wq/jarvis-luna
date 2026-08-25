@@ -2,7 +2,7 @@
 title: "Record 022 · Talk-to-Sidekick-on-your-Apple-Watch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-25T18:30:20.707953+00:00
+updated_at: 2026-08-25T18:58:14.770195+00:00
 tags: [{', '.join(tags)}]
 ---
 
