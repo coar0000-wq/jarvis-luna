@@ -2,7 +2,7 @@
 title: "Record 059 · Physics-Constrained-Deep-Learning-Model-for-Contactless-Blood-Pressure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-25T21:21:55.110651+00:00
+updated_at: 2026-08-25T21:52:21.758295+00:00
 tags: [{', '.join(tags)}]
 ---
 
