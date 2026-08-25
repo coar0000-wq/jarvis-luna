@@ -2,7 +2,7 @@
 title: "Record 012 · Shopping-that-gets-you"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-25T00:52:48.727092+00:00
+updated_at: 2026-08-25T01:54:19.322506+00:00
 tags: [{', '.join(tags)}]
 ---
 
