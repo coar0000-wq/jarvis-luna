@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-25T04:08:33.751513+00:00",
+  "collected_at": "2026-08-25T05:04:06.166239+00:00",
   "sources": {
     "arxiv": {
       "status": "ok",
@@ -173,7 +173,7 @@
         },
         {
           "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-          "error": "HTTP Error 500: Internal Server Error"
+          "error": "HTTP Error 404: Not Found"
         }
       ]
     },
