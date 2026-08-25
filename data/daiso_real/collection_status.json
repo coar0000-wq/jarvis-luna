@@ -1,64 +1,64 @@
 {
   "last_run": {
-    "started_at": "2026-08-24T19:46:46.816490+00:00",
+    "started_at": "2026-08-25T19:47:24.034974+00:00",
     "requested": 110,
     "ok": 19,
-    "parse_failed": 16,
+    "parse_failed": 8,
     "http_error": 0,
-    "skipped_not_beauty": 75,
+    "skipped_not_beauty": 83,
     "scope": "다이소몰 뷰티관(C245) 12개 카테고리",
     "delay_seconds": 30.0,
     "max_items": 110,
     "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
     "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
-    "finished_at": "2026-08-24T20:45:03.675005+00:00",
+    "finished_at": "2026-08-25T20:46:09.802798+00:00",
     "status": "ok"
   },
   "totals": {
-    "products": 44,
+    "products": 63,
     "target_per_bucket": 25,
     "by_bucket": {
-      "스킨케어": 15,
-      "마스크팩": 5,
-      "클렌징": 2,
-      "선케어": 0,
-      "메이크업": 10,
+      "스킨케어": 19,
+      "마스크팩": 8,
+      "클렌징": 3,
+      "선케어": 1,
+      "메이크업": 12,
       "네일": 1,
-      "뷰티소품": 2,
-      "맨즈케어": 3,
-      "향수": 1,
-      "헤어케어": 1,
+      "뷰티소품": 4,
+      "맨즈케어": 6,
+      "향수": 2,
+      "헤어케어": 2,
       "바디케어": 1,
-      "구강용품": 3
+      "구강용품": 4
     },
     "categories": {
       "스킨케어": {
-        "count": 15,
-        "avg_price_krw": 3867,
+        "count": 19,
+        "avg_price_krw": 3895,
         "min_price_krw": 1000,
         "max_price_krw": 5000
       },
       "마스크팩": {
-        "count": 5,
-        "avg_price_krw": 3200,
+        "count": 8,
+        "avg_price_krw": 2438,
         "min_price_krw": 1000,
         "max_price_krw": 5000
       },
       "클렌징": {
-        "count": 2,
-        "avg_price_krw": 4000,
-        "min_price_krw": 3000,
+        "count": 3,
+        "avg_price_krw": 3333,
+        "min_price_krw": 2000,
         "max_price_krw": 5000
       },
       "선케어": {
-        "count": 0,
-        "avg_price_krw": null,
-        "min_price_krw": null,
-        "max_price_krw": null
+        "count": 1,
+        "avg_price_krw": 5000,
+        "min_price_krw": 5000,
+        "max_price_krw": 5000
       },
       "메이크업": {
-        "count": 10,
-        "avg_price_krw": 2550,
+        "count": 12,
+        "avg_price_krw": 2625,
         "min_price_krw": 1000,
         "max_price_krw": 5000
       },
@@ -69,27 +69,27 @@
         "max_price_krw": 1000
       },
       "뷰티소품": {
-        "count": 2,
-        "avg_price_krw": 1500,
+        "count": 4,
+        "avg_price_krw": 1750,
         "min_price_krw": 1000,
         "max_price_krw": 2000
       },
       "맨즈케어": {
-        "count": 3,
-        "avg_price_krw": 3000,
+        "count": 6,
+        "avg_price_krw": 2833,
         "min_price_krw": 1000,
         "max_price_krw": 5000
       },
       "향수": {
-        "count": 1,
-        "avg_price_krw": 1000,
+        "count": 2,
+        "avg_price_krw": 2000,
         "min_price_krw": 1000,
-        "max_price_krw": 1000
+        "max_price_krw": 3000
       },
       "헤어케어": {
-        "count": 1,
-        "avg_price_krw": 5000,
-        "min_price_krw": 5000,
+        "count": 2,
+        "avg_price_krw": 4000,
+        "min_price_krw": 3000,
         "max_price_krw": 5000
       },
       "바디케어": {
@@ -99,25 +99,25 @@
         "max_price_krw": 2000
       },
       "구강용품": {
-        "count": 3,
-        "avg_price_krw": 1667,
+        "count": 4,
+        "avg_price_krw": 1750,
         "min_price_krw": 1000,
         "max_price_krw": 2000
       }
     },
-    "avg_price_krw": 3034,
+    "avg_price_krw": 2952,
     "price_krw_min": 1000,
     "price_krw_max": 5000,
-    "with_rating": 44
+    "with_rating": 63
   },
   "fx": {
-    "usd_to_krw": 1384.26,
-    "krw_to_usd": 0.00072241,
-    "as_of": "2026-08-24",
+    "usd_to_krw": 1383.07,
+    "krw_to_usd": 0.00072303,
+    "as_of": "2026-08-25",
     "source": "https://api.frankfurter.app/latest?from=USD&to=KRW",
-    "fetched_at": "2026-08-24T20:45:03.847051+00:00",
+    "fetched_at": "2026-08-25T20:46:10.088535+00:00",
     "ok": true
   },
   "sitemap_urls_known": 19739,
-  "visited": 260
+  "visited": 370
 }
