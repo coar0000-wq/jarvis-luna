@@ -139,8 +139,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          # index.html은 사람이 편집하는 화면이라 파이프라인 커밋 대상에서 제외한다
-          git add data/knowledge data/dashboard_runtime.json obsidian/JARVIS_LUNA
+          git add index.html data/knowledge data/dashboard_runtime.json obsidian/JARVIS_LUNA
 
           if git diff --cached --quiet; then
             echo 'No generated changes to commit'
