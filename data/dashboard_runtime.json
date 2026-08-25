@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-26T05:55:09.991615+09:00",
+  "generated_at": "2026-08-26T06:22:04.035953+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
@@ -38,7 +38,7 @@
     "status": "completed",
     "record_count": 63,
     "source_counts": {},
-    "updated_at": "2026-08-26T05:55:01.039178+09:00"
+    "updated_at": "2026-08-26T06:21:54.865850+09:00"
   },
   "graph": {
     "notes": 80,
@@ -48,7 +48,7 @@
     "sources": 2,
     "topics": 6,
     "audit": "passed",
-    "last_generated": "2026-08-26T05:55:01.283618+09:00"
+    "last_generated": "2026-08-26T06:21:55.114648+09:00"
   },
   "training": {
     "status": "completed",
@@ -63,7 +63,7 @@
     "gate_load_std": 0.4137140331073475,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-08-25T20:55:09.927899+00:00"
+    "updated_at": "2026-08-25T21:22:03.968593+00:00"
   },
   "cumulative": {
     "totals": {
