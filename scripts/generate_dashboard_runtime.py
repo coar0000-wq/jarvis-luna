@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """Generate a truthful, static-site-friendly runtime snapshot from real artifacts."""
 from __future__ import annotations
@@ -17,80 +16,133 @@ HISTORY = KNOWLEDGE / "cumulative_history.json"
 # 한국 시간(KST)
 KST = timezone(timedelta(hours=9))
 
+# ==========================================
+# [추가됨] 유튜브 홍보/광고 영상 대시보드 표시 제외 필터
+# ==========================================
+EXCLUDE_TITLE_KEYWORDS = [
+    "what is기존 코드를 분석하여 **메모리 효율성, 예외 처리, 코드 중복 제거 및 가독성**을 대폭 개선한 전체 수정본입니다. 
 
-def load_json(path: Path, default):
+주요 개선 사항은 다음과 같습니다.
+* **메모리 최적화:** 대용량일 수 있는 `training_corpus.jsonl` 파일을 한 번에 메모리에 올리지 않고(`.read_text().splitlines()`), 제너레이터를 사용하여 한 줄씩 읽도록(`with open(...)`) 수정했습니다.
+* **DRY(중복 제거) 원칙 적용:** `graph_metrics()` 내부에서 반복되던 경로 확인 및 파일 개수 측정 로직을 `get_md_count()` 헬퍼 함수로 분리했습니다.
+* **안정성 강화 (예외 처리):** `max()` 함수가 날짜를 비교할 때 `None` 값이 포함되어 발생할 수 있는 에러를 방지했습니다. 또한 파일 입출력 시 발생할 수 있는 `OSError`에 대한 방어 로직을 추가했습니다.
+* **정규식 최적화:** 루프 안에서 매번 컴파일되던 링크 추출 정규식을 루프 밖에서 미리 컴파일(`re.compile`)하여 성능을 높였습니다.
+
+아래는 즉시 교체하여 사용할 수 있는 최종 코드입니다.
+
+```python
+#!/usr/bin/env python3
+"""Generate a truthful, static-site-friendly runtime snapshot from real artifacts."""
+from __future__ import annotations
+
+import json
+import re
+from datetime import datetime, timezone, timedelta
+from pathlib import Path
+
+# 기준 경로 설정
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT / "data" / "dashboard_runtime.json"
+VAULT = ROOT / "obsidian" / "JARVIS_LUNA"
+KNOWLEDGE = ROOT / "data" / "knowledge"
+HISTORY = KNOWLEDGE / "cumulative_history.json"
+
+# 한국 시간(KST)
+KST = timezone(timedelta(hours=9))
+
+
+def load_json(path: Path, default: any) -> any:
+    """안전하게 JSON 파일을 로드합니다."""
+    if not path.exists():
+        return default
     try:
-        return json.loads(path.read_text(encoding="utf-8"))
+        with path.open("r", encoding="utf-8") as f:
+            return json.load(f)
     except (OSError, json.JSONDecodeError):
         return default
 
 
 def iso_mtime(path: Path) -> str | None:
+    """파일의 수정 시간을 KST ISO 8601 포맷으로 반환합니다."""
     try:
-        return datetime.fromtimestamp(path.stat().st_mtime, KST).isoformat()
+        if path.exists():
+            return datetime.fromtimestamp(path.stat().st_mtime, KST).isoformat()
     except OSError:
-        return None
+        pass
+    return None
+
+
+def get_md_count(base: Path, *subdirs: str) -> int:
+    """특정 하위 디렉토리 내부의 마크다운 파일 개수를 효율적으로 계산합니다."""
+    target_dir = base.joinpath(*subdirs)
+    if target_dir.exists() and target_dir.is_dir():
+        return sum(1 for _ in target_dir.glob("*.md"))
+    return 0
 
 
 def graph_metrics() -> dict:
+    """Obsidian Vault 내의 마크다운 노트 및 링크 연결 상태를 분석합니다."""
     notes = list(VAULT.rglob("*.md")) if VAULT.exists() else []
     links = 0
     targets: set[str] = set()
 
-    for note in notes:
-        text = note.read_text(encoding="utf-8", errors="ignore")
-        found = re.findall(r"\[\[([^\]|#]+)", text)
-        links += len(found)
+    # 정규식 미리 컴파일 (성능 최적화)
+    link_pattern = re.compile(r"\[\[([^\]|#]+)")
 
-        for target in found:
-            normalized = target.strip().replace("\\", "/")
-            normalized = normalized.rsplit("/", 1)[-1]
-            if normalized.endswith(".md"):
-                normalized = normalized[:-3]
-            if normalized:
-                targets.add(normalized)
+    for note in notes:
+        try:
+            text = note.read_text(encoding="utf-8", errors="ignore")
+            found = link_pattern.findall(text)
+            links += len(found)
+
+            for target in found:
+                normalized = target.strip().replace("\\", "/")
+                normalized = normalized.rsplit("/", 1)[-1]
+                if normalized.endswith(".md"):
+                    normalized = normalized[:-3]
+                if normalized:
+                    targets.add(normalized)
+        except OSError:
+            continue  # 개별 파일 읽기 실패 시 스킵
 
     stems = {p.stem for p in notes}
     dangling = sorted(x for x in targets if x not in stems)
+
+    # 타임스탬프 계산 시 None 값 필터링을 통해 max() 에러 방지
+    valid_mtimes = [iso_mtime(p) for p in notes if iso_mtime(p) is not None]
 
     return {
         "notes": len(notes),
         "links": links,
         "dangling_links": len(dangling),
-        "records": len(list((VAULT / "Knowledge" / "Records").glob("*.md")))
-        if (VAULT / "Knowledge" / "Records").exists()
-        else 0,
-        "sources": len(list((VAULT / "Knowledge" / "Sources").glob("*.md")))
-        if (VAULT / "Knowledge" / "Sources").exists()
-        else 0,
-        "topics": len(list((VAULT / "Knowledge" / "Topics").glob("*.md")))
-        if (VAULT / "Knowledge" / "Topics").exists()
-        else 0,
-        "audit": "passed" if not dangling else "failed",
-        "last_generated": max((iso_mtime(p) for p in notes), default=None),
+        "records": get_md_count(VAULT, "Knowledge", "Records"),
+        "sources": get_md_count(VAULT, "Knowledge", "Sources"),
+        "topics": get_md_count(VAULT, "Knowledge", "Topics"),
+        "audit": "failed" if dangling else "passed",
+        "last_generated": max(valid_mtimes, default=None),
     }
 
 
 def source_metrics() -> dict:
+    """수집된 코퍼스 및 데이터 소스 메트릭을 로드합니다."""
     data = load_json(KNOWLEDGE / "real_sources.json", {})
     record_count = 0
     corpus_path = KNOWLEDGE / "training_corpus.jsonl"
 
+    # 대용량 .jsonl 파일을 고려하여 제너레이터로 메모리 효율적 읽기
     if corpus_path.exists():
-        record_count = sum(
-            1
-            for line in corpus_path.read_text(
-                encoding="utf-8", errors="ignore"
-            ).splitlines()
-            if line.strip()
-        )
+        try:
+            with corpus_path.open("r", encoding="utf-8", errors="ignore") as f:
+                record_count = sum(1 for line in f if line.strip())
+        except OSError:
+            record_count = 0
 
     labels = {}
     if isinstance(data, dict):
         labels = data.get("source_counts") or data.get("counts") or {}
 
     return {
-        "status": "completed" if corpus_path.exists() and record_count else "waiting",
+        "status": "completed" if corpus_path.exists() and record_count > 0 else "waiting",
         "record_count": record_count,
         "source_counts": labels,
         "updated_at": iso_mtime(KNOWLEDGE / "real_sources.json"),
@@ -98,10 +150,9 @@ def source_metrics() -> dict:
 
 
 def training_metrics() -> dict:
+    """MoE 모델의 최신 학습 상태 및 메트릭을 로드합니다."""
     status = load_json(KNOWLEDGE / "training_status.json", {})
-    trained = bool(
-        status.get("training_performed") and status.get("weights_updated")
-    )
+    trained = bool(status.get("training_performed") and status.get("weights_updated"))
 
     return {
         "status": "completed" if trained else "not_verified",
@@ -116,8 +167,7 @@ def training_metrics() -> dict:
         "gate_load_std": status.get("tuning_gate_load_std"),
         "tuning_promoted": bool(status.get("tuning_promoted")),
         "tuning_steps": status.get("tuning_steps"),
-        "updated_at": status.get("updated_at")
-        or iso_mtime(KNOWLEDGE / "training_status.json"),
+        "updated_at": status.get("updated_at") or iso_mtime(KNOWLEDGE / "training_status.json"),
     }
 
 
@@ -125,6 +175,7 @@ FIELDS = ("records", "notes", "links")
 
 
 def cumulative_metrics(graph: dict, sources: dict) -> dict:
+    """과거 실행 내역과 비교하여 누적 메트릭을 계산하고 저장합니다."""
     now = datetime.now(KST).isoformat()
 
     current = {
@@ -160,23 +211,21 @@ def cumulative_metrics(graph: dict, sources: dict) -> dict:
 
         hist["last_snapshot"] = {**current, "recorded_at": now}
 
-    hist["runs"] = (
-        hist.get("runs", [])
-        + [{"at": now, **current, "added": added}]
-    )[-90:]
-
+    # 최근 90개의 실행 기록만 보관하여 파일 비대화 방지
+    hist["runs"] = (hist.get("runs", []) + [{"at": now, **current, "added": added}])[-90:]
     hist["updated_at"] = now
-    HISTORY.parent.mkdir(parents=True, exist_ok=True)
-    HISTORY.write_text(
-        json.dumps(hist, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+
+    try:
+        HISTORY.parent.mkdir(parents=True, exist_ok=True)
+        with HISTORY.open("w", encoding="utf-8") as f:
+            json.dump(hist, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+    except OSError as e:
+        print(f"Warning: 누적 히스토리 저장 실패 - {e}")
 
     return {
         "totals": {k: int(hist["totals"].get(k, 0)) for k in FIELDS},
-        "prior_totals": {
-            k: int(hist["totals"].get(k, 0)) - added[k] for k in FIELDS
-        },
+        "prior_totals": {k: int(hist["totals"].get(k, 0)) - added[k] for k in FIELDS},
         "added_this_run": added,
         "current_snapshot": current,
         "since": hist["baseline"].get("recorded_at"),
@@ -191,6 +240,13 @@ def main() -> None:
     cumulative = cumulative_metrics(graph, sources)
 
     now = datetime.now(KST).isoformat()
+
+    # 정확도 데이터 포맷팅 안전 장치 (None인 경우 대응)
+    accuracy_display = (
+        f'{training["accuracy"]:.2%}'
+        if isinstance(training["accuracy"], (int, float))
+        else str(training["accuracy"] or "N/A")
+    )
 
     payload = {
         "schema_version": 1,
@@ -209,9 +265,7 @@ def main() -> None:
             {
                 "id": "graph",
                 "title": "Obsidian 그래프 반영·검증",
-                "status": "completed"
-                if graph["audit"] == "passed"
-                else "failed",
+                "status": "completed" if graph["audit"] == "passed" else "failed",
                 "detail": (
                     f'{graph["notes"]}개 노트 · '
                     f'{graph["links"]}개 링크 · '
@@ -231,9 +285,7 @@ def main() -> None:
                 "detail": (
                     f'{training["records"]}건 · '
                     f'{training["experts"]} experts · '
-                    f'정확도 {training["accuracy"]:.2%}'
-                    if isinstance(training["accuracy"], (int, float))
-                    else f'{training["records"]}건'
+                    f'정확도 {accuracy_display}'
                 ),
             },
             {
@@ -253,13 +305,16 @@ def main() -> None:
         "cumulative": cumulative,
     }
 
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
-
-    print(json.dumps(payload, ensure_ascii=False, indent=2))
+    try:
+        OUT.parent.mkdir(parents=True, exist_ok=True)
+        with OUT.open("w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        
+        # Action Log 또는 stdout 모니터링을 위한 출력
+        print(json.dumps(payload, ensure_ascii=False, indent=2))
+    except OSError as e:
+        print(f"Error: 런타임 스냅샷 데이터 생성 실패 - {e}")
 
 
 if __name__ == "__main__":
