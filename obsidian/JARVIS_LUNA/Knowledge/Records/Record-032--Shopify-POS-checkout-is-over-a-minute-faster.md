@@ -2,7 +2,7 @@
 title: "Record 032 · Shopify-POS-checkout-is-over-a-minute-faster"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-25T16:30:12.852224+00:00
+updated_at: 2026-08-25T17:06:38.114871+00:00
 tags: [{', '.join(tags)}]
 ---
 
