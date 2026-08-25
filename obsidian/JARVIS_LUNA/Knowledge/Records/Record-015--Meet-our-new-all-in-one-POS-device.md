@@ -2,7 +2,7 @@
 title: "Record 015 · Meet-our-new-all-in-one-POS-device"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-25T17:55:29.296299+00:00
+updated_at: 2026-08-25T18:30:20.706759+00:00
 tags: [{', '.join(tags)}]
 ---
 
