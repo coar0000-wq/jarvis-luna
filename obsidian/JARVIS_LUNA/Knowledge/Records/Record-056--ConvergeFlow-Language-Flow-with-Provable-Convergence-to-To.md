@@ -2,7 +2,7 @@
 title: "Record 056 · ConvergeFlow-Language-Flow-with-Provable-Convergence-to-Token-Embeddin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-25T08:34:48.524985+00:00
+updated_at: 2026-08-25T09:29:19.000010+00:00
 tags: [{', '.join(tags)}]
 ---
 
