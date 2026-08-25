@@ -2,7 +2,7 @@
 title: "Record 029 · Edit-your-store-in-the-Shopify-app"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-25T02:16:00.890315+00:00
+updated_at: 2026-08-25T03:26:13.332515+00:00
 tags: [{', '.join(tags)}]
 ---
 
