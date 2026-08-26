@@ -2,7 +2,7 @@
 title: "Record 058 · Provably-adaptive-sampling-with-uniform-and-remasking-discrete-diffusi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T08:35:56.120593+00:00
+updated_at: 2026-08-26T09:34:57.864313+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 051 · VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-in-the-Life-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T08:35:56.119821+00:00
+updated_at: 2026-08-26T09:34:57.862991+00:00
 tags: [{', '.join(tags)}]
 ---
 
