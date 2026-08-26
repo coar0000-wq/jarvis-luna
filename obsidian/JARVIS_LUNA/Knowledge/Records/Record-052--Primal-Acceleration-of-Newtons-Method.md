@@ -2,7 +2,7 @@
 title: "Record 052 · Primal-Acceleration-of-Newtons-Method"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T07:10:27.870808+00:00
+updated_at: 2026-08-26T07:44:14.285610+00:00
 tags: [{', '.join(tags)}]
 ---
 
