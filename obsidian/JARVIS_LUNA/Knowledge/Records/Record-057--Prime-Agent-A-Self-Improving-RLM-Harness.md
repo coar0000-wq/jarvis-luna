@@ -2,7 +2,7 @@
 title: "Record 057 · Prime-Agent-A-Self-Improving-RLM-Harness"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T00:53:30.337534+00:00
+updated_at: 2026-08-26T02:00:07.880741+00:00
 tags: [{', '.join(tags)}]
 ---
 
