@@ -2,7 +2,7 @@
 title: "Record 041 · Luxury-brand-secrets-they-dont-want-you-to-know"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T02:22:58.728375+00:00
+updated_at: 2026-08-26T03:33:00.332527+00:00
 tags: [{', '.join(tags)}]
 ---
 

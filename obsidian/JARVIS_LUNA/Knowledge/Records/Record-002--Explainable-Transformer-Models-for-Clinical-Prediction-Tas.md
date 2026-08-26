@@ -2,7 +2,7 @@
 title: "Record 002 · Explainable-Transformer-Models-for-Clinical-Prediction-Tasks-on-Struct"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T02:22:58.723711+00:00
+updated_at: 2026-08-26T03:33:00.326913+00:00
 tags: [{', '.join(tags)}]
 ---
 
