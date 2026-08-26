@@ -2,7 +2,7 @@
 title: "Record 020 · How-to-start-a-beverage-company"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T13:17:52.995873+00:00
+updated_at: 2026-08-26T13:50:05.623252+00:00
 tags: [{', '.join(tags)}]
 ---
 
