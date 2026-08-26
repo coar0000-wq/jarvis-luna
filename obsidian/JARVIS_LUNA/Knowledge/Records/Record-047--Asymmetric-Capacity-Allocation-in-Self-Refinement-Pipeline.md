@@ -2,7 +2,7 @@
 title: "Record 047 · Asymmetric-Capacity-Allocation-in-Self-Refinement-Pipelines"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T06:58:33.520571+00:00
+updated_at: 2026-08-26T07:10:27.869915+00:00
 tags: [{', '.join(tags)}]
 ---
 
