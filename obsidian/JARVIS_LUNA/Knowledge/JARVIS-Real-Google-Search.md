@@ -2,7 +2,7 @@
 title: "JARVIS Real Google Search"
 source: "Google News RSS public fallback"
 status: error
-collected_at: 2026-08-26T07:44:14.029304+00:00
+collected_at: 2026-08-26T08:35:55.941638+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real Google Search

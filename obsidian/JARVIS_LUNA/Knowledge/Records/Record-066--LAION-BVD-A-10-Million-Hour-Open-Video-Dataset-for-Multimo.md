@@ -2,7 +2,7 @@
 title: "Record 066 · LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-Multimodal-Pre-trai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T07:44:14.288289+00:00
+updated_at: 2026-08-26T08:35:56.121516+00:00
 tags: [{', '.join(tags)}]
 ---
 
