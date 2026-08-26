@@ -2,7 +2,7 @@
 title: "Record 006 · An-Agentic-Approach-for-Active-Data-Collection-Travel-Behavior-Modelin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T02:00:07.872848+00:00
+updated_at: 2026-08-26T02:22:58.724320+00:00
 tags: [{', '.join(tags)}]
 ---
 
