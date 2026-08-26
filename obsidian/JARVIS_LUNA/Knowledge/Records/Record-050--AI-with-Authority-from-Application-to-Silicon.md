@@ -2,7 +2,7 @@
 title: "Record 050 · AI-with-Authority-from-Application-to-Silicon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-25T23:48:19.895095+00:00
+updated_at: 2026-08-26T00:53:30.336082+00:00
 tags: [{', '.join(tags)}]
 ---
 

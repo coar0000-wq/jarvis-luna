@@ -2,7 +2,7 @@
 title: "Record 007 · A-comparison-between-ceiling-mounted-FMCW-IR-UWB-and-Wi-Fi-radar-for-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-25T23:48:19.887264+00:00
+updated_at: 2026-08-26T00:53:30.327821+00:00
 tags: [{', '.join(tags)}]
 ---
 
