@@ -2,7 +2,7 @@
 title: "Record 004 · AI4AI-Bench-Benchmarking-LLM-Agents-in-Algorithmic-Design-for-Recursiv"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T03:33:00.327283+00:00
+updated_at: 2026-08-26T04:34:02.889286+00:00
 tags: [{', '.join(tags)}]
 ---
 

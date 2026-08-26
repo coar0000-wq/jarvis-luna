@@ -2,7 +2,7 @@
 title: "Shopify Commerce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T03:33:00.340176+00:00
+updated_at: 2026-08-26T04:34:02.905903+00:00
 tags: [{', '.join(tags)}]
 ---
 
