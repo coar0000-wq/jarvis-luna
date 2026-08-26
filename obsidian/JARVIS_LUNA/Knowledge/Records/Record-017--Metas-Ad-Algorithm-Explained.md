@@ -2,7 +2,7 @@
 title: "Record 017 · Metas-Ad-Algorithm-Explained"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T05:28:38.921693+00:00
+updated_at: 2026-08-26T06:01:04.397728+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-26T05:28:37.201988+00:00",
+  "collected_at": "2026-08-26T06:01:02.750880+00:00",
   "sources": {
     "arxiv": {
       "status": "ok",
@@ -146,150 +146,18 @@
       ]
     },
     "youtube": {
-      "status": "ok",
+      "status": "error",
       "source": "YouTube channel RSS",
-      "items": [
-        {
-          "title": "What is Shop? | Shopping designed around you",
-          "published": "2026-08-07T18:47:07+00:00",
-          "updated": "2026-08-11T01:32:11+00:00",
-          "url": "https://www.youtube.com/watch?v=KsujQDvKdHk",
-          "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
-          "channel": "@learnwithshopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "This is life on Shopify",
-          "published": "2026-07-17T17:45:12+00:00",
-          "updated": "2026-07-17T17:45:12+00:00",
-          "url": "https://www.youtube.com/watch?v=qajaXseoF7Q",
-          "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
-          "channel": "@learnwithshopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "Talk to Sidekick on your Apple Watch",
-          "published": "2026-07-13T16:26:36+00:00",
-          "updated": "2026-08-14T19:42:51+00:00",
-          "url": "https://www.youtube.com/shorts/eYdwkHMM3JM",
-          "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
-          "channel": "@learnwithshopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "Edit your store in the Shopify app",
-          "published": "2026-07-06T17:55:08+00:00",
-          "updated": "2026-08-10T01:10:19+00:00",
-          "url": "https://www.youtube.com/shorts/yfkBbe8wa0Q",
-          "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
-          "channel": "@learnwithshopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "Meet your store’s new AI assistant",
-          "published": "2026-07-02T15:17:09+00:00",
-          "updated": "2026-08-04T05:36:00+00:00",
-          "url": "https://www.youtube.com/shorts/HrrvLwkVhc0",
-          "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
-          "channel": "@learnwithshopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "Level up your product photos",
-          "published": "2026-06-26T16:10:31+00:00",
-          "updated": "2026-08-04T05:34:38+00:00",
-          "url": "https://www.youtube.com/shorts/ajltyxKyQ1k",
-          "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
-          "channel": "@learnwithshopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "Shopping that gets you",
-          "published": "2026-06-23T17:17:14+00:00",
-          "updated": "2026-07-27T07:22:07+00:00",
-          "url": "https://www.youtube.com/shorts/DBz9iLVvjFI",
-          "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
-          "channel": "@learnwithshopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "What’s new with Sidekick?",
-          "published": "2026-06-22T16:06:28+00:00",
-          "updated": "2026-07-27T07:16:25+00:00",
-          "url": "https://www.youtube.com/shorts/kIei7ZESkEQ",
-          "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
-          "channel": "@learnwithshopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "Meet our new all-in-one POS device",
-          "published": "2026-06-18T16:02:53+00:00",
-          "updated": "2026-07-18T22:46:50+00:00",
-          "url": "https://www.youtube.com/shorts/U5ULiaf4H1E",
-          "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
-          "channel": "@learnwithshopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "Your marketing, automated",
-          "published": "2026-06-17T18:01:00+00:00",
-          "updated": "2026-07-18T07:07:55+00:00",
-          "url": "https://www.youtube.com/shorts/Xv3_zFQnmAY",
-          "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
-          "channel": "@learnwithshopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "Manage all your AI channels in one place",
-          "published": "2026-06-17T16:15:48+00:00",
-          "updated": "2026-07-18T07:12:55+00:00",
-          "url": "https://www.youtube.com/shorts/H_UYtbQB_XI",
-          "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
-          "channel": "@learnwithshopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "Shopify POS checkout is over a minute faster",
-          "published": "2026-06-17T15:59:55+00:00",
-          "updated": "2026-06-21T00:39:31+00:00",
-          "url": "https://www.youtube.com/watch?v=37zOjqRl-3Q",
-          "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
-          "channel": "@learnwithshopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "Online to in person with the Shop app",
-          "published": "2026-06-17T15:59:55+00:00",
-          "updated": "2026-08-16T21:04:10+00:00",
-          "url": "https://www.youtube.com/watch?v=9LkIxHbr1Ik",
-          "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
-          "channel": "@learnwithshopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "Better context for your store's data",
-          "published": "2026-06-17T15:59:55+00:00",
-          "updated": "2026-06-21T00:42:57+00:00",
-          "url": "https://www.youtube.com/watch?v=DiJc9gsgzn8",
-          "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
-          "channel": "@learnwithshopify",
-          "source": "YouTube channel RSS"
-        },
-        {
-          "title": "Actionable insights for agentic selling",
-          "published": "2026-06-17T15:59:55+00:00",
-          "updated": "2026-06-21T00:39:45+00:00",
-          "url": "https://www.youtube.com/watch?v=K1nR7pe49cM",
-          "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
-          "channel": "@learnwithshopify",
-          "source": "YouTube channel RSS"
-        }
-      ],
+      "items": [],
       "channels": [
         "@learnwithshopify",
         "@Shopify"
       ],
       "errors": [
+        {
+          "channel_id": "UCIv38OrggTu3vNkCAo96-CQ",
+          "error": "HTTP Error 404: Not Found"
+        },
         {
           "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
           "error": "HTTP Error 404: Not Found"
