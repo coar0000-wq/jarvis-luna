@@ -2,7 +2,7 @@
 title: "JARVIS Real YouTube"
 source: "YouTube channel RSS"
 status: ok
-collected_at: 2026-08-26T20:27:04.805644+00:00
+collected_at: 2026-08-26T23:56:09.456589+00:00
 tags: [jarvis, real-data, knowledge]
 ---
 # JARVIS Real YouTube
@@ -108,7 +108,7 @@ tags: [jarvis, real-data, knowledge]
 ### Instagram Changed Everything Again: New Updates You Need to Know in 2026
 - 원문: [https://www.youtube.com/watch?v=dU_U1Pmmu5c](https://www.youtube.com/watch?v=dU_U1Pmmu5c)
 - published: 2026-08-24T14:00:06+00:00
-- updated: 2026-08-26T15:51:09+00:00
+- updated: 2026-08-26T23:17:12+00:00
 - channel_id: UC7geKfz2-IH0rsgRBtHTm0g
 
 ### How to take your audience from "Hi!" to "Buy!"

@@ -2,7 +2,7 @@
 title: "Record 065 · Reading-Is-Not-Using-Retrieval-Judgment-and-the-Design-of-AI-Financial"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T20:27:05.013032+00:00
+updated_at: 2026-08-26T23:56:09.706686+00:00
 tags: [{', '.join(tags)}]
 ---
 
