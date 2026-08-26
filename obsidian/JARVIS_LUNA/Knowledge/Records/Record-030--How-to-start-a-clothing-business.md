@@ -2,7 +2,7 @@
 title: "Record 030 · How-to-start-a-clothing-business"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T04:34:02.894105+00:00
+updated_at: 2026-08-26T05:28:38.923901+00:00
 tags: [{', '.join(tags)}]
 ---
 

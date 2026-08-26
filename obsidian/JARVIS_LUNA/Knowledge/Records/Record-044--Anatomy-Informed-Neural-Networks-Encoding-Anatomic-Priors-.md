@@ -2,7 +2,7 @@
 title: "Record 044 · Anatomy-Informed-Neural-Networks-Encoding-Anatomic-Priors-in-Loss-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T04:34:02.896588+00:00
+updated_at: 2026-08-26T05:28:38.926384+00:00
 tags: [{', '.join(tags)}]
 ---
 
