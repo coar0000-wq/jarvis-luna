@@ -1,6 +1,6 @@
 {
   "timestamp": "2026-08-17T06:22:37.784474Z",
-  "total_count": 709,
+  "total_count": 713,
   "categories": {
     "주방용품": {
       "count": 4
@@ -6958,13 +6958,57 @@
         "K-beauty"
       ],
       "discovered_at": "2026-08-26T11:35:40.545719Z"
+    },
+    {
+      "id": "wm_20260826120106_0",
+      "name": "월마트 뷰티·스킨케어 후보 (906)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-26T12:01:06.195768Z"
+    },
+    {
+      "id": "wm_20260826120106_1",
+      "name": "월마트 뷰티·스킨케어 후보 (304)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-26T12:01:06.195781Z"
+    },
+    {
+      "id": "wm_20260826120106_2",
+      "name": "월마트 뷰티·스킨케어 후보 (459)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-26T12:01:06.195787Z"
+    },
+    {
+      "id": "wm_20260826120106_3",
+      "name": "월마트 뷰티·스킨케어 후보 (703)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-26T12:01:06.195793Z"
     }
   ],
   "metadata": {
     "data_quality": "100% 실제 데이터",
     "verified": true
   },
-  "last_updated": "2026-08-26T11:35:40.545725Z",
+  "last_updated": "2026-08-26T12:01:06.195795Z",
   "target_category": "다이소 뷰티 & 스킨케어",
   "focus_keywords": [
     "Walmart beauty",
