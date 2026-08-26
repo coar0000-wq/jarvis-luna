@@ -2,7 +2,7 @@
 title: "Record 048 · Truthful-Calibration-Measures-for-Sequential-Prediction"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T14:38:31.306971+00:00
+updated_at: 2026-08-26T16:13:13.765885+00:00
 tags: [{', '.join(tags)}]
 ---
 

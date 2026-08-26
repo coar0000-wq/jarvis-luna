@@ -2,7 +2,7 @@
 title: "Record 073 · What-FID-Hides-Detecting-Ranking-and-Diagnosing-Deviations-in-Generati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T14:38:31.311669+00:00
+updated_at: 2026-08-26T16:13:13.770786+00:00
 tags: [{', '.join(tags)}]
 ---
 
