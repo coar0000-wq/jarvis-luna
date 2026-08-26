@@ -2,7 +2,7 @@
 title: "Record 026 · Pro-SEO-tips-for-product-pages"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T12:38:27.771961+00:00
+updated_at: 2026-08-26T13:17:52.996652+00:00
 tags: [{', '.join(tags)}]
 ---
 
