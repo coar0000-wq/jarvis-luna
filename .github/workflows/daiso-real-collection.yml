@@ -1,8 +1,7 @@
 name: Daiso Real Product Collection
 
-# 다이소몰에서 실제 상품 데이터를 수집합니다.
-# robots.txt(Crawl-delay 30)를 지키므로 상품 1건당 약 30초가 걸립니다.
-# 한 번에 60건 = 약 30분. 하루 1회 실행합니다.
+# 다이소몰에서 실제 상품 데이터를 수집한 뒤
+# Shopify 수요 점수를 자동 계산한다.
 
 on:
   schedule:
@@ -36,26 +35,24 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Collect
+      - name: Collect Daiso products
         env:
           DAISO_MAX_ITEMS: ${{ github.event.inputs.max_items || '110' }}
           DAISO_DELAY: ${{ github.event.inputs.delay || '30' }}
         run: python scripts/daiso/collect_daiso.py
         continue-on-error: true
 
+      - name: Score Shopify demand
+        run: python scripts/daiso/score_shopify_demand.py
+
       - name: Report status
         run: |
-          echo '### 다이소 실수집 결과' >> $GITHUB_STEP_SUMMARY
+          echo '### 다이소 실수집 + Shopify 수요 점수' >> $GITHUB_STEP_SUMMARY
           echo '```json' >> $GITHUB_STEP_SUMMARY
-          python -c "import json;d=json.load(open('data/daiso_real/collection_status.json',encoding='utf-8'));print(json.dumps(d['last_run'],ensure_ascii=False,indent=2));print(json.dumps(d['totals'],ensure_ascii=False,indent=2))" >> $GITHUB_STEP_SUMMARY || echo 'status file missing' >> $GITHUB_STEP_SUMMARY
-          echo '```' >> $GITHUB_STEP_SUMMARY
-
-      - name: Commit
-        run: |
-          git config user.name  "JARVIS LUNA"
-          git config user.email "coar0000@naver.com"
-          git add data/daiso_real
-          git diff --staged --quiet && echo "변경 없음" && exit 0
-          git commit -m "다이소 실제 상품 수집 $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase --autostash origin main
-          git push origin HEAD:main
+          python -c "
+          import json
+          from pathlib import Path
+          st = Path('data/daiso_real/collection_status.json')
+          sc = Path('data/daiso_real/shopify_demand_score.json')
+          if st.exists():
+            d=json.load(open(st,encoding='utf-8'))
