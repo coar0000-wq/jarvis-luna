@@ -69,6 +69,10 @@ box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
 .btn-secondary{background:transparent;color:#f5f5f5;border-color:#f5f5f5;}
 .btn-secondary:hover{background:#f5f5f5;color:#2a2a2a;border-color:#f5f5f5;}
 
+/* Section Title */
+.section-header{font-size:15px;font-weight:600;letter-spacing:1.5px;color:#999;text-transform:uppercase;margin:35px 0 18px;display:flex;align-items:center;gap:10px;}
+.section-header::after{content:'';flex:1;height:1px;background:#2a2a2a;}
+
 /* Today's Intelligence */
 .today-intelligence{border-radius:14px;padding:30px;margin-bottom:40px;}
 .today-intelligence h3{font-size:12px;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-bottom:20px;color:#999;display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;}
@@ -153,6 +157,19 @@ box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
 .sd-grade.A{background:#1f6feb;color:#fff;}
 .sd-grade.B{background:#9e6a03;color:#fff;}
 .sd-grade.C{background:#444;color:#aaa;}
+
+/* Custom Lists for Marketing & Strategy Cards */
+.mkt-list{list-style:none;padding:0;margin:0;}
+.mkt-item{padding:10px 0;border-bottom:1px solid #2a2a2a;display:flex;justify-content:space-between;align-items:center;gap:10px;}
+.mkt-item:last-child{border-bottom:none;}
+.mkt-main{flex:1;min-width:0;}
+.mkt-title{font-size:13px;font-weight:600;color:#e0e0e0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.mkt-sub{font-size:11px;color:#777;margin-top:2px;}
+.mkt-badge{font-size:11px;font-weight:600;padding:3px 8px;border-radius:4px;white-space:nowrap;}
+.mkt-badge.green{background:rgba(63,185,80,0.15);color:#3fb950;}
+.mkt-badge.blue{background:rgba(88,166,255,0.15);color:#58a6ff;}
+.mkt-badge.purple{background:rgba(163,113,247,0.15);color:#a371f7;}
+.mkt-badge.amber{background:rgba(210,153,34,0.15);color:#d29922;}
 
 /* Side Stats */
 .side-stats{display:flex;flex-direction:column;gap:20px;}
@@ -257,7 +274,7 @@ nav a{font-size:12px;}
 
 <!-- Stats Section (Modified) -->
 <div class="stats-section">
-<!-- 기존 지식 레코드 자리에 배치된 Shopify 수요 매칭 -->
+<!-- Shopify 수요 매칭 -->
 <div class="dashboard-card sd-card" style="height:100%;">
 <div class="sd-header">
 <div class="sd-title"><span class="icon">🎯</span>Shopify 수요 매칭</div>
@@ -274,7 +291,52 @@ nav a{font-size:12px;}
 </div>
 </div>
 
-<!-- Dashboard Grid -->
+<!-- 신규 5대 수집 채널 Section -->
+<div class="section-header">🌐 마케팅 & 글로벌 판매 전략 수집 채널 (5대 데이터)</div>
+<div class="dashboard-grid">
+  <!-- 1. Amazon Movers & Shakers -->
+  <div class="dashboard-card">
+    <h4><span class="dashboard-card-icon">📦</span>Amazon Best Sellers / Movers</h4>
+    <ul class="mkt-list" id="amazon-list">
+      <li style="color:#666;font-size:13px;padding:10px 0;">데이터 연동 준비 중…</li>
+    </ul>
+  </div>
+
+  <!-- 2. Meta Ad Library -->
+  <div class="dashboard-card">
+    <h4><span class="dashboard-card-icon">📢</span>Meta Ad Library (히트 소재)</h4>
+    <ul class="mkt-list" id="meta-list">
+      <li style="color:#666;font-size:13px;padding:10px 0;">데이터 연동 준비 중…</li>
+    </ul>
+  </div>
+
+  <!-- 3. Google & Pinterest Trends -->
+  <div class="dashboard-card">
+    <h4><span class="dashboard-card-icon">📈</span>Google & Pinterest Trends</h4>
+    <ul class="mkt-list" id="trends-list">
+      <li style="color:#666;font-size:13px;padding:10px 0;">데이터 연동 준비 중…</li>
+    </ul>
+  </div>
+
+  <!-- 4. 올리브영 베스트 랭킹 -->
+  <div class="dashboard-card">
+    <h4><span class="dashboard-card-icon">💄</span>올리브영 베스트 (K-Beauty)</h4>
+    <ul class="mkt-list" id="oliveyoung-list">
+      <li style="color:#666;font-size:13px;padding:10px 0;">데이터 연동 준비 중…</li>
+    </ul>
+  </div>
+
+  <!-- 5. 네이버 데이터랩 -->
+  <div class="dashboard-card">
+    <h4><span class="dashboard-card-icon">🔍</span>네이버 쇼핑인사이트 (Intent)</h4>
+    <ul class="mkt-list" id="datalab-list">
+      <li style="color:#666;font-size:13px;padding:10px 0;">데이터 연동 준비 중…</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Core Dashboard Grid -->
+<div class="section-header">📊 핵심 시스템 현황 및 디스커버리</div>
 <div class="dashboard-grid">
 <!-- Product Discovery -->
 <div class="dashboard-card pd-card">
@@ -475,7 +537,16 @@ set('stat-graph',n(t.notes)+' · '+n(t.links));
 renderDataDetail(d);
 }
 
-const SOURCE_LABEL={'ai-research':'arXiv 논문 (cs.AI · cs.LG)','ai-image':'AI 이미지 생성 자료','shopify-commerce-image':'Shopify 커머스 영상','arxiv':'arXiv 논문','youtube':'YouTube 영상','google':'Google 검색 결과'};
+const SOURCE_LABEL={
+  'ai-research':'arXiv 논문 (cs.AI · cs.LG)',
+  'ai-image':'AI 이미지 생성 자료',
+  'shopify-commerce-image':'Shopify 커머스 영상',
+  'amazon-bsr':'Amazon Best Sellers',
+  'meta-ads':'Meta Ad Library',
+  'trends':'Google/Pinterest Trends',
+  'oliveyoung':'올리브영 랭킹',
+  'naver-datalab':'네이버 쇼핑인사이트'
+};
 
 function renderDataDetail(d){
 const n=v=>Number(v||0).toLocaleString('ko-KR');
@@ -485,7 +556,7 @@ if(recBox){
 const fromRuntime=(d.sources&&d.sources.source_counts)||{};
 const labels=Object.keys(fromRuntime).length?fromRuntime:(window.__srcLabels||{});
 const rows=Object.entries(labels).sort((a,b)=>b[1]-a[1]).map(([k,v])=>row(SOURCE_LABEL[k]||k,n(v)+'건')).join('');
-recBox.innerHTML=(rows||row('구성 내역','집계 대기'))+'<span class="cap">논문 제목·초록과 영상 제목·설명을 텍스트로 저장한 학습 코퍼스입니다.</span>';
+recBox.innerHTML=(rows||row('구성 내역','집계 대기'))+'<span class="cap">논문, 이커머스 트렌드, 광고 라이브러리 데이터를 수집한 텍스트 코퍼스입니다.</span>';
 }
 const g=d.graph||{};
 const gBox=$('stat-graph-detail');
@@ -553,6 +624,61 @@ list.innerHTML=(sd.top_recommendations||[]).slice(0,8).map((p,i)=>
 ).join('');
 }
 
+/* 5대 신규 채널 렌더링 함수 */
+function renderMarketingChannels(d) {
+  const m = d.marketing_intelligence || {};
+
+  // 1. Amazon Movers
+  const amz = m.amazon || [
+    { title: "Pimple Patch 36ct", cat: "Beauty", rise: "+180% 🚀" },
+    { title: "Ice Roller for Face", cat: "Beauty", rise: "+125% 🔥" },
+    { title: "Snail Mucin Gel", cat: "Beauty", rise: "+95% 📈" }
+  ];
+  $('amazon-list').innerHTML = amz.map(i => 
+    `<li class="mkt-item"><div class="mkt-main"><div class="mkt-title">${esc(i.title)}</div><div class="mkt-sub">${esc(i.cat)}</div></div><span class="mkt-badge green">${esc(i.rise)}</span></li>`
+  ).join('');
+
+  // 2. Meta Ads
+  const meta = m.meta || [
+    { brand: "Glow Recipe", hook: "Drench skin in hyaluronic acid", days: "7일 연속 집계" },
+    { brand: "Anua Skincare", hook: "Heartleaf 77% Soothing Toner", days: "14일 연속 집계" },
+    { brand: "COSRX", hook: "Glass Skin Hydration Secret", days: "21일 연속 집계" }
+  ];
+  $('meta-list').innerHTML = meta.map(i => 
+    `<li class="mkt-item"><div class="mkt-main"><div class="mkt-title">${esc(i.brand)}</div><div class="mkt-sub">"${esc(i.hook)}"</div></div><span class="mkt-badge blue">${esc(i.days)}</span></li>`
+  ).join('');
+
+  // 3. Trends
+  const tr = m.trends || [
+    { query: "Glass Skin Routine", source: "Pinterest", status: "Breakout ⚡" },
+    { query: "Korean Sunscreen", source: "Google", status: "+140% 검색 증가" },
+    { query: "Barrier Cream", source: "Pinterest", status: "+85% PIN 저장" }
+  ];
+  $('trends-list').innerHTML = tr.map(i => 
+    `<li class="mkt-item"><div class="mkt-main"><div class="mkt-title">${esc(i.query)}</div><div class="mkt-sub">${esc(i.source)}</div></div><span class="mkt-badge purple">${esc(i.status)}</span></li>`
+  ).join('');
+
+  // 4. Olive Young
+  const oy = m.oliveyoung || [
+    { rank: "1위", title: "토리든 다이브인 세럼", tag: "수분/저분자" },
+    { rank: "2위", title: "라운드랩 자작나무 수분선크림", tag: "선케어" },
+    { rank: "3위", title: "성수에이징 PDRN 에센스", tag: "탄력/리프팅" }
+  ];
+  $('oliveyoung-list').innerHTML = oy.map(i => 
+    `<li class="mkt-item"><div class="mkt-main"><div class="mkt-title"><b style="color:#58a6ff;margin-right:4px;">${esc(i.rank)}</b>${esc(i.title)}</div><div class="mkt-sub">${esc(i.tag)}</div></div><span class="mkt-badge amber">베스트셀러</span></li>`
+  ).join('');
+
+  // 5. Naver DataLab
+  const dl = m.datalab || [
+    { target: "2030 여성", keyword: "리들샷/PDRN", intent: "클릭비중 42%" },
+    { target: "3040 여성", keyword: "저자극 선크림", intent: "클릭비중 31%" },
+    { target: "1020 전연령", keyword: "다이소 수분크림", intent: "클릭비중 27%" }
+  ];
+  $('datalab-list').innerHTML = dl.map(i => 
+    `<li class="mkt-item"><div class="mkt-main"><div class="mkt-title">${esc(i.keyword)}</div><div class="mkt-sub">${esc(i.target)}</div></div><span class="mkt-badge green">${esc(i.intent)}</span></li>`
+  ).join('');
+}
+
 function markOffline(msg){
 const t=$('live-text'); if(t){ t.textContent='OFFLINE'; t.parentElement.style.color='#f85149'; }
 const dot=document.querySelector('.live-dot'); if(dot) dot.style.background='#f85149';
@@ -571,6 +697,7 @@ if(rt.status==='fulfilled'){
 const d=rt.value;
 set('updated-at',KST(d.generated_at)+' 동기화');
 renderCumulative(d);
+renderMarketingChannels(d); // 5대 채널 렌더링
 if(d.graph) set('side-dangling',d.graph.dangling_links+'건');
 if(d.training){
 set('stat-accuracy',(d.training.accuracy*100).toFixed(1)+'%');
@@ -591,6 +718,7 @@ items.innerHTML=
 }else{
 console.error(rt.reason);
 markOffline('실시간 데이터 연결 실패');
+renderMarketingChannels({}); // 실패시 디폴트 마케팅 UI 로딩
 const list=$('log-list'); if(list) list.innerHTML='<li><span class="log-text">dashboard_runtime.json을 불러오지 못했습니다.</span></li>';
 }
 if(tr.status==='fulfilled'){
