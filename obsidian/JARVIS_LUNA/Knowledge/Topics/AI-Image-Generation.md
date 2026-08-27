@@ -2,7 +2,7 @@
 title: "AI Image Generation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-27T09:50:54.006396+00:00
+updated_at: 2026-08-27T18:02:03.647512+00:00
 tags: [{', '.join(tags)}]
 ---
 

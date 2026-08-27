@@ -2,7 +2,7 @@
 title: "Record 064 · A-Dual-Dimensional-LLM-Framework-for-Automated-Item-Incidental-Content"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-27T09:50:54.000189+00:00
+updated_at: 2026-08-27T18:02:03.641167+00:00
 tags: [{', '.join(tags)}]
 ---
 
