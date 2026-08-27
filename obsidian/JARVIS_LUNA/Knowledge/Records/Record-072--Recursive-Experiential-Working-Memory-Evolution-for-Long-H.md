@@ -2,7 +2,7 @@
 title: "Record 072 · Recursive-Experiential-Working-Memory-Evolution-for-Long-Horizon-Agent"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-27T06:32:38.973697+00:00
+updated_at: 2026-08-27T09:50:54.001790+00:00
 tags: [{', '.join(tags)}]
 ---
 

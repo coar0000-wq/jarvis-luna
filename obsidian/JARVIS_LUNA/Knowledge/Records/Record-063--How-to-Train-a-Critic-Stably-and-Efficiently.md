@@ -2,7 +2,7 @@
 title: "Record 063 · How-to-Train-a-Critic-Stably-and-Efficiently"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-27T06:32:38.971870+00:00
+updated_at: 2026-08-27T09:50:53.999994+00:00
 tags: [{', '.join(tags)}]
 ---
 

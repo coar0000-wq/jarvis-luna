@@ -2,7 +2,7 @@
 title: "Record 033 · 7-Faceless-Business-Ideas-for-Beginners"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-27T06:32:38.966364+00:00
+updated_at: 2026-08-27T09:50:53.994543+00:00
 tags: [{', '.join(tags)}]
 ---
 

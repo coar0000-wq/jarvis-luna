@@ -2,7 +2,7 @@
 title: "Record 067 · FedV-KGQA-Multi-Hop-Question-Answering-over-Vertically-Partitioned-Kno"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-27T06:32:38.972680+00:00
+updated_at: 2026-08-27T09:50:54.000763+00:00
 tags: [{', '.join(tags)}]
 ---
 
