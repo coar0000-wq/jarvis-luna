@@ -2,7 +2,7 @@
 title: "Record 039 · This-is-life-on-Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-26T23:56:09.701079+00:00
+updated_at: 2026-08-27T06:32:38.967287+00:00
 tags: [{', '.join(tags)}]
 ---
 
