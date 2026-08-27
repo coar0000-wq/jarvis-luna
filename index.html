@@ -129,6 +129,31 @@ box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
 .pd-desc{font-size:13px;color:#888;}
 .pd-change{font-size:14px;font-weight:600;color:#3fb950;white-space:nowrap;}
 
+/* Shopify Demand Score Card */
+.sd-card{padding:20px 22px!important;}
+.sd-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;}
+.sd-title{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:600;color:#e0e0e0;}
+.sd-title .icon{font-size:18px;}
+.sd-summary{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap;}
+.sd-badge{padding:4px 10px;border-radius:20px;font-size:12px;font-weight:600;}
+.sd-badge.s{background:#23863633;color:#3fb950;}
+.sd-badge.a{background:#1f6feb33;color:#58a6ff;}
+.sd-badge.b{background:#9e6a0333;color:#d29922;}
+.sd-badge.c{background:#2a2a2a;color:#888;}
+.sd-list{list-style:none;}
+.sd-item{display:flex;align-items:center;gap:12px;padding:11px 0;border-bottom:1px solid #2a2a2a;}
+.sd-item:last-child{border-bottom:none;}
+.sd-rank{width:22px;font-size:13px;font-weight:700;color:#666;text-align:center;}
+.sd-info{flex:1;min-width:0;}
+.sd-name{font-size:13px;font-weight:600;color:#e0e0e0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.sd-meta{font-size:11px;color:#888;margin-top:2px;}
+.sd-score{font-size:14px;font-weight:700;color:#3fb950;white-space:nowrap;}
+.sd-grade{display:inline-block;width:18px;height:18px;line-height:18px;text-align:center;border-radius:4px;font-size:11px;font-weight:700;margin-right:6px;}
+.sd-grade.S{background:#238636;color:#fff;}
+.sd-grade.A{background:#1f6feb;color:#fff;}
+.sd-grade.B{background:#9e6a03;color:#fff;}
+.sd-grade.C{background:#444;color:#aaa;}
+
 /* Side Stats */
 .side-stats{display:flex;flex-direction:column;gap:20px;}
 .side-stat{border-radius:14px;padding:20px;display:flex;justify-content:space-between;align-items:center;}
@@ -293,6 +318,17 @@ Product Discovery
 </div>
 <div class="pd-change">↑ 12%</div>
 </li>
+</ul>
+</div>
+
+<!-- Shopify 수요 매칭 -->
+<div class="dashboard-card sd-card">
+<div class="sd-header">
+<div class="sd-title"><span class="icon">🎯</span>Shopify 수요 매칭</div>
+</div>
+<div class="sd-summary" id="sd-summary">불러오는 중…</div>
+<ul class="sd-list" id="sd-list">
+<li style="color:#666;font-size:13px;">데이터 로딩 중…</li>
 </ul>
 </div>
 
@@ -488,6 +524,34 @@ check(false,'Shopify 스토어 연동')+
 (run.message?'<br><span style="color:#f5a524;">'+esc(run.message)+'</span>':'')+'</div>';
 }
 
+
+function renderShopifyDemand(sd){
+const summary=$('sd-summary');
+const list=$('sd-list');
+if(!summary||!list) return;
+if(!sd||!sd.top_recommendations){
+summary.textContent='수요 점수 데이터 없음';
+list.innerHTML='<li style="color:#666;font-size:13px;">score_shopify_demand.py 실행 필요</li>';
+return;
+}
+const g=sd.grade_summary||{};
+summary.innerHTML=
+'<span class="sd-badge s">S '+(g.S||0)+'</span>'+
+'<span class="sd-badge a">A '+(g.A||0)+'</span>'+
+'<span class="sd-badge b">B '+(g.B||0)+'</span>'+
+'<span class="sd-badge c">C '+(g.C||0)+'</span>';
+list.innerHTML=(sd.top_recommendations||[]).slice(0,8).map((p,i)=>
+'<li class="sd-item">'+
+'<div class="sd-rank">'+(i+1)+'</div>'+
+'<div class="sd-info">'+
+'<div class="sd-name"><span class="sd-grade '+p.grade+'">'+p.grade+'</span>'+esc(p.name)+'</div>'+
+'<div class="sd-meta">'+esc(p.bucket)+' · '+Number(p.price_krw||0).toLocaleString('ko-KR')+'원</div>'+
+'</div>'+
+'<div class="sd-score">'+p.shopify_score+'점</div>'+
+'</li>'
+).join('');
+}
+
 function markOffline(msg){
 const t=$('live-text'); if(t){ t.textContent='OFFLINE'; t.parentElement.style.color='#f85149'; }
 const dot=document.querySelector('.live-dot'); if(dot) dot.style.background='#f85149';
@@ -495,11 +559,12 @@ set('updated-at',msg);
 }
 
 async function loadData(){
-const [rt,tr,src,daiso]=await Promise.allSettled([
+const [rt,tr,src,daiso,sd]=await Promise.allSettled([
 getJSON('data/dashboard_runtime.json'),
 getJSON('data/knowledge/training_status.json'),
 getJSON('data/knowledge/real_sources.json'),
-getJSON('data/daiso_real/collection_status.json')
+getJSON('data/daiso_real/collection_status.json'),
+getJSON('data/daiso_real/shopify_demand_score.json')
 ]);
 if(rt.status==='fulfilled'){
 const d=rt.value;
@@ -535,6 +600,7 @@ if(rt.status!=='fulfilled') renderTraining(tr.value);
 }else{ renderSources(null); }
 renderLatest(src.status==='fulfilled'?src.value:null);
 renderDaiso(daiso.status==='fulfilled'?daiso.value:null);
+renderShopifyDemand(sd.status==='fulfilled'?sd.value:null);
 }
 
 document.addEventListener('DOMContentLoaded',loadData);
