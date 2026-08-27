@@ -255,24 +255,19 @@ nav a{font-size:12px;}
 </div>
 </div>
 
-<!-- Stats Section -->
+<!-- Stats Section (Modified) -->
 <div class="stats-section">
-<div class="stats-grid">
-<div class="stat-card">
-<h4>지식 레코드 (누적)</h4>
-<div class="value"><span id="stat-records">–</span></div>
-<div class="stat-detail" id="stat-records-detail"></div>
+<!-- 기존 지식 레코드 자리에 배치된 Shopify 수요 매칭 -->
+<div class="dashboard-card sd-card" style="height:100%;">
+<div class="sd-header">
+<div class="sd-title"><span class="icon">🎯</span>Shopify 수요 매칭</div>
 </div>
-<div class="stat-card">
-<h4>그래프 노트 · 링크 (누적)</h4>
-<div class="value"><span id="stat-graph">–</span></div>
-<div class="stat-detail" id="stat-graph-detail"></div>
+<div class="sd-summary" id="sd-summary">불러오는 중…</div>
+<ul class="sd-list" id="sd-list">
+<li style="color:#666;font-size:13px;">데이터 로딩 중…</li>
+</ul>
 </div>
-<div class="stat-card">
-<h4>MoE 학습 정확도</h4>
-<div class="value"><span id="stat-accuracy">–</span></div>
-</div>
-</div>
+
 <div class="dashboard-card" id="daiso">
 <h4><span class="dashboard-card-icon">🛒</span>Shopify + 다이소 Dropshipping</h4>
 <div id="daiso-panel">불러오는 중…</div>
@@ -321,17 +316,6 @@ Product Discovery
 </ul>
 </div>
 
-<!-- Shopify 수요 매칭 -->
-<div class="dashboard-card sd-card">
-<div class="sd-header">
-<div class="sd-title"><span class="icon">🎯</span>Shopify 수요 매칭</div>
-</div>
-<div class="sd-summary" id="sd-summary">불러오는 중…</div>
-<ul class="sd-list" id="sd-list">
-<li style="color:#666;font-size:13px;">데이터 로딩 중…</li>
-</ul>
-</div>
-
 <div class="dashboard-card">
 <h4><span class="dashboard-card-icon">📋</span>Live Briefing</h4>
 <ul class="log-list" id="log-list">
@@ -353,8 +337,9 @@ Product Discovery
 <h4><span class="dashboard-card-icon">🚀</span>MoE 학습 상태</h4>
 <div id="training-panel" style="margin-top:15px;color:#999;font-size:13px;">불러오는 중…</div>
 </div>
+</div>
 
-<div class="side-stats dash-side">
+<div class="side-stats dash-side" style="margin-bottom: 40px;">
 <div class="side-stat">
 <div class="side-stat-label">
 <div class="side-stat-icon">🧠</div>
@@ -391,6 +376,23 @@ Product Discovery
 </div>
 </div>
 </div>
+</div>
+
+<!-- 최하단으로 이동된 3개 박스 -->
+<div class="dashboard-grid">
+<div class="stat-card">
+<h4>지식 레코드 (누적)</h4>
+<div class="value"><span id="stat-records">–</span></div>
+<div class="stat-detail" id="stat-records-detail"></div>
+</div>
+<div class="stat-card">
+<h4>그래프 노트 · 링크 (누적)</h4>
+<div class="value"><span id="stat-graph">–</span></div>
+<div class="stat-detail" id="stat-graph-detail"></div>
+</div>
+<div class="stat-card">
+<h4>MoE 학습 정확도</h4>
+<div class="value"><span id="stat-accuracy">–</span></div>
 </div>
 </div>
 </div>
