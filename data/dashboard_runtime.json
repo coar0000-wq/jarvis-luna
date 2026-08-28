@@ -1,183 +1,92 @@
 {
-    "schema_version": 1,
-    "generated_at": "2026-08-28T19:28:04.714740+09:00",
-    "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
-    "pipeline": [
-        {
-            "id": "collect",
-            "title": "실제 데이터 수집",
-            "status": "completed",
-            "detail": "399개 코퍼스 레코드"
-        },
-        {
-            "id": "graph",
-            "title": "Obsidian 그래프 반영·검증",
-            "status": "completed",
-            "detail": "418개 노트 · 3453개 링크 · 끊어진 링크 0개"
-        },
-        {
-            "id": "dashboard",
-            "title": "GitHub Pages 대시보드 데이터",
-            "status": "generated",
-            "detail": "dashboard_runtime.json 생성 완료"
-        },
-        {
-            "id": "train",
-            "title": "실제 데이터 MoE 학습",
-            "status": "completed",
-            "detail": "399건 · 3 experts · 정확도 78.70%"
-        },
-        {
-            "id": "publish",
-            "title": "저장소·Pages 반영",
-            "status": "ready_for_pages",
-            "detail": "GitHub Actions Pages 배포 워크플로에서 반영"
-        }
-    ],
-    "sources": {
-        "status": "completed",
-        "record_count": 399,
-        "source_counts": {},
-        "updated_at": "2026-08-28T19:25:47.013520+09:00"
+  "schema_version": 1,
+  "generated_at": "2026-08-28T20:27:08.060351+09:00",
+  "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
+  "pipeline": [
+    {
+      "id": "collect",
+      "title": "실제 데이터 수집",
+      "status": "completed",
+      "detail": "403개 코퍼스 레코드"
     },
-    "graph": {
-        "notes": 418,
-        "links": 3453,
-        "dangling_links": 0,
-        "records": 399,
-        "sources": 4,
-        "topics": 6,
-        "audit": "passed",
-        "last_generated": "2026-08-28T19:25:52.040907+09:00"
+    {
+      "id": "graph",
+      "title": "Obsidian 그래프 반영·검증",
+      "status": "completed",
+      "detail": "422개 노트 · 3488개 링크 · 끊어진 링크 0개"
     },
-    "training": {
-        "status": "completed",
-        "training_performed": true,
-        "weights_updated": true,
-        "records": 399,
-        "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
-        "experts": 3,
-        "accuracy": 0.7869674185463659,
-        "validation_accuracy": 0.8208955223880597,
-        "final_loss": 0.45334503782241875,
-        "gate_load_std": 0.45411253532725043,
-        "tuning_promoted": true,
-        "tuning_steps": 500,
-        "updated_at": "2026-08-28T10:28:04.632401+00:00"
+    {
+      "id": "dashboard",
+      "title": "GitHub Pages 대시보드 데이터",
+      "status": "generated",
+      "detail": "dashboard_runtime.json 생성 완료"
     },
-    "cumulative": {
-        "totals": {
-            "records": 399,
-            "notes": 418,
-            "links": 3453
-        },
-        "prior_totals": {
-            "records": 399,
-            "notes": 418,
-            "links": 3453
-        },
-        "added_this_run": {
-            "records": 0,
-            "notes": 0,
-            "links": 0
-        },
-        "current_snapshot": {
-            "records": 399,
-            "notes": 418,
-            "links": 3453
-        },
-        "since": "2026-08-23T05:21:53.378147+00:00",
-        "runs_recorded": 90
+    {
+      "id": "train",
+      "title": "실제 데이터 MoE 학습",
+      "status": "completed",
+      "detail": "403건 · 3 experts · 정확도 78.41%"
     },
-    "global_channels": {
-        "amazon_best_sellers": [
-            {
-                "rank": 1,
-                "product": "COSRX Snail Mucin 96% Power Repairing Essence",
-                "trend": "상승"
-            },
-            {
-                "rank": 2,
-                "product": "Mighty Patch Original from Hero Cosmetics",
-                "trend": "유지"
-            }
-        ],
-        "tiktok_shop_us": [
-            {
-                "hashtag": "#BeautyTok",
-                "product": "TIRTIR Mask Fit Red Cushion",
-                "views": "2.4M"
-            },
-            {
-                "hashtag": "#SkincareRoutine",
-                "product": "Glow Recipe Watermelon Glow",
-                "views": "1.1M"
-            }
-        ],
-        "walmart_beauty": [
-            {
-                "category": "Moisturizers",
-                "product": "CeraVe Daily Moisturizing Lotion",
-                "status": "Best Seller"
-            },
-            {
-                "category": "Cleansers",
-                "product": "PanOxyl Acne Foaming Wash",
-                "status": "Trending"
-            }
-        ],
-        "google_trends_us": [
-            {
-                "keyword": "Korean Skincare",
-                "growth": "+45%",
-                "momentum": "High"
-            },
-            {
-                "keyword": "Ceramide Serum",
-                "growth": "+22%",
-                "momentum": "Steady"
-            }
-        ],
-        "ulta_beauty": [
-            {
-                "brand": "e.l.f. Cosmetics",
-                "product": "Power Grip Primer",
-                "rating": 4.7
-            },
-            {
-                "brand": "The Ordinary",
-                "product": "Glycolic Acid 7% Toning Solution",
-                "rating": 4.6
-            }
-        ],
-        "sephora": [
-            {
-                "category": "Hot on Social",
-                "product": "Rare Beauty Soft Pinch Liquid Blush",
-                "loves": "1.2M"
-            },
-            {
-                "category": "Just Dropped",
-                "product": "Laneige Lip Sleeping Mask",
-                "loves": "980K"
-            }
-        ],
-        "shopify_recommended": [
-            {
-                "niche": "Dropshipping",
-                "product": "LED Therapy Face Mask",
-                "margin_est": "65%"
-            },
-            {
-                "niche": "Private Label",
-                "product": "Vegan Vitamin C Serum",
-                "margin_est": "72%"
-            }
-        ]
+    {
+      "id": "publish",
+      "title": "저장소·Pages 반영",
+      "status": "ready_for_pages",
+      "detail": "GitHub Actions Pages 배포 워크플로에서 반영"
+    }
+  ],
+  "sources": {
+    "status": "completed",
+    "record_count": 403,
+    "source_counts": {},
+    "updated_at": "2026-08-28T20:25:08.995868+09:00"
+  },
+  "graph": {
+    "notes": 422,
+    "links": 3488,
+    "dangling_links": 0,
+    "records": 403,
+    "sources": 4,
+    "topics": 6,
+    "audit": "passed",
+    "last_generated": "2026-08-28T20:25:09.407186+09:00"
+  },
+  "training": {
+    "status": "completed",
+    "training_performed": true,
+    "weights_updated": true,
+    "records": 403,
+    "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
+    "experts": 3,
+    "accuracy": 0.7841191066997518,
+    "validation_accuracy": 0.8235294117647058,
+    "final_loss": 0.45230117177078827,
+    "gate_load_std": 0.4538867168564136,
+    "tuning_promoted": true,
+    "tuning_steps": 500,
+    "updated_at": "2026-08-28T11:27:07.974549+00:00"
+  },
+  "cumulative": {
+    "totals": {
+      "records": 403,
+      "notes": 422,
+      "links": 3488
     },
-    "exchange_rate": {
-        "rate": 1380.5,
-        "updated_at": "2026-08-28"
+    "prior_totals": {
+      "records": 399,
+      "notes": 418,
+      "links": 3453
     },
-    "last_synced": "08. 28. 오전 10:28 KST"
+    "added_this_run": {
+      "records": 4,
+      "notes": 4,
+      "links": 35
+    },
+    "current_snapshot": {
+      "records": 403,
+      "notes": 422,
+      "links": 3488
+    },
+    "since": "2026-08-23T05:21:53.378147+00:00",
+    "runs_recorded": 90
+  }
 }

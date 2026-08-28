@@ -2,7 +2,7 @@
 title: "Record 003 · Eyemaxxing-is-the-latest-beauty-trend-doing-the-rounds-So-is-it-legit-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T10:25:51.954199+00:00
+updated_at: 2026-08-28T11:25:09.331496+00:00
 tags: [{', '.join(tags)}]
 ---
 
