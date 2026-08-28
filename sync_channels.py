@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import re
+import urllib.request
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -315,6 +316,44 @@ def build_global_channels():
         "sephora": pick(sephora_fmt, "sephora"),
         "shopify_recommended": pick(shopify, "shopify_recommended"),
     }
+
+
+def fetch_and_update_fx_status() -> dict:
+    """collection_status.json 의 fx 를 실시간 환율로 갱신 (대시보드 환율 카드용)"""
+    status_path = DATA / "daiso_real" / "collection_status.json"
+    endpoints = [
+        "https://api.frankfurter.app/latest?from=USD&to=KRW",
+        "https://open.er-api.com/v6/latest/USD",
+        "https://api.exchangerate-api.com/v4/latest/USD",
+    ]
+    fx = None
+    for url in endpoints:
+        try:
+            with urllib.request.urlopen(url, timeout=15) as resp:
+                data = json.loads(resp.read().decode())
+            krw = round(float(data["rates"]["KRW"]), 2)
+            as_of = data.get("date") or (data.get("time_last_update_utc") or "")[:10]
+            if not as_of:
+                as_of = datetime.now(KST).strftime("%Y-%m-%d")
+            fx = {
+                "usd_to_krw": krw,
+                "krw_to_usd": round(1 / krw, 8),
+                "as_of": as_of,
+                "source": url,
+                "fetched_at": datetime.now(timezone.utc).isoformat(),
+                "ok": True,
+            }
+            print(f"✅ collection_status fx: {krw} KRW ({as_of})")
+            break
+        except Exception as e:
+            print(f"⚠️ fx fetch fail {url}: {e}")
+    if fx is None:
+        return {}
+    status = load_json(status_path, {}) or {}
+    status["fx"] = fx
+    status_path.parent.mkdir(parents=True, exist_ok=True)
+    status_path.write_text(json.dumps(status, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return fx
 
 
 def sync_global_channels():
