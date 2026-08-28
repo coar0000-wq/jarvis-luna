@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "country": "US",
+  "category": "C245_BEAUTY",
+  "sources": [
+    {
+      "name": "Amazon Beauty",
+      "url": "https://www.amazon.com/Best-Sellers-Beauty/zgbs/beauty",
+      "type": "bestseller",
+      "enabled": true
+    },
+    {
+      "name": "Amazon Skincare",
+      "url": "https://www.amazon.com/Best-Sellers-Beauty-Skin-Care-Products/zgbs/beauty/11060451",
+      "type": "skincare",
+      "enabled": true
+    },
+    {
+      "name": "TikTok Creative Center",
+      "url": "https://ads.tiktok.com/business/creativecenter/inspiration/popular/products/pc/en",
+      "type": "viral",
+      "enabled": true
+    },
+    {
+      "name": "Google Trends US",
+      "url": "https://trends.google.com/trends/explore?geo=US",
+      "type": "trends",
+      "enabled": true
+    },
+    {
+      "name": "Ulta Beauty",
+      "url": "https://www.ulta.com/shop/skin-care",
+      "type": "beauty",
+      "enabled": true
+    },
+    {
+      "name": "Sephora",
+      "url": "https://www.sephora.com/shop/skincare",
+      "type": "beauty",
+      "enabled": true
+    },
+    {
+      "name": "Target Beauty",
+      "url": "https://www.target.com/c/beauty/-/N-5xu0o",
+      "type": "price",
+      "enabled": true
+    },
+    {
+      "name": "Walmart Beauty",
+      "url": "https://www.walmart.com/browse/beauty/1085666",
+      "type": "price",
+      "enabled": true
+    }
+  ]
+}
