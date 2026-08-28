@@ -88,5 +88,96 @@
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
-  }
+  },
+  "global_channels": {
+    "amazon_best_sellers": [
+      {
+        "rank": 1,
+        "product": "COSRX Snail Mucin 96% Power Repairing Essence",
+        "trend": "상승"
+      },
+      {
+        "rank": 2,
+        "product": "Mighty Patch Original from Hero Cosmetics",
+        "trend": "유지"
+      }
+    ],
+    "tiktok_shop_us": [
+      {
+        "hashtag": "#BeautyTok",
+        "product": "TIRTIR Mask Fit Red Cushion",
+        "views": "2.4M"
+      },
+      {
+        "hashtag": "#SkincareRoutine",
+        "product": "Glow Recipe Watermelon Glow",
+        "views": "1.1M"
+      }
+    ],
+    "walmart_beauty": [
+      {
+        "category": "Moisturizers",
+        "product": "CeraVe Daily Moisturizing Lotion",
+        "status": "Best Seller"
+      },
+      {
+        "category": "Cleansers",
+        "product": "PanOxyl Acne Foaming Wash",
+        "status": "Trending"
+      }
+    ],
+    "google_trends_us": [
+      {
+        "keyword": "Korean Skincare",
+        "growth": "+45%",
+        "momentum": "High"
+      },
+      {
+        "keyword": "Ceramide Serum",
+        "growth": "+22%",
+        "momentum": "Steady"
+      }
+    ],
+    "ulta_beauty": [
+      {
+        "brand": "e.l.f. Cosmetics",
+        "product": "Power Grip Primer",
+        "rating": 4.7
+      },
+      {
+        "brand": "The Ordinary",
+        "product": "Glycolic Acid 7% Toning Solution",
+        "rating": 4.6
+      }
+    ],
+    "sephora": [
+      {
+        "category": "Hot on Social",
+        "product": "Rare Beauty Soft Pinch Liquid Blush",
+        "loves": "1.2M"
+      },
+      {
+        "category": "Just Dropped",
+        "product": "Laneige Lip Sleeping Mask",
+        "loves": "980K"
+      }
+    ],
+    "shopify_recommended": [
+      {
+        "niche": "Dropshipping",
+        "product": "LED Therapy Face Mask",
+        "margin_est": "65%"
+      },
+      {
+        "niche": "Private Label",
+        "product": "Vegan Vitamin C Serum",
+        "margin_est": "72%"
+      }
+    ]
+  },
+  "exchange_rate": {
+    "rate": 1383.49,
+    "updated_at": "2026-08-28"
+  },
+  "last_synced": "08. 28. 오후 08:33 KST"
 }
