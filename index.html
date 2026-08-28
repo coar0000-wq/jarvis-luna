@@ -291,48 +291,67 @@ nav a{font-size:12px;}
 </div>
 </div>
 
-<!-- 신규 5대 수집 채널 Section -->
-<div class="section-header">🌐 마케팅 & 글로벌 판매 전략 수집 채널 (5대 데이터)</div>
+<!-- 글로벌 판매 전략 수집 채널 (7대 데이터) -->
+<div class="section-header">🌐 글로벌 판매 전략 수집 채널 (7대 데이터)</div>
+
 <div class="dashboard-grid">
-  <!-- 1. Amazon Movers & Shakers -->
+
+  <!-- Amazon -->
   <div class="dashboard-card">
-    <h4><span class="dashboard-card-icon">📦</span>Amazon Best Sellers / Movers</h4>
+    <h4><span class="dashboard-card-icon">📦</span>Amazon Best Sellers</h4>
     <ul class="mkt-list" id="amazon-list">
-      <li style="color:#666;font-size:13px;padding:10px 0;">데이터 연동 준비 중…</li>
+      <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
     </ul>
   </div>
 
-  <!-- 2. Meta Ad Library -->
+  <!-- TikTok -->
   <div class="dashboard-card">
-    <h4><span class="dashboard-card-icon">📢</span>Meta Ad Library (히트 소재)</h4>
-    <ul class="mkt-list" id="meta-list">
-      <li style="color:#666;font-size:13px;padding:10px 0;">데이터 연동 준비 중…</li>
+    <h4><span class="dashboard-card-icon">🎵</span>TikTok Shop US</h4>
+    <ul class="mkt-list" id="tiktok-list">
+      <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
     </ul>
   </div>
 
-  <!-- 3. Google & Pinterest Trends -->
+  <!-- Walmart -->
   <div class="dashboard-card">
-    <h4><span class="dashboard-card-icon">📈</span>Google & Pinterest Trends</h4>
+    <h4><span class="dashboard-card-icon">🛒</span>Walmart Beauty</h4>
+    <ul class="mkt-list" id="walmart-list">
+      <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
+    </ul>
+  </div>
+
+  <!-- Google Trends -->
+  <div class="dashboard-card">
+    <h4><span class="dashboard-card-icon">📈</span>Google Trends US</h4>
     <ul class="mkt-list" id="trends-list">
-      <li style="color:#666;font-size:13px;padding:10px 0;">데이터 연동 준비 중…</li>
+      <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
     </ul>
   </div>
 
-  <!-- 4. 올리브영 베스트 랭킹 -->
+  <!-- Ulta -->
   <div class="dashboard-card">
-    <h4><span class="dashboard-card-icon">💄</span>올리브영 베스트 (K-Beauty)</h4>
-    <ul class="mkt-list" id="oliveyoung-list">
-      <li style="color:#666;font-size:13px;padding:10px 0;">데이터 연동 준비 중…</li>
+    <h4><span class="dashboard-card-icon">💄</span>Ulta Beauty</h4>
+    <ul class="mkt-list" id="ulta-list">
+      <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
     </ul>
   </div>
 
-  <!-- 5. 네이버 데이터랩 -->
+  <!-- Sephora -->
   <div class="dashboard-card">
-    <h4><span class="dashboard-card-icon">🔍</span>네이버 쇼핑인사이트 (Intent)</h4>
-    <ul class="mkt-list" id="datalab-list">
-      <li style="color:#666;font-size:13px;padding:10px 0;">데이터 연동 준비 중…</li>
+    <h4><span class="dashboard-card-icon">✨</span>Sephora</h4>
+    <ul class="mkt-list" id="sephora-list">
+      <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
     </ul>
   </div>
+
+  <!-- Shopify -->
+  <div class="dashboard-card">
+    <h4><span class="dashboard-card-icon">🎯</span>Shopify 추천 상품</h4>
+    <ul class="mkt-list" id="shopify-list">
+      <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
+    </ul>
+  </div>
+
 </div>
 
 <!-- Core Dashboard Grid -->
@@ -624,59 +643,64 @@ list.innerHTML=(sd.top_recommendations||[]).slice(0,8).map((p,i)=>
 ).join('');
 }
 
-/* 5대 신규 채널 렌더링 함수 */
-function renderMarketingChannels(d) {
-  const m = d.marketing_intelligence || {};
+function renderMarketingChannels(d){
+  const us = d.us_beauty_products || [];
+  const shop = d.shopify_recommend || [];
 
-  // 1. Amazon Movers
-  const amz = m.amazon || [
-    { title: "Pimple Patch 36ct", cat: "Beauty", rise: "+180% 🚀" },
-    { title: "Ice Roller for Face", cat: "Beauty", rise: "+125% 🔥" },
-    { title: "Snail Mucin Gel", cat: "Beauty", rise: "+95% 📈" }
-  ];
-  $('amazon-list').innerHTML = amz.map(i => 
-    `<li class="mkt-item"><div class="mkt-main"><div class="mkt-title">${esc(i.title)}</div><div class="mkt-sub">${esc(i.cat)}</div></div><span class="mkt-badge green">${esc(i.rise)}</span></li>`
-  ).join('');
+  const render = (id, items, badgeColor="green")=>{
+    const el=document.getElementById(id);
+    if(!el) return;
 
-  // 2. Meta Ads
-  const meta = m.meta || [
-    { brand: "Glow Recipe", hook: "Drench skin in hyaluronic acid", days: "7일 연속 집계" },
-    { brand: "Anua Skincare", hook: "Heartleaf 77% Soothing Toner", days: "14일 연속 집계" },
-    { brand: "COSRX", hook: "Glass Skin Hydration Secret", days: "21일 연속 집계" }
-  ];
-  $('meta-list').innerHTML = meta.map(i => 
-    `<li class="mkt-item"><div class="mkt-main"><div class="mkt-title">${esc(i.brand)}</div><div class="mkt-sub">"${esc(i.hook)}"</div></div><span class="mkt-badge blue">${esc(i.days)}</span></li>`
-  ).join('');
+    if(!items.length){
+      el.innerHTML='<li style="color:#666;font-size:13px;padding:10px 0;">데이터 없음</li>';
+      return;
+    }
 
-  // 3. Trends
-  const tr = m.trends || [
-    { query: "Glass Skin Routine", source: "Pinterest", status: "Breakout ⚡" },
-    { query: "Korean Sunscreen", source: "Google", status: "+140% 검색 증가" },
-    { query: "Barrier Cream", source: "Pinterest", status: "+85% PIN 저장" }
-  ];
-  $('trends-list').innerHTML = tr.map(i => 
-    `<li class="mkt-item"><div class="mkt-main"><div class="mkt-title">${esc(i.query)}</div><div class="mkt-sub">${esc(i.source)}</div></div><span class="mkt-badge purple">${esc(i.status)}</span></li>`
-  ).join('');
+    el.innerHTML=items.slice(0,5).map(i=>`
+      <li class="mkt-item">
+        <div class="mkt-main">
+          <div class="mkt-title">${i.title}</div>
+          <div class="mkt-sub">${i.category || i.source}</div>
+        </div>
+        <span class="mkt-badge ${badgeColor}">${i.price || ""}</span>
+      </li>
+    `).join('');
+  };
 
-  // 4. Olive Young
-  const oy = m.oliveyoung || [
-    { rank: "1위", title: "토리든 다이브인 세럼", tag: "수분/저분자" },
-    { rank: "2위", title: "라운드랩 자작나무 수분선크림", tag: "선케어" },
-    { rank: "3위", title: "성수에이징 PDRN 에센스", tag: "탄력/리프팅" }
-  ];
-  $('oliveyoung-list').innerHTML = oy.map(i => 
-    `<li class="mkt-item"><div class="mkt-main"><div class="mkt-title"><b style="color:#58a6ff;margin-right:4px;">${esc(i.rank)}</b>${esc(i.title)}</div><div class="mkt-sub">${esc(i.tag)}</div></div><span class="mkt-badge amber">베스트셀러</span></li>`
-  ).join('');
+  render("amazon-list",
+    us.filter(x=>x.source==="Amazon US"),
+    "green"
+  );
 
-  // 5. Naver DataLab
-  const dl = m.datalab || [
-    { target: "2030 여성", keyword: "리들샷/PDRN", intent: "클릭비중 42%" },
-    { target: "3040 여성", keyword: "저자극 선크림", intent: "클릭비중 31%" },
-    { target: "1020 전연령", keyword: "다이소 수분크림", intent: "클릭비중 27%" }
-  ];
-  $('datalab-list').innerHTML = dl.map(i => 
-    `<li class="mkt-item"><div class="mkt-main"><div class="mkt-title">${esc(i.keyword)}</div><div class="mkt-sub">${esc(i.target)}</div></div><span class="mkt-badge green">${esc(i.intent)}</span></li>`
-  ).join('');
+  render("tiktok-list",
+    us.filter(x=>x.source==="TikTok Shop US"),
+    "purple"
+  );
+
+  render("walmart-list",
+    us.filter(x=>x.source==="Walmart"),
+    "blue"
+  );
+
+  render("trends-list",
+    us.filter(x=>x.source==="Google Trends"),
+    "amber"
+  );
+
+  render("ulta-list",
+    us.filter(x=>x.source==="Ulta Beauty"),
+    "green"
+  );
+
+  render("sephora-list",
+    us.filter(x=>x.source==="Sephora"),
+    "purple"
+  );
+
+  render("shopify-list",
+    shop.filter(x=>x.recommended===true),
+    "blue"
+  );
 }
 
 function markOffline(msg){
