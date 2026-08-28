@@ -47,6 +47,7 @@ jobs:
       # =========================
 
       - name: Collect real public sources
+        continue-on-error: true
         run: python real_knowledge_sync.py
         env:
           YOUTUBE_CHANNEL_IDS: ${{ secrets.YOUTUBE_CHANNEL_IDS }}
