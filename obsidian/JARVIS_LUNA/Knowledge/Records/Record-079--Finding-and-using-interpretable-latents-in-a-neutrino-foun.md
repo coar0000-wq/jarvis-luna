@@ -2,7 +2,7 @@
 title: "Record 079 · Finding-and-using-interpretable-latents-in-a-neutrino-foundation-model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-27T22:17:12.906465+00:00
+updated_at: 2026-08-28T02:15:47.955125+00:00
 tags: [{', '.join(tags)}]
 ---
 

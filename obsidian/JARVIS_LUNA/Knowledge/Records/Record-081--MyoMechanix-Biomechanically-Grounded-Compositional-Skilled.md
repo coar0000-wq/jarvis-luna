@@ -2,7 +2,7 @@
 title: "Record 081 · MyoMechanix-Biomechanically-Grounded-Compositional-Skilled-Activity-Un"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-27T22:17:12.906664+00:00
+updated_at: 2026-08-28T02:15:47.955547+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 021 · No-Photoshop-Try-this-tool-instead"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-27T22:17:12.900447+00:00
+updated_at: 2026-08-28T02:15:47.943610+00:00
 tags: [{', '.join(tags)}]
 ---
 
