@@ -55,14 +55,21 @@ jobs:
           KNOWLEDGE_QUERIES: ${{ vars.KNOWLEDGE_QUERIES }}
 
       # =========================
-      # US BEAUTY MARKET
+      # DAISO + US BEAUTY PIPELINE
       # =========================
+
+      - name: Collect Daiso Products
+        run: python scripts/collect_daiso_products.py
 
       - name: Collect US Beauty Market
         run: python scripts/collect_us_beauty_data.py
 
       - name: Generate Shopify Recommendations
         run: python scripts/shopify_matcher.py
+
+      # =========================
+      # TRAINING
+      # =========================
 
       - name: Prepare transparent real-data corpus
         run: python prepare_real_training_corpus.py
@@ -97,6 +104,10 @@ jobs:
 
       - name: Generate final dashboard snapshot
         run: python scripts/generate_dashboard_runtime.py
+
+      # =========================
+      # VALIDATION
+      # =========================
 
       - name: Validate real-data artifacts
         run: |
@@ -137,6 +148,10 @@ jobs:
           print("Validation OK")
           PY
 
+      # =========================
+      # COMMIT & PUSH
+      # =========================
+
       - name: Commit generated knowledge and dashboard state
         run: |
           git config user.name "github-actions[bot]"
@@ -149,7 +164,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Run real knowledge pipeline with US Beauty Market"
+          git commit -m "Run JARVIS Daiso + US Beauty Shopify Pipeline"
 
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then
