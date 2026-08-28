@@ -39,8 +39,12 @@ jobs:
           if [ -f requirements-moe.txt ]; then
             python -m pip install -r requirements-moe.txt
           else
-            python -m pip install numpy
+            python -m pip install numpy requests beautifulsoup4 lxml
           fi
+
+      # =========================
+      # REAL KNOWLEDGE
+      # =========================
 
       - name: Collect real public sources
         run: python real_knowledge_sync.py
@@ -49,6 +53,13 @@ jobs:
           GOOGLE_CSE_API_KEY: ${{ secrets.GOOGLE_CSE_API_KEY }}
           GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
           KNOWLEDGE_QUERIES: ${{ vars.KNOWLEDGE_QUERIES }}
+
+      # =========================
+      # NEW : US BEAUTY MARKET
+      # =========================
+
+      - name: Collect US Beauty Market
+        run: python scripts/collect_us_beauty_data.py
 
       - name: Prepare transparent real-data corpus
         run: python prepare_real_training_corpus.py
@@ -92,78 +103,70 @@ jobs:
 
           test -s data/knowledge/training_corpus.jsonl
           test -f data/knowledge/real_knowledge_moe.npz
-          test -f 'obsidian/JARVIS_LUNA/JARVIS Graph Hub.md'
-          test -d 'obsidian/JARVIS_LUNA/Knowledge/Records'
-          test -d 'obsidian/JARVIS_LUNA/Knowledge/Sources'
-          test -d 'obsidian/JARVIS_LUNA/Knowledge/Topics'
+          test -f "obsidian/JARVIS_LUNA/JARVIS Graph Hub.md"
+          test -d "obsidian/JARVIS_LUNA/Knowledge/Records"
+          test -d "obsidian/JARVIS_LUNA/Knowledge/Sources"
+          test -d "obsidian/JARVIS_LUNA/Knowledge/Topics"
 
           python - <<'PY'
           import json
           from pathlib import Path
 
           training = json.loads(
-              Path('data/knowledge/training_status.json').read_text(encoding='utf-8')
+              Path("data/knowledge/training_status.json").read_text(encoding="utf-8")
           )
+
           runtime = json.loads(
-              Path('data/dashboard_runtime.json').read_text(encoding='utf-8')
+              Path("data/dashboard_runtime.json").read_text(encoding="utf-8")
           )
 
-          assert training.get('training_performed') is True, (
-              'training_performed must be true'
-          )
-          assert training.get('weights_updated') is True, (
-              'weights_updated must be true'
-          )
+          assert training["training_performed"] is True
+          assert training["weights_updated"] is True
 
-          graph = runtime.get('graph', {})
-          sources = runtime.get('sources', {})
-          dashboard_training = runtime.get('training', {})
+          graph = runtime["graph"]
+          sources = runtime["sources"]
+          dashboard_training = runtime["training"]
 
-          dangling = graph.get('dangling_links', 1)
-          record_count = sources.get('record_count', 0)
+          assert graph["dangling_links"] == 0
+          assert sources["record_count"] > 0
+          assert dashboard_training["training_performed"] is True
 
-          print(f'graph notes={graph.get("notes", 0)}')
-          print(f'graph links={graph.get("links", 0)}')
-          print(f'dangling_links={dangling}')
-          print(f'record_count={record_count}')
-          print(f'experts={dashboard_training.get("experts", 0)}')
-
-          assert dangling == 0, f'dangling_links must be 0, got {dangling}'
-          assert record_count > 0, 'record_count must be greater than 0'
-          assert dashboard_training.get('training_performed') is True, (
-              'runtime training_performed must be true'
-          )
+          print("Validation OK")
           PY
 
       - name: Commit generated knowledge and dashboard state
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add index.html data/knowledge data/dashboard_runtime.json obsidian/JARVIS_LUNA
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .
 
           if git diff --cached --quiet; then
-            echo 'No generated changes to commit'
+            echo "No generated changes"
             exit 0
           fi
 
-          git commit -m 'Run real knowledge pipeline and publish MoE graph state'
+          git commit -m "Run real knowledge pipeline with US Beauty Market"
 
-          # 다른 푸시와 겹치면 non-fast-forward로 거부된다. 리베이스 후 재시도한다.
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then
-              echo "pushed on attempt ${attempt}"
+              echo "Push success"
               exit 0
             fi
-            echo "push rejected, rebasing (attempt ${attempt})"
+
             git fetch origin main
-            git rebase --autostash origin/main || { git rebase --abort || true; exit 1; }
-            sleep $(( attempt * 5 ))
+            git rebase --autostash origin/main || {
+              git rebase --abort || true
+              exit 1
+            }
+
+            sleep $((attempt*5))
           done
-          echo 'push failed after 5 attempts'
+
           exit 1
 
       - name: Complete summary
         if: always()
         run: |
-          echo 'JARVIS Deep Analysis finished.'
-          echo "Workflow conclusion: ${{ job.status }}"
+          echo "JARVIS Deep Analysis finished."
+          echo "Workflow: ${{ job.status }}"
