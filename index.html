@@ -644,63 +644,78 @@ list.innerHTML=(sd.top_recommendations||[]).slice(0,8).map((p,i)=>
 }
 
 function renderMarketingChannels(d){
-  const us = d.us_beauty_products || [];
-  const shop = d.shopify_recommend || [];
+  const gc = d.global_channels || {};
 
-  const render = (id, items, badgeColor="green")=>{
-    const el=document.getElementById(id);
+  // 채널별 렌더 헬퍼: title / sub / badge 를 유연하게 매핑
+  const render = (id, items, mapFn, badgeColor="green")=>{
+    const el = document.getElementById(id);
     if(!el) return;
 
-    if(!items.length){
-      el.innerHTML='<li style="color:#666;font-size:13px;padding:10px 0;">데이터 없음</li>';
+    if(!items || !items.length){
+      el.innerHTML = '<li style="color:#666;font-size:13px;padding:10px 0;">데이터 없음</li>';
       return;
     }
 
-    el.innerHTML=items.slice(0,5).map(i=>`
-      <li class="mkt-item">
+    el.innerHTML = items.slice(0,5).map(i=>{
+      const m = mapFn(i);
+      return `<li class="mkt-item">
         <div class="mkt-main">
-          <div class="mkt-title">${i.title}</div>
-          <div class="mkt-sub">${i.category || i.source}</div>
+          <div class="mkt-title">${esc(m.title||'')}</div>
+          <div class="mkt-sub">${esc(m.sub||'')}</div>
         </div>
-        <span class="mkt-badge ${badgeColor}">${i.price || ""}</span>
-      </li>
-    `).join('');
+        <span class="mkt-badge ${badgeColor}">${esc(m.badge||'')}</span>
+      </li>`;
+    }).join('');
   };
 
-  render("amazon-list",
-    us.filter(x=>x.source==="Amazon US"),
-    "green"
-  );
+  // Amazon Best Sellers
+  render("amazon-list", gc.amazon_best_sellers || [], i => ({
+    title: i.product || i.title || '',
+    sub: i.rank ? `#${i.rank}` : (i.category || ''),
+    badge: i.trend || i.status || ''
+  }), "green");
 
-  render("tiktok-list",
-    us.filter(x=>x.source==="TikTok Shop US"),
-    "purple"
-  );
+  // TikTok Shop US
+  render("tiktok-list", gc.tiktok_shop_us || [], i => ({
+    title: i.product || i.title || '',
+    sub: i.hashtag || i.category || '',
+    badge: i.views || i.status || ''
+  }), "purple");
 
-  render("walmart-list",
-    us.filter(x=>x.source==="Walmart"),
-    "blue"
-  );
+  // Walmart Beauty
+  render("walmart-list", gc.walmart_beauty || [], i => ({
+    title: i.product || i.title || '',
+    sub: i.category || '',
+    badge: i.status || ''
+  }), "blue");
 
-  render("trends-list",
-    us.filter(x=>x.source==="Google Trends"),
-    "amber"
-  );
+  // Google Trends US
+  render("trends-list", gc.google_trends_us || [], i => ({
+    title: i.keyword || i.product || i.title || '',
+    sub: i.momentum || i.category || '',
+    badge: i.growth || ''
+  }), "amber");
 
-  render("ulta-list",
-    us.filter(x=>x.source==="Ulta Beauty"),
-    "green"
-  );
+  // Ulta Beauty
+  render("ulta-list", gc.ulta_beauty || [], i => ({
+    title: i.product || i.title || '',
+    sub: i.brand || i.category || '',
+    badge: i.rating != null ? String(i.rating) : (i.status || '')
+  }), "green");
 
-  render("sephora-list",
-    us.filter(x=>x.source==="Sephora"),
-    "purple"
-  );
+  // Sephora
+  render("sephora-list", gc.sephora || [], i => ({
+    title: i.product || i.title || '',
+    sub: i.category || '',
+    badge: i.loves || i.status || ''
+  }), "purple");
 
-  render("shopify-list",
-    shop.filter(x=>x.recommended===true),
-    "blue"
-  );
+  // Shopify 추천 상품
+  render("shopify-list", gc.shopify_recommended || [], i => ({
+    title: i.product || i.title || '',
+    sub: i.niche || i.category || '',
+    badge: i.margin_est || i.status || ''
+  }), "blue");
 }
 
 function markOffline(msg){
