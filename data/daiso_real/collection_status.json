@@ -111,12 +111,12 @@
     "with_rating": 89
   },
   "fx": {
-    "usd_to_krw": 1381.57,
-    "krw_to_usd": 0.00072381,
+    "usd_to_krw": 1374.55,
+    "krw_to_usd": 0.00072751,
     "as_of": "2026-08-28",
-    "source": "https://open.er-api.com/v6/latest/USD",
-    "api_url": "https://open.er-api.com/v6/latest/USD",
-    "fetched_at": "2026-08-28T11:58:53.929560+00:00",
+    "source": "https://api.frankfurter.app/latest?from=USD&to=KRW",
+    "api_url": "https://api.frankfurter.app/latest?from=USD&to=KRW",
+    "fetched_at": "2026-08-28T14:29:21.079038+00:00",
     "ok": true
   },
   "sitemap_urls_known": 19739,

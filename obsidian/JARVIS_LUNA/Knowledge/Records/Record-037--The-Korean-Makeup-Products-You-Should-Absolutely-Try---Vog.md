@@ -2,7 +2,7 @@
 title: "Record 037 · The-Korean-Makeup-Products-You-Should-Absolutely-Try---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T11:25:09.337867+00:00
+updated_at: 2026-08-28T14:29:25.064094+00:00
 tags: [{', '.join(tags)}]
 ---
 

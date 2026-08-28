@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T10:25:48.205578+00:00",
+  "updated": "2026-08-28T14:29:21.884311+00:00",
   "products": [
     {
       "title": "매장 위치 찾기",
@@ -228,69 +228,15 @@
       "category": "Beauty",
       "price": 0,
       "source": "Daiso Mall"
-    },
-    {
-      "id": "daiso_20260828131233_0",
-      "name": "다이소 뷰티·스킨케어 후보 (117)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "다이소 뷰티",
-        "다이소 스킨케어",
-        "다이소 마스크팩"
-      ],
-      "discovered_at": "2026-08-28T13:12:33.670200Z"
-    },
-    {
-      "id": "daiso_20260828131233_1",
-      "name": "다이소 뷰티·스킨케어 후보 (933)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "다이소 뷰티",
-        "다이소 스킨케어",
-        "다이소 마스크팩"
-      ],
-      "discovered_at": "2026-08-28T13:12:33.670213Z"
-    },
-    {
-      "id": "daiso_20260828131233_2",
-      "name": "다이소 뷰티·스킨케어 후보 (583)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "다이소 뷰티",
-        "다이소 스킨케어",
-        "다이소 마스크팩"
-      ],
-      "discovered_at": "2026-08-28T13:12:33.670219Z"
-    },
-    {
-      "id": "daiso_20260828131233_3",
-      "name": "다이소 뷰티·스킨케어 후보 (498)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "다이소 뷰티",
-        "다이소 스킨케어",
-        "다이소 마스크팩"
-      ],
-      "discovered_at": "2026-08-28T13:12:33.670224Z"
-    },
-    {
-      "id": "daiso_20260828131233_4",
-      "name": "다이소 뷰티·스킨케어 후보 (128)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "다이소 뷰티",
-        "다이소 스킨케어",
-        "다이소 마스크팩"
-      ],
-      "discovered_at": "2026-08-28T13:12:33.670230Z"
     }
   ],
-  "target_category": "다이소 뷰티 & 스킨케어",
-  "focus_keywords": [
-    "다이소 뷰티",
-    "다이소 스킨케어",
-    "다이소 마스크팩"
-  ],
-  "total_count": 43,
-  "last_updated": "2026-08-28T13:12:33.670231Z"
+  "fx": {
+    "usd_to_krw": 1374.55,
+    "krw_to_usd": 0.00072751,
+    "as_of": "2026-08-28",
+    "source": "https://api.frankfurter.app/latest?from=USD&to=KRW",
+    "api_url": "https://api.frankfurter.app/latest?from=USD&to=KRW",
+    "fetched_at": "2026-08-28T14:29:21.079038+00:00",
+    "ok": true
+  }
 }

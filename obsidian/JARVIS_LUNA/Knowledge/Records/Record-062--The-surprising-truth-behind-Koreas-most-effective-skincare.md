@@ -2,7 +2,7 @@
 title: "Record 062 · The-surprising-truth-behind-Koreas-most-effective-skincare-products---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T11:25:09.341895+00:00
+updated_at: 2026-08-28T14:29:25.065944+00:00
 tags: [{', '.join(tags)}]
 ---
 
