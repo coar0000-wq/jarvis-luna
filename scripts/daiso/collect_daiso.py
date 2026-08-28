@@ -162,21 +162,37 @@ def classify(item: dict, buckets: dict) -> str | None:
 
 # ----------------------------------------------------------------- fx rate
 def fetch_fx() -> dict:
-    """실시간 KRW 환율. 실패하면 실패를 기록하고 값은 비워 둔다."""
+    """Frankfurter 실시간 USD ↔ KRW 환율"""
     url = "https://api.frankfurter.app/latest?from=USD&to=KRW"
-    status, body = fetch(url)
-    if status == 200:
-        try:
-            d = json.loads(body)
-            krw = float(d["rates"]["KRW"])
-            return {"usd_to_krw": krw, "krw_to_usd": round(1 / krw, 8),
-                    "as_of": d.get("date"), "source": url,
-                    "fetched_at": now_iso(), "ok": True}
-        except (KeyError, ValueError, json.JSONDecodeError) as e:
-            return {"ok": False, "error": "파싱 실패: %s" % e, "source": url,
-                    "fetched_at": now_iso()}
-    return {"ok": False, "error": "HTTP %s" % status, "source": url,
-            "fetched_at": now_iso()}
+    try:
+        status, body = fetch(url)
+        if status != 200:
+            raise RuntimeError(f"HTTP {status}")
+        data = json.loads(body)
+        krw = round(float(data["rates"]["KRW"]), 2)
+        result = {
+            "usd_to_krw": krw,
+            "krw_to_usd": round(1 / krw, 8),
+            "as_of": data.get("date"),
+            "source": "Frankfurter API",
+            "api_url": url,
+            "fetched_at": now_iso(),
+            "ok": True,
+        }
+        print(f"✅ 환율 갱신 완료 : 1 USD = {krw:,.2f} KRW ({result['as_of']})")
+        return result
+    except Exception as e:
+        print(f"❌ 환율 API 실패 : {e}")
+        return {
+            "usd_to_krw": None,
+            "krw_to_usd": None,
+            "as_of": None,
+            "source": "Frankfurter API",
+            "api_url": url,
+            "fetched_at": now_iso(),
+            "ok": False,
+            "error": str(e),
+        }
 
 
 # ----------------------------------------------------------------- sitemap
