@@ -209,6 +209,13 @@ def main() -> None:
         else str(training["accuracy"] or "N/A")
     )
 
+    # 기존 dashboard_runtime.json에 있던 global_channels / exchange_rate 보존
+    # (sync_channels.py가 나중에 덮어쓰지만, 중간 실패 시 데이터 소실 방지)
+    prev = load_json(OUT, {})
+    prev_global = prev.get("global_channels") if isinstance(prev, dict) else None
+    prev_fx = prev.get("exchange_rate") if isinstance(prev, dict) else None
+    prev_synced = prev.get("last_synced") if isinstance(prev, dict) else None
+
     payload = {
         "schema_version": 1,
         "generated_at": now,
@@ -265,6 +272,14 @@ def main() -> None:
         "training": training,
         "cumulative": cumulative,
     }
+
+    # 이전 global_channels / 환율 데이터가 있으면 유지
+    if isinstance(prev_global, dict) and prev_global:
+        payload["global_channels"] = prev_global
+    if isinstance(prev_fx, dict) and prev_fx:
+        payload["exchange_rate"] = prev_fx
+    if prev_synced:
+        payload["last_synced"] = prev_synced
 
     try:
         OUT.parent.mkdir(parents=True, exist_ok=True)
