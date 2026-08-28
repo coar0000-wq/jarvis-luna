@@ -2,7 +2,7 @@
 title: "Record 076 · AI-Personalization-in-Ecommerce-How-to-Use-It-to-Drive-Growth---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T22:21:34.138281+00:00
+updated_at: 2026-08-28T23:38:51.665212+00:00
 tags: [{', '.join(tags)}]
 ---
 

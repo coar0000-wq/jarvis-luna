@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T07:23:55.436839+09:00",
+  "generated_at": "2026-08-29T08:40:56.377194+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
@@ -38,7 +38,7 @@
     "status": "completed",
     "record_count": 419,
     "source_counts": {},
-    "updated_at": "2026-08-29T07:21:33.792616+09:00"
+    "updated_at": "2026-08-29T08:37:02.980577+09:00"
   },
   "graph": {
     "notes": 438,
@@ -48,7 +48,7 @@
     "sources": 4,
     "topics": 6,
     "audit": "passed",
-    "last_generated": "2026-08-29T07:21:34.214130+09:00"
+    "last_generated": "2026-08-29T08:38:51.724026+09:00"
   },
   "training": {
     "status": "completed",
@@ -63,7 +63,7 @@
     "gate_load_std": 0.45461096725871997,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-08-28T22:23:55.348544+00:00"
+    "updated_at": "2026-08-28T23:40:56.286341+00:00"
   },
   "cumulative": {
     "totals": {
@@ -72,14 +72,14 @@
       "links": 3619
     },
     "prior_totals": {
-      "records": 407,
-      "notes": 426,
-      "links": 3520
+      "records": 419,
+      "notes": 438,
+      "links": 3619
     },
     "added_this_run": {
-      "records": 12,
-      "notes": 12,
-      "links": 99
+      "records": 0,
+      "notes": 0,
+      "links": 0
     },
     "current_snapshot": {
       "records": 419,
@@ -387,7 +387,7 @@
   },
   "exchange_rate": {
     "rate": 1383.49,
-    "updated_at": "2026-08-28"
+    "updated_at": "2026-08-29"
   },
-  "last_synced": "08. 28. 오후 11:31 KST"
+  "last_synced": "08. 29. 오전 08:40 KST"
 }

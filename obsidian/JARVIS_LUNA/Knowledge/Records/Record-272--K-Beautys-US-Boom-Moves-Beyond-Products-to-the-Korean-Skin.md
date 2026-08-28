@@ -2,7 +2,7 @@
 title: "Record 272 · K-Beautys-US-Boom-Moves-Beyond-Products-to-the-Korean-Skin-Care-Routin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T22:21:34.171117+00:00
+updated_at: 2026-08-28T23:38:51.692097+00:00
 tags: [{', '.join(tags)}]
 ---
 

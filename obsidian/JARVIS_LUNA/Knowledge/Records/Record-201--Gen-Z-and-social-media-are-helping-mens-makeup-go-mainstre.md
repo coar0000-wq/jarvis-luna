@@ -2,7 +2,7 @@
 title: "Record 201 · Gen-Z-and-social-media-are-helping-mens-makeup-go-mainstream-The-beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T22:21:34.159722+00:00
+updated_at: 2026-08-28T23:38:51.682313+00:00
 tags: [{', '.join(tags)}]
 ---
 

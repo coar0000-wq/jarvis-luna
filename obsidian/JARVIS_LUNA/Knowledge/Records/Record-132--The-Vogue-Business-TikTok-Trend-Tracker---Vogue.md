@@ -2,7 +2,7 @@
 title: "Record 132 · The-Vogue-Business-TikTok-Trend-Tracker---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T22:21:34.148675+00:00
+updated_at: 2026-08-28T23:38:51.672976+00:00
 tags: [{', '.join(tags)}]
 ---
 

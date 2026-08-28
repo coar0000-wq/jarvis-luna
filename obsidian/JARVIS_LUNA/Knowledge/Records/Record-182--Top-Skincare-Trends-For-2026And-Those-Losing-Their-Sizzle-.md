@@ -2,7 +2,7 @@
 title: "Record 182 · Top-Skincare-Trends-For-2026And-Those-Losing-Their-Sizzle---Beauty-Ind"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T22:21:34.156629+00:00
+updated_at: 2026-08-28T23:38:51.679743+00:00
 tags: [{', '.join(tags)}]
 ---
 

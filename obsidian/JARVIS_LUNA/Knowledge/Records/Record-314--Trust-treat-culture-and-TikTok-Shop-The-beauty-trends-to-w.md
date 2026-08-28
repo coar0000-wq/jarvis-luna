@@ -2,7 +2,7 @@
 title: "Record 314 · Trust-treat-culture-and-TikTok-Shop-The-beauty-trends-to-watch-for-thi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T22:21:34.178885+00:00
+updated_at: 2026-08-28T23:38:51.697855+00:00
 tags: [{', '.join(tags)}]
 ---
 

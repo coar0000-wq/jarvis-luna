@@ -2,7 +2,7 @@
 title: "Record 341 · Meet-our-new-all-in-one-POS-device"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T22:21:34.184341+00:00
+updated_at: 2026-08-28T23:38:51.701822+00:00
 tags: [{', '.join(tags)}]
 ---
 

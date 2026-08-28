@@ -2,7 +2,7 @@
 title: "Record 282 · Olive-Youngs-K-Beauty-Edit-Finally-Hit-Sephora-These-Finds-Are-Worth-I"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T22:21:34.172793+00:00
+updated_at: 2026-08-28T23:38:51.693479+00:00
 tags: [{', '.join(tags)}]
 ---
 

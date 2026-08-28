@@ -2,7 +2,7 @@
 title: "Record 175 · These-are-the-best-K-beauty-products-to-get-that-glowy-glass-skin-look"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T22:21:34.155521+00:00
+updated_at: 2026-08-28T23:38:51.678801+00:00
 tags: [{', '.join(tags)}]
 ---
 

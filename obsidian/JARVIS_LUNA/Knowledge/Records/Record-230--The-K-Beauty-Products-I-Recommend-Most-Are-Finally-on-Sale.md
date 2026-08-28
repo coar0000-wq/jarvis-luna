@@ -2,7 +2,7 @@
 title: "Record 230 · The-K-Beauty-Products-I-Recommend-Most-Are-Finally-on-Sale-for-Prime-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T22:21:34.164356+00:00
+updated_at: 2026-08-28T23:38:51.686335+00:00
 tags: [{', '.join(tags)}]
 ---
 

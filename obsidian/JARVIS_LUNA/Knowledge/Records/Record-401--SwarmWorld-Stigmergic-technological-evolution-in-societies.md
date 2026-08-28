@@ -2,7 +2,7 @@
 title: "Record 401 · SwarmWorld-Stigmergic-technological-evolution-in-societies-of-language"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T22:21:34.196548+00:00
+updated_at: 2026-08-28T23:38:51.710877+00:00
 tags: [{', '.join(tags)}]
 ---
 

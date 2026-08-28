@@ -2,7 +2,7 @@
 title: "Record 128 · The-Viral-Beauty-Trends-2026--This-Morning---ITVX"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T22:21:34.147926+00:00
+updated_at: 2026-08-28T23:38:51.672409+00:00
 tags: [{', '.join(tags)}]
 ---
 

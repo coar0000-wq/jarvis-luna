@@ -2,7 +2,7 @@
 title: "Record 261 · Filipinos-rebelling-against-extreme-TikTok-beauty-trends--doctor---Dai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T22:21:34.169340+00:00
+updated_at: 2026-08-28T23:38:51.690578+00:00
 tags: [{', '.join(tags)}]
 ---
 

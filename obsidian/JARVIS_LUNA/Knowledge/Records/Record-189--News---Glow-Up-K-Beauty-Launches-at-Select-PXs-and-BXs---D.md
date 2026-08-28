@@ -2,7 +2,7 @@
 title: "Record 189 · News---Glow-Up-K-Beauty-Launches-at-Select-PXs-and-BXs---DVIDS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T22:21:34.157767+00:00
+updated_at: 2026-08-28T23:38:51.680703+00:00
 tags: [{', '.join(tags)}]
 ---
 

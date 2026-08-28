@@ -2,7 +2,7 @@
 title: "Record 072 · Sorry-But-You-Havent-Experienced-Peak-Korean-Skincare-Until-Youve-Trie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T22:21:34.137526+00:00
+updated_at: 2026-08-28T23:38:51.664667+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 179 · How-ByUR-Wins-in-the-Crowded-KBeauty-Market---US-Chamber-of-Commerce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T22:21:34.156157+00:00
+updated_at: 2026-08-28T23:38:51.679343+00:00
 tags: [{', '.join(tags)}]
 ---
 
