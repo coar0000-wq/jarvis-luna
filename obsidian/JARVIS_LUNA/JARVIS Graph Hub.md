@@ -14,6 +14,7 @@ status: generated
 - [[JARVIS Dashboard Sync]]
 - [[Source--arXiv]]
 - [[Source--YouTube]]
+- [[Source--Google-Search]]
 - [[Shopify-Commerce]]
 - [[AI-Image-Generation]]
 - [[AI-Research]]

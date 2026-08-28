@@ -1,0 +1,337 @@
+{
+  "updated": "2026-08-28T10:25:48.370062+00:00",
+  "country": "US",
+  "market": "K-Beauty",
+  "products": [
+    {
+      "title": "Join / Sign in",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Track an Order",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Ulta Beauty RewardsÂ®",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Find a Store",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Gift Cards",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Need Help?",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Makeup & Nails",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Foundation",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "BB & CC Creams",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Tinted Moisturizer",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Face Primer",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Highlighter",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Contouring",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Color Correcting",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Setting Spray & Powder",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Makeup Remover",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Lip Plumpers",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Lip Treatments",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Eyeshadow Palettes",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Eye Primer & Base",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Lash Primer & Serums",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Nail Polish",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Gel Nail Polish",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Top & Base Coats",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Nail Polish Stickers",
+      "category": "Skincare",
+      "source": "Ulta Skincare",
+      "url": "https://www.ulta.com/shop/skin-care"
+    },
+    {
+      "title": "Join / Sign in",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Track an Order",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Ulta Beauty RewardsÂ®",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Find a Store",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Gift Cards",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Need Help?",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Makeup & Nails",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Foundation",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "BB & CC Creams",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Tinted Moisturizer",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Face Primer",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Highlighter",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Contouring",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Color Correcting",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Setting Spray & Powder",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Makeup Remover",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Lip Plumpers",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Lip Treatments",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Eyeshadow Palettes",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Eye Primer & Base",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Lash Primer & Serums",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Nail Polish",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Gel Nail Polish",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Top & Base Coats",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Nail Polish Stickers",
+      "category": "Makeup",
+      "source": "Ulta Makeup",
+      "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Get top deals, latest trends, and more.",
+      "category": "Beauty",
+      "source": "Target Beauty",
+      "url": "https://www.target.com/c/beauty/-/N-5xu0o"
+    },
+    {
+      "title": "Terms of Use",
+      "category": "Beauty",
+      "source": "Walmart Beauty",
+      "url": "https://www.walmart.com/browse/beauty/1085666"
+    },
+    {
+      "title": "Privacy Policy",
+      "category": "Beauty",
+      "source": "Walmart Beauty",
+      "url": "https://www.walmart.com/browse/beauty/1085666"
+    },
+    {
+      "title": "Do Not Sell My Personal Information",
+      "category": "Beauty",
+      "source": "Walmart Beauty",
+      "url": "https://www.walmart.com/browse/beauty/1085666"
+    },
+    {
+      "title": "Request My Personal Information",
+      "category": "Beauty",
+      "source": "Walmart Beauty",
+      "url": "https://www.walmart.com/browse/beauty/1085666"
+    }
+  ]
+}
