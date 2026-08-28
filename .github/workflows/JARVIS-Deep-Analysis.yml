@@ -105,6 +105,15 @@ jobs:
       - name: Generate final dashboard snapshot
         run: python scripts/generate_dashboard_runtime.py
 
+      - name: Sync Global Channels and Fix Dashboard UI
+        run: |
+          if [ -f sync_channels.py ]; then
+            python sync_channels.py
+          fi
+          if [ -f force_fix.py ]; then
+            python force_fix.py
+          fi
+
       # =========================
       # VALIDATION
       # =========================
@@ -164,7 +173,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Run JARVIS Daiso + US Beauty Shopify Pipeline"
+          git commit -m "Run JARVIS Daiso + US Beauty Shopify Pipeline & Sync Channels"
 
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then
