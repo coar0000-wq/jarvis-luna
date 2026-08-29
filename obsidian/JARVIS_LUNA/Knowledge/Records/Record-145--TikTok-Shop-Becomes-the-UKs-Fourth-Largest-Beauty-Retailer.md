@@ -2,7 +2,7 @@
 title: "Record 145 · TikTok-Shop-Becomes-the-UKs-Fourth-Largest-Beauty-Retailer---BeautyMat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T03:21:47.318127+00:00
+updated_at: 2026-08-29T05:04:15.437334+00:00
 tags: [{', '.join(tags)}]
 ---
 

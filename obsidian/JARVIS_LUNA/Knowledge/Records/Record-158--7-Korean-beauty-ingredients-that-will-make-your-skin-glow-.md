@@ -2,7 +2,7 @@
 title: "Record 158 · 7-Korean-beauty-ingredients-that-will-make-your-skin-glow-according-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T03:21:47.320400+00:00
+updated_at: 2026-08-29T05:04:15.439689+00:00
 tags: [{', '.join(tags)}]
 ---
 

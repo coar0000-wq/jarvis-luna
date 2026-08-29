@@ -1,0 +1,121 @@
+{
+  "updated_at": "2026-08-29T14:04:15.077808+09:00",
+  "source": "JARVIS AI Demand Engine",
+  "count": 8,
+  "products": [
+    {
+      "rank": 1,
+      "keyword": "Snail Mucin",
+      "product": "COSRX Advanced Snail 96 Mucin Essence",
+      "demand_score": 96,
+      "competition": "Low",
+      "predicted_orders": 148,
+      "expected_roas": 4.8,
+      "margin": 58,
+      "matched_sources": [
+        "OliveYoung",
+        "Amazon",
+        "TikTok"
+      ]
+    },
+    {
+      "rank": 2,
+      "keyword": "Heartleaf",
+      "product": "ANUA Heartleaf 77 Toner",
+      "demand_score": 93,
+      "competition": "Low",
+      "predicted_orders": 137,
+      "expected_roas": 4.6,
+      "margin": 62,
+      "matched_sources": [
+        "OliveYoung",
+        "TikTok",
+        "Google"
+      ]
+    },
+    {
+      "rank": 3,
+      "keyword": "Vitamin C",
+      "product": "Goodal Vita C Dark Spot Serum",
+      "demand_score": 90,
+      "competition": "Low",
+      "predicted_orders": 126,
+      "expected_roas": 4.4,
+      "margin": 55,
+      "matched_sources": [
+        "OliveYoung",
+        "Amazon",
+        "Google"
+      ]
+    },
+    {
+      "rank": 4,
+      "keyword": "Ceramide",
+      "product": "Illiyoon Ceramide Cream",
+      "demand_score": 87,
+      "competition": "Medium",
+      "predicted_orders": 115,
+      "expected_roas": 4.2,
+      "margin": 60,
+      "matched_sources": [
+        "OliveYoung",
+        "Walmart"
+      ]
+    },
+    {
+      "rank": 5,
+      "keyword": "Collagen",
+      "product": "BIODANCE Collagen Jelly Cream",
+      "demand_score": 84,
+      "competition": "Medium",
+      "predicted_orders": 104,
+      "expected_roas": 4.0,
+      "margin": 57,
+      "matched_sources": [
+        "OliveYoung",
+        "TikTok"
+      ]
+    },
+    {
+      "rank": 6,
+      "keyword": "Bean Essence",
+      "product": "Mixsoon Bean Essence",
+      "demand_score": 81,
+      "competition": "Medium",
+      "predicted_orders": 93,
+      "expected_roas": 3.8,
+      "margin": 63,
+      "matched_sources": [
+        "OliveYoung",
+        "Google"
+      ]
+    },
+    {
+      "rank": 7,
+      "keyword": "Rice Toner",
+      "product": "I'm From Rice Toner",
+      "demand_score": 78,
+      "competition": "Medium",
+      "predicted_orders": 82,
+      "expected_roas": 3.6,
+      "margin": 59,
+      "matched_sources": [
+        "OliveYoung"
+      ]
+    },
+    {
+      "rank": 8,
+      "keyword": "Glutathione",
+      "product": "APLB Glutathione Serum",
+      "demand_score": 75,
+      "competition": "Medium",
+      "predicted_orders": 71,
+      "expected_roas": 3.4,
+      "margin": 61,
+      "matched_sources": [
+        "OliveYoung",
+        "TikTok"
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 title: "Record 049 · Forget-eight-hours--tired-girl-makeup-is-the-new-glow-up---bodyandsoul"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T03:21:47.301957+00:00
+updated_at: 2026-08-29T05:04:15.419561+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 052 · 10-Best-AI-Tools-for-Shopify-Owners-2026-Platforms-Ranked-by-Intellige"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T03:21:47.302474+00:00
+updated_at: 2026-08-29T05:04:15.420132+00:00
 tags: [{', '.join(tags)}]
 ---
 

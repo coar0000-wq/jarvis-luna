@@ -1,179 +1,63 @@
-[
-  {
-    "platform": "OliveYoung_US",
-    "product_id": "OY001",
-    "product": "Advanced Snail 96 Mucin Essence",
-    "brand": "COSRX",
-    "category": "Skincare > Essence",
-    "rank": 1,
-    "rank_scope": "Best Sellers",
-    "price_usd": 18.0,
-    "currency": "USD",
-    "discount_rate": 10,
-    "review_count": 5234,
-    "rating": 4.9,
-    "status": "Best Seller",
-    "skin_concerns": [
-      "Hydrating",
-      "Repair"
-    ],
-    "product_url": "",
-    "image_url": "",
-    "source": "OliveYoung US",
-    "collected_at": "2026-08-29T08:40:00+09:00"
-  },
-  {
-    "platform": "OliveYoung_US",
-    "product_id": "OY002",
-    "product": "Heartleaf 77 Toner",
-    "brand": "ANUA",
-    "category": "Skincare > Toner",
-    "rank": 2,
-    "rank_scope": "Best Sellers",
-    "price_usd": 22.0,
-    "currency": "USD",
-    "discount_rate": 15,
-    "review_count": 4102,
-    "rating": 4.8,
-    "status": "Trending",
-    "skin_concerns": [
-      "Calming"
-    ],
-    "product_url": "",
-    "image_url": "",
-    "source": "OliveYoung US",
-    "collected_at": "2026-08-29T08:40:00+09:00"
-  },
-  {
-    "platform": "OliveYoung_US",
-    "product_id": "OY003",
-    "product": "Collagen Jelly Cream",
-    "brand": "BIODANCE",
-    "category": "Skincare > Cream",
-    "rank": 3,
-    "rank_scope": "Best Sellers",
-    "price_usd": 24.0,
-    "currency": "USD",
-    "discount_rate": 20,
-    "review_count": 2890,
-    "rating": 4.8,
-    "status": "Popular",
-    "skin_concerns": [
-      "Firming"
-    ],
-    "product_url": "",
-    "image_url": "",
-    "source": "OliveYoung US",
-    "collected_at": "2026-08-29T08:40:00+09:00"
-  },
-  {
-    "platform": "OliveYoung_US",
-    "product_id": "OY004",
-    "product": "Vita C Dark Spot Serum",
-    "brand": "Goodal",
-    "category": "Skincare > Serum",
-    "rank": 4,
-    "rank_scope": "Best Sellers",
-    "price_usd": 21.0,
-    "currency": "USD",
-    "discount_rate": 18,
-    "review_count": 3511,
-    "rating": 4.8,
-    "status": "Best Seller",
-    "skin_concerns": [
-      "Brightening"
-    ],
-    "product_url": "",
-    "image_url": "",
-    "source": "OliveYoung US",
-    "collected_at": "2026-08-29T08:40:00+09:00"
-  },
-  {
-    "platform": "OliveYoung_US",
-    "product_id": "OY005",
-    "product": "Bean Essence",
-    "brand": "Mixsoon",
-    "category": "Skincare > Essence",
-    "rank": 5,
-    "rank_scope": "Best Sellers",
-    "price_usd": 19.0,
-    "currency": "USD",
-    "discount_rate": 12,
-    "review_count": 2441,
-    "rating": 4.7,
-    "status": "Best Seller",
-    "skin_concerns": [
-      "Hydrating"
-    ],
-    "product_url": "",
-    "image_url": "",
-    "source": "OliveYoung US",
-    "collected_at": "2026-08-29T08:40:00+09:00"
-  },
-  {
-    "platform": "OliveYoung_US",
-    "product_id": "OY006",
-    "product": "Rice Toner",
-    "brand": "I'm From",
-    "category": "Skincare > Toner",
-    "rank": 6,
-    "rank_scope": "Best Sellers",
-    "price_usd": 23.0,
-    "currency": "USD",
-    "discount_rate": 10,
-    "review_count": 1976,
-    "rating": 4.8,
-    "status": "Trending",
-    "skin_concerns": [
-      "Brightening"
-    ],
-    "product_url": "",
-    "image_url": "",
-    "source": "OliveYoung US",
-    "collected_at": "2026-08-29T08:40:00+09:00"
-  },
-  {
-    "platform": "OliveYoung_US",
-    "product_id": "OY007",
-    "product": "Ceramide Cream",
-    "brand": "Illiyoon",
-    "category": "Skincare > Moisturizer",
-    "rank": 7,
-    "rank_scope": "Best Sellers",
-    "price_usd": 17.0,
-    "currency": "USD",
-    "discount_rate": 15,
-    "review_count": 3125,
-    "rating": 4.9,
-    "status": "Best Seller",
-    "skin_concerns": [
-      "Barrier Repair"
-    ],
-    "product_url": "",
-    "image_url": "",
-    "source": "OliveYoung US",
-    "collected_at": "2026-08-29T08:40:00+09:00"
-  },
-  {
-    "platform": "OliveYoung_US",
-    "product_id": "OY008",
-    "product": "Glutathione Serum",
-    "brand": "APLB",
-    "category": "Skincare > Serum",
-    "rank": 8,
-    "rank_scope": "Best Sellers",
-    "price_usd": 20.0,
-    "currency": "USD",
-    "discount_rate": 18,
-    "review_count": 1654,
-    "rating": 4.7,
-    "status": "Trending",
-    "skin_concerns": [
-      "Brightening"
-    ],
-    "product_url": "",
-    "image_url": "",
-    "source": "OliveYoung US",
-    "collected_at": "2026-08-29T08:40:00+09:00"
-  }
-]
+{
+  "updated_at": "2026-08-29T14:04:14.990187+09:00",
+  "source": "Olive Young US",
+  "count": 8,
+  "products": [
+    {
+      "rank": 1,
+      "brand": "COSRX",
+      "product": "Advanced Snail 96 Mucin Essence",
+      "category": "Essence",
+      "rating": 4.9
+    },
+    {
+      "rank": 2,
+      "brand": "ANUA",
+      "product": "Heartleaf 77 Toner",
+      "category": "Toner",
+      "rating": 4.8
+    },
+    {
+      "rank": 3,
+      "brand": "BIODANCE",
+      "product": "Collagen Jelly Cream",
+      "category": "Cream",
+      "rating": 4.8
+    },
+    {
+      "rank": 4,
+      "brand": "Goodal",
+      "product": "Vita C Dark Spot Serum",
+      "category": "Serum",
+      "rating": 4.8
+    },
+    {
+      "rank": 5,
+      "brand": "Mixsoon",
+      "product": "Bean Essence",
+      "category": "Essence",
+      "rating": 4.7
+    },
+    {
+      "rank": 6,
+      "brand": "I'm From",
+      "product": "Rice Toner",
+      "category": "Toner",
+      "rating": 4.8
+    },
+    {
+      "rank": 7,
+      "brand": "Illiyoon",
+      "product": "Ceramide Cream",
+      "category": "Cream",
+      "rating": 4.9
+    },
+    {
+      "rank": 8,
+      "brand": "APLB",
+      "product": "Glutathione Serum",
+      "category": "Serum",
+      "rating": 4.7
+    }
+  ]
+}
