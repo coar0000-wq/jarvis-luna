@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-30T04:23:10.688113+09:00",
+  "generated_at": "2026-08-30T05:58:08.534558+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "453개 코퍼스 레코드"
+      "detail": "455개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "472개 노트 · 3891개 링크 · 끊어진 링크 0개"
+      "detail": "474개 노트 · 3910개 링크 · 끊어진 링크 0개"
     },
     {
       "id": "dashboard",
@@ -25,7 +25,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "453건 · 3 experts · 정확도 80.79%"
+      "detail": "455건 · 3 experts · 정확도 80.88%"
     },
     {
       "id": "publish",
@@ -36,40 +36,40 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 453,
+    "record_count": 455,
     "source_counts": {},
-    "updated_at": "2026-08-30T04:21:47.994838+09:00"
+    "updated_at": "2026-08-30T05:56:20.945487+09:00"
   },
   "graph": {
-    "notes": 472,
-    "links": 3891,
+    "notes": 474,
+    "links": 3910,
     "dangling_links": 0,
-    "records": 453,
+    "records": 455,
     "sources": 4,
     "topics": 6,
     "audit": "passed",
-    "last_generated": "2026-08-30T04:21:52.993603+09:00"
+    "last_generated": "2026-08-30T05:56:21.272398+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 453,
+    "records": 455,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.8079470198675497,
-    "validation_accuracy": 0.8533333333333334,
-    "final_loss": 0.43626809659497506,
-    "gate_load_std": 0.45548493636164733,
+    "accuracy": 0.8087912087912088,
+    "validation_accuracy": 0.8552631578947368,
+    "final_loss": 0.4355929712551081,
+    "gate_load_std": 0.4554670177595704,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-08-29T19:23:10.623142+00:00"
+    "updated_at": "2026-08-29T20:58:08.462691+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 453,
-      "notes": 472,
-      "links": 3891
+      "records": 455,
+      "notes": 474,
+      "links": 3910
     },
     "prior_totals": {
       "records": 453,
@@ -77,14 +77,14 @@
       "links": 3891
     },
     "added_this_run": {
-      "records": 0,
-      "notes": 0,
-      "links": 0
+      "records": 2,
+      "notes": 2,
+      "links": 19
     },
     "current_snapshot": {
-      "records": 453,
-      "notes": 472,
-      "links": 3891
+      "records": 455,
+      "notes": 474,
+      "links": 3910
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
