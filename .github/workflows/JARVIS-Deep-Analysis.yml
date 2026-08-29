@@ -69,7 +69,7 @@ jobs:
         run: python scripts/shopify_matcher.py
 
       - name: Build Shopify Demand Matching
-        run: python build_shopify_demand_matching.py
+        run: python scripts/build_shopify_demand_matching.py
 
       # =========================
       # TRAINING
