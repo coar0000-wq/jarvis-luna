@@ -228,6 +228,39 @@
       "category": "Beauty",
       "price": 0,
       "source": "Daiso Mall"
+    },
+    {
+      "id": "daiso_20260829040821_0",
+      "name": "다이소 뷰티·스킨케어 후보 (509)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "다이소 뷰티",
+        "다이소 스킨케어",
+        "다이소 마스크팩"
+      ],
+      "discovered_at": "2026-08-29T04:08:21.374347Z"
+    },
+    {
+      "id": "daiso_20260829040821_1",
+      "name": "다이소 뷰티·스킨케어 후보 (785)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "다이소 뷰티",
+        "다이소 스킨케어",
+        "다이소 마스크팩"
+      ],
+      "discovered_at": "2026-08-29T04:08:21.374356Z"
+    },
+    {
+      "id": "daiso_20260829040821_2",
+      "name": "다이소 뷰티·스킨케어 후보 (430)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "다이소 뷰티",
+        "다이소 스킨케어",
+        "다이소 마스크팩"
+      ],
+      "discovered_at": "2026-08-29T04:08:21.374361Z"
     }
   ],
   "fx": {
@@ -238,5 +271,13 @@
     "api_url": "https://api.frankfurter.app/latest?from=USD&to=KRW",
     "fetched_at": "2026-08-29T03:21:44.006485+00:00",
     "ok": true
-  }
+  },
+  "target_category": "다이소 뷰티 & 스킨케어",
+  "focus_keywords": [
+    "다이소 뷰티",
+    "다이소 스킨케어",
+    "다이소 마스크팩"
+  ],
+  "total_count": 41,
+  "last_updated": "2026-08-29T04:08:21.374363Z"
 }

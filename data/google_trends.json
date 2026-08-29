@@ -1,0 +1,47 @@
+{
+  "updated_at": "2026-08-29T13:08:21.474596+09:00",
+  "source": "Google Trends US",
+  "count": 8,
+  "keywords": [
+    {
+      "keyword": "Korean Skincare",
+      "growth": "+45%",
+      "momentum": "High"
+    },
+    {
+      "keyword": "Snail Mucin",
+      "growth": "+41%",
+      "momentum": "High"
+    },
+    {
+      "keyword": "Glass Skin",
+      "growth": "+38%",
+      "momentum": "High"
+    },
+    {
+      "keyword": "Niacinamide Toner",
+      "growth": "+31%",
+      "momentum": "High"
+    },
+    {
+      "keyword": "SPF Moisturizer",
+      "growth": "+27%",
+      "momentum": "High"
+    },
+    {
+      "keyword": "Ceramide Serum",
+      "growth": "+22%",
+      "momentum": "Medium"
+    },
+    {
+      "keyword": "Barrier Repair Cream",
+      "growth": "+19%",
+      "momentum": "Medium"
+    },
+    {
+      "keyword": "Retinol Cream",
+      "growth": "+18%",
+      "momentum": "Medium"
+    }
+  ]
+}
