@@ -42,6 +42,69 @@
       "category": "Mask",
       "name": "Garnier Moisture Bomb Sheet Mask",
       "price_usd": 2.97
+    },
+    {
+      "id": "wm_20260829075145_0",
+      "name": "월마트 뷰티·스킨케어 후보 (390)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-29T07:51:45.929530Z"
+    },
+    {
+      "id": "wm_20260829075145_1",
+      "name": "월마트 뷰티·스킨케어 후보 (590)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-29T07:51:45.929540Z"
+    },
+    {
+      "id": "wm_20260829075145_2",
+      "name": "월마트 뷰티·스킨케어 후보 (241)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-29T07:51:45.929545Z"
+    },
+    {
+      "id": "wm_20260829075145_3",
+      "name": "월마트 뷰티·스킨케어 후보 (819)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-29T07:51:45.929549Z"
+    },
+    {
+      "id": "wm_20260829075145_4",
+      "name": "월마트 뷰티·스킨케어 후보 (489)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Walmart beauty",
+        "Walmart skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-29T07:51:45.929553Z"
     }
-  ]
+  ],
+  "target_category": "다이소 뷰티 & 스킨케어",
+  "focus_keywords": [
+    "Walmart beauty",
+    "Walmart skincare",
+    "K-beauty"
+  ],
+  "total_count": 13,
+  "last_updated": "2026-08-29T07:51:45.929555Z"
 }

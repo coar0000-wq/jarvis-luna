@@ -50,6 +50,58 @@
       "name": "Skin1004 Madagascar Centella Ampoule",
       "price_usd": 18.99,
       "trend": "상승"
+    },
+    {
+      "id": "az_20260829075145_0",
+      "name": "아마존 뷰티·스킨케어 후보 (827)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Amazon beauty",
+        "Amazon skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-29T07:51:45.961938Z"
+    },
+    {
+      "id": "az_20260829075145_1",
+      "name": "아마존 뷰티·스킨케어 후보 (731)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Amazon beauty",
+        "Amazon skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-29T07:51:45.961948Z"
+    },
+    {
+      "id": "az_20260829075145_2",
+      "name": "아마존 뷰티·스킨케어 후보 (290)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Amazon beauty",
+        "Amazon skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-29T07:51:45.961953Z"
+    },
+    {
+      "id": "az_20260829075145_3",
+      "name": "아마존 뷰티·스킨케어 후보 (493)",
+      "category": "다이소 뷰티 & 스킨케어",
+      "focus_keywords": [
+        "Amazon beauty",
+        "Amazon skincare",
+        "K-beauty"
+      ],
+      "discovered_at": "2026-08-29T07:51:45.961957Z"
     }
-  ]
+  ],
+  "target_category": "다이소 뷰티 & 스킨케어",
+  "focus_keywords": [
+    "Amazon beauty",
+    "Amazon skincare",
+    "K-beauty"
+  ],
+  "total_count": 12,
+  "last_updated": "2026-08-29T07:51:45.961959Z"
 }
