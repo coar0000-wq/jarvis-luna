@@ -55,7 +55,7 @@ jobs:
           GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
           KNOWLEDGE_QUERIES: ${{ vars.KNOWLEDGE_QUERIES }}
 
-      # =========================
+        # =========================
       # DAISO + US BEAUTY PIPELINE
       # =========================
 
@@ -68,10 +68,12 @@ jobs:
       - name: Generate Shopify Recommendations
         run: python scripts/shopify_matcher.py
 
+      - name: Build Shopify Demand Matching
+        run: python build_shopify_demand_matching.py
+
       # =========================
       # TRAINING
       # =========================
-
       - name: Prepare transparent real-data corpus
         run: python prepare_real_training_corpus.py
 
