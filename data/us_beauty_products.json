@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T03:21:45.093791+00:00",
+  "updated": "2026-08-29T03:38:57.334043+00:00",
   "country": "US",
   "market": "K-Beauty",
   "products": [
@@ -302,6 +302,12 @@
       "category": "Makeup",
       "source": "Ulta Makeup",
       "url": "https://www.ulta.com/shop/makeup"
+    },
+    {
+      "title": "Ask Target",
+      "category": "Beauty",
+      "source": "Target Beauty",
+      "url": "https://www.target.com/c/beauty/-/N-5xu0o"
     },
     {
       "title": "Get top deals, latest trends, and more.",
