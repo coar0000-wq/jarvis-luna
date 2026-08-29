@@ -1,10 +1,22 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""다이소 상품 수집 + 실시간 환율(collection_status.fx) 갱신"""
+
+"""
+JARVIS Agent 1 : DAISO Product Collector
+
+출력:
+    data/daiso_products.json
+
+원칙:
+- 실제 수집 데이터 우선
+- 실패 시 기존 데이터 유지
+- dashboard_runtime과 호환
+"""
 
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -12,114 +24,144 @@ import requests
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data"
-STATUS = DATA / "daiso_real" / "collection_status.json"
+DATA_DIR = ROOT / "data"
+OUTPUT = DATA_DIR / "daiso_products.json"
 
-URL = "https://www.daisomall.co.kr/ds/diy2/C245"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; JarvisLunaBot/1.0)"}
 KST = timezone(timedelta(hours=9))
 
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 Chrome/140 Safari/537.36"
+    )
+}
 
-def now_utc() -> datetime:
-    return datetime.now(timezone.utc)
-
-
-def fetch_fx() -> dict:
-    """여러 공개 API로 USD→KRW 환율을 가져온다. 실패 시 ok=False."""
-    sources = [
-        ("https://api.frankfurter.app/latest?from=USD&to=KRW", lambda d: float(d["rates"]["KRW"]), lambda d: d.get("date")),
-        ("https://open.er-api.com/v6/latest/USD", lambda d: float(d["rates"]["KRW"]), lambda d: (d.get("time_last_update_utc") or "")[:10]),
-        ("https://api.exchangerate-api.com/v4/latest/USD", lambda d: float(d["rates"]["KRW"]), lambda d: d.get("date")),
-    ]
-    for url, rate_fn, date_fn in sources:
-        try:
-            r = requests.get(url, timeout=15)
-            r.raise_for_status()
-            data = r.json()
-            krw = round(float(rate_fn(data)), 2)
-            as_of = date_fn(data) or now_utc().astimezone(KST).strftime("%Y-%m-%d")
-            result = {
-                "usd_to_krw": krw,
-                "krw_to_usd": round(1 / krw, 8),
-                "as_of": as_of,
-                "source": url.split("/v")[0] if "/v" in url else url,
-                "api_url": url,
-                "fetched_at": now_utc().isoformat(),
-                "ok": True,
-            }
-            print(f"✅ 환율 갱신: 1 USD = {krw:,.2f} KRW (as_of={as_of})")
-            return result
-        except Exception as e:
-            print(f"⚠️ 환율 API 실패 ({url}): {e}")
-            continue
-    return {
-        "usd_to_krw": None,
-        "krw_to_usd": None,
-        "as_of": None,
-        "source": None,
-        "fetched_at": now_utc().isoformat(),
-        "ok": False,
-        "error": "all FX APIs failed",
-    }
+DAISO_URLS = [
+    "https://shop.daiso.co.kr",
+    "https://shop.daiso.co.kr/main",
+]
 
 
-def update_collection_status_fx(fx: dict) -> None:
-    """대시보드가 읽는 collection_status.json 의 fx 만 안전하게 갱신."""
-    STATUS.parent.mkdir(parents=True, exist_ok=True)
-    if STATUS.exists():
-        try:
-            status = json.loads(STATUS.read_text(encoding="utf-8"))
-        except Exception:
-            status = {}
-    else:
-        status = {}
-    status["fx"] = fx
-    STATUS.write_text(json.dumps(status, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"✅ {STATUS} fx 필드 갱신 완료")
+def clean_price(text: str) -> int:
+    nums = re.sub(r"[^0-9]", "", text or "")
+    return int(nums) if nums else 0
 
 
-def collect_products() -> list:
+def collect() -> list:
     products = []
-    try:
-        r = requests.get(URL, headers=HEADERS, timeout=30)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.text, "html.parser")
-        for tag in soup.find_all(["img", "strong", "span"]):
-            title = tag.get("alt") or tag.get_text(strip=True)
-            if not title or len(title) < 3:
-                continue
-            if title in [x["title"] for x in products]:
-                continue
-            products.append({
-                "title": title,
-                "category": "Beauty",
-                "price": 0,
-                "source": "Daiso Mall",
-            })
-            if len(products) >= 200:
-                break
-    except Exception as e:
-        print(f"⚠️ 상품 수집 실패: {e}")
-    return products
+
+    for url in DAISO_URLS:
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=20)
+            r.raise_for_status()
+
+            soup = BeautifulSoup(r.text, "lxml")
+
+            cards = soup.select(
+                ".prd_item, .product-item, .goods-item, li[class*=product]"
+            )
+
+            for card in cards:
+
+                name = (
+                    card.get("data-name")
+                    or (
+                        card.select_one(".tit")
+                        and card.select_one(".tit").get_text(" ", strip=True)
+                    )
+                    or (
+                        card.select_one(".name")
+                        and card.select_one(".name").get_text(" ", strip=True)
+                    )
+                    or (
+                        card.select_one("img")
+                        and card.select_one("img").get("alt", "")
+                    )
+                    or ""
+                ).strip()
+
+                if len(name) < 3:
+                    continue
+
+                price_txt = (
+                    (
+                        card.select_one(".price")
+                        and card.select_one(".price").get_text(" ", strip=True)
+                    )
+                    or (
+                        card.select_one(".num")
+                        and card.select_one(".num").get_text(" ", strip=True)
+                    )
+                    or ""
+                )
+
+                price = clean_price(price_txt)
+
+                category = (
+                    card.get("data-category")
+                    or (
+                        card.select_one(".cate")
+                        and card.select_one(".cate").get_text(" ", strip=True)
+                    )
+                    or "Lifestyle"
+                )
+
+                products.append(
+                    {
+                        "product": name,
+                        "price_krw": price,
+                        "category": category,
+                        "brand": "Daiso",
+                    }
+                )
+
+        except Exception:
+            continue
+
+    # 중복 제거
+    seen = set()
+    unique = []
+
+    for p in products:
+        key = p["product"].lower()
+
+        if key in seen:
+            continue
+
+        seen.add(key)
+        unique.append(p)
+
+    return unique[:300]
 
 
-def main() -> None:
-    DATA.mkdir(exist_ok=True)
+def save(products: list):
 
-    # 1) 환율 먼저 갱신 (대시보드 표시용)
-    fx = fetch_fx()
-    update_collection_status_fx(fx)
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-    # 2) 상품 수집
-    products = collect_products()
-    output = {
-        "updated": now_utc().isoformat(),
+    data = {
+        "updated_at": datetime.now(KST).isoformat(),
+        "source": "Daiso Korea",
+        "count": len(products),
         "products": products,
-        "fx": fx,
     }
-    out = DATA / "daiso_products.json"
-    out.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Daiso products: {len(products)}")
+
+    OUTPUT.write_text(
+        json.dumps(data, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    print(f"✅ DAISO products: {len(products)} saved")
+
+
+def main():
+
+    products = collect()
+
+    if not products and OUTPUT.exists():
+        print("⚠️ Collection failed → keeping previous data")
+        return
+
+    save(products)
 
 
 if __name__ == "__main__":
