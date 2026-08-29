@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T12:24:08.505220+09:00",
+  "generated_at": "2026-08-29T13:14:36.860135+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
@@ -38,7 +38,7 @@
     "status": "completed",
     "record_count": 423,
     "source_counts": {},
-    "updated_at": "2026-08-29T12:21:43.551385+09:00"
+    "updated_at": "2026-08-29T12:36:42.531574+09:00"
   },
   "graph": {
     "notes": 442,
@@ -48,7 +48,7 @@
     "sources": 4,
     "topics": 6,
     "audit": "passed",
-    "last_generated": "2026-08-29T12:21:47.378883+09:00"
+    "last_generated": "2026-08-29T12:36:42.730574+09:00"
   },
   "training": {
     "status": "completed",
