@@ -160,6 +160,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          # 최신 main으로 맞춤 (rebase 충돌 방지)
+          git fetch origin main
+          git reset --hard origin/main
+
           git add .
 
           if git diff --cached --quiet; then
@@ -169,23 +173,7 @@ jobs:
 
           git commit -m "Run JARVIS Daiso + US Beauty Shopify Pipeline & Sync Channels"
 
-          for attempt in 1 2 3 4 5; do
-            if git push origin HEAD:main; then
-              echo "Push success"
-              exit 0
-            fi
-
-            git fetch origin main
-            git rebase --autostash origin/main || {
-              git rebase --abort || true
-              exit 1
-            }
-
-            sleep $((attempt*5))
-          done
-
-          exit 1
-
+          git push origin HEAD:main
       - name: Complete summary
         if: always()
         run: |
