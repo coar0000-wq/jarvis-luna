@@ -727,16 +727,14 @@ function renderMarketingChannels(d){
     badge: i.badge || (i.rating != null ? String(i.rating) : '')
   }), "green");
 
-  // 🎯Shopify 추천 상품
   // 🎯 Shopify 수요 매칭
 render("shopify-demand-list", gc.shopify_demand_matching || [], i => ({
   title: i.product || '',
-  sub: `${i.keyword} · ${i.predicted_orders}주문`,
-  badge: `ROAS ${i.expected_roas}`
+  sub: `${i.keyword} · ${i.predicted_orders} 주문`,
+  badge: `${i.demand_score}점`
 }), "blue");
 
 } // ← renderMarketingChannels 종료
-
 function markOffline(msg){
 const t=$('live-text'); if(t){ t.textContent='OFFLINE'; t.parentElement.style.color='#f85149'; }
 const dot=document.querySelector('.live-dot'); if(dot) dot.style.background='#f85149';
