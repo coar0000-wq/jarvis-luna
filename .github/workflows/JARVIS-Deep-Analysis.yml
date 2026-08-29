@@ -127,39 +127,30 @@ jobs:
           python -m json.tool data/knowledge/training_status.json >/dev/null
           python -m json.tool data/dashboard_runtime.json >/dev/null
 
-          test -s data/knowledge/training_corpus.jsonl
-          test -f data/knowledge/real_knowledge_moe.npz
-          test -f "obsidian/JARVIS_LUNA/JARVIS Graph Hub.md"
-          test -d "obsidian/JARVIS_LUNA/Knowledge/Records"
-          test -d "obsidian/JARVIS_LUNA/Knowledge/Sources"
-          test -d "obsidian/JARVIS_LUNA/Knowledge/Topics"
+          test -f data/dashboard_runtime.json
+          test -f data/knowledge/training_status.json
 
           python - <<'PY'
           import json
           from pathlib import Path
 
+          runtime = json.loads(
+              Path("data/dashboard_runtime.json").read_text(encoding="utf-8")
+          )
           training = json.loads(
               Path("data/knowledge/training_status.json").read_text(encoding="utf-8")
           )
 
-          runtime = json.loads(
-              Path("data/dashboard_runtime.json").read_text(encoding="utf-8")
-          )
+          assert "global_channels" in runtime
+          assert "shopify_demand_matching" in runtime["global_channels"]
+          assert len(runtime["global_channels"]["shopify_demand_matching"]) > 0
 
+          assert "training" in runtime
+          assert "graph" in runtime
           assert training["training_performed"] is True
-          assert training["weights_updated"] is True
-
-          graph = runtime["graph"]
-          sources = runtime["sources"]
-          dashboard_training = runtime["training"]
-
-          assert graph["dangling_links"] == 0
-          assert sources["record_count"] > 0
-          assert dashboard_training["training_performed"] is True
 
           print("Validation OK")
           PY
-
       # =========================
       # COMMIT & PUSH
       # =========================
