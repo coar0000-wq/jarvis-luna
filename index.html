@@ -291,8 +291,8 @@ nav a{font-size:12px;}
 </div>
 </div>
 
-<!-- 글로벌 판매 전략 수집 채널 (7대 데이터) -->
-<div class="section-header">🌐 글로벌 판매 전략 수집 채널 (7대 데이터)</div>
+<!-- 글로벌 판매 전략 수집 채널 (8대 데이터) -->
+<div class="section-header">🌐 글로벌 판매 전략 수집 채널 (8대 데이터)</div>
 
 <div class="dashboard-grid">
 
@@ -348,6 +348,15 @@ nav a{font-size:12px;}
   <div class="dashboard-card">
     <h4><span class="dashboard-card-icon">🎯</span>Shopify 추천 상품</h4>
     <ul class="mkt-list" id="shopify-list">
+      <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
+    </ul>
+  </div>
+
+
+  <!-- OliveYoung US -->
+  <div class="dashboard-card">
+    <h4><span class="dashboard-card-icon">🌿</span>OliveYoung US</h4>
+    <ul class="mkt-list" id="oliveyoung-us-list">
       <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
     </ul>
   </div>
@@ -709,6 +718,14 @@ function renderMarketingChannels(d){
     sub: i.category || '',
     badge: i.loves || i.status || ''
   }), "purple");
+
+
+  // OliveYoung US
+  render("oliveyoung-us-list", gc.oliveyoung_us || [], i => ({
+    title: i.product || i.title || '',
+    sub: i.sub || i.category || '',
+    badge: i.badge || (i.rating != null ? String(i.rating) : '')
+  }), "green");
 
   // Shopify 추천 상품
   render("shopify-list", gc.shopify_recommended || [], i => ({
