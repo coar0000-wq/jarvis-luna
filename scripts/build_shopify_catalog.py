@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 
-INFILE = DATA / "shopify" / "shopify_demand_matching.json"
+INFILE = DATA / "daiso_real" / "shopify_demand_matching.json"
 OUT_JSON = DATA / "shopify_products.json"
 OUT_CSV = DATA / "shopify_products.csv"
 
