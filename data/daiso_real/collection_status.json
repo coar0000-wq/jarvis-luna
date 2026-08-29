@@ -116,7 +116,7 @@
     "as_of": "2026-08-28",
     "source": "https://api.frankfurter.app/latest?from=USD&to=KRW",
     "api_url": "https://api.frankfurter.app/latest?from=USD&to=KRW",
-    "fetched_at": "2026-08-28T23:38:46.934462+00:00",
+    "fetched_at": "2026-08-29T03:21:44.006485+00:00",
     "ok": true
   },
   "sitemap_urls_known": 19739,

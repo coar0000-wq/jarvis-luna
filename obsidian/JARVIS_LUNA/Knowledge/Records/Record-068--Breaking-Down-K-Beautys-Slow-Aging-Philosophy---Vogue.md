@@ -2,7 +2,7 @@
 title: "Record 068 · Breaking-Down-K-Beautys-Slow-Aging-Philosophy---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T23:38:51.664153+00:00
+updated_at: 2026-08-29T03:21:47.305197+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -1,0 +1,245 @@
+{
+  "updated_at": "AUTO",
+  "top_recommendations": [
+    {
+      "keyword": "Join",
+      "product": "Join / Sign in",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Track",
+      "product": "Track an Order",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Ulta",
+      "product": "Ulta Beauty RewardsÂ®",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Find",
+      "product": "Find a Store",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Gift",
+      "product": "Gift Cards",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Need",
+      "product": "Need Help?",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Makeup",
+      "product": "Makeup & Nails",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Foundation",
+      "product": "Foundation",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "BB",
+      "product": "BB & CC Creams",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Tinted",
+      "product": "Tinted Moisturizer",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Face",
+      "product": "Face Primer",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Highlighter",
+      "product": "Highlighter",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Contouring",
+      "product": "Contouring",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Color",
+      "product": "Color Correcting",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Setting",
+      "product": "Setting Spray & Powder",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Makeup",
+      "product": "Makeup Remover",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Lip",
+      "product": "Lip Plumpers",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Lip",
+      "product": "Lip Treatments",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Eyeshadow",
+      "product": "Eyeshadow Palettes",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    },
+    {
+      "keyword": "Eye",
+      "product": "Eye Primer & Base",
+      "demand_score": 79,
+      "competition": "Medium",
+      "predicted_orders": 91,
+      "expected_roas": 3.7,
+      "matched_sources": [
+        "Ulta Skincare",
+        "Ulta Makeup"
+      ]
+    }
+  ]
+}

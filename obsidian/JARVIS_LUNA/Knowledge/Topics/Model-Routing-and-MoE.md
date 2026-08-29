@@ -2,7 +2,7 @@
 title: "Model Routing and MoE"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T23:38:51.722039+00:00
+updated_at: 2026-08-29T03:21:47.376697+00:00
 tags: [{', '.join(tags)}]
 ---
 
@@ -13,23 +13,23 @@ tags: [{', '.join(tags)}]
 - [[Record-029--The-Best-Korean-Beauty-Products-According-To-Editors--Expe]]
 - [[Record-038--The-4-Essential-K-Beauty-Makeup-Trends-in-2026-According-t]]
 - [[Record-061--14-Best-Korean-Beauty-Products-For-Acne-According-To-K-Bea]]
-- [[Record-096--Unhinged-or-Inspired-Experts-Weigh-in-on-TikToks-Wildest-B]]
-- [[Record-120--The-14-Beauty-Trends-Experts-Predict-Will-Be-Huge-in-2026-]]
-- [[Record-127--What-the-experts-really-think-about-TikTok-beauty-trends--]]
-- [[Record-203--These-K-Beauty-Trends-Are-About-to-Be-EverywhereWe-Asked-K]]
-- [[Record-205--Experts-AgreeIf-Youre-Going-to-Buy-3-K-Beauty-Items-This-S]]
-- [[Record-300--How-K-Beauty-And-J-Beauty-DifferAnd-Why-Experts-Trust-Them]]
-- [[Record-329--Pandoras-AI-Model-Routing-Box-Efficient-Allocation-with-Co]]
-- [[Record-332--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]]
-- [[Record-377--VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-i]]
-- [[Record-386--EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safe]]
-- [[Record-388--ReWorld-An-Interactive-World-Model-with-Long-Horizon-Memor]]
-- [[Record-389--How-to-Train-a-Critic-Stably-and-Efficiently]]
-- [[Record-395--Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augme]]
-- [[Record-403--TraceML-An-Empirical-Analysis-of-Human-Agent-Planning-in-M]]
-- [[Record-404--Planetary-Prediction-Engine-Autonomous-Geospatial-Predicti]]
-- [[Record-407--MyoMechanix-Biomechanically-Grounded-Compositional-Skilled]]
+- [[Record-097--Unhinged-or-Inspired-Experts-Weigh-in-on-TikToks-Wildest-B]]
+- [[Record-121--The-14-Beauty-Trends-Experts-Predict-Will-Be-Huge-in-2026-]]
+- [[Record-128--What-the-experts-really-think-about-TikTok-beauty-trends--]]
+- [[Record-205--These-K-Beauty-Trends-Are-About-to-Be-EverywhereWe-Asked-K]]
+- [[Record-207--Experts-AgreeIf-Youre-Going-to-Buy-3-K-Beauty-Items-This-S]]
+- [[Record-304--How-K-Beauty-And-J-Beauty-DifferAnd-Why-Experts-Trust-Them]]
+- [[Record-333--Pandoras-AI-Model-Routing-Box-Efficient-Allocation-with-Co]]
+- [[Record-336--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]]
+- [[Record-381--VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-i]]
+- [[Record-390--EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safe]]
+- [[Record-392--ReWorld-An-Interactive-World-Model-with-Long-Horizon-Memor]]
+- [[Record-393--How-to-Train-a-Critic-Stably-and-Efficiently]]
+- [[Record-399--Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augme]]
+- [[Record-407--TraceML-An-Empirical-Analysis-of-Human-Agent-Planning-in-M]]
+- [[Record-408--Planetary-Prediction-Engine-Autonomous-Geospatial-Predicti]]
+- [[Record-411--MyoMechanix-Biomechanically-Grounded-Compositional-Skilled]]
 
 ## Connected nodes
 
-[[Record-029--The-Best-Korean-Beauty-Products-According-To-Editors--Expe]] [[Record-038--The-4-Essential-K-Beauty-Makeup-Trends-in-2026-According-t]] [[Record-061--14-Best-Korean-Beauty-Products-For-Acne-According-To-K-Bea]] [[Record-096--Unhinged-or-Inspired-Experts-Weigh-in-on-TikToks-Wildest-B]] [[Record-120--The-14-Beauty-Trends-Experts-Predict-Will-Be-Huge-in-2026-]] [[Record-127--What-the-experts-really-think-about-TikTok-beauty-trends--]] [[Record-203--These-K-Beauty-Trends-Are-About-to-Be-EverywhereWe-Asked-K]] [[Record-205--Experts-AgreeIf-Youre-Going-to-Buy-3-K-Beauty-Items-This-S]] [[Record-300--How-K-Beauty-And-J-Beauty-DifferAnd-Why-Experts-Trust-Them]] [[Record-329--Pandoras-AI-Model-Routing-Box-Efficient-Allocation-with-Co]] [[Record-332--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]] [[Record-377--VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-i]] [[Record-386--EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safe]] [[Record-388--ReWorld-An-Interactive-World-Model-with-Long-Horizon-Memor]] [[Record-389--How-to-Train-a-Critic-Stably-and-Efficiently]] [[Record-395--Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augme]] [[Record-403--TraceML-An-Empirical-Analysis-of-Human-Agent-Planning-in-M]] [[Record-404--Planetary-Prediction-Engine-Autonomous-Geospatial-Predicti]] [[Record-407--MyoMechanix-Biomechanically-Grounded-Compositional-Skilled]] [[Source--Google-Search]] [[Source--arXiv]] [[JARVIS Real Knowledge Index]]
+[[Record-029--The-Best-Korean-Beauty-Products-According-To-Editors--Expe]] [[Record-038--The-4-Essential-K-Beauty-Makeup-Trends-in-2026-According-t]] [[Record-061--14-Best-Korean-Beauty-Products-For-Acne-According-To-K-Bea]] [[Record-097--Unhinged-or-Inspired-Experts-Weigh-in-on-TikToks-Wildest-B]] [[Record-121--The-14-Beauty-Trends-Experts-Predict-Will-Be-Huge-in-2026-]] [[Record-128--What-the-experts-really-think-about-TikTok-beauty-trends--]] [[Record-205--These-K-Beauty-Trends-Are-About-to-Be-EverywhereWe-Asked-K]] [[Record-207--Experts-AgreeIf-Youre-Going-to-Buy-3-K-Beauty-Items-This-S]] [[Record-304--How-K-Beauty-And-J-Beauty-DifferAnd-Why-Experts-Trust-Them]] [[Record-333--Pandoras-AI-Model-Routing-Box-Efficient-Allocation-with-Co]] [[Record-336--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]] [[Record-381--VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-i]] [[Record-390--EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safe]] [[Record-392--ReWorld-An-Interactive-World-Model-with-Long-Horizon-Memor]] [[Record-393--How-to-Train-a-Critic-Stably-and-Efficiently]] [[Record-399--Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augme]] [[Record-407--TraceML-An-Empirical-Analysis-of-Human-Agent-Planning-in-M]] [[Record-408--Planetary-Prediction-Engine-Autonomous-Geospatial-Predicti]] [[Record-411--MyoMechanix-Biomechanically-Grounded-Compositional-Skilled]] [[Source--Google-Search]] [[Source--arXiv]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 059 · AI-Personalization-Marketing-Winning-Strategies-for-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-28T23:38:51.662891+00:00
+updated_at: 2026-08-29T03:21:47.303676+00:00
 tags: [{', '.join(tags)}]
 ---
 
