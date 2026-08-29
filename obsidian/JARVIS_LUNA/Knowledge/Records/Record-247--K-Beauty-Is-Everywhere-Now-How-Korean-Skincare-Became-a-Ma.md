@@ -2,7 +2,7 @@
 title: "Record 247 · K-Beauty-Is-Everywhere-Now-How-Korean-Skincare-Became-a-Mainstream-US-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T20:56:21.239826+00:00
+updated_at: 2026-08-29T21:52:54.469155+00:00
 tags: [{', '.join(tags)}]
 ---
 

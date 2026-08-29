@@ -2,7 +2,7 @@
 title: "Record 361 · Ulta-Skin-Care"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T20:56:21.252487+00:00
+updated_at: 2026-08-29T21:52:54.482349+00:00
 tags: [{', '.join(tags)}]
 ---
 

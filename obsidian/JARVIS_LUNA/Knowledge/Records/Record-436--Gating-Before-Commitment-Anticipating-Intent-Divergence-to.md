@@ -2,7 +2,7 @@
 title: "Record 436 · Gating-Before-Commitment-Anticipating-Intent-Divergence-to-Prevent-Pos"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T20:56:21.261566+00:00
+updated_at: 2026-08-29T21:52:54.490366+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 034 · Agentic-Commerce-Benefits--How-To-Get-Started---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T20:56:21.215793+00:00
+updated_at: 2026-08-29T21:52:54.450805+00:00
 tags: [{', '.join(tags)}]
 ---
 

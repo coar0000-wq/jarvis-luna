@@ -2,7 +2,7 @@
 title: "Record 424 · ReWorld-An-Interactive-World-Model-with-Long-Horizon-Memory"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T20:56:21.259990+00:00
+updated_at: 2026-08-29T21:52:54.488971+00:00
 tags: [{', '.join(tags)}]
 ---
 

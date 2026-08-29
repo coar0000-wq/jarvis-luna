@@ -2,7 +2,7 @@
 title: "Record 162 · Enterprise-Artificial-Intelligence-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T20:56:21.230325+00:00
+updated_at: 2026-08-29T21:52:54.461900+00:00
 tags: [{', '.join(tags)}]
 ---
 

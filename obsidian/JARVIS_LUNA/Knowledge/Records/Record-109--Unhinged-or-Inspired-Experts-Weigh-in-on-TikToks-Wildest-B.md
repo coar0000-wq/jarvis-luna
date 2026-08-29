@@ -2,7 +2,7 @@
 title: "Record 109 · Unhinged-or-Inspired-Experts-Weigh-in-on-TikToks-Wildest-Beauty-Tips--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T20:56:21.224165+00:00
+updated_at: 2026-08-29T21:52:54.458168+00:00
 tags: [{', '.join(tags)}]
 ---
 

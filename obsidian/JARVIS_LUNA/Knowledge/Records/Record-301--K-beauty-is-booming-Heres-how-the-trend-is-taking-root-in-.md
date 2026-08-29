@@ -2,7 +2,7 @@
 title: "Record 301 · K-beauty-is-booming-Heres-how-the-trend-is-taking-root-in-the-DC-area-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T20:56:21.245968+00:00
+updated_at: 2026-08-29T21:52:54.475772+00:00
 tags: [{', '.join(tags)}]
 ---
 

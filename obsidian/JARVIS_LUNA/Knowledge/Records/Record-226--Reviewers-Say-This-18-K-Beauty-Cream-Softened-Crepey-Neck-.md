@@ -2,7 +2,7 @@
 title: "Record 226 · Reviewers-Say-This-18-K-Beauty-Cream-Softened-Crepey-Neck-Skin-In-Just"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T20:56:21.237462+00:00
+updated_at: 2026-08-29T21:52:54.466940+00:00
 tags: [{', '.join(tags)}]
 ---
 

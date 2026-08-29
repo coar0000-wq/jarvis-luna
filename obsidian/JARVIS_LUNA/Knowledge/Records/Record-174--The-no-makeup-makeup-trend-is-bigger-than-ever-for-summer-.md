@@ -2,7 +2,7 @@
 title: "Record 174 · The-no-makeup-makeup-trend-is-bigger-than-ever-for-summer-2026-What-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T20:56:21.231673+00:00
+updated_at: 2026-08-29T21:52:54.462927+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 071 · This-Blush-Trend-Pairs-Best-With-a-Vintage-Nightgown-and-Secret-Garden"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T20:56:21.219942+00:00
+updated_at: 2026-08-29T21:52:54.454384+00:00
 tags: [{', '.join(tags)}]
 ---
 

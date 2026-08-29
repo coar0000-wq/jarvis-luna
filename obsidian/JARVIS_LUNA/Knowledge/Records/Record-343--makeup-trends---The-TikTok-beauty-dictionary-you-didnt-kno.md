@@ -2,7 +2,7 @@
 title: "Record 343 · makeup-trends---The-TikTok-beauty-dictionary-you-didnt-know-you-needed"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T20:56:21.250541+00:00
+updated_at: 2026-08-29T21:52:54.480799+00:00
 tags: [{', '.join(tags)}]
 ---
 

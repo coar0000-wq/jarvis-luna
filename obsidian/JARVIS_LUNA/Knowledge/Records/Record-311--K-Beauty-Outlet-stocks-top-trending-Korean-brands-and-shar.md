@@ -2,7 +2,7 @@
 title: "Record 311 · K-Beauty-Outlet-stocks-top-trending-Korean-brands-and-shares-skincare-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T20:56:21.247077+00:00
+updated_at: 2026-08-29T21:52:54.476480+00:00
 tags: [{', '.join(tags)}]
 ---
 

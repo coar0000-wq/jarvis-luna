@@ -2,7 +2,7 @@
 title: "Record 187 · Why-the-Keep-Your-Lower-Bleph-Trend-Is-a-Quiet-Rebellion-Against-Perfe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T20:56:21.233188+00:00
+updated_at: 2026-08-29T21:52:54.464107+00:00
 tags: [{', '.join(tags)}]
 ---
 

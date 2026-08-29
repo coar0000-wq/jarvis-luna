@@ -2,7 +2,7 @@
 title: "Record 237 · Laneige-CosRx-and-Medicube-Best-Early-Prime-Day-Korean-Beauty-Deals---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T20:56:21.238679+00:00
+updated_at: 2026-08-29T21:52:54.467862+00:00
 tags: [{', '.join(tags)}]
 ---
 

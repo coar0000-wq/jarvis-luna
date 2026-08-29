@@ -2,7 +2,7 @@
 title: "Record 431 · Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augmented-Prefere"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T20:56:21.260879+00:00
+updated_at: 2026-08-29T21:52:54.489783+00:00
 tags: [{', '.join(tags)}]
 ---
 
