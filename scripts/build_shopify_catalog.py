@@ -12,7 +12,6 @@ INFILE = DATA / "daiso_real" / "shopify_demand_matching.json"
 OUT_JSON = DATA / "shopify_products.json"
 OUT_CSV = DATA / "shopify_products.csv"
 
-
 def load():
     if not INFILE.exists():
         raise FileNotFoundError(INFILE)
@@ -20,6 +19,8 @@ def load():
     data = json.loads(INFILE.read_text(encoding="utf-8"))
 
     if isinstance(data, dict):
+        if "top_recommendations" in data:
+            return data["top_recommendations"]
         if "recommendations" in data:
             return data["recommendations"]
         if "products" in data:
@@ -28,7 +29,8 @@ def load():
     if isinstance(data, list):
         return data
 
-    raise KeyError("recommendations/products not found")
+    raise KeyError("top_recommendations/recommendations/products not found")
+
 
 
 def build():
