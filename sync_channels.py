@@ -130,6 +130,25 @@ def from_us_beauty(source_substr: str):
     return unique_take(rows, lambda x: x["product"].lower())
 
 
+
+
+def from_oliveyoung_us():
+    d = load_json(DATA / "oliveyoung_us_products.json", [])
+    products = d if isinstance(d, list) else d.get("products", [])
+    rows = []
+    for p in products:
+        name = (p.get("product") or p.get("title") or "").strip()
+        if not is_good_name(name):
+            continue
+        rows.append({
+            "product": name,
+            "sub": p.get("brand") or p.get("category", ""),
+            "badge": str(p.get("rating", "")),
+            "rank": p.get("rank", 0)
+        })
+    rows = sorted(rows, key=lambda x: x["rank"])
+    return unique_take(rows, lambda x: x["product"].lower())
+
 def from_shopify():
     d = load_json(DATA / "shopify_recommend.json", {})
     products = d.get("products") if isinstance(d, dict) else []
@@ -244,7 +263,17 @@ FALLBACK = {
         {"niche": "Hair Care", "product": "Scalp Massager Brush Kit", "margin_est": "70%"},
         {"niche": "Body Care", "product": "Whitening Body Lotion", "margin_est": "55%"},
         {"niche": "Tools", "product": "Jade Roller & Gua Sha Set", "margin_est": "75%"},
-    ],
+    ],,
+    "oliveyoung_us": [
+        {"product":"Advanced Snail 96 Mucin Essence","sub":"COSRX","badge":"4.9"},
+        {"product":"Heartleaf 77 Toner","sub":"ANUA","badge":"4.8"},
+        {"product":"Collagen Jelly Cream","sub":"BIODANCE","badge":"4.8"},
+        {"product":"Vita C Dark Spot Serum","sub":"Goodal","badge":"4.8"},
+        {"product":"Bean Essence","sub":"Mixsoon","badge":"4.7"},
+        {"product":"Rice Toner","sub":"I'm From","badge":"4.8"},
+        {"product":"Ceramide Cream","sub":"Illiyoon","badge":"4.9"},
+        {"product":"Glutathione Serum","sub":"APLB","badge":"4.7"}
+    ]
 }
 
 
@@ -306,6 +335,7 @@ def build_global_channels():
     shopify = from_shopify()
     trends = from_daiso_as_trends()
     tiktok = FALLBACK["tiktok_shop_us"]
+    olive = from_oliveyoung_us()
 
     return {
         "amazon_best_sellers": pick(amazon, "amazon_best_sellers"),
@@ -315,6 +345,7 @@ def build_global_channels():
         "ulta_beauty": pick(ulta_fmt, "ulta_beauty"),
         "sephora": pick(sephora_fmt, "sephora"),
         "shopify_recommended": pick(shopify, "shopify_recommended"),
+        "oliveyoung_us": pick(olive, "oliveyoung_us"),
     }
 
 
