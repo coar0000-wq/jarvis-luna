@@ -55,7 +55,7 @@ jobs:
           GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
           KNOWLEDGE_QUERIES: ${{ vars.KNOWLEDGE_QUERIES }}
 
-        # =========================
+      # =========================
       # DAISO + US BEAUTY PIPELINE
       # =========================
 
@@ -74,6 +74,7 @@ jobs:
       # =========================
       # TRAINING
       # =========================
+
       - name: Prepare transparent real-data corpus
         run: python prepare_real_training_corpus.py
 
@@ -134,12 +135,8 @@ jobs:
           import json
           from pathlib import Path
 
-          runtime = json.loads(
-              Path("data/dashboard_runtime.json").read_text(encoding="utf-8")
-          )
-          training = json.loads(
-              Path("data/knowledge/training_status.json").read_text(encoding="utf-8")
-          )
+          runtime = json.loads(Path("data/dashboard_runtime.json").read_text(encoding="utf-8"))
+          training = json.loads(Path("data/knowledge/training_status.json").read_text(encoding="utf-8"))
 
           assert "global_channels" in runtime
           assert "shopify_demand_matching" in runtime["global_channels"]
@@ -151,7 +148,8 @@ jobs:
 
           print("Validation OK")
           PY
-        # =========================
+
+      # =========================
       # COMMIT & PUSH
       # =========================
 
@@ -159,10 +157,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # 원격 최신 반영
-          git fetch origin main
-          git rebase origin/main || true
 
           git add -A
 
@@ -173,6 +167,7 @@ jobs:
 
           git commit -m "Run JARVIS Daiso + US Beauty Shopify Pipeline & Sync Channels"
 
+          git pull --rebase --autostash origin main
           git push origin HEAD:main
 
       - name: Complete summary
