@@ -2,7 +2,7 @@
 title: "Record 357 · Amazon-Skincare-Best-Sellers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T21:52:54.482082+00:00
+updated_at: 2026-08-29T23:48:56.759915+00:00
 tags: [{', '.join(tags)}]
 ---
 

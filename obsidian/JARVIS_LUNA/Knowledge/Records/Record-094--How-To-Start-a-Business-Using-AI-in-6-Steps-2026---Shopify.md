@@ -2,7 +2,7 @@
 title: "Record 094 · How-To-Start-a-Business-Using-AI-in-6-Steps-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T21:52:54.456972+00:00
+updated_at: 2026-08-29T23:48:56.712204+00:00
 tags: [{', '.join(tags)}]
 ---
 

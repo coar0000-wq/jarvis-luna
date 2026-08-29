@@ -2,7 +2,7 @@
 title: "Record 404 · How-to-take-your-audience-from-Hi-to-Buy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T21:52:54.486206+00:00
+updated_at: 2026-08-29T23:48:56.768271+00:00
 tags: [{', '.join(tags)}]
 ---
 

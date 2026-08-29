@@ -2,7 +2,7 @@
 title: "Record 027 · 15-Best-AI-Marketing-Tools-for-Ecommerce-Now-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T21:52:54.450061+00:00
+updated_at: 2026-08-29T23:48:56.698824+00:00
 tags: [{', '.join(tags)}]
 ---
 

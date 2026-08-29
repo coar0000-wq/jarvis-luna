@@ -2,7 +2,7 @@
 title: "Record 401 · This-is-life-on-Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T21:52:54.486006+00:00
+updated_at: 2026-08-29T23:48:56.767766+00:00
 tags: [{', '.join(tags)}]
 ---
 

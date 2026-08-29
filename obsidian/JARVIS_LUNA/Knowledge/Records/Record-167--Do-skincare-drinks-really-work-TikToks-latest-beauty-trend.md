@@ -2,7 +2,7 @@
 title: "Record 167 · Do-skincare-drinks-really-work-TikToks-latest-beauty-trend-explained--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T21:52:54.462244+00:00
+updated_at: 2026-08-29T23:48:56.726264+00:00
 tags: [{', '.join(tags)}]
 ---
 

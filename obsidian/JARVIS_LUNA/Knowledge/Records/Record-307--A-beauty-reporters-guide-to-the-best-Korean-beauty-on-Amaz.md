@@ -2,7 +2,7 @@
 title: "Record 307 · A-beauty-reporters-guide-to-the-best-Korean-beauty-on-Amazon-starting-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T21:52:54.476208+00:00
+updated_at: 2026-08-29T23:48:56.751034+00:00
 tags: [{', '.join(tags)}]
 ---
 
