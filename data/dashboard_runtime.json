@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T20:46:42.073141+09:00",
+  "generated_at": "2026-08-30T01:03:36.421905+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "432개 코퍼스 레코드"
+      "detail": "434개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "451개 노트 · 3723개 링크 · 끊어진 링크 0개"
+      "detail": "453개 노트 · 3739개 링크 · 끊어진 링크 0개"
     },
     {
       "id": "dashboard",
@@ -25,7 +25,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "432건 · 3 experts · 정확도 80.32%"
+      "detail": "434건 · 3 experts · 정확도 80.41%"
     },
     {
       "id": "publish",
@@ -36,45 +36,45 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 432,
+    "record_count": 434,
     "source_counts": {},
-    "updated_at": "2026-08-29T20:44:27.974177+09:00"
+    "updated_at": "2026-08-30T01:01:22.007080+09:00"
   },
   "graph": {
-    "notes": 451,
-    "links": 3723,
+    "notes": 453,
+    "links": 3739,
     "dangling_links": 0,
-    "records": 432,
+    "records": 434,
     "sources": 4,
     "topics": 6,
     "audit": "passed",
-    "last_generated": "2026-08-29T20:44:33.535717+09:00"
+    "last_generated": "2026-08-30T01:01:27.533618+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 432,
+    "records": 434,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.8032407407407407,
-    "validation_accuracy": 0.8513513513513513,
-    "final_loss": 0.4479208375752188,
-    "gate_load_std": 0.45525219762782726,
+    "accuracy": 0.804147465437788,
+    "validation_accuracy": 0.8533333333333334,
+    "final_loss": 0.4472813031259411,
+    "gate_load_std": 0.4552268811904256,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-08-29T11:46:41.980832+00:00"
+    "updated_at": "2026-08-29T16:03:36.331848+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 432,
-      "notes": 451,
-      "links": 3723
+      "records": 434,
+      "notes": 453,
+      "links": 3739
     },
     "prior_totals": {
-      "records": 432,
-      "notes": 451,
-      "links": 3723
+      "records": 434,
+      "notes": 453,
+      "links": 3739
     },
     "added_this_run": {
       "records": 0,
@@ -82,9 +82,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 432,
-      "notes": 451,
-      "links": 3723
+      "records": 434,
+      "notes": 453,
+      "links": 3739
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -520,7 +520,7 @@
   },
   "exchange_rate": {
     "rate": 1383.49,
-    "updated_at": "2026-08-29"
+    "updated_at": "2026-08-30"
   },
-  "last_synced": "08. 29. 오후 08:46 KST"
+  "last_synced": "08. 30. 오전 01:03 KST"
 }
