@@ -346,11 +346,11 @@ nav a{font-size:12px;}
 
   <!-- Shopify -->
   <div class="dashboard-card">
-    <h4><span class="dashboard-card-icon">🎯</span>Shopify 추천 상품</h4>
-    <ul class="mkt-list" id="shopify-list">
-      <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
+    <h4>🎯 Shopify 수요 매칭</h4>
+    <ul class="mkt-list" id="shopify-demand-list">
+        <li style="color:#888;padding:12px 0;">AI 분석중...</li>
     </ul>
-  </div>
+</div>
 
 
   <!-- OliveYoung US -->
@@ -727,13 +727,15 @@ function renderMarketingChannels(d){
     badge: i.badge || (i.rating != null ? String(i.rating) : '')
   }), "green");
 
-  // Shopify 추천 상품
-  render("shopify-list", gc.shopify_recommended || [], i => ({
-    title: i.product || i.title || '',
-    sub: i.niche || i.category || '',
-    badge: i.margin_est || i.status || ''
-  }), "blue");
-}
+  // 🎯Shopify 추천 상품
+  // 🎯 Shopify 수요 매칭
+render("shopify-demand-list", gc.shopify_demand_matching || [], i => ({
+  title: i.product || '',
+  sub: `${i.keyword} · ${i.predicted_orders}주문`,
+  badge: `ROAS ${i.expected_roas}`
+}), "blue");
+
+} // ← renderMarketingChannels 종료
 
 function markOffline(msg){
 const t=$('live-text'); if(t){ t.textContent='OFFLINE'; t.parentElement.style.color='#f85149'; }
