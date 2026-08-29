@@ -425,6 +425,7 @@ def build_global_channels():
     amazon = from_amazon()
     walmart = from_walmart()
 
+    # Ulta
     ulta_raw = from_us_beauty("Ulta")
     ulta_fmt = []
     for i, u in enumerate(ulta_raw):
@@ -434,6 +435,7 @@ def build_global_channels():
             "rating": round(4.3 + (i % 5) * 0.1, 1)
         })
 
+    # Sephora
     sephora_raw = from_us_beauty("Sephora")
     sephora_fmt = []
     for s in sephora_raw:
@@ -443,10 +445,15 @@ def build_global_channels():
             "loves": "—"
         })
 
-    shopify = from_shopify()
-    trends = from_daiso_as_trends()
-    tiktok = FALLBACK["tiktok_shop_us"]
+    # OliveYoung / Shopify
     olive = from_oliveyoung_us()
+    shopify = from_shopify()
+
+    # Google Trends (실제 함수가 없으므로 폴백 사용)
+    trends = FALLBACK["google_trends_us"]
+
+    # TikTok
+    tiktok = FALLBACK["tiktok_shop_us"]
 
     return {
         "amazon_best_sellers": pick(amazon, "amazon_best_sellers"),
@@ -455,14 +462,8 @@ def build_global_channels():
         "google_trends_us": pick(trends, "google_trends_us"),
         "ulta_beauty": pick(ulta_fmt, "ulta_beauty"),
         "sephora": pick(sephora_fmt, "sephora"),
-
-        # 변경된 핵심
-        "shopify_demand_matching": pick(
-            shopify,
-            "shopify_demand_matching"
-        ),
-
-        "oliveyoung_us": pick(olive, "oliveyoung_us")
+        "shopify_demand_matching": pick(shopify, "shopify_demand_matching"),
+        "oliveyoung_us": pick(olive, "oliveyoung_us"),
     }
 
 
