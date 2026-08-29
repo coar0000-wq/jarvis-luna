@@ -342,52 +342,94 @@
         "loves": "1.0M"
       }
     ],
-    "shopify_recommended": [
-      {
-        "niche": "Dropshipping",
-        "product": "LED Therapy Face Mask",
-        "margin_est": "65%"
-      },
-      {
-        "niche": "Private Label",
-        "product": "Vegan Vitamin C Serum",
-        "margin_est": "72%"
-      },
-      {
-        "niche": "K-Beauty",
-        "product": "Snail Mucin Essence Set",
-        "margin_est": "58%"
-      },
-      {
-        "niche": "Skincare Device",
-        "product": "Microcurrent Facial Wand",
-        "margin_est": "68%"
-      },
-      {
-        "niche": "Clean Beauty",
-        "product": "Organic Clay Face Mask",
-        "margin_est": "61%"
-      },
-      {
-        "niche": "Hair Care",
-        "product": "Scalp Massager Brush Kit",
-        "margin_est": "70%"
-      },
-      {
-        "niche": "Body Care",
-        "product": "Whitening Body Lotion",
-        "margin_est": "55%"
-      },
-      {
-        "niche": "Tools",
-        "product": "Jade Roller & Gua Sha Set",
-        "margin_est": "75%"
-      }
-    ]
-  },
-  "exchange_rate": {
-    "rate": 1383.49,
-    "updated_at": "2026-08-29"
-  },
-  "last_synced": "08. 29. 오전 08:40 KST"
+  "shopify_recommended": [
+    {
+      "niche": "Dropshipping",
+      "product": "LED Therapy Face Mask",
+      "margin_est": "65%"
+    },
+    {
+      "niche": "Private Label",
+      "product": "Vegan Vitamin C Serum",
+      "margin_est": "72%"
+    },
+    {
+      "niche": "K-Beauty",
+      "product": "Snail Mucin Essence Set",
+      "margin_est": "58%"
+    },
+    {
+      "niche": "Skincare Device",
+      "product": "Microcurrent Facial Wand",
+      "margin_est": "68%"
+    },
+    {
+      "niche": "Clean Beauty",
+      "product": "Organic Clay Face Mask",
+      "margin_est": "61%"
+    },
+    {
+      "niche": "Hair Care",
+      "product": "Scalp Massager Brush Kit",
+      "margin_est": "70%"
+    },
+    {
+      "niche": "Body Care",
+      "product": "Whitening Body Lotion",
+      "margin_est": "55%"
+    },
+    {
+      "niche": "Tools",
+      "product": "Jade Roller & Gua Sha Set",
+      "margin_est": "75%"
+    }
+  ],
+  "oliveyoung_us": [
+    {
+      "product": "Advanced Snail 96 Mucin Essence",
+      "sub": "COSRX",
+      "badge": "4.9"
+    },
+    {
+      "product": "Heartleaf 77 Toner",
+      "sub": "ANUA",
+      "badge": "4.8"
+    },
+    {
+      "product": "Collagen Jelly Cream",
+      "sub": "BIODANCE",
+      "badge": "4.8"
+    },
+    {
+      "product": "Vita C Dark Spot Serum",
+      "sub": "Goodal",
+      "badge": "4.8"
+    },
+    {
+      "product": "Bean Essence",
+      "sub": "Mixsoon",
+      "badge": "4.7"
+    },
+    {
+      "product": "Rice Toner",
+      "sub": "I'm From",
+      "badge": "4.8"
+    },
+    {
+      "product": "Ceramide Cream",
+      "sub": "Illiyoon",
+      "badge": "4.9"
+    },
+    {
+      "product": "Glutathione Serum",
+      "sub": "APLB",
+      "badge": "4.7"
+    }
+  ]
+},
+"exchange_rate": {
+  "rate": 1383.49,
+  "updated_at": "2026-08-29"
+},
+"last_synced": "08. 29. 오전 08:40 KST"
 }
