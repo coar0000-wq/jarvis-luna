@@ -160,11 +160,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # 최신 main으로 맞춤 (rebase 충돌 방지)
-          git fetch origin main
-          git reset --hard origin/main
-
-          git add .
+          git add -A
 
           if git diff --cached --quiet; then
             echo "No generated changes"
@@ -173,7 +169,9 @@ jobs:
 
           git commit -m "Run JARVIS Daiso + US Beauty Shopify Pipeline & Sync Channels"
 
+          git pull --rebase --autostash origin main
           git push origin HEAD:main
+
       - name: Complete summary
         if: always()
         run: |
