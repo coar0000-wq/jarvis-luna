@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-30T03:46:45.696660+00:00",
+  "generated_at": "2026-08-30T03:58:18.581329+00:00",
   "total_products": 89,
   "grade_summary": {
-    "S": 8,
-    "A": 6,
-    "B": 27,
-    "C": 48
+    "S": 9,
+    "A": 4,
+    "B": 29,
+    "C": 47
   },
   "category_avg_score": {
-    "선케어": 74.0,
+    "선케어": 79.0,
+    "스킨케어": 59.4,
     "클렌징": 59.0,
-    "스킨케어": 58.7,
-    "헤어케어": 48.3,
+    "헤어케어": 53.0,
     "마스크팩": 46.9,
-    "메이크업": 42.9,
+    "메이크업": 43.1,
     "바디케어": 33.0,
     "향수": 25.8,
     "네일": 19.2,
@@ -31,8 +31,8 @@
     "ulta_beauty",
     "walmart_beauty"
   ],
-  "global_demand_signals": 64,
-  "products_with_global_match": 33,
+  "global_demand_signals": 84,
+  "products_with_global_match": 34,
   "priority_note": "한영 매핑 기반 글로벌 8채널 유사도 점수. S/A를 Shopify 우선 후보로 사용.",
   "scoring_model": {
     "logic": "kr_en_lexicon_similarity",
@@ -60,46 +60,46 @@
       "review_count": 938,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
-      "shopify_score": 94,
+      "shopify_score": 95,
       "grade": "S",
       "base_score": 42,
-      "similarity_points": 39,
+      "similarity_points": 40,
       "keyword_points": 4,
       "quality_bonus": 9,
       "penalty": 0,
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "Heartleaf 77 Toner",
+        "channel": "tiktok_shop_us",
+        "global_product": "ANUA Heartleaf 77 Toner",
         "similarity": 0.987,
-        "demand_weight": 0.931,
+        "demand_weight": 0.95,
         "matched_tokens": [
           "heartleaf",
           "toner"
         ],
-        "match_score": 0.919
+        "match_score": 0.937
       },
       "global_matches": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Heartleaf 77 Toner",
+          "channel": "tiktok_shop_us",
+          "global_product": "ANUA Heartleaf 77 Toner",
           "similarity": 0.987,
+          "demand_weight": 0.95,
+          "matched_tokens": [
+            "heartleaf",
+            "toner"
+          ],
+          "match_score": 0.937
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Heartleaf 77 Soothing Toner",
+          "similarity": 0.92,
           "demand_weight": 0.931,
           "matched_tokens": [
             "heartleaf",
             "toner"
           ],
-          "match_score": 0.919
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Anua Heartleaf 77% Toner",
-          "similarity": 0.987,
-          "demand_weight": 0.85,
-          "matched_tokens": [
-            "heartleaf",
-            "toner"
-          ],
-          "match_score": 0.839
+          "match_score": 0.857
         },
         {
           "channel": "shopify_demand_matching",
@@ -113,7 +113,7 @@
           "match_score": 0.825
         }
       ],
-      "recommend_reason": "글로벌 'Heartleaf 77 Toner' (oliveyoung_us) 유사 99% · 토큰 heartleaf,toner"
+      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Toner' (tiktok_shop_us) 유사 99% · 토큰 heartleaf,toner"
     },
     {
       "pd_no": "1045146",
@@ -124,24 +124,44 @@
       "review_count": 1449,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045146",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250425/ATDev4SQOg7J1IEOb9j01045146_00_01ATDev4SQOg7J1IEOb9j0.jpg",
-      "shopify_score": 88,
+      "shopify_score": 93,
       "grade": "S",
       "base_score": 42,
-      "similarity_points": 25,
+      "similarity_points": 30,
       "keyword_points": 12,
       "quality_bonus": 9,
       "penalty": 0,
       "best_global_match": {
-        "channel": "walmart_beauty",
-        "global_product": "Neutrogena Ultra Sheer SPF55",
+        "channel": "tiktok_shop_us",
+        "global_product": "Beauty of Joseon Relief Sun SPF50",
         "similarity": 0.82,
-        "demand_weight": 0.72,
+        "demand_weight": 0.85,
         "matched_tokens": [
           "sunscreen"
         ],
-        "match_score": 0.59
+        "match_score": 0.697
       },
       "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Beauty of Joseon Relief Sun SPF50",
+          "similarity": 0.82,
+          "demand_weight": 0.85,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.697
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Relief Sun Rice SPF50+",
+          "similarity": 0.8,
+          "demand_weight": 0.784,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.627
+        },
         {
           "channel": "walmart_beauty",
           "global_product": "Neutrogena Ultra Sheer SPF55",
@@ -151,19 +171,129 @@
             "sunscreen"
           ],
           "match_score": 0.59
-        },
+        }
+      ],
+      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50' (tiktok_shop_us) 유사 82% · 토큰 sunscreen"
+    },
+    {
+      "pd_no": "1064529",
+      "name": "더마블록 무기자차선크림 35 ml (by 셀퓨전씨)",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.6,
+      "review_count": 349,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064529",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260429/tbdC47YquykbvmA7Ujmi1064529_00_00tbdC47YquykbvmA7Ujmi.jpg",
+      "shopify_score": 88,
+      "grade": "S",
+      "base_score": 42,
+      "similarity_points": 30,
+      "keyword_points": 7,
+      "quality_bonus": 9,
+      "penalty": 0,
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Beauty of Joseon Relief Sun SPF50",
+        "similarity": 0.82,
+        "demand_weight": 0.85,
+        "matched_tokens": [
+          "sunscreen"
+        ],
+        "match_score": 0.697
+      },
+      "global_matches": [
         {
-          "channel": "google_trends_us",
-          "global_product": "SPF Moisturizer",
-          "similarity": 0.92,
-          "demand_weight": 0.56,
+          "channel": "tiktok_shop_us",
+          "global_product": "Beauty of Joseon Relief Sun SPF50",
+          "similarity": 0.82,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "sunscreen"
           ],
-          "match_score": 0.515
+          "match_score": 0.697
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Relief Sun Rice SPF50+",
+          "similarity": 0.8,
+          "demand_weight": 0.784,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.627
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "Neutrogena Ultra Sheer SPF55",
+          "similarity": 0.82,
+          "demand_weight": 0.72,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.59
         }
       ],
-      "recommend_reason": "글로벌 'Neutrogena Ultra Sheer SPF55' (walmart_beauty) 유사 82% · 토큰 sunscreen"
+      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50' (tiktok_shop_us) 유사 82% · 토큰 sunscreen"
+    },
+    {
+      "pd_no": "1068776",
+      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 241,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068776",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250814/kDp8f0Zwxqfnlp3FmmwS1068776_00_01kDp8f0Zwxqfnlp3FmmwS.png",
+      "shopify_score": 86,
+      "grade": "S",
+      "base_score": 42,
+      "similarity_points": 30,
+      "keyword_points": 7,
+      "quality_bonus": 7,
+      "penalty": 0,
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Beauty of Joseon Relief Sun SPF50",
+        "similarity": 0.82,
+        "demand_weight": 0.85,
+        "matched_tokens": [
+          "sunscreen"
+        ],
+        "match_score": 0.697
+      },
+      "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Beauty of Joseon Relief Sun SPF50",
+          "similarity": 0.82,
+          "demand_weight": 0.85,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.697
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Relief Sun Rice SPF50+",
+          "similarity": 0.8,
+          "demand_weight": 0.784,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.627
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "Neutrogena Ultra Sheer SPF55",
+          "similarity": 0.82,
+          "demand_weight": 0.72,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.59
+        }
+      ],
+      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50' (tiktok_shop_us) 유사 82% · 토큰 sunscreen"
     },
     {
       "pd_no": "1060494",
@@ -213,117 +343,17 @@
           "match_score": 0.665
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Bean Essence",
+          "channel": "tiktok_shop_us",
+          "global_product": "COSRX Snail Mucin 96 Essence",
           "similarity": 0.733,
-          "demand_weight": 0.784,
+          "demand_weight": 0.9,
           "matched_tokens": [
             "essence"
           ],
-          "match_score": 0.575
+          "match_score": 0.66
         }
       ],
       "recommend_reason": "글로벌 'Advanced Snail 96 Mucin Essence' (oliveyoung_us) 유사 70% · 토큰 essence"
-    },
-    {
-      "pd_no": "1064529",
-      "name": "더마블록 무기자차선크림 35 ml (by 셀퓨전씨)",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "rating": 4.6,
-      "review_count": 349,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064529",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260429/tbdC47YquykbvmA7Ujmi1064529_00_00tbdC47YquykbvmA7Ujmi.jpg",
-      "shopify_score": 83,
-      "grade": "S",
-      "base_score": 42,
-      "similarity_points": 25,
-      "keyword_points": 7,
-      "quality_bonus": 9,
-      "penalty": 0,
-      "best_global_match": {
-        "channel": "walmart_beauty",
-        "global_product": "Neutrogena Ultra Sheer SPF55",
-        "similarity": 0.82,
-        "demand_weight": 0.72,
-        "matched_tokens": [
-          "sunscreen"
-        ],
-        "match_score": 0.59
-      },
-      "global_matches": [
-        {
-          "channel": "walmart_beauty",
-          "global_product": "Neutrogena Ultra Sheer SPF55",
-          "similarity": 0.82,
-          "demand_weight": 0.72,
-          "matched_tokens": [
-            "sunscreen"
-          ],
-          "match_score": 0.59
-        },
-        {
-          "channel": "google_trends_us",
-          "global_product": "SPF Moisturizer",
-          "similarity": 0.92,
-          "demand_weight": 0.56,
-          "matched_tokens": [
-            "sunscreen"
-          ],
-          "match_score": 0.515
-        }
-      ],
-      "recommend_reason": "글로벌 'Neutrogena Ultra Sheer SPF55' (walmart_beauty) 유사 82% · 토큰 sunscreen"
-    },
-    {
-      "pd_no": "1068776",
-      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 241,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068776",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250814/kDp8f0Zwxqfnlp3FmmwS1068776_00_01kDp8f0Zwxqfnlp3FmmwS.png",
-      "shopify_score": 81,
-      "grade": "S",
-      "base_score": 42,
-      "similarity_points": 25,
-      "keyword_points": 7,
-      "quality_bonus": 7,
-      "penalty": 0,
-      "best_global_match": {
-        "channel": "walmart_beauty",
-        "global_product": "Neutrogena Ultra Sheer SPF55",
-        "similarity": 0.82,
-        "demand_weight": 0.72,
-        "matched_tokens": [
-          "sunscreen"
-        ],
-        "match_score": 0.59
-      },
-      "global_matches": [
-        {
-          "channel": "walmart_beauty",
-          "global_product": "Neutrogena Ultra Sheer SPF55",
-          "similarity": 0.82,
-          "demand_weight": 0.72,
-          "matched_tokens": [
-            "sunscreen"
-          ],
-          "match_score": 0.59
-        },
-        {
-          "channel": "google_trends_us",
-          "global_product": "SPF Moisturizer",
-          "similarity": 0.92,
-          "demand_weight": 0.56,
-          "matched_tokens": [
-            "sunscreen"
-          ],
-          "match_score": 0.515
-        }
-      ],
-      "recommend_reason": "글로벌 'Neutrogena Ultra Sheer SPF55' (walmart_beauty) 유사 82% · 토큰 sunscreen"
     },
     {
       "pd_no": "1062781",
@@ -376,17 +406,78 @@
           "match_score": 0.507
         },
         {
-          "channel": "shopify_demand_matching",
-          "global_product": "Illiyoon Ceramide Cream",
-          "similarity": 0.333,
-          "demand_weight": 0.748,
+          "channel": "tiktok_shop_us",
+          "global_product": "Biodance Collagen Jelly Cream",
+          "similarity": 0.72,
+          "demand_weight": 0.55,
           "matched_tokens": [
+            "collagen",
             "cream"
           ],
-          "match_score": 0.249
+          "match_score": 0.396
         }
       ],
       "recommend_reason": "글로벌 'Collagen Jelly Cream' (oliveyoung_us) 유사 72% · 토큰 collagen,cream"
+    },
+    {
+      "pd_no": "1057223",
+      "name": "태그 핑크 라이트 선쿠션 15 g",
+      "bucket": "선케어",
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 1170,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057223",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240923/QryV7GdM5GG60Zul6wET1057223_00_00QryV7GdM5GG60Zul6wET.jpg",
+      "shopify_score": 79,
+      "grade": "S",
+      "base_score": 40,
+      "similarity_points": 30,
+      "keyword_points": 0,
+      "quality_bonus": 9,
+      "penalty": 0,
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Beauty of Joseon Relief Sun SPF50",
+        "similarity": 0.82,
+        "demand_weight": 0.85,
+        "matched_tokens": [
+          "sunscreen"
+        ],
+        "match_score": 0.697
+      },
+      "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Beauty of Joseon Relief Sun SPF50",
+          "similarity": 0.82,
+          "demand_weight": 0.85,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.697
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Relief Sun Rice SPF50+",
+          "similarity": 0.8,
+          "demand_weight": 0.784,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.627
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "Neutrogena Ultra Sheer SPF55",
+          "similarity": 0.82,
+          "demand_weight": 0.72,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.59
+        }
+      ],
+      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50' (tiktok_shop_us) 유사 82% · 토큰 sunscreen"
     },
     {
       "pd_no": "1070006",
@@ -406,24 +497,24 @@
       "penalty": 0,
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "Vita C Dark Spot Serum",
-        "similarity": 0.68,
+        "global_product": "Green Tangerine Vita C Dark Spot Serum",
+        "similarity": 0.657,
         "demand_weight": 0.833,
         "matched_tokens": [
           "serum"
         ],
-        "match_score": 0.566
+        "match_score": 0.547
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "Vita C Dark Spot Serum",
-          "similarity": 0.68,
+          "global_product": "Green Tangerine Vita C Dark Spot Serum",
+          "similarity": 0.657,
           "demand_weight": 0.833,
           "matched_tokens": [
             "serum"
           ],
-          "match_score": 0.566
+          "match_score": 0.547
         },
         {
           "channel": "shopify_demand_matching",
@@ -436,67 +527,17 @@
           "match_score": 0.539
         },
         {
-          "channel": "google_trends_us",
-          "global_product": "Ceramide Serum",
-          "similarity": 0.8,
-          "demand_weight": 0.665,
+          "channel": "walmart_beauty",
+          "global_product": "The Ordinary Hyaluronic Acid 2%",
+          "similarity": 0.7,
+          "demand_weight": 0.68,
           "matched_tokens": [
             "serum"
           ],
-          "match_score": 0.532
+          "match_score": 0.476
         }
       ],
-      "recommend_reason": "글로벌 'Vita C Dark Spot Serum' (oliveyoung_us) 유사 68% · 토큰 serum"
-    },
-    {
-      "pd_no": "1057223",
-      "name": "태그 핑크 라이트 선쿠션 15 g",
-      "bucket": "선케어",
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 1170,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057223",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240923/QryV7GdM5GG60Zul6wET1057223_00_00QryV7GdM5GG60Zul6wET.jpg",
-      "shopify_score": 74,
-      "grade": "S",
-      "base_score": 40,
-      "similarity_points": 25,
-      "keyword_points": 0,
-      "quality_bonus": 9,
-      "penalty": 0,
-      "best_global_match": {
-        "channel": "walmart_beauty",
-        "global_product": "Neutrogena Ultra Sheer SPF55",
-        "similarity": 0.82,
-        "demand_weight": 0.72,
-        "matched_tokens": [
-          "sunscreen"
-        ],
-        "match_score": 0.59
-      },
-      "global_matches": [
-        {
-          "channel": "walmart_beauty",
-          "global_product": "Neutrogena Ultra Sheer SPF55",
-          "similarity": 0.82,
-          "demand_weight": 0.72,
-          "matched_tokens": [
-            "sunscreen"
-          ],
-          "match_score": 0.59
-        },
-        {
-          "channel": "google_trends_us",
-          "global_product": "SPF Moisturizer",
-          "similarity": 0.92,
-          "demand_weight": 0.56,
-          "matched_tokens": [
-            "sunscreen"
-          ],
-          "match_score": 0.515
-        }
-      ],
-      "recommend_reason": "글로벌 'Neutrogena Ultra Sheer SPF55' (walmart_beauty) 유사 82% · 토큰 sunscreen"
+      "recommend_reason": "글로벌 'Green Tangerine Vita C Dark Spot Serum' (oliveyoung_us) 유사 66% · 토큰 serum"
     },
     {
       "pd_no": "1048581",
@@ -507,10 +548,10 @@
       "review_count": 1595,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/dGPcdv5GMSvAapO6LS5d1048581_00_00dGPcdv5GMSvAapO6LS5d.png",
-      "shopify_score": 69,
-      "grade": "A",
+      "shopify_score": 70,
+      "grade": "S",
       "base_score": 42,
-      "similarity_points": 12,
+      "similarity_points": 13,
       "keyword_points": 6,
       "quality_bonus": 9,
       "penalty": 0,
@@ -536,6 +577,16 @@
           "match_score": 0.3
         },
         {
+          "channel": "oliveyoung_us",
+          "global_product": "Madagascar Centella Ampoule",
+          "similarity": 0.4,
+          "demand_weight": 0.735,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.294
+        },
+        {
           "channel": "amazon_best_sellers",
           "global_product": "Skin1004 Madagascar Centella Ampoule",
           "similarity": 0.4,
@@ -547,6 +598,66 @@
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule"
+    },
+    {
+      "pd_no": "1048042",
+      "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
+      "bucket": "메이크업",
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 223,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048042",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260708/ucPr4JN4R7KwEkLxL7CH1048042_00_00ucPr4JN4R7KwEkLxL7CH.jpg",
+      "shopify_score": 69,
+      "grade": "A",
+      "base_score": 32,
+      "similarity_points": 30,
+      "keyword_points": 0,
+      "quality_bonus": 7,
+      "penalty": 0,
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.733,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "cushion"
+        ],
+        "match_score": 0.733
+      },
+      "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "TIRTIR Mask Fit Red Cushion",
+          "similarity": 0.733,
+          "demand_weight": 1.0,
+          "matched_tokens": [
+            "cushion"
+          ],
+          "match_score": 0.733
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Mask Fit Red Cushion",
+          "similarity": 0.733,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "cushion"
+          ],
+          "match_score": 0.359
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Clio Kill Cover Cushion",
+          "similarity": 0.7,
+          "demand_weight": 0.5,
+          "matched_tokens": [
+            "cushion"
+          ],
+          "match_score": 0.35
+        }
+      ],
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion"
     },
     {
       "pd_no": "1067024",
@@ -607,106 +718,6 @@
         }
       ],
       "recommend_reason": "글로벌 'CeraVe Foaming Facial Cleanser' (amazon_best_sellers) 유사 70% · 토큰 cleanser"
-    },
-    {
-      "pd_no": "1068733",
-      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "rating": 4.4,
-      "review_count": 423,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/rb7tUhT1C5xKYvlAevXm1068733_00_00rb7tUhT1C5xKYvlAevXm.jpg",
-      "shopify_score": 67,
-      "grade": "A",
-      "base_score": 42,
-      "similarity_points": 12,
-      "keyword_points": 6,
-      "quality_bonus": 7,
-      "penalty": 0,
-      "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "Vita C Dark Spot Serum",
-        "similarity": 0.35,
-        "demand_weight": 0.833,
-        "matched_tokens": [
-          "vitaminc"
-        ],
-        "match_score": 0.292
-      },
-      "global_matches": [
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "Vita C Dark Spot Serum",
-          "similarity": 0.35,
-          "demand_weight": 0.833,
-          "matched_tokens": [
-            "vitaminc"
-          ],
-          "match_score": 0.292
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "TIRTIR Mask Fit Red Cushion",
-          "similarity": 0.283,
-          "demand_weight": 1.0,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.283
-        },
-        {
-          "channel": "shopify_demand_matching",
-          "global_product": "Goodal Vita C Dark Spot Serum",
-          "similarity": 0.35,
-          "demand_weight": 0.792,
-          "matched_tokens": [
-            "vitaminc"
-          ],
-          "match_score": 0.277
-        }
-      ],
-      "recommend_reason": "글로벌 'Vita C Dark Spot Serum' (oliveyoung_us) 유사 35% · 토큰 vitaminc"
-    },
-    {
-      "pd_no": "1048042",
-      "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
-      "bucket": "메이크업",
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 223,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048042",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260708/ucPr4JN4R7KwEkLxL7CH1048042_00_00ucPr4JN4R7KwEkLxL7CH.jpg",
-      "shopify_score": 66,
-      "grade": "A",
-      "base_score": 32,
-      "similarity_points": 27,
-      "keyword_points": 0,
-      "quality_bonus": 7,
-      "penalty": 0,
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "TIRTIR Mask Fit Red Cushion",
-        "similarity": 0.733,
-        "demand_weight": 1.0,
-        "matched_tokens": [
-          "cushion"
-        ],
-        "match_score": 0.733
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "TIRTIR Mask Fit Red Cushion",
-          "similarity": 0.733,
-          "demand_weight": 1.0,
-          "matched_tokens": [
-            "cushion"
-          ],
-          "match_score": 0.733
-        }
-      ],
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion"
     },
     {
       "pd_no": "1073704",
@@ -814,6 +825,16 @@
             "collagen"
           ],
           "match_score": 0.366
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Biodance Collagen Jelly Cream",
+          "similarity": 0.52,
+          "demand_weight": 0.55,
+          "matched_tokens": [
+            "collagen"
+          ],
+          "match_score": 0.286
         }
       ],
       "recommend_reason": "글로벌 'Collagen Jelly Cream' (oliveyoung_us) 유사 52% · 토큰 collagen"
@@ -877,6 +898,66 @@
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 mask"
+    },
+    {
+      "pd_no": "1061917",
+      "name": "랩잇 by 닥터지 포어 젤리 마스크 50 ml",
+      "bucket": "마스크팩",
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 104,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061917",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250220/bk6Pq0Cg9BN636g1p8bJ1061917_00_01bk6Pq0Cg9BN636g1p8bJ.jpg",
+      "shopify_score": 79,
+      "grade": "B",
+      "base_score": 38,
+      "similarity_points": 31,
+      "keyword_points": 3,
+      "quality_bonus": 7,
+      "penalty": 0,
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.733,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "mask"
+        ],
+        "match_score": 0.733
+      },
+      "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "TIRTIR Mask Fit Red Cushion",
+          "similarity": 0.733,
+          "demand_weight": 1.0,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.733
+        },
+        {
+          "channel": "sephora",
+          "global_product": "Laneige Lip Sleeping Mask",
+          "similarity": 0.667,
+          "demand_weight": 0.855,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.57
+        },
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "Laneige Lip Sleeping Mask",
+          "similarity": 0.7,
+          "demand_weight": 0.665,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.465
+        }
+      ],
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 mask"
     }
   ],
   "all_scored": [
@@ -889,46 +970,46 @@
       "review_count": 938,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
-      "shopify_score": 94,
+      "shopify_score": 95,
       "grade": "S",
       "base_score": 42,
-      "similarity_points": 39,
+      "similarity_points": 40,
       "keyword_points": 4,
       "quality_bonus": 9,
       "penalty": 0,
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "Heartleaf 77 Toner",
+        "channel": "tiktok_shop_us",
+        "global_product": "ANUA Heartleaf 77 Toner",
         "similarity": 0.987,
-        "demand_weight": 0.931,
+        "demand_weight": 0.95,
         "matched_tokens": [
           "heartleaf",
           "toner"
         ],
-        "match_score": 0.919
+        "match_score": 0.937
       },
       "global_matches": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Heartleaf 77 Toner",
+          "channel": "tiktok_shop_us",
+          "global_product": "ANUA Heartleaf 77 Toner",
           "similarity": 0.987,
+          "demand_weight": 0.95,
+          "matched_tokens": [
+            "heartleaf",
+            "toner"
+          ],
+          "match_score": 0.937
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Heartleaf 77 Soothing Toner",
+          "similarity": 0.92,
           "demand_weight": 0.931,
           "matched_tokens": [
             "heartleaf",
             "toner"
           ],
-          "match_score": 0.919
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Anua Heartleaf 77% Toner",
-          "similarity": 0.987,
-          "demand_weight": 0.85,
-          "matched_tokens": [
-            "heartleaf",
-            "toner"
-          ],
-          "match_score": 0.839
+          "match_score": 0.857
         },
         {
           "channel": "shopify_demand_matching",
@@ -942,7 +1023,7 @@
           "match_score": 0.825
         }
       ],
-      "recommend_reason": "글로벌 'Heartleaf 77 Toner' (oliveyoung_us) 유사 99% · 토큰 heartleaf,toner"
+      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Toner' (tiktok_shop_us) 유사 99% · 토큰 heartleaf,toner"
     },
     {
       "pd_no": "1045146",
@@ -953,24 +1034,44 @@
       "review_count": 1449,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045146",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250425/ATDev4SQOg7J1IEOb9j01045146_00_01ATDev4SQOg7J1IEOb9j0.jpg",
-      "shopify_score": 88,
+      "shopify_score": 93,
       "grade": "S",
       "base_score": 42,
-      "similarity_points": 25,
+      "similarity_points": 30,
       "keyword_points": 12,
       "quality_bonus": 9,
       "penalty": 0,
       "best_global_match": {
-        "channel": "walmart_beauty",
-        "global_product": "Neutrogena Ultra Sheer SPF55",
+        "channel": "tiktok_shop_us",
+        "global_product": "Beauty of Joseon Relief Sun SPF50",
         "similarity": 0.82,
-        "demand_weight": 0.72,
+        "demand_weight": 0.85,
         "matched_tokens": [
           "sunscreen"
         ],
-        "match_score": 0.59
+        "match_score": 0.697
       },
       "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Beauty of Joseon Relief Sun SPF50",
+          "similarity": 0.82,
+          "demand_weight": 0.85,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.697
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Relief Sun Rice SPF50+",
+          "similarity": 0.8,
+          "demand_weight": 0.784,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.627
+        },
         {
           "channel": "walmart_beauty",
           "global_product": "Neutrogena Ultra Sheer SPF55",
@@ -980,19 +1081,129 @@
             "sunscreen"
           ],
           "match_score": 0.59
-        },
+        }
+      ],
+      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50' (tiktok_shop_us) 유사 82% · 토큰 sunscreen"
+    },
+    {
+      "pd_no": "1064529",
+      "name": "더마블록 무기자차선크림 35 ml (by 셀퓨전씨)",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.6,
+      "review_count": 349,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064529",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260429/tbdC47YquykbvmA7Ujmi1064529_00_00tbdC47YquykbvmA7Ujmi.jpg",
+      "shopify_score": 88,
+      "grade": "S",
+      "base_score": 42,
+      "similarity_points": 30,
+      "keyword_points": 7,
+      "quality_bonus": 9,
+      "penalty": 0,
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Beauty of Joseon Relief Sun SPF50",
+        "similarity": 0.82,
+        "demand_weight": 0.85,
+        "matched_tokens": [
+          "sunscreen"
+        ],
+        "match_score": 0.697
+      },
+      "global_matches": [
         {
-          "channel": "google_trends_us",
-          "global_product": "SPF Moisturizer",
-          "similarity": 0.92,
-          "demand_weight": 0.56,
+          "channel": "tiktok_shop_us",
+          "global_product": "Beauty of Joseon Relief Sun SPF50",
+          "similarity": 0.82,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "sunscreen"
           ],
-          "match_score": 0.515
+          "match_score": 0.697
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Relief Sun Rice SPF50+",
+          "similarity": 0.8,
+          "demand_weight": 0.784,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.627
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "Neutrogena Ultra Sheer SPF55",
+          "similarity": 0.82,
+          "demand_weight": 0.72,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.59
         }
       ],
-      "recommend_reason": "글로벌 'Neutrogena Ultra Sheer SPF55' (walmart_beauty) 유사 82% · 토큰 sunscreen"
+      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50' (tiktok_shop_us) 유사 82% · 토큰 sunscreen"
+    },
+    {
+      "pd_no": "1068776",
+      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 241,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068776",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250814/kDp8f0Zwxqfnlp3FmmwS1068776_00_01kDp8f0Zwxqfnlp3FmmwS.png",
+      "shopify_score": 86,
+      "grade": "S",
+      "base_score": 42,
+      "similarity_points": 30,
+      "keyword_points": 7,
+      "quality_bonus": 7,
+      "penalty": 0,
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Beauty of Joseon Relief Sun SPF50",
+        "similarity": 0.82,
+        "demand_weight": 0.85,
+        "matched_tokens": [
+          "sunscreen"
+        ],
+        "match_score": 0.697
+      },
+      "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Beauty of Joseon Relief Sun SPF50",
+          "similarity": 0.82,
+          "demand_weight": 0.85,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.697
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Relief Sun Rice SPF50+",
+          "similarity": 0.8,
+          "demand_weight": 0.784,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.627
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "Neutrogena Ultra Sheer SPF55",
+          "similarity": 0.82,
+          "demand_weight": 0.72,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.59
+        }
+      ],
+      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50' (tiktok_shop_us) 유사 82% · 토큰 sunscreen"
     },
     {
       "pd_no": "1060494",
@@ -1042,117 +1253,17 @@
           "match_score": 0.665
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Bean Essence",
+          "channel": "tiktok_shop_us",
+          "global_product": "COSRX Snail Mucin 96 Essence",
           "similarity": 0.733,
-          "demand_weight": 0.784,
+          "demand_weight": 0.9,
           "matched_tokens": [
             "essence"
           ],
-          "match_score": 0.575
+          "match_score": 0.66
         }
       ],
       "recommend_reason": "글로벌 'Advanced Snail 96 Mucin Essence' (oliveyoung_us) 유사 70% · 토큰 essence"
-    },
-    {
-      "pd_no": "1064529",
-      "name": "더마블록 무기자차선크림 35 ml (by 셀퓨전씨)",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "rating": 4.6,
-      "review_count": 349,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064529",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260429/tbdC47YquykbvmA7Ujmi1064529_00_00tbdC47YquykbvmA7Ujmi.jpg",
-      "shopify_score": 83,
-      "grade": "S",
-      "base_score": 42,
-      "similarity_points": 25,
-      "keyword_points": 7,
-      "quality_bonus": 9,
-      "penalty": 0,
-      "best_global_match": {
-        "channel": "walmart_beauty",
-        "global_product": "Neutrogena Ultra Sheer SPF55",
-        "similarity": 0.82,
-        "demand_weight": 0.72,
-        "matched_tokens": [
-          "sunscreen"
-        ],
-        "match_score": 0.59
-      },
-      "global_matches": [
-        {
-          "channel": "walmart_beauty",
-          "global_product": "Neutrogena Ultra Sheer SPF55",
-          "similarity": 0.82,
-          "demand_weight": 0.72,
-          "matched_tokens": [
-            "sunscreen"
-          ],
-          "match_score": 0.59
-        },
-        {
-          "channel": "google_trends_us",
-          "global_product": "SPF Moisturizer",
-          "similarity": 0.92,
-          "demand_weight": 0.56,
-          "matched_tokens": [
-            "sunscreen"
-          ],
-          "match_score": 0.515
-        }
-      ],
-      "recommend_reason": "글로벌 'Neutrogena Ultra Sheer SPF55' (walmart_beauty) 유사 82% · 토큰 sunscreen"
-    },
-    {
-      "pd_no": "1068776",
-      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 241,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068776",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250814/kDp8f0Zwxqfnlp3FmmwS1068776_00_01kDp8f0Zwxqfnlp3FmmwS.png",
-      "shopify_score": 81,
-      "grade": "S",
-      "base_score": 42,
-      "similarity_points": 25,
-      "keyword_points": 7,
-      "quality_bonus": 7,
-      "penalty": 0,
-      "best_global_match": {
-        "channel": "walmart_beauty",
-        "global_product": "Neutrogena Ultra Sheer SPF55",
-        "similarity": 0.82,
-        "demand_weight": 0.72,
-        "matched_tokens": [
-          "sunscreen"
-        ],
-        "match_score": 0.59
-      },
-      "global_matches": [
-        {
-          "channel": "walmart_beauty",
-          "global_product": "Neutrogena Ultra Sheer SPF55",
-          "similarity": 0.82,
-          "demand_weight": 0.72,
-          "matched_tokens": [
-            "sunscreen"
-          ],
-          "match_score": 0.59
-        },
-        {
-          "channel": "google_trends_us",
-          "global_product": "SPF Moisturizer",
-          "similarity": 0.92,
-          "demand_weight": 0.56,
-          "matched_tokens": [
-            "sunscreen"
-          ],
-          "match_score": 0.515
-        }
-      ],
-      "recommend_reason": "글로벌 'Neutrogena Ultra Sheer SPF55' (walmart_beauty) 유사 82% · 토큰 sunscreen"
     },
     {
       "pd_no": "1004153",
@@ -1265,17 +1376,78 @@
           "match_score": 0.507
         },
         {
-          "channel": "shopify_demand_matching",
-          "global_product": "Illiyoon Ceramide Cream",
-          "similarity": 0.333,
-          "demand_weight": 0.748,
+          "channel": "tiktok_shop_us",
+          "global_product": "Biodance Collagen Jelly Cream",
+          "similarity": 0.72,
+          "demand_weight": 0.55,
           "matched_tokens": [
+            "collagen",
             "cream"
           ],
-          "match_score": 0.249
+          "match_score": 0.396
         }
       ],
       "recommend_reason": "글로벌 'Collagen Jelly Cream' (oliveyoung_us) 유사 72% · 토큰 collagen,cream"
+    },
+    {
+      "pd_no": "1057223",
+      "name": "태그 핑크 라이트 선쿠션 15 g",
+      "bucket": "선케어",
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 1170,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057223",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240923/QryV7GdM5GG60Zul6wET1057223_00_00QryV7GdM5GG60Zul6wET.jpg",
+      "shopify_score": 79,
+      "grade": "S",
+      "base_score": 40,
+      "similarity_points": 30,
+      "keyword_points": 0,
+      "quality_bonus": 9,
+      "penalty": 0,
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Beauty of Joseon Relief Sun SPF50",
+        "similarity": 0.82,
+        "demand_weight": 0.85,
+        "matched_tokens": [
+          "sunscreen"
+        ],
+        "match_score": 0.697
+      },
+      "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Beauty of Joseon Relief Sun SPF50",
+          "similarity": 0.82,
+          "demand_weight": 0.85,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.697
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Relief Sun Rice SPF50+",
+          "similarity": 0.8,
+          "demand_weight": 0.784,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.627
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "Neutrogena Ultra Sheer SPF55",
+          "similarity": 0.82,
+          "demand_weight": 0.72,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.59
+        }
+      ],
+      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50' (tiktok_shop_us) 유사 82% · 토큰 sunscreen"
     },
     {
       "pd_no": "1061917",
@@ -1475,24 +1647,24 @@
       "penalty": 0,
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "Vita C Dark Spot Serum",
-        "similarity": 0.68,
+        "global_product": "Green Tangerine Vita C Dark Spot Serum",
+        "similarity": 0.657,
         "demand_weight": 0.833,
         "matched_tokens": [
           "serum"
         ],
-        "match_score": 0.566
+        "match_score": 0.547
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "Vita C Dark Spot Serum",
-          "similarity": 0.68,
+          "global_product": "Green Tangerine Vita C Dark Spot Serum",
+          "similarity": 0.657,
           "demand_weight": 0.833,
           "matched_tokens": [
             "serum"
           ],
-          "match_score": 0.566
+          "match_score": 0.547
         },
         {
           "channel": "shopify_demand_matching",
@@ -1505,67 +1677,17 @@
           "match_score": 0.539
         },
         {
-          "channel": "google_trends_us",
-          "global_product": "Ceramide Serum",
-          "similarity": 0.8,
-          "demand_weight": 0.665,
+          "channel": "walmart_beauty",
+          "global_product": "The Ordinary Hyaluronic Acid 2%",
+          "similarity": 0.7,
+          "demand_weight": 0.68,
           "matched_tokens": [
             "serum"
           ],
-          "match_score": 0.532
+          "match_score": 0.476
         }
       ],
-      "recommend_reason": "글로벌 'Vita C Dark Spot Serum' (oliveyoung_us) 유사 68% · 토큰 serum"
-    },
-    {
-      "pd_no": "1057223",
-      "name": "태그 핑크 라이트 선쿠션 15 g",
-      "bucket": "선케어",
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 1170,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057223",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240923/QryV7GdM5GG60Zul6wET1057223_00_00QryV7GdM5GG60Zul6wET.jpg",
-      "shopify_score": 74,
-      "grade": "S",
-      "base_score": 40,
-      "similarity_points": 25,
-      "keyword_points": 0,
-      "quality_bonus": 9,
-      "penalty": 0,
-      "best_global_match": {
-        "channel": "walmart_beauty",
-        "global_product": "Neutrogena Ultra Sheer SPF55",
-        "similarity": 0.82,
-        "demand_weight": 0.72,
-        "matched_tokens": [
-          "sunscreen"
-        ],
-        "match_score": 0.59
-      },
-      "global_matches": [
-        {
-          "channel": "walmart_beauty",
-          "global_product": "Neutrogena Ultra Sheer SPF55",
-          "similarity": 0.82,
-          "demand_weight": 0.72,
-          "matched_tokens": [
-            "sunscreen"
-          ],
-          "match_score": 0.59
-        },
-        {
-          "channel": "google_trends_us",
-          "global_product": "SPF Moisturizer",
-          "similarity": 0.92,
-          "demand_weight": 0.56,
-          "matched_tokens": [
-            "sunscreen"
-          ],
-          "match_score": 0.515
-        }
-      ],
-      "recommend_reason": "글로벌 'Neutrogena Ultra Sheer SPF55' (walmart_beauty) 유사 82% · 토큰 sunscreen"
+      "recommend_reason": "글로벌 'Green Tangerine Vita C Dark Spot Serum' (oliveyoung_us) 유사 66% · 토큰 serum"
     },
     {
       "pd_no": "1035210",
@@ -1676,10 +1798,10 @@
       "review_count": 1595,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/dGPcdv5GMSvAapO6LS5d1048581_00_00dGPcdv5GMSvAapO6LS5d.png",
-      "shopify_score": 69,
-      "grade": "A",
+      "shopify_score": 70,
+      "grade": "S",
       "base_score": 42,
-      "similarity_points": 12,
+      "similarity_points": 13,
       "keyword_points": 6,
       "quality_bonus": 9,
       "penalty": 0,
@@ -1705,6 +1827,16 @@
           "match_score": 0.3
         },
         {
+          "channel": "oliveyoung_us",
+          "global_product": "Madagascar Centella Ampoule",
+          "similarity": 0.4,
+          "demand_weight": 0.735,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.294
+        },
+        {
           "channel": "amazon_best_sellers",
           "global_product": "Skin1004 Madagascar Centella Ampoule",
           "similarity": 0.4,
@@ -1716,6 +1848,66 @@
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule"
+    },
+    {
+      "pd_no": "1048042",
+      "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
+      "bucket": "메이크업",
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 223,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048042",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260708/ucPr4JN4R7KwEkLxL7CH1048042_00_00ucPr4JN4R7KwEkLxL7CH.jpg",
+      "shopify_score": 69,
+      "grade": "A",
+      "base_score": 32,
+      "similarity_points": 30,
+      "keyword_points": 0,
+      "quality_bonus": 7,
+      "penalty": 0,
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.733,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "cushion"
+        ],
+        "match_score": 0.733
+      },
+      "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "TIRTIR Mask Fit Red Cushion",
+          "similarity": 0.733,
+          "demand_weight": 1.0,
+          "matched_tokens": [
+            "cushion"
+          ],
+          "match_score": 0.733
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Mask Fit Red Cushion",
+          "similarity": 0.733,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "cushion"
+          ],
+          "match_score": 0.359
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Clio Kill Cover Cushion",
+          "similarity": 0.7,
+          "demand_weight": 0.5,
+          "matched_tokens": [
+            "cushion"
+          ],
+          "match_score": 0.35
+        }
+      ],
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion"
     },
     {
       "pd_no": "1067024",
@@ -1816,13 +2008,13 @@
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Vita C Dark Spot Serum",
-          "similarity": 0.5,
+          "global_product": "Green Tangerine Vita C Dark Spot Serum",
+          "similarity": 0.477,
           "demand_weight": 0.833,
           "matched_tokens": [
             "vitaminc"
           ],
-          "match_score": 0.416
+          "match_score": 0.397
         },
         {
           "channel": "shopify_demand_matching",
@@ -1847,33 +2039,23 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/rb7tUhT1C5xKYvlAevXm1068733_00_00rb7tUhT1C5xKYvlAevXm.jpg",
       "shopify_score": 67,
-      "grade": "A",
+      "grade": "B",
       "base_score": 42,
       "similarity_points": 12,
       "keyword_points": 6,
       "quality_bonus": 7,
       "penalty": 0,
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "Vita C Dark Spot Serum",
-        "similarity": 0.35,
-        "demand_weight": 0.833,
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.283,
+        "demand_weight": 1.0,
         "matched_tokens": [
-          "vitaminc"
+          "mask"
         ],
-        "match_score": 0.292
+        "match_score": 0.283
       },
       "global_matches": [
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "Vita C Dark Spot Serum",
-          "similarity": 0.35,
-          "demand_weight": 0.833,
-          "matched_tokens": [
-            "vitaminc"
-          ],
-          "match_score": 0.292
-        },
         {
           "channel": "tiktok_shop_us",
           "global_product": "TIRTIR Mask Fit Red Cushion",
@@ -1893,49 +2075,19 @@
             "vitaminc"
           ],
           "match_score": 0.277
-        }
-      ],
-      "recommend_reason": "글로벌 'Vita C Dark Spot Serum' (oliveyoung_us) 유사 35% · 토큰 vitaminc"
-    },
-    {
-      "pd_no": "1048042",
-      "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
-      "bucket": "메이크업",
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 223,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048042",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260708/ucPr4JN4R7KwEkLxL7CH1048042_00_00ucPr4JN4R7KwEkLxL7CH.jpg",
-      "shopify_score": 66,
-      "grade": "A",
-      "base_score": 32,
-      "similarity_points": 27,
-      "keyword_points": 0,
-      "quality_bonus": 7,
-      "penalty": 0,
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "TIRTIR Mask Fit Red Cushion",
-        "similarity": 0.733,
-        "demand_weight": 1.0,
-        "matched_tokens": [
-          "cushion"
-        ],
-        "match_score": 0.733
-      },
-      "global_matches": [
+        },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "TIRTIR Mask Fit Red Cushion",
-          "similarity": 0.733,
-          "demand_weight": 1.0,
+          "channel": "oliveyoung_us",
+          "global_product": "Green Tangerine Vita C Dark Spot Serum",
+          "similarity": 0.327,
+          "demand_weight": 0.833,
           "matched_tokens": [
-            "cushion"
+            "vitaminc"
           ],
-          "match_score": 0.733
+          "match_score": 0.273
         }
       ],
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion"
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 28% · 토큰 mask"
     },
     {
       "pd_no": "1073704",
@@ -2043,6 +2195,16 @@
             "collagen"
           ],
           "match_score": 0.366
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Biodance Collagen Jelly Cream",
+          "similarity": 0.52,
+          "demand_weight": 0.55,
+          "matched_tokens": [
+            "collagen"
+          ],
+          "match_score": 0.286
         }
       ],
       "recommend_reason": "글로벌 'Collagen Jelly Cream' (oliveyoung_us) 유사 52% · 토큰 collagen"
@@ -2095,14 +2257,14 @@
           "match_score": 0.39
         },
         {
-          "channel": "amazon_best_sellers",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
+          "channel": "oliveyoung_us",
+          "global_product": "Madagascar Centella Ampoule",
           "similarity": 0.52,
-          "demand_weight": 0.617,
+          "demand_weight": 0.735,
           "matched_tokens": [
             "centella"
           ],
-          "match_score": 0.321
+          "match_score": 0.382
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 43% · 토큰 mask"
@@ -2364,16 +2526,26 @@
       "quality_bonus": 9,
       "penalty": 0,
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "Collagen Jelly Cream",
-        "similarity": 0.25,
-        "demand_weight": 0.882,
+        "channel": "tiktok_shop_us",
+        "global_product": "Medicube Zero Pore Pad",
+        "similarity": 0.283,
+        "demand_weight": 0.8,
         "matched_tokens": [
-          "cream"
+          "pore"
         ],
-        "match_score": 0.221
+        "match_score": 0.227
       },
       "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Medicube Zero Pore Pad",
+          "similarity": 0.283,
+          "demand_weight": 0.8,
+          "matched_tokens": [
+            "pore"
+          ],
+          "match_score": 0.227
+        },
         {
           "channel": "oliveyoung_us",
           "global_product": "Collagen Jelly Cream",
@@ -2393,19 +2565,9 @@
             "cream"
           ],
           "match_score": 0.212
-        },
-        {
-          "channel": "google_trends_us",
-          "global_product": "Retinol Cream",
-          "similarity": 0.35,
-          "demand_weight": 0.595,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.208
         }
       ],
-      "recommend_reason": "글로벌 'Collagen Jelly Cream' (oliveyoung_us) 유사 25% · 토큰 cream"
+      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 28% · 토큰 pore"
     },
     {
       "pd_no": "1060505",
@@ -2566,6 +2728,56 @@
         }
       ],
       "recommend_reason": "글로벌 'OGX Argan Oil Shampoo' (walmart_beauty) 유사 70% · 토큰 shampoo"
+    },
+    {
+      "pd_no": "1056662",
+      "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
+      "bucket": "헤어케어",
+      "price_krw": 3000,
+      "rating": 4.7,
+      "review_count": 620,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056662",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/1ZRA1meifAzv5F4DTBP51056662_00_001ZRA1meifAzv5F4DTBP5.jpg",
+      "shopify_score": 53,
+      "grade": "B",
+      "base_score": 30,
+      "similarity_points": 14,
+      "keyword_points": 0,
+      "quality_bonus": 9,
+      "penalty": 0,
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Medicube Zero Pore Pad",
+        "similarity": 0.433,
+        "demand_weight": 0.8,
+        "matched_tokens": [
+          "pore"
+        ],
+        "match_score": 0.347
+      },
+      "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Medicube Zero Pore Pad",
+          "similarity": 0.433,
+          "demand_weight": 0.8,
+          "matched_tokens": [
+            "pore"
+          ],
+          "match_score": 0.347
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Zero Pore Pad",
+          "similarity": 0.433,
+          "demand_weight": 0.539,
+          "matched_tokens": [
+            "pore"
+          ],
+          "match_score": 0.234
+        }
+      ],
+      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore"
     },
     {
       "pd_no": "1053844",
@@ -2879,26 +3091,6 @@
       "shopify_score": 41,
       "grade": "B",
       "base_score": 32,
-      "similarity_points": 0,
-      "keyword_points": 0,
-      "quality_bonus": 9,
-      "penalty": 0,
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "글로벌 시그널 약함"
-    },
-    {
-      "pd_no": "1056662",
-      "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
-      "bucket": "헤어케어",
-      "price_krw": 3000,
-      "rating": 4.7,
-      "review_count": 620,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056662",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/1ZRA1meifAzv5F4DTBP51056662_00_001ZRA1meifAzv5F4DTBP5.jpg",
-      "shopify_score": 39,
-      "grade": "C",
-      "base_score": 30,
       "similarity_points": 0,
       "keyword_points": 0,
       "quality_bonus": 9,
