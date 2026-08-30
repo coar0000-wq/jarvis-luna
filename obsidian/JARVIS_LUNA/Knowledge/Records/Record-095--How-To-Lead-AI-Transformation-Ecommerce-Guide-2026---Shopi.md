@@ -2,7 +2,7 @@
 title: "Record 095 · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T11:56:13.044442+00:00
+updated_at: 2026-08-30T14:13:05.404590+00:00
 tags: [{', '.join(tags)}]
 ---
 

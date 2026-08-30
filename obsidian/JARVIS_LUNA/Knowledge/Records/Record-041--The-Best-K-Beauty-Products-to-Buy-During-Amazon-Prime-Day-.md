@@ -2,7 +2,7 @@
 title: "Record 041 · The-Best-K-Beauty-Products-to-Buy-During-Amazon-Prime-Day---Coveteur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T11:56:13.041159+00:00
+updated_at: 2026-08-30T14:13:05.395589+00:00
 tags: [{', '.join(tags)}]
 ---
 
