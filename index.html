@@ -277,7 +277,8 @@ nav a{font-size:12px;}
 <!-- Shopify 수요 매칭 -->
 <div class="dashboard-card sd-card" style="height:100%;">
 <div class="sd-header">
-<div class="sd-title"><span class="icon">🎯</span>Shopify 수요 매칭</div>
+<div class="sd-title"><span class="icon">🎯</span>Shopify 등록 후보 (S등급)</div>
+<div class="sd-sub" style="font-size:12px;color:#8b949e;margin-top:4px;">글로벌 8채널 수요 ↔ 다이소 유사 SKU · 쇼피파이 1차 등록용</div>
 </div>
 <div class="sd-summary" id="sd-summary">불러오는 중…</div>
 <ul class="sd-list" id="sd-list">
@@ -346,7 +347,7 @@ nav a{font-size:12px;}
 
   <!-- Shopify -->
   <div class="dashboard-card">
-    <h4>🎯 Shopify 수요 매칭</h4>
+    <h4>🎯 Shopify S등급 (다이소)</h4>
     <ul class="mkt-list" id="shopify-demand-list">
         <li style="color:#888;padding:12px 0;">AI 분석중...</li>
     </ul>
@@ -675,31 +676,59 @@ function renderDaiso(s){
   `;
 }
 
-function renderShopifyDemand(sd){
+function renderShopifyDemand(sd, sRec){
 const summary=$('sd-summary');
 const list=$('sd-list');
 if(!summary||!list) return;
-if(!sd||!sd.top_recommendations){
-summary.textContent='수요 점수 데이터 없음';
-list.innerHTML='<li style="color:#666;font-size:13px;">score_shopify_demand.py 실행 필요</li>';
-return;
+
+// S등급 전용 목록 우선 (shopify_s_recommendations.json)
+let items=[];
+if(sRec && Array.isArray(sRec.recommendations) && sRec.recommendations.length){
+  items = sRec.recommendations.map(r=>({
+    name: r.name,
+    grade: r.grade || 'S',
+    bucket: r.bucket || '',
+    price_krw: r.price_krw,
+    shopify_score: r.shopify_score,
+    reason: r.recommend_reason || '',
+    match: r.matched_global || null,
+    url: r.url || ''
+  }));
+} else if(sd && Array.isArray(sd.top_recommendations)){
+  items = (sd.top_recommendations||[]).filter(p=>(p.grade||'')==='S');
+  if(!items.length) items = (sd.top_recommendations||[]).slice(0,8);
 }
-const g=sd.grade_summary||{};
+
+if(!items.length){
+  summary.textContent='S등급 추천 없음';
+  list.innerHTML='<li style="color:#666;font-size:13px;">score_shopify_demand.py 실행 후 shopify_s_recommendations.json 생성 필요</li>';
+  return;
+}
+
+const g=(sd && sd.grade_summary) || {};
+const sCount = (sRec && sRec.count!=null) ? sRec.count : (g.S!=null?g.S:items.length);
 summary.innerHTML=
-'<span class="sd-badge s">S '+(g.S||0)+'</span>'+
-'<span class="sd-badge a">A '+(g.A||0)+'</span>'+
-'<span class="sd-badge b">B '+(g.B||0)+'</span>'+
-'<span class="sd-badge c">C '+(g.C||0)+'</span>';
-list.innerHTML=(sd.top_recommendations||[]).slice(0,8).map((p,i)=>
-'<li class="sd-item">'+
-'<div class="sd-rank">'+(i+1)+'</div>'+
-'<div class="sd-info">'+
-'<div class="sd-name"><span class="sd-grade '+p.grade+'">'+p.grade+'</span>'+esc(p.name)+'</div>'+
-'<div class="sd-meta">'+esc(p.bucket)+' · '+Number(p.price_krw||0).toLocaleString('ko-KR')+'원</div>'+
-'</div>'+
-'<div class="sd-score">'+p.shopify_score+'점</div>'+
-'</li>'
-).join('');
+'<span class="sd-badge s">등록후보 S '+sCount+'</span>'+
+(g.A!=null?'<span class="sd-badge a">A '+(g.A||0)+'</span>':'')+
+(g.B!=null?'<span class="sd-badge b">B '+(g.B||0)+'</span>':'')+
+(g.C!=null?'<span class="sd-badge c">C '+(g.C||0)+'</span>':'')+
+'<span style="font-size:11px;color:#8b949e;margin-left:6px;">쇼피파이 1차 테스트용</span>';
+
+list.innerHTML=items.slice(0,12).map((p,i)=>{
+  const m=p.match||p.best_global_match||null;
+  const matchLine = m
+    ? ('↔ '+esc(m.global_product||'')+' · '+esc(m.channel||''))
+    : esc((p.reason||'').slice(0,80));
+  return '<li class="sd-item">'+
+    '<div class="sd-rank">'+(i+1)+'</div>'+
+    '<div class="sd-info">'+
+      '<div class="sd-name"><span class="sd-grade '+(p.grade||'S')+'">'+(p.grade||'S')+'</span>'+esc(p.name||'')+'</div>'+
+      '<div class="sd-meta">'+esc(p.bucket||'')+' · '+Number(p.price_krw||0).toLocaleString('ko-KR')+'원</div>'+
+      (matchLine?'<div class="sd-meta" style="color:#58a6ff;margin-top:2px;">'+matchLine+'</div>':'')+
+    '</div>'+
+    '<div class="sd-score">'+(p.shopify_score!=null?p.shopify_score:'–')+'점</div>'+
+  '</li>';
+}).join('');
 }
 
 function renderMarketingChannels(d){
@@ -777,12 +806,24 @@ function renderMarketingChannels(d){
     badge: i.badge || (i.rating != null ? String(i.rating) : '')
   }), "green");
 
-  // 🎯 Shopify 수요 매칭
-render("shopify-demand-list", gc.shopify_demand_matching || [], i => ({
-  title: i.product || '',
-  sub: `${i.keyword} · ${i.predicted_orders} 주문`,
-  badge: `${i.demand_score}점`
-}), "blue");
+  // 🎯 Shopify S등급 다이소 등록 후보
+  const sItems = (window.__sRec && window.__sRec.recommendations) || [];
+  if(sItems.length){
+    render("shopify-demand-list", sItems.slice(0,5), i => ({
+      title: i.name || i.product || '',
+      sub: (i.matched_global && i.matched_global.global_product)
+        ? ('↔ '+i.matched_global.global_product)
+        : (i.bucket || ''),
+      badge: (i.shopify_score!=null ? i.shopify_score+'점' : (i.grade||'S'))
+    }), "blue");
+  } else {
+    render("shopify-demand-list", gc.shopify_demand_matching || [], i => ({
+      title: i.product || i.name || '',
+      sub: (i.keyword ? (i.keyword+' · ') : '') + (i.predicted_orders!=null ? i.predicted_orders+' 주문' : (i.bucket||'')),
+      badge: i.demand_score!=null ? (i.demand_score+'점') : (i.grade||'')
+    }), "blue");
+  }
+
 
 } // ← renderMarketingChannels 종료
 function markOffline(msg){
@@ -792,12 +833,13 @@ set('updated-at',msg);
 }
 
 async function loadData(){
-const [rt,tr,src,daiso,sd]=await Promise.allSettled([
+const [rt,tr,src,daiso,sd,sRec]=await Promise.allSettled([
 getJSON('data/dashboard_runtime.json'),
 getJSON('data/knowledge/training_status.json'),
 getJSON('data/knowledge/real_sources.json'),
 getJSON('data/daiso_real/collection_status.json'),
-getJSON('data/daiso_real/shopify_demand_score.json')
+getJSON('data/daiso_real/shopify_demand_score.json'),
+getJSON('data/daiso_real/shopify_s_recommendations.json')
 ]);
 if(rt.status==='fulfilled'){
 const d=rt.value;
@@ -837,7 +879,9 @@ if(rt.status!=='fulfilled') renderTraining(tr.value);
 }else{ renderSources(null); }
 renderLatest(src.status==='fulfilled'?src.value:null);
 renderDaiso(daiso.status==='fulfilled'?daiso.value:null);
-renderShopifyDemand(sd.status==='fulfilled'?sd.value:null);
+window.__sRec = sRec.status==='fulfilled'?sRec.value:null;
+renderShopifyDemand(sd.status==='fulfilled'?sd.value:null, window.__sRec);
+if(window.__runtime) renderMarketingChannels(window.__runtime);
 }
 
 document.addEventListener('DOMContentLoaded',loadData);
