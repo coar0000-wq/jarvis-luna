@@ -2,7 +2,7 @@
 title: "Record 038 · AI-agents-for-ecommerce-how-they-work-top-tools-and-how-to-build-one--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.286191+00:00
+updated_at: 2026-08-30T18:08:47.987198+00:00
 tags: [{', '.join(tags)}]
 ---
 

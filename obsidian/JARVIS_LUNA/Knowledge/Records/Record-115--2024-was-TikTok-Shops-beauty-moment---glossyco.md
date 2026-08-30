@@ -2,7 +2,7 @@
 title: "Record 115 · 2024-was-TikTok-Shops-beauty-moment---glossyco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.300708+00:00
+updated_at: 2026-08-30T18:08:47.999848+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 177 · Glowcations-Are-Trending-on-TikTok--I-Put-it-to-the-Test-at-Coachella-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.312589+00:00
+updated_at: 2026-08-30T18:08:48.010005+00:00
 tags: [{', '.join(tags)}]
 ---
 

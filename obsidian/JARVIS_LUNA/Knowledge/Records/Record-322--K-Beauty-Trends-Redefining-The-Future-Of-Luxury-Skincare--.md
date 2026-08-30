@@ -2,7 +2,7 @@
 title: "Record 322 · K-Beauty-Trends-Redefining-The-Future-Of-Luxury-Skincare---Yahoo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.340253+00:00
+updated_at: 2026-08-30T18:08:48.033580+00:00
 tags: [{', '.join(tags)}]
 ---
 

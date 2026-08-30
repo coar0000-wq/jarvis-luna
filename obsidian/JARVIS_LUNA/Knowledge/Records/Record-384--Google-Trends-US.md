@@ -2,7 +2,7 @@
 title: "Record 384 · Google-Trends-US"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.352035+00:00
+updated_at: 2026-08-30T18:08:48.043764+00:00
 tags: [{', '.join(tags)}]
 ---
 

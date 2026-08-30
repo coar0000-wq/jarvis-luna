@@ -2,7 +2,7 @@
 title: "Record 316 · Shopify-SHOP-Evolution-from-E-Commerce-Platform-to-AI-Operating-System"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.339106+00:00
+updated_at: 2026-08-30T18:08:48.032618+00:00
 tags: [{', '.join(tags)}]
 ---
 

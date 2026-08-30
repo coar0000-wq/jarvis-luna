@@ -2,7 +2,7 @@
 title: "Record 388 · Target-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.352756+00:00
+updated_at: 2026-08-30T18:08:48.044388+00:00
 tags: [{', '.join(tags)}]
 ---
 

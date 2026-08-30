@@ -2,7 +2,7 @@
 title: "Record 205 · White-blush-the-viral-TikTok-makeup-trend-explained---nss-magazine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.317879+00:00
+updated_at: 2026-08-30T18:08:48.014593+00:00
 tags: [{', '.join(tags)}]
 ---
 

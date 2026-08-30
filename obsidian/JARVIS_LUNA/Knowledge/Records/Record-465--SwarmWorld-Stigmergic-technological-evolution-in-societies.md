@@ -2,7 +2,7 @@
 title: "Record 465 · SwarmWorld-Stigmergic-technological-evolution-in-societies-of-language"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.367695+00:00
+updated_at: 2026-08-30T18:08:48.058175+00:00
 tags: [{', '.join(tags)}]
 ---
 

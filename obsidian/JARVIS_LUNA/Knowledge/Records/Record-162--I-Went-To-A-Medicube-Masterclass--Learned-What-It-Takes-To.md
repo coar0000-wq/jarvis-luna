@@ -2,7 +2,7 @@
 title: "Record 162 · I-Went-To-A-Medicube-Masterclass--Learned-What-It-Takes-To-Make-Skin-G"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.309750+00:00
+updated_at: 2026-08-30T18:08:48.007535+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 180 · 8-Tips-to-Prepare-Your-Product-Data-for-AI-Channels---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.313149+00:00
+updated_at: 2026-08-30T18:08:48.010518+00:00
 tags: [{', '.join(tags)}]
 ---
 

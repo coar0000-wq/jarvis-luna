@@ -2,7 +2,7 @@
 title: "Record 265 · My-Entire-Skincare-Routine-of-Korean-Beauty-Products-Is-On-Sale-for-Pr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.329415+00:00
+updated_at: 2026-08-30T18:08:48.024270+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 364 · K-Beautys-Rise-in-the-US-Ingredients-Philosophy-and-The-Shift-to-Layer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.348257+00:00
+updated_at: 2026-08-30T18:08:48.040456+00:00
 tags: [{', '.join(tags)}]
 ---
 

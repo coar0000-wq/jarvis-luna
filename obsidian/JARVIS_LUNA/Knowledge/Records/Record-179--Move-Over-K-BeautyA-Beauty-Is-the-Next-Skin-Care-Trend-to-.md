@@ -2,7 +2,7 @@
 title: "Record 179 · Move-Over-K-BeautyA-Beauty-Is-the-Next-Skin-Care-Trend-to-Know---Real-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.312968+00:00
+updated_at: 2026-08-30T18:08:48.010361+00:00
 tags: [{', '.join(tags)}]
 ---
 

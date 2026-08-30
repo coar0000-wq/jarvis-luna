@@ -2,7 +2,7 @@
 title: "Record 443 · Instagram-Changed-Everything-Again-New-Updates-You-Need-to-Know-in-202"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.363063+00:00
+updated_at: 2026-08-30T18:08:48.053679+00:00
 tags: [{', '.join(tags)}]
 ---
 

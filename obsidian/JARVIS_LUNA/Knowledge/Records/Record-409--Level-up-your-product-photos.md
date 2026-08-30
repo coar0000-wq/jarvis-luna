@@ -2,7 +2,7 @@
 title: "Record 409 · Level-up-your-product-photos"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.357010+00:00
+updated_at: 2026-08-30T18:08:48.048031+00:00
 tags: [{', '.join(tags)}]
 ---
 

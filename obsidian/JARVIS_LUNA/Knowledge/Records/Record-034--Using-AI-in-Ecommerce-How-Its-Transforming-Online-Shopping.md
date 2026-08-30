@@ -2,7 +2,7 @@
 title: "Record 034 · Using-AI-in-Ecommerce-How-Its-Transforming-Online-Shopping---Triple-Wh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.285420+00:00
+updated_at: 2026-08-30T18:08:47.986564+00:00
 tags: [{', '.join(tags)}]
 ---
 

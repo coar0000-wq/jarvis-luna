@@ -2,7 +2,7 @@
 title: "Record 070 · Text-Becomes-AI-Operating-Layer-for-the-Modern-E-commerce-Stack-with-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.292239+00:00
+updated_at: 2026-08-30T18:08:47.992477+00:00
 tags: [{', '.join(tags)}]
 ---
 

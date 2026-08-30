@@ -2,7 +2,7 @@
 title: "Record 049 · Ecommerce-Website-Cost-Full-Guide-for-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.288260+00:00
+updated_at: 2026-08-30T18:08:47.989013+00:00
 tags: [{', '.join(tags)}]
 ---
 

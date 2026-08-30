@@ -2,7 +2,7 @@
 title: "Record 131 · Ecommerce-Fraud-Management-in-the-AI-Era-A-2026-Guide---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.303913+00:00
+updated_at: 2026-08-30T18:08:48.002504+00:00
 tags: [{', '.join(tags)}]
 ---
 

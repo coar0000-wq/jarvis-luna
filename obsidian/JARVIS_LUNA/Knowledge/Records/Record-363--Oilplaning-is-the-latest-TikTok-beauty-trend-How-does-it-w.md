@@ -2,7 +2,7 @@
 title: "Record 363 · Oilplaning-is-the-latest-TikTok-beauty-trend-How-does-it-work---AJCcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.348047+00:00
+updated_at: 2026-08-30T18:08:48.040278+00:00
 tags: [{', '.join(tags)}]
 ---
 

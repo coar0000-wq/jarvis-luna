@@ -2,7 +2,7 @@
 title: "Record 250 · 8-Korean-beauty-launches-and-treatments-we-cant-wait-to-try-silkier-ha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.326550+00:00
+updated_at: 2026-08-30T18:08:48.021801+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 415 · How-to-collect-payments-with-your-Claude-website"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.357959+00:00
+updated_at: 2026-08-30T18:08:48.048948+00:00
 tags: [{', '.join(tags)}]
 ---
 

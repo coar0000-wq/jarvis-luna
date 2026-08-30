@@ -2,7 +2,7 @@
 title: "Record 450 · EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safety-Auditing-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T16:42:22.364652+00:00
+updated_at: 2026-08-30T18:08:48.055054+00:00
 tags: [{', '.join(tags)}]
 ---
 
