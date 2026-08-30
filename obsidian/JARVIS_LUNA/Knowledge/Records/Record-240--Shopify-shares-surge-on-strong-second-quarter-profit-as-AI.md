@@ -2,7 +2,7 @@
 title: "Record 240 · Shopify-shares-surge-on-strong-second-quarter-profit-as-AI-helps-drive"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T23:48:56.739281+00:00
+updated_at: 2026-08-30T02:54:06.056416+00:00
 tags: [{', '.join(tags)}]
 ---
 

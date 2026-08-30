@@ -2,7 +2,7 @@
 title: "Record 443 · MyoMechanix-Biomechanically-Grounded-Compositional-Skilled-Activity-Un"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T23:48:56.776378+00:00
+updated_at: 2026-08-30T02:54:06.073633+00:00
 tags: [{', '.join(tags)}]
 ---
 

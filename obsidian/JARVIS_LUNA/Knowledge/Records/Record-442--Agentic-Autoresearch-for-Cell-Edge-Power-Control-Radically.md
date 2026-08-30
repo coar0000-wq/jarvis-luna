@@ -2,7 +2,7 @@
 title: "Record 442 · Agentic-Autoresearch-for-Cell-Edge-Power-Control-Radically-Redefining-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T23:48:56.776167+00:00
+updated_at: 2026-08-30T02:54:06.073512+00:00
 tags: [{', '.join(tags)}]
 ---
 

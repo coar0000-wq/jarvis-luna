@@ -2,7 +2,7 @@
 title: "Record 095 · Climate-Inspired-K-Beauty-Retail-AXIS-Y-Brings-Its-Climate-Focused-Ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T23:48:56.712430+00:00
+updated_at: 2026-08-30T02:54:06.045496+00:00
 tags: [{', '.join(tags)}]
 ---
 

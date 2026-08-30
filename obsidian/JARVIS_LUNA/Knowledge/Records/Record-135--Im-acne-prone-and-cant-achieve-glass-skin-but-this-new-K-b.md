@@ -2,7 +2,7 @@
 title: "Record 135 · Im-acne-prone-and-cant-achieve-glass-skin-but-this-new-K-beauty-trend-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T23:48:56.720369+00:00
+updated_at: 2026-08-30T02:54:06.048505+00:00
 tags: [{', '.join(tags)}]
 ---
 

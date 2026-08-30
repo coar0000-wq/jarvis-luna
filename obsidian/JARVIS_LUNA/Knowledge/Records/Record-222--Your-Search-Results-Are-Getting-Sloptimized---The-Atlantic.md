@@ -2,7 +2,7 @@
 title: "Record 222 · Your-Search-Results-Are-Getting-Sloptimized---The-Atlantic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T23:48:56.736104+00:00
+updated_at: 2026-08-30T02:54:06.055044+00:00
 tags: [{', '.join(tags)}]
 ---
 

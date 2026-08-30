@@ -2,7 +2,7 @@
 title: "Record 098 · K-beautys-fastest-growing-products-are-quietly-crossing-over-from-cult"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T23:48:56.713068+00:00
+updated_at: 2026-08-30T02:54:06.045724+00:00
 tags: [{', '.join(tags)}]
 ---
 

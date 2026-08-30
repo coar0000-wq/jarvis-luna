@@ -2,7 +2,7 @@
 title: "Record 026 · AI-ROI-How-to-Calculate-Returns-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T23:48:56.698640+00:00
+updated_at: 2026-08-30T02:54:06.040414+00:00
 tags: [{', '.join(tags)}]
 ---
 

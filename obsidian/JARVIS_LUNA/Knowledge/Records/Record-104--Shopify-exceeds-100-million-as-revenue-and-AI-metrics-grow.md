@@ -2,7 +2,7 @@
 title: "Record 104 · Shopify-exceeds-100-million-as-revenue-and-AI-metrics-grow-in-Q1-earni"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T23:48:56.714305+00:00
+updated_at: 2026-08-30T02:54:06.046170+00:00
 tags: [{', '.join(tags)}]
 ---
 

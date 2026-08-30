@@ -2,7 +2,7 @@
 title: "Record 328 · Shopify-sellers-get-in-chat-checkout-and-AI-ticketing-in-one-flow---St"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T23:48:56.754745+00:00
+updated_at: 2026-08-30T02:54:06.063271+00:00
 tags: [{', '.join(tags)}]
 ---
 

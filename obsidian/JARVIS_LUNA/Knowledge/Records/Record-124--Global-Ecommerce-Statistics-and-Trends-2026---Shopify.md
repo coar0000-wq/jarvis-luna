@@ -2,7 +2,7 @@
 title: "Record 124 · Global-Ecommerce-Statistics-and-Trends-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T23:48:56.718411+00:00
+updated_at: 2026-08-30T02:54:06.047665+00:00
 tags: [{', '.join(tags)}]
 ---
 

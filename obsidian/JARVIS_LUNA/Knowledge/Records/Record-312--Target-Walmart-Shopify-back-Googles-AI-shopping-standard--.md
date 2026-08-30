@@ -2,7 +2,7 @@
 title: "Record 312 · Target-Walmart-Shopify-back-Googles-AI-shopping-standard---thestacktec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T23:48:56.751904+00:00
+updated_at: 2026-08-30T02:54:06.062038+00:00
 tags: [{', '.join(tags)}]
 ---
 

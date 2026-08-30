@@ -2,7 +2,7 @@
 title: "Record 325 · Shopifys-results-show-that-AI-is-already-a-driver-of-eCommerce-growth-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T23:48:56.754222+00:00
+updated_at: 2026-08-30T02:54:06.063038+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 047 · Meet-the-K-beauty-products-that-made-a-quiet-leap-from-cult-circles-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T23:48:56.702818+00:00
+updated_at: 2026-08-30T02:54:06.041954+00:00
 tags: [{', '.join(tags)}]
 ---
 

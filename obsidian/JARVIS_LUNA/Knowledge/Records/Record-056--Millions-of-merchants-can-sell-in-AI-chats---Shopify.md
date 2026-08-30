@@ -2,7 +2,7 @@
 title: "Record 056 · Millions-of-merchants-can-sell-in-AI-chats---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T23:48:56.704636+00:00
+updated_at: 2026-08-30T02:54:06.042619+00:00
 tags: [{', '.join(tags)}]
 ---
 

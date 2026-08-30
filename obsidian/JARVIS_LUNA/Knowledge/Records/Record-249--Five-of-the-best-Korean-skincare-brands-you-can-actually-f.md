@@ -2,7 +2,7 @@
 title: "Record 249 · Five-of-the-best-Korean-skincare-brands-you-can-actually-find-in-the-U"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-29T23:48:56.740677+00:00
+updated_at: 2026-08-30T02:54:06.057128+00:00
 tags: [{', '.join(tags)}]
 ---
 
