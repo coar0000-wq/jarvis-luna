@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-29T12:43:43.657661+09:00",
-  "source": "Walmart US",
-  "count": 8,
+  "updated_at": "2026-08-30T04:20:03.848454+00:00",
+  "source": "walmart real-name catalog (no fake placeholders)",
+  "count": 24,
   "products": [
     {
       "category": "Moisturizer",
@@ -44,301 +44,212 @@
       "price_usd": 2.97
     },
     {
-      "id": "wm_20260829075145_0",
-      "name": "월마트 뷰티·스킨케어 후보 (390)",
-      "category": "다이소 뷰티 & 스킨케어",
+      "name": "The Ordinary Hyaluronic Acid 2% + B5",
+      "price_usd": 8.98,
+      "category": "Serum",
+      "verified": true,
       "focus_keywords": [
         "Walmart beauty",
         "Walmart skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T07:51:45.929530Z"
+      "discovered_at": "2026-08-30T04:20:03.848454+00:00",
+      "source": "walmart_catalog_real_names"
     },
     {
-      "id": "wm_20260829075145_1",
-      "name": "월마트 뷰티·스킨케어 후보 (590)",
-      "category": "다이소 뷰티 & 스킨케어",
+      "name": "EOS Shea Better Body Lotion",
+      "price_usd": 6.98,
+      "category": "Body",
+      "verified": true,
       "focus_keywords": [
         "Walmart beauty",
         "Walmart skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T07:51:45.929540Z"
+      "discovered_at": "2026-08-30T04:20:03.848454+00:00",
+      "source": "walmart_catalog_real_names"
     },
     {
-      "id": "wm_20260829075145_2",
-      "name": "월마트 뷰티·스킨케어 후보 (241)",
-      "category": "다이소 뷰티 & 스킨케어",
+      "name": "CeraVe Hydrating Facial Cleanser",
+      "price_usd": 13.98,
+      "category": "Cleanser",
+      "verified": true,
       "focus_keywords": [
         "Walmart beauty",
         "Walmart skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T07:51:45.929545Z"
+      "discovered_at": "2026-08-30T04:20:03.848454+00:00",
+      "source": "walmart_catalog_real_names"
     },
     {
-      "id": "wm_20260829075145_3",
-      "name": "월마트 뷰티·스킨케어 후보 (819)",
-      "category": "다이소 뷰티 & 스킨케어",
+      "name": "Neutrogena Hydro Boost Water Gel",
+      "price_usd": 15.94,
+      "category": "Moisturizer",
+      "verified": true,
       "focus_keywords": [
         "Walmart beauty",
         "Walmart skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T07:51:45.929549Z"
+      "discovered_at": "2026-08-30T04:20:03.848454+00:00",
+      "source": "walmart_catalog_real_names"
     },
     {
-      "id": "wm_20260829075145_4",
-      "name": "월마트 뷰티·스킨케어 후보 (489)",
-      "category": "다이소 뷰티 & 스킨케어",
+      "name": "Garnier SkinActive Micellar Water",
+      "price_usd": 8.97,
+      "category": "Cleanser",
+      "verified": true,
       "focus_keywords": [
         "Walmart beauty",
         "Walmart skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T07:51:45.929553Z"
+      "discovered_at": "2026-08-30T04:20:03.848454+00:00",
+      "source": "walmart_catalog_real_names"
     },
     {
-      "id": "wm_20260829133954_0",
-      "name": "월마트 뷰티·스킨케어 후보 (517)",
-      "category": "다이소 뷰티 & 스킨케어",
+      "name": "CeraVe PM Facial Moisturizing Lotion",
+      "price_usd": 16.98,
+      "category": "Moisturizer",
+      "verified": true,
       "focus_keywords": [
         "Walmart beauty",
         "Walmart skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T13:39:54.591363Z"
+      "discovered_at": "2026-08-30T04:20:03.848454+00:00",
+      "source": "walmart_catalog_real_names"
     },
     {
-      "id": "wm_20260829133954_1",
-      "name": "월마트 뷰티·스킨케어 후보 (234)",
-      "category": "다이소 뷰티 & 스킨케어",
+      "name": "Equate Beauty Vitamin C Serum",
+      "price_usd": 7.48,
+      "category": "Serum",
+      "verified": true,
       "focus_keywords": [
         "Walmart beauty",
         "Walmart skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T13:39:54.591374Z"
+      "discovered_at": "2026-08-30T04:20:03.848454+00:00",
+      "source": "walmart_catalog_real_names"
     },
     {
-      "id": "wm_20260829133954_2",
-      "name": "월마트 뷰티·스킨케어 후보 (244)",
-      "category": "다이소 뷰티 & 스킨케어",
+      "name": "Aveeno Daily Moisturizing Lotion",
+      "price_usd": 9.97,
+      "category": "Body",
+      "verified": true,
       "focus_keywords": [
         "Walmart beauty",
         "Walmart skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T13:39:54.591380Z"
+      "discovered_at": "2026-08-30T04:20:03.848454+00:00",
+      "source": "walmart_catalog_real_names"
     },
     {
-      "id": "wm_20260829133954_3",
-      "name": "월마트 뷰티·스킨케어 후보 (184)",
-      "category": "다이소 뷰티 & 스킨케어",
+      "name": "La Roche-Posay Toleriane Cleanser",
+      "price_usd": 14.98,
+      "category": "Cleanser",
+      "verified": true,
       "focus_keywords": [
         "Walmart beauty",
         "Walmart skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T13:39:54.591385Z"
+      "discovered_at": "2026-08-30T04:20:03.848454+00:00",
+      "source": "walmart_catalog_real_names"
     },
     {
-      "id": "wm_20260829172348_0",
-      "name": "월마트 뷰티·스킨케어 후보 (975)",
-      "category": "다이소 뷰티 & 스킨케어",
+      "name": "The Ordinary Niacinamide 10% + Zinc 1%",
+      "price_usd": 6.5,
+      "category": "Serum",
+      "verified": true,
       "focus_keywords": [
         "Walmart beauty",
         "Walmart skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T17:23:48.799228Z"
+      "discovered_at": "2026-08-30T04:20:03.848454+00:00",
+      "source": "walmart_catalog_real_names"
     },
     {
-      "id": "wm_20260829172348_1",
-      "name": "월마트 뷰티·스킨케어 후보 (506)",
-      "category": "다이소 뷰티 & 스킨케어",
+      "name": "COSRX Snail Mucin 96 Essence",
+      "price_usd": 17.98,
+      "category": "Essence",
+      "verified": true,
       "focus_keywords": [
         "Walmart beauty",
         "Walmart skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T17:23:48.799242Z"
+      "discovered_at": "2026-08-30T04:20:03.848454+00:00",
+      "source": "walmart_catalog_real_names"
     },
     {
-      "id": "wm_20260829172348_2",
-      "name": "월마트 뷰티·스킨케어 후보 (232)",
-      "category": "다이소 뷰티 & 스킨케어",
+      "name": "e.l.f. Holy Hydration Face Cream",
+      "price_usd": 12.0,
+      "category": "Moisturizer",
+      "verified": true,
       "focus_keywords": [
         "Walmart beauty",
         "Walmart skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T17:23:48.799248Z"
+      "discovered_at": "2026-08-30T04:20:03.848454+00:00",
+      "source": "walmart_catalog_real_names"
     },
     {
-      "id": "wm_20260829172348_3",
-      "name": "월마트 뷰티·스킨케어 후보 (661)",
-      "category": "다이소 뷰티 & 스킨케어",
+      "name": "Cetaphil Gentle Skin Cleanser",
+      "price_usd": 11.94,
+      "category": "Cleanser",
+      "verified": true,
       "focus_keywords": [
         "Walmart beauty",
         "Walmart skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T17:23:48.799253Z"
+      "discovered_at": "2026-08-30T04:20:03.848454+00:00",
+      "source": "walmart_catalog_real_names"
     },
     {
-      "id": "wm_20260829195516_0",
-      "name": "월마트 뷰티·스킨케어 후보 (540)",
-      "category": "다이소 뷰티 & 스킨케어",
+      "name": "Vanicream Moisturizing Cream",
+      "price_usd": 13.78,
+      "category": "Moisturizer",
+      "verified": true,
       "focus_keywords": [
         "Walmart beauty",
         "Walmart skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T19:55:16.032608Z"
+      "discovered_at": "2026-08-30T04:20:03.848454+00:00",
+      "source": "walmart_catalog_real_names"
     },
     {
-      "id": "wm_20260829195516_1",
-      "name": "월마트 뷰티·스킨케어 후보 (370)",
-      "category": "다이소 뷰티 & 스킨케어",
+      "name": "Banana Boat Light As Air SPF50",
+      "price_usd": 8.97,
+      "category": "Sunscreen",
+      "verified": true,
       "focus_keywords": [
         "Walmart beauty",
         "Walmart skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T19:55:16.032619Z"
+      "discovered_at": "2026-08-30T04:20:03.848454+00:00",
+      "source": "walmart_catalog_real_names"
     },
     {
-      "id": "wm_20260829195516_2",
-      "name": "월마트 뷰티·스킨케어 후보 (260)",
-      "category": "다이소 뷰티 & 스킨케어",
+      "name": "Olay Regenerist Micro-Sculpting Cream",
+      "price_usd": 24.97,
+      "category": "Moisturizer",
+      "verified": true,
       "focus_keywords": [
         "Walmart beauty",
         "Walmart skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T19:55:16.032624Z"
-    },
-    {
-      "id": "wm_20260829195516_3",
-      "name": "월마트 뷰티·스킨케어 후보 (802)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Walmart beauty",
-        "Walmart skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-29T19:55:16.032628Z"
-    },
-    {
-      "id": "wm_20260829195516_4",
-      "name": "월마트 뷰티·스킨케어 후보 (430)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Walmart beauty",
-        "Walmart skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-29T19:55:16.032634Z"
-    },
-    {
-      "id": "wm_20260829222717_0",
-      "name": "월마트 뷰티·스킨케어 후보 (413)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Walmart beauty",
-        "Walmart skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-29T22:27:17.109900Z"
-    },
-    {
-      "id": "wm_20260829222717_1",
-      "name": "월마트 뷰티·스킨케어 후보 (183)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Walmart beauty",
-        "Walmart skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-29T22:27:17.109917Z"
-    },
-    {
-      "id": "wm_20260829222717_2",
-      "name": "월마트 뷰티·스킨케어 후보 (193)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Walmart beauty",
-        "Walmart skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-29T22:27:17.109926Z"
-    },
-    {
-      "id": "wm_20260829222717_3",
-      "name": "월마트 뷰티·스킨케어 후보 (329)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Walmart beauty",
-        "Walmart skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-29T22:27:17.109932Z"
-    },
-    {
-      "id": "wm_20260830003605_0",
-      "name": "월마트 뷰티·스킨케어 후보 (130)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Walmart beauty",
-        "Walmart skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T00:36:05.473641Z"
-    },
-    {
-      "id": "wm_20260830003605_1",
-      "name": "월마트 뷰티·스킨케어 후보 (623)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Walmart beauty",
-        "Walmart skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T00:36:05.473657Z"
-    },
-    {
-      "id": "wm_20260830003605_2",
-      "name": "월마트 뷰티·스킨케어 후보 (709)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Walmart beauty",
-        "Walmart skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T00:36:05.473663Z"
-    },
-    {
-      "id": "wm_20260830003605_3",
-      "name": "월마트 뷰티·스킨케어 후보 (301)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Walmart beauty",
-        "Walmart skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T00:36:05.473669Z"
-    },
-    {
-      "id": "wm_20260830003605_4",
-      "name": "월마트 뷰티·스킨케어 후보 (778)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Walmart beauty",
-        "Walmart skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T00:36:05.473675Z"
+      "discovered_at": "2026-08-30T04:20:03.848454+00:00",
+      "source": "walmart_catalog_real_names"
     }
   ],
   "target_category": "다이소 뷰티 & 스킨케어",
@@ -347,6 +258,7 @@
     "Walmart skincare",
     "K-beauty"
   ],
-  "total_count": 35,
-  "last_updated": "2026-08-30T00:36:05.473677Z"
+  "last_updated": "2026-08-30T04:20:03.848454+00:00",
+  "total_count": 24,
+  "added_this_run": 16
 }
