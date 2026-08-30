@@ -147,39 +147,74 @@
         "views": "2.4M"
       },
       {
-        "hashtag": "#SkincareRoutine",
-        "product": "Glow Recipe Watermelon Glow",
-        "views": "1.1M"
+        "hashtag": "#KBeauty",
+        "product": "ANUA Heartleaf 77 Toner",
+        "views": "1.8M"
       },
       {
-        "hashtag": "#KBeauty",
-        "product": "Medicube Age-R Booster Pro",
-        "views": "980K"
+        "hashtag": "#Skincare",
+        "product": "COSRX Snail Mucin 96 Essence",
+        "views": "1.5M"
       },
       {
         "hashtag": "#GlassSkin",
-        "product": "Anua Heartleaf 77% Toner",
-        "views": "870K"
+        "product": "Beauty of Joseon Relief Sun SPF50",
+        "views": "1.2M"
+      },
+      {
+        "hashtag": "#ViralBeauty",
+        "product": "Medicube Zero Pore Pad",
+        "views": "980K"
+      },
+      {
+        "hashtag": "#Serum",
+        "product": "Skin1004 Madagascar Centella Ampoule",
+        "views": "920K"
       },
       {
         "hashtag": "#MakeupTok",
         "product": "Rare Beauty Soft Pinch Liquid Blush",
-        "views": "1.5M"
+        "views": "1.1M"
       },
       {
-        "hashtag": "#SkinCare",
-        "product": "Skin1004 Madagascar Centella Ampoule",
-        "views": "720K"
+        "hashtag": "#Sunscreen",
+        "product": "Isntree Hyaluronic Watery Sun Gel",
+        "views": "760K"
       },
       {
-        "hashtag": "#ViralBeauty",
-        "product": "Dr. Melaxin Cemenrete Calcium Balm",
+        "hashtag": "#Toner",
+        "product": "Round Lab Dokdo Toner",
+        "views": "710K"
+      },
+      {
+        "hashtag": "#Cream",
+        "product": "Biodance Collagen Jelly Cream",
+        "views": "890K"
+      },
+      {
+        "hashtag": "#VitaminC",
+        "product": "Goodal Green Tangerine Vita C Serum",
         "views": "650K"
       },
       {
-        "hashtag": "#CleanBeauty",
-        "product": "Rhode Peptide Glazing Fluid",
+        "hashtag": "#Ceramide",
+        "product": "Illiyoon Ceramide Ato Cream",
         "views": "540K"
+      },
+      {
+        "hashtag": "#Retinol",
+        "product": "Some By Mi Retinol Intense Stick",
+        "views": "480K"
+      },
+      {
+        "hashtag": "#Cushion",
+        "product": "Clio Kill Cover Cushion",
+        "views": "520K"
+      },
+      {
+        "hashtag": "#Ampoule",
+        "product": "Purito Centella Unscented Serum",
+        "views": "430K"
       }
     ],
     "walmart_beauty": [
@@ -234,44 +269,88 @@
     ],
     "google_trends_us": [
       {
-        "keyword": "Korean Skincare",
-        "growth": "+45%",
-        "momentum": "High"
+        "keyword": "Snail",
+        "growth": "+",
+        "momentum": "High",
+        "product": "COSRX Advanced Snail 96 Mucin Essence"
       },
       {
-        "keyword": "Ceramide Serum",
-        "growth": "+22%",
-        "momentum": "Steady"
+        "keyword": "Mucin",
+        "growth": "+",
+        "momentum": "High",
+        "product": "COSRX Advanced Snail 96 Mucin Essence"
       },
       {
-        "keyword": "Glass Skin Routine",
-        "growth": "+38%",
-        "momentum": "High"
+        "keyword": "Essence",
+        "growth": "+",
+        "momentum": "High",
+        "product": "COSRX Advanced Snail 96 Mucin Essence"
       },
       {
-        "keyword": "Retinol Cream",
-        "growth": "+18%",
-        "momentum": "Steady"
+        "keyword": "Niacinamide",
+        "growth": "+",
+        "momentum": "High",
+        "product": "The Ordinary Niacinamide 10% + Zinc 1%"
       },
       {
-        "keyword": "SPF Moisturizer",
-        "growth": "+27%",
-        "momentum": "High"
+        "keyword": "Centella",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Skin1004 Madagascar Centella Ampoule"
       },
       {
-        "keyword": "Niacinamide Toner",
-        "growth": "+31%",
-        "momentum": "High"
+        "keyword": "Ampoule",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Skin1004 Madagascar Centella Ampoule"
       },
       {
-        "keyword": "Snail Mucin",
-        "growth": "+41%",
-        "momentum": "High"
+        "keyword": "Spf",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Neutrogena Ultra Sheer SPF55"
       },
       {
-        "keyword": "Barrier Repair Cream",
-        "growth": "+19%",
-        "momentum": "Steady"
+        "keyword": "Hyaluronic",
+        "growth": "+",
+        "momentum": "High",
+        "product": "The Ordinary Hyaluronic Acid 2%"
+      },
+      {
+        "keyword": "Heartleaf",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Heartleaf 77 Soothing Toner"
+      },
+      {
+        "keyword": "Toner",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Heartleaf 77 Soothing Toner"
+      },
+      {
+        "keyword": "Collagen",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Collagen Jelly Cream"
+      },
+      {
+        "keyword": "Serum",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Green Tangerine Vita C Dark Spot Serum"
+      },
+      {
+        "keyword": "Ceramide",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Ceramide Ato Concentrate Cream"
+      },
+      {
+        "keyword": "Cushion",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Mask Fit Red Cushion"
       }
     ],
     "ulta_beauty": [
@@ -475,7 +554,7 @@
         "rank": 1
       },
       {
-        "product": "Heartleaf 77 Toner",
+        "product": "Heartleaf 77 Soothing Toner",
         "sub": "ANUA",
         "badge": "4.8",
         "rank": 2
@@ -487,34 +566,76 @@
         "rank": 3
       },
       {
-        "product": "Vita C Dark Spot Serum",
-        "sub": "Goodal",
-        "badge": "4.8",
+        "product": "Green Tangerine Vita C Dark Spot Serum",
+        "sub": "GOODAL",
+        "badge": "4.7",
         "rank": 4
       },
       {
-        "product": "Bean Essence",
-        "sub": "Mixsoon",
-        "badge": "4.7",
+        "product": "Relief Sun Rice SPF50+",
+        "sub": "BEAUTY OF JOSEON",
+        "badge": "4.9",
         "rank": 5
       },
       {
-        "product": "Rice Toner",
-        "sub": "I'm From",
+        "product": "Madagascar Centella Ampoule",
+        "sub": "SKIN1004",
         "badge": "4.8",
         "rank": 6
       },
       {
-        "product": "Ceramide Cream",
-        "sub": "Illiyoon",
-        "badge": "4.9",
+        "product": "Advanced Snail 92 All In One Cream",
+        "sub": "COSRX",
+        "badge": "4.8",
         "rank": 7
       },
       {
-        "product": "Glutathione Serum",
-        "sub": "APLB",
+        "product": "Dokdo Toner",
+        "sub": "ROUND LAB",
         "badge": "4.7",
         "rank": 8
+      },
+      {
+        "product": "Ceramide Ato Concentrate Cream",
+        "sub": "ILLIYOON",
+        "badge": "4.9",
+        "rank": 9
+      },
+      {
+        "product": "Zero Pore Pad",
+        "sub": "MEDICUBE",
+        "badge": "4.6",
+        "rank": 10
+      },
+      {
+        "product": "Mask Fit Red Cushion",
+        "sub": "TIRTIR",
+        "badge": "4.7",
+        "rank": 11
+      },
+      {
+        "product": "No.3 Skin Softening Serum",
+        "sub": "NUMBUZIN",
+        "badge": "4.7",
+        "rank": 12
+      },
+      {
+        "product": "Centella Unscented Serum",
+        "sub": "PURITO",
+        "badge": "4.6",
+        "rank": 13
+      },
+      {
+        "product": "Hyaluronic Acid Watery Sun Gel",
+        "sub": "ISNTREE",
+        "badge": "4.8",
+        "rank": 14
+      },
+      {
+        "product": "AHA BHA PHA 30 Days Miracle Toner",
+        "sub": "SOME BY MI",
+        "badge": "4.6",
+        "rank": 15
       }
     ]
   },
@@ -522,5 +643,5 @@
     "rate": 1383.49,
     "updated_at": "2026-08-30"
   },
-  "last_synced": "08. 30. 오전 11:55 KST"
+  "last_synced": "08. 30. 오후 12:58 KST"
 }
