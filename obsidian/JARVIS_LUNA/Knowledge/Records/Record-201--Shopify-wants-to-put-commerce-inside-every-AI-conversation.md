@@ -2,7 +2,7 @@
 title: "Record 201 · Shopify-wants-to-put-commerce-inside-every-AI-conversation---MarTech"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.133465+00:00
+updated_at: 2026-08-30T05:25:53.526648+00:00
 tags: [{', '.join(tags)}]
 ---
 

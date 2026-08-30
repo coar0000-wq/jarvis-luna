@@ -2,7 +2,7 @@
 title: "Record 159 · Move-over-K-beauty-K-pharmacy-is-Koreas-new-clinical-skin-care-trend--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.125937+00:00
+updated_at: 2026-08-30T05:25:53.517931+00:00
 tags: [{', '.join(tags)}]
 ---
 

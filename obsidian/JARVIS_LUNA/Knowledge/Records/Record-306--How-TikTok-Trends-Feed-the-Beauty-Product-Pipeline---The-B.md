@@ -2,7 +2,7 @@
 title: "Record 306 · How-TikTok-Trends-Feed-the-Beauty-Product-Pipeline---The-Business-of-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.152457+00:00
+updated_at: 2026-08-30T05:25:53.547296+00:00
 tags: [{', '.join(tags)}]
 ---
 

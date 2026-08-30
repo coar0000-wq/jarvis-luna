@@ -2,7 +2,7 @@
 title: "Record 187 · Is-Shopify-SHOP-The-Best-AI-Ecommerce-Stock-to-Buy-in-2026---Yahoo-Fin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.130984+00:00
+updated_at: 2026-08-30T05:25:53.523795+00:00
 tags: [{', '.join(tags)}]
 ---
 

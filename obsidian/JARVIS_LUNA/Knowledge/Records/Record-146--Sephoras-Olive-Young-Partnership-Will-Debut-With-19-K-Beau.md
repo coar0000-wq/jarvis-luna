@@ -2,7 +2,7 @@
 title: "Record 146 · Sephoras-Olive-Young-Partnership-Will-Debut-With-19-K-Beauty-Brands---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.123770+00:00
+updated_at: 2026-08-30T05:25:53.514678+00:00
 tags: [{', '.join(tags)}]
 ---
 

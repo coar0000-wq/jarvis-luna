@@ -2,7 +2,7 @@
 title: "Record 364 · Amazon-Beauty-Best-Sellers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.162981+00:00
+updated_at: 2026-08-30T05:25:53.557725+00:00
 tags: [{', '.join(tags)}]
 ---
 

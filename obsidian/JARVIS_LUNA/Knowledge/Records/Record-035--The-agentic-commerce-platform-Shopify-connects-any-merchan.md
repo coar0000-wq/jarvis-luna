@@ -2,7 +2,7 @@
 title: "Record 035 · The-agentic-commerce-platform-Shopify-connects-any-merchant-to-every-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.103763+00:00
+updated_at: 2026-08-30T05:25:53.491025+00:00
 tags: [{', '.join(tags)}]
 ---
 

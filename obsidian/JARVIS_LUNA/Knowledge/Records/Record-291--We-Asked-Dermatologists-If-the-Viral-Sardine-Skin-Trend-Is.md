@@ -2,7 +2,7 @@
 title: "Record 291 · We-Asked-Dermatologists-If-the-Viral-Sardine-Skin-Trend-Is-Actually-th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.149738+00:00
+updated_at: 2026-08-30T05:25:53.544498+00:00
 tags: [{', '.join(tags)}]
 ---
 

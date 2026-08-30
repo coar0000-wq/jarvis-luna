@@ -2,7 +2,7 @@
 title: "Record 240 · K-Beauty-Amazon-Prime-Day-2026-Deals-Are-Already-HereIm-Shopping-for-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.140489+00:00
+updated_at: 2026-08-30T05:25:53.534702+00:00
 tags: [{', '.join(tags)}]
 ---
 

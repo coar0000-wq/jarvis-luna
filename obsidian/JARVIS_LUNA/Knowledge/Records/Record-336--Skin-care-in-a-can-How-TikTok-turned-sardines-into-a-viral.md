@@ -2,7 +2,7 @@
 title: "Record 336 · Skin-care-in-a-can-How-TikTok-turned-sardines-into-a-viral-beauty-tren"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.157950+00:00
+updated_at: 2026-08-30T05:25:53.552630+00:00
 tags: [{', '.join(tags)}]
 ---
 

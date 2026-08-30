@@ -2,7 +2,7 @@
 title: "Record 316 · The-Korean-Beauty-Deals-Amazon-Shoppers-Are-Racing-to-Grab-Tonight---E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.154240+00:00
+updated_at: 2026-08-30T05:25:53.549045+00:00
 tags: [{', '.join(tags)}]
 ---
 

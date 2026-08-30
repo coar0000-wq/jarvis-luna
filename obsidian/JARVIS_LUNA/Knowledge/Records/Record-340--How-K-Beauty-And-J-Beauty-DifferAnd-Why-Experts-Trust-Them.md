@@ -2,7 +2,7 @@
 title: "Record 340 · How-K-Beauty-And-J-Beauty-DifferAnd-Why-Experts-Trust-Them---Forbes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.158654+00:00
+updated_at: 2026-08-30T05:25:53.553366+00:00
 tags: [{', '.join(tags)}]
 ---
 

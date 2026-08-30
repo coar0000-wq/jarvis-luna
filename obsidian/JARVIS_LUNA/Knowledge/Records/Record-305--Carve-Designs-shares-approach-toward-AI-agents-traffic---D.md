@@ -2,7 +2,7 @@
 title: "Record 305 · Carve-Designs-shares-approach-toward-AI-agents-traffic---Digital-Comme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.152286+00:00
+updated_at: 2026-08-30T05:25:53.547101+00:00
 tags: [{', '.join(tags)}]
 ---
 

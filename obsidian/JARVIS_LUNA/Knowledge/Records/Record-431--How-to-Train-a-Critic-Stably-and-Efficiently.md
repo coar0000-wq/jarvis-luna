@@ -2,7 +2,7 @@
 title: "Record 431 · How-to-Train-a-Critic-Stably-and-Efficiently"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.175665+00:00
+updated_at: 2026-08-30T05:25:53.570439+00:00
 tags: [{', '.join(tags)}]
 ---
 

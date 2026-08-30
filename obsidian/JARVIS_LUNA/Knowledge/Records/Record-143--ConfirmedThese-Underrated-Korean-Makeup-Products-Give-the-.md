@@ -2,7 +2,7 @@
 title: "Record 143 · ConfirmedThese-Underrated-Korean-Makeup-Products-Give-the-Most-Natural"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.123254+00:00
+updated_at: 2026-08-30T05:25:53.513804+00:00
 tags: [{', '.join(tags)}]
 ---
 

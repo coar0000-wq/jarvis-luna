@@ -2,7 +2,7 @@
 title: "Record 293 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---Houston-Style-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.150111+00:00
+updated_at: 2026-08-30T05:25:53.544882+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 209 · Cosmetics-Business-reveals-the-top-5-TikTok-beauty-trends-of-2024-in-n"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T04:27:22.134921+00:00
+updated_at: 2026-08-30T05:25:53.528321+00:00
 tags: [{', '.join(tags)}]
 ---
 
