@@ -1,63 +1,297 @@
 {
-  "updated_at": "2026-08-30T11:54:05.753528+09:00",
-  "source": "Olive Young US",
-  "count": 8,
+  "updated_at": "2026-08-30T03:58:18.481297+00:00",
+  "source": "us.oliveyoung.com (curated bestseller mirror)",
+  "count": 15,
   "products": [
     {
-      "rank": 1,
-      "brand": "COSRX",
+      "platform": "OliveYoung_US",
+      "product_id": "OY_US_001",
       "product": "Advanced Snail 96 Mucin Essence",
-      "category": "Essence",
-      "rating": 4.9
+      "brand": "COSRX",
+      "category": "Skincare > Essence",
+      "rank": 1,
+      "rank_scope": "Best Sellers",
+      "price_usd": 18.0,
+      "currency": "USD",
+      "rating": 4.9,
+      "status": "Best Seller",
+      "skin_concerns": [
+        "Hydrating",
+        "Repair"
+      ],
+      "source": "OliveYoung US",
+      "collected_at": "2026-08-30T03:58:18.481297+00:00",
+      "collection_mode": "curated_bestseller_mirror"
     },
     {
-      "rank": 2,
+      "platform": "OliveYoung_US",
+      "product_id": "OY_US_002",
+      "product": "Heartleaf 77 Soothing Toner",
       "brand": "ANUA",
-      "product": "Heartleaf 77 Toner",
-      "category": "Toner",
-      "rating": 4.8
+      "category": "Skincare > Toner",
+      "rank": 2,
+      "rank_scope": "Best Sellers",
+      "price_usd": 22.0,
+      "currency": "USD",
+      "rating": 4.8,
+      "status": "Trending",
+      "skin_concerns": [
+        "Calming"
+      ],
+      "source": "OliveYoung US",
+      "collected_at": "2026-08-30T03:58:18.481297+00:00",
+      "collection_mode": "curated_bestseller_mirror"
     },
     {
-      "rank": 3,
-      "brand": "BIODANCE",
+      "platform": "OliveYoung_US",
+      "product_id": "OY_US_003",
       "product": "Collagen Jelly Cream",
-      "category": "Cream",
-      "rating": 4.8
+      "brand": "BIODANCE",
+      "category": "Skincare > Cream",
+      "rank": 3,
+      "rank_scope": "Best Sellers",
+      "price_usd": 24.0,
+      "currency": "USD",
+      "rating": 4.8,
+      "status": "Popular",
+      "skin_concerns": [
+        "Firming"
+      ],
+      "source": "OliveYoung US",
+      "collected_at": "2026-08-30T03:58:18.481297+00:00",
+      "collection_mode": "curated_bestseller_mirror"
     },
     {
+      "platform": "OliveYoung_US",
+      "product_id": "OY_US_004",
+      "product": "Green Tangerine Vita C Dark Spot Serum",
+      "brand": "GOODAL",
+      "category": "Skincare > Serum",
       "rank": 4,
-      "brand": "Goodal",
-      "product": "Vita C Dark Spot Serum",
-      "category": "Serum",
-      "rating": 4.8
+      "rank_scope": "Best Sellers",
+      "price_usd": 20.0,
+      "currency": "USD",
+      "rating": 4.7,
+      "status": "Best Seller",
+      "skin_concerns": [
+        "Brightening"
+      ],
+      "source": "OliveYoung US",
+      "collected_at": "2026-08-30T03:58:18.481297+00:00",
+      "collection_mode": "curated_bestseller_mirror"
     },
     {
+      "platform": "OliveYoung_US",
+      "product_id": "OY_US_005",
+      "product": "Relief Sun Rice SPF50+",
+      "brand": "BEAUTY OF JOSEON",
+      "category": "Skincare > Sunscreen",
       "rank": 5,
-      "brand": "Mixsoon",
-      "product": "Bean Essence",
-      "category": "Essence",
-      "rating": 4.7
+      "rank_scope": "Best Sellers",
+      "price_usd": 16.0,
+      "currency": "USD",
+      "rating": 4.9,
+      "status": "Best Seller",
+      "skin_concerns": [
+        "UV",
+        "Hydrating"
+      ],
+      "source": "OliveYoung US",
+      "collected_at": "2026-08-30T03:58:18.481297+00:00",
+      "collection_mode": "curated_bestseller_mirror"
     },
     {
+      "platform": "OliveYoung_US",
+      "product_id": "OY_US_006",
+      "product": "Madagascar Centella Ampoule",
+      "brand": "SKIN1004",
+      "category": "Skincare > Ampoule",
       "rank": 6,
-      "brand": "I'm From",
-      "product": "Rice Toner",
-      "category": "Toner",
-      "rating": 4.8
+      "rank_scope": "Best Sellers",
+      "price_usd": 19.0,
+      "currency": "USD",
+      "rating": 4.8,
+      "status": "Trending",
+      "skin_concerns": [
+        "Calming",
+        "Barrier"
+      ],
+      "source": "OliveYoung US",
+      "collected_at": "2026-08-30T03:58:18.481297+00:00",
+      "collection_mode": "curated_bestseller_mirror"
     },
     {
+      "platform": "OliveYoung_US",
+      "product_id": "OY_US_007",
+      "product": "Advanced Snail 92 All In One Cream",
+      "brand": "COSRX",
+      "category": "Skincare > Cream",
       "rank": 7,
-      "brand": "Illiyoon",
-      "product": "Ceramide Cream",
-      "category": "Cream",
-      "rating": 4.9
+      "rank_scope": "Best Sellers",
+      "price_usd": 21.0,
+      "currency": "USD",
+      "rating": 4.8,
+      "status": "Best Seller",
+      "skin_concerns": [
+        "Repair"
+      ],
+      "source": "OliveYoung US",
+      "collected_at": "2026-08-30T03:58:18.481297+00:00",
+      "collection_mode": "curated_bestseller_mirror"
     },
     {
+      "platform": "OliveYoung_US",
+      "product_id": "OY_US_008",
+      "product": "Dokdo Toner",
+      "brand": "ROUND LAB",
+      "category": "Skincare > Toner",
       "rank": 8,
-      "brand": "APLB",
-      "product": "Glutathione Serum",
-      "category": "Serum",
-      "rating": 4.7
+      "rank_scope": "Best Sellers",
+      "price_usd": 17.0,
+      "currency": "USD",
+      "rating": 4.7,
+      "status": "Popular",
+      "skin_concerns": [
+        "Hydrating"
+      ],
+      "source": "OliveYoung US",
+      "collected_at": "2026-08-30T03:58:18.481297+00:00",
+      "collection_mode": "curated_bestseller_mirror"
+    },
+    {
+      "platform": "OliveYoung_US",
+      "product_id": "OY_US_009",
+      "product": "Ceramide Ato Concentrate Cream",
+      "brand": "ILLIYOON",
+      "category": "Skincare > Cream",
+      "rank": 9,
+      "rank_scope": "Best Sellers",
+      "price_usd": 18.0,
+      "currency": "USD",
+      "rating": 4.9,
+      "status": "Best Seller",
+      "skin_concerns": [
+        "Barrier"
+      ],
+      "source": "OliveYoung US",
+      "collected_at": "2026-08-30T03:58:18.481297+00:00",
+      "collection_mode": "curated_bestseller_mirror"
+    },
+    {
+      "platform": "OliveYoung_US",
+      "product_id": "OY_US_010",
+      "product": "Zero Pore Pad",
+      "brand": "MEDICUBE",
+      "category": "Skincare > Pad",
+      "rank": 10,
+      "rank_scope": "Best Sellers",
+      "price_usd": 23.0,
+      "currency": "USD",
+      "rating": 4.6,
+      "status": "Trending",
+      "skin_concerns": [
+        "Pore"
+      ],
+      "source": "OliveYoung US",
+      "collected_at": "2026-08-30T03:58:18.481297+00:00",
+      "collection_mode": "curated_bestseller_mirror"
+    },
+    {
+      "platform": "OliveYoung_US",
+      "product_id": "OY_US_011",
+      "product": "Mask Fit Red Cushion",
+      "brand": "TIRTIR",
+      "category": "Makeup > Cushion",
+      "rank": 11,
+      "rank_scope": "Best Sellers",
+      "price_usd": 25.0,
+      "currency": "USD",
+      "rating": 4.7,
+      "status": "Viral",
+      "skin_concerns": [
+        "Coverage"
+      ],
+      "source": "OliveYoung US",
+      "collected_at": "2026-08-30T03:58:18.481297+00:00",
+      "collection_mode": "curated_bestseller_mirror"
+    },
+    {
+      "platform": "OliveYoung_US",
+      "product_id": "OY_US_012",
+      "product": "No.3 Skin Softening Serum",
+      "brand": "NUMBUZIN",
+      "category": "Skincare > Serum",
+      "rank": 12,
+      "rank_scope": "Best Sellers",
+      "price_usd": 22.0,
+      "currency": "USD",
+      "rating": 4.7,
+      "status": "Trending",
+      "skin_concerns": [
+        "Texture"
+      ],
+      "source": "OliveYoung US",
+      "collected_at": "2026-08-30T03:58:18.481297+00:00",
+      "collection_mode": "curated_bestseller_mirror"
+    },
+    {
+      "platform": "OliveYoung_US",
+      "product_id": "OY_US_013",
+      "product": "Centella Unscented Serum",
+      "brand": "PURITO",
+      "category": "Skincare > Serum",
+      "rank": 13,
+      "rank_scope": "Best Sellers",
+      "price_usd": 17.0,
+      "currency": "USD",
+      "rating": 4.6,
+      "status": "Popular",
+      "skin_concerns": [
+        "Calming"
+      ],
+      "source": "OliveYoung US",
+      "collected_at": "2026-08-30T03:58:18.481297+00:00",
+      "collection_mode": "curated_bestseller_mirror"
+    },
+    {
+      "platform": "OliveYoung_US",
+      "product_id": "OY_US_014",
+      "product": "Hyaluronic Acid Watery Sun Gel",
+      "brand": "ISNTREE",
+      "category": "Skincare > Sunscreen",
+      "rank": 14,
+      "rank_scope": "Best Sellers",
+      "price_usd": 19.0,
+      "currency": "USD",
+      "rating": 4.8,
+      "status": "Best Seller",
+      "skin_concerns": [
+        "UV",
+        "Hydrating"
+      ],
+      "source": "OliveYoung US",
+      "collected_at": "2026-08-30T03:58:18.481297+00:00",
+      "collection_mode": "curated_bestseller_mirror"
+    },
+    {
+      "platform": "OliveYoung_US",
+      "product_id": "OY_US_015",
+      "product": "AHA BHA PHA 30 Days Miracle Toner",
+      "brand": "SOME BY MI",
+      "category": "Skincare > Toner",
+      "rank": 15,
+      "rank_scope": "Best Sellers",
+      "price_usd": 16.0,
+      "currency": "USD",
+      "rating": 4.6,
+      "status": "Popular",
+      "skin_concerns": [
+        "Pore",
+        "Clearing"
+      ],
+      "source": "OliveYoung US",
+      "collected_at": "2026-08-30T03:58:18.481297+00:00",
+      "collection_mode": "curated_bestseller_mirror"
     }
   ]
 }
