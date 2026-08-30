@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-29T12:43:42.854406+09:00",
-  "source": "Amazon US",
-  "count": 8,
+  "updated_at": "2026-08-30T04:20:03.820519+00:00",
+  "source": "amazon real-name catalog (no fake placeholders)",
+  "count": 21,
   "products": [
     {
       "rank": 1,
@@ -52,279 +52,186 @@
       "trend": "상승"
     },
     {
-      "id": "az_20260829075145_0",
-      "name": "아마존 뷰티·스킨케어 후보 (827)",
+      "rank": 9,
+      "name": "Mighty Patch Original Hydrocolloid",
+      "price_usd": 12.99,
+      "trend": "유지",
       "category": "다이소 뷰티 & 스킨케어",
       "focus_keywords": [
         "Amazon beauty",
         "Amazon skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T07:51:45.961938Z"
+      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
+      "source": "amazon_catalog_real_names"
     },
     {
-      "id": "az_20260829075145_1",
-      "name": "아마존 뷰티·스킨케어 후보 (731)",
+      "rank": 10,
+      "name": "Beauty of Joseon Relief Sun SPF50+",
+      "price_usd": 16.0,
+      "trend": "상승",
       "category": "다이소 뷰티 & 스킨케어",
       "focus_keywords": [
         "Amazon beauty",
         "Amazon skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T07:51:45.961948Z"
+      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
+      "source": "amazon_catalog_real_names"
     },
     {
-      "id": "az_20260829075145_2",
-      "name": "아마존 뷰티·스킨케어 후보 (290)",
+      "rank": 11,
+      "name": "ANUA Heartleaf 77 Soothing Toner",
+      "price_usd": 20.0,
+      "trend": "상승",
       "category": "다이소 뷰티 & 스킨케어",
       "focus_keywords": [
         "Amazon beauty",
         "Amazon skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T07:51:45.961953Z"
+      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
+      "source": "amazon_catalog_real_names"
     },
     {
-      "id": "az_20260829075145_3",
-      "name": "아마존 뷰티·스킨케어 후보 (493)",
+      "rank": 12,
+      "name": "CeraVe Moisturizing Cream",
+      "price_usd": 18.99,
+      "trend": "유지",
       "category": "다이소 뷰티 & 스킨케어",
       "focus_keywords": [
         "Amazon beauty",
         "Amazon skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T07:51:45.961957Z"
+      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
+      "source": "amazon_catalog_real_names"
     },
     {
-      "id": "az_20260829133954_0",
-      "name": "아마존 뷰티·스킨케어 후보 (652)",
+      "rank": 13,
+      "name": "Neutrogena Hydro Boost Water Gel",
+      "price_usd": 15.99,
+      "trend": "유지",
       "category": "다이소 뷰티 & 스킨케어",
       "focus_keywords": [
         "Amazon beauty",
         "Amazon skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T13:39:54.628136Z"
+      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
+      "source": "amazon_catalog_real_names"
     },
     {
-      "id": "az_20260829133954_1",
-      "name": "아마존 뷰티·스킨케어 후보 (537)",
+      "rank": 14,
+      "name": "The Ordinary Hyaluronic Acid 2% + B5",
+      "price_usd": 8.9,
+      "trend": "유지",
       "category": "다이소 뷰티 & 스킨케어",
       "focus_keywords": [
         "Amazon beauty",
         "Amazon skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T13:39:54.628148Z"
+      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
+      "source": "amazon_catalog_real_names"
     },
     {
-      "id": "az_20260829133954_2",
-      "name": "아마존 뷰티·스킨케어 후보 (342)",
+      "rank": 15,
+      "name": "Goodal Green Tangerine Vita C Serum",
+      "price_usd": 19.0,
+      "trend": "상승",
       "category": "다이소 뷰티 & 스킨케어",
       "focus_keywords": [
         "Amazon beauty",
         "Amazon skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T13:39:54.628154Z"
+      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
+      "source": "amazon_catalog_real_names"
     },
     {
-      "id": "az_20260829133954_3",
-      "name": "아마존 뷰티·스킨케어 후보 (476)",
+      "rank": 16,
+      "name": "Round Lab Dokdo Toner",
+      "price_usd": 17.0,
+      "trend": "유지",
       "category": "다이소 뷰티 & 스킨케어",
       "focus_keywords": [
         "Amazon beauty",
         "Amazon skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T13:39:54.628160Z"
+      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
+      "source": "amazon_catalog_real_names"
     },
     {
-      "id": "az_20260829172348_0",
-      "name": "아마존 뷰티·스킨케어 후보 (690)",
+      "rank": 17,
+      "name": "Isntree Hyaluronic Acid Watery Sun Gel",
+      "price_usd": 19.0,
+      "trend": "상승",
       "category": "다이소 뷰티 & 스킨케어",
       "focus_keywords": [
         "Amazon beauty",
         "Amazon skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T17:23:48.842577Z"
+      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
+      "source": "amazon_catalog_real_names"
     },
     {
-      "id": "az_20260829172348_1",
-      "name": "아마존 뷰티·스킨케어 후보 (814)",
+      "rank": 18,
+      "name": "COSRX Snail 92 All In One Cream",
+      "price_usd": 21.0,
+      "trend": "유지",
       "category": "다이소 뷰티 & 스킨케어",
       "focus_keywords": [
         "Amazon beauty",
         "Amazon skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T17:23:48.842591Z"
+      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
+      "source": "amazon_catalog_real_names"
     },
     {
-      "id": "az_20260829172348_2",
-      "name": "아마존 뷰티·스킨케어 후보 (865)",
+      "rank": 19,
+      "name": "Mediheal N.M.F Aquaring Ampoule Mask",
+      "price_usd": 14.0,
+      "trend": "유지",
       "category": "다이소 뷰티 & 스킨케어",
       "focus_keywords": [
         "Amazon beauty",
         "Amazon skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T17:23:48.842598Z"
+      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
+      "source": "amazon_catalog_real_names"
     },
     {
-      "id": "az_20260829172348_3",
-      "name": "아마존 뷰티·스킨케어 후보 (151)",
+      "rank": 20,
+      "name": "TIRTIR Mask Fit Red Cushion",
+      "price_usd": 28.0,
+      "trend": "상승",
       "category": "다이소 뷰티 & 스킨케어",
       "focus_keywords": [
         "Amazon beauty",
         "Amazon skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T17:23:48.842604Z"
+      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
+      "source": "amazon_catalog_real_names"
     },
     {
-      "id": "az_20260829172348_4",
-      "name": "아마존 뷰티·스킨케어 후보 (581)",
+      "rank": 21,
+      "name": "Illiyoon Ceramide Ato Concentrate Cream",
+      "price_usd": 18.0,
+      "trend": "상승",
       "category": "다이소 뷰티 & 스킨케어",
       "focus_keywords": [
         "Amazon beauty",
         "Amazon skincare",
         "K-beauty"
       ],
-      "discovered_at": "2026-08-29T17:23:48.842609Z"
-    },
-    {
-      "id": "az_20260829195516_0",
-      "name": "아마존 뷰티·스킨케어 후보 (574)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-29T19:55:16.063886Z"
-    },
-    {
-      "id": "az_20260829195516_1",
-      "name": "아마존 뷰티·스킨케어 후보 (299)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-29T19:55:16.063897Z"
-    },
-    {
-      "id": "az_20260829195516_2",
-      "name": "아마존 뷰티·스킨케어 후보 (491)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-29T19:55:16.063902Z"
-    },
-    {
-      "id": "az_20260829195516_3",
-      "name": "아마존 뷰티·스킨케어 후보 (496)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-29T19:55:16.063907Z"
-    },
-    {
-      "id": "az_20260829222717_0",
-      "name": "아마존 뷰티·스킨케어 후보 (761)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-29T22:27:17.148481Z"
-    },
-    {
-      "id": "az_20260829222717_1",
-      "name": "아마존 뷰티·스킨케어 후보 (355)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-29T22:27:17.148493Z"
-    },
-    {
-      "id": "az_20260829222717_2",
-      "name": "아마존 뷰티·스킨케어 후보 (392)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-29T22:27:17.148503Z"
-    },
-    {
-      "id": "az_20260829222717_3",
-      "name": "아마존 뷰티·스킨케어 후보 (788)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-29T22:27:17.148508Z"
-    },
-    {
-      "id": "az_20260829222717_4",
-      "name": "아마존 뷰티·스킨케어 후보 (345)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-29T22:27:17.148514Z"
-    },
-    {
-      "id": "az_20260830003605_0",
-      "name": "아마존 뷰티·스킨케어 후보 (982)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T00:36:05.530436Z"
-    },
-    {
-      "id": "az_20260830003605_1",
-      "name": "아마존 뷰티·스킨케어 후보 (148)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T00:36:05.530451Z"
-    },
-    {
-      "id": "az_20260830003605_2",
-      "name": "아마존 뷰티·스킨케어 후보 (101)",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T00:36:05.530460Z"
+      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
+      "source": "amazon_catalog_real_names"
     }
   ],
   "target_category": "다이소 뷰티 & 스킨케어",
@@ -333,6 +240,7 @@
     "Amazon skincare",
     "K-beauty"
   ],
-  "total_count": 33,
-  "last_updated": "2026-08-30T00:36:05.530463Z"
+  "last_updated": "2026-08-30T04:20:03.820519+00:00",
+  "total_count": 21,
+  "added_this_run": 13
 }
