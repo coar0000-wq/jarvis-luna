@@ -64,6 +64,12 @@ jobs:
 
       - name: Collect US Beauty Market
         run: python scripts/collect_us_beauty_data.py
+      - name: OliveYoung US bestseller snapshot
+        continue-on-error: true
+        run: |
+          if [ -f oliveyoung_us_discovery.py ]; then
+            python oliveyoung_us_discovery.py
+          fi
 
       - name: Generate Shopify Recommendations
         run: python scripts/shopify_matcher.py
@@ -113,6 +119,12 @@ jobs:
         run: |
           if [ -f sync_channels.py ]; then
             python sync_channels.py
+          fi
+      - name: Score Shopify demand (8ch × Daiso)
+        continue-on-error: true
+        run: |
+          if [ -f scripts/daiso/score_shopify_demand.py ]; then
+            python scripts/daiso/score_shopify_demand.py
           fi
           if [ -f force_fix.py ]; then
             python force_fix.py
