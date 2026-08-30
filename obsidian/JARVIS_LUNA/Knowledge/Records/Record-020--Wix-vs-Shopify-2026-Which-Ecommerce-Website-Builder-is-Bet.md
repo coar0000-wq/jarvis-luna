@@ -2,7 +2,7 @@
 title: "Record 020 · Wix-vs-Shopify-2026-Which-Ecommerce-Website-Builder-is-Better---techco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T08:49:01.187784+00:00
+updated_at: 2026-08-30T11:56:13.039874+00:00
 tags: [{', '.join(tags)}]
 ---
 

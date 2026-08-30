@@ -2,7 +2,7 @@
 title: "Record 031 · Get-ready-with-me-to-achieve-the-perfect-face-a-qualitative-study-into"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T08:49:01.189855+00:00
+updated_at: 2026-08-30T11:56:13.040547+00:00
 tags: [{', '.join(tags)}]
 ---
 
