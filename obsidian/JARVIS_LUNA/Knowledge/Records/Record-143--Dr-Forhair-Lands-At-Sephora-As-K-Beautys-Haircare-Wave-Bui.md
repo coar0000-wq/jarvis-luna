@@ -2,7 +2,7 @@
 title: "Record 143 · Dr-Forhair-Lands-At-Sephora-As-K-Beautys-Haircare-Wave-Builds---Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:07:41.464608+00:00
+updated_at: 2026-08-30T21:20:24.239296+00:00
 tags: [{', '.join(tags)}]
 ---
 

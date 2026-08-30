@@ -2,7 +2,7 @@
 title: "Record 165 · Island-Girl-Beauty-Is-the-Next-Best-Thing-to-a-Tropical-Paradise-Escap"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:07:41.467849+00:00
+updated_at: 2026-08-30T21:20:24.242985+00:00
 tags: [{', '.join(tags)}]
 ---
 

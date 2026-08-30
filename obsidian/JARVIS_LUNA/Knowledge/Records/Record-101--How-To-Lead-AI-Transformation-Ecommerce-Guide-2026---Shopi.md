@@ -2,7 +2,7 @@
 title: "Record 101 · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:07:41.458293+00:00
+updated_at: 2026-08-30T21:20:24.232202+00:00
 tags: [{', '.join(tags)}]
 ---
 

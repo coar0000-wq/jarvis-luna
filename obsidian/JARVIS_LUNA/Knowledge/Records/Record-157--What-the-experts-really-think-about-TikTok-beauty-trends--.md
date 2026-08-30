@@ -2,7 +2,7 @@
 title: "Record 157 · What-the-experts-really-think-about-TikTok-beauty-trends---EVOKE"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:07:41.466663+00:00
+updated_at: 2026-08-30T21:20:24.241659+00:00
 tags: [{', '.join(tags)}]
 ---
 
