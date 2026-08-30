@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T03:46:45.696660+00:00",
+  "generated_at": "2026-08-30T03:58:18.581329+00:00",
   "source": "score_shopify_demand.py",
   "rule": "grade == S (core category + global match)",
-  "count": 8,
+  "count": 9,
   "priority_note": "S등급만. Shopify 우선 등록·테스트 후보.",
   "recommendations": [
     {
@@ -11,20 +11,20 @@
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 94,
+      "shopify_score": 95,
       "grade": "S",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "recommend_reason": "글로벌 'Heartleaf 77 Toner' (oliveyoung_us) 유사 99% · 토큰 heartleaf,toner",
+      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Toner' (tiktok_shop_us) 유사 99% · 토큰 heartleaf,toner",
       "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "Heartleaf 77 Toner",
+        "channel": "tiktok_shop_us",
+        "global_product": "ANUA Heartleaf 77 Toner",
         "similarity": 0.987,
-        "demand_weight": 0.931,
+        "demand_weight": 0.95,
         "matched_tokens": [
           "heartleaf",
           "toner"
         ],
-        "match_score": 0.919
+        "match_score": 0.937
       }
     },
     {
@@ -33,23 +33,65 @@
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 88,
+      "shopify_score": 93,
       "grade": "S",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045146",
-      "recommend_reason": "글로벌 'Neutrogena Ultra Sheer SPF55' (walmart_beauty) 유사 82% · 토큰 sunscreen",
+      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50' (tiktok_shop_us) 유사 82% · 토큰 sunscreen",
       "matched_global": {
-        "channel": "walmart_beauty",
-        "global_product": "Neutrogena Ultra Sheer SPF55",
+        "channel": "tiktok_shop_us",
+        "global_product": "Beauty of Joseon Relief Sun SPF50",
         "similarity": 0.82,
-        "demand_weight": 0.72,
+        "demand_weight": 0.85,
         "matched_tokens": [
           "sunscreen"
         ],
-        "match_score": 0.59
+        "match_score": 0.697
       }
     },
     {
       "rank": 3,
+      "pd_no": "1064529",
+      "name": "더마블록 무기자차선크림 35 ml (by 셀퓨전씨)",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 88,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064529",
+      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50' (tiktok_shop_us) 유사 82% · 토큰 sunscreen",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Beauty of Joseon Relief Sun SPF50",
+        "similarity": 0.82,
+        "demand_weight": 0.85,
+        "matched_tokens": [
+          "sunscreen"
+        ],
+        "match_score": 0.697
+      }
+    },
+    {
+      "rank": 4,
+      "pd_no": "1068776",
+      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 86,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068776",
+      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50' (tiktok_shop_us) 유사 82% · 토큰 sunscreen",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Beauty of Joseon Relief Sun SPF50",
+        "similarity": 0.82,
+        "demand_weight": 0.85,
+        "matched_tokens": [
+          "sunscreen"
+        ],
+        "match_score": 0.697
+      }
+    },
+    {
+      "rank": 5,
       "pd_no": "1060494",
       "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
       "bucket": "스킨케어",
@@ -67,48 +109,6 @@
           "essence"
         ],
         "match_score": 0.686
-      }
-    },
-    {
-      "rank": 4,
-      "pd_no": "1064529",
-      "name": "더마블록 무기자차선크림 35 ml (by 셀퓨전씨)",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 83,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064529",
-      "recommend_reason": "글로벌 'Neutrogena Ultra Sheer SPF55' (walmart_beauty) 유사 82% · 토큰 sunscreen",
-      "matched_global": {
-        "channel": "walmart_beauty",
-        "global_product": "Neutrogena Ultra Sheer SPF55",
-        "similarity": 0.82,
-        "demand_weight": 0.72,
-        "matched_tokens": [
-          "sunscreen"
-        ],
-        "match_score": 0.59
-      }
-    },
-    {
-      "rank": 5,
-      "pd_no": "1068776",
-      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 81,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068776",
-      "recommend_reason": "글로벌 'Neutrogena Ultra Sheer SPF55' (walmart_beauty) 유사 82% · 토큰 sunscreen",
-      "matched_global": {
-        "channel": "walmart_beauty",
-        "global_product": "Neutrogena Ultra Sheer SPF55",
-        "similarity": 0.82,
-        "demand_weight": 0.72,
-        "matched_tokens": [
-          "sunscreen"
-        ],
-        "match_score": 0.59
       }
     },
     {
@@ -135,6 +135,27 @@
     },
     {
       "rank": 7,
+      "pd_no": "1057223",
+      "name": "태그 핑크 라이트 선쿠션 15 g",
+      "bucket": "선케어",
+      "price_krw": 5000,
+      "shopify_score": 79,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057223",
+      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50' (tiktok_shop_us) 유사 82% · 토큰 sunscreen",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Beauty of Joseon Relief Sun SPF50",
+        "similarity": 0.82,
+        "demand_weight": 0.85,
+        "matched_tokens": [
+          "sunscreen"
+        ],
+        "match_score": 0.697
+      }
+    },
+    {
+      "rank": 8,
       "pd_no": "1070006",
       "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
       "bucket": "스킨케어",
@@ -142,37 +163,37 @@
       "shopify_score": 79,
       "grade": "S",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1070006",
-      "recommend_reason": "글로벌 'Vita C Dark Spot Serum' (oliveyoung_us) 유사 68% · 토큰 serum",
+      "recommend_reason": "글로벌 'Green Tangerine Vita C Dark Spot Serum' (oliveyoung_us) 유사 66% · 토큰 serum",
       "matched_global": {
         "channel": "oliveyoung_us",
-        "global_product": "Vita C Dark Spot Serum",
-        "similarity": 0.68,
+        "global_product": "Green Tangerine Vita C Dark Spot Serum",
+        "similarity": 0.657,
         "demand_weight": 0.833,
         "matched_tokens": [
           "serum"
         ],
-        "match_score": 0.566
+        "match_score": 0.547
       }
     },
     {
-      "rank": 8,
-      "pd_no": "1057223",
-      "name": "태그 핑크 라이트 선쿠션 15 g",
-      "bucket": "선케어",
+      "rank": 9,
+      "pd_no": "1048581",
+      "name": "드롭비 잡티 말끔 앰플 40 ml",
+      "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 74,
+      "shopify_score": 70,
       "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057223",
-      "recommend_reason": "글로벌 'Neutrogena Ultra Sheer SPF55' (walmart_beauty) 유사 82% · 토큰 sunscreen",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
+      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule",
       "matched_global": {
-        "channel": "walmart_beauty",
-        "global_product": "Neutrogena Ultra Sheer SPF55",
-        "similarity": 0.82,
-        "demand_weight": 0.72,
+        "channel": "tiktok_shop_us",
+        "global_product": "Skin1004 Madagascar Centella Ampoule",
+        "similarity": 0.4,
+        "demand_weight": 0.75,
         "matched_tokens": [
-          "sunscreen"
+          "ampoule"
         ],
-        "match_score": 0.59
+        "match_score": 0.3
       }
     }
   ]
