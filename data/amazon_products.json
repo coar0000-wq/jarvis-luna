@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T18:36:46.422600+00:00",
+  "updated_at": "2026-08-30T21:32:51.004558+00:00",
   "source": "amazon real-name catalog (no fake placeholders)",
   "count": 21,
   "products": [
@@ -240,7 +240,7 @@
     "Amazon skincare",
     "K-beauty"
   ],
-  "last_updated": "2026-08-30T18:36:46.422600+00:00",
+  "last_updated": "2026-08-30T21:32:51.004558+00:00",
   "total_count": 21,
   "added_this_run": 0
 }
