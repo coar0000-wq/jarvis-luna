@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-30T11:55:56.965650+09:00",
+  "generated_at": "2026-08-30T13:29:56.206507+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "455개 코퍼스 레코드"
+      "detail": "461개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "474개 노트 · 3910개 링크 · 끊어진 링크 0개"
+      "detail": "480개 노트 · 3961개 링크 · 끊어진 링크 0개"
     },
     {
       "id": "dashboard",
@@ -25,7 +25,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "455건 · 3 experts · 정확도 80.88%"
+      "detail": "461건 · 3 experts · 정확도 81.34%"
     },
     {
       "id": "publish",
@@ -36,45 +36,45 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 455,
+    "record_count": 461,
     "source_counts": {},
-    "updated_at": "2026-08-30T11:52:15.283957+09:00"
+    "updated_at": "2026-08-30T13:27:16.659490+09:00"
   },
   "graph": {
-    "notes": 474,
-    "links": 3910,
+    "notes": 480,
+    "links": 3961,
     "dangling_links": 0,
-    "records": 455,
+    "records": 461,
     "sources": 4,
     "topics": 6,
     "audit": "passed",
-    "last_generated": "2026-08-30T11:54:06.083190+09:00"
+    "last_generated": "2026-08-30T13:27:22.193074+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 455,
+    "records": 461,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.8087912087912088,
-    "validation_accuracy": 0.8552631578947368,
-    "final_loss": 0.43554642073085126,
-    "gate_load_std": 0.45547145955160695,
+    "accuracy": 0.8134490238611713,
+    "validation_accuracy": 0.8441558441558441,
+    "final_loss": 0.43196519324247473,
+    "gate_load_std": 0.45568055361746473,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-08-30T02:55:56.897160+00:00"
+    "updated_at": "2026-08-30T04:29:56.116313+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 455,
-      "notes": 474,
-      "links": 3910
+      "records": 461,
+      "notes": 480,
+      "links": 3961
     },
     "prior_totals": {
-      "records": 455,
-      "notes": 474,
-      "links": 3910
+      "records": 461,
+      "notes": 480,
+      "links": 3961
     },
     "added_this_run": {
       "records": 0,
@@ -82,9 +82,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 455,
-      "notes": 474,
-      "links": 3910
+      "records": 461,
+      "notes": 480,
+      "links": 3961
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -138,6 +138,48 @@
         "product": "Skin1004 Madagascar Centella Ampoule",
         "trend": "상승",
         "price": 18.99
+      },
+      {
+        "rank": 9,
+        "product": "Mighty Patch Original Hydrocolloid",
+        "trend": "유지",
+        "price": 12.99
+      },
+      {
+        "rank": 10,
+        "product": "Beauty of Joseon Relief Sun SPF50+",
+        "trend": "상승",
+        "price": 16.0
+      },
+      {
+        "rank": 11,
+        "product": "ANUA Heartleaf 77 Soothing Toner",
+        "trend": "상승",
+        "price": 20.0
+      },
+      {
+        "rank": 12,
+        "product": "CeraVe Moisturizing Cream",
+        "trend": "유지",
+        "price": 18.99
+      },
+      {
+        "rank": 13,
+        "product": "Neutrogena Hydro Boost Water Gel",
+        "trend": "유지",
+        "price": 15.99
+      },
+      {
+        "rank": 14,
+        "product": "The Ordinary Hyaluronic Acid 2% + B5",
+        "trend": "유지",
+        "price": 8.9
+      },
+      {
+        "rank": 15,
+        "product": "Goodal Green Tangerine Vita C Serum",
+        "trend": "상승",
+        "price": 19.0
       }
     ],
     "tiktok_shop_us": [
@@ -265,6 +307,48 @@
         "product": "Garnier Moisture Bomb Sheet Mask",
         "status": "Trending",
         "price": 2.97
+      },
+      {
+        "category": "Serum",
+        "product": "The Ordinary Hyaluronic Acid 2% + B5",
+        "status": "Best Seller",
+        "price": 8.98
+      },
+      {
+        "category": "Body",
+        "product": "EOS Shea Better Body Lotion",
+        "status": "Best Seller",
+        "price": 6.98
+      },
+      {
+        "category": "Cleanser",
+        "product": "CeraVe Hydrating Facial Cleanser",
+        "status": "Best Seller",
+        "price": 13.98
+      },
+      {
+        "category": "Moisturizer",
+        "product": "Neutrogena Hydro Boost Water Gel",
+        "status": "Best Seller",
+        "price": 15.94
+      },
+      {
+        "category": "Cleanser",
+        "product": "Garnier SkinActive Micellar Water",
+        "status": "Best Seller",
+        "price": 8.97
+      },
+      {
+        "category": "Moisturizer",
+        "product": "CeraVe PM Facial Moisturizing Lotion",
+        "status": "Best Seller",
+        "price": 16.98
+      },
+      {
+        "category": "Serum",
+        "product": "Equate Beauty Vitamin C Serum",
+        "status": "Best Seller",
+        "price": 7.48
       }
     ],
     "google_trends_us": [
@@ -308,49 +392,55 @@
         "keyword": "Spf",
         "growth": "+",
         "momentum": "High",
-        "product": "Neutrogena Ultra Sheer SPF55"
-      },
-      {
-        "keyword": "Hyaluronic",
-        "growth": "+",
-        "momentum": "High",
-        "product": "The Ordinary Hyaluronic Acid 2%"
+        "product": "Beauty of Joseon Relief Sun SPF50+"
       },
       {
         "keyword": "Heartleaf",
         "growth": "+",
         "momentum": "High",
-        "product": "Heartleaf 77 Soothing Toner"
+        "product": "ANUA Heartleaf 77 Soothing Toner"
       },
       {
         "keyword": "Toner",
         "growth": "+",
         "momentum": "High",
-        "product": "Heartleaf 77 Soothing Toner"
+        "product": "ANUA Heartleaf 77 Soothing Toner"
+      },
+      {
+        "keyword": "Hyaluronic",
+        "growth": "+",
+        "momentum": "High",
+        "product": "The Ordinary Hyaluronic Acid 2% + B5"
+      },
+      {
+        "keyword": "Serum",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Goodal Green Tangerine Vita C Serum"
+      },
+      {
+        "keyword": "Cushion",
+        "growth": "+",
+        "momentum": "High",
+        "product": "TIRTIR Mask Fit Red Cushion"
+      },
+      {
+        "keyword": "Ceramide",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Illiyoon Ceramide Ato Concentrate Cream"
+      },
+      {
+        "keyword": "Vitamin",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Equate Beauty Vitamin C Serum"
       },
       {
         "keyword": "Collagen",
         "growth": "+",
         "momentum": "High",
         "product": "Collagen Jelly Cream"
-      },
-      {
-        "keyword": "Serum",
-        "growth": "+",
-        "momentum": "High",
-        "product": "Green Tangerine Vita C Dark Spot Serum"
-      },
-      {
-        "keyword": "Ceramide",
-        "growth": "+",
-        "momentum": "High",
-        "product": "Ceramide Ato Concentrate Cream"
-      },
-      {
-        "keyword": "Cushion",
-        "growth": "+",
-        "momentum": "High",
-        "product": "Mask Fit Red Cushion"
       }
     ],
     "ulta_beauty": [
@@ -643,5 +733,5 @@
     "rate": 1383.49,
     "updated_at": "2026-08-30"
   },
-  "last_synced": "08. 30. 오후 12:58 KST"
+  "last_synced": "08. 30. 오후 01:29 KST"
 }

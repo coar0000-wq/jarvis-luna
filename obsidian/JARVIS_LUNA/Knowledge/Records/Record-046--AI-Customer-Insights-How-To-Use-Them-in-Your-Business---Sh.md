@@ -2,13 +2,13 @@
 title: "Record 046 · AI-Customer-Insights-How-To-Use-Them-in-Your-Business---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T02:54:06.041876+00:00
+updated_at: 2026-08-30T04:27:22.105733+00:00
 tags: [{', '.join(tags)}]
 ---
 
 # Record 046 · AI-Customer-Insights-How-To-Use-Them-in-Your-Business---Shopify
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBpZGZlamJwR3MydUZMTEwzVFFpWDRKQ0VlYTNaeU83dXYyUHF5V2JUYkEwd1p0UWlnR2pVLU9pejRTc2p2RjZrWUN0SmRXUHdLZVpyeGZmdlJ5M0NVN3RWRkNR?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYkFVX3lxTFAwY05pUUpFNGlqTDRIYmRNVVNUV1kyUTl0bEg3NW5SQUlEUG8wRU9sUEhJMmdnWWUySXBpdnMzOFllOFREWnI0YVZLaUI3c09ZbzM3Ymdic3hqaldoUXFHRkVR?oc=5)
 
 **제목:** AI Customer Insights: How To Use Them in Your Business - Shopify
 

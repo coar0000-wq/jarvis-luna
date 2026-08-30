@@ -2,7 +2,7 @@
 title: "Record 004 · K-Beauty-Craze-Lands-Founder-Of-Skincare-Device-Firm-In-Ranks-Of-South"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T02:54:06.038760+00:00
+updated_at: 2026-08-30T04:27:22.098029+00:00
 tags: [{', '.join(tags)}]
 ---
 

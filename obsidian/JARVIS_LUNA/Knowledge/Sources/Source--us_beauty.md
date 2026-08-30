@@ -2,7 +2,7 @@
 title: "Source · us_beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T02:54:06.079946+00:00
+updated_at: 2026-08-30T04:27:22.188316+00:00
 tags: [{', '.join(tags)}]
 ---
 
@@ -11,14 +11,14 @@ tags: [{', '.join(tags)}]
 실제 수집 레코드 **8건**이 이 소스에 연결되어 있습니다.
 
 - [[Record-001--TikTok-Creative-Center]]
-- [[Record-356--Google-Trends-US]]
-- [[Record-357--Amazon-Skincare-Best-Sellers]]
-- [[Record-358--Amazon-Beauty-Best-Sellers]]
-- [[Record-359--Sephora-Skincare]]
-- [[Record-360--Target-Beauty]]
-- [[Record-361--Ulta-Skin-Care]]
-- [[Record-362--Walmart-Beauty]]
+- [[Record-362--Google-Trends-US]]
+- [[Record-363--Amazon-Skincare-Best-Sellers]]
+- [[Record-364--Amazon-Beauty-Best-Sellers]]
+- [[Record-365--Sephora-Skincare]]
+- [[Record-366--Target-Beauty]]
+- [[Record-367--Ulta-Skin-Care]]
+- [[Record-368--Walmart-Beauty]]
 
 ## Connected nodes
 
-[[Record-001--TikTok-Creative-Center]] [[Record-356--Google-Trends-US]] [[Record-357--Amazon-Skincare-Best-Sellers]] [[Record-358--Amazon-Beauty-Best-Sellers]] [[Record-359--Sephora-Skincare]] [[Record-360--Target-Beauty]] [[Record-361--Ulta-Skin-Care]] [[Record-362--Walmart-Beauty]] [[AI-Research]] [[JARVIS Real Knowledge Index]]
+[[Record-001--TikTok-Creative-Center]] [[Record-362--Google-Trends-US]] [[Record-363--Amazon-Skincare-Best-Sellers]] [[Record-364--Amazon-Beauty-Best-Sellers]] [[Record-365--Sephora-Skincare]] [[Record-366--Target-Beauty]] [[Record-367--Ulta-Skin-Care]] [[Record-368--Walmart-Beauty]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

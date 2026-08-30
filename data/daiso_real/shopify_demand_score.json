@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T03:58:18.581329+00:00",
+  "generated_at": "2026-08-30T04:29:56.347298+00:00",
   "total_products": 89,
   "grade_summary": {
     "S": 9,
@@ -9,7 +9,7 @@
   },
   "category_avg_score": {
     "선케어": 79.0,
-    "스킨케어": 59.4,
+    "스킨케어": 59.5,
     "클렌징": 59.0,
     "헤어케어": 53.0,
     "마스크팩": 46.9,
@@ -31,7 +31,7 @@
     "ulta_beauty",
     "walmart_beauty"
   ],
-  "global_demand_signals": 84,
+  "global_demand_signals": 99,
   "products_with_global_match": 34,
   "priority_note": "한영 매핑 기반 글로벌 8채널 유사도 점수. S/A를 Shopify 우선 후보로 사용.",
   "scoring_model": {
@@ -1735,6 +1735,16 @@
             "lotion"
           ],
           "match_score": 0.435
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "EOS Shea Better Body Lotion",
+          "similarity": 0.7,
+          "demand_weight": 0.44,
+          "matched_tokens": [
+            "lotion"
+          ],
+          "match_score": 0.308
         }
       ],
       "recommend_reason": "글로벌 'CeraVe Daily Moisturizing Lotion' (walmart_beauty) 유사 70% · 토큰 lotion"
@@ -1785,6 +1795,16 @@
             "lotion"
           ],
           "match_score": 0.435
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "EOS Shea Better Body Lotion",
+          "similarity": 0.7,
+          "demand_weight": 0.44,
+          "matched_tokens": [
+            "lotion"
+          ],
+          "match_score": 0.308
         }
       ],
       "recommend_reason": "글로벌 'CeraVe Daily Moisturizing Lotion' (walmart_beauty) 유사 70% · 토큰 lotion"
@@ -1908,6 +1928,68 @@
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion"
+    },
+    {
+      "pd_no": "1062141",
+      "name": "네시픽 화이트닝 모이스처크림 50 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 223,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062141",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250306/GoRwz8jRUDcn8upJ3Ilc1062141_00_01GoRwz8jRUDcn8upJ3Ilc.jpg",
+      "shopify_score": 68,
+      "grade": "B",
+      "base_score": 42,
+      "similarity_points": 17,
+      "keyword_points": 2,
+      "quality_bonus": 7,
+      "penalty": 0,
+      "best_global_match": {
+        "channel": "amazon_best_sellers",
+        "global_product": "CeraVe Moisturizing Cream",
+        "similarity": 0.867,
+        "demand_weight": 0.475,
+        "matched_tokens": [
+          "cream",
+          "moisturizer"
+        ],
+        "match_score": 0.412
+      },
+      "global_matches": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "CeraVe Moisturizing Cream",
+          "similarity": 0.867,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "cream",
+            "moisturizer"
+          ],
+          "match_score": 0.412
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Collagen Jelly Cream",
+          "similarity": 0.4,
+          "demand_weight": 0.882,
+          "matched_tokens": [
+            "cream"
+          ],
+          "match_score": 0.353
+        },
+        {
+          "channel": "sephora",
+          "global_product": "Sol de Janeiro Brazilian Bum Bum Cream",
+          "similarity": 0.4,
+          "demand_weight": 0.81,
+          "matched_tokens": [
+            "cream"
+          ],
+          "match_score": 0.324
+        }
+      ],
+      "recommend_reason": "글로벌 'CeraVe Moisturizing Cream' (amazon_best_sellers) 유사 87% · 토큰 cream,moisturizer"
     },
     {
       "pd_no": "1067024",
@@ -2268,66 +2350,6 @@
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 43% · 토큰 mask"
-    },
-    {
-      "pd_no": "1062141",
-      "name": "네시픽 화이트닝 모이스처크림 50 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 223,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062141",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250306/GoRwz8jRUDcn8upJ3Ilc1062141_00_01GoRwz8jRUDcn8upJ3Ilc.jpg",
-      "shopify_score": 66,
-      "grade": "B",
-      "base_score": 42,
-      "similarity_points": 15,
-      "keyword_points": 2,
-      "quality_bonus": 7,
-      "penalty": 0,
-      "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "Collagen Jelly Cream",
-        "similarity": 0.4,
-        "demand_weight": 0.882,
-        "matched_tokens": [
-          "cream"
-        ],
-        "match_score": 0.353
-      },
-      "global_matches": [
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "Collagen Jelly Cream",
-          "similarity": 0.4,
-          "demand_weight": 0.882,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.353
-        },
-        {
-          "channel": "sephora",
-          "global_product": "Sol de Janeiro Brazilian Bum Bum Cream",
-          "similarity": 0.4,
-          "demand_weight": 0.81,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.324
-        },
-        {
-          "channel": "shopify_demand_matching",
-          "global_product": "Illiyoon Ceramide Cream",
-          "similarity": 0.433,
-          "demand_weight": 0.748,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.324
-        }
-      ],
-      "recommend_reason": "글로벌 'Collagen Jelly Cream' (oliveyoung_us) 유사 40% · 토큰 cream"
     },
     {
       "pd_no": "1041890",
