@@ -596,82 +596,93 @@ gBox.innerHTML=row('개별 자료 노트',n(g.records)+'개')+row('주제 노트
 }
 }
 
-function renderDaiso(s){
+function renderDaiso(status, sRec){
   const box = $('daiso-panel');
   if(!box) return;
 
-  const products = [
-    {name:"리들샷 100", brand:"VT", krw:5000, usd:8.99, margin:80},
-    {name:"히알루론 앰플", brand:"토리든", krw:5000, usd:9.49, margin:90},
-    {name:"세라마이드 크림", brand:"일리윤", krw:5000, usd:9.99, margin:100},
-    {name:"어성초 토너", brand:"아누아", krw:5000, usd:9.99, margin:100},
-    {name:"비타C 세럼", brand:"구달", krw:5000, usd:10.49, margin:110},
-    {name:"스네일 에센스", brand:"COSRX", krw:5000, usd:10.99, margin:120},
-    {name:"콜라겐 젤 크림", brand:"BIODANCE", krw:5000, usd:11.49, margin:130},
-    {name:"빈 에센스", brand:"믹순", krw:5000, usd:11.99, margin:140},
-    {name:"쌀 토너", brand:"I'm From", krw:5000, usd:12.49, margin:150},
-    {name:"글루타치온 세럼", brand:"APLB", krw:5000, usd:12.99, margin:160},
-    {name:"센텔라 앰플", brand:"SKIN1004", krw:5000, usd:13.49, margin:170},
-    {name:"립 슬리핑 마스크", brand:"Laneige", krw:5000, usd:13.99, margin:180}
-  ];
+  // 환율: collection_status.fx → runtime.exchange_rate → 기본값
+  const fx = (status && status.fx) || (window.__runtime && window.__runtime.exchange_rate) || {};
+  const rate = Number(fx.usd_to_krw || fx.rate || 0) || 1380;
+  const rateAsOf = fx.as_of || fx.updated_at || '';
 
-  const rate = 1383.49;
-  const avg = (products.reduce((a,b)=>a+b.usd,0)/products.length).toFixed(2);
+  // S등급 다이소 실상품 (shopify_s_recommendations)
+  const recs = (sRec && sRec.recommendations) || (window.__sRec && window.__sRec.recommendations) || [];
+  const products = recs.map(r => {
+    const krw = Number(r.price_krw || 0) || 5000;
+    const usd = rate > 0 ? (krw / rate) : 0;
+    // 단순 마진 가정: 판매가 = 원가 USD * 2.2 (쇼피파이 테스트 가정)
+    const sell = usd * 2.2;
+    const margin = usd > 0 ? Math.round(((sell - usd) / usd) * 100) : 0;
+    const m = r.matched_global || {};
+    return {
+      name: r.name || '',
+      bucket: r.bucket || '',
+      krw: krw,
+      usd: sell,
+      costUsd: usd,
+      margin: margin,
+      score: r.shopify_score,
+      grade: r.grade || 'S',
+      match: m.global_product || '',
+      channel: m.channel || '',
+      url: r.url || ''
+    };
+  });
+
+  if(!products.length){
+    box.innerHTML = '<div style="color:#888;font-size:13px;">S등급 추천이 없습니다. score_shopify_demand.py 실행 후 다시 열어주세요.</div>';
+    return;
+  }
+
+  const avgSell = (products.reduce((a,b)=>a+b.usd,0)/products.length);
+  const avgCost = (products.reduce((a,b)=>a+b.costUsd,0)/products.length);
 
   box.innerHTML = `
     <div class="dz-grid">
       <div class="dz-tile dz-green">
-        <div class="k">등록 상품</div>
+        <div class="k">S등급 등록 후보</div>
         <div class="v">${products.length}개</div>
-        <div class="u">Shopify Ready</div>
+        <div class="u">Shopify 1차 테스트</div>
       </div>
-
       <div class="dz-tile dz-blue">
-        <div class="k">8월 평균 판매액</div>
-        <div class="v">$6,750</div>
-        <div class="u">USD</div>
+        <div class="k">평균 예상 판매가</div>
+        <div class="v">$${avgSell.toFixed(2)}</div>
+        <div class="u">원가×2.2 가정</div>
       </div>
-
       <div class="dz-tile dz-amber">
-        <div class="k">평균 원가</div>
-        <div class="v">₩5,000</div>
-        <div class="u">다이소</div>
+        <div class="k">평균 다이소 원가</div>
+        <div class="v">₩${Math.round(avgCost*rate).toLocaleString('ko-KR')}</div>
+        <div class="u">실수집 가격</div>
       </div>
-
       <div class="dz-tile dz-slate">
-        <div class="k">환율</div>
-        <div class="v">${rate.toLocaleString()}</div>
-        <div class="u">KRW/USD</div>
+        <div class="k">적용 환율</div>
+        <div class="v">${rate.toLocaleString('ko-KR',{maximumFractionDigits:2})}</div>
+        <div class="u">KRW/USD${rateAsOf?' · '+rateAsOf:''}</div>
       </div>
     </div>
-
     <div class="dz-rule"></div>
-
     <div style="font-size:13px;font-weight:600;color:#58a6ff;margin-bottom:12px;">
-      실시간 Dropshipping 상품 (12)
+      S등급 Dropshipping 후보 (${products.length})
     </div>
-
     <div style="display:grid;gap:8px;max-height:420px;overflow:auto;">
       ${products.map((p,i)=>`
         <div style="display:grid;grid-template-columns:28px 1fr auto;align-items:center;
                     gap:10px;padding:10px;border:1px solid #2a2a2a;border-radius:8px;background:#111;">
           <div style="color:#58a6ff;font-weight:700;">${i+1}</div>
-
-          <div>
-            <div style="color:#fff;font-size:13px;font-weight:600;">${p.name}</div>
-            <div style="color:#777;font-size:11px;">${p.brand} · ₩${p.krw.toLocaleString()}</div>
+          <div style="min-width:0;">
+            <div style="color:#fff;font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${esc(p.name)}</div>
+            <div style="color:#777;font-size:11px;">${esc(p.bucket)} · ₩${Number(p.krw).toLocaleString('ko-KR')}${p.match?' · ↔ '+esc(p.match):''}</div>
           </div>
-
           <div style="text-align:right;">
-            <div style="color:#3fb950;font-weight:700;">$${p.usd}</div>
-            <div style="font-size:11px;color:#d29922;">+${p.margin}%</div>
+            <div style="color:#3fb950;font-weight:700;">$${p.usd.toFixed(2)}</div>
+            <div style="font-size:11px;color:#d29922;">S ${p.score!=null?p.score:'–'}점</div>
           </div>
         </div>
       `).join('')}
     </div>
-
     <div class="dz-note" style="margin-top:14px;">
-      **12개 상품이 Shopify 등록 대상으로 표시됩니다.** 평균 판매가 $${avg}, 원가 ₩5,000 기준이며 환율은 ${rate.toLocaleString()} KRW/USD입니다.
+      S등급 ${products.length}개가 Shopify 1차 등록 대상입니다. 판매가 = 다이소 원가(USD)×2.2 가정, 환율 ${rate.toLocaleString('ko-KR',{maximumFractionDigits:2})} KRW/USD.
+      왼쪽 목록과 동일 데이터(shopify_s_recommendations.json)입니다.
     </div>
   `;
 }
@@ -878,8 +889,8 @@ if(rt.status==='fulfilled') renderDataDetail(rt.value);
 if(rt.status!=='fulfilled') renderTraining(tr.value);
 }else{ renderSources(null); }
 renderLatest(src.status==='fulfilled'?src.value:null);
-renderDaiso(daiso.status==='fulfilled'?daiso.value:null);
 window.__sRec = sRec.status==='fulfilled'?sRec.value:null;
+renderDaiso(daiso.status==='fulfilled'?daiso.value:null, window.__sRec);
 renderShopifyDemand(sd.status==='fulfilled'?sd.value:null, window.__sRec);
 if(window.__runtime) renderMarketingChannels(window.__runtime);
 }
