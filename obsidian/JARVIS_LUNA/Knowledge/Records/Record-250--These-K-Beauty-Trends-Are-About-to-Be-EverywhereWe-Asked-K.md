@@ -2,7 +2,7 @@
 title: "Record 250 · These-K-Beauty-Trends-Are-About-to-Be-EverywhereWe-Asked-Korean-Skin-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.256313+00:00
+updated_at: 2026-08-30T23:40:56.346342+00:00
 tags: [{', '.join(tags)}]
 ---
 

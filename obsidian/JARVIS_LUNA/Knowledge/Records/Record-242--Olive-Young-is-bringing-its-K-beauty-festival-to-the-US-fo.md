@@ -2,7 +2,7 @@
 title: "Record 242 · Olive-Young-is-bringing-its-K-beauty-festival-to-the-US-for-the-first-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.255220+00:00
+updated_at: 2026-08-30T23:40:56.344860+00:00
 tags: [{', '.join(tags)}]
 ---
 

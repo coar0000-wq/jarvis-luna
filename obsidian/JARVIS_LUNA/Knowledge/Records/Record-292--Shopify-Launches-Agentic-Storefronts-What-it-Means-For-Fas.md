@@ -2,7 +2,7 @@
 title: "Record 292 · Shopify-Launches-Agentic-Storefronts-What-it-Means-For-Fashion---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.262229+00:00
+updated_at: 2026-08-30T23:40:56.354059+00:00
 tags: [{', '.join(tags)}]
 ---
 

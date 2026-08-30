@@ -2,7 +2,7 @@
 title: "Record 464 · SPO-Stream-Aligned-Policy-Optimization-for-Asynchronous-Agentic-RL"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.291307+00:00
+updated_at: 2026-08-30T23:40:56.385935+00:00
 tags: [{', '.join(tags)}]
 ---
 

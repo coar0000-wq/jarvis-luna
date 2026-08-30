@@ -2,7 +2,7 @@
 title: "Record 245 · 6-Korean-Beauty-Trends-Shaping-2026-Moving-From-Glass-Skin-To-Bloom-Sk"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.255610+00:00
+updated_at: 2026-08-30T23:40:56.345374+00:00
 tags: [{', '.join(tags)}]
 ---
 

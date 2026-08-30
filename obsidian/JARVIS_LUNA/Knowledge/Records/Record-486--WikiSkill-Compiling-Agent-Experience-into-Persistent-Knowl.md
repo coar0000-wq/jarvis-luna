@@ -2,7 +2,7 @@
 title: "Record 486 · WikiSkill-Compiling-Agent-Experience-into-Persistent-Knowledge-for-Ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.295510+00:00
+updated_at: 2026-08-30T23:40:56.389805+00:00
 tags: [{', '.join(tags)}]
 ---
 

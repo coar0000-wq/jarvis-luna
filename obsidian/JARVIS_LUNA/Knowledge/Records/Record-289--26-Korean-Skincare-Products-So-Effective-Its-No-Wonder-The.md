@@ -2,7 +2,7 @@
 title: "Record 289 · 26-Korean-Skincare-Products-So-Effective-Its-No-Wonder-They-Went-Viral"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.261772+00:00
+updated_at: 2026-08-30T23:40:56.353520+00:00
 tags: [{', '.join(tags)}]
 ---
 

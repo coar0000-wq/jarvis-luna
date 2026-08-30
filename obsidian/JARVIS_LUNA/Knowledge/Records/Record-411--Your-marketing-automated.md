@@ -2,7 +2,7 @@
 title: "Record 411 · Your-marketing-automated"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.281823+00:00
+updated_at: 2026-08-30T23:40:56.376024+00:00
 tags: [{', '.join(tags)}]
 ---
 

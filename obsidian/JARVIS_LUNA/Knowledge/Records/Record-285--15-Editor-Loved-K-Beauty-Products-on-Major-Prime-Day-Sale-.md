@@ -2,7 +2,7 @@
 title: "Record 285 · 15-Editor-Loved-K-Beauty-Products-on-Major-Prime-Day-Sale---Harpers-BA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.261221+00:00
+updated_at: 2026-08-30T23:40:56.352756+00:00
 tags: [{', '.join(tags)}]
 ---
 

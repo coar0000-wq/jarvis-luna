@@ -2,7 +2,7 @@
 title: "Record 407 · Meet-your-stores-new-AI-assistant"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.281206+00:00
+updated_at: 2026-08-30T23:40:56.375324+00:00
 tags: [{', '.join(tags)}]
 ---
 

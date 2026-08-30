@@ -2,7 +2,7 @@
 title: "Record 390 · Sephora-Skincare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.278072+00:00
+updated_at: 2026-08-30T23:40:56.371897+00:00
 tags: [{', '.join(tags)}]
 ---
 

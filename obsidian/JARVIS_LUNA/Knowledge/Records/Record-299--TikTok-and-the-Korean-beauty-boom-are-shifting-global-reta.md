@@ -2,7 +2,7 @@
 title: "Record 299 · TikTok-and-the-Korean-beauty-boom-are-shifting-global-retail---Retail-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.263213+00:00
+updated_at: 2026-08-30T23:40:56.355383+00:00
 tags: [{', '.join(tags)}]
 ---
 

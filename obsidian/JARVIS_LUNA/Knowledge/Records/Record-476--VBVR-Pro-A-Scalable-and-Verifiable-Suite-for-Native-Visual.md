@@ -2,7 +2,7 @@
 title: "Record 476 · VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native-Visual-Reasoning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.293815+00:00
+updated_at: 2026-08-30T23:40:56.388246+00:00
 tags: [{', '.join(tags)}]
 ---
 

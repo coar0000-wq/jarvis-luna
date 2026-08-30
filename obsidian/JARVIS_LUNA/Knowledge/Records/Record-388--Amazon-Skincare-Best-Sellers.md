@@ -2,7 +2,7 @@
 title: "Record 388 · Amazon-Skincare-Best-Sellers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.277768+00:00
+updated_at: 2026-08-30T23:40:56.371559+00:00
 tags: [{', '.join(tags)}]
 ---
 

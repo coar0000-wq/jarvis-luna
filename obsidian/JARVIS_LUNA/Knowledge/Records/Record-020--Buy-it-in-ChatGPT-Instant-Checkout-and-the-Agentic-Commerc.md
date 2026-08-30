@@ -2,7 +2,7 @@
 title: "Record 020 · Buy-it-in-ChatGPT-Instant-Checkout-and-the-Agentic-Commerce-Protocol--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.218732+00:00
+updated_at: 2026-08-30T23:40:56.305026+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 170 · Europes-K-Beauty-boom---The-Parliament-Magazine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.243877+00:00
+updated_at: 2026-08-30T23:40:56.331769+00:00
 tags: [{', '.join(tags)}]
 ---
 

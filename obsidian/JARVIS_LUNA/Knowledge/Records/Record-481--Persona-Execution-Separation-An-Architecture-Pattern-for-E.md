@@ -2,7 +2,7 @@
 title: "Record 481 · Persona-Execution-Separation-An-Architecture-Pattern-for-Evolving-LLM-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.294674+00:00
+updated_at: 2026-08-30T23:40:56.389060+00:00
 tags: [{', '.join(tags)}]
 ---
 

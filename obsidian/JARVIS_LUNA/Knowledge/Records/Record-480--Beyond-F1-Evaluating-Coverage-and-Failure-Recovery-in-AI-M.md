@@ -2,7 +2,7 @@
 title: "Record 480 · Beyond-F1-Evaluating-Coverage-and-Failure-Recovery-in-AI-Model-Securit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-30T21:20:24.294507+00:00
+updated_at: 2026-08-30T23:40:56.388892+00:00
 tags: [{', '.join(tags)}]
 ---
 
