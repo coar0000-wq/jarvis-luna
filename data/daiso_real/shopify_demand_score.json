@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T17:15:31.451541+00:00",
+  "generated_at": "2026-08-31T22:04:26.480431+00:00",
   "total_products": 89,
   "grade_summary": {
     "S": 10,
@@ -100,13 +100,13 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-          "similarity": 0.433,
+          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+          "similarity": 0.367,
           "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.212
+          "match_score": 0.18
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,595건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -207,33 +207,33 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-          "similarity": 0.333,
-          "demand_weight": 0.882,
+          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
+          "similarity": 0.267,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.294
+          "match_score": 0.248
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-          "similarity": 0.333,
-          "demand_weight": 0.735,
+          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
+          "similarity": 0.28,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.245
+          "match_score": 0.22
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
-          "similarity": 0.4,
-          "demand_weight": 0.49,
+          "global_product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
+          "similarity": 0.28,
+          "demand_weight": 0.686,
           "matched_tokens": [
-            "collagen"
+            "cream"
           ],
-          "match_score": 0.196
+          "match_score": 0.192
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 491건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -262,23 +262,23 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-          "similarity": 0.283,
-          "demand_weight": 0.882,
+          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
+          "similarity": 0.217,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.25
+          "match_score": 0.202
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-          "similarity": 0.283,
-          "demand_weight": 0.735,
+          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
+          "similarity": 0.23,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.208
+          "match_score": 0.18
         },
         {
           "channel": "open_beauty_facts",
@@ -389,33 +389,33 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-          "similarity": 0.733,
-          "demand_weight": 0.882,
+          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
+          "similarity": 0.667,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.647
+          "match_score": 0.621
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-          "similarity": 0.733,
-          "demand_weight": 0.735,
+          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
+          "similarity": 0.68,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.539
+          "match_score": 0.533
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
           "similarity": 0.68,
-          "demand_weight": 0.637,
+          "demand_weight": 0.686,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.433
+          "match_score": 0.466
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 672건 · 원가 1,000원 (다이소 실측값 기준)"
@@ -444,27 +444,27 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.23,
-          "demand_weight": 0.931,
+          "global_product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
+          "similarity": 0.207,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.214
+          "match_score": 0.132
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-          "similarity": 0.283,
-          "demand_weight": 0.49,
+          "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
+          "similarity": 0.2,
+          "demand_weight": 0.588,
           "matched_tokens": [
-            "ampoule"
+            "mask"
           ],
-          "match_score": 0.139
+          "match_score": 0.118
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.23,
           "demand_weight": 0.49,
           "matched_tokens": [
@@ -499,23 +499,23 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "Anua PDRN Hyaluronic Acid Capsule 100 Serum Refill Set 2.02 fl. oz.(60ml)",
-          "similarity": 0.657,
-          "demand_weight": 0.686,
+          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
+          "similarity": 0.68,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "serum"
           ],
-          "match_score": 0.451
+          "match_score": 0.533
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)",
-          "similarity": 0.667,
-          "demand_weight": 0.49,
+          "global_product": "Anua PDRN Hyaluronic Acid Capsule 100 Serum Refill Set 2.02 fl. oz.(60ml)",
+          "similarity": 0.657,
+          "demand_weight": 0.735,
           "matched_tokens": [
             "serum"
           ],
-          "match_score": 0.327
+          "match_score": 0.483
         },
         {
           "channel": "open_beauty_facts",
@@ -554,33 +554,33 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-          "similarity": 0.733,
-          "demand_weight": 0.882,
+          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
+          "similarity": 0.667,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.647
+          "match_score": 0.621
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-          "similarity": 0.733,
-          "demand_weight": 0.735,
+          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
+          "similarity": 0.68,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.539
+          "match_score": 0.533
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
           "similarity": 0.68,
-          "demand_weight": 0.637,
+          "demand_weight": 0.686,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.433
+          "match_score": 0.466
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.6 · 리뷰 352건 · 원가 3,000원 (다이소 실측값 기준)"
@@ -659,13 +659,13 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-          "similarity": 0.433,
+          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+          "similarity": 0.367,
           "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.212
+          "match_score": 0.18
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,595건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -766,33 +766,33 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-          "similarity": 0.333,
-          "demand_weight": 0.882,
+          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
+          "similarity": 0.267,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.294
+          "match_score": 0.248
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-          "similarity": 0.333,
-          "demand_weight": 0.735,
+          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
+          "similarity": 0.28,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.245
+          "match_score": 0.22
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
-          "similarity": 0.4,
-          "demand_weight": 0.49,
+          "global_product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
+          "similarity": 0.28,
+          "demand_weight": 0.686,
           "matched_tokens": [
-            "collagen"
+            "cream"
           ],
-          "match_score": 0.196
+          "match_score": 0.192
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 491건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -821,23 +821,23 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-          "similarity": 0.283,
-          "demand_weight": 0.882,
+          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
+          "similarity": 0.217,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.25
+          "match_score": 0.202
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-          "similarity": 0.283,
-          "demand_weight": 0.735,
+          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
+          "similarity": 0.23,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.208
+          "match_score": 0.18
         },
         {
           "channel": "open_beauty_facts",
@@ -948,33 +948,33 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-          "similarity": 0.733,
-          "demand_weight": 0.882,
+          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
+          "similarity": 0.667,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.647
+          "match_score": 0.621
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-          "similarity": 0.733,
-          "demand_weight": 0.735,
+          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
+          "similarity": 0.68,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.539
+          "match_score": 0.533
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
           "similarity": 0.68,
-          "demand_weight": 0.637,
+          "demand_weight": 0.686,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.433
+          "match_score": 0.466
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 672건 · 원가 1,000원 (다이소 실측값 기준)"
@@ -1003,27 +1003,27 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.23,
-          "demand_weight": 0.931,
+          "global_product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
+          "similarity": 0.207,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.214
+          "match_score": 0.132
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-          "similarity": 0.283,
-          "demand_weight": 0.49,
+          "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
+          "similarity": 0.2,
+          "demand_weight": 0.588,
           "matched_tokens": [
-            "ampoule"
+            "mask"
           ],
-          "match_score": 0.139
+          "match_score": 0.118
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.23,
           "demand_weight": 0.49,
           "matched_tokens": [
@@ -1058,23 +1058,23 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "Anua PDRN Hyaluronic Acid Capsule 100 Serum Refill Set 2.02 fl. oz.(60ml)",
-          "similarity": 0.657,
-          "demand_weight": 0.686,
+          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
+          "similarity": 0.68,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "serum"
           ],
-          "match_score": 0.451
+          "match_score": 0.533
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)",
-          "similarity": 0.667,
-          "demand_weight": 0.49,
+          "global_product": "Anua PDRN Hyaluronic Acid Capsule 100 Serum Refill Set 2.02 fl. oz.(60ml)",
+          "similarity": 0.657,
+          "demand_weight": 0.735,
           "matched_tokens": [
             "serum"
           ],
-          "match_score": 0.327
+          "match_score": 0.483
         },
         {
           "channel": "open_beauty_facts",
@@ -1113,33 +1113,33 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-          "similarity": 0.733,
-          "demand_weight": 0.882,
+          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
+          "similarity": 0.667,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.647
+          "match_score": 0.621
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-          "similarity": 0.733,
-          "demand_weight": 0.735,
+          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
+          "similarity": 0.68,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.539
+          "match_score": 0.533
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
           "similarity": 0.68,
-          "demand_weight": 0.637,
+          "demand_weight": 0.686,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.433
+          "match_score": 0.466
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.6 · 리뷰 352건 · 원가 3,000원 (다이소 실측값 기준)"
@@ -1194,32 +1194,32 @@
           "channel": "oliveyoung_us",
           "global_product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
           "similarity": 0.76,
-          "demand_weight": 0.637,
+          "demand_weight": 0.686,
           "matched_tokens": [
             "cream",
             "moisturizer"
           ],
-          "match_score": 0.484
+          "match_score": 0.521
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-          "similarity": 0.433,
-          "demand_weight": 0.882,
+          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
+          "similarity": 0.367,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.382
+          "match_score": 0.341
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-          "similarity": 0.433,
-          "demand_weight": 0.735,
+          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
+          "similarity": 0.38,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.319
+          "match_score": 0.298
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 223건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -1272,27 +1272,27 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.38,
-          "demand_weight": 0.931,
+          "global_product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
+          "similarity": 0.357,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.354
+          "match_score": 0.228
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
           "similarity": 0.35,
-          "demand_weight": 0.539,
+          "demand_weight": 0.588,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.189
+          "match_score": 0.206
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.38,
           "demand_weight": 0.49,
           "matched_tokens": [
@@ -1348,18 +1348,7 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
-          "similarity": 0.5,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "collagen"
-          ],
-          "match_score": 0.245
-        }
-      ],
+      "global_matches_reference_only": [],
       "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 349건 · 원가 3,000원 (다이소 실측값 기준)"
     },
     {
@@ -1436,11 +1425,11 @@
           "channel": "oliveyoung_us",
           "global_product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
           "similarity": 0.65,
-          "demand_weight": 0.833,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.541
+          "match_score": 0.319
         }
       ],
       "recommend_reason": "클렌징 카테고리 · 평점 4.8 · 리뷰 1,078건 · 원가 2,000원 (다이소 실측값 기준)"
@@ -1493,27 +1482,27 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.68,
-          "demand_weight": 0.931,
+          "global_product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
+          "similarity": 0.657,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.633
+          "match_score": 0.419
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
           "similarity": 0.65,
-          "demand_weight": 0.539,
+          "demand_weight": 0.588,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.35
+          "match_score": 0.382
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.68,
           "demand_weight": 0.49,
           "matched_tokens": [
@@ -1548,27 +1537,27 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.38,
-          "demand_weight": 0.931,
+          "global_product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
+          "similarity": 0.357,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.354
+          "match_score": 0.228
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
           "similarity": 0.35,
-          "demand_weight": 0.539,
+          "demand_weight": 0.588,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.189
+          "match_score": 0.206
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.38,
           "demand_weight": 0.49,
           "matched_tokens": [
@@ -1627,27 +1616,27 @@
       "global_matches_reference_only": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.68,
-          "demand_weight": 0.931,
+          "global_product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
+          "similarity": 0.657,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.633
+          "match_score": 0.419
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
           "similarity": 0.65,
-          "demand_weight": 0.539,
+          "demand_weight": 0.588,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.35
+          "match_score": 0.382
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.68,
           "demand_weight": 0.49,
           "matched_tokens": [
@@ -1703,18 +1692,7 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)",
-          "similarity": 0.7,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "shampoo"
-          ],
-          "match_score": 0.343
-        }
-      ],
+      "global_matches_reference_only": [],
       "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 720건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -1863,11 +1841,11 @@
           "channel": "oliveyoung_us",
           "global_product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
           "similarity": 0.65,
-          "demand_weight": 0.833,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.541
+          "match_score": 0.319
         }
       ],
       "recommend_reason": "클렌징 카테고리 · 평점 4.6 · 리뷰 223건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -1893,18 +1871,7 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)",
-          "similarity": 0.7,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "shampoo"
-          ],
-          "match_score": 0.343
-        }
-      ],
+      "global_matches_reference_only": [],
       "recommend_reason": "헤어케어 카테고리 · 평점 4.9 · 리뷰 193건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -2005,11 +1972,11 @@
           "channel": "oliveyoung_us",
           "global_product": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
           "similarity": 0.65,
-          "demand_weight": 0.784,
+          "demand_weight": 0.833,
           "matched_tokens": [
             "cushion"
           ],
-          "match_score": 0.51
+          "match_score": 0.541
         }
       ],
       "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 223건 · 원가 5,000원 (다이소 실측값 기준)"

@@ -2,7 +2,7 @@
 title: "Record 005 · Are-These-Modules-Worth-Their-Cost-A-Paradigm-Level-Accuracy-Cost-Anal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T17:11:10.337028+00:00
+updated_at: 2026-08-31T22:00:03.296622+00:00
 tags: [{', '.join(tags)}]
 ---
 

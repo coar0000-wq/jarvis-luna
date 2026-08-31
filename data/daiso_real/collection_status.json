@@ -115,7 +115,7 @@
     "krw_to_usd": 0.00072643,
     "as_of": "2026-08-31",
     "source": "https://open.er-api.com/v6/latest/USD",
-    "fetched_at": "2026-08-31T17:15:31.393438+00:00",
+    "fetched_at": "2026-08-31T22:04:26.425414+00:00",
     "ok": true
   },
   "sitemap_urls_known": 19739,

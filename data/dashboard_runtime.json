@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T02:15:30.869209+09:00",
+  "generated_at": "2026-09-01T07:04:26.101571+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "737개 코퍼스 레코드"
+      "detail": "739개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "756개 노트 · 6193개 링크 · 끊어진 링크 0개"
+      "detail": "758개 노트 · 6209개 링크 · 끊어진 링크 0개"
     },
     {
       "id": "dashboard",
@@ -25,7 +25,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "737건 · 3 experts · 정확도 78.97%"
+      "detail": "739건 · 3 experts · 정확도 79.03%"
     },
     {
       "id": "publish",
@@ -36,45 +36,45 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 737,
+    "record_count": 739,
     "source_counts": {},
-    "updated_at": "2026-09-01T02:10:48.795990+09:00"
+    "updated_at": "2026-09-01T06:59:31.613476+09:00"
   },
   "graph": {
-    "notes": 756,
-    "links": 6193,
+    "notes": 758,
+    "links": 6209,
     "dangling_links": 0,
-    "records": 737,
+    "records": 739,
     "sources": 4,
     "topics": 6,
     "audit": "passed",
-    "last_generated": "2026-09-01T02:11:10.487023+09:00"
+    "last_generated": "2026-09-01T07:00:03.447428+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 737,
+    "records": 739,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.7896879240162822,
-    "validation_accuracy": 0.803030303030303,
-    "final_loss": 0.4298011877891245,
-    "gate_load_std": 0.4326674077764325,
+    "accuracy": 0.790257104194858,
+    "validation_accuracy": 0.8045112781954887,
+    "final_loss": 0.4301014902343634,
+    "gate_load_std": 0.43228407352914705,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-08-31T17:15:30.761953+00:00"
+    "updated_at": "2026-08-31T22:04:25.996727+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 737,
-      "notes": 756,
-      "links": 6193
+      "records": 739,
+      "notes": 758,
+      "links": 6209
     },
     "prior_totals": {
-      "records": 737,
-      "notes": 756,
-      "links": 6193
+      "records": 739,
+      "notes": 758,
+      "links": 6209
     },
     "added_this_run": {
       "records": 0,
@@ -82,9 +82,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 737,
-      "notes": 756,
-      "links": 6193
+      "records": 739,
+      "notes": 758,
+      "links": 6209
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -103,55 +103,46 @@
         "url": "https://us.oliveyoung.com/products/UA66893538"
       },
       {
-        "product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-        "sub": "MEDIHEAL",
-        "badge": "$20.99",
+        "product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
+        "sub": "Centellian24",
+        "badge": "$59.50",
         "rank": 2,
         "rating": 4.8,
-        "review_count": 1075,
-        "url": "https://us.oliveyoung.com/products/UA48723304"
+        "review_count": 3286,
+        "url": "https://us.oliveyoung.com/products/UA39839880"
       },
       {
-        "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-        "sub": "AESTURA",
-        "badge": "$32.00",
+        "product": "beplain Mung Bean pH-Balanced Cleansing Foam 5.41 fl. oz.(160ml)",
+        "sub": "beplain",
+        "badge": "$17.10",
         "rank": 3,
-        "rating": 5,
-        "review_count": 2,
-        "url": "https://us.oliveyoung.com/products/UA71026007"
-      },
-      {
-        "product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-        "sub": "ROUND LAB",
-        "badge": "$22.49",
-        "rank": 4,
-        "rating": 5,
-        "review_count": 2,
-        "url": "https://us.oliveyoung.com/products/UA38918945"
+        "rating": 4.7,
+        "review_count": 13,
+        "url": "https://us.oliveyoung.com/products/UA34557979"
       },
       {
         "product": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
         "sub": "JUNG SAEM MOOL",
         "badge": "$25.60",
-        "rank": 5,
+        "rank": 4,
         "rating": 4.7,
         "review_count": 355,
         "url": "https://us.oliveyoung.com/products/UA97366320"
       },
       {
-        "product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-        "sub": "Dr.Althea",
-        "badge": "$27.00",
-        "rank": 6,
+        "product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
+        "sub": "Dr.G",
+        "badge": "$25.20",
+        "rank": 5,
         "rating": 4.8,
-        "review_count": 1629,
-        "url": "https://us.oliveyoung.com/products/UA73639757"
+        "review_count": 239,
+        "url": "https://us.oliveyoung.com/products/UA88452413"
       },
       {
         "product": "Anua PDRN Hyaluronic Acid Capsule 100 Serum Refill Set 2.02 fl. oz.(60ml)",
         "sub": "Anua",
         "badge": "$45.05",
-        "rank": 7,
+        "rank": 6,
         "rating": 5,
         "review_count": 2,
         "url": "https://us.oliveyoung.com/products/UA15493619"
@@ -160,73 +151,82 @@
         "product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
         "sub": "S.NATURE",
         "badge": "$18.20",
-        "rank": 8,
+        "rank": 7,
         "rating": 4.9,
         "review_count": 15,
         "url": "https://us.oliveyoung.com/products/UA16733220"
       },
       {
-        "product": "[11types] CORINGCO Toktokhara No Glue Eyelash",
-        "sub": "CORINGCO",
-        "badge": "$12.99",
-        "rank": 9,
+        "product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
+        "sub": "Torriden",
+        "badge": "$33.00",
+        "rank": 8,
         "rating": 4.8,
-        "review_count": 12077,
-        "url": "https://us.oliveyoung.com/products/UA29855490"
+        "review_count": 5,
+        "url": "https://us.oliveyoung.com/products/UA45058326"
       },
       {
         "product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
         "sub": "UNOVE",
         "badge": "$24.70",
-        "rank": 10,
+        "rank": 9,
         "rating": 5,
         "review_count": 2,
         "url": "https://us.oliveyoung.com/products/UA39329211"
       },
       {
-        "product": "Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)",
-        "sub": "Torriden",
-        "badge": "$24.00",
+        "product": "[2colors] medicube AGE-R Booster Pro",
+        "sub": "medicube",
+        "badge": "$221.00",
+        "rank": 10,
+        "rating": 5,
+        "review_count": 4,
+        "url": "https://us.oliveyoung.com/products/UA81995088"
+      },
+      {
+        "product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+        "sub": "lilyeve",
+        "badge": "$23.76",
         "rank": 11,
-        "rating": 5,
-        "review_count": 8,
-        "url": "https://us.oliveyoung.com/products/UA56625219"
+        "rating": 4.6,
+        "review_count": 5,
+        "url": "https://us.oliveyoung.com/products/UA98417491"
       },
       {
-        "product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-        "sub": "REJURAN",
-        "badge": "$41.60",
+        "product": "[11types] CORINGCO Toktokhara No Glue Eyelash",
+        "sub": "CORINGCO",
+        "badge": "$12.99",
         "rank": 12,
-        "rating": 5,
-        "review_count": 9,
-        "url": "https://us.oliveyoung.com/products/UA67698081"
+        "rating": 4.8,
+        "review_count": 12077,
+        "url": "https://us.oliveyoung.com/products/UA29855490"
       },
       {
-        "product": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
-        "sub": "Biodance",
-        "badge": "$62.00",
+        "product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
+        "sub": "ROUND LAB",
+        "badge": "$22.49",
         "rank": 13,
         "rating": 5,
         "review_count": 2,
-        "url": "https://us.oliveyoung.com/products/UA22731950"
+        "url": "https://us.oliveyoung.com/products/UA38918945"
       },
       {
-        "product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
-        "sub": "Centellian24",
-        "badge": "$59.50",
+        "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "sub": "AESTURA",
+        "badge": "$32.00",
         "rank": 14,
-        "rating": 4.8,
-        "review_count": 3286,
-        "url": "https://us.oliveyoung.com/products/UA39839880"
+        "rating": 5,
+        "review_count": 2,
+        "url": "https://us.oliveyoung.com/products/UA71026007"
       },
       {
-        "product": "LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)",
-        "sub": "LABO-H",
-        "badge": "$25.65",
+        "product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+        "sub": "MEDIHEAL",
+        "badge": "$20.99",
         "rank": 15,
-        "rating": 5,
-        "review_count": 1,
-        "url": "https://us.oliveyoung.com/products/UA47370528"
+        "rating": 4.8,
+        "review_count": 1075,
+        "url": "https://us.oliveyoung.com/products/UA48723304"
       }
     ],
     "google_trends_us": [],
@@ -333,7 +333,7 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-01"
   },
-  "last_synced": "09. 01. 오전 02:15 KST",
+  "last_synced": "09. 01. 오전 07:04 KST",
   "global_channels_status": {
     "amazon_best_sellers": {
       "status": "disabled",
@@ -353,7 +353,7 @@
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "수집기 미실행",
-      "collected_at": "2026-08-31T17:11:09.899283+00:00",
+      "collected_at": "2026-08-31T22:00:02.839697+00:00",
       "count": 15
     },
     "google_trends_us": {
@@ -395,7 +395,7 @@
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "수집기 미실행",
-      "collected_at": "2026-08-31T17:11:09.466602+00:00",
+      "collected_at": "2026-08-31T21:59:53.378136+00:00",
       "count": 15
     }
   },
