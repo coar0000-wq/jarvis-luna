@@ -1,0 +1,1028 @@
+{
+  "generated_at": "2026-08-31T11:13:58.616376+00:00",
+  "exchange_rate": {
+    "usd_to_krw": 1376.6,
+    "as_of": "2026-08-31",
+    "source": "https://open.er-api.com/v6/latest/USD"
+  },
+  "cost_basis": {
+    "shipping": "우체국 국제통상 소형포장물 미국행 요금표 (ems.epost.go.kr, 2026-08-31 조회)",
+    "tariff": "15% - 미국 화장품 HTS 3304 한국산 상호관세",
+    "de_minimis": "$800 면세 한도는 2025-08-29 전 국가 폐지, 2026-06-24 CBP 무기한 유예. 소액 소포도 과세 대상.",
+    "payment_fee": "2.9% + $0.3 (Shopify 표준)",
+    "weight": "다이소 데이터에 무게 없음. 용량 표기로 추정한 값이므로 실측 필요.",
+    "not_included": [
+      "광고비(CAC)",
+      "반품/파손",
+      "Shopify 월 구독료",
+      "포장 자재비",
+      "미국 주 판매세",
+      "환율 변동"
+    ]
+  },
+  "market_benchmark": {
+    "min": 5.99,
+    "p25": 20.0,
+    "median": 26.0,
+    "max": 299.0,
+    "source": "us.oliveyoung.com 노출 상품 69건 실조회 2026-08-31"
+  },
+  "scenarios": {
+    "1개_묶음배송": [
+      {
+        "pd_no": "1045146",
+        "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 6.84,
+        "shipping_order_usd": 6.84,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 11.02,
+        "breakeven_usd": 11.66,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.53,
+          "profit": -3.56,
+          "margin_pct": -44.6
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.88,
+          "profit": 8.1,
+          "margin_pct": 40.5
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 1.05,
+          "profit": 13.93,
+          "margin_pct": 53.6
+        }
+      },
+      {
+        "pd_no": "1048581",
+        "name": "드롭비 잡티 말끔 앰플 40 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 104,
+        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 6.84,
+        "shipping_order_usd": 6.84,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 11.02,
+        "breakeven_usd": 11.66,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.53,
+          "profit": -3.56,
+          "margin_pct": -44.6
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.88,
+          "profit": 8.1,
+          "margin_pct": 40.5
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 1.05,
+          "profit": 13.93,
+          "margin_pct": 53.6
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 7.58,
+        "shipping_order_usd": 7.58,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 11.75,
+        "breakeven_usd": 12.41,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.53,
+          "profit": -4.29,
+          "margin_pct": -53.7
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.88,
+          "profit": 7.37,
+          "margin_pct": 36.8
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 1.05,
+          "profit": 13.19,
+          "margin_pct": 50.7
+        }
+      },
+      {
+        "pd_no": "1060494",
+        "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 136,
+        "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 6.84,
+        "shipping_order_usd": 6.84,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 11.02,
+        "breakeven_usd": 11.66,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.53,
+          "profit": -3.56,
+          "margin_pct": -44.6
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.88,
+          "profit": 8.1,
+          "margin_pct": 40.5
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 1.05,
+          "profit": 13.93,
+          "margin_pct": 53.6
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 6.84,
+        "shipping_order_usd": 6.84,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 11.02,
+        "breakeven_usd": 11.66,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.53,
+          "profit": -3.56,
+          "margin_pct": -44.6
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.88,
+          "profit": 8.1,
+          "margin_pct": 40.5
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 1.05,
+          "profit": 13.93,
+          "margin_pct": 53.6
+        }
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 6.84,
+        "shipping_order_usd": 6.84,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 11.02,
+        "breakeven_usd": 11.66,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.53,
+          "profit": -3.56,
+          "margin_pct": -44.6
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.88,
+          "profit": 8.1,
+          "margin_pct": 40.5
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 1.05,
+          "profit": 13.93,
+          "margin_pct": 53.6
+        }
+      },
+      {
+        "pd_no": "1072803",
+        "name": "케어존플러스 모공탄력 수분크림 75 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 160,
+        "weight_note": "75ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 6.84,
+        "shipping_order_usd": 6.84,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 11.02,
+        "breakeven_usd": 11.66,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.53,
+          "profit": -3.56,
+          "margin_pct": -44.6
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.88,
+          "profit": 8.1,
+          "margin_pct": 40.5
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 1.05,
+          "profit": 13.93,
+          "margin_pct": 53.6
+        }
+      },
+      {
+        "pd_no": "1064529",
+        "name": "더마블록 무기자차선크림 35 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 96,
+        "weight_note": "35ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 6.11,
+        "shipping_order_usd": 6.11,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 10.29,
+        "breakeven_usd": 10.9,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.53,
+          "profit": -2.83,
+          "margin_pct": -35.4
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.88,
+          "profit": 8.83,
+          "margin_pct": 44.2
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 1.05,
+          "profit": 14.66,
+          "margin_pct": 56.4
+        }
+      },
+      {
+        "pd_no": "1035210",
+        "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 87,
+        "price_krw": 3000,
+        "weight_g_est": 696,
+        "weight_note": "410ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.18,
+        "shipping_unit_usd": 11.18,
+        "shipping_order_usd": 11.18,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 13.69,
+        "breakeven_usd": 14.4,
+        "at_2_2x": {
+          "sell": 4.79,
+          "fee": 0.44,
+          "profit": -9.33,
+          "margin_pct": -194.6
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.88,
+          "profit": 5.43,
+          "margin_pct": 27.2
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 1.05,
+          "profit": 11.26,
+          "margin_pct": 43.3
+        }
+      },
+      {
+        "pd_no": "1044110",
+        "name": "존슨즈 베이비 로션 핑크 200ml",
+        "bucket": "스킨케어",
+        "shopify_score": 87,
+        "price_krw": 5000,
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 8.31,
+        "shipping_order_usd": 8.31,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 12.49,
+        "breakeven_usd": 13.17,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.53,
+          "profit": -5.03,
+          "margin_pct": -62.9
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.88,
+          "profit": 6.63,
+          "margin_pct": 33.2
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 1.05,
+          "profit": 12.46,
+          "margin_pct": 47.9
+        }
+      }
+    ],
+    "3개_묶음배송": [
+      {
+        "pd_no": "1045146",
+        "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 2.77,
+        "shipping_order_usd": 8.31,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 6.95,
+        "breakeven_usd": 7.26,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.33,
+          "profit": 0.71,
+          "margin_pct": 8.9
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.68,
+          "profit": 12.37,
+          "margin_pct": 61.9
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.85,
+          "profit": 18.2,
+          "margin_pct": 70.0
+        }
+      },
+      {
+        "pd_no": "1048581",
+        "name": "드롭비 잡티 말끔 앰플 40 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 104,
+        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 2.77,
+        "shipping_order_usd": 8.31,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 6.95,
+        "breakeven_usd": 7.26,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.33,
+          "profit": 0.71,
+          "margin_pct": 8.9
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.68,
+          "profit": 12.37,
+          "margin_pct": 61.9
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.85,
+          "profit": 18.2,
+          "margin_pct": 70.0
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 4.19,
+        "shipping_order_usd": 12.56,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 8.36,
+        "breakeven_usd": 8.72,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.33,
+          "profit": -0.7,
+          "margin_pct": -8.8
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.68,
+          "profit": 10.96,
+          "margin_pct": 54.8
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.85,
+          "profit": 16.78,
+          "margin_pct": 64.5
+        }
+      },
+      {
+        "pd_no": "1060494",
+        "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 136,
+        "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 3.27,
+        "shipping_order_usd": 9.8,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 7.44,
+        "breakeven_usd": 7.77,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.33,
+          "profit": 0.22,
+          "margin_pct": 2.7
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.68,
+          "profit": 11.88,
+          "margin_pct": 59.4
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.85,
+          "profit": 17.7,
+          "margin_pct": 68.1
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 2.77,
+        "shipping_order_usd": 8.31,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 6.95,
+        "breakeven_usd": 7.26,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.33,
+          "profit": 0.71,
+          "margin_pct": 8.9
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.68,
+          "profit": 12.37,
+          "margin_pct": 61.9
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.85,
+          "profit": 18.2,
+          "margin_pct": 70.0
+        }
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 2.77,
+        "shipping_order_usd": 8.31,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 6.95,
+        "breakeven_usd": 7.26,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.33,
+          "profit": 0.71,
+          "margin_pct": 8.9
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.68,
+          "profit": 12.37,
+          "margin_pct": 61.9
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.85,
+          "profit": 18.2,
+          "margin_pct": 70.0
+        }
+      },
+      {
+        "pd_no": "1072803",
+        "name": "케어존플러스 모공탄력 수분크림 75 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 160,
+        "weight_note": "75ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 3.27,
+        "shipping_order_usd": 9.8,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 7.44,
+        "breakeven_usd": 7.77,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.33,
+          "profit": 0.22,
+          "margin_pct": 2.7
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.68,
+          "profit": 11.88,
+          "margin_pct": 59.4
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.85,
+          "profit": 17.7,
+          "margin_pct": 68.1
+        }
+      },
+      {
+        "pd_no": "1064529",
+        "name": "더마블록 무기자차선크림 35 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 96,
+        "weight_note": "35ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 2.53,
+        "shipping_order_usd": 7.58,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 6.7,
+        "breakeven_usd": 7.01,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.33,
+          "profit": 0.96,
+          "margin_pct": 12.0
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.68,
+          "profit": 12.62,
+          "margin_pct": 63.1
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.85,
+          "profit": 18.44,
+          "margin_pct": 70.9
+        }
+      },
+      {
+        "pd_no": "1035210",
+        "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 87,
+        "price_krw": 3000,
+        "weight_g_est": 696,
+        "weight_note": "410ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.18,
+        "shipping_unit_usd": 8.19,
+        "shipping_order_usd": 24.56,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 10.69,
+        "breakeven_usd": 11.12,
+        "at_2_2x": {
+          "sell": 4.79,
+          "fee": 0.24,
+          "profit": -6.14,
+          "margin_pct": -128.0
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.68,
+          "profit": 8.63,
+          "margin_pct": 43.1
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.85,
+          "profit": 14.45,
+          "margin_pct": 55.6
+        }
+      },
+      {
+        "pd_no": "1044110",
+        "name": "존슨즈 베이비 로션 핑크 200ml",
+        "bucket": "스킨케어",
+        "shopify_score": 87,
+        "price_krw": 5000,
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 4.87,
+        "shipping_order_usd": 14.62,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 9.05,
+        "breakeven_usd": 9.42,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.33,
+          "profit": -1.39,
+          "margin_pct": -17.4
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.68,
+          "profit": 10.27,
+          "margin_pct": 51.3
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.85,
+          "profit": 16.09,
+          "margin_pct": 61.9
+        }
+      }
+    ],
+    "5개_묶음배송": [
+      {
+        "pd_no": "1045146",
+        "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 2.1,
+        "shipping_order_usd": 10.49,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 6.27,
+        "breakeven_usd": 6.52,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.29,
+          "profit": 1.42,
+          "margin_pct": 17.8
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.64,
+          "profit": 13.09,
+          "margin_pct": 65.4
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.81,
+          "profit": 18.91,
+          "margin_pct": 72.7
+        }
+      },
+      {
+        "pd_no": "1048581",
+        "name": "드롭비 잡티 말끔 앰플 40 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 104,
+        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 2.1,
+        "shipping_order_usd": 10.49,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 6.27,
+        "breakeven_usd": 6.52,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.29,
+          "profit": 1.42,
+          "margin_pct": 17.8
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.64,
+          "profit": 13.09,
+          "margin_pct": 65.4
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.81,
+          "profit": 18.91,
+          "margin_pct": 72.7
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 17.46,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 7.67,
+        "breakeven_usd": 7.96,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.29,
+          "profit": 0.03,
+          "margin_pct": 0.4
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.64,
+          "profit": 11.69,
+          "margin_pct": 58.5
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.81,
+          "profit": 17.52,
+          "margin_pct": 67.4
+        }
+      },
+      {
+        "pd_no": "1060494",
+        "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 136,
+        "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 2.24,
+        "shipping_order_usd": 11.18,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 6.41,
+        "breakeven_usd": 6.67,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.29,
+          "profit": 1.29,
+          "margin_pct": 16.1
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.64,
+          "profit": 12.95,
+          "margin_pct": 64.7
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.81,
+          "profit": 18.77,
+          "margin_pct": 72.2
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 2.1,
+        "shipping_order_usd": 10.49,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 6.27,
+        "breakeven_usd": 6.52,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.29,
+          "profit": 1.42,
+          "margin_pct": 17.8
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.64,
+          "profit": 13.09,
+          "margin_pct": 65.4
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.81,
+          "profit": 18.91,
+          "margin_pct": 72.7
+        }
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 2.1,
+        "shipping_order_usd": 10.49,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 6.27,
+        "breakeven_usd": 6.52,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.29,
+          "profit": 1.42,
+          "margin_pct": 17.8
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.64,
+          "profit": 13.09,
+          "margin_pct": 65.4
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.81,
+          "profit": 18.91,
+          "margin_pct": 72.7
+        }
+      },
+      {
+        "pd_no": "1072803",
+        "name": "케어존플러스 모공탄력 수분크림 75 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 160,
+        "weight_note": "75ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 2.37,
+        "shipping_order_usd": 11.87,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 6.55,
+        "breakeven_usd": 6.81,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.29,
+          "profit": 1.15,
+          "margin_pct": 14.4
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.64,
+          "profit": 12.81,
+          "margin_pct": 64.0
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.81,
+          "profit": 18.64,
+          "margin_pct": 71.7
+        }
+      },
+      {
+        "pd_no": "1064529",
+        "name": "더마블록 무기자차선크림 35 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 96,
+        "weight_note": "35ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 1.96,
+        "shipping_order_usd": 9.8,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 6.14,
+        "breakeven_usd": 6.38,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.29,
+          "profit": 1.56,
+          "margin_pct": 19.5
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.64,
+          "profit": 13.22,
+          "margin_pct": 66.1
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.81,
+          "profit": 19.05,
+          "margin_pct": 73.3
+        }
+      },
+      {
+        "pd_no": "1035210",
+        "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 87,
+        "price_krw": 3000,
+        "weight_g_est": 696,
+        "weight_note": "410ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.18,
+        "shipping_unit_usd": 4.91,
+        "shipping_order_usd": 24.56,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 7.42,
+        "breakeven_usd": 7.7,
+        "at_2_2x": {
+          "sell": 4.79,
+          "fee": 0.2,
+          "profit": -2.82,
+          "margin_pct": -58.9
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.64,
+          "profit": 11.94,
+          "margin_pct": 59.7
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.81,
+          "profit": 17.77,
+          "margin_pct": 68.3
+        }
+      },
+      {
+        "pd_no": "1044110",
+        "name": "존슨즈 베이비 로션 핑크 200ml",
+        "bucket": "스킨케어",
+        "shopify_score": 87,
+        "price_krw": 5000,
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.63,
+        "shipping_unit_usd": 4.36,
+        "shipping_order_usd": 21.8,
+        "tariff_usd": 0.54,
+        "landed_cost_usd": 8.54,
+        "breakeven_usd": 8.85,
+        "at_2_2x": {
+          "sell": 7.99,
+          "fee": 0.29,
+          "profit": -0.84,
+          "margin_pct": -10.5
+        },
+        "at_market_p25": {
+          "sell": 20.0,
+          "fee": 0.64,
+          "profit": 10.82,
+          "margin_pct": 54.1
+        },
+        "at_market_median": {
+          "sell": 26.0,
+          "fee": 0.81,
+          "profit": 16.65,
+          "margin_pct": 64.0
+        }
+      }
+    ]
+  }
+}

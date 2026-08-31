@@ -249,6 +249,9 @@ nav a{font-size:12px;}
 .ch-src{list-style:none;font-size:11px;color:#6e7681;padding-top:9px;margin-top:7px;
   border-top:1px solid rgba(139,148,158,.14);}
 .ch-off{font-size:10px;font-weight:700;color:#8b949e;background:rgba(139,148,158,.14);border:1px solid rgba(139,148,158,.24);border-radius:999px;padding:2px 7px;margin-left:6px;vertical-align:middle;}
+.pm-warn{color:#f0883e;background:rgba(240,136,62,.08);border:1px solid rgba(240,136,62,.22);border-radius:10px;padding:10px 12px;margin-top:12px;font-size:12.5px;line-height:1.6;}
+.pm-warn b{color:#ff7b72;}
+.pm-src{font-size:11px;color:#6e7681;line-height:1.65;margin-top:9px;}
 </style>
 </head>
 <body>
@@ -621,26 +624,69 @@ function renderDaiso(status, sRec){
   const rate=Number(fx.usd_to_krw||fx.rate||0);
   const asOf=fx.as_of||fx.updated_at||'';
   const recs=(sRec&&sRec.recommendations)||(window.__sRec&&window.__sRec.recommendations)||[];
-  window.__fxRate=rate; window.__sellMultiple=2.2;
+  window.__fxRate=rate;
+
+  // 실제 원가 모델 (배송비·관세·결제수수료 포함). 없으면 가격을 표시하지 않는다.
+  const pm=window.__pricing;
+  const rows=(pm&&pm.scenarios&&pm.scenarios['5개_묶음배송'])||[];
+  const byNo={}; rows.forEach(r=>{ byNo[String(r.pd_no)]=r; });
+  window.__priceByNo=byNo;
+  const single={}; ((pm&&pm.scenarios&&pm.scenarios['1개_묶음배송'])||[]).forEach(r=>{ single[String(r.pd_no)]=r; });
+  window.__priceSingle=single;
+
+  const t=(c,k,v,u)=>'<div class="dz-tile '+c+'"><div class="k">'+k+'</div><div class="v">'+v+'</div>'+(u?'<div class="u">'+u+'</div>':'')+'</div>';
+
   if(!recs.length){ box.innerHTML='<div class="dz-note">S등급 추천이 아직 없습니다.</div>'; return; }
+
   const kl=recs.map(r=>Number(r.price_krw||0)).filter(v=>v>0);
   const avgKrw=kl.length?Math.round(kl.reduce((a,b)=>a+b,0)/kl.length):0;
-  const avgCost=(rate>0&&avgKrw)?avgKrw/rate:0, avgSell=avgCost*2.2;
-  const t=(c,k,v,u)=>'<div class="dz-tile '+c+'"><div class="k">'+k+'</div><div class="v">'+v+'</div>'+(u?'<div class="u">'+u+'</div>':'')+'</div>';
+
+  if(!rows.length){
+    box.innerHTML='<div class="dz-grid">'+
+      t('dz-green','S등급 등록 후보',recs.length+'개','Shopify 1차 테스트')+
+      t('dz-amber','평균 다이소 원가',avgKrw?('₩'+avgKrw.toLocaleString('ko-KR')):'–','실수집 가격')+
+      t('dz-slate','적용 환율',rate?rate.toLocaleString('ko-KR'):'확인 필요',rate?('KRW/USD · '+esc(asOf)):'환율 조회 실패')+
+      t('dz-slate','판매가','미산출','pricing_model.json 없음')+
+    '</div><div class="dz-note">원가 모델이 없어 판매가를 표시하지 않습니다. scripts/pricing_model.py 를 실행하세요.</div>';
+    return;
+  }
+
+  const avg=k=>rows.reduce((a,r)=>a+Number(r[k]||0),0)/rows.length;
+  const landed=avg('landed_cost_usd'), be=avg('breakeven_usd');
+  const ship=avg('shipping_unit_usd'), tar=avg('tariff_usd');
+  const mkt=(pm&&pm.market_benchmark)||{};
+  const rec=Number(mkt.p25||0);
+  const margin=rec?((rec-landed-(rec*0.029+0.06))/rec*100):0;
+
+  const sLanded=Object.values(single).reduce((a,r)=>a+Number(r.landed_cost_usd||0),0)/Math.max(1,Object.keys(single).length);
+
   box.innerHTML='<div class="dz-grid">'+
     t('dz-green','S등급 등록 후보',recs.length+'개','Shopify 1차 테스트')+
-    t('dz-blue','평균 예상 판매가',avgSell?('$'+avgSell.toFixed(2)):'–','원가×2.2 가정')+
-    t('dz-amber','평균 다이소 원가',avgKrw?('₩'+avgKrw.toLocaleString('ko-KR')):'–','실수집 가격')+
-    t('dz-slate','적용 환율',rate?rate.toLocaleString('ko-KR'):'확인 필요',rate?('KRW/USD · '+esc(asOf)):'환율 조회 실패')+
-  '</div>';
+    t('dz-blue','권장 판매가','$'+rec.toFixed(2),'마진 '+margin.toFixed(0)+'% · 5개 묶음배송 기준')+
+    t('dz-amber','착지원가','$'+landed.toFixed(2),'원가+배송$'+ship.toFixed(2)+'+관세$'+tar.toFixed(2))+
+    t('dz-slate','손익분기','$'+be.toFixed(2),'이 아래로 팔면 적자')+
+  '</div>'+
+  '<div class="dz-note pm-warn">낱개 배송 시 착지원가가 <b>$'+sLanded.toFixed(2)+'</b>로 올라 '+
+    '$7.99 판매 기준 개당 <b>$'+(7.99-sLanded-7.99*0.029-0.30).toFixed(2)+'</b> 적자입니다. '+
+    '2개 이상 묶음 구매를 유도해야 합니다.</div>'+
+  '<div class="dz-note pm-src">배송 '+esc((pm.cost_basis&&pm.cost_basis.shipping)||'')+
+    ' · 관세 '+esc((pm.cost_basis&&pm.cost_basis.tariff)||'')+
+    ' · 결제 '+esc((pm.cost_basis&&pm.cost_basis.payment_fee)||'')+
+    '<br>시장가 기준 '+esc(mkt.source||'')+' (하위25% $'+(mkt.p25||'-')+' · 중앙값 $'+(mkt.median||'-')+')'+
+    '<br>미포함: '+esc(((pm.cost_basis&&pm.cost_basis.not_included)||[]).join(', '))+
+    '<br>무게는 용량 표기 기반 추정치이며 실측이 필요합니다.</div>';
 }
 
-// 예상 판매가 셀. 환율이 없으면 표시하지 않는다.
+// 가격 셀. 실제 원가 모델(배송·관세·수수료 포함)이 있을 때만 표시한다.
 function sellCell(p){
-  const rate=Number(window.__fxRate||0), krw=Number(p.price_krw||0);
-  if(!rate||!krw) return '';
-  const cost=krw/rate, sell=cost*Number(window.__sellMultiple||2.2);
-  return '<div class="sd-sell">$'+sell.toFixed(2)+'<small>원가 $'+cost.toFixed(2)+'</small></div>';
+  const r=(window.__priceByNo||{})[String(p.pd_no)];
+  if(!r) return '';
+  const mkt=(window.__pricing&&window.__pricing.market_benchmark)||{};
+  const rec=Number(mkt.p25||0);
+  if(!rec) return '';
+  const net=rec-r.landed_cost_usd-(rec*0.029+0.06);
+  return '<div class="sd-sell">$'+rec.toFixed(2)+
+    '<small>착지 $'+r.landed_cost_usd.toFixed(2)+' · 순익 $'+net.toFixed(2)+'</small></div>';
 }
 
 function renderShopifyDemand(sd, sRec){
@@ -835,14 +881,16 @@ set('updated-at',msg);
 }
 
 async function loadData(){
-const [rt,tr,src,daiso,sd,sRec]=await Promise.allSettled([
+const [rt,tr,src,daiso,sd,sRec,pm]=await Promise.allSettled([
 getJSON('data/dashboard_runtime.json'),
 getJSON('data/knowledge/training_status.json'),
 getJSON('data/knowledge/real_sources.json'),
 getJSON('data/daiso_real/collection_status.json'),
 getJSON('data/daiso_real/shopify_demand_score.json'),
-getJSON('data/daiso_real/shopify_s_recommendations.json')
+getJSON('data/daiso_real/shopify_s_recommendations.json'),
+getJSON('data/pricing_model.json')
 ]);
+window.__pricing = pm.status==='fulfilled' ? pm.value : null;
 if(rt.status==='fulfilled'){
 const d=rt.value;
 window.__runtime = d;

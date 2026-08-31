@@ -119,6 +119,10 @@ jobs:
         continue-on-error: true
         run: python scripts/daiso/score_shopify_demand.py
 
+      - name: 한국→미국 실배송 원가 모델 계산
+        continue-on-error: true
+        run: python scripts/pricing_model.py
+
       # =========================
       # VALIDATION
       # =========================
