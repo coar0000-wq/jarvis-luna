@@ -111,12 +111,11 @@
     "with_rating": 89
   },
   "fx": {
-    "usd_to_krw": 1377.9,
-    "krw_to_usd": 0.00072574,
-    "as_of": "2026-08-30",
+    "usd_to_krw": 1376.6,
+    "krw_to_usd": 0.00072643,
+    "as_of": "2026-08-31",
     "source": "https://open.er-api.com/v6/latest/USD",
-    "api_url": "https://open.er-api.com/v6/latest/USD",
-    "fetched_at": "2026-08-30T04:31:02.557924+00:00",
+    "fetched_at": "2026-08-31T11:05:28.857114+00:00",
     "ok": true
   },
   "sitemap_urls_known": 19739,

@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-08-31T11:06:01.648574+00:00",
+  "csv": "data/shopify_import.csv",
+  "rows": 10,
+  "skipped": [],
+  "exchange_rate": "1376.6 KRW/USD (2026-08-31) https://open.er-api.com/v6/latest/USD",
+  "markup": 2.2,
+  "vendor": "MD family",
+  "가격_근거": "원가는 다이소 실측 원화가를 실시간 환율로 나눈 값이다. 판매가는 원가 x 2.2 로, 이 배수는 검증된 수치가 아니라 가정이다.",
+  "게시전_확인사항": [
+    "Status 를 draft 로, 공개를 false 로 두었다. 검수 후 직접 active 로 바꿔야 한다.",
+    "Weight value (grams) 가 0 이다. 다이소 수집 데이터에 무게가 없어 비워 두었으므로 배송비를 계산하려면 실제 무게를 채워야 한다.",
+    "Inventory quantity 가 0 이다. 실제 확보 수량을 입력해야 판매가 된다.",
+    "Product image URL 은 다이소 CDN 주소다. 저작권 확인 후 자체 촬영본으로 교체하는 것이 안전하다.",
+    "영문 카피는 Gemini 생성물이므로 효능 표현과 성분 표기를 사람이 확인해야 한다."
+  ]
+}
