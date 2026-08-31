@@ -1,0 +1,117 @@
+name: Shopify 영문 리스팅 카피 생성
+
+# S등급 다이소 상품(실크롤링)의 한국어 상품명을 Gemini 로 영문 카피로 바꾸고
+# Shopify 상품 임포트 CSV 를 만든다.
+#
+# 필요한 시크릿: GEMINI_API_KEY  (Google AI Studio 키)
+# 없으면 실행하지 않고 안내만 남긴다. 가짜 카피를 만들지 않는다.
+
+on:
+  workflow_dispatch:
+    inputs:
+      markup:
+        description: '판매가 배수 (원가 x N). 검증된 값이 아니라 가정임'
+        required: false
+        default: '2.2'
+      vendor:
+        description: 'Shopify Vendor 명'
+        required: false
+        default: 'MD family'
+
+concurrency:
+  group: shopify-listing-copy
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 시크릿 확인
+        id: guard
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "GEMINI_API_KEY 시크릿이 없습니다." >> $GITHUB_STEP_SUMMARY
+            echo "Settings > Secrets and variables > Actions 에서 등록하세요." >> $GITHUB_STEP_SUMMARY
+            echo "ready=false" >> $GITHUB_OUTPUT
+          else
+            echo "ready=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 환율 갱신
+        if: steps.guard.outputs.ready == 'true'
+        continue-on-error: true
+        run: python -c "import sync_channels as s; s.fetch_and_update_fx_status()"
+
+      - name: Gemini 영문 카피 생성
+        if: steps.guard.outputs.ready == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: python scripts/gemini_listing_copy.py
+
+      - name: Shopify 임포트 CSV 생성
+        if: steps.guard.outputs.ready == 'true'
+        env:
+          SHOPIFY_MARKUP: ${{ github.event.inputs.markup || '2.2' }}
+          SHOPIFY_VENDOR: ${{ github.event.inputs.vendor || 'MD family' }}
+        run: python scripts/build_shopify_import_csv.py
+
+      - name: 결과 요약
+        if: steps.guard.outputs.ready == 'true'
+        run: |
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json, csv
+          from pathlib import Path
+          d = json.loads(Path("data/shopify_listing_copy.json").read_text(encoding="utf-8"))
+          print(f"### 영문 카피 {d['ok']}/{d['total']}건 생성 (모델 {d.get('model','?')})\n")
+          rows = list(csv.DictReader(open("data/shopify_import.csv", encoding="utf-8")))
+          print(f"Shopify 임포트 CSV: {len(rows)}행\n")
+          print("| 한국어 원본 | 영문 제목 | 판매가 |")
+          print("|---|---|---|")
+          price = {r["SKU"]: r["Price"] for r in rows}
+          for it in d["items"]:
+              c = it.get("copy")
+              sku = f"DAISO-{it['pd_no']}"
+              if c:
+                  print(f"| {it['name_ko']} | {c['title']} | ${price.get(sku,'-')} |")
+              else:
+                  print(f"| {it['name_ko']} | 실패: {it.get('error','')[:50]} | - |")
+          rep = json.loads(Path("data/shopify_import_report.json").read_text(encoding="utf-8"))
+          print(f"\n환율: {rep['exchange_rate']}  판매가 배수: {rep['markup']} (가정)\n")
+          print("게시 전 확인사항")
+          for x in rep["게시전_확인사항"]:
+              print(f"- {x}")
+          PY
+
+      - name: 커밋 및 푸시
+        if: steps.guard.outputs.ready == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/shopify_listing_copy.json data/shopify_import.csv \
+                  data/shopify_import_report.json data/daiso_real/collection_status.json
+          if git diff --cached --quiet; then
+            echo "변경 없음"; exit 0
+          fi
+          git commit -m "Shopify 영문 리스팅 카피 및 임포트 CSV 갱신"
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; exit 1; }
+            if git push origin HEAD:main; then echo "push 성공 (시도 $i)"; exit 0; fi
+            sleep 5
+          done
+          exit 1
