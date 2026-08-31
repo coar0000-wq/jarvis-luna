@@ -128,6 +128,34 @@ def from_us_beauty(source_substr: str):
     return unique_take(rows, lambda x: x["product"].lower())
 
 
+def from_oliveyoung_us():
+    """scripts/collect_oliveyoung_us.py 실수집 결과. 하드코딩 버전과 다르다."""
+    d = load_json(DATA / "oliveyoung_us_products.json", {})
+    if not isinstance(d, dict):
+        return [], "", ""
+    src = str(d.get("source") or "")
+    if re.search(r"curated|mirror|manual|sample", src, re.I):
+        return [], "", "하드코딩 파일이라 사용하지 않음"
+    rows = []
+    for p in d.get("products") or []:
+        name = (p.get("product") or "").strip()
+        if not is_good_name(name):
+            continue
+        price = p.get("price_usd")
+        rows.append({
+            "product": name,
+            "sub": p.get("brand") or "",
+            "badge": f"${price:.2f}" if isinstance(price, (int, float)) else "",
+            "rank": p.get("rank") or 0,
+            "rating": p.get("rating"),
+            "review_count": p.get("review_count"),
+            "url": p.get("url") or "",
+        })
+    rows.sort(key=lambda x: x["rank"] or 999)
+    return (unique_take(rows, lambda x: x["product"].lower()),
+            d.get("collected_at") or "", d.get("reason") or "")
+
+
 def from_tiktok():
     """수집 파일이 실제로 있을 때만 사용. 없으면 빈 목록."""
     d = load_json(DATA / "tiktok_shop_us_products.json", None)
@@ -181,10 +209,8 @@ WALMART_NOTE = (
     "하드코딩 카탈로그였어서 2026-08-31 비활성화. "
     "Affiliate API 는 승인된 파트너 전용이라 일반 상품·가격 데이터를 받을 수 없다."
 )
-OLIVEYOUNG_NOTE = (
-    "source 가 'curated bestseller mirror' 인 하드코딩 15건이었어서 "
-    "2026-08-31 비활성화. 순위와 평점이 실측값이 아니었다. 공식 공개 API 없음."
-)
+# 2026-08-31 재개통: scripts/collect_oliveyoung_us.py 로 실수집 전환.
+# 이전 하드코딩("curated bestseller mirror" 15건)은 archive 로 격리했다.
 
 
 def build_global_channels():
@@ -192,11 +218,15 @@ def build_global_channels():
     us_at = us_beauty.get("collected_at") or us_beauty.get("updated_at") or ""
 
     obf_items, obf_at = from_open_beauty_facts()
+    oy_items, oy_at, oy_reason = from_oliveyoung_us()
 
     return {
         "amazon_best_sellers": channel([], "-", "disabled", AMAZON_NOTE),
         "walmart_beauty": channel([], "-", "disabled", WALMART_NOTE),
-        "oliveyoung_us": channel([], "-", "disabled", OLIVEYOUNG_NOTE),
+        "oliveyoung_us": channel(
+            oy_items, "us.oliveyoung.com/best-sellers 실수집",
+            collected_at=oy_at,
+            reason=oy_reason or "수집기 미실행"),
         "google_trends_us": channel(
             [], "-", "disabled",
             "Google Trends 공식 API는 승인제 alpha. 승인 전까지 비활성화."),

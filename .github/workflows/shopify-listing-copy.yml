@@ -56,6 +56,11 @@ jobs:
         continue-on-error: true
         run: python -c "import sync_channels as s; s.fetch_and_update_fx_status()"
 
+      - name: OliveYoung US 시장가 수집
+        if: steps.guard.outputs.ready == 'true'
+        continue-on-error: true
+        run: python scripts/collect_oliveyoung_us.py
+
       - name: 실배송 원가 모델 계산
         if: steps.guard.outputs.ready == 'true'
         run: python scripts/pricing_model.py

@@ -45,9 +45,31 @@ TARIFF_RATE = 0.15          # 미국 화장품 HTS 3304 한국산 상호관세
 PAY_RATE, PAY_FIXED = 0.029, 0.30   # Shopify 결제수수료
 PACKAGING_G = 40            # 완충재 + 봉투 실측 대신 보수적 추정
 
-# 올리브영 미국 홈 노출 상품 실가격 (2026-08-31 조회, n=69)
-MARKET = {"min": 5.99, "p25": 20.0, "median": 26.0, "max": 299.0,
-          "source": "us.oliveyoung.com 노출 상품 69건 실조회 2026-08-31"}
+OLIVEYOUNG = ROOT / "data" / "oliveyoung_us_products.json"
+
+
+def market_benchmark() -> dict:
+    """OliveYoung US 베스트셀러 실수집 가격으로 시장 기준을 잡는다.
+
+    수집 결과가 없으면 빈 dict 를 돌려주고, 호출부는 가격을 산출하지 않는다.
+    이전 버전은 사람이 눈으로 본 수치를 상수로 박아 뒀는데 그건 검증이 안 된다.
+    """
+    if not OLIVEYOUNG.exists():
+        return {}
+    try:
+        d = json.loads(OLIVEYOUNG.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    st = d.get("price_stats") or {}
+    if not st.get("n"):
+        return {}
+    return {
+        "min": st["min"], "p25": st["p25"],
+        "median": st["median"], "max": st["max"],
+        "n": st["n"],
+        "source": (f"us.oliveyoung.com/best-sellers 실수집 {st['n']}건 "
+                   f"({(d.get('collected_at') or '')[:10]})"),
+    }
 
 
 def ship_krw(grams: int) -> int:
@@ -70,7 +92,7 @@ def est_weight(name: str) -> tuple[int, str]:
     return total, f"{int(v)}{unit} x 1.6(용기) + {PACKAGING_G}g(포장) 추정"
 
 
-def analyze(p: dict, rate: float, per_order: int) -> dict:
+def analyze(p: dict, rate: float, per_order: int, MARKET: dict) -> dict:
     name = p.get("name") or ""
     krw = int(p.get("price_krw") or 0)
     grams, wnote = est_weight(name)
@@ -131,9 +153,15 @@ def main() -> int:
         p.update({k: v for k, v in (detail.get(str(p["pd_no"])) or {}).items()
                   if k not in p})
 
+    MARKET = market_benchmark()
+    if not MARKET:
+        print("시장 벤치마크가 없습니다. scripts/collect_oliveyoung_us.py 를 먼저 실행하세요.")
+        print("임의의 시장가를 쓰지 않고 중단합니다.")
+        return 1
+
     scenarios = {}
     for n in (1, 3, 5):
-        scenarios[f"{n}개_묶음배송"] = [analyze(p, rate, n) for p in srec]
+        scenarios[f"{n}개_묶음배송"] = [analyze(p, rate, n, MARKET) for p in srec]
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),

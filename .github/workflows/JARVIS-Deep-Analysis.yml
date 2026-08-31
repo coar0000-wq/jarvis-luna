@@ -72,6 +72,10 @@ jobs:
         continue-on-error: true
         run: python scripts/collect_open_beauty_facts.py
 
+      - name: Collect OliveYoung US 베스트셀러 (실수집)
+        continue-on-error: true
+        run: python scripts/collect_oliveyoung_us.py
+
       # =========================
       # TRAINING
       # =========================
