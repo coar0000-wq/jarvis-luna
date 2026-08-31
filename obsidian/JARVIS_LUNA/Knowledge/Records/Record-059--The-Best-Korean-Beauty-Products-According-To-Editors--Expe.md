@@ -2,7 +2,7 @@
 title: "Record 059 · The-Best-Korean-Beauty-Products-According-To-Editors--Experts---Covete"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T09:11:25.878996+00:00
+updated_at: 2026-08-31T10:50:27.198972+00:00
 tags: [{', '.join(tags)}]
 ---
 

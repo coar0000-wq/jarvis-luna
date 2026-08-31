@@ -2,7 +2,7 @@
 title: "Record 125 · 5-Ecommerce-Questions-AI-Answers-in-Seconds-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T09:11:25.891330+00:00
+updated_at: 2026-08-31T10:50:27.227707+00:00
 tags: [{', '.join(tags)}]
 ---
 

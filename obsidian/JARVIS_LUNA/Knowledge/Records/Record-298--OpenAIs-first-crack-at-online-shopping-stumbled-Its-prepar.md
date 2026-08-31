@@ -2,7 +2,7 @@
 title: "Record 298 · OpenAIs-first-crack-at-online-shopping-stumbled-Its-preparing-for-the-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T09:11:25.921564+00:00
+updated_at: 2026-08-31T10:50:27.247894+00:00
 tags: [{', '.join(tags)}]
 ---
 

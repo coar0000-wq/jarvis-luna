@@ -2,7 +2,7 @@
 title: "Record 230 · White-blush-the-viral-TikTok-makeup-trend-explained---nss-G-Club"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T09:11:25.910559+00:00
+updated_at: 2026-08-31T10:50:27.240454+00:00
 tags: [{', '.join(tags)}]
 ---
 

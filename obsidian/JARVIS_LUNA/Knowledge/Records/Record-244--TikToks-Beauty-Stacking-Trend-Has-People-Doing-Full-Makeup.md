@@ -2,7 +2,7 @@
 title: "Record 244 · TikToks-Beauty-Stacking-Trend-Has-People-Doing-Full-Makeup-Routines-Mi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T09:11:25.912801+00:00
+updated_at: 2026-08-31T10:50:27.241972+00:00
 tags: [{', '.join(tags)}]
 ---
 

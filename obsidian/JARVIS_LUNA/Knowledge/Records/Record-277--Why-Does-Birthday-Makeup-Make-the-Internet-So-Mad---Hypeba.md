@@ -2,7 +2,7 @@
 title: "Record 277 · Why-Does-Birthday-Makeup-Make-the-Internet-So-Mad---Hypebae"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T09:11:25.918220+00:00
+updated_at: 2026-08-31T10:50:27.245598+00:00
 tags: [{', '.join(tags)}]
 ---
 

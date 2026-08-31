@@ -2,7 +2,7 @@
 title: "Record 261 · K-Beauty-skincare-tourism-booms-in-South-Korea---WFSB"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T09:11:25.915511+00:00
+updated_at: 2026-08-31T10:50:27.243829+00:00
 tags: [{', '.join(tags)}]
 ---
 
