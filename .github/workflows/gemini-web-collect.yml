@@ -1,0 +1,90 @@
+name: Gemini url_context 웹 채널 수집
+
+# 결정적 파싱이 안 되는 사이트(Ulta/Sephora)를 Gemini url_context 로 수집한다.
+# 이 데이터는 LLM 추출이라 신뢰 등급이 낮다. 가격 정책에는 쓰지 않는다.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 20 * * *'   # 매일 05:40 KST
+
+concurrency:
+  group: gemini-web-collect
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 시크릿 확인
+        id: guard
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "GEMINI_API_KEY 시크릿이 없습니다." >> $GITHUB_STEP_SUMMARY
+            echo "ready=false" >> $GITHUB_OUTPUT
+          else
+            echo "ready=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Gemini url_context 수집
+        if: steps.guard.outputs.ready == 'true'
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_URL_MODEL: ${{ vars.GEMINI_URL_MODEL }}
+        run: python scripts/collect_via_gemini.py
+
+      - name: 결과 요약
+        if: always()
+        run: |
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json
+          from pathlib import Path
+          f = Path("data/gemini_web_channels.json")
+          if not f.exists():
+              print("### 산출물 없음 - 수집이 실행되지 않았습니다.")
+              raise SystemExit
+          d = json.loads(f.read_text(encoding="utf-8"))
+          print(f"### Gemini url_context 수집 결과 (모델 {d.get('model')})\n")
+          print(f"총 {d['total']}건\n")
+          for k, c in d["channels"].items():
+              print(f"**{c['label']}** — {c['count']}건 / {c['status']}")
+              if c["reason"]:
+                  print(f"  - 사유: {c['reason'][:200]}")
+              if c.get("url_context_result"):
+                  print(f"  - url_context: {c['url_context_result'][:200]}")
+              for p in c["products"][:5]:
+                  print(f"  - {p['brand']} {p['product'][:50]} ${p['price_usd']}")
+              print()
+          print(f"\n> {d['trust_note']}")
+          PY
+
+      - name: 커밋 및 푸시
+        if: steps.guard.outputs.ready == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/gemini_web_channels.json
+          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -m "Gemini url_context 웹 채널 수집 갱신"
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; exit 1; }
+            if git push origin HEAD:main; then echo "push 성공 (시도 $i)"; exit 0; fi
+            sleep 5
+          done
+          exit 1
