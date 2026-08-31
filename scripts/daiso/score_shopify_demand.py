@@ -3,8 +3,12 @@
 """
 다이소 상품 × 글로벌 8채널 수요 유사도 점수.
 
-- 8채널(영어) ↔ 다이소(한글) 한영 매핑 사전으로 매칭
-- 카테고리 기본점 낮춤 + 보너스 상한으로 100점 쏠림 방지
+2026-08-31 재설계: 글로벌 8채널이 하드코딩/폴백 가짜 데이터로 확인되어
+점수 산식에서 완전히 제외했다. 이제 daisomall 에서 실제로 크롤링한
+카테고리·평점·리뷰수·가격만으로 점수를 낸다.
+
+- 배점: 카테고리 35 / 평점 20 / 리뷰수 25 / 가격 10 / 키워드 10
+- 글로벌 매칭은 참고 정보로만 기록하고 점수에 반영하지 않는다
 - 산출: shopify_demand_score.json + shopify_s_recommendations.json
 """
 from __future__ import annotations
@@ -267,68 +271,98 @@ def best_matches(daiso_name: str, signals: list[dict], top_n: int = 3) -> list[d
 
 
 def score_one(p: dict, signals: list[dict]) -> dict:
+    """다이소 실측값만으로 점수를 낸다.
+
+    2026-08-31 재설계
+      이전 모델은 100점 중 40점을 글로벌 8채널 유사도에서 가져왔는데,
+      그 채널들이 하드코딩 카탈로그와 폴백 샘플이었다.
+      가짜 신호로 계산된 점수라 전면 폐기하고
+      실제로 크롤링한 다이소 값만 쓴다.
+
+    배점 (합계 100)
+      카테고리 적합도 35  - CATEGORY_BASE (드롭쉬핑 적합도)
+      실측 평점       20  - daisomall 상품 평점
+      실측 리뷰수     25  - 리뷰수는 국내 실판매 대리지표
+      가격 경쟁력     10  - 원가 대비 마진 확보 가능 구간
+      상품유형 키워드 10  - 앰플/세럼/선크림 등
+
+    글로벌 매칭은 점수에 반영하지 않고 참고 정보로만 기록한다.
+    검증된 실수집 채널이 확보되면 그때 배점을 다시 연다.
+    """
+    import math
+
     name = p.get("name") or ""
     bucket = p.get("bucket") or ""
-    base = CATEGORY_BASE.get(bucket, 12)
     non_core = any(k in name for k in NON_CORE)
 
-    matches = [] if non_core else best_matches(name, signals)
-    if matches:
-        best = matches[0]["match_score"]
-        second = matches[1]["match_score"] if len(matches) > 1 else 0
-        # 유사도 파트 최대 40점
-        sim_pts = min(40, int(best * 38 + second * 6))
-    else:
-        sim_pts = 0
+    # 1) 카테고리 적합도 (최대 35)
+    base_raw = CATEGORY_BASE.get(bucket, 12)
+    cat_pts = round(base_raw / 42 * 35, 1)
 
-    # 한글 트렌드 키워드 소폭 (최대 12)
+    # 2) 실측 평점 (최대 20)
+    rating = float(p.get("rating") or 0)
+    if rating <= 0:
+        rating_pts = 0.0
+    else:
+        rating_pts = round(max(0.0, min(20.0, (rating - 3.5) / 1.5 * 20)), 1)
+
+    # 3) 실측 리뷰수 (최대 25) - 로그 스케일, 500건에서 만점
+    reviews = int(p.get("review_count") or 0)
+    review_pts = round(min(25.0, math.log10(reviews + 1) / math.log10(501) * 25), 1) if reviews > 0 else 0.0
+
+    # 4) 가격 경쟁력 (최대 10) - 드롭쉬핑 마진 확보 구간
+    krw = int(p.get("price_krw") or 0)
+    if krw <= 0:
+        price_pts = 0.0
+    elif 2000 <= krw <= 5000:
+        price_pts = 10.0
+    elif 1000 <= krw < 2000 or 5000 < krw <= 7000:
+        price_pts = 7.0
+    elif krw <= 10000:
+        price_pts = 4.0
+    else:
+        price_pts = 1.0
+
+    # 5) 상품유형 키워드 (최대 10)
     kw_pts = 0
     low = name.lower()
-    for kw, pts in (("앰플", 6), ("세럼", 6), ("선크림", 5), ("spf", 5),
-                    ("토너", 4), ("에센스", 4), ("마스크", 3), ("크림", 2)):
+    for kw, pts in (("앰플", 5), ("세럼", 5), ("선크림", 4), ("spf", 4),
+                    ("토너", 3), ("에센스", 3), ("마스크", 3), ("크림", 2)):
         if kw in low:
             kw_pts += pts
-    kw_pts = min(12, kw_pts)
-
-    rating = float(p.get("rating") or 0)
-    reviews = int(p.get("review_count") or 0)
-    quality = 0
-    if rating >= 4.5:
-        quality += 4
-    elif rating >= 4.0:
-        quality += 2
-    if reviews >= 100:
-        quality += 3
-    if reviews >= 300:
-        quality += 2
+    kw_pts = min(10, kw_pts)
 
     penalty = 40 if non_core else 0
-    total = max(5, min(100, base + sim_pts + kw_pts + quality - penalty))
+    total = max(5, min(100, round(
+        cat_pts + rating_pts + review_pts + price_pts + kw_pts - penalty)))
 
-    best_sim = matches[0]["similarity"] if matches else 0
+    # 글로벌 매칭: 참고용으로만 계산 (점수 반영 없음)
+    matches = [] if non_core else best_matches(name, signals)
+
     core = bucket in {"스킨케어", "선케어", "마스크팩", "클렌징", "메이크업", "헤어케어"}
-    specific = {"snail", "heartleaf", "centella", "ceramide", "niacinamide",
-                "retinol", "vitaminc", "sunscreen", "hyaluronic", "collagen",
-                "peptide", "toner", "serum", "ampoule", "essence", "cleanser",
-                "cushion", "primer", "blush"}
-    matched_toks = set((matches[0].get("matched_tokens") or [])) if matches else set()
-    has_specific = bool(matched_toks & specific)
-
-    if not non_core and core and matches and best_sim >= 0.25 and total >= 70 and has_specific:
+    # 임계값은 실제 89건 점수 분포 기준으로 설정한다 (상위 백분위)
+    #   87점 = 상위 10%,  84점 = 상위 20%,  80점 = 상위 30%
+    # S 등급은 1차 테스트 등록 후보라 상위 10% 안쪽으로 좁힌다.
+    if not non_core and core and total >= 87:
         grade = "S"
-    elif not non_core and total >= 50 and best_sim >= 0.12 and has_specific:
+    elif not non_core and total >= 80:
         grade = "A"
-    elif total >= 40:
+    elif total >= 65:
         grade = "B"
     else:
         grade = "C"
 
-    reason = (
-        f"글로벌 '{matches[0]['global_product']}' ({matches[0]['channel']}) "
-        f"유사 {matches[0]['similarity']:.0%} · 토큰 {','.join(matches[0]['matched_tokens'][:5])}"
-        if matches else
-        ("비핵심 상품" if non_core else "글로벌 시그널 약함")
-    )
+    if non_core:
+        reason = "비핵심 상품 (뷰티 카테고리 아님)"
+    else:
+        bits = [f"{bucket} 카테고리"]
+        if rating > 0:
+            bits.append(f"평점 {rating}")
+        if reviews > 0:
+            bits.append(f"리뷰 {reviews:,}건")
+        if krw > 0:
+            bits.append(f"원가 {krw:,}원")
+        reason = " · ".join(bits) + " (다이소 실측값 기준)"
 
     return {
         "pd_no": p.get("pd_no"),
@@ -341,13 +375,17 @@ def score_one(p: dict, signals: list[dict]) -> dict:
         "image_url": p.get("image_url"),
         "shopify_score": total,
         "grade": grade,
-        "base_score": base,
-        "similarity_points": sim_pts,
-        "keyword_points": kw_pts,
-        "quality_bonus": quality,
-        "penalty": penalty,
-        "best_global_match": matches[0] if matches else None,
-        "global_matches": matches,
+        "score_breakdown": {
+            "category": cat_pts,
+            "rating": rating_pts,
+            "reviews": review_pts,
+            "price": price_pts,
+            "keyword": kw_pts,
+            "penalty": -penalty,
+            "max_possible": 100,
+        },
+        "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
+        "global_matches_reference_only": matches[:3],
         "recommend_reason": reason,
     }
 

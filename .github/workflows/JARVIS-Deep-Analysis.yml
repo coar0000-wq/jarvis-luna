@@ -59,23 +59,18 @@ jobs:
       # DAISO + US BEAUTY PIPELINE
       # =========================
 
-      - name: Collect Daiso Products
-        run: python scripts/collect_daiso_products.py
+      # 2026-08-31: 가짜 데이터 생성 단계 제거
+      #   - oliveyoung_us_discovery.py : 하드코딩 15건 (archive 로 이동)
+      #   - build_shopify_demand_matching.py : demand_score 등 조작값
+      # 실제 다이소 수집은 daiso-real-collection.yml 이 담당한다.
 
       - name: Collect US Beauty Market
-        run: python scripts/collect_us_beauty_data.py
-      - name: OliveYoung US bestseller snapshot
         continue-on-error: true
-        run: |
-          if [ -f oliveyoung_us_discovery.py ]; then
-            python oliveyoung_us_discovery.py
-          fi
+        run: python scripts/collect_us_beauty_data.py
 
-      - name: Generate Shopify Recommendations
-        run: python scripts/shopify_matcher.py
-
-      - name: Build Shopify Demand Matching
-        run: python scripts/build_shopify_demand_matching.py
+      - name: Collect Open Beauty Facts (오픈데이터, 인증 불필요)
+        continue-on-error: true
+        run: python scripts/collect_open_beauty_facts.py
 
       # =========================
       # TRAINING
@@ -120,15 +115,9 @@ jobs:
           if [ -f sync_channels.py ]; then
             python sync_channels.py
           fi
-      - name: Score Shopify demand (8ch × Daiso)
+      - name: Score Shopify demand (다이소 실측 지표 기반)
         continue-on-error: true
-        run: |
-          if [ -f scripts/daiso/score_shopify_demand.py ]; then
-            python scripts/daiso/score_shopify_demand.py
-          fi
-          if [ -f force_fix.py ]; then
-            python force_fix.py
-          fi
+        run: python scripts/daiso/score_shopify_demand.py
 
       # =========================
       # VALIDATION
@@ -151,8 +140,14 @@ jobs:
           training = json.loads(Path("data/knowledge/training_status.json").read_text(encoding="utf-8"))
 
           assert "global_channels" in runtime
-          assert "shopify_demand_matching" in runtime["global_channels"]
-          assert len(runtime["global_channels"]["shopify_demand_matching"]) > 0
+          assert "global_channels_status" in runtime, "채널 상태 메타가 없음"
+
+          # 채널이 비어 있는 것은 정상이다. 비었는데 사유가 없으면 실패로 본다.
+          for name, meta in runtime["global_channels_status"].items():
+              if meta.get("count", 0) == 0:
+                  assert meta.get("status") in ("empty", "disabled", "failed"), \
+                      f"{name}: 빈 채널인데 상태가 {meta.get('status')}"
+                  assert meta.get("reason"), f"{name}: 빈 채널인데 사유가 없음"
 
           assert "training" in runtime
           assert "graph" in runtime

@@ -30,18 +30,19 @@ jobs:
           pip install requests feedparser torch numpy matplotlib --break-system-packages
 
       # ============================================================
-      # [1/4] 다이소 상품 자동 발굴 (매 10분)
+      # [1/4] 다이소 상품 수집 - 2026-08-31 제거
+      #
+      # daiso_product_discovery.py 는 실제 수집을 하지 않고
+      #   "name": f"다이소 뷰티·스킨케어 후보 ({random.randint(100, 999)})"
+      # 로 가짜 상품을 매 실행 3~5건씩 생성해 커밋하고 있었다.
+      # 실제 다이소 수집은 daiso-real-collection.yml 이 담당한다.
       # ============================================================
 
-      - name: 🛍️ [1/4] 다이소 상품 발굴
+      - name: 🛍️ [1/4] 다이소 상품 발굴 (제거됨)
         id: daiso_discovery
         run: |
-          echo "🛍️ 다이소 상품 자동 발굴..."
-          if python daiso_product_discovery.py; then
-            echo "status=success" >> $GITHUB_OUTPUT
-          else
-            echo "status=failed" >> $GITHUB_OUTPUT
-          fi
+          echo "가짜 데이터 생성 단계라 2026-08-31 제거됨. 실수집은 daiso-real-collection.yml 참조."
+          echo "status=skipped" >> $GITHUB_OUTPUT
 
       # ============================================================
       # [2/4] Obsidian 실시간 동기화 (매 10분)

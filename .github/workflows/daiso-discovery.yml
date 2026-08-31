@@ -1,50 +1,35 @@
-﻿name: 모든 플랫폼 상품 자동 발굴
+name: 모든 플랫폼 상품 자동 발굴 (중단됨)
+
+# 2026-08-31 비활성화
+#
+# 사유: 이 워크플로가 호출하던 5개 스크립트가 실제 수집을 하지 않고
+#       random.randint 로 상품을 생성하고 있었다.
+#
+#   daiso_product_discovery.py:19
+#       "name": f"다이소 뷰티·스킨케어 후보 ({random.randint(100, 999)})"
+#
+#   oliveyoung_product_discovery.py / naver_product_discovery.py 도 동일
+#   walmart_product_discovery.py / amazon_product_discovery.py 는 하드코딩 카탈로그
+#
+# 결과: 매 실행마다 가짜 상품 3~5건이 생성되어 저장소에 커밋됐고
+#       data/oliveyoung_products.json 816건 중 660건(80%),
+#       data/naver_shopping_products.json 819건 중 671건(81%),
+#       data/daiso_products.json 146건 중 108건(73%) 이 가짜였다.
+#
+# 실제 다이소 수집은 .github/workflows/daiso-real-collection.yml 이 담당한다.
+#   (scripts/daiso/collect_daiso.py - daisomall.co.kr 실크롤링, robots.txt 준수)
+#
+# 이전 정의는 archive/fake_data_2026-08-31/daiso-discovery.yml.bak 에 보존.
 
 on:
-  schedule:
-    - cron: '*/10 * * * *'  # 매 10분마다 실행
   workflow_dispatch:
 
 jobs:
-  discover-all-platforms:
+  disabled:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Python 설정
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-
-      - name: 다이소 상품 발굴
-        run: python daiso_product_discovery.py
-
-      - name: 올리브영 상품 발굴
-        run: python oliveyoung_product_discovery.py
-
-      - name: 네이버 상품 발굴
-        run: python naver_product_discovery.py
-
-      - name: 월마트 상품 발굴
-        run: python walmart_product_discovery.py
-
-      - name: 아마존 상품 발굴
-        run: python amazon_product_discovery.py
-
-      - name: 상품 발굴팀 대시보드 데이터 갱신
-        run: python update_product_team.py
-
-      - name: 변경사항 커밋 및 푸시
+      - name: 중단 안내
         run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
-
-          if [[ -z $(git status -s) ]]; then
-            echo "변경사항 없음"
-            exit 0
-          fi
-
-          git add -A
-          git commit -m "🤖 자동 발굴: 모든 플랫폼 상품 업데이트 (다이소+올리브영+네이버+월마트+아마존)"
-          git push origin main
+          echo "이 워크플로는 가짜 데이터를 생성하여 2026-08-31 중단되었습니다." >> $GITHUB_STEP_SUMMARY
+          echo "실제 다이소 수집은 daiso-real-collection.yml 을 사용하세요." >> $GITHUB_STEP_SUMMARY
+          exit 1

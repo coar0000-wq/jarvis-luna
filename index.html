@@ -237,6 +237,18 @@ nav a{font-size:12px;}
 .btn{padding:11px 12px;font-size:12px;}
 .container{padding:15px;}
 }
+
+/* 채널 상태 표시 - 빈 채널을 가짜로 채우지 않고 사유를 밝힌다 */
+.ch-note{font-size:13px;color:#8b949e;margin:-8px 0 18px 2px;line-height:1.6;}
+.ch-note-sub{font-size:12px;color:#6e7681;}
+.ch-empty{padding:12px 0;list-style:none;}
+.ch-badge{display:inline-block;font-size:11px;font-weight:700;padding:3px 9px;
+  border-radius:999px;background:rgba(139,148,158,.14);color:#8b949e;
+  border:1px solid rgba(139,148,158,.24);}
+.ch-reason{font-size:11.5px;color:#6e7681;margin-top:7px;line-height:1.55;}
+.ch-src{list-style:none;font-size:11px;color:#6e7681;padding-top:9px;margin-top:7px;
+  border-top:1px solid rgba(139,148,158,.14);}
+.ch-off{font-size:10px;font-weight:700;color:#8b949e;background:rgba(139,148,158,.14);border:1px solid rgba(139,148,158,.24);border-radius:999px;padding:2px 7px;margin-left:6px;vertical-align:middle;}
 </style>
 </head>
 <body>
@@ -291,13 +303,14 @@ nav a{font-size:12px;}
 </div>
 
 <!-- 글로벌 판매 전략 수집 채널 (8대 데이터) -->
-<div class="section-header">🌐 글로벌 판매 전략 수집 채널 (8대 데이터)</div>
+<div class="section-header">🌐 수집 채널 현황</div>
+<div class="ch-note" id="ch-note">채널 상태 확인 중…</div>
 
 <div class="dashboard-grid">
 
   <!-- Amazon -->
   <div class="dashboard-card">
-    <h4><span class="dashboard-card-icon">📦</span>Amazon Best Sellers</h4>
+    <h4><span class="dashboard-card-icon">📦</span>Amazon Best Sellers <span class="ch-off">중단</span></h4>
     <ul class="mkt-list" id="amazon-list">
       <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
     </ul>
@@ -313,7 +326,7 @@ nav a{font-size:12px;}
 
   <!-- Walmart -->
   <div class="dashboard-card">
-    <h4><span class="dashboard-card-icon">🛒</span>Walmart Beauty</h4>
+    <h4><span class="dashboard-card-icon">🛒</span>Walmart Beauty <span class="ch-off">중단</span></h4>
     <ul class="mkt-list" id="walmart-list">
       <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
     </ul>
@@ -321,7 +334,7 @@ nav a{font-size:12px;}
 
   <!-- Google Trends -->
   <div class="dashboard-card">
-    <h4><span class="dashboard-card-icon">📈</span>Google Trends US</h4>
+    <h4><span class="dashboard-card-icon">📈</span>Google Trends US <span class="ch-off">중단</span></h4>
     <ul class="mkt-list" id="trends-list">
       <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
     </ul>
@@ -354,13 +367,21 @@ nav a{font-size:12px;}
 
   <!-- OliveYoung US -->
   <div class="dashboard-card">
-    <h4><span class="dashboard-card-icon">🌿</span>OliveYoung US</h4>
+    <h4><span class="dashboard-card-icon">🌿</span>OliveYoung US <span class="ch-off">중단</span></h4>
     <ul class="mkt-list" id="oliveyoung-us-list">
       <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
     </ul>
   </div>
 
 </div>
+
+  <!-- Open Beauty Facts (오픈데이터, 인증 불필요) -->
+  <div class="dashboard-card">
+    <h4><span class="dashboard-card-icon">🧾</span>Open Beauty Facts</h4>
+    <ul class="mkt-list" id="obf-list">
+      <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
+    </ul>
+  </div>
 
 <!-- Core Dashboard Grid -->
 <div class="section-header">📊 핵심 시스템 현황 및 디스커버리</div>
@@ -681,15 +702,46 @@ list.innerHTML=items.map((p,i)=>{
 function renderMarketingChannels(d){
   const gc = d.global_channels || {};
 
+  // 상단 안내: 실제로 데이터가 들어온 채널 수를 먼저 밝힌다
+  (function(){
+    const el = document.getElementById('ch-note');
+    if(!el) return;
+    const stt = d.global_channels_status || {};
+    const keys = Object.keys(stt);
+    const live = keys.filter(k => (stt[k].count||0) > 0);
+    const note = d.data_integrity_note || '';
+    el.innerHTML = '실데이터 수신 ' + live.length + '/' + keys.length + '개 채널'
+      + (note ? '<br><span class="ch-note-sub">'+esc(note)+'</span>' : '');
+  })();
+
   // 채널별 렌더 헬퍼: title / sub / badge 를 유연하게 매핑
-  const render = (id, items, mapFn, badgeColor="green")=>{
+  const st = d.global_channels_status || {};
+
+  // 빈 채널을 그럴듯하게 채우지 않는다. 실제 상태와 사유를 그대로 노출한다.
+  const render = (id, items, mapFn, badgeColor="green", key="")=>{
     const el = document.getElementById(id);
     if(!el) return;
 
     if(!items || !items.length){
-      el.innerHTML = '<li style="color:#666;font-size:13px;padding:10px 0;">데이터 없음</li>';
+      const meta = st[key] || {};
+      const label = {
+        disabled: '중단됨',
+        empty:    '수집 결과 없음',
+        failed:   '수집 실패',
+        not_configured: '미설정'
+      }[meta.status] || '데이터 없음';
+      el.innerHTML =
+        '<li class="ch-empty"><span class="ch-badge">'+esc(label)+'</span>'+
+        (meta.reason?'<div class="ch-reason">'+esc(meta.reason)+'</div>':'')+
+        '</li>';
       return;
     }
+
+    const meta = st[key] || {};
+    const src = meta.source && meta.source !== '-' ? meta.source : '';
+    const when = (meta.collected_at||'').slice(0,10);
+    const foot = (src||when)
+      ? '<li class="ch-src">출처: '+esc(src||'-')+(when?' · '+esc(when):'')+'</li>' : '';
 
     el.innerHTML = items.slice(0,5).map(i=>{
       const m = mapFn(i);
@@ -700,7 +752,7 @@ function renderMarketingChannels(d){
         </div>
         <span class="mkt-badge ${badgeColor}">${esc(m.badge||'')}</span>
       </li>`;
-    }).join('');
+    }).join('') + foot;
   };
 
   // Amazon Best Sellers
@@ -708,42 +760,42 @@ function renderMarketingChannels(d){
     title: i.product || i.title || '',
     sub: i.rank ? `#${i.rank}` : (i.category || ''),
     badge: i.trend || i.status || ''
-  }), "green");
+  }), "green", "amazon_best_sellers");
 
   // TikTok Shop US
   render("tiktok-list", gc.tiktok_shop_us || [], i => ({
     title: i.product || i.title || '',
     sub: i.hashtag || i.category || '',
     badge: i.views || i.status || ''
-  }), "purple");
+  }), "purple", "tiktok_shop_us");
 
   // Walmart Beauty
   render("walmart-list", gc.walmart_beauty || [], i => ({
     title: i.product || i.title || '',
     sub: i.category || '',
     badge: i.status || ''
-  }), "blue");
+  }), "blue", "walmart_beauty");
 
   // Google Trends US
   render("trends-list", gc.google_trends_us || [], i => ({
     title: i.keyword || i.product || i.title || '',
     sub: i.momentum || i.category || '',
     badge: i.growth || ''
-  }), "amber");
+  }), "amber", "google_trends_us");
 
   // Ulta Beauty
   render("ulta-list", gc.ulta_beauty || [], i => ({
     title: i.product || i.title || '',
     sub: i.brand || i.category || '',
     badge: i.rating != null ? String(i.rating) : (i.status || '')
-  }), "green");
+  }), "green", "ulta_beauty");
 
   // Sephora
   render("sephora-list", gc.sephora || [], i => ({
     title: i.product || i.title || '',
     sub: i.category || '',
     badge: i.loves || i.status || ''
-  }), "purple");
+  }), "purple", "sephora");
 
 
   // OliveYoung US
@@ -751,7 +803,14 @@ function renderMarketingChannels(d){
     title: i.product || i.title || '',
     sub: i.sub || i.category || '',
     badge: i.badge || (i.rating != null ? String(i.rating) : '')
-  }), "green");
+  }), "green", "oliveyoung_us");
+
+  // Open Beauty Facts (오픈데이터 - 상품 정보 보강용)
+  render("obf-list", gc.open_beauty_facts || [], i => ({
+    title: i.product || '',
+    sub: i.brand || i.category || '',
+    badge: i.category || ''
+  }), "amber", "open_beauty_facts");
 
   // 🎯 Shopify S등급 다이소 등록 후보
   const sItems = (window.__sRec && window.__sRec.recommendations) || [];
@@ -764,11 +823,7 @@ function renderMarketingChannels(d){
       badge: (i.shopify_score!=null ? i.shopify_score+'점' : (i.grade||'S'))
     }), "blue");
   } else {
-    render("shopify-demand-list", gc.shopify_demand_matching || [], i => ({
-      title: i.product || i.name || '',
-      sub: (i.keyword ? (i.keyword+' · ') : '') + (i.predicted_orders!=null ? i.predicted_orders+' 주문' : (i.bucket||'')),
-      badge: i.demand_score!=null ? (i.demand_score+'점') : (i.grade||'')
-    }), "blue");
+    render("shopify-demand-list", [], i => i, "blue", "shopify_demand_matching");
   }
 
 

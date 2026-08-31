@@ -7,6 +7,7 @@ JARVIS Real Knowledge Sync
 from __future__ import annotations
 
 import json
+import os
 import re
 import urllib.request
 import urllib.parse
@@ -79,8 +80,12 @@ def collect_arxiv():
 # -----------------------------
 # YouTube RSS
 # -----------------------------
+# 워크플로가 YOUTUBE_CHANNEL_IDS 시크릿을 주입하지만 예전 코드는 읽지 않았다.
+# 하드코딩된 UC2M9hZkM4RCHaOaUybJ4V7Q 는 404 라 수집이 0건이었다.
+# RSS 는 API 키가 필요 없으므로 유효한 채널 ID 만 있으면 바로 수집된다.
 CHANNELS = [
-    "UC2M9hZkM4RCHaOaUybJ4V7Q"
+    c.strip() for c in (os.environ.get("YOUTUBE_CHANNEL_IDS") or "").replace("\n", ",").split(",")
+    if c.strip()
 ]
 
 
@@ -91,6 +96,16 @@ def collect_youtube():
     }
 
     items = []
+    errors = []
+
+    if not CHANNELS:
+        return {
+            "status": "not_configured",
+            "source": "YouTube RSS",
+            "reason": "YOUTUBE_CHANNEL_IDS 시크릿이 비어 있음. 채널 ID 를 쉼표로 구분해 설정하면 수집된다.",
+            "channels_configured": 0,
+            "items": [],
+        }
 
     for cid in CHANNELS:
 
@@ -111,13 +126,16 @@ def collect_youtube():
                         ""
                     )
                 })
-        except Exception:
-            pass
+        except Exception as e:
+            errors.append({"channel_id": cid, "error": f"{type(e).__name__}: {e}"})
 
     return {
-        "status": "ok",
+        "status": "ok" if items else "failed",
         "source": "YouTube RSS",
-        "items": items
+        "reason": "" if items else "설정된 채널에서 수집된 항목이 없음",
+        "channels_configured": len(CHANNELS),
+        "errors": errors,
+        "items": items,
     }
 
 

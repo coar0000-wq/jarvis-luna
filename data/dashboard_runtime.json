@@ -90,648 +90,178 @@
     "runs_recorded": 90
   },
   "global_channels": {
-    "amazon_best_sellers": [
+    "amazon_best_sellers": [],
+    "walmart_beauty": [],
+    "oliveyoung_us": [],
+    "google_trends_us": [],
+    "shopify_demand_matching": [],
+    "tiktok_shop_us": [],
+    "ulta_beauty": [],
+    "sephora": [],
+    "open_beauty_facts": [
       {
-        "rank": 1,
-        "product": "COSRX Advanced Snail 96 Mucin Essence",
-        "trend": "상승",
-        "price": 19.99
+        "product": "NIVEA Soft hydraterende créme 48u hydratatie",
+        "brand": "NIVEA",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/4005900963499"
       },
       {
-        "rank": 2,
-        "product": "Mighty Patch Original",
-        "trend": "상승",
-        "price": 12.99
+        "product": "hand cream",
+        "brand": "Neutrogena",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/3574661685977"
       },
       {
-        "rank": 3,
-        "product": "CeraVe Foaming Facial Cleanser",
-        "trend": "유지",
-        "price": 15.49
+        "product": "Aveeno Baby Eczema Therapy",
+        "brand": "Aveeno",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/0381371018451"
       },
       {
-        "rank": 4,
-        "product": "The Ordinary Niacinamide 10% + Zinc 1%",
-        "trend": "상승",
-        "price": 8.9
+        "product": "BioCare Aloe Vera",
+        "brand": "BioCare",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/6297811169055"
       },
       {
-        "rank": 5,
-        "product": "La Roche-Posay Double Repair Moisturizer",
-        "trend": "유지",
-        "price": 21.99
+        "product": "Gluta hya dewy radicance",
+        "brand": "Vaseline",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/8901030957048"
       },
       {
-        "rank": 6,
-        "product": "Paula's Choice 2% BHA Liquid Exfoliant",
-        "trend": "상승",
-        "price": 34.0
+        "product": "Healthy Feet Cream",
+        "brand": "O’Keefes",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/0722510026003"
       },
       {
-        "rank": 7,
-        "product": "Laneige Lip Sleeping Mask",
-        "trend": "유지",
-        "price": 24.0
+        "product": "Masque Purifiant Naturel à L'Argile Verte.",
+        "brand": "Argile, Juvaflorine",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3160920402005"
       },
       {
-        "rank": 8,
-        "product": "Skin1004 Madagascar Centella Ampoule",
-        "trend": "상승",
-        "price": 18.99
+        "product": "Garnier SkinActive Pure Charcoal Tissuemasker",
+        "brand": "Garnier, Garnier SkinActive",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3600542097024"
       },
       {
-        "rank": 9,
-        "product": "Mighty Patch Original Hydrocolloid",
-        "trend": "유지",
-        "price": 12.99
+        "product": "Masque crème hydratant",
+        "brand": "Caudalie",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3522932031787"
       },
       {
-        "rank": 10,
-        "product": "Beauty of Joseon Relief Sun SPF50+",
-        "trend": "상승",
-        "price": 16.0
+        "product": "Sebum Control Masque purifiant charbon végétal façon crème fouettée",
+        "brand": "Bioré",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/5017634256739"
       },
       {
-        "rank": 11,
-        "product": "ANUA Heartleaf 77 Soothing Toner",
-        "trend": "상승",
-        "price": 20.0
+        "product": "Polishing Charcoal + Black Sugar Gel Mask + Scrub",
+        "brand": "Freeman",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/0072151421119"
       },
       {
-        "rank": 12,
-        "product": "CeraVe Moisturizing Cream",
-        "trend": "유지",
-        "price": 18.99
+        "product": "Le masque de pureté nettoyant",
+        "brand": "La Provençale",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3600550972153"
       },
       {
-        "rank": 13,
-        "product": "Neutrogena Hydro Boost Water Gel",
-        "trend": "유지",
-        "price": 15.99
+        "product": "1 Masque Anti-Rides Bio-Cellulose",
+        "brand": "Barbara Gould",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3331300096460"
       },
       {
-        "rank": 14,
-        "product": "The Ordinary Hyaluronic Acid 2% + B5",
-        "trend": "유지",
-        "price": 8.9
+        "product": "Pâte d'argile",
+        "brand": "Copar, Laboratoires Biocos, Lovea, Lovea Nature",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3329310012495"
       },
       {
-        "rank": 15,
-        "product": "Goodal Green Tangerine Vita C Serum",
-        "trend": "상승",
-        "price": 19.0
-      }
-    ],
-    "tiktok_shop_us": [
-      {
-        "hashtag": "#BeautyTok",
-        "product": "TIRTIR Mask Fit Red Cushion",
-        "views": "2.4M"
-      },
-      {
-        "hashtag": "#KBeauty",
-        "product": "ANUA Heartleaf 77 Toner",
-        "views": "1.8M"
-      },
-      {
-        "hashtag": "#Skincare",
-        "product": "COSRX Snail Mucin 96 Essence",
-        "views": "1.5M"
-      },
-      {
-        "hashtag": "#GlassSkin",
-        "product": "Beauty of Joseon Relief Sun SPF50",
-        "views": "1.2M"
-      },
-      {
-        "hashtag": "#ViralBeauty",
-        "product": "Medicube Zero Pore Pad",
-        "views": "980K"
-      },
-      {
-        "hashtag": "#Serum",
-        "product": "Skin1004 Madagascar Centella Ampoule",
-        "views": "920K"
-      },
-      {
-        "hashtag": "#MakeupTok",
-        "product": "Rare Beauty Soft Pinch Liquid Blush",
-        "views": "1.1M"
-      },
-      {
-        "hashtag": "#Sunscreen",
-        "product": "Isntree Hyaluronic Watery Sun Gel",
-        "views": "760K"
-      },
-      {
-        "hashtag": "#Toner",
-        "product": "Round Lab Dokdo Toner",
-        "views": "710K"
-      },
-      {
-        "hashtag": "#Cream",
-        "product": "Biodance Collagen Jelly Cream",
-        "views": "890K"
-      },
-      {
-        "hashtag": "#VitaminC",
-        "product": "Goodal Green Tangerine Vita C Serum",
-        "views": "650K"
-      },
-      {
-        "hashtag": "#Ceramide",
-        "product": "Illiyoon Ceramide Ato Cream",
-        "views": "540K"
-      },
-      {
-        "hashtag": "#Retinol",
-        "product": "Some By Mi Retinol Intense Stick",
-        "views": "480K"
-      },
-      {
-        "hashtag": "#Cushion",
-        "product": "Clio Kill Cover Cushion",
-        "views": "520K"
-      },
-      {
-        "hashtag": "#Ampoule",
-        "product": "Purito Centella Unscented Serum",
-        "views": "430K"
-      }
-    ],
-    "walmart_beauty": [
-      {
-        "category": "Moisturizer",
-        "product": "CeraVe Daily Moisturizing Lotion",
-        "status": "Trending",
-        "price": 14.98
-      },
-      {
-        "category": "Cleanser",
-        "product": "PanOxyl Acne Foaming Wash",
-        "status": "Trending",
-        "price": 9.97
-      },
-      {
-        "category": "Sunscreen",
-        "product": "Neutrogena Ultra Sheer SPF55",
-        "status": "Trending",
-        "price": 10.94
-      },
-      {
-        "category": "Serum",
-        "product": "The Ordinary Hyaluronic Acid 2%",
-        "status": "Trending",
-        "price": 9.8
-      },
-      {
-        "category": "Body Care",
-        "product": "EOS Shea Better Lotion",
-        "status": "Trending",
-        "price": 8.97
-      },
-      {
-        "category": "Hair Care",
-        "product": "OGX Argan Oil Shampoo",
-        "status": "Trending",
-        "price": 7.98
-      },
-      {
-        "category": "Lip Care",
-        "product": "Burt's Bees Beeswax Lip Balm",
-        "status": "Trending",
-        "price": 3.48
-      },
-      {
-        "category": "Mask",
-        "product": "Garnier Moisture Bomb Sheet Mask",
-        "status": "Trending",
-        "price": 2.97
-      },
-      {
-        "category": "Serum",
-        "product": "The Ordinary Hyaluronic Acid 2% + B5",
-        "status": "Best Seller",
-        "price": 8.98
-      },
-      {
-        "category": "Body",
-        "product": "EOS Shea Better Body Lotion",
-        "status": "Best Seller",
-        "price": 6.98
-      },
-      {
-        "category": "Cleanser",
-        "product": "CeraVe Hydrating Facial Cleanser",
-        "status": "Best Seller",
-        "price": 13.98
-      },
-      {
-        "category": "Moisturizer",
-        "product": "Neutrogena Hydro Boost Water Gel",
-        "status": "Best Seller",
-        "price": 15.94
-      },
-      {
-        "category": "Cleanser",
-        "product": "Garnier SkinActive Micellar Water",
-        "status": "Best Seller",
-        "price": 8.97
-      },
-      {
-        "category": "Moisturizer",
-        "product": "CeraVe PM Facial Moisturizing Lotion",
-        "status": "Best Seller",
-        "price": 16.98
-      },
-      {
-        "category": "Serum",
-        "product": "Equate Beauty Vitamin C Serum",
-        "status": "Best Seller",
-        "price": 7.48
-      }
-    ],
-    "google_trends_us": [
-      {
-        "keyword": "Snail",
-        "growth": "+",
-        "momentum": "High",
-        "product": "COSRX Advanced Snail 96 Mucin Essence"
-      },
-      {
-        "keyword": "Mucin",
-        "growth": "+",
-        "momentum": "High",
-        "product": "COSRX Advanced Snail 96 Mucin Essence"
-      },
-      {
-        "keyword": "Essence",
-        "growth": "+",
-        "momentum": "High",
-        "product": "COSRX Advanced Snail 96 Mucin Essence"
-      },
-      {
-        "keyword": "Niacinamide",
-        "growth": "+",
-        "momentum": "High",
-        "product": "The Ordinary Niacinamide 10% + Zinc 1%"
-      },
-      {
-        "keyword": "Centella",
-        "growth": "+",
-        "momentum": "High",
-        "product": "Skin1004 Madagascar Centella Ampoule"
-      },
-      {
-        "keyword": "Ampoule",
-        "growth": "+",
-        "momentum": "High",
-        "product": "Skin1004 Madagascar Centella Ampoule"
-      },
-      {
-        "keyword": "Spf",
-        "growth": "+",
-        "momentum": "High",
-        "product": "Beauty of Joseon Relief Sun SPF50+"
-      },
-      {
-        "keyword": "Heartleaf",
-        "growth": "+",
-        "momentum": "High",
-        "product": "ANUA Heartleaf 77 Soothing Toner"
-      },
-      {
-        "keyword": "Toner",
-        "growth": "+",
-        "momentum": "High",
-        "product": "ANUA Heartleaf 77 Soothing Toner"
-      },
-      {
-        "keyword": "Hyaluronic",
-        "growth": "+",
-        "momentum": "High",
-        "product": "The Ordinary Hyaluronic Acid 2% + B5"
-      },
-      {
-        "keyword": "Serum",
-        "growth": "+",
-        "momentum": "High",
-        "product": "Goodal Green Tangerine Vita C Serum"
-      },
-      {
-        "keyword": "Cushion",
-        "growth": "+",
-        "momentum": "High",
-        "product": "TIRTIR Mask Fit Red Cushion"
-      },
-      {
-        "keyword": "Ceramide",
-        "growth": "+",
-        "momentum": "High",
-        "product": "Illiyoon Ceramide Ato Concentrate Cream"
-      },
-      {
-        "keyword": "Vitamin",
-        "growth": "+",
-        "momentum": "High",
-        "product": "Equate Beauty Vitamin C Serum"
-      },
-      {
-        "keyword": "Collagen",
-        "growth": "+",
-        "momentum": "High",
-        "product": "Collagen Jelly Cream"
-      }
-    ],
-    "ulta_beauty": [
-      {
-        "brand": "e.l.f. Cosmetics",
-        "product": "Power Grip Primer",
-        "rating": 4.7
-      },
-      {
-        "brand": "The Ordinary",
-        "product": "Glycolic Acid 7% Toning Solution",
-        "rating": 4.6
-      },
-      {
-        "brand": "CeraVe",
-        "product": "Hydrating Facial Cleanser",
-        "rating": 4.8
-      },
-      {
-        "brand": "Rare Beauty",
-        "product": "Soft Pinch Liquid Blush",
-        "rating": 4.7
-      },
-      {
-        "brand": "Sol de Janeiro",
-        "product": "Brazilian Bum Bum Cream",
-        "rating": 4.6
-      },
-      {
-        "brand": "Tatcha",
-        "product": "The Dewy Skin Cream",
-        "rating": 4.5
-      },
-      {
-        "brand": "Drunk Elephant",
-        "product": "Protini Polypeptide Cream",
-        "rating": 4.4
-      },
-      {
-        "brand": "Laneige",
-        "product": "Lip Sleeping Mask",
-        "rating": 4.7
-      }
-    ],
-    "sephora": [
-      {
-        "category": "Hot on Social",
-        "product": "Rare Beauty Soft Pinch Liquid Blush",
-        "loves": "1.2M"
-      },
-      {
-        "category": "Just Dropped",
-        "product": "Laneige Lip Sleeping Mask",
-        "loves": "980K"
-      },
-      {
-        "category": "Best Seller",
-        "product": "Sol de Janeiro Brazilian Bum Bum Cream",
-        "loves": "1.5M"
-      },
-      {
-        "category": "Trending",
-        "product": "Summer Fridays Lip Butter Balm",
-        "loves": "890K"
-      },
-      {
-        "category": "Skincare",
-        "product": "The Ordinary Niacinamide 10% + Zinc 1%",
-        "loves": "1.1M"
-      },
-      {
-        "category": "Makeup",
-        "product": "Rare Beauty Perfect Strokes Mascara",
-        "loves": "720K"
-      },
-      {
-        "category": "Fragrance",
-        "product": "Cloud Pink by Ariana Grande",
-        "loves": "860K"
-      },
-      {
-        "category": "Tools",
-        "product": "Dyson Airwrap Multi-Styler",
-        "loves": "1.0M"
-      }
-    ],
-    "shopify_demand_matching": [
-      {
-        "keyword": "Snail Mucin",
-        "product": "COSRX Advanced Snail 96",
-        "demand_score": 96,
-        "competition": "Low",
-        "predicted_orders": 148,
-        "expected_roas": 4.8,
-        "margin": 58,
-        "matched_sources": [
-          "Amazon",
-          "TikTok",
-          "OliveYoung US"
-        ]
-      },
-      {
-        "keyword": "Heartleaf",
-        "product": "ANUA Heartleaf 77 Toner",
-        "demand_score": 93,
-        "competition": "Low",
-        "predicted_orders": 137,
-        "expected_roas": 4.6,
-        "margin": 62,
-        "matched_sources": [
-          "TikTok",
-          "Ulta Beauty",
-          "OliveYoung US"
-        ]
-      },
-      {
-        "keyword": "Vitamin C",
-        "product": "Goodal Vita C Dark Spot Serum",
-        "demand_score": 90,
-        "competition": "Low",
-        "predicted_orders": 126,
-        "expected_roas": 4.4,
-        "margin": 55,
-        "matched_sources": [
-          "Amazon",
-          "Google Trends",
-          "OliveYoung US"
-        ]
-      },
-      {
-        "keyword": "Ceramide",
-        "product": "Illiyoon Ceramide Cream",
-        "demand_score": 87,
-        "competition": "Medium",
-        "predicted_orders": 115,
-        "expected_roas": 4.2,
-        "margin": 60,
-        "matched_sources": [
-          "Walmart Beauty",
-          "OliveYoung US"
-        ]
-      },
-      {
-        "keyword": "Collagen",
-        "product": "BIODANCE Collagen Jelly Cream",
-        "demand_score": 84,
-        "competition": "Medium",
-        "predicted_orders": 104,
-        "expected_roas": 4.0,
-        "margin": 57,
-        "matched_sources": [
-          "TikTok",
-          "OliveYoung US"
-        ]
-      },
-      {
-        "keyword": "Bean Essence",
-        "product": "Mixsoon Bean Essence",
-        "demand_score": 81,
-        "competition": "Medium",
-        "predicted_orders": 93,
-        "expected_roas": 3.8,
-        "margin": 63,
-        "matched_sources": [
-          "Sephora",
-          "OliveYoung US"
-        ]
-      },
-      {
-        "keyword": "Rice Toner",
-        "product": "I'm From Rice Toner",
-        "demand_score": 78,
-        "competition": "Medium",
-        "predicted_orders": 82,
-        "expected_roas": 3.6,
-        "margin": 59,
-        "matched_sources": [
-          "Ulta Beauty",
-          "OliveYoung US"
-        ]
-      },
-      {
-        "keyword": "Glutathione",
-        "product": "APLB Glutathione Serum",
-        "demand_score": 75,
-        "competition": "Medium",
-        "predicted_orders": 71,
-        "expected_roas": 3.4,
-        "margin": 61,
-        "matched_sources": [
-          "TikTok",
-          "Google Trends"
-        ]
-      }
-    ],
-    "oliveyoung_us": [
-      {
-        "product": "Advanced Snail 96 Mucin Essence",
-        "sub": "COSRX",
-        "badge": "4.9",
-        "rank": 1
-      },
-      {
-        "product": "Heartleaf 77 Soothing Toner",
-        "sub": "ANUA",
-        "badge": "4.8",
-        "rank": 2
-      },
-      {
-        "product": "Collagen Jelly Cream",
-        "sub": "BIODANCE",
-        "badge": "4.8",
-        "rank": 3
-      },
-      {
-        "product": "Green Tangerine Vita C Dark Spot Serum",
-        "sub": "GOODAL",
-        "badge": "4.7",
-        "rank": 4
-      },
-      {
-        "product": "Relief Sun Rice SPF50+",
-        "sub": "BEAUTY OF JOSEON",
-        "badge": "4.9",
-        "rank": 5
-      },
-      {
-        "product": "Madagascar Centella Ampoule",
-        "sub": "SKIN1004",
-        "badge": "4.8",
-        "rank": 6
-      },
-      {
-        "product": "Advanced Snail 92 All In One Cream",
-        "sub": "COSRX",
-        "badge": "4.8",
-        "rank": 7
-      },
-      {
-        "product": "Dokdo Toner",
-        "sub": "ROUND LAB",
-        "badge": "4.7",
-        "rank": 8
-      },
-      {
-        "product": "Ceramide Ato Concentrate Cream",
-        "sub": "ILLIYOON",
-        "badge": "4.9",
-        "rank": 9
-      },
-      {
-        "product": "Zero Pore Pad",
-        "sub": "MEDICUBE",
-        "badge": "4.6",
-        "rank": 10
-      },
-      {
-        "product": "Mask Fit Red Cushion",
-        "sub": "TIRTIR",
-        "badge": "4.7",
-        "rank": 11
-      },
-      {
-        "product": "No.3 Skin Softening Serum",
-        "sub": "NUMBUZIN",
-        "badge": "4.7",
-        "rank": 12
-      },
-      {
-        "product": "Centella Unscented Serum",
-        "sub": "PURITO",
-        "badge": "4.6",
-        "rank": 13
-      },
-      {
-        "product": "Hyaluronic Acid Watery Sun Gel",
-        "sub": "ISNTREE",
-        "badge": "4.8",
-        "rank": 14
-      },
-      {
-        "product": "AHA BHA PHA 30 Days Miracle Toner",
-        "sub": "SOME BY MI",
-        "badge": "4.6",
-        "rank": 15
+        "product": "SOHO N.Y.C. Anti-Aging No Rinse 2in1 Face Serum + Mask",
+        "brand": "SOHO N.Y.C",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/8683420170045"
       }
     ]
   },
   "exchange_rate": {
-    "rate": 1383.49,
+    "rate": 1376.6,
+    "as_of": "2026-08-31",
+    "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-08-31"
   },
-  "last_synced": "08. 31. 오후 06:14 KST"
+  "last_synced": "08. 31. 오후 07:27 KST",
+  "global_channels_status": {
+    "amazon_best_sellers": {
+      "status": "disabled",
+      "source": "-",
+      "reason": "하드코딩 카탈로그였어서 2026-08-31 비활성화. PA-API 5.0 은 신규 가입 중단 + 2026-05-15 지원 종료이고, 후속 Creators API 는 최근 30일 어필리에이트 판매 10건 이상이 필요하며 데이터 보존 24시간 제한이 있어 순위를 저장할 수 없다.",
+      "collected_at": "",
+      "count": 0
+    },
+    "walmart_beauty": {
+      "status": "disabled",
+      "source": "-",
+      "reason": "하드코딩 카탈로그였어서 2026-08-31 비활성화. Affiliate API 는 승인된 파트너 전용이라 일반 상품·가격 데이터를 받을 수 없다.",
+      "collected_at": "",
+      "count": 0
+    },
+    "oliveyoung_us": {
+      "status": "disabled",
+      "source": "-",
+      "reason": "source 가 'curated bestseller mirror' 인 하드코딩 15건이었어서 2026-08-31 비활성화. 순위와 평점이 실측값이 아니었다. 공식 공개 API 없음.",
+      "collected_at": "",
+      "count": 0
+    },
+    "google_trends_us": {
+      "status": "disabled",
+      "source": "-",
+      "reason": "Google Trends 공식 API는 승인제 alpha. 승인 전까지 비활성화.",
+      "collected_at": "",
+      "count": 0
+    },
+    "shopify_demand_matching": {
+      "status": "disabled",
+      "source": "-",
+      "reason": "demand_score·predicted_orders·expected_roas 가 조작값이라 삭제. 실측 지표 확보 후 재설계.",
+      "collected_at": "",
+      "count": 0
+    },
+    "tiktok_shop_us": {
+      "status": "empty",
+      "source": "data/tiktok_shop_us_products.json",
+      "reason": "TikTok 공개 수집 파일 없음",
+      "collected_at": "",
+      "count": 0
+    },
+    "ulta_beauty": {
+      "status": "empty",
+      "source": "ulta.com 공개 페이지 스크래핑",
+      "reason": "봇 차단으로 상품 목록을 가져오지 못함. 카테고리 메뉴 텍스트만 응답됨. 공식 공개 API 없음(Sephora 개발자 포털 비공개, Ulta 포털 없음).",
+      "collected_at": "",
+      "count": 0
+    },
+    "sephora": {
+      "status": "empty",
+      "source": "sephora.com 공개 페이지 스크래핑",
+      "reason": "봇 차단으로 상품 목록을 가져오지 못함. 카테고리 메뉴 텍스트만 응답됨. 공식 공개 API 없음(Sephora 개발자 포털 비공개, Ulta 포털 없음).",
+      "collected_at": "",
+      "count": 0
+    },
+    "open_beauty_facts": {
+      "status": "ok",
+      "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
+      "reason": "수집기 미실행",
+      "collected_at": "2026-08-31T10:21:04.574748+00:00",
+      "count": 15
+    }
+  },
+  "data_integrity_note": "2026-08-31 가짜 데이터 제거. 하드코딩 카탈로그와 폴백 샘플을 삭제했으며 비어 있는 채널은 실제 수집이 없다는 뜻이다. 실데이터 채널: 다이소 실수집, 환율, arXiv, Google CSE."
 }

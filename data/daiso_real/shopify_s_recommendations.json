@@ -1,115 +1,69 @@
 {
-  "generated_at": "2026-08-31T09:14:19.600829+00:00",
+  "generated_at": "2026-08-31T10:24:40.132528+00:00",
   "source": "score_shopify_demand.py",
   "rule": "grade == S (core category + global match)",
-  "count": 9,
+  "count": 10,
   "priority_note": "S등급만. Shopify 우선 등록·테스트 후보.",
   "recommendations": [
     {
       "rank": 1,
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 95,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Toner' (tiktok_shop_us) 유사 99% · 토큰 heartleaf,toner",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "ANUA Heartleaf 77 Toner",
-        "similarity": 0.987,
-        "demand_weight": 0.95,
-        "matched_tokens": [
-          "heartleaf",
-          "toner"
-        ],
-        "match_score": 0.937
-      }
-    },
-    {
-      "rank": 2,
       "pd_no": "1045146",
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 93,
+      "shopify_score": 96,
       "grade": "S",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045146",
-      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50' (tiktok_shop_us) 유사 82% · 토큰 sunscreen",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Beauty of Joseon Relief Sun SPF50",
-        "similarity": 0.82,
-        "demand_weight": 0.85,
-        "matched_tokens": [
-          "sunscreen"
-        ],
-        "match_score": 0.697
-      }
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,449건 · 원가 5,000원 (다이소 실측값 기준)",
+      "matched_global": null
+    },
+    {
+      "rank": 2,
+      "pd_no": "1048581",
+      "name": "드롭비 잡티 말끔 앰플 40 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 91,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,595건 · 원가 5,000원 (다이소 실측값 기준)",
+      "matched_global": null
     },
     {
       "rank": 3,
-      "pd_no": "1064529",
-      "name": "더마블록 무기자차선크림 35 ml (by 셀퓨전씨)",
+      "pd_no": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 88,
+      "shopify_score": 90,
       "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064529",
-      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50' (tiktok_shop_us) 유사 82% · 토큰 sunscreen",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Beauty of Joseon Relief Sun SPF50",
-        "similarity": 0.82,
-        "demand_weight": 0.85,
-        "matched_tokens": [
-          "sunscreen"
-        ],
-        "match_score": 0.697
-      }
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 938건 · 원가 5,000원 (다이소 실측값 기준)",
+      "matched_global": null
     },
     {
       "rank": 4,
-      "pd_no": "1068776",
-      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 86,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068776",
-      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50' (tiktok_shop_us) 유사 82% · 토큰 sunscreen",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Beauty of Joseon Relief Sun SPF50",
-        "similarity": 0.82,
-        "demand_weight": 0.85,
-        "matched_tokens": [
-          "sunscreen"
-        ],
-        "match_score": 0.697
-      }
-    },
-    {
-      "rank": 5,
       "pd_no": "1060494",
       "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 85,
+      "shopify_score": 90,
       "grade": "S",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060494",
-      "recommend_reason": "글로벌 'Advanced Snail 96 Mucin Essence' (oliveyoung_us) 유사 70% · 토큰 essence",
-      "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "Advanced Snail 96 Mucin Essence",
-        "similarity": 0.7,
-        "demand_weight": 0.98,
-        "matched_tokens": [
-          "essence"
-        ],
-        "match_score": 0.686
-      }
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 755건 · 원가 5,000원 (다이소 실측값 기준)",
+      "matched_global": null
+    },
+    {
+      "rank": 5,
+      "pd_no": "1068776",
+      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 90,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068776",
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 241건 · 원가 5,000원 (다이소 실측값 기준)",
+      "matched_global": null
     },
     {
       "rank": 6,
@@ -117,84 +71,59 @@
       "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 80,
+      "shopify_score": 89,
       "grade": "S",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
-      "recommend_reason": "글로벌 'Collagen Jelly Cream' (oliveyoung_us) 유사 72% · 토큰 collagen,cream",
-      "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "Collagen Jelly Cream",
-        "similarity": 0.72,
-        "demand_weight": 0.882,
-        "matched_tokens": [
-          "collagen",
-          "cream"
-        ],
-        "match_score": 0.635
-      }
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 491건 · 원가 5,000원 (다이소 실측값 기준)",
+      "matched_global": null
     },
     {
       "rank": 7,
-      "pd_no": "1057223",
-      "name": "태그 핑크 라이트 선쿠션 15 g",
-      "bucket": "선케어",
+      "pd_no": "1072803",
+      "name": "케어존플러스 모공탄력 수분크림 75 ml",
+      "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 79,
+      "shopify_score": 89,
       "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057223",
-      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50' (tiktok_shop_us) 유사 82% · 토큰 sunscreen",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Beauty of Joseon Relief Sun SPF50",
-        "similarity": 0.82,
-        "demand_weight": 0.85,
-        "matched_tokens": [
-          "sunscreen"
-        ],
-        "match_score": 0.697
-      }
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072803",
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 444건 · 원가 5,000원 (다이소 실측값 기준)",
+      "matched_global": null
     },
     {
       "rank": 8,
-      "pd_no": "1070006",
-      "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
+      "pd_no": "1064529",
+      "name": "더마블록 무기자차선크림 35 ml (by 셀퓨전씨)",
       "bucket": "스킨케어",
-      "price_krw": 3000,
-      "shopify_score": 79,
+      "price_krw": 5000,
+      "shopify_score": 89,
       "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1070006",
-      "recommend_reason": "글로벌 'Green Tangerine Vita C Dark Spot Serum' (oliveyoung_us) 유사 66% · 토큰 serum",
-      "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "Green Tangerine Vita C Dark Spot Serum",
-        "similarity": 0.657,
-        "demand_weight": 0.833,
-        "matched_tokens": [
-          "serum"
-        ],
-        "match_score": 0.547
-      }
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064529",
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.6 · 리뷰 349건 · 원가 5,000원 (다이소 실측값 기준)",
+      "matched_global": null
     },
     {
       "rank": 9,
-      "pd_no": "1048581",
-      "name": "드롭비 잡티 말끔 앰플 40 ml",
+      "pd_no": "1035210",
+      "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
+      "bucket": "스킨케어",
+      "price_krw": 3000,
+      "shopify_score": 87,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035210",
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,107건 · 원가 3,000원 (다이소 실측값 기준)",
+      "matched_global": null
+    },
+    {
+      "rank": 10,
+      "pd_no": "1044110",
+      "name": "존슨즈 베이비 로션 핑크 200ml",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 70,
+      "shopify_score": 87,
       "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.4,
-        "demand_weight": 0.75,
-        "matched_tokens": [
-          "ampoule"
-        ],
-        "match_score": 0.3
-      }
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044110",
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 511건 · 원가 5,000원 (다이소 실측값 기준)",
+      "matched_global": null
     }
   ]
 }

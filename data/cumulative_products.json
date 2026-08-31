@@ -1,12 +1,12 @@
 {
-  "cumulative_total": 4846,
-  "baseline": 117,
+  "cumulative_total": 89,
+  "reset_at": "2026-08-31",
+  "reset_note": "이전 값 4,846건은 가짜 수집기 5종이 누적한 숫자라 폐기했다. daiso 1,643 / oliveyoung 782 / naver 783 / walmart 755 / amazon 766 이 전부 생성된 값이었다. 이제 실제 크롤링한 다이소 상품 수만 센다.",
   "sources": {
-    "daiso": 1643,
-    "oliveyoung": 782,
-    "naver": 783,
-    "walmart": 755,
-    "amazon": 766
+    "daiso_real": 89
   },
-  "last_updated": "2026-08-31T07:43:46.748249Z"
+  "source_detail": {
+    "daiso_real": "daisomall.co.kr 상품 상세 페이지 실크롤링 (robots.txt Crawl-delay 30 준수)"
+  },
+  "last_updated": "2026-08-31T10:30:00Z"
 }
