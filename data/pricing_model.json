@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T11:30:01.929902+00:00",
+  "generated_at": "2026-08-31T17:15:31.502897+00:00",
   "exchange_rate": {
     "usd_to_krw": 1376.6,
     "as_of": "2026-08-31",
@@ -21,8 +21,8 @@
     ]
   },
   "market_benchmark": {
-    "min": 4.25,
-    "p25": 19.79,
+    "min": 8.3,
+    "p25": 19.0,
     "median": 24.0,
     "max": 279.0,
     "n": 100,
@@ -51,10 +51,10 @@
           "margin_pct": -44.6
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.87,
-          "profit": 7.9,
-          "margin_pct": 39.9
+          "sell": 19.0,
+          "fee": 0.85,
+          "profit": 7.13,
+          "margin_pct": 37.5
         },
         "at_market_median": {
           "sell": 24.0,
@@ -84,10 +84,10 @@
           "margin_pct": -44.6
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.87,
-          "profit": 7.9,
-          "margin_pct": 39.9
+          "sell": 19.0,
+          "fee": 0.85,
+          "profit": 7.13,
+          "margin_pct": 37.5
         },
         "at_market_median": {
           "sell": 24.0,
@@ -117,10 +117,10 @@
           "margin_pct": -53.7
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.87,
-          "profit": 7.16,
-          "margin_pct": 36.2
+          "sell": 19.0,
+          "fee": 0.85,
+          "profit": 6.4,
+          "margin_pct": 33.7
         },
         "at_market_median": {
           "sell": 24.0,
@@ -150,10 +150,10 @@
           "margin_pct": -44.6
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.87,
-          "profit": 7.9,
-          "margin_pct": 39.9
+          "sell": 19.0,
+          "fee": 0.85,
+          "profit": 7.13,
+          "margin_pct": 37.5
         },
         "at_market_median": {
           "sell": 24.0,
@@ -183,10 +183,10 @@
           "margin_pct": -44.6
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.87,
-          "profit": 7.9,
-          "margin_pct": 39.9
+          "sell": 19.0,
+          "fee": 0.85,
+          "profit": 7.13,
+          "margin_pct": 37.5
         },
         "at_market_median": {
           "sell": 24.0,
@@ -216,10 +216,10 @@
           "margin_pct": -44.6
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.87,
-          "profit": 7.9,
-          "margin_pct": 39.9
+          "sell": 19.0,
+          "fee": 0.85,
+          "profit": 7.13,
+          "margin_pct": 37.5
         },
         "at_market_median": {
           "sell": 24.0,
@@ -249,10 +249,10 @@
           "margin_pct": -44.6
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.87,
-          "profit": 7.9,
-          "margin_pct": 39.9
+          "sell": 19.0,
+          "fee": 0.85,
+          "profit": 7.13,
+          "margin_pct": 37.5
         },
         "at_market_median": {
           "sell": 24.0,
@@ -282,10 +282,10 @@
           "margin_pct": -35.4
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.87,
-          "profit": 8.63,
-          "margin_pct": 43.6
+          "sell": 19.0,
+          "fee": 0.85,
+          "profit": 7.86,
+          "margin_pct": 41.4
         },
         "at_market_median": {
           "sell": 24.0,
@@ -315,10 +315,10 @@
           "margin_pct": -194.6
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.87,
-          "profit": 5.23,
-          "margin_pct": 26.4
+          "sell": 19.0,
+          "fee": 0.85,
+          "profit": 4.46,
+          "margin_pct": 23.5
         },
         "at_market_median": {
           "sell": 24.0,
@@ -348,10 +348,10 @@
           "margin_pct": -62.9
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.87,
-          "profit": 6.43,
-          "margin_pct": 32.5
+          "sell": 19.0,
+          "fee": 0.85,
+          "profit": 5.66,
+          "margin_pct": 29.8
         },
         "at_market_median": {
           "sell": 24.0,
@@ -383,10 +383,10 @@
           "margin_pct": 8.9
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.67,
-          "profit": 12.17,
-          "margin_pct": 61.5
+          "sell": 19.0,
+          "fee": 0.65,
+          "profit": 11.4,
+          "margin_pct": 60.0
         },
         "at_market_median": {
           "sell": 24.0,
@@ -416,10 +416,10 @@
           "margin_pct": 8.9
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.67,
-          "profit": 12.17,
-          "margin_pct": 61.5
+          "sell": 19.0,
+          "fee": 0.65,
+          "profit": 11.4,
+          "margin_pct": 60.0
         },
         "at_market_median": {
           "sell": 24.0,
@@ -449,10 +449,10 @@
           "margin_pct": -8.8
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.67,
-          "profit": 10.75,
-          "margin_pct": 54.3
+          "sell": 19.0,
+          "fee": 0.65,
+          "profit": 9.99,
+          "margin_pct": 52.6
         },
         "at_market_median": {
           "sell": 24.0,
@@ -482,10 +482,10 @@
           "margin_pct": 2.7
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.67,
-          "profit": 11.67,
-          "margin_pct": 59.0
+          "sell": 19.0,
+          "fee": 0.65,
+          "profit": 10.91,
+          "margin_pct": 57.4
         },
         "at_market_median": {
           "sell": 24.0,
@@ -515,10 +515,10 @@
           "margin_pct": 8.9
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.67,
-          "profit": 12.17,
-          "margin_pct": 61.5
+          "sell": 19.0,
+          "fee": 0.65,
+          "profit": 11.4,
+          "margin_pct": 60.0
         },
         "at_market_median": {
           "sell": 24.0,
@@ -548,10 +548,10 @@
           "margin_pct": 8.9
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.67,
-          "profit": 12.17,
-          "margin_pct": 61.5
+          "sell": 19.0,
+          "fee": 0.65,
+          "profit": 11.4,
+          "margin_pct": 60.0
         },
         "at_market_median": {
           "sell": 24.0,
@@ -581,10 +581,10 @@
           "margin_pct": 2.7
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.67,
-          "profit": 11.67,
-          "margin_pct": 59.0
+          "sell": 19.0,
+          "fee": 0.65,
+          "profit": 10.91,
+          "margin_pct": 57.4
         },
         "at_market_median": {
           "sell": 24.0,
@@ -614,10 +614,10 @@
           "margin_pct": 12.0
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.67,
-          "profit": 12.41,
-          "margin_pct": 62.7
+          "sell": 19.0,
+          "fee": 0.65,
+          "profit": 11.65,
+          "margin_pct": 61.3
         },
         "at_market_median": {
           "sell": 24.0,
@@ -647,10 +647,10 @@
           "margin_pct": -128.0
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.67,
-          "profit": 8.42,
-          "margin_pct": 42.6
+          "sell": 19.0,
+          "fee": 0.65,
+          "profit": 7.66,
+          "margin_pct": 40.3
         },
         "at_market_median": {
           "sell": 24.0,
@@ -680,10 +680,10 @@
           "margin_pct": -17.4
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.67,
-          "profit": 10.06,
-          "margin_pct": 50.9
+          "sell": 19.0,
+          "fee": 0.65,
+          "profit": 9.3,
+          "margin_pct": 48.9
         },
         "at_market_median": {
           "sell": 24.0,
@@ -715,10 +715,10 @@
           "margin_pct": 17.8
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.63,
-          "profit": 12.88,
-          "margin_pct": 65.1
+          "sell": 19.0,
+          "fee": 0.61,
+          "profit": 12.11,
+          "margin_pct": 63.8
         },
         "at_market_median": {
           "sell": 24.0,
@@ -748,10 +748,10 @@
           "margin_pct": 17.8
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.63,
-          "profit": 12.88,
-          "margin_pct": 65.1
+          "sell": 19.0,
+          "fee": 0.61,
+          "profit": 12.11,
+          "margin_pct": 63.8
         },
         "at_market_median": {
           "sell": 24.0,
@@ -781,10 +781,10 @@
           "margin_pct": 0.4
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.63,
-          "profit": 11.49,
-          "margin_pct": 58.0
+          "sell": 19.0,
+          "fee": 0.61,
+          "profit": 10.72,
+          "margin_pct": 56.4
         },
         "at_market_median": {
           "sell": 24.0,
@@ -814,10 +814,10 @@
           "margin_pct": 16.1
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.63,
-          "profit": 12.74,
-          "margin_pct": 64.4
+          "sell": 19.0,
+          "fee": 0.61,
+          "profit": 11.98,
+          "margin_pct": 63.0
         },
         "at_market_median": {
           "sell": 24.0,
@@ -847,10 +847,10 @@
           "margin_pct": 17.8
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.63,
-          "profit": 12.88,
-          "margin_pct": 65.1
+          "sell": 19.0,
+          "fee": 0.61,
+          "profit": 12.11,
+          "margin_pct": 63.8
         },
         "at_market_median": {
           "sell": 24.0,
@@ -880,10 +880,10 @@
           "margin_pct": 17.8
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.63,
-          "profit": 12.88,
-          "margin_pct": 65.1
+          "sell": 19.0,
+          "fee": 0.61,
+          "profit": 12.11,
+          "margin_pct": 63.8
         },
         "at_market_median": {
           "sell": 24.0,
@@ -913,10 +913,10 @@
           "margin_pct": 14.4
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.63,
-          "profit": 12.61,
-          "margin_pct": 63.7
+          "sell": 19.0,
+          "fee": 0.61,
+          "profit": 11.84,
+          "margin_pct": 62.3
         },
         "at_market_median": {
           "sell": 24.0,
@@ -946,10 +946,10 @@
           "margin_pct": 19.5
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.63,
-          "profit": 13.02,
-          "margin_pct": 65.8
+          "sell": 19.0,
+          "fee": 0.61,
+          "profit": 12.25,
+          "margin_pct": 64.5
         },
         "at_market_median": {
           "sell": 24.0,
@@ -979,10 +979,10 @@
           "margin_pct": -58.9
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.63,
-          "profit": 11.74,
-          "margin_pct": 59.3
+          "sell": 19.0,
+          "fee": 0.61,
+          "profit": 10.97,
+          "margin_pct": 57.7
         },
         "at_market_median": {
           "sell": 24.0,
@@ -1012,10 +1012,10 @@
           "margin_pct": -10.5
         },
         "at_market_p25": {
-          "sell": 19.79,
-          "fee": 0.63,
-          "profit": 10.62,
-          "margin_pct": 53.7
+          "sell": 19.0,
+          "fee": 0.61,
+          "profit": 9.85,
+          "margin_pct": 51.9
         },
         "at_market_median": {
           "sell": 24.0,
