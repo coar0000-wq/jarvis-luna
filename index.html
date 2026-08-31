@@ -83,6 +83,10 @@ box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
 
 /* Stats */
 .stats-section{display:grid;grid-template-columns:2fr 1fr;gap:30px;margin-bottom:40px;}
+.stats-merged{grid-template-columns:1fr;}
+.stats-merged .dz-grid{grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-bottom:20px;}
+.sd-sell{font-size:14px;font-weight:700;color:#58a6ff;white-space:nowrap;text-align:right;}
+.sd-sell small{display:block;font-size:11px;font-weight:400;color:#8b949e;margin-top:2px;}
 .stats-grid{display:grid;grid-template-columns:1fr;gap:20px;}
 .stat-card{border-radius:14px;padding:25px;}
 .stat-card h4{color:#999;font-size:12px;margin-bottom:8px;text-transform:uppercase;}
@@ -144,7 +148,7 @@ box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
 .sd-badge.a{background:#1f6feb33;color:#58a6ff;}
 .sd-badge.b{background:#9e6a0333;color:#d29922;}
 .sd-badge.c{background:#2a2a2a;color:#888;}
-.sd-list{list-style:none;}
+.sd-list{list-style:none;max-height:560px;overflow-y:auto;padding-right:6px;}
 .sd-item{display:flex;align-items:center;gap:12px;padding:11px 0;border-bottom:1px solid #2a2a2a;}
 .sd-item:last-child{border-bottom:none;}
 .sd-rank{width:22px;font-size:13px;font-weight:700;color:#666;text-align:center;}
@@ -272,23 +276,17 @@ nav a{font-size:12px;}
 </div>
 </div>
 
-<!-- Stats Section (Modified) -->
-<div class="stats-section">
-<!-- Shopify 수요 매칭 -->
-<div class="dashboard-card sd-card" style="height:100%;">
+<!-- Shopify 등록 후보 · 다이소 Dropshipping (통합) -->
+<div class="stats-section stats-merged">
+<div class="dashboard-card sd-card" id="daiso">
 <div class="sd-header">
-<div class="sd-title"><span class="icon">🎯</span>Shopify 등록 후보 (S등급)</div>
-<div class="sd-sub" style="font-size:12px;color:#8b949e;margin-top:4px;">글로벌 8채널 수요 ↔ 다이소 유사 SKU · 쇼피파이 1차 등록용</div>
+<div class="sd-title"><span class="icon">🎯</span>Shopify 등록 후보 · 다이소 Dropshipping</div>
 </div>
+<div id="daiso-panel"></div>
 <div class="sd-summary" id="sd-summary">불러오는 중…</div>
 <ul class="sd-list" id="sd-list">
 <li style="color:#666;font-size:13px;">데이터 로딩 중…</li>
 </ul>
-</div>
-
-<div class="dashboard-card" id="daiso">
-<h4><span class="dashboard-card-icon">🛒</span>Shopify + 다이소 Dropshipping</h4>
-<div id="daiso-panel">불러오는 중…</div>
 </div>
 </div>
 
@@ -597,94 +595,31 @@ gBox.innerHTML=row('개별 자료 노트',n(g.records)+'개')+row('주제 노트
 }
 
 function renderDaiso(status, sRec){
-  const box = $('daiso-panel');
-  if(!box) return;
+  const box=$('daiso-panel'); if(!box) return;
+  const fx=(status&&status.fx)||(window.__runtime&&window.__runtime.exchange_rate)||{};
+  const rate=Number(fx.usd_to_krw||fx.rate||0);
+  const asOf=fx.as_of||fx.updated_at||'';
+  const recs=(sRec&&sRec.recommendations)||(window.__sRec&&window.__sRec.recommendations)||[];
+  window.__fxRate=rate; window.__sellMultiple=2.2;
+  if(!recs.length){ box.innerHTML='<div class="dz-note">S등급 추천이 아직 없습니다.</div>'; return; }
+  const kl=recs.map(r=>Number(r.price_krw||0)).filter(v=>v>0);
+  const avgKrw=kl.length?Math.round(kl.reduce((a,b)=>a+b,0)/kl.length):0;
+  const avgCost=(rate>0&&avgKrw)?avgKrw/rate:0, avgSell=avgCost*2.2;
+  const t=(c,k,v,u)=>'<div class="dz-tile '+c+'"><div class="k">'+k+'</div><div class="v">'+v+'</div>'+(u?'<div class="u">'+u+'</div>':'')+'</div>';
+  box.innerHTML='<div class="dz-grid">'+
+    t('dz-green','S등급 등록 후보',recs.length+'개','Shopify 1차 테스트')+
+    t('dz-blue','평균 예상 판매가',avgSell?('$'+avgSell.toFixed(2)):'–','원가×2.2 가정')+
+    t('dz-amber','평균 다이소 원가',avgKrw?('₩'+avgKrw.toLocaleString('ko-KR')):'–','실수집 가격')+
+    t('dz-slate','적용 환율',rate?rate.toLocaleString('ko-KR'):'확인 필요',rate?('KRW/USD · '+esc(asOf)):'환율 조회 실패')+
+  '</div>';
+}
 
-  // 환율: collection_status.fx → runtime.exchange_rate → 기본값
-  const fx = (status && status.fx) || (window.__runtime && window.__runtime.exchange_rate) || {};
-  const rate = Number(fx.usd_to_krw || fx.rate || 0) || 1380;
-  const rateAsOf = fx.as_of || fx.updated_at || '';
-
-  // S등급 다이소 실상품 (shopify_s_recommendations)
-  const recs = (sRec && sRec.recommendations) || (window.__sRec && window.__sRec.recommendations) || [];
-  const products = recs.map(r => {
-    const krw = Number(r.price_krw || 0) || 5000;
-    const usd = rate > 0 ? (krw / rate) : 0;
-    // 단순 마진 가정: 판매가 = 원가 USD * 2.2 (쇼피파이 테스트 가정)
-    const sell = usd * 2.2;
-    const margin = usd > 0 ? Math.round(((sell - usd) / usd) * 100) : 0;
-    const m = r.matched_global || {};
-    return {
-      name: r.name || '',
-      bucket: r.bucket || '',
-      krw: krw,
-      usd: sell,
-      costUsd: usd,
-      margin: margin,
-      score: r.shopify_score,
-      grade: r.grade || 'S',
-      match: m.global_product || '',
-      channel: m.channel || '',
-      url: r.url || ''
-    };
-  });
-
-  if(!products.length){
-    box.innerHTML = '<div style="color:#888;font-size:13px;">S등급 추천이 없습니다. score_shopify_demand.py 실행 후 다시 열어주세요.</div>';
-    return;
-  }
-
-  const avgSell = (products.reduce((a,b)=>a+b.usd,0)/products.length);
-  const avgCost = (products.reduce((a,b)=>a+b.costUsd,0)/products.length);
-
-  box.innerHTML = `
-    <div class="dz-grid">
-      <div class="dz-tile dz-green">
-        <div class="k">S등급 등록 후보</div>
-        <div class="v">${products.length}개</div>
-        <div class="u">Shopify 1차 테스트</div>
-      </div>
-      <div class="dz-tile dz-blue">
-        <div class="k">평균 예상 판매가</div>
-        <div class="v">$${avgSell.toFixed(2)}</div>
-        <div class="u">원가×2.2 가정</div>
-      </div>
-      <div class="dz-tile dz-amber">
-        <div class="k">평균 다이소 원가</div>
-        <div class="v">₩${Math.round(avgCost*rate).toLocaleString('ko-KR')}</div>
-        <div class="u">실수집 가격</div>
-      </div>
-      <div class="dz-tile dz-slate">
-        <div class="k">적용 환율</div>
-        <div class="v">${rate.toLocaleString('ko-KR',{maximumFractionDigits:2})}</div>
-        <div class="u">KRW/USD${rateAsOf?' · '+rateAsOf:''}</div>
-      </div>
-    </div>
-    <div class="dz-rule"></div>
-    <div style="font-size:13px;font-weight:600;color:#58a6ff;margin-bottom:12px;">
-      S등급 Dropshipping 후보 (${products.length})
-    </div>
-    <div style="display:grid;gap:8px;max-height:420px;overflow:auto;">
-      ${products.map((p,i)=>`
-        <div style="display:grid;grid-template-columns:28px 1fr auto;align-items:center;
-                    gap:10px;padding:10px;border:1px solid #2a2a2a;border-radius:8px;background:#111;">
-          <div style="color:#58a6ff;font-weight:700;">${i+1}</div>
-          <div style="min-width:0;">
-            <div style="color:#fff;font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${esc(p.name)}</div>
-            <div style="color:#777;font-size:11px;">${esc(p.bucket)} · ₩${Number(p.krw).toLocaleString('ko-KR')}${p.match?' · ↔ '+esc(p.match):''}</div>
-          </div>
-          <div style="text-align:right;">
-            <div style="color:#3fb950;font-weight:700;">$${p.usd.toFixed(2)}</div>
-            <div style="font-size:11px;color:#d29922;">S ${p.score!=null?p.score:'–'}점</div>
-          </div>
-        </div>
-      `).join('')}
-    </div>
-    <div class="dz-note" style="margin-top:14px;">
-      S등급 ${products.length}개가 Shopify 1차 등록 대상입니다. 판매가 = 다이소 원가(USD)×2.2 가정, 환율 ${rate.toLocaleString('ko-KR',{maximumFractionDigits:2})} KRW/USD.
-      왼쪽 목록과 동일 데이터(shopify_s_recommendations.json)입니다.
-    </div>
-  `;
+// 예상 판매가 셀. 환율이 없으면 표시하지 않는다.
+function sellCell(p){
+  const rate=Number(window.__fxRate||0), krw=Number(p.price_krw||0);
+  if(!rate||!krw) return '';
+  const cost=krw/rate, sell=cost*Number(window.__sellMultiple||2.2);
+  return '<div class="sd-sell">$'+sell.toFixed(2)+'<small>원가 $'+cost.toFixed(2)+'</small></div>';
 }
 
 function renderShopifyDemand(sd, sRec){
@@ -725,7 +660,7 @@ summary.innerHTML=
 (g.C!=null?'<span class="sd-badge c">C '+(g.C||0)+'</span>':'')+
 '<span style="font-size:11px;color:#8b949e;margin-left:6px;">쇼피파이 1차 테스트용</span>';
 
-list.innerHTML=items.slice(0,12).map((p,i)=>{
+list.innerHTML=items.map((p,i)=>{
   const m=p.match||p.best_global_match||null;
   const matchLine = m
     ? ('↔ '+esc(m.global_product||'')+' · '+esc(m.channel||''))
@@ -737,6 +672,7 @@ list.innerHTML=items.slice(0,12).map((p,i)=>{
       '<div class="sd-meta">'+esc(p.bucket||'')+' · '+Number(p.price_krw||0).toLocaleString('ko-KR')+'원</div>'+
       (matchLine?'<div class="sd-meta" style="color:#58a6ff;margin-top:2px;">'+matchLine+'</div>':'')+
     '</div>'+
+    sellCell(p)+
     '<div class="sd-score">'+(p.shopify_score!=null?p.shopify_score:'–')+'점</div>'+
   '</li>';
 }).join('');
