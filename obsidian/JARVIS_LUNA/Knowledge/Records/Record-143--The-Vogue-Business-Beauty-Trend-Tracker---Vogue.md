@@ -2,7 +2,7 @@
 title: "Record 143 · The-Vogue-Business-Beauty-Trend-Tracker---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T05:37:25.054664+00:00
+updated_at: 2026-08-31T09:11:25.894769+00:00
 tags: [{', '.join(tags)}]
 ---
 

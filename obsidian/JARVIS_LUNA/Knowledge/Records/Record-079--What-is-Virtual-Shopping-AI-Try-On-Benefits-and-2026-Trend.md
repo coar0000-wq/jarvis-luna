@@ -2,7 +2,7 @@
 title: "Record 079 · What-is-Virtual-Shopping-AI-Try-On-Benefits-and-2026-Trends---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T05:37:24.961987+00:00
+updated_at: 2026-08-31T09:11:25.882672+00:00
 tags: [{', '.join(tags)}]
 ---
 

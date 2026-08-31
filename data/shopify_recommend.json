@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-31T02:47:46.769955+00:00",
+  "updated": "2026-08-31T09:11:25.452705+00:00",
   "country": "US",
-  "total_products": 139,
+  "total_products": 146,
   "recommended_count": 0,
   "products": [
     {
@@ -303,6 +303,62 @@
     {
       "title": "픽업매장 추가",
       "category": "Beauty",
+      "price_krw": 0,
+      "matched_product": "",
+      "match_score": 0,
+      "recommended": false
+    },
+    {
+      "title": "",
+      "category": "다이소 뷰티 & 스킨케어",
+      "price_krw": 0,
+      "matched_product": "",
+      "match_score": 0,
+      "recommended": false
+    },
+    {
+      "title": "",
+      "category": "다이소 뷰티 & 스킨케어",
+      "price_krw": 0,
+      "matched_product": "",
+      "match_score": 0,
+      "recommended": false
+    },
+    {
+      "title": "",
+      "category": "다이소 뷰티 & 스킨케어",
+      "price_krw": 0,
+      "matched_product": "",
+      "match_score": 0,
+      "recommended": false
+    },
+    {
+      "title": "",
+      "category": "다이소 뷰티 & 스킨케어",
+      "price_krw": 0,
+      "matched_product": "",
+      "match_score": 0,
+      "recommended": false
+    },
+    {
+      "title": "",
+      "category": "다이소 뷰티 & 스킨케어",
+      "price_krw": 0,
+      "matched_product": "",
+      "match_score": 0,
+      "recommended": false
+    },
+    {
+      "title": "",
+      "category": "다이소 뷰티 & 스킨케어",
+      "price_krw": 0,
+      "matched_product": "",
+      "match_score": 0,
+      "recommended": false
+    },
+    {
+      "title": "",
+      "category": "다이소 뷰티 & 스킨케어",
       "price_krw": 0,
       "matched_product": "",
       "match_score": 0,

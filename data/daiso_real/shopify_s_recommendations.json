@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T02:49:49.711897+00:00",
+  "generated_at": "2026-08-31T09:14:19.600829+00:00",
   "source": "score_shopify_demand.py",
   "rule": "grade == S (core category + global match)",
   "count": 9,

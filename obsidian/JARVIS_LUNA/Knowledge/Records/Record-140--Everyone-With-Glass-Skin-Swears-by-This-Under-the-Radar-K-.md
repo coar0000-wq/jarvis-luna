@@ -2,7 +2,7 @@
 title: "Record 140 · Everyone-With-Glass-Skin-Swears-by-This-Under-the-Radar-K-Beauty-Brand"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T05:37:25.054474+00:00
+updated_at: 2026-08-31T09:11:25.894214+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 118 · How-AI-Is-Making-Ecommerce-Migration-Faster-More-Predictable-2026---Sh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T05:37:25.052941+00:00
+updated_at: 2026-08-31T09:11:25.890009+00:00
 tags: [{', '.join(tags)}]
 ---
 

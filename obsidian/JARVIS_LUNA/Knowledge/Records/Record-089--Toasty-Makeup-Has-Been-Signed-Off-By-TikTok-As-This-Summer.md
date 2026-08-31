@@ -2,7 +2,7 @@
 title: "Record 089 · Toasty-Makeup-Has-Been-Signed-Off-By-TikTok-As-This-Summers-Top-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T05:37:25.051109+00:00
+updated_at: 2026-08-31T09:11:25.884537+00:00
 tags: [{', '.join(tags)}]
 ---
 
