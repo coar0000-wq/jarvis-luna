@@ -3,7 +3,8 @@
 """Gemini 영문 카피를 Shopify 상품 임포트 CSV 로 변환한다.
 
 입력  data/shopify_listing_copy.json
-      data/daiso_real/collection_status.json  (실시간 환율)
+      data/pricing_model.json                  (실배송 원가 모델)
+      data/daiso_real/collection_status.json   (실시간 환율)
 출력  data/shopify_import.csv
 
 Shopify 규격 근거
@@ -13,11 +14,16 @@ Shopify 규격 근거
   - Tags 는 쉼표로 구분한 한 셀에 담는다.
   - 단일 변형 상품은 Option1 name=Title, Option1 value=Default Title 을 쓴다.
 
-가격 산정
-  원가(USD) = 다이소 실측 원화가 / 실시간 환율
-  판매가     = 원가 x MARKUP (기본 2.2)
-  MARKUP 은 가정이지 실측이 아니다. CSV 와 리포트에 그렇게 명시한다.
-  환율 조회에 실패하면 가격을 비운다. 임의의 환율을 쓰지 않는다.
+가격 산정 (2026-08-31 개정)
+  이전에는 원가 x 2.2 였는데 배송비·관세·결제수수료가 빠져 있어
+  S등급 10건 전부 적자였다. 이제 pricing_model.json 을 쓴다.
+
+  착지원가 = 다이소 원가 + 국제배송비(5개 묶음 분담) + 관세 15%
+  판매가   = 미국 시장 벤치마크 하위 25% (올리브영 US 실조회)
+  Compare-at = 시장 중앙값. 할인 대비 효과용.
+
+  판매가가 손익분기 아래면 그 상품은 CSV 에서 제외하고 사유를 남긴다.
+  원가 모델이 없으면 가격을 비운다. 임의의 배수를 쓰지 않는다.
 
 주의
   Weight 는 다이소 수집 데이터에 없어서 0 으로 둔다.
@@ -35,12 +41,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 COPY = ROOT / "data" / "shopify_listing_copy.json"
+PRICING = ROOT / "data" / "pricing_model.json"
 STATUS = ROOT / "data" / "daiso_real" / "collection_status.json"
 OUT = ROOT / "data" / "shopify_import.csv"
 REPORT = ROOT / "data" / "shopify_import_report.json"
 
-MARKUP = float(os.environ.get("SHOPIFY_MARKUP", "2.2"))
 VENDOR = os.environ.get("SHOPIFY_VENDOR", "MD family")
+# 몇 개 묶음 배송을 전제로 배송비를 분담할지. 기본 5개.
+BUNDLE = os.environ.get("SHOPIFY_BUNDLE", "5개_묶음배송")
 
 COLUMNS = [
     "Title", "URL handle", "Description", "Vendor", "Type", "Tags",
@@ -49,6 +57,7 @@ COLUMNS = [
     "Price", "Cost per item", "Charge tax",
     "Inventory tracker", "Inventory quantity",
     "Continue selling when out of stock",
+    "Compare-at price",
     "Weight value (grams)", "Weight unit for display", "Requires shipping",
     "Fulfillment service",
     "Product image URL", "Image position", "Image alt text",
@@ -73,8 +82,24 @@ def main() -> int:
         return 1
     doc = json.loads(COPY.read_text(encoding="utf-8"))
 
+    # 실배송 원가 모델
+    price_by_no, pm_note, market = {}, "원가 모델 없음 - 가격 비움", {}
+    if PRICING.exists():
+        try:
+            pm = json.loads(PRICING.read_text(encoding="utf-8"))
+            for r in (pm.get("scenarios") or {}).get(BUNDLE, []):
+                price_by_no[str(r.get("pd_no"))] = r
+            market = pm.get("market_benchmark") or {}
+            pm_note = (f"{BUNDLE} 기준 · 관세 {pm.get('cost_basis',{}).get('tariff','')} · "
+                       f"{pm.get('cost_basis',{}).get('shipping','')}")
+        except (OSError, json.JSONDecodeError):
+            pass
+
+    sell_price = float(market.get("p25") or 0)
+    compare_at = float(market.get("median") or 0)
+
     rate = 0.0
-    fx_note = "환율 조회 실패 - 가격 비움"
+    fx_note = "환율 조회 실패"
     if STATUS.exists():
         try:
             fx = (json.loads(STATUS.read_text(encoding="utf-8")) or {}).get("fx") or {}
@@ -92,12 +117,23 @@ def main() -> int:
                             "reason": it.get("error") or "카피 없음"})
             continue
 
-        krw = int(it.get("price_krw") or 0)
-        if rate > 0 and krw > 0:
-            cost = round(krw / rate, 2)
-            price = round(cost * MARKUP, 2)
+        pr = price_by_no.get(str(it.get("pd_no")))
+        if pr and sell_price > 0:
+            landed = float(pr["landed_cost_usd"])
+            breakeven = float(pr["breakeven_usd"])
+            if sell_price <= breakeven:
+                skipped.append({
+                    "pd_no": it.get("pd_no"), "name_ko": it.get("name_ko"),
+                    "reason": (f"시장가 ${sell_price:.2f} 가 손익분기 "
+                               f"${breakeven:.2f} 이하라 적자")})
+                continue
+            cost = round(landed, 2)          # Cost per item = 착지원가
+            price = round(sell_price, 2)
+            cmp_at = round(compare_at, 2) if compare_at > sell_price else ""
         else:
-            cost = price = ""
+            skipped.append({"pd_no": it.get("pd_no"), "name_ko": it.get("name_ko"),
+                            "reason": "원가 모델에 해당 상품이 없어 가격 산출 불가"})
+            continue
 
         tags = [clean_tag(t) for t in (c.get("tags") or [])]
         tags = [t for t in tags if t][:15]
@@ -116,6 +152,7 @@ def main() -> int:
             "Option1 value": "Default Title",
             "Price": price,
             "Cost per item": cost,
+            "Compare-at price": cmp_at,
             "Charge tax": "true",
             "Inventory tracker": "shopify",
             "Inventory quantity": 0,
@@ -144,11 +181,22 @@ def main() -> int:
         "rows": len(rows),
         "skipped": skipped,
         "exchange_rate": fx_note,
-        "markup": MARKUP,
+        "pricing_model": pm_note,
+        "bundle_assumption": BUNDLE,
+        "sell_price_usd": sell_price,
+        "compare_at_usd": compare_at,
+        "market_benchmark": market,
         "vendor": VENDOR,
-        "가격_근거": ("원가는 다이소 실측 원화가를 실시간 환율로 나눈 값이다. "
-                   f"판매가는 원가 x {MARKUP} 로, 이 배수는 검증된 수치가 아니라 가정이다."),
+        "가격_근거": (
+            "Cost per item 은 다이소 원가에 국제배송비와 관세 15% 를 더한 착지원가다. "
+            f"배송비는 {BUNDLE} 을 전제로 분담한 값이라, 낱개로 팔리면 실제 원가가 더 높다. "
+            f"판매가 ${sell_price:.2f} 는 미국 시장 하위 25% 값이며 "
+            f"Compare-at ${compare_at:.2f} 는 시장 중앙값이다."),
         "게시전_확인사항": [
+            f"판매가가 {BUNDLE} 전제다. 2개 이상 묶음 구매를 유도하지 못하면 "
+            "배송비 분담이 깨져 적자가 난다. 무료배송 최소 주문금액을 걸어야 한다.",
+            "광고비(CAC)가 계산에 없다. 뷰티 신규 스토어 CAC 를 감안하면 "
+            "객단가를 올리지 못할 경우 마진이 남지 않는다.",
             "Status 를 draft 로, 공개를 false 로 두었다. 검수 후 직접 active 로 바꿔야 한다.",
             "Weight value (grams) 가 0 이다. 다이소 수집 데이터에 무게가 없어 비워 두었으므로 "
             "배송비를 계산하려면 실제 무게를 채워야 한다.",
@@ -162,6 +210,9 @@ def main() -> int:
 
     print(f"CSV {len(rows)}건 -> {OUT.relative_to(ROOT)}")
     print(f"환율: {fx_note}")
+    print(f"원가 모델: {pm_note}")
+    if rows:
+        print(f"판매가 ${sell_price:.2f} (시장 하위25%) / Compare-at ${compare_at:.2f} (중앙값)")
     if skipped:
         print(f"제외 {len(skipped)}건:")
         for s in skipped:

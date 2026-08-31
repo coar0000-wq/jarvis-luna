@@ -9,10 +9,10 @@ name: Shopify 영문 리스팅 카피 생성
 on:
   workflow_dispatch:
     inputs:
-      markup:
-        description: '판매가 배수 (원가 x N). 검증된 값이 아니라 가정임'
+      bundle:
+        description: '배송비 분담 전제 (1개_묶음배송 / 3개_묶음배송 / 5개_묶음배송)'
         required: false
-        default: '2.2'
+        default: '5개_묶음배송'
       vendor:
         description: 'Shopify Vendor 명'
         required: false
@@ -56,6 +56,10 @@ jobs:
         continue-on-error: true
         run: python -c "import sync_channels as s; s.fetch_and_update_fx_status()"
 
+      - name: 실배송 원가 모델 계산
+        if: steps.guard.outputs.ready == 'true'
+        run: python scripts/pricing_model.py
+
       - name: Gemini 영문 카피 생성
         if: steps.guard.outputs.ready == 'true'
         env:
@@ -66,7 +70,7 @@ jobs:
       - name: Shopify 임포트 CSV 생성
         if: steps.guard.outputs.ready == 'true'
         env:
-          SHOPIFY_MARKUP: ${{ github.event.inputs.markup || '2.2' }}
+          SHOPIFY_BUNDLE: ${{ github.event.inputs.bundle || '5개_묶음배송' }}
           SHOPIFY_VENDOR: ${{ github.event.inputs.vendor || 'MD family' }}
         run: python scripts/build_shopify_import_csv.py
 
@@ -80,18 +84,24 @@ jobs:
           print(f"### 영문 카피 {d['ok']}/{d['total']}건 생성 (모델 {d.get('model','?')})\n")
           rows = list(csv.DictReader(open("data/shopify_import.csv", encoding="utf-8")))
           print(f"Shopify 임포트 CSV: {len(rows)}행\n")
-          print("| 한국어 원본 | 영문 제목 | 판매가 |")
-          print("|---|---|---|")
-          price = {r["SKU"]: r["Price"] for r in rows}
+          print("| 한국어 원본 | 영문 제목 | 판매가 | 착지원가 | 순익 |")
+          print("|---|---|---|---|---|")
+          idx = {r["SKU"]: r for r in rows}
           for it in d["items"]:
               c = it.get("copy")
-              sku = f"DAISO-{it['pd_no']}"
-              if c:
-                  print(f"| {it['name_ko']} | {c['title']} | ${price.get(sku,'-')} |")
+              r = idx.get(f"DAISO-{it['pd_no']}")
+              if c and r:
+                  s_, c_ = float(r["Price"]), float(r["Cost per item"])
+                  net = s_ - c_ - (s_ * 0.029 + 0.06)
+                  print(f"| {it['name_ko']} | {c['title']} | ${s_:.2f} | ${c_:.2f} | ${net:+.2f} |")
+              elif c:
+                  print(f"| {it['name_ko']} | {c['title']} | 제외됨 | - | - |")
               else:
-                  print(f"| {it['name_ko']} | 실패: {it.get('error','')[:50]} | - |")
+                  print(f"| {it['name_ko']} | 실패: {it.get('error','')[:50]} | - | - | - |")
           rep = json.loads(Path("data/shopify_import_report.json").read_text(encoding="utf-8"))
-          print(f"\n환율: {rep['exchange_rate']}  판매가 배수: {rep['markup']} (가정)\n")
+          print(f"\n환율 {rep['exchange_rate']}\n")
+          print(f"원가 모델: {rep['pricing_model']}\n")
+          print(f"{rep['가격_근거']}\n")
           print("게시 전 확인사항")
           for x in rep["게시전_확인사항"]:
               print(f"- {x}")
@@ -103,7 +113,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/shopify_listing_copy.json data/shopify_import.csv \
-                  data/shopify_import_report.json data/daiso_real/collection_status.json
+                  data/shopify_import_report.json data/pricing_model.json \
+                  data/daiso_real/collection_status.json
           if git diff --cached --quiet; then
             echo "변경 없음"; exit 0
           fi
