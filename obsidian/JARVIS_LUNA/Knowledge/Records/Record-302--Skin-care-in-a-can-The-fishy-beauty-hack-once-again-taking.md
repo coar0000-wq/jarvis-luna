@@ -2,7 +2,7 @@
 title: "Record 302 · Skin-care-in-a-can-The-fishy-beauty-hack-once-again-taking-over-TikTok"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T09:11:25.922181+00:00
+updated_at: 2026-08-31T10:50:27.248359+00:00
 tags: [{', '.join(tags)}]
 ---
 

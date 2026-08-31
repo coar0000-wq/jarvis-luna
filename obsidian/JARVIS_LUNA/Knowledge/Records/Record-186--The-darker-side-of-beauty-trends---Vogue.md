@@ -2,7 +2,7 @@
 title: "Record 186 · The-darker-side-of-beauty-trends---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T09:11:25.903368+00:00
+updated_at: 2026-08-31T10:50:27.235013+00:00
 tags: [{', '.join(tags)}]
 ---
 

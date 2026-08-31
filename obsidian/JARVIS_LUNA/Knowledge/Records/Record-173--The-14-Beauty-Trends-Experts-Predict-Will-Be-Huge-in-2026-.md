@@ -2,7 +2,7 @@
 title: "Record 173 · The-14-Beauty-Trends-Experts-Predict-Will-Be-Huge-in-2026---Good-House"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T09:11:25.900477+00:00
+updated_at: 2026-08-31T10:50:27.233279+00:00
 tags: [{', '.join(tags)}]
 ---
 
