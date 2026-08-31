@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-30T05:28:34.067605+00:00",
-  "real_records": 461,
+  "updated_at": "2026-08-31T09:14:19.352738+00:00",
+  "real_records": 513,
   "source_labels": {
-    "ai-image": 15,
-    "ai-research": 324,
-    "shopify-commerce-image": 122
+    "ai-image": 19,
+    "ai-research": 367,
+    "shopify-commerce-image": 127
   },
-  "corpus_sha256": "8cc9be085b35874c1e7657292b3375c57a4c76c327d47ecda3d876126b2d7549",
+  "corpus_sha256": "d607064dcece5a2c617e690857bc814a9830875d9c76397829e59baa65b77ca9",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,16 +14,16 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.8134490238611713,
+  "training_accuracy_on_corpus": 0.7855750487329435,
   "mean_gate_load": [
-    0.040123,
-    0.055001,
-    0.904875
+    0.050564,
+    0.070128,
+    0.879308
   ],
   "note": "This is a text knowledge-routing MoE, not an image foundation model.",
   "tuning_promoted": true,
   "tuning_steps": 500,
-  "tuning_validation_accuracy": 0.8441558441558441,
-  "tuning_final_loss": 0.43196519324247473,
-  "tuning_gate_load_std": 0.45568055361746473
+  "tuning_validation_accuracy": 0.8275862068965517,
+  "tuning_final_loss": 0.45266157739138246,
+  "tuning_gate_load_std": 0.4524817340820665
 }
