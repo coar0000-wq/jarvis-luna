@@ -2,7 +2,7 @@
 title: "Record 067 · The-Best-Beauty-Products-of-2026-So-Far-According-to-Vogues-Beauty-Tea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T22:00:03.307489+00:00
+updated_at: 2026-08-31T22:52:18.697723+00:00
 tags: [{', '.join(tags)}]
 ---
 

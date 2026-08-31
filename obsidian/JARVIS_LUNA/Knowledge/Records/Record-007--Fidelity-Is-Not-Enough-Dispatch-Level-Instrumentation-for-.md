@@ -2,7 +2,7 @@
 title: "Record 007 · Fidelity-Is-Not-Enough-Dispatch-Level-Instrumentation-for-Agentic-Data"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T22:00:03.296977+00:00
+updated_at: 2026-08-31T22:52:18.682395+00:00
 tags: [{', '.join(tags)}]
 ---
 
