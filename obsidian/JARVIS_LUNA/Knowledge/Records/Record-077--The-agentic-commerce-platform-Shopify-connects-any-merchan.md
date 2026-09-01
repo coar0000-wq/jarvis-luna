@@ -2,7 +2,7 @@
 title: "Record 077 · The-agentic-commerce-platform-Shopify-connects-any-merchant-to-every-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-01T06:27:52.705041+00:00
+updated_at: 2026-09-01T11:41:16.674531+00:00
 tags: [{', '.join(tags)}]
 ---
 
@@ -10,9 +10,9 @@ tags: [{', '.join(tags)}]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1MaHA5dXZRekNkZHpaTW9KNmpzMGt6bjQ2aHF3TEtvWjFvLWRJSWxBNHBGRDl0RzNMQ0dYdDQxUmZEV1VhYzJ5YUxDUzBFYWR3MjdOcW9YZmpEOW12Wmc?oc=5)
 
-**제목:** The agentic commerce platform: Shopify connects any merchant to every AI conversation - Shopify
+**제목:** The agentic commerce platform: Shopify connects any merchant to every AI conversation - shopify.com
 
-The agentic commerce platform: Shopify connects any merchant to every AI conversation - Shopify
+The agentic commerce platform: Shopify connects any merchant to every AI conversation - shopify.com
 
 **출처:** Source · Google Search
 
