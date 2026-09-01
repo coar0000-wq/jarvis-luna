@@ -2,7 +2,7 @@
 title: "Record 010 · Anatomy-Aware-Promptable-Segmentation-with-Online-Interactive-Training"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T10:50:27.194132+00:00
+updated_at: 2026-09-01T06:27:52.700138+00:00
 tags: [{', '.join(tags)}]
 ---
 

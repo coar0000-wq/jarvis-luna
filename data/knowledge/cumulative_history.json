@@ -8,138 +8,17 @@
     "recorded_at": "2026-08-23T05:21:53.378147+00:00"
   },
   "totals": {
-    "records": 686,
-    "notes": 705,
-    "links": 5779
+    "records": 755,
+    "notes": 774,
+    "links": 6346
   },
   "last_snapshot": {
-    "records": 686,
-    "notes": 705,
-    "links": 5779,
-    "recorded_at": "2026-08-31T19:53:27.822481+09:00"
+    "records": 755,
+    "notes": 774,
+    "links": 6346,
+    "recorded_at": "2026-09-01T15:31:16.482256+09:00"
   },
   "runs": [
-    {
-      "at": "2026-08-26T15:58:33.569406+09:00",
-      "records": 73,
-      "notes": 90,
-      "links": 737,
-      "added": {
-        "records": 0,
-        "notes": 0,
-        "links": 0
-      }
-    },
-    {
-      "at": "2026-08-26T15:58:43.298132+09:00",
-      "records": 73,
-      "notes": 90,
-      "links": 737,
-      "added": {
-        "records": 0,
-        "notes": 0,
-        "links": 0
-      }
-    },
-    {
-      "at": "2026-08-26T16:10:39.620775+09:00",
-      "records": 73,
-      "notes": 90,
-      "links": 737,
-      "added": {
-        "records": 0,
-        "notes": 0,
-        "links": 0
-      }
-    },
-    {
-      "at": "2026-08-26T16:44:14.349196+09:00",
-      "records": 73,
-      "notes": 90,
-      "links": 737,
-      "added": {
-        "records": 0,
-        "notes": 0,
-        "links": 0
-      }
-    },
-    {
-      "at": "2026-08-26T16:44:26.575508+09:00",
-      "records": 73,
-      "notes": 90,
-      "links": 737,
-      "added": {
-        "records": 0,
-        "notes": 0,
-        "links": 0
-      }
-    },
-    {
-      "at": "2026-08-26T17:35:56.159184+09:00",
-      "records": 73,
-      "notes": 90,
-      "links": 737,
-      "added": {
-        "records": 0,
-        "notes": 0,
-        "links": 0
-      }
-    },
-    {
-      "at": "2026-08-26T17:36:04.596121+09:00",
-      "records": 73,
-      "notes": 90,
-      "links": 737,
-      "added": {
-        "records": 0,
-        "notes": 0,
-        "links": 0
-      }
-    },
-    {
-      "at": "2026-08-26T18:34:57.923126+09:00",
-      "records": 73,
-      "notes": 90,
-      "links": 737,
-      "added": {
-        "records": 0,
-        "notes": 0,
-        "links": 0
-      }
-    },
-    {
-      "at": "2026-08-26T18:35:09.538993+09:00",
-      "records": 73,
-      "notes": 90,
-      "links": 737,
-      "added": {
-        "records": 0,
-        "notes": 0,
-        "links": 0
-      }
-    },
-    {
-      "at": "2026-08-26T19:29:03.922041+09:00",
-      "records": 73,
-      "notes": 90,
-      "links": 737,
-      "added": {
-        "records": 0,
-        "notes": 0,
-        "links": 0
-      }
-    },
-    {
-      "at": "2026-08-26T19:29:15.976226+09:00",
-      "records": 73,
-      "notes": 90,
-      "links": 737,
-      "added": {
-        "records": 0,
-        "notes": 0,
-        "links": 0
-      }
-    },
     {
       "at": "2026-08-26T20:02:36.421987+09:00",
       "records": 73,
@@ -1008,7 +887,128 @@
         "notes": 173,
         "links": 1387
       }
+    },
+    {
+      "at": "2026-08-31T22:57:39.219600+09:00",
+      "records": 733,
+      "notes": 752,
+      "links": 6161,
+      "added": {
+        "records": 47,
+        "notes": 47,
+        "links": 382
+      }
+    },
+    {
+      "at": "2026-09-01T02:11:10.581807+09:00",
+      "records": 737,
+      "notes": 756,
+      "links": 6193,
+      "added": {
+        "records": 4,
+        "notes": 4,
+        "links": 32
+      }
+    },
+    {
+      "at": "2026-09-01T02:15:30.867867+09:00",
+      "records": 737,
+      "notes": 756,
+      "links": 6193,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
+    },
+    {
+      "at": "2026-09-01T07:00:03.543081+09:00",
+      "records": 739,
+      "notes": 758,
+      "links": 6209,
+      "added": {
+        "records": 2,
+        "notes": 2,
+        "links": 16
+      }
+    },
+    {
+      "at": "2026-09-01T07:04:26.100296+09:00",
+      "records": 739,
+      "notes": 758,
+      "links": 6209,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
+    },
+    {
+      "at": "2026-09-01T07:56:39.907078+09:00",
+      "records": 740,
+      "notes": 759,
+      "links": 6217,
+      "added": {
+        "records": 1,
+        "notes": 1,
+        "links": 8
+      }
+    },
+    {
+      "at": "2026-09-01T10:02:59.246057+09:00",
+      "records": 741,
+      "notes": 760,
+      "links": 6222,
+      "added": {
+        "records": 1,
+        "notes": 1,
+        "links": 5
+      }
+    },
+    {
+      "at": "2026-09-01T10:06:17.044845+09:00",
+      "records": 741,
+      "notes": 760,
+      "links": 6222,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
+    },
+    {
+      "at": "2026-09-01T14:14:13.871943+09:00",
+      "records": 754,
+      "notes": 773,
+      "links": 6338,
+      "added": {
+        "records": 13,
+        "notes": 13,
+        "links": 116
+      }
+    },
+    {
+      "at": "2026-09-01T15:27:52.834957+09:00",
+      "records": 755,
+      "notes": 774,
+      "links": 6346,
+      "added": {
+        "records": 1,
+        "notes": 1,
+        "links": 8
+      }
+    },
+    {
+      "at": "2026-09-01T15:31:16.482256+09:00",
+      "records": 755,
+      "notes": 774,
+      "links": 6346,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
     }
   ],
-  "updated_at": "2026-08-31T19:53:27.822481+09:00"
+  "updated_at": "2026-09-01T15:31:16.482256+09:00"
 }

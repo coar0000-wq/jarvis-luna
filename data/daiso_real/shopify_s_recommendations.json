@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T10:24:40.132528+00:00",
+  "generated_at": "2026-09-01T06:31:18.692996+00:00",
   "source": "score_shopify_demand.py",
   "rule": "grade == S (core category + global match)",
-  "count": 10,
+  "count": 11,
   "priority_note": "S등급만. Shopify 우선 등록·테스트 후보.",
   "recommendations": [
     {
@@ -103,6 +103,18 @@
     },
     {
       "rank": 9,
+      "pd_no": "1060487",
+      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
+      "price_krw": 3000,
+      "shopify_score": 87,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060487",
+      "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 1,663건 · 원가 3,000원 (다이소 실측값 기준)",
+      "matched_global": null
+    },
+    {
+      "rank": 10,
       "pd_no": "1035210",
       "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
       "bucket": "스킨케어",
@@ -114,7 +126,7 @@
       "matched_global": null
     },
     {
-      "rank": 10,
+      "rank": 11,
       "pd_no": "1044110",
       "name": "존슨즈 베이비 로션 핑크 200ml",
       "bucket": "스킨케어",

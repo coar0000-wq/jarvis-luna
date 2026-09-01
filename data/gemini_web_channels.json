@@ -1,5 +1,30 @@
 {
-  "note": "아직 수집되지 않음. GEMINI_API_KEY 설정 후 scripts/collect_via_gemini.py 실행 필요.",
+  "generated_at": "2026-09-01T00:03:40.321297+00:00",
+  "generator": "scripts/collect_via_gemini.py",
+  "model": "",
+  "method": "Gemini API url_context 도구",
+  "trust_note": "LLM 이 페이지를 읽어 옮긴 값이다. 결정적 파싱보다 신뢰도가 낮다. 대시보드에서 'AI 추출' 로 구분 표시하며 가격 정책 계산에는 사용하지 않는다.",
   "total": 0,
-  "channels": {}
+  "channels": {
+    "ulta_beauty": {
+      "label": "Ulta Beauty",
+      "url": "https://www.ulta.com/shop/skin-care/moisturizers",
+      "robots_note": "ulta.com robots.txt: Google-Extended 에 상품 경로 허용",
+      "count": 0,
+      "status": "failed",
+      "reason": "HTTP 404: {\"error\":{\"message\":\"Model '' not found. Did you mean 'gemini-2.5-computer-use-preview-10-2025'? Please verify the model name against the supported list: https://ai.google.dev/gemini-api/docs/models\",\"code\":\"not_found\"}}",
+      "url_context_result": "",
+      "products": []
+    },
+    "sephora": {
+      "label": "Sephora",
+      "url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+      "robots_note": "sephora.com robots.txt: /browse/ 와 /search 금지, Crawl-delay 5",
+      "count": 0,
+      "status": "failed",
+      "reason": "HTTP 404: {\"error\":{\"message\":\"Model '' not found. Did you mean 'gemini-2.5-pro-preview-tts'? Please verify the model name against the supported list: https://ai.google.dev/gemini-api/docs/models\",\"code\":\"not_found\"}}",
+      "url_context_result": "",
+      "products": []
+    }
+  }
 }
