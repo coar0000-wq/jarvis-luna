@@ -2,7 +2,7 @@
 title: "Record 117 · Korean-Skin-Care-Isnt-Just-for-Your-Face---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T22:52:18.709990+00:00
+updated_at: 2026-09-01T01:02:59.083116+00:00
 tags: [{', '.join(tags)}]
 ---
 

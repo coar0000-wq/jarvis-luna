@@ -2,7 +2,7 @@
 title: "AI Image Generation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T22:52:18.827519+00:00
+updated_at: 2026-09-01T01:02:59.164202+00:00
 tags: [{', '.join(tags)}]
 ---
 
@@ -14,23 +14,23 @@ tags: [{', '.join(tags)}]
 - [[Record-015--Texture-Image-Classification-Using-DWT-AlexNet-Feature-Fus]]
 - [[Record-016--InstructMesh-Selective-Refinement-of-Generative-3D-Models-]]
 - [[Record-018--Video-Generative-Models-as-Geometry-Learner]]
-- [[Record-159--Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---Shopi]]
-- [[Record-648--MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use]]
-- [[Record-653--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]]
-- [[Record-656--G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pati]]
-- [[Record-691--Anatomy-Informed-Neural-Networks-Encoding-Anatomic-Priors-]]
-- [[Record-694--Asymmetric-Capacity-Allocation-in-Self-Refinement-Pipeline]]
-- [[Record-697--AI-with-Authority-from-Application-to-Silicon]]
-- [[Record-698--VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-i]]
-- [[Record-703--ConvergeFlow-Language-Flow-with-Provable-Convergence-to-To]]
-- [[Record-705--Provably-adaptive-sampling-with-uniform-and-remasking-disc]]
-- [[Record-707--EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safe]]
-- [[Record-713--LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-Multimo]]
-- [[Record-716--Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augme]]
-- [[Record-720--What-FID-Hides-Detecting-Ranking-and-Diagnosing-Deviations]]
-- [[Record-730--VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native-Visual]]
-- [[Record-733--Learning-a-Continuous-Sepsis-Severity-Score-Without-Hour-b]]
+- [[Record-160--Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---Shopi]]
+- [[Record-649--MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use]]
+- [[Record-654--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]]
+- [[Record-657--G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pati]]
+- [[Record-692--Anatomy-Informed-Neural-Networks-Encoding-Anatomic-Priors-]]
+- [[Record-695--Asymmetric-Capacity-Allocation-in-Self-Refinement-Pipeline]]
+- [[Record-698--AI-with-Authority-from-Application-to-Silicon]]
+- [[Record-699--VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-i]]
+- [[Record-704--ConvergeFlow-Language-Flow-with-Provable-Convergence-to-To]]
+- [[Record-706--Provably-adaptive-sampling-with-uniform-and-remasking-disc]]
+- [[Record-708--EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safe]]
+- [[Record-714--LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-Multimo]]
+- [[Record-717--Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augme]]
+- [[Record-721--What-FID-Hides-Detecting-Ranking-and-Diagnosing-Deviations]]
+- [[Record-731--VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native-Visual]]
+- [[Record-734--Learning-a-Continuous-Sepsis-Severity-Score-Without-Hour-b]]
 
 ## Connected nodes
 
-[[Record-009--ARC-CT-Anatomy-Routed-Contrastive-Vision-Language-Learning]] [[Record-015--Texture-Image-Classification-Using-DWT-AlexNet-Feature-Fus]] [[Record-016--InstructMesh-Selective-Refinement-of-Generative-3D-Models-]] [[Record-018--Video-Generative-Models-as-Geometry-Learner]] [[Record-159--Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---Shopi]] [[Record-648--MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use]] [[Record-653--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]] [[Record-656--G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pati]] [[Record-691--Anatomy-Informed-Neural-Networks-Encoding-Anatomic-Priors-]] [[Record-694--Asymmetric-Capacity-Allocation-in-Self-Refinement-Pipeline]] [[Record-697--AI-with-Authority-from-Application-to-Silicon]] [[Record-698--VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-i]] [[Record-703--ConvergeFlow-Language-Flow-with-Provable-Convergence-to-To]] [[Record-705--Provably-adaptive-sampling-with-uniform-and-remasking-disc]] [[Record-707--EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safe]] [[Record-713--LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-Multimo]] [[Record-716--Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augme]] [[Record-720--What-FID-Hides-Detecting-Ranking-and-Diagnosing-Deviations]] [[Record-730--VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native-Visual]] [[Record-733--Learning-a-Continuous-Sepsis-Severity-Score-Without-Hour-b]] [[Source--Google-Search]] [[Source--arXiv]] [[JARVIS Real Knowledge Index]]
+[[Record-009--ARC-CT-Anatomy-Routed-Contrastive-Vision-Language-Learning]] [[Record-015--Texture-Image-Classification-Using-DWT-AlexNet-Feature-Fus]] [[Record-016--InstructMesh-Selective-Refinement-of-Generative-3D-Models-]] [[Record-018--Video-Generative-Models-as-Geometry-Learner]] [[Record-160--Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---Shopi]] [[Record-649--MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use]] [[Record-654--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]] [[Record-657--G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pati]] [[Record-692--Anatomy-Informed-Neural-Networks-Encoding-Anatomic-Priors-]] [[Record-695--Asymmetric-Capacity-Allocation-in-Self-Refinement-Pipeline]] [[Record-698--AI-with-Authority-from-Application-to-Silicon]] [[Record-699--VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-i]] [[Record-704--ConvergeFlow-Language-Flow-with-Provable-Convergence-to-To]] [[Record-706--Provably-adaptive-sampling-with-uniform-and-remasking-disc]] [[Record-708--EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safe]] [[Record-714--LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-Multimo]] [[Record-717--Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augme]] [[Record-721--What-FID-Hides-Detecting-Ranking-and-Diagnosing-Deviations]] [[Record-731--VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native-Visual]] [[Record-734--Learning-a-Continuous-Sepsis-Severity-Score-Without-Hour-b]] [[Source--Google-Search]] [[Source--arXiv]] [[JARVIS Real Knowledge Index]]

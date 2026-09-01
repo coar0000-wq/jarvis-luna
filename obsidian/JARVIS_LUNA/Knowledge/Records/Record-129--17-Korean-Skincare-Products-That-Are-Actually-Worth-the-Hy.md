@@ -1,18 +1,18 @@
 ---
-title: "Record 129 · 17-Korean-Skincare-Products-That-Are-Actually-Worth-the-Hype---Byrdie"
+title: "Record 129 · 17-Korean-Skincare-Products-That-Are-Actually-Worth-the-Hype---byrdiec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T22:52:18.712921+00:00
+updated_at: 2026-09-01T01:02:59.084677+00:00
 tags: [{', '.join(tags)}]
 ---
 
-# Record 129 · 17-Korean-Skincare-Products-That-Are-Actually-Worth-the-Hype---Byrdie
+# Record 129 · 17-Korean-Skincare-Products-That-Are-Actually-Worth-the-Hype---byrdiec
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTE1sc1dUR0l3QkxvbDVjMnk4bzBxd0RKMW13ZVFBZlRLQmFwM3gtdjR1Sk5vZkp3c2xFNUc5Tm9ycThJWGc3TnVZekNOWHNYVHppZEhWWkZ6NjFwQzlZakk2VERaNzlNRVVxaGk1a0ZUWQ?oc=5)
 
-**제목:** 17 Korean Skincare Products That Are Actually Worth the Hype - Byrdie
+**제목:** 17 Korean Skincare Products That Are Actually Worth the Hype - byrdie.com
 
-17 Korean Skincare Products That Are Actually Worth the Hype - Byrdie
+17 Korean Skincare Products That Are Actually Worth the Hype - byrdie.com
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record 119 · The-surprising-truth-behind-Koreas-most-effective-skincare-products---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-08-31T22:52:18.710480+00:00
+updated_at: 2026-09-01T01:02:59.083388+00:00
 tags: [{', '.join(tags)}]
 ---
 
@@ -10,9 +10,9 @@ tags: [{', '.join(tags)}]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiakFVX3lxTE1QV3RKV0YtanBaLThoaDNzb2gyWTRUTy1xRTBvSHhLOElFT29DbHFpeklxZmNiQ0wwT1loQ0o1bW0xRHVCQ0V1dkx6akpQTEl0aEtUNVlkV1p2M1lEb0RETDBLQi1tTzJ2R0E?oc=5)
 
-**제목:** The surprising truth behind Korea's most effective skincare products - sciencefocus.com
+**제목:** The surprising truth behind Korea's most effective skincare products - BBC Science Focus Magazine
 
-The surprising truth behind Korea's most effective skincare products - sciencefocus.com
+The surprising truth behind Korea's most effective skincare products - BBC Science Focus Magazine
 
 **출처:** Source · Google Search
 
