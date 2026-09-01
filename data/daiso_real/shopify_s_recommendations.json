@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T15:58:13.182539+00:00",
+  "generated_at": "2026-09-01T22:48:13.963921+00:00",
   "source": "score_shopify_demand.py",
   "rule": "grade == S (core category + global match)",
-  "count": 11,
+  "count": 12,
   "priority_note": "S등급만. Shopify 우선 등록·테스트 후보.",
   "recommendations": [
     {
@@ -31,6 +31,18 @@
     },
     {
       "rank": 3,
+      "pd_no": "1049271",
+      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 90,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,765건 · 원가 5,000원 (다이소 실측값 기준)",
+      "matched_global": null
+    },
+    {
+      "rank": 4,
       "pd_no": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "bucket": "스킨케어",
@@ -42,7 +54,7 @@
       "matched_global": null
     },
     {
-      "rank": 4,
+      "rank": 5,
       "pd_no": "1060494",
       "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
       "bucket": "스킨케어",
@@ -54,7 +66,7 @@
       "matched_global": null
     },
     {
-      "rank": 5,
+      "rank": 6,
       "pd_no": "1068776",
       "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
       "bucket": "스킨케어",
@@ -66,7 +78,7 @@
       "matched_global": null
     },
     {
-      "rank": 6,
+      "rank": 7,
       "pd_no": "1062781",
       "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
       "bucket": "스킨케어",
@@ -78,7 +90,7 @@
       "matched_global": null
     },
     {
-      "rank": 7,
+      "rank": 8,
       "pd_no": "1072803",
       "name": "케어존플러스 모공탄력 수분크림 75 ml",
       "bucket": "스킨케어",
@@ -90,7 +102,7 @@
       "matched_global": null
     },
     {
-      "rank": 8,
+      "rank": 9,
       "pd_no": "1064529",
       "name": "더마블록 무기자차선크림 35 ml (by 셀퓨전씨)",
       "bucket": "스킨케어",
@@ -102,7 +114,7 @@
       "matched_global": null
     },
     {
-      "rank": 9,
+      "rank": 10,
       "pd_no": "1060487",
       "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
       "bucket": "마스크팩",
@@ -114,7 +126,7 @@
       "matched_global": null
     },
     {
-      "rank": 10,
+      "rank": 11,
       "pd_no": "1035210",
       "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
       "bucket": "스킨케어",
@@ -126,7 +138,7 @@
       "matched_global": null
     },
     {
-      "rank": 11,
+      "rank": 12,
       "pd_no": "1044110",
       "name": "존슨즈 베이비 로션 핑크 200ml",
       "bucket": "스킨케어",

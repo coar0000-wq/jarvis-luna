@@ -1,46 +1,46 @@
 {
   "last_run": {
-    "started_at": "2026-08-31T23:13:03.255540+00:00",
+    "started_at": "2026-09-01T21:48:57.492168+00:00",
     "requested": 110,
-    "ok": 18,
-    "parse_failed": 11,
+    "ok": 11,
+    "parse_failed": 15,
     "http_error": 0,
-    "skipped_not_beauty": 81,
+    "skipped_not_beauty": 84,
     "scope": "다이소몰 뷰티관(C245) 12개 카테고리",
     "delay_seconds": 30.0,
     "max_items": 110,
     "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
     "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
-    "finished_at": "2026-09-01T00:12:18.415159+00:00",
+    "finished_at": "2026-09-01T22:48:13.666852+00:00",
     "status": "ok"
   },
   "totals": {
-    "products": 107,
+    "products": 118,
     "target_per_bucket": 25,
     "by_bucket": {
-      "스킨케어": 26,
-      "마스크팩": 10,
+      "스킨케어": 27,
+      "마스크팩": 11,
       "클렌징": 3,
       "선케어": 1,
-      "메이크업": 25,
-      "네일": 6,
+      "메이크업": 32,
+      "네일": 7,
       "뷰티소품": 4,
       "맨즈케어": 14,
-      "향수": 6,
+      "향수": 7,
       "헤어케어": 3,
       "바디케어": 1,
       "구강용품": 8
     },
     "categories": {
       "스킨케어": {
-        "count": 26,
-        "avg_price_krw": 3692,
+        "count": 27,
+        "avg_price_krw": 3741,
         "min_price_krw": 1000,
         "max_price_krw": 5000
       },
       "마스크팩": {
-        "count": 10,
-        "avg_price_krw": 2300,
+        "count": 11,
+        "avg_price_krw": 2364,
         "min_price_krw": 500,
         "max_price_krw": 5000
       },
@@ -57,14 +57,14 @@
         "max_price_krw": 5000
       },
       "메이크업": {
-        "count": 25,
-        "avg_price_krw": 3060,
+        "count": 32,
+        "avg_price_krw": 2828,
         "min_price_krw": 1000,
         "max_price_krw": 5000
       },
       "네일": {
-        "count": 6,
-        "avg_price_krw": 1333,
+        "count": 7,
+        "avg_price_krw": 1286,
         "min_price_krw": 1000,
         "max_price_krw": 2000
       },
@@ -81,7 +81,7 @@
         "max_price_krw": 5000
       },
       "향수": {
-        "count": 6,
+        "count": 7,
         "avg_price_krw": 2000,
         "min_price_krw": 1000,
         "max_price_krw": 3000
@@ -105,19 +105,20 @@
         "max_price_krw": 5000
       }
     },
-    "avg_price_krw": 2944,
+    "avg_price_krw": 2881,
     "price_krw_min": 500,
     "price_krw_max": 5000,
-    "with_rating": 106
+    "with_rating": 117
   },
   "fx": {
-    "usd_to_krw": 1368.52,
-    "krw_to_usd": 0.00073072,
+    "usd_to_krw": 1374.61,
+    "krw_to_usd": 0.00072748,
     "as_of": "2026-09-01",
-    "source": "https://open.er-api.com/v6/latest/USD",
-    "fetched_at": "2026-09-01T15:58:13.121439+00:00",
+    "source": "Frankfurter API",
+    "api_url": "https://api.frankfurter.app/latest?from=USD&to=KRW",
+    "fetched_at": "2026-09-01T22:48:13.909529+00:00",
     "ok": true
   },
   "sitemap_urls_known": 19739,
-  "visited": 590
+  "visited": 700
 }

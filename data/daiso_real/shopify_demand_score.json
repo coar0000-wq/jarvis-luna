@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-01T15:58:13.182539+00:00",
-  "total_products": 107,
+  "generated_at": "2026-09-01T22:48:13.963921+00:00",
+  "total_products": 118,
   "grade_summary": {
-    "S": 11,
-    "A": 19,
-    "B": 36,
-    "C": 41
+    "S": 12,
+    "A": 20,
+    "B": 44,
+    "C": 42
   },
   "category_avg_score": {
     "선케어": 84.0,
+    "스킨케어": 79.0,
     "클렌징": 79.0,
-    "스킨케어": 78.6,
     "헤어케어": 76.0,
+    "마스크팩": 69.7,
+    "메이크업": 69.1,
     "바디케어": 69.0,
-    "마스크팩": 68.3,
-    "메이크업": 67.5,
-    "향수": 61.0,
-    "네일": 44.2,
+    "향수": 62.4,
+    "네일": 46.9,
     "맨즈케어": 37.9,
     "뷰티소품": 28.0,
     "구강용품": 18.2
@@ -151,6 +151,61 @@
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,595건 · 원가 5,000원 (다이소 실측값 기준)"
+    },
+    {
+      "pd_no": "1049271",
+      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 1765,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/nWv2JvG9ZseKOt8YvImo1049271_00_01nWv2JvG9ZseKOt8YvImo.jpg",
+      "shopify_score": 90,
+      "grade": "S",
+      "score_breakdown": {
+        "category": 35.0,
+        "rating": 17.3,
+        "reviews": 25.0,
+        "price": 10.0,
+        "keyword": 3,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
+      "global_matches_reference_only": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "글리콜산 7% 각질 제거 토너",
+          "similarity": 0.7,
+          "demand_weight": 0.76,
+          "matched_tokens": [
+            "toner"
+          ],
+          "match_score": 0.532
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
+          "similarity": 0.4,
+          "demand_weight": 0.735,
+          "matched_tokens": [
+            "toner"
+          ],
+          "match_score": 0.294
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum 1.01 fl. oz.(30ml)",
+          "similarity": 0.357,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "calming"
+          ],
+          "match_score": 0.175
+        }
+      ],
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,765건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
       "pd_no": "1041403",
@@ -722,61 +777,6 @@
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.6 · 리뷰 177건 · 원가 3,000원 (다이소 실측값 기준)"
-    },
-    {
-      "pd_no": "10344161",
-      "name": "3색 초저점도 볼펜 0.38 mm 2개입 샌드크림",
-      "bucket": "스킨케어",
-      "price_krw": 1000,
-      "rating": 4.7,
-      "review_count": 973,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=10344161",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250117/tipFlabGEoZn0obQGiAi10344161_00_00tipFlabGEoZn0obQGiAi.jpg",
-      "shopify_score": 85,
-      "grade": "A",
-      "score_breakdown": {
-        "category": 35.0,
-        "rating": 16.0,
-        "reviews": 25.0,
-        "price": 7.0,
-        "keyword": 2,
-        "penalty": 0,
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [
-        {
-          "channel": "sephora",
-          "global_product": "베네피앙스 링클 스무딩 아이 크림",
-          "similarity": 0.8,
-          "demand_weight": 0.81,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.648
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-          "similarity": 0.733,
-          "demand_weight": 0.882,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.647
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-          "similarity": 0.733,
-          "demand_weight": 0.833,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.611
-        }
-      ],
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 973건 · 원가 1,000원 (다이소 실측값 기준)"
     }
   ],
   "all_scored": [
@@ -879,6 +879,61 @@
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,595건 · 원가 5,000원 (다이소 실측값 기준)"
+    },
+    {
+      "pd_no": "1049271",
+      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 1765,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/nWv2JvG9ZseKOt8YvImo1049271_00_01nWv2JvG9ZseKOt8YvImo.jpg",
+      "shopify_score": 90,
+      "grade": "S",
+      "score_breakdown": {
+        "category": 35.0,
+        "rating": 17.3,
+        "reviews": 25.0,
+        "price": 10.0,
+        "keyword": 3,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
+      "global_matches_reference_only": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "글리콜산 7% 각질 제거 토너",
+          "similarity": 0.7,
+          "demand_weight": 0.76,
+          "matched_tokens": [
+            "toner"
+          ],
+          "match_score": 0.532
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
+          "similarity": 0.4,
+          "demand_weight": 0.735,
+          "matched_tokens": [
+            "toner"
+          ],
+          "match_score": 0.294
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum 1.01 fl. oz.(30ml)",
+          "similarity": 0.357,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "calming"
+          ],
+          "match_score": 0.175
+        }
+      ],
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,765건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
       "pd_no": "1041403",
@@ -1765,6 +1820,61 @@
       "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 893건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
+      "pd_no": "1032881",
+      "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
+      "bucket": "마스크팩",
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 759,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1032881",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260129/qgTdnRguYR6oGojy18Td1032881_00_01qgTdnRguYR6oGojy18Td.jpg",
+      "shopify_score": 84,
+      "grade": "A",
+      "score_breakdown": {
+        "category": 31.7,
+        "rating": 17.3,
+        "reviews": 25.0,
+        "price": 10.0,
+        "keyword": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
+      "global_matches_reference_only": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "바이오 콜라겐 리얼 딥 마스크",
+          "similarity": 0.5,
+          "demand_weight": 0.807,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.404
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+          "similarity": 0.38,
+          "demand_weight": 0.931,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.354
+        },
+        {
+          "channel": "sephora",
+          "global_product": "콜라겐 리얼 딥 마스크",
+          "similarity": 0.5,
+          "demand_weight": 0.585,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.292
+        }
+      ],
+      "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 759건 · 원가 3,000원 (다이소 실측값 기준)"
+    },
+    {
       "pd_no": "49057",
       "name": "순면화장솜 120매입",
       "bucket": "스킨케어",
@@ -2222,6 +2332,41 @@
       "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 1,259건 · 원가 3,000원 (다이소 실측값 기준)"
     },
     {
+      "pd_no": "1011177",
+      "name": "3M 세이프그립 다목적 안전장갑 M",
+      "bucket": "메이크업",
+      "price_krw": 2000,
+      "rating": 4.7,
+      "review_count": 479,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1011177",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231128/bSq1nBxHtDmg00j48BbJ1011177_00_00bSq1nBxHtDmg00j48BbJ.jpg",
+      "shopify_score": 78,
+      "grade": "B",
+      "score_breakdown": {
+        "category": 26.7,
+        "rating": 16.0,
+        "reviews": 24.8,
+        "price": 10.0,
+        "keyword": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+          "similarity": 0.733,
+          "demand_weight": 0.9,
+          "matched_tokens": [
+            "lip"
+          ],
+          "match_score": 0.66
+        }
+      ],
+      "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 479건 · 원가 2,000원 (다이소 실측값 기준)"
+    },
+    {
       "pd_no": "1067022",
       "name": "온더바디 국민뷰티템 익스트림쿨링 풋샴푸 390 ml",
       "bucket": "헤어케어",
@@ -2268,6 +2413,30 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [],
       "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 376건 · 원가 5,000원 (다이소 실측값 기준)"
+    },
+    {
+      "pd_no": "1062235",
+      "name": "팔레트17 컨실러 브러쉬",
+      "bucket": "메이크업",
+      "price_krw": 2000,
+      "rating": 4.8,
+      "review_count": 321,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062235",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251204/h9HjxouMvSsWswDTbBHn1062235_00_00h9HjxouMvSsWswDTbBHn.jpg",
+      "shopify_score": 77,
+      "grade": "B",
+      "score_breakdown": {
+        "category": 26.7,
+        "rating": 17.3,
+        "reviews": 23.2,
+        "price": 10.0,
+        "keyword": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
+      "global_matches_reference_only": [],
+      "recommend_reason": "메이크업 카테고리 · 평점 4.8 · 리뷰 321건 · 원가 2,000원 (다이소 실측값 기준)"
     },
     {
       "pd_no": "1059411",
@@ -2399,6 +2568,89 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [],
       "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 299건 · 원가 3,000원 (다이소 실측값 기준)"
+    },
+    {
+      "pd_no": "1051735",
+      "name": "랩잇 by 닥터지 포어 프라이머 선 40 g",
+      "bucket": "메이크업",
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 298,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051735",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240312/cuxFWlPXQqE71hOIVkwI1051735_00_00cuxFWlPXQqE71hOIVkwI.jpg",
+      "shopify_score": 76,
+      "grade": "B",
+      "score_breakdown": {
+        "category": 26.7,
+        "rating": 16.0,
+        "reviews": 22.9,
+        "price": 10.0,
+        "keyword": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
+      "global_matches_reference_only": [],
+      "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 298건 · 원가 5,000원 (다이소 실측값 기준)"
+    },
+    {
+      "pd_no": "1062758",
+      "name": "문화 삼각 그립 샤프＆샤프심 세트 0.5 mm",
+      "bucket": "메이크업",
+      "price_krw": 2000,
+      "rating": 4.8,
+      "review_count": 241,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062758",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251208/3wiDMevwyKyv7vp6GMBo1062758_00_003wiDMevwyKyv7vp6GMBo.jpg",
+      "shopify_score": 76,
+      "grade": "B",
+      "score_breakdown": {
+        "category": 26.7,
+        "rating": 17.3,
+        "reviews": 22.1,
+        "price": 10.0,
+        "keyword": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+          "similarity": 0.733,
+          "demand_weight": 0.9,
+          "matched_tokens": [
+            "lip"
+          ],
+          "match_score": 0.66
+        }
+      ],
+      "recommend_reason": "메이크업 카테고리 · 평점 4.8 · 리뷰 241건 · 원가 2,000원 (다이소 실측값 기준)"
+    },
+    {
+      "pd_no": "1068300",
+      "name": "퍼굿 신발 탈취 스프레이 200 ml 베이비파우더 향",
+      "bucket": "메이크업",
+      "price_krw": 1000,
+      "rating": 4.7,
+      "review_count": 751,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068300",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251204/AejLXSVqnPaFK15enzSQ1068300_00_00AejLXSVqnPaFK15enzSQ.jpg",
+      "shopify_score": 75,
+      "grade": "B",
+      "score_breakdown": {
+        "category": 26.7,
+        "rating": 16.0,
+        "reviews": 25.0,
+        "price": 7.0,
+        "keyword": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
+      "global_matches_reference_only": [],
+      "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 751건 · 원가 1,000원 (다이소 실측값 기준)"
     },
     {
       "pd_no": "1035398",
@@ -2658,6 +2910,41 @@
       "recommend_reason": "메이크업 카테고리 · 평점 4.8 · 리뷰 163건 · 원가 2,000원 (다이소 실측값 기준)"
     },
     {
+      "pd_no": "1060532",
+      "name": "냉장고 클립형 다용도 보관함 4개입",
+      "bucket": "메이크업",
+      "price_krw": 1000,
+      "rating": 4.6,
+      "review_count": 494,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060532",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251208/DdFtY5oNvP708F6SWdl11060532_00_00DdFtY5oNvP708F6SWdl1.jpg",
+      "shopify_score": 73,
+      "grade": "B",
+      "score_breakdown": {
+        "category": 26.7,
+        "rating": 14.7,
+        "reviews": 25.0,
+        "price": 7.0,
+        "keyword": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+          "similarity": 0.733,
+          "demand_weight": 0.9,
+          "matched_tokens": [
+            "lip"
+          ],
+          "match_score": 0.66
+        }
+      ],
+      "recommend_reason": "메이크업 카테고리 · 평점 4.6 · 리뷰 494건 · 원가 1,000원 (다이소 실측값 기준)"
+    },
+    {
       "pd_no": "1002220",
       "name": "베이스섀도우 브러시 납작형",
       "bucket": "메이크업",
@@ -2787,6 +3074,30 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [],
       "recommend_reason": "향수 카테고리 · 평점 4.8 · 리뷰 985건 · 원가 3,000원 (다이소 실측값 기준)"
+    },
+    {
+      "pd_no": "1030152",
+      "name": "케라시스 러블리퍼퓸린스 250 ml",
+      "bucket": "향수",
+      "price_krw": 2000,
+      "rating": 4.8,
+      "review_count": 682,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030152",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240327/zBylU9lHf1VkavZ1wUAw1030152_00_00zBylU9lHf1VkavZ1wUAw.jpg",
+      "shopify_score": 71,
+      "grade": "B",
+      "score_breakdown": {
+        "category": 18.3,
+        "rating": 17.3,
+        "reviews": 25.0,
+        "price": 10.0,
+        "keyword": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
+      "global_matches_reference_only": [],
+      "recommend_reason": "향수 카테고리 · 평점 4.8 · 리뷰 682건 · 원가 2,000원 (다이소 실측값 기준)"
     },
     {
       "pd_no": "1064171",
@@ -3003,6 +3314,30 @@
       "recommend_reason": "향수 카테고리 · 평점 4.6 · 리뷰 416건 · 원가 3,000원 (다이소 실측값 기준)"
     },
     {
+      "pd_no": "1068497",
+      "name": "하트 틴트 파티 안경 2개입",
+      "bucket": "메이크업",
+      "price_krw": 1000,
+      "rating": 4.9,
+      "review_count": 39,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068497",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251201/UmDWdO5fYhp7YmOY2MNQ1068497_00_00UmDWdO5fYhp7YmOY2MNQ.jpg",
+      "shopify_score": 67,
+      "grade": "B",
+      "score_breakdown": {
+        "category": 26.7,
+        "rating": 18.7,
+        "reviews": 14.8,
+        "price": 7.0,
+        "keyword": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
+      "global_matches_reference_only": [],
+      "recommend_reason": "메이크업 카테고리 · 평점 4.9 · 리뷰 39건 · 원가 1,000원 (다이소 실측값 기준)"
+    },
+    {
       "pd_no": "1041983",
       "name": "스프레이형 향수 소분 용기 3 ml 3개입",
       "bucket": "향수",
@@ -3145,6 +3480,30 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [],
       "recommend_reason": "맨즈케어 카테고리 · 평점 4.7 · 리뷰 43건 · 원가 5,000원 (다이소 실측값 기준)"
+    },
+    {
+      "pd_no": "1035654",
+      "name": "마이멜로디 네일 데코 스티커",
+      "bucket": "네일",
+      "price_krw": 1000,
+      "rating": 4.9,
+      "review_count": 366,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035654",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240611/0CAS7prqfw9NEs1iD1aF1035654_00_000CAS7prqfw9NEs1iD1aF.jpg",
+      "shopify_score": 63,
+      "grade": "C",
+      "score_breakdown": {
+        "category": 13.3,
+        "rating": 18.7,
+        "reviews": 23.7,
+        "price": 7.0,
+        "keyword": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
+      "global_matches_reference_only": [],
+      "recommend_reason": "네일 카테고리 · 평점 4.9 · 리뷰 366건 · 원가 1,000원 (다이소 실측값 기준)"
     },
     {
       "pd_no": "1048803",
