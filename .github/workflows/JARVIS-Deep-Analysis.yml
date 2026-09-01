@@ -127,6 +127,10 @@ jobs:
         continue-on-error: true
         run: python scripts/pricing_model.py
 
+      - name: 마케팅 조사 분석팀 보드 생성
+        continue-on-error: true
+        run: python scripts/build_market_team.py
+
       # =========================
       # VALIDATION
       # =========================
