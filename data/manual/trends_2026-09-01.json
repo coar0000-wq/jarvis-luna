@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>JARVIS LUNA - MetricsCart Integrated CSV Downloader</title>
+</head>
+<body>
+  <button onclick="downloadCSV()" style="padding: 12px 24px; font-size: 16px; cursor: pointer;">
+    📥 beauty_bestsellers_final.csv 다운로드
+  </button>
+
+  <script>
+    const csvData = `\uFEFF플랫폼,브랜드,제품명,카테고리/특이사항,판매가($),평점,리뷰 수
+Amazon (MetricsCart),메디큐브,"토너 패드 제로 포어 패드 2.0 (4.5% AHA/0.45% BHA)",각질 제거 및 모공 관리,20.60,4.6,28691
+Amazon (MetricsCart),아마존 베이직스,"양면 면봉 (500매입)",개인 위생 및 아기 케어용,2.55,4.7,78618
+Amazon (MetricsCart),마이티 패치,"히어로 코스메틱 오리지널 나이트타임 여드름 패치 (36개입)",하이드로콜로이드 여드름 패치,12.99,4.6,185039
+Amazon (MetricsCart),바이오댄스,바이오 콜라겐 리얼 딥 마스크,수분 공급 오버나이트 마스크,18.34,4.5,44284
+Amazon (MetricsCart),디오디너리,글리콜산 7% 각질 제거 토너,데일리 피부톤 관리 토너,13.50,4.7,58525
+Amazon (MetricsCart),eos,시어 베터 바디 로션 바닐라 캐시미어,24시간 보습 바디케어,9.55,4.7,72360
+Amazon (MetricsCart),뉴트로지나,"메이크업 리무버 미셀라 물티슈 (25매입 2팩)",딥 클렌징,9.97,4.8,120791
+Amazon (MetricsCart),아마존 베이직스,"저자극성 화장솜 (100매입 1팩)",스킨케어용 화장솜,3.07,4.7,52672
+Amazon (MetricsCart),PanOxyl,10% 벤조일 퍼옥사이드 아크네 포밍 워시,여드름 및 바디 클렌저,10.67,4.6,82343
+Walmart,라로슈포제,톨레리안 퓨리파잉 폼 클렌저,베스트셀러,19.97,4.7,6684
+Walmart,라로슈포제,멜라 B3 나이아신아마이드 세럼,스폰서,44.99,4.2,2375
+Walmart,라로슈포제,안텔리오스 클리어 스킨 SPF60,선스크린,20.97,4.3,1660
+Walmart,FHI 히트,언브러시 엉킴 방지 헤어 브러시,인기품목,18.00,4.7,1676
+Walmart,디올,소바쥬 엘릭서 향수 100ml,할인 특가,98.50,4.6,8770
+Ulta Beauty,The Ordinary,Hyaluronic Acid 2% + B5 Hydrating Serum,수분 세럼,9.90,4.3,1315
+Ulta Beauty,아누아 (ANUA),아젤라익산 10 히알루론 세럼,Ulta Exclusive,22.00,4.6,374
+Ulta Beauty,아누아 (ANUA),PDRN 히알루론산 캡슐 세럼,Ulta Exclusive,28.00,4.7,173
+Ulta Beauty,Estée Lauder,Advanced Night Repair Multi-Recovery Complex,안티에이징 세럼,20.00,4.5,22162
+Ulta Beauty,메디큐브,PDRN 핑크 콜라겐 볼륨 멀티밤,K-Beauty,21.90,3.3,22
+Ulta Beauty,The Ordinary,Niacinamide 10% + Zinc 1% Serum,지성용 세럼,6.00,4.2,5992
+Ulta Beauty,Clarins,DOUBLE SERUM Age-Defying Concentrate,안티에이징 세럼,96.00,4.5,7831
+Ulta Beauty,타차 (Tatcha),장수 세럼 스킨 스트랭스,프리미엄 세럼,30.00,4.8,587
+Sephora,rhode,펩타이드 립 틴트 너리싱 글레이즈,트렌딩 립,20.00,4.0,3100
+Sephora,Kiehl's,베터 스크린 UV 세럼 SPF 50+,선스크린,22.00,4.0,2200
+Sephora,Shiseido,베네피앙스 링클 스무딩 아이 크림,아이 크림,67.00,4.0,3200
+Sephora,Guerlain,아베이 로얄 유스 워터리 오일 세럼,페이스 오일/세럼,65.00,4.5,582
+Sephora,rhode,글레이징 밀크 하이드레이팅 세라마이드 에센스,에센스,20.00,4.0,2600
+Sephora,The Ordinary,나이아신아마이드 10% + 징크 1% 세럼,모공/지성 세럼,6.00,4.0,9100
+Sephora,리쥬란,턴오버 앰플 c-PDRN 0.5%,올리브영 Edit,52.00,4.2,279
+Sephora,바이오댄스,콜라겐 리얼 딥 마스크,K-Beauty,19.00,4.6,830
+Sephora,설화수,퍼스트 케어 안티에이징 세럼,K-럭셔리,25.00,4.6,2200
+Sephora,터치랜드,파워 미스트 손 소독제,올루어 위너,10.00,4.1,2900`;
+
+    function downloadCSV() {
+      const blob = new Blob([csvData], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', 'beauty_bestsellers_final.csv');
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+  </script>
+</body>
+</html>
