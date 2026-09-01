@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T06:31:18.692996+00:00",
+  "generated_at": "2026-09-01T15:58:13.182539+00:00",
   "total_products": 107,
   "grade_summary": {
     "S": 11,
@@ -32,7 +32,7 @@
     "ulta_beauty",
     "walmart_beauty"
   ],
-  "global_demand_signals": 30,
+  "global_demand_signals": 54,
   "products_with_global_match": 0,
   "priority_note": "한영 매핑 기반 글로벌 8채널 유사도 점수. S/A를 Shopify 우선 후보로 사용.",
   "scoring_model": {
@@ -73,7 +73,28 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "베터 스크린 UV 세럼 SPF 50+",
+          "similarity": 0.853,
+          "demand_weight": 0.855,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.73
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "안텔리오스 클리어 스킨 SPF60",
+          "similarity": 1.0,
+          "demand_weight": 0.72,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.72
+        }
+      ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,449건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -99,24 +120,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "similarity": 0.367,
-          "demand_weight": 0.539,
+          "channel": "sephora",
+          "global_product": "턴오버 앰플 c-PDRN 0.5%",
+          "similarity": 0.5,
+          "demand_weight": 0.63,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.198
+          "match_score": 0.315
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
-          "similarity": 0.4,
+          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+          "similarity": 0.367,
+          "demand_weight": 0.588,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.216
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+          "similarity": 0.433,
           "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.196
+          "match_score": 0.212
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,595건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -142,7 +173,28 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "글리콜산 7% 각질 제거 토너",
+          "similarity": 0.7,
+          "demand_weight": 0.76,
+          "matched_tokens": [
+            "toner"
+          ],
+          "match_score": 0.532
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
+          "similarity": 0.4,
+          "demand_weight": 0.735,
+          "matched_tokens": [
+            "toner"
+          ],
+          "match_score": 0.294
+        }
+      ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 938건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -166,7 +218,18 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "글레이징 밀크 하이드레이팅 세라마이드 에센스",
+          "similarity": 0.733,
+          "demand_weight": 0.72,
+          "matched_tokens": [
+            "essence"
+          ],
+          "match_score": 0.528
+        }
+      ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 755건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -190,7 +253,28 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "베터 스크린 UV 세럼 SPF 50+",
+          "similarity": 0.853,
+          "demand_weight": 0.855,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.73
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "안텔리오스 클리어 스킨 SPF60",
+          "similarity": 1.0,
+          "demand_weight": 0.72,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.72
+        }
+      ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 241건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -216,34 +300,35 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
-          "similarity": 0.267,
-          "demand_weight": 0.931,
+          "channel": "ulta_beauty",
+          "global_product": "PDRN 핑크 콜라겐 볼륨 멀티밤",
+          "similarity": 0.92,
+          "demand_weight": 0.68,
           "matched_tokens": [
-            "cream"
+            "collagen",
+            "pdrn"
           ],
-          "match_score": 0.248
+          "match_score": 0.626
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
-          "similarity": 0.28,
-          "demand_weight": 0.784,
+          "channel": "amazon_best_sellers",
+          "global_product": "바이오 콜라겐 리얼 딥 마스크",
+          "similarity": 0.52,
+          "demand_weight": 0.807,
           "matched_tokens": [
-            "cream"
+            "collagen"
           ],
-          "match_score": 0.22
+          "match_score": 0.42
         },
         {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
-          "similarity": 0.333,
-          "demand_weight": 0.57,
+          "channel": "sephora",
+          "global_product": "베네피앙스 링클 스무딩 아이 크림",
+          "similarity": 0.4,
+          "demand_weight": 0.81,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.19
+          "match_score": 0.324
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 491건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -271,34 +356,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
-          "similarity": 0.217,
-          "demand_weight": 0.931,
+          "channel": "sephora",
+          "global_product": "베네피앙스 링클 스무딩 아이 크림",
+          "similarity": 0.35,
+          "demand_weight": 0.81,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.202
+          "match_score": 0.283
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
-          "similarity": 0.23,
-          "demand_weight": 0.784,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.18
-        },
-        {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.283,
-          "demand_weight": 0.57,
+          "demand_weight": 0.882,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.161
+          "match_score": 0.25
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "similarity": 0.283,
+          "demand_weight": 0.833,
+          "matched_tokens": [
+            "cream"
+          ],
+          "match_score": 0.236
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 444건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -324,7 +409,28 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "베터 스크린 UV 세럼 SPF 50+",
+          "similarity": 0.853,
+          "demand_weight": 0.855,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.73
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "안텔리오스 클리어 스킨 SPF60",
+          "similarity": 1.0,
+          "demand_weight": 0.72,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.72
+        }
+      ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.6 · 리뷰 349건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -350,34 +456,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
+          "channel": "amazon_best_sellers",
+          "global_product": "바이오 콜라겐 리얼 딥 마스크",
+          "similarity": 0.5,
+          "demand_weight": 0.807,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.404
+        },
+        {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.38,
-          "demand_weight": 0.98,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.372
+          "match_score": 0.354
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-          "similarity": 0.35,
-          "demand_weight": 0.588,
+          "channel": "sephora",
+          "global_product": "콜라겐 리얼 딥 마스크",
+          "similarity": 0.5,
+          "demand_weight": 0.585,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.206
-        },
-        {
-          "channel": "open_beauty_facts",
-          "global_product": "Masque Purifiant Naturel à L'Argile Verte.",
-          "similarity": 0.357,
-          "demand_weight": 0.42,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.15
+          "match_score": 0.292
         }
       ],
       "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 1,663건 · 원가 3,000원 (다이소 실측값 기준)"
@@ -403,7 +509,18 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "시어 베터 바디 로션 바닐라 캐시미어",
+          "similarity": 1.0,
+          "demand_weight": 0.712,
+          "matched_tokens": [
+            "lotion"
+          ],
+          "match_score": 0.712
+        }
+      ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,107건 · 원가 3,000원 (다이소 실측값 기준)"
     },
     {
@@ -427,7 +544,18 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "시어 베터 바디 로션 바닐라 캐시미어",
+          "similarity": 1.0,
+          "demand_weight": 0.712,
+          "matched_tokens": [
+            "lotion"
+          ],
+          "match_score": 0.712
+        }
+      ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 511건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -453,34 +581,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
-          "similarity": 0.667,
-          "demand_weight": 0.931,
+          "channel": "sephora",
+          "global_product": "베네피앙스 링클 스무딩 아이 크림",
+          "similarity": 0.8,
+          "demand_weight": 0.81,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.621
+          "match_score": 0.648
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
-          "similarity": 0.68,
-          "demand_weight": 0.784,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.533
-        },
-        {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.57,
+          "demand_weight": 0.882,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.418
+          "match_score": 0.647
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "similarity": 0.733,
+          "demand_weight": 0.833,
+          "matched_tokens": [
+            "cream"
+          ],
+          "match_score": 0.611
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 672건 · 원가 1,000원 (다이소 실측값 기준)"
@@ -508,34 +636,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.23,
-          "demand_weight": 0.98,
+          "channel": "amazon_best_sellers",
+          "global_product": "바이오 콜라겐 리얼 딥 마스크",
+          "similarity": 0.35,
+          "demand_weight": 0.807,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.225
+          "match_score": 0.282
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
-          "similarity": 0.25,
-          "demand_weight": 0.49,
+          "channel": "sephora",
+          "global_product": "턴오버 앰플 c-PDRN 0.5%",
+          "similarity": 0.35,
+          "demand_weight": 0.63,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.122
+          "match_score": 0.22
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-          "similarity": 0.2,
-          "demand_weight": 0.588,
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+          "similarity": 0.23,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.118
+          "match_score": 0.214
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.4 · 리뷰 423건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -563,24 +691,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
-          "similarity": 0.68,
-          "demand_weight": 0.784,
+          "channel": "sephora",
+          "global_product": "베터 스크린 UV 세럼 SPF 50+",
+          "similarity": 0.733,
+          "demand_weight": 0.855,
           "matched_tokens": [
             "serum"
           ],
-          "match_score": 0.533
+          "match_score": 0.627
         },
         {
-          "channel": "open_beauty_facts",
-          "global_product": "SOHO N.Y.C. Anti-Aging No Rinse 2in1 Face Serum + Mask",
-          "similarity": 0.667,
-          "demand_weight": 0.3,
+          "channel": "sephora",
+          "global_product": "아베이 로얄 유스 워터리 오일 세럼",
+          "similarity": 0.8,
+          "demand_weight": 0.765,
           "matched_tokens": [
             "serum"
           ],
-          "match_score": 0.2
+          "match_score": 0.612
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "멜라 B3 나이아신아마이드 세럼",
+          "similarity": 0.8,
+          "demand_weight": 0.76,
+          "matched_tokens": [
+            "serum"
+          ],
+          "match_score": 0.608
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.6 · 리뷰 177건 · 원가 3,000원 (다이소 실측값 기준)"
@@ -608,34 +746,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
-          "similarity": 0.667,
-          "demand_weight": 0.931,
+          "channel": "sephora",
+          "global_product": "베네피앙스 링클 스무딩 아이 크림",
+          "similarity": 0.8,
+          "demand_weight": 0.81,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.621
+          "match_score": 0.648
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
-          "similarity": 0.68,
-          "demand_weight": 0.784,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.533
-        },
-        {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.57,
+          "demand_weight": 0.882,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.418
+          "match_score": 0.647
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "similarity": 0.733,
+          "demand_weight": 0.833,
+          "matched_tokens": [
+            "cream"
+          ],
+          "match_score": 0.611
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 973건 · 원가 1,000원 (다이소 실측값 기준)"
@@ -663,7 +801,28 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "베터 스크린 UV 세럼 SPF 50+",
+          "similarity": 0.853,
+          "demand_weight": 0.855,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.73
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "안텔리오스 클리어 스킨 SPF60",
+          "similarity": 1.0,
+          "demand_weight": 0.72,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.72
+        }
+      ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,449건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -689,24 +848,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "similarity": 0.367,
-          "demand_weight": 0.539,
+          "channel": "sephora",
+          "global_product": "턴오버 앰플 c-PDRN 0.5%",
+          "similarity": 0.5,
+          "demand_weight": 0.63,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.198
+          "match_score": 0.315
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
-          "similarity": 0.4,
+          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+          "similarity": 0.367,
+          "demand_weight": 0.588,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.216
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+          "similarity": 0.433,
           "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.196
+          "match_score": 0.212
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,595건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -732,7 +901,28 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "글리콜산 7% 각질 제거 토너",
+          "similarity": 0.7,
+          "demand_weight": 0.76,
+          "matched_tokens": [
+            "toner"
+          ],
+          "match_score": 0.532
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
+          "similarity": 0.4,
+          "demand_weight": 0.735,
+          "matched_tokens": [
+            "toner"
+          ],
+          "match_score": 0.294
+        }
+      ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 938건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -756,7 +946,18 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "글레이징 밀크 하이드레이팅 세라마이드 에센스",
+          "similarity": 0.733,
+          "demand_weight": 0.72,
+          "matched_tokens": [
+            "essence"
+          ],
+          "match_score": 0.528
+        }
+      ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 755건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -780,7 +981,28 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "베터 스크린 UV 세럼 SPF 50+",
+          "similarity": 0.853,
+          "demand_weight": 0.855,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.73
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "안텔리오스 클리어 스킨 SPF60",
+          "similarity": 1.0,
+          "demand_weight": 0.72,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.72
+        }
+      ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 241건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -806,34 +1028,35 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
-          "similarity": 0.267,
-          "demand_weight": 0.931,
+          "channel": "ulta_beauty",
+          "global_product": "PDRN 핑크 콜라겐 볼륨 멀티밤",
+          "similarity": 0.92,
+          "demand_weight": 0.68,
           "matched_tokens": [
-            "cream"
+            "collagen",
+            "pdrn"
           ],
-          "match_score": 0.248
+          "match_score": 0.626
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
-          "similarity": 0.28,
-          "demand_weight": 0.784,
+          "channel": "amazon_best_sellers",
+          "global_product": "바이오 콜라겐 리얼 딥 마스크",
+          "similarity": 0.52,
+          "demand_weight": 0.807,
           "matched_tokens": [
-            "cream"
+            "collagen"
           ],
-          "match_score": 0.22
+          "match_score": 0.42
         },
         {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
-          "similarity": 0.333,
-          "demand_weight": 0.57,
+          "channel": "sephora",
+          "global_product": "베네피앙스 링클 스무딩 아이 크림",
+          "similarity": 0.4,
+          "demand_weight": 0.81,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.19
+          "match_score": 0.324
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 491건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -861,34 +1084,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
-          "similarity": 0.217,
-          "demand_weight": 0.931,
+          "channel": "sephora",
+          "global_product": "베네피앙스 링클 스무딩 아이 크림",
+          "similarity": 0.35,
+          "demand_weight": 0.81,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.202
+          "match_score": 0.283
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
-          "similarity": 0.23,
-          "demand_weight": 0.784,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.18
-        },
-        {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.283,
-          "demand_weight": 0.57,
+          "demand_weight": 0.882,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.161
+          "match_score": 0.25
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "similarity": 0.283,
+          "demand_weight": 0.833,
+          "matched_tokens": [
+            "cream"
+          ],
+          "match_score": 0.236
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 444건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -914,7 +1137,28 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "베터 스크린 UV 세럼 SPF 50+",
+          "similarity": 0.853,
+          "demand_weight": 0.855,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.73
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "안텔리오스 클리어 스킨 SPF60",
+          "similarity": 1.0,
+          "demand_weight": 0.72,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.72
+        }
+      ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.6 · 리뷰 349건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -940,34 +1184,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
+          "channel": "amazon_best_sellers",
+          "global_product": "바이오 콜라겐 리얼 딥 마스크",
+          "similarity": 0.5,
+          "demand_weight": 0.807,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.404
+        },
+        {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.38,
-          "demand_weight": 0.98,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.372
+          "match_score": 0.354
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-          "similarity": 0.35,
-          "demand_weight": 0.588,
+          "channel": "sephora",
+          "global_product": "콜라겐 리얼 딥 마스크",
+          "similarity": 0.5,
+          "demand_weight": 0.585,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.206
-        },
-        {
-          "channel": "open_beauty_facts",
-          "global_product": "Masque Purifiant Naturel à L'Argile Verte.",
-          "similarity": 0.357,
-          "demand_weight": 0.42,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.15
+          "match_score": 0.292
         }
       ],
       "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 1,663건 · 원가 3,000원 (다이소 실측값 기준)"
@@ -993,7 +1237,18 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "시어 베터 바디 로션 바닐라 캐시미어",
+          "similarity": 1.0,
+          "demand_weight": 0.712,
+          "matched_tokens": [
+            "lotion"
+          ],
+          "match_score": 0.712
+        }
+      ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,107건 · 원가 3,000원 (다이소 실측값 기준)"
     },
     {
@@ -1017,7 +1272,18 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "시어 베터 바디 로션 바닐라 캐시미어",
+          "similarity": 1.0,
+          "demand_weight": 0.712,
+          "matched_tokens": [
+            "lotion"
+          ],
+          "match_score": 0.712
+        }
+      ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 511건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -1043,34 +1309,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
-          "similarity": 0.667,
-          "demand_weight": 0.931,
+          "channel": "sephora",
+          "global_product": "베네피앙스 링클 스무딩 아이 크림",
+          "similarity": 0.8,
+          "demand_weight": 0.81,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.621
+          "match_score": 0.648
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
-          "similarity": 0.68,
-          "demand_weight": 0.784,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.533
-        },
-        {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.57,
+          "demand_weight": 0.882,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.418
+          "match_score": 0.647
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "similarity": 0.733,
+          "demand_weight": 0.833,
+          "matched_tokens": [
+            "cream"
+          ],
+          "match_score": 0.611
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 672건 · 원가 1,000원 (다이소 실측값 기준)"
@@ -1098,34 +1364,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.23,
-          "demand_weight": 0.98,
+          "channel": "amazon_best_sellers",
+          "global_product": "바이오 콜라겐 리얼 딥 마스크",
+          "similarity": 0.35,
+          "demand_weight": 0.807,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.225
+          "match_score": 0.282
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
-          "similarity": 0.25,
-          "demand_weight": 0.49,
+          "channel": "sephora",
+          "global_product": "턴오버 앰플 c-PDRN 0.5%",
+          "similarity": 0.35,
+          "demand_weight": 0.63,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.122
+          "match_score": 0.22
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-          "similarity": 0.2,
-          "demand_weight": 0.588,
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+          "similarity": 0.23,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.118
+          "match_score": 0.214
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.4 · 리뷰 423건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -1153,24 +1419,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
-          "similarity": 0.68,
-          "demand_weight": 0.784,
+          "channel": "sephora",
+          "global_product": "베터 스크린 UV 세럼 SPF 50+",
+          "similarity": 0.733,
+          "demand_weight": 0.855,
           "matched_tokens": [
             "serum"
           ],
-          "match_score": 0.533
+          "match_score": 0.627
         },
         {
-          "channel": "open_beauty_facts",
-          "global_product": "SOHO N.Y.C. Anti-Aging No Rinse 2in1 Face Serum + Mask",
-          "similarity": 0.667,
-          "demand_weight": 0.3,
+          "channel": "sephora",
+          "global_product": "아베이 로얄 유스 워터리 오일 세럼",
+          "similarity": 0.8,
+          "demand_weight": 0.765,
           "matched_tokens": [
             "serum"
           ],
-          "match_score": 0.2
+          "match_score": 0.612
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "멜라 B3 나이아신아마이드 세럼",
+          "similarity": 0.8,
+          "demand_weight": 0.76,
+          "matched_tokens": [
+            "serum"
+          ],
+          "match_score": 0.608
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.6 · 리뷰 177건 · 원가 3,000원 (다이소 실측값 기준)"
@@ -1198,34 +1474,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
-          "similarity": 0.667,
-          "demand_weight": 0.931,
+          "channel": "sephora",
+          "global_product": "베네피앙스 링클 스무딩 아이 크림",
+          "similarity": 0.8,
+          "demand_weight": 0.81,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.621
+          "match_score": 0.648
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
-          "similarity": 0.68,
-          "demand_weight": 0.784,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.533
-        },
-        {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.57,
+          "demand_weight": 0.882,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.418
+          "match_score": 0.647
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "similarity": 0.733,
+          "demand_weight": 0.833,
+          "matched_tokens": [
+            "cream"
+          ],
+          "match_score": 0.611
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 973건 · 원가 1,000원 (다이소 실측값 기준)"
@@ -1253,34 +1529,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
-          "similarity": 0.667,
-          "demand_weight": 0.931,
+          "channel": "sephora",
+          "global_product": "베네피앙스 링클 스무딩 아이 크림",
+          "similarity": 0.8,
+          "demand_weight": 0.81,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.621
+          "match_score": 0.648
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
-          "similarity": 0.68,
-          "demand_weight": 0.784,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.533
-        },
-        {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.57,
+          "demand_weight": 0.882,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.418
+          "match_score": 0.647
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "similarity": 0.733,
+          "demand_weight": 0.833,
+          "matched_tokens": [
+            "cream"
+          ],
+          "match_score": 0.611
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.6 · 리뷰 352건 · 원가 3,000원 (다이소 실측값 기준)"
@@ -1332,35 +1608,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
-          "similarity": 0.76,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "cream",
-            "moisturizer"
-          ],
-          "match_score": 0.372
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
-          "similarity": 0.367,
-          "demand_weight": 0.931,
+          "channel": "sephora",
+          "global_product": "베네피앙스 링클 스무딩 아이 크림",
+          "similarity": 0.5,
+          "demand_weight": 0.81,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.341
+          "match_score": 0.405
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
-          "similarity": 0.38,
-          "demand_weight": 0.784,
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "similarity": 0.433,
+          "demand_weight": 0.882,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.298
+          "match_score": 0.382
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "similarity": 0.433,
+          "demand_weight": 0.833,
+          "matched_tokens": [
+            "cream"
+          ],
+          "match_score": 0.361
         }
       ],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 223건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -1386,7 +1661,28 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "베터 스크린 UV 세럼 SPF 50+",
+          "similarity": 0.853,
+          "demand_weight": 0.855,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.73
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "안텔리오스 클리어 스킨 SPF60",
+          "similarity": 1.0,
+          "demand_weight": 0.72,
+          "matched_tokens": [
+            "sunscreen"
+          ],
+          "match_score": 0.72
+        }
+      ],
       "recommend_reason": "선케어 카테고리 · 평점 4.7 · 리뷰 1,170건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -1412,34 +1708,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
+          "channel": "amazon_best_sellers",
+          "global_product": "바이오 콜라겐 리얼 딥 마스크",
+          "similarity": 0.5,
+          "demand_weight": 0.807,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.404
+        },
+        {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.38,
-          "demand_weight": 0.98,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.372
+          "match_score": 0.354
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-          "similarity": 0.35,
-          "demand_weight": 0.588,
+          "channel": "sephora",
+          "global_product": "콜라겐 리얼 딥 마스크",
+          "similarity": 0.5,
+          "demand_weight": 0.585,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.206
-        },
-        {
-          "channel": "open_beauty_facts",
-          "global_product": "Masque Purifiant Naturel à L'Argile Verte.",
-          "similarity": 0.357,
-          "demand_weight": 0.42,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.15
+          "match_score": 0.292
         }
       ],
       "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 992건 · 원가 1,000원 (다이소 실측값 기준)"
@@ -1513,7 +1809,38 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "바이오 콜라겐 리얼 딥 마스크",
+          "similarity": 0.62,
+          "demand_weight": 0.807,
+          "matched_tokens": [
+            "collagen"
+          ],
+          "match_score": 0.5
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "PDRN 핑크 콜라겐 볼륨 멀티밤",
+          "similarity": 0.62,
+          "demand_weight": 0.68,
+          "matched_tokens": [
+            "collagen"
+          ],
+          "match_score": 0.422
+        },
+        {
+          "channel": "sephora",
+          "global_product": "콜라겐 리얼 딥 마스크",
+          "similarity": 0.62,
+          "demand_weight": 0.585,
+          "matched_tokens": [
+            "collagen"
+          ],
+          "match_score": 0.363
+        }
+      ],
       "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 349건 · 원가 3,000원 (다이소 실측값 기준)"
     },
     {
@@ -1587,14 +1914,24 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-          "similarity": 0.65,
-          "demand_weight": 0.735,
+          "channel": "walmart_beauty",
+          "global_product": "톨레리안 퓨리파잉 폼 클렌저",
+          "similarity": 1.0,
+          "demand_weight": 0.8,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.478
+          "match_score": 0.8
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
+          "similarity": 0.65,
+          "demand_weight": 0.784,
+          "matched_tokens": [
+            "cleanser"
+          ],
+          "match_score": 0.51
         }
       ],
       "recommend_reason": "클렌징 카테고리 · 평점 4.8 · 리뷰 1,078건 · 원가 2,000원 (다이소 실측값 기준)"
@@ -1646,34 +1983,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
+          "channel": "amazon_best_sellers",
+          "global_product": "바이오 콜라겐 리얼 딥 마스크",
+          "similarity": 0.8,
+          "demand_weight": 0.807,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.646
+        },
+        {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.68,
-          "demand_weight": 0.98,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.666
+          "match_score": 0.633
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-          "similarity": 0.65,
-          "demand_weight": 0.588,
+          "channel": "sephora",
+          "global_product": "콜라겐 리얼 딥 마스크",
+          "similarity": 0.8,
+          "demand_weight": 0.585,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.382
-        },
-        {
-          "channel": "open_beauty_facts",
-          "global_product": "Masque Purifiant Naturel à L'Argile Verte.",
-          "similarity": 0.657,
-          "demand_weight": 0.42,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.276
+          "match_score": 0.468
         }
       ],
       "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 543건 · 원가 500원 (다이소 실측값 기준)"
@@ -1701,34 +2038,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
+          "channel": "amazon_best_sellers",
+          "global_product": "바이오 콜라겐 리얼 딥 마스크",
+          "similarity": 0.5,
+          "demand_weight": 0.807,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.404
+        },
+        {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.38,
-          "demand_weight": 0.98,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.372
+          "match_score": 0.354
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-          "similarity": 0.35,
-          "demand_weight": 0.588,
+          "channel": "sephora",
+          "global_product": "콜라겐 리얼 딥 마스크",
+          "similarity": 0.5,
+          "demand_weight": 0.585,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.206
-        },
-        {
-          "channel": "open_beauty_facts",
-          "global_product": "Masque Purifiant Naturel à L'Argile Verte.",
-          "similarity": 0.357,
-          "demand_weight": 0.42,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.15
+          "match_score": 0.292
         }
       ],
       "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 238건 · 원가 1,000원 (다이소 실측값 기준)"
@@ -1780,34 +2117,34 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
+          "channel": "amazon_best_sellers",
+          "global_product": "바이오 콜라겐 리얼 딥 마스크",
+          "similarity": 0.8,
+          "demand_weight": 0.807,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.646
+        },
+        {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.68,
-          "demand_weight": 0.98,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.666
+          "match_score": 0.633
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-          "similarity": 0.65,
-          "demand_weight": 0.588,
+          "channel": "sephora",
+          "global_product": "콜라겐 리얼 딥 마스크",
+          "similarity": 0.8,
+          "demand_weight": 0.585,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.382
-        },
-        {
-          "channel": "open_beauty_facts",
-          "global_product": "Masque Purifiant Naturel à L'Argile Verte.",
-          "similarity": 0.657,
-          "demand_weight": 0.42,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.276
+          "match_score": 0.468
         }
       ],
       "recommend_reason": "마스크팩 카테고리 · 평점 4.7 · 리뷰 104건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -1905,18 +2242,7 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)",
-          "similarity": 0.7,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "shampoo"
-          ],
-          "match_score": 0.343
-        }
-      ],
+      "global_matches_reference_only": [],
       "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 720건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -1988,7 +2314,18 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+          "similarity": 0.733,
+          "demand_weight": 0.9,
+          "matched_tokens": [
+            "lip"
+          ],
+          "match_score": 0.66
+        }
+      ],
       "recommend_reason": "메이크업 카테고리 · 평점 4.8 · 리뷰 1,227건 · 원가 1,000원 (다이소 실측값 기준)"
     },
     {
@@ -2110,14 +2447,24 @@
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
       "global_matches_reference_only": [
         {
-          "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-          "similarity": 0.65,
-          "demand_weight": 0.735,
+          "channel": "walmart_beauty",
+          "global_product": "톨레리안 퓨리파잉 폼 클렌저",
+          "similarity": 1.0,
+          "demand_weight": 0.8,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.478
+          "match_score": 0.8
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
+          "similarity": 0.65,
+          "demand_weight": 0.784,
+          "matched_tokens": [
+            "cleanser"
+          ],
+          "match_score": 0.51
         }
       ],
       "recommend_reason": "클렌징 카테고리 · 평점 4.6 · 리뷰 223건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -2143,18 +2490,7 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)",
-          "similarity": 0.7,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "shampoo"
-          ],
-          "match_score": 0.343
-        }
-      ],
+      "global_matches_reference_only": [],
       "recommend_reason": "헤어케어 카테고리 · 평점 4.9 · 리뷰 193건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -2202,7 +2538,18 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+          "similarity": 0.733,
+          "demand_weight": 0.9,
+          "matched_tokens": [
+            "lip"
+          ],
+          "match_score": 0.66
+        }
+      ],
       "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 404건 · 원가 1,000원 (다이소 실측값 기준)"
     },
     {
@@ -2226,7 +2573,18 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+          "similarity": 0.733,
+          "demand_weight": 0.9,
+          "matched_tokens": [
+            "lip"
+          ],
+          "match_score": 0.66
+        }
+      ],
       "recommend_reason": "메이크업 카테고리 · 평점 4.8 · 리뷰 337건 · 원가 1,000원 (다이소 실측값 기준)"
     },
     {
@@ -2255,11 +2613,11 @@
           "channel": "oliveyoung_us",
           "global_product": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
           "similarity": 0.65,
-          "demand_weight": 0.833,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "cushion"
           ],
-          "match_score": 0.541
+          "match_score": 0.319
         }
       ],
       "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 223건 · 원가 5,000원 (다이소 실측값 기준)"
@@ -2285,7 +2643,18 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+          "similarity": 0.333,
+          "demand_weight": 0.9,
+          "matched_tokens": [
+            "lip"
+          ],
+          "match_score": 0.3
+        }
+      ],
       "recommend_reason": "메이크업 카테고리 · 평점 4.8 · 리뷰 163건 · 원가 2,000원 (다이소 실측값 기준)"
     },
     {
@@ -2357,7 +2726,18 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+          "similarity": 0.433,
+          "demand_weight": 0.9,
+          "matched_tokens": [
+            "lip"
+          ],
+          "match_score": 0.39
+        }
+      ],
       "recommend_reason": "메이크업 카테고리 · 평점 4.6 · 리뷰 204건 · 원가 3,000원 (다이소 실측값 기준)"
     },
     {
@@ -2453,7 +2833,18 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+          "similarity": 0.733,
+          "demand_weight": 0.9,
+          "matched_tokens": [
+            "lip"
+          ],
+          "match_score": 0.66
+        }
+      ],
       "recommend_reason": "메이크업 카테고리 · 평점 4.6 · 리뷰 93건 · 원가 5,000원 (다이소 실측값 기준)"
     },
     {
@@ -2525,7 +2916,18 @@
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-      "global_matches_reference_only": [],
+      "global_matches_reference_only": [
+        {
+          "channel": "sephora",
+          "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+          "similarity": 0.733,
+          "demand_weight": 0.9,
+          "matched_tokens": [
+            "lip"
+          ],
+          "match_score": 0.66
+        }
+      ],
       "recommend_reason": "메이크업 카테고리 · 평점 4.6 · 리뷰 85건 · 원가 3,000원 (다이소 실측값 기준)"
     },
     {

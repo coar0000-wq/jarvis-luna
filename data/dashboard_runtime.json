@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T20:45:26.225052+09:00",
+  "generated_at": "2026-09-02T00:58:12.642941+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "762개 코퍼스 레코드"
+      "detail": "768개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "781개 노트 · 6402개 링크 · 끊어진 링크 0개"
+      "detail": "787개 노트 · 6450개 링크 · 끊어진 링크 0개"
     },
     {
       "id": "dashboard",
@@ -25,7 +25,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "762건 · 3 experts · 정확도 79.27%"
+      "detail": "768건 · 3 experts · 정확도 79.30%"
     },
     {
       "id": "publish",
@@ -36,204 +36,592 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 762,
+    "record_count": 768,
     "source_counts": {},
-    "updated_at": "2026-09-01T20:41:16.252826+09:00"
+    "updated_at": "2026-09-02T00:53:39.257365+09:00"
   },
   "graph": {
-    "notes": 781,
-    "links": 6402,
+    "notes": 787,
+    "links": 6450,
     "dangling_links": 0,
-    "records": 762,
+    "records": 768,
     "sources": 4,
     "topics": 6,
     "audit": "passed",
-    "last_generated": "2026-09-01T20:41:16.785617+09:00"
+    "last_generated": "2026-09-02T00:53:59.127252+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 762,
+    "records": 768,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.7926509186351706,
-    "validation_accuracy": 0.8014705882352942,
-    "final_loss": 0.43546985405660715,
-    "gate_load_std": 0.4283663126818244,
+    "accuracy": 0.79296875,
+    "validation_accuracy": 0.8102189781021898,
+    "final_loss": 0.4331774616144961,
+    "gate_load_std": 0.42963976126678105,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-01T11:45:26.114185+00:00"
+    "updated_at": "2026-09-01T15:58:12.530941+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 762,
-      "notes": 781,
-      "links": 6402
+      "records": 768,
+      "notes": 787,
+      "links": 6450
     },
     "prior_totals": {
-      "records": 755,
-      "notes": 774,
-      "links": 6346
+      "records": 768,
+      "notes": 787,
+      "links": 6450
     },
     "added_this_run": {
-      "records": 7,
-      "notes": 7,
-      "links": 56
+      "records": 0,
+      "notes": 0,
+      "links": 0
     },
     "current_snapshot": {
-      "records": 762,
-      "notes": 781,
-      "links": 6402
+      "records": 768,
+      "notes": 787,
+      "links": 6450
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
   },
   "global_channels": {
-    "amazon_best_sellers": [],
-    "walmart_beauty": [],
-    "oliveyoung_us": [
+    "amazon_best_sellers": [
       {
-        "product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-        "sub": "MEDIHEAL",
-        "badge": "$20.99",
+        "product": "제로 포어 패드 2.0",
+        "brand": "메디큐브",
+        "sub": "메디큐브",
+        "badge": "$20.60",
+        "price": 20.6,
+        "rating": 4.6,
+        "review_count": 28691,
         "rank": 1,
-        "rating": 4.8,
-        "review_count": 1075,
-        "url": "https://us.oliveyoung.com/products/UA48723304"
+        "url": "https://www.amazon.com",
+        "extraction_method": "manual_screenshot"
       },
       {
-        "product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
-        "sub": "Centellian24",
-        "badge": "$59.50",
+        "product": "양면 면봉 (500매)",
+        "brand": "아마존 베이직스",
+        "sub": "아마존 베이직스",
+        "badge": "$2.55",
+        "price": 2.55,
+        "rating": 4.7,
+        "review_count": 78618,
         "rank": 2,
-        "rating": 4.8,
-        "review_count": 3286,
-        "url": "https://us.oliveyoung.com/products/UA39839880"
+        "url": "https://www.amazon.com",
+        "extraction_method": "manual_screenshot"
       },
+      {
+        "product": "오리지널 여드름 패치 (36개입)",
+        "brand": "마이티 패치",
+        "sub": "마이티 패치",
+        "badge": "$12.99",
+        "price": 12.99,
+        "rating": 4.6,
+        "review_count": 185039,
+        "rank": 3,
+        "url": "https://www.amazon.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "바이오 콜라겐 리얼 딥 마스크",
+        "brand": "바이오댄스",
+        "sub": "바이오댄스",
+        "badge": "$18.34",
+        "price": 18.34,
+        "rating": 4.5,
+        "review_count": 44284,
+        "rank": 4,
+        "url": "https://www.amazon.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "글리콜산 7% 각질 제거 토너",
+        "brand": "디오디너리",
+        "sub": "디오디너리",
+        "badge": "$13.50",
+        "price": 13.5,
+        "rating": 4.7,
+        "review_count": 58525,
+        "rank": 5,
+        "url": "https://www.amazon.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "시어 베터 바디 로션 바닐라 캐시미어",
+        "brand": "eos",
+        "sub": "eos",
+        "badge": "$9.55",
+        "price": 9.55,
+        "rating": 4.7,
+        "review_count": 72360,
+        "rank": 6,
+        "url": "https://www.amazon.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "메이크업 리무버 물티슈 (25매x2)",
+        "brand": "뉴트로지나",
+        "sub": "뉴트로지나",
+        "badge": "$9.97",
+        "price": 9.97,
+        "rating": 4.8,
+        "review_count": 120791,
+        "rank": 7,
+        "url": "https://www.amazon.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "저자극성 화장솜 (100매)",
+        "brand": "아마존 베이직스",
+        "sub": "아마존 베이직스",
+        "badge": "$3.07",
+        "price": 3.07,
+        "rating": 4.7,
+        "review_count": 52672,
+        "rank": 8,
+        "url": "https://www.amazon.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "10% 벤조일 퍼옥사이드 포밍 워시",
+        "brand": "PanOxyl",
+        "sub": "PanOxyl",
+        "badge": "$10.67",
+        "price": 10.67,
+        "rating": 4.6,
+        "review_count": 82343,
+        "rank": 9,
+        "url": "https://www.amazon.com",
+        "extraction_method": "manual_screenshot"
+      }
+    ],
+    "walmart_beauty": [
+      {
+        "product": "톨레리안 퓨리파잉 폼 클렌저",
+        "brand": "라로슈포제",
+        "sub": "라로슈포제",
+        "badge": "$19.97",
+        "price": 19.97,
+        "rating": 4.7,
+        "review_count": 6684,
+        "rank": 1,
+        "url": "https://www.walmart.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "멜라 B3 나이아신아마이드 세럼",
+        "brand": "라로슈포제",
+        "sub": "라로슈포제",
+        "badge": "$44.99",
+        "price": 44.99,
+        "rating": 4.2,
+        "review_count": 2375,
+        "rank": 2,
+        "url": "https://www.walmart.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "안텔리오스 클리어 스킨 SPF60",
+        "brand": "라로슈포제",
+        "sub": "라로슈포제",
+        "badge": "$20.97",
+        "price": 20.97,
+        "rating": 4.3,
+        "review_count": 1660,
+        "rank": 3,
+        "url": "https://www.walmart.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "언브러시 엉킴 방지 헤어 브러시",
+        "brand": "FHI 히트",
+        "sub": "FHI 히트",
+        "badge": "$18.00",
+        "price": 18.0,
+        "rating": 4.7,
+        "review_count": 1676,
+        "rank": 4,
+        "url": "https://www.walmart.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "소바쥬 엘릭서 향수 100ml",
+        "brand": "디올",
+        "sub": "디올",
+        "badge": "$98.50",
+        "price": 98.5,
+        "rating": 4.6,
+        "review_count": 8770,
+        "rank": 5,
+        "url": "https://www.walmart.com",
+        "extraction_method": "manual_screenshot"
+      }
+    ],
+    "oliveyoung_us": [
       {
         "product": "THOME The Glow Signature",
         "sub": "THOME",
         "badge": "$279.00",
-        "rank": 3,
+        "rank": 1,
         "rating": 4.7,
         "review_count": 25,
         "url": "https://us.oliveyoung.com/products/UA66893538"
       },
       {
-        "product": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
-        "sub": "JUNG SAEM MOOL",
-        "badge": "$25.60",
-        "rank": 4,
-        "rating": 4.7,
-        "review_count": 355,
-        "url": "https://us.oliveyoung.com/products/UA97366320"
-      },
-      {
-        "product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
-        "sub": "Dr.G",
-        "badge": "$25.20",
-        "rank": 5,
+        "product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+        "sub": "MEDIHEAL",
+        "badge": "$20.99",
+        "rank": 2,
         "rating": 4.8,
-        "review_count": 239,
-        "url": "https://us.oliveyoung.com/products/UA88452413"
-      },
-      {
-        "product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-        "sub": "ROUND LAB",
-        "badge": "$22.49",
-        "rank": 6,
-        "rating": 5,
-        "review_count": 2,
-        "url": "https://us.oliveyoung.com/products/UA38918945"
-      },
-      {
-        "product": "beplain Mung Bean pH-Balanced Cleansing Foam 5.41 fl. oz.(160ml)",
-        "sub": "beplain",
-        "badge": "$17.10",
-        "rank": 7,
-        "rating": 4.7,
-        "review_count": 13,
-        "url": "https://us.oliveyoung.com/products/UA34557979"
-      },
-      {
-        "product": "sonatural Powder4room All Day Tight Make Up Setting Fixx 2.53 fl. oz.(75ml)",
-        "sub": "sonatural",
-        "badge": "$22.00",
-        "rank": 8,
-        "rating": 5,
-        "review_count": 2,
-        "url": "https://us.oliveyoung.com/products/UA32042951"
-      },
-      {
-        "product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-        "sub": "UNOVE",
-        "badge": "$24.70",
-        "rank": 9,
-        "rating": 5,
-        "review_count": 3,
-        "url": "https://us.oliveyoung.com/products/UA39329211"
-      },
-      {
-        "product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-        "sub": "lilyeve",
-        "badge": "$23.76",
-        "rank": 10,
-        "rating": 4.6,
-        "review_count": 5,
-        "url": "https://us.oliveyoung.com/products/UA98417491"
-      },
-      {
-        "product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
-        "sub": "REJURAN",
-        "badge": "$55.00",
-        "rank": 11,
-        "rating": 4.7,
-        "review_count": 13,
-        "url": "https://us.oliveyoung.com/products/UA44060194"
+        "review_count": 1075,
+        "url": "https://us.oliveyoung.com/products/UA48723304"
       },
       {
         "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
         "sub": "AESTURA",
         "badge": "$32.00",
-        "rank": 12,
+        "rank": 3,
         "rating": 5,
         "review_count": 2,
         "url": "https://us.oliveyoung.com/products/UA71026007"
       },
       {
-        "product": "[11types] CORINGCO Toktokhara No Glue Eyelash",
-        "sub": "CORINGCO",
-        "badge": "$12.99",
-        "rank": 13,
+        "product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+        "sub": "Dr.Althea",
+        "badge": "$27.00",
+        "rank": 4,
         "rating": 4.8,
-        "review_count": 12077,
-        "url": "https://us.oliveyoung.com/products/UA29855490"
+        "review_count": 1641,
+        "url": "https://us.oliveyoung.com/products/UA73639757"
       },
       {
-        "product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "sub": "S.NATURE",
-        "badge": "$18.20",
-        "rank": 14,
+        "product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
+        "sub": "ROUND LAB",
+        "badge": "$22.49",
+        "rank": 5,
+        "rating": 5,
+        "review_count": 2,
+        "url": "https://us.oliveyoung.com/products/UA38918945"
+      },
+      {
+        "product": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
+        "sub": "MEDIHEAL",
+        "badge": "$39.99",
+        "rank": 6,
+        "rating": 4.8,
+        "review_count": 14734,
+        "url": "https://us.oliveyoung.com/products/UA32407466"
+      },
+      {
+        "product": "[2colors] medicube AGE-R Booster Pro",
+        "sub": "medicube",
+        "badge": "$221.00",
+        "rank": 7,
+        "rating": 5,
+        "review_count": 4,
+        "url": "https://us.oliveyoung.com/products/UA81995088"
+      },
+      {
+        "product": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
+        "sub": "Centellian24",
+        "badge": "$59.50",
+        "rank": 8,
+        "rating": 4.8,
+        "review_count": 3294,
+        "url": "https://us.oliveyoung.com/products/UA39839880"
+      },
+      {
+        "product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+        "sub": "lilyeve",
+        "badge": "$23.76",
+        "rank": 9,
+        "rating": 4.6,
+        "review_count": 5,
+        "url": "https://us.oliveyoung.com/products/UA98417491"
+      },
+      {
+        "product": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
+        "sub": "Biodance",
+        "badge": "$62.00",
+        "rank": 10,
+        "rating": 5,
+        "review_count": 2,
+        "url": "https://us.oliveyoung.com/products/UA22731950"
+      },
+      {
+        "product": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
+        "sub": "JUNG SAEM MOOL",
+        "badge": "$25.60",
+        "rank": 11,
+        "rating": 4.7,
+        "review_count": 359,
+        "url": "https://us.oliveyoung.com/products/UA97366320"
+      },
+      {
+        "product": "Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum 1.01 fl. oz.(30ml)",
+        "sub": "Anua",
+        "badge": "$23.00",
+        "rank": 12,
         "rating": 4.9,
-        "review_count": 15,
-        "url": "https://us.oliveyoung.com/products/UA16733220"
+        "review_count": 17,
+        "url": "https://us.oliveyoung.com/products/UA76124836"
       },
       {
-        "product": "LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)",
-        "sub": "LABO-H",
-        "badge": "$25.65",
+        "product": "Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)",
+        "sub": "Torriden",
+        "badge": "$24.00",
+        "rank": 13,
+        "rating": 5,
+        "review_count": 8,
+        "url": "https://us.oliveyoung.com/products/UA56625219"
+      },
+      {
+        "product": "[2sizes] ILLIYOON Ceramide Ato Concentrate Cream",
+        "sub": "ILLIYOON",
+        "badge": "$21.24",
+        "rank": 14,
+        "rating": 5,
+        "review_count": 4,
+        "url": "https://us.oliveyoung.com/products/UA39684183"
+      },
+      {
+        "product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+        "sub": "REJURAN",
+        "badge": "$41.60",
         "rank": 15,
         "rating": 5,
-        "review_count": 1,
-        "url": "https://us.oliveyoung.com/products/UA47370528"
+        "review_count": 9,
+        "url": "https://us.oliveyoung.com/products/UA67698081"
       }
     ],
     "google_trends_us": [],
     "shopify_demand_matching": [],
     "tiktok_shop_us": [],
-    "ulta_beauty": [],
-    "sephora": [],
+    "ulta_beauty": [
+      {
+        "product": "Hyaluronic Acid 2% + B5 Hydrating Serum",
+        "brand": "The Ordinary",
+        "sub": "The Ordinary",
+        "badge": "$9.90",
+        "price": 9.9,
+        "rating": 4.3,
+        "review_count": 1315,
+        "rank": 1,
+        "url": "https://www.ulta.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "아젤라익산 10 히알루론 세럼",
+        "brand": "아누아 (ANUA)",
+        "sub": "아누아 (ANUA)",
+        "badge": "$22.00",
+        "price": 22.0,
+        "rating": 4.6,
+        "review_count": 374,
+        "rank": 2,
+        "url": "https://www.ulta.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "PDRN 히알루론산 캡슐 세럼",
+        "brand": "아누아 (ANUA)",
+        "sub": "아누아 (ANUA)",
+        "badge": "$28.00",
+        "price": 28.0,
+        "rating": 4.7,
+        "review_count": 173,
+        "rank": 3,
+        "url": "https://www.ulta.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "Advanced Night Repair Multi-Recovery Complex",
+        "brand": "Estée Lauder",
+        "sub": "Estée Lauder",
+        "badge": "$20.00",
+        "price": 20.0,
+        "rating": 4.5,
+        "review_count": 22162,
+        "rank": 4,
+        "url": "https://www.ulta.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "PDRN 핑크 콜라겐 볼륨 멀티밤",
+        "brand": "메디큐브",
+        "sub": "메디큐브",
+        "badge": "$21.90",
+        "price": 21.9,
+        "rating": 3.3,
+        "review_count": 22,
+        "rank": 5,
+        "url": "https://www.ulta.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "Niacinamide 10% + Zinc 1% Serum",
+        "brand": "The Ordinary",
+        "sub": "The Ordinary",
+        "badge": "$6.00",
+        "price": 6.0,
+        "rating": 4.2,
+        "review_count": 5992,
+        "rank": 6,
+        "url": "https://www.ulta.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "DOUBLE SERUM Age-Defying Concentrate",
+        "brand": "Clarins",
+        "sub": "Clarins",
+        "badge": "$96.00",
+        "price": 96.0,
+        "rating": 4.5,
+        "review_count": 7831,
+        "rank": 7,
+        "url": "https://www.ulta.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "장수 세럼 스킨 스트랭스",
+        "brand": "타차 (Tatcha)",
+        "sub": "타차 (Tatcha)",
+        "badge": "$30.00",
+        "price": 30.0,
+        "rating": 4.8,
+        "review_count": 587,
+        "rank": 8,
+        "url": "https://www.ulta.com",
+        "extraction_method": "manual_screenshot"
+      }
+    ],
+    "sephora": [
+      {
+        "product": "펩타이드 립 틴트 너리싱 글레이즈",
+        "brand": "rhode",
+        "sub": "rhode",
+        "badge": "$20.00",
+        "price": 20.0,
+        "rating": 4.0,
+        "review_count": 3100,
+        "rank": 1,
+        "url": "https://www.sephora.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "베터 스크린 UV 세럼 SPF 50+",
+        "brand": "Kiehl's",
+        "sub": "Kiehl's",
+        "badge": "$22.00",
+        "price": 22.0,
+        "rating": 4.0,
+        "review_count": 2200,
+        "rank": 2,
+        "url": "https://www.sephora.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "베네피앙스 링클 스무딩 아이 크림",
+        "brand": "Shiseido",
+        "sub": "Shiseido",
+        "badge": "$67.00",
+        "price": 67.0,
+        "rating": 4.0,
+        "review_count": 3200,
+        "rank": 3,
+        "url": "https://www.sephora.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "아베이 로얄 유스 워터리 오일 세럼",
+        "brand": "Guerlain",
+        "sub": "Guerlain",
+        "badge": "$65.00",
+        "price": 65.0,
+        "rating": 4.5,
+        "review_count": 582,
+        "rank": 4,
+        "url": "https://www.sephora.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "글레이징 밀크 하이드레이팅 세라마이드 에센스",
+        "brand": "rhode",
+        "sub": "rhode",
+        "badge": "$20.00",
+        "price": 20.0,
+        "rating": 4.0,
+        "review_count": 2600,
+        "rank": 5,
+        "url": "https://www.sephora.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "나이아신아마이드 10% + 징크 1% 세럼",
+        "brand": "The Ordinary",
+        "sub": "The Ordinary",
+        "badge": "$6.00",
+        "price": 6.0,
+        "rating": 4.0,
+        "review_count": 9100,
+        "rank": 6,
+        "url": "https://www.sephora.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "턴오버 앰플 c-PDRN 0.5%",
+        "brand": "리쥬란",
+        "sub": "리쥬란",
+        "badge": "$52.00",
+        "price": 52.0,
+        "rating": 4.2,
+        "review_count": 279,
+        "rank": 7,
+        "url": "https://www.sephora.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "콜라겐 리얼 딥 마스크",
+        "brand": "바이오댄스",
+        "sub": "바이오댄스",
+        "badge": "$19.00",
+        "price": 19.0,
+        "rating": 4.6,
+        "review_count": 830,
+        "rank": 8,
+        "url": "https://www.sephora.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "퍼스트 케어 안티에이징 세럼",
+        "brand": "설화수",
+        "sub": "설화수",
+        "badge": "$25.00",
+        "price": 25.0,
+        "rating": 4.6,
+        "review_count": 2200,
+        "rank": 9,
+        "url": "https://www.sephora.com",
+        "extraction_method": "manual_screenshot"
+      },
+      {
+        "product": "파워 미스트 손 소독제",
+        "brand": "터치랜드",
+        "sub": "터치랜드",
+        "badge": "$10.00",
+        "price": 10.0,
+        "rating": 4.1,
+        "review_count": 2900,
+        "rank": 10,
+        "url": "https://www.sephora.com",
+        "extraction_method": "manual_screenshot"
+      }
+    ],
     "open_beauty_facts": [
       {
         "product": "NIVEA Soft hydraterende créme 48u hydratatie",
@@ -331,7 +719,90 @@
     "rate": 1368.52,
     "as_of": "2026-09-01",
     "source": "https://open.er-api.com/v6/latest/USD",
-    "updated_at": "2026-09-01"
+    "updated_at": "2026-09-02"
   },
-  "last_synced": "09. 01. 오후 03:31 KST"
+  "last_synced": "09. 02. 오전 12:58 KST",
+  "global_channels_status": {
+    "amazon_best_sellers": {
+      "status": "ok",
+      "source": "수동 입력 · https://www.amazon.com",
+      "reason": "",
+      "collected_at": "2026-09-01",
+      "count": 9,
+      "trust": "manual",
+      "captured_at": "2026-09-01",
+      "age_days": 0
+    },
+    "walmart_beauty": {
+      "status": "ok",
+      "source": "수동 입력 · https://www.walmart.com",
+      "reason": "",
+      "collected_at": "2026-09-01",
+      "count": 5,
+      "trust": "manual",
+      "captured_at": "2026-09-01",
+      "age_days": 0
+    },
+    "oliveyoung_us": {
+      "status": "ok",
+      "source": "us.oliveyoung.com/best-sellers 실수집",
+      "reason": "",
+      "collected_at": "2026-09-01T15:53:58.473093+00:00",
+      "count": 15,
+      "trust": "verified"
+    },
+    "google_trends_us": {
+      "status": "empty",
+      "source": "-",
+      "reason": "자동 수집 불가. data/manual/ 에 직접 확인한 데이터를 넣으면 반영됩니다.",
+      "collected_at": "",
+      "count": 0,
+      "trust": "none"
+    },
+    "shopify_demand_matching": {
+      "status": "disabled",
+      "source": "-",
+      "reason": "demand_score·predicted_orders·expected_roas 가 조작값이라 삭제. 실측 지표 확보 후 재설계.",
+      "collected_at": "",
+      "count": 0,
+      "trust": "none"
+    },
+    "tiktok_shop_us": {
+      "status": "empty",
+      "source": "-",
+      "reason": "자동 수집 불가. data/manual/ 에 직접 확인한 데이터를 넣으면 반영됩니다.",
+      "collected_at": "",
+      "count": 0,
+      "trust": "none"
+    },
+    "ulta_beauty": {
+      "status": "ok",
+      "source": "수동 입력 · https://www.ulta.com",
+      "reason": "",
+      "collected_at": "2026-09-01",
+      "count": 8,
+      "trust": "manual",
+      "captured_at": "2026-09-01",
+      "age_days": 0
+    },
+    "sephora": {
+      "status": "ok",
+      "source": "수동 입력 · https://www.sephora.com",
+      "reason": "",
+      "collected_at": "2026-09-01",
+      "count": 10,
+      "trust": "manual",
+      "captured_at": "2026-09-01",
+      "age_days": 0
+    },
+    "open_beauty_facts": {
+      "status": "ok",
+      "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
+      "reason": "",
+      "collected_at": "2026-09-01T15:53:58.170560+00:00",
+      "count": 15,
+      "trust": "verified"
+    }
+  },
+  "data_integrity_note": "2026-08-31 가짜 데이터 제거. 하드코딩 카탈로그와 폴백 샘플을 삭제했으며 비어 있는 채널은 실제 수집이 없다는 뜻이다. 실데이터 채널: 다이소 실수집, 환율, arXiv, Google CSE."
 }

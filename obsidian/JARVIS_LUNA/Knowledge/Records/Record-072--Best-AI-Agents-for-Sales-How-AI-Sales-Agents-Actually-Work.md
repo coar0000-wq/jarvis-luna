@@ -1,18 +1,18 @@
 ---
-title: "Record 072 · Best-AI-Agents-for-Sales-How-AI-Sales-Agents-Actually-Work-2026---shop"
+title: "Record 072 · Best-AI-Agents-for-Sales-How-AI-Sales-Agents-Actually-Work-2026---Shop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-01T11:41:16.673796+00:00
+updated_at: 2026-09-01T15:53:58.998027+00:00
 tags: [{', '.join(tags)}]
 ---
 
-# Record 072 · Best-AI-Agents-for-Sales-How-AI-Sales-Agents-Actually-Work-2026---shop
+# Record 072 · Best-AI-Agents-for-Sales-How-AI-Sales-Agents-Actually-Work-2026---Shop
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1jb2NqdXBVN09ib21VX2tZZjgzNGdrUWpSdldBekV0QlRpT29ldGRMNC0xY09YLU9sdVo3TnoyY0ZpT0RfdFdzVzNCVDNFRlJUampNS05mSHVhNzN6?oc=5)
 
-**제목:** Best AI Agents for Sales: How AI Sales Agents Actually Work (2026) - shopify.com
+**제목:** Best AI Agents for Sales: How AI Sales Agents Actually Work (2026) - Shopify
 
-Best AI Agents for Sales: How AI Sales Agents Actually Work (2026) - shopify.com
+Best AI Agents for Sales: How AI Sales Agents Actually Work (2026) - Shopify
 
 **출처:** Source · Google Search
 

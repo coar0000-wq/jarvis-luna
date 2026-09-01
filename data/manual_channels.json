@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-01T11:57:24.561437+00:00",
+  "generated_at": "2026-09-01T15:53:58.557733+00:00",
   "generator": "scripts/ingest_manual_channels.py",
   "input_dir": "data/manual/",
   "trust_note": "사람이 실제 페이지를 보고 넣은 값이다. 자동 수집이 불가능한 채널을 채우는 정식 경로다. 특정 시점 스냅샷이라 30일이 지나면 오래된 데이터로 표시한다.",
   "stale_days": 30,
-  "files_seen": 4,
+  "files_seen": 3,
   "total": 32,
   "channels_without_source_url": [
     "amazon_best_sellers",
@@ -12,12 +12,7 @@
     "ulta_beauty",
     "walmart_beauty"
   ],
-  "errors": [
-    {
-      "file": "ulta_2026-09-01.json",
-      "error": "빈 파일"
-    }
-  ],
+  "errors": [],
   "channels": {
     "amazon_best_sellers": {
       "count": 9,

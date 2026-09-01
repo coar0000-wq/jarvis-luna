@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-01T06:27:42.599988+00:00",
+  "collected_at": "2026-09-01T15:53:58.170560+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -904,19 +904,6 @@
       "url": "https://world.openbeautyfacts.org/product/8003520012944"
     },
     {
-      "code": "3024876050119",
-      "product_name": "Monsavon Bol à Raser Pour Rasage Traditionnel 125g",
-      "brands": "Unilever, Monsavon",
-      "category": "바디케어",
-      "obf_category": "soaps",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "Aqua, Stearic Acid, Sodium Tallowate, Lauric Acid, Potassium Hydroxide, Sodium Palm Kernelate, Parfum, Disodium Phosphate, Algin, Glycerin, Sodium Silicate, 1,2-Hexanediol, Palm Kernel Acid, Sine Adipe Lac, Tetrasodium EDTA, Sodium Chloride, Tetrasodium Etidronate, Benzyl Alcohol, Benzyl Benzoate, Citronellol, Coumarin, Eugenol, Geraniol, Limonene, Linalool.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/302/487/605/0119/front_fr.18.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3024876050119"
-    },
-    {
       "code": "3549620005035",
       "product_name": "Savonnettes extra douces Fleur d'oranger",
       "brands": "Le Petit Olivier",
@@ -928,6 +915,19 @@
       "ingredients_text": "SODIUM PALMATE, SODIUM PALM KERNELATE, AQUA (WATER), OLEA EUROPAEA (OLIVE) FRUIT OIL, PALM ACID, PALM KERNEL ACID, CITRUS AURANTIUM AMARA (BITTER ORANGE) FLOWER EXTRACT, PARFUM (FRAGRANCE), GLYGERIN, BUTYLENE GLYCOL, SODIUM CHLORIDE, TETRASODIUM EDTA, TETRASODIUM ETIDRONATE, CI 77891 (TITANIUM DIOXIDE), CI 77492 (IRON OXIDES), CI 15510 (ORANGE 4), LINALOOL",
       "image_url": "https://images.openbeautyfacts.org/images/products/354/962/000/5035/front_fr.5.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/3549620005035"
+    },
+    {
+      "code": "3024876050119",
+      "product_name": "Monsavon Bol à Raser Pour Rasage Traditionnel 125g",
+      "brands": "Unilever, Monsavon",
+      "category": "바디케어",
+      "obf_category": "soaps",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "Aqua, Stearic Acid, Sodium Tallowate, Lauric Acid, Potassium Hydroxide, Sodium Palm Kernelate, Parfum, Disodium Phosphate, Algin, Glycerin, Sodium Silicate, 1,2-Hexanediol, Palm Kernel Acid, Sine Adipe Lac, Tetrasodium EDTA, Sodium Chloride, Tetrasodium Etidronate, Benzyl Alcohol, Benzyl Benzoate, Citronellol, Coumarin, Eugenol, Geraniol, Limonene, Linalool.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/302/487/605/0119/front_fr.18.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3024876050119"
     },
     {
       "code": "6221048407796",
@@ -1413,20 +1413,6 @@
       "url": "https://world.openbeautyfacts.org/product/4005900035745"
     },
     {
-      "code": "4005900243553",
-      "product_name": "Nivea men Protect & Care",
-      "brands": "Nivea Men",
-      "category": "데오드란트",
-      "obf_category": "deodorants",
-      "countries": [
-        "France",
-        "Morocco"
-      ],
-      "ingredients_text": "Aqua, Aluminium chlorohydrate, PPG-15 stearyl ether, Steareth-2, Steareth-21, Parfum, Glycerin, Panthenol, Octyldodecanol, Persea Gratissima oil, Trisodium EDTA, Limoene, Linalool, Coumarin, Geraniol",
-      "image_url": "https://images.openbeautyfacts.org/images/products/400/590/024/3553/front_en.13.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/4005900243553"
-    },
-    {
       "code": "8714789913919",
       "product_name": "Dermo Protector",
       "brands": "Sanex",
@@ -1444,6 +1430,33 @@
       "url": "https://world.openbeautyfacts.org/product/8714789913919"
     },
     {
+      "code": "59095842",
+      "product_name": "Dove Advanced Care Anti-Transpirant Deodorant Roller Original 50 ML",
+      "brands": "Dove",
+      "category": "데오드란트",
+      "obf_category": "deodorants",
+      "countries": [
+        "Netherlands"
+      ],
+      "ingredients_text": "Aqua, Glycerin, Aluminum Sesquichlorohydrate, Helianthus Annuus Seed Oil, Steareth-2, Parfum, Steareth-20, Calcium Chloride, Glycine, Disodium EDTA, Pentaerythrity Tetra-di-butyl Hydroxyhydrocinnamate, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Citronellol, Eugenol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool",
+      "image_url": "https://images.openbeautyfacts.org/images/products/000/005/909/5842/front_en.41.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/59095842"
+    },
+    {
+      "code": "4005900243553",
+      "product_name": "Nivea men Protect & Care",
+      "brands": "Nivea Men",
+      "category": "데오드란트",
+      "obf_category": "deodorants",
+      "countries": [
+        "France",
+        "Morocco"
+      ],
+      "ingredients_text": "Aqua, Aluminium chlorohydrate, PPG-15 stearyl ether, Steareth-2, Steareth-21, Parfum, Glycerin, Panthenol, Octyldodecanol, Persea Gratissima oil, Trisodium EDTA, Limoene, Linalool, Coumarin, Geraniol",
+      "image_url": "https://images.openbeautyfacts.org/images/products/400/590/024/3553/front_en.13.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/4005900243553"
+    },
+    {
       "code": "3600551146188",
       "product_name": "Invisimax",
       "brands": "NARTA",
@@ -1456,19 +1469,6 @@
       "ingredients_text": "ISOBUTANE\nALUMINUM CHLOROHYDRATE\nISODODECANE\nCOCOS NUCIFERA OIL / COCONUT OIL  PARFUM / FRAGRANCE\nISOPROPYL PALMITATE\nPANTHENOL\nDISTEARDIMONIUM HECTORITE\nPROPYLENE CARBONATE\nDIMETHICONE\nDIMETHICONOL\nBENZYL ALCOHOL\nBENZYL SALICYLATE\nCITRONELLOL\nGERANIOL\nHEXYL CINNAMAL\nLIMONENE\nLINALOOL\n(F.I.L. C267387/1)",
       "image_url": "https://images.openbeautyfacts.org/images/products/360/055/114/6188/front_fr.13.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/3600551146188"
-    },
-    {
-      "code": "59095842",
-      "product_name": "Dove Advanced Care Anti-Transpirant Deodorant Roller Original 50 ML",
-      "brands": "Dove",
-      "category": "데오드란트",
-      "obf_category": "deodorants",
-      "countries": [
-        "Netherlands"
-      ],
-      "ingredients_text": "Aqua, Glycerin, Aluminum Sesquichlorohydrate, Helianthus Annuus Seed Oil, Steareth-2, Parfum, Steareth-20, Calcium Chloride, Glycine, Disodium EDTA, Pentaerythrity Tetra-di-butyl Hydroxyhydrocinnamate, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Citronellol, Eugenol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool",
-      "image_url": "https://images.openbeautyfacts.org/images/products/000/005/909/5842/front_en.41.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/59095842"
     },
     {
       "code": "42345275",
