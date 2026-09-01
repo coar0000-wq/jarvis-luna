@@ -114,7 +114,7 @@ jobs:
           git commit -m "다이소 실수집 + Shopify 수요 점수 갱신"
           for i in 1 2 3 4 5; do
             git fetch origin main
-            git rebase origin/main || { git rebase --abort; exit 1; }
+            git rebase -X theirs origin/main || { git rebase --abort; sleep 5; continue; }
             if git push origin HEAD:main; then
               echo "push 성공 (시도 $i)"
               exit 0

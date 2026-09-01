@@ -190,8 +190,27 @@ jobs:
 
           git commit -m "Run JARVIS Daiso + US Beauty Shopify Pipeline & Sync Channels"
 
-          git pull --rebase --autostash origin main
-          git push origin HEAD:main
+          # 생성 산출물은 이 실행이 만든 값이 최신이다.
+          # rebase 중 "theirs" 는 재적용 중인 우리 커밋을 뜻하므로
+          # 데이터 충돌이 나면 이 실행의 결과를 택한다.
+          # (예전에는 충돌이 나면 워크플로가 그대로 실패했다)
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            if ! git rebase -X theirs origin/main; then
+              git rebase --abort || true
+              echo "rebase 실패, 재시도 $i"
+              sleep 5
+              continue
+            fi
+            if git push origin HEAD:main; then
+              echo "push 성공 (시도 $i)"
+              exit 0
+            fi
+            echo "push 거절됨, 재시도 $i"
+            sleep 5
+          done
+          echo "5회 시도 후 push 실패"
+          exit 1
 
       - name: Complete summary
         if: always()

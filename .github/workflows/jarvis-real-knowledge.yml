@@ -128,7 +128,7 @@ jobs:
             fi
             echo "push rejected, rebasing (attempt ${attempt})"
             git fetch origin main
-            git rebase --autostash origin/main || { git rebase --abort || true; exit 1; }
+            git rebase -X theirs --autostash origin/main || { git rebase --abort || true; sleep 5; continue; }
             sleep $(( attempt * 5 ))
           done
           echo "push failed after 3 attempts"
