@@ -2,7 +2,7 @@
 title: "Record 151 · Theres-A-Version-Of-Blythe-Doll-Makeup-For-Every-Skin-Hair--Eye-Color-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-01T05:10:53.640849+00:00
+updated_at: 2026-09-01T06:27:52.710582+00:00
 tags: [{', '.join(tags)}]
 ---
 
@@ -10,9 +10,9 @@ tags: [{', '.join(tags)}]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibkFVX3lxTE0zZG1ZeEIwbDJxSUR3TVpGelJZSmFrVjUxRy1RMVNsSkpNS0d3Zml5RHpLWkI5S0ZZUEJ5YWNIel93VEJGQWYtNUtZYmNVVzFZczkydDE5OUJHMW5nM0hDVk9MY202aXhqZDdnb29B?oc=5)
 
-**제목:** There's A Version Of "Blythe Doll Makeup" For Every Skin, Hair, & Eye Color - bustle.com
+**제목:** There's A Version Of "Blythe Doll Makeup" For Every Skin, Hair, & Eye Color - Bustle
 
-There's A Version Of "Blythe Doll Makeup" For Every Skin, Hair, & Eye Color - bustle.com
+There's A Version Of "Blythe Doll Makeup" For Every Skin, Hair, & Eye Color - Bustle
 
 **출처:** Source · Google Search
 

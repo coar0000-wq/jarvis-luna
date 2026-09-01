@@ -2,7 +2,7 @@
 title: "Record 311 · CJ-Olive-Young-targets-US-K-beauty-growth-with-12-trillion-sales-goal-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-01T05:10:53.659021+00:00
+updated_at: 2026-09-01T06:27:52.723817+00:00
 tags: [{', '.join(tags)}]
 ---
 

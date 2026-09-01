@@ -2,7 +2,7 @@
 title: "Record 099 · 24-Korean-Skin-Care-Products-That-Will-Completely-Transform-Your-Routi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-01T05:10:53.634188+00:00
+updated_at: 2026-09-01T06:27:52.706626+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 296 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---CNN"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-01T05:10:53.657376+00:00
+updated_at: 2026-09-01T06:27:52.722553+00:00
 tags: [{', '.join(tags)}]
 ---
 
