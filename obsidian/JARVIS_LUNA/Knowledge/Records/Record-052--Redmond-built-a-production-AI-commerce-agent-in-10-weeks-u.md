@@ -2,7 +2,7 @@
 title: "Record 052 · Redmond-built-a-production-AI-commerce-agent-in-10-weeks-using-Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-01T06:27:52.703300+00:00
+updated_at: 2026-09-01T11:41:16.671062+00:00
 tags: [{', '.join(tags)}]
 ---
 
@@ -10,9 +10,9 @@ tags: [{', '.join(tags)}]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ZV0hyUkdMdEhWWkNVV3k3aUtLdm1kTjR3c1ctUFdxNEFObnRtaWlIMVBzT3k4SWJMZ0NHSVM0dmJPVjJrdnNYWTBzSFdZUkk5dFZOVXhsZw?oc=5)
 
-**제목:** Redmond built a production AI commerce agent in 10 weeks using Shopify's Storefront MCP - Shopify
+**제목:** Redmond built a production AI commerce agent in 10 weeks using Shopify's Storefront MCP - shopify.com
 
-Redmond built a production AI commerce agent in 10 weeks using Shopify's Storefront MCP - Shopify
+Redmond built a production AI commerce agent in 10 weeks using Shopify's Storefront MCP - shopify.com
 
 **출처:** Source · Google Search
 

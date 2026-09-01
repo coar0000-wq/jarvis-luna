@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T15:31:16.483128+09:00",
+  "generated_at": "2026-09-01T20:45:26.225052+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "755개 코퍼스 레코드"
+      "detail": "762개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "774개 노트 · 6346개 링크 · 끊어진 링크 0개"
+      "detail": "781개 노트 · 6402개 링크 · 끊어진 링크 0개"
     },
     {
       "id": "dashboard",
@@ -25,7 +25,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "755건 · 3 experts · 정확도 79.21%"
+      "detail": "762건 · 3 experts · 정확도 79.27%"
     },
     {
       "id": "publish",
@@ -36,40 +36,40 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 755,
+    "record_count": 762,
     "source_counts": {},
-    "updated_at": "2026-09-01T15:27:20.966086+09:00"
+    "updated_at": "2026-09-01T20:41:16.252826+09:00"
   },
   "graph": {
-    "notes": 774,
-    "links": 6346,
+    "notes": 781,
+    "links": 6402,
     "dangling_links": 0,
-    "records": 755,
+    "records": 762,
     "sources": 4,
     "topics": 6,
     "audit": "passed",
-    "last_generated": "2026-09-01T15:27:52.778358+09:00"
+    "last_generated": "2026-09-01T20:41:16.785617+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 755,
+    "records": 762,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.7920529801324503,
-    "validation_accuracy": 0.8074074074074075,
-    "final_loss": 0.43398075488854093,
-    "gate_load_std": 0.42972652808771367,
+    "accuracy": 0.7926509186351706,
+    "validation_accuracy": 0.8014705882352942,
+    "final_loss": 0.43546985405660715,
+    "gate_load_std": 0.4283663126818244,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-01T06:31:16.409592+00:00"
+    "updated_at": "2026-09-01T11:45:26.114185+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 755,
-      "notes": 774,
-      "links": 6346
+      "records": 762,
+      "notes": 781,
+      "links": 6402
     },
     "prior_totals": {
       "records": 755,
@@ -77,14 +77,14 @@
       "links": 6346
     },
     "added_this_run": {
-      "records": 0,
-      "notes": 0,
-      "links": 0
+      "records": 7,
+      "notes": 7,
+      "links": 56
     },
     "current_snapshot": {
-      "records": 755,
-      "notes": 774,
-      "links": 6346
+      "records": 762,
+      "notes": 781,
+      "links": 6402
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -333,78 +333,5 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-01"
   },
-  "last_synced": "09. 01. 오후 03:31 KST",
-  "global_channels_status": {
-    "amazon_best_sellers": {
-      "status": "disabled",
-      "source": "-",
-      "reason": "하드코딩 카탈로그였어서 2026-08-31 비활성화. PA-API 5.0 은 신규 가입 중단 + 2026-05-15 지원 종료이고, 후속 Creators API 는 최근 30일 어필리에이트 판매 10건 이상이 필요하며 데이터 보존 24시간 제한이 있어 순위를 저장할 수 없다.",
-      "collected_at": "",
-      "count": 0,
-      "trust": "none"
-    },
-    "walmart_beauty": {
-      "status": "disabled",
-      "source": "-",
-      "reason": "하드코딩 카탈로그였어서 2026-08-31 비활성화. Affiliate API 는 승인된 파트너 전용이라 일반 상품·가격 데이터를 받을 수 없다.",
-      "collected_at": "",
-      "count": 0,
-      "trust": "none"
-    },
-    "oliveyoung_us": {
-      "status": "ok",
-      "source": "us.oliveyoung.com/best-sellers 실수집",
-      "reason": "수집기 미실행",
-      "collected_at": "2026-09-01T06:27:52.152231+00:00",
-      "count": 15
-    },
-    "google_trends_us": {
-      "status": "disabled",
-      "source": "-",
-      "reason": "Google Trends 공식 API는 승인제 alpha. 승인 전까지 비활성화.",
-      "collected_at": "",
-      "count": 0,
-      "trust": "none"
-    },
-    "shopify_demand_matching": {
-      "status": "disabled",
-      "source": "-",
-      "reason": "demand_score·predicted_orders·expected_roas 가 조작값이라 삭제. 실측 지표 확보 후 재설계.",
-      "collected_at": "",
-      "count": 0,
-      "trust": "none"
-    },
-    "tiktok_shop_us": {
-      "status": "empty",
-      "source": "data/tiktok_shop_us_products.json",
-      "reason": "TikTok 공개 수집 파일 없음",
-      "collected_at": "",
-      "count": 0,
-      "trust": "none"
-    },
-    "ulta_beauty": {
-      "status": "empty",
-      "source": "-",
-      "reason": "봇 차단으로 직접 파싱 불가. Gemini url_context 수집기 미실행.",
-      "collected_at": "",
-      "count": 0,
-      "trust": "none"
-    },
-    "sephora": {
-      "status": "empty",
-      "source": "-",
-      "reason": "봇 차단으로 직접 파싱 불가. Gemini url_context 수집기 미실행.",
-      "collected_at": "",
-      "count": 0,
-      "trust": "none"
-    },
-    "open_beauty_facts": {
-      "status": "ok",
-      "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
-      "reason": "수집기 미실행",
-      "collected_at": "2026-09-01T06:27:42.599988+00:00",
-      "count": 15
-    }
-  },
-  "data_integrity_note": "2026-08-31 가짜 데이터 제거. 하드코딩 카탈로그와 폴백 샘플을 삭제했으며 비어 있는 채널은 실제 수집이 없다는 뜻이다. 실데이터 채널: 다이소 실수집, 환율, arXiv, Google CSE."
+  "last_synced": "09. 01. 오후 03:31 KST"
 }

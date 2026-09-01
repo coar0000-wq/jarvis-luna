@@ -1,18 +1,18 @@
 ---
-title: "Record 058 · Why-is-exhaustion-and-sleepy-girl-makeup-trending-right-now---RUSSH"
+title: "Record 058 · Why-is-exhaustion-and-sleepy-girl-makeup-trending-right-now---russhcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-01T06:27:52.703686+00:00
+updated_at: 2026-09-01T11:41:16.671907+00:00
 tags: [{', '.join(tags)}]
 ---
 
-# Record 058 · Why-is-exhaustion-and-sleepy-girl-makeup-trending-right-now---RUSSH
+# Record 058 · Why-is-exhaustion-and-sleepy-girl-makeup-trending-right-now---russhcom
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiW0FVX3lxTE92aEgyZTRpa0p4V1dxMkhqYnRYRHBSUE1TTDdTbXhfcHRsd29HNldrY0ZUd3ptcXRpWEd1dmRKakk1cnNwa2NyUVlma2ttbmc5d21DcFBxM2lPS3M?oc=5)
 
-**제목:** Why is exhaustion and sleepy girl makeup trending right now? - RUSSH
+**제목:** Why is exhaustion and sleepy girl makeup trending right now? - russh.com
 
-Why is exhaustion and sleepy girl makeup trending right now? - RUSSH
+Why is exhaustion and sleepy girl makeup trending right now? - russh.com
 
 **출처:** Source · Google Search
 

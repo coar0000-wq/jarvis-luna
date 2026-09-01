@@ -2,7 +2,7 @@
 title: "Record 115 · How-To-Nail-TikToks-Sade-Girl-Makeup-Trend-This-Winter---essencecom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-01T06:27:52.707814+00:00
+updated_at: 2026-09-01T11:41:16.679734+00:00
 tags: [{', '.join(tags)}]
 ---
 

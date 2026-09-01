@@ -2,7 +2,7 @@
 title: "Record 252 · 33-Turn-to-AI-Shopify-UCP-Advances-AI-Powered-Shopping---newsdesignrus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-01T06:27:52.718710+00:00
+updated_at: 2026-09-01T11:41:16.698687+00:00
 tags: [{', '.join(tags)}]
 ---
 
