@@ -1,0 +1,15 @@
+{
+  "source_url": "여기에 실제로 본 페이지 주소를 넣으세요",
+  "captured_at": "2026-09-01",
+  "note": "이 파일은 템플릿입니다. 복사해서 ulta_2026-09-01.json 같은 이름으로 저장하세요.",
+  "products": [
+    {
+      "rank": 1,
+      "product": "상품명 전체",
+      "brand": "브랜드",
+      "price_usd": 0,
+      "rating": null,
+      "review_count": null
+    }
+  ]
+}

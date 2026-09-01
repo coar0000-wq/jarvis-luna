@@ -100,27 +100,44 @@ def channel(items, source, status="ok", reason="", collected_at=""):
     }
 
 
-def ai_channel(direct, ai_rows, direct_at, ai_at, model, ai_reason):
-    """직접 파싱 결과를 우선하고, 없으면 Gemini 추출로 채운다.
+def tiered_channel(key, direct=None, direct_at="", model=""):
+    """세 경로를 신뢰 순으로 시도한다.
 
-    두 경로의 신뢰 등급이 다르므로 trust 필드로 구분한다.
-    직접 파싱은 verified, Gemini 추출은 ai_extracted 다.
-    둘 다 없으면 빈 채널로 두고 사유를 남긴다.
+      1) verified  결정적 파싱 (숫자를 그대로 가져옴)
+      2) manual    사람이 실제 페이지를 보고 입력 (data/manual/)
+      3) ai_extracted  Gemini url_context (LLM 이 읽어 옮김)
+
+    셋 다 없으면 빈 채널로 두고 각 경로가 왜 실패했는지 적는다.
     """
     if direct:
         c = channel(direct, "공개 페이지 직접 파싱", collected_at=direct_at)
         c["trust"] = "verified"
         return c
+
+    man_rows, man_at, man_src, man_meta = from_manual(key)
+    if man_rows:
+        c = channel(man_rows, f"수동 입력 · {man_src}", collected_at=man_at)
+        c["trust"] = "manual"
+        c["captured_at"] = man_at
+        c["age_days"] = man_meta.get("age_days")
+        if man_meta.get("stale"):
+            c["reason"] = (f"{man_meta.get('age_days')}일 전 스냅샷이라 낡았습니다. "
+                           "data/manual/ 에 최신 파일을 넣어주세요.")
+        return c
+
+    ai_rows, ai_at, ai_why, gmodel = from_gemini_web(key)
     if ai_rows:
-        c = channel(ai_rows, f"Gemini url_context 추출 ({model})", collected_at=ai_at)
+        c = channel(ai_rows, f"Gemini url_context 추출 ({gmodel or model})",
+                    collected_at=ai_at)
         c["trust"] = "ai_extracted"
         c["reason"] = ("LLM 이 페이지를 읽어 옮긴 값이다. 직접 파싱보다 신뢰도가 낮아 "
                        "가격 정책 계산에는 사용하지 않는다.")
         return c
+
     c = channel([], "-", "empty", reason=(
-        "봇 차단으로 직접 파싱 불가. "
-        + (f"Gemini url_context 도 실패: {ai_reason}" if ai_reason
-           else "Gemini url_context 수집기 미실행.")))
+        "자동 수집 불가. "
+        + (f"Gemini url_context 도 실패: {ai_why}. " if ai_why else "")
+        + "data/manual/ 에 직접 확인한 데이터를 넣으면 반영됩니다."))
     c["trust"] = "none"
     return c
 
@@ -182,6 +199,35 @@ def from_oliveyoung_us():
     rows.sort(key=lambda x: x["rank"] or 999)
     return (unique_take(rows, lambda x: x["product"].lower()),
             d.get("collected_at") or "", d.get("reason") or "")
+
+
+def from_manual(key: str):
+    """사람이 직접 확인해 넣은 데이터. data/manual/ 참조."""
+    d = load_json(DATA / "manual_channels.json", {})
+    if not isinstance(d, dict):
+        return [], "", "", {}
+    ch = (d.get("channels") or {}).get(key) or {}
+    rows = []
+    for p in ch.get("products") or []:
+        name = (p.get("product") or "").strip()
+        if not is_good_name(name):
+            continue
+        price = p.get("price_usd")
+        rows.append({
+            "product": name,
+            "brand": p.get("brand") or "",
+            "sub": p.get("brand") or "",
+            "badge": f"${price:.2f}" if isinstance(price, (int, float)) else "",
+            "price": price,
+            "rating": p.get("rating"),
+            "review_count": p.get("review_count"),
+            "rank": p.get("rank") or 0,
+            "url": p.get("source_url") or "",
+            "extraction_method": "manual_screenshot",
+        })
+    rows.sort(key=lambda x: x["rank"] or 999)
+    return (unique_take(rows, lambda x: x["product"].lower()),
+            ch.get("captured_at") or "", ch.get("source_url") or "", ch)
 
 
 def from_gemini_web(key: str):
@@ -282,30 +328,23 @@ def build_global_channels():
 
     # Ulta/Sephora 는 봇 차단으로 직접 파싱이 안 된다.
     # Gemini url_context 결과가 있으면 쓰되 신뢰 등급을 낮게 표시한다.
-    ulta_g, ulta_at, ulta_why, gmodel = from_gemini_web("ulta_beauty")
-    seph_g, seph_at, seph_why, _ = from_gemini_web("sephora")
+    _, _, _, gmodel = from_gemini_web("ulta_beauty")
 
     return {
-        "amazon_best_sellers": channel([], "-", "disabled", AMAZON_NOTE),
-        "walmart_beauty": channel([], "-", "disabled", WALMART_NOTE),
+        "amazon_best_sellers": tiered_channel("amazon_best_sellers"),
+        "walmart_beauty": tiered_channel("walmart_beauty"),
         "oliveyoung_us": channel(
             oy_items, "us.oliveyoung.com/best-sellers 실수집",
             collected_at=oy_at,
             reason=oy_reason or "수집기 미실행"),
-        "google_trends_us": channel(
-            [], "-", "disabled",
-            "Google Trends 공식 API는 승인제 alpha. 승인 전까지 비활성화."),
+        "google_trends_us": tiered_channel("google_trends_us"),
         "shopify_demand_matching": channel(
             [], "-", "disabled",
             "demand_score·predicted_orders·expected_roas 가 조작값이라 삭제. "
             "실측 지표 확보 후 재설계."),
-        "tiktok_shop_us": channel(
-            from_tiktok(), "data/tiktok_shop_us_products.json",
-            reason="TikTok 공개 수집 파일 없음"),
-        "ulta_beauty": ai_channel(
-            from_us_beauty("Ulta"), ulta_g, us_at, ulta_at, gmodel, ulta_why),
-        "sephora": ai_channel(
-            from_us_beauty("Sephora"), seph_g, us_at, seph_at, gmodel, seph_why),
+        "tiktok_shop_us": tiered_channel("tiktok_shop_us", direct=from_tiktok()),
+        "ulta_beauty": tiered_channel("ulta_beauty", from_us_beauty("Ulta"), us_at, gmodel),
+        "sephora": tiered_channel("sephora", from_us_beauty("Sephora"), us_at, gmodel),
         "open_beauty_facts": channel(
             obf_items, "world.openbeautyfacts.org /api/v2 (오픈데이터)",
             collected_at=obf_at,

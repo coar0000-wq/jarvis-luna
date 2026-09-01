@@ -76,6 +76,10 @@ jobs:
         continue-on-error: true
         run: python scripts/collect_oliveyoung_us.py
 
+      - name: 수동 입력 채널 반영 (data/manual/)
+        continue-on-error: true
+        run: python scripts/ingest_manual_channels.py
+
       # =========================
       # TRAINING
       # =========================
