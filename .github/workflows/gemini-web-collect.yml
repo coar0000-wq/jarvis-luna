@@ -78,13 +78,47 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/gemini_web_channels.json
-          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
-          git commit -m "Gemini url_context 웹 채널 수집 갱신"
-          for i in 1 2 3 4 5; do
-            git fetch origin main
-            git rebase -X theirs origin/main || { git rebase --abort; sleep 5; continue; }
-            if git push origin HEAD:main; then echo "push 성공 (시도 $i)"; exit 0; fi
-            sleep 5
+
+          # 이번 실행이 만든 산출물을 임시 커밋으로 고정
+          for pth in data/gemini_web_channels.json; do
+            git add -A -- "$pth" 2>/dev/null || true
           done
+          if git diff --cached --quiet; then
+            echo "생성된 변경 없음"
+            exit 0
+          fi
+          git commit -q -m "wip"
+          MINE=$(git rev-parse HEAD)
+
+          # 원격 최신을 베이스로 두고 그 위에 우리 산출물만 얹는다.
+          # rebase 를 쓰지 않으므로 add/add 충돌이 구조적으로 발생하지 않는다.
+          # (2026-09-01: rebase 방식이 manual_channels.json 충돌로 계속 실패해 교체)
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main
+            git checkout -q -B publish origin/main
+            RESTORED=0
+            for pth in data/gemini_web_channels.json; do
+              if git checkout -q "$MINE" -- "$pth" 2>/dev/null; then
+                RESTORED=$((RESTORED+1))
+              fi
+              git add -A -- "$pth" 2>/dev/null || true
+            done
+            if [ "$RESTORED" -eq 0 ]; then
+              echo "산출물 복원 실패 - 중단"
+              exit 1
+            fi
+            if git diff --cached --quiet; then
+              echo "원격과 동일 - 푸시 불필요"
+              exit 0
+            fi
+            git commit -q -m "Gemini url_context 웹 채널 수집 갱신"
+            if git push -q origin HEAD:main; then
+              echo "push 성공 (시도 $i, 복원 경로 ${RESTORED}개)"
+              exit 0
+            fi
+            echo "push 거절됨, 재시도 $i"
+            git reset -q --hard "$MINE"
+            sleep $((i * 4))
+          done
+          echo "5회 시도 후 push 실패"
           exit 1
