@@ -253,6 +253,14 @@ nav a{font-size:12px;}
 .pm-warn b{color:#ff7b72;}
 .pm-src{font-size:11px;color:#6e7681;line-height:1.65;margin-top:9px;}
 .ch-ai{display:inline-block;font-size:10px;font-weight:700;color:#d29922;background:rgba(210,153,34,.12);border:1px solid rgba(210,153,34,.28);border-radius:999px;padding:2px 7px;margin-right:7px;}
+
+/* 마케팅 조사 분석팀 */
+.mt-note{font-size:13px;color:#8b949e;margin:-8px 0 18px 2px;line-height:1.6;}
+.mt-tags{margin-top:7px;display:flex;flex-wrap:wrap;gap:5px;}
+.mt-tag{font-size:10.5px;color:#7ee787;background:rgba(126,231,135,.09);
+  border:1px solid rgba(126,231,135,.2);border-radius:5px;padding:2px 7px;}
+.sd-score small{display:block;font-size:10px;font-weight:400;color:#8b949e;margin-top:3px;}
+.mkt-badge.amber{background:rgba(210,153,34,.13);color:#d29922;border:1px solid rgba(210,153,34,.26);}
 </style>
 </head>
 <body>
@@ -386,6 +394,44 @@ nav a{font-size:12px;}
       <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
     </ul>
   </div>
+
+
+<!-- 마케팅 조사 분석팀 -->
+<div class="section-header">📈 마케팅 조사 분석팀</div>
+<div class="mt-note" id="mt-note">불러오는 중…</div>
+
+<div class="stats-section stats-merged">
+<div class="dashboard-card sd-card">
+  <div class="sd-header">
+    <div class="sd-title"><span class="icon">🎯</span>등록 우선순위 (S등급)</div>
+  </div>
+  <div id="mt-health"></div>
+  <ul class="sd-list" id="mt-priority">
+    <li style="color:#666;font-size:13px;">데이터 로딩 중…</li>
+  </ul>
+</div>
+</div>
+
+<div class="dashboard-grid">
+  <div class="dashboard-card">
+    <h4><span class="dashboard-card-icon">🔑</span>키워드 보드</h4>
+    <ul class="mkt-list" id="mt-keywords">
+      <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
+    </ul>
+  </div>
+  <div class="dashboard-card">
+    <h4><span class="dashboard-card-icon">⚔️</span>경쟁군 (미국 실판매)</h4>
+    <ul class="mkt-list" id="mt-competitors">
+      <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
+    </ul>
+  </div>
+  <div class="dashboard-card">
+    <h4><span class="dashboard-card-icon">✅</span>이번 주 할 일</h4>
+    <ul class="mkt-list" id="mt-actions">
+      <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
+    </ul>
+  </div>
+</div>
 
 <!-- Core Dashboard Grid -->
 <div class="section-header">📊 핵심 시스템 현황 및 디스커버리</div>
@@ -746,6 +792,100 @@ list.innerHTML=items.map((p,i)=>{
 }).join('');
 }
 
+
+function renderMarketTeam(mt){
+  const note=$('mt-note'), pri=$('mt-priority'), kw=$('mt-keywords'),
+        cp=$('mt-competitors'), ac=$('mt-actions'), hl=$('mt-health');
+  if(!note) return;
+
+  if(!mt || !mt.team){
+    note.textContent='market_team.json 이 없습니다. scripts/build_market_team.py 를 실행하세요.';
+    [pri,kw,cp,ac].forEach(el=>{ if(el) el.innerHTML='<li class="ch-empty"><span class="ch-badge">데이터 없음</span></li>'; });
+    return;
+  }
+
+  const h=mt.health||{}, tm=mt.team||{}, tg=mt.target_market||{};
+  const band=tg.price_band_usd||{};
+  note.innerHTML=esc(tm.scope||'')+
+    ' · 갱신 '+esc((tm.updated_at||'').slice(0,16).replace('T',' '))+
+    (band.p25?'<br><span class="ch-note-sub">미국 시장가 하위25% $'+band.p25+' · 중앙값 $'+band.median+' ('+esc(band.n||0)+'건 실수집)</span>':'');
+
+  // 상태 타일
+  if(hl){
+    const t=(c,k,v,u)=>'<div class="dz-tile '+c+'"><div class="k">'+k+'</div><div class="v">'+v+'</div>'+(u?'<div class="u">'+u+'</div>':'')+'</div>';
+    hl.innerHTML='<div class="dz-grid">'+
+      t('dz-green','S등급 후보',(h.s_count||0)+'개','영문 카피 준비 '+(h.listing_ready_count||0)+'건')+
+      t('dz-blue','실데이터 채널',(h.signals_live||0)+'/'+(h.signals_total||0),
+        h.trust_graded?('검증 '+(h.signals_verified||0)+'개'):'신뢰 등급 미판정')+
+      t('dz-amber','적용 환율',h.exchange_rate?Number(h.exchange_rate).toLocaleString('ko-KR'):'–','KRW/USD')+
+      t('dz-slate','최근 점수 산출',esc(h.last_score_run||'–'),'원가 모델 '+esc(h.last_pricing_run||'–'))+
+    '</div>';
+  }
+
+  // 등록 우선순위
+  const rows=mt.s_grade_priority||[];
+  if(pri){
+    pri.innerHTML = rows.length ? rows.map(r=>{
+      const money = (r.suggested_price_usd!=null && r.landed_cost_usd!=null)
+        ? '<div class="sd-sell">$'+Number(r.suggested_price_usd).toFixed(2)+
+          '<small>착지 $'+Number(r.landed_cost_usd).toFixed(2)+
+          (r.margin_pct!=null?' · 마진 '+r.margin_pct+'%':'')+'</small></div>' : '';
+      const tags=(r.ad_keywords||[]).slice(0,4).map(t=>'<span class="mt-tag">'+esc(t)+'</span>').join('');
+      return '<li class="sd-item">'+
+        '<div class="sd-rank">'+(r.rank||'')+'</div>'+
+        '<div class="sd-main">'+
+          '<div class="sd-name">'+esc(r.name||'')+'</div>'+
+          (r.name_en?'<div class="sd-meta" style="color:#58a6ff;">'+esc(r.name_en)+'</div>':
+            '<div class="sd-meta" style="color:#8b949e;">영문 카피 미생성</div>')+
+          '<div class="sd-meta">'+esc(r.bucket||'')+
+            (r.rating?' · 평점 '+r.rating:'')+
+            (r.review_count?' · 리뷰 '+Number(r.review_count).toLocaleString('ko-KR'):'')+
+            (r.cost_krw?' · 원가 '+Number(r.cost_krw).toLocaleString('ko-KR')+'원':'')+'</div>'+
+          (tags?'<div class="mt-tags">'+tags+'</div>':'')+
+        '</div>'+
+        money+
+        '<div class="sd-score">'+(r.score!=null?r.score:'–')+'점<small>'+esc(r.shopify_action||'')+'</small></div>'+
+      '</li>';
+    }).join('') : '<li class="ch-empty"><span class="ch-badge">S등급 없음</span></li>';
+  }
+
+  // 키워드 보드
+  if(kw){
+    const b=mt.keyword_board||[];
+    kw.innerHTML = b.length ? b.slice(0,8).map(k=>{
+      const ex=(k.us_market_examples||[])[0];
+      return '<li class="mkt-item"><div class="mkt-main">'+
+        '<div class="mkt-title">'+esc(k.seed||'')+'</div>'+
+        '<div class="mkt-sub">S등급 '+(k.s_product_count||0)+'건'+
+          (ex?' · US '+esc((ex.product||'').slice(0,34))+' $'+ex.price_usd:' · 미국 매칭 없음')+'</div>'+
+      '</div><span class="mkt-badge amber">추세 미연동</span></li>';
+    }).join('')+'<li class="ch-src">검색 추세는 Google Trends 공식 API 승인 전까지 채우지 않습니다.</li>'
+      : '<li class="ch-empty"><span class="ch-badge">키워드 없음</span></li>';
+  }
+
+  // 경쟁군
+  if(cp){
+    const c=mt.competitor_watch||[];
+    cp.innerHTML = c.length ? c.slice(0,8).map(x=>
+      '<li class="mkt-item"><div class="mkt-main">'+
+        '<div class="mkt-title">'+esc(x.name||'')+'</div>'+
+        '<div class="mkt-sub">'+esc(x.brand||'')+' · US '+(x.us_rank||'-')+'위 · '+esc(x.daiso_bucket||'')+'</div>'+
+      '</div><span class="mkt-badge green">$'+(x.price_usd!=null?Number(x.price_usd).toFixed(2):'-')+'</span></li>'
+    ).join('')+'<li class="ch-src">출처: us.oliveyoung.com/best-sellers 실수집</li>'
+      : '<li class="ch-empty"><span class="ch-badge">경쟁군 없음</span></li>';
+  }
+
+  // 주간 액션
+  if(ac){
+    const a=mt.weekly_actions||[];
+    ac.innerHTML = a.length ? a.map((x,i)=>
+      '<li class="mkt-item"><div class="mkt-main">'+
+        '<div class="mkt-title" style="font-weight:500;font-size:13px;line-height:1.55;">'+esc(x)+'</div>'+
+      '</div><span class="mkt-badge blue">'+(i+1)+'</span></li>'
+    ).join('') : '<li class="ch-empty"><span class="ch-badge">액션 없음</span></li>';
+  }
+}
+
 function renderMarketingChannels(d){
   const gc = d.global_channels || {};
 
@@ -887,14 +1027,15 @@ set('updated-at',msg);
 }
 
 async function loadData(){
-const [rt,tr,src,daiso,sd,sRec,pm]=await Promise.allSettled([
+const [rt,tr,src,daiso,sd,sRec,pm,mkt]=await Promise.allSettled([
 getJSON('data/dashboard_runtime.json'),
 getJSON('data/knowledge/training_status.json'),
 getJSON('data/knowledge/real_sources.json'),
 getJSON('data/daiso_real/collection_status.json'),
 getJSON('data/daiso_real/shopify_demand_score.json'),
 getJSON('data/daiso_real/shopify_s_recommendations.json'),
-getJSON('data/pricing_model.json')
+getJSON('data/pricing_model.json'),
+getJSON('data/market_team.json')
 ]);
 window.__pricing = pm.status==='fulfilled' ? pm.value : null;
 if(rt.status==='fulfilled'){
@@ -938,6 +1079,7 @@ window.__sRec = sRec.status==='fulfilled'?sRec.value:null;
 renderDaiso(daiso.status==='fulfilled'?daiso.value:null, window.__sRec);
 renderShopifyDemand(sd.status==='fulfilled'?sd.value:null, window.__sRec);
 if(window.__runtime) renderMarketingChannels(window.__runtime);
+renderMarketTeam(mkt.status==='fulfilled'?mkt.value:null);
 }
 
 document.addEventListener('DOMContentLoaded',loadData);
