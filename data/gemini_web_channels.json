@@ -1,0 +1,5 @@
+{
+  "note": "아직 수집되지 않음. GEMINI_API_KEY 설정 후 scripts/collect_via_gemini.py 실행 필요.",
+  "total": 0,
+  "channels": {}
+}

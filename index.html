@@ -252,6 +252,7 @@ nav a{font-size:12px;}
 .pm-warn{color:#f0883e;background:rgba(240,136,62,.08);border:1px solid rgba(240,136,62,.22);border-radius:10px;padding:10px 12px;margin-top:12px;font-size:12.5px;line-height:1.6;}
 .pm-warn b{color:#ff7b72;}
 .pm-src{font-size:11px;color:#6e7681;line-height:1.65;margin-top:9px;}
+.ch-ai{display:inline-block;font-size:10px;font-weight:700;color:#d29922;background:rgba(210,153,34,.12);border:1px solid rgba(210,153,34,.28);border-radius:999px;padding:2px 7px;margin-right:7px;}
 </style>
 </head>
 <body>
@@ -786,8 +787,13 @@ function renderMarketingChannels(d){
     const meta = st[key] || {};
     const src = meta.source && meta.source !== '-' ? meta.source : '';
     const when = (meta.collected_at||'').slice(0,10);
+    // 직접 파싱과 LLM 추출은 신뢰 등급이 다르다. 화면에서 구분한다.
+    const trust = meta.trust === 'ai_extracted'
+      ? '<span class="ch-ai">AI 추출</span>' : '';
+    const warn = meta.trust === 'ai_extracted' && meta.reason
+      ? '<div class="ch-reason">'+esc(meta.reason)+'</div>' : '';
     const foot = (src||when)
-      ? '<li class="ch-src">출처: '+esc(src||'-')+(when?' · '+esc(when):'')+'</li>' : '';
+      ? '<li class="ch-src">'+trust+'출처: '+esc(src||'-')+(when?' · '+esc(when):'')+warn+'</li>' : '';
 
     el.innerHTML = items.slice(0,5).map(i=>{
       const m = mapFn(i);

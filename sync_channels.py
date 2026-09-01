@@ -87,6 +87,8 @@ def channel(items, source, status="ok", reason="", collected_at=""):
     if status == "ok" and not items:
         status = "empty"
         reason = reason or "실제 수집 결과 없음"
+    elif items:
+        reason = ""          # 데이터가 있으면 실패 사유를 남기지 않는다
     return {
         "items": items,
         "status": status,
@@ -94,7 +96,33 @@ def channel(items, source, status="ok", reason="", collected_at=""):
         "reason": reason,
         "collected_at": collected_at,
         "count": len(items),
+        "trust": "verified" if items else "none",
     }
+
+
+def ai_channel(direct, ai_rows, direct_at, ai_at, model, ai_reason):
+    """직접 파싱 결과를 우선하고, 없으면 Gemini 추출로 채운다.
+
+    두 경로의 신뢰 등급이 다르므로 trust 필드로 구분한다.
+    직접 파싱은 verified, Gemini 추출은 ai_extracted 다.
+    둘 다 없으면 빈 채널로 두고 사유를 남긴다.
+    """
+    if direct:
+        c = channel(direct, "공개 페이지 직접 파싱", collected_at=direct_at)
+        c["trust"] = "verified"
+        return c
+    if ai_rows:
+        c = channel(ai_rows, f"Gemini url_context 추출 ({model})", collected_at=ai_at)
+        c["trust"] = "ai_extracted"
+        c["reason"] = ("LLM 이 페이지를 읽어 옮긴 값이다. 직접 파싱보다 신뢰도가 낮아 "
+                       "가격 정책 계산에는 사용하지 않는다.")
+        return c
+    c = channel([], "-", "empty", reason=(
+        "봇 차단으로 직접 파싱 불가. "
+        + (f"Gemini url_context 도 실패: {ai_reason}" if ai_reason
+           else "Gemini url_context 수집기 미실행.")))
+    c["trust"] = "none"
+    return c
 
 
 def from_us_beauty(source_substr: str):
@@ -154,6 +182,38 @@ def from_oliveyoung_us():
     rows.sort(key=lambda x: x["rank"] or 999)
     return (unique_take(rows, lambda x: x["product"].lower()),
             d.get("collected_at") or "", d.get("reason") or "")
+
+
+def from_gemini_web(key: str):
+    """Gemini url_context 수집 결과.
+
+    LLM 이 페이지를 읽어 옮긴 값이라 결정적 파싱보다 신뢰도가 낮다.
+    반환값에 trust 를 실어 대시보드가 'AI 추출' 로 구분 표시하게 한다.
+    """
+    d = load_json(DATA / "gemini_web_channels.json", {})
+    if not isinstance(d, dict):
+        return [], "", "", ""
+    ch = (d.get("channels") or {}).get(key) or {}
+    rows = []
+    for p in ch.get("products") or []:
+        name = (p.get("product") or "").strip()
+        if not is_good_name(name):
+            continue
+        price = p.get("price_usd")
+        rows.append({
+            "product": name,
+            "brand": p.get("brand") or "",
+            "price": price,
+            "badge": f"${price:.2f}" if isinstance(price, (int, float)) else "",
+            "rating": p.get("rating"),
+            "review_count": p.get("review_count"),
+            "url": p.get("source_url") or "",
+            "extraction_method": "gemini_url_context",
+        })
+    return (unique_take(rows, lambda x: x["product"].lower()),
+            d.get("generated_at") or "",
+            ch.get("reason") or "",
+            d.get("model") or "")
 
 
 def from_tiktok():
@@ -220,6 +280,11 @@ def build_global_channels():
     obf_items, obf_at = from_open_beauty_facts()
     oy_items, oy_at, oy_reason = from_oliveyoung_us()
 
+    # Ulta/Sephora 는 봇 차단으로 직접 파싱이 안 된다.
+    # Gemini url_context 결과가 있으면 쓰되 신뢰 등급을 낮게 표시한다.
+    ulta_g, ulta_at, ulta_why, gmodel = from_gemini_web("ulta_beauty")
+    seph_g, seph_at, seph_why, _ = from_gemini_web("sephora")
+
     return {
         "amazon_best_sellers": channel([], "-", "disabled", AMAZON_NOTE),
         "walmart_beauty": channel([], "-", "disabled", WALMART_NOTE),
@@ -237,16 +302,10 @@ def build_global_channels():
         "tiktok_shop_us": channel(
             from_tiktok(), "data/tiktok_shop_us_products.json",
             reason="TikTok 공개 수집 파일 없음"),
-        "ulta_beauty": channel(
-            from_us_beauty("Ulta"), "ulta.com 공개 페이지 스크래핑",
-            collected_at=us_at,
-            reason="봇 차단으로 상품 목록을 가져오지 못함. 카테고리 메뉴 텍스트만 응답됨. "
-            "공식 공개 API 없음(Sephora 개발자 포털 비공개, Ulta 포털 없음)."),
-        "sephora": channel(
-            from_us_beauty("Sephora"), "sephora.com 공개 페이지 스크래핑",
-            collected_at=us_at,
-            reason="봇 차단으로 상품 목록을 가져오지 못함. 카테고리 메뉴 텍스트만 응답됨. "
-            "공식 공개 API 없음(Sephora 개발자 포털 비공개, Ulta 포털 없음)."),
+        "ulta_beauty": ai_channel(
+            from_us_beauty("Ulta"), ulta_g, us_at, ulta_at, gmodel, ulta_why),
+        "sephora": ai_channel(
+            from_us_beauty("Sephora"), seph_g, us_at, seph_at, gmodel, seph_why),
         "open_beauty_facts": channel(
             obf_items, "world.openbeautyfacts.org /api/v2 (오픈데이터)",
             collected_at=obf_at,
