@@ -1,0 +1,22 @@
+---
+title: "Record 799 · TurboBias-20-Streaming-Context-Biasing-for-Production-Efficient-ASR-Sy"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-02T16:36:36.296491+00:00
+tags: [{', '.join(tags)}]
+---
+
+# Record 799 · TurboBias-20-Streaming-Context-Biasing-for-Production-Efficient-ASR-Sy
+
+> 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.21343v1)
+
+**제목:** TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems
+
+TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems
+Contextualization is essential for production automatic speech recognition (ASR) systems, where user-provided phrases must be recognized accurately under strict latency constraints. Although many context-biasing methods improve recognition accuracy, they often do not address the practical requirements of modern production ASR systems: streaming inference, efficient batched decoding, user-specific context lists, and low runtime overhead. We propose TurboBias 2.0, a production-oriented framework for efficient phrase boosting in Transducer-based ASR systems. The framework extends GPU-accelerated TurboBias with a case-insensitive boosting graph and per-stream batched decoding, allowing each utterance in a batch to use an independent context-biasing configuration. This enables personalized context biasing for multiple simultaneous users without sharing or mixing their context lists. The proposed framework supports both offline and streaming inference and can be used with greedy and beam-search decoding. Experiments show that TurboBias 2.0 improves contextual phrase recognition while preserving low latency and high throughput.
+
+**출처:** Source · arXiv
+
+## Connected nodes
+
+[[Source--arXiv]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]
