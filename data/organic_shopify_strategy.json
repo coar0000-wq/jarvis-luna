@@ -1,0 +1,33 @@
+{
+  "updated_at": "2026-09-02T11:23:01.268304+00:00",
+  "assumption": "광고비 0원",
+  "goal": "다이소 소싱 → Shopify 유기 판매",
+  "pillars": [
+    {
+      "name": "Shopify Product Network",
+      "why": "자사에 없는 검색도 타 브랜드 상품으로 전환 — 교육 Shorts 핵심",
+      "action": "스토어에 Product Network 활성화 · 관련 컬렉션 연결"
+    },
+    {
+      "name": "SEO 리스팅",
+      "why": "광고 없이 검색 유입",
+      "action": "영문 제목에 Heartleaf/Toner/SPF50 등 미국 검색어 포함 (가입 후 카피)"
+    },
+    {
+      "name": "콘텐츠·숏폼 연계",
+      "why": "TikTok/YouTube 수요와 동일 키워드",
+      "action": "1차 테스트 10개 중 토너·선크림 위주 전후 콘텐츠 (유료광고 X)"
+    },
+    {
+      "name": "번들·최소주문",
+      "why": "배송비 구조상 낱개 적자 위험",
+      "action": "2개 이상 번들 기본 · 무료배송 임계 설계"
+    },
+    {
+      "name": "좁은 SKU",
+      "why": "39개 동시 등록보다 10개 검증이 빠름",
+      "action": "shopify_test_batch.json 10개만 1차 → 반응 좋은 것만 확장"
+    }
+  ],
+  "first_batch_file": "data/daiso_real/shopify_test_batch.json"
+}
