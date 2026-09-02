@@ -1,0 +1,232 @@
+{
+  "updated_at": "2026-09-02T11:22:46.288686+00:00",
+  "purpose": "Shopify 1차 테스트 등록 후보 (5~10개)",
+  "rule": "S등급 중 강토큰·토너/선케어 우선 · 문구/베이비/단일 weak 토큰 제외 · 가짜 없음",
+  "count": 10,
+  "organic_note": "광고비 없음 가정 · 검색·콘텐츠·Product Network·유기 트래픽 전략용 리스트",
+  "items": [
+    {
+      "pd_no": "1049271",
+      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "bucket": "토너",
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 1765,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/nWv2JvG9ZseKOt8YvImo1049271_00_01nWv2JvG9ZseKOt8YvImo.jpg",
+      "shopify_score": 100,
+      "grade": "S",
+      "match_tokens": [
+        "calming",
+        "toner"
+      ],
+      "matched_global": "ANUA Heartleaf 77 Soothing Toner",
+      "global_channel": "tiktok_shop_us",
+      "global_product": "ANUA Heartleaf 77 Soothing Toner",
+      "similarity": 0.8,
+      "quality_rank_score": 155.82,
+      "test_reason": "강토큰 2개 · sim 80% · 토너 카테고리",
+      "test_rank": 1
+    },
+    {
+      "pd_no": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "bucket": "토너",
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 938,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
+      "shopify_score": 100,
+      "grade": "S",
+      "match_tokens": [
+        "heartleaf",
+        "toner"
+      ],
+      "matched_global": "ANUA Heartleaf 77 Soothing Toner",
+      "global_channel": "tiktok_shop_us",
+      "global_product": "ANUA Heartleaf 77 Soothing Toner",
+      "similarity": 0.92,
+      "quality_rank_score": 152.89,
+      "test_reason": "강토큰 2개 · sim 92% · 토너 카테고리",
+      "test_rank": 2
+    },
+    {
+      "pd_no": "1045146",
+      "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 1449,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045146",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250425/ATDev4SQOg7J1IEOb9j01045146_00_01ATDev4SQOg7J1IEOb9j0.jpg",
+      "shopify_score": 100,
+      "grade": "S",
+      "match_tokens": [
+        "sunscreen"
+      ],
+      "matched_global": "베터 스크린 UV 세럼 SPF 50+",
+      "global_channel": "sephora",
+      "global_product": "베터 스크린 UV 세럼 SPF 50+",
+      "similarity": 0.853,
+      "quality_rank_score": 136.78,
+      "test_reason": "강토큰 1개 · sim 85% · 선케어",
+      "test_rank": 3
+    },
+    {
+      "pd_no": "1057223",
+      "name": "태그 핑크 라이트 선쿠션 15 g",
+      "bucket": "선케어",
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 1170,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057223",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240923/QryV7GdM5GG60Zul6wET1057223_00_00QryV7GdM5GG60Zul6wET.jpg",
+      "shopify_score": 100,
+      "grade": "S",
+      "match_tokens": [
+        "sunscreen"
+      ],
+      "matched_global": "베터 스크린 UV 세럼 SPF 50+",
+      "global_channel": "sephora",
+      "global_product": "베터 스크린 UV 세럼 SPF 50+",
+      "similarity": 0.853,
+      "quality_rank_score": 135.38,
+      "test_reason": "강토큰 1개 · sim 85% · 선케어",
+      "test_rank": 4
+    },
+    {
+      "pd_no": "1064529",
+      "name": "더마블록 무기자차선크림 35 ml (by 셀퓨전씨)",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.6,
+      "review_count": 349,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064529",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260429/tbdC47YquykbvmA7Ujmi1064529_00_00tbdC47YquykbvmA7Ujmi.jpg",
+      "shopify_score": 100,
+      "grade": "S",
+      "match_tokens": [
+        "sunscreen"
+      ],
+      "matched_global": "베터 스크린 UV 세럼 SPF 50+",
+      "global_channel": "sephora",
+      "global_product": "베터 스크린 UV 세럼 SPF 50+",
+      "similarity": 0.853,
+      "quality_rank_score": 131.28,
+      "test_reason": "강토큰 1개 · sim 85% · 선케어",
+      "test_rank": 5
+    },
+    {
+      "pd_no": "1048581",
+      "name": "드롭비 잡티 말끔 앰플 40 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 1595,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/dGPcdv5GMSvAapO6LS5d1048581_00_00dGPcdv5GMSvAapO6LS5d.png",
+      "shopify_score": 99,
+      "grade": "S",
+      "match_tokens": [
+        "ampoule"
+      ],
+      "matched_global": "턴오버 앰플 c-PDRN 0.5%",
+      "global_channel": "sephora",
+      "global_product": "턴오버 앰플 c-PDRN 0.5%",
+      "similarity": 0.5,
+      "quality_rank_score": 130.97,
+      "test_reason": "강토큰 1개 · sim 50%",
+      "test_rank": 6
+    },
+    {
+      "pd_no": "1062781",
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 491,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250404/6HrSkUDbK4Z2Mx8SUSMH1062781_00_016HrSkUDbK4Z2Mx8SUSMH.jpg",
+      "shopify_score": 100,
+      "grade": "S",
+      "match_tokens": [
+        "collagen",
+        "pdrn"
+      ],
+      "matched_global": "PDRN 핑크 콜라겐 볼륨 멀티밤",
+      "global_channel": "ulta_beauty",
+      "global_product": "PDRN 핑크 콜라겐 볼륨 멀티밤",
+      "similarity": 0.92,
+      "quality_rank_score": 130.66,
+      "test_reason": "강토큰 2개 · sim 92%",
+      "test_rank": 7
+    },
+    {
+      "pd_no": "1070006",
+      "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
+      "bucket": "스킨케어",
+      "price_krw": 3000,
+      "rating": 4.6,
+      "review_count": 177,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1070006",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251030/kalM4RkxRJNUe3YWQmN51070006_00_01kalM4RkxRJNUe3YWQmN5.jpg",
+      "shopify_score": 100,
+      "grade": "S",
+      "match_tokens": [
+        "serum"
+      ],
+      "matched_global": "베터 스크린 UV 세럼 SPF 50+",
+      "global_channel": "sephora",
+      "global_product": "베터 스크린 UV 세럼 SPF 50+",
+      "similarity": 0.733,
+      "quality_rank_score": 127.22,
+      "test_reason": "강토큰 1개 · sim 73%",
+      "test_rank": 8
+    },
+    {
+      "pd_no": "1060494",
+      "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 755,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060494",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260618/cK9o5Yum5W5qX59za4jy1060494_00_01cK9o5Yum5W5qX59za4jy.jpg",
+      "shopify_score": 100,
+      "grade": "S",
+      "match_tokens": [
+        "essence"
+      ],
+      "matched_global": "COSRX Advanced Snail 96 Mucin Essence",
+      "global_channel": "tiktok_shop_us",
+      "global_product": "COSRX Advanced Snail 96 Mucin Essence",
+      "similarity": 0.7,
+      "quality_rank_score": 121.78,
+      "test_reason": "강토큰 1개 · sim 70%",
+      "test_rank": 9
+    },
+    {
+      "pd_no": "1060208",
+      "name": "쿤달 콜라겐 데미지 케어 트리트먼트 150 ml",
+      "bucket": "마스크팩",
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 349,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060208",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250307/gErKTV08hXMS48eTmBbS1060208_00_01gErKTV08hXMS48eTmBbS.jpg",
+      "shopify_score": 96,
+      "grade": "S",
+      "match_tokens": [
+        "collagen"
+      ],
+      "matched_global": "바이오 콜라겐 리얼 딥 마스크",
+      "global_channel": "amazon_best_sellers",
+      "global_product": "바이오 콜라겐 리얼 딥 마스크",
+      "similarity": 0.62,
+      "quality_rank_score": 114.95,
+      "test_reason": "강토큰 1개 · sim 62%",
+      "test_rank": 10
+    }
+  ]
+}
