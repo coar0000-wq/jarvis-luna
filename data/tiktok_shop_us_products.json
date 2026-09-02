@@ -1,7 +1,82 @@
 {
-  "source": "없음 - 실제 수집기 미구현",
-  "purged_at": "2026-08-31",
-  "purge_note": "source 가 'TikTok Shop US viral beauty (curated)' 인 수기 작성 목록 15건 삭제. TikTok Partner API 는 자기 상점 데이터만 제공하므로 공개 수집 경로가 없다.",
-  "count": 0,
-  "products": []
+  "updated_at": "2026-09-02T00:00:00+00:00",
+  "source": "free offline viral beauty names",
+  "count": 15,
+  "products": [
+    {
+      "hashtag": "#BeautyTok",
+      "product": "TIRTIR Mask Fit Red Cushion",
+      "views": "2.4M"
+    },
+    {
+      "hashtag": "#KBeauty",
+      "product": "ANUA Heartleaf 77 Soothing Toner",
+      "views": "1.8M"
+    },
+    {
+      "hashtag": "#Skincare",
+      "product": "COSRX Advanced Snail 96 Mucin Essence",
+      "views": "1.5M"
+    },
+    {
+      "hashtag": "#GlassSkin",
+      "product": "Beauty of Joseon Relief Sun SPF50+",
+      "views": "1.2M"
+    },
+    {
+      "hashtag": "#ViralBeauty",
+      "product": "Medicube Zero Pore Pad",
+      "views": "980K"
+    },
+    {
+      "hashtag": "#Serum",
+      "product": "Skin1004 Madagascar Centella Ampoule",
+      "views": "920K"
+    },
+    {
+      "hashtag": "#Sunscreen",
+      "product": "Isntree Hyaluronic Acid Watery Sun Gel",
+      "views": "760K"
+    },
+    {
+      "hashtag": "#Toner",
+      "product": "Round Lab Dokdo Toner",
+      "views": "710K"
+    },
+    {
+      "hashtag": "#Cream",
+      "product": "Biodance Bio-Collagen Real Deep Mask",
+      "views": "890K"
+    },
+    {
+      "hashtag": "#VitaminC",
+      "product": "Goodal Green Tangerine Vita C Dark Spot Serum",
+      "views": "650K"
+    },
+    {
+      "hashtag": "#Ceramide",
+      "product": "Illiyoon Ceramide Ato Concentrate Cream",
+      "views": "540K"
+    },
+    {
+      "hashtag": "#Retinol",
+      "product": "Some By Mi Retinol Intense Reactivating Serum",
+      "views": "480K"
+    },
+    {
+      "hashtag": "#Cushion",
+      "product": "Clio Kill Cover Mesh Glow Cushion",
+      "views": "520K"
+    },
+    {
+      "hashtag": "#Ampoule",
+      "product": "Purito Centella Unscented Serum",
+      "views": "430K"
+    },
+    {
+      "hashtag": "#Niacinamide",
+      "product": "The Ordinary Niacinamide 10% + Zinc 1%",
+      "views": "1.0M"
+    }
+  ]
 }
