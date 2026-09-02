@@ -2,7 +2,7 @@
 title: "Record 009 · ARC-CT-Anatomy-Routed-Contrastive-Vision-Language-Learning-for-3D-Ches"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-01T15:53:58.987692+00:00
+updated_at: 2026-09-02T10:30:26.537496+00:00
 tags: [{', '.join(tags)}]
 ---
 

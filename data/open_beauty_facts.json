@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-01T15:53:58.170560+00:00",
+  "collected_at": "2026-09-02T10:30:25.530939+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -597,19 +597,6 @@
       "url": "https://world.openbeautyfacts.org/product/3517360008661"
     },
     {
-      "code": "3178040695153",
-      "product_name": "Crème de jour, Cible les rides Lift + Lissage immédiat",
-      "brands": "Diadermine",
-      "category": "메이크업",
-      "obf_category": "face-creams",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "Aqua (Water, Eau) Hexanediol Glycerin Arachidyl Alcohol Betaine Caprylic/ Capric Triglyceride Cetearyl Alcohol Hydroxyethyl Urea Behenyl Alcohol Acmella Oleracea Extract Hydrolyzed Soy Protein Sodium Hyaluronate Avena Sativa (Oat) Kernel Extract. Tocopherol Tapioca Starch Urea Caffeine Arachidyl Glucoside Glyceryl Stearate - Neopentyl Glycol Diethylhexanoate Hydroxyacetophenone Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer Sorbitan Oleate Carbomer Ammonium Lactate Glycine Soja (Soybean) Oil - Sorbitan Isostearate C15-C19 Alkane Ethylhexylglycerin Polyglyceryl-6 Laurate Pentylene Glycol Sodium Hydroxide Polyglycerin-6 Polymethylsilsesquioxane Ethanolamine Parfum (Fragrance) Sodium Benzoate Methyl Benzoate",
-      "image_url": "https://images.openbeautyfacts.org/images/products/317/804/069/5153/front_en.15.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3178040695153"
-    },
-    {
       "code": "3178040554931",
       "product_name": "Expert Rides 3D Activateur Hyaluronique Crème Anti-rides Nuit",
       "brands": "Diadermine",
@@ -621,6 +608,19 @@
       "ingredients_text": "Aqua, Caprylic/Capric Triglyceride, Glycerin, Hexanediol, Arachidyl Alcohol, Behenyl Alcohol, Cetearyl lsononanoate, Carthamus Tinctorius Seed Oil, Hexyldecanol, Glyceryl Stearate, Cocoglycerides, Butyrospermum Parkii Butter, Micrococcus Lysate, Palmitoyl Oligopeptide, Palmitoyl Tetrapeptide-7, Pyrus Malus Seed Extract, Dimethylsilanol Hyaluronate, Lecithin, Tocopherol, Bis-Ethylhexyl Hydroxydimethoxy Benzylmalonate, Sodium Lactate, Sorbltan Oleate, Cetearyl Alcohol, Dimethicone, Tapioca Starch, Arachidyl Glucoside, Butylene Glycol, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polyisobutene, Hydrogenated Palm Glycerides Citrate, Polymethylsilsesquioxane, Sodium Carbomer, Coco-Glucoside, Parfum, Ethylhexylglycerin, Phenoxyethanol, Cl 16035, Cl 77891",
       "image_url": "https://images.openbeautyfacts.org/images/products/317/804/055/4931/front_fr.12.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/3178040554931"
+    },
+    {
+      "code": "3178040695153",
+      "product_name": "Crème de jour, Cible les rides Lift + Lissage immédiat",
+      "brands": "Diadermine",
+      "category": "메이크업",
+      "obf_category": "face-creams",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "Aqua (Water, Eau) Hexanediol Glycerin Arachidyl Alcohol Betaine Caprylic/ Capric Triglyceride Cetearyl Alcohol Hydroxyethyl Urea Behenyl Alcohol Acmella Oleracea Extract Hydrolyzed Soy Protein Sodium Hyaluronate Avena Sativa (Oat) Kernel Extract. Tocopherol Tapioca Starch Urea Caffeine Arachidyl Glucoside Glyceryl Stearate - Neopentyl Glycol Diethylhexanoate Hydroxyacetophenone Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer Sorbitan Oleate Carbomer Ammonium Lactate Glycine Soja (Soybean) Oil - Sorbitan Isostearate C15-C19 Alkane Ethylhexylglycerin Polyglyceryl-6 Laurate Pentylene Glycol Sodium Hydroxide Polyglycerin-6 Polymethylsilsesquioxane Ethanolamine Parfum (Fragrance) Sodium Benzoate Methyl Benzoate",
+      "image_url": "https://images.openbeautyfacts.org/images/products/317/804/069/5153/front_en.15.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3178040695153"
     },
     {
       "code": "3600522248996",

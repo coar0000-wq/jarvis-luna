@@ -111,12 +111,11 @@
     "with_rating": 117
   },
   "fx": {
-    "usd_to_krw": 1374.61,
-    "krw_to_usd": 0.00072748,
-    "as_of": "2026-09-01",
-    "source": "Frankfurter API",
-    "api_url": "https://api.frankfurter.app/latest?from=USD&to=KRW",
-    "fetched_at": "2026-09-01T22:48:13.909529+00:00",
+    "usd_to_krw": 1373.78,
+    "krw_to_usd": 0.00072792,
+    "as_of": "2026-09-02",
+    "source": "https://open.er-api.com/v6/latest/USD",
+    "fetched_at": "2026-09-02T10:35:14.283993+00:00",
     "ok": true
   },
   "sitemap_urls_known": 19739,
