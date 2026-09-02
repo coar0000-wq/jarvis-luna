@@ -1,45 +1,72 @@
 {
-  "generated_at": "2026-09-01T22:48:13.963921+00:00",
+  "generated_at": "2026-09-02T09:57:35.610902+00:00",
   "source": "score_shopify_demand.py",
   "rule": "grade == S (core category + global match)",
-  "count": 12,
+  "count": 39,
   "priority_note": "S등급만. Shopify 우선 등록·테스트 후보.",
   "recommendations": [
     {
       "rank": 1,
-      "pd_no": "1045146",
-      "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+      "pd_no": "1035210",
+      "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
       "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 96,
+      "price_krw": 3000,
+      "shopify_score": 100,
       "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045146",
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,449건 · 원가 5,000원 (다이소 실측값 기준)",
-      "matched_global": null
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035210",
+      "recommend_reason": "글로벌 '시어 베터 바디 로션 바닐라 캐시미어' (amazon_best_sellers) 유사 100% · 토큰 lotion",
+      "matched_global": {
+        "channel": "amazon_best_sellers",
+        "global_product": "시어 베터 바디 로션 바닐라 캐시미어",
+        "similarity": 1.0,
+        "demand_weight": 0.712,
+        "matched_tokens": [
+          "lotion"
+        ],
+        "match_score": 0.712
+      }
     },
     {
       "rank": 2,
-      "pd_no": "1048581",
-      "name": "드롭비 잡티 말끔 앰플 40 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 91,
+      "pd_no": "1067024",
+      "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
+      "bucket": "클렌징",
+      "price_krw": 2000,
+      "shopify_score": 100,
       "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,595건 · 원가 5,000원 (다이소 실측값 기준)",
-      "matched_global": null
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067024",
+      "recommend_reason": "글로벌 '톨레리안 퓨리파잉 폼 클렌저' (walmart_beauty) 유사 100% · 토큰 cleanser",
+      "matched_global": {
+        "channel": "walmart_beauty",
+        "global_product": "톨레리안 퓨리파잉 폼 클렌저",
+        "similarity": 1.0,
+        "demand_weight": 0.8,
+        "matched_tokens": [
+          "cleanser"
+        ],
+        "match_score": 0.8
+      }
     },
     {
       "rank": 3,
-      "pd_no": "1049271",
-      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "pd_no": "1044110",
+      "name": "존슨즈 베이비 로션 핑크 200ml",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 90,
+      "shopify_score": 100,
       "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,765건 · 원가 5,000원 (다이소 실측값 기준)",
-      "matched_global": null
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044110",
+      "recommend_reason": "글로벌 '시어 베터 바디 로션 바닐라 캐시미어' (amazon_best_sellers) 유사 100% · 토큰 lotion",
+      "matched_global": {
+        "channel": "amazon_best_sellers",
+        "global_product": "시어 베터 바디 로션 바닐라 캐시미어",
+        "similarity": 1.0,
+        "demand_weight": 0.712,
+        "matched_tokens": [
+          "lotion"
+        ],
+        "match_score": 0.712
+      }
     },
     {
       "rank": 4,
@@ -47,107 +74,758 @@
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 90,
+      "shopify_score": 100,
       "grade": "S",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 938건 · 원가 5,000원 (다이소 실측값 기준)",
-      "matched_global": null
+      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "ANUA Heartleaf 77 Soothing Toner",
+        "similarity": 0.92,
+        "demand_weight": 0.95,
+        "matched_tokens": [
+          "heartleaf",
+          "toner"
+        ],
+        "match_score": 0.874
+      }
     },
     {
       "rank": 5,
-      "pd_no": "1060494",
-      "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 90,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060494",
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 755건 · 원가 5,000원 (다이소 실측값 기준)",
-      "matched_global": null
-    },
-    {
-      "rank": 6,
-      "pd_no": "1068776",
-      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 90,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068776",
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 241건 · 원가 5,000원 (다이소 실측값 기준)",
-      "matched_global": null
-    },
-    {
-      "rank": 7,
       "pd_no": "1062781",
       "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 89,
+      "shopify_score": 100,
       "grade": "S",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 491건 · 원가 5,000원 (다이소 실측값 기준)",
-      "matched_global": null
+      "recommend_reason": "글로벌 'PDRN 핑크 콜라겐 볼륨 멀티밤' (ulta_beauty) 유사 92% · 토큰 collagen, pdrn",
+      "matched_global": {
+        "channel": "ulta_beauty",
+        "global_product": "PDRN 핑크 콜라겐 볼륨 멀티밤",
+        "similarity": 0.92,
+        "demand_weight": 0.68,
+        "matched_tokens": [
+          "collagen",
+          "pdrn"
+        ],
+        "match_score": 0.626
+      }
+    },
+    {
+      "rank": 6,
+      "pd_no": "1045146",
+      "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 100,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045146",
+      "recommend_reason": "글로벌 '베터 스크린 UV 세럼 SPF 50+' (sephora) 유사 85% · 토큰 sunscreen",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "베터 스크린 UV 세럼 SPF 50+",
+        "similarity": 0.853,
+        "demand_weight": 0.855,
+        "matched_tokens": [
+          "sunscreen"
+        ],
+        "match_score": 0.73
+      }
+    },
+    {
+      "rank": 7,
+      "pd_no": "1057223",
+      "name": "태그 핑크 라이트 선쿠션 15 g",
+      "bucket": "선케어",
+      "price_krw": 5000,
+      "shopify_score": 100,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057223",
+      "recommend_reason": "글로벌 '베터 스크린 UV 세럼 SPF 50+' (sephora) 유사 85% · 토큰 sunscreen",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "베터 스크린 UV 세럼 SPF 50+",
+        "similarity": 0.853,
+        "demand_weight": 0.855,
+        "matched_tokens": [
+          "sunscreen"
+        ],
+        "match_score": 0.73
+      }
     },
     {
       "rank": 8,
-      "pd_no": "1072803",
-      "name": "케어존플러스 모공탄력 수분크림 75 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 89,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072803",
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 444건 · 원가 5,000원 (다이소 실측값 기준)",
-      "matched_global": null
-    },
-    {
-      "rank": 9,
       "pd_no": "1064529",
       "name": "더마블록 무기자차선크림 35 ml (by 셀퓨전씨)",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 89,
+      "shopify_score": 100,
       "grade": "S",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064529",
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.6 · 리뷰 349건 · 원가 5,000원 (다이소 실측값 기준)",
-      "matched_global": null
+      "recommend_reason": "글로벌 '베터 스크린 UV 세럼 SPF 50+' (sephora) 유사 85% · 토큰 sunscreen",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "베터 스크린 UV 세럼 SPF 50+",
+        "similarity": 0.853,
+        "demand_weight": 0.855,
+        "matched_tokens": [
+          "sunscreen"
+        ],
+        "match_score": 0.73
+      }
+    },
+    {
+      "rank": 9,
+      "pd_no": "1068776",
+      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 100,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068776",
+      "recommend_reason": "글로벌 '베터 스크린 UV 세럼 SPF 50+' (sephora) 유사 85% · 토큰 sunscreen",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "베터 스크린 UV 세럼 SPF 50+",
+        "similarity": 0.853,
+        "demand_weight": 0.855,
+        "matched_tokens": [
+          "sunscreen"
+        ],
+        "match_score": 0.73
+      }
     },
     {
       "rank": 10,
+      "pd_no": "1049271",
+      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 100,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
+      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 80% · 토큰 calming, toner",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "ANUA Heartleaf 77 Soothing Toner",
+        "similarity": 0.8,
+        "demand_weight": 0.95,
+        "matched_tokens": [
+          "calming",
+          "toner"
+        ],
+        "match_score": 0.76
+      }
+    },
+    {
+      "rank": 11,
+      "pd_no": "10344161",
+      "name": "3색 초저점도 볼펜 0.38 mm 2개입 샌드크림",
+      "bucket": "스킨케어",
+      "price_krw": 1000,
+      "shopify_score": 100,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=10344161",
+      "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 80% · 토큰 cream",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "베네피앙스 링클 스무딩 아이 크림",
+        "similarity": 0.8,
+        "demand_weight": 0.81,
+        "matched_tokens": [
+          "cream"
+        ],
+        "match_score": 0.648
+      }
+    },
+    {
+      "rank": 12,
+      "pd_no": "58600",
+      "name": "과일나라 마이시크릿아이템 아르간오일 핸드크림 60 g",
+      "bucket": "스킨케어",
+      "price_krw": 1000,
+      "shopify_score": 100,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=58600",
+      "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 80% · 토큰 cream",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "베네피앙스 링클 스무딩 아이 크림",
+        "similarity": 0.8,
+        "demand_weight": 0.81,
+        "matched_tokens": [
+          "cream"
+        ],
+        "match_score": 0.648
+      }
+    },
+    {
+      "rank": 13,
+      "pd_no": "1074979",
+      "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+      "bucket": "스킨케어",
+      "price_krw": 3000,
+      "shopify_score": 100,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
+      "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 80% · 토큰 cream",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "베네피앙스 링클 스무딩 아이 크림",
+        "similarity": 0.8,
+        "demand_weight": 0.81,
+        "matched_tokens": [
+          "cream"
+        ],
+        "match_score": 0.648
+      }
+    },
+    {
+      "rank": 14,
+      "pd_no": "1004153",
+      "name": "에센셜 마스크시트 그린티",
+      "bucket": "마스크팩",
+      "price_krw": 500,
+      "shopify_score": 100,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1004153",
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 mask",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.733,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "mask"
+        ],
+        "match_score": 0.733
+      }
+    },
+    {
+      "rank": 15,
+      "pd_no": "1070006",
+      "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
+      "bucket": "스킨케어",
+      "price_krw": 3000,
+      "shopify_score": 100,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1070006",
+      "recommend_reason": "글로벌 '베터 스크린 UV 세럼 SPF 50+' (sephora) 유사 73% · 토큰 serum",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "베터 스크린 UV 세럼 SPF 50+",
+        "similarity": 0.733,
+        "demand_weight": 0.855,
+        "matched_tokens": [
+          "serum"
+        ],
+        "match_score": 0.627
+      }
+    },
+    {
+      "rank": 16,
+      "pd_no": "1060494",
+      "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 100,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060494",
+      "recommend_reason": "글로벌 'COSRX Advanced Snail 96 Mucin Essence' (tiktok_shop_us) 유사 70% · 토큰 essence",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "COSRX Advanced Snail 96 Mucin Essence",
+        "similarity": 0.7,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "essence"
+        ],
+        "match_score": 0.63
+      }
+    },
+    {
+      "rank": 17,
+      "pd_no": "1061917",
+      "name": "랩잇 by 닥터지 포어 젤리 마스크 50 ml",
+      "bucket": "마스크팩",
+      "price_krw": 5000,
+      "shopify_score": 99,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061917",
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 mask",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.733,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "mask"
+        ],
+        "match_score": 0.733
+      }
+    },
+    {
+      "rank": 18,
+      "pd_no": "1048581",
+      "name": "드롭비 잡티 말끔 앰플 40 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 99,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
+      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 50% · 토큰 ampoule",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "턴오버 앰플 c-PDRN 0.5%",
+        "similarity": 0.5,
+        "demand_weight": 0.63,
+        "matched_tokens": [
+          "ampoule"
+        ],
+        "match_score": 0.315
+      }
+    },
+    {
+      "rank": 19,
       "pd_no": "1060487",
       "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
       "bucket": "마스크팩",
       "price_krw": 3000,
-      "shopify_score": 87,
+      "shopify_score": 99,
       "grade": "S",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060487",
-      "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 1,663건 · 원가 3,000원 (다이소 실측값 기준)",
-      "matched_global": null
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 43% · 토큰 mask",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.433,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "mask"
+        ],
+        "match_score": 0.433
+      }
     },
     {
-      "rank": 11,
-      "pd_no": "1035210",
-      "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
-      "bucket": "스킨케어",
-      "price_krw": 3000,
-      "shopify_score": 87,
+      "rank": 20,
+      "pd_no": "1073704",
+      "name": "[각질순삭]큐어레스트 버블 필링 클렌저 120 ml",
+      "bucket": "클렌징",
+      "price_krw": 5000,
+      "shopify_score": 96,
       "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035210",
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,107건 · 원가 3,000원 (다이소 실측값 기준)",
-      "matched_global": null
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073704",
+      "recommend_reason": "글로벌 '톨레리안 퓨리파잉 폼 클렌저' (walmart_beauty) 유사 100% · 토큰 cleanser",
+      "matched_global": {
+        "channel": "walmart_beauty",
+        "global_product": "톨레리안 퓨리파잉 폼 클렌저",
+        "similarity": 1.0,
+        "demand_weight": 0.8,
+        "matched_tokens": [
+          "cleanser"
+        ],
+        "match_score": 0.8
+      }
     },
     {
-      "rank": 12,
-      "pd_no": "1044110",
-      "name": "존슨즈 베이비 로션 핑크 200ml",
+      "rank": 21,
+      "pd_no": "1060208",
+      "name": "쿤달 콜라겐 데미지 케어 트리트먼트 150 ml",
+      "bucket": "마스크팩",
+      "price_krw": 3000,
+      "shopify_score": 96,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060208",
+      "recommend_reason": "글로벌 '바이오 콜라겐 리얼 딥 마스크' (amazon_best_sellers) 유사 62% · 토큰 collagen",
+      "matched_global": {
+        "channel": "amazon_best_sellers",
+        "global_product": "바이오 콜라겐 리얼 딥 마스크",
+        "similarity": 0.62,
+        "demand_weight": 0.807,
+        "matched_tokens": [
+          "collagen"
+        ],
+        "match_score": 0.5
+      }
+    },
+    {
+      "rank": 22,
+      "pd_no": "1062141",
+      "name": "네시픽 화이트닝 모이스처크림 50 ml",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 87,
+      "shopify_score": 96,
       "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044110",
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 511건 · 원가 5,000원 (다이소 실측값 기준)",
-      "matched_global": null
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062141",
+      "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 50% · 토큰 cream",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "베네피앙스 링클 스무딩 아이 크림",
+        "similarity": 0.5,
+        "demand_weight": 0.81,
+        "matched_tokens": [
+          "cream"
+        ],
+        "match_score": 0.405
+      }
+    },
+    {
+      "rank": 23,
+      "pd_no": "1061922",
+      "name": "본셉 비타씨 젤리 마스크 1매 23 g",
+      "bucket": "마스크팩",
+      "price_krw": 1000,
+      "shopify_score": 96,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061922",
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 43% · 토큰 mask",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.433,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "mask"
+        ],
+        "match_score": 0.433
+      }
+    },
+    {
+      "rank": 24,
+      "pd_no": "1032881",
+      "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
+      "bucket": "마스크팩",
+      "price_krw": 3000,
+      "shopify_score": 96,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1032881",
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 43% · 토큰 mask",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.433,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "mask"
+        ],
+        "match_score": 0.433
+      }
+    },
+    {
+      "rank": 25,
+      "pd_no": "1072803",
+      "name": "케어존플러스 모공탄력 수분크림 75 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 96,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072803",
+      "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 35% · 토큰 cream",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "베네피앙스 링클 스무딩 아이 크림",
+        "similarity": 0.35,
+        "demand_weight": 0.81,
+        "matched_tokens": [
+          "cream"
+        ],
+        "match_score": 0.283
+      }
+    },
+    {
+      "rank": 26,
+      "pd_no": "1048042",
+      "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
+      "bucket": "메이크업",
+      "price_krw": 5000,
+      "shopify_score": 94,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048042",
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.733,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "cushion"
+        ],
+        "match_score": 0.733
+      }
+    },
+    {
+      "rank": 27,
+      "pd_no": "1038603",
+      "name": "식물원 병풀 클리어 마스크 시트",
+      "bucket": "마스크팩",
+      "price_krw": 1000,
+      "shopify_score": 93,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038603",
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 43% · 토큰 mask",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.433,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "mask"
+        ],
+        "match_score": 0.433
+      }
+    },
+    {
+      "rank": 28,
+      "pd_no": "1068733",
+      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 93,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 28% · 토큰 mask",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.283,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "mask"
+        ],
+        "match_score": 0.283
+      }
+    },
+    {
+      "rank": 29,
+      "pd_no": "1011177",
+      "name": "3M 세이프그립 다목적 안전장갑 M",
+      "bucket": "메이크업",
+      "price_krw": 2000,
+      "shopify_score": 92,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1011177",
+      "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+        "similarity": 0.733,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "lip"
+        ],
+        "match_score": 0.66
+      }
+    },
+    {
+      "rank": 30,
+      "pd_no": "1041890",
+      "name": "오릭스 컬러 립밤 4.8 g 체리로즈",
+      "bucket": "메이크업",
+      "price_krw": 1000,
+      "shopify_score": 91,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041890",
+      "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+        "similarity": 0.733,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "lip"
+        ],
+        "match_score": 0.66
+      }
+    },
+    {
+      "rank": 31,
+      "pd_no": "1062758",
+      "name": "문화 삼각 그립 샤프＆샤프심 세트 0.5 mm",
+      "bucket": "메이크업",
+      "price_krw": 2000,
+      "shopify_score": 91,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062758",
+      "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+        "similarity": 0.733,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "lip"
+        ],
+        "match_score": 0.66
+      }
+    },
+    {
+      "rank": 32,
+      "pd_no": "1044404",
+      "name": "NEW 스타일리쉬 오토 립 라이너 펜슬 베리쉬폰",
+      "bucket": "메이크업",
+      "price_krw": 1000,
+      "shopify_score": 89,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044404",
+      "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+        "similarity": 0.733,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "lip"
+        ],
+        "match_score": 0.66
+      }
+    },
+    {
+      "rank": 33,
+      "pd_no": "1043939",
+      "name": "삼각 모서리 집게 클립 4개입",
+      "bucket": "메이크업",
+      "price_krw": 1000,
+      "shopify_score": 89,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1043939",
+      "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+        "similarity": 0.733,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "lip"
+        ],
+        "match_score": 0.66
+      }
+    },
+    {
+      "rank": 34,
+      "pd_no": "1060532",
+      "name": "냉장고 클립형 다용도 보관함 4개입",
+      "bucket": "메이크업",
+      "price_krw": 1000,
+      "shopify_score": 88,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060532",
+      "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+        "similarity": 0.733,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "lip"
+        ],
+        "match_score": 0.66
+      }
+    },
+    {
+      "rank": 35,
+      "pd_no": "1060505",
+      "name": "밀크터치 디어씽 글로우 이펙트 립 플럼퍼(02 오로라빔)",
+      "bucket": "메이크업",
+      "price_krw": 5000,
+      "shopify_score": 85,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060505",
+      "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+        "similarity": 0.733,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "lip"
+        ],
+        "match_score": 0.66
+      }
+    },
+    {
+      "rank": 36,
+      "pd_no": "1047492",
+      "name": "그립 만능렌치(210 mm)",
+      "bucket": "메이크업",
+      "price_krw": 3000,
+      "shopify_score": 84,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1047492",
+      "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+        "similarity": 0.733,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "lip"
+        ],
+        "match_score": 0.66
+      }
+    },
+    {
+      "rank": 37,
+      "pd_no": "1056662",
+      "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
+      "bucket": "헤어케어",
+      "price_krw": 3000,
+      "shopify_score": 84,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056662",
+      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Medicube Zero Pore Pad",
+        "similarity": 0.433,
+        "demand_weight": 0.8,
+        "matched_tokens": [
+          "pore"
+        ],
+        "match_score": 0.347
+      }
+    },
+    {
+      "rank": 38,
+      "pd_no": "1044846",
+      "name": "트윙클팝 오버 립 펜슬 웜 살몬 by CLIO",
+      "bucket": "메이크업",
+      "price_krw": 3000,
+      "shopify_score": 83,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044846",
+      "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 43% · 토큰 lip",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+        "similarity": 0.433,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "lip"
+        ],
+        "match_score": 0.39
+      }
+    },
+    {
+      "rank": 39,
+      "pd_no": "1009705",
+      "name": "NITEX 그립 코팅장갑 LITE L",
+      "bucket": "메이크업",
+      "price_krw": 2000,
+      "shopify_score": 82,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1009705",
+      "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 33% · 토큰 lip",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+        "similarity": 0.333,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "lip"
+        ],
+        "match_score": 0.3
+      }
     }
   ]
 }
