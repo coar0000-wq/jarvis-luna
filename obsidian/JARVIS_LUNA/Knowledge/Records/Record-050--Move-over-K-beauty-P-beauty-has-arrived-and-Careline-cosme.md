@@ -2,7 +2,7 @@
 title: "Record 050 · Move-over-K-beauty-P-beauty-has-arrived-and-Careline-cosmetics-is-abou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T19:36:54.895731+00:00
+updated_at: 2026-09-02T21:05:30.591090+00:00
 tags: [{', '.join(tags)}]
 ---
 

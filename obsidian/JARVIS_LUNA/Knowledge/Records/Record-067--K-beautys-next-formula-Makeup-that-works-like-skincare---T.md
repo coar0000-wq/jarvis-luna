@@ -2,7 +2,7 @@
 title: "Record 067 · K-beautys-next-formula-Makeup-that-works-like-skincare---The-Korea-Her"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T19:36:54.897540+00:00
+updated_at: 2026-09-02T21:05:30.593769+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 079 · Why-is-exhaustion-and-sleepy-girl-makeup-trending-right-now---RUSSH"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T19:36:54.898760+00:00
+updated_at: 2026-09-02T21:05:30.595628+00:00
 tags: [{', '.join(tags)}]
 ---
 
