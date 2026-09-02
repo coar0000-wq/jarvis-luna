@@ -62,14 +62,15 @@ jobs:
       # [3/4] YouTube 데이터 수집 (매 10분)
       # ============================================================
 
-      - name: 🎬 [3/4] YouTube 데이터 수집
+      - name: 🎬 [3/4] YouTube 실수집 (RSS · 가짜 금지)
         id: youtube_collect
         run: |
-          echo "🎬 YouTube 드롭쉬핑 분석..."
+          echo "🎬 YouTube Atom RSS 실수집 (Learn With Shopify 등)"
           if python scripts/youtube_dropshipping_analysis.py; then
             echo "status=success" >> $GITHUB_OUTPUT
           else
             echo "status=failed" >> $GITHUB_OUTPUT
+            exit 1
           fi
 
       # ============================================================
