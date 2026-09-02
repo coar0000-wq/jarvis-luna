@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T22:19:43.143932+00:00",
+  "generated_at": "2026-09-02T22:50:17.895651+00:00",
   "source": "score_shopify_demand.py",
   "rule": "grade == S (core category + global match)",
-  "count": 40,
+  "count": 48,
   "priority_note": "S등급만. Shopify 우선 등록·테스트 후보.",
   "recommendations": [
     {
@@ -283,6 +283,50 @@
     },
     {
       "rank": 14,
+      "pd_no": "1039235",
+      "name": "프리모팩토리 헤어 블리치(2개입/80ml)",
+      "bucket": "마스크팩",
+      "price_krw": 3000,
+      "shopify_score": 100,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039235",
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 mask",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.733,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "mask"
+        ],
+        "match_score": 0.733
+      }
+    },
+    {
+      "rank": 15,
+      "pd_no": "1075857",
+      "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+      "bucket": "스킨케어",
+      "price_krw": 2000,
+      "shopify_score": 100,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
+      "recommend_reason": "글로벌 'Anua PDRN Full Care Set (Serum 1 fl. oz.(30ml) + Mist 1 fl. oz.(30ml) + Cream 2 fl. oz.(60ml) + Mask 5ct + Keychain)' (oliveyoung_us) 유사 73% · 토큰 cream, mask, pdrn",
+      "matched_global": {
+        "channel": "oliveyoung_us",
+        "global_product": "Anua PDRN Full Care Set (Serum 1 fl. oz.(30ml) + Mist 1 fl. oz.(30ml) + Cream 2 fl. oz.(60ml) + Mask 5ct + Keychain)",
+        "similarity": 0.733,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "cream",
+          "mask",
+          "pdrn"
+        ],
+        "match_score": 0.359
+      }
+    },
+    {
+      "rank": 16,
       "pd_no": "1004153",
       "name": "에센셜 마스크시트 그린티",
       "bucket": "마스크팩",
@@ -303,7 +347,28 @@
       }
     },
     {
-      "rank": 15,
+      "rank": 17,
+      "pd_no": "1009199",
+      "name": "이불용 밸브 압축팩 90x110cm",
+      "bucket": "마스크팩",
+      "price_krw": 2000,
+      "shopify_score": 100,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1009199",
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 mask",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.733,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "mask"
+        ],
+        "match_score": 0.733
+      }
+    },
+    {
+      "rank": 18,
       "pd_no": "1070006",
       "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
       "bucket": "스킨케어",
@@ -324,7 +389,7 @@
       }
     },
     {
-      "rank": 16,
+      "rank": 19,
       "pd_no": "1060494",
       "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
       "bucket": "스킨케어",
@@ -345,7 +410,7 @@
       }
     },
     {
-      "rank": 17,
+      "rank": 20,
       "pd_no": "1048581",
       "name": "드롭비 잡티 말끔 앰플 40 ml",
       "bucket": "스킨케어",
@@ -366,7 +431,7 @@
       }
     },
     {
-      "rank": 18,
+      "rank": 21,
       "pd_no": "1061917",
       "name": "랩잇 by 닥터지 포어 젤리 마스크 50 ml",
       "bucket": "마스크팩",
@@ -387,7 +452,7 @@
       }
     },
     {
-      "rank": 19,
+      "rank": 22,
       "pd_no": "1060487",
       "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
       "bucket": "마스크팩",
@@ -408,7 +473,28 @@
       }
     },
     {
-      "rank": 20,
+      "rank": 23,
+      "pd_no": "1060489",
+      "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
+      "price_krw": 3000,
+      "shopify_score": 99,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 43% · 토큰 mask",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.433,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "mask"
+        ],
+        "match_score": 0.433
+      }
+    },
+    {
+      "rank": 24,
       "pd_no": "1060208",
       "name": "쿤달 콜라겐 데미지 케어 트리트먼트 150 ml",
       "bucket": "마스크팩",
@@ -429,7 +515,7 @@
       }
     },
     {
-      "rank": 21,
+      "rank": 25,
       "pd_no": "1062141",
       "name": "네시픽 화이트닝 모이스처크림 50 ml",
       "bucket": "스킨케어",
@@ -450,7 +536,7 @@
       }
     },
     {
-      "rank": 22,
+      "rank": 26,
       "pd_no": "1061922",
       "name": "본셉 비타씨 젤리 마스크 1매 23 g",
       "bucket": "마스크팩",
@@ -471,7 +557,7 @@
       }
     },
     {
-      "rank": 23,
+      "rank": 27,
       "pd_no": "1032881",
       "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
       "bucket": "마스크팩",
@@ -492,7 +578,7 @@
       }
     },
     {
-      "rank": 24,
+      "rank": 28,
       "pd_no": "1072803",
       "name": "케어존플러스 모공탄력 수분크림 75 ml",
       "bucket": "스킨케어",
@@ -513,7 +599,7 @@
       }
     },
     {
-      "rank": 25,
+      "rank": 29,
       "pd_no": "1073704",
       "name": "[각질순삭]큐어레스트 버블 필링 클렌저 120 ml",
       "bucket": "클렌징",
@@ -534,7 +620,28 @@
       }
     },
     {
-      "rank": 26,
+      "rank": 30,
+      "pd_no": "1049295",
+      "name": "[진정수분버블]VT 시카 버블 스파클링 부스터 10 g 4개입",
+      "bucket": "마스크팩",
+      "price_krw": 3000,
+      "shopify_score": 94,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049295",
+      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 40% · 토큰 calming",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "ANUA Heartleaf 77 Soothing Toner",
+        "similarity": 0.4,
+        "demand_weight": 0.95,
+        "matched_tokens": [
+          "calming"
+        ],
+        "match_score": 0.38
+      }
+    },
+    {
+      "rank": 31,
       "pd_no": "1038603",
       "name": "식물원 병풀 클리어 마스크 시트",
       "bucket": "마스크팩",
@@ -555,7 +662,7 @@
       }
     },
     {
-      "rank": 27,
+      "rank": 32,
       "pd_no": "1068733",
       "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
       "bucket": "스킨케어",
@@ -576,7 +683,7 @@
       }
     },
     {
-      "rank": 28,
+      "rank": 33,
       "pd_no": "1011177",
       "name": "3M 세이프그립 다목적 안전장갑 M",
       "bucket": "메이크업",
@@ -597,7 +704,7 @@
       }
     },
     {
-      "rank": 29,
+      "rank": 34,
       "pd_no": "1048042",
       "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
       "bucket": "메이크업",
@@ -618,7 +725,28 @@
       }
     },
     {
-      "rank": 30,
+      "rank": 35,
+      "pd_no": "1061880",
+      "name": "더페이스샵 맑은 쌀 클렌징 오일 100 ml",
+      "bucket": "클렌징",
+      "price_krw": 5000,
+      "shopify_score": 91,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061880",
+      "recommend_reason": "글로벌 '톨레리안 퓨리파잉 폼 클렌저' (walmart_beauty) 유사 100% · 토큰 cleanser",
+      "matched_global": {
+        "channel": "walmart_beauty",
+        "global_product": "톨레리안 퓨리파잉 폼 클렌저",
+        "similarity": 1.0,
+        "demand_weight": 0.8,
+        "matched_tokens": [
+          "cleanser"
+        ],
+        "match_score": 0.8
+      }
+    },
+    {
+      "rank": 36,
       "pd_no": "1041890",
       "name": "오릭스 컬러 립밤 4.8 g 체리로즈",
       "bucket": "메이크업",
@@ -639,7 +767,7 @@
       }
     },
     {
-      "rank": 31,
+      "rank": 37,
       "pd_no": "1062758",
       "name": "문화 삼각 그립 샤프＆샤프심 세트 0.5 mm",
       "bucket": "메이크업",
@@ -660,7 +788,7 @@
       }
     },
     {
-      "rank": 32,
+      "rank": 38,
       "pd_no": "1044404",
       "name": "NEW 스타일리쉬 오토 립 라이너 펜슬 베리쉬폰",
       "bucket": "메이크업",
@@ -681,7 +809,7 @@
       }
     },
     {
-      "rank": 33,
+      "rank": 39,
       "pd_no": "1043939",
       "name": "삼각 모서리 집게 클립 4개입",
       "bucket": "메이크업",
@@ -702,7 +830,7 @@
       }
     },
     {
-      "rank": 34,
+      "rank": 40,
       "pd_no": "1061927",
       "name": "리노이아 워터 트리트먼트 200 ml",
       "bucket": "마스크팩",
@@ -723,7 +851,7 @@
       }
     },
     {
-      "rank": 35,
+      "rank": 41,
       "pd_no": "1060532",
       "name": "냉장고 클립형 다용도 보관함 4개입",
       "bucket": "메이크업",
@@ -744,7 +872,49 @@
       }
     },
     {
-      "rank": 36,
+      "rank": 42,
+      "pd_no": "1073585",
+      "name": "맥세이프 호환용 케이스 갤럭시 Z플립7",
+      "bucket": "메이크업",
+      "price_krw": 3000,
+      "shopify_score": 88,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073585",
+      "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+        "similarity": 0.733,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "lip"
+        ],
+        "match_score": 0.66
+      }
+    },
+    {
+      "rank": 43,
+      "pd_no": "1053475",
+      "name": "오피스 A4 하드 클립보드 블랙 클립",
+      "bucket": "메이크업",
+      "price_krw": 1000,
+      "shopify_score": 87,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053475",
+      "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+        "similarity": 0.733,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "lip"
+        ],
+        "match_score": 0.66
+      }
+    },
+    {
+      "rank": 44,
       "pd_no": "1060505",
       "name": "밀크터치 디어씽 글로우 이펙트 립 플럼퍼(02 오로라빔)",
       "bucket": "메이크업",
@@ -765,7 +935,7 @@
       }
     },
     {
-      "rank": 37,
+      "rank": 45,
       "pd_no": "1047492",
       "name": "그립 만능렌치(210 mm)",
       "bucket": "메이크업",
@@ -786,7 +956,7 @@
       }
     },
     {
-      "rank": 38,
+      "rank": 46,
       "pd_no": "1056662",
       "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
       "bucket": "헤어케어",
@@ -807,7 +977,7 @@
       }
     },
     {
-      "rank": 39,
+      "rank": 47,
       "pd_no": "1044846",
       "name": "트윙클팝 오버 립 펜슬 웜 살몬 by CLIO",
       "bucket": "메이크업",
@@ -828,7 +998,7 @@
       }
     },
     {
-      "rank": 40,
+      "rank": 48,
       "pd_no": "1009705",
       "name": "NITEX 그립 코팅장갑 LITE L",
       "bucket": "메이크업",
