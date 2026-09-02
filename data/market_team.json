@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-03T04:41:39.047326+09:00",
+    "updated_at": "2026-09-03T07:19:43.223924+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -1761,6 +1761,42 @@
       "source": "us.oliveyoung.com/best-sellers 실수집"
     },
     {
+      "name": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+      "brand": "lilyeve",
+      "price_usd": 23.76,
+      "rating": 4.6,
+      "review_count": 5,
+      "us_rank": 3,
+      "daiso_bucket": "스킨케어",
+      "why": "OliveYoung US 베스트셀러 3위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA98417491",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+      "brand": "AESTURA",
+      "price_usd": 32.0,
+      "rating": 5,
+      "review_count": 2,
+      "us_rank": 5,
+      "daiso_bucket": "스킨케어",
+      "why": "OliveYoung US 베스트셀러 5위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA71026007",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+      "brand": "REJURAN",
+      "price_usd": 41.6,
+      "rating": 5,
+      "review_count": 9,
+      "us_rank": 11,
+      "daiso_bucket": "스킨케어",
+      "why": "OliveYoung US 베스트셀러 11위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA67698081",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
       "name": "SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)",
       "brand": "SKIN1004",
       "price_usd": 26.0,
@@ -1830,42 +1866,6 @@
       "daiso_bucket": "클렌징",
       "why": "OliveYoung US 베스트셀러 36위 · 클렌징 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA38708381",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-      "brand": "lilyeve",
-      "price_usd": 23.76,
-      "rating": 4.6,
-      "review_count": 5,
-      "us_rank": 3,
-      "daiso_bucket": "스킨케어",
-      "why": "OliveYoung US 베스트셀러 3위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA98417491",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-      "brand": "AESTURA",
-      "price_usd": 32.0,
-      "rating": 5,
-      "review_count": 2,
-      "us_rank": 5,
-      "daiso_bucket": "스킨케어",
-      "why": "OliveYoung US 베스트셀러 5위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA71026007",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-      "brand": "REJURAN",
-      "price_usd": 41.6,
-      "rating": 5,
-      "review_count": 9,
-      "us_rank": 11,
-      "daiso_bucket": "스킨케어",
-      "why": "OliveYoung US 베스트셀러 11위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA67698081",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
