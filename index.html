@@ -302,13 +302,15 @@ nav a{font-size:12px;}
 </div>
 </div>
 
-<!-- Shopify 등록 후보 · 다이소 Dropshipping (통합) -->
+<!-- Shopify 등록 후보 · 다이소 Dropshipping · S등급 우선순위 (통합) -->
 <div class="stats-section stats-merged">
 <div class="dashboard-card sd-card" id="daiso">
 <div class="sd-header">
 <div class="sd-title"><span class="icon">🎯</span>Shopify 등록 후보 · 다이소 Dropshipping</div>
+<div class="sd-sub" style="font-size:12px;color:#8b949e;">S등급 우선순위 · 원가/판매가 · 글로벌 매칭</div>
 </div>
 <div id="daiso-panel"></div>
+<div id="mt-health"></div>
 <div class="sd-summary" id="sd-summary">불러오는 중…</div>
 <ul class="sd-list" id="sd-list">
 <li style="color:#666;font-size:13px;">데이터 로딩 중…</li>
@@ -402,17 +404,6 @@ nav a{font-size:12px;}
 <div class="section-header">📈 마케팅 조사 분석팀</div>
 <div class="mt-note" id="mt-note">불러오는 중…</div>
 
-<div class="stats-section stats-merged">
-<div class="dashboard-card sd-card">
-  <div class="sd-header">
-    <div class="sd-title"><span class="icon">🎯</span>등록 우선순위 (S등급)</div>
-  </div>
-  <div id="mt-health"></div>
-  <ul class="sd-list" id="mt-priority">
-    <li style="color:#666;font-size:13px;">데이터 로딩 중…</li>
-  </ul>
-</div>
-</div>
 
 <div class="dashboard-grid">
   <div class="dashboard-card">
@@ -761,8 +752,40 @@ if(sRec && Array.isArray(sRec.recommendations) && sRec.recommendations.length){
   if(!items.length) items = (sd.top_recommendations||[]).slice(0,8);
 }
 
+// market_team 등록 우선순위와 병합 (같은 이름/점수 보강)
+const mtPri = (window.__marketTeam && window.__marketTeam.registration_priority) ||
+              (window.__marketTeam && window.__marketTeam.s_priority) ||
+              (window.__marketTeam && window.__marketTeam.priority_list) || [];
+if(mtPri.length && items.length){
+  const byName = {};
+  mtPri.forEach(r=>{ if(r && r.name) byName[(r.name||'').trim()] = r; });
+  items = items.map(p=>{
+    const m = byName[(p.name||'').trim()];
+    if(!m) return p;
+    return Object.assign({}, p, {
+      name_en: p.name_en || m.name_en || '',
+      shopify_action: p.shopify_action || m.shopify_action || '',
+      tags: m.tags || p.tags,
+      score: p.shopify_score != null ? p.shopify_score : m.score,
+    });
+  });
+} else if(mtPri.length && !items.length){
+  items = mtPri.map(r=>({
+    name: r.name,
+    grade: r.grade || 'S',
+    bucket: r.bucket || '',
+    price_krw: r.cost_krw || r.price_krw,
+    shopify_score: r.score != null ? r.score : r.shopify_score,
+    reason: r.shopify_action || '',
+    match: null,
+    name_en: r.name_en || '',
+    shopify_action: r.shopify_action || '',
+  }));
+}
+
 if(!items.length){
   summary.textContent='S등급 추천 없음';
+
   list.innerHTML='<li style="color:#666;font-size:13px;">score_shopify_demand.py 실행 후 shopify_s_recommendations.json 생성 필요</li>';
   return;
 }
@@ -1081,10 +1104,11 @@ if(rt.status!=='fulfilled') renderTraining(tr.value);
 }else{ renderSources(null); }
 renderLatest(src.status==='fulfilled'?src.value:null);
 window.__sRec = sRec.status==='fulfilled'?sRec.value:null;
+window.__marketTeam = mkt.status==='fulfilled'?mkt.value:null;
 renderDaiso(daiso.status==='fulfilled'?daiso.value:null, window.__sRec);
 renderShopifyDemand(sd.status==='fulfilled'?sd.value:null, window.__sRec);
+renderMarketTeam(window.__marketTeam);
 if(window.__runtime) renderMarketingChannels(window.__runtime);
-renderMarketTeam(mkt.status==='fulfilled'?mkt.value:null);
 }
 
 document.addEventListener('DOMContentLoaded',loadData);
