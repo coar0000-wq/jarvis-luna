@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T10:11:22.675109+00:00",
+  "updated_at": "2026-09-02T10:19:53.047438+00:00",
   "channel": "Learn With Shopify",
   "channel_handle": "@learnwithshopify",
   "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
@@ -21,6 +21,25 @@
     "dropship": 1
   },
   "videos": [
+    {
+      "video_id": "75DKB013fu4",
+      "title": "How to Make Money Online with the Shopify Product Network",
+      "url": "https://www.youtube.com/shorts/75DKB013fu4",
+      "published": "2026-08-29T12:00:33+00:00",
+      "description_snip": "The Shopify Product Network Explained. We are so excited to show you how the Shopify Product Network can completely transform your store and help you save lost sales. Watch the whole tutorial to learn how you can display products from other trusted Shopify brands directly on your website. When a customer searches for something you don't carry, they will see personalized recommendations, allowing t",
+      "channel": "Learn With Shopify",
+      "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
+      "source": "youtube_rss_free",
+      "priority": "critical",
+      "featured": true,
+      "jarvis_note": "핵심: Shopify Product Network — 자사에 없는 상품도 타 브랜드 재고를 스토어에 노출해 검색·추천으로 놓친 매출을 회수. 다이소→Shopify 드롭십 확장 시 카탈로그 보완 전략으로 중요.",
+      "apply_to": [
+        "shopify_catalog_strategy",
+        "lost_sales_recovery",
+        "cross_brand_product_network",
+        "daiso_to_shopify_expansion"
+      ]
+    },
     {
       "video_id": "IQDtl0Dacjo",
       "title": "How to Use Claude Cowork to Build and Run a Shopify Store",
@@ -57,16 +76,6 @@
       "url": "https://www.youtube.com/shorts/cgYBBWXB4eE",
       "published": "2026-08-29T17:00:00+00:00",
       "description_snip": "This is the solution to your failing dropshipping store! Are you struggling to get your ecommerce business off the ground? It's likely because you are still being taught the outdated 2018 AliExpress playbook. The reality is that dropshipping has completely evolved, and customers today have zero tolerance for slow shipping or generic products. In this YouTube Short, we break down why the old method",
-      "channel": "Learn With Shopify",
-      "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-      "source": "youtube_rss_free"
-    },
-    {
-      "video_id": "75DKB013fu4",
-      "title": "How to Make Money Online with the Shopify Product Network",
-      "url": "https://www.youtube.com/shorts/75DKB013fu4",
-      "published": "2026-08-29T12:00:33+00:00",
-      "description_snip": "The Shopify Product Network Explained. We are so excited to show you how the Shopify Product Network can completely transform your store and help you save lost sales. Watch the whole tutorial to learn how you can display products from other trusted Shopify brands directly on your website. When a customer searches for something you don't carry, they will see personalized recommendations, allowing t",
       "channel": "Learn With Shopify",
       "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
       "source": "youtube_rss_free"
@@ -176,5 +185,21 @@
     "knowledge corpus / Obsidian notes",
     "Shopify operations education signals",
     "strategy keywords for dropshipping dashboard"
-  ]
+  ],
+  "featured_video": {
+    "video_id": "75DKB013fu4",
+    "title": "How to Make Money Online with the Shopify Product Network",
+    "url": "https://www.youtube.com/shorts/75DKB013fu4",
+    "shorts_url": "https://www.youtube.com/shorts/75DKB013fu4",
+    "priority": "critical",
+    "why_important": "핵심: Shopify Product Network — 자사에 없는 상품도 타 브랜드 재고를 스토어에 노출해 검색·추천으로 놓친 매출을 회수. 다이소→Shopify 드롭십 확장 시 카탈로그 보완 전략으로 중요.",
+    "apply_to": [
+      "shopify_catalog_strategy",
+      "lost_sales_recovery",
+      "cross_brand_product_network",
+      "daiso_to_shopify_expansion"
+    ],
+    "published": "2026-08-29T12:00:33+00:00"
+  },
+  "notes": "featured_video 는 JARVIS 우선 학습·전략 반영 대상. Shopify Product Network Shorts(75DKB013fu4)를 critical 로 지정."
 }
