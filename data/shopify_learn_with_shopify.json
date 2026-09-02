@@ -1,24 +1,31 @@
 {
-  "updated_at": "2026-09-02T10:43:40.064474+00:00",
+  "updated_at": "2026-09-02T10:55:38.877322+00:00",
   "channel": "Learn With Shopify",
   "channel_handle": "@learnwithshopify",
   "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
   "channel_url": "https://www.youtube.com/@learnwithshopify",
-  "collection_method": "YouTube Atom RSS (free, no API key)",
+  "collection_method": "YouTube Atom RSS (live, no fake data)",
   "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC7geKfz2-IH0rsgRBtHTm0g",
   "count": 15,
   "title_keywords": {
     "shopify": 5,
     "claude": 4,
     "store": 3,
+    "product": 2,
     "build": 2,
     "ai": 2,
-    "product": 2,
+    "network": 1,
     "cowork": 1,
     "run": 1,
     "entrepreneur": 1,
     "browser": 1,
     "dropship": 1
+  },
+  "video_analysis": {
+    "tool": "Google NotebookLM",
+    "notebook_url": "https://notebook.google.com/notebook/88638802-cf08-47ca-a3ec-12453818438a",
+    "notebook_id": "88638802-cf08-47ca-a3ec-12453818438a",
+    "instruction": "YouTube/Shorts 분석 시 이 노트북 사용"
   },
   "videos": [
     {
@@ -30,6 +37,7 @@
       "channel": "Learn With Shopify",
       "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
       "source": "youtube_rss_free",
+      "analyze_with_notebook": "https://notebook.google.com/notebook/88638802-cf08-47ca-a3ec-12453818438a",
       "priority": "critical",
       "featured": true,
       "jarvis_note": "핵심: Shopify Product Network — 자사에 없는 상품도 타 브랜드 재고를 스토어에 노출해 검색·추천으로 놓친 매출을 회수. 다이소→Shopify 드롭십 확장 시 카탈로그 보완 전략으로 중요.",
@@ -38,8 +46,7 @@
         "lost_sales_recovery",
         "cross_brand_product_network",
         "daiso_to_shopify_expansion"
-      ],
-      "analyze_with_notebook": "https://notebook.google.com/notebook/88638802-cf08-47ca-a3ec-12453818438a"
+      ]
     },
     {
       "video_id": "IQDtl0Dacjo",
@@ -201,6 +208,7 @@
     "Shopify operations education signals",
     "strategy keywords for dropshipping dashboard"
   ],
+  "notes": "featured_video 는 JARVIS 우선 학습·전략 반영 대상. 가짜 하드코딩 목록 없음 — RSS 실응답만 저장.",
   "featured_video": {
     "video_id": "75DKB013fu4",
     "title": "How to Make Money Online with the Shopify Product Network",
@@ -217,12 +225,5 @@
     "published": "2026-08-29T12:00:33+00:00",
     "notebooklm_url": "https://notebook.google.com/notebook/88638802-cf08-47ca-a3ec-12453818438a",
     "analyze_with": "NotebookLM (jarvis_video_analysis.json)"
-  },
-  "notes": "featured_video 는 JARVIS 우선 학습·전략 반영 대상. Shopify Product Network Shorts(75DKB013fu4)를 critical 로 지정.",
-  "video_analysis": {
-    "tool": "Google NotebookLM",
-    "notebook_url": "https://notebook.google.com/notebook/88638802-cf08-47ca-a3ec-12453818438a",
-    "notebook_id": "88638802-cf08-47ca-a3ec-12453818438a",
-    "instruction": "이 채널·Shorts 영상을 JARVIS가 분석할 때 위 NotebookLM을 사용한다."
   }
 }
