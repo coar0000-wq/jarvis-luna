@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T16:51:11.759811+00:00",
+  "generated_at": "2026-09-02T19:41:38.947723+00:00",
   "source": "score_shopify_demand.py",
   "rule": "grade == S (core category + global match)",
-  "count": 39,
+  "count": 40,
   "priority_note": "S등급만. Shopify 우선 등록·테스트 후보.",
   "recommendations": [
     {
@@ -346,6 +346,27 @@
     },
     {
       "rank": 17,
+      "pd_no": "1048581",
+      "name": "드롭비 잡티 말끔 앰플 40 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 100,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
+      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 37% · 토큰 ampoule",
+      "matched_global": {
+        "channel": "oliveyoung_us",
+        "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+        "similarity": 0.367,
+        "demand_weight": 0.882,
+        "matched_tokens": [
+          "ampoule"
+        ],
+        "match_score": 0.323
+      }
+    },
+    {
+      "rank": 18,
       "pd_no": "1061917",
       "name": "랩잇 by 닥터지 포어 젤리 마스크 50 ml",
       "bucket": "마스크팩",
@@ -363,27 +384,6 @@
           "mask"
         ],
         "match_score": 0.733
-      }
-    },
-    {
-      "rank": 18,
-      "pd_no": "1048581",
-      "name": "드롭비 잡티 말끔 앰플 40 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 99,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
-      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 50% · 토큰 ampoule",
-      "matched_global": {
-        "channel": "sephora",
-        "global_product": "턴오버 앰플 c-PDRN 0.5%",
-        "similarity": 0.5,
-        "demand_weight": 0.63,
-        "matched_tokens": [
-          "ampoule"
-        ],
-        "match_score": 0.315
       }
     },
     {
@@ -430,6 +430,27 @@
     },
     {
       "rank": 21,
+      "pd_no": "1062141",
+      "name": "네시픽 화이트닝 모이스처크림 50 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 96,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062141",
+      "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 50% · 토큰 cream",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "베네피앙스 링클 스무딩 아이 크림",
+        "similarity": 0.5,
+        "demand_weight": 0.81,
+        "matched_tokens": [
+          "cream"
+        ],
+        "match_score": 0.405
+      }
+    },
+    {
+      "rank": 22,
       "pd_no": "1061922",
       "name": "본셉 비타씨 젤리 마스크 1매 23 g",
       "bucket": "마스크팩",
@@ -450,7 +471,7 @@
       }
     },
     {
-      "rank": 22,
+      "rank": 23,
       "pd_no": "1032881",
       "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
       "bucket": "마스크팩",
@@ -471,7 +492,7 @@
       }
     },
     {
-      "rank": 23,
+      "rank": 24,
       "pd_no": "1072803",
       "name": "케어존플러스 모공탄력 수분크림 75 ml",
       "bucket": "스킨케어",
@@ -492,12 +513,12 @@
       }
     },
     {
-      "rank": 24,
+      "rank": 25,
       "pd_no": "1073704",
       "name": "[각질순삭]큐어레스트 버블 필링 클렌저 120 ml",
       "bucket": "클렌징",
       "price_krw": 5000,
-      "shopify_score": 95,
+      "shopify_score": 94,
       "grade": "S",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073704",
       "recommend_reason": "글로벌 '톨레리안 퓨리파잉 폼 클렌저' (walmart_beauty) 유사 100% · 토큰 cleanser",
@@ -513,49 +534,7 @@
       }
     },
     {
-      "rank": 25,
-      "pd_no": "1062141",
-      "name": "네시픽 화이트닝 모이스처크림 50 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 95,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062141",
-      "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 50% · 토큰 cream",
-      "matched_global": {
-        "channel": "sephora",
-        "global_product": "베네피앙스 링클 스무딩 아이 크림",
-        "similarity": 0.5,
-        "demand_weight": 0.81,
-        "matched_tokens": [
-          "cream"
-        ],
-        "match_score": 0.405
-      }
-    },
-    {
       "rank": 26,
-      "pd_no": "1048042",
-      "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
-      "bucket": "메이크업",
-      "price_krw": 5000,
-      "shopify_score": 94,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048042",
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "TIRTIR Mask Fit Red Cushion",
-        "similarity": 0.733,
-        "demand_weight": 1.0,
-        "matched_tokens": [
-          "cushion"
-        ],
-        "match_score": 0.733
-      }
-    },
-    {
-      "rank": 27,
       "pd_no": "1038603",
       "name": "식물원 병풀 클리어 마스크 시트",
       "bucket": "마스크팩",
@@ -576,7 +555,7 @@
       }
     },
     {
-      "rank": 28,
+      "rank": 27,
       "pd_no": "1068733",
       "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
       "bucket": "스킨케어",
@@ -597,7 +576,7 @@
       }
     },
     {
-      "rank": 29,
+      "rank": 28,
       "pd_no": "1011177",
       "name": "3M 세이프그립 다목적 안전장갑 M",
       "bucket": "메이크업",
@@ -615,6 +594,27 @@
           "lip"
         ],
         "match_score": 0.66
+      }
+    },
+    {
+      "rank": 29,
+      "pd_no": "1048042",
+      "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
+      "bucket": "메이크업",
+      "price_krw": 5000,
+      "shopify_score": 92,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048042",
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.733,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "cushion"
+        ],
+        "match_score": 0.733
       }
     },
     {
@@ -703,6 +703,27 @@
     },
     {
       "rank": 34,
+      "pd_no": "1061927",
+      "name": "리노이아 워터 트리트먼트 200 ml",
+      "bucket": "마스크팩",
+      "price_krw": 5000,
+      "shopify_score": 89,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061927",
+      "recommend_reason": "글로벌 'SU:M37 Secret Essence Advanced Treatment 1.69 fl. oz.(100ml) Set (+refill 1.69 fl. oz.(100ml))' (google_trends_us) 유사 68% · 토큰 treatment",
+      "matched_global": {
+        "channel": "google_trends_us",
+        "global_product": "SU:M37 Secret Essence Advanced Treatment 1.69 fl. oz.(100ml) Set (+refill 1.69 fl. oz.(100ml))",
+        "similarity": 0.68,
+        "demand_weight": 0.35,
+        "matched_tokens": [
+          "treatment"
+        ],
+        "match_score": 0.238
+      }
+    },
+    {
+      "rank": 35,
       "pd_no": "1060532",
       "name": "냉장고 클립형 다용도 보관함 4개입",
       "bucket": "메이크업",
@@ -723,7 +744,7 @@
       }
     },
     {
-      "rank": 35,
+      "rank": 36,
       "pd_no": "1060505",
       "name": "밀크터치 디어씽 글로우 이펙트 립 플럼퍼(02 오로라빔)",
       "bucket": "메이크업",
@@ -741,27 +762,6 @@
           "lip"
         ],
         "match_score": 0.66
-      }
-    },
-    {
-      "rank": 36,
-      "pd_no": "1056662",
-      "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
-      "bucket": "헤어케어",
-      "price_krw": 3000,
-      "shopify_score": 85,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056662",
-      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Medicube Zero Pore Pad",
-        "similarity": 0.433,
-        "demand_weight": 0.8,
-        "matched_tokens": [
-          "pore"
-        ],
-        "match_score": 0.347
       }
     },
     {
@@ -787,6 +787,27 @@
     },
     {
       "rank": 38,
+      "pd_no": "1056662",
+      "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
+      "bucket": "헤어케어",
+      "price_krw": 3000,
+      "shopify_score": 84,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056662",
+      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Medicube Zero Pore Pad",
+        "similarity": 0.433,
+        "demand_weight": 0.8,
+        "matched_tokens": [
+          "pore"
+        ],
+        "match_score": 0.347
+      }
+    },
+    {
+      "rank": 39,
       "pd_no": "1044846",
       "name": "트윙클팝 오버 립 펜슬 웜 살몬 by CLIO",
       "bucket": "메이크업",
@@ -807,7 +828,7 @@
       }
     },
     {
-      "rank": 39,
+      "rank": 40,
       "pd_no": "1009705",
       "name": "NITEX 그립 코팅장갑 LITE L",
       "bucket": "메이크업",

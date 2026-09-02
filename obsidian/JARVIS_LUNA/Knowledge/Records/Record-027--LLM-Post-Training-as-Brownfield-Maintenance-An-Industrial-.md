@@ -2,7 +2,7 @@
 title: "Record 027 · LLM-Post-Training-as-Brownfield-Maintenance-An-Industrial-Perspective-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T16:46:33.052317+00:00
+updated_at: 2026-09-02T19:36:54.893341+00:00
 tags: [{', '.join(tags)}]
 ---
 

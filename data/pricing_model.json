@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T16:51:11.816904+00:00",
+  "generated_at": "2026-09-02T19:41:38.995811+00:00",
   "exchange_rate": {
     "usd_to_krw": 1373.78,
     "as_of": "2026-09-02",
@@ -21,9 +21,9 @@
     ]
   },
   "market_benchmark": {
-    "min": 4.03,
-    "p25": 17.6,
-    "median": 23.76,
+    "min": 8.9,
+    "p25": 20.8,
+    "median": 24.79,
     "max": 279.0,
     "n": 100,
     "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-02)"
@@ -51,16 +51,16 @@
           "margin_pct": -194.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 3.08,
-          "margin_pct": 17.5
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 6.18,
+          "margin_pct": 29.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 9.06,
-          "margin_pct": 38.1
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 10.06,
+          "margin_pct": 40.6
         }
       },
       {
@@ -84,16 +84,16 @@
           "margin_pct": -178.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 8.26,
-          "margin_pct": 46.9
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 11.37,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 14.24,
-          "margin_pct": 59.9
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 15.24,
+          "margin_pct": 61.5
         }
       },
       {
@@ -117,16 +117,16 @@
           "margin_pct": -62.9
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 4.28,
-          "margin_pct": 24.3
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 7.38,
+          "margin_pct": 35.5
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 10.26,
-          "margin_pct": 43.2
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 11.26,
+          "margin_pct": 45.4
         }
       },
       {
@@ -150,16 +150,16 @@
           "margin_pct": -53.7
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 5.01,
-          "margin_pct": 28.5
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 8.12,
+          "margin_pct": 39.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 10.99,
-          "margin_pct": 46.3
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 11.99,
+          "margin_pct": 48.4
         }
       },
       {
@@ -183,16 +183,16 @@
           "margin_pct": -44.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 5.75,
-          "margin_pct": 32.7
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 8.85,
+          "margin_pct": 42.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 11.73,
-          "margin_pct": 49.4
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 12.73,
+          "margin_pct": 51.3
         }
       },
       {
@@ -216,16 +216,16 @@
           "margin_pct": -44.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 5.75,
-          "margin_pct": 32.7
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 8.85,
+          "margin_pct": 42.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 11.73,
-          "margin_pct": 49.4
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 12.73,
+          "margin_pct": 51.3
         }
       },
       {
@@ -249,16 +249,16 @@
           "margin_pct": -35.4
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 6.48,
-          "margin_pct": 36.8
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 9.59,
+          "margin_pct": 46.1
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 12.46,
-          "margin_pct": 52.5
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 13.46,
+          "margin_pct": 54.3
         }
       },
       {
@@ -282,16 +282,16 @@
           "margin_pct": -35.4
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 6.48,
-          "margin_pct": 36.8
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 9.59,
+          "margin_pct": 46.1
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 12.46,
-          "margin_pct": 52.5
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 13.46,
+          "margin_pct": 54.3
         }
       },
       {
@@ -315,16 +315,16 @@
           "margin_pct": -44.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 5.75,
-          "margin_pct": 32.7
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 8.85,
+          "margin_pct": 42.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 11.73,
-          "margin_pct": 49.4
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 12.73,
+          "margin_pct": 51.3
         }
       },
       {
@@ -348,16 +348,16 @@
           "margin_pct": -90.2
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 2.09,
-          "margin_pct": 11.9
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 5.2,
+          "margin_pct": 25.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 8.07,
-          "margin_pct": 34.0
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 9.07,
+          "margin_pct": 36.6
         }
       },
       {
@@ -381,16 +381,16 @@
           "margin_pct": -402.1
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 9.1,
-          "margin_pct": 51.7
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 12.2,
+          "margin_pct": 58.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 15.08,
-          "margin_pct": 63.5
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 16.08,
+          "margin_pct": 64.9
         }
       },
       {
@@ -414,16 +414,16 @@
           "margin_pct": -402.1
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 9.1,
-          "margin_pct": 51.7
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 12.2,
+          "margin_pct": 58.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 15.08,
-          "margin_pct": 63.5
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 16.08,
+          "margin_pct": 64.9
         }
       },
       {
@@ -447,16 +447,16 @@
           "margin_pct": -104.1
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 7.42,
-          "margin_pct": 42.2
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 10.53,
+          "margin_pct": 50.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 13.4,
-          "margin_pct": 56.4
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 14.4,
+          "margin_pct": 58.1
         }
       },
       {
@@ -480,16 +480,16 @@
           "margin_pct": -849.0
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 9.51,
-          "margin_pct": 54.1
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 12.62,
+          "margin_pct": 60.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 15.5,
-          "margin_pct": 65.2
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 16.5,
+          "margin_pct": 66.5
         }
       },
       {
@@ -513,16 +513,16 @@
           "margin_pct": -104.1
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 7.42,
-          "margin_pct": 42.2
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 10.53,
+          "margin_pct": 50.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 13.4,
-          "margin_pct": 56.4
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 14.4,
+          "margin_pct": 58.1
         }
       },
       {
@@ -546,16 +546,49 @@
           "margin_pct": -44.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 5.75,
-          "margin_pct": 32.7
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 8.85,
+          "margin_pct": 42.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 11.73,
-          "margin_pct": 49.4
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 12.73,
+          "margin_pct": 51.3
+        }
+      },
+      {
+        "pd_no": "1048581",
+        "name": "드롭비 잡티 말끔 앰플 40 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 100,
+        "price_krw": 5000,
+        "weight_g_est": 104,
+        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.64,
+        "shipping_unit_usd": 6.86,
+        "shipping_order_usd": 6.86,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 11.04,
+        "breakeven_usd": 11.68,
+        "at_2_2x": {
+          "sell": 8.01,
+          "fee": 0.53,
+          "profit": -3.57,
+          "margin_pct": -44.6
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 8.85,
+          "margin_pct": 42.6
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 12.73,
+          "margin_pct": 51.3
         }
       },
       {
@@ -579,49 +612,16 @@
           "margin_pct": -44.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 5.75,
-          "margin_pct": 32.7
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 8.85,
+          "margin_pct": 42.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 11.73,
-          "margin_pct": 49.4
-        }
-      },
-      {
-        "pd_no": "1048581",
-        "name": "드롭비 잡티 말끔 앰플 40 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 99,
-        "price_krw": 5000,
-        "weight_g_est": 104,
-        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
-        "tariff_usd": 0.55,
-        "landed_cost_usd": 11.04,
-        "breakeven_usd": 11.68,
-        "at_2_2x": {
-          "sell": 8.01,
-          "fee": 0.53,
-          "profit": -3.57,
-          "margin_pct": -44.6
-        },
-        "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 5.75,
-          "margin_pct": 32.7
-        },
-        "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 11.73,
-          "margin_pct": 49.4
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 12.73,
+          "margin_pct": 51.3
         }
       },
       {
@@ -645,16 +645,16 @@
           "margin_pct": -88.8
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 8.16,
-          "margin_pct": 46.3
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 11.26,
+          "margin_pct": 54.2
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 14.14,
-          "margin_pct": 59.5
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 15.14,
+          "margin_pct": 61.1
         }
       },
       {
@@ -678,16 +678,49 @@
           "margin_pct": -119.4
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 6.69,
-          "margin_pct": 38.0
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 9.79,
+          "margin_pct": 47.1
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 12.67,
-          "margin_pct": 53.3
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 13.67,
+          "margin_pct": 55.1
+        }
+      },
+      {
+        "pd_no": "1062141",
+        "name": "네시픽 화이트닝 모이스처크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.64,
+        "shipping_unit_usd": 6.86,
+        "shipping_order_usd": 6.86,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 11.04,
+        "breakeven_usd": 11.68,
+        "at_2_2x": {
+          "sell": 8.01,
+          "fee": 0.53,
+          "profit": -3.57,
+          "margin_pct": -44.6
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 8.85,
+          "margin_pct": 42.6
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 12.73,
+          "margin_pct": 51.3
         }
       },
       {
@@ -711,16 +744,16 @@
           "margin_pct": -356.2
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 9.83,
-          "margin_pct": 55.9
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 12.94,
+          "margin_pct": 62.2
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 15.81,
-          "margin_pct": 66.5
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 16.81,
+          "margin_pct": 67.8
         }
       },
       {
@@ -744,16 +777,16 @@
           "margin_pct": -119.4
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 6.69,
-          "margin_pct": 38.0
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 9.79,
+          "margin_pct": 47.1
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 12.67,
-          "margin_pct": 53.3
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 13.67,
+          "margin_pct": 55.1
         }
       },
       {
@@ -777,23 +810,23 @@
           "margin_pct": -44.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 5.75,
-          "margin_pct": 32.7
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 8.85,
+          "margin_pct": 42.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 11.73,
-          "margin_pct": 49.4
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 12.73,
+          "margin_pct": 51.3
         }
       },
       {
         "pd_no": "1073704",
         "name": "[각질순삭]큐어레스트 버블 필링 클렌저 120 ml",
         "bucket": "클렌징",
-        "shopify_score": 95,
+        "shopify_score": 94,
         "price_krw": 5000,
         "weight_g_est": 232,
         "weight_note": "120ml x 1.6(용기) + 40g(포장) 추정",
@@ -810,82 +843,16 @@
           "margin_pct": -53.7
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 5.01,
-          "margin_pct": 28.5
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 8.12,
+          "margin_pct": 39.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 10.99,
-          "margin_pct": 46.3
-        }
-      },
-      {
-        "pd_no": "1062141",
-        "name": "네시픽 화이트닝 모이스처크림 50 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 95,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
-        "tariff_usd": 0.55,
-        "landed_cost_usd": 11.04,
-        "breakeven_usd": 11.68,
-        "at_2_2x": {
-          "sell": 8.01,
-          "fee": 0.53,
-          "profit": -3.57,
-          "margin_pct": -44.6
-        },
-        "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 5.75,
-          "margin_pct": 32.7
-        },
-        "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 11.73,
-          "margin_pct": 49.4
-        }
-      },
-      {
-        "pd_no": "1048042",
-        "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
-        "bucket": "메이크업",
-        "shopify_score": 94,
-        "price_krw": 5000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
-        "tariff_usd": 0.55,
-        "landed_cost_usd": 11.04,
-        "breakeven_usd": 11.68,
-        "at_2_2x": {
-          "sell": 8.01,
-          "fee": 0.53,
-          "profit": -3.57,
-          "margin_pct": -44.6
-        },
-        "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 5.75,
-          "margin_pct": 32.7
-        },
-        "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 11.73,
-          "margin_pct": 49.4
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 11.99,
+          "margin_pct": 48.4
         }
       },
       {
@@ -909,16 +876,16 @@
           "margin_pct": -402.1
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 9.1,
-          "margin_pct": 51.7
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 12.2,
+          "margin_pct": 58.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 15.08,
-          "margin_pct": 63.5
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 16.08,
+          "margin_pct": 64.9
         }
       },
       {
@@ -942,16 +909,16 @@
           "margin_pct": -35.4
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 6.48,
-          "margin_pct": 36.8
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 9.59,
+          "margin_pct": 46.1
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 12.46,
-          "margin_pct": 52.5
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 13.46,
+          "margin_pct": 54.3
         }
       },
       {
@@ -975,16 +942,49 @@
           "margin_pct": -178.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 8.26,
-          "margin_pct": 46.9
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 11.37,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 14.24,
-          "margin_pct": 59.9
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 15.24,
+          "margin_pct": 61.5
+        }
+      },
+      {
+        "pd_no": "1048042",
+        "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
+        "bucket": "메이크업",
+        "shopify_score": 92,
+        "price_krw": 5000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 3.64,
+        "shipping_unit_usd": 6.86,
+        "shipping_order_usd": 6.86,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 11.04,
+        "breakeven_usd": 11.68,
+        "at_2_2x": {
+          "sell": 8.01,
+          "fee": 0.53,
+          "profit": -3.57,
+          "margin_pct": -44.6
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 8.85,
+          "margin_pct": 42.6
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 12.73,
+          "margin_pct": 51.3
         }
       },
       {
@@ -1008,16 +1008,16 @@
           "margin_pct": -356.2
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 9.83,
-          "margin_pct": 55.9
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 12.94,
+          "margin_pct": 62.2
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 15.81,
-          "margin_pct": 66.5
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 16.81,
+          "margin_pct": 67.8
         }
       },
       {
@@ -1041,16 +1041,16 @@
           "margin_pct": -178.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 8.26,
-          "margin_pct": 46.9
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 11.37,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 14.24,
-          "margin_pct": 59.9
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 15.24,
+          "margin_pct": 61.5
         }
       },
       {
@@ -1074,16 +1074,16 @@
           "margin_pct": -402.1
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 9.1,
-          "margin_pct": 51.7
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 12.2,
+          "margin_pct": 58.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 15.08,
-          "margin_pct": 63.5
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 16.08,
+          "margin_pct": 64.9
         }
       },
       {
@@ -1107,16 +1107,49 @@
           "margin_pct": -402.1
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 9.1,
-          "margin_pct": 51.7
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 12.2,
+          "margin_pct": 58.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 15.08,
-          "margin_pct": 63.5
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 16.08,
+          "margin_pct": 64.9
+        }
+      },
+      {
+        "pd_no": "1061927",
+        "name": "리노이아 워터 트리트먼트 200 ml",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.64,
+        "shipping_unit_usd": 8.33,
+        "shipping_order_usd": 8.33,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 12.51,
+        "breakeven_usd": 13.2,
+        "at_2_2x": {
+          "sell": 8.01,
+          "fee": 0.53,
+          "profit": -5.04,
+          "margin_pct": -62.9
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 7.38,
+          "margin_pct": 35.5
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 11.26,
+          "margin_pct": 45.4
         }
       },
       {
@@ -1140,16 +1173,16 @@
           "margin_pct": -402.1
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 9.1,
-          "margin_pct": 51.7
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 12.2,
+          "margin_pct": 58.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 15.08,
-          "margin_pct": 63.5
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 16.08,
+          "margin_pct": 64.9
         }
       },
       {
@@ -1173,49 +1206,16 @@
           "margin_pct": -44.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 5.75,
-          "margin_pct": 32.7
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 8.85,
+          "margin_pct": 42.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 11.73,
-          "margin_pct": 49.4
-        }
-      },
-      {
-        "pd_no": "1056662",
-        "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
-        "bucket": "헤어케어",
-        "shopify_score": 85,
-        "price_krw": 3000,
-        "weight_g_est": 64,
-        "weight_note": "15ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 6.12,
-        "shipping_order_usd": 6.12,
-        "tariff_usd": 0.33,
-        "landed_cost_usd": 8.63,
-        "breakeven_usd": 9.2,
-        "at_2_2x": {
-          "sell": 4.8,
-          "fee": 0.44,
-          "profit": -4.27,
-          "margin_pct": -88.8
-        },
-        "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 8.16,
-          "margin_pct": 46.3
-        },
-        "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 14.14,
-          "margin_pct": 59.5
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 12.73,
+          "margin_pct": 51.3
         }
       },
       {
@@ -1239,16 +1239,49 @@
           "margin_pct": -104.1
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 7.42,
-          "margin_pct": 42.2
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 10.53,
+          "margin_pct": 50.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 13.4,
-          "margin_pct": 56.4
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 14.4,
+          "margin_pct": 58.1
+        }
+      },
+      {
+        "pd_no": "1056662",
+        "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
+        "bucket": "헤어케어",
+        "shopify_score": 84,
+        "price_krw": 3000,
+        "weight_g_est": 64,
+        "weight_note": "15ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.18,
+        "shipping_unit_usd": 6.12,
+        "shipping_order_usd": 6.12,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 8.63,
+        "breakeven_usd": 9.2,
+        "at_2_2x": {
+          "sell": 4.8,
+          "fee": 0.44,
+          "profit": -4.27,
+          "margin_pct": -88.8
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 11.26,
+          "margin_pct": 54.2
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 15.14,
+          "margin_pct": 61.1
         }
       },
       {
@@ -1272,16 +1305,16 @@
           "margin_pct": -104.1
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 7.42,
-          "margin_pct": 42.2
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 10.53,
+          "margin_pct": 50.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 13.4,
-          "margin_pct": 56.4
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 14.4,
+          "margin_pct": 58.1
         }
       },
       {
@@ -1305,16 +1338,16 @@
           "margin_pct": -178.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.81,
-          "profit": 8.26,
-          "margin_pct": 46.9
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 11.37,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.99,
-          "profit": 14.24,
-          "margin_pct": 59.9
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 15.24,
+          "margin_pct": 61.5
         }
       }
     ],
@@ -1340,16 +1373,16 @@
           "margin_pct": -128.0
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 6.27,
-          "margin_pct": 35.7
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 9.38,
+          "margin_pct": 45.1
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 12.26,
-          "margin_pct": 51.6
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 13.26,
+          "margin_pct": 53.5
         }
       },
       {
@@ -1373,16 +1406,16 @@
           "margin_pct": -67.7
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 11.81,
-          "margin_pct": 67.1
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 14.92,
+          "margin_pct": 71.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 17.79,
-          "margin_pct": 74.9
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 18.79,
+          "margin_pct": 75.8
         }
       },
       {
@@ -1406,16 +1439,16 @@
           "margin_pct": -17.4
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 7.92,
-          "margin_pct": 45.0
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 11.03,
+          "margin_pct": 53.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 13.9,
-          "margin_pct": 58.5
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 14.9,
+          "margin_pct": 60.1
         }
       },
       {
@@ -1439,16 +1472,16 @@
           "margin_pct": -8.8
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 8.61,
-          "margin_pct": 48.9
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 11.72,
+          "margin_pct": 56.3
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 14.59,
-          "margin_pct": 61.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 15.59,
+          "margin_pct": 62.9
         }
       },
       {
@@ -1472,16 +1505,16 @@
           "margin_pct": 8.9
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 10.03,
-          "margin_pct": 57.0
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 13.14,
+          "margin_pct": 63.2
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 16.01,
-          "margin_pct": 67.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.01,
+          "margin_pct": 68.6
         }
       },
       {
@@ -1505,16 +1538,16 @@
           "margin_pct": 8.9
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 10.03,
-          "margin_pct": 57.0
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 13.14,
+          "margin_pct": 63.2
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 16.01,
-          "margin_pct": 67.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.01,
+          "margin_pct": 68.6
         }
       },
       {
@@ -1538,16 +1571,16 @@
           "margin_pct": 15.0
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 10.52,
-          "margin_pct": 59.8
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 13.63,
+          "margin_pct": 65.5
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 16.5,
-          "margin_pct": 69.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.5,
+          "margin_pct": 70.6
         }
       },
       {
@@ -1571,16 +1604,16 @@
           "margin_pct": 12.0
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 10.27,
-          "margin_pct": 58.4
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 13.38,
+          "margin_pct": 64.3
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 16.25,
-          "margin_pct": 68.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.25,
+          "margin_pct": 69.6
         }
       },
       {
@@ -1604,16 +1637,16 @@
           "margin_pct": 8.9
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 10.03,
-          "margin_pct": 57.0
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 13.14,
+          "margin_pct": 63.2
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 16.01,
-          "margin_pct": 67.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.01,
+          "margin_pct": 68.6
         }
       },
       {
@@ -1637,16 +1670,16 @@
           "margin_pct": -35.8
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 6.44,
-          "margin_pct": 36.6
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 9.55,
+          "margin_pct": 45.9
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 12.43,
-          "margin_pct": 52.3
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 13.43,
+          "margin_pct": 54.2
         }
       },
       {
@@ -1670,16 +1703,16 @@
           "margin_pct": -180.2
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 12.65,
-          "margin_pct": 71.9
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 15.76,
+          "margin_pct": 75.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 18.63,
-          "margin_pct": 78.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 19.63,
+          "margin_pct": 79.2
         }
       },
       {
@@ -1703,16 +1736,16 @@
           "margin_pct": -165.8
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 12.88,
-          "margin_pct": 73.2
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 15.99,
+          "margin_pct": 76.9
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 18.86,
-          "margin_pct": 79.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 19.86,
+          "margin_pct": 80.1
         }
       },
       {
@@ -1736,16 +1769,16 @@
           "margin_pct": -30.2
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 10.97,
-          "margin_pct": 62.4
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 14.08,
+          "margin_pct": 67.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 16.96,
-          "margin_pct": 71.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.96,
+          "margin_pct": 72.4
         }
       },
       {
@@ -1769,16 +1802,16 @@
           "margin_pct": -405.2
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 13.07,
-          "margin_pct": 74.2
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 16.17,
+          "margin_pct": 77.8
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 19.05,
-          "margin_pct": 80.2
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 20.05,
+          "margin_pct": 80.9
         }
       },
       {
@@ -1802,16 +1835,16 @@
           "margin_pct": -30.2
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 10.97,
-          "margin_pct": 62.4
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 14.08,
+          "margin_pct": 67.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 16.96,
-          "margin_pct": 71.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.96,
+          "margin_pct": 72.4
         }
       },
       {
@@ -1835,16 +1868,49 @@
           "margin_pct": 2.7
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 9.53,
-          "margin_pct": 54.2
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 12.64,
+          "margin_pct": 60.8
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 15.51,
-          "margin_pct": 65.3
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 16.51,
+          "margin_pct": 66.6
+        }
+      },
+      {
+        "pd_no": "1048581",
+        "name": "드롭비 잡티 말끔 앰플 40 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 100,
+        "price_krw": 5000,
+        "weight_g_est": 104,
+        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.64,
+        "shipping_unit_usd": 2.78,
+        "shipping_order_usd": 8.33,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 6.96,
+        "breakeven_usd": 7.27,
+        "at_2_2x": {
+          "sell": 8.01,
+          "fee": 0.33,
+          "profit": 0.71,
+          "margin_pct": 8.9
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 13.14,
+          "margin_pct": 63.2
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.01,
+          "margin_pct": 68.6
         }
       },
       {
@@ -1868,49 +1934,16 @@
           "margin_pct": 8.9
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 10.03,
-          "margin_pct": 57.0
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 13.14,
+          "margin_pct": 63.2
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 16.01,
-          "margin_pct": 67.4
-        }
-      },
-      {
-        "pd_no": "1048581",
-        "name": "드롭비 잡티 말끔 앰플 40 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 99,
-        "price_krw": 5000,
-        "weight_g_est": 104,
-        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.78,
-        "shipping_order_usd": 8.33,
-        "tariff_usd": 0.55,
-        "landed_cost_usd": 6.96,
-        "breakeven_usd": 7.27,
-        "at_2_2x": {
-          "sell": 8.01,
-          "fee": 0.33,
-          "profit": 0.71,
-          "margin_pct": 8.9
-        },
-        "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 10.03,
-          "margin_pct": 57.0
-        },
-        "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 16.01,
-          "margin_pct": 67.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.01,
+          "margin_pct": 68.6
         }
       },
       {
@@ -1934,16 +1967,16 @@
           "margin_pct": -4.8
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 12.19,
-          "margin_pct": 69.3
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 15.3,
+          "margin_pct": 73.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 18.17,
-          "margin_pct": 76.5
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 19.17,
+          "margin_pct": 77.3
         }
       },
       {
@@ -1967,16 +2000,49 @@
           "margin_pct": -44.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 10.28,
-          "margin_pct": 58.4
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 13.39,
+          "margin_pct": 64.4
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 16.26,
-          "margin_pct": 68.5
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.26,
+          "margin_pct": 69.6
+        }
+      },
+      {
+        "pd_no": "1062141",
+        "name": "네시픽 화이트닝 모이스처크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.64,
+        "shipping_unit_usd": 2.78,
+        "shipping_order_usd": 8.33,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 6.96,
+        "breakeven_usd": 7.27,
+        "at_2_2x": {
+          "sell": 8.01,
+          "fee": 0.33,
+          "profit": 0.71,
+          "margin_pct": 8.9
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 13.14,
+          "margin_pct": 63.2
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.01,
+          "margin_pct": 68.6
         }
       },
       {
@@ -2000,16 +2066,16 @@
           "margin_pct": -119.4
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 13.62,
-          "margin_pct": 77.4
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 16.73,
+          "margin_pct": 80.4
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 19.6,
-          "margin_pct": 82.5
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 20.6,
+          "margin_pct": 83.1
         }
       },
       {
@@ -2033,16 +2099,16 @@
           "margin_pct": -44.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 10.28,
-          "margin_pct": 58.4
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 13.39,
+          "margin_pct": 64.4
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 16.26,
-          "margin_pct": 68.5
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.26,
+          "margin_pct": 69.6
         }
       },
       {
@@ -2066,23 +2132,23 @@
           "margin_pct": 2.7
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 9.53,
-          "margin_pct": 54.2
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 12.64,
+          "margin_pct": 60.8
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 15.51,
-          "margin_pct": 65.3
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 16.51,
+          "margin_pct": 66.6
         }
       },
       {
         "pd_no": "1073704",
         "name": "[각질순삭]큐어레스트 버블 필링 클렌저 120 ml",
         "bucket": "클렌징",
-        "shopify_score": 95,
+        "shopify_score": 94,
         "price_krw": 5000,
         "weight_g_est": 232,
         "weight_note": "120ml x 1.6(용기) + 40g(포장) 추정",
@@ -2099,82 +2165,16 @@
           "margin_pct": -3.1
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 9.07,
-          "margin_pct": 51.5
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 12.18,
+          "margin_pct": 58.5
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 15.05,
-          "margin_pct": 63.3
-        }
-      },
-      {
-        "pd_no": "1062141",
-        "name": "네시픽 화이트닝 모이스처크림 50 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 95,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.78,
-        "shipping_order_usd": 8.33,
-        "tariff_usd": 0.55,
-        "landed_cost_usd": 6.96,
-        "breakeven_usd": 7.27,
-        "at_2_2x": {
-          "sell": 8.01,
-          "fee": 0.33,
-          "profit": 0.71,
-          "margin_pct": 8.9
-        },
-        "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 10.03,
-          "margin_pct": 57.0
-        },
-        "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 16.01,
-          "margin_pct": 67.4
-        }
-      },
-      {
-        "pd_no": "1048042",
-        "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
-        "bucket": "메이크업",
-        "shopify_score": 94,
-        "price_krw": 5000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
-        "tariff_usd": 0.55,
-        "landed_cost_usd": 7.69,
-        "breakeven_usd": 8.02,
-        "at_2_2x": {
-          "sell": 8.01,
-          "fee": 0.33,
-          "profit": -0.01,
-          "margin_pct": -0.2
-        },
-        "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 9.3,
-          "margin_pct": 52.8
-        },
-        "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 15.28,
-          "margin_pct": 64.3
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 16.05,
+          "margin_pct": 64.7
         }
       },
       {
@@ -2198,16 +2198,16 @@
           "margin_pct": -180.2
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 12.65,
-          "margin_pct": 71.9
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 15.76,
+          "margin_pct": 75.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 18.63,
-          "margin_pct": 78.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 19.63,
+          "margin_pct": 79.2
         }
       },
       {
@@ -2231,16 +2231,16 @@
           "margin_pct": 15.0
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 10.52,
-          "margin_pct": 59.8
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 13.63,
+          "margin_pct": 65.5
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 16.5,
-          "margin_pct": 69.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.5,
+          "margin_pct": 70.6
         }
       },
       {
@@ -2264,16 +2264,49 @@
           "margin_pct": -67.7
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 11.81,
-          "margin_pct": 67.1
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 14.92,
+          "margin_pct": 71.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 17.79,
-          "margin_pct": 74.9
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 18.79,
+          "margin_pct": 75.8
+        }
+      },
+      {
+        "pd_no": "1048042",
+        "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
+        "bucket": "메이크업",
+        "shopify_score": 92,
+        "price_krw": 5000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 3.64,
+        "shipping_unit_usd": 3.5,
+        "shipping_order_usd": 10.51,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 7.69,
+        "breakeven_usd": 8.02,
+        "at_2_2x": {
+          "sell": 8.01,
+          "fee": 0.33,
+          "profit": -0.01,
+          "margin_pct": -0.2
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 12.41,
+          "margin_pct": 59.7
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 16.28,
+          "margin_pct": 65.7
         }
       },
       {
@@ -2297,16 +2330,16 @@
           "margin_pct": -104.1
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 13.87,
-          "margin_pct": 78.8
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 16.97,
+          "margin_pct": 81.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 19.85,
-          "margin_pct": 83.5
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 20.85,
+          "margin_pct": 84.1
         }
       },
       {
@@ -2330,16 +2363,16 @@
           "margin_pct": -67.7
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 11.81,
-          "margin_pct": 67.1
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 14.92,
+          "margin_pct": 71.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 17.79,
-          "margin_pct": 74.9
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 18.79,
+          "margin_pct": 75.8
         }
       },
       {
@@ -2363,16 +2396,16 @@
           "margin_pct": -180.2
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 12.65,
-          "margin_pct": 71.9
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 15.76,
+          "margin_pct": 75.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 18.63,
-          "margin_pct": 78.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 19.63,
+          "margin_pct": 79.2
         }
       },
       {
@@ -2396,16 +2429,49 @@
           "margin_pct": -180.2
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 12.65,
-          "margin_pct": 71.9
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 15.76,
+          "margin_pct": 75.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 18.63,
-          "margin_pct": 78.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 19.63,
+          "margin_pct": 79.2
+        }
+      },
+      {
+        "pd_no": "1061927",
+        "name": "리노이아 워터 트리트먼트 200 ml",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.64,
+        "shipping_unit_usd": 4.88,
+        "shipping_order_usd": 14.65,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 9.07,
+        "breakeven_usd": 9.44,
+        "at_2_2x": {
+          "sell": 8.01,
+          "fee": 0.33,
+          "profit": -1.39,
+          "margin_pct": -17.4
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 11.03,
+          "margin_pct": 53.0
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 14.9,
+          "margin_pct": 60.1
         }
       },
       {
@@ -2429,16 +2495,16 @@
           "margin_pct": -180.2
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 12.65,
-          "margin_pct": 71.9
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 15.76,
+          "margin_pct": 75.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 18.63,
-          "margin_pct": 78.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 19.63,
+          "margin_pct": 79.2
         }
       },
       {
@@ -2462,49 +2528,16 @@
           "margin_pct": -0.2
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 9.3,
-          "margin_pct": 52.8
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 12.41,
+          "margin_pct": 59.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 15.28,
-          "margin_pct": 64.3
-        }
-      },
-      {
-        "pd_no": "1056662",
-        "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
-        "bucket": "헤어케어",
-        "shopify_score": 85,
-        "price_krw": 3000,
-        "weight_g_est": 64,
-        "weight_note": "15ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 2.29,
-        "shipping_order_usd": 6.86,
-        "tariff_usd": 0.33,
-        "landed_cost_usd": 4.8,
-        "breakeven_usd": 5.04,
-        "at_2_2x": {
-          "sell": 4.8,
-          "fee": 0.24,
-          "profit": -0.23,
-          "margin_pct": -4.8
-        },
-        "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 12.19,
-          "margin_pct": 69.3
-        },
-        "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 18.17,
-          "margin_pct": 76.5
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 16.28,
+          "margin_pct": 65.7
         }
       },
       {
@@ -2528,16 +2561,49 @@
           "margin_pct": -30.2
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 10.97,
-          "margin_pct": 62.4
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 14.08,
+          "margin_pct": 67.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 16.96,
-          "margin_pct": 71.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.96,
+          "margin_pct": 72.4
+        }
+      },
+      {
+        "pd_no": "1056662",
+        "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
+        "bucket": "헤어케어",
+        "shopify_score": 84,
+        "price_krw": 3000,
+        "weight_g_est": 64,
+        "weight_note": "15ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.18,
+        "shipping_unit_usd": 2.29,
+        "shipping_order_usd": 6.86,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 4.8,
+        "breakeven_usd": 5.04,
+        "at_2_2x": {
+          "sell": 4.8,
+          "fee": 0.24,
+          "profit": -0.23,
+          "margin_pct": -4.8
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 15.3,
+          "margin_pct": 73.6
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 19.17,
+          "margin_pct": 77.3
         }
       },
       {
@@ -2561,16 +2627,16 @@
           "margin_pct": -30.2
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 10.97,
-          "margin_pct": 62.4
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 14.08,
+          "margin_pct": 67.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 16.96,
-          "margin_pct": 71.4
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.96,
+          "margin_pct": 72.4
         }
       },
       {
@@ -2594,16 +2660,16 @@
           "margin_pct": -67.7
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.61,
-          "profit": 11.81,
-          "margin_pct": 67.1
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 14.92,
+          "margin_pct": 71.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.79,
-          "profit": 17.79,
-          "margin_pct": 74.9
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 18.79,
+          "margin_pct": 75.8
         }
       }
     ],
@@ -2629,16 +2695,16 @@
           "margin_pct": -58.9
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 9.6,
-          "margin_pct": 54.5
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 12.7,
+          "margin_pct": 61.1
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 15.58,
-          "margin_pct": 65.6
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 16.58,
+          "margin_pct": 66.9
         }
       },
       {
@@ -2662,16 +2728,16 @@
           "margin_pct": -39.9
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 12.7,
-          "margin_pct": 72.2
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 15.81,
+          "margin_pct": 76.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 18.68,
-          "margin_pct": 78.6
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 19.68,
+          "margin_pct": 79.4
         }
       },
       {
@@ -2695,16 +2761,16 @@
           "margin_pct": -10.5
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 8.48,
-          "margin_pct": 48.2
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 11.58,
+          "margin_pct": 55.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 14.46,
-          "margin_pct": 60.8
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 15.46,
+          "margin_pct": 62.4
         }
       },
       {
@@ -2728,16 +2794,16 @@
           "margin_pct": 0.4
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 9.35,
-          "margin_pct": 53.1
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 12.45,
+          "margin_pct": 59.9
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 15.33,
-          "margin_pct": 64.5
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 16.33,
+          "margin_pct": 65.9
         }
       },
       {
@@ -2761,16 +2827,16 @@
           "margin_pct": 17.8
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 10.74,
-          "margin_pct": 61.0
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 13.85,
+          "margin_pct": 66.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 16.72,
-          "margin_pct": 70.4
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 17.72,
+          "margin_pct": 71.5
         }
       },
       {
@@ -2794,16 +2860,16 @@
           "margin_pct": 17.8
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 10.74,
-          "margin_pct": 61.0
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 13.85,
+          "margin_pct": 66.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 16.72,
-          "margin_pct": 70.4
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 17.72,
+          "margin_pct": 71.5
         }
       },
       {
@@ -2827,16 +2893,16 @@
           "margin_pct": 23.3
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 11.18,
-          "margin_pct": 63.5
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 14.29,
+          "margin_pct": 68.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 17.16,
-          "margin_pct": 72.2
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 18.16,
+          "margin_pct": 73.3
         }
       },
       {
@@ -2860,16 +2926,16 @@
           "margin_pct": 19.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 10.88,
-          "margin_pct": 61.8
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 13.99,
+          "margin_pct": 67.2
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 16.86,
-          "margin_pct": 71.0
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 17.86,
+          "margin_pct": 72.1
         }
       },
       {
@@ -2893,16 +2959,16 @@
           "margin_pct": 17.8
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 10.74,
-          "margin_pct": 61.0
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 13.85,
+          "margin_pct": 66.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 16.72,
-          "margin_pct": 70.4
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 17.72,
+          "margin_pct": 71.5
         }
       },
       {
@@ -2926,16 +2992,16 @@
           "margin_pct": -17.4
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 7.92,
-          "margin_pct": 45.0
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 11.03,
+          "margin_pct": 53.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 13.9,
-          "margin_pct": 58.5
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 14.9,
+          "margin_pct": 60.1
         }
       },
       {
@@ -2959,16 +3025,16 @@
           "margin_pct": -124.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 13.54,
-          "margin_pct": 76.9
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 16.65,
+          "margin_pct": 80.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 19.52,
-          "margin_pct": 82.2
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 20.52,
+          "margin_pct": 82.8
         }
       },
       {
@@ -2992,16 +3058,16 @@
           "margin_pct": -98.8
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 13.95,
-          "margin_pct": 79.3
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 17.06,
+          "margin_pct": 82.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 19.93,
-          "margin_pct": 83.9
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 20.93,
+          "margin_pct": 84.4
         }
       },
       {
@@ -3025,16 +3091,16 @@
           "margin_pct": -11.7
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 11.86,
-          "margin_pct": 67.4
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 14.97,
+          "margin_pct": 72.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 17.85,
-          "margin_pct": 75.1
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 18.85,
+          "margin_pct": 76.0
         }
       },
       {
@@ -3058,16 +3124,16 @@
           "margin_pct": -294.1
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 13.96,
-          "margin_pct": 79.3
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 17.06,
+          "margin_pct": 82.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 19.94,
-          "margin_pct": 83.9
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 20.94,
+          "margin_pct": 84.5
         }
       },
       {
@@ -3091,16 +3157,16 @@
           "margin_pct": -8.8
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 12.0,
-          "margin_pct": 68.2
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 15.11,
+          "margin_pct": 72.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 17.98,
-          "margin_pct": 75.7
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 18.98,
+          "margin_pct": 76.6
         }
       },
       {
@@ -3124,16 +3190,49 @@
           "margin_pct": 16.1
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 10.6,
-          "margin_pct": 60.2
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 13.71,
+          "margin_pct": 65.9
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 16.58,
-          "margin_pct": 69.8
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 17.59,
+          "margin_pct": 70.9
+        }
+      },
+      {
+        "pd_no": "1048581",
+        "name": "드롭비 잡티 말끔 앰플 40 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 100,
+        "price_krw": 5000,
+        "weight_g_est": 104,
+        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.64,
+        "shipping_unit_usd": 2.1,
+        "shipping_order_usd": 10.51,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 6.29,
+        "breakeven_usd": 6.54,
+        "at_2_2x": {
+          "sell": 8.01,
+          "fee": 0.29,
+          "profit": 1.43,
+          "margin_pct": 17.8
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 13.85,
+          "margin_pct": 66.6
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 17.72,
+          "margin_pct": 71.5
         }
       },
       {
@@ -3157,49 +3256,16 @@
           "margin_pct": 17.8
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 10.74,
-          "margin_pct": 61.0
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 13.85,
+          "margin_pct": 66.6
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 16.72,
-          "margin_pct": 70.4
-        }
-      },
-      {
-        "pd_no": "1048581",
-        "name": "드롭비 잡티 말끔 앰플 40 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 99,
-        "price_krw": 5000,
-        "weight_g_est": 104,
-        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.1,
-        "shipping_order_usd": 10.51,
-        "tariff_usd": 0.55,
-        "landed_cost_usd": 6.29,
-        "breakeven_usd": 6.54,
-        "at_2_2x": {
-          "sell": 8.01,
-          "fee": 0.29,
-          "profit": 1.43,
-          "margin_pct": 17.8
-        },
-        "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 10.74,
-          "margin_pct": 61.0
-        },
-        "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 16.72,
-          "margin_pct": 70.4
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 17.72,
+          "margin_pct": 71.5
         }
       },
       {
@@ -3223,16 +3289,16 @@
           "margin_pct": 12.0
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 13.0,
-          "margin_pct": 73.9
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 16.11,
+          "margin_pct": 77.4
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 18.98,
-          "margin_pct": 79.9
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 19.98,
+          "margin_pct": 80.6
         }
       },
       {
@@ -3256,16 +3322,49 @@
           "margin_pct": -29.2
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 11.02,
-          "margin_pct": 62.6
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 14.13,
+          "margin_pct": 67.9
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 17.0,
-          "margin_pct": 71.6
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 18.0,
+          "margin_pct": 72.6
+        }
+      },
+      {
+        "pd_no": "1062141",
+        "name": "네시픽 화이트닝 모이스처크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.64,
+        "shipping_unit_usd": 2.1,
+        "shipping_order_usd": 10.51,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 6.29,
+        "breakeven_usd": 6.54,
+        "at_2_2x": {
+          "sell": 8.01,
+          "fee": 0.29,
+          "profit": 1.43,
+          "margin_pct": 17.8
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 13.85,
+          "margin_pct": 66.6
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 17.72,
+          "margin_pct": 71.5
         }
       },
       {
@@ -3289,16 +3388,16 @@
           "margin_pct": -62.9
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 14.53,
-          "margin_pct": 82.5
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 17.63,
+          "margin_pct": 84.8
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 20.51,
-          "margin_pct": 86.3
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 21.51,
+          "margin_pct": 86.8
         }
       },
       {
@@ -3322,16 +3421,16 @@
           "margin_pct": -29.2
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 11.02,
-          "margin_pct": 62.6
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 14.13,
+          "margin_pct": 67.9
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 17.0,
-          "margin_pct": 71.6
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 18.0,
+          "margin_pct": 72.6
         }
       },
       {
@@ -3355,23 +3454,23 @@
           "margin_pct": 14.4
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 10.47,
-          "margin_pct": 59.5
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 13.57,
+          "margin_pct": 65.3
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 16.45,
-          "margin_pct": 69.2
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 17.45,
+          "margin_pct": 70.4
         }
       },
       {
         "pd_no": "1073704",
         "name": "[각질순삭]큐어레스트 버블 필링 클렌저 120 ml",
         "bucket": "클렌징",
-        "shopify_score": 95,
+        "shopify_score": 94,
         "price_krw": 5000,
         "weight_g_est": 232,
         "weight_note": "120ml x 1.6(용기) + 40g(포장) 추정",
@@ -3388,82 +3487,16 @@
           "margin_pct": 5.1
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 9.72,
-          "margin_pct": 55.3
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 12.83,
+          "margin_pct": 61.7
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 15.71,
-          "margin_pct": 66.1
-        }
-      },
-      {
-        "pd_no": "1062141",
-        "name": "네시픽 화이트닝 모이스처크림 50 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 95,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.1,
-        "shipping_order_usd": 10.51,
-        "tariff_usd": 0.55,
-        "landed_cost_usd": 6.29,
-        "breakeven_usd": 6.54,
-        "at_2_2x": {
-          "sell": 8.01,
-          "fee": 0.29,
-          "profit": 1.43,
-          "margin_pct": 17.8
-        },
-        "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 10.74,
-          "margin_pct": 61.0
-        },
-        "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 16.72,
-          "margin_pct": 70.4
-        }
-      },
-      {
-        "pd_no": "1048042",
-        "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
-        "bucket": "메이크업",
-        "shopify_score": 94,
-        "price_krw": 5000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.65,
-        "shipping_order_usd": 13.27,
-        "tariff_usd": 0.55,
-        "landed_cost_usd": 6.84,
-        "breakeven_usd": 7.11,
-        "at_2_2x": {
-          "sell": 8.01,
-          "fee": 0.29,
-          "profit": 0.88,
-          "margin_pct": 10.9
-        },
-        "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 10.19,
-          "margin_pct": 57.9
-        },
-        "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 16.17,
-          "margin_pct": 68.1
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 16.71,
+          "margin_pct": 67.4
         }
       },
       {
@@ -3487,16 +3520,16 @@
           "margin_pct": -124.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 13.54,
-          "margin_pct": 76.9
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 16.65,
+          "margin_pct": 80.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 19.52,
-          "margin_pct": 82.2
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 20.52,
+          "margin_pct": 82.8
         }
       },
       {
@@ -3520,16 +3553,16 @@
           "margin_pct": 25.1
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 11.33,
-          "margin_pct": 64.4
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 14.43,
+          "margin_pct": 69.4
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 17.31,
-          "margin_pct": 72.8
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 18.31,
+          "margin_pct": 73.8
         }
       },
       {
@@ -3553,16 +3586,49 @@
           "margin_pct": -39.9
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 12.7,
-          "margin_pct": 72.2
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 15.81,
+          "margin_pct": 76.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 18.68,
-          "margin_pct": 78.6
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 19.68,
+          "margin_pct": 79.4
+        }
+      },
+      {
+        "pd_no": "1048042",
+        "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
+        "bucket": "메이크업",
+        "shopify_score": 92,
+        "price_krw": 5000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 3.64,
+        "shipping_unit_usd": 2.65,
+        "shipping_order_usd": 13.27,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 6.84,
+        "breakeven_usd": 7.11,
+        "at_2_2x": {
+          "sell": 8.01,
+          "fee": 0.29,
+          "profit": 0.88,
+          "margin_pct": 10.9
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 13.3,
+          "margin_pct": 63.9
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 17.17,
+          "margin_pct": 69.3
         }
       },
       {
@@ -3586,16 +3652,16 @@
           "margin_pct": -53.7
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 14.67,
-          "margin_pct": 83.4
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 17.78,
+          "margin_pct": 85.5
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 20.66,
-          "margin_pct": 86.9
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 21.66,
+          "margin_pct": 87.4
         }
       },
       {
@@ -3619,16 +3685,16 @@
           "margin_pct": -39.9
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 12.7,
-          "margin_pct": 72.2
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 15.81,
+          "margin_pct": 76.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 18.68,
-          "margin_pct": 78.6
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 19.68,
+          "margin_pct": 79.4
         }
       },
       {
@@ -3652,16 +3718,16 @@
           "margin_pct": -124.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 13.54,
-          "margin_pct": 76.9
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 16.65,
+          "margin_pct": 80.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 19.52,
-          "margin_pct": 82.2
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 20.52,
+          "margin_pct": 82.8
         }
       },
       {
@@ -3685,16 +3751,49 @@
           "margin_pct": -124.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 13.54,
-          "margin_pct": 76.9
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 16.65,
+          "margin_pct": 80.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 19.52,
-          "margin_pct": 82.2
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 20.52,
+          "margin_pct": 82.8
+        }
+      },
+      {
+        "pd_no": "1061927",
+        "name": "리노이아 워터 트리트먼트 200 ml",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.64,
+        "shipping_unit_usd": 4.37,
+        "shipping_order_usd": 21.84,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 8.55,
+        "breakeven_usd": 8.87,
+        "at_2_2x": {
+          "sell": 8.01,
+          "fee": 0.29,
+          "profit": -0.84,
+          "margin_pct": -10.5
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 11.58,
+          "margin_pct": 55.7
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 15.46,
+          "margin_pct": 62.4
         }
       },
       {
@@ -3718,16 +3817,16 @@
           "margin_pct": -124.6
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 13.54,
-          "margin_pct": 76.9
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 16.65,
+          "margin_pct": 80.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 19.52,
-          "margin_pct": 82.2
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 20.52,
+          "margin_pct": 82.8
         }
       },
       {
@@ -3751,49 +3850,16 @@
           "margin_pct": 10.9
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 10.19,
-          "margin_pct": 57.9
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 13.3,
+          "margin_pct": 63.9
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 16.17,
-          "margin_pct": 68.1
-        }
-      },
-      {
-        "pd_no": "1056662",
-        "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
-        "bucket": "헤어케어",
-        "shopify_score": 85,
-        "price_krw": 3000,
-        "weight_g_est": 64,
-        "weight_note": "15ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 1.67,
-        "shipping_order_usd": 8.33,
-        "tariff_usd": 0.33,
-        "landed_cost_usd": 4.18,
-        "breakeven_usd": 4.36,
-        "at_2_2x": {
-          "sell": 4.8,
-          "fee": 0.2,
-          "profit": 0.43,
-          "margin_pct": 8.9
-        },
-        "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 12.85,
-          "margin_pct": 73.0
-        },
-        "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 18.83,
-          "margin_pct": 79.3
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 17.17,
+          "margin_pct": 69.3
         }
       },
       {
@@ -3817,16 +3883,49 @@
           "margin_pct": -11.7
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 11.86,
-          "margin_pct": 67.4
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 14.97,
+          "margin_pct": 72.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 17.85,
-          "margin_pct": 75.1
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 18.85,
+          "margin_pct": 76.0
+        }
+      },
+      {
+        "pd_no": "1056662",
+        "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
+        "bucket": "헤어케어",
+        "shopify_score": 84,
+        "price_krw": 3000,
+        "weight_g_est": 64,
+        "weight_note": "15ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.18,
+        "shipping_unit_usd": 1.67,
+        "shipping_order_usd": 8.33,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 4.18,
+        "breakeven_usd": 4.36,
+        "at_2_2x": {
+          "sell": 4.8,
+          "fee": 0.2,
+          "profit": 0.43,
+          "margin_pct": 8.9
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 15.96,
+          "margin_pct": 76.7
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 19.83,
+          "margin_pct": 80.0
         }
       },
       {
@@ -3850,16 +3949,16 @@
           "margin_pct": -11.7
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 11.86,
-          "margin_pct": 67.4
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 14.97,
+          "margin_pct": 72.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 17.85,
-          "margin_pct": 75.1
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 18.85,
+          "margin_pct": 76.0
         }
       },
       {
@@ -3883,16 +3982,16 @@
           "margin_pct": -39.9
         },
         "at_market_p25": {
-          "sell": 17.6,
-          "fee": 0.57,
-          "profit": 12.7,
-          "margin_pct": 72.2
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 15.81,
+          "margin_pct": 76.0
         },
         "at_market_median": {
-          "sell": 23.76,
-          "fee": 0.75,
-          "profit": 18.68,
-          "margin_pct": 78.6
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 19.68,
+          "margin_pct": 79.4
         }
       }
     ]

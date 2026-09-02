@@ -2,7 +2,7 @@
 title: "Record 021 · Learning-a-Size-Weight-Frontier-for-Synthetic-Augmented-Inference"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T16:46:33.051370+00:00
+updated_at: 2026-09-02T19:36:54.892763+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-02T16:51:11.759811+00:00",
+  "generated_at": "2026-09-02T19:41:38.947723+00:00",
   "total_products": 118,
   "grade_summary": {
-    "S": 39,
-    "A": 20,
+    "S": 40,
+    "A": 19,
     "B": 20,
     "C": 39
   },
   "category_avg_score": {
     "선케어": 100.0,
-    "클렌징": 92.0,
-    "스킨케어": 85.8,
-    "헤어케어": 79.0,
-    "마스크팩": 78.8,
-    "메이크업": 74.0,
+    "클렌징": 91.7,
+    "스킨케어": 85.9,
+    "마스크팩": 79.3,
+    "헤어케어": 78.7,
+    "메이크업": 73.9,
     "바디케어": 69.0,
     "향수": 62.4,
     "네일": 46.9,
@@ -33,7 +33,7 @@
     "walmart_beauty"
   ],
   "global_demand_signals": 84,
-  "products_with_global_match": 39,
+  "products_with_global_match": 40,
   "priority_note": "한영 매핑 기반 글로벌 8채널 유사도 점수. S/A를 Shopify 우선 후보로 사용.",
   "scoring_model": {
     "logic": "kr_en_lexicon_similarity",
@@ -115,7 +115,7 @@
         "reviews": 25.0,
         "price": 10.0,
         "keyword": 0,
-        "global_similarity": 20,
+        "global_similarity": 19,
         "penalty": 0,
         "max_possible": 100
       },
@@ -140,26 +140,6 @@
             "cleanser"
           ],
           "match_score": 0.8
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-          "similarity": 0.65,
-          "demand_weight": 0.637,
-          "matched_tokens": [
-            "cleanser"
-          ],
-          "match_score": 0.414
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Foaming Cleanser 5.07 fl. oz.(150ml)",
-          "similarity": 0.7,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "cleanser"
-          ],
-          "match_score": 0.343
         }
       ],
       "recommend_reason": "글로벌 '톨레리안 퓨리파잉 폼 클렌저' (walmart_beauty) 유사 100% · 토큰 cleanser"
@@ -266,14 +246,14 @@
           "match_score": 0.532
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
-          "similarity": 0.4,
-          "demand_weight": 0.882,
+          "channel": "tiktok_shop_us",
+          "global_product": "Round Lab Dokdo Toner",
+          "similarity": 0.433,
+          "demand_weight": 0.65,
           "matched_tokens": [
             "toner"
           ],
-          "match_score": 0.353
+          "match_score": 0.282
         }
       ],
       "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner"
@@ -334,14 +314,15 @@
           "match_score": 0.42
         },
         {
-          "channel": "sephora",
-          "global_product": "베네피앙스 링클 스무딩 아이 크림",
-          "similarity": 0.4,
-          "demand_weight": 0.81,
+          "channel": "google_trends_us",
+          "global_product": "Anua Collagen Retinol Guasha Cream 2.70 fl.oz.(80ml)",
+          "similarity": 0.68,
+          "demand_weight": 0.49,
           "matched_tokens": [
+            "collagen",
             "cream"
           ],
-          "match_score": 0.324
+          "match_score": 0.333
         }
       ],
       "recommend_reason": "글로벌 'PDRN 핑크 콜라겐 볼륨 멀티밤' (ulta_beauty) 유사 92% · 토큰 collagen, pdrn"
@@ -666,14 +647,14 @@
           "match_score": 0.532
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
-          "similarity": 0.4,
-          "demand_weight": 0.882,
+          "channel": "tiktok_shop_us",
+          "global_product": "Round Lab Dokdo Toner",
+          "similarity": 0.433,
+          "demand_weight": 0.65,
           "matched_tokens": [
             "toner"
           ],
-          "match_score": 0.353
+          "match_score": 0.282
         }
       ],
       "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 80% · 토큰 calming, toner"
@@ -723,23 +704,23 @@
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.735,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.539
+          "match_score": 0.575
         },
         {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
+          "channel": "google_trends_us",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.57,
+          "demand_weight": 0.665,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.418
+          "match_score": 0.488
         }
       ],
       "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 80% · 토큰 cream"
@@ -789,23 +770,23 @@
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.735,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.539
+          "match_score": 0.575
         },
         {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
+          "channel": "google_trends_us",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.57,
+          "demand_weight": 0.665,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.418
+          "match_score": 0.488
         }
       ],
       "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 80% · 토큰 cream"
@@ -855,23 +836,23 @@
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.735,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.539
+          "match_score": 0.575
         },
         {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
+          "channel": "google_trends_us",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.57,
+          "demand_weight": 0.665,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.418
+          "match_score": 0.488
         }
       ],
       "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 80% · 토큰 cream"
@@ -920,16 +901,6 @@
           "match_score": 0.733
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.68,
-          "demand_weight": 0.98,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.666
-        },
-        {
           "channel": "amazon_best_sellers",
           "global_product": "바이오 콜라겐 리얼 딥 마스크",
           "similarity": 0.8,
@@ -938,6 +909,16 @@
             "mask"
           ],
           "match_score": 0.646
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+          "similarity": 0.68,
+          "demand_weight": 0.931,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.633
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 mask"
@@ -1073,7 +1054,7 @@
         "reviews": 25.0,
         "price": 10.0,
         "keyword": 0,
-        "global_similarity": 20,
+        "global_similarity": 19,
         "penalty": 0,
         "max_possible": 100
       },
@@ -1098,26 +1079,6 @@
             "cleanser"
           ],
           "match_score": 0.8
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-          "similarity": 0.65,
-          "demand_weight": 0.637,
-          "matched_tokens": [
-            "cleanser"
-          ],
-          "match_score": 0.414
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Foaming Cleanser 5.07 fl. oz.(150ml)",
-          "similarity": 0.7,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "cleanser"
-          ],
-          "match_score": 0.343
         }
       ],
       "recommend_reason": "글로벌 '톨레리안 퓨리파잉 폼 클렌저' (walmart_beauty) 유사 100% · 토큰 cleanser"
@@ -1224,14 +1185,14 @@
           "match_score": 0.532
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
-          "similarity": 0.4,
-          "demand_weight": 0.882,
+          "channel": "tiktok_shop_us",
+          "global_product": "Round Lab Dokdo Toner",
+          "similarity": 0.433,
+          "demand_weight": 0.65,
           "matched_tokens": [
             "toner"
           ],
-          "match_score": 0.353
+          "match_score": 0.282
         }
       ],
       "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner"
@@ -1292,14 +1253,15 @@
           "match_score": 0.42
         },
         {
-          "channel": "sephora",
-          "global_product": "베네피앙스 링클 스무딩 아이 크림",
-          "similarity": 0.4,
-          "demand_weight": 0.81,
+          "channel": "google_trends_us",
+          "global_product": "Anua Collagen Retinol Guasha Cream 2.70 fl.oz.(80ml)",
+          "similarity": 0.68,
+          "demand_weight": 0.49,
           "matched_tokens": [
+            "collagen",
             "cream"
           ],
-          "match_score": 0.324
+          "match_score": 0.333
         }
       ],
       "recommend_reason": "글로벌 'PDRN 핑크 콜라겐 볼륨 멀티밤' (ulta_beauty) 유사 92% · 토큰 collagen, pdrn"
@@ -1624,14 +1586,14 @@
           "match_score": 0.532
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
-          "similarity": 0.4,
-          "demand_weight": 0.882,
+          "channel": "tiktok_shop_us",
+          "global_product": "Round Lab Dokdo Toner",
+          "similarity": 0.433,
+          "demand_weight": 0.65,
           "matched_tokens": [
             "toner"
           ],
-          "match_score": 0.353
+          "match_score": 0.282
         }
       ],
       "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 80% · 토큰 calming, toner"
@@ -1681,23 +1643,23 @@
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.735,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.539
+          "match_score": 0.575
         },
         {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
+          "channel": "google_trends_us",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.57,
+          "demand_weight": 0.665,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.418
+          "match_score": 0.488
         }
       ],
       "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 80% · 토큰 cream"
@@ -1747,23 +1709,23 @@
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.735,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.539
+          "match_score": 0.575
         },
         {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
+          "channel": "google_trends_us",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.57,
+          "demand_weight": 0.665,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.418
+          "match_score": 0.488
         }
       ],
       "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 80% · 토큰 cream"
@@ -1813,23 +1775,23 @@
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.735,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.539
+          "match_score": 0.575
         },
         {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
+          "channel": "google_trends_us",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.733,
-          "demand_weight": 0.57,
+          "demand_weight": 0.665,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.418
+          "match_score": 0.488
         }
       ],
       "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 80% · 토큰 cream"
@@ -1878,16 +1840,6 @@
           "match_score": 0.733
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.68,
-          "demand_weight": 0.98,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.666
-        },
-        {
           "channel": "amazon_best_sellers",
           "global_product": "바이오 콜라겐 리얼 딥 마스크",
           "similarity": 0.8,
@@ -1896,6 +1848,16 @@
             "mask"
           ],
           "match_score": 0.646
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+          "similarity": 0.68,
+          "demand_weight": 0.931,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.633
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 mask"
@@ -2018,9 +1980,85 @@
             "essence"
           ],
           "match_score": 0.528
+        },
+        {
+          "channel": "google_trends_us",
+          "global_product": "SU:M37 Secret Essence Advanced Treatment 1.69 fl. oz.(100ml) Set (+refill 1.69 fl. oz.(100ml))",
+          "similarity": 0.68,
+          "demand_weight": 0.35,
+          "matched_tokens": [
+            "essence"
+          ],
+          "match_score": 0.238
         }
       ],
       "recommend_reason": "글로벌 'COSRX Advanced Snail 96 Mucin Essence' (tiktok_shop_us) 유사 70% · 토큰 essence"
+    },
+    {
+      "pd_no": "1048581",
+      "name": "드롭비 잡티 말끔 앰플 40 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 1595,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/dGPcdv5GMSvAapO6LS5d1048581_00_00dGPcdv5GMSvAapO6LS5d.png",
+      "shopify_score": 100,
+      "grade": "S",
+      "score_breakdown": {
+        "category": 35.0,
+        "rating": 16.0,
+        "reviews": 25.0,
+        "price": 10.0,
+        "keyword": 5,
+        "global_similarity": 9,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+        "similarity": 0.367,
+        "demand_weight": 0.882,
+        "matched_tokens": [
+          "ampoule"
+        ],
+        "match_score": 0.323
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+          "similarity": 0.367,
+          "demand_weight": 0.882,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.323
+        },
+        {
+          "channel": "sephora",
+          "global_product": "턴오버 앰플 c-PDRN 0.5%",
+          "similarity": 0.5,
+          "demand_weight": 0.63,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.315
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Skin1004 Madagascar Centella Ampoule",
+          "similarity": 0.4,
+          "demand_weight": 0.75,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.3
+        }
+      ],
+      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 37% · 토큰 ampoule"
     },
     {
       "pd_no": "1061917",
@@ -2066,16 +2104,6 @@
           "match_score": 0.733
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.68,
-          "demand_weight": 0.98,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.666
-        },
-        {
           "channel": "amazon_best_sellers",
           "global_product": "바이오 콜라겐 리얼 딥 마스크",
           "similarity": 0.8,
@@ -2084,75 +2112,19 @@
             "mask"
           ],
           "match_score": 0.646
-        }
-      ],
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 mask"
-    },
-    {
-      "pd_no": "1048581",
-      "name": "드롭비 잡티 말끔 앰플 40 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 1595,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/dGPcdv5GMSvAapO6LS5d1048581_00_00dGPcdv5GMSvAapO6LS5d.png",
-      "shopify_score": 99,
-      "grade": "S",
-      "score_breakdown": {
-        "category": 35.0,
-        "rating": 16.0,
-        "reviews": 25.0,
-        "price": 10.0,
-        "keyword": 5,
-        "global_similarity": 8,
-        "penalty": 0,
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
-      "best_global_match": {
-        "channel": "sephora",
-        "global_product": "턴오버 앰플 c-PDRN 0.5%",
-        "similarity": 0.5,
-        "demand_weight": 0.63,
-        "matched_tokens": [
-          "ampoule"
-        ],
-        "match_score": 0.315
-      },
-      "global_matches": [
-        {
-          "channel": "sephora",
-          "global_product": "턴오버 앰플 c-PDRN 0.5%",
-          "similarity": 0.5,
-          "demand_weight": 0.63,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.315
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.4,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.3
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-          "similarity": 0.433,
-          "demand_weight": 0.686,
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+          "similarity": 0.68,
+          "demand_weight": 0.931,
           "matched_tokens": [
-            "ampoule"
+            "mask"
           ],
-          "match_score": 0.297
+          "match_score": 0.633
         }
       ],
-      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 50% · 토큰 ampoule"
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 mask"
     },
     {
       "pd_no": "1060487",
@@ -2211,11 +2183,11 @@
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.38,
-          "demand_weight": 0.98,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.372
+          "match_score": 0.354
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 43% · 토큰 mask"
@@ -2287,6 +2259,72 @@
       "recommend_reason": "글로벌 '바이오 콜라겐 리얼 딥 마스크' (amazon_best_sellers) 유사 62% · 토큰 collagen"
     },
     {
+      "pd_no": "1062141",
+      "name": "네시픽 화이트닝 모이스처크림 50 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 223,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062141",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250306/GoRwz8jRUDcn8upJ3Ilc1062141_00_01GoRwz8jRUDcn8upJ3Ilc.jpg",
+      "shopify_score": 96,
+      "grade": "S",
+      "score_breakdown": {
+        "category": 35.0,
+        "rating": 16.0,
+        "reviews": 21.8,
+        "price": 10.0,
+        "keyword": 2,
+        "global_similarity": 11,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": {
+        "channel": "sephora",
+        "global_product": "베네피앙스 링클 스무딩 아이 크림",
+        "similarity": 0.5,
+        "demand_weight": 0.81,
+        "matched_tokens": [
+          "cream"
+        ],
+        "match_score": 0.405
+      },
+      "global_matches": [
+        {
+          "channel": "sephora",
+          "global_product": "베네피앙스 링클 스무딩 아이 크림",
+          "similarity": 0.5,
+          "demand_weight": 0.81,
+          "matched_tokens": [
+            "cream"
+          ],
+          "match_score": 0.405
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "similarity": 0.433,
+          "demand_weight": 0.784,
+          "matched_tokens": [
+            "cream"
+          ],
+          "match_score": 0.34
+        },
+        {
+          "channel": "google_trends_us",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "similarity": 0.433,
+          "demand_weight": 0.665,
+          "matched_tokens": [
+            "cream"
+          ],
+          "match_score": 0.288
+        }
+      ],
+      "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 50% · 토큰 cream"
+    },
+    {
       "pd_no": "1061922",
       "name": "본셉 비타씨 젤리 마스크 1매 23 g",
       "bucket": "마스크팩",
@@ -2343,11 +2381,11 @@
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.38,
-          "demand_weight": 0.98,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.372
+          "match_score": 0.354
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 43% · 토큰 mask"
@@ -2407,13 +2445,14 @@
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.38,
-          "demand_weight": 0.98,
+          "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
+          "similarity": 0.7,
+          "demand_weight": 0.539,
           "matched_tokens": [
-            "mask"
+            "mask",
+            "repair"
           ],
-          "match_score": 0.372
+          "match_score": 0.377
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 43% · 토큰 mask"
@@ -2473,13 +2512,13 @@
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.283,
-          "demand_weight": 0.735,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.208
+          "match_score": 0.222
         }
       ],
       "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 35% · 토큰 cream"
@@ -2493,7 +2532,7 @@
       "review_count": 223,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073704",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251030/Wp4xjCpbmdO7J5FSWXLt1073704_00_01Wp4xjCpbmdO7J5FSWXLt.jpg",
-      "shopify_score": 95,
+      "shopify_score": 94,
       "grade": "S",
       "score_breakdown": {
         "category": 28.3,
@@ -2501,7 +2540,7 @@
         "reviews": 21.8,
         "price": 10.0,
         "keyword": 0,
-        "global_similarity": 20,
+        "global_similarity": 19,
         "penalty": 0,
         "max_possible": 100
       },
@@ -2526,161 +2565,9 @@
             "cleanser"
           ],
           "match_score": 0.8
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-          "similarity": 0.65,
-          "demand_weight": 0.637,
-          "matched_tokens": [
-            "cleanser"
-          ],
-          "match_score": 0.414
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Foaming Cleanser 5.07 fl. oz.(150ml)",
-          "similarity": 0.7,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "cleanser"
-          ],
-          "match_score": 0.343
         }
       ],
       "recommend_reason": "글로벌 '톨레리안 퓨리파잉 폼 클렌저' (walmart_beauty) 유사 100% · 토큰 cleanser"
-    },
-    {
-      "pd_no": "1062141",
-      "name": "네시픽 화이트닝 모이스처크림 50 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 223,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062141",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250306/GoRwz8jRUDcn8upJ3Ilc1062141_00_01GoRwz8jRUDcn8upJ3Ilc.jpg",
-      "shopify_score": 95,
-      "grade": "S",
-      "score_breakdown": {
-        "category": 35.0,
-        "rating": 16.0,
-        "reviews": 21.8,
-        "price": 10.0,
-        "keyword": 2,
-        "global_similarity": 10,
-        "penalty": 0,
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
-      "best_global_match": {
-        "channel": "sephora",
-        "global_product": "베네피앙스 링클 스무딩 아이 크림",
-        "similarity": 0.5,
-        "demand_weight": 0.81,
-        "matched_tokens": [
-          "cream"
-        ],
-        "match_score": 0.405
-      },
-      "global_matches": [
-        {
-          "channel": "sephora",
-          "global_product": "베네피앙스 링클 스무딩 아이 크림",
-          "similarity": 0.5,
-          "demand_weight": 0.81,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.405
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-          "similarity": 0.433,
-          "demand_weight": 0.735,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.319
-        },
-        {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
-          "similarity": 0.433,
-          "demand_weight": 0.57,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.247
-        }
-      ],
-      "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 50% · 토큰 cream"
-    },
-    {
-      "pd_no": "1048042",
-      "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
-      "bucket": "메이크업",
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 223,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048042",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260708/ucPr4JN4R7KwEkLxL7CH1048042_00_00ucPr4JN4R7KwEkLxL7CH.jpg",
-      "shopify_score": 94,
-      "grade": "S",
-      "score_breakdown": {
-        "category": 26.7,
-        "rating": 16.0,
-        "reviews": 21.8,
-        "price": 10.0,
-        "keyword": 0,
-        "global_similarity": 19,
-        "penalty": 0,
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "TIRTIR Mask Fit Red Cushion",
-        "similarity": 0.733,
-        "demand_weight": 1.0,
-        "matched_tokens": [
-          "cushion"
-        ],
-        "match_score": 0.733
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "TIRTIR Mask Fit Red Cushion",
-          "similarity": 0.733,
-          "demand_weight": 1.0,
-          "matched_tokens": [
-            "cushion"
-          ],
-          "match_score": 0.733
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
-          "similarity": 0.65,
-          "demand_weight": 0.833,
-          "matched_tokens": [
-            "cushion"
-          ],
-          "match_score": 0.541
-        },
-        {
-          "channel": "google_trends_us",
-          "global_product": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
-          "similarity": 0.65,
-          "demand_weight": 0.665,
-          "matched_tokens": [
-            "cushion"
-          ],
-          "match_score": 0.432
-        }
-      ],
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion"
     },
     {
       "pd_no": "1038603",
@@ -2802,14 +2689,14 @@
           "match_score": 0.282
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.23,
-          "demand_weight": 0.98,
+          "channel": "sephora",
+          "global_product": "턴오버 앰플 c-PDRN 0.5%",
+          "similarity": 0.35,
+          "demand_weight": 0.63,
           "matched_tokens": [
-            "mask"
+            "ampoule"
           ],
-          "match_score": 0.225
+          "match_score": 0.22
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 28% · 토큰 mask"
@@ -2859,6 +2746,72 @@
         }
       ],
       "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip"
+    },
+    {
+      "pd_no": "1048042",
+      "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
+      "bucket": "메이크업",
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 223,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048042",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260708/ucPr4JN4R7KwEkLxL7CH1048042_00_00ucPr4JN4R7KwEkLxL7CH.jpg",
+      "shopify_score": 92,
+      "grade": "S",
+      "score_breakdown": {
+        "category": 26.7,
+        "rating": 16.0,
+        "reviews": 21.8,
+        "price": 10.0,
+        "keyword": 0,
+        "global_similarity": 18,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.733,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "cushion"
+        ],
+        "match_score": 0.733
+      },
+      "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "TIRTIR Mask Fit Red Cushion",
+          "similarity": 0.733,
+          "demand_weight": 1.0,
+          "matched_tokens": [
+            "cushion"
+          ],
+          "match_score": 0.733
+        },
+        {
+          "channel": "google_trends_us",
+          "global_product": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
+          "similarity": 0.65,
+          "demand_weight": 0.525,
+          "matched_tokens": [
+            "cushion"
+          ],
+          "match_score": 0.341
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Clio Kill Cover Mesh Glow Cushion",
+          "similarity": 0.667,
+          "demand_weight": 0.5,
+          "matched_tokens": [
+            "cushion"
+          ],
+          "match_score": 0.333
+        }
+      ],
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion"
     },
     {
       "pd_no": "1041890",
@@ -3045,6 +2998,52 @@
       "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip"
     },
     {
+      "pd_no": "1061927",
+      "name": "리노이아 워터 트리트먼트 200 ml",
+      "bucket": "마스크팩",
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 893,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061927",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251104/yPQXVfnQd1TPbM6NG1de1061927_00_00yPQXVfnQd1TPbM6NG1de.png",
+      "shopify_score": 89,
+      "grade": "S",
+      "score_breakdown": {
+        "category": 31.7,
+        "rating": 17.3,
+        "reviews": 25.0,
+        "price": 10.0,
+        "keyword": 0,
+        "global_similarity": 5,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": {
+        "channel": "google_trends_us",
+        "global_product": "SU:M37 Secret Essence Advanced Treatment 1.69 fl. oz.(100ml) Set (+refill 1.69 fl. oz.(100ml))",
+        "similarity": 0.68,
+        "demand_weight": 0.35,
+        "matched_tokens": [
+          "treatment"
+        ],
+        "match_score": 0.238
+      },
+      "global_matches": [
+        {
+          "channel": "google_trends_us",
+          "global_product": "SU:M37 Secret Essence Advanced Treatment 1.69 fl. oz.(100ml) Set (+refill 1.69 fl. oz.(100ml))",
+          "similarity": 0.68,
+          "demand_weight": 0.35,
+          "matched_tokens": [
+            "treatment"
+          ],
+          "match_score": 0.238
+        }
+      ],
+      "recommend_reason": "글로벌 'SU:M37 Secret Essence Advanced Treatment 1.69 fl. oz.(100ml) Set (+refill 1.69 fl. oz.(100ml))' (google_trends_us) 유사 68% · 토큰 treatment"
+    },
+    {
       "pd_no": "1060532",
       "name": "냉장고 클립형 다용도 보관함 4개입",
       "bucket": "메이크업",
@@ -3137,62 +3136,6 @@
       "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip"
     },
     {
-      "pd_no": "1056662",
-      "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
-      "bucket": "헤어케어",
-      "price_krw": 3000,
-      "rating": 4.7,
-      "review_count": 620,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056662",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/1ZRA1meifAzv5F4DTBP51056662_00_001ZRA1meifAzv5F4DTBP5.jpg",
-      "shopify_score": 85,
-      "grade": "S",
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 16.0,
-        "reviews": 25.0,
-        "price": 10.0,
-        "keyword": 0,
-        "global_similarity": 9,
-        "penalty": 0,
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Medicube Zero Pore Pad",
-        "similarity": 0.433,
-        "demand_weight": 0.8,
-        "matched_tokens": [
-          "pore"
-        ],
-        "match_score": 0.347
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Medicube Zero Pore Pad",
-          "similarity": 0.433,
-          "demand_weight": 0.8,
-          "matched_tokens": [
-            "pore"
-          ],
-          "match_score": 0.347
-        },
-        {
-          "channel": "google_trends_us",
-          "global_product": "medicube Zero Pore Pad 70ct 5.46 oz.(155g)",
-          "similarity": 0.433,
-          "demand_weight": 0.42,
-          "matched_tokens": [
-            "pore"
-          ],
-          "match_score": 0.182
-        }
-      ],
-      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore"
-    },
-    {
       "pd_no": "1065198",
       "name": "프렙바이비레디 히카페인 오일컷 올인원 150 g_아모레퍼시픽",
       "bucket": "스킨케어",
@@ -3265,30 +3208,70 @@
       "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip"
     },
     {
-      "pd_no": "1061927",
-      "name": "리노이아 워터 트리트먼트 200 ml",
-      "bucket": "마스크팩",
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 893,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061927",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251104/yPQXVfnQd1TPbM6NG1de1061927_00_00yPQXVfnQd1TPbM6NG1de.png",
+      "pd_no": "1056662",
+      "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
+      "bucket": "헤어케어",
+      "price_krw": 3000,
+      "rating": 4.7,
+      "review_count": 620,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056662",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/1ZRA1meifAzv5F4DTBP51056662_00_001ZRA1meifAzv5F4DTBP5.jpg",
       "shopify_score": 84,
-      "grade": "A",
+      "grade": "S",
       "score_breakdown": {
-        "category": 31.7,
-        "rating": 17.3,
+        "category": 25.0,
+        "rating": 16.0,
         "reviews": 25.0,
         "price": 10.0,
         "keyword": 0,
-        "global_similarity": 0,
+        "global_similarity": 8,
         "penalty": 0,
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 893건 (글로벌 시그널 약함)"
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Medicube Zero Pore Pad",
+        "similarity": 0.433,
+        "demand_weight": 0.8,
+        "matched_tokens": [
+          "pore"
+        ],
+        "match_score": 0.347
+      },
+      "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Medicube Zero Pore Pad",
+          "similarity": 0.433,
+          "demand_weight": 0.8,
+          "matched_tokens": [
+            "pore"
+          ],
+          "match_score": 0.347
+        },
+        {
+          "channel": "google_trends_us",
+          "global_product": "medicube Zero Pore Pad 70ct 5.46 oz.(155g)",
+          "similarity": 0.433,
+          "demand_weight": 0.35,
+          "matched_tokens": [
+            "pore"
+          ],
+          "match_score": 0.152
+        },
+        {
+          "channel": "google_trends_us",
+          "global_product": "SU:M37 Secret Essence Advanced Treatment 1.69 fl. oz.(100ml) Set (+refill 1.69 fl. oz.(100ml))",
+          "similarity": 0.38,
+          "demand_weight": 0.35,
+          "matched_tokens": [
+            "treatment"
+          ],
+          "match_score": 0.133
+        }
+      ],
+      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore"
     },
     {
       "pd_no": "49057",
