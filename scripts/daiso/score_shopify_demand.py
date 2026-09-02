@@ -333,36 +333,46 @@ def score_one(p: dict, signals: list[dict]) -> dict:
     kw_pts = min(10, kw_pts)
 
     penalty = 40 if non_core else 0
-    total = max(5, min(100, round(
-        cat_pts + rating_pts + review_pts + price_pts + kw_pts - penalty)))
 
-    # 글로벌 매칭: 참고용으로만 계산 (점수 반영 없음)
+    # 글로벌 8채널 유사도 (무료 시그널) — 최대 25점
     matches = [] if non_core else best_matches(name, signals)
+    if matches:
+        best = matches[0]["match_score"]
+        second = matches[1]["match_score"] if len(matches) > 1 else 0
+        sim_pts = min(25, int(best * 24 + second * 4))
+    else:
+        sim_pts = 0
+
+    total = max(5, min(100, round(
+        cat_pts + rating_pts + review_pts + price_pts + kw_pts + sim_pts - penalty)))
 
     core = bucket in {"스킨케어", "선케어", "마스크팩", "클렌징", "메이크업", "헤어케어"}
-    # 임계값은 실제 89건 점수 분포 기준으로 설정한다 (상위 백분위)
-    #   87점 = 상위 10%,  84점 = 상위 20%,  80점 = 상위 30%
-    # S 등급은 1차 테스트 등록 후보라 상위 10% 안쪽으로 좁힌다.
-    if not non_core and core and total >= 87:
+    best_sim = matches[0]["similarity"] if matches else 0
+    # S: 핵심 카테고리 + 충분한 점수 + (가능하면 글로벌 매칭)
+    if not non_core and core and total >= 82 and (best_sim >= 0.15 or total >= 90):
         grade = "S"
-    elif not non_core and total >= 80:
+    elif not non_core and total >= 75:
         grade = "A"
-    elif total >= 65:
+    elif total >= 60:
         grade = "B"
     else:
         grade = "C"
 
     if non_core:
         reason = "비핵심 상품 (뷰티 카테고리 아님)"
+    elif matches:
+        m = matches[0]
+        reason = (
+            f"글로벌 '{m['global_product']}' ({m['channel']}) 유사 "
+            f"{m['similarity']:.0%} · 토큰 {', '.join(m.get('matched_tokens') or [])}"
+        )
     else:
         bits = [f"{bucket} 카테고리"]
         if rating > 0:
             bits.append(f"평점 {rating}")
         if reviews > 0:
             bits.append(f"리뷰 {reviews:,}건")
-        if krw > 0:
-            bits.append(f"원가 {krw:,}원")
-        reason = " · ".join(bits) + " (다이소 실측값 기준)"
+        reason = " · ".join(bits) + " (글로벌 시그널 약함)"
 
     return {
         "pd_no": p.get("pd_no"),
@@ -381,11 +391,13 @@ def score_one(p: dict, signals: list[dict]) -> dict:
             "reviews": review_pts,
             "price": price_pts,
             "keyword": kw_pts,
+            "global_similarity": sim_pts,
             "penalty": -penalty,
             "max_possible": 100,
         },
-        "scoring_basis": "다이소 실측값 전용 (글로벌 채널 미반영)",
-        "global_matches_reference_only": matches[:3],
+        "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+        "best_global_match": matches[0] if matches else None,
+        "global_matches": matches[:3],
         "recommend_reason": reason,
     }
 
