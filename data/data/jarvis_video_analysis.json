@@ -1,0 +1,45 @@
+{
+  "updated_at": "2026-09-02T10:43:39.707648+00:00",
+  "purpose": "JARVIS YouTube / 영상 분석 시 사용할 NotebookLM 노트북",
+  "primary_notebook": {
+    "name": "JARVIS Video Analysis NotebookLM",
+    "url": "https://notebook.google.com/notebook/88638802-cf08-47ca-a3ec-12453818438a",
+    "notebook_id": "88638802-cf08-47ca-a3ec-12453818438a",
+    "provider": "Google NotebookLM",
+    "usage": [
+      "YouTube / Shorts 영상 요약·인사이트 추출",
+      "Learn With Shopify 등 교육 영상 학습",
+      "Shopify Product Network 등 핵심 영상 심층 분석",
+      "분석 결과를 JARVIS 지식 코퍼스에 반영할 때 1순위 도구"
+    ]
+  },
+  "rules": {
+    "when_analyzing_youtube": "반드시 primary_notebook.url 노트북을 사용한다",
+    "preferred_inputs": [
+      "YouTube URL",
+      "Shorts URL",
+      "영상 제목·설명 텍스트"
+    ],
+    "outputs_to_store": [
+      "data/shopify_learn_with_shopify.json (메타)",
+      "data/knowledge/ (요약·인사이트 노트)",
+      "featured_video.jarvis_note 보강"
+    ],
+    "cost": "NotebookLM 무료/기존 Google 계정 사용 (유료 API 키 불필요)"
+  },
+  "linked_sources": [
+    {
+      "type": "youtube_channel",
+      "name": "Learn With Shopify",
+      "url": "https://www.youtube.com/@learnwithshopify",
+      "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g"
+    },
+    {
+      "type": "youtube_shorts",
+      "name": "Shopify Product Network",
+      "url": "https://www.youtube.com/shorts/75DKB013fu4",
+      "video_id": "75DKB013fu4",
+      "priority": "critical"
+    }
+  ]
+}
