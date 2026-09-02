@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T19:35:14.016661+09:00",
+  "generated_at": "2026-09-02T21:17:17.249101+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "820개 코퍼스 레코드"
+      "detail": "834개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "839개 노트 · 6875개 링크 · 끊어진 링크 0개"
+      "detail": "853개 노트 · 6987개 링크 · 끊어진 링크 0개"
     },
     {
       "id": "dashboard",
@@ -25,7 +25,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "820건 · 3 experts · 정확도 79.27%"
+      "detail": "834건 · 3 experts · 정확도 78.78%"
     },
     {
       "id": "publish",
@@ -36,45 +36,45 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 820,
+    "record_count": 834,
     "source_counts": {},
-    "updated_at": "2026-09-02T19:30:05.486816+09:00"
+    "updated_at": "2026-09-02T21:13:11.446032+09:00"
   },
   "graph": {
-    "notes": 839,
-    "links": 6875,
+    "notes": 853,
+    "links": 6987,
     "dangling_links": 0,
-    "records": 820,
+    "records": 834,
     "sources": 4,
     "topics": 6,
     "audit": "passed",
-    "last_generated": "2026-09-02T19:30:26.720415+09:00"
+    "last_generated": "2026-09-02T21:13:33.435700+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 820,
+    "records": 834,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.7926829268292683,
-    "validation_accuracy": 0.8120805369127517,
-    "final_loss": 0.41964560528017475,
-    "gate_load_std": 0.4362958618597408,
+    "accuracy": 0.7877697841726619,
+    "validation_accuracy": 0.8157894736842105,
+    "final_loss": 0.41456994869441793,
+    "gate_load_std": 0.4409220592650864,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-02T10:35:13.903087+00:00"
+    "updated_at": "2026-09-02T12:17:17.167406+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 820,
-      "notes": 839,
-      "links": 6875
+      "records": 834,
+      "notes": 853,
+      "links": 6987
     },
     "prior_totals": {
-      "records": 820,
-      "notes": 839,
-      "links": 6875
+      "records": 834,
+      "notes": 853,
+      "links": 6987
     },
     "added_this_run": {
       "records": 0,
@@ -82,9 +82,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 820,
-      "notes": 839,
-      "links": 6875
+      "records": 834,
+      "notes": 853,
+      "links": 6987
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -888,7 +888,7 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-02"
   },
-  "last_synced": "09. 02. 오후 07:35 KST",
+  "last_synced": "09. 02. 오후 09:17 KST",
   "global_channels_status": {
     "amazon_best_sellers": {
       "status": "ok",
@@ -914,7 +914,7 @@
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "2026-09-02T10:30:25.881725+00:00",
+      "collected_at": "2026-09-02T12:13:32.908408+00:00",
       "count": 15,
       "trust": "verified"
     },
@@ -922,7 +922,7 @@
       "status": "ok",
       "source": "free keywords from real product names",
       "reason": "",
-      "collected_at": "2026-09-02T10:35:14.120227+00:00",
+      "collected_at": "2026-09-02T12:17:17.323340+00:00",
       "count": 15,
       "trust": "verified"
     },
@@ -966,7 +966,7 @@
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-02T10:30:25.530939+00:00",
+      "collected_at": "2026-09-02T12:13:32.535962+00:00",
       "count": 15,
       "trust": "verified"
     }

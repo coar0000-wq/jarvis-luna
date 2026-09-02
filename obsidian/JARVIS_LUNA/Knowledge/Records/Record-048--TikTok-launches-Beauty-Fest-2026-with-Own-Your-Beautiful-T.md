@@ -2,7 +2,7 @@
 title: "Record 048 · TikTok-launches-Beauty-Fest-2026-with-Own-Your-Beautiful-The-Glow-Up-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T11:20:31.979833+00:00
+updated_at: 2026-09-02T12:13:33.349826+00:00
 tags: [{', '.join(tags)}]
 ---
 

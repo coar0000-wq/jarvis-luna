@@ -2,7 +2,7 @@
 title: "Record 052 · AI-and-same-day-delivery-are-now-the-two-forcing-functions-reshaping-U"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T11:20:31.980382+00:00
+updated_at: 2026-09-02T12:13:33.350370+00:00
 tags: [{', '.join(tags)}]
 ---
 

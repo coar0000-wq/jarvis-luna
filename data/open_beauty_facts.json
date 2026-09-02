@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-02T10:30:25.530939+00:00",
+  "collected_at": "2026-09-02T12:13:32.535962+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",

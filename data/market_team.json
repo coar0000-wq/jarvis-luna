@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-02T19:35:14.472180+09:00",
+    "updated_at": "2026-09-02T21:17:17.641833+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -1676,78 +1676,6 @@
       "rating": 5,
       "review_count": 2,
       "us_rank": 6,
-      "daiso_bucket": "클렌징",
-      "why": "OliveYoung US 베스트셀러 6위 · 클렌징 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA38918945",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "AESTURA Atobarrier365 Foaming Cleanser 5.07 fl. oz.(150ml)",
-      "brand": "AESTURA",
-      "price_usd": 21.0,
-      "rating": 5,
-      "review_count": 1,
-      "us_rank": 24,
-      "daiso_bucket": "클렌징",
-      "why": "OliveYoung US 베스트셀러 24위 · 클렌징 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA15065140",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml)",
-      "brand": "ROUND LAB",
-      "price_usd": 13.5,
-      "rating": 4.8,
-      "review_count": 9,
-      "us_rank": 29,
-      "daiso_bucket": "클렌징",
-      "why": "OliveYoung US 베스트셀러 29위 · 클렌징 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA10245858",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
-      "brand": "MEDIHEAL",
-      "price_usd": 39.99,
-      "rating": 4.8,
-      "review_count": 14735,
-      "us_rank": 3,
-      "daiso_bucket": "스킨케어",
-      "why": "OliveYoung US 베스트셀러 3위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA32407466",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-      "brand": "Dr.Althea",
-      "price_usd": 27.0,
-      "rating": 4.8,
-      "review_count": 1644,
-      "us_rank": 4,
-      "daiso_bucket": "스킨케어",
-      "why": "OliveYoung US 베스트셀러 4위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA73639757",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-      "brand": "ROUND LAB",
-      "price_usd": 22.49,
-      "rating": 5,
-      "review_count": 2,
-      "us_rank": 6,
-      "daiso_bucket": "스킨케어",
-      "why": "OliveYoung US 베스트셀러 6위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA38918945",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-      "brand": "ROUND LAB",
-      "price_usd": 22.49,
-      "rating": 5,
-      "review_count": 2,
-      "us_rank": 6,
       "daiso_bucket": "선케어",
       "why": "OliveYoung US 베스트셀러 6위 · 선케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA38918945",
@@ -1775,6 +1703,42 @@
       "daiso_bucket": "선케어",
       "why": "OliveYoung US 베스트셀러 44위 · 선케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA58610827",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
+      "brand": "ROUND LAB",
+      "price_usd": 22.49,
+      "rating": 5,
+      "review_count": 2,
+      "us_rank": 6,
+      "daiso_bucket": "클렌징",
+      "why": "OliveYoung US 베스트셀러 6위 · 클렌징 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA38918945",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "AESTURA Atobarrier365 Foaming Cleanser 5.07 fl. oz.(150ml)",
+      "brand": "AESTURA",
+      "price_usd": 21.0,
+      "rating": 5,
+      "review_count": 1,
+      "us_rank": 24,
+      "daiso_bucket": "클렌징",
+      "why": "OliveYoung US 베스트셀러 24위 · 클렌징 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA15065140",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml)",
+      "brand": "ROUND LAB",
+      "price_usd": 13.5,
+      "rating": 4.8,
+      "review_count": 9,
+      "us_rank": 29,
+      "daiso_bucket": "클렌징",
+      "why": "OliveYoung US 베스트셀러 29위 · 클렌징 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA10245858",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     },
     {
@@ -1811,6 +1775,42 @@
       "daiso_bucket": "메이크업",
       "why": "OliveYoung US 베스트셀러 99위 · 메이크업 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA30949239",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
+      "brand": "MEDIHEAL",
+      "price_usd": 39.99,
+      "rating": 4.8,
+      "review_count": 14735,
+      "us_rank": 3,
+      "daiso_bucket": "스킨케어",
+      "why": "OliveYoung US 베스트셀러 3위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA32407466",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+      "brand": "Dr.Althea",
+      "price_usd": 27.0,
+      "rating": 4.8,
+      "review_count": 1644,
+      "us_rank": 4,
+      "daiso_bucket": "스킨케어",
+      "why": "OliveYoung US 베스트셀러 4위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA73639757",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
+      "brand": "ROUND LAB",
+      "price_usd": 22.49,
+      "rating": 5,
+      "review_count": 2,
+      "us_rank": 6,
+      "daiso_bucket": "스킨케어",
+      "why": "OliveYoung US 베스트셀러 6위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA38918945",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     },
     {
