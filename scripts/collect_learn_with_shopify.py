@@ -30,6 +30,8 @@ else:
 
 OUT = DATA / "shopify_learn_with_shopify.json"
 CHANNEL_ID = "UC7geKfz2-IH0rsgRBtHTm0g"
+NOTEBOOKLM_URL = "https://notebook.google.com/notebook/88638802-cf08-47ca-a3ec-12453818438a"
+NOTEBOOKLM_ID = "88638802-cf08-47ca-a3ec-12453818438a"
 CHANNEL_HANDLE = "@learnwithshopify"
 RSS = f"https://www.youtube.com/feeds/videos.xml?channel_id={CHANNEL_ID}"
 UA = "JARVIS-LUNA/1.0 (knowledge-sync; free-rss)"
@@ -79,6 +81,7 @@ def collect() -> dict:
             "channel": "Learn With Shopify",
             "channel_id": CHANNEL_ID,
             "source": "youtube_rss_free",
+            "analyze_with_notebook": NOTEBOOKLM_URL,
         })
 
     # 제목 키워드 (전략·검색용)
@@ -105,6 +108,12 @@ def collect() -> dict:
         "count": len(videos),
         "title_keywords": dict(sorted(kw.items(), key=lambda x: -x[1])),
         "videos": videos,
+        "video_analysis": {
+            "tool": "Google NotebookLM",
+            "notebook_url": NOTEBOOKLM_URL,
+            "notebook_id": NOTEBOOKLM_ID,
+            "instruction": "YouTube/Shorts 분석 시 이 노트북 사용",
+        },
         "jarvis_use": [
             "knowledge corpus / Obsidian notes",
             "Shopify operations education signals",
