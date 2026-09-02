@@ -83,10 +83,13 @@ def collect_arxiv():
 # 워크플로가 YOUTUBE_CHANNEL_IDS 시크릿을 주입하지만 예전 코드는 읽지 않았다.
 # 하드코딩된 UC2M9hZkM4RCHaOaUybJ4V7Q 는 404 라 수집이 0건이었다.
 # RSS 는 API 키가 필요 없으므로 유효한 채널 ID 만 있으면 바로 수집된다.
-CHANNELS = [
+# Learn With Shopify (@learnwithshopify) 기본 포함 — 무료 RSS
+_DEFAULT_YT = ["UC7geKfz2-IH0rsgRBtHTm0g"]
+_env_yt = [
     c.strip() for c in (os.environ.get("YOUTUBE_CHANNEL_IDS") or "").replace("\n", ",").split(",")
     if c.strip()
 ]
+CHANNELS = list(dict.fromkeys(_env_yt + _DEFAULT_YT))
 
 
 def collect_youtube():
