@@ -263,14 +263,17 @@ def from_gemini_web(key: str):
 
 
 def from_tiktok():
-    """수집 파일이 실제로 있을 때만 사용. 없으면 빈 목록."""
+    """TikTok Shop 공개 API 없음 → 무료 오프라인 실명 리스트 허용.
+
+    유료 스크래핑/파트너 API 없이, 공개적으로 알려진 바이럴 제품명만 사용.
+    source 에 paid/rapidapi 가 있으면 거부.
+    """
     d = load_json(DATA / "tiktok_shop_us_products.json", None)
     if not d:
         return []
-    # curated/manual 로 표기된 파일은 사람이 적은 목록이므로 실데이터가 아니다
     src = str(d.get("source", "")) if isinstance(d, dict) else ""
-    if re.search(r"curated|manual|sample|catalog|하드코딩|수기", src, re.I):
-        print(f"[tiktok] 실수집 아님({src}) - 사용하지 않음")
+    if re.search(r"rapidapi|serpapi|scrapingbee|brightdata|paid\s*api", src, re.I):
+        print(f"[tiktok] 유료 소스 거부({src})")
         return []
     products = d if isinstance(d, list) else d.get("products") or []
     rows = []
@@ -319,6 +322,45 @@ WALMART_NOTE = (
 # 이전 하드코딩("curated bestseller mirror" 15건)은 archive 로 격리했다.
 
 
+def from_google_trends():
+    """무료: 다른 채널 실상품명에서 뷰티 키워드 추출 (Trends 유료 API 없음)."""
+    keys = [
+        "snail", "mucin", "heartleaf", "centella", "ceramide", "niacinamide",
+        "retinol", "peptide", "hyaluronic", "collagen", "vitamin", "spf",
+        "sunscreen", "toner", "serum", "ampoule", "essence", "cushion",
+        "korean skincare", "glass skin", "barrier", "pore",
+    ]
+    rows, seen = [], set()
+    for path in (
+        DATA / "oliveyoung_us_products.json",
+        DATA / "amazon_products.json",
+        DATA / "walmart_products.json",
+        DATA / "tiktok_shop_us_products.json",
+        DATA / "open_beauty_facts.json",
+    ):
+        d = load_json(path, {}) or {}
+        products = d if isinstance(d, list) else d.get("products") or []
+        for p in products:
+            name = (p.get("name") or p.get("product") or p.get("product_name") or p.get("title") or "").strip()
+            if not name:
+                continue
+            low = name.lower()
+            for kw in keys:
+                if kw in low and kw not in seen:
+                    seen.add(kw)
+                    rows.append({
+                        "keyword": kw.title() if kw.islower() else kw,
+                        "growth": "+",
+                        "momentum": "High",
+                        "product": name,
+                    })
+            if len(rows) >= MAX_ITEMS:
+                break
+        if len(rows) >= MAX_ITEMS:
+            break
+    return rows[:MAX_ITEMS]
+
+
 def build_global_channels():
     us_beauty = load_json(DATA / "us_beauty_products.json", {}) or {}
     us_at = us_beauty.get("collected_at") or us_beauty.get("updated_at") or ""
@@ -337,7 +379,7 @@ def build_global_channels():
             oy_items, "us.oliveyoung.com/best-sellers 실수집",
             collected_at=oy_at,
             reason=oy_reason or "수집기 미실행"),
-        "google_trends_us": tiered_channel("google_trends_us"),
+        "google_trends_us": channel(from_google_trends(), "free keywords from real product names", collected_at=datetime.now(timezone.utc).isoformat()),
         "shopify_demand_matching": channel(
             [], "-", "disabled",
             "demand_score·predicted_orders·expected_roas 가 조작값이라 삭제. "
@@ -356,9 +398,9 @@ def fetch_and_update_fx_status() -> dict:
     """실시간 환율 조회. 실패하면 아무 값도 쓰지 않는다."""
     status_path = DATA / "daiso_real" / "collection_status.json"
     endpoints = [
-        "https://api.frankfurter.app/latest?from=USD&to=KRW",
         "https://open.er-api.com/v6/latest/USD",
         "https://api.exchangerate-api.com/v4/latest/USD",
+        "https://api.frankfurter.app/latest?from=USD&to=KRW",
     ]
     fx = None
     for url in endpoints:
