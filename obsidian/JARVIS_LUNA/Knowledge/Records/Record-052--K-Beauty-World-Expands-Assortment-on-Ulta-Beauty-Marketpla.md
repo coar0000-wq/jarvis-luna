@@ -2,7 +2,7 @@
 title: "Record 052 · K-Beauty-World-Expands-Assortment-on-Ulta-Beauty-Marketplace-With-17-V"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T16:36:36.230773+00:00
+updated_at: 2026-09-02T16:46:33.056257+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T12:17:17.564338+00:00",
+  "generated_at": "2026-09-02T16:51:11.759811+00:00",
   "source": "score_shopify_demand.py",
   "rule": "grade == S (core category + global match)",
   "count": 39,
@@ -409,27 +409,6 @@
     },
     {
       "rank": 20,
-      "pd_no": "1073704",
-      "name": "[각질순삭]큐어레스트 버블 필링 클렌저 120 ml",
-      "bucket": "클렌징",
-      "price_krw": 5000,
-      "shopify_score": 96,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073704",
-      "recommend_reason": "글로벌 '톨레리안 퓨리파잉 폼 클렌저' (walmart_beauty) 유사 100% · 토큰 cleanser",
-      "matched_global": {
-        "channel": "walmart_beauty",
-        "global_product": "톨레리안 퓨리파잉 폼 클렌저",
-        "similarity": 1.0,
-        "demand_weight": 0.8,
-        "matched_tokens": [
-          "cleanser"
-        ],
-        "match_score": 0.8
-      }
-    },
-    {
-      "rank": 21,
       "pd_no": "1060208",
       "name": "쿤달 콜라겐 데미지 케어 트리트먼트 150 ml",
       "bucket": "마스크팩",
@@ -450,28 +429,7 @@
       }
     },
     {
-      "rank": 22,
-      "pd_no": "1062141",
-      "name": "네시픽 화이트닝 모이스처크림 50 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 96,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062141",
-      "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 50% · 토큰 cream",
-      "matched_global": {
-        "channel": "sephora",
-        "global_product": "베네피앙스 링클 스무딩 아이 크림",
-        "similarity": 0.5,
-        "demand_weight": 0.81,
-        "matched_tokens": [
-          "cream"
-        ],
-        "match_score": 0.405
-      }
-    },
-    {
-      "rank": 23,
+      "rank": 21,
       "pd_no": "1061922",
       "name": "본셉 비타씨 젤리 마스크 1매 23 g",
       "bucket": "마스크팩",
@@ -492,7 +450,7 @@
       }
     },
     {
-      "rank": 24,
+      "rank": 22,
       "pd_no": "1032881",
       "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
       "bucket": "마스크팩",
@@ -513,7 +471,7 @@
       }
     },
     {
-      "rank": 25,
+      "rank": 23,
       "pd_no": "1072803",
       "name": "케어존플러스 모공탄력 수분크림 75 ml",
       "bucket": "스킨케어",
@@ -531,6 +489,48 @@
           "cream"
         ],
         "match_score": 0.283
+      }
+    },
+    {
+      "rank": 24,
+      "pd_no": "1073704",
+      "name": "[각질순삭]큐어레스트 버블 필링 클렌저 120 ml",
+      "bucket": "클렌징",
+      "price_krw": 5000,
+      "shopify_score": 95,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073704",
+      "recommend_reason": "글로벌 '톨레리안 퓨리파잉 폼 클렌저' (walmart_beauty) 유사 100% · 토큰 cleanser",
+      "matched_global": {
+        "channel": "walmart_beauty",
+        "global_product": "톨레리안 퓨리파잉 폼 클렌저",
+        "similarity": 1.0,
+        "demand_weight": 0.8,
+        "matched_tokens": [
+          "cleanser"
+        ],
+        "match_score": 0.8
+      }
+    },
+    {
+      "rank": 25,
+      "pd_no": "1062141",
+      "name": "네시픽 화이트닝 모이스처크림 50 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 95,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062141",
+      "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 50% · 토큰 cream",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "베네피앙스 링클 스무딩 아이 크림",
+        "similarity": 0.5,
+        "demand_weight": 0.81,
+        "matched_tokens": [
+          "cream"
+        ],
+        "match_score": 0.405
       }
     },
     {
@@ -745,6 +745,27 @@
     },
     {
       "rank": 36,
+      "pd_no": "1056662",
+      "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
+      "bucket": "헤어케어",
+      "price_krw": 3000,
+      "shopify_score": 85,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056662",
+      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Medicube Zero Pore Pad",
+        "similarity": 0.433,
+        "demand_weight": 0.8,
+        "matched_tokens": [
+          "pore"
+        ],
+        "match_score": 0.347
+      }
+    },
+    {
+      "rank": 37,
       "pd_no": "1047492",
       "name": "그립 만능렌치(210 mm)",
       "bucket": "메이크업",
@@ -762,27 +783,6 @@
           "lip"
         ],
         "match_score": 0.66
-      }
-    },
-    {
-      "rank": 37,
-      "pd_no": "1056662",
-      "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
-      "bucket": "헤어케어",
-      "price_krw": 3000,
-      "shopify_score": 84,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056662",
-      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Medicube Zero Pore Pad",
-        "similarity": 0.433,
-        "demand_weight": 0.8,
-        "matched_tokens": [
-          "pore"
-        ],
-        "match_score": 0.347
       }
     },
     {
