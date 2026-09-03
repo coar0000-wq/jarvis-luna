@@ -2,17 +2,17 @@
 title: "Record 555 · 12-Korean-Beauty-Brands-Endorsed-by-K-Pop-Stars-and-Skincare-Junkies-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T16:46:33.133643+00:00
+updated_at: 2026-09-03T21:03:43.925587+00:00
 tags: [{', '.join(tags)}]
 ---
 
 # Record 555 · 12-Korean-Beauty-Brands-Endorsed-by-K-Pop-Stars-and-Skincare-Junkies-A
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMivwFBVV95cUxPX0QyenNNVjFXaGNuSUdsNVp2MG1MaVhCWGdORGx5ci1FbllEaUx3Q0Z0UWk4dlhpT0tMbmN6OHkzQ1Vjc2NjOVRVWmZFUnp5akRwMkRhTGJBNF9kVVZNZWdpeFZ0SjBGcFZFUVo0N09ZTXJkeldycExyUDNwOHFacTkyNGlNTzZWSFJ4MU5IVHRCVWYzdWVGOUtkSThmTzQ2cDNWTDVna1hOTTNOdFNUOEQ2aTJyZmVvanV3TVRhbw?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikgFBVV95cUxQZFN3d0lzbHAxWURPOWt1d1lnS3J4MWYzcXJZcDR3UmlJbGdKQkc1RVJsOGQ0c0xYMk5KS014N19WRy1iNFM2NmozMG4xSm1FWVhYNVdEQ011dXJrMF9SR3RVYlNQWUxMR2pSNVo5cGxCdjZYTXdySjQ4SnRPLVVmcVpyRjJGRVV4eDI3cnlBdWhiUQ?oc=5)
 
-**제목:** 12 Korean Beauty Brands Endorsed by K-Pop Stars and Skincare Junkies Alike - Billboard
+**제목:** 12 Korean Beauty Brands Endorsed by K-Pop Stars and Skincare Junkies Alike - Yahoo
 
-12 Korean Beauty Brands Endorsed by K-Pop Stars and Skincare Junkies Alike - Billboard
+12 Korean Beauty Brands Endorsed by K-Pop Stars and Skincare Junkies Alike - Yahoo
 
 **출처:** Source · Google Search
 

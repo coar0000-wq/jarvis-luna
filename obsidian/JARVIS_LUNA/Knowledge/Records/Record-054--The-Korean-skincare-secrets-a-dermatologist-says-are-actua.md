@@ -2,7 +2,7 @@
 title: "Record 054 · The-Korean-skincare-secrets-a-dermatologist-says-are-actually-worth-tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T20:02:05.792348+00:00
+updated_at: 2026-09-03T21:03:43.858699+00:00
 tags: [{', '.join(tags)}]
 ---
 
