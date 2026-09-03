@@ -2,7 +2,7 @@
 title: "Record 190 · The-Korean-Skin-Care-Brands-You-Need-to-Know-Right-Now---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.575289+00:00
+updated_at: 2026-09-03T13:45:04.867015+00:00
 tags: [{', '.join(tags)}]
 ---
 

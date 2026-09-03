@@ -2,7 +2,7 @@
 title: "Record 922 · 선크림-QA잘못-알고-있던-선크림-상식-20가지"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.711936+00:00
+updated_at: 2026-09-03T13:45:04.995079+00:00
 tags: [{', '.join(tags)}]
 ---
 

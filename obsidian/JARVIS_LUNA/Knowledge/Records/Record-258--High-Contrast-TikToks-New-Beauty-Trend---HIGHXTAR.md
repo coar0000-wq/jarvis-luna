@@ -2,7 +2,7 @@
 title: "Record 258 · High-Contrast-TikToks-New-Beauty-Trend---HIGHXTAR"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.588112+00:00
+updated_at: 2026-09-03T13:45:04.879025+00:00
 tags: [{', '.join(tags)}]
 ---
 

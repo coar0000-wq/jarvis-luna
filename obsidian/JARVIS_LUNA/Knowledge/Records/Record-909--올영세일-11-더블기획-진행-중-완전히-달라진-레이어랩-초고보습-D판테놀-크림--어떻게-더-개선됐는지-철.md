@@ -2,7 +2,7 @@
 title: "Record 909 · 올영세일-11-더블기획-진행-중-완전히-달라진-레이어랩-초고보습-D판테놀-크림--어떻게-더-개선됐는지-철저-분석해-드릴게요"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.709698+00:00
+updated_at: 2026-09-03T13:45:04.992876+00:00
 tags: [{', '.join(tags)}]
 ---
 

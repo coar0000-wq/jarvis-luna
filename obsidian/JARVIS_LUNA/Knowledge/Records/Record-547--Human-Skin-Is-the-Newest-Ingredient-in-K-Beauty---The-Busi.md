@@ -2,7 +2,7 @@
 title: "Record 547 · Human-Skin-Is-the-Newest-Ingredient-in-K-Beauty---The-Business-of-Fash"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.643415+00:00
+updated_at: 2026-09-03T13:45:04.929717+00:00
 tags: [{', '.join(tags)}]
 ---
 

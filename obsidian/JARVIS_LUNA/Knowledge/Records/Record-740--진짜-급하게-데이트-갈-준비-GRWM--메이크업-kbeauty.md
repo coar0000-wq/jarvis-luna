@@ -2,7 +2,7 @@
 title: "Record 740 · 진짜-급하게-데이트-갈-준비-GRWM--메이크업-kbeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.680044+00:00
+updated_at: 2026-09-03T13:45:04.963549+00:00
 tags: [{', '.join(tags)}]
 ---
 

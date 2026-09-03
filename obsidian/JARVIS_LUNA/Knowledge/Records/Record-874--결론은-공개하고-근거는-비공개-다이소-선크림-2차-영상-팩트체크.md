@@ -2,7 +2,7 @@
 title: "Record 874 · 결론은-공개하고-근거는-비공개-다이소-선크림-2차-영상-팩트체크"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.703562+00:00
+updated_at: 2026-09-03T13:45:04.986858+00:00
 tags: [{', '.join(tags)}]
 ---
 

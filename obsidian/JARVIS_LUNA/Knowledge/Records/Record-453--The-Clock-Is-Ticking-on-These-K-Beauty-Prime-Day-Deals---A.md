@@ -2,7 +2,7 @@
 title: "Record 453 · The-Clock-Is-Ticking-on-These-K-Beauty-Prime-Day-Deals---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.625439+00:00
+updated_at: 2026-09-03T13:45:04.913220+00:00
 tags: [{', '.join(tags)}]
 ---
 

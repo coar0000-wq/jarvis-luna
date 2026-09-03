@@ -2,7 +2,7 @@
 title: "Record 526 · 15-Under-the-Radar-K-Beauty-Brands-You-Should-Know-About-In-2026---Mar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.639414+00:00
+updated_at: 2026-09-03T13:45:04.926033+00:00
 tags: [{', '.join(tags)}]
 ---
 

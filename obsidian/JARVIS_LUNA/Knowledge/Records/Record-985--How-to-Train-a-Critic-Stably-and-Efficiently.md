@@ -2,7 +2,7 @@
 title: "Record 985 · How-to-Train-a-Critic-Stably-and-Efficiently"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.723957+00:00
+updated_at: 2026-09-03T13:45:05.007132+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 914 · 피부는-여름에-늙는다-정말-중요한-여름-스킨케어-루틴-레이어랩-제품으로-하는-간단한-루틴-풀-케어-루틴-윤곽리프팅-관리까지-모"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.710583+00:00
+updated_at: 2026-09-03T13:45:04.993729+00:00
 tags: [{', '.join(tags)}]
 ---
 

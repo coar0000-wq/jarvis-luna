@@ -2,7 +2,7 @@
 title: "Record 840 · How-Id-Start-a-1-Person-Business-With-Claude-AI-in-30-Days"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.697615+00:00
+updated_at: 2026-09-03T13:45:04.980930+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 817 · 이중세안-할까-말까"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.693554+00:00
+updated_at: 2026-09-03T13:45:04.976867+00:00
 tags: [{', '.join(tags)}]
 ---
 

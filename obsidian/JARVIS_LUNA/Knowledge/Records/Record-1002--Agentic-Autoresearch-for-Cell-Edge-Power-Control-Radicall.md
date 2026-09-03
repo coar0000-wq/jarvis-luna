@@ -2,7 +2,7 @@
 title: "Record 1002 · Agentic-Autoresearch-for-Cell-Edge-Power-Control-Radically-Redefining-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.728680+00:00
+updated_at: 2026-09-03T13:45:05.010731+00:00
 tags: [{', '.join(tags)}]
 ---
 

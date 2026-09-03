@@ -2,7 +2,7 @@
 title: "Record 800 · This-is-why-your-dropshipping-store-is-failling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.690588+00:00
+updated_at: 2026-09-03T13:45:04.973967+00:00
 tags: [{', '.join(tags)}]
 ---
 

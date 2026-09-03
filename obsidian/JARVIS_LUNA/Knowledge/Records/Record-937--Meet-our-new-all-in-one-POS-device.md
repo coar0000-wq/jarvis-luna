@@ -2,7 +2,7 @@
 title: "Record 937 · Meet-our-new-all-in-one-POS-device"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.714977+00:00
+updated_at: 2026-09-03T13:45:04.998105+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T18:29:18.642586+09:00",
+  "generated_at": "2026-09-03T22:50:58.804406+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "966개 코퍼스 레코드"
+      "detail": "1015개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "985개 노트 · 8061개 링크 · 끊어진 링크 0개"
+      "detail": "1034개 노트 · 8453개 링크 · 끊어진 링크 0개"
     },
     {
       "id": "dashboard",
@@ -25,7 +25,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "966건 · 3 experts · 정확도 79.19%"
+      "detail": "1015건 · 3 experts · 정확도 79.21%"
     },
     {
       "id": "publish",
@@ -36,45 +36,45 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 966,
+    "record_count": 1015,
     "source_counts": {},
-    "updated_at": "2026-09-03T18:23:47.320677+09:00"
+    "updated_at": "2026-09-03T22:44:20.784595+09:00"
   },
   "graph": {
-    "notes": 985,
-    "links": 8061,
+    "notes": 1034,
+    "links": 8453,
     "dangling_links": 0,
-    "records": 966,
+    "records": 1015,
     "sources": 4,
     "topics": 6,
     "audit": "passed",
-    "last_generated": "2026-09-03T18:24:36.777042+09:00"
+    "last_generated": "2026-09-03T22:45:05.034465+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 966,
+    "records": 1015,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.7919254658385093,
-    "validation_accuracy": 0.8486486486486486,
-    "final_loss": 0.40155848324932303,
-    "gate_load_std": 0.4451589884195998,
+    "accuracy": 0.7921182266009852,
+    "validation_accuracy": 0.8505154639175257,
+    "final_loss": 0.394828571876404,
+    "gate_load_std": 0.44555212443197406,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-03T09:29:18.555720+00:00"
+    "updated_at": "2026-09-03T13:50:58.687971+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 966,
-      "notes": 985,
-      "links": 8061
+      "records": 1015,
+      "notes": 1034,
+      "links": 8453
     },
     "prior_totals": {
-      "records": 966,
-      "notes": 985,
-      "links": 8061
+      "records": 1015,
+      "notes": 1034,
+      "links": 8453
     },
     "added_this_run": {
       "records": 0,
@@ -82,9 +82,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 966,
-      "notes": 985,
-      "links": 8061
+      "records": 1015,
+      "notes": 1034,
+      "links": 8453
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -752,7 +752,7 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-03"
   },
-  "last_synced": "09. 03. 오후 06:29 KST",
+  "last_synced": "09. 03. 오후 10:50 KST",
   "global_channels_status": {
     "amazon_best_sellers": {
       "status": "ok",
@@ -778,7 +778,7 @@
       "status": "empty",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "수집 실패: HTTP 403",
-      "collected_at": "2026-09-03T09:24:27.764961+00:00",
+      "collected_at": "2026-09-03T13:45:01.633983+00:00",
       "count": 0,
       "trust": "none"
     },
@@ -786,7 +786,7 @@
       "status": "ok",
       "source": "free keywords from real product names",
       "reason": "",
-      "collected_at": "2026-09-03T09:29:18.726786+00:00",
+      "collected_at": "2026-09-03T13:50:58.910441+00:00",
       "count": 15,
       "trust": "verified"
     },
@@ -830,7 +830,7 @@
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-03T09:24:09.239948+00:00",
+      "collected_at": "2026-09-03T13:44:43.269082+00:00",
       "count": 15,
       "trust": "verified"
     }

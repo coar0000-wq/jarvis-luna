@@ -2,7 +2,7 @@
 title: "Record 743 · 화장품-부작용-이렇게-하세요"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.680577+00:00
+updated_at: 2026-09-03T13:45:04.964045+00:00
 tags: [{', '.join(tags)}]
 ---
 

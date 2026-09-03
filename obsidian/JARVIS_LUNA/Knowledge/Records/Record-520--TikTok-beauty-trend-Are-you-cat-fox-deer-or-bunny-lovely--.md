@@ -2,7 +2,7 @@
 title: "Record 520 · TikTok-beauty-trend-Are-you-cat-fox-deer-or-bunny-lovely---Prestige-On"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.638258+00:00
+updated_at: 2026-09-03T13:45:04.925010+00:00
 tags: [{', '.join(tags)}]
 ---
 

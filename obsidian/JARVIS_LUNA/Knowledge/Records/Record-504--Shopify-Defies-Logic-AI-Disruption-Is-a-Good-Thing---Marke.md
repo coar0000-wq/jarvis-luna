@@ -2,7 +2,7 @@
 title: "Record 504 · Shopify-Defies-Logic-AI-Disruption-Is-a-Good-Thing---MarketBeat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.635240+00:00
+updated_at: 2026-09-03T13:45:04.922249+00:00
 tags: [{', '.join(tags)}]
 ---
 

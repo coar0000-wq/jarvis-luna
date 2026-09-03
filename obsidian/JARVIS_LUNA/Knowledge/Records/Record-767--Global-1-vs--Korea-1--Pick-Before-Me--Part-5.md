@@ -2,7 +2,7 @@
 title: "Record 767 · Global-1-vs--Korea-1--Pick-Before-Me--Part-5"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.684776+00:00
+updated_at: 2026-09-03T13:45:04.968237+00:00
 tags: [{', '.join(tags)}]
 ---
 

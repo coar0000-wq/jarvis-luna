@@ -2,7 +2,7 @@
 title: "Record 241 · AI-referred-shoppers-convert-better-and-spend-more-2026---Shopify-Indi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.584813+00:00
+updated_at: 2026-09-03T13:45:04.876001+00:00
 tags: [{', '.join(tags)}]
 ---
 

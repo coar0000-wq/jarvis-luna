@@ -2,7 +2,7 @@
 title: "Record 771 · ISTP-특징--대충-사는데-뭔가-잘-풀림-istp-istp특징"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.685499+00:00
+updated_at: 2026-09-03T13:45:04.968932+00:00
 tags: [{', '.join(tags)}]
 ---
 

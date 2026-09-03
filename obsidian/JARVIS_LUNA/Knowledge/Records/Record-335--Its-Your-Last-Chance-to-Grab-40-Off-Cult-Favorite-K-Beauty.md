@@ -2,7 +2,7 @@
 title: "Record 335 · Its-Your-Last-Chance-to-Grab-40-Off-Cult-Favorite-K-Beauty-Products---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.602946+00:00
+updated_at: 2026-09-03T13:45:04.892582+00:00
 tags: [{', '.join(tags)}]
 ---
 

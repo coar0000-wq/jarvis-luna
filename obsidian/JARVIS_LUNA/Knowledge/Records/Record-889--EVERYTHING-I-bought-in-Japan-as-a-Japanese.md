@@ -2,7 +2,7 @@
 title: "Record 889 · EVERYTHING-I-bought-in-Japan-as-a-Japanese"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.706170+00:00
+updated_at: 2026-09-03T13:45:04.989452+00:00
 tags: [{', '.join(tags)}]
 ---
 

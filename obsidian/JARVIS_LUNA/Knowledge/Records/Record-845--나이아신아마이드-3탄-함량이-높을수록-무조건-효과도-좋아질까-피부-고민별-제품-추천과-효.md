@@ -2,7 +2,7 @@
 title: "Record 845 · 나이아신아마이드-3탄-함량이-높을수록-무조건-효과도-좋아질까-피부-고민별-제품-추천과-효능-정리이렇게-쓰셔야-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.698494+00:00
+updated_at: 2026-09-03T13:45:04.981808+00:00
 tags: [{', '.join(tags)}]
 ---
 

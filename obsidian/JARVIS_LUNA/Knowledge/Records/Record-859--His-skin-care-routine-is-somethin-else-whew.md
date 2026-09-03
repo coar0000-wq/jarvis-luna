@@ -2,7 +2,7 @@
 title: "Record 859 · His-skin-care-routine-is-somethin-else-whew"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.700948+00:00
+updated_at: 2026-09-03T13:45:04.984262+00:00
 tags: [{', '.join(tags)}]
 ---
 

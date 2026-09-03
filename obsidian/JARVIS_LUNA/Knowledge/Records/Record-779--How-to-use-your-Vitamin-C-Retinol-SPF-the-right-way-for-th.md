@@ -2,7 +2,7 @@
 title: "Record 779 · How-to-use-your-Vitamin-C-Retinol-SPF-the-right-way-for-the-best-way-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.686913+00:00
+updated_at: 2026-09-03T13:45:04.970392+00:00
 tags: [{', '.join(tags)}]
 ---
 

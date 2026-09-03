@@ -2,7 +2,7 @@
 title: "Record 031 · Auditing-Anonymous-AI-Models-A-Four-Stage-Protocol-for-Black-Box-Ident"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.547110+00:00
+updated_at: 2026-09-03T13:45:04.839347+00:00
 tags: [{', '.join(tags)}]
 ---
 

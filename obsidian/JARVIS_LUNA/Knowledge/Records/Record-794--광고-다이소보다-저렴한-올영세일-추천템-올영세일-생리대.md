@@ -2,7 +2,7 @@
 title: "Record 794 · 광고-다이소보다-저렴한-올영세일-추천템-올영세일-생리대"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.689530+00:00
+updated_at: 2026-09-03T13:45:04.972941+00:00
 tags: [{', '.join(tags)}]
 ---
 

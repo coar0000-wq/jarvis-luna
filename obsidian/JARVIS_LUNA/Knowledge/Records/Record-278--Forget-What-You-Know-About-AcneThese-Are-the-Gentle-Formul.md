@@ -2,7 +2,7 @@
 title: "Record 278 · Forget-What-You-Know-About-AcneThese-Are-the-Gentle-Formulas-You-Shoul"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.592019+00:00
+updated_at: 2026-09-03T13:45:04.882616+00:00
 tags: [{', '.join(tags)}]
 ---
 

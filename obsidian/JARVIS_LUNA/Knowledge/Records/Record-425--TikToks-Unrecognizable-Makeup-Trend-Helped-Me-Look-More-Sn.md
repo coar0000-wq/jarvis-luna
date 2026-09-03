@@ -2,7 +2,7 @@
 title: "Record 425 · TikToks-Unrecognizable-Makeup-Trend-Helped-Me-Look-More-Snatched-Than-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.620105+00:00
+updated_at: 2026-09-03T13:45:04.908348+00:00
 tags: [{', '.join(tags)}]
 ---
 

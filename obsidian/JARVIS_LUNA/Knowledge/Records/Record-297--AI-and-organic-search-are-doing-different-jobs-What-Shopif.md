@@ -2,7 +2,7 @@
 title: "Record 297 · AI-and-organic-search-are-doing-different-jobs-What-Shopifys-data-show"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.595653+00:00
+updated_at: 2026-09-03T13:45:04.885908+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 702 · Shopify-sees-strong-revenue-as-e-commerce-business-grows-despite-tarif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.672875+00:00
+updated_at: 2026-09-03T13:45:04.956957+00:00
 tags: [{', '.join(tags)}]
 ---
 

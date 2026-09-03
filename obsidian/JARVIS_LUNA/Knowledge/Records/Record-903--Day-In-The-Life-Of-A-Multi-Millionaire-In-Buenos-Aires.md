@@ -2,7 +2,7 @@
 title: "Record 903 · Day-In-The-Life-Of-A-Multi-Millionaire-In-Buenos-Aires"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.708628+00:00
+updated_at: 2026-09-03T13:45:04.991836+00:00
 tags: [{', '.join(tags)}]
 ---
 

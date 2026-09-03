@@ -2,7 +2,7 @@
 title: "Record 969 · Asymmetric-Capacity-Allocation-in-Self-Refinement-Pipelines"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.720652+00:00
+updated_at: 2026-09-03T13:45:05.003848+00:00
 tags: [{', '.join(tags)}]
 ---
 

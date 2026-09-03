@@ -2,7 +2,7 @@
 title: "Record 725 · Inside-BoF-and-Shopifys-Knowledge-Breakfast-on-the-Future-of-AI-Commer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.677271+00:00
+updated_at: 2026-09-03T13:45:04.960987+00:00
 tags: [{', '.join(tags)}]
 ---
 

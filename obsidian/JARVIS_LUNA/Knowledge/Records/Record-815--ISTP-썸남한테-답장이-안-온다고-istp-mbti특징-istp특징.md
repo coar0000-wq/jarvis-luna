@@ -2,7 +2,7 @@
 title: "Record 815 · ISTP-썸남한테-답장이-안-온다고-istp-mbti특징-istp특징"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.693194+00:00
+updated_at: 2026-09-03T13:45:04.976545+00:00
 tags: [{', '.join(tags)}]
 ---
 

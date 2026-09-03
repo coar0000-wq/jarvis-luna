@@ -2,7 +2,7 @@
 title: "Record 792 · 개봉-후-6개월-지난-선크림-써도-될까"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.689166+00:00
+updated_at: 2026-09-03T13:45:04.972599+00:00
 tags: [{', '.join(tags)}]
 ---
 

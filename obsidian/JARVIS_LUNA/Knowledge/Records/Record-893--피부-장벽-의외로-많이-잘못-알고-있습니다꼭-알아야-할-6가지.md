@@ -2,7 +2,7 @@
 title: "Record 893 · 피부-장벽-의외로-많이-잘못-알고-있습니다꼭-알아야-할-6가지"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.706876+00:00
+updated_at: 2026-09-03T13:45:04.990116+00:00
 tags: [{', '.join(tags)}]
 ---
 

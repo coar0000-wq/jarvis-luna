@@ -2,7 +2,7 @@
 title: "Record 837 · A-Korean-Makeup-Artist-Ranks-Viral-Sephora-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.697088+00:00
+updated_at: 2026-09-03T13:45:04.980410+00:00
 tags: [{', '.join(tags)}]
 ---
 

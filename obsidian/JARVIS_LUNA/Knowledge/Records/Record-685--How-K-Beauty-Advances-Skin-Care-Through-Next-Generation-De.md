@@ -2,7 +2,7 @@
 title: "Record 685 · How-K-Beauty-Advances-Skin-Care-Through-Next-Generation-Delivery-Syste"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.669643+00:00
+updated_at: 2026-09-03T13:45:04.953980+00:00
 tags: [{', '.join(tags)}]
 ---
 

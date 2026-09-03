@@ -2,7 +2,7 @@
 title: "Record 100 · How-K-beauty-went-from-a-viral-trend-to-an-economic-powerhouse---bbcco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.559357+00:00
+updated_at: 2026-09-03T13:45:04.851266+00:00
 tags: [{', '.join(tags)}]
 ---
 

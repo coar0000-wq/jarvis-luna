@@ -2,7 +2,7 @@
 title: "Record 805 · BEST-K-Beauty-Hair-Body-Skincare-Box-with-EVERYTHING-U-NEED"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.691468+00:00
+updated_at: 2026-09-03T13:45:04.974820+00:00
 tags: [{', '.join(tags)}]
 ---
 

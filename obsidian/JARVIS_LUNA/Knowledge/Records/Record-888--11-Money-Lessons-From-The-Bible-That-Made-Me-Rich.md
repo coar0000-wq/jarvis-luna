@@ -2,7 +2,7 @@
 title: "Record 888 · 11-Money-Lessons-From-The-Bible-That-Made-Me-Rich"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.705992+00:00
+updated_at: 2026-09-03T13:45:04.989280+00:00
 tags: [{', '.join(tags)}]
 ---
 

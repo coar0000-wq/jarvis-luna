@@ -2,7 +2,7 @@
 title: "Record 949 · Whats-new-with-Shop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.717014+00:00
+updated_at: 2026-09-03T13:45:05.000126+00:00
 tags: [{', '.join(tags)}]
 ---
 

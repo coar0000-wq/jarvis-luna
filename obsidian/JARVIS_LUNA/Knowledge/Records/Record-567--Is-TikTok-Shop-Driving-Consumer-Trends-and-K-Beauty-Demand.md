@@ -2,7 +2,7 @@
 title: "Record 567 · Is-TikTok-Shop-Driving-Consumer-Trends-and-K-Beauty-Demand---Supply-Ch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.647235+00:00
+updated_at: 2026-09-03T13:45:04.933227+00:00
 tags: [{', '.join(tags)}]
 ---
 

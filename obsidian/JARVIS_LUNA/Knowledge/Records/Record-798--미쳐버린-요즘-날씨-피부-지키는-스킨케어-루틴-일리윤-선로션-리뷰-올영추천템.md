@@ -2,7 +2,7 @@
 title: "Record 798 · 미쳐버린-요즘-날씨-피부-지키는-스킨케어-루틴-일리윤-선로션-리뷰-올영추천템"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.690218+00:00
+updated_at: 2026-09-03T13:45:04.973635+00:00
 tags: [{', '.join(tags)}]
 ---
 

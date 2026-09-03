@@ -2,7 +2,7 @@
 title: "Record 146 · A-Korean-skincare-expert-just-told-me-which-K-beauty-trend-is-complete"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.567534+00:00
+updated_at: 2026-09-03T13:45:04.859326+00:00
 tags: [{', '.join(tags)}]
 ---
 

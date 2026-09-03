@@ -2,7 +2,7 @@
 title: "Record 720 · What-is-Sugar-Plum-Fairy-Makeup-How-to-Recreate-Hailey-Biebers-Winter-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.676349+00:00
+updated_at: 2026-09-03T13:45:04.960120+00:00
 tags: [{', '.join(tags)}]
 ---
 

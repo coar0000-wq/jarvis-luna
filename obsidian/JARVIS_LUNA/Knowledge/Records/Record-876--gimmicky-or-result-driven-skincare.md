@@ -2,7 +2,7 @@
 title: "Record 876 · gimmicky-or-result-driven-skincare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T11:16:49.703908+00:00
+updated_at: 2026-09-03T13:45:04.987188+00:00
 tags: [{', '.join(tags)}]
 ---
 
