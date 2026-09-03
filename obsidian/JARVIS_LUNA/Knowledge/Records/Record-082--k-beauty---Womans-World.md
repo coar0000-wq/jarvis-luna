@@ -2,7 +2,7 @@
 title: "Record 082 · k-beauty---Womans-World"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T21:03:43.862526+00:00
+updated_at: 2026-09-03T22:29:09.406842+00:00
 tags: [{', '.join(tags)}]
 ---
 

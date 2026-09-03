@@ -2,7 +2,7 @@
 title: "Record 012 · COVER-Identifiable-Evaluation-of-Coalition-Routing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T21:03:43.853099+00:00
+updated_at: 2026-09-03T22:29:09.395595+00:00
 tags: [{', '.join(tags)}]
 ---
 

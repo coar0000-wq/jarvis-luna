@@ -2,7 +2,7 @@
 title: "Record 023 · Learning-to-Evaluate-Before-Improving-Automatic-Rubric-Induction-for-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T21:03:43.854572+00:00
+updated_at: 2026-09-03T22:29:09.397343+00:00
 tags: [{', '.join(tags)}]
 ---
 
