@@ -2,7 +2,7 @@
 title: "Record 004 · Program-Learning-with-Verifiable-Rewards-Symbolic-Backpropagation-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T00:28:42.082964+00:00
+updated_at: 2026-09-03T04:35:16.471453+00:00
 tags: [{', '.join(tags)}]
 ---
 

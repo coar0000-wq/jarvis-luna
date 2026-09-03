@@ -1,18 +1,18 @@
 ---
-title: "Record 198 · AI-referred-shoppers-convert-better-and-spend-more-2026---Shopify-Indi"
+title: "Record 198 · AI-referred-shoppers-convert-better-and-spend-more-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T21:05:30.614137+00:00
+updated_at: 2026-09-03T04:35:16.488546+00:00
 tags: [{', '.join(tags)}]
 ---
 
-# Record 198 · AI-referred-shoppers-convert-better-and-spend-more-2026---Shopify-Indi
+# Record 198 · AI-referred-shoppers-convert-better-and-spend-more-2026---Shopify
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibkFVX3lxTE9xSk1JNUNtNjJPZWJrX0F6ZzhnQVVSQ1ZNU28ycnNsd0ZPN1l2R2tNRm9JcUpmN1RNdUdoUG9zWi1VakNfZkZzU0tpWU5qcUJvNjVxMF9TUWJqYldzbEh4OGtPSVhqRl9VNk5Sa2x3?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiakFVX3lxTE5wUHhyLTVFdFo5VHU5YTRYZjJmVzNrd0NkMHcxZEQ0LTFrM3ZzS0dlZi05SExWaDNqSS10NnJSQUxGcDhMbkVqVy1pWWNLWlh2cE9yRkQ3TldSZk5aak9OV1o3OFk1dTFOMkE?oc=5)
 
-**제목:** AI-referred shoppers convert better and spend more (2026) - Shopify India - Shopify
+**제목:** AI-referred shoppers convert better and spend more (2026) - Shopify
 
-AI-referred shoppers convert better and spend more (2026) - Shopify India - Shopify
+AI-referred shoppers convert better and spend more (2026) - Shopify
 
 **출처:** Source · Google Search
 
