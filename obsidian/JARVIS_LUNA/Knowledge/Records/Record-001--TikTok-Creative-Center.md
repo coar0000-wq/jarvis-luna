@@ -2,7 +2,7 @@
 title: "Record 001 · TikTok-Creative-Center"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T16:27:22.550329+00:00
+updated_at: 2026-09-03T17:27:40.245473+00:00
 tags: [{', '.join(tags)}]
 ---
 

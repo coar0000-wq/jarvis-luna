@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-03T13:44:43.269082+00:00",
+  "collected_at": "2026-09-03T17:27:36.015505+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -744,19 +744,6 @@
       "url": "https://world.openbeautyfacts.org/product/0856017000126"
     },
     {
-      "code": "4005808130573",
-      "product_name": "NIVEA Men sensitive douchegel 3-in-1",
-      "brands": "NIVEA",
-      "category": "헤어케어",
-      "obf_category": "hair-care",
-      "countries": [
-        "Netherlands"
-      ],
-      "ingredients_text": "Aqua, Cocamidopropyl Betaine, Sodium Myreth Sulfate, Sodium Laureth Sulfate, Coco-Glucoside, Sodium Hyaluronate, Tocopherol, Glycerin, Sodium Chloride, Citric Acid, Glycol Distearate, Hydrogenated Castor Oil, Sodium Benzoate, Benzoic Acid, Parfum",
-      "image_url": "https://images.openbeautyfacts.org/images/products/400/580/813/0573/front_en.8.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/4005808130573"
-    },
-    {
       "code": "3600541204638",
       "product_name": "L'huile merveilleuse aux huiles d'argan et de camelia",
       "brands": "Garnier, Ultra Doux",
@@ -768,6 +755,19 @@
       "ingredients_text": "cyclopentasiloxane, dimethiconol, argania spinosa oil/argania spinosa kernel oil, ethylhexyl methoxycinnamate, camellia oleifera seed oil, limonene, linalool, benzyl alcohol, geraniol, citronellol, hexyl cinnamal, parfum / fragrance. (FIL C51607/1)",
       "image_url": "https://images.openbeautyfacts.org/images/products/360/054/120/4638/front_fr.6.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/3600541204638"
+    },
+    {
+      "code": "4005808130573",
+      "product_name": "NIVEA Men sensitive douchegel 3-in-1",
+      "brands": "NIVEA",
+      "category": "헤어케어",
+      "obf_category": "hair-care",
+      "countries": [
+        "Netherlands"
+      ],
+      "ingredients_text": "Aqua, Cocamidopropyl Betaine, Sodium Myreth Sulfate, Sodium Laureth Sulfate, Coco-Glucoside, Sodium Hyaluronate, Tocopherol, Glycerin, Sodium Chloride, Citric Acid, Glycol Distearate, Hydrogenated Castor Oil, Sodium Benzoate, Benzoic Acid, Parfum",
+      "image_url": "https://images.openbeautyfacts.org/images/products/400/580/813/0573/front_en.8.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/4005808130573"
     },
     {
       "code": "3331300062656",
