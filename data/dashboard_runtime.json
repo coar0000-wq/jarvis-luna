@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T07:19:42.833771+09:00",
+  "generated_at": "2026-09-03T09:33:38.122702+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
@@ -38,7 +38,7 @@
     "status": "completed",
     "record_count": 897,
     "source_counts": {},
-    "updated_at": "2026-09-03T07:15:18.515378+09:00"
+    "updated_at": "2026-09-03T09:28:07.518583+09:00"
   },
   "graph": {
     "notes": 916,
@@ -48,7 +48,7 @@
     "sources": 4,
     "topics": 6,
     "audit": "passed",
-    "last_generated": "2026-09-03T07:15:40.567299+09:00"
+    "last_generated": "2026-09-03T09:28:42.231557+09:00"
   },
   "training": {
     "status": "completed",
@@ -63,7 +63,7 @@
     "gate_load_std": 0.44517007419276294,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-02T22:19:42.754193+00:00"
+    "updated_at": "2026-09-03T00:33:38.008202+00:00"
   },
   "cumulative": {
     "totals": {
@@ -883,12 +883,12 @@
     ]
   },
   "exchange_rate": {
-    "rate": 1373.78,
-    "as_of": "2026-09-02",
+    "rate": 1361.14,
+    "as_of": "2026-09-03",
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-03"
   },
-  "last_synced": "09. 03. 오전 07:19 KST",
+  "last_synced": "09. 03. 오전 09:33 KST",
   "global_channels_status": {
     "amazon_best_sellers": {
       "status": "ok",
@@ -898,7 +898,7 @@
       "count": 9,
       "trust": "manual",
       "captured_at": "2026-09-01",
-      "age_days": 1
+      "age_days": 2
     },
     "walmart_beauty": {
       "status": "ok",
@@ -908,13 +908,13 @@
       "count": 5,
       "trust": "manual",
       "captured_at": "2026-09-01",
-      "age_days": 1
+      "age_days": 2
     },
     "oliveyoung_us": {
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "2026-09-02T22:15:38.568687+00:00",
+      "collected_at": "2026-09-03T00:28:40.052301+00:00",
       "count": 15,
       "trust": "verified"
     },
@@ -922,7 +922,7 @@
       "status": "ok",
       "source": "free keywords from real product names",
       "reason": "",
-      "collected_at": "2026-09-02T22:19:42.909787+00:00",
+      "collected_at": "2026-09-03T00:33:38.222940+00:00",
       "count": 15,
       "trust": "verified"
     },
@@ -950,7 +950,7 @@
       "count": 8,
       "trust": "manual",
       "captured_at": "2026-09-01",
-      "age_days": 1
+      "age_days": 2
     },
     "sephora": {
       "status": "ok",
@@ -960,13 +960,13 @@
       "count": 10,
       "trust": "manual",
       "captured_at": "2026-09-01",
-      "age_days": 1
+      "age_days": 2
     },
     "open_beauty_facts": {
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-02T22:15:38.221041+00:00",
+      "collected_at": "2026-09-03T00:28:30.624213+00:00",
       "count": 15,
       "trust": "verified"
     }

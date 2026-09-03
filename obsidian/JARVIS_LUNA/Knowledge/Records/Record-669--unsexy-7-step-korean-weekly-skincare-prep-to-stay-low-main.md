@@ -2,7 +2,7 @@
 title: "Record 669 · unsexy-7-step-korean-weekly-skincare-prep-to-stay-low-maintence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.530506+00:00
+updated_at: 2026-09-03T00:28:42.180680+00:00
 tags: [{', '.join(tags)}]
 ---
 

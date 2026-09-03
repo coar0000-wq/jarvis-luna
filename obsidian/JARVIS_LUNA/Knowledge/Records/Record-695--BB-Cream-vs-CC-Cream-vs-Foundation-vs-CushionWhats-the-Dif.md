@@ -2,7 +2,7 @@
 title: "Record 695 · BB-Cream-vs-CC-Cream-vs-Foundation-vs-CushionWhats-the-Difference"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.532874+00:00
+updated_at: 2026-09-03T00:28:42.184174+00:00
 tags: [{', '.join(tags)}]
 ---
 

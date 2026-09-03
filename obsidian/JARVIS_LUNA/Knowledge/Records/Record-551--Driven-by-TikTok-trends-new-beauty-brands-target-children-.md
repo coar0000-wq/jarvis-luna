@@ -2,7 +2,7 @@
 title: "Record 551 · Driven-by-TikTok-trends-new-beauty-brands-target-children---The-Jakart"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.519542+00:00
+updated_at: 2026-09-03T00:28:42.164386+00:00
 tags: [{', '.join(tags)}]
 ---
 

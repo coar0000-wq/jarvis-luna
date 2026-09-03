@@ -2,7 +2,7 @@
 title: "Record 526 · Driven-by-TikTok-trends-new-beauty-brands-target-children---canadianaf"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.517211+00:00
+updated_at: 2026-09-03T00:28:42.160950+00:00
 tags: [{', '.join(tags)}]
 ---
 

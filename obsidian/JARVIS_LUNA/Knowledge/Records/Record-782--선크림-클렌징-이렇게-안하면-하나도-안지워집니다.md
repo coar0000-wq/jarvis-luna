@@ -2,7 +2,7 @@
 title: "Record 782 · 선크림-클렌징-이렇게-안하면-하나도-안지워집니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.540540+00:00
+updated_at: 2026-09-03T00:28:42.195881+00:00
 tags: [{', '.join(tags)}]
 ---
 

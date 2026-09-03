@@ -2,7 +2,7 @@
 title: "Record 398 · Is-2016-Makeup-Back-for-Good---hypebaecom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.504971+00:00
+updated_at: 2026-09-03T00:28:42.143520+00:00
 tags: [{', '.join(tags)}]
 ---
 

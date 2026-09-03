@@ -2,7 +2,7 @@
 title: "Record 661 · everything-in-japan-is-too-cute--パケ買い-kawaii"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.529790+00:00
+updated_at: 2026-09-03T00:28:42.179612+00:00
 tags: [{', '.join(tags)}]
 ---
 

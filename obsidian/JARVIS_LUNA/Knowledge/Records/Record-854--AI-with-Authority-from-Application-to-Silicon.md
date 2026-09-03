@@ -2,7 +2,7 @@
 title: "Record 854 · AI-with-Authority-from-Application-to-Silicon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.547533+00:00
+updated_at: 2026-09-03T00:28:42.206072+00:00
 tags: [{', '.join(tags)}]
 ---
 

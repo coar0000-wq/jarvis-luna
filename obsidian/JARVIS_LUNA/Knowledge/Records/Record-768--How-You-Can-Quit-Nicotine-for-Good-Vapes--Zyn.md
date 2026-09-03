@@ -2,7 +2,7 @@
 title: "Record 768 · How-You-Can-Quit-Nicotine-for-Good-Vapes--Zyn"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.539284+00:00
+updated_at: 2026-09-03T00:28:42.194000+00:00
 tags: [{', '.join(tags)}]
 ---
 

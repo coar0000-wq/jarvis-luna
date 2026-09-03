@@ -2,7 +2,7 @@
 title: "Record 765 · Beginners-Guide-To-Dropshipping-In-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.539037+00:00
+updated_at: 2026-09-03T00:28:42.193608+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 585 · K-Beauty-Trends-2026-Korean-Skincare-Trends-Shaping-Luxury-Beauty---fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.522737+00:00
+updated_at: 2026-09-03T00:28:42.169118+00:00
 tags: [{', '.join(tags)}]
 ---
 

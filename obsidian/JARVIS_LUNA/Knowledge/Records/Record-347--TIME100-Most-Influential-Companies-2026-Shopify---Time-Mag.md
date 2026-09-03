@@ -2,7 +2,7 @@
 title: "Record 347 · TIME100-Most-Influential-Companies-2026-Shopify---Time-Magazine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.500310+00:00
+updated_at: 2026-09-03T00:28:42.136101+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 543 · TIKTOK-SHOP-BRINGS-VIRAL-BEAUTY-TRENDS-TO-LIFE-AT-WESTFIELD-STRATFORD-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.518789+00:00
+updated_at: 2026-09-03T00:28:42.163268+00:00
 tags: [{', '.join(tags)}]
 ---
 

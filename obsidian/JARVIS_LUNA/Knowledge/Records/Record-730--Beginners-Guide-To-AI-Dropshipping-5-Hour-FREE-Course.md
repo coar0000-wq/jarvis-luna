@@ -2,7 +2,7 @@
 title: "Record 730 · Beginners-Guide-To-AI-Dropshipping-5-Hour-FREE-Course"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.535988+00:00
+updated_at: 2026-09-03T00:28:42.188867+00:00
 tags: [{', '.join(tags)}]
 ---
 

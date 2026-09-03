@@ -2,7 +2,7 @@
 title: "Record 700 · 이중세안-할까-말까"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.533287+00:00
+updated_at: 2026-09-03T00:28:42.184834+00:00
 tags: [{', '.join(tags)}]
 ---
 

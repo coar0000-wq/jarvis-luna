@@ -2,7 +2,7 @@
 title: "Record 453 · Shopify-says-AI-agents-will-not-bypass-its-checkout-systems---thekeywo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.510293+00:00
+updated_at: 2026-09-03T00:28:42.150991+00:00
 tags: [{', '.join(tags)}]
 ---
 

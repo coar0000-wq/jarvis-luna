@@ -2,7 +2,7 @@
 title: "Record 489 · From-K-Beauty-Momentum-to-a-Global-Beauty-Ecosystem---The-Worldfolio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.513718+00:00
+updated_at: 2026-09-03T00:28:42.155896+00:00
 tags: [{', '.join(tags)}]
 ---
 

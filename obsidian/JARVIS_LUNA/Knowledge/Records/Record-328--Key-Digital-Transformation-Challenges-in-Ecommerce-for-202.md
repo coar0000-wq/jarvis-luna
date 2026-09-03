@@ -2,7 +2,7 @@
 title: "Record 328 · Key-Digital-Transformation-Challenges-in-Ecommerce-for-2026-and-How-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.498597+00:00
+updated_at: 2026-09-03T00:28:42.132971+00:00
 tags: [{', '.join(tags)}]
 ---
 

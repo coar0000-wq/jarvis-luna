@@ -2,7 +2,7 @@
 title: "Record 217 · Is-bloom-skin-the-new-glass-skin-in-K-beauty---Cosmetics-Business"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.488623+00:00
+updated_at: 2026-09-03T00:28:42.114598+00:00
 tags: [{', '.join(tags)}]
 ---
 

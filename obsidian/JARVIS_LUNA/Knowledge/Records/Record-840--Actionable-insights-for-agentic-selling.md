@@ -2,7 +2,7 @@
 title: "Record 840 · Actionable-insights-for-agentic-selling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.545997+00:00
+updated_at: 2026-09-03T00:28:42.203928+00:00
 tags: [{', '.join(tags)}]
 ---
 

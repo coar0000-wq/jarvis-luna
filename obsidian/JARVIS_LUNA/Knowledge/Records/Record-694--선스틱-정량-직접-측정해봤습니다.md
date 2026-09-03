@@ -2,7 +2,7 @@
 title: "Record 694 · 선스틱-정량-직접-측정해봤습니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.532771+00:00
+updated_at: 2026-09-03T00:28:42.184025+00:00
 tags: [{', '.join(tags)}]
 ---
 

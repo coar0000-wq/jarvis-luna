@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T22:19:43.184484+00:00",
+  "generated_at": "2026-09-03T00:33:38.445686+00:00",
   "exchange_rate": {
-    "usd_to_krw": 1373.78,
-    "as_of": "2026-09-02",
+    "usd_to_krw": 1361.14,
+    "as_of": "2026-09-03",
     "source": "https://open.er-api.com/v6/latest/USD"
   },
   "cost_basis": {
@@ -26,7 +26,7 @@
     "median": 24.79,
     "max": 279.0,
     "n": 100,
-    "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-02)"
+    "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-03)"
   },
   "scenarios": {
     "1개_묶음배송": [
@@ -38,29 +38,29 @@
         "price_krw": 3000,
         "weight_g_est": 696,
         "weight_note": "410ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 11.2,
-        "shipping_order_usd": 11.2,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 11.31,
+        "shipping_order_usd": 11.31,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 13.71,
-        "breakeven_usd": 14.43,
+        "landed_cost_usd": 13.84,
+        "breakeven_usd": 14.56,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.44,
-          "profit": -9.35,
-          "margin_pct": -194.6
+          "profit": -9.43,
+          "margin_pct": -194.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 6.18,
-          "margin_pct": 29.7
+          "profit": 6.06,
+          "margin_pct": 29.1
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 10.06,
-          "margin_pct": 40.6
+          "profit": 9.93,
+          "margin_pct": 40.1
         }
       },
       {
@@ -71,29 +71,29 @@
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 1.46,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.22,
-        "landed_cost_usd": 8.53,
-        "breakeven_usd": 9.09,
+        "landed_cost_usd": 8.61,
+        "breakeven_usd": 9.18,
         "at_2_2x": {
-          "sell": 3.2,
+          "sell": 3.23,
           "fee": 0.39,
-          "profit": -5.72,
-          "margin_pct": -178.6
+          "profit": -5.77,
+          "margin_pct": -178.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 11.37,
-          "margin_pct": 54.6
+          "profit": 11.29,
+          "margin_pct": 54.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 15.24,
-          "margin_pct": 61.5
+          "profit": 15.16,
+          "margin_pct": 61.2
         }
       },
       {
@@ -104,29 +104,29 @@
         "price_krw": 5000,
         "weight_g_est": 360,
         "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 8.33,
-        "shipping_order_usd": 8.33,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 8.4,
+        "shipping_order_usd": 8.4,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 12.51,
-        "breakeven_usd": 13.2,
+        "landed_cost_usd": 12.63,
+        "breakeven_usd": 13.32,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -5.04,
+          "profit": -5.08,
           "margin_pct": -62.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 7.38,
-          "margin_pct": 35.5
+          "profit": 7.27,
+          "margin_pct": 34.9
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 11.26,
-          "margin_pct": 45.4
+          "profit": 11.14,
+          "margin_pct": 44.9
         }
       },
       {
@@ -137,29 +137,29 @@
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 7.59,
-        "shipping_order_usd": 7.59,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 7.66,
+        "shipping_order_usd": 7.66,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 11.78,
-        "breakeven_usd": 12.44,
+        "landed_cost_usd": 11.89,
+        "breakeven_usd": 12.55,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -4.3,
+          "profit": -4.34,
           "margin_pct": -53.7
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 8.12,
-          "margin_pct": 39.0
+          "profit": 8.01,
+          "margin_pct": 38.5
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 11.99,
-          "margin_pct": 48.4
+          "profit": 11.88,
+          "margin_pct": 47.9
         }
       },
       {
@@ -170,29 +170,29 @@
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 11.04,
-        "breakeven_usd": 11.68,
+        "landed_cost_usd": 11.15,
+        "breakeven_usd": 11.79,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -3.57,
-          "margin_pct": -44.6
+          "profit": -3.6,
+          "margin_pct": -44.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 8.85,
-          "margin_pct": 42.6
+          "profit": 8.75,
+          "margin_pct": 42.1
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 12.73,
-          "margin_pct": 51.3
+          "profit": 12.63,
+          "margin_pct": 50.9
         }
       },
       {
@@ -203,29 +203,29 @@
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 11.04,
-        "breakeven_usd": 11.68,
+        "landed_cost_usd": 11.15,
+        "breakeven_usd": 11.79,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -3.57,
-          "margin_pct": -44.6
+          "profit": -3.6,
+          "margin_pct": -44.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 8.85,
-          "margin_pct": 42.6
+          "profit": 8.75,
+          "margin_pct": 42.1
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 12.73,
-          "margin_pct": 51.3
+          "profit": 12.63,
+          "margin_pct": 50.9
         }
       },
       {
@@ -236,29 +236,29 @@
         "price_krw": 5000,
         "weight_g_est": 64,
         "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.12,
-        "shipping_order_usd": 6.12,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.18,
+        "shipping_order_usd": 6.18,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 10.31,
-        "breakeven_usd": 10.92,
+        "landed_cost_usd": 10.4,
+        "breakeven_usd": 11.02,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -2.83,
-          "margin_pct": -35.4
+          "profit": -2.86,
+          "margin_pct": -35.3
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 9.59,
-          "margin_pct": 46.1
+          "profit": 9.49,
+          "margin_pct": 45.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 13.46,
-          "margin_pct": 54.3
+          "profit": 13.37,
+          "margin_pct": 53.9
         }
       },
       {
@@ -269,29 +269,29 @@
         "price_krw": 5000,
         "weight_g_est": 96,
         "weight_note": "35ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.12,
-        "shipping_order_usd": 6.12,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.18,
+        "shipping_order_usd": 6.18,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 10.31,
-        "breakeven_usd": 10.92,
+        "landed_cost_usd": 10.4,
+        "breakeven_usd": 11.02,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -2.83,
-          "margin_pct": -35.4
+          "profit": -2.86,
+          "margin_pct": -35.3
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 9.59,
-          "margin_pct": 46.1
+          "profit": 9.49,
+          "margin_pct": 45.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 13.46,
-          "margin_pct": 54.3
+          "profit": 13.37,
+          "margin_pct": 53.9
         }
       },
       {
@@ -302,29 +302,29 @@
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 11.04,
-        "breakeven_usd": 11.68,
+        "landed_cost_usd": 11.15,
+        "breakeven_usd": 11.79,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -3.57,
-          "margin_pct": -44.6
+          "profit": -3.6,
+          "margin_pct": -44.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 8.85,
-          "margin_pct": 42.6
+          "profit": 8.75,
+          "margin_pct": 42.1
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 12.73,
-          "margin_pct": 51.3
+          "profit": 12.63,
+          "margin_pct": 50.9
         }
       },
       {
@@ -335,29 +335,29 @@
         "price_krw": 5000,
         "weight_g_est": 520,
         "weight_note": "300ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 10.51,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 10.61,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 14.7,
-        "breakeven_usd": 15.44,
+        "landed_cost_usd": 14.83,
+        "breakeven_usd": 15.59,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -7.22,
+          "profit": -7.29,
           "margin_pct": -90.2
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 5.2,
-          "margin_pct": 25.0
+          "profit": 5.06,
+          "margin_pct": 24.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 9.07,
-          "margin_pct": 36.6
+          "profit": 8.94,
+          "margin_pct": 36.1
         }
       },
       {
@@ -369,28 +369,28 @@
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 7.69,
-        "breakeven_usd": 8.23,
+        "landed_cost_usd": 7.77,
+        "breakeven_usd": 8.31,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.35,
-          "profit": -6.44,
-          "margin_pct": -402.1
+          "profit": -6.5,
+          "margin_pct": -401.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 12.2,
-          "margin_pct": 58.7
+          "profit": 12.13,
+          "margin_pct": 58.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 16.08,
-          "margin_pct": 64.9
+          "profit": 16.01,
+          "margin_pct": 64.6
         }
       },
       {
@@ -402,28 +402,28 @@
         "weight_g_est": 136,
         "weight_note": "60g x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 7.69,
-        "breakeven_usd": 8.23,
+        "landed_cost_usd": 7.77,
+        "breakeven_usd": 8.31,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.35,
-          "profit": -6.44,
-          "margin_pct": -402.1
+          "profit": -6.5,
+          "margin_pct": -401.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 12.2,
-          "margin_pct": 58.7
+          "profit": 12.13,
+          "margin_pct": 58.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 16.08,
-          "margin_pct": 64.9
+          "profit": 16.01,
+          "margin_pct": 64.6
         }
       },
       {
@@ -434,29 +434,95 @@
         "price_krw": 3000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 9.37,
-        "breakeven_usd": 9.96,
+        "landed_cost_usd": 9.46,
+        "breakeven_usd": 10.05,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.44,
-          "profit": -5.0,
+          "profit": -5.05,
           "margin_pct": -104.1
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 10.53,
-          "margin_pct": 50.6
+          "profit": 10.44,
+          "margin_pct": 50.2
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 14.4,
-          "margin_pct": 58.1
+          "profit": 14.32,
+          "margin_pct": 57.7
+        }
+      },
+      {
+        "pd_no": "1039235",
+        "name": "프리모팩토리 헤어 블리치(2개입/80ml)",
+        "bucket": "마스크팩",
+        "shopify_score": 100,
+        "price_krw": 3000,
+        "weight_g_est": 168,
+        "weight_note": "80ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 9.46,
+        "breakeven_usd": 10.05,
+        "at_2_2x": {
+          "sell": 4.85,
+          "fee": 0.44,
+          "profit": -5.05,
+          "margin_pct": -104.1
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 10.44,
+          "margin_pct": 50.2
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 14.32,
+          "margin_pct": 57.7
+        }
+      },
+      {
+        "pd_no": "1075857",
+        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+        "bucket": "스킨케어",
+        "shopify_score": 100,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
+        "tariff_usd": 0.22,
+        "landed_cost_usd": 8.61,
+        "breakeven_usd": 9.18,
+        "at_2_2x": {
+          "sell": 3.23,
+          "fee": 0.39,
+          "profit": -5.77,
+          "margin_pct": -178.5
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 11.29,
+          "margin_pct": 54.3
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 15.16,
+          "margin_pct": 61.2
         }
       },
       {
@@ -467,29 +533,62 @@
         "price_krw": 500,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 0.36,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
-        "tariff_usd": 0.05,
-        "landed_cost_usd": 7.28,
-        "breakeven_usd": 7.8,
+        "unit_cost_usd": 0.37,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
+        "tariff_usd": 0.06,
+        "landed_cost_usd": 7.34,
+        "breakeven_usd": 7.87,
         "at_2_2x": {
-          "sell": 0.8,
+          "sell": 0.81,
           "fee": 0.32,
-          "profit": -6.8,
-          "margin_pct": -849.0
+          "profit": -6.86,
+          "margin_pct": -848.7
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 12.62,
-          "margin_pct": 60.7
+          "profit": 12.55,
+          "margin_pct": 60.4
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 16.5,
-          "margin_pct": 66.5
+          "profit": 16.43,
+          "margin_pct": 66.3
+        }
+      },
+      {
+        "pd_no": "1009199",
+        "name": "이불용 밸브 압축팩 90x110cm",
+        "bucket": "마스크팩",
+        "shopify_score": 100,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
+        "tariff_usd": 0.22,
+        "landed_cost_usd": 8.61,
+        "breakeven_usd": 9.18,
+        "at_2_2x": {
+          "sell": 3.23,
+          "fee": 0.39,
+          "profit": -5.77,
+          "margin_pct": -178.5
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 11.29,
+          "margin_pct": 54.3
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 15.16,
+          "margin_pct": 61.2
         }
       },
       {
@@ -500,29 +599,29 @@
         "price_krw": 3000,
         "weight_g_est": 168,
         "weight_note": "80ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 9.37,
-        "breakeven_usd": 9.96,
+        "landed_cost_usd": 9.46,
+        "breakeven_usd": 10.05,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.44,
-          "profit": -5.0,
+          "profit": -5.05,
           "margin_pct": -104.1
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 10.53,
-          "margin_pct": 50.6
+          "profit": 10.44,
+          "margin_pct": 50.2
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 14.4,
-          "margin_pct": 58.1
+          "profit": 14.32,
+          "margin_pct": 57.7
         }
       },
       {
@@ -533,29 +632,29 @@
         "price_krw": 5000,
         "weight_g_est": 136,
         "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 11.04,
-        "breakeven_usd": 11.68,
+        "landed_cost_usd": 11.15,
+        "breakeven_usd": 11.79,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -3.57,
-          "margin_pct": -44.6
+          "profit": -3.6,
+          "margin_pct": -44.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 8.85,
-          "margin_pct": 42.6
+          "profit": 8.75,
+          "margin_pct": 42.1
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 12.73,
-          "margin_pct": 51.3
+          "profit": 12.63,
+          "margin_pct": 50.9
         }
       },
       {
@@ -566,29 +665,29 @@
         "price_krw": 5000,
         "weight_g_est": 104,
         "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 11.04,
-        "breakeven_usd": 11.68,
+        "landed_cost_usd": 11.15,
+        "breakeven_usd": 11.79,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -3.57,
-          "margin_pct": -44.6
+          "profit": -3.6,
+          "margin_pct": -44.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 8.85,
-          "margin_pct": 42.6
+          "profit": 8.75,
+          "margin_pct": 42.1
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 12.73,
-          "margin_pct": 51.3
+          "profit": 12.63,
+          "margin_pct": 50.9
         }
       },
       {
@@ -599,29 +698,29 @@
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 11.04,
-        "breakeven_usd": 11.68,
+        "landed_cost_usd": 11.15,
+        "breakeven_usd": 11.79,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -3.57,
-          "margin_pct": -44.6
+          "profit": -3.6,
+          "margin_pct": -44.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 8.85,
-          "margin_pct": 42.6
+          "profit": 8.75,
+          "margin_pct": 42.1
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 12.73,
-          "margin_pct": 51.3
+          "profit": 12.63,
+          "margin_pct": 50.9
         }
       },
       {
@@ -632,29 +731,62 @@
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "4ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 6.12,
-        "shipping_order_usd": 6.12,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 6.18,
+        "shipping_order_usd": 6.18,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 8.63,
-        "breakeven_usd": 9.2,
+        "landed_cost_usd": 8.71,
+        "breakeven_usd": 9.28,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.44,
-          "profit": -4.27,
+          "profit": -4.31,
           "margin_pct": -88.8
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 11.26,
-          "margin_pct": 54.2
+          "profit": 11.18,
+          "margin_pct": 53.8
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 15.14,
-          "margin_pct": 61.1
+          "profit": 15.06,
+          "margin_pct": 60.7
+        }
+      },
+      {
+        "pd_no": "1060489",
+        "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
+        "bucket": "마스크팩",
+        "shopify_score": 99,
+        "price_krw": 3000,
+        "weight_g_est": 46,
+        "weight_note": "4ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 6.18,
+        "shipping_order_usd": 6.18,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 8.71,
+        "breakeven_usd": 9.28,
+        "at_2_2x": {
+          "sell": 4.85,
+          "fee": 0.44,
+          "profit": -4.31,
+          "margin_pct": -88.8
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 11.18,
+          "margin_pct": 53.8
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 15.06,
+          "margin_pct": 60.7
         }
       },
       {
@@ -665,29 +797,29 @@
         "price_krw": 3000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 7.59,
-        "shipping_order_usd": 7.59,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 7.66,
+        "shipping_order_usd": 7.66,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 10.1,
-        "breakeven_usd": 10.71,
+        "landed_cost_usd": 10.2,
+        "breakeven_usd": 10.81,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.44,
-          "profit": -5.74,
+          "profit": -5.79,
           "margin_pct": -119.4
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 9.79,
-          "margin_pct": 47.1
+          "profit": 9.7,
+          "margin_pct": 46.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 13.67,
-          "margin_pct": 55.1
+          "profit": 13.57,
+          "margin_pct": 54.8
         }
       },
       {
@@ -698,29 +830,29 @@
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 11.04,
-        "breakeven_usd": 11.68,
+        "landed_cost_usd": 11.15,
+        "breakeven_usd": 11.79,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -3.57,
-          "margin_pct": -44.6
+          "profit": -3.6,
+          "margin_pct": -44.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 8.85,
-          "margin_pct": 42.6
+          "profit": 8.75,
+          "margin_pct": 42.1
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 12.73,
-          "margin_pct": 51.3
+          "profit": 12.63,
+          "margin_pct": 50.9
         }
       },
       {
@@ -732,28 +864,28 @@
         "weight_g_est": 77,
         "weight_note": "23g x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 6.12,
-        "shipping_order_usd": 6.12,
+        "shipping_unit_usd": 6.18,
+        "shipping_order_usd": 6.18,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 6.96,
-        "breakeven_usd": 7.48,
+        "landed_cost_usd": 7.02,
+        "breakeven_usd": 7.54,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.35,
-          "profit": -5.7,
-          "margin_pct": -356.2
+          "profit": -5.75,
+          "margin_pct": -356.0
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 12.94,
-          "margin_pct": 62.2
+          "profit": 12.87,
+          "margin_pct": 61.9
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 16.81,
-          "margin_pct": 67.8
+          "profit": 16.75,
+          "margin_pct": 67.6
         }
       },
       {
@@ -764,29 +896,29 @@
         "price_krw": 3000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 7.59,
-        "shipping_order_usd": 7.59,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 7.66,
+        "shipping_order_usd": 7.66,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 10.1,
-        "breakeven_usd": 10.71,
+        "landed_cost_usd": 10.2,
+        "breakeven_usd": 10.81,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.44,
-          "profit": -5.74,
+          "profit": -5.79,
           "margin_pct": -119.4
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 9.79,
-          "margin_pct": 47.1
+          "profit": 9.7,
+          "margin_pct": 46.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 13.67,
-          "margin_pct": 55.1
+          "profit": 13.57,
+          "margin_pct": 54.8
         }
       },
       {
@@ -797,29 +929,29 @@
         "price_krw": 5000,
         "weight_g_est": 160,
         "weight_note": "75ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 11.04,
-        "breakeven_usd": 11.68,
+        "landed_cost_usd": 11.15,
+        "breakeven_usd": 11.79,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -3.57,
-          "margin_pct": -44.6
+          "profit": -3.6,
+          "margin_pct": -44.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 8.85,
-          "margin_pct": 42.6
+          "profit": 8.75,
+          "margin_pct": 42.1
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 12.73,
-          "margin_pct": 51.3
+          "profit": 12.63,
+          "margin_pct": 50.9
         }
       },
       {
@@ -830,29 +962,62 @@
         "price_krw": 5000,
         "weight_g_est": 232,
         "weight_note": "120ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 7.59,
-        "shipping_order_usd": 7.59,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 7.66,
+        "shipping_order_usd": 7.66,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 11.78,
-        "breakeven_usd": 12.44,
+        "landed_cost_usd": 11.89,
+        "breakeven_usd": 12.55,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -4.3,
+          "profit": -4.34,
           "margin_pct": -53.7
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 8.12,
-          "margin_pct": 39.0
+          "profit": 8.01,
+          "margin_pct": 38.5
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 11.99,
-          "margin_pct": 48.4
+          "profit": 11.88,
+          "margin_pct": 47.9
+        }
+      },
+      {
+        "pd_no": "1049295",
+        "name": "[진정수분버블]VT 시카 버블 스파클링 부스터 10 g 4개입",
+        "bucket": "마스크팩",
+        "shopify_score": 94,
+        "price_krw": 3000,
+        "weight_g_est": 56,
+        "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 6.18,
+        "shipping_order_usd": 6.18,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 8.71,
+        "breakeven_usd": 9.28,
+        "at_2_2x": {
+          "sell": 4.85,
+          "fee": 0.44,
+          "profit": -4.31,
+          "margin_pct": -88.8
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 11.18,
+          "margin_pct": 53.8
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 15.06,
+          "margin_pct": 60.7
         }
       },
       {
@@ -864,28 +1029,28 @@
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 7.69,
-        "breakeven_usd": 8.23,
+        "landed_cost_usd": 7.77,
+        "breakeven_usd": 8.31,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.35,
-          "profit": -6.44,
-          "margin_pct": -402.1
+          "profit": -6.5,
+          "margin_pct": -401.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 12.2,
-          "margin_pct": 58.7
+          "profit": 12.13,
+          "margin_pct": 58.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 16.08,
-          "margin_pct": 64.9
+          "profit": 16.01,
+          "margin_pct": 64.6
         }
       },
       {
@@ -896,29 +1061,29 @@
         "price_krw": 5000,
         "weight_g_est": 56,
         "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.12,
-        "shipping_order_usd": 6.12,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.18,
+        "shipping_order_usd": 6.18,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 10.31,
-        "breakeven_usd": 10.92,
+        "landed_cost_usd": 10.4,
+        "breakeven_usd": 11.02,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -2.83,
-          "margin_pct": -35.4
+          "profit": -2.86,
+          "margin_pct": -35.3
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 9.59,
-          "margin_pct": 46.1
+          "profit": 9.49,
+          "margin_pct": 45.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 13.46,
-          "margin_pct": 54.3
+          "profit": 13.37,
+          "margin_pct": 53.9
         }
       },
       {
@@ -929,29 +1094,29 @@
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 1.46,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.22,
-        "landed_cost_usd": 8.53,
-        "breakeven_usd": 9.09,
+        "landed_cost_usd": 8.61,
+        "breakeven_usd": 9.18,
         "at_2_2x": {
-          "sell": 3.2,
+          "sell": 3.23,
           "fee": 0.39,
-          "profit": -5.72,
-          "margin_pct": -178.6
+          "profit": -5.77,
+          "margin_pct": -178.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 11.37,
-          "margin_pct": 54.6
+          "profit": 11.29,
+          "margin_pct": 54.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 15.24,
-          "margin_pct": 61.5
+          "profit": 15.16,
+          "margin_pct": 61.2
         }
       },
       {
@@ -962,29 +1127,62 @@
         "price_krw": 5000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 11.04,
-        "breakeven_usd": 11.68,
+        "landed_cost_usd": 11.15,
+        "breakeven_usd": 11.79,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -3.57,
-          "margin_pct": -44.6
+          "profit": -3.6,
+          "margin_pct": -44.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 8.85,
-          "margin_pct": 42.6
+          "profit": 8.75,
+          "margin_pct": 42.1
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 12.73,
-          "margin_pct": 51.3
+          "profit": 12.63,
+          "margin_pct": 50.9
+        }
+      },
+      {
+        "pd_no": "1061880",
+        "name": "더페이스샵 맑은 쌀 클렌징 오일 100 ml",
+        "bucket": "클렌징",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 200,
+        "weight_note": "100ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 11.15,
+        "breakeven_usd": 11.79,
+        "at_2_2x": {
+          "sell": 8.08,
+          "fee": 0.53,
+          "profit": -3.6,
+          "margin_pct": -44.5
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 8.75,
+          "margin_pct": 42.1
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 12.63,
+          "margin_pct": 50.9
         }
       },
       {
@@ -996,28 +1194,28 @@
         "weight_g_est": 48,
         "weight_note": "4g x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 6.12,
-        "shipping_order_usd": 6.12,
+        "shipping_unit_usd": 6.18,
+        "shipping_order_usd": 6.18,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 6.96,
-        "breakeven_usd": 7.48,
+        "landed_cost_usd": 7.02,
+        "breakeven_usd": 7.54,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.35,
-          "profit": -5.7,
-          "margin_pct": -356.2
+          "profit": -5.75,
+          "margin_pct": -356.0
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 12.94,
-          "margin_pct": 62.2
+          "profit": 12.87,
+          "margin_pct": 61.9
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 16.81,
-          "margin_pct": 67.8
+          "profit": 16.75,
+          "margin_pct": 67.6
         }
       },
       {
@@ -1028,29 +1226,29 @@
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 1.46,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.22,
-        "landed_cost_usd": 8.53,
-        "breakeven_usd": 9.09,
+        "landed_cost_usd": 8.61,
+        "breakeven_usd": 9.18,
         "at_2_2x": {
-          "sell": 3.2,
+          "sell": 3.23,
           "fee": 0.39,
-          "profit": -5.72,
-          "margin_pct": -178.6
+          "profit": -5.77,
+          "margin_pct": -178.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 11.37,
-          "margin_pct": 54.6
+          "profit": 11.29,
+          "margin_pct": 54.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 15.24,
-          "margin_pct": 61.5
+          "profit": 15.16,
+          "margin_pct": 61.2
         }
       },
       {
@@ -1062,28 +1260,28 @@
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 7.69,
-        "breakeven_usd": 8.23,
+        "landed_cost_usd": 7.77,
+        "breakeven_usd": 8.31,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.35,
-          "profit": -6.44,
-          "margin_pct": -402.1
+          "profit": -6.5,
+          "margin_pct": -401.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 12.2,
-          "margin_pct": 58.7
+          "profit": 12.13,
+          "margin_pct": 58.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 16.08,
-          "margin_pct": 64.9
+          "profit": 16.01,
+          "margin_pct": 64.6
         }
       },
       {
@@ -1095,28 +1293,28 @@
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 7.69,
-        "breakeven_usd": 8.23,
+        "landed_cost_usd": 7.77,
+        "breakeven_usd": 8.31,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.35,
-          "profit": -6.44,
-          "margin_pct": -402.1
+          "profit": -6.5,
+          "margin_pct": -401.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 12.2,
-          "margin_pct": 58.7
+          "profit": 12.13,
+          "margin_pct": 58.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 16.08,
-          "margin_pct": 64.9
+          "profit": 16.01,
+          "margin_pct": 64.6
         }
       },
       {
@@ -1127,29 +1325,29 @@
         "price_krw": 5000,
         "weight_g_est": 360,
         "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 8.33,
-        "shipping_order_usd": 8.33,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 8.4,
+        "shipping_order_usd": 8.4,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 12.51,
-        "breakeven_usd": 13.2,
+        "landed_cost_usd": 12.63,
+        "breakeven_usd": 13.32,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -5.04,
+          "profit": -5.08,
           "margin_pct": -62.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 7.38,
-          "margin_pct": 35.5
+          "profit": 7.27,
+          "margin_pct": 34.9
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 11.26,
-          "margin_pct": 45.4
+          "profit": 11.14,
+          "margin_pct": 44.9
         }
       },
       {
@@ -1161,28 +1359,94 @@
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 7.69,
-        "breakeven_usd": 8.23,
+        "landed_cost_usd": 7.77,
+        "breakeven_usd": 8.31,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.35,
-          "profit": -6.44,
-          "margin_pct": -402.1
+          "profit": -6.5,
+          "margin_pct": -401.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 12.2,
-          "margin_pct": 58.7
+          "profit": 12.13,
+          "margin_pct": 58.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 16.08,
-          "margin_pct": 64.9
+          "profit": 16.01,
+          "margin_pct": 64.6
+        }
+      },
+      {
+        "pd_no": "1073585",
+        "name": "맥세이프 호환용 케이스 갤럭시 Z플립7",
+        "bucket": "메이크업",
+        "shopify_score": 88,
+        "price_krw": 3000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 9.46,
+        "breakeven_usd": 10.05,
+        "at_2_2x": {
+          "sell": 4.85,
+          "fee": 0.44,
+          "profit": -5.05,
+          "margin_pct": -104.1
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 10.44,
+          "margin_pct": 50.2
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 14.32,
+          "margin_pct": 57.7
+        }
+      },
+      {
+        "pd_no": "1053475",
+        "name": "오피스 A4 하드 클립보드 블랙 클립",
+        "bucket": "메이크업",
+        "shopify_score": 87,
+        "price_krw": 1000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 0.73,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
+        "tariff_usd": 0.11,
+        "landed_cost_usd": 7.77,
+        "breakeven_usd": 8.31,
+        "at_2_2x": {
+          "sell": 1.62,
+          "fee": 0.35,
+          "profit": -6.5,
+          "margin_pct": -401.9
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.9,
+          "profit": 12.13,
+          "margin_pct": 58.3
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 1.02,
+          "profit": 16.01,
+          "margin_pct": 64.6
         }
       },
       {
@@ -1193,29 +1457,29 @@
         "price_krw": 5000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 11.04,
-        "breakeven_usd": 11.68,
+        "landed_cost_usd": 11.15,
+        "breakeven_usd": 11.79,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.53,
-          "profit": -3.57,
-          "margin_pct": -44.6
+          "profit": -3.6,
+          "margin_pct": -44.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 8.85,
-          "margin_pct": 42.6
+          "profit": 8.75,
+          "margin_pct": 42.1
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 12.73,
-          "margin_pct": 51.3
+          "profit": 12.63,
+          "margin_pct": 50.9
         }
       },
       {
@@ -1226,29 +1490,29 @@
         "price_krw": 3000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 9.37,
-        "breakeven_usd": 9.96,
+        "landed_cost_usd": 9.46,
+        "breakeven_usd": 10.05,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.44,
-          "profit": -5.0,
+          "profit": -5.05,
           "margin_pct": -104.1
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 10.53,
-          "margin_pct": 50.6
+          "profit": 10.44,
+          "margin_pct": 50.2
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 14.4,
-          "margin_pct": 58.1
+          "profit": 14.32,
+          "margin_pct": 57.7
         }
       },
       {
@@ -1259,29 +1523,29 @@
         "price_krw": 3000,
         "weight_g_est": 64,
         "weight_note": "15ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 6.12,
-        "shipping_order_usd": 6.12,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 6.18,
+        "shipping_order_usd": 6.18,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 8.63,
-        "breakeven_usd": 9.2,
+        "landed_cost_usd": 8.71,
+        "breakeven_usd": 9.28,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.44,
-          "profit": -4.27,
+          "profit": -4.31,
           "margin_pct": -88.8
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 11.26,
-          "margin_pct": 54.2
+          "profit": 11.18,
+          "margin_pct": 53.8
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 15.14,
-          "margin_pct": 61.1
+          "profit": 15.06,
+          "margin_pct": 60.7
         }
       },
       {
@@ -1292,29 +1556,29 @@
         "price_krw": 3000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 9.37,
-        "breakeven_usd": 9.96,
+        "landed_cost_usd": 9.46,
+        "breakeven_usd": 10.05,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.44,
-          "profit": -5.0,
+          "profit": -5.05,
           "margin_pct": -104.1
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 10.53,
-          "margin_pct": 50.6
+          "profit": 10.44,
+          "margin_pct": 50.2
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 14.4,
-          "margin_pct": 58.1
+          "profit": 14.32,
+          "margin_pct": 57.7
         }
       },
       {
@@ -1325,29 +1589,29 @@
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 1.46,
-        "shipping_unit_usd": 6.86,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.22,
-        "landed_cost_usd": 8.53,
-        "breakeven_usd": 9.09,
+        "landed_cost_usd": 8.61,
+        "breakeven_usd": 9.18,
         "at_2_2x": {
-          "sell": 3.2,
+          "sell": 3.23,
           "fee": 0.39,
-          "profit": -5.72,
-          "margin_pct": -178.6
+          "profit": -5.77,
+          "margin_pct": -178.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.9,
-          "profit": 11.37,
-          "margin_pct": 54.6
+          "profit": 11.29,
+          "margin_pct": 54.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 1.02,
-          "profit": 15.24,
-          "margin_pct": 61.5
+          "profit": 15.16,
+          "margin_pct": 61.2
         }
       }
     ],
@@ -1360,29 +1624,29 @@
         "price_krw": 3000,
         "weight_g_est": 696,
         "weight_note": "410ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 8.2,
-        "shipping_order_usd": 24.61,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 8.28,
+        "shipping_order_usd": 24.84,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 10.71,
-        "breakeven_usd": 11.14,
+        "landed_cost_usd": 10.81,
+        "breakeven_usd": 11.24,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.24,
-          "profit": -6.15,
+          "profit": -6.21,
           "margin_pct": -128.0
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 9.38,
-          "margin_pct": 45.1
+          "profit": 9.28,
+          "margin_pct": 44.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 13.26,
-          "margin_pct": 53.5
+          "profit": 13.16,
+          "margin_pct": 53.1
         }
       },
       {
@@ -1393,29 +1657,29 @@
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 1.46,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.22,
-        "landed_cost_usd": 5.18,
-        "breakeven_usd": 5.44,
+        "landed_cost_usd": 5.23,
+        "breakeven_usd": 5.49,
         "at_2_2x": {
-          "sell": 3.2,
+          "sell": 3.23,
           "fee": 0.19,
-          "profit": -2.17,
+          "profit": -2.19,
           "margin_pct": -67.7
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 14.92,
-          "margin_pct": 71.7
+          "profit": 14.87,
+          "margin_pct": 71.5
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 18.79,
-          "margin_pct": 75.8
+          "profit": 18.75,
+          "margin_pct": 75.6
         }
       },
       {
@@ -1426,29 +1690,29 @@
         "price_krw": 5000,
         "weight_g_est": 360,
         "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 4.88,
-        "shipping_order_usd": 14.65,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 4.93,
+        "shipping_order_usd": 14.79,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 9.07,
-        "breakeven_usd": 9.44,
+        "landed_cost_usd": 9.15,
+        "breakeven_usd": 9.53,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
-          "profit": -1.39,
+          "profit": -1.41,
           "margin_pct": -17.4
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 11.03,
-          "margin_pct": 53.0
+          "profit": 10.94,
+          "margin_pct": 52.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 14.9,
-          "margin_pct": 60.1
+          "profit": 14.82,
+          "margin_pct": 59.8
         }
       },
       {
@@ -1459,14 +1723,14 @@
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 4.2,
-        "shipping_order_usd": 12.59,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 4.23,
+        "shipping_order_usd": 12.7,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 8.38,
-        "breakeven_usd": 8.73,
+        "landed_cost_usd": 8.46,
+        "breakeven_usd": 8.81,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
           "profit": -0.71,
           "margin_pct": -8.8
@@ -1474,14 +1738,14 @@
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 11.72,
-          "margin_pct": 56.3
+          "profit": 11.64,
+          "margin_pct": 56.0
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 15.59,
-          "margin_pct": 62.9
+          "profit": 15.51,
+          "margin_pct": 62.6
         }
       },
       {
@@ -1492,29 +1756,29 @@
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.78,
-        "shipping_order_usd": 8.33,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.8,
+        "shipping_order_usd": 8.4,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.96,
-        "breakeven_usd": 7.27,
+        "landed_cost_usd": 7.03,
+        "breakeven_usd": 7.34,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
-          "profit": 0.71,
+          "profit": 0.72,
           "margin_pct": 8.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 13.14,
-          "margin_pct": 63.2
+          "profit": 13.07,
+          "margin_pct": 62.8
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 17.01,
-          "margin_pct": 68.6
+          "profit": 16.95,
+          "margin_pct": 68.4
         }
       },
       {
@@ -1525,29 +1789,29 @@
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.78,
-        "shipping_order_usd": 8.33,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.8,
+        "shipping_order_usd": 8.4,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.96,
-        "breakeven_usd": 7.27,
+        "landed_cost_usd": 7.03,
+        "breakeven_usd": 7.34,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
-          "profit": 0.71,
+          "profit": 0.72,
           "margin_pct": 8.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 13.14,
-          "margin_pct": 63.2
+          "profit": 13.07,
+          "margin_pct": 62.8
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 17.01,
-          "margin_pct": 68.6
+          "profit": 16.95,
+          "margin_pct": 68.4
         }
       },
       {
@@ -1558,29 +1822,29 @@
         "price_krw": 5000,
         "weight_g_est": 64,
         "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.29,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.31,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.47,
-        "breakeven_usd": 6.77,
+        "landed_cost_usd": 6.53,
+        "breakeven_usd": 6.83,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
-          "profit": 1.2,
+          "profit": 1.22,
           "margin_pct": 15.0
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 13.63,
-          "margin_pct": 65.5
+          "profit": 13.57,
+          "margin_pct": 65.2
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 17.5,
-          "margin_pct": 70.6
+          "profit": 17.44,
+          "margin_pct": 70.4
         }
       },
       {
@@ -1591,29 +1855,29 @@
         "price_krw": 5000,
         "weight_g_est": 96,
         "weight_note": "35ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.53,
-        "shipping_order_usd": 7.59,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.55,
+        "shipping_order_usd": 7.66,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.72,
-        "breakeven_usd": 7.02,
+        "landed_cost_usd": 6.78,
+        "breakeven_usd": 7.08,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
-          "profit": 0.96,
+          "profit": 0.97,
           "margin_pct": 12.0
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 13.38,
-          "margin_pct": 64.3
+          "profit": 13.32,
+          "margin_pct": 64.0
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 17.25,
-          "margin_pct": 69.6
+          "profit": 17.19,
+          "margin_pct": 69.4
         }
       },
       {
@@ -1624,29 +1888,29 @@
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.78,
-        "shipping_order_usd": 8.33,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.8,
+        "shipping_order_usd": 8.4,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.96,
-        "breakeven_usd": 7.27,
+        "landed_cost_usd": 7.03,
+        "breakeven_usd": 7.34,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
-          "profit": 0.71,
+          "profit": 0.72,
           "margin_pct": 8.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 13.14,
-          "margin_pct": 63.2
+          "profit": 13.07,
+          "margin_pct": 62.8
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 17.01,
-          "margin_pct": 68.6
+          "profit": 16.95,
+          "margin_pct": 68.4
         }
       },
       {
@@ -1657,29 +1921,29 @@
         "price_krw": 5000,
         "weight_g_est": 520,
         "weight_note": "300ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 6.36,
-        "shipping_order_usd": 19.08,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.42,
+        "shipping_order_usd": 19.26,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 10.55,
-        "breakeven_usd": 10.96,
+        "landed_cost_usd": 10.64,
+        "breakeven_usd": 11.06,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
-          "profit": -2.87,
+          "profit": -2.9,
           "margin_pct": -35.8
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 9.55,
-          "margin_pct": 45.9
+          "profit": 9.45,
+          "margin_pct": 45.5
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 13.43,
-          "margin_pct": 54.2
+          "profit": 13.33,
+          "margin_pct": 53.8
         }
       },
       {
@@ -1691,28 +1955,28 @@
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 4.34,
-        "breakeven_usd": 4.57,
+        "landed_cost_usd": 4.38,
+        "breakeven_usd": 4.61,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.15,
-          "profit": -2.89,
-          "margin_pct": -180.2
+          "profit": -2.91,
+          "margin_pct": -180.1
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 15.76,
-          "margin_pct": 75.7
+          "profit": 15.72,
+          "margin_pct": 75.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 19.63,
-          "margin_pct": 79.2
+          "profit": 19.59,
+          "margin_pct": 79.0
         }
       },
       {
@@ -1724,28 +1988,28 @@
         "weight_g_est": 136,
         "weight_note": "60g x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 3.27,
-        "shipping_order_usd": 9.82,
+        "shipping_unit_usd": 3.3,
+        "shipping_order_usd": 9.91,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 4.11,
-        "breakeven_usd": 4.34,
+        "landed_cost_usd": 4.15,
+        "breakeven_usd": 4.38,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.15,
-          "profit": -2.66,
+          "profit": -2.68,
           "margin_pct": -165.8
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 15.99,
-          "margin_pct": 76.9
+          "profit": 15.95,
+          "margin_pct": 76.7
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 19.86,
-          "margin_pct": 80.1
+          "profit": 19.82,
+          "margin_pct": 80.0
         }
       },
       {
@@ -1756,29 +2020,95 @@
         "price_krw": 3000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 6.02,
-        "breakeven_usd": 6.3,
+        "landed_cost_usd": 6.07,
+        "breakeven_usd": 6.36,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.24,
-          "profit": -1.45,
+          "profit": -1.46,
           "margin_pct": -30.2
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 14.08,
-          "margin_pct": 67.7
+          "profit": 14.03,
+          "margin_pct": 67.4
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 17.96,
-          "margin_pct": 72.4
+          "profit": 17.9,
+          "margin_pct": 72.2
+        }
+      },
+      {
+        "pd_no": "1039235",
+        "name": "프리모팩토리 헤어 블리치(2개입/80ml)",
+        "bucket": "마스크팩",
+        "shopify_score": 100,
+        "price_krw": 3000,
+        "weight_g_est": 168,
+        "weight_note": "80ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 6.07,
+        "breakeven_usd": 6.36,
+        "at_2_2x": {
+          "sell": 4.85,
+          "fee": 0.24,
+          "profit": -1.46,
+          "margin_pct": -30.2
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 14.03,
+          "margin_pct": 67.4
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.9,
+          "margin_pct": 72.2
+        }
+      },
+      {
+        "pd_no": "1075857",
+        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+        "bucket": "스킨케어",
+        "shopify_score": 100,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
+        "tariff_usd": 0.22,
+        "landed_cost_usd": 5.23,
+        "breakeven_usd": 5.49,
+        "at_2_2x": {
+          "sell": 3.23,
+          "fee": 0.19,
+          "profit": -2.19,
+          "margin_pct": -67.7
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 14.87,
+          "margin_pct": 71.5
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 18.75,
+          "margin_pct": 75.6
         }
       },
       {
@@ -1789,29 +2119,62 @@
         "price_krw": 500,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 0.36,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
-        "tariff_usd": 0.05,
-        "landed_cost_usd": 3.92,
-        "breakeven_usd": 4.14,
+        "unit_cost_usd": 0.37,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
+        "tariff_usd": 0.06,
+        "landed_cost_usd": 3.96,
+        "breakeven_usd": 4.18,
         "at_2_2x": {
-          "sell": 0.8,
+          "sell": 0.81,
           "fee": 0.12,
-          "profit": -3.24,
-          "margin_pct": -405.2
+          "profit": -3.27,
+          "margin_pct": -405.1
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 16.17,
-          "margin_pct": 77.8
+          "profit": 16.14,
+          "margin_pct": 77.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 20.05,
-          "margin_pct": 80.9
+          "profit": 20.01,
+          "margin_pct": 80.7
+        }
+      },
+      {
+        "pd_no": "1009199",
+        "name": "이불용 밸브 압축팩 90x110cm",
+        "bucket": "마스크팩",
+        "shopify_score": 100,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
+        "tariff_usd": 0.22,
+        "landed_cost_usd": 5.23,
+        "breakeven_usd": 5.49,
+        "at_2_2x": {
+          "sell": 3.23,
+          "fee": 0.19,
+          "profit": -2.19,
+          "margin_pct": -67.7
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 14.87,
+          "margin_pct": 71.5
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 18.75,
+          "margin_pct": 75.6
         }
       },
       {
@@ -1822,29 +2185,29 @@
         "price_krw": 3000,
         "weight_g_est": 168,
         "weight_note": "80ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 6.02,
-        "breakeven_usd": 6.3,
+        "landed_cost_usd": 6.07,
+        "breakeven_usd": 6.36,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.24,
-          "profit": -1.45,
+          "profit": -1.46,
           "margin_pct": -30.2
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 14.08,
-          "margin_pct": 67.7
+          "profit": 14.03,
+          "margin_pct": 67.4
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 17.96,
-          "margin_pct": 72.4
+          "profit": 17.9,
+          "margin_pct": 72.2
         }
       },
       {
@@ -1855,14 +2218,14 @@
         "price_krw": 5000,
         "weight_g_est": 136,
         "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 3.27,
-        "shipping_order_usd": 9.82,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 3.3,
+        "shipping_order_usd": 9.91,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 7.46,
-        "breakeven_usd": 7.78,
+        "landed_cost_usd": 7.53,
+        "breakeven_usd": 7.86,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
           "profit": 0.22,
           "margin_pct": 2.7
@@ -1870,14 +2233,14 @@
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 12.64,
-          "margin_pct": 60.8
+          "profit": 12.57,
+          "margin_pct": 60.4
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 16.51,
-          "margin_pct": 66.6
+          "profit": 16.44,
+          "margin_pct": 66.3
         }
       },
       {
@@ -1888,29 +2251,29 @@
         "price_krw": 5000,
         "weight_g_est": 104,
         "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.78,
-        "shipping_order_usd": 8.33,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.8,
+        "shipping_order_usd": 8.4,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.96,
-        "breakeven_usd": 7.27,
+        "landed_cost_usd": 7.03,
+        "breakeven_usd": 7.34,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
-          "profit": 0.71,
+          "profit": 0.72,
           "margin_pct": 8.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 13.14,
-          "margin_pct": 63.2
+          "profit": 13.07,
+          "margin_pct": 62.8
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 17.01,
-          "margin_pct": 68.6
+          "profit": 16.95,
+          "margin_pct": 68.4
         }
       },
       {
@@ -1921,29 +2284,29 @@
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.78,
-        "shipping_order_usd": 8.33,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.8,
+        "shipping_order_usd": 8.4,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.96,
-        "breakeven_usd": 7.27,
+        "landed_cost_usd": 7.03,
+        "breakeven_usd": 7.34,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
-          "profit": 0.71,
+          "profit": 0.72,
           "margin_pct": 8.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 13.14,
-          "margin_pct": 63.2
+          "profit": 13.07,
+          "margin_pct": 62.8
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 17.01,
-          "margin_pct": 68.6
+          "profit": 16.95,
+          "margin_pct": 68.4
         }
       },
       {
@@ -1954,14 +2317,14 @@
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "4ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 2.29,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 2.31,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 4.8,
-        "breakeven_usd": 5.04,
+        "landed_cost_usd": 4.84,
+        "breakeven_usd": 5.09,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.24,
           "profit": -0.23,
           "margin_pct": -4.8
@@ -1969,14 +2332,47 @@
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 15.3,
-          "margin_pct": 73.6
+          "profit": 15.26,
+          "margin_pct": 73.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 19.17,
-          "margin_pct": 77.3
+          "profit": 19.13,
+          "margin_pct": 77.2
+        }
+      },
+      {
+        "pd_no": "1060489",
+        "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
+        "bucket": "마스크팩",
+        "shopify_score": 99,
+        "price_krw": 3000,
+        "weight_g_est": 46,
+        "weight_note": "4ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 2.31,
+        "shipping_order_usd": 6.92,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 4.84,
+        "breakeven_usd": 5.09,
+        "at_2_2x": {
+          "sell": 4.85,
+          "fee": 0.24,
+          "profit": -0.23,
+          "margin_pct": -4.8
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 15.26,
+          "margin_pct": 73.3
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 19.13,
+          "margin_pct": 77.2
         }
       },
       {
@@ -1987,29 +2383,29 @@
         "price_krw": 3000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 4.2,
-        "shipping_order_usd": 12.59,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 4.23,
+        "shipping_order_usd": 12.7,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 6.71,
-        "breakeven_usd": 7.01,
+        "landed_cost_usd": 6.77,
+        "breakeven_usd": 7.07,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.24,
-          "profit": -2.14,
+          "profit": -2.16,
           "margin_pct": -44.6
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 13.39,
-          "margin_pct": 64.4
+          "profit": 13.33,
+          "margin_pct": 64.1
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 17.26,
-          "margin_pct": 69.6
+          "profit": 17.2,
+          "margin_pct": 69.4
         }
       },
       {
@@ -2020,29 +2416,29 @@
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.78,
-        "shipping_order_usd": 8.33,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.8,
+        "shipping_order_usd": 8.4,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.96,
-        "breakeven_usd": 7.27,
+        "landed_cost_usd": 7.03,
+        "breakeven_usd": 7.34,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
-          "profit": 0.71,
+          "profit": 0.72,
           "margin_pct": 8.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 13.14,
-          "margin_pct": 63.2
+          "profit": 13.07,
+          "margin_pct": 62.8
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 17.01,
-          "margin_pct": 68.6
+          "profit": 16.95,
+          "margin_pct": 68.4
         }
       },
       {
@@ -2054,28 +2450,28 @@
         "weight_g_est": 77,
         "weight_note": "23g x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 2.53,
-        "shipping_order_usd": 7.59,
+        "shipping_unit_usd": 2.55,
+        "shipping_order_usd": 7.66,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 3.37,
-        "breakeven_usd": 3.57,
+        "landed_cost_usd": 3.4,
+        "breakeven_usd": 3.6,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.15,
-          "profit": -1.91,
+          "profit": -1.93,
           "margin_pct": -119.4
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 16.73,
-          "margin_pct": 80.4
+          "profit": 16.7,
+          "margin_pct": 80.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 20.6,
-          "margin_pct": 83.1
+          "profit": 20.57,
+          "margin_pct": 83.0
         }
       },
       {
@@ -2086,29 +2482,29 @@
         "price_krw": 3000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 4.2,
-        "shipping_order_usd": 12.59,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 4.23,
+        "shipping_order_usd": 12.7,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 6.71,
-        "breakeven_usd": 7.01,
+        "landed_cost_usd": 6.77,
+        "breakeven_usd": 7.07,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.24,
-          "profit": -2.14,
+          "profit": -2.16,
           "margin_pct": -44.6
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 13.39,
-          "margin_pct": 64.4
+          "profit": 13.33,
+          "margin_pct": 64.1
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 17.26,
-          "margin_pct": 69.6
+          "profit": 17.2,
+          "margin_pct": 69.4
         }
       },
       {
@@ -2119,14 +2515,14 @@
         "price_krw": 5000,
         "weight_g_est": 160,
         "weight_note": "75ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 3.27,
-        "shipping_order_usd": 9.82,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 3.3,
+        "shipping_order_usd": 9.91,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 7.46,
-        "breakeven_usd": 7.78,
+        "landed_cost_usd": 7.53,
+        "breakeven_usd": 7.86,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
           "profit": 0.22,
           "margin_pct": 2.7
@@ -2134,14 +2530,14 @@
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 12.64,
-          "margin_pct": 60.8
+          "profit": 12.57,
+          "margin_pct": 60.4
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 16.51,
-          "margin_pct": 66.6
+          "profit": 16.44,
+          "margin_pct": 66.3
         }
       },
       {
@@ -2152,29 +2548,62 @@
         "price_krw": 5000,
         "weight_g_est": 232,
         "weight_note": "120ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 3.73,
-        "shipping_order_usd": 11.2,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 3.77,
+        "shipping_order_usd": 11.31,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 7.92,
-        "breakeven_usd": 8.26,
+        "landed_cost_usd": 7.99,
+        "breakeven_usd": 8.34,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
-          "profit": -0.24,
-          "margin_pct": -3.1
+          "profit": -0.25,
+          "margin_pct": -3.0
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 12.18,
-          "margin_pct": 58.5
+          "profit": 12.1,
+          "margin_pct": 58.2
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 16.05,
-          "margin_pct": 64.7
+          "profit": 15.98,
+          "margin_pct": 64.5
+        }
+      },
+      {
+        "pd_no": "1049295",
+        "name": "[진정수분버블]VT 시카 버블 스파클링 부스터 10 g 4개입",
+        "bucket": "마스크팩",
+        "shopify_score": 94,
+        "price_krw": 3000,
+        "weight_g_est": 56,
+        "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 2.31,
+        "shipping_order_usd": 6.92,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 4.84,
+        "breakeven_usd": 5.09,
+        "at_2_2x": {
+          "sell": 4.85,
+          "fee": 0.24,
+          "profit": -0.23,
+          "margin_pct": -4.8
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 15.26,
+          "margin_pct": 73.3
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 19.13,
+          "margin_pct": 77.2
         }
       },
       {
@@ -2186,28 +2615,28 @@
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 4.34,
-        "breakeven_usd": 4.57,
+        "landed_cost_usd": 4.38,
+        "breakeven_usd": 4.61,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.15,
-          "profit": -2.89,
-          "margin_pct": -180.2
+          "profit": -2.91,
+          "margin_pct": -180.1
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 15.76,
-          "margin_pct": 75.7
+          "profit": 15.72,
+          "margin_pct": 75.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 19.63,
-          "margin_pct": 79.2
+          "profit": 19.59,
+          "margin_pct": 79.0
         }
       },
       {
@@ -2218,29 +2647,29 @@
         "price_krw": 5000,
         "weight_g_est": 56,
         "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.29,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.31,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.47,
-        "breakeven_usd": 6.77,
+        "landed_cost_usd": 6.53,
+        "breakeven_usd": 6.83,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
-          "profit": 1.2,
+          "profit": 1.22,
           "margin_pct": 15.0
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 13.63,
-          "margin_pct": 65.5
+          "profit": 13.57,
+          "margin_pct": 65.2
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 17.5,
-          "margin_pct": 70.6
+          "profit": 17.44,
+          "margin_pct": 70.4
         }
       },
       {
@@ -2251,29 +2680,29 @@
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 1.46,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.22,
-        "landed_cost_usd": 5.18,
-        "breakeven_usd": 5.44,
+        "landed_cost_usd": 5.23,
+        "breakeven_usd": 5.49,
         "at_2_2x": {
-          "sell": 3.2,
+          "sell": 3.23,
           "fee": 0.19,
-          "profit": -2.17,
+          "profit": -2.19,
           "margin_pct": -67.7
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 14.92,
-          "margin_pct": 71.7
+          "profit": 14.87,
+          "margin_pct": 71.5
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 18.79,
-          "margin_pct": 75.8
+          "profit": 18.75,
+          "margin_pct": 75.6
         }
       },
       {
@@ -2284,14 +2713,14 @@
         "price_krw": 5000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 7.69,
-        "breakeven_usd": 8.02,
+        "landed_cost_usd": 7.76,
+        "breakeven_usd": 8.1,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
           "profit": -0.01,
           "margin_pct": -0.2
@@ -2299,14 +2728,47 @@
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 12.41,
-          "margin_pct": 59.7
+          "profit": 12.34,
+          "margin_pct": 59.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 16.28,
-          "margin_pct": 65.7
+          "profit": 16.21,
+          "margin_pct": 65.4
+        }
+      },
+      {
+        "pd_no": "1061880",
+        "name": "더페이스샵 맑은 쌀 클렌징 오일 100 ml",
+        "bucket": "클렌징",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 200,
+        "weight_note": "100ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 7.76,
+        "breakeven_usd": 8.1,
+        "at_2_2x": {
+          "sell": 8.08,
+          "fee": 0.33,
+          "profit": -0.01,
+          "margin_pct": -0.2
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 12.34,
+          "margin_pct": 59.3
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 16.21,
+          "margin_pct": 65.4
         }
       },
       {
@@ -2318,28 +2780,28 @@
         "weight_g_est": 48,
         "weight_note": "4g x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 2.29,
-        "shipping_order_usd": 6.86,
+        "shipping_unit_usd": 2.31,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 3.12,
-        "breakeven_usd": 3.32,
+        "landed_cost_usd": 3.15,
+        "breakeven_usd": 3.35,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.15,
-          "profit": -1.67,
+          "profit": -1.68,
           "margin_pct": -104.1
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 16.97,
-          "margin_pct": 81.6
+          "profit": 16.95,
+          "margin_pct": 81.5
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 20.85,
-          "margin_pct": 84.1
+          "profit": 20.82,
+          "margin_pct": 84.0
         }
       },
       {
@@ -2350,29 +2812,29 @@
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 1.46,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.22,
-        "landed_cost_usd": 5.18,
-        "breakeven_usd": 5.44,
+        "landed_cost_usd": 5.23,
+        "breakeven_usd": 5.49,
         "at_2_2x": {
-          "sell": 3.2,
+          "sell": 3.23,
           "fee": 0.19,
-          "profit": -2.17,
+          "profit": -2.19,
           "margin_pct": -67.7
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 14.92,
-          "margin_pct": 71.7
+          "profit": 14.87,
+          "margin_pct": 71.5
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 18.79,
-          "margin_pct": 75.8
+          "profit": 18.75,
+          "margin_pct": 75.6
         }
       },
       {
@@ -2384,28 +2846,28 @@
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 4.34,
-        "breakeven_usd": 4.57,
+        "landed_cost_usd": 4.38,
+        "breakeven_usd": 4.61,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.15,
-          "profit": -2.89,
-          "margin_pct": -180.2
+          "profit": -2.91,
+          "margin_pct": -180.1
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 15.76,
-          "margin_pct": 75.7
+          "profit": 15.72,
+          "margin_pct": 75.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 19.63,
-          "margin_pct": 79.2
+          "profit": 19.59,
+          "margin_pct": 79.0
         }
       },
       {
@@ -2417,28 +2879,28 @@
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 4.34,
-        "breakeven_usd": 4.57,
+        "landed_cost_usd": 4.38,
+        "breakeven_usd": 4.61,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.15,
-          "profit": -2.89,
-          "margin_pct": -180.2
+          "profit": -2.91,
+          "margin_pct": -180.1
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 15.76,
-          "margin_pct": 75.7
+          "profit": 15.72,
+          "margin_pct": 75.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 19.63,
-          "margin_pct": 79.2
+          "profit": 19.59,
+          "margin_pct": 79.0
         }
       },
       {
@@ -2449,29 +2911,29 @@
         "price_krw": 5000,
         "weight_g_est": 360,
         "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 4.88,
-        "shipping_order_usd": 14.65,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 4.93,
+        "shipping_order_usd": 14.79,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 9.07,
-        "breakeven_usd": 9.44,
+        "landed_cost_usd": 9.15,
+        "breakeven_usd": 9.53,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
-          "profit": -1.39,
+          "profit": -1.41,
           "margin_pct": -17.4
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 11.03,
-          "margin_pct": 53.0
+          "profit": 10.94,
+          "margin_pct": 52.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 14.9,
-          "margin_pct": 60.1
+          "profit": 14.82,
+          "margin_pct": 59.8
         }
       },
       {
@@ -2483,28 +2945,94 @@
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 4.34,
-        "breakeven_usd": 4.57,
+        "landed_cost_usd": 4.38,
+        "breakeven_usd": 4.61,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.15,
-          "profit": -2.89,
-          "margin_pct": -180.2
+          "profit": -2.91,
+          "margin_pct": -180.1
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 15.76,
-          "margin_pct": 75.7
+          "profit": 15.72,
+          "margin_pct": 75.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 19.63,
-          "margin_pct": 79.2
+          "profit": 19.59,
+          "margin_pct": 79.0
+        }
+      },
+      {
+        "pd_no": "1073585",
+        "name": "맥세이프 호환용 케이스 갤럭시 Z플립7",
+        "bucket": "메이크업",
+        "shopify_score": 88,
+        "price_krw": 3000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 6.07,
+        "breakeven_usd": 6.36,
+        "at_2_2x": {
+          "sell": 4.85,
+          "fee": 0.24,
+          "profit": -1.46,
+          "margin_pct": -30.2
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 14.03,
+          "margin_pct": 67.4
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 17.9,
+          "margin_pct": 72.2
+        }
+      },
+      {
+        "pd_no": "1053475",
+        "name": "오피스 A4 하드 클립보드 블랙 클립",
+        "bucket": "메이크업",
+        "shopify_score": 87,
+        "price_krw": 1000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 0.73,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
+        "tariff_usd": 0.11,
+        "landed_cost_usd": 4.38,
+        "breakeven_usd": 4.61,
+        "at_2_2x": {
+          "sell": 1.62,
+          "fee": 0.15,
+          "profit": -2.91,
+          "margin_pct": -180.1
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.7,
+          "profit": 15.72,
+          "margin_pct": 75.6
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.82,
+          "profit": 19.59,
+          "margin_pct": 79.0
         }
       },
       {
@@ -2515,14 +3043,14 @@
         "price_krw": 5000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 7.69,
-        "breakeven_usd": 8.02,
+        "landed_cost_usd": 7.76,
+        "breakeven_usd": 8.1,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.33,
           "profit": -0.01,
           "margin_pct": -0.2
@@ -2530,14 +3058,14 @@
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 12.41,
-          "margin_pct": 59.7
+          "profit": 12.34,
+          "margin_pct": 59.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 16.28,
-          "margin_pct": 65.7
+          "profit": 16.21,
+          "margin_pct": 65.4
         }
       },
       {
@@ -2548,29 +3076,29 @@
         "price_krw": 3000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 6.02,
-        "breakeven_usd": 6.3,
+        "landed_cost_usd": 6.07,
+        "breakeven_usd": 6.36,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.24,
-          "profit": -1.45,
+          "profit": -1.46,
           "margin_pct": -30.2
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 14.08,
-          "margin_pct": 67.7
+          "profit": 14.03,
+          "margin_pct": 67.4
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 17.96,
-          "margin_pct": 72.4
+          "profit": 17.9,
+          "margin_pct": 72.2
         }
       },
       {
@@ -2581,14 +3109,14 @@
         "price_krw": 3000,
         "weight_g_est": 64,
         "weight_note": "15ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 2.29,
-        "shipping_order_usd": 6.86,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 2.31,
+        "shipping_order_usd": 6.92,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 4.8,
-        "breakeven_usd": 5.04,
+        "landed_cost_usd": 4.84,
+        "breakeven_usd": 5.09,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.24,
           "profit": -0.23,
           "margin_pct": -4.8
@@ -2596,14 +3124,14 @@
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 15.3,
-          "margin_pct": 73.6
+          "profit": 15.26,
+          "margin_pct": 73.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 19.17,
-          "margin_pct": 77.3
+          "profit": 19.13,
+          "margin_pct": 77.2
         }
       },
       {
@@ -2614,29 +3142,29 @@
         "price_krw": 3000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 6.02,
-        "breakeven_usd": 6.3,
+        "landed_cost_usd": 6.07,
+        "breakeven_usd": 6.36,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.24,
-          "profit": -1.45,
+          "profit": -1.46,
           "margin_pct": -30.2
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 14.08,
-          "margin_pct": 67.7
+          "profit": 14.03,
+          "margin_pct": 67.4
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 17.96,
-          "margin_pct": 72.4
+          "profit": 17.9,
+          "margin_pct": 72.2
         }
       },
       {
@@ -2647,29 +3175,29 @@
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 1.46,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.22,
-        "landed_cost_usd": 5.18,
-        "breakeven_usd": 5.44,
+        "landed_cost_usd": 5.23,
+        "breakeven_usd": 5.49,
         "at_2_2x": {
-          "sell": 3.2,
+          "sell": 3.23,
           "fee": 0.19,
-          "profit": -2.17,
+          "profit": -2.19,
           "margin_pct": -67.7
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.7,
-          "profit": 14.92,
-          "margin_pct": 71.7
+          "profit": 14.87,
+          "margin_pct": 71.5
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.82,
-          "profit": 18.79,
-          "margin_pct": 75.8
+          "profit": 18.75,
+          "margin_pct": 75.6
         }
       }
     ],
@@ -2682,29 +3210,29 @@
         "price_krw": 3000,
         "weight_g_est": 696,
         "weight_note": "410ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 4.92,
-        "shipping_order_usd": 24.61,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 4.97,
+        "shipping_order_usd": 24.84,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 7.43,
-        "breakeven_usd": 7.72,
+        "landed_cost_usd": 7.5,
+        "breakeven_usd": 7.79,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.2,
-          "profit": -2.83,
+          "profit": -2.85,
           "margin_pct": -58.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 12.7,
-          "margin_pct": 61.1
+          "profit": 12.63,
+          "margin_pct": 60.7
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 16.58,
-          "margin_pct": 66.9
+          "profit": 16.51,
+          "margin_pct": 66.6
         }
       },
       {
@@ -2715,29 +3243,29 @@
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 1.46,
-        "shipping_unit_usd": 2.65,
-        "shipping_order_usd": 13.27,
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
         "tariff_usd": 0.22,
-        "landed_cost_usd": 4.33,
-        "breakeven_usd": 4.52,
+        "landed_cost_usd": 4.37,
+        "breakeven_usd": 4.56,
         "at_2_2x": {
-          "sell": 3.2,
+          "sell": 3.23,
           "fee": 0.15,
-          "profit": -1.28,
+          "profit": -1.29,
           "margin_pct": -39.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 15.81,
-          "margin_pct": 76.0
+          "profit": 15.77,
+          "margin_pct": 75.8
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 19.68,
-          "margin_pct": 79.4
+          "profit": 19.64,
+          "margin_pct": 79.2
         }
       },
       {
@@ -2748,29 +3276,29 @@
         "price_krw": 5000,
         "weight_g_est": 360,
         "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 4.37,
-        "shipping_order_usd": 21.84,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 4.41,
+        "shipping_order_usd": 22.05,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 8.55,
-        "breakeven_usd": 8.87,
+        "landed_cost_usd": 8.63,
+        "breakeven_usd": 8.95,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
-          "profit": -0.84,
+          "profit": -0.85,
           "margin_pct": -10.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 11.58,
-          "margin_pct": 55.7
+          "profit": 11.5,
+          "margin_pct": 55.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 15.46,
-          "margin_pct": 62.4
+          "profit": 15.38,
+          "margin_pct": 62.0
         }
       },
       {
@@ -2781,14 +3309,14 @@
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 17.49,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 3.53,
+        "shipping_order_usd": 17.65,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 7.68,
-        "breakeven_usd": 7.98,
+        "landed_cost_usd": 7.76,
+        "breakeven_usd": 8.05,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
           "profit": 0.03,
           "margin_pct": 0.4
@@ -2796,14 +3324,14 @@
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 12.45,
-          "margin_pct": 59.9
+          "profit": 12.38,
+          "margin_pct": 59.5
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 16.33,
-          "margin_pct": 65.9
+          "profit": 16.26,
+          "margin_pct": 65.6
         }
       },
       {
@@ -2814,29 +3342,29 @@
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.1,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.12,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.29,
-        "breakeven_usd": 6.54,
+        "landed_cost_usd": 6.35,
+        "breakeven_usd": 6.6,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
-          "profit": 1.43,
+          "profit": 1.44,
           "margin_pct": 17.8
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 13.85,
-          "margin_pct": 66.6
+          "profit": 13.79,
+          "margin_pct": 66.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 17.72,
-          "margin_pct": 71.5
+          "profit": 17.66,
+          "margin_pct": 71.3
         }
       },
       {
@@ -2847,29 +3375,29 @@
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.1,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.12,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.29,
-        "breakeven_usd": 6.54,
+        "landed_cost_usd": 6.35,
+        "breakeven_usd": 6.6,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
-          "profit": 1.43,
+          "profit": 1.44,
           "margin_pct": 17.8
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 13.85,
-          "margin_pct": 66.6
+          "profit": 13.79,
+          "margin_pct": 66.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 17.72,
-          "margin_pct": 71.5
+          "profit": 17.66,
+          "margin_pct": 71.3
         }
       },
       {
@@ -2880,29 +3408,29 @@
         "price_krw": 5000,
         "weight_g_est": 64,
         "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 1.67,
-        "shipping_order_usd": 8.33,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 1.68,
+        "shipping_order_usd": 8.4,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 5.85,
-        "breakeven_usd": 6.09,
+        "landed_cost_usd": 5.91,
+        "breakeven_usd": 6.14,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
-          "profit": 1.86,
+          "profit": 1.88,
           "margin_pct": 23.3
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 14.29,
-          "margin_pct": 68.7
+          "profit": 14.23,
+          "margin_pct": 68.4
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 18.16,
-          "margin_pct": 73.3
+          "profit": 18.11,
+          "margin_pct": 73.0
         }
       },
       {
@@ -2913,29 +3441,29 @@
         "price_krw": 5000,
         "weight_g_est": 96,
         "weight_note": "35ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 1.96,
-        "shipping_order_usd": 9.82,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 1.98,
+        "shipping_order_usd": 9.91,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.15,
-        "breakeven_usd": 6.39,
+        "landed_cost_usd": 6.21,
+        "breakeven_usd": 6.45,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
-          "profit": 1.57,
+          "profit": 1.58,
           "margin_pct": 19.6
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 13.99,
-          "margin_pct": 67.2
+          "profit": 13.93,
+          "margin_pct": 67.0
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 17.86,
-          "margin_pct": 72.1
+          "profit": 17.8,
+          "margin_pct": 71.8
         }
       },
       {
@@ -2946,29 +3474,29 @@
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.1,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.12,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.29,
-        "breakeven_usd": 6.54,
+        "landed_cost_usd": 6.35,
+        "breakeven_usd": 6.6,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
-          "profit": 1.43,
+          "profit": 1.44,
           "margin_pct": 17.8
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 13.85,
-          "margin_pct": 66.6
+          "profit": 13.79,
+          "margin_pct": 66.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 17.72,
-          "margin_pct": 71.5
+          "profit": 17.66,
+          "margin_pct": 71.3
         }
       },
       {
@@ -2979,29 +3507,29 @@
         "price_krw": 5000,
         "weight_g_est": 520,
         "weight_note": "300ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 4.92,
-        "shipping_order_usd": 24.61,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 4.97,
+        "shipping_order_usd": 24.84,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 9.11,
-        "breakeven_usd": 9.44,
+        "landed_cost_usd": 9.19,
+        "breakeven_usd": 9.53,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
-          "profit": -1.39,
+          "profit": -1.41,
           "margin_pct": -17.4
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 11.03,
-          "margin_pct": 53.0
+          "profit": 10.94,
+          "margin_pct": 52.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 14.9,
-          "margin_pct": 60.1
+          "profit": 14.82,
+          "margin_pct": 59.8
         }
       },
       {
@@ -3013,28 +3541,28 @@
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 2.65,
-        "shipping_order_usd": 13.27,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 3.49,
-        "breakeven_usd": 3.66,
+        "landed_cost_usd": 3.52,
+        "breakeven_usd": 3.69,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.11,
-          "profit": -2.0,
+          "profit": -2.01,
           "margin_pct": -124.6
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 16.65,
-          "margin_pct": 80.0
+          "profit": 16.61,
+          "margin_pct": 79.9
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 20.52,
-          "margin_pct": 82.8
+          "profit": 20.49,
+          "margin_pct": 82.6
         }
       },
       {
@@ -3046,28 +3574,28 @@
         "weight_g_est": 136,
         "weight_note": "60g x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 2.24,
-        "shipping_order_usd": 11.2,
+        "shipping_unit_usd": 2.26,
+        "shipping_order_usd": 11.31,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 3.08,
-        "breakeven_usd": 3.23,
+        "landed_cost_usd": 3.11,
+        "breakeven_usd": 3.26,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.11,
-          "profit": -1.58,
+          "profit": -1.6,
           "margin_pct": -98.8
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 17.06,
-          "margin_pct": 82.0
+          "profit": 17.03,
+          "margin_pct": 81.9
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 20.93,
-          "margin_pct": 84.4
+          "profit": 20.9,
+          "margin_pct": 84.3
         }
       },
       {
@@ -3078,29 +3606,95 @@
         "price_krw": 3000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 2.65,
-        "shipping_order_usd": 13.27,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 5.17,
-        "breakeven_usd": 5.38,
+        "landed_cost_usd": 5.21,
+        "breakeven_usd": 5.43,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.2,
-          "profit": -0.56,
+          "profit": -0.57,
           "margin_pct": -11.7
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 14.97,
-          "margin_pct": 72.0
+          "profit": 14.92,
+          "margin_pct": 71.7
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 18.85,
-          "margin_pct": 76.0
+          "profit": 18.8,
+          "margin_pct": 75.8
+        }
+      },
+      {
+        "pd_no": "1039235",
+        "name": "프리모팩토리 헤어 블리치(2개입/80ml)",
+        "bucket": "마스크팩",
+        "shopify_score": 100,
+        "price_krw": 3000,
+        "weight_g_est": 168,
+        "weight_note": "80ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 2.54,
+        "shipping_order_usd": 12.7,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 5.08,
+        "breakeven_usd": 5.29,
+        "at_2_2x": {
+          "sell": 4.85,
+          "fee": 0.2,
+          "profit": -0.43,
+          "margin_pct": -8.8
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 15.06,
+          "margin_pct": 72.4
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 18.94,
+          "margin_pct": 76.4
+        }
+      },
+      {
+        "pd_no": "1075857",
+        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+        "bucket": "스킨케어",
+        "shopify_score": 100,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
+        "tariff_usd": 0.22,
+        "landed_cost_usd": 4.37,
+        "breakeven_usd": 4.56,
+        "at_2_2x": {
+          "sell": 3.23,
+          "fee": 0.15,
+          "profit": -1.29,
+          "margin_pct": -39.9
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 15.77,
+          "margin_pct": 75.8
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 19.64,
+          "margin_pct": 79.2
         }
       },
       {
@@ -3111,29 +3705,62 @@
         "price_krw": 500,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 0.36,
-        "shipping_unit_usd": 2.65,
-        "shipping_order_usd": 13.27,
-        "tariff_usd": 0.05,
-        "landed_cost_usd": 3.07,
-        "breakeven_usd": 3.23,
+        "unit_cost_usd": 0.37,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
+        "tariff_usd": 0.06,
+        "landed_cost_usd": 3.1,
+        "breakeven_usd": 3.26,
         "at_2_2x": {
-          "sell": 0.8,
+          "sell": 0.81,
           "fee": 0.08,
-          "profit": -2.36,
+          "profit": -2.38,
           "margin_pct": -294.1
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 17.06,
-          "margin_pct": 82.0
+          "profit": 17.04,
+          "margin_pct": 81.9
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 20.94,
-          "margin_pct": 84.5
+          "profit": 20.91,
+          "margin_pct": 84.3
+        }
+      },
+      {
+        "pd_no": "1009199",
+        "name": "이불용 밸브 압축팩 90x110cm",
+        "bucket": "마스크팩",
+        "shopify_score": 100,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
+        "tariff_usd": 0.22,
+        "landed_cost_usd": 4.37,
+        "breakeven_usd": 4.56,
+        "at_2_2x": {
+          "sell": 3.23,
+          "fee": 0.15,
+          "profit": -1.29,
+          "margin_pct": -39.9
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 15.77,
+          "margin_pct": 75.8
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 19.64,
+          "margin_pct": 79.2
         }
       },
       {
@@ -3144,29 +3771,29 @@
         "price_krw": 3000,
         "weight_g_est": 168,
         "weight_note": "80ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 2.52,
-        "shipping_order_usd": 12.59,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 2.54,
+        "shipping_order_usd": 12.7,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 5.03,
-        "breakeven_usd": 5.24,
+        "landed_cost_usd": 5.08,
+        "breakeven_usd": 5.29,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.2,
-          "profit": -0.42,
+          "profit": -0.43,
           "margin_pct": -8.8
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 15.11,
-          "margin_pct": 72.6
+          "profit": 15.06,
+          "margin_pct": 72.4
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 18.98,
-          "margin_pct": 76.6
+          "profit": 18.94,
+          "margin_pct": 76.4
         }
       },
       {
@@ -3177,29 +3804,29 @@
         "price_krw": 5000,
         "weight_g_est": 136,
         "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.24,
-        "shipping_order_usd": 11.2,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.26,
+        "shipping_order_usd": 11.31,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.43,
-        "breakeven_usd": 6.68,
+        "landed_cost_usd": 6.49,
+        "breakeven_usd": 6.74,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
-          "profit": 1.29,
+          "profit": 1.3,
           "margin_pct": 16.1
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 13.71,
-          "margin_pct": 65.9
+          "profit": 13.65,
+          "margin_pct": 65.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 17.59,
-          "margin_pct": 70.9
+          "profit": 17.53,
+          "margin_pct": 70.7
         }
       },
       {
@@ -3210,29 +3837,29 @@
         "price_krw": 5000,
         "weight_g_est": 104,
         "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.1,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.12,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.29,
-        "breakeven_usd": 6.54,
+        "landed_cost_usd": 6.35,
+        "breakeven_usd": 6.6,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
-          "profit": 1.43,
+          "profit": 1.44,
           "margin_pct": 17.8
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 13.85,
-          "margin_pct": 66.6
+          "profit": 13.79,
+          "margin_pct": 66.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 17.72,
-          "margin_pct": 71.5
+          "profit": 17.66,
+          "margin_pct": 71.3
         }
       },
       {
@@ -3243,29 +3870,29 @@
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.1,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.12,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.29,
-        "breakeven_usd": 6.54,
+        "landed_cost_usd": 6.35,
+        "breakeven_usd": 6.6,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
-          "profit": 1.43,
+          "profit": 1.44,
           "margin_pct": 17.8
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 13.85,
-          "margin_pct": 66.6
+          "profit": 13.79,
+          "margin_pct": 66.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 17.72,
-          "margin_pct": 71.5
+          "profit": 17.66,
+          "margin_pct": 71.3
         }
       },
       {
@@ -3276,14 +3903,14 @@
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "4ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 1.52,
-        "shipping_order_usd": 7.59,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 1.53,
+        "shipping_order_usd": 7.66,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 4.03,
-        "breakeven_usd": 4.21,
+        "landed_cost_usd": 4.07,
+        "breakeven_usd": 4.25,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.2,
           "profit": 0.58,
           "margin_pct": 12.0
@@ -3291,14 +3918,47 @@
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 16.11,
-          "margin_pct": 77.4
+          "profit": 16.07,
+          "margin_pct": 77.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 19.98,
-          "margin_pct": 80.6
+          "profit": 19.94,
+          "margin_pct": 80.5
+        }
+      },
+      {
+        "pd_no": "1060489",
+        "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
+        "bucket": "마스크팩",
+        "shopify_score": 99,
+        "price_krw": 3000,
+        "weight_g_est": 46,
+        "weight_note": "4ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 1.53,
+        "shipping_order_usd": 7.66,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 4.07,
+        "breakeven_usd": 4.25,
+        "at_2_2x": {
+          "sell": 4.85,
+          "fee": 0.2,
+          "profit": 0.58,
+          "margin_pct": 12.0
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 16.07,
+          "margin_pct": 77.3
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 19.94,
+          "margin_pct": 80.5
         }
       },
       {
@@ -3309,29 +3969,29 @@
         "price_krw": 3000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 17.49,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 3.53,
+        "shipping_order_usd": 17.65,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 6.01,
-        "breakeven_usd": 6.25,
+        "landed_cost_usd": 6.07,
+        "breakeven_usd": 6.31,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.2,
-          "profit": -1.4,
+          "profit": -1.42,
           "margin_pct": -29.2
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 14.13,
-          "margin_pct": 67.9
+          "profit": 14.07,
+          "margin_pct": 67.7
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 18.0,
-          "margin_pct": 72.6
+          "profit": 17.95,
+          "margin_pct": 72.4
         }
       },
       {
@@ -3342,29 +4002,29 @@
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.1,
-        "shipping_order_usd": 10.51,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.12,
+        "shipping_order_usd": 10.61,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.29,
-        "breakeven_usd": 6.54,
+        "landed_cost_usd": 6.35,
+        "breakeven_usd": 6.6,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
-          "profit": 1.43,
+          "profit": 1.44,
           "margin_pct": 17.8
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 13.85,
-          "margin_pct": 66.6
+          "profit": 13.79,
+          "margin_pct": 66.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 17.72,
-          "margin_pct": 71.5
+          "profit": 17.66,
+          "margin_pct": 71.3
         }
       },
       {
@@ -3376,28 +4036,28 @@
         "weight_g_est": 77,
         "weight_note": "23g x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 1.67,
-        "shipping_order_usd": 8.33,
+        "shipping_unit_usd": 1.68,
+        "shipping_order_usd": 8.4,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 2.5,
-        "breakeven_usd": 2.64,
+        "landed_cost_usd": 2.53,
+        "breakeven_usd": 2.66,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.11,
-          "profit": -1.01,
+          "profit": -1.02,
           "margin_pct": -62.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 17.63,
-          "margin_pct": 84.8
+          "profit": 17.61,
+          "margin_pct": 84.7
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 21.51,
-          "margin_pct": 86.8
+          "profit": 21.49,
+          "margin_pct": 86.7
         }
       },
       {
@@ -3408,29 +4068,29 @@
         "price_krw": 3000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 17.49,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 3.53,
+        "shipping_order_usd": 17.65,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 6.01,
-        "breakeven_usd": 6.25,
+        "landed_cost_usd": 6.07,
+        "breakeven_usd": 6.31,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.2,
-          "profit": -1.4,
+          "profit": -1.42,
           "margin_pct": -29.2
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 14.13,
-          "margin_pct": 67.9
+          "profit": 14.07,
+          "margin_pct": 67.7
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 18.0,
-          "margin_pct": 72.6
+          "profit": 17.95,
+          "margin_pct": 72.4
         }
       },
       {
@@ -3441,29 +4101,29 @@
         "price_krw": 5000,
         "weight_g_est": 160,
         "weight_note": "75ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.38,
-        "shipping_order_usd": 11.89,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.4,
+        "shipping_order_usd": 12.0,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.56,
-        "breakeven_usd": 6.82,
+        "landed_cost_usd": 6.63,
+        "breakeven_usd": 6.88,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
-          "profit": 1.15,
+          "profit": 1.16,
           "margin_pct": 14.4
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 13.57,
-          "margin_pct": 65.3
+          "profit": 13.51,
+          "margin_pct": 65.0
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 17.45,
-          "margin_pct": 70.4
+          "profit": 17.39,
+          "margin_pct": 70.1
         }
       },
       {
@@ -3474,14 +4134,14 @@
         "price_krw": 5000,
         "weight_g_est": 232,
         "weight_note": "120ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 3.12,
-        "shipping_order_usd": 15.6,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 3.15,
+        "shipping_order_usd": 15.74,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 7.31,
-        "breakeven_usd": 7.59,
+        "landed_cost_usd": 7.37,
+        "breakeven_usd": 7.66,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
           "profit": 0.41,
           "margin_pct": 5.1
@@ -3489,14 +4149,47 @@
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 12.83,
-          "margin_pct": 61.7
+          "profit": 12.76,
+          "margin_pct": 61.4
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 16.71,
-          "margin_pct": 67.4
+          "profit": 16.64,
+          "margin_pct": 67.1
+        }
+      },
+      {
+        "pd_no": "1049295",
+        "name": "[진정수분버블]VT 시카 버블 스파클링 부스터 10 g 4개입",
+        "bucket": "마스크팩",
+        "shopify_score": 94,
+        "price_krw": 3000,
+        "weight_g_est": 56,
+        "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 1.53,
+        "shipping_order_usd": 7.66,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 4.07,
+        "breakeven_usd": 4.25,
+        "at_2_2x": {
+          "sell": 4.85,
+          "fee": 0.2,
+          "profit": 0.58,
+          "margin_pct": 12.0
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 16.07,
+          "margin_pct": 77.3
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 19.94,
+          "margin_pct": 80.5
         }
       },
       {
@@ -3508,28 +4201,28 @@
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 2.65,
-        "shipping_order_usd": 13.27,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 3.49,
-        "breakeven_usd": 3.66,
+        "landed_cost_usd": 3.52,
+        "breakeven_usd": 3.69,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.11,
-          "profit": -2.0,
+          "profit": -2.01,
           "margin_pct": -124.6
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 16.65,
-          "margin_pct": 80.0
+          "profit": 16.61,
+          "margin_pct": 79.9
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 20.52,
-          "margin_pct": 82.8
+          "profit": 20.49,
+          "margin_pct": 82.6
         }
       },
       {
@@ -3540,29 +4233,29 @@
         "price_krw": 5000,
         "weight_g_est": 56,
         "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 1.52,
-        "shipping_order_usd": 7.59,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 1.53,
+        "shipping_order_usd": 7.66,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 5.7,
-        "breakeven_usd": 5.94,
+        "landed_cost_usd": 5.76,
+        "breakeven_usd": 5.99,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
-          "profit": 2.01,
+          "profit": 2.03,
           "margin_pct": 25.1
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 14.43,
-          "margin_pct": 69.4
+          "profit": 14.38,
+          "margin_pct": 69.1
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 18.31,
-          "margin_pct": 73.8
+          "profit": 18.25,
+          "margin_pct": 73.6
         }
       },
       {
@@ -3573,29 +4266,29 @@
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 1.46,
-        "shipping_unit_usd": 2.65,
-        "shipping_order_usd": 13.27,
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
         "tariff_usd": 0.22,
-        "landed_cost_usd": 4.33,
-        "breakeven_usd": 4.52,
+        "landed_cost_usd": 4.37,
+        "breakeven_usd": 4.56,
         "at_2_2x": {
-          "sell": 3.2,
+          "sell": 3.23,
           "fee": 0.15,
-          "profit": -1.28,
+          "profit": -1.29,
           "margin_pct": -39.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 15.81,
-          "margin_pct": 76.0
+          "profit": 15.77,
+          "margin_pct": 75.8
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 19.68,
-          "margin_pct": 79.4
+          "profit": 19.64,
+          "margin_pct": 79.2
         }
       },
       {
@@ -3606,14 +4299,14 @@
         "price_krw": 5000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.65,
-        "shipping_order_usd": 13.27,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.84,
-        "breakeven_usd": 7.11,
+        "landed_cost_usd": 6.9,
+        "breakeven_usd": 7.17,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
           "profit": 0.88,
           "margin_pct": 10.9
@@ -3621,14 +4314,47 @@
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 13.3,
-          "margin_pct": 63.9
+          "profit": 13.23,
+          "margin_pct": 63.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 17.17,
-          "margin_pct": 69.3
+          "profit": 17.11,
+          "margin_pct": 69.0
+        }
+      },
+      {
+        "pd_no": "1061880",
+        "name": "더페이스샵 맑은 쌀 클렌징 오일 100 ml",
+        "bucket": "클렌징",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 200,
+        "weight_note": "100ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 6.9,
+        "breakeven_usd": 7.17,
+        "at_2_2x": {
+          "sell": 8.08,
+          "fee": 0.29,
+          "profit": 0.88,
+          "margin_pct": 10.9
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 13.23,
+          "margin_pct": 63.6
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 17.11,
+          "margin_pct": 69.0
         }
       },
       {
@@ -3640,28 +4366,28 @@
         "weight_g_est": 48,
         "weight_note": "4g x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 1.52,
-        "shipping_order_usd": 7.59,
+        "shipping_unit_usd": 1.53,
+        "shipping_order_usd": 7.66,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 2.36,
-        "breakeven_usd": 2.49,
+        "landed_cost_usd": 2.38,
+        "breakeven_usd": 2.51,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.11,
-          "profit": -0.86,
+          "profit": -0.87,
           "margin_pct": -53.7
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 17.78,
-          "margin_pct": 85.5
+          "profit": 17.76,
+          "margin_pct": 85.4
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 21.66,
-          "margin_pct": 87.4
+          "profit": 21.63,
+          "margin_pct": 87.3
         }
       },
       {
@@ -3672,29 +4398,29 @@
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 1.46,
-        "shipping_unit_usd": 2.65,
-        "shipping_order_usd": 13.27,
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
         "tariff_usd": 0.22,
-        "landed_cost_usd": 4.33,
-        "breakeven_usd": 4.52,
+        "landed_cost_usd": 4.37,
+        "breakeven_usd": 4.56,
         "at_2_2x": {
-          "sell": 3.2,
+          "sell": 3.23,
           "fee": 0.15,
-          "profit": -1.28,
+          "profit": -1.29,
           "margin_pct": -39.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 15.81,
-          "margin_pct": 76.0
+          "profit": 15.77,
+          "margin_pct": 75.8
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 19.68,
-          "margin_pct": 79.4
+          "profit": 19.64,
+          "margin_pct": 79.2
         }
       },
       {
@@ -3706,28 +4432,28 @@
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 2.65,
-        "shipping_order_usd": 13.27,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 3.49,
-        "breakeven_usd": 3.66,
+        "landed_cost_usd": 3.52,
+        "breakeven_usd": 3.69,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.11,
-          "profit": -2.0,
+          "profit": -2.01,
           "margin_pct": -124.6
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 16.65,
-          "margin_pct": 80.0
+          "profit": 16.61,
+          "margin_pct": 79.9
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 20.52,
-          "margin_pct": 82.8
+          "profit": 20.49,
+          "margin_pct": 82.6
         }
       },
       {
@@ -3739,28 +4465,28 @@
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 2.65,
-        "shipping_order_usd": 13.27,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 3.49,
-        "breakeven_usd": 3.66,
+        "landed_cost_usd": 3.52,
+        "breakeven_usd": 3.69,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.11,
-          "profit": -2.0,
+          "profit": -2.01,
           "margin_pct": -124.6
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 16.65,
-          "margin_pct": 80.0
+          "profit": 16.61,
+          "margin_pct": 79.9
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 20.52,
-          "margin_pct": 82.8
+          "profit": 20.49,
+          "margin_pct": 82.6
         }
       },
       {
@@ -3771,29 +4497,29 @@
         "price_krw": 5000,
         "weight_g_est": 360,
         "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 4.37,
-        "shipping_order_usd": 21.84,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 4.41,
+        "shipping_order_usd": 22.05,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 8.55,
-        "breakeven_usd": 8.87,
+        "landed_cost_usd": 8.63,
+        "breakeven_usd": 8.95,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
-          "profit": -0.84,
+          "profit": -0.85,
           "margin_pct": -10.5
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 11.58,
-          "margin_pct": 55.7
+          "profit": 11.5,
+          "margin_pct": 55.3
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 15.46,
-          "margin_pct": 62.4
+          "profit": 15.38,
+          "margin_pct": 62.0
         }
       },
       {
@@ -3805,28 +4531,94 @@
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
         "unit_cost_usd": 0.73,
-        "shipping_unit_usd": 2.65,
-        "shipping_order_usd": 13.27,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
         "tariff_usd": 0.11,
-        "landed_cost_usd": 3.49,
-        "breakeven_usd": 3.66,
+        "landed_cost_usd": 3.52,
+        "breakeven_usd": 3.69,
         "at_2_2x": {
-          "sell": 1.6,
+          "sell": 1.62,
           "fee": 0.11,
-          "profit": -2.0,
+          "profit": -2.01,
           "margin_pct": -124.6
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 16.65,
-          "margin_pct": 80.0
+          "profit": 16.61,
+          "margin_pct": 79.9
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 20.52,
-          "margin_pct": 82.8
+          "profit": 20.49,
+          "margin_pct": 82.6
+        }
+      },
+      {
+        "pd_no": "1073585",
+        "name": "맥세이프 호환용 케이스 갤럭시 Z플립7",
+        "bucket": "메이크업",
+        "shopify_score": 88,
+        "price_krw": 3000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
+        "tariff_usd": 0.33,
+        "landed_cost_usd": 5.21,
+        "breakeven_usd": 5.43,
+        "at_2_2x": {
+          "sell": 4.85,
+          "fee": 0.2,
+          "profit": -0.57,
+          "margin_pct": -11.7
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 14.92,
+          "margin_pct": 71.7
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 18.8,
+          "margin_pct": 75.8
+        }
+      },
+      {
+        "pd_no": "1053475",
+        "name": "오피스 A4 하드 클립보드 블랙 클립",
+        "bucket": "메이크업",
+        "shopify_score": 87,
+        "price_krw": 1000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 0.73,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
+        "tariff_usd": 0.11,
+        "landed_cost_usd": 3.52,
+        "breakeven_usd": 3.69,
+        "at_2_2x": {
+          "sell": 1.62,
+          "fee": 0.11,
+          "profit": -2.01,
+          "margin_pct": -124.6
+        },
+        "at_market_p25": {
+          "sell": 20.8,
+          "fee": 0.66,
+          "profit": 16.61,
+          "margin_pct": 79.9
+        },
+        "at_market_median": {
+          "sell": 24.79,
+          "fee": 0.78,
+          "profit": 20.49,
+          "margin_pct": 82.6
         }
       },
       {
@@ -3837,14 +4629,14 @@
         "price_krw": 5000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 3.64,
-        "shipping_unit_usd": 2.65,
-        "shipping_order_usd": 13.27,
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
         "tariff_usd": 0.55,
-        "landed_cost_usd": 6.84,
-        "breakeven_usd": 7.11,
+        "landed_cost_usd": 6.9,
+        "breakeven_usd": 7.17,
         "at_2_2x": {
-          "sell": 8.01,
+          "sell": 8.08,
           "fee": 0.29,
           "profit": 0.88,
           "margin_pct": 10.9
@@ -3852,14 +4644,14 @@
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 13.3,
-          "margin_pct": 63.9
+          "profit": 13.23,
+          "margin_pct": 63.6
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 17.17,
-          "margin_pct": 69.3
+          "profit": 17.11,
+          "margin_pct": 69.0
         }
       },
       {
@@ -3870,29 +4662,29 @@
         "price_krw": 3000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 2.65,
-        "shipping_order_usd": 13.27,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 5.17,
-        "breakeven_usd": 5.38,
+        "landed_cost_usd": 5.21,
+        "breakeven_usd": 5.43,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.2,
-          "profit": -0.56,
+          "profit": -0.57,
           "margin_pct": -11.7
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 14.97,
-          "margin_pct": 72.0
+          "profit": 14.92,
+          "margin_pct": 71.7
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 18.85,
-          "margin_pct": 76.0
+          "profit": 18.8,
+          "margin_pct": 75.8
         }
       },
       {
@@ -3903,14 +4695,14 @@
         "price_krw": 3000,
         "weight_g_est": 64,
         "weight_note": "15ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 1.67,
-        "shipping_order_usd": 8.33,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 1.68,
+        "shipping_order_usd": 8.4,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 4.18,
-        "breakeven_usd": 4.36,
+        "landed_cost_usd": 4.22,
+        "breakeven_usd": 4.4,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.2,
           "profit": 0.43,
           "margin_pct": 8.9
@@ -3918,14 +4710,14 @@
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 15.96,
-          "margin_pct": 76.7
+          "profit": 15.92,
+          "margin_pct": 76.5
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 19.83,
-          "margin_pct": 80.0
+          "profit": 19.8,
+          "margin_pct": 79.9
         }
       },
       {
@@ -3936,29 +4728,29 @@
         "price_krw": 3000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 2.18,
-        "shipping_unit_usd": 2.65,
-        "shipping_order_usd": 13.27,
+        "unit_cost_usd": 2.2,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
         "tariff_usd": 0.33,
-        "landed_cost_usd": 5.17,
-        "breakeven_usd": 5.38,
+        "landed_cost_usd": 5.21,
+        "breakeven_usd": 5.43,
         "at_2_2x": {
-          "sell": 4.8,
+          "sell": 4.85,
           "fee": 0.2,
-          "profit": -0.56,
+          "profit": -0.57,
           "margin_pct": -11.7
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 14.97,
-          "margin_pct": 72.0
+          "profit": 14.92,
+          "margin_pct": 71.7
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 18.85,
-          "margin_pct": 76.0
+          "profit": 18.8,
+          "margin_pct": 75.8
         }
       },
       {
@@ -3969,29 +4761,29 @@
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
-        "unit_cost_usd": 1.46,
-        "shipping_unit_usd": 2.65,
-        "shipping_order_usd": 13.27,
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
         "tariff_usd": 0.22,
-        "landed_cost_usd": 4.33,
-        "breakeven_usd": 4.52,
+        "landed_cost_usd": 4.37,
+        "breakeven_usd": 4.56,
         "at_2_2x": {
-          "sell": 3.2,
+          "sell": 3.23,
           "fee": 0.15,
-          "profit": -1.28,
+          "profit": -1.29,
           "margin_pct": -39.9
         },
         "at_market_p25": {
           "sell": 20.8,
           "fee": 0.66,
-          "profit": 15.81,
-          "margin_pct": 76.0
+          "profit": 15.77,
+          "margin_pct": 75.8
         },
         "at_market_median": {
           "sell": 24.79,
           "fee": 0.78,
-          "profit": 19.68,
-          "margin_pct": 79.4
+          "profit": 19.64,
+          "margin_pct": 79.2
         }
       }
     ]

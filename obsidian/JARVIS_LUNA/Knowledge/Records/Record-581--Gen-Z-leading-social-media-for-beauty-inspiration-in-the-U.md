@@ -2,7 +2,7 @@
 title: "Record 581 · Gen-Z-leading-social-media-for-beauty-inspiration-in-the-US-and-UK-202"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.522376+00:00
+updated_at: 2026-09-03T00:28:42.168567+00:00
 tags: [{', '.join(tags)}]
 ---
 

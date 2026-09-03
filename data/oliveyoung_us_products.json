@@ -2,7 +2,7 @@
   "source": "us.oliveyoung.com/best-sellers (실수집)",
   "method": "React Router turbo-stream 데이터 응답 파싱",
   "robots_note": "robots.txt 확인: Allow / 이며 /best-sellers 는 허용 경로. Disallow 인 /search 는 요청하지 않음.",
-  "collected_at": "2026-09-02T22:15:38.568687+00:00",
+  "collected_at": "2026-09-03T00:28:40.052301+00:00",
   "count": 100,
   "reason": "",
   "price_stats": {

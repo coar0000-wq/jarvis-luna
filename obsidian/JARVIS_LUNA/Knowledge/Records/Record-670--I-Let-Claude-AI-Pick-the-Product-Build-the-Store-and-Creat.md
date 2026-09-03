@@ -2,7 +2,7 @@
 title: "Record 670 · I-Let-Claude-AI-Pick-the-Product-Build-the-Store-and-Create-the-Ad"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.530610+00:00
+updated_at: 2026-09-03T00:28:42.180820+00:00
 tags: [{', '.join(tags)}]
 ---
 

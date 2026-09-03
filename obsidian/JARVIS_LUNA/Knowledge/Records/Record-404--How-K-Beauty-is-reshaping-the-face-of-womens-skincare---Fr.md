@@ -2,7 +2,7 @@
 title: "Record 404 · How-K-Beauty-is-reshaping-the-face-of-womens-skincare---Fresno-State-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.505499+00:00
+updated_at: 2026-09-03T00:28:42.144339+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 061 · Skip-the-12-Step-Spiral-Here-are-11-K-Beauty-Trends--Products-Youll-Ac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.476514+00:00
+updated_at: 2026-09-03T00:28:42.091556+00:00
 tags: [{', '.join(tags)}]
 ---
 

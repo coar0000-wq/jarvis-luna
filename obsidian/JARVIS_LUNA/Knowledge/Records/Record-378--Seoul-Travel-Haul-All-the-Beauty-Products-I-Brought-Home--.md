@@ -2,7 +2,7 @@
 title: "Record 378 · Seoul-Travel-Haul-All-the-Beauty-Products-I-Brought-Home---The-Daily-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.503139+00:00
+updated_at: 2026-09-03T00:28:42.140739+00:00
 tags: [{', '.join(tags)}]
 ---
 

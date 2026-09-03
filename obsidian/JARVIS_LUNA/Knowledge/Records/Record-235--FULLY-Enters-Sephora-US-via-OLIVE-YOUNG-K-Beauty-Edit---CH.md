@@ -2,7 +2,7 @@
 title: "Record 235 · FULLY-Enters-Sephora-US-via-OLIVE-YOUNG-K-Beauty-Edit---CHOSUNBIZ---Ch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.490218+00:00
+updated_at: 2026-09-03T00:28:42.117587+00:00
 tags: [{', '.join(tags)}]
 ---
 

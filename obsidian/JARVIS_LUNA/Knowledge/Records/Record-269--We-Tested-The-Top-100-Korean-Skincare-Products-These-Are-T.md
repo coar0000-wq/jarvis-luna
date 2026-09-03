@@ -2,7 +2,7 @@
 title: "Record 269 · We-Tested-The-Top-100-Korean-Skincare-Products-These-Are-The-10-That-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.493287+00:00
+updated_at: 2026-09-03T00:28:42.123094+00:00
 tags: [{', '.join(tags)}]
 ---
 

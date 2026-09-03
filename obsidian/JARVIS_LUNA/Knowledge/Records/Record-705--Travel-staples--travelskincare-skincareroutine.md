@@ -2,7 +2,7 @@
 title: "Record 705 · Travel-staples--travelskincare-skincareroutine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.533767+00:00
+updated_at: 2026-09-03T00:28:42.185529+00:00
 tags: [{', '.join(tags)}]
 ---
 

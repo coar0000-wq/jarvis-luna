@@ -2,7 +2,7 @@
 title: "Record 691 · I-Bought-A-Product-From-This-Viral-AI-UGC-Ad"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.532503+00:00
+updated_at: 2026-09-03T00:28:42.183638+00:00
 tags: [{', '.join(tags)}]
 ---
 

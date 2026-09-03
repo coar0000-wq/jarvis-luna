@@ -2,7 +2,7 @@
 title: "Record 579 · 12-best-Korean-skincare-products-tested-by-a-beauty-writer---The-Indep"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.522192+00:00
+updated_at: 2026-09-03T00:28:42.168296+00:00
 tags: [{', '.join(tags)}]
 ---
 

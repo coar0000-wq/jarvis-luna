@@ -2,7 +2,7 @@
 title: "Record 760 · Dropshipping--Seedance-25--192871-WTF-Its-Crazy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.538608+00:00
+updated_at: 2026-09-03T00:28:42.192937+00:00
 tags: [{', '.join(tags)}]
 ---
 

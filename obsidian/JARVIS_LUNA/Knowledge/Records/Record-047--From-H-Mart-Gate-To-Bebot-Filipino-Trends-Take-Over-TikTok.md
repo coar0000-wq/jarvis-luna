@@ -2,7 +2,7 @@
 title: "Record 047 · From-H-Mart-Gate-To-Bebot-Filipino-Trends-Take-Over-TikTok-But-Where-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.475459+00:00
+updated_at: 2026-09-03T00:28:42.089573+00:00
 tags: [{', '.join(tags)}]
 ---
 

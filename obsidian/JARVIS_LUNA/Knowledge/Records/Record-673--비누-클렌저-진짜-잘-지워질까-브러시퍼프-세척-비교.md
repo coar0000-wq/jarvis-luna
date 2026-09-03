@@ -2,7 +2,7 @@
 title: "Record 673 · 비누-클렌저-진짜-잘-지워질까-브러시퍼프-세척-비교"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.530879+00:00
+updated_at: 2026-09-03T00:28:42.181235+00:00
 tags: [{', '.join(tags)}]
 ---
 

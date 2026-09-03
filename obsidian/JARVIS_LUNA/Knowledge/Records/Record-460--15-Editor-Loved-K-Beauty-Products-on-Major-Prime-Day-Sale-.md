@@ -2,7 +2,7 @@
 title: "Record 460 · 15-Editor-Loved-K-Beauty-Products-on-Major-Prime-Day-Sale---Yahoo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.510969+00:00
+updated_at: 2026-09-03T00:28:42.151962+00:00
 tags: [{', '.join(tags)}]
 ---
 

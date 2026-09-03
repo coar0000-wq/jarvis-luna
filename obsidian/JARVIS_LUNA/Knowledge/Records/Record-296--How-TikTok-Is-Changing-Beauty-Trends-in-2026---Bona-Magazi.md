@@ -2,7 +2,7 @@
 title: "Record 296 · How-TikTok-Is-Changing-Beauty-Trends-in-2026---Bona-Magazine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.495716+00:00
+updated_at: 2026-09-03T00:28:42.127609+00:00
 tags: [{', '.join(tags)}]
 ---
 

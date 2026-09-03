@@ -2,7 +2,7 @@
 title: "Record 788 · Claude-AI--Digital-Products--218974-WTF-It-Actually-Worked"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.541080+00:00
+updated_at: 2026-09-03T00:28:42.196689+00:00
 tags: [{', '.join(tags)}]
 ---
 

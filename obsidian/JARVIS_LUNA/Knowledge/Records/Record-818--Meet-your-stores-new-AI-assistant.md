@@ -2,7 +2,7 @@
 title: "Record 818 · Meet-your-stores-new-AI-assistant"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T22:15:40.544105+00:00
+updated_at: 2026-09-03T00:28:42.201129+00:00
 tags: [{', '.join(tags)}]
 ---
 
