@@ -2,7 +2,7 @@
 title: "Record 104 · 7-K-Beauty-Trends-Shaping-2026---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:35:16.479565+00:00
+updated_at: 2026-09-03T04:52:06.202221+00:00
 tags: [{', '.join(tags)}]
 ---
 

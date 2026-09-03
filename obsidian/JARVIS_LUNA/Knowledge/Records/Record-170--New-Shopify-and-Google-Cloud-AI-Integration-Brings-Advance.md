@@ -2,7 +2,7 @@
 title: "Record 170 · New-Shopify-and-Google-Cloud-AI-Integration-Brings-Advanced-Ecommerce-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:35:16.486004+00:00
+updated_at: 2026-09-03T04:52:06.213270+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 077 · As-K-beauty-continues-to-grow-by-expanding-its-export-market-to-the-US"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:35:16.477588+00:00
+updated_at: 2026-09-03T04:52:06.197903+00:00
 tags: [{', '.join(tags)}]
 ---
 
@@ -10,9 +10,9 @@ tags: [{', '.join(tags)}]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5nV254bll1NUcweTJEOWwxNUZpVzdnZnVmeU9OTy1fbWIzUDdpMklDSHBnSzlNaHpRb2hUU2hrc1Mya0xHRUFINlJrbmNiSVBxb1ZN?oc=5)
 
-**제목:** As K-beauty continues to grow by expanding its export market to the U.S. and Europe, there are mixed.. - mk.co.kr
+**제목:** As K-beauty continues to grow by expanding its export market to the U.S. and Europe, there are mixed.. - 매일경제
 
-As K-beauty continues to grow by expanding its export market to the U.S. and Europe, there are mixed.. - mk.co.kr
+As K-beauty continues to grow by expanding its export market to the U.S. and Europe, there are mixed.. - 매일경제
 
 **출처:** Source · Google Search
 

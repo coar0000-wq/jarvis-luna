@@ -8,39 +8,17 @@
     "recorded_at": "2026-08-23T05:21:53.378147+00:00"
   },
   "totals": {
-    "records": 963,
-    "notes": 982,
-    "links": 8037
+    "records": 964,
+    "notes": 983,
+    "links": 8045
   },
   "last_snapshot": {
-    "records": 963,
-    "notes": 982,
-    "links": 8037,
-    "recorded_at": "2026-09-03T13:39:52.753047+09:00"
+    "records": 964,
+    "notes": 983,
+    "links": 8045,
+    "recorded_at": "2026-09-03T13:57:43.299987+09:00"
   },
   "runs": [
-    {
-      "at": "2026-08-27T08:56:21.757517+09:00",
-      "records": 73,
-      "notes": 90,
-      "links": 737,
-      "added": {
-        "records": 0,
-        "notes": 0,
-        "links": 0
-      }
-    },
-    {
-      "at": "2026-08-27T15:32:39.029705+09:00",
-      "records": 73,
-      "notes": 90,
-      "links": 737,
-      "added": {
-        "records": 0,
-        "notes": 0,
-        "links": 0
-      }
-    },
     {
       "at": "2026-08-27T15:32:51.795119+09:00",
       "records": 73,
@@ -1008,7 +986,29 @@
         "notes": 66,
         "links": 540
       }
+    },
+    {
+      "at": "2026-09-03T13:52:06.469768+09:00",
+      "records": 964,
+      "notes": 983,
+      "links": 8045,
+      "added": {
+        "records": 1,
+        "notes": 1,
+        "links": 8
+      }
+    },
+    {
+      "at": "2026-09-03T13:57:43.299987+09:00",
+      "records": 964,
+      "notes": 983,
+      "links": 8045,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
     }
   ],
-  "updated_at": "2026-09-03T13:39:52.753047+09:00"
+  "updated_at": "2026-09-03T13:57:43.299987+09:00"
 }
