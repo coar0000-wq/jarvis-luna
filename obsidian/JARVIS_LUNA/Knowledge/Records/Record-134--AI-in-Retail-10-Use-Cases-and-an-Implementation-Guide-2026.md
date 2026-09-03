@@ -2,13 +2,13 @@
 title: "Record 134 · AI-in-Retail-10-Use-Cases-and-an-Implementation-Guide-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-02T12:13:33.356802+00:00
+updated_at: 2026-09-03T11:16:49.565426+00:00
 tags: [{', '.join(tags)}]
 ---
 
 # Record 134 · AI-in-Retail-10-Use-Cases-and-an-Implementation-Guide-2026---Shopify
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZkFVX3lxTE45V1g4ZmNjR01GNmZ6UnVZT0lXc2lqQUxKMlFOZ1ZSUmNTZ0w2Q1l0UGphaG9jUW9jU0JnNXEtaWlBYl9aaDN5TEdyX2xDbVlJSkFQQVVrTXNvelNubVh5WmctRHhodw?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BZWJpbmRtY3NGOHlXajBRNkZMMi1kSmNweW5lYWYzMTdBd08waWVVR3JFZVBvck1GMGdiMlQwZWZMa1RDUVdNT0J1VmU0NDM5Ymc2TDNoMjB3dUpyU0hxc0FR?oc=5)
 
 **제목:** AI in Retail: 10 Use Cases and an Implementation Guide (2026) - Shopify
 
