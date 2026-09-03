@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T22:49:17.173720+00:00",
+  "generated_at": "2026-09-03T22:47:56.106655+00:00",
   "generator": "scripts/collect_via_gemini.py",
   "model": "",
   "method": "Gemini API url_context 도구",
@@ -22,7 +22,7 @@
       "robots_note": "sephora.com robots.txt: /browse/ 와 /search 금지, Crawl-delay 5",
       "count": 0,
       "status": "failed",
-      "reason": "HTTP 404: {\"error\":{\"message\":\"Model '' not found. Did you mean 'lyria-3-pro-preview'? Please verify the model name against the supported list: https://ai.google.dev/gemini-api/docs/models\",\"code\":\"not_found\"}}",
+      "reason": "HTTP 404: {\"error\":{\"message\":\"Model '' not found. Did you mean 'gemini-2.5-computer-use-preview-10-2025'? Please verify the model name against the supported list: https://ai.google.dev/gemini-api/docs/models\",\"code\":\"not_found\"}}",
       "url_context_result": "",
       "products": []
     }
