@@ -2,7 +2,7 @@
 title: "Record 472 · LOTTE-K-Beauty-Pop-Up-Opens-at-The-Grove-in-Los-Angeles---lamagcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.263690+00:00
+updated_at: 2026-09-03T09:24:36.696861+00:00
 tags: [{', '.join(tags)}]
 ---
 

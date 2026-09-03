@@ -2,7 +2,7 @@
 title: "Record 272 · K-Beauty-Product-Market---Future-Market-Insights"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.230231+00:00
+updated_at: 2026-09-03T09:24:36.677220+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 690 · 오늘-올리브영-단-하루-특가속건조-싹-잡는-판테놀-11-혜택"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.300075+00:00
+updated_at: 2026-09-03T09:24:36.735472+00:00
 tags: [{', '.join(tags)}]
 ---
 

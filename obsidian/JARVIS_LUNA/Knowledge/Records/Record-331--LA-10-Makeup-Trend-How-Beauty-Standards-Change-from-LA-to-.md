@@ -2,7 +2,7 @@
 title: "Record 331 · LA-10-Makeup-Trend-How-Beauty-Standards-Change-from-LA-to-London---nss"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.240095+00:00
+updated_at: 2026-09-03T09:24:36.681785+00:00
 tags: [{', '.join(tags)}]
 ---
 

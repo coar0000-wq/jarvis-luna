@@ -2,7 +2,7 @@
 title: "Record 360 · Key-Digital-Transformation-Challenges-in-Ecommerce-for-2026-and-How-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.244945+00:00
+updated_at: 2026-09-03T09:24:36.688691+00:00
 tags: [{', '.join(tags)}]
 ---
 

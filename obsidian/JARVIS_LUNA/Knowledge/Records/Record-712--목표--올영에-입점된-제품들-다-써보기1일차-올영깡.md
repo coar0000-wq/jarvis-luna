@@ -2,7 +2,7 @@
 title: "Record 712 · 목표--올영에-입점된-제품들-다-써보기1일차-올영깡"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.303773+00:00
+updated_at: 2026-09-03T09:24:36.737413+00:00
 tags: [{', '.join(tags)}]
 ---
 

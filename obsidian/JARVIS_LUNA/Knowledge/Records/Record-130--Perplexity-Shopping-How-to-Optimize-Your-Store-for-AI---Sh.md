@@ -2,7 +2,7 @@
 title: "Record 130 · Perplexity-Shopping-How-to-Optimize-Your-Store-for-AI---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.206551+00:00
+updated_at: 2026-09-03T09:24:36.658775+00:00
 tags: [{', '.join(tags)}]
 ---
 

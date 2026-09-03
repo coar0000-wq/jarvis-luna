@@ -2,7 +2,7 @@
 title: "Record 603 · Latte-Makeup-Is-TikToks-Latest-Beauty-Trend-Heres-How-To-Get-The-Look-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.285564+00:00
+updated_at: 2026-09-03T09:24:36.727719+00:00
 tags: [{', '.join(tags)}]
 ---
 

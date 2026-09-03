@@ -2,7 +2,7 @@
 title: "Record 303 · Olive-Young-Festa-Draws-100000-Visitors-at-KCON-LA-2026-Expanding-K-Be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.235410+00:00
+updated_at: 2026-09-03T09:24:36.679751+00:00
 tags: [{', '.join(tags)}]
 ---
 

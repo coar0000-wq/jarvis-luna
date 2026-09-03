@@ -2,7 +2,7 @@
 title: "Record 583 · A-beauty-reporters-guide-to-the-best-in-K-beauty-starting-at-18---New-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.282198+00:00
+updated_at: 2026-09-03T09:24:36.726153+00:00
 tags: [{', '.join(tags)}]
 ---
 

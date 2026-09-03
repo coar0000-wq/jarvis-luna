@@ -2,7 +2,7 @@
 title: "Record 270 · 15-K-Beauty-Products-Allure-Readers-Are-Obsessed-With---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.229908+00:00
+updated_at: 2026-09-03T09:24:36.677071+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 585 · Beyond-TikTok-PH-Beauty-industrys-global-ambition---ABS-CBN"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.282546+00:00
+updated_at: 2026-09-03T09:24:36.726304+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 710 · 3-Korean-Skincare-Myths-Everyone-Believes-skincare-kbeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.303462+00:00
+updated_at: 2026-09-03T09:24:36.737235+00:00
 tags: [{', '.join(tags)}]
 ---
 

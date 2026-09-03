@@ -2,7 +2,7 @@
 title: "Record 697 · 수영인의-올영-기획세트-추천-올영추천템-기획세트"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.301239+00:00
+updated_at: 2026-09-03T09:24:36.736117+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 695 · Global-1-vs--Korea-1--Pick-One---Part-4"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.300918+00:00
+updated_at: 2026-09-03T09:24:36.735934+00:00
 tags: [{', '.join(tags)}]
 ---
 

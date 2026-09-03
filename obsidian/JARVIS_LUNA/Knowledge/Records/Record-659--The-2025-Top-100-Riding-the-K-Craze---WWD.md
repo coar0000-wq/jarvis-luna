@@ -2,7 +2,7 @@
 title: "Record 659 · The-2025-Top-100-Riding-the-K-Craze---WWD"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.294907+00:00
+updated_at: 2026-09-03T09:24:36.732677+00:00
 tags: [{', '.join(tags)}]
 ---
 

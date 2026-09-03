@@ -2,7 +2,7 @@
 title: "AI Image Generation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.359362+00:00
+updated_at: 2026-09-03T09:24:36.771094+00:00
 tags: [{', '.join(tags)}]
 ---
 
@@ -17,22 +17,22 @@ tags: [{', '.join(tags)}]
 - [[Record-024--Reconciling-Process-Supervision-with-Outcome-Based-Credit-]]
 - [[Record-250--Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---Shopi]]
 - [[Record-641--Shopify-Faces-Generative-AI-eCommerce-Competition-with-10W]]
-- [[Record-872--MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use]]
-- [[Record-877--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]]
-- [[Record-880--G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pati]]
-- [[Record-915--Anatomy-Informed-Neural-Networks-Encoding-Anatomic-Priors-]]
-- [[Record-918--Asymmetric-Capacity-Allocation-in-Self-Refinement-Pipeline]]
-- [[Record-921--AI-with-Authority-from-Application-to-Silicon]]
-- [[Record-922--VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-i]]
-- [[Record-927--ConvergeFlow-Language-Flow-with-Provable-Convergence-to-To]]
-- [[Record-929--Provably-adaptive-sampling-with-uniform-and-remasking-disc]]
-- [[Record-931--EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safe]]
-- [[Record-937--LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-Multimo]]
-- [[Record-940--Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augme]]
-- [[Record-944--What-FID-Hides-Detecting-Ranking-and-Diagnosing-Deviations]]
-- [[Record-954--VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native-Visual]]
-- [[Record-957--Learning-a-Continuous-Sepsis-Severity-Score-Without-Hour-b]]
+- [[Record-874--MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use]]
+- [[Record-879--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]]
+- [[Record-882--G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pati]]
+- [[Record-917--Anatomy-Informed-Neural-Networks-Encoding-Anatomic-Priors-]]
+- [[Record-920--Asymmetric-Capacity-Allocation-in-Self-Refinement-Pipeline]]
+- [[Record-923--AI-with-Authority-from-Application-to-Silicon]]
+- [[Record-924--VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-i]]
+- [[Record-929--ConvergeFlow-Language-Flow-with-Provable-Convergence-to-To]]
+- [[Record-931--Provably-adaptive-sampling-with-uniform-and-remasking-disc]]
+- [[Record-933--EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safe]]
+- [[Record-939--LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-Multimo]]
+- [[Record-942--Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augme]]
+- [[Record-946--What-FID-Hides-Detecting-Ranking-and-Diagnosing-Deviations]]
+- [[Record-956--VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native-Visual]]
+- [[Record-959--Learning-a-Continuous-Sepsis-Severity-Score-Without-Hour-b]]
 
 ## Connected nodes
 
-[[Record-009--ARC-CT-Anatomy-Routed-Contrastive-Vision-Language-Learning]] [[Record-015--Texture-Image-Classification-Using-DWT-AlexNet-Feature-Fus]] [[Record-016--InstructMesh-Selective-Refinement-of-Generative-3D-Models-]] [[Record-018--Video-Generative-Models-as-Geometry-Learner]] [[Record-024--Reconciling-Process-Supervision-with-Outcome-Based-Credit-]] [[Record-250--Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---Shopi]] [[Record-641--Shopify-Faces-Generative-AI-eCommerce-Competition-with-10W]] [[Record-872--MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use]] [[Record-877--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]] [[Record-880--G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pati]] [[Record-915--Anatomy-Informed-Neural-Networks-Encoding-Anatomic-Priors-]] [[Record-918--Asymmetric-Capacity-Allocation-in-Self-Refinement-Pipeline]] [[Record-921--AI-with-Authority-from-Application-to-Silicon]] [[Record-922--VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-i]] [[Record-927--ConvergeFlow-Language-Flow-with-Provable-Convergence-to-To]] [[Record-929--Provably-adaptive-sampling-with-uniform-and-remasking-disc]] [[Record-931--EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safe]] [[Record-937--LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-Multimo]] [[Record-940--Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augme]] [[Record-944--What-FID-Hides-Detecting-Ranking-and-Diagnosing-Deviations]] [[Record-954--VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native-Visual]] [[Record-957--Learning-a-Continuous-Sepsis-Severity-Score-Without-Hour-b]] [[Source--Google-Search]] [[Source--arXiv]] [[JARVIS Real Knowledge Index]]
+[[Record-009--ARC-CT-Anatomy-Routed-Contrastive-Vision-Language-Learning]] [[Record-015--Texture-Image-Classification-Using-DWT-AlexNet-Feature-Fus]] [[Record-016--InstructMesh-Selective-Refinement-of-Generative-3D-Models-]] [[Record-018--Video-Generative-Models-as-Geometry-Learner]] [[Record-024--Reconciling-Process-Supervision-with-Outcome-Based-Credit-]] [[Record-250--Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---Shopi]] [[Record-641--Shopify-Faces-Generative-AI-eCommerce-Competition-with-10W]] [[Record-874--MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use]] [[Record-879--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha]] [[Record-882--G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pati]] [[Record-917--Anatomy-Informed-Neural-Networks-Encoding-Anatomic-Priors-]] [[Record-920--Asymmetric-Capacity-Allocation-in-Self-Refinement-Pipeline]] [[Record-923--AI-with-Authority-from-Application-to-Silicon]] [[Record-924--VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-i]] [[Record-929--ConvergeFlow-Language-Flow-with-Provable-Convergence-to-To]] [[Record-931--Provably-adaptive-sampling-with-uniform-and-remasking-disc]] [[Record-933--EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safe]] [[Record-939--LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-Multimo]] [[Record-942--Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augme]] [[Record-946--What-FID-Hides-Detecting-Ranking-and-Diagnosing-Deviations]] [[Record-956--VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native-Visual]] [[Record-959--Learning-a-Continuous-Sepsis-Severity-Score-Without-Hour-b]] [[Source--Google-Search]] [[Source--arXiv]] [[JARVIS Real Knowledge Index]]

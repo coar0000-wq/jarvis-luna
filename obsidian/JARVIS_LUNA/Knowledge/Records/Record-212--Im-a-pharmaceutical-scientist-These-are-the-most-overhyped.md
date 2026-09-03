@@ -2,7 +2,7 @@
 title: "Record 212 · Im-a-pharmaceutical-scientist-These-are-the-most-overhyped-skincare-tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.220167+00:00
+updated_at: 2026-09-03T09:24:36.664856+00:00
 tags: [{', '.join(tags)}]
 ---
 

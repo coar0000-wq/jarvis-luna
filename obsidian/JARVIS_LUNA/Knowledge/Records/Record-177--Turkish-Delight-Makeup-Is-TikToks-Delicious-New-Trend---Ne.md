@@ -2,7 +2,7 @@
 title: "Record 177 · Turkish-Delight-Makeup-Is-TikToks-Delicious-New-Trend---NewBeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.214382+00:00
+updated_at: 2026-09-03T09:24:36.662404+00:00
 tags: [{', '.join(tags)}]
 ---
 

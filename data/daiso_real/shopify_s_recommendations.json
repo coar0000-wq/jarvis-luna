@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-03T04:57:43.529311+00:00",
+  "generated_at": "2026-09-03T09:29:18.933142+00:00",
   "source": "score_shopify_demand.py",
   "rule": "grade == S (core category + global match)",
-  "count": 49,
+  "count": 47,
   "priority_note": "S등급만. Shopify 우선 등록·테스트 후보.",
   "recommendations": [
     {
@@ -514,27 +514,6 @@
     },
     {
       "rank": 25,
-      "pd_no": "1062141",
-      "name": "네시픽 화이트닝 모이스처크림 50 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 96,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062141",
-      "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 50% · 토큰 cream",
-      "matched_global": {
-        "channel": "sephora",
-        "global_product": "베네피앙스 링클 스무딩 아이 크림",
-        "similarity": 0.5,
-        "demand_weight": 0.81,
-        "matched_tokens": [
-          "cream"
-        ],
-        "match_score": 0.405
-      }
-    },
-    {
-      "rank": 26,
       "pd_no": "1061922",
       "name": "본셉 비타씨 젤리 마스크 1매 23 g",
       "bucket": "마스크팩",
@@ -555,7 +534,7 @@
       }
     },
     {
-      "rank": 27,
+      "rank": 26,
       "pd_no": "1032881",
       "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
       "bucket": "마스크팩",
@@ -576,7 +555,7 @@
       }
     },
     {
-      "rank": 28,
+      "rank": 27,
       "pd_no": "1072803",
       "name": "케어존플러스 모공탄력 수분크림 75 ml",
       "bucket": "스킨케어",
@@ -594,6 +573,27 @@
           "cream"
         ],
         "match_score": 0.283
+      }
+    },
+    {
+      "rank": 28,
+      "pd_no": "1062141",
+      "name": "네시픽 화이트닝 모이스처크림 50 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 95,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062141",
+      "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 50% · 토큰 cream",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "베네피앙스 링클 스무딩 아이 크림",
+        "similarity": 0.5,
+        "demand_weight": 0.81,
+        "matched_tokens": [
+          "cream"
+        ],
+        "match_score": 0.405
       }
     },
     {
@@ -619,27 +619,6 @@
     },
     {
       "rank": 30,
-      "pd_no": "1048042",
-      "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
-      "bucket": "메이크업",
-      "price_krw": 5000,
-      "shopify_score": 94,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048042",
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "TIRTIR Mask Fit Red Cushion",
-        "similarity": 0.733,
-        "demand_weight": 1.0,
-        "matched_tokens": [
-          "cushion"
-        ],
-        "match_score": 0.733
-      }
-    },
-    {
-      "rank": 31,
       "pd_no": "1049295",
       "name": "[진정수분버블]VT 시카 버블 스파클링 부스터 10 g 4개입",
       "bucket": "마스크팩",
@@ -660,7 +639,7 @@
       }
     },
     {
-      "rank": 32,
+      "rank": 31,
       "pd_no": "1038603",
       "name": "식물원 병풀 클리어 마스크 시트",
       "bucket": "마스크팩",
@@ -681,7 +660,7 @@
       }
     },
     {
-      "rank": 33,
+      "rank": 32,
       "pd_no": "1068733",
       "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
       "bucket": "스킨케어",
@@ -702,7 +681,7 @@
       }
     },
     {
-      "rank": 34,
+      "rank": 33,
       "pd_no": "1011177",
       "name": "3M 세이프그립 다목적 안전장갑 M",
       "bucket": "메이크업",
@@ -720,6 +699,27 @@
           "lip"
         ],
         "match_score": 0.66
+      }
+    },
+    {
+      "rank": 34,
+      "pd_no": "1048042",
+      "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
+      "bucket": "메이크업",
+      "price_krw": 5000,
+      "shopify_score": 92,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048042",
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.733,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "cushion"
+        ],
+        "match_score": 0.733
       }
     },
     {
@@ -892,27 +892,6 @@
     },
     {
       "rank": 43,
-      "pd_no": "1067022",
-      "name": "온더바디 국민뷰티템 익스트림쿨링 풋샴푸 390 ml",
-      "bucket": "헤어케어",
-      "price_krw": 5000,
-      "shopify_score": 87,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067022",
-      "recommend_reason": "글로벌 'LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)' (oliveyoung_us) 유사 70% · 토큰 shampoo",
-      "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)",
-        "similarity": 0.7,
-        "demand_weight": 0.637,
-        "matched_tokens": [
-          "shampoo"
-        ],
-        "match_score": 0.446
-      }
-    },
-    {
-      "rank": 44,
       "pd_no": "1060505",
       "name": "밀크터치 디어씽 글로우 이펙트 립 플럼퍼(02 오로라빔)",
       "bucket": "메이크업",
@@ -933,28 +912,7 @@
       }
     },
     {
-      "rank": 45,
-      "pd_no": "1053844",
-      "name": "[펫] 휘슬 허브4 약용샴푸 500ml",
-      "bucket": "헤어케어",
-      "price_krw": 5000,
-      "shopify_score": 85,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053844",
-      "recommend_reason": "글로벌 'LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)' (oliveyoung_us) 유사 70% · 토큰 shampoo",
-      "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)",
-        "similarity": 0.7,
-        "demand_weight": 0.637,
-        "matched_tokens": [
-          "shampoo"
-        ],
-        "match_score": 0.446
-      }
-    },
-    {
-      "rank": 46,
+      "rank": 44,
       "pd_no": "1047492",
       "name": "그립 만능렌치(210 mm)",
       "bucket": "메이크업",
@@ -975,7 +933,7 @@
       }
     },
     {
-      "rank": 47,
+      "rank": 45,
       "pd_no": "1056662",
       "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
       "bucket": "헤어케어",
@@ -996,7 +954,7 @@
       }
     },
     {
-      "rank": 48,
+      "rank": 46,
       "pd_no": "1044846",
       "name": "트윙클팝 오버 립 펜슬 웜 살몬 by CLIO",
       "bucket": "메이크업",
@@ -1017,7 +975,7 @@
       }
     },
     {
-      "rank": 49,
+      "rank": 47,
       "pd_no": "1009705",
       "name": "NITEX 그립 코팅장갑 LITE L",
       "bucket": "메이크업",

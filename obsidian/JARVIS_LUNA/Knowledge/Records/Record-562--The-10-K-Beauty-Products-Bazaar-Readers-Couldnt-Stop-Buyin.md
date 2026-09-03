@@ -2,7 +2,7 @@
 title: "Record 562 · The-10-K-Beauty-Products-Bazaar-Readers-Couldnt-Stop-Buying---Harpers-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.278689+00:00
+updated_at: 2026-09-03T09:24:36.724435+00:00
 tags: [{', '.join(tags)}]
 ---
 

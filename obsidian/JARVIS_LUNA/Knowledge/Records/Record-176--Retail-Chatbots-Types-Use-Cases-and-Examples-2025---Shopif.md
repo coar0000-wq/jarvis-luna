@@ -2,7 +2,7 @@
 title: "Record 176 · Retail-Chatbots-Types-Use-Cases-and-Examples-2025---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.214187+00:00
+updated_at: 2026-09-03T09:24:36.662326+00:00
 tags: [{', '.join(tags)}]
 ---
 

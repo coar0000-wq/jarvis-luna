@@ -2,7 +2,7 @@
 title: "Record 635 · Yep-AI-Launches-247-AI-Sales-Agent-on-Shopify-App-Store---Business-Wir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.290825+00:00
+updated_at: 2026-09-03T09:24:36.730648+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 262 · I-Tried-320-Of-Medicube-Korean-Skincare---Now-I-Get-The-Hype---Refiner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.228568+00:00
+updated_at: 2026-09-03T09:24:36.676399+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 292 · 2026s-Top-Beauty-Trends-Are-Coming-Straight-Out-of-2006---Who-What-Wea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.233617+00:00
+updated_at: 2026-09-03T09:24:36.678880+00:00
 tags: [{', '.join(tags)}]
 ---
 

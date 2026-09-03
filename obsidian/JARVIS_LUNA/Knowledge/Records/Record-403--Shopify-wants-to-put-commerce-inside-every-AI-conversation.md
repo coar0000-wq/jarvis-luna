@@ -2,7 +2,7 @@
 title: "Record 403 · Shopify-wants-to-put-commerce-inside-every-AI-conversation---martechor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.252063+00:00
+updated_at: 2026-09-03T09:24:36.691667+00:00
 tags: [{', '.join(tags)}]
 ---
 

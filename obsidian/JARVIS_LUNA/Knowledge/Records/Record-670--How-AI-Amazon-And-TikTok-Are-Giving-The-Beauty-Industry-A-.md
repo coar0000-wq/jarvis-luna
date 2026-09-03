@@ -2,7 +2,7 @@
 title: "Record 670 · How-AI-Amazon-And-TikTok-Are-Giving-The-Beauty-Industry-A-Makeover---F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T04:52:06.296770+00:00
+updated_at: 2026-09-03T09:24:36.733659+00:00
 tags: [{', '.join(tags)}]
 ---
 
