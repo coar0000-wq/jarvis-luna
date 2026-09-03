@@ -2,7 +2,7 @@
 title: "Record 300 · Matcha-Make-up-the-new-natural-and-sophisticated-beauty-trend---nss-G-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T17:27:40.297628+00:00
+updated_at: 2026-09-03T20:02:05.835806+00:00
 tags: [{', '.join(tags)}]
 ---
 

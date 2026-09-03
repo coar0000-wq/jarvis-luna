@@ -2,7 +2,7 @@
 title: "Record 150 · Cherry-Blossom-Blush-Is-The-Romantic-Makeup-Trend-Taking-Over-TikTok--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T17:27:40.271630+00:00
+updated_at: 2026-09-03T20:02:05.809287+00:00
 tags: [{', '.join(tags)}]
 ---
 
@@ -10,9 +10,9 @@ tags: [{', '.join(tags)}]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aanRxOVlCQURaOW9qOXQwNEVLU1pJa0EtLWJjaU1wcXZhaGo4RHFsdXc3LVlvWjI5TTBaS0IxcjBfblBYX0FFeEpRRkN3ZV9ocWVlMW5fZjNieEYzWkhRZzhOXzFTWGc?oc=5)
 
-**제목:** "Cherry Blossom Blush" Is The Romantic Makeup Trend Taking Over TikTok - bustle.com
+**제목:** "Cherry Blossom Blush" Is The Romantic Makeup Trend Taking Over TikTok - Bustle
 
-"Cherry Blossom Blush" Is The Romantic Makeup Trend Taking Over TikTok - bustle.com
+"Cherry Blossom Blush" Is The Romantic Makeup Trend Taking Over TikTok - Bustle
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record 392 · 33-Turn-to-AI-Shopify-UCP-Advances-AI-Powered-Shopping---DesignRush"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T17:27:40.314140+00:00
+updated_at: 2026-09-03T20:02:05.852036+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -1,18 +1,18 @@
 ---
-title: "Record 091 · Gentle-allure-how-the-internet-is-adopting-the-demure-beauty-trend---r"
+title: "Record 091 · Gentle-allure-how-the-internet-is-adopting-the-demure-beauty-trend---R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T17:27:40.261429+00:00
+updated_at: 2026-09-03T20:02:05.798963+00:00
 tags: [{', '.join(tags)}]
 ---
 
-# Record 091 · Gentle-allure-how-the-internet-is-adopting-the-demure-beauty-trend---r
+# Record 091 · Gentle-allure-how-the-internet-is-adopting-the-demure-beauty-trend---R
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2aHRscWZyZ3Y5eEVaUkVwMDUwY0Q2NmlFcWd0R3hETFZiVTd5NExCQVhmM1F1RWxqaWxRaFFFMVozU2NadGxGN3NvRTg4X0NrS3NmYg?oc=5)
 
-**제목:** Gentle allure: how the internet is adopting the ‘demure’ beauty trend - russh.com
+**제목:** Gentle allure: how the internet is adopting the ‘demure’ beauty trend - RUSSH
 
-Gentle allure: how the internet is adopting the ‘demure’ beauty trend - russh.com
+Gentle allure: how the internet is adopting the ‘demure’ beauty trend - RUSSH
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record 229 · I-Test-Korean-Skin-Care-Products-for-a-LivingThese-Are-My-10-Favorites"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T17:27:40.285277+00:00
+updated_at: 2026-09-03T20:02:05.823250+00:00
 tags: [{', '.join(tags)}]
 ---
 

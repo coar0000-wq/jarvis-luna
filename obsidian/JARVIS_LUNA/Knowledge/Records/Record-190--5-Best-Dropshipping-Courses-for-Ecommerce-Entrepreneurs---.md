@@ -2,7 +2,7 @@
 title: "Record 190 · 5-Best-Dropshipping-Courses-for-Ecommerce-Entrepreneurs---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T17:27:40.278540+00:00
+updated_at: 2026-09-03T20:02:05.816320+00:00
 tags: [{', '.join(tags)}]
 ---
 

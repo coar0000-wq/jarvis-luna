@@ -2,13 +2,13 @@
 title: "Record 420 · Most-Retailers-Are-Getting-Half-Baked-AI-Insights-Heres-the-Fix---Shop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T16:27:22.581800+00:00
+updated_at: 2026-09-03T20:02:05.856964+00:00
 tags: [{', '.join(tags)}]
 ---
 
 # Record 420 · Most-Retailers-Are-Getting-Half-Baked-AI-Insights-Heres-the-Fix---Shop
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiggFBVV95cUxQblVqUmN0Z0VaVTVVTFhCNGRndzlVT3JiaVZTeE5uYkxSbjNtOTYxRmhRYWhnU2RzOThmVFF6c2xzeEFHdTdLRExieUF2WElLZTlRTWVvbkltN1l2em11RXVMenBEZGVYREIyM0tBOFEtdFhiM0pBeGhWWFN0cy1ob0xB?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiggFBVV95cUxPckhGRWpNc1Vpa0luNUJ5UGcyWGNJVU00OURyTVFMZTZEOWQyYXk1UlhMVUJDZWQ3cW5VZldLeGlJb2VvV0RJci14eXdWR0FHRU45NXFVVlFBQ3VxZ00zZF8zTE5EazkwcG9adk5SRFVfNmZfdUxlbnRub0pEbHhVeWhR?oc=5)
 
 **제목:** Most Retailers Are Getting Half-Baked AI Insights. Here's the Fix. - Shopify
 

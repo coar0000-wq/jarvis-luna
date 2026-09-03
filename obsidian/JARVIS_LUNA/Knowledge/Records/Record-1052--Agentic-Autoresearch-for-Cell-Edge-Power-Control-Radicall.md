@@ -1,0 +1,22 @@
+---
+title: "Record 1052 · Agentic-Autoresearch-for-Cell-Edge-Power-Control-Radically-Redefining-"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-03T20:02:05.969877+00:00
+tags: [{', '.join(tags)}]
+---
+
+# Record 1052 · Agentic-Autoresearch-for-Cell-Edge-Power-Control-Radically-Redefining-
+
+> 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.26093v1)
+
+**제목:** Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Researcher's Role
+
+Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Researcher's Role
+Designing machine learning algorithms for wireless resource management is labour-intensive: the architecture, the loss function and the training recipe are all specified by hand. We demonstrate that this design layer can be surrendered to an autonomous agent in its entirety. We adopt the autoresearch protocol, in which an AI coding agent edits a training script, runs a fixed-budget experiment, and retains or discards the change according to a single immutable metric. We grant the agent authority over the architecture family, the input representation, the output parameterization, the loss function and the task-sampling law, and set it a target chosen for its difficulty: sum-least-percentile-rate power control across a multicell network. The formulation targets cell-edge throughput and is non-convex, non-smooth and strongly NP-hard away from its max-min vertex. Safeguards render the results trustworthy: a hash-pinned evaluator, an enforced inference contract and a pre-registered falsifier per experiment. In eighty-one unattended experiments over twenty-six hours, the agent reached $99.5\%$ of a converged minorization-maximization reference in one fixed-cost inference pass, at roughly $600\times$ lower inference cost, closing $94\%$ of the gap from its first working architecture, with one parameter set serving every network size and percentile target. It recovered provable structure rather than tuned constants: the output parameterization it discovered reproduces the exact max-min-optimal allocation at the minimum percentile, for every value of the trained weights.
+
+**출처:** Source · arXiv
+
+## Connected nodes
+
+[[Source--arXiv]] [[Machine-Learning-Research]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]

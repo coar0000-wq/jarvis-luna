@@ -2,7 +2,7 @@
 title: "Record 123 · Swamp-Beauty-Is-the-Next-Big-Makeup-Trend-To-Look-Out-For---NewBeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T17:27:40.266967+00:00
+updated_at: 2026-09-03T20:02:05.804550+00:00
 tags: [{', '.join(tags)}]
 ---
 

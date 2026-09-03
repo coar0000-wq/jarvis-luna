@@ -2,7 +2,7 @@
 title: "Record 360 · Guava-Girl-Summer-is-this-seasons-mood-boosting-beauty-trend---CBC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T17:27:40.308068+00:00
+updated_at: 2026-09-03T20:02:05.846384+00:00
 tags: [{', '.join(tags)}]
 ---
 

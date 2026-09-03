@@ -2,7 +2,7 @@
 title: "Record 135 · Chai-Latte-Makeup-Is-The-Warm--Spicy-Beauty-Trend-Taking-Over-TikTok--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T17:27:40.269032+00:00
+updated_at: 2026-09-03T20:02:05.806670+00:00
 tags: [{', '.join(tags)}]
 ---
 
@@ -10,9 +10,9 @@ tags: [{', '.join(tags)}]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBnRUlXdnZ6V3J5bWlReWVQa3NxOFVQamtxcFc0QnhnNFNjT1RiZXRncUpjMUVMUWpKZ0UyckM1djNscXJfUndhejBDcUdHczNneXU5aHdhMVRaTTJPb29KVWVnRQ?oc=5)
 
-**제목:** "Chai Latte" Makeup Is The Warm & Spicy Beauty Trend Taking Over TikTok - bustle.com
+**제목:** "Chai Latte" Makeup Is The Warm & Spicy Beauty Trend Taking Over TikTok - Bustle
 
-"Chai Latte" Makeup Is The Warm & Spicy Beauty Trend Taking Over TikTok - bustle.com
+"Chai Latte" Makeup Is The Warm & Spicy Beauty Trend Taking Over TikTok - Bustle
 
 **출처:** Source · Google Search
 

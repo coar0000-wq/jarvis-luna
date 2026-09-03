@@ -2,7 +2,7 @@
 title: "Record 283 · Im-a-Millennial-Woman-Embracing-Makeup-TrendsThanks-to-Gen-Z---Best-He"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T17:27:40.294643+00:00
+updated_at: 2026-09-03T20:02:05.832809+00:00
 tags: [{', '.join(tags)}]
 ---
 

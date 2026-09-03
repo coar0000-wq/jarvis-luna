@@ -2,7 +2,7 @@
 title: "Record 099 · Tuscan-Mom-Makeup-Is-Summers-Toastiest-Beauty-Trend---Bustle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T17:27:40.262826+00:00
+updated_at: 2026-09-03T20:02:05.800359+00:00
 tags: [{', '.join(tags)}]
 ---
 

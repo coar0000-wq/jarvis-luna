@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-03T17:27:36.015505+00:00",
+  "collected_at": "2026-09-03T20:02:00.402572+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -1208,19 +1208,6 @@
       "url": "https://world.openbeautyfacts.org/product/3346131400003"
     },
     {
-      "code": "3600551020419",
-      "product_name": "La Crème des peaux extra-sèches",
-      "brands": "Mixa",
-      "category": "핸드케어",
-      "obf_category": "hand-creams",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "Eau, glycérine, palmitate d'isopropyle (isopropyl palmitate), alcool cétéarylique (cetearyl alcohol), propanediol, glyceril stearate, diméthicone, esters de cétyle, huile d'amande douce (Prunus amygdalus dulcis), huile de noyau d'abricot (Prunus armeniaca), beurre de karité (Butyrospermum parkii), allantoïne, PEG-100 stearate, ammonium polyacryloyldimethyl taurate, hydroxyacetophenone, caprylyl glycol, acide citrique, gomme xanthane, parfum (FIL Z280662/1).",
-      "image_url": "https://images.openbeautyfacts.org/images/products/360/055/102/0419/front_en.21.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3600551020419"
-    },
-    {
       "code": "4005808801053",
       "product_name": "Nivea Creme",
       "brands": "Nivea",
@@ -1234,6 +1221,19 @@
       "ingredients_text": "Aqua, Paraffinum Liquidum, Cera Microcristallina, Glycerin, Lanolin Alcohol (Eucerit®), Paraffin, Panthenol, Magnesium Sulfate, Decyl Oleate, Octyldodecanol, Aluminum Stearates, Citric Acid, Magnesium Stearate, Limonene, Geraniol, Hydroxycitronellal, Linalool, Citronellol, Benzyl Benzoate, Cinnamyl Alcohol, Parfum",
       "image_url": "https://images.openbeautyfacts.org/images/products/400/580/880/1053/front_en.27.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/4005808801053"
+    },
+    {
+      "code": "3600551020419",
+      "product_name": "La Crème des peaux extra-sèches",
+      "brands": "Mixa",
+      "category": "핸드케어",
+      "obf_category": "hand-creams",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "Eau, glycérine, palmitate d'isopropyle (isopropyl palmitate), alcool cétéarylique (cetearyl alcohol), propanediol, glyceril stearate, diméthicone, esters de cétyle, huile d'amande douce (Prunus amygdalus dulcis), huile de noyau d'abricot (Prunus armeniaca), beurre de karité (Butyrospermum parkii), allantoïne, PEG-100 stearate, ammonium polyacryloyldimethyl taurate, hydroxyacetophenone, caprylyl glycol, acide citrique, gomme xanthane, parfum (FIL Z280662/1).",
+      "image_url": "https://images.openbeautyfacts.org/images/products/360/055/102/0419/front_en.21.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3600551020419"
     },
     {
       "code": "4012273123009",
@@ -1303,20 +1303,6 @@
       "url": "https://world.openbeautyfacts.org/product/3337872412684"
     },
     {
-      "code": "3574661365305",
-      "product_name": "Nutrition peaux très sèches",
-      "brands": "Le Petit Marseillais",
-      "category": "핸드케어",
-      "obf_category": "hand-creams",
-      "countries": [
-        "France",
-        "Morocco"
-      ],
-      "ingredients_text": "Aqua, Paraffinum Liquidum, Glycerin, Butyrospermum Parkii Butter, Prunus Amygdalus Dulcis Oil, Argania Spinosa Kernel Oil, Caprylyl Glycol, Hydrogenated Palm Glycerides, Potassium Cetyl Phosphate, Carbomer, Sodium Hydroxide, Citric Acid, Phenoxyethanol, Parfum [PR-0001914]",
-      "image_url": "https://images.openbeautyfacts.org/images/products/357/466/136/5305/front_fr.21.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3574661365305"
-    },
-    {
       "code": "8436024790016",
       "product_name": "Gel aloe Vera puro",
       "brands": "Atlantia",
@@ -1342,6 +1328,20 @@
       "ingredients_text": "Aqua (water) ; glycerin ; butyrospermum parkii (shea) butter ; polyglyceryl-3 dicitrate/stearate ; stearyl alcohol ; glyceryl stearate ; coco-caprylate ; tocopherol ; tocopheryl acetate ; carbomer ; xanthan gum ; parfum (fragrance) ; ethylhexylglycerin ; decylene glycol ; sodium benzoate ; sodium hydroxide ; limonene ; alpha-isomethyl ionone ; coumarin ; linalool",
       "image_url": "https://images.openbeautyfacts.org/images/products/354/962/102/0426/front_fr.7.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/3549621020426"
+    },
+    {
+      "code": "3574661365305",
+      "product_name": "Nutrition peaux très sèches",
+      "brands": "Le Petit Marseillais",
+      "category": "핸드케어",
+      "obf_category": "hand-creams",
+      "countries": [
+        "France",
+        "Morocco"
+      ],
+      "ingredients_text": "Aqua, Paraffinum Liquidum, Glycerin, Butyrospermum Parkii Butter, Prunus Amygdalus Dulcis Oil, Argania Spinosa Kernel Oil, Caprylyl Glycol, Hydrogenated Palm Glycerides, Potassium Cetyl Phosphate, Carbomer, Sodium Hydroxide, Citric Acid, Phenoxyethanol, Parfum [PR-0001914]",
+      "image_url": "https://images.openbeautyfacts.org/images/products/357/466/136/5305/front_fr.21.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3574661365305"
     },
     {
       "code": "4305615609997",
