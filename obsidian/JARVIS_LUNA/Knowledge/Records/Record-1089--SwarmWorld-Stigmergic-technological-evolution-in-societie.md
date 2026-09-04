@@ -2,7 +2,7 @@
 title: "Record 1089 · SwarmWorld-Stigmergic-technological-evolution-in-societies-of-language"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.397479+00:00
+updated_at: 2026-09-04T04:33:57.204004+00:00
 tags: [{', '.join(tags)}]
 ---
 

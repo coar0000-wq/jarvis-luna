@@ -2,7 +2,7 @@
 title: "Record 751 · K-Beauty-Product-Market-to-Reach-USD-2799943-Million-by-2032-Driven-by"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.342217+00:00
+updated_at: 2026-09-04T04:33:57.148912+00:00
 tags: [{', '.join(tags)}]
 ---
 

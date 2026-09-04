@@ -2,7 +2,7 @@
 title: "Record 465 · Everyone-in-the-know-is-using-these-bestselling-Korean-skincare-buys--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.296021+00:00
+updated_at: 2026-09-04T04:33:57.102915+00:00
 tags: [{', '.join(tags)}]
 ---
 

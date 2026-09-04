@@ -2,7 +2,7 @@
 title: "Record 437 · What-Is-a-Bebot-and-Why-Is-Everyone-on-TikTok-Turning-Into-One---Hypeb"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.291532+00:00
+updated_at: 2026-09-04T04:33:57.098371+00:00
 tags: [{', '.join(tags)}]
 ---
 

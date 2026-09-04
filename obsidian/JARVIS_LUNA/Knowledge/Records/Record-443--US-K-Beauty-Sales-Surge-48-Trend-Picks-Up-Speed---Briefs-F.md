@@ -2,7 +2,7 @@
 title: "Record 443 · US-K-Beauty-Sales-Surge-48-Trend-Picks-Up-Speed---Briefs-Finance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.292500+00:00
+updated_at: 2026-09-04T04:33:57.099342+00:00
 tags: [{', '.join(tags)}]
 ---
 

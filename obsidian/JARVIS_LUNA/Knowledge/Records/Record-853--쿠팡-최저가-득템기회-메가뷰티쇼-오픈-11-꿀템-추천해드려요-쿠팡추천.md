@@ -2,7 +2,7 @@
 title: "Record 853 · 쿠팡-최저가-득템기회-메가뷰티쇼-오픈-11-꿀템-추천해드려요-쿠팡추천"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.358705+00:00
+updated_at: 2026-09-04T04:33:57.165347+00:00
 tags: [{', '.join(tags)}]
 ---
 

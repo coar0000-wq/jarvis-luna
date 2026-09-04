@@ -2,7 +2,7 @@
 title: "Record 284 · TikToks-Icy-Glam-Makeup-Trend-Explained---Hypebae"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.266652+00:00
+updated_at: 2026-09-04T04:33:57.074106+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1088 · Gating-Before-Commitment-Anticipating-Intent-Divergence-to-Prevent-Pos"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.397288+00:00
+updated_at: 2026-09-04T04:33:57.203816+00:00
 tags: [{', '.join(tags)}]
 ---
 

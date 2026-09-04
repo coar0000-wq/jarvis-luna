@@ -2,7 +2,7 @@
 title: "Record 848 · 화장품-성분-분석-안심하고-내려놓았다가-피부-망합니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.357904+00:00
+updated_at: 2026-09-04T04:33:57.164555+00:00
 tags: [{', '.join(tags)}]
 ---
 

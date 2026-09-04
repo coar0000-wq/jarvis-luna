@@ -2,7 +2,7 @@
 title: "Record 092 · AI-Trends-in-2026-What-Businesses-Need-to-Know---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.235948+00:00
+updated_at: 2026-09-04T04:33:57.041751+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 866 · where-koreans-are-going-for-their-beauty--well-being-routine-sauna-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.360749+00:00
+updated_at: 2026-09-04T04:33:57.167442+00:00
 tags: [{', '.join(tags)}]
 ---
 

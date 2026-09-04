@@ -2,7 +2,7 @@
 title: "Record 426 · The-top-3-most-influential-TikTok-trends-in-beauty---Cosmetics-Busines"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.289771+00:00
+updated_at: 2026-09-04T04:33:57.096622+00:00
 tags: [{', '.join(tags)}]
 ---
 

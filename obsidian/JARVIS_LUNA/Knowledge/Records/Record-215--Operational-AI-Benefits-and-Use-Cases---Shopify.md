@@ -2,7 +2,7 @@
 title: "Record 215 · Operational-AI-Benefits-and-Use-Cases---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.255510+00:00
+updated_at: 2026-09-04T04:33:57.062596+00:00
 tags: [{', '.join(tags)}]
 ---
 

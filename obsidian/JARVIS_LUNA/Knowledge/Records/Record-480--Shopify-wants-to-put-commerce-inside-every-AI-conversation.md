@@ -2,7 +2,7 @@
 title: "Record 480 · Shopify-wants-to-put-commerce-inside-every-AI-conversation---MarTech"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.298441+00:00
+updated_at: 2026-09-04T04:33:57.105315+00:00
 tags: [{', '.join(tags)}]
 ---
 

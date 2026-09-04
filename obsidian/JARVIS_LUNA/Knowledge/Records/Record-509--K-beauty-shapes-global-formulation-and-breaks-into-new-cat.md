@@ -1,18 +1,18 @@
 ---
-title: "Record 509 · K-beauty-shapes-global-formulation-and-breaks-into-new-categories---pe"
+title: "Record 509 · K-beauty-shapes-global-formulation-and-breaks-into-new-categories---Pe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.303081+00:00
+updated_at: 2026-09-04T04:33:57.109928+00:00
 tags: [{', '.join(tags)}]
 ---
 
-# Record 509 · K-beauty-shapes-global-formulation-and-breaks-into-new-categories---pe
+# Record 509 · K-beauty-shapes-global-formulation-and-breaks-into-new-categories---Pe
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiigFBVV95cUxNRTQ1WG5LQ1BreXVHaDVkQUVtRzNzZU0wTU9UUzdCbjRoTU5abEpjSmlBZ0tvc2ZVZzVXUjJOdFZSWWZGNWVha0ZnLTNZRG5HdEJ3ZzIzWmMxSU92VVYzZ0x6LVhtOXliUTc2UF9zeHRmSlotNUtxMEJOM2pNV3RNZ2ZSWEoxalpCbnc?oc=5)
 
-**제목:** K-beauty shapes global formulation and breaks into new categories - personalcareinsights.com
+**제목:** K-beauty shapes global formulation and breaks into new categories - Personal Care Insights
 
-K-beauty shapes global formulation and breaks into new categories - personalcareinsights.com
+K-beauty shapes global formulation and breaks into new categories - Personal Care Insights
 
 **출처:** Source · Google Search
 

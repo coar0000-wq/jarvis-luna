@@ -2,7 +2,7 @@
 title: "Record 513 · Amazon-Updates-Its-K-Beauty-Online-Storefront---Happi--Household-And-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.303729+00:00
+updated_at: 2026-09-04T04:33:57.110585+00:00
 tags: [{', '.join(tags)}]
 ---
 

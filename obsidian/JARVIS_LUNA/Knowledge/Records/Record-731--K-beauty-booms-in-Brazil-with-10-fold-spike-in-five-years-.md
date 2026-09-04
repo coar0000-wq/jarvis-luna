@@ -2,7 +2,7 @@
 title: "Record 731 · K-beauty-booms-in-Brazil-with-10-fold-spike-in-five-years---Korea-Joon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.338972+00:00
+updated_at: 2026-09-04T04:33:57.145738+00:00
 tags: [{', '.join(tags)}]
 ---
 

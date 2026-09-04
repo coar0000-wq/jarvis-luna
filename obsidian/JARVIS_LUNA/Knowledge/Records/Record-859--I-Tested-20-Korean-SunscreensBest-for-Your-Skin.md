@@ -2,7 +2,7 @@
 title: "Record 859 · I-Tested-20-Korean-SunscreensBest-for-Your-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.359655+00:00
+updated_at: 2026-09-04T04:33:57.166293+00:00
 tags: [{', '.join(tags)}]
 ---
 

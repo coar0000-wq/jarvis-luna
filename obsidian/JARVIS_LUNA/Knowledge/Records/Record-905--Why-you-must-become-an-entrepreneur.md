@@ -2,7 +2,7 @@
 title: "Record 905 · Why-you-must-become-an-entrepreneur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.366897+00:00
+updated_at: 2026-09-04T04:33:57.173649+00:00
 tags: [{', '.join(tags)}]
 ---
 

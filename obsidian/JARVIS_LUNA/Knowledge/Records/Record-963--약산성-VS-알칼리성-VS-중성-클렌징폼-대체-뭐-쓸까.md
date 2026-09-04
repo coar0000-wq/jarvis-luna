@@ -2,7 +2,7 @@
 title: "Record 963 · 약산성-VS-알칼리성-VS-중성-클렌징폼-대체-뭐-쓸까"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.376126+00:00
+updated_at: 2026-09-04T04:33:57.182817+00:00
 tags: [{', '.join(tags)}]
 ---
 

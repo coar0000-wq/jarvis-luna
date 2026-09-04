@@ -2,7 +2,7 @@
 title: "Record 856 · 피부-뒤집어지면-누구-탓일까"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.359186+00:00
+updated_at: 2026-09-04T04:33:57.165805+00:00
 tags: [{', '.join(tags)}]
 ---
 

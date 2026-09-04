@@ -2,7 +2,7 @@
 title: "Record 581 · The-Top-Beauty-Trends-to-Watch-in-2025---The-Business-of-Fashion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.314673+00:00
+updated_at: 2026-09-04T04:33:57.121506+00:00
 tags: [{', '.join(tags)}]
 ---
 

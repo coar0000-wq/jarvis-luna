@@ -2,7 +2,7 @@
 title: "Record 1029 · Meet-our-new-all-in-one-POS-device"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.386984+00:00
+updated_at: 2026-09-04T04:33:57.193653+00:00
 tags: [{', '.join(tags)}]
 ---
 

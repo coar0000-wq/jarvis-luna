@@ -2,7 +2,7 @@
 title: "Record 864 · THE-OPENING-OF-new-applicationsstable-European-payment-methods-cjdrops"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.360454+00:00
+updated_at: 2026-09-04T04:33:57.167083+00:00
 tags: [{', '.join(tags)}]
 ---
 

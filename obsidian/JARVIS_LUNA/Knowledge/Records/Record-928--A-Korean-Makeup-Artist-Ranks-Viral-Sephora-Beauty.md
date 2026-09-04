@@ -2,7 +2,7 @@
 title: "Record 928 · A-Korean-Makeup-Artist-Ranks-Viral-Sephora-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.370561+00:00
+updated_at: 2026-09-04T04:33:57.177288+00:00
 tags: [{', '.join(tags)}]
 ---
 

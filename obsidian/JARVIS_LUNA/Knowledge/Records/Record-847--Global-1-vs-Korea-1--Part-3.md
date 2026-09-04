@@ -2,7 +2,7 @@
 title: "Record 847 · Global-1-vs-Korea-1--Part-3"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.357753+00:00
+updated_at: 2026-09-04T04:33:57.164401+00:00
 tags: [{', '.join(tags)}]
 ---
 

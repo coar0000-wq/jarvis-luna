@@ -2,7 +2,7 @@
 title: "Record 750 · Perplexity-Rolls-Out-Its-AI-Powered-Ecommerce-Experience-in-the-US---A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.342032+00:00
+updated_at: 2026-09-04T04:33:57.148751+00:00
 tags: [{', '.join(tags)}]
 ---
 

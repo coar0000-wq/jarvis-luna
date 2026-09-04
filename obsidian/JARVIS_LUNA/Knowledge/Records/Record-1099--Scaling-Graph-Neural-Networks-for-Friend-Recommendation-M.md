@@ -2,7 +2,7 @@
 title: "Record 1099 · Scaling-Graph-Neural-Networks-for-Friend-Recommendation-Multi-Hash-Use"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.399394+00:00
+updated_at: 2026-09-04T04:33:57.205908+00:00
 tags: [{', '.join(tags)}]
 ---
 

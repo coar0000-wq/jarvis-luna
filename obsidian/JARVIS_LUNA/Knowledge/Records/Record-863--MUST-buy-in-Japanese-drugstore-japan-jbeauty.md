@@ -2,7 +2,7 @@
 title: "Record 863 · MUST-buy-in-Japanese-drugstore-japan-jbeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.360300+00:00
+updated_at: 2026-09-04T04:33:57.166923+00:00
 tags: [{', '.join(tags)}]
 ---
 

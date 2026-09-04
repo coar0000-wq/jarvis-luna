@@ -2,7 +2,7 @@
 title: "Record 567 · Tired-Girl-Makeup-Beauty-Trend-Is-Just-Commodifying-Burnout---Betches"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.312469+00:00
+updated_at: 2026-09-04T04:33:57.119288+00:00
 tags: [{', '.join(tags)}]
 ---
 

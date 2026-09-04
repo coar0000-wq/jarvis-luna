@@ -2,7 +2,7 @@
 title: "Record 743 · Shopify-says-AI-traffic-is-up-7x-since-January-AI-driven-orders-are-up"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.340898+00:00
+updated_at: 2026-09-04T04:33:57.147652+00:00
 tags: [{', '.join(tags)}]
 ---
 

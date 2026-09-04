@@ -2,7 +2,7 @@
 title: "Record 194 · AI-in-Retail-10-Use-Cases-and-an-Implementation-Guide-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.252082+00:00
+updated_at: 2026-09-04T04:33:57.058959+00:00
 tags: [{', '.join(tags)}]
 ---
 

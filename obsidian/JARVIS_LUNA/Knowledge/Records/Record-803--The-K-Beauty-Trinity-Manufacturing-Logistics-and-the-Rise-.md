@@ -2,7 +2,7 @@
 title: "Record 803 · The-K-Beauty-Trinity-Manufacturing-Logistics-and-the-Rise-of-the-Indie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.350700+00:00
+updated_at: 2026-09-04T04:33:57.157340+00:00
 tags: [{', '.join(tags)}]
 ---
 

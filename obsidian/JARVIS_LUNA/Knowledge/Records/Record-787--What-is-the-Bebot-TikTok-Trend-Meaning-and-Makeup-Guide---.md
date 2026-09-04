@@ -2,7 +2,7 @@
 title: "Record 787 · What-is-the-Bebot-TikTok-Trend-Meaning-and-Makeup-Guide---Inside-Halto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.348115+00:00
+updated_at: 2026-09-04T04:33:57.154747+00:00
 tags: [{', '.join(tags)}]
 ---
 

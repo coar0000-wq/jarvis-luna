@@ -2,7 +2,7 @@
 title: "Record 914 · 3-Viral-Products-Kids-Would-Go-CRAZY-For"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.368359+00:00
+updated_at: 2026-09-04T04:33:57.175061+00:00
 tags: [{', '.join(tags)}]
 ---
 

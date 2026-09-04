@@ -2,7 +2,7 @@
 title: "Record 329 · The-Enterprise-Guide-to-Ecommerce-Technical-SEO-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.274036+00:00
+updated_at: 2026-09-04T04:33:57.081331+00:00
 tags: [{', '.join(tags)}]
 ---
 

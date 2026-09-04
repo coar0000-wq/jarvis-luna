@@ -2,7 +2,7 @@
 title: "Record 1095 · MyoMechanix-Biomechanically-Grounded-Compositional-Skilled-Activity-Un"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.398645+00:00
+updated_at: 2026-09-04T04:33:57.205181+00:00
 tags: [{', '.join(tags)}]
 ---
 

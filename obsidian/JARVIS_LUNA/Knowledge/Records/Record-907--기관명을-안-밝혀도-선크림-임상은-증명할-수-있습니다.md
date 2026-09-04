@@ -2,7 +2,7 @@
 title: "Record 907 · 기관명을-안-밝혀도-선크림-임상은-증명할-수-있습니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.367229+00:00
+updated_at: 2026-09-04T04:33:57.173954+00:00
 tags: [{', '.join(tags)}]
 ---
 

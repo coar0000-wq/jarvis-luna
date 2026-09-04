@@ -2,7 +2,7 @@
 title: "Record 869 · 여드름-연고-발라도-소용없을-때-보세요"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.361214+00:00
+updated_at: 2026-09-04T04:33:57.167905+00:00
 tags: [{', '.join(tags)}]
 ---
 

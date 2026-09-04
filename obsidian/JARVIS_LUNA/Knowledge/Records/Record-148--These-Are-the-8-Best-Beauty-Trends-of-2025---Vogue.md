@@ -2,7 +2,7 @@
 title: "Record 148 · These-Are-the-8-Best-Beauty-Trends-of-2025---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.244713+00:00
+updated_at: 2026-09-04T04:33:57.051216+00:00
 tags: [{', '.join(tags)}]
 ---
 

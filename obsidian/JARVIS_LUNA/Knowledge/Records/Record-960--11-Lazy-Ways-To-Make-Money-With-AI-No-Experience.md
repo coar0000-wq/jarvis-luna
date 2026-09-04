@@ -2,7 +2,7 @@
 title: "Record 960 · 11-Lazy-Ways-To-Make-Money-With-AI-No-Experience"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.375650+00:00
+updated_at: 2026-09-04T04:33:57.182357+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 289 · This-Week-in-Shopping-Dirty-Beauty-and-Derma-Devices---pucknews"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.267455+00:00
+updated_at: 2026-09-04T04:33:57.074891+00:00
 tags: [{', '.join(tags)}]
 ---
 

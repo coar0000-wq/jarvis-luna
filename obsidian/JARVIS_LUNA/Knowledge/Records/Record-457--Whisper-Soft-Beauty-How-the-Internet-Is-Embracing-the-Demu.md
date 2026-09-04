@@ -2,7 +2,7 @@
 title: "Record 457 · Whisper-Soft-Beauty-How-the-Internet-Is-Embracing-the-Demure-Beauty-Tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.294721+00:00
+updated_at: 2026-09-04T04:33:57.101612+00:00
 tags: [{', '.join(tags)}]
 ---
 

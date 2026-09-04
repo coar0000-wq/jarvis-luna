@@ -2,7 +2,7 @@
 title: "Record 234 · The-Second-Coming-of-K-Beauty-Korean-Skincares-US-Comeback---Circana"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.258594+00:00
+updated_at: 2026-09-04T04:33:57.065812+00:00
 tags: [{', '.join(tags)}]
 ---
 

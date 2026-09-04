@@ -2,7 +2,7 @@
 title: "Record 159 · AI-Customer-Insights-How-To-Use-Them-in-Your-Business---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.246477+00:00
+updated_at: 2026-09-04T04:33:57.053031+00:00
 tags: [{', '.join(tags)}]
 ---
 

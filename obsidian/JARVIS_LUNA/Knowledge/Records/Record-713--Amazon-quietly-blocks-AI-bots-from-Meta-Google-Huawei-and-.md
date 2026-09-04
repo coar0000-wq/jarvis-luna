@@ -2,7 +2,7 @@
 title: "Record 713 · Amazon-quietly-blocks-AI-bots-from-Meta-Google-Huawei-and-more---Moder"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.336078+00:00
+updated_at: 2026-09-04T04:33:57.142846+00:00
 tags: [{', '.join(tags)}]
 ---
 

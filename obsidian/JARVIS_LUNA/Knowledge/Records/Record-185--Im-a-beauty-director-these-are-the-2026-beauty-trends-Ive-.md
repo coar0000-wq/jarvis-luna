@@ -2,7 +2,7 @@
 title: "Record 185 · Im-a-beauty-director-these-are-the-2026-beauty-trends-Ive-tried-and-lo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:14:47.250648+00:00
+updated_at: 2026-09-04T04:33:57.057460+00:00
 tags: [{', '.join(tags)}]
 ---
 
