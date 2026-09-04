@@ -1,7 +1,69 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T07:25:14.884910+09:00",
+  "generated_at": "2026-09-05T08:24:21.096450+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
+  "teams": [
+    {
+      "id": "institutions",
+      "name": "기관 수집팀",
+      "when": "2026-09-04T22:02:43.930853+00:00",
+      "summary": "35곳 1,061건 · 미수집 12건 사유 기록",
+      "action": null,
+      "status": "ok",
+      "color": "#2f7d6b",
+      "glyph": "bank"
+    },
+    {
+      "id": "market",
+      "name": "마케팅 조사팀",
+      "when": "2026-09-05T07:53:23.708104+09:00",
+      "summary": "S등급 13개 · 고시표 입력 대기 13건",
+      "action": "다이소 상세페이지 고시 표 13건 캡처 필요",
+      "status": "ok",
+      "color": "#c2410c",
+      "glyph": "chart"
+    },
+    {
+      "id": "pricing",
+      "name": "가격 정책팀",
+      "when": "2026-09-04T22:25:15.265008+00:00",
+      "summary": "DDU/DDP 8개 시나리오 · 무게 추정 11/13건",
+      "action": "11건 실측 무게 필요 (100g 경계가 배송 구간을 바꿈)",
+      "status": "ok",
+      "color": "#7c3aed",
+      "glyph": "tag"
+    },
+    {
+      "id": "legal",
+      "name": "법률·규제팀",
+      "when": "2026-08-21T21:42:13.962331+09:00",
+      "summary": "검토 상품 0건 · 체크리스트 5항목 중 5항목 대기",
+      "action": "수출 후보 상품의 상품명, 용도, 재질·성분, 제조국, HS 코드, 라벨 시안을 등록합니다.",
+      "status": "ok",
+      "color": "#b91c1c",
+      "glyph": "scale"
+    },
+    {
+      "id": "robotics",
+      "name": "로보틱스 수집",
+      "when": "2026-09-04T22:01:25.414274+00:00",
+      "summary": "88건 · arxiv 48 / rss 40",
+      "action": null,
+      "status": "ok",
+      "color": "#1d4ed8",
+      "glyph": "robot"
+    },
+    {
+      "id": "graph",
+      "name": "옵시디언 그래프",
+      "when": "2026-09-05T08:16:31.798960+09:00",
+      "summary": "27,809노트 · 끊어진 링크 0건 · 개인 노트 7,770건 별도",
+      "action": null,
+      "status": "ok",
+      "color": "#0f766e",
+      "glyph": "graph"
+    }
+  ],
   "pipeline": [
     {
       "id": "collect",
@@ -12,8 +74,8 @@
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
-      "status": "failed",
-      "detail": "2853개 노트 · 38179개 링크 · 끊어진 링크 7806개"
+      "status": "completed",
+      "detail": "27809개 노트 · 122353개 링크 · 끊어진 링크 0개 · 개인 노트 7770개 별도"
     },
     {
       "id": "dashboard",
@@ -38,17 +100,20 @@
     "status": "completed",
     "record_count": 2321,
     "source_counts": {},
-    "updated_at": "2026-09-05T07:02:49.411335+09:00"
+    "updated_at": "2026-09-05T07:53:23.699102+09:00"
   },
   "graph": {
-    "notes": 2853,
-    "links": 38179,
-    "dangling_links": 7806,
-    "records": 2321,
+    "notes": 27809,
+    "links": 122353,
+    "dangling_links": 0,
+    "dangling_personal": 7770,
+    "dangling_personal_note": "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다.",
+    "records": 27201,
     "sources": 6,
-    "topics": 22,
-    "audit": "failed",
-    "last_generated": "2026-09-05T07:05:02.773006+09:00"
+    "topics": 28,
+    "orgs": 35,
+    "audit": "passed",
+    "last_generated": "2026-09-05T08:16:31.798960+09:00"
   },
   "training": {
     "status": "completed",
@@ -68,8 +133,8 @@
   "cumulative": {
     "totals": {
       "records": 2321,
-      "notes": 2853,
-      "links": 38179
+      "notes": 27809,
+      "links": 122353
     },
     "prior_totals": {
       "records": 2321,
@@ -78,13 +143,13 @@
     },
     "added_this_run": {
       "records": 0,
-      "notes": 0,
-      "links": 0
+      "notes": 24956,
+      "links": 84174
     },
     "current_snapshot": {
       "records": 2321,
-      "notes": 2853,
-      "links": 38179
+      "notes": 27809,
+      "links": 122353
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -1111,6 +1176,7 @@
     "updated_at": "2026-09-05"
   },
   "last_synced": "09. 05. 오전 07:25 KST",
+  "data_integrity_note": "2026-08-31 가짜 데이터 제거. 하드코딩 카탈로그와 폴백 샘플을 삭제했으며 비어 있는 채널은 실제 수집이 없다는 뜻이다. 실데이터 채널: 다이소 실수집, 환율, arXiv, Google CSE.",
   "global_channels_status": {
     "amazon_best_sellers": {
       "status": "ok",
@@ -1220,6 +1286,5 @@
       "count": 15,
       "trust": "verified"
     }
-  },
-  "data_integrity_note": "2026-08-31 가짜 데이터 제거. 하드코딩 카탈로그와 폴백 샘플을 삭제했으며 비어 있는 채널은 실제 수집이 없다는 뜻이다. 실데이터 채널: 다이소 실수집, 환율, arXiv, Google CSE."
+  }
 }

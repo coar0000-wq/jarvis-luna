@@ -218,11 +218,125 @@ def cumulative_metrics(graph: dict, sources: dict) -> dict:
     }
 
 
+# ---------------------------------------------------------------------------
+# 팀 카드
+# ---------------------------------------------------------------------------
+# 각 팀의 숫자는 전부 실제 산출 파일에서 읽는다. 파일이 없으면 그 팀은
+# status "missing" 으로 두고 값을 지어내지 않는다.
+TEAM_ICONS = {
+    "institutions": {"color": "#2f7d6b", "glyph": "bank"},
+    "market": {"color": "#c2410c", "glyph": "chart"},
+    "pricing": {"color": "#7c3aed", "glyph": "tag"},
+    "legal": {"color": "#b91c1c", "glyph": "scale"},
+    "robotics": {"color": "#1d4ed8", "glyph": "robot"},
+    "graph": {"color": "#0f766e", "glyph": "graph"},
+}
+
+
+def _team(tid: str, name: str, when: str | None, summary: str,
+          action: str | None = None, status: str = "ok") -> dict:
+    icon = TEAM_ICONS.get(tid, {"color": "#555", "glyph": "dot"})
+    return {"id": tid, "name": name, "when": when, "summary": summary,
+            "action": action, "status": status,
+            "color": icon["color"], "glyph": icon["glyph"]}
+
+
+def team_cards(graph: dict) -> list[dict]:
+    """팀별 한 줄 현황. 숫자는 산출 파일 실측값만 쓴다."""
+    cards: list[dict] = []
+    D = ROOT / "data"
+
+    # 기관 수집팀 --------------------------------------------------------
+    inst = load_json(D / "institution_sources.json", None)
+    if inst:
+        cards.append(_team(
+            "institutions", "기관 수집팀", inst.get("collected_at"),
+            f'{inst.get("organizations", 0)}곳 {inst.get("total", 0):,}건 · '
+            f'미수집 {len(inst.get("not_collected") or {})}건 사유 기록'))
+    else:
+        cards.append(_team("institutions", "기관 수집팀", None,
+                           "institution_sources.json 없음", None, "missing"))
+
+    # 마케팅 조사팀 ------------------------------------------------------
+    mt = load_json(D / "market_team.json", None)
+    if mt:
+        s_grade = mt.get("s_grade_priority") or []
+        # 수동 입력 폴더에 pd_no 가 등장하는 상품만 고시표가 들어온 것으로 본다
+        entered = set()
+        manual = D / "manual"
+        if manual.exists():
+            for f in manual.glob("*.json"):
+                try:
+                    entered.update(re.findall(r"\d{6,}", f.read_text(encoding="utf-8")))
+                except OSError:
+                    continue
+        pending = [p for p in s_grade if str(p.get("pd_no")) not in entered]
+        cards.append(_team(
+            "market", "마케팅 조사팀", iso_mtime(D / "market_team.json"),
+            f'S등급 {len(s_grade)}개 · 고시표 입력 대기 {len(pending)}건',
+            f'다이소 상세페이지 고시 표 {len(pending)}건 캡처 필요' if pending else None))
+    else:
+        cards.append(_team("market", "마케팅 조사팀", None,
+                           "market_team.json 없음", None, "missing"))
+
+    # 가격 정책팀 --------------------------------------------------------
+    pm = load_json(D / "pricing_model.json", None)
+    if pm:
+        duty = pm.get("duty_scenarios") or {}
+        rows = (pm.get("scenarios") or {}).get("1개_묶음배송") or []
+        est = [r for r in rows if "추정" in str(r.get("weight_note") or "")]
+        cards.append(_team(
+            "pricing", "가격 정책팀", pm.get("generated_at"),
+            f'DDU/DDP {len(duty)}개 시나리오 · 무게 추정 {len(est)}/{len(rows)}건',
+            f'{len(est)}건 실측 무게 필요 (100g 경계가 배송 구간을 바꿈)' if est else None))
+    else:
+        cards.append(_team("pricing", "가격 정책팀", None,
+                           "pricing_model.json 없음", None, "missing"))
+
+    # 법률·규제팀 --------------------------------------------------------
+    lt = load_json(D / "legal_team.json", None)
+    if lt:
+        dash = lt.get("dashboard") or {}
+        checks = lt.get("baseline_checklist") or []
+        waiting = [c for c in checks if "대기" in str(c.get("status") or "")]
+        cards.append(_team(
+            "legal", "법률·규제팀", iso_mtime(D / "legal_team.json"),
+            f'검토 상품 {dash.get("reviewed_products", 0)}건 · '
+            f'체크리스트 {len(checks)}항목 중 {len(waiting)}항목 대기',
+            str(dash.get("next_action") or "")[:60] if waiting else None))
+    else:
+        cards.append(_team("legal", "법률·규제팀", None,
+                           "legal_team.json 없음", None, "missing"))
+
+    # 로보틱스 수집 ------------------------------------------------------
+    rb = load_json(D / "robotics_sources.json", None)
+    if rb:
+        src = rb.get("sources") or {}
+        parts = " / ".join(f'{k} {len((v or {}).get("items") or [])}' for k, v in src.items())
+        cards.append(_team(
+            "robotics", "로보틱스 수집", rb.get("generated_at"),
+            f'{rb.get("total", 0)}건 · {parts}'))
+    else:
+        cards.append(_team("robotics", "로보틱스 수집", None,
+                           "robotics_sources.json 없음", None, "missing"))
+
+    # 옵시디언 그래프 ----------------------------------------------------
+    personal = graph.get("dangling_personal") or 0
+    cards.append(_team(
+        "graph", "옵시디언 그래프", graph.get("last_generated"),
+        f'{graph.get("notes", 0):,}노트 · 끊어진 링크 {graph.get("dangling_links", 0)}건'
+        + (f' · 개인 노트 {personal:,}건 별도' if personal else ''),
+        None, "ok" if graph.get("audit") == "passed" else "failed"))
+
+    return cards
+
+
 def main() -> None:
     graph = graph_metrics()
     sources = source_metrics()
     training = training_metrics()
     cumulative = cumulative_metrics(graph, sources)
+    teams = team_cards(graph)
 
     now = datetime.now(KST).isoformat()
 
@@ -246,6 +360,7 @@ def main() -> None:
             "상태는 저장소에 존재하는 실제 산출물 기준이며, "
             "실행 기록이 없는 작업은 진행중으로 표시하지 않음."
         ),
+        "teams": teams,
         "pipeline": [
             {
                 "id": "collect",

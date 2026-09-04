@@ -73,6 +73,28 @@ box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
 .section-header{font-size:15px;font-weight:600;letter-spacing:1.5px;color:#999;text-transform:uppercase;margin:35px 0 18px;display:flex;align-items:center;gap:10px;}
 .section-header::after{content:'';flex:1;height:1px;background:#2a2a2a;}
 
+/* Team Cards */
+.team-section{background:#141414;border:1px solid #2a2a2a;border-radius:12px;padding:24px 26px;margin-bottom:40px;}
+.team-section h3{font-size:13px;letter-spacing:2px;color:#8b949e;text-transform:uppercase;margin-bottom:4px;display:flex;justify-content:space-between;align-items:baseline;gap:12px;}
+.team-section .team-sub{font-size:12px;color:#666;margin-bottom:16px;}
+.team-list{list-style:none;}
+.team-row{display:flex;align-items:flex-start;gap:14px;padding:14px 0;border-bottom:1px solid #232323;}
+.team-row:last-child{border-bottom:none;}
+.team-icon{flex:0 0 40px;width:40px;height:40px;border-radius:11px;display:flex;align-items:center;justify-content:center;}
+.team-icon svg{width:20px;height:20px;fill:none;stroke:#fff;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;}
+.team-body{flex:1;min-width:0;}
+.team-name{font-size:14px;color:#f0f0f0;font-weight:500;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.team-when{font-size:12px;color:#6e7681;white-space:nowrap;margin-left:auto;padding-left:12px;}
+.team-summary{font-size:12.5px;color:#8b949e;margin-top:3px;line-height:1.5;}
+.team-action{display:inline-block;margin-top:6px;font-size:11.5px;color:#e3b341;background:rgba(210,153,34,0.12);border:1px solid rgba(210,153,34,0.35);border-radius:5px;padding:3px 9px;}
+.team-badge{font-size:10px;letter-spacing:0.5px;border-radius:4px;padding:1px 6px;border:1px solid;}
+.team-badge.miss{color:#f85149;border-color:rgba(248,81,73,0.4);background:rgba(248,81,73,0.1);}
+.team-badge.fail{color:#f85149;border-color:rgba(248,81,73,0.4);background:rgba(248,81,73,0.1);}
+@media(max-width:600px){
+.team-when{margin-left:0;padding-left:0;width:100%;}
+.team-name{gap:4px;}
+}
+
 /* Today's Intelligence */
 .today-intelligence{border-radius:14px;padding:30px;margin-bottom:40px;}
 .today-intelligence h3{font-size:12px;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-bottom:20px;color:#999;display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;}
@@ -310,6 +332,16 @@ nav a{font-size:12px;}
 <div class="intelligence-items" id="intelligence-items">
 <div class="intelligence-item"><span>실시간 데이터를 불러오는 중…</span></div>
 </div>
+</div>
+
+
+<!-- Team Cards -->
+<div class="team-section" id="teams">
+<h3><span>🧭 JARVIS 팀 현황</span><span id="team-updated" style="font-size:11px;letter-spacing:0;text-transform:none;color:#6e7681;"></span></h3>
+<div class="team-sub">각 줄의 숫자는 해당 팀 산출 파일의 실측값입니다.</div>
+<ul class="team-list" id="team-list">
+<li class="team-row"><div class="team-body"><div class="team-summary">팀 현황을 불러오는 중…</div></div></li>
+</ul>
 </div>
 
 <!-- Shopify 등록 후보 · 다이소 Dropshipping · S등급 우선순위 (통합) -->
@@ -584,6 +616,52 @@ const STATUS_LABEL = {
 completed:['완료','#3fb950'], generated:['생성됨','#58a6ff'],
 ready_for_pages:['배포 대기','#d29922'], running:['진행중','#58a6ff'], failed:['실패','#f85149']
 };
+
+// 팀 아이콘. 이미지의 컬러 타일 형태를 따르되 팀마다 다른 마크를 쓴다.
+const TEAM_GLYPH = {
+bank:'<path d="M3 9l9-5 9 5"/><path d="M5 9v9M9.5 9v9M14.5 9v9M19 9v9"/><path d="M3 20h18"/>',
+chart:'<path d="M4 19V5"/><path d="M4 19h16"/><path d="M8 16V11"/><path d="M13 16V7"/><path d="M18 16v-4"/>',
+tag:'<path d="M4 4h7l9 9-7 7-9-9z"/><circle cx="8.5" cy="8.5" r="1.4"/>',
+scale:'<path d="M12 4v16"/><path d="M6 20h12"/><path d="M4 8h16"/><path d="M4 8l-2 5a3 3 0 006 0z"/><path d="M20 8l2 5a3 3 0 01-6 0z"/>',
+robot:'<rect x="4" y="8" width="16" height="11" rx="3"/><path d="M12 4v4"/><circle cx="9" cy="13" r="1.2"/><circle cx="15" cy="13" r="1.2"/><path d="M9.5 16.5h5"/>',
+graph:'<circle cx="6" cy="7" r="2.2"/><circle cx="18" cy="7" r="2.2"/><circle cx="12" cy="18" r="2.2"/><path d="M7.7 8.6l3 7.6M16.3 8.6l-3 7.6M8.2 7h7.6"/>',
+dot:'<circle cx="12" cy="12" r="6"/>'
+};
+
+function teamWhen(iso){
+if(!iso) return '';
+const t = new Date(iso);
+if(isNaN(t)) return '';
+const now = new Date();
+const d0 = new Date(now.getFullYear(),now.getMonth(),now.getDate());
+const t0 = new Date(t.getFullYear(),t.getMonth(),t.getDate());
+const diff = Math.round((d0-t0)/86400000);
+if(diff<=0) return t.toLocaleTimeString('ko-KR',{hour:'2-digit',minute:'2-digit'});
+if(diff===1) return '어제';
+if(diff<7) return ['일','월','화','수','목','금','토'][t.getDay()]+'요일';
+return (t.getMonth()+1)+'월 '+t.getDate()+'일';
+}
+
+function renderTeams(d){
+const list=$('team-list'); if(!list) return;
+const teams=Array.isArray(d.teams)?d.teams:[];
+if(!teams.length){ list.innerHTML='<li class="team-row"><div class="team-body"><div class="team-summary">팀 데이터가 아직 생성되지 않았습니다.</div></div></li>'; return; }
+list.innerHTML = teams.map(t=>{
+const g = TEAM_GLYPH[t.glyph]||TEAM_GLYPH.dot;
+const badge = t.status==='missing' ? '<span class="team-badge miss">파일 없음</span>'
+: (t.status==='failed' ? '<span class="team-badge fail">검증 실패</span>' : '');
+const act = t.action ? '<div><span class="team-action">← 조치 · '+esc(t.action)+'</span></div>' : '';
+return '<li class="team-row">'
++'<div class="team-icon" style="background:'+esc(t.color||'#555')+';"><svg viewBox="0 0 24 24">'+g+'</svg></div>'
++'<div class="team-body">'
++'<div class="team-name">'+esc(t.name)+badge+'<span class="team-when">'+esc(teamWhen(t.when))+'</span></div>'
++'<div class="team-summary">'+esc(t.summary||'')+'</div>'+act
++'</div></li>';
+}).join('');
+const act=teams.filter(t=>t.action).length;
+const el=$('team-updated');
+if(el) el.textContent = act ? ('조치 필요 '+act+'건') : '조치 필요 없음';
+}
 
 function renderPipeline(rt){
 const list = $('log-list'); if(!list) return;
@@ -1172,6 +1250,7 @@ set('side-val',(d.training.validation_accuracy*100).toFixed(1)+'%');
 set('side-experts',d.training.experts+'개');
 set('side-loss',d.training.final_loss!=null?d.training.final_loss.toFixed(4):'–');
 }
+renderTeams(d);
 renderPipeline(d);
 renderTraining(d.training);
 const items=$('intelligence-items');
