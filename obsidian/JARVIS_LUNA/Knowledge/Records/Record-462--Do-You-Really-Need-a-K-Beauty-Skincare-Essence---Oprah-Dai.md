@@ -2,7 +2,7 @@
 title: "Record 462 · Do-You-Really-Need-a-K-Beauty-Skincare-Essence---Oprah-Daily"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.467325+00:00
+updated_at: 2026-09-04T00:17:51.124136+00:00
 tags: [{', '.join(tags)}]
 ---
 

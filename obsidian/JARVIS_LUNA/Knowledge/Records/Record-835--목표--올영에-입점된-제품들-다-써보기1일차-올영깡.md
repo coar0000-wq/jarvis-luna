@@ -2,7 +2,7 @@
 title: "Record 835 · 목표--올영에-입점된-제품들-다-써보기1일차-올영깡"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.526973+00:00
+updated_at: 2026-09-04T00:17:51.180032+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 940 · I-Studied-AI-Digital-Products-for-1000-Hours-Only-These-Make-100KMonth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.543838+00:00
+updated_at: 2026-09-04T00:17:51.195422+00:00
 tags: [{', '.join(tags)}]
 ---
 

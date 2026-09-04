@@ -2,7 +2,7 @@
 title: "Record 832 · 71-year-old-korean-mama-finally-found-a-vitamin-c-serum-thatll-make-he"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.526504+00:00
+updated_at: 2026-09-04T00:17:51.179607+00:00
 tags: [{', '.join(tags)}]
 ---
 

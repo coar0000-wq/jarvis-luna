@@ -2,7 +2,7 @@
 title: "Record 703 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---KESQ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.505952+00:00
+updated_at: 2026-09-04T00:17:51.160324+00:00
 tags: [{', '.join(tags)}]
 ---
 

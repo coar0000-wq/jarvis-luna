@@ -2,7 +2,7 @@
 title: "Record 915 · 20-Korean-Sunscreens-Ranked-After-Real-Wear-Tests"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.539674+00:00
+updated_at: 2026-09-04T00:17:51.191777+00:00
 tags: [{', '.join(tags)}]
 ---
 

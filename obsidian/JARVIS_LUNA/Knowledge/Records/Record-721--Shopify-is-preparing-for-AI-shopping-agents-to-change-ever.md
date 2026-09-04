@@ -2,7 +2,7 @@
 title: "Record 721 · Shopify-is-preparing-for-AI-shopping-agents-to-change-everything-exec-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.508838+00:00
+updated_at: 2026-09-04T00:17:51.163081+00:00
 tags: [{', '.join(tags)}]
 ---
 

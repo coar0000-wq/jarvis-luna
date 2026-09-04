@@ -2,7 +2,7 @@
 title: "Record 820 · 수영인의-올영-기획세트-추천-올영추천템-기획세트"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.524621+00:00
+updated_at: 2026-09-04T00:17:51.177859+00:00
 tags: [{', '.join(tags)}]
 ---
 

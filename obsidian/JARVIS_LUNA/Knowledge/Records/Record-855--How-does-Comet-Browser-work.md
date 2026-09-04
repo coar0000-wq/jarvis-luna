@@ -2,7 +2,7 @@
 title: "Record 855 · How-does-Comet-Browser-work"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.530141+00:00
+updated_at: 2026-09-04T00:17:51.183004+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1050 · Instagram-Changed-Everything-Again-New-Updates-You-Need-to-Know-in-202"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.565013+00:00
+updated_at: 2026-09-04T00:17:51.212034+00:00
 tags: [{', '.join(tags)}]
 ---
 

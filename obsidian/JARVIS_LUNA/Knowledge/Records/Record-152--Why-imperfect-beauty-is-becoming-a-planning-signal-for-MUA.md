@@ -2,7 +2,7 @@
 title: "Record 152 · Why-imperfect-beauty-is-becoming-a-planning-signal-for-MUAs-and-brand-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.417985+00:00
+updated_at: 2026-09-04T00:17:51.077606+00:00
 tags: [{', '.join(tags)}]
 ---
 

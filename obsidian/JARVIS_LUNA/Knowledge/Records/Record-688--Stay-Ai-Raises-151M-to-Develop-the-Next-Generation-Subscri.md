@@ -2,7 +2,7 @@
 title: "Record 688 · Stay-Ai-Raises-151M-to-Develop-the-Next-Generation-Subscription--Loyal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.503605+00:00
+updated_at: 2026-09-04T00:17:51.158118+00:00
 tags: [{', '.join(tags)}]
 ---
 
@@ -10,9 +10,9 @@ tags: [{', '.join(tags)}]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMipgFBVV95cUxQVWhiZmZJWm16MGVjcE9OT1B0MFltRWtZVHJrTy1DemJ2d21nUXBHZlZZSjMwd2ctbE9zYUMxN0FBX09zdHp3b0FTRFBGWHhpbjZvVDktYVd1WjlNeFpLUVBrTkF0M1UwM1N3TGZ0UmNqN1d5NGpiNUdlc3dsQ2lXMDlDQWFzdFRoLVdLSmhVSXg0VGRBeGtOckNBOFU5T3MweS0tTWR3?oc=5)
 
-**제목:** Stay Ai Raises $15.1M to Develop the Next Generation Subscription & Loyalty Platform for Shopify Brands - Newswire.com
+**제목:** Stay Ai Raises $15.1M to Develop the Next Generation Subscription & Loyalty Platform for Shopify Brands - newswire.com
 
-Stay Ai Raises $15.1M to Develop the Next Generation Subscription & Loyalty Platform for Shopify Brands - Newswire.com
+Stay Ai Raises $15.1M to Develop the Next Generation Subscription & Loyalty Platform for Shopify Brands - newswire.com
 
 **출처:** Source · Google Search
 

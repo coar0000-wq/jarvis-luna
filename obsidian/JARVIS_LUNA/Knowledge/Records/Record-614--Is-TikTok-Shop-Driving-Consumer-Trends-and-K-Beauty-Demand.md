@@ -1,18 +1,18 @@
 ---
-title: "Record 614 · Is-TikTok-Shop-Driving-Consumer-Trends-and-K-Beauty-Demand---supplycha"
+title: "Record 614 · Is-TikTok-Shop-Driving-Consumer-Trends-and-K-Beauty-Demand---Supply-Ch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.491781+00:00
+updated_at: 2026-09-04T00:17:51.146884+00:00
 tags: [{', '.join(tags)}]
 ---
 
-# Record 614 · Is-TikTok-Shop-Driving-Consumer-Trends-and-K-Beauty-Demand---supplycha
+# Record 614 · Is-TikTok-Shop-Driving-Consumer-Trends-and-K-Beauty-Demand---Supply-Ch
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimgFBVV95cUxQUEthbnphdGVBR041cDFGNUlPSmo2NWp0bFNXa05wRnJFOGFKblhsRDJ5QUlxSkRfMThsOHZvV3c5eE1hc3k4X3JQOG4tUjBPdTRjWXk0UmtpdW9HVXl3LU03RDg3cVAtMUNsejB3MVVfRWtHRGpjZnJjOFRoZDZDNDFmUHRfeVF2cDZsM3dsQ1R3RHFrQ0xpZkdn?oc=5)
 
-**제목:** Is TikTok Shop Driving Consumer Trends and K-Beauty Demand? - supplychaindigital.com
+**제목:** Is TikTok Shop Driving Consumer Trends and K-Beauty Demand? - Supply Chain Digital Magazine
 
-Is TikTok Shop Driving Consumer Trends and K-Beauty Demand? - supplychaindigital.com
+Is TikTok Shop Driving Consumer Trends and K-Beauty Demand? - Supply Chain Digital Magazine
 
 **출처:** Source · Google Search
 

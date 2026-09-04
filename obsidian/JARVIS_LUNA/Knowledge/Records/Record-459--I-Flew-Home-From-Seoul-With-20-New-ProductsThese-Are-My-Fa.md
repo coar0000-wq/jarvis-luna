@@ -2,7 +2,7 @@
 title: "Record 459 · I-Flew-Home-From-Seoul-With-20-New-ProductsThese-Are-My-Favorites---ma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.466872+00:00
+updated_at: 2026-09-04T00:17:51.123709+00:00
 tags: [{', '.join(tags)}]
 ---
 

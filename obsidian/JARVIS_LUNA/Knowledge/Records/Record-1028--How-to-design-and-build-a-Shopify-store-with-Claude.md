@@ -2,7 +2,7 @@
 title: "Record 1028 · How-to-design-and-build-a-Shopify-store-with-Claude"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.560600+00:00
+updated_at: 2026-09-04T00:17:51.208590+00:00
 tags: [{', '.join(tags)}]
 ---
 

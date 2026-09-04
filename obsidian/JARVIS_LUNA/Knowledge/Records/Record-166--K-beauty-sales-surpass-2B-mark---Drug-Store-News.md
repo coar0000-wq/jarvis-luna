@@ -2,7 +2,7 @@
 title: "Record 166 · K-beauty-sales-surpass-2B-mark---Drug-Store-News"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.420200+00:00
+updated_at: 2026-09-04T00:17:51.079748+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 931 · SPF-시험기관이-알려주는-선크림-SPF의-모든-것"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.542178+00:00
+updated_at: 2026-09-04T00:17:51.194107+00:00
 tags: [{', '.join(tags)}]
 ---
 

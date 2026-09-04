@@ -2,7 +2,7 @@
 title: "Record 404 · 33-Turn-to-AI-Shopify-UCP-Advances-AI-Powered-Shopping---DesignRush"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.458246+00:00
+updated_at: 2026-09-04T00:17:51.115502+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1015 · Your-marketing-automated"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.558239+00:00
+updated_at: 2026-09-04T00:17:51.206752+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 877 · This-is-why-you-need-to-be-using-Vitamin-C-in-your-skincare-routine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.533613+00:00
+updated_at: 2026-09-04T00:17:51.186186+00:00
 tags: [{', '.join(tags)}]
 ---
 

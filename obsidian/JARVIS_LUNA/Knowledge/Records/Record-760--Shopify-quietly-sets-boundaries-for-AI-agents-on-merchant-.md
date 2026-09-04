@@ -2,7 +2,7 @@
 title: "Record 760 · Shopify-quietly-sets-boundaries-for-AI-agents-on-merchant-sites---Mode"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.515023+00:00
+updated_at: 2026-09-04T00:17:51.168961+00:00
 tags: [{', '.join(tags)}]
 ---
 

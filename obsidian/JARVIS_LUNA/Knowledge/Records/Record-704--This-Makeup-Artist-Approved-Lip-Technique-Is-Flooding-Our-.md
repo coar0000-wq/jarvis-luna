@@ -2,7 +2,7 @@
 title: "Record 704 · This-Makeup-Artist-Approved-Lip-Technique-Is-Flooding-Our-TikTok-Feeds"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.506102+00:00
+updated_at: 2026-09-04T00:17:51.160488+00:00
 tags: [{', '.join(tags)}]
 ---
 

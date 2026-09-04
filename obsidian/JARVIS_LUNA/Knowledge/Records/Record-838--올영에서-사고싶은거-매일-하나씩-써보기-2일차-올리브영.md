@@ -2,7 +2,7 @@
 title: "Record 838 · 올영에서-사고싶은거-매일-하나씩-써보기-2일차-올리브영"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.527430+00:00
+updated_at: 2026-09-04T00:17:51.180481+00:00
 tags: [{', '.join(tags)}]
 ---
 

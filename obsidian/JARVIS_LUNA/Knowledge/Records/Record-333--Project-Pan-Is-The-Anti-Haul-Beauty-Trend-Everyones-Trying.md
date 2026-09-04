@@ -2,7 +2,7 @@
 title: "Record 333 · Project-Pan-Is-The-Anti-Haul-Beauty-Trend-Everyones-Trying-This-Year--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.446931+00:00
+updated_at: 2026-09-04T00:17:51.104895+00:00
 tags: [{', '.join(tags)}]
 ---
 

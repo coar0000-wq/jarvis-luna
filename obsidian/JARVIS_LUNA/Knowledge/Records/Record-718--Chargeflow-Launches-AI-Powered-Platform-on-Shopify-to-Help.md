@@ -2,7 +2,7 @@
 title: "Record 718 · Chargeflow-Launches-AI-Powered-Platform-on-Shopify-to-Help-E-Commerce-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.508348+00:00
+updated_at: 2026-09-04T00:17:51.162640+00:00
 tags: [{', '.join(tags)}]
 ---
 
@@ -10,9 +10,9 @@ tags: [{', '.join(tags)}]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirAFBVV95cUxQd1ZjZzBFbVk1bmJqNDJjbXctaUxjSG92MHExN2FXNzBxU245TEphVEd1Q1hHLTNMLWlEbUVVMUk2ZmNJaE1UZmhSMWhkbkVTSlJQcGNSOV9ENmxoYmhVdWo5QVlMLUxTa0dMZXM3MVRrVU1HV2VySVlPOE02Ny1hemIyNGhWVGdmOG53WHdkZTJiM2RJUGk5V2FTaDdsREFLUllYZUNya29zOU9N?oc=5)
 
-**제목:** Chargeflow Launches AI-Powered Platform on Shopify to Help E-Commerce Businesses Fight False Chargebacks - Newswire.com
+**제목:** Chargeflow Launches AI-Powered Platform on Shopify to Help E-Commerce Businesses Fight False Chargebacks - newswire.com
 
-Chargeflow Launches AI-Powered Platform on Shopify to Help E-Commerce Businesses Fight False Chargebacks - Newswire.com
+Chargeflow Launches AI-Powered Platform on Shopify to Help E-Commerce Businesses Fight False Chargebacks - newswire.com
 
 **출처:** Source · Google Search
 

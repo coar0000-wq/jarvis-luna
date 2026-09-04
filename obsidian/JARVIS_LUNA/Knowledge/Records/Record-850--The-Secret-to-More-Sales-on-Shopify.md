@@ -2,7 +2,7 @@
 title: "Record 850 · The-Secret-to-More-Sales-on-Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.529347+00:00
+updated_at: 2026-09-04T00:17:51.182246+00:00
 tags: [{', '.join(tags)}]
 ---
 

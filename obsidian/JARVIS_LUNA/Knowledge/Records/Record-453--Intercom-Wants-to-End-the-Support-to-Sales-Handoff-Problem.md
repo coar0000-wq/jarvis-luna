@@ -2,7 +2,7 @@
 title: "Record 453 · Intercom-Wants-to-End-the-Support-to-Sales-Handoff-Problem---CX-Today"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.465899+00:00
+updated_at: 2026-09-04T00:17:51.122793+00:00
 tags: [{', '.join(tags)}]
 ---
 

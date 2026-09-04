@@ -2,7 +2,7 @@
 title: "Record 961 · 다이소-선크림-폭로-직접-팩트체크해봤습니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.547752+00:00
+updated_at: 2026-09-04T00:17:51.198478+00:00
 tags: [{', '.join(tags)}]
 ---
 

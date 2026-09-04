@@ -2,7 +2,7 @@
 title: "Record 990 · 지금-올리브영--무신사에서-레이어랩-행사중어디에서-살까-할인-혜택-총정리"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.553209+00:00
+updated_at: 2026-09-04T00:17:51.202756+00:00
 tags: [{', '.join(tags)}]
 ---
 

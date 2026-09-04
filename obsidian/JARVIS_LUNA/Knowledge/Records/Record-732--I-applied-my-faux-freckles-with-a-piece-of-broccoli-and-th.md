@@ -2,7 +2,7 @@
 title: "Record 732 · I-applied-my-faux-freckles-with-a-piece-of-broccoli-and-the-results-we"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.510582+00:00
+updated_at: 2026-09-04T00:17:51.164729+00:00
 tags: [{', '.join(tags)}]
 ---
 

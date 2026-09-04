@@ -2,7 +2,7 @@
 title: "Record 895 · 선크림-SPF-50-저희-연구원에서는-이렇게-확인합니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.536477+00:00
+updated_at: 2026-09-04T00:17:51.188870+00:00
 tags: [{', '.join(tags)}]
 ---
 

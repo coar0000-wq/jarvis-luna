@@ -2,7 +2,7 @@
 title: "Record 925 · 선크림-QA아무도-알려주지-않았던-선크림에-관한-궁금증-모두-답해드립니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.541231+00:00
+updated_at: 2026-09-04T00:17:51.193225+00:00
 tags: [{', '.join(tags)}]
 ---
 

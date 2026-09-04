@@ -2,7 +2,7 @@
 title: "Record 559 · 12-Korean-Beauty-Brands-Endorsed-by-K-Pop-Stars-and-Skincare-Junkies-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.482863+00:00
+updated_at: 2026-09-04T00:17:51.138654+00:00
 tags: [{', '.join(tags)}]
 ---
 

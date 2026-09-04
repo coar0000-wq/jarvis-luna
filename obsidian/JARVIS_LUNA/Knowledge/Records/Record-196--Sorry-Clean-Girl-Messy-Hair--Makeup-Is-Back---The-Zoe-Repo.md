@@ -2,7 +2,7 @@
 title: "Record 196 · Sorry-Clean-Girl-Messy-Hair--Makeup-Is-Back---The-Zoe-Report"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.425124+00:00
+updated_at: 2026-09-04T00:17:51.084305+00:00
 tags: [{', '.join(tags)}]
 ---
 

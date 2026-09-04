@@ -2,7 +2,7 @@
 title: "Record 937 · Claude-UGC--Dropshipping--180KMonth-WTF-Did-Claude-Just-Make"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.543264+00:00
+updated_at: 2026-09-04T00:17:51.194997+00:00
 tags: [{', '.join(tags)}]
 ---
 

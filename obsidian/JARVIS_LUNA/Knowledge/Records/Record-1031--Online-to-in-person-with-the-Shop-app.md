@@ -2,7 +2,7 @@
 title: "Record 1031 · Online-to-in-person-with-the-Shop-app"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.561137+00:00
+updated_at: 2026-09-04T00:17:51.208998+00:00
 tags: [{', '.join(tags)}]
 ---
 

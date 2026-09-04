@@ -2,7 +2,7 @@
 title: "Record 824 · What-does-CJ-actually-check-before-your-order-ships"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.525237+00:00
+updated_at: 2026-09-04T00:17:51.178447+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 447 · A-Dermatologist-Told-Me-Every-Anti-Aging-Skin-Care-Routine-Needs-This-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.464940+00:00
+updated_at: 2026-09-04T00:17:51.121893+00:00
 tags: [{', '.join(tags)}]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 933 · Guangzhou-isnt-just-a-city-to-visit-Its-also-a-city-to-source"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.542530+00:00
+updated_at: 2026-09-04T00:17:51.194393+00:00
 tags: [{', '.join(tags)}]
 ---
 

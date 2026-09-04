@@ -2,7 +2,7 @@
 title: "Record 639 · Shopify-launches-an-AI-tool-ecommerce-platform-update---Digital-Commer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.495731+00:00
+updated_at: 2026-09-04T00:17:51.150611+00:00
 tags: [{', '.join(tags)}]
 ---
 

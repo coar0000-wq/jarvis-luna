@@ -2,7 +2,7 @@
 title: "Record 441 · From-glass-skin-to-barrier-care-Heres-where-to-shop-K-beauty-products-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.463983+00:00
+updated_at: 2026-09-04T00:17:51.120982+00:00
 tags: [{', '.join(tags)}]
 ---
 

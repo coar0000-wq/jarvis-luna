@@ -2,7 +2,7 @@
 title: "Record 350 · How-Peach--Lily-Helped-Build-K-Beautys-US-Success-Story---BeautyMatter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.449658+00:00
+updated_at: 2026-09-04T00:17:51.107447+00:00
 tags: [{', '.join(tags)}]
 ---
 

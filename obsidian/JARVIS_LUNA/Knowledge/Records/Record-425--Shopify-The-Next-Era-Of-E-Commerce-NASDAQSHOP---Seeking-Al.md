@@ -2,7 +2,7 @@
 title: "Record 425 · Shopify-The-Next-Era-Of-E-Commerce-NASDAQSHOP---Seeking-Alpha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.461497+00:00
+updated_at: 2026-09-04T00:17:51.118616+00:00
 tags: [{', '.join(tags)}]
 ---
 

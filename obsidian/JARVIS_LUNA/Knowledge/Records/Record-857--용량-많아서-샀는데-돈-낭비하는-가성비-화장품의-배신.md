@@ -2,7 +2,7 @@
 title: "Record 857 · 용량-많아서-샀는데-돈-낭비하는-가성비-화장품의-배신"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.530437+00:00
+updated_at: 2026-09-04T00:17:51.183273+00:00
 tags: [{', '.join(tags)}]
 ---
 

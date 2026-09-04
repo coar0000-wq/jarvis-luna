@@ -2,7 +2,7 @@
 title: "Record 1087 · RedEvoAgent-Automatic-Red-Teaming-Agent-with-Experience-Driven-Skill-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.572630+00:00
+updated_at: 2026-09-04T00:17:51.219036+00:00
 tags: [{', '.join(tags)}]
 ---
 

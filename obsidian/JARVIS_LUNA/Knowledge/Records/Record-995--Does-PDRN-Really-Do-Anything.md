@@ -2,7 +2,7 @@
 title: "Record 995 · Does-PDRN-Really-Do-Anything"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.554124+00:00
+updated_at: 2026-09-04T00:17:51.203471+00:00
 tags: [{', '.join(tags)}]
 ---
 

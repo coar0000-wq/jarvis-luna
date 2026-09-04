@@ -2,7 +2,7 @@
 title: "Record 948 · 여드름-연고-발라도-소용없으면-뭘까"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.545314+00:00
+updated_at: 2026-09-04T00:17:51.196596+00:00
 tags: [{', '.join(tags)}]
 ---
 

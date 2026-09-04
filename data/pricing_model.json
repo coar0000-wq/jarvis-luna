@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T20:08:17.192728+00:00",
+  "generated_at": "2026-09-04T00:24:11.017782+00:00",
   "exchange_rate": {
     "usd_to_krw": 1361.14,
     "as_of": "2026-09-03",
@@ -26,10 +26,43 @@
     "median": 24.99,
     "max": 279.0,
     "n": 100,
-    "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-03)"
+    "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-04)"
   },
   "scenarios": {
     "1개_묶음배송": [
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 100,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 6.18,
+        "shipping_order_usd": 6.18,
+        "tariff_usd": 0.22,
+        "landed_cost_usd": 7.87,
+        "breakeven_usd": 8.41,
+        "at_2_2x": {
+          "sell": 3.23,
+          "fee": 0.39,
+          "profit": -5.03,
+          "margin_pct": -155.6
+        },
+        "at_market_p25": {
+          "sell": 18.99,
+          "fee": 0.85,
+          "profit": 10.27,
+          "margin_pct": 54.1
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.02,
+          "profit": 16.1,
+          "margin_pct": 64.4
+        }
+      },
       {
         "pd_no": "1035210",
         "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
@@ -493,6 +526,39 @@
         }
       },
       {
+        "pd_no": "1045421",
+        "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+        "bucket": "스킨케어",
+        "shopify_score": 100,
+        "price_krw": 5000,
+        "weight_g_est": 64,
+        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.18,
+        "shipping_order_usd": 6.18,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 10.4,
+        "breakeven_usd": 11.02,
+        "at_2_2x": {
+          "sell": 8.08,
+          "fee": 0.53,
+          "profit": -2.86,
+          "margin_pct": -35.3
+        },
+        "at_market_p25": {
+          "sell": 18.99,
+          "fee": 0.85,
+          "profit": 7.74,
+          "margin_pct": 40.7
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.02,
+          "profit": 13.56,
+          "margin_pct": 54.3
+        }
+      },
+      {
         "pd_no": "1004153",
         "name": "에센셜 마스크시트 그린티",
         "bucket": "마스크팩",
@@ -523,6 +589,39 @@
           "fee": 1.02,
           "profit": 16.62,
           "margin_pct": 66.5
+        }
+      },
+      {
+        "pd_no": "1038192",
+        "name": "참조은 덴탈 마스크 컬러 대형 10매입",
+        "bucket": "마스크팩",
+        "shopify_score": 100,
+        "price_krw": 1000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 0.73,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
+        "tariff_usd": 0.11,
+        "landed_cost_usd": 7.77,
+        "breakeven_usd": 8.31,
+        "at_2_2x": {
+          "sell": 1.62,
+          "fee": 0.35,
+          "profit": -6.5,
+          "margin_pct": -401.9
+        },
+        "at_market_p25": {
+          "sell": 18.99,
+          "fee": 0.85,
+          "profit": 10.37,
+          "margin_pct": 54.6
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.02,
+          "profit": 16.2,
+          "margin_pct": 64.8
         }
       },
       {
@@ -1021,6 +1120,39 @@
         }
       },
       {
+        "pd_no": "1072800",
+        "name": "줌 바이 정샘물 세범다운 쿠션",
+        "bucket": "메이크업",
+        "shopify_score": 94,
+        "price_krw": 5000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 11.15,
+        "breakeven_usd": 11.79,
+        "at_2_2x": {
+          "sell": 8.08,
+          "fee": 0.53,
+          "profit": -3.6,
+          "margin_pct": -44.5
+        },
+        "at_market_p25": {
+          "sell": 18.99,
+          "fee": 0.85,
+          "profit": 6.99,
+          "margin_pct": 36.8
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.02,
+          "profit": 12.82,
+          "margin_pct": 51.3
+        }
+      },
+      {
         "pd_no": "1049295",
         "name": "[진정수분버블]VT 시카 버블 스파클링 부스터 10 g 4개입",
         "bucket": "마스크팩",
@@ -1483,6 +1615,39 @@
         }
       },
       {
+        "pd_no": "59793",
+        "name": "NITEX 그립 코팅장갑 FIT L",
+        "bucket": "메이크업",
+        "shopify_score": 85,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 6.92,
+        "shipping_order_usd": 6.92,
+        "tariff_usd": 0.22,
+        "landed_cost_usd": 8.61,
+        "breakeven_usd": 9.18,
+        "at_2_2x": {
+          "sell": 3.23,
+          "fee": 0.39,
+          "profit": -5.77,
+          "margin_pct": -178.5
+        },
+        "at_market_p25": {
+          "sell": 18.99,
+          "fee": 0.85,
+          "profit": 9.53,
+          "margin_pct": 50.2
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.02,
+          "profit": 15.35,
+          "margin_pct": 61.4
+        }
+      },
+      {
         "pd_no": "1047492",
         "name": "그립 만능렌치(210 mm)",
         "bucket": "메이크업",
@@ -1616,6 +1781,39 @@
       }
     ],
     "3개_묶음배송": [
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 100,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 2.55,
+        "shipping_order_usd": 7.66,
+        "tariff_usd": 0.22,
+        "landed_cost_usd": 4.24,
+        "breakeven_usd": 4.47,
+        "at_2_2x": {
+          "sell": 3.23,
+          "fee": 0.19,
+          "profit": -1.21,
+          "margin_pct": -37.3
+        },
+        "at_market_p25": {
+          "sell": 18.99,
+          "fee": 0.65,
+          "profit": 14.1,
+          "margin_pct": 74.2
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 0.82,
+          "profit": 19.92,
+          "margin_pct": 79.7
+        }
+      },
       {
         "pd_no": "1035210",
         "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
@@ -2079,6 +2277,39 @@
         }
       },
       {
+        "pd_no": "1045421",
+        "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+        "bucket": "스킨케어",
+        "shopify_score": 100,
+        "price_krw": 5000,
+        "weight_g_est": 64,
+        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.31,
+        "shipping_order_usd": 6.92,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 6.53,
+        "breakeven_usd": 6.83,
+        "at_2_2x": {
+          "sell": 8.08,
+          "fee": 0.33,
+          "profit": 1.22,
+          "margin_pct": 15.0
+        },
+        "at_market_p25": {
+          "sell": 18.99,
+          "fee": 0.65,
+          "profit": 11.81,
+          "margin_pct": 62.2
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 0.82,
+          "profit": 17.63,
+          "margin_pct": 70.6
+        }
+      },
+      {
         "pd_no": "1004153",
         "name": "에센셜 마스크시트 그린티",
         "bucket": "마스크팩",
@@ -2109,6 +2340,39 @@
           "fee": 0.82,
           "profit": 20.21,
           "margin_pct": 80.9
+        }
+      },
+      {
+        "pd_no": "1038192",
+        "name": "참조은 덴탈 마스크 컬러 대형 10매입",
+        "bucket": "마스크팩",
+        "shopify_score": 100,
+        "price_krw": 1000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 0.73,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
+        "tariff_usd": 0.11,
+        "landed_cost_usd": 4.38,
+        "breakeven_usd": 4.61,
+        "at_2_2x": {
+          "sell": 1.62,
+          "fee": 0.15,
+          "profit": -2.91,
+          "margin_pct": -180.1
+        },
+        "at_market_p25": {
+          "sell": 18.99,
+          "fee": 0.65,
+          "profit": 13.96,
+          "margin_pct": 73.5
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 0.82,
+          "profit": 19.78,
+          "margin_pct": 79.2
         }
       },
       {
@@ -2607,6 +2871,39 @@
         }
       },
       {
+        "pd_no": "1072800",
+        "name": "줌 바이 정샘물 세범다운 쿠션",
+        "bucket": "메이크업",
+        "shopify_score": 94,
+        "price_krw": 5000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 7.76,
+        "breakeven_usd": 8.1,
+        "at_2_2x": {
+          "sell": 8.08,
+          "fee": 0.33,
+          "profit": -0.01,
+          "margin_pct": -0.2
+        },
+        "at_market_p25": {
+          "sell": 18.99,
+          "fee": 0.65,
+          "profit": 10.58,
+          "margin_pct": 55.7
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 0.82,
+          "profit": 16.4,
+          "margin_pct": 65.6
+        }
+      },
+      {
         "pd_no": "1049295",
         "name": "[진정수분버블]VT 시카 버블 스파클링 부스터 10 g 4개입",
         "bucket": "마스크팩",
@@ -3069,6 +3366,39 @@
         }
       },
       {
+        "pd_no": "59793",
+        "name": "NITEX 그립 코팅장갑 FIT L",
+        "bucket": "메이크업",
+        "shopify_score": 85,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 10.61,
+        "tariff_usd": 0.22,
+        "landed_cost_usd": 5.23,
+        "breakeven_usd": 5.49,
+        "at_2_2x": {
+          "sell": 3.23,
+          "fee": 0.19,
+          "profit": -2.19,
+          "margin_pct": -67.7
+        },
+        "at_market_p25": {
+          "sell": 18.99,
+          "fee": 0.65,
+          "profit": 13.11,
+          "margin_pct": 69.1
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 0.82,
+          "profit": 18.94,
+          "margin_pct": 75.8
+        }
+      },
+      {
         "pd_no": "1047492",
         "name": "그립 만능렌치(210 mm)",
         "bucket": "메이크업",
@@ -3202,6 +3532,39 @@
       }
     ],
     "5개_묶음배송": [
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 100,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 1.98,
+        "shipping_order_usd": 9.91,
+        "tariff_usd": 0.22,
+        "landed_cost_usd": 3.67,
+        "breakeven_usd": 3.84,
+        "at_2_2x": {
+          "sell": 3.23,
+          "fee": 0.15,
+          "profit": -0.59,
+          "margin_pct": -18.3
+        },
+        "at_market_p25": {
+          "sell": 18.99,
+          "fee": 0.61,
+          "profit": 14.71,
+          "margin_pct": 77.4
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 0.78,
+          "profit": 20.53,
+          "margin_pct": 82.2
+        }
+      },
       {
         "pd_no": "1035210",
         "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
@@ -3665,6 +4028,39 @@
         }
       },
       {
+        "pd_no": "1045421",
+        "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+        "bucket": "스킨케어",
+        "shopify_score": 100,
+        "price_krw": 5000,
+        "weight_g_est": 64,
+        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 1.68,
+        "shipping_order_usd": 8.4,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 5.91,
+        "breakeven_usd": 6.14,
+        "at_2_2x": {
+          "sell": 8.08,
+          "fee": 0.29,
+          "profit": 1.88,
+          "margin_pct": 23.3
+        },
+        "at_market_p25": {
+          "sell": 18.99,
+          "fee": 0.61,
+          "profit": 12.47,
+          "margin_pct": 65.7
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 0.78,
+          "profit": 18.3,
+          "margin_pct": 73.2
+        }
+      },
+      {
         "pd_no": "1004153",
         "name": "에센셜 마스크시트 그린티",
         "bucket": "마스크팩",
@@ -3695,6 +4091,39 @@
           "fee": 0.78,
           "profit": 21.1,
           "margin_pct": 84.5
+        }
+      },
+      {
+        "pd_no": "1038192",
+        "name": "참조은 덴탈 마스크 컬러 대형 10매입",
+        "bucket": "마스크팩",
+        "shopify_score": 100,
+        "price_krw": 1000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 0.73,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
+        "tariff_usd": 0.11,
+        "landed_cost_usd": 3.52,
+        "breakeven_usd": 3.69,
+        "at_2_2x": {
+          "sell": 1.62,
+          "fee": 0.11,
+          "profit": -2.01,
+          "margin_pct": -124.6
+        },
+        "at_market_p25": {
+          "sell": 18.99,
+          "fee": 0.61,
+          "profit": 14.86,
+          "margin_pct": 78.2
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 0.78,
+          "profit": 20.68,
+          "margin_pct": 82.8
         }
       },
       {
@@ -4193,6 +4622,39 @@
         }
       },
       {
+        "pd_no": "1072800",
+        "name": "줌 바이 정샘물 세범다운 쿠션",
+        "bucket": "메이크업",
+        "shopify_score": 94,
+        "price_krw": 5000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 3.67,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
+        "tariff_usd": 0.55,
+        "landed_cost_usd": 6.9,
+        "breakeven_usd": 7.17,
+        "at_2_2x": {
+          "sell": 8.08,
+          "fee": 0.29,
+          "profit": 0.88,
+          "margin_pct": 10.9
+        },
+        "at_market_p25": {
+          "sell": 18.99,
+          "fee": 0.61,
+          "profit": 11.48,
+          "margin_pct": 60.4
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 0.78,
+          "profit": 17.3,
+          "margin_pct": 69.2
+        }
+      },
+      {
         "pd_no": "1049295",
         "name": "[진정수분버블]VT 시카 버블 스파클링 부스터 10 g 4개입",
         "bucket": "마스크팩",
@@ -4652,6 +5114,39 @@
           "fee": 0.78,
           "profit": 17.3,
           "margin_pct": 69.2
+        }
+      },
+      {
+        "pd_no": "59793",
+        "name": "NITEX 그립 코팅장갑 FIT L",
+        "bucket": "메이크업",
+        "shopify_score": 85,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 2.68,
+        "shipping_order_usd": 13.39,
+        "tariff_usd": 0.22,
+        "landed_cost_usd": 4.37,
+        "breakeven_usd": 4.56,
+        "at_2_2x": {
+          "sell": 3.23,
+          "fee": 0.15,
+          "profit": -1.29,
+          "margin_pct": -39.9
+        },
+        "at_market_p25": {
+          "sell": 18.99,
+          "fee": 0.61,
+          "profit": 14.01,
+          "margin_pct": 73.8
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 0.78,
+          "profit": 19.84,
+          "margin_pct": 79.4
         }
       },
       {

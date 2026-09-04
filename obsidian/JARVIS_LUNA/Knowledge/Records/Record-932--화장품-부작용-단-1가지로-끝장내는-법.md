@@ -2,7 +2,7 @@
 title: "Record 932 · 화장품-부작용-단-1가지로-끝장내는-법"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T22:29:09.542328+00:00
+updated_at: 2026-09-04T00:17:51.194247+00:00
 tags: [{', '.join(tags)}]
 ---
 
