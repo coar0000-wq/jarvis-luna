@@ -2,17 +2,17 @@
 title: "Record 487 · 30-K-Beauty-Skincare-Deals-You-Can-Snag-on-Amazon-for-Up-to-50-Off-Rig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T20:02:05.868595+00:00
+updated_at: 2026-09-04T04:53:29.300787+00:00
 tags: [{', '.join(tags)}]
 ---
 
 # Record 487 · 30-K-Beauty-Skincare-Deals-You-Can-Snag-on-Amazon-for-Up-to-50-Off-Rig
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiigFBVV95cUxPeFg4RnI5cHE5dEVIaDhnSEVvTmFmTUZRNjh3ZG9qMGxvcDB5NzN0WFA0aGhGQlNrX195WHQ5V1Q0S21YeE1mQjJwSmtsM3lrVG1ZMndOOGpESXo2MVZ2dl85YlhUVEgxQkZEODJ2by15d2ZOM0dXN0d6OXI5UlBqd2FaUWkyb2hYVkE?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihgFBVV95cUxPa2h1RnVaQllwNXRpX2V6RnI0NE44T1A0aHRMVm5mYWdqaW9fRFREd0w0UHh3TGJma3Q1Q2lod2QxVmZwU2hMZWlmZVM2dlloQ3plOUk3WEc4ZUVzR3M3SFlORjZQQTYxR3gtNllfdkVTaEc3V25FWGxBQk8zTVprRm9nQ2NHQQ?oc=5)
 
-**제목:** 30+ K-Beauty Skincare Deals You Can Snag on Amazon for Up to 50% Off Right Now - Charlotte Observer
+**제목:** 30+ K-Beauty Skincare Deals You Can Snag on Amazon for Up to 50% Off Right Now - Kansas City Star
 
-30+ K-Beauty Skincare Deals You Can Snag on Amazon for Up to 50% Off Right Now - Charlotte Observer
+30+ K-Beauty Skincare Deals You Can Snag on Amazon for Up to 50% Off Right Now - Kansas City Star
 
 **출처:** Source · Google Search
 
