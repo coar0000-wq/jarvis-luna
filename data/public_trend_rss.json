@@ -1,6 +1,6 @@
 {
   "source": "public RSS (hnrss + Google News RSS)",
-  "collected_at": "2026-09-04T09:18:21.311294+00:00",
+  "collected_at": "2026-09-04T13:43:49.684057+00:00",
   "status": "ok",
   "feed_summaries": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "name": "hacker_news_best",
-      "count": 0,
+      "count": 25,
       "error": null
     },
     {
@@ -29,8 +29,15 @@
       "error": null
     }
   ],
-  "relevant_count": 173,
+  "relevant_count": 172,
   "relevant_items": [
+    {
+      "title": "The complexity behind eCommerce ERP integration",
+      "url": "https://shiftmag.dev/the-phrase-that-ruins-every-ecommerce-project-just-connect-it-to-our-erp-11689/",
+      "published": "Fri, 04 Sep 2026 10:31:43 +0000",
+      "feed": "hacker_news_ecommerce",
+      "category": "ecommerce"
+    },
     {
       "title": "Sidekick's continual learning loop (2026) – Shopify",
       "url": "https://shopify.engineering/sidekicks-continual-learning-loop",
@@ -165,13 +172,6 @@
       "category": "ecommerce"
     },
     {
-      "title": "Open-source Shopify Hydrogen theme with RTL, internationalization, seeding CLI",
-      "url": "https://github.com/ozgursagiroglu/shopify-hydrogen-fashion-theme",
-      "published": "Sun, 16 Aug 2026 23:37:56 +0000",
-      "feed": "hacker_news_ecommerce",
-      "category": "ecommerce"
-    },
-    {
       "title": "ESW Beauty Green Reset Anti-Aging Face Mask, Korean Skin Care, 1 Pack | Hydrating Face Mask with Apple, Vitamin C & Hyaluronic Acid for Collagen Support, Firming & Moisturizing Skincare for Women - Whole Foods Market",
       "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxNT3R3Tzc0MGNQLXpQaUkzSTJDLWEtYi0ydnYxMjRzWHF6X3dtWHlubnlFMXNxYzBHMXNfT3pmOFBhOE44S3prcHhpUURHenVJSTdQeklVOExuZUVwdzFoRWZSN1lQRS1qdjJTYjgxcHJDQXFMS3U1RzBISHdOYzNsb2wyLVpWTGZQdWU4NEFLR25MSXdBX0xtYzFKYWZZVGs3SzZTS0R5WHJuczI2UmYzUVlKVFY3bUJnOEdRUFVMcVZkVkpBQlNkNHV1Z1d0NWdHa3dLSzBkdUxYOGl0SEFYaXh5cWdOY2tJajNUVGNZWl92VGEybE5KbTBnN28wdzgzYU9PZXVWYjVKeHVPelp1S0VVSnE5S0tzenFVLVFzb0QzMVpHaFZ0LWJ3UHIxQUduX2lUWjYxYi1yX2M2ZkJfRHdEZWx6S1hlM28xaFcxbkZOZms1U2xvaVBGd29iOHp3dWl2cWZUWlV1SzZZNUR1bktR?oc=5",
       "published": "Thu, 03 Sep 2026 21:30:34 GMT",
@@ -179,9 +179,23 @@
       "category": "beauty"
     },
     {
+      "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
+      "published": "Fri, 04 Sep 2026 09:30:00 GMT",
+      "feed": "google_news_kbeauty",
+      "category": "beauty"
+    },
+    {
       "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
       "published": "Sun, 30 Aug 2026 23:55:09 GMT",
+      "feed": "google_news_kbeauty",
+      "category": "beauty"
+    },
+    {
+      "title": "K-Beauty’s Expanding Influence on Global Beauty Trends - Beauty Packaging",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd0Uya3ZtVk5MdkdiNjN1aFZ1MVN2M3NaUHhhQnhMQl9SYXJzZUtaeHlFSlRZRENwWmEyX3h2d2szZ2ZJVWpNUkZBTDBuenJ0TWZCR21ONFROcjdLZlZRMkFkTWszOUJ5SUxFSUNKN2JSR1RkcDg4amI1Z0VsbVhYMTViTDFhMFQxVnZqQU5rNXFiNzVla1FXbFpsRENDZw?oc=5",
+      "published": "Fri, 04 Sep 2026 12:50:00 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
@@ -200,7 +214,7 @@
       "category": "beauty"
     },
     {
-      "title": "K-Beauty’s Brazil Push Signals a New Type of Korean Diplomacy - thediplomat.com",
+      "title": "K-Beauty’s Brazil Push Signals a New Type of Korean Diplomacy - The Diplomat – Asia-Pacific",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0ZibUpBTHd0ejZVOXVzTEhuQWNMVE1VblM4NUhVTWt4dmtkbW9wbnVxY0JOY1NpMEEwY2drcjZyb0dlLVRZZ1FIbUxMWkR4RVJzRlVTMDRFcHJuN2dEUDJpX1dlY0xYYXM4ajQ0dVUyN3F3MjA3a1ZlZklnSlhaTW1wcHJTUE5ncTlUZ1Axa003c1dWdE0ybg?oc=5",
       "published": "Thu, 03 Sep 2026 11:30:44 GMT",
       "feed": "google_news_kbeauty",
@@ -214,16 +228,16 @@
       "category": "beauty"
     },
     {
-      "title": "MBK buys K-beauty brand stake to resume investment in S.Korea consumer sector - KED Global",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yZzBtSHg0QXQ5aC1jREtoaEJrR1ZsQUVqMHBkV0wyS2pkZzJxNDRFOVh3Mzk4d2l2SlZOVTJfY2xQZFVDb3VmWlZjenZIbEZFYXNtMWdLX2JjLUNWTVRpUVk2RVNWRVZwUlQ2RlJWVm12THVQaEE?oc=5",
-      "published": "Fri, 04 Sep 2026 05:37:56 GMT",
+      "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5",
+      "published": "Wed, 02 Sep 2026 22:02:21 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
     {
-      "title": "Not married, with children in Korea | What is K-beauty exactly? - Korea JoongAng Daily",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOODBWZXlZV1JuMlNtdEVDMXdUMl9tTE9Jd3M1LTBHTkpyQU5NdE1pOGpIRjNkR2xFMnRpdWdQdWFBZlhNZlptRGt6UElXUUQxbEJvalFNaDNJaXhleVZRM3R6cVhsaHJBeWItZGdTaVQzNW9mQzl0bjRiV2JtWGlpLTdmRmRIUktza2tIWncwSXJHTkliLV9iaWkzM0tQclpWRHNsQWc1S3A3VU1jbnh6bTVIa1Y?oc=5",
-      "published": "Fri, 04 Sep 2026 02:27:02 GMT",
+      "title": "MBK buys K-beauty brand stake to resume investment in S.Korea's consumer sector - KED Global",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yZzBtSHg0QXQ5aC1jREtoaEJrR1ZsQUVqMHBkV0wyS2pkZzJxNDRFOVh3Mzk4d2l2SlZOVTJfY2xQZFVDb3VmWlZjenZIbEZFYXNtMWdLX2JjLUNWTVRpUVk2RVNWRVZwUlQ2RlJWVm12THVQaEE?oc=5",
+      "published": "Fri, 04 Sep 2026 05:37:36 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
@@ -242,23 +256,16 @@
       "category": "beauty"
     },
     {
-      "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5",
-      "published": "Wed, 02 Sep 2026 22:02:21 GMT",
+      "title": "Not married, with children in Korea | What is K-beauty exactly? - Korea JoongAng Daily",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOODBWZXlZV1JuMlNtdEVDMXdUMl9tTE9Jd3M1LTBHTkpyQU5NdE1pOGpIRjNkR2xFMnRpdWdQdWFBZlhNZlptRGt6UElXUUQxbEJvalFNaDNJaXhleVZRM3R6cVhsaHJBeWItZGdTaVQzNW9mQzl0bjRiV2JtWGlpLTdmRmRIUktza2tIWncwSXJHTkliLV9iaWkzM0tQclpWRHNsQWc1S3A3VU1jbnh6bTVIa1Y?oc=5",
+      "published": "Fri, 04 Sep 2026 02:27:02 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
     {
-      "title": "Korean conglomerates poised to shift to buy-side M&A as restructuring cycle eases: PwC - KED Global",
+      "title": "Korean companies poised to shift to buy-side M&A as restructuring cycle eases: Samil PwC - KED Global",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9IZmQ5NlVOYk1ILUJTaVBwVFFpY3VNSEdGNzk4YnZ1TlVqRm9NRlRjSEVxbDBOdWJOeThRSDlkT2VzMGV3RlNrOXRjQnd3SUc0U0lMdnhfTFJYOWRPb0VXZ2NxeXNCQVQyXy1vTURkVFU0ZEVvS3E4YWoxMA?oc=5",
-      "published": "Fri, 04 Sep 2026 06:50:46 GMT",
-      "feed": "google_news_kbeauty",
-      "category": "beauty"
-    },
-    {
-      "title": "Korea reimagines overseas cultural centers as gateways to Korean lifestyle - The Korea Times",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ0pUblZDLUN3SGoxSTB2TUU4dVhwWGp2ajFjem5vbG5paE5rZzhSbHRfNTdzU1RVcVZtelZVWkN1OXpGcXFKVFFpNU9rZU5mS2Ixd2hGbmNWcTlwekJnOGtTdl9OVl9NdTA2ZTRmdE1GeGltUUFocUpLZElKNHkyOGtpRVRJY2tZSzRRMlc0SnctZ3B5ekNYMVNBR0RqOEs5czYwdlVzYWJNUFFVcHVzWEZQeE9wZUZidTJ1YjE5azJNQ0NGUlJZZlZJZFVmcDjSAdQBQVVfeXFMTVNuSDZaM0xSNDFNNTZJRGhoR21XcVFldUlGRFNadUxNRFV3UExwenRRSURhdVMyeWpzQi0zbjFlR1hMSlp3SWJFTF9TSFl0LWdMU2hVaHRROWlEVlYzVWl1SS1SQ0JzYXpMaGg1X2dTamhhRWFrMnlrLTk0dkFnc04wTzcwWnlIM0Q3ZVNNS1dSd2R6bnBRUDdRWFRDeWJZNDMxOTBEQ2ExeVNZbU00QjBzZkRINjczSmRvRTZUTXRaYW5jUnd4TDRNVmZGbzFfcXZMQ2k?oc=5",
-      "published": "Fri, 04 Sep 2026 04:22:04 GMT",
+      "published": "Fri, 04 Sep 2026 08:15:00 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
@@ -277,16 +284,9 @@
       "category": "beauty"
     },
     {
-      "title": "ESW Beauty Deep Detox Clarifying Korean Face Mask – Vitamin C, Witch Hazel & Charcoal for Pores, Oil Control, Acne-Prone & Congested Skin – Skincare Gifts for Women (Pack of 2) - Whole Foods Market",
-      "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPUnhLS2YzYTZkd2pKM3FRVnItbzhuSEhMZEVIQ0szZm1iNllpVHNINXBONkZudERueUNsSWM3bEhyOTFuWFczVHkxbVZpVVVCOGh2aGNWcW1BbFRrQjlZMXdLcUlqS3NaR1RWcVBqQk9UeVlIM25rbGVzRjkwSlZhZ3kyVlF2dV82UElRY3Q5aVpEUzhrRTBtR3NCUU1XeGhEUDd4c2VzVUFNV0xwVFlYMWcyQ0tnOGxCZkxxUVp5WDFHR2VLSzRranNXb0J1SWt1c2VvdEc5SWNDNlh0MDJHQlI3UnMxMzlhSjQzeGVGdmI3R0VJb25KNnlXT0RXVFdHVk92ajBKVzBlWUszOUdTbUdvS0VjNkFSaXJudk9mbUpReldRalRFSTh2UlBkY24zMHlIbjlEQUxwNWJqY3FxNngyeFNBamFwdjQ5MEJ1SVpLWFpj?oc=5",
-      "published": "Tue, 01 Sep 2026 21:50:10 GMT",
-      "feed": "google_news_kbeauty",
-      "category": "beauty"
-    },
-    {
-      "title": "How To Build A Minimalist Korean Skin Care Routine For Glass Skin - Bustle",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5LNS1mWnZlTzFNcHpxa3BlT1B1bU0tUENDRVhnRERCdFRSNFBmcktaeFM4eEswQnd4dFhfV1NkWFpYV3d6Zzh3ODBpVjRuVnBvRDdBY2oxUmFxWlIyY0VERnZaSlJyM2pQTU9ZejhJQXd1d2c?oc=5",
-      "published": "Thu, 03 Sep 2026 16:33:06 GMT",
+      "title": "Makeup artist Liz Hyun’s Korean beauty favourites - Fashion Journal",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CVjJ5aDhRQVVFcWJWUTJTZE5JM0VPTzFVRFpvWHZHTmZXalplU0RKTVA3V0NXVm1pWkI0STZGSkdtQWNCSHJ0MTNsc2tHcHNDZjlsTkU2N2RyT2lpeTNLMVE3YjdSUEk?oc=5",
+      "published": "Thu, 03 Sep 2026 07:07:43 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
@@ -298,9 +298,9 @@
       "category": "beauty"
     },
     {
-      "title": "Makeup artist Liz Hyun’s Korean beauty favourites - fashionjournal.com.au",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CVjJ5aDhRQVVFcWJWUTJTZE5JM0VPTzFVRFpvWHZHTmZXalplU0RKTVA3V0NXVm1pWkI0STZGSkdtQWNCSHJ0MTNsc2tHcHNDZjlsTkU2N2RyT2lpeTNLMVE3YjdSUEk?oc=5",
-      "published": "Thu, 03 Sep 2026 07:07:43 GMT",
+      "title": "Korea reimagines overseas cultural centers as gateways to Korean lifestyle - The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ0pUblZDLUN3SGoxSTB2TUU4dVhwWGp2ajFjem5vbG5paE5rZzhSbHRfNTdzU1RVcVZtelZVWkN1OXpGcXFKVFFpNU9rZU5mS2Ixd2hGbmNWcTlwekJnOGtTdl9OVl9NdTA2ZTRmdE1GeGltUUFocUpLZElKNHkyOGtpRVRJY2tZSzRRMlc0SnctZ3B5ekNYMVNBR0RqOEs5czYwdlVzYWJNUFFVcHVzWEZQeE9wZUZidTJ1YjE5azJNQ0NGUlJZZlZJZFVmcDjSAdQBQVVfeXFMTVNuSDZaM0xSNDFNNTZJRGhoR21XcVFldUlGRFNadUxNRFV3UExwenRRSURhdVMyeWpzQi0zbjFlR1hMSlp3SWJFTF9TSFl0LWdMU2hVaHRROWlEVlYzVWl1SS1SQ0JzYXpMaGg1X2dTamhhRWFrMnlrLTk0dkFnc04wTzcwWnlIM0Q3ZVNNS1dSd2R6bnBRUDdRWFRDeWJZNDMxOTBEQ2ExeVNZbU00QjBzZkRINjczSmRvRTZUTXRaYW5jUnd4TDRNVmZGbzFfcXZMQ2k?oc=5",
+      "published": "Fri, 04 Sep 2026 04:22:04 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
@@ -308,6 +308,13 @@
       "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - ELLE",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5",
       "published": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "feed": "google_news_kbeauty",
+      "category": "beauty"
+    },
+    {
+      "title": "How To Build A Minimalist Korean Skin Care Routine For Glass Skin - Bustle",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5LNS1mWnZlTzFNcHpxa3BlT1B1bU0tUENDRVhnRERCdFRSNFBmcktaeFM4eEswQnd4dFhfV1NkWFpYV3d6Zzh3ODBpVjRuVnBvRDdBY2oxUmFxWlIyY0VERnZaSlJyM2pQTU9ZejhJQXd1d2c?oc=5",
+      "published": "Thu, 03 Sep 2026 16:33:06 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
@@ -340,23 +347,9 @@
       "category": "beauty"
     },
     {
-      "title": "KiiiKiii Haeum — Rising K-Pop Star Named New Beauty Muse - The Korea Daily",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0V2p6RXJDbWlpdHBGRUJIT0l5RHNnWUh1RjJyaTAwdGx4WTRmc3c1ODJCT0p0RFZOX1NYMHZSYUZBLWlsYUJZOW1nMldiS2dUNjN4b2NVN1JvemhDTjNUQUdLdUk?oc=5",
-      "published": "Thu, 03 Sep 2026 18:50:14 GMT",
-      "feed": "google_news_kbeauty",
-      "category": "beauty"
-    },
-    {
-      "title": "Korean beauty products are becoming mainstream in the U.S. Why there may be even more growth ahead - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaEFkcWhMdDdlUnJBelpLRUU4QmtlNXNXR2dSTGdZT3RGdmtEWng5TlpEbVVhSjJhSlhFdlp0dlpvTkNla25yNDdmMVFCMDNCQnNFMFFzR3RhX2t4dVYtd1hhQ19OZDhLeE43bldyS3I3cmRNS3NFZm1RdUxzTXdxWG5Za3RueVZpbWJFcU1mZ1NPV3phTUxEX9IBngFBVV95cUxQOEtvb2dRRmNqNFFwc2QyZ1JfNTRpT0JRVldMRm5pY3hOT3o3ZHlrVHZTbmYwQ0M5bDJfNW5kb0k4dFZYRC0wX1dfODdDc1FFQWc5cl9JN0lKaXFNd0J5T3RwWi1wZGFmemtqajcxYzFVYWN2eXJoOW1teDRCVkZjcVdGeE5vRTFCUmpOZUxBRDM3bnNPNUU3elU0VmhmZw?oc=5",
-      "published": "Sat, 18 Jul 2026 07:00:00 GMT",
-      "feed": "google_news_kbeauty",
-      "category": "beauty"
-    },
-    {
-      "title": "ADWIN KOREA Shapes the Future of K-Beauty Through Material Innovation - The Worldfolio",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbk9RV1FXZmwyOG1EcHJYcDQwZGxDVTRoRGxfOUp6M0xXakxkU1JzcWpHWEVoUU16LVdVbHNNVmlOQ0xPbEM3aHhqSmN4dUNORy0zcjBiREJrTlh4X0E0ZUpWOVA1QkpFSURJekFvSERFNFdickNnZnZmd2czZ2l5VENLNkNJM0ZVeUk1ZkkzQU52OF84eExsNkZWMDJIS2dxY3hYb2dub0RHZU9tR0E?oc=5",
-      "published": "Mon, 31 Aug 2026 00:07:50 GMT",
+      "title": "How Far Can the K-beauty Craze Go? - WWD",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNEx1RkFFYkt2M1lRNGRSMVpTbENQQzRhOUJuSUpmQnlpQjdyQ1FkdE9XaVJ6SVVPdnA3aHRhSDFGUGxZMXh3Q3g1WGJFTjJXek5KQ1VoS3dIemdHTlV4U0w1U3RoTHo1SWJWSkQ3SGc1ajQtM09WWUdJMTFzRkZyWUV0NWh1OThNYmtVckJycHNUbXJWS0phaTBB?oc=5",
+      "published": "Tue, 01 Sep 2026 04:11:14 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
@@ -382,9 +375,9 @@
       "category": "beauty"
     },
     {
-      "title": "Korean herbal beauty brand Chosun Beauty announced on the 4th that it will introduce \"Dayscreen Tint.. - 매일경제",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFByR2J5RkdhUEZVRXZPMkRNT29hUmZzOUZTNEJTMkRHXzhDN182Mzluc3FVUmt1VUVNS2M4UjhNOXN5c2lNYXBkdHd0SVdEbHdTOUxR?oc=5",
-      "published": "Fri, 04 Sep 2026 08:36:15 GMT",
+      "title": "KiiiKiii Haeum — Rising K-Pop Star Named New Beauty Muse - The Korea Daily",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0V2p6RXJDbWlpdHBGRUJIT0l5RHNnWUh1RjJyaTAwdGx4WTRmc3c1ODJCT0p0RFZOX1NYMHZSYUZBLWlsYUJZOW1nMldiS2dUNjN4b2NVN1JvemhDTjNUQUdLdUk?oc=5",
+      "published": "Thu, 03 Sep 2026 18:50:14 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
@@ -396,20 +389,6 @@
       "category": "beauty"
     },
     {
-      "title": "For Deoproce, the Next Chapter Starts With Jinyoung - L'Officiel Philippines",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRFp3YUZKM1dSczNNR3RZYXMxempJU29vTWFjVUtWZ0hZdWctRVc1MzFiVUxqbU0xdklwVVlldWJMUXRkWXo2RE9IUDl4QmxKTzBSMTM4aFBLOUJuNXRtdGZ4a2ZhN2hoM25jVmwyWmxQeS1peDJZRFRUSzN4akVyVDM1SDQ3cTc5bVRDNmJB?oc=5",
-      "published": "Thu, 03 Sep 2026 22:42:26 GMT",
-      "feed": "google_news_kbeauty",
-      "category": "beauty"
-    },
-    {
-      "title": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LUmI0VzFqenBxYXlPcjlQVE4xOEVsbE8wYW4xdG1jSHRWbFQzWFZEOVRpTmN0bndubWptdUJqc3BRb2ExWUJCZmtRSVhSWDliZDN5RGhjVGhLSW1ieU45TVhMZVpKSFVYZWc?oc=5",
-      "published": "Mon, 03 Aug 2026 07:00:00 GMT",
-      "feed": "google_news_kbeauty",
-      "category": "beauty"
-    },
-    {
       "title": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFlyd3hfU3ozdUtzS0d1MU5Hbmx6MHlWZTFicUdJT2NrSWlaLWJTS2lzQ21tZGhrQTRRei1FeDJnQk1OU0dvM1R5cUlnYnZFM05SM0syVjhnYXlnTmV5LVlHRmNpTmVBamFQMVFHVWJEQW9JVm1uTGxWLW84dTZCYTZ1RU1QVjhYTGhaaEp2NHNkQ2k3T1hsZElFcw?oc=5",
       "published": "Fri, 28 Aug 2026 04:00:00 GMT",
@@ -417,37 +396,58 @@
       "category": "beauty"
     },
     {
-      "title": "The Korean Beauty Giant Coming for America’s Dollars - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS3ZMaXU3eXVhN0s5dV9yNmNrU3l3THlQeVJWLXFBUWdCNDR3MjNpOVN4QUxUVmRpRE15enlXTTZQS3o1blhZTVlZT3RESTFtX2RDNldEd0VTNHpXdVhXV2J1SGwyX1NvUDZnVERzRldrR19JUTM3UU4ybWFKbEQtbnRWQlN3U1hkME5mT3ZSeEc4Zw?oc=5",
-      "published": "Thu, 28 May 2026 07:00:00 GMT",
+      "title": "For Deoproce, the Next Chapter Starts With Jinyoung - L'Officiel Philippines",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRFp3YUZKM1dSczNNR3RZYXMxempJU29vTWFjVUtWZ0hZdWctRVc1MzFiVUxqbU0xdklwVVlldWJMUXRkWXo2RE9IUDl4QmxKTzBSMTM4aFBLOUJuNXRtdGZ4a2ZhN2hoM25jVmwyWmxQeS1peDJZRFRUSzN4akVyVDM1SDQ3cTc5bVRDNmJB?oc=5",
+      "published": "Thu, 03 Sep 2026 22:42:26 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
     {
-      "title": "The Best K-Beauty Products to Buy During Amazon Prime Day - coveteur.com",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SUDVvTVRNazh4Z2tOR29pVEpzWFJ1bXFEcFJBaFBLSFNWSGNpVzljcVdDU1IxRENRWTVzUTBSUjlWczNiTHNQeWVrMU9oWEZnYU82dFZWSGVPNFZ2OTQzS1NBRQ?oc=5",
-      "published": "Tue, 23 Jun 2026 07:00:00 GMT",
+      "title": "Korean herbal beauty brand Chosun Beauty announced on the 4th that it will introduce \"Dayscreen Tint.. - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFByR2J5RkdhUEZVRXZPMkRNT29hUmZzOUZTNEJTMkRHXzhDN182Mzluc3FVUmt1VUVNS2M4UjhNOXN5c2lNYXBkdHd0SVdEbHdTOUxR?oc=5",
+      "published": "Fri, 04 Sep 2026 08:36:15 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
     {
-      "title": "The Korean Makeup Products You Should Absolutely Try - vogue.com",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mazhXejlTOE5YMTJFZmhhY05iNVRsYk5RcjZHR2NVcnBCdE9XNFhkbjAtSWgxaVBKUVQxeWNHZm1veWhTUkJCOTduU1RVTzZfcjBzQk5RZVZCcm54M1pqUXp3?oc=5",
-      "published": "Thu, 11 Jun 2026 07:00:00 GMT",
+      "title": "K-beauty’s fastest-growing products are quietly crossing over from cult status to household names - Sacramento Bee",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aWFdHVGswUVFLUzNOYnhaRzV4RXpLSE4yUU5IcHJVa2lieDYtRjBxNkZma1NUSG9hQS1QT3ZJcHVxekFETnhNUzloR3g5UkxEQWx5QVJxY1V5emtySDRYZzNnTUl3RWVCX29nazdaRUlMYWPSAXNBVV95cUxNdjl6SVNhV25mQjFJeUZITi0tLXlnMlFPcWc0a3lxNGU2cGdldm5GRzF2Yk1HY2VrQUhsVF9zemRaeVJvUkZzSDJxQnd4cXlDWTlGSEVYM3VYUEJ5aFMweWtBREtQb3NVTUVJRmxSMTlJQXBN?oc=5",
+      "published": "Thu, 27 Aug 2026 19:18:19 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
     {
-      "title": "Olive Young Pasadena: K-beauty giant opens 1st US store right here in SoCal - ABC7 Los Angeles",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOa3A5c0Znd3pZazNwN2o1SkFCS3hfcjNwWnZXbXUxZjhMV0JXVVg4bExiUzZMcFJ4RERULUh6SktNcWh6SUVkaEtldi13ZHNiNE55dE50Z3NOQnhJZ05zdTVXSkJhN1I3LTBjOFl1a0ZpVXJqUm90SkVQWmVqTlJGTzlobWpDMkhwS19hd01MRlpZcWhpMmI0cVlfWdIBoAFBVV95cUxPODJmX1d5di1ldEJ1RFQxYkVSWGo1STd4UnBZa2NvZGxHTkFOVkZUVndPV1FqcnpkYU83N3VsVUVERV9sdVdrUnlIb0I2XzlmZnZFMVluMlZPVXdSTGdlVFlRY0lLVk5LNTFXekpCTGNnbWxhY3RyQTI3S2NFQnNyX19Cc0pPUmxlM1A1ZEQzdjUzTUtjTEZ3SzlYcHR5a19v?oc=5",
-      "published": "Fri, 29 May 2026 07:00:00 GMT",
+      "title": "What Is Olive Young Festa? - The Cut",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BSnBaR2poOXZBQ0lRTkRxbk4tMElRY01YTXJPUndyN0IyM3RCdWdfQmNwd3ZKQWlnbThUZnp4cGFRbV80RGtreFVZcERWa1Zidk1ULUhEWmRqUXZNSmhPVGdpTjE3dUE5Y0o0Xw?oc=5",
+      "published": "Mon, 24 Aug 2026 07:00:00 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
     {
-      "title": "Laneige, CosRx, and Medicube: Best Early Prime Day Korean-Beauty Deals - New York Magazine",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPT3Ayd3ZLdThQbjI0RlFOSnk5QjczVTY2RXFmQjlKNzExRW14dmN0NnYwZTZLZW9vdFdhSVV0YkpfYW14OEc4S2J2ckhFdC1mcjNuODJhclZQanZyUTlxc2ktcHU1S193UWNJSWNjSEtVZ19fQWhTMW1yd3lMVkp4OElvQ2pKZmlLSGFtYjlyUDI?oc=5",
-      "published": "Tue, 23 Jun 2026 07:00:00 GMT",
+      "title": "Adwin Korea Brings Material-Driven K-Beauty Innovation to the World - The Worldfolio",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUF9NOTlma2R0N2tzZjFReUFVYzdWcG1oMDA3bFZQeklHb0tmcDYwQy1SdGE1cmlnODl6N0VvbkNMNXRRdG1wZ0JXTDROWG9sNzlMb25tVUF2eXVSOF9XMGlGOFdZbTh3QkctUVBWdUtPRFQ2cUlpcUwwLXNjX3dwaFdQVGxuWHJNWWhxd3R5TjhicGx4U0FxUjNBUHBZWUZWYmVXZ0ZBYnU5a2VUYWpxY0V3?oc=5",
+      "published": "Fri, 28 Aug 2026 00:04:44 GMT",
+      "feed": "google_news_kbeauty",
+      "category": "beauty"
+    },
+    {
+      "title": "Korean beauty products are becoming mainstream in the U.S. Why there may be even more growth ahead - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaEFkcWhMdDdlUnJBelpLRUU4QmtlNXNXR2dSTGdZT3RGdmtEWng5TlpEbVVhSjJhSlhFdlp0dlpvTkNla25yNDdmMVFCMDNCQnNFMFFzR3RhX2t4dVYtd1hhQ19OZDhLeE43bldyS3I3cmRNS3NFZm1RdUxzTXdxWG5Za3RueVZpbWJFcU1mZ1NPV3phTUxEX9IBngFBVV95cUxQOEtvb2dRRmNqNFFwc2QyZ1JfNTRpT0JRVldMRm5pY3hOT3o3ZHlrVHZTbmYwQ0M5bDJfNW5kb0k4dFZYRC0wX1dfODdDc1FFQWc5cl9JN0lKaXFNd0J5T3RwWi1wZGFmemtqajcxYzFVYWN2eXJoOW1teDRCVkZjcVdGeE5vRTFCUmpOZUxBRDM3bnNPNUU3elU0VmhmZw?oc=5",
+      "published": "Sat, 18 Jul 2026 07:00:00 GMT",
+      "feed": "google_news_kbeauty",
+      "category": "beauty"
+    },
+    {
+      "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - Us Weekly",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUnl3OWQ1ajExWS1HQzBKQ08wb2pBSXJBNnMyZmRodkc5R2pfMDdDMGppY0NMWVFEMFRoZzFYamdveGp6azZhLVZaeURFMkpCMkRGR1lNc3pubWV1VHNYcWJldmNSLWR5UktmQ08wV0RDMEVuQjF6b0paeTVWbnNMcEx5X1dKdlRRdE1Jb3Y3dnYzMXBma21PSzR0NkNneWcxT2otSW10b3Y0bzhu?oc=5",
+      "published": "Wed, 02 Sep 2026 17:01:38 GMT",
+      "feed": "google_news_kbeauty",
+      "category": "beauty"
+    },
+    {
+      "title": "Shinsegae Duty Free launches Beauty of Joseon Chuseok pop-up - DFNI",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTHRBZVJPRHVMSVp6OGJFTk9QUUlQcTlReTZrOUdwUndOODloT2daVXZ5VlVVbVlmVWNkUkpLcEowek5hOWdJOXJLOUhmeko4a01SY250NDlpdi11MzRhMkxtNjN5akFVcFM1eXhZYUVoaDhlRFRyLTd6cmJXcWszazhXaUQ0R3EzM0twOXVGbHpvbVV6VHRYRmRhUVRNNDhYbHN5VTM4dUFuSW4wQ09ib3VXNnFZX2FrRGJZOA?oc=5",
+      "published": "Wed, 02 Sep 2026 10:00:31 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     }
@@ -459,9 +459,44 @@
       "url": "https://hnrss.org/frontpage",
       "items": [
         {
-          "title": "The Raspberry Pi Interactive Timeline · 2006–2026",
-          "url": "https://raspberry.tips/en/raspberrypi-infos/raspberry-pi-history-timeline",
-          "published": "Fri, 04 Sep 2026 08:35:15 +0000"
+          "title": "IBM Bob",
+          "url": "https://bob.ibm.com/",
+          "published": "Fri, 04 Sep 2026 12:50:29 +0000"
+        },
+        {
+          "title": "Restoring 5 GHz Wi-Fi on an LG C5 by changing its webOS region",
+          "url": "https://github.com/hawshemi/lg-c5-webos25-region-change",
+          "published": "Fri, 04 Sep 2026 12:49:44 +0000"
+        },
+        {
+          "title": "Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+",
+          "url": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/",
+          "published": "Fri, 04 Sep 2026 12:43:49 +0000"
+        },
+        {
+          "title": "Ok, but Does It Scale?",
+          "url": "https://spacetimedb.com/blog/how-does-spacetime-scale",
+          "published": "Fri, 04 Sep 2026 12:42:08 +0000"
+        },
+        {
+          "title": "SubImage (YC W25) Is Hiring a Founding Engineer in SF",
+          "url": "https://www.ycombinator.com/companies/subimage/jobs/NCTFgKK-founding-engineer",
+          "published": "Fri, 04 Sep 2026 12:01:07 +0000"
+        },
+        {
+          "title": "Discovery of a new OpenAI agent message board",
+          "url": "https://collusion.wiki/",
+          "published": "Fri, 04 Sep 2026 11:54:53 +0000"
+        },
+        {
+          "title": "O&O ShutUp10 – The antispy tool for Windows 10 and 11",
+          "url": "https://www.oo-software.com/en/shutup10",
+          "published": "Fri, 04 Sep 2026 10:56:07 +0000"
+        },
+        {
+          "title": "Solving the Jane Street Reverse Engineering Challenge",
+          "url": "https://jestoph.com/2026/09/04/jane-street-challenge.html",
+          "published": "Fri, 04 Sep 2026 10:17:01 +0000"
         },
         {
           "title": "Carbon-aware electricity pricing, measured daily on 38 grids",
@@ -474,39 +509,14 @@
           "published": "Fri, 04 Sep 2026 06:47:51 +0000"
         },
         {
-          "title": "Grep beats LSP? Why coding agents ignore your fancier tools",
-          "url": "https://www.agentconnect.md/blog/grep-beat-lsp-harness/",
-          "published": "Fri, 04 Sep 2026 03:40:26 +0000"
-        },
-        {
-          "title": "From Hookswitch to Grave",
-          "url": "https://computer.rip/2026-06-14-hookswitch-to-grave.html",
-          "published": "Fri, 04 Sep 2026 02:40:12 +0000"
-        },
-        {
           "title": "Project Xanadu: Even More Hindsight (2025)",
           "url": "https://gwern.net/xanadu",
           "published": "Fri, 04 Sep 2026 01:45:23 +0000"
         },
         {
-          "title": "GLP-1s are being linked to fewer serious infections, including TB",
-          "url": "https://gizmodo.com/ozempic-and-other-glp-1s-are-being-linked-to-fewer-serious-infections-including-tb-2000806796",
-          "published": "Thu, 03 Sep 2026 22:37:31 +0000"
-        },
-        {
           "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
           "url": "https://armature.tech/blog/which-tools-coding-agents-install",
           "published": "Thu, 03 Sep 2026 21:20:34 +0000"
-        },
-        {
-          "title": "Tasklet (YC P26) Is Hiring a Customer Success Engineer",
-          "url": "https://tasklet.ai/careers/customer-success-engineer",
-          "published": "Thu, 03 Sep 2026 21:01:10 +0000"
-        },
-        {
-          "title": "The asteroid currently hitting front end web development",
-          "url": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/",
-          "published": "Thu, 03 Sep 2026 19:17:24 +0000"
         },
         {
           "title": "GPT-6 Astra",
@@ -534,11 +544,6 @@
           "published": "Thu, 03 Sep 2026 14:54:39 +0000"
         },
         {
-          "title": "Any Human Ever – One life, drawn at random from all who have ever lived",
-          "url": "https://anyhumanever.com/",
-          "published": "Thu, 03 Sep 2026 14:51:10 +0000"
-        },
-        {
           "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
           "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
           "published": "Thu, 03 Sep 2026 14:28:18 +0000"
@@ -552,11 +557,6 @@
           "title": "Ask HN: Who is using MCP in production?",
           "url": "https://news.ycombinator.com/item?id=49548600",
           "published": "Thu, 03 Sep 2026 11:21:18 +0000"
-        },
-        {
-          "title": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
-          "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
-          "published": "Thu, 03 Sep 2026 01:11:22 +0000"
         }
       ],
       "error": null
@@ -565,7 +565,133 @@
       "name": "hacker_news_best",
       "category": "tech",
       "url": "https://hnrss.org/best",
-      "items": [],
+      "items": [
+        {
+          "title": "Discovery of a new OpenAI agent message board",
+          "url": "https://collusion.wiki/",
+          "published": "Fri, 04 Sep 2026 11:54:53 +0000"
+        },
+        {
+          "title": "Hackers Had a Live Feed of Every ID Verification Company Scanned for over a Year",
+          "url": "http://www.techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-for-over-a-year/",
+          "published": "Fri, 04 Sep 2026 06:47:51 +0000"
+        },
+        {
+          "title": "GPT-6 Astra",
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "published": "Thu, 03 Sep 2026 18:41:05 +0000"
+        },
+        {
+          "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+          "url": "https://inference-docs.cerebras.ai/models/overview",
+          "published": "Thu, 03 Sep 2026 18:32:13 +0000"
+        },
+        {
+          "title": "OpenAI begins rolling out GPT-6 Astra",
+          "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+          "published": "Thu, 03 Sep 2026 18:18:22 +0000"
+        },
+        {
+          "title": "Artificial beaver dams saw juvenile coho salmon survival rates go from 8% to 60%",
+          "url": "https://www.discoverwildlife.com/animal-facts/artificial-beaver-dams-california",
+          "published": "Thu, 03 Sep 2026 16:21:33 +0000"
+        },
+        {
+          "title": "K2 Horizon: A connected fleet of six open models",
+          "url": "https://ifm.ai/blog/k2/",
+          "published": "Thu, 03 Sep 2026 15:36:43 +0000"
+        },
+        {
+          "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
+          "url": "https://news.ycombinator.com/item?id=49551096",
+          "published": "Thu, 03 Sep 2026 15:07:01 +0000"
+        },
+        {
+          "title": ".name Termination",
+          "url": "https://neil.fraser.name/news/2026/09/03/",
+          "published": "Thu, 03 Sep 2026 14:54:39 +0000"
+        },
+        {
+          "title": "Any Human Ever – One life, drawn at random from all who have ever lived",
+          "url": "https://anyhumanever.com/",
+          "published": "Thu, 03 Sep 2026 14:51:10 +0000"
+        },
+        {
+          "title": "ChatGPT outage – Resolved",
+          "url": "https://chatgpt.com/",
+          "published": "Thu, 03 Sep 2026 14:46:47 +0000"
+        },
+        {
+          "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+          "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
+          "published": "Thu, 03 Sep 2026 14:28:18 +0000"
+        },
+        {
+          "title": "Mom gets 6-month suspended sentence for letting 5-year-old walk to the pond",
+          "url": "https://reason.com/2026/09/02/virginia-mom-gets-6-month-suspended-jail-sentence-for-letting-5-year-old-walk-to-the-pond/",
+          "published": "Thu, 03 Sep 2026 14:12:19 +0000"
+        },
+        {
+          "title": "New York Times and The Athletic workers demand company scrap Kalshi deal",
+          "url": "https://newsguild.org/new-york-times-and-the-athletic-workers-demand-company-scrap-kalshi-deal/",
+          "published": "Thu, 03 Sep 2026 13:51:44 +0000"
+        },
+        {
+          "title": "Nvidia to acquire Hugging Face",
+          "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
+          "published": "Thu, 03 Sep 2026 12:10:33 +0000"
+        },
+        {
+          "title": "Google Antigravity TOS: 3rd party usage can get Google account suspended",
+          "url": "https://twitter.com/GergelyOrosz/status/2095453567955968398",
+          "published": "Thu, 03 Sep 2026 11:01:04 +0000"
+        },
+        {
+          "title": "Audacity 4.0",
+          "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
+          "published": "Thu, 03 Sep 2026 10:53:08 +0000"
+        },
+        {
+          "title": "Pre-Release of Polars 2.0",
+          "url": "https://pola.rs/posts/announcing-polars-2/",
+          "published": "Thu, 03 Sep 2026 06:59:08 +0000"
+        },
+        {
+          "title": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
+          "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+          "published": "Thu, 03 Sep 2026 01:11:22 +0000"
+        },
+        {
+          "title": "VC isn't VC anymore",
+          "url": "https://www.anildash.com/2026/09/02/cancer-capital/",
+          "published": "Wed, 02 Sep 2026 22:05:39 +0000"
+        },
+        {
+          "title": "I wanna live an NPC life",
+          "url": "https://signalundefied.bearblog.dev/i-wanna-live-an-npc-life/",
+          "published": "Wed, 02 Sep 2026 19:52:53 +0000"
+        },
+        {
+          "title": "Fable 5.1 World Modeling",
+          "url": "https://github.com/PhiloLabs/fable51-worlds",
+          "published": "Wed, 02 Sep 2026 19:49:01 +0000"
+        },
+        {
+          "title": "Muse Spark 1.3",
+          "url": "https://developer.meta.com/ai/models/muse-spark/",
+          "published": "Wed, 02 Sep 2026 19:35:04 +0000"
+        },
+        {
+          "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+          "published": "Wed, 02 Sep 2026 15:12:40 +0000"
+        },
+        {
+          "title": "Google avoids a breakup of its ad tech business",
+          "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
+          "published": "Wed, 02 Sep 2026 14:46:16 +0000"
+        }
+      ],
       "error": null
     },
     {
@@ -573,6 +699,11 @@
       "category": "ecommerce",
       "url": "https://hnrss.org/newest?q=ecommerce+OR+shopify+OR+retail",
       "items": [
+        {
+          "title": "The complexity behind eCommerce ERP integration",
+          "url": "https://shiftmag.dev/the-phrase-that-ruins-every-ecommerce-project-just-connect-it-to-our-erp-11689/",
+          "published": "Fri, 04 Sep 2026 10:31:43 +0000"
+        },
         {
           "title": "Sidekick's continual learning loop (2026) – Shopify",
           "url": "https://shopify.engineering/sidekicks-continual-learning-loop",
@@ -667,11 +798,6 @@
           "title": "US LLCs for founders whose country Stripe/Shopify don't support",
           "url": "https://open-entity.com",
           "published": "Tue, 18 Aug 2026 11:13:25 +0000"
-        },
-        {
-          "title": "Open-source Shopify Hydrogen theme with RTL, internationalization, seeding CLI",
-          "url": "https://github.com/ozgursagiroglu/shopify-hydrogen-fashion-theme",
-          "published": "Sun, 16 Aug 2026 23:37:56 +0000"
         }
       ],
       "error": null
@@ -687,9 +813,19 @@
           "published": "Thu, 03 Sep 2026 21:30:34 GMT"
         },
         {
+          "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
+          "published": "Fri, 04 Sep 2026 09:30:00 GMT"
+        },
+        {
           "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
           "published": "Sun, 30 Aug 2026 23:55:09 GMT"
+        },
+        {
+          "title": "K-Beauty’s Expanding Influence on Global Beauty Trends - Beauty Packaging",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd0Uya3ZtVk5MdkdiNjN1aFZ1MVN2M3NaUHhhQnhMQl9SYXJzZUtaeHlFSlRZRENwWmEyX3h2d2szZ2ZJVWpNUkZBTDBuenJ0TWZCR21ONFROcjdLZlZRMkFkTWszOUJ5SUxFSUNKN2JSR1RkcDg4amI1Z0VsbVhYMTViTDFhMFQxVnZqQU5rNXFiNzVla1FXbFpsRENDZw?oc=5",
+          "published": "Fri, 04 Sep 2026 12:50:00 GMT"
         },
         {
           "title": "Kolmar Korea brings K-beauty colors to Paris fashion fair - The Korea Herald",
@@ -702,7 +838,7 @@
           "published": "Fri, 04 Sep 2026 04:04:00 GMT"
         },
         {
-          "title": "K-Beauty’s Brazil Push Signals a New Type of Korean Diplomacy - thediplomat.com",
+          "title": "K-Beauty’s Brazil Push Signals a New Type of Korean Diplomacy - The Diplomat – Asia-Pacific",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0ZibUpBTHd0ejZVOXVzTEhuQWNMVE1VblM4NUhVTWt4dmtkbW9wbnVxY0JOY1NpMEEwY2drcjZyb0dlLVRZZ1FIbUxMWkR4RVJzRlVTMDRFcHJuN2dEUDJpX1dlY0xYYXM4ajQ0dVUyN3F3MjA3a1ZlZklnSlhaTW1wcHJTUE5ncTlUZ1Axa003c1dWdE0ybg?oc=5",
           "published": "Thu, 03 Sep 2026 11:30:44 GMT"
         },
@@ -712,14 +848,14 @@
           "published": "Fri, 04 Sep 2026 02:07:32 GMT"
         },
         {
-          "title": "MBK buys K-beauty brand stake to resume investment in S.Korea consumer sector - KED Global",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yZzBtSHg0QXQ5aC1jREtoaEJrR1ZsQUVqMHBkV0wyS2pkZzJxNDRFOVh3Mzk4d2l2SlZOVTJfY2xQZFVDb3VmWlZjenZIbEZFYXNtMWdLX2JjLUNWTVRpUVk2RVNWRVZwUlQ2RlJWVm12THVQaEE?oc=5",
-          "published": "Fri, 04 Sep 2026 05:37:56 GMT"
+          "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5",
+          "published": "Wed, 02 Sep 2026 22:02:21 GMT"
         },
         {
-          "title": "Not married, with children in Korea | What is K-beauty exactly? - Korea JoongAng Daily",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOODBWZXlZV1JuMlNtdEVDMXdUMl9tTE9Jd3M1LTBHTkpyQU5NdE1pOGpIRjNkR2xFMnRpdWdQdWFBZlhNZlptRGt6UElXUUQxbEJvalFNaDNJaXhleVZRM3R6cVhsaHJBeWItZGdTaVQzNW9mQzl0bjRiV2JtWGlpLTdmRmRIUktza2tIWncwSXJHTkliLV9iaWkzM0tQclpWRHNsQWc1S3A3VU1jbnh6bTVIa1Y?oc=5",
-          "published": "Fri, 04 Sep 2026 02:27:02 GMT"
+          "title": "MBK buys K-beauty brand stake to resume investment in S.Korea's consumer sector - KED Global",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yZzBtSHg0QXQ5aC1jREtoaEJrR1ZsQUVqMHBkV0wyS2pkZzJxNDRFOVh3Mzk4d2l2SlZOVTJfY2xQZFVDb3VmWlZjenZIbEZFYXNtMWdLX2JjLUNWTVRpUVk2RVNWRVZwUlQ2RlJWVm12THVQaEE?oc=5",
+          "published": "Fri, 04 Sep 2026 05:37:36 GMT"
         },
         {
           "title": "Hannaru Brings Korean Indie Beauty Brands to Eurasian Buyers at BeautyEurasia 2026 - The National Law Review",
@@ -732,19 +868,14 @@
           "published": "Tue, 01 Sep 2026 22:27:46 GMT"
         },
         {
-          "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5",
-          "published": "Wed, 02 Sep 2026 22:02:21 GMT"
+          "title": "Not married, with children in Korea | What is K-beauty exactly? - Korea JoongAng Daily",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOODBWZXlZV1JuMlNtdEVDMXdUMl9tTE9Jd3M1LTBHTkpyQU5NdE1pOGpIRjNkR2xFMnRpdWdQdWFBZlhNZlptRGt6UElXUUQxbEJvalFNaDNJaXhleVZRM3R6cVhsaHJBeWItZGdTaVQzNW9mQzl0bjRiV2JtWGlpLTdmRmRIUktza2tIWncwSXJHTkliLV9iaWkzM0tQclpWRHNsQWc1S3A3VU1jbnh6bTVIa1Y?oc=5",
+          "published": "Fri, 04 Sep 2026 02:27:02 GMT"
         },
         {
-          "title": "Korean conglomerates poised to shift to buy-side M&A as restructuring cycle eases: PwC - KED Global",
+          "title": "Korean companies poised to shift to buy-side M&A as restructuring cycle eases: Samil PwC - KED Global",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9IZmQ5NlVOYk1ILUJTaVBwVFFpY3VNSEdGNzk4YnZ1TlVqRm9NRlRjSEVxbDBOdWJOeThRSDlkT2VzMGV3RlNrOXRjQnd3SUc0U0lMdnhfTFJYOWRPb0VXZ2NxeXNCQVQyXy1vTURkVFU0ZEVvS3E4YWoxMA?oc=5",
-          "published": "Fri, 04 Sep 2026 06:50:46 GMT"
-        },
-        {
-          "title": "Korea reimagines overseas cultural centers as gateways to Korean lifestyle - The Korea Times",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ0pUblZDLUN3SGoxSTB2TUU4dVhwWGp2ajFjem5vbG5paE5rZzhSbHRfNTdzU1RVcVZtelZVWkN1OXpGcXFKVFFpNU9rZU5mS2Ixd2hGbmNWcTlwekJnOGtTdl9OVl9NdTA2ZTRmdE1GeGltUUFocUpLZElKNHkyOGtpRVRJY2tZSzRRMlc0SnctZ3B5ekNYMVNBR0RqOEs5czYwdlVzYWJNUFFVcHVzWEZQeE9wZUZidTJ1YjE5azJNQ0NGUlJZZlZJZFVmcDjSAdQBQVVfeXFMTVNuSDZaM0xSNDFNNTZJRGhoR21XcVFldUlGRFNadUxNRFV3UExwenRRSURhdVMyeWpzQi0zbjFlR1hMSlp3SWJFTF9TSFl0LWdMU2hVaHRROWlEVlYzVWl1SS1SQ0JzYXpMaGg1X2dTamhhRWFrMnlrLTk0dkFnc04wTzcwWnlIM0Q3ZVNNS1dSd2R6bnBRUDdRWFRDeWJZNDMxOTBEQ2ExeVNZbU00QjBzZkRINjczSmRvRTZUTXRaYW5jUnd4TDRNVmZGbzFfcXZMQ2k?oc=5",
-          "published": "Fri, 04 Sep 2026 04:22:04 GMT"
+          "published": "Fri, 04 Sep 2026 08:15:00 GMT"
         },
         {
           "title": "ESW Beauty The Blue Dream Soothing Face Mask, Korean Skin Care, 6 Pack | Moisturizing Face Mask with Hyaluronic Acid, Centella, Coconut Water, Agave & Vitamin C for Hydration & Skin Repair for Women - Whole Foods Market",
@@ -757,14 +888,9 @@
           "published": "Tue, 01 Sep 2026 22:20:14 GMT"
         },
         {
-          "title": "ESW Beauty Deep Detox Clarifying Korean Face Mask – Vitamin C, Witch Hazel & Charcoal for Pores, Oil Control, Acne-Prone & Congested Skin – Skincare Gifts for Women (Pack of 2) - Whole Foods Market",
-          "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPUnhLS2YzYTZkd2pKM3FRVnItbzhuSEhMZEVIQ0szZm1iNllpVHNINXBONkZudERueUNsSWM3bEhyOTFuWFczVHkxbVZpVVVCOGh2aGNWcW1BbFRrQjlZMXdLcUlqS3NaR1RWcVBqQk9UeVlIM25rbGVzRjkwSlZhZ3kyVlF2dV82UElRY3Q5aVpEUzhrRTBtR3NCUU1XeGhEUDd4c2VzVUFNV0xwVFlYMWcyQ0tnOGxCZkxxUVp5WDFHR2VLSzRranNXb0J1SWt1c2VvdEc5SWNDNlh0MDJHQlI3UnMxMzlhSjQzeGVGdmI3R0VJb25KNnlXT0RXVFdHVk92ajBKVzBlWUszOUdTbUdvS0VjNkFSaXJudk9mbUpReldRalRFSTh2UlBkY24zMHlIbjlEQUxwNWJqY3FxNngyeFNBamFwdjQ5MEJ1SVpLWFpj?oc=5",
-          "published": "Tue, 01 Sep 2026 21:50:10 GMT"
-        },
-        {
-          "title": "How To Build A Minimalist Korean Skin Care Routine For Glass Skin - Bustle",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5LNS1mWnZlTzFNcHpxa3BlT1B1bU0tUENDRVhnRERCdFRSNFBmcktaeFM4eEswQnd4dFhfV1NkWFpYV3d6Zzh3ODBpVjRuVnBvRDdBY2oxUmFxWlIyY0VERnZaSlJyM2pQTU9ZejhJQXd1d2c?oc=5",
-          "published": "Thu, 03 Sep 2026 16:33:06 GMT"
+          "title": "Makeup artist Liz Hyun’s Korean beauty favourites - Fashion Journal",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CVjJ5aDhRQVVFcWJWUTJTZE5JM0VPTzFVRFpvWHZHTmZXalplU0RKTVA3V0NXVm1pWkI0STZGSkdtQWNCSHJ0MTNsc2tHcHNDZjlsTkU2N2RyT2lpeTNLMVE3YjdSUEk?oc=5",
+          "published": "Thu, 03 Sep 2026 07:07:43 GMT"
         },
         {
           "title": "14 Best Korean Beauty Products For Acne, According To K-Beauty Experts - coveteur.com",
@@ -772,14 +898,19 @@
           "published": "Fri, 21 Aug 2026 07:00:00 GMT"
         },
         {
-          "title": "Makeup artist Liz Hyun’s Korean beauty favourites - fashionjournal.com.au",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CVjJ5aDhRQVVFcWJWUTJTZE5JM0VPTzFVRFpvWHZHTmZXalplU0RKTVA3V0NXVm1pWkI0STZGSkdtQWNCSHJ0MTNsc2tHcHNDZjlsTkU2N2RyT2lpeTNLMVE3YjdSUEk?oc=5",
-          "published": "Thu, 03 Sep 2026 07:07:43 GMT"
+          "title": "Korea reimagines overseas cultural centers as gateways to Korean lifestyle - The Korea Times",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ0pUblZDLUN3SGoxSTB2TUU4dVhwWGp2ajFjem5vbG5paE5rZzhSbHRfNTdzU1RVcVZtelZVWkN1OXpGcXFKVFFpNU9rZU5mS2Ixd2hGbmNWcTlwekJnOGtTdl9OVl9NdTA2ZTRmdE1GeGltUUFocUpLZElKNHkyOGtpRVRJY2tZSzRRMlc0SnctZ3B5ekNYMVNBR0RqOEs5czYwdlVzYWJNUFFVcHVzWEZQeE9wZUZidTJ1YjE5azJNQ0NGUlJZZlZJZFVmcDjSAdQBQVVfeXFMTVNuSDZaM0xSNDFNNTZJRGhoR21XcVFldUlGRFNadUxNRFV3UExwenRRSURhdVMyeWpzQi0zbjFlR1hMSlp3SWJFTF9TSFl0LWdMU2hVaHRROWlEVlYzVWl1SS1SQ0JzYXpMaGg1X2dTamhhRWFrMnlrLTk0dkFnc04wTzcwWnlIM0Q3ZVNNS1dSd2R6bnBRUDdRWFRDeWJZNDMxOTBEQ2ExeVNZbU00QjBzZkRINjczSmRvRTZUTXRaYW5jUnd4TDRNVmZGbzFfcXZMQ2k?oc=5",
+          "published": "Fri, 04 Sep 2026 04:22:04 GMT"
         },
         {
           "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - ELLE",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5",
           "published": "Wed, 26 Aug 2026 07:00:00 GMT"
+        },
+        {
+          "title": "How To Build A Minimalist Korean Skin Care Routine For Glass Skin - Bustle",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5LNS1mWnZlTzFNcHpxa3BlT1B1bU0tUENDRVhnRERCdFRSNFBmcktaeFM4eEswQnd4dFhfV1NkWFpYV3d6Zzh3ODBpVjRuVnBvRDdBY2oxUmFxWlIyY0VERnZaSlJyM2pQTU9ZejhJQXd1d2c?oc=5",
+          "published": "Thu, 03 Sep 2026 16:33:06 GMT"
         },
         {
           "title": "K-beauty shapes global formulation and breaks into new categories - Personal Care Insights",
@@ -800,11 +931,6 @@
           "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - Sacramento Bee",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzRUhWam1YWHZYXzlFQlVlMFcwRDBYX003QTZqSzM0WURnYnNudkZveEs3RHJCczBzSUpvMklOeXR3elA4ZVdIc2lDd2RNeEJLeE9RdGNEbVFrTjVhcnFPaUJSNEpNeXpWLWRpcGhQb0ozdU3SAXNBVV95cUxPV1Qwc05zNHBGQmhLclBFVzhrQjQ1bjBZWWFKa25fVllZRXRobkhXZGZpeUplUVFYTjJ4dEpBTDZ1TXVlc3FGT3FOOUl2VFBqdzhYcHRFeEtJV2ExN29TUTVQVVdVTmNwWW9YVHZHSkZ0TDZN?oc=5",
           "published": "Mon, 31 Aug 2026 22:30:00 GMT"
-        },
-        {
-          "title": "KiiiKiii Haeum — Rising K-Pop Star Named New Beauty Muse - The Korea Daily",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0V2p6RXJDbWlpdHBGRUJIT0l5RHNnWUh1RjJyaTAwdGx4WTRmc3c1ODJCT0p0RFZOX1NYMHZSYUZBLWlsYUJZOW1nMldiS2dUNjN4b2NVN1JvemhDTjNUQUdLdUk?oc=5",
-          "published": "Thu, 03 Sep 2026 18:50:14 GMT"
         }
       ],
       "error": null
@@ -840,12 +966,17 @@
           "published": "Wed, 22 Oct 2025 07:00:00 GMT"
         },
         {
+          "title": "Haut.AI Gifts Free Month of Skin.Chat to Support Indie Brands During Holiday Sales Surge - Cosmetics Business",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOV21mTV9yaXlLYzhteXBLWGozS0tKQkE3UHlVeVhRTi0zdnFhRUc2MWhKVGFBZVlrcGhIOHhPaUJYUDIybWhsbkpBTlRMb1dyWElESlBMZV85TWlDMmRUNUlJRUU0aDFlT2k3NHhiQjlPbkpaU1h0LWxHNzRFdE40Z3ctWlo?oc=5",
+          "published": "Thu, 27 Nov 2025 08:00:00 GMT"
+        },
+        {
           "title": "Top TikTok Trending Products in 2026 and How To Find Them - Shopify",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KOFFOSU43RzRKSmp6Y3JHWlZEZkxMSmNKMUZ6RUpDOEZKbmVwVXltaXhCd2RhcXlJNURtd3p1Y0RKdWxtbEIwb25SbDJCZkZINXVvRGQ2Z3ZGTUk?oc=5",
           "published": "Thu, 30 Jul 2026 07:00:00 GMT"
         },
         {
-          "title": "Contribution Margin vs Gross Margin: Diagnosing Profitability by SKU, Channel, and Campaign - ask-luca.com",
+          "title": "Contribution Margin vs Gross Margin: Diagnosing Profitability by SKU, Channel, and Campaign - Ask Luca",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9uS0Ytd3dDV1BvOExDakdXWU1oWWplUUN3QlFjajdjX05oVmNwYzI1MHFncVlETDlDem1LbDB5NG9SN0FyRUViS2UtZVpkSGp4TTNuVmx0djlfMDRnc205OTNTZ3BlNW5ha05kYmp5Zw?oc=5",
           "published": "Thu, 26 Mar 2026 04:45:55 GMT"
         },
@@ -905,14 +1036,9 @@
           "published": "Tue, 14 Dec 2021 08:00:00 GMT"
         },
         {
-          "title": "Thanks to double-digit fragrance growth, The Estée Lauder Companies reports optimistic outlook, announces Shopify partnership - glossy.co",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVmN0bktNSW10akpJdmlyQ2plSURfNzZzdGplMUk3OGVYX21EX1UtWS0tWnhvSmVUc1JOT1BHUm1DZm5XM1phb3dUb0JqZ0xvS21FWHlaR2N2djhNOHJ3dHpadGNyRjFUQWFCMWN4eTh4UEpKZ19vSUVTWFY5VFNiakpZY2dPZWFJRDcwcVBOakpHRlRKZklnOG5fZl9Xd3dpZ2hiVFkzQmVsZjhkYVlBdThKcXp0UU9BbTJ3WS1zVDhJdWkweUZ2NFBXSE5TRzB4V3p6SXdpbjY2bFZ1R19iVmRQUllnUm5J?oc=5",
-          "published": "Thu, 30 Oct 2025 07:00:00 GMT"
-        },
-        {
-          "title": "Three Ships: Revenue Growth from $4K to $8.5M (2025) - Shopify",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zQ1hkRWRDdmFCM3lTYW9BNUtlRXhtNTg2SEpYVnJFMjVJZEMzcjVBX1FLMDh2Rk9GUUxSbjZUd3hSc3o1c19iWU1WOHdDaENKSEJkekloWk00emQzemlOMmV3QXBrMW9oTFBuajY1Q0MtLUtPakVEWExOZEY?oc=5",
-          "published": "Tue, 05 Aug 2025 07:00:00 GMT"
+          "title": "Beauty E-Commerce Websites Dropped From Shopify Payments Processing Service - Beauty Independent",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbnR2VlB6aGZDaTJYLTFFSmZObkF4M3J1SHgyOGp0aTVRWmNXWHRlaXFiQ0p4WTVuYnk3RTV1WF9MZUEyT0R4dlZxVVZYNmIyT0dWMzlBR3QzLThTSzdUQVdDWGp0RWhTVzlTRnlVRTV4cTF3OThkZ2RiS1RkejhlYkowNjU4TGM1amE0Vm40dGU4eGJRWjlXeUkzc0dMRGNNRmVONg?oc=5",
+          "published": "Mon, 21 Aug 2017 07:00:00 GMT"
         },
         {
           "title": "Direct to Consumer Sales: Guide and Tips (2026) - Shopify",
@@ -920,9 +1046,9 @@
           "published": "Thu, 22 Feb 2024 23:54:16 GMT"
         },
         {
-          "title": "Beauty E-Commerce Websites Dropped From Shopify Payments Processing Service - Beauty Independent",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbnR2VlB6aGZDaTJYLTFFSmZObkF4M3J1SHgyOGp0aTVRWmNXWHRlaXFiQ0p4WTVuYnk3RTV1WF9MZUEyT0R4dlZxVVZYNmIyT0dWMzlBR3QzLThTSzdUQVdDWGp0RWhTVzlTRnlVRTV4cTF3OThkZ2RiS1RkejhlYkowNjU4TGM1amE0Vm40dGU4eGJRWjlXeUkzc0dMRGNNRmVONg?oc=5",
-          "published": "Mon, 21 Aug 2017 07:00:00 GMT"
+          "title": "Three Ships: Revenue Growth from $4K to $8.5M (2025) - Shopify",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zQ1hkRWRDdmFCM3lTYW9BNUtlRXhtNTg2SEpYVnJFMjVJZEMzcjVBX1FLMDh2Rk9GUUxSbjZUd3hSc3o1c19iWU1WOHdDaENKSEJkekloWk00emQzemlOMmV3QXBrMW9oTFBuajY1Q0MtLUtPakVEWExOZEY?oc=5",
+          "published": "Tue, 05 Aug 2025 07:00:00 GMT"
         },
         {
           "title": "CBD Beauty Brand: How Cannuka Built With Shopify - Shopify",

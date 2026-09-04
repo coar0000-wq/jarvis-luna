@@ -1,0 +1,21 @@
+---
+title: "Record 2007 · 피부-뒤집어지면-누구-탓일까"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-04T13:43:53.708996+00:00
+tags: [record, real-data]
+---
+
+# Record 2007 · 피부-뒤집어지면-누구-탓일까
+
+> 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/G4pRDfG7s1M)
+
+**제목:** 피부 뒤집어지면 누구 탓일까?
+
+피부 뒤집어지면 누구 탓일까?
+
+**출처:** Source · YouTube
+
+## Connected nodes
+
+[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

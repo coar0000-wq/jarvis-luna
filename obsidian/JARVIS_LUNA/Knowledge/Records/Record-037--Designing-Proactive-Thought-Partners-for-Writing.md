@@ -2,7 +2,7 @@
 title: "Record 037 · Designing-Proactive-Thought-Partners-for-Writing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.434128+00:00
+updated_at: 2026-09-04T13:43:53.215516+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 207 · Real-time-frosting-detection-and-deep-learning-based-defrosting-contro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.463696+00:00
+updated_at: 2026-09-04T13:43:53.257574+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 258 · Digital-social-capital-and-performance-of-initial-coin-offerings"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.471598+00:00
+updated_at: 2026-09-04T13:43:53.269624+00:00
 tags: [record, real-data]
 ---
 

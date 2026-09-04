@@ -2,7 +2,7 @@
 title: "Record 145 · Introducing-Gemini-38-Flash-and-38-Flash-Cyber"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.453806+00:00
+updated_at: 2026-09-04T13:43:53.242964+00:00
 tags: [record, real-data]
 ---
 

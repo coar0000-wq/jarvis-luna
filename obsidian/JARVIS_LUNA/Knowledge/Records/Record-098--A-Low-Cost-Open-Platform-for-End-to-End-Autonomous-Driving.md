@@ -2,7 +2,7 @@
 title: "Record 098 · A-Low-Cost-Open-Platform-for-End-to-End-Autonomous-Driving-on-a-Miniat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.446686+00:00
+updated_at: 2026-09-04T13:43:53.232334+00:00
 tags: [record, real-data]
 ---
 

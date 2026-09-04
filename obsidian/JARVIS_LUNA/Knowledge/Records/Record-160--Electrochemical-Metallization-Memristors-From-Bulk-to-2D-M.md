@@ -2,7 +2,7 @@
 title: "Record 160 · Electrochemical-Metallization-Memristors-From-Bulk-to-2D-Materials"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.456100+00:00
+updated_at: 2026-09-04T13:43:53.246377+00:00
 tags: [record, real-data]
 ---
 

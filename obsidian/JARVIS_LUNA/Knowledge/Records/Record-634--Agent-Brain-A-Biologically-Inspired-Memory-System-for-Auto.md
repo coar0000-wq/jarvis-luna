@@ -2,17 +2,17 @@
 title: "Record 634 · Agent-Brain-A-Biologically-Inspired-Memory-System-for-Autonomous-AI-Ag"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.615048+00:00
+updated_at: 2026-09-04T13:43:53.357580+00:00
 tags: [record, real-data]
 ---
 
 # Record 634 · Agent-Brain-A-Biologically-Inspired-Memory-System-for-Autonomous-AI-Ag
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.19673331)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.19673133)
 
-**제목:** Agent Brain: A Biologically Inspired Memory System for Autonomous AI Agents — LongMemEval-M Evaluation
+**제목:** Agent Brain: A Biologically Inspired Memory System for Autonomous AI Agents, with Head-to-Head Evaluation on LongMemEval
 
-Agent Brain: A Biologically Inspired Memory System for Autonomous AI Agents — LongMemEval-M Evaluation
+Agent Brain: A Biologically Inspired Memory System for Autonomous AI Agents, with Head-to-Head Evaluation on LongMemEval
 
 **출처:** Source · institutions
 

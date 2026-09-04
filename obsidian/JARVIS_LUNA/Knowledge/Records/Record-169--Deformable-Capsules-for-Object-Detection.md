@@ -2,7 +2,7 @@
 title: "Record 169 · Deformable-Capsules-for-Object-Detection"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.457592+00:00
+updated_at: 2026-09-04T13:43:53.248619+00:00
 tags: [record, real-data]
 ---
 

@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-04T09:17:55.639078+00:00",
+  "collected_at": "2026-09-04T13:42:50.335974+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -1303,19 +1303,6 @@
       "url": "https://world.openbeautyfacts.org/product/3337872412684"
     },
     {
-      "code": "8436024790016",
-      "product_name": "Gel aloe Vera puro",
-      "brands": "Atlantia",
-      "category": "핸드케어",
-      "obf_category": "hand-creams",
-      "countries": [
-        "Spain"
-      ],
-      "ingredients_text": "GEL ALOE VERA PURO Aloe Vera Atlantia: Procede de plantaciones ecológicas de las Islas Canarias. Estabilizado en frio. Mantiene todas las propiedades de la planta. Composición: Rico en vitaminas, aminoácidos, oligoelementos, enzimas, etc. Propiedades: Hidratante y regeneradora celular. Calmante de quemaduras solares, picaduras de insectos, picores en la piel, cortes menores, quemaduras, etc. • Modo de empleo: Aplicar sobre la piel realizando un suave masaje hasta su completa absorción. Se recomienda su utilización 2-3 veces al dia. Puro jugo de aloe vera bio sin agua añadida.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/843/602/479/0016/front_en.20.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/8436024790016"
-    },
-    {
       "code": "3549621020426",
       "product_name": "Crème mains réparatrice beurre de karité",
       "brands": "Le Petit Olivier",
@@ -1342,6 +1329,19 @@
       "ingredients_text": "Aqua, Paraffinum Liquidum, Glycerin, Butyrospermum Parkii Butter, Prunus Amygdalus Dulcis Oil, Argania Spinosa Kernel Oil, Caprylyl Glycol, Hydrogenated Palm Glycerides, Potassium Cetyl Phosphate, Carbomer, Sodium Hydroxide, Citric Acid, Phenoxyethanol, Parfum [PR-0001914]",
       "image_url": "https://images.openbeautyfacts.org/images/products/357/466/136/5305/front_fr.21.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/3574661365305"
+    },
+    {
+      "code": "8436024790016",
+      "product_name": "Gel aloe Vera puro",
+      "brands": "Atlantia",
+      "category": "핸드케어",
+      "obf_category": "hand-creams",
+      "countries": [
+        "Spain"
+      ],
+      "ingredients_text": "GEL ALOE VERA PURO Aloe Vera Atlantia: Procede de plantaciones ecológicas de las Islas Canarias. Estabilizado en frio. Mantiene todas las propiedades de la planta. Composición: Rico en vitaminas, aminoácidos, oligoelementos, enzimas, etc. Propiedades: Hidratante y regeneradora celular. Calmante de quemaduras solares, picaduras de insectos, picores en la piel, cortes menores, quemaduras, etc. • Modo de empleo: Aplicar sobre la piel realizando un suave masaje hasta su completa absorción. Se recomienda su utilización 2-3 veces al dia. Puro jugo de aloe vera bio sin agua añadida.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/843/602/479/0016/front_en.20.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/8436024790016"
     },
     {
       "code": "4305615609997",
@@ -1413,21 +1413,17 @@
       "url": "https://world.openbeautyfacts.org/product/4005900035745"
     },
     {
-      "code": "8714789913919",
-      "product_name": "Dermo Protector",
-      "brands": "Sanex",
+      "code": "59095842",
+      "product_name": "Dove Advanced Care Anti-Transpirant Deodorant Roller Original 50 ML",
+      "brands": "Dove",
       "category": "데오드란트",
       "obf_category": "deodorants",
       "countries": [
-        "France",
-        "Israel",
-        "Morocco",
-        "Portugal",
-        "Spain"
+        "Netherlands"
       ],
-      "ingredients_text": "Propylene Glycol, Aqua, Sodium Stearate, Parfum, Sodium Chloride, Stearyl Alcohol, Tetrasodium EDTA.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/871/478/991/3919/front_en.52.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/8714789913919"
+      "ingredients_text": "Aqua, Glycerin, Aluminum Sesquichlorohydrate, Helianthus Annuus Seed Oil, Steareth-2, Parfum, Steareth-20, Calcium Chloride, Glycine, Disodium EDTA, Pentaerythrity Tetra-di-butyl Hydroxyhydrocinnamate, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Citronellol, Eugenol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool",
+      "image_url": "https://images.openbeautyfacts.org/images/products/000/005/909/5842/front_en.41.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/59095842"
     },
     {
       "code": "4005900243553",
@@ -1444,17 +1440,21 @@
       "url": "https://world.openbeautyfacts.org/product/4005900243553"
     },
     {
-      "code": "59095842",
-      "product_name": "Dove Advanced Care Anti-Transpirant Deodorant Roller Original 50 ML",
-      "brands": "Dove",
+      "code": "8714789913919",
+      "product_name": "Dermo Protector",
+      "brands": "Sanex",
       "category": "데오드란트",
       "obf_category": "deodorants",
       "countries": [
-        "Netherlands"
+        "France",
+        "Israel",
+        "Morocco",
+        "Portugal",
+        "Spain"
       ],
-      "ingredients_text": "Aqua, Glycerin, Aluminum Sesquichlorohydrate, Helianthus Annuus Seed Oil, Steareth-2, Parfum, Steareth-20, Calcium Chloride, Glycine, Disodium EDTA, Pentaerythrity Tetra-di-butyl Hydroxyhydrocinnamate, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Citronellol, Eugenol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool",
-      "image_url": "https://images.openbeautyfacts.org/images/products/000/005/909/5842/front_en.41.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/59095842"
+      "ingredients_text": "Propylene Glycol, Aqua, Sodium Stearate, Parfum, Sodium Chloride, Stearyl Alcohol, Tetrasodium EDTA.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/871/478/991/3919/front_en.52.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/8714789913919"
     },
     {
       "code": "3600551146188",

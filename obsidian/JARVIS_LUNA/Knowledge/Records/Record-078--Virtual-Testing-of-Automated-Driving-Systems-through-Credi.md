@@ -2,7 +2,7 @@
 title: "Record 078 · Virtual-Testing-of-Automated-Driving-Systems-through-Credible-Simulati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.442186+00:00
+updated_at: 2026-09-04T13:43:53.226446+00:00
 tags: [record, real-data]
 ---
 

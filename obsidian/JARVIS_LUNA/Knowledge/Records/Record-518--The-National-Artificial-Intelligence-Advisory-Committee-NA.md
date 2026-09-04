@@ -2,17 +2,17 @@
 title: "Record 518 · The-National-Artificial-Intelligence-Advisory-Committee-NAIAC--Recomme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.511177+00:00
+updated_at: 2026-09-04T13:43:53.331093+00:00
 tags: [record, real-data]
 ---
 
 # Record 518 · The-National-Artificial-Intelligence-Advisory-Committee-NAIAC--Recomme
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.2139/ssrn.5236803)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.2139/ssrn.5149601)
 
-**제목:** The National Artificial Intelligence Advisory Committee (NAIAC)- Recommendation: Require Public Use Policies for High-Risk AI
+**제목:** The National Artificial Intelligence Advisory Committee (NAIAC)- Recommendation: Expand the AI Use Case Inventory by Limiting the 'Common Commercial Products' Exception
 
-The National Artificial Intelligence Advisory Committee (NAIAC)- Recommendation: Require Public Use Policies for High-Risk AI
+The National Artificial Intelligence Advisory Committee (NAIAC)- Recommendation: Expand the AI Use Case Inventory by Limiting the 'Common Commercial Products' Exception
 
 **출처:** Source · institutions
 

@@ -2,7 +2,7 @@
 title: "Record 188 · Analytical-Assessment-of-Far-Field-Thermo-Poroelastic-Response-and-The"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.460814+00:00
+updated_at: 2026-09-04T13:43:53.253228+00:00
 tags: [record, real-data]
 ---
 

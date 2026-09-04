@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-04T09:17:27.792249+00:00",
+  "collected_at": "2026-09-04T13:42:23.899280+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-04T09:16:23.047870+00:00"
+      "collected_at": "2026-09-04T13:41:18.437049+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-04T09:17:00.991849+00:00"
+      "collected_at": "2026-09-04T13:41:54.811884+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-04T09:17:27.791480+00:00"
+      "collected_at": "2026-09-04T13:42:23.898116+00:00"
     }
   },
   "not_collected": {
@@ -3335,6 +3335,19 @@
       "feed": "https://x.ai/sitemap.xml"
     },
     {
+      "url": "https://www.asml.com/en/news/news-subscription",
+      "date": "2026-09-04",
+      "date_raw": "2026-09-04",
+      "title_source": "page",
+      "title": "Sign up for ASML news alerts",
+      "summary": "Receive an email when ASML publishes a new press release, announcement, story, or share buyback update.",
+      "org": "ASML",
+      "category": "반도체",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.asml.com/sitemap.xml"
+    },
+    {
       "url": "https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-31",
       "date": "2026-09-03",
       "date_raw": "2026-09-03",
@@ -3367,19 +3380,6 @@
       "title_source": "page",
       "title": "ASML reports transactions under its current share buyback program",
       "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/news-subscription",
-      "date": "2026-08-27",
-      "date_raw": "2026-08-27",
-      "title_source": "page",
-      "title": "Sign up for ASML news alerts",
-      "summary": "Receive an email when ASML publishes a new press release, announcement, story, or share buyback update.",
       "org": "ASML",
       "category": "반도체",
       "kind": "발표물",
@@ -3894,6 +3894,19 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
+      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
+      "date": "2026-09-02",
+      "date_raw": "2026-09-02T16:13:53.000Z",
+      "title_source": "url-slug",
+      "title": "David Solomon Cnbc Sep 2026   Transcript",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
       "url": "https://www.goldmansachs.com/what-we-do/investment-banking/insights/articles/powering-the-ai-era",
       "date": "2026-08-31",
       "date_raw": "2026-08-31T20:33:36.000Z",
@@ -4094,19 +4107,6 @@
       "date_raw": "2026-08-19T19:39:32.000Z",
       "title_source": "url-slug",
       "title": "Gs Sustain Ai Data Centers Power Demand Cyclical Progresison And Sustainability Implications",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-research/gs-sustain-ai-data-centers-power-demand-cyclical-progresison-and-sustainability-implications/redacted-report.pdf",
-      "date": "2026-08-19",
-      "date_raw": "2026-08-19T17:21:01.000Z",
-      "title_source": "url-slug",
-      "title": "Redacted Report",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4375,11 +4375,11 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/economic-growth-strong-inflation-fight-not-over-2023",
-      "date": "2026-09-02",
-      "date_raw": "2026-09-02T18:35:31Z",
+      "url": "https://www.morganstanley.com/insights/articles/ipo-process-founders-going-public",
+      "date": "2026-09-03",
+      "date_raw": "2026-09-03T19:01:19Z",
       "title_source": "url-slug",
-      "title": "Economic Growth Strong Inflation Fight Not Over 2023",
+      "title": "Ipo Process Founders Going Public",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4388,11 +4388,37 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/us-debt-fiscal-policy-midterm-outlook-ariana-salvatore",
-      "date": "2026-09-02",
-      "date_raw": "2026-09-02T14:47:58Z",
+      "url": "https://www.morganstanley.com/what-we-do/wealth-management/global-sports-entertainment/insights",
+      "date": "2026-09-03",
+      "date_raw": "2026-09-03T18:52:33Z",
       "title_source": "url-slug",
-      "title": "Us Debt Fiscal Policy Midterm Outlook Ariana Salvatore",
+      "title": "Global Sports Entertainment   Insights",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/oil-shock-absorbers-fade-brent-100-martijn-rats",
+      "date": "2026-09-03",
+      "date_raw": "2026-09-03T20:23:55Z",
+      "title_source": "url-slug",
+      "title": "Oil Shock Absorbers Fade Brent 100 Martijn Rats",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/economic-expansion-2024-how-to-invest",
+      "date": "2026-09-02",
+      "date_raw": "2026-09-02T18:35:33Z",
+      "title_source": "url-slug",
+      "title": "Economic Expansion 2024 How To Invest",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4414,11 +4440,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/investment-risk-2023-stock-rally-over",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/capital-spending-ai-political-pushback-michael-zezas-ariana-salvatore",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T13:34:24Z",
+      "date_raw": "2026-09-02T20:40:35Z",
       "title_source": "url-slug",
-      "title": "Investment Risk 2023 Stock Rally Over",
+      "title": "Capital Spending Ai Political Pushback Michael Zezas Ariana Salvatore",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4427,11 +4453,37 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/energy-drink-caffeine-market-growth-dara-mohsenian",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T19:19:45Z",
+      "date_raw": "2026-09-02T18:00:58Z",
       "title_source": "url-slug",
-      "title": "Thoughts On The Market",
+      "title": "Energy Drink Caffeine Market Growth Dara Mohsenian",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/emerging-markets-growth-2018",
+      "date": "2026-09-02",
+      "date_raw": "2026-09-02T12:08:18Z",
+      "title_source": "url-slug",
+      "title": "Emerging Markets Growth 2018",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/videos/exceptional-leaders",
+      "date": "2026-09-02",
+      "date_raw": "2026-09-02T19:35:00Z",
+      "title_source": "url-slug",
+      "title": "Exceptional Leaders",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4466,11 +4518,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/videos/exceptional-leaders",
+      "url": "https://www.morganstanley.com/ideas/investment-risk-2023-stock-rally-over",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T19:35:00Z",
+      "date_raw": "2026-09-02T13:34:24Z",
       "title_source": "url-slug",
-      "title": "Exceptional Leaders",
+      "title": "Investment Risk 2023 Stock Rally Over",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4479,11 +4531,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/capital-spending-ai-political-pushback-michael-zezas-ariana-salvatore",
+      "url": "https://www.morganstanley.com/ideas/economic-growth-strong-inflation-fight-not-over-2023",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T20:40:35Z",
+      "date_raw": "2026-09-02T18:35:31Z",
       "title_source": "url-slug",
-      "title": "Capital Spending Ai Political Pushback Michael Zezas Ariana Salvatore",
+      "title": "Economic Growth Strong Inflation Fight Not Over 2023",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4505,19 +4557,6 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/energy-drink-caffeine-market-growth-dara-mohsenian",
-      "date": "2026-09-02",
-      "date_raw": "2026-09-02T18:00:58Z",
-      "title_source": "url-slug",
-      "title": "Energy Drink Caffeine Market Growth Dara Mohsenian",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
       "url": "https://www.morganstanley.com/ideas/stocks-on-the-rise-how-long-2023",
       "date": "2026-09-02",
       "date_raw": "2026-09-02T18:35:32Z",
@@ -4531,11 +4570,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/economic-expansion-2024-how-to-invest",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T18:35:33Z",
+      "date_raw": "2026-09-02T19:19:45Z",
       "title_source": "url-slug",
-      "title": "Economic Expansion 2024 How To Invest",
+      "title": "Thoughts On The Market",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4544,11 +4583,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/emerging-markets-growth-2018",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/us-debt-fiscal-policy-midterm-outlook-ariana-salvatore",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T12:08:18Z",
+      "date_raw": "2026-09-02T14:47:58Z",
       "title_source": "url-slug",
-      "title": "Emerging Markets Growth 2018",
+      "title": "Us Debt Fiscal Policy Midterm Outlook Ariana Salvatore",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4583,50 +4622,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/economic-slowdown-growth-scare-2025",
-      "date": "2026-08-31",
-      "date_raw": "2026-08-31T12:53:24Z",
-      "title_source": "url-slug",
-      "title": "Economic Slowdown Growth Scare 2025",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/trump-tax-cuts-market-volatility-2025",
-      "date": "2026-08-31",
-      "date_raw": "2026-08-31T12:53:25Z",
-      "title_source": "url-slug",
-      "title": "Trump Tax Cuts Market Volatility 2025",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
       "url": "https://www.morganstanley.com/ideas/economic-outlook-mid-year-2023-global-gdp-slowing",
       "date": "2026-08-31",
       "date_raw": "2026-08-31T20:44:36Z",
       "title_source": "url-slug",
       "title": "Economic Outlook Mid Year 2023 Global Gdp Slowing",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/trump-tariffs-stock-market-crash-how-to-invest",
-      "date": "2026-08-31",
-      "date_raw": "2026-08-31T12:53:22Z",
-      "title_source": "url-slug",
-      "title": "Trump Tariffs Stock Market Crash How To Invest",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -12041,6 +12041,20 @@
       "cited_by": 0
     },
     {
+      "title": "P-599. If You’re On-time, You’re Late: Early Detection of Common Respiratory Pathogens Using Wastewater Genomic Surveillance to Shape Hospital Preparedness",
+      "url": "https://doi.org/10.1093/ofid/ofaf695.812",
+      "date": "2026-01-01",
+      "summary": "",
+      "org": "Booz Allen Hamilton",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Open Forum Infectious Diseases",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Preliminary Evidence of Construct Validity and Reliability of the Supine-to-Stand and Go Task as a Functional Motor Competence Assessment in Young Adults",
       "url": "https://doi.org/10.1123/jmld.2025-0068",
       "date": "2025-12-10",
@@ -12081,20 +12095,6 @@
       "venue": "Cell Death and Differentiation",
       "work_type": "article",
       "cited_by": 1
-    },
-    {
-      "title": "Cross-Program Secondary Analyses and Public Health Innovation: The RADx Data Hub as a Resource for Integrated COVID-19 Research",
-      "url": "https://doi.org/10.1101/2025.11.26.25341110",
-      "date": "2025-11-28",
-      "summary": "",
-      "org": "Booz Allen Hamilton",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "medRxiv",
-      "work_type": "preprint",
-      "cited_by": 0
     },
     {
       "title": "Preferential engagement of the anti-inflammatory ATP/adenosine axis by HIV vaccine candidate with V1-deleted envelope in male rhesus macaques",
@@ -13228,7 +13228,7 @@
       "title_source": "openalex",
       "venue": "Proceedings of the VLDB Endowment",
       "work_type": "article",
-      "cited_by": 12
+      "cited_by": 13
     },
     {
       "title": "Exchange of indivisible goods under matroid constraints",

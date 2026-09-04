@@ -2,7 +2,7 @@
 title: "Record 262 · Assessing-the-effects-of-geometric-layout-and-signing-on-drivers-behav"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.472253+00:00
+updated_at: 2026-09-04T13:43:53.270525+00:00
 tags: [record, real-data]
 ---
 

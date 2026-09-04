@@ -2,7 +2,7 @@
 title: "Record 331 · Strategy-technology-industry-and-politics-challenges-for-the-21-st-Cha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.483471+00:00
+updated_at: 2026-09-04T13:43:53.287950+00:00
 tags: [record, real-data]
 ---
 

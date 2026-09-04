@@ -2,13 +2,13 @@
 title: "Record 655 · Towards-the-Geometric-Origins-of-Mass-and-Charge-Projection-Geodesics-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.838894+00:00
+updated_at: 2026-09-04T13:43:53.362647+00:00
 tags: [record, real-data]
 ---
 
 # Record 655 · Towards-the-Geometric-Origins-of-Mass-and-Charge-Projection-Geodesics-
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21478991)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21478990)
 
 **제목:** Towards the Geometric Origins of Mass and Charge: Projection, Geodesics and Relational Sign in Closure Theory
 

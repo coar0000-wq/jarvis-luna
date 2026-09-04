@@ -2,13 +2,13 @@
 title: "Record 625 · Unified-Workload-Management-Through-Kubernetes-Native-APIs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.613964+00:00
+updated_at: 2026-09-04T13:43:53.355507+00:00
 tags: [record, real-data]
 ---
 
 # Record 625 · Unified-Workload-Management-Through-Kubernetes-Native-APIs
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.18433800)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.18433799)
 
 **제목:** Unified Workload Management Through Kubernetes-Native APIs
 

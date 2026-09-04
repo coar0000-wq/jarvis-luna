@@ -2,7 +2,7 @@
 title: "Record 247 · Geomorphological-dynamics-at-the-coast-A-sedimentary-stratigraphy-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.469995+00:00
+updated_at: 2026-09-04T13:43:53.267178+00:00
 tags: [record, real-data]
 ---
 

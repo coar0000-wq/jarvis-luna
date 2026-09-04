@@ -1,0 +1,21 @@
+---
+title: "Record 1339 · Lovable-and-Shopify-partner-to-launch-AI-store-builder---thekeywordco"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-04T13:43:53.535451+00:00
+tags: [record, real-data]
+---
+
+# Record 1339 · Lovable-and-Shopify-partner-to-launch-AI-store-builder---thekeywordco
+
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijgFBVV95cUxOTG5KOWVlQzVhb2JUTE1CQmNTbFdkVjVWMms1TFZ5WVJGMndUaV9fcjVKdkxqWndvdV8xUktNSzRhUV9FSHBSeDRMdDdMcEh6Ym85ckpKb1M0TXlxekdIaGVtdUlMYUxwby1ZVWlVUUVZMkFfZ2RPWHVnOTM5U3g2c1F1UWd3cEdTSTJjNVVR?oc=5)
+
+**제목:** Lovable and Shopify partner to launch AI store builder - thekeyword.co
+
+Lovable and Shopify partner to launch AI store builder - thekeyword.co
+
+**출처:** Source · Google Search
+
+## Connected nodes
+
+[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

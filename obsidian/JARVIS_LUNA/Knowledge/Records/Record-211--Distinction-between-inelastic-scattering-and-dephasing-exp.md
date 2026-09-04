@@ -2,7 +2,7 @@
 title: "Record 211 · Distinction-between-inelastic-scattering-and-dephasing-exponents-by-cu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.464351+00:00
+updated_at: 2026-09-04T13:43:53.258499+00:00
 tags: [record, real-data]
 ---
 

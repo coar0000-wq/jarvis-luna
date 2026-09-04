@@ -2,13 +2,13 @@
 title: "Record 554 · Informational-Entropic-Gravity-IEG-Deriving-G-from-the-Informational-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.516273+00:00
+updated_at: 2026-09-04T13:43:53.339497+00:00
 tags: [record, real-data]
 ---
 
 # Record 554 · Informational-Entropic-Gravity-IEG-Deriving-G-from-the-Informational-B
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.33774/coe-2025-6xdxr-v2)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.33774/coe-2025-6xdxr)
 
 **제목:** Informational Entropic Gravity (IEG): Deriving G from the Informational Basis of Spacetime within the F-HUB Framework
 

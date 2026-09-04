@@ -2,7 +2,7 @@
 title: "Record 233 · Comment-on-Machine-learningbased-prediction-of-CAC-defined-cardiovascu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T09:18:25.467817+00:00
+updated_at: 2026-09-04T13:43:53.263906+00:00
 tags: [record, real-data]
 ---
 
