@@ -42,6 +42,19 @@ SHIPPING_SOURCE = ("우체국 국제통상 소형포장물 미국행 요금표 "
                    "(ems.epost.go.kr, 2026-08-31 조회)")
 
 TARIFF_RATE = 0.15          # 미국 화장품 HTS 3304 한국산 상호관세
+
+# 관세를 누가 언제 내는가 — 두 방식이 있고 둘을 동시에 하면 고객이 두 번 낸다.
+#
+#   ddu  판매가에 관세를 녹인다. 우리가 배송사에 선납하는 계약(DDP 배송)이
+#        있어야 성립한다. 없으면 고객이 물건 받을 때 관세 고지서를 또 받는다.
+#   ddp  Shopify 가 결제 화면에서 고객에게 관세를 따로 받는다.
+#        판매가에는 관세를 넣지 않는다.
+#
+# Shopify Managed Markets 는 2026-08-24 부터 DDU 지원을 폐지하고
+# DDP 로 자동 전환했다. 즉 스토어를 열면 ddp 가 기본이 될 가능성이 높다.
+# 다만 한국 발송 셀러 지원 여부는 개설 후 Markets 설정에서 확인해야 한다.
+# 그래서 두 경우를 모두 산출해 두고 확인 후 고른다.
+DUTY_MODES = ("ddu", "ddp")
 PAY_RATE, PAY_FIXED = 0.029, 0.30   # Shopify 결제수수료
 PACKAGING_G = 40            # 완충재 + 봉투 실측 대신 보수적 추정
 
@@ -92,7 +105,8 @@ def est_weight(name: str) -> tuple[int, str]:
     return total, f"{int(v)}{unit} x 1.6(용기) + {PACKAGING_G}g(포장) 추정"
 
 
-def analyze(p: dict, rate: float, per_order: int, MARKET: dict) -> dict:
+def analyze(p: dict, rate: float, per_order: int, MARKET: dict,
+            duty_mode: str = "ddu") -> dict:
     name = p.get("name") or ""
     krw = int(p.get("price_krw") or 0)
     grams, wnote = est_weight(name)
@@ -104,7 +118,12 @@ def analyze(p: dict, rate: float, per_order: int, MARKET: dict) -> dict:
     ship_unit = ship_total / per_order
 
     tariff = cost * TARIFF_RATE
-    landed = cost + ship_unit + tariff        # 결제수수료 전 원가
+
+    # ddu: 관세를 우리가 부담하므로 착지원가에 포함
+    # ddp: 관세를 고객이 결제 시 별도 납부하므로 우리 원가에서 제외
+    landed_ddu = cost + ship_unit + tariff
+    landed_ddp = cost + ship_unit
+    landed = landed_ddu if duty_mode == "ddu" else landed_ddp
 
     def profit(sell: float) -> dict:
         fee = sell * PAY_RATE + (PAY_FIXED / per_order)
@@ -125,7 +144,11 @@ def analyze(p: dict, rate: float, per_order: int, MARKET: dict) -> dict:
         "shipping_unit_usd": round(ship_unit, 2),
         "shipping_order_usd": round(ship_total, 2),
         "tariff_usd": round(tariff, 2),
+        "duty_mode": duty_mode,
         "landed_cost_usd": round(landed, 2),
+        "landed_cost_ddu_usd": round(landed_ddu, 2),
+        "landed_cost_ddp_usd": round(landed_ddp, 2),
+        "customer_pays_duty_at_checkout": duty_mode == "ddp",
         "breakeven_usd": round(breakeven, 2),
         "at_2_2x": profit(cost * 2.2),          # 현재 대시보드 가정
         "at_market_p25": profit(MARKET["p25"]),
@@ -159,9 +182,15 @@ def main() -> int:
         print("임의의 시장가를 쓰지 않고 중단합니다.")
         return 1
 
-    scenarios = {}
-    for n in (1, 3, 5):
-        scenarios[f"{n}개_묶음배송"] = [analyze(p, rate, n, MARKET) for p in srec]
+    # 기존 키(N개_묶음배송)는 ddu 기준으로 유지해 대시보드 호환을 지킨다.
+    # duty_scenarios 에 두 방식을 모두 담아 비교 가능하게 한다.
+    scenarios, duty_scenarios = {}, {}
+    for mode in DUTY_MODES:
+        for n in (1, 3, 5):
+            rows = [analyze(p, rate, n, MARKET, mode) for p in srec]
+            duty_scenarios[f"{mode}_{n}개_묶음배송"] = rows
+            if mode == "ddu":
+                scenarios[f"{n}개_묶음배송"] = rows
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -178,19 +207,40 @@ def main() -> int:
                              "포장 자재비", "미국 주 판매세", "환율 변동"],
         },
         "market_benchmark": MARKET,
+        "duty_mode_note": {
+            "선택_필요": True,
+            "ddu": ("관세를 판매가에 녹인다. 배송사와 관세 선납(DDP 배송) 계약이 "
+                    "있어야 성립한다. 없으면 고객이 수령 시 관세를 또 낸다."),
+            "ddp": ("Shopify 가 결제 화면에서 고객에게 관세를 따로 받는다. "
+                    "판매가에는 관세를 넣지 않는다."),
+            "주의": "두 방식을 동시에 적용하면 고객이 관세를 두 번 낸다.",
+            "shopify_현황": ("Managed Markets 는 2026-08-24 부터 DDU 지원을 폐지하고 "
+                           "DDP 로 자동 전환. 스토어 개설 후 Markets 설정에서 "
+                           "한국 발송 셀러 지원 여부를 확인할 것."),
+            "기본값": "ddu (scenarios 키가 이 기준. 확인 후 변경)",
+        },
         "scenarios": scenarios,
+        "duty_scenarios": duty_scenarios,
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
                    encoding="utf-8")
 
     print(f"환율 {rate} KRW/USD | 관세 {TARIFF_RATE:.0%} | 결제 {PAY_RATE:.1%}+${PAY_FIXED}")
     print(f"시장 벤치마크(올리브영 US): 하위25% ${MARKET['p25']} / 중앙값 ${MARKET['median']}\n")
-    for label, rows in scenarios.items():
-        loss = sum(1 for r in rows if r["at_2_2x"]["profit"] < 0)
-        avg_be = sum(r["breakeven_usd"] for r in rows) / len(rows)
-        avg_land = sum(r["landed_cost_usd"] for r in rows) / len(rows)
-        print(f"[{label}] 평균 착지원가 ${avg_land:.2f} | 손익분기 ${avg_be:.2f} | "
-              f"2.2배 가격에서 적자 {loss}/{len(rows)}건")
+    sell = MARKET.get("p25") or 0
+    print(f"{'방식':6s} {'묶음':6s} {'착지원가':>9s} {'손익분기':>9s} "
+          f"{'판매가':>8s} {'순익':>8s} {'마진':>7s}  고객 관세 부담")
+    for mode in DUTY_MODES:
+        for n in (1, 3, 5):
+            rows = duty_scenarios[f"{mode}_{n}개_묶음배송"]
+            land = sum(r["landed_cost_usd"] for r in rows) / len(rows)
+            be = sum(r["breakeven_usd"] for r in rows) / len(rows)
+            fee = sell * PAY_RATE + PAY_FIXED / n
+            net = sell - land - fee
+            duty = sum(r["tariff_usd"] for r in rows) / len(rows)
+            who = f"결제 시 +${duty:.2f}" if mode == "ddp" else "없음 (판매가에 포함)"
+            print(f"{mode:6s} {n}개    ${land:8.2f} ${be:8.2f} "
+                  f"${sell:7.2f} ${net:7.2f} {net/sell*100:6.1f}%  {who}")
     print(f"\n저장 -> {OUT.relative_to(ROOT)}")
     return 0
 

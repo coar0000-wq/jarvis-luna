@@ -263,6 +263,12 @@ nav a{font-size:12px;}
 .mkt-badge.amber{background:rgba(210,153,34,.13);color:#d29922;border:1px solid rgba(210,153,34,.26);}
 .ch-manual{display:inline-block;font-size:10px;font-weight:700;color:#58a6ff;background:rgba(88,166,255,.12);border:1px solid rgba(88,166,255,.28);border-radius:999px;padding:2px 7px;margin-right:7px;}
 .ch-verified{display:inline-block;font-size:10px;font-weight:700;color:#7ee787;background:rgba(126,231,135,.1);border:1px solid rgba(126,231,135,.24);border-radius:999px;padding:2px 7px;margin-right:7px;}
+.pm-duty{background:rgba(88,166,255,.07);border:1px solid rgba(88,166,255,.22);border-radius:10px;padding:11px 13px;margin-top:12px;font-size:12.5px;color:#8b949e;line-height:1.6;}
+.pm-duty b{color:#58a6ff;}
+.pm-tbl{width:100%;border-collapse:collapse;margin:9px 0 6px;font-size:12px;}
+.pm-tbl th{text-align:left;color:#6e7681;font-weight:600;padding:4px 6px;border-bottom:1px solid rgba(139,148,158,.18);}
+.pm-tbl td{padding:5px 6px;border-bottom:1px solid rgba(139,148,158,.08);color:#c9d1d9;}
+.pm-cau{font-size:11px;color:#f0883e;}
 </style>
 </head>
 <body>
@@ -753,10 +759,27 @@ function renderDaiso(status, sRec){
     t('dz-slate','손익분기','$'+be.toFixed(2),'이 아래로 팔면 적자')+
     revTile+
   '</div>'+
+  dutyModePanel(pm, rec)+
   previousMonthBanner()+
   '<div class="dz-note pm-src">시장가 기준 '+esc(mkt.source||'')+
     ' (하위25% $'+(mkt.p25||'-')+' · 중앙값 $'+(mkt.median||'-')+')'+
     ' · 환율 '+esc(String(asOf||''))+'</div>';
+}
+
+// 관세 부담 방식(DDU/DDP)은 스토어 개설 후 정한다. 두 경우를 나란히 보여준다.
+function dutyModePanel(pm, sell){
+  const ds=(pm&&pm.duty_scenarios)||{}, note=(pm&&pm.duty_mode_note)||{};
+  if(!ds['ddp_5개_묶음배송'] || !sell) return '';
+  const avg=(k,f)=>{const r=ds[k]||[]; return r.length? r.reduce((a,x)=>a+Number(x[f]||0),0)/r.length : 0;};
+  const du=avg('ddu_5개_묶음배송','landed_cost_usd');
+  const dp=avg('ddp_5개_묶음배송','landed_cost_usd');
+  const duty=avg('ddp_5개_묶음배송','tariff_usd');
+  const m=l=>((sell-l-(sell*0.029+0.06))/sell*100).toFixed(0);
+  return '<div class="dz-note pm-duty"><b>관세 부담 방식 미정</b> — 스토어 개설 후 Markets 설정을 확인하고 고르세요.'+
+    '<table class="pm-tbl"><tr><th>방식</th><th>착지원가</th><th>마진</th><th>고객 추가 부담</th></tr>'+
+    '<tr><td>DDU · 판매가에 관세 포함</td><td>$'+du.toFixed(2)+'</td><td>'+m(du)+'%</td><td>없음</td></tr>'+
+    '<tr><td>DDP · 결제 시 관세 별도</td><td>$'+dp.toFixed(2)+'</td><td>'+m(dp)+'%</td><td>+$'+duty.toFixed(2)+'</td></tr>'+
+    '</table><span class="pm-cau">'+esc(note['주의']||'')+'</span></div>';
 }
 
 // 가격 셀. 실제 원가 모델(배송·관세·수수료 포함)이 있을 때만 표시한다.

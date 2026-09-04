@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T06:18:21.507545+00:00",
+  "generated_at": "2026-09-04T06:46:30.656657+00:00",
   "exchange_rate": {
     "usd_to_krw": 1356.73,
     "as_of": "2026-09-04",
@@ -28,6 +28,14 @@
     "n": 100,
     "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-04)"
   },
+  "duty_mode_note": {
+    "선택_필요": true,
+    "ddu": "관세를 판매가에 녹인다. 배송사와 관세 선납(DDP 배송) 계약이 있어야 성립한다. 없으면 고객이 수령 시 관세를 또 낸다.",
+    "ddp": "Shopify 가 결제 화면에서 고객에게 관세를 따로 받는다. 판매가에는 관세를 넣지 않는다.",
+    "주의": "두 방식을 동시에 적용하면 고객이 관세를 두 번 낸다.",
+    "shopify_현황": "Managed Markets 는 2026-08-24 부터 DDU 지원을 폐지하고 DDP 로 자동 전환. 스토어 개설 후 Markets 설정에서 한국 발송 셀러 지원 여부를 확인할 것.",
+    "기본값": "ddu (scenarios 키가 이 기준. 확인 후 변경)"
+  },
   "scenarios": {
     "1개_묶음배송": [
       {
@@ -42,7 +50,11 @@
         "shipping_unit_usd": 6.94,
         "shipping_order_usd": 6.94,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 11.18,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 11.82,
         "at_2_2x": {
           "sell": 8.11,
@@ -75,7 +87,11 @@
         "shipping_unit_usd": 10.64,
         "shipping_order_usd": 10.64,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 14.88,
+        "landed_cost_ddu_usd": 14.88,
+        "landed_cost_ddp_usd": 14.33,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 15.63,
         "at_2_2x": {
           "sell": 8.11,
@@ -108,7 +124,11 @@
         "shipping_unit_usd": 6.94,
         "shipping_order_usd": 6.94,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 11.18,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 11.82,
         "at_2_2x": {
           "sell": 8.11,
@@ -141,7 +161,11 @@
         "shipping_unit_usd": 6.94,
         "shipping_order_usd": 6.94,
         "tariff_usd": 0.22,
+        "duty_mode": "ddu",
         "landed_cost_usd": 8.64,
+        "landed_cost_ddu_usd": 8.64,
+        "landed_cost_ddp_usd": 8.42,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 9.21,
         "at_2_2x": {
           "sell": 3.24,
@@ -174,7 +198,11 @@
         "shipping_unit_usd": 6.2,
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.22,
+        "duty_mode": "ddu",
         "landed_cost_usd": 7.89,
+        "landed_cost_ddu_usd": 7.89,
+        "landed_cost_ddp_usd": 7.67,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 8.44,
         "at_2_2x": {
           "sell": 3.24,
@@ -207,7 +235,11 @@
         "shipping_unit_usd": 6.94,
         "shipping_order_usd": 6.94,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 11.18,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 11.82,
         "at_2_2x": {
           "sell": 8.11,
@@ -240,7 +272,11 @@
         "shipping_unit_usd": 6.94,
         "shipping_order_usd": 6.94,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 11.18,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 11.82,
         "at_2_2x": {
           "sell": 8.11,
@@ -273,7 +309,11 @@
         "shipping_unit_usd": 6.2,
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.33,
+        "duty_mode": "ddu",
         "landed_cost_usd": 8.74,
+        "landed_cost_ddu_usd": 8.74,
+        "landed_cost_ddp_usd": 8.41,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 9.31,
         "at_2_2x": {
           "sell": 4.86,
@@ -306,7 +346,11 @@
         "shipping_unit_usd": 6.94,
         "shipping_order_usd": 6.94,
         "tariff_usd": 0.33,
+        "duty_mode": "ddu",
         "landed_cost_usd": 9.49,
+        "landed_cost_ddu_usd": 9.49,
+        "landed_cost_ddp_usd": 9.15,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 10.08,
         "at_2_2x": {
           "sell": 4.86,
@@ -339,7 +383,11 @@
         "shipping_unit_usd": 7.69,
         "shipping_order_usd": 7.69,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 11.93,
+        "landed_cost_ddu_usd": 11.93,
+        "landed_cost_ddp_usd": 11.37,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 12.59,
         "at_2_2x": {
           "sell": 8.11,
@@ -372,7 +420,11 @@
         "shipping_unit_usd": 6.2,
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 10.44,
+        "landed_cost_ddu_usd": 10.44,
+        "landed_cost_ddp_usd": 9.88,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 11.06,
         "at_2_2x": {
           "sell": 8.11,
@@ -405,7 +457,11 @@
         "shipping_unit_usd": 6.94,
         "shipping_order_usd": 6.94,
         "tariff_usd": 0.22,
+        "duty_mode": "ddu",
         "landed_cost_usd": 8.64,
+        "landed_cost_ddu_usd": 8.64,
+        "landed_cost_ddp_usd": 8.42,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 9.21,
         "at_2_2x": {
           "sell": 3.24,
@@ -438,7 +494,11 @@
         "shipping_unit_usd": 6.2,
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 10.44,
+        "landed_cost_ddu_usd": 10.44,
+        "landed_cost_ddp_usd": 9.88,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 11.06,
         "at_2_2x": {
           "sell": 8.11,
@@ -473,7 +533,11 @@
         "shipping_unit_usd": 2.81,
         "shipping_order_usd": 8.43,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 7.05,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.5,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 7.36,
         "at_2_2x": {
           "sell": 8.11,
@@ -506,7 +570,11 @@
         "shipping_unit_usd": 6.44,
         "shipping_order_usd": 19.32,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 10.68,
+        "landed_cost_ddu_usd": 10.68,
+        "landed_cost_ddp_usd": 10.12,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 11.1,
         "at_2_2x": {
           "sell": 8.11,
@@ -539,7 +607,11 @@
         "shipping_unit_usd": 2.81,
         "shipping_order_usd": 8.43,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 7.05,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.5,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 7.36,
         "at_2_2x": {
           "sell": 8.11,
@@ -572,7 +644,11 @@
         "shipping_unit_usd": 3.55,
         "shipping_order_usd": 10.64,
         "tariff_usd": 0.22,
+        "duty_mode": "ddu",
         "landed_cost_usd": 5.24,
+        "landed_cost_ddu_usd": 5.24,
+        "landed_cost_ddp_usd": 5.02,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 5.5,
         "at_2_2x": {
           "sell": 3.24,
@@ -605,7 +681,11 @@
         "shipping_unit_usd": 2.56,
         "shipping_order_usd": 7.69,
         "tariff_usd": 0.22,
+        "duty_mode": "ddu",
         "landed_cost_usd": 4.26,
+        "landed_cost_ddu_usd": 4.26,
+        "landed_cost_ddp_usd": 4.04,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 4.49,
         "at_2_2x": {
           "sell": 3.24,
@@ -638,7 +718,11 @@
         "shipping_unit_usd": 2.81,
         "shipping_order_usd": 8.43,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 7.05,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.5,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 7.36,
         "at_2_2x": {
           "sell": 8.11,
@@ -671,7 +755,11 @@
         "shipping_unit_usd": 2.81,
         "shipping_order_usd": 8.43,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 7.05,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.5,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 7.36,
         "at_2_2x": {
           "sell": 8.11,
@@ -704,7 +792,11 @@
         "shipping_unit_usd": 2.31,
         "shipping_order_usd": 6.94,
         "tariff_usd": 0.33,
+        "duty_mode": "ddu",
         "landed_cost_usd": 4.86,
+        "landed_cost_ddu_usd": 4.86,
+        "landed_cost_ddp_usd": 4.53,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 5.11,
         "at_2_2x": {
           "sell": 4.86,
@@ -737,7 +829,11 @@
         "shipping_unit_usd": 3.55,
         "shipping_order_usd": 10.64,
         "tariff_usd": 0.33,
+        "duty_mode": "ddu",
         "landed_cost_usd": 6.09,
+        "landed_cost_ddu_usd": 6.09,
+        "landed_cost_ddp_usd": 5.76,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 6.38,
         "at_2_2x": {
           "sell": 4.86,
@@ -770,7 +866,11 @@
         "shipping_unit_usd": 4.25,
         "shipping_order_usd": 12.74,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 8.49,
+        "landed_cost_ddu_usd": 8.49,
+        "landed_cost_ddp_usd": 7.93,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 8.84,
         "at_2_2x": {
           "sell": 8.11,
@@ -803,7 +903,11 @@
         "shipping_unit_usd": 2.31,
         "shipping_order_usd": 6.94,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 6.55,
+        "landed_cost_ddu_usd": 6.55,
+        "landed_cost_ddp_usd": 6.0,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 6.85,
         "at_2_2x": {
           "sell": 8.11,
@@ -836,7 +940,11 @@
         "shipping_unit_usd": 3.55,
         "shipping_order_usd": 10.64,
         "tariff_usd": 0.22,
+        "duty_mode": "ddu",
         "landed_cost_usd": 5.24,
+        "landed_cost_ddu_usd": 5.24,
+        "landed_cost_ddp_usd": 5.02,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 5.5,
         "at_2_2x": {
           "sell": 3.24,
@@ -869,7 +977,11 @@
         "shipping_unit_usd": 2.31,
         "shipping_order_usd": 6.94,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 6.55,
+        "landed_cost_ddu_usd": 6.55,
+        "landed_cost_ddp_usd": 6.0,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 6.85,
         "at_2_2x": {
           "sell": 8.11,
@@ -904,7 +1016,11 @@
         "shipping_unit_usd": 2.13,
         "shipping_order_usd": 10.64,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 6.37,
+        "landed_cost_ddu_usd": 6.37,
+        "landed_cost_ddp_usd": 5.81,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 6.62,
         "at_2_2x": {
           "sell": 8.11,
@@ -937,7 +1053,11 @@
         "shipping_unit_usd": 4.98,
         "shipping_order_usd": 24.92,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 9.22,
+        "landed_cost_ddu_usd": 9.22,
+        "landed_cost_ddp_usd": 8.67,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 9.56,
         "at_2_2x": {
           "sell": 8.11,
@@ -970,7 +1090,11 @@
         "shipping_unit_usd": 2.13,
         "shipping_order_usd": 10.64,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 6.37,
+        "landed_cost_ddu_usd": 6.37,
+        "landed_cost_ddp_usd": 5.81,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 6.62,
         "at_2_2x": {
           "sell": 8.11,
@@ -1003,7 +1127,11 @@
         "shipping_unit_usd": 2.69,
         "shipping_order_usd": 13.44,
         "tariff_usd": 0.22,
+        "duty_mode": "ddu",
         "landed_cost_usd": 4.38,
+        "landed_cost_ddu_usd": 4.38,
+        "landed_cost_ddp_usd": 4.16,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 4.58,
         "at_2_2x": {
           "sell": 3.24,
@@ -1036,7 +1164,11 @@
         "shipping_unit_usd": 1.99,
         "shipping_order_usd": 9.94,
         "tariff_usd": 0.22,
+        "duty_mode": "ddu",
         "landed_cost_usd": 3.68,
+        "landed_cost_ddu_usd": 3.68,
+        "landed_cost_ddp_usd": 3.46,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 3.86,
         "at_2_2x": {
           "sell": 3.24,
@@ -1069,7 +1201,11 @@
         "shipping_unit_usd": 2.13,
         "shipping_order_usd": 10.64,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 6.37,
+        "landed_cost_ddu_usd": 6.37,
+        "landed_cost_ddp_usd": 5.81,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 6.62,
         "at_2_2x": {
           "sell": 8.11,
@@ -1102,7 +1238,11 @@
         "shipping_unit_usd": 2.13,
         "shipping_order_usd": 10.64,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 6.37,
+        "landed_cost_ddu_usd": 6.37,
+        "landed_cost_ddp_usd": 5.81,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 6.62,
         "at_2_2x": {
           "sell": 8.11,
@@ -1135,7 +1275,11 @@
         "shipping_unit_usd": 1.54,
         "shipping_order_usd": 7.69,
         "tariff_usd": 0.33,
+        "duty_mode": "ddu",
         "landed_cost_usd": 4.08,
+        "landed_cost_ddu_usd": 4.08,
+        "landed_cost_ddp_usd": 3.75,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 4.26,
         "at_2_2x": {
           "sell": 4.86,
@@ -1168,7 +1312,11 @@
         "shipping_unit_usd": 2.55,
         "shipping_order_usd": 12.74,
         "tariff_usd": 0.33,
+        "duty_mode": "ddu",
         "landed_cost_usd": 5.09,
+        "landed_cost_ddu_usd": 5.09,
+        "landed_cost_ddp_usd": 4.76,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 5.31,
         "at_2_2x": {
           "sell": 4.86,
@@ -1201,7 +1349,11 @@
         "shipping_unit_usd": 3.54,
         "shipping_order_usd": 17.71,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 7.78,
+        "landed_cost_ddu_usd": 7.78,
+        "landed_cost_ddp_usd": 7.23,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 8.07,
         "at_2_2x": {
           "sell": 8.11,
@@ -1234,7 +1386,11 @@
         "shipping_unit_usd": 1.54,
         "shipping_order_usd": 7.69,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 5.78,
+        "landed_cost_ddu_usd": 5.78,
+        "landed_cost_ddp_usd": 5.22,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 6.01,
         "at_2_2x": {
           "sell": 8.11,
@@ -1267,7 +1423,11 @@
         "shipping_unit_usd": 2.69,
         "shipping_order_usd": 13.44,
         "tariff_usd": 0.22,
+        "duty_mode": "ddu",
         "landed_cost_usd": 4.38,
+        "landed_cost_ddu_usd": 4.38,
+        "landed_cost_ddp_usd": 4.16,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 4.58,
         "at_2_2x": {
           "sell": 3.24,
@@ -1300,7 +1460,11 @@
         "shipping_unit_usd": 1.69,
         "shipping_order_usd": 8.43,
         "tariff_usd": 0.55,
+        "duty_mode": "ddu",
         "landed_cost_usd": 5.92,
+        "landed_cost_ddu_usd": 5.92,
+        "landed_cost_ddp_usd": 5.37,
+        "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 6.16,
         "at_2_2x": {
           "sell": 8.11,
@@ -1319,6 +1483,2906 @@
           "fee": 0.72,
           "profit": 16.15,
           "margin_pct": 70.9
+        }
+      }
+    ]
+  },
+  "duty_scenarios": {
+    "ddu_1개_묶음배송": [
+      {
+        "pd_no": "1045146",
+        "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.18,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 11.82,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.54,
+          "profit": -3.61,
+          "margin_pct": -44.5
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 4.95,
+          "margin_pct": 29.2
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 10.66,
+          "margin_pct": 46.7
+        }
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "300ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 10.64,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 14.88,
+        "landed_cost_ddu_usd": 14.88,
+        "landed_cost_ddp_usd": 14.33,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 15.63,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.54,
+          "profit": -7.31,
+          "margin_pct": -90.1
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 1.25,
+          "margin_pct": 7.4
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 6.96,
+          "margin_pct": 30.5
+        }
+      },
+      {
+        "pd_no": "1048581",
+        "name": "드롭비 잡티 말끔 앰플 40 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 104,
+        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.18,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 11.82,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.54,
+          "profit": -3.61,
+          "margin_pct": -44.5
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 4.95,
+          "margin_pct": 29.2
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 10.66,
+          "margin_pct": 46.7
+        }
+      },
+      {
+        "pd_no": "1075857",
+        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+        "bucket": "스킨케어",
+        "shopify_score": 94,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 8.64,
+        "landed_cost_ddu_usd": 8.64,
+        "landed_cost_ddp_usd": 8.42,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 9.21,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.39,
+          "profit": -5.79,
+          "margin_pct": -178.5
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 7.49,
+          "margin_pct": 44.3
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 13.2,
+          "margin_pct": 57.9
+        }
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 92,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.89,
+        "landed_cost_ddu_usd": 7.89,
+        "landed_cost_ddp_usd": 7.67,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.44,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.39,
+          "profit": -5.04,
+          "margin_pct": -155.6
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 8.24,
+          "margin_pct": 48.7
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 13.94,
+          "margin_pct": 61.2
+        }
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 92,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.18,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 11.82,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.54,
+          "profit": -3.61,
+          "margin_pct": -44.5
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 4.95,
+          "margin_pct": 29.2
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 10.66,
+          "margin_pct": 46.7
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 92,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.18,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 11.82,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.54,
+          "profit": -3.61,
+          "margin_pct": -44.5
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 4.95,
+          "margin_pct": 29.2
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 10.66,
+          "margin_pct": 46.7
+        }
+      },
+      {
+        "pd_no": "1060487",
+        "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+        "bucket": "마스크팩",
+        "shopify_score": 92,
+        "price_krw": 3000,
+        "weight_g_est": 46,
+        "weight_note": "4ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 8.74,
+        "landed_cost_ddu_usd": 8.74,
+        "landed_cost_ddp_usd": 8.41,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 9.31,
+        "at_2_2x": {
+          "sell": 4.86,
+          "fee": 0.44,
+          "profit": -4.32,
+          "margin_pct": -88.8
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 7.39,
+          "margin_pct": 43.7
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 13.1,
+          "margin_pct": 57.4
+        }
+      },
+      {
+        "pd_no": "1070006",
+        "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 3000,
+        "weight_g_est": 168,
+        "weight_note": "80ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 9.49,
+        "landed_cost_ddu_usd": 9.49,
+        "landed_cost_ddp_usd": 9.15,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 10.08,
+        "at_2_2x": {
+          "sell": 4.86,
+          "fee": 0.44,
+          "profit": -5.06,
+          "margin_pct": -104.1
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 6.64,
+          "margin_pct": 39.3
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 12.35,
+          "margin_pct": 54.2
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 88,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 7.69,
+        "shipping_order_usd": 7.69,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.93,
+        "landed_cost_ddu_usd": 11.93,
+        "landed_cost_ddp_usd": 11.37,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 12.59,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.54,
+          "profit": -4.35,
+          "margin_pct": -53.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 4.2,
+          "margin_pct": 24.8
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 9.91,
+          "margin_pct": 43.5
+        }
+      },
+      {
+        "pd_no": "1068733",
+        "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+        "bucket": "스킨케어",
+        "shopify_score": 88,
+        "price_krw": 5000,
+        "weight_g_est": 56,
+        "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 10.44,
+        "landed_cost_ddu_usd": 10.44,
+        "landed_cost_ddp_usd": 9.88,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 11.06,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.54,
+          "profit": -2.86,
+          "margin_pct": -35.3
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 5.69,
+          "margin_pct": 33.6
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 11.4,
+          "margin_pct": 50.0
+        }
+      },
+      {
+        "pd_no": "1067024",
+        "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
+        "bucket": "클렌징",
+        "shopify_score": 85,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 8.64,
+        "landed_cost_ddu_usd": 8.64,
+        "landed_cost_ddp_usd": 8.42,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 9.21,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.39,
+          "profit": -5.79,
+          "margin_pct": -178.5
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 7.49,
+          "margin_pct": 44.3
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 13.2,
+          "margin_pct": 57.9
+        }
+      },
+      {
+        "pd_no": "1057223",
+        "name": "태그 핑크 라이트 선쿠션 15 g",
+        "bucket": "선케어",
+        "shopify_score": 82,
+        "price_krw": 5000,
+        "weight_g_est": 64,
+        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 10.44,
+        "landed_cost_ddu_usd": 10.44,
+        "landed_cost_ddp_usd": 9.88,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 11.06,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.54,
+          "profit": -2.86,
+          "margin_pct": -35.3
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 5.69,
+          "margin_pct": 33.6
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 11.4,
+          "margin_pct": 50.0
+        }
+      }
+    ],
+    "ddu_3개_묶음배송": [
+      {
+        "pd_no": "1045146",
+        "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.81,
+        "shipping_order_usd": 8.43,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.05,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.5,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 7.36,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.34,
+          "profit": 0.72,
+          "margin_pct": 8.9
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 9.28,
+          "margin_pct": 54.8
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 14.99,
+          "margin_pct": 65.7
+        }
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "300ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.44,
+        "shipping_order_usd": 19.32,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 10.68,
+        "landed_cost_ddu_usd": 10.68,
+        "landed_cost_ddp_usd": 10.12,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 11.1,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.34,
+          "profit": -2.91,
+          "margin_pct": -35.8
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 5.65,
+          "margin_pct": 33.4
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 11.36,
+          "margin_pct": 49.8
+        }
+      },
+      {
+        "pd_no": "1048581",
+        "name": "드롭비 잡티 말끔 앰플 40 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 104,
+        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.81,
+        "shipping_order_usd": 8.43,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.05,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.5,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 7.36,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.34,
+          "profit": 0.72,
+          "margin_pct": 8.9
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 9.28,
+          "margin_pct": 54.8
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 14.99,
+          "margin_pct": 65.7
+        }
+      },
+      {
+        "pd_no": "1075857",
+        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+        "bucket": "스킨케어",
+        "shopify_score": 94,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 3.55,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.24,
+        "landed_cost_ddu_usd": 5.24,
+        "landed_cost_ddp_usd": 5.02,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 5.5,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.19,
+          "profit": -2.19,
+          "margin_pct": -67.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 11.09,
+          "margin_pct": 65.5
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 16.8,
+          "margin_pct": 73.7
+        }
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 92,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 2.56,
+        "shipping_order_usd": 7.69,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 4.26,
+        "landed_cost_ddu_usd": 4.26,
+        "landed_cost_ddp_usd": 4.04,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 4.49,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.19,
+          "profit": -1.21,
+          "margin_pct": -37.3
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 12.07,
+          "margin_pct": 71.3
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 17.78,
+          "margin_pct": 78.0
+        }
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 92,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.81,
+        "shipping_order_usd": 8.43,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.05,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.5,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 7.36,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.34,
+          "profit": 0.72,
+          "margin_pct": 8.9
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 9.28,
+          "margin_pct": 54.8
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 14.99,
+          "margin_pct": 65.7
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 92,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.81,
+        "shipping_order_usd": 8.43,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.05,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.5,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 7.36,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.34,
+          "profit": 0.72,
+          "margin_pct": 8.9
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 9.28,
+          "margin_pct": 54.8
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 14.99,
+          "margin_pct": 65.7
+        }
+      },
+      {
+        "pd_no": "1060487",
+        "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+        "bucket": "마스크팩",
+        "shopify_score": 92,
+        "price_krw": 3000,
+        "weight_g_est": 46,
+        "weight_note": "4ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 2.31,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 4.86,
+        "landed_cost_ddu_usd": 4.86,
+        "landed_cost_ddp_usd": 4.53,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 5.11,
+        "at_2_2x": {
+          "sell": 4.86,
+          "fee": 0.24,
+          "profit": -0.23,
+          "margin_pct": -4.8
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 11.47,
+          "margin_pct": 67.8
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 17.18,
+          "margin_pct": 75.4
+        }
+      },
+      {
+        "pd_no": "1070006",
+        "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 3000,
+        "weight_g_est": 168,
+        "weight_note": "80ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 3.55,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 6.09,
+        "landed_cost_ddu_usd": 6.09,
+        "landed_cost_ddp_usd": 5.76,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 6.38,
+        "at_2_2x": {
+          "sell": 4.86,
+          "fee": 0.24,
+          "profit": -1.47,
+          "margin_pct": -30.2
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 10.24,
+          "margin_pct": 60.5
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 15.95,
+          "margin_pct": 69.9
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 88,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 4.25,
+        "shipping_order_usd": 12.74,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 8.49,
+        "landed_cost_ddu_usd": 8.49,
+        "landed_cost_ddp_usd": 7.93,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.84,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.34,
+          "profit": -0.71,
+          "margin_pct": -8.8
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 7.84,
+          "margin_pct": 46.4
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 13.55,
+          "margin_pct": 59.4
+        }
+      },
+      {
+        "pd_no": "1068733",
+        "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+        "bucket": "스킨케어",
+        "shopify_score": 88,
+        "price_krw": 5000,
+        "weight_g_est": 56,
+        "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.31,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 6.55,
+        "landed_cost_ddu_usd": 6.55,
+        "landed_cost_ddp_usd": 6.0,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 6.85,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.34,
+          "profit": 1.22,
+          "margin_pct": 15.0
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 9.78,
+          "margin_pct": 57.8
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 15.49,
+          "margin_pct": 67.9
+        }
+      },
+      {
+        "pd_no": "1067024",
+        "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
+        "bucket": "클렌징",
+        "shopify_score": 85,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 3.55,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.24,
+        "landed_cost_ddu_usd": 5.24,
+        "landed_cost_ddp_usd": 5.02,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 5.5,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.19,
+          "profit": -2.19,
+          "margin_pct": -67.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 11.09,
+          "margin_pct": 65.5
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 16.8,
+          "margin_pct": 73.7
+        }
+      },
+      {
+        "pd_no": "1057223",
+        "name": "태그 핑크 라이트 선쿠션 15 g",
+        "bucket": "선케어",
+        "shopify_score": 82,
+        "price_krw": 5000,
+        "weight_g_est": 64,
+        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.31,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 6.55,
+        "landed_cost_ddu_usd": 6.55,
+        "landed_cost_ddp_usd": 6.0,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 6.85,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.34,
+          "profit": 1.22,
+          "margin_pct": 15.0
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 9.78,
+          "margin_pct": 57.8
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 15.49,
+          "margin_pct": 67.9
+        }
+      }
+    ],
+    "ddu_5개_묶음배송": [
+      {
+        "pd_no": "1045146",
+        "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.13,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 6.37,
+        "landed_cost_ddu_usd": 6.37,
+        "landed_cost_ddp_usd": 5.81,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 6.62,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.3,
+          "profit": 1.45,
+          "margin_pct": 17.8
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 10.0,
+          "margin_pct": 59.1
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 15.71,
+          "margin_pct": 68.9
+        }
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "300ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 4.98,
+        "shipping_order_usd": 24.92,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 9.22,
+        "landed_cost_ddu_usd": 9.22,
+        "landed_cost_ddp_usd": 8.67,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 9.56,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.3,
+          "profit": -1.41,
+          "margin_pct": -17.4
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 7.15,
+          "margin_pct": 42.2
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 12.86,
+          "margin_pct": 56.4
+        }
+      },
+      {
+        "pd_no": "1048581",
+        "name": "드롭비 잡티 말끔 앰플 40 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 104,
+        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.13,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 6.37,
+        "landed_cost_ddu_usd": 6.37,
+        "landed_cost_ddp_usd": 5.81,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 6.62,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.3,
+          "profit": 1.45,
+          "margin_pct": 17.8
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 10.0,
+          "margin_pct": 59.1
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 15.71,
+          "margin_pct": 68.9
+        }
+      },
+      {
+        "pd_no": "1075857",
+        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+        "bucket": "스킨케어",
+        "shopify_score": 94,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 2.69,
+        "shipping_order_usd": 13.44,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 4.38,
+        "landed_cost_ddu_usd": 4.38,
+        "landed_cost_ddp_usd": 4.16,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 4.58,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.15,
+          "profit": -1.29,
+          "margin_pct": -39.9
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 11.99,
+          "margin_pct": 70.8
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 17.7,
+          "margin_pct": 77.6
+        }
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 92,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 1.99,
+        "shipping_order_usd": 9.94,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 3.68,
+        "landed_cost_ddu_usd": 3.68,
+        "landed_cost_ddp_usd": 3.46,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 3.86,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.15,
+          "profit": -0.59,
+          "margin_pct": -18.3
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 12.69,
+          "margin_pct": 75.0
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 18.39,
+          "margin_pct": 80.7
+        }
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 92,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.13,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 6.37,
+        "landed_cost_ddu_usd": 6.37,
+        "landed_cost_ddp_usd": 5.81,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 6.62,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.3,
+          "profit": 1.45,
+          "margin_pct": 17.8
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 10.0,
+          "margin_pct": 59.1
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 15.71,
+          "margin_pct": 68.9
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 92,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.13,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 6.37,
+        "landed_cost_ddu_usd": 6.37,
+        "landed_cost_ddp_usd": 5.81,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 6.62,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.3,
+          "profit": 1.45,
+          "margin_pct": 17.8
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 10.0,
+          "margin_pct": 59.1
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 15.71,
+          "margin_pct": 68.9
+        }
+      },
+      {
+        "pd_no": "1060487",
+        "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+        "bucket": "마스크팩",
+        "shopify_score": 92,
+        "price_krw": 3000,
+        "weight_g_est": 46,
+        "weight_note": "4ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 1.54,
+        "shipping_order_usd": 7.69,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 4.08,
+        "landed_cost_ddu_usd": 4.08,
+        "landed_cost_ddp_usd": 3.75,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 4.26,
+        "at_2_2x": {
+          "sell": 4.86,
+          "fee": 0.2,
+          "profit": 0.58,
+          "margin_pct": 12.0
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 12.29,
+          "margin_pct": 72.6
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 18.0,
+          "margin_pct": 78.9
+        }
+      },
+      {
+        "pd_no": "1070006",
+        "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 3000,
+        "weight_g_est": 168,
+        "weight_note": "80ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 2.55,
+        "shipping_order_usd": 12.74,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.09,
+        "landed_cost_ddu_usd": 5.09,
+        "landed_cost_ddp_usd": 4.76,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 5.31,
+        "at_2_2x": {
+          "sell": 4.86,
+          "fee": 0.2,
+          "profit": -0.43,
+          "margin_pct": -8.8
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 11.28,
+          "margin_pct": 66.7
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 16.99,
+          "margin_pct": 74.5
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 88,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 17.71,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.78,
+        "landed_cost_ddu_usd": 7.78,
+        "landed_cost_ddp_usd": 7.23,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.07,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.3,
+          "profit": 0.03,
+          "margin_pct": 0.4
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 8.59,
+          "margin_pct": 50.8
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 14.3,
+          "margin_pct": 62.7
+        }
+      },
+      {
+        "pd_no": "1068733",
+        "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+        "bucket": "스킨케어",
+        "shopify_score": 88,
+        "price_krw": 5000,
+        "weight_g_est": 56,
+        "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 1.54,
+        "shipping_order_usd": 7.69,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.78,
+        "landed_cost_ddu_usd": 5.78,
+        "landed_cost_ddp_usd": 5.22,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 6.01,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.3,
+          "profit": 2.04,
+          "margin_pct": 25.1
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 10.59,
+          "margin_pct": 62.6
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 16.3,
+          "margin_pct": 71.5
+        }
+      },
+      {
+        "pd_no": "1067024",
+        "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
+        "bucket": "클렌징",
+        "shopify_score": 85,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 2.69,
+        "shipping_order_usd": 13.44,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 4.38,
+        "landed_cost_ddu_usd": 4.38,
+        "landed_cost_ddp_usd": 4.16,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 4.58,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.15,
+          "profit": -1.29,
+          "margin_pct": -39.9
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 11.99,
+          "margin_pct": 70.8
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 17.7,
+          "margin_pct": 77.6
+        }
+      },
+      {
+        "pd_no": "1057223",
+        "name": "태그 핑크 라이트 선쿠션 15 g",
+        "bucket": "선케어",
+        "shopify_score": 82,
+        "price_krw": 5000,
+        "weight_g_est": 64,
+        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 1.69,
+        "shipping_order_usd": 8.43,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.92,
+        "landed_cost_ddu_usd": 5.92,
+        "landed_cost_ddp_usd": 5.37,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 6.16,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.3,
+          "profit": 1.89,
+          "margin_pct": 23.3
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 10.44,
+          "margin_pct": 61.7
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 16.15,
+          "margin_pct": 70.9
+        }
+      }
+    ],
+    "ddp_1개_묶음배송": [
+      {
+        "pd_no": "1045146",
+        "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 10.63,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 11.25,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.54,
+          "profit": -3.06,
+          "margin_pct": -37.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 5.5,
+          "margin_pct": 32.5
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 11.21,
+          "margin_pct": 49.2
+        }
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "300ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 10.64,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 14.33,
+        "landed_cost_ddu_usd": 14.88,
+        "landed_cost_ddp_usd": 14.33,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 15.07,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.54,
+          "profit": -6.76,
+          "margin_pct": -83.3
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 1.8,
+          "margin_pct": 10.6
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 7.51,
+          "margin_pct": 32.9
+        }
+      },
+      {
+        "pd_no": "1048581",
+        "name": "드롭비 잡티 말끔 앰플 40 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 104,
+        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 10.63,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 11.25,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.54,
+          "profit": -3.06,
+          "margin_pct": -37.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 5.5,
+          "margin_pct": 32.5
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 11.21,
+          "margin_pct": 49.2
+        }
+      },
+      {
+        "pd_no": "1075857",
+        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+        "bucket": "스킨케어",
+        "shopify_score": 94,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 8.42,
+        "landed_cost_ddu_usd": 8.64,
+        "landed_cost_ddp_usd": 8.42,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 8.98,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.39,
+          "profit": -5.57,
+          "margin_pct": -171.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 7.71,
+          "margin_pct": 45.6
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 13.42,
+          "margin_pct": 58.9
+        }
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 92,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 7.67,
+        "landed_cost_ddu_usd": 7.89,
+        "landed_cost_ddp_usd": 7.67,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 8.21,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.39,
+          "profit": -4.82,
+          "margin_pct": -148.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 8.46,
+          "margin_pct": 50.0
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 14.17,
+          "margin_pct": 62.1
+        }
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 92,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 10.63,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 11.25,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.54,
+          "profit": -3.06,
+          "margin_pct": -37.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 5.5,
+          "margin_pct": 32.5
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 11.21,
+          "margin_pct": 49.2
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 92,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 10.63,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 11.25,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.54,
+          "profit": -3.06,
+          "margin_pct": -37.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 5.5,
+          "margin_pct": 32.5
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 11.21,
+          "margin_pct": 49.2
+        }
+      },
+      {
+        "pd_no": "1060487",
+        "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+        "bucket": "마스크팩",
+        "shopify_score": 92,
+        "price_krw": 3000,
+        "weight_g_est": 46,
+        "weight_note": "4ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 8.41,
+        "landed_cost_ddu_usd": 8.74,
+        "landed_cost_ddp_usd": 8.41,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 8.97,
+        "at_2_2x": {
+          "sell": 4.86,
+          "fee": 0.44,
+          "profit": -3.99,
+          "margin_pct": -81.9
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 7.72,
+          "margin_pct": 45.6
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 13.43,
+          "margin_pct": 58.9
+        }
+      },
+      {
+        "pd_no": "1070006",
+        "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 3000,
+        "weight_g_est": 168,
+        "weight_note": "80ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 9.15,
+        "landed_cost_ddu_usd": 9.49,
+        "landed_cost_ddp_usd": 9.15,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 9.74,
+        "at_2_2x": {
+          "sell": 4.86,
+          "fee": 0.44,
+          "profit": -4.73,
+          "margin_pct": -97.2
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 6.97,
+          "margin_pct": 41.2
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 12.68,
+          "margin_pct": 55.6
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 88,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 7.69,
+        "shipping_order_usd": 7.69,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 11.37,
+        "landed_cost_ddu_usd": 11.93,
+        "landed_cost_ddp_usd": 11.37,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 12.02,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.54,
+          "profit": -3.8,
+          "margin_pct": -46.9
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 4.76,
+          "margin_pct": 28.1
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 10.47,
+          "margin_pct": 45.9
+        }
+      },
+      {
+        "pd_no": "1068733",
+        "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+        "bucket": "스킨케어",
+        "shopify_score": 88,
+        "price_krw": 5000,
+        "weight_g_est": 56,
+        "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 9.88,
+        "landed_cost_ddu_usd": 10.44,
+        "landed_cost_ddp_usd": 9.88,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 10.49,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.54,
+          "profit": -2.31,
+          "margin_pct": -28.5
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 6.25,
+          "margin_pct": 36.9
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 11.95,
+          "margin_pct": 52.4
+        }
+      },
+      {
+        "pd_no": "1067024",
+        "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
+        "bucket": "클렌징",
+        "shopify_score": 85,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 8.42,
+        "landed_cost_ddu_usd": 8.64,
+        "landed_cost_ddp_usd": 8.42,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 8.98,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.39,
+          "profit": -5.57,
+          "margin_pct": -171.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 7.71,
+          "margin_pct": 45.6
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 13.42,
+          "margin_pct": 58.9
+        }
+      },
+      {
+        "pd_no": "1057223",
+        "name": "태그 핑크 라이트 선쿠션 15 g",
+        "bucket": "선케어",
+        "shopify_score": 82,
+        "price_krw": 5000,
+        "weight_g_est": 64,
+        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 9.88,
+        "landed_cost_ddu_usd": 10.44,
+        "landed_cost_ddp_usd": 9.88,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 10.49,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.54,
+          "profit": -2.31,
+          "margin_pct": -28.5
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.79,
+          "profit": 6.25,
+          "margin_pct": 36.9
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.96,
+          "profit": 11.95,
+          "margin_pct": 52.4
+        }
+      }
+    ],
+    "ddp_3개_묶음배송": [
+      {
+        "pd_no": "1045146",
+        "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.81,
+        "shipping_order_usd": 8.43,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 6.5,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.5,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 6.79,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.34,
+          "profit": 1.28,
+          "margin_pct": 15.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 9.83,
+          "margin_pct": 58.1
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 15.54,
+          "margin_pct": 68.2
+        }
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "300ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.44,
+        "shipping_order_usd": 19.32,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 10.12,
+        "landed_cost_ddu_usd": 10.68,
+        "landed_cost_ddp_usd": 10.12,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 10.53,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.34,
+          "profit": -2.35,
+          "margin_pct": -29.0
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 6.2,
+          "margin_pct": 36.7
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 11.91,
+          "margin_pct": 52.3
+        }
+      },
+      {
+        "pd_no": "1048581",
+        "name": "드롭비 잡티 말끔 앰플 40 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 104,
+        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.81,
+        "shipping_order_usd": 8.43,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 6.5,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.5,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 6.79,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.34,
+          "profit": 1.28,
+          "margin_pct": 15.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 9.83,
+          "margin_pct": 58.1
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 15.54,
+          "margin_pct": 68.2
+        }
+      },
+      {
+        "pd_no": "1075857",
+        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+        "bucket": "스킨케어",
+        "shopify_score": 94,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 3.55,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 5.02,
+        "landed_cost_ddu_usd": 5.24,
+        "landed_cost_ddp_usd": 5.02,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 5.27,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.19,
+          "profit": -1.97,
+          "margin_pct": -60.8
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 11.31,
+          "margin_pct": 66.8
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 17.02,
+          "margin_pct": 74.6
+        }
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 92,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 2.56,
+        "shipping_order_usd": 7.69,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 4.04,
+        "landed_cost_ddu_usd": 4.26,
+        "landed_cost_ddp_usd": 4.04,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 4.26,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.19,
+          "profit": -0.99,
+          "margin_pct": -30.5
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 12.29,
+          "margin_pct": 72.7
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 18.0,
+          "margin_pct": 79.0
+        }
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 92,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.81,
+        "shipping_order_usd": 8.43,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 6.5,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.5,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 6.79,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.34,
+          "profit": 1.28,
+          "margin_pct": 15.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 9.83,
+          "margin_pct": 58.1
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 15.54,
+          "margin_pct": 68.2
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 92,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.81,
+        "shipping_order_usd": 8.43,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 6.5,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.5,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 6.79,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.34,
+          "profit": 1.28,
+          "margin_pct": 15.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 9.83,
+          "margin_pct": 58.1
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 15.54,
+          "margin_pct": 68.2
+        }
+      },
+      {
+        "pd_no": "1060487",
+        "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+        "bucket": "마스크팩",
+        "shopify_score": 92,
+        "price_krw": 3000,
+        "weight_g_est": 46,
+        "weight_note": "4ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 2.31,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 4.53,
+        "landed_cost_ddu_usd": 4.86,
+        "landed_cost_ddp_usd": 4.53,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 4.76,
+        "at_2_2x": {
+          "sell": 4.86,
+          "fee": 0.24,
+          "profit": 0.1,
+          "margin_pct": 2.0
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 11.8,
+          "margin_pct": 69.8
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 17.51,
+          "margin_pct": 76.8
+        }
+      },
+      {
+        "pd_no": "1070006",
+        "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 3000,
+        "weight_g_est": 168,
+        "weight_note": "80ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 3.55,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 5.76,
+        "landed_cost_ddu_usd": 6.09,
+        "landed_cost_ddp_usd": 5.76,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 6.03,
+        "at_2_2x": {
+          "sell": 4.86,
+          "fee": 0.24,
+          "profit": -1.14,
+          "margin_pct": -23.3
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 10.57,
+          "margin_pct": 62.5
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 16.28,
+          "margin_pct": 71.4
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 88,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 4.25,
+        "shipping_order_usd": 12.74,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 7.93,
+        "landed_cost_ddu_usd": 8.49,
+        "landed_cost_ddp_usd": 7.93,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 8.27,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.34,
+          "profit": -0.16,
+          "margin_pct": -2.0
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 8.4,
+          "margin_pct": 49.6
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 14.11,
+          "margin_pct": 61.9
+        }
+      },
+      {
+        "pd_no": "1068733",
+        "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+        "bucket": "스킨케어",
+        "shopify_score": 88,
+        "price_krw": 5000,
+        "weight_g_est": 56,
+        "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.31,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 6.0,
+        "landed_cost_ddu_usd": 6.55,
+        "landed_cost_ddp_usd": 6.0,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 6.28,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.34,
+          "profit": 1.77,
+          "margin_pct": 21.9
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 10.33,
+          "margin_pct": 61.0
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 16.04,
+          "margin_pct": 70.3
+        }
+      },
+      {
+        "pd_no": "1067024",
+        "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
+        "bucket": "클렌징",
+        "shopify_score": 85,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 3.55,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 5.02,
+        "landed_cost_ddu_usd": 5.24,
+        "landed_cost_ddp_usd": 5.02,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 5.27,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.19,
+          "profit": -1.97,
+          "margin_pct": -60.8
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 11.31,
+          "margin_pct": 66.8
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 17.02,
+          "margin_pct": 74.6
+        }
+      },
+      {
+        "pd_no": "1057223",
+        "name": "태그 핑크 라이트 선쿠션 15 g",
+        "bucket": "선케어",
+        "shopify_score": 82,
+        "price_krw": 5000,
+        "weight_g_est": 64,
+        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.31,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 6.0,
+        "landed_cost_ddu_usd": 6.55,
+        "landed_cost_ddp_usd": 6.0,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 6.28,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.34,
+          "profit": 1.77,
+          "margin_pct": 21.9
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.59,
+          "profit": 10.33,
+          "margin_pct": 61.0
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.76,
+          "profit": 16.04,
+          "margin_pct": 70.3
+        }
+      }
+    ],
+    "ddp_5개_묶음배송": [
+      {
+        "pd_no": "1045146",
+        "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.13,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 5.81,
+        "landed_cost_ddu_usd": 6.37,
+        "landed_cost_ddp_usd": 5.81,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 6.05,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.3,
+          "profit": 2.0,
+          "margin_pct": 24.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 10.56,
+          "margin_pct": 62.4
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 16.26,
+          "margin_pct": 71.3
+        }
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "300ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 4.98,
+        "shipping_order_usd": 24.92,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 8.67,
+        "landed_cost_ddu_usd": 9.22,
+        "landed_cost_ddp_usd": 8.67,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 8.99,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.3,
+          "profit": -0.86,
+          "margin_pct": -10.6
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 7.7,
+          "margin_pct": 45.5
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 13.41,
+          "margin_pct": 58.8
+        }
+      },
+      {
+        "pd_no": "1048581",
+        "name": "드롭비 잡티 말끔 앰플 40 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 96,
+        "price_krw": 5000,
+        "weight_g_est": 104,
+        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.13,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 5.81,
+        "landed_cost_ddu_usd": 6.37,
+        "landed_cost_ddp_usd": 5.81,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 6.05,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.3,
+          "profit": 2.0,
+          "margin_pct": 24.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 10.56,
+          "margin_pct": 62.4
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 16.26,
+          "margin_pct": 71.3
+        }
+      },
+      {
+        "pd_no": "1075857",
+        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+        "bucket": "스킨케어",
+        "shopify_score": 94,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 2.69,
+        "shipping_order_usd": 13.44,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 4.16,
+        "landed_cost_ddu_usd": 4.38,
+        "landed_cost_ddp_usd": 4.16,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 4.35,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.15,
+          "profit": -1.07,
+          "margin_pct": -33.1
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 12.21,
+          "margin_pct": 72.2
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 17.92,
+          "margin_pct": 78.6
+        }
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 92,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 1.99,
+        "shipping_order_usd": 9.94,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 3.46,
+        "landed_cost_ddu_usd": 3.68,
+        "landed_cost_ddp_usd": 3.46,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 3.63,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.15,
+          "profit": -0.37,
+          "margin_pct": -11.5
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 12.91,
+          "margin_pct": 76.3
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 18.62,
+          "margin_pct": 81.6
+        }
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 92,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.13,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 5.81,
+        "landed_cost_ddu_usd": 6.37,
+        "landed_cost_ddp_usd": 5.81,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 6.05,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.3,
+          "profit": 2.0,
+          "margin_pct": 24.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 10.56,
+          "margin_pct": 62.4
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 16.26,
+          "margin_pct": 71.3
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 92,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.13,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 5.81,
+        "landed_cost_ddu_usd": 6.37,
+        "landed_cost_ddp_usd": 5.81,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 6.05,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.3,
+          "profit": 2.0,
+          "margin_pct": 24.7
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 10.56,
+          "margin_pct": 62.4
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 16.26,
+          "margin_pct": 71.3
+        }
+      },
+      {
+        "pd_no": "1060487",
+        "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+        "bucket": "마스크팩",
+        "shopify_score": 92,
+        "price_krw": 3000,
+        "weight_g_est": 46,
+        "weight_note": "4ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 1.54,
+        "shipping_order_usd": 7.69,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 3.75,
+        "landed_cost_ddu_usd": 4.08,
+        "landed_cost_ddp_usd": 3.75,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 3.92,
+        "at_2_2x": {
+          "sell": 4.86,
+          "fee": 0.2,
+          "profit": 0.91,
+          "margin_pct": 18.8
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 12.62,
+          "margin_pct": 74.6
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 18.33,
+          "margin_pct": 80.4
+        }
+      },
+      {
+        "pd_no": "1070006",
+        "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 3000,
+        "weight_g_est": 168,
+        "weight_note": "80ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 2.55,
+        "shipping_order_usd": 12.74,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 4.76,
+        "landed_cost_ddu_usd": 5.09,
+        "landed_cost_ddp_usd": 4.76,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 4.96,
+        "at_2_2x": {
+          "sell": 4.86,
+          "fee": 0.2,
+          "profit": -0.1,
+          "margin_pct": -2.0
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 11.61,
+          "margin_pct": 68.6
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 17.32,
+          "margin_pct": 76.0
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 88,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 17.71,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 7.23,
+        "landed_cost_ddu_usd": 7.78,
+        "landed_cost_ddp_usd": 7.23,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 7.51,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.3,
+          "profit": 0.58,
+          "margin_pct": 7.2
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 9.14,
+          "margin_pct": 54.0
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 14.85,
+          "margin_pct": 65.1
+        }
+      },
+      {
+        "pd_no": "1068733",
+        "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+        "bucket": "스킨케어",
+        "shopify_score": 88,
+        "price_krw": 5000,
+        "weight_g_est": 56,
+        "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 1.54,
+        "shipping_order_usd": 7.69,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 5.22,
+        "landed_cost_ddu_usd": 5.78,
+        "landed_cost_ddp_usd": 5.22,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 5.44,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.3,
+          "profit": 2.59,
+          "margin_pct": 31.9
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 11.15,
+          "margin_pct": 65.9
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 16.86,
+          "margin_pct": 73.9
+        }
+      },
+      {
+        "pd_no": "1067024",
+        "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
+        "bucket": "클렌징",
+        "shopify_score": 85,
+        "price_krw": 2000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "unit_cost_usd": 1.47,
+        "shipping_unit_usd": 2.69,
+        "shipping_order_usd": 13.44,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 4.16,
+        "landed_cost_ddu_usd": 4.38,
+        "landed_cost_ddp_usd": 4.16,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 4.35,
+        "at_2_2x": {
+          "sell": 3.24,
+          "fee": 0.15,
+          "profit": -1.07,
+          "margin_pct": -33.1
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 12.21,
+          "margin_pct": 72.2
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 17.92,
+          "margin_pct": 78.6
+        }
+      },
+      {
+        "pd_no": "1057223",
+        "name": "태그 핑크 라이트 선쿠션 15 g",
+        "bucket": "선케어",
+        "shopify_score": 82,
+        "price_krw": 5000,
+        "weight_g_est": 64,
+        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 1.69,
+        "shipping_order_usd": 8.43,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 5.37,
+        "landed_cost_ddu_usd": 5.92,
+        "landed_cost_ddp_usd": 5.37,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 5.59,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.3,
+          "profit": 2.44,
+          "margin_pct": 30.1
+        },
+        "at_market_p25": {
+          "sell": 16.92,
+          "fee": 0.55,
+          "profit": 11.0,
+          "margin_pct": 65.0
+        },
+        "at_market_median": {
+          "sell": 22.8,
+          "fee": 0.72,
+          "profit": 16.71,
+          "margin_pct": 73.3
         }
       }
     ]
