@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T10:58:43.798476+00:00",
+  "updated_at": "2026-09-04T14:39:09.850829+00:00",
   "channel": "Learn With Shopify",
   "channel_handle": "@learnwithshopify",
   "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
@@ -8,9 +8,9 @@
   "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC7geKfz2-IH0rsgRBtHTm0g",
   "count": 15,
   "title_keywords": {
-    "shopify": 5,
+    "shopify": 6,
+    "store": 4,
     "claude": 4,
-    "store": 3,
     "product": 2,
     "build": 2,
     "ai": 2,
@@ -47,6 +47,17 @@
         "cross_brand_product_network",
         "daiso_to_shopify_expansion"
       ]
+    },
+    {
+      "video_id": "gugo50_VbjE",
+      "title": "How to Use Claude to Safely Rebrand Your Shopify Store",
+      "url": "https://www.youtube.com/watch?v=gugo50_VbjE",
+      "published": "2026-09-04T14:00:06+00:00",
+      "description_snip": "How to rebrand a Shopify store with Claude. #shopifytutorial ► Shopify Free Trial Link https://utm.io/usEDB ► The OFFICIAL Shopify Tutorial For Beginners 2026 ► Want the founder stories behind brands like these? Listen to @shopifymasters –––––––––––––––––––––––––––––––––––––––––––– A rebrand is one of the riskiest edits you can make to a Shopify store. Touch the wrong page and years of Google rank",
+      "channel": "Learn With Shopify",
+      "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
+      "source": "youtube_rss_free",
+      "analyze_with_notebook": "https://notebook.google.com/notebook/88638802-cf08-47ca-a3ec-12453818438a"
     },
     {
       "video_id": "IQDtl0Dacjo",
@@ -186,17 +197,6 @@
       "url": "https://www.youtube.com/shorts/lU6WIgu0Wzg",
       "published": "2026-08-21T16:00:08+00:00",
       "description_snip": "How to accept payments on your Claude-built website Claude Chat can help you build a beautiful brand and store foundation, but on its own, it cannot handle the essentials like taking payments, registering your domain, or shipping orders. That is why we use Shopify as the engine to turn your framework into a real, functioning business website that can actually sell. With the Shopify cloud connector",
-      "channel": "Learn With Shopify",
-      "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-      "source": "youtube_rss_free",
-      "analyze_with_notebook": "https://notebook.google.com/notebook/88638802-cf08-47ca-a3ec-12453818438a"
-    },
-    {
-      "video_id": "irtf9-m-9uc",
-      "title": "How to Start a 1-Person Business with Claude",
-      "url": "https://www.youtube.com/watch?v=irtf9-m-9uc",
-      "published": "2026-08-20T15:45:06+00:00",
-      "description_snip": "How to Build a One Person AI Business (Using Claude). ► Shopify Free Trial https://utm.io/uslHl ► Claude Code vs. Cursor: How AI Coding Tools Compare https://utm.io/uslHn ► How to Use Claude to Build and Run a Shopify Store https://utm.io/uslHq –––––––––––––––––––––––––––––––––––––––––––– Being a solopreneur means wearing every hat in the business, and that is the reason most solo founders stall o",
       "channel": "Learn With Shopify",
       "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
       "source": "youtube_rss_free",
