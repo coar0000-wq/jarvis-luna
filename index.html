@@ -80,7 +80,9 @@ box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
 .team-list{list-style:none;}
 .team-row{display:flex;align-items:flex-start;gap:14px;padding:14px 0;border-bottom:1px solid #232323;}
 .team-row:last-child{border-bottom:none;}
-.team-icon{flex:0 0 40px;width:40px;height:40px;border-radius:11px;display:flex;align-items:center;justify-content:center;}
+.team-icon{flex:0 0 40px;width:40px;height:40px;display:flex;align-items:center;justify-content:center;}
+.team-icon img{width:100%;height:100%;object-fit:contain;display:block;}
+.team-icon-fb{width:100%;height:100%;border-radius:11px;display:flex;align-items:center;justify-content:center;}
 .team-icon svg{width:20px;height:20px;fill:none;stroke:#fff;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;}
 .team-body{flex:1;min-width:0;}
 .team-name{font-size:14px;color:#f0f0f0;font-weight:500;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
@@ -618,6 +620,16 @@ ready_for_pages:['배포 대기','#d29922'], running:['진행중','#58a6ff'], fa
 };
 
 // 팀 아이콘. 이미지의 컬러 타일 형태를 따르되 팀마다 다른 마크를 쓴다.
+// 사용자가 준 팀 아이콘 이미지. 파일이 없으면 아래 SVG 마크로 자동 대체된다.
+const TEAM_IMG = {
+institutions:'images/teams/institutions.png',
+market:'images/teams/market.png',
+pricing:'images/teams/pricing.png',
+legal:'images/teams/legal.png',
+robotics:'images/teams/robotics.png',
+graph:'images/teams/graph.png'
+};
+
 const TEAM_GLYPH = {
 bank:'<path d="M3 9l9-5 9 5"/><path d="M5 9v9M9.5 9v9M14.5 9v9M19 9v9"/><path d="M3 20h18"/>',
 chart:'<path d="M4 19V5"/><path d="M4 19h16"/><path d="M8 16V11"/><path d="M13 16V7"/><path d="M18 16v-4"/>',
@@ -647,12 +659,16 @@ const list=$('team-list'); if(!list) return;
 const teams=Array.isArray(d.teams)?d.teams:[];
 if(!teams.length){ list.innerHTML='<li class="team-row"><div class="team-body"><div class="team-summary">팀 데이터가 아직 생성되지 않았습니다.</div></div></li>'; return; }
 list.innerHTML = teams.map(t=>{
-const g = TEAM_GLYPH[t.glyph]||TEAM_GLYPH.dot;
+// 팀 아이콘 이미지가 있으면 그것을 쓰고, 없으면 SVG 마크로 되돌아간다.
+const src = TEAM_IMG[t.id];
+const mark = src
+? '<img src="'+esc(src)+'" alt="" loading="lazy">'
+: '<div class="team-icon-fb" style="background:'+esc(t.color||'#555')+';"><svg viewBox="0 0 24 24">'+(TEAM_GLYPH[t.glyph]||TEAM_GLYPH.dot)+'</svg></div>';
 const badge = t.status==='missing' ? '<span class="team-badge miss">파일 없음</span>'
 : (t.status==='failed' ? '<span class="team-badge fail">검증 실패</span>' : '');
 const act = t.action ? '<div><span class="team-action">← 조치 · '+esc(t.action)+'</span></div>' : '';
 return '<li class="team-row">'
-+'<div class="team-icon" style="background:'+esc(t.color||'#555')+';"><svg viewBox="0 0 24 24">'+g+'</svg></div>'
++'<div class="team-icon">'+mark+'</div>'
 +'<div class="team-body">'
 +'<div class="team-name">'+esc(t.name)+badge+'<span class="team-when">'+esc(teamWhen(t.when))+'</span></div>'
 +'<div class="team-summary">'+esc(t.summary||'')+'</div>'+act
