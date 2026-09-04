@@ -55,34 +55,57 @@ def graph_metrics() -> dict:
 
     link_pattern = re.compile(r"\[\[([^\]|#]+)")
 
+    # 링크 대상을 폴더별로 나눠 담는다. 파이프라인이 만든 노트(Knowledge/)와
+    # 사용자가 직접 넣은 노트(Personal/)는 성격이 달라 같은 기준으로 볼 수 없다.
+    generated: set[str] = set()
+    personal: set[str] = set()
+
     for note in notes:
         try:
             text = note.read_text(encoding="utf-8", errors="ignore")
             found = link_pattern.findall(text)
             links += len(found)
-
-            for target in found:
-                normalized = target.strip().replace("\\", "/")
-                normalized = normalized.rsplit("/", 1)[-1]
-                if normalized.endswith(".md"):
-                    normalized = normalized[:-3]
-                if normalized:
-                    targets.add(normalized)
         except OSError:
             continue
 
-    stems = {p.stem for p in notes}
-    dangling = sorted(x for x in targets if x not in stems)
+        try:
+            top = note.relative_to(VAULT).parts[0]
+        except ValueError:
+            top = ""
+        bucket = personal if top == "Personal" else generated
+
+        for target in found:
+            normalized = target.strip().replace("\\", "/")
+            normalized = normalized.rsplit("/", 1)[-1]
+            if normalized.endswith(".md"):
+                normalized = normalized[:-3]
+            if normalized:
+                # Obsidian 은 파일명을 대소문자 구분 없이 찾는다. 여기서 구분하면
+                # Windows 가 기존 파일명 대소문자를 유지하는 탓에 멀쩡한 링크가
+                # 끊어진 것으로 잡힌다. (ASML-reports... vs Asml-Reports...)
+                targets.add(normalized)
+                bucket.add(normalized.lower())
+
+    stems = {p.stem.lower() for p in notes}
+    dangling_generated = sorted(x for x in generated if x not in stems)
+    dangling_personal = sorted(x for x in personal if x not in stems)
     valid_mtimes = [iso_mtime(p) for p in notes if iso_mtime(p) is not None]
 
     return {
         "notes": len(notes),
         "links": links,
-        "dangling_links": len(dangling),
+        # 파이프라인 품질 지표는 생성분만 센다.
+        "dangling_links": len(dangling_generated),
+        "dangling_personal": len(dangling_personal),
+        "dangling_personal_note": (
+            "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만"
+            " 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다."
+        ),
         "records": get_md_count(VAULT, "Knowledge", "Records"),
         "sources": get_md_count(VAULT, "Knowledge", "Sources"),
         "topics": get_md_count(VAULT, "Knowledge", "Topics"),
-        "audit": "failed" if dangling else "passed",
+        "orgs": get_md_count(VAULT, "Knowledge", "Orgs"),
+        "audit": "failed" if dangling_generated else "passed",
         "last_generated": max(valid_mtimes, default=None),
     }
 
@@ -238,6 +261,8 @@ def main() -> None:
                     f'{graph["notes"]}개 노트 · '
                     f'{graph["links"]}개 링크 · '
                     f'끊어진 링크 {graph["dangling_links"]}개'
+                    + (f' · 개인 노트 {graph["dangling_personal"]}개 별도'
+                       if graph.get("dangling_personal") else '')
                 ),
             },
             {
