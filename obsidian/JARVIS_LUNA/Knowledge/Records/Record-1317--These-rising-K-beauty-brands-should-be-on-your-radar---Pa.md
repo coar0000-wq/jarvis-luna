@@ -1,0 +1,21 @@
+---
+title: "Record 1317 · These-rising-K-beauty-brands-should-be-on-your-radar---Page-Six"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-04T22:05:02.350807+00:00
+tags: [record, real-data]
+---
+
+# Record 1317 · These-rising-K-beauty-brands-should-be-on-your-radar---Page-Six
+
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdFB5OTE3UUgzbGlLaDBncTh2Q05NZUlwWnFoZTZPOWFGU0lMQTVoSXphUHJSOGVDZXZ2U1dQaWg1Qi11TlFfeUpqVWthNjBOUUgxTkw0UXhRc2hKLWF6dGxKRE05SEwyUDZaVnNvZkZtM0FCcGhLN01oQjJZd193SDcwMjZYZDZr?oc=5)
+
+**제목:** These rising K-beauty brands should be on your radar - Page Six
+
+These rising K-beauty brands should be on your radar - Page Six
+
+**출처:** Source · Google Search
+
+## Connected nodes
+
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

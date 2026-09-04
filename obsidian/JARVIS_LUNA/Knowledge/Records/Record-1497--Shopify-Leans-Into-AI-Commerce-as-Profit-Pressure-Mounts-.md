@@ -1,0 +1,21 @@
+---
+title: "Record 1497 · Shopify-Leans-Into-AI-Commerce-as-Profit-Pressure-Mounts---PYMNTScom"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-04T22:05:02.392475+00:00
+tags: [record, real-data]
+---
+
+# Record 1497 · Shopify-Leans-Into-AI-Commerce-as-Profit-Pressure-Mounts---PYMNTScom
+
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMioAFBVV95cUxPaVpKME5mSTFEb3JjNUFMRkVVWFRma25Gc1VBRjE1eXZRSlVIcUVPdGFrREVjdlNGYjZvQzI1THNtQ0NzbWdINEpsRXJBOUR6dExsVl9UWHlCTmg4N0NZcjdydmxHempQdVhNS0g3SEU5LXlOY0FMX1dUU2NZX2VUbHNfdTRTU2wtZEFqU1MwN0FMZXNULWZCa0hWZldDSzRP?oc=5)
+
+**제목:** Shopify Leans Into AI Commerce as Profit Pressure Mounts - PYMNTS.com
+
+Shopify Leans Into AI Commerce as Profit Pressure Mounts - PYMNTS.com
+
+**출처:** Source · Google Search
+
+## Connected nodes
+
+[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

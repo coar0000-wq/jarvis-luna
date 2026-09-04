@@ -2,7 +2,7 @@
 title: "Record 052 · Discriminative-World-Models-for-Web-Agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.031162+00:00
+updated_at: 2026-09-04T22:05:02.027438+00:00
 tags: [record, real-data]
 ---
 

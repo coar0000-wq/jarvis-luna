@@ -2,7 +2,7 @@
 title: "Record 187 · Crosslinking-Therapie-bei-ultradünnen-Hornhäuten-das-ELZA-sub400-Proto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.061762+00:00
+updated_at: 2026-09-04T22:05:02.066791+00:00
 tags: [record, real-data]
 ---
 

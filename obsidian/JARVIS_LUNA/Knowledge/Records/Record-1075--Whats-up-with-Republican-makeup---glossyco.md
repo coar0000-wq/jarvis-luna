@@ -1,0 +1,21 @@
+---
+title: "Record 1075 · Whats-up-with-Republican-makeup---glossyco"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-04T22:05:02.291745+00:00
+tags: [record, real-data]
+---
+
+# Record 1075 · Whats-up-with-Republican-makeup---glossyco
+
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibkFVX3lxTE4xd3BJTWlOLXN6ZHpzREd3OGNWUDlJb3hyUGkwbVhLcDVJQ2lrQXFlRHg5eGNpdmc2LWpBWG0zTFRZclJ2aGZOX2RzWk93LU5XSUFNTzNQaDNoMXJ5aDBXWDY3UEdxYXVCVVB0Y2pR?oc=5)
+
+**제목:** What’s up with ‘Republican makeup’? - glossy.co
+
+What’s up with ‘Republican makeup’? - glossy.co
+
+**출처:** Source · Google Search
+
+## Connected nodes
+
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T20:09:46.208608+00:00",
+  "generated_at": "2026-09-04T22:25:47.211991+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 연동은 사람이 승인한 뒤에 한다.",
   "판정기준": [
@@ -57,7 +57,7 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 25082,
+      "bytes": 25009,
       "items": 30,
       "samples": [
         "Is the Dyson Toothbrush Worth $499? We Asked 4 Dentists.",
@@ -85,12 +85,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 20986,
+      "bytes": 21462,
       "items": 40,
       "samples": [
-        "real madrid fc",
-        "Confirmed: Barcelona exceed €1 billion in revenue for 2025/26 – first time in history",
-        "FC Barcelona announcement"
+        "cubs vs marlins",
+        "On The Horizon: Cubs vs. Marlins series preview",
+        "Marlins Hope Home is Where Wins Are as Playoff Chase Continues"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름"

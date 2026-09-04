@@ -2,7 +2,7 @@
 title: "Record 511 · 2-Terminal-refresh-free-memory-for-high-density-and-low-power-consumpt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.128416+00:00
+updated_at: 2026-09-04T22:05:02.153651+00:00
 tags: [record, real-data]
 ---
 

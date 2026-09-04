@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T05:09:15.145958+09:00",
+  "generated_at": "2026-09-05T07:25:15.373070+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -12,7 +12,7 @@
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-09-04T19:48:16.428658+00:00",
+      "collected_at": "2026-09-04T22:04:45.954180+00:00",
       "keyword_pool": 40
     }
   },

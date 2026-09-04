@@ -2,7 +2,7 @@
 title: "Record 844 · Bringing-more-control-over-your-connectors"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.197624+00:00
+updated_at: 2026-09-04T22:05:02.239241+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 385 · Enabling-ImageNet-Scale-Deep-Learning-on-MCUs-for-Accurate-and-Efficie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.103590+00:00
+updated_at: 2026-09-04T22:05:02.120606+00:00
 tags: [record, real-data]
 ---
 

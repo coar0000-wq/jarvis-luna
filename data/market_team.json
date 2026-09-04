@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-05T05:09:15.094618+09:00",
+    "updated_at": "2026-09-05T07:25:15.327948+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -56,8 +56,8 @@
         "product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
         "brand": "lilyeve",
         "price_usd": 23.76,
-        "rating": 4.7,
-        "review_count": 6
+        "rating": 4.6,
+        "review_count": 7
       },
       {
         "rank": 5,
@@ -150,94 +150,94 @@
     ],
     "open_beauty_facts_top": [
       {
-        "product": "NIVEA Soft hydraterende créme 48u hydratatie",
+        "product": "Coconut Milk",
+        "brand": "Herbal Essences",
+        "category": "헤어케어",
+        "code": "8001090662231"
+      },
+      {
+        "product": "Huile extraordinaire",
+        "brand": "L'Oréal Paris, Elseve",
+        "category": "헤어케어",
+        "code": "3600522410874"
+      },
+      {
+        "product": "Huile extraordinaire",
+        "brand": "Elsrve",
+        "category": "헤어케어",
+        "code": "3600522215370"
+      },
+      {
+        "product": "Golden Moringa Oil Shampoo",
+        "brand": "Herbal Essences",
+        "category": "헤어케어",
+        "code": "8001090661999"
+      },
+      {
+        "product": "Herbel Essences Step 4",
+        "brand": "",
+        "category": "헤어케어",
+        "code": "8001090582133"
+      },
+      {
+        "product": "Cantu Shea Butter Shampoo",
+        "brand": "cantu shea butter",
+        "category": "헤어케어",
+        "code": "0817513015311"
+      },
+      {
+        "product": "Cantu Shea Butter Leave In Conditioning Repair Cream",
+        "brand": "Cantu",
+        "category": "헤어케어",
+        "code": "0856017000126"
+      },
+      {
+        "product": "L'huile merveilleuse aux huiles d'argan et de camelia",
+        "brand": "Garnier, Ultra Doux",
+        "category": "헤어케어",
+        "code": "3600541204638"
+      },
+      {
+        "product": "NIVEA Men sensitive douchegel 3-in-1",
         "brand": "NIVEA",
-        "category": "스킨케어",
-        "code": "4005900963499"
+        "category": "헤어케어",
+        "code": "4005808130573"
       },
       {
-        "product": "hand cream",
-        "brand": "Neutrogena",
-        "category": "스킨케어",
-        "code": "3574661685977"
+        "product": "Batiste Original Droogshampoo",
+        "brand": "Batiste",
+        "category": "헤어케어",
+        "code": "3331300062656"
       },
       {
-        "product": "Aveeno Baby Eczema Therapy",
-        "brand": "Aveeno",
-        "category": "스킨케어",
-        "code": "0381371018451"
+        "product": "Cantu Shea Butter Activator Cream",
+        "brand": "cantu",
+        "category": "헤어케어",
+        "code": "0817513010002"
       },
       {
-        "product": "BioCare Aloe Vera",
-        "brand": "BioCare",
-        "category": "스킨케어",
-        "code": "6297811169055"
+        "product": "Sébium gel mousse",
+        "brand": "Bioderma",
+        "category": "바디케어",
+        "code": "3401578653709"
       },
       {
-        "product": "Gluta hya dewy radicance",
-        "brand": "Vaseline",
-        "category": "스킨케어",
-        "code": "8901030957048"
+        "product": "Savon Liquide au Lait d'Amande",
+        "brand": "Taous",
+        "category": "바디케어",
+        "code": "6111024008928"
       },
       {
-        "product": "Healthy Feet Cream",
-        "brand": "O’Keefes",
-        "category": "스킨케어",
-        "code": "0722510026003"
+        "product": "Savonnettes extra douces Verveine Citron",
+        "brand": "Le Petit Olivier",
+        "category": "바디케어",
+        "code": "3549620005028"
       },
       {
-        "product": "Masque Purifiant Naturel à L'Argile Verte.",
-        "brand": "Argile, Juvaflorine",
-        "category": "마스크팩",
-        "code": "3160920402005"
-      },
-      {
-        "product": "Garnier SkinActive Pure Charcoal Tissuemasker",
-        "brand": "Garnier, Garnier SkinActive",
-        "category": "마스크팩",
-        "code": "3600542097024"
-      },
-      {
-        "product": "Masque crème hydratant",
-        "brand": "Caudalie",
-        "category": "마스크팩",
-        "code": "3522932031787"
-      },
-      {
-        "product": "Sebum Control Masque purifiant charbon végétal façon crème fouettée",
-        "brand": "Bioré",
-        "category": "마스크팩",
-        "code": "5017634256739"
-      },
-      {
-        "product": "Polishing Charcoal + Black Sugar Gel Mask + Scrub",
-        "brand": "Freeman",
-        "category": "마스크팩",
-        "code": "0072151421119"
-      },
-      {
-        "product": "Le masque de pureté nettoyant",
-        "brand": "La Provençale",
-        "category": "마스크팩",
-        "code": "3600550972153"
-      },
-      {
-        "product": "1 Masque Anti-Rides Bio-Cellulose",
-        "brand": "Barbara Gould",
-        "category": "마스크팩",
-        "code": "3331300096460"
-      },
-      {
-        "product": "Pâte d'argile",
-        "brand": "Copar, Laboratoires Biocos, Lovea, Lovea Nature",
-        "category": "마스크팩",
-        "code": "3329310012495"
-      },
-      {
-        "product": "SOHO N.Y.C. Anti-Aging No Rinse 2in1 Face Serum + Mask",
-        "brand": "SOHO N.Y.C",
-        "category": "마스크팩",
-        "code": "8683420170045"
+        "product": "savon doux végétale au lait d'ânesse",
+        "brand": "labell",
+        "category": "바디케어",
+        "code": "3250393212635"
       }
     ],
     "alt_us_channels_top": [
@@ -1117,78 +1117,6 @@
   ],
   "competitor_watch": [
     {
-      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-      "brand": "MEDIHEAL",
-      "price_usd": 20.99,
-      "rating": 4.8,
-      "review_count": 1071,
-      "us_rank": 2,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA48723304",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-      "brand": "UNOVE",
-      "price_usd": 24.7,
-      "rating": 5,
-      "review_count": 3,
-      "us_rank": 11,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 11위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA39329211",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Biodance Hydro Cera-nol Real Deep Mask 4ct 1.19 oz.(34g)",
-      "brand": "Biodance",
-      "price_usd": 19.0,
-      "rating": 4.7,
-      "review_count": 3,
-      "us_rank": 43,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 43위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA49579943",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-      "brand": "AESTURA",
-      "price_usd": 32.0,
-      "rating": 5,
-      "review_count": 2,
-      "us_rank": 3,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA71026007",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-      "brand": "lilyeve",
-      "price_usd": 23.76,
-      "rating": 4.7,
-      "review_count": 6,
-      "us_rank": 4,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA98417491",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-      "brand": "Dr.Althea",
-      "price_usd": 27.0,
-      "rating": 4.8,
-      "review_count": 1624,
-      "us_rank": 5,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA73639757",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
       "name": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
       "brand": "ROUND LAB",
       "price_usd": 22.49,
@@ -1222,6 +1150,78 @@
       "daiso_bucket": "클렌징",
       "why": "us.oliveyoung.com/best-sellers 실수집 23위 · 클렌징 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA34557979",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+      "brand": "AESTURA",
+      "price_usd": 32.0,
+      "rating": 5,
+      "review_count": 2,
+      "us_rank": 3,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA71026007",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+      "brand": "lilyeve",
+      "price_usd": 23.76,
+      "rating": 4.6,
+      "review_count": 7,
+      "us_rank": 4,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA98417491",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+      "brand": "Dr.Althea",
+      "price_usd": 27.0,
+      "rating": 4.8,
+      "review_count": 1624,
+      "us_rank": 5,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA73639757",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+      "brand": "MEDIHEAL",
+      "price_usd": 20.99,
+      "rating": 4.8,
+      "review_count": 1071,
+      "us_rank": 2,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA48723304",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
+      "brand": "UNOVE",
+      "price_usd": 24.7,
+      "rating": 5,
+      "review_count": 3,
+      "us_rank": 11,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 11위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA39329211",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Biodance Hydro Cera-nol Real Deep Mask 4ct 1.19 oz.(34g)",
+      "brand": "Biodance",
+      "price_usd": 19.0,
+      "rating": 4.7,
+      "review_count": 3,
+      "us_rank": 43,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 43위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA49579943",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],

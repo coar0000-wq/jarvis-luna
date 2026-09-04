@@ -2,7 +2,7 @@
 title: "Record 922 · Should-K-beauty-products-have-to-come-from-South-Korea---BBC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.212577+00:00
+updated_at: 2026-09-04T22:05:02.257411+00:00
 tags: [record, real-data]
 ---
 

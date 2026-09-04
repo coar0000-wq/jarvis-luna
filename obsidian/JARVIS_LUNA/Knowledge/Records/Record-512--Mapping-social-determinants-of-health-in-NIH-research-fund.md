@@ -2,7 +2,7 @@
 title: "Record 512 · Mapping-social-determinants-of-health-in-NIH-research-funding-with-lar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.128606+00:00
+updated_at: 2026-09-04T22:05:02.153921+00:00
 tags: [record, real-data]
 ---
 

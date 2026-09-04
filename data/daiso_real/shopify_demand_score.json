@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T20:09:14.953947+00:00",
+  "generated_at": "2026-09-04T22:25:15.199401+00:00",
   "total_products": 164,
   "grade_summary": {
     "S": 13,
@@ -36,7 +36,7 @@
     "wikipedia_interest"
   ],
   "global_demand_signals": 117,
-  "products_with_global_match": 48,
+  "products_with_global_match": 50,
   "priority_note": "한영 매핑 기반 글로벌 8채널 유사도 점수. S/A를 Shopify 우선 후보로 사용.",
   "scoring_model": {
     "logic": "kr_en_lexicon_similarity",
@@ -2025,56 +2025,6 @@
       "s_rank": 10
     },
     {
-      "pd_no": "58600",
-      "name": "과일나라 마이시크릿아이템 아르간오일 핸드크림 60 g",
-      "bucket": "스킨케어",
-      "price_krw": 1000,
-      "rating": 4.8,
-      "review_count": 672,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=58600",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260625/7L8E1oVByPuC54VKaVpv58600_00_007L8E1oVByPuC54VKaVpv.jpg",
-      "shopify_score": 89,
-      "grade": "A",
-      "us_market_hits": 14,
-      "us_median_price_usd": 25.2,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 13.3,
-        "reviews": 17.1,
-        "price": 7.0,
-        "keyword": 2,
-        "us_market_fit": 25.0,
-        "global_similarity_reference_only": 10,
-        "penalty": 0,
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
-      "best_global_match": {
-        "channel": "open_beauty_facts",
-        "global_product": "hand cream",
-        "similarity": 0.8,
-        "demand_weight": 0.57,
-        "matched_tokens": [
-          "handcream"
-        ],
-        "match_score": 0.456
-      },
-      "global_matches": [
-        {
-          "channel": "open_beauty_facts",
-          "global_product": "hand cream",
-          "similarity": 0.8,
-          "demand_weight": 0.57,
-          "matched_tokens": [
-            "handcream"
-          ],
-          "match_score": 0.456
-        }
-      ],
-      "recommend_reason": "글로벌 'hand cream' (open_beauty_facts) 유사 80% · 토큰 handcream",
-      "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림"
-    },
-    {
       "pd_no": "1070006",
       "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
       "bucket": "스킨케어",
@@ -2143,6 +2093,35 @@
       ],
       "recommend_reason": "글로벌 '베터 스크린 UV 세럼 SPF 50+' (sephora) 유사 40% · 토큰 serum",
       "s_rank": 9
+    },
+    {
+      "pd_no": "58600",
+      "name": "과일나라 마이시크릿아이템 아르간오일 핸드크림 60 g",
+      "bucket": "스킨케어",
+      "price_krw": 1000,
+      "rating": 4.8,
+      "review_count": 672,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=58600",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260625/7L8E1oVByPuC54VKaVpv58600_00_007L8E1oVByPuC54VKaVpv.jpg",
+      "shopify_score": 89,
+      "grade": "A",
+      "us_market_hits": 14,
+      "us_median_price_usd": 25.2,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 13.3,
+        "reviews": 17.1,
+        "price": 7.0,
+        "keyword": 2,
+        "us_market_fit": 25.0,
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 672건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1032881",
@@ -2749,6 +2728,16 @@
             "essence"
           ],
           "match_score": 0.528
+        },
+        {
+          "channel": "open_beauty_facts",
+          "global_product": "Coconut Milk",
+          "similarity": 0.7,
+          "demand_weight": 0.6,
+          "matched_tokens": [
+            "essence"
+          ],
+          "match_score": 0.42
         }
       ],
       "recommend_reason": "글로벌 'COSRX Advanced Snail 96 Mucin Essence' (tiktok_shop_us) 유사 70% · 토큰 essence",
@@ -3587,14 +3576,54 @@
         "price": 10.0,
         "keyword": 3,
         "us_market_fit": 0.0,
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 720건 (글로벌 시그널 약함)"
+      "best_global_match": {
+        "channel": "open_beauty_facts",
+        "global_product": "Golden Moringa Oil Shampoo",
+        "similarity": 0.8,
+        "demand_weight": 0.54,
+        "matched_tokens": [
+          "shampoo"
+        ],
+        "match_score": 0.432
+      },
+      "global_matches": [
+        {
+          "channel": "open_beauty_facts",
+          "global_product": "Golden Moringa Oil Shampoo",
+          "similarity": 0.8,
+          "demand_weight": 0.54,
+          "matched_tokens": [
+            "shampoo"
+          ],
+          "match_score": 0.432
+        },
+        {
+          "channel": "open_beauty_facts",
+          "global_product": "Cantu Shea Butter Shampoo",
+          "similarity": 0.82,
+          "demand_weight": 0.48,
+          "matched_tokens": [
+            "shampoo"
+          ],
+          "match_score": 0.394
+        },
+        {
+          "channel": "open_beauty_facts",
+          "global_product": "Batiste Original Droogshampoo",
+          "similarity": 0.82,
+          "demand_weight": 0.36,
+          "matched_tokens": [
+            "shampoo"
+          ],
+          "match_score": 0.295
+        }
+      ],
+      "recommend_reason": "글로벌 'Golden Moringa Oil Shampoo' (open_beauty_facts) 유사 80% · 토큰 shampoo"
     },
     {
       "pd_no": "49057",
@@ -3682,6 +3711,75 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 2,025건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1053844",
+      "name": "[펫] 휘슬 허브4 약용샴푸 500ml",
+      "bucket": "헤어케어",
+      "price_krw": 5000,
+      "rating": 4.9,
+      "review_count": 193,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053844",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240718/UX3CRA45vP5k3ztPvqBP1053844_00_00UX3CRA45vP5k3ztPvqBP.jpg",
+      "shopify_score": 60,
+      "grade": "B",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 17.9,
+        "rating": 15.0,
+        "reviews": 13.9,
+        "price": 10.0,
+        "keyword": 3,
+        "us_market_fit": 0.0,
+        "global_similarity_reference_only": 11,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": {
+        "channel": "open_beauty_facts",
+        "global_product": "Golden Moringa Oil Shampoo",
+        "similarity": 0.8,
+        "demand_weight": 0.54,
+        "matched_tokens": [
+          "shampoo"
+        ],
+        "match_score": 0.432
+      },
+      "global_matches": [
+        {
+          "channel": "open_beauty_facts",
+          "global_product": "Golden Moringa Oil Shampoo",
+          "similarity": 0.8,
+          "demand_weight": 0.54,
+          "matched_tokens": [
+            "shampoo"
+          ],
+          "match_score": 0.432
+        },
+        {
+          "channel": "open_beauty_facts",
+          "global_product": "Cantu Shea Butter Shampoo",
+          "similarity": 0.82,
+          "demand_weight": 0.48,
+          "matched_tokens": [
+            "shampoo"
+          ],
+          "match_score": 0.394
+        },
+        {
+          "channel": "open_beauty_facts",
+          "global_product": "Batiste Original Droogshampoo",
+          "similarity": 0.82,
+          "demand_weight": 0.36,
+          "matched_tokens": [
+            "shampoo"
+          ],
+          "match_score": 0.295
+        }
+      ],
+      "recommend_reason": "글로벌 'Golden Moringa Oil Shampoo' (open_beauty_facts) 유사 80% · 토큰 shampoo"
     },
     {
       "pd_no": "1067977",
@@ -3809,35 +3907,6 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 1,259건 (글로벌 시그널 약함)"
-    },
-    {
-      "pd_no": "1053844",
-      "name": "[펫] 휘슬 허브4 약용샴푸 500ml",
-      "bucket": "헤어케어",
-      "price_krw": 5000,
-      "rating": 4.9,
-      "review_count": 193,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053844",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240718/UX3CRA45vP5k3ztPvqBP1053844_00_00UX3CRA45vP5k3ztPvqBP.jpg",
-      "shopify_score": 60,
-      "grade": "B",
-      "us_market_hits": 0,
-      "us_median_price_usd": 0.0,
-      "score_breakdown": {
-        "category": 17.9,
-        "rating": 15.0,
-        "reviews": 13.9,
-        "price": 10.0,
-        "keyword": 3,
-        "us_market_fit": 0.0,
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "헤어케어 카테고리 · 평점 4.9 · 리뷰 193건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1023480",
@@ -4707,6 +4776,75 @@
       "recommend_reason": "맨즈케어 카테고리 · 평점 4.8 · 리뷰 210건 (글로벌 시그널 약함)"
     },
     {
+      "pd_no": "1035069",
+      "name": "더마앤모어 AHA 쿨링 비듬케어 샴푸 60ml",
+      "bucket": "헤어케어",
+      "price_krw": 1000,
+      "rating": 4.7,
+      "review_count": 143,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035069",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231130/7MVVgIubXyUincctQr451035069_00_007MVVgIubXyUincctQr45.jpg",
+      "shopify_score": 53,
+      "grade": "C",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 17.9,
+        "rating": 11.7,
+        "reviews": 13.1,
+        "price": 7.0,
+        "keyword": 3,
+        "us_market_fit": 0.0,
+        "global_similarity_reference_only": 11,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": {
+        "channel": "open_beauty_facts",
+        "global_product": "Golden Moringa Oil Shampoo",
+        "similarity": 0.8,
+        "demand_weight": 0.54,
+        "matched_tokens": [
+          "shampoo"
+        ],
+        "match_score": 0.432
+      },
+      "global_matches": [
+        {
+          "channel": "open_beauty_facts",
+          "global_product": "Golden Moringa Oil Shampoo",
+          "similarity": 0.8,
+          "demand_weight": 0.54,
+          "matched_tokens": [
+            "shampoo"
+          ],
+          "match_score": 0.432
+        },
+        {
+          "channel": "open_beauty_facts",
+          "global_product": "Cantu Shea Butter Shampoo",
+          "similarity": 0.82,
+          "demand_weight": 0.48,
+          "matched_tokens": [
+            "shampoo"
+          ],
+          "match_score": 0.394
+        },
+        {
+          "channel": "open_beauty_facts",
+          "global_product": "Batiste Original Droogshampoo",
+          "similarity": 0.82,
+          "demand_weight": 0.36,
+          "matched_tokens": [
+            "shampoo"
+          ],
+          "match_score": 0.295
+        }
+      ],
+      "recommend_reason": "글로벌 'Golden Moringa Oil Shampoo' (open_beauty_facts) 유사 80% · 토큰 shampoo"
+    },
+    {
       "pd_no": "1073585",
       "name": "맥세이프 호환용 케이스 갤럭시 Z플립7",
       "bucket": "메이크업",
@@ -5008,35 +5146,6 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "메이크업 카테고리 · 평점 4.6 · 리뷰 173건 (글로벌 시그널 약함)"
-    },
-    {
-      "pd_no": "1035069",
-      "name": "더마앤모어 AHA 쿨링 비듬케어 샴푸 60ml",
-      "bucket": "헤어케어",
-      "price_krw": 1000,
-      "rating": 4.7,
-      "review_count": 143,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035069",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231130/7MVVgIubXyUincctQr451035069_00_007MVVgIubXyUincctQr45.jpg",
-      "shopify_score": 53,
-      "grade": "C",
-      "us_market_hits": 0,
-      "us_median_price_usd": 0.0,
-      "score_breakdown": {
-        "category": 17.9,
-        "rating": 11.7,
-        "reviews": 13.1,
-        "price": 7.0,
-        "keyword": 3,
-        "us_market_fit": 0.0,
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "헤어케어 카테고리 · 평점 4.7 · 리뷰 143건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1060532",

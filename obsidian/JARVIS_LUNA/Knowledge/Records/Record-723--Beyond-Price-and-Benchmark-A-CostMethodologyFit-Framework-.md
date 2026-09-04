@@ -2,7 +2,7 @@
 title: "Record 723 · Beyond-Price-and-Benchmark-A-CostMethodologyFit-Framework-for-Selectin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.171293+00:00
+updated_at: 2026-09-04T22:05:02.207942+00:00
 tags: [record, real-data]
 ---
 

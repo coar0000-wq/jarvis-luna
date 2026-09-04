@@ -2,7 +2,7 @@
 title: "Record 190 · Laundering-induced-property-changes-in-virgin-and-recycled-polyester-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.062378+00:00
+updated_at: 2026-09-04T22:05:02.067599+00:00
 tags: [record, real-data]
 ---
 

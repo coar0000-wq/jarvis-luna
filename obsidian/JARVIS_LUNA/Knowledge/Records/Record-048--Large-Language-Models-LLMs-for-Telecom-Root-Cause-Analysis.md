@@ -2,7 +2,7 @@
 title: "Record 048 · Large-Language-Models-LLMs-for-Telecom-Root-Cause-Analysis-RCA-A-Struc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.030414+00:00
+updated_at: 2026-09-04T22:05:02.026425+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 928 · Mung-Bean-Is-the-Barrier-Friendly-Ingredient-K-Beauty-Has-Loved-for-Ce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.213712+00:00
+updated_at: 2026-09-04T22:05:02.258688+00:00
 tags: [record, real-data]
 ---
 

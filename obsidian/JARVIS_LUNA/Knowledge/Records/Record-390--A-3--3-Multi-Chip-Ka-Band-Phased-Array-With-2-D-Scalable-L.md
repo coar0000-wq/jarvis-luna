@@ -2,7 +2,7 @@
 title: "Record 390 · A-3--3-Multi-Chip-Ka-Band-Phased-Array-With-2-D-Scalable-LO-Distributi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.104586+00:00
+updated_at: 2026-09-04T22:05:02.121936+00:00
 tags: [record, real-data]
 ---
 

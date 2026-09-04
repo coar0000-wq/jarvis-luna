@@ -2,7 +2,7 @@
 title: "Record 538 · Insiderrechtliche-Praxisfragen-bei-der-Emission-von-Anleihen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.133924+00:00
+updated_at: 2026-09-04T22:05:02.160883+00:00
 tags: [record, real-data]
 ---
 

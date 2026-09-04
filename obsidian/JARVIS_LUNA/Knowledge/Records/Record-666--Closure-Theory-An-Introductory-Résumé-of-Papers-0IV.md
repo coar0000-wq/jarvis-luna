@@ -2,7 +2,7 @@
 title: "Record 666 · Closure-Theory-An-Introductory-Résumé-of-Papers-0IV"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.159784+00:00
+updated_at: 2026-09-04T22:05:02.194485+00:00
 tags: [record, real-data]
 ---
 

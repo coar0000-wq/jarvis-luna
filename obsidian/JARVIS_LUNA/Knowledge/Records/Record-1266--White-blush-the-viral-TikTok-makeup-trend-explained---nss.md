@@ -1,0 +1,21 @@
+---
+title: "Record 1266 · White-blush-the-viral-TikTok-makeup-trend-explained---nss-magazine"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-04T22:05:02.338959+00:00
+tags: [record, real-data]
+---
+
+# Record 1266 · White-blush-the-viral-TikTok-makeup-trend-explained---nss-magazine
+
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiggFBVV95cUxQb3VTd0lXdjlfRkx5NUdYeWRST1U3cWE4S0xCbk05Z0xTMmVzTWZtTWo2bGR3ZXJsSE1XNEc5SzlMSmQtdThYUmtMN2hRa3pwZDRBZ2tkZFVnb0pjdk1MV01IekcxYkRsZkp2MVdPS0hNb3k2dllpMXBYLUM0MFJiSlZ3?oc=5)
+
+**제목:** White blush: the viral TikTok makeup trend explained - nss magazine
+
+White blush: the viral TikTok makeup trend explained - nss magazine
+
+**출처:** Source · Google Search
+
+## Connected nodes
+
+[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

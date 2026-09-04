@@ -2,7 +2,7 @@
 title: "Record 575 · Deep-Learning-Based-Safety-Legislation-Recommendation-System-for-Const"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.141518+00:00
+updated_at: 2026-09-04T22:05:02.170886+00:00
 tags: [record, real-data]
 ---
 

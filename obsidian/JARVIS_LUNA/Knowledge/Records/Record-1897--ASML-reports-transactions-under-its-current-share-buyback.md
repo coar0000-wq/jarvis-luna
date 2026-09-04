@@ -2,13 +2,13 @@
 title: "Record 1897 · ASML-reports-transactions-under-its-current-share-buyback-program"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.405355+00:00
+updated_at: 2026-09-04T22:05:02.489643+00:00
 tags: [record, real-data]
 ---
 
 # Record 1897 · ASML-reports-transactions-under-its-current-share-buyback-program
 
-> 실제 수집 레코드입니다. 원문: [www.asml.com](https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-31)
+> 실제 수집 레코드입니다. 원문: [www.asml.com](https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-27)
 
 **제목:** ASML reports transactions under its current share buyback program
 

@@ -2,7 +2,7 @@
 title: "Record 134 · From-Atari-to-EVE-Online-Building-on-15-Years-of-AI-Research-in-Games"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.050693+00:00
+updated_at: 2026-09-04T22:05:02.052253+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 696 · Fine-Tuning-Fragility"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.165545+00:00
+updated_at: 2026-09-04T22:05:02.201317+00:00
 tags: [record, real-data]
 ---
 

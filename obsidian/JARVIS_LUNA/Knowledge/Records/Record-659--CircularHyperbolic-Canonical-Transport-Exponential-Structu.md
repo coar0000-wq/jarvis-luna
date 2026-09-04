@@ -2,7 +2,7 @@
 title: "Record 659 · CircularHyperbolic-Canonical-Transport-Exponential-Structure-Frame-Rot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.158434+00:00
+updated_at: 2026-09-04T22:05:02.192857+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 470 · Moderate-and-Useful-The-Performance-of-Quality-Factor-in-Chinese-Marke"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.120400+00:00
+updated_at: 2026-09-04T22:05:02.142914+00:00
 tags: [record, real-data]
 ---
 

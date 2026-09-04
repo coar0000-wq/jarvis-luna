@@ -2,7 +2,7 @@
 title: "Record 663 · The-Oriented-Completed-Intrinsic-Closure-Elimination-as-a-Candidate-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.159205+00:00
+updated_at: 2026-09-04T22:05:02.193766+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-04T19:47:40.162110+00:00",
+  "collected_at": "2026-09-04T22:02:43.930853+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-04T19:46:48.388523+00:00"
+      "collected_at": "2026-09-04T22:01:38.510165+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-04T19:47:21.923611+00:00"
+      "collected_at": "2026-09-04T22:02:14.290981+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-04T19:47:40.161004+00:00"
+      "collected_at": "2026-09-04T22:02:43.929875+00:00"
     }
   },
   "not_collected": {
@@ -2308,6 +2308,19 @@
       "title_source": "feed"
     },
     {
+      "title": "Five ways marketers can use Genie One",
+      "url": "https://www.databricks.com/blog/five-ways-marketers-can-use-genie-one",
+      "date": "2026-09-04",
+      "date_raw": "Fri, 04 Sep 2026 19:00:00 GMT",
+      "summary": "Every marketing team sits on a goldmine of data: campaign performance metrics, customer...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "Governance beyond security: knowledge, context & ontology on the lakehouse",
       "url": "https://www.databricks.com/blog/governance-beyond-security-knowledge-context-ontology-lakehouse",
       "date": "2026-09-03",
@@ -2404,19 +2417,6 @@
       "date": "2026-09-01",
       "date_raw": "Tue, 01 Sep 2026 19:43:51 GMT",
       "summary": "Databricks engineers rely heavily on AI agents to streamline and accelerate their work. In turn...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Collaboration makes us all stronger",
-      "url": "https://www.databricks.com/blog/collaboration-makes-us-all-stronger",
-      "date": "2026-09-01",
-      "date_raw": "Tue, 01 Sep 2026 19:00:00 GMT",
-      "summary": "The best security bugs come with a good storySome of our best security investments haven't been tools or scanners...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",
@@ -4115,6 +4115,32 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
+      "url": "https://www.jpmorgan.com/insights/payments/embedded-finance-baas/unum-insurance-payments-concourse",
+      "date": "2026-09-04",
+      "date_raw": "2026-09-04",
+      "title_source": "url-slug",
+      "title": "Unum Insurance Payments Concourse",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/tech-equity-capital-markets",
+      "date": "2026-09-04",
+      "date_raw": "2026-09-04",
+      "title_source": "url-slug",
+      "title": "Tech Equity Capital Markets",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
       "url": "https://www.jpmorgan.com/insights/banking/executing-on-a-100-year-vision-jpmorgan-and-pluspetrol",
       "date": "2026-09-03",
       "date_raw": "2026-09-03",
@@ -4341,32 +4367,6 @@
       "date_raw": "2026-09-03",
       "title_source": "url-slug",
       "title": "Commodities In The New Geopolitical Age",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-sponsors-global-credit-markets",
-      "date": "2026-09-03",
-      "date_raw": "2026-09-03",
-      "title_source": "url-slug",
-      "title": "Financial Sponsors Global Credit Markets",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/innovate-to-simplify-structuring-for-modern-markets",
-      "date": "2026-09-02",
-      "date_raw": "2026-09-02",
-      "title_source": "url-slug",
-      "title": "Innovate To Simplify Structuring For Modern Markets",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",

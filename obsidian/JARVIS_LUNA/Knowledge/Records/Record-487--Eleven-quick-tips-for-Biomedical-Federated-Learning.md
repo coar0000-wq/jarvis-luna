@@ -2,7 +2,7 @@
 title: "Record 487 · Eleven-quick-tips-for-Biomedical-Federated-Learning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.123714+00:00
+updated_at: 2026-09-04T22:05:02.147376+00:00
 tags: [record, real-data]
 ---
 

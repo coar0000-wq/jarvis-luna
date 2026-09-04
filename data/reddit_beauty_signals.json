@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-04T19:48:16.428658+00:00",
+  "collected_at": "2026-09-04T22:04:45.954180+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -49,11 +49,11 @@
     },
     {
       "keyword": "september",
-      "score": 5
+      "score": 6
     },
     {
       "keyword": "2026",
-      "score": 5
+      "score": 6
     },
     {
       "keyword": "routine",
@@ -61,6 +61,14 @@
     },
     {
       "keyword": "one",
+      "score": 3
+    },
+    {
+      "keyword": "anything",
+      "score": 3
+    },
+    {
+      "keyword": "goes",
       "score": 3
     },
     {
@@ -92,10 +100,6 @@
       "score": 2
     },
     {
-      "keyword": "koreans",
-      "score": 2
-    },
-    {
       "keyword": "look",
       "score": 2
     },
@@ -124,14 +128,6 @@
       "score": 2
     },
     {
-      "keyword": "anything",
-      "score": 2
-    },
-    {
-      "keyword": "goes",
-      "score": 2
-    },
-    {
       "keyword": "thursday",
       "score": 2
     },
@@ -154,26 +150,6 @@
     {
       "keyword": "cleanser",
       "score": 2
-    },
-    {
-      "keyword": "actual",
-      "score": 1
-    },
-    {
-      "keyword": "use",
-      "score": 1
-    },
-    {
-      "keyword": "kiss",
-      "score": 1
-    },
-    {
-      "keyword": "heroine",
-      "score": 1
-    },
-    {
-      "keyword": "mascara",
-      "score": 1
     },
     {
       "keyword": "new",
@@ -202,6 +178,30 @@
     {
       "keyword": "medium",
       "score": 1
+    },
+    {
+      "keyword": "contrast",
+      "score": 1
+    },
+    {
+      "keyword": "muted",
+      "score": 1
+    },
+    {
+      "keyword": "people",
+      "score": 1
+    },
+    {
+      "keyword": "kiss",
+      "score": 1
+    },
+    {
+      "keyword": "heroine",
+      "score": 1
+    },
+    {
+      "keyword": "mascara",
+      "score": 1
     }
   ],
   "beauty_keywords": [
@@ -212,10 +212,6 @@
     {
       "keyword": "routine",
       "score": 4
-    },
-    {
-      "keyword": "koreans",
-      "score": 2
     },
     {
       "keyword": "skincare",
@@ -250,9 +246,9 @@
       "feed": "hot"
     },
     {
-      "title": "What “actual Koreans”use",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7dimn/what_actual_koreansuse/",
-      "published": "2026-09-04T19:01:56+00:00",
+      "title": "New Ricky Beauty Lipliners: love the look of this one for low to medium contrast, muted people.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w79w2j/new_ricky_beauty_lipliners_love_the_look_of_this/",
+      "published": "2026-09-04T16:52:12+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -260,13 +256,6 @@
       "title": "Kiss Me Heroine Mascara",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w6dcwc/kiss_me_heroine_mascara/",
       "published": "2026-09-03T17:06:15+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "New Ricky Beauty Lipliners: love the look of this one for low to medium contrast, muted people.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w79w2j/new_ricky_beauty_lipliners_love_the_look_of_this/",
-      "published": "2026-09-04T16:52:12+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -281,6 +270,13 @@
       "title": "Yesstyle package detained?!",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w6pkk1/yesstyle_package_detained/",
       "published": "2026-09-04T00:48:58+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Anything Goes Friday: September 04, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7g6d3/anything_goes_friday_september_04_2026/",
+      "published": "2026-09-04T20:39:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },

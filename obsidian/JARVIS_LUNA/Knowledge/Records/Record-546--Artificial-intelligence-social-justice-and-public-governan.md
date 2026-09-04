@@ -2,7 +2,7 @@
 title: "Record 546 · Artificial-intelligence-social-justice-and-public-governance-perspecti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T19:49:04.135584+00:00
+updated_at: 2026-09-04T22:05:02.163106+00:00
 tags: [record, real-data]
 ---
 
