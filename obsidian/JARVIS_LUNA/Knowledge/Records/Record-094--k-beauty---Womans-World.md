@@ -2,7 +2,7 @@
 title: "Record 094 · k-beauty---Womans-World"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:53:29.276703+00:00
+updated_at: 2026-09-04T05:39:21.861538+00:00
 tags: [{', '.join(tags)}]
 ---
 

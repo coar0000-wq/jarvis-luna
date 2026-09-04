@@ -2,7 +2,7 @@
 title: "Record 102 · What-Is-Eyemaxxing-The-Viral-Makeup-Trend-Taking-Over-TikTok---paradec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:53:29.277118+00:00
+updated_at: 2026-09-04T05:39:21.862050+00:00
 tags: [{', '.join(tags)}]
 ---
 

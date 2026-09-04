@@ -1,0 +1,17 @@
+{
+  "status": "skipped",
+  "reason": "GOOGLE_CSE_API_KEY 또는 GOOGLE_CSE_ID 없음",
+  "collected_at": "2026-09-04T05:39:07.059254+00:00",
+  "queries": [
+    "K-beauty sunscreen",
+    "heartleaf toner",
+    "snail mucin",
+    "Korean sheet mask",
+    "collagen mask",
+    "mineral SPF",
+    "centella serum",
+    "Daiso beauty"
+  ],
+  "results": [],
+  "note": "Secrets에 키를 넣으면 다음 실행부터 수집됩니다."
+}

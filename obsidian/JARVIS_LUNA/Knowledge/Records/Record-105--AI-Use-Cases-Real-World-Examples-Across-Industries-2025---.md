@@ -2,7 +2,7 @@
 title: "Record 105 · AI-Use-Cases-Real-World-Examples-Across-Industries-2025---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T04:53:29.277308+00:00
+updated_at: 2026-09-04T05:39:21.862253+00:00
 tags: [{', '.join(tags)}]
 ---
 

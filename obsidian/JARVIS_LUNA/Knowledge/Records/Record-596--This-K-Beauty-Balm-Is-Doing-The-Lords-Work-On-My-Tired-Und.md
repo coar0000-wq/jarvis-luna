@@ -2,17 +2,17 @@
 title: "Record 596 · This-K-Beauty-Balm-Is-Doing-The-Lords-Work-On-My-Tired-Under-Eyes--And"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T17:27:40.352797+00:00
+updated_at: 2026-09-04T05:39:21.910723+00:00
 tags: [{', '.join(tags)}]
 ---
 
 # Record 596 · This-K-Beauty-Balm-Is-Doing-The-Lords-Work-On-My-Tired-Under-Eyes--And
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimgFBVV95cUxQX1JidEVaQ0YwSk9ydjY0SS04dEE2eWFWYWg3OExETjhDMDFXOXd3NXl3LXQ4YkFHSFpCRGFOWnA4dTJ4Z2VWM1RSZTZfN0o2Yks5U3NRMDBQcklFR09QNHNOMXJKaFFydUFqRjVtUGJMTjhIelBYN3dxY3NVTlhFbnd1THlIZ3VtOHRBdUNFUVNKdTFWNm14QnB30gGfAUFVX3lxTE5XRFhDZFVOVXFfTzFvZnlTY0lIcFhDOW9kbEk5azRpTlhvcE9Cd1ZVZ2p0UU9rVTBTUm9qZzNmTzFpV0MwaUkyaDd1WEQ4M3NlRGlWREswSTgxWHE5ZmdZZ25fSHNqMU91ZTVVSkQ0cmJhN0pQS3RLdjhjd2ZvRXVOOC1HR2c1M2lPZFRhd3ppczY3S2hnUFBrQmdLaTJCNA?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilgFBVV95cUxNRWFnM1h1cklpOXA1b2JSb0FqYjcwaEVRclo4NmFaYUJVRWJWQi1hb2xGQ1RlaTl4TnJfZlM0aU1xMmtCZmtsX3lUN3hPYlN1YUdOZ19GczBBcWJLSm1tMHFWc0picjNUbjdobmtZRTZvWVU3NnVmc2R4bWZIbWF5NENndE9Ic2l5ZG5CVlJxam96Y3pocmc?oc=5)
 
-**제목:** This K-Beauty Balm Is Doing The Lord’s Work On My Tired Under-Eyes — And It's Less Than $15 - HuffPost
+**제목:** This K-Beauty Balm Is Doing The Lord’s Work On My Tired Under-Eyes — And It's Less Than $15 - Yahoo
 
-This K-Beauty Balm Is Doing The Lord’s Work On My Tired Under-Eyes — And It's Less Than $15 - HuffPost
+This K-Beauty Balm Is Doing The Lord’s Work On My Tired Under-Eyes — And It's Less Than $15 - Yahoo
 
 **출처:** Source · Google Search
 
