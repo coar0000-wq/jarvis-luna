@@ -33,8 +33,8 @@ CATEGORY_BASE = {
     "클렌징": 34,
     "메이크업": 32,
     "헤어케어": 30,
+    "바디케어": 34,  # 바디샴푸·바디워시·바디로션 포함 (쇼피파이 수요 높음)
     "맨즈케어": 28,
-    "바디케어": 26,
     "향수": 22,
     "네일": 16,
     "뷰티소품": 14,
@@ -131,6 +131,28 @@ LEXICON: list[tuple[str, str]] = [
     ("shampoo", "shampoo"),
     ("트리트먼트", "treatment"),
     ("treatment", "treatment"),
+    # 바디케어 (바디샴푸·워시 포함 — S등급 후보로 유지)
+    ("바디샴푸", "bodywash"),
+    ("바디 샴푸", "bodywash"),
+    ("바디워시", "bodywash"),
+    ("바디 워시", "bodywash"),
+    ("body wash", "bodywash"),
+    ("bodywash", "bodywash"),
+    ("body shampoo", "bodywash"),
+    ("샤워젤", "bodywash"),
+    ("샤워 젤", "bodywash"),
+    ("shower gel", "bodywash"),
+    ("바디로션", "bodylotion"),
+    ("바디 로션", "bodylotion"),
+    ("body lotion", "bodylotion"),
+    ("bodylotion", "bodylotion"),
+    ("바디크림", "bodylotion"),
+    ("바디 크림", "bodylotion"),
+    ("body cream", "bodylotion"),
+    ("핸드크림", "handcream"),
+    ("핸드 크림", "handcream"),
+    ("hand cream", "handcream"),
+    ("handcream", "handcream"),
     # 효능 키워드
     ("수분", "hydrating"),
     ("보습", "hydrating"),
@@ -164,11 +186,19 @@ LEXICON: list[tuple[str, str]] = [
 # 사전을 긴 키 우선 매칭용으로 정렬
 _LEX_SORTED = sorted(LEXICON, key=lambda x: -len(x[0]))
 
+# 뷰티·바디 외 잡상품 (바디샴푸/바디워시는 절대 넣지 말 것)
 NON_CORE = (
     "면봉", "거울", "키링", "바지", "양말", "파자마", "걸이", "스탠드",
     "손톱깎이", "면도기", "칫솔", "치약", "테이프", "쌍꺼풀", "샤프너",
     "리필용기", "팬티", "속옷", "치실", "구두약", "저장 용기", "유리 저장",
     "기프트세트", "고체향수",
+    # 문구·생활잡화 오매칭 차단
+    "볼펜", "젤펜", "만년필", "샤프", "연필", "지우개", "노트", "메모지",
+    "덴탈", "치간", "구강", "압축팩", "이불용", "밸브", "수납함", "정리함",
+    "블리치", "탈색", "염색약", "헤어컬러",
+    "마스크 컬러", "덴탈 마스크", "일회용 마스크", "KF94", "비말차단",
+    "샌드크림",  # 볼펜 색상명 오매칭 방지 (바디/스킨 '크림'과 구분)
+    "초저점도", "3색",
 )
 
 STOP = {"the", "and", "for", "with", "from", "best", "ml", "oz", "by", "new"}
@@ -251,12 +281,19 @@ def best_matches(daiso_name: str, signals: list[dict], top_n: int = 3) -> list[d
         j_d = len(inter) / len(d_can)
         j_s = len(inter) / max(1, len(sig["canonical"]))
         sim = 0.6 * j_d + 0.4 * j_s
-        # 핵심 성분 가산
-        key_ings = {"snail", "heartleaf", "centella", "ceramide", "niacinamide",
-                    "retinol", "vitaminc", "sunscreen", "hyaluronic", "collagen", "peptide"}
+        # 핵심 성분·바디 제형 가산
+        key_ings = {
+            "snail", "heartleaf", "centella", "ceramide", "niacinamide",
+            "retinol", "vitaminc", "sunscreen", "hyaluronic", "collagen", "peptide",
+            "bodywash", "bodylotion", "shampoo",
+        }
         if inter & key_ings:
             sim = min(1.0, sim + 0.12 * len(inter & key_ings))
-        if sim < 0.12:
+        # 약한 단일 토큰(cream/mask/lotion만)은 노이즈 — 하한 상향
+        weak_only = inter <= {"cream", "mask", "lotion", "serum"}
+        if weak_only and len(inter) == 1:
+            sim *= 0.55
+        if sim < 0.18:
             continue
         hits.append({
             "channel": sig["channel"],
@@ -323,14 +360,27 @@ def score_one(p: dict, signals: list[dict]) -> dict:
     else:
         price_pts = 1.0
 
-    # 5) 상품유형 키워드 (최대 10)
+    # 5) 상품유형 키워드 (최대 10) — 바디샴푸/워시 포함
     kw_pts = 0
     low = name.lower()
-    for kw, pts in (("앰플", 5), ("세럼", 5), ("선크림", 4), ("spf", 4),
-                    ("토너", 3), ("에센스", 3), ("마스크", 3), ("크림", 2)):
+    for kw, pts in (
+        ("앰플", 5), ("세럼", 5), ("선크림", 4), ("spf", 4),
+        ("바디샴푸", 5), ("바디 샴푸", 5), ("바디워시", 5), ("바디 워시", 5),
+        ("샤워젤", 4), ("바디로션", 4), ("바디 로션", 4),
+        ("토너", 3), ("에센스", 3), ("마스크팩", 3), ("마스크 시트", 3),
+        ("마스크", 2), ("크림", 2), ("샴푸", 3),
+    ):
         if kw in low:
             kw_pts += pts
     kw_pts = min(10, kw_pts)
+
+    # 이름에 바디샴푸/워시가 있으면 버킷 오분류여도 바디 취급
+    is_body_product = any(
+        k in name for k in (
+            "바디샴푸", "바디 샴푸", "바디워시", "바디 워시",
+            "샤워젤", "바디로션", "바디 로션", "바디크림",
+        )
+    )
 
     penalty = 40 if non_core else 0
 
@@ -346,10 +396,23 @@ def score_one(p: dict, signals: list[dict]) -> dict:
     total = max(5, min(100, round(
         cat_pts + rating_pts + review_pts + price_pts + kw_pts + sim_pts - penalty)))
 
-    core = bucket in {"스킨케어", "선케어", "마스크팩", "클렌징", "메이크업", "헤어케어"}
+    core = bucket in {
+        "스킨케어", "선케어", "마스크팩", "클렌징", "메이크업", "헤어케어", "바디케어",
+    } or is_body_product
     best_sim = matches[0]["similarity"] if matches else 0
-    # S: 핵심 카테고리 + 충분한 점수 + (가능하면 글로벌 매칭)
-    if not non_core and core and total >= 82 and (best_sim >= 0.15 or total >= 90):
+    best_tokens = (matches[0].get("matched_tokens") or []) if matches else []
+    # 약한 단일 토큰만 있는 매칭은 S 불가
+    strong_match = (
+        best_sim >= 0.45
+        or len(best_tokens) >= 2
+        or bool(set(best_tokens) & {
+            "bodywash", "bodylotion", "heartleaf", "snail", "centella",
+            "sunscreen", "collagen", "pdrn", "toner", "serum", "ampoule",
+            "cleanser", "shampoo",
+        })
+    )
+    # S: 핵심(바디 포함) + 점수 + 강한 글로벌 매칭(또는 고득점)
+    if not non_core and core and total >= 82 and (strong_match or total >= 92):
         grade = "S"
     elif not non_core and total >= 75:
         grade = "A"
@@ -466,9 +529,9 @@ def main() -> int:
     s_payload = {
         "generated_at": result["generated_at"],
         "source": "score_shopify_demand.py",
-        "rule": "grade == S (core category + global match)",
+        "rule": "grade == S (core+body category + strong global match; non-beauty filtered)",
         "count": len(s_list),
-        "priority_note": "S등급만. Shopify 우선 등록·테스트 후보.",
+        "priority_note": "S등급만(바디샴푸·워시 포함). 잡상품·약한 단일토큰 매칭 제외. Shopify 1차 등록 후보.",
         "recommendations": [
             {
                 "rank": i,
