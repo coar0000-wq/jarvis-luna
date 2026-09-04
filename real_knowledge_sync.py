@@ -253,6 +253,44 @@ def collect_us_beauty():
 
 
 # -----------------------------
+# Robotics
+# -----------------------------
+def collect_robotics():
+    """scripts/collect_robotics.py 산출물을 코퍼스 소스로 합류시킨다.
+
+    2026-09-04: 옵시디언 주제 로보틱스가 3건뿐이었다. 분류기는 정상이었고
+    수집원에 로봇 자료가 없던 것이 원인이다. arXiv cs.RO / eess.SY 와
+    로봇 매체 RSS 를 별도 수집기로 모으고 여기서 코퍼스에 넣는다.
+    """
+    path = Path(__file__).resolve().parent / "data" / "robotics_sources.json"
+    try:
+        d = json.loads(path.read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError) as e:
+        return {"status": "failed", "source": "Robotics",
+                "reason": f"{type(e).__name__} - scripts/collect_robotics.py 를 먼저 실행",
+                "items": []}
+    items = []
+    for key in ("arxiv", "rss"):
+        blk = (d.get("sources") or {}).get(key) or {}
+        for x in blk.get("items") or []:
+            t = (x.get("title") or "").strip()
+            if not t:
+                continue
+            items.append({
+                "title": t,
+                "text": (x.get("summary") or "")[:400],
+                "published": x.get("published") or "",
+                "url": x.get("url") or "",
+                "primary_category": x.get("primary_category"),
+            })
+    return {"status": "ok" if items else "empty",
+            "source": "Robotics (arXiv cs.RO/eess.SY + IEEE Spectrum + Robot Report)",
+            "reason": "" if items else "수집 항목 없음",
+            "collected_at": d.get("generated_at", ""),
+            "items": items}
+
+
+# -----------------------------
 # Save
 # -----------------------------
 def main():
@@ -263,6 +301,7 @@ def main():
         "updated": datetime.now(timezone.utc).isoformat(),
         "sources": {
             "arxiv": collect_arxiv(),
+            "robotics": collect_robotics(),
             "youtube": collect_youtube(),
             "google": collect_google(),
             "us_beauty": collect_us_beauty()
