@@ -1,0 +1,753 @@
+{
+  "team": "디자인팀",
+  "generated_at": "2026-09-04T23:48:24.721630+00:00",
+  "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
+  "checklist": {
+    "total": 12,
+    "done": 2,
+    "waiting": 10,
+    "steps": [
+      {
+        "id": "store-open",
+        "label": "Shopify 스토어 개설 및 기본 설정",
+        "source": "HsMGvW2TE64 1분 Create Your Shopify Store / 48분 Set Up Your Store Settings",
+        "check": null,
+        "status": "대기",
+        "evidence": "스토어에서 진행 후 기록 필요"
+      },
+      {
+        "id": "toolchain",
+        "label": "Node·Git·Shopify CLI·Claude Code 설치",
+        "source": "HsMGvW2TE64 2분 Set Up Your Tools & Install Node / 7분 Install Git & the Shopify CLI",
+        "check": null,
+        "status": "대기",
+        "evidence": "스토어에서 진행 후 기록 필요"
+      },
+      {
+        "id": "products",
+        "label": "상품·컬렉션 등록",
+        "source": "HsMGvW2TE64 13분 Add Your Products & Collections",
+        "check": "shopify_products.json",
+        "status": "완료",
+        "evidence": "data/shopify_products.json 14건"
+      },
+      {
+        "id": "listing-copy",
+        "label": "영문 리스팅 카피 준비",
+        "source": "IQDtl0Dacjo 4분 Create Product Launch Content",
+        "check": "shopify_listing_copy.json",
+        "status": "완료",
+        "evidence": "data/shopify_listing_copy.json 10건"
+      },
+      {
+        "id": "design-system",
+        "label": "디자인 시스템 정의 (색·타이포·간격)",
+        "source": "vqAzmtwekmw 1분 Building a Design System in Claude Design",
+        "check": null,
+        "status": "대기",
+        "evidence": "스토어에서 진행 후 기록 필요"
+      },
+      {
+        "id": "theme-base",
+        "label": "Shopify Horizon 테마를 기준으로 커스텀 테마 생성",
+        "source": "vqAzmtwekmw 5분 Create a Shopify Theme in Claude Design",
+        "check": null,
+        "status": "대기",
+        "evidence": "스토어에서 진행 후 기록 필요"
+      },
+      {
+        "id": "assets",
+        "label": "레퍼런스·이미지 자산 수집 및 정리",
+        "source": "HsMGvW2TE64 18분 Gather Inspiration & Organize Assets",
+        "check": null,
+        "status": "대기",
+        "evidence": "스토어에서 진행 후 기록 필요"
+      },
+      {
+        "id": "sections",
+        "label": "섹션 구성 (히어로·컬렉션·상품 상세)",
+        "source": "HsMGvW2TE64 37분 Build Out the Rest of Your Sections",
+        "check": null,
+        "status": "대기",
+        "evidence": "스토어에서 진행 후 기록 필요"
+      },
+      {
+        "id": "header-footer",
+        "label": "헤더·푸터 및 마감 정리",
+        "source": "HsMGvW2TE64 41분 Add Your Header, Footer & Polish",
+        "check": null,
+        "status": "대기",
+        "evidence": "스토어에서 진행 후 기록 필요"
+      },
+      {
+        "id": "theme-upload",
+        "label": "테마 업로드 후 Shopify 에디터에서 수정",
+        "source": "vqAzmtwekmw 18분 How to Send a Claude Design to Shopify / HsMGvW2TE64 45분",
+        "check": null,
+        "status": "대기",
+        "evidence": "스토어에서 진행 후 기록 필요"
+      },
+      {
+        "id": "seo",
+        "label": "상품 페이지 SEO·AI 검색 최적화",
+        "source": "IQDtl0Dacjo 5분 Optimize Shopify Product Pages for SEO and AI Search",
+        "check": null,
+        "status": "대기",
+        "evidence": "스토어에서 진행 후 기록 필요"
+      },
+      {
+        "id": "publish",
+        "label": "게시 및 라이브 전환",
+        "source": "HsMGvW2TE64 53분 Publish & Go Live",
+        "check": null,
+        "status": "대기",
+        "evidence": "스토어에서 진행 후 기록 필요"
+      }
+    ],
+    "note": "각 단계 상태는 저장소 산출물 실재 여부로 판정한다. 근거 없이 완료로 적지 않는다."
+  },
+  "reference_videos": [
+    {
+      "id": "HsMGvW2TE64",
+      "title": "How to Build a Full Shopify Store using AI (Claude Code)",
+      "channel": "Metics Media",
+      "minutes": 54,
+      "uploaded": "2026-07-14",
+      "chapters": 17
+    },
+    {
+      "id": "vqAzmtwekmw",
+      "title": "Designing Shopify Themes Has Changed Forever (Tutorial)",
+      "channel": "Brendan Gillen",
+      "minutes": 33,
+      "uploaded": "2026-08-27",
+      "chapters": 6
+    },
+    {
+      "id": "IQDtl0Dacjo",
+      "title": "How to Use Claude Cowork to Build and Run a Shopify Store",
+      "channel": "Learn With Shopify",
+      "minutes": 8,
+      "uploaded": "2026-08-31",
+      "chapters": 8
+    },
+    {
+      "id": "d2ILKOcChx4",
+      "title": "Shopify 웹사이트 디자인 튜토리얼 2026 - 단계별 가이드",
+      "channel": "Metics Media | 한국어",
+      "minutes": 41,
+      "uploaded": "2025-09-01",
+      "chapters": 0
+    }
+  ],
+  "references": {
+    "count": 85,
+    "feeds": 6,
+    "failures": [],
+    "items": [
+      {
+        "title": "Permitted store staff can now see an identified customer's online cart in POS",
+        "url": "https://changelog.shopify.com/posts/permitted-store-staff-can-now-see-an-identified-customer-s-online-cart-in-pos",
+        "date": "2026-09-03",
+        "summary": "Authorized staff can now view items from an identified customer's abandoned online checkout in Shopify POS. When a known customer shops in store, store staff can look them up in POS and see if they have any items in their online cart. Using this information they can offer to assist the customer with",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "Scan and search variants with multiple barcodes",
+        "url": "https://changelog.shopify.com/posts/scan-and-search-variants-with-multiple-barcodes",
+        "date": "2026-09-01",
+        "summary": "Shopify POS can now identify a product variant using any barcode associated with it, making it easier for staff to find the right product when items have different barcodes across suppliers, channels, or packaging. What’s new? Staff can now scan or search for a product variant using any of its assoc",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "Check connectivity status from POS Home",
+        "url": "https://changelog.shopify.com/posts/check-connectivity-status-from-pos-home",
+        "date": "2026-09-01",
+        "summary": "You can now check your device’s connectivity status directly from POS Home. A new status icon makes it easier for staff to confirm that their device is connected and ready to sell before starting checkout. What’s new? Connectivity status has moved from the POS side navigation to POS Home, where it’s",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "Shopify Payments in the United Arab Emirates now available on the Advanced plan",
+        "url": "https://changelog.shopify.com/posts/shopify-payments-in-the-united-arab-emirates-available-on-shopify-advanced-plan",
+        "date": "2026-08-26",
+        "summary": "Merchants on the Advanced plan in the United Arab Emirates can now accept payments through Shopify Payments, with no third-party gateway required. Shopify Payments was previously available only to merchants on the Plus plan. Set up Shopify Payments in your Shopify admin. Review eligibility and onboa",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "US tax calculation accuracy improvements based on fulfillment location",
+        "url": "https://changelog.shopify.com/posts/shopify-tax-is-now-compatible-with-order-routing",
+        "date": "2026-08-24",
+        "summary": "Tax accuracy has improved for orders shipping to customers in the United States. Tax is now calculated using the fulfillment location that your order routing settings select for each order. For local pickup orders, tax is calculated from the pickup location. Now, if you fulfill orders from multiple ",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "Review Shopify Payments balance activity with the new activity report",
+        "url": "https://changelog.shopify.com/posts/review-shopify-payments-balance-activity-with-the-new-activity-report",
+        "date": "2026-08-22",
+        "summary": "The Shopify Payments activity report gives you a clearer way to understand how money moved through your Shopify Payments balance over a selected date range. You can open it from Finance > Documents > Shopify Payments activity report or from the Payouts page, then generate a report that brings togeth",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "Checkout now defaults to last used payment method for signed-in customers",
+        "url": "https://changelog.shopify.com/posts/checkout-now-defaults-to-last-used-payment-method-for-signed-in-customers",
+        "date": "2026-08-21",
+        "summary": "Checkout now remembers a signed-in customer's last-used payment method and pre-selects it on future purchases. This feature is only enabled for checkout flows where saved payment methods are enabled on D2C and B2B .",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "Bulk staff setup with CSV import",
+        "url": "https://changelog.shopify.com/posts/bulk-staff-setup-with-csv-import",
+        "date": "2026-08-21",
+        "summary": "You can now create, suspend, and reactivate staff accounts in bulk by uploading a CSV file in Shopify admin. This update helps reduce manual setup for larger teams by letting you bulk create admin or POS staff accounts with assigned PINs and suspend or reactivate existing users in one upload. It’s e",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "A redesigned Point of Sale channel page with an easy entry point to the POS editor",
+        "url": "https://changelog.shopify.com/posts/a-redesigned-point-of-sale-channel-page-with-an-easy-entry-point-to-the-pos-editor",
+        "date": "2026-08-17",
+        "summary": "We've redesigned the Point of Sale channel page in your Shopify admin so your in-store setup and performance are right where you start. The page now opens with a Customize the in-store experience section that previews your store's actual lock screen, customer display, and receipts, so you can see wh",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "Recommended changes to checkout field settings are now available",
+        "url": "https://changelog.shopify.com/posts/recommended-changes-to-checkout-field-settings-are-now-available",
+        "date": "2026-08-13",
+        "summary": "Eligible stores can now get personalized recommendations for customer information settings from the Checkout settings page in Shopify admin. These recommendations help you collect more complete customer details at checkout so you can reconnect with past shoppers more effectively and personalize your",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "Taxes now recalculate when you change an order's shipping address",
+        "url": "https://changelog.shopify.com/posts/taxes-now-recalculate-automatically-when-you-change-an-order-s-shipping-address",
+        "date": "2026-08-13",
+        "summary": "Update : Tax rates vary by destination. Previously, the original destination tax stayed on the order even after you updated the shipping address, so your financials and tax reporting could drift out of sync. Now the order reflects the taxes for where it's actually shipping, which keeps your records ",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "DHL Express is now available in the UK, Germany, France, Italy, and Spain",
+        "url": "https://changelog.shopify.com/posts/dhl-express-is-now-available-in-the-uk-germany-france-italy-and-spain",
+        "date": "2026-08-13",
+        "summary": "DHL Express is now available in the UK, Germany, France, Italy, and Spain. Merchants in these markets can buy domestic and international shipping labels from their Shopify admin, with no third-party app or separate DHL account required. What's included: * Competitive DHL Express rates * Domestic and",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "Managed Markets is ending Delivered Duty Unpaid (DDU) support",
+        "url": "https://changelog.shopify.com/posts/managed-markets-is-ending-delivered-duty-unpaid-ddu-support",
+        "date": "2026-08-11",
+        "summary": "On August 24, 2026, Shopify Managed Markets will stop supporting delivered duty unpaid (DDU) in every country and region where it supports delivered duty paid (DDP). What's changing Markets that use or inherit DDU automatically move to DDP wherever Managed Markets supports it. Customers in those mar",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "Enhanced printed receipt editor",
+        "url": "https://changelog.shopify.com/posts/enhanced-printed-receipt-editor",
+        "date": "2026-08-11",
+        "summary": "We've updated printed receipts in Shopify POS so you can manage sale, return, exchange, gift, and gift card receipts in one place. Return and exchange receipts now print as a single section with one amount summary at the bottom, instead of two separate sections with two subtotals. What’s new? The ne",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "See Shop Campaigns performance in your analytics tools",
+        "url": "https://changelog.shopify.com/posts/see-shop-campaigns-performance-in-your-analytics-tools",
+        "date": "2026-08-10",
+        "summary": "Shop Campaigns performance data, including ad spend, sales, ROAS, and customer acquisition cost, is now available through ShopifyQL . This means your analytics and reporting apps can pull Shop Campaigns data directly, so you can see campaign performance alongside your other marketing channels. What ",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "Shopify storefronts now support UCP 2026-08-25",
+        "url": "https://shopify.dev/changelog/08-25-is-now-supported",
+        "date": "2026-09-04",
+        "summary": "Shopify storefronts now advertise support for Universal Commerce Protocol (UCP) version 2026-08-25 in their discovery profiles at /.well-known/ucp . This update adds compatibility with the 2026-08-25 protocol release and doesn’t require any changes to your existing integrations. What changed Storefr",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "Hydrogen developer preview update: September 2, 2026",
+        "url": "https://shopify.dev/changelog/hydrogen-developer-preview-update-september-2-2026",
+        "date": "2026-09-03",
+        "summary": "The Hydrogen developer preview adds new capabilities to the toolkit and extends the ways developers can build Shopify storefronts: Variant links: Links that name a variant, like the ones Shopify submits to a Google Shopping feed, now open on that variant instead of the product's default. Cart refres",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "Polaris CDN 1.1 release candidate",
+        "url": "https://shopify.dev/changelog/polaris-cdn-1-1-release-candidate",
+        "date": "2026-08-31",
+        "summary": "Polaris Web Components loaded from the Shopify CDN are moving to semantic versioning, read more about that change here . You can test out the Polaris CDN 1.1 release candidate by updating the URL you load polaris from to this: <script src=\"https://cdn.shopify.com/shopifycloud/polaris-1.1-rc.js\"></sc",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "The Polaris CDN is adopting semantic versioning",
+        "url": "https://shopify.dev/changelog/the-polaris-cdn-is-adopting-semantic-versioning",
+        "date": "2026-08-31",
+        "summary": "Polaris Web Components loaded from the Shopify CDN are moving to semantic versioning. Most apps will continue receiving compatible improvements automatically, while developers can choose when to adopt breaking changes. Existing apps don’t need to take immediate action. What changed Polaris CDN relea",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "More resilient refreshes for expiring offline access tokens",
+        "url": "https://shopify.dev/changelog/more-resilient-refreshes-for-expiring-offline-access-tokens",
+        "date": "2026-08-28",
+        "summary": "Expiring offline access token refreshes now retain the previously used refresh token until an app begins using its replacement. This rollout helps apps recover when a refresh response is lost or isn’t persisted. No migration is required, but apps should continue to store every refreshed token pair a",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "Password Protected Shop Dev flows on Shopify Theme CLI v3.83.x and older to be deprecated",
+        "url": "https://shopify.dev/changelog/password-protected-shop-dev-flows-on-shopify-theme-cli-v3-83-x-and-older-to-be-deprecated",
+        "date": "2026-08-27",
+        "summary": "Starting October 1, 2026, Theme commands on Shopify CLI for password protected storefronts will require version 3.84.0 or later . Versions 3.83.x and earlier will no longer be supported for theme development workflows on password protected storefronts. If you use Theme commands on Shopify CLI to dev",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "Four additional topics are now available for Events",
+        "url": "https://shopify.dev/changelog/four-additional-topics-are-now-available-for-events",
+        "date": "2026-08-26",
+        "summary": "Apps can now subscribe to events for Metaobject , MetafieldDefinition , MetaobjectDefinition , and InventoryTransfer . Apps can also subscribe to targeted metafield changes on InventoryTransfer . By subscribing to these topics, your app can react directly to changes in custom content, custom data de",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "Build Shopify apps in PHP and Python with new official packages",
+        "url": "https://shopify.dev/changelog/build-shopify-apps-in-php-and-python-with-new-official-packages",
+        "date": "2026-08-26",
+        "summary": "Shopify releases official PHP and Python app packages Shopify now publishes official, open-source packages for building apps in PHP and Python. shopify/shopify-app-php on Packagist and shopifyapp on PyPI have reached version 1.0 . They provide framework-agnostic primitives for request verification, ",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "GitHub commits now name the last theme editor",
+        "url": "https://shopify.dev/changelog/github-commits-now-name-the-last-theme-editor",
+        "date": "2026-08-26",
+        "summary": "When you edit a theme in the Shopify admin, the commit Shopify pushes to your connected branch now includes the editor's name in the body: Update from Shopify for theme Dawn Committed from shop: Snowdevil Theme last edited by: Bob Bobsen The name is plain text in the commit body. The commit author i",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "Oxygen is now available on trial plan stores",
+        "url": "https://shopify.dev/changelog/oxygen-is-now-available-on-trial-plan-stores",
+        "date": "2026-08-25",
+        "summary": "You can now deploy Hydrogen storefronts to Oxygen from trial plan stores . Previously, Oxygen hosting required a paid plan. Note that trial plan stores don't include public environments, so deployment URLs always require a store login. Learn more about supported plans .",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "Script tags are deprecated and will stop running on March 1, 2027",
+        "url": "https://shopify.dev/changelog/online-store-script-tags-deprecation",
+        "date": "2026-08-24",
+        "summary": "Starting October 1, 2026, the scriptTagCreate and scriptTagUpdate mutations will return an user error, and the ScriptTag REST Admin API resource will reject POST and PUT . The deprecation applies to all API versions, including older ones, so pinning won't defer it. On March 1, 2027, Shopify will sto",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "App intents on `admin.app.intent.link` now open as a full-page navigation",
+        "url": "https://shopify.dev/changelog/app-intents-on-admin-app-intent-link-now-open-as-a-full-page-navigation",
+        "date": "2026-08-19",
+        "summary": "When Sidekick invokes an app intent declared on the admin.app.intent.link extension target, the Shopify admin now navigates the merchant to your extension's url as a full page, matching how Shopify's own admin intents behave. Previously, the same intent always opened in an overlay on top of the page",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "Hydrogen developer preview update: August 18, 2026",
+        "url": "https://shopify.dev/changelog/hydrogen-developer-preview-update-august-18-2026",
+        "date": "2026-08-18",
+        "summary": "The Hydrogen developer preview adds new capabilities to the toolkit and extends the ways developers can build Shopify storefronts: Cart session attribution: Carts and Customer Account sessions stay in step, so signed-in shoppers reach checkout with their saved details instead of a guest flow. Cart a",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "Shop Campaigns performance data now available via ShopifyQL",
+        "url": "https://shopify.dev/changelog/shop-campaigns-shopifyql",
+        "date": "2026-08-10",
+        "summary": "The shop_campaign_insights schema is now available in the ShopifyQL . Analytics and reporting apps can query Shop Campaigns performance data on behalf of authorized merchants using the existing shopifyqlQuery field with read_reports scope. Available data Campaign-level and segment-level metrics incl",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "Standard storefront events and actions now support cart attributes",
+        "url": "https://shopify.dev/changelog/events-and-actions-cart-attributes-support",
+        "date": "2026-08-06",
+        "summary": "The updateCart standard action now updates cart attributes, and a new shopify:cart:attributes-update event fires whenever an attributes update is initiated. Before this, changing an attribute meant calling the Storefront API yourself, and nothing told your app when one changed. The action now handle",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "How River takes security work from a fix to merge",
+        "url": "https://shopify.engineering/river-vulnerability-remediation",
+        "date": "2026-09-02",
+        "summary": "River, Shopify’s AI agent in Slack, enables autonomous vulnerability remediation, not just detection.",
+        "feed": "Shopify Engineering"
+      },
+      {
+        "title": "Gisting: Compressing LLM Agent context to ↑ throughput and ↓ cost",
+        "url": "https://shopify.engineering/gisting",
+        "date": "2026-08-19",
+        "summary": "Gisting compresses context into a set of learned tokens, preserving its quality while making the model faster and cheaper.",
+        "feed": "Shopify Engineering"
+      },
+      {
+        "title": "How we raised mobile end-to-end test stability to 98%",
+        "url": "https://shopify.engineering/mobile-e2e-testing",
+        "date": "2026-08-12",
+        "summary": "We rebuilt our mobile end-to-end testing framework with a strict API and computer vision, raising test stability drastically.",
+        "feed": "Shopify Engineering"
+      },
+      {
+        "title": "Sidekick's continual learning loop",
+        "url": "https://shopify.engineering/sidekicks-continual-learning-loop",
+        "date": "2026-08-05",
+        "summary": "How we compress production failures into model weights every day, beat frontier-model quality, and cut serving costs 96%.",
+        "feed": "Shopify Engineering"
+      },
+      {
+        "title": "Building an agentic harness that outlasts the model",
+        "url": "https://shopify.engineering/building-an-agentic-harness-that-outlasts-the-model",
+        "date": "2026-07-29",
+        "summary": "We built an agentic code review and test oracle harness that discovers vulnerabilities, proves them with real tests, and provides Shopify-tuned fixes.",
+        "feed": "Shopify Engineering"
+      },
+      {
+        "title": "Upgrading Checkout Blocks app to Polaris web components",
+        "url": "https://shopify.engineering/upgrading-checkout-blocks-app-to-polaris-web-components",
+        "date": "2026-07-16",
+        "summary": "We moved five high-traffic checkout extensions to remote-dom and Polaris web components, cutting bundle sizes drastically and making checkout faster.",
+        "feed": "Shopify Engineering"
+      },
+      {
+        "title": "Inside Shopify Hack Days: Building a prototype for music-playing pages",
+        "url": "https://shopify.engineering/hack-days",
+        "date": "2026-07-14",
+        "summary": "How a Hack Days team built a music player, custom GLSL visualizers, and an artist toolkit for storefronts, all in three days.",
+        "feed": "Shopify Engineering"
+      },
+      {
+        "title": "Clustering billions of products for agentic commerce with Catalog API",
+        "url": "https://shopify.engineering/catalog-clustering",
+        "date": "2026-06-17",
+        "summary": "Building an LLM-powered pipeline to match product listings across millions of merchants into a unified catalog that AI agents can search.",
+        "feed": "Shopify Engineering"
+      },
+      {
+        "title": "Teaching Sidekick to say no: automated data curation with LLM judge consensus",
+        "url": "https://shopify.engineering/sidekick-curation",
+        "date": "2026-06-15",
+        "summary": "Production training data only captures successful queries; it can't teach a model when to say no. We built an automated curation pipeline using LLM judge consensus to close that gap.",
+        "feed": "Shopify Engineering"
+      },
+      {
+        "title": "Quick: An internal hosting platform for the AI era",
+        "url": "https://shopify.engineering/quick",
+        "date": "2026-06-10",
+        "summary": "Quick lets anyone at Shopify ship a site in seconds. It has changed the culture of how we build and share.",
+        "feed": "Shopify Engineering"
+      },
+      {
+        "title": "Under the River",
+        "url": "https://shopify.engineering/under-the-river",
+        "date": "2026-05-28",
+        "summary": "What it took to ship our Slack-native agent River, lessons learned, and the substrate that runs beneath it. Co-authored by River.",
+        "feed": "Shopify Engineering"
+      },
+      {
+        "title": "We replaced Redis with MySQL for inventory reservations—and it scaled",
+        "url": "https://shopify.engineering/scaling-inventory-reservations",
+        "date": "2026-05-12",
+        "summary": "How we used SKIP LOCKED, composite primary keys, and connection visibility to hit our scale targets.",
+        "feed": "Shopify Engineering"
+      },
+      {
+        "title": "Flow generation through natural language: An agentic modeling approach",
+        "url": "https://shopify.engineering/fine-tuning-agent-shopify-flow",
+        "date": "2026-04-22",
+        "summary": "We fine-tuned Qwen3-32B into a tool-calling agent that generates Flow automations from natural language—faster, cheaper, and more accurate than the frontier model it replaced, with a weekly retraining flywheel built on real merchant data.",
+        "feed": "Shopify Engineering"
+      },
+      {
+        "title": "Autoresearch isn’t just for training models",
+        "url": "https://shopify.engineering/autoresearch",
+        "date": "2026-04-15",
+        "summary": "Tobi and I generalized Karpathy’s Autoresearch to improve 40+ metrics across Shopify, then we open-sourced our project.",
+        "feed": "Shopify Engineering"
+      },
+      {
+        "title": "Building a Magic Mirror: AI retail experiences with Remix",
+        "url": "https://shopify.engineering/magic-mirror",
+        "date": "2026-03-19",
+        "summary": "The technical blueprint for an AI-powered mirror that sees customers, analyzes their appearance, and delivers personalized product recommendations in real-time.",
+        "feed": "Shopify Engineering"
+      },
+      {
+        "title": "The Many Faces Of September (2026 Wallpapers Edition)",
+        "url": "https://smashingmagazine.com/2026/08/desktop-wallpaper-calendars-september-2026/",
+        "date": "2026-08-31",
+        "summary": "Could there be a better way to welcome the new month than with a new collection of desktop wallpapers? Whether you’re holding tightly onto summer or eagerly awaiting autumn, we’ve got some eye-catching designs to make your September just a bit more colorful. Enjoy!",
+        "feed": "Smashing Magazine"
+      },
+      {
+        "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
+        "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
+        "date": "2026-08-26",
+        "summary": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking to dashboards and data presentations, from the questions you ask before opening any tool to the decisions that",
+        "feed": "Smashing Magazine"
+      },
+      {
+        "title": "Why Your Website Should Never Stop Changing",
+        "url": "https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/",
+        "date": "2026-08-25",
+        "summary": "Every website peaks on launch day and slowly drifts from there, not because it breaks, but because nobody has time to keep it current. Autonomous websites, continuously optimized by agents after launch, aim to change that. Pierre Burgy shares what they learned building for full website autonomy and ",
+        "feed": "Smashing Magazine"
+      },
+      {
+        "title": "Timing Charts: A Blueprint For SMIL Animations",
+        "url": "https://smashingmagazine.com/2026/08/timing-charts-blueprint-smil-animations/",
+        "date": "2026-08-20",
+        "summary": "Discover SMIL, the often-overlooked way to animate SVGs that works inside ` ` tags and can fully animate everything in an SVG without JavaScript.",
+        "feed": "Smashing Magazine"
+      },
+      {
+        "title": "New EU Guidelines For AI Labelling",
+        "url": "https://smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/",
+        "date": "2026-08-13",
+        "summary": "New EU guidelines, why AI sparkles aren’t enough, when AI labels are required, and what the rules mean for AI-powered features and products.",
+        "feed": "Smashing Magazine"
+      },
+      {
+        "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
+        "url": "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
+        "date": "2026-08-11",
+        "summary": "When tasked with building a highly interactive, tactile web experience, the architecture must serve the art direction. In this article, Alexey Kopytin explains their architectural rationale for building a digital stress-relief squeeze toy game using Lottie animations, DOM events, and distance-based ",
+        "feed": "Smashing Magazine"
+      },
+      {
+        "title": "How Baseline Can Help You Ship Less JavaScript",
+        "url": "https://smashingmagazine.com/2026/08/how-baseline-can-help-ship-less-javascript/",
+        "date": "2026-08-07",
+        "summary": "The gap between “you need a library for this” and “the browser does this” keeps closing. A practical guide to auditing your dependencies and finding what the web platform can now handle for you.",
+        "feed": "Smashing Magazine"
+      },
+      {
+        "title": "Small Joys And Big Adventures (August 2026 Wallpapers Edition)",
+        "url": "https://smashingmagazine.com/2026/07/desktop-wallpaper-calendars-august-2026/",
+        "date": "2026-07-31",
+        "summary": "Whether you’re enjoying some well-earned time off this August or are jumping headfirst into a new project, how about some new desktop wallpapers to accompany you on all those big and small adventures the month might bring? Well, we’ve got you covered!",
+        "feed": "Smashing Magazine"
+      },
+      {
+        "title": "The Bull And Bear Case For Digital Design In The Age Of AI",
+        "url": "https://smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/",
+        "date": "2026-07-29",
+        "summary": "As AI reshapes product design, it could give designers greater autonomy or expose the gaps that autonomy makes harder to hide. Exploring both the bull and bear cases, Andy Budd examines what happens when designers need less permission to act.",
+        "feed": "Smashing Magazine"
+      },
+      {
+        "title": "Thinking Outside The Box: Digital Design In The AI Era",
+        "url": "https://smashingmagazine.com/2026/07/digital-design-ai-era/",
+        "date": "2026-07-28",
+        "summary": "Many of the AI tools we interact with take the form of text boxes. But what if there was a different way to interact with AI? Oleksii Hrzhehorzhevskyi explores a different approach to creating a new AI assistant and how designers can navigate the field as AI continues to change it.",
+        "feed": "Smashing Magazine"
+      },
+      {
+        "title": "Weaponizing And Defending The React Flight Protocol: Deserialization Sinks In RSCs",
+        "url": "https://smashingmagazine.com/2026/07/weaponizing-defending-react-flight-protocol/",
+        "date": "2026-07-21",
+        "summary": "While React Server Components rely on the custom Flight protocol to stream interactive UIs, this same mechanism introduces powerful deserialization sinks that attackers can exploit. Durgesh Pawar breaks down the mechanics behind the CVSS 10.0 “React2Shell” vulnerability to show how protocol manipula",
+        "feed": "Smashing Magazine"
+      },
+      {
+        "title": "When It Makes Sense To “Block” The Main Thread",
+        "url": "https://smashingmagazine.com/2026/07/when-makes-sense-block-main-thread/",
+        "date": "2026-07-17",
+        "summary": "The common rule of thumb is to never “block” the browser’s main thread when running JavaScript tasks. But is this a hard rule? Victor Ayomipo describes a use case he encountered involving a screenshot extension where he made an exception to the rule and decided that blocking the main thread was abso",
+        "feed": "Smashing Magazine"
+      },
+      {
+        "title": "No, People Don’t Want More AI In Their Life",
+        "url": "https://smashingmagazine.com/2026/07/people-dont-want-more-ai/",
+        "date": "2026-07-15",
+        "summary": "Many companies assume everyone craves new AI features. But the reality is that most people don't want more AI — at least not in the way most AI leaders envision it. Brought to you by Design Patterns For AI Interfaces , **friendly video courses on UX** and design patterns by Vitaly.",
+        "feed": "Smashing Magazine"
+      },
+      {
+        "title": "From Kickoff To First Concept: How To Turn Brand Strategy Into Visual Direction",
+        "url": "https://smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/",
+        "date": "2026-07-10",
+        "summary": "The strongest visual concepts don’t start in Figma. They start with the right questions. Explore the pre-concept phase of brand identity design, where teams research brand context, uncover hidden assumptions with stakeholders, and turn shared direction into a visual foundation before a single concep",
+        "feed": "Smashing Magazine"
+      },
+      {
+        "title": "Designing For Distressed Users: Why Mental Health Apps Shouldn’t Follow Every UI Fashion",
+        "url": "https://smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/",
+        "date": "2026-07-09",
+        "summary": "Many UI trends are designed to capture attention and signal innovation, but those goals often conflict with the needs of mental health apps: reducing cognitive strain, fostering trust, and providing a sense of refuge. Kat Homan introduces an evaluation framework that helps designers assess whether t",
+        "feed": "Smashing Magazine"
+      },
+      {
+        "title": "Designed for a Dead Language",
+        "url": "https://alistapart.com/article/designed-for-a-dead-language/",
+        "date": "",
+        "summary": "Every language app in your pocket inherited a teaching method built for Latin. Understanding why that happened is a more useful design lesson than anything the apps themselves will teach you. In 1788, Prussia introduced the Abitur, a standardized national examination required for entry into universi",
+        "feed": "A List Apart"
+      },
+      {
+        "title": "Good designers, bad websites: a proposal",
+        "url": "https://alistapart.com/article/good-designers-bad-websites-a-proposal/",
+        "date": "",
+        "summary": "I want to discuss accessibility because it is the most important thing for making websites. Other A List Apart articles give you innovation and insight. This article will give you homework. These are just my personal views, but they’re pretty good. I want to start off with a couple of statements, an",
+        "feed": "A List Apart"
+      },
+      {
+        "title": "Design for Amiability: Lessons from Vienna",
+        "url": "https://alistapart.com/article/design-for-amiability-lessons-from-vienna/",
+        "date": "",
+        "summary": "Today’s web is not always an amiable place. Sites greet you with a popover that demands assent to their cookie policy, and leave you with Taboola ads promising “One Weird Trick!” to cure your ailments. Social media sites are tuned for engagement, and few things are more engaging than a fight. Today ",
+        "feed": "A List Apart"
+      },
+      {
+        "title": "Design Dialects: Breaking the Rules, Not the System",
+        "url": "https://alistapart.com/article/design-dialects-breaking-the-rules-not-the-system/",
+        "date": "",
+        "summary": "\"Language is not merely a set of unrelated sounds, clauses, rules, and meanings; it is a totally coherent system bound to context and behavior.\" — Kenneth L. Pike The web has accents. So should our design systems. Design Systems as Living Languages Design systems aren't component libraries—they’re l",
+        "feed": "A List Apart"
+      },
+      {
+        "title": "An Holistic Framework for Shared Design Leadership",
+        "url": "https://alistapart.com/article/an-holistic-framework-for-shared-design-leadership/",
+        "date": "",
+        "summary": "Picture this: You’re in a meeting room at your tech company, and two people are having what looks like the same conversation about the same design problem. One is talking about whether the team has the right skills to tackle it. The other is diving deep into whether the solution actually solves the ",
+        "feed": "A List Apart"
+      },
+      {
+        "title": "From Beta to Bedrock: Build Products that Stick.",
+        "url": "https://alistapart.com/article/from-beta-to-bedrock-build-products-that-stick/",
+        "date": "",
+        "summary": "As a product builder over too many years to mention, I've lost count of the number of times I've seen promising ideas go from zero to hero in a few weeks, only to fizzle out within months. Financial products, which is the field I work in, are no exception. With people’s real hard-earned money on the",
+        "feed": "A List Apart"
+      },
+      {
+        "title": "User Research Is Storytelling",
+        "url": "https://alistapart.com/article/user-research-is-storytelling/",
+        "date": "",
+        "summary": "Ever since I was a boy, I’ve been fascinated with movies. I loved the characters and the excitement—but most of all the stories. I wanted to be an actor. And I believed that I’d get to do the things that Indiana Jones did and go on exciting adventures. I even dreamed up ideas for movies that my frie",
+        "feed": "A List Apart"
+      },
+      {
+        "title": "To Ignite a Personalization Practice, Run this Prepersonalization Workshop",
+        "url": "https://alistapart.com/article/prepersonalization-workshop/",
+        "date": "",
+        "summary": "Picture this. You’ve joined a squad at your company that’s designing new product features with an emphasis on automation or AI. Or your company has just implemented a personalization engine . Either way, you’re designing with data. Now what? When it comes to designing for personalization , there are",
+        "feed": "A List Apart"
+      },
+      {
+        "title": "The Wax and the Wane of the Web",
+        "url": "https://alistapart.com/article/the-wax-and-the-wane-of-the-web/",
+        "date": "",
+        "summary": "I offer a single bit of advice to friends and family when they become new parents: When you start to think that you’ve got everything figured out, everything will change. Just as you start to get the hang of feedings, diapers, and regular naps, it’s time for solid food, potty training, and overnight",
+        "feed": "A List Apart"
+      },
+      {
+        "title": "Opportunities for AI in Accessibility",
+        "url": "https://alistapart.com/article/opportunities-for-ai-in-accessibility/",
+        "date": "",
+        "summary": "In reading Joe Dolson’s recent piece on the intersection of AI and accessibility , I absolutely appreciated the skepticism that he has for AI in general as well as for the ways that many have been using it. In fact, I’m very skeptical of AI myself, despite my role at Microsoft as an accessibility in",
+        "feed": "A List Apart"
+      },
+      {
+        "title": "I am a creative.",
+        "url": "https://alistapart.com/article/i-am-a-creative/",
+        "date": "",
+        "summary": "I am a creative. What I do is alchemy. It is a mystery. I do not so much do it, as let it be done through me. I am a creative. Not all creative people like this label. Not all see themselves this way. Some creative people see science in what they do. That is their truth, and I respect it. Maybe I ev",
+        "feed": "A List Apart"
+      },
+      {
+        "title": "Humility: An Essential Value",
+        "url": "https://alistapart.com/article/humility-an-essential-value/",
+        "date": "",
+        "summary": "Humility, a designer’s essential value—that has a nice ring to it. What about humility, an office manager’s essential value? Or a dentist’s? Or a librarian’s? They all sound great. When humility is our guiding light, the path is always open for fulfillment, evolution, connection, and engagement. In ",
+        "feed": "A List Apart"
+      },
+      {
+        "title": "Personalization Pyramid: A Framework for Designing with User Data",
+        "url": "https://alistapart.com/article/personalization-pyramid/",
+        "date": "",
+        "summary": "As a UX professional in today’s data-driven landscape, it’s increasingly likely that you’ve been asked to design a personalized digital experience, whether it’s a public website, user portal, or native application. Yet while there continues to be no shortage of marketing hype around personalization ",
+        "feed": "A List Apart"
+      },
+      {
+        "title": "Mobile-First CSS: Is It Time for a Rethink?",
+        "url": "https://alistapart.com/article/mobile-first-css-is-it-time-for-a-rethink/",
+        "date": "",
+        "summary": "The mobile-first design methodology is great—it focuses on what really matters to the user, it’s well-practiced, and it’s been a common design pattern for years. So developing your CSS mobile-first should also be great, too…right? Well, not necessarily. Classic mobile-first CSS development is based ",
+        "feed": "A List Apart"
+      },
+      {
+        "title": "Designers, (Re)define Success First",
+        "url": "https://alistapart.com/article/redefine-success-first/",
+        "date": "",
+        "summary": "About two and a half years ago, I introduced the idea of daily ethical design . It was born out of my frustration with the many obstacles to achieving design that’s usable and equitable; protects people’s privacy, agency, and focus; benefits society; and restores nature. I argued that we need to ove",
+        "feed": "A List Apart"
+      },
+      {
+        "title": "New to the web platform in May",
+        "url": "https://web.dev/blog/web-platform-05-2026?hl=en",
+        "date": "2026-05-29",
+        "summary": "Discover some of the interesting features that have landed in stable and beta web browsers during May 2026.",
+        "feed": "web.dev"
+      },
+      {
+        "title": "April 2026 Baseline monthly digest",
+        "url": "https://web.dev/blog/baseline-digest-apr-2026?hl=en",
+        "date": "2026-05-27",
+        "summary": "Read about various happenings with Baseline during April 2026.",
+        "feed": "web.dev"
+      },
+      {
+        "title": "New to the web platform in April",
+        "url": "https://web.dev/blog/web-platform-04-2026?hl=en",
+        "date": "2026-04-24",
+        "summary": "Discover some of the interesting features that have landed in stable and beta web browsers during April 2026.",
+        "feed": "web.dev"
+      },
+      {
+        "title": "March 2026 Baseline monthly digest",
+        "url": "https://web.dev/blog/baseline-digest-mar-2026?hl=en",
+        "date": "2026-04-14",
+        "summary": "Read about various happenings with Baseline during March 2026.",
+        "feed": "web.dev"
+      },
+      {
+        "title": "February 2026 Baseline monthly digest",
+        "url": "https://web.dev/blog/baseline-digest-feb-2026?hl=en",
+        "date": "2026-03-30",
+        "summary": "Read about various happenings with Baseline during February 2026.",
+        "feed": "web.dev"
+      },
+      {
+        "title": "New to the web platform in March",
+        "url": "https://web.dev/blog/web-platform-03-2026?hl=en",
+        "date": "2026-03-27",
+        "summary": "Discover some of the interesting features that have landed in stable and beta web browsers during March 2026.",
+        "feed": "web.dev"
+      },
+      {
+        "title": "January 2026 Baseline monthly digest",
+        "url": "https://web.dev/blog/baseline-digest-jan-2026?hl=en",
+        "date": "2026-03-02",
+        "summary": "Read about various happenings with Baseline during January 2026",
+        "feed": "web.dev"
+      },
+      {
+        "title": "New to the web platform in February",
+        "url": "https://web.dev/blog/web-platform-02-2026?hl=en",
+        "date": "2026-02-26",
+        "summary": "Discover some of the interesting features that have landed in stable and beta web browsers during February 2026.",
+        "feed": "web.dev"
+      },
+      {
+        "title": "Navigation API - a better way to navigate, is now Baseline Newly Available",
+        "url": "https://web.dev/blog/baseline-navigation-api?hl=en",
+        "date": "2026-02-17",
+        "summary": "The Navigation API is now Baseline Newly available, providing a better way to handle navigation in single-page applications.",
+        "feed": "web.dev"
+      },
+      {
+        "title": "Interop 2026: Continuing to improve the web for developers",
+        "url": "https://web.dev/blog/interop-2026?hl=en",
+        "date": "2026-02-12",
+        "summary": "Learn about the features included in Interop 2026.",
+        "feed": "web.dev"
+      }
+    ]
+  },
+  "not_collected": {
+    "CSS-Tricks": "robots.txt 가 Disallow: / 로 전면 차단",
+    "Nielsen Norman Group": "robots.txt 가 Disallow: / 로 전면 차단",
+    "UX Collective": "robots.txt 가 Disallow: / 로 전면 차단",
+    "Shopify Blog / Partners": "공개 RSS 주소 없음 (본문이 피드가 아닌 HTML)",
+    "Baymard Institute": "RSS 404",
+    "Awwwards": "HTTP 502"
+  }
+}

@@ -54,6 +54,10 @@ jobs:
         continue-on-error: true
         run: python scripts/collect_institutions.py
 
+      - name: Build design team board (checklist + references)
+        continue-on-error: true
+        run: python scripts/build_design_team.py
+
       - name: Collect real public sources
         continue-on-error: true
         run: python real_knowledge_sync.py

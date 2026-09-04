@@ -229,6 +229,7 @@ TEAM_ICONS = {
     "pricing": {"color": "#7c3aed", "glyph": "tag"},
     "legal": {"color": "#b91c1c", "glyph": "scale"},
     "robotics": {"color": "#1d4ed8", "glyph": "robot"},
+    "design": {"color": "#0ea5e9", "glyph": "design"},
     "graph": {"color": "#0f766e", "glyph": "graph"},
 }
 
@@ -319,6 +320,22 @@ def team_cards(graph: dict) -> list[dict]:
     else:
         cards.append(_team("robotics", "로보틱스 수집", None,
                            "robotics_sources.json 없음", None, "missing"))
+
+    # 디자인팀 ------------------------------------------------------------
+    dt = load_json(D / "design_team.json", None)
+    if dt:
+        c = dt.get("checklist") or {}
+        refs = (dt.get("references") or {}).get("count", 0)
+        waiting = c.get("waiting", 0)
+        first = next((s.get("label") for s in (c.get("steps") or [])
+                      if s.get("status") != "완료"), "")
+        cards.append(_team(
+            "design", "디자인팀", dt.get("generated_at"),
+            f'스토어 {c.get("done", 0)}/{c.get("total", 0)}단계 · 레퍼런스 {refs}건',
+            f'다음 단계: {first}' if waiting and first else None))
+    else:
+        cards.append(_team("design", "디자인팀", None,
+                           "design_team.json 없음", None, "missing"))
 
     # 옵시디언 그래프 ----------------------------------------------------
     personal = graph.get("dangling_personal") or 0
@@ -419,18 +436,4 @@ def main() -> None:
     if isinstance(prev_fx, dict) and prev_fx:
         payload["exchange_rate"] = prev_fx
     if prev_synced:
-        payload["last_synced"] = prev_synced
-
-    try:
-        OUT.parent.mkdir(parents=True, exist_ok=True)
-        with OUT.open("w", encoding="utf-8") as f:
-            json.dump(payload, f, ensure_ascii=False, indent=2)
-            f.write("\n")
-
-        print(json.dumps(payload, ensure_ascii=False, indent=2))
-    except OSError as e:
-        print(f"Error: 런타임 스냅샷 데이터 생성 실패 - {e}")
-
-
-if __name__ == "__main__":
-    main()
+        payload["last_synced"] = pr
