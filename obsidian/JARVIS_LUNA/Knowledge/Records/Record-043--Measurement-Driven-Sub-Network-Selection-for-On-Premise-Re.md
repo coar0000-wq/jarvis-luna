@@ -2,8 +2,8 @@
 title: "Record 043 · Measurement-Driven-Sub-Network-Selection-for-On-Premise-Retrieval-Augm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.858180+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.434968+00:00
+tags: [record, real-data]
 ---
 
 # Record 043 · Measurement-Driven-Sub-Network-Selection-for-On-Premise-Retrieval-Augm
@@ -18,4 +18,4 @@ Measurement-Driven Sub-Network Selection for On-Premise Retrieval-Augmented Fact
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

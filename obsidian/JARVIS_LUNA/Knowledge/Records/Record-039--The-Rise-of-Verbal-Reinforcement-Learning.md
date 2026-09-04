@@ -2,8 +2,8 @@
 title: "Record 039 · The-Rise-of-Verbal-Reinforcement-Learning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.857934+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.434384+00:00
+tags: [record, real-data]
 ---
 
 # Record 039 · The-Rise-of-Verbal-Reinforcement-Learning
@@ -18,4 +18,4 @@ The Rise of Verbal Reinforcement Learning
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

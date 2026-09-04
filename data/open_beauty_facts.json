@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-04T05:38:19.559931+00:00",
+  "collected_at": "2026-09-04T09:17:55.639078+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -1430,19 +1430,6 @@
       "url": "https://world.openbeautyfacts.org/product/8714789913919"
     },
     {
-      "code": "59095842",
-      "product_name": "Dove Advanced Care Anti-Transpirant Deodorant Roller Original 50 ML",
-      "brands": "Dove",
-      "category": "데오드란트",
-      "obf_category": "deodorants",
-      "countries": [
-        "Netherlands"
-      ],
-      "ingredients_text": "Aqua, Glycerin, Aluminum Sesquichlorohydrate, Helianthus Annuus Seed Oil, Steareth-2, Parfum, Steareth-20, Calcium Chloride, Glycine, Disodium EDTA, Pentaerythrity Tetra-di-butyl Hydroxyhydrocinnamate, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Citronellol, Eugenol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool",
-      "image_url": "https://images.openbeautyfacts.org/images/products/000/005/909/5842/front_en.41.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/59095842"
-    },
-    {
       "code": "4005900243553",
       "product_name": "Nivea men Protect & Care",
       "brands": "Nivea Men",
@@ -1455,6 +1442,19 @@
       "ingredients_text": "Aqua, Aluminium chlorohydrate, PPG-15 stearyl ether, Steareth-2, Steareth-21, Parfum, Glycerin, Panthenol, Octyldodecanol, Persea Gratissima oil, Trisodium EDTA, Limoene, Linalool, Coumarin, Geraniol",
       "image_url": "https://images.openbeautyfacts.org/images/products/400/590/024/3553/front_en.13.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/4005900243553"
+    },
+    {
+      "code": "59095842",
+      "product_name": "Dove Advanced Care Anti-Transpirant Deodorant Roller Original 50 ML",
+      "brands": "Dove",
+      "category": "데오드란트",
+      "obf_category": "deodorants",
+      "countries": [
+        "Netherlands"
+      ],
+      "ingredients_text": "Aqua, Glycerin, Aluminum Sesquichlorohydrate, Helianthus Annuus Seed Oil, Steareth-2, Parfum, Steareth-20, Calcium Chloride, Glycine, Disodium EDTA, Pentaerythrity Tetra-di-butyl Hydroxyhydrocinnamate, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Citronellol, Eugenol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool",
+      "image_url": "https://images.openbeautyfacts.org/images/products/000/005/909/5842/front_en.41.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/59095842"
     },
     {
       "code": "3600551146188",

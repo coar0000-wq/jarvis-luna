@@ -2,8 +2,8 @@
 title: "Record 031 · Auditing-Anonymous-AI-Models-A-Four-Stage-Protocol-for-Black-Box-Ident"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.857453+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.433304+00:00
+tags: [record, real-data]
 ---
 
 # Record 031 · Auditing-Anonymous-AI-Models-A-Four-Stage-Protocol-for-Black-Box-Ident
@@ -18,4 +18,4 @@ Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verif
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

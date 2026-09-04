@@ -2,8 +2,8 @@
 title: "Record 016 · InstructMesh-Selective-Refinement-of-Generative-3D-Models-for-Fabricat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.856502+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.431195+00:00
+tags: [record, real-data]
 ---
 
 # Record 016 · InstructMesh-Selective-Refinement-of-Generative-3D-Models-for-Fabricat
@@ -18,4 +18,4 @@ InstructMesh: Selective Refinement of Generative 3D Models for Fabrication
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Image-Generation]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

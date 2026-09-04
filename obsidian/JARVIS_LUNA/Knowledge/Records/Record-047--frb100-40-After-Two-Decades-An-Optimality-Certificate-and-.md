@@ -2,8 +2,8 @@
 title: "Record 047 · frb100-40-After-Two-Decades-An-Optimality-Certificate-and-a-Preregiste"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.858449+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.435518+00:00
+tags: [record, real-data]
 ---
 
 # Record 047 · frb100-40-After-Two-Decades-An-Optimality-Certificate-and-a-Preregiste
@@ -18,4 +18,4 @@ frb100-40 After Two Decades: An Optimality Certificate and a Preregistered Searc
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

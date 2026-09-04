@@ -2,8 +2,8 @@
 title: "Record 007 · Fidelity-Is-Not-Enough-Dispatch-Level-Instrumentation-for-Agentic-Data"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.855489+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.429917+00:00
+tags: [record, real-data]
 ---
 
 # Record 007 · Fidelity-Is-Not-Enough-Dispatch-Level-Instrumentation-for-Agentic-Data
@@ -18,4 +18,4 @@ Fidelity Is Not Enough: Dispatch-Level Instrumentation for Agentic Datasheet Ext
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,8 @@
 title: "Record 026 · Cross-Regional-Grapevine-Cold-Hardiness-Prediction-via-Learned-Multimo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.857125+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.432577+00:00
+tags: [record, real-data]
 ---
 
 # Record 026 · Cross-Regional-Grapevine-Cold-Hardiness-Prediction-via-Learned-Multimo
@@ -18,4 +18,4 @@ Cross-Regional Grapevine Cold Hardiness Prediction via Learned Multimodal Latent
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

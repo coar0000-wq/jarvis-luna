@@ -2,8 +2,8 @@
 title: "Record 045 · SafeEvolve-Harness-Policy-Co-Evolution-from-Agent-Experience-for-Safet"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.858312+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.435242+00:00
+tags: [record, real-data]
 ---
 
 # Record 045 · SafeEvolve-Harness-Policy-Co-Evolution-from-Agent-Experience-for-Safet
@@ -18,4 +18,4 @@ SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignme
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

@@ -347,9 +347,9 @@ Get-EventLog -LogName Application -Source "TaskScheduler" |
 
 ## 🔗 관련 가이드
 
-- [[GIT_BACKUP_GUIDE.md]] - Git 자동 백업 설정
-- [[TEMPLATE_USAGE_GUIDE.md]] - 새 그래프 생성
-- [[GRAPH_TEMPLATE.md]] - 그래프 템플릿
+- [[GIT_BACKUP_GUIDE]] - Git 자동 백업 설정
+- [[TEMPLATE_USAGE_GUIDE]] - 새 그래프 생성
+- [[GRAPH_TEMPLATE]] - 그래프 템플릿
 
 ---
 

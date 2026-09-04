@@ -2,8 +2,8 @@
 title: "Record 008 · Learning-to-Use-Tools-Reinforcement-Learning-for-Tool-Integrated-Mathe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.855546+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.430087+00:00
+tags: [record, real-data]
 ---
 
 # Record 008 · Learning-to-Use-Tools-Reinforcement-Learning-for-Tool-Integrated-Mathe
@@ -18,4 +18,4 @@ Learning to Use Tools: Reinforcement Learning for Tool-Integrated Mathematical R
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[머신러닝-연구]] [[과학수학]] [[JARVIS Real Knowledge Index]]

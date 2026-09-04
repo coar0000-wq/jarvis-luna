@@ -2,8 +2,8 @@
 title: "Record 001 · TikTok-Creative-Center"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.855056+00:00
-tags: [knowledge-graph, record]
+updated_at: 2026-09-04T09:18:25.428904+00:00
+tags: [record, real-data]
 ---
 
 # Record 001 · TikTok-Creative-Center
@@ -18,4 +18,4 @@ TikTok Creative Center
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[AI-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

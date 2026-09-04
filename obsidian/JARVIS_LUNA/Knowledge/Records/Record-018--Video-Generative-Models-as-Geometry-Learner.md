@@ -2,8 +2,8 @@
 title: "Record 018 · Video-Generative-Models-as-Geometry-Learner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.856620+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.431438+00:00
+tags: [record, real-data]
 ---
 
 # Record 018 · Video-Generative-Models-as-Geometry-Learner
@@ -18,4 +18,4 @@ Video Generative Models as Geometry Learner
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Image-Generation]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

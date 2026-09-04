@@ -2,8 +2,8 @@
 title: "Record 035 · Selective-Agent-Guidance-via-Entropy-Learning-Autonomous-Policies-from"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.857693+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.433869+00:00
+tags: [record, real-data]
 ---
 
 # Record 035 · Selective-Agent-Guidance-via-Entropy-Learning-Autonomous-Policies-from
@@ -18,4 +18,4 @@ Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfec
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

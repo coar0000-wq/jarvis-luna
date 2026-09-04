@@ -2,8 +2,8 @@
 title: "Record 010 · Anatomy-Aware-Promptable-Segmentation-with-Online-Interactive-Training"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.856018+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.430355+00:00
+tags: [record, real-data]
 ---
 
 # Record 010 · Anatomy-Aware-Promptable-Segmentation-with-Online-Interactive-Training
@@ -18,4 +18,4 @@ Anatomy-Aware Promptable Segmentation with Online Interactive Training for AUTOP
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

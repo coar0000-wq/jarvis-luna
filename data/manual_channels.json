@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T06:18:15.665133+00:00",
+  "generated_at": "2026-09-04T09:18:21.409846+00:00",
   "generator": "scripts/ingest_manual_channels.py",
   "input_dir": "data/manual/",
   "trust_note": "사람이 실제 페이지를 보고 넣은 값이다. 자동 수집이 불가능한 채널을 채우는 정식 경로다. 특정 시점 스냅샷이라 30일이 지나면 오래된 데이터로 표시한다.",

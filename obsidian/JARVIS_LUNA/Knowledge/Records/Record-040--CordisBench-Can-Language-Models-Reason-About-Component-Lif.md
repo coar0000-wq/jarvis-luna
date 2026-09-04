@@ -2,8 +2,8 @@
 title: "Record 040 · CordisBench-Can-Language-Models-Reason-About-Component-Lifecycles-in-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.857986+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.434538+00:00
+tags: [record, real-data]
 ---
 
 # Record 040 · CordisBench-Can-Language-Models-Reason-About-Component-Lifecycles-in-D
@@ -18,4 +18,4 @@ CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Ag
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[AI-에이전트]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

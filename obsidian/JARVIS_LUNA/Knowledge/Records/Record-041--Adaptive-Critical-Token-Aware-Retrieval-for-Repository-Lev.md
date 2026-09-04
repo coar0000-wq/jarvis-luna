@@ -2,8 +2,8 @@
 title: "Record 041 · Adaptive-Critical-Token-Aware-Retrieval-for-Repository-Level-Code-Gene"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.858050+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.434655+00:00
+tags: [record, real-data]
 ---
 
 # Record 041 · Adaptive-Critical-Token-Aware-Retrieval-for-Repository-Level-Code-Gene
@@ -18,4 +18,4 @@ Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

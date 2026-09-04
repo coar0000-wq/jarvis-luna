@@ -2,8 +2,8 @@
 title: "Record 052 · Discriminative-World-Models-for-Web-Agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.858748+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.436261+00:00
+tags: [record, real-data]
 ---
 
 # Record 052 · Discriminative-World-Models-for-Web-Agents
@@ -18,4 +18,4 @@ Discriminative World Models for Web Agents
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

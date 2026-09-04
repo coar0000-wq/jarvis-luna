@@ -2,8 +2,8 @@
 title: "Record 012 · COVER-Identifiable-Evaluation-of-Coalition-Routing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.856244+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.430631+00:00
+tags: [record, real-data]
 ---
 
 # Record 012 · COVER-Identifiable-Evaluation-of-Coalition-Routing
@@ -18,4 +18,4 @@ COVER: Identifiable Evaluation of Coalition Routing
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Model-Routing-and-MoE]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T07:08:27.590355+00:00",
+  "generated_at": "2026-09-04T09:33:03.295860+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "technology news",
+          "keyword": "new iphone release date",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Fri, 4 Sep 2026 01:30:00 -0700",
+          "source_name": "TechRepublic",
+          "url": "https://trends.google.com/trending?geo=US&q=new%20iphone%20release%20date"
+        },
+        {
+          "keyword": "falkland islands",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Thu, 3 Sep 2026 22:00:00 -0700",
-          "source_name": "XBOX Wire",
-          "url": "https://trends.google.com/trending?geo=US&q=technology%20news"
+          "published": "Fri, 4 Sep 2026 02:00:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=falkland%20islands"
         },
         {
-          "keyword": "何勇",
+          "keyword": "trump games",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Fri, 4 Sep 2026 01:30:00 -0700",
+          "source_name": "AP News",
+          "url": "https://trends.google.com/trending?geo=US&q=trump%20games"
+        },
+        {
+          "keyword": "weather today",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Fri, 4 Sep 2026 01:50:00 -0700",
+          "source_name": "FOX Weather",
+          "url": "https://trends.google.com/trending?geo=US&q=weather%20today"
+        },
+        {
+          "keyword": "ncaa football scores",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 3 Sep 2026 22:50:00 -0700",
-          "source_name": "凤凰网",
-          "url": "https://trends.google.com/trending?geo=US&q=%E4%BD%95%E5%8B%87"
+          "published": "Fri, 4 Sep 2026 02:00:00 -0700",
+          "source_name": "West Texas A&M University Athletics",
+          "url": "https://trends.google.com/trending?geo=US&q=ncaa%20football%20scores"
         },
         {
-          "keyword": "tarik skubal",
+          "keyword": "college football scores",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 3 Sep 2026 22:40:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=tarik%20skubal"
-        },
-        {
-          "keyword": "cryptocurrency trading",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 3 Sep 2026 23:50:00 -0700",
-          "source_name": "Reuters",
-          "url": "https://trends.google.com/trending?geo=US&q=cryptocurrency%20trading"
-        },
-        {
-          "keyword": "miami hurricanes football",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 3 Sep 2026 23:20:00 -0700",
+          "published": "Fri, 4 Sep 2026 01:50:00 -0700",
           "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=miami%20hurricanes%20football"
+          "url": "https://trends.google.com/trending?geo=US&q=college%20football%20scores"
         },
         {
-          "keyword": "shilo sanders",
+          "keyword": "wtae",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Thu, 3 Sep 2026 22:50:00 -0700",
-          "source_name": "USA Today",
-          "url": "https://trends.google.com/trending?geo=US&q=shilo%20sanders"
+          "published": "Fri, 4 Sep 2026 02:00:00 -0700",
+          "source_name": "TribLIVE.com",
+          "url": "https://trends.google.com/trending?geo=US&q=wtae"
         },
         {
-          "keyword": "amc stock",
+          "keyword": "lottery near me",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Thu, 3 Sep 2026 22:50:00 -0700",
-          "source_name": "CoinDesk",
-          "url": "https://trends.google.com/trending?geo=US&q=amc%20stock"
+          "published": "Fri, 4 Sep 2026 01:30:00 -0700",
+          "source_name": "6abc Philadelphia",
+          "url": "https://trends.google.com/trending?geo=US&q=lottery%20near%20me"
         },
         {
-          "keyword": "brendan fraser",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 3 Sep 2026 22:20:00 -0700",
-          "source_name": "IMDb",
-          "url": "https://trends.google.com/trending?geo=US&q=brendan%20fraser"
+          "keyword": "fanduel free bet",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Fri, 4 Sep 2026 02:10:00 -0700",
+          "source_name": "WTOP News",
+          "url": "https://trends.google.com/trending?geo=US&q=fanduel%20free%20bet"
         },
         {
-          "keyword": "kyle tucker",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 3 Sep 2026 22:20:00 -0700",
-          "source_name": "FantasyPros",
-          "url": "https://trends.google.com/trending?geo=US&q=kyle%20tucker"
-        },
-        {
-          "keyword": "riley o'brien",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 3 Sep 2026 22:10:00 -0700",
-          "source_name": "NBC Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=riley%20o%27brien"
+          "keyword": "idscan",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Fri, 4 Sep 2026 01:50:00 -0700",
+          "source_name": "Ars Technica",
+          "url": "https://trends.google.com/trending?geo=US&q=idscan"
         }
       ]
     },

@@ -2,8 +2,8 @@
 title: "Record 009 · ARC-CT-Anatomy-Routed-Contrastive-Vision-Language-Learning-for-3D-Ches"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.855600+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.430217+00:00
+tags: [record, real-data]
 ---
 
 # Record 009 · ARC-CT-Anatomy-Routed-Contrastive-Vision-Language-Learning-for-3D-Ches
@@ -18,4 +18,4 @@ ARC-CT: Anatomy-Routed Contrastive Vision-Language Learning for 3D Chest CT
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Image-Generation]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

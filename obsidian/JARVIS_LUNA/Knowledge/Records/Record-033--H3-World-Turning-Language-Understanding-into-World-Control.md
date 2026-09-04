@@ -2,8 +2,8 @@
 title: "Record 033 · H3-World-Turning-Language-Understanding-into-World-Control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.857587+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.433554+00:00
+tags: [record, real-data]
 ---
 
 # Record 033 · H3-World-Turning-Language-Understanding-into-World-Control
@@ -18,4 +18,4 @@ H3-World: Turning Language Understanding into World Control
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

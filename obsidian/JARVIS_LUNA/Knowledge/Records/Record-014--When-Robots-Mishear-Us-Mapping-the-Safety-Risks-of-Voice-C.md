@@ -2,8 +2,8 @@
 title: "Record 014 · When-Robots-Mishear-Us-Mapping-the-Safety-Risks-of-Voice-Controlled-Em"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.856390+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.430899+00:00
+tags: [record, real-data]
 ---
 
 # Record 014 · When-Robots-Mishear-Us-Mapping-the-Safety-Risks-of-Voice-Controlled-Em
@@ -18,4 +18,4 @@ When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[로보틱스]] [[음성오디오]] [[JARVIS Real Knowledge Index]]

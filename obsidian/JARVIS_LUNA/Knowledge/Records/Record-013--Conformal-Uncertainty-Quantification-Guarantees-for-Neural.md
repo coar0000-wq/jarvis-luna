@@ -2,8 +2,8 @@
 title: "Record 013 · Conformal-Uncertainty-Quantification-Guarantees-for-Neural-Operators"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.856316+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.430786+00:00
+tags: [record, real-data]
 ---
 
 # Record 013 · Conformal-Uncertainty-Quantification-Guarantees-for-Neural-Operators
@@ -18,4 +18,4 @@ Conformal Uncertainty Quantification Guarantees for Neural Operators
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

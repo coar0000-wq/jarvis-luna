@@ -2,8 +2,8 @@
 title: "Record 037 · Designing-Proactive-Thought-Partners-for-Writing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.857804+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.434128+00:00
+tags: [record, real-data]
 ---
 
 # Record 037 · Designing-Proactive-Thought-Partners-for-Writing
@@ -18,4 +18,4 @@ Designing Proactive Thought Partners for Writing
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

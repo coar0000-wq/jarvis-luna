@@ -2,8 +2,8 @@
 title: "Record 024 · Reconciling-Process-Supervision-with-Outcome-Based-Credit-in-Agentic-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.856996+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.432293+00:00
+tags: [record, real-data]
 ---
 
 # Record 024 · Reconciling-Process-Supervision-with-Outcome-Based-Credit-in-Agentic-P
@@ -18,4 +18,4 @@ Reconciling Process Supervision with Outcome-Based Credit in Agentic Policy Opti
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Image-Generation]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[AI-에이전트]] [[컴퓨터-비전]] [[투자은행금융]] [[JARVIS Real Knowledge Index]]

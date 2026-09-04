@@ -2,8 +2,8 @@
 title: "Record 025 · Token-Efficient-Data-Reasoning-Agents-via-Adaptive-Structuring-of-Unst"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.857052+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.432415+00:00
+tags: [record, real-data]
 ---
 
 # Record 025 · Token-Efficient-Data-Reasoning-Agents-via-Adaptive-Structuring-of-Unst
@@ -18,4 +18,4 @@ Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured D
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

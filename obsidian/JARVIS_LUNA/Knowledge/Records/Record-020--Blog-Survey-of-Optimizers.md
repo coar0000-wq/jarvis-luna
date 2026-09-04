@@ -2,8 +2,8 @@
 title: "Record 020 · Blog-Survey-of-Optimizers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.856721+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.431689+00:00
+tags: [record, real-data]
 ---
 
 # Record 020 · Blog-Survey-of-Optimizers
@@ -18,4 +18,4 @@ Blog: Survey of Optimizers
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

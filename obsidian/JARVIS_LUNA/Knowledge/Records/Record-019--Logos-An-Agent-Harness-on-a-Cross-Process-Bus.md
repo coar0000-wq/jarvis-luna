@@ -2,8 +2,8 @@
 title: "Record 019 · Logos-An-Agent-Harness-on-a-Cross-Process-Bus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.856671+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.431574+00:00
+tags: [record, real-data]
 ---
 
 # Record 019 · Logos-An-Agent-Harness-on-a-Cross-Process-Bus
@@ -18,4 +18,4 @@ Logos: An Agent Harness on a Cross-Process Bus
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

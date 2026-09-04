@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T06:57:52.689685+00:00",
+  "generated_at": "2026-09-04T09:32:46.702243+00:00",
   "exchange_rate": {
     "usd_to_krw": 1356.73,
     "as_of": "2026-09-04",
@@ -21,9 +21,9 @@
     ]
   },
   "market_benchmark": {
-    "min": 5.44,
-    "p25": 16.92,
-    "median": 22.8,
+    "min": 5.0,
+    "p25": 19.79,
+    "median": 24.59,
     "max": 279.0,
     "n": 100,
     "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-04)"
@@ -40,31 +40,31 @@
     "single": {
       "qty": 1,
       "discount_pct": 0,
-      "price_usd": 16.99,
-      "unit_price_usd": 16.99,
-      "landed_cost_total_usd": 10.45,
-      "shipping_in_cost_usd": 7.05,
-      "fee_usd": 1.26,
-      "net_profit_usd": 5.29,
-      "margin_pct": 31.1,
+      "price_usd": 19.99,
+      "unit_price_usd": 19.99,
+      "landed_cost_total_usd": 10.5,
+      "shipping_in_cost_usd": 7.11,
+      "fee_usd": 1.48,
+      "net_profit_usd": 8.01,
+      "margin_pct": 40.1,
       "free_shipping": false,
-      "orders_for_500usd": 95
+      "orders_for_500usd": 62
     },
     "bundle": {
       "qty": 2,
       "discount_pct": 15,
-      "price_usd": 28.99,
-      "unit_price_usd": 14.49,
-      "landed_cost_total_usd": 15.13,
-      "shipping_in_cost_usd": 8.35,
-      "fee_usd": 2.15,
-      "net_profit_usd": 11.71,
-      "margin_pct": 40.4,
+      "price_usd": 33.99,
+      "unit_price_usd": 17.0,
+      "landed_cost_total_usd": 15.19,
+      "shipping_in_cost_usd": 8.41,
+      "fee_usd": 2.52,
+      "net_profit_usd": 16.29,
+      "margin_pct": 47.9,
       "free_shipping": true,
-      "orders_for_500usd": 43
+      "orders_for_500usd": 31
     },
     "free_shipping_min_qty": 2,
-    "bundle_vs_single": 2.2,
+    "bundle_vs_single": 2.0,
     "판단_근거": "15% 할인을 고른 이유: 5~10%는 미국 소비자에게 체감이 없고, 20%면 마진이 36.7%로 떨어져 반품·파손 완충이 사라진다. 15%면 마진 40%를 지키면서 단품 대비 순익 2.2배다. 무료배송은 2개 주문 배송비가 이미 원가에 포함돼 추가 부담이 없다.",
     "광고비": "0 (매출이 붙기 전까지 광고하지 않기로 결정)"
   },
@@ -95,16 +95,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 4.49,
-          "margin_pct": 26.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.14,
+          "margin_pct": 36.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 9.93,
-          "margin_pct": 43.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 11.59,
+          "margin_pct": 47.1
         }
       },
       {
@@ -132,16 +132,16 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 0.79,
-          "margin_pct": 4.6
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 3.44,
+          "margin_pct": 17.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 6.23,
-          "margin_pct": 27.3
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 7.89,
+          "margin_pct": 32.1
         }
       },
       {
@@ -169,16 +169,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 4.49,
-          "margin_pct": 26.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.14,
+          "margin_pct": 36.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 9.93,
-          "margin_pct": 43.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 11.59,
+          "margin_pct": 47.1
         }
       },
       {
@@ -206,16 +206,53 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.03,
-          "margin_pct": 41.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 9.69,
+          "margin_pct": 48.9
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 12.47,
-          "margin_pct": 54.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.13,
+          "margin_pct": 57.5
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.18,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 12.07,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -3.67,
+          "margin_pct": -45.3
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.14,
+          "margin_pct": 36.1
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 11.59,
+          "margin_pct": 47.1
         }
       },
       {
@@ -243,16 +280,16 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.77,
-          "margin_pct": 45.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.43,
+          "margin_pct": 52.7
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.22,
-          "margin_pct": 58.0
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.88,
+          "margin_pct": 60.5
         }
       },
       {
@@ -280,53 +317,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 4.49,
-          "margin_pct": 26.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.14,
+          "margin_pct": 36.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 9.93,
-          "margin_pct": 43.6
-        }
-      },
-      {
-        "pd_no": "1068776",
-        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 6.94,
-        "shipping_order_usd": 6.94,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 11.18,
-        "landed_cost_ddu_usd": 11.18,
-        "landed_cost_ddp_usd": 10.63,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.07,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -3.67,
-          "margin_pct": -45.3
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 4.49,
-          "margin_pct": 26.5
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 9.93,
-          "margin_pct": 43.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 11.59,
+          "margin_pct": 47.1
         }
       },
       {
@@ -354,16 +354,53 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 6.93,
-          "margin_pct": 40.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 9.58,
+          "margin_pct": 48.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 12.37,
-          "margin_pct": 54.3
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.03,
+          "margin_pct": 57.1
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 7.69,
+        "shipping_order_usd": 7.69,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.93,
+        "landed_cost_ddu_usd": 11.93,
+        "landed_cost_ddp_usd": 11.37,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 12.88,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -4.42,
+          "margin_pct": -54.5
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 6.4,
+          "margin_pct": 32.3
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 10.84,
+          "margin_pct": 44.1
         }
       },
       {
@@ -391,53 +428,16 @@
           "margin_pct": -102.4
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 6.18,
-          "margin_pct": 36.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 8.84,
+          "margin_pct": 44.7
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 11.63,
-          "margin_pct": 51.0
-        }
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 7.69,
-        "shipping_order_usd": 7.69,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 11.93,
-        "landed_cost_ddu_usd": 11.93,
-        "landed_cost_ddp_usd": 11.37,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.88,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -4.42,
-          "margin_pct": -54.5
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 3.74,
-          "margin_pct": 22.1
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 9.19,
-          "margin_pct": 40.3
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 13.28,
+          "margin_pct": 54.0
         }
       },
       {
@@ -465,23 +465,23 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 5.23,
-          "margin_pct": 30.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.89,
+          "margin_pct": 39.9
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 10.68,
-          "margin_pct": 46.8
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 12.33,
+          "margin_pct": 50.2
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 85,
+        "shopify_score": 86,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -502,53 +502,53 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.03,
-          "margin_pct": 41.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 9.69,
+          "margin_pct": 48.9
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 12.47,
-          "margin_pct": 54.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.13,
+          "margin_pct": 57.5
         }
       },
       {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 82,
+        "pd_no": "1060494",
+        "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 83,
         "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 136,
+        "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 6.2,
-        "shipping_order_usd": 6.2,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 10.44,
-        "landed_cost_ddu_usd": 10.44,
-        "landed_cost_ddp_usd": 9.88,
+        "landed_cost_usd": 11.18,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.27,
+        "breakeven_usd": 12.07,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
-          "profit": -2.93,
-          "margin_pct": -36.1
+          "profit": -3.67,
+          "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 5.23,
-          "margin_pct": 30.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.14,
+          "margin_pct": 36.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 10.68,
-          "margin_pct": 46.8
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 11.59,
+          "margin_pct": 47.1
         }
       }
     ],
@@ -578,16 +578,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.59,
-          "margin_pct": 44.8
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.24,
+          "margin_pct": 51.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.03,
-          "margin_pct": 57.2
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.69,
+          "margin_pct": 59.7
         }
       },
       {
@@ -615,16 +615,16 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 4.01,
-          "margin_pct": 23.7
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 6.67,
+          "margin_pct": 33.7
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 9.46,
-          "margin_pct": 41.5
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 11.11,
+          "margin_pct": 45.2
         }
       },
       {
@@ -652,16 +652,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.59,
-          "margin_pct": 44.8
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.24,
+          "margin_pct": 51.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.03,
-          "margin_pct": 57.2
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.69,
+          "margin_pct": 59.7
         }
       },
       {
@@ -689,16 +689,53 @@
           "margin_pct": -89.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.76,
-          "margin_pct": 57.7
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.41,
+          "margin_pct": 62.7
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.2,
-          "margin_pct": 66.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.86,
+          "margin_pct": 68.6
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 3.84,
+        "shipping_order_usd": 7.69,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 8.08,
+        "landed_cost_ddu_usd": 8.08,
+        "landed_cost_ddp_usd": 7.53,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.73,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -0.57,
+          "margin_pct": -7.1
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.24,
+          "margin_pct": 51.8
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.69,
+          "margin_pct": 59.7
         }
       },
       {
@@ -726,16 +763,16 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.5,
-          "margin_pct": 62.1
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.16,
+          "margin_pct": 66.5
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.95,
-          "margin_pct": 69.9
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.6,
+          "margin_pct": 71.6
         }
       },
       {
@@ -763,53 +800,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.59,
-          "margin_pct": 44.8
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.24,
+          "margin_pct": 51.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.03,
-          "margin_pct": 57.2
-        }
-      },
-      {
-        "pd_no": "1068776",
-        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 3.84,
-        "shipping_order_usd": 7.69,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 8.08,
-        "landed_cost_ddu_usd": 8.08,
-        "landed_cost_ddp_usd": 7.53,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.73,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -0.57,
-          "margin_pct": -7.1
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.59,
-          "margin_pct": 44.8
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.03,
-          "margin_pct": 57.2
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.69,
+          "margin_pct": 59.7
         }
       },
       {
@@ -837,16 +837,53 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.03,
-          "margin_pct": 59.3
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.68,
+          "margin_pct": 64.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.47,
-          "margin_pct": 67.9
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.13,
+          "margin_pct": 69.7
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 5.32,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 9.56,
+        "landed_cost_ddu_usd": 9.56,
+        "landed_cost_ddp_usd": 9.01,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 10.32,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -2.05,
+          "margin_pct": -25.3
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 8.77,
+          "margin_pct": 44.3
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 13.21,
+          "margin_pct": 53.7
         }
       },
       {
@@ -874,53 +911,16 @@
           "margin_pct": -46.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.91,
-          "margin_pct": 52.7
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.57,
+          "margin_pct": 58.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.35,
-          "margin_pct": 63.0
-        }
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 5.32,
-        "shipping_order_usd": 10.64,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 9.56,
-        "landed_cost_ddu_usd": 9.56,
-        "landed_cost_ddp_usd": 9.01,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.32,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -2.05,
-          "margin_pct": -25.3
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 6.11,
-          "margin_pct": 36.1
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 11.55,
-          "margin_pct": 50.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.01,
+          "margin_pct": 65.1
         }
       },
       {
@@ -948,23 +948,23 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.96,
-          "margin_pct": 47.0
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.62,
+          "margin_pct": 53.6
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.4,
-          "margin_pct": 58.8
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.06,
+          "margin_pct": 61.2
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 85,
+        "shopify_score": 86,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -985,53 +985,53 @@
           "margin_pct": -89.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.76,
-          "margin_pct": 57.7
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.41,
+          "margin_pct": 62.7
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.2,
-          "margin_pct": 66.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.86,
+          "margin_pct": 68.6
         }
       },
       {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 82,
+        "pd_no": "1060494",
+        "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 83,
         "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 136,
+        "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.94,
+        "shipping_unit_usd": 3.84,
+        "shipping_order_usd": 7.69,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.71,
-        "landed_cost_ddu_usd": 7.71,
-        "landed_cost_ddp_usd": 7.16,
+        "landed_cost_usd": 8.08,
+        "landed_cost_ddu_usd": 8.08,
+        "landed_cost_ddp_usd": 7.53,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.33,
+        "breakeven_usd": 8.73,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
-          "profit": -0.2,
-          "margin_pct": -2.5
+          "profit": -0.57,
+          "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.96,
-          "margin_pct": 47.0
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.24,
+          "margin_pct": 51.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.4,
-          "margin_pct": 58.8
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.69,
+          "margin_pct": 59.7
         }
       }
     ],
@@ -1061,16 +1061,16 @@
           "margin_pct": 5.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.62,
-          "margin_pct": 50.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.28,
+          "margin_pct": 57.0
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.06,
-          "margin_pct": 61.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.72,
+          "margin_pct": 63.9
         }
       },
       {
@@ -1098,16 +1098,16 @@
           "margin_pct": -39.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 4.99,
-          "margin_pct": 29.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.65,
+          "margin_pct": 38.6
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 10.44,
-          "margin_pct": 45.8
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 12.09,
+          "margin_pct": 49.2
         }
       },
       {
@@ -1135,16 +1135,16 @@
           "margin_pct": 5.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.62,
-          "margin_pct": 50.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.28,
+          "margin_pct": 57.0
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.06,
-          "margin_pct": 61.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.72,
+          "margin_pct": 63.9
         }
       },
       {
@@ -1172,16 +1172,53 @@
           "margin_pct": -69.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.42,
-          "margin_pct": 61.6
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.08,
+          "margin_pct": 66.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.87,
-          "margin_pct": 69.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.53,
+          "margin_pct": 71.3
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.81,
+        "shipping_order_usd": 8.43,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.05,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.5,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 7.61,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": 0.46,
+          "margin_pct": 5.7
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.28,
+          "margin_pct": 57.0
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.72,
+          "margin_pct": 63.9
         }
       },
       {
@@ -1209,16 +1246,16 @@
           "margin_pct": -38.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 11.41,
-          "margin_pct": 67.4
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 14.07,
+          "margin_pct": 71.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.86,
-          "margin_pct": 73.9
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 18.51,
+          "margin_pct": 75.3
         }
       },
       {
@@ -1246,53 +1283,16 @@
           "margin_pct": 5.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.62,
-          "margin_pct": 50.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.28,
+          "margin_pct": 57.0
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.06,
-          "margin_pct": 61.7
-        }
-      },
-      {
-        "pd_no": "1068776",
-        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 2.81,
-        "shipping_order_usd": 8.43,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.05,
-        "landed_cost_ddu_usd": 7.05,
-        "landed_cost_ddp_usd": 6.5,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 7.61,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": 0.46,
-          "margin_pct": 5.7
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.62,
-          "margin_pct": 50.9
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.06,
-          "margin_pct": 61.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.72,
+          "margin_pct": 63.9
         }
       },
       {
@@ -1320,16 +1320,53 @@
           "margin_pct": -7.2
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.81,
-          "margin_pct": 63.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.47,
+          "margin_pct": 68.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.26,
-          "margin_pct": 71.3
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.91,
+          "margin_pct": 72.8
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 4.25,
+        "shipping_order_usd": 12.74,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 8.49,
+        "landed_cost_ddu_usd": 8.49,
+        "landed_cost_ddp_usd": 7.93,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 9.16,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -0.98,
+          "margin_pct": -12.1
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 9.84,
+          "margin_pct": 49.7
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.28,
+          "margin_pct": 58.1
         }
       },
       {
@@ -1357,53 +1394,16 @@
           "margin_pct": -32.6
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.58,
-          "margin_pct": 56.6
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.23,
+          "margin_pct": 61.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.02,
-          "margin_pct": 65.9
-        }
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 4.25,
-        "shipping_order_usd": 12.74,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 8.49,
-        "landed_cost_ddu_usd": 8.49,
-        "landed_cost_ddp_usd": 7.93,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.16,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -0.98,
-          "margin_pct": -12.1
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.18,
-          "margin_pct": 42.4
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 12.63,
-          "margin_pct": 55.4
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.68,
+          "margin_pct": 67.8
         }
       },
       {
@@ -1431,23 +1431,23 @@
           "margin_pct": 11.8
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.12,
-          "margin_pct": 53.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.77,
+          "margin_pct": 59.5
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.56,
-          "margin_pct": 63.9
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.22,
+          "margin_pct": 66.0
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 85,
+        "shopify_score": 86,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -1468,53 +1468,53 @@
           "margin_pct": -69.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.42,
-          "margin_pct": 61.6
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.08,
+          "margin_pct": 66.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.87,
-          "margin_pct": 69.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.53,
+          "margin_pct": 71.3
         }
       },
       {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 82,
+        "pd_no": "1060494",
+        "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 83,
         "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 136,
+        "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 2.31,
-        "shipping_order_usd": 6.94,
+        "shipping_unit_usd": 3.31,
+        "shipping_order_usd": 9.94,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 6.55,
-        "landed_cost_ddu_usd": 6.55,
-        "landed_cost_ddp_usd": 6.0,
+        "landed_cost_usd": 7.55,
+        "landed_cost_ddu_usd": 7.55,
+        "landed_cost_ddp_usd": 7.0,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 7.08,
+        "breakeven_usd": 8.16,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
-          "profit": 0.96,
-          "margin_pct": 11.8
+          "profit": -0.04,
+          "margin_pct": -0.6
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.12,
-          "margin_pct": 53.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.77,
+          "margin_pct": 54.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.56,
-          "margin_pct": 63.9
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.22,
+          "margin_pct": 61.9
         }
       }
     ],
@@ -1544,16 +1544,16 @@
           "margin_pct": 14.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.3,
-          "margin_pct": 55.0
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.96,
+          "margin_pct": 60.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.75,
-          "margin_pct": 64.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.4,
+          "margin_pct": 66.7
         }
       },
       {
@@ -1581,16 +1581,16 @@
           "margin_pct": -21.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 6.45,
-          "margin_pct": 38.1
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 9.1,
+          "margin_pct": 46.0
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 11.89,
-          "margin_pct": 52.2
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 13.55,
+          "margin_pct": 55.1
         }
       },
       {
@@ -1618,16 +1618,16 @@
           "margin_pct": 14.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.3,
-          "margin_pct": 55.0
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.96,
+          "margin_pct": 60.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.75,
-          "margin_pct": 64.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.4,
+          "margin_pct": 66.7
         }
       },
       {
@@ -1655,16 +1655,53 @@
           "margin_pct": -42.5
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 11.29,
-          "margin_pct": 66.7
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.94,
+          "margin_pct": 70.5
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.73,
-          "margin_pct": 73.4
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 18.39,
+          "margin_pct": 74.8
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.13,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 6.37,
+        "landed_cost_ddu_usd": 6.37,
+        "landed_cost_ddp_usd": 5.81,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 6.88,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": 1.14,
+          "margin_pct": 14.1
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.96,
+          "margin_pct": 60.4
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.4,
+          "margin_pct": 66.7
         }
       },
       {
@@ -1692,16 +1729,16 @@
           "margin_pct": -21.0
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 11.98,
-          "margin_pct": 70.8
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 14.64,
+          "margin_pct": 74.0
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 17.43,
-          "margin_pct": 76.4
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 19.09,
+          "margin_pct": 77.6
         }
       },
       {
@@ -1729,53 +1766,16 @@
           "margin_pct": 14.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.3,
-          "margin_pct": 55.0
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.96,
+          "margin_pct": 60.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.75,
-          "margin_pct": 64.7
-        }
-      },
-      {
-        "pd_no": "1068776",
-        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 2.13,
-        "shipping_order_usd": 10.64,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 6.37,
-        "landed_cost_ddu_usd": 6.37,
-        "landed_cost_ddp_usd": 5.81,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.88,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": 1.14,
-          "margin_pct": 14.1
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.3,
-          "margin_pct": 55.0
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.75,
-          "margin_pct": 64.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.4,
+          "margin_pct": 66.7
         }
       },
       {
@@ -1803,16 +1803,53 @@
           "margin_pct": 8.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 11.59,
-          "margin_pct": 68.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 14.25,
+          "margin_pct": 72.0
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 17.03,
-          "margin_pct": 74.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 18.69,
+          "margin_pct": 76.0
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 17.71,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.78,
+        "landed_cost_ddu_usd": 7.78,
+        "landed_cost_ddp_usd": 7.23,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.4,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -0.27,
+          "margin_pct": -3.4
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.55,
+          "margin_pct": 53.3
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.99,
+          "margin_pct": 61.0
         }
       },
       {
@@ -1840,53 +1877,16 @@
           "margin_pct": -12.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.58,
-          "margin_pct": 62.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.23,
+          "margin_pct": 66.9
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.02,
-          "margin_pct": 70.3
-        }
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 3.54,
-        "shipping_order_usd": 17.71,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.78,
-        "landed_cost_ddu_usd": 7.78,
-        "landed_cost_ddp_usd": 7.23,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.4,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -0.27,
-          "margin_pct": -3.4
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.89,
-          "margin_pct": 46.6
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.33,
-          "margin_pct": 58.5
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.68,
+          "margin_pct": 71.9
         }
       },
       {
@@ -1914,23 +1914,23 @@
           "margin_pct": 21.4
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.89,
-          "margin_pct": 58.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.55,
+          "margin_pct": 63.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.34,
-          "margin_pct": 67.3
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.99,
+          "margin_pct": 69.1
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 85,
+        "shopify_score": 86,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -1951,53 +1951,53 @@
           "margin_pct": -42.5
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 11.29,
-          "margin_pct": 66.7
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.94,
+          "margin_pct": 70.5
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.73,
-          "margin_pct": 73.4
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 18.39,
+          "margin_pct": 74.8
         }
       },
       {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 82,
+        "pd_no": "1060494",
+        "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 83,
         "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 136,
+        "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 1.69,
-        "shipping_order_usd": 8.43,
+        "shipping_unit_usd": 2.27,
+        "shipping_order_usd": 11.34,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.92,
-        "landed_cost_ddu_usd": 5.92,
-        "landed_cost_ddp_usd": 5.37,
+        "landed_cost_usd": 6.51,
+        "landed_cost_ddu_usd": 6.51,
+        "landed_cost_ddp_usd": 5.95,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.4,
+        "breakeven_usd": 7.03,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
-          "profit": 1.58,
-          "margin_pct": 19.5
+          "profit": 1.0,
+          "margin_pct": 12.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.74,
-          "margin_pct": 57.6
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.82,
+          "margin_pct": 59.7
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.19,
-          "margin_pct": 66.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.26,
+          "margin_pct": 66.1
         }
       }
     ]
@@ -2029,16 +2029,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 4.49,
-          "margin_pct": 26.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.14,
+          "margin_pct": 36.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 9.93,
-          "margin_pct": 43.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 11.59,
+          "margin_pct": 47.1
         }
       },
       {
@@ -2066,16 +2066,16 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 0.79,
-          "margin_pct": 4.6
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 3.44,
+          "margin_pct": 17.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 6.23,
-          "margin_pct": 27.3
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 7.89,
+          "margin_pct": 32.1
         }
       },
       {
@@ -2103,16 +2103,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 4.49,
-          "margin_pct": 26.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.14,
+          "margin_pct": 36.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 9.93,
-          "margin_pct": 43.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 11.59,
+          "margin_pct": 47.1
         }
       },
       {
@@ -2140,16 +2140,53 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.03,
-          "margin_pct": 41.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 9.69,
+          "margin_pct": 48.9
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 12.47,
-          "margin_pct": 54.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.13,
+          "margin_pct": 57.5
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.18,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 12.07,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -3.67,
+          "margin_pct": -45.3
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.14,
+          "margin_pct": 36.1
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 11.59,
+          "margin_pct": 47.1
         }
       },
       {
@@ -2177,16 +2214,16 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.77,
-          "margin_pct": 45.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.43,
+          "margin_pct": 52.7
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.22,
-          "margin_pct": 58.0
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.88,
+          "margin_pct": 60.5
         }
       },
       {
@@ -2214,53 +2251,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 4.49,
-          "margin_pct": 26.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.14,
+          "margin_pct": 36.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 9.93,
-          "margin_pct": 43.6
-        }
-      },
-      {
-        "pd_no": "1068776",
-        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 6.94,
-        "shipping_order_usd": 6.94,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 11.18,
-        "landed_cost_ddu_usd": 11.18,
-        "landed_cost_ddp_usd": 10.63,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.07,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -3.67,
-          "margin_pct": -45.3
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 4.49,
-          "margin_pct": 26.5
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 9.93,
-          "margin_pct": 43.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 11.59,
+          "margin_pct": 47.1
         }
       },
       {
@@ -2288,16 +2288,53 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 6.93,
-          "margin_pct": 40.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 9.58,
+          "margin_pct": 48.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 12.37,
-          "margin_pct": 54.3
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.03,
+          "margin_pct": 57.1
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 7.69,
+        "shipping_order_usd": 7.69,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.93,
+        "landed_cost_ddu_usd": 11.93,
+        "landed_cost_ddp_usd": 11.37,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 12.88,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -4.42,
+          "margin_pct": -54.5
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 6.4,
+          "margin_pct": 32.3
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 10.84,
+          "margin_pct": 44.1
         }
       },
       {
@@ -2325,53 +2362,16 @@
           "margin_pct": -102.4
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 6.18,
-          "margin_pct": 36.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 8.84,
+          "margin_pct": 44.7
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 11.63,
-          "margin_pct": 51.0
-        }
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 7.69,
-        "shipping_order_usd": 7.69,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 11.93,
-        "landed_cost_ddu_usd": 11.93,
-        "landed_cost_ddp_usd": 11.37,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.88,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -4.42,
-          "margin_pct": -54.5
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 3.74,
-          "margin_pct": 22.1
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 9.19,
-          "margin_pct": 40.3
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 13.28,
+          "margin_pct": 54.0
         }
       },
       {
@@ -2399,23 +2399,23 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 5.23,
-          "margin_pct": 30.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.89,
+          "margin_pct": 39.9
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 10.68,
-          "margin_pct": 46.8
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 12.33,
+          "margin_pct": 50.2
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 85,
+        "shopify_score": 86,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -2436,53 +2436,53 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.03,
-          "margin_pct": 41.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 9.69,
+          "margin_pct": 48.9
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 12.47,
-          "margin_pct": 54.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.13,
+          "margin_pct": 57.5
         }
       },
       {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 82,
+        "pd_no": "1060494",
+        "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 83,
         "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 136,
+        "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 6.2,
-        "shipping_order_usd": 6.2,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 10.44,
-        "landed_cost_ddu_usd": 10.44,
-        "landed_cost_ddp_usd": 9.88,
+        "landed_cost_usd": 11.18,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.27,
+        "breakeven_usd": 12.07,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
-          "profit": -2.93,
-          "margin_pct": -36.1
+          "profit": -3.67,
+          "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 5.23,
-          "margin_pct": 30.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.14,
+          "margin_pct": 36.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 10.68,
-          "margin_pct": 46.8
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 11.59,
+          "margin_pct": 47.1
         }
       }
     ],
@@ -2512,16 +2512,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.59,
-          "margin_pct": 44.8
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.24,
+          "margin_pct": 51.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.03,
-          "margin_pct": 57.2
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.69,
+          "margin_pct": 59.7
         }
       },
       {
@@ -2549,16 +2549,16 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 4.01,
-          "margin_pct": 23.7
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 6.67,
+          "margin_pct": 33.7
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 9.46,
-          "margin_pct": 41.5
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 11.11,
+          "margin_pct": 45.2
         }
       },
       {
@@ -2586,16 +2586,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.59,
-          "margin_pct": 44.8
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.24,
+          "margin_pct": 51.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.03,
-          "margin_pct": 57.2
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.69,
+          "margin_pct": 59.7
         }
       },
       {
@@ -2623,16 +2623,53 @@
           "margin_pct": -89.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.76,
-          "margin_pct": 57.7
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.41,
+          "margin_pct": 62.7
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.2,
-          "margin_pct": 66.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.86,
+          "margin_pct": 68.6
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 3.84,
+        "shipping_order_usd": 7.69,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 8.08,
+        "landed_cost_ddu_usd": 8.08,
+        "landed_cost_ddp_usd": 7.53,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.73,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -0.57,
+          "margin_pct": -7.1
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.24,
+          "margin_pct": 51.8
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.69,
+          "margin_pct": 59.7
         }
       },
       {
@@ -2660,16 +2697,16 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.5,
-          "margin_pct": 62.1
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.16,
+          "margin_pct": 66.5
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.95,
-          "margin_pct": 69.9
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.6,
+          "margin_pct": 71.6
         }
       },
       {
@@ -2697,53 +2734,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.59,
-          "margin_pct": 44.8
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.24,
+          "margin_pct": 51.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.03,
-          "margin_pct": 57.2
-        }
-      },
-      {
-        "pd_no": "1068776",
-        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 3.84,
-        "shipping_order_usd": 7.69,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 8.08,
-        "landed_cost_ddu_usd": 8.08,
-        "landed_cost_ddp_usd": 7.53,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.73,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -0.57,
-          "margin_pct": -7.1
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.59,
-          "margin_pct": 44.8
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.03,
-          "margin_pct": 57.2
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.69,
+          "margin_pct": 59.7
         }
       },
       {
@@ -2771,16 +2771,53 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.03,
-          "margin_pct": 59.3
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.68,
+          "margin_pct": 64.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.47,
-          "margin_pct": 67.9
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.13,
+          "margin_pct": 69.7
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 5.32,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 9.56,
+        "landed_cost_ddu_usd": 9.56,
+        "landed_cost_ddp_usd": 9.01,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 10.32,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -2.05,
+          "margin_pct": -25.3
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 8.77,
+          "margin_pct": 44.3
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 13.21,
+          "margin_pct": 53.7
         }
       },
       {
@@ -2808,53 +2845,16 @@
           "margin_pct": -46.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.91,
-          "margin_pct": 52.7
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.57,
+          "margin_pct": 58.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.35,
-          "margin_pct": 63.0
-        }
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 5.32,
-        "shipping_order_usd": 10.64,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 9.56,
-        "landed_cost_ddu_usd": 9.56,
-        "landed_cost_ddp_usd": 9.01,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.32,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -2.05,
-          "margin_pct": -25.3
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 6.11,
-          "margin_pct": 36.1
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 11.55,
-          "margin_pct": 50.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.01,
+          "margin_pct": 65.1
         }
       },
       {
@@ -2882,23 +2882,23 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.96,
-          "margin_pct": 47.0
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.62,
+          "margin_pct": 53.6
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.4,
-          "margin_pct": 58.8
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.06,
+          "margin_pct": 61.2
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 85,
+        "shopify_score": 86,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -2919,53 +2919,53 @@
           "margin_pct": -89.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.76,
-          "margin_pct": 57.7
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.41,
+          "margin_pct": 62.7
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.2,
-          "margin_pct": 66.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.86,
+          "margin_pct": 68.6
         }
       },
       {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 82,
+        "pd_no": "1060494",
+        "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 83,
         "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 136,
+        "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.94,
+        "shipping_unit_usd": 3.84,
+        "shipping_order_usd": 7.69,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.71,
-        "landed_cost_ddu_usd": 7.71,
-        "landed_cost_ddp_usd": 7.16,
+        "landed_cost_usd": 8.08,
+        "landed_cost_ddu_usd": 8.08,
+        "landed_cost_ddp_usd": 7.53,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.33,
+        "breakeven_usd": 8.73,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
-          "profit": -0.2,
-          "margin_pct": -2.5
+          "profit": -0.57,
+          "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.96,
-          "margin_pct": 47.0
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.24,
+          "margin_pct": 51.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.4,
-          "margin_pct": 58.8
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.69,
+          "margin_pct": 59.7
         }
       }
     ],
@@ -2995,16 +2995,16 @@
           "margin_pct": 5.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.62,
-          "margin_pct": 50.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.28,
+          "margin_pct": 57.0
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.06,
-          "margin_pct": 61.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.72,
+          "margin_pct": 63.9
         }
       },
       {
@@ -3032,16 +3032,16 @@
           "margin_pct": -39.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 4.99,
-          "margin_pct": 29.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.65,
+          "margin_pct": 38.6
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 10.44,
-          "margin_pct": 45.8
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 12.09,
+          "margin_pct": 49.2
         }
       },
       {
@@ -3069,16 +3069,16 @@
           "margin_pct": 5.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.62,
-          "margin_pct": 50.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.28,
+          "margin_pct": 57.0
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.06,
-          "margin_pct": 61.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.72,
+          "margin_pct": 63.9
         }
       },
       {
@@ -3106,16 +3106,53 @@
           "margin_pct": -69.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.42,
-          "margin_pct": 61.6
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.08,
+          "margin_pct": 66.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.87,
-          "margin_pct": 69.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.53,
+          "margin_pct": 71.3
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.81,
+        "shipping_order_usd": 8.43,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.05,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.5,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 7.61,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": 0.46,
+          "margin_pct": 5.7
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.28,
+          "margin_pct": 57.0
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.72,
+          "margin_pct": 63.9
         }
       },
       {
@@ -3143,16 +3180,16 @@
           "margin_pct": -38.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 11.41,
-          "margin_pct": 67.4
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 14.07,
+          "margin_pct": 71.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.86,
-          "margin_pct": 73.9
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 18.51,
+          "margin_pct": 75.3
         }
       },
       {
@@ -3180,53 +3217,16 @@
           "margin_pct": 5.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.62,
-          "margin_pct": 50.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.28,
+          "margin_pct": 57.0
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.06,
-          "margin_pct": 61.7
-        }
-      },
-      {
-        "pd_no": "1068776",
-        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 2.81,
-        "shipping_order_usd": 8.43,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.05,
-        "landed_cost_ddu_usd": 7.05,
-        "landed_cost_ddp_usd": 6.5,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 7.61,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": 0.46,
-          "margin_pct": 5.7
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.62,
-          "margin_pct": 50.9
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.06,
-          "margin_pct": 61.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.72,
+          "margin_pct": 63.9
         }
       },
       {
@@ -3254,16 +3254,53 @@
           "margin_pct": -7.2
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.81,
-          "margin_pct": 63.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.47,
+          "margin_pct": 68.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.26,
-          "margin_pct": 71.3
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.91,
+          "margin_pct": 72.8
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 4.25,
+        "shipping_order_usd": 12.74,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 8.49,
+        "landed_cost_ddu_usd": 8.49,
+        "landed_cost_ddp_usd": 7.93,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 9.16,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -0.98,
+          "margin_pct": -12.1
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 9.84,
+          "margin_pct": 49.7
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.28,
+          "margin_pct": 58.1
         }
       },
       {
@@ -3291,53 +3328,16 @@
           "margin_pct": -32.6
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.58,
-          "margin_pct": 56.6
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.23,
+          "margin_pct": 61.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.02,
-          "margin_pct": 65.9
-        }
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 4.25,
-        "shipping_order_usd": 12.74,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 8.49,
-        "landed_cost_ddu_usd": 8.49,
-        "landed_cost_ddp_usd": 7.93,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.16,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -0.98,
-          "margin_pct": -12.1
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.18,
-          "margin_pct": 42.4
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 12.63,
-          "margin_pct": 55.4
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.68,
+          "margin_pct": 67.8
         }
       },
       {
@@ -3365,23 +3365,23 @@
           "margin_pct": 11.8
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.12,
-          "margin_pct": 53.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.77,
+          "margin_pct": 59.5
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.56,
-          "margin_pct": 63.9
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.22,
+          "margin_pct": 66.0
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 85,
+        "shopify_score": 86,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -3402,53 +3402,53 @@
           "margin_pct": -69.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.42,
-          "margin_pct": 61.6
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.08,
+          "margin_pct": 66.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.87,
-          "margin_pct": 69.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.53,
+          "margin_pct": 71.3
         }
       },
       {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 82,
+        "pd_no": "1060494",
+        "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 83,
         "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 136,
+        "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 2.31,
-        "shipping_order_usd": 6.94,
+        "shipping_unit_usd": 3.31,
+        "shipping_order_usd": 9.94,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 6.55,
-        "landed_cost_ddu_usd": 6.55,
-        "landed_cost_ddp_usd": 6.0,
+        "landed_cost_usd": 7.55,
+        "landed_cost_ddu_usd": 7.55,
+        "landed_cost_ddp_usd": 7.0,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 7.08,
+        "breakeven_usd": 8.16,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
-          "profit": 0.96,
-          "margin_pct": 11.8
+          "profit": -0.04,
+          "margin_pct": -0.6
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.12,
-          "margin_pct": 53.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.77,
+          "margin_pct": 54.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.56,
-          "margin_pct": 63.9
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.22,
+          "margin_pct": 61.9
         }
       }
     ],
@@ -3478,16 +3478,16 @@
           "margin_pct": 14.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.3,
-          "margin_pct": 55.0
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.96,
+          "margin_pct": 60.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.75,
-          "margin_pct": 64.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.4,
+          "margin_pct": 66.7
         }
       },
       {
@@ -3515,16 +3515,16 @@
           "margin_pct": -21.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 6.45,
-          "margin_pct": 38.1
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 9.1,
+          "margin_pct": 46.0
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 11.89,
-          "margin_pct": 52.2
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 13.55,
+          "margin_pct": 55.1
         }
       },
       {
@@ -3552,16 +3552,16 @@
           "margin_pct": 14.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.3,
-          "margin_pct": 55.0
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.96,
+          "margin_pct": 60.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.75,
-          "margin_pct": 64.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.4,
+          "margin_pct": 66.7
         }
       },
       {
@@ -3589,16 +3589,53 @@
           "margin_pct": -42.5
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 11.29,
-          "margin_pct": 66.7
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.94,
+          "margin_pct": 70.5
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.73,
-          "margin_pct": 73.4
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 18.39,
+          "margin_pct": 74.8
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.13,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 6.37,
+        "landed_cost_ddu_usd": 6.37,
+        "landed_cost_ddp_usd": 5.81,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 6.88,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": 1.14,
+          "margin_pct": 14.1
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.96,
+          "margin_pct": 60.4
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.4,
+          "margin_pct": 66.7
         }
       },
       {
@@ -3626,16 +3663,16 @@
           "margin_pct": -21.0
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 11.98,
-          "margin_pct": 70.8
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 14.64,
+          "margin_pct": 74.0
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 17.43,
-          "margin_pct": 76.4
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 19.09,
+          "margin_pct": 77.6
         }
       },
       {
@@ -3663,53 +3700,16 @@
           "margin_pct": 14.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.3,
-          "margin_pct": 55.0
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.96,
+          "margin_pct": 60.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.75,
-          "margin_pct": 64.7
-        }
-      },
-      {
-        "pd_no": "1068776",
-        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 2.13,
-        "shipping_order_usd": 10.64,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 6.37,
-        "landed_cost_ddu_usd": 6.37,
-        "landed_cost_ddp_usd": 5.81,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.88,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": 1.14,
-          "margin_pct": 14.1
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.3,
-          "margin_pct": 55.0
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.75,
-          "margin_pct": 64.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.4,
+          "margin_pct": 66.7
         }
       },
       {
@@ -3737,16 +3737,53 @@
           "margin_pct": 8.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 11.59,
-          "margin_pct": 68.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 14.25,
+          "margin_pct": 72.0
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 17.03,
-          "margin_pct": 74.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 18.69,
+          "margin_pct": 76.0
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 17.71,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.78,
+        "landed_cost_ddu_usd": 7.78,
+        "landed_cost_ddp_usd": 7.23,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.4,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -0.27,
+          "margin_pct": -3.4
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.55,
+          "margin_pct": 53.3
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.99,
+          "margin_pct": 61.0
         }
       },
       {
@@ -3774,53 +3811,16 @@
           "margin_pct": -12.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.58,
-          "margin_pct": 62.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.23,
+          "margin_pct": 66.9
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.02,
-          "margin_pct": 70.3
-        }
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 3.54,
-        "shipping_order_usd": 17.71,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.78,
-        "landed_cost_ddu_usd": 7.78,
-        "landed_cost_ddp_usd": 7.23,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.4,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -0.27,
-          "margin_pct": -3.4
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.89,
-          "margin_pct": 46.6
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.33,
-          "margin_pct": 58.5
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.68,
+          "margin_pct": 71.9
         }
       },
       {
@@ -3848,23 +3848,23 @@
           "margin_pct": 21.4
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.89,
-          "margin_pct": 58.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.55,
+          "margin_pct": 63.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.34,
-          "margin_pct": 67.3
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.99,
+          "margin_pct": 69.1
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 85,
+        "shopify_score": 86,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -3885,53 +3885,53 @@
           "margin_pct": -42.5
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 11.29,
-          "margin_pct": 66.7
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.94,
+          "margin_pct": 70.5
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.73,
-          "margin_pct": 73.4
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 18.39,
+          "margin_pct": 74.8
         }
       },
       {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 82,
+        "pd_no": "1060494",
+        "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 83,
         "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 136,
+        "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 1.69,
-        "shipping_order_usd": 8.43,
+        "shipping_unit_usd": 2.27,
+        "shipping_order_usd": 11.34,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.92,
-        "landed_cost_ddu_usd": 5.92,
-        "landed_cost_ddp_usd": 5.37,
+        "landed_cost_usd": 6.51,
+        "landed_cost_ddu_usd": 6.51,
+        "landed_cost_ddp_usd": 5.95,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.4,
+        "breakeven_usd": 7.03,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
-          "profit": 1.58,
-          "margin_pct": 19.5
+          "profit": 1.0,
+          "margin_pct": 12.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.74,
-          "margin_pct": 57.6
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.82,
+          "margin_pct": 59.7
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.19,
-          "margin_pct": 66.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.26,
+          "margin_pct": 66.1
         }
       }
     ],
@@ -3961,16 +3961,16 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 5.04,
-          "margin_pct": 29.8
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.7,
+          "margin_pct": 38.9
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 10.48,
-          "margin_pct": 46.0
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 12.14,
+          "margin_pct": 49.4
         }
       },
       {
@@ -3998,16 +3998,16 @@
           "margin_pct": -84.1
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 1.34,
-          "margin_pct": 7.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 4.0,
+          "margin_pct": 20.2
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 6.78,
-          "margin_pct": 29.8
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 8.44,
+          "margin_pct": 34.3
         }
       },
       {
@@ -4035,16 +4035,16 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 5.04,
-          "margin_pct": 29.8
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.7,
+          "margin_pct": 38.9
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 10.48,
-          "margin_pct": 46.0
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 12.14,
+          "margin_pct": 49.4
         }
       },
       {
@@ -4072,16 +4072,53 @@
           "margin_pct": -166.9
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.25,
-          "margin_pct": 42.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 9.91,
+          "margin_pct": 50.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 12.7,
-          "margin_pct": 55.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.35,
+          "margin_pct": 58.4
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 10.63,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 11.48,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -3.12,
+          "margin_pct": -38.5
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.7,
+          "margin_pct": 38.9
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 12.14,
+          "margin_pct": 49.4
         }
       },
       {
@@ -4109,16 +4146,16 @@
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.0,
-          "margin_pct": 47.3
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.65,
+          "margin_pct": 53.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.44,
-          "margin_pct": 58.9
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.1,
+          "margin_pct": 61.4
         }
       },
       {
@@ -4146,53 +4183,16 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 5.04,
-          "margin_pct": 29.8
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.7,
+          "margin_pct": 38.9
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 10.48,
-          "margin_pct": 46.0
-        }
-      },
-      {
-        "pd_no": "1068776",
-        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 6.94,
-        "shipping_order_usd": 6.94,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 10.63,
-        "landed_cost_ddu_usd": 11.18,
-        "landed_cost_ddp_usd": 10.63,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 11.48,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -3.12,
-          "margin_pct": -38.5
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 5.04,
-          "margin_pct": 29.8
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 10.48,
-          "margin_pct": 46.0
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 12.14,
+          "margin_pct": 49.4
         }
       },
       {
@@ -4220,16 +4220,53 @@
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.26,
-          "margin_pct": 42.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 9.92,
+          "margin_pct": 50.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 12.7,
-          "margin_pct": 55.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.36,
+          "margin_pct": 58.4
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 7.69,
+        "shipping_order_usd": 7.69,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 11.37,
+        "landed_cost_ddu_usd": 11.93,
+        "landed_cost_ddp_usd": 11.37,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 12.28,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -3.87,
+          "margin_pct": -47.7
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 6.95,
+          "margin_pct": 35.1
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 11.4,
+          "margin_pct": 46.3
         }
       },
       {
@@ -4257,53 +4294,16 @@
           "margin_pct": -95.6
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 6.51,
-          "margin_pct": 38.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 9.17,
+          "margin_pct": 46.3
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 11.96,
-          "margin_pct": 52.4
-        }
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 7.69,
-        "shipping_order_usd": 7.69,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 11.37,
-        "landed_cost_ddu_usd": 11.93,
-        "landed_cost_ddp_usd": 11.37,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 12.28,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -3.87,
-          "margin_pct": -47.7
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 4.29,
-          "margin_pct": 25.4
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 9.74,
-          "margin_pct": 42.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 13.62,
+          "margin_pct": 55.4
         }
       },
       {
@@ -4331,23 +4331,23 @@
           "margin_pct": -29.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 5.78,
-          "margin_pct": 34.2
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 8.44,
+          "margin_pct": 42.7
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 11.23,
-          "margin_pct": 49.2
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 12.89,
+          "margin_pct": 52.4
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 85,
+        "shopify_score": 86,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -4368,53 +4368,53 @@
           "margin_pct": -166.9
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.25,
-          "margin_pct": 42.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 9.91,
+          "margin_pct": 50.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 12.7,
-          "margin_pct": 55.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.35,
+          "margin_pct": 58.4
         }
       },
       {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 82,
+        "pd_no": "1060494",
+        "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 83,
         "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 136,
+        "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 6.2,
-        "shipping_order_usd": 6.2,
+        "shipping_unit_usd": 6.94,
+        "shipping_order_usd": 6.94,
         "tariff_usd": 0.55,
         "duty_mode": "ddp",
-        "landed_cost_usd": 9.88,
-        "landed_cost_ddu_usd": 10.44,
-        "landed_cost_ddp_usd": 9.88,
+        "landed_cost_usd": 10.63,
+        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddp_usd": 10.63,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 10.67,
+        "breakeven_usd": 11.48,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
-          "profit": -2.38,
-          "margin_pct": -29.3
+          "profit": -3.12,
+          "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 5.78,
-          "margin_pct": 34.2
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.7,
+          "margin_pct": 38.9
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 11.23,
-          "margin_pct": 49.2
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 12.14,
+          "margin_pct": 49.4
         }
       }
     ],
@@ -4444,16 +4444,16 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.14,
-          "margin_pct": 48.1
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.8,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.58,
-          "margin_pct": 59.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.24,
+          "margin_pct": 62.0
         }
       },
       {
@@ -4481,16 +4481,16 @@
           "margin_pct": -44.4
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 4.56,
-          "margin_pct": 27.0
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 7.22,
+          "margin_pct": 36.5
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 10.01,
-          "margin_pct": 43.9
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 11.67,
+          "margin_pct": 47.4
         }
       },
       {
@@ -4518,16 +4518,16 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.14,
-          "margin_pct": 48.1
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.8,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.58,
-          "margin_pct": 59.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.24,
+          "margin_pct": 62.0
         }
       },
       {
@@ -4555,16 +4555,53 @@
           "margin_pct": -82.9
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.98,
-          "margin_pct": 59.0
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.64,
+          "margin_pct": 63.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.42,
-          "margin_pct": 67.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.08,
+          "margin_pct": 69.5
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 3.84,
+        "shipping_order_usd": 7.69,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 7.53,
+        "landed_cost_ddu_usd": 8.08,
+        "landed_cost_ddp_usd": 7.53,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 8.13,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -0.02,
+          "margin_pct": -0.3
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.8,
+          "margin_pct": 54.6
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.24,
+          "margin_pct": 62.0
         }
       },
       {
@@ -4592,16 +4629,16 @@
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.72,
-          "margin_pct": 63.4
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.38,
+          "margin_pct": 67.6
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.17,
-          "margin_pct": 70.9
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.82,
+          "margin_pct": 72.5
         }
       },
       {
@@ -4629,53 +4666,16 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.14,
-          "margin_pct": 48.1
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.8,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.58,
-          "margin_pct": 59.6
-        }
-      },
-      {
-        "pd_no": "1068776",
-        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 3.84,
-        "shipping_order_usd": 7.69,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 7.53,
-        "landed_cost_ddu_usd": 8.08,
-        "landed_cost_ddp_usd": 7.53,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.13,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -0.02,
-          "margin_pct": -0.3
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.14,
-          "margin_pct": 48.1
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.58,
-          "margin_pct": 59.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.24,
+          "margin_pct": 62.0
         }
       },
       {
@@ -4703,16 +4703,53 @@
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.36,
-          "margin_pct": 61.2
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.01,
+          "margin_pct": 65.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.8,
-          "margin_pct": 69.3
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.46,
+          "margin_pct": 71.0
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 5.32,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 9.01,
+        "landed_cost_ddu_usd": 9.56,
+        "landed_cost_ddp_usd": 9.01,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 9.73,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -1.5,
+          "margin_pct": -18.5
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 9.32,
+          "margin_pct": 47.1
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 13.76,
+          "margin_pct": 56.0
         }
       },
       {
@@ -4740,53 +4777,16 @@
           "margin_pct": -39.5
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.24,
-          "margin_pct": 54.6
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.9,
+          "margin_pct": 60.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.69,
-          "margin_pct": 64.4
-        }
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 5.32,
-        "shipping_order_usd": 10.64,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 9.01,
-        "landed_cost_ddu_usd": 9.56,
-        "landed_cost_ddp_usd": 9.01,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 9.73,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -1.5,
-          "margin_pct": -18.5
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 6.66,
-          "margin_pct": 39.4
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 12.11,
-          "margin_pct": 53.1
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.34,
+          "margin_pct": 66.5
         }
       },
       {
@@ -4814,23 +4814,23 @@
           "margin_pct": 4.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.51,
-          "margin_pct": 50.3
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.17,
+          "margin_pct": 56.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.96,
-          "margin_pct": 61.2
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.61,
+          "margin_pct": 63.5
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 85,
+        "shopify_score": 86,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -4851,53 +4851,53 @@
           "margin_pct": -82.9
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.98,
-          "margin_pct": 59.0
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.64,
+          "margin_pct": 63.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.42,
-          "margin_pct": 67.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.08,
+          "margin_pct": 69.5
         }
       },
       {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 82,
+        "pd_no": "1060494",
+        "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 83,
         "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 136,
+        "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.94,
+        "shipping_unit_usd": 3.84,
+        "shipping_order_usd": 7.69,
         "tariff_usd": 0.55,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.16,
-        "landed_cost_ddu_usd": 7.71,
-        "landed_cost_ddp_usd": 7.16,
+        "landed_cost_usd": 7.53,
+        "landed_cost_ddu_usd": 8.08,
+        "landed_cost_ddp_usd": 7.53,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.73,
+        "breakeven_usd": 8.13,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
-          "profit": 0.35,
-          "margin_pct": 4.3
+          "profit": -0.02,
+          "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.51,
-          "margin_pct": 50.3
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.8,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.96,
-          "margin_pct": 61.2
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.24,
+          "margin_pct": 62.0
         }
       }
     ],
@@ -4927,16 +4927,16 @@
           "margin_pct": 12.5
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.17,
-          "margin_pct": 54.2
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.83,
+          "margin_pct": 59.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.62,
-          "margin_pct": 64.1
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.27,
+          "margin_pct": 66.2
         }
       },
       {
@@ -4964,16 +4964,16 @@
           "margin_pct": -32.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 5.54,
-          "margin_pct": 32.8
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 8.2,
+          "margin_pct": 41.4
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 10.99,
-          "margin_pct": 48.2
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 12.65,
+          "margin_pct": 51.4
         }
       },
       {
@@ -5001,16 +5001,16 @@
           "margin_pct": 12.5
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.17,
-          "margin_pct": 54.2
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.83,
+          "margin_pct": 59.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.62,
-          "margin_pct": 64.1
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.27,
+          "margin_pct": 66.2
         }
       },
       {
@@ -5038,16 +5038,53 @@
           "margin_pct": -62.2
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.65,
-          "margin_pct": 62.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.3,
+          "margin_pct": 67.2
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.09,
-          "margin_pct": 70.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.75,
+          "margin_pct": 72.2
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.81,
+        "shipping_order_usd": 8.43,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 6.5,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.5,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 7.02,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": 1.01,
+          "margin_pct": 12.5
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.83,
+          "margin_pct": 59.8
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.27,
+          "margin_pct": 66.2
         }
       },
       {
@@ -5075,16 +5112,16 @@
           "margin_pct": -31.9
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 11.63,
-          "margin_pct": 68.7
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 14.29,
+          "margin_pct": 72.2
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 17.08,
-          "margin_pct": 74.9
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 18.73,
+          "margin_pct": 76.2
         }
       },
       {
@@ -5112,53 +5149,16 @@
           "margin_pct": 12.5
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.17,
-          "margin_pct": 54.2
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.83,
+          "margin_pct": 59.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.62,
-          "margin_pct": 64.1
-        }
-      },
-      {
-        "pd_no": "1068776",
-        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 2.81,
-        "shipping_order_usd": 8.43,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 6.5,
-        "landed_cost_ddu_usd": 7.05,
-        "landed_cost_ddp_usd": 6.5,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.02,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": 1.01,
-          "margin_pct": 12.5
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.17,
-          "margin_pct": 54.2
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 14.62,
-          "margin_pct": 64.1
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.27,
+          "margin_pct": 66.2
         }
       },
       {
@@ -5186,16 +5186,53 @@
           "margin_pct": -0.4
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 11.14,
-          "margin_pct": 65.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.8,
+          "margin_pct": 69.7
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.59,
-          "margin_pct": 72.8
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 18.24,
+          "margin_pct": 74.2
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 4.25,
+        "shipping_order_usd": 12.74,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 7.93,
+        "landed_cost_ddu_usd": 8.49,
+        "landed_cost_ddp_usd": 7.93,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 8.57,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": -0.43,
+          "margin_pct": -5.2
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 10.39,
+          "margin_pct": 52.5
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.84,
+          "margin_pct": 60.3
         }
       },
       {
@@ -5223,53 +5260,16 @@
           "margin_pct": -25.8
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.91,
-          "margin_pct": 58.6
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.57,
+          "margin_pct": 63.5
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.35,
-          "margin_pct": 67.3
-        }
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 4.25,
-        "shipping_order_usd": 12.74,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 7.93,
-        "landed_cost_ddu_usd": 8.49,
-        "landed_cost_ddp_usd": 7.93,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.57,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": -0.43,
-          "margin_pct": -5.2
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.73,
-          "margin_pct": 45.7
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.18,
-          "margin_pct": 57.8
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.01,
+          "margin_pct": 69.2
         }
       },
       {
@@ -5297,23 +5297,23 @@
           "margin_pct": 18.6
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.67,
-          "margin_pct": 57.1
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.33,
+          "margin_pct": 62.3
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.11,
-          "margin_pct": 66.3
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.77,
+          "margin_pct": 68.2
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 85,
+        "shopify_score": 86,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -5334,53 +5334,53 @@
           "margin_pct": -62.2
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.65,
-          "margin_pct": 62.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.3,
+          "margin_pct": 67.2
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.09,
-          "margin_pct": 70.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.75,
+          "margin_pct": 72.2
         }
       },
       {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 82,
+        "pd_no": "1060494",
+        "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 83,
         "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 136,
+        "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 2.31,
-        "shipping_order_usd": 6.94,
+        "shipping_unit_usd": 3.31,
+        "shipping_order_usd": 9.94,
         "tariff_usd": 0.55,
         "duty_mode": "ddp",
-        "landed_cost_usd": 6.0,
-        "landed_cost_ddu_usd": 6.55,
-        "landed_cost_ddp_usd": 6.0,
+        "landed_cost_usd": 7.0,
+        "landed_cost_ddu_usd": 7.55,
+        "landed_cost_ddp_usd": 7.0,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 6.48,
+        "breakeven_usd": 7.56,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
-          "profit": 1.51,
-          "margin_pct": 18.6
+          "profit": 0.51,
+          "margin_pct": 6.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.67,
-          "margin_pct": 57.1
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.33,
+          "margin_pct": 57.2
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.11,
-          "margin_pct": 66.3
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.77,
+          "margin_pct": 64.1
         }
       }
     ],
@@ -5410,16 +5410,16 @@
           "margin_pct": 20.9
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.85,
-          "margin_pct": 58.2
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.51,
+          "margin_pct": 63.2
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.3,
-          "margin_pct": 67.1
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.96,
+          "margin_pct": 69.0
         }
       },
       {
@@ -5447,16 +5447,16 @@
           "margin_pct": -14.3
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 7.0,
-          "margin_pct": 41.4
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 9.66,
+          "margin_pct": 48.8
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 12.44,
-          "margin_pct": 54.6
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 14.1,
+          "margin_pct": 57.3
         }
       },
       {
@@ -5484,16 +5484,16 @@
           "margin_pct": 20.9
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.85,
-          "margin_pct": 58.2
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.51,
+          "margin_pct": 63.2
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.3,
-          "margin_pct": 67.1
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.96,
+          "margin_pct": 69.0
         }
       },
       {
@@ -5521,16 +5521,53 @@
           "margin_pct": -35.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 11.51,
-          "margin_pct": 68.0
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 14.16,
+          "margin_pct": 71.6
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.95,
-          "margin_pct": 74.3
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 18.61,
+          "margin_pct": 75.7
+        }
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 2.13,
+        "shipping_order_usd": 10.64,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 5.81,
+        "landed_cost_ddu_usd": 6.37,
+        "landed_cost_ddp_usd": 5.81,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 6.28,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": 1.69,
+          "margin_pct": 20.9
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.51,
+          "margin_pct": 63.2
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.96,
+          "margin_pct": 69.0
         }
       },
       {
@@ -5558,16 +5595,16 @@
           "margin_pct": -14.2
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 12.21,
-          "margin_pct": 72.1
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 14.86,
+          "margin_pct": 75.1
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 17.65,
-          "margin_pct": 77.4
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 19.31,
+          "margin_pct": 78.5
         }
       },
       {
@@ -5595,53 +5632,16 @@
           "margin_pct": 20.9
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.85,
-          "margin_pct": 58.2
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.51,
+          "margin_pct": 63.2
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.3,
-          "margin_pct": 67.1
-        }
-      },
-      {
-        "pd_no": "1068776",
-        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 2.13,
-        "shipping_order_usd": 10.64,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 5.81,
-        "landed_cost_ddu_usd": 6.37,
-        "landed_cost_ddp_usd": 5.81,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 6.28,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": 1.69,
-          "margin_pct": 20.9
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 9.85,
-          "margin_pct": 58.2
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.3,
-          "margin_pct": 67.1
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.96,
+          "margin_pct": 69.0
         }
       },
       {
@@ -5669,16 +5669,53 @@
           "margin_pct": 15.5
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 11.92,
-          "margin_pct": 70.4
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 14.58,
+          "margin_pct": 73.7
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 17.36,
-          "margin_pct": 76.2
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 19.02,
+          "margin_pct": 77.4
+        }
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 3.54,
+        "shipping_order_usd": 17.71,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 7.23,
+        "landed_cost_ddu_usd": 7.78,
+        "landed_cost_ddp_usd": 7.23,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 7.81,
+        "at_2_2x": {
+          "sell": 8.11,
+          "fee": 0.6,
+          "profit": 0.28,
+          "margin_pct": 3.5
+        },
+        "at_market_p25": {
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 11.1,
+          "margin_pct": 56.1
+        },
+        "at_market_median": {
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 15.54,
+          "margin_pct": 63.2
         }
       },
       {
@@ -5706,53 +5743,16 @@
           "margin_pct": -5.2
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.91,
-          "margin_pct": 64.5
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.57,
+          "margin_pct": 68.5
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.35,
-          "margin_pct": 71.7
-        }
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
-        "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 3.54,
-        "shipping_order_usd": 17.71,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 7.23,
-        "landed_cost_ddu_usd": 7.78,
-        "landed_cost_ddp_usd": 7.23,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.81,
-        "at_2_2x": {
-          "sell": 8.11,
-          "fee": 0.6,
-          "profit": 0.28,
-          "margin_pct": 3.5
-        },
-        "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 8.44,
-          "margin_pct": 49.9
-        },
-        "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 13.89,
-          "margin_pct": 60.9
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 18.01,
+          "margin_pct": 73.2
         }
       },
       {
@@ -5780,23 +5780,23 @@
           "margin_pct": 28.2
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.45,
-          "margin_pct": 61.7
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 13.1,
+          "margin_pct": 66.2
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.89,
-          "margin_pct": 69.7
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 17.55,
+          "margin_pct": 71.4
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 85,
+        "shopify_score": 86,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -5817,53 +5817,53 @@
           "margin_pct": -35.7
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 11.51,
-          "margin_pct": 68.0
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 14.16,
+          "margin_pct": 71.6
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 16.95,
-          "margin_pct": 74.3
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 18.61,
+          "margin_pct": 75.7
         }
       },
       {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 82,
+        "pd_no": "1060494",
+        "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 83,
         "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 136,
+        "weight_note": "60ml x 1.6(용기) + 40g(포장) 추정",
         "unit_cost_usd": 3.69,
-        "shipping_unit_usd": 1.69,
-        "shipping_order_usd": 8.43,
+        "shipping_unit_usd": 2.27,
+        "shipping_order_usd": 11.34,
         "tariff_usd": 0.55,
         "duty_mode": "ddp",
-        "landed_cost_usd": 5.37,
-        "landed_cost_ddu_usd": 5.92,
-        "landed_cost_ddp_usd": 5.37,
+        "landed_cost_usd": 5.95,
+        "landed_cost_ddu_usd": 6.51,
+        "landed_cost_ddp_usd": 5.95,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.8,
+        "breakeven_usd": 6.43,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
-          "profit": 2.14,
-          "margin_pct": 26.3
+          "profit": 1.55,
+          "margin_pct": 19.2
         },
         "at_market_p25": {
-          "sell": 16.92,
-          "fee": 1.25,
-          "profit": 10.3,
-          "margin_pct": 60.9
+          "sell": 19.79,
+          "fee": 1.46,
+          "profit": 12.37,
+          "margin_pct": 62.5
         },
         "at_market_median": {
-          "sell": 22.8,
-          "fee": 1.69,
-          "profit": 15.74,
-          "margin_pct": 69.0
+          "sell": 24.59,
+          "fee": 1.82,
+          "profit": 16.82,
+          "margin_pct": 68.4
         }
       }
     ]

@@ -2,8 +2,8 @@
 title: "Record 027 · LLM-Post-Training-as-Brownfield-Maintenance-An-Industrial-Perspective-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.857191+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.432724+00:00
+tags: [record, real-data]
 ---
 
 # Record 027 · LLM-Post-Training-as-Brownfield-Maintenance-An-Industrial-Perspective-
@@ -18,4 +18,4 @@ LLM Post-Training as Brownfield Maintenance: An Industrial Perspective on Datawa
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

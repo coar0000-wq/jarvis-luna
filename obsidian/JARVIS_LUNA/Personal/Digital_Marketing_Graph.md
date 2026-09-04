@@ -175,7 +175,7 @@
 
 ### Content & Creative
 - [[Copy Writing]]: Persuasive text
-- [[Design]]: Visual elements
+- [[DESIGN]]: Visual elements
 - [[Branding]]: Brand identity
 - [[Messaging]]: Core brand message
 - [[Call-to-Action]]: Prompt user action

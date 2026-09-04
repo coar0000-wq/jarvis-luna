@@ -2,8 +2,8 @@
 title: "Record 011 · Real-time-virtual-circuits-for-plasma-shape-control-via-neural-network"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.856166+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.430513+00:00
+tags: [record, real-data]
 ---
 
 # Record 011 · Real-time-virtual-circuits-for-plasma-shape-control-via-neural-network
@@ -18,4 +18,4 @@ Real-time virtual circuits for plasma shape control via neural network emulators
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[머신러닝-연구]] [[과학수학]] [[JARVIS Real Knowledge Index]]

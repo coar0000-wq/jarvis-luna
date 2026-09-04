@@ -2,8 +2,8 @@
 title: "Record 048 · Large-Language-Models-LLMs-for-Telecom-Root-Cause-Analysis-RCA-A-Struc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.858514+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.435670+00:00
+tags: [record, real-data]
 ---
 
 # Record 048 · Large-Language-Models-LLMs-for-Telecom-Root-Cause-Analysis-RCA-A-Struc
@@ -18,4 +18,4 @@ Large Language Models (LLMs) for Telecom Root Cause Analysis (RCA): A Structured
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[LLM언어모델]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

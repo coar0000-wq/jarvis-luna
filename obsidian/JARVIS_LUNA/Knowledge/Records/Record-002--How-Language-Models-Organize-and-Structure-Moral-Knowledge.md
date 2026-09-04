@@ -2,8 +2,8 @@
 title: "Record 002 · How-Language-Models-Organize-and-Structure-Moral-Knowledge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.855179+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.429101+00:00
+tags: [record, real-data]
 ---
 
 # Record 002 · How-Language-Models-Organize-and-Structure-Moral-Knowledge
@@ -18,4 +18,4 @@ How Language Models Organize and Structure Moral Knowledge
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

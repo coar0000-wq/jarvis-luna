@@ -2,8 +2,8 @@
 title: "Record 006 · Prove2Me-An-Open-Collaborative-Platform-for-Scaling-Math-Formalization"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.855434+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.429751+00:00
+tags: [record, real-data]
 ---
 
 # Record 006 · Prove2Me-An-Open-Collaborative-Platform-for-Scaling-Math-Formalization
@@ -18,4 +18,4 @@ Prove2Me: An Open Collaborative Platform for Scaling Math Formalization
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[과학수학]] [[JARVIS Real Knowledge Index]]

@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T14:43:08.029675+09:00",
+  "generated_at": "2026-09-04T18:32:46.375311+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "1113개 코퍼스 레코드"
+      "detail": "2264개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
-      "status": "completed",
-      "detail": "1132개 노트 · 9246개 링크 · 끊어진 링크 0개"
+      "status": "failed",
+      "detail": "2796개 노트 · 37565개 링크 · 끊어진 링크 7806개"
     },
     {
       "id": "dashboard",
@@ -25,7 +25,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "1113건 · 3 experts · 정확도 79.69%"
+      "detail": "2264건 · 3 experts · 정확도 87.23%"
     },
     {
       "id": "publish",
@@ -36,45 +36,45 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 1113,
+    "record_count": 2264,
     "source_counts": {},
-    "updated_at": "2026-09-04T14:37:54.545477+09:00"
+    "updated_at": "2026-09-04T18:17:33.487860+09:00"
   },
   "graph": {
-    "notes": 1132,
-    "links": 9246,
-    "dangling_links": 0,
-    "records": 1113,
-    "sources": 4,
-    "topics": 6,
-    "audit": "passed",
-    "last_generated": "2026-09-04T14:39:21.963961+09:00"
+    "notes": 2796,
+    "links": 37565,
+    "dangling_links": 7806,
+    "records": 2264,
+    "sources": 6,
+    "topics": 22,
+    "audit": "failed",
+    "last_generated": "2026-09-04T18:18:26.447700+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 1113,
+    "records": 2264,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.7969451931716083,
-    "validation_accuracy": 0.8578199052132701,
-    "final_loss": 0.3854489600862455,
-    "gate_load_std": 0.4494841064054086,
+    "accuracy": 0.8723498233215548,
+    "validation_accuracy": 0.8729411764705882,
+    "final_loss": 0.40890722331833707,
+    "gate_load_std": 0.20010166873019355,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-04T05:43:07.954700+00:00"
+    "updated_at": "2026-09-04T09:32:46.194333+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 1113,
-      "notes": 1132,
-      "links": 9246
+      "records": 2264,
+      "notes": 2796,
+      "links": 37565
     },
     "prior_totals": {
-      "records": 1113,
-      "notes": 1132,
-      "links": 9246
+      "records": 2264,
+      "notes": 2796,
+      "links": 37565
     },
     "added_this_run": {
       "records": 0,
@@ -82,9 +82,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 1113,
-      "notes": 1132,
-      "links": 9246
+      "records": 2264,
+      "notes": 2796,
+      "links": 37565
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -273,130 +273,130 @@
         "url": "https://us.oliveyoung.com/products/UA66893538"
       },
       {
+        "product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+        "sub": "MEDIHEAL",
+        "badge": "$20.99",
+        "rank": 2,
+        "rating": 4.8,
+        "review_count": 1071,
+        "url": "https://us.oliveyoung.com/products/UA48723304"
+      },
+      {
         "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
         "sub": "AESTURA",
         "badge": "$32.00",
-        "rank": 2,
+        "rank": 3,
         "rating": 5,
         "review_count": 2,
         "url": "https://us.oliveyoung.com/products/UA71026007"
       },
       {
-        "product": "FOODOLOGY Coleology Cutting Jelly 0.88 oz.(25g) x 10ea",
-        "sub": "FOODOLOGY",
-        "badge": "$22.50",
-        "rank": 3,
-        "rating": 4.6,
-        "review_count": 8,
-        "url": "https://us.oliveyoung.com/products/UA61972333"
-      },
-      {
-        "product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-        "sub": "MEDIHEAL",
-        "badge": "$20.99",
-        "rank": 4,
-        "rating": 4.8,
-        "review_count": 1069,
-        "url": "https://us.oliveyoung.com/products/UA48723304"
-      },
-      {
-        "product": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
-        "sub": "Biodance",
-        "badge": "$62.00",
-        "rank": 5,
-        "rating": 5,
-        "review_count": 2,
-        "url": "https://us.oliveyoung.com/products/UA22731950"
-      },
-      {
         "product": "[11types] CORINGCO Toktokhara No Glue Eyelash",
         "sub": "CORINGCO",
         "badge": "$12.99",
-        "rank": 6,
+        "rank": 4,
         "rating": 4.8,
-        "review_count": 12171,
+        "review_count": 12175,
         "url": "https://us.oliveyoung.com/products/UA29855490"
-      },
-      {
-        "product": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
-        "sub": "JUNG SAEM MOOL",
-        "badge": "$32.00",
-        "rank": 7,
-        "rating": 4.7,
-        "review_count": 362,
-        "url": "https://us.oliveyoung.com/products/UA97366320"
-      },
-      {
-        "product": "orthomol Immune - Daily Immune System Booster, Vitamins A, B, C, D, E, Zinc, Selenium & Iodine (Drinkable Shots 30-day Supply)",
-        "sub": "orthomol",
-        "badge": "$67.99",
-        "rank": 8,
-        "rating": 4,
-        "review_count": 1,
-        "url": "https://us.oliveyoung.com/products/UA10029092"
-      },
-      {
-        "product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-        "sub": "ROUND LAB",
-        "badge": "$22.49",
-        "rank": 9,
-        "rating": 5,
-        "review_count": 2,
-        "url": "https://us.oliveyoung.com/products/UA38918945"
       },
       {
         "product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "sub": "Dr.Althea",
         "badge": "$27.00",
-        "rank": 10,
+        "rank": 5,
         "rating": 4.8,
-        "review_count": 1622,
+        "review_count": 1623,
         "url": "https://us.oliveyoung.com/products/UA73639757"
+      },
+      {
+        "product": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
+        "sub": "JUNG SAEM MOOL",
+        "badge": "$32.00",
+        "rank": 6,
+        "rating": 4.7,
+        "review_count": 364,
+        "url": "https://us.oliveyoung.com/products/UA97366320"
+      },
+      {
+        "product": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
+        "sub": "MEDIHEAL",
+        "badge": "$39.99",
+        "rank": 7,
+        "rating": 4.8,
+        "review_count": 15152,
+        "url": "https://us.oliveyoung.com/products/UA32407466"
       },
       {
         "product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
         "sub": "REJURAN",
         "badge": "$55.00",
-        "rank": 11,
+        "rank": 8,
         "rating": 4.7,
         "review_count": 13,
         "url": "https://us.oliveyoung.com/products/UA44060194"
       },
       {
-        "product": "orthomol Sport - Advanced Sports Nutrition With Essential Vitamins, Minerals, Omeg-3, CoQ10 & L-carnitine (30-day Supply)",
-        "sub": "orthomol",
-        "badge": "$67.99",
-        "rank": 12,
-        "rating": 5,
-        "review_count": 1,
-        "url": "https://us.oliveyoung.com/products/UA36031121"
-      },
-      {
-        "product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-        "sub": "lilyeve",
-        "badge": "$23.76",
-        "rank": 13,
+        "product": "beplain Mung Bean pH-Balanced Cleansing Foam 5.41 fl. oz.(160ml)",
+        "sub": "beplain",
+        "badge": "$17.10",
+        "rank": 9,
         "rating": 4.7,
-        "review_count": 6,
-        "url": "https://us.oliveyoung.com/products/UA98417491"
+        "review_count": 13,
+        "url": "https://us.oliveyoung.com/products/UA34557979"
       },
       {
-        "product": "SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)",
-        "sub": "SKIN1004",
-        "badge": "$26.00",
-        "rank": 14,
-        "rating": 3.8,
-        "review_count": 12,
-        "url": "https://us.oliveyoung.com/products/UA36240979"
+        "product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
+        "sub": "Dr.G",
+        "badge": "$25.20",
+        "rank": 10,
+        "rating": 4.8,
+        "review_count": 239,
+        "url": "https://us.oliveyoung.com/products/UA88452413"
+      },
+      {
+        "product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
+        "sub": "ROUND LAB",
+        "badge": "$22.49",
+        "rank": 11,
+        "rating": 5,
+        "review_count": 2,
+        "url": "https://us.oliveyoung.com/products/UA38918945"
       },
       {
         "product": "sonatural Powder4room All Day Tight Make Up Setting Fixx 2.53 fl. oz.(75ml)",
         "sub": "sonatural",
         "badge": "$22.00",
-        "rank": 15,
+        "rank": 12,
         "rating": 5,
         "review_count": 2,
         "url": "https://us.oliveyoung.com/products/UA32042951"
+      },
+      {
+        "product": "Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum 1.01 fl. oz.(30ml)",
+        "sub": "Anua",
+        "badge": "$23.00",
+        "rank": 13,
+        "rating": 4.9,
+        "review_count": 18,
+        "url": "https://us.oliveyoung.com/products/UA76124836"
+      },
+      {
+        "product": "FOODOLOGY Coleology Cutting Jelly 0.88 oz.(25g) x 10ea",
+        "sub": "FOODOLOGY",
+        "badge": "$22.50",
+        "rank": 14,
+        "rating": 4.6,
+        "review_count": 8,
+        "url": "https://us.oliveyoung.com/products/UA61972333"
+      },
+      {
+        "product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+        "sub": "lilyeve",
+        "badge": "$23.76",
+        "rank": 15,
+        "rating": 4.7,
+        "review_count": 6,
+        "url": "https://us.oliveyoung.com/products/UA98417491"
       }
     ],
     "google_trends_us": [
@@ -1103,7 +1103,7 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-04"
   },
-  "last_synced": "09. 04. 오후 04:09 KST",
+  "last_synced": "09. 04. 오후 06:32 KST",
   "global_channels_status": {
     "amazon_best_sellers": {
       "status": "ok",
@@ -1129,7 +1129,7 @@
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "2026-09-04T06:18:09.471111+00:00",
+      "collected_at": "2026-09-04T09:17:56.406959+00:00",
       "count": 15,
       "trust": "verified"
     },
@@ -1209,7 +1209,7 @@
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-04T05:38:19.559931+00:00",
+      "collected_at": "2026-09-04T09:17:55.639078+00:00",
       "count": 15,
       "trust": "verified"
     }

@@ -2,8 +2,8 @@
 title: "Record 003 · LongPIBench-A-Long-Context-Benchmark-for-Prompt-Injection"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.855253+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.429286+00:00
+tags: [record, real-data]
 ---
 
 # Record 003 · LongPIBench-A-Long-Context-Benchmark-for-Prompt-Injection
@@ -18,4 +18,4 @@ LongPIBench: A Long-Context Benchmark for Prompt Injection
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

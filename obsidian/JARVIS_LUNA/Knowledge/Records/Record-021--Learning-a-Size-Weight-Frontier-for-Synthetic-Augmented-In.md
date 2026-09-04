@@ -2,8 +2,8 @@
 title: "Record 021 · Learning-a-Size-Weight-Frontier-for-Synthetic-Augmented-Inference"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.856771+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.431828+00:00
+tags: [record, real-data]
 ---
 
 # Record 021 · Learning-a-Size-Weight-Frontier-for-Synthetic-Augmented-Inference
@@ -18,4 +18,4 @@ Learning a Size-Weight Frontier for Synthetic-Augmented Inference
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

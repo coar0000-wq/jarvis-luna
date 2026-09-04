@@ -89,7 +89,7 @@
 ### [[U-Net]]
 
 #### U-shaped Architecture
-[[Design]]:
+[[DESIGN]]:
 - [[Symmetric Structure]]: 대칭 구조
 - [[Encoder Path]]: 인코더 경로
 - [[Decoder Path]]: 디코더 경로

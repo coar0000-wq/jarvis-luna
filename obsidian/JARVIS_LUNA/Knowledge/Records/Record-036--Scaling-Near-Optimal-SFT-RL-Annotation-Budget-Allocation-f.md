@@ -2,8 +2,8 @@
 title: "Record 036 · Scaling-Near-Optimal-SFT-RL-Annotation-Budget-Allocation-from-Small-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.857740+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.434025+00:00
+tags: [record, real-data]
 ---
 
 # Record 036 · Scaling-Near-Optimal-SFT-RL-Annotation-Budget-Allocation-from-Small-to
@@ -18,4 +18,4 @@ Scaling Near-Optimal SFT-RL Annotation Budget Allocation from Small to Large LLM
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[LLM언어모델]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

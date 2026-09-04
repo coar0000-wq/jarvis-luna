@@ -2,8 +2,8 @@
 title: "Record 034 · From-Confusion-to-Clarity-Confusion-Aware-Retrieval-and-Knowledge-Inje"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.857644+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.433725+00:00
+tags: [record, real-data]
 ---
 
 # Record 034 · From-Confusion-to-Clarity-Confusion-Aware-Retrieval-and-Knowledge-Inje
@@ -18,4 +18,4 @@ From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

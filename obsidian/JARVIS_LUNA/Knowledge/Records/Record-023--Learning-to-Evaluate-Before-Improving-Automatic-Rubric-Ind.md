@@ -2,8 +2,8 @@
 title: "Record 023 · Learning-to-Evaluate-Before-Improving-Automatic-Rubric-Induction-for-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.856931+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.432143+00:00
+tags: [record, real-data]
 ---
 
 # Record 023 · Learning-to-Evaluate-Before-Improving-Automatic-Rubric-Induction-for-A
@@ -18,4 +18,4 @@ Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic 
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

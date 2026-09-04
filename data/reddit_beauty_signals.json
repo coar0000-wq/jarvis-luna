@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-04T05:38:51.518517+00:00",
+  "collected_at": "2026-09-04T09:18:10.997318+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 25,
+  "post_count": 49,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -19,9 +19,8 @@
     },
     {
       "subreddit": "KoreanBeauty",
-      "post_count": 0,
+      "post_count": 25,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests",
         "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     },
@@ -45,7 +44,19 @@
   "hot_keywords": [
     {
       "keyword": "skin",
+      "score": 16
+    },
+    {
+      "keyword": "skincare",
       "score": 10
+    },
+    {
+      "keyword": "korean",
+      "score": 8
+    },
+    {
+      "keyword": "products",
+      "score": 6
     },
     {
       "keyword": "2026",
@@ -65,6 +76,30 @@
     },
     {
       "keyword": "product",
+      "score": 4
+    },
+    {
+      "keyword": "moisturizer",
+      "score": 4
+    },
+    {
+      "keyword": "sunscreen",
+      "score": 4
+    },
+    {
+      "keyword": "care",
+      "score": 3
+    },
+    {
+      "keyword": "would",
+      "score": 3
+    },
+    {
+      "keyword": "best",
+      "score": 3
+    },
+    {
+      "keyword": "looking",
       "score": 3
     },
     {
@@ -76,15 +111,11 @@
       "score": 2
     },
     {
-      "keyword": "care",
-      "score": 2
-    },
-    {
       "keyword": "brands",
       "score": 2
     },
     {
-      "keyword": "skincare",
+      "keyword": "yesstyle",
       "score": 2
     },
     {
@@ -112,11 +143,11 @@
       "score": 2
     },
     {
-      "keyword": "products",
+      "keyword": "actually",
       "score": 2
     },
     {
-      "keyword": "korean",
+      "keyword": "cream",
       "score": 2
     },
     {
@@ -124,102 +155,78 @@
       "score": 2
     },
     {
+      "keyword": "body",
+      "score": 2
+    },
+    {
+      "keyword": "changed",
+      "score": 2
+    },
+    {
       "keyword": "cleanser",
       "score": 2
     },
     {
-      "keyword": "monday",
-      "score": 1
+      "keyword": "koreanbeauty",
+      "score": 2
     },
     {
-      "keyword": "august",
-      "score": 1
+      "keyword": "beauty",
+      "score": 2
     },
     {
-      "keyword": "question",
-      "score": 1
+      "keyword": "oil",
+      "score": 2
     },
     {
-      "keyword": "ask",
-      "score": 1
+      "keyword": "sensitive",
+      "score": 2
     },
     {
-      "keyword": "here",
-      "score": 1
+      "keyword": "acne",
+      "score": 2
     },
     {
-      "keyword": "alter-daily",
-      "score": 1
+      "keyword": "k-beauty",
+      "score": 2
     },
     {
-      "keyword": "questions",
-      "score": 1
+      "keyword": "first",
+      "score": 2
     },
     {
-      "keyword": "kiss",
-      "score": 1
+      "keyword": "fi-ne",
+      "score": 2
     },
     {
-      "keyword": "heroine",
-      "score": 1
-    },
-    {
-      "keyword": "far",
-      "score": 1
-    },
-    {
-      "keyword": "many",
-      "score": 1
-    },
-    {
-      "keyword": "off",
-      "score": 1
-    },
-    {
-      "keyword": "yesstyle",
-      "score": 1
-    },
-    {
-      "keyword": "stylevana",
-      "score": 1
-    },
-    {
-      "keyword": "going",
-      "score": 1
-    },
-    {
-      "keyword": "based",
-      "score": 1
-    },
-    {
-      "keyword": "trick",
-      "score": 1
-    },
-    {
-      "keyword": "wish",
-      "score": 1
-    },
-    {
-      "keyword": "learned",
-      "score": 1
+      "keyword": "line",
+      "score": 2
     }
   ],
   "beauty_keywords": [
     {
       "keyword": "skin",
+      "score": 16
+    },
+    {
+      "keyword": "skincare",
       "score": 10
+    },
+    {
+      "keyword": "korean",
+      "score": 8
     },
     {
       "keyword": "routine",
       "score": 4
     },
     {
-      "keyword": "skincare",
-      "score": 2
+      "keyword": "moisturizer",
+      "score": 4
     },
     {
-      "keyword": "korean",
-      "score": 2
+      "keyword": "sunscreen",
+      "score": 4
     },
     {
       "keyword": "sunscreens",
@@ -227,6 +234,14 @@
     },
     {
       "keyword": "cleanser",
+      "score": 2
+    },
+    {
+      "keyword": "koreanbeauty",
+      "score": 2
+    },
+    {
+      "keyword": "k-beauty",
       "score": 2
     }
   ],
@@ -267,6 +282,13 @@
       "feed": "hot"
     },
     {
+      "title": "The Saem Single Blushers",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w6sn7s/the_saem_single_blushers/",
+      "published": "2026-09-04T03:13:39+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "What’s a skincare or makeup trick you wish you’d learned sooner?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w5unr5/whats_a_skincare_or_makeup_trick_you_wish_youd/",
       "published": "2026-09-03T02:22:17+00:00",
@@ -274,9 +296,9 @@
       "feed": "hot"
     },
     {
-      "title": "The Saem Single Blushers",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w6sn7s/the_saem_single_blushers/",
-      "published": "2026-09-04T03:13:39+00:00",
+      "title": "Yesstyle package detained?!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w6pkk1/yesstyle_package_detained/",
+      "published": "2026-09-04T00:48:58+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -400,10 +422,171 @@
       "feed": "hot"
     },
     {
-      "title": "how do idols have such smooth skin",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w5pdtf/how_do_idols_have_such_smooth_skin/",
-      "published": "2026-09-02T22:29:16+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "r/KoreanBeauty is looking for moderators!",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/191cw8g/rkoreanbeauty_is_looking_for_moderators/",
+      "published": "2024-01-08T04:50:58+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "What Korean beauty nerds have been saying about basic skincare for years — translated from TheQoo",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w6116w/what_korean_beauty_nerds_have_been_saying_about/",
+      "published": "2026-09-03T08:04:28+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Is it just me, or do knees show aging more than we realize?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w6yjvf/is_it_just_me_or_do_knees_show_aging_more_than_we/",
+      "published": "2026-09-04T08:33:50+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Kpop Idol Glow",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w6ujhj/kpop_idol_glow/",
+      "published": "2026-09-04T04:49:11+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Has anyone tried the Manyo cleansing oil for blackheads? 👀",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w6ojdg/has_anyone_tried_the_manyo_cleansing_oil_for/",
+      "published": "2026-09-04T00:02:06+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Moisturizer for extremely sensitive, acne, and eczema prone skin?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w6b5nw/moisturizer_for_extremely_sensitive_acne_and/",
+      "published": "2026-09-03T15:47:59+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "K-beauty changed my skincare game for good",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w6i438/kbeauty_changed_my_skincare_game_for_good/",
+      "published": "2026-09-03T19:52:01+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Product advice",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w6ger7/product_advice/",
+      "published": "2026-09-03T18:52:27+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "If you were to start your own skincare range, what would be the first three products you would make for yourself?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w62s64/if_you_were_to_start_your_own_skincare_range_what/",
+      "published": "2026-09-03T09:47:18+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "what do you bring to a first derm appointment abroad",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w60y9g/what_do_you_bring_to_a_first_derm_appointment/",
+      "published": "2026-09-03T07:59:48+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Sunscreen ingredients?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w67nv9/sunscreen_ingredients/",
+      "published": "2026-09-03T13:38:02+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Beauty and Body care products you'd repurchase from Trader Joe's",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w5v97m/beauty_and_body_care_products_youd_repurchase/",
+      "published": "2026-09-03T02:50:32+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Best/Worst Products for Sensitive Combination Skin Girlies",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w5eitf/bestworst_products_for_sensitive_combination_skin/",
+      "published": "2026-09-02T16:02:02+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "In-depth Facial?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w57u74/indepth_facial/",
+      "published": "2026-09-02T11:37:24+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "in seoul rn and curious if LDM + Exosome can help my on-off acne?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w58f0k/in_seoul_rn_and_curious_if_ldm_exosome_can_help/",
+      "published": "2026-09-02T12:04:58+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "best anti-aging korean moisturizer similar to drunk elephant protini cream?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w4vwru/best_antiaging_korean_moisturizer_similar_to/",
+      "published": "2026-09-02T01:12:35+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Looking for Overseas Distributors for Korean Skincare Products",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w4ze7p/looking_for_overseas_distributors_for_korean/",
+      "published": "2026-09-02T03:54:34+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "FI-NE vs VS Line vs LV Plastic Surgery.",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w4wtfi/fine_vs_vs_line_vs_lv_plastic_surgery/",
+      "published": "2026-09-02T01:53:29+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Quick Injection treatments",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w491sr/quick_injection_treatments/",
+      "published": "2026-09-01T11:21:19+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "I’m so tired please rec an actual dermatologist",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w4idb5/im_so_tired_please_rec_an_actual_dermatologist/",
+      "published": "2026-09-01T17:15:32+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Amore Yongsan skin consult",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w4lbve/amore_yongsan_skin_consult/",
+      "published": "2026-09-01T18:56:33+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "is the olive oil and lemon thing actually worth the hype for your skin?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w4jjr1/is_the_olive_oil_and_lemon_thing_actually_worth/",
+      "published": "2026-09-01T17:55:55+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Matte sunscreen recs?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w3u0dq/matte_sunscreen_recs/",
+      "published": "2026-08-31T22:56:17+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Looking for help.",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w3tjh7/looking_for_help/",
+      "published": "2026-08-31T22:38:13+00:00",
+      "subreddit": "KoreanBeauty",
       "feed": "hot"
     }
   ],

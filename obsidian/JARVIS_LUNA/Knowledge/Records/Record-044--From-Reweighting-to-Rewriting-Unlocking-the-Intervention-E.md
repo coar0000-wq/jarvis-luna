@@ -2,8 +2,8 @@
 title: "Record 044 · From-Reweighting-to-Rewriting-Unlocking-the-Intervention-Effects-of-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.858247+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.435117+00:00
+tags: [record, real-data]
 ---
 
 # Record 044 · From-Reweighting-to-Rewriting-Unlocking-the-Intervention-Effects-of-In
@@ -18,4 +18,4 @@ From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

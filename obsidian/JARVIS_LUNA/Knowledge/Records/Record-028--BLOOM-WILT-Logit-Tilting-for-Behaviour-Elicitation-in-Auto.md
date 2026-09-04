@@ -2,8 +2,8 @@
 title: "Record 028 · BLOOM-WILT-Logit-Tilting-for-Behaviour-Elicitation-in-Automated-LLM-Au"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.857258+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.432859+00:00
+tags: [record, real-data]
 ---
 
 # Record 028 · BLOOM-WILT-Logit-Tilting-for-Behaviour-Elicitation-in-Automated-LLM-Au
@@ -18,4 +18,4 @@ BLOOM-WILT: Logit Tilting for Behaviour Elicitation in Automated LLM Auditing
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

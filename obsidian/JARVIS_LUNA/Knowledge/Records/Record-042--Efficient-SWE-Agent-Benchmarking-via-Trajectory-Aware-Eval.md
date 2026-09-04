@@ -2,8 +2,8 @@
 title: "Record 042 · Efficient-SWE-Agent-Benchmarking-via-Trajectory-Aware-Evaluation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.858113+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.434797+00:00
+tags: [record, real-data]
 ---
 
 # Record 042 · Efficient-SWE-Agent-Benchmarking-via-Trajectory-Aware-Evaluation
@@ -18,4 +18,4 @@ Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[AI-에이전트]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,8 @@
 title: "Record 004 · Program-Learning-with-Verifiable-Rewards-Symbolic-Backpropagation-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.855317+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.429449+00:00
+tags: [record, real-data]
 ---
 
 # Record 004 · Program-Learning-with-Verifiable-Rewards-Symbolic-Backpropagation-for-
@@ -18,4 +18,4 @@ Program Learning with Verifiable Rewards: Symbolic Backpropagation for Post-Trai
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

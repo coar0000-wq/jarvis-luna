@@ -2,8 +2,8 @@
 title: "Record 046 · Dutch-Books-for-Language-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T05:39:21.858373+00:00
-tags: [knowledge-graph, record, arxiv]
+updated_at: 2026-09-04T09:18:25.435352+00:00
+tags: [record, real-data]
 ---
 
 # Record 046 · Dutch-Books-for-Language-Models
@@ -18,4 +18,4 @@ Dutch Books for Language Models
 
 ## Connected nodes
 
-[[Source--arXiv]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
