@@ -23,6 +23,7 @@ import json
 import re
 import sys
 import time
+import http.cookiejar
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
@@ -120,16 +121,41 @@ def dig(obj, *path):
 
 
 def fetch(url: str) -> tuple[str, str]:
+    """쿠키 워밍업 후 데이터 엔드포인트를 부른다.
+
+    2026-09-04: GitHub Actions IP 에서 곧바로 .data 를 부르면 Cloudflare 가
+    403 을 준다. 브라우저처럼 먼저 HTML 페이지를 열어 쿠키를 받은 뒤
+    같은 세션으로 .data 를 부르면 통과한다.
+    """
+    base = [("User-Agent", HEADERS["User-Agent"]),
+            ("Accept-Language", "en-US,en;q=0.9"),
+            ("Accept-Encoding", "identity"),
+            ("sec-ch-ua", HEADERS["sec-ch-ua"]),
+            ("sec-ch-ua-mobile", "?0"),
+            ("sec-ch-ua-platform", '"Windows"')]
     last = ""
     for attempt in range(1, RETRIES + 1):
+        cj = http.cookiejar.CookieJar()
+        op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
         try:
-            req = urllib.request.Request(url, headers=HEADERS)
-            with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-                return r.read().decode("utf-8", "replace"), ""
+            # 1단계: HTML 페이지로 쿠키 확보
+            op.addheaders = base + [
+                ("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"),
+                ("Sec-Fetch-Dest", "document"), ("Sec-Fetch-Mode", "navigate"),
+                ("Sec-Fetch-Site", "none")]
+            op.open(f"{BASE}/best-sellers", timeout=TIMEOUT).read()
+
+            # 2단계: 같은 세션으로 데이터 요청
+            op.addheaders = base + [
+                ("Accept", "*/*"), ("Referer", f"{BASE}/best-sellers"),
+                ("Sec-Fetch-Dest", "empty"), ("Sec-Fetch-Mode", "cors"),
+                ("Sec-Fetch-Site", "same-origin")]
+            body = op.open(url, timeout=TIMEOUT).read().decode("utf-8", "replace")
+            return body, ""
         except urllib.error.HTTPError as e:
             last = f"HTTP {e.code}"
             if e.code in (403, 429, 500, 502, 503):
-                time.sleep(DELAY * attempt)
+                time.sleep(DELAY * attempt * 2)
                 continue
             return "", last
         except Exception as e:
@@ -185,6 +211,20 @@ def main() -> int:
                       "turbo-stream 필드 구조가 바뀌었을 수 있음.")
             print(reason)
 
+    # 수집 실패 시 이전 성공분을 유지한다. 0건으로 덮어쓰면
+    # 시장 벤치마크와 가격 모델이 통째로 무너진다.
+    stale_from = ""
+    if not products and OUT.exists():
+        try:
+            prev = json.loads(OUT.read_text(encoding="utf-8"))
+            if prev.get("products"):
+                products = prev["products"]
+                stale_from = prev.get("collected_at") or prev.get("stale_from") or ""
+                reason = f"{reason} · 이전 수집분 유지({stale_from[:10]})"
+                print(f"이전 성공분 {len(products)}건 유지")
+        except (OSError, json.JSONDecodeError):
+            pass
+
     priced = [p for p in products if p["price_usd"]]
     prices = sorted(p["price_usd"] for p in priced)
 
@@ -196,6 +236,8 @@ def main() -> int:
         "collected_at": datetime.now(timezone.utc).isoformat(),
         "count": len(products),
         "reason": reason,
+        "is_stale": bool(stale_from),
+        "stale_from": stale_from,
         "price_stats": ({
             "n": len(prices),
             "min": prices[0],

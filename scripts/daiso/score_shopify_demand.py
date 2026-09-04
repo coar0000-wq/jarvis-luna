@@ -307,6 +307,80 @@ def best_matches(daiso_name: str, signals: list[dict], top_n: int = 3) -> list[d
     return hits[:top_n]
 
 
+# -- US 시장 적합도 ------------------------------------------------
+# 한국어 상품명의 제형/성분을 영문으로 옮겨 실제 미국 판매 목록과 대조한다.
+KO_EN = {
+    "선크림": ("sunscreen", "sun cream", "spf"), "무기자차": ("mineral", "physical"),
+    "선쿠션": ("sun cushion", "sunscreen"), "쿠션": ("cushion",),
+    "앰플": ("ampoule", "serum"), "세럼": ("serum",), "에센스": ("essence",),
+    "토너": ("toner",), "크림": ("cream",), "로션": ("lotion",),
+    "마스크": ("mask",), "팩": ("mask",), "클렌징": ("cleansing", "cleanser"),
+    "클렌저": ("cleanser",), "폼": ("foam",), "패드": ("pad",),
+    "어성초": ("heartleaf", "houttuynia"), "시카": ("cica", "centella"),
+    "병풀": ("centella",), "콜라겐": ("collagen",), "판테놀": ("panthenol",),
+    "히알루론": ("hyaluronic",), "나이아신아마이드": ("niacinamide",),
+    "비타민": ("vitamin",), "레티놀": ("retinol",), "세라마이드": ("ceramide",),
+    "달팽이": ("snail", "mucin"), "펩타이드": ("peptide",), "PDRN": ("pdrn",),
+    "수분": ("hydrating", "moistur"), "진정": ("calming", "soothing"),
+    "각질": ("exfoliat",), "모공": ("pore",), "미백": ("brightening",),
+}
+_US_CACHE = None
+
+
+def _load_json(path):
+    try:
+        return json.loads(path.read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def us_listings():
+    """실제 미국 판매 목록을 한데 모은다. 없으면 빈 목록."""
+    global _US_CACHE
+    if _US_CACHE is not None:
+        return _US_CACHE
+    out = []
+    oy = _load_json(ROOT / "data" / "oliveyoung_us_products.json")
+    for x in (oy.get("products") or []):
+        if x.get("price_usd"):
+            out.append({"name": (x.get("product") or "").lower(),
+                        "price": float(x["price_usd"])})
+    mc = _load_json(ROOT / "data" / "manual_channels.json")
+    for c in (mc.get("channels") or {}).values():
+        for x in (c.get("products") or []):
+            if x.get("price_usd"):
+                out.append({"name": (x.get("product") or "").lower(),
+                            "price": float(x["price_usd"])})
+    _US_CACHE = out
+    return out
+
+
+def us_market_fit(name):
+    """미국 실판매 목록에서 같은 제형/성분 상품을 찾는다.
+
+    반환: (점수 최대 25, 매칭 건수, 매칭 상품 중간가)
+      매칭 건수 15 - 미국에서 실제로 팔리는 유형인지
+      가격 여력 10 - 미국 판매가가 높을수록 마진 여력이 크다
+    """
+    us = us_listings()
+    if not us:
+        return 0.0, 0, 0.0
+    terms = set()
+    for ko, ens in KO_EN.items():
+        if ko in name:
+            terms.update(ens)
+    if not terms:
+        return 0.0, 0, 0.0
+    hits = [u for u in us if any(t in u["name"] for t in terms)]
+    if not hits:
+        return 0.0, 0, 0.0
+    hit_pts = min(15.0, len(hits) / 8 * 15)
+    prices = sorted(u["price"] for u in hits)
+    med = prices[len(prices) // 2]
+    price_pts = min(10.0, med / 25 * 10)
+    return round(hit_pts + price_pts, 1), len(hits), round(med, 2)
+
+
 def score_one(p: dict, signals: list[dict]) -> dict:
     """다이소 실측값만으로 점수를 낸다.
 
@@ -334,18 +408,18 @@ def score_one(p: dict, signals: list[dict]) -> dict:
 
     # 1) 카테고리 적합도 (최대 35)
     base_raw = CATEGORY_BASE.get(bucket, 12)
-    cat_pts = round(base_raw / 42 * 35, 1)
+    cat_pts = round(base_raw / 42 * 25, 1)
 
     # 2) 실측 평점 (최대 20)
     rating = float(p.get("rating") or 0)
     if rating <= 0:
         rating_pts = 0.0
     else:
-        rating_pts = round(max(0.0, min(20.0, (rating - 3.5) / 1.5 * 20)), 1)
+        rating_pts = round(max(0.0, min(15.0, (rating - 4.0) / 0.9 * 15)), 1)
 
     # 3) 실측 리뷰수 (최대 25) - 로그 스케일, 500건에서 만점
     reviews = int(p.get("review_count") or 0)
-    review_pts = round(min(25.0, math.log10(reviews + 1) / math.log10(501) * 25), 1) if reviews > 0 else 0.0
+    review_pts = round(min(20.0, math.log10(reviews + 1) / math.log10(2001) * 20), 1) if reviews > 0 else 0.0
 
     # 4) 가격 경쟁력 (최대 10) - 드롭쉬핑 마진 확보 구간
     krw = int(p.get("price_krw") or 0)
@@ -372,7 +446,10 @@ def score_one(p: dict, signals: list[dict]) -> dict:
     ):
         if kw in low:
             kw_pts += pts
-    kw_pts = min(10, kw_pts)
+    kw_pts = min(5, kw_pts)
+
+    # 6) US 시장 적합도 (최대 25) - 실제 미국 판매 목록과 대조
+    us_pts, us_hits, us_price = us_market_fit(name)
 
     # 이름에 바디샴푸/워시가 있으면 버킷 오분류여도 바디 취급
     is_body_product = any(
@@ -393,8 +470,12 @@ def score_one(p: dict, signals: list[dict]) -> dict:
     else:
         sim_pts = 0
 
+    # 2026-09-04: sim_pts 는 global_channels 유사도인데 그 안에
+    # google_trends_us / tiktok_shop_us 처럼 값이 조작된 채널이 섞여 있다.
+    # 총점에서 빼고, 실제 미국 판매 목록과 대조한 us_pts 로 대체한다.
+    # sim_pts 는 참고용으로만 기록한다.
     total = max(5, min(100, round(
-        cat_pts + rating_pts + review_pts + price_pts + kw_pts + sim_pts - penalty)))
+        cat_pts + rating_pts + review_pts + price_pts + kw_pts + us_pts - penalty)))
 
     core = bucket in {
         "스킨케어", "선케어", "마스크팩", "클렌징", "메이크업", "헤어케어", "바디케어",
@@ -448,13 +529,18 @@ def score_one(p: dict, signals: list[dict]) -> dict:
         "image_url": p.get("image_url"),
         "shopify_score": total,
         "grade": grade,
+        "us_market_hits": us_hits,
+        "us_median_price_usd": us_price,
+        "us_market_hits": us_hits,
+        "us_median_price_usd": us_price,
         "score_breakdown": {
             "category": cat_pts,
             "rating": rating_pts,
             "reviews": review_pts,
             "price": price_pts,
             "keyword": kw_pts,
-            "global_similarity": sim_pts,
+            "us_market_fit": us_pts,
+            "global_similarity_reference_only": sim_pts,
             "penalty": -penalty,
             "max_possible": 100,
         },
@@ -463,6 +549,53 @@ def score_one(p: dict, signals: list[dict]) -> dict:
         "global_matches": matches[:3],
         "recommend_reason": reason,
     }
+
+
+# -- 최종 등급 확정 ------------------------------------------------
+FORMS = ("선쿠션", "선크림", "쿠션", "앰플", "세럼", "에센스", "토너",
+         "크림", "로션", "마스크", "팩", "클렌징", "클렌저", "패드", "미스트")
+
+
+def _form(name):
+    for f in FORMS:
+        if f in name:
+            return f
+    return "기타"
+
+
+def assign_grades(rows, s_ratio=0.08):
+    """S 등급을 실제로 등록 가능한 소수로 좁힌다.
+
+    2026-09-04: 164개 중 37개가 S 였고 그중 11개가 100점에 몰려
+    변별이 되지 않았다. 두 단계로 거른다.
+      1) 같은 제형은 최고점 2개까지만 남긴다.
+         선크림 3개, 마스크 5개, 쿠션 4개를 한꺼번에 올릴 일은 없다.
+      2) US 시장 매칭 0건은 제외하고, 남은 후보 중 상위 s_ratio 만 S.
+    떨어진 후보는 A 로 내리고 사유를 남긴다.
+    """
+    cands = [r for r in rows if r.get("grade") == "S"]
+    if not cands:
+        return
+    cands.sort(key=lambda r: (-r["shopify_score"], -(r.get("us_market_hits") or 0)))
+    seen, kept = {}, []
+    for r in cands:
+        f = _form(r["name"])
+        if seen.get(f, 0) >= 2:
+            r["grade"] = "A"
+            r["downgrade_reason"] = "동일 제형(%s) 상위 2개에 밀림" % f
+            continue
+        if not (r.get("us_market_hits") or 0):
+            r["grade"] = "A"
+            r["downgrade_reason"] = "미국 실판매 목록에서 유사 상품을 찾지 못함"
+            continue
+        seen[f] = seen.get(f, 0) + 1
+        kept.append(r)
+    limit = max(3, round(len(rows) * s_ratio))
+    for r in kept[limit:]:
+        r["grade"] = "A"
+        r["downgrade_reason"] = "상위 %d위 밖" % limit
+    for i, r in enumerate(kept[:limit], 1):
+        r["s_rank"] = i
 
 
 def main() -> int:
@@ -475,6 +608,7 @@ def main() -> int:
     dashboard = load_json(DASHBOARD, {}) or {}
     signals = extract_signals(dashboard.get("global_channels") or {})
     scored = [score_one(p, signals) for p in products]
+    assign_grades(scored)
     scored.sort(key=lambda x: (
         -x["shopify_score"],
         -(x.get("best_global_match") or {}).get("similarity", 0),
