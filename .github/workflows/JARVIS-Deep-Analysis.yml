@@ -50,6 +50,10 @@ jobs:
         continue-on-error: true
         run: python scripts/collect_robotics.py
 
+      - name: Collect institution reports and papers (35 orgs)
+        continue-on-error: true
+        run: python scripts/collect_institutions.py
+
       - name: Collect real public sources
         continue-on-error: true
         run: python real_knowledge_sync.py

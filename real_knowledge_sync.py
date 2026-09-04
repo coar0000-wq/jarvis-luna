@@ -291,6 +291,45 @@ def collect_robotics():
 
 
 # -----------------------------
+# Institutions
+# -----------------------------
+def collect_institutions():
+    """scripts/collect_institutions.py 산출물을 코퍼스 소스로 합류시킨다.
+
+    투자은행·반도체·AI연구소·데이터분석 35개 기관의 공개 발표물(RSS·사이트맵)과
+    학술 논문(OpenAlex)을 담는다. 항목마다 org·category·kind 를 그대로 넘겨
+    옵시디언 분류가 기관과 분야를 함께 쓸 수 있게 한다.
+    """
+    path = Path(__file__).resolve().parent / "data" / "institution_sources.json"
+    try:
+        d = json.loads(path.read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError) as e:
+        return {"status": "failed", "source": "Institutions",
+                "reason": f"{type(e).__name__} - scripts/collect_institutions.py 를 먼저 실행",
+                "items": []}
+    items = []
+    for x in d.get("items") or []:
+        t = (x.get("title") or "").strip()
+        if not t:
+            continue
+        items.append({
+            "title": t,
+            "text": (x.get("summary") or "")[:400],
+            "published": x.get("date") or "",
+            "url": x.get("url") or "",
+            "org": x.get("org") or "",
+            "category": x.get("category") or "",
+            "kind": x.get("kind") or "",
+            "venue": x.get("venue") or "",
+        })
+    return {"status": "ok" if items else "empty",
+            "source": "Institutions (RSS + sitemap + OpenAlex, 35개 기관)",
+            "reason": "" if items else "수집 항목 없음",
+            "collected_at": d.get("collected_at", ""),
+            "items": items}
+
+
+# -----------------------------
 # Save
 # -----------------------------
 def main():
@@ -302,6 +341,7 @@ def main():
         "sources": {
             "arxiv": collect_arxiv(),
             "robotics": collect_robotics(),
+            "institutions": collect_institutions(),
             "youtube": collect_youtube(),
             "google": collect_google(),
             "us_beauty": collect_us_beauty()

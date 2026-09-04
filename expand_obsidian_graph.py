@@ -108,9 +108,26 @@ def topic_names(row: dict) -> list[str]:
                     "diagnos", "의료", "임상")),
         ("과학·수학", ("physics", "chemistry", "math", "theorem", "quantum",
                    "plasma", "수학", "물리")),
+        ("투자은행·금융", ("investment bank", "equity", "bond", "credit", "portfolio",
+                     "asset management", "macro outlook", "interest rate", "hedge",
+                     "투자은행", "금융", "채권", "금리")),
+        ("반도체·하드웨어", ("semiconductor", "wafer", "foundry", "lithography", "hbm",
+                      "dram", "nand", "gpu", "chipset", "euv", "packaging",
+                      "반도체", "웨이퍼", "파운드리")),
     ]
 
     topics = [name for name, terms in candidates if any(term in blob for term in terms)]
+
+    # 수집기가 분야를 직접 적어 보낸 경우(기관 수집분) 그 값을 신뢰한다.
+    # 제목만으로 추측하는 것보다 정확하고, 추측이 아니라 수집 시점의 사실이다.
+    explicit = {
+        "투자은행": "투자은행·금융",
+        "반도체": "반도체·하드웨어",
+        "AI연구소": "AI 에이전트",
+        "데이터분석": "데이터·분석",
+    }.get(str(row.get("category", "")).strip())
+    if explicit and explicit not in topics:
+        topics.append(explicit)
     return topics or ["미분류"]
 
 
@@ -140,6 +157,7 @@ def main() -> int:
     KNOWLEDGE.mkdir(parents=True, exist_ok=True)
     source_records: dict[str, list[dict]] = defaultdict(list)
     topic_records: dict[str, list[dict]] = defaultdict(list)
+    org_records: dict[str, list[dict]] = defaultdict(list)
     record_nodes: list[str] = []
     for i, row in enumerate(rows, 1):
         title = str(row.get("title", "Untitled")).strip()
@@ -149,10 +167,14 @@ def main() -> int:
         source_records[src].append({"node": record, "row": row})
         for topic in topic_names(row):
             topic_records[topic].append({"node": record, "row": row})
+        org = str(row.get("org", "")).strip()
+        if org:
+            org_records[f"기관 · {org}"].append({"node": record, "row": row})
         url = row.get("url", "")
         domain = urlparse(url).netloc or "unknown"
         body = f"> 실제 수집 레코드입니다. 원문: [{domain}]({url})\n\n**제목:** {title}\n\n{row.get('text', '').strip()}\n\n**출처:** {src}"
-        write_note(KNOWLEDGE / "Records" / f"{slug(record)}.md", record, ["record", "real-data"], [src, *topic_names(row), "JARVIS Real Knowledge Index"], body)
+        org_link = [f"기관 · {org}"] if org else []
+        write_note(KNOWLEDGE / "Records" / f"{slug(record)}.md", record, ["record", "real-data"], [src, *topic_names(row), *org_link, "JARVIS Real Knowledge Index"], body)
 
     source_links: list[str] = []
     for src, items in sorted(source_records.items()):
@@ -168,7 +190,23 @@ def main() -> int:
         body = f"실제 수집 레코드 **{len(items)}건**이 이 주제에 연결되어 있습니다.\n\n" + "\n".join(f"- {wiki(item['node'])}" for item in items)
         write_note(KNOWLEDGE / "Topics" / f"{slug(topic)}.md", topic, ["topic", "real-data"], links, body)
 
-    index_links = source_links + topic_links + record_nodes
+    org_links: list[str] = []
+    for org_node, items in sorted(org_records.items()):
+        org_links.append(org_node)
+        links = ([item["node"] for item in items]
+                 + sorted({t for item in items for t in topic_names(item["row"])})
+                 + ["JARVIS Real Knowledge Index"])
+        kinds: dict[str, int] = {}
+        for item in items:
+            k = str(item["row"].get("kind") or "기타")
+            kinds[k] = kinds.get(k, 0) + 1
+        breakdown = ", ".join(f"{k} {v}건" for k, v in sorted(kinds.items()))
+        body = (f"실제 수집 레코드 **{len(items)}건**이 이 기관에 연결되어 있습니다. ({breakdown})\n\n"
+                + "\n".join(f"- {wiki(item['node'])}" for item in items))
+        write_note(KNOWLEDGE / "Orgs" / f"{slug(org_node)}.md", org_node,
+                   ["org", "real-data"], links, body)
+
+    index_links = source_links + topic_links + org_links + record_nodes
     body = (
         "이 인덱스는 실제 수집 코퍼스에서 자동 생성되었습니다. Graph View에서 소스·주제·개별 레코드의 3단계 연결을 제공합니다.\n\n"
         f"- 실제 레코드: **{len(rows)}건**\n"

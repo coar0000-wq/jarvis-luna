@@ -53,7 +53,10 @@ def main() -> int:
             continue
         for item in source.get("items", []):
             title = str(item.get("title", "")).strip()
-            body = str(item.get("summary", item.get("snippet", ""))).strip()
+            # collect_robotics / collect_institutions 는 본문을 "text" 로 넘긴다.
+            # 이 키를 빠뜨리면 본문이 통째로 비어 주제 분류 정확도가 떨어진다.
+            body = str(item.get("summary") or item.get("snippet")
+                       or item.get("text") or "").strip()
             url = str(item.get("url", "")).strip()
             if not title or not url:
                 continue
@@ -66,6 +69,12 @@ def main() -> int:
                 "first_seen_at": (prev or {}).get("first_seen_at")
                                  or (prev or {}).get("collected_at") or collected_at,
                 "collected_at": collected_at,
+                # 기관 수집분은 소속·분야·종류를 그대로 실어 보낸다.
+                # 옵시디언 그래프가 키워드 추측 없이 기관 노드를 만들 수 있다.
+                "org": str(item.get("org") or ""),
+                "category": str(item.get("category") or ""),
+                "kind": str(item.get("kind") or ""),
+                "venue": str(item.get("venue") or ""),
             }
             if prev is None:
                 added += 1
