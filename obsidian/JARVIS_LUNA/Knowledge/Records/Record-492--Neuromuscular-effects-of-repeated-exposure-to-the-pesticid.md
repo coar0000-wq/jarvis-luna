@@ -2,7 +2,7 @@
 title: "Record 492 · Neuromuscular-effects-of-repeated-exposure-to-the-pesticide-methyl-bro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.489667+00:00
+updated_at: 2026-09-04T19:49:04.124734+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 306 · An-encyclopedia-of-human-enhancergene-regulatory-interactions"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.447168+00:00
+updated_at: 2026-09-04T19:49:04.087472+00:00
 tags: [record, real-data]
 ---
 

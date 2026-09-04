@@ -2,7 +2,7 @@
 title: "기관 · Intel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:29.065546+00:00
+updated_at: 2026-09-04T19:49:04.652276+00:00
 tags: [org, real-data]
 ---
 
@@ -31,11 +31,11 @@ tags: [org, real-data]
 - [[Record-691--Synergy-of-Human-Capital-Management-and-Work-Ethics-in-Dri]]
 - [[Record-728--Manifold-Agentic-Reasoning-Extending-Agentic-POMDPs-and-Po]]
 - [[Record-745--REINFORCING-MEDIA-GOVERNANCE-IN-INDONESIAN-DYNAMIC-CYBER-S]]
-- [[Record-1791--Planning-with-Transformers-Chain-of-Computation-and-Struc]]
-- [[Record-1792--Retrieval-Augmented-Interpretable-Learning-Towards-Task-S]]
-- [[Record-1799--gMAGNUS-Fast-SpGEMM-on-GPUs-for-Irregular-Matrices-via-Hi]]
-- [[Record-1806--Explainable-and-Resource-Efficient-Spatial-Reasoning-in-M]]
+- [[Record-1797--Planning-with-Transformers-Chain-of-Computation-and-Struc]]
+- [[Record-1798--Retrieval-Augmented-Interpretable-Learning-Towards-Task-S]]
+- [[Record-1805--gMAGNUS-Fast-SpGEMM-on-GPUs-for-Irregular-Matrices-via-Hi]]
+- [[Record-1812--Explainable-and-Resource-Efficient-Spatial-Reasoning-in-M]]
 
 ## Connected nodes
 
-[[Record-242--Consistency-of-efficacy-and-safety-of-elinzanetant-for-vas]] [[Record-286--Low-kV-EDX-Surface-Analysis-Can-Replicate-Metal-Oxidation-]] [[Record-302--CLEAR-an-auditable-foundation-model-for-radiology-grounded]] [[Record-303--Engineered-interfaces-in-electronic-materials-for-energy-e]] [[Record-309--AI-enhanced-adaptive-virtual-screening-of-large-libraries-]] [[Record-324--Molecular-dynamics-study-of-ferroelectric-switching-mechan]] [[Record-345--Comparing-classical-and-quantum-machine-learning-approache]] [[Record-414--Redesigning-Objective-Questions-for-Efficient-and-Fair-Ass]] [[Record-430--Depth-profiling-chemical-changes-in-chemically-amplified-r]] [[Record-440--Rapid-phage-susceptibility-determination-using-a-semi-auto]] [[Record-443--Certain-Investigations-on-Advanced-Signal-Processing-and-K]] [[Record-545--University-students-AI-attitudes-an-experiential-transform]] [[Record-546--Artificial-intelligence-social-justice-and-public-governan]] [[Record-547--Inovação-desenvolvimento-e-tecnologias-uma-revisão-integra]] [[Record-553--Transition-Metal-Modified-Zinc-Oxide-ZnO-Nanostructures-fo]] [[Record-576--Multicenter-Validation-of-Foundation-Model-Adaptation-for-]] [[Record-614--MERCENÁRIOS-OPERADORES-OU-PROTETORES-A-VERDADE-SOBRE-PMC-P]] [[Record-690--Synergy-of-Human-Capital-Management-and-Work-Ethics-in-Dri]] [[Record-691--Synergy-of-Human-Capital-Management-and-Work-Ethics-in-Dri]] [[Record-728--Manifold-Agentic-Reasoning-Extending-Agentic-POMDPs-and-Po]] [[Record-745--REINFORCING-MEDIA-GOVERNANCE-IN-INDONESIAN-DYNAMIC-CYBER-S]] [[Record-1791--Planning-with-Transformers-Chain-of-Computation-and-Struc]] [[Record-1792--Retrieval-Augmented-Interpretable-Learning-Towards-Task-S]] [[Record-1799--gMAGNUS-Fast-SpGEMM-on-GPUs-for-Irregular-Matrices-via-Hi]] [[Record-1806--Explainable-and-Resource-Efficient-Spatial-Reasoning-in-M]] [[AI-에이전트]] [[LLM언어모델]] [[과학수학]] [[머신러닝-연구]] [[반도체하드웨어]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Record-242--Consistency-of-efficacy-and-safety-of-elinzanetant-for-vas]] [[Record-286--Low-kV-EDX-Surface-Analysis-Can-Replicate-Metal-Oxidation-]] [[Record-302--CLEAR-an-auditable-foundation-model-for-radiology-grounded]] [[Record-303--Engineered-interfaces-in-electronic-materials-for-energy-e]] [[Record-309--AI-enhanced-adaptive-virtual-screening-of-large-libraries-]] [[Record-324--Molecular-dynamics-study-of-ferroelectric-switching-mechan]] [[Record-345--Comparing-classical-and-quantum-machine-learning-approache]] [[Record-414--Redesigning-Objective-Questions-for-Efficient-and-Fair-Ass]] [[Record-430--Depth-profiling-chemical-changes-in-chemically-amplified-r]] [[Record-440--Rapid-phage-susceptibility-determination-using-a-semi-auto]] [[Record-443--Certain-Investigations-on-Advanced-Signal-Processing-and-K]] [[Record-545--University-students-AI-attitudes-an-experiential-transform]] [[Record-546--Artificial-intelligence-social-justice-and-public-governan]] [[Record-547--Inovação-desenvolvimento-e-tecnologias-uma-revisão-integra]] [[Record-553--Transition-Metal-Modified-Zinc-Oxide-ZnO-Nanostructures-fo]] [[Record-576--Multicenter-Validation-of-Foundation-Model-Adaptation-for-]] [[Record-614--MERCENÁRIOS-OPERADORES-OU-PROTETORES-A-VERDADE-SOBRE-PMC-P]] [[Record-690--Synergy-of-Human-Capital-Management-and-Work-Ethics-in-Dri]] [[Record-691--Synergy-of-Human-Capital-Management-and-Work-Ethics-in-Dri]] [[Record-728--Manifold-Agentic-Reasoning-Extending-Agentic-POMDPs-and-Po]] [[Record-745--REINFORCING-MEDIA-GOVERNANCE-IN-INDONESIAN-DYNAMIC-CYBER-S]] [[Record-1797--Planning-with-Transformers-Chain-of-Computation-and-Struc]] [[Record-1798--Retrieval-Augmented-Interpretable-Learning-Towards-Task-S]] [[Record-1805--gMAGNUS-Fast-SpGEMM-on-GPUs-for-Irregular-Matrices-via-Hi]] [[Record-1812--Explainable-and-Resource-Efficient-Spatial-Reasoning-in-M]] [[AI-에이전트]] [[LLM언어모델]] [[과학수학]] [[머신러닝-연구]] [[반도체하드웨어]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

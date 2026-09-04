@@ -1,18 +1,18 @@
 ---
-title: "Record 1914 · Dipan-Patel-On-Permiras-Artisanal-Approach-To-Private-Equity---Transcr"
+title: "Record 1914 · Dipan-Patel-On-Permiras-Artisanal-Approach-To-Private-Equity"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.815260+00:00
+updated_at: 2026-09-04T19:49:04.408727+00:00
 tags: [record, real-data]
 ---
 
-# Record 1914 · Dipan-Patel-On-Permiras-Artisanal-Approach-To-Private-Equity---Transcr
+# Record 1914 · Dipan-Patel-On-Permiras-Artisanal-Approach-To-Private-Equity
 
-> 실제 수집 레코드입니다. 원문: [www.goldmansachs.com](https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf)
+> 실제 수집 레코드입니다. 원문: [www.goldmansachs.com](https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity)
 
-**제목:** Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript
+**제목:** Dipan Patel On Permiras Artisanal Approach To Private Equity
 
-Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript
+Dipan Patel On Permiras Artisanal Approach To Private Equity
 
 **출처:** Source · institutions
 

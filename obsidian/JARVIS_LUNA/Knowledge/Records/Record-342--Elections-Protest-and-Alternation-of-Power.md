@@ -2,7 +2,7 @@
 title: "Record 342 · Elections-Protest-and-Alternation-of-Power"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.455474+00:00
+updated_at: 2026-09-04T19:49:04.094740+00:00
 tags: [record, real-data]
 ---
 

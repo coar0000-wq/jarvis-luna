@@ -2,7 +2,7 @@
 title: "Record 247 · Novel-high-radiopurity-doped-amorphous-silicon-resistors-for-low-backg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.432594+00:00
+updated_at: 2026-09-04T19:49:04.074321+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 138 · Google-DeepMind-and-A24-announce-first-of-its-kind-research-partnershi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.408351+00:00
+updated_at: 2026-09-04T19:49:04.051501+00:00
 tags: [record, real-data]
 ---
 

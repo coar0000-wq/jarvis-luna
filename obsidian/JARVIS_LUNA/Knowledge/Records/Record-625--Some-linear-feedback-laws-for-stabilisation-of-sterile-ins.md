@@ -2,7 +2,7 @@
 title: "Record 625 · Some-linear-feedback-laws-for-stabilisation-of-sterile-insect-techniqu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.519245+00:00
+updated_at: 2026-09-04T19:49:04.151503+00:00
 tags: [record, real-data]
 ---
 

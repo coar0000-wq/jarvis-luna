@@ -2,7 +2,7 @@
 title: "Record 756 · Consumer-Confidence-Stabilises-And-Spending-Grows-1-9-Per-Cent-I"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.548152+00:00
+updated_at: 2026-09-04T19:49:04.178064+00:00
 tags: [record, real-data]
 ---
 

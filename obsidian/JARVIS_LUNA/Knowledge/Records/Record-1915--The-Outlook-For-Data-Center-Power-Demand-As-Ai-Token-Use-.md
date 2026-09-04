@@ -1,18 +1,18 @@
 ---
-title: "Record 1915 · The-Outlook-For-Data-Center-Power-Demand-As-Ai-Token-Use-Grows---Trans"
+title: "Record 1915 · The-Outlook-For-Data-Center-Power-Demand-As-Ai-Token-Use-Grows"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.815486+00:00
+updated_at: 2026-09-04T19:49:04.408907+00:00
 tags: [record, real-data]
 ---
 
-# Record 1915 · The-Outlook-For-Data-Center-Power-Demand-As-Ai-Token-Use-Grows---Trans
+# Record 1915 · The-Outlook-For-Data-Center-Power-Demand-As-Ai-Token-Use-Grows
 
-> 실제 수집 레코드입니다. 원문: [www.goldmansachs.com](https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows/transcript.pdf)
+> 실제 수집 레코드입니다. 원문: [www.goldmansachs.com](https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows)
 
-**제목:** The Outlook For Data Center Power Demand As Ai Token Use Grows   Transcript
+**제목:** The Outlook For Data Center Power Demand As Ai Token Use Grows
 
-The Outlook For Data Center Power Demand As Ai Token Use Grows   Transcript
+The Outlook For Data Center Power Demand As Ai Token Use Grows
 
 **출처:** Source · institutions
 

@@ -2,7 +2,7 @@
 title: "Record 238 · NMRhub-An-NMR-Data-Ecosystem-Spanning-the-Complete-Data-Lifecycle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.430512+00:00
+updated_at: 2026-09-04T19:49:04.072473+00:00
 tags: [record, real-data]
 ---
 

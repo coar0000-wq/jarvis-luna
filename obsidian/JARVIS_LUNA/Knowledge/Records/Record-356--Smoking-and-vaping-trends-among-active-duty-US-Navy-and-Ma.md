@@ -2,7 +2,7 @@
 title: "Record 356 · Smoking-and-vaping-trends-among-active-duty-US-Navy-and-Marine-Corps-p"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.458698+00:00
+updated_at: 2026-09-04T19:49:04.097603+00:00
 tags: [record, real-data]
 ---
 

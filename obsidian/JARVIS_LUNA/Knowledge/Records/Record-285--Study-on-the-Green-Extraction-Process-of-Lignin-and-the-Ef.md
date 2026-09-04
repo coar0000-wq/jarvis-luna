@@ -2,7 +2,7 @@
 title: "Record 285 · Study-on-the-Green-Extraction-Process-of-Lignin-and-the-Effect-of-its-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.441568+00:00
+updated_at: 2026-09-04T19:49:04.082326+00:00
 tags: [record, real-data]
 ---
 

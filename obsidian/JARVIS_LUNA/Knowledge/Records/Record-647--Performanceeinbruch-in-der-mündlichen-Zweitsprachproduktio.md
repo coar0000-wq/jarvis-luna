@@ -2,7 +2,7 @@
 title: "Record 647 · Performanceeinbruch-in-der-mündlichen-Zweitsprachproduktion-akademisch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.524045+00:00
+updated_at: 2026-09-04T19:49:04.155971+00:00
 tags: [record, real-data]
 ---
 

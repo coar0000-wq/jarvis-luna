@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T17:43:55.014106+00:00",
+  "generated_at": "2026-09-04T20:09:32.736031+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "tigers vs guardians",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Fri, 4 Sep 2026 10:10:00 -0700",
-          "source_name": "Cleveland.com",
-          "url": "https://trends.google.com/trending?geo=US&q=tigers%20vs%20guardians"
+          "keyword": "tesla shares post cybercab event",
+          "approx_traffic": "20000+",
+          "traffic_num": 20000,
+          "published": "Fri, 4 Sep 2026 12:40:00 -0700",
+          "source_name": "CNBC",
+          "url": "https://trends.google.com/trending?geo=US&q=tesla%20shares%20post%20cybercab%20event"
         },
         {
-          "keyword": "kate middleton prince william prince harry",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Fri, 4 Sep 2026 10:10:00 -0700",
-          "source_name": "Fox News",
-          "url": "https://trends.google.com/trending?geo=US&q=kate%20middleton%20prince%20william%20prince%20harry"
+          "keyword": "severe thunderstorm watch",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Fri, 4 Sep 2026 12:40:00 -0700",
+          "source_name": "WUSA9",
+          "url": "https://trends.google.com/trending?geo=US&q=severe%20thunderstorm%20watch"
         },
         {
-          "keyword": "emily compagno",
+          "keyword": "maria bartiromo fired",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Fri, 4 Sep 2026 12:50:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=maria%20bartiromo%20fired"
+        },
+        {
+          "keyword": "emma navarro",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Fri, 4 Sep 2026 10:10:00 -0700",
-          "source_name": "The Hollywood Reporter",
-          "url": "https://trends.google.com/trending?geo=US&q=emily%20compagno"
+          "published": "Fri, 4 Sep 2026 12:40:00 -0700",
+          "source_name": "US Open Tennis",
+          "url": "https://trends.google.com/trending?geo=US&q=emma%20navarro"
         },
         {
-          "keyword": "taylor townsend",
+          "keyword": "survivor greece",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Fri, 4 Sep 2026 10:10:00 -0700",
-          "source_name": "WTA Tennis",
-          "url": "https://trends.google.com/trending?geo=US&q=taylor%20townsend"
+          "published": "Fri, 4 Sep 2026 12:40:00 -0700",
+          "source_name": "Global News",
+          "url": "https://trends.google.com/trending?geo=US&q=survivor%20greece"
         },
         {
-          "keyword": "lyon fc",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Fri, 4 Sep 2026 10:10:00 -0700",
-          "source_name": "Le Progrès",
-          "url": "https://trends.google.com/trending?geo=US&q=lyon%20fc"
-        },
-        {
-          "keyword": "al-shabab vs al-hilal",
+          "keyword": "real madrid fc",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 4 Sep 2026 10:30:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=al-shabab%20vs%20al-hilal"
+          "published": "Fri, 4 Sep 2026 12:50:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=real%20madrid%20fc"
         },
         {
-          "keyword": "kevin o leary",
+          "keyword": "tony romo owi plea deal",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 4 Sep 2026 10:20:00 -0700",
-          "source_name": "Yahoo Finance",
-          "url": "https://trends.google.com/trending?geo=US&q=kevin%20o%20leary"
+          "published": "Fri, 4 Sep 2026 12:40:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=tony%20romo%20owi%20plea%20deal"
         },
         {
-          "keyword": "alexander bublik",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Fri, 4 Sep 2026 10:30:00 -0700",
-          "source_name": "Sports Illustrated",
-          "url": "https://trends.google.com/trending?geo=US&q=alexander%20bublik"
+          "keyword": "on nothing yeat",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 4 Sep 2026 12:40:00 -0700",
+          "source_name": "inmusicblog.com",
+          "url": "https://trends.google.com/trending?geo=US&q=on%20nothing%20yeat"
         },
         {
-          "keyword": "david muir",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Fri, 4 Sep 2026 10:20:00 -0700",
-          "source_name": "ADWEEK",
-          "url": "https://trends.google.com/trending?geo=US&q=david%20muir"
+          "keyword": "porto fc",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 4 Sep 2026 12:30:00 -0700",
+          "source_name": "Sportsgambler",
+          "url": "https://trends.google.com/trending?geo=US&q=porto%20fc"
         },
         {
-          "keyword": "diana shnaider",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Fri, 4 Sep 2026 10:20:00 -0700",
-          "source_name": "Athlon Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=diana%20shnaider"
+          "keyword": "rick devens",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 4 Sep 2026 12:30:00 -0700",
+          "source_name": "Entertainment Weekly",
+          "url": "https://trends.google.com/trending?geo=US&q=rick%20devens"
         }
       ]
     },
@@ -187,6 +187,11 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "Is the Dyson Toothbrush Worth $499? We Asked 4 Dentists.",
+          "published": "Fri, 04 Sep 2026 19:30:34 +0000",
+          "url": "https://www.allure.com/story/dyson-camerajet-electric-toothbrush-dentists-weigh-in"
+        },
         {
           "title": "Urea Is an Under-the-Radar Ingredient That Softens Skin from Head to Toe",
           "published": "Fri, 04 Sep 2026 15:20:17 +0000",
@@ -331,11 +336,6 @@
           "title": "Vanilla Chrome Nails Are the Sweetest Way to Wear a White Manicure",
           "published": "Wed, 26 Aug 2026 20:07:01 +0000",
           "url": "https://www.allure.com/story/vanilla-chrome-nail-trend"
-        },
-        {
-          "title": "The 9 Best Products for Low-Porosity Hair Won’t Weigh Down Your Strands",
-          "published": "Wed, 26 Aug 2026 15:39:16 +0000",
-          "url": "https://www.allure.com/story/best-products-for-low-porosity-hair"
         }
       ]
     },

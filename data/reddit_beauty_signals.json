@@ -1,19 +1,21 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-04T17:23:13.775635+00:00",
+  "collected_at": "2026-09-04T19:48:16.428658+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 39,
+  "post_count": 25,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
-      "post_count": 50,
-      "errors": []
+      "post_count": 25,
+      "errors": [
+        "top_week: HTTPError: HTTP Error 429: Too Many Requests"
+      ]
     },
     {
       "subreddit": "KoreanBeauty",
@@ -43,19 +45,7 @@
   "hot_keywords": [
     {
       "keyword": "skin",
-      "score": 20
-    },
-    {
-      "keyword": "routine",
       "score": 8
-    },
-    {
-      "keyword": "skincare",
-      "score": 6
-    },
-    {
-      "keyword": "makeup",
-      "score": 6
     },
     {
       "keyword": "september",
@@ -66,55 +56,19 @@
       "score": 5
     },
     {
-      "keyword": "yesstyle",
-      "score": 5
-    },
-    {
-      "keyword": "care",
+      "keyword": "routine",
       "score": 4
-    },
-    {
-      "keyword": "brands",
-      "score": 4
-    },
-    {
-      "keyword": "product",
-      "score": 4
-    },
-    {
-      "keyword": "favorite",
-      "score": 4
-    },
-    {
-      "keyword": "korean",
-      "score": 4
-    },
-    {
-      "keyword": "sunscreens",
-      "score": 4
-    },
-    {
-      "keyword": "sunscreen",
-      "score": 4
-    },
-    {
-      "keyword": "scalp",
-      "score": 3
     },
     {
       "keyword": "one",
       "score": 3
     },
     {
-      "keyword": "different",
+      "keyword": "makeup",
       "score": 3
     },
     {
-      "keyword": "products",
-      "score": 3
-    },
-    {
-      "keyword": "reviews",
+      "keyword": "product",
       "score": 3
     },
     {
@@ -138,113 +92,145 @@
       "score": 2
     },
     {
-      "keyword": "kiss",
+      "keyword": "koreans",
       "score": 2
     },
     {
-      "keyword": "heroine",
+      "keyword": "look",
       "score": 2
     },
     {
-      "keyword": "mascara",
+      "keyword": "scalp",
       "score": 2
     },
     {
-      "keyword": "far",
+      "keyword": "care",
       "score": 2
     },
     {
-      "keyword": "package",
+      "keyword": "yesstyle",
       "score": 2
     },
     {
-      "keyword": "detained",
+      "keyword": "brands",
       "score": 2
     },
     {
-      "keyword": "many",
-      "score": 2
-    },
-    {
-      "keyword": "off",
-      "score": 2
-    },
-    {
-      "keyword": "stylevana",
-      "score": 2
-    },
-    {
-      "keyword": "going",
-      "score": 2
-    },
-    {
-      "keyword": "based",
-      "score": 2
-    },
-    {
-      "keyword": "trick",
-      "score": 2
-    },
-    {
-      "keyword": "wish",
-      "score": 2
-    },
-    {
-      "keyword": "learned",
-      "score": 2
-    },
-    {
-      "keyword": "sooner",
+      "keyword": "skincare",
       "score": 2
     },
     {
       "keyword": "contour",
       "score": 2
-    }
-  ],
-  "beauty_keywords": [
-    {
-      "keyword": "skin",
-      "score": 20
     },
     {
-      "keyword": "routine",
-      "score": 8
+      "keyword": "anything",
+      "score": 2
     },
     {
-      "keyword": "skincare",
-      "score": 6
+      "keyword": "goes",
+      "score": 2
+    },
+    {
+      "keyword": "thursday",
+      "score": 2
+    },
+    {
+      "keyword": "favorite",
+      "score": 2
+    },
+    {
+      "keyword": "products",
+      "score": 2
     },
     {
       "keyword": "korean",
-      "score": 4
+      "score": 2
     },
     {
       "keyword": "sunscreens",
-      "score": 4
-    },
-    {
-      "keyword": "sunscreen",
-      "score": 4
+      "score": 2
     },
     {
       "keyword": "cleanser",
       "score": 2
     },
     {
-      "keyword": "sheet",
+      "keyword": "actual",
+      "score": 1
+    },
+    {
+      "keyword": "use",
+      "score": 1
+    },
+    {
+      "keyword": "kiss",
+      "score": 1
+    },
+    {
+      "keyword": "heroine",
+      "score": 1
+    },
+    {
+      "keyword": "mascara",
+      "score": 1
+    },
+    {
+      "keyword": "new",
+      "score": 1
+    },
+    {
+      "keyword": "ricky",
+      "score": 1
+    },
+    {
+      "keyword": "beauty",
+      "score": 1
+    },
+    {
+      "keyword": "lipliners",
+      "score": 1
+    },
+    {
+      "keyword": "love",
+      "score": 1
+    },
+    {
+      "keyword": "low",
+      "score": 1
+    },
+    {
+      "keyword": "medium",
+      "score": 1
+    }
+  ],
+  "beauty_keywords": [
+    {
+      "keyword": "skin",
+      "score": 8
+    },
+    {
+      "keyword": "routine",
+      "score": 4
+    },
+    {
+      "keyword": "koreans",
       "score": 2
     },
     {
-      "keyword": "masks",
+      "keyword": "skincare",
       "score": 2
     },
     {
-      "keyword": "kbeauty",
+      "keyword": "korean",
       "score": 2
     },
     {
-      "keyword": "moisturizer",
+      "keyword": "sunscreens",
+      "score": 2
+    },
+    {
+      "keyword": "cleanser",
       "score": 2
     }
   ],
@@ -264,9 +250,23 @@
       "feed": "hot"
     },
     {
+      "title": "What “actual Koreans”use",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7dimn/what_actual_koreansuse/",
+      "published": "2026-09-04T19:01:56+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Kiss Me Heroine Mascara",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w6dcwc/kiss_me_heroine_mascara/",
       "published": "2026-09-03T17:06:15+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "New Ricky Beauty Lipliners: love the look of this one for low to medium contrast, muted people.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w79w2j/new_ricky_beauty_lipliners_love_the_look_of_this/",
+      "published": "2026-09-04T16:52:12+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -409,118 +409,6 @@
       "published": "2026-09-03T13:11:14+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
-    },
-    {
-      "title": "Chahong air styler vs coshare instyle",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w4x410/chahong_air_styler_vs_coshare_instyle/",
-      "published": "2026-09-02T02:06:50+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "how do idols have such smooth skin",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w5pdtf/how_do_idols_have_such_smooth_skin/",
-      "published": "2026-09-02T22:29:16+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Tell me the most unhinged ways you test makeup (I wear mine on 5k runs)",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w27yqb/tell_me_the_most_unhinged_ways_you_test_makeup_i/",
-      "published": "2026-08-30T04:49:17+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "top_week"
-    },
-    {
-      "title": "Empties & Reviews",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w3lu0i/empties_reviews/",
-      "published": "2026-08-31T18:09:29+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "top_week"
-    },
-    {
-      "title": "Sunscreen inspo: Athlizm",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w3zjrw/sunscreen_inspo_athlizm/",
-      "published": "2026-09-01T02:53:26+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "top_week"
-    },
-    {
-      "title": "Is Hada Labo in Europe different from Japan ?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w1qg2u/is_hada_labo_in_europe_different_from_japan/",
-      "published": "2026-08-29T16:06:06+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "top_week"
-    },
-    {
-      "title": "Aqua savon eau de toilettes and a review of Shiro Earl Grey",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w3j9ip/aqua_savon_eau_de_toilettes_and_a_review_of_shiro/",
-      "published": "2026-08-31T16:43:04+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "top_week"
-    },
-    {
-      "title": "Fave asian lash styles/brands?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w3xg1w/fave_asian_lash_stylesbrands/",
-      "published": "2026-09-01T01:18:03+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "top_week"
-    },
-    {
-      "title": "Mini reviews of 6 sheet masks I’ve tried recently",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w1mu4t/mini_reviews_of_6_sheet_masks_ive_tried_recently/",
-      "published": "2026-08-29T13:39:10+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "top_week"
-    },
-    {
-      "title": "Guide to finding a Holy Grail Exfoliator! [list by ingredients]",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w15p0t/guide_to_finding_a_holy_grail_exfoliator_list_by/",
-      "published": "2026-08-28T23:00:12+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "top_week"
-    },
-    {
-      "title": "Reliable kbeauty sites that aren’t yesstyle",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w3diks/reliable_kbeauty_sites_that_arent_yesstyle/",
-      "published": "2026-08-31T13:15:16+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "top_week"
-    },
-    {
-      "title": "To those with dry, dehydrated skin: what moisturizer do you pair with your Hada Labo Premium Lotion?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w348mh/to_those_with_dry_dehydrated_skin_what/",
-      "published": "2026-08-31T05:19:18+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "top_week"
-    },
-    {
-      "title": "1 month review of Moev shampoo and conditioner",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w2fscz/1_month_review_of_moev_shampoo_and_conditioner/",
-      "published": "2026-08-30T12:04:39+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "top_week"
-    },
-    {
-      "title": "HoLY GRAIL Skincare for COMBINATION SKIN?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w1j1o7/holy_grail_skincare_for_combination_skin/",
-      "published": "2026-08-29T10:32:21+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "top_week"
-    },
-    {
-      "title": "Alternatives to ABP root lifting iron? It has curved plates",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w1nfxu/alternatives_to_abp_root_lifting_iron_it_has/",
-      "published": "2026-08-29T14:05:09+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "top_week"
-    },
-    {
-      "title": "What is your favorite sunscreen for oilly skin?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w38wb0/what_is_your_favorite_sunscreen_for_oilly_skin/",
-      "published": "2026-08-31T09:40:50+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "top_week"
     }
   ],
   "note": "커뮤니티 실수요 시그널. 광고 키워드·S등급 코칭 보강용. 판매 순위 아님.",

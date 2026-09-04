@@ -2,7 +2,7 @@
 title: "Record 033 · H3-World-Turning-Language-Understanding-into-World-Control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.384481+00:00
+updated_at: 2026-09-04T19:49:04.027602+00:00
 tags: [record, real-data]
 ---
 

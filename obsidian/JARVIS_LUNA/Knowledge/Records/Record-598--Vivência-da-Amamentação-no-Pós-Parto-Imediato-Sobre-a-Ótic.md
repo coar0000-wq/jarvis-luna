@@ -2,7 +2,7 @@
 title: "Record 598 · Vivência-da-Amamentação-no-Pós-Parto-Imediato-Sobre-a-Ótica-das-Puérpe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.513361+00:00
+updated_at: 2026-09-04T19:49:04.146233+00:00
 tags: [record, real-data]
 ---
 

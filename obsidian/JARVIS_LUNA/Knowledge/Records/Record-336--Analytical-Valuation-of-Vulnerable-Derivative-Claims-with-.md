@@ -2,7 +2,7 @@
 title: "Record 336 · Analytical-Valuation-of-Vulnerable-Derivative-Claims-with-Bilateral-Ca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.454058+00:00
+updated_at: 2026-09-04T19:49:04.093505+00:00
 tags: [record, real-data]
 ---
 

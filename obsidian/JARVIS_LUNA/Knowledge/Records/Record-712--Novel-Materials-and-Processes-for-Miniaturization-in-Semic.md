@@ -2,7 +2,7 @@
 title: "Record 712 · Novel-Materials-and-Processes-for-Miniaturization-in-Semiconductor-Pac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.538119+00:00
+updated_at: 2026-09-04T19:49:04.168825+00:00
 tags: [record, real-data]
 ---
 

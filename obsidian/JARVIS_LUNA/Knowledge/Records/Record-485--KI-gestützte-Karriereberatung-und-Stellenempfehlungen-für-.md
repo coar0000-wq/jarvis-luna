@@ -2,7 +2,7 @@
 title: "Record 485 · KI-gestützte-Karriereberatung-und-Stellenempfehlungen-für-den-Schweize"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.488123+00:00
+updated_at: 2026-09-04T19:49:04.123358+00:00
 tags: [record, real-data]
 ---
 

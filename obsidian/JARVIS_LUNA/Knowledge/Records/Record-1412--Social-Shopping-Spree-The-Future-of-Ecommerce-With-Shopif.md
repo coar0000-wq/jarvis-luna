@@ -1,0 +1,21 @@
+---
+title: "Record 1412 · Social-Shopping-Spree-The-Future-of-Ecommerce-With-Shopify---ADWEEK"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-04T19:49:04.306911+00:00
+tags: [record, real-data]
+---
+
+# Record 1412 · Social-Shopping-Spree-The-Future-of-Ecommerce-With-Shopify---ADWEEK
+
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilgFBVV95cUxPV2dlR0Y0N3IyV19zQXZiQlJWUC1OYllzeFR2SDE3amp0LWtOX2ZQcksxUDVhaGhsVXNHVUQxZURwUWlhUVFlWlpuU1NCQV94dzE0ZFdpN3JTYzZJcmpvbGR6VnN4eDJsN0h6c0NFcnpkbng0cjk1bjc0dTRDYzFBdmlseUhuTWtORmU2Q0I3ZGFkTC1WVHc?oc=5)
+
+**제목:** Social Shopping Spree: The Future of Ecommerce With Shopify - ADWEEK
+
+Social Shopping Spree: The Future of Ecommerce With Shopify - ADWEEK
+
+**출처:** Source · Google Search
+
+## Connected nodes
+
+[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

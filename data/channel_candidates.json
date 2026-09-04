@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T17:44:08.678503+00:00",
+  "generated_at": "2026-09-04T20:09:46.208608+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 연동은 사람이 승인한 뒤에 한다.",
   "판정기준": [
@@ -57,12 +57,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 24848,
+      "bytes": 25082,
       "items": 30,
       "samples": [
+        "Is the Dyson Toothbrush Worth $499? We Asked 4 Dentists.",
         "Urea Is an Under-the-Radar Ingredient That Softens Skin from Head to Toe",
-        "Fall 2026 Makeup Trends Put Your Best Features Front and Center — See Photos",
-        "Hairstylist Frédéric Fekkai Is Being Sued by Epstein Survivors for Allegedly Enabling Gender-Motivated Violence"
+        "Fall 2026 Makeup Trends Put Your Best Features Front and Center — See Photos"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름"
@@ -85,12 +85,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21878,
+      "bytes": 20986,
       "items": 40,
       "samples": [
-        "al-shabab vs al-hilal",
-        "Al Shabab vs Al Hilal: Saudi Pro League stats & head-to-head",
-        "A new Hilal: Inzaghi settles the situation of Martinelli and Watkins ahead of the Al-Shabab derby"
+        "real madrid fc",
+        "Confirmed: Barcelona exceed €1 billion in revenue for 2025/26 – first time in history",
+        "FC Barcelona announcement"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름"

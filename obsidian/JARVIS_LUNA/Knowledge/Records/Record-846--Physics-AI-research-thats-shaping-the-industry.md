@@ -2,7 +2,7 @@
 title: "Record 846 · Physics-AI-research-thats-shaping-the-industry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.574054+00:00
+updated_at: 2026-09-04T19:49:04.198014+00:00
 tags: [record, real-data]
 ---
 

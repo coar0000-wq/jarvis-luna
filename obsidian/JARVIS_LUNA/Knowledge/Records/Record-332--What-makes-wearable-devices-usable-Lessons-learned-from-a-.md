@@ -2,7 +2,7 @@
 title: "Record 332 · What-makes-wearable-devices-usable-Lessons-learned-from-a-47-day-Antar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.453121+00:00
+updated_at: 2026-09-04T19:49:04.092683+00:00
 tags: [record, real-data]
 ---
 

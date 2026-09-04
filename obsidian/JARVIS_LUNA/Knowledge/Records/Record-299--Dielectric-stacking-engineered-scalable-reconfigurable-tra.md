@@ -2,7 +2,7 @@
 title: "Record 299 · Dielectric-stacking-engineered-scalable-reconfigurable-transistor-plat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.445575+00:00
+updated_at: 2026-09-04T19:49:04.086029+00:00
 tags: [record, real-data]
 ---
 

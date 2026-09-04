@@ -2,7 +2,7 @@
 title: "Record 380 · Formal-Specification-and-Verification-of-Architecturally-Defined-Attes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.464423+00:00
+updated_at: 2026-09-04T19:49:04.102633+00:00
 tags: [record, real-data]
 ---
 

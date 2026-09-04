@@ -2,7 +2,7 @@
 title: "Record 732 · Tumor-specific-Kinase-Motif-Enrichment-Analysis-Identifies-Personalize"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.542781+00:00
+updated_at: 2026-09-04T19:49:04.173184+00:00
 tags: [record, real-data]
 ---
 

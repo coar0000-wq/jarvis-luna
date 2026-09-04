@@ -2,7 +2,7 @@
 title: "Record 240 · Circulatory-pathology-in-osteoarthritic-subchondral-bone"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.430942+00:00
+updated_at: 2026-09-04T19:49:04.072857+00:00
 tags: [record, real-data]
 ---
 

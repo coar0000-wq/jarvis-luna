@@ -2,7 +2,7 @@
 title: "Record 272 · Atomic-Layer-Deposition-of-High-Density-GeSe-Films-for-Stable-Vertical"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.438425+00:00
+updated_at: 2026-09-04T19:49:04.079511+00:00
 tags: [record, real-data]
 ---
 

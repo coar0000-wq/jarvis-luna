@@ -2,7 +2,7 @@
 title: "Record 018 · Video-Generative-Models-as-Geometry-Learner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T17:23:28.381628+00:00
+updated_at: 2026-09-04T19:49:04.024748+00:00
 tags: [record, real-data]
 ---
 
