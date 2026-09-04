@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-09-04T22:25:15.199401+00:00",
+  "generated_at": "2026-09-04T22:30:35.731246+00:00",
   "source": "score_shopify_demand.py",
   "rule": "grade == S (core+body category + strong global match; non-beauty filtered)",
-  "count": 13,
+  "count": 14,
   "priority_note": "S등급만(바디샴푸·워시 포함). 잡상품·약한 단일토큰 매칭 제외. Shopify 1차 등록 후보.",
   "recommendations": [
     {
       "rank": 1,
+      "pd_no": "1048583",
+      "name": "드롭비 탄탄 광채 앰플 40 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 97,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048583",
+      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
+      "matched_global": {
+        "channel": "oliveyoung_us",
+        "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+        "similarity": 0.667,
+        "demand_weight": 0.833,
+        "matched_tokens": [
+          "ampoule"
+        ],
+        "match_score": 0.555
+      }
+    },
+    {
+      "rank": 2,
       "pd_no": "1045146",
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
       "bucket": "스킨케어",
@@ -27,7 +48,7 @@
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "pd_no": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
       "bucket": "스킨케어",
@@ -49,7 +70,7 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "pd_no": "1048581",
       "name": "드롭비 잡티 말끔 앰플 40 ml",
       "bucket": "스킨케어",
@@ -70,7 +91,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "pd_no": "1075857",
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
       "bucket": "스킨케어",
@@ -91,7 +112,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "pd_no": "1068776",
       "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
       "bucket": "스킨케어",
@@ -112,7 +133,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "bucket": "마스크팩",
@@ -134,7 +155,7 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "pd_no": "1062781",
       "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
       "bucket": "스킨케어",
@@ -156,7 +177,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "pd_no": "1060487",
       "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
       "bucket": "마스크팩",
@@ -177,7 +198,7 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "pd_no": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "bucket": "스킨케어",
@@ -199,7 +220,7 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 11,
       "pd_no": "1070006",
       "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
       "bucket": "스킨케어",
@@ -220,7 +241,7 @@
       }
     },
     {
-      "rank": 11,
+      "rank": 12,
       "pd_no": "1032881",
       "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
       "bucket": "마스크팩",
@@ -242,27 +263,6 @@
       }
     },
     {
-      "rank": 12,
-      "pd_no": "1068733",
-      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 88,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
-      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 35% · 토큰 ampoule",
-      "matched_global": {
-        "channel": "sephora",
-        "global_product": "턴오버 앰플 c-PDRN 0.5%",
-        "similarity": 0.35,
-        "demand_weight": 0.63,
-        "matched_tokens": [
-          "ampoule"
-        ],
-        "match_score": 0.22
-      }
-    },
-    {
       "rank": 13,
       "pd_no": "1067024",
       "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
@@ -281,6 +281,27 @@
           "cleanser"
         ],
         "match_score": 0.8
+      }
+    },
+    {
+      "rank": 14,
+      "pd_no": "1057223",
+      "name": "태그 핑크 라이트 선쿠션 15 g",
+      "bucket": "선케어",
+      "price_krw": 5000,
+      "shopify_score": 84,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057223",
+      "recommend_reason": "글로벌 '베터 스크린 UV 세럼 SPF 50+' (sephora) 유사 85% · 토큰 sunscreen",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "베터 스크린 UV 세럼 SPF 50+",
+        "similarity": 0.853,
+        "demand_weight": 0.855,
+        "matched_tokens": [
+          "sunscreen"
+        ],
+        "match_score": 0.73
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "started_at": "2026-09-03T21:43:56.839111+00:00",
+    "started_at": "2026-09-04T21:31:31.727813+00:00",
     "requested": 110,
     "ok": 16,
     "parse_failed": 14,
@@ -11,36 +11,36 @@
     "max_items": 110,
     "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
     "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
-    "finished_at": "2026-09-03T22:43:02.307517+00:00",
+    "finished_at": "2026-09-04T22:30:35.398270+00:00",
     "status": "ok"
   },
   "totals": {
-    "products": 164,
+    "products": 180,
     "target_per_bucket": 25,
     "by_bucket": {
-      "스킨케어": 36,
-      "마스크팩": 17,
+      "스킨케어": 38,
+      "마스크팩": 20,
       "클렌징": 4,
       "선케어": 1,
-      "메이크업": 43,
+      "메이크업": 48,
       "네일": 16,
-      "뷰티소품": 6,
-      "맨즈케어": 19,
-      "향수": 8,
+      "뷰티소품": 7,
+      "맨즈케어": 21,
+      "향수": 9,
       "헤어케어": 4,
       "바디케어": 1,
-      "구강용품": 9
+      "구강용품": 11
     },
     "categories": {
       "스킨케어": {
-        "count": 36,
-        "avg_price_krw": 3583,
+        "count": 38,
+        "avg_price_krw": 3566,
         "min_price_krw": 1000,
         "max_price_krw": 5000
       },
       "마스크팩": {
-        "count": 17,
-        "avg_price_krw": 2353,
+        "count": 20,
+        "avg_price_krw": 2300,
         "min_price_krw": 500,
         "max_price_krw": 5000
       },
@@ -57,8 +57,8 @@
         "max_price_krw": 5000
       },
       "메이크업": {
-        "count": 43,
-        "avg_price_krw": 2709,
+        "count": 48,
+        "avg_price_krw": 2688,
         "min_price_krw": 1000,
         "max_price_krw": 5000
       },
@@ -69,20 +69,20 @@
         "max_price_krw": 3000
       },
       "뷰티소품": {
-        "count": 6,
-        "avg_price_krw": 1833,
+        "count": 7,
+        "avg_price_krw": 1714,
         "min_price_krw": 1000,
         "max_price_krw": 3000
       },
       "맨즈케어": {
-        "count": 19,
-        "avg_price_krw": 3237,
+        "count": 21,
+        "avg_price_krw": 3214,
         "min_price_krw": 1000,
         "max_price_krw": 5000
       },
       "향수": {
-        "count": 8,
-        "avg_price_krw": 2375,
+        "count": 9,
+        "avg_price_krw": 2444,
         "min_price_krw": 1000,
         "max_price_krw": 5000
       },
@@ -99,25 +99,26 @@
         "max_price_krw": 2000
       },
       "구강용품": {
-        "count": 9,
-        "avg_price_krw": 2333,
+        "count": 11,
+        "avg_price_krw": 2182,
         "min_price_krw": 1000,
         "max_price_krw": 5000
       }
     },
-    "avg_price_krw": 2780,
+    "avg_price_krw": 2744,
     "price_krw_min": 500,
     "price_krw_max": 5000,
-    "with_rating": 163
+    "with_rating": 178
   },
   "fx": {
-    "usd_to_krw": 1356.73,
-    "krw_to_usd": 0.00073707,
+    "usd_to_krw": 1350.35,
+    "krw_to_usd": 0.00074055,
     "as_of": "2026-09-04",
-    "source": "https://open.er-api.com/v6/latest/USD",
-    "fetched_at": "2026-09-04T22:25:15.125048+00:00",
+    "source": "Frankfurter API",
+    "api_url": "https://api.frankfurter.app/latest?from=USD&to=KRW",
+    "fetched_at": "2026-09-04T22:30:35.657086+00:00",
     "ok": true
   },
   "sitemap_urls_known": 19739,
-  "visited": 920
+  "visited": 1030
 }
