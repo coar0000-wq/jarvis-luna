@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T09:24:10.678974+09:00",
+  "generated_at": "2026-09-04T13:21:14.458226+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "1090개 코퍼스 레코드"
+      "detail": "1107개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "1109개 노트 · 9062개 링크 · 끊어진 링크 0개"
+      "detail": "1126개 노트 · 9198개 링크 · 끊어진 링크 0개"
     },
     {
       "id": "dashboard",
@@ -25,7 +25,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "1090건 · 3 experts · 정확도 79.54%"
+      "detail": "1107건 · 3 experts · 정확도 79.77%"
     },
     {
       "id": "publish",
@@ -36,45 +36,45 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 1090,
+    "record_count": 1107,
     "source_counts": {},
-    "updated_at": "2026-09-04T09:17:19.541325+09:00"
+    "updated_at": "2026-09-04T13:13:55.158455+09:00"
   },
   "graph": {
-    "notes": 1109,
-    "links": 9062,
+    "notes": 1126,
+    "links": 9198,
     "dangling_links": 0,
-    "records": 1090,
+    "records": 1107,
     "sources": 4,
     "topics": 6,
     "audit": "passed",
-    "last_generated": "2026-09-04T09:17:51.241788+09:00"
+    "last_generated": "2026-09-04T13:14:47.422951+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 1090,
+    "records": 1107,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.7954128440366972,
-    "validation_accuracy": 0.8543689320388349,
-    "final_loss": 0.3884090429270703,
-    "gate_load_std": 0.44894925789911005,
+    "accuracy": 0.7976513098464318,
+    "validation_accuracy": 0.8564593301435407,
+    "final_loss": 0.38404291781671374,
+    "gate_load_std": 0.44915568461149513,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-04T00:24:10.549066+00:00"
+    "updated_at": "2026-09-04T04:21:14.335751+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 1090,
-      "notes": 1109,
-      "links": 9062
+      "records": 1107,
+      "notes": 1126,
+      "links": 9198
     },
     "prior_totals": {
-      "records": 1090,
-      "notes": 1109,
-      "links": 9062
+      "records": 1107,
+      "notes": 1126,
+      "links": 9198
     },
     "added_this_run": {
       "records": 0,
@@ -82,9 +82,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 1090,
-      "notes": 1109,
-      "links": 9062
+      "records": 1107,
+      "notes": 1126,
+      "links": 9198
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -262,233 +262,97 @@
         "extraction_method": "manual_screenshot"
       }
     ],
-    "oliveyoung_us": [
-      {
-        "product": "THOME The Glow Signature",
-        "sub": "THOME",
-        "badge": "$279.00",
-        "rank": 1,
-        "rating": 4.7,
-        "review_count": 25,
-        "url": "https://us.oliveyoung.com/products/UA66893538"
-      },
-      {
-        "product": "orthomol Immune - Daily Immune System Booster, Vitamins A, B, C, D, E, Zinc, Selenium & Iodine (Drinkable Shots 30-day Supply)",
-        "sub": "orthomol",
-        "badge": "$67.99",
-        "rank": 2,
-        "rating": 4,
-        "review_count": 1,
-        "url": "https://us.oliveyoung.com/products/UA10029092"
-      },
-      {
-        "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-        "sub": "AESTURA",
-        "badge": "$32.00",
-        "rank": 3,
-        "rating": 5,
-        "review_count": 2,
-        "url": "https://us.oliveyoung.com/products/UA71026007"
-      },
-      {
-        "product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-        "sub": "ROUND LAB",
-        "badge": "$22.49",
-        "rank": 4,
-        "rating": 5,
-        "review_count": 2,
-        "url": "https://us.oliveyoung.com/products/UA38918945"
-      },
-      {
-        "product": "SUNGBOON EDITOR Deep Collagen Silk Peptide Intensive Ampoule 1.35 fl. oz.(40ml)",
-        "sub": "SUNGBOON EDITOR",
-        "badge": "$20.30",
-        "rank": 5,
-        "rating": 0,
-        "review_count": 0,
-        "url": "https://us.oliveyoung.com/products/UA49608676"
-      },
-      {
-        "product": "FOODOLOGY Coleology Cutting Jelly 0.88 oz.(25g) x 10ea",
-        "sub": "FOODOLOGY",
-        "badge": "$22.50",
-        "rank": 6,
-        "rating": 4.6,
-        "review_count": 8,
-        "url": "https://us.oliveyoung.com/products/UA61972333"
-      },
-      {
-        "product": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
-        "sub": "Biodance",
-        "badge": "$62.00",
-        "rank": 7,
-        "rating": 5,
-        "review_count": 2,
-        "url": "https://us.oliveyoung.com/products/UA22731950"
-      },
-      {
-        "product": "[11types] CORINGCO Toktokhara No Glue Eyelash",
-        "sub": "CORINGCO",
-        "badge": "$12.99",
-        "rank": 8,
-        "rating": 4.8,
-        "review_count": 12171,
-        "url": "https://us.oliveyoung.com/products/UA29855490"
-      },
-      {
-        "product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-        "sub": "REJURAN",
-        "badge": "$41.60",
-        "rank": 9,
-        "rating": 5,
-        "review_count": 9,
-        "url": "https://us.oliveyoung.com/products/UA67698081"
-      },
-      {
-        "product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-        "sub": "Dr.Althea",
-        "badge": "$27.00",
-        "rank": 10,
-        "rating": 4.8,
-        "review_count": 1622,
-        "url": "https://us.oliveyoung.com/products/UA73639757"
-      },
-      {
-        "product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-        "sub": "lilyeve",
-        "badge": "$23.76",
-        "rank": 11,
-        "rating": 4.7,
-        "review_count": 6,
-        "url": "https://us.oliveyoung.com/products/UA98417491"
-      },
-      {
-        "product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-        "sub": "MEDIHEAL",
-        "badge": "$20.99",
-        "rank": 12,
-        "rating": 4.8,
-        "review_count": 1069,
-        "url": "https://us.oliveyoung.com/products/UA48723304"
-      },
-      {
-        "product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "sub": "S.NATURE",
-        "badge": "$18.20",
-        "rank": 13,
-        "rating": 4.9,
-        "review_count": 16,
-        "url": "https://us.oliveyoung.com/products/UA16733220"
-      },
-      {
-        "product": "[2colors] medicube AGE-R Booster Pro",
-        "sub": "medicube",
-        "badge": "$221.00",
-        "rank": 14,
-        "rating": 5,
-        "review_count": 4,
-        "url": "https://us.oliveyoung.com/products/UA81995088"
-      },
-      {
-        "product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-        "sub": "UNOVE",
-        "badge": "$24.70",
-        "rank": 15,
-        "rating": 5,
-        "review_count": 3,
-        "url": "https://us.oliveyoung.com/products/UA39329211"
-      }
-    ],
+    "oliveyoung_us": [],
     "google_trends_us": [
       {
-        "keyword": "Vitamin",
+        "keyword": "Snail",
         "growth": "+",
         "momentum": "High",
-        "product": "orthomol Immune - Daily Immune System Booster, Vitamins A, B, C, D, E, Zinc, Selenium & Iodine (Drinkable Shots 30-day Supply)"
+        "product": "COSRX Advanced Snail 96 Mucin Essence"
       },
       {
-        "keyword": "Barrier",
+        "keyword": "Mucin",
         "growth": "+",
         "momentum": "High",
-        "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)"
-      },
-      {
-        "keyword": "Peptide",
-        "growth": "+",
-        "momentum": "High",
-        "product": "SUNGBOON EDITOR Deep Collagen Silk Peptide Intensive Ampoule 1.35 fl. oz.(40ml)"
-      },
-      {
-        "keyword": "Collagen",
-        "growth": "+",
-        "momentum": "High",
-        "product": "SUNGBOON EDITOR Deep Collagen Silk Peptide Intensive Ampoule 1.35 fl. oz.(40ml)"
-      },
-      {
-        "keyword": "Ampoule",
-        "growth": "+",
-        "momentum": "High",
-        "product": "SUNGBOON EDITOR Deep Collagen Silk Peptide Intensive Ampoule 1.35 fl. oz.(40ml)"
-      },
-      {
-        "keyword": "Serum",
-        "growth": "+",
-        "momentum": "High",
-        "product": "d'Alba Vita Toning Capsule Serum 3.38 fl. oz.(100ml)"
-      },
-      {
-        "keyword": "Niacinamide",
-        "growth": "+",
-        "momentum": "High",
-        "product": "APLB Glutathione Niacinamide Body Lotion 10.14 fl. oz.(300ml)"
-      },
-      {
-        "keyword": "Cushion",
-        "growth": "+",
-        "momentum": "High",
-        "product": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)"
-      },
-      {
-        "keyword": "Ceramide",
-        "growth": "+",
-        "momentum": "High",
-        "product": "[2sizes] ILLIYOON Ceramide Ato Concentrate Cream"
-      },
-      {
-        "keyword": "Pore",
-        "growth": "+",
-        "momentum": "High",
-        "product": "Dr.Althea Pore Refresh Grinding Cleansing Balm 1.69 fl. oz.(50ml)"
-      },
-      {
-        "keyword": "Toner",
-        "growth": "+",
-        "momentum": "High",
-        "product": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set"
-      },
-      {
-        "keyword": "Centella",
-        "growth": "+",
-        "momentum": "High",
-        "product": "SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)"
-      },
-      {
-        "keyword": "Retinol",
-        "growth": "+",
-        "momentum": "High",
-        "product": "IOPE Expert Retinol 1% Super Bounce Serum 1.01 fl. oz.(30ml)"
-      },
-      {
-        "keyword": "Hyaluronic",
-        "growth": "+",
-        "momentum": "High",
-        "product": "Anua PDRN Hyaluronic Acid Capsule 100 Serum Refill Set 2.02 fl. oz.(60ml)"
+        "product": "COSRX Advanced Snail 96 Mucin Essence"
       },
       {
         "keyword": "Essence",
         "growth": "+",
         "momentum": "High",
-        "product": "numbuzin No.9+ NAD+ BIO Lifting-sil Essence 1.69 fl. oz.(50ml)"
+        "product": "COSRX Advanced Snail 96 Mucin Essence"
+      },
+      {
+        "keyword": "Niacinamide",
+        "growth": "+",
+        "momentum": "High",
+        "product": "The Ordinary Niacinamide 10% + Zinc 1%"
+      },
+      {
+        "keyword": "Centella",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Skin1004 Madagascar Centella Ampoule"
+      },
+      {
+        "keyword": "Ampoule",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Skin1004 Madagascar Centella Ampoule"
+      },
+      {
+        "keyword": "Spf",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Beauty of Joseon Relief Sun SPF50+"
+      },
+      {
+        "keyword": "Heartleaf",
+        "growth": "+",
+        "momentum": "High",
+        "product": "ANUA Heartleaf 77 Soothing Toner"
+      },
+      {
+        "keyword": "Toner",
+        "growth": "+",
+        "momentum": "High",
+        "product": "ANUA Heartleaf 77 Soothing Toner"
+      },
+      {
+        "keyword": "Hyaluronic",
+        "growth": "+",
+        "momentum": "High",
+        "product": "The Ordinary Hyaluronic Acid 2% + B5"
+      },
+      {
+        "keyword": "Serum",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Goodal Green Tangerine Vita C Serum"
+      },
+      {
+        "keyword": "Cushion",
+        "growth": "+",
+        "momentum": "High",
+        "product": "TIRTIR Mask Fit Red Cushion"
+      },
+      {
+        "keyword": "Ceramide",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Illiyoon Ceramide Ato Concentrate Cream"
+      },
+      {
+        "keyword": "Vitamin",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Equate Beauty Vitamin C Serum"
+      },
+      {
+        "keyword": "Pore",
+        "growth": "+",
+        "momentum": "High",
+        "product": "Medicube Zero Pore Pad"
       }
     ],
     "shopify_demand_matching": [],
@@ -883,12 +747,12 @@
     ]
   },
   "exchange_rate": {
-    "rate": 1361.14,
-    "as_of": "2026-09-03",
+    "rate": 1356.73,
+    "as_of": "2026-09-04",
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-04"
   },
-  "last_synced": "09. 04. 오전 09:24 KST",
+  "last_synced": "09. 04. 오후 01:21 KST",
   "global_channels_status": {
     "amazon_best_sellers": {
       "status": "ok",
@@ -911,18 +775,18 @@
       "age_days": 3
     },
     "oliveyoung_us": {
-      "status": "ok",
+      "status": "empty",
       "source": "us.oliveyoung.com/best-sellers 실수집",
-      "reason": "",
-      "collected_at": "2026-09-04T00:17:46.350302+00:00",
-      "count": 15,
-      "trust": "verified"
+      "reason": "수집 실패: HTTP 403",
+      "collected_at": "2026-09-04T04:14:45.298514+00:00",
+      "count": 0,
+      "trust": "none"
     },
     "google_trends_us": {
       "status": "ok",
       "source": "free keywords from real product names",
       "reason": "",
-      "collected_at": "2026-09-04T00:24:10.778122+00:00",
+      "collected_at": "2026-09-04T04:21:14.559337+00:00",
       "count": 15,
       "trust": "verified"
     },
@@ -966,7 +830,7 @@
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-04T00:17:45.971259+00:00",
+      "collected_at": "2026-09-04T04:14:26.878478+00:00",
       "count": 15,
       "trust": "verified"
     }

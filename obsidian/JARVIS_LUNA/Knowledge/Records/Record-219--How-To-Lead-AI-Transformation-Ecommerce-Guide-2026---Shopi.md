@@ -2,13 +2,13 @@
 title: "Record 219 · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-03T09:24:36.665301+00:00
+updated_at: 2026-09-04T04:14:47.256170+00:00
 tags: [{', '.join(tags)}]
 ---
 
 # Record 219 · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026---Shopify
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibEFVX3lxTE9TVndfVlpEWC1jWUtSazJtajRLSXQzUlp0Mnp1M0hvMURfM2hfUGhHV1NUOHdka1ZES0NKY2NOMjJiX0kwQTJ2UHJWNi1fd3JpeHQ5ZGJRaFROalJhQjNHeVB1akw4Ym1SSXpDVA?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fc2xKazdzb096SlhROVFtaDlONVRaNWJfTVdhQkRkVHBENHJMU2Jtck9hMmN5TjVLdFVxZmhybkgtejVKVXFsdUJydzVmaUNNRUtiREEzR0pnY0NtQWItZkFvR1h1N2xz?oc=5)
 
 **제목:** How To Lead AI Transformation: Ecommerce Guide (2026) - Shopify
 
