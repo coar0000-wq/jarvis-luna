@@ -114,10 +114,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # 이번 실행이 만든 산출물을 임시 커밋으로 고정
-          for pth in data/knowledge obsidian; do
-            git add -A -- "$pth" 2>/dev/null || true
-          done
+          # generate_dashboard_runtime.py 가 data/dashboard_runtime.json 을 바꾸므로
+          # knowledge/obsidian 만 add 하면 checkout 시 dirty 로 실패한다.
+          PATHS=(data/knowledge data/dashboard_runtime.json obsidian)
+
+          git add -A -- "${PATHS[@]}" 2>/dev/null || true
+          # 워킹트리에 남은 기타 변경은 stash (checkout 보호)
+          git stash push -u -m "rk-sync-scratch" -- . 2>/dev/null || true
+
           if git diff --cached --quiet; then
             echo "생성된 변경 없음"
             exit 0
@@ -125,14 +129,12 @@ jobs:
           git commit -q -m "wip"
           MINE=$(git rev-parse HEAD)
 
-          # 원격 최신을 베이스로 두고 그 위에 우리 산출물만 얹는다.
-          # rebase 를 쓰지 않으므로 add/add 충돌이 구조적으로 발생하지 않는다.
-          # (2026-09-01: rebase 방식이 manual_channels.json 충돌로 계속 실패해 교체)
+          # 원격 최신을 베이스로 두고 산출물만 얹는다 (rebase 미사용)
           for i in 1 2 3 4 5; do
             git fetch -q origin main
             git checkout -q -B publish origin/main
             RESTORED=0
-            for pth in data/knowledge obsidian; do
+            for pth in "${PATHS[@]}"; do
               if git checkout -q "$MINE" -- "$pth" 2>/dev/null; then
                 RESTORED=$((RESTORED+1))
               fi
