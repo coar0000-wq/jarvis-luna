@@ -569,7 +569,7 @@ JARVIS
 
     def write_log(self, ppt_path: Path, metadata_path: Path, email_status: bool | None, status: str) -> None:
         """실행 결과를 JSON Lines 형식의 로그 파일에 추가한다."""
-        log_path = self.output_dir / "strategy_report_log.json"
+        log_path = self.output_dir / "strategy_report_log.jsonl"
         log_entry = {
             "timestamp": self.now.isoformat(),
             "status": status,
