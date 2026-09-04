@@ -12,9 +12,9 @@
   data/daiso_real/shopify_demand_score.json        전체 점수 · 평점 · 리뷰수
   data/pricing_model.json                          착지원가 · 손익분기 · 권장가
   data/shopify_listing_copy.json                   Gemini 영문 카피 · 태그
-  data/oliveyoung_us_products.json                 미국 베스트셀러 실수집
+  data/oliveyoung_us_products.json                 미국 베스트셀러 실수집 (403 시 0건)
   data/open_beauty_facts.json                      오픈데이터 상품 정보
-  data/dashboard_runtime.json                      채널 상태 · 신뢰 등급
+  data/dashboard_runtime.json                      채널 상태 · Sephora/Ulta 대체 경쟁군
 
 출력 data/market_team.json
 
@@ -190,38 +190,110 @@ def build_keyword_board(s_rows, oy_products):
     return board
 
 
-def build_competitors(s_rows, oy_products):
-    """미국 베스트셀러 중 S등급과 같은 포지션인 상품을 경쟁군으로 잡는다."""
+def _normalize_us_item(item: dict, default_source: str) -> dict | None:
+    """채널 아이템을 경쟁군 공통 스키마로 맞춘다."""
+    if not isinstance(item, dict):
+        return None
+    name = (item.get("product") or item.get("title") or item.get("name") or "").strip()
+    if len(name) < 3:
+        return None
+    price = item.get("price_usd")
+    if price is None:
+        price = item.get("price")
+    try:
+        price = float(price) if price is not None else None
+    except (TypeError, ValueError):
+        price = None
+    return {
+        "product": name,
+        "brand": item.get("brand") or item.get("sub") or "",
+        "price_usd": price,
+        "rating": item.get("rating"),
+        "review_count": item.get("review_count"),
+        "rank": item.get("rank"),
+        "url": item.get("url") or item.get("product_url") or "",
+        "source": item.get("source") or default_source,
+    }
+
+
+def collect_competitor_pool(oy_products, runtime) -> list[dict]:
+    """경쟁군 후보 풀.
+
+    우선순위:
+      1) OliveYoung US 실수집 (있으면)
+      2) dashboard global_channels 의 Sephora / Ulta / Amazon / Walmart
+         (OY 가 Cloudflare 403 으로 비어도 대체 가능)
+    """
+    pool: list[dict] = []
+    seen: set[str] = set()
+
+    def add(items, src_label):
+        for it in items or []:
+            n = _normalize_us_item(it, src_label)
+            if not n:
+                continue
+            key = n["product"].lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            pool.append(n)
+
+    add(oy_products, "us.oliveyoung.com/best-sellers 실수집")
+
+    gc = (runtime or {}).get("global_channels") or {}
+    # OY 채널 키가 런타임에 남아 있으면 같이 흡수
+    add(gc.get("oliveyoung_us") or [], "oliveyoung_us (runtime)")
+    add(gc.get("sephora") or [], "sephora 실수집/스냅샷")
+    add(gc.get("ulta_beauty") or [], "ulta_beauty 실수집/스냅샷")
+    add(gc.get("amazon_best_sellers") or [], "amazon_best_sellers")
+    add(gc.get("walmart_beauty") or [], "walmart_beauty")
+    return pool
+
+
+def build_competitors(s_rows, us_pool):
+    """미국 실판매(또는 스냅샷) 중 S등급과 같은 포지션인 상품을 경쟁군으로 잡는다.
+
+    OliveYoung US 가 403 으로 비어도 Sephora/Ulta 등으로 채운다.
+    """
     buckets = {r["bucket"] for r in s_rows if r.get("bucket")}
+    # 바디케어 힌트 추가 (바디샴푸 등)
     hints = {
-        "선케어": ("sun", "spf", "uv"),
-        "스킨케어": ("cream", "serum", "toner", "essence", "ampoule", "moistur"),
+        "선케어": ("sun", "spf", "uv", "sunscreen"),
+        "스킨케어": ("cream", "serum", "toner", "essence", "ampoule", "moistur",
+                   "lotion", "collagen", "pdrn", "snail", "heartleaf"),
         "마스크팩": ("mask",),
-        "클렌징": ("cleans", "foam"),
-        "메이크업": ("cushion", "tint", "lip"),
+        "클렌징": ("cleans", "foam", "wash"),
+        "메이크업": ("cushion", "tint", "lip", "foundation"),
+        "헤어케어": ("shampoo", "treatment", "hair"),
+        "바디케어": ("body", "wash", "lotion", "shower"),
     }
     out = []
     for b in buckets:
         keys = hints.get(b)
         if not keys:
             continue
-        for o in oy_products:
+        for o in us_pool:
             low = (o.get("product") or "").lower()
             if not any(k in low for k in keys):
                 continue
-            if not o.get("price_usd"):
-                continue
+            # 가격 없어도 이름·포지션은 표시 (스냅샷에 가격 없는 경우)
+            rank = o.get("rank")
+            src = o.get("source") or "US channel"
+            why = f"{src}"
+            if rank:
+                why += f" {rank}위"
+            why += f" · {b} 동일 포지션"
             out.append({
                 "name": o["product"],
                 "brand": o.get("brand"),
-                "price_usd": o["price_usd"],
+                "price_usd": o.get("price_usd"),
                 "rating": o.get("rating"),
                 "review_count": o.get("review_count"),
-                "us_rank": o.get("rank"),
+                "us_rank": rank,
                 "daiso_bucket": b,
-                "why": f"OliveYoung US 베스트셀러 {o.get('rank')}위 · {b} 동일 포지션",
-                "url": o.get("url"),
-                "source": "us.oliveyoung.com/best-sellers 실수집",
+                "why": why,
+                "url": o.get("url") or "",
+                "source": src,
             })
             if len([x for x in out if x["daiso_bucket"] == b]) >= 3:
                 break
@@ -242,10 +314,16 @@ def build_actions(s_rows, status, pricing):
             if m.get("count", 0) == 0 and m.get("status") != "disabled"]
     if dead:
         acts.append(f"수집 실패 채널 {len(dead)}개 점검: {', '.join(dead)}")
+    if "oliveyoung_us" in (dead or []) or any(
+            k == "oliveyoung_us" for k in (status or {})):
+        oy_meta = (status or {}).get("oliveyoung_us") or {}
+        if oy_meta.get("count", 0) == 0:
+            acts.append(
+                "OliveYoung US 는 Actions 에서 HTTP 403(Cloudflare). "
+                "주 1회 로컬/브라우저 수집 또는 Sephora·Ulta 대체 경쟁군 사용")
     mkt = pricing.get("market_benchmark") or {}
     if mkt.get("n"):
-        acts.append(f"OliveYoung US 베스트셀러 {mkt['n']}건 가격 변동 주 1회 확인 "
-                    f"(현재 중앙값 ${mkt.get('median')})")
+        acts.append(f"시장 가격대 {mkt['n']}건 기준 중앙값 ${mkt.get('median')} 주 1회 확인")
     acts.append("묶음 구매 유도용 무료배송 최소 주문금액 설정 "
                 "(낱개 배송 시 적자 구조라 필수)")
     return acts
@@ -263,6 +341,7 @@ def main() -> int:
     detail = {str(x["pd_no"]): x for x in (score.get("all_scored") or [])}
     oy_products = oy.get("products") or []
     status = runtime.get("global_channels_status") or {}
+    us_pool = collect_competitor_pool(oy_products, runtime)
 
     s_rows = build_s_priority(srec, detail, pricing, copies)
     now = datetime.now(KST)
@@ -273,6 +352,9 @@ def main() -> int:
     graded = [k for k in live if status[k].get("trust")]
     has_trust = bool(graded)
     verified = [k for k, m in status.items() if m.get("trust") == "verified"]
+
+    oy_fail = (oy.get("count") == 0) or bool(oy.get("reason"))
+    competitor_watch = build_competitors(s_rows, us_pool)
 
     payload = {
         "team": {
@@ -302,17 +384,29 @@ def main() -> int:
                  "category": p.get("category"), "code": p.get("code")}
                 for p in (obf.get("products") or [])[:15]
             ],
+            "alt_us_channels_top": [
+                {"product": p.get("product"), "brand": p.get("brand"),
+                 "price_usd": p.get("price_usd"), "source": p.get("source")}
+                for p in us_pool[:20]
+            ],
             "manual_trends": [],
-            "note": ("실수집 가능한 소스만 반영한다. "
-                     "manual_trends 는 사람이 직접 넣기 전까지 비워 둔다."),
+            "note": (
+                "실수집 가능한 소스만 반영한다. "
+                "OliveYoung US 가 Actions 403 이면 Sephora/Ulta 등으로 경쟁군을 채운다. "
+                "OY 는 주 1회 로컬·브라우저 수집을 권장한다."
+            ),
             "sources": {
-                "oliveyoung_us": oy.get("source", "미수집"),
+                "oliveyoung_us": oy.get("reason") or oy.get("source", "미수집"),
                 "open_beauty_facts": obf.get("source", "미수집"),
+                "competitor_pool_size": len(us_pool),
+                "competitor_fallback": (
+                    "sephora+ulta+amazon+walmart" if oy_fail else "oliveyoung_us primary"
+                ),
             },
         },
         "keyword_board": build_keyword_board(s_rows, oy_products),
         "s_grade_priority": s_rows,
-        "competitor_watch": build_competitors(s_rows, oy_products),
+        "competitor_watch": competitor_watch,
         "weekly_actions": build_actions(s_rows, status, pricing),
         "health": {
             "signals_live": len(live),
