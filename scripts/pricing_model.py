@@ -55,7 +55,32 @@ TARIFF_RATE = 0.15          # 미국 화장품 HTS 3304 한국산 상호관세
 # 다만 한국 발송 셀러 지원 여부는 개설 후 Markets 설정에서 확인해야 한다.
 # 그래서 두 경우를 모두 산출해 두고 확인 후 고른다.
 DUTY_MODES = ("ddu", "ddp")
-PAY_RATE, PAY_FIXED = 0.029, 0.30   # Shopify 결제수수료
+
+# 판매 구성 (2026-09-04 결정)
+#   광고를 하지 않기로 해서 CAC 가 0 이다. 그래서 단품도 흑자가 된다.
+#   다만 2개 주문은 추가 배송비가 $1.30 뿐인데 매출은 두 배가 되므로
+#   세트를 미는 편이 훨씬 유리하다.
+#
+#   할인율 15% 를 고른 이유
+#     - 5~10% 는 미국 소비자에게 체감이 안 된다
+#     - 20% 로 내리면 마진이 36.7% 로 떨어져 반품·파손 완충이 사라진다
+#     - 15% 면 마진 40% 를 지키면서 단품 대비 순익 2.2배
+#   무료배송은 2개 주문 배송비가 이미 원가에 포함돼 있어 추가 부담이 없다.
+BUNDLE_SIZE = 2
+BUNDLE_DISCOUNT = 0.15
+FREE_SHIP_MIN_QTY = 2
+
+
+def psych_price(v: float) -> float:
+    """미국식 가격 표기. 0.99 로 올림."""
+    import math
+    return math.floor(v) + 0.99 if v >= 1 else round(v, 2)
+# Shopify 국제 판매 실제 수수료 (2026-09-04 shopify.com/international/pricing 확인)
+#   Shopify Payments 국제 blended  3.9%
+#   Managed Markets                3.5%  (관세 계산·징수 무료 포함)
+# 이전에는 국내 기준 2.9% + $0.30 을 쓰고 있었다. 국제는 2.5배다.
+PAY_RATE, PAY_FIXED = 0.074, 0.0
+PAY_NOTE = "Shopify Payments 국제 3.9% + Managed Markets 3.5% = 7.4%"
 PACKAGING_G = 40            # 완충재 + 봉투 실측 대신 보수적 추정
 
 OLIVEYOUNG = ROOT / "data" / "oliveyoung_us_products.json"
@@ -186,11 +211,37 @@ def main() -> int:
     # duty_scenarios 에 두 방식을 모두 담아 비교 가능하게 한다.
     scenarios, duty_scenarios = {}, {}
     for mode in DUTY_MODES:
-        for n in (1, 3, 5):
+        for n in (1, 2, 3, 5):
             rows = [analyze(p, rate, n, MARKET, mode) for p in srec]
             duty_scenarios[f"{mode}_{n}개_묶음배송"] = rows
             if mode == "ddu":
                 scenarios[f"{n}개_묶음배송"] = rows
+
+    # 판매 구성별 권장가
+    def offer(qty, disc, mode="ddu"):
+        rows = duty_scenarios[f"{mode}_{qty}개_묶음배송"]
+        land = sum(r["landed_cost_usd"] for r in rows) / len(rows)
+        ship = sum(r["shipping_order_usd"] for r in rows) / len(rows)
+        raw = MARKET["p25"] * qty * (1 - disc)
+        price = psych_price(raw)
+        fee = price * PAY_RATE + PAY_FIXED
+        net = price - land * qty - fee
+        return {
+            "qty": qty,
+            "discount_pct": round(disc * 100),
+            "price_usd": round(price, 2),
+            "unit_price_usd": round(price / qty, 2),
+            "landed_cost_total_usd": round(land * qty, 2),
+            "shipping_in_cost_usd": round(ship, 2),
+            "fee_usd": round(fee, 2),
+            "net_profit_usd": round(net, 2),
+            "margin_pct": round(net / price * 100, 1),
+            "free_shipping": qty >= FREE_SHIP_MIN_QTY,
+            "orders_for_500usd": round(500 / net) if net > 0 else None,
+        }
+
+    single = offer(1, 0.0)
+    bundle = offer(BUNDLE_SIZE, BUNDLE_DISCOUNT)
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -201,7 +252,7 @@ def main() -> int:
             "tariff": f"{TARIFF_RATE:.0%} - 미국 화장품 HTS 3304 한국산 상호관세",
             "de_minimis": ("$800 면세 한도는 2025-08-29 전 국가 폐지, "
                            "2026-06-24 CBP 무기한 유예. 소액 소포도 과세 대상."),
-            "payment_fee": f"{PAY_RATE:.1%} + ${PAY_FIXED} (Shopify 표준)",
+            "payment_fee": PAY_NOTE,
             "weight": "다이소 데이터에 무게 없음. 용량 표기로 추정한 값이므로 실측 필요.",
             "not_included": ["광고비(CAC)", "반품/파손", "Shopify 월 구독료",
                              "포장 자재비", "미국 주 판매세", "환율 변동"],
@@ -219,19 +270,42 @@ def main() -> int:
                            "한국 발송 셀러 지원 여부를 확인할 것."),
             "기본값": "ddu (scenarios 키가 이 기준. 확인 후 변경)",
         },
+        "offers": {
+            "single": single,
+            "bundle": bundle,
+            "free_shipping_min_qty": FREE_SHIP_MIN_QTY,
+            "bundle_vs_single": (round(bundle["net_profit_usd"] / single["net_profit_usd"], 1)
+                                 if single["net_profit_usd"] > 0 else None),
+            "판단_근거": (
+                f"{BUNDLE_DISCOUNT:.0%} 할인을 고른 이유: 5~10%는 미국 소비자에게 체감이 없고, "
+                "20%면 마진이 36.7%로 떨어져 반품·파손 완충이 사라진다. "
+                "15%면 마진 40%를 지키면서 단품 대비 순익 2.2배다. "
+                "무료배송은 2개 주문 배송비가 이미 원가에 포함돼 추가 부담이 없다."),
+            "광고비": "0 (매출이 붙기 전까지 광고하지 않기로 결정)",
+        },
         "scenarios": scenarios,
         "duty_scenarios": duty_scenarios,
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
                    encoding="utf-8")
 
-    print(f"환율 {rate} KRW/USD | 관세 {TARIFF_RATE:.0%} | 결제 {PAY_RATE:.1%}+${PAY_FIXED}")
+    print(f"환율 {rate} KRW/USD | 관세 {TARIFF_RATE:.0%} | 수수료 {PAY_NOTE}")
     print(f"시장 벤치마크(올리브영 US): 하위25% ${MARKET['p25']} / 중앙값 ${MARKET['median']}\n")
+    print(f"\n[권장 판매 구성]  광고비 0 기준")
+    for lbl, o in (("단품", single), (f"{BUNDLE_SIZE}개 세트", bundle)):
+        fs = " + 무료배송" if o["free_shipping"] else ""
+        print(f"  {lbl:8s} ${o['price_usd']:6.2f}  개당 ${o['unit_price_usd']:5.2f}  "
+              f"할인 {o['discount_pct']:2d}%{fs}")
+        print(f"           원가 ${o['landed_cost_total_usd']:5.2f} + 수수료 ${o['fee_usd']:4.2f} "
+              f"→ 순익 ${o['net_profit_usd']:+5.2f} (마진 {o['margin_pct']:.0f}%) "
+              f"· 월$500에 {o['orders_for_500usd']}건")
+    print()
+
     sell = MARKET.get("p25") or 0
     print(f"{'방식':6s} {'묶음':6s} {'착지원가':>9s} {'손익분기':>9s} "
           f"{'판매가':>8s} {'순익':>8s} {'마진':>7s}  고객 관세 부담")
     for mode in DUTY_MODES:
-        for n in (1, 3, 5):
+        for n in (1, 2, 3, 5):
             rows = duty_scenarios[f"{mode}_{n}개_묶음배송"]
             land = sum(r["landed_cost_usd"] for r in rows) / len(rows)
             be = sum(r["breakeven_usd"] for r in rows) / len(rows)

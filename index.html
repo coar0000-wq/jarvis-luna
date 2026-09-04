@@ -269,6 +269,12 @@ nav a{font-size:12px;}
 .pm-tbl th{text-align:left;color:#6e7681;font-weight:600;padding:4px 6px;border-bottom:1px solid rgba(139,148,158,.18);}
 .pm-tbl td{padding:5px 6px;border-bottom:1px solid rgba(139,148,158,.08);color:#c9d1d9;}
 .pm-cau{font-size:11px;color:#f0883e;}
+.pm-offer{background:rgba(126,231,135,.06);border:1px solid rgba(126,231,135,.2);border-radius:10px;padding:11px 13px;margin-top:12px;font-size:12.5px;color:#8b949e;line-height:1.6;}
+.pm-offer b{color:#7ee787;}
+.pm-offer .pm-tbl td{white-space:nowrap;}
+.of-hl td{color:#7ee787;font-weight:600;}
+.of-fs{font-size:9.5px;background:rgba(126,231,135,.14);border:1px solid rgba(126,231,135,.26);border-radius:999px;padding:1px 6px;margin-left:5px;}
+.of-note{font-size:11px;color:#6e7681;line-height:1.6;}
 </style>
 </head>
 <body>
@@ -759,11 +765,32 @@ function renderDaiso(status, sRec){
     t('dz-slate','손익분기','$'+be.toFixed(2),'이 아래로 팔면 적자')+
     revTile+
   '</div>'+
+  offersPanel(pm)+
   dutyModePanel(pm, rec)+
   previousMonthBanner()+
   '<div class="dz-note pm-src">시장가 기준 '+esc(mkt.source||'')+
     ' (하위25% $'+(mkt.p25||'-')+' · 중앙값 $'+(mkt.median||'-')+')'+
     ' · 환율 '+esc(String(asOf||''))+'</div>';
+}
+
+// 판매 구성(단품/2개 세트) 권장가. 경영 판단 결과를 화면에 고정한다.
+function offersPanel(pm){
+  const o=(pm&&pm.offers)||{};
+  if(!o.single||!o.bundle) return '';
+  const row=(lbl,x,hl)=>'<tr'+(hl?' class="of-hl"':'')+'>'+
+    '<td>'+lbl+(x.free_shipping?' <span class="of-fs">무료배송</span>':'')+'</td>'+
+    '<td>$'+x.price_usd.toFixed(2)+'</td>'+
+    '<td>$'+x.unit_price_usd.toFixed(2)+'</td>'+
+    '<td>'+(x.discount_pct?x.discount_pct+'%':'–')+'</td>'+
+    '<td>$'+x.net_profit_usd.toFixed(2)+'</td>'+
+    '<td>'+x.margin_pct.toFixed(0)+'%</td>'+
+    '<td>'+(x.orders_for_500usd||'–')+'건</td></tr>';
+  return '<div class="dz-note pm-offer"><b>권장 판매 구성</b> · 광고비 0 기준'+
+    '<table class="pm-tbl"><tr><th>구성</th><th>판매가</th><th>개당</th><th>할인</th>'+
+    '<th>순익</th><th>마진</th><th>월$500</th></tr>'+
+    row('단품 1개',o.single,false)+row('2개 세트',o.bundle,true)+'</table>'+
+    '<span class="of-note">2개 세트가 단품보다 순익 '+(o.bundle_vs_single||'-')+'배. '+
+    esc(o['판단_근거']||'')+'</span></div>';
 }
 
 // 관세 부담 방식(DDU/DDP)은 스토어 개설 후 정한다. 두 경우를 나란히 보여준다.
