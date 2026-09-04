@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-09-04T07:03:14.551405+00:00",
+  "generator": "scripts/discover_channels.py",
+  "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 연동은 사람이 승인한 뒤에 한다.",
+  "판정기준": [
+    "robots.txt 가 해당 경로를 막지 않을 것",
+    "인증 없이 또는 보유한 키로 200 응답이 올 것",
+    "구조화된 항목이 최소 3건 파싱될 것",
+    "항목 값이 전부 동일한 상수가 아닐 것"
+  ],
+  "tested": 7,
+  "usable": 4,
+  "candidates": [
+    {
+      "key": "openbeautyfacts_new",
+      "label": "Open Beauty Facts 신규 등록순",
+      "why": "오픈데이터. 미국 유통 신제품을 성분과 함께 얻는다.",
+      "url": "https://world.openbeautyfacts.org/api/v2/search?countries_tags_en=united-states&sort_by=created_t&fields=code,product_name,brands&page_size=20",
+      "kind": "json",
+      "robots": "robots.txt 금지 경로: /api",
+      "verdict": "불가",
+      "reason": "robots.txt 금지 경로: /api",
+      "items": 0
+    },
+    {
+      "key": "wikipedia_pageviews",
+      "label": "Wikipedia 조회수 (브랜드 관심도)",
+      "why": "무료 공식 API. K뷰티 브랜드 문서 조회수로 관심 추이를 본다.",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/K-beauty/daily/20260801/20260901",
+      "kind": "json",
+      "robots": "robots.txt 확인 불가(HTTP 404) - 허용으로 간주",
+      "bytes": 4810,
+      "items": 32,
+      "samples": [
+        "2026080100",
+        "2026080200",
+        "2026080300"
+      ],
+      "verdict": "가능",
+      "reason": "32건 파싱 성공, 값이 서로 다름"
+    },
+    {
+      "key": "fda_cosmetic_enforcement",
+      "label": "FDA 화장품 리콜·조치 이력",
+      "why": "공식 오픈데이터. 취급하면 안 되는 성분·브랜드를 걸러낸다.",
+      "url": "https://api.fda.gov/food/enforcement.json?search=product_type:cosmetic&limit=20",
+      "kind": "json",
+      "robots": "robots.txt 확인 불가(HTTP 404) - 허용으로 간주",
+      "verdict": "불가",
+      "reason": "요청 실패: HTTP 404",
+      "items": 0
+    },
+    {
+      "key": "allure_beauty_rss",
+      "label": "Allure 뷰티 기사 RSS",
+      "why": "미국 뷰티 매체. 어떤 제품이 기사화되는지로 트렌드를 본다.",
+      "url": "https://www.allure.com/feed/rss",
+      "kind": "rss",
+      "robots": "robots.txt 허용",
+      "bytes": 24845,
+      "items": 30,
+      "samples": [
+        "Fall 2026 Makeup Trends Put Your Best Features Front and Center — See Photos",
+        "Hairstylist Frédéric Fekkai Is Being Sued by Epstein Survivors for Allegedly Enabling Gender-Motivated Violence",
+        "A New Report on Plastic Surgery Trends Shows Americans Over 66 Want to Be Snatched, Too"
+      ],
+      "verdict": "가능",
+      "reason": "30건 파싱 성공, 값이 서로 다름"
+    },
+    {
+      "key": "reddit_kbeauty_new",
+      "label": "r/KoreanBeauty 신규글 RSS",
+      "why": "기존 Reddit 수집의 서브레딧 확장. 실사용자 언급을 본다.",
+      "url": "https://www.reddit.com/r/KoreanBeauty/top.rss?t=week",
+      "kind": "rss",
+      "robots": "robots.txt 금지 경로: /",
+      "verdict": "불가",
+      "reason": "robots.txt 금지 경로: /",
+      "items": 0
+    },
+    {
+      "key": "google_trends_daily_rss",
+      "label": "Google Trends 미국 일간 급상승 RSS",
+      "why": "공식 RSS. 승인제 alpha API 없이도 급상승 검색어를 얻는다.",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "kind": "rss",
+      "robots": "robots.txt 허용",
+      "bytes": 21016,
+      "items": 40,
+      "samples": [
+        "cryptocurrency trading",
+        "Standard Chartered launches institutional spot crypto trading in UAE",
+        "Standard Chartered brings spot crypto trading to Dubai FX platform"
+      ],
+      "verdict": "가능",
+      "reason": "40건 파싱 성공, 값이 서로 다름"
+    },
+    {
+      "key": "openfda_drug_otc_sunscreen",
+      "label": "openFDA 선케어 OTC 라벨",
+      "why": "미국에서 선크림은 OTC 의약품이다. 라벨 요건 확인에 쓴다.",
+      "url": "https://api.fda.gov/drug/label.json?search=openfda.product_type:\"HUMAN+OTC+DRUG\"+AND+sunscreen&limit=10",
+      "kind": "json",
+      "robots": "robots.txt 확인 불가(HTTP 404) - 허용으로 간주",
+      "bytes": 52353,
+      "items": 10,
+      "samples": [
+        "1f013e61-f171-2ae2-e063-6294a90adcf1",
+        "46425877-3cf0-6496-e063-6294a90acf37",
+        "2737f1e2-08e3-0e06-e063-6394a90a8159"
+      ],
+      "verdict": "가능",
+      "reason": "10건 파싱 성공, 값이 서로 다름"
+    }
+  ]
+}
