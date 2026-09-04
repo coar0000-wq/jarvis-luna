@@ -3,7 +3,7 @@ title: "Record 385 · Bebot-Makeup-101-Everything-You-Need-To-Look-Like-A-Filipi
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.850794+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 385 · Bebot-Makeup-101-Everything-You-Need-To-Look-Like-A-Filipina-Y2K-Baddi

@@ -3,7 +3,7 @@ title: "Record 329 · TikToks-Morning-Shed-Routine-Feels-Like-a-Step-Backwards-f
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.891547+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 329 · TikToks-Morning-Shed-Routine-Feels-Like-a-Step-Backwards-for-Self-Love

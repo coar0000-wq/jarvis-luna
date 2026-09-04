@@ -3,7 +3,7 @@ title: "Record 1040 · Talk-to-Sidekick-on-your-Apple-Watch"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.336912+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1040 · Talk-to-Sidekick-on-your-Apple-Watch

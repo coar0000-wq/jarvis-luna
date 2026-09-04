@@ -3,7 +3,7 @@ title: "Record 561 · K-Beauty-Twins-Which-One-Wins"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.740413+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 561 · K-Beauty-Twins-Which-One-Wins

@@ -3,7 +3,7 @@ title: "Record 147 · AI-Personalization-Marketing-Winning-Strategies-for-2026--
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:31.993583+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 147 · AI-Personalization-Marketing-Winning-Strategies-for-2026---Shopify

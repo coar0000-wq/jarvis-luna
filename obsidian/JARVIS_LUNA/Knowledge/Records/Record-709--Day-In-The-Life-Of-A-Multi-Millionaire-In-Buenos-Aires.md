@@ -3,7 +3,7 @@ title: "Record 709 · Day-In-The-Life-Of-A-Multi-Millionaire-In-Buenos-Aires"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.677568+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 709 · Day-In-The-Life-Of-A-Multi-Millionaire-In-Buenos-Aires

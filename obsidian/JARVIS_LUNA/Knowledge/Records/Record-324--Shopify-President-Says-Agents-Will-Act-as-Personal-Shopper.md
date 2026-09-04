@@ -3,7 +3,7 @@ title: "Record 324 · Shopify-President-Says-Agents-Will-Act-as-Personal-Shopper
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.017921+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 324 · Shopify-President-Says-Agents-Will-Act-as-Personal-Shoppers---PYMNTSco

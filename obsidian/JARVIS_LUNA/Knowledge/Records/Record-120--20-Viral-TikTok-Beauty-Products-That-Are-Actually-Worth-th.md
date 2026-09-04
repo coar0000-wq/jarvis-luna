@@ -3,7 +3,7 @@ title: "Record 120 · 20-Viral-TikTok-Beauty-Products-That-Are-Actually-Worth-th
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.804041+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 120 · 20-Viral-TikTok-Beauty-Products-That-Are-Actually-Worth-the-Hype---the

@@ -3,7 +3,7 @@ title: "Record 266 · Shop-Quiz-With-K-Beauty-and-colored-contacts-shop-Hapa-Kri
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.251023+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 266 · Shop-Quiz-With-K-Beauty-and-colored-contacts-shop-Hapa-Kristin---inReg

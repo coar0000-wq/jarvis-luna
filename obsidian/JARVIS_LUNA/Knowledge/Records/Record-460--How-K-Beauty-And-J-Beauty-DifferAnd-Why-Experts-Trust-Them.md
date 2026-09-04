@@ -3,7 +3,7 @@ title: "Record 460 · How-K-Beauty-And-J-Beauty-DifferAnd-Why-Experts-Trust-Them
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.726766+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 460 · How-K-Beauty-And-J-Beauty-DifferAnd-Why-Experts-Trust-Them---Forbes

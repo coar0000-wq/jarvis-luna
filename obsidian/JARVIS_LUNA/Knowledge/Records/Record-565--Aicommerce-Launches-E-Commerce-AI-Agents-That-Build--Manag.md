@@ -3,7 +3,7 @@ title: "Record 565 · Aicommerce-Launches-E-Commerce-AI-Agents-That-Build--Manag
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.135202+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 565 · Aicommerce-Launches-E-Commerce-AI-Agents-That-Build--Manage-Shopify-St

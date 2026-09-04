@@ -3,7 +3,7 @@ title: "Record 698 · Driven-by-TikTok-trends-new-beauty-brands-target-children-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.314105+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 698 · Driven-by-TikTok-trends-new-beauty-brands-target-children---canadianaf

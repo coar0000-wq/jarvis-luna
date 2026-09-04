@@ -3,7 +3,7 @@ title: "Record 706 · idk-how-to-feel-about-this-routine--Reacting-To-Sienna-Spi
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.075036+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 706 · idk-how-to-feel-about-this-routine--Reacting-To-Sienna-Spiro

@@ -3,7 +3,7 @@ title: "Record 680 · What-makes-K-beauty-Korean-The-answer-is-getting-complicat
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.953091+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 680 · What-makes-K-beauty-Korean-The-answer-is-getting-complicated---Korea-J

@@ -3,7 +3,7 @@ title: "Record 332 · The-Best-K-Beauty-Brands-On-Amazon-Right-Now-According-To-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.681847+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 332 · The-Best-K-Beauty-Brands-On-Amazon-Right-Now-According-To-Editors---Re

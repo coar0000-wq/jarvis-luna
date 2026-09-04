@@ -3,7 +3,7 @@ title: "Record 1028 · EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Saf
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.431376+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1028 · EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safety-Auditing-

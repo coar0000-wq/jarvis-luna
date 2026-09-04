@@ -3,7 +3,7 @@ title: "Record 711 · This-ONE-simple-step-is-keeping-u-away-from-that-GLASS-SKI
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.186351+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 711 · This-ONE-simple-step-is-keeping-u-away-from-that-GLASS-SKIN

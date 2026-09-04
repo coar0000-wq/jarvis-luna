@@ -3,7 +3,7 @@ title: "Record 479 · K-Beauty-Trends-Redefining-The-Future-Of-Luxury-Skincare--
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.269720+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 479 · K-Beauty-Trends-Redefining-The-Future-Of-Luxury-Skincare---Yahoo

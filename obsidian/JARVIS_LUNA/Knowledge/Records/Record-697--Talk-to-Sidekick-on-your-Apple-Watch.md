@@ -3,7 +3,7 @@ title: "Record 697 · Talk-to-Sidekick-on-your-Apple-Watch"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.098706+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 697 · Talk-to-Sidekick-on-your-Apple-Watch

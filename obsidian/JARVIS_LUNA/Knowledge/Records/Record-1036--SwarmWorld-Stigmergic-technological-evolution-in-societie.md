@@ -3,7 +3,7 @@ title: "Record 1036 · SwarmWorld-Stigmergic-technological-evolution-in-societie
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.635136+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1036 · SwarmWorld-Stigmergic-technological-evolution-in-societies-of-language

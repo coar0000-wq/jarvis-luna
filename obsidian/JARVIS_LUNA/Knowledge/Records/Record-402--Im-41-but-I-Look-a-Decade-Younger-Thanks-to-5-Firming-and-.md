@@ -3,7 +3,7 @@ title: "Record 402 · Im-41-but-I-Look-a-Decade-Younger-Thanks-to-5-Firming-and-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.295450+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 402 · Im-41-but-I-Look-a-Decade-Younger-Thanks-to-5-Firming-and-Plumping-K-B

@@ -3,7 +3,7 @@ title: "Record 358 · From-Hydrating-Masks-to-Milky-Toners-These-Are-the-Best-K-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.712964+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 358 · From-Hydrating-Masks-to-Milky-Toners-These-Are-the-Best-K-Beauty-Produ

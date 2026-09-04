@@ -3,7 +3,7 @@ title: "Record 582 · 화장품-부작용-이렇게-하세요"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.137879+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 582 · 화장품-부작용-이렇게-하세요

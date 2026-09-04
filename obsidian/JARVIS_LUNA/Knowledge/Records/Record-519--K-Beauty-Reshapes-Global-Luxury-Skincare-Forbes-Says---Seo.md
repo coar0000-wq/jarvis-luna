@@ -3,7 +3,7 @@ title: "Record 519 · K-Beauty-Reshapes-Global-Luxury-Skincare-Forbes-Says---Seo
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.159979+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 519 · K-Beauty-Reshapes-Global-Luxury-Skincare-Forbes-Says---Seoul-Economic-

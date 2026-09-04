@@ -3,7 +3,7 @@ title: "Record 208 · Ive-Been-Neglecting-My-Neck-for-YearsThese-K-Beauty-Produc
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.020354+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 208 · Ive-Been-Neglecting-My-Neck-for-YearsThese-K-Beauty-Products-Are-Chang

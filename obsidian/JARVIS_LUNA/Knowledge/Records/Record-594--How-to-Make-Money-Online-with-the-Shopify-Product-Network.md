@@ -3,7 +3,7 @@ title: "Record 594 · How-to-Make-Money-Online-with-the-Shopify-Product-Network"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.139988+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 594 · How-to-Make-Money-Online-with-the-Shopify-Product-Network

@@ -3,7 +3,7 @@ title: "Record 109 · Get-ready-with-me-to-achieve-the-perfect-face-a-qualitativ
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.558911+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 109 · Get-ready-with-me-to-achieve-the-perfect-face-a-qualitative-study-into

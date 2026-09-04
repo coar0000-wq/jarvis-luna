@@ -3,7 +3,7 @@ title: "Record 526 · 선크림-집에서도-필요할까-재도포는-언제-�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.072251+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 526 · 선크림-집에서도-필요할까-재도포는-언제-해야-할까

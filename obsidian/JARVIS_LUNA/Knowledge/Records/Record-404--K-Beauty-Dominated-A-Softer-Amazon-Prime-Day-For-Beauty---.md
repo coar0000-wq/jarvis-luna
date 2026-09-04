@@ -3,7 +3,7 @@ title: "Record 404 · K-Beauty-Dominated-A-Softer-Amazon-Prime-Day-For-Beauty---
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.880729+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 404 · K-Beauty-Dominated-A-Softer-Amazon-Prime-Day-For-Beauty---Beauty-Indep

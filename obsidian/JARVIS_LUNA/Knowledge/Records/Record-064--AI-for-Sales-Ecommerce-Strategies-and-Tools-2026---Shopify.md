@@ -3,7 +3,7 @@ title: "Record 064 · AI-for-Sales-Ecommerce-Strategies-and-Tools-2026---Shopify
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.547235+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 064 · AI-for-Sales-Ecommerce-Strategies-and-Tools-2026---Shopify

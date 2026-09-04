@@ -3,7 +3,7 @@ title: "Record 131 · The-surprising-truth-behind-Koreas-most-effective-skincare
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.007292+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 131 · The-surprising-truth-behind-Koreas-most-effective-skincare-products---

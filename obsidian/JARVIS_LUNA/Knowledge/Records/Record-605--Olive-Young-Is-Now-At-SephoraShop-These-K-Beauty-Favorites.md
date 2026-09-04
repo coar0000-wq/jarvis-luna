@@ -3,7 +3,7 @@ title: "Record 605 · Olive-Young-Is-Now-At-SephoraShop-These-K-Beauty-Favorites
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.911318+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 605 · Olive-Young-Is-Now-At-SephoraShop-These-K-Beauty-Favorites-First---For

@@ -3,7 +3,7 @@ title: "Record 690 · BIO-HEAL-BOH-colorgram-Fillimilli-and-Delight-Project-Show
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.139179+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 690 · BIO-HEAL-BOH-colorgram-Fillimilli-and-Delight-Project-Showcase-K-Beaut

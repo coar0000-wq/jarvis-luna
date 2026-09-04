@@ -3,7 +3,7 @@ title: "Record 362 · The-K-Beauty-Products-I-Recommend-Most-Are-Finally-on-Sale
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.713479+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 362 · The-K-Beauty-Products-I-Recommend-Most-Are-Finally-on-Sale-for-Prime-D

@@ -3,7 +3,7 @@ title: "Record 1067 · ICON-Decomposition-Multivariate-Concept-Level-Explanation
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.985841+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1067 · ICON-Decomposition-Multivariate-Concept-Level-Explanations-of-Deep-Rep

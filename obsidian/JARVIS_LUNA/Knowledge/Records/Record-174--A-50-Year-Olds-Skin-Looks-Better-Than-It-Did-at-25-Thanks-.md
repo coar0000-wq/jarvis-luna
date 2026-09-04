@@ -3,7 +3,7 @@ title: "Record 174 · A-50-Year-Olds-Skin-Looks-Better-Than-It-Did-at-25-Thanks-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.687912+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 174 · A-50-Year-Olds-Skin-Looks-Better-Than-It-Did-at-25-Thanks-to-This-15-K

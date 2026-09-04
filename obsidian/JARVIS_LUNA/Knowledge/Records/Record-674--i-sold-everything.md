@@ -3,7 +3,7 @@ title: "Record 674 · i-sold-everything"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.152326+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 674 · i-sold-everything

@@ -3,7 +3,7 @@ title: "Record 1071 · Agentic-Autoresearch-for-Cell-Edge-Power-Control-Radicall
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.986365+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1071 · Agentic-Autoresearch-for-Cell-Edge-Power-Control-Radically-Redefining-

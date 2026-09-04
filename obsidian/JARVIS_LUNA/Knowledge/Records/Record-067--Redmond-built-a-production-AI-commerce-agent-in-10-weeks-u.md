@@ -3,7 +3,7 @@ title: "Record 067 · Redmond-built-a-production-AI-commerce-agent-in-10-weeks-u
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.351863+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 067 · Redmond-built-a-production-AI-commerce-agent-in-10-weeks-using-Shopify

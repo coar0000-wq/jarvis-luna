@@ -3,7 +3,7 @@ title: "Record 382 · If-Youre-Terrified-of-Microneedling-K-Beauty-Spicule-Serum
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.261652+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 382 · If-Youre-Terrified-of-Microneedling-K-Beauty-Spicule-Serums-are-A-Gent

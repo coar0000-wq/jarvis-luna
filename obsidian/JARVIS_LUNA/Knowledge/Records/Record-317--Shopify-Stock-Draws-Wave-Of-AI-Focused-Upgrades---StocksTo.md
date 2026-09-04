@@ -3,7 +3,7 @@ title: "Record 317 · Shopify-Stock-Draws-Wave-Of-AI-Focused-Upgrades---StocksTo
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.102516+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 317 · Shopify-Stock-Draws-Wave-Of-AI-Focused-Upgrades---StocksToTrade

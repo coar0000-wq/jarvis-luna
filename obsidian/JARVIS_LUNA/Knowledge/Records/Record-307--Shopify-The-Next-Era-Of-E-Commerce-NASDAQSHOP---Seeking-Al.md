@@ -3,7 +3,7 @@ title: "Record 307 · Shopify-The-Next-Era-Of-E-Commerce-NASDAQSHOP---Seeking-Al
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.371654+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 307 · Shopify-The-Next-Era-Of-E-Commerce-NASDAQSHOP---Seeking-Alpha

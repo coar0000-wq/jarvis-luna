@@ -3,7 +3,7 @@ title: "Record 690 · Moo-Deng-Makeup-Why-Fans-Of-The-Viral-Baby-Hippo-Want-Her-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.904646+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 690 · Moo-Deng-Makeup-Why-Fans-Of-The-Viral-Baby-Hippo-Want-Her-Look---Forbe

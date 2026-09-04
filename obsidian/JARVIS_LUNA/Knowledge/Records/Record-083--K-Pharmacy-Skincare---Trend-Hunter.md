@@ -3,7 +3,7 @@ title: "Record 083 · K-Pharmacy-Skincare---Trend-Hunter"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:58.999743+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 083 · K-Pharmacy-Skincare---Trend-Hunter

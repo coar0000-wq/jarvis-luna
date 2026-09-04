@@ -3,7 +3,7 @@ title: "Record 579 · 다이소-선크림-논란-1분-팩트체크"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.742786+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 579 · 다이소-선크림-논란-1분-팩트체크

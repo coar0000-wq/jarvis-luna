@@ -3,7 +3,7 @@ title: "Record 135 · Breaking-Down-K-Beautys-Slow-Aging-Philosophy---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.008130+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 135 · Breaking-Down-K-Beautys-Slow-Aging-Philosophy---Vogue

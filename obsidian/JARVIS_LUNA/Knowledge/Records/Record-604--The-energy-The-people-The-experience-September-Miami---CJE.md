@@ -3,7 +3,7 @@ title: "Record 604 · The-energy-The-people-The-experience-September-Miami---CJE
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.084116+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 604 · The-energy-The-people-The-experience-September-Miami---CJEC-Miami-2026

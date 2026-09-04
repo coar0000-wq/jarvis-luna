@@ -3,7 +3,7 @@ title: "Record 637 · Every-Beauty-Trend-Everywhere-All-at-Once---WWD"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.936457+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 637 · Every-Beauty-Trend-Everywhere-All-at-Once---WWD

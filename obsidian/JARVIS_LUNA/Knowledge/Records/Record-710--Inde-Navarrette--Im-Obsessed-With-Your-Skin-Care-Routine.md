@@ -3,7 +3,7 @@ title: "Record 710 · Inde-Navarrette--Im-Obsessed-With-Your-Skin-Care-Routine"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.708705+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 710 · Inde-Navarrette--Im-Obsessed-With-Your-Skin-Care-Routine

@@ -3,7 +3,7 @@ title: "Record 088 · Video-K-beauty-trend-reshaping-views-of-masculinity---ABC-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.861207+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 088 · Video-K-beauty-trend-reshaping-views-of-masculinity---ABC-News---Break

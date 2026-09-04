@@ -3,7 +3,7 @@ title: "Record 634 · Belgrade-big-ideas-are-about-to-meet-bigger-opportunities-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.063654+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 634 · Belgrade-big-ideas-are-about-to-meet-bigger-opportunities---CJEC-Belgr

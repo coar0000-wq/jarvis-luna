@@ -3,7 +3,7 @@ title: "Record 647 · things-ive-learned-getting-rich-in-my-20s"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.751917+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 647 · things-ive-learned-getting-rich-in-my-20s

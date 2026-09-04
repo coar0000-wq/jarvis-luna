@@ -3,7 +3,7 @@ title: "Record 527 · THE-OPENING-OF-new-applicationsstable-European-payment-met
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.735898+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 527 · THE-OPENING-OF-new-applicationsstable-European-payment-methods-cjdrops

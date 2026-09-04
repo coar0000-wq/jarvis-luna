@@ -3,7 +3,7 @@ title: "Record 417 · I-Dont-Know-Why-More-People-Arent-Freaking-Out-About-This-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.692716+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 417 · I-Dont-Know-Why-More-People-Arent-Freaking-Out-About-This-Huge-K-Beaut

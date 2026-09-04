@@ -3,7 +3,7 @@ title: "Record 467 · The-Big-Makeup-Trends-That-Matter-In-2026And-Those-That-Do
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.865095+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 467 · The-Big-Makeup-Trends-That-Matter-In-2026And-Those-That-Dont---Beauty-

@@ -3,7 +3,7 @@ title: "Record 588 · Amazon-Beauty-Best-Sellers"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.950961+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 588 · Amazon-Beauty-Best-Sellers

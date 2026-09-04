@@ -3,7 +3,7 @@ title: "Record 147 · The-5-Best-AI-Website-Builders-for-UK-SMEs-Tested-by-Us---
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.808771+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 147 · The-5-Best-AI-Website-Builders-for-UK-SMEs-Tested-by-Us---Startupscouk

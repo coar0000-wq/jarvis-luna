@@ -3,7 +3,7 @@ title: "Record 278 · Glowcations-Are-Trending-on-TikTok--I-Put-it-to-the-Test-a
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.011600+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 278 · Glowcations-Are-Trending-on-TikTok--I-Put-it-to-the-Test-at-Coachella-

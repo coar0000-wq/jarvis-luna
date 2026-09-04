@@ -3,7 +3,7 @@ title: "Record 409 · Filipinos-rebelling-against-extreme-TikTok-beauty-trends--
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.054352+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 409 · Filipinos-rebelling-against-extreme-TikTok-beauty-trends--doctor---Dai

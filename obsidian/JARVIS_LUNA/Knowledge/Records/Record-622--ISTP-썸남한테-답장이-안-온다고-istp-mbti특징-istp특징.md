@@ -3,7 +3,7 @@ title: "Record 622 · ISTP-썸남한테-답장이-안-온다고-istp-mbti특징-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.659775+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 622 · ISTP-썸남한테-답장이-안-온다고-istp-mbti특징-istp특징

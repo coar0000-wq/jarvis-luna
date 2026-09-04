@@ -3,7 +3,7 @@ title: "Record 064 · Strawberry-Makeup-Hypochlorous-Acid-Spray-Among-Top-TikTok
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.845053+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 064 · Strawberry-Makeup-Hypochlorous-Acid-Spray-Among-Top-TikTok-Beauty-Tren

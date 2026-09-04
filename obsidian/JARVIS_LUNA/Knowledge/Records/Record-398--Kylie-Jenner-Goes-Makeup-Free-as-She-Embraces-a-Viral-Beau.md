@@ -3,7 +3,7 @@ title: "Record 398 · Kylie-Jenner-Goes-Makeup-Free-as-She-Embraces-a-Viral-Beau
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.614567+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 398 · Kylie-Jenner-Goes-Makeup-Free-as-She-Embraces-a-Viral-Beauty-Trend-as-

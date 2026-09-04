@@ -3,7 +3,7 @@ title: "Record 680 · His-skin-care-routine-is-somethin-else-whew"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.405759+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 680 · His-skin-care-routine-is-somethin-else-whew

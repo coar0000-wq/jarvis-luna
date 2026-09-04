@@ -3,7 +3,7 @@ title: "Record 498 · This-TikTok-Beauty-Trend-Has-Made-People-Obsessed-With-A-R
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.886505+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 498 · This-TikTok-Beauty-Trend-Has-Made-People-Obsessed-With-A-Relentless-Pu

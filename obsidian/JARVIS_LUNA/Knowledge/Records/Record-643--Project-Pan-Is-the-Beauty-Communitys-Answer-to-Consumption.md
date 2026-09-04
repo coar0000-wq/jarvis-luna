@@ -3,7 +3,7 @@ title: "Record 643 · Project-Pan-Is-the-Beauty-Communitys-Answer-to-Consumption
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.361164+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 643 · Project-Pan-Is-the-Beauty-Communitys-Answer-to-Consumption-Overload---

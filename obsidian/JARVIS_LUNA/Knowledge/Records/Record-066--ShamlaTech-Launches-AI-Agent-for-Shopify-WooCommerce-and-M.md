@@ -3,7 +3,7 @@ title: "Record 066 · ShamlaTech-Launches-AI-Agent-for-Shopify-WooCommerce-and-M
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.859685+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 066 · ShamlaTech-Launches-AI-Agent-for-Shopify-WooCommerce-and-Magento-Store

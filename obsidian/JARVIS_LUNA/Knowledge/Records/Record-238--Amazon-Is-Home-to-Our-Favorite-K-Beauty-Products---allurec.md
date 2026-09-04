@@ -3,7 +3,7 @@ title: "Record 238 · Amazon-Is-Home-to-Our-Favorite-K-Beauty-Products---allurec
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.568429+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 238 · Amazon-Is-Home-to-Our-Favorite-K-Beauty-Products---allurecom

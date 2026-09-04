@@ -3,7 +3,7 @@ title: "Record 190 · AI-in-Product-Development-Benefits-Risks-and-Tips-2025---S
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.867564+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 190 · AI-in-Product-Development-Benefits-Risks-and-Tips-2025---Shopify

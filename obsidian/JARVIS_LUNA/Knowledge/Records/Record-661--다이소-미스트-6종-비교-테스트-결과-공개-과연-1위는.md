@@ -3,7 +3,7 @@ title: "Record 661 · 다이소-미스트-6종-비교-테스트-결과-공개-�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.092918+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 661 · 다이소-미스트-6종-비교-테스트-결과-공개-과연-1위는

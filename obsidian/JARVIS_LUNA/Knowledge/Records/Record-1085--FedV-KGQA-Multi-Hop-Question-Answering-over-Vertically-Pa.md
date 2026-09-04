@@ -3,7 +3,7 @@ title: "Record 1085 · FedV-KGQA-Multi-Hop-Question-Answering-over-Vertically-Pa
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.340363+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1085 · FedV-KGQA-Multi-Hop-Question-Answering-over-Vertically-Partitioned-Kno

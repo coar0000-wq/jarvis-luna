@@ -3,7 +3,7 @@ title: "Record 1000 · Pandoras-AI-Model-Routing-Box-Efficient-Allocation-with-C
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.204279+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1000 · Pandoras-AI-Model-Routing-Box-Efficient-Allocation-with-Costly-Value-E

@@ -3,7 +3,7 @@ title: "Record 707 · The-2025-Top-100-Riding-the-K-Craze---WWD"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.957828+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 707 · The-2025-Top-100-Riding-the-K-Craze---WWD

@@ -3,7 +3,7 @@ title: "Record 512 · Do-THIS-before-launching-your-Shopify-website"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.070140+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 512 · Do-THIS-before-launching-your-Shopify-website

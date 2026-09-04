@@ -3,7 +3,7 @@ title: "Record 185 · StoreClaw-Aims-to-Unify-AI-Powered-Cross-Border-E-Commerce
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.569735+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 185 · StoreClaw-Aims-to-Unify-AI-Powered-Cross-Border-E-Commerce-Operations-

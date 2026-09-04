@@ -3,7 +3,7 @@ title: "Record 622 · 여드름-연고-발라도-소용없으면-뭘까"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.748546+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 622 · 여드름-연고-발라도-소용없으면-뭘까

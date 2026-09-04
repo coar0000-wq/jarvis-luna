@@ -3,7 +3,7 @@ title: "Record 145 · Im-a-pharmaceutical-scientist-These-are-the-most-overhyped
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.683968+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 145 · Im-a-pharmaceutical-scientist-These-are-the-most-overhyped-skincare-tr

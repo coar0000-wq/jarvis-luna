@@ -3,7 +3,7 @@ title: "Record 1056 · CLAP-Cross-Embodiment-Video-World-Models-are-Zero-Shot-Ph
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.970604+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1056 · CLAP-Cross-Embodiment-Video-World-Models-are-Zero-Shot-Physical-Simula

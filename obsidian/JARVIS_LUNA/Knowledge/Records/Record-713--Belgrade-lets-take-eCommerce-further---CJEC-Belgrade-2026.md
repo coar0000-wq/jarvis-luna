@@ -3,7 +3,7 @@ title: "Record 713 · Belgrade-lets-take-eCommerce-further---CJEC-Belgrade-2026"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.186615+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 713 · Belgrade-lets-take-eCommerce-further---CJEC-Belgrade-2026

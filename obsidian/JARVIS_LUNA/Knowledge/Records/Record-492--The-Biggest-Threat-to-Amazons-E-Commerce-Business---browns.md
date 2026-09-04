@@ -3,7 +3,7 @@ title: "Record 492 · The-Biggest-Threat-to-Amazons-E-Commerce-Business---browns
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.940930+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 492 · The-Biggest-Threat-to-Amazons-E-Commerce-Business---brownstoneresearch

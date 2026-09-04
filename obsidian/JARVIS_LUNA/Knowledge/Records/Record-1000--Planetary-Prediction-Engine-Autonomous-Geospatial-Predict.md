@@ -3,7 +3,7 @@ title: "Record 1000 · Planetary-Prediction-Engine-Autonomous-Geospatial-Predict
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:05.010322+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1000 · Planetary-Prediction-Engine-Autonomous-Geospatial-Prediction-via-Intel

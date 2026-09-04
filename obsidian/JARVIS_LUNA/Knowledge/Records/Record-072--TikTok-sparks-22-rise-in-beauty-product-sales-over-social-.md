@@ -3,7 +3,7 @@ title: "Record 072 · TikTok-sparks-22-rise-in-beauty-product-sales-over-social-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.846481+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 072 · TikTok-sparks-22-rise-in-beauty-product-sales-over-social-media-in-202

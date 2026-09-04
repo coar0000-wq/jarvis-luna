@@ -3,7 +3,7 @@ title: "Record 381 · The-Best-of-K-Beauty-Shop-Medicube-Innisfree-and-More-Awar
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.294093+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 381 · The-Best-of-K-Beauty-Shop-Medicube-Innisfree-and-More-Award-Winning-Pi

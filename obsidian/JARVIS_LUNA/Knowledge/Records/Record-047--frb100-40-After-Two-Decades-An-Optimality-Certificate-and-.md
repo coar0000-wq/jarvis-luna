@@ -3,7 +3,7 @@ title: "Record 047 · frb100-40-After-Two-Decades-An-Optimality-Certificate-and-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.858449+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 047 · frb100-40-After-Two-Decades-An-Optimality-Certificate-and-a-Preregiste

@@ -3,7 +3,7 @@ title: "Record 337 · The-Best-Korean-Skin-Care-Products---The-New-York-Times"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.501396+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 337 · The-Best-Korean-Skin-Care-Products---The-New-York-Times

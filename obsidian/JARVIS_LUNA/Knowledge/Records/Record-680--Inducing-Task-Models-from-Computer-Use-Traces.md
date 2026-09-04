@@ -3,7 +3,7 @@ title: "Record 680 · Inducing-Task-Models-from-Computer-Use-Traces"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.095955+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 680 · Inducing-Task-Models-from-Computer-Use-Traces

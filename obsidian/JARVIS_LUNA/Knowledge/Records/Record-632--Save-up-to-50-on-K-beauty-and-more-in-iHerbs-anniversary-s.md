@@ -3,7 +3,7 @@ title: "Record 632 · Save-up-to-50-on-K-beauty-and-more-in-iHerbs-anniversary-s
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.935808+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 632 · Save-up-to-50-on-K-beauty-and-more-in-iHerbs-anniversary-sale---Nineco

@@ -3,7 +3,7 @@ title: "Record 501 · Olive-Young-Brings-Signature-K-Beauty-Festival-to-the-US--
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.125263+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 501 · Olive-Young-Brings-Signature-K-Beauty-Festival-to-the-US---Beauty-Pack

@@ -3,7 +3,7 @@ title: "Record 401 · From-face-tape-to-morning-shed-TikToks-7-strangest-beauty-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.053130+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 401 · From-face-tape-to-morning-shed-TikToks-7-strangest-beauty-fads--and-wh

@@ -3,7 +3,7 @@ title: "Record 686 · Kendall-Jenner-Is-in-Her-K-Beauty-Era---Hypebae"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.313288+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 686 · Kendall-Jenner-Is-in-Her-K-Beauty-Era---Hypebae

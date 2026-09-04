@@ -3,7 +3,7 @@ title: "Record 301 · Global-Ecommerce-Statistics-and-Trends-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.886615+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 301 · Global-Ecommerce-Statistics-and-Trends-2026---Shopify

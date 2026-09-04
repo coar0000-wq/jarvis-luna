@@ -3,7 +3,7 @@ title: "Record 187 · What-Is-Olive-Young-Festa---The-Cut"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.612395+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 187 · What-Is-Olive-Young-Festa---The-Cut

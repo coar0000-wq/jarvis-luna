@@ -3,7 +3,7 @@ title: "Record 665 · Ever-wondered-what-happens-to-your-orders-before-they-leav
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.150909+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 665 · Ever-wondered-what-happens-to-your-orders-before-they-leave-a-CJ-wareh

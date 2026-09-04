@@ -3,7 +3,7 @@ title: "Record 530 · The-Latest-TikTok-Beauty-Trend-Looking-Tired---1045-WOKV"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.161501+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 530 · The-Latest-TikTok-Beauty-Trend-Looking-Tired---1045-WOKV

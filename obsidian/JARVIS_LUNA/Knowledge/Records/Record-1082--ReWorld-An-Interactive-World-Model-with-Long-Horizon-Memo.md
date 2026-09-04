@@ -3,7 +3,7 @@ title: "Record 1082 · ReWorld-An-Interactive-World-Model-with-Long-Horizon-Memo
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.946088+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1082 · ReWorld-An-Interactive-World-Model-with-Long-Horizon-Memory

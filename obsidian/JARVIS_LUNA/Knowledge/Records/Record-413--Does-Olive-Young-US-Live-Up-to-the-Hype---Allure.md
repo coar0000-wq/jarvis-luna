@@ -3,7 +3,7 @@ title: "Record 413 · Does-Olive-Young-US-Live-Up-to-the-Hype---Allure"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.855737+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 413 · Does-Olive-Young-US-Live-Up-to-the-Hype---Allure

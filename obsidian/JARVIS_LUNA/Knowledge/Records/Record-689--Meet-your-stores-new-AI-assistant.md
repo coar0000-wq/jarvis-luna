@@ -3,7 +3,7 @@ title: "Record 689 · Meet-your-stores-new-AI-assistant"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.097565+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 689 · Meet-your-stores-new-AI-assistant

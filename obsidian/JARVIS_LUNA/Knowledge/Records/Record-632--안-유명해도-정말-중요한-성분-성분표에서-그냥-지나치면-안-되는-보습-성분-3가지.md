@@ -3,7 +3,7 @@ title: "Record 632 · 안-유명해도-정말-중요한-성분-성분표에서-�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.749904+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 632 · 안-유명해도-정말-중요한-성분-성분표에서-그냥-지나치면-안-되는-보습-성분-3가지

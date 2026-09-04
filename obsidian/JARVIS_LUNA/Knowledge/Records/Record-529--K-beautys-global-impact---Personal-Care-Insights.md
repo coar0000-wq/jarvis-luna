@@ -3,7 +3,7 @@ title: "Record 529 · K-beautys-global-impact---Personal-Care-Insights"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.303348+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 529 · K-beautys-global-impact---Personal-Care-Insights

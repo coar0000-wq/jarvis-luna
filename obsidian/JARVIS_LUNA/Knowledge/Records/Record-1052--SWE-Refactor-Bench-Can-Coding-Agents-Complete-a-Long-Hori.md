@@ -3,7 +3,7 @@ title: "Record 1052 · SWE-Refactor-Bench-Can-Coding-Agents-Complete-a-Long-Hori
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.983842+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1052 · SWE-Refactor-Bench-Can-Coding-Agents-Complete-a-Long-Horizon-Whole-Rep

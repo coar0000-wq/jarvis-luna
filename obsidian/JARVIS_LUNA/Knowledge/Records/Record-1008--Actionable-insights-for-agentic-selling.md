@@ -3,7 +3,7 @@ title: "Record 1008 · Actionable-insights-for-agentic-selling"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.960903+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1008 · Actionable-insights-for-agentic-selling

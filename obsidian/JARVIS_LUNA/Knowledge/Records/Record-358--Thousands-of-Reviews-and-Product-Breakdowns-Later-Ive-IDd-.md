@@ -3,7 +3,7 @@ title: "Record 358 · Thousands-of-Reviews-and-Product-Breakdowns-Later-Ive-IDd-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.292622+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 358 · Thousands-of-Reviews-and-Product-Breakdowns-Later-Ive-IDd-the-10-Best-

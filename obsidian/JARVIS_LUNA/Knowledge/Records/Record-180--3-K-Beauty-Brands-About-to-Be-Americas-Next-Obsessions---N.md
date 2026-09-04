@@ -3,7 +3,7 @@ title: "Record 180 · 3-K-Beauty-Brands-About-to-Be-Americas-Next-Obsessions---N
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.866951+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 180 · 3-K-Beauty-Brands-About-to-Be-Americas-Next-Obsessions---NewBeauty

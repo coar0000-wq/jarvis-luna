@@ -3,7 +3,7 @@ title: "Record 333 · What-is-Unrecognizable-Makeup-The-New-Tiktok-Trend-Explain
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.896085+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 333 · What-is-Unrecognizable-Makeup-The-New-Tiktok-Trend-Explained---Hypebae

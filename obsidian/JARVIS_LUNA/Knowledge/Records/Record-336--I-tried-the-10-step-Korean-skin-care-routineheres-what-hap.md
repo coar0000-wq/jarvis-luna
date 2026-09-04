@@ -3,7 +3,7 @@ title: "Record 336 · I-tried-the-10-step-Korean-skin-care-routineheres-what-hap
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.082440+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 336 · I-tried-the-10-step-Korean-skin-care-routineheres-what-happened---Moth

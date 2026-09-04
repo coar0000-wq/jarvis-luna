@@ -3,7 +3,7 @@ title: "Record 575 · Belgrade-big-ideas-are-about-to-meet-bigger-opportunities-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.079665+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 575 · Belgrade-big-ideas-are-about-to-meet-bigger-opportunities---CJEC-Belgr

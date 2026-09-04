@@ -3,7 +3,7 @@ title: "Record 636 · Beauty-Briefing-From-tampons-to-fragrance-K-beauty-is-ever
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.310100+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 636 · Beauty-Briefing-From-tampons-to-fragrance-K-beauty-is-everywhere---glo

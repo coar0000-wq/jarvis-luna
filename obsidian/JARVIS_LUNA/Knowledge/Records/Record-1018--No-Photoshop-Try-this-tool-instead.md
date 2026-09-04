@@ -3,7 +3,7 @@ title: "Record 1018 · No-Photoshop-Try-this-tool-instead"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.207160+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1018 · No-Photoshop-Try-this-tool-instead

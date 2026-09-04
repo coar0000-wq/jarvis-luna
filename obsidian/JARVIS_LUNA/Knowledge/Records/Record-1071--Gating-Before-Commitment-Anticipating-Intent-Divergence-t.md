@@ -3,7 +3,7 @@ title: "Record 1071 · Gating-Before-Commitment-Anticipating-Intent-Divergence-t
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.215952+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1071 · Gating-Before-Commitment-Anticipating-Intent-Divergence-to-Prevent-Pos

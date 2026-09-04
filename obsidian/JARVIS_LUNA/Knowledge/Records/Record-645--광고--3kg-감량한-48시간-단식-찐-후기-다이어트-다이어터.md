@@ -3,7 +3,7 @@ title: "Record 645 · 광고--3kg-감량한-48시간-단식-찐-후기-다이어
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.147867+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 645 · 광고--3kg-감량한-48시간-단식-찐-후기-다이어트-다이어터

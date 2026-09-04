@@ -3,7 +3,7 @@ title: "Record 708 · 화장품-성분-분석-안심하고-내려놓았다가-�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.737071+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 708 · 화장품-성분-분석-안심하고-내려놓았다가-피부-망합니다

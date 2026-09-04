@@ -3,7 +3,7 @@ title: "Record 661 · What-is-menstrual-masking-The-potentially-risky-new-beauty
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.530609+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 661 · What-is-menstrual-masking-The-potentially-risky-new-beauty-trend---The

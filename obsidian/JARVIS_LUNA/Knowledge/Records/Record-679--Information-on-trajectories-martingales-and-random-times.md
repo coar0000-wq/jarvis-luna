@@ -3,7 +3,7 @@ title: "Record 679 · Information-on-trajectories-martingales-and-random-times"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.756600+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 679 · Information-on-trajectories-martingales-and-random-times

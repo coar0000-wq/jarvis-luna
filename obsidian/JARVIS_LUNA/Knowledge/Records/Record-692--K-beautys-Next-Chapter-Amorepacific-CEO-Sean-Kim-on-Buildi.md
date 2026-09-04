@@ -3,7 +3,7 @@ title: "Record 692 · K-beautys-Next-Chapter-Amorepacific-CEO-Sean-Kim-on-Buildi
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.139508+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 692 · K-beautys-Next-Chapter-Amorepacific-CEO-Sean-Kim-on-Building-Lasting-B

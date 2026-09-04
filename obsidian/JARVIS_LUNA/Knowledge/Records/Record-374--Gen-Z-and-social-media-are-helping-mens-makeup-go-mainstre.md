@@ -3,7 +3,7 @@ title: "Record 374 · Gen-Z-and-social-media-are-helping-mens-makeup-go-mainstre
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.260978+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 374 · Gen-Z-and-social-media-are-helping-mens-makeup-go-mainstream-The-beaut

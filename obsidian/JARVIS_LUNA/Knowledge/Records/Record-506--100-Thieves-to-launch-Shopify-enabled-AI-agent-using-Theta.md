@@ -3,7 +3,7 @@ title: "Record 506 · 100-Thieves-to-launch-Shopify-enabled-AI-agent-using-Theta
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.871958+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 506 · 100-Thieves-to-launch-Shopify-enabled-AI-agent-using-Theta-Labs---Bloc

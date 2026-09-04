@@ -3,7 +3,7 @@ title: "Record 365 · New-Ecommerce-Tools-August-19-2026---Practical-Ecommerce"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.087061+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 365 · New-Ecommerce-Tools-August-19-2026---Practical-Ecommerce

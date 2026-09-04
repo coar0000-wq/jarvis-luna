@@ -3,7 +3,7 @@ title: "Record 680 · The-secret-to-content-that-works-for-you-forever"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.756731+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 680 · The-secret-to-content-that-works-for-you-forever

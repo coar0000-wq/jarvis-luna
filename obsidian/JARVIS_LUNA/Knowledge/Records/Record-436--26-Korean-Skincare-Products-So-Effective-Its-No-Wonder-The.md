@@ -3,7 +3,7 @@ title: "Record 436 · 26-Korean-Skincare-Products-So-Effective-Its-No-Wonder-The
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.115286+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 436 · 26-Korean-Skincare-Products-So-Effective-Its-No-Wonder-They-Went-Viral

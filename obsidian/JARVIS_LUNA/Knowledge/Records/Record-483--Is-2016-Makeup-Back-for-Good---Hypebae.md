@@ -3,7 +3,7 @@ title: "Record 483 · Is-2016-Makeup-Back-for-Good---Hypebae"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.586508+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 483 · Is-2016-Makeup-Back-for-Good---Hypebae

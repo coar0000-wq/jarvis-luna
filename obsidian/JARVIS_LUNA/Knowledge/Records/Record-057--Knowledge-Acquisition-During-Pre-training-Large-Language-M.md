@@ -3,7 +3,7 @@ title: "Record 057 · Knowledge-Acquisition-During-Pre-training-Large-Language-M
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.859078+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 057 · Knowledge-Acquisition-During-Pre-training-Large-Language-Models-Learn-

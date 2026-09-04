@@ -3,7 +3,7 @@ title: "Record 460 · The-10-K-Beauty-Products-Bazaar-Readers-Couldnt-Stop-Buyin
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.036505+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 460 · The-10-K-Beauty-Products-Bazaar-Readers-Couldnt-Stop-Buying---Harpers-

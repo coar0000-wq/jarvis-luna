@@ -3,7 +3,7 @@ title: "Record 143 · AI-Customer-Insights-How-To-Use-Them-in-Your-Business---Sh
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.561502+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 143 · AI-Customer-Insights-How-To-Use-Them-in-Your-Business---Shopify

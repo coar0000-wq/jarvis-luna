@@ -3,7 +3,7 @@ title: "Record 523 · K-Beauty-boom-Korean-skincare-sales-surge-as-glass-skin-tr
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.273497+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 523 · K-Beauty-boom-Korean-skincare-sales-surge-as-glass-skin-trend-takes-ov

@@ -3,7 +3,7 @@ title: "Record 690 · Carve-Designs-shares-approach-toward-AI-agents-traffic---D
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.920365+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 690 · Carve-Designs-shares-approach-toward-AI-agents-traffic---Digital-Comme

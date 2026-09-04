@@ -3,7 +3,7 @@ title: "Record 380 · 14-Impressive-Korean-Skincare-Products-to-Shop-During-Amaz
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.715961+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 380 · 14-Impressive-Korean-Skincare-Products-to-Shop-During-Amazon-Prime-Day

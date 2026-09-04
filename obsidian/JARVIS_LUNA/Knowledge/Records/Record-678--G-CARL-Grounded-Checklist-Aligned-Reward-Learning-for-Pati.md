@@ -3,7 +3,7 @@ title: "Record 678 · G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pati
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.756445+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 678 · G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Patient-Oriented

@@ -3,7 +3,7 @@ title: "Record 666 · The-20-Best-Korean-Beauty-Products-for-Mature-Skin-Accordi
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.918879+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 666 · The-20-Best-Korean-Beauty-Products-for-Mature-Skin-According-to-a-K-Be

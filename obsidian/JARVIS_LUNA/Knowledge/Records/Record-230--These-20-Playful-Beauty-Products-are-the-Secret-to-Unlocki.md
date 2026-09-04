@@ -3,7 +3,7 @@ title: "Record 230 · These-20-Playful-Beauty-Products-are-the-Secret-to-Unlocki
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.619750+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 230 · These-20-Playful-Beauty-Products-are-the-Secret-to-Unlocking-Your-Whim

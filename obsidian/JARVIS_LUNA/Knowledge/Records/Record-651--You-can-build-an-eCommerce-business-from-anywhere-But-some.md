@@ -3,7 +3,7 @@ title: "Record 651 · You-can-build-an-eCommerce-business-from-anywhere-But-some
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.697895+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 651 · You-can-build-an-eCommerce-business-from-anywhere-But-some-connections

@@ -3,7 +3,7 @@ title: "Record 274 · In-Alarming-News-Rubbing-Poo-On-Your-Face-Appears-To-Be-Th
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.571134+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 274 · In-Alarming-News-Rubbing-Poo-On-Your-Face-Appears-To-Be-The-Latest-Tik

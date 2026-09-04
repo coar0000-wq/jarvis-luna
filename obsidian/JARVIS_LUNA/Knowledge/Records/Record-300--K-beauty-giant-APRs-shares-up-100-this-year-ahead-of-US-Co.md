@@ -3,7 +3,7 @@ title: "Record 300 · K-beauty-giant-APRs-shares-up-100-this-year-ahead-of-US-Co
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.254634+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 300 · K-beauty-giant-APRs-shares-up-100-this-year-ahead-of-US-Costco-launch-

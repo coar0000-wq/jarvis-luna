@@ -3,7 +3,7 @@ title: "Record 621 · Top-7-Trending-PET-Products-To-Sell-Now--CJdropshipping-Pi
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.748414+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 621 · Top-7-Trending-PET-Products-To-Sell-Now--CJdropshipping-Picks

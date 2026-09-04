@@ -3,7 +3,7 @@ title: "Record 596 · Beginners-Guide-To-AI-Dropshipping-5-Hour-FREE-Course"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.745064+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 596 · Beginners-Guide-To-AI-Dropshipping-5-Hour-FREE-Course

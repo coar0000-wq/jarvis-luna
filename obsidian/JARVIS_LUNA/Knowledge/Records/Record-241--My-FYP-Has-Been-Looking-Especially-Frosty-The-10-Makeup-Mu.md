@@ -3,7 +3,7 @@ title: "Record 241 · My-FYP-Has-Been-Looking-Especially-Frosty-The-10-Makeup-Mu
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.915303+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 241 · My-FYP-Has-Been-Looking-Especially-Frosty-The-10-Makeup-Must-Haves-Lea

@@ -3,7 +3,7 @@ title: "Record 596 · Are-you-experiencing-HAIR-LOSS-Secret-to-fuller-thicker-ha
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.398169+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 596 · Are-you-experiencing-HAIR-LOSS-Secret-to-fuller-thicker-hair--stronger

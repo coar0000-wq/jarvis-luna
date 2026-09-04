@@ -3,7 +3,7 @@ title: "Record 510 · Global-1-vs-Korea-1--Part-3"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.733554+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 510 · Global-1-vs-Korea-1--Part-3

@@ -3,7 +3,7 @@ title: "Record 054 · A-Case-Study-on-Emergent-Cheating-and-Whistleblowing-in-Au
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.858899+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 054 · A-Case-Study-on-Emergent-Cheating-and-Whistleblowing-in-Autonomous-Res

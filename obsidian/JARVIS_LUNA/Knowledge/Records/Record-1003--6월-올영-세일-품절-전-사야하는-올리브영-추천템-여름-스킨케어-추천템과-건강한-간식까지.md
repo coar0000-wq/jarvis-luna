@@ -3,7 +3,7 @@ title: "Record 1003 · 6월-올영-세일-품절-전-사야하는-올리브영-�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.334361+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1003 · 6월-올영-세일-품절-전-사야하는-올리브영-추천템-여름-스킨케어-추천템과-건강한-간식까지

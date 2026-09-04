@@ -3,7 +3,7 @@ title: "Record 599 · 15-Editor-Loved-K-Beauty-Products-on-Major-Prime-Day-Sale-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.307816+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 599 · 15-Editor-Loved-K-Beauty-Products-on-Major-Prime-Day-Sale---Yahoo

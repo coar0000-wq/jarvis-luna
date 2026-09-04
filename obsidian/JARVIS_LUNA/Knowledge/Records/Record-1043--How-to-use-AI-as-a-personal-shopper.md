@@ -3,7 +3,7 @@ title: "Record 1043 · How-to-use-AI-as-a-personal-shopper"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.943082+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1043 · How-to-use-AI-as-a-personal-shopper

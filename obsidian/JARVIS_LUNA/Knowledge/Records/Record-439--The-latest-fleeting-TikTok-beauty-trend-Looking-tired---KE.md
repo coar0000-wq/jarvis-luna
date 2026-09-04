@@ -3,7 +3,7 @@ title: "Record 439 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---KE
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.058965+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 439 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---KESQ

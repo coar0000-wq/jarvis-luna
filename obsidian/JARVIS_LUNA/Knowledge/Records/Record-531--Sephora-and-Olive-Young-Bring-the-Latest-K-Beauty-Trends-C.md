@@ -3,7 +3,7 @@ title: "Record 531 · Sephora-and-Olive-Young-Bring-the-Latest-K-Beauty-Trends-C
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.392228+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 531 · Sephora-and-Olive-Young-Bring-the-Latest-K-Beauty-Trends-Closer-to-Sou

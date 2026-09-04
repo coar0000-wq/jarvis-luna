@@ -3,7 +3,7 @@ title: "Record 508 · Your-Search-Results-Are-Getting-Sloptimized---The-Atlantic
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.919301+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 508 · Your-Search-Results-Are-Getting-Sloptimized---The-Atlantic

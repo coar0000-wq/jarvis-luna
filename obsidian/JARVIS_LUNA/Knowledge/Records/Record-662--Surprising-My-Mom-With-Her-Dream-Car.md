@@ -3,7 +3,7 @@ title: "Record 662 · Surprising-My-Mom-With-Her-Dream-Car"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.068798+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 662 · Surprising-My-Mom-With-Her-Dream-Car

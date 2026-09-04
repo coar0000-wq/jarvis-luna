@@ -3,7 +3,7 @@ title: "Record 422 · How-TikTok-Trends-Feed-the-Beauty-Product-Pipeline---The-B
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.056348+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 422 · How-TikTok-Trends-Feed-the-Beauty-Product-Pipeline---The-Business-of-F

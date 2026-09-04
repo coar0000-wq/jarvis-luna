@@ -3,7 +3,7 @@ title: "Record 252 · Artificial-Intelligence-Analytics-A-Guide-for-Business-Own
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.569506+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 252 · Artificial-Intelligence-Analytics-A-Guide-for-Business-Owners---Shopif

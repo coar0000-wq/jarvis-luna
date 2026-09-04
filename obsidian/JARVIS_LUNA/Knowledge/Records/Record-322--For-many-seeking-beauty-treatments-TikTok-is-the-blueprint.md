@@ -3,7 +3,7 @@ title: "Record 322 · For-many-seeking-beauty-treatments-TikTok-is-the-blueprint
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.500054+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 322 · For-many-seeking-beauty-treatments-TikTok-is-the-blueprint---NewsNatio

@@ -3,7 +3,7 @@ title: "Record 597 · 비누-클렌저-진짜-잘-지워질까-브러시퍼프-�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.655389+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 597 · 비누-클렌저-진짜-잘-지워질까-브러시퍼프-세척-비교

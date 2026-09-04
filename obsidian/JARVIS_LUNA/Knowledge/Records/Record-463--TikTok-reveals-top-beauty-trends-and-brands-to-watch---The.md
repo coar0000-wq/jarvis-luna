@@ -3,7 +3,7 @@ title: "Record 463 · TikTok-reveals-top-beauty-trends-and-brands-to-watch---The
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.628064+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 463 · TikTok-reveals-top-beauty-trends-and-brands-to-watch---TheIndustrybeau

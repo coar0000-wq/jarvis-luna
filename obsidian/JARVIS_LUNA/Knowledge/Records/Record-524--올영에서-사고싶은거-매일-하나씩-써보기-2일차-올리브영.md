@@ -3,7 +3,7 @@ title: "Record 524 · 올영에서-사고싶은거-매일-하나씩-써보기-2�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.071973+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 524 · 올영에서-사고싶은거-매일-하나씩-써보기-2일차-올리브영

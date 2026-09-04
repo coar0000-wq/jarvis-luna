@@ -3,7 +3,7 @@ title: "Record 634 · I-Ranked-18-Viral-Japanese-Beauty-Products-Brutally-Honest
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.088734+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 634 · I-Ranked-18-Viral-Japanese-Beauty-Products-Brutally-Honest

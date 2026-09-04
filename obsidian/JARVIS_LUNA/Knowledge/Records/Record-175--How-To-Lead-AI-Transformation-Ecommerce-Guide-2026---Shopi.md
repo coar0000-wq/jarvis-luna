@@ -3,7 +3,7 @@ title: "Record 175 · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026---Shopi
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:31.997376+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 175 · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026---Shopify

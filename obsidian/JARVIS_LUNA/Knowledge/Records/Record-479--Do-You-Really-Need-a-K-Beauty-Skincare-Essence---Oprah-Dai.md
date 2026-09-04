@@ -3,7 +3,7 @@ title: "Record 479 · Do-You-Really-Need-a-K-Beauty-Skincare-Essence---Oprah-Dai
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.300274+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 479 · Do-You-Really-Need-a-K-Beauty-Skincare-Essence---Oprah-Daily

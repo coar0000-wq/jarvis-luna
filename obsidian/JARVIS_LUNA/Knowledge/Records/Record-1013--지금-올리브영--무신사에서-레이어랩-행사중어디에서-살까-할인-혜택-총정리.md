@@ -3,7 +3,7 @@ title: "Record 1013 · 지금-올리브영--무신사에서-레이어랩-행사�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.940992+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1013 · 지금-올리브영--무신사에서-레이어랩-행사중어디에서-살까-할인-혜택-총정리

@@ -3,7 +3,7 @@ title: "Record 662 · 지금-올리브영--무신사에서-레이어랩-행사�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.753953+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 662 · 지금-올리브영--무신사에서-레이어랩-행사중어디에서-살까-할인-혜택-총정리

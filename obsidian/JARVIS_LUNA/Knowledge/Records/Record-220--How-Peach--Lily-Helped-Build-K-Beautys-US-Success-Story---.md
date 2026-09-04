@@ -3,7 +3,7 @@ title: "Record 220 · How-Peach--Lily-Helped-Build-K-Beautys-US-Success-Story---
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.022299+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 220 · How-Peach--Lily-Helped-Build-K-Beautys-US-Success-Story---BeautyMatter

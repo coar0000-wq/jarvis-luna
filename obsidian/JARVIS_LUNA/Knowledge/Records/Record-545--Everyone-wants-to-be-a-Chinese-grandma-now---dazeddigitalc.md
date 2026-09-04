@@ -3,7 +3,7 @@ title: "Record 545 · Everyone-wants-to-be-a-Chinese-grandma-now---dazeddigitalc
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.049379+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 545 · Everyone-wants-to-be-a-Chinese-grandma-now---dazeddigitalcom

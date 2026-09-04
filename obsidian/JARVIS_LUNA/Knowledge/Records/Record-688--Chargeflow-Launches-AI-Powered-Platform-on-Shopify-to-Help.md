@@ -3,7 +3,7 @@ title: "Record 688 · Chargeflow-Launches-AI-Powered-Platform-on-Shopify-to-Help
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.603217+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 688 · Chargeflow-Launches-AI-Powered-Platform-on-Shopify-to-Help-E-Commerce-

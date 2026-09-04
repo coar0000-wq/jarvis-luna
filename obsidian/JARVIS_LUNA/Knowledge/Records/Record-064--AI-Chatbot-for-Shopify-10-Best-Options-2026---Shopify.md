@@ -3,7 +3,7 @@ title: "Record 064 · AI-Chatbot-for-Shopify-10-Best-Options-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.593321+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 064 · AI-Chatbot-for-Shopify-10-Best-Options-2026---Shopify

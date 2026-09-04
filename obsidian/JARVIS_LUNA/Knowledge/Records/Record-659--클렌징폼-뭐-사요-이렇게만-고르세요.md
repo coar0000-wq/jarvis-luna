@@ -3,7 +3,7 @@ title: "Record 659 · 클렌징폼-뭐-사요-이렇게만-고르세요"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.284835+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 659 · 클렌징폼-뭐-사요-이렇게만-고르세요

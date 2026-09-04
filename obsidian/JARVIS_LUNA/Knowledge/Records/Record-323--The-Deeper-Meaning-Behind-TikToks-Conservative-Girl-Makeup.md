@@ -3,7 +3,7 @@ title: "Record 323 · The-Deeper-Meaning-Behind-TikToks-Conservative-Girl-Makeup
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.574739+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 323 · The-Deeper-Meaning-Behind-TikToks-Conservative-Girl-Makeup-Trend---pop

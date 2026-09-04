@@ -3,7 +3,7 @@ title: "Record 259 · Why-LOréal-Paris-Nyx-and-MAC-are-dominating-TikTok-beauty
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.699651+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 259 · Why-LOréal-Paris-Nyx-and-MAC-are-dominating-TikTok-beauty---Personal-C

@@ -3,7 +3,7 @@ title: "Record 107 · The-Best-K-Beauty-Products-to-Buy-During-Amazon-Prime-Day-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.064525+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 107 · The-Best-K-Beauty-Products-to-Buy-During-Amazon-Prime-Day---coveteurco

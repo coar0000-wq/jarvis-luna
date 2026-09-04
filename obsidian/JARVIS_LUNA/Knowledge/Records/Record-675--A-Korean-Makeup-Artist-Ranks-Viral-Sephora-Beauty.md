@@ -3,7 +3,7 @@ title: "Record 675 · A-Korean-Makeup-Artist-Ranks-Viral-Sephora-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.152468+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 675 · A-Korean-Makeup-Artist-Ranks-Viral-Sephora-Beauty

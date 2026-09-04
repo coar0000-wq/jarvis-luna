@@ -3,7 +3,7 @@ title: "Record 629 · Hailey-Biebers-Favorite-K-Beauty-Tool-Is-32-Percent-Off-fo
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.598637+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 629 · Hailey-Biebers-Favorite-K-Beauty-Tool-Is-32-Percent-Off-for-Amazons-Bi

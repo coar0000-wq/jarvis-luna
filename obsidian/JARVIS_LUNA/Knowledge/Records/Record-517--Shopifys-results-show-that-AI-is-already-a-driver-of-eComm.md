@@ -3,7 +3,7 @@ title: "Record 517 · Shopifys-results-show-that-AI-is-already-a-driver-of-eComm
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.273000+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 517 · Shopifys-results-show-that-AI-is-already-a-driver-of-eCommerce-growth-

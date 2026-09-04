@@ -3,7 +3,7 @@ title: "Record 484 · The-Hudson-Williams-Effect-K-Beauty-Brand-SKIN1004-Sells-O
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.127417+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 484 · The-Hudson-Williams-Effect-K-Beauty-Brand-SKIN1004-Sells-Out-as-Actor-

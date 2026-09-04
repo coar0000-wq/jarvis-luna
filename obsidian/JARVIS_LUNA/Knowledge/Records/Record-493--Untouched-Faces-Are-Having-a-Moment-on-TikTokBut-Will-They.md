@@ -3,7 +3,7 @@ title: "Record 493 · Untouched-Faces-Are-Having-a-Moment-on-TikTokBut-Will-They
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.334269+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 493 · Untouched-Faces-Are-Having-a-Moment-on-TikTokBut-Will-They-Last---Cosm

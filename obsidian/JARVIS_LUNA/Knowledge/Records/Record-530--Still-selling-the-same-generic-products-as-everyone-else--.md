@@ -3,7 +3,7 @@ title: "Record 530 · Still-selling-the-same-generic-products-as-everyone-else--
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.072873+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 530 · Still-selling-the-same-generic-products-as-everyone-else---CJ-ODM

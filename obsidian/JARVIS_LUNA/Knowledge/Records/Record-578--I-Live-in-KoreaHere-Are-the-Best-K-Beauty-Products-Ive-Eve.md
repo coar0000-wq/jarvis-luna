@@ -3,7 +3,7 @@ title: "Record 578 · I-Live-in-KoreaHere-Are-the-Best-K-Beauty-Products-Ive-Eve
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.168142+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 578 · I-Live-in-KoreaHere-Are-the-Best-K-Beauty-Products-Ive-Ever-Tried---Ha

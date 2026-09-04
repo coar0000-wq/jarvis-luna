@@ -3,7 +3,7 @@ title: "Record 711 · Whats-in-this-k-beauty-box-Your-1st-Korean-sauna-experienc
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.737299+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 711 · Whats-in-this-k-beauty-box-Your-1st-Korean-sauna-experience-that-you-d

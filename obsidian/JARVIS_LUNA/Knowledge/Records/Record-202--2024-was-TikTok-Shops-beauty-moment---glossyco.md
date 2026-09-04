@@ -3,7 +3,7 @@ title: "Record 202 · 2024-was-TikTok-Shops-beauty-moment---glossyco"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.242191+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 202 · 2024-was-TikTok-Shops-beauty-moment---glossyco

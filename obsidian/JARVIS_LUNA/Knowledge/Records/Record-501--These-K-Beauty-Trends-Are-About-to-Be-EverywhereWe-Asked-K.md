@@ -3,7 +3,7 @@ title: "Record 501 · These-K-Beauty-Trends-Are-About-to-Be-EverywhereWe-Asked-K
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.871060+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 501 · These-K-Beauty-Trends-Are-About-to-Be-EverywhereWe-Asked-Korean-Skin-E

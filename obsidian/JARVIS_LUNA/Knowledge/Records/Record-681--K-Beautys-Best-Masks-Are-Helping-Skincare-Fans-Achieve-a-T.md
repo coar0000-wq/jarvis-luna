@@ -3,7 +3,7 @@ title: "Record 681 · K-Beautys-Best-Masks-Are-Helping-Skincare-Fans-Achieve-a-T
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.602643+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 681 · K-Beautys-Best-Masks-Are-Helping-Skincare-Fans-Achieve-a-True-Glass-Sk

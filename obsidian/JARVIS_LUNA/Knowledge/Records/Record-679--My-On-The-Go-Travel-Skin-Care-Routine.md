@@ -3,7 +3,7 @@ title: "Record 679 · My-On-The-Go-Travel-Skin-Care-Routine"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.071293+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 679 · My-On-The-Go-Travel-Skin-Care-Routine

@@ -3,7 +3,7 @@ title: "Record 322 · Intercom-Wants-to-End-the-Support-to-Sales-Handoff-Problem
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.017638+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 322 · Intercom-Wants-to-End-the-Support-to-Sales-Handoff-Problem---CX-Today

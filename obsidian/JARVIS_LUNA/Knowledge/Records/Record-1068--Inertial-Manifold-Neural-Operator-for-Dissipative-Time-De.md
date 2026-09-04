@@ -3,7 +3,7 @@ title: "Record 1068 · Inertial-Manifold-Neural-Operator-for-Dissipative-Time-De
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.199941+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1068 · Inertial-Manifold-Neural-Operator-for-Dissipative-Time-Dependent-Parti

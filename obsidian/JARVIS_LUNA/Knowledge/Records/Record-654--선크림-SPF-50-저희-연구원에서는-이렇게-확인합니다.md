@@ -3,7 +3,7 @@ title: "Record 654 · 선크림-SPF-50-저희-연구원에서는-이렇게-확�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.284369+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 654 · 선크림-SPF-50-저희-연구원에서는-이렇게-확인합니다

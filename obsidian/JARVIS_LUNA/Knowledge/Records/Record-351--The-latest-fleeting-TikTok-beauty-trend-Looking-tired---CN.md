@@ -3,7 +3,7 @@ title: "Record 351 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---CN
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.102198+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 351 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---CNN

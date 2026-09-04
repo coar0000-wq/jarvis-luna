@@ -3,7 +3,7 @@ title: "Record 713 · Claude-AI--Facebook--12500Month-WTF-Did-Claude-Just-Do"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.408834+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 713 · Claude-AI--Facebook--12500Month-WTF-Did-Claude-Just-Do

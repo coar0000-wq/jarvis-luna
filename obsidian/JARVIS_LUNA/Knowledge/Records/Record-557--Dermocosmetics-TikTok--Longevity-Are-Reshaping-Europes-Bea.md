@@ -3,7 +3,7 @@ title: "Record 557 · Dermocosmetics-TikTok--Longevity-Are-Reshaping-Europes-Bea
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.880979+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 557 · Dermocosmetics-TikTok--Longevity-Are-Reshaping-Europes-Beauty-Market--

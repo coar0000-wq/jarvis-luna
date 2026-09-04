@@ -3,7 +3,7 @@ title: "Record 332 · Shopify-revenue-GMV-maintain-30-growth-streak-in-Q4-2025--
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.500930+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 332 · Shopify-revenue-GMV-maintain-30-growth-streak-in-Q4-2025---Digital-Com

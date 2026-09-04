@@ -3,7 +3,7 @@ title: "Record 100 · Tuscan-Mom-Makeup-Is-Summers-Toastiest-Beauty-Trend---Bust
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.864936+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 100 · Tuscan-Mom-Makeup-Is-Summers-Toastiest-Beauty-Trend---Bustle

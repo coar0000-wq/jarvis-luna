@@ -3,7 +3,7 @@ title: "Record 572 · The-Internet-Cant-Get-Enough-of-Daniela-Avanzinis-Signatur
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.306093+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 572 · The-Internet-Cant-Get-Enough-of-Daniela-Avanzinis-Signature-Siren-Make

@@ -3,7 +3,7 @@ title: "Record 215 · FULLY-Enters-Sephora-US-via-OLIVE-YOUNG-K-Beauty-Edit---CH
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.244115+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 215 · FULLY-Enters-Sephora-US-via-OLIVE-YOUNG-K-Beauty-Edit---CHOSUNBIZ---Ch

@@ -3,7 +3,7 @@ title: "Record 655 · TikTok-Skin-Care-Routines-Are-Harmful-and-Expensive-Resear
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.311403+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 655 · TikTok-Skin-Care-Routines-Are-Harmful-and-Expensive-Researchers-Say---

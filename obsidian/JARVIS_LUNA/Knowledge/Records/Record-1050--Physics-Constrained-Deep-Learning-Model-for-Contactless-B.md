@@ -3,7 +3,7 @@ title: "Record 1050 · Physics-Constrained-Deep-Learning-Model-for-Contactless-B
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.983557+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1050 · Physics-Constrained-Deep-Learning-Model-for-Contactless-Blood-Pressure

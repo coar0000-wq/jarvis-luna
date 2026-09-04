@@ -3,7 +3,7 @@ title: "Record 638 · How-K-Beauty-Advances-Skin-Care-Through-Next-Generation-De
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.528160+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 638 · How-K-Beauty-Advances-Skin-Care-Through-Next-Generation-Delivery-Syste

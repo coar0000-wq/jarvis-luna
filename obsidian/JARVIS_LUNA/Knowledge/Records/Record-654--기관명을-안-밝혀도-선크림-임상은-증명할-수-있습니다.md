@@ -3,7 +3,7 @@ title: "Record 654 · 기관명을-안-밝혀도-선크림-임상은-증명할-�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.149226+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 654 · 기관명을-안-밝혀도-선크림-임상은-증명할-수-있습니다

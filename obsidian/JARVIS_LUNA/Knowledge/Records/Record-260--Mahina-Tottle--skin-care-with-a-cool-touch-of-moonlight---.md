@@ -3,7 +3,7 @@ title: "Record 260 · Mahina-Tottle--skin-care-with-a-cool-touch-of-moonlight---
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.828755+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 260 · Mahina-Tottle--skin-care-with-a-cool-touch-of-moonlight---Cosmetics-Bu

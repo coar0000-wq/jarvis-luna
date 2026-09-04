@@ -3,7 +3,7 @@ title: "Record 131 · I-Asked-3-TikTok-Beauty-Experts-What-the-Next-Big-Makeup-T
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.856605+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 131 · I-Asked-3-TikTok-Beauty-Experts-What-the-Next-Big-Makeup-Trends-Will-B

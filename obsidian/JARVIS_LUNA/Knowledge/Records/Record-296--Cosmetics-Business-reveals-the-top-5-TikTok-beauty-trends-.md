@@ -3,7 +3,7 @@ title: "Record 296 · Cosmetics-Business-reveals-the-top-5-TikTok-beauty-trends-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.704714+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 296 · Cosmetics-Business-reveals-the-top-5-TikTok-beauty-trends-of-2024-in-n

@@ -3,7 +3,7 @@ title: "Record 687 · Ulta-Skin-Care"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.533198+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 687 · Ulta-Skin-Care

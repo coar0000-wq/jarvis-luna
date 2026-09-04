@@ -3,7 +3,7 @@ title: "Record 411 · Why-Is-Veralab-slowing-down-K-Beauty-retail-and-e-commerce
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.054658+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 411 · Why-Is-Veralab-slowing-down-K-Beauty-retail-and-e-commerce-shift---nss

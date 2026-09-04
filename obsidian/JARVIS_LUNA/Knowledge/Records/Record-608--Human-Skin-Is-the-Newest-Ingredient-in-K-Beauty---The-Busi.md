@@ -3,7 +3,7 @@ title: "Record 608 · Human-Skin-Is-the-Newest-Ingredient-in-K-Beauty---The-Busi
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.308345+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 608 · Human-Skin-Is-the-Newest-Ingredient-in-K-Beauty---The-Business-of-Fash

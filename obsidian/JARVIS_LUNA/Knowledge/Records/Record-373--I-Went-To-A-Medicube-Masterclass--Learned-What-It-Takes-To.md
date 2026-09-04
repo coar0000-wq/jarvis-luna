@@ -3,7 +3,7 @@ title: "Record 373 · I-Went-To-A-Medicube-Masterclass--Learned-What-It-Takes-To
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.088342+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 373 · I-Went-To-A-Medicube-Masterclass--Learned-What-It-Takes-To-Make-Skin-G

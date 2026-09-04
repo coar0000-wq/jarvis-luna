@@ -3,7 +3,7 @@ title: "Record 380 · Why-Does-Birthday-Makeup-Make-the-Internet-So-Mad---Hypeba
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.261468+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 380 · Why-Does-Birthday-Makeup-Make-the-Internet-So-Mad---Hypebae

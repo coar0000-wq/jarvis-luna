@@ -3,7 +3,7 @@ title: "Record 304 · TikToks-Head-of-Beauty-Told-Me-Whats-Actually-SellingMeet-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.015166+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 304 · TikToks-Head-of-Beauty-Told-Me-Whats-Actually-SellingMeet-the-12-Produ

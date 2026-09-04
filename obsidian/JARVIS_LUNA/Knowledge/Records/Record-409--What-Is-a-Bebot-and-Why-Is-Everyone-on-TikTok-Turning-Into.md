@@ -3,7 +3,7 @@ title: "Record 409 · What-Is-a-Bebot-and-Why-Is-Everyone-on-TikTok-Turning-Into
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.855023+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 409 · What-Is-a-Bebot-and-Why-Is-Everyone-on-TikTok-Turning-Into-One---Hypeb

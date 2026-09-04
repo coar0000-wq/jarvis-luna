@@ -3,7 +3,7 @@ title: "Record 1064 · AI-with-Authority-from-Application-to-Silicon"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.199251+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1064 · AI-with-Authority-from-Application-to-Silicon

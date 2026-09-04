@@ -3,7 +3,7 @@ title: "Record 350 · Island-Girl-Beauty-Is-the-Next-Best-Thing-to-a-Tropical-Pa
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.844690+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 350 · Island-Girl-Beauty-Is-the-Next-Best-Thing-to-a-Tropical-Paradise-Escap

@@ -3,7 +3,7 @@ title: "Record 301 · Key-Digital-Transformation-Challenges-in-Ecommerce-for-202
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.254736+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 301 · Key-Digital-Transformation-Challenges-in-Ecommerce-for-2026-and-How-to

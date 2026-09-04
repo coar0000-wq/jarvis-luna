@@ -3,7 +3,7 @@ title: "Record 613 · Nicotine-Cravings-Are-Brutal"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.059242+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 613 · Nicotine-Cravings-Are-Brutal

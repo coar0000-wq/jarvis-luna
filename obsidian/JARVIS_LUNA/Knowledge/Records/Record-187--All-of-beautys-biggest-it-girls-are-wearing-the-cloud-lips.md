@@ -3,7 +3,7 @@ title: "Record 187 · All-of-beautys-biggest-it-girls-are-wearing-the-cloud-lips
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.109646+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 187 · All-of-beautys-biggest-it-girls-are-wearing-the-cloud-lips-trend---her

@@ -3,7 +3,7 @@ title: "Record 562 · Purseface-Is-The-Low-Effort-Beauty-Trend-Thats-Quickly-Rep
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.346762+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 562 · Purseface-Is-The-Low-Effort-Beauty-Trend-Thats-Quickly-Replacing-The-C

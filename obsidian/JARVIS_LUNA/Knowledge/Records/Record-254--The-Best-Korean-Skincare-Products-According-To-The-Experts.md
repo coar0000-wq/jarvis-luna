@@ -3,7 +3,7 @@ title: "Record 254 · The-Best-Korean-Skincare-Products-According-To-The-Experts
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.885534+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 254 · The-Best-Korean-Skincare-Products-According-To-The-Experts---British-V

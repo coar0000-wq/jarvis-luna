@@ -3,7 +3,7 @@ title: "Record 459 · From-glass-skin-to-barrier-care-Heres-where-to-shop-K-beau
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.884068+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 459 · From-glass-skin-to-barrier-care-Heres-where-to-shop-K-beauty-products-

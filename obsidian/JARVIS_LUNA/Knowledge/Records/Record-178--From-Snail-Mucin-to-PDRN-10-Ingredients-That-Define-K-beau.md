@@ -3,7 +3,7 @@ title: "Record 178 · From-Snail-Mucin-to-PDRN-10-Ingredients-That-Define-K-beau
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.108361+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 178 · From-Snail-Mucin-to-PDRN-10-Ingredients-That-Define-K-beauty---Vogue

@@ -3,7 +3,7 @@ title: "Record 617 · I-Ordered-the-Same-Product-From-Three-Dropshipping-Supplie
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.400029+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 617 · I-Ordered-the-Same-Product-From-Three-Dropshipping-Suppliers

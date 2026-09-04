@@ -3,7 +3,7 @@ title: "Record 1080 · Mechanistic-Reaction-Prediction-via-Discrete-Flow-Matchin
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.987460+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1080 · Mechanistic-Reaction-Prediction-via-Discrete-Flow-Matching-on-Graph-St

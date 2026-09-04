@@ -3,7 +3,7 @@ title: "Record 502 · Shopify-and-Amazon-outperform-as-online-retail-fell-in-Oct
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.108825+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 502 · Shopify-and-Amazon-outperform-as-online-retail-fell-in-October-Ecommer

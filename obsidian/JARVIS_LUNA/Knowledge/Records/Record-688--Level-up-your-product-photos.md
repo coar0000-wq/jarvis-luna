@@ -3,7 +3,7 @@ title: "Record 688 · Level-up-your-product-photos"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.757767+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 688 · Level-up-your-product-photos

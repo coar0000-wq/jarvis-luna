@@ -3,7 +3,7 @@ title: "Record 604 · AI-UGC-Ads-vs-a-Real-UGC-Ads"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.398863+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 604 · AI-UGC-Ads-vs-a-Real-UGC-Ads

@@ -3,7 +3,7 @@ title: "Record 334 · Sephoras-Olive-Young-Partnership-Will-Debut-With-19-K-Beau
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.575550+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 334 · Sephoras-Olive-Young-Partnership-Will-Debut-With-19-K-Beauty-Brands---

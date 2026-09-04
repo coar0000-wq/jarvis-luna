@@ -3,7 +3,7 @@ title: "Record 316 · Whats-Better-Than-K-Beauty-Award-Winning-K-Beauty-of-Cours
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.875355+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 316 · Whats-Better-Than-K-Beauty-Award-Winning-K-Beauty-of-Course---Allure

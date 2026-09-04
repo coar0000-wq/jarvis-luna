@@ -3,7 +3,7 @@ title: "Record 546 · Sephora-and-Olive-Young-are-bringing-20-Korean-beauty-bran
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.591348+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 546 · Sephora-and-Olive-Young-are-bringing-20-Korean-beauty-brands-to-Southe

@@ -3,7 +3,7 @@ title: "Record 555 · Shopify-TSXSHOP-Can-Agentic-AI-Redefine-Online-Shopping---
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.947554+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 555 · Shopify-TSXSHOP-Can-Agentic-AI-Redefine-Online-Shopping---kalkinemedia

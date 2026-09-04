@@ -3,7 +3,7 @@ title: "Record 402 · K-Beauty-Travel-Is-Booming-Why-Everyone-Is-Booking-Beauty-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.115180+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 402 · K-Beauty-Travel-Is-Booming-Why-Everyone-Is-Booking-Beauty-Trips-to-Sou

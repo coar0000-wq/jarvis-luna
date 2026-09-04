@@ -3,7 +3,7 @@ title: "Record 406 · The-biggest-beauty-trends-of-2026---Luxury-London"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.144607+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 406 · The-biggest-beauty-trends-of-2026---Luxury-London

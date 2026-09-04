@@ -3,7 +3,7 @@ title: "Record 501 · Exploring-the-viral-TikTok-trend-of-Sunscreen-Contouring--
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.515965+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 501 · Exploring-the-viral-TikTok-trend-of-Sunscreen-Contouring---CHCH

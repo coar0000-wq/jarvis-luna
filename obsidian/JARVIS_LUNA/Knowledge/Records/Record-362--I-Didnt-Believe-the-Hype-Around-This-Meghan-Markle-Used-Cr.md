@@ -3,7 +3,7 @@ title: "Record 362 · I-Didnt-Believe-the-Hype-Around-This-Meghan-Markle-Used-Cr
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.846760+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 362 · I-Didnt-Believe-the-Hype-Around-This-Meghan-Markle-Used-Cream-but-My-G

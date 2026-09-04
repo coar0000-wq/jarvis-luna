@@ -3,7 +3,7 @@ title: "Record 659 · Ranking-Every-Viral-Korean-Sunscreen-here-are-the-best"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.753537+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 659 · Ranking-Every-Viral-Korean-Sunscreen-here-are-the-best

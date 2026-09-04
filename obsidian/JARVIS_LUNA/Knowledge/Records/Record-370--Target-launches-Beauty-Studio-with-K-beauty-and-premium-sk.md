@@ -3,7 +3,7 @@ title: "Record 370 · Target-launches-Beauty-Studio-with-K-beauty-and-premium-sk
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.848157+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 370 · Target-launches-Beauty-Studio-with-K-beauty-and-premium-skin-care-focu

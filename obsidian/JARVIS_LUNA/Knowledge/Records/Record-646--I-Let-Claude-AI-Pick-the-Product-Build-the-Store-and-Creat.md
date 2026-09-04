@@ -3,7 +3,7 @@ title: "Record 646 · I-Let-Claude-AI-Pick-the-Product-Build-the-Store-and-Creat
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.696941+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 646 · I-Let-Claude-AI-Pick-the-Product-Build-the-Store-and-Create-the-Ad

@@ -3,7 +3,7 @@ title: "Record 565 · Walmart-has-Laneige-Estee-Lauder-more-skincare-up-to-63-of
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.276987+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 565 · Walmart-has-Laneige-Estee-Lauder-more-skincare-up-to-63-off-during-Bea

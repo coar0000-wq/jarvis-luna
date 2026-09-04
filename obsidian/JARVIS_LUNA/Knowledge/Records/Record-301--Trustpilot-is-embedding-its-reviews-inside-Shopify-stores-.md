@@ -3,7 +3,7 @@ title: "Record 301 · Trustpilot-is-embedding-its-reviews-inside-Shopify-stores-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.594096+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 301 · Trustpilot-is-embedding-its-reviews-inside-Shopify-stores-as-AI-search

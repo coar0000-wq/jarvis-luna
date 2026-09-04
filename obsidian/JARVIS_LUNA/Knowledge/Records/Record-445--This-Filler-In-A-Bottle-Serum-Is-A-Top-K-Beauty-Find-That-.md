@@ -3,7 +3,7 @@ title: "Record 445 · This-Filler-In-A-Bottle-Serum-Is-A-Top-K-Beauty-Find-That-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.659833+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 445 · This-Filler-In-A-Bottle-Serum-Is-A-Top-K-Beauty-Find-That-No-One-Knows

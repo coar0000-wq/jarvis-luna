@@ -3,7 +3,7 @@ title: "Record 467 · Everyone-in-the-know-is-using-these-bestselling-Korean-ski
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.299566+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 467 · Everyone-in-the-know-is-using-these-bestselling-Korean-skincare-buys--

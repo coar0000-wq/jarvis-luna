@@ -3,7 +3,7 @@ title: "Record 620 · How-I-Finally-Quit-Zyn"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.400282+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 620 · How-I-Finally-Quit-Zyn

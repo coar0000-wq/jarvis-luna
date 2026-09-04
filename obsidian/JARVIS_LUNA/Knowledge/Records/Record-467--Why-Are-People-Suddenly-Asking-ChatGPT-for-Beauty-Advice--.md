@@ -3,7 +3,7 @@ title: "Record 467 · Why-Are-People-Suddenly-Asking-ChatGPT-for-Beauty-Advice--
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.329023+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 467 · Why-Are-People-Suddenly-Asking-ChatGPT-for-Beauty-Advice---Hypebae

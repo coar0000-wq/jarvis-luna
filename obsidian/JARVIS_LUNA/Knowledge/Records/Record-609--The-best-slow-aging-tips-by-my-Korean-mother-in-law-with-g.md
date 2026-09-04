@@ -3,7 +3,7 @@ title: "Record 609 · The-best-slow-aging-tips-by-my-Korean-mother-in-law-with-g
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.746809+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 609 · The-best-slow-aging-tips-by-my-Korean-mother-in-law-with-glass-skin-an

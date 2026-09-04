@@ -3,7 +3,7 @@ title: "Record 220 · K-Beauty-Product-Market---Future-Market-Insights"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.003648+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 220 · K-Beauty-Product-Market---Future-Market-Insights

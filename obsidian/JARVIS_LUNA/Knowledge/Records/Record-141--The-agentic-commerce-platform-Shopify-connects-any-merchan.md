@@ -3,7 +3,7 @@ title: "Record 141 · The-agentic-commerce-platform-Shopify-connects-any-merchan
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.864513+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 141 · The-agentic-commerce-platform-Shopify-connects-any-merchant-to-every-A

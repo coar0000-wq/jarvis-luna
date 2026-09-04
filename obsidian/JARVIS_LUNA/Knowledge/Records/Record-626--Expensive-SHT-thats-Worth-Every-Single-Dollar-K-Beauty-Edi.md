@@ -3,7 +3,7 @@ title: "Record 626 · Expensive-SHT-thats-Worth-Every-Single-Dollar-K-Beauty-Edi
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.062016+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 626 · Expensive-SHT-thats-Worth-Every-Single-Dollar-K-Beauty-Edition

@@ -3,7 +3,7 @@ title: "Record 540 · K-beauty-brands-dominate-on-Amazon-Prime-Day---Korea-Joong
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.722598+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 540 · K-beauty-brands-dominate-on-Amazon-Prime-Day---Korea-JoongAng-Daily

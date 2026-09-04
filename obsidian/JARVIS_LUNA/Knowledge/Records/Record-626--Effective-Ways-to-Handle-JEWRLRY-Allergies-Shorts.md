@@ -3,7 +3,7 @@ title: "Record 626 · Effective-Ways-to-Handle-JEWRLRY-Allergies-Shorts"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.145002+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 626 · Effective-Ways-to-Handle-JEWRLRY-Allergies-Shorts

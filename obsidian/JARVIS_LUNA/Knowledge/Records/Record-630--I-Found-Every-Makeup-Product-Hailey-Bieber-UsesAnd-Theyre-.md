@@ -3,7 +3,7 @@ title: "Record 630 · I-Found-Every-Makeup-Product-Hailey-Bieber-UsesAnd-Theyre-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.309742+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 630 · I-Found-Every-Makeup-Product-Hailey-Bieber-UsesAnd-Theyre-All-Under-10

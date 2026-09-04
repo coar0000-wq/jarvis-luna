@@ -3,7 +3,7 @@ title: "Record 503 · Shopify-is-preparing-for-AI-shopping-agents-to-change-ever
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.389682+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 503 · Shopify-is-preparing-for-AI-shopping-agents-to-change-everything-exec-

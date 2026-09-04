@@ -3,7 +3,7 @@ title: "Record 111 · K-Beauty-Products-Market-Size-Share--CAGR-of-96---Marketus
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.866400+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 111 · K-Beauty-Products-Market-Size-Share--CAGR-of-96---Marketus

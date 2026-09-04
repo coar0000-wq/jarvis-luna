@@ -3,7 +3,7 @@ title: "Record 145 · These-K-Beauty-Picks-for-Oily-Skin-Give-You-Glass-Glow-Not
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.605891+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 145 · These-K-Beauty-Picks-for-Oily-Skin-Give-You-Glass-Glow-Not-Grease---Al

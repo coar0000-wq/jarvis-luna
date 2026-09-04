@@ -3,7 +3,7 @@ title: "Record 322 · Meet-the-K-beauty-products-that-beauty-lovers-consistently
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.131985+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 322 · Meet-the-K-beauty-products-that-beauty-lovers-consistently-rank-as-the

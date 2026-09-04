@@ -3,7 +3,7 @@ title: "Record 460 · This-Makeup-Trend-Is-Convincing-Beauty-Fans-to-Believe-in-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.695973+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 460 · This-Makeup-Trend-Is-Convincing-Beauty-Fans-to-Believe-in-Astrology---

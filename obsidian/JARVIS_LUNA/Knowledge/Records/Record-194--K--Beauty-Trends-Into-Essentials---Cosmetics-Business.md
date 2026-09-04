@@ -3,7 +3,7 @@ title: "Record 194 · K--Beauty-Trends-Into-Essentials---Cosmetics-Business"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.613522+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 194 · K--Beauty-Trends-Into-Essentials---Cosmetics-Business

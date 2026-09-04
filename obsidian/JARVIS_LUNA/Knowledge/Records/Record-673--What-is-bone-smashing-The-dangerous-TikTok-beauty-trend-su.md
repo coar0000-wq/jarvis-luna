@@ -3,7 +3,7 @@ title: "Record 673 · What-is-bone-smashing-The-dangerous-TikTok-beauty-trend-su
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.531818+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 673 · What-is-bone-smashing-The-dangerous-TikTok-beauty-trend-surgeons-are-w

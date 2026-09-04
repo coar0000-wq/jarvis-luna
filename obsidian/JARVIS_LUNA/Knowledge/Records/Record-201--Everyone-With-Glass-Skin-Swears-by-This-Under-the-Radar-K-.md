@@ -3,7 +3,7 @@ title: "Record 201 · Everyone-With-Glass-Skin-Swears-by-This-Under-the-Radar-K-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.361917+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 201 · Everyone-With-Glass-Skin-Swears-by-This-Under-the-Radar-K-Beauty-Brand

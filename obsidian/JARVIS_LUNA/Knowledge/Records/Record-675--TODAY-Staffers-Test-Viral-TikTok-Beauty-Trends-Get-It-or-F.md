@@ -3,7 +3,7 @@ title: "Record 675 · TODAY-Staffers-Test-Viral-TikTok-Beauty-Trends-Get-It-or-F
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.919408+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 675 · TODAY-Staffers-Test-Viral-TikTok-Beauty-Trends-Get-It-or-Forget-It---T

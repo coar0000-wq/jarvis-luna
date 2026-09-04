@@ -3,7 +3,7 @@ title: "Record 574 · Is-Clean-Girl-Makeup-Over-Beautys-Biggest-Trend-May-Be-Shi
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.884025+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 574 · Is-Clean-Girl-Makeup-Over-Beautys-Biggest-Trend-May-Be-Shifting---ELLE

@@ -3,7 +3,7 @@ title: "Record 705 · Daisy-Edgar-Jones-Skincare-Routine-Is-WILD"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.962848+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 705 · Daisy-Edgar-Jones-Skincare-Routine-Is-WILD

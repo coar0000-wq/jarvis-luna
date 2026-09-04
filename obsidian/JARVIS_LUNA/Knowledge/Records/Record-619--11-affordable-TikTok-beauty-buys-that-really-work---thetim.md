@@ -3,7 +3,7 @@ title: "Record 619 · 11-affordable-TikTok-beauty-buys-that-really-work---thetim
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.147637+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 619 · 11-affordable-TikTok-beauty-buys-that-really-work---thetimescom

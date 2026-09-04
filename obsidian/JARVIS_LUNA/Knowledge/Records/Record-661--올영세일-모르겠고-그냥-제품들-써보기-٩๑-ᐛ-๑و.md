@@ -3,7 +3,7 @@ title: "Record 661 · 올영세일-모르겠고-그냥-제품들-써보기-٩๑
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.699650+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 661 · 올영세일-모르겠고-그냥-제품들-써보기-٩๑-ᐛ-๑و

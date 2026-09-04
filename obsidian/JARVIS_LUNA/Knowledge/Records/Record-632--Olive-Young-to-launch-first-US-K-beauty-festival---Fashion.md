@@ -3,7 +3,7 @@ title: "Record 632 · Olive-Young-to-launch-first-US-K-beauty-festival---Fashion
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.149572+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 632 · Olive-Young-to-launch-first-US-K-beauty-festival---FashionNetwork---Th

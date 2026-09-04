@@ -3,7 +3,7 @@ title: "Record 655 · 이중세안-할까-말까"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.149370+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 655 · 이중세안-할까-말까

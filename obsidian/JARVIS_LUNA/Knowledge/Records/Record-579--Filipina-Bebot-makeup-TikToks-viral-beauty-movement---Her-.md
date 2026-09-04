@@ -3,7 +3,7 @@ title: "Record 579 · Filipina-Bebot-makeup-TikToks-viral-beauty-movement---Her-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.306570+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 579 · Filipina-Bebot-makeup-TikToks-viral-beauty-movement---Her-World-Singap

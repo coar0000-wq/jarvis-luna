@@ -3,7 +3,7 @@ title: "Record 472 · The-Clock-Is-Ticking-on-These-K-Beauty-Prime-Day-Deals---A
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.330011+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 472 · The-Clock-Is-Ticking-on-These-K-Beauty-Prime-Day-Deals---Allure

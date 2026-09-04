@@ -3,7 +3,7 @@ title: "Record 101 · Customer-Service-Statistics-33-Key-Stats-for-2026---Shopif
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.002562+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 101 · Customer-Service-Statistics-33-Key-Stats-for-2026---Shopify

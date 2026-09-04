@@ -3,7 +3,7 @@ title: "Record 1049 · Provably-adaptive-sampling-with-uniform-and-remasking-dis
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.983429+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1049 · Provably-adaptive-sampling-with-uniform-and-remasking-discrete-diffusi

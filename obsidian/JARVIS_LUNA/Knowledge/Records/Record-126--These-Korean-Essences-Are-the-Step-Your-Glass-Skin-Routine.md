@@ -3,7 +3,7 @@ title: "Record 126 · These-Korean-Essences-Are-the-Step-Your-Glass-Skin-Routine
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.560184+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 126 · These-Korean-Essences-Are-the-Step-Your-Glass-Skin-Routine-Is-Missing-

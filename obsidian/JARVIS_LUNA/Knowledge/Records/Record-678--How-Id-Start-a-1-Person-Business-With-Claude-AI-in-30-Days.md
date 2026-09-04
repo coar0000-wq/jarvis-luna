@@ -3,7 +3,7 @@ title: "Record 678 · How-Id-Start-a-1-Person-Business-With-Claude-AI-in-30-Days
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.152922+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 678 · How-Id-Start-a-1-Person-Business-With-Claude-AI-in-30-Days

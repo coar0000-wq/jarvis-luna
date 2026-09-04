@@ -3,7 +3,7 @@ title: "Record 572 · Amazon-Skincare-Best-Sellers"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.136299+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 572 · Amazon-Skincare-Best-Sellers

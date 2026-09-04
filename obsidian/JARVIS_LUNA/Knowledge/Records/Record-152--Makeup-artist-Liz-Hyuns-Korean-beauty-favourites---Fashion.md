@@ -3,7 +3,7 @@ title: "Record 152 · Makeup-artist-Liz-Hyuns-Korean-beauty-favourites---Fashion
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.562157+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 152 · Makeup-artist-Liz-Hyuns-Korean-beauty-favourites---Fashion-Journal

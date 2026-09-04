@@ -3,7 +3,7 @@ title: "Record 698 · I-Studied-AI-Digital-Products-for-1000-Hours-Only-These-Ma
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.288162+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 698 · I-Studied-AI-Digital-Products-for-1000-Hours-Only-These-Make-100KMonth

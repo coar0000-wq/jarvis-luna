@@ -3,7 +3,7 @@ title: "Record 677 · TCP_α-Margin-Controlled-Confidence-estimation-for-reliabl
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.756267+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 677 · TCP_α-Margin-Controlled-Confidence-estimation-for-reliable-Music-Infor

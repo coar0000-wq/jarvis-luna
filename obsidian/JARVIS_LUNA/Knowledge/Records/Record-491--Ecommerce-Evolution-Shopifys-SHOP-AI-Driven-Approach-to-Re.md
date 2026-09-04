@@ -3,7 +3,7 @@ title: "Record 491 · Ecommerce-Evolution-Shopifys-SHOP-AI-Driven-Approach-to-Re
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.940827+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 491 · Ecommerce-Evolution-Shopifys-SHOP-AI-Driven-Approach-to-Retail-Success

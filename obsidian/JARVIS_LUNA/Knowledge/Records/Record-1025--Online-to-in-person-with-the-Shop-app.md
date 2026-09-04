@@ -3,7 +3,7 @@ title: "Record 1025 · Online-to-in-person-with-the-Shop-app"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.980387+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1025 · Online-to-in-person-with-the-Shop-app

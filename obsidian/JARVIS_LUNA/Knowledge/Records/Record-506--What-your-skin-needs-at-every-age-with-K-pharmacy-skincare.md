@@ -3,7 +3,7 @@ title: "Record 506 · What-your-skin-needs-at-every-age-with-K-pharmacy-skincare
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.389933+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 506 · What-your-skin-needs-at-every-age-with-K-pharmacy-skincare-brand-DrRej

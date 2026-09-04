@@ -3,7 +3,7 @@ title: "Record 133 · Agentic-Commerce-on-Shopify-How-It-Works-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.356729+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 133 · Agentic-Commerce-on-Shopify-How-It-Works-2026---Shopify

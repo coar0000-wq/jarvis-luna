@@ -3,7 +3,7 @@ title: "Record 631 · What-Is-Conservative-Girl-Makeup-Explaining-the-TikTok-Tre
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.129673+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 631 · What-Is-Conservative-Girl-Makeup-Explaining-the-TikTok-Trend-on-Republ

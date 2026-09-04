@@ -3,7 +3,7 @@ title: "Record 1104 · RedEvoAgent-Automatic-Red-Teaming-Agent-with-Experience-D
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.206706+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1104 · RedEvoAgent-Automatic-Red-Teaming-Agent-with-Experience-Driven-Skill-E

@@ -3,7 +3,7 @@ title: "Record 664 · makeup-trends---The-TikTok-beauty-dictionary-you-didnt-kno
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.733102+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 664 · makeup-trends---The-TikTok-beauty-dictionary-you-didnt-know-you-needed

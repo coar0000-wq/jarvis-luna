@@ -3,7 +3,7 @@ title: "Record 669 · The-Korean-Beauty-Deals-Amazon-Shoppers-Are-Racing-to-Grab
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.900891+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 669 · The-Korean-Beauty-Deals-Amazon-Shoppers-Are-Racing-to-Grab-Tonight---E

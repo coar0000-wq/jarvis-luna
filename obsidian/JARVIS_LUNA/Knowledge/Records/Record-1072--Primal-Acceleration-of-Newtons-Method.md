@@ -3,7 +3,7 @@ title: "Record 1072 · Primal-Acceleration-of-Newtons-Method"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.945135+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1072 · Primal-Acceleration-of-Newtons-Method

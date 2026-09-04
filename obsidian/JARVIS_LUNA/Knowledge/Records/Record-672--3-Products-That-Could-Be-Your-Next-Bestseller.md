@@ -3,7 +3,7 @@ title: "Record 672 · 3-Products-That-Could-Be-Your-Next-Bestseller"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.959525+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 672 · 3-Products-That-Could-Be-Your-Next-Bestseller

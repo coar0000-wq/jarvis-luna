@@ -3,7 +3,7 @@ title: "Record 159 · The-3-Beauty-Trends-That-Dominated-TikTok-In-2024---Britis
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.810892+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 159 · The-3-Beauty-Trends-That-Dominated-TikTok-In-2024---British-Vogue

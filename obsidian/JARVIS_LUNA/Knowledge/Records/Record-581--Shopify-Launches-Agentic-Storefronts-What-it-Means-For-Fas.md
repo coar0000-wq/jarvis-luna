@@ -3,7 +3,7 @@ title: "Record 581 · Shopify-Launches-Agentic-Storefronts-What-it-Means-For-Fas
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.885312+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 581 · Shopify-Launches-Agentic-Storefronts-What-it-Means-For-Fashion---Vogue

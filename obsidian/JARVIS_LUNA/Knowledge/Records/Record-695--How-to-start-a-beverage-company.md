@@ -3,7 +3,7 @@ title: "Record 695 · How-to-start-a-beverage-company"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.098431+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 695 · How-to-start-a-beverage-company

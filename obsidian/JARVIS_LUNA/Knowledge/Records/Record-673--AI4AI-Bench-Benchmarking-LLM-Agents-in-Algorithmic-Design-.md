@@ -3,7 +3,7 @@ title: "Record 673 · AI4AI-Bench-Benchmarking-LLM-Agents-in-Algorithmic-Design-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.755540+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 673 · AI4AI-Bench-Benchmarking-LLM-Agents-in-Algorithmic-Design-for-Recursiv

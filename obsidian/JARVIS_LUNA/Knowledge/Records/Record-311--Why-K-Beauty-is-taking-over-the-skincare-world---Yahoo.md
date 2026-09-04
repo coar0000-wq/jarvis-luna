@@ -3,7 +3,7 @@ title: "Record 311 · Why-K-Beauty-is-taking-over-the-skincare-world---Yahoo"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.922405+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 311 · Why-K-Beauty-is-taking-over-the-skincare-world---Yahoo

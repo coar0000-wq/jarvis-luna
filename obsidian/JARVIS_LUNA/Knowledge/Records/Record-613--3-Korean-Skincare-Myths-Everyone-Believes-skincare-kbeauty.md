@@ -3,7 +3,7 @@ title: "Record 613 · 3-Korean-Skincare-Myths-Everyone-Believes-skincare-kbeauty
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.953488+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 613 · 3-Korean-Skincare-Myths-Everyone-Believes-skincare-kbeauty

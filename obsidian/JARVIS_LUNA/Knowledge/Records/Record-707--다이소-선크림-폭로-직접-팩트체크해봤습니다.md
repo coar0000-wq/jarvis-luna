@@ -3,7 +3,7 @@ title: "Record 707 · 다이소-선크림-폭로-직접-팩트체크해봤습니
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.408254+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 707 · 다이소-선크림-폭로-직접-팩트체크해봤습니다

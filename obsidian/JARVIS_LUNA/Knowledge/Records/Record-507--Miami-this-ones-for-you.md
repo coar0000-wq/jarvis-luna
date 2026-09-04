@@ -3,7 +3,7 @@ title: "Record 507 · Miami-this-ones-for-you"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.069350+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 507 · Miami-this-ones-for-you

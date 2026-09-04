@@ -3,7 +3,7 @@ title: "Record 322 · Why-the-Keep-Your-Lower-Bleph-Trend-Is-a-Quiet-Rebellion-A
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.256465+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 322 · Why-the-Keep-Your-Lower-Bleph-Trend-Is-a-Quiet-Rebellion-Against-Perfe

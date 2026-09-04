@@ -3,7 +3,7 @@ title: "Record 213 · PSA-These-K-Beauty-Products-Are-Perfect-for-Dry-Skin---all
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.080861+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 213 · PSA-These-K-Beauty-Products-Are-Perfect-for-Dry-Skin---allurecom

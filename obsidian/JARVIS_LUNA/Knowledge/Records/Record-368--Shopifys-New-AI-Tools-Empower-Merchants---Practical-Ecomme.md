@@ -3,7 +3,7 @@ title: "Record 368 · Shopifys-New-AI-Tools-Empower-Merchants---Practical-Ecomme
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.847811+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 368 · Shopifys-New-AI-Tools-Empower-Merchants---Practical-Ecommerce

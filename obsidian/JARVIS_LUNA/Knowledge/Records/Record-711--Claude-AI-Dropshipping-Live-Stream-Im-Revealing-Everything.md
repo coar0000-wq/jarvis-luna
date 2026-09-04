@@ -3,7 +3,7 @@ title: "Record 711 · Claude-AI-Dropshipping-Live-Stream-Im-Revealing-Everything
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.289216+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 711 · Claude-AI-Dropshipping-Live-Stream-Im-Revealing-Everything

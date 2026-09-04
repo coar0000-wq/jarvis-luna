@@ -3,7 +3,7 @@ title: "Record 1009 · Truthful-Calibration-Measures-for-Sequential-Prediction"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.631795+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1009 · Truthful-Calibration-Measures-for-Sequential-Prediction

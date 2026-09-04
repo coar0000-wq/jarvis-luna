@@ -3,7 +3,7 @@ title: "Record 625 · Haitian-American-model-teams-up-with-Korean-beauty-entrepr
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.943486+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 625 · Haitian-American-model-teams-up-with-Korean-beauty-entrepreneur-on-ski

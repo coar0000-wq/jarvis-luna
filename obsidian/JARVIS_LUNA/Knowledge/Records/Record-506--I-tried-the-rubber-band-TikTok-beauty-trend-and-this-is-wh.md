@@ -3,7 +3,7 @@ title: "Record 506 · I-tried-the-rubber-band-TikTok-beauty-trend-and-this-is-wh
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.919030+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 506 · I-tried-the-rubber-band-TikTok-beauty-trend-and-this-is-what-I-found--

@@ -3,7 +3,7 @@ title: "Record 184 · New-Shopify-and-Google-Cloud-AI-Integration-Brings-Advance
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.876238+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 184 · New-Shopify-and-Google-Cloud-AI-Integration-Brings-Advanced-Ecommerce-

@@ -3,7 +3,7 @@ title: "Record 1065 · Asymmetric-Capacity-Allocation-in-Self-Refinement-Pipelin
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.338560+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1065 · Asymmetric-Capacity-Allocation-in-Self-Refinement-Pipelines

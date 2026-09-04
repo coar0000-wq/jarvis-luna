@@ -3,7 +3,7 @@ title: "Record 409 · Shopify-shares-surge-on-strong-second-quarter-profit-as-AI
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.932472+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 409 · Shopify-shares-surge-on-strong-second-quarter-profit-as-AI-helps-drive

@@ -3,7 +3,7 @@ title: "Record 656 · K-beautys-Top-Antiaging-Brand-Is-Landing-Stateside---WWD"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.363552+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 656 · K-beautys-Top-Antiaging-Brand-Is-Landing-Stateside---WWD

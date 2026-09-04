@@ -3,7 +3,7 @@ title: "Record 154 · 24-Korean-Skin-Care-Products-That-Will-Completely-Transfor
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.810017+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 154 · 24-Korean-Skin-Care-Products-That-Will-Completely-Transform-Your-Routi

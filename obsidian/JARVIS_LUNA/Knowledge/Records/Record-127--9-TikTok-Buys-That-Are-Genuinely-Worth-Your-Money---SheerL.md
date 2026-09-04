@@ -3,7 +3,7 @@ title: "Record 127 · 9-TikTok-Buys-That-Are-Genuinely-Worth-Your-Money---SheerL
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.868571+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 127 · 9-TikTok-Buys-That-Are-Genuinely-Worth-Your-Money---SheerLuxe

@@ -3,7 +3,7 @@ title: "Record 117 · The-Best-Korean-Beauty-Products-According-To-Editors--Expe
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.803491+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 117 · The-Best-Korean-Beauty-Products-According-To-Editors--Experts---covete

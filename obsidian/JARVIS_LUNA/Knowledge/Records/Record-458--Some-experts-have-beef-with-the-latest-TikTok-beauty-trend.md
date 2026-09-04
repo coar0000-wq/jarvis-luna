@@ -3,7 +3,7 @@ title: "Record 458 · Some-experts-have-beef-with-the-latest-TikTok-beauty-trend
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.512070+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 458 · Some-experts-have-beef-with-the-latest-TikTok-beauty-trend-tallow---sa

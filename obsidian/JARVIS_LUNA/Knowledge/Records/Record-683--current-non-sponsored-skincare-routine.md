@@ -3,7 +3,7 @@ title: "Record 683 · current-non-sponsored-skincare-routine"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.071848+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 683 · current-non-sponsored-skincare-routine

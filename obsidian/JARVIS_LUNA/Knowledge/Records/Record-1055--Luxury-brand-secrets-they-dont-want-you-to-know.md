@@ -3,7 +3,7 @@ title: "Record 1055 · Luxury-brand-secrets-they-dont-want-you-to-know"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.197590+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1055 · Luxury-brand-secrets-they-dont-want-you-to-know

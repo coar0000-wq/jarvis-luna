@@ -3,7 +3,7 @@ title: "Record 329 · 8-Tips-to-Prepare-Your-Product-Data-for-AI-Channels-2026--
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.575172+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 329 · 8-Tips-to-Prepare-Your-Product-Data-for-AI-Channels-2026---Shopify

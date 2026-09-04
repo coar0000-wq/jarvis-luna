@@ -3,7 +3,7 @@ title: "Record 639 · K-Beauty-Device-Brand-THOME-Launches-at-Sephora-Across-580
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.130940+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 639 · K-Beauty-Device-Brand-THOME-Launches-at-Sephora-Across-580-US-Stores--

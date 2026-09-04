@@ -3,7 +3,7 @@ title: "Record 709 · News--Retailer-Olive-Youngs-expansion-mirrors-K-beauty-dem
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.921557+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 709 · News--Retailer-Olive-Youngs-expansion-mirrors-K-beauty-demand-in-US---

@@ -3,7 +3,7 @@ title: "Record 653 · You-dont-need-to-use-an-expensive-Vitamin-C-Serum-heres-wh
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.698269+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 653 · You-dont-need-to-use-an-expensive-Vitamin-C-Serum-heres-why

@@ -3,7 +3,7 @@ title: "Record 1070 · ConvergeFlow-Language-Flow-with-Provable-Convergence-to-T
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.200321+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1070 · ConvergeFlow-Language-Flow-with-Provable-Convergence-to-Token-Embeddin

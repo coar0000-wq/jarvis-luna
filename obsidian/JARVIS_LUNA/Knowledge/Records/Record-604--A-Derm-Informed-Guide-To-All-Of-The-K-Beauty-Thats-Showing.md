@@ -3,7 +3,7 @@ title: "Record 604 · A-Derm-Informed-Guide-To-All-Of-The-K-Beauty-Thats-Showing
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.911250+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 604 · A-Derm-Informed-Guide-To-All-Of-The-K-Beauty-Thats-Showing-Up-In-Your-

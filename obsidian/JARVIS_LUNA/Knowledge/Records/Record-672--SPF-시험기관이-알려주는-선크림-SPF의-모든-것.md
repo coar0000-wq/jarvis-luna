@@ -3,7 +3,7 @@ title: "Record 672 · SPF-시험기관이-알려주는-선크림-SPF의-모든-�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.070232+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 672 · SPF-시험기관이-알려주는-선크림-SPF의-모든-것

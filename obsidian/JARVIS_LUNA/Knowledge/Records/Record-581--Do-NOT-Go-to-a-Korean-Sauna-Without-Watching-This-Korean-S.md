@@ -3,7 +3,7 @@ title: "Record 581 · Do-NOT-Go-to-a-Korean-Sauna-Without-Watching-This-Korean-S
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.080575+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 581 · Do-NOT-Go-to-a-Korean-Sauna-Without-Watching-This-Korean-Sauna-Jimjilb

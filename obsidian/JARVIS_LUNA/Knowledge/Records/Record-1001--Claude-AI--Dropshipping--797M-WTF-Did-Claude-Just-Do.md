@@ -3,7 +3,7 @@ title: "Record 1001 · Claude-AI--Dropshipping--797M-WTF-Did-Claude-Just-Do"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.334263+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1001 · Claude-AI--Dropshipping--797M-WTF-Did-Claude-Just-Do

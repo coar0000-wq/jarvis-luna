@@ -3,7 +3,7 @@ title: "Record 240 · Theres-A-Version-Of-Blythe-Doll-Makeup-For-Every-Skin-Hair
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.568577+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 240 · Theres-A-Version-Of-Blythe-Doll-Makeup-For-Every-Skin-Hair--Eye-Color-

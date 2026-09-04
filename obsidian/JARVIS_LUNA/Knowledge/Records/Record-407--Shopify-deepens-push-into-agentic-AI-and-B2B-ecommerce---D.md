@@ -3,7 +3,7 @@ title: "Record 407 · Shopify-deepens-push-into-agentic-AI-and-B2B-ecommerce---D
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.054044+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 407 · Shopify-deepens-push-into-agentic-AI-and-B2B-ecommerce---Digital-Comme

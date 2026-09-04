@@ -3,7 +3,7 @@ title: "Record 263 · TikTok-Wants-You-to-Look-Drunk-With-Blush---Hypebae"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.029711+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 263 · TikTok-Wants-You-to-Look-Drunk-With-Blush---Hypebae

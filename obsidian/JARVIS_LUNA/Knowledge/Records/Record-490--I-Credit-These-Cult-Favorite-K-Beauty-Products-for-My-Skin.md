@@ -3,7 +3,7 @@ title: "Record 490 · I-Credit-These-Cult-Favorite-K-Beauty-Products-for-My-Skin
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.300968+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 490 · I-Credit-These-Cult-Favorite-K-Beauty-Products-for-My-Skins-Glassy-Glo

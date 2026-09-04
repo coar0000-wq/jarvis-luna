@@ -3,7 +3,7 @@ title: "Record 527 · Curecode-Lets-New-Yorkers-See-Whats-Inside-Their-Beauty-Pr
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.944623+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 527 · Curecode-Lets-New-Yorkers-See-Whats-Inside-Their-Beauty-Products---EIN

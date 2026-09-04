@@ -3,7 +3,7 @@ title: "Record 300 · Is-Your-Skincare-Regimen-Missing-a-Diaper-Cream---Marie-Cl
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.014604+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 300 · Is-Your-Skincare-Regimen-Missing-a-Diaper-Cream---Marie-Claire

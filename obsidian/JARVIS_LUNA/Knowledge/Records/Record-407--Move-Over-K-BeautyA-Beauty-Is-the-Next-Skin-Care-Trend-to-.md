@@ -3,7 +3,7 @@ title: "Record 407 · Move-Over-K-BeautyA-Beauty-Is-the-Next-Skin-Care-Trend-to-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.295754+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 407 · Move-Over-K-BeautyA-Beauty-Is-the-Next-Skin-Care-Trend-to-Know---Real-

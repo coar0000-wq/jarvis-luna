@@ -3,7 +3,7 @@ title: "Record 547 · Wtf-is-Bimbo-Stoicism-Unpacking-the-internets-wildest-new-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.049680+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 547 · Wtf-is-Bimbo-Stoicism-Unpacking-the-internets-wildest-new-beauty-trend

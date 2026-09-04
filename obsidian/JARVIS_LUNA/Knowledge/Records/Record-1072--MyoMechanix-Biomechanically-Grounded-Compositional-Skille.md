@@ -3,7 +3,7 @@ title: "Record 1072 · MyoMechanix-Biomechanically-Grounded-Compositional-Skille
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.986516+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1072 · MyoMechanix-Biomechanically-Grounded-Compositional-Skilled-Activity-Un

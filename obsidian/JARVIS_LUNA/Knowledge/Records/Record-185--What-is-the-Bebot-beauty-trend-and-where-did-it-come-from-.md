@@ -3,7 +3,7 @@ title: "Record 185 · What-is-the-Bebot-beauty-trend-and-where-did-it-come-from-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.689470+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 185 · What-is-the-Bebot-beauty-trend-and-where-did-it-come-from---Philstar-L

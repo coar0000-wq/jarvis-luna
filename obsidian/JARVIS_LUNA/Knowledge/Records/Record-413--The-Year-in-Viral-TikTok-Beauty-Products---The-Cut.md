@@ -3,7 +3,7 @@ title: "Record 413 · The-Year-in-Viral-TikTok-Beauty-Products---The-Cut"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.581318+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 413 · The-Year-in-Viral-TikTok-Beauty-Products---The-Cut

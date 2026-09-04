@@ -3,7 +3,7 @@ title: "Record 586 · Last-Minute-K-Beauty-Memorial-Day-Sales-Medicube-Hero-Cosm
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.886200+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 586 · Last-Minute-K-Beauty-Memorial-Day-Sales-Medicube-Hero-Cosmetics-Beauty

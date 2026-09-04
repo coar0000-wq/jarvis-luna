@@ -3,7 +3,7 @@ title: "Record 701 · Pro-SEO-tips-for-product-pages"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.099309+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 701 · Pro-SEO-tips-for-product-pages

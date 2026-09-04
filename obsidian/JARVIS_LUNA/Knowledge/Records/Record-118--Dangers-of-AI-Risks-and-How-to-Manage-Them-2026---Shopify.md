@@ -3,7 +3,7 @@ title: "Record 118 · Dangers-of-AI-Risks-and-How-to-Manage-Them-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.046178+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 118 · Dangers-of-AI-Risks-and-How-to-Manage-Them-2026---Shopify

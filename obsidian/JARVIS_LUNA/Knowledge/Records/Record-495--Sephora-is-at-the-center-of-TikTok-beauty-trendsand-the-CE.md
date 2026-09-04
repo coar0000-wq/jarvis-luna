@@ -3,7 +3,7 @@ title: "Record 495 · Sephora-is-at-the-center-of-TikTok-beauty-trendsand-the-CE
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.886331+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 495 · Sephora-is-at-the-center-of-TikTok-beauty-trendsand-the-CEO-says-its-n

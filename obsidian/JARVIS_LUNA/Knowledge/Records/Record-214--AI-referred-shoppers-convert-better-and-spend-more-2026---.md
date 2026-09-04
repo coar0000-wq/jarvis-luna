@@ -3,7 +3,7 @@ title: "Record 214 · AI-referred-shoppers-convert-better-and-spend-more-2026---
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.880262+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 214 · AI-referred-shoppers-convert-better-and-spend-more-2026---Shopify

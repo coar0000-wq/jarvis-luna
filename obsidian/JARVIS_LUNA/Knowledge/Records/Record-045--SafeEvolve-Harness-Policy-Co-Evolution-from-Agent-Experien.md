@@ -3,7 +3,7 @@ title: "Record 045 · SafeEvolve-Harness-Policy-Co-Evolution-from-Agent-Experien
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.858312+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 045 · SafeEvolve-Harness-Policy-Co-Evolution-from-Agent-Experience-for-Safet

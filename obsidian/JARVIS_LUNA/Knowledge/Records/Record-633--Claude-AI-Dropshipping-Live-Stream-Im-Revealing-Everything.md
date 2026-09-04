@@ -3,7 +3,7 @@ title: "Record 633 · Claude-AI-Dropshipping-Live-Stream-Im-Revealing-Everything
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.088588+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 633 · Claude-AI-Dropshipping-Live-Stream-Im-Revealing-Everything

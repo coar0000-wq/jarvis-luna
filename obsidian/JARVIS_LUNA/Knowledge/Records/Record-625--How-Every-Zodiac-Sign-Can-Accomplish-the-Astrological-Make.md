@@ -3,7 +3,7 @@ title: "Record 625 · How-Every-Zodiac-Sign-Can-Accomplish-the-Astrological-Make
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.128583+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 625 · How-Every-Zodiac-Sign-Can-Accomplish-the-Astrological-Makeup-Trend-Tak

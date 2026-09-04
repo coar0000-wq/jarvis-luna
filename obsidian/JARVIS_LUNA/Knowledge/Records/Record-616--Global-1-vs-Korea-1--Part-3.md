@@ -3,7 +3,7 @@ title: "Record 616 · Global-1-vs-Korea-1--Part-3"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.691443+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 616 · Global-1-vs-Korea-1--Part-3

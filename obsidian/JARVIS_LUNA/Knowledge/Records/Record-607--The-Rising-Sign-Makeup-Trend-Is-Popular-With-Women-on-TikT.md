@@ -3,7 +3,7 @@ title: "Record 607 · The-Rising-Sign-Makeup-Trend-Is-Popular-With-Women-on-TikT
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.889920+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 607 · The-Rising-Sign-Makeup-Trend-Is-Popular-With-Women-on-TikTok---Twisted

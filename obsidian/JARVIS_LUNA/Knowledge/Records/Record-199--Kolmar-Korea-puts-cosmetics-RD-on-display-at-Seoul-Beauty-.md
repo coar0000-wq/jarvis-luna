@@ -3,7 +3,7 @@ title: "Record 199 · Kolmar-Korea-puts-cosmetics-RD-on-display-at-Seoul-Beauty-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.614309+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 199 · Kolmar-Korea-puts-cosmetics-RD-on-display-at-Seoul-Beauty-Week---Korea

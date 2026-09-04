@@ -3,7 +3,7 @@ title: "Record 458 · Shopify-SHOP-Evolution-from-E-Commerce-Platform-to-AI-Oper
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.036218+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 458 · Shopify-SHOP-Evolution-from-E-Commerce-Platform-to-AI-Operating-System

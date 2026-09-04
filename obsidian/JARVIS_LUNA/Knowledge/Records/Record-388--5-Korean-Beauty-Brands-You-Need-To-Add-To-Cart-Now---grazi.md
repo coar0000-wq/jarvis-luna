@@ -3,7 +3,7 @@ title: "Record 388 · 5-Korean-Beauty-Brands-You-Need-To-Add-To-Cart-Now---grazi
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.879730+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 388 · 5-Korean-Beauty-Brands-You-Need-To-Add-To-Cart-Now---graziamagazinecom

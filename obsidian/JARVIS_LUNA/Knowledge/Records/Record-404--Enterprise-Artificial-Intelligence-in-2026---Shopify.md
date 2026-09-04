@@ -3,7 +3,7 @@ title: "Record 404 · Enterprise-Artificial-Intelligence-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.093128+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 404 · Enterprise-Artificial-Intelligence-in-2026---Shopify

@@ -3,7 +3,7 @@ title: "Record 412 · My-Entire-Skincare-Routine-of-Korean-Beauty-Products-Is-On
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.932773+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 412 · My-Entire-Skincare-Routine-of-Korean-Beauty-Products-Is-On-Sale-for-Pr

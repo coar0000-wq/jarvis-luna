@@ -3,7 +3,7 @@ title: "Record 510 · What-does-CJ-actually-check-before-your-order-ships"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.069823+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 510 · What-does-CJ-actually-check-before-your-order-ships

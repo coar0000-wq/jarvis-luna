@@ -3,7 +3,7 @@ title: "Record 228 · Why-the-K-Beauty-Approach-to-Treating-Fine-Lines--Wrinkles
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.245842+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 228 · Why-the-K-Beauty-Approach-to-Treating-Fine-Lines--Wrinkles-Is-So-Effec

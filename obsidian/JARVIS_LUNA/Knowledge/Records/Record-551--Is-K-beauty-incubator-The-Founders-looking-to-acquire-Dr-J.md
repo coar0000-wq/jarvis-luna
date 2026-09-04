@@ -3,7 +3,7 @@ title: "Record 551 · Is-K-beauty-incubator-The-Founders-looking-to-acquire-Dr-J
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.925054+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 551 · Is-K-beauty-incubator-The-Founders-looking-to-acquire-Dr-Jart-from-Est

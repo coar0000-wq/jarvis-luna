@@ -3,7 +3,7 @@ title: "Record 624 · K-Beautys-US-Boom-Moves-Beyond-Products-to-the-Korean-Skin
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.943302+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 624 · K-Beautys-US-Boom-Moves-Beyond-Products-to-the-Korean-Skin-Care-Routin

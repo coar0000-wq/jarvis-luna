@@ -3,7 +3,7 @@ title: "Record 311 · I-Tried-320-Of-Medicube-Korean-Skincare---Now-I-Get-The-Hy
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.078461+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 311 · I-Tried-320-Of-Medicube-Korean-Skincare---Now-I-Get-The-Hype---Refiner

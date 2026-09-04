@@ -3,7 +3,7 @@ title: "Record 1083 · SWE-Prime-Fewer-Trajectories-Better-Performance"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.987796+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1083 · SWE-Prime-Fewer-Trajectories-Better-Performance

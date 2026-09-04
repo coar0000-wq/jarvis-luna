@@ -3,7 +3,7 @@ title: "Record 407 · Shopify-The-Next-Era-Of-E-Commerce-NASDAQSHOP---Seeking-Al
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.580882+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 407 · Shopify-The-Next-Era-Of-E-Commerce-NASDAQSHOP---Seeking-Alpha

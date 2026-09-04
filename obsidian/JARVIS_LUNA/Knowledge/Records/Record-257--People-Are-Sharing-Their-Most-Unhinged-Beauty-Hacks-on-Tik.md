@@ -3,7 +3,7 @@ title: "Record 257 · People-Are-Sharing-Their-Most-Unhinged-Beauty-Hacks-on-Tik
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.494188+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 257 · People-Are-Sharing-Their-Most-Unhinged-Beauty-Hacks-on-TikTokHere-Are-

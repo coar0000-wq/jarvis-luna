@@ -3,7 +3,7 @@ title: "Record 589 · Every-Tretinoin-Hack-You-Need-To-Know"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.081791+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 589 · Every-Tretinoin-Hack-You-Need-To-Know

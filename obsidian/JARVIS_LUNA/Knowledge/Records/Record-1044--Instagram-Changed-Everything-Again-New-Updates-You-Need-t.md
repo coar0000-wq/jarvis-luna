@@ -3,7 +3,7 @@ title: "Record 1044 · Instagram-Changed-Everything-Again-New-Updates-You-Need-t
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.982723+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1044 · Instagram-Changed-Everything-Again-New-Updates-You-Need-to-Know-in-202

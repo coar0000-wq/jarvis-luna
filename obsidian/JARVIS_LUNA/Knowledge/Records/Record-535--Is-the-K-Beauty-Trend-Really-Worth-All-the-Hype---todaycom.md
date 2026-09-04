@@ -3,7 +3,7 @@ title: "Record 535 · Is-the-K-Beauty-Trend-Really-Worth-All-the-Hype---todaycom
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.590533+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 535 · Is-the-K-Beauty-Trend-Really-Worth-All-the-Hype---todaycom

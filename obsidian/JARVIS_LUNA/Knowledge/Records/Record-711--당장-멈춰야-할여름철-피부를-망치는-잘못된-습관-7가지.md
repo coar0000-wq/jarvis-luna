@@ -3,7 +3,7 @@ title: "Record 711 · 당장-멈춰야-할여름철-피부를-망치는-잘못�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.075752+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 711 · 당장-멈춰야-할여름철-피부를-망치는-잘못된-습관-7가지

@@ -3,7 +3,7 @@ title: "Record 647 · Shopify-acquires-the-team-from-Peel-Insights-an-AI-driven-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.600039+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 647 · Shopify-acquires-the-team-from-Peel-Insights-an-AI-driven-analytics-st

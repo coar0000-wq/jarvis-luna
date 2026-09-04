@@ -3,7 +3,7 @@ title: "Record 541 · Donated-Human-Skin-Treatments-Propel-K-Beauty-Stock-Rally-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.115048+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 541 · Donated-Human-Skin-Treatments-Propel-K-Beauty-Stock-Rally---Briefs-Fin

@@ -3,7 +3,7 @@ title: "Record 137 · How-To-Make-Money-With-AI-19-Ideas-2026---shopifycom"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.682872+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 137 · How-To-Make-Money-With-AI-19-Ideas-2026---shopifycom

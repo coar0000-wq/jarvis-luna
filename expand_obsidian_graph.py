@@ -79,7 +79,7 @@ def source_name(row: dict) -> str:
 def write_note(path: Path, title: str, tags: list[str], links: list[str], body: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     unique_links = list(dict.fromkeys(links))
-    frontmatter = "---\n" + f'title: "{title.replace(chr(34), chr(39))}"\n' + "type: knowledge-graph\n" + "status: generated-from-real-data\n" + f"updated_at: {datetime.now(timezone.utc).isoformat()}\n" + "tags: [{', '.join(tags)}]\n" + "---\n\n"
+    frontmatter = "---\n" + f'title: "{title.replace(chr(34), chr(39))}"\n' + "type: knowledge-graph\n" + "status: generated-from-real-data\n" + f"updated_at: {datetime.now(timezone.utc).isoformat()}\n" + f"tags: [{', '.join(tags)}]\n" + "---\n\n"
     link_block = "\n## Connected nodes\n\n" + " ".join(wiki(link) for link in unique_links) + "\n" if unique_links else ""
     path.write_text(frontmatter + f"# {title}\n\n" + body.strip() + "\n" + link_block, encoding="utf-8")
 

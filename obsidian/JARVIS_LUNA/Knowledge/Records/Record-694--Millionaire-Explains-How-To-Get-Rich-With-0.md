@@ -3,7 +3,7 @@ title: "Record 694 · Millionaire-Explains-How-To-Get-Rich-With-0"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.705734+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 694 · Millionaire-Explains-How-To-Get-Rich-With-0

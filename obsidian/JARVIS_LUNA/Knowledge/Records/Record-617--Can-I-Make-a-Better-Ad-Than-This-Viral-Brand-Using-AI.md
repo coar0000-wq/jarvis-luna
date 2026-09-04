@@ -3,7 +3,7 @@ title: "Record 617 · Can-I-Make-a-Better-Ad-Than-This-Viral-Brand-Using-AI"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.060144+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 617 · Can-I-Make-a-Better-Ad-Than-This-Viral-Brand-Using-AI

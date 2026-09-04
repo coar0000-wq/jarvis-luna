@@ -3,7 +3,7 @@ title: "Record 704 · Proven-Ways-To-Make-10KMonth-With-AI-No-BS-Guide"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.157524+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 704 · Proven-Ways-To-Make-10KMonth-With-AI-No-BS-Guide

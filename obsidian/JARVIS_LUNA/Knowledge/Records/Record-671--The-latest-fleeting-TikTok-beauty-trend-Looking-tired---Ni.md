@@ -3,7 +3,7 @@ title: "Record 671 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---Ni
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.733809+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 671 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---Ninecomau

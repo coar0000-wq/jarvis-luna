@@ -3,7 +3,7 @@ title: "Record 180 · K-beauty-sales-surpass-2B-mark---Drug-Store-News"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.281818+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 180 · K-beauty-sales-surpass-2B-mark---Drug-Store-News

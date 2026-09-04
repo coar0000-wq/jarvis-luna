@@ -3,7 +3,7 @@ title: "Record 614 · 개봉-후-6개월-지난-선크림-써도-될까"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.399763+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 614 · 개봉-후-6개월-지난-선크림-써도-될까

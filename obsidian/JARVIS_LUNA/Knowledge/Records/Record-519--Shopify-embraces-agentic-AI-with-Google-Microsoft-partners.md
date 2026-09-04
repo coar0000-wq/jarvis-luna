@@ -3,7 +3,7 @@ title: "Record 519 · Shopify-embraces-agentic-AI-with-Google-Microsoft-partners
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.128040+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 519 · Shopify-embraces-agentic-AI-with-Google-Microsoft-partnerships---The-G

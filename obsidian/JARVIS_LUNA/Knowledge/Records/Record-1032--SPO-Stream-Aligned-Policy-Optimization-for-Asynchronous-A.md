@@ -3,7 +3,7 @@ title: "Record 1032 · SPO-Stream-Aligned-Policy-Optimization-for-Asynchronous-A
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.634639+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1032 · SPO-Stream-Aligned-Policy-Optimization-for-Asynchronous-Agentic-RL

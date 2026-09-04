@@ -3,7 +3,7 @@ title: "Record 468 · Why-Is-the-Turning-Myself-Into-an-LA-10-Trend-Attracting-S
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.063408+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 468 · Why-Is-the-Turning-Myself-Into-an-LA-10-Trend-Attracting-So-Many-Hate-

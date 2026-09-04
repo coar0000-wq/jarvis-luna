@@ -3,7 +3,7 @@ title: "Record 270 · LA-10-Makeup-Trend-How-Beauty-Standards-Change-from-LA-to-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.010487+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 270 · LA-10-Makeup-Trend-How-Beauty-Standards-Change-from-LA-to-London---nss

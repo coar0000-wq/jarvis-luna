@@ -3,7 +3,7 @@ title: "Record 582 · Inside-BTS-Skincare-Routines-SUGAs-Go-To-18-Sunscreen--Mor
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.685177+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 582 · Inside-BTS-Skincare-Routines-SUGAs-Go-To-18-Sunscreen--More-K-Beauty-F

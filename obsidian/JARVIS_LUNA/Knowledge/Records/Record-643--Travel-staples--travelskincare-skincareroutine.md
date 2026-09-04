@@ -3,7 +3,7 @@ title: "Record 643 · Travel-staples--travelskincare-skincareroutine"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.402329+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 643 · Travel-staples--travelskincare-skincareroutine

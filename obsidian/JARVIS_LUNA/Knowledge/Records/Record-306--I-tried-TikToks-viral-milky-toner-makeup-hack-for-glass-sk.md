@@ -3,7 +3,7 @@ title: "Record 306 · I-tried-TikToks-viral-milky-toner-makeup-hack-for-glass-sk
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.255230+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 306 · I-tried-TikToks-viral-milky-toner-makeup-hack-for-glass-skin---does-it

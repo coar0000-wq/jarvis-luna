@@ -3,7 +3,7 @@ title: "Record 533 · The-Full-List-of-Beauty-Trends-on-The-TikTok-App---The-Vil
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.888665+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 533 · The-Full-List-of-Beauty-Trends-on-The-TikTok-App---The-Villanovan

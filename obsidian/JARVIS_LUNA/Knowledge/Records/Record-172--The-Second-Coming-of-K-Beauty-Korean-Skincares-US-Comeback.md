@@ -3,7 +3,7 @@ title: "Record 172 · The-Second-Coming-of-K-Beauty-Korean-Skincares-US-Comeback
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.610060+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 172 · The-Second-Coming-of-K-Beauty-Korean-Skincares-US-Comeback---Circana

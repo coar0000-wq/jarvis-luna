@@ -3,7 +3,7 @@ title: "Record 621 · Shopify-launches-an-AI-tool-ecommerce-platform-update---Di
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.892322+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 621 · Shopify-launches-an-AI-tool-ecommerce-platform-update---Digital-Commer

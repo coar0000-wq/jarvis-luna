@@ -3,7 +3,7 @@ title: "Record 516 · Amazon-Updates-Its-K-Beauty-Online-Storefront---Happi--Hou
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.887610+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 516 · Amazon-Updates-Its-K-Beauty-Online-Storefront---Happi--Household-And-P

@@ -3,7 +3,7 @@ title: "Record 091 · AI-Use-Cases-Real-World-Examples-Across-Industries-2025---
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.068380+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 091 · AI-Use-Cases-Real-World-Examples-Across-Industries-2025---Shopify

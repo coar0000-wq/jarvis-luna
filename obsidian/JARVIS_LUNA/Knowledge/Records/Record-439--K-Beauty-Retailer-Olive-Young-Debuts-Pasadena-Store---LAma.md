@@ -3,7 +3,7 @@ title: "Record 439 · K-Beauty-Retailer-Olive-Young-Debuts-Pasadena-Store---LAma
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.623209+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 439 · K-Beauty-Retailer-Olive-Young-Debuts-Pasadena-Store---LAmag

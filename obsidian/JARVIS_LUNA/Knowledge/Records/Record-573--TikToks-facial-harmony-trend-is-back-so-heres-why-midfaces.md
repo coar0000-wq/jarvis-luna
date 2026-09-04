@@ -3,7 +3,7 @@ title: "Record 573 · TikToks-facial-harmony-trend-is-back-so-heres-why-midfaces
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.167460+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 573 · TikToks-facial-harmony-trend-is-back-so-heres-why-midfaces-are-on-your

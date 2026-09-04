@@ -3,7 +3,7 @@ title: "Record 541 · Where-TikTok-Beauty-Meets-MAHA-Dorm-Water---The-Business-o
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.923696+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 541 · Where-TikTok-Beauty-Meets-MAHA-Dorm-Water---The-Business-of-Fashion

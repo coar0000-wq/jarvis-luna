@@ -3,7 +3,7 @@ title: "Record 712 · I-Ranked-18-Viral-Japanese-Beauty-Products-Brutally-Honest
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.289296+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 712 · I-Ranked-18-Viral-Japanese-Beauty-Products-Brutally-Honest

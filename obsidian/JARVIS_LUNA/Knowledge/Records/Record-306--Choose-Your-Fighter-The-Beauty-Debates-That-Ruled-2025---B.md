@@ -3,7 +3,7 @@ title: "Record 306 · Choose-Your-Fighter-The-Beauty-Debates-That-Ruled-2025---B
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.289446+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 306 · Choose-Your-Fighter-The-Beauty-Debates-That-Ruled-2025---Bustle

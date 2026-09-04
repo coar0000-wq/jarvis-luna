@@ -3,7 +3,7 @@ title: "Record 447 · Can-One-Person-Run-a-Billion-Dollar-Store---Practical-Ecom
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.298246+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 447 · Can-One-Person-Run-a-Billion-Dollar-Store---Practical-Ecommerce

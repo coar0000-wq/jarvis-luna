@@ -3,7 +3,7 @@ title: "Record 696 · 수영인의-올영-기획세트-추천-올영추천템-�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.534125+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 696 · 수영인의-올영-기획세트-추천-올영추천템-기획세트

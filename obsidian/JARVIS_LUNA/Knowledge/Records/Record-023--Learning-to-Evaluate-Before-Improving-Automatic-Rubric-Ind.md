@@ -3,7 +3,7 @@ title: "Record 023 · Learning-to-Evaluate-Before-Improving-Automatic-Rubric-Ind
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.856931+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 023 · Learning-to-Evaluate-Before-Improving-Automatic-Rubric-Induction-for-A

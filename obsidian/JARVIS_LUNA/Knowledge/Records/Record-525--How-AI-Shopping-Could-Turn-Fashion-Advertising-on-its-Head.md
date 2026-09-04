@@ -3,7 +3,7 @@ title: "Record 525 · How-AI-Shopping-Could-Turn-Fashion-Advertising-on-its-Head
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.589800+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 525 · How-AI-Shopping-Could-Turn-Fashion-Advertising-on-its-Head---Vogue

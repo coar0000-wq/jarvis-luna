@@ -3,7 +3,7 @@ title: "Record 673 · Millionaire-Explains-How-To-Get-Rich-With-0"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.152180+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 673 · Millionaire-Explains-How-To-Get-Rich-With-0

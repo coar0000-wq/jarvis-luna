@@ -3,7 +3,7 @@ title: "Record 055 · Shopify-Review-Build-an-Online-Store-With-Just-a-Few-Words
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:58.995352+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 055 · Shopify-Review-Build-an-Online-Store-With-Just-a-Few-Words---techco

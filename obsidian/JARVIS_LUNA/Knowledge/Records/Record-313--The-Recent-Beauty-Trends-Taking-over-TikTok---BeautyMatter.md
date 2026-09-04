@@ -3,7 +3,7 @@ title: "Record 313 · The-Recent-Beauty-Trends-Taking-over-TikTok---BeautyMatter
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.596697+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 313 · The-Recent-Beauty-Trends-Taking-over-TikTok---BeautyMatter

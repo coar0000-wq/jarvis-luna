@@ -3,7 +3,7 @@ title: "Record 1070 · What-FID-Hides-Detecting-Ranking-and-Diagnosing-Deviation
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.215756+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1070 · What-FID-Hides-Detecting-Ranking-and-Diagnosing-Deviations-in-Generati

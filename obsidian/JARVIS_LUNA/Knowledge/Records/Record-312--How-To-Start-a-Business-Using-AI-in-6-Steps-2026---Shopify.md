@@ -3,7 +3,7 @@ title: "Record 312 · How-To-Start-a-Business-Using-AI-in-6-Steps-2026---Shopify
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.289808+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 312 · How-To-Start-a-Business-Using-AI-in-6-Steps-2026---Shopify

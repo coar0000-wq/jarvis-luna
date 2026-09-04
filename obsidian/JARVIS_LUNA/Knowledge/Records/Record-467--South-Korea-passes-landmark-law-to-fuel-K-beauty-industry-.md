@@ -3,7 +3,7 @@ title: "Record 467 · South-Korea-passes-landmark-law-to-fuel-K-beauty-industry-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.913855+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 467 · South-Korea-passes-landmark-law-to-fuel-K-beauty-industry---Personal-C

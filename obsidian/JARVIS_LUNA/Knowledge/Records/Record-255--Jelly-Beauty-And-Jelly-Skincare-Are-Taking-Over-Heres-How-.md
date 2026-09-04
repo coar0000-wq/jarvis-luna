@@ -3,7 +3,7 @@ title: "Record 255 · Jelly-Beauty-And-Jelly-Skincare-Are-Taking-Over-Heres-How-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.871515+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 255 · Jelly-Beauty-And-Jelly-Skincare-Are-Taking-Over-Heres-How-To-Master-Th

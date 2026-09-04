@@ -3,7 +3,7 @@ title: "Record 1002 · Agentic-Autoresearch-for-Cell-Edge-Power-Control-Radicall
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:05.010731+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1002 · Agentic-Autoresearch-for-Cell-Edge-Power-Control-Radically-Redefining-

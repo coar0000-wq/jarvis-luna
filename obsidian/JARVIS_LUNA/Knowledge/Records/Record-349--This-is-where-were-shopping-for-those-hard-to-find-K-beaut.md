@@ -3,7 +3,7 @@ title: "Record 349 · This-is-where-were-shopping-for-those-hard-to-find-K-beaut
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.895012+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 349 · This-is-where-were-shopping-for-those-hard-to-find-K-beauty-buys---EVO

@@ -3,7 +3,7 @@ title: "Record 570 · Why-is-this-type-of-Korean-mask-used-at-Korean-Skincare-Cl
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.395864+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 570 · Why-is-this-type-of-Korean-mask-used-at-Korean-Skincare-Clinic-after-t

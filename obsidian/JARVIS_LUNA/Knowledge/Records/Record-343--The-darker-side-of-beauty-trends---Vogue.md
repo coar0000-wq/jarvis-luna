@@ -3,7 +3,7 @@ title: "Record 343 · The-darker-side-of-beauty-trends---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.576195+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 343 · The-darker-side-of-beauty-trends---Vogue

@@ -3,7 +3,7 @@ title: "Record 159 · The-4-Essential-K-Beauty-Makeup-Trends-in-2026-According-t
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.280660+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 159 · The-4-Essential-K-Beauty-Makeup-Trends-in-2026-According-to-Experts---

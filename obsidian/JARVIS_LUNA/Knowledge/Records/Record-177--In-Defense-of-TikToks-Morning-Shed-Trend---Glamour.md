@@ -3,7 +3,7 @@ title: "Record 177 · In-Defense-of-TikToks-Morning-Shed-Trend---Glamour"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.814036+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 177 · In-Defense-of-TikToks-Morning-Shed-Trend---Glamour

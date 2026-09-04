@@ -3,7 +3,7 @@ title: "Record 1011 · How-to-start-a-beverage-company"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.978925+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1011 · How-to-start-a-beverage-company

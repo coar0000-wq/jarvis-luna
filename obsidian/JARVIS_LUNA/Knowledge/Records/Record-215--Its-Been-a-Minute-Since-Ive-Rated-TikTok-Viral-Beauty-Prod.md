@@ -3,7 +3,7 @@ title: "Record 215 · Its-Been-a-Minute-Since-Ive-Rated-TikTok-Viral-Beauty-Prod
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.363193+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 215 · Its-Been-a-Minute-Since-Ive-Rated-TikTok-Viral-Beauty-Products10-That-

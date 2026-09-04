@@ -3,7 +3,7 @@ title: "Record 1011 · Meet-your-stores-new-AI-assistant"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.206188+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1011 · Meet-your-stores-new-AI-assistant

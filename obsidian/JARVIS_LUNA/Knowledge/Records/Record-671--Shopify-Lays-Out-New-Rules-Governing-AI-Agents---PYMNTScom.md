@@ -3,7 +3,7 @@ title: "Record 671 · Shopify-Lays-Out-New-Rules-Governing-AI-Agents---PYMNTScom
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.366179+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 671 · Shopify-Lays-Out-New-Rules-Governing-AI-Agents---PYMNTScom

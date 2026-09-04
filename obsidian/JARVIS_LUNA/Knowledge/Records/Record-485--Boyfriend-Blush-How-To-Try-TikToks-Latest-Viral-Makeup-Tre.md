@@ -3,7 +3,7 @@ title: "Record 485 · Boyfriend-Blush-How-To-Try-TikToks-Latest-Viral-Makeup-Tre
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.868223+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 485 · Boyfriend-Blush-How-To-Try-TikToks-Latest-Viral-Makeup-Trend---glamcom

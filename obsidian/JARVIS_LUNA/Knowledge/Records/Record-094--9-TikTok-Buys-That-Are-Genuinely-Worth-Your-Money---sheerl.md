@@ -3,7 +3,7 @@ title: "Record 094 · 9-TikTok-Buys-That-Are-Genuinely-Worth-Your-Money---sheerl
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.552935+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 094 · 9-TikTok-Buys-That-Are-Genuinely-Worth-Your-Money---sheerluxecom

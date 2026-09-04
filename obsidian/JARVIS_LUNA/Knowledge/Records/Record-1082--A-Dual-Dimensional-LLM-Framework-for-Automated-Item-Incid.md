@@ -3,7 +3,7 @@ title: "Record 1082 · A-Dual-Dimensional-LLM-Framework-for-Automated-Item-Incid
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.340101+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1082 · A-Dual-Dimensional-LLM-Framework-for-Automated-Item-Incidental-Content

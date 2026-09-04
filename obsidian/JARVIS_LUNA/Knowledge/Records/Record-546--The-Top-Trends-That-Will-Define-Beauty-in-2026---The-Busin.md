@@ -3,7 +3,7 @@ title: "Record 546 · The-Top-Trends-That-Will-Define-Beauty-in-2026---The-Busin
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.343949+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 546 · The-Top-Trends-That-Will-Define-Beauty-in-2026---The-Business-of-Fashi

@@ -3,7 +3,7 @@ title: "Record 556 · Do-you-know-what-really-affects-the-cost-and-quality-of-je
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.739741+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 556 · Do-you-know-what-really-affects-the-cost-and-quality-of-jewelry

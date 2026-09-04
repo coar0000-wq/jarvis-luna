@@ -3,7 +3,7 @@ title: "Record 636 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---Ho
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.936330+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 636 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---Houston-Style-

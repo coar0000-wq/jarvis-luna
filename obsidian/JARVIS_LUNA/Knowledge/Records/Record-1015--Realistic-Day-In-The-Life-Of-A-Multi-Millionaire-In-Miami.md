@@ -3,7 +3,7 @@ title: "Record 1015 · Realistic-Day-In-The-Life-Of-A-Multi-Millionaire-In-Miami
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.941108+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1015 · Realistic-Day-In-The-Life-Of-A-Multi-Millionaire-In-Miami

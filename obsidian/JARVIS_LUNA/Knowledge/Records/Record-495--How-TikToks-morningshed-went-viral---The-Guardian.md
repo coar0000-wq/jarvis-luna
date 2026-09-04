@@ -3,7 +3,7 @@ title: "Record 495 · How-TikToks-morningshed-went-viral---The-Guardian"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.388926+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 495 · How-TikToks-morningshed-went-viral---The-Guardian

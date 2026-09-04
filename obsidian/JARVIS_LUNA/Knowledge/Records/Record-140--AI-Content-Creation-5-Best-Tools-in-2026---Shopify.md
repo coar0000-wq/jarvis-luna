@@ -3,7 +3,7 @@ title: "Record 140 · AI-Content-Creation-5-Best-Tools-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.075794+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 140 · AI-Content-Creation-5-Best-Tools-in-2026---Shopify

@@ -3,7 +3,7 @@ title: "Record 081 · These-Are-the-8-Best-Beauty-Trends-of-2025---voguecom"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.675104+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 081 · These-Are-the-8-Best-Beauty-Trends-of-2025---voguecom

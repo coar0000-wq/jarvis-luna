@@ -3,7 +3,7 @@ title: "Record 268 · The-GEO-Playbook-How--Why-to-Optimize-for-AI-Discovery-202
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.251270+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 268 · The-GEO-Playbook-How--Why-to-Optimize-for-AI-Discovery-2026---Shopify

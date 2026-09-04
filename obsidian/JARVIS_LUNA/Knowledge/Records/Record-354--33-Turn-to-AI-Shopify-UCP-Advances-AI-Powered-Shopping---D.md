@@ -3,7 +3,7 @@ title: "Record 354 · 33-Turn-to-AI-Shopify-UCP-Advances-AI-Powered-Shopping---D
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.502923+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 354 · 33-Turn-to-AI-Shopify-UCP-Advances-AI-Powered-Shopping---DesignRush

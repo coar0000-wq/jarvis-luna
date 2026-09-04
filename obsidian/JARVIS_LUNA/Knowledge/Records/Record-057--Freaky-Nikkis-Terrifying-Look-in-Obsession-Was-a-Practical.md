@@ -3,7 +3,7 @@ title: "Record 057 · Freaky-Nikkis-Terrifying-Look-in-Obsession-Was-a-Practical
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.063276+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 057 · Freaky-Nikkis-Terrifying-Look-in-Obsession-Was-a-Practical-Effect-Insp

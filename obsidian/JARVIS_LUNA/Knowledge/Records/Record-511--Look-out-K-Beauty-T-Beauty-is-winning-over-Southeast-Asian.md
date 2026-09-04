@@ -3,7 +3,7 @@ title: "Record 511 · Look-out-K-Beauty-T-Beauty-is-winning-over-Southeast-Asian
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.158884+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 511 · Look-out-K-Beauty-T-Beauty-is-winning-over-Southeast-Asian-consumers-n

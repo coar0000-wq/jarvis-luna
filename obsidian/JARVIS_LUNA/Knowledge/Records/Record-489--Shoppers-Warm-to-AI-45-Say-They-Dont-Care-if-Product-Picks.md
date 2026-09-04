@@ -3,7 +3,7 @@ title: "Record 489 · Shoppers-Warm-to-AI-45-Say-They-Dont-Care-if-Product-Picks
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.333466+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 489 · Shoppers-Warm-to-AI-45-Say-They-Dont-Care-if-Product-Picks-Come-from-H

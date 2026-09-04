@@ -3,7 +3,7 @@ title: "Record 341 · These-are-the-best-K-beauty-products-to-get-that-glowy-gla
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.925565+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 341 · These-are-the-best-K-beauty-products-to-get-that-glowy-glass-skin-look

@@ -3,7 +3,7 @@ title: "Record 381 · TIME100-Most-Influential-Companies-2026-Shopify---Time-Mag
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.505292+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 381 · TIME100-Most-Influential-Companies-2026-Shopify---Time-Magazine

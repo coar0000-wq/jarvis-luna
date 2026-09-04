@@ -3,7 +3,7 @@ title: "Record 708 · Claude-AI--Digital-Products--39411-WTF-It-Actually-Worked"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.288964+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 708 · Claude-AI--Digital-Products--39411-WTF-It-Actually-Worked

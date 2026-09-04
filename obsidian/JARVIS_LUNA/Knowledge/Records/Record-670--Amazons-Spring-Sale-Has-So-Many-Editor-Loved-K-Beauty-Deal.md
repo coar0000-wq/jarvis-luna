@@ -3,7 +3,7 @@ title: "Record 670 · Amazons-Spring-Sale-Has-So-Many-Editor-Loved-K-Beauty-Deal
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.951363+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 670 · Amazons-Spring-Sale-Has-So-Many-Editor-Loved-K-Beauty-Deals---Harpers-

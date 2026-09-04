@@ -3,7 +3,7 @@ title: "Record 1062 · How-to-take-your-audience-from-Hi-to-Buy"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.944201+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1062 · How-to-take-your-audience-from-Hi-to-Buy

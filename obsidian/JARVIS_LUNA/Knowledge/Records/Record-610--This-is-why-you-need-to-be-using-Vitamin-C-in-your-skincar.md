@@ -3,7 +3,7 @@ title: "Record 610 · This-is-why-you-need-to-be-using-Vitamin-C-in-your-skincar
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.657397+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 610 · This-is-why-you-need-to-be-using-Vitamin-C-in-your-skincare-routine

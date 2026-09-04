@@ -3,7 +3,7 @@ title: "Record 707 · Why-Korean-Beauty-Products-Are-Appearing-in-More-Mainstrea
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.314765+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 707 · Why-Korean-Beauty-Products-Are-Appearing-in-More-Mainstream-US-Stores-

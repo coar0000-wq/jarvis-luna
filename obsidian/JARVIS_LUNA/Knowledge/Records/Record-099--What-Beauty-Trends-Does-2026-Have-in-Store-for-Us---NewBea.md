@@ -3,7 +3,7 @@ title: "Record 099 · What-Beauty-Trends-Does-2026-Have-in-Store-for-Us---NewBea
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.002269+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 099 · What-Beauty-Trends-Does-2026-Have-in-Store-for-Us---NewBeauty

@@ -3,7 +3,7 @@ title: "Record 070 · Using-AI-in-Ecommerce-How-Its-Transforming-Online-Shopping
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:58.997701+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 070 · Using-AI-in-Ecommerce-How-Its-Transforming-Online-Shopping---Triple-Wh

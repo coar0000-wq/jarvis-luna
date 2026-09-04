@@ -3,7 +3,7 @@ title: "Record 651 · 24-Hours-In-Miami-With-TJR-Christmas-Edition"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.091361+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 651 · 24-Hours-In-Miami-With-TJR-Christmas-Edition

@@ -3,7 +3,7 @@ title: "Record 393 · These-9-K-beauty-products-reveal-why-Korean-skin-care-is-a
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.880076+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 393 · These-9-K-beauty-products-reveal-why-Korean-skin-care-is-all-anyone-ca

@@ -3,7 +3,7 @@ title: "Record 487 · Inside-BoF-and-Shopifys-Knowledge-Breakfast-on-the-Future-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.066270+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 487 · Inside-BoF-and-Shopifys-Knowledge-Breakfast-on-the-Future-of-AI-Commer

@@ -3,7 +3,7 @@ title: "Record 1057 · This-is-life-on-Shopify"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.337877+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1057 · This-is-life-on-Shopify

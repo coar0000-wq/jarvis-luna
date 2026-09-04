@@ -3,7 +3,7 @@ title: "Record 631 · ISTP-특징--대충-사는데-뭔가-잘-풀림-istp-istp�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.694168+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 631 · ISTP-특징--대충-사는데-뭔가-잘-풀림-istp-istp특징

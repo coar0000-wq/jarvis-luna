@@ -3,7 +3,7 @@ title: "Record 071 · AI-Chatbot-for-Shopify-Tools-Compared-2026---Shopify-New-Z
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.059180+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 071 · AI-Chatbot-for-Shopify-Tools-Compared-2026---Shopify-New-Zealand---Sho

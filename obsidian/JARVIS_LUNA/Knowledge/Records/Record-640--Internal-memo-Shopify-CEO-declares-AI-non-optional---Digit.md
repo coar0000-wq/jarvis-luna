@@ -3,7 +3,7 @@ title: "Record 640 · Internal-memo-Shopify-CEO-declares-AI-non-optional---Digit
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.936871+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 640 · Internal-memo-Shopify-CEO-declares-AI-non-optional---Digital-Commerce-

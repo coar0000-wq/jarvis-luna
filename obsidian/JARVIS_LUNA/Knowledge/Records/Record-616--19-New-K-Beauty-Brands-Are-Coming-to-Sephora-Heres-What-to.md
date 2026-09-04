@@ -3,7 +3,7 @@ title: "Record 616 · 19-New-K-Beauty-Brands-Are-Coming-to-Sephora-Heres-What-to
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.913316+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 616 · 19-New-K-Beauty-Brands-Are-Coming-to-Sephora-Heres-What-to-Buy---Yahoo

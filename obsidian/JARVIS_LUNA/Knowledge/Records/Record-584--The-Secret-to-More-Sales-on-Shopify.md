@@ -3,7 +3,7 @@ title: "Record 584 · The-Secret-to-More-Sales-on-Shopify"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.653058+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 584 · The-Secret-to-More-Sales-on-Shopify

@@ -3,7 +3,7 @@ title: "Record 209 · Im-acne-prone-and-cant-achieve-glass-skin-but-this-new-K-b
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.692739+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 209 · Im-acne-prone-and-cant-achieve-glass-skin-but-this-new-K-beauty-trend-

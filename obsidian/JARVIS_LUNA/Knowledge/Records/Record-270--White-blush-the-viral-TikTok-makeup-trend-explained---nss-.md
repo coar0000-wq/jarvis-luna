@@ -3,7 +3,7 @@ title: "Record 270 · White-blush-the-viral-TikTok-makeup-trend-explained---nss-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.701160+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 270 · White-blush-the-viral-TikTok-makeup-trend-explained---nss-G-Club

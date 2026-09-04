@@ -3,7 +3,7 @@ title: "Record 693 · TikToks-10-Most-Viral-Wellness-Trends-From-Foot-Massagers-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.370100+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 693 · TikToks-10-Most-Viral-Wellness-Trends-From-Foot-Massagers-to-Apple-Cid

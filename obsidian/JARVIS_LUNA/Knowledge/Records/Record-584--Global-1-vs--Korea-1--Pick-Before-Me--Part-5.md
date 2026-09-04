@@ -3,7 +3,7 @@ title: "Record 584 · Global-1-vs--Korea-1--Pick-Before-Me--Part-5"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.054622+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 584 · Global-1-vs--Korea-1--Pick-Before-Me--Part-5

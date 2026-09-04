@@ -3,7 +3,7 @@ title: "Record 644 · EVERYTHING-I-bought-in-Japan-as-a-Japanese"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.090256+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 644 · EVERYTHING-I-bought-in-Japan-as-a-Japanese

@@ -3,7 +3,7 @@ title: "Record 195 · Meet-The-French-Makeup-Trend-Taking-Over-TikTok---NewBeaut
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.084165+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 195 · Meet-The-French-Makeup-Trend-Taking-Over-TikTok---NewBeauty

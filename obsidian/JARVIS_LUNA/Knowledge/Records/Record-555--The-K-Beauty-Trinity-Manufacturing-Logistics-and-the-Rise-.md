@@ -3,7 +3,7 @@ title: "Record 555 · The-K-Beauty-Trinity-Manufacturing-Logistics-and-the-Rise-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.276217+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 555 · The-K-Beauty-Trinity-Manufacturing-Logistics-and-the-Rise-of-the-Indie

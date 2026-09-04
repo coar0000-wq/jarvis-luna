@@ -3,7 +3,7 @@ title: "Record 392 · Gluai-unveils-AI-discoverability-tool-for-ecommerce-brands
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.027266+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 392 · Gluai-unveils-AI-discoverability-tool-for-ecommerce-brands---Mi-3comau

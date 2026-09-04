@@ -3,7 +3,7 @@ title: "Record 349 · The-Top-Five-TikTok-Beauty-Trends-of-2025---wwdcom"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.021390+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 349 · The-Top-Five-TikTok-Beauty-Trends-of-2025---wwdcom

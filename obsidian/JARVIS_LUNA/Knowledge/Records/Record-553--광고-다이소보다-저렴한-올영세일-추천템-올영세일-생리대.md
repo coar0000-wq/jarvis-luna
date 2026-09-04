@@ -3,7 +3,7 @@ title: "Record 553 · 광고-다이소보다-저렴한-올영세일-추천템-�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.076358+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 553 · 광고-다이소보다-저렴한-올영세일-추천템-올영세일-생리대

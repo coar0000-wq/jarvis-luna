@@ -3,7 +3,7 @@ title: "Record 1000 · 2026-Best-of-Beauty-Awards-in-Japan-cosme-mid-year-rankin
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.940171+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1000 · 2026-Best-of-Beauty-Awards-in-Japan-cosme-mid-year-rankings

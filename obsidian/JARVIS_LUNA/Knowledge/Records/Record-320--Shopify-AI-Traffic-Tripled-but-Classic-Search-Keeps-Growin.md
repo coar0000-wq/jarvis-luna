@@ -3,7 +3,7 @@ title: "Record 320 · Shopify-AI-Traffic-Tripled-but-Classic-Search-Keeps-Growin
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.017365+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 320 · Shopify-AI-Traffic-Tripled-but-Classic-Search-Keeps-Growing---Pasquale

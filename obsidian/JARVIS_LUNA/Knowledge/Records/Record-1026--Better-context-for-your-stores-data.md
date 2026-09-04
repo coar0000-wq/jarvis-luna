@@ -3,7 +3,7 @@ title: "Record 1026 · Better-context-for-your-stores-data"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.980490+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1026 · Better-context-for-your-stores-data

@@ -3,7 +3,7 @@ title: "Record 305 · Unhinged-or-Inspired-Experts-Weigh-in-on-TikToks-Wildest-B
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.874625+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 305 · Unhinged-or-Inspired-Experts-Weigh-in-on-TikToks-Wildest-Beauty-Tips--

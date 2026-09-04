@@ -3,7 +3,7 @@ title: "Record 1002 · Planning-a-trip-to-Hangzhou-Save-this-guide-before-you-go
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.188999+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1002 · Planning-a-trip-to-Hangzhou-Save-this-guide-before-you-go

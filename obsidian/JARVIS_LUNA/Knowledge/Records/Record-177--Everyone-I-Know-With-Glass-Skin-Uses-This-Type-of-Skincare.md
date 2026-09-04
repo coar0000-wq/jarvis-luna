@@ -3,7 +3,7 @@ title: "Record 177 · Everyone-I-Know-With-Glass-Skin-Uses-This-Type-of-Skincare
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.239284+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 177 · Everyone-I-Know-With-Glass-Skin-Uses-This-Type-of-SkincareI-Tried-It-f

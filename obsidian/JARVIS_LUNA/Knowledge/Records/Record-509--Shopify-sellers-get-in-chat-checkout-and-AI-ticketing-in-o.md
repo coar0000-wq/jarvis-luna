@@ -3,7 +3,7 @@ title: "Record 509 · Shopify-sellers-get-in-chat-checkout-and-AI-ticketing-in-o
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.043426+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 509 · Shopify-sellers-get-in-chat-checkout-and-AI-ticketing-in-one-flow---St

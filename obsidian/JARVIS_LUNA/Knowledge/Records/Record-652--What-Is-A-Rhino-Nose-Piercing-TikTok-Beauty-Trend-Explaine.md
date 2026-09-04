@@ -3,7 +3,7 @@ title: "Record 652 · What-Is-A-Rhino-Nose-Piercing-TikTok-Beauty-Trend-Explaine
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.133035+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 652 · What-Is-A-Rhino-Nose-Piercing-TikTok-Beauty-Trend-Explained---Betches

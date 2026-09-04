@@ -3,7 +3,7 @@ title: "Record 598 · 선크림-클렌징-이렇게-하세요"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.655537+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 598 · 선크림-클렌징-이렇게-하세요

@@ -3,7 +3,7 @@ title: "Record 153 · 5-Ecommerce-Questions-AI-Answers-in-Seconds-2026---shopify
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.685018+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 153 · 5-Ecommerce-Questions-AI-Answers-in-Seconds-2026---shopifycom

@@ -3,7 +3,7 @@ title: "Record 420 · Human-Skin-Is-the-Newest-Ingredient-in-K-Beauty---The-Busi
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.382063+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 420 · Human-Skin-Is-the-Newest-Ingredient-in-K-Beauty---The-Business-of-Fash

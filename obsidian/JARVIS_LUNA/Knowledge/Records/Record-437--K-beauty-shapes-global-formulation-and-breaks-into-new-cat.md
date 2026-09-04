@@ -3,7 +3,7 @@ title: "Record 437 · K-beauty-shapes-global-formulation-and-breaks-into-new-cat
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.266278+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 437 · K-beauty-shapes-global-formulation-and-breaks-into-new-categories---Pe

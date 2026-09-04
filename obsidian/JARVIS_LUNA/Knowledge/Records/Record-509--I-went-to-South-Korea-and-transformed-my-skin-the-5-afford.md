@@ -3,7 +3,7 @@ title: "Record 509 · I-went-to-South-Korea-and-transformed-my-skin-the-5-afford
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.390192+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 509 · I-went-to-South-Korea-and-transformed-my-skin-the-5-affordable-product

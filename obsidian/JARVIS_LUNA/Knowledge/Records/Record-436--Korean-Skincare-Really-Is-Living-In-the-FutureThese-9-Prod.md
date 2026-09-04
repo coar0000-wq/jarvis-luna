@@ -3,7 +3,7 @@ title: "Record 436 · Korean-Skincare-Really-Is-Living-In-the-FutureThese-9-Prod
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.582991+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 436 · Korean-Skincare-Really-Is-Living-In-the-FutureThese-9-Products-Are-Pro

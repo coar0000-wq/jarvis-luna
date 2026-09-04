@@ -3,7 +3,7 @@ title: "Record 381 · I-Spent-6-Weeks-in-KoreaThese-Are-the-K-Beauty-Products-Ev
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.261564+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 381 · I-Spent-6-Weeks-in-KoreaThese-Are-the-K-Beauty-Products-Everyones-Buzz

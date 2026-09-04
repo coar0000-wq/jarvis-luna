@@ -3,7 +3,7 @@ title: "Record 564 · 브라이트너-어디서-살까-다이소-vs-올영-레�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.077995+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 564 · 브라이트너-어디서-살까-다이소-vs-올영-레몬템-비교

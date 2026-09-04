@@ -3,7 +3,7 @@ title: "Record 702 · YesStyles-20th-Anniversary-MEGA-SALE-Up-to-50-OFF"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.407798+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 702 · YesStyles-20th-Anniversary-MEGA-SALE-Up-to-50-OFF

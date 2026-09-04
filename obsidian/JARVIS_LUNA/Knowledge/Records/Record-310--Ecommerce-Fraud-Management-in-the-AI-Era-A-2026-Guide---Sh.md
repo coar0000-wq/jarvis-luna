@@ -3,7 +3,7 @@ title: "Record 310 · Ecommerce-Fraud-Management-in-the-AI-Era-A-2026-Guide---Sh
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.101485+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 310 · Ecommerce-Fraud-Management-in-the-AI-Era-A-2026-Guide---Shopify

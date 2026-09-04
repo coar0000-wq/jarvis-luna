@@ -3,7 +3,7 @@ title: "Record 269 · Meet-the-K-beauty-masks-skincare-lovers-swear-by-for-achie
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.887576+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 269 · Meet-the-K-beauty-masks-skincare-lovers-swear-by-for-achieving-a-true-

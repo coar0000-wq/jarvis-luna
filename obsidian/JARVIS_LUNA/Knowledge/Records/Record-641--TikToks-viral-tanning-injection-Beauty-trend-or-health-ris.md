@@ -3,7 +3,7 @@ title: "Record 641 · TikToks-viral-tanning-injection-Beauty-trend-or-health-ris
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.946290+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 641 · TikToks-viral-tanning-injection-Beauty-trend-or-health-risk---TheHealt

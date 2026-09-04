@@ -3,7 +3,7 @@ title: "Record 1060 · Persona-Execution-Separation-An-Architecture-Pattern-for-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.971241+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1060 · Persona-Execution-Separation-An-Architecture-Pattern-for-Evolving-LLM-

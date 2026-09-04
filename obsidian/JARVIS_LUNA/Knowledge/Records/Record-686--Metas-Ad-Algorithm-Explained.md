@@ -3,7 +3,7 @@ title: "Record 686 · Metas-Ad-Algorithm-Explained"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.757517+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 686 · Metas-Ad-Algorithm-Explained

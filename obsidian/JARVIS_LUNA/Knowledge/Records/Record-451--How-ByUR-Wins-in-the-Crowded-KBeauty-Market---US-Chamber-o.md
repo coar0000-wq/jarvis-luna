@@ -3,7 +3,7 @@ title: "Record 451 · How-ByUR-Wins-in-the-Crowded-KBeauty-Market---US-Chamber-o
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.862238+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 451 · How-ByUR-Wins-in-the-Crowded-KBeauty-Market---US-Chamber-of-Commerce

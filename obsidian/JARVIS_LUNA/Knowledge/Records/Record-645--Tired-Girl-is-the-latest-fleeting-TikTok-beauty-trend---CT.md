@@ -3,7 +3,7 @@ title: "Record 645 · Tired-Girl-is-the-latest-fleeting-TikTok-beauty-trend---CT
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.917555+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 645 · Tired-Girl-is-the-latest-fleeting-TikTok-beauty-trend---CTV-News

@@ -3,7 +3,7 @@ title: "Record 423 · Shopify-adds-B2B-features-for-more-merchants---Digital-Com
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.146952+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 423 · Shopify-adds-B2B-features-for-more-merchants---Digital-Commerce-360

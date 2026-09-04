@@ -3,7 +3,7 @@ title: "Record 601 · Game-over-new-routine-Laid-off-Xbox-manager-built-her-Kore
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.171341+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 601 · Game-over-new-routine-Laid-off-Xbox-manager-built-her-Korean-skincare-

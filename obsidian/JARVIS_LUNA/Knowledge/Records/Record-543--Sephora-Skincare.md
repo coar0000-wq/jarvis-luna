@@ -3,7 +3,7 @@ title: "Record 543 · Sephora-Skincare"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.644687+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 543 · Sephora-Skincare

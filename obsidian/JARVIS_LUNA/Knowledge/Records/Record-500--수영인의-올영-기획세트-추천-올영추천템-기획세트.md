@@ -3,7 +3,7 @@ title: "Record 500 · 수영인의-올영-기획세트-추천-올영추천템-�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.732197+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 500 · 수영인의-올영-기획세트-추천-올영추천템-기획세트

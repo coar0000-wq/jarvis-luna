@@ -3,7 +3,7 @@ title: "Record 702 · 개털도-엔젤링-만들어주는-머릿결-구원템-�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.736555+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 702 · 개털도-엔젤링-만들어주는-머릿결-구원템-구독자이벤트-샴푸추천

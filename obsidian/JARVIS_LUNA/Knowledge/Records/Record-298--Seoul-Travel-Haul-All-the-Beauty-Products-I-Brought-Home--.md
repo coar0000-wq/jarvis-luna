@@ -3,7 +3,7 @@ title: "Record 298 · Seoul-Travel-Haul-All-the-Beauty-Products-I-Brought-Home--
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.705004+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 298 · Seoul-Travel-Haul-All-the-Beauty-Products-I-Brought-Home---The-Daily-B

@@ -3,7 +3,7 @@ title: "Record 410 · US-K-Beauty-Sales-Surge-48-Trend-Picks-Up-Speed---Briefs-F
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.581104+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 410 · US-K-Beauty-Sales-Surge-48-Trend-Picks-Up-Speed---Briefs-Finance

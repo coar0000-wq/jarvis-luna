@@ -3,7 +3,7 @@ title: "Record 099 · AI-Influencers-What-They-Are-and-How-They-Work-2025---Shop
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.557964+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 099 · AI-Influencers-What-They-Are-and-How-They-Work-2025---Shopify

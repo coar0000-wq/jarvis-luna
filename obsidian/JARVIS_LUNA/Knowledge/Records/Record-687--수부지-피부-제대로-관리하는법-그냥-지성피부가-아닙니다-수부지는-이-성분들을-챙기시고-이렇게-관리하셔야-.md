@@ -3,7 +3,7 @@ title: "Record 687 · 수부지-피부-제대로-관리하는법-그냥-지성�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.961024+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 687 · 수부지-피부-제대로-관리하는법-그냥-지성피부가-아닙니다-수부지는-이-성분들을-챙기시고-이렇게-관리하셔야-합니다

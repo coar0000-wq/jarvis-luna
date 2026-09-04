@@ -3,7 +3,7 @@ title: "Record 579 · 품절대란-다이소-VT-토너-올영보다-좋다고"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.278134+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 579 · 품절대란-다이소-VT-토너-올영보다-좋다고

@@ -3,7 +3,7 @@ title: "Record 1063 · Recursive-Experiential-Working-Memory-Evolution-for-Long-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.985286+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1063 · Recursive-Experiential-Working-Memory-Evolution-for-Long-Horizon-Agent

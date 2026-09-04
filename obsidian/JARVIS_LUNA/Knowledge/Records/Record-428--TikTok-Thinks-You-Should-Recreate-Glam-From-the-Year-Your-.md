@@ -3,7 +3,7 @@ title: "Record 428 · TikTok-Thinks-You-Should-Recreate-Glam-From-the-Year-Your-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.908860+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 428 · TikTok-Thinks-You-Should-Recreate-Glam-From-the-Year-Your-Mom-Was-Born

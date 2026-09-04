@@ -3,7 +3,7 @@ title: "Record 617 · 여드름-연고-발라도-소용없을-때-보세요"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.143585+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 617 · 여드름-연고-발라도-소용없을-때-보세요

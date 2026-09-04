@@ -3,7 +3,7 @@ title: "Record 606 · MUST-buy-in-Japanese-drugstore-japan-jbeauty"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.280401+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 606 · MUST-buy-in-Japanese-drugstore-japan-jbeauty

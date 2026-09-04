@@ -3,7 +3,7 @@ title: "Record 660 · Pomegranate-Makeup-Is-The-Must-Try-TikTok-Beauty-Trend-Thi
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.732751+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 660 · Pomegranate-Makeup-Is-The-Must-Try-TikTok-Beauty-Trend-This-Summer---L

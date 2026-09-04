@@ -3,7 +3,7 @@ title: "Record 292 · Olive-Young-to-host-experiential-K-beauty-festival---Drug-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.013481+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 292 · Olive-Young-to-host-experiential-K-beauty-festival---Drug-Store-News

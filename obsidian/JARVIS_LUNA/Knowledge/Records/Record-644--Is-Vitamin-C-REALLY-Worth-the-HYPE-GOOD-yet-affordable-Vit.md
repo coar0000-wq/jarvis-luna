@@ -3,7 +3,7 @@ title: "Record 644 · Is-Vitamin-C-REALLY-Worth-the-HYPE-GOOD-yet-affordable-Vit
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.696580+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 644 · Is-Vitamin-C-REALLY-Worth-the-HYPE-GOOD-yet-affordable-Vitamin-C-that-

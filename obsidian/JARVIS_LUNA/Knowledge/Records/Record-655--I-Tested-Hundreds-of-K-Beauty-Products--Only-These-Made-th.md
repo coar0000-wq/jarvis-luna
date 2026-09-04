@@ -3,7 +3,7 @@ title: "Record 655 · I-Tested-Hundreds-of-K-Beauty-Products--Only-These-Made-th
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.666527+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 655 · I-Tested-Hundreds-of-K-Beauty-Products--Only-These-Made-the-Cut

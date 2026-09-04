@@ -3,7 +3,7 @@ title: "Record 382 · J-beauty-pushes-overseas-as-Curél-and-Ci-Flavors-scale-gl
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.579025+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 382 · J-beauty-pushes-overseas-as-Curél-and-Ci-Flavors-scale-globally---Pers

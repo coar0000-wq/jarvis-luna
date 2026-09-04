@@ -3,7 +3,7 @@ title: "Record 353 · Youve-Got-Hours-Left-to-Grab-These-K-Beauty-Steals---allur
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.642633+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 353 · Youve-Got-Hours-Left-to-Grab-These-K-Beauty-Steals---allurecom

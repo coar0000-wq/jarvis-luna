@@ -3,7 +3,7 @@ title: "Record 095 · AI-agents-for-ecommerce-how-they-work-top-tools-and-how-to
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.598111+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 095 · AI-agents-for-ecommerce-how-they-work-top-tools-and-how-to-build-one--

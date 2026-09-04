@@ -3,7 +3,7 @@ title: "Record 655 · How-I-Used-Claude-AI-To-Make-102k-In-90-Days"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.092006+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 655 · How-I-Used-Claude-AI-To-Make-102k-In-90-Days

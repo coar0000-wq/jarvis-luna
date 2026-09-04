@@ -3,7 +3,7 @@ title: "Record 675 · 선크림-QA잘못-알고-있던-선크림-상식-20가지
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.095045+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 675 · 선크림-QA잘못-알고-있던-선크림-상식-20가지

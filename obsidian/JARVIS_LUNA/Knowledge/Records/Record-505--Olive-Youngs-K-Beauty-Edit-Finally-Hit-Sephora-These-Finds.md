@@ -3,7 +3,7 @@ title: "Record 505 · Olive-Youngs-K-Beauty-Edit-Finally-Hit-Sephora-These-Finds
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.271997+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 505 · Olive-Youngs-K-Beauty-Edit-Finally-Hit-Sephora-These-Finds-Are-Worth-I

@@ -3,7 +3,7 @@ title: "Record 519 · As-a-K-Beauty-Fan-of-10-Plus-Years-Heres-What-to-Buy-on-Sa
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.639724+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 519 · As-a-K-Beauty-Fan-of-10-Plus-Years-Heres-What-to-Buy-on-Sale-During-Pr

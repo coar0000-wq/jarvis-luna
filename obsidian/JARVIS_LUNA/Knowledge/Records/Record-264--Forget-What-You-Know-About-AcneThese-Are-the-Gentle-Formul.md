@@ -3,7 +3,7 @@ title: "Record 264 · Forget-What-You-Know-About-AcneThese-Are-the-Gentle-Formul
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.676597+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 264 · Forget-What-You-Know-About-AcneThese-Are-the-Gentle-Formulas-You-Shoul

@@ -3,7 +3,7 @@ title: "Record 397 · TikToks-Unrecognizable-Makeup-Trend-Helped-Me-Look-More-Sn
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.506659+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 397 · TikToks-Unrecognizable-Makeup-Trend-Helped-Me-Look-More-Snatched-Than-

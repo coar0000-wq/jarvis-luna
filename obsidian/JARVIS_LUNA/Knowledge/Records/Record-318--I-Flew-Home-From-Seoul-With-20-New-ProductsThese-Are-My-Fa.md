@@ -3,7 +3,7 @@ title: "Record 318 · I-Flew-Home-From-Seoul-With-20-New-ProductsThese-Are-My-Fa
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.597760+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 318 · I-Flew-Home-From-Seoul-With-20-New-ProductsThese-Are-My-Favorites---Ma

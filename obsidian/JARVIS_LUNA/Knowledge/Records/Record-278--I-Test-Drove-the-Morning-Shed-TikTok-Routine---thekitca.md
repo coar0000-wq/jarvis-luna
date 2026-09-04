@@ -3,7 +3,7 @@ title: "Record 278 · I-Test-Drove-the-Morning-Shed-TikTok-Routine---thekitca"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.872918+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 278 · I-Test-Drove-the-Morning-Shed-TikTok-Routine---thekitca

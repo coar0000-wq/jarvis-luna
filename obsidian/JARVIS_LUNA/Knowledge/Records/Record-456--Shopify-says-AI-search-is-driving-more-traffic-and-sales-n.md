@@ -3,7 +3,7 @@ title: "Record 456 · Shopify-says-AI-search-is-driving-more-traffic-and-sales-n
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.726228+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 456 · Shopify-says-AI-search-is-driving-more-traffic-and-sales-not-replacing

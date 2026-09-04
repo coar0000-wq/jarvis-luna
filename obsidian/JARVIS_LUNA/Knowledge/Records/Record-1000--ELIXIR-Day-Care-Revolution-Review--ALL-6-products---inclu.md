@@ -3,7 +3,7 @@ title: "Record 1000 · ELIXIR-Day-Care-Revolution-Review--ALL-6-products---inclu
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.334205+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1000 · ELIXIR-Day-Care-Revolution-Review--ALL-6-products---including-new-Tone

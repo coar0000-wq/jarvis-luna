@@ -3,7 +3,7 @@ title: "Record 096 · I-Tried-TikToks-MOST-VIRAL-Beauty-Trends-Peoples-Postcode-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.799847+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 096 · I-Tried-TikToks-MOST-VIRAL-Beauty-Trends-Peoples-Postcode-Lottery-ZiKO

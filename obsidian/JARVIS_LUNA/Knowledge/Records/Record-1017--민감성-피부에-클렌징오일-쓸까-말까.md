@@ -3,7 +3,7 @@ title: "Record 1017 · 민감성-피부에-클렌징오일-쓸까-말까"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.335175+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1017 · 민감성-피부에-클렌징오일-쓸까-말까

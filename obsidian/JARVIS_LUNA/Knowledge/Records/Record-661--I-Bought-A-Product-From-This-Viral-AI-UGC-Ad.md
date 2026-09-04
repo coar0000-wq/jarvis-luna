@@ -3,7 +3,7 @@ title: "Record 661 · I-Bought-A-Product-From-This-Viral-AI-UGC-Ad"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.958388+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 661 · I-Bought-A-Product-From-This-Viral-AI-UGC-Ad

@@ -3,7 +3,7 @@ title: "Record 1006 · G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pat
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.205450+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1006 · G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Patient-Oriented

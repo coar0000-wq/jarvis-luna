@@ -3,7 +3,7 @@ title: "Record 179 · From-Labubus-to-lip-stains-TikTok-reveals-the-biggest-shop
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.866879+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 179 · From-Labubus-to-lip-stains-TikTok-reveals-the-biggest-shopping-trends-

@@ -3,7 +3,7 @@ title: "Record 516 · Tranexamic-Acid-Cream-Retinal-Serums-Lead-K-Beauty-Skincar
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.672878+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 516 · Tranexamic-Acid-Cream-Retinal-Serums-Lead-K-Beauty-Skincare-Trends---H

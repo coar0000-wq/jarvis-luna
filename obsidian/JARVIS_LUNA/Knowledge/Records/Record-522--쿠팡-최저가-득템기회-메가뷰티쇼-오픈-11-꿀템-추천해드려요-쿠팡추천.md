@@ -3,7 +3,7 @@ title: "Record 522 · 쿠팡-최저가-득템기회-메가뷰티쇼-오픈-11-�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.071642+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 522 · 쿠팡-최저가-득템기회-메가뷰티쇼-오픈-11-꿀템-추천해드려요-쿠팡추천

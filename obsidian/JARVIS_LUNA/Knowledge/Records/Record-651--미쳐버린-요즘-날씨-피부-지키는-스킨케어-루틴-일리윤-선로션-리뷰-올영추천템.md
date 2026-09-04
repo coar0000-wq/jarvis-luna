@@ -3,7 +3,7 @@ title: "Record 651 · 미쳐버린-요즘-날씨-피부-지키는-스킨케어-�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.957316+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 651 · 미쳐버린-요즘-날씨-피부-지키는-스킨케어-루틴-일리윤-선로션-리뷰-올영추천템

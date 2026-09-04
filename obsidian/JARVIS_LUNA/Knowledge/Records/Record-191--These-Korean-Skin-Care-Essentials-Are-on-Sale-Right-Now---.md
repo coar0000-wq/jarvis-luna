@@ -3,7 +3,7 @@ title: "Record 191 · These-Korean-Skin-Care-Essentials-Are-on-Sale-Right-Now---
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.110218+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 191 · These-Korean-Skin-Care-Essentials-Are-on-Sale-Right-Now---Teen-Vogue

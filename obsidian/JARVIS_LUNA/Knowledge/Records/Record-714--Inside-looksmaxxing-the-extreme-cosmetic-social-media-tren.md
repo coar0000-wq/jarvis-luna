@@ -3,7 +3,7 @@ title: "Record 714 · Inside-looksmaxxing-the-extreme-cosmetic-social-media-tren
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.921874+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 714 · Inside-looksmaxxing-the-extreme-cosmetic-social-media-trend---bbccom

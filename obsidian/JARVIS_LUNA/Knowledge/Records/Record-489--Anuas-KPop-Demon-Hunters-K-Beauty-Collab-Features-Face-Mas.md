@@ -3,7 +3,7 @@ title: "Record 489 · Anuas-KPop-Demon-Hunters-K-Beauty-Collab-Features-Face-Mas
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.066587+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 489 · Anuas-KPop-Demon-Hunters-K-Beauty-Collab-Features-Face-Masks-Acne-Dots

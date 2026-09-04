@@ -3,7 +3,7 @@ title: "Record 618 · The-Science-of-PDRN-Korean-Beautys-Hottest-Ingredient---US
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.891812+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 618 · The-Science-of-PDRN-Korean-Beautys-Hottest-Ingredient---USC-Dornsife

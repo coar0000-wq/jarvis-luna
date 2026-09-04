@@ -3,7 +3,7 @@ title: "Record 391 · We-tested-more-than-a-dozen-viral-Medicube-products--these
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.851879+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 391 · We-tested-more-than-a-dozen-viral-Medicube-products--these-are-the-one

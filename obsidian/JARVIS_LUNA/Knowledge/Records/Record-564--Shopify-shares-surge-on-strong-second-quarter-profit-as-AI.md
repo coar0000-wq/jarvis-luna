@@ -3,7 +3,7 @@ title: "Record 564 · Shopify-shares-surge-on-strong-second-quarter-profit-as-AI
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.305605+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 564 · Shopify-shares-surge-on-strong-second-quarter-profit-as-AI-helps-drive

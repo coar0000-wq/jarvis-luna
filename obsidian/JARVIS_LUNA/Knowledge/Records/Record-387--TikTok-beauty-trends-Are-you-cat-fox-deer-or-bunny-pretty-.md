@@ -3,7 +3,7 @@ title: "Record 387 · TikTok-beauty-trends-Are-you-cat-fox-deer-or-bunny-pretty-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.901647+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 387 · TikTok-beauty-trends-Are-you-cat-fox-deer-or-bunny-pretty---Prestige-O

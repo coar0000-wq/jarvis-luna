@@ -3,7 +3,7 @@ title: "Record 310 · TIME100-Most-Influential-Companies-2026-Shopify---timecom"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.015967+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 310 · TIME100-Most-Influential-Companies-2026-Shopify---timecom

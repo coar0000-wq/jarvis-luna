@@ -3,7 +3,7 @@ title: "Record 478 · Kiss-New-York-launches-1st-Korean-skincare-line---Mass-Mar
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.126545+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 478 · Kiss-New-York-launches-1st-Korean-skincare-line---Mass-Market-Retailer

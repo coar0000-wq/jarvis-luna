@@ -3,7 +3,7 @@ title: "Record 268 · High-Contrast-TikToks-New-Beauty-Trend---highxtarcom"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.830117+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 268 · High-Contrast-TikToks-New-Beauty-Trend---highxtarcom

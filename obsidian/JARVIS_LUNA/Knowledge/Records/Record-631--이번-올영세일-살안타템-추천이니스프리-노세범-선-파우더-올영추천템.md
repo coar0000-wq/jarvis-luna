@@ -3,7 +3,7 @@ title: "Record 631 · 이번-올영세일-살안타템-추천이니스프리-노
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.661640+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 631 · 이번-올영세일-살안타템-추천이니스프리-노세범-선-파우더-올영추천템

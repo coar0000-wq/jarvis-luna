@@ -3,7 +3,7 @@ title: "Record 409 · I-Credit-These-Cult-Favorite-K-Beauty-Products-for-My-Skin
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.507737+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 409 · I-Credit-These-Cult-Favorite-K-Beauty-Products-for-My-Skins-Glassy-Glo

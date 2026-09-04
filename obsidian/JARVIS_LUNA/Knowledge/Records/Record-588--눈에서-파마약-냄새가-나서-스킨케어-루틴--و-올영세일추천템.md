@@ -3,7 +3,7 @@ title: "Record 588 · 눈에서-파마약-냄새가-나서-스킨케어-루틴--
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.139009+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 588 · 눈에서-파마약-냄새가-나서-스킨케어-루틴--و-올영세일추천템

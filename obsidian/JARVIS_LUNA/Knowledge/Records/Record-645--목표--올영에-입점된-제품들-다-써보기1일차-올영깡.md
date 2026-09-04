@@ -3,7 +3,7 @@ title: "Record 645 · 목표--올영에-입점된-제품들-다-써보기1일차
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.177426+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 645 · 목표--올영에-입점된-제품들-다-써보기1일차-올영깡

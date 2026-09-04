@@ -3,7 +3,7 @@ title: "Record 649 · 선스틱-정량-직접-측정해봤습니다"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.148463+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 649 · 선스틱-정량-직접-측정해봤습니다

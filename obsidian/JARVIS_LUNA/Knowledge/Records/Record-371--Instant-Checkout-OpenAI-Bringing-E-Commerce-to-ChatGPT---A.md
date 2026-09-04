@@ -3,7 +3,7 @@ title: "Record 371 · Instant-Checkout-OpenAI-Bringing-E-Commerce-to-ChatGPT---A
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.928588+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 371 · Instant-Checkout-OpenAI-Bringing-E-Commerce-to-ChatGPT---AI-Magazine

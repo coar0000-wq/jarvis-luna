@@ -3,7 +3,7 @@ title: "Record 334 · How-Google-Shopify-Partnership-Could-Spur-Agentic-Commerce
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.042643+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 334 · How-Google-Shopify-Partnership-Could-Spur-Agentic-Commerce-Boom---Inve

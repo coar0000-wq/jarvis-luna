@@ -3,7 +3,7 @@ title: "Record 499 · 오늘-올리브영-단-하루-특가속건조-싹-잡는-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.068104+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 499 · 오늘-올리브영-단-하루-특가속건조-싹-잡는-판테놀-11-혜택

@@ -3,7 +3,7 @@ title: "Record 1077 · How-to-Train-a-Critic-Stably-and-Efficiently"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.201660+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1077 · How-to-Train-a-Critic-Stably-and-Efficiently

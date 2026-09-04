@@ -3,7 +3,7 @@ title: "Record 364 · Shopifys-New-AI-Tools-Empower-Merchants---Practical-Ecomme
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.577746+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 364 · Shopifys-New-AI-Tools-Empower-Merchants---Practical-Ecommerce

@@ -3,7 +3,7 @@ title: "Record 664 · Shopify-deepens-push-into-agentic-AI-and-B2B-ecommerce---D
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.311947+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 664 · Shopify-deepens-push-into-agentic-AI-and-B2B-ecommerce---Digital-Comme

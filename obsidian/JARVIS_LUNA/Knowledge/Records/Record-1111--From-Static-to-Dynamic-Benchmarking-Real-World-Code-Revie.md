@@ -3,7 +3,7 @@ title: "Record 1111 · From-Static-to-Dynamic-Benchmarking-Real-World-Code-Revie
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.948631+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1111 · From-Static-to-Dynamic-Benchmarking-Real-World-Code-Review-with-MCR-Be

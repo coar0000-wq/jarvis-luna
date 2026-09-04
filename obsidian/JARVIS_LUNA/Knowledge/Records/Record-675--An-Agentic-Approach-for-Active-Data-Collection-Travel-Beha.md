@@ -3,7 +3,7 @@ title: "Record 675 · An-Agentic-Approach-for-Active-Data-Collection-Travel-Beha
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.755852+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 675 · An-Agentic-Approach-for-Active-Data-Collection-Travel-Behavior-Modelin

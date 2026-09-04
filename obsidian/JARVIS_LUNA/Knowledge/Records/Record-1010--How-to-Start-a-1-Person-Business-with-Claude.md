@@ -3,7 +3,7 @@ title: "Record 1010 · How-to-Start-a-1-Person-Business-with-Claude"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.961267+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1010 · How-to-Start-a-1-Person-Business-with-Claude

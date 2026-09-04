@@ -3,7 +3,7 @@ title: "Record 345 · Top-Skincare-Trends-For-2026And-Those-Losing-Their-Sizzle-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.101286+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 345 · Top-Skincare-Trends-For-2026And-Those-Losing-Their-Sizzle---Beauty-Ind

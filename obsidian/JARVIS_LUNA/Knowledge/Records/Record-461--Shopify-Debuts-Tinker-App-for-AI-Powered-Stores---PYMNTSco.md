@@ -3,7 +3,7 @@ title: "Record 461 · Shopify-Debuts-Tinker-App-for-AI-Powered-Stores---PYMNTSco
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.119155+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 461 · Shopify-Debuts-Tinker-App-for-AI-Powered-Stores---PYMNTScom

@@ -3,7 +3,7 @@ title: "Record 160 · TikTok-Is-Rife-With-Unsolicited-Beauty-AdviceAccording-to-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.661121+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 160 · TikTok-Is-Rife-With-Unsolicited-Beauty-AdviceAccording-to-Experts-Thes

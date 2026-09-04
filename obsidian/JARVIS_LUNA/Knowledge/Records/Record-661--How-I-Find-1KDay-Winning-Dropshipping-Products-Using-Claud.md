@@ -3,7 +3,7 @@ title: "Record 661 · How-I-Find-1KDay-Winning-Dropshipping-Products-Using-Claud
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.667779+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 661 · How-I-Find-1KDay-Winning-Dropshipping-Products-Using-Claude-AI-FREE-ME

@@ -3,7 +3,7 @@ title: "Record 1036 · Across-Design-Uncertainty-in-Short-Pricing-Panels-Evidenc
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.981677+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1036 · Across-Design-Uncertainty-in-Short-Pricing-Panels-Evidence-from-Simula

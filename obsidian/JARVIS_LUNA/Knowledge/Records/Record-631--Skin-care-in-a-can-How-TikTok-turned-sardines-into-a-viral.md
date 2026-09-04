@@ -3,7 +3,7 @@ title: "Record 631 · Skin-care-in-a-can-How-TikTok-turned-sardines-into-a-viral
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.730285+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 631 · Skin-care-in-a-can-How-TikTok-turned-sardines-into-a-viral-beauty-tren

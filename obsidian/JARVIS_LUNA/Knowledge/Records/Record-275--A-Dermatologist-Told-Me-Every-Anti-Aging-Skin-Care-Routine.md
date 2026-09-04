@@ -3,7 +3,7 @@ title: "Record 275 · A-Dermatologist-Told-Me-Every-Anti-Aging-Skin-Care-Routine
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.701817+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 275 · A-Dermatologist-Told-Me-Every-Anti-Aging-Skin-Care-Routine-Needs-This-

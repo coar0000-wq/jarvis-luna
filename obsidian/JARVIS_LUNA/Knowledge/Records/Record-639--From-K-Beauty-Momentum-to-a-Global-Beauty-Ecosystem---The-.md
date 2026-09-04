@@ -3,7 +3,7 @@ title: "Record 639 · From-K-Beauty-Momentum-to-a-Global-Beauty-Ecosystem---The-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.310267+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 639 · From-K-Beauty-Momentum-to-a-Global-Beauty-Ecosystem---The-Worldfolio

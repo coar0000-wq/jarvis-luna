@@ -3,7 +3,7 @@ title: "Record 1027 · LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-Multim
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.634013+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1027 · LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-Multimodal-Pre-trai

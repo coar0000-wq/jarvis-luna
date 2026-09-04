@@ -3,7 +3,7 @@ title: "Record 204 · This-Blush-Trend-Pairs-Best-With-a-Vintage-Nightgown-and-S
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.878887+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 204 · This-Blush-Trend-Pairs-Best-With-a-Vintage-Nightgown-and-Secret-Garden

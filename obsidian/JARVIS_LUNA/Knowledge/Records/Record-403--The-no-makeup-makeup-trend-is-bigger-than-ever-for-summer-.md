@@ -3,7 +3,7 @@ title: "Record 403 · The-no-makeup-makeup-trend-is-bigger-than-ever-for-summer-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.853965+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 403 · The-no-makeup-makeup-trend-is-bigger-than-ever-for-summer-2026-What-to

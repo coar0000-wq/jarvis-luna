@@ -3,7 +3,7 @@ title: "Record 696 · Guangzhou-isnt-just-a-city-to-visit-Its-also-a-city-to-sou
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.156266+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 696 · Guangzhou-isnt-just-a-city-to-visit-Its-also-a-city-to-source

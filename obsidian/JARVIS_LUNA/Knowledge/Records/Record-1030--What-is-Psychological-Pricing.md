@@ -3,7 +3,7 @@ title: "Record 1030 · What-is-Psychological-Pricing"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.193785+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1030 · What-is-Psychological-Pricing

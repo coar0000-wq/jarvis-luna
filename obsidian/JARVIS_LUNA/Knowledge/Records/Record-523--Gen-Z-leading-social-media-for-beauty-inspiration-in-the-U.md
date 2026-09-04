@@ -3,7 +3,7 @@ title: "Record 523 · Gen-Z-leading-social-media-for-beauty-inspiration-in-the-U
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.391498+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 523 · Gen-Z-leading-social-media-for-beauty-inspiration-in-the-US-and-UK-202

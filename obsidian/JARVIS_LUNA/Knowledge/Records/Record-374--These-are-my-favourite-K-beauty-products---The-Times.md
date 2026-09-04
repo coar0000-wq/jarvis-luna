@@ -3,7 +3,7 @@ title: "Record 374 · These-are-my-favourite-K-beauty-products---The-Times"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.105721+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 374 · These-are-my-favourite-K-beauty-products---The-Times

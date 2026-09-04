@@ -3,7 +3,7 @@ title: "Record 371 · The-Vogue-Business-TikTok-Trend-Tracker---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.293434+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 371 · The-Vogue-Business-TikTok-Trend-Tracker---Vogue

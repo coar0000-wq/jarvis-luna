@@ -3,7 +3,7 @@ title: "Record 264 · TikTok-Says-Its-Time-To-Put-Your-Shell-Back-On-With-A-Full
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.626061+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 264 · TikTok-Says-Its-Time-To-Put-Your-Shell-Back-On-With-A-Full-Self-Care-R

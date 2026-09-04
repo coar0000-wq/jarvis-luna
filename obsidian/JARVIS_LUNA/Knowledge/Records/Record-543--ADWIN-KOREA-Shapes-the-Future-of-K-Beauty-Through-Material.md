@@ -3,7 +3,7 @@ title: "Record 543 · ADWIN-KOREA-Shapes-the-Future-of-K-Beauty-Through-Material
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.677915+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 543 · ADWIN-KOREA-Shapes-the-Future-of-K-Beauty-Through-Material-Innovation-

@@ -3,7 +3,7 @@ title: "Record 1076 · Scaling-Graph-Neural-Networks-for-Friend-Recommendation-M
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.987036+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1076 · Scaling-Graph-Neural-Networks-for-Friend-Recommendation-Multi-Hash-Use

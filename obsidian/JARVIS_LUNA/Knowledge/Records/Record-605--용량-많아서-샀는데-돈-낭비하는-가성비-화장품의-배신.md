@@ -3,7 +3,7 @@ title: "Record 605 · 용량-많아서-샀는데-돈-낭비하는-가성비-화�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.398942+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 605 · 용량-많아서-샀는데-돈-낭비하는-가성비-화장품의-배신

@@ -3,7 +3,7 @@ title: "Record 707 · Beyond-TikTok-PH-Beauty-industrys-global-ambition---ABS-CB
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.921431+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 707 · Beyond-TikTok-PH-Beauty-industrys-global-ambition---ABS-CBN

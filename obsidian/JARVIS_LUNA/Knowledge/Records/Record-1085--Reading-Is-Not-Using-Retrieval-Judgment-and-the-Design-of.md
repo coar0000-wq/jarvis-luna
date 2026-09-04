@@ -3,7 +3,7 @@ title: "Record 1085 · Reading-Is-Not-Using-Retrieval-Judgment-and-the-Design-of
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.946373+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1085 · Reading-Is-Not-Using-Retrieval-Judgment-and-the-Design-of-AI-Financial

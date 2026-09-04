@@ -3,7 +3,7 @@ title: "Record 121 · Sorry-Clean-Girl-Messy-Hair--Makeup-Is-Back---The-Zoe-Repo
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.005713+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 121 · Sorry-Clean-Girl-Messy-Hair--Makeup-Is-Back---The-Zoe-Report

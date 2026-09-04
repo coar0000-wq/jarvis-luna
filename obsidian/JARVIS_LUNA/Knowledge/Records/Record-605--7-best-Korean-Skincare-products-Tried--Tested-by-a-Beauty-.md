@@ -3,7 +3,7 @@ title: "Record 605 · 7-best-Korean-Skincare-products-Tried--Tested-by-a-Beauty-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.932230+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 605 · 7-best-Korean-Skincare-products-Tried--Tested-by-a-Beauty-Editor---the

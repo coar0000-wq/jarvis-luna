@@ -3,7 +3,7 @@ title: "Record 517 · Shopify-vs-Wix-Stores-I-Tested-Both-E-Commerce-Platforms-a
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.127725+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 517 · Shopify-vs-Wix-Stores-I-Tested-Both-E-Commerce-Platforms-and-Found-a-C

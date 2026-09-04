@@ -3,7 +3,7 @@ title: "Record 619 · BB-Cream-Is-Back12-Korean-BB-Creams-Tested--Ranked"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.086446+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 619 · BB-Cream-Is-Back12-Korean-BB-Creams-Tested--Ranked

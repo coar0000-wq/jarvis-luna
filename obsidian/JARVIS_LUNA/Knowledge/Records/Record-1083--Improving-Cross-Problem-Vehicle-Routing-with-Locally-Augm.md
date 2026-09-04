@@ -3,7 +3,7 @@ title: "Record 1083 · Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augm
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.202821+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1083 · Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augmented-Prefere

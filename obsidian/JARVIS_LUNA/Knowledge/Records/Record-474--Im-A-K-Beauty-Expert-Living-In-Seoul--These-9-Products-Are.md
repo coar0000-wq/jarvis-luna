@@ -3,7 +3,7 @@ title: "Record 474 · Im-A-K-Beauty-Expert-Living-In-Seoul--These-9-Products-Are
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.866306+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 474 · Im-A-K-Beauty-Expert-Living-In-Seoul--These-9-Products-Are-About-To-Be

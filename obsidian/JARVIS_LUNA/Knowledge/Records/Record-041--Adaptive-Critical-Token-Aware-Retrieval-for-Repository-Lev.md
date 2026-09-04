@@ -3,7 +3,7 @@ title: "Record 041 · Adaptive-Critical-Token-Aware-Retrieval-for-Repository-Lev
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.858050+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 041 · Adaptive-Critical-Token-Aware-Retrieval-for-Repository-Level-Code-Gene

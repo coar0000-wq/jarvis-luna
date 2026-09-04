@@ -3,7 +3,7 @@ title: "Record 231 · Every-Beauty-Secret-This-Gen-Z-Editor-Archived-From-Beauty
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.005119+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 231 · Every-Beauty-Secret-This-Gen-Z-Editor-Archived-From-BeautyTok-You-Know

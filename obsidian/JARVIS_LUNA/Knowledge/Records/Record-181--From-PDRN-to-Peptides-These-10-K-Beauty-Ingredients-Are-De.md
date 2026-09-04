@@ -3,7 +3,7 @@ title: "Record 181 · From-PDRN-to-Peptides-These-10-K-Beauty-Ingredients-Are-De
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.688923+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 181 · From-PDRN-to-Peptides-These-10-K-Beauty-Ingredients-Are-Defining-2026-

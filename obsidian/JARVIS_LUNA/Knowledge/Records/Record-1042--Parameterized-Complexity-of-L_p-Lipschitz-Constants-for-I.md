@@ -3,7 +3,7 @@ title: "Record 1042 · Parameterized-Complexity-of-L_p-Lipschitz-Constants-for-I
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.967870+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1042 · Parameterized-Complexity-of-L_p-Lipschitz-Constants-for-Input-Convex-N

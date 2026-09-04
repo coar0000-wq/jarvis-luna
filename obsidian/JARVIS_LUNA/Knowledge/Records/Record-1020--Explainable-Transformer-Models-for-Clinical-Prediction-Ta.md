@@ -3,7 +3,7 @@ title: "Record 1020 · Explainable-Transformer-Models-for-Clinical-Prediction-Ta
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.335443+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1020 · Explainable-Transformer-Models-for-Clinical-Prediction-Tasks-on-Struct

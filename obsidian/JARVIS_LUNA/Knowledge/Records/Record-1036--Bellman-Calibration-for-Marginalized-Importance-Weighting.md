@@ -3,7 +3,7 @@ title: "Record 1036 · Bellman-Calibration-for-Marginalized-Importance-Weighting
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.433012+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1036 · Bellman-Calibration-for-Marginalized-Importance-Weighting-in-Offline-R

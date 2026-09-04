@@ -3,7 +3,7 @@ title: "Record 449 · The-K-Beauty-Products-Our-Editors-Swear-by-for-Glowing-Ski
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.861941+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 449 · The-K-Beauty-Products-Our-Editors-Swear-by-for-Glowing-Skin-Are-on-Sal

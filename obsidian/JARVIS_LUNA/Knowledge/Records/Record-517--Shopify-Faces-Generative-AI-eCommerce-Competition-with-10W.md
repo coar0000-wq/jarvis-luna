@@ -3,7 +3,7 @@ title: "Record 517 · Shopify-Faces-Generative-AI-eCommerce-Competition-with-10W
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.045396+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 517 · Shopify-Faces-Generative-AI-eCommerce-Competition-with-10Web---Forbes

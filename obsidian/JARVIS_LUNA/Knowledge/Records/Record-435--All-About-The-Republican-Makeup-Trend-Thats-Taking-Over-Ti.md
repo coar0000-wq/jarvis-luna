@@ -3,7 +3,7 @@ title: "Record 435 · All-About-The-Republican-Makeup-Trend-Thats-Taking-Over-Ti
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.120075+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 435 · All-About-The-Republican-Makeup-Trend-Thats-Taking-Over-TikTok---WWD

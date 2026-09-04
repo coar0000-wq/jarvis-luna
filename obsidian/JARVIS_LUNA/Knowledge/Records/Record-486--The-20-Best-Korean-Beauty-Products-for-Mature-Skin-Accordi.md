@@ -3,7 +3,7 @@ title: "Record 486 · The-20-Best-Korean-Beauty-Products-for-Mature-Skin-Accordi
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.667466+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 486 · The-20-Best-Korean-Beauty-Products-for-Mature-Skin-According-to-a-K-Be

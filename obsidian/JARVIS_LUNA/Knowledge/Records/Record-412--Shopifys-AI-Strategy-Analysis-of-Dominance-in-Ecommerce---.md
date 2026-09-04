@@ -3,7 +3,7 @@ title: "Record 412 · Shopifys-AI-Strategy-Analysis-of-Dominance-in-Ecommerce---
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.906036+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 412 · Shopifys-AI-Strategy-Analysis-of-Dominance-in-Ecommerce---Kloverai

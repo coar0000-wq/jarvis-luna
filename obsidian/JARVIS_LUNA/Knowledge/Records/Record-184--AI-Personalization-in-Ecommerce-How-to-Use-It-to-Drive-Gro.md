@@ -3,7 +3,7 @@ title: "Record 184 · AI-Personalization-in-Ecommerce-How-to-Use-It-to-Drive-Gro
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.865968+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 184 · AI-Personalization-in-Ecommerce-How-to-Use-It-to-Drive-Growth-2026---S

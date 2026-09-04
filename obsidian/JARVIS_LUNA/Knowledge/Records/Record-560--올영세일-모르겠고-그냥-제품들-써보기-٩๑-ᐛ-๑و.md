@@ -3,7 +3,7 @@ title: "Record 560 · 올영세일-모르겠고-그냥-제품들-써보기-٩๑
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.077400+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 560 · 올영세일-모르겠고-그냥-제품들-써보기-٩๑-ᐛ-๑و

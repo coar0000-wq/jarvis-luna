@@ -3,7 +3,7 @@ title: "Record 679 · Say-Goodbye-Bronzing-Drops--Hello-Bronze-Water-Tints-Why-t
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.312874+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 679 · Say-Goodbye-Bronzing-Drops--Hello-Bronze-Water-Tints-Why-the-Victoria-

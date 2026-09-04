@@ -3,7 +3,7 @@ title: "Record 1104 · Learning-a-Continuous-Sepsis-Severity-Score-Without-Hour-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.342097+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1104 · Learning-a-Continuous-Sepsis-Severity-Score-Without-Hour-by-Hour-Super

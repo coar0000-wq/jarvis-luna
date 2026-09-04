@@ -3,7 +3,7 @@ title: "Record 664 · The-Internet-Lied-About-Korean-Skincare"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.404291+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 664 · The-Internet-Lied-About-Korean-Skincare

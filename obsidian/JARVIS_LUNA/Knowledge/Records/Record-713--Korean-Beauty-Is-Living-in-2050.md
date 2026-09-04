@@ -3,7 +3,7 @@ title: "Record 713 · Korean-Beauty-Is-Living-in-2050"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.289372+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 713 · Korean-Beauty-Is-Living-in-2050

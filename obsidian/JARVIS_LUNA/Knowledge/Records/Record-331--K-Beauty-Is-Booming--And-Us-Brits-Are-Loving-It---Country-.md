@@ -3,7 +3,7 @@ title: "Record 331 · K-Beauty-Is-Booming--And-Us-Brits-Are-Loving-It---Country-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.099144+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 331 · K-Beauty-Is-Booming--And-Us-Brits-Are-Loving-It---Country-and-Town-Hou

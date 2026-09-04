@@ -3,7 +3,7 @@ title: "Record 1050 · Shopify-POS-checkout-is-over-a-minute-faster"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.337486+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1050 · Shopify-POS-checkout-is-over-a-minute-faster

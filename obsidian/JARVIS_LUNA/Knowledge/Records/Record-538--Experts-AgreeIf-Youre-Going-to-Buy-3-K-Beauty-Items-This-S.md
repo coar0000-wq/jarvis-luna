@@ -3,7 +3,7 @@ title: "Record 538 · Experts-AgreeIf-Youre-Going-to-Buy-3-K-Beauty-Items-This-S
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.303879+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 538 · Experts-AgreeIf-Youre-Going-to-Buy-3-K-Beauty-Items-This-Summer-It-Sho

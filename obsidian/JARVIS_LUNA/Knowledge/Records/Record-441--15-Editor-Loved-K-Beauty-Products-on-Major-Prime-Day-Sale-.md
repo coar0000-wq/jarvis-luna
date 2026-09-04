@@ -3,7 +3,7 @@ title: "Record 441 · 15-Editor-Loved-K-Beauty-Products-on-Major-Prime-Day-Sale-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.935698+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 441 · 15-Editor-Loved-K-Beauty-Products-on-Major-Prime-Day-Sale---Harpers-BA

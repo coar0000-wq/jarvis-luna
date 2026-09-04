@@ -3,7 +3,7 @@ title: "Record 624 · 진짜-급하게-데이트-갈-준비-GRWM--메이크업-k
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.174459+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 624 · 진짜-급하게-데이트-갈-준비-GRWM--메이크업-kbeauty

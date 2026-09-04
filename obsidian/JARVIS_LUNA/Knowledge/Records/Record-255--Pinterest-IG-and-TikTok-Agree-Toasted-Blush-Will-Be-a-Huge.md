@@ -3,7 +3,7 @@ title: "Record 255 · Pinterest-IG-and-TikTok-Agree-Toasted-Blush-Will-Be-a-Huge
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.493957+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 255 · Pinterest-IG-and-TikTok-Agree-Toasted-Blush-Will-Be-a-Huge-Makeup-Tren

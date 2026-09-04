@@ -3,7 +3,7 @@ title: "Record 082 · How-K-beauty-went-from-a-viral-trend-to-an-economic-powerh
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.060728+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 082 · How-K-beauty-went-from-a-viral-trend-to-an-economic-powerhouse---BBC

@@ -3,7 +3,7 @@ title: "Record 182 · A-Look-Back-on-the-Biggest-K-Beauty-Trends-of-2025---Vogue
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.281936+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 182 · A-Look-Back-on-the-Biggest-K-Beauty-Trends-of-2025---Vogue

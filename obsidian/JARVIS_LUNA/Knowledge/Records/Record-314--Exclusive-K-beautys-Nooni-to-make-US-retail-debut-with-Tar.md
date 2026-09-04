@@ -3,7 +3,7 @@ title: "Record 314 · Exclusive-K-beautys-Nooni-to-make-US-retail-debut-with-Tar
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.838270+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 314 · Exclusive-K-beautys-Nooni-to-make-US-retail-debut-with-Target---Cosmet

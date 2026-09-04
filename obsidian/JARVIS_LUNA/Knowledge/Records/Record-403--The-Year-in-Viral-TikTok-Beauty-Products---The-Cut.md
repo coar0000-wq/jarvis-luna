@@ -3,7 +3,7 @@ title: "Record 403 · The-Year-in-Viral-TikTok-Beauty-Products---The-Cut"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.904463+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 403 · The-Year-in-Viral-TikTok-Beauty-Products---The-Cut

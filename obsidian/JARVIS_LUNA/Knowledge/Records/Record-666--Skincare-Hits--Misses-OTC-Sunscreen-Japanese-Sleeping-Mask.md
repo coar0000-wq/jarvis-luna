@@ -3,7 +3,7 @@ title: "Record 666 · Skincare-Hits--Misses-OTC-Sunscreen-Japanese-Sleeping-Mask
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.093675+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 666 · Skincare-Hits--Misses-OTC-Sunscreen-Japanese-Sleeping-Mask--more

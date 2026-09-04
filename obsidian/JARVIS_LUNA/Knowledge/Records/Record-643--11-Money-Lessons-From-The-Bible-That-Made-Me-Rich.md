@@ -3,7 +3,7 @@ title: "Record 643 · 11-Money-Lessons-From-The-Bible-That-Made-Me-Rich"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.090107+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 643 · 11-Money-Lessons-From-The-Bible-That-Made-Me-Rich

@@ -3,7 +3,7 @@ title: "Record 682 · 3-Viral-Products-Kids-Would-Go-CRAZY-For"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.703533+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 682 · 3-Viral-Products-Kids-Would-Go-CRAZY-For

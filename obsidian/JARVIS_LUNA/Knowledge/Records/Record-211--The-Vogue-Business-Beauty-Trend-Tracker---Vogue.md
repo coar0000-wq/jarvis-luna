@@ -3,7 +3,7 @@ title: "Record 211 · The-Vogue-Business-Beauty-Trend-Tracker---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.080530+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 211 · The-Vogue-Business-Beauty-Trend-Tracker---Vogue

@@ -3,7 +3,7 @@ title: "Record 605 · Shopify-Inc-SHOP-Shows-Why-AI-Search-Could-Become-a-Bigger
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.308182+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 605 · Shopify-Inc-SHOP-Shows-Why-AI-Search-Could-Become-a-Bigger-E-Commerce-

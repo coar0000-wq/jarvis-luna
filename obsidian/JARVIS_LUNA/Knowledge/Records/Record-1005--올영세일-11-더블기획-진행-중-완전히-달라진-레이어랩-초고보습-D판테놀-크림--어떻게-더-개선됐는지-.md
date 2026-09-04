@@ -3,7 +3,7 @@ title: "Record 1005 · 올영세일-11-더블기획-진행-중-완전히-달라�
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.334486+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1005 · 올영세일-11-더블기획-진행-중-완전히-달라진-레이어랩-초고보습-D판테놀-크림--어떻게-더-개선됐는지-철저-분석해-드릴게요

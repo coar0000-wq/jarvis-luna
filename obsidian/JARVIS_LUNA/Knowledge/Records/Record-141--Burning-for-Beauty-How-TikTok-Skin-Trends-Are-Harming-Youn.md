@@ -3,7 +3,7 @@ title: "Record 141 · Burning-for-Beauty-How-TikTok-Skin-Trends-Are-Harming-Youn
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.683417+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 141 · Burning-for-Beauty-How-TikTok-Skin-Trends-Are-Harming-Young-Girls---Sc

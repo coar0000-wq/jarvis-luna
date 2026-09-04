@@ -3,7 +3,7 @@ title: "Record 454 · 2025-Will-Be-the-First-Year-Brands-Develop-an-Agentic-AI-H
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.298704+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 454 · 2025-Will-Be-the-First-Year-Brands-Develop-an-Agentic-AI-Holiday-Strat

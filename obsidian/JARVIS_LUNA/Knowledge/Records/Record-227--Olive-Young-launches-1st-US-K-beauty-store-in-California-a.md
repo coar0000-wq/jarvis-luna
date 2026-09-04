@@ -3,7 +3,7 @@ title: "Record 227 · Olive-Young-launches-1st-US-K-beauty-store-in-California-a
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.665821+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 227 · Olive-Young-launches-1st-US-K-beauty-store-in-California-as-Sephora-an

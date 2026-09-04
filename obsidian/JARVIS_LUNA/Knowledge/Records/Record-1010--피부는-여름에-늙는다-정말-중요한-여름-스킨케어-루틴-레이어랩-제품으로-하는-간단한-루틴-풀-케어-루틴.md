@@ -3,7 +3,7 @@ title: "Record 1010 · 피부는-여름에-늙는다-정말-중요한-여름-스
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.334732+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1010 · 피부는-여름에-늙는다-정말-중요한-여름-스킨케어-루틴-레이어랩-제품으로-하는-간단한-루틴-풀-케어-루틴-윤곽리프팅-관리까지-모

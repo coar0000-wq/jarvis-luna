@@ -3,7 +3,7 @@ title: "Record 060 · ESPO-Error-Structured-Prompt-Optimization-via-Diagnose-Div
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.859266+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 060 · ESPO-Error-Structured-Prompt-Optimization-via-Diagnose-Diversify-and-S

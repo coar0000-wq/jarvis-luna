@@ -3,7 +3,7 @@ title: "Record 386 · This-K-Beauty-Balm-Is-Doing-The-Lords-Work-On-My-Tired-Und
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.716746+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 386 · This-K-Beauty-Balm-Is-Doing-The-Lords-Work-On-My-Tired-Under-Eyes--And

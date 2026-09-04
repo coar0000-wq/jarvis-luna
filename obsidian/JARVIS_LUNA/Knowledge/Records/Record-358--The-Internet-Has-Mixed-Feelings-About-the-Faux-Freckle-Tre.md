@@ -3,7 +3,7 @@ title: "Record 358 · The-Internet-Has-Mixed-Feelings-About-the-Faux-Freckle-Tre
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.376342+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 358 · The-Internet-Has-Mixed-Feelings-About-the-Faux-Freckle-Trend---Hypebae

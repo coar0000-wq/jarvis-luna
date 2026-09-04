@@ -3,7 +3,7 @@ title: "Record 570 · Target-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.277381+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 570 · Target-Beauty

@@ -3,7 +3,7 @@ title: "Record 466 · SHOP-vs-ADBE-Which-Stock-Has-the-Edge-in-AI-Driven-Ecommer
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.037317+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 466 · SHOP-vs-ADBE-Which-Stock-Has-the-Edge-in-AI-Driven-Ecommerce---Zacks-I

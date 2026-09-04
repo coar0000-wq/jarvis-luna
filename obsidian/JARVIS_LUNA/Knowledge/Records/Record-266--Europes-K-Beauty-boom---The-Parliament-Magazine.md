@@ -3,7 +3,7 @@ title: "Record 266 · Europes-K-Beauty-boom---The-Parliament-Magazine"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.009953+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 266 · Europes-K-Beauty-boom---The-Parliament-Magazine

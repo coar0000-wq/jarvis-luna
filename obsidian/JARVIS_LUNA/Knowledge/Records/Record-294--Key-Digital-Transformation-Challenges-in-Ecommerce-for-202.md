@@ -3,7 +3,7 @@ title: "Record 294 · Key-Digital-Transformation-Challenges-in-Ecommerce-for-202
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.013779+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 294 · Key-Digital-Transformation-Challenges-in-Ecommerce-for-2026-and-How-to

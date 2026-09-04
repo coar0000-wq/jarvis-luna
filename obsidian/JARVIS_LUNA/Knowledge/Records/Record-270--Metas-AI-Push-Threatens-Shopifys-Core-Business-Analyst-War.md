@@ -3,7 +3,7 @@ title: "Record 270 · Metas-AI-Push-Threatens-Shopifys-Core-Business-Analyst-War
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.830469+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 270 · Metas-AI-Push-Threatens-Shopifys-Core-Business-Analyst-Warns---Barrons

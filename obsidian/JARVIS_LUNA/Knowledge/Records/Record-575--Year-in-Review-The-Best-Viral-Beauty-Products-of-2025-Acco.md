@@ -3,7 +3,7 @@ title: "Record 575 · Year-in-Review-The-Best-Viral-Beauty-Products-of-2025-Acco
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.928266+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 575 · Year-in-Review-The-Best-Viral-Beauty-Products-of-2025-According-to-a-C

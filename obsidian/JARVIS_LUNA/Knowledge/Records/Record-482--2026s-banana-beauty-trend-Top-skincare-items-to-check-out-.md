@@ -3,7 +3,7 @@ title: "Record 482 · 2026s-banana-beauty-trend-Top-skincare-items-to-check-out-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.632007+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 482 · 2026s-banana-beauty-trend-Top-skincare-items-to-check-out---Prestige-O

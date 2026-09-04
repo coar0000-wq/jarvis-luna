@@ -3,7 +3,7 @@ title: "Record 649 · 피부-뒤집어지면-누구-탓일까"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.177955+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 649 · 피부-뒤집어지면-누구-탓일까

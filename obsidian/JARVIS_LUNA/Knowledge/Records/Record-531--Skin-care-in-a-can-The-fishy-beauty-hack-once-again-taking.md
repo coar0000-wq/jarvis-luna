@@ -3,7 +3,7 @@ title: "Record 531 · Skin-care-in-a-can-The-fishy-beauty-hack-once-again-taking
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.926909+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 531 · Skin-care-in-a-can-The-fishy-beauty-hack-once-again-taking-over-TikTok

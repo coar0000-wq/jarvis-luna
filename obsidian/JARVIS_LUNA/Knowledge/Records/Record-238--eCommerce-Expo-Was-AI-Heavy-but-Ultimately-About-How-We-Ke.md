@@ -3,7 +3,7 @@ title: "Record 238 · eCommerce-Expo-Was-AI-Heavy-but-Ultimately-About-How-We-Ke
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.285381+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 238 · eCommerce-Expo-Was-AI-Heavy-but-Ultimately-About-How-We-Keep-Shopping-

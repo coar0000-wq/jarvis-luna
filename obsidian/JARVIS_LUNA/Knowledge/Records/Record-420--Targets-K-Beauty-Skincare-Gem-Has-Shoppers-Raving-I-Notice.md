@@ -3,7 +3,7 @@ title: "Record 420 · Targets-K-Beauty-Skincare-Gem-Has-Shoppers-Raving-I-Notice
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.095679+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 420 · Targets-K-Beauty-Skincare-Gem-Has-Shoppers-Raving-I-Noticed-a-Differen

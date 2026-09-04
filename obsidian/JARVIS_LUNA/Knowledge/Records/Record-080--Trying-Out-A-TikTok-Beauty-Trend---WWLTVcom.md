@@ -3,7 +3,7 @@ title: "Record 080 · Trying-Out-A-TikTok-Beauty-Trend---WWLTVcom"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.860643+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 080 · Trying-Out-A-TikTok-Beauty-Trend---WWLTVcom

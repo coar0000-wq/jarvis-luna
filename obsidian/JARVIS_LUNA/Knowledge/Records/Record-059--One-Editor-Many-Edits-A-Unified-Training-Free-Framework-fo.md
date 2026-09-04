@@ -3,7 +3,7 @@ title: "Record 059 · One-Editor-Many-Edits-A-Unified-Training-Free-Framework-fo
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.859213+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 059 · One-Editor-Many-Edits-A-Unified-Training-Free-Framework-for-Diverse-Vi

@@ -3,7 +3,7 @@ title: "Record 260 · Out-of-Hundreds-These-Are-Our-Favorite-K-Beauty-Picks-at-N
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.286662+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 260 · Out-of-Hundreds-These-Are-Our-Favorite-K-Beauty-Picks-at-Nordstrom---A

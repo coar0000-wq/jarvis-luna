@@ -3,7 +3,7 @@ title: "Record 675 · What-Comes-After-Strawberry-Makeup-Egg-White-Facials---WWD
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.532022+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 675 · What-Comes-After-Strawberry-Makeup-Egg-White-Facials---WWD

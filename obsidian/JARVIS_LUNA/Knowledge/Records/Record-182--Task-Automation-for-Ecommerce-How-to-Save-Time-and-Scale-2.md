@@ -3,7 +3,7 @@ title: "Record 182 · Task-Automation-for-Ecommerce-How-to-Save-Time-and-Scale-2
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.082164+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 182 · Task-Automation-for-Ecommerce-How-to-Save-Time-and-Scale-2025---Shopif

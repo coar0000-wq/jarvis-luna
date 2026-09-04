@@ -3,7 +3,7 @@ title: "Record 562 · Viral-Japanese-Skincare-YES-or-NO"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.648556+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 562 · Viral-Japanese-Skincare-YES-or-NO

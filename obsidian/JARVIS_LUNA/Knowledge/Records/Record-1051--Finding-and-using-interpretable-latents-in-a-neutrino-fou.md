@@ -3,7 +3,7 @@ title: "Record 1051 · Finding-and-using-interpretable-latents-in-a-neutrino-fou
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.969697+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1051 · Finding-and-using-interpretable-latents-in-a-neutrino-foundation-model

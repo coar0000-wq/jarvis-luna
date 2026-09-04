@@ -3,7 +3,7 @@ title: "Record 472 · What-is-the-Bebot-TikTok-Trend-Meaning-and-Makeup-Guide---
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.064030+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 472 · What-is-the-Bebot-TikTok-Trend-Meaning-and-Makeup-Guide---Inside-Halto

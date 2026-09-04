@@ -3,7 +3,7 @@ title: "Record 422 · Whisper-Soft-Beauty-How-the-Internet-Is-Embracing-the-Demu
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.581952+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 422 · Whisper-Soft-Beauty-How-the-Internet-Is-Embracing-the-Demure-Beauty-Tr

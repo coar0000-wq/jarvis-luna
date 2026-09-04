@@ -3,7 +3,7 @@ title: "Record 025 · Token-Efficient-Data-Reasoning-Agents-via-Adaptive-Structu
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.857052+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 025 · Token-Efficient-Data-Reasoning-Agents-via-Adaptive-Structuring-of-Unst

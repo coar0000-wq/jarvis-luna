@@ -3,7 +3,7 @@ title: "Record 556 · TikTok-is-embracing-dark-eye-circles-and-eye-bagsand-its-m
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.680362+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 556 · TikTok-is-embracing-dark-eye-circles-and-eye-bagsand-its-making-me-fee

@@ -3,7 +3,7 @@ title: "Record 449 · Shopifys-Magic-AI-image-editor-can-make-any-product-pics-l
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.883445+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 449 · Shopifys-Magic-AI-image-editor-can-make-any-product-pics-look-professi

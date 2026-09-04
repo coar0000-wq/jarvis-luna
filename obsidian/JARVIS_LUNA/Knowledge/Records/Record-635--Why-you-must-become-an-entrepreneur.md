@@ -3,7 +3,7 @@ title: "Record 635 · Why-you-must-become-an-entrepreneur"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.401574+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 635 · Why-you-must-become-an-entrepreneur

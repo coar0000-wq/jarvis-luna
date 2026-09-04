@@ -3,7 +3,7 @@ title: "Record 488 · OpenAIs-first-crack-at-online-shopping-stumbled-Its-prepar
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.514759+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 488 · OpenAIs-first-crack-at-online-shopping-stumbled-Its-preparing-for-the-

@@ -3,7 +3,7 @@ title: "Record 249 · Everything-We-Love-About-K-Beauty-Curated-Into-One-Box---A
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.871176+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 249 · Everything-We-Love-About-K-Beauty-Curated-Into-One-Box---Allure

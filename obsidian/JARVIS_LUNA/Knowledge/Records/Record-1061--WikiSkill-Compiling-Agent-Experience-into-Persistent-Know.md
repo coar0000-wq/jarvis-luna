@@ -3,7 +3,7 @@ title: "Record 1061 · WikiSkill-Compiling-Agent-Experience-into-Persistent-Know
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.437880+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1061 · WikiSkill-Compiling-Agent-Experience-into-Persistent-Knowledge-for-Ski

@@ -3,7 +3,7 @@ title: "Record 149 · SEO-Checklist-50-Tips-to-Optimize-Your-Website-2026---Shop
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.103580+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 149 · SEO-Checklist-50-Tips-to-Optimize-Your-Website-2026---Shopify

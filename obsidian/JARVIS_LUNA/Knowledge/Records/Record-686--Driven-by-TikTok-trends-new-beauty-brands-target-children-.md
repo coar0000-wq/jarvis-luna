@@ -3,7 +3,7 @@ title: "Record 686 · Driven-by-TikTok-trends-new-beauty-brands-target-children-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.903892+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 686 · Driven-by-TikTok-trends-new-beauty-brands-target-children---The-Jakart

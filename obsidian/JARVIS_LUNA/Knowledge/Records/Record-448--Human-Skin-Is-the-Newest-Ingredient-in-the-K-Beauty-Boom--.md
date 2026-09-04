@@ -3,7 +3,7 @@ title: "Record 448 · Human-Skin-Is-the-Newest-Ingredient-in-the-K-Beauty-Boom--
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.060334+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 448 · Human-Skin-Is-the-Newest-Ingredient-in-the-K-Beauty-Boom---Bloombergco

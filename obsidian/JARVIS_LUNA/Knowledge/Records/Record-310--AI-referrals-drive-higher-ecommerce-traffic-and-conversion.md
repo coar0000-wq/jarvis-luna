@@ -3,7 +3,7 @@ title: "Record 310 · AI-referrals-drive-higher-ecommerce-traffic-and-conversion
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.038361+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 310 · AI-referrals-drive-higher-ecommerce-traffic-and-conversions---Marketin

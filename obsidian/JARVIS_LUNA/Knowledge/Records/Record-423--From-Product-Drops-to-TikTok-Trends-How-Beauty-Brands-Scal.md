@@ -3,7 +3,7 @@ title: "Record 423 · From-Product-Drops-to-TikTok-Trends-How-Beauty-Brands-Scal
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.907943+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 423 · From-Product-Drops-to-TikTok-Trends-How-Beauty-Brands-Scale-with-Lemon

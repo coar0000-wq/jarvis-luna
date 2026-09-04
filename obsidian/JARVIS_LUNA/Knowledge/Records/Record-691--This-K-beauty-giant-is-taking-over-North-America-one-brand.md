@@ -3,7 +3,7 @@ title: "Record 691 · This-K-beauty-giant-is-taking-over-North-America-one-brand
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.158573+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 691 · This-K-beauty-giant-is-taking-over-North-America-one-brand-at-a-time--

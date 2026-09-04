@@ -3,7 +3,7 @@ title: "Record 522 · Natural-Botox-TikTok-trend-DIY-anti-age-skin-hacks---nss-G
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.874810+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 522 · Natural-Botox-TikTok-trend-DIY-anti-age-skin-hacks---nss-G-Club

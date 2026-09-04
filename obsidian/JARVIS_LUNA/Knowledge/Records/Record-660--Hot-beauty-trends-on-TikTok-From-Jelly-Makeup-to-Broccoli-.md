@@ -3,7 +3,7 @@ title: "Record 660 · Hot-beauty-trends-on-TikTok-From-Jelly-Makeup-to-Broccoli-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.153917+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 660 · Hot-beauty-trends-on-TikTok-From-Jelly-Makeup-to-Broccoli-Freckles---H

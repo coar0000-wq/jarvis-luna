@@ -3,7 +3,7 @@ title: "Record 385 · K-beauty-retailer-Olive-Young-draws-quite-a-crowd-in-Pasad
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.261900+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 385 · K-beauty-retailer-Olive-Young-draws-quite-a-crowd-in-Pasadena-its-firs

@@ -3,7 +3,7 @@ title: "Record 570 · Viral-TikTok-makeup-trends-to-elevate-your-New-Years-glam-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.927576+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 570 · Viral-TikTok-makeup-trends-to-elevate-your-New-Years-glam---HOLA

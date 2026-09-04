@@ -3,7 +3,7 @@ title: "Record 653 · what-my-nighttime-skincare-routine-looks-like-after-having
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.178510+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 653 · what-my-nighttime-skincare-routine-looks-like-after-having-twins-newmo

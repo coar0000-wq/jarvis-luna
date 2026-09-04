@@ -3,7 +3,7 @@ title: "Record 641 · Shopify-partners-with-Liquid-AI-on-product-search-recommen
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.310370+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 641 · Shopify-partners-with-Liquid-AI-on-product-search-recommendations---Di

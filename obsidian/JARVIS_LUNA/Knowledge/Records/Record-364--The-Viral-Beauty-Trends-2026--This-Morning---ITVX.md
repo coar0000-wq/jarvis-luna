@@ -3,7 +3,7 @@ title: "Record 364 · The-Viral-Beauty-Trends-2026--This-Morning---ITVX"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.293007+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 364 · The-Viral-Beauty-Trends-2026--This-Morning---ITVX

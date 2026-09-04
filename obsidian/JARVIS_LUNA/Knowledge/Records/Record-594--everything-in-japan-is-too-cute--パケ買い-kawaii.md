@@ -3,7 +3,7 @@ title: "Record 594 · everything-in-japan-is-too-cute--パケ買い-kawaii"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.055977+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 594 · everything-in-japan-is-too-cute--パケ買い-kawaii

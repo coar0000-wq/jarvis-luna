@@ -3,7 +3,7 @@ title: "Record 1044 · VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native-Visua
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.636165+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, arxiv]
 ---
 
 # Record 1044 · VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native-Visual-Reasoning

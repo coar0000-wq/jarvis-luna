@@ -3,7 +3,7 @@ title: "Record 575 · 잇팁이-연락-안-보는-이유-istp-잇팁"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.396298+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 575 · 잇팁이-연락-안-보는-이유-istp-잇팁

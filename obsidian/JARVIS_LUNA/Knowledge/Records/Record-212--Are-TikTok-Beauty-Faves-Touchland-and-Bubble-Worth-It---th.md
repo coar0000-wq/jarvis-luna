@@ -3,7 +3,7 @@ title: "Record 212 · Are-TikTok-Beauty-Faves-Touchland-and-Bubble-Worth-It---th
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.870883+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 212 · Are-TikTok-Beauty-Faves-Touchland-and-Bubble-Worth-It---thekitca

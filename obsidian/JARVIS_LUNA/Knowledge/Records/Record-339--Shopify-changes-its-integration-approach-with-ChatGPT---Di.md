@@ -3,7 +3,7 @@ title: "Record 339 · Shopify-changes-its-integration-approach-with-ChatGPT---Di
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.043433+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 339 · Shopify-changes-its-integration-approach-with-ChatGPT---Digital-Commer

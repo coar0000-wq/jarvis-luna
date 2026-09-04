@@ -3,7 +3,7 @@ title: "Record 449 · From-latte-makeup-to-girl-dinners-TikTok-has-launched-tons
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.150472+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 449 · From-latte-makeup-to-girl-dinners-TikTok-has-launched-tons-of-trends-W

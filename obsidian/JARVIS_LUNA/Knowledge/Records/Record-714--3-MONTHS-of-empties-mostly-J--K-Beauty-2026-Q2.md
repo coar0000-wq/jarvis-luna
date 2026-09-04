@@ -3,7 +3,7 @@ title: "Record 714 · 3-MONTHS-of-empties-mostly-J--K-Beauty-2026-Q2"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.709434+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 714 · 3-MONTHS-of-empties-mostly-J--K-Beauty-2026-Q2

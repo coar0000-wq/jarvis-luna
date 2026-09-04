@@ -3,7 +3,7 @@ title: "Record 310 · New-Ecommerce-Tools-August-19-2026---Practical-Ecommerce"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.498973+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 310 · New-Ecommerce-Tools-August-19-2026---Practical-Ecommerce

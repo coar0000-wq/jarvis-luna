@@ -3,7 +3,7 @@ title: "Record 234 · Ecommerce-Fraud-Management-in-the-AI-Era-A-2026-Guide---Sh
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.914629+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 234 · Ecommerce-Fraud-Management-in-the-AI-Era-A-2026-Guide---Shopify

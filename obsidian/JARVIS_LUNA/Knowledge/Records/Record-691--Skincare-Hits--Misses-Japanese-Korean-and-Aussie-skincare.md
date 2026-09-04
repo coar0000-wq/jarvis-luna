@@ -3,7 +3,7 @@ title: "Record 691 · Skincare-Hits--Misses-Japanese-Korean-and-Aussie-skincare"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.406796+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 691 · Skincare-Hits--Misses-Japanese-Korean-and-Aussie-skincare

@@ -3,7 +3,7 @@ title: "Record 1005 · Skincare-Hits--Misses-OTC-Sunscreen-Japanese-Sleeping-Mas
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.189475+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1005 · Skincare-Hits--Misses-OTC-Sunscreen-Japanese-Sleeping-Mask--more

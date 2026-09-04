@@ -3,7 +3,7 @@ title: "Record 1003 · Olivia-Dean-I-Really-Expected-More-From-You"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.189165+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1003 · Olivia-Dean-I-Really-Expected-More-From-You

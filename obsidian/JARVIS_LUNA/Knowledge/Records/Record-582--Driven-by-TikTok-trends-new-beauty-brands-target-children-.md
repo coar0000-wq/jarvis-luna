@@ -3,7 +3,7 @@ title: "Record 582 · Driven-by-TikTok-trends-new-beauty-brands-target-children-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.142060+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 582 · Driven-by-TikTok-trends-new-beauty-brands-target-children---The-Japan-

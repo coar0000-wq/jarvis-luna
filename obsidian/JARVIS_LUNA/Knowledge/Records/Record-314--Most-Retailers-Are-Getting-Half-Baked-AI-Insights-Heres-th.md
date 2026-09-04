@@ -3,7 +3,7 @@ title: "Record 314 · Most-Retailers-Are-Getting-Half-Baked-AI-Insights-Heres-th
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.372267+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 314 · Most-Retailers-Are-Getting-Half-Baked-AI-Insights-Heres-the-Fix---Shop

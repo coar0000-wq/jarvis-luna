@@ -3,7 +3,7 @@ title: "Record 430 · Shopify-Defies-Logic-AI-Disruption-Is-a-Good-Thing---Marke
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.147911+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 430 · Shopify-Defies-Logic-AI-Disruption-Is-a-Good-Thing---MarketBeat

@@ -3,7 +3,7 @@ title: "Record 459 · How-Far-Can-the-K-beauty-Craze-Go---WWD"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.662474+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 459 · How-Far-Can-the-K-beauty-Craze-Go---WWD

@@ -3,7 +3,7 @@ title: "Record 664 · Skin-Care-Myths-I-Used-To-Believe-and-you-might-still-too"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.285260+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 664 · Skin-Care-Myths-I-Used-To-Believe-and-you-might-still-too

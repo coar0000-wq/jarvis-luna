@@ -3,7 +3,7 @@ title: "Record 453 · Is-Changing-Your-Eye-Color-Worth-Going-Blind---Hypebae"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.661372+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 453 · Is-Changing-Your-Eye-Color-Worth-Going-Blind---Hypebae

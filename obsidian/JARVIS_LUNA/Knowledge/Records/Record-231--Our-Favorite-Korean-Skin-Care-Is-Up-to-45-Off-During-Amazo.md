@@ -3,7 +3,7 @@ title: "Record 231 · Our-Favorite-Korean-Skin-Care-Is-Up-to-45-Off-During-Amazo
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.023987+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 231 · Our-Favorite-Korean-Skin-Care-Is-Up-to-45-Off-During-Amazons-Big-Sprin

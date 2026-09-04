@@ -3,7 +3,7 @@ title: "Record 1014 · How-To-Start-A-1-Person-AI-Business-0-to-1M"
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.941047+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record, youtube]
 ---
 
 # Record 1014 · How-To-Start-A-1-Person-AI-Business-0-to-1M

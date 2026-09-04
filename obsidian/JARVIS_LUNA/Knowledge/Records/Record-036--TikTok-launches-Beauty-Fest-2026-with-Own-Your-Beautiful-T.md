@@ -3,7 +3,7 @@ title: "Record 036 · TikTok-launches-Beauty-Fest-2026-with-Own-Your-Beautiful-T
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:58.992432+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 036 · TikTok-launches-Beauty-Fest-2026-with-Own-Your-Beautiful-The-Glow-Up-M

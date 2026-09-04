@@ -3,7 +3,7 @@ title: "Record 399 · Places-to-Shop-for-Skincare-Essentials-Online---Luxury-Tra
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.052819+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 399 · Places-to-Shop-for-Skincare-Essentials-Online---Luxury-Travel-Magazine

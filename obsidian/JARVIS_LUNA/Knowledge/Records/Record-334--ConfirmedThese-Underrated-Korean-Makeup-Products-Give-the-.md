@@ -3,7 +3,7 @@ title: "Record 334 · ConfirmedThese-Underrated-Korean-Makeup-Products-Give-the-
 type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.841845+00:00
-tags: [{', '.join(tags)}]
+tags: [knowledge-graph, record]
 ---
 
 # Record 334 · ConfirmedThese-Underrated-Korean-Makeup-Products-Give-the-Most-Natural
