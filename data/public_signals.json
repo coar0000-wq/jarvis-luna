@@ -1,0 +1,511 @@
+{
+  "generated_at": "2026-09-04T07:08:27.590355+00:00",
+  "generator": "scripts/collect_public_signals.py",
+  "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
+  "total": 68,
+  "sources": {
+    "google_trends_us": {
+      "status": "ok",
+      "reason": "",
+      "source": "trends.google.com/trending/rss?geo=US (공식 RSS)",
+      "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
+      "items": [
+        {
+          "keyword": "technology news",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Thu, 3 Sep 2026 22:00:00 -0700",
+          "source_name": "XBOX Wire",
+          "url": "https://trends.google.com/trending?geo=US&q=technology%20news"
+        },
+        {
+          "keyword": "何勇",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 3 Sep 2026 22:50:00 -0700",
+          "source_name": "凤凰网",
+          "url": "https://trends.google.com/trending?geo=US&q=%E4%BD%95%E5%8B%87"
+        },
+        {
+          "keyword": "tarik skubal",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 3 Sep 2026 22:40:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=tarik%20skubal"
+        },
+        {
+          "keyword": "cryptocurrency trading",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 3 Sep 2026 23:50:00 -0700",
+          "source_name": "Reuters",
+          "url": "https://trends.google.com/trending?geo=US&q=cryptocurrency%20trading"
+        },
+        {
+          "keyword": "miami hurricanes football",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 3 Sep 2026 23:20:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=miami%20hurricanes%20football"
+        },
+        {
+          "keyword": "shilo sanders",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 3 Sep 2026 22:50:00 -0700",
+          "source_name": "USA Today",
+          "url": "https://trends.google.com/trending?geo=US&q=shilo%20sanders"
+        },
+        {
+          "keyword": "amc stock",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 3 Sep 2026 22:50:00 -0700",
+          "source_name": "CoinDesk",
+          "url": "https://trends.google.com/trending?geo=US&q=amc%20stock"
+        },
+        {
+          "keyword": "brendan fraser",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 3 Sep 2026 22:20:00 -0700",
+          "source_name": "IMDb",
+          "url": "https://trends.google.com/trending?geo=US&q=brendan%20fraser"
+        },
+        {
+          "keyword": "kyle tucker",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 3 Sep 2026 22:20:00 -0700",
+          "source_name": "FantasyPros",
+          "url": "https://trends.google.com/trending?geo=US&q=kyle%20tucker"
+        },
+        {
+          "keyword": "riley o'brien",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 3 Sep 2026 22:10:00 -0700",
+          "source_name": "NBC Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=riley%20o%27brien"
+        }
+      ]
+    },
+    "wikipedia_interest": {
+      "status": "ok",
+      "reason": "",
+      "source": "wikimedia.org REST pageviews API (공식)",
+      "note": "2026-08-04 ~ 2026-09-02 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "errors": [],
+      "items": [
+        {
+          "topic": "Niacinamide",
+          "days": 30,
+          "total_views": 1194,
+          "avg_daily": 40,
+          "recent_avg": 44,
+          "prev_avg": 35,
+          "change_pct": 24.9,
+          "url": "https://en.wikipedia.org/wiki/Niacinamide"
+        },
+        {
+          "topic": "Snail slime",
+          "days": 30,
+          "total_views": 2135,
+          "avg_daily": 71,
+          "recent_avg": 77,
+          "prev_avg": 65,
+          "change_pct": 18.3,
+          "url": "https://en.wikipedia.org/wiki/Snail_slime"
+        },
+        {
+          "topic": "Centella asiatica",
+          "days": 30,
+          "total_views": 14575,
+          "avg_daily": 486,
+          "recent_avg": 506,
+          "prev_avg": 466,
+          "change_pct": 8.7,
+          "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
+        },
+        {
+          "topic": "Hyaluronic acid",
+          "days": 30,
+          "total_views": 17001,
+          "avg_daily": 567,
+          "recent_avg": 559,
+          "prev_avg": 574,
+          "change_pct": -2.6,
+          "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
+        },
+        {
+          "topic": "Retinol",
+          "days": 30,
+          "total_views": 11450,
+          "avg_daily": 382,
+          "recent_avg": 375,
+          "prev_avg": 388,
+          "change_pct": -3.5,
+          "url": "https://en.wikipedia.org/wiki/Retinol"
+        },
+        {
+          "topic": "K-beauty",
+          "days": 30,
+          "total_views": 4564,
+          "avg_daily": 152,
+          "recent_avg": 138,
+          "prev_avg": 166,
+          "change_pct": -17.0,
+          "url": "https://en.wikipedia.org/wiki/K-beauty"
+        },
+        {
+          "topic": "Sunscreen",
+          "days": 30,
+          "total_views": 19838,
+          "avg_daily": 661,
+          "recent_avg": 524,
+          "prev_avg": 799,
+          "change_pct": -34.4,
+          "url": "https://en.wikipedia.org/wiki/Sunscreen"
+        },
+        {
+          "topic": "Cosmetics",
+          "days": 30,
+          "total_views": 27488,
+          "avg_daily": 916,
+          "recent_avg": 705,
+          "prev_avg": 1127,
+          "change_pct": -37.4,
+          "url": "https://en.wikipedia.org/wiki/Cosmetics"
+        }
+      ]
+    },
+    "allure_media": {
+      "status": "ok",
+      "reason": "",
+      "source": "allure.com/feed/rss",
+      "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
+      "items": [
+        {
+          "title": "Fall 2026 Makeup Trends Put Your Best Features Front and Center — See Photos",
+          "published": "Fri, 04 Sep 2026 00:00:00 +0000",
+          "url": "https://www.allure.com/story/fall-makeup-trends-2026"
+        },
+        {
+          "title": "Hairstylist Frédéric Fekkai Is Being Sued by Epstein Survivors for Allegedly Enabling Gender-Motivated Violence",
+          "published": "Thu, 03 Sep 2026 22:50:04 +0000",
+          "url": "https://www.allure.com/story/hairstylist-frederic-fekkai-lawsuit-grooming-accusations"
+        },
+        {
+          "title": "A New Report on Plastic Surgery Trends Shows Americans Over 66 Want to Be Snatched, Too",
+          "published": "Thu, 03 Sep 2026 22:31:50 +0000",
+          "url": "https://www.allure.com/story/asps-plastic-surgery-trends-2025"
+        },
+        {
+          "title": "9 Best Leave-in Conditioners for Fine Hair 2026 That Won't Nix Volume",
+          "published": "Thu, 03 Sep 2026 17:34:36 +0000",
+          "url": "https://www.allure.com/story/leave-in-conditioners-for-fine-hair"
+        },
+        {
+          "title": "Ulta Beauty Is Using Flock Cameras at Some Stores",
+          "published": "Thu, 03 Sep 2026 17:06:58 +0000",
+          "url": "https://www.allure.com/story/ulta-beauty-flock-petition"
+        },
+        {
+          "title": "6 Best Products for Hair Breakage for Stronger, Healthier-Looking Strands",
+          "published": "Wed, 02 Sep 2026 20:56:48 +0000",
+          "url": "https://www.allure.com/story/best-products-for-hair-breakage"
+        },
+        {
+          "title": "How Meta's Filter Ban for Minors Could Look in Practice",
+          "published": "Wed, 02 Sep 2026 14:49:13 +0000",
+          "url": "https://www.allure.com/story/meta-beauty-filter-ban-teens"
+        },
+        {
+          "title": "How to Make Your Eyes Look More Open With Makeup—Photos",
+          "published": "Wed, 02 Sep 2026 12:00:00 +0000",
+          "url": "https://www.allure.com/story/make-eyes-look-open-with-makeup"
+        },
+        {
+          "title": "8 Best Foundations for Oily Skin for a Smooth, Natural-Looking Finish",
+          "published": "Tue, 01 Sep 2026 20:20:07 +0000",
+          "url": "https://www.allure.com/story/best-foundation-for-acne"
+        },
+        {
+          "title": "Your Guide to the Perfumes That Last All Day and Night",
+          "published": "Tue, 01 Sep 2026 19:50:47 +0000",
+          "url": "https://www.allure.com/story/longest-lasting-perfumes"
+        },
+        {
+          "title": "Maura Higgins's Hair Is Proof That Time-Travel Is Real — See Photos",
+          "published": "Tue, 01 Sep 2026 19:32:25 +0000",
+          "url": "https://www.allure.com/story/maura-higgins-retro-hair-us-open"
+        },
+        {
+          "title": "Why the Met Gala 2027 Theme Should Be Dolly Parton",
+          "published": "Tue, 01 Sep 2026 14:48:37 +0000",
+          "url": "https://www.allure.com/story/met-gala-2027-theme-dolly-parton"
+        },
+        {
+          "title": "What Dermatologists Want Black Patients to Know About Follicular Eczema",
+          "published": "Tue, 01 Sep 2026 14:30:00 +0000",
+          "url": "https://www.allure.com/story/follicular-eczema-black-brown-skin"
+        },
+        {
+          "title": "Olivia Munn on Breastfeeding, Postpartum Anxiety, and Choosing Surgical Menopause",
+          "published": "Tue, 01 Sep 2026 12:25:58 +0000",
+          "url": "https://www.allure.com/story/olivia-munn-perspectives-episode-teaser"
+        },
+        {
+          "title": "We Were the First Editors to Try the New $499 Dyson Toothbrush",
+          "published": "Tue, 01 Sep 2026 09:30:00 +0000",
+          "url": "https://www.allure.com/story/dyson-camerajet-launch-september-2026"
+        },
+        {
+          "title": "The Fall Pedicure Colors of 2026 Will Have You Feeling Extra Cozy",
+          "published": "Tue, 01 Sep 2026 01:30:00 +0000",
+          "url": "https://www.allure.com/story/fall-pedicure-colors-2026"
+        },
+        {
+          "title": "September Allure Beauty Box Review",
+          "published": "Mon, 31 Aug 2026 16:00:00 +0000",
+          "url": "https://www.allure.com/story/september-allure-beauty-box-26"
+        },
+        {
+          "title": "Zara Larsson's Swan Eye Makeup Is a Literal Flight of Fancy",
+          "published": "Mon, 31 Aug 2026 14:15:41 +0000",
+          "url": "https://www.allure.com/story/zara-larsson-swan-eye-makeup"
+        },
+        {
+          "title": "6 Best Highlighters 2026 for Everyday Dew or Full-On Sparkle",
+          "published": "Sun, 30 Aug 2026 12:00:00 +0000",
+          "url": "https://www.allure.com/story/best-highlighters"
+        },
+        {
+          "title": "8 Best Body Butters to Moisturize, Nourish, and Soothe Dry Skin",
+          "published": "Sat, 29 Aug 2026 12:00:00 +0000",
+          "url": "https://www.allure.com/story/best-body-butter"
+        },
+        {
+          "title": "Volufiline Users Say It’s “Filler in a Bottle”—But Is It?",
+          "published": "Fri, 28 Aug 2026 22:00:00 +0000",
+          "url": "https://www.allure.com/story/volufiline"
+        },
+        {
+          "title": "Dolly Parton Embraced Plastic Surgery. She Was Still a Natural Beauty.",
+          "published": "Fri, 28 Aug 2026 20:30:18 +0000",
+          "url": "https://www.allure.com/story/dolly-parton-beauty-choices-plastic-surgery-reactions"
+        },
+        {
+          "title": "Do Peptide Serums Actually Help With Thinning Hair? Here's What Derms Say",
+          "published": "Fri, 28 Aug 2026 20:21:53 +0000",
+          "url": "https://www.allure.com/story/best-peptide-hair-serum"
+        },
+        {
+          "title": "It’s Not Just Hype—Rōz Delivers Your Easiest Hair Days Yet",
+          "published": "Fri, 28 Aug 2026 17:37:54 +0000",
+          "url": "https://www.allure.com/story/best-roz-products"
+        },
+        {
+          "title": "Petrichor Fragrances Were Made for the Dog Days of Summer",
+          "published": "Thu, 27 Aug 2026 15:27:13 +0000",
+          "url": "https://www.allure.com/story/petrichor-fragrance-trend"
+        },
+        {
+          "title": "Maisie Williams Went Full '90s Updo at the Practical Magic Premiere—See the Photos",
+          "published": "Thu, 27 Aug 2026 15:26:42 +0000",
+          "url": "https://www.allure.com/story/maisie-williams-practical-magic-2-updo"
+        },
+        {
+          "title": "‘The Shards’: All the ‘80s Hair Details From Episode 6",
+          "published": "Thu, 27 Aug 2026 07:09:00 +0000",
+          "url": "https://www.allure.com/story/the-shards-season-1-lead-hairstylist-interview"
+        },
+        {
+          "title": "Vanilla Chrome Nails Are the Sweetest Way to Wear a White Manicure",
+          "published": "Wed, 26 Aug 2026 20:07:01 +0000",
+          "url": "https://www.allure.com/story/vanilla-chrome-nail-trend"
+        },
+        {
+          "title": "The 9 Best Products for Low-Porosity Hair Won’t Weigh Down Your Strands",
+          "published": "Wed, 26 Aug 2026 15:39:16 +0000",
+          "url": "https://www.allure.com/story/best-products-for-low-porosity-hair"
+        },
+        {
+          "title": "Target Launches 90-Brand Beauty Studio Following Costume Backlash",
+          "published": "Wed, 26 Aug 2026 14:45:39 +0000",
+          "url": "https://www.allure.com/story/target-beauty-studio-backlash-launch"
+        }
+      ]
+    },
+    "openfda_sunscreen": {
+      "status": "ok",
+      "reason": "",
+      "source": "api.fda.gov/drug/label (openFDA 공식)",
+      "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
+      "items": [
+        {
+          "brand": "FOREVER SKIN GLOW 24h wear radiant foundation Perfection and hydration Concentrated floral skincare with suncreen Broad spectrum SPF 15 00",
+          "manufacturer": "Parfums Christian Dior",
+          "spl_id": "1f013e61-f171-2ae2-e063-6294a90adcf1",
+          "active_ingredient": "Active ingredients Octinoxate 4.50 % Titanium Dioxide 4.23 % Purpose Sunscreen",
+          "warnings_excerpt": "Warnings For external use only. Do not use on damaged or broken skin. When using this product, keep out of eyes. Rinse with water to remove. Stop use and ask a doctor if rash occurs. Keep out of reach of children. If swa",
+          "url": "https://api.fda.gov/drug/label.json?search=id:1f013e61-f171-2ae2-e063-6294a90adcf1"
+        },
+        {
+          "brand": "Olay Regenerist Regenerating with Sunscreen Broad Spectrum SPF 15",
+          "manufacturer": "The Procter & Gamble Manufacturing Company",
+          "spl_id": "46425877-3cf0-6496-e063-6294a90acf37",
+          "active_ingredient": "Active ingredients Purpose Avobenzone 3.0% Sunscreen Homosalate 4.0% Sunscreen Octisalate 4.5% Sunscreen Octocrylene 2.6% Sunscreen",
+          "warnings_excerpt": "Warnings For external use only Do not use on damaged or broken skin When using this product keep out of eyes. Rinse with water to remove. Stop use and ask a doctor if rash occurs Keep out of reach of children. If product",
+          "url": "https://api.fda.gov/drug/label.json?search=id:46425877-3cf0-6496-e063-6294a90acf37"
+        },
+        {
+          "brand": "Eminence Radiant Protection SPF Fluid",
+          "manufacturer": "Eminence Organic Skin Care",
+          "spl_id": "2737f1e2-08e3-0e06-e063-6394a90a8159",
+          "active_ingredient": null,
+          "warnings_excerpt": "For external use only Do not use on damaged or broken skin When using this product keep out of eyes. Rinse with water to remove Stop use and ask doctor if rash occurs",
+          "url": "https://api.fda.gov/drug/label.json?search=id:2737f1e2-08e3-0e06-e063-6394a90a8159"
+        },
+        {
+          "brand": "Neutrogena Mineral Invisible Daily Defense Face Sunscreen Broad Spectrum SPF 30",
+          "manufacturer": "Kenvue Brands LLC",
+          "spl_id": "3afd4f97-ceb8-c70f-e063-6394a90afeb4",
+          "active_ingredient": "Active ingredients Purpose Titanium Dioxide (4.9%) Sunscreen Zinc Oxide (21.6%) Sunscreen",
+          "warnings_excerpt": "Warnings For external use only Do not use ​• on damaged or broken skin When using this product keep out of eyes. Rinse with water to remove. Stop use and ask a doctor if • rash occurs. Keep out of reach of children. If s",
+          "url": "https://api.fda.gov/drug/label.json?search=id:3afd4f97-ceb8-c70f-e063-6394a90afeb4"
+        },
+        {
+          "brand": "MediChoice Moisturizing Lip Balm SPF15",
+          "manufacturer": "O&M HALYARD, INC.",
+          "spl_id": "40b41656-3e4a-5597-e063-6394a90a952a",
+          "active_ingredient": "Active Ingredients: Avobenzone 3.0% Octinoxate 6.5% Octisalate 5.0% Octocrylene 1.5% Purpose Sunscreen",
+          "warnings_excerpt": "Warnings For external use only Do not use on damaged or broken skin Stop use and ask a doctor if rash occurs When using this product keep out of eyes. Rinse with water to remove. Keep out of reach of children. If swallow",
+          "url": "https://api.fda.gov/drug/label.json?search=id:40b41656-3e4a-5597-e063-6394a90a952a"
+        },
+        {
+          "brand": "Artistry Youth Xtend Lifting Smoothing Foundation Shade Chiffon L2C1",
+          "manufacturer": "Amway Corp",
+          "spl_id": "085b50a9-68d7-d6e6-e063-6394a90a09be",
+          "active_ingredient": "Active Ingredients Octinoxate 7.5% (W/W / P/P) Oxybenzone 0.5% (W/W P/P) Purpose Sunscreen",
+          "warnings_excerpt": "Warnings For external use only Do not use on broken or damaged skin When using this product keep out of eyes. Rinse with water to remove. Stop use and ask a doctor if rash occurs Keep out of reach of children. If product",
+          "url": "https://api.fda.gov/drug/label.json?search=id:085b50a9-68d7-d6e6-e063-6394a90a09be"
+        },
+        {
+          "brand": "Private Label Moisturizing Oil Free Paraben Free SPF43",
+          "manufacturer": "Swiss-American CDMO, LLC",
+          "spl_id": "4e399a9d-b92c-4483-962a-4d65f8cddc30",
+          "active_ingredient": "Active Ingredients Zinc Oxide 7.50% Octinoxate 7.50% Octisalate 2.50%",
+          "warnings_excerpt": "Warnings For external use only. Do not use on damaged or broken skin. Stope use and ask doctor if rash occurs. When using the product keep out of eyes; rinse with water to remove. Keep out of reach of children. If swallo",
+          "url": "https://api.fda.gov/drug/label.json?search=id:4e399a9d-b92c-4483-962a-4d65f8cddc30"
+        },
+        {
+          "brand": "Triple Prep SPF 40",
+          "manufacturer": "Supergoop, LLC",
+          "spl_id": "47fc4312-dc25-9486-e063-6394a90a0899",
+          "active_ingredient": "Active Ingredients: Avobenzone 3%, Homosalate 7%, Octisalate 5%, Octocrylene 6%",
+          "warnings_excerpt": "For External use only Do not use on damaged or broken skin When using this product , keep out of eyes. Rinse with water to remove",
+          "url": "https://api.fda.gov/drug/label.json?search=id:47fc4312-dc25-9486-e063-6394a90a0899"
+        },
+        {
+          "brand": "KIZO LAB UV DEFENSE CLEAR SUNSCREN SPF50",
+          "manufacturer": "YB CHEMIA LLC",
+          "spl_id": "497ed1ba-ebe5-a00a-e063-6394a90a447c",
+          "active_ingredient": "Active Ingredients Drug Facts Active Ingredients ……………….….. Purpose Avobenzone 3.0% ……………… Sunscreen Homosalate 8.0% ……………… Sunscreen Octisalate 5.0% ……………… Sunscreen Octocrylene 4.0% ……………… Sunscreen",
+          "warnings_excerpt": "WARNINGS For external use only Do not use on damaged or broken skin Stop use and ask a doctor if rash occurs When using this product keep out of eyes. Rinse with water to remove.",
+          "url": "https://api.fda.gov/drug/label.json?search=id:497ed1ba-ebe5-a00a-e063-6394a90a447c"
+        },
+        {
+          "brand": "Reef Kids SPF 30 Oxybenzone Free",
+          "manufacturer": "Tropical Seas, Inc.",
+          "spl_id": "42c9f9a6-e079-6f4f-e063-6394a90afca4",
+          "active_ingredient": "Active Ingredients Octocrylene 5.0% Octisalate 3.0% Avobenzone 2.5%",
+          "warnings_excerpt": "Warnings For external use only Flammable: Do not use near heat, flame, or while smoking Do not use on damaged or broken skin When using this product : Keep out of eyes. Rinse with water to remove. Do not puncture or inci",
+          "url": "https://api.fda.gov/drug/label.json?search=id:42c9f9a6-e079-6f4f-e063-6394a90afca4"
+        },
+        {
+          "brand": "Botnia Gentle Sun SPF 30",
+          "manufacturer": "Botnia, Inc",
+          "spl_id": "4c1e721a-a8f5-db1b-e063-6294a90a0a26",
+          "active_ingredient": "Active ingredient Zinc Oxide 18.00 % Purpose Sunscreen",
+          "warnings_excerpt": "Warnings: For external use only Do not use On damaged or broken skin. When using this product keep out of eyes. Rinse with water to remove. Stop use and ask a doctor if rash or irritation develops and lasts. Keep out of ",
+          "url": "https://api.fda.gov/drug/label.json?search=id:4c1e721a-a8f5-db1b-e063-6294a90a0a26"
+        },
+        {
+          "brand": "Clear Acne Spot Treatment",
+          "manufacturer": "Kamedis",
+          "spl_id": "d8bfce91-7eeb-4696-ae5f-b4fa7514f928",
+          "active_ingredient": "Active Ingredient Salicylic Acid 2.0%",
+          "warnings_excerpt": "Warnings For external use only",
+          "url": "https://api.fda.gov/drug/label.json?search=id:d8bfce91-7eeb-4696-ae5f-b4fa7514f928"
+        },
+        {
+          "brand": "BOTANICAL SOOTHING SPF-30",
+          "manufacturer": "CONTROL CORRECTIVE SKINCARE INC",
+          "spl_id": "474bb04f-2be5-2dd9-e063-6394a90a6a3c",
+          "active_ingredient": "ACTIVE INGREDIENTS OCTINOXATE (6.9%) OCTISALATE (3.0%) ZINC OXIDE (4.0%)",
+          "warnings_excerpt": "WARNING FOR EXTERNAL USE ONLY. WHEN USING THIS PRODUCT, AVOID CONTACT WITH EYES. IF CONTACT OCCURS, RINSE THOROUGHLY WITH WATER. DISCONTINUE USE AND ASK A DOCTOR IF IRRITATION OR RASH DEVELOPS.",
+          "url": "https://api.fda.gov/drug/label.json?search=id:474bb04f-2be5-2dd9-e063-6394a90a6a3c"
+        },
+        {
+          "brand": "Equate Beauty Daily Moisturizer SPF-30 Sunscreen",
+          "manufacturer": "Wal-Mart Stores, Inc.",
+          "spl_id": "27485ab0-a7d5-4c16-92b2-fd89bbeadbec",
+          "active_ingredient": "Active ingredients Purpose Avobenzone 3% Sunscreen Homosalate 15% Sunscreen Octisalate 5% Sunscreen Octocrylene 3% Sunscreen Oxybenzone 6% Sunscreen",
+          "warnings_excerpt": "Warnings For external use only Do not use on damaged or broken skin When using this product keep out of eyes. Rinse with water to remove Stop use and ask a doctor if rash occurs Keep out of reach of children. If swallowe",
+          "url": "https://api.fda.gov/drug/label.json?search=id:27485ab0-a7d5-4c16-92b2-fd89bbeadbec"
+        },
+        {
+          "brand": "glo SKIN BEAUTY Oil-Free Tinted Primer SPF 30",
+          "manufacturer": "Hayden Caleel LLC",
+          "spl_id": "2bc36c49-aa1b-89e9-e063-6294a90ae445",
+          "active_ingredient": "Active Ingredients Zinc Oxide 23%",
+          "warnings_excerpt": "Warnings For external use only Do not use on damaged or broken skin When using this product keep out of eyes. Rinse with water to remove. Stop use and ask a docor if rash occurs Keep out of reach of children. If swalled,",
+          "url": "https://api.fda.gov/drug/label.json?search=id:2bc36c49-aa1b-89e9-e063-6294a90ae445"
+        },
+        {
+          "brand": "Note Mattifying Extreme Wear Foundation",
+          "manufacturer": "ALTONA COSMETICS TECHNOLOGY SANAYI VE TICARET ANONIM SIRKETI",
+          "spl_id": "21ef0439-4272-27c0-e063-6394a90a625a",
+          "active_ingredient": "Active ingredient Octinoxate 0.6% Purpose Sunscreen",
+          "warnings_excerpt": "Warnings For external use only Do not use on damaged or broken skin When using this product keep out of eyes, Rinse with water to remove. Stop use and ask a doctor if rash occurs Keep out of reach of children. If swallow",
+          "url": "https://api.fda.gov/drug/label.json?search=id:21ef0439-4272-27c0-e063-6394a90a625a"
+        },
+        {
+          "brand": "NATURIUM Dew-Glow Moisturizer SPF 50",
+          "manufacturer": "PML NYC, LLC",
+          "spl_id": "4f7828b7-bf2d-e4e7-e063-6294a90a3e0f",
+          "active_ingredient": "Active Ingredients Avobenzone 3% Homosalate 10% Octisalate 5%",
+          "warnings_excerpt": "Warnings For external use only. Do not use on damaged or broken skin. Stop use and ask doctor if rash occurs.",
+          "url": "https://api.fda.gov/drug/label.json?search=id:4f7828b7-bf2d-e4e7-e063-6294a90a3e0f"
+        },
+        {
+          "brand": "Dior Backstage Glow-Up Skin Tint Tinted Moisturizer SPF 20 9N Neutral",
+          "manufacturer": "Parfums Christian Dior",
+          "spl_id": "50aef1c6-fb2a-9b54-e063-6294a90aeed0",
+          "active_ingredient": "Active ingredients Octisalate 4.50% Titanium dioxide 1.41% Purpose Sunscreen",
+          "warnings_excerpt": "Warnings For external use only. Do not use on damaged or broken skin. When using this product, keep out of eyes. Rinse with water to remove. Stop use and ask a doctor if rash occurs. Keep out of reach of children. If swa",
+          "url": "https://api.fda.gov/drug/label.json?search=id:50aef1c6-fb2a-9b54-e063-6294a90aeed0"
+        },
+        {
+          "brand": "H.E.B. Solutions Sunscreen",
+          "manufacturer": "H.E.B",
+          "spl_id": "c6b43398-1bc3-fb0c-e053-2995a90a5c43",
+          "active_ingredient": "Active Ingredients Avobenzone 3.0%, Homosalate 10.0%, Octisalate 3.0%, Octocrylene 7.0%, Oxybenzone 6.0%",
+          "warnings_excerpt": "Warnings For external use only",
+          "url": "https://api.fda.gov/drug/label.json?search=id:c6b43398-1bc3-fb0c-e053-2995a90a5c43"
+        },
+        {
+          "brand": "Replenix Gly-Sal 10-2 cleanser",
+          "manufacturer": "Topiderm, Inc.",
+          "spl_id": "812271b8-44af-4393-935a-7cf0a8188887",
+          "active_ingredient": "Active ingredient Salicylic Acid USP, 2%",
+          "warnings_excerpt": "Warnings For external use only Keep away from eyes, lips, and mouth. Using other topical medications, while using this product or immediately thereafter, may increase dryness or irritation. If this occurs discontinue use",
+          "url": "https://api.fda.gov/drug/label.json?search=id:812271b8-44af-4393-935a-7cf0a8188887"
+        }
+      ]
+    }
+  }
+}

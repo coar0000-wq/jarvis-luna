@@ -230,6 +230,71 @@ def from_manual(key: str):
             ch.get("captured_at") or "", ch.get("source_url") or "", ch)
 
 
+def from_public_signal(key: str):
+    """scripts/collect_public_signals.py 산출물.
+
+    discover_channels.py 가 robots.txt 확인과 실제 호출로 검증한 소스만 온다.
+    """
+    d = load_json(DATA / "public_signals.json", {})
+    src = (d.get("sources") or {}).get(key) or {}
+    items = src.get("items") or []
+    rows = []
+    for x in items:
+        if key == "wikipedia_interest":
+            c = x.get("change_pct")
+            rows.append({
+                "product": x.get("topic") or "",
+                "sub": f"일평균 {x.get('avg_daily', 0):,}회",
+                "badge": (f"{c:+.1f}%" if isinstance(c, (int, float)) else ""),
+                "change_pct": c,
+                "url": x.get("url") or "",
+            })
+        elif key == "google_trends_us":
+            rows.append({
+                "keyword": x.get("keyword") or "",
+                "product": x.get("keyword") or "",
+                "sub": x.get("source_name") or "",
+                "badge": x.get("approx_traffic") or "",
+                "url": x.get("url") or "",
+            })
+        elif key == "allure_media":
+            rows.append({
+                "product": x.get("title") or "",
+                "sub": (x.get("published") or "")[:16],
+                "badge": (x.get("published") or "")[5:11],
+                "url": x.get("url") or "",
+            })
+        elif key == "openfda_sunscreen":
+            rows.append({
+                "product": x.get("brand") or "",
+                "sub": (x.get("manufacturer") or "")[:40],
+                "badge": ((x.get("active_ingredient") or "").replace(
+                    "Active ingredients", "").strip()[:22] or "성분 미기재"),
+                "url": x.get("url") or "",
+            })
+    rows = [r for r in rows if is_good_name(r.get("product") or "")]
+    return (unique_take(rows, lambda x: (x.get("product") or "").lower()),
+            d.get("generated_at") or "",
+            src.get("source") or "",
+            src.get("reason") or "",
+            src.get("note") or "")
+
+
+def public_channel(key: str):
+    """공개 소스 채널. 실측이므로 verified."""
+    rows, at, src, reason, note = from_public_signal(key)
+    if rows:
+        c = channel(rows, src or "공개 소스", collected_at=at)
+        c["trust"] = "verified"
+        if note:
+            c["note"] = note
+        return c
+    c = channel([], "-", "empty",
+                reason=reason or "수집기 미실행 (scripts/collect_public_signals.py)")
+    c["trust"] = "none"
+    return c
+
+
 def from_gemini_web(key: str):
     """Gemini url_context 수집 결과.
 
@@ -379,7 +444,12 @@ def build_global_channels():
             oy_items, "us.oliveyoung.com/best-sellers 실수집",
             collected_at=oy_at,
             reason=oy_reason or "수집기 미실행"),
-        "google_trends_us": channel(from_google_trends(), "free keywords from real product names", collected_at=datetime.now(timezone.utc).isoformat()),
+        # 2026-09-04: 기존 from_google_trends() 는 growth "+" momentum "High" 를
+        # 모든 항목에 동일하게 붙이는 조작값이었다. 공식 RSS 실수집으로 교체한다.
+        "google_trends_us": public_channel("google_trends_us"),
+        "wikipedia_interest": public_channel("wikipedia_interest"),
+        "allure_media": public_channel("allure_media"),
+        "openfda_sunscreen": public_channel("openfda_sunscreen"),
         "shopify_demand_matching": channel(
             [], "-", "disabled",
             "demand_score·predicted_orders·expected_roas 가 조작값이라 삭제. "

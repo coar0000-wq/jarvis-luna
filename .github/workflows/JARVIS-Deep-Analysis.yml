@@ -153,6 +153,10 @@ jobs:
         continue-on-error: true
         run: python scripts/build_market_team.py
 
+      - name: 공개 소스 4종 수집 (Trends/Wikipedia/Allure/openFDA)
+        continue-on-error: true
+        run: python scripts/collect_public_signals.py
+
       - name: 신규 수집 채널 발굴 (제안만, 자동 등록 안 함)
         continue-on-error: true
         run: python scripts/discover_channels.py

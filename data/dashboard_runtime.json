@@ -401,94 +401,309 @@
     ],
     "google_trends_us": [
       {
-        "keyword": "Barrier",
-        "growth": "+",
-        "momentum": "High",
-        "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)"
+        "keyword": "technology news",
+        "product": "technology news",
+        "sub": "XBOX Wire",
+        "badge": "2000+",
+        "url": "https://trends.google.com/trending?geo=US&q=technology%20news"
       },
       {
-        "keyword": "Collagen",
-        "growth": "+",
-        "momentum": "High",
-        "product": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)"
+        "keyword": "tarik skubal",
+        "product": "tarik skubal",
+        "sub": "ESPN",
+        "badge": "500+",
+        "url": "https://trends.google.com/trending?geo=US&q=tarik%20skubal"
       },
       {
-        "keyword": "Cushion",
-        "growth": "+",
-        "momentum": "High",
-        "product": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)"
+        "keyword": "cryptocurrency trading",
+        "product": "cryptocurrency trading",
+        "sub": "Reuters",
+        "badge": "200+",
+        "url": "https://trends.google.com/trending?geo=US&q=cryptocurrency%20trading"
       },
       {
-        "keyword": "Vitamin",
-        "growth": "+",
-        "momentum": "High",
-        "product": "orthomol Immune - Daily Immune System Booster, Vitamins A, B, C, D, E, Zinc, Selenium & Iodine (Drinkable Shots 30-day Supply)"
+        "keyword": "miami hurricanes football",
+        "product": "miami hurricanes football",
+        "sub": "Yahoo Sports",
+        "badge": "200+",
+        "url": "https://trends.google.com/trending?geo=US&q=miami%20hurricanes%20football"
       },
       {
-        "keyword": "Ampoule",
-        "growth": "+",
-        "momentum": "High",
-        "product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)"
+        "keyword": "shilo sanders",
+        "product": "shilo sanders",
+        "sub": "USA Today",
+        "badge": "200+",
+        "url": "https://trends.google.com/trending?geo=US&q=shilo%20sanders"
       },
       {
-        "keyword": "Centella",
-        "growth": "+",
-        "momentum": "High",
-        "product": "SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)"
+        "keyword": "amc stock",
+        "product": "amc stock",
+        "sub": "CoinDesk",
+        "badge": "200+",
+        "url": "https://trends.google.com/trending?geo=US&q=amc%20stock"
       },
       {
-        "keyword": "Serum",
-        "growth": "+",
-        "momentum": "High",
-        "product": "SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)"
+        "keyword": "brendan fraser",
+        "product": "brendan fraser",
+        "sub": "IMDb",
+        "badge": "200+",
+        "url": "https://trends.google.com/trending?geo=US&q=brendan%20fraser"
       },
       {
-        "keyword": "Ceramide",
-        "growth": "+",
-        "momentum": "High",
-        "product": "[2sizes] ILLIYOON Ceramide Ato Concentrate Cream"
+        "keyword": "kyle tucker",
+        "product": "kyle tucker",
+        "sub": "FantasyPros",
+        "badge": "200+",
+        "url": "https://trends.google.com/trending?geo=US&q=kyle%20tucker"
       },
       {
-        "keyword": "Niacinamide",
-        "growth": "+",
-        "momentum": "High",
-        "product": "APLB Glutathione Niacinamide Body Lotion 10.14 fl. oz.(300ml)"
+        "keyword": "riley o'brien",
+        "product": "riley o'brien",
+        "sub": "NBC Sports",
+        "badge": "200+",
+        "url": "https://trends.google.com/trending?geo=US&q=riley%20o%27brien"
+      }
+    ],
+    "wikipedia_interest": [
+      {
+        "product": "Niacinamide",
+        "sub": "일평균 40회",
+        "badge": "+24.9%",
+        "change_pct": 24.9,
+        "url": "https://en.wikipedia.org/wiki/Niacinamide"
       },
       {
-        "keyword": "Hyaluronic",
-        "growth": "+",
-        "momentum": "High",
-        "product": "Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)"
+        "product": "Snail slime",
+        "sub": "일평균 71회",
+        "badge": "+18.3%",
+        "change_pct": 18.3,
+        "url": "https://en.wikipedia.org/wiki/Snail_slime"
       },
       {
-        "keyword": "Toner",
-        "growth": "+",
-        "momentum": "High",
-        "product": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set"
+        "product": "Centella asiatica",
+        "sub": "일평균 486회",
+        "badge": "+8.7%",
+        "change_pct": 8.7,
+        "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
       },
       {
-        "keyword": "Peptide",
-        "growth": "+",
-        "momentum": "High",
-        "product": "SUNGBOON EDITOR Deep Collagen Silk Peptide Intensive Ampoule 1.35 fl. oz.(40ml)"
+        "product": "Hyaluronic acid",
+        "sub": "일평균 567회",
+        "badge": "-2.6%",
+        "change_pct": -2.6,
+        "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
       },
       {
-        "keyword": "Retinol",
-        "growth": "+",
-        "momentum": "High",
-        "product": "IOPE Expert Retinol 1% Super Bounce Serum 1.01 fl. oz.(30ml)"
+        "product": "Retinol",
+        "sub": "일평균 382회",
+        "badge": "-3.5%",
+        "change_pct": -3.5,
+        "url": "https://en.wikipedia.org/wiki/Retinol"
       },
       {
-        "keyword": "Pore",
-        "growth": "+",
-        "momentum": "High",
-        "product": "Dr.Althea Pore Refresh Grinding Cleansing Balm 1.69 fl. oz.(50ml)"
+        "product": "K-beauty",
+        "sub": "일평균 152회",
+        "badge": "-17.0%",
+        "change_pct": -17.0,
+        "url": "https://en.wikipedia.org/wiki/K-beauty"
       },
       {
-        "keyword": "Essence",
-        "growth": "+",
-        "momentum": "High",
-        "product": "[20colors] AGE20'S Signature Essence Pact Intense Cover 0.49 oz.(14g)"
+        "product": "Sunscreen",
+        "sub": "일평균 661회",
+        "badge": "-34.4%",
+        "change_pct": -34.4,
+        "url": "https://en.wikipedia.org/wiki/Sunscreen"
+      },
+      {
+        "product": "Cosmetics",
+        "sub": "일평균 916회",
+        "badge": "-37.4%",
+        "change_pct": -37.4,
+        "url": "https://en.wikipedia.org/wiki/Cosmetics"
+      }
+    ],
+    "allure_media": [
+      {
+        "product": "Fall 2026 Makeup Trends Put Your Best Features Front and Center — See Photos",
+        "sub": "Fri, 04 Sep 2026",
+        "badge": "04 Sep",
+        "url": "https://www.allure.com/story/fall-makeup-trends-2026"
+      },
+      {
+        "product": "Hairstylist Frédéric Fekkai Is Being Sued by Epstein Survivors for Allegedly Enabling Gender-Motivated Violence",
+        "sub": "Thu, 03 Sep 2026",
+        "badge": "03 Sep",
+        "url": "https://www.allure.com/story/hairstylist-frederic-fekkai-lawsuit-grooming-accusations"
+      },
+      {
+        "product": "A New Report on Plastic Surgery Trends Shows Americans Over 66 Want to Be Snatched, Too",
+        "sub": "Thu, 03 Sep 2026",
+        "badge": "03 Sep",
+        "url": "https://www.allure.com/story/asps-plastic-surgery-trends-2025"
+      },
+      {
+        "product": "9 Best Leave-in Conditioners for Fine Hair 2026 That Won't Nix Volume",
+        "sub": "Thu, 03 Sep 2026",
+        "badge": "03 Sep",
+        "url": "https://www.allure.com/story/leave-in-conditioners-for-fine-hair"
+      },
+      {
+        "product": "Ulta Beauty Is Using Flock Cameras at Some Stores",
+        "sub": "Thu, 03 Sep 2026",
+        "badge": "03 Sep",
+        "url": "https://www.allure.com/story/ulta-beauty-flock-petition"
+      },
+      {
+        "product": "6 Best Products for Hair Breakage for Stronger, Healthier-Looking Strands",
+        "sub": "Wed, 02 Sep 2026",
+        "badge": "02 Sep",
+        "url": "https://www.allure.com/story/best-products-for-hair-breakage"
+      },
+      {
+        "product": "How Meta's Filter Ban for Minors Could Look in Practice",
+        "sub": "Wed, 02 Sep 2026",
+        "badge": "02 Sep",
+        "url": "https://www.allure.com/story/meta-beauty-filter-ban-teens"
+      },
+      {
+        "product": "How to Make Your Eyes Look More Open With Makeup—Photos",
+        "sub": "Wed, 02 Sep 2026",
+        "badge": "02 Sep",
+        "url": "https://www.allure.com/story/make-eyes-look-open-with-makeup"
+      },
+      {
+        "product": "8 Best Foundations for Oily Skin for a Smooth, Natural-Looking Finish",
+        "sub": "Tue, 01 Sep 2026",
+        "badge": "01 Sep",
+        "url": "https://www.allure.com/story/best-foundation-for-acne"
+      },
+      {
+        "product": "Your Guide to the Perfumes That Last All Day and Night",
+        "sub": "Tue, 01 Sep 2026",
+        "badge": "01 Sep",
+        "url": "https://www.allure.com/story/longest-lasting-perfumes"
+      },
+      {
+        "product": "Maura Higgins's Hair Is Proof That Time-Travel Is Real — See Photos",
+        "sub": "Tue, 01 Sep 2026",
+        "badge": "01 Sep",
+        "url": "https://www.allure.com/story/maura-higgins-retro-hair-us-open"
+      },
+      {
+        "product": "Why the Met Gala 2027 Theme Should Be Dolly Parton",
+        "sub": "Tue, 01 Sep 2026",
+        "badge": "01 Sep",
+        "url": "https://www.allure.com/story/met-gala-2027-theme-dolly-parton"
+      },
+      {
+        "product": "What Dermatologists Want Black Patients to Know About Follicular Eczema",
+        "sub": "Tue, 01 Sep 2026",
+        "badge": "01 Sep",
+        "url": "https://www.allure.com/story/follicular-eczema-black-brown-skin"
+      },
+      {
+        "product": "Olivia Munn on Breastfeeding, Postpartum Anxiety, and Choosing Surgical Menopause",
+        "sub": "Tue, 01 Sep 2026",
+        "badge": "01 Sep",
+        "url": "https://www.allure.com/story/olivia-munn-perspectives-episode-teaser"
+      },
+      {
+        "product": "We Were the First Editors to Try the New $499 Dyson Toothbrush",
+        "sub": "Tue, 01 Sep 2026",
+        "badge": "01 Sep",
+        "url": "https://www.allure.com/story/dyson-camerajet-launch-september-2026"
+      }
+    ],
+    "openfda_sunscreen": [
+      {
+        "product": "FOREVER SKIN GLOW 24h wear radiant foundation Perfection and hydration Concentrated floral skincare with suncreen Broad spectrum SPF 15 00",
+        "sub": "Parfums Christian Dior",
+        "badge": "Octinoxate 4.50 % Tita",
+        "url": "https://api.fda.gov/drug/label.json?search=id:1f013e61-f171-2ae2-e063-6294a90adcf1"
+      },
+      {
+        "product": "Olay Regenerist Regenerating with Sunscreen Broad Spectrum SPF 15",
+        "sub": "The Procter & Gamble Manufacturing Compa",
+        "badge": "Purpose Avobenzone 3.0",
+        "url": "https://api.fda.gov/drug/label.json?search=id:46425877-3cf0-6496-e063-6294a90acf37"
+      },
+      {
+        "product": "Eminence Radiant Protection SPF Fluid",
+        "sub": "Eminence Organic Skin Care",
+        "badge": "성분 미기재",
+        "url": "https://api.fda.gov/drug/label.json?search=id:2737f1e2-08e3-0e06-e063-6394a90a8159"
+      },
+      {
+        "product": "Neutrogena Mineral Invisible Daily Defense Face Sunscreen Broad Spectrum SPF 30",
+        "sub": "Kenvue Brands LLC",
+        "badge": "Purpose Titanium Dioxi",
+        "url": "https://api.fda.gov/drug/label.json?search=id:3afd4f97-ceb8-c70f-e063-6394a90afeb4"
+      },
+      {
+        "product": "MediChoice Moisturizing Lip Balm SPF15",
+        "sub": "O&M HALYARD, INC.",
+        "badge": "Active Ingredients: Av",
+        "url": "https://api.fda.gov/drug/label.json?search=id:40b41656-3e4a-5597-e063-6394a90a952a"
+      },
+      {
+        "product": "Artistry Youth Xtend Lifting Smoothing Foundation Shade Chiffon L2C1",
+        "sub": "Amway Corp",
+        "badge": "Active Ingredients Oct",
+        "url": "https://api.fda.gov/drug/label.json?search=id:085b50a9-68d7-d6e6-e063-6394a90a09be"
+      },
+      {
+        "product": "Private Label Moisturizing Oil Free Paraben Free SPF43",
+        "sub": "Swiss-American CDMO, LLC",
+        "badge": "Active Ingredients Zin",
+        "url": "https://api.fda.gov/drug/label.json?search=id:4e399a9d-b92c-4483-962a-4d65f8cddc30"
+      },
+      {
+        "product": "Triple Prep SPF 40",
+        "sub": "Supergoop, LLC",
+        "badge": "Active Ingredients: Av",
+        "url": "https://api.fda.gov/drug/label.json?search=id:47fc4312-dc25-9486-e063-6394a90a0899"
+      },
+      {
+        "product": "KIZO LAB UV DEFENSE CLEAR SUNSCREN SPF50",
+        "sub": "YB CHEMIA LLC",
+        "badge": "Active Ingredients Dru",
+        "url": "https://api.fda.gov/drug/label.json?search=id:497ed1ba-ebe5-a00a-e063-6394a90a447c"
+      },
+      {
+        "product": "Reef Kids SPF 30 Oxybenzone Free",
+        "sub": "Tropical Seas, Inc.",
+        "badge": "Active Ingredients Oct",
+        "url": "https://api.fda.gov/drug/label.json?search=id:42c9f9a6-e079-6f4f-e063-6394a90afca4"
+      },
+      {
+        "product": "Botnia Gentle Sun SPF 30",
+        "sub": "Botnia, Inc",
+        "badge": "Active ingredient Zinc",
+        "url": "https://api.fda.gov/drug/label.json?search=id:4c1e721a-a8f5-db1b-e063-6294a90a0a26"
+      },
+      {
+        "product": "Clear Acne Spot Treatment",
+        "sub": "Kamedis",
+        "badge": "Active Ingredient Sali",
+        "url": "https://api.fda.gov/drug/label.json?search=id:d8bfce91-7eeb-4696-ae5f-b4fa7514f928"
+      },
+      {
+        "product": "BOTANICAL SOOTHING SPF-30",
+        "sub": "CONTROL CORRECTIVE SKINCARE INC",
+        "badge": "ACTIVE INGREDIENTS OCT",
+        "url": "https://api.fda.gov/drug/label.json?search=id:474bb04f-2be5-2dd9-e063-6394a90a6a3c"
+      },
+      {
+        "product": "Equate Beauty Daily Moisturizer SPF-30 Sunscreen",
+        "sub": "Wal-Mart Stores, Inc.",
+        "badge": "Purpose Avobenzone 3% ",
+        "url": "https://api.fda.gov/drug/label.json?search=id:27485ab0-a7d5-4c16-92b2-fd89bbeadbec"
+      },
+      {
+        "product": "glo SKIN BEAUTY Oil-Free Tinted Primer SPF 30",
+        "sub": "Hayden Caleel LLC",
+        "badge": "Active Ingredients Zin",
+        "url": "https://api.fda.gov/drug/label.json?search=id:2bc36c49-aa1b-89e9-e063-6294a90ae445"
       }
     ],
     "shopify_demand_matching": [],
@@ -888,7 +1103,7 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-04"
   },
-  "last_synced": "09. 04. 오후 03:18 KST",
+  "last_synced": "09. 04. 오후 04:09 KST",
   "global_channels_status": {
     "amazon_best_sellers": {
       "status": "ok",
@@ -920,11 +1135,39 @@
     },
     "google_trends_us": {
       "status": "ok",
-      "source": "free keywords from real product names",
+      "source": "trends.google.com/trending/rss?geo=US (공식 RSS)",
       "reason": "",
-      "collected_at": "2026-09-04T06:18:15.756996+00:00",
+      "collected_at": "2026-09-04T07:08:27.590355+00:00",
+      "count": 9,
+      "trust": "verified",
+      "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽"
+    },
+    "wikipedia_interest": {
+      "status": "ok",
+      "source": "wikimedia.org REST pageviews API (공식)",
+      "reason": "",
+      "collected_at": "2026-09-04T07:08:27.590355+00:00",
+      "count": 8,
+      "trust": "verified",
+      "note": "2026-08-04 ~ 2026-09-02 일별 조회수. 후반 15일 대비 전반 15일 증감률"
+    },
+    "allure_media": {
+      "status": "ok",
+      "source": "allure.com/feed/rss",
+      "reason": "",
+      "collected_at": "2026-09-04T07:08:27.590355+00:00",
       "count": 15,
-      "trust": "verified"
+      "trust": "verified",
+      "note": "수요 신호가 아니라 매체 노출 신호. 참고용."
+    },
+    "openfda_sunscreen": {
+      "status": "ok",
+      "source": "api.fda.gov/drug/label (openFDA 공식)",
+      "reason": "",
+      "collected_at": "2026-09-04T07:08:27.590355+00:00",
+      "count": 15,
+      "trust": "verified",
+      "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다."
     },
     "shopify_demand_matching": {
       "status": "disabled",
