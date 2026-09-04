@@ -76,6 +76,22 @@ jobs:
         continue-on-error: true
         run: python scripts/collect_oliveyoung_us.py
 
+      - name: Collect Reddit beauty RSS (AsianBeauty 등, 키 불필요)
+        continue-on-error: true
+        run: python scripts/collect_reddit_beauty_rss.py
+
+      - name: Collect public trend RSS (HN + Google News)
+        continue-on-error: true
+        run: python scripts/collect_public_trend_rss.py
+
+      - name: Collect Google CSE (시크릿 있을 때만)
+        continue-on-error: true
+        env:
+          GOOGLE_CSE_API_KEY: ${{ secrets.GOOGLE_CSE_API_KEY }}
+          GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
+          KNOWLEDGE_QUERIES: ${{ vars.KNOWLEDGE_QUERIES }}
+        run: python scripts/collect_google_cse.py
+
       - name: 수동 입력 채널 반영 (data/manual/)
         continue-on-error: true
         run: python scripts/ingest_manual_channels.py
