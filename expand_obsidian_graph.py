@@ -53,16 +53,65 @@ def load_records() -> list[dict]:
 
 
 def topic_names(row: dict) -> list[str]:
+    """수집 자료를 주제로 분류한다.
+
+    2026-09-04 확장. 이전에는 주제가 5개뿐이라 18,174개 중 11,346개가
+    기본값 "AI Research" 로 떨어져 그래프에서 한 덩어리로 뭉쳤다.
+    실제 제목 4,000개를 표본 조사해 빈출 주제를 뽑았다.
+      beauty 1367 · shopify 1286 · ecommerce 533 · tiktok 427
+      korean 398 · makeup 380 · skincare 318 · business 238
+
+    분류는 제목과 본문의 키워드 근거로만 한다. 추측하지 않는다.
+    아무 키워드도 안 걸리면 "미분류" 로 둔다. 억지로 AI Research 에
+    몰아넣지 않는다. 미분류가 쌓이면 그것 자체가 분류를 늘리라는 신호다.
+    """
     blob = (row.get("title", "") + " " + row.get("text", "")).lower()
+
     candidates = [
-        ("Shopify Commerce", ("shopify", "ecommerce", "commerce", "product")),
-        ("AI Image Generation", ("image", "vision", "diffusion", "text-to-image", "generative")),
-        ("Machine Learning Research", ("learning", "model", "neural", "training", "reinforcement")),
-        ("AI Agents", ("agent", "agentic", "workflow", "tool use")),
-        ("Model Routing and MoE", ("routing", "mixture-of-experts", "moe", "expert")),
+        # 사업 영역
+        ("경영·전략", ("business", "strategy", "revenue", "profit", "pricing",
+                    "margin", "startup", "founder", "경영", "전략", "매출", "수익")),
+        ("마케팅·광고", ("marketing", "advertis", "campaign", "seo", "influencer",
+                     "viral", "brand awareness", "conversion", "마케팅", "광고")),
+        ("이커머스·Shopify", ("shopify", "ecommerce", "e-commerce", "commerce",
+                          "dropship", "storefront", "checkout", "이커머스", "쇼피파이")),
+        ("뷰티·스킨케어", ("beauty", "skincare", "skin care", "cosmetic", "makeup",
+                      "serum", "sunscreen", "toner", "k-beauty", "뷰티", "화장품", "스킨케어")),
+        ("소셜·콘텐츠", ("tiktok", "youtube", "instagram", "shorts", "creator",
+                     "content", "video", "소셜", "콘텐츠")),
+        ("물류·통관", ("shipping", "logistics", "customs", "tariff", "duty",
+                    "fulfillment", "물류", "통관", "관세", "배송")),
+        ("법률·규제", ("regulat", "compliance", "fda", "mocra", "legal", "law",
+                    "gdpr", "privacy policy", "license", "법률", "규제", "컴플라이언스")),
+
+        # 기술 영역
+        ("AI 에이전트", ("agent", "agentic", "tool use", "workflow", "orchestrat",
+                     "에이전트")),
+        ("LLM·언어모델", ("llm", "language model", "gpt", "claude", "transformer",
+                      "prompt", "rag", "언어모델")),
+        ("모델 라우팅·MoE", ("routing", "mixture-of-experts", "moe", "expert",
+                        "라우팅")),
+        ("머신러닝 연구", ("neural", "training", "reinforcement", "benchmark",
+                     "fine-tun", "dataset", "머신러닝", "학습")),
+        ("컴퓨터 비전", ("vision", "image", "diffusion", "segmentation", "text-to-image",
+                    "visual", "비전", "이미지")),
+        ("로보틱스", ("robot", "manipulation", "embodied", "autonomous vehicle",
+                  "drone", "로봇", "자율주행")),
+        ("음성·오디오", ("speech", "audio", "voice", "asr", "tts", "음성", "오디오")),
+        ("보안·프라이버시", ("security", "attack", "adversarial", "jailbreak",
+                      "prompt injection", "vulnerab", "보안")),
+        ("인프라·클라우드", ("aws", "cloud", "kubernetes", "serverless", "infra",
+                      "deployment", "인프라", "클라우드")),
+        ("데이터·분석", ("analytics", "data pipeline", "labeling", "annotation",
+                    "big data", "데이터", "분석")),
+        ("의료·바이오", ("medical", "clinical", "health", "patient", "bio",
+                    "diagnos", "의료", "임상")),
+        ("과학·수학", ("physics", "chemistry", "math", "theorem", "quantum",
+                   "plasma", "수학", "물리")),
     ]
+
     topics = [name for name, terms in candidates if any(term in blob for term in terms)]
-    return topics or ["AI Research"]
+    return topics or ["미분류"]
 
 
 def source_name(row: dict) -> str:
