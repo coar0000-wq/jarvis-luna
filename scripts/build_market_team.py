@@ -438,6 +438,16 @@ def main() -> int:
     print(f"  실데이터 채널 {h['signals_live']}/{h['signals_total']} (검증 {h['signals_verified']})")
     print(f"  키워드 {len(payload['keyword_board'])}개 · 경쟁군 {len(payload['competitor_watch'])}건")
     print(f"  주간 액션 {len(payload['weekly_actions'])}개")
+
+    # Coaching: S등급 등록 전 체크리스트 + 광고 카피 A/B (사람 승인 게이트)
+    coach_script = ROOT / "scripts" / "build_coaching_loop.py"
+    if coach_script.exists():
+        import subprocess
+        r = subprocess.run([sys.executable, str(coach_script)], cwd=str(ROOT))
+        if r.returncode != 0:
+            print(f"  coaching_loop 경고: exit {r.returncode}")
+    else:
+        print("  coaching_loop 스킵: scripts/build_coaching_loop.py 없음")
     return 0
 
 
