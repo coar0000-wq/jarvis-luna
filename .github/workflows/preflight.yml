@@ -1,0 +1,43 @@
+name: 배포 전 검증
+
+# 저장소가 깨진 채로 배포되는 것을 막는다.
+# 샌드박스 마운트와 달리 CI 는 깨끗한 체크아웃이라 신뢰할 수 있다.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: 의존성
+        run: python -m pip install --quiet pyyaml
+      - name: 검증 실행
+        id: pf
+        continue-on-error: true
+        run: |
+          python scripts/preflight.py | tee /tmp/pf.txt
+          echo "rc=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
+      - name: 결과 요약
+        if: always()
+        run: |
+          echo '### 배포 전 검증' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat /tmp/pf.txt >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo '실행 실패' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+      - name: 실패 시 종료
+        if: steps.pf.outputs.rc == '1'
+        run: |
+          echo "FAIL 항목이 있습니다. 위 요약을 확인하세요."
+          exit 1
