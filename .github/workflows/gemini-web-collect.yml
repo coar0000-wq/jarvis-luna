@@ -96,13 +96,20 @@ jobs:
           for i in 1 2 3 4 5; do
             git fetch -q origin main
             git checkout -q -B publish origin/main
-            RESTORED=0
-            for pth in data/gemini_web_channels.json; do
-              if git checkout -q "$MINE" -- "$pth" 2>/dev/null; then
-                RESTORED=$((RESTORED+1))
-              fi
-              git add -A -- "$pth" 2>/dev/null || true
-            done
+              RESTORED=0
+              for pth in data/gemini_web_channels.json; do
+                # git checkout <커밋> -- 경로 는 덮어쓰기만 하고 그 커밋에 없는 파일을
+                # 지우지 않는다. 그래서 재생성형 폴더(obsidian/Records 등)에 옛 파일이
+                # 무한히 쌓였다. 2026-09-04 확인: 1,113개여야 할 노트가 18,174개.
+                # 먼저 지우고 통째로 복원한다.
+                if git cat-file -e "$MINE:$pth" 2>/dev/null || git ls-tree -d "$MINE" "$pth" >/dev/null 2>&1; then
+                  rm -rf "$pth"
+                fi
+                if git checkout -q "$MINE" -- "$pth" 2>/dev/null; then
+                  RESTORED=$((RESTORED+1))
+                fi
+                git add -A -- "$pth" 2>/dev/null || true
+              done
             if [ "$RESTORED" -eq 0 ]; then
               echo "산출물 복원 실패 - 중단"
               exit 1
