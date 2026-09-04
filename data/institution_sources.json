@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-04T13:42:23.899280+00:00",
+  "collected_at": "2026-09-04T17:22:32.755385+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-04T13:41:18.437049+00:00"
+      "collected_at": "2026-09-04T17:21:26.710129+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-04T13:41:54.811884+00:00"
+      "collected_at": "2026-09-04T17:22:09.420985+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-04T13:42:23.898116+00:00"
+      "collected_at": "2026-09-04T17:22:32.754339+00:00"
     }
   },
   "not_collected": {
@@ -1450,6 +1450,19 @@
       "title_source": "feed"
     },
     {
+      "title": "Samsung Wins Multiple Honors at IFA Innovation Awards 2026",
+      "url": "https://news.samsung.com/global/samsung-wins-multiple-honors-at-ifa-innovation-awards-2026",
+      "date": "2026-09-04",
+      "date_raw": "Fri, 04 Sep 2026 21:30:00 +0000",
+      "summary": "Samsung Electronics today announced that it has received multiple honors at the IFA Innovation Awards 2026 for its latest home appliances. Among the recognized products, the Bespoke AI WindFree Pro Air Conditioner was named a winner in the Best in Design category and an honoree in the Best in Home Appliances category. “Samsung looks beyond […]",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://news.samsung.com/global/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "Gamescom 2026: Samsung Odyssey Breaks Boundaries — Supporting Every Way You Play",
       "url": "https://news.samsung.com/global/gamescom-2026-samsung-odyssey-breaks-boundaries-supporting-every-way-you-play",
       "date": "2026-09-04",
@@ -1754,19 +1767,6 @@
       "date": "2026-08-19",
       "date_raw": "Wed, 19 Aug 2026 11:00:00 +0000",
       "summary": "Helping every student stay engaged and supported throughout a lesson requires teachers to balance instruction, interaction, and individual learning needs. Managing these different needs while maintaining lesson flow can add to a teacher’s workload. Samsung AI Assistant is a built-in app for compatible Android-based Samsung Interactive Displays that helps teachers support every stage of a […]",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://news.samsung.com/global/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Samsung Electronics To Establish HVAC Production Line in Korea",
-      "url": "https://news.samsung.com/global/samsung-electronics-to-establish-hvac-production-line-in-korea",
-      "date": "2026-08-19",
-      "date_raw": "Wed, 19 Aug 2026 09:30:00 +0000",
-      "summary": "Samsung Electronics today announced that it will establish a FläktGroup HVAC production line in Korea to target the rapidly growing HVAC market, including the production of advanced cooling solutions for AI data centers. The company plans to invest approximately KRW 240 billion (USD 158 million) to build a 21,500m2 HVAC production line at its operations […]",
       "org": "Samsung Electronics",
       "category": "반도체",
       "kind": "발표물",
@@ -2295,6 +2295,19 @@
       "title_source": "feed"
     },
     {
+      "title": "Five ways marketers can use Genie One",
+      "url": "https://www.databricks.com/blog/five-ways-marketers-can-use-genie-one",
+      "date": "2026-09-04",
+      "date_raw": "Fri, 04 Sep 2026 19:00:00 GMT",
+      "summary": "Every marketing team sits on a goldmine of data: campaign performance metrics, customer...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "Governance beyond security: knowledge, context & ontology on the lakehouse",
       "url": "https://www.databricks.com/blog/governance-beyond-security-knowledge-context-ontology-lakehouse",
       "date": "2026-09-03",
@@ -2404,19 +2417,6 @@
       "date": "2026-09-01",
       "date_raw": "Tue, 01 Sep 2026 19:00:00 GMT",
       "summary": "The best security bugs come with a good storySome of our best security investments haven't been tools or scanners...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Operationalizing Genie Ontology in Your Data Stack",
-      "url": "https://www.databricks.com/blog/operationalizing-genie-ontology-your-data-stack",
-      "date": "2026-09-01",
-      "date_raw": "Tue, 01 Sep 2026 15:00:00 GMT",
-      "summary": "Beyond the semantic model: Building shared business context for AI agentsLarge language...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",
@@ -2828,6 +2828,19 @@
       "feed": "https://www.anthropic.com/sitemap.xml"
     },
     {
+      "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+      "date": "2026-09-04",
+      "date_raw": "2026-09-04T14:19:31.000Z",
+      "title_source": "page",
+      "title": "How well do job retraining programs work?",
+      "summary": "An evidence review from Anthropic's Economic Research team",
+      "org": "Anthropic",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.anthropic.com/sitemap.xml"
+    },
+    {
       "url": "https://www.anthropic.com/research/india-brief-economic-index",
       "date": "2026-09-03",
       "date_raw": "2026-09-03T21:12:06.000Z",
@@ -2847,19 +2860,6 @@
       "title_source": "page",
       "title": "Developing Enterprise Frontier Safeguards with our customers",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-      "org": "Anthropic",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.anthropic.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
-      "date": "2026-09-02",
-      "date_raw": "2026-09-02T15:29:47.000Z",
-      "title_source": "page",
-      "title": "How well do job retraining programs work?",
-      "summary": "An evidence review from Anthropic's Economic Research team",
       "org": "Anthropic",
       "category": "AI연구소",
       "kind": "발표물",
@@ -3855,9 +3855,22 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
+      "date": "2026-09-04",
+      "date_raw": "2026-09-04T13:29:35.000Z",
+      "title_source": "url-slug",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
       "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
-      "date": "2026-09-03",
-      "date_raw": "2026-09-03T12:48:41.000Z",
+      "date": "2026-09-04",
+      "date_raw": "2026-09-04T15:26:17.000Z",
       "title_source": "url-slug",
       "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
       "summary": "",
@@ -3899,6 +3912,19 @@
       "date_raw": "2026-09-02T16:13:53.000Z",
       "title_source": "url-slug",
       "title": "David Solomon Cnbc Sep 2026   Transcript",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
+      "date": "2026-09-02",
+      "date_raw": "2026-09-02T20:18:47.000Z",
+      "title_source": "url-slug",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4081,32 +4107,6 @@
       "date_raw": "2026-08-21T13:08:16.000Z",
       "title_source": "url-slug",
       "title": "Why Us Equity Returns Are Broadening Beyond Ai Stocks   Transcript",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/insights/articles/european-stocks-defy-global-shocks-with-strong-earnings-growth",
-      "date": "2026-08-20",
-      "date_raw": "2026-08-20T08:40:09.000Z",
-      "title_source": "url-slug",
-      "title": "European Stocks Defy Global Shocks With Strong Earnings Growth",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-research/gs-sustain-ai-data-centers-power-demand-cyclical-progresison-and-sustainability-implications",
-      "date": "2026-08-19",
-      "date_raw": "2026-08-19T19:39:32.000Z",
-      "title_source": "url-slug",
-      "title": "Gs Sustain Ai Data Centers Power Demand Cyclical Progresison And Sustainability Implications",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4999,6 +4999,34 @@
       "cited_by": 0
     },
     {
+      "title": "Explainable AI in Supply Chain Management: Opportunities and Research Challenges",
+      "url": "https://doi.org/10.55041/ijcope.v2i8.305",
+      "date": "2026-09-03",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "International Journal of Creative and Open Research in Engineering and Management",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Machine Learning-Based Insurance Claim Prediction Using Customer Behavioral and Policy Data: A Conceptual Framework for Intelligent Risk Assessment and Decision Support",
+      "url": "https://doi.org/10.55041/ijcope.v2i8.304",
+      "date": "2026-09-03",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "International Journal of Creative and Open Research in Engineering and Management",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Quantum counterdiabatic driving enhanced by two-stage local control",
       "url": "https://doi.org/10.1038/s42005-026-02767-5",
       "date": "2026-08-27",
@@ -5296,34 +5324,6 @@
       "title": "Seq2Synth: Benchmarking Temporal Fidelity in Synthetic Sequential Tabular Data",
       "url": "https://doi.org/10.1145/3799682.3841108",
       "date": "2026-07-17",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "arXiv (Cornell University)",
-      "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "Medical Image Privacy Model Driven by an Enhanced secp256k1 Pseudo-Random Sequence Generator.",
-      "url": "https://doi.org/10.25258/ijddt.16.65s.171",
-      "date": "2026-07-16",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "International Journal of Drug Delivery Technology",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Git-Assistant: Planning-Based Support for Updating Git Repositories",
-      "url": "https://openalex.org/W7168328521",
-      "date": "2026-07-10",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -6063,6 +6063,20 @@
       "cited_by": 0
     },
     {
+      "title": "Jointly Modeling Dynamic Dependence and Volatility in Natural Resource and Energy Indices Using a Multivariate t-Copula eGARCH Model",
+      "url": "https://doi.org/10.1007/s42519-026-00631-x",
+      "date": "2026-09-02",
+      "summary": "",
+      "org": "Citigroup",
+      "category": "투자은행",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Journal of Statistical Theory and Practice",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Optimization and Accuracy Improvement of Power Forecasting Models for Wind Farms Under Transient Weather Conditions",
       "url": "https://doi.org/10.7716/aem.v15i3.4325",
       "date": "2026-08-21",
@@ -6367,20 +6381,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Human Reproduction",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Measuring Share of Model: A Reproducible Protocol for Quantifying Brand Presence in Generative AI Answers",
-      "url": "https://doi.org/10.5281/zenodo.21614890",
-      "date": "2026-07-01",
-      "summary": "",
-      "org": "Citigroup",
-      "category": "투자은행",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
       "work_type": "article",
       "cited_by": 0
     },
@@ -6998,7 +6998,7 @@
       "title_source": "openalex",
       "venue": "Nature",
       "work_type": "article",
-      "cited_by": 33
+      "cited_by": 34
     },
     {
       "title": "Цифровое сопровождение клиентов при посещении торговых центров: стратегия и способы реализации",
@@ -9885,6 +9885,48 @@
       "cited_by": 0
     },
     {
+      "title": "Dispersion-Contrasting Dual-Layer Metalens for Hybrid Chromatic-Aberration Correction in the Visible",
+      "url": "https://doi.org/10.1021/acs.nanolett.6c02688",
+      "date": "2026-09-04",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Nano Letters",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Passivation-Dependent Device-Level Thermal Robustness of Indium Gallium Oxide Thin-Film Transistors under Dynamic Random-Access Memory Relevant 600 °C Nitrogen Annealing",
+      "url": "https://doi.org/10.1021/acsami.6c10253",
+      "date": "2026-09-04",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "ACS Applied Materials & Interfaces",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Laundering-induced property changes in virgin and recycled polyester and nylon fabrics: implications for durability and cleaning performance",
+      "url": "https://doi.org/10.1007/s10163-026-02703-3",
+      "date": "2026-09-03",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Journal of Material Cycles and Waste Management",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Shallow Trap States Control Electrical Performance of Amorphous Oxide Semiconductor Thin‐Film Transistors",
       "url": "https://doi.org/10.1002/adfm.78029",
       "date": "2026-09-02",
@@ -9979,6 +10021,20 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Frontiers in Immunology",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Toward Ab Initio Technology Computer-Aided Design",
+      "url": "https://doi.org/10.1016/j.cap.2026.09.002",
+      "date": "2026-09-01",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Current Applied Physics",
       "work_type": "article",
       "cited_by": 0
     },
@@ -10123,6 +10179,20 @@
       "cited_by": 0
     },
     {
+      "title": "Engineering AgCo interfacial sites for selective catalytic reduction of nitric oxide by isopropyl alcohol from semiconductor FAB process",
+      "url": "https://doi.org/10.1016/j.cej.2026.181205",
+      "date": "2026-08-27",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Chemical Engineering Journal",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "2-Terminal refresh-free memory for high-density and low power consumption during data retention",
       "url": "https://doi.org/10.21203/rs.3.rs-10662808/v1",
       "date": "2026-08-27",
@@ -10161,76 +10231,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Advanced Functional Materials",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Synthesis of Metal–Quantum Dot Core–Satellite Nanoparticles and Plasmonic Cavity-Induced Recovery of Quantum Yield for High External Quantum Efficiency",
-      "url": "https://doi.org/10.1021/jacs.6c13023",
-      "date": "2026-08-26",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Journal of the American Chemical Society",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Current status of atomic layer etching and its adoption to low-k fine patterning: An industrial perspective",
-      "url": "https://doi.org/10.1116/6.0005592",
-      "date": "2026-08-25",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Journal of Vacuum Science & Technology A Vacuum Surfaces and Films",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "ISER: Instance-Specific Early Stopping with Dynamic Low-Rank Adaptation for Learned Image Compression",
-      "url": "https://doi.org/10.3390/electronics15173807",
-      "date": "2026-08-25",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Electronics",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Inhaled Corticosteroids Continuation in the First Trimester and Pregnancy Outcomes in Women With Asthma",
-      "url": "https://doi.org/10.1001/jamanetworkopen.2026.30781",
-      "date": "2026-08-24",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "JAMA Network Open",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Rational structural design of cost-effective copolyimide membranes for high-performance hydrogen separation",
-      "url": "https://doi.org/10.1016/j.seppur.2026.139869",
-      "date": "2026-08-24",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Separation and Purification Technology",
       "work_type": "article",
       "cited_by": 0
     },
@@ -11156,7 +11156,7 @@
       "title_source": "openalex",
       "venue": "Nature",
       "work_type": "article",
-      "cited_by": 3
+      "cited_by": 4
     },
     {
       "title": "Role Steering of Language Models for Social Simulations",
@@ -12027,6 +12027,20 @@
       "cited_by": 0
     },
     {
+      "title": "P-590. Go with the Flow: An Early Look at a Pilot High Throughput Metagenomic Wastewater Analysis for Antimicrobial Resistance in a Large Military Treatment Facility",
+      "url": "https://doi.org/10.1093/ofid/ofaf695.804",
+      "date": "2026-01-01",
+      "summary": "",
+      "org": "Booz Allen Hamilton",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Open Forum Infectious Diseases",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "113. Upstream with the Paddle: Wastewater-Based Genomic Surveillance and Near-Source Detection of Vancomycin-Resistant Enterococcus Prior to Case Identification",
       "url": "https://doi.org/10.1093/ofid/ofaf695.045",
       "date": "2026-01-01",
@@ -12055,6 +12069,20 @@
       "cited_by": 0
     },
     {
+      "title": "P-707. Trends in Respiratory Virus-associated Hospitalizations – National Healthcare Safety Network, United States, 2024 - 2025",
+      "url": "https://doi.org/10.1093/ofid/ofaf695.919",
+      "date": "2026-01-01",
+      "summary": "",
+      "org": "Booz Allen Hamilton",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Open Forum Infectious Diseases",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Preliminary Evidence of Construct Validity and Reliability of the Supine-to-Stand and Go Task as a Functional Motor Competence Assessment in Young Adults",
       "url": "https://doi.org/10.1123/jmld.2025-0068",
       "date": "2025-12-10",
@@ -12065,34 +12093,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Journal of Motor Learning and Development",
-      "work_type": "article",
-      "cited_by": 1
-    },
-    {
-      "title": "Towards an AI biomedical scientist: Accelerating discoveries in neurodegenerative disease",
-      "url": "https://doi.org/10.1016/j.tjpad.2025.100398",
-      "date": "2025-12-01",
-      "summary": "",
-      "org": "Booz Allen Hamilton",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "The Journal of Prevention of Alzheimer s Disease",
-      "work_type": "article",
-      "cited_by": 1
-    },
-    {
-      "title": "VCAM-1/Ezrin axis antagonizes myocardial damage in ischemia-reperfusion injury",
-      "url": "https://doi.org/10.1038/s41418-025-01621-5",
-      "date": "2025-11-28",
-      "summary": "",
-      "org": "Booz Allen Hamilton",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Cell Death and Differentiation",
       "work_type": "article",
       "cited_by": 1
     },
@@ -12727,6 +12727,20 @@
       "cited_by": 4
     },
     {
+      "title": "P-2010. Association between Urbanicity and Up-to-date COVID-19 Vaccination Coverage among Healthcare Personnel and Residents of Nursing Homes - National Healthcare Safety Network, United States, March 3, 2024",
+      "url": "https://doi.org/10.1093/ofid/ofae631.2167",
+      "date": "2025-01-29",
+      "summary": "",
+      "org": "CACI International",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Open Forum Infectious Diseases",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Wastewater-integrated pathogen surveillance dashboards enable real-time, transparent, and interpretable public health risk assessment and dissemination",
       "url": "https://doi.org/10.1101/2025.01.22.25320865",
       "date": "2025-01-25",
@@ -12738,7 +12752,7 @@
       "title_source": "openalex",
       "venue": "medRxiv",
       "work_type": "preprint",
-      "cited_by": 1
+      "cited_by": 2
     },
     {
       "title": "Perceived self and social relevance of content motivates news sharing across cultures and topics",
@@ -12781,20 +12795,6 @@
       "venue": "Integrated Environmental Assessment and Management",
       "work_type": "article",
       "cited_by": 3
-    },
-    {
-      "title": "Rapid screening of shellfish tainting from oil spills using an antibody-based biosensor",
-      "url": "https://doi.org/10.1093/etojnl/vgae024",
-      "date": "2025-01-01",
-      "summary": "",
-      "org": "CACI International",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Environmental Toxicology and Chemistry",
-      "work_type": "article",
-      "cited_by": 0
     },
     {
       "title": "Observability for Delegated Execution in Agentic AI Systems",
@@ -13270,7 +13270,7 @@
       "title_source": "openalex",
       "venue": "Proceedings of the VLDB Endowment",
       "work_type": "article",
-      "cited_by": 30
+      "cited_by": 31
     },
     {
       "title": "Incentive ratio: A game theoretical analysis of market equilibria",

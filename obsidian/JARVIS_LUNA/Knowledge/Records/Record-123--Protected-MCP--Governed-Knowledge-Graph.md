@@ -2,7 +2,7 @@
 title: "Record 123 · Protected-MCP--Governed-Knowledge-Graph"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T13:43:53.237923+00:00
+updated_at: 2026-09-04T17:23:28.405291+00:00
 tags: [record, real-data]
 ---
 

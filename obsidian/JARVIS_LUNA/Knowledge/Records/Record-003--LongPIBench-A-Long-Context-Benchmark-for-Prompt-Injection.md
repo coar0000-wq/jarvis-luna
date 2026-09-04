@@ -2,7 +2,7 @@
 title: "Record 003 · LongPIBench-A-Long-Context-Benchmark-for-Prompt-Injection"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T13:43:53.206762+00:00
+updated_at: 2026-09-04T17:23:28.378541+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 137 · Gemini-Robotics-ER-2-powering-robotics-with-video-understanding-task-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T13:43:53.241240+00:00
+updated_at: 2026-09-04T17:23:28.408166+00:00
 tags: [record, real-data]
 ---
 

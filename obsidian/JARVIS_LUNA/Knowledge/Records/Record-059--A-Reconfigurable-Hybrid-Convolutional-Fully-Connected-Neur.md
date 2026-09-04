@@ -2,7 +2,7 @@
 title: "Record 059 · A-Reconfigurable-Hybrid-Convolutional-Fully-Connected-Neuromorphic-Cor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T13:43:53.220858+00:00
+updated_at: 2026-09-04T17:23:28.389890+00:00
 tags: [record, real-data]
 ---
 

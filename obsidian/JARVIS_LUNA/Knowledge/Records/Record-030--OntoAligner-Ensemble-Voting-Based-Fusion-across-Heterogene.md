@@ -2,7 +2,7 @@
 title: "Record 030 · OntoAligner-Ensemble-Voting-Based-Fusion-across-Heterogeneous-Ontology"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T13:43:53.213826+00:00
+updated_at: 2026-09-04T17:23:28.383918+00:00
 tags: [record, real-data]
 ---
 

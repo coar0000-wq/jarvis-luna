@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:41:06.981567+00:00",
+  "generated_at": "2026-09-04T17:21:14.398191+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -704,6 +704,30 @@
           "source": "rss"
         },
         {
+          "title": "Calling robotics startups: Apply now to be part of the 2026 Robotics Startup Radar",
+          "summary": "<p>Submit now to be part of the Robotics Startup Radar, which brings together some of the most promising robotics startups.</p> <p>The post <a href=\"https://www.therobotreport.com/calling-all-robotics-startups-apply-now-2026-robotics-startup-radar/\">Calling robotics startups: Apply now to be part of the 2026 Robotics Startup Radar</a> appeared first on <a href=\"https://www.therobotreport.com\">The ",
+          "published": "Fri, 04 Sep 2026 16:33:59 +0000",
+          "url": "https://www.therobotreport.com/calling-all-robotics-startups-apply-now-2026-robotics-startup-radar/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
+          "title": "Lyte raises $165M to help robots better sense their surroundings",
+          "summary": "<p>Lyte AI plans to use its second round of funding this year to scale production of its AI and perception capabilities.</p> <p>The post <a href=\"https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/\">Lyte raises $165M to help robots better sense their surroundings</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Fri, 04 Sep 2026 14:32:52 +0000",
+          "url": "https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
+          "title": "Robot.com partners with Sodexo to roll out more sidewalk delivery robots",
+          "summary": "<p>Robot.com says college campuses will continue to be an important part of its strategy as it scales sidewalk delivery robots.</p> <p>The post <a href=\"https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/\">Robot.com partners with Sodexo to roll out more sidewalk delivery robots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Re",
+          "published": "Fri, 04 Sep 2026 14:15:23 +0000",
+          "url": "https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
           "title": "Medtronic invests $700M in surgical partner Cornerstone Robotics",
           "summary": "<p>Medtronic and Cornerstone Robotics are building a multi-port portfolio anchored by the Hugo surgical system and expanded by Sentire.</p> <p>The post <a href=\"https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/\">Medtronic invests $700M in surgical partner Cornerstone Robotics</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Repo",
           "published": "Thu, 03 Sep 2026 18:53:54 +0000",
@@ -796,30 +820,6 @@
           "summary": "<p>The initiative is intended to help businesses in Australia identify automation opportunities, test them, and connect with local suppliers.</p> <p>The post <a href=\"https://www.therobotreport.com/howtorobot-robotics-australia-group-partner-platform-encourage-robot-adoption/\">HowToRobot and Robotics Australia Group partner on platform to encourage robot adoption</a> appeared first on <a href=\"htt",
           "published": "Tue, 01 Sep 2026 13:45:36 +0000",
           "url": "https://www.therobotreport.com/howtorobot-robotics-australia-group-partner-platform-encourage-robot-adoption/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "From spreadsheets to AI: Deere gives farmers new features in Operations Center, JD",
-          "summary": "<p>John Deere has launched JD, an AI tool that turns historical farm data into actionable insights to boost profitability.</p> <p>The post <a href=\"https://www.therobotreport.com/from-spreadsheets-ai-john-deeres-new-jd-operations-center-features/\">From spreadsheets to AI: Deere gives farmers new features in Operations Center, JD</a> appeared first on <a href=\"https://www.therobotreport.com\">The Ro",
-          "published": "Tue, 01 Sep 2026 11:00:41 +0000",
-          "url": "https://www.therobotreport.com/from-spreadsheets-ai-john-deeres-new-jd-operations-center-features/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Skild AI unveils S1 flagship robot foundation model",
-          "summary": "<p>Skild AI says its S1 robot foundation model enables robots to learn new tasks just by seeing a video of it being performed.</p> <p>The post <a href=\"https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/\">Skild AI unveils S1 flagship robot foundation model</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Mon, 31 Aug 2026 21:14:08 +0000",
-          "url": "https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "How better grippers can unlock physical AI",
-          "summary": "<p>Physical AI depends on smarter grippers to give robots the dexterity, sensing and adaptability needed to handle real-world tasks.</p> <p>The post <a href=\"https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/\">How better grippers can unlock physical AI</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Mon, 31 Aug 2026 20:20:25 +0000",
-          "url": "https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/",
           "feed": "The Robot Report",
           "source": "rss"
         }

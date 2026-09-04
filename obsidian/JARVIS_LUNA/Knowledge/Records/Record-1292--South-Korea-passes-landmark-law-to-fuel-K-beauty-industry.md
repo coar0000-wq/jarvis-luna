@@ -1,0 +1,21 @@
+---
+title: "Record 1292 · South-Korea-passes-landmark-law-to-fuel-K-beauty-industry---Personal-C"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-04T17:23:28.670890+00:00
+tags: [record, real-data]
+---
+
+# Record 1292 · South-Korea-passes-landmark-law-to-fuel-K-beauty-industry---Personal-C
+
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihwFBVV95cUxNNVdUMGI1MURvNk9mcHJmbE01UWRub19ZOHNUMUIxNXdqM1lCOGZyTXdOWnlkaHZvNGQ0WE1Bd1k4WUQ0NnAyVEhHUGQ2MmNRVHBoTTl1dmlfU0hIZnlScFJJNFYzLTgxWEhqZnlXUnN0cVI0S01GUGxlSmxVNHlQSm5XMENOMW8?oc=5)
+
+**제목:** South Korea passes landmark law to fuel K-beauty industry - Personal Care Insights
+
+South Korea passes landmark law to fuel K-beauty industry - Personal Care Insights
+
+**출처:** Source · Google Search
+
+## Connected nodes
+
+[[Source--Google-Search]] [[뷰티스킨케어]] [[법률규제]] [[JARVIS Real Knowledge Index]]

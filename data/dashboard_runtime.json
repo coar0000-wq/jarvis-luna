@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T23:03:40.779538+09:00",
+  "generated_at": "2026-09-05T02:43:37.935505+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "pipeline": [
     {
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "2280개 코퍼스 레코드"
+      "detail": "2301개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "failed",
-      "detail": "2812개 노트 · 37730개 링크 · 끊어진 링크 7806개"
+      "detail": "2833개 노트 · 37966개 링크 · 끊어진 링크 7806개"
     },
     {
       "id": "dashboard",
@@ -25,7 +25,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "2280건 · 3 experts · 정확도 87.19%"
+      "detail": "2301건 · 3 experts · 정확도 87.22%"
     },
     {
       "id": "publish",
@@ -36,45 +36,45 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 2280,
+    "record_count": 2301,
     "source_counts": {},
-    "updated_at": "2026-09-04T22:42:28.086408+09:00"
+    "updated_at": "2026-09-05T02:22:38.432854+09:00"
   },
   "graph": {
-    "notes": 2812,
-    "links": 37730,
+    "notes": 2833,
+    "links": 37966,
     "dangling_links": 7806,
-    "records": 2280,
+    "records": 2301,
     "sources": 6,
     "topics": 22,
     "audit": "failed",
-    "last_generated": "2026-09-04T22:43:53.972721+09:00"
+    "last_generated": "2026-09-05T02:23:29.098224+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 2280,
+    "records": 2301,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.8719298245614036,
-    "validation_accuracy": 0.8735362997658079,
-    "final_loss": 0.4088692093685497,
-    "gate_load_std": 0.20661532979332448,
+    "accuracy": 0.8722294654498044,
+    "validation_accuracy": 0.8747099767981439,
+    "final_loss": 0.4083956184868662,
+    "gate_load_std": 0.20734517588085588,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-04T14:03:40.488694+00:00"
+    "updated_at": "2026-09-04T17:43:37.678155+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 2280,
-      "notes": 2812,
-      "links": 37730
+      "records": 2301,
+      "notes": 2833,
+      "links": 37966
     },
     "prior_totals": {
-      "records": 2280,
-      "notes": 2812,
-      "links": 37730
+      "records": 2301,
+      "notes": 2833,
+      "links": 37966
     },
     "added_this_run": {
       "records": 0,
@@ -82,9 +82,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 2280,
-      "notes": 2812,
-      "links": 37730
+      "records": 2301,
+      "notes": 2833,
+      "links": 37966
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -264,148 +264,211 @@
     ],
     "oliveyoung_us": [
       {
-        "product": "Advanced Snail 96 Mucin Essence",
-        "sub": "COSRX",
-        "badge": "",
+        "product": "THOME The Glow Signature",
+        "sub": "THOME",
+        "badge": "$279.00",
         "rank": 1,
-        "rating": 4.9,
-        "review_count": null,
-        "url": ""
+        "rating": 4.7,
+        "review_count": 25,
+        "url": "https://us.oliveyoung.com/products/UA66893538"
       },
       {
-        "product": "Heartleaf 77 Toner",
-        "sub": "ANUA",
-        "badge": "",
+        "product": "[11types] CORINGCO Toktokhara No Glue Eyelash",
+        "sub": "CORINGCO",
+        "badge": "$12.99",
         "rank": 2,
         "rating": 4.8,
-        "review_count": null,
-        "url": ""
+        "review_count": 12181,
+        "url": "https://us.oliveyoung.com/products/UA29855490"
       },
       {
-        "product": "Collagen Jelly Cream",
-        "sub": "BIODANCE",
-        "badge": "",
+        "product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+        "sub": "MEDIHEAL",
+        "badge": "$20.99",
         "rank": 3,
         "rating": 4.8,
-        "review_count": null,
-        "url": ""
+        "review_count": 1071,
+        "url": "https://us.oliveyoung.com/products/UA48723304"
       },
       {
-        "product": "Vita C Dark Spot Serum",
-        "sub": "Goodal",
-        "badge": "",
+        "product": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
+        "sub": "MEDIHEAL",
+        "badge": "$39.99",
         "rank": 4,
         "rating": 4.8,
-        "review_count": null,
-        "url": ""
+        "review_count": 15157,
+        "url": "https://us.oliveyoung.com/products/UA32407466"
       },
       {
-        "product": "Bean Essence",
-        "sub": "Mixsoon",
-        "badge": "",
+        "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "sub": "AESTURA",
+        "badge": "$32.00",
         "rank": 5,
-        "rating": 4.7,
-        "review_count": null,
-        "url": ""
+        "rating": 5,
+        "review_count": 2,
+        "url": "https://us.oliveyoung.com/products/UA71026007"
       },
       {
-        "product": "Rice Toner",
-        "sub": "I'm From",
-        "badge": "",
+        "product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+        "sub": "Dr.Althea",
+        "badge": "$27.00",
         "rank": 6,
         "rating": 4.8,
-        "review_count": null,
-        "url": ""
+        "review_count": 1624,
+        "url": "https://us.oliveyoung.com/products/UA73639757"
       },
       {
-        "product": "Ceramide Cream",
-        "sub": "Illiyoon",
-        "badge": "",
+        "product": "Dr.G R.E.D Blemish Clear Soothing Cream Set : Cream 2.37 fl. oz.(70ml) + Cream 1.01 fl. oz.(30ml) + Serum 0.68 fl. oz.(20ml)",
+        "sub": "Dr.G",
+        "badge": "$25.20",
         "rank": 7,
-        "rating": 4.9,
-        "review_count": null,
-        "url": ""
+        "rating": 4.8,
+        "review_count": 239,
+        "url": "https://us.oliveyoung.com/products/UA88452413"
       },
       {
-        "product": "Glutathione Serum",
-        "sub": "APLB",
-        "badge": "",
+        "product": "BIOHEAL BOH Probioderm 3D Lifting Cream 1.69 fl. oz.(50ml)",
+        "sub": "BIOHEAL BOH",
+        "badge": "$29.74",
         "rank": 8,
+        "rating": 4.8,
+        "review_count": 8,
+        "url": "https://us.oliveyoung.com/products/UA35435218"
+      },
+      {
+        "product": "numbuzin No.9+ NAD+ BIO Lifting-sil Essence 1.69 fl. oz.(50ml)",
+        "sub": "numbuzin",
+        "badge": "$21.75",
+        "rank": 9,
+        "rating": 4.9,
+        "review_count": 2312,
+        "url": "https://us.oliveyoung.com/products/UA71332893"
+      },
+      {
+        "product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+        "sub": "lilyeve",
+        "badge": "$23.76",
+        "rank": 10,
         "rating": 4.7,
-        "review_count": null,
-        "url": ""
+        "review_count": 6,
+        "url": "https://us.oliveyoung.com/products/UA98417491"
+      },
+      {
+        "product": "beplain Mung Bean pH-Balanced Cleansing Foam 5.41 fl. oz.(160ml)",
+        "sub": "beplain",
+        "badge": "$17.10",
+        "rank": 11,
+        "rating": 4.7,
+        "review_count": 13,
+        "url": "https://us.oliveyoung.com/products/UA34557979"
+      },
+      {
+        "product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
+        "sub": "ROUND LAB",
+        "badge": "$22.49",
+        "rank": 12,
+        "rating": 5,
+        "review_count": 2,
+        "url": "https://us.oliveyoung.com/products/UA38918945"
+      },
+      {
+        "product": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
+        "sub": "JUNG SAEM MOOL",
+        "badge": "$32.00",
+        "rank": 13,
+        "rating": 4.7,
+        "review_count": 364,
+        "url": "https://us.oliveyoung.com/products/UA97366320"
+      },
+      {
+        "product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+        "sub": "REJURAN",
+        "badge": "$55.00",
+        "rank": 14,
+        "rating": 4.7,
+        "review_count": 13,
+        "url": "https://us.oliveyoung.com/products/UA44060194"
+      },
+      {
+        "product": "[7types] MEDIHEAL Toner Pad 100ct",
+        "sub": "MEDIHEAL",
+        "badge": "$24.99",
+        "rank": 15,
+        "rating": 4.8,
+        "review_count": 12976,
+        "url": "https://us.oliveyoung.com/products/UA74545007"
       }
     ],
     "google_trends_us": [
       {
-        "keyword": "new iphone release date",
-        "product": "new iphone release date",
-        "sub": "TechRepublic",
-        "badge": "5000+",
-        "url": "https://trends.google.com/trending?geo=US&q=new%20iphone%20release%20date"
+        "keyword": "court tv",
+        "product": "court tv",
+        "sub": "The New York Times",
+        "badge": "200000+",
+        "url": "https://trends.google.com/trending?geo=US&q=court%20tv"
       },
       {
-        "keyword": "falkland islands",
-        "product": "falkland islands",
-        "sub": "BBC",
+        "keyword": "ben simmons",
+        "product": "ben simmons",
+        "sub": "ESPN",
         "badge": "2000+",
-        "url": "https://trends.google.com/trending?geo=US&q=falkland%20islands"
+        "url": "https://trends.google.com/trending?geo=US&q=ben%20simmons"
       },
       {
-        "keyword": "trump games",
-        "product": "trump games",
-        "sub": "AP News",
+        "keyword": "mr t",
+        "product": "mr t",
+        "sub": "The Guardian",
         "badge": "2000+",
-        "url": "https://trends.google.com/trending?geo=US&q=trump%20games"
+        "url": "https://trends.google.com/trending?geo=US&q=mr%20t"
       },
       {
-        "keyword": "weather today",
-        "product": "weather today",
-        "sub": "FOX Weather",
-        "badge": "1000+",
-        "url": "https://trends.google.com/trending?geo=US&q=weather%20today"
-      },
-      {
-        "keyword": "ncaa football scores",
-        "product": "ncaa football scores",
-        "sub": "West Texas A&M University Athletics",
-        "badge": "500+",
-        "url": "https://trends.google.com/trending?geo=US&q=ncaa%20football%20scores"
-      },
-      {
-        "keyword": "college football scores",
-        "product": "college football scores",
+        "keyword": "breanna stewart",
+        "product": "breanna stewart",
         "sub": "Yahoo Sports",
+        "badge": "2000+",
+        "url": "https://trends.google.com/trending?geo=US&q=breanna%20stewart"
+      },
+      {
+        "keyword": "napheesa collier",
+        "product": "napheesa collier",
+        "sub": "WNBA",
+        "badge": "1000+",
+        "url": "https://trends.google.com/trending?geo=US&q=napheesa%20collier"
+      },
+      {
+        "keyword": "russell howard baby loss",
+        "product": "russell howard baby loss",
+        "sub": "The Guardian",
+        "badge": "1000+",
+        "url": "https://trends.google.com/trending?geo=US&q=russell%20howard%20baby%20loss"
+      },
+      {
+        "keyword": "cancer",
+        "product": "cancer",
+        "sub": "The Washington Post",
         "badge": "500+",
-        "url": "https://trends.google.com/trending?geo=US&q=college%20football%20scores"
+        "url": "https://trends.google.com/trending?geo=US&q=cancer"
       },
       {
-        "keyword": "wtae",
-        "product": "wtae",
-        "sub": "TribLIVE.com",
+        "keyword": "jennifer aniston",
+        "product": "jennifer aniston",
+        "sub": "Fox News",
+        "badge": "500+",
+        "url": "https://trends.google.com/trending?geo=US&q=jennifer%20aniston"
+      },
+      {
+        "keyword": "zhang ziyu",
+        "product": "zhang ziyu",
+        "sub": "FIBA",
+        "badge": "500+",
+        "url": "https://trends.google.com/trending?geo=US&q=zhang%20ziyu"
+      },
+      {
+        "keyword": "euromaidan press",
+        "product": "euromaidan press",
+        "sub": "Euromaidan Press",
         "badge": "200+",
-        "url": "https://trends.google.com/trending?geo=US&q=wtae"
-      },
-      {
-        "keyword": "lottery near me",
-        "product": "lottery near me",
-        "sub": "6abc Philadelphia",
-        "badge": "200+",
-        "url": "https://trends.google.com/trending?geo=US&q=lottery%20near%20me"
-      },
-      {
-        "keyword": "fanduel free bet",
-        "product": "fanduel free bet",
-        "sub": "WTOP News",
-        "badge": "100+",
-        "url": "https://trends.google.com/trending?geo=US&q=fanduel%20free%20bet"
-      },
-      {
-        "keyword": "idscan",
-        "product": "idscan",
-        "sub": "Ars Technica",
-        "badge": "100+",
-        "url": "https://trends.google.com/trending?geo=US&q=idscan"
+        "url": "https://trends.google.com/trending?geo=US&q=euromaidan%20press"
       }
     ],
     "wikipedia_interest": [
@@ -1045,9 +1108,9 @@
     "rate": 1356.73,
     "as_of": "2026-09-04",
     "source": "https://open.er-api.com/v6/latest/USD",
-    "updated_at": "2026-09-04"
+    "updated_at": "2026-09-05"
   },
-  "last_synced": "09. 04. 오후 11:03 KST",
+  "last_synced": "09. 05. 오전 02:43 KST",
   "global_channels_status": {
     "amazon_best_sellers": {
       "status": "ok",
@@ -1073,15 +1136,15 @@
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "",
-      "count": 8,
+      "collected_at": "2026-09-04T17:22:59.704020+00:00",
+      "count": 15,
       "trust": "verified"
     },
     "google_trends_us": {
       "status": "ok",
       "source": "trends.google.com/trending/rss?geo=US (공식 RSS)",
       "reason": "",
-      "collected_at": "2026-09-04T09:33:03.295860+00:00",
+      "collected_at": "2026-09-04T14:03:58.419430+00:00",
       "count": 10,
       "trust": "verified",
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽"
@@ -1090,7 +1153,7 @@
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-04T09:33:03.295860+00:00",
+      "collected_at": "2026-09-04T14:03:58.419430+00:00",
       "count": 8,
       "trust": "verified",
       "note": "2026-08-04 ~ 2026-09-02 일별 조회수. 후반 15일 대비 전반 15일 증감률"
@@ -1099,7 +1162,7 @@
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-04T09:33:03.295860+00:00",
+      "collected_at": "2026-09-04T14:03:58.419430+00:00",
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용."
@@ -1108,7 +1171,7 @@
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-04T09:33:03.295860+00:00",
+      "collected_at": "2026-09-04T14:03:58.419430+00:00",
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다."
@@ -1153,7 +1216,7 @@
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-04T13:42:50.335974+00:00",
+      "collected_at": "2026-09-04T17:22:58.972310+00:00",
       "count": 15,
       "trust": "verified"
     }

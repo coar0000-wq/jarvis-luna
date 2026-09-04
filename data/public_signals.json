@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T14:03:58.419430+00:00",
+  "generated_at": "2026-09-04T17:43:55.014106+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "court tv",
-          "approx_traffic": "200000+",
-          "traffic_num": 200000,
-          "published": "Fri, 4 Sep 2026 06:00:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=court%20tv"
-        },
-        {
-          "keyword": "ben simmons",
+          "keyword": "tigers vs guardians",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Fri, 4 Sep 2026 06:30:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=ben%20simmons"
+          "published": "Fri, 4 Sep 2026 10:10:00 -0700",
+          "source_name": "Cleveland.com",
+          "url": "https://trends.google.com/trending?geo=US&q=tigers%20vs%20guardians"
         },
         {
-          "keyword": "mr t",
+          "keyword": "kate middleton prince william prince harry",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Fri, 4 Sep 2026 06:20:00 -0700",
-          "source_name": "The Guardian",
-          "url": "https://trends.google.com/trending?geo=US&q=mr%20t"
-        },
-        {
-          "keyword": "breanna stewart",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Fri, 4 Sep 2026 06:10:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=breanna%20stewart"
-        },
-        {
-          "keyword": "napheesa collier",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Fri, 4 Sep 2026 06:20:00 -0700",
-          "source_name": "WNBA",
-          "url": "https://trends.google.com/trending?geo=US&q=napheesa%20collier"
-        },
-        {
-          "keyword": "russell howard baby loss",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Fri, 4 Sep 2026 06:10:00 -0700",
-          "source_name": "The Guardian",
-          "url": "https://trends.google.com/trending?geo=US&q=russell%20howard%20baby%20loss"
-        },
-        {
-          "keyword": "cancer",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 4 Sep 2026 06:40:00 -0700",
-          "source_name": "The Washington Post",
-          "url": "https://trends.google.com/trending?geo=US&q=cancer"
-        },
-        {
-          "keyword": "jennifer aniston",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 4 Sep 2026 06:40:00 -0700",
+          "published": "Fri, 4 Sep 2026 10:10:00 -0700",
           "source_name": "Fox News",
-          "url": "https://trends.google.com/trending?geo=US&q=jennifer%20aniston"
+          "url": "https://trends.google.com/trending?geo=US&q=kate%20middleton%20prince%20william%20prince%20harry"
         },
         {
-          "keyword": "zhang ziyu",
+          "keyword": "emily compagno",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Fri, 4 Sep 2026 10:10:00 -0700",
+          "source_name": "The Hollywood Reporter",
+          "url": "https://trends.google.com/trending?geo=US&q=emily%20compagno"
+        },
+        {
+          "keyword": "taylor townsend",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Fri, 4 Sep 2026 10:10:00 -0700",
+          "source_name": "WTA Tennis",
+          "url": "https://trends.google.com/trending?geo=US&q=taylor%20townsend"
+        },
+        {
+          "keyword": "lyon fc",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Fri, 4 Sep 2026 10:10:00 -0700",
+          "source_name": "Le Progrès",
+          "url": "https://trends.google.com/trending?geo=US&q=lyon%20fc"
+        },
+        {
+          "keyword": "al-shabab vs al-hilal",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 4 Sep 2026 06:20:00 -0700",
-          "source_name": "FIBA",
-          "url": "https://trends.google.com/trending?geo=US&q=zhang%20ziyu"
+          "published": "Fri, 4 Sep 2026 10:30:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=al-shabab%20vs%20al-hilal"
         },
         {
-          "keyword": "euromaidan press",
+          "keyword": "kevin o leary",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 4 Sep 2026 10:20:00 -0700",
+          "source_name": "Yahoo Finance",
+          "url": "https://trends.google.com/trending?geo=US&q=kevin%20o%20leary"
+        },
+        {
+          "keyword": "alexander bublik",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Fri, 4 Sep 2026 06:20:00 -0700",
-          "source_name": "Euromaidan Press",
-          "url": "https://trends.google.com/trending?geo=US&q=euromaidan%20press"
+          "published": "Fri, 4 Sep 2026 10:30:00 -0700",
+          "source_name": "Sports Illustrated",
+          "url": "https://trends.google.com/trending?geo=US&q=alexander%20bublik"
+        },
+        {
+          "keyword": "david muir",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Fri, 4 Sep 2026 10:20:00 -0700",
+          "source_name": "ADWEEK",
+          "url": "https://trends.google.com/trending?geo=US&q=david%20muir"
+        },
+        {
+          "keyword": "diana shnaider",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Fri, 4 Sep 2026 10:20:00 -0700",
+          "source_name": "Athlon Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=diana%20shnaider"
         }
       ]
     },
@@ -187,6 +187,11 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "Urea Is an Under-the-Radar Ingredient That Softens Skin from Head to Toe",
+          "published": "Fri, 04 Sep 2026 15:20:17 +0000",
+          "url": "https://www.allure.com/story/best-urea-moisturizer"
+        },
         {
           "title": "Fall 2026 Makeup Trends Put Your Best Features Front and Center — See Photos",
           "published": "Fri, 04 Sep 2026 00:00:00 +0000",
@@ -331,11 +336,6 @@
           "title": "The 9 Best Products for Low-Porosity Hair Won’t Weigh Down Your Strands",
           "published": "Wed, 26 Aug 2026 15:39:16 +0000",
           "url": "https://www.allure.com/story/best-products-for-low-porosity-hair"
-        },
-        {
-          "title": "Target Launches 90-Brand Beauty Studio Following Costume Backlash",
-          "published": "Wed, 26 Aug 2026 14:45:39 +0000",
-          "url": "https://www.allure.com/story/target-beauty-studio-backlash-launch"
         }
       ]
     },

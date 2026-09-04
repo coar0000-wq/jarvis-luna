@@ -2,7 +2,7 @@
 title: "Record 080 · Rethinking-World-Models-for-Safety-Critical-Embodied-Systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T13:43:53.227031+00:00
+updated_at: 2026-09-04T17:23:28.395659+00:00
 tags: [record, real-data]
 ---
 

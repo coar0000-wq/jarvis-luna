@@ -2,7 +2,7 @@
 title: "기관 · Bank of America"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T13:43:53.920634+00:00
+updated_at: 2026-09-04T17:23:29.045446+00:00
 tags: [org, real-data]
 ---
 
@@ -10,32 +10,32 @@ tags: [org, real-data]
 
 실제 수집 레코드 **25건**이 이 기관에 연결되어 있습니다. (논문 25건)
 
-- [[Record-190--MMTC-Net-Multimodal-Temporal-Cervical-Network-for-HSIL-Rec]]
-- [[Record-191--CMB-Net-A-Clinically-Modulated-Boundary-Aware-Network-for-]]
-- [[Record-199--Discovery-of-a-millisecond-pulsar-with-a-CO-white-dwarf-co]]
-- [[Record-219--32eP-Long-term-efficacy-and-safety-of-adjuvant-icotinib-wi]]
-- [[Record-228--Conceptual-comorbidity-networks-in-autoimmune-thyroid-dise]]
-- [[Record-232--Operational-risks-of-financial-innovation-Evidence-from-la]]
-- [[Record-234--NMRhub-An-NMR-Data-Ecosystem-Spanning-the-Complete-Data-Li]]
-- [[Record-252--Risk-averse-placement-optimization-in-refugee-resettlement]]
-- [[Record-255--Ownership-networks-financing-and-firm-growth]]
-- [[Record-323--Apollonius-Rides-Again-in-a-Taxicab]]
-- [[Record-341--PharmaPlain-SOUL-trial-looking-at-the-effect-of-oral-semag]]
-- [[Record-367--Reimagining-resilience-informal-workers-and-adaptive-strat]]
-- [[Record-370--Successor-selection-and-strategic-performance-in-family-bu]]
-- [[Record-481--Seeking-HELP-beyond-the-pill-Womens-perceptions-of-informe]]
-- [[Record-548--Burden-and-trends-of-vaccine-preventable-diseases-among-un]]
-- [[Record-586--HIGH-RELIABILITY-TRANSACTION-PROCESSING-IN-LARGE-SCALE-RET]]
-- [[Record-587--The-investor-base-for-sovereign-debt-Why-diversification-m]]
-- [[Record-1694--Discovery-of-a-millisecond-pulsar-with-a-CO-white-dwarf-c]]
-- [[Record-1704--Progress-in-Formalizing-Sphere-Packing-in-Dimension-8]]
-- [[Record-1723--Quantifying-Social-Inflation-in-Liability-Insurance-with-]]
-- [[Record-1724--Constraining-Scattering-Medium-Geometry-with-Cyclic-Spect]]
-- [[Record-1747--Valuing-American-options-and-Flexible-Forwards-contracts-]]
-- [[Record-1751--Evaluating-the-Fourier-Approximation-in-Pulsar-Timing-Arr]]
-- [[Record-1752--The-NANOGrav-15-yr-Data-Set-Impacts-of-Customized-Chromat]]
-- [[Record-1768--Lessons-learned-from-ongoing-coordination-between-NRAOGBO]]
+- [[Record-191--MMTC-Net-Multimodal-Temporal-Cervical-Network-for-HSIL-Rec]]
+- [[Record-192--CMB-Net-A-Clinically-Modulated-Boundary-Aware-Network-for-]]
+- [[Record-200--Discovery-of-a-millisecond-pulsar-with-a-CO-white-dwarf-co]]
+- [[Record-223--32eP-Long-term-efficacy-and-safety-of-adjuvant-icotinib-wi]]
+- [[Record-232--Conceptual-comorbidity-networks-in-autoimmune-thyroid-dise]]
+- [[Record-236--Operational-risks-of-financial-innovation-Evidence-from-la]]
+- [[Record-238--NMRhub-An-NMR-Data-Ecosystem-Spanning-the-Complete-Data-Li]]
+- [[Record-256--Risk-averse-placement-optimization-in-refugee-resettlement]]
+- [[Record-259--Ownership-networks-financing-and-firm-growth]]
+- [[Record-329--Apollonius-Rides-Again-in-a-Taxicab]]
+- [[Record-347--PharmaPlain-SOUL-trial-looking-at-the-effect-of-oral-semag]]
+- [[Record-376--Reimagining-resilience-informal-workers-and-adaptive-strat]]
+- [[Record-379--Successor-selection-and-strategic-performance-in-family-bu]]
+- [[Record-490--Seeking-HELP-beyond-the-pill-Womens-perceptions-of-informe]]
+- [[Record-557--Burden-and-trends-of-vaccine-preventable-diseases-among-un]]
+- [[Record-595--HIGH-RELIABILITY-TRANSACTION-PROCESSING-IN-LARGE-SCALE-RET]]
+- [[Record-596--The-investor-base-for-sovereign-debt-Why-diversification-m]]
+- [[Record-1708--Discovery-of-a-millisecond-pulsar-with-a-CO-white-dwarf-c]]
+- [[Record-1718--Progress-in-Formalizing-Sphere-Packing-in-Dimension-8]]
+- [[Record-1737--Quantifying-Social-Inflation-in-Liability-Insurance-with-]]
+- [[Record-1738--Constraining-Scattering-Medium-Geometry-with-Cyclic-Spect]]
+- [[Record-1761--Valuing-American-options-and-Flexible-Forwards-contracts-]]
+- [[Record-1765--Evaluating-the-Fourier-Approximation-in-Pulsar-Timing-Arr]]
+- [[Record-1766--The-NANOGrav-15-yr-Data-Set-Impacts-of-Customized-Chromat]]
+- [[Record-1782--Lessons-learned-from-ongoing-coordination-between-NRAOGBO]]
 
 ## Connected nodes
 
-[[Record-190--MMTC-Net-Multimodal-Temporal-Cervical-Network-for-HSIL-Rec]] [[Record-191--CMB-Net-A-Clinically-Modulated-Boundary-Aware-Network-for-]] [[Record-199--Discovery-of-a-millisecond-pulsar-with-a-CO-white-dwarf-co]] [[Record-219--32eP-Long-term-efficacy-and-safety-of-adjuvant-icotinib-wi]] [[Record-228--Conceptual-comorbidity-networks-in-autoimmune-thyroid-dise]] [[Record-232--Operational-risks-of-financial-innovation-Evidence-from-la]] [[Record-234--NMRhub-An-NMR-Data-Ecosystem-Spanning-the-Complete-Data-Li]] [[Record-252--Risk-averse-placement-optimization-in-refugee-resettlement]] [[Record-255--Ownership-networks-financing-and-firm-growth]] [[Record-323--Apollonius-Rides-Again-in-a-Taxicab]] [[Record-341--PharmaPlain-SOUL-trial-looking-at-the-effect-of-oral-semag]] [[Record-367--Reimagining-resilience-informal-workers-and-adaptive-strat]] [[Record-370--Successor-selection-and-strategic-performance-in-family-bu]] [[Record-481--Seeking-HELP-beyond-the-pill-Womens-perceptions-of-informe]] [[Record-548--Burden-and-trends-of-vaccine-preventable-diseases-among-un]] [[Record-586--HIGH-RELIABILITY-TRANSACTION-PROCESSING-IN-LARGE-SCALE-RET]] [[Record-587--The-investor-base-for-sovereign-debt-Why-diversification-m]] [[Record-1694--Discovery-of-a-millisecond-pulsar-with-a-CO-white-dwarf-c]] [[Record-1704--Progress-in-Formalizing-Sphere-Packing-in-Dimension-8]] [[Record-1723--Quantifying-Social-Inflation-in-Liability-Insurance-with-]] [[Record-1724--Constraining-Scattering-Medium-Geometry-with-Cyclic-Spect]] [[Record-1747--Valuing-American-options-and-Flexible-Forwards-contracts-]] [[Record-1751--Evaluating-the-Fourier-Approximation-in-Pulsar-Timing-Arr]] [[Record-1752--The-NANOGrav-15-yr-Data-Set-Impacts-of-Customized-Chromat]] [[Record-1768--Lessons-learned-from-ongoing-coordination-between-NRAOGBO]] [[경영전략]] [[머신러닝-연구]] [[의료바이오]] [[컴퓨터-비전]] [[투자은행금융]] [[JARVIS Real Knowledge Index]]
+[[Record-191--MMTC-Net-Multimodal-Temporal-Cervical-Network-for-HSIL-Rec]] [[Record-192--CMB-Net-A-Clinically-Modulated-Boundary-Aware-Network-for-]] [[Record-200--Discovery-of-a-millisecond-pulsar-with-a-CO-white-dwarf-co]] [[Record-223--32eP-Long-term-efficacy-and-safety-of-adjuvant-icotinib-wi]] [[Record-232--Conceptual-comorbidity-networks-in-autoimmune-thyroid-dise]] [[Record-236--Operational-risks-of-financial-innovation-Evidence-from-la]] [[Record-238--NMRhub-An-NMR-Data-Ecosystem-Spanning-the-Complete-Data-Li]] [[Record-256--Risk-averse-placement-optimization-in-refugee-resettlement]] [[Record-259--Ownership-networks-financing-and-firm-growth]] [[Record-329--Apollonius-Rides-Again-in-a-Taxicab]] [[Record-347--PharmaPlain-SOUL-trial-looking-at-the-effect-of-oral-semag]] [[Record-376--Reimagining-resilience-informal-workers-and-adaptive-strat]] [[Record-379--Successor-selection-and-strategic-performance-in-family-bu]] [[Record-490--Seeking-HELP-beyond-the-pill-Womens-perceptions-of-informe]] [[Record-557--Burden-and-trends-of-vaccine-preventable-diseases-among-un]] [[Record-595--HIGH-RELIABILITY-TRANSACTION-PROCESSING-IN-LARGE-SCALE-RET]] [[Record-596--The-investor-base-for-sovereign-debt-Why-diversification-m]] [[Record-1708--Discovery-of-a-millisecond-pulsar-with-a-CO-white-dwarf-c]] [[Record-1718--Progress-in-Formalizing-Sphere-Packing-in-Dimension-8]] [[Record-1737--Quantifying-Social-Inflation-in-Liability-Insurance-with-]] [[Record-1738--Constraining-Scattering-Medium-Geometry-with-Cyclic-Spect]] [[Record-1761--Valuing-American-options-and-Flexible-Forwards-contracts-]] [[Record-1765--Evaluating-the-Fourier-Approximation-in-Pulsar-Timing-Arr]] [[Record-1766--The-NANOGrav-15-yr-Data-Set-Impacts-of-Customized-Chromat]] [[Record-1782--Lessons-learned-from-ongoing-coordination-between-NRAOGBO]] [[경영전략]] [[머신러닝-연구]] [[의료바이오]] [[컴퓨터-비전]] [[투자은행금융]] [[JARVIS Real Knowledge Index]]
