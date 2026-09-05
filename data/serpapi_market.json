@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-09-05T02:32:27.041897+00:00",
+  "status": "skipped",
+  "reason": "SERPAPI_KEY 가 없어 호출하지 않음. 값을 지어내지 않는다.",
+  "plan": "free 250/month",
+  "usage": {
+    "month": "2026-09",
+    "used": 0,
+    "cap": 200,
+    "runs": []
+  }
+}

@@ -1,0 +1,83 @@
+name: SerpApi 미국 시장가·트렌드 수집
+
+# 무료 플랜은 월 250회다. 매일 돌리면 하루 8회밖에 못 쓴다.
+# 상품 14 + 키워드 8 = 22회가 한 번에 들어가므로 주 1회만 돈다.
+on:
+  schedule:
+    - cron: "0 20 * * 1"      # 매주 화요일 05:00 KST
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "prices / trends / 비우면 둘 다"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: serpapi-market
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 시크릿 확인
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: |
+          if [ -z "$SERPAPI_KEY" ]; then
+            echo "SERPAPI_KEY 가 등록되어 있지 않다. 호출 없이 종료한다."
+          else
+            echo "SERPAPI_KEY 확인됨"
+          fi
+
+      - name: 수집
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: |
+          if [ -n "${{ github.event.inputs.only }}" ]; then
+            python scripts/collect_serpapi_market.py --only=${{ github.event.inputs.only }}
+          else
+            python scripts/collect_serpapi_market.py
+          fi
+
+      - name: 결과 요약
+        run: |
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json
+          from pathlib import Path
+          d = json.loads(Path("data/serpapi_market.json").read_text(encoding="utf-8"))
+          u = d.get("usage") or {}
+          print("## SerpApi 수집\n")
+          print(f"- 플랜: {d.get('plan','')}")
+          print(f"- 이번 실행 {u.get('spent_this_run','?')}회 · 이번 달 {u.get('used','?')}/{u.get('cap','?')}")
+          for k in ("prices", "trends"):
+              b = d.get(k) or {}
+              print(f"- {k}: {b.get('status')} {b.get('count', 0)}건"
+                    + (f" · 실패 {len(b.get('failures') or [])}건" if b.get("failures") else ""))
+          PY
+
+      - name: 커밋 및 푸시
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A data/serpapi_market.json data/serpapi_usage.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -q -m "SerpApi 미국 시장가·트렌드 수집"
+          for i in 1 2 3; do
+            git fetch -q origin main
+            git rebase -X ours origin/main >/dev/null 2>&1 || git rebase --abort || true
+            if git push -q origin HEAD:main; then echo "푸시 성공"; exit 0; fi
+            sleep 5
+          done
+          echo "푸시 실패"; exit 1
