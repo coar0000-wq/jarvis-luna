@@ -117,6 +117,32 @@ def ship_krw(grams: int) -> int:
     return SMALL_PACKET_US[-1][1]
 
 
+MEASURED_PATH = ROOT / "data" / "weights.json"
+
+
+def load_measured() -> dict:
+    """저울로 잰 실제 배송 무게. 있으면 추정값보다 항상 우선한다.
+
+    형식은 data/weights.json 의 measured 아래에 상품번호를 키로 둔다.
+      {"measured": {"1045146": {"gram": 128, "note": "포장 포함 실측"}}}
+    값이 없으면 빈 dict 를 돌려주고 추정으로 넘어간다. 지어내지 않는다.
+    """
+    try:
+        d = json.loads(MEASURED_PATH.read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    out = {}
+    for pd_no, v in (d.get("measured") or {}).items():
+        g = v.get("gram") if isinstance(v, dict) else v
+        if isinstance(g, (int, float)) and g > 0:
+            out[str(pd_no)] = (int(round(g)),
+                               (v.get("note") if isinstance(v, dict) else "") or "실측")
+    return out
+
+
+MEASURED = load_measured()
+
+
 def est_weight(name: str) -> tuple[int, str]:
     """상품명의 용량 표기로 무게를 추정한다. 추정 근거를 함께 반환."""
     m = re.search(r"(\d+(?:\.\d+)?)\s*(ml|g|mL|ML|G)\b", name)
@@ -134,7 +160,13 @@ def analyze(p: dict, rate: float, per_order: int, MARKET: dict,
             duty_mode: str = "ddu") -> dict:
     name = p.get("name") or ""
     krw = int(p.get("price_krw") or 0)
-    grams, wnote = est_weight(name)
+    hit = MEASURED.get(str(p.get("pd_no")))
+    if hit:
+        grams, wnote = hit[0], hit[1]
+        wsource = "measured"
+    else:
+        grams, wnote = est_weight(name)
+        wsource = "estimated"
 
     cost = krw / rate
     # 주문당 n개를 함께 보낸다고 가정하면 배송비가 n분의 1로 나뉜다
@@ -165,6 +197,7 @@ def analyze(p: dict, rate: float, per_order: int, MARKET: dict,
         "shopify_score": p.get("shopify_score"),
         "price_krw": krw,
         "weight_g_est": grams, "weight_note": wnote,
+        "weight_source": wsource,
         "unit_cost_usd": round(cost, 2),
         "shipping_unit_usd": round(ship_unit, 2),
         "shipping_order_usd": round(ship_total, 2),
@@ -253,7 +286,10 @@ def main() -> int:
             "de_minimis": ("$800 면세 한도는 2025-08-29 전 국가 폐지, "
                            "2026-06-24 CBP 무기한 유예. 소액 소포도 과세 대상."),
             "payment_fee": PAY_NOTE,
-            "weight": "다이소 데이터에 무게 없음. 용량 표기로 추정한 값이므로 실측 필요.",
+            "weight": (
+                f"실측 {len(MEASURED)}건은 data/weights.json 값을 썼다. "
+                "나머지는 다이소에 무게 정보가 없어 용량 표기로 추정한 값이라 실측이 필요하다."
+            ),
             "not_included": ["광고비(CAC)", "반품/파손", "Shopify 월 구독료",
                              "포장 자재비", "미국 주 판매세", "환율 변동"],
         },
