@@ -172,6 +172,48 @@ def load_measured() -> dict:
 
 MEASURED = load_measured()
 
+GOSI_PATH = ROOT / "data" / "gosi.json"
+
+
+def load_gosi_volume() -> dict:
+    """고시 표의 '내용물의 용량 또는 중량'.
+
+    상품명에서 뽑는 것보다 정확하다. 상품명에 용량이 없거나 세트 구성이라
+    이름만으로는 틀리는 경우가 있다. 고시는 법정 표기라 신뢰도가 높다.
+
+    다만 이것은 내용물 기준이다. 배송 무게는 여기에 용기와 포장이 붙는다.
+    그래서 실측은 아니고 근거가 더 나은 추정이다.
+    """
+    try:
+        d = json.loads(GOSI_PATH.read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError, UnicodeDecodeError):
+        return {}
+    out = {}
+    for pd_no, v in (d.get("items") or {}).items():
+        raw = str(v.get("volume") or "").strip()
+        if not raw:
+            continue
+        # "40 ml", "28g", "4ml x 4개입", "1매" 같은 표기를 다룬다
+        nums = re.findall(r"(\d+(?:\.\d+)?)\s*(ml|mL|ML|g|G|kg|KG)", raw)
+        if not nums:
+            continue
+        total = 0.0
+        for val, unit in nums:
+            v2 = float(val)
+            if unit.lower() == "kg":
+                v2 *= 1000
+            total += v2
+        # 개입 수가 적혀 있으면 곱한다 (예: 4ml 4개입)
+        m = re.search(r"(\d+)\s*(?:개입|매|포|정)", raw)
+        if m and len(nums) == 1:
+            total *= int(m.group(1))
+        if total > 0:
+            out[str(pd_no)] = (total, raw)
+    return out
+
+
+GOSI_VOL = load_gosi_volume()
+
 
 def est_weight(name: str) -> tuple[int, str]:
     """상품명의 용량 표기로 무게를 추정한다. 추정 근거를 함께 반환."""
@@ -191,10 +233,18 @@ def analyze(p: dict, rate: float, per_order: int, MARKET: dict,
     name = p.get("name") or ""
     krw = int(p.get("price_krw") or 0)
     serp = SERP.get(str(p.get("pd_no")))
-    hit = MEASURED.get(str(p.get("pd_no")))
+    pd_key = str(p.get("pd_no"))
+    hit = MEASURED.get(pd_key)
+    gv = GOSI_VOL.get(pd_key)
     if hit:
         grams, wnote = hit[0], hit[1]
         wsource = "measured"
+    elif gv:
+        # 고시 용량 기준. 이름 파싱보다 근거가 낫다.
+        content, raw = gv
+        grams = int(round(content * 1.6)) + PACKAGING_G
+        wnote = f"고시 용량 {raw} x 1.6(용기) + {PACKAGING_G}g(포장)"
+        wsource = "gosi_volume"
     else:
         grams, wnote = est_weight(name)
         wsource = "estimated"
@@ -229,6 +279,10 @@ def analyze(p: dict, rate: float, per_order: int, MARKET: dict,
         "price_krw": krw,
         "weight_g_est": grams, "weight_note": wnote,
         "weight_source": wsource,
+        # 우체국 요금은 100g 단위로 끊긴다. 경계 ±15g 이면 추정으로는 위험해
+        # 실측이 필요하다. 그 외에는 고시 용량 추정으로 충분하다.
+        "weigh_needed": (wsource != "measured"
+                         and min(abs(grams % 100), 100 - (grams % 100)) <= 15),
         "unit_cost_usd": round(cost, 2),
         "shipping_unit_usd": round(ship_unit, 2),
         "shipping_order_usd": round(ship_total, 2),
