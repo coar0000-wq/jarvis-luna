@@ -18,126 +18,200 @@
       "ingredients": "",
       "volume": "",
       "maker": "",
-      "origin": "",
+      "origin": "한국",
       "warnings": "",
-      "captured_at": ""
+      "captured_at": "2026-09-05T12:21:41.950788+00:00",
+      "detail_images": [
+        "data/daiso_real/gosi_img/1048583_01.jpg",
+        "data/daiso_real/gosi_img/1048583_02.jpg",
+        "data/daiso_real/gosi_img/1048583_03.jpg",
+        "data/daiso_real/gosi_img/1048583_04.jpg",
+        "data/daiso_real/gosi_img/1048583_05.jpg",
+        "data/daiso_real/gosi_img/1048583_06.jpg"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1048583_06.jpg"
     },
     "1045146": {
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
       "ingredients": "",
       "volume": "",
       "maker": "",
-      "origin": "",
+      "origin": "한국",
       "warnings": "",
-      "captured_at": ""
+      "captured_at": "2026-09-05T12:22:02.263820+00:00",
+      "detail_images": [
+        "data/daiso_real/gosi_img/1045146_01.jpg"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1045146_01.jpg"
     },
     "1049271": {
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
       "ingredients": "",
       "volume": "",
       "maker": "",
-      "origin": "",
+      "origin": "한국",
       "warnings": "",
-      "captured_at": ""
+      "captured_at": "2026-09-05T12:22:22.558896+00:00",
+      "detail_images": [
+        "data/daiso_real/gosi_img/1049271_01.jpg",
+        "data/daiso_real/gosi_img/1049271_02.jpg"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1049271_02.jpg"
     },
     "1048581": {
       "name": "드롭비 잡티 말끔 앰플 40 ml",
       "ingredients": "",
       "volume": "",
       "maker": "",
-      "origin": "",
+      "origin": "한국",
       "warnings": "",
-      "captured_at": ""
+      "captured_at": "2026-09-05T12:22:43.574919+00:00",
+      "detail_images": [
+        "data/daiso_real/gosi_img/1048581_01.jpg",
+        "data/daiso_real/gosi_img/1048581_02.jpg",
+        "data/daiso_real/gosi_img/1048581_03.jpg",
+        "data/daiso_real/gosi_img/1048581_04.jpg",
+        "data/daiso_real/gosi_img/1048581_05.jpg"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1048581_05.jpg"
     },
     "1075857": {
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
       "ingredients": "",
       "volume": "",
       "maker": "",
-      "origin": "",
+      "origin": "한국",
       "warnings": "",
-      "captured_at": ""
+      "captured_at": "2026-09-05T12:23:03.982073+00:00",
+      "detail_images": [
+        "data/daiso_real/gosi_img/1075857_01.jpg"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1075857_01.jpg"
     },
     "1068776": {
       "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
       "ingredients": "",
       "volume": "",
       "maker": "",
-      "origin": "",
+      "origin": "한국",
       "warnings": "",
-      "captured_at": ""
+      "captured_at": "2026-09-05T12:23:24.304940+00:00",
+      "detail_images": [
+        "data/daiso_real/gosi_img/1068776_01.jpg"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1068776_01.jpg"
     },
     "1059834": {
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "ingredients": "",
       "volume": "",
       "maker": "",
-      "origin": "",
+      "origin": "한국",
       "warnings": "",
-      "captured_at": ""
+      "captured_at": "2026-09-05T12:23:45.012744+00:00",
+      "detail_images": [
+        "data/daiso_real/gosi_img/1059834_01.jpg",
+        "data/daiso_real/gosi_img/1059834_03.jpg"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1059834_03.jpg"
     },
     "1062781": {
       "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
       "ingredients": "",
       "volume": "",
       "maker": "",
-      "origin": "",
+      "origin": "한국",
       "warnings": "",
-      "captured_at": ""
+      "captured_at": "2026-09-05T12:24:05.353353+00:00",
+      "detail_images": [
+        "data/daiso_real/gosi_img/1062781_01.jpg"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1062781_01.jpg"
     },
     "1060487": {
       "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
       "ingredients": "",
       "volume": "",
       "maker": "",
-      "origin": "",
+      "origin": "한국",
       "warnings": "",
-      "captured_at": ""
+      "captured_at": "2026-09-05T12:24:25.688094+00:00",
+      "detail_images": [
+        "data/daiso_real/gosi_img/1060487_01.jpg"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1060487_01.jpg"
     },
     "1041403": {
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "ingredients": "",
       "volume": "",
       "maker": "",
-      "origin": "",
+      "origin": "한국",
       "warnings": "",
-      "captured_at": ""
+      "captured_at": "2026-09-05T12:24:45.993394+00:00",
+      "detail_images": [
+        "data/daiso_real/gosi_img/1041403_01.jpg"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1041403_01.jpg"
     },
     "1070006": {
       "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
       "ingredients": "",
       "volume": "",
       "maker": "",
-      "origin": "",
+      "origin": "한국",
       "warnings": "",
-      "captured_at": ""
+      "captured_at": "2026-09-05T12:25:06.391323+00:00",
+      "detail_images": [
+        "data/daiso_real/gosi_img/1070006_01.jpg"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1070006_01.jpg"
     },
     "1032881": {
       "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
       "ingredients": "",
       "volume": "",
       "maker": "",
-      "origin": "",
+      "origin": "한국",
       "warnings": "",
-      "captured_at": ""
+      "captured_at": "2026-09-05T12:25:26.598804+00:00",
+      "detail_images": [
+        "data/daiso_real/gosi_img/1032881_01.jpg"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1032881_01.jpg"
     },
     "1067024": {
       "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
       "ingredients": "",
       "volume": "",
       "maker": "",
-      "origin": "",
+      "origin": "한국",
       "warnings": "",
-      "captured_at": ""
+      "captured_at": "2026-09-05T12:25:47.043272+00:00",
+      "detail_images": [
+        "data/daiso_real/gosi_img/1067024_01.jpg"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1067024_01.jpg"
     },
     "1057223": {
       "name": "태그 핑크 라이트 선쿠션 15 g",
       "ingredients": "",
       "volume": "",
       "maker": "",
-      "origin": "",
+      "origin": "한국",
       "warnings": "",
-      "captured_at": ""
+      "captured_at": "2026-09-05T12:26:08.505061+00:00",
+      "detail_images": [
+        "data/daiso_real/gosi_img/1057223_01.jpg",
+        "data/daiso_real/gosi_img/1057223_02.jpg"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1057223_02.jpg"
     }
-  }
+  },
+  "사람이_할_일": "gosi_image 를 열면 제품명·용량·사용기한·기능성·제조업자·제조국·전성분이 한 표에 인쇄되어 있다. 그것을 보고 volume, ingredients, maker 를 채운다. 표를 그대로 옮겨 적고 요약하지 않는다.",
+  "auto_filled_note": "제조국·품질보증·상담전화는 selPdDtlNtfc 로 자동으로 찬다. 용량과 전성분은 상세 이미지 안에 인쇄되어 있어 텍스트로 받을 수 없다. detail_images 를 열어 보고 사람이 채운다. OCR 로 지어내지 않는다.",
+  "auto_source": "POST fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlNtfc, selPdDtlDesc",
+  "last_auto_run": "2026-09-05T12:26:18.505482+00:00",
+  "auto_failures": [],
+  "gosi_ok_count": 0
 }

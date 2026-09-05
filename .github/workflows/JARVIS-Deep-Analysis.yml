@@ -58,6 +58,10 @@ jobs:
         continue-on-error: true
         run: python scripts/build_design_team.py
 
+      - name: Collect Daiso gosi (notice items + detail images)
+        continue-on-error: true
+        run: python scripts/collect_daiso_gosi.py
+
       - name: Build listing gate (copy/gosi/price/legal)
         continue-on-error: true
         run: python scripts/build_listing_gate.py
