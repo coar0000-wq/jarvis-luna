@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-05T14:39:21.896029+00:00",
-  "total_products": 180,
+  "generated_at": "2026-09-05T22:15:23.091789+00:00",
+  "total_products": 200,
   "grade_summary": {
-    "S": 4,
-    "A": 33,
-    "B": 17,
-    "C": 126
+    "S": 5,
+    "A": 37,
+    "B": 20,
+    "C": 138
   },
   "category_avg_score": {
     "선케어": 80.8,
+    "마스크팩": 77.4,
     "클렌징": 76.7,
-    "마스크팩": 76.5,
-    "헤어케어": 63.7,
-    "스킨케어": 62.9,
-    "메이크업": 50.1,
+    "스킨케어": 64.2,
+    "헤어케어": 60.9,
+    "메이크업": 50.7,
     "향수": 44.3,
-    "바디케어": 41.3,
-    "네일": 30.3,
-    "맨즈케어": 29.2,
-    "뷰티소품": 23.7,
-    "구강용품": 10.1
+    "바디케어": 42.1,
+    "네일": 32.1,
+    "맨즈케어": 28.1,
+    "뷰티소품": 25.6,
+    "구강용품": 9.5
   },
   "global_channels_used": [
     "allure_media",
@@ -36,7 +36,7 @@
     "wikipedia_interest"
   ],
   "global_demand_signals": 54,
-  "products_with_global_match": 32,
+  "products_with_global_match": 35,
   "priority_note": "한영 매핑 기반 글로벌 8채널 유사도 점수. S/A를 Shopify 우선 후보로 사용.",
   "scoring_model": {
     "logic": "kr_en_lexicon_similarity",
@@ -350,6 +350,58 @@
       "s_rank": 4
     },
     {
+      "pd_no": "1068413",
+      "name": "[펫] 포포몽 논슬립 대나무 배변 패드 표준형 40 X 50 cm 36매입",
+      "bucket": "마스크팩",
+      "rebucketed": true,
+      "price_krw": 5000,
+      "rating": 4.9,
+      "review_count": 135,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068413",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251107/OYdzUoFwHdREjFYMVZEj1068413_00_00OYdzUoFwHdREjFYMVZEj.jpg",
+      "shopify_score": 85,
+      "grade": "S",
+      "us_market_hits": 6,
+      "us_median_price_usd": 24.79,
+      "score_breakdown": {
+        "category": 22.6,
+        "rating": 15.0,
+        "reviews": 12.9,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 24.9,
+        "rebucket_note": "이름의 '패드' 로 메이크업 -> 마스크팩 재분류",
+        "global_similarity_reference_only": 15,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": {
+        "channel": "sephora",
+        "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+        "similarity": 0.733,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "lip"
+        ],
+        "match_score": 0.66
+      },
+      "global_matches": [
+        {
+          "channel": "sephora",
+          "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+          "similarity": 0.733,
+          "demand_weight": 0.9,
+          "matched_tokens": [
+            "lip"
+          ],
+          "match_score": 0.66
+        }
+      ],
+      "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip",
+      "s_rank": 5
+    },
+    {
       "pd_no": "1059832",
       "name": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
       "bucket": "마스크팩",
@@ -551,6 +603,78 @@
         }
       ],
       "recommend_reason": "국내 지표는 높지만 미국 유사 상품 매칭이 22% 뿐 — 가장 가까운 것은 '바이오 콜라겐 리얼 딥 마스크' (amazon_best_sellers)"
+    },
+    {
+      "pd_no": "1024950",
+      "name": "앰플 용기 50 ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 1000,
+      "rating": 4.8,
+      "review_count": 238,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1024950",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240725/KHCtBBljZZdgZn9ZVDYa1024950_00_00KHCtBBljZZdgZn9ZVDYa.jpg",
+      "shopify_score": 90,
+      "grade": "A",
+      "us_market_hits": 23,
+      "us_median_price_usd": 25.65,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 13.3,
+        "reviews": 14.4,
+        "price": 7.0,
+        "keyword": 5,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 15,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+        "similarity": 0.667,
+        "demand_weight": 0.833,
+        "matched_tokens": [
+          "ampoule"
+        ],
+        "match_score": 0.555
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+          "similarity": 0.667,
+          "demand_weight": 0.833,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.555
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Skin1004 Madagascar Centella Ampoule",
+          "similarity": 0.7,
+          "demand_weight": 0.75,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.525
+        },
+        {
+          "channel": "sephora",
+          "global_product": "턴오버 앰플 c-PDRN 0.5%",
+          "similarity": 0.8,
+          "demand_weight": 0.63,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.504
+        }
+      ],
+      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
+      "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림"
     },
     {
       "pd_no": "1041403",
@@ -983,109 +1107,6 @@
         }
       ],
       "recommend_reason": "국내 지표는 높지만 미국 유사 상품 매칭이 28% 뿐 — 가장 가까운 것은 '바이오 콜라겐 리얼 딥 마스크' (amazon_best_sellers)"
-    },
-    {
-      "pd_no": "1045146",
-      "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
-      "bucket": "선케어",
-      "rebucketed": true,
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 1449,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045146",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250425/ATDev4SQOg7J1IEOb9j01045146_00_01ATDev4SQOg7J1IEOb9j0.jpg",
-      "shopify_score": 85,
-      "grade": "A",
-      "us_market_hits": 0,
-      "us_median_price_usd": 27.0,
-      "score_breakdown": {
-        "category": 23.8,
-        "rating": 11.7,
-        "reviews": 19.2,
-        "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 15.0,
-        "rebucket_note": "이름의 '선크림' 로 스킨케어 -> 선케어 재분류",
-        "global_similarity_reference_only": 16,
-        "penalty": 0,
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Beauty of Joseon Relief Sun SPF50+",
-        "similarity": 0.82,
-        "demand_weight": 0.85,
-        "matched_tokens": [
-          "sunscreen"
-        ],
-        "match_score": 0.697
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Beauty of Joseon Relief Sun SPF50+",
-          "similarity": 0.82,
-          "demand_weight": 0.85,
-          "matched_tokens": [
-            "sunscreen"
-          ],
-          "match_score": 0.697
-        }
-      ],
-      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50+' (tiktok_shop_us) 유사 82% · 토큰 sunscreen",
-      "downgrade_reason": "미국 실판매 목록에서 유사 상품을 찾지 못함"
-    },
-    {
-      "pd_no": "1072803",
-      "name": "케어존플러스 모공탄력 수분크림 75 ml",
-      "bucket": "스킨케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 444,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072803",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/fl8r5kf7zGvUJIW3EzNa1072803_00_01fl8r5kf7zGvUJIW3EzNa.jpg",
-      "shopify_score": 85,
-      "grade": "A",
-      "us_market_hits": 2,
-      "us_median_price_usd": 24.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 13.3,
-        "reviews": 16.0,
-        "price": 10.0,
-        "keyword": 2,
-        "us_market_fit": 19.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 3,
-        "penalty": 0,
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
-      "best_global_match": {
-        "channel": "sephora",
-        "global_product": "베네피앙스 링클 스무딩 아이 크림",
-        "similarity": 0.193,
-        "demand_weight": 0.81,
-        "matched_tokens": [
-          "cream"
-        ],
-        "match_score": 0.156
-      },
-      "global_matches": [
-        {
-          "channel": "sephora",
-          "global_product": "베네피앙스 링클 스무딩 아이 크림",
-          "similarity": 0.193,
-          "demand_weight": 0.81,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.156
-        }
-      ],
-      "recommend_reason": "국내 지표는 높지만 미국 유사 상품 매칭이 19% 뿐 — 가장 가까운 것은 '베네피앙스 링클 스무딩 아이 크림' (sephora)"
     }
   ],
   "all_scored": [
@@ -1585,6 +1606,78 @@
         }
       ],
       "recommend_reason": "국내 지표는 높지만 미국 유사 상품 매칭이 22% 뿐 — 가장 가까운 것은 '바이오 콜라겐 리얼 딥 마스크' (amazon_best_sellers)"
+    },
+    {
+      "pd_no": "1024950",
+      "name": "앰플 용기 50 ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 1000,
+      "rating": 4.8,
+      "review_count": 238,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1024950",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240725/KHCtBBljZZdgZn9ZVDYa1024950_00_00KHCtBBljZZdgZn9ZVDYa.jpg",
+      "shopify_score": 90,
+      "grade": "A",
+      "us_market_hits": 23,
+      "us_median_price_usd": 25.65,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 13.3,
+        "reviews": 14.4,
+        "price": 7.0,
+        "keyword": 5,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 15,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+        "similarity": 0.667,
+        "demand_weight": 0.833,
+        "matched_tokens": [
+          "ampoule"
+        ],
+        "match_score": 0.555
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+          "similarity": 0.667,
+          "demand_weight": 0.833,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.555
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Skin1004 Madagascar Centella Ampoule",
+          "similarity": 0.7,
+          "demand_weight": 0.75,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.525
+        },
+        {
+          "channel": "sephora",
+          "global_product": "턴오버 앰플 c-PDRN 0.5%",
+          "similarity": 0.8,
+          "demand_weight": 0.63,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.504
+        }
+      ],
+      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
+      "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림"
     },
     {
       "pd_no": "1041403",
@@ -2100,6 +2193,129 @@
       ],
       "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50+' (tiktok_shop_us) 유사 82% · 토큰 sunscreen",
       "downgrade_reason": "미국 실판매 목록에서 유사 상품을 찾지 못함"
+    },
+    {
+      "pd_no": "1068413",
+      "name": "[펫] 포포몽 논슬립 대나무 배변 패드 표준형 40 X 50 cm 36매입",
+      "bucket": "마스크팩",
+      "rebucketed": true,
+      "price_krw": 5000,
+      "rating": 4.9,
+      "review_count": 135,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068413",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251107/OYdzUoFwHdREjFYMVZEj1068413_00_00OYdzUoFwHdREjFYMVZEj.jpg",
+      "shopify_score": 85,
+      "grade": "S",
+      "us_market_hits": 6,
+      "us_median_price_usd": 24.79,
+      "score_breakdown": {
+        "category": 22.6,
+        "rating": 15.0,
+        "reviews": 12.9,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 24.9,
+        "rebucket_note": "이름의 '패드' 로 메이크업 -> 마스크팩 재분류",
+        "global_similarity_reference_only": 15,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": {
+        "channel": "sephora",
+        "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+        "similarity": 0.733,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "lip"
+        ],
+        "match_score": 0.66
+      },
+      "global_matches": [
+        {
+          "channel": "sephora",
+          "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+          "similarity": 0.733,
+          "demand_weight": 0.9,
+          "matched_tokens": [
+            "lip"
+          ],
+          "match_score": 0.66
+        }
+      ],
+      "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip",
+      "s_rank": 5
+    },
+    {
+      "pd_no": "1038593",
+      "name": "제이엠솔루션 B5 히아 모이스처라이징 마스크 30 ml",
+      "bucket": "마스크팩",
+      "rebucketed": false,
+      "price_krw": 1000,
+      "rating": 4.8,
+      "review_count": 320,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038593",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260123/koKpbhjyZcfSvXlrkhEI1038593_00_01koKpbhjyZcfSvXlrkhEI.jpg",
+      "shopify_score": 85,
+      "grade": "A",
+      "us_market_hits": 8,
+      "us_median_price_usd": 24.0,
+      "score_breakdown": {
+        "category": 22.6,
+        "rating": 13.3,
+        "reviews": 15.2,
+        "price": 7.0,
+        "keyword": 2,
+        "us_market_fit": 24.6,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 6,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": {
+        "channel": "amazon_best_sellers",
+        "global_product": "바이오 콜라겐 리얼 딥 마스크",
+        "similarity": 0.275,
+        "demand_weight": 0.807,
+        "matched_tokens": [
+          "mask"
+        ],
+        "match_score": 0.222
+      },
+      "global_matches": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "바이오 콜라겐 리얼 딥 마스크",
+          "similarity": 0.275,
+          "demand_weight": 0.807,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.222
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+          "similarity": 0.209,
+          "demand_weight": 0.98,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.205
+        },
+        {
+          "channel": "sephora",
+          "global_product": "콜라겐 리얼 딥 마스크",
+          "similarity": 0.275,
+          "demand_weight": 0.585,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.161
+        }
+      ],
+      "recommend_reason": "국내 지표는 높지만 미국 유사 상품 매칭이 28% 뿐 — 가장 가까운 것은 '바이오 콜라겐 리얼 딥 마스크' (amazon_best_sellers)"
     },
     {
       "pd_no": "1072803",
@@ -2969,6 +3185,37 @@
       "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50+' (tiktok_shop_us) 유사 82% · 토큰 sunscreen"
     },
     {
+      "pd_no": "1001262",
+      "name": "베이직 발가락패드 2개입",
+      "bucket": "마스크팩",
+      "rebucketed": true,
+      "price_krw": 500,
+      "rating": 4.7,
+      "review_count": 364,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1001262",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231127/e9Z2Sgwo2ytMpaRhFWEg1001262_00_00e9Z2Sgwo2ytMpaRhFWEg.jpg",
+      "shopify_score": 79,
+      "grade": "A",
+      "us_market_hits": 6,
+      "us_median_price_usd": 24.79,
+      "score_breakdown": {
+        "category": 22.6,
+        "rating": 11.7,
+        "reviews": 15.5,
+        "price": 4.0,
+        "keyword": 0,
+        "us_market_fit": 24.9,
+        "rebucket_note": "이름의 '패드' 로 네일 -> 마스크팩 재분류",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "마스크팩 카테고리 · 평점 4.7 · 리뷰 364건 (글로벌 시그널 약함)"
+    },
+    {
       "pd_no": "1045421",
       "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
       "bucket": "스킨케어",
@@ -3100,6 +3347,37 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 349건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1043659",
+      "name": "닥터지오 모이스처 올인원 젤로션 150 ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 587,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1043659",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260325/wXm7JotUk9q64qlDBwcc1043659_00_01wXm7JotUk9q64qlDBwcc.png",
+      "shopify_score": 76,
+      "grade": "A",
+      "us_market_hits": 2,
+      "us_median_price_usd": 7.84,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 13.3,
+        "reviews": 16.8,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 10.6,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 587건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1061880",
@@ -3740,6 +4018,37 @@
       "recommend_reason": "글로벌 'LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)' (oliveyoung_us) 유사 82% · 토큰 shampoo"
     },
     {
+      "pd_no": "1072794",
+      "name": "[21호 엔라이트]줌 바이 정샘물 듀이핏 스파츌라 파운데이션 25 ml",
+      "bucket": "메이크업",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 1459,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072794",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260903/Z8jj56je3iLwvrEw6VMz1072794_00_01Z8jj56je3iLwvrEw6VMz.jpg",
+      "shopify_score": 60,
+      "grade": "B",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 19.0,
+        "rating": 11.7,
+        "reviews": 19.2,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 1,459건 (글로벌 시그널 약함)"
+    },
+    {
       "pd_no": "1061139",
       "name": "[72 리틀 오스틴]프릴루드 딘토 노스탈지아 아이 팔레트",
       "bucket": "메이크업",
@@ -3800,6 +4109,68 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 1,259건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1042531",
+      "name": "소비아 트로피칼하트 배쓰버블바 (후리지아)",
+      "bucket": "바디케어",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 4.9,
+      "review_count": 266,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042531",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231204/AQmSJcwrrsehYqy10hZJ1042531_00_00AQmSJcwrrsehYqy10hZJ.jpg",
+      "shopify_score": 60,
+      "grade": "B",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 15.0,
+        "reviews": 14.7,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "바디케어 카테고리 · 평점 4.9 · 리뷰 266건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1035059",
+      "name": "샤워메이트 부케 바디워시 60 ml 피치",
+      "bucket": "바디케어",
+      "rebucketed": false,
+      "price_krw": 1000,
+      "rating": 4.8,
+      "review_count": 208,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035059",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231130/8eiVUotCXUKiTUWkaMvm1035059_00_008eiVUotCXUKiTUWkaMvm.jpg",
+      "shopify_score": 60,
+      "grade": "B",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 14.1,
+        "price": 7.0,
+        "keyword": 5,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "바디케어 카테고리 · 평점 4.8 · 리뷰 208건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1063229",
@@ -4090,6 +4461,37 @@
       "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 682건 (글로벌 시그널 약함)"
     },
     {
+      "pd_no": "69979",
+      "name": "커피 필터 브라운 4~7잔용 100매",
+      "bucket": "메이크업",
+      "rebucketed": false,
+      "price_krw": 2000,
+      "rating": 4.8,
+      "review_count": 340,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=69979",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/xP006OoTpfkAhObff8Om69979_00_00xP006OoTpfkAhObff8Om.jpg",
+      "shopify_score": 58,
+      "grade": "C",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 19.0,
+        "rating": 13.3,
+        "reviews": 15.3,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "메이크업 카테고리 · 평점 4.8 · 리뷰 340건 (글로벌 시그널 약함)"
+    },
+    {
       "pd_no": "1062235",
       "name": "팔레트17 컨실러 브러쉬",
       "bucket": "메이크업",
@@ -4150,6 +4552,37 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "메이크업 카테고리 · 평점 4.9 · 리뷰 226건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1067399",
+      "name": "태그 파우더브로우키트(1호_애쉬브라운)",
+      "bucket": "메이크업",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 525,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067399",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250919/habN3pSryVo43M4qv9wd1067399_00_01habN3pSryVo43M4qv9wd.jpg",
+      "shopify_score": 57,
+      "grade": "C",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 19.0,
+        "rating": 11.7,
+        "reviews": 16.5,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 525건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1011177",
@@ -4553,6 +4986,37 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "메이크업 카테고리 · 평점 4.8 · 리뷰 337건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "59759",
+      "name": "NITEX 그립 코팅장갑 U3 S",
+      "bucket": "메이크업",
+      "rebucketed": false,
+      "price_krw": 2000,
+      "rating": 4.8,
+      "review_count": 127,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=59759",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20241202/1TSQzPaM9gCZzJ4GlGAk59759_00_001TSQzPaM9gCZzJ4GlGAk.jpg",
+      "shopify_score": 55,
+      "grade": "C",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 19.0,
+        "rating": 13.3,
+        "reviews": 12.8,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "메이크업 카테고리 · 평점 4.8 · 리뷰 127건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1049551",
@@ -6063,6 +6527,37 @@
       "recommend_reason": "네일 카테고리 · 평점 4.7 · 리뷰 278건 (글로벌 시그널 약함)"
     },
     {
+      "pd_no": "1038356",
+      "name": "컬러차트 네일 파츠 10개입",
+      "bucket": "네일",
+      "rebucketed": false,
+      "price_krw": 1000,
+      "rating": 4.8,
+      "review_count": 160,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038356",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231129/p5SJ1eEavvaogtw0vSx91038356_00_00p5SJ1eEavvaogtw0vSx9.jpg",
+      "shopify_score": 43,
+      "grade": "C",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 9.5,
+        "rating": 13.3,
+        "reviews": 13.4,
+        "price": 7.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "네일 카테고리 · 평점 4.8 · 리뷰 160건 (글로벌 시그널 약함)"
+    },
+    {
       "pd_no": "1064779",
       "name": "딸기 장식 다꾸용 핀셋",
       "bucket": "뷰티소품",
@@ -6218,6 +6713,37 @@
       "recommend_reason": "네일 카테고리 · 평점 4.5 · 리뷰 131건 (글로벌 시그널 약함)"
     },
     {
+      "pd_no": "1028630",
+      "name": "빅 파츠 네일 스티커 6개입",
+      "bucket": "네일",
+      "rebucketed": false,
+      "price_krw": 2000,
+      "rating": 4.6,
+      "review_count": 83,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1028630",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240620/v800ch1CYR67k7mSD2J21028630_00_00v800ch1CYR67k7mSD2J2.jpg",
+      "shopify_score": 41,
+      "grade": "C",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 9.5,
+        "rating": 10.0,
+        "reviews": 11.7,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "네일 카테고리 · 평점 4.6 · 리뷰 83건 (글로벌 시그널 약함)"
+    },
+    {
       "pd_no": "1044577",
       "name": "실리콘 샤워 브러시 블루",
       "bucket": "뷰티소품",
@@ -6278,6 +6804,37 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "비핵심 상품 (뷰티 카테고리 아님)"
+    },
+    {
+      "pd_no": "1035441",
+      "name": "물방울 네일 파츠 10개입",
+      "bucket": "네일",
+      "rebucketed": false,
+      "price_krw": 1000,
+      "rating": 4.7,
+      "review_count": 57,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035441",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240509/RTgBt6FsvLJaAPILzeMU1035441_00_00RTgBt6FsvLJaAPILzeMU.jpg",
+      "shopify_score": 39,
+      "grade": "C",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 9.5,
+        "rating": 11.7,
+        "reviews": 10.7,
+        "price": 7.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "네일 카테고리 · 평점 4.7 · 리뷰 57건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1048799",
@@ -6342,6 +6899,37 @@
       "recommend_reason": "네일 카테고리 · 평점 4.7 · 리뷰 47건 (글로벌 시그널 약함)"
     },
     {
+      "pd_no": "55035",
+      "name": "일자빗＆꼬리빗",
+      "bucket": "뷰티소품",
+      "rebucketed": false,
+      "price_krw": 500,
+      "rating": 4.7,
+      "review_count": 147,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=55035",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260225/quxDghUV55wrkHug7fpC55035_00_00quxDghUV55wrkHug7fpC.jpg",
+      "shopify_score": 37,
+      "grade": "C",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 8.3,
+        "rating": 11.7,
+        "reviews": 13.1,
+        "price": 4.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "뷰티소품 카테고리 · 평점 4.7 · 리뷰 147건 (글로벌 시그널 약함)"
+    },
+    {
       "pd_no": "1074954",
       "name": "데일리콤마 벨로 드 퍼퓸 기프트세트 슈가클라우드(고체향수+크림퍼퓸)",
       "bucket": "향수",
@@ -6402,6 +6990,37 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "비핵심 상품 (뷰티 카테고리 아님)"
+    },
+    {
+      "pd_no": "1060496",
+      "name": "정직한실험실 트루랩 엔젤링 워터 트리트먼트 210 ml",
+      "bucket": "헤어케어",
+      "rebucketed": true,
+      "price_krw": 5000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060496",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260618/F53T8vTWw4GBPwd7lVn11060496_00_01F53T8vTWw4GBPwd7lVn1.jpg",
+      "shopify_score": 28,
+      "grade": "C",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 17.9,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "이름의 '트리트먼트' 로 마스크팩 -> 헤어케어 재분류",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "헤어케어 카테고리 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1047755",
@@ -6931,6 +7550,37 @@
       "recommend_reason": "비핵심 상품 (뷰티 카테고리 아님)"
     },
     {
+      "pd_no": "1056708",
+      "name": "몬풋 남성 아치밴딩 단목 양말 화이트",
+      "bucket": "바디케어",
+      "rebucketed": true,
+      "price_krw": 1000,
+      "rating": 4.8,
+      "review_count": 93,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056708",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260716/XFbvFbIWC33jnNvTCovZ1056708_00_00XFbvFbIWC33jnNvTCovZ.jpg",
+      "shopify_score": 12,
+      "grade": "C",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 12.0,
+        "price": 7.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "이름의 '풋' 로 맨즈케어 -> 바디케어 재분류",
+        "global_similarity_reference_only": 0,
+        "penalty": -40,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "비핵심 상품 (뷰티 카테고리 아님)"
+    },
+    {
       "pd_no": "1065154",
       "name": "[03 스위트피치] 머지 렛츠웨어링 립앤치크 키링",
       "bucket": "메이크업",
@@ -7117,6 +7767,37 @@
       "recommend_reason": "비핵심 상품 (뷰티 카테고리 아님)"
     },
     {
+      "pd_no": "1073756",
+      "name": "여름 반바지 M 블루",
+      "bucket": "맨즈케어",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 4.5,
+      "review_count": 143,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073756",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260902/JvEOcn8fEzW9XTAIUQUE1073756_00_00JvEOcn8fEzW9XTAIUQUE.jpg",
+      "shopify_score": 8,
+      "grade": "C",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 16.7,
+        "rating": 8.3,
+        "reviews": 13.1,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": -40,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "비핵심 상품 (뷰티 카테고리 아님)"
+    },
+    {
       "pd_no": "55256",
       "name": "남성용 배색 스트라이프 단목 양말",
       "bucket": "맨즈케어",
@@ -7135,6 +7816,37 @@
         "rating": 13.3,
         "reviews": 11.3,
         "price": 7.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": -40,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "비핵심 상품 (뷰티 카테고리 아님)"
+    },
+    {
+      "pd_no": "60729",
+      "name": "페리오46CM 구강스프레이 6.2ml (쿨민트)",
+      "bucket": "구강용품",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 710,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=60729",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231201/4htbI49mYSK0npXBsVth60729_00_004htbI49mYSK0npXBsVth.jpg",
+      "shopify_score": 7,
+      "grade": "C",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 6.0,
+        "rating": 13.3,
+        "reviews": 17.3,
+        "price": 10.0,
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
@@ -7321,6 +8033,37 @@
         "rating": 13.3,
         "reviews": 16.1,
         "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": -40,
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 무료 글로벌 채널 유사도",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "비핵심 상품 (뷰티 카테고리 아님)"
+    },
+    {
+      "pd_no": "1047504",
+      "name": "더블 라인 치실 50개입 420D",
+      "bucket": "구강용품",
+      "rebucketed": false,
+      "price_krw": 1000,
+      "rating": 4.8,
+      "review_count": 423,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1047504",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20241022/ZBuEypTi1IEztGYNfBEQ1047504_00_00ZBuEypTi1IEztGYNfBEQ.jpg",
+      "shopify_score": 5,
+      "grade": "C",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 6.0,
+        "rating": 13.3,
+        "reviews": 15.9,
+        "price": 7.0,
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",

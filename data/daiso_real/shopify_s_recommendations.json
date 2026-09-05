@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-05T14:39:21.896029+00:00",
+  "generated_at": "2026-09-05T22:15:23.091789+00:00",
   "source": "score_shopify_demand.py",
   "rule": "grade == S (core+body category + strong global match; non-beauty filtered)",
-  "count": 4,
+  "count": 5,
   "priority_note": "S등급만(바디샴푸·워시 포함). 잡상품·약한 단일토큰 매칭 제외. Shopify 1차 등록 후보.",
   "recommendations": [
     {
@@ -89,6 +89,27 @@
           "pdrn"
         ],
         "match_score": 0.626
+      }
+    },
+    {
+      "rank": 5,
+      "pd_no": "1068413",
+      "name": "[펫] 포포몽 논슬립 대나무 배변 패드 표준형 40 X 50 cm 36매입",
+      "bucket": "마스크팩",
+      "price_krw": 5000,
+      "shopify_score": 85,
+      "grade": "S",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068413",
+      "recommend_reason": "글로벌 '펩타이드 립 틴트 너리싱 글레이즈' (sephora) 유사 73% · 토큰 lip",
+      "matched_global": {
+        "channel": "sephora",
+        "global_product": "펩타이드 립 틴트 너리싱 글레이즈",
+        "similarity": 0.733,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "lip"
+        ],
+        "match_score": 0.66
       }
     }
   ]
