@@ -1,0 +1,93 @@
+{
+  "제목": "미국 화장품 표현 규칙",
+  "왜": "미국에는 기능성화장품 제도가 없다. 미백·주름개선처럼 신체 구조나 기능을 바꾼다고 주장하면 그 순간 화장품이 아니라 의약품(drug)으로 분류된다. 승인 없이 팔면 미승인 신약이 된다. 그래서 애초에 쓰지 않는다.",
+  "적용": "카피 생성 프롬프트에 넣고, 생성 결과에서 다시 검사한다. 걸리면 경고가 아니라 그 항목을 버린다. 스토어에 올라가지 않는다.",
+  "면책": "법률 자문이 아니다. 판매 위험을 줄이기 위한 사내 표기 기준이다.",
+  "banned": {
+    "질병·치료": [
+      "treat",
+      "treats",
+      "treatment for",
+      "cure",
+      "cures",
+      "heal",
+      "heals",
+      "prevent acne",
+      "prevents acne",
+      "anti-acne",
+      "therapeutic",
+      "remedy",
+      "eczema",
+      "psoriasis",
+      "dermatitis",
+      "rosacea"
+    ],
+    "미백": [
+      "whiten",
+      "whitening",
+      "whitens",
+      "skin lightening",
+      "lightens skin",
+      "bleach",
+      "depigment",
+      "fade dark spots",
+      "removes dark spots"
+    ],
+    "주름·항노화": [
+      "anti-wrinkle",
+      "antiwrinkle",
+      "removes wrinkles",
+      "erases wrinkles",
+      "anti-aging",
+      "antiaging",
+      "reverses aging",
+      "rejuvenate",
+      "rejuvenates",
+      "boosts collagen production",
+      "stimulates collagen",
+      "regenerates skin"
+    ],
+    "구조변경": [
+      "repairs damaged skin",
+      "restores skin barrier",
+      "penetrates the dermis",
+      "changes skin structure",
+      "alters skin"
+    ],
+    "한국 제도 표현": [
+      "functional cosmetic",
+      "functional cosmetics",
+      "ministry of food and drug safety approved",
+      "mfds approved"
+    ],
+    "선케어 과장": [
+      "blocks 100% of uv",
+      "total sun block",
+      "all-day protection",
+      "waterproof"
+    ]
+  },
+  "safe_alternatives": {
+    "whitening": "for a brighter-looking complexion",
+    "anti-wrinkle": "helps smooth the look of fine lines",
+    "anti-aging": "for a healthy-looking, well-cared-for finish",
+    "repairs damaged skin": "helps skin feel comforted and conditioned",
+    "boosts collagen": "formulated with collagen",
+    "treats acne": "for skin that looks clearer",
+    "functional cosmetic": "(표기하지 않는다)"
+  },
+  "선크림_주의": "SPF 를 표기하면 미국에서 OTC 의약품이다. Drug Facts 라벨과 허용 문구 규칙이 따로 있다. SPF 수치는 적되 효능을 과장하지 않는다.",
+  "허용되는_표현": [
+    "moisturizes",
+    "hydrates",
+    "softens",
+    "smooths the look of",
+    "brightens the look of",
+    "soothes the feel of",
+    "non-sticky",
+    "lightweight",
+    "for a dewy finish",
+    "helps skin feel"
+  ],
+  "출처_메모": "미국은 화장품과 의약품을 '의도된 용도' 로 나눈다. 구조·기능을 바꾼다는 주장을 하면 의약품이 된다는 것이 핵심이고, 위 목록은 그 기준으로 실무에서 피하는 표현을 모은 것이다."
+}

@@ -49,8 +49,13 @@ Customer rating on daisomall.co.kr: {rating} from {reviews} reviews
 Write the English listing. Rules you must follow:
 - Base everything on the Korean product name only. Do not invent ingredients,
   certifications, clinical results, or country-of-manufacture claims.
-- Do not make drug-like claims (no "treats", "cures", "heals", "anti-aging",
-  "repairs damage"). US cosmetic labeling rules prohibit them.
+- NEVER use any of these phrases. They turn a cosmetic into an unapproved drug
+  under US rules, so they must not appear anywhere in the listing:
+{banned}
+- Korea labels some products as "functional cosmetics" (whitening, anti-wrinkle).
+  The US has no such category. Never translate or reference it.
+- Use appearance-based wording instead. Say "smooths the look of fine lines",
+  not "removes wrinkles". Say "for a brighter-looking complexion", not "whitening".
 - Do not mention Daiso, the Korean retail price, or that this is a resale.
 - If the Korean name states a specific ingredient (for example heartleaf,
   snail mucin, centella, collagen, PDRN, mineral/physical sunscreen) you may
@@ -122,9 +127,34 @@ def extract_json(text: str) -> dict | None:
 REQUIRED = ("title", "description_html", "seo_title", "seo_description",
             "tags", "product_type")
 
+RULES_PATH = ROOT / "data" / "us_claim_rules.json"
+
+
+def load_rules() -> tuple[list[str], str]:
+    """미국에서 쓰면 안 되는 표현. 경고가 아니라 생성 자체를 막는 데 쓴다."""
+    try:
+        d = json.loads(RULES_PATH.read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError, UnicodeDecodeError):
+        return [], ""
+    terms = [t.lower() for group in (d.get("banned") or {}).values() for t in group]
+    lines = []
+    for group, ts in (d.get("banned") or {}).items():
+        lines.append("  " + ", ".join(f'"{t}"' for t in ts))
+    return terms, "\n".join(lines)
+
+
+BANNED, BANNED_TEXT = load_rules()
+
+
+def find_banned(copy: dict) -> list[str]:
+    """생성 결과에 금지 표현이 남았는지 본다. 남으면 그 항목은 버린다."""
+    blob = " ".join(str(copy.get(k) or "") for k in REQUIRED).lower()
+    blob += " " + " ".join(str(t) for t in (copy.get("tags") or []))
+    return sorted({t for t in BANNED if t in blob.lower()})
+
 
 def generate(key: str, model: str, p: dict) -> tuple[dict | None, str]:
-    prompt = PROMPT.format(
+    prompt = PROMPT.replace("{banned}", BANNED_TEXT).format(
         name=p.get("name", ""), bucket=p.get("bucket", ""),
         price_krw=p.get("price_krw", ""), rating=p.get("rating", ""),
         reviews=p.get("review_count", ""))
@@ -168,6 +198,13 @@ def generate(key: str, model: str, p: dict) -> tuple[dict | None, str]:
             continue
         if isinstance(obj.get("tags"), str):
             obj["tags"] = [t.strip() for t in obj["tags"].split(",") if t.strip()]
+        bad = find_banned(obj)
+        if bad:
+            # 금지 표현이 남았으면 다시 시킨다. 끝까지 남으면 버린다.
+            # 경고만 띄우고 넘기면 그 문구가 스토어에 올라간다.
+            last = "금지 표현 포함: " + ", ".join(bad[:5])
+            time.sleep(DELAY)
+            continue
         return obj, ""
     return None, last or "원인 미상"
 

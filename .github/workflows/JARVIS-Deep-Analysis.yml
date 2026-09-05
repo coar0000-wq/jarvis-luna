@@ -72,6 +72,10 @@ jobs:
         continue-on-error: true
         run: python -u scripts/build_team_feeds.py
 
+      - name: Legal auto-check (claims / functional / OTC / label)
+        continue-on-error: true
+        run: python -u scripts/check_legal_products.py
+
       - name: Build listing gate (copy/gosi/price/legal)
         continue-on-error: true
         run: python scripts/build_listing_gate.py
