@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T13:32:19.603227+00:00",
+  "generated_at": "2026-09-05T14:29:13.573174+00:00",
   "generator": "scripts/build_listing_gate.py",
   "규칙": "listing_ready = copy_ok AND gosi_ok AND price_ok AND legal_ok",
   "근거": {
@@ -13,14 +13,13 @@
   "ready": 0,
   "counts": {
     "copy": 12,
-    "gosi": 2,
+    "gosi": 12,
     "price": 0,
     "legal": 0
   },
   "blockers": {
     "price": 12,
-    "legal": 12,
-    "gosi": 10
+    "legal": 12
   },
   "unreadable": [],
   "items": [
@@ -45,12 +44,11 @@
       "grade": "S",
       "shopify_score": 96,
       "copy_ok": true,
-      "gosi_ok": false,
+      "gosi_ok": true,
       "price_ok": false,
       "legal_ok": false,
       "listing_ready": false,
       "blocked_by": [
-        "gosi",
         "price",
         "legal"
       ]
@@ -61,12 +59,11 @@
       "grade": "S",
       "shopify_score": 96,
       "copy_ok": true,
-      "gosi_ok": false,
+      "gosi_ok": true,
       "price_ok": false,
       "legal_ok": false,
       "listing_ready": false,
       "blocked_by": [
-        "gosi",
         "price",
         "legal"
       ]
@@ -77,12 +74,11 @@
       "grade": "S",
       "shopify_score": 96,
       "copy_ok": true,
-      "gosi_ok": false,
+      "gosi_ok": true,
       "price_ok": false,
       "legal_ok": false,
       "listing_ready": false,
       "blocked_by": [
-        "gosi",
         "price",
         "legal"
       ]
@@ -108,12 +104,11 @@
       "grade": "S",
       "shopify_score": 93,
       "copy_ok": true,
-      "gosi_ok": false,
+      "gosi_ok": true,
       "price_ok": false,
       "legal_ok": false,
       "listing_ready": false,
       "blocked_by": [
-        "gosi",
         "price",
         "legal"
       ]
@@ -124,12 +119,11 @@
       "grade": "S",
       "shopify_score": 92,
       "copy_ok": true,
-      "gosi_ok": false,
+      "gosi_ok": true,
       "price_ok": false,
       "legal_ok": false,
       "listing_ready": false,
       "blocked_by": [
-        "gosi",
         "price",
         "legal"
       ]
@@ -140,12 +134,11 @@
       "grade": "S",
       "shopify_score": 92,
       "copy_ok": true,
-      "gosi_ok": false,
+      "gosi_ok": true,
       "price_ok": false,
       "legal_ok": false,
       "listing_ready": false,
       "blocked_by": [
-        "gosi",
         "price",
         "legal"
       ]
@@ -156,12 +149,11 @@
       "grade": "S",
       "shopify_score": 92,
       "copy_ok": true,
-      "gosi_ok": false,
+      "gosi_ok": true,
       "price_ok": false,
       "legal_ok": false,
       "listing_ready": false,
       "blocked_by": [
-        "gosi",
         "price",
         "legal"
       ]
@@ -172,12 +164,11 @@
       "grade": "S",
       "shopify_score": 92,
       "copy_ok": true,
-      "gosi_ok": false,
+      "gosi_ok": true,
       "price_ok": false,
       "legal_ok": false,
       "listing_ready": false,
       "blocked_by": [
-        "gosi",
         "price",
         "legal"
       ]
@@ -188,12 +179,11 @@
       "grade": "S",
       "shopify_score": 89,
       "copy_ok": true,
-      "gosi_ok": false,
+      "gosi_ok": true,
       "price_ok": false,
       "legal_ok": false,
       "listing_ready": false,
       "blocked_by": [
-        "gosi",
         "price",
         "legal"
       ]
@@ -204,12 +194,11 @@
       "grade": "S",
       "shopify_score": 85,
       "copy_ok": true,
-      "gosi_ok": false,
+      "gosi_ok": true,
       "price_ok": false,
       "legal_ok": false,
       "listing_ready": false,
       "blocked_by": [
-        "gosi",
         "price",
         "legal"
       ]
