@@ -72,7 +72,7 @@
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients, volume, maker"
         }
       },
       "hs_code": "",
@@ -84,7 +84,7 @@
         "label_fields"
       ],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-05T13:02:16.312338+00:00"
+      "auto_checked_at": "2026-09-05T13:08:46.899535+00:00"
     },
     "1045146": {
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
@@ -105,7 +105,7 @@
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients, volume, maker"
         }
       },
       "hs_code": "",
@@ -117,7 +117,7 @@
         "label_fields"
       ],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-05T13:02:16.312395+00:00"
+      "auto_checked_at": "2026-09-05T13:08:46.899598+00:00"
     },
     "1049271": {
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
@@ -138,7 +138,7 @@
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients, volume, maker"
         }
       },
       "hs_code": "",
@@ -150,7 +150,7 @@
         "label_fields"
       ],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-05T13:02:16.312421+00:00"
+      "auto_checked_at": "2026-09-05T13:08:46.899640+00:00"
     },
     "1048581": {
       "name": "드롭비 잡티 말끔 앰플 40 ml",
@@ -171,7 +171,7 @@
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients, volume, maker"
         }
       },
       "hs_code": "",
@@ -183,7 +183,7 @@
         "label_fields"
       ],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-05T13:02:16.312446+00:00"
+      "auto_checked_at": "2026-09-05T13:08:46.899677+00:00"
     },
     "1075857": {
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
@@ -204,7 +204,7 @@
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients, volume, maker"
         }
       },
       "hs_code": "",
@@ -216,7 +216,7 @@
         "label_fields"
       ],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-05T13:02:16.312475+00:00"
+      "auto_checked_at": "2026-09-05T13:08:46.899723+00:00"
     },
     "1068776": {
       "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
@@ -237,7 +237,7 @@
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients, volume, maker"
         }
       },
       "hs_code": "",
@@ -249,7 +249,7 @@
         "label_fields"
       ],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-05T13:02:16.312506+00:00"
+      "auto_checked_at": "2026-09-05T13:08:46.899764+00:00"
     },
     "1059834": {
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -270,7 +270,7 @@
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients, volume, maker"
         }
       },
       "hs_code": "",
@@ -282,7 +282,7 @@
         "label_fields"
       ],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-05T13:02:16.312532+00:00"
+      "auto_checked_at": "2026-09-05T13:08:46.899813+00:00"
     },
     "1041403": {
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
@@ -303,7 +303,7 @@
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients, volume, maker"
         }
       },
       "hs_code": "",
@@ -315,7 +315,7 @@
         "label_fields"
       ],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-05T13:02:16.312555+00:00"
+      "auto_checked_at": "2026-09-05T13:08:46.899849+00:00"
     },
     "1062781": {
       "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
@@ -336,7 +336,7 @@
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients, volume, maker"
         }
       },
       "hs_code": "",
@@ -348,7 +348,7 @@
         "label_fields"
       ],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-05T13:02:16.312621+00:00"
+      "auto_checked_at": "2026-09-05T13:08:46.899887+00:00"
     },
     "1060487": {
       "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
@@ -369,7 +369,7 @@
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients, volume, maker"
         }
       },
       "hs_code": "",
@@ -381,7 +381,7 @@
         "label_fields"
       ],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-05T13:02:16.312658+00:00"
+      "auto_checked_at": "2026-09-05T13:08:46.899926+00:00"
     },
     "1070006": {
       "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
@@ -402,7 +402,7 @@
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients, volume, maker"
         }
       },
       "hs_code": "",
@@ -414,7 +414,7 @@
         "label_fields"
       ],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-05T13:02:16.312689+00:00"
+      "auto_checked_at": "2026-09-05T13:08:46.899968+00:00"
     },
     "1067024": {
       "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
@@ -435,7 +435,7 @@
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients, volume, maker"
         }
       },
       "hs_code": "",
@@ -447,7 +447,7 @@
         "label_fields"
       ],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-05T13:02:16.312724+00:00"
+      "auto_checked_at": "2026-09-05T13:08:46.900013+00:00"
     }
   },
   "auto_summary": {
@@ -456,5 +456,5 @@
     "needs_attention": 2,
     "pass": 0
   },
-  "auto_checked_at": "2026-09-05T13:02:16.312731+00:00"
+  "auto_checked_at": "2026-09-05T13:08:46.900024+00:00"
 }

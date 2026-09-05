@@ -54,25 +54,35 @@ def http_json(url: str, payload: dict | None = None) -> dict:
     return json.loads(urllib.request.urlopen(req, timeout=TIMEOUT).read().decode("utf-8"))
 
 
-def pick_model(key: str) -> str:
+def pick_models(key: str) -> list[str]:
     forced = os.environ.get("GEMINI_MODEL", "").strip()
     if forced:
-        return forced
+        return [forced]
     d = http_json(f"{API_ROOT}/models?key={key}&pageSize=200")
     usable = [m["name"].replace("models/", "") for m in d.get("models", [])
               if "generateContent" in (m.get("supportedGenerationMethods") or [])]
-    # 이미지 입력이 되는 모델을 고른다. flash 계열이 싸고 빠르다.
+    # 한 모델이 과부하면 다음 모델로 넘어간다. flash 계열이 싸고 빠르다.
+    order, seen = [], set()
     for pat in ("gemini-flash-latest", "gemini-2.5-flash", "gemini-2.0-flash",
-                "flash-latest", "flash"):
+                "flash-latest", "flash", "pro"):
         for n in usable:
-            if pat in n and "thinking" not in n:
-                return n
-    if not usable:
+            if pat in n and "thinking" not in n and n not in seen:
+                seen.add(n)
+                order.append(n)
+    if not order:
+        order = usable[:3]
+    if not order:
         raise RuntimeError("generateContent 지원 모델 없음")
-    return usable[0]
+    return order[:4]
 
 
-def read_table(key: str, model: str, img: Path) -> tuple[dict | None, str]:
+def read_table(key: str, models: list[str], img: Path) -> tuple[dict | None, str]:
+    """이미지 한 장을 읽는다.
+
+    2026-09-05 첫 실행에서 14건 전부 503 으로 실패했다. 모델 과부하는
+    흔한 일인데 재시도가 없어 그대로 끝났다. 이제 물러섰다가 다시 걸고,
+    그래도 안 되면 다른 모델로 넘어간다.
+    """
     b64 = base64.b64encode(img.read_bytes()).decode()
     payload = {
         "contents": [{"parts": [
@@ -81,10 +91,26 @@ def read_table(key: str, model: str, img: Path) -> tuple[dict | None, str]:
         ]}],
         "generationConfig": {"temperature": 0, "responseMimeType": "application/json"},
     }
-    try:
-        d = http_json(f"{API_ROOT}/models/{model}:generateContent?key={key}", payload)
-    except Exception as exc:
-        return None, f"{type(exc).__name__}: {exc}"[:120]
+    last = ""
+    d = None
+    for model in models:
+        for attempt in range(1, 4):
+            try:
+                d = http_json(f"{API_ROOT}/models/{model}:generateContent?key={key}", payload)
+                last = ""
+                break
+            except Exception as exc:
+                code = getattr(exc, "code", None)
+                last = f"{model} {type(exc).__name__}: {exc}"[:120]
+                # 429/5xx 는 잠시 뒤 다시 하면 되는 경우가 많다
+                if code in (429, 500, 502, 503, 504):
+                    time.sleep(4 * attempt * attempt)
+                    continue
+                break
+        if d is not None:
+            break
+    if d is None:
+        return None, last or "호출 실패"
     try:
         txt = d["candidates"][0]["content"]["parts"][0]["text"]
     except (KeyError, IndexError):
@@ -106,8 +132,8 @@ def main() -> int:
         print("GEMINI_API_KEY 없음 - 건너뜀")
         return 0
 
-    model = pick_model(key)
-    print(f"모델: {model}")
+    models = pick_models(key)
+    print(f"모델 후보: {', '.join(models)}")
     filled, fails = 0, []
     for pd_no, row in items.items():
         img = row.get("gosi_image")
@@ -118,7 +144,7 @@ def main() -> int:
         if not p.exists():
             fails.append({"pd_no": pd_no, "reason": f"파일 없음 {img}"})
             continue
-        got, err = read_table(key, model, p)
+        got, err = read_table(key, models, p)
         if got is None:
             fails.append({"pd_no": pd_no, "reason": err})
             time.sleep(DELAY)
@@ -131,7 +157,7 @@ def main() -> int:
                 row[f] = v
                 wrote.append(f)
                 filled += 1
-        row["vision_source"] = f"gemini:{model}"
+        row["vision_source"] = f"gemini:{models[0]}"
         row["vision_image"] = img
         row["verified"] = bool(row.get("verified"))   # 사람이 켜는 값
         row["vision_at"] = datetime.now(timezone.utc).isoformat()

@@ -301,14 +301,12 @@ def team_cards(graph: dict) -> list[dict]:
     if mt:
         s_grade = mt.get("s_grade_priority") or []
         # 수동 입력 폴더에 pd_no 가 등장하는 상품만 고시표가 들어온 것으로 본다
-        entered = set()
-        manual = D / "manual"
-        if manual.exists():
-            for f in manual.glob("*.json"):
-                try:
-                    entered.update(re.findall(r"\d{6,}", f.read_text(encoding="utf-8")))
-                except OSError:
-                    continue
+        # 고시는 gosi.json 이 정본이다. data/manual 을 뒤지던 옛 방식은
+        # 고시 수집기가 생긴 뒤로 실제 상태와 맞지 않는다.
+        gosi = (load_json(D / "gosi.json", None) or {}).get("items") or {}
+        REQ = ("ingredients", "volume", "maker", "origin")
+        entered = {k for k, v in gosi.items()
+                   if all(str(v.get(f) or "").strip() for f in REQ)}
         pending = [p for p in s_grade if str(p.get("pd_no")) not in entered]
         cards.append(_team(
             "market", "마케팅 조사팀", iso_mtime(D / "market_team.json"),
@@ -363,30 +361,38 @@ def team_cards(graph: dict) -> list[dict]:
     if pm:
         duty = pm.get("duty_scenarios") or {}
         rows = (pm.get("scenarios") or {}).get("1개_묶음배송") or []
-        est = [r for r in rows if "추정" in str(r.get("weight_note") or "")]
+        src = {}
+        for r in rows:
+            k = r.get("weight_source") or "estimated"
+            src[k] = src.get(k, 0) + 1
+        # 100g 경계에 걸린 것만 저울이 필요하다. 전부 재라고 하지 않는다.
+        need = [r for r in rows if r.get("weigh_needed")]
+        LAB = {"measured": "실측", "gosi_volume": "고시용량", "estimated": "이름추정"}
+        detail = " / ".join(f"{LAB.get(k, k)} {v}" for k, v in sorted(src.items()))
         cards.append(_team(
             "pricing", "가격 정책팀", pm.get("generated_at"),
-            f'DDU/DDP {len(duty)}개 시나리오 · 무게 추정 {len(est)}/{len(rows)}건' + feed_tail("pricing"),
-            f'{len(est)}건 실측 무게 필요 (100g 경계가 배송 구간을 바꿈)' if est else None))
+            f'DDU/DDP {len(duty)}개 시나리오 · 무게 {detail}' + feed_tail("pricing"),
+            f'{len(need)}건만 저울 필요 (100g 경계 ±15g)' if need else None))
     else:
         cards.append(_team("pricing", "가격 정책팀", None,
                            "pricing_model.json 없음", None, "missing"))
 
-    # 법률·규제팀 --------------------------------------------------------
-    lt = load_json(D / "legal_team.json", None)
-    if lt:
-        dash = lt.get("dashboard") or {}
-        checks = lt.get("baseline_checklist") or []
-        waiting = [c for c in checks if "대기" in str(c.get("status") or "")]
+    # 상품별 자동 점검이 정본이다. 옛 legal_team.json 은 사람에게 상품 정보를
+    # 내놓으라고 요구하던 구조라 현황을 반영하지 못한다.
+    lp = load_json(D / "legal_products.json", None)
+    if lp and (lp.get("auto_summary") or lp.get("items")):
+        a = lp.get("auto_summary") or {}
+        n_chk = a.get("checked") or len(lp.get("items") or {})
+        att = a.get("needs_attention") or 0
         cards.append(_team(
-            "legal", "법률·규제팀", iso_mtime(D / "legal_team.json"),
-            f'검토 상품 {dash.get("reviewed_products", 0)}건 · '
-            f'체크리스트 {len(checks)}항목 중 {len(waiting)}항목 대기' + feed_tail("legal"),
-            str(dash.get("next_action") or "")[:60] if waiting else None))
+            "legal", "법률·규제팀", lp.get("auto_checked_at"),
+            f'자동 점검 {n_chk}건 · 통과 {a.get("clean", 0)} · 주의 {att} · '
+            f'사람 PASS {a.get("pass", 0)}' + feed_tail("legal"),
+            f'주의 {att}건 확인 후 PASS 판정 필요' if att
+            else (f'{n_chk}건 PASS 판정 필요' if not a.get("pass") else None)))
     else:
         cards.append(_team("legal", "법률·규제팀", None,
-                           "legal_team.json 없음", None, "missing"))
-
+                           "legal_products.json 없음", None, "missing"))
     # 로보틱스 수집 ------------------------------------------------------
     rb = load_json(D / "robotics_sources.json", None)
     if rb:
