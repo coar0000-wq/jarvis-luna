@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import re
+import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -86,10 +87,12 @@ def graph_metrics() -> dict:
                 targets.add(normalized)
                 bucket.add(normalized.lower())
 
-    stems = {p.stem.lower() for p in notes}
+    stems = {n.stem.lower() for n in notes}
     dangling_generated = sorted(x for x in generated if x not in stems)
     dangling_personal = sorted(x for x in personal if x not in stems)
-    valid_mtimes = [iso_mtime(p) for p in notes if iso_mtime(p) is not None]
+    # iso_mtime 을 노트마다 두 번 부르고 있었다. 2만 8천개면 stat 호출이
+    # 5만 7천번이다. 한 번만 부르고 걸러낸다.
+    valid_mtimes = [m for m in (iso_mtime(n) for n in notes) if m is not None]
 
     return {
         "notes": len(notes),
@@ -600,4 +603,32 @@ def main() -> None:
     if isinstance(prev_fx, dict) and prev_fx:
         payload["exchange_rate"] = prev_fx
     if prev_synced:
-        payload["last_synced"] = pr
+        payload["last_synced"] = prev_synced
+
+    # 여기가 잘려 있었다. 저장 코드도 main() 호출도 없어서 실행해도
+    # 아무 일이 일어나지 않았고 exit 0 만 났다. 대시보드가 09:14 에서
+    # 멈춰 있던 진짜 원인이다. 쓰고 나서 되읽어 확인한다.
+    body = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    for attempt in range(5):
+        OUT.write_text(body, encoding="utf-8")
+        try:
+            if json.loads(OUT.read_text(encoding="utf-8-sig")) == payload:
+                break
+        except (OSError, json.JSONDecodeError, UnicodeDecodeError):
+            pass
+        time.sleep(0.5)
+    else:
+        raise SystemExit("dashboard_runtime.json 기록 검증 실패")
+
+    print(f"저장: {OUT}")
+    print(f"  생성 {now}")
+    print(f"  팀 {len(teams)}개 · 파이프라인 "
+          f"{payload['team_summary']['pipeline_done']}/"
+          f"{payload['team_summary']['pipeline_total']}")
+    print(f"  노트 {graph['notes']} · 링크 {graph['links']} · "
+          f"코퍼스 {payload['team_summary']['corpus_records']}")
+
+
+if __name__ == "__main__":
+    main()
