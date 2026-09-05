@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T13:08:46.973429+00:00",
+  "generated_at": "2026-09-05T13:29:06.013495+00:00",
   "generator": "scripts/build_listing_gate.py",
   "규칙": "listing_ready = copy_ok AND gosi_ok AND price_ok AND legal_ok",
   "근거": {
@@ -13,14 +13,14 @@
   "ready": 0,
   "counts": {
     "copy": 12,
-    "gosi": 0,
+    "gosi": 2,
     "price": 0,
     "legal": 0
   },
   "blockers": {
-    "gosi": 12,
     "price": 12,
-    "legal": 12
+    "legal": 12,
+    "gosi": 10
   },
   "unreadable": [],
   "items": [
@@ -30,12 +30,11 @@
       "grade": "S",
       "shopify_score": 97,
       "copy_ok": true,
-      "gosi_ok": false,
+      "gosi_ok": true,
       "price_ok": false,
       "legal_ok": false,
       "listing_ready": false,
       "blocked_by": [
-        "gosi",
         "price",
         "legal"
       ]
@@ -94,12 +93,11 @@
       "grade": "S",
       "shopify_score": 94,
       "copy_ok": true,
-      "gosi_ok": false,
+      "gosi_ok": true,
       "price_ok": false,
       "legal_ok": false,
       "listing_ready": false,
       "blocked_by": [
-        "gosi",
         "price",
         "legal"
       ]
