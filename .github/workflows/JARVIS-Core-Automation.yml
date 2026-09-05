@@ -88,20 +88,6 @@ jobs:
           fi
 
       # ============================================================
-      # [5/5] Phase 26 실시간 진행도 업데이트 (매 10분)
-      # ============================================================
-
-      - name: 🧠 [5/5] Phase 26 진행도 업데이트
-        id: phase_26_progress
-        run: |
-          echo "🧠 Phase 26 MoE 라우터 진행도 업데이트..."
-          if python phase_26_progress_realtime.py; then
-            echo "status=success" >> $GITHUB_OUTPUT
-          else
-            echo "status=failed" >> $GITHUB_OUTPUT
-          fi
-
-      # ============================================================
       # GitHub 자동 푸시
       # ============================================================
 
@@ -165,4 +151,3 @@ jobs:
           echo "- Obsidian 동기화: ${{ steps.obsidian_sync.outputs.status }}"
           echo "- YouTube 수집: ${{ steps.youtube_collect.outputs.status }}"
           echo "- Google 수집: ${{ steps.google_collect.outputs.status }}"
-          echo "- Phase 26 진행도: ${{ steps.phase_26_progress.outputs.status }}"
