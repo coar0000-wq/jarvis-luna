@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T10:30:20.944531+00:00",
+  "updated_at": "2026-09-05T13:31:08.526164+00:00",
   "channel": "Learn With Shopify",
   "channel_handle": "@learnwithshopify",
   "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
@@ -8,13 +8,14 @@
   "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC7geKfz2-IH0rsgRBtHTm0g",
   "count": 15,
   "title_keywords": {
-    "shopify": 6,
+    "shopify": 7,
     "store": 4,
-    "claude": 4,
+    "claude": 3,
     "product": 2,
     "build": 2,
     "ai": 2,
     "network": 1,
+    "sidekick": 1,
     "cowork": 1,
     "run": 1,
     "entrepreneur": 1,
@@ -47,6 +48,17 @@
         "cross_brand_product_network",
         "daiso_to_shopify_expansion"
       ]
+    },
+    {
+      "video_id": "8Rth8YRLaDY",
+      "title": "What’s NEW with Shopify Sidekick?",
+      "url": "https://www.youtube.com/shorts/8Rth8YRLaDY",
+      "published": "2026-09-05T12:00:05+00:00",
+      "description_snip": "Shopify Sidekick Just Got a MAJOR Upgrade! 🚀 Meet the new and improved Sidekick, your AI assistant inside the Shopify admin! Sidekick now integrates with the apps you already use to answer questions, check performance, and create promotions. Plus, you can now get proactive recommendations on your Shopify homepage and use voice mode on your Apple Watch for quick on-the-go business check-ins. #Shopi",
+      "channel": "Learn With Shopify",
+      "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
+      "source": "youtube_rss_free",
+      "analyze_with_notebook": "https://notebook.google.com/notebook/88638802-cf08-47ca-a3ec-12453818438a"
     },
     {
       "video_id": "gugo50_VbjE",
@@ -186,17 +198,6 @@
       "url": "https://www.youtube.com/shorts/zrJRlnfQTR0",
       "published": "2026-08-21T21:00:14+00:00",
       "description_snip": "How to Build a website using Claude. Click on the link on screen to watch the full tutorial. Are you looking to build your dream online store from scratch? In this YouTube Short, we show you how you can complete your early build entirely inside Claude without touching a single Shopify setting first. We'll walk you through the simple and fastest route: import your info into Claude, and let the AI r",
-      "channel": "Learn With Shopify",
-      "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-      "source": "youtube_rss_free",
-      "analyze_with_notebook": "https://notebook.google.com/notebook/88638802-cf08-47ca-a3ec-12453818438a"
-    },
-    {
-      "video_id": "lU6WIgu0Wzg",
-      "title": "How to collect payments with your Claude website",
-      "url": "https://www.youtube.com/shorts/lU6WIgu0Wzg",
-      "published": "2026-08-21T16:00:08+00:00",
-      "description_snip": "How to accept payments on your Claude-built website Claude Chat can help you build a beautiful brand and store foundation, but on its own, it cannot handle the essentials like taking payments, registering your domain, or shipping orders. That is why we use Shopify as the engine to turn your framework into a real, functioning business website that can actually sell. With the Shopify cloud connector",
       "channel": "Learn With Shopify",
       "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
       "source": "youtube_rss_free",
