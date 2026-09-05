@@ -2,7 +2,7 @@
 title: "Record 523 · Fear-of-the-new-a-predatory-invader-provokes-stronger-non-consumptive-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.122128+00:00
+updated_at: 2026-09-05T07:05:25.019990+00:00
 tags: [record, real-data]
 ---
 

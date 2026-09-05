@@ -2,7 +2,7 @@
 title: "Record 354 · Impact-of-United-States-Marine-Corps-Recruit-Training-on-Stress-Physio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.080760+00:00
+updated_at: 2026-09-05T07:05:24.983748+00:00
 tags: [record, real-data]
 ---
 

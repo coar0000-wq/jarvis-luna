@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T11:44:38.146739+09:00",
+  "generated_at": "2026-09-05T16:25:38.834850+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -7,13 +7,13 @@
   "summary": {
     "ready_to_list": 0,
     "ready_with_notes": 12,
-    "fix_then_list": 1,
+    "fix_then_list": 0,
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
       "post_count": 50,
-      "collected_at": "2026-09-05T02:24:07.244799+00:00",
-      "keyword_pool": 47
+      "collected_at": "2026-09-05T07:05:08.549379+00:00",
+      "keyword_pool": 42
     }
   },
   "sessions": [
@@ -78,14 +78,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ampoule', 'skin', 'skin1004', 'skincare', 'skinfessionals']",
+          "evidence": "matched=['beauty', 'k-beauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Drop B Firming Glow Ampoule 40ml — ampoule · K-beauty",
+          "primary_text": "Drop B Firming Glow Ampoule 40ml — beauty · K-beauty",
           "headline": "Drop B Firming Glow Ampoule 40ml",
           "description": "Experience the Drop B Firming Glow Ampoule in a convenient 40ml size designed for your daily skincare routine. Apply gently to the skin to help maintain a radiant and smooth appearance every day.",
           "cta": "Shop now"
@@ -102,32 +102,30 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "beauty",
+          "k-beauty",
           "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "ampoule",
+          "beauty",
+          "k-beauty",
           "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "ampoule",
+          "beauty",
+          "k-beauty",
           "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
+          "skincare"
         ],
-        "score": 5,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['ampoule', 'skin', 'skin1004', 'skincare', 'skinfessionals']",
+        "evidence": "matched=['beauty', 'k-beauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -198,14 +196,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['cream', 'moisturizer', 'skin', 'skin1004', 'skincare', 'skinfessionals', 'sunscreen', 'sunscreens']",
+          "evidence": "matched=['beauty', 'cream', 'k-beauty', 'moisturizer', 'skin', 'skincare', 'sunscreen', 'sunscreens']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Vprove Marine Mild Mineral Sunscreen SPF50+ PA++++ 50 ml — cream · K-beauty",
+          "primary_text": "Vprove Marine Mild Mineral Sunscreen SPF50+ PA++++ 50 ml — beauty · K-beauty",
           "headline": "Vprove Marine Mild Mineral Sunscreen SPF",
           "description": "Discover the Vprove Marine Mild Mineral Sunscreen, featuring an SPF50+ PA++++ formula designed for daily sun protection. This gentle physical sunscreen helps shield your skin from UV rays. Presented i",
           "cta": "Shop now"
@@ -224,35 +222,35 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "beauty",
+          "k-beauty",
           "moisturizer",
-          "skin",
-          "skin1004",
-          "skincare"
+          "skin"
         ],
         "reddit_keywords_used": [
+          "beauty",
           "cream",
+          "k-beauty",
           "moisturizer",
-          "skin",
-          "skin1004",
-          "skincare"
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
+          "beauty",
           "cream",
+          "k-beauty",
           "moisturizer",
           "skin",
-          "skin1004",
           "skincare",
-          "skinfessionals",
           "sunscreen",
           "sunscreens"
         ],
         "score": 8,
         "status": "pass",
-        "evidence": "matched=['cream', 'moisturizer', 'skin', 'skin1004', 'skincare', 'skinfessionals', 'sunscreen', 'sunscreens']",
+        "evidence": "matched=['beauty', 'cream', 'k-beauty', 'moisturizer', 'skin', 'skincare', 'sunscreen', 'sunscreens']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -323,14 +321,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['one', 'skin', 'skin1004', 'skincare', 'skinfessionals']",
+          "evidence": "matched=['beauty', 'k-beauty', 'one', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Cica Calming Toner 300 ml — one · K-beauty",
+          "primary_text": "VT Cica Calming Toner 300 ml — beauty · K-beauty",
           "headline": "VT Cica Calming Toner 300 ml",
           "description": "Discover the refreshing hydration of VT Cica Calming Toner, formulated in a generous 300 ml size. This soothing toner helps prep your skin daily, leaving it feeling balanced and comfortable.",
           "cta": "Shop now"
@@ -347,33 +345,33 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "beauty",
+          "k-beauty",
           "one",
           "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
+          "skincare"
         ],
         "reddit_keywords_used": [
+          "beauty",
+          "k-beauty",
           "one",
           "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
+          "beauty",
+          "k-beauty",
           "one",
           "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
+          "skincare"
         ],
         "score": 5,
         "status": "pass",
-        "evidence": "matched=['one', 'skin', 'skin1004', 'skincare', 'skinfessionals']",
+        "evidence": "matched=['beauty', 'k-beauty', 'one', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -444,14 +442,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ampoule', 'skin', 'skin1004', 'skincare', 'skinfessionals']",
+          "evidence": "matched=['beauty', 'k-beauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "DropB Blemish Clear Ampoule 40ml — ampoule · K-beauty",
+          "primary_text": "DropB Blemish Clear Ampoule 40ml — beauty · K-beauty",
           "headline": "DropB Blemish Clear Ampoule 40ml",
           "description": "Discover the DropB Blemish Clear Ampoule in a convenient 40ml size, designed to help you maintain a clear and vibrant complexion. This gentle facial ampoule is easy to incorporate into your daily skin",
           "cta": "Shop now"
@@ -468,32 +466,30 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "beauty",
+          "k-beauty",
           "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "ampoule",
+          "beauty",
+          "k-beauty",
           "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "ampoule",
+          "beauty",
+          "k-beauty",
           "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
+          "skincare"
         ],
-        "score": 5,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['ampoule', 'skin', 'skin1004', 'skincare', 'skinfessionals']",
+        "evidence": "matched=['beauty', 'k-beauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -550,7 +546,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'PDRN 핑크 콜라겐 볼륨 멀티밤' (ulta_beauty) 유사 40% · 토큰 pdrn",
+          "evidence": "글로벌 'Anua PDRN Full Care Set (Serum 1 fl. oz.(30ml) + Mist 1 fl. oz.(30ml) + Cream 2 fl. oz.(60ml) + Mask 5ct + Keychain",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -564,7 +560,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'cream', 'moisturizer', 'skin', 'skin1004', 'skincare', 'skinfessionals']",
+          "evidence": "matched=['ask', 'beauty', 'cream', 'k-beauty', 'moisturizer', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -591,16 +587,16 @@
           "glass skin",
           "hydrating",
           "ask",
-          "moisturizer",
-          "skin",
-          "skin1004"
+          "beauty",
+          "k-beauty",
+          "moisturizer"
         ],
         "reddit_keywords_used": [
           "ask",
+          "beauty",
           "cream",
-          "moisturizer",
-          "skin",
-          "skin1004"
+          "k-beauty",
+          "moisturizer"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -608,16 +604,16 @@
       "reddit_match": {
         "matched": [
           "ask",
+          "beauty",
           "cream",
+          "k-beauty",
           "moisturizer",
           "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
+          "skincare"
         ],
         "score": 7,
         "status": "pass",
-        "evidence": "matched=['ask', 'cream', 'moisturizer', 'skin', 'skin1004', 'skincare', 'skinfessionals']",
+        "evidence": "matched=['ask', 'beauty', 'cream', 'k-beauty', 'moisturizer', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -688,14 +684,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['cream', 'moisturizer', 'skin', 'skin1004', 'skincare', 'skinfessionals', 'sunscreen', 'sunscreens']",
+          "evidence": "matched=['beauty', 'cream', 'k-beauty', 'moisturizer', 'skin', 'skincare', 'sunscreen', 'sunscreens']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "SCINIC Power Homme Watery Sun Cream 50 ml — cream · K-beauty",
+          "primary_text": "SCINIC Power Homme Watery Sun Cream 50 ml — beauty · K-beauty",
           "headline": "SCINIC Power Homme Watery Sun Cream 50 m",
           "description": "Discover the SCINIC Power Homme Watery Sun Cream in a convenient 50 ml size, designed for daily sun protection. This lightweight formula absorbs smoothly to help shield your skin from the sun. Incorpo",
           "cta": "Shop now"
@@ -713,35 +709,35 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "beauty",
+          "k-beauty",
           "moisturizer",
-          "skin",
-          "skin1004",
-          "skincare"
+          "skin"
         ],
         "reddit_keywords_used": [
+          "beauty",
           "cream",
+          "k-beauty",
           "moisturizer",
-          "skin",
-          "skin1004",
-          "skincare"
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
+          "beauty",
           "cream",
+          "k-beauty",
           "moisturizer",
           "skin",
-          "skin1004",
           "skincare",
-          "skinfessionals",
           "sunscreen",
           "sunscreens"
         ],
         "score": 8,
         "status": "pass",
-        "evidence": "matched=['cream', 'moisturizer', 'skin', 'skin1004', 'skincare', 'skinfessionals', 'sunscreen', 'sunscreens']",
+        "evidence": "matched=['beauty', 'cream', 'k-beauty', 'moisturizer', 'skin', 'skincare', 'sunscreen', 'sunscreens']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -752,18 +748,18 @@
       }
     },
     {
-      "pd_no": "1059832",
-      "name": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
+      "pd_no": "1059834",
+      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "bucket": "마스크팩",
-      "shopify_score": 93,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059832",
-      "readiness": "fix_then_list",
+      "shopify_score": 92,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
+      "readiness": "ready_with_notes",
       "checklist": [
         {
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=93",
+          "evidence": "grade=S, score=92",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -783,8 +779,8 @@
         {
           "id": "listing_copy",
           "label": "영문 리스팅 카피",
-          "status": "fail",
-          "evidence": "카피 미생성",
+          "status": "pass",
+          "evidence": "Gemini 카피 있음",
           "tip": "shopify-listing-copy 워크플로 실행"
         },
         {
@@ -798,14 +794,14 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 40% · 토큰 mask",
+          "evidence": "글로벌 '바이오 콜라겐 리얼 딥 마스크' (amazon_best_sellers) 유사 100% · 토큰 collagen, mask",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
           "id": "social_proof",
           "label": "국내 리뷰(대리지표)",
           "status": "pass",
-          "evidence": "review_count=6505",
+          "evidence": "review_count=1687",
           "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
         },
         {
@@ -819,20 +815,21 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Mask — Daiso Find — ask · sheet mask",
-          "headline": "Mask — Daiso Find",
-          "description": "Daiso-sourced sheet mask. Lightweight daily use. Target US shoppers searching overnight mask.",
+          "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — ask · sheet mask",
+          "headline": "Celderma Daily Transforming Firming Coll",
+          "description": "Discover the Celderma Daily Transforming Firming Collagen Mask, designed to give your daily skincare routine a refreshing boost. This 28g sheet mask delivers convenient and soothing care for your skin",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
-          "primary_text": "Mask — Daiso Find — Affordable collagen mask pick",
-          "headline": "Mask — Daiso Find",
+          "primary_text": "Mask Collagen — Daiso Find — Affordable collagen mask pick",
+          "headline": "Mask Collagen — Daiso Find",
           "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [7types] MEDIHEAL Essential Face Mask 10.",
           "cta": "See price"
         },
         "suggested_keywords": [
           "mask",
+          "collagen",
           "sheet mask",
           "overnight mask",
           "collagen mask",
@@ -854,10 +851,132 @@
         "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
-        "pass": 4,
+        "pass": 5,
         "warn": 3,
-        "fail": 1,
-        "next_action": "실패 항목 수정"
+        "fail": 0,
+        "next_action": "경고 항목 보완 후 등록"
+      }
+    },
+    {
+      "pd_no": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 92,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "readiness": "ready_with_notes",
+      "checklist": [
+        {
+          "id": "grade_s",
+          "label": "S등급 유지",
+          "status": "pass",
+          "evidence": "grade=S, score=92",
+          "tip": "S가 아니면 1차 등록 보류"
+        },
+        {
+          "id": "margin",
+          "label": "마진 확인",
+          "status": "warn",
+          "evidence": "pricing 미연결",
+          "tip": "pricing_model 재실행"
+        },
+        {
+          "id": "price_band",
+          "label": "권장가",
+          "status": "warn",
+          "evidence": "suggested_price 없음",
+          "tip": "pricing_model 확인"
+        },
+        {
+          "id": "listing_copy",
+          "label": "영문 리스팅 카피",
+          "status": "pass",
+          "evidence": "Gemini 카피 있음",
+          "tip": "shopify-listing-copy 워크플로 실행"
+        },
+        {
+          "id": "listing_ready_flag",
+          "label": "등록 준비 플래그",
+          "status": "warn",
+          "evidence": "listing_ready=False",
+          "tip": "카피·이미지 준비되면 true"
+        },
+        {
+          "id": "global_signal",
+          "label": "글로벌 수요 시그널",
+          "status": "pass",
+          "evidence": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
+        },
+        {
+          "id": "social_proof",
+          "label": "국내 리뷰(대리지표)",
+          "status": "pass",
+          "evidence": "review_count=938",
+          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
+        },
+        {
+          "id": "reddit_community",
+          "label": "Reddit 뷰티 커뮤니티 키워드",
+          "status": "pass",
+          "evidence": "matched=['beauty', 'k-beauty', 'one', 'skin', 'skincare']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        }
+      ],
+      "ad_copy_ab": {
+        "variant_a": {
+          "label": "A · 성분/커뮤니티 후킹",
+          "primary_text": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml — beauty · K-beauty",
+          "headline": "Chaebigonggan Heartleaf Extract Vegan To",
+          "description": "Discover the refreshing benefits of Chaebigonggan Heartleaf Extract Vegan Toner, formulated with heartleaf extract in a 150 ml size. Incorporating this gentle vegan toner into your daily routine helps",
+          "cta": "Shop now"
+        },
+        "variant_b": {
+          "label": "B · 가성비/가격 후킹",
+          "primary_text": "Toner Heartleaf — Daiso Find — Affordable hydrating pick",
+          "headline": "Toner Heartleaf — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "cta": "See price"
+        },
+        "suggested_keywords": [
+          "toner",
+          "heartleaf",
+          "K-beauty",
+          "glass skin",
+          "hydrating",
+          "beauty",
+          "k-beauty",
+          "one",
+          "skin",
+          "skincare"
+        ],
+        "reddit_keywords_used": [
+          "beauty",
+          "k-beauty",
+          "one",
+          "skin",
+          "skincare"
+        ],
+        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
+        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
+      },
+      "reddit_match": {
+        "matched": [
+          "beauty",
+          "k-beauty",
+          "one",
+          "skin",
+          "skincare"
+        ],
+        "score": 5,
+        "status": "pass",
+        "evidence": "matched=['beauty', 'k-beauty', 'one', 'skin', 'skincare']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+      },
+      "coach_summary": {
+        "pass": 5,
+        "warn": 3,
+        "fail": 0,
+        "next_action": "경고 항목 보완 후 등록"
       }
     },
     {
@@ -921,14 +1040,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['cream', 'moisturizer', 'skin', 'skin1004', 'skincare', 'skinfessionals']",
+          "evidence": "matched=['beauty', 'cream', 'k-beauty', 'moisturizer', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml — cream · K-beauty",
+          "primary_text": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml — beauty · K-beauty",
           "headline": "Cell Fusion C Derma Block PDRN Collagen ",
           "description": "Discover the Cell Fusion C Derma Block PDRN Collagen Cream in a convenient 50 ml size. Formulated with PDRN and collagen, this daily face cream provides essential moisture for your skincare routine. S",
           "cta": "Shop now"
@@ -947,33 +1066,33 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "beauty",
+          "k-beauty",
           "moisturizer",
-          "skin",
-          "skin1004",
-          "skincare"
+          "skin"
         ],
         "reddit_keywords_used": [
+          "beauty",
           "cream",
+          "k-beauty",
           "moisturizer",
-          "skin",
-          "skin1004",
-          "skincare"
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
+          "beauty",
           "cream",
+          "k-beauty",
           "moisturizer",
           "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
+          "skincare"
         ],
         "score": 6,
         "status": "pass",
-        "evidence": "matched=['cream', 'moisturizer', 'skin', 'skin1004', 'skincare', 'skinfessionals']",
+        "evidence": "matched=['beauty', 'cream', 'k-beauty', 'moisturizer', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -1093,128 +1212,6 @@
       }
     },
     {
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 90,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "readiness": "ready_with_notes",
-      "checklist": [
-        {
-          "id": "grade_s",
-          "label": "S등급 유지",
-          "status": "pass",
-          "evidence": "grade=S, score=90",
-          "tip": "S가 아니면 1차 등록 보류"
-        },
-        {
-          "id": "margin",
-          "label": "마진 확인",
-          "status": "warn",
-          "evidence": "pricing 미연결",
-          "tip": "pricing_model 재실행"
-        },
-        {
-          "id": "price_band",
-          "label": "권장가",
-          "status": "warn",
-          "evidence": "suggested_price 없음",
-          "tip": "pricing_model 확인"
-        },
-        {
-          "id": "listing_copy",
-          "label": "영문 리스팅 카피",
-          "status": "pass",
-          "evidence": "Gemini 카피 있음",
-          "tip": "shopify-listing-copy 워크플로 실행"
-        },
-        {
-          "id": "listing_ready_flag",
-          "label": "등록 준비 플래그",
-          "status": "warn",
-          "evidence": "listing_ready=False",
-          "tip": "카피·이미지 준비되면 true"
-        },
-        {
-          "id": "global_signal",
-          "label": "글로벌 수요 시그널",
-          "status": "pass",
-          "evidence": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
-          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
-        },
-        {
-          "id": "social_proof",
-          "label": "국내 리뷰(대리지표)",
-          "status": "pass",
-          "evidence": "review_count=938",
-          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
-        },
-        {
-          "id": "reddit_community",
-          "label": "Reddit 뷰티 커뮤니티 키워드",
-          "status": "pass",
-          "evidence": "matched=['one', 'skin', 'skin1004', 'skincare', 'skinfessionals']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-        }
-      ],
-      "ad_copy_ab": {
-        "variant_a": {
-          "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml — one · K-beauty",
-          "headline": "Chaebigonggan Heartleaf Extract Vegan To",
-          "description": "Discover the refreshing benefits of Chaebigonggan Heartleaf Extract Vegan Toner, formulated with heartleaf extract in a 150 ml size. Incorporating this gentle vegan toner into your daily routine helps",
-          "cta": "Shop now"
-        },
-        "variant_b": {
-          "label": "B · 가성비/가격 후킹",
-          "primary_text": "Toner Heartleaf — Daiso Find — Affordable hydrating pick",
-          "headline": "Toner Heartleaf — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
-          "cta": "See price"
-        },
-        "suggested_keywords": [
-          "toner",
-          "heartleaf",
-          "K-beauty",
-          "glass skin",
-          "hydrating",
-          "one",
-          "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
-        ],
-        "reddit_keywords_used": [
-          "one",
-          "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
-        ],
-        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
-        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
-      },
-      "reddit_match": {
-        "matched": [
-          "one",
-          "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
-        ],
-        "score": 5,
-        "status": "pass",
-        "evidence": "matched=['one', 'skin', 'skin1004', 'skincare', 'skinfessionals']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-      },
-      "coach_summary": {
-        "pass": 5,
-        "warn": 3,
-        "fail": 0,
-        "next_action": "경고 항목 보완 후 등록"
-      }
-    },
-    {
       "pd_no": "1070006",
       "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
       "bucket": "스킨케어",
@@ -1275,14 +1272,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['serum', 'skin', 'skin1004', 'skincare', 'skinfessionals']",
+          "evidence": "matched=['beauty', 'k-beauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Lenoia Perfume Hair Serum Mist Aqua Sea Salt 80 ml — serum · K-beauty",
+          "primary_text": "Lenoia Perfume Hair Serum Mist Aqua Sea Salt 80 ml — beauty · K-beauty",
           "headline": "Lenoia Perfume Hair Serum Mist Aqua Sea ",
           "description": "Refresh and scent your hair with Lenoia Perfume Hair Serum Mist in Aqua Sea Salt. This lightweight 80 ml formula helps keep your hair feeling soft and delicately fragranced throughout the day. Simply ",
           "cta": "Shop now"
@@ -1299,141 +1296,31 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "beauty",
+          "k-beauty",
           "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "serum",
+          "beauty",
+          "k-beauty",
           "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "serum",
+          "beauty",
+          "k-beauty",
           "skin",
-          "skin1004",
-          "skincare",
-          "skinfessionals"
+          "skincare"
         ],
-        "score": 5,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['serum', 'skin', 'skin1004', 'skincare', 'skinfessionals']",
+        "evidence": "matched=['beauty', 'k-beauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-      },
-      "coach_summary": {
-        "pass": 5,
-        "warn": 3,
-        "fail": 0,
-        "next_action": "경고 항목 보완 후 등록"
-      }
-    },
-    {
-      "pd_no": "1032881",
-      "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
-      "bucket": "마스크팩",
-      "shopify_score": 88,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1032881",
-      "readiness": "ready_with_notes",
-      "checklist": [
-        {
-          "id": "grade_s",
-          "label": "S등급 유지",
-          "status": "pass",
-          "evidence": "grade=S, score=88",
-          "tip": "S가 아니면 1차 등록 보류"
-        },
-        {
-          "id": "margin",
-          "label": "마진 확인",
-          "status": "warn",
-          "evidence": "pricing 미연결",
-          "tip": "pricing_model 재실행"
-        },
-        {
-          "id": "price_band",
-          "label": "권장가",
-          "status": "warn",
-          "evidence": "suggested_price 없음",
-          "tip": "pricing_model 확인"
-        },
-        {
-          "id": "listing_copy",
-          "label": "영문 리스팅 카피",
-          "status": "pass",
-          "evidence": "Gemini 카피 있음",
-          "tip": "shopify-listing-copy 워크플로 실행"
-        },
-        {
-          "id": "listing_ready_flag",
-          "label": "등록 준비 플래그",
-          "status": "warn",
-          "evidence": "listing_ready=False",
-          "tip": "카피·이미지 준비되면 true"
-        },
-        {
-          "id": "global_signal",
-          "label": "글로벌 수요 시그널",
-          "status": "pass",
-          "evidence": "글로벌 'UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)' (oliveyoung_us) 유사 70% · 토큰 mask, repair",
-          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
-        },
-        {
-          "id": "social_proof",
-          "label": "국내 리뷰(대리지표)",
-          "status": "pass",
-          "evidence": "review_count=759",
-          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
-        },
-        {
-          "id": "reddit_community",
-          "label": "Reddit 뷰티 커뮤니티 키워드",
-          "status": "pass",
-          "evidence": "matched=['ask']",
-          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
-        }
-      ],
-      "ad_copy_ab": {
-        "variant_a": {
-          "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Kerasys Advanced Repair Hair Pack 150 ml — ask · sheet mask",
-          "headline": "Kerasys Advanced Repair Hair Pack 150 ml",
-          "description": "Discover the Kerasys Advanced Repair Hair Pack in a convenient 150 ml size. This hair care essential is designed to fit seamlessly into your regular beauty routine. Incorporate this hair pack into you",
-          "cta": "Shop now"
-        },
-        "variant_b": {
-          "label": "B · 가성비/가격 후킹",
-          "primary_text": "Sheet Mask — Daiso Find — Affordable collagen mask pick",
-          "headline": "Sheet Mask — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [7types] MEDIHEAL Essential Face Mask 10.",
-          "cta": "See price"
-        },
-        "suggested_keywords": [
-          "sheet mask",
-          "overnight mask",
-          "collagen mask",
-          "ask"
-        ],
-        "reddit_keywords_used": [
-          "ask"
-        ],
-        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
-        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
-      },
-      "reddit_match": {
-        "matched": [
-          "ask"
-        ],
-        "score": 1,
-        "status": "pass",
-        "evidence": "matched=['ask']",
-        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
         "pass": 5,
@@ -1446,7 +1333,7 @@
       "pd_no": "1067024",
       "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
       "bucket": "클렌징",
-      "shopify_score": 87,
+      "shopify_score": 85,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067024",
       "readiness": "ready_with_notes",
       "checklist": [
@@ -1454,7 +1341,7 @@
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=87",
+          "evidence": "grade=S, score=85",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -1502,15 +1389,15 @@
         {
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
-          "status": "pass",
-          "evidence": "matched=['cleanser']",
-          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+          "status": "warn",
+          "evidence": "terms=['balanced', 'cleanse', 'cleanser', 'cleansing', 'double', 'gentle'] vs pool=42",
+          "tip": "Reddit 핫 키워드와 직접 겹침 약함 — 성분 영문명으로 재검색"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Point Lemon Sparkling Water No-Wash Cleansing Tissue 30 Sheets — cleanser · gentle cleanser",
+          "primary_text": "Point Lemon Sparkling Water No-Wash Cleansing Tissue 30 Sheets — gentle cleanser · double cleanse",
           "headline": "Point Lemon Sparkling Water No-Wash Clea",
           "description": "Discover the refreshing convenience of the Point Lemon Sparkling Water No-Wash Cleansing Tissue. This pack contains 30 sheets designed for quick and easy cleansing on the go. Formulated with lemon and",
           "cta": "Shop now"
@@ -1519,7 +1406,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cleanser — Daiso Find — Affordable pH balanced pick",
           "headline": "Cleanser — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable pH balanced pick. Nearby US ref: APLB Glutathione Niacinamide Body Wash 1.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable pH balanced pick. Nearby US ref: ROUND LAB Birch Juice Moisturizing Sun S.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -1528,24 +1415,20 @@
           "double cleanse",
           "pH balanced"
         ],
-        "reddit_keywords_used": [
-          "cleanser"
-        ],
+        "reddit_keywords_used": [],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
-        "matched": [
-          "cleanser"
-        ],
-        "score": 1,
-        "status": "pass",
-        "evidence": "matched=['cleanser']",
-        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+        "matched": [],
+        "score": 0,
+        "status": "warn",
+        "evidence": "terms=['balanced', 'cleanse', 'cleanser', 'cleansing', 'double', 'gentle'] vs pool=42",
+        "tip": "Reddit 핫 키워드와 직접 겹침 약함 — 성분 영문명으로 재검색"
       },
       "coach_summary": {
-        "pass": 5,
-        "warn": 3,
+        "pass": 4,
+        "warn": 4,
         "fail": 0,
         "next_action": "경고 항목 보완 후 등록"
       }

@@ -2,7 +2,7 @@
 title: "Record 553 · Transition-Metal-Modified-Zinc-Oxide-ZnO-Nanostructures-for-Photocatal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.129713+00:00
+updated_at: 2026-09-05T07:05:25.026545+00:00
 tags: [record, real-data]
 ---
 

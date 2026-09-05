@@ -2,7 +2,7 @@
 title: "Record 547 · Inovação-desenvolvimento-e-tecnologias-uma-revisão-integrativa-sobre-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.128171+00:00
+updated_at: 2026-09-05T07:05:25.025205+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 537 · Insider-Law-Aspects-in-the-Issuance-of-Bonds"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.125594+00:00
+updated_at: 2026-09-05T07:05:25.022986+00:00
 tags: [record, real-data]
 ---
 

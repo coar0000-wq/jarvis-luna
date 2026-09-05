@@ -2,7 +2,7 @@
 title: "Record 888 · What-Are-AI-Agents-Types-Uses-and-How-They-Work---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.207765+00:00
+updated_at: 2026-09-05T07:05:25.100752+00:00
 tags: [record, real-data]
 ---
 

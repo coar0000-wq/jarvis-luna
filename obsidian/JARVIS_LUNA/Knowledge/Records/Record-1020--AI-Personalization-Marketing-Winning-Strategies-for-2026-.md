@@ -2,7 +2,7 @@
 title: "Record 1020 · AI-Personalization-Marketing-Winning-Strategies-for-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.235597+00:00
+updated_at: 2026-09-05T07:05:25.127012+00:00
 tags: [record, real-data]
 ---
 

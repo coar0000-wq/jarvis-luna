@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T02:44:54.279216+00:00",
+  "generated_at": "2026-09-05T07:25:55.184545+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "ben shelton",
+          "keyword": "maxpreps",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Fri, 4 Sep 2026 19:30:00 -0700",
-          "source_name": "US Open Tennis",
-          "url": "https://trends.google.com/trending?geo=US&q=ben%20shelton"
+          "published": "Fri, 4 Sep 2026 22:50:00 -0700",
+          "source_name": "MaxPreps",
+          "url": "https://trends.google.com/trending?geo=US&q=maxpreps"
         },
         {
-          "keyword": "juárez - pachuca",
+          "keyword": "wwe releases",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Fri, 4 Sep 2026 19:20:00 -0700",
-          "source_name": "Fubo",
-          "url": "https://trends.google.com/trending?geo=US&q=ju%C3%A1rez%20-%20pachuca"
+          "published": "Fri, 4 Sep 2026 22:40:00 -0700",
+          "source_name": "Bleacher Report",
+          "url": "https://trends.google.com/trending?geo=US&q=wwe%20releases"
         },
         {
-          "keyword": "ben rice",
+          "keyword": "pumas - américa",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Fri, 4 Sep 2026 19:30:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=ben%20rice"
+          "published": "Fri, 4 Sep 2026 22:30:00 -0700",
+          "source_name": "Mediotiempo",
+          "url": "https://trends.google.com/trending?geo=US&q=pumas%20-%20am%C3%A9rica"
         },
         {
-          "keyword": "trent grisham",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 4 Sep 2026 19:30:00 -0700",
-          "source_name": "SNY",
-          "url": "https://trends.google.com/trending?geo=US&q=trent%20grisham"
-        },
-        {
-          "keyword": "oj simpson",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 4 Sep 2026 19:30:00 -0700",
-          "source_name": "WSJ",
-          "url": "https://trends.google.com/trending?geo=US&q=oj%20simpson"
-        },
-        {
-          "keyword": "brianna lyman",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 4 Sep 2026 19:20:00 -0700",
-          "source_name": "Fox News",
-          "url": "https://trends.google.com/trending?geo=US&q=brianna%20lyman"
-        },
-        {
-          "keyword": "vito mielnicki jr",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 4 Sep 2026 19:20:00 -0700",
-          "source_name": "DAZN",
-          "url": "https://trends.google.com/trending?geo=US&q=vito%20mielnicki%20jr"
-        },
-        {
-          "keyword": "iowa high school football scores",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 4 Sep 2026 19:20:00 -0700",
-          "source_name": "KCCI",
-          "url": "https://trends.google.com/trending?geo=US&q=iowa%20high%20school%20football%20scores"
-        },
-        {
-          "keyword": "gandhari movie 2026",
+          "keyword": "what is a data breach",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Fri, 4 Sep 2026 19:20:00 -0700",
-          "source_name": "Rediff",
-          "url": "https://trends.google.com/trending?geo=US&q=gandhari%20movie%202026"
+          "published": "Sat, 5 Sep 2026 00:10:00 -0700",
+          "source_name": "Reuters",
+          "url": "https://trends.google.com/trending?geo=US&q=what%20is%20a%20data%20breach"
         },
         {
-          "keyword": "nick shirley",
+          "keyword": "what is a heat index",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Fri, 4 Sep 2026 19:20:00 -0700",
-          "source_name": "Fox News",
-          "url": "https://trends.google.com/trending?geo=US&q=nick%20shirley"
+          "published": "Sat, 5 Sep 2026 00:00:00 -0700",
+          "source_name": "FOX 32 Chicago",
+          "url": "https://trends.google.com/trending?geo=US&q=what%20is%20a%20heat%20index"
+        },
+        {
+          "keyword": "world's tallest buildings",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 5 Sep 2026 00:00:00 -0700",
+          "source_name": "Newsweek",
+          "url": "https://trends.google.com/trending?geo=US&q=world%27s%20tallest%20buildings"
+        },
+        {
+          "keyword": "netflix top movies right now",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Fri, 4 Sep 2026 23:50:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=netflix%20top%20movies%20right%20now"
+        },
+        {
+          "keyword": "los angeles",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Fri, 4 Sep 2026 23:10:00 -0700",
+          "source_name": "ABC7 Los Angeles",
+          "url": "https://trends.google.com/trending?geo=US&q=los%20angeles"
+        },
+        {
+          "keyword": "onimusha",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Fri, 4 Sep 2026 23:00:00 -0700",
+          "source_name": "Game Informer",
+          "url": "https://trends.google.com/trending?geo=US&q=onimusha"
+        },
+        {
+          "keyword": "nursulton ruziboev",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Fri, 4 Sep 2026 23:50:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=nursulton%20ruziboev"
         }
       ]
     },

@@ -2,7 +2,7 @@
 title: "Record 217 · Controlled-time-domain-beating-via-parametric-normal-mode-splitting-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.048746+00:00
+updated_at: 2026-09-05T07:05:24.953049+00:00
 tags: [record, real-data]
 ---
 

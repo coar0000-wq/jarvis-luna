@@ -2,7 +2,7 @@
 title: "Record 596 · The-investor-base-for-sovereign-debt-Why-diversification-matters"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.140502+00:00
+updated_at: 2026-09-05T07:05:25.035910+00:00
 tags: [record, real-data]
 ---
 

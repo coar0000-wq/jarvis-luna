@@ -2,7 +2,7 @@
 title: "Record 293 · Earliest-iron-blooms-discovered-off-the-Carmel-coast-revise-Mediterran"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.067089+00:00
+updated_at: 2026-09-05T07:05:24.970638+00:00
 tags: [record, real-data]
 ---
 

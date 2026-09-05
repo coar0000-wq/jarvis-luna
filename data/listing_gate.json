@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T02:23:05.285655+00:00",
+  "generated_at": "2026-09-05T07:04:18.008471+00:00",
   "generator": "scripts/build_listing_gate.py",
   "규칙": "listing_ready = copy_ok AND gosi_ok AND price_ok AND legal_ok",
   "근거": {
@@ -9,18 +9,19 @@
     "legal_ok": "legal_products.json 의 status 가 pass (사람만 변경)"
   },
   "target": "S등급",
-  "total": 14,
+  "total": 13,
   "ready": 0,
   "counts": {
-    "copy": 14,
+    "copy": 12,
     "gosi": 0,
     "price": 0,
     "legal": 0
   },
   "blockers": {
-    "gosi": 14,
-    "price": 14,
-    "legal": 14
+    "gosi": 13,
+    "price": 13,
+    "legal": 13,
+    "copy": 1
   },
   "unreadable": [],
   "items": [
@@ -121,16 +122,17 @@
       ]
     },
     {
-      "pd_no": "1059834",
-      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "pd_no": "1059832",
+      "name": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
       "grade": "S",
-      "shopify_score": 92,
-      "copy_ok": true,
+      "shopify_score": 93,
+      "copy_ok": false,
       "gosi_ok": false,
       "price_ok": false,
       "legal_ok": false,
       "listing_ready": false,
       "blocked_by": [
+        "copy",
         "gosi",
         "price",
         "legal"
@@ -172,7 +174,7 @@
       "pd_no": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "grade": "S",
-      "shopify_score": 89,
+      "shopify_score": 90,
       "copy_ok": true,
       "gosi_ok": false,
       "price_ok": false,
@@ -220,23 +222,7 @@
       "pd_no": "1067024",
       "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
       "grade": "S",
-      "shopify_score": 86,
-      "copy_ok": true,
-      "gosi_ok": false,
-      "price_ok": false,
-      "legal_ok": false,
-      "listing_ready": false,
-      "blocked_by": [
-        "gosi",
-        "price",
-        "legal"
-      ]
-    },
-    {
-      "pd_no": "1057223",
-      "name": "태그 핑크 라이트 선쿠션 15 g",
-      "grade": "S",
-      "shopify_score": 84,
+      "shopify_score": 87,
       "copy_ok": true,
       "gosi_ok": false,
       "price_ok": false,

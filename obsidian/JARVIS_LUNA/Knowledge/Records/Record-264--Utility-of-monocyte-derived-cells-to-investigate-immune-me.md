@@ -2,7 +2,7 @@
 title: "Record 264 · Utility-of-monocyte-derived-cells-to-investigate-immune-mediated-drug-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.059482+00:00
+updated_at: 2026-09-05T07:05:24.963368+00:00
 tags: [record, real-data]
 ---
 

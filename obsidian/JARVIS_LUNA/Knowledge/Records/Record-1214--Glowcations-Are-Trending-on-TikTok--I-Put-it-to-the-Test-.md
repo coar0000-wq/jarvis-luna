@@ -2,7 +2,7 @@
 title: "Record 1214 · Glowcations-Are-Trending-on-TikTok--I-Put-it-to-the-Test-at-Coachella-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.277725+00:00
+updated_at: 2026-09-05T07:05:25.166672+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMif0FVX3lxTFBINEcxQ2VXdjRLVWliaFVHeTFTZmQ3d2EtZW83MzA0aHlIN1JHaGdSd3RXSTVvNE5USkpPRXU3WnBQZkY0WUZfZzdrRngxVUJmWHZIYVBEVW9ybS1JcWExRmREZl9tYWtaZnNNX00weS12MEtzaDJzblpZQ04xaUE?oc=5)
 
-**제목:** "Glowcations" Are Trending on TikTok — I Put it to the Test at Coachella - popsugar.com
+**제목:** "Glowcations" Are Trending on TikTok — I Put it to the Test at Coachella - Popsugar
 
-"Glowcations" Are Trending on TikTok — I Put it to the Test at Coachella - popsugar.com
+"Glowcations" Are Trending on TikTok — I Put it to the Test at Coachella - Popsugar
 
 **출처:** Source · Google Search
 

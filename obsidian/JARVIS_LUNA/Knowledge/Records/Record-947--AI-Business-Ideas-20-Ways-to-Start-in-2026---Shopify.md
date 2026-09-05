@@ -2,7 +2,7 @@
 title: "Record 947 · AI-Business-Ideas-20-Ways-to-Start-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.220006+00:00
+updated_at: 2026-09-05T07:05:25.112364+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 192 · CMB-Net-A-Clinically-Modulated-Boundary-Aware-Network-for-Anatomical-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.043172+00:00
+updated_at: 2026-09-05T07:05:24.947601+00:00
 tags: [record, real-data]
 ---
 

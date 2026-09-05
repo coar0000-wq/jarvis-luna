@@ -2,7 +2,7 @@
 title: "Record 1273 · Cosmetics-Business-reveals-the-top-5-K-beauty-trends-of-2026-in-new-re"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.290505+00:00
+updated_at: 2026-09-05T07:05:25.179118+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 890 · k-beauty---Womans-World"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.208171+00:00
+updated_at: 2026-09-05T07:05:25.101134+00:00
 tags: [record, real-data]
 ---
 

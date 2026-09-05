@@ -2,7 +2,7 @@
 title: "Record 711 · AI-Enabled-Emergency-Communication-Networks-Transforming-Crisis-Respon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.166089+00:00
+updated_at: 2026-09-05T07:05:25.060273+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 536 · Smart-Bond-Contract-Pilot-Forensics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.125373+00:00
+updated_at: 2026-09-05T07:05:25.022778+00:00
 tags: [record, real-data]
 ---
 

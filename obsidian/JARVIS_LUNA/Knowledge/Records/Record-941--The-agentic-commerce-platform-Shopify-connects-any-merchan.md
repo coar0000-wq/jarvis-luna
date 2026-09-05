@@ -2,7 +2,7 @@
 title: "Record 941 · The-agentic-commerce-platform-Shopify-connects-any-merchant-to-every-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.218756+00:00
+updated_at: 2026-09-05T07:05:25.111191+00:00
 tags: [record, real-data]
 ---
 

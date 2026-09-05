@@ -2,7 +2,7 @@
 title: "Record 1101 · Shopify-exceeds-100-million-as-revenue-and-AI-metrics-grow-in-Q1-earni"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.253095+00:00
+updated_at: 2026-09-05T07:05:25.143490+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMicEFVX3lxTE1tdlhEQ0ZaZmpiTU1NVUZmZW9oOWFhVXFiWE9MOENrUUZGTkY0NG9Bei1RaERoUml3dGF4c01WWHM2eE1vQkhGd1k2SjU1bUFfTElELWt5am5adW9hQ1NwdzVTcXd3S3QtT1RFcVloa0LSAXZBVV95cUxOeU45RGZkYWtvNUFqUE5VVWxfbGoxOC1zN0VkMEtBLXVNbzA1c2p2OTQ2QU9ET1FBOUxlc2hIVGVkY2tWbDA2dkpnQUZKSG92WGptSnQyRjlScmhnSDhlYTNRZG5obUk3SjBpbW1pMWpLa2sxNzZ3?oc=5)
 
-**제목:** Shopify exceeds $100 million as revenue and AI metrics grow in Q1 earnings results - Digital Commerce 360
+**제목:** Shopify exceeds $100 million as revenue and AI metrics grow in Q1 earnings results - digitalcommerce360.com
 
-Shopify exceeds $100 million as revenue and AI metrics grow in Q1 earnings results - Digital Commerce 360
+Shopify exceeds $100 million as revenue and AI metrics grow in Q1 earnings results - digitalcommerce360.com
 
 **출처:** Source · Google Search
 

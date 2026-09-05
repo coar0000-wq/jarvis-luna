@@ -2,7 +2,7 @@
 title: "Record 1154 · 16-Best-Korean-Face-Masks-For-Glowing-Skin---Harpers-Bazaar-Singapore"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.264637+00:00
+updated_at: 2026-09-05T07:05:25.154340+00:00
 tags: [record, real-data]
 ---
 

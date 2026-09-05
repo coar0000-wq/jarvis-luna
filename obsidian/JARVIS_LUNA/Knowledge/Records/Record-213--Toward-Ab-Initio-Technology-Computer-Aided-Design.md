@@ -2,7 +2,7 @@
 title: "Record 213 · Toward-Ab-Initio-Technology-Computer-Aided-Design"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.047834+00:00
+updated_at: 2026-09-05T07:05:24.952108+00:00
 tags: [record, real-data]
 ---
 

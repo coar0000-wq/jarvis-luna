@@ -1,18 +1,18 @@
 ---
-title: "Record 1518 · Driven-by-TikTok-trends-new-beauty-brands-target-children---FashionNet"
+title: "Record 1518 · Driven-by-TikTok-trends-new-beauty-brands-target-children---canadianaf"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T13:43:53.581190+00:00
+updated_at: 2026-09-05T07:05:25.229141+00:00
 tags: [record, real-data]
 ---
 
-# Record 1518 · Driven-by-TikTok-trends-new-beauty-brands-target-children---FashionNet
+# Record 1518 · Driven-by-TikTok-trends-new-beauty-brands-target-children---canadianaf
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeFNSQ0R1UEZ5SjctZF9nd1V0TGVaVmM4STRHOWU5NUpVOXpBOWNzcWZxdk1Rb1hjYnY3NlhIaXFTVVVPWklpWTdFRHlMcy1fLWJlem9NdGVTZHZUclI5TmxRUnB3ZFNyYXZwWFRiekNlekNmbVQzRzBheVlvd0RpbzR2a01VX1d5WmZmQzdtcEdkRTgyYUp2THhDd1R4c0FTV2FXTzRvVWo?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMipAFBVV95cUxNeVhray02UG9HQ2oybGRNTmxTT1YwOS0wazFJZXRiZkFZQ3VZbGF0WE9aT3FjdGZTYTRJNDUxeVg0eUYxZy1hUnVtelo3X19sMTZwc00xX2JQY1BXT0tYX1ZxdFphSmxnQVpUY25RYjlOOEFVQzBqdGdNOTAxdS1uU0JiZDd4N0c3UTJkdGExUm5YYk04X3gzNDRpd2VuWnFHMzdVRQ?oc=5)
 
-**제목:** Driven by TikTok trends, new beauty brands target children - FashionNetwork USA
+**제목:** Driven by TikTok trends, new beauty brands target children - canadianaffairs.news
 
-Driven by TikTok trends, new beauty brands target children - FashionNetwork USA
+Driven by TikTok trends, new beauty brands target children - canadianaffairs.news
 
 **출처:** Source · Google Search
 

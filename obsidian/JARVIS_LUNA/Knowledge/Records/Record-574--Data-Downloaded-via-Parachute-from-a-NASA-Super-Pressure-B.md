@@ -2,7 +2,7 @@
 title: "Record 574 · Data-Downloaded-via-Parachute-from-a-NASA-Super-Pressure-Balloon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.135011+00:00
+updated_at: 2026-09-05T07:05:25.031121+00:00
 tags: [record, real-data]
 ---
 

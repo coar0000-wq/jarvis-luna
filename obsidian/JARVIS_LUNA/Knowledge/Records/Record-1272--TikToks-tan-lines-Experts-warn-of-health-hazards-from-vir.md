@@ -2,7 +2,7 @@
 title: "Record 1272 · TikToks-tan-lines-Experts-warn-of-health-hazards-from-viral-skin-care-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.290291+00:00
+updated_at: 2026-09-05T07:05:25.178898+00:00
 tags: [record, real-data]
 ---
 

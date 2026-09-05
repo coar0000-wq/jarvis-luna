@@ -2,7 +2,7 @@
 title: "Record 1149 · Exclusive-K-beautys-Nooni-to-make-US-retail-debut-with-Target---Cosmet"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.263535+00:00
+updated_at: 2026-09-05T07:05:25.153289+00:00
 tags: [record, real-data]
 ---
 

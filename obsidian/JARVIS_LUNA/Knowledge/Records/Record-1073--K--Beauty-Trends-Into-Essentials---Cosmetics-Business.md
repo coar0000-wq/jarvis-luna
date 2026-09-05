@@ -2,7 +2,7 @@
 title: "Record 1073 · K--Beauty-Trends-Into-Essentials---Cosmetics-Business"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.246960+00:00
+updated_at: 2026-09-05T07:05:25.137692+00:00
 tags: [record, real-data]
 ---
 

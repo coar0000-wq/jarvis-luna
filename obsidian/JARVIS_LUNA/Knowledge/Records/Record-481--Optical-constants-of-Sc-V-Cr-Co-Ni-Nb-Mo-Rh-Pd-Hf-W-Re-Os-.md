@@ -2,7 +2,7 @@
 title: "Record 481 · Optical-constants-of-Sc-V-Cr-Co-Ni-Nb-Mo-Rh-Pd-Hf-W-Re-Os-Ir-Pt-Au-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.111536+00:00
+updated_at: 2026-09-05T07:05:25.010774+00:00
 tags: [record, real-data]
 ---
 

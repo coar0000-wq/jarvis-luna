@@ -2,7 +2,7 @@
 title: "Record 746 · Optimization-and-Accuracy-Improvement-of-Power-Forecasting-Models-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.174037+00:00
+updated_at: 2026-09-05T07:05:25.068015+00:00
 tags: [record, real-data]
 ---
 
