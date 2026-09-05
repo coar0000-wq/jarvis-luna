@@ -1,14 +1,43 @@
 {
-  "generated_at": "2026-08-31T11:06:01.608524+00:00",
+  "generated_at": "2026-09-05T01:38:03.649883+00:00",
   "generator": "scripts/gemini_listing_copy.py",
   "model": "gemini-flash-lite-latest",
-  "model_selection": "ListModels 자동 선택 (39개 중)",
+  "model_selection": "ListModels 자동 선택 (40개 중)",
   "source": "data/daiso_real/shopify_s_recommendations.json (다이소 실크롤링 S등급)",
   "note": "영문 카피는 Gemini 생성물이므로 게시 전 사람이 검수해야 한다. 실패한 항목은 비워 두며 스크립트가 대체 문구를 지어내지 않는다.",
-  "total": 10,
-  "ok": 10,
+  "total": 14,
+  "ok": 14,
   "failed": 0,
   "items": [
+    {
+      "pd_no": "1048583",
+      "name_ko": "드롭비 탄탄 광채 앰플 40 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 1197,
+      "shopify_score": 97,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048583",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/GuN4uykABHahtwRmVfHO1048583_00_00GuN4uykABHahtwRmVfHO.png",
+      "copy": {
+        "title": "Drop B Firming Glow Ampoule 40ml",
+        "description_html": "<p>Experience the Drop B Firming Glow Ampoule in a convenient 40ml size designed for your daily skincare routine.</p><p>Apply gently to the skin to help maintain a radiant and smooth appearance every day.</p>",
+        "seo_title": "Drop B Firming Glow Ampoule 40ml",
+        "seo_description": "Discover the Drop B Firming Glow Ampoule 40ml for a radiant and smooth complexion. Simple skincare for your daily routine.",
+        "tags": [
+          "drop-b",
+          "glow-ampoule",
+          "face-serum",
+          "korean-skincare",
+          "firming-ampoule",
+          "k-beauty",
+          "facial-serum"
+        ],
+        "product_type": "Face Serum"
+      },
+      "copy_status": "ok",
+      "error": ""
+    },
     {
       "pd_no": "1045146",
       "name_ko": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
@@ -20,20 +49,50 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045146",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250425/ATDev4SQOg7J1IEOb9j01045146_00_01ATDev4SQOg7J1IEOb9j0.jpg",
       "copy": {
-        "title": "Vprove Marine Mineral Mild Sun Cream SPF50+ PA++++ 50 ml",
-        "description_html": "<p>Discover the Vprove Marine Mineral Mild Sun Cream, featuring a gentle mineral formula designed for daily sun protection. With a high rating of SPF50+ PA++++, it helps shield your skin from harmful UV rays while maintaining a lightweight feel.</p><p>This 50 ml sunscreen is formulated for easy application and everyday wear, making it a simple addition to your daily skincare routine.</p>",
-        "seo_title": "Vprove Marine Mineral Mild Sun Cream SPF50+ PA++++ 50 ml",
-        "seo_description": "Protect your skin with Vprove Marine Mineral Mild Sun Cream SPF50+ PA++++ 50 ml. A gentle mineral sunscreen offering reliable daily UV defense.",
+        "title": "Vprove Marine Mild Mineral Sunscreen SPF50+ PA++++ 50 ml",
+        "description_html": "<p>Discover the Vprove Marine Mild Mineral Sunscreen, featuring an SPF50+ PA++++ formula designed for daily sun protection. This gentle physical sunscreen helps shield your skin from UV rays.</p><p>Presented in a convenient 50 ml size, it offers a comfortable, lightweight application suitable for your daily skincare routine.</p>",
+        "seo_title": "Vprove Marine Mild Mineral Sunscreen SPF50+ 50 ml",
+        "seo_description": "Protect your skin with Vprove Marine Mild Mineral Sunscreen SPF50+ PA++++. A gentle physical sunscreen in a 50 ml size for daily UV defense.",
         "tags": [
-          "mineral-sunscreen",
-          "korean-sunscreen",
-          "spf50",
-          "sun-cream",
           "vprove",
-          "k-beauty",
-          "face-sunscreen"
+          "mineral-sunscreen",
+          "physical-sunscreen",
+          "spf50",
+          "korean-sunscreen",
+          "sun-care",
+          "face-sunscreen",
+          "mild-sunscreen"
         ],
         "product_type": "Sunscreen"
+      },
+      "copy_status": "ok",
+      "error": ""
+    },
+    {
+      "pd_no": "1049271",
+      "name_ko": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 1765,
+      "shopify_score": 96,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/nWv2JvG9ZseKOt8YvImo1049271_00_01nWv2JvG9ZseKOt8YvImo.jpg",
+      "copy": {
+        "title": "VT Cica Calming Toner 300 ml",
+        "description_html": "<p>Discover the refreshing hydration of VT Cica Calming Toner, formulated in a generous 300 ml size.</p><p>This soothing toner helps prep your skin daily, leaving it feeling balanced and comfortable.</p>",
+        "seo_title": "VT Cica Calming Toner 300 ml",
+        "seo_description": "Refresh and hydrate your skin with VT Cica Calming Toner 300 ml. A soothing facial toner for daily skincare routines.",
+        "tags": [
+          "vt-cica",
+          "cica-toner",
+          "calming-toner",
+          "korean-toner",
+          "facial-toner",
+          "skincare",
+          "vt-cosmetics"
+        ],
+        "product_type": "Toner"
       },
       "copy_status": "ok",
       "error": ""
@@ -45,21 +104,22 @@
       "price_krw": 5000,
       "rating": 4.7,
       "review_count": 1595,
-      "shopify_score": 91,
+      "shopify_score": 96,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/dGPcdv5GMSvAapO6LS5d1048581_00_00dGPcdv5GMSvAapO6LS5d.png",
       "copy": {
-        "title": "Drop B Blemish Clear Ampoule 40ml",
-        "description_html": "<p>Discover the Drop B Blemish Clear Ampoule in a convenient 40ml size designed for your daily skincare routine.</p><p>Add this lightweight face serum to your collection for a fresh and balanced look every day.</p>",
-        "seo_title": "Drop B Blemish Clear Ampoule 40ml",
-        "seo_description": "Shop the Drop B Blemish Clear Ampoule 40ml. A lightweight facial serum for your daily K-beauty skincare routine.",
+        "title": "DropB Blemish Clear Ampoule 40ml",
+        "description_html": "<p>Discover the DropB Blemish Clear Ampoule in a convenient 40ml size, designed to help you maintain a clear and vibrant complexion.</p><p>This gentle facial ampoule is easy to incorporate into your daily skincare routine for a fresh and polished look.</p>",
+        "seo_title": "DropB Blemish Clear Ampoule 40ml",
+        "seo_description": "Shop the DropB Blemish Clear Ampoule 40ml for a fresh and clear complexion. A lightweight addition to your daily skincare routine.",
         "tags": [
-          "drop-b",
-          "blemish-ampoule",
-          "face-serum",
+          "dropb",
+          "blemish-clear-ampoule",
           "korean-skincare",
+          "face-serum",
+          "facial-ampoule",
           "k-beauty",
-          "facial-ampoule"
+          "skincare-routine"
         ],
         "product_type": "Face Serum"
       },
@@ -67,60 +127,30 @@
       "error": ""
     },
     {
-      "pd_no": "1041403",
-      "name_ko": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "pd_no": "1075857",
+      "name_ko": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
       "bucket": "스킨케어",
-      "price_krw": 5000,
+      "price_krw": 2000,
       "rating": 4.8,
-      "review_count": 938,
-      "shopify_score": 90,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
+      "review_count": 701,
+      "shopify_score": 94,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
       "copy": {
-        "title": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml",
-        "description_html": "<p>Discover the refreshing benefits of Chaebigonggan Heartleaf Extract Vegan Toner, formulated in a convenient 150 ml size.</p><p>This gentle vegan toner helps hydrate and refresh your daily skincare routine.</p>",
-        "seo_title": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml",
-        "seo_description": "Refresh your skin with Chaebigonggan Heartleaf Extract Vegan Toner 150 ml. A gentle vegan facial toner for your daily skincare routine.",
+        "title": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea",
+        "description_html": "<p>Experience the Celderma Daily PDRN Radiance Cream Wrapping Mask, designed to help deliver a radiant glow to your skin. This convenient single-sheet mask is easy to apply and fits comfortably for daily skincare routines.</p><p>Incorporate this cream wrapping mask into your regular skincare regimen to help maintain a smooth and luminous complexion. Perfect for giving your skin a fresh and polished look anytime.</p>",
+        "seo_title": "Celderma Daily PDRN Radiance Cream Wrapping Mask",
+        "seo_description": "Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask for a radiant and glowing complexion. Convenient single sheet mask for daily skincare.",
         "tags": [
-          "toner",
-          "vegan-toner",
-          "heartleaf-toner",
-          "k-beauty",
-          "facial-toner",
-          "skincare",
-          "chaebigonggan"
-        ],
-        "product_type": "Toner"
-      },
-      "copy_status": "ok",
-      "error": ""
-    },
-    {
-      "pd_no": "1060494",
-      "name_ko": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 755,
-      "shopify_score": 90,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060494",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260618/cK9o5Yum5W5qX59za4jy1060494_00_01cK9o5Yum5W5qX59za4jy.jpg",
-      "copy": {
-        "title": "Honest Lab True Lab Angeling Oil Essence 60 ml",
-        "description_html": "<p>Discover the Honest Lab True Lab Angeling Oil Essence in a convenient 60 ml size. This nourishing formula helps keep your skin feeling smooth and looking radiant throughout the day.</p><p>Add this delightful oil essence to your daily skincare routine for an effortless, glowing finish. Perfect for daily use and suitable for all skin types.</p>",
-        "seo_title": "True Lab Angeling Oil Essence 60 ml | Skincare",
-        "seo_description": "Shop the Honest Lab True Lab Angeling Oil Essence 60 ml. A nourishing oil essence designed to give your skin a radiant glow as part of your daily routine.",
-        "tags": [
-          "oil-essence",
-          "face-essence",
+          "celderma",
+          "pdrn-mask",
+          "radiance-cream",
+          "wrapping-mask",
           "korean-skincare",
-          "true-lab",
-          "honest-lab",
-          "facial-oil",
-          "k-beauty",
-          "skincare-routine"
+          "sheet-mask",
+          "facial-mask"
         ],
-        "product_type": "Face Essence"
+        "product_type": "Face Mask"
       },
       "copy_status": "ok",
       "error": ""
@@ -132,24 +162,52 @@
       "price_krw": 5000,
       "rating": 4.8,
       "review_count": 241,
-      "shopify_score": 90,
+      "shopify_score": 93,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068776",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250814/kDp8f0Zwxqfnlp3FmmwS1068776_00_01kDp8f0Zwxqfnlp3FmmwS.png",
       "copy": {
         "title": "SCINIC Power Homme Watery Sun Cream 50 ml",
-        "description_html": "<p>SCINIC Power Homme Watery Sun Cream is designed for men's daily skincare routine. This 50 ml watery formula offers comfortable sun protection without a heavy feel.</p><p>Apply gently to the face as the final step of your skincare routine before sun exposure for a fresh finish.</p>",
+        "description_html": "<p>Discover the SCINIC Power Homme Watery Sun Cream in a convenient 50 ml size, designed for daily sun protection. This lightweight formula absorbs smoothly to help shield your skin from the sun.</p><p>Incorporate this refreshing watery sun cream into your daily skincare routine for effortless protection and a comfortable, non-greasy feel throughout the day.</p>",
         "seo_title": "SCINIC Power Homme Watery Sun Cream 50 ml",
-        "seo_description": "Shop SCINIC Power Homme Watery Sun Cream 50 ml for men. A refreshing watery sunscreen formula for daily sun protection.",
+        "seo_description": "Shop the SCINIC Power Homme Watery Sun Cream 50 ml for daily sun protection. Lightweight and refreshing watery formula for your skincare routine.",
         "tags": [
           "scinic",
-          "mens-sunscreen",
+          "power-homme",
           "watery-sun-cream",
           "korean-sunscreen",
-          "k-beauty",
-          "sun-protection",
-          "face-sunscreen"
+          "mens-sunscreen",
+          "face-sunscreen",
+          "skincare"
         ],
         "product_type": "Sunscreen"
+      },
+      "copy_status": "ok",
+      "error": ""
+    },
+    {
+      "pd_no": "1059834",
+      "name_ko": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "bucket": "마스크팩",
+      "price_krw": 2000,
+      "rating": 4.8,
+      "review_count": 1687,
+      "shopify_score": 92,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
+      "copy": {
+        "title": "Celderma Daily Transforming Firming Collagen Mask 28g",
+        "description_html": "<p>Discover the Celderma Daily Transforming Firming Collagen Mask, designed to give your daily skincare routine a refreshing boost. This 28g sheet mask delivers convenient and soothing care for your skin.</p><p>Simply apply to clean skin, relax, and let the collagen-infused formula help refresh your complexion. Perfect for an easy at-home spa experience.</p>",
+        "seo_title": "Celderma Daily Transforming Firming Collagen Mask 28g",
+        "seo_description": "Revitalize your skin with the Celderma Daily Transforming Firming Collagen Mask 28g. A simple and refreshing addition to your daily K-beauty routine.",
+        "tags": [
+          "celderma",
+          "sheet-mask",
+          "collagen-mask",
+          "korean-beauty",
+          "facial-mask",
+          "skincare"
+        ],
+        "product_type": "Face Mask"
       },
       "copy_status": "ok",
       "error": ""
@@ -161,22 +219,22 @@
       "price_krw": 5000,
       "rating": 4.8,
       "review_count": 491,
-      "shopify_score": 89,
+      "shopify_score": 92,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250404/6HrSkUDbK4Z2Mx8SUSMH1062781_00_016HrSkUDbK4Z2Mx8SUSMH.jpg",
       "copy": {
         "title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
-        "description_html": "<p>Discover the Cell Fusion C Derma Block PDRN Collagen Cream in a convenient 50 ml size. This skincare essential features a specialized formula designed to complement your daily routine.</p><p>Incorporate this collagen and PDRN cream into your morning and evening regimen for a well-hydrated and refreshed look.</p>",
+        "description_html": "<p>Discover the Cell Fusion C Derma Block PDRN Collagen Cream in a convenient 50 ml size. Formulated with PDRN and collagen, this daily face cream provides essential moisture for your skincare routine.</p><p>Smooth onto clean skin morning and night for a hydrated and refreshed look. Suitable for all skin types looking to add nourishing hydration.</p>",
         "seo_title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
-        "seo_description": "Shop Cell Fusion C Derma Block PDRN Collagen Cream 50ml. A nourishing Korean skincare cream featuring PDRN and collagen for daily hydration.",
+        "seo_description": "Shop Cell Fusion C Derma Block PDRN Collagen Cream 50ml. A hydrating face cream formulated with PDRN and collagen for daily skincare.",
         "tags": [
           "cell-fusion-c",
           "pdrn-cream",
           "collagen-cream",
           "korean-skincare",
           "face-cream",
-          "derma-block",
-          "hydrating-cream"
+          "moisturizer",
+          "k-beauty"
         ],
         "product_type": "Face Cream"
       },
@@ -184,117 +242,174 @@
       "error": ""
     },
     {
-      "pd_no": "1072803",
-      "name_ko": "케어존플러스 모공탄력 수분크림 75 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 444,
-      "shopify_score": 89,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072803",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/fl8r5kf7zGvUJIW3EzNa1072803_00_01fl8r5kf7zGvUJIW3EzNa.jpg",
-      "copy": {
-        "title": "Carezone Plus Pore Firming Moisture Cream 75ml",
-        "description_html": "<p>Carezone Plus Pore Firming Moisture Cream delivers lightweight hydration to the skin. This 75ml daily face cream helps support a balanced and refreshed complexion.</p><p>Smooth a suitable amount evenly over the face as part of your daily skincare routine for a hydrated feel.</p>",
-        "seo_title": "Carezone Plus Pore Firming Moisture Cream 75ml",
-        "seo_description": "Shop Carezone Plus Pore Firming Moisture Cream 75ml. A refreshing daily facial moisturizer for balanced hydration.",
-        "tags": [
-          "carezone",
-          "pore-cream",
-          "moisture-cream",
-          "facial-moisturizer",
-          "k-beauty",
-          "skincare",
-          "hydrating-cream"
-        ],
-        "product_type": "Moisturizer"
-      },
-      "copy_status": "ok",
-      "error": ""
-    },
-    {
-      "pd_no": "1064529",
-      "name_ko": "더마블록 무기자차선크림 35 ml (by 셀퓨전씨)",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "rating": 4.6,
-      "review_count": 349,
-      "shopify_score": 89,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064529",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260429/tbdC47YquykbvmA7Ujmi1064529_00_00tbdC47YquykbvmA7Ujmi.jpg",
-      "copy": {
-        "title": "Derma Block Mineral Sunscreen 35 ml",
-        "description_html": "<p>Discover the Derma Block Mineral Sunscreen in a convenient 35 ml size, designed for your daily skincare routine.</p><p>This physical sunscreen offers gentle sun protection, perfect for everyday use on your face.</p>",
-        "seo_title": "Derma Block Mineral Sunscreen 35 ml",
-        "seo_description": "Shop the Derma Block Mineral Sunscreen 35 ml for gentle daily sun protection. A must-have addition to your K-beauty skincare routine.",
-        "tags": [
-          "mineral-sunscreen",
-          "physical-sunscreen",
-          "korean-sunscreen",
-          "k-beauty",
-          "skincare",
-          "face-sunscreen",
-          "sun-protection"
-        ],
-        "product_type": "Sunscreen"
-      },
-      "copy_status": "ok",
-      "error": ""
-    },
-    {
-      "pd_no": "1035210",
-      "name_ko": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
-      "bucket": "스킨케어",
+      "pd_no": "1060487",
+      "name_ko": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
       "price_krw": 3000,
       "rating": 4.8,
-      "review_count": 1107,
-      "shopify_score": 87,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035210",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251113/xlpZA0qPNWmZjW7JJmY31035210_00_01xlpZA0qPNWmZjW7JJmY3.png",
+      "review_count": 1663,
+      "shopify_score": 92,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060487",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/H4aAY1oXhdnLm8POPll11060487_00_00H4aAY1oXhdnLm8POPll1.jpg",
       "copy": {
-        "title": "Oryx Elegance All In One Skin & Lotion 410 ml",
-        "description_html": "<p>Discover the convenience of the Oryx Elegance All In One Skin & Lotion in a generous 410 ml size. This multi-purpose formula combines both skincare steps into one easy application for your daily routine.</p><p>Designed for effortless daily care, it helps keep your skin feeling refreshed and well-hydrated throughout the day.</p>",
-        "seo_title": "Oryx Elegance All In One Skin & Lotion 410 ml",
-        "seo_description": "Shop Oryx Elegance All In One Skin & Lotion 410 ml. A convenient multi-purpose skincare product for easy daily hydration.",
+        "title": "Medipeel Lacto Pore Lifting Wrapping Mask 4ml 4pk",
+        "description_html": "<p>Experience the Medi-Peel Lacto Pore Lifting Wrapping Mask, conveniently packaged in a 4-pack of 4ml sizes. This specialized facial mask is designed for your regular skincare routine.</p><p>Apply the wrapping mask smoothly to clean skin as directed, let it set, and gently remove it to help refine the look of your facial pores.</p>",
+        "seo_title": "Medi-Peel Lacto Pore Lifting Wrapping Mask 4ml 4 Pack",
+        "seo_description": "Shop the Medi-Peel Lacto Pore Lifting Wrapping Mask 4ml 4-pack from Korea. A convenient facial mask designed to help refine and care for skin pores.",
         "tags": [
+          "medi-peel",
+          "pore-mask",
+          "wrapping-mask",
           "k-beauty",
-          "all-in-one",
-          "skin-and-lotion",
-          "oryx-elegance",
-          "facial-lotion",
+          "face-mask",
           "korean-skincare",
-          "hydrating-lotion"
+          "peel-off-mask"
         ],
-        "product_type": "Face Lotion"
+        "product_type": "Face Mask"
       },
       "copy_status": "ok",
       "error": ""
     },
     {
-      "pd_no": "1044110",
-      "name_ko": "존슨즈 베이비 로션 핑크 200ml",
+      "pd_no": "1041403",
+      "name_ko": "채비공간 어성초 추출물 비건 토너 150 ml",
       "bucket": "스킨케어",
       "price_krw": 5000,
       "rating": 4.8,
-      "review_count": 511,
-      "shopify_score": 87,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044110",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260528/RUWg8ca0PGSfLkoJw2QX1044110_00_00RUWg8ca0PGSfLkoJw2QX.png",
+      "review_count": 938,
+      "shopify_score": 89,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
       "copy": {
-        "title": "Johnson's Baby Lotion Pink 200ml",
-        "description_html": "<p>Discover the gentle care of Johnson's Baby Lotion Pink in a convenient 200ml size, designed for everyday moisturizing.</p><p>This classic formula helps keep skin feeling soft, smooth, and comfortably hydrated throughout the day.</p>",
-        "seo_title": "Johnson's Baby Lotion Pink 200ml",
-        "seo_description": "Shop Johnson's Baby Lotion Pink 200ml for gentle daily moisturizing. Keep your skin feeling soft, smooth, and hydrated.",
+        "title": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml",
+        "description_html": "<p>Discover the refreshing benefits of Chaebigonggan Heartleaf Extract Vegan Toner, formulated with heartleaf extract in a 150 ml size.</p><p>Incorporating this gentle vegan toner into your daily routine helps hydrate and refresh your skin effortlessly.</p>",
+        "seo_title": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml",
+        "seo_description": "Shop the Chaebigonggan Heartleaf Extract Vegan Toner 150 ml for a refreshing addition to your daily skincare routine.",
         "tags": [
-          "johnsons-baby-lotion",
-          "baby-lotion",
-          "pink-lotion",
-          "body-lotion",
-          "moisturizing-lotion",
-          "k-beauty-skincare",
-          "200ml"
+          "toner",
+          "vegan-toner",
+          "heartleaf-toner",
+          "korean-skincare",
+          "facial-toner",
+          "chaebigonggan",
+          "skincare"
         ],
-        "product_type": "Body Lotion"
+        "product_type": "Toner"
+      },
+      "copy_status": "ok",
+      "error": ""
+    },
+    {
+      "pd_no": "1070006",
+      "name_ko": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
+      "bucket": "스킨케어",
+      "price_krw": 3000,
+      "rating": 4.6,
+      "review_count": 177,
+      "shopify_score": 89,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1070006",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251030/kalM4RkxRJNUe3YWQmN51070006_00_01kalM4RkxRJNUe3YWQmN5.jpg",
+      "copy": {
+        "title": "Lenoia Perfume Hair Serum Mist Aqua Sea Salt 80 ml",
+        "description_html": "<p>Refresh and scent your hair with Lenoia Perfume Hair Serum Mist in Aqua Sea Salt. This lightweight 80 ml formula helps keep your hair feeling soft and delicately fragranced throughout the day.</p><p>Simply spray evenly onto hair whenever you need a quick refresh and a touch of pleasant aroma. Perfect for on-the-go styling and everyday hair care.</p>",
+        "seo_title": "Lenoia Perfume Hair Serum Mist Aqua Sea Salt 80 ml",
+        "seo_description": "Discover Lenoia Perfume Hair Serum Mist Aqua Sea Salt 80 ml. A lightweight scented hair mist designed for everyday freshness and soft fragrance.",
+        "tags": [
+          "hair-serum",
+          "hair-mist",
+          "perfume-mist",
+          "hair-fragrance",
+          "aqua-sea-salt",
+          "lenoia-hair-care",
+          "korean-hair-care"
+        ],
+        "product_type": "Hair Mist"
+      },
+      "copy_status": "ok",
+      "error": ""
+    },
+    {
+      "pd_no": "1032881",
+      "name_ko": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
+      "bucket": "마스크팩",
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 759,
+      "shopify_score": 88,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1032881",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260129/qgTdnRguYR6oGojy18Td1032881_00_01qgTdnRguYR6oGojy18Td.jpg",
+      "copy": {
+        "title": "Kerasys Advanced Repair Hair Pack 150 ml",
+        "description_html": "<p>Discover the Kerasys Advanced Repair Hair Pack in a convenient 150 ml size. This hair care essential is designed to fit seamlessly into your regular beauty routine.</p><p>Incorporate this hair pack into your daily regimen for well-maintained and cared-for locks straight from Korea.</p>",
+        "seo_title": "Kerasys Advanced Repair Hair Pack 150 ml",
+        "seo_description": "Shop the Kerasys Advanced Repair Hair Pack 150 ml. A must-have Korean beauty hair care product for your daily routine.",
+        "tags": [
+          "kerasys",
+          "hair-pack",
+          "hair-mask",
+          "korean-beauty",
+          "k-beauty",
+          "hair-care"
+        ],
+        "product_type": "Hair Mask"
+      },
+      "copy_status": "ok",
+      "error": ""
+    },
+    {
+      "pd_no": "1067024",
+      "name_ko": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
+      "bucket": "클렌징",
+      "price_krw": 2000,
+      "rating": 4.8,
+      "review_count": 1078,
+      "shopify_score": 86,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067024",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/2UUKBdK8jzSspPiyY3ul1067024_00_002UUKBdK8jzSspPiyY3ul.png",
+      "copy": {
+        "title": "Point Lemon Sparkling Water No-Wash Cleansing Tissue 30 Sheets",
+        "description_html": "<p>Discover the refreshing convenience of the Point Lemon Sparkling Water No-Wash Cleansing Tissue. This pack contains 30 sheets designed for quick and easy cleansing on the go.</p><p>Formulated with lemon and sparkling water, these tissues gently wipe away makeup and impurities without the need for rinsing with water.</p>",
+        "seo_title": "Point Lemon Sparkling Water No-Wash Cleansing Tissues 30s",
+        "seo_description": "Shop Point Lemon Sparkling Water No-Wash Cleansing Tissue 30 sheets. Convenient, no-rinse facial wipes infused with lemon and sparkling water for quick cleansing.",
+        "tags": [
+          "cleansing-tissues",
+          "makeup-remover",
+          "facial-wipes",
+          "lemon-cleanser",
+          "no-wash-cleansing",
+          "k-beauty-skincare",
+          "travel-cleanser",
+          "point-cleansing"
+        ],
+        "product_type": "Cleansing Tissue"
+      },
+      "copy_status": "ok",
+      "error": ""
+    },
+    {
+      "pd_no": "1057223",
+      "name_ko": "태그 핑크 라이트 선쿠션 15 g",
+      "bucket": "선케어",
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 1170,
+      "shopify_score": 84,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057223",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240923/QryV7GdM5GG60Zul6wET1057223_00_00QryV7GdM5GG60Zul6wET.jpg",
+      "copy": {
+        "title": "Too Faced Pink Light Sun Cushion 15g",
+        "description_html": "<p>Discover the Pink Light Sun Cushion in a convenient 15g size, designed for easy daily sun protection and a brightened look.</p><p>This lightweight sun cushion applies smoothly to the skin, making it simple to reapply throughout the day wherever you go.</p>",
+        "seo_title": "Too Faced Pink Light Sun Cushion 15g",
+        "seo_description": "Shop the Pink Light Sun Cushion 15g for easy daily sun protection and a brightened appearance. Lightweight and convenient for on-the-go application.",
+        "tags": [
+          "sun-cushion",
+          "sun-care",
+          "korean-beauty",
+          "spf-cushion",
+          "pink-light-sun-cushion",
+          "daily-sunscreen"
+        ],
+        "product_type": "Sunscreen"
       },
       "copy_status": "ok",
       "error": ""

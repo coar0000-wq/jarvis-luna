@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-31T11:30:12.451116+00:00",
+  "generated_at": "2026-09-05T01:38:03.705066+00:00",
   "csv": "data/shopify_import.csv",
-  "rows": 10,
+  "rows": 14,
   "skipped": [],
-  "exchange_rate": "1376.6 KRW/USD (2026-08-31) https://open.er-api.com/v6/latest/USD",
+  "exchange_rate": "1348.99 KRW/USD (2026-09-05) https://open.er-api.com/v6/latest/USD",
   "pricing_model": "5개_묶음배송 기준 · 관세 15% - 미국 화장품 HTS 3304 한국산 상호관세 · 우체국 국제통상 소형포장물 미국행 요금표 (ems.epost.go.kr, 2026-08-31 조회)",
   "bundle_assumption": "5개_묶음배송",
-  "sell_price_usd": 19.79,
+  "sell_price_usd": 18.99,
   "compare_at_usd": 24.0,
   "market_benchmark": {
-    "min": 4.25,
-    "p25": 19.79,
+    "min": 7.84,
+    "p25": 18.99,
     "median": 24.0,
     "max": 279.0,
     "n": 100,
-    "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-08-31)"
+    "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-05)"
   },
   "vendor": "MD family",
-  "가격_근거": "Cost per item 은 다이소 원가에 국제배송비와 관세 15% 를 더한 착지원가다. 배송비는 5개_묶음배송 을 전제로 분담한 값이라, 낱개로 팔리면 실제 원가가 더 높다. 판매가 $19.79 는 미국 시장 하위 25% 값이며 Compare-at $24.00 는 시장 중앙값이다.",
+  "가격_근거": "Cost per item 은 다이소 원가에 국제배송비와 관세 15% 를 더한 착지원가다. 배송비는 5개_묶음배송 을 전제로 분담한 값이라, 낱개로 팔리면 실제 원가가 더 높다. 판매가 $18.99 는 미국 시장 하위 25% 값이며 Compare-at $24.00 는 시장 중앙값이다.",
   "게시전_확인사항": [
     "판매가가 5개_묶음배송 전제다. 2개 이상 묶음 구매를 유도하지 못하면 배송비 분담이 깨져 적자가 난다. 무료배송 최소 주문금액을 걸어야 한다.",
     "광고비(CAC)가 계산에 없다. 뷰티 신규 스토어 CAC 를 감안하면 객단가를 올리지 못할 경우 마진이 남지 않는다.",
