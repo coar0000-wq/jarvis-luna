@@ -2,7 +2,7 @@
 title: "Record 1943 · Financial-Sponsors-Global-Credit-Markets"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.948017+00:00
+updated_at: 2026-09-05T02:24:18.451261+00:00
 tags: [record, real-data]
 ---
 

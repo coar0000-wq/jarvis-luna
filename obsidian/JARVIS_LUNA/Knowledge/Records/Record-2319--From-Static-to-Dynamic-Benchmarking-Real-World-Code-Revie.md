@@ -2,7 +2,7 @@
 title: "Record 2319 · From-Static-to-Dynamic-Benchmarking-Real-World-Code-Review-with-MCR-Be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:10.042620+00:00
+updated_at: 2026-09-05T02:24:18.547065+00:00
 tags: [record, real-data]
 ---
 

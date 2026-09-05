@@ -2,7 +2,7 @@
 title: "Record 1520 · Haitian-American-model-teams-up-with-Korean-beauty-entrepreneur-on-ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.848891+00:00
+updated_at: 2026-09-05T02:24:18.349274+00:00
 tags: [record, real-data]
 ---
 

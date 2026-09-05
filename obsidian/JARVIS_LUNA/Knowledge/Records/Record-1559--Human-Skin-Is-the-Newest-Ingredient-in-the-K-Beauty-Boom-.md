@@ -2,7 +2,7 @@
 title: "Record 1559 · Human-Skin-Is-the-Newest-Ingredient-in-the-K-Beauty-Boom---Bloombergco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.857763+00:00
+updated_at: 2026-09-05T02:24:18.357808+00:00
 tags: [record, real-data]
 ---
 

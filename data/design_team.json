@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-04T23:48:24.721630+00:00",
+  "generated_at": "2026-09-05T02:23:05.228908+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -37,7 +37,7 @@
         "source": "IQDtl0Dacjo 4분 Create Product Launch Content",
         "check": "shopify_listing_copy.json",
         "status": "완료",
-        "evidence": "data/shopify_listing_copy.json 10건"
+        "evidence": "data/shopify_listing_copy.json 14건"
       },
       {
         "id": "design-system",

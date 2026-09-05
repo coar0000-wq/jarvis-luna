@@ -2,7 +2,7 @@
 title: "Record 1981 · Trump-Tariffs-Stock-Market-Crash-How-To-Invest"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.956434+00:00
+updated_at: 2026-09-05T02:24:18.459707+00:00
 tags: [record, real-data]
 ---
 

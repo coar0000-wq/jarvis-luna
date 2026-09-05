@@ -2,7 +2,7 @@
 title: "Record 317 · High-transconductance-molybdenum-disulfide-top-gate-transistors-using-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.573404+00:00
+updated_at: 2026-09-05T02:24:18.072474+00:00
 tags: [record, real-data]
 ---
 

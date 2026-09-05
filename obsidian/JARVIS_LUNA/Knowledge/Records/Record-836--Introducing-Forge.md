@@ -2,7 +2,7 @@
 title: "Record 836 · Introducing-Forge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.693620+00:00
+updated_at: 2026-09-05T02:24:18.196187+00:00
 tags: [record, real-data]
 ---
 

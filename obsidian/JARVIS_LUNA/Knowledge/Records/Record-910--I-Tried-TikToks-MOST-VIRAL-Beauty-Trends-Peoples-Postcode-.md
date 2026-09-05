@@ -2,7 +2,7 @@
 title: "Record 910 · I-Tried-TikToks-MOST-VIRAL-Beauty-Trends-Peoples-Postcode-Lottery-ZiKO"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.710518+00:00
+updated_at: 2026-09-05T02:24:18.212264+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1021 · Operational-AI-Explained-Benefits-and-Use-Cases-in-Ecommerce---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.735103+00:00
+updated_at: 2026-09-05T02:24:18.235804+00:00
 tags: [record, real-data]
 ---
 

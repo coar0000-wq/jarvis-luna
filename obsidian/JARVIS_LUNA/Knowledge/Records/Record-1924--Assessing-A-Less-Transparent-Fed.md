@@ -2,7 +2,7 @@
 title: "Record 1924 · Assessing-A-Less-Transparent-Fed"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.944115+00:00
+updated_at: 2026-09-05T02:24:18.447148+00:00
 tags: [record, real-data]
 ---
 

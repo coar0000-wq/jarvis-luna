@@ -2,7 +2,7 @@
 title: "Record 1716 · Generalized-Discrete-Diffusion-with-Self-Correction"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.897130+00:00
+updated_at: 2026-09-05T02:24:18.396152+00:00
 tags: [record, real-data]
 ---
 

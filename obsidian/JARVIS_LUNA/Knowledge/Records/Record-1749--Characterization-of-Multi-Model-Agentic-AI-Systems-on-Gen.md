@@ -2,7 +2,7 @@
 title: "Record 1749 · Characterization-of-Multi-Model-Agentic-AI-Systems-on-General-Tasks-vi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.904619+00:00
+updated_at: 2026-09-05T02:24:18.404172+00:00
 tags: [record, real-data]
 ---
 

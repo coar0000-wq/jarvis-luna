@@ -2,7 +2,7 @@
 title: "Record 2208 · Biosecurity-at-the-frontier"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:10.004638+00:00
+updated_at: 2026-09-05T02:24:18.509092+00:00
 tags: [record, real-data]
 ---
 

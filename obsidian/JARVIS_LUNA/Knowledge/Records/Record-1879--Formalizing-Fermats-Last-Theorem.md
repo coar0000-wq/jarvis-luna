@@ -2,7 +2,7 @@
 title: "Record 1879 · Formalizing-Fermats-Last-Theorem"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.934550+00:00
+updated_at: 2026-09-05T02:24:18.437112+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2003 · JAKA-hits-Teradyne-Robotics-back-over-patent-dispute"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.961342+00:00
+updated_at: 2026-09-05T02:24:18.464663+00:00
 tags: [record, real-data]
 ---
 

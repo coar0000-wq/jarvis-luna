@@ -2,7 +2,7 @@
 title: "Record 1482 · Internal-memo-Shopify-CEO-declares-AI-non-optional---Digital-Commerce-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.839972+00:00
+updated_at: 2026-09-05T02:24:18.340057+00:00
 tags: [record, real-data]
 ---
 

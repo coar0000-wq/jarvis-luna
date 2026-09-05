@@ -2,7 +2,7 @@
 title: "Record 1764 · HPP-Hierarchical-Programmatic-Probing-for-Long-Video-Understanding-by-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.907975+00:00
+updated_at: 2026-09-05T02:24:18.407753+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2022 · 화장품-부작용-이렇게-하세요"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.965984+00:00
+updated_at: 2026-09-05T02:24:18.469390+00:00
 tags: [record, real-data]
 ---
 

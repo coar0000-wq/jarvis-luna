@@ -2,7 +2,7 @@
 title: "Record 1956 · Commodities-In-The-New-Geopolitical-Age"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.950607+00:00
+updated_at: 2026-09-05T02:24:18.453963+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1835 · What-Robotics-Companies-Think-About-the-US-Foreign-Robot-Ban"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.923782+00:00
+updated_at: 2026-09-05T02:24:18.425159+00:00
 tags: [record, real-data]
 ---
 

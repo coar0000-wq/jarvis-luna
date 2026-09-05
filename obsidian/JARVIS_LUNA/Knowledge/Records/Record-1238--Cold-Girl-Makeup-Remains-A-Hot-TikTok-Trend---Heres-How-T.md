@@ -2,7 +2,7 @@
 title: "Record 1238 · Cold-Girl-Makeup-Remains-A-Hot-TikTok-Trend---Heres-How-To-Pull-It-Off"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.784331+00:00
+updated_at: 2026-09-05T02:24:18.282843+00:00
 tags: [record, real-data]
 ---
 

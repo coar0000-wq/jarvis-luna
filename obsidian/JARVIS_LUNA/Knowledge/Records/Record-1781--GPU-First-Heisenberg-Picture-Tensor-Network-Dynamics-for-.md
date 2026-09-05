@@ -2,7 +2,7 @@
 title: "Record 1781 · GPU-First-Heisenberg-Picture-Tensor-Network-Dynamics-for-the-2D-Transv"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.911815+00:00
+updated_at: 2026-09-05T02:24:18.411795+00:00
 tags: [record, real-data]
 ---
 

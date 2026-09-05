@@ -2,7 +2,7 @@
 title: "Record 058 · Structural-Compatibility-and-Uniform-Stability-of-Temporally-Degenerat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.510858+00:00
+updated_at: 2026-09-05T02:24:18.009880+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1344 · How-K-Beauty-is-reshaping-the-face-of-womens-skincare---Fresno-State-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.808350+00:00
+updated_at: 2026-09-05T02:24:18.306244+00:00
 tags: [record, real-data]
 ---
 

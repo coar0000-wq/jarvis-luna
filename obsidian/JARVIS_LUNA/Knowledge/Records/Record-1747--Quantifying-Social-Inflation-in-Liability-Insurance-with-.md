@@ -2,7 +2,7 @@
 title: "Record 1747 · Quantifying-Social-Inflation-in-Liability-Insurance-with-Advanced-Stat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.904180+00:00
+updated_at: 2026-09-05T02:24:18.403690+00:00
 tags: [record, real-data]
 ---
 

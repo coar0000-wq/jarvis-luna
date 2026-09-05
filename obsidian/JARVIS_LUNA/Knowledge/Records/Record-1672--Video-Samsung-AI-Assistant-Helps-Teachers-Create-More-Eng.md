@@ -2,7 +2,7 @@
 title: "Record 1672 · Video-Samsung-AI-Assistant-Helps-Teachers-Create-More-Engaging-and-Acc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.886338+00:00
+updated_at: 2026-09-05T02:24:18.385309+00:00
 tags: [record, real-data]
 ---
 

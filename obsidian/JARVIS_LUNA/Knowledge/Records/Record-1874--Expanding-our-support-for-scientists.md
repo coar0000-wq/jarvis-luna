@@ -2,7 +2,7 @@
 title: "Record 1874 · Expanding-our-support-for-scientists"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.933270+00:00
+updated_at: 2026-09-05T02:24:18.435644+00:00
 tags: [record, real-data]
 ---
 

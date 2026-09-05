@@ -2,7 +2,7 @@
 title: "Record 1315 · News---Glow-Up-K-Beauty-Launches-at-Select-PXs-and-BXs---consultaelect"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.801906+00:00
+updated_at: 2026-09-05T02:24:18.299972+00:00
 tags: [record, real-data]
 ---
 

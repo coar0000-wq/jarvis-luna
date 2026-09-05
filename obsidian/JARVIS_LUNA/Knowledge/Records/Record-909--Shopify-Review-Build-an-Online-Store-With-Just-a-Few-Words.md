@@ -2,7 +2,7 @@
 title: "Record 909 · Shopify-Review-Build-an-Online-Store-With-Just-a-Few-Words---techco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.710282+00:00
+updated_at: 2026-09-05T02:24:18.212036+00:00
 tags: [record, real-data]
 ---
 

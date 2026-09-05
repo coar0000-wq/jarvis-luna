@@ -2,7 +2,7 @@
 title: "Record 1254 · From-Product-Drops-to-TikTok-Trends-How-Beauty-Brands-Scale-with-Lemon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.788008+00:00
+updated_at: 2026-09-05T02:24:18.286429+00:00
 tags: [record, real-data]
 ---
 

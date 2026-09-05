@@ -2,7 +2,7 @@
 title: "Record 1996 · Target-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.959453+00:00
+updated_at: 2026-09-05T02:24:18.462748+00:00
 tags: [record, real-data]
 ---
 

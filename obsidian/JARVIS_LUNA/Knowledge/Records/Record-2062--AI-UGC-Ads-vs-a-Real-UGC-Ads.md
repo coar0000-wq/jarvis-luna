@@ -2,7 +2,7 @@
 title: "Record 2062 · AI-UGC-Ads-vs-a-Real-UGC-Ads"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.974420+00:00
+updated_at: 2026-09-05T02:24:18.478059+00:00
 tags: [record, real-data]
 ---
 

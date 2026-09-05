@@ -2,7 +2,7 @@
 title: "Record 927 · 7-K-Beauty-Trends-Shaping-2026---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.714181+00:00
+updated_at: 2026-09-05T02:24:18.215764+00:00
 tags: [record, real-data]
 ---
 

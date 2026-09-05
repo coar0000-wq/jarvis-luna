@@ -2,7 +2,7 @@
 title: "Record 2008 · NexCOBOT-discusses-physical-AI-market-hurdles-and-acceleration"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.962736+00:00
+updated_at: 2026-09-05T02:24:18.466065+00:00
 tags: [record, real-data]
 ---
 

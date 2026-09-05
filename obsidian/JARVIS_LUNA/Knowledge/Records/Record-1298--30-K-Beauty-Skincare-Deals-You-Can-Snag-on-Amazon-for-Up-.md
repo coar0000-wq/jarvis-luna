@@ -2,7 +2,7 @@
 title: "Record 1298 · 30-K-Beauty-Skincare-Deals-You-Can-Snag-on-Amazon-for-Up-to-50-Off-Rig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.798085+00:00
+updated_at: 2026-09-05T02:24:18.296049+00:00
 tags: [record, real-data]
 ---
 

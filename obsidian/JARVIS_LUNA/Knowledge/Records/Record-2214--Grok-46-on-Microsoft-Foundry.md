@@ -2,7 +2,7 @@
 title: "Record 2214 · Grok-46-on-Microsoft-Foundry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:10.005893+00:00
+updated_at: 2026-09-05T02:24:18.510358+00:00
 tags: [record, real-data]
 ---
 

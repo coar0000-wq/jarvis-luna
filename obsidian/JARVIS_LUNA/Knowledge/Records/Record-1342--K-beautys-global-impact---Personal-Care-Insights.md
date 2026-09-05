@@ -2,7 +2,7 @@
 title: "Record 1342 · K-beautys-global-impact---Personal-Care-Insights"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.807902+00:00
+updated_at: 2026-09-05T02:24:18.305792+00:00
 tags: [record, real-data]
 ---
 

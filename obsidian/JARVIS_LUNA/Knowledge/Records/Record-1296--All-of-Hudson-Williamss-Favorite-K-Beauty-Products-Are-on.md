@@ -2,7 +2,7 @@
 title: "Record 1296 · All-of-Hudson-Williamss-Favorite-K-Beauty-Products-Are-on-Sale-and-Mor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.797620+00:00
+updated_at: 2026-09-05T02:24:18.295599+00:00
 tags: [record, real-data]
 ---
 

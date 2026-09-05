@@ -2,7 +2,7 @@
 title: "Record 305 · Reinforcement-learning-control-of-quantum-error-correction"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.570682+00:00
+updated_at: 2026-09-05T02:24:18.069782+00:00
 tags: [record, real-data]
 ---
 

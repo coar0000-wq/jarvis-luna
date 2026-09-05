@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-04T23:53:56.248663+00:00",
+  "collected_at": "2026-09-05T02:24:07.244799+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 25,
+  "post_count": 50,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -27,9 +27,8 @@
     },
     {
       "subreddit": "SkincareAddiction",
-      "post_count": 0,
+      "post_count": 25,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests",
         "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     },
@@ -44,23 +43,59 @@
   ],
   "hot_keywords": [
     {
+      "keyword": "routine",
+      "score": 22
+    },
+    {
       "keyword": "skin",
+      "score": 16
+    },
+    {
+      "keyword": "product",
+      "score": 14
+    },
+    {
+      "keyword": "2026",
       "score": 8
+    },
+    {
+      "keyword": "moisturizer",
+      "score": 8
+    },
+    {
+      "keyword": "question",
+      "score": 7
     },
     {
       "keyword": "september",
       "score": 6
     },
     {
-      "keyword": "2026",
+      "keyword": "request",
       "score": 6
     },
     {
-      "keyword": "routine",
+      "keyword": "one",
+      "score": 5
+    },
+    {
+      "keyword": "cream",
+      "score": 5
+    },
+    {
+      "keyword": "care",
       "score": 4
     },
     {
-      "keyword": "one",
+      "keyword": "sunscreens",
+      "score": 4
+    },
+    {
+      "keyword": "ask",
+      "score": 3
+    },
+    {
+      "keyword": "here",
       "score": 3
     },
     {
@@ -68,28 +103,8 @@
       "score": 3
     },
     {
-      "keyword": "goes",
-      "score": 3
-    },
-    {
       "keyword": "makeup",
       "score": 3
-    },
-    {
-      "keyword": "product",
-      "score": 3
-    },
-    {
-      "keyword": "question",
-      "score": 2
-    },
-    {
-      "keyword": "ask",
-      "score": 2
-    },
-    {
-      "keyword": "here",
-      "score": 2
     },
     {
       "keyword": "alter-daily",
@@ -100,7 +115,15 @@
       "score": 2
     },
     {
+      "keyword": "new",
+      "score": 2
+    },
+    {
       "keyword": "look",
+      "score": 2
+    },
+    {
+      "keyword": "goes",
       "score": 2
     },
     {
@@ -108,11 +131,31 @@
       "score": 2
     },
     {
-      "keyword": "care",
+      "keyword": "yesstyle",
       "score": 2
     },
     {
-      "keyword": "yesstyle",
+      "keyword": "much",
+      "score": 2
+    },
+    {
+      "keyword": "using",
+      "score": 2
+    },
+    {
+      "keyword": "skin1004",
+      "score": 2
+    },
+    {
+      "keyword": "centella",
+      "score": 2
+    },
+    {
+      "keyword": "ampoule",
+      "score": 2
+    },
+    {
+      "keyword": "face",
       "score": 2
     },
     {
@@ -125,6 +168,10 @@
     },
     {
       "keyword": "contour",
+      "score": 2
+    },
+    {
+      "keyword": "too",
       "score": 2
     },
     {
@@ -144,74 +191,46 @@
       "score": 2
     },
     {
-      "keyword": "sunscreens",
+      "keyword": "best",
       "score": 2
     },
     {
-      "keyword": "men",
-      "score": 1
+      "keyword": "these",
+      "score": 2
     },
     {
-      "keyword": "reedle",
-      "score": 1
-    },
-    {
-      "keyword": "60-85",
-      "score": 1
-    },
-    {
-      "keyword": "cheaper",
-      "score": 1
-    },
-    {
-      "keyword": "per",
-      "score": 1
-    },
-    {
-      "keyword": "why",
-      "score": 1
-    },
-    {
-      "keyword": "new",
-      "score": 1
-    },
-    {
-      "keyword": "ricky",
-      "score": 1
-    },
-    {
-      "keyword": "beauty",
-      "score": 1
-    },
-    {
-      "keyword": "lipliners",
-      "score": 1
-    },
-    {
-      "keyword": "love",
-      "score": 1
-    },
-    {
-      "keyword": "low",
-      "score": 1
-    },
-    {
-      "keyword": "medium",
-      "score": 1
-    },
-    {
-      "keyword": "contrast",
-      "score": 1
+      "keyword": "need",
+      "score": 2
     }
   ],
   "beauty_keywords": [
     {
+      "keyword": "routine",
+      "score": 22
+    },
+    {
       "keyword": "skin",
+      "score": 16
+    },
+    {
+      "keyword": "moisturizer",
       "score": 8
     },
     {
-      "keyword": "routine",
+      "keyword": "sunscreens",
       "score": 4
+    },
+    {
+      "keyword": "skin1004",
+      "score": 2
+    },
+    {
+      "keyword": "centella",
+      "score": 2
+    },
+    {
+      "keyword": "ampoule",
+      "score": 2
     },
     {
       "keyword": "skincare",
@@ -222,7 +241,31 @@
       "score": 2
     },
     {
-      "keyword": "sunscreens",
+      "keyword": "retinol",
+      "score": 2
+    },
+    {
+      "keyword": "cleanser",
+      "score": 2
+    },
+    {
+      "keyword": "snail",
+      "score": 2
+    },
+    {
+      "keyword": "mucin",
+      "score": 2
+    },
+    {
+      "keyword": "serum",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreen",
+      "score": 2
+    },
+    {
+      "keyword": "skinfessionals",
       "score": 2
     }
   ],
@@ -280,6 +323,13 @@
       "title": "Yesstyle package detained?!",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w6pkk1/yesstyle_package_detained/",
       "published": "2026-09-04T00:48:58+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "How much exfoliation to expect using SKIN1004 Madagascar Centella Ampoule Face Moisturizer. What's been your experience?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7nwei/how_much_exfoliation_to_expect_using_skin1004/",
+      "published": "2026-09-05T02:12:18+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -396,10 +446,178 @@
       "feed": "hot"
     },
     {
-      "title": "Anything Goes Wednesday: September 02, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w5mggz/anything_goes_wednesday_september_02_2026/",
-      "published": "2026-09-02T20:39:11+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "NEW OR NEED HELP? Ask here! - ScA Daily Help Thread Sep 04, 2026",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7ciwc/new_or_need_help_ask_here_sca_daily_help_thread/",
+      "published": "2026-09-04T18:26:24+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Before&After] June 2026 - September 2026 evolution of my PIH marks after laser treatment",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7i74e/beforeafter_june_2026_september_2026_evolution_of/",
+      "published": "2026-09-04T21:57:13+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Sun Care] Babe wake up BEMT/bemotrizinol sunscreens from Neutrogena ‼️‼️",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w76nni/sun_care_babe_wake_up_bemtbemotrizinol_sunscreens/",
+      "published": "2026-09-04T14:54:40+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "What to do against fine lines on cheeks? [Anti-Aging]",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w74kzi/what_to_do_against_fine_lines_on_cheeks_antiaging/",
+      "published": "2026-09-04T13:34:34+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Product question] 345 cream formula change or fake?",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7m2co/product_question_345_cream_formula_change_or_fake/",
+      "published": "2026-09-05T00:44:49+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Acne] What could be causing this?",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w72747/acne_what_could_be_causing_this/",
+      "published": "2026-09-04T11:51:54+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Routine Help] Does tretinoin really make skin get worse before it gets better?",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7lggh/routine_help_does_tretinoin_really_make_skin_get/",
+      "published": "2026-09-05T00:16:02+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[product question] retinol eye cream",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7l9k5/product_question_retinol_eye_cream/",
+      "published": "2026-09-05T00:07:21+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Routine Help] Should I change or remove anything from my current routine",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7ey9i/routine_help_should_i_change_or_remove_anything/",
+      "published": "2026-09-04T19:54:08+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[routine help] on redness, smoothness and anti-aging",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7bxdd/routine_help_on_redness_smoothness_and_antiaging/",
+      "published": "2026-09-04T18:05:11+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Product request] Dupe for this cleanser?",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7lwti/product_request_dupe_for_this_cleanser/",
+      "published": "2026-09-05T00:37:22+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Routine Help] Is it too much or bad if i layer my cosrx advanced 96 snail mucin on top of my remedy multi depth moisturizer serum",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7lkzz/routine_help_is_it_too_much_or_bad_if_i_layer_my/",
+      "published": "2026-09-05T00:21:47+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[routine help] azeliac acid and retinoid",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7lcqu/routine_help_azeliac_acid_and_retinoid/",
+      "published": "2026-09-05T00:11:26+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "Help simplify and improve my routine [Routine Help]",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w6zkpj/help_simplify_and_improve_my_routine_routine_help/",
+      "published": "2026-09-04T09:33:28+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Product Request] How to clear this up?",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7kd1v/product_request_how_to_clear_this_up/",
+      "published": "2026-09-04T23:27:43+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Sun Care] Sunscreen is unbearable",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w6onbe/sun_care_sunscreen_is_unbearable/",
+      "published": "2026-09-04T00:06:52+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Product Request] Chickenpox scarring treatment",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7jx01/product_request_chickenpox_scarring_treatment/",
+      "published": "2026-09-04T23:08:07+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Product Request] In need of a good eye cream or moisturizer",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7dxyi/product_request_in_need_of_a_good_eye_cream_or/",
+      "published": "2026-09-04T19:17:26+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "r/Skinfessionals is a content farm for Skin Choice hydrocolloid patches. 26 of its photo posts are stolen, most by its own mods, and every comment those mods have made promotes one brand. [CRINGE]",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w6edim/rskinfessionals_is_a_content_farm_for_skin_choice/",
+      "published": "2026-09-03T17:41:50+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Product question] best way to treat these scars?",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7ja6w/product_question_best_way_to_treat_these_scars/",
+      "published": "2026-09-04T22:41:06+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "Looking for a BB cream / skin tint to replace my current one [Product Question]",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7cauz/looking_for_a_bb_cream_skin_tint_to_replace_my/",
+      "published": "2026-09-04T18:18:37+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Routine Help] Should I continue using Salicylic acid?",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7c1pv/routine_help_should_i_continue_using_salicylic/",
+      "published": "2026-09-04T18:09:21+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Product Request] Tips on improving skin.",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7hb1r/product_request_tips_on_improving_skin/",
+      "published": "2026-09-04T21:21:42+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Product Request] Moisturizer that’s fungal-safe but ALSO extremely hydrating?",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7gigh/product_request_moisturizer_thats_fungalsafe_but/",
+      "published": "2026-09-04T20:51:35+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Product Question] [Acne] Please lend me some advice 😞",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7g78x/product_question_acne_please_lend_me_some_advice/",
+      "published": "2026-09-04T20:40:04+00:00",
+      "subreddit": "SkincareAddiction",
       "feed": "hot"
     }
   ],

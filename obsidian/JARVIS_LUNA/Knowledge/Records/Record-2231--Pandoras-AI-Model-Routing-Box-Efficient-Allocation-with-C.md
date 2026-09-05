@@ -2,7 +2,7 @@
 title: "Record 2231 · Pandoras-AI-Model-Routing-Box-Efficient-Allocation-with-Costly-Value-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:10.010261+00:00
+updated_at: 2026-09-05T02:24:18.514717+00:00
 tags: [record, real-data]
 ---
 

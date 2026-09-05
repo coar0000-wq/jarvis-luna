@@ -2,7 +2,7 @@
 title: "Record 1661 · Samsung-Introduces-New-Over-the-Range-Microwave-With-DualVent-Technolo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.882746+00:00
+updated_at: 2026-09-05T02:24:18.381675+00:00
 tags: [record, real-data]
 ---
 

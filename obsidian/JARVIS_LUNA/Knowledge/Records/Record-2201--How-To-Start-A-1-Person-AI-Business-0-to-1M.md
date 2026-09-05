@@ -2,7 +2,7 @@
 title: "Record 2201 · How-To-Start-A-1-Person-AI-Business-0-to-1M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:10.003222+00:00
+updated_at: 2026-09-05T02:24:18.507643+00:00
 tags: [record, real-data]
 ---
 

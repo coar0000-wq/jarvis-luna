@@ -2,7 +2,7 @@
 title: "Record 2001 · How-FPGAs-become-the-gatekeepers-of-physical-AI-security"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.960804+00:00
+updated_at: 2026-09-05T02:24:18.464111+00:00
 tags: [record, real-data]
 ---
 

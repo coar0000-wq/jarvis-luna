@@ -2,7 +2,7 @@
 title: "Record 1614 · Shopify-has-been-on-a-tear-in-2025-Can-AI-give-the-e-commerce-stock-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.870459+00:00
+updated_at: 2026-09-05T02:24:18.369944+00:00
 tags: [record, real-data]
 ---
 

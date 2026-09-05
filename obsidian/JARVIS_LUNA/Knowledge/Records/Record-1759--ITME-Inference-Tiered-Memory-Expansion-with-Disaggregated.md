@@ -2,7 +2,7 @@
 title: "Record 1759 · ITME-Inference-Tiered-Memory-Expansion-with-Disaggregated-CXL-Hybrid-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.906873+00:00
+updated_at: 2026-09-05T02:24:18.406564+00:00
 tags: [record, real-data]
 ---
 

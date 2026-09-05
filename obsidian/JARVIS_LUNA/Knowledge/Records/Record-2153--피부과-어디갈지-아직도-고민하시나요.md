@@ -2,7 +2,7 @@
 title: "Record 2153 · 피부과-어디갈지-아직도-고민하시나요"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.993293+00:00
+updated_at: 2026-09-05T02:24:18.497491+00:00
 tags: [record, real-data]
 ---
 

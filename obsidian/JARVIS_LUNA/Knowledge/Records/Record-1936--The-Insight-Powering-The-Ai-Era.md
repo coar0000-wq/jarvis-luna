@@ -2,7 +2,7 @@
 title: "Record 1936 · The-Insight-Powering-The-Ai-Era"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.946540+00:00
+updated_at: 2026-09-05T02:24:18.449686+00:00
 tags: [record, real-data]
 ---
 

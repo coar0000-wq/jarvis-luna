@@ -2,7 +2,7 @@
 title: "Record 624 · From-SuperBIT-to-GigaBIT-Informing-next-generation-balloon-borne-teles"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.642310+00:00
+updated_at: 2026-09-05T02:24:18.146692+00:00
 tags: [record, real-data]
 ---
 

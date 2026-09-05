@@ -2,7 +2,7 @@
 title: "Record 548 · American-College-of-Veterinary-Radiology-and-European-College-of-Veter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.625029+00:00
+updated_at: 2026-09-05T02:24:18.128433+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2090 · K-Beauty-Twins-Which-One-Wins"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.980158+00:00
+updated_at: 2026-09-05T02:24:18.484003+00:00
 tags: [record, real-data]
 ---
 

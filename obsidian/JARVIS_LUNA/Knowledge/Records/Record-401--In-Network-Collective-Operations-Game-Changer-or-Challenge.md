@@ -2,7 +2,7 @@
 title: "Record 401 · In-Network-Collective-Operations-Game-Changer-or-Challenge-for-AI-Work"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.592438+00:00
+updated_at: 2026-09-05T02:24:18.091940+00:00
 tags: [record, real-data]
 ---
 

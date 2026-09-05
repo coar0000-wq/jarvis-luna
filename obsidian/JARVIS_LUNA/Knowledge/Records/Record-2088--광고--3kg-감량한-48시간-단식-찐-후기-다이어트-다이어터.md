@@ -2,7 +2,7 @@
 title: "Record 2088 · 광고--3kg-감량한-48시간-단식-찐-후기-다이어트-다이어터"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.979738+00:00
+updated_at: 2026-09-05T02:24:18.483572+00:00
 tags: [record, real-data]
 ---
 

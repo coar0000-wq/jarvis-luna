@@ -2,7 +2,7 @@
 title: "Record 911 · ChatGPT-Prompts-for-Ecommerce-Tips-and-Examples---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.710728+00:00
+updated_at: 2026-09-05T02:24:18.212462+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1964 · EvoLib-Turning-experience-into-evolving-knowledge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.952510+00:00
+updated_at: 2026-09-05T02:24:18.455830+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T02:44:52.519103+00:00",
+  "generated_at": "2026-09-05T02:44:38.033947+00:00",
   "exchange_rate": {
     "usd_to_krw": 1348.99,
     "as_of": "2026-09-05",
@@ -21,17 +21,12 @@
     ]
   },
   "market_benchmark": {
-    "min": 7.7,
-    "p25": 18.7,
+    "min": 7.84,
+    "p25": 18.99,
     "median": 24.0,
     "max": 279.0,
     "n": 100,
-    "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-04)"
-  },
-  "product_market_prices": {
-    "source": "SerpApi google_shopping (미국)",
-    "matched": 12,
-    "note": "상품별 실판매가가 있는 건은 그 값으로 마진을 계산한다. 없으면 올리브영 베스트셀러 벤치마크로 돌아간다."
+    "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-05)"
   },
   "duty_mode_note": {
     "선택_필요": true,
@@ -48,28 +43,28 @@
       "price_usd": 18.99,
       "unit_price_usd": 18.99,
       "landed_cost_total_usd": 10.55,
-      "shipping_in_cost_usd": 7.19,
+      "shipping_in_cost_usd": 7.27,
       "fee_usd": 1.41,
-      "net_profit_usd": 7.04,
-      "margin_pct": 37.1,
+      "net_profit_usd": 7.03,
+      "margin_pct": 37.0,
       "free_shipping": false,
       "orders_for_500usd": 71
     },
     "bundle": {
       "qty": 2,
       "discount_pct": 15,
-      "price_usd": 31.99,
-      "unit_price_usd": 15.99,
-      "landed_cost_total_usd": 15.32,
-      "shipping_in_cost_usd": 8.61,
-      "fee_usd": 2.37,
-      "net_profit_usd": 14.31,
-      "margin_pct": 44.7,
+      "price_usd": 32.99,
+      "unit_price_usd": 16.5,
+      "landed_cost_total_usd": 15.3,
+      "shipping_in_cost_usd": 8.74,
+      "fee_usd": 2.44,
+      "net_profit_usd": 15.25,
+      "margin_pct": 46.2,
       "free_shipping": true,
-      "orders_for_500usd": 35
+      "orders_for_500usd": 33
     },
     "free_shipping_min_qty": 2,
-    "bundle_vs_single": 2.0,
+    "bundle_vs_single": 2.2,
     "판단_근거": "15% 할인을 고른 이유: 5~10%는 미국 소비자에게 체감이 없고, 20%면 마진이 36.7%로 떨어져 반품·파손 완충이 사라진다. 15%면 마진 40%를 지키면서 단품 대비 순익 2.2배다. 무료배송은 2개 주문 배송비가 이미 원가에 포함돼 추가 부담이 없다.",
     "광고비": "0 (매출이 붙기 전까지 광고하지 않기로 결정)"
   },
@@ -101,25 +96,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.07,
-          "margin_pct": 32.5
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.34,
+          "margin_pct": 33.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 10.98,
           "margin_pct": 45.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 6.36,
-          "margin_pct": 33.4
         }
       },
       {
@@ -148,25 +134,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.07,
-          "margin_pct": 32.5
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.34,
+          "margin_pct": 33.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 10.98,
           "margin_pct": 45.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.99,
-          "fee": 1.18,
-          "profit": 3.56,
-          "margin_pct": 22.3
         }
       },
       {
@@ -195,25 +172,16 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 2.35,
-          "margin_pct": 12.6
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 2.62,
+          "margin_pct": 13.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 7.26,
           "margin_pct": 30.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 1.93,
-          "margin_pct": 10.6
         }
       },
       {
@@ -242,25 +210,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.07,
-          "margin_pct": 32.5
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.34,
+          "margin_pct": 33.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 10.98,
           "margin_pct": 45.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.49,
-        "market_sample_n": 10,
-        "at_product_market": {
-          "sell": 19.49,
-          "fee": 1.44,
-          "profit": 6.8,
-          "margin_pct": 34.9
         }
       },
       {
@@ -289,25 +248,16 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 8.63,
-          "margin_pct": 46.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 8.9,
+          "margin_pct": 46.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 13.54,
           "margin_pct": 56.4
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 13.0,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 13.0,
-          "fee": 0.96,
-          "profit": 3.35,
-          "margin_pct": 25.8
         }
       },
       {
@@ -336,21 +286,12 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.07,
-          "margin_pct": 32.5
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.34,
+          "margin_pct": 33.4
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 10.98,
-          "margin_pct": 45.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.0,
-        "market_sample_n": 9,
-        "at_product_market": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 10.98,
@@ -358,10 +299,10 @@
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "pd_no": "1059832",
+        "name": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 92,
+        "shopify_score": 93,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
@@ -383,25 +324,16 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.38,
-          "margin_pct": 50.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.65,
+          "margin_pct": 50.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.28,
           "margin_pct": 59.5
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 4.09,
-          "margin_pct": 31.5
         }
       },
       {
@@ -430,25 +362,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.07,
-          "margin_pct": 32.5
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.34,
+          "margin_pct": 33.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 10.98,
           "margin_pct": 45.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 7.74,
-          "margin_pct": 37.7
         }
       },
       {
@@ -477,32 +400,23 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 8.52,
-          "margin_pct": 45.6
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 8.79,
+          "margin_pct": 46.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 13.43,
           "margin_pct": 56.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.47,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.47,
-          "fee": 1.44,
-          "profit": 9.24,
-          "margin_pct": 47.4
         }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
@@ -524,25 +438,16 @@
           "margin_pct": -54.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 5.32,
-          "margin_pct": 28.5
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 5.59,
+          "margin_pct": 29.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 10.23,
           "margin_pct": 42.6
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
-        "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 5.59,
-          "margin_pct": 29.4
         }
       },
       {
@@ -571,25 +476,16 @@
           "margin_pct": -102.4
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 7.78,
-          "margin_pct": 41.6
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 8.04,
+          "margin_pct": 42.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 12.68,
           "margin_pct": 52.8
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.12,
-        "market_sample_n": 5,
-        "at_product_market": {
-          "sell": 16.12,
-          "fee": 1.19,
-          "profit": 5.39,
-          "margin_pct": 33.4
         }
       },
       {
@@ -618,32 +514,23 @@
           "margin_pct": -117.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 7.03,
-          "margin_pct": 37.6
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 7.3,
+          "margin_pct": 38.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 11.93,
           "margin_pct": 49.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 8.69,
-          "margin_pct": 42.4
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 86,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -665,63 +552,17 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 8.63,
-          "margin_pct": 46.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 8.9,
+          "margin_pct": 46.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 13.54,
           "margin_pct": 56.4
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 84,
-        "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 6.23,
-        "shipping_order_usd": 6.23,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 10.5,
-        "landed_cost_ddu_usd": 10.5,
-        "landed_cost_ddp_usd": 9.94,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.34,
-        "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": -2.95,
-          "margin_pct": -36.1
-        },
-        "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.82,
-          "margin_pct": 36.5
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 11.73,
-          "margin_pct": 48.9
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        }
       }
     ],
     "2개_묶음배송": [
@@ -751,25 +592,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.19,
-          "margin_pct": 49.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.46,
+          "margin_pct": 49.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.1,
           "margin_pct": 58.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 9.47,
-          "margin_pct": 49.8
         }
       },
       {
@@ -798,25 +630,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.19,
-          "margin_pct": 49.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.46,
+          "margin_pct": 49.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.1,
           "margin_pct": 58.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.99,
-          "fee": 1.18,
-          "profit": 6.68,
-          "margin_pct": 41.8
         }
       },
       {
@@ -845,25 +668,16 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 5.59,
-          "margin_pct": 29.9
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 5.86,
+          "margin_pct": 30.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 10.5,
           "margin_pct": 43.8
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 5.18,
-          "margin_pct": 28.4
         }
       },
       {
@@ -892,25 +706,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.19,
-          "margin_pct": 49.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.46,
+          "margin_pct": 49.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.1,
           "margin_pct": 58.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.49,
-        "market_sample_n": 10,
-        "at_product_market": {
-          "sell": 19.49,
-          "fee": 1.44,
-          "profit": 9.92,
-          "margin_pct": 50.9
         }
       },
       {
@@ -939,25 +744,16 @@
           "margin_pct": -89.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.37,
-          "margin_pct": 60.8
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.64,
+          "margin_pct": 61.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.28,
           "margin_pct": 67.8
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 13.0,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 13.0,
-          "fee": 0.96,
-          "profit": 6.09,
-          "margin_pct": 46.9
         }
       },
       {
@@ -986,21 +782,12 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.19,
-          "margin_pct": 49.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.46,
+          "margin_pct": 49.8
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.1,
-          "margin_pct": 58.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.0,
-        "market_sample_n": 9,
-        "at_product_market": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.1,
@@ -1008,10 +795,10 @@
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "pd_no": "1059832",
+        "name": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 92,
+        "shopify_score": 93,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
@@ -1033,25 +820,16 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.12,
-          "margin_pct": 64.8
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.39,
+          "margin_pct": 65.2
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.03,
           "margin_pct": 70.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 6.83,
-          "margin_pct": 52.6
         }
       },
       {
@@ -1080,25 +858,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.19,
-          "margin_pct": 49.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.46,
+          "margin_pct": 49.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.1,
           "margin_pct": 58.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 10.85,
-          "margin_pct": 52.9
         }
       },
       {
@@ -1127,32 +896,23 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.64,
-          "margin_pct": 62.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.91,
+          "margin_pct": 62.7
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.55,
           "margin_pct": 69.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.47,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.47,
-          "fee": 1.44,
-          "profit": 12.35,
-          "margin_pct": 63.5
         }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
@@ -1174,25 +934,16 @@
           "margin_pct": -25.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 7.7,
-          "margin_pct": 41.2
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 7.97,
+          "margin_pct": 42.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 12.61,
           "margin_pct": 52.5
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
-        "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 7.97,
-          "margin_pct": 42.0
         }
       },
       {
@@ -1221,25 +972,16 @@
           "margin_pct": -46.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.52,
-          "margin_pct": 56.2
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.79,
+          "margin_pct": 56.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.43,
           "margin_pct": 64.3
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.12,
-        "market_sample_n": 5,
-        "at_product_market": {
-          "sell": 16.12,
-          "fee": 1.19,
-          "profit": 8.13,
-          "margin_pct": 50.4
         }
       },
       {
@@ -1268,32 +1010,23 @@
           "margin_pct": -69.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.41,
-          "margin_pct": 50.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.68,
+          "margin_pct": 50.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.31,
           "margin_pct": 59.6
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 11.07,
-          "margin_pct": 54.0
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 86,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -1315,63 +1048,17 @@
           "margin_pct": -89.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.37,
-          "margin_pct": 60.8
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.64,
+          "margin_pct": 61.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.28,
           "margin_pct": 67.8
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 84,
-        "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 3.49,
-        "shipping_order_usd": 6.98,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.75,
-        "landed_cost_ddu_usd": 7.75,
-        "landed_cost_ddp_usd": 7.2,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.37,
-        "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": -0.2,
-          "margin_pct": -2.5
-        },
-        "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.56,
-          "margin_pct": 51.1
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.47,
-          "margin_pct": 60.3
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        }
       }
     ],
     "3개_묶음배송": [
@@ -1401,25 +1088,16 @@
           "margin_pct": 5.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.23,
-          "margin_pct": 54.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.5,
+          "margin_pct": 55.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.13,
           "margin_pct": 63.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 10.51,
-          "margin_pct": 55.3
         }
       },
       {
@@ -1448,25 +1126,16 @@
           "margin_pct": 5.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.23,
-          "margin_pct": 54.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.5,
+          "margin_pct": 55.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.13,
           "margin_pct": 63.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.99,
-          "fee": 1.18,
-          "profit": 7.72,
-          "margin_pct": 48.3
         }
       },
       {
@@ -1495,25 +1164,16 @@
           "margin_pct": -39.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.58,
-          "margin_pct": 35.2
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.85,
+          "margin_pct": 36.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 11.49,
           "margin_pct": 47.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 6.16,
-          "margin_pct": 33.8
         }
       },
       {
@@ -1542,25 +1202,16 @@
           "margin_pct": 5.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.23,
-          "margin_pct": 54.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.5,
+          "margin_pct": 55.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.13,
           "margin_pct": 63.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.49,
-        "market_sample_n": 10,
-        "at_product_market": {
-          "sell": 19.49,
-          "fee": 1.44,
-          "profit": 10.96,
-          "margin_pct": 56.2
         }
       },
       {
@@ -1589,25 +1240,16 @@
           "margin_pct": -69.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.04,
-          "margin_pct": 64.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.31,
+          "margin_pct": 64.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.95,
           "margin_pct": 70.6
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 13.0,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 13.0,
-          "fee": 0.96,
-          "profit": 6.76,
-          "margin_pct": 52.0
         }
       },
       {
@@ -1636,21 +1278,12 @@
           "margin_pct": 5.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.23,
-          "margin_pct": 54.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.5,
+          "margin_pct": 55.3
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 15.13,
-          "margin_pct": 63.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.0,
-        "market_sample_n": 9,
-        "at_product_market": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.13,
@@ -1658,10 +1291,10 @@
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "pd_no": "1059832",
+        "name": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 92,
+        "shopify_score": 93,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
@@ -1683,25 +1316,16 @@
           "margin_pct": -38.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 13.03,
-          "margin_pct": 69.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 13.3,
+          "margin_pct": 70.1
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.94,
           "margin_pct": 74.8
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 7.75,
-          "margin_pct": 59.6
         }
       },
       {
@@ -1730,25 +1354,16 @@
           "margin_pct": 5.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.23,
-          "margin_pct": 54.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.5,
+          "margin_pct": 55.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.13,
           "margin_pct": 63.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 11.89,
-          "margin_pct": 58.0
         }
       },
       {
@@ -1777,32 +1392,23 @@
           "margin_pct": -7.2
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.43,
-          "margin_pct": 66.5
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.7,
+          "margin_pct": 66.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.34,
           "margin_pct": 72.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.47,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.47,
-          "fee": 1.44,
-          "profit": 13.14,
-          "margin_pct": 67.5
         }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
@@ -1824,25 +1430,16 @@
           "margin_pct": -12.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 8.78,
-          "margin_pct": 47.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.05,
+          "margin_pct": 47.7
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 13.69,
           "margin_pct": 57.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
-        "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 9.05,
-          "margin_pct": 47.7
         }
       },
       {
@@ -1871,25 +1468,16 @@
           "margin_pct": -32.6
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.19,
-          "margin_pct": 59.8
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.46,
+          "margin_pct": 60.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.1,
           "margin_pct": 67.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.12,
-        "market_sample_n": 5,
-        "at_product_market": {
-          "sell": 16.12,
-          "fee": 1.19,
-          "profit": 8.8,
-          "margin_pct": 54.6
         }
       },
       {
@@ -1918,32 +1506,23 @@
           "margin_pct": -47.0
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.49,
-          "margin_pct": 56.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.75,
+          "margin_pct": 56.6
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.39,
           "margin_pct": 64.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 12.15,
-          "margin_pct": 59.3
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 86,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -1965,63 +1544,17 @@
           "margin_pct": -69.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.04,
-          "margin_pct": 64.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.31,
+          "margin_pct": 64.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.95,
           "margin_pct": 70.6
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 84,
-        "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 2.33,
-        "shipping_order_usd": 6.98,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 6.59,
-        "landed_cost_ddu_usd": 6.59,
-        "landed_cost_ddp_usd": 6.03,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 7.12,
-        "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": 0.96,
-          "margin_pct": 11.8
-        },
-        "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.73,
-          "margin_pct": 57.4
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 15.63,
-          "margin_pct": 65.1
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        }
       }
     ],
     "5개_묶음배송": [
@@ -2051,25 +1584,16 @@
           "margin_pct": 14.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.91,
-          "margin_pct": 58.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.18,
+          "margin_pct": 58.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.82,
           "margin_pct": 65.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 11.2,
-          "margin_pct": 58.9
         }
       },
       {
@@ -2098,25 +1622,16 @@
           "margin_pct": 14.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.91,
-          "margin_pct": 58.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.18,
+          "margin_pct": 58.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.82,
           "margin_pct": 65.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.99,
-          "fee": 1.18,
-          "profit": 8.4,
-          "margin_pct": 52.6
         }
       },
       {
@@ -2145,25 +1660,16 @@
           "margin_pct": -21.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 8.04,
-          "margin_pct": 43.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 8.31,
+          "margin_pct": 43.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 12.95,
           "margin_pct": 54.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 7.62,
-          "margin_pct": 41.8
         }
       },
       {
@@ -2192,25 +1698,16 @@
           "margin_pct": 14.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.91,
-          "margin_pct": 58.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.18,
+          "margin_pct": 58.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.82,
           "margin_pct": 65.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.49,
-        "market_sample_n": 10,
-        "at_product_market": {
-          "sell": 19.49,
-          "fee": 1.44,
-          "profit": 11.64,
-          "margin_pct": 59.7
         }
       },
       {
@@ -2239,25 +1736,16 @@
           "margin_pct": -42.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.91,
-          "margin_pct": 69.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 13.18,
+          "margin_pct": 69.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.82,
           "margin_pct": 74.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 13.0,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 13.0,
-          "fee": 0.96,
-          "profit": 7.63,
-          "margin_pct": 58.7
         }
       },
       {
@@ -2286,21 +1774,12 @@
           "margin_pct": 14.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.91,
-          "margin_pct": 58.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.18,
+          "margin_pct": 58.9
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 15.82,
-          "margin_pct": 65.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.0,
-        "market_sample_n": 9,
-        "at_product_market": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.82,
@@ -2308,10 +1787,10 @@
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "pd_no": "1059832",
+        "name": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 92,
+        "shopify_score": 93,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
@@ -2333,25 +1812,16 @@
           "margin_pct": -21.0
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 13.61,
-          "margin_pct": 72.8
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 13.88,
+          "margin_pct": 73.1
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 18.52,
           "margin_pct": 77.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 8.32,
-          "margin_pct": 64.1
         }
       },
       {
@@ -2380,25 +1850,16 @@
           "margin_pct": 14.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.91,
-          "margin_pct": 58.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.18,
+          "margin_pct": 58.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.82,
           "margin_pct": 65.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 12.58,
-          "margin_pct": 61.4
         }
       },
       {
@@ -2427,32 +1888,23 @@
           "margin_pct": 8.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 13.21,
-          "margin_pct": 70.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 13.48,
+          "margin_pct": 71.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 18.12,
           "margin_pct": 75.5
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.47,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.47,
-          "fee": 1.44,
-          "profit": 13.93,
-          "margin_pct": 71.5
         }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
@@ -2474,25 +1926,16 @@
           "margin_pct": -3.4
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.49,
-          "margin_pct": 50.8
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.76,
+          "margin_pct": 51.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.4,
           "margin_pct": 60.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
-        "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 9.76,
-          "margin_pct": 51.4
         }
       },
       {
@@ -2521,25 +1964,16 @@
           "margin_pct": -12.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.2,
-          "margin_pct": 65.2
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.46,
+          "margin_pct": 65.6
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.1,
           "margin_pct": 71.3
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.12,
-        "market_sample_n": 5,
-        "at_product_market": {
-          "sell": 16.12,
-          "fee": 1.19,
-          "profit": 9.81,
-          "margin_pct": 60.8
         }
       },
       {
@@ -2568,32 +2002,23 @@
           "margin_pct": -32.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.2,
-          "margin_pct": 59.9
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.46,
+          "margin_pct": 60.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.1,
           "margin_pct": 67.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 12.86,
-          "margin_pct": 62.7
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 86,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -2615,63 +2040,17 @@
           "margin_pct": -42.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.91,
-          "margin_pct": 69.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 13.18,
+          "margin_pct": 69.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.82,
           "margin_pct": 74.2
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 84,
-        "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 1.7,
-        "shipping_order_usd": 8.48,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 5.96,
-        "landed_cost_ddu_usd": 5.96,
-        "landed_cost_ddp_usd": 5.4,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.43,
-        "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": 1.59,
-          "margin_pct": 19.5
-        },
-        "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.36,
-          "margin_pct": 60.7
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 16.27,
-          "margin_pct": 67.8
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        }
       }
     ]
   },
@@ -2703,25 +2082,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.07,
-          "margin_pct": 32.5
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.34,
+          "margin_pct": 33.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 10.98,
           "margin_pct": 45.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 6.36,
-          "margin_pct": 33.4
         }
       },
       {
@@ -2750,25 +2120,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.07,
-          "margin_pct": 32.5
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.34,
+          "margin_pct": 33.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 10.98,
           "margin_pct": 45.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.99,
-          "fee": 1.18,
-          "profit": 3.56,
-          "margin_pct": 22.3
         }
       },
       {
@@ -2797,25 +2158,16 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 2.35,
-          "margin_pct": 12.6
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 2.62,
+          "margin_pct": 13.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 7.26,
           "margin_pct": 30.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 1.93,
-          "margin_pct": 10.6
         }
       },
       {
@@ -2844,25 +2196,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.07,
-          "margin_pct": 32.5
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.34,
+          "margin_pct": 33.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 10.98,
           "margin_pct": 45.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.49,
-        "market_sample_n": 10,
-        "at_product_market": {
-          "sell": 19.49,
-          "fee": 1.44,
-          "profit": 6.8,
-          "margin_pct": 34.9
         }
       },
       {
@@ -2891,25 +2234,16 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 8.63,
-          "margin_pct": 46.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 8.9,
+          "margin_pct": 46.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 13.54,
           "margin_pct": 56.4
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 13.0,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 13.0,
-          "fee": 0.96,
-          "profit": 3.35,
-          "margin_pct": 25.8
         }
       },
       {
@@ -2938,21 +2272,12 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.07,
-          "margin_pct": 32.5
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.34,
+          "margin_pct": 33.4
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 10.98,
-          "margin_pct": 45.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.0,
-        "market_sample_n": 9,
-        "at_product_market": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 10.98,
@@ -2960,10 +2285,10 @@
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "pd_no": "1059832",
+        "name": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 92,
+        "shopify_score": 93,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
@@ -2985,25 +2310,16 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.38,
-          "margin_pct": 50.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.65,
+          "margin_pct": 50.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.28,
           "margin_pct": 59.5
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 4.09,
-          "margin_pct": 31.5
         }
       },
       {
@@ -3032,25 +2348,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.07,
-          "margin_pct": 32.5
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.34,
+          "margin_pct": 33.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 10.98,
           "margin_pct": 45.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 7.74,
-          "margin_pct": 37.7
         }
       },
       {
@@ -3079,32 +2386,23 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 8.52,
-          "margin_pct": 45.6
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 8.79,
+          "margin_pct": 46.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 13.43,
           "margin_pct": 56.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.47,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.47,
-          "fee": 1.44,
-          "profit": 9.24,
-          "margin_pct": 47.4
         }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
@@ -3126,25 +2424,16 @@
           "margin_pct": -54.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 5.32,
-          "margin_pct": 28.5
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 5.59,
+          "margin_pct": 29.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 10.23,
           "margin_pct": 42.6
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
-        "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 5.59,
-          "margin_pct": 29.4
         }
       },
       {
@@ -3173,25 +2462,16 @@
           "margin_pct": -102.4
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 7.78,
-          "margin_pct": 41.6
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 8.04,
+          "margin_pct": 42.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 12.68,
           "margin_pct": 52.8
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.12,
-        "market_sample_n": 5,
-        "at_product_market": {
-          "sell": 16.12,
-          "fee": 1.19,
-          "profit": 5.39,
-          "margin_pct": 33.4
         }
       },
       {
@@ -3220,32 +2500,23 @@
           "margin_pct": -117.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 7.03,
-          "margin_pct": 37.6
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 7.3,
+          "margin_pct": 38.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 11.93,
           "margin_pct": 49.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 8.69,
-          "margin_pct": 42.4
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 86,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -3267,63 +2538,17 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 8.63,
-          "margin_pct": 46.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 8.9,
+          "margin_pct": 46.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 13.54,
           "margin_pct": 56.4
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 84,
-        "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 6.23,
-        "shipping_order_usd": 6.23,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 10.5,
-        "landed_cost_ddu_usd": 10.5,
-        "landed_cost_ddp_usd": 9.94,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.34,
-        "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": -2.95,
-          "margin_pct": -36.1
-        },
-        "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.82,
-          "margin_pct": 36.5
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 11.73,
-          "margin_pct": 48.9
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        }
       }
     ],
     "ddu_2개_묶음배송": [
@@ -3353,25 +2578,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.19,
-          "margin_pct": 49.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.46,
+          "margin_pct": 49.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.1,
           "margin_pct": 58.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 9.47,
-          "margin_pct": 49.8
         }
       },
       {
@@ -3400,25 +2616,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.19,
-          "margin_pct": 49.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.46,
+          "margin_pct": 49.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.1,
           "margin_pct": 58.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.99,
-          "fee": 1.18,
-          "profit": 6.68,
-          "margin_pct": 41.8
         }
       },
       {
@@ -3447,25 +2654,16 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 5.59,
-          "margin_pct": 29.9
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 5.86,
+          "margin_pct": 30.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 10.5,
           "margin_pct": 43.8
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 5.18,
-          "margin_pct": 28.4
         }
       },
       {
@@ -3494,25 +2692,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.19,
-          "margin_pct": 49.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.46,
+          "margin_pct": 49.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.1,
           "margin_pct": 58.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.49,
-        "market_sample_n": 10,
-        "at_product_market": {
-          "sell": 19.49,
-          "fee": 1.44,
-          "profit": 9.92,
-          "margin_pct": 50.9
         }
       },
       {
@@ -3541,25 +2730,16 @@
           "margin_pct": -89.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.37,
-          "margin_pct": 60.8
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.64,
+          "margin_pct": 61.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.28,
           "margin_pct": 67.8
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 13.0,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 13.0,
-          "fee": 0.96,
-          "profit": 6.09,
-          "margin_pct": 46.9
         }
       },
       {
@@ -3588,21 +2768,12 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.19,
-          "margin_pct": 49.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.46,
+          "margin_pct": 49.8
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.1,
-          "margin_pct": 58.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.0,
-        "market_sample_n": 9,
-        "at_product_market": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.1,
@@ -3610,10 +2781,10 @@
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "pd_no": "1059832",
+        "name": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 92,
+        "shopify_score": 93,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
@@ -3635,25 +2806,16 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.12,
-          "margin_pct": 64.8
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.39,
+          "margin_pct": 65.2
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.03,
           "margin_pct": 70.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 6.83,
-          "margin_pct": 52.6
         }
       },
       {
@@ -3682,25 +2844,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.19,
-          "margin_pct": 49.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.46,
+          "margin_pct": 49.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.1,
           "margin_pct": 58.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 10.85,
-          "margin_pct": 52.9
         }
       },
       {
@@ -3729,32 +2882,23 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.64,
-          "margin_pct": 62.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.91,
+          "margin_pct": 62.7
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.55,
           "margin_pct": 69.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.47,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.47,
-          "fee": 1.44,
-          "profit": 12.35,
-          "margin_pct": 63.5
         }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
@@ -3776,25 +2920,16 @@
           "margin_pct": -25.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 7.7,
-          "margin_pct": 41.2
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 7.97,
+          "margin_pct": 42.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 12.61,
           "margin_pct": 52.5
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
-        "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 7.97,
-          "margin_pct": 42.0
         }
       },
       {
@@ -3823,25 +2958,16 @@
           "margin_pct": -46.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.52,
-          "margin_pct": 56.2
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.79,
+          "margin_pct": 56.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.43,
           "margin_pct": 64.3
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.12,
-        "market_sample_n": 5,
-        "at_product_market": {
-          "sell": 16.12,
-          "fee": 1.19,
-          "profit": 8.13,
-          "margin_pct": 50.4
         }
       },
       {
@@ -3870,32 +2996,23 @@
           "margin_pct": -69.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.41,
-          "margin_pct": 50.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.68,
+          "margin_pct": 50.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.31,
           "margin_pct": 59.6
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 11.07,
-          "margin_pct": 54.0
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 86,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -3917,63 +3034,17 @@
           "margin_pct": -89.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.37,
-          "margin_pct": 60.8
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.64,
+          "margin_pct": 61.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.28,
           "margin_pct": 67.8
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 84,
-        "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 3.49,
-        "shipping_order_usd": 6.98,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.75,
-        "landed_cost_ddu_usd": 7.75,
-        "landed_cost_ddp_usd": 7.2,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.37,
-        "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": -0.2,
-          "margin_pct": -2.5
-        },
-        "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.56,
-          "margin_pct": 51.1
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.47,
-          "margin_pct": 60.3
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        }
       }
     ],
     "ddu_3개_묶음배송": [
@@ -4003,25 +3074,16 @@
           "margin_pct": 5.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.23,
-          "margin_pct": 54.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.5,
+          "margin_pct": 55.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.13,
           "margin_pct": 63.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 10.51,
-          "margin_pct": 55.3
         }
       },
       {
@@ -4050,25 +3112,16 @@
           "margin_pct": 5.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.23,
-          "margin_pct": 54.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.5,
+          "margin_pct": 55.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.13,
           "margin_pct": 63.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.99,
-          "fee": 1.18,
-          "profit": 7.72,
-          "margin_pct": 48.3
         }
       },
       {
@@ -4097,25 +3150,16 @@
           "margin_pct": -39.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.58,
-          "margin_pct": 35.2
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.85,
+          "margin_pct": 36.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 11.49,
           "margin_pct": 47.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 6.16,
-          "margin_pct": 33.8
         }
       },
       {
@@ -4144,25 +3188,16 @@
           "margin_pct": 5.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.23,
-          "margin_pct": 54.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.5,
+          "margin_pct": 55.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.13,
           "margin_pct": 63.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.49,
-        "market_sample_n": 10,
-        "at_product_market": {
-          "sell": 19.49,
-          "fee": 1.44,
-          "profit": 10.96,
-          "margin_pct": 56.2
         }
       },
       {
@@ -4191,25 +3226,16 @@
           "margin_pct": -69.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.04,
-          "margin_pct": 64.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.31,
+          "margin_pct": 64.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.95,
           "margin_pct": 70.6
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 13.0,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 13.0,
-          "fee": 0.96,
-          "profit": 6.76,
-          "margin_pct": 52.0
         }
       },
       {
@@ -4238,21 +3264,12 @@
           "margin_pct": 5.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.23,
-          "margin_pct": 54.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.5,
+          "margin_pct": 55.3
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 15.13,
-          "margin_pct": 63.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.0,
-        "market_sample_n": 9,
-        "at_product_market": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.13,
@@ -4260,10 +3277,10 @@
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "pd_no": "1059832",
+        "name": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 92,
+        "shopify_score": 93,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
@@ -4285,25 +3302,16 @@
           "margin_pct": -38.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 13.03,
-          "margin_pct": 69.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 13.3,
+          "margin_pct": 70.1
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.94,
           "margin_pct": 74.8
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 7.75,
-          "margin_pct": 59.6
         }
       },
       {
@@ -4332,25 +3340,16 @@
           "margin_pct": 5.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.23,
-          "margin_pct": 54.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.5,
+          "margin_pct": 55.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.13,
           "margin_pct": 63.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 11.89,
-          "margin_pct": 58.0
         }
       },
       {
@@ -4379,32 +3378,23 @@
           "margin_pct": -7.2
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.43,
-          "margin_pct": 66.5
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.7,
+          "margin_pct": 66.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.34,
           "margin_pct": 72.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.47,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.47,
-          "fee": 1.44,
-          "profit": 13.14,
-          "margin_pct": 67.5
         }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
@@ -4426,25 +3416,16 @@
           "margin_pct": -12.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 8.78,
-          "margin_pct": 47.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.05,
+          "margin_pct": 47.7
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 13.69,
           "margin_pct": 57.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
-        "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 9.05,
-          "margin_pct": 47.7
         }
       },
       {
@@ -4473,25 +3454,16 @@
           "margin_pct": -32.6
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.19,
-          "margin_pct": 59.8
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.46,
+          "margin_pct": 60.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.1,
           "margin_pct": 67.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.12,
-        "market_sample_n": 5,
-        "at_product_market": {
-          "sell": 16.12,
-          "fee": 1.19,
-          "profit": 8.8,
-          "margin_pct": 54.6
         }
       },
       {
@@ -4520,32 +3492,23 @@
           "margin_pct": -47.0
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.49,
-          "margin_pct": 56.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.75,
+          "margin_pct": 56.6
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.39,
           "margin_pct": 64.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 12.15,
-          "margin_pct": 59.3
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 86,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -4567,63 +3530,17 @@
           "margin_pct": -69.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.04,
-          "margin_pct": 64.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.31,
+          "margin_pct": 64.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.95,
           "margin_pct": 70.6
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 84,
-        "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 2.33,
-        "shipping_order_usd": 6.98,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 6.59,
-        "landed_cost_ddu_usd": 6.59,
-        "landed_cost_ddp_usd": 6.03,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 7.12,
-        "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": 0.96,
-          "margin_pct": 11.8
-        },
-        "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.73,
-          "margin_pct": 57.4
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 15.63,
-          "margin_pct": 65.1
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        }
       }
     ],
     "ddu_5개_묶음배송": [
@@ -4653,25 +3570,16 @@
           "margin_pct": 14.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.91,
-          "margin_pct": 58.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.18,
+          "margin_pct": 58.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.82,
           "margin_pct": 65.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 11.2,
-          "margin_pct": 58.9
         }
       },
       {
@@ -4700,25 +3608,16 @@
           "margin_pct": 14.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.91,
-          "margin_pct": 58.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.18,
+          "margin_pct": 58.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.82,
           "margin_pct": 65.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.99,
-          "fee": 1.18,
-          "profit": 8.4,
-          "margin_pct": 52.6
         }
       },
       {
@@ -4747,25 +3646,16 @@
           "margin_pct": -21.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 8.04,
-          "margin_pct": 43.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 8.31,
+          "margin_pct": 43.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 12.95,
           "margin_pct": 54.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 7.62,
-          "margin_pct": 41.8
         }
       },
       {
@@ -4794,25 +3684,16 @@
           "margin_pct": 14.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.91,
-          "margin_pct": 58.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.18,
+          "margin_pct": 58.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.82,
           "margin_pct": 65.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.49,
-        "market_sample_n": 10,
-        "at_product_market": {
-          "sell": 19.49,
-          "fee": 1.44,
-          "profit": 11.64,
-          "margin_pct": 59.7
         }
       },
       {
@@ -4841,25 +3722,16 @@
           "margin_pct": -42.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.91,
-          "margin_pct": 69.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 13.18,
+          "margin_pct": 69.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.82,
           "margin_pct": 74.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 13.0,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 13.0,
-          "fee": 0.96,
-          "profit": 7.63,
-          "margin_pct": 58.7
         }
       },
       {
@@ -4888,21 +3760,12 @@
           "margin_pct": 14.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.91,
-          "margin_pct": 58.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.18,
+          "margin_pct": 58.9
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 15.82,
-          "margin_pct": 65.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.0,
-        "market_sample_n": 9,
-        "at_product_market": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.82,
@@ -4910,10 +3773,10 @@
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "pd_no": "1059832",
+        "name": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 92,
+        "shopify_score": 93,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
@@ -4935,25 +3798,16 @@
           "margin_pct": -21.0
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 13.61,
-          "margin_pct": 72.8
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 13.88,
+          "margin_pct": 73.1
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 18.52,
           "margin_pct": 77.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 8.32,
-          "margin_pct": 64.1
         }
       },
       {
@@ -4982,25 +3836,16 @@
           "margin_pct": 14.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.91,
-          "margin_pct": 58.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.18,
+          "margin_pct": 58.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.82,
           "margin_pct": 65.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 12.58,
-          "margin_pct": 61.4
         }
       },
       {
@@ -5029,32 +3874,23 @@
           "margin_pct": 8.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 13.21,
-          "margin_pct": 70.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 13.48,
+          "margin_pct": 71.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 18.12,
           "margin_pct": 75.5
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.47,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.47,
-          "fee": 1.44,
-          "profit": 13.93,
-          "margin_pct": 71.5
         }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
@@ -5076,25 +3912,16 @@
           "margin_pct": -3.4
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.49,
-          "margin_pct": 50.8
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.76,
+          "margin_pct": 51.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.4,
           "margin_pct": 60.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
-        "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 9.76,
-          "margin_pct": 51.4
         }
       },
       {
@@ -5123,25 +3950,16 @@
           "margin_pct": -12.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.2,
-          "margin_pct": 65.2
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.46,
+          "margin_pct": 65.6
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.1,
           "margin_pct": 71.3
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.12,
-        "market_sample_n": 5,
-        "at_product_market": {
-          "sell": 16.12,
-          "fee": 1.19,
-          "profit": 9.81,
-          "margin_pct": 60.8
         }
       },
       {
@@ -5170,32 +3988,23 @@
           "margin_pct": -32.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.2,
-          "margin_pct": 59.9
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.46,
+          "margin_pct": 60.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.1,
           "margin_pct": 67.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 12.86,
-          "margin_pct": 62.7
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 86,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -5217,63 +4026,17 @@
           "margin_pct": -42.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.91,
-          "margin_pct": 69.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 13.18,
+          "margin_pct": 69.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.82,
           "margin_pct": 74.2
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 84,
-        "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 1.7,
-        "shipping_order_usd": 8.48,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 5.96,
-        "landed_cost_ddu_usd": 5.96,
-        "landed_cost_ddp_usd": 5.4,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.43,
-        "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": 1.59,
-          "margin_pct": 19.5
-        },
-        "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.36,
-          "margin_pct": 60.7
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 16.27,
-          "margin_pct": 67.8
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        }
       }
     ],
     "ddp_1개_묶음배송": [
@@ -5303,25 +4066,16 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.63,
-          "margin_pct": 35.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.9,
+          "margin_pct": 36.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 11.53,
           "margin_pct": 48.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 6.91,
-          "margin_pct": 36.4
         }
       },
       {
@@ -5350,25 +4104,16 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.63,
-          "margin_pct": 35.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.9,
+          "margin_pct": 36.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 11.53,
           "margin_pct": 48.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.99,
-          "fee": 1.18,
-          "profit": 4.12,
-          "margin_pct": 25.7
         }
       },
       {
@@ -5397,25 +4142,16 @@
           "margin_pct": -84.1
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 2.91,
-          "margin_pct": 15.5
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 3.17,
+          "margin_pct": 16.7
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 7.81,
           "margin_pct": 32.6
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 2.49,
-          "margin_pct": 13.6
         }
       },
       {
@@ -5444,25 +4180,16 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.63,
-          "margin_pct": 35.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.9,
+          "margin_pct": 36.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 11.53,
           "margin_pct": 48.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.49,
-        "market_sample_n": 10,
-        "at_product_market": {
-          "sell": 19.49,
-          "fee": 1.44,
-          "profit": 7.36,
-          "margin_pct": 37.8
         }
       },
       {
@@ -5491,25 +4218,16 @@
           "margin_pct": -166.9
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 8.85,
-          "margin_pct": 47.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.12,
+          "margin_pct": 48.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 13.76,
           "margin_pct": 57.3
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 13.0,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 13.0,
-          "fee": 0.96,
-          "profit": 3.57,
-          "margin_pct": 27.5
         }
       },
       {
@@ -5538,21 +4256,12 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.63,
-          "margin_pct": 35.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.9,
+          "margin_pct": 36.3
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 11.53,
-          "margin_pct": 48.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.0,
-        "market_sample_n": 9,
-        "at_product_market": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 11.53,
@@ -5560,10 +4269,10 @@
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "pd_no": "1059832",
+        "name": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 92,
+        "shopify_score": 93,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
@@ -5585,25 +4294,16 @@
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.6,
-          "margin_pct": 51.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.87,
+          "margin_pct": 52.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.51,
           "margin_pct": 60.4
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 4.31,
-          "margin_pct": 33.2
         }
       },
       {
@@ -5632,25 +4332,16 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.63,
-          "margin_pct": 35.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.9,
+          "margin_pct": 36.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 11.53,
           "margin_pct": 48.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 8.29,
-          "margin_pct": 40.5
         }
       },
       {
@@ -5679,32 +4370,23 @@
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 8.86,
-          "margin_pct": 47.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.13,
+          "margin_pct": 48.1
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 13.77,
           "margin_pct": 57.4
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.47,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.47,
-          "fee": 1.44,
-          "profit": 9.57,
-          "margin_pct": 49.2
         }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
@@ -5726,25 +4408,16 @@
           "margin_pct": -47.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 5.88,
-          "margin_pct": 31.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.15,
+          "margin_pct": 32.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 10.79,
           "margin_pct": 44.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
-        "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 6.15,
-          "margin_pct": 32.4
         }
       },
       {
@@ -5773,25 +4446,16 @@
           "margin_pct": -95.6
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 8.11,
-          "margin_pct": 43.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 8.38,
+          "margin_pct": 44.1
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 13.02,
           "margin_pct": 54.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.12,
-        "market_sample_n": 5,
-        "at_product_market": {
-          "sell": 16.12,
-          "fee": 1.19,
-          "profit": 5.72,
-          "margin_pct": 35.5
         }
       },
       {
@@ -5820,32 +4484,23 @@
           "margin_pct": -110.9
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 7.36,
-          "margin_pct": 39.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 7.63,
+          "margin_pct": 40.2
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 12.27,
           "margin_pct": 51.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 9.03,
-          "margin_pct": 44.0
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 86,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -5867,63 +4522,17 @@
           "margin_pct": -166.9
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 8.85,
-          "margin_pct": 47.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.12,
+          "margin_pct": 48.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 13.76,
           "margin_pct": 57.3
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 84,
-        "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 6.23,
-        "shipping_order_usd": 6.23,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 9.94,
-        "landed_cost_ddu_usd": 10.5,
-        "landed_cost_ddp_usd": 9.94,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 10.74,
-        "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": -2.39,
-          "margin_pct": -29.3
-        },
-        "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 7.38,
-          "margin_pct": 39.4
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 12.28,
-          "margin_pct": 51.2
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        }
       }
     ],
     "ddp_2개_묶음배송": [
@@ -5953,25 +4562,16 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.74,
-          "margin_pct": 52.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.01,
+          "margin_pct": 52.7
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.65,
           "margin_pct": 61.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 10.03,
-          "margin_pct": 52.8
         }
       },
       {
@@ -6000,25 +4600,16 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.74,
-          "margin_pct": 52.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.01,
+          "margin_pct": 52.7
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.65,
           "margin_pct": 61.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.99,
-          "fee": 1.18,
-          "profit": 7.23,
-          "margin_pct": 45.2
         }
       },
       {
@@ -6047,25 +4638,16 @@
           "margin_pct": -44.4
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 6.15,
-          "margin_pct": 32.9
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.42,
+          "margin_pct": 33.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 11.06,
           "margin_pct": 46.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 5.73,
-          "margin_pct": 31.4
         }
       },
       {
@@ -6094,25 +4676,16 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.74,
-          "margin_pct": 52.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.01,
+          "margin_pct": 52.7
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.65,
           "margin_pct": 61.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.49,
-        "market_sample_n": 10,
-        "at_product_market": {
-          "sell": 19.49,
-          "fee": 1.44,
-          "profit": 10.48,
-          "margin_pct": 53.7
         }
       },
       {
@@ -6141,25 +4714,16 @@
           "margin_pct": -82.9
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.59,
-          "margin_pct": 62.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.86,
+          "margin_pct": 62.5
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.5,
           "margin_pct": 68.8
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 13.0,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 13.0,
-          "fee": 0.96,
-          "profit": 6.32,
-          "margin_pct": 48.6
         }
       },
       {
@@ -6188,21 +4752,12 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.74,
-          "margin_pct": 52.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.01,
+          "margin_pct": 52.7
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.65,
-          "margin_pct": 61.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.0,
-        "market_sample_n": 9,
-        "at_product_market": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.65,
@@ -6210,10 +4765,10 @@
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "pd_no": "1059832",
+        "name": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 92,
+        "shopify_score": 93,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
@@ -6235,25 +4790,16 @@
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.34,
-          "margin_pct": 66.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.61,
+          "margin_pct": 66.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.25,
           "margin_pct": 71.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 7.05,
-          "margin_pct": 54.3
         }
       },
       {
@@ -6282,25 +4828,16 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.74,
-          "margin_pct": 52.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.01,
+          "margin_pct": 52.7
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.65,
           "margin_pct": 61.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 11.41,
-          "margin_pct": 55.7
         }
       },
       {
@@ -6329,32 +4866,23 @@
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.98,
-          "margin_pct": 64.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.24,
+          "margin_pct": 64.5
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.88,
           "margin_pct": 70.3
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.47,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.47,
-          "fee": 1.44,
-          "profit": 12.69,
-          "margin_pct": 65.2
         }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
@@ -6376,25 +4904,16 @@
           "margin_pct": -18.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 8.26,
-          "margin_pct": 44.2
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 8.53,
+          "margin_pct": 44.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 13.17,
           "margin_pct": 54.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
-        "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 8.53,
-          "margin_pct": 44.9
         }
       },
       {
@@ -6423,25 +4942,16 @@
           "margin_pct": -39.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.85,
-          "margin_pct": 58.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.12,
+          "margin_pct": 58.6
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.76,
           "margin_pct": 65.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.12,
-        "market_sample_n": 5,
-        "at_product_market": {
-          "sell": 16.12,
-          "fee": 1.19,
-          "profit": 8.46,
-          "margin_pct": 52.5
         }
       },
       {
@@ -6470,32 +4980,23 @@
           "margin_pct": -62.2
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.74,
-          "margin_pct": 52.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.01,
+          "margin_pct": 52.7
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.65,
           "margin_pct": 61.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 11.41,
-          "margin_pct": 55.6
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 86,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -6517,63 +5018,17 @@
           "margin_pct": -82.9
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.59,
-          "margin_pct": 62.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.86,
+          "margin_pct": 62.5
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.5,
           "margin_pct": 68.8
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 84,
-        "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 3.49,
-        "shipping_order_usd": 6.98,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 7.2,
-        "landed_cost_ddu_usd": 7.75,
-        "landed_cost_ddp_usd": 7.2,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.77,
-        "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": 0.35,
-          "margin_pct": 4.3
-        },
-        "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.12,
-          "margin_pct": 54.1
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 15.03,
-          "margin_pct": 62.6
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        }
       }
     ],
     "ddp_3개_묶음배송": [
@@ -6603,25 +5058,16 @@
           "margin_pct": 12.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.78,
-          "margin_pct": 57.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.05,
+          "margin_pct": 58.2
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.69,
           "margin_pct": 65.4
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 11.07,
-          "margin_pct": 58.2
         }
       },
       {
@@ -6650,25 +5096,16 @@
           "margin_pct": 12.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.78,
-          "margin_pct": 57.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.05,
+          "margin_pct": 58.2
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.69,
           "margin_pct": 65.4
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.99,
-          "fee": 1.18,
-          "profit": 8.27,
-          "margin_pct": 51.7
         }
       },
       {
@@ -6697,25 +5134,16 @@
           "margin_pct": -32.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 7.13,
-          "margin_pct": 38.1
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 7.4,
+          "margin_pct": 39.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 12.04,
           "margin_pct": 50.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 6.72,
-          "margin_pct": 36.8
         }
       },
       {
@@ -6744,25 +5172,16 @@
           "margin_pct": 12.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.78,
-          "margin_pct": 57.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.05,
+          "margin_pct": 58.2
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.69,
           "margin_pct": 65.4
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.49,
-        "market_sample_n": 10,
-        "at_product_market": {
-          "sell": 19.49,
-          "fee": 1.44,
-          "profit": 11.51,
-          "margin_pct": 59.1
         }
       },
       {
@@ -6791,25 +5210,16 @@
           "margin_pct": -62.2
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.27,
-          "margin_pct": 65.6
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.53,
+          "margin_pct": 66.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.17,
           "margin_pct": 71.6
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 13.0,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 13.0,
-          "fee": 0.96,
-          "profit": 6.99,
-          "margin_pct": 53.7
         }
       },
       {
@@ -6838,21 +5248,12 @@
           "margin_pct": 12.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.78,
-          "margin_pct": 57.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.05,
+          "margin_pct": 58.2
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 15.69,
-          "margin_pct": 65.4
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.0,
-        "market_sample_n": 9,
-        "at_product_market": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.69,
@@ -6860,10 +5261,10 @@
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "pd_no": "1059832",
+        "name": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 92,
+        "shopify_score": 93,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
@@ -6885,25 +5286,16 @@
           "margin_pct": -31.9
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 13.26,
-          "margin_pct": 70.9
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 13.52,
+          "margin_pct": 71.2
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 18.16,
           "margin_pct": 75.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 7.97,
-          "margin_pct": 61.3
         }
       },
       {
@@ -6932,25 +5324,16 @@
           "margin_pct": 12.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.78,
-          "margin_pct": 57.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.05,
+          "margin_pct": 58.2
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.69,
           "margin_pct": 65.4
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 12.45,
-          "margin_pct": 60.7
         }
       },
       {
@@ -6979,32 +5362,23 @@
           "margin_pct": -0.4
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.76,
-          "margin_pct": 68.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 13.03,
+          "margin_pct": 68.6
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.67,
           "margin_pct": 73.6
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.47,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.47,
-          "fee": 1.44,
-          "profit": 13.48,
-          "margin_pct": 69.2
         }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
@@ -7026,25 +5400,16 @@
           "margin_pct": -5.2
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 9.34,
-          "margin_pct": 49.9
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.61,
+          "margin_pct": 50.6
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.25,
           "margin_pct": 59.4
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
-        "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 9.61,
-          "margin_pct": 50.6
         }
       },
       {
@@ -7073,25 +5438,16 @@
           "margin_pct": -25.8
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.52,
-          "margin_pct": 61.6
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.79,
+          "margin_pct": 62.1
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.43,
           "margin_pct": 68.5
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.12,
-        "market_sample_n": 5,
-        "at_product_market": {
-          "sell": 16.12,
-          "fee": 1.19,
-          "profit": 9.14,
-          "margin_pct": 56.7
         }
       },
       {
@@ -7120,32 +5476,23 @@
           "margin_pct": -40.2
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.82,
-          "margin_pct": 57.9
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.09,
+          "margin_pct": 58.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 15.73,
           "margin_pct": 65.5
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 12.49,
-          "margin_pct": 60.9
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 86,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -7167,63 +5514,17 @@
           "margin_pct": -62.2
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.27,
-          "margin_pct": 65.6
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.53,
+          "margin_pct": 66.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.17,
           "margin_pct": 71.6
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 84,
-        "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 2.33,
-        "shipping_order_usd": 6.98,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 6.03,
-        "landed_cost_ddu_usd": 6.59,
-        "landed_cost_ddp_usd": 6.03,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 6.52,
-        "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": 1.52,
-          "margin_pct": 18.6
-        },
-        "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.28,
-          "margin_pct": 60.3
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 16.19,
-          "margin_pct": 67.5
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        }
       }
     ],
     "ddp_5개_묶음배송": [
@@ -7253,25 +5554,16 @@
           "margin_pct": 20.9
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.47,
-          "margin_pct": 61.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.74,
+          "margin_pct": 61.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.38,
           "margin_pct": 68.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 11.76,
-          "margin_pct": 61.8
         }
       },
       {
@@ -7300,25 +5592,16 @@
           "margin_pct": 20.9
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.47,
-          "margin_pct": 61.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.74,
+          "margin_pct": 61.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.38,
           "margin_pct": 68.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.99,
-          "fee": 1.18,
-          "profit": 8.96,
-          "margin_pct": 56.0
         }
       },
       {
@@ -7347,25 +5630,16 @@
           "margin_pct": -14.3
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 8.6,
-          "margin_pct": 46.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 8.87,
+          "margin_pct": 46.7
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 13.5,
           "margin_pct": 56.3
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 8.18,
-          "margin_pct": 44.8
         }
       },
       {
@@ -7394,25 +5668,16 @@
           "margin_pct": 20.9
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.47,
-          "margin_pct": 61.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.74,
+          "margin_pct": 61.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.38,
           "margin_pct": 68.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.49,
-        "market_sample_n": 10,
-        "at_product_market": {
-          "sell": 19.49,
-          "fee": 1.44,
-          "profit": 12.2,
-          "margin_pct": 62.6
         }
       },
       {
@@ -7441,25 +5706,16 @@
           "margin_pct": -35.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 13.13,
-          "margin_pct": 70.2
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 13.4,
+          "margin_pct": 70.6
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 18.04,
           "margin_pct": 75.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 13.0,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 13.0,
-          "fee": 0.96,
-          "profit": 7.85,
-          "margin_pct": 60.4
         }
       },
       {
@@ -7488,21 +5744,12 @@
           "margin_pct": 20.9
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.47,
-          "margin_pct": 61.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.74,
+          "margin_pct": 61.8
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 16.38,
-          "margin_pct": 68.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.0,
-        "market_sample_n": 9,
-        "at_product_market": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.38,
@@ -7510,10 +5757,10 @@
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "pd_no": "1059832",
+        "name": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 92,
+        "shopify_score": 93,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
@@ -7535,25 +5782,16 @@
           "margin_pct": -14.2
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 13.83,
-          "margin_pct": 74.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 14.1,
+          "margin_pct": 74.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 18.74,
           "margin_pct": 78.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 8.55,
-          "margin_pct": 65.8
         }
       },
       {
@@ -7582,25 +5820,16 @@
           "margin_pct": 20.9
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.47,
-          "margin_pct": 61.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.74,
+          "margin_pct": 61.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.38,
           "margin_pct": 68.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 13.14,
-          "margin_pct": 64.1
         }
       },
       {
@@ -7629,32 +5858,23 @@
           "margin_pct": 15.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 13.55,
-          "margin_pct": 72.4
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 13.81,
+          "margin_pct": 72.7
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 18.45,
           "margin_pct": 76.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.47,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 19.47,
-          "fee": 1.44,
-          "profit": 14.26,
-          "margin_pct": 73.2
         }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
@@ -7676,25 +5896,16 @@
           "margin_pct": 3.5
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 10.05,
-          "margin_pct": 53.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.32,
+          "margin_pct": 54.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 14.95,
           "margin_pct": 62.3
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
-        "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 10.32,
-          "margin_pct": 54.3
         }
       },
       {
@@ -7723,25 +5934,16 @@
           "margin_pct": -5.2
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 12.53,
-          "margin_pct": 67.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.8,
+          "margin_pct": 67.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 17.44,
           "margin_pct": 72.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.12,
-        "market_sample_n": 5,
-        "at_product_market": {
-          "sell": 16.12,
-          "fee": 1.19,
-          "profit": 10.14,
-          "margin_pct": 62.9
         }
       },
       {
@@ -7770,32 +5972,23 @@
           "margin_pct": -25.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.53,
-          "margin_pct": 61.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 11.8,
+          "margin_pct": 62.1
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 16.44,
           "margin_pct": 68.5
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 20.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 20.5,
-          "fee": 1.52,
-          "profit": 13.2,
-          "margin_pct": 64.4
         }
       },
       {
         "pd_no": "1067024",
         "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "bucket": "클렌징",
-        "shopify_score": 86,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 190,
         "weight_note": "용량 표기 없음 - 150g 가정",
@@ -7817,63 +6010,17 @@
           "margin_pct": -35.7
         },
         "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 13.13,
-          "margin_pct": 70.2
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 13.4,
+          "margin_pct": 70.6
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
           "profit": 18.04,
           "margin_pct": 75.2
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1057223",
-        "name": "태그 핑크 라이트 선쿠션 15 g",
-        "bucket": "선케어",
-        "shopify_score": 84,
-        "price_krw": 5000,
-        "weight_g_est": 64,
-        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 1.7,
-        "shipping_order_usd": 8.48,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 5.4,
-        "landed_cost_ddu_usd": 5.96,
-        "landed_cost_ddp_usd": 5.4,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.83,
-        "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": 2.15,
-          "margin_pct": 26.3
-        },
-        "at_market_p25": {
-          "sell": 18.7,
-          "fee": 1.38,
-          "profit": 11.91,
-          "margin_pct": 63.7
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 16.82,
-          "margin_pct": 70.1
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        }
       }
     ]
   }

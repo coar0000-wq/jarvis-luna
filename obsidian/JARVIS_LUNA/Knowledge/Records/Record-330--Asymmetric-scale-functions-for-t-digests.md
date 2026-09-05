@@ -2,7 +2,7 @@
 title: "Record 330 · Asymmetric-scale-functions-for-t-digests"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.576307+00:00
+updated_at: 2026-09-05T02:24:18.075369+00:00
 tags: [record, real-data]
 ---
 

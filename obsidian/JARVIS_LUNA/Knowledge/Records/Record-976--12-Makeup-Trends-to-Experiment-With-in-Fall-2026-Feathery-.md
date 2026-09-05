@@ -2,7 +2,7 @@
 title: "Record 976 · 12-Makeup-Trends-to-Experiment-With-in-Fall-2026-Feathery-Eyebrows-Bar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.725006+00:00
+updated_at: 2026-09-05T02:24:18.226136+00:00
 tags: [record, real-data]
 ---
 

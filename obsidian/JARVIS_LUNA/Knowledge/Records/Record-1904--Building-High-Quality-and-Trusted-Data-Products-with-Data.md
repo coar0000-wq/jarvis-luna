@@ -2,7 +2,7 @@
 title: "Record 1904 · Building-High-Quality-and-Trusted-Data-Products-with-Databricks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.939712+00:00
+updated_at: 2026-09-05T02:24:18.442566+00:00
 tags: [record, real-data]
 ---
 

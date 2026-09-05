@@ -2,7 +2,7 @@
 title: "Record 1505 · K-Beauty-Trends-Redefining-The-Future-Of-Luxury-Skincare---Yahoo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.845428+00:00
+updated_at: 2026-09-05T02:24:18.345846+00:00
 tags: [record, real-data]
 ---
 

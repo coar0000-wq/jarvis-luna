@@ -2,7 +2,7 @@
 title: "Record 1692 · How-law-firm-Gilbert--Tobin-governs-and-scales-AI-with-OpenAI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.891194+00:00
+updated_at: 2026-09-05T02:24:18.390018+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1534 · Shopify-Lays-Out-New-Rules-Governing-AI-Agents---PYMNTScom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.852032+00:00
+updated_at: 2026-09-05T02:24:18.352274+00:00
 tags: [record, real-data]
 ---
 

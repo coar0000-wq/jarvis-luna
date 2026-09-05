@@ -2,7 +2,7 @@
 title: "Record 1684 · How-AI-native-companies-turn-workflows-into-operating-capability"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.889200+00:00
+updated_at: 2026-09-05T02:24:18.388064+00:00
 tags: [record, real-data]
 ---
 

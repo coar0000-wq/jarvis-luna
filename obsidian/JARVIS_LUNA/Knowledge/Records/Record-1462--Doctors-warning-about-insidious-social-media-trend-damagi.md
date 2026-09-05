@@ -2,7 +2,7 @@
 title: "Record 1462 · Doctors-warning-about-insidious-social-media-trend-damaging-teen-girls"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.835364+00:00
+updated_at: 2026-09-05T02:24:18.335215+00:00
 tags: [record, real-data]
 ---
 

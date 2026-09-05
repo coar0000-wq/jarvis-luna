@@ -2,7 +2,7 @@
 title: "Record 1738 · Entropy-informed-Decoding-Adaptive-Information-Driven-Branching"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.902159+00:00
+updated_at: 2026-09-05T02:24:18.401506+00:00
 tags: [record, real-data]
 ---
 

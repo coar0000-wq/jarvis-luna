@@ -2,7 +2,7 @@
 title: "Record 1723 · Support-Size-of-varepsilon-Capacity-Achieving-Inputs-for-the-Amplitude"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.898735+00:00
+updated_at: 2026-09-05T02:24:18.397849+00:00
 tags: [record, real-data]
 ---
 

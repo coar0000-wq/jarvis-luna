@@ -2,7 +2,7 @@
 title: "Record 442 · Thermal-Optimization-Strategies-for-High-Performance-Semiconductor-3D-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.601520+00:00
+updated_at: 2026-09-05T02:24:18.102085+00:00
 tags: [record, real-data]
 ---
 

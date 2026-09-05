@@ -2,7 +2,7 @@
 title: "Record 1827 · Retrofitting-Linear-Attention-into-Diffusion-Language-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.921780+00:00
+updated_at: 2026-09-05T02:24:18.422939+00:00
 tags: [record, real-data]
 ---
 

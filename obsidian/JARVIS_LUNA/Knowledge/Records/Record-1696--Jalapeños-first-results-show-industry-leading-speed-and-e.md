@@ -2,7 +2,7 @@
 title: "Record 1696 · Jalapeños-first-results-show-industry-leading-speed-and-efficiency-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.892270+00:00
+updated_at: 2026-09-05T02:24:18.391054+00:00
 tags: [record, real-data]
 ---
 

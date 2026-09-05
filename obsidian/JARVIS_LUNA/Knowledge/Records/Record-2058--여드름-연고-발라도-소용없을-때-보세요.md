@@ -2,7 +2,7 @@
 title: "Record 2058 · 여드름-연고-발라도-소용없을-때-보세요"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.973576+00:00
+updated_at: 2026-09-05T02:24:18.477185+00:00
 tags: [record, real-data]
 ---
 

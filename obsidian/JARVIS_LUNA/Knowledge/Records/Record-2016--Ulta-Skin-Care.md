@@ -2,7 +2,7 @@
 title: "Record 2016 · Ulta-Skin-Care"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.964764+00:00
+updated_at: 2026-09-05T02:24:18.468154+00:00
 tags: [record, real-data]
 ---
 

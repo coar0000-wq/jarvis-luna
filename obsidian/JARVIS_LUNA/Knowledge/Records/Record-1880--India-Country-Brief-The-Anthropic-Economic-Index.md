@@ -2,7 +2,7 @@
 title: "Record 1880 · India-Country-Brief-The-Anthropic-Economic-Index"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.934777+00:00
+updated_at: 2026-09-05T02:24:18.437350+00:00
 tags: [record, real-data]
 ---
 

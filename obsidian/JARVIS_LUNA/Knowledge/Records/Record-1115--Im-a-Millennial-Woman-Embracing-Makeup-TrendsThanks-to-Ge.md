@@ -2,7 +2,7 @@
 title: "Record 1115 · Im-a-Millennial-Woman-Embracing-Makeup-TrendsThanks-to-Gen-Z---Best-He"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.756375+00:00
+updated_at: 2026-09-05T02:24:18.256227+00:00
 tags: [record, real-data]
 ---
 

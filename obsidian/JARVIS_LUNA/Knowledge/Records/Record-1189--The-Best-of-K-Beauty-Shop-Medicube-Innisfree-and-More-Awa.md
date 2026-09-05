@@ -2,7 +2,7 @@
 title: "Record 1189 · The-Best-of-K-Beauty-Shop-Medicube-Innisfree-and-More-Award-Winning-Pi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.773095+00:00
+updated_at: 2026-09-05T02:24:18.272202+00:00
 tags: [record, real-data]
 ---
 

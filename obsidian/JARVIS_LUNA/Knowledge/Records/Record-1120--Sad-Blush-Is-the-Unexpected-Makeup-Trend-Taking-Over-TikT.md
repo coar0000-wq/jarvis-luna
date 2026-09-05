@@ -2,7 +2,7 @@
 title: "Record 1120 · Sad-Blush-Is-the-Unexpected-Makeup-Trend-Taking-Over-TikTok-This-Winte"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.757519+00:00
+updated_at: 2026-09-05T02:24:18.257321+00:00
 tags: [record, real-data]
 ---
 

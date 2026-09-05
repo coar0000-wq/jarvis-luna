@@ -2,7 +2,7 @@
 title: "Record 1914 · European-Stocks-Defy-Global-Shocks-With-Strong-Earnings-Growth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.942024+00:00
+updated_at: 2026-09-05T02:24:18.444993+00:00
 tags: [record, real-data]
 ---
 

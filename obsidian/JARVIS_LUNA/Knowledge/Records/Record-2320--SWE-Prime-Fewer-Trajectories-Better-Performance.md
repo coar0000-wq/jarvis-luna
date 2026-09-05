@@ -2,7 +2,7 @@
 title: "Record 2320 · SWE-Prime-Fewer-Trajectories-Better-Performance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:10.042834+00:00
+updated_at: 2026-09-05T02:24:18.547270+00:00
 tags: [record, real-data]
 ---
 

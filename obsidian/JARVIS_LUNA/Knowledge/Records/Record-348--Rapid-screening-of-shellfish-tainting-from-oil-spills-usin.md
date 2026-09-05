@@ -2,7 +2,7 @@
 title: "Record 348 · Rapid-screening-of-shellfish-tainting-from-oil-spills-using-an-antibod"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.580393+00:00
+updated_at: 2026-09-05T02:24:18.079416+00:00
 tags: [record, real-data]
 ---
 

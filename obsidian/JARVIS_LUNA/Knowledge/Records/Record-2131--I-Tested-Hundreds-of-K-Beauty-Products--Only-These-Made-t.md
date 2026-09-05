@@ -2,7 +2,7 @@
 title: "Record 2131 · I-Tested-Hundreds-of-K-Beauty-Products--Only-These-Made-the-Cut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.988661+00:00
+updated_at: 2026-09-05T02:24:18.492749+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2107 · 클렌징폼-뭐-사요-이렇게만-고르세요"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.983693+00:00
+updated_at: 2026-09-05T02:24:18.487673+00:00
 tags: [record, real-data]
 ---
 

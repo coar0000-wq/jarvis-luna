@@ -2,7 +2,7 @@
 title: "Record 1445 · 7-best-Korean-Skincare-products-Tried--Tested-by-a-Beauty-Editor---the"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.831454+00:00
+updated_at: 2026-09-05T02:24:18.331023+00:00
 tags: [record, real-data]
 ---
 

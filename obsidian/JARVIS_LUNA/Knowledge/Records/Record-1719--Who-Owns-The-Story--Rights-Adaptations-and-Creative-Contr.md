@@ -2,7 +2,7 @@
 title: "Record 1719 · Who-Owns-The-Story--Rights-Adaptations-and-Creative-Control-in-Theatre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.897801+00:00
+updated_at: 2026-09-05T02:24:18.396857+00:00
 tags: [record, real-data]
 ---
 

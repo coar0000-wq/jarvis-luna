@@ -2,7 +2,7 @@
 title: "Record 2041 · 목표--올영에-입점된-제품들-다-써보기1일차-올영깡"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.969971+00:00
+updated_at: 2026-09-05T02:24:18.473491+00:00
 tags: [record, real-data]
 ---
 

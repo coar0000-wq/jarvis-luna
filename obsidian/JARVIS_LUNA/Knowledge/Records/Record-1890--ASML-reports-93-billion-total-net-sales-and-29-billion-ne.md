@@ -2,7 +2,7 @@
 title: "Record 1890 · ASML-reports-93-billion-total-net-sales-and-29-billion-net-income-in-Q"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.936864+00:00
+updated_at: 2026-09-05T02:24:18.439544+00:00
 tags: [record, real-data]
 ---
 

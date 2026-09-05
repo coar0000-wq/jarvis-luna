@@ -2,7 +2,7 @@
 title: "Record 1862 · Advancing-Claude-For-Education"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.930673+00:00
+updated_at: 2026-09-05T02:24:18.432757+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1907 · Five-ways-marketers-can-use-Genie-One"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.940382+00:00
+updated_at: 2026-09-05T02:24:18.443270+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1808 · Scale-Weight-Decay-and-Train-Better"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.917649+00:00
+updated_at: 2026-09-05T02:24:18.418309+00:00
 tags: [record, real-data]
 ---
 

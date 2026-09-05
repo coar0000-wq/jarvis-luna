@@ -2,7 +2,7 @@
 title: "Record 2258 · How-to-start-a-clothing-business"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:10.018003+00:00
+updated_at: 2026-09-05T02:24:18.522576+00:00
 tags: [record, real-data]
 ---
 

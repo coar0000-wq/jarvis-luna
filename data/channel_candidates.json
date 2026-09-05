@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T00:14:57.551510+00:00",
+  "generated_at": "2026-09-05T02:45:08.683197+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 연동은 사람이 승인한 뒤에 한다.",
   "판정기준": [
@@ -85,15 +85,15 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21130,
-      "items": 39,
+      "bytes": 21748,
+      "items": 40,
       "samples": [
-        "alabama football",
-        "Here’s Alabama football’s official depth chart for East Carolina game",
-        "Jumbo Package: Alabama football vs ECU previews and predictions"
+        "ben shelton",
+        "Denis Shapovalov, Ben Shelton prepare for ‘lefty, big-hitting battle’ at 2026 US Open",
+        "US Open tennis day six predictions, acca tips and odds: Showman Shelton can take out Shapovalov"
       ],
       "verdict": "가능",
-      "reason": "39건 파싱 성공, 값이 서로 다름"
+      "reason": "40건 파싱 성공, 값이 서로 다름"
     },
     {
       "key": "openfda_drug_otc_sunscreen",

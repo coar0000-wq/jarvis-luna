@@ -2,7 +2,7 @@
 title: "Record 1954 · Tech-Equity-Capital-Markets"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.950206+00:00
+updated_at: 2026-09-05T02:24:18.453551+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 628 · Conceptual-framework-for-AI-governance-data-privacy-compliance-and-fin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.643220+00:00
+updated_at: 2026-09-05T02:24:18.147704+00:00
 tags: [record, real-data]
 ---
 

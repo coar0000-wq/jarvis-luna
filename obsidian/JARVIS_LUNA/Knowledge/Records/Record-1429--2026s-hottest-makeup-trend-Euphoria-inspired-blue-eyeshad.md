@@ -2,7 +2,7 @@
 title: "Record 1429 · 2026s-hottest-makeup-trend-Euphoria-inspired-blue-eyeshadow--shop-our-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.827749+00:00
+updated_at: 2026-09-05T02:24:18.327062+00:00
 tags: [record, real-data]
 ---
 

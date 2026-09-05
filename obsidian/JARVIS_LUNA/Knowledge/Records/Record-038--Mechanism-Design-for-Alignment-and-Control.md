@@ -2,7 +2,7 @@
 title: "Record 038 · Mechanism-Design-for-Alignment-and-Control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.506034+00:00
+updated_at: 2026-09-05T02:24:18.005128+00:00
 tags: [record, real-data]
 ---
 

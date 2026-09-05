@@ -2,7 +2,7 @@
 title: "Record 1999 · From-spreadsheets-to-AI-Deere-gives-farmers-new-features-in-Operations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.960293+00:00
+updated_at: 2026-09-05T02:24:18.463595+00:00
 tags: [record, real-data]
 ---
 

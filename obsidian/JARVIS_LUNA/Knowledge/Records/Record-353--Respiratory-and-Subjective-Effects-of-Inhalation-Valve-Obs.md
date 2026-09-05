@@ -2,7 +2,7 @@
 title: "Record 353 · Respiratory-and-Subjective-Effects-of-Inhalation-Valve-Obstruction-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.581534+00:00
+updated_at: 2026-09-05T02:24:18.080529+00:00
 tags: [record, real-data]
 ---
 

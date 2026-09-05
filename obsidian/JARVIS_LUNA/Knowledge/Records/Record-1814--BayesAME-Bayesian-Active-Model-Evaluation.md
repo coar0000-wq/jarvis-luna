@@ -2,7 +2,7 @@
 title: "Record 1814 · BayesAME-Bayesian-Active-Model-Evaluation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.918927+00:00
+updated_at: 2026-09-05T02:24:18.419735+00:00
 tags: [record, real-data]
 ---
 

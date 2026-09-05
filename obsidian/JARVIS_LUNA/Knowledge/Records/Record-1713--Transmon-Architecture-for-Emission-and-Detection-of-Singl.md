@@ -2,7 +2,7 @@
 title: "Record 1713 · Transmon-Architecture-for-Emission-and-Detection-of-Single-Microwave-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.896427+00:00
+updated_at: 2026-09-05T02:24:18.395437+00:00
 tags: [record, real-data]
 ---
 

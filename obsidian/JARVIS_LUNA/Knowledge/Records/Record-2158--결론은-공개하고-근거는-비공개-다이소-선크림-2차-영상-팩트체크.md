@@ -2,7 +2,7 @@
 title: "Record 2158 · 결론은-공개하고-근거는-비공개-다이소-선크림-2차-영상-팩트체크"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.994316+00:00
+updated_at: 2026-09-05T02:24:18.498548+00:00
 tags: [record, real-data]
 ---
 

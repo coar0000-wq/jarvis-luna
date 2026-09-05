@@ -2,7 +2,7 @@
 title: "Record 1497 · Shopify-Leans-Into-AI-Commerce-as-Profit-Pressure-Mounts---pymntscom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.843568+00:00
+updated_at: 2026-09-05T02:24:18.343872+00:00
 tags: [record, real-data]
 ---
 

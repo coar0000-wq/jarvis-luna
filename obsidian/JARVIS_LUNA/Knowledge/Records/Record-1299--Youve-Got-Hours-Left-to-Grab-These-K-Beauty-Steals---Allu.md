@@ -2,7 +2,7 @@
 title: "Record 1299 · Youve-Got-Hours-Left-to-Grab-These-K-Beauty-Steals---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.798311+00:00
+updated_at: 2026-09-05T02:24:18.296264+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2098 · 이중세안-할까-말까"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.981805+00:00
+updated_at: 2026-09-05T02:24:18.485707+00:00
 tags: [record, real-data]
 ---
 

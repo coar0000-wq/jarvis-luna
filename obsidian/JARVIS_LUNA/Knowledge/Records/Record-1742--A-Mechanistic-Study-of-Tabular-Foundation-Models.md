@@ -2,7 +2,7 @@
 title: "Record 1742 · A-Mechanistic-Study-of-Tabular-Foundation-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.903045+00:00
+updated_at: 2026-09-05T02:24:18.402467+00:00
 tags: [record, real-data]
 ---
 

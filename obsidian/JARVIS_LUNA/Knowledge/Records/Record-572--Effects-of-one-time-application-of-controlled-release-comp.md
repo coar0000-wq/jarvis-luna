@@ -2,7 +2,7 @@
 title: "Record 572 · Effects-of-one-time-application-of-controlled-release-compound-fertili"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.630461+00:00
+updated_at: 2026-09-05T02:24:18.134525+00:00
 tags: [record, real-data]
 ---
 

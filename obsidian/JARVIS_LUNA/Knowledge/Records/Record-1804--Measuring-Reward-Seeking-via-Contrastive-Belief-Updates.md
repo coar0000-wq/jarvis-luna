@@ -2,7 +2,7 @@
 title: "Record 1804 · Measuring-Reward-Seeking-via-Contrastive-Belief-Updates"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.916828+00:00
+updated_at: 2026-09-05T02:24:18.417371+00:00
 tags: [record, real-data]
 ---
 

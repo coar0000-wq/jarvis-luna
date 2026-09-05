@@ -2,7 +2,7 @@
 title: "Record 2200 · 지금-올리브영--무신사에서-레이어랩-행사중어디에서-살까-할인-혜택-총정리"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:10.003026+00:00
+updated_at: 2026-09-05T02:24:18.507445+00:00
 tags: [record, real-data]
 ---
 

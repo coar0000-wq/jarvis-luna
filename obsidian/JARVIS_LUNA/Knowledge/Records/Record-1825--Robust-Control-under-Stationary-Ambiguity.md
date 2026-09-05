@@ -2,7 +2,7 @@
 title: "Record 1825 · Robust-Control-under-Stationary-Ambiguity"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T23:54:09.921376+00:00
+updated_at: 2026-09-05T02:24:18.422470+00:00
 tags: [record, real-data]
 ---
 
