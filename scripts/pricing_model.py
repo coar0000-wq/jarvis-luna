@@ -86,6 +86,36 @@ PACKAGING_G = 40            # 완충재 + 봉투 실측 대신 보수적 추정
 OLIVEYOUNG = ROOT / "data" / "oliveyoung_us_products.json"
 
 
+SERP_PATH = ROOT / "data" / "serpapi_market.json"
+
+
+def load_serp_prices() -> dict:
+    """SerpApi google_shopping 으로 받은 상품별 미국 실판매가.
+
+    전에는 올리브영 베스트셀러 100건의 중앙값 하나를 전 상품에 똑같이 썼다.
+    앰플과 시트마스크의 시장가가 같을 리 없어 마진 계산이 어긋났다.
+    상품번호별 중앙값이 있으면 그것을 쓰고, 없으면 종전 벤치마크로 돌아간다.
+    """
+    try:
+        d = json.loads(SERP_PATH.read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError, UnicodeDecodeError):
+        return {}
+    out = {}
+    for it in ((d.get("prices") or {}).get("items") or []):
+        m = it.get("median_usd")
+        n = it.get("n") or 0
+        # 표본이 너무 적으면 중앙값을 믿지 않는다
+        if isinstance(m, (int, float)) and m > 0 and n >= 5:
+            out[str(it.get("pd_no"))] = {
+                "median": float(m), "min": it.get("min_usd"),
+                "max": it.get("max_usd"), "n": n, "query": it.get("query"),
+            }
+    return out
+
+
+SERP = load_serp_prices()
+
+
 def market_benchmark() -> dict:
     """OliveYoung US 베스트셀러 실수집 가격으로 시장 기준을 잡는다.
 
@@ -160,6 +190,7 @@ def analyze(p: dict, rate: float, per_order: int, MARKET: dict,
             duty_mode: str = "ddu") -> dict:
     name = p.get("name") or ""
     krw = int(p.get("price_krw") or 0)
+    serp = SERP.get(str(p.get("pd_no")))
     hit = MEASURED.get(str(p.get("pd_no")))
     if hit:
         grams, wnote = hit[0], hit[1]
@@ -211,6 +242,13 @@ def analyze(p: dict, rate: float, per_order: int, MARKET: dict,
         "at_2_2x": profit(cost * 2.2),          # 현재 대시보드 가정
         "at_market_p25": profit(MARKET["p25"]),
         "at_market_median": profit(MARKET["median"]),
+        # 상품별 미국 실판매가. 있으면 이쪽이 정확하다.
+        "market_price_source": ("serpapi_google_shopping" if serp
+                                else "oliveyoung_us_benchmark"),
+        "market_median_usd": (round(serp["median"], 2) if serp
+                              else MARKET["median"]),
+        "market_sample_n": (serp["n"] if serp else MARKET.get("n")),
+        "at_product_market": (profit(serp["median"]) if serp else None),
     }
 
 
@@ -294,6 +332,12 @@ def main() -> int:
                              "포장 자재비", "미국 주 판매세", "환율 변동"],
         },
         "market_benchmark": MARKET,
+        "product_market_prices": {
+            "source": "SerpApi google_shopping (미국)",
+            "matched": len(SERP),
+            "note": ("상품별 실판매가가 있는 건은 그 값으로 마진을 계산한다. "
+                     "없으면 올리브영 베스트셀러 벤치마크로 돌아간다."),
+        },
         "duty_mode_note": {
             "선택_필요": True,
             "ddu": ("관세를 판매가에 녹인다. 배송사와 관세 선납(DDP 배송) 계약이 "
