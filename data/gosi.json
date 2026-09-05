@@ -20,7 +20,7 @@
       "maker": "",
       "origin": "한국",
       "warnings": "",
-      "captured_at": "2026-09-05T12:21:41.950788+00:00",
+      "captured_at": "2026-09-05T12:40:56.816980+00:00",
       "detail_images": [
         "data/daiso_real/gosi_img/1048583_01.jpg",
         "data/daiso_real/gosi_img/1048583_02.jpg",
@@ -38,7 +38,7 @@
       "maker": "",
       "origin": "한국",
       "warnings": "",
-      "captured_at": "2026-09-05T12:22:02.263820+00:00",
+      "captured_at": "2026-09-05T12:41:18.630459+00:00",
       "detail_images": [
         "data/daiso_real/gosi_img/1045146_01.jpg"
       ],
@@ -51,7 +51,7 @@
       "maker": "",
       "origin": "한국",
       "warnings": "",
-      "captured_at": "2026-09-05T12:22:22.558896+00:00",
+      "captured_at": "2026-09-05T12:41:40.824986+00:00",
       "detail_images": [
         "data/daiso_real/gosi_img/1049271_01.jpg",
         "data/daiso_real/gosi_img/1049271_02.jpg"
@@ -65,7 +65,7 @@
       "maker": "",
       "origin": "한국",
       "warnings": "",
-      "captured_at": "2026-09-05T12:22:43.574919+00:00",
+      "captured_at": "2026-09-05T12:42:05.223035+00:00",
       "detail_images": [
         "data/daiso_real/gosi_img/1048581_01.jpg",
         "data/daiso_real/gosi_img/1048581_02.jpg",
@@ -82,7 +82,7 @@
       "maker": "",
       "origin": "한국",
       "warnings": "",
-      "captured_at": "2026-09-05T12:23:03.982073+00:00",
+      "captured_at": "2026-09-05T12:42:27.190901+00:00",
       "detail_images": [
         "data/daiso_real/gosi_img/1075857_01.jpg"
       ],
@@ -95,7 +95,7 @@
       "maker": "",
       "origin": "한국",
       "warnings": "",
-      "captured_at": "2026-09-05T12:23:24.304940+00:00",
+      "captured_at": "2026-09-05T12:42:48.699611+00:00",
       "detail_images": [
         "data/daiso_real/gosi_img/1068776_01.jpg"
       ],
@@ -108,7 +108,7 @@
       "maker": "",
       "origin": "한국",
       "warnings": "",
-      "captured_at": "2026-09-05T12:23:45.012744+00:00",
+      "captured_at": "2026-09-05T12:43:11.200931+00:00",
       "detail_images": [
         "data/daiso_real/gosi_img/1059834_01.jpg",
         "data/daiso_real/gosi_img/1059834_03.jpg"
@@ -122,7 +122,7 @@
       "maker": "",
       "origin": "한국",
       "warnings": "",
-      "captured_at": "2026-09-05T12:24:05.353353+00:00",
+      "captured_at": "2026-09-05T12:43:33.088364+00:00",
       "detail_images": [
         "data/daiso_real/gosi_img/1062781_01.jpg"
       ],
@@ -135,7 +135,7 @@
       "maker": "",
       "origin": "한국",
       "warnings": "",
-      "captured_at": "2026-09-05T12:24:25.688094+00:00",
+      "captured_at": "2026-09-05T12:43:54.961620+00:00",
       "detail_images": [
         "data/daiso_real/gosi_img/1060487_01.jpg"
       ],
@@ -148,7 +148,7 @@
       "maker": "",
       "origin": "한국",
       "warnings": "",
-      "captured_at": "2026-09-05T12:24:45.993394+00:00",
+      "captured_at": "2026-09-05T12:44:16.784384+00:00",
       "detail_images": [
         "data/daiso_real/gosi_img/1041403_01.jpg"
       ],
@@ -161,7 +161,7 @@
       "maker": "",
       "origin": "한국",
       "warnings": "",
-      "captured_at": "2026-09-05T12:25:06.391323+00:00",
+      "captured_at": "2026-09-05T12:44:38.913275+00:00",
       "detail_images": [
         "data/daiso_real/gosi_img/1070006_01.jpg"
       ],
@@ -174,7 +174,7 @@
       "maker": "",
       "origin": "한국",
       "warnings": "",
-      "captured_at": "2026-09-05T12:25:26.598804+00:00",
+      "captured_at": "2026-09-05T12:45:00.687233+00:00",
       "detail_images": [
         "data/daiso_real/gosi_img/1032881_01.jpg"
       ],
@@ -187,7 +187,7 @@
       "maker": "",
       "origin": "한국",
       "warnings": "",
-      "captured_at": "2026-09-05T12:25:47.043272+00:00",
+      "captured_at": "2026-09-05T12:45:22.917633+00:00",
       "detail_images": [
         "data/daiso_real/gosi_img/1067024_01.jpg"
       ],
@@ -200,7 +200,7 @@
       "maker": "",
       "origin": "한국",
       "warnings": "",
-      "captured_at": "2026-09-05T12:26:08.505061+00:00",
+      "captured_at": "2026-09-05T12:45:46.115243+00:00",
       "detail_images": [
         "data/daiso_real/gosi_img/1057223_01.jpg",
         "data/daiso_real/gosi_img/1057223_02.jpg"
@@ -211,7 +211,68 @@
   "사람이_할_일": "gosi_image 를 열면 제품명·용량·사용기한·기능성·제조업자·제조국·전성분이 한 표에 인쇄되어 있다. 그것을 보고 volume, ingredients, maker 를 채운다. 표를 그대로 옮겨 적고 요약하지 않는다.",
   "auto_filled_note": "제조국·품질보증·상담전화는 selPdDtlNtfc 로 자동으로 찬다. 용량과 전성분은 상세 이미지 안에 인쇄되어 있어 텍스트로 받을 수 없다. detail_images 를 열어 보고 사람이 채운다. OCR 로 지어내지 않는다.",
   "auto_source": "POST fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlNtfc, selPdDtlDesc",
-  "last_auto_run": "2026-09-05T12:26:18.505482+00:00",
+  "last_auto_run": "2026-09-05T12:45:56.115434+00:00",
   "auto_failures": [],
-  "gosi_ok_count": 0
+  "gosi_ok_count": 0,
+  "vision_status": "ok",
+  "vision_note": "용량·전성분은 이미지에만 있어 Gemini 비전으로 읽었다. 읽기이지 생성이 아니다. 표에 없는 항목은 빈칸으로 두게 지시했다. verified 는 사람이 원본 이미지와 대조한 뒤 true 로 바꾼다. 게시 전 검수는 여전히 필요하다.",
+  "vision_failures": [
+    {
+      "pd_no": "1048583",
+      "reason": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "pd_no": "1045146",
+      "reason": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "pd_no": "1049271",
+      "reason": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "pd_no": "1048581",
+      "reason": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "pd_no": "1075857",
+      "reason": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "pd_no": "1068776",
+      "reason": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "pd_no": "1059834",
+      "reason": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "pd_no": "1062781",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "pd_no": "1060487",
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "pd_no": "1041403",
+      "reason": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "pd_no": "1070006",
+      "reason": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "pd_no": "1032881",
+      "reason": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "pd_no": "1067024",
+      "reason": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "pd_no": "1057223",
+      "reason": "HTTPError: HTTP Error 503: Service Unavailable"
+    }
+  ],
+  "vision_at": "2026-09-05T12:47:30.722682+00:00"
 }
