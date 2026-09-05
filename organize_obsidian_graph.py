@@ -2,7 +2,6 @@
 """Clean generated graph folders and rebuild one connected Obsidian graph."""
 from __future__ import annotations
 
-import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -18,9 +17,24 @@ DASHBOARD = VAULT / "JARVIS Dashboard Sync.md"
 
 
 def remove_generated_only() -> None:
+    """더 이상 지우지 않는다. 누적이 맞다.
+
+    2026-09-05: 이 함수가 Records/Sources/Topics 를 매 실행마다 통째로 지우고
+    이번 회차 코퍼스(약 2,300건)만 다시 만들고 있었다. 그런데 배포 단계는
+    `git checkout <내커밋> -- obsidian` 으로 산출물을 되살리는 방식이라
+    삭제는 저장소까지 전달되지 않았다. 결과적으로
+
+      저장소  27,787 노트 (계속 누적)
+      러너     2,853 노트 (지우고 다시 만든 이번 회차분)
+
+    가 되어 대시보드가 러너 기준 숫자를 보고했다. 실제로 지워진 것은 없는데
+    노트가 27,809 -> 2,853 으로 줄어든 것처럼 보인 원인이다.
+
+    삭제를 없애면 러너와 저장소가 같아지고 숫자가 맞는다.
+    """
     for path in GENERATED:
         if path.exists():
-            shutil.rmtree(path)
+            print(f"  유지: {path.relative_to(ROOT)} ({sum(1 for _ in path.glob('*.md'))}개)")
 
 
 def write_hub() -> None:
