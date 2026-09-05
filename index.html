@@ -79,7 +79,10 @@ box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
 .team-section h3{font-size:13px;letter-spacing:2px;color:#8b949e;text-transform:uppercase;margin-bottom:4px;display:flex;justify-content:space-between;align-items:baseline;gap:12px;}
 .team-section .team-h3{display:inline-flex;align-items:center;gap:8px;}
 .team-section .team-h3-img{width:40px;height:40px;object-fit:contain;display:block;flex:0 0 40px;}
-.team-section .team-sub{font-size:12px;color:#666;margin-bottom:16px;}
+.team-section .team-sub{font-size:12px;color:#666;margin-bottom:10px;}
+.team-meta{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:#8b949e;padding:10px 0 4px;border-top:1px solid #232323;margin-bottom:6px;}
+.team-meta span{white-space:nowrap;}
+.team-meta #updated-at{color:#6e7681;margin-left:auto;}
 .team-list{list-style:none;}
 .team-row{display:flex;align-items:flex-start;gap:14px;padding:14px 0;border-bottom:1px solid #232323;}
 .team-row:last-child{border-bottom:none;}
@@ -333,19 +336,13 @@ nav a{font-size:12px;}
 </div>
 </div>
 
-<!-- Today's Intelligence -->
-<div class="today-intelligence" id="knowledge">
-<h3><span>📊 Today's Intelligence</span><span id="updated-at">동기화 확인 중…</span></h3>
-<div class="intelligence-items" id="intelligence-items">
-<div class="intelligence-item"><span>실시간 데이터를 불러오는 중…</span></div>
-</div>
-</div>
 
 
 <!-- Team Cards -->
-<div class="team-section" id="teams">
+<div class="team-section" id="teams"><span id="knowledge"></span>
 <h3><span class="team-h3"><img class="team-h3-img" src="images/jarvis.png" alt="JARVIS" width="40" height="40">JARVIS 팀 현황</span><span id="team-updated" style="font-size:11px;letter-spacing:0;text-transform:none;color:#6e7681;"></span></h3>
 <div class="team-sub">각 줄의 숫자는 해당 팀 산출 파일의 실측값입니다.</div>
+<div class="team-meta" id="team-meta"><span id="updated-at">동기화 확인 중…</span></div>
 <ul class="team-list" id="team-list">
 <li class="team-row"><div class="team-body"><div class="team-summary">팀 현황을 불러오는 중…</div></div></li>
 </ul>
@@ -1276,13 +1273,17 @@ set('side-loss',d.training.final_loss!=null?d.training.final_loss.toFixed(4):'�
 renderTeams(d);
 renderPipeline(d);
 renderTraining(d.training);
-const items=$('intelligence-items');
-if(items){
-const done=(d.pipeline||[]).filter(s=>['completed','generated','ready_for_pages'].includes(s.status)).length;
-items.innerHTML=
-'<div class="intelligence-item"><span style="font-size:18px;">🔍</span><span>수집 · 누적 '+(((d.cumulative||{}).totals||{}).records||(d.sources&&d.sources.record_count)||0)+'개 레코드</span></div>'+
-'<div class="intelligence-item"><span style="font-size:18px;">🧠</span><span>Obsidian 그래프 · 누적 '+(((d.cumulative||{}).totals||{}).notes||(d.graph&&d.graph.notes)||0)+'개 노트 / '+(((d.cumulative||{}).totals||{}).links||(d.graph&&d.graph.links)||0)+'개 링크</span></div>'+
-'<div class="intelligence-item"><span style="font-size:18px;">📈</span><span>파이프라인 · '+done+'/'+(d.pipeline||[]).length+' 단계 완료</span></div>';
+// 팀별 숫자는 각 카드가 들고, 여기에는 특정 팀 것이 아닌 값만 남긴다.
+const meta=$('team-meta');
+if(meta){
+const ts=d.team_summary||{};
+const done=ts.pipeline_done!=null?ts.pipeline_done:(d.pipeline||[]).filter(s=>['completed','generated','ready_for_pages'].includes(s.status)).length;
+const total=ts.pipeline_total!=null?ts.pipeline_total:(d.pipeline||[]).length;
+const rec=ts.corpus_records||((d.cumulative||{}).totals||{}).records||(d.sources&&d.sources.record_count)||0;
+const at=meta.querySelector('#updated-at');
+meta.innerHTML='<span>코퍼스 '+Number(rec).toLocaleString()+'개 레코드</span>'
++'<span>파이프라인 '+done+'/'+total+' 단계 완료</span>';
+meta.appendChild(at||Object.assign(document.createElement('span'),{id:'updated-at'}));
 }
 }else{
 console.error(rt.reason);

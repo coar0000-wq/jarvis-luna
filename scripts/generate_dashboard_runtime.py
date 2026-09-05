@@ -229,6 +229,7 @@ TEAM_ICONS = {
     "pricing": {"color": "#7c3aed", "glyph": "tag"},
     "legal": {"color": "#b91c1c", "glyph": "scale"},
     "robotics": {"color": "#1d4ed8", "glyph": "robot"},
+    "knowledge": {"color": "#a16207", "glyph": "book"},
     "design": {"color": "#0ea5e9", "glyph": "design"},
     "graph": {"color": "#0f766e", "glyph": "graph"},
 }
@@ -337,11 +338,35 @@ def team_cards(graph: dict) -> list[dict]:
         cards.append(_team("design", "디자인팀", None,
                            "design_team.json 없음", None, "missing"))
 
+    # 지식 수집팀 --------------------------------------------------------
+    # 기관·로보틱스는 각자 카드가 있으므로 여기서는 담당 카드가 없던 소스만 센다.
+    rs = load_json(KNOWLEDGE / "real_sources.json", None)
+    if rs:
+        LABEL = {"arxiv": "arXiv", "youtube": "YouTube",
+                 "google": "Google", "us_beauty": "US뷰티"}
+        parts, total, bad = [], 0, []
+        for key, label in LABEL.items():
+            blk = (rs.get("sources") or {}).get(key) or {}
+            n = len(blk.get("items") or [])
+            total += n
+            parts.append(f"{label} {n}")
+            if blk.get("status") != "ok" or n == 0:
+                bad.append(f'{label}({blk.get("reason") or blk.get("status") or "0건"})')
+        cards.append(_team(
+            "knowledge", "지식 수집팀", rs.get("updated"),
+            f'{total}건 · ' + " / ".join(parts),
+            f'수집 실패: {", ".join(bad)}' if bad else None,
+            "ok" if total else "failed"))
+    else:
+        cards.append(_team("knowledge", "지식 수집팀", None,
+                           "data/knowledge/real_sources.json 없음", None, "missing"))
+
     # 옵시디언 그래프 ----------------------------------------------------
     personal = graph.get("dangling_personal") or 0
     cards.append(_team(
         "graph", "옵시디언 그래프", graph.get("last_generated"),
-        f'{graph.get("notes", 0):,}노트 · 끊어진 링크 {graph.get("dangling_links", 0)}건'
+        f'{graph.get("notes", 0):,}노트 · {graph.get("links", 0):,}링크 · '
+        f'끊어진 링크 {graph.get("dangling_links", 0)}건'
         + (f' · 개인 노트 {personal:,}건 별도' if personal else ''),
         None, "ok" if graph.get("audit") == "passed" else "failed"))
 
@@ -378,6 +403,13 @@ def main() -> None:
             "실행 기록이 없는 작업은 진행중으로 표시하지 않음."
         ),
         "teams": teams,
+        # 특정 팀에 속하지 않는 전체 값. 팀 섹션 머리말에 쓴다.
+        "team_summary": {
+            "corpus_records": ((cumulative.get("totals") or {}).get("records")
+                               or sources.get("record_count") or 0),
+            "pipeline_done": 0,
+            "pipeline_total": 0,
+        },
         "pipeline": [
             {
                 "id": "collect",
@@ -429,6 +461,12 @@ def main() -> None:
         "training": training,
         "cumulative": cumulative,
     }
+
+    # 파이프라인 진행도는 payload 의 pipeline 을 세어 채운다
+    DONE = ("completed", "generated", "ready_for_pages")
+    _steps = payload.get("pipeline") or []
+    payload["team_summary"]["pipeline_done"] = sum(1 for st in _steps if st.get("status") in DONE)
+    payload["team_summary"]["pipeline_total"] = len(_steps)
 
     # 이전 global_channels / 환율 데이터가 있으면 유지
     if isinstance(prev_global, dict) and prev_global:
