@@ -1,12 +1,270 @@
 {
-  "generated_at": "2026-09-05T02:32:27.041897+00:00",
-  "status": "skipped",
-  "reason": "SERPAPI_KEY 가 없어 호출하지 않음. 값을 지어내지 않는다.",
-  "plan": "free 250/month",
+  "generated_at": "2026-09-05T02:37:18.466921+00:00",
+  "generator": "scripts/collect_serpapi_market.py",
+  "plan": "SerpApi free 250 searches/month, 50/hour (2026-09-05 확인)",
+  "정책": "월 상한 200 회. 넘으면 호출하지 않고 사유만 남긴다. 주 1회만 실행한다.",
   "usage": {
     "month": "2026-09",
-    "used": 0,
+    "used": 22,
     "cap": 200,
-    "runs": []
+    "spent_this_run": 22
+  },
+  "prices": {
+    "status": "ok",
+    "reason": "",
+    "count": 14,
+    "failures": [],
+    "items": [
+      {
+        "pd_no": "1048583",
+        "name": "드롭비 탄탄 광채 앰플 40 ml",
+        "query": "Drop B Firming Glow Ampoule 40ml",
+        "n": 20,
+        "min_usd": 5.36,
+        "median_usd": 19.01,
+        "max_usd": 69.99,
+        "engine": "google_shopping",
+        "cached": false
+      },
+      {
+        "pd_no": "1045146",
+        "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+        "query": "Vprove Marine Mild Mineral Sunscreen SPF50+ PA++++ 50 ml",
+        "n": 20,
+        "min_usd": 6.34,
+        "median_usd": 15.99,
+        "max_usd": 42.0,
+        "engine": "google_shopping",
+        "cached": false
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "query": "VT Cica Calming Toner 300 ml",
+        "n": 20,
+        "min_usd": 5.99,
+        "median_usd": 18.25,
+        "max_usd": 54.18,
+        "engine": "google_shopping",
+        "cached": false
+      },
+      {
+        "pd_no": "1048581",
+        "name": "드롭비 잡티 말끔 앰플 40 ml",
+        "query": "DropB Blemish Clear Ampoule 40ml",
+        "n": 10,
+        "min_usd": 4.46,
+        "median_usd": 19.49,
+        "max_usd": 38.9,
+        "engine": "google_shopping",
+        "cached": false
+      },
+      {
+        "pd_no": "1075857",
+        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+        "query": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea",
+        "n": 13,
+        "min_usd": 2.99,
+        "median_usd": 13.0,
+        "max_usd": 65.0,
+        "engine": "google_shopping",
+        "cached": false
+      },
+      {
+        "pd_no": "1068776",
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "query": "SCINIC Power Homme Watery Sun Cream 50 ml",
+        "n": 9,
+        "min_usd": 7.25,
+        "median_usd": 24.0,
+        "max_usd": 40.0,
+        "engine": "google_shopping",
+        "cached": false
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "query": "Celderma Daily Transforming Firming Collagen Mask 28g",
+        "n": 20,
+        "min_usd": 2.99,
+        "median_usd": 12.99,
+        "max_usd": 39.0,
+        "engine": "google_shopping",
+        "cached": false
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "query": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
+        "n": 20,
+        "min_usd": 7.41,
+        "median_usd": 20.5,
+        "max_usd": 71.11,
+        "engine": "google_shopping",
+        "cached": false
+      },
+      {
+        "pd_no": "1060487",
+        "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+        "query": "Medipeel Lacto Pore Lifting Wrapping Mask 4ml 4pk",
+        "n": 20,
+        "min_usd": 5.1,
+        "median_usd": 19.47,
+        "max_usd": 30.37,
+        "engine": "google_shopping",
+        "cached": false
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "query": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml",
+        "n": 15,
+        "min_usd": 6.34,
+        "median_usd": 18.99,
+        "max_usd": 25.0,
+        "engine": "google_shopping",
+        "cached": false
+      },
+      {
+        "pd_no": "1070006",
+        "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
+        "query": "Lenoia Perfume Hair Serum Mist Aqua Sea Salt 80 ml",
+        "n": 5,
+        "min_usd": 4.53,
+        "median_usd": 16.12,
+        "max_usd": 16.13,
+        "engine": "google_shopping",
+        "cached": false
+      },
+      {
+        "pd_no": "1032881",
+        "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
+        "query": "Kerasys Advanced Repair Hair Pack 150 ml",
+        "n": 20,
+        "min_usd": 4.53,
+        "median_usd": 20.5,
+        "max_usd": 68.0,
+        "engine": "google_shopping",
+        "cached": false
+      },
+      {
+        "pd_no": "1067024",
+        "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
+        "query": "Point Lemon Sparkling Water No-Wash Cleansing Tissue 30 Sheets",
+        "n": 1,
+        "min_usd": 8.92,
+        "median_usd": 8.92,
+        "max_usd": 8.92,
+        "engine": "google_shopping",
+        "cached": false
+      },
+      {
+        "pd_no": "1057223",
+        "name": "태그 핑크 라이트 선쿠션 15 g",
+        "query": "Too Faced Pink Light Sun Cushion 15g",
+        "n": 3,
+        "min_usd": 7.25,
+        "median_usd": 14.99,
+        "max_usd": 26.0,
+        "engine": "google_shopping",
+        "cached": false
+      }
+    ]
+  },
+  "trends": {
+    "status": "ok",
+    "reason": "",
+    "count": 8,
+    "failures": [],
+    "items": [
+      {
+        "seed": "korean face cream",
+        "points": 53,
+        "avg_recent_8w": 19.9,
+        "avg_base_8w": 16.5,
+        "peak": 100,
+        "engine": "google_trends",
+        "geo": "US",
+        "window": "today 12-m",
+        "cached": false
+      },
+      {
+        "seed": "korean sheet mask",
+        "points": 53,
+        "avg_recent_8w": 7.2,
+        "avg_base_8w": 10.5,
+        "peak": 100,
+        "engine": "google_trends",
+        "geo": "US",
+        "window": "today 12-m",
+        "cached": false
+      },
+      {
+        "seed": "korean ampoule",
+        "points": 53,
+        "avg_recent_8w": 20.0,
+        "avg_base_8w": 14.2,
+        "peak": 100,
+        "engine": "google_trends",
+        "geo": "US",
+        "window": "today 12-m",
+        "cached": false
+      },
+      {
+        "seed": "korean sunscreen",
+        "points": 53,
+        "avg_recent_8w": 45.0,
+        "avg_base_8w": 25.6,
+        "peak": 100,
+        "engine": "google_trends",
+        "geo": "US",
+        "window": "today 12-m",
+        "cached": false
+      },
+      {
+        "seed": "korean toner",
+        "points": 53,
+        "avg_recent_8w": 20.6,
+        "avg_base_8w": 24.2,
+        "peak": 100,
+        "engine": "google_trends",
+        "geo": "US",
+        "window": "today 12-m",
+        "cached": false
+      },
+      {
+        "seed": "pdrn",
+        "points": 53,
+        "avg_recent_8w": 36.2,
+        "avg_base_8w": 9.6,
+        "peak": 100,
+        "engine": "google_trends",
+        "geo": "US",
+        "window": "today 12-m",
+        "cached": false
+      },
+      {
+        "seed": "collagen",
+        "points": 53,
+        "avg_recent_8w": 37.5,
+        "avg_base_8w": 29.4,
+        "peak": 100,
+        "engine": "google_trends",
+        "geo": "US",
+        "window": "today 12-m",
+        "cached": false
+      },
+      {
+        "seed": "mineral sunscreen",
+        "points": 53,
+        "avg_recent_8w": 12.8,
+        "avg_base_8w": 5.5,
+        "peak": 100,
+        "engine": "google_trends",
+        "geo": "US",
+        "window": "today 12-m",
+        "cached": false
+      }
+    ]
   }
 }
