@@ -208,14 +208,22 @@ def check_consistency():
         except json.JSONDecodeError:
             d = None
         if d:
+            # 점수 계산과 같은 규칙으로 더해야 한다.
+            #  1) *_reference_only 항목은 참고용이라 총점에 넣지 않는다.
+            #     (글로벌 유사도는 가짜 채널을 참조해 참고용으로 강등했다)
+            #  2) 총점은 max(5, min(100, ...)) 로 잘린다.
+            #     score_shopify_demand.py 의 total 계산과 같다.
             bad = 0
             for x in d.get("all_scored") or []:
                 b = x.get("score_breakdown")
                 if not b:
                     continue
                 tot = sum(v for k, v in b.items()
-                          if k != "max_possible" and isinstance(v, (int, float)))
-                if abs(round(tot) - x["shopify_score"]) > 1:
+                          if k != "max_possible"
+                          and not k.endswith("reference_only")
+                          and isinstance(v, (int, float)))
+                expected = max(5, min(100, round(tot)))
+                if abs(expected - x["shopify_score"]) > 1:
                     bad += 1
             if bad:
                 fail("정합성", f"점수 내역 합계가 총점과 다른 항목 {bad}건")
