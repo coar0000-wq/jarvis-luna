@@ -55,3 +55,21 @@ activity_log.json / projects.json
 - completed/phase26_moe_implementation.py 등 3종
   임베딩 초기화, 하이퍼파라미터 탐색 등 알고리즘 자체의 난수다.
   보고 지표를 지어내지 않는다. 워크플로에서 실행되지도 않는다.
+
+## 추가 폐기 (같은 날)
+
+### data/order_team.json / data/shopify_team.json
+BOM 이 붙어 있어 파싱 실패로 보였으나 utf-8-sig 로는 읽힌다.
+문제는 형식이 아니라 값이었다.
+
+    order_team    pending_orders 12, shipped_today 28, fulfillment_rate 98%
+    shopify_team  store_status 온라인, visitors_today 1240, conversion_rate 2.4%
+
+Shopify 스토어를 아직 개설하지 않았다. 디자인팀 체크리스트에
+'Shopify 스토어 개설 및 기본 설정' 이 대기로 남아 있다.
+주문도 방문자도 존재할 수 없는 숫자다.
+
+generate_strategy_report_ppt.py 는 Shopify Admin API 에서 실제 값을
+받았을 때만 이 두 파일을 쓰고, 파일이 없으면 0 으로 시작한다.
+그래서 파일만 내리고 스크립트는 그대로 둔다. 스토어를 열고 API 를
+연결하면 그때 실제 값으로 다시 만들어진다.
