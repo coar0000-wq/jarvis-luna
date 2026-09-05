@@ -1,0 +1,143 @@
+{
+  "설명": "다이소 상세페이지의 '화장품법에 따라 기재해야 하는 사항' 표를 옮겨 적는 곳입니다. 미국 판매용 영문 라벨과 법률 검토의 원천 자료입니다.",
+  "입력방법": [
+    "1. 다이소 상품 페이지 > 상세정보 > 고시 표를 연다",
+    "2. 해당 상품번호 항목에 표 내용을 그대로 옮긴다",
+    "3. 모르는 항목은 빈 문자열로 둔다. 추측해서 채우지 않는다"
+  ],
+  "필수항목": [
+    "ingredients",
+    "volume",
+    "maker",
+    "origin"
+  ],
+  "완료판정": "필수항목 4개가 모두 비어 있지 않으면 그 상품은 gosi_ok = true 가 됩니다.",
+  "items": {
+    "1048583": {
+      "name": "드롭비 탄탄 광채 앰플 40 ml",
+      "ingredients": "",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "warnings": "",
+      "captured_at": ""
+    },
+    "1045146": {
+      "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+      "ingredients": "",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "warnings": "",
+      "captured_at": ""
+    },
+    "1049271": {
+      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "ingredients": "",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "warnings": "",
+      "captured_at": ""
+    },
+    "1048581": {
+      "name": "드롭비 잡티 말끔 앰플 40 ml",
+      "ingredients": "",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "warnings": "",
+      "captured_at": ""
+    },
+    "1075857": {
+      "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+      "ingredients": "",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "warnings": "",
+      "captured_at": ""
+    },
+    "1068776": {
+      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+      "ingredients": "",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "warnings": "",
+      "captured_at": ""
+    },
+    "1059834": {
+      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "ingredients": "",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "warnings": "",
+      "captured_at": ""
+    },
+    "1062781": {
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "ingredients": "",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "warnings": "",
+      "captured_at": ""
+    },
+    "1060487": {
+      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+      "ingredients": "",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "warnings": "",
+      "captured_at": ""
+    },
+    "1041403": {
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "ingredients": "",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "warnings": "",
+      "captured_at": ""
+    },
+    "1070006": {
+      "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
+      "ingredients": "",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "warnings": "",
+      "captured_at": ""
+    },
+    "1032881": {
+      "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
+      "ingredients": "",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "warnings": "",
+      "captured_at": ""
+    },
+    "1067024": {
+      "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
+      "ingredients": "",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "warnings": "",
+      "captured_at": ""
+    },
+    "1057223": {
+      "name": "태그 핑크 라이트 선쿠션 15 g",
+      "ingredients": "",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "warnings": "",
+      "captured_at": ""
+    }
+  }
+}

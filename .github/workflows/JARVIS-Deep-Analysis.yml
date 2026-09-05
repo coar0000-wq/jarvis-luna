@@ -58,6 +58,10 @@ jobs:
         continue-on-error: true
         run: python scripts/build_design_team.py
 
+      - name: Build listing gate (copy/gosi/price/legal)
+        continue-on-error: true
+        run: python scripts/build_listing_gate.py
+
       - name: Collect real public sources
         continue-on-error: true
         run: python real_knowledge_sync.py

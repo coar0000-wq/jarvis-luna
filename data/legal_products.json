@@ -1,0 +1,153 @@
+{
+  "설명": "상품별 미국 수출 법률 검토 상태입니다. 자동으로 초안을 채우되 최종 PASS 는 사람만 바꿉니다.",
+  "상태값": {
+    "pending": "검토 전",
+    "draft": "초안 자동 생성됨 (사람 확인 대기)",
+    "pass": "사람이 통과 판정",
+    "fail": "사람이 부적합 판정"
+  },
+  "규칙": "pass 는 사람이 직접 적습니다. 스크립트가 pass 로 바꾸지 않습니다. 자동 판정은 규제 위험이 커서 판매에 오히려 해롭습니다.",
+  "완료판정": "status 가 pass 인 상품만 legal_ok = true 입니다.",
+  "items": {
+    "1048583": {
+      "name": "드롭비 탄탄 광채 앰플 40 ml",
+      "status": "pending",
+      "hs_code": "",
+      "regulator": "",
+      "label_draft": "",
+      "reviewer": "",
+      "reviewed_at": "",
+      "note": ""
+    },
+    "1045146": {
+      "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+      "status": "pending",
+      "hs_code": "",
+      "regulator": "",
+      "label_draft": "",
+      "reviewer": "",
+      "reviewed_at": "",
+      "note": ""
+    },
+    "1049271": {
+      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "status": "pending",
+      "hs_code": "",
+      "regulator": "",
+      "label_draft": "",
+      "reviewer": "",
+      "reviewed_at": "",
+      "note": ""
+    },
+    "1048581": {
+      "name": "드롭비 잡티 말끔 앰플 40 ml",
+      "status": "pending",
+      "hs_code": "",
+      "regulator": "",
+      "label_draft": "",
+      "reviewer": "",
+      "reviewed_at": "",
+      "note": ""
+    },
+    "1075857": {
+      "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+      "status": "pending",
+      "hs_code": "",
+      "regulator": "",
+      "label_draft": "",
+      "reviewer": "",
+      "reviewed_at": "",
+      "note": ""
+    },
+    "1068776": {
+      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+      "status": "pending",
+      "hs_code": "",
+      "regulator": "",
+      "label_draft": "",
+      "reviewer": "",
+      "reviewed_at": "",
+      "note": ""
+    },
+    "1059834": {
+      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "status": "pending",
+      "hs_code": "",
+      "regulator": "",
+      "label_draft": "",
+      "reviewer": "",
+      "reviewed_at": "",
+      "note": ""
+    },
+    "1062781": {
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "status": "pending",
+      "hs_code": "",
+      "regulator": "",
+      "label_draft": "",
+      "reviewer": "",
+      "reviewed_at": "",
+      "note": ""
+    },
+    "1060487": {
+      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+      "status": "pending",
+      "hs_code": "",
+      "regulator": "",
+      "label_draft": "",
+      "reviewer": "",
+      "reviewed_at": "",
+      "note": ""
+    },
+    "1041403": {
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "status": "pending",
+      "hs_code": "",
+      "regulator": "",
+      "label_draft": "",
+      "reviewer": "",
+      "reviewed_at": "",
+      "note": ""
+    },
+    "1070006": {
+      "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
+      "status": "pending",
+      "hs_code": "",
+      "regulator": "",
+      "label_draft": "",
+      "reviewer": "",
+      "reviewed_at": "",
+      "note": ""
+    },
+    "1032881": {
+      "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
+      "status": "pending",
+      "hs_code": "",
+      "regulator": "",
+      "label_draft": "",
+      "reviewer": "",
+      "reviewed_at": "",
+      "note": ""
+    },
+    "1067024": {
+      "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
+      "status": "pending",
+      "hs_code": "",
+      "regulator": "",
+      "label_draft": "",
+      "reviewer": "",
+      "reviewed_at": "",
+      "note": ""
+    },
+    "1057223": {
+      "name": "태그 핑크 라이트 선쿠션 15 g",
+      "status": "pending",
+      "hs_code": "",
+      "regulator": "",
+      "label_draft": "",
+      "reviewer": "",
+      "reviewed_at": "",
+      "note": ""
+    }
+  }
+}

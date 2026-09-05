@@ -325,12 +325,27 @@ def team_cards(graph: dict) -> list[dict]:
         have = {str(i.get("pd_no")) for i in (copy.get("items") or [])}
         miss = [p for p in s_rows if str(p.get("pd_no")) not in have]
         s_total = len(s_rows) or (((score or {}).get("grade_summary") or {}).get("S") or 0)
-        cards.append(_team(
-            "listing", "리스팅 제작팀", copy.get("generated_at"),
-            f'영문 카피 {made}건 · 임포트 CSV {rows}행'
-            + (f' · 실패 {bad}건' if bad else ''),
-            f'S등급 {s_total}개 중 {len(miss)}건 카피 미생성' if miss else None,
-            "ok" if made else "failed"))
+        # 등록 가능 여부는 게이트가 한 곳에서 계산한다.
+        gate = load_json(D / "listing_gate.json", None)
+        if gate:
+            c = gate.get("counts") or {}
+            blk = gate.get("blockers") or {}
+            LABEL = {"copy": "카피", "gosi": "고시", "price": "실측", "legal": "법률"}
+            detail = " · ".join(f'{LABEL.get(k, k)} {c.get(k, 0)}'
+                                for k in ("copy", "gosi", "price", "legal"))
+            top = ", ".join(f'{LABEL.get(k, k)} {v}건' for k, v in list(blk.items())[:3])
+            cards.append(_team(
+                "listing", "리스팅 제작팀", gate.get("generated_at"),
+                f'등록 가능 {gate.get("ready", 0)}/{gate.get("total", 0)} · {detail}',
+                f'{top} 이 막고 있음' if top else None,
+                "ok" if gate.get("total") else "failed"))
+        else:
+            cards.append(_team(
+                "listing", "리스팅 제작팀", copy.get("generated_at"),
+                f'영문 카피 {made}건 · 임포트 CSV {rows}행'
+                + (f' · 실패 {bad}건' if bad else ''),
+                f'S등급 {s_total}개 중 {len(miss)}건 카피 미생성' if miss else None,
+                "ok" if made else "failed"))
     else:
         cards.append(_team("listing", "리스팅 제작팀", None,
                            "data/shopify_listing_copy.json 없음", None, "missing"))
