@@ -229,6 +229,9 @@ TEAM_ICONS = {
     "pricing": {"color": "#7c3aed", "glyph": "tag"},
     "legal": {"color": "#b91c1c", "glyph": "scale"},
     "robotics": {"color": "#1d4ed8", "glyph": "robot"},
+    "sourcing": {"color": "#15803d", "glyph": "box"},
+    "listing": {"color": "#be185d", "glyph": "doc"},
+    "channels": {"color": "#0369a1", "glyph": "antenna"},
     "knowledge": {"color": "#a16207", "glyph": "book"},
     "design": {"color": "#0ea5e9", "glyph": "design"},
     "graph": {"color": "#0f766e", "glyph": "graph"},
@@ -247,6 +250,28 @@ def team_cards(graph: dict) -> list[dict]:
     """팀별 한 줄 현황. 숫자는 산출 파일 실측값만 쓴다."""
     cards: list[dict] = []
     D = ROOT / "data"
+
+    # 상품 소싱팀 --------------------------------------------------------
+    # 사업의 출발점이라 맨 앞에 둔다. 수집이 멈추면 여기서 먼저 드러나야 한다.
+    prod = load_json(D / "daiso_real" / "products.json", None)
+    score = load_json(D / "daiso_real" / "shopify_demand_score.json", None)
+    stat = load_json(D / "daiso_real" / "collection_status.json", None)
+    if prod or score:
+        n = (prod or {}).get("count") or len((prod or {}).get("products") or [])
+        gs = (score or {}).get("grade_summary") or {}
+        grade = " / ".join(f"{g} {gs[g]}" for g in ("S", "A", "B", "C") if g in gs)
+        run = (stat or {}).get("last_run") or {}
+        fail = (run.get("parse_failed") or 0) + (run.get("http_error") or 0)
+        req, ok = run.get("requested") or 0, run.get("ok") or 0
+        cards.append(_team(
+            "sourcing", "상품 소싱팀",
+            (score or {}).get("generated_at") or (prod or {}).get("updated_at"),
+            f'{n}개 상품 · 등급 {grade}' if grade else f'{n}개 상품',
+            f'직전 수집 {req}건 중 {ok}건만 성공, {fail}건 실패' if fail else None,
+            "ok" if n else "failed"))
+    else:
+        cards.append(_team("sourcing", "상품 소싱팀", None,
+                           "data/daiso_real/products.json 없음", None, "missing"))
 
     # 기관 수집팀 --------------------------------------------------------
     inst = load_json(D / "institution_sources.json", None)
@@ -280,6 +305,26 @@ def team_cards(graph: dict) -> list[dict]:
     else:
         cards.append(_team("market", "마케팅 조사팀", None,
                            "market_team.json 없음", None, "missing"))
+
+    # 리스팅 제작팀 ------------------------------------------------------
+    copy = load_json(D / "shopify_listing_copy.json", None)
+    rep = load_json(D / "shopify_import_report.json", None)
+    if copy:
+        made = copy.get("ok") or len(copy.get("items") or [])
+        bad = copy.get("failed") or 0
+        rows = (rep or {}).get("rows") or 0
+        # S등급 상품 수를 기준으로 아직 카피가 없는 건수를 센다
+        s_total = ((score or {}).get("grade_summary") or {}).get("S") or 0
+        left = max(0, s_total - made)
+        cards.append(_team(
+            "listing", "리스팅 제작팀", copy.get("generated_at"),
+            f'영문 카피 {made}건 · 임포트 CSV {rows}행'
+            + (f' · 실패 {bad}건' if bad else ''),
+            f'S등급 {s_total}개 중 {left}건 카피 미생성' if left else None,
+            "ok" if made else "failed"))
+    else:
+        cards.append(_team("listing", "리스팅 제작팀", None,
+                           "data/shopify_listing_copy.json 없음", None, "missing"))
 
     # 가격 정책팀 --------------------------------------------------------
     pm = load_json(D / "pricing_model.json", None)
@@ -337,6 +382,28 @@ def team_cards(graph: dict) -> list[dict]:
     else:
         cards.append(_team("design", "디자인팀", None,
                            "design_team.json 없음", None, "missing"))
+
+    # 채널 운영팀 --------------------------------------------------------
+    # 채널 가동 상태와 사람 승인 대기 건을 한 줄로 본다.
+    prev = load_json(OUT, None) or {}
+    gcs = prev.get("global_channels_status") or {}
+    live = sum(1 for v in gcs.values() if (v or {}).get("status") == "ok")
+    cand = load_json(D / "channel_candidates.json", None)
+    man = load_json(D / "manual_channels.json", None)
+    if gcs or cand:
+        usable = (cand or {}).get("usable") or 0
+        tested = (cand or {}).get("tested") or 0
+        manual_n = (man or {}).get("total") or 0
+        cards.append(_team(
+            "channels", "채널 운영팀",
+            (cand or {}).get("generated_at") or prev.get("generated_at"),
+            f'가동 {live}/{len(gcs)}채널 · 수동 입력 {manual_n}건 · '
+            f'신규 후보 {usable}/{tested} 가능',
+            f'후보 {usable}건 승인 대기 (연동은 사람이 승인한 뒤에 한다)' if usable else None,
+            "ok" if live else "failed"))
+    else:
+        cards.append(_team("channels", "채널 운영팀", None,
+                           "채널 상태 파일 없음", None, "missing"))
 
     # 지식 수집팀 --------------------------------------------------------
     # 기관·로보틱스는 각자 카드가 있으므로 여기서는 담당 카드가 없던 소스만 센다.
