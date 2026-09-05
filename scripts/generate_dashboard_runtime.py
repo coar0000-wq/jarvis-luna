@@ -251,6 +251,14 @@ def team_cards(graph: dict) -> list[dict]:
     cards: list[dict] = []
     D = ROOT / "data"
 
+    # 팀마다 최근에 들어온 자료 건수. 요약 뒤에 덧붙인다.
+    feeds = (load_json(D / "team_feeds.json", None) or {}).get("summary") or {}
+
+    def feed_tail(team_id: str) -> str:
+        s = feeds.get(team_id) or {}
+        n = s.get("recent") or 0
+        return f" · 새 자료 {n}건" if n else ""
+
     # 상품 소싱팀 --------------------------------------------------------
     # 사업의 출발점이라 맨 앞에 둔다. 수집이 멈추면 여기서 먼저 드러나야 한다.
     prod = load_json(D / "daiso_real" / "products.json", None)
@@ -269,7 +277,7 @@ def team_cards(graph: dict) -> list[dict]:
         cards.append(_team(
             "sourcing", "상품 소싱팀",
             (score or {}).get("generated_at") or (prod or {}).get("updated_at"),
-            f'{n}개 상품 · 등급 {grade}' if grade else f'{n}개 상품',
+            (f'{n}개 상품 · 등급 {grade}' if grade else f'{n}개 상품') + feed_tail("sourcing"),
             f'직전 실행에서 {tried}건 시도 중 {fail}건 파싱 실패 (성공 {ok}건)'
             if fail else None,
             "ok" if n else "failed"))
@@ -283,7 +291,7 @@ def team_cards(graph: dict) -> list[dict]:
         cards.append(_team(
             "institutions", "기관 수집팀", inst.get("collected_at"),
             f'{inst.get("organizations", 0)}곳 {inst.get("total", 0):,}건 · '
-            f'미수집 {len(inst.get("not_collected") or {})}건 사유 기록'))
+            f'미수집 {len(inst.get("not_collected") or {})}건 사유 기록' + feed_tail("institutions")))
     else:
         cards.append(_team("institutions", "기관 수집팀", None,
                            "institution_sources.json 없음", None, "missing"))
@@ -304,7 +312,7 @@ def team_cards(graph: dict) -> list[dict]:
         pending = [p for p in s_grade if str(p.get("pd_no")) not in entered]
         cards.append(_team(
             "market", "마케팅 조사팀", iso_mtime(D / "market_team.json"),
-            f'S등급 {len(s_grade)}개 · 고시표 입력 대기 {len(pending)}건',
+            f'S등급 {len(s_grade)}개 · 고시표 입력 대기 {len(pending)}건' + feed_tail("market"),
             f'다이소 상세페이지 고시 표 {len(pending)}건 캡처 필요' if pending else None))
     else:
         cards.append(_team("market", "마케팅 조사팀", None,
@@ -358,7 +366,7 @@ def team_cards(graph: dict) -> list[dict]:
         est = [r for r in rows if "추정" in str(r.get("weight_note") or "")]
         cards.append(_team(
             "pricing", "가격 정책팀", pm.get("generated_at"),
-            f'DDU/DDP {len(duty)}개 시나리오 · 무게 추정 {len(est)}/{len(rows)}건',
+            f'DDU/DDP {len(duty)}개 시나리오 · 무게 추정 {len(est)}/{len(rows)}건' + feed_tail("pricing"),
             f'{len(est)}건 실측 무게 필요 (100g 경계가 배송 구간을 바꿈)' if est else None))
     else:
         cards.append(_team("pricing", "가격 정책팀", None,
@@ -373,7 +381,7 @@ def team_cards(graph: dict) -> list[dict]:
         cards.append(_team(
             "legal", "법률·규제팀", iso_mtime(D / "legal_team.json"),
             f'검토 상품 {dash.get("reviewed_products", 0)}건 · '
-            f'체크리스트 {len(checks)}항목 중 {len(waiting)}항목 대기',
+            f'체크리스트 {len(checks)}항목 중 {len(waiting)}항목 대기' + feed_tail("legal"),
             str(dash.get("next_action") or "")[:60] if waiting else None))
     else:
         cards.append(_team("legal", "법률·규제팀", None,
@@ -386,7 +394,7 @@ def team_cards(graph: dict) -> list[dict]:
         parts = " / ".join(f'{k} {len((v or {}).get("items") or [])}' for k, v in src.items())
         cards.append(_team(
             "robotics", "로보틱스 수집", rb.get("generated_at"),
-            f'{rb.get("total", 0)}건 · {parts}'))
+            f'{rb.get("total", 0)}건 · {parts}' + feed_tail("robotics")))
     else:
         cards.append(_team("robotics", "로보틱스 수집", None,
                            "robotics_sources.json 없음", None, "missing"))
@@ -401,7 +409,7 @@ def team_cards(graph: dict) -> list[dict]:
                       if s.get("status") != "완료"), "")
         cards.append(_team(
             "design", "디자인팀", dt.get("generated_at"),
-            f'스토어 {c.get("done", 0)}/{c.get("total", 0)}단계 · 레퍼런스 {refs}건',
+            f'스토어 {c.get("done", 0)}/{c.get("total", 0)}단계 · 레퍼런스 {refs}건' + feed_tail("design"),
             f'다음 단계: {first}' if waiting and first else None))
     else:
         cards.append(_team("design", "디자인팀", None,

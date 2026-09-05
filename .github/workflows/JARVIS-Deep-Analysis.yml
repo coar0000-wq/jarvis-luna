@@ -68,6 +68,10 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/extract_gosi_vision.py
 
+      - name: Build per-team feeds (route pools + FDA for legal)
+        continue-on-error: true
+        run: python -u scripts/build_team_feeds.py
+
       - name: Build listing gate (copy/gosi/price/legal)
         continue-on-error: true
         run: python scripts/build_listing_gate.py
