@@ -76,6 +76,8 @@ box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
 /* Team Cards */
 .team-section{background:#141414;border:1px solid #2a2a2a;border-radius:12px;padding:24px 26px;margin-bottom:40px;}
 .team-section h3{font-size:13px;letter-spacing:2px;color:#8b949e;text-transform:uppercase;margin-bottom:4px;display:flex;justify-content:space-between;align-items:baseline;gap:12px;}
+.team-section .team-h3{display:inline-flex;align-items:center;gap:8px;}
+.team-section .team-h3-img{width:20px;height:20px;object-fit:contain;display:block;flex:0 0 20px;}
 .team-section .team-sub{font-size:12px;color:#666;margin-bottom:16px;}
 .team-list{list-style:none;}
 .team-row{display:flex;align-items:flex-start;gap:14px;padding:14px 0;border-bottom:1px solid #232323;}
@@ -340,7 +342,7 @@ nav a{font-size:12px;}
 
 <!-- Team Cards -->
 <div class="team-section" id="teams">
-<h3><span>🧭 JARVIS 팀 현황</span><span id="team-updated" style="font-size:11px;letter-spacing:0;text-transform:none;color:#6e7681;"></span></h3>
+<h3><span class="team-h3"><img class="team-h3-img" src="images/jarvis.png" alt="JARVIS" width="20" height="20">JARVIS 팀 현황</span><span id="team-updated" style="font-size:11px;letter-spacing:0;text-transform:none;color:#6e7681;"></span></h3>
 <div class="team-sub">각 줄의 숫자는 해당 팀 산출 파일의 실측값입니다.</div>
 <ul class="team-list" id="team-list">
 <li class="team-row"><div class="team-body"><div class="team-summary">팀 현황을 불러오는 중…</div></div></li>
