@@ -262,12 +262,16 @@ def team_cards(graph: dict) -> list[dict]:
         grade = " / ".join(f"{g} {gs[g]}" for g in ("S", "A", "B", "C") if g in gs)
         run = (stat or {}).get("last_run") or {}
         fail = (run.get("parse_failed") or 0) + (run.get("http_error") or 0)
-        req, ok = run.get("requested") or 0, run.get("ok") or 0
+        ok = run.get("ok") or 0
+        # skipped_not_beauty 는 뷰티관이 아니라 일부러 건너뛴 것이다.
+        # 이걸 분모에 넣으면 실패율이 실제보다 크게 보인다.
+        tried = ok + fail
         cards.append(_team(
             "sourcing", "상품 소싱팀",
             (score or {}).get("generated_at") or (prod or {}).get("updated_at"),
             f'{n}개 상품 · 등급 {grade}' if grade else f'{n}개 상품',
-            f'직전 수집 {req}건 중 {ok}건만 성공, {fail}건 실패' if fail else None,
+            f'직전 실행에서 {tried}건 시도 중 {fail}건 파싱 실패 (성공 {ok}건)'
+            if fail else None,
             "ok" if n else "failed"))
     else:
         cards.append(_team("sourcing", "상품 소싱팀", None,
@@ -313,14 +317,19 @@ def team_cards(graph: dict) -> list[dict]:
         made = copy.get("ok") or len(copy.get("items") or [])
         bad = copy.get("failed") or 0
         rows = (rep or {}).get("rows") or 0
-        # S등급 상품 수를 기준으로 아직 카피가 없는 건수를 센다
-        s_total = ((score or {}).get("grade_summary") or {}).get("S") or 0
-        left = max(0, s_total - made)
+        # 개수만 빼면 안 된다. S등급 목록이 바뀌면 이미 만든 카피가
+        # 지금 S등급이 아닐 수 있어 미생성 건수가 실제보다 적게 나온다.
+        # 상품번호를 직접 대조한다.
+        s_rows = [p for p in ((score or {}).get("all_scored") or [])
+                  if p.get("grade") == "S"]
+        have = {str(i.get("pd_no")) for i in (copy.get("items") or [])}
+        miss = [p for p in s_rows if str(p.get("pd_no")) not in have]
+        s_total = len(s_rows) or (((score or {}).get("grade_summary") or {}).get("S") or 0)
         cards.append(_team(
             "listing", "리스팅 제작팀", copy.get("generated_at"),
             f'영문 카피 {made}건 · 임포트 CSV {rows}행'
             + (f' · 실패 {bad}건' if bad else ''),
-            f'S등급 {s_total}개 중 {left}건 카피 미생성' if left else None,
+            f'S등급 {s_total}개 중 {len(miss)}건 카피 미생성' if miss else None,
             "ok" if made else "failed"))
     else:
         cards.append(_team("listing", "리스팅 제작팀", None,
@@ -391,15 +400,31 @@ def team_cards(graph: dict) -> list[dict]:
     cand = load_json(D / "channel_candidates.json", None)
     man = load_json(D / "manual_channels.json", None)
     if gcs or cand:
-        usable = (cand or {}).get("usable") or 0
         tested = (cand or {}).get("tested") or 0
         manual_n = (man or {}).get("total") or 0
+
+        # discover_channels 는 이미 붙인 소스도 계속 후보로 다시 올린다.
+        # 키 이름이 서로 달라(wikipedia_pageviews vs wikipedia_interest)
+        # 단순 비교로는 안 걸러지므로 의미 있는 낱말이 겹치는지로 판정한다.
+        STOP = {"new", "daily", "rss", "us", "beauty", "drug", "otc", "api"}
+        def words(key):
+            return {w for w in str(key).lower().split("_") if w and w not in STOP}
+        livewords = [words(k) for k, v in gcs.items() if (v or {}).get("status") == "ok"]
+        pending = []
+        for c in (cand or {}).get("candidates") or []:
+            if c.get("verdict") != "가능":
+                continue
+            if any(words(c.get("key")) & lw for lw in livewords):
+                continue          # 이미 붙어 있는 소스
+            pending.append(c)
+
         cards.append(_team(
             "channels", "채널 운영팀",
             (cand or {}).get("generated_at") or prev.get("generated_at"),
             f'가동 {live}/{len(gcs)}채널 · 수동 입력 {manual_n}건 · '
-            f'신규 후보 {usable}/{tested} 가능',
-            f'후보 {usable}건 승인 대기 (연동은 사람이 승인한 뒤에 한다)' if usable else None,
+            f'후보 {tested}건 검사, 미연동 {len(pending)}건',
+            f'후보 {len(pending)}건 승인 대기 (연동은 사람이 승인한 뒤에 한다)'
+            if pending else None,
             "ok" if live else "failed"))
     else:
         cards.append(_team("channels", "채널 운영팀", None,
