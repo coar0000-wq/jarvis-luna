@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-05T07:04:12.685125+00:00",
+  "collected_at": "2026-09-05T11:23:45.020674+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-05T07:03:24.811308+00:00"
+      "collected_at": "2026-09-05T11:22:46.477264+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-05T07:03:56.126737+00:00"
+      "collected_at": "2026-09-05T11:23:23.547221+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-05T07:04:12.684080+00:00"
+      "collected_at": "2026-09-05T11:23:45.019797+00:00"
     }
   },
   "not_collected": {
@@ -6385,6 +6385,20 @@
       "cited_by": 0
     },
     {
+      "title": "First case of Brucella suis biovar 1 infection in a dog in Switzerland",
+      "url": "https://doi.org/10.1007/s11259-026-11491-y",
+      "date": "2026-09-04",
+      "summary": "",
+      "org": "UBS",
+      "category": "투자은행",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Veterinary Research Communications",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "O dilema do poder:O SisGAAz e a defesa marítima brasileira",
       "url": "https://doi.org/10.26792/rbed.v13i1.75518",
       "date": "2026-08-24",
@@ -6718,20 +6732,6 @@
       "title_source": "openalex",
       "venue": "arXiv (Cornell University)",
       "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "Temperature-dependent mean inner potential of polystyrene spheres measured using off-axis electron holography",
-      "url": "https://doi.org/10.1016/j.ultramic.2026.114409",
-      "date": "2026-06-16",
-      "summary": "",
-      "org": "UBS",
-      "category": "투자은행",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Ultramicroscopy",
-      "work_type": "article",
       "cited_by": 0
     },
     {
@@ -9434,7 +9434,7 @@
       "title_source": "openalex",
       "venue": "Journal of Lightwave Technology",
       "work_type": "article",
-      "cited_by": 44
+      "cited_by": 45
     },
     {
       "title": "Blockchain and Machine Learning Integration for Data Privacy and Security",
@@ -9913,6 +9913,20 @@
       "cited_by": 0
     },
     {
+      "title": "Bottom‐Up Engineering of a Human Neuromuscular System for Modeling Activity‐Induced Remodeling, Metabolic Stress, and Endothelial‐Modulated Excitability",
+      "url": "https://doi.org/10.1002/adma.74851",
+      "date": "2026-09-04",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Advanced Materials",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Laundering-induced property changes in virgin and recycled polyester and nylon fabrics: implications for durability and cleaning performance",
       "url": "https://doi.org/10.1007/s10163-026-02703-3",
       "date": "2026-09-03",
@@ -10092,7 +10106,7 @@
       "title_source": "openalex",
       "venue": "New England Journal of Medicine",
       "work_type": "article",
-      "cited_by": 0
+      "cited_by": 1
     },
     {
       "title": "Real-time frosting detection and deep learning-based defrosting control for air-source heat pumps with optimized discharge pressure",
@@ -10221,16 +10235,16 @@
       "cited_by": 0
     },
     {
-      "title": "Tetracyclic π‐Extended Multi‐Resonant TADF Emitters for Green PSF‐OLEDs With 37.7% EQE and BT.2020‐Compatible Top‐Emitting Devices",
-      "url": "https://doi.org/10.1002/adfm.78000",
-      "date": "2026-08-26",
+      "title": "Rapidly resolving bilayer stacking orientation in industrially compatible MOCVD-grown MoS2 films through second harmonic generation imaging",
+      "url": "https://doi.org/10.1063/5.0334162",
+      "date": "2026-08-31",
       "summary": "",
-      "org": "Samsung Electronics",
+      "org": "ASML",
       "category": "반도체",
       "kind": "논문",
       "source": "openalex",
       "title_source": "openalex",
-      "venue": "Advanced Functional Materials",
+      "venue": "Applied Physics Letters",
       "work_type": "article",
       "cited_by": 0
     },
@@ -10569,20 +10583,6 @@
       "venue": "Mechatronics",
       "work_type": "article",
       "cited_by": 0
-    },
-    {
-      "title": "Rapid detection and quantification of glyphosate in water using a handheld portable biosensor",
-      "url": "https://doi.org/10.1038/s41598-026-44827-4",
-      "date": "2026-04-11",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Scientific Reports",
-      "work_type": "article",
-      "cited_by": 2
     },
     {
       "title": "A Disclosure Benchmark Specification for Automated Alignment Research",
@@ -10988,7 +10988,7 @@
       "title_source": "openalex",
       "venue": "Nature",
       "work_type": "article",
-      "cited_by": 0
+      "cited_by": 1
     },
     {
       "title": "The next Turing tests: Reimagining conceptions and measures of AI",
@@ -12097,6 +12097,20 @@
       "cited_by": 1
     },
     {
+      "title": "TRIM21 Neutralizes Hazara Virus Using a Dual Mechanism of Nucleoprotein Caging and Ubiquitination",
+      "url": "https://doi.org/10.3390/v18090974",
+      "date": "2026-09-04",
+      "summary": "",
+      "org": "Leidos",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Viruses",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Preferential engagement of the anti-inflammatory ATP/adenosine axis by HIV vaccine candidate with V1-deleted envelope in male rhesus macaques",
       "url": "https://doi.org/10.1016/j.xcrm.2026.103022",
       "date": "2026-09-01",
@@ -12429,20 +12443,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "JNCI Journal of the National Cancer Institute",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Respiratory and Subjective Effects of Inhalation Valve Obstruction in the Flight Mask.",
-      "url": "https://doi.org/10.1093/milmed/usag025",
-      "date": "2026-08-01",
-      "summary": "",
-      "org": "Leidos",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "PubMed",
       "work_type": "article",
       "cited_by": 0
     },

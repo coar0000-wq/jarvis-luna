@@ -1,18 +1,18 @@
 ---
-title: "Record 1421 · 15-Editor-Loved-K-Beauty-Products-on-Major-Prime-Day-Sale---Harpers-BA"
+title: "Record 1421 · 15-Editor-Loved-K-Beauty-Products-on-Major-Prime-Day-Sale---Yahoo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.325029+00:00
+updated_at: 2026-09-05T11:25:01.566350+00:00
 tags: [record, real-data]
 ---
 
-# Record 1421 · 15-Editor-Loved-K-Beauty-Products-on-Major-Prime-Day-Sale---Harpers-BA
+# Record 1421 · 15-Editor-Loved-K-Beauty-Products-on-Major-Prime-Day-Sale---Yahoo
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilwFBVV95cUxNOGhJcjFob1ZlZEc5LUNvaFlqbXBvVzZkVV84NmJ6SS1UMnhSRHBNYkVkVkRFbEt5SEhTenQteFY0M1hpSWZkRGpyWHpRV3FLWjg4T0x6NjlIa2Vrdnl6SzVkTDAzWm1EeE5UYXA0VF9ZY29pTG9DZ2tHb1M2YW1namJudGhmLWd5cnNReW9pajJMbUxzSTdz?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilgFBVV95cUxPRFhmQ0ZWcS1QS2pzRkJyWW03a2VnWklmb3pVQ3RjVUpWeElac0JGb3dZSWkyb0ZQMldHQnJ5bzZtbDdDMUoxbzJKRWgwOWtKekhibDcyZHNJTWVuNVVXZVhKQS1CQ0tZVEJyTGE2NVNBUGZFMDA2TEI1b1VsNDY0c29zbzNlR0V4LURXbFdDNEd1dGZ4ckE?oc=5)
 
-**제목:** 15 Editor-Loved K-Beauty Products on Major Prime Day Sale - Harper's BAZAAR
+**제목:** 15 Editor-Loved K-Beauty Products on Major Prime Day Sale - Yahoo
 
-15 Editor-Loved K-Beauty Products on Major Prime Day Sale - Harper's BAZAAR
+15 Editor-Loved K-Beauty Products on Major Prime Day Sale - Yahoo
 
 **출처:** Source · Google Search
 

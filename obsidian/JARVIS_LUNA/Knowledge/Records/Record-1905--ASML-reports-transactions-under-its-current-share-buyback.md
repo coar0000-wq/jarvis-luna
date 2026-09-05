@@ -1,18 +1,18 @@
 ---
-title: "Record 1905 · ASML-reports-transactions-under-its-current-share-buyback-program"
+title: "Record 1905 · ASML-reports-transactions-under-its-current-share-buyback-program--ASM"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T07:05:25.319025+00:00
+updated_at: 2026-09-05T11:25:01.636600+00:00
 tags: [record, real-data]
 ---
 
-# Record 1905 · ASML-reports-transactions-under-its-current-share-buyback-program
+# Record 1905 · ASML-reports-transactions-under-its-current-share-buyback-program--ASM
 
-> 실제 수집 레코드입니다. 원문: [www.asml.com](https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-31)
+> 실제 수집 레코드입니다. 원문: [www.asml.com](https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-25)
 
-**제목:** ASML reports transactions under its current share buyback program
+**제목:** ASML reports transactions under its current share buyback program | ASML
 
-ASML reports transactions under its current share buyback program
+ASML reports transactions under its current share buyback program | ASML
 
 **출처:** Source · institutions
 

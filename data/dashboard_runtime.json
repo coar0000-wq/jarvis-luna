@@ -384,7 +384,7 @@
         "badge": "$20.99",
         "rank": 1,
         "rating": 4.8,
-        "review_count": 1071,
+        "review_count": 1070,
         "url": "https://us.oliveyoung.com/products/UA48723304"
       },
       {
@@ -402,7 +402,7 @@
         "badge": "$12.99",
         "rank": 3,
         "rating": 4.8,
-        "review_count": 12181,
+        "review_count": 12069,
         "url": "https://us.oliveyoung.com/products/UA29855490"
       },
       {
@@ -516,74 +516,74 @@
     ],
     "google_trends_us": [
       {
-        "keyword": "ben shelton",
-        "product": "ben shelton",
-        "sub": "US Open Tennis",
+        "keyword": "maxpreps",
+        "product": "maxpreps",
+        "sub": "MaxPreps",
         "badge": "5000+",
-        "url": "https://trends.google.com/trending?geo=US&q=ben%20shelton"
+        "url": "https://trends.google.com/trending?geo=US&q=maxpreps"
       },
       {
-        "keyword": "juárez - pachuca",
-        "product": "juárez - pachuca",
-        "sub": "Fubo",
+        "keyword": "wwe releases",
+        "product": "wwe releases",
+        "sub": "Bleacher Report",
         "badge": "5000+",
-        "url": "https://trends.google.com/trending?geo=US&q=ju%C3%A1rez%20-%20pachuca"
+        "url": "https://trends.google.com/trending?geo=US&q=wwe%20releases"
       },
       {
-        "keyword": "ben rice",
-        "product": "ben rice",
-        "sub": "The New York Times",
+        "keyword": "pumas - américa",
+        "product": "pumas - américa",
+        "sub": "Mediotiempo",
         "badge": "1000+",
-        "url": "https://trends.google.com/trending?geo=US&q=ben%20rice"
+        "url": "https://trends.google.com/trending?geo=US&q=pumas%20-%20am%C3%A9rica"
       },
       {
-        "keyword": "trent grisham",
-        "product": "trent grisham",
-        "sub": "SNY",
-        "badge": "500+",
-        "url": "https://trends.google.com/trending?geo=US&q=trent%20grisham"
-      },
-      {
-        "keyword": "oj simpson",
-        "product": "oj simpson",
-        "sub": "WSJ",
-        "badge": "500+",
-        "url": "https://trends.google.com/trending?geo=US&q=oj%20simpson"
-      },
-      {
-        "keyword": "brianna lyman",
-        "product": "brianna lyman",
-        "sub": "Fox News",
-        "badge": "500+",
-        "url": "https://trends.google.com/trending?geo=US&q=brianna%20lyman"
-      },
-      {
-        "keyword": "vito mielnicki jr",
-        "product": "vito mielnicki jr",
-        "sub": "DAZN",
-        "badge": "500+",
-        "url": "https://trends.google.com/trending?geo=US&q=vito%20mielnicki%20jr"
-      },
-      {
-        "keyword": "iowa high school football scores",
-        "product": "iowa high school football scores",
-        "sub": "KCCI",
-        "badge": "500+",
-        "url": "https://trends.google.com/trending?geo=US&q=iowa%20high%20school%20football%20scores"
-      },
-      {
-        "keyword": "gandhari movie 2026",
-        "product": "gandhari movie 2026",
-        "sub": "Rediff",
+        "keyword": "what is a data breach",
+        "product": "what is a data breach",
+        "sub": "Reuters",
         "badge": "200+",
-        "url": "https://trends.google.com/trending?geo=US&q=gandhari%20movie%202026"
+        "url": "https://trends.google.com/trending?geo=US&q=what%20is%20a%20data%20breach"
       },
       {
-        "keyword": "nick shirley",
-        "product": "nick shirley",
-        "sub": "Fox News",
+        "keyword": "what is a heat index",
+        "product": "what is a heat index",
+        "sub": "FOX 32 Chicago",
         "badge": "200+",
-        "url": "https://trends.google.com/trending?geo=US&q=nick%20shirley"
+        "url": "https://trends.google.com/trending?geo=US&q=what%20is%20a%20heat%20index"
+      },
+      {
+        "keyword": "world's tallest buildings",
+        "product": "world's tallest buildings",
+        "sub": "Newsweek",
+        "badge": "200+",
+        "url": "https://trends.google.com/trending?geo=US&q=world%27s%20tallest%20buildings"
+      },
+      {
+        "keyword": "netflix top movies right now",
+        "product": "netflix top movies right now",
+        "sub": "Yahoo",
+        "badge": "200+",
+        "url": "https://trends.google.com/trending?geo=US&q=netflix%20top%20movies%20right%20now"
+      },
+      {
+        "keyword": "los angeles",
+        "product": "los angeles",
+        "sub": "ABC7 Los Angeles",
+        "badge": "200+",
+        "url": "https://trends.google.com/trending?geo=US&q=los%20angeles"
+      },
+      {
+        "keyword": "onimusha",
+        "product": "onimusha",
+        "sub": "Game Informer",
+        "badge": "200+",
+        "url": "https://trends.google.com/trending?geo=US&q=onimusha"
+      },
+      {
+        "keyword": "nursulton ruziboev",
+        "product": "nursulton ruziboev",
+        "sub": "BBC",
+        "badge": "100+",
+        "url": "https://trends.google.com/trending?geo=US&q=nursulton%20ruziboev"
       }
     ],
     "wikipedia_interest": [
@@ -1225,7 +1225,7 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-05"
   },
-  "last_synced": "09. 05. 오후 04:25 KST",
+  "last_synced": "09. 05. 오후 08:40 KST",
   "global_channels_status": {
     "amazon_best_sellers": {
       "status": "ok",
@@ -1251,7 +1251,7 @@
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "2026-09-05T07:04:55.165348+00:00",
+      "collected_at": "2026-09-05T11:24:30.003790+00:00",
       "count": 15,
       "trust": "verified"
     },
@@ -1259,7 +1259,7 @@
       "status": "ok",
       "source": "trends.google.com/trending/rss?geo=US (공식 RSS)",
       "reason": "",
-      "collected_at": "2026-09-05T02:44:54.279216+00:00",
+      "collected_at": "2026-09-05T07:25:55.184545+00:00",
       "count": 10,
       "trust": "verified",
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽"
@@ -1268,7 +1268,7 @@
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-05T02:44:54.279216+00:00",
+      "collected_at": "2026-09-05T07:25:55.184545+00:00",
       "count": 8,
       "trust": "verified",
       "note": "2026-08-05 ~ 2026-09-03 일별 조회수. 후반 15일 대비 전반 15일 증감률"
@@ -1277,7 +1277,7 @@
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-05T02:44:54.279216+00:00",
+      "collected_at": "2026-09-05T07:25:55.184545+00:00",
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용."
@@ -1286,7 +1286,7 @@
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-05T02:44:54.279216+00:00",
+      "collected_at": "2026-09-05T07:25:55.184545+00:00",
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다."
@@ -1331,7 +1331,7 @@
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-05T07:04:54.569611+00:00",
+      "collected_at": "2026-09-05T11:24:29.249831+00:00",
       "count": 15,
       "trust": "verified"
     }

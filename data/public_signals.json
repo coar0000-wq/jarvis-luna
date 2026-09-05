@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T07:25:55.184545+00:00",
+  "generated_at": "2026-09-05T11:41:03.326787+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "maxpreps",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Fri, 4 Sep 2026 22:50:00 -0700",
-          "source_name": "MaxPreps",
-          "url": "https://trends.google.com/trending?geo=US&q=maxpreps"
-        },
-        {
-          "keyword": "wwe releases",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Fri, 4 Sep 2026 22:40:00 -0700",
-          "source_name": "Bleacher Report",
-          "url": "https://trends.google.com/trending?geo=US&q=wwe%20releases"
-        },
-        {
-          "keyword": "pumas - américa",
+          "keyword": "criminal defense attorney",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Fri, 4 Sep 2026 22:30:00 -0700",
-          "source_name": "Mediotiempo",
-          "url": "https://trends.google.com/trending?geo=US&q=pumas%20-%20am%C3%A9rica"
+          "published": "Sat, 5 Sep 2026 04:10:00 -0700",
+          "source_name": "Patch",
+          "url": "https://trends.google.com/trending?geo=US&q=criminal%20defense%20attorney"
         },
         {
-          "keyword": "what is a data breach",
+          "keyword": "domestic violence attorney",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 5 Sep 2026 00:10:00 -0700",
-          "source_name": "Reuters",
-          "url": "https://trends.google.com/trending?geo=US&q=what%20is%20a%20data%20breach"
+          "published": "Sat, 5 Sep 2026 04:20:00 -0700",
+          "source_name": "News4JAX",
+          "url": "https://trends.google.com/trending?geo=US&q=domestic%20violence%20attorney"
         },
         {
-          "keyword": "what is a heat index",
+          "keyword": "lincoln city vs southampton",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 5 Sep 2026 00:00:00 -0700",
-          "source_name": "FOX 32 Chicago",
-          "url": "https://trends.google.com/trending?geo=US&q=what%20is%20a%20heat%20index"
+          "published": "Sat, 5 Sep 2026 04:20:00 -0700",
+          "source_name": "Southampton FC Official Site",
+          "url": "https://trends.google.com/trending?geo=US&q=lincoln%20city%20vs%20southampton"
         },
         {
-          "keyword": "world's tallest buildings",
+          "keyword": "chelsea vs aston villa",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 5 Sep 2026 00:00:00 -0700",
-          "source_name": "Newsweek",
-          "url": "https://trends.google.com/trending?geo=US&q=world%27s%20tallest%20buildings"
+          "published": "Sat, 5 Sep 2026 04:20:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=chelsea%20vs%20aston%20villa"
         },
         {
-          "keyword": "netflix top movies right now",
+          "keyword": "christa pike",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Fri, 4 Sep 2026 23:50:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=netflix%20top%20movies%20right%20now"
+          "published": "Sat, 5 Sep 2026 04:20:00 -0700",
+          "source_name": "The Guardian",
+          "url": "https://trends.google.com/trending?geo=US&q=christa%20pike"
         },
         {
-          "keyword": "los angeles",
+          "keyword": "earthquakes today",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Fri, 4 Sep 2026 23:10:00 -0700",
-          "source_name": "ABC7 Los Angeles",
-          "url": "https://trends.google.com/trending?geo=US&q=los%20angeles"
+          "published": "Sat, 5 Sep 2026 04:10:00 -0700",
+          "source_name": "KOCO",
+          "url": "https://trends.google.com/trending?geo=US&q=earthquakes%20today"
         },
         {
-          "keyword": "onimusha",
+          "keyword": "united states department of justice antitrust division",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Fri, 4 Sep 2026 23:00:00 -0700",
-          "source_name": "Game Informer",
-          "url": "https://trends.google.com/trending?geo=US&q=onimusha"
+          "published": "Sat, 5 Sep 2026 04:10:00 -0700",
+          "source_name": "Fox News",
+          "url": "https://trends.google.com/trending?geo=US&q=united%20states%20department%20of%20justice%20antitrust%20division"
         },
         {
-          "keyword": "nursulton ruziboev",
+          "keyword": "beyoncé birthday fireworks jay z concert",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 5 Sep 2026 04:10:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=beyonc%C3%A9%20birthday%20fireworks%20jay%20z%20concert"
+        },
+        {
+          "keyword": "weather miami",
           "approx_traffic": "100+",
           "traffic_num": 100,
-          "published": "Fri, 4 Sep 2026 23:50:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=nursulton%20ruziboev"
+          "published": "Sat, 5 Sep 2026 04:20:00 -0700",
+          "source_name": "The Palm Beach Post",
+          "url": "https://trends.google.com/trending?geo=US&q=weather%20miami"
+        },
+        {
+          "keyword": "steve buscemi",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Sat, 5 Sep 2026 04:20:00 -0700",
+          "source_name": "RUNWAY MAGAZINE ® Official",
+          "url": "https://trends.google.com/trending?geo=US&q=steve%20buscemi"
         }
       ]
     },

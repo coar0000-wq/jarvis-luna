@@ -2,7 +2,7 @@
 title: "Record 087 · Data-Based-Clustering-and-Control-of-Similar-Biological-Systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T07:05:24.923947+00:00
+updated_at: 2026-09-05T11:25:01.363333+00:00
 tags: [record, real-data]
 ---
 

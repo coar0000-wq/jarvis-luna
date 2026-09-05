@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-05T07:04:54.569611+00:00",
+  "collected_at": "2026-09-05T11:24:29.249831+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -1427,19 +1427,6 @@
       "url": "https://world.openbeautyfacts.org/product/4005900243553"
     },
     {
-      "code": "59095842",
-      "product_name": "Dove Advanced Care Anti-Transpirant Deodorant Roller Original 50 ML",
-      "brands": "Dove",
-      "category": "데오드란트",
-      "obf_category": "deodorants",
-      "countries": [
-        "Netherlands"
-      ],
-      "ingredients_text": "Aqua, Glycerin, Aluminum Sesquichlorohydrate, Helianthus Annuus Seed Oil, Steareth-2, Parfum, Steareth-20, Calcium Chloride, Glycine, Disodium EDTA, Pentaerythrity Tetra-di-butyl Hydroxyhydrocinnamate, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Citronellol, Eugenol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool",
-      "image_url": "https://images.openbeautyfacts.org/images/products/000/005/909/5842/front_en.41.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/59095842"
-    },
-    {
       "code": "8714789913919",
       "product_name": "Dermo Protector",
       "brands": "Sanex",
@@ -1455,6 +1442,19 @@
       "ingredients_text": "Propylene Glycol, Aqua, Sodium Stearate, Parfum, Sodium Chloride, Stearyl Alcohol, Tetrasodium EDTA.",
       "image_url": "https://images.openbeautyfacts.org/images/products/871/478/991/3919/front_en.52.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/8714789913919"
+    },
+    {
+      "code": "59095842",
+      "product_name": "Dove Advanced Care Anti-Transpirant Deodorant Roller Original 50 ML",
+      "brands": "Dove",
+      "category": "데오드란트",
+      "obf_category": "deodorants",
+      "countries": [
+        "Netherlands"
+      ],
+      "ingredients_text": "Aqua, Glycerin, Aluminum Sesquichlorohydrate, Helianthus Annuus Seed Oil, Steareth-2, Parfum, Steareth-20, Calcium Chloride, Glycine, Disodium EDTA, Pentaerythrity Tetra-di-butyl Hydroxyhydrocinnamate, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Citronellol, Eugenol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool",
+      "image_url": "https://images.openbeautyfacts.org/images/products/000/005/909/5842/front_en.41.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/59095842"
     },
     {
       "code": "3600551146188",

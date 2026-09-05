@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T16:25:38.834850+09:00",
+  "generated_at": "2026-09-05T20:40:46.804923+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -11,9 +11,9 @@
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
-      "post_count": 50,
-      "collected_at": "2026-09-05T07:05:08.549379+00:00",
-      "keyword_pool": 42
+      "post_count": 25,
+      "collected_at": "2026-09-05T11:24:43.733744+00:00",
+      "keyword_pool": 40
     }
   },
   "sessions": [
@@ -78,14 +78,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'k-beauty', 'skin', 'skincare']",
+          "evidence": "matched=['skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Drop B Firming Glow Ampoule 40ml — beauty · K-beauty",
+          "primary_text": "Drop B Firming Glow Ampoule 40ml — skin · K-beauty",
           "headline": "Drop B Firming Glow Ampoule 40ml",
           "description": "Experience the Drop B Firming Glow Ampoule in a convenient 40ml size designed for your daily skincare routine. Apply gently to the skin to help maintain a radiant and smooth appearance every day.",
           "cta": "Shop now"
@@ -102,14 +102,10 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "k-beauty",
           "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "k-beauty",
           "skin",
           "skincare"
         ],
@@ -118,14 +114,12 @@
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "k-beauty",
           "skin",
           "skincare"
         ],
-        "score": 4,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['beauty', 'k-beauty', 'skin', 'skincare']",
+        "evidence": "matched=['skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -196,14 +190,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'cream', 'k-beauty', 'moisturizer', 'skin', 'skincare', 'sunscreen', 'sunscreens']",
+          "evidence": "matched=['creams', 'skin', 'skincare', 'sunscreens']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Vprove Marine Mild Mineral Sunscreen SPF50+ PA++++ 50 ml — beauty · K-beauty",
+          "primary_text": "Vprove Marine Mild Mineral Sunscreen SPF50+ PA++++ 50 ml — creams · K-beauty",
           "headline": "Vprove Marine Mild Mineral Sunscreen SPF",
           "description": "Discover the Vprove Marine Mild Mineral Sunscreen, featuring an SPF50+ PA++++ formula designed for daily sun protection. This gentle physical sunscreen helps shield your skin from UV rays. Presented i",
           "cta": "Shop now"
@@ -222,35 +216,30 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "k-beauty",
-          "moisturizer",
-          "skin"
+          "creams",
+          "skin",
+          "skincare",
+          "sunscreens"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "cream",
-          "k-beauty",
-          "moisturizer",
-          "skin"
+          "creams",
+          "skin",
+          "skincare",
+          "sunscreens"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "cream",
-          "k-beauty",
-          "moisturizer",
+          "creams",
           "skin",
           "skincare",
-          "sunscreen",
           "sunscreens"
         ],
-        "score": 8,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['beauty', 'cream', 'k-beauty', 'moisturizer', 'skin', 'skincare', 'sunscreen', 'sunscreens']",
+        "evidence": "matched=['creams', 'skin', 'skincare', 'sunscreens']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -321,14 +310,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'k-beauty', 'one', 'skin', 'skincare']",
+          "evidence": "matched=['one', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Cica Calming Toner 300 ml — beauty · K-beauty",
+          "primary_text": "VT Cica Calming Toner 300 ml — one · K-beauty",
           "headline": "VT Cica Calming Toner 300 ml",
           "description": "Discover the refreshing hydration of VT Cica Calming Toner, formulated in a generous 300 ml size. This soothing toner helps prep your skin daily, leaving it feeling balanced and comfortable.",
           "cta": "Shop now"
@@ -345,15 +334,11 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "k-beauty",
           "one",
           "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "k-beauty",
           "one",
           "skin",
           "skincare"
@@ -363,15 +348,13 @@
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "k-beauty",
           "one",
           "skin",
           "skincare"
         ],
-        "score": 5,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'k-beauty', 'one', 'skin', 'skincare']",
+        "evidence": "matched=['one', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -442,14 +425,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'k-beauty', 'skin', 'skincare']",
+          "evidence": "matched=['skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "DropB Blemish Clear Ampoule 40ml — beauty · K-beauty",
+          "primary_text": "DropB Blemish Clear Ampoule 40ml — skin · K-beauty",
           "headline": "DropB Blemish Clear Ampoule 40ml",
           "description": "Discover the DropB Blemish Clear Ampoule in a convenient 40ml size, designed to help you maintain a clear and vibrant complexion. This gentle facial ampoule is easy to incorporate into your daily skin",
           "cta": "Shop now"
@@ -466,14 +449,10 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "k-beauty",
           "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "k-beauty",
           "skin",
           "skincare"
         ],
@@ -482,14 +461,12 @@
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "k-beauty",
           "skin",
           "skincare"
         ],
-        "score": 4,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['beauty', 'k-beauty', 'skin', 'skincare']",
+        "evidence": "matched=['skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -560,7 +537,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'beauty', 'cream', 'k-beauty', 'moisturizer', 'skin', 'skincare']",
+          "evidence": "matched=['ask', 'creams', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -587,16 +564,15 @@
           "glass skin",
           "hydrating",
           "ask",
-          "beauty",
-          "k-beauty",
-          "moisturizer"
+          "creams",
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
           "ask",
-          "beauty",
-          "cream",
-          "k-beauty",
-          "moisturizer"
+          "creams",
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -604,16 +580,13 @@
       "reddit_match": {
         "matched": [
           "ask",
-          "beauty",
-          "cream",
-          "k-beauty",
-          "moisturizer",
+          "creams",
           "skin",
           "skincare"
         ],
-        "score": 7,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['ask', 'beauty', 'cream', 'k-beauty', 'moisturizer', 'skin', 'skincare']",
+        "evidence": "matched=['ask', 'creams', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -684,14 +657,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'cream', 'k-beauty', 'moisturizer', 'skin', 'skincare', 'sunscreen', 'sunscreens']",
+          "evidence": "matched=['creams', 'skin', 'skincare', 'sunscreens']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "SCINIC Power Homme Watery Sun Cream 50 ml — beauty · K-beauty",
+          "primary_text": "SCINIC Power Homme Watery Sun Cream 50 ml — creams · K-beauty",
           "headline": "SCINIC Power Homme Watery Sun Cream 50 m",
           "description": "Discover the SCINIC Power Homme Watery Sun Cream in a convenient 50 ml size, designed for daily sun protection. This lightweight formula absorbs smoothly to help shield your skin from the sun. Incorpo",
           "cta": "Shop now"
@@ -709,35 +682,30 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "k-beauty",
-          "moisturizer",
-          "skin"
+          "creams",
+          "skin",
+          "skincare",
+          "sunscreens"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "cream",
-          "k-beauty",
-          "moisturizer",
-          "skin"
+          "creams",
+          "skin",
+          "skincare",
+          "sunscreens"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "cream",
-          "k-beauty",
-          "moisturizer",
+          "creams",
           "skin",
           "skincare",
-          "sunscreen",
           "sunscreens"
         ],
-        "score": 8,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['beauty', 'cream', 'k-beauty', 'moisturizer', 'skin', 'skincare', 'sunscreen', 'sunscreens']",
+        "evidence": "matched=['creams', 'skin', 'skincare', 'sunscreens']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -918,14 +886,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'k-beauty', 'one', 'skin', 'skincare']",
+          "evidence": "matched=['one', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml — beauty · K-beauty",
+          "primary_text": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml — one · K-beauty",
           "headline": "Chaebigonggan Heartleaf Extract Vegan To",
           "description": "Discover the refreshing benefits of Chaebigonggan Heartleaf Extract Vegan Toner, formulated with heartleaf extract in a 150 ml size. Incorporating this gentle vegan toner into your daily routine helps",
           "cta": "Shop now"
@@ -943,15 +911,11 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "k-beauty",
           "one",
           "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "k-beauty",
           "one",
           "skin",
           "skincare"
@@ -961,15 +925,13 @@
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "k-beauty",
           "one",
           "skin",
           "skincare"
         ],
-        "score": 5,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'k-beauty', 'one', 'skin', 'skincare']",
+        "evidence": "matched=['one', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -1040,14 +1002,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'cream', 'k-beauty', 'moisturizer', 'skin', 'skincare']",
+          "evidence": "matched=['creams', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml — beauty · K-beauty",
+          "primary_text": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml — creams · K-beauty",
           "headline": "Cell Fusion C Derma Block PDRN Collagen ",
           "description": "Discover the Cell Fusion C Derma Block PDRN Collagen Cream in a convenient 50 ml size. Formulated with PDRN and collagen, this daily face cream provides essential moisture for your skincare routine. S",
           "cta": "Shop now"
@@ -1066,33 +1028,27 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "k-beauty",
-          "moisturizer",
-          "skin"
+          "creams",
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "cream",
-          "k-beauty",
-          "moisturizer",
-          "skin"
+          "creams",
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "cream",
-          "k-beauty",
-          "moisturizer",
+          "creams",
           "skin",
           "skincare"
         ],
-        "score": 6,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'cream', 'k-beauty', 'moisturizer', 'skin', 'skincare']",
+        "evidence": "matched=['creams', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -1272,14 +1228,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'k-beauty', 'skin', 'skincare']",
+          "evidence": "matched=['skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Lenoia Perfume Hair Serum Mist Aqua Sea Salt 80 ml — beauty · K-beauty",
+          "primary_text": "Lenoia Perfume Hair Serum Mist Aqua Sea Salt 80 ml — skin · K-beauty",
           "headline": "Lenoia Perfume Hair Serum Mist Aqua Sea ",
           "description": "Refresh and scent your hair with Lenoia Perfume Hair Serum Mist in Aqua Sea Salt. This lightweight 80 ml formula helps keep your hair feeling soft and delicately fragranced throughout the day. Simply ",
           "cta": "Shop now"
@@ -1296,14 +1252,10 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "k-beauty",
           "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "k-beauty",
           "skin",
           "skincare"
         ],
@@ -1312,14 +1264,12 @@
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "k-beauty",
           "skin",
           "skincare"
         ],
-        "score": 4,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['beauty', 'k-beauty', 'skin', 'skincare']",
+        "evidence": "matched=['skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -1390,7 +1340,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "warn",
-          "evidence": "terms=['balanced', 'cleanse', 'cleanser', 'cleansing', 'double', 'gentle'] vs pool=42",
+          "evidence": "terms=['balanced', 'cleanse', 'cleanser', 'cleansing', 'double', 'gentle'] vs pool=40",
           "tip": "Reddit 핫 키워드와 직접 겹침 약함 — 성분 영문명으로 재검색"
         }
       ],
@@ -1423,7 +1373,7 @@
         "matched": [],
         "score": 0,
         "status": "warn",
-        "evidence": "terms=['balanced', 'cleanse', 'cleanser', 'cleansing', 'double', 'gentle'] vs pool=42",
+        "evidence": "terms=['balanced', 'cleanse', 'cleanser', 'cleansing', 'double', 'gentle'] vs pool=40",
         "tip": "Reddit 핫 키워드와 직접 겹침 약함 — 성분 영문명으로 재검색"
       },
       "coach_summary": {

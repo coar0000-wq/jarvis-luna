@@ -2,7 +2,7 @@
 title: "Record 072 · Synchronization-of-directed-hypergraphs-with-heterogeneities-via-dynam"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T07:05:24.919720+00:00
+updated_at: 2026-09-05T11:25:01.359781+00:00
 tags: [record, real-data]
 ---
 
