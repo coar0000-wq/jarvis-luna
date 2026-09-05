@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T16:12:45.506392+00:00",
+  "updated_at": "2026-09-05T18:21:15.708601+00:00",
   "channel": "Learn With Shopify",
   "channel_handle": "@learnwithshopify",
   "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
@@ -8,15 +8,15 @@
   "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC7geKfz2-IH0rsgRBtHTm0g",
   "count": 15,
   "title_keywords": {
-    "shopify": 7,
-    "store": 4,
+    "shopify": 6,
     "claude": 3,
+    "store": 3,
     "product": 2,
-    "build": 2,
     "ai": 2,
     "network": 1,
     "sidekick": 1,
     "cowork": 1,
+    "build": 1,
     "run": 1,
     "entrepreneur": 1,
     "browser": 1,
@@ -48,6 +48,17 @@
         "cross_brand_product_network",
         "daiso_to_shopify_expansion"
       ]
+    },
+    {
+      "video_id": "y_l_fPDU1YU",
+      "title": "How to create your brand in Claude Design! ✨",
+      "url": "https://www.youtube.com/shorts/y_l_fPDU1YU",
+      "published": "2026-09-05T17:00:15+00:00",
+      "description_snip": "The #1 Claude Design Mistake (And How to Fix It!) 🎨 Stop skipping this crucial step! Before starting any design work, build a branding guide in Claude Design to keep your colors, fonts, and style completely consistent. Learn how to set up your design system at claude.ai/design so every asset you create automatically matches your brand's vibe. #ClaudeDesign #BrandingTips #GraphicDesign #AIBranding ",
+      "channel": "Learn With Shopify",
+      "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
+      "source": "youtube_rss_free",
+      "analyze_with_notebook": "https://notebook.google.com/notebook/88638802-cf08-47ca-a3ec-12453818438a"
     },
     {
       "video_id": "8Rth8YRLaDY",
@@ -187,17 +198,6 @@
       "url": "https://www.youtube.com/shorts/pLW7Ffqddxo",
       "published": "2026-08-22T12:00:12+00:00",
       "description_snip": "Shopify NEWS: It's time Upgrade Your Shop App! Shop now has AI Search & Shoppable Posts. We are excited to share some game-changing updates to help you reach more customers with less effort! In this YouTube Short, we walk you through how you can now create shoppable posts directly in your admin channel to land right in shoppers' home feeds. Plus, you can easily sync your existing Instagram reels a",
-      "channel": "Learn With Shopify",
-      "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-      "source": "youtube_rss_free",
-      "analyze_with_notebook": "https://notebook.google.com/notebook/88638802-cf08-47ca-a3ec-12453818438a"
-    },
-    {
-      "video_id": "zrJRlnfQTR0",
-      "title": "How to design and build a Shopify store with Claude",
-      "url": "https://www.youtube.com/shorts/zrJRlnfQTR0",
-      "published": "2026-08-21T21:00:14+00:00",
-      "description_snip": "How to Build a website using Claude. Click on the link on screen to watch the full tutorial. Are you looking to build your dream online store from scratch? In this YouTube Short, we show you how you can complete your early build entirely inside Claude without touching a single Shopify setting first. We'll walk you through the simple and fastest route: import your info into Claude, and let the AI r",
       "channel": "Learn With Shopify",
       "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
       "source": "youtube_rss_free",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T16:12:45.506956+00:00",
+  "updated_at": "2026-09-05T18:21:15.709366+00:00",
   "source": "youtube_atom_rss",
   "truth_note": "Live RSS only. No hardcoded product/video lists.",
   "notebooklm_url": "https://notebook.google.com/notebook/88638802-cf08-47ca-a3ec-12453818438a",
@@ -13,6 +13,18 @@
   ],
   "count": 15,
   "videos": [
+    {
+      "video_id": "y_l_fPDU1YU",
+      "title": "How to create your brand in Claude Design! ✨",
+      "url": "https://www.youtube.com/shorts/y_l_fPDU1YU",
+      "published": "2026-09-05T17:00:15+00:00",
+      "description_snip": "The #1 Claude Design Mistake (And How to Fix It!) 🎨 Stop skipping this crucial step! Before starting any design work, build a branding guide in Claude Design to keep your colors, fonts, and style completely consistent. Learn how to set up your design system at claude.ai/design so every asset you create automatically matches your brand's vibe. #ClaudeDesign #BrandingTips #GraphicDesign #AIBranding ",
+      "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
+      "channel_title": "Learn With Shopify",
+      "source": "youtube_atom_rss",
+      "collection_method": "live_rss",
+      "analyze_with_notebook": "https://notebook.google.com/notebook/88638802-cf08-47ca-a3ec-12453818438a"
+    },
     {
       "video_id": "8Rth8YRLaDY",
       "title": "What’s NEW with Shopify Sidekick?",
@@ -178,18 +190,6 @@
       "url": "https://www.youtube.com/shorts/pLW7Ffqddxo",
       "published": "2026-08-22T12:00:12+00:00",
       "description_snip": "Shopify NEWS: It's time Upgrade Your Shop App! Shop now has AI Search & Shoppable Posts. We are excited to share some game-changing updates to help you reach more customers with less effort! In this YouTube Short, we walk you through how you can now create shoppable posts directly in your admin channel to land right in shoppers' home feeds. Plus, you can easily sync your existing Instagram reels a",
-      "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-      "channel_title": "Learn With Shopify",
-      "source": "youtube_atom_rss",
-      "collection_method": "live_rss",
-      "analyze_with_notebook": "https://notebook.google.com/notebook/88638802-cf08-47ca-a3ec-12453818438a"
-    },
-    {
-      "video_id": "zrJRlnfQTR0",
-      "title": "How to design and build a Shopify store with Claude",
-      "url": "https://www.youtube.com/shorts/zrJRlnfQTR0",
-      "published": "2026-08-21T21:00:14+00:00",
-      "description_snip": "How to Build a website using Claude. Click on the link on screen to watch the full tutorial. Are you looking to build your dream online store from scratch? In this YouTube Short, we show you how you can complete your early build entirely inside Claude without touching a single Shopify setting first. We'll walk you through the simple and fastest route: import your info into Claude, and let the AI r",
       "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
       "channel_title": "Learn With Shopify",
       "source": "youtube_atom_rss",
