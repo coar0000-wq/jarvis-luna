@@ -109,8 +109,28 @@ def main() -> int:
         except (OSError, json.JSONDecodeError, TypeError, ValueError):
             pass
 
+    # 등록 게이트. 네 조건을 모두 통과한 상품만 CSV 에 넣는다.
+    # 고시·실측·법률이 비어 있는 상품이 스토어에 올라가는 것을 막는 장치다.
+    gate_path = ROOT / "data" / "listing_gate.json"
+    gate = {}
+    gate_note = "listing_gate.json 없음 - 게이트 미적용"
+    try:
+        g = json.loads(gate_path.read_text(encoding="utf-8-sig"))
+        gate = {str(r.get("pd_no")): r for r in g.get("items") or []}
+        gate_note = (f"listing_gate.json {g.get('generated_at','')[:19]} 기준 "
+                     f"등록 가능 {g.get('ready',0)}/{g.get('total',0)}")
+    except (OSError, json.JSONDecodeError, UnicodeDecodeError):
+        pass
+
     rows, skipped = [], []
     for it in doc.get("items", []):
+        gr = gate.get(str(it.get("pd_no")))
+        if gr and not gr.get("listing_ready"):
+            LABEL = {"copy": "카피", "gosi": "고시", "price": "실측 무게", "legal": "법률 검토"}
+            miss = ", ".join(LABEL.get(b, b) for b in gr.get("blocked_by") or [])
+            skipped.append({"pd_no": it.get("pd_no"), "name_ko": it.get("name_ko"),
+                            "reason": f"등록 게이트 미통과 - {miss} 미완료"})
+            continue
         c = it.get("copy")
         if not c:
             skipped.append({"pd_no": it.get("pd_no"), "name_ko": it.get("name_ko"),
@@ -179,6 +199,7 @@ def main() -> int:
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "csv": "data/shopify_import.csv",
         "rows": len(rows),
+        "listing_gate": gate_note,
         "skipped": skipped,
         "exchange_rate": fx_note,
         "pricing_model": pm_note,
@@ -217,6 +238,10 @@ def main() -> int:
         print(f"제외 {len(skipped)}건:")
         for s in skipped:
             print(f"  - {s['name_ko']} :: {s['reason'][:60]}")
+    if not rows and gate:
+        # 게이트가 전부 막은 경우는 오류가 아니라 정상 판정이다.
+        print("등록 가능한 상품이 없다. 고시·실측·법률을 채우면 열린다.")
+        return 0
     return 0 if rows else 1
 
 
