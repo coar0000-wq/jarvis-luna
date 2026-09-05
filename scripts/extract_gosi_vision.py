@@ -63,10 +63,12 @@ def pick_models(key: str) -> list[str]:
               if "generateContent" in (m.get("supportedGenerationMethods") or [])]
     # 한 모델이 과부하면 다음 모델로 넘어간다. flash 계열이 싸고 빠르다.
     order, seen = [], set()
-    for pat in ("gemini-flash-latest", "gemini-2.5-flash", "gemini-2.0-flash",
-                "flash-latest", "flash", "pro"):
+    # 성분 표기는 법률 자료라 정확도가 우선이다. Pro 와 확장 사고 모델을
+    # 먼저 쓰고, 과부하면 flash 로 내려간다.
+    for pat in ("3.1-pro", "gemini-3", "pro-latest", "2.5-pro", "pro",
+                "thinking", "gemini-flash-latest", "2.5-flash", "flash"):
         for n in usable:
-            if pat in n and "thinking" not in n and n not in seen:
+            if pat in n and n not in seen:
                 seen.add(n)
                 order.append(n)
     if not order:

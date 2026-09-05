@@ -365,14 +365,19 @@ def team_cards(graph: dict) -> list[dict]:
         for r in rows:
             k = r.get("weight_source") or "estimated"
             src[k] = src.get(k, 0) + 1
-        # 100g 경계에 걸린 것만 저울이 필요하다. 전부 재라고 하지 않는다.
-        need = [r for r in rows if r.get("weigh_needed")]
+        # 저울을 요구하지 않는다. 고시 용량과 우체국 요금표로 계산하면 된다.
+        # 배송비는 이미 상품마다 계산되어 있으므로 그 결과를 보여준다.
         LAB = {"measured": "실측", "gosi_volume": "고시용량", "estimated": "이름추정"}
         detail = " / ".join(f"{LAB.get(k, k)} {v}" for k, v in sorted(src.items()))
+        ships = sorted(r.get("shipping_unit_usd") or 0 for r in rows)
+        gs = sorted(r.get("weight_g_est") or 0 for r in rows)
+        ship_txt = (f'개당 배송비 ${ships[0]:.2f}~${ships[-1]:.2f}' if ships else '')
+        blocked = [r for r in rows if r.get("breakeven_usd", 0) >= (r.get("market_median_usd") or 0) > 0]
         cards.append(_team(
             "pricing", "가격 정책팀", pm.get("generated_at"),
-            f'DDU/DDP {len(duty)}개 시나리오 · 무게 {detail}' + feed_tail("pricing"),
-            f'{len(need)}건만 저울 필요 (100g 경계 ±15g)' if need else None))
+            f'{ship_txt} · 무게 {gs[0]}~{gs[-1]}g ({detail}) · DDU/DDP {len(duty)}개'
+            + feed_tail("pricing"),
+            f'{len(blocked)}건이 시장가로 손익분기 미달' if blocked else None))
     else:
         cards.append(_team("pricing", "가격 정책팀", None,
                            "pricing_model.json 없음", None, "missing"))

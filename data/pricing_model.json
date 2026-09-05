@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T13:08:46.832370+00:00",
+  "generated_at": "2026-09-05T13:32:19.472578+00:00",
   "exchange_rate": {
     "usd_to_krw": 1348.99,
     "as_of": "2026-09-05",
@@ -97,10 +97,10 @@
         "qty": 1,
         "price_usd": 12.99,
         "unit_price_usd": 12.99,
-        "landed_cost_total_usd": 8.69,
+        "landed_cost_total_usd": 7.94,
         "fee_usd": 0.96,
-        "net_profit_usd": 3.34,
-        "margin_pct": 25.7,
+        "net_profit_usd": 4.09,
+        "margin_pct": 31.5,
         "market_median_usd": 13.0,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
@@ -279,10 +279,10 @@
         "qty": 2,
         "price_usd": 20.99,
         "unit_price_usd": 10.49,
-        "landed_cost_total_usd": 11.9,
+        "landed_cost_total_usd": 10.4,
         "fee_usd": 1.55,
-        "net_profit_usd": 7.54,
-        "margin_pct": 35.9,
+        "net_profit_usd": 9.04,
+        "margin_pct": 43.1,
         "market_median_usd": 13.0,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
@@ -414,11 +414,11 @@
       "discount_pct": 0,
       "price_usd": 18.99,
       "unit_price_usd": 18.99,
-      "landed_cost_total_usd": 10.57,
-      "shipping_in_cost_usd": 7.23,
+      "landed_cost_total_usd": 10.51,
+      "shipping_in_cost_usd": 7.17,
       "fee_usd": 1.41,
-      "net_profit_usd": 7.01,
-      "margin_pct": 36.9,
+      "net_profit_usd": 7.08,
+      "margin_pct": 37.3,
       "free_shipping": false,
       "orders_for_500usd": 71,
       "price_basis": "상품별 권장가의 중앙값",
@@ -432,11 +432,11 @@
       "discount_pct": 15,
       "price_usd": 30.99,
       "unit_price_usd": 15.49,
-      "landed_cost_total_usd": 15.26,
-      "shipping_in_cost_usd": 8.58,
+      "landed_cost_total_usd": 15.13,
+      "shipping_in_cost_usd": 8.45,
       "fee_usd": 2.29,
-      "net_profit_usd": 13.44,
-      "margin_pct": 43.4,
+      "net_profit_usd": 13.56,
+      "margin_pct": 43.8,
       "free_shipping": true,
       "orders_for_500usd": 37,
       "price_basis": "상품별 권장가의 중앙값",
@@ -459,8 +459,8 @@
         "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 104,
-        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
+        "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 6.98,
@@ -650,37 +650,37 @@
         "bucket": "스킨케어",
         "shopify_score": 94,
         "price_krw": 2000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 69,
+        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 6.98,
-        "shipping_order_usd": 6.98,
+        "shipping_unit_usd": 6.23,
+        "shipping_order_usd": 6.23,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.69,
-        "landed_cost_ddu_usd": 8.69,
-        "landed_cost_ddp_usd": 8.47,
+        "landed_cost_usd": 7.94,
+        "landed_cost_ddu_usd": 7.94,
+        "landed_cost_ddp_usd": 7.72,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.38,
+        "breakeven_usd": 8.57,
         "at_2_2x": {
           "sell": 3.26,
           "fee": 0.24,
-          "profit": -5.67,
-          "margin_pct": -173.8
+          "profit": -4.92,
+          "margin_pct": -150.8
         },
         "at_market_p25": {
           "sell": 18.63,
           "fee": 1.38,
-          "profit": 8.56,
-          "margin_pct": 46.0
+          "profit": 9.31,
+          "margin_pct": 50.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 13.54,
-          "margin_pct": 56.4
+          "profit": 14.28,
+          "margin_pct": 59.5
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -688,8 +688,8 @@
         "at_product_market": {
           "sell": 13.0,
           "fee": 0.96,
-          "profit": 3.35,
-          "margin_pct": 25.8
+          "profit": 4.1,
+          "margin_pct": 31.5
         }
       },
       {
@@ -1032,8 +1032,8 @@
         "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 104,
-        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
+        "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 3.87,
@@ -1223,37 +1223,37 @@
         "bucket": "스킨케어",
         "shopify_score": 94,
         "price_krw": 2000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 69,
+        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 4.24,
-        "shipping_order_usd": 8.48,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.98,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.95,
-        "landed_cost_ddu_usd": 5.95,
-        "landed_cost_ddp_usd": 5.72,
+        "landed_cost_usd": 5.2,
+        "landed_cost_ddu_usd": 5.2,
+        "landed_cost_ddp_usd": 4.97,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.42,
+        "breakeven_usd": 5.61,
         "at_2_2x": {
           "sell": 3.26,
           "fee": 0.24,
-          "profit": -2.92,
-          "margin_pct": -89.7
+          "profit": -2.18,
+          "margin_pct": -66.7
         },
         "at_market_p25": {
           "sell": 18.63,
           "fee": 1.38,
-          "profit": 11.31,
-          "margin_pct": 60.7
+          "profit": 12.05,
+          "margin_pct": 64.7
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 16.28,
-          "margin_pct": 67.8
+          "profit": 17.03,
+          "margin_pct": 70.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -1261,8 +1261,8 @@
         "at_product_market": {
           "sell": 13.0,
           "fee": 0.96,
-          "profit": 6.09,
-          "margin_pct": 46.9
+          "profit": 6.84,
+          "margin_pct": 52.6
         }
       },
       {
@@ -1605,8 +1605,8 @@
         "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 104,
-        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
+        "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 2.83,
@@ -1796,37 +1796,37 @@
         "bucket": "스킨케어",
         "shopify_score": 94,
         "price_krw": 2000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 69,
+        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 3.57,
-        "shipping_order_usd": 10.7,
+        "shipping_unit_usd": 2.58,
+        "shipping_order_usd": 7.73,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.27,
-        "landed_cost_ddu_usd": 5.27,
-        "landed_cost_ddp_usd": 5.05,
+        "landed_cost_usd": 4.28,
+        "landed_cost_ddu_usd": 4.28,
+        "landed_cost_ddp_usd": 4.06,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.69,
+        "breakeven_usd": 4.62,
         "at_2_2x": {
           "sell": 3.26,
           "fee": 0.24,
-          "profit": -2.25,
-          "margin_pct": -69.1
+          "profit": -1.26,
+          "margin_pct": -38.7
         },
         "at_market_p25": {
           "sell": 18.63,
           "fee": 1.38,
-          "profit": 11.98,
-          "margin_pct": 64.3
+          "profit": 12.97,
+          "margin_pct": 69.6
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 16.95,
-          "margin_pct": 70.6
+          "profit": 17.94,
+          "margin_pct": 74.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -1834,8 +1834,8 @@
         "at_product_market": {
           "sell": 13.0,
           "fee": 0.96,
-          "profit": 6.76,
-          "margin_pct": 52.0
+          "profit": 7.76,
+          "margin_pct": 59.7
         }
       },
       {
@@ -2178,8 +2178,8 @@
         "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 104,
-        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
+        "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 2.14,
@@ -2369,37 +2369,37 @@
         "bucket": "스킨케어",
         "shopify_score": 94,
         "price_krw": 2000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 69,
+        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 2.7,
-        "shipping_order_usd": 13.51,
+        "shipping_unit_usd": 1.7,
+        "shipping_order_usd": 8.48,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 4.41,
-        "landed_cost_ddu_usd": 4.41,
-        "landed_cost_ddp_usd": 4.19,
+        "landed_cost_usd": 3.4,
+        "landed_cost_ddu_usd": 3.4,
+        "landed_cost_ddp_usd": 3.18,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 4.76,
+        "breakeven_usd": 3.67,
         "at_2_2x": {
           "sell": 3.26,
           "fee": 0.24,
-          "profit": -1.39,
-          "margin_pct": -42.5
+          "profit": -0.38,
+          "margin_pct": -11.7
         },
         "at_market_p25": {
           "sell": 18.63,
           "fee": 1.38,
-          "profit": 12.84,
-          "margin_pct": 68.9
+          "profit": 13.85,
+          "margin_pct": 74.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 17.82,
-          "margin_pct": 74.2
+          "profit": 18.82,
+          "margin_pct": 78.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -2407,8 +2407,8 @@
         "at_product_market": {
           "sell": 13.0,
           "fee": 0.96,
-          "profit": 7.63,
-          "margin_pct": 58.7
+          "profit": 8.64,
+          "margin_pct": 66.4
         }
       },
       {
@@ -2753,8 +2753,8 @@
         "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 104,
-        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
+        "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 6.98,
@@ -2944,37 +2944,37 @@
         "bucket": "스킨케어",
         "shopify_score": 94,
         "price_krw": 2000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 69,
+        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 6.98,
-        "shipping_order_usd": 6.98,
+        "shipping_unit_usd": 6.23,
+        "shipping_order_usd": 6.23,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.69,
-        "landed_cost_ddu_usd": 8.69,
-        "landed_cost_ddp_usd": 8.47,
+        "landed_cost_usd": 7.94,
+        "landed_cost_ddu_usd": 7.94,
+        "landed_cost_ddp_usd": 7.72,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.38,
+        "breakeven_usd": 8.57,
         "at_2_2x": {
           "sell": 3.26,
           "fee": 0.24,
-          "profit": -5.67,
-          "margin_pct": -173.8
+          "profit": -4.92,
+          "margin_pct": -150.8
         },
         "at_market_p25": {
           "sell": 18.63,
           "fee": 1.38,
-          "profit": 8.56,
-          "margin_pct": 46.0
+          "profit": 9.31,
+          "margin_pct": 50.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 13.54,
-          "margin_pct": 56.4
+          "profit": 14.28,
+          "margin_pct": 59.5
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -2982,8 +2982,8 @@
         "at_product_market": {
           "sell": 13.0,
           "fee": 0.96,
-          "profit": 3.35,
-          "margin_pct": 25.8
+          "profit": 4.1,
+          "margin_pct": 31.5
         }
       },
       {
@@ -3326,8 +3326,8 @@
         "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 104,
-        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
+        "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 3.87,
@@ -3517,37 +3517,37 @@
         "bucket": "스킨케어",
         "shopify_score": 94,
         "price_krw": 2000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 69,
+        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 4.24,
-        "shipping_order_usd": 8.48,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.98,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.95,
-        "landed_cost_ddu_usd": 5.95,
-        "landed_cost_ddp_usd": 5.72,
+        "landed_cost_usd": 5.2,
+        "landed_cost_ddu_usd": 5.2,
+        "landed_cost_ddp_usd": 4.97,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.42,
+        "breakeven_usd": 5.61,
         "at_2_2x": {
           "sell": 3.26,
           "fee": 0.24,
-          "profit": -2.92,
-          "margin_pct": -89.7
+          "profit": -2.18,
+          "margin_pct": -66.7
         },
         "at_market_p25": {
           "sell": 18.63,
           "fee": 1.38,
-          "profit": 11.31,
-          "margin_pct": 60.7
+          "profit": 12.05,
+          "margin_pct": 64.7
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 16.28,
-          "margin_pct": 67.8
+          "profit": 17.03,
+          "margin_pct": 70.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -3555,8 +3555,8 @@
         "at_product_market": {
           "sell": 13.0,
           "fee": 0.96,
-          "profit": 6.09,
-          "margin_pct": 46.9
+          "profit": 6.84,
+          "margin_pct": 52.6
         }
       },
       {
@@ -3899,8 +3899,8 @@
         "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 104,
-        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
+        "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 2.83,
@@ -4090,37 +4090,37 @@
         "bucket": "스킨케어",
         "shopify_score": 94,
         "price_krw": 2000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 69,
+        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 3.57,
-        "shipping_order_usd": 10.7,
+        "shipping_unit_usd": 2.58,
+        "shipping_order_usd": 7.73,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.27,
-        "landed_cost_ddu_usd": 5.27,
-        "landed_cost_ddp_usd": 5.05,
+        "landed_cost_usd": 4.28,
+        "landed_cost_ddu_usd": 4.28,
+        "landed_cost_ddp_usd": 4.06,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.69,
+        "breakeven_usd": 4.62,
         "at_2_2x": {
           "sell": 3.26,
           "fee": 0.24,
-          "profit": -2.25,
-          "margin_pct": -69.1
+          "profit": -1.26,
+          "margin_pct": -38.7
         },
         "at_market_p25": {
           "sell": 18.63,
           "fee": 1.38,
-          "profit": 11.98,
-          "margin_pct": 64.3
+          "profit": 12.97,
+          "margin_pct": 69.6
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 16.95,
-          "margin_pct": 70.6
+          "profit": 17.94,
+          "margin_pct": 74.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -4128,8 +4128,8 @@
         "at_product_market": {
           "sell": 13.0,
           "fee": 0.96,
-          "profit": 6.76,
-          "margin_pct": 52.0
+          "profit": 7.76,
+          "margin_pct": 59.7
         }
       },
       {
@@ -4472,8 +4472,8 @@
         "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 104,
-        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
+        "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 2.14,
@@ -4663,37 +4663,37 @@
         "bucket": "스킨케어",
         "shopify_score": 94,
         "price_krw": 2000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 69,
+        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 2.7,
-        "shipping_order_usd": 13.51,
+        "shipping_unit_usd": 1.7,
+        "shipping_order_usd": 8.48,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 4.41,
-        "landed_cost_ddu_usd": 4.41,
-        "landed_cost_ddp_usd": 4.19,
+        "landed_cost_usd": 3.4,
+        "landed_cost_ddu_usd": 3.4,
+        "landed_cost_ddp_usd": 3.18,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 4.76,
+        "breakeven_usd": 3.67,
         "at_2_2x": {
           "sell": 3.26,
           "fee": 0.24,
-          "profit": -1.39,
-          "margin_pct": -42.5
+          "profit": -0.38,
+          "margin_pct": -11.7
         },
         "at_market_p25": {
           "sell": 18.63,
           "fee": 1.38,
-          "profit": 12.84,
-          "margin_pct": 68.9
+          "profit": 13.85,
+          "margin_pct": 74.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 17.82,
-          "margin_pct": 74.2
+          "profit": 18.82,
+          "margin_pct": 78.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -4701,8 +4701,8 @@
         "at_product_market": {
           "sell": 13.0,
           "fee": 0.96,
-          "profit": 7.63,
-          "margin_pct": 58.7
+          "profit": 8.64,
+          "margin_pct": 66.4
         }
       },
       {
@@ -5045,8 +5045,8 @@
         "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 104,
-        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
+        "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 6.98,
@@ -5236,37 +5236,37 @@
         "bucket": "스킨케어",
         "shopify_score": 94,
         "price_krw": 2000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 69,
+        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 6.98,
-        "shipping_order_usd": 6.98,
+        "shipping_unit_usd": 6.23,
+        "shipping_order_usd": 6.23,
         "tariff_usd": 0.22,
         "duty_mode": "ddp",
-        "landed_cost_usd": 8.47,
-        "landed_cost_ddu_usd": 8.69,
-        "landed_cost_ddp_usd": 8.47,
+        "landed_cost_usd": 7.72,
+        "landed_cost_ddu_usd": 7.94,
+        "landed_cost_ddp_usd": 7.72,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 9.14,
+        "breakeven_usd": 8.33,
         "at_2_2x": {
           "sell": 3.26,
           "fee": 0.24,
-          "profit": -5.45,
-          "margin_pct": -166.9
+          "profit": -4.7,
+          "margin_pct": -144.0
         },
         "at_market_p25": {
           "sell": 18.63,
           "fee": 1.38,
-          "profit": 8.79,
-          "margin_pct": 47.2
+          "profit": 9.53,
+          "margin_pct": 51.2
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 13.76,
-          "margin_pct": 57.3
+          "profit": 14.51,
+          "margin_pct": 60.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -5274,8 +5274,8 @@
         "at_product_market": {
           "sell": 13.0,
           "fee": 0.96,
-          "profit": 3.57,
-          "margin_pct": 27.5
+          "profit": 4.32,
+          "margin_pct": 33.2
         }
       },
       {
@@ -5618,8 +5618,8 @@
         "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 104,
-        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
+        "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 3.87,
@@ -5809,37 +5809,37 @@
         "bucket": "스킨케어",
         "shopify_score": 94,
         "price_krw": 2000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 69,
+        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 4.24,
-        "shipping_order_usd": 8.48,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.98,
         "tariff_usd": 0.22,
         "duty_mode": "ddp",
-        "landed_cost_usd": 5.72,
-        "landed_cost_ddu_usd": 5.95,
-        "landed_cost_ddp_usd": 5.72,
+        "landed_cost_usd": 4.97,
+        "landed_cost_ddu_usd": 5.2,
+        "landed_cost_ddp_usd": 4.97,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 6.18,
+        "breakeven_usd": 5.37,
         "at_2_2x": {
           "sell": 3.26,
           "fee": 0.24,
-          "profit": -2.7,
-          "margin_pct": -82.9
+          "profit": -1.95,
+          "margin_pct": -59.9
         },
         "at_market_p25": {
           "sell": 18.63,
           "fee": 1.38,
-          "profit": 11.53,
-          "margin_pct": 61.9
+          "profit": 12.28,
+          "margin_pct": 65.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 16.5,
-          "margin_pct": 68.8
+          "profit": 17.25,
+          "margin_pct": 71.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -5847,8 +5847,8 @@
         "at_product_market": {
           "sell": 13.0,
           "fee": 0.96,
-          "profit": 6.32,
-          "margin_pct": 48.6
+          "profit": 7.06,
+          "margin_pct": 54.3
         }
       },
       {
@@ -6191,8 +6191,8 @@
         "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 104,
-        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
+        "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 2.83,
@@ -6382,37 +6382,37 @@
         "bucket": "스킨케어",
         "shopify_score": 94,
         "price_krw": 2000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 69,
+        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 3.57,
-        "shipping_order_usd": 10.7,
+        "shipping_unit_usd": 2.58,
+        "shipping_order_usd": 7.73,
         "tariff_usd": 0.22,
         "duty_mode": "ddp",
-        "landed_cost_usd": 5.05,
-        "landed_cost_ddu_usd": 5.27,
-        "landed_cost_ddp_usd": 5.05,
+        "landed_cost_usd": 4.06,
+        "landed_cost_ddu_usd": 4.28,
+        "landed_cost_ddp_usd": 4.06,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.45,
+        "breakeven_usd": 4.38,
         "at_2_2x": {
           "sell": 3.26,
           "fee": 0.24,
-          "profit": -2.03,
-          "margin_pct": -62.2
+          "profit": -1.04,
+          "margin_pct": -31.9
         },
         "at_market_p25": {
           "sell": 18.63,
           "fee": 1.38,
-          "profit": 12.2,
-          "margin_pct": 65.5
+          "profit": 13.19,
+          "margin_pct": 70.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 17.17,
-          "margin_pct": 71.6
+          "profit": 18.16,
+          "margin_pct": 75.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -6420,8 +6420,8 @@
         "at_product_market": {
           "sell": 13.0,
           "fee": 0.96,
-          "profit": 6.99,
-          "margin_pct": 53.7
+          "profit": 7.98,
+          "margin_pct": 61.4
         }
       },
       {
@@ -6764,8 +6764,8 @@
         "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 104,
-        "weight_note": "40ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
+        "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 2.14,
@@ -6955,37 +6955,37 @@
         "bucket": "스킨케어",
         "shopify_score": 94,
         "price_krw": 2000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 69,
+        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 2.7,
-        "shipping_order_usd": 13.51,
+        "shipping_unit_usd": 1.7,
+        "shipping_order_usd": 8.48,
         "tariff_usd": 0.22,
         "duty_mode": "ddp",
-        "landed_cost_usd": 4.19,
-        "landed_cost_ddu_usd": 4.41,
-        "landed_cost_ddp_usd": 4.19,
+        "landed_cost_usd": 3.18,
+        "landed_cost_ddu_usd": 3.4,
+        "landed_cost_ddp_usd": 3.18,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 4.52,
+        "breakeven_usd": 3.43,
         "at_2_2x": {
           "sell": 3.26,
           "fee": 0.24,
-          "profit": -1.17,
-          "margin_pct": -35.7
+          "profit": -0.16,
+          "margin_pct": -4.9
         },
         "at_market_p25": {
           "sell": 18.63,
           "fee": 1.38,
-          "profit": 13.07,
-          "margin_pct": 70.1
+          "profit": 14.07,
+          "margin_pct": 75.5
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 18.04,
-          "margin_pct": 75.2
+          "profit": 19.05,
+          "margin_pct": 79.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -6993,8 +6993,8 @@
         "at_product_market": {
           "sell": 13.0,
           "fee": 0.96,
-          "profit": 7.85,
-          "margin_pct": 60.4
+          "profit": 8.86,
+          "margin_pct": 68.1
         }
       },
       {
