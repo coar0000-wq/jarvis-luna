@@ -62,6 +62,12 @@ jobs:
         continue-on-error: true
         run: python scripts/collect_daiso_gosi.py
 
+      - name: Extract gosi table from images (Gemini vision)
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/extract_gosi_vision.py
+
       - name: Build listing gate (copy/gosi/price/legal)
         continue-on-error: true
         run: python scripts/build_listing_gate.py
