@@ -2,7 +2,7 @@
 title: "Record 114 · Frontend-Engineering-at-Palantir-Building-a-Backend-less-Cross-Applica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.047061+00:00
+updated_at: 2026-09-04T23:54:09.525980+00:00
 tags: [record, real-data]
 ---
 

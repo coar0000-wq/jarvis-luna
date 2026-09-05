@@ -2,7 +2,7 @@
 title: "Record 456 · Proofs-Promptly-Proof-Oriented-Programming-with-AI-Agents-Experience-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.139202+00:00
+updated_at: 2026-09-04T23:54:09.604455+00:00
 tags: [record, real-data]
 ---
 

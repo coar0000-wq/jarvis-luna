@@ -2,7 +2,7 @@
 title: "Record 1972 · Economic-Growth-Strong-Inflation-Fight-Not-Over-2023"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.506769+00:00
+updated_at: 2026-09-04T23:54:09.954645+00:00
 tags: [record, real-data]
 ---
 

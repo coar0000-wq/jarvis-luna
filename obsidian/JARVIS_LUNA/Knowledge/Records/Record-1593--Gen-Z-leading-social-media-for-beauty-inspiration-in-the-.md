@@ -2,7 +2,7 @@
 title: "Record 1593 · Gen-Z-leading-social-media-for-beauty-inspiration-in-the-US-and-UK-202"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.414730+00:00
+updated_at: 2026-09-04T23:54:09.865531+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2181 · 당장-멈춰야-할여름철-피부를-망치는-잘못된-습관-7가지"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.553993+00:00
+updated_at: 2026-09-04T23:54:09.999069+00:00
 tags: [record, real-data]
 ---
 

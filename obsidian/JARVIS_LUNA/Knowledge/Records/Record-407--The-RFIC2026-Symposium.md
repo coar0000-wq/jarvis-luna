@@ -2,7 +2,7 @@
 title: "Record 407 · The-RFIC2026-Symposium"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.126289+00:00
+updated_at: 2026-09-04T23:54:09.593664+00:00
 tags: [record, real-data]
 ---
 

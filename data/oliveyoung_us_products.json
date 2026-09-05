@@ -2,7 +2,7 @@
   "source": "us.oliveyoung.com/best-sellers (실수집)",
   "method": "React Router turbo-stream 데이터 응답 파싱",
   "robots_note": "robots.txt 확인: Allow / 이며 /best-sellers 는 허용 경로. Disallow 인 /search 는 요청하지 않음.",
-  "collected_at": "2026-09-04T22:04:32.232453+00:00",
+  "collected_at": "2026-09-04T23:53:43.143829+00:00",
   "count": 100,
   "reason": "",
   "is_stale": false,
@@ -248,7 +248,7 @@
       "original_price_usd": 36.0,
       "currency": "USD",
       "rating": 4.8,
-      "review_count": 267,
+      "review_count": 268,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809603900685/thumbnail/02f6e91d-1d63-4ca8-84b6-999cda0334ad.jpg",
       "url": "https://us.oliveyoung.com/products/UA43803100"
@@ -262,7 +262,7 @@
       "original_price_usd": 32.0,
       "currency": "USD",
       "rating": 4.7,
-      "review_count": 364,
+      "review_count": 365,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809826717145/thumbnail/64b849cb-98b5-4d8e-bf55-82617424ceee.png",
       "url": "https://us.oliveyoung.com/products/UA97366320"
@@ -865,7 +865,7 @@
       "currency": "USD",
       "rating": 0,
       "review_count": 0,
-      "is_soldout": false,
+      "is_soldout": true,
       "image_url": "https://use-image.oliveyoung.com/images/prd/temp-bf76cefe-4253-44dc-b9e3-0bc8793a8343/thumbnail/7551cdb7-8fe7-453b-a9ad-505af579c6f3.jpg",
       "url": "https://us.oliveyoung.com/products/UA18428714"
     },
@@ -1283,8 +1283,8 @@
       "price_usd": 29.9,
       "original_price_usd": 36.9,
       "currency": "USD",
-      "rating": 0,
-      "review_count": 0,
+      "rating": 5,
+      "review_count": 1,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809623945253/thumbnail/dc3497b4-d7bb-4b67-93bb-bf705575c596.png",
       "url": "https://us.oliveyoung.com/products/UA38708381"

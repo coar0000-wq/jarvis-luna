@@ -2,7 +2,7 @@
 title: "Record 2303 · SwarmWorld-Stigmergic-technological-evolution-in-societies-of-language"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.592184+00:00
+updated_at: 2026-09-04T23:54:10.036377+00:00
 tags: [record, real-data]
 ---
 

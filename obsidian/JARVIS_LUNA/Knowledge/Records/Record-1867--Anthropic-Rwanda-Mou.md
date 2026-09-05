@@ -2,7 +2,7 @@
 title: "Record 1867 · Anthropic-Rwanda-Mou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.482688+00:00
+updated_at: 2026-09-04T23:54:09.931702+00:00
 tags: [record, real-data]
 ---
 

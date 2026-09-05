@@ -2,7 +2,7 @@
 title: "Record 1886 · Q3-2025-Financial-Results"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.487224+00:00
+updated_at: 2026-09-04T23:54:09.936008+00:00
 tags: [record, real-data]
 ---
 

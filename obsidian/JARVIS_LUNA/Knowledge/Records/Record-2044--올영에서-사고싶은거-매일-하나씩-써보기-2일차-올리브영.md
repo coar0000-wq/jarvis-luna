@@ -2,7 +2,7 @@
 title: "Record 2044 · 올영에서-사고싶은거-매일-하나씩-써보기-2일차-올리브영"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.523725+00:00
+updated_at: 2026-09-04T23:54:09.970592+00:00
 tags: [record, real-data]
 ---
 

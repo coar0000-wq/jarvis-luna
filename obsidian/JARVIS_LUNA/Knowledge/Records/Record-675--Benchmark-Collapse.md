@@ -2,7 +2,7 @@
 title: "Record 675 · Benchmark-Collapse"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.196578+00:00
+updated_at: 2026-09-04T23:54:09.654100+00:00
 tags: [record, real-data]
 ---
 

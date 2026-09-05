@@ -2,7 +2,7 @@
 title: "Record 1882 · Sign-up-for-ASML-news-alerts"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.486397+00:00
+updated_at: 2026-09-04T23:54:09.935233+00:00
 tags: [record, real-data]
 ---
 

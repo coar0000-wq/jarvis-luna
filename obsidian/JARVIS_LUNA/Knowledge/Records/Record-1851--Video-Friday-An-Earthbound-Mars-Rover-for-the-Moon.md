@@ -2,7 +2,7 @@
 title: "Record 1851 · Video-Friday-An-Earthbound-Mars-Rover-for-the-Moon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.478886+00:00
+updated_at: 2026-09-04T23:54:09.928122+00:00
 tags: [record, real-data]
 ---
 

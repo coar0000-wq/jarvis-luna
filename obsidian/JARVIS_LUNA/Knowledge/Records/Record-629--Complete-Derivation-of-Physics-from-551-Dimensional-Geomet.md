@@ -2,7 +2,7 @@
 title: "Record 629 · Complete-Derivation-of-Physics-from-551-Dimensional-Geometry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.185139+00:00
+updated_at: 2026-09-04T23:54:09.643439+00:00
 tags: [record, real-data]
 ---
 

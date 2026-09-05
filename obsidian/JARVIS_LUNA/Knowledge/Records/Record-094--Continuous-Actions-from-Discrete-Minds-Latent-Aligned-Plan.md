@@ -2,7 +2,7 @@
 title: "Record 094 · Continuous-Actions-from-Discrete-Minds-Latent-Aligned-Planning-for-End"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.041448+00:00
+updated_at: 2026-09-04T23:54:09.521196+00:00
 tags: [record, real-data]
 ---
 

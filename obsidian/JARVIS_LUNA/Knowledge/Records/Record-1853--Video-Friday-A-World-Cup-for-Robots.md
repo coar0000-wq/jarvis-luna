@@ -2,7 +2,7 @@
 title: "Record 1853 · Video-Friday-A-World-Cup-for-Robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.479424+00:00
+updated_at: 2026-09-04T23:54:09.928621+00:00
 tags: [record, real-data]
 ---
 

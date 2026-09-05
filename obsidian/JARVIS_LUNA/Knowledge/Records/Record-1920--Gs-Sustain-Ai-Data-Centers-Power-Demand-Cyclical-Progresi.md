@@ -2,7 +2,7 @@
 title: "Record 1920 · Gs-Sustain-Ai-Data-Centers-Power-Demand-Cyclical-Progresison-And-Susta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.494913+00:00
+updated_at: 2026-09-04T23:54:09.943287+00:00
 tags: [record, real-data]
 ---
 

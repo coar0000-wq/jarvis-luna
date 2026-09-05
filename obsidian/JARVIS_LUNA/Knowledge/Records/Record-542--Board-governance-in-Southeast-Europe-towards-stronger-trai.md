@@ -2,7 +2,7 @@
 title: "Record 542 · Board-governance-in-Southeast-Europe-towards-stronger-training-and-qua"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.161994+00:00
+updated_at: 2026-09-04T23:54:09.623605+00:00
 tags: [record, real-data]
 ---
 

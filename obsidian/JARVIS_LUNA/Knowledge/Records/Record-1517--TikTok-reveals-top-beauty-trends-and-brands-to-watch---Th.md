@@ -2,7 +2,7 @@
 title: "Record 1517 · TikTok-reveals-top-beauty-trends-and-brands-to-watch---TheIndustrybeau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.397215+00:00
+updated_at: 2026-09-04T23:54:09.848191+00:00
 tags: [record, real-data]
 ---
 

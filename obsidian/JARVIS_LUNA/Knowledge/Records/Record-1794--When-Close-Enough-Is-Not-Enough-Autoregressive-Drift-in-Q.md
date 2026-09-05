@@ -2,7 +2,7 @@
 title: "Record 1794 · When-Close-Enough-Is-Not-Enough-Autoregressive-Drift-in-Quantum-Circui"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.464564+00:00
+updated_at: 2026-09-04T23:54:09.914662+00:00
 tags: [record, real-data]
 ---
 

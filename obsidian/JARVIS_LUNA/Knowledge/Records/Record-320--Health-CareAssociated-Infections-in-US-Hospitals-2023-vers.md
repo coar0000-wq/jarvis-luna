@@ -2,7 +2,7 @@
 title: "Record 320 · Health-CareAssociated-Infections-in-US-Hospitals-2023-versus-2015"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.103095+00:00
+updated_at: 2026-09-04T23:54:09.574069+00:00
 tags: [record, real-data]
 ---
 

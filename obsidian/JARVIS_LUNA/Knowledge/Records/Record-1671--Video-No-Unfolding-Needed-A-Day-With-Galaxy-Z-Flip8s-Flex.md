@@ -2,7 +2,7 @@
 title: "Record 1671 · Video-No-Unfolding-Needed-A-Day-With-Galaxy-Z-Flip8s-FlexWindow"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.435215+00:00
+updated_at: 2026-09-04T23:54:09.885994+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1826 · PowerScope-ML-based-Intra-Cycle-Power-Estimation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.471959+00:00
+updated_at: 2026-09-04T23:54:09.921576+00:00
 tags: [record, real-data]
 ---
 

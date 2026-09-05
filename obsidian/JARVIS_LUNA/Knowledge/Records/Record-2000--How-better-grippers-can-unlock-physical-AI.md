@@ -2,7 +2,7 @@
 title: "Record 2000 · How-better-grippers-can-unlock-physical-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.513037+00:00
+updated_at: 2026-09-04T23:54:09.960540+00:00
 tags: [record, real-data]
 ---
 

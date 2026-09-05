@@ -2,7 +2,7 @@
 title: "Record 1787 · Macroeconomic-Message-Passing-for-Anticipating-Foreign-Exchange-Regime"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.462973+00:00
+updated_at: 2026-09-04T23:54:09.913182+00:00
 tags: [record, real-data]
 ---
 

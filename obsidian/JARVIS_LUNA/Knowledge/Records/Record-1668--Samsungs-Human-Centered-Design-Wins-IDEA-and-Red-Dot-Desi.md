@@ -2,7 +2,7 @@
 title: "Record 1668 · Samsungs-Human-Centered-Design-Wins-IDEA-and-Red-Dot-Design-Award-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.434255+00:00
+updated_at: 2026-09-04T23:54:09.885058+00:00
 tags: [record, real-data]
 ---
 

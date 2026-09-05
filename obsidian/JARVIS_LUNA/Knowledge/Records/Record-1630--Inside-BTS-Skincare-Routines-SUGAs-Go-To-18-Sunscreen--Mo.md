@@ -2,7 +2,7 @@
 title: "Record 1630 · Inside-BTS-Skincare-Routines-SUGAs-Go-To-18-Sunscreen--More-K-Beauty-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.423380+00:00
+updated_at: 2026-09-04T23:54:09.874170+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUzFCY3dMbmc5LXF1Y0FYVUVDdFVWYTVxMDBFYk80VVhpTk83MGNnX0JFc2hFcmRwRDhEalFYdzNDNUFmNUxhVUJTYnpVejRBMVdqTUlkeGlIUUV0eHh2RDU4ZUtPY0N6X2tJU3RCbnhNOFp4YXRqczg3OGZlS0hLOEhtUk42cFdNd01yUDlVVVBpbEZacUNPWUhlbl83M2tLYk9qYVpISTlVeXRRajRjSV80Y1QwZ0hOZHdWVVBWMlk3dUk?oc=5)
 
-**제목:** Inside BTS’ Skincare Routines: SUGA’s Go-To $18 Sunscreen & More K-Beauty Favorites Worth Shopping - billboard.com
+**제목:** Inside BTS’ Skincare Routines: SUGA’s Go-To $18 Sunscreen & More K-Beauty Favorites Worth Shopping - Billboard
 
-Inside BTS’ Skincare Routines: SUGA’s Go-To $18 Sunscreen & More K-Beauty Favorites Worth Shopping - billboard.com
+Inside BTS’ Skincare Routines: SUGA’s Go-To $18 Sunscreen & More K-Beauty Favorites Worth Shopping - Billboard
 
 **출처:** Source · Google Search
 

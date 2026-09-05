@@ -2,7 +2,7 @@
 title: "Record 1857 · Building-a-Foundation-Stack-for-General-Purpose-Robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.480563+00:00
+updated_at: 2026-09-04T23:54:09.929705+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-04T22:02:43.930853+00:00",
+  "collected_at": "2026-09-04T23:53:04.648138+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-04T22:01:38.510165+00:00"
+      "collected_at": "2026-09-04T23:52:13.266612+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-04T22:02:14.290981+00:00"
+      "collected_at": "2026-09-04T23:52:46.887331+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-04T22:02:43.929875+00:00"
+      "collected_at": "2026-09-04T23:53:04.647120+00:00"
     }
   },
   "not_collected": {

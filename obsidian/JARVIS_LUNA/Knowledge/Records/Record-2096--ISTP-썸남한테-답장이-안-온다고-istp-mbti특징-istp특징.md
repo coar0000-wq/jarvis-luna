@@ -2,7 +2,7 @@
 title: "Record 2096 · ISTP-썸남한테-답장이-안-온다고-istp-mbti특징-istp특징"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.535296+00:00
+updated_at: 2026-09-04T23:54:09.981389+00:00
 tags: [record, real-data]
 ---
 

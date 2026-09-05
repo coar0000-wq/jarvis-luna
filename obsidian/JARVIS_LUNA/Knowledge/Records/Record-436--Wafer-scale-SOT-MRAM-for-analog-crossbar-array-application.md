@@ -2,7 +2,7 @@
 title: "Record 436 · Wafer-scale-SOT-MRAM-for-analog-crossbar-array-applications"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.134027+00:00
+updated_at: 2026-09-04T23:54:09.600097+00:00
 tags: [record, real-data]
 ---
 

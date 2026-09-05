@@ -2,7 +2,7 @@
 title: "Record 1995 · Sephora-Skincare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.511667+00:00
+updated_at: 2026-09-04T23:54:09.959268+00:00
 tags: [record, real-data]
 ---
 

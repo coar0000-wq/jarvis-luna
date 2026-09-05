@@ -2,7 +2,7 @@
 title: "Record 503 · Capacity-Analysis-of-Vector-Symbolic-Architectures"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.151449+00:00
+updated_at: 2026-09-04T23:54:09.614655+00:00
 tags: [record, real-data]
 ---
 

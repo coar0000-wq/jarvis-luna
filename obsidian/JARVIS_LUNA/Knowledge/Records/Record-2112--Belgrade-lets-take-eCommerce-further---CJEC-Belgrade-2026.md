@@ -2,7 +2,7 @@
 title: "Record 2112 · Belgrade-lets-take-eCommerce-further---CJEC-Belgrade-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.538858+00:00
+updated_at: 2026-09-04T23:54:09.984761+00:00
 tags: [record, real-data]
 ---
 

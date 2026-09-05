@@ -2,7 +2,7 @@
 title: "Record 2132 · The-energy-The-people-The-experience-September-Miami---CJEC-Miami-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.543221+00:00
+updated_at: 2026-09-04T23:54:09.988907+00:00
 tags: [record, real-data]
 ---
 

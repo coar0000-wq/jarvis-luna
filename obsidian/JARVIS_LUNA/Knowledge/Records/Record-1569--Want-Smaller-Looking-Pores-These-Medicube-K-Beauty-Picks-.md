@@ -2,7 +2,7 @@
 title: "Record 1569 · Want-Smaller-Looking-Pores-These-Medicube-K-Beauty-Picks-Are-Up-to-70-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.409170+00:00
+updated_at: 2026-09-04T23:54:09.860048+00:00
 tags: [record, real-data]
 ---
 

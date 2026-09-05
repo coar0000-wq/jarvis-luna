@@ -2,7 +2,7 @@
 title: "Record 2317 · Mechanistic-Reaction-Prediction-via-Discrete-Flow-Matching-on-Graph-St"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.597859+00:00
+updated_at: 2026-09-04T23:54:10.042204+00:00
 tags: [record, real-data]
 ---
 

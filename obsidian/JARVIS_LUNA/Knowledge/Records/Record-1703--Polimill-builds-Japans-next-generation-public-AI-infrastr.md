@@ -2,7 +2,7 @@
 title: "Record 1703 · Polimill-builds-Japans-next-generation-public-AI-infrastructure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.443455+00:00
+updated_at: 2026-09-04T23:54:09.894018+00:00
 tags: [record, real-data]
 ---
 

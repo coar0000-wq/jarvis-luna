@@ -2,7 +2,7 @@
 title: "Record 1785 · Governing-Generative-AI-Across-Financial-Institutions-A-Framework-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.462476+00:00
+updated_at: 2026-09-04T23:54:09.912703+00:00
 tags: [record, real-data]
 ---
 

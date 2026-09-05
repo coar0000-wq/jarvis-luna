@@ -2,7 +2,7 @@
 title: "Record 011 · Real-time-virtual-circuits-for-plasma-shape-control-via-neural-network"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.017033+00:00
+updated_at: 2026-09-04T23:54:09.500237+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1769 · Faithful-by-Construction-Claim-Anchored-Attribution-for-Multi-Document"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.458766+00:00
+updated_at: 2026-09-04T23:54:09.909085+00:00
 tags: [record, real-data]
 ---
 

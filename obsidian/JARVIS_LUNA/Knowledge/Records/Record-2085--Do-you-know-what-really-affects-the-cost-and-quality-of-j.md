@@ -2,7 +2,7 @@
 title: "Record 2085 · Do-you-know-what-really-affects-the-cost-and-quality-of-jewelry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.532877+00:00
+updated_at: 2026-09-04T23:54:09.979135+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1832 · GeoMAD-Geometry-Aware-Multi-View-Anomaly-Detection-via-Deformable-Fusi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.473357+00:00
+updated_at: 2026-09-04T23:54:09.922901+00:00
 tags: [record, real-data]
 ---
 

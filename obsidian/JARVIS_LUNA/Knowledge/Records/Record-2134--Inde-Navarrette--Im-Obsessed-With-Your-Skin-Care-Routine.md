@@ -2,7 +2,7 @@
 title: "Record 2134 · Inde-Navarrette--Im-Obsessed-With-Your-Skin-Care-Routine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.543691+00:00
+updated_at: 2026-09-04T23:54:09.989341+00:00
 tags: [record, real-data]
 ---
 

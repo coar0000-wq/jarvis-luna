@@ -2,7 +2,7 @@
 title: "Record 881 · Wix-Vs-Shopify-We-Have-A-Winner-for-2026---G2-Learning-Hub"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.248325+00:00
+updated_at: 2026-09-04T23:54:09.704220+00:00
 tags: [record, real-data]
 ---
 

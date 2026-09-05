@@ -2,7 +2,7 @@
 title: "Record 1718 · Discovery-of-a-millisecond-pulsar-with-a-CO-white-dwarf-companion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.447039+00:00
+updated_at: 2026-09-04T23:54:09.897564+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2023 · Global-1-vs--Korea-1--Pick-One---Part-4"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.519074+00:00
+updated_at: 2026-09-04T23:54:09.966196+00:00
 tags: [record, real-data]
 ---
 

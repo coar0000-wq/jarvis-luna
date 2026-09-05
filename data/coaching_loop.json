@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T07:25:15.373070+09:00",
+  "generated_at": "2026-09-05T09:14:27.984191+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -7,16 +7,131 @@
   "summary": {
     "ready_to_list": 0,
     "ready_with_notes": 5,
-    "fix_then_list": 8,
+    "fix_then_list": 9,
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-09-04T22:04:45.954180+00:00",
+      "collected_at": "2026-09-04T23:53:56.248663+00:00",
       "keyword_pool": 40
     }
   },
   "sessions": [
+    {
+      "pd_no": "1048583",
+      "name": "드롭비 탄탄 광채 앰플 40 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 97,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048583",
+      "readiness": "fix_then_list",
+      "checklist": [
+        {
+          "id": "grade_s",
+          "label": "S등급 유지",
+          "status": "pass",
+          "evidence": "grade=S, score=97",
+          "tip": "S가 아니면 1차 등록 보류"
+        },
+        {
+          "id": "margin",
+          "label": "마진 확인",
+          "status": "warn",
+          "evidence": "pricing 미연결",
+          "tip": "pricing_model 재실행"
+        },
+        {
+          "id": "price_band",
+          "label": "권장가",
+          "status": "warn",
+          "evidence": "suggested_price 없음",
+          "tip": "pricing_model 확인"
+        },
+        {
+          "id": "listing_copy",
+          "label": "영문 리스팅 카피",
+          "status": "fail",
+          "evidence": "카피 미생성",
+          "tip": "shopify-listing-copy 워크플로 실행"
+        },
+        {
+          "id": "listing_ready_flag",
+          "label": "등록 준비 플래그",
+          "status": "warn",
+          "evidence": "listing_ready=False",
+          "tip": "카피·이미지 준비되면 true"
+        },
+        {
+          "id": "global_signal",
+          "label": "글로벌 수요 시그널",
+          "status": "pass",
+          "evidence": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
+          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
+        },
+        {
+          "id": "social_proof",
+          "label": "국내 리뷰(대리지표)",
+          "status": "pass",
+          "evidence": "review_count=1197",
+          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
+        },
+        {
+          "id": "reddit_community",
+          "label": "Reddit 뷰티 커뮤니티 키워드",
+          "status": "pass",
+          "evidence": "matched=['beauty', 'skin', 'skincare']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        }
+      ],
+      "ad_copy_ab": {
+        "variant_a": {
+          "label": "A · 성분/커뮤니티 후킹",
+          "primary_text": "Ampoule — Daiso Find — beauty · K-beauty",
+          "headline": "Ampoule — Daiso Find",
+          "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
+          "cta": "Shop now"
+        },
+        "variant_b": {
+          "label": "B · 가성비/가격 후킹",
+          "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
+          "headline": "Ampoule — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "cta": "See price"
+        },
+        "suggested_keywords": [
+          "ampoule",
+          "K-beauty",
+          "glass skin",
+          "hydrating",
+          "beauty",
+          "skin",
+          "skincare"
+        ],
+        "reddit_keywords_used": [
+          "beauty",
+          "skin",
+          "skincare"
+        ],
+        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
+        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
+      },
+      "reddit_match": {
+        "matched": [
+          "beauty",
+          "skin",
+          "skincare"
+        ],
+        "score": 3,
+        "status": "pass",
+        "evidence": "matched=['beauty', 'skin', 'skincare']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+      },
+      "coach_summary": {
+        "pass": 4,
+        "warn": 3,
+        "fail": 1,
+        "next_action": "실패 항목 수정"
+      }
+    },
     {
       "pd_no": "1045146",
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
@@ -1288,121 +1403,6 @@
       }
     },
     {
-      "pd_no": "1068733",
-      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
-      "bucket": "스킨케어",
-      "shopify_score": 88,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
-      "readiness": "fix_then_list",
-      "checklist": [
-        {
-          "id": "grade_s",
-          "label": "S등급 유지",
-          "status": "pass",
-          "evidence": "grade=S, score=88",
-          "tip": "S가 아니면 1차 등록 보류"
-        },
-        {
-          "id": "margin",
-          "label": "마진 확인",
-          "status": "warn",
-          "evidence": "pricing 미연결",
-          "tip": "pricing_model 재실행"
-        },
-        {
-          "id": "price_band",
-          "label": "권장가",
-          "status": "warn",
-          "evidence": "suggested_price 없음",
-          "tip": "pricing_model 확인"
-        },
-        {
-          "id": "listing_copy",
-          "label": "영문 리스팅 카피",
-          "status": "fail",
-          "evidence": "카피 미생성",
-          "tip": "shopify-listing-copy 워크플로 실행"
-        },
-        {
-          "id": "listing_ready_flag",
-          "label": "등록 준비 플래그",
-          "status": "warn",
-          "evidence": "listing_ready=False",
-          "tip": "카피·이미지 준비되면 true"
-        },
-        {
-          "id": "global_signal",
-          "label": "글로벌 수요 시그널",
-          "status": "pass",
-          "evidence": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 35% · 토큰 ampoule",
-          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
-        },
-        {
-          "id": "social_proof",
-          "label": "국내 리뷰(대리지표)",
-          "status": "pass",
-          "evidence": "review_count=423",
-          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
-        },
-        {
-          "id": "reddit_community",
-          "label": "Reddit 뷰티 커뮤니티 키워드",
-          "status": "pass",
-          "evidence": "matched=['beauty', 'skin', 'skincare']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-        }
-      ],
-      "ad_copy_ab": {
-        "variant_a": {
-          "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Ampoule — Daiso Find — beauty · K-beauty",
-          "headline": "Ampoule — Daiso Find",
-          "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
-          "cta": "Shop now"
-        },
-        "variant_b": {
-          "label": "B · 가성비/가격 후킹",
-          "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
-          "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
-          "cta": "See price"
-        },
-        "suggested_keywords": [
-          "ampoule",
-          "K-beauty",
-          "glass skin",
-          "hydrating",
-          "beauty",
-          "skin",
-          "skincare"
-        ],
-        "reddit_keywords_used": [
-          "beauty",
-          "skin",
-          "skincare"
-        ],
-        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
-        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
-      },
-      "reddit_match": {
-        "matched": [
-          "beauty",
-          "skin",
-          "skincare"
-        ],
-        "score": 3,
-        "status": "pass",
-        "evidence": "matched=['beauty', 'skin', 'skincare']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-      },
-      "coach_summary": {
-        "pass": 4,
-        "warn": 3,
-        "fail": 1,
-        "next_action": "실패 항목 수정"
-      }
-    },
-    {
       "pd_no": "1067024",
       "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
       "bucket": "클렌징",
@@ -1462,15 +1462,15 @@
         {
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
-          "status": "pass",
-          "evidence": "matched=['cleanser']",
-          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+          "status": "warn",
+          "evidence": "terms=['balanced', 'cleanse', 'cleanser', 'cleansing', 'double', 'gentle'] vs pool=40",
+          "tip": "Reddit 핫 키워드와 직접 겹침 약함 — 성분 영문명으로 재검색"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Cleanser — Daiso Find — cleanser · gentle cleanser",
+          "primary_text": "Cleanser — Daiso Find — gentle cleanser · double cleanse",
           "headline": "Cleanser — Daiso Find",
           "description": "Daiso-sourced gentle cleanser. Lightweight daily use. Target US shoppers searching double cleanse.",
           "cta": "Shop now"
@@ -1488,20 +1488,129 @@
           "double cleanse",
           "pH balanced"
         ],
+        "reddit_keywords_used": [],
+        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
+        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
+      },
+      "reddit_match": {
+        "matched": [],
+        "score": 0,
+        "status": "warn",
+        "evidence": "terms=['balanced', 'cleanse', 'cleanser', 'cleansing', 'double', 'gentle'] vs pool=40",
+        "tip": "Reddit 핫 키워드와 직접 겹침 약함 — 성분 영문명으로 재검색"
+      },
+      "coach_summary": {
+        "pass": 3,
+        "warn": 4,
+        "fail": 1,
+        "next_action": "실패 항목 수정"
+      }
+    },
+    {
+      "pd_no": "1057223",
+      "name": "태그 핑크 라이트 선쿠션 15 g",
+      "bucket": "선케어",
+      "shopify_score": 84,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057223",
+      "readiness": "fix_then_list",
+      "checklist": [
+        {
+          "id": "grade_s",
+          "label": "S등급 유지",
+          "status": "pass",
+          "evidence": "grade=S, score=84",
+          "tip": "S가 아니면 1차 등록 보류"
+        },
+        {
+          "id": "margin",
+          "label": "마진 확인",
+          "status": "warn",
+          "evidence": "pricing 미연결",
+          "tip": "pricing_model 재실행"
+        },
+        {
+          "id": "price_band",
+          "label": "권장가",
+          "status": "warn",
+          "evidence": "suggested_price 없음",
+          "tip": "pricing_model 확인"
+        },
+        {
+          "id": "listing_copy",
+          "label": "영문 리스팅 카피",
+          "status": "fail",
+          "evidence": "카피 미생성",
+          "tip": "shopify-listing-copy 워크플로 실행"
+        },
+        {
+          "id": "listing_ready_flag",
+          "label": "등록 준비 플래그",
+          "status": "warn",
+          "evidence": "listing_ready=False",
+          "tip": "카피·이미지 준비되면 true"
+        },
+        {
+          "id": "global_signal",
+          "label": "글로벌 수요 시그널",
+          "status": "pass",
+          "evidence": "글로벌 '베터 스크린 UV 세럼 SPF 50+' (sephora) 유사 85% · 토큰 sunscreen",
+          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
+        },
+        {
+          "id": "social_proof",
+          "label": "국내 리뷰(대리지표)",
+          "status": "pass",
+          "evidence": "review_count=1170",
+          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
+        },
+        {
+          "id": "reddit_community",
+          "label": "Reddit 뷰티 커뮤니티 키워드",
+          "status": "pass",
+          "evidence": "matched=['alter-daily', 'sunscreens']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        }
+      ],
+      "ad_copy_ab": {
+        "variant_a": {
+          "label": "A · 성분/커뮤니티 후킹",
+          "primary_text": "Sun Cushion Cushion — Daiso Find — alter-daily · SPF50+",
+          "headline": "Sun Cushion Cushion — Daiso Find",
+          "description": "Daiso-sourced SPF50+. Lightweight daily use. Target US shoppers searching mineral sunscreen.",
+          "cta": "Shop now"
+        },
+        "variant_b": {
+          "label": "B · 가성비/가격 후킹",
+          "primary_text": "Sun Cushion Cushion — Daiso Find — Affordable daily UV pick",
+          "headline": "Sun Cushion Cushion — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable daily UV pick. Nearby US ref: ROUND LAB Birch Juice Moisturizing UVLOC.",
+          "cta": "See price"
+        },
+        "suggested_keywords": [
+          "sun cushion",
+          "cushion",
+          "SPF50+",
+          "mineral sunscreen",
+          "daily UV",
+          "alter-daily",
+          "sunscreens"
+        ],
         "reddit_keywords_used": [
-          "cleanser"
+          "alter-daily",
+          "sunscreens"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "cleanser"
+          "alter-daily",
+          "sunscreens"
         ],
-        "score": 1,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['cleanser']",
-        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+        "evidence": "matched=['alter-daily', 'sunscreens']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
         "pass": 4,

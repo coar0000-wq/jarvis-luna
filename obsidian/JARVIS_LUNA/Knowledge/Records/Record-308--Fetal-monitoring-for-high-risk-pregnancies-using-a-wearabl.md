@@ -2,7 +2,7 @@
 title: "Record 308 · Fetal-monitoring-for-high-risk-pregnancies-using-a-wearable-ultrasound"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.099806+00:00
+updated_at: 2026-09-04T23:54:09.571344+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 797 · Leidos-introduces-new-AI-platform-to-find-fix-cybersecurity-vulnerabil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.227052+00:00
+updated_at: 2026-09-04T23:54:09.683732+00:00
 tags: [record, real-data]
 ---
 

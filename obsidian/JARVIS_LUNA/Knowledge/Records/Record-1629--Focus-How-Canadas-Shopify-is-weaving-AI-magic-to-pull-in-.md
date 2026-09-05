@@ -2,7 +2,7 @@
 title: "Record 1629 · Focus-How-Canadas-Shopify-is-weaving-AI-magic-to-pull-in-merchants---R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.423131+00:00
+updated_at: 2026-09-04T23:54:09.873920+00:00
 tags: [record, real-data]
 ---
 

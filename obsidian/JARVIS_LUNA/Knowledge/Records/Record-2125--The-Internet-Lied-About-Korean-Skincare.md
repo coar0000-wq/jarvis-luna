@@ -2,7 +2,7 @@
 title: "Record 2125 · The-Internet-Lied-About-Korean-Skincare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.541640+00:00
+updated_at: 2026-09-04T23:54:09.987423+00:00
 tags: [record, real-data]
 ---
 

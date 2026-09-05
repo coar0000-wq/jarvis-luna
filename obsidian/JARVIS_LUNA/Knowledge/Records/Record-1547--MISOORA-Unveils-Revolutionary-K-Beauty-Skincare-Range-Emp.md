@@ -2,7 +2,7 @@
 title: "Record 1547 · MISOORA-Unveils-Revolutionary-K-Beauty-Skincare-Range-Emphasizing-Long"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.404083+00:00
+updated_at: 2026-09-04T23:54:09.855013+00:00
 tags: [record, real-data]
 ---
 

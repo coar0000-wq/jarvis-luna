@@ -2,7 +2,7 @@
 title: "Record 1923 · Why-Us-Equity-Returns-Are-Broadening-Beyond-Ai-Stocks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.495546+00:00
+updated_at: 2026-09-04T23:54:09.943916+00:00
 tags: [record, real-data]
 ---
 

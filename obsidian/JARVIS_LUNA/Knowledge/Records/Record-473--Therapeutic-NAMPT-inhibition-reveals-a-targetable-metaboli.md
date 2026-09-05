@@ -2,7 +2,7 @@
 title: "Record 473 · Therapeutic-NAMPT-inhibition-reveals-a-targetable-metabolic-vulnerabil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.143724+00:00
+updated_at: 2026-09-04T23:54:09.608304+00:00
 tags: [record, real-data]
 ---
 

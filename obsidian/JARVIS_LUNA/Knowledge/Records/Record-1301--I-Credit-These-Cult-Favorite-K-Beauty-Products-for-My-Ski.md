@@ -2,7 +2,7 @@
 title: "Record 1301 · I-Credit-These-Cult-Favorite-K-Beauty-Products-for-My-Skins-Glassy-Glo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.347107+00:00
+updated_at: 2026-09-04T23:54:09.798736+00:00
 tags: [record, real-data]
 ---
 

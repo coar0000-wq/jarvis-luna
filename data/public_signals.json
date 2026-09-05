@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T22:25:33.489085+00:00",
+  "generated_at": "2026-09-05T00:14:44.043555+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "wheel of fortune announcer",
+          "keyword": "alabama football",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Fri, 4 Sep 2026 15:00:00 -0700",
-          "source_name": "TMZ",
-          "url": "https://trends.google.com/trending?geo=US&q=wheel%20of%20fortune%20announcer"
+          "published": "Fri, 4 Sep 2026 17:00:00 -0700",
+          "source_name": "AL.com",
+          "url": "https://trends.google.com/trending?geo=US&q=alabama%20football"
         },
         {
-          "keyword": "angels vs pirates",
+          "keyword": "frances tiafoe",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Fri, 4 Sep 2026 14:50:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=angels%20vs%20pirates"
+          "published": "Fri, 4 Sep 2026 16:50:00 -0700",
+          "source_name": "Marie Claire",
+          "url": "https://trends.google.com/trending?geo=US&q=frances%20tiafoe"
         },
         {
-          "keyword": "cubs vs marlins",
+          "keyword": "sling tv",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Fri, 4 Sep 2026 15:10:00 -0700",
-          "source_name": "Bleed Cubbie Blue",
-          "url": "https://trends.google.com/trending?geo=US&q=cubs%20vs%20marlins"
+          "published": "Fri, 4 Sep 2026 17:00:00 -0700",
+          "source_name": "Men's Journal",
+          "url": "https://trends.google.com/trending?geo=US&q=sling%20tv"
         },
         {
-          "keyword": "trump iran",
+          "keyword": "alec bohm",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Fri, 4 Sep 2026 15:10:00 -0700",
-          "source_name": "Al Jazeera",
-          "url": "https://trends.google.com/trending?geo=US&q=trump%20iran"
-        },
-        {
-          "keyword": "spider-noir cancelled",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Fri, 4 Sep 2026 15:00:00 -0700",
-          "source_name": "Variety",
-          "url": "https://trends.google.com/trending?geo=US&q=spider-noir%20cancelled"
-        },
-        {
-          "keyword": "zeev buium",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 4 Sep 2026 15:10:00 -0700",
-          "source_name": "NHL.com",
-          "url": "https://trends.google.com/trending?geo=US&q=zeev%20buium"
-        },
-        {
-          "keyword": "charles barkley",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 4 Sep 2026 15:00:00 -0700",
+          "published": "Fri, 4 Sep 2026 16:50:00 -0700",
           "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=charles%20barkley"
+          "url": "https://trends.google.com/trending?geo=US&q=alec%20bohm"
         },
         {
-          "keyword": "republican party",
+          "keyword": "ruiz vs knyba",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 4 Sep 2026 14:50:00 -0700",
-          "source_name": "SCOTUSblog",
-          "url": "https://trends.google.com/trending?geo=US&q=republican%20party"
+          "published": "Fri, 4 Sep 2026 17:00:00 -0700",
+          "source_name": "ESPN Deportes",
+          "url": "https://trends.google.com/trending?geo=US&q=ruiz%20vs%20knyba"
         },
         {
-          "keyword": "ou football schedule 2026",
+          "keyword": "sec network",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 4 Sep 2026 14:50:00 -0700",
-          "source_name": "On3",
-          "url": "https://trends.google.com/trending?geo=US&q=ou%20football%20schedule%202026"
+          "published": "Fri, 4 Sep 2026 16:50:00 -0700",
+          "source_name": "ESPN Press Room",
+          "url": "https://trends.google.com/trending?geo=US&q=sec%20network"
         },
         {
-          "keyword": "nebraska football",
+          "keyword": "espn+",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 4 Sep 2026 14:50:00 -0700",
-          "source_name": "Omaha World-Herald",
-          "url": "https://trends.google.com/trending?geo=US&q=nebraska%20football"
+          "published": "Fri, 4 Sep 2026 16:50:00 -0700",
+          "source_name": "Yahoo Tech",
+          "url": "https://trends.google.com/trending?geo=US&q=espn%2B"
+        },
+        {
+          "keyword": "serena pitt joe amabile anniversary",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 4 Sep 2026 16:50:00 -0700",
+          "source_name": "People.com",
+          "url": "https://trends.google.com/trending?geo=US&q=serena%20pitt%20joe%20amabile%20anniversary"
+        },
+        {
+          "keyword": "wwe nxt",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Fri, 4 Sep 2026 17:00:00 -0700",
+          "source_name": "Fox News",
+          "url": "https://trends.google.com/trending?geo=US&q=wwe%20nxt"
+        },
+        {
+          "keyword": "richard williams",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Fri, 4 Sep 2026 16:50:00 -0700",
+          "source_name": "AP News",
+          "url": "https://trends.google.com/trending?geo=US&q=richard%20williams"
         }
       ]
     },
@@ -96,88 +96,88 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-04 ~ 2026-09-02 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-05 ~ 2026-09-03 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
           "topic": "Niacinamide",
           "days": 30,
-          "total_views": 1194,
-          "avg_daily": 40,
-          "recent_avg": 44,
-          "prev_avg": 35,
-          "change_pct": 24.9,
+          "total_views": 1335,
+          "avg_daily": 44,
+          "recent_avg": 53,
+          "prev_avg": 36,
+          "change_pct": 50.5,
           "url": "https://en.wikipedia.org/wiki/Niacinamide"
         },
         {
           "topic": "Snail slime",
           "days": 30,
-          "total_views": 2135,
-          "avg_daily": 71,
-          "recent_avg": 77,
-          "prev_avg": 65,
-          "change_pct": 18.3,
+          "total_views": 2151,
+          "avg_daily": 72,
+          "recent_avg": 78,
+          "prev_avg": 66,
+          "change_pct": 17.9,
           "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "Centella asiatica",
           "days": 30,
-          "total_views": 14575,
-          "avg_daily": 486,
+          "total_views": 14490,
+          "avg_daily": 483,
           "recent_avg": 506,
-          "prev_avg": 466,
-          "change_pct": 8.7,
+          "prev_avg": 460,
+          "change_pct": 10.2,
           "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
         },
         {
           "topic": "Hyaluronic acid",
           "days": 30,
-          "total_views": 17001,
+          "total_views": 17019,
           "avg_daily": 567,
-          "recent_avg": 559,
-          "prev_avg": 574,
-          "change_pct": -2.6,
+          "recent_avg": 564,
+          "prev_avg": 571,
+          "change_pct": -1.3,
           "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
         },
         {
           "topic": "Retinol",
           "days": 30,
-          "total_views": 11450,
+          "total_views": 11472,
           "avg_daily": 382,
           "recent_avg": 375,
-          "prev_avg": 388,
-          "change_pct": -3.5,
+          "prev_avg": 389,
+          "change_pct": -3.6,
           "url": "https://en.wikipedia.org/wiki/Retinol"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 4564,
-          "avg_daily": 152,
-          "recent_avg": 138,
-          "prev_avg": 166,
-          "change_pct": -17.0,
+          "total_views": 4426,
+          "avg_daily": 148,
+          "recent_avg": 136,
+          "prev_avg": 159,
+          "change_pct": -14.2,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
-        },
-        {
-          "topic": "Sunscreen",
-          "days": 30,
-          "total_views": 19838,
-          "avg_daily": 661,
-          "recent_avg": 524,
-          "prev_avg": 799,
-          "change_pct": -34.4,
-          "url": "https://en.wikipedia.org/wiki/Sunscreen"
         },
         {
           "topic": "Cosmetics",
           "days": 30,
-          "total_views": 27488,
-          "avg_daily": 916,
-          "recent_avg": 705,
-          "prev_avg": 1127,
-          "change_pct": -37.4,
+          "total_views": 25900,
+          "avg_daily": 863,
+          "recent_avg": 701,
+          "prev_avg": 1026,
+          "change_pct": -31.6,
           "url": "https://en.wikipedia.org/wiki/Cosmetics"
+        },
+        {
+          "topic": "Sunscreen",
+          "days": 30,
+          "total_views": 19779,
+          "avg_daily": 659,
+          "recent_avg": 527,
+          "prev_avg": 792,
+          "change_pct": -33.5,
+          "url": "https://en.wikipedia.org/wiki/Sunscreen"
         }
       ]
     },

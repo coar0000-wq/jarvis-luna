@@ -2,7 +2,7 @@
 title: "Record 997 · Agentic-Commerce-on-Shopify-How-It-Works-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.274184+00:00
+updated_at: 2026-09-04T23:54:09.729692+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1042 · eCommerce-Expo-Was-AI-Heavy-but-Ultimately-About-How-We-Keep-Shopping-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.284330+00:00
+updated_at: 2026-09-04T23:54:09.739779+00:00
 tags: [record, real-data]
 ---
 

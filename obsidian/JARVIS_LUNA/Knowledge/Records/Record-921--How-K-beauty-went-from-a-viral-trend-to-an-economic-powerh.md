@@ -1,18 +1,18 @@
 ---
-title: "Record 921 · How-K-beauty-went-from-a-viral-trend-to-an-economic-powerhouse---bbcco"
+title: "Record 921 · How-K-beauty-went-from-a-viral-trend-to-an-economic-powerhouse---BBC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.257200+00:00
+updated_at: 2026-09-04T23:54:09.712923+00:00
 tags: [record, real-data]
 ---
 
-# Record 921 · How-K-beauty-went-from-a-viral-trend-to-an-economic-powerhouse---bbcco
+# Record 921 · How-K-beauty-went-from-a-viral-trend-to-an-economic-powerhouse---BBC
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kczlzS055ODhSSGdDNlE1eXQzTE9FcTRHbV8ySUxudlozcHJvM3lXY0hJei1pemNjZ0wxUWlwWUFIVW5lRl9NX280R29PNWt5WkZrMmJieXY2dw?oc=5)
 
-**제목:** How K-beauty went from a viral trend to an economic powerhouse - bbc.com
+**제목:** How K-beauty went from a viral trend to an economic powerhouse - BBC
 
-How K-beauty went from a viral trend to an economic powerhouse - bbc.com
+How K-beauty went from a viral trend to an economic powerhouse - BBC
 
 **출처:** Source · Google Search
 

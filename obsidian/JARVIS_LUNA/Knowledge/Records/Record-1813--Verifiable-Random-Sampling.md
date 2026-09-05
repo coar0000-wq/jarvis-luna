@@ -2,7 +2,7 @@
 title: "Record 1813 · Verifiable-Random-Sampling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.468917+00:00
+updated_at: 2026-09-04T23:54:09.918708+00:00
 tags: [record, real-data]
 ---
 

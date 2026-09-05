@@ -2,7 +2,7 @@
 title: "Record 2019 · 진짜-급하게-데이트-갈-준비-GRWM--메이크업-kbeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.518184+00:00
+updated_at: 2026-09-04T23:54:09.965370+00:00
 tags: [record, real-data]
 ---
 

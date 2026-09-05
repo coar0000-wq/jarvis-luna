@@ -2,7 +2,7 @@
 title: "Record 1732 · Kahoot-Trivia-Anime-and-Manga"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.450332+00:00
+updated_at: 2026-09-04T23:54:09.900826+00:00
 tags: [record, real-data]
 ---
 

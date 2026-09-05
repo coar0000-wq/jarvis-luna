@@ -2,7 +2,7 @@
 title: "Record 805 · Snowflake-Pioneers-New-Open-Framework-for-Interoperable-Enterprise-Dat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.229144+00:00
+updated_at: 2026-09-04T23:54:09.685803+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 994 · Winters-Biggest-Makeup-Trends-Are-High-Impact-With-Minimal-Effort---Al"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.273528+00:00
+updated_at: 2026-09-04T23:54:09.729064+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2011 · Robotcom-partners-with-Sodexo-to-roll-out-more-sidewalk-delivery-robot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.516243+00:00
+updated_at: 2026-09-04T23:54:09.963540+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1940 · Commodities-In-A-Changing-Geopolitical-Landscape"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.499200+00:00
+updated_at: 2026-09-04T23:54:09.947410+00:00
 tags: [record, real-data]
 ---
 

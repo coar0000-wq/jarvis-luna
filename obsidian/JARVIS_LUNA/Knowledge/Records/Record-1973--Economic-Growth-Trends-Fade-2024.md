@@ -2,7 +2,7 @@
 title: "Record 1973 · Economic-Growth-Trends-Fade-2024"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.506999+00:00
+updated_at: 2026-09-04T23:54:09.954855+00:00
 tags: [record, real-data]
 ---
 

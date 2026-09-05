@@ -2,7 +2,7 @@
 title: "Record 1987 · Capital-Spending-Ai-Political-Pushback-Michael-Zezas-Ariana-Salvatore"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.509977+00:00
+updated_at: 2026-09-04T23:54:09.957674+00:00
 tags: [record, real-data]
 ---
 

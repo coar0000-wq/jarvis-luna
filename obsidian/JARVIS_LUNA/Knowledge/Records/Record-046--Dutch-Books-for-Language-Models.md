@@ -2,7 +2,7 @@
 title: "Record 046 · Dutch-Books-for-Language-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.025906+00:00
+updated_at: 2026-09-04T23:54:09.507712+00:00
 tags: [record, real-data]
 ---
 

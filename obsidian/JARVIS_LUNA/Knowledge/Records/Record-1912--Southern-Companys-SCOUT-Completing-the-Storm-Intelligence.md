@@ -2,7 +2,7 @@
 title: "Record 1912 · Southern-Companys-SCOUT-Completing-the-Storm-Intelligence-Story"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.493141+00:00
+updated_at: 2026-09-04T23:54:09.941580+00:00
 tags: [record, real-data]
 ---
 

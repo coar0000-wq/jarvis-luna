@@ -2,7 +2,7 @@
 title: "Record 1075 · Whats-up-with-Republican-makeup---glossyco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.291745+00:00
+updated_at: 2026-09-04T23:54:09.747175+00:00
 tags: [record, real-data]
 ---
 

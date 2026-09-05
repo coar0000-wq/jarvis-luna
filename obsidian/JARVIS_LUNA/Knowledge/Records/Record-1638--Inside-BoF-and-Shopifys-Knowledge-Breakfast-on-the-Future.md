@@ -2,7 +2,7 @@
 title: "Record 1638 · Inside-BoF-and-Shopifys-Knowledge-Breakfast-on-the-Future-of-AI-Commer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.425230+00:00
+updated_at: 2026-09-04T23:54:09.876024+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMixgFBVV95cUxNX3hpZW1XN3h2d0tMUWVTN2ZVSHJlOUdjMHVkeWE0cDdsTmhyX0E0cTJpUkpPS0NHNVk0Y0dpZlllckRzb1puQ1FjODdPclpLdFJvQmtURTNuUEZtZ3JqLTBDQ1d6UlRCTENQclc4NU9SbWdBUFdNRC1WdlpkbGR4djhTZ0lwQ0FxS3l3Tko5QmgwbVA5bUc3WmtTRDJYdXRHNlpQTHhPNEJEamVfVWY1eFBDS3BibG8waUdHSml0UEFNUG5ILUE?oc=5)
 
-**제목:** Inside BoF and Shopify’s Knowledge Breakfast on the Future of AI Commerce - businessoffashion.com
+**제목:** Inside BoF and Shopify’s Knowledge Breakfast on the Future of AI Commerce - The Business of Fashion
 
-Inside BoF and Shopify’s Knowledge Breakfast on the Future of AI Commerce - businessoffashion.com
+Inside BoF and Shopify’s Knowledge Breakfast on the Future of AI Commerce - The Business of Fashion
 
 **출처:** Source · Google Search
 

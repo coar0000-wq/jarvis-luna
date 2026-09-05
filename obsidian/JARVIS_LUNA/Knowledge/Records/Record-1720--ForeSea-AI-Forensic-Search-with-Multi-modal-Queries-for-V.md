@@ -2,7 +2,7 @@
 title: "Record 1720 · ForeSea-AI-Forensic-Search-with-Multi-modal-Queries-for-Video-Surveill"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.447507+00:00
+updated_at: 2026-09-04T23:54:09.898032+00:00
 tags: [record, real-data]
 ---
 

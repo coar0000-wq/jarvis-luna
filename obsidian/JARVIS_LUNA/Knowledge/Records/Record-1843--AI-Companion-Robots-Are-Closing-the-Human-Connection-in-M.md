@@ -2,7 +2,7 @@
 title: "Record 1843 · AI-Companion-Robots-Are-Closing-the-Human-Connection-in-Modern-Homes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.476609+00:00
+updated_at: 2026-09-04T23:54:09.925982+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1910 · How-we-eliminated-1-million-a-year-of-wasted-AI-agent-spend-in-one-hou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.492624+00:00
+updated_at: 2026-09-04T23:54:09.941114+00:00
 tags: [record, real-data]
 ---
 

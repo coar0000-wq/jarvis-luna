@@ -2,7 +2,7 @@
 title: "Record 1820 · Role-Steering-of-Language-Models-for-Social-Simulations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.470523+00:00
+updated_at: 2026-09-04T23:54:09.920245+00:00
 tags: [record, real-data]
 ---
 

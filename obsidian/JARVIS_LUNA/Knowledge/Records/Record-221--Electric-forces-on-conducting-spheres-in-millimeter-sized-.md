@@ -2,7 +2,7 @@
 title: "Record 221 · Electric-forces-on-conducting-spheres-in-millimeter-sized-high-voltage"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.075870+00:00
+updated_at: 2026-09-04T23:54:09.550565+00:00
 tags: [record, real-data]
 ---
 

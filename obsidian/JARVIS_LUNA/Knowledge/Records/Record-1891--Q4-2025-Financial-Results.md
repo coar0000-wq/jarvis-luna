@@ -2,7 +2,7 @@
 title: "Record 1891 · Q4-2025-Financial-Results"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.488334+00:00
+updated_at: 2026-09-04T23:54:09.937054+00:00
 tags: [record, real-data]
 ---
 

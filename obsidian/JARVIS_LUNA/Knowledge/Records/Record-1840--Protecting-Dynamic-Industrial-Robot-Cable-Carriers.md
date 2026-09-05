@@ -2,7 +2,7 @@
 title: "Record 1840 · Protecting-Dynamic-Industrial-Robot-Cable-Carriers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.475764+00:00
+updated_at: 2026-09-04T23:54:09.925203+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1878 · Automated-Researchers-Mitigate-Alignment-Failures"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.485460+00:00
+updated_at: 2026-09-04T23:54:09.934334+00:00
 tags: [record, real-data]
 ---
 

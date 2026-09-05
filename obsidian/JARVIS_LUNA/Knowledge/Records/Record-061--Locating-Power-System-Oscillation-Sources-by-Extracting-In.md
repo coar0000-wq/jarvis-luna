@@ -2,7 +2,7 @@
 title: "Record 061 · Locating-Power-System-Oscillation-Sources-by-Extracting-Interharmonics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.030427+00:00
+updated_at: 2026-09-04T23:54:09.511720+00:00
 tags: [record, real-data]
 ---
 

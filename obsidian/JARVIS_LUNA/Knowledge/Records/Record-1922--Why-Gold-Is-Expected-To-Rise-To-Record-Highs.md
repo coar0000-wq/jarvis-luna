@@ -2,7 +2,7 @@
 title: "Record 1922 · Why-Gold-Is-Expected-To-Rise-To-Record-Highs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.495335+00:00
+updated_at: 2026-09-04T23:54:09.943691+00:00
 tags: [record, real-data]
 ---
 

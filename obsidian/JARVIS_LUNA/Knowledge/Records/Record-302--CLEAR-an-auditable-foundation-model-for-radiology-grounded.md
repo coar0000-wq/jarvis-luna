@@ -2,7 +2,7 @@
 title: "Record 302 · CLEAR-an-auditable-foundation-model-for-radiology-grounded-in-clinical"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.098271+00:00
+updated_at: 2026-09-04T23:54:09.570035+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1707 · The-full-stack-behind-abundant-intelligence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.444482+00:00
+updated_at: 2026-09-04T23:54:09.895036+00:00
 tags: [record, real-data]
 ---
 

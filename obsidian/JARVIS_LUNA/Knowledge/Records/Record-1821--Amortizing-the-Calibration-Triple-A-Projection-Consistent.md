@@ -2,7 +2,7 @@
 title: "Record 1821 · Amortizing-the-Calibration-Triple-A-Projection-Consistent-Neural-Opera"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.470758+00:00
+updated_at: 2026-09-04T23:54:09.920469+00:00
 tags: [record, real-data]
 ---
 

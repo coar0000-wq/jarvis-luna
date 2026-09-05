@@ -2,7 +2,7 @@
 title: "Record 2105 · 이번-올영세일-살안타템-추천이니스프리-노세범-선-파우더-올영추천템"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.537298+00:00
+updated_at: 2026-09-04T23:54:09.983295+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1697 · Learning-never-stops-How-AI-makes-learning-continuous"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.441934+00:00
+updated_at: 2026-09-04T23:54:09.892526+00:00
 tags: [record, real-data]
 ---
 

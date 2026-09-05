@@ -2,7 +2,7 @@
 title: "Record 1755 · Observability-for-Delegated-Execution-in-Agentic-AI-Systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.455593+00:00
+updated_at: 2026-09-04T23:54:09.905978+00:00
 tags: [record, real-data]
 ---
 

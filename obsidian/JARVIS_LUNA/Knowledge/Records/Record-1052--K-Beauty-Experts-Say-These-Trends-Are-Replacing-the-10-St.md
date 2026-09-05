@@ -2,7 +2,7 @@
 title: "Record 1052 · K-Beauty-Experts-Say-These-Trends-Are-Replacing-the-10-Step-Routine---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.286579+00:00
+updated_at: 2026-09-04T23:54:09.742028+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTE9SQmU2eVFfdGs0bFZmTDdEc1l0YW9pSkV3S0NjcXJHUkVhRmFXcXh4SnBKUHJmZC1hOG82N2FpVmwxQ2V0NGVKWTAxSnJMd21hdlJzd3VFdC1HWXBrTmpTd0k0ZjQxZXRZOXV2WEZRWQ?oc=5)
 
-**제목:** K-Beauty Experts Say These Trends Are Replacing the 10-Step Routine - newbeauty.com
+**제목:** K-Beauty Experts Say These Trends Are Replacing the 10-Step Routine - NewBeauty
 
-K-Beauty Experts Say These Trends Are Replacing the 10-Step Routine - newbeauty.com
+K-Beauty Experts Say These Trends Are Replacing the 10-Step Routine - NewBeauty
 
 **출처:** Source · Google Search
 

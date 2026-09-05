@@ -2,7 +2,7 @@
 title: "Record 498 · The-Composable-Data-Management-System-Manifesto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.150194+00:00
+updated_at: 2026-09-04T23:54:09.613608+00:00
 tags: [record, real-data]
 ---
 

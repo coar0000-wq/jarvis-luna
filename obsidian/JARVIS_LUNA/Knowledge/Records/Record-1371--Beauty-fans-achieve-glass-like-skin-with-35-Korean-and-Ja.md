@@ -2,7 +2,7 @@
 title: "Record 1371 · Beauty-fans-achieve-glass-like-skin-with-35-Korean-and-Japanese-Boots-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.363270+00:00
+updated_at: 2026-09-04T23:54:09.814570+00:00
 tags: [record, real-data]
 ---
 

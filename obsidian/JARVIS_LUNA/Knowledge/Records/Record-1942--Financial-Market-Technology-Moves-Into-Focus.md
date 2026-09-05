@@ -2,7 +2,7 @@
 title: "Record 1942 · Financial-Market-Technology-Moves-Into-Focus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.499611+00:00
+updated_at: 2026-09-04T23:54:09.947818+00:00
 tags: [record, real-data]
 ---
 

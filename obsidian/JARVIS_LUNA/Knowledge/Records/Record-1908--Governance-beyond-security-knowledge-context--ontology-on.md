@@ -2,7 +2,7 @@
 title: "Record 1908 · Governance-beyond-security-knowledge-context--ontology-on-the-lakehous"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.492134+00:00
+updated_at: 2026-09-04T23:54:09.940634+00:00
 tags: [record, real-data]
 ---
 

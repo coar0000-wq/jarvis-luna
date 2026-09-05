@@ -2,7 +2,7 @@
 title: "Record 1437 · The-Rise-of-K-Beauty-and-the-Economic-Implications-for-South-Korea---K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.378611+00:00
+updated_at: 2026-09-04T23:54:09.829636+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1582 · What-makes-K-beauty-Korean-The-answer-is-getting-complicated---Korea-J"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.412200+00:00
+updated_at: 2026-09-04T23:54:09.863057+00:00
 tags: [record, real-data]
 ---
 

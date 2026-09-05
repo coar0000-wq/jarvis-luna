@@ -2,7 +2,7 @@
 title: "Record 141 · Introducing-computer-use-in-Gemini-35-Flash"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.054079+00:00
+updated_at: 2026-09-04T23:54:09.532055+00:00
 tags: [record, real-data]
 ---
 

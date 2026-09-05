@@ -2,7 +2,7 @@
 title: "Record 878 · Salmon-sperm-facials-and-the-return-of-the-perm-The-best-wildest-and-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.247624+00:00
+updated_at: 2026-09-04T23:54:09.703522+00:00
 tags: [record, real-data]
 ---
 

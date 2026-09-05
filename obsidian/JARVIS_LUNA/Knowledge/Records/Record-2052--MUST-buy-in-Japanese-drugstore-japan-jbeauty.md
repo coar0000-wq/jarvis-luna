@@ -2,7 +2,7 @@
 title: "Record 2052 · MUST-buy-in-Japanese-drugstore-japan-jbeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.525540+00:00
+updated_at: 2026-09-04T23:54:09.972302+00:00
 tags: [record, real-data]
 ---
 

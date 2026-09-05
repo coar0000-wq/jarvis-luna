@@ -2,7 +2,7 @@
 title: "Record 863 · Frost-Bitten-Blush-Is-The-Internets-New-Favorite-Winter-Trend--Pink-Bl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.244071+00:00
+updated_at: 2026-09-04T23:54:09.699978+00:00
 tags: [record, real-data]
 ---
 

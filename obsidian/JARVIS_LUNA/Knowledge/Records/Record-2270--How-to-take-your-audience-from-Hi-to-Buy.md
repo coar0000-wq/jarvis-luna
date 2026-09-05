@@ -2,7 +2,7 @@
 title: "Record 2270 · How-to-take-your-audience-from-Hi-to-Buy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.576244+00:00
+updated_at: 2026-09-04T23:54:10.020352+00:00
 tags: [record, real-data]
 ---
 

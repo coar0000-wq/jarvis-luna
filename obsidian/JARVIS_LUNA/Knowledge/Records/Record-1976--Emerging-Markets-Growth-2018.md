@@ -2,7 +2,7 @@
 title: "Record 1976 · Emerging-Markets-Growth-2018"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.507629+00:00
+updated_at: 2026-09-04T23:54:09.955443+00:00
 tags: [record, real-data]
 ---
 

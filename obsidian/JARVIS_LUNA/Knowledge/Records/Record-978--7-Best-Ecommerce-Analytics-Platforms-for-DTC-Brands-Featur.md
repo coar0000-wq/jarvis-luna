@@ -2,7 +2,7 @@
 title: "Record 978 · 7-Best-Ecommerce-Analytics-Platforms-for-DTC-Brands-Features-Pricing-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.269879+00:00
+updated_at: 2026-09-04T23:54:09.725443+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rZktSWEpid3RqbWs0cmc4Q0pULWZNdGh6cVpxZVdFOHVMOXB5N3dNT0dqN0NlWlNyOEtUWm0yeFZMLTF6LW53TzFJVVRCVkFQUHNycldlX2JzY0hLZElkOTVmZXpyTVE?oc=5)
 
-**제목:** 7 Best Ecommerce Analytics Platforms for DTC Brands: Features, Pricing, and ROI Compared (2026) - ask-luca.com
+**제목:** 7 Best Ecommerce Analytics Platforms for DTC Brands: Features, Pricing, and ROI Compared (2026) - Ask Luca
 
-7 Best Ecommerce Analytics Platforms for DTC Brands: Features, Pricing, and ROI Compared (2026) - ask-luca.com
+7 Best Ecommerce Analytics Platforms for DTC Brands: Features, Pricing, and ROI Compared (2026) - Ask Luca
 
 **출처:** Source · Google Search
 

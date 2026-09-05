@@ -2,7 +2,7 @@
 title: "Record 733 · PTSD-is-Associated-with-Advanced-Epigenetic-Age-in-45091-US-Military-V"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.210361+00:00
+updated_at: 2026-09-04T23:54:09.667502+00:00
 tags: [record, real-data]
 ---
 

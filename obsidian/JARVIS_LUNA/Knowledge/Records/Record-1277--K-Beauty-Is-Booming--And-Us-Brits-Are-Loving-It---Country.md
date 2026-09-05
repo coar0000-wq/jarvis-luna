@@ -2,7 +2,7 @@
 title: "Record 1277 · K-Beauty-Is-Booming--And-Us-Brits-Are-Loving-It---Country-and-Town-Hou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.341567+00:00
+updated_at: 2026-09-04T23:54:09.793267+00:00
 tags: [record, real-data]
 ---
 

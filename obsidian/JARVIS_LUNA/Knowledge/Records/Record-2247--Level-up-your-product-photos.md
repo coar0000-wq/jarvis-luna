@@ -2,7 +2,7 @@
 title: "Record 2247 · Level-up-your-product-photos"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.571409+00:00
+updated_at: 2026-09-04T23:54:10.015861+00:00
 tags: [record, real-data]
 ---
 

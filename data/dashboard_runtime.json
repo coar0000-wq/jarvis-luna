@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T08:24:21.096450+09:00",
+  "generated_at": "2026-09-05T09:14:27.468266+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "institutions",
       "name": "기관 수집팀",
-      "when": "2026-09-04T22:02:43.930853+00:00",
+      "when": "2026-09-04T23:53:04.648138+00:00",
       "summary": "35곳 1,061건 · 미수집 12건 사유 기록",
       "action": null,
       "status": "ok",
@@ -16,7 +16,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-05T07:53:23.708104+09:00",
+      "when": "2026-09-05T08:50:17.282549+09:00",
       "summary": "S등급 13개 · 고시표 입력 대기 13건",
       "action": "다이소 상세페이지 고시 표 13건 캡처 필요",
       "status": "ok",
@@ -36,7 +36,7 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-08-21T21:42:13.962331+09:00",
+      "when": "2026-09-05T08:50:17.281549+09:00",
       "summary": "검토 상품 0건 · 체크리스트 5항목 중 5항목 대기",
       "action": "수출 후보 상품의 상품명, 용도, 재질·성분, 제조국, HS 코드, 라벨 시안을 등록합니다.",
       "status": "ok",
@@ -46,7 +46,7 @@
     {
       "id": "robotics",
       "name": "로보틱스 수집",
-      "when": "2026-09-04T22:01:25.414274+00:00",
+      "when": "2026-09-04T23:52:02.570637+00:00",
       "summary": "88건 · arxiv 48 / rss 40",
       "action": null,
       "status": "ok",
@@ -54,20 +54,10 @@
       "glyph": "robot"
     },
     {
-      "id": "design",
-      "name": "디자인팀",
-      "when": "2026-09-04T23:48:24.721630+00:00",
-      "summary": "스토어 2/12단계 · 레퍼런스 85건",
-      "action": "다음 단계: Shopify 스토어 개설 및 기본 설정",
-      "status": "ok",
-      "color": "#0ea5e9",
-      "glyph": "design"
-    },
-    {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-05T08:16:31.798960+09:00",
-      "summary": "27,809노트 · 끊어진 링크 0건 · 개인 노트 7,770건 별도",
+      "when": "2026-09-05T08:54:10.225081+09:00",
+      "summary": "2,853노트 · 끊어진 링크 0건 · 개인 노트 7,770건 별도",
       "action": null,
       "status": "ok",
       "color": "#0f766e",
@@ -85,7 +75,7 @@
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "27809개 노트 · 122353개 링크 · 끊어진 링크 0개 · 개인 노트 7770개 별도"
+      "detail": "2853개 노트 · 38179개 링크 · 끊어진 링크 0개 · 개인 노트 7770개 별도"
     },
     {
       "id": "dashboard",
@@ -110,20 +100,20 @@
     "status": "completed",
     "record_count": 2321,
     "source_counts": {},
-    "updated_at": "2026-09-05T07:53:23.699102+09:00"
+    "updated_at": "2026-09-05T08:53:08.719516+09:00"
   },
   "graph": {
-    "notes": 27809,
-    "links": 122353,
+    "notes": 2853,
+    "links": 38179,
     "dangling_links": 0,
     "dangling_personal": 7770,
     "dangling_personal_note": "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다.",
-    "records": 27201,
+    "records": 2321,
     "sources": 6,
-    "topics": 28,
+    "topics": 22,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-05T08:16:31.798960+09:00"
+    "last_generated": "2026-09-05T08:54:10.225081+09:00"
   },
   "training": {
     "status": "completed",
@@ -134,17 +124,17 @@
     "experts": 3,
     "accuracy": 0.8707453683757002,
     "validation_accuracy": 0.8738532110091743,
-    "final_loss": 0.4104320963019174,
-    "gate_load_std": 0.21367295632025837,
+    "final_loss": 0.40931336388459627,
+    "gate_load_std": 0.2196368991174509,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-04T22:25:14.627854+00:00"
+    "updated_at": "2026-09-05T00:14:27.182367+00:00"
   },
   "cumulative": {
     "totals": {
       "records": 2321,
-      "notes": 27809,
-      "links": 122353
+      "notes": 2853,
+      "links": 38179
     },
     "prior_totals": {
       "records": 2321,
@@ -153,13 +143,13 @@
     },
     "added_this_run": {
       "records": 0,
-      "notes": 24956,
-      "links": 84174
+      "notes": 0,
+      "links": 0
     },
     "current_snapshot": {
       "records": 2321,
-      "notes": 27809,
-      "links": 122353
+      "notes": 2853,
+      "links": 38179
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -476,74 +466,74 @@
     ],
     "google_trends_us": [
       {
-        "keyword": "tesla shares post cybercab event",
-        "product": "tesla shares post cybercab event",
-        "sub": "CNBC",
-        "badge": "20000+",
-        "url": "https://trends.google.com/trending?geo=US&q=tesla%20shares%20post%20cybercab%20event"
+        "keyword": "wheel of fortune announcer",
+        "product": "wheel of fortune announcer",
+        "sub": "TMZ",
+        "badge": "2000+",
+        "url": "https://trends.google.com/trending?geo=US&q=wheel%20of%20fortune%20announcer"
       },
       {
-        "keyword": "severe thunderstorm watch",
-        "product": "severe thunderstorm watch",
-        "sub": "WUSA9",
-        "badge": "10000+",
-        "url": "https://trends.google.com/trending?geo=US&q=severe%20thunderstorm%20watch"
-      },
-      {
-        "keyword": "maria bartiromo fired",
-        "product": "maria bartiromo fired",
-        "sub": "The New York Times",
-        "badge": "5000+",
-        "url": "https://trends.google.com/trending?geo=US&q=maria%20bartiromo%20fired"
-      },
-      {
-        "keyword": "emma navarro",
-        "product": "emma navarro",
-        "sub": "US Open Tennis",
-        "badge": "1000+",
-        "url": "https://trends.google.com/trending?geo=US&q=emma%20navarro"
-      },
-      {
-        "keyword": "survivor greece",
-        "product": "survivor greece",
-        "sub": "Global News",
-        "badge": "1000+",
-        "url": "https://trends.google.com/trending?geo=US&q=survivor%20greece"
-      },
-      {
-        "keyword": "real madrid fc",
-        "product": "real madrid fc",
+        "keyword": "angels vs pirates",
+        "product": "angels vs pirates",
         "sub": "Yahoo Sports",
-        "badge": "500+",
-        "url": "https://trends.google.com/trending?geo=US&q=real%20madrid%20fc"
+        "badge": "2000+",
+        "url": "https://trends.google.com/trending?geo=US&q=angels%20vs%20pirates"
       },
       {
-        "keyword": "tony romo owi plea deal",
-        "product": "tony romo owi plea deal",
-        "sub": "CNN",
-        "badge": "500+",
-        "url": "https://trends.google.com/trending?geo=US&q=tony%20romo%20owi%20plea%20deal"
+        "keyword": "cubs vs marlins",
+        "product": "cubs vs marlins",
+        "sub": "Bleed Cubbie Blue",
+        "badge": "1000+",
+        "url": "https://trends.google.com/trending?geo=US&q=cubs%20vs%20marlins"
       },
       {
-        "keyword": "on nothing yeat",
-        "product": "on nothing yeat",
-        "sub": "inmusicblog.com",
-        "badge": "500+",
-        "url": "https://trends.google.com/trending?geo=US&q=on%20nothing%20yeat"
+        "keyword": "trump iran",
+        "product": "trump iran",
+        "sub": "Al Jazeera",
+        "badge": "1000+",
+        "url": "https://trends.google.com/trending?geo=US&q=trump%20iran"
       },
       {
-        "keyword": "porto fc",
-        "product": "porto fc",
-        "sub": "Sportsgambler",
-        "badge": "500+",
-        "url": "https://trends.google.com/trending?geo=US&q=porto%20fc"
+        "keyword": "spider-noir cancelled",
+        "product": "spider-noir cancelled",
+        "sub": "Variety",
+        "badge": "1000+",
+        "url": "https://trends.google.com/trending?geo=US&q=spider-noir%20cancelled"
       },
       {
-        "keyword": "rick devens",
-        "product": "rick devens",
-        "sub": "Entertainment Weekly",
+        "keyword": "zeev buium",
+        "product": "zeev buium",
+        "sub": "NHL.com",
         "badge": "500+",
-        "url": "https://trends.google.com/trending?geo=US&q=rick%20devens"
+        "url": "https://trends.google.com/trending?geo=US&q=zeev%20buium"
+      },
+      {
+        "keyword": "charles barkley",
+        "product": "charles barkley",
+        "sub": "The New York Times",
+        "badge": "500+",
+        "url": "https://trends.google.com/trending?geo=US&q=charles%20barkley"
+      },
+      {
+        "keyword": "republican party",
+        "product": "republican party",
+        "sub": "SCOTUSblog",
+        "badge": "500+",
+        "url": "https://trends.google.com/trending?geo=US&q=republican%20party"
+      },
+      {
+        "keyword": "ou football schedule 2026",
+        "product": "ou football schedule 2026",
+        "sub": "On3",
+        "badge": "500+",
+        "url": "https://trends.google.com/trending?geo=US&q=ou%20football%20schedule%202026"
+      },
+      {
+        "keyword": "nebraska football",
+        "product": "nebraska football",
+        "sub": "Omaha World-Herald",
+        "badge": "500+",
+        "url": "https://trends.google.com/trending?geo=US&q=nebraska%20football"
       }
     ],
     "wikipedia_interest": [
@@ -1088,94 +1078,94 @@
     ],
     "open_beauty_facts": [
       {
-        "product": "Coconut Milk",
-        "brand": "Herbal Essences",
-        "category": "헤어케어",
-        "url": "https://world.openbeautyfacts.org/product/8001090662231"
-      },
-      {
-        "product": "Huile extraordinaire",
-        "brand": "L'Oréal Paris, Elseve",
-        "category": "헤어케어",
-        "url": "https://world.openbeautyfacts.org/product/3600522410874"
-      },
-      {
-        "product": "Golden Moringa Oil Shampoo",
-        "brand": "Herbal Essences",
-        "category": "헤어케어",
-        "url": "https://world.openbeautyfacts.org/product/8001090661999"
-      },
-      {
-        "product": "Herbel Essences Step 4",
-        "brand": "",
-        "category": "헤어케어",
-        "url": "https://world.openbeautyfacts.org/product/8001090582133"
-      },
-      {
-        "product": "Cantu Shea Butter Shampoo",
-        "brand": "cantu shea butter",
-        "category": "헤어케어",
-        "url": "https://world.openbeautyfacts.org/product/0817513015311"
-      },
-      {
-        "product": "Cantu Shea Butter Leave In Conditioning Repair Cream",
-        "brand": "Cantu",
-        "category": "헤어케어",
-        "url": "https://world.openbeautyfacts.org/product/0856017000126"
-      },
-      {
-        "product": "L'huile merveilleuse aux huiles d'argan et de camelia",
-        "brand": "Garnier, Ultra Doux",
-        "category": "헤어케어",
-        "url": "https://world.openbeautyfacts.org/product/3600541204638"
-      },
-      {
-        "product": "NIVEA Men sensitive douchegel 3-in-1",
+        "product": "NIVEA Soft hydraterende créme 48u hydratatie",
         "brand": "NIVEA",
-        "category": "헤어케어",
-        "url": "https://world.openbeautyfacts.org/product/4005808130573"
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/4005900963499"
       },
       {
-        "product": "Batiste Original Droogshampoo",
-        "brand": "Batiste",
-        "category": "헤어케어",
-        "url": "https://world.openbeautyfacts.org/product/3331300062656"
+        "product": "hand cream",
+        "brand": "Neutrogena",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/3574661685977"
       },
       {
-        "product": "Cantu Shea Butter Activator Cream",
-        "brand": "cantu",
-        "category": "헤어케어",
-        "url": "https://world.openbeautyfacts.org/product/0817513010002"
+        "product": "Aveeno Baby Eczema Therapy",
+        "brand": "Aveeno",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/0381371018451"
       },
       {
-        "product": "Sébium gel mousse",
-        "brand": "Bioderma",
-        "category": "바디케어",
-        "url": "https://world.openbeautyfacts.org/product/3401578653709"
+        "product": "BioCare Aloe Vera",
+        "brand": "BioCare",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/6297811169055"
       },
       {
-        "product": "Savon Liquide au Lait d'Amande",
-        "brand": "Taous",
-        "category": "바디케어",
-        "url": "https://world.openbeautyfacts.org/product/6111024008928"
+        "product": "Gluta hya dewy radicance",
+        "brand": "Vaseline",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/8901030957048"
       },
       {
-        "product": "Savonnettes extra douces Verveine Citron",
-        "brand": "Le Petit Olivier",
-        "category": "바디케어",
-        "url": "https://world.openbeautyfacts.org/product/3549620005028"
+        "product": "Healthy Feet Cream",
+        "brand": "O’Keefes",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/0722510026003"
       },
       {
-        "product": "savon doux végétale au lait d'ânesse",
-        "brand": "labell",
-        "category": "바디케어",
-        "url": "https://world.openbeautyfacts.org/product/3250393212635"
+        "product": "Masque Purifiant Naturel à L'Argile Verte.",
+        "brand": "Argile, Juvaflorine",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3160920402005"
       },
       {
-        "product": "Dove Savon Pain de Toilette Exfoliating Anti-Bactérien x1",
-        "brand": "Dove",
-        "category": "바디케어",
-        "url": "https://world.openbeautyfacts.org/product/8717163607268"
+        "product": "Garnier SkinActive Pure Charcoal Tissuemasker",
+        "brand": "Garnier, Garnier SkinActive",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3600542097024"
+      },
+      {
+        "product": "Masque crème hydratant",
+        "brand": "Caudalie",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3522932031787"
+      },
+      {
+        "product": "Sebum Control Masque purifiant charbon végétal façon crème fouettée",
+        "brand": "Bioré",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/5017634256739"
+      },
+      {
+        "product": "Polishing Charcoal + Black Sugar Gel Mask + Scrub",
+        "brand": "Freeman",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/0072151421119"
+      },
+      {
+        "product": "Le masque de pureté nettoyant",
+        "brand": "La Provençale",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3600550972153"
+      },
+      {
+        "product": "1 Masque Anti-Rides Bio-Cellulose",
+        "brand": "Barbara Gould",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3331300096460"
+      },
+      {
+        "product": "Pâte d'argile",
+        "brand": "Copar, Laboratoires Biocos, Lovea, Lovea Nature",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3329310012495"
+      },
+      {
+        "product": "SOHO N.Y.C. Anti-Aging No Rinse 2in1 Face Serum + Mask",
+        "brand": "SOHO N.Y.C",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/8683420170045"
       }
     ]
   },
@@ -1185,8 +1175,7 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-05"
   },
-  "last_synced": "09. 05. 오전 07:25 KST",
-  "data_integrity_note": "2026-08-31 가짜 데이터 제거. 하드코딩 카탈로그와 폴백 샘플을 삭제했으며 비어 있는 채널은 실제 수집이 없다는 뜻이다. 실데이터 채널: 다이소 실수집, 환율, arXiv, Google CSE.",
+  "last_synced": "09. 05. 오전 09:14 KST",
   "global_channels_status": {
     "amazon_best_sellers": {
       "status": "ok",
@@ -1212,7 +1201,7 @@
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "2026-09-04T22:04:32.232453+00:00",
+      "collected_at": "2026-09-04T23:53:43.143829+00:00",
       "count": 15,
       "trust": "verified"
     },
@@ -1220,7 +1209,7 @@
       "status": "ok",
       "source": "trends.google.com/trending/rss?geo=US (공식 RSS)",
       "reason": "",
-      "collected_at": "2026-09-04T20:09:32.736031+00:00",
+      "collected_at": "2026-09-04T22:25:33.489085+00:00",
       "count": 10,
       "trust": "verified",
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽"
@@ -1229,7 +1218,7 @@
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-04T20:09:32.736031+00:00",
+      "collected_at": "2026-09-04T22:25:33.489085+00:00",
       "count": 8,
       "trust": "verified",
       "note": "2026-08-04 ~ 2026-09-02 일별 조회수. 후반 15일 대비 전반 15일 증감률"
@@ -1238,7 +1227,7 @@
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-04T20:09:32.736031+00:00",
+      "collected_at": "2026-09-04T22:25:33.489085+00:00",
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용."
@@ -1247,7 +1236,7 @@
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-04T20:09:32.736031+00:00",
+      "collected_at": "2026-09-04T22:25:33.489085+00:00",
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다."
@@ -1292,9 +1281,10 @@
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-04T22:04:25.496090+00:00",
+      "collected_at": "2026-09-04T23:53:42.652667+00:00",
       "count": 15,
       "trust": "verified"
     }
-  }
+  },
+  "data_integrity_note": "2026-08-31 가짜 데이터 제거. 하드코딩 카탈로그와 폴백 샘플을 삭제했으며 비어 있는 채널은 실제 수집이 없다는 뜻이다. 실데이터 채널: 다이소 실수집, 환율, arXiv, Google CSE."
 }

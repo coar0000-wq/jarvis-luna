@@ -2,7 +2,7 @@
 title: "Record 522 · AlphaFold-Database-expands-to-proteome-scale-quaternary-structures"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.156689+00:00
+updated_at: 2026-09-04T23:54:09.619151+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2009 · NVIDIA-plans-to-acquire-Hugging-Face-and-keep-AI-development-platform-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.515665+00:00
+updated_at: 2026-09-04T23:54:09.963020+00:00
 tags: [record, real-data]
 ---
 

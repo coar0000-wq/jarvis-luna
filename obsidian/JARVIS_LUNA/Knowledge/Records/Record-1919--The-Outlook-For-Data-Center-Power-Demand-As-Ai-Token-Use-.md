@@ -2,7 +2,7 @@
 title: "Record 1919 · The-Outlook-For-Data-Center-Power-Demand-As-Ai-Token-Use-Grows"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.494662+00:00
+updated_at: 2026-09-04T23:54:09.943065+00:00
 tags: [record, real-data]
 ---
 

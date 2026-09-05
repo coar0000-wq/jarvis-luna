@@ -2,7 +2,7 @@
 title: "Record 590 · 200G-VCSEL-Development-and-Proposal-of-Using-VCSELs-for-Near-Package-O"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.174886+00:00
+updated_at: 2026-09-04T23:54:09.634527+00:00
 tags: [record, real-data]
 ---
 

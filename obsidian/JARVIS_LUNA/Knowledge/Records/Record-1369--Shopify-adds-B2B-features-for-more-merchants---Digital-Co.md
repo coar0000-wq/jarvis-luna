@@ -2,7 +2,7 @@
 title: "Record 1369 · Shopify-adds-B2B-features-for-more-merchants---Digital-Commerce-360"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.362808+00:00
+updated_at: 2026-09-04T23:54:09.814133+00:00
 tags: [record, real-data]
 ---
 

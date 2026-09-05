@@ -2,7 +2,7 @@
 title: "Record 079 · Robot-Aware-Computational-Design-of-Object-Specific-Passive-Grippers-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.036446+00:00
+updated_at: 2026-09-04T23:54:09.516868+00:00
 tags: [record, real-data]
 ---
 

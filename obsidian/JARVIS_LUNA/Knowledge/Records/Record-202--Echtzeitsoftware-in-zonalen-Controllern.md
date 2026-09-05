@@ -2,7 +2,7 @@
 title: "Record 202 · Echtzeitsoftware-in-zonalen-Controllern"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.070778+00:00
+updated_at: 2026-09-04T23:54:09.546248+00:00
 tags: [record, real-data]
 ---
 

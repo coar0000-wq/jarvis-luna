@@ -2,7 +2,7 @@
 title: "Record 1686 · Bringing-ChatGPT-for-Teachers-to-more-US-school-districts"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.439048+00:00
+updated_at: 2026-09-04T23:54:09.889677+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 271 · Virtual-Reality-Simulation-for-Assessment-of-Hemorrhage-Control-and-SA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.089342+00:00
+updated_at: 2026-09-04T23:54:09.562037+00:00
 tags: [record, real-data]
 ---
 

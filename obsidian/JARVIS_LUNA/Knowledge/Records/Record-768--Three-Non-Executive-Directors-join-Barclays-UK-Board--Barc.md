@@ -2,7 +2,7 @@
 title: "Record 768 · Three-Non-Executive-Directors-join-Barclays-UK-Board--Barclays"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.218786+00:00
+updated_at: 2026-09-04T23:54:09.675711+00:00
 tags: [record, real-data]
 ---
 

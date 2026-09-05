@@ -2,7 +2,7 @@
 title: "Record 051 · Towards-Trustworthy-Autonomous-Robots-An-Explainable-AI-Based-Decision"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.027223+00:00
+updated_at: 2026-09-04T23:54:09.508867+00:00
 tags: [record, real-data]
 ---
 

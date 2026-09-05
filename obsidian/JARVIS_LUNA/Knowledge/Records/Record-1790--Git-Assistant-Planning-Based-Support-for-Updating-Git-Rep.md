@@ -2,7 +2,7 @@
 title: "Record 1790 · Git-Assistant-Planning-Based-Support-for-Updating-Git-Repositories"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.463634+00:00
+updated_at: 2026-09-04T23:54:09.913814+00:00
 tags: [record, real-data]
 ---
 

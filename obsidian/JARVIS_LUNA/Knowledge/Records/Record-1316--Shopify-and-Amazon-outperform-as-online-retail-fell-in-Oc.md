@@ -2,7 +2,7 @@
 title: "Record 1316 · Shopify-and-Amazon-outperform-as-online-retail-fell-in-October-Ecommer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-04T22:05:02.350596+00:00
+updated_at: 2026-09-04T23:54:09.802136+00:00
 tags: [record, real-data]
 ---
 
