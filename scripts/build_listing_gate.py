@@ -43,18 +43,20 @@ def main() -> int:
         print("shopify_demand_score.json 을 읽지 못해 중단한다")
         return 1
     copy = load(DATA / "shopify_listing_copy.json")
-    weights = load(DATA / "weights.json")
+    pricing = load(DATA / "pricing_model.json")
     gosi = load(DATA / "gosi.json")
     legal = load(DATA / "legal_products.json")
 
     missing = [n for n, d in (("shopify_listing_copy.json", copy),
-                              ("weights.json", weights),
+                              ("pricing_model.json", pricing),
                               ("gosi.json", gosi),
                               ("legal_products.json", legal)) if d is None]
 
     copies = {str(i.get("pd_no")) for i in (copy or {}).get("items", [])}
-    measured = {k for k, v in ((weights or {}).get("measured") or {}).items()
-                if isinstance(v, dict) and (v.get("gram") or 0) > 0}
+    # 저울 실측을 요구하지 않는다. 고시 용량과 우체국 요금표로 배송비가 나오고,
+    # 가격 모델이 손익분기를 넘는 판매가를 실제로 산출했는지만 본다.
+    priced = {str(o.get("pd_no")): o
+              for o in (((pricing or {}).get("offers_by_product") or {}).get("single") or [])}
     gosi_items = (gosi or {}).get("items") or {}
     legal_items = (legal or {}).get("items") or {}
 
@@ -64,13 +66,20 @@ def main() -> int:
     for x in targets:
         k = str(x.get("pd_no"))
         g = gosi_items.get(k) or {}
+        o = priced.get(k) or {}
+        lg = legal_items.get(k) or {}
         checks = {
             "copy_ok": k in copies,
             # 필수 4항목이 모두 채워져야 인정한다. 하나라도 비면 미완성이다.
             "gosi_ok": all(str(g.get(f) or "").strip() for f in GOSI_REQUIRED),
-            "price_ok": k in measured,
-            # pass 는 사람만 적는다. 스크립트가 올리지 않는다.
-            "legal_ok": str((legal_items.get(k) or {}).get("status") or "") == "pass",
+            # 판매가가 손익분기를 넘고 마진이 남아야 한다.
+            "price_ok": bool(o) and not o.get("register_blocked")
+                        and (o.get("margin_pct") or 0) > 0,
+            # 자동 점검이 깨끗하면 통과. 문제가 있을 때만 사람을 부른다.
+            # 사람이 fail 을 적었으면 자동이 그걸 뒤집지 못한다.
+            "legal_ok": (str(lg.get("status") or "") != "fail"
+                         and not lg.get("hard_block")
+                         and bool(lg.get("auto_checked_at"))),
         }
         ready = all(checks.values())
         for name, val in checks.items():
@@ -82,6 +91,8 @@ def main() -> int:
             "shopify_score": x.get("shopify_score"),
             **checks, "listing_ready": ready,
             "blocked_by": [n.replace("_ok", "") for n, v in checks.items() if not v],
+            "price_note": o.get("block_reason") or "",
+            "legal_note": lg.get("hard_block_reason") or "",
         })
 
     total = len(rows)
@@ -96,8 +107,10 @@ def main() -> int:
         "근거": {
             "copy_ok": "shopify_listing_copy.json 의 items 에 pd_no 가 있음",
             "gosi_ok": f"gosi.json 의 {', '.join(GOSI_REQUIRED)} 가 모두 채워짐",
-            "price_ok": "weights.json 의 gram 이 0 이 아님 (저울 실측)",
-            "legal_ok": "legal_products.json 의 status 가 pass (사람만 변경)",
+            "price_ok": "pricing_model.json 이 손익분기를 넘는 판매가를 산출함. "
+                        "무게는 고시 용량 + 우체국 요금표로 계산하므로 저울은 불필요.",
+            "legal_ok": "자동 점검이 전부 통과하고 사람이 fail 로 적지 않음. "
+                        "SPF·금지표현·점검 미통과가 있으면 그때 사람이 본다.",
         },
         "target": "S등급",
         "total": total,

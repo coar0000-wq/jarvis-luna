@@ -53,6 +53,53 @@ CHANNEL_WEIGHT = {
     "google_trends_us": 0.7,
 }
 
+# 상품군 재분류.
+# 다이소 카테고리는 헤어 미스트를 스킨케어로 넣는 등 실제 용도와 어긋난다.
+# "리노이아 퍼퓸헤어 세럼미스트" 가 스킨케어로 들어와 세럼 토큰만으로
+# 세포라 선크림 세럼과 붙었고 시장적합 만점을 받아 S 로 올라왔다.
+# 이름에 확실한 단서가 있으면 카테고리보다 이름을 믿는다.
+BUCKET_RULES = [
+    ("헤어케어", ("헤어", "샴푸", "린스", "트리트먼트", "두피", "hair", "shampoo")),
+    ("바디케어", ("바디", "핸드크림", "풋", "body", "hand cream")),
+    ("구강용품", ("치약", "칫솔", "구강", "가글")),
+    ("네일", ("네일", "매니큐어", "젤네일")),
+    ("향수", ("향수", "퍼퓸", "오드", "perfume")),
+    ("선케어", ("선크림", "선쿠션", "선스틱", "자차", "spf", "sunscreen")),
+    ("클렌징", ("클렌징", "클렌저", "폼", "티슈", "리무버", "cleans")),
+    ("마스크팩", ("마스크", "팩", "패드", "mask")),
+]
+
+
+def rebucket(name: str, bucket: str) -> tuple[str, str]:
+    """이름에 확실한 단서가 있으면 그것을 따른다. 바뀐 사유를 함께 낸다."""
+    low = (name or "").lower()
+    for target, kws in BUCKET_RULES:
+        if any(k in low for k in kws):
+            if target != bucket:
+                hit = next(k for k in kws if k in low)
+                return target, f"이름의 '{hit}' 로 {bucket} -> {target} 재분류"
+            return bucket, ""
+    return bucket, ""
+
+
+# 서로 매칭하면 안 되는 상품군. 헤어와 스킨은 시장이 다르다.
+BUCKET_FAMILY = {
+    "스킨케어": "skin", "마스크팩": "skin", "선케어": "skin", "클렌징": "skin",
+    "메이크업": "makeup", "네일": "makeup",
+    "헤어케어": "hair", "바디케어": "body", "구강용품": "oral",
+    "향수": "fragrance", "뷰티소품": "tool", "맨즈케어": "skin",
+}
+
+# 매칭에 쓸 채널 = 미국에서 실제로 팔리는 상품 목록만.
+# 뺀 것: allure_media(기사), google_trends_us/wikipedia_interest(검색어),
+# openfda_sunscreen(약품 라벨), open_beauty_facts(유럽 성분 DB).
+# 이것들은 상품이 아니라서 이름이 겹쳐도 수요 근거가 못 된다.
+# 리노이아 헤어 미스트가 S 로 올라온 원인이 여기 있었다.
+MATCH_CHANNELS = (
+    "oliveyoung_us", "tiktok_shop_us", "sephora", "ulta_beauty",
+    "amazon_best_sellers", "walmart_beauty",
+)
+
 # 한·영 → 공통 정규 토큰 (매칭 핵심)
 # 값: canonical token (영문 소문자)
 LEXICON: list[tuple[str, str]] = [
@@ -239,6 +286,11 @@ def extract_signals(global_channels: dict) -> list[dict]:
     for channel, items in global_channels.items():
         if not isinstance(items, list):
             continue
+        # 기사(Allure), 검색어(Trends), 성분 라벨(openFDA), 유럽 오픈데이터는
+        # 상품이 아니다. Amazon/Walmart 는 사람이 넣은 한글 카탈로그라
+        # 미국 실판매명이 아니다. 매칭에서 뺀다.
+        if channel not in MATCH_CHANNELS:
+            continue
         w = CHANNEL_WEIGHT.get(channel, 0.6)
         for rank, item in enumerate(items):
             if not isinstance(item, dict):
@@ -254,6 +306,7 @@ def extract_signals(global_channels: dict) -> list[dict]:
                 continue
             brand = str(item.get("brand") or "")
             blob = f"{name} {brand} {item.get('category') or ''} {item.get('sub') or ''}"
+            sig_bucket, _ = rebucket(blob, "스킨케어")
             cans = to_canonical(blob)
             if not cans:
                 continue
@@ -261,6 +314,8 @@ def extract_signals(global_channels: dict) -> list[dict]:
             signals.append({
                 "channel": channel,
                 "product": name,
+                "bucket": sig_bucket,
+                "form": form_of(blob),
                 "canonical": cans,
                 "demand": round(w * rank_w, 3),
                 "rank": rank + 1,
@@ -268,12 +323,67 @@ def extract_signals(global_channels: dict) -> list[dict]:
     return signals
 
 
-def best_matches(daiso_name: str, signals: list[dict], top_n: int = 3) -> list[dict]:
+# 제형(형태). 성분이 같아도 형태가 다르면 다른 상품이다.
+# 클렌징 워터 티슈가 "톨레리안 퓨리파잉 폼 클렌저" 와 cleanser 토큰
+# 하나로 붙어 S 로 올라온 일이 있다. 닦는 티슈와 거품 클렌저는 다르다.
+FORM_RULES = [
+    ("wipe",    ("티슈", "와이프", "wipe", "tissue", "물티슈")),
+    ("pad",     ("패드", "pad")),
+    ("mist",    ("미스트", "스프레이", "mist", "spray")),
+    ("cushion", ("쿠션", "cushion")),
+    ("stick",   ("스틱", "stick")),
+    ("mask",    ("마스크", "시트팩", "mask", "sheet")),
+    ("ampoule", ("앰플", "ampoule", "ampule")),
+    ("serum",   ("세럼", "에센스", "serum", "essence")),
+    ("toner",   ("토너", "스킨", "toner")),
+    ("foam",    ("폼클", "폼 클", "클렌저", "워시", "foam", "wash", "cleanser")),
+    ("oil",     ("오일", "oil")),
+    ("gel",     ("젤 ", "gel")),
+    ("cream",   ("크림", "밤", "cream", "balm")),
+    ("lotion",  ("로션", "에멀전", "lotion", "emulsion")),
+    ("powder",  ("파우더", "powder")),
+]
+
+# 같이 봐도 되는 제형 묶음. 세럼과 앰플은 사실상 같은 자리를 노린다.
+FORM_EQUIV = [{"serum", "ampoule"}, {"cream", "lotion"}]
+
+
+def form_of(name: str) -> str:
+    """이름에서 제형을 뽑는다. 없으면 빈 문자열(가드 미적용)."""
+    low = (name or "").lower()
+    for form, kws in FORM_RULES:
+        if any(k in low for k in kws):
+            return form
+    return ""
+
+
+def form_compatible(a: str, b: str) -> bool:
+    """한쪽이라도 제형을 못 뽑으면 통과시킨다. 오탐보다 미탐이 낫다."""
+    if not a or not b or a == b:
+        return True
+    return any(a in g and b in g for g in FORM_EQUIV)
+
+
+def best_matches(daiso_name: str, signals: list[dict], top_n: int = 3,
+                 daiso_bucket: str = "") -> list[dict]:
+    """상품군이 다르면 아예 비교하지 않는다.
+
+    헤어 미스트가 세럼 토큰 하나로 선크림 세럼과 붙어 S 로 올라온 일이 있다.
+    같은 계열(스킨/헤어/바디/구강) 안에서만 유사도를 본다.
+    """
     d_can = to_canonical(daiso_name)
     if not d_can:
         return []
+    d_fam = BUCKET_FAMILY.get(daiso_bucket or "", "")
+    d_form = form_of(daiso_name)
     hits = []
     for sig in signals:
+        if d_fam:
+            s_fam = BUCKET_FAMILY.get(sig.get("bucket") or "", "")
+            if s_fam and s_fam != d_fam:
+                continue
+        if not form_compatible(d_form, sig.get("form") or ""):
+            continue
         inter = d_can & sig["canonical"]
         if not inter:
             continue
@@ -374,11 +484,20 @@ def us_market_fit(name):
     hits = [u for u in us if any(t in u["name"] for t in terms)]
     if not hits:
         return 0.0, 0, 0.0
-    hit_pts = min(15.0, len(hits) / 8 * 15)
-    prices = sorted(u["price"] for u in hits)
+    # 건수만 세면 40% 짜리 약한 매칭 18건이 만점을 받는다. 실제로
+    # 헤어 미스트가 그렇게 만점을 받았다. 겹치는 토큰 비율로 가중한다.
+    def overlap(u_name: str) -> float:
+        got = sum(1 for t in terms if t in u_name)
+        return got / max(1, len(terms))
+
+    scored = sorted(((overlap(u["name"]), u) for u in hits), key=lambda x: -x[0])
+    strong = [(o, u) for o, u in scored if o >= 0.5]
+    weight = sum(o for o, _ in scored[:8])          # 상위 8건의 겹침 합
+    hit_pts = min(15.0, weight / 4 * 15)
+    prices = sorted(u["price"] for _, u in (strong or scored))
     med = prices[len(prices) // 2]
     price_pts = min(10.0, med / 25 * 10)
-    return round(hit_pts + price_pts, 1), len(hits), round(med, 2)
+    return round(hit_pts + price_pts, 1), len(strong), round(med, 2)
 
 
 def score_one(p: dict, signals: list[dict]) -> dict:
@@ -404,6 +523,8 @@ def score_one(p: dict, signals: list[dict]) -> dict:
 
     name = p.get("name") or ""
     bucket = p.get("bucket") or ""
+    # 다이소 카테고리가 실제 용도와 어긋나는 경우가 있다. 이름이 더 정확하다.
+    bucket, rebucket_note = rebucket(name, bucket)
     non_core = any(k in name for k in NON_CORE)
 
     # 1) 카테고리 적합도 (최대 35)
@@ -462,7 +583,7 @@ def score_one(p: dict, signals: list[dict]) -> dict:
     penalty = 40 if non_core else 0
 
     # 글로벌 8채널 유사도 (무료 시그널) — 최대 25점
-    matches = [] if non_core else best_matches(name, signals)
+    matches = [] if non_core else best_matches(name, signals, daiso_bucket=bucket)
     if matches:
         best = matches[0]["match_score"]
         second = matches[1]["match_score"] if len(matches) > 1 else 0
@@ -492,8 +613,14 @@ def score_one(p: dict, signals: list[dict]) -> dict:
             "cleanser", "shampoo",
         })
     )
-    # S: 핵심(바디 포함) + 점수 + 강한 글로벌 매칭(또는 고득점)
-    if not non_core and core and total >= 82 and (strong_match or total >= 92):
+    # S 는 미국에서 팔리는 같은 형태의 상품을 실제로 찾았을 때만 준다.
+    # 예전에는 total >= 92 면 매칭이 22% 여도 S 가 됐다. 다이소 자체 평점과
+    # 리뷰만 높아도 92 가 나오므로, 그건 국내 인기지 미국 수요 근거가 아니다.
+    best_sim = matches[0]["similarity"] if matches else 0.0
+    real_demand = best_sim >= 0.45
+    if not non_core and core and total >= 82 and real_demand and (
+        strong_match or total >= 92
+    ):
         grade = "S"
     elif not non_core and total >= 75:
         grade = "A"
@@ -504,6 +631,12 @@ def score_one(p: dict, signals: list[dict]) -> dict:
 
     if non_core:
         reason = "비핵심 상품 (뷰티 카테고리 아님)"
+    elif matches and not real_demand and total >= 82:
+        m = matches[0]
+        reason = (
+            f"국내 지표는 높지만 미국 유사 상품 매칭이 {m['similarity']:.0%} 뿐 — "
+            f"가장 가까운 것은 '{m['global_product']}' ({m['channel']})"
+        )
     elif matches:
         m = matches[0]
         reason = (
@@ -522,6 +655,7 @@ def score_one(p: dict, signals: list[dict]) -> dict:
         "pd_no": p.get("pd_no"),
         "name": name,
         "bucket": bucket,
+        "rebucketed": bool(rebucket_note),
         "price_krw": p.get("price_krw"),
         "rating": rating,
         "review_count": reviews,
@@ -540,6 +674,7 @@ def score_one(p: dict, signals: list[dict]) -> dict:
             "price": price_pts,
             "keyword": kw_pts,
             "us_market_fit": us_pts,
+            "rebucket_note": rebucket_note,
             "global_similarity_reference_only": sim_pts,
             "penalty": -penalty,
             "max_possible": 100,

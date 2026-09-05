@@ -84,6 +84,16 @@ def main() -> int:
         row["auto_checks"] = checks
         row["auto_blockers"] = blockers
         row["needs_attention"] = bool(hits) or is_functional or is_spf
+        # 등록을 실제로 막을 것과 알려만 둘 것을 나눈다.
+        # 한국 기능성 표기 자체는 막을 사유가 아니다. 영문 카피 생성 단계에서
+        # 금지어를 아예 쓰지 않게 막고 있어서 여기서 또 막으면 이중이다.
+        # SPF 는 미국에서 OTC 의약품이라 사람 확인 없이는 못 올린다.
+        row["hard_block"] = bool(blockers) or is_spf or bool(hits)
+        row["hard_block_reason"] = (
+            ("자동 점검 미통과: " + ", ".join(blockers)) if blockers
+            else "SPF 표기 - 미국 OTC 의약품이라 라벨 요건이 별도" if is_spf
+            else "금지 표현 발견" if hits else ""
+        )
         row["auto_checked_at"] = datetime.now(timezone.utc).isoformat()
         if row.get("status") == "pending":
             row["status"] = "auto_checked" if not blockers else "pending"

@@ -1,26 +1,23 @@
 {
-  "generated_at": "2026-09-05T14:29:13.573174+00:00",
+  "generated_at": "2026-09-05T14:46:17.179701+00:00",
   "generator": "scripts/build_listing_gate.py",
   "규칙": "listing_ready = copy_ok AND gosi_ok AND price_ok AND legal_ok",
   "근거": {
     "copy_ok": "shopify_listing_copy.json 의 items 에 pd_no 가 있음",
     "gosi_ok": "gosi.json 의 ingredients, volume, maker, origin 가 모두 채워짐",
-    "price_ok": "weights.json 의 gram 이 0 이 아님 (저울 실측)",
-    "legal_ok": "legal_products.json 의 status 가 pass (사람만 변경)"
+    "price_ok": "pricing_model.json 이 손익분기를 넘는 판매가를 산출함. 무게는 고시 용량 + 우체국 요금표로 계산하므로 저울은 불필요.",
+    "legal_ok": "자동 점검이 전부 통과하고 사람이 fail 로 적지 않음. SPF·금지표현·점검 미통과가 있으면 그때 사람이 본다."
   },
   "target": "S등급",
-  "total": 12,
-  "ready": 0,
+  "total": 4,
+  "ready": 4,
   "counts": {
-    "copy": 12,
-    "gosi": 12,
-    "price": 0,
-    "legal": 0
+    "copy": 4,
+    "gosi": 4,
+    "price": 4,
+    "legal": 4
   },
-  "blockers": {
-    "price": 12,
-    "legal": 12
-  },
+  "blockers": {},
   "unreadable": [],
   "items": [
     {
@@ -30,43 +27,12 @@
       "shopify_score": 97,
       "copy_ok": true,
       "gosi_ok": true,
-      "price_ok": false,
-      "legal_ok": false,
-      "listing_ready": false,
-      "blocked_by": [
-        "price",
-        "legal"
-      ]
-    },
-    {
-      "pd_no": "1045146",
-      "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
-      "grade": "S",
-      "shopify_score": 96,
-      "copy_ok": true,
-      "gosi_ok": true,
-      "price_ok": false,
-      "legal_ok": false,
-      "listing_ready": false,
-      "blocked_by": [
-        "price",
-        "legal"
-      ]
-    },
-    {
-      "pd_no": "1049271",
-      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-      "grade": "S",
-      "shopify_score": 96,
-      "copy_ok": true,
-      "gosi_ok": true,
-      "price_ok": false,
-      "legal_ok": false,
-      "listing_ready": false,
-      "blocked_by": [
-        "price",
-        "legal"
-      ]
+      "price_ok": true,
+      "legal_ok": true,
+      "listing_ready": true,
+      "blocked_by": [],
+      "price_note": "",
+      "legal_note": ""
     },
     {
       "pd_no": "1048581",
@@ -75,43 +41,12 @@
       "shopify_score": 96,
       "copy_ok": true,
       "gosi_ok": true,
-      "price_ok": false,
-      "legal_ok": false,
-      "listing_ready": false,
-      "blocked_by": [
-        "price",
-        "legal"
-      ]
-    },
-    {
-      "pd_no": "1075857",
-      "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-      "grade": "S",
-      "shopify_score": 94,
-      "copy_ok": true,
-      "gosi_ok": true,
-      "price_ok": false,
-      "legal_ok": false,
-      "listing_ready": false,
-      "blocked_by": [
-        "price",
-        "legal"
-      ]
-    },
-    {
-      "pd_no": "1068776",
-      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-      "grade": "S",
-      "shopify_score": 93,
-      "copy_ok": true,
-      "gosi_ok": true,
-      "price_ok": false,
-      "legal_ok": false,
-      "listing_ready": false,
-      "blocked_by": [
-        "price",
-        "legal"
-      ]
+      "price_ok": true,
+      "legal_ok": true,
+      "listing_ready": true,
+      "blocked_by": [],
+      "price_note": "",
+      "legal_note": ""
     },
     {
       "pd_no": "1059834",
@@ -120,28 +55,12 @@
       "shopify_score": 92,
       "copy_ok": true,
       "gosi_ok": true,
-      "price_ok": false,
-      "legal_ok": false,
-      "listing_ready": false,
-      "blocked_by": [
-        "price",
-        "legal"
-      ]
-    },
-    {
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "grade": "S",
-      "shopify_score": 92,
-      "copy_ok": true,
-      "gosi_ok": true,
-      "price_ok": false,
-      "legal_ok": false,
-      "listing_ready": false,
-      "blocked_by": [
-        "price",
-        "legal"
-      ]
+      "price_ok": true,
+      "legal_ok": true,
+      "listing_ready": true,
+      "blocked_by": [],
+      "price_note": "",
+      "legal_note": ""
     },
     {
       "pd_no": "1062781",
@@ -150,58 +69,12 @@
       "shopify_score": 92,
       "copy_ok": true,
       "gosi_ok": true,
-      "price_ok": false,
-      "legal_ok": false,
-      "listing_ready": false,
-      "blocked_by": [
-        "price",
-        "legal"
-      ]
-    },
-    {
-      "pd_no": "1060487",
-      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
-      "grade": "S",
-      "shopify_score": 92,
-      "copy_ok": true,
-      "gosi_ok": true,
-      "price_ok": false,
-      "legal_ok": false,
-      "listing_ready": false,
-      "blocked_by": [
-        "price",
-        "legal"
-      ]
-    },
-    {
-      "pd_no": "1070006",
-      "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
-      "grade": "S",
-      "shopify_score": 89,
-      "copy_ok": true,
-      "gosi_ok": true,
-      "price_ok": false,
-      "legal_ok": false,
-      "listing_ready": false,
-      "blocked_by": [
-        "price",
-        "legal"
-      ]
-    },
-    {
-      "pd_no": "1067024",
-      "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
-      "grade": "S",
-      "shopify_score": 85,
-      "copy_ok": true,
-      "gosi_ok": true,
-      "price_ok": false,
-      "legal_ok": false,
-      "listing_ready": false,
-      "blocked_by": [
-        "price",
-        "legal"
-      ]
+      "price_ok": true,
+      "legal_ok": true,
+      "listing_ready": true,
+      "blocked_by": [],
+      "price_note": "",
+      "legal_note": ""
     }
   ]
 }

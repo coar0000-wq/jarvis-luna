@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-05T11:40:46.651564+00:00",
+  "generated_at": "2026-09-05T14:39:21.896029+00:00",
   "source": "score_shopify_demand.py",
   "rule": "grade == S (core+body category + strong global match; non-beauty filtered)",
-  "count": 12,
+  "count": 4,
   "priority_note": "S등급만(바디샴푸·워시 포함). 잡상품·약한 단일토큰 매칭 제외. Shopify 1차 등록 후보.",
   "recommendations": [
     {
@@ -28,49 +28,6 @@
     },
     {
       "rank": 2,
-      "pd_no": "1045146",
-      "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 96,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045146",
-      "recommend_reason": "글로벌 '베터 스크린 UV 세럼 SPF 50+' (sephora) 유사 85% · 토큰 sunscreen",
-      "matched_global": {
-        "channel": "sephora",
-        "global_product": "베터 스크린 UV 세럼 SPF 50+",
-        "similarity": 0.853,
-        "demand_weight": 0.855,
-        "matched_tokens": [
-          "sunscreen"
-        ],
-        "match_score": 0.73
-      }
-    },
-    {
-      "rank": 3,
-      "pd_no": "1049271",
-      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 96,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 80% · 토큰 calming, toner",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "ANUA Heartleaf 77 Soothing Toner",
-        "similarity": 0.8,
-        "demand_weight": 0.95,
-        "matched_tokens": [
-          "calming",
-          "toner"
-        ],
-        "match_score": 0.76
-      }
-    },
-    {
-      "rank": 4,
       "pd_no": "1048581",
       "name": "드롭비 잡티 말끔 앰플 40 ml",
       "bucket": "스킨케어",
@@ -91,51 +48,7 @@
       }
     },
     {
-      "rank": 5,
-      "pd_no": "1075857",
-      "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-      "bucket": "스킨케어",
-      "price_krw": 2000,
-      "shopify_score": 94,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
-      "recommend_reason": "글로벌 'Anua PDRN Full Care Set (Serum 1 fl. oz.(30ml) + Mist 1 fl. oz.(30ml) + Cream 2 fl. oz.(60ml) + Mask 5ct + Keychain)' (oliveyoung_us) 유사 73% · 토큰 cream, mask, pdrn",
-      "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "Anua PDRN Full Care Set (Serum 1 fl. oz.(30ml) + Mist 1 fl. oz.(30ml) + Cream 2 fl. oz.(60ml) + Mask 5ct + Keychain)",
-        "similarity": 0.733,
-        "demand_weight": 0.49,
-        "matched_tokens": [
-          "cream",
-          "mask",
-          "pdrn"
-        ],
-        "match_score": 0.359
-      }
-    },
-    {
-      "rank": 6,
-      "pd_no": "1068776",
-      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 93,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068776",
-      "recommend_reason": "글로벌 '베터 스크린 UV 세럼 SPF 50+' (sephora) 유사 85% · 토큰 sunscreen",
-      "matched_global": {
-        "channel": "sephora",
-        "global_product": "베터 스크린 UV 세럼 SPF 50+",
-        "similarity": 0.853,
-        "demand_weight": 0.855,
-        "matched_tokens": [
-          "sunscreen"
-        ],
-        "match_score": 0.73
-      }
-    },
-    {
-      "rank": 7,
+      "rank": 3,
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "bucket": "마스크팩",
@@ -157,29 +70,7 @@
       }
     },
     {
-      "rank": 8,
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 92,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "ANUA Heartleaf 77 Soothing Toner",
-        "similarity": 0.92,
-        "demand_weight": 0.95,
-        "matched_tokens": [
-          "heartleaf",
-          "toner"
-        ],
-        "match_score": 0.874
-      }
-    },
-    {
-      "rank": 9,
+      "rank": 4,
       "pd_no": "1062781",
       "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
       "bucket": "스킨케어",
@@ -198,69 +89,6 @@
           "pdrn"
         ],
         "match_score": 0.626
-      }
-    },
-    {
-      "rank": 10,
-      "pd_no": "1060487",
-      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
-      "bucket": "마스크팩",
-      "price_krw": 3000,
-      "shopify_score": 92,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060487",
-      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Medicube Zero Pore Pad",
-        "similarity": 0.433,
-        "demand_weight": 0.8,
-        "matched_tokens": [
-          "pore"
-        ],
-        "match_score": 0.347
-      }
-    },
-    {
-      "rank": 11,
-      "pd_no": "1070006",
-      "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
-      "bucket": "스킨케어",
-      "price_krw": 3000,
-      "shopify_score": 89,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1070006",
-      "recommend_reason": "글로벌 '베터 스크린 UV 세럼 SPF 50+' (sephora) 유사 40% · 토큰 serum",
-      "matched_global": {
-        "channel": "sephora",
-        "global_product": "베터 스크린 UV 세럼 SPF 50+",
-        "similarity": 0.403,
-        "demand_weight": 0.855,
-        "matched_tokens": [
-          "serum"
-        ],
-        "match_score": 0.345
-      }
-    },
-    {
-      "rank": 12,
-      "pd_no": "1067024",
-      "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
-      "bucket": "클렌징",
-      "price_krw": 2000,
-      "shopify_score": 85,
-      "grade": "S",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067024",
-      "recommend_reason": "글로벌 '톨레리안 퓨리파잉 폼 클렌저' (walmart_beauty) 유사 100% · 토큰 cleanser",
-      "matched_global": {
-        "channel": "walmart_beauty",
-        "global_product": "톨레리안 퓨리파잉 폼 클렌저",
-        "similarity": 1.0,
-        "demand_weight": 0.8,
-        "matched_tokens": [
-          "cleanser"
-        ],
-        "match_score": 0.8
       }
     }
   ]
