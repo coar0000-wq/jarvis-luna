@@ -1,0 +1,76 @@
+name: 고시 수집·비전 추출
+
+# 다이소 고시 항목과 상세 이미지를 받고, 이미지 안의 표를 Gemini 로 읽는다.
+# Deep Analysis 안에도 같은 단계가 있지만 따로 돌려 확인할 수 있게 둔다.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gosi-vision
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 고시 항목·상세 이미지 수집
+        continue-on-error: true
+        run: python -u scripts/collect_daiso_gosi.py
+
+      - name: 이미지에서 고시 표 읽기 (Gemini)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python -u scripts/extract_gosi_vision.py
+
+      - name: 등록 게이트 재계산
+        run: python -u scripts/build_listing_gate.py
+
+      - name: 결과 요약
+        run: |
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json
+          from pathlib import Path
+          g = json.loads(Path("data/gosi.json").read_text(encoding="utf-8"))
+          it = g.get("items") or {}
+          req = ("ingredients", "volume", "maker", "origin")
+          done = [k for k, v in it.items() if all(str(v.get(f) or "").strip() for f in req)]
+          print("## 고시 추출\n")
+          print(f"- 상태: {g.get('vision_status')}")
+          print(f"- 필수 4항목 완료: **{len(done)}/{len(it)}**")
+          print(f"- 실패: {len(g.get('vision_failures') or [])}건\n")
+          print("| 상품 | 용량 | 전성분 길이 | 제조업자 |")
+          print("|---|---|---|---|")
+          for k, v in it.items():
+              ing = str(v.get("ingredients") or "")
+              print(f"| {str(v.get('name'))[:20]} | {str(v.get('volume') or '-')[:12]} "
+                    f"| {len(ing)}자 | {str(v.get('maker') or '-')[:18]} |")
+          gate = json.loads(Path("data/listing_gate.json").read_text(encoding="utf-8"))
+          print(f"\n등록 가능 **{gate.get('ready')}/{gate.get('total')}** · "
+                f"{gate.get('counts')}")
+          PY
+
+      - name: 커밋 및 푸시
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A data/gosi.json data/listing_gate.json data/daiso_real/gosi_img 2>/dev/null || true
+          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -q -m "고시 표 비전 추출 및 게이트 재계산"
+          for i in 1 2 3; do
+            git fetch -q origin main
+            git rebase -X ours origin/main >/dev/null 2>&1 || git rebase --abort || true
+            if git push -q origin HEAD:main; then echo "푸시 성공"; exit 0; fi
+            sleep 5
+          done
+          echo "푸시 실패"; exit 1
