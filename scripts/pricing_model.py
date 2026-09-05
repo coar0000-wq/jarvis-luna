@@ -288,13 +288,51 @@ def main() -> int:
             if mode == "ddu":
                 scenarios[f"{n}개_묶음배송"] = rows
 
-    # 판매 구성별 권장가
+    # 상품별 권장가.
+    # 전에는 전 상품에 시장 하위25% $18.7 하나를 똑같이 매겼다.
+    # 실제 시장가는 마스크 $13, 앰플 $19 로 갈리는데 같은 값을 쓰면
+    # 마스크는 44% 비싸게 붙어 안 팔리고 앰플은 남길 것을 못 남긴다.
+    def offer_for(row, qty, disc):
+        """상품 한 건의 권장가. 상품별 시장가가 있으면 그것을 기준으로 잡는다."""
+        base = row.get("market_median_usd") or MARKET["p25"]
+        src = row.get("market_price_source") or "oliveyoung_us_benchmark"
+        if src == "serpapi_google_shopping":
+            # 실판매 중앙값보다 살짝 아래로 들어간다. 신규 스토어의 진입 가격이다.
+            base = base * 0.95
+        land = row["landed_cost_usd"]
+        raw = base * qty * (1 - disc)
+        price = psych_price(raw)
+        fee = price * PAY_RATE + PAY_FIXED
+        net = price - land * qty - fee
+        breakeven = row["breakeven_usd"] * qty
+        return {
+            "pd_no": row.get("pd_no"), "name": row.get("name"),
+            "qty": qty, "price_usd": round(price, 2),
+            "unit_price_usd": round(price / qty, 2),
+            "landed_cost_total_usd": round(land * qty, 2),
+            "fee_usd": round(fee, 2),
+            "net_profit_usd": round(net, 2),
+            "margin_pct": round(net / price * 100, 1) if price else None,
+            "market_median_usd": row.get("market_median_usd"),
+            "market_price_source": src,
+            # 손익분기 아래면 등록하면 안 된다
+            "register_blocked": price <= breakeven,
+            "block_reason": (f"권장가 ${price:.2f} 가 손익분기 ${breakeven:.2f} 이하"
+                             if price <= breakeven else ""),
+        }
+
+    def per_product(qty, disc, mode="ddu"):
+        rows = duty_scenarios[f"{mode}_{qty}개_묶음배송"]
+        return [offer_for(r, qty, disc) for r in rows]
+
+    # 전체 요약(대시보드 호환). 상품별 값의 중앙값을 쓴다.
     def offer(qty, disc, mode="ddu"):
         rows = duty_scenarios[f"{mode}_{qty}개_묶음배송"]
+        each = per_product(qty, disc, mode)
         land = sum(r["landed_cost_usd"] for r in rows) / len(rows)
         ship = sum(r["shipping_order_usd"] for r in rows) / len(rows)
-        raw = MARKET["p25"] * qty * (1 - disc)
-        price = psych_price(raw)
+        prices = sorted(o["price_usd"] for o in each)
+        price = prices[len(prices) // 2] if prices else psych_price(MARKET["p25"] * qty)
         fee = price * PAY_RATE + PAY_FIXED
         net = price - land * qty - fee
         return {
@@ -309,10 +347,14 @@ def main() -> int:
             "margin_pct": round(net / price * 100, 1),
             "free_shipping": qty >= FREE_SHIP_MIN_QTY,
             "orders_for_500usd": round(500 / net) if net > 0 else None,
+            "price_basis": "상품별 권장가의 중앙값",
+            "price_range_usd": [prices[0], prices[-1]] if prices else None,
         }
 
     single = offer(1, 0.0)
     bundle = offer(BUNDLE_SIZE, BUNDLE_DISCOUNT)
+    single_each = per_product(1, 0.0)
+    bundle_each = per_product(BUNDLE_SIZE, BUNDLE_DISCOUNT)
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -332,6 +374,13 @@ def main() -> int:
                              "포장 자재비", "미국 주 판매세", "환율 변동"],
         },
         "market_benchmark": MARKET,
+        "offers_by_product": {
+            "규칙": ("상품별 미국 실판매 중앙값의 95% 를 기준가로 잡는다. "
+                   "신규 스토어라 시장 중앙값보다 살짝 아래로 들어간다. "
+                   "상품별 시장가가 없으면 종전 하위25% 벤치마크를 쓴다."),
+            "single": single_each,
+            "bundle": bundle_each,
+        },
         "product_market_prices": {
             "source": "SerpApi google_shopping (미국)",
             "matched": len(SERP),
