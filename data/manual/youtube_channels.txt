@@ -1,0 +1,7 @@
+# 지켜볼 유튜브 채널. 한 줄에 하나씩.
+# 형식: URL | 팀(선택) | 메모(선택)
+# 팀을 비우면 영상 제목으로 자동 분류합니다.
+#
+# https://www.youtube.com/@uxpeak | design | UX/UI 리디자인
+
+https://www.youtube.com/@uxpeak | design | UX/UI 리디자인·전환율 (사용자 지정)

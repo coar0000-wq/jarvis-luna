@@ -495,6 +495,14 @@ def team_cards(graph: dict) -> list[dict]:
             bits.append(f'팔레트 {ds["colors"]["hues"]}색조')
         if (ds.get("articles") or {}).get("count"):
             bits.append(f'디자인 기사 {ds["articles"]["count"]}건')
+        # 사람이 지정한 유튜브 채널·영상도 함께 센다.
+        yc = load_json(D / "youtube_channels.json", None) or {}
+        n_yt = (yc.get("by_team") or {}).get("design", 0)
+        ym = load_json(D / "youtube_manual.json", None) or {}
+        n_yt += sum(1 for v in (ym.get("videos") or [])
+                    if "design" in (v.get("teams") or []))
+        if n_yt:
+            bits.append(f'영상 {n_yt}건')
         src_txt = (" · " + " · ".join(bits)) if bits else ""
         cards.append(_team(
             "design", "디자인팀", ds.get("generated_at") or dt.get("generated_at"),

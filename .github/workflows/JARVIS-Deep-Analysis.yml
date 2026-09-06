@@ -79,6 +79,13 @@ jobs:
 
       # 사람이 찾아낸 영상. data/manual/youtube_links.txt 에 URL 을 넣으면
       # 받아온다. robots.txt 가 /watch 는 막지 않아 개별 영상은 가능하다.
+      # 지켜볼 채널. robots.txt 가 /@ 와 /channel/ 은 막지 않는다.
+      # 검색 결과를 긁는 게 아니라 지정된 채널만 하나씩 본다.
+      - name: 지정 YouTube 채널 수집 (최신 영상 목록)
+        continue-on-error: true
+        timeout-minutes: 8
+        run: python -u scripts/ingest_youtube_channels.py
+
       - name: 지정 YouTube 영상 수집 (사람이 넣은 링크)
         continue-on-error: true
         timeout-minutes: 5
