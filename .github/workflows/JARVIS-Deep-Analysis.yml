@@ -58,15 +58,11 @@ jobs:
         continue-on-error: true
         run: python scripts/build_design_team.py
 
-      - name: Collect Daiso gosi (notice items + detail images)
-        continue-on-error: true
-        run: python scripts/collect_daiso_gosi.py
-
-      - name: Extract gosi table from images (Gemini vision)
-        continue-on-error: true
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python scripts/extract_gosi_vision.py
+      # 고시 수집(5분)과 Gemini 비전(39분)은 gosi-vision.yml 로 옮겼다.
+      # 이 job 은 timeout-minutes 60 인데 그 둘이 44분을 먹어서 MoE 튜닝
+      # 도중 한도에 걸렸고, 그 뒤 9단계(점수 재계산·가격 모델·대시보드
+      # 최종 생성·커밋)가 전부 skipped 되었다. 대시보드가 갱신되지 않던
+      # 이유 중 하나다. 느린 수집은 따로 돌린다.
 
       - name: Build per-team feeds (route pools + FDA for legal)
         continue-on-error: true
@@ -152,12 +148,21 @@ jobs:
           fi
 
       - name: Generate pre-training dashboard snapshot
+        continue-on-error: true
+        timeout-minutes: 10
         run: python scripts/generate_dashboard_runtime.py
 
+      # 학습·튜닝에 단계별 한도를 건다. 예전에 튜닝이 길어져 job 전체
+      # 60분 한도에 걸렸고, 그 뒤 점수 재계산·가격 모델·대시보드 최종
+      # 생성·커밋이 전부 skipped 되었다. 학습이 늦어도 산출물은 나와야 한다.
       - name: Train real-data 3-expert MoE
+        continue-on-error: true
+        timeout-minutes: 12
         run: python train_real_knowledge.py
 
       - name: Tune and promote 3-expert MoE
+        continue-on-error: true
+        timeout-minutes: 15
         run: |
           python tune_real_knowledge_moe.py \
             --experts 3 \
@@ -168,6 +173,7 @@ jobs:
             --promote
 
       - name: Generate final dashboard snapshot
+        timeout-minutes: 10
         run: python scripts/generate_dashboard_runtime.py
 
       - name: Sync Global Channels and Fix Dashboard UI

@@ -22,6 +22,9 @@ GOSI = ROOT / "data" / "gosi.json"
 API_ROOT = "https://generativelanguage.googleapis.com/v1beta"
 TIMEOUT = 120
 DELAY = 3.0
+# 워크플로 전체 한도가 60분인데 비전 한 단계가 39분을 먹은 적이 있다.
+# 예산을 넘으면 남은 건 다음 회차로 넘긴다. 미룰 뿐 빠뜨리지 않는다.
+BUDGET_SEC = float(os.environ.get("VISION_BUDGET_SEC") or 720)
 FIELDS = ("volume", "ingredients", "maker", "origin", "warnings",
           "expiry", "functional")
 
@@ -75,7 +78,8 @@ def pick_models(key: str) -> list[str]:
         order = usable[:3]
     if not order:
         raise RuntimeError("generateContent 지원 모델 없음")
-    return order[:4]
+    # 후보가 많을수록 과부하 때 대기가 길어진다. 둘이면 충분하다.
+    return order[:2]
 
 
 def read_table(key: str, models: list[str], img: Path) -> tuple[dict | None, str]:
@@ -96,7 +100,7 @@ def read_table(key: str, models: list[str], img: Path) -> tuple[dict | None, str
     last = ""
     d = None
     for model in models:
-        for attempt in range(1, 4):
+        for attempt in range(1, 3):
             try:
                 d = http_json(f"{API_ROOT}/models/{model}:generateContent?key={key}", payload)
                 last = ""
@@ -106,7 +110,7 @@ def read_table(key: str, models: list[str], img: Path) -> tuple[dict | None, str
                 last = f"{model} {type(exc).__name__}: {exc}"[:120]
                 # 429/5xx 는 잠시 뒤 다시 하면 되는 경우가 많다
                 if code in (429, 500, 502, 503, 504):
-                    time.sleep(4 * attempt * attempt)
+                    time.sleep(3 * attempt)
                     continue
                 break
         if d is not None:
@@ -134,10 +138,29 @@ def main() -> int:
         print("GEMINI_API_KEY 없음 - 건너뜀")
         return 0
 
+    # 이미 필수 4항목이 다 찬 것은 다시 부르지 않는다.
+    # 이 건너뛰기가 없어서 14건 전부 완료된 뒤에도 매 회차 14건을
+    # 다시 읽었고 그게 39분이었다. 읽을 게 없으면 즉시 끝난다.
+    need = ("ingredients", "volume", "maker", "origin")
+    todo = {k: v for k, v in items.items()
+            if not all(str(v.get(f) or "").strip() for f in need)}
+    if not todo:
+        doc["vision_status"] = "ok"
+        doc["vision_note"] = "필수 4항목이 모두 채워져 있어 호출하지 않았다."
+        doc["vision_at"] = datetime.now(timezone.utc).isoformat()
+        GOSI.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(f"읽을 항목 없음 - {len(items)}건 모두 완비. 호출 0회")
+        return 0
+    print(f"대상 {len(todo)}/{len(items)}건 · 예산 {BUDGET_SEC:.0f}초")
+
     models = pick_models(key)
     print(f"모델 후보: {', '.join(models)}")
-    filled, fails = 0, []
-    for pd_no, row in items.items():
+    started = time.monotonic()
+    filled, fails, deferred = 0, [], []
+    for pd_no, row in todo.items():
+        if time.monotonic() - started > BUDGET_SEC:
+            deferred.append(pd_no)
+            continue
         img = row.get("gosi_image")
         if not img:
             fails.append({"pd_no": pd_no, "reason": "고시 이미지 없음"})
@@ -167,6 +190,9 @@ def main() -> int:
         print(f"  {pd_no}  {len(wrote)}칸 · 전성분 {len(ing)}자  {str(row.get('name'))[:24]}")
         time.sleep(DELAY)
 
+    if deferred:
+        print(f"예산 초과로 {len(deferred)}건은 다음 회차로 미룸")
+    doc["vision_deferred"] = deferred
     req = ("ingredients", "volume", "maker", "origin")
     done = sum(1 for r in items.values() if all(str(r.get(f) or "").strip() for f in req))
     doc["vision_status"] = "ok"

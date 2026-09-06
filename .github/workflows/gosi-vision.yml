@@ -4,6 +4,11 @@ name: 고시 수집·비전 추출
 # Deep Analysis 안에도 같은 단계가 있지만 따로 돌려 확인할 수 있게 둔다.
 on:
   workflow_dispatch:
+  # Deep Analysis 에서 옮겨왔다. 다이소 Crawl-delay 를 지키느라 수집이 5분,
+  # 이미지 판독이 최대 12분이라 30분 주기 job 안에 둘 수 없다.
+  # 새로 들어온 상품만 읽으므로 대개 몇 초에 끝난다.
+  schedule:
+    - cron: "40 1,13 * * *"
 
 permissions:
   contents: write
@@ -15,6 +20,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -31,6 +37,9 @@ jobs:
       - name: 이미지에서 고시 표 읽기 (Gemini)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # 이 단계가 39분을 먹은 적이 있다. 예산을 넘으면 남은 건
+          # 다음 회차로 미룬다.
+          VISION_BUDGET_SEC: "900"
         run: python -u scripts/extract_gosi_vision.py
 
       - name: 등록 게이트 재계산
