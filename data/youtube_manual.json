@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-06T11:49:52.940442+00:00",
+  "generated_at": "2026-09-06T11:52:29.943987+00:00",
   "generator": "scripts/ingest_youtube_links.py",
   "입력": "data/manual/youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
-  "total": 10,
-  "ok": 10,
+  "total": 11,
+  "ok": 11,
   "failed": 0,
   "fetched_this_run": 1,
   "bad_lines": [],
@@ -12,7 +12,7 @@
     "listing": 4,
     "pricing": 1,
     "market": 3,
-    "knowledge": 2,
+    "knowledge": 3,
     "design": 5
   },
   "videos": [
@@ -199,6 +199,24 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:49:49.937298+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "dNUXhId7XfE",
+      "url": "https://www.youtube.com/watch?v=dNUXhId7XfE",
+      "note": "방구석컴퍼니 - AI허브 977개 전수 실측. 한국어 데이터 확보 경로와 이용조건",
+      "title": "정부가 1.6조 들인 AI 학습데이터 977개, 쓸 만한 것만 골라 받아봤습니다 | AI허브 무료",
+      "channel": "방구석컴퍼니",
+      "views": 6499,
+      "length_sec": 757,
+      "published": "",
+      "description": "정부가 1.6조 원 들여 만든 AI 학습데이터 창고 AI허브(aihub.or.kr)의 데이터 977개를 전부 긁어 세어봤습니다. 감사원은 \"중복·저품질\"이라 했지만, 직접 977개를 세어보니 문제는 품질보다 분포였습니다 — 무료로 받는 법, 막히는 자리, 코딩 없이 쓰는 법까지 한 번에.\n\n📌 이 영상에서 다루는 내용\n- 감사원(2026-08-12)이 깐 것과 안 깐 것 — 중복 구축 73억 8천만 원 vs 6억 1천만 원, 파일명 오류 538/2,303장\n- 977개 전수 실측 성적표 — 상위 50개가 다운로드 37.7%, 633개는 1,000번 미만, 2019년 vs 2025년 구축분 중앙값 5,672 vs 51\n- 직접 받아보니 막히는 자리 3곳 — 승인 선행 조건, PC 전용 다운로더의 C드라이브 로그, 용량 중앙값 190GB\n- aihubshell 한 줄로 목록 867개(키 없이) / -mode d는 \"인증실패\" — API 키의 정체는 창고 열쇠\n- 많이 받아간 TOP 30 · 1GB 이하 인기 20(한국어 텍스트 위주)\n- 필드 3개짜리 한국어 대화 데이터셋(46,414쌍) — 어디까지 클로드에 올려도 되나(원본은 내 컴퓨터 안에서)\n- 이용조건",
+      "error": "",
+      "teams": [
+        "knowledge"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-06T11:52:26.940874+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
     }
   ]
