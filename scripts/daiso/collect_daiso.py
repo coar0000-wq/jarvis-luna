@@ -298,7 +298,16 @@ def main() -> int:
         state["sitemap_cached_at"] = now_iso()
 
     counts = tally(products)
-    target = int(cfg.get("target_per_bucket") or 25)
+    # 부족한 버킷을 먼저 채우려면 그 상품을 먼저 만나야 한다. sitemap 은
+    # 무작위라 순서를 조정할 수 없으니, 대신 이번 회차에 남은 자리를
+    # 로그에 남겨 어디가 비었는지 보이게 한다.
+    # 버킷마다 목표가 다르다. 미국 기사에서 스킨케어 언급이 85.9% 라
+    # 스킨케어에 절반을 배정했다(근거: data/kbeauty_news.json).
+    # 옛 형식(target_per_bucket 단일값)도 계속 읽는다.
+    tmap = cfg.get("bucket_targets") or {}
+    flat = int(cfg.get("target_per_bucket") or 25)
+    def target_of(b: str) -> int:
+        return int(tmap.get(b, flat))
     picked = 0
     for url in urls:
         if picked >= MAX_ITEMS:
@@ -333,7 +342,7 @@ def main() -> int:
                 bucket = classify(item, buckets)
                 if bucket is None:
                     run["skipped_not_beauty"] += 1     # 뷰티관 밖 상품은 저장하지 않는다
-                elif pd_no not in by_no and counts.get(bucket, 0) >= target:
+                elif pd_no not in by_no and counts.get(bucket, 0) >= target_of(bucket):
                     # 버킷 상한. 예전에는 target_per_bucket 이 적혀만 있고
                     # 지켜지지 않아 메이크업 53개, 선케어 1개로 쏠렸다.
                     # 이미 가진 상품을 갱신하는 건 상한과 무관하게 허용한다.
@@ -351,9 +360,9 @@ def main() -> int:
         time.sleep(DELAY + random.uniform(0, 2))
 
     run["finished_at"] = now_iso()
-    run["bucket_target"] = target
-    run["buckets_short"] = {b: target - counts.get(b, 0)
-                            for b in buckets if counts.get(b, 0) < target}
+    run["bucket_targets"] = {b: target_of(b) for b in buckets}
+    run["buckets_short"] = {b: target_of(b) - counts.get(b, 0)
+                            for b in buckets if counts.get(b, 0) < target_of(b)}
     reached = run["ok"] + run["skipped_not_beauty"]
     if run["requested"] == 0:
         run["status"] = "nothing_to_do"

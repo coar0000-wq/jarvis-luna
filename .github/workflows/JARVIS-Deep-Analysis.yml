@@ -176,6 +176,14 @@ jobs:
           if [ -f sync_channels.py ]; then
             python sync_channels.py
           fi
+      # 미국 매체가 K뷰티를 어떻게 다루는지 센다. 판매 데이터가 아니라
+      # 매체 노출 신호라 점수에는 넣지 않고, 어떤 상품군을 더 모을지
+      # 정하는 근거로 쓴다. 첫 수집에서 스킨케어 언급이 85.9% 였다.
+      - name: K뷰티 미국 기사 수집 (상품군·성분 언급 집계)
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python -u scripts/collect_kbeauty_news.py
+
       - name: 공개 소스 4종 수집 (Trends/Wikipedia/Allure/openFDA)
         continue-on-error: true
         run: python scripts/collect_public_signals.py
