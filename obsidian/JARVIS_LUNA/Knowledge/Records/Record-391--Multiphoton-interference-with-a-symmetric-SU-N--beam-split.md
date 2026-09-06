@@ -2,7 +2,7 @@
 title: "Record 391 · Multiphoton-interference-with-a-symmetric-SU-N--beam-splitter-and-the-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.361470+00:00
+updated_at: 2026-09-06T09:12:28.025642+00:00
 tags: [record, real-data]
 ---
 

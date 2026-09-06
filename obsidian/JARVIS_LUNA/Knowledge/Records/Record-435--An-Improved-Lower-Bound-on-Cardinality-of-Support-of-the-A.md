@@ -2,7 +2,7 @@
 title: "Record 435 · An-Improved-Lower-Bound-on-Cardinality-of-Support-of-the-Amplitude-Con"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.372022+00:00
+updated_at: 2026-09-06T09:12:28.036695+00:00
 tags: [record, real-data]
 ---
 

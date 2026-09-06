@@ -2,7 +2,7 @@
 title: "Record 556 · Insiderrechtliche-Praxisfragen-bei-der-Emission-von-Anleihen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.400883+00:00
+updated_at: 2026-09-06T09:12:28.067305+00:00
 tags: [record, real-data]
 ---
 

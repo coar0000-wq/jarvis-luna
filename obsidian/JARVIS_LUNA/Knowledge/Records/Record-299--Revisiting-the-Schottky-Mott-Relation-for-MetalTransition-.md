@@ -2,7 +2,7 @@
 title: "Record 299 · Revisiting-the-Schottky-Mott-Relation-for-MetalTransition-Metal-Dichal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.339157+00:00
+updated_at: 2026-09-06T09:12:28.001608+00:00
 tags: [record, real-data]
 ---
 

@@ -1,0 +1,22 @@
+---
+title: "Record 1404 · Consumer-Reports-puts-K-Beauty-sunscreens-to-the-test---wralcom"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-06T09:12:28.257984+00:00
+tags: [record, real-data]
+---
+
+# Record 1404 · Consumer-Reports-puts-K-Beauty-sunscreens-to-the-test---wralcom
+
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhPYk45c2xzWEw3Mmx2akplQWJZS1F1SnJSbnZJV3RmV0hLTktMUnl4cDBQak5jdDQ0LWlUWWtGODZSbkFfU0Q3MDZ0S0FtVFNDSjUyaldtU0l6WjhiZXpjN1MxVjdRNGVXeEUyZkNqY29aeXBqckFYYWxTYkF4TkpFVUFsZjFRMk9EU1N3?oc=5)
+
+**제목:** Consumer Reports puts K-Beauty sunscreens to the test - wral.com
+
+Consumer Reports puts K-Beauty sunscreens to the test - wral.com
+Consumer Reports puts K-Beauty sunscreens to the test - wral.com
+
+**출처:** Source · us_beauty
+
+## Connected nodes
+
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

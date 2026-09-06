@@ -2,7 +2,7 @@
 title: "Record 937 · Benefits-of-AI-for-Ecommerce-13-Ways-To-Grow-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.489924+00:00
+updated_at: 2026-09-06T09:12:28.159083+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 229 · The-role-of-pure-mathematics-in-resolving-complex-biological-problems-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.320996+00:00
+updated_at: 2026-09-06T09:12:27.982457+00:00
 tags: [record, real-data]
 ---
 

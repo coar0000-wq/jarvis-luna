@@ -2,7 +2,7 @@
 title: "Record 841 · Microsoft-to-Deploy-Next-Gen-AMD-Instinct-and-AMD-EPYC-Processors-as-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.467785+00:00
+updated_at: 2026-09-06T09:12:28.137561+00:00
 tags: [record, real-data]
 ---
 

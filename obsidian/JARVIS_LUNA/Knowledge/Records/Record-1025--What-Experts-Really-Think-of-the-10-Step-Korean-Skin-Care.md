@@ -2,7 +2,7 @@
 title: "Record 1025 · What-Experts-Really-Think-of-the-10-Step-Korean-Skin-Care-Routine---Vo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.508791+00:00
+updated_at: 2026-09-06T09:12:28.177430+00:00
 tags: [record, real-data]
 ---
 

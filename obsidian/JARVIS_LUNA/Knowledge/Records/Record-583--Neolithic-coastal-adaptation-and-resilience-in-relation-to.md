@@ -2,7 +2,7 @@
 title: "Record 583 · Neolithic-coastal-adaptation-and-resilience-in-relation-to-environment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.407241+00:00
+updated_at: 2026-09-06T09:12:28.074386+00:00
 tags: [record, real-data]
 ---
 

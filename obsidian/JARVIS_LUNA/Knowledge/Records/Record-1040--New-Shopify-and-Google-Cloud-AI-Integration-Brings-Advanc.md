@@ -2,7 +2,7 @@
 title: "Record 1040 · New-Shopify-and-Google-Cloud-AI-Integration-Brings-Advanced-Ecommerce-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.512143+00:00
+updated_at: 2026-09-06T09:12:28.180679+00:00
 tags: [record, real-data]
 ---
 

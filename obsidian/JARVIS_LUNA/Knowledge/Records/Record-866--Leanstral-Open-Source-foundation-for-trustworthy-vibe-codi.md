@@ -2,7 +2,7 @@
 title: "Record 866 · Leanstral-Open-Source-foundation-for-trustworthy-vibe-coding"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.474123+00:00
+updated_at: 2026-09-06T09:12:28.143734+00:00
 tags: [record, real-data]
 ---
 

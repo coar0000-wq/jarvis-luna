@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T05:23:19.165646+00:00",
+  "generated_at": "2026-09-06T09:34:38.986617+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "arsenal vs chelsea",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Sat, 5 Sep 2026 22:00:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=arsenal%20vs%20chelsea"
+          "keyword": "earthquake now",
+          "approx_traffic": "20000+",
+          "traffic_num": 20000,
+          "published": "Sun, 6 Sep 2026 00:10:00 -0700",
+          "source_name": "The Press Democrat",
+          "url": "https://trends.google.com/trending?geo=US&q=earthquake%20now"
         },
         {
-          "keyword": "ucla football coach",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Sat, 5 Sep 2026 20:40:00 -0700",
-          "source_name": "247Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=ucla%20football%20coach"
+          "keyword": "earthquake",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Sun, 6 Sep 2026 00:10:00 -0700",
+          "source_name": "Daily Breeze",
+          "url": "https://trends.google.com/trending?geo=US&q=earthquake"
         },
         {
-          "keyword": "estados unidos",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sat, 5 Sep 2026 21:20:00 -0700",
-          "source_name": "AP News",
-          "url": "https://trends.google.com/trending?geo=US&q=estados%20unidos"
+          "keyword": "sacramento state football",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Sun, 6 Sep 2026 01:40:00 -0700",
+          "source_name": "KCRA",
+          "url": "https://trends.google.com/trending?geo=US&q=sacramento%20state%20football"
         },
         {
-          "keyword": "michael keaton",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sat, 5 Sep 2026 21:10:00 -0700",
-          "source_name": "Deadline",
-          "url": "https://trends.google.com/trending?geo=US&q=michael%20keaton"
-        },
-        {
-          "keyword": "dodgers score",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sat, 5 Sep 2026 21:10:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=dodgers%20score"
-        },
-        {
-          "keyword": "내일 날씨",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sat, 5 Sep 2026 20:50:00 -0700",
-          "source_name": "Chosunbiz",
-          "url": "https://trends.google.com/trending?geo=US&q=%EB%82%B4%EC%9D%BC%20%EB%82%A0%EC%94%A8"
-        },
-        {
-          "keyword": "portland timbers",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sat, 5 Sep 2026 20:30:00 -0700",
-          "source_name": "Portland Timbers",
-          "url": "https://trends.google.com/trending?geo=US&q=portland%20timbers"
-        },
-        {
-          "keyword": "timbers",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sat, 5 Sep 2026 20:30:00 -0700",
-          "source_name": "Portland Timbers",
-          "url": "https://trends.google.com/trending?geo=US&q=timbers"
-        },
-        {
-          "keyword": "asu hockey",
+          "keyword": "lakers",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 5 Sep 2026 22:00:00 -0700",
-          "source_name": "AZ Family",
-          "url": "https://trends.google.com/trending?geo=US&q=asu%20hockey"
+          "published": "Sun, 6 Sep 2026 02:20:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=lakers"
         },
         {
-          "keyword": "hurricane marie",
+          "keyword": "wardogs beta",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 6 Sep 2026 01:20:00 -0700",
+          "source_name": "IGN",
+          "url": "https://trends.google.com/trending?geo=US&q=wardogs%20beta"
+        },
+        {
+          "keyword": "recent earthquakes",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 5 Sep 2026 21:20:00 -0700",
-          "source_name": "KBAK",
-          "url": "https://trends.google.com/trending?geo=US&q=hurricane%20marie"
+          "published": "Sun, 6 Sep 2026 00:50:00 -0700",
+          "source_name": "Morristown Green",
+          "url": "https://trends.google.com/trending?geo=US&q=recent%20earthquakes"
+        },
+        {
+          "keyword": "cryptocurrency trading",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Sun, 6 Sep 2026 02:10:00 -0700",
+          "source_name": "Yahoo Finance",
+          "url": "https://trends.google.com/trending?geo=US&q=cryptocurrency%20trading"
+        },
+        {
+          "keyword": "what is a heat index",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Sun, 6 Sep 2026 02:10:00 -0700",
+          "source_name": "FOX 32 Chicago",
+          "url": "https://trends.google.com/trending?geo=US&q=what%20is%20a%20heat%20index"
+        },
+        {
+          "keyword": "haitians",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Sun, 6 Sep 2026 01:50:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=haitians"
+        },
+        {
+          "keyword": "today wordle hints",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Sun, 6 Sep 2026 00:40:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=today%20wordle%20hints"
         }
       ]
     },

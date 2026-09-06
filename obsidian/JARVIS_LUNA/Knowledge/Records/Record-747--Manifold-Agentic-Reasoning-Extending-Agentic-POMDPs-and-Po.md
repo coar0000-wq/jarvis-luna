@@ -2,7 +2,7 @@
 title: "Record 747 · Manifold-Agentic-Reasoning-Extending-Agentic-POMDPs-and-Post-Training-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.444647+00:00
+updated_at: 2026-09-06T09:12:28.114866+00:00
 tags: [record, real-data]
 ---
 

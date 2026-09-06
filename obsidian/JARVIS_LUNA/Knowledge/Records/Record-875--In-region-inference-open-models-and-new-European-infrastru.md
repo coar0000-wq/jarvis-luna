@@ -2,7 +2,7 @@
 title: "Record 875 · In-region-inference-open-models-and-new-European-infrastructure-for-so"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.476163+00:00
+updated_at: 2026-09-06T09:12:28.145729+00:00
 tags: [record, real-data]
 ---
 

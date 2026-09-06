@@ -2,7 +2,7 @@
 title: "Record 478 · Does-Demographic-Dividend-Impact-Economic-Growth-Evidence-from-G-20-Co"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.382346+00:00
+updated_at: 2026-09-06T09:12:28.047271+00:00
 tags: [record, real-data]
 ---
 

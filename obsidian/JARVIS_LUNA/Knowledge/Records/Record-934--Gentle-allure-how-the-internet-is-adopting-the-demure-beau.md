@@ -2,7 +2,7 @@
 title: "Record 934 · Gentle-allure-how-the-internet-is-adopting-the-demure-beauty-trend---R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.489283+00:00
+updated_at: 2026-09-06T09:12:28.158449+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 666 · Performanceeinbruch-in-der-mündlichen-Zweitsprachproduktion-akademisch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.426125+00:00
+updated_at: 2026-09-06T09:12:28.095780+00:00
 tags: [record, real-data]
 ---
 

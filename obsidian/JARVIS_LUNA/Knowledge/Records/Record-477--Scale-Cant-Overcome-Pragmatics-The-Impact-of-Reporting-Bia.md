@@ -2,7 +2,7 @@
 title: "Record 477 · Scale-Cant-Overcome-Pragmatics-The-Impact-of-Reporting-Bias-on-Vision-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.382112+00:00
+updated_at: 2026-09-06T09:12:28.047025+00:00
 tags: [record, real-data]
 ---
 

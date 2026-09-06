@@ -2,7 +2,7 @@
 title: "Record 180 · Low-Latency-Global-Carbon-Budget-Reveals-Late-2024-Carbon-Losses-and-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.308680+00:00
+updated_at: 2026-09-06T09:12:27.970095+00:00
 tags: [record, real-data]
 ---
 

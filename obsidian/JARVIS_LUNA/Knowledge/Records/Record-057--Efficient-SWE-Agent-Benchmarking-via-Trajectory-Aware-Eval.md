@@ -2,7 +2,7 @@
 title: "Record 057 · Efficient-SWE-Agent-Benchmarking-via-Trajectory-Aware-Evaluation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.275489+00:00
+updated_at: 2026-09-06T09:12:27.939342+00:00
 tags: [record, real-data]
 ---
 

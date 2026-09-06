@@ -2,7 +2,7 @@
 title: "Record 150 · Gemini-Omni-11-Flash-lets-you-build-with-more-control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.301221+00:00
+updated_at: 2026-09-06T09:12:27.963237+00:00
 tags: [record, real-data]
 ---
 

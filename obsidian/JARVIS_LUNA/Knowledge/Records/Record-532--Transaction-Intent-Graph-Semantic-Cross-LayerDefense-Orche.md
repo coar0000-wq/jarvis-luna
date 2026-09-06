@@ -2,7 +2,7 @@
 title: "Record 532 · Transaction-Intent-Graph-Semantic-Cross-LayerDefense-Orchestration-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.395271+00:00
+updated_at: 2026-09-06T09:12:28.060997+00:00
 tags: [record, real-data]
 ---
 

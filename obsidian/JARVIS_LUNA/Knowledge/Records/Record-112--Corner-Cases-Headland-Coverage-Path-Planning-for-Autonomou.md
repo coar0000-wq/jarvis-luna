@@ -2,7 +2,7 @@
 title: "Record 112 · Corner-Cases-Headland-Coverage-Path-Planning-for-Autonomous-Driving-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.291905+00:00
+updated_at: 2026-09-06T09:12:27.954639+00:00
 tags: [record, real-data]
 ---
 

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-06T05:23:19.239883+00:00",
+  "generated_at": "2026-09-06T09:34:39.061681+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
-  "count": 5,
+  "count": 6,
   "priority_note": "Shopify 1차 등록 후보. 이 파일만 정본으로 사용.",
   "recommendations": [
     {
@@ -36,7 +36,7 @@
       "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 93,
+      "shopify_score": 91,
       "grade": "S",
       "s_rule": "multi_token",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
@@ -111,7 +111,7 @@
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 89,
+      "shopify_score": 87,
       "grade": "S",
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
@@ -127,6 +127,30 @@
           "toner"
         ],
         "match_score": 0.874
+      },
+      "registerable": true
+    },
+    {
+      "rank": 6,
+      "pd_no": "1045421",
+      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 83,
+      "grade": "S",
+      "s_rule": "strong_form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231221/4S2p6tvbv9F2EJVNtStV1045421_00_004S2p6tvbv9F2EJVNtStV.jpg",
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.733,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "cushion"
+        ],
+        "match_score": 0.733
       },
       "registerable": true
     }

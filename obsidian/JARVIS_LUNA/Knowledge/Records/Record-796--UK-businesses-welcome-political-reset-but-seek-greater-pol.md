@@ -2,7 +2,7 @@
 title: "Record 796 · UK-businesses-welcome-political-reset-but-seek-greater-policy-certaint"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.455928+00:00
+updated_at: 2026-09-06T09:12:28.125833+00:00
 tags: [record, real-data]
 ---
 

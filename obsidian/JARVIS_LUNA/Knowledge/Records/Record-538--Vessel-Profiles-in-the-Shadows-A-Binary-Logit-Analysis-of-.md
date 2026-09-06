@@ -2,7 +2,7 @@
 title: "Record 538 · Vessel-Profiles-in-the-Shadows-A-Binary-Logit-Analysis-of-Technical-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.396741+00:00
+updated_at: 2026-09-06T09:12:28.062669+00:00
 tags: [record, real-data]
 ---
 

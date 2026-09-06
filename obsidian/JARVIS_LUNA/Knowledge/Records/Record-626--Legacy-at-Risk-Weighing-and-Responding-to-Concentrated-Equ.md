@@ -2,7 +2,7 @@
 title: "Record 626 · Legacy-at-Risk-Weighing-and-Responding-to-Concentrated-Equitys-Vulnera"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.417076+00:00
+updated_at: 2026-09-06T09:12:28.085522+00:00
 tags: [record, real-data]
 ---
 

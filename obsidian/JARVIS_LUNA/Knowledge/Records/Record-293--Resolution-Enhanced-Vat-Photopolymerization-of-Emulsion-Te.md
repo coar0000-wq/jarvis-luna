@@ -2,7 +2,7 @@
 title: "Record 293 · Resolution-Enhanced-Vat-Photopolymerization-of-Emulsion-Templated-Foam"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.337600+00:00
+updated_at: 2026-09-06T09:12:27.999957+00:00
 tags: [record, real-data]
 ---
 

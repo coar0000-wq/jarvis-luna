@@ -2,7 +2,7 @@
 title: "Record 465 · Imperative-or-Functional-Control-Flow-Handling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.379265+00:00
+updated_at: 2026-09-06T09:12:28.044027+00:00
 tags: [record, real-data]
 ---
 

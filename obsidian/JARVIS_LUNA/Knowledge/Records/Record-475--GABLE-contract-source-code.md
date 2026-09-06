@@ -2,7 +2,7 @@
 title: "Record 475 · GABLE-contract-source-code"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.381572+00:00
+updated_at: 2026-09-06T09:12:28.046489+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 969 · AI-Agents-For-Retail-How-Retail-AI-Agents-Work---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.496661+00:00
+updated_at: 2026-09-06T09:12:28.165718+00:00
 tags: [record, real-data]
 ---
 

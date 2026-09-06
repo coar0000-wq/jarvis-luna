@@ -2,7 +2,7 @@
 title: "Record 773 · Hyaluronic-acid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.450736+00:00
+updated_at: 2026-09-06T09:12:28.120785+00:00
 tags: [record, real-data]
 ---
 

@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-06T05:00:06.654270+00:00",
+  "collected_at": "2026-09-06T09:11:54.093053+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 50,
+  "post_count": 25,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -27,9 +27,10 @@
     },
     {
       "subreddit": "SkincareAddiction",
-      "post_count": 25,
+      "post_count": 0,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests"
+        "hot: HTTPError: HTTP Error 429: Too Many Requests",
+        "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     },
     {
@@ -43,27 +44,7 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "routine",
-      "score": 12
-    },
-    {
       "keyword": "skin",
-      "score": 10
-    },
-    {
-      "keyword": "2026",
-      "score": 8
-    },
-    {
-      "keyword": "acne",
-      "score": 7
-    },
-    {
-      "keyword": "one",
-      "score": 6
-    },
-    {
-      "keyword": "skincare",
       "score": 6
     },
     {
@@ -71,32 +52,8 @@
       "score": 5
     },
     {
-      "keyword": "care",
-      "score": 4
-    },
-    {
-      "keyword": "after",
-      "score": 4
-    },
-    {
-      "keyword": "misc",
-      "score": 4
-    },
-    {
-      "keyword": "anti-aging",
-      "score": 4
-    },
-    {
-      "keyword": "makeup",
-      "score": 3
-    },
-    {
-      "keyword": "products",
-      "score": 3
-    },
-    {
-      "keyword": "back",
-      "score": 3
+      "keyword": "2026",
+      "score": 5
     },
     {
       "keyword": "anything",
@@ -111,12 +68,16 @@
       "score": 3
     },
     {
-      "keyword": "before",
+      "keyword": "one",
       "score": 3
     },
     {
-      "keyword": "sun",
-      "score": 3
+      "keyword": "product",
+      "score": 2
+    },
+    {
+      "keyword": "thursday",
+      "score": 2
     },
     {
       "keyword": "similar",
@@ -139,7 +100,15 @@
       "score": 2
     },
     {
+      "keyword": "spf",
+      "score": 2
+    },
+    {
       "keyword": "mascara",
+      "score": 2
+    },
+    {
+      "keyword": "routine",
       "score": 2
     },
     {
@@ -147,104 +116,124 @@
       "score": 2
     },
     {
-      "keyword": "brands",
+      "keyword": "skincare",
       "score": 2
     },
     {
-      "keyword": "off",
-      "score": 2
+      "keyword": "question",
+      "score": 1
     },
     {
-      "keyword": "contour",
-      "score": 2
+      "keyword": "ask",
+      "score": 1
     },
     {
-      "keyword": "product",
-      "score": 2
+      "keyword": "here",
+      "score": 1
     },
     {
-      "keyword": "bought",
-      "score": 2
+      "keyword": "alter-daily",
+      "score": 1
     },
     {
-      "keyword": "completely",
-      "score": 2
+      "keyword": "questions",
+      "score": 1
     },
     {
-      "keyword": "favorite",
-      "score": 2
+      "keyword": "authenticity",
+      "score": 1
     },
     {
-      "keyword": "skinfessionals",
-      "score": 2
+      "keyword": "a-beauty",
+      "score": 1
     },
     {
-      "keyword": "its",
-      "score": 2
+      "keyword": "products",
+      "score": 1
     },
     {
-      "keyword": "mods",
-      "score": 2
+      "keyword": "bobbi",
+      "score": 1
     },
     {
-      "keyword": "every",
-      "score": 2
+      "keyword": "letter",
+      "score": 1
     },
     {
-      "keyword": "had",
-      "score": 2
+      "keyword": "comparing",
+      "score": 1
     },
     {
-      "keyword": "pimple",
-      "score": 2
+      "keyword": "creams",
+      "score": 1
     },
     {
-      "keyword": "pores",
-      "score": 2
+      "keyword": "purito",
+      "score": 1
+    },
+    {
+      "keyword": "aqua",
+      "score": 1
+    },
+    {
+      "keyword": "whitening",
+      "score": 1
+    },
+    {
+      "keyword": "milk",
+      "score": 1
+    },
+    {
+      "keyword": "pa++++",
+      "score": 1
+    },
+    {
+      "keyword": "40ml",
+      "score": 1
+    },
+    {
+      "keyword": "thoughts",
+      "score": 1
+    },
+    {
+      "keyword": "lanbena",
+      "score": 1
+    },
+    {
+      "keyword": "nose",
+      "score": 1
     }
   ],
   "beauty_keywords": [
     {
-      "keyword": "routine",
-      "score": 12
-    },
-    {
       "keyword": "skin",
-      "score": 10
-    },
-    {
-      "keyword": "skincare",
       "score": 6
     },
     {
-      "keyword": "skinfessionals",
+      "keyword": "spf",
       "score": 2
     },
     {
-      "keyword": "sunscreen",
+      "keyword": "routine",
       "score": 2
     },
     {
-      "keyword": "sunscreens",
-      "score": 2
-    },
-    {
-      "keyword": "moisturizer",
+      "keyword": "skincare",
       "score": 2
     }
   ],
   "posts": [
     {
-      "title": "Makeup Monday August 31, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w32p6l/makeup_monday_august_31_2026/",
-      "published": "2026-08-31T04:00:25+00:00",
+      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 04, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w771sl/have_a_question_ask_here_alterdaily_help_and/",
+      "published": "2026-09-04T15:09:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 04, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w771sl/have_a_question_ask_here_alterdaily_help_and/",
-      "published": "2026-09-04T15:09:05+00:00",
+      "title": "Product Authenticity Thursday September 03, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w630ug/product_authenticity_thursday_september_03_2026/",
+      "published": "2026-09-03T10:00:41+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -259,6 +248,20 @@
       "title": "Comparing BB Creams: Missha vs. Purito in shade 21",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7vn6a/comparing_bb_creams_missha_vs_purito_in_shade_21/",
       "published": "2026-09-05T09:06:51+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "SKIN AQUA UV Whitening Milk SPF 50 PA++++ 40ml",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8po6i/skin_aqua_uv_whitening_milk_spf_50_pa_40ml/",
+      "published": "2026-09-06T07:45:07+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Thoughts on Lanbena Nose Plants Pore Strips",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8mq2b/thoughts_on_lanbena_nose_plants_pore_strips/",
+      "published": "2026-09-06T05:01:03+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -298,6 +301,13 @@
       "feed": "hot"
     },
     {
+      "title": "Sana New Born Eyebrow Mascara lid",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w85vx3/sana_new_born_eyebrow_mascara_lid/",
+      "published": "2026-09-05T16:50:56+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "New Ricky Beauty Lipliners: love the look of this one for low to medium contrast, muted people.",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w79w2j/new_ricky_beauty_lipliners_love_the_look_of_this/",
       "published": "2026-09-04T16:52:12+00:00",
@@ -308,13 +318,6 @@
       "title": "Combo skin HG/new recs for the cold season?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7xf97/combo_skin_hgnew_recs_for_the_cold_season/",
       "published": "2026-09-05T10:47:21+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Sana New Born Eyebrow Mascara lid",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w85vx3/sana_new_born_eyebrow_mascara_lid/",
-      "published": "2026-09-05T16:50:56+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -394,195 +397,6 @@
       "published": "2026-09-03T20:39:06+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
-    },
-    {
-      "title": "What are your favorite \"milky\" or barrier-supportive products that actually sink into the skin? 🥛✨",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w5k6lp/what_are_your_favorite_milky_or_barriersupportive/",
-      "published": "2026-09-02T19:19:38+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "What are your favorite contour or brontour products from Asian makeup brands?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w5wgqe/what_are_your_favorite_contour_or_brontour/",
-      "published": "2026-09-03T03:50:40+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "[Before&After] 20 y/o (2022) - 24 y/o (2026). Accutane and post-treatment routine",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w3ou2y/beforeafter_20_yo_2022_24_yo_2026_accutane_and/",
-      "published": "2026-08-31T19:51:27+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "Vanicream knocked out of the park with this one! [Misc]",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w3kajn/vanicream_knocked_out_of_the_park_with_this_one/",
-      "published": "2026-08-31T17:18:23+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "r/Skinfessionals is a content farm for Skin Choice hydrocolloid patches. 26 of its photo posts are stolen, most by its own mods, and every comment those mods have made promotes one brand. [CRINGE]",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w6edim/rskinfessionals_is_a_content_farm_for_skin_choice/",
-      "published": "2026-09-03T17:41:50+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[acne] update: finally fixed 8+ years of constant chin acne!",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w54r0x/acne_update_finally_fixed_8_years_of_constant/",
-      "published": "2026-09-02T08:48:22+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Acne] I had a blind extremely painful pimple on my forehead that I had (stupidly) decided to pop with a disinfected needle and it has now turned into a massive bump",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w5qhfn/acne_i_had_a_blind_extremely_painful_pimple_on_my/",
-      "published": "2026-09-02T23:15:09+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Misc] i bought a medicine cabinet for my room to put all my skincare",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w3lz91/misc_i_bought_a_medicine_cabinet_for_my_room_to/",
-      "published": "2026-08-31T18:14:18+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Routine Help] I'm 36 and my face feels like nothing but clogged pores.",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w2v9e9/routine_help_im_36_and_my_face_feels_like_nothing/",
-      "published": "2026-08-30T22:20:49+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Acne] Boyfriend’s back acne is having the flareup from hell, any routine recommendations? ❤️",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w2a6dy/acne_boyfriends_back_acne_is_having_the_flareup/",
-      "published": "2026-08-30T06:50:26+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Sun Care] Sunscreen is unbearable",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w6onbe/sun_care_sunscreen_is_unbearable/",
-      "published": "2026-09-04T00:06:52+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Routine Help]- bumps and pores?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w4e93s/routine_help_bumps_and_pores/",
-      "published": "2026-09-01T14:52:42+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[acne] pimple on my nose that keeps coming back in exactly the same spot",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w876ln/acne_pimple_on_my_nose_that_keeps_coming_back_in/",
-      "published": "2026-09-05T17:40:07+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "My current day and night routine [selfie]",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w4sxek/my_current_day_and_night_routine_selfie/",
-      "published": "2026-09-01T23:05:25+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "What to do against fine lines on cheeks? [Anti-Aging]",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w74kzi/what_to_do_against_fine_lines_on_cheeks_antiaging/",
-      "published": "2026-09-04T13:34:34+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Anti-Aging] What's one anti-aging habit that deserves more attention?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w6bw9x/antiaging_whats_one_antiaging_habit_that_deserves/",
-      "published": "2026-09-03T16:14:04+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[B&A] 4 months on tretinoin",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w825w8/ba_4_months_on_tretinoin/",
-      "published": "2026-09-05T14:25:32+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Sun Care] Babe wake up BEMT/bemotrizinol sunscreens from Neutrogena ‼️‼️",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w76nni/sun_care_babe_wake_up_bemtbemotrizinol_sunscreens/",
-      "published": "2026-09-04T14:54:40+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Before&After] June 2026 - September 2026 evolution of my PIH marks after laser treatment",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7i74e/beforeafter_june_2026_september_2026_evolution_of/",
-      "published": "2026-09-04T21:57:13+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Sun Care] Tips for sunburn scarring",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w2zhgp/sun_care_tips_for_sunburn_scarring/",
-      "published": "2026-08-31T01:28:16+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Trigger Warning] how can i fade my old scars off completely?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w2vj07/trigger_warning_how_can_i_fade_my_old_scars_off/",
-      "published": "2026-08-30T22:32:15+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Anti-aging] skin changed drastically over a couple of months",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w7sl2j/antiaging_skin_changed_drastically_over_a_couple/",
-      "published": "2026-09-05T06:14:07+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Acne] What could be causing this?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w72747/acne_what_could_be_causing_this/",
-      "published": "2026-09-04T11:51:54+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "Skincare Costume Help [misc]",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w2uwmt/skincare_costume_help_misc/",
-      "published": "2026-08-30T22:05:51+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Before&After] Mi cicatriz 6 meses después",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w8ivff/beforeafter_mi_cicatriz_6_meses_después/",
-      "published": "2026-09-06T01:48:05+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[misc] dry peeling lips ruining my life - help",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w68bt7/misc_dry_peeling_lips_ruining_my_life_help/",
-      "published": "2026-09-03T14:03:02+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Product Request] every moisturizer makes me break out",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1w40f5a/product_request_every_moisturizer_makes_me_break/",
-      "published": "2026-09-01T03:34:59+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
     }
   ],
   "note": "커뮤니티 실수요 시그널. 광고 키워드·S등급 코칭 보강용. 판매 순위 아님.",

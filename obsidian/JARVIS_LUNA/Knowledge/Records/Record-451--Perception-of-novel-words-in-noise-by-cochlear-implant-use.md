@@ -2,7 +2,7 @@
 title: "Record 451 · Perception-of-novel-words-in-noise-by-cochlear-implant-users"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.375892+00:00
+updated_at: 2026-09-06T09:12:28.040787+00:00
 tags: [record, real-data]
 ---
 

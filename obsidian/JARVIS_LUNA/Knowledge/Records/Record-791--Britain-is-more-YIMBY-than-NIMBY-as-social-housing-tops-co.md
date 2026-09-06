@@ -2,7 +2,7 @@
 title: "Record 791 · Britain-is-more-YIMBY-than-NIMBY-as-social-housing-tops-consumers-hous"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.454746+00:00
+updated_at: 2026-09-06T09:12:28.124677+00:00
 tags: [record, real-data]
 ---
 

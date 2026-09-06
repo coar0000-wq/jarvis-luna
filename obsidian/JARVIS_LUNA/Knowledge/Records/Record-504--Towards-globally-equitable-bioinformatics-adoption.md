@@ -2,7 +2,7 @@
 title: "Record 504 · Towards-globally-equitable-bioinformatics-adoption"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.388651+00:00
+updated_at: 2026-09-06T09:12:28.053965+00:00
 tags: [record, real-data]
 ---
 

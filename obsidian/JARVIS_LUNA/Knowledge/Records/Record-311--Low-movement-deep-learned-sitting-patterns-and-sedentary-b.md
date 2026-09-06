@@ -2,7 +2,7 @@
 title: "Record 311 · Low-movement-deep-learned-sitting-patterns-and-sedentary-behavior-in-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.342173+00:00
+updated_at: 2026-09-06T09:12:28.004824+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 820 · Leidos-continues-to-strengthen-US-Navys-secure-intelligence-operations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.462654+00:00
+updated_at: 2026-09-06T09:12:28.132458+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 441 · Scientific-Writing-in-CytopathologyEducational-Series-A-Practical-Guid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.373489+00:00
+updated_at: 2026-09-06T09:12:28.038243+00:00
 tags: [record, real-data]
 ---
 

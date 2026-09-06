@@ -2,21 +2,20 @@
 title: "Record 1734 · AI-Infrastructure-Insight-Why-faster-GPUs-alone-cant-deliver-AI-perfor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.671466+00:00
+updated_at: 2026-09-06T09:12:28.339064+00:00
 tags: [record, real-data]
 ---
 
 # Record 1734 · AI-Infrastructure-Insight-Why-faster-GPUs-alone-cant-deliver-AI-perfor
 
-> 실제 수집 레코드입니다. 원문: [news.skhynix.com](https://news.skhynix.com/en/ai-infrastructure-insight-ep2/)
+> 실제 수집 레코드입니다. 원문: [news.skhynix.com](https://news.skhynix.com/en/ai-infrastructure-insight-ep2-2/)
 
 **제목:** [AI Infrastructure Insight] Why faster GPUs alone can’t deliver AI performance
 
 [AI Infrastructure Insight] Why faster GPUs alone can’t deliver AI performance
-AI is no longer defined by a single model or chip. For AI to operate effectively in real-world services and industrial applications, it takes faster compute, greater memory bandwidth, higher-performance networking, more efficient storage, and stable power and cooling working
 
 **출처:** Source · institutions
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[인프라클라우드]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[인프라클라우드]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

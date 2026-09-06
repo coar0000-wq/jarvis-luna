@@ -2,7 +2,7 @@
 title: "Record 622 · Twenty-Years-of-Duration-Times-Spread-DTS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.416191+00:00
+updated_at: 2026-09-06T09:12:28.084514+00:00
 tags: [record, real-data]
 ---
 

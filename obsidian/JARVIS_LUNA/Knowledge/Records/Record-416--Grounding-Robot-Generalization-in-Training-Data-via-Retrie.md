@@ -2,7 +2,7 @@
 title: "Record 416 · Grounding-Robot-Generalization-in-Training-Data-via-Retrieval-Augmente"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.367458+00:00
+updated_at: 2026-09-06T09:12:28.031934+00:00
 tags: [record, real-data]
 ---
 

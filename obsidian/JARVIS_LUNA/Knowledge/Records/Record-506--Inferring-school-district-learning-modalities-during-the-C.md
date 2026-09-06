@@ -2,7 +2,7 @@
 title: "Record 506 · Inferring-school-district-learning-modalities-during-the-COVID-19-pand"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.389145+00:00
+updated_at: 2026-09-06T09:12:28.054448+00:00
 tags: [record, real-data]
 ---
 

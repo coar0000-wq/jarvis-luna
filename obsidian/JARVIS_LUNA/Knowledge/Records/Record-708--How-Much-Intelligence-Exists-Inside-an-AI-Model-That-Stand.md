@@ -2,7 +2,7 @@
 title: "Record 708 · How-Much-Intelligence-Exists-Inside-an-AI-Model-That-Standard-Evaluati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.435670+00:00
+updated_at: 2026-09-06T09:12:28.106038+00:00
 tags: [record, real-data]
 ---
 

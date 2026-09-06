@@ -2,7 +2,7 @@
 title: "Record 1034 · Task-Automation-for-Ecommerce-How-to-Save-Time-and-Scale-2025---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.510773+00:00
+updated_at: 2026-09-06T09:12:28.179356+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 579 · Accelerated-Determination-of-the-S-N-Curve-for-Fiber-reinforced-Compos"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.406303+00:00
+updated_at: 2026-09-06T09:12:28.073365+00:00
 tags: [record, real-data]
 ---
 

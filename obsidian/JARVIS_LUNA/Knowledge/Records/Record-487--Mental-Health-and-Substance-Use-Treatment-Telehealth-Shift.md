@@ -2,7 +2,7 @@
 title: "Record 487 · Mental-Health-and-Substance-Use-Treatment-Telehealth-Shifts-During-COV"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.384587+00:00
+updated_at: 2026-09-06T09:12:28.049635+00:00
 tags: [record, real-data]
 ---
 

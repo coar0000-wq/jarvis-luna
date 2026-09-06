@@ -2,7 +2,7 @@
 title: "Record 635 · Deepfake-A-Boon-for-Pediatric-Dental-Patients"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.419117+00:00
+updated_at: 2026-09-06T09:12:28.087828+00:00
 tags: [record, real-data]
 ---
 
