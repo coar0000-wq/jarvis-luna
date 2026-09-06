@@ -2,7 +2,7 @@
 title: "Record 002 · How-Language-Models-Organize-and-Structure-Moral-Knowledge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:24.962860+00:00
+updated_at: 2026-09-06T02:18:25.780348+00:00
 tags: [record, real-data]
 ---
 

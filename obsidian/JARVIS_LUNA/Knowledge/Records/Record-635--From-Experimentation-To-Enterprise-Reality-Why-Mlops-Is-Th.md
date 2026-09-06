@@ -2,7 +2,7 @@
 title: "Record 635 · From-Experimentation-To-Enterprise-Reality-Why-Mlops-Is-The-Backbone-O"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.085254+00:00
+updated_at: 2026-09-06T02:18:25.923591+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 618 · MERCENÁRIOS-OPERADORES-OU-PROTETORES-A-VERDADE-SOBRE-PMC-PSD-E-CPO"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.082357+00:00
+updated_at: 2026-09-06T02:18:25.920101+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 609 · The-Rise-in-Systematic-Credit-Investing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.080775+00:00
+updated_at: 2026-09-06T02:18:25.918215+00:00
 tags: [record, real-data]
 ---
 

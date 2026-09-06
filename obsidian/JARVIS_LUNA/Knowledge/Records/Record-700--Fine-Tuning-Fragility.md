@@ -2,7 +2,7 @@
 title: "Record 700 · Fine-Tuning-Fragility"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.096607+00:00
+updated_at: 2026-09-06T02:18:25.937032+00:00
 tags: [record, real-data]
 ---
 

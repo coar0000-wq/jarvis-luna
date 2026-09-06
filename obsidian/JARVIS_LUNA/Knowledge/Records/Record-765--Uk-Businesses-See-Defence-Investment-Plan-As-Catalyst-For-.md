@@ -2,7 +2,7 @@
 title: "Record 765 · Uk-Businesses-See-Defence-Investment-Plan-As-Catalyst-For-Growth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.108822+00:00
+updated_at: 2026-09-06T02:18:25.951110+00:00
 tags: [record, real-data]
 ---
 

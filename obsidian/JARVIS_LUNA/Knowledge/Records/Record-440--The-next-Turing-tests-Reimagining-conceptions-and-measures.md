@@ -2,7 +2,7 @@
 title: "Record 440 · The-next-Turing-tests-Reimagining-conceptions-and-measures-of-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.049920+00:00
+updated_at: 2026-09-06T02:18:25.882173+00:00
 tags: [record, real-data]
 ---
 

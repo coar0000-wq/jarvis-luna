@@ -2,7 +2,7 @@
 title: "Record 563 · Bridging-science-policy-practice-and-purpose-global-insights-from-sust"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.072241+00:00
+updated_at: 2026-09-06T02:18:25.908543+00:00
 tags: [record, real-data]
 ---
 

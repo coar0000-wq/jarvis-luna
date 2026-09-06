@@ -2,7 +2,7 @@
 title: "Record 136 · Gemini-Robotics-2-brings-whole-body-intelligence-to-robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:24.991952+00:00
+updated_at: 2026-09-06T02:18:25.810462+00:00
 tags: [record, real-data]
 ---
 

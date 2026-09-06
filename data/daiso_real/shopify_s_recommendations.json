@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-06T02:30:26.974559+00:00",
+  "generated_at": "2026-09-06T02:39:24.591321+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
-  "count": 5,
+  "count": 7,
   "priority_note": "Shopify 1차 등록 후보. 이 파일만 정본으로 사용.",
   "recommendations": [
     {
@@ -22,11 +22,11 @@
         "channel": "oliveyoung_us",
         "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
         "similarity": 0.667,
-        "demand_weight": 0.833,
+        "demand_weight": 0.931,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.555
+        "match_score": 0.621
       },
       "registerable": true
     },
@@ -57,26 +57,26 @@
     },
     {
       "rank": 3,
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
+      "pd_no": "1059834",
+      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "bucket": "마스크팩",
+      "price_krw": 2000,
       "shopify_score": 90,
       "grade": "S",
       "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
+      "recommend_reason": "글로벌 '콜라겐 리얼 딥 마스크' (sephora) 유사 100% · 토큰 collagen, mask",
       "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "ANUA Heartleaf 77 Soothing Toner",
-        "similarity": 0.92,
-        "demand_weight": 0.95,
+        "channel": "sephora",
+        "global_product": "콜라겐 리얼 딥 마스크",
+        "similarity": 1.0,
+        "demand_weight": 0.585,
         "matched_tokens": [
-          "heartleaf",
-          "toner"
+          "collagen",
+          "mask"
         ],
-        "match_score": 0.874
+        "match_score": 0.585
       },
       "registerable": true
     },
@@ -107,26 +107,75 @@
     },
     {
       "rank": 5,
-      "pd_no": "1059834",
-      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "bucket": "마스크팩",
-      "price_krw": 2000,
-      "shopify_score": 86,
+      "pd_no": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 89,
       "grade": "S",
       "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
-      "recommend_reason": "글로벌 '바이오 콜라겐 리얼 딥 마스크' (amazon_best_sellers) 유사 100% · 토큰 collagen, mask",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
+      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "ANUA Heartleaf 77 Soothing Toner",
+        "similarity": 0.92,
+        "demand_weight": 0.95,
+        "matched_tokens": [
+          "heartleaf",
+          "toner"
+        ],
+        "match_score": 0.874
+      },
+      "registerable": true
+    },
+    {
+      "rank": 6,
+      "pd_no": "1062141",
+      "name": "네시픽 화이트닝 모이스처크림 50 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 86,
+      "grade": "S",
+      "s_rule": "multi_token",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062141",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250306/GoRwz8jRUDcn8upJ3Ilc1062141_00_01GoRwz8jRUDcn8upJ3Ilc.jpg",
+      "recommend_reason": "글로벌 'CeraVe Moisturizing Cream' (amazon_best_sellers) 유사 87% · 토큰 cream, moisturizer",
       "matched_global": {
         "channel": "amazon_best_sellers",
-        "global_product": "바이오 콜라겐 리얼 딥 마스크",
-        "similarity": 1.0,
-        "demand_weight": 0.807,
+        "global_product": "CeraVe Moisturizing Cream",
+        "similarity": 0.867,
+        "demand_weight": 0.475,
         "matched_tokens": [
-          "collagen",
-          "mask"
+          "cream",
+          "moisturizer"
         ],
-        "match_score": 0.807
+        "match_score": 0.412
+      },
+      "registerable": true
+    },
+    {
+      "rank": 7,
+      "pd_no": "1045146",
+      "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+      "bucket": "선케어",
+      "price_krw": 5000,
+      "shopify_score": 82,
+      "grade": "S",
+      "s_rule": "ingredient+form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045146",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250425/ATDev4SQOg7J1IEOb9j01045146_00_01ATDev4SQOg7J1IEOb9j0.jpg",
+      "recommend_reason": "글로벌 'Beauty of Joseon Relief Sun SPF50+' (tiktok_shop_us) 유사 82% · 토큰 sunscreen",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Beauty of Joseon Relief Sun SPF50+",
+        "similarity": 0.82,
+        "demand_weight": 0.85,
+        "matched_tokens": [
+          "sunscreen"
+        ],
+        "match_score": 0.697
       },
       "registerable": true
     }

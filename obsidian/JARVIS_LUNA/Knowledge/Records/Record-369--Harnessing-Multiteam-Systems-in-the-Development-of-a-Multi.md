@@ -2,7 +2,7 @@
 title: "Record 369 · Harnessing-Multiteam-Systems-in-the-Development-of-a-Multifaceted-Data"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.036880+00:00
+updated_at: 2026-09-06T02:18:25.865381+00:00
 tags: [record, real-data]
 ---
 

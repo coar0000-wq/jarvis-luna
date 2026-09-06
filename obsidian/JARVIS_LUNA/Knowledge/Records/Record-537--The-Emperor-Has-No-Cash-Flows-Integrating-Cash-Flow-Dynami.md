@@ -2,7 +2,7 @@
 title: "Record 537 · The-Emperor-Has-No-Cash-Flows-Integrating-Cash-Flow-Dynamics-into-Tota"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.067405+00:00
+updated_at: 2026-09-06T02:18:25.903082+00:00
 tags: [record, real-data]
 ---
 

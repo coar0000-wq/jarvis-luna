@@ -2,7 +2,7 @@
 title: "Record 864 · ShamlaTech-Launches-AI-Agent-for-Shopify-WooCommerce-and-Magento-Store"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.129734+00:00
+updated_at: 2026-09-06T02:18:25.974105+00:00
 tags: [record, real-data]
 ---
 

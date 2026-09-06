@@ -2,7 +2,7 @@
 title: "Record 099 · Formation-Matrix-and-Energy-based-Control-of-Multi-Agent-Systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:24.985329+00:00
+updated_at: 2026-09-06T02:18:25.802873+00:00
 tags: [record, real-data]
 ---
 

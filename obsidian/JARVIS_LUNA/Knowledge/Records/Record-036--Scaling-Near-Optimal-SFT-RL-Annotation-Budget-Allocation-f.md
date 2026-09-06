@@ -2,7 +2,7 @@
 title: "Record 036 · Scaling-Near-Optimal-SFT-RL-Annotation-Budget-Allocation-from-Small-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:24.969821+00:00
+updated_at: 2026-09-06T02:18:25.787266+00:00
 tags: [record, real-data]
 ---
 

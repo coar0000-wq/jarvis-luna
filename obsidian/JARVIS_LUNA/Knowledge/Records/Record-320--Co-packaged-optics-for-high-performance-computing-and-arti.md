@@ -2,7 +2,7 @@
 title: "Record 320 · Co-packaged-optics-for-high-performance-computing-and-artificial-intel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.027492+00:00
+updated_at: 2026-09-06T02:18:25.853536+00:00
 tags: [record, real-data]
 ---
 

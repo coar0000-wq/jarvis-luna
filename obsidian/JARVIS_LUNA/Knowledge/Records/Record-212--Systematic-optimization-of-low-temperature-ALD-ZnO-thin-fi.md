@@ -2,7 +2,7 @@
 title: "Record 212 · Systematic-optimization-of-low-temperature-ALD-ZnO-thin-film-transisto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.006333+00:00
+updated_at: 2026-09-06T02:18:25.826930+00:00
 tags: [record, real-data]
 ---
 

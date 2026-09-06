@@ -2,7 +2,7 @@
 title: "Record 131 · Accelerating-the-frontiers-of-scientific-discovery-Googles-40M-commitm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:24.991073+00:00
+updated_at: 2026-09-06T02:18:25.809427+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 920 · Korean-Makeup-Is-the-New-Frontier-of-K-Beauty---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.139113+00:00
+updated_at: 2026-09-06T02:18:25.985368+00:00
 tags: [record, real-data]
 ---
 

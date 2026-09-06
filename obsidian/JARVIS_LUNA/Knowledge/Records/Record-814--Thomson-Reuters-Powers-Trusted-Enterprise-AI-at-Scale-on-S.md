@@ -2,7 +2,7 @@
 title: "Record 814 · Thomson-Reuters-Powers-Trusted-Enterprise-AI-at-Scale-on-Snowflake"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.120115+00:00
+updated_at: 2026-09-06T02:18:25.963141+00:00
 tags: [record, real-data]
 ---
 

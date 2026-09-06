@@ -2,7 +2,7 @@
 title: "Record 290 · Decoupling-the-Impact-of-Surface-Functionalization-over-Pt-at-the-Cath"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.021931+00:00
+updated_at: 2026-09-06T02:18:25.846411+00:00
 tags: [record, real-data]
 ---
 

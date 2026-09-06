@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-06T00:39:01.480258+00:00",
+  "collected_at": "2026-09-06T02:17:57.159271+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -45,7 +45,7 @@
   "hot_keywords": [
     {
       "keyword": "skin",
-      "score": 8
+      "score": 6
     },
     {
       "keyword": "september",
@@ -56,15 +56,19 @@
       "score": 5
     },
     {
+      "keyword": "new",
+      "score": 4
+    },
+    {
+      "keyword": "products",
+      "score": 3
+    },
+    {
       "keyword": "anything",
       "score": 3
     },
     {
       "keyword": "goes",
-      "score": 3
-    },
-    {
-      "keyword": "new",
       "score": 3
     },
     {
@@ -100,6 +104,26 @@
       "score": 2
     },
     {
+      "keyword": "similar",
+      "score": 2
+    },
+    {
+      "keyword": "brown",
+      "score": 2
+    },
+    {
+      "keyword": "love",
+      "score": 2
+    },
+    {
+      "keyword": "asian",
+      "score": 2
+    },
+    {
+      "keyword": "beauty",
+      "score": 2
+    },
+    {
       "keyword": "mascara",
       "score": 2
     },
@@ -128,19 +152,7 @@
       "score": 2
     },
     {
-      "keyword": "product",
-      "score": 2
-    },
-    {
       "keyword": "favorite",
-      "score": 2
-    },
-    {
-      "keyword": "products",
-      "score": 2
-    },
-    {
-      "keyword": "korean",
       "score": 2
     },
     {
@@ -156,7 +168,15 @@
       "score": 1
     },
     {
-      "keyword": "similar",
+      "keyword": "a-beauty",
+      "score": 1
+    },
+    {
+      "keyword": "bobbi",
+      "score": 1
+    },
+    {
+      "keyword": "letter",
       "score": 1
     },
     {
@@ -165,10 +185,6 @@
     },
     {
       "keyword": "acorn",
-      "score": 1
-    },
-    {
-      "keyword": "brown",
       "score": 1
     },
     {
@@ -186,28 +202,12 @@
     {
       "keyword": "cheaper",
       "score": 1
-    },
-    {
-      "keyword": "per",
-      "score": 1
-    },
-    {
-      "keyword": "why",
-      "score": 1
-    },
-    {
-      "keyword": "clio",
-      "score": 1
-    },
-    {
-      "keyword": "brought",
-      "score": 1
     }
   ],
   "beauty_keywords": [
     {
       "keyword": "skin",
-      "score": 8
+      "score": 6
     },
     {
       "keyword": "routine",
@@ -215,10 +215,6 @@
     },
     {
       "keyword": "skincare",
-      "score": 2
-    },
-    {
-      "keyword": "korean",
       "score": 2
     }
   ],
@@ -245,6 +241,13 @@
       "feed": "hot"
     },
     {
+      "title": "A-beauty products similar to Bobbi Brown Love Letter?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8iyx1/abeauty_products_similar_to_bobbi_brown_love/",
+      "published": "2026-09-06T01:52:49+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "similar shade to peripera 15 acorn brown?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w826k0/similar_shade_to_peripera_15_acorn_brown/",
       "published": "2026-09-05T14:26:20+00:00",
@@ -255,6 +258,13 @@
       "title": "“Men” VT reedle 60-85% cheaper per mL …. why?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7jhsu/men_vt_reedle_6085_cheaper_per_ml_why/",
       "published": "2026-09-04T22:50:02+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "New to Asian beauty!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8j4k9/new_to_asian_beauty/",
+      "published": "2026-09-06T02:00:33+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -381,20 +391,6 @@
       "title": "What are your favorite contour or brontour products from Asian makeup brands?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w5wgqe/what_are_your_favorite_contour_or_brontour/",
       "published": "2026-09-03T03:50:40+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "What is the best AB product for skin firmness and lifting?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w5w7yr/what_is_the_best_ab_product_for_skin_firmness_and/",
-      "published": "2026-09-03T03:38:12+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Trying to fully switch to a korean moisturizing cream, narrowed it to 4",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w5803e/trying_to_fully_switch_to_a_korean_moisturizing/",
-      "published": "2026-09-02T11:45:34+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

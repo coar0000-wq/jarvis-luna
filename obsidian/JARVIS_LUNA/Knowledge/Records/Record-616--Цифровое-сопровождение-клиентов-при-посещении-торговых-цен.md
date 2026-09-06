@@ -2,7 +2,7 @@
 title: "Record 616 · Цифровое-сопровождение-клиентов-при-посещении-торговых-центров-стратег"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.082000+00:00
+updated_at: 2026-09-06T02:18:25.919684+00:00
 tags: [record, real-data]
 ---
 

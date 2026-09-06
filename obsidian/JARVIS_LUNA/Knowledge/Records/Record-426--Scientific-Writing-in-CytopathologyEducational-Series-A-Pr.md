@@ -2,7 +2,7 @@
 title: "Record 426 · Scientific-Writing-in-CytopathologyEducational-Series-A-Practical-Guid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.047362+00:00
+updated_at: 2026-09-06T02:18:25.878868+00:00
 tags: [record, real-data]
 ---
 

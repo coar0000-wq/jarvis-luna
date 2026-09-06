@@ -1,10 +1,10 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-06T00:10:16.478035+00:00",
+  "collected_at": "2026-09-06T02:18:21.933638+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
-  "count": 24,
+  "count": 93,
   "items": [
     {
       "keyword": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
@@ -25,8 +25,8 @@
       "beauty": true
     },
     {
-      "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - wral.com",
-      "product": "Consumer Reports puts K-Beauty sunscreens to the test - wral.com",
+      "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
+      "product": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhPYk45c2xzWEw3Mmx2akplQWJZS1F1SnJSbnZJV3RmV0hLTktMUnl4cDBQak5jdDQ0LWlUWWtGODZSbkFfU0Q3MDZ0S0FtVFNDSjUyaldtU0l6WjhiZXpjN1MxVjdRNGVXeEUyZkNqY29aeXBqckFYYWxTYkF4TkpFVUFsZjFRMk9EU1N3?oc=5",
@@ -70,11 +70,20 @@
       "beauty": true
     },
     {
-      "keyword": "Want Smaller-Looking Pores? These Medicube K-Beauty Picks Are Up to 70% Off - E! News",
-      "product": "Want Smaller-Looking Pores? These Medicube K-Beauty Picks Are Up to 70% Off - E! News",
+      "keyword": "K-Beauty’s Expanding Influence on Global Beauty Trends - Beauty Packaging",
+      "product": "K-Beauty’s Expanding Influence on Global Beauty Trends - Beauty Packaging",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa2hsTWhGS1l3cTBiN2hwOWEwVUFLdkJMVXNaSmFsdFFaMERrUDhRVTRsSVJvV2pxcEVmdGMwUXVRYXhzOG1FaV9GRV8welVXcXZ2ZFFaQkg1bndlTDNhMWNRNEJMd1JqSVdaZlBTZmEyekkxMFc1WmxINjZYbHRjcmw0WDdXYXJMYlAyS1E2V082NVdNd1lrU3ZOeGpXWHFKQUI3Z21icGV0YVh5ZDBN?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd0Uya3ZtVk5MdkdiNjN1aFZ1MVN2M3NaUHhhQnhMQl9SYXJzZUtaeHlFSlRZRENwWmEyX3h2d2szZ2ZJVWpNUkZBTDBuenJ0TWZCR21ONFROcjdLZlZRMkFkTWszOUJ5SUxFSUNKN2JSR1RkcDg4amI1Z0VsbVhYMTViTDFhMFQxVnZqQU5rNXFiNzVla1FXbFpsRENDZw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "I tested the Korean sunscreen that’s been made for oily skin - AOL.com",
+      "product": "I tested the Korean sunscreen that’s been made for oily skin - AOL.com",
+      "sub": "Korean sunscreen",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVkVwMkZ5VjhQOG94aFU0X1J2MnJubWoyd2RpYW9KTjNvSWwxU05CMGRSNWpPRlFFczNQRjdWcWliYlhiWHRYdC1IQ0dxR1JOaGxTZjFGQS0xUjlIdnhrUy1WdFVfOVg1S3MwQWpuTWdPWHVMbDJLcUphSlJLcW11R3FVbw?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -133,15 +142,6 @@
       "beauty": true
     },
     {
-      "keyword": "The 5 Best Sunscreens (2026): Expert Approved - fortune.com",
-      "product": "The 5 Best Sunscreens (2026): Expert Approved - fortune.com",
-      "sub": "Korean sunscreen",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE04NldmdnZiVzNNZEg4ekdkM0FVMlV6aXhHVVpSV21GRTE0TE0tOVBTX203dHZQQ0xEejlHVTVNQ0ZXNmZ0Wi1kQzVQZUt0V1N3Nk1kTUM4QQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com",
       "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com",
       "sub": "snail mucin",
@@ -151,8 +151,8 @@
       "beauty": true
     },
     {
-      "keyword": "Snail slime for your face? - CNN",
-      "product": "Snail slime for your face? - CNN",
+      "keyword": "Snail slime for your face? - cnn.com",
+      "product": "Snail slime for your face? - cnn.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0l4Szg4MWtxM2RLY0MzSHpBYkRHQVdCSEc1b29TNFdrUzA4QmZoNldsRnctNXRFNVNQVWowMEdXdzJ2T244SGRGSnF2cVVhUHFuZnZuS1U2NVVCQ1BPTVRoelJqcUZZZnNEVEU0a3hlZ2JuaGJ5TFhBZjJSOFowaVlPMW5IZkZnbC1zYmdTb1dVSFZscmhLaFJGRXI3Wmc?oc=5",
@@ -196,8 +196,8 @@
       "beauty": true
     },
     {
-      "keyword": "You can get the CosRx Snail Mucin Essence for 50% off right now — but only for today - NBC News",
-      "product": "You can get the CosRx Snail Mucin Essence for 50% off right now — but only for today - NBC News",
+      "keyword": "You can get the CosRx Snail Mucin Essence for 50% off right now — but only for today - nbcnews.com",
+      "product": "You can get the CosRx Snail Mucin Essence for 50% off right now — but only for today - nbcnews.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY2RSUTR6S01JaE5WeEhQc3UzaFdSYm9MckxYczJ2TW9EVlV3a0xPbXRWTUVZSE1sNFlPYUlmWWRwbUl2a0pyYVl3c0JKcEc1cHMyOG5NZEY0NHNSaXVpdDVLd2hCQmRGeG1sRGFqYnVuYld1ZkhWMFFpeFRFSS1zLUt5RFRtZVNhb2VxQ1pPOWtBVW9h?oc=5",
@@ -219,6 +219,150 @@
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB1bjV1c253cFJYUGU1QVNMQ1gxYUZDSV9YMlpxVWI0UVFmV2xRRzFpdS1NSFdQN2xxTUNwbUlGSnJQVjJXQzNhbFEtQVQydE43SFhZY3QwcUlCWFdvVkQ4Y1MwMEYtN0hER3BGcXRvM3RPUGlPRFg1Zw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
+      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
+      "sub": "heartleaf toner",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tUlIta29LZnJyQjZ3VlhCQ1VlZzk3bVo5LXd1NE8xX3FRemRsZXB4VXdOSDQtWVNUMlJzWmNXSnhUTWdBTl9hX1dud2VTREZwNlFfTXVxNEdOa0tSdUJZNS1B?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - Cosmopolitan",
+      "product": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - Cosmopolitan",
+      "sub": "heartleaf toner",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51X3N0RkJ5UUFOczdKQ2xiV24wOEJsMGlUUU1vTnJIWGZXd0VJVDZtcExtbHh5VWwwUVpzYXVqYklvc29sSF9zaUtnbDUybF9iTGxVWE1PVkxOZGVacVNUT2REeG42TGtPaGNUdjF6a08zSG40M3Z5d0JR?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com",
+      "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com",
+      "sub": "heartleaf toner",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LemdVMDM3Q3hoem1Xa013a0JQMVdWd0UxSDZpdjc4T3BmT29PMWJZZTltMl9lQkhRM1NzckFMbnBiMlIycWxqZXhrQ3lCeU1YNzFEcnpPQkRpeDQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "My K-Beauty 'glass skin' routine isn't complete without this toner - Glamour UK",
+      "product": "My K-Beauty 'glass skin' routine isn't complete without this toner - Glamour UK",
+      "sub": "heartleaf toner",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oVkRxekx6R29ydjRMWTNEOXR3TzNCWnJOUjRPVVVQN1NXOUxBcmJkUFhhcnBnZXIzZmFBNnJ3Uk9RSEp2Q3lXRUZMV0UxbE5kUzZXcTZ5VVdMcTY4dEtBb0l5MDdSdFFtaFg1cQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "8 Toner Pads To Calm Oily Sweaty Skin In Humidity - femina.in",
+      "product": "8 Toner Pads To Calm Oily Sweaty Skin In Humidity - femina.in",
+      "sub": "heartleaf toner",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSUMyeGZqTk5KaUpBR3Q0SXJBbkJKU1o5T0V5emVCRm1RT3Vsa002R2RUOE9ta1BMNmFnNDBXM2g3aXdQWUpDSUFJSklveEhPMmdJcGFXdmlLWGtrUkkzZGljSjBIMmp4M2JGeDNkQUFRdzZJLWk0Z1FiLW5WdEMyWldic1VwQ0tUNmZuVG5jUks4SnRlQ2JNWWx3aGUwZnE2czNLd2M0UlVLUXNFbmxz0gGvAUFVX3lxTE5JQzJ4ZmpOTkppSkFHdDRJckFuQkpTWjlPRXl6ZUJGbVFPdWxrTTZHZFQ4T21rUEw2YWc0MFczaDdpd1BZSkNJQUlKSW94SE8yZ0lwYVd2aUtYa2tSSTNkaWNKMEgyangzYkZ4M2RBQVF3NkktaTRnUWItblZ0QzJaV2JzVXBDS1Q2Zm5UbmNSSzhKdGVDYk1ZbHdoZTBmcTZzM0t3YzRSVUtRc0VubHM?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - NewBeauty",
+      "product": "Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - NewBeauty",
+      "sub": "heartleaf toner",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0TXdQNUtJTm1FMlBLR2ZtRTF0RDA5QjJqM3FuNENyZm9sU3NJb2pVYzhaZ0xSckpIOHBNRlJmTERjd0E2TGphTlhJb3p1V0prc19YenBRVmk1d095SzZ6SXZEdTRSSWd5MWpTNDVud1JXUWZqX3c?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "This Soothing Toner for Acne-Prone Skin That’s Always Sold Out on TikTok Shop & Is a Rare 30% off til Midnight - SheKnows",
+      "product": "This Soothing Toner for Acne-Prone Skin That’s Always Sold Out on TikTok Shop & Is a Rare 30% off til Midnight - SheKnows",
+      "sub": "heartleaf toner",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82eTk2NHJ2QUFpbWZLZUhMUVlUR25HeGw5UUhZVVl1QjVYcnV3SDUtemwyUUo5MDU2TEFoN2NTMmtvclRGbWZ2R0RqdkhmLThlM1ZUY3VMcWtiUmctT3N0dnBWNzJvb2xIQWpTZFNMTTNrMkQ0UEpvUmw4eE1sdw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
+      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
+      "sub": "centella serum",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yZDNoUHpEdEhOUWhHQWRZck1vTFdWeDljeGZPcVh4a1VuaWpnWTczN0Vhd2RmODNOajVxdFdzRHdJTjJVbVJfa212RDdQcVY3N2tSRjc0emxET0J6bUFfbVZUNUU?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "We tried 'Heated Rivalry' star Hudson Williams' viral skin care routine: Here's what to buy for aging skin. - Yahoo",
+      "product": "We tried 'Heated Rivalry' star Hudson Williams' viral skin care routine: Here's what to buy for aging skin. - Yahoo",
+      "sub": "centella serum",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPWHZKdkNwcXg1OW40RDRKZ0RtWDNNU1dBOE41cy1OUGJjVE9kWTF4YVpwYWxTSXBaYUlRdkc0VDltTnJQaE5SZ1NTZDczYTFMSEZES1ZKZkN6d2NXVEZtWl9zZUx1T0JfZndVVVRlOGlMcUNDaXpCRnVvT0J6SGNFRGk4WVp6UmppRm80d0Njem81WVNPcFZVckIwdWxxQ2FjNE5ET2hFZl9HRmxscEhsYkoxc2FHZ1NKQTI5by1NZVQweHdUZEN0S29YTnBENG9NMUJLX1psbDRVa1lubEhXTjc0UTZRWkg4T3NhdzRQTjJSQ3U5ZEtMZ3F2aw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "This ‘amazing’ $16 serum belongs in your skincare routine, per Amazon shoppers - New York Post",
+      "product": "This ‘amazing’ $16 serum belongs in your skincare routine, per Amazon shoppers - New York Post",
+      "sub": "centella serum",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOekJ6VmM5bmlnVjZSUzZGa3FoVWc3ZnpyVUQzRXZ2MzB6SmpkRi1FcDhVWXBsS0pqaWgwYlRreEpQV21wbExVMVlJTDA0QjRRSUpVSzRMbGlCZ0NHRzc0RDFRdE9vSjBUbl91ZHZsU2dDZnppLWFrOTBKNWVOd1k1R0o3NkQ0X2JGSVYzNFgyc20xMmd4ZVRaeENoa1Fnam8xNTVBSlRpWQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Should You Use Centella Asiatica? 5 Benefits - Health.com",
+      "product": "Should You Use Centella Asiatica? 5 Benefits - Health.com",
+      "sub": "centella serum",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV1FGamp5TUY2bzdhcXhiTkpLQmwyZHIxOE9ITnZNcnFWemt2TzdXU09taVV0RmFReUZCUFE2YjNNa2RlVXVMR1E5SEh2eTV6Wk5HalUyaVdfN2JQQXZKZmV4alpHSVNXTXhRMFptYVM5amd3X3pRdThCYlROa18tWjRMTQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "21 Best Centella Asiatica Serums For Angry, Irritated & Sensitive Skin - femina.in",
+      "product": "21 Best Centella Asiatica Serums For Angry, Irritated & Sensitive Skin - femina.in",
+      "sub": "centella serum",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWnZsemNubzdCa2hPb1RFbWRyaTI2ZHZPT01TVGhPaFZlaVUzSEVEcGYwTEkxWHp6Y1dnaUZQZXhHZmNMc2hsUzU1OHphcTlqdWpWTlJzd0cxYjVzZTVyam1XY1FRNGxVMHNDdHVDQzRqNHVXMWJFQU1qLVp3VHdIRm9FMkpScDVXcU9XZExiNjhTbk1yNTJlV2hpakVYendrdFNPdHlFZE1iczJmWFE4dmhPVUFGTVNBRExnaGFsSmZzUGQ0di0w0gHHAUFVX3lxTE9admx6Y25vN0JraE9vVEVtZHJpMjZkdk9PTVNUaE9oVmVpVTNIRURwZjBMSTFYenpjV2dpRlBleEdmY0xzaGxTNTU4emFxOWp1alZOUnN3RzFiNXNlNXJqbVdjUVE0bFUwc0N0dUNDNGo0dVcxYkVBTWotWndUd0hGb0UySlJwNVdxT1dkTGI2OFNuTXI1MmVXaGlqRVh6d2t0U090eUVkTWJzMmZYUTh2aE9VQUZNU0FETGdoYWxKZnNQZDR2LTA?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "7 best Korean Skincare products: Tried & Tested by a Beauty Editor - the-independent.com",
+      "product": "7 best Korean Skincare products: Tried & Tested by a Beauty Editor - the-independent.com",
+      "sub": "centella serum",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMWFRWFp5QVFPTkxYTUVmX2taYnkzN2gwejdoZzNMWnB1QUtRM1FuWFU0R0gzZ0dUYUFvNmZCUGFSaEFFbnJ6T1VaV3lZYS1mdHFqWWN0VzNvakVxS0EwaTdzcFAyMUQyczFTbmoyT2hlbFJBVWxRSXJjTUFfcmpNY3F3R3RfSE9CTW5zSl9GWWpFT0tSLXdpVTBn?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Scientists develop plant-based serum that regrows hair within weeks - The Times of India",
+      "product": "Scientists develop plant-based serum that regrows hair within weeks - The Times of India",
+      "sub": "centella serum",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQS3NBQ0pya1FORlNaLXJBT216ejlHem55MnVkSFE1MThZWWtvdTBVek8zU2JxYVIzdlREWDhWcUU1b2NkOUpjM3hIaWk3akFxNndzMm9GRkVGaDJZQ2Jrb1MyWXBkSnB2cnJ0SHNnWmx3TExmeTctVnpnQWl1YWFYTHhnZUloWGVzT2NOZENreGFjdlVzVzJabmVOdHlpZEJKV0p3ZThieE1Gd0RaWEVONzI3bTlMeGM0YnZyM1p0aXk5UTREdnVvWkxKQ2lNdWRjRzR30gHYAUFVX3lxTFBLVlRaRExMTVdsY0wtQk5Zb3hTQUxMT1hmSlhTZ3gtblBzaFNKY1RqMDJsVER5bThnN2xZYlhvNWJxOXJCRmtpdFhRcGhaT2tlanRwQ2VxZnlCVHVsZlNfb1hyQkR2VUQwUUVudFlWTWF3YXVtYTZ2WWtpaDNFQ0tnQzJnMmIxZG5MSF9qMjZMZklrcTh4TF8zWlBPNWJ2S1cwYUNiTFBsWTctTElTMEduV1o4QXZTR3pWT1lPeHRTc3lHaTlJZm5pazFmWlBZS0RHdzlNVUJ2cQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com",
+      "product": "Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com",
+      "sub": "centella serum",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRkRkQi1TY3h2YmlWZlEzSlRKNV9lMXNXSDdBQ2RBVHBmb0NCcThJa1Q1MkNsbVVISHhZSUNyU3BncGxQQndHbDk5cnJwbFhXVHBKa2tPQXJ1WlBFRzFrbnR5NXU1ek9GYUVOcUlVTHROZTZscjFJVUlmR1had2JockFNUWIxUQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "I've Had So Many Compliments on My \"Buttery\" Skin Since Using This Product - Who What Wear",
+      "product": "I've Had So Many Compliments on My \"Buttery\" Skin Since Using This Product - Who What Wear",
+      "sub": "niacinamide serum",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DVS1JOUxVSWRkci0zVk1ibFIza2xrcFpRZlNXM3JCWnJELThyc0ZRYThSZ3kxUjljZDB0R1pUbGJOREtkMi1GejkzOHM5RzVTOGN4RkNBMUhzeWI1RHBZbVdpejFHTGNKS3pEWlYxbmE?oc=5",
       "kind": "news",
       "beauty": true
     }

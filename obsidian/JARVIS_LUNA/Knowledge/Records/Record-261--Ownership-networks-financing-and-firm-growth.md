@@ -2,7 +2,7 @@
 title: "Record 261 · Ownership-networks-financing-and-firm-growth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.015588+00:00
+updated_at: 2026-09-06T02:18:25.838549+00:00
 tags: [record, real-data]
 ---
 

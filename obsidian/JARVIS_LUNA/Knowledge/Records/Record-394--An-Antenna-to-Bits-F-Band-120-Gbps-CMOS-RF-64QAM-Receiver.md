@@ -2,7 +2,7 @@
 title: "Record 394 · An-Antenna-to-Bits-F-Band-120-Gbps-CMOS-RF-64QAM-Receiver"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.041611+00:00
+updated_at: 2026-09-06T02:18:25.871328+00:00
 tags: [record, real-data]
 ---
 

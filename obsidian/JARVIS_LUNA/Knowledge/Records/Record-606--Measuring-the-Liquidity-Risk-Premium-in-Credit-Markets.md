@@ -2,7 +2,7 @@
 title: "Record 606 · Measuring-the-Liquidity-Risk-Premium-in-Credit-Markets"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.080336+00:00
+updated_at: 2026-09-06T02:18:25.917669+00:00
 tags: [record, real-data]
 ---
 

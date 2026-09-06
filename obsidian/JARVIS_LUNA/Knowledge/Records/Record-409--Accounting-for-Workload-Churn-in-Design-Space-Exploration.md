@@ -2,7 +2,7 @@
 title: "Record 409 · Accounting-for-Workload-Churn-in-Design-Space-Exploration"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T00:39:25.044234+00:00
+updated_at: 2026-09-06T02:18:25.874837+00:00
 tags: [record, real-data]
 ---
 
