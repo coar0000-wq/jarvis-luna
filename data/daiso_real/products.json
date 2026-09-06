@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-05T22:15:22.696266+00:00",
+  "updated_at": "2026-09-04T22:30:35.410209+00:00",
   "source": "daisomall.co.kr (robots.txt 허용 경로 /pd/pdr/)",
   "truth_note": "가격은 상품 페이지에 표시된 실제 원화 금액입니다. 배송비·관세·수수료는 확정 견적이 없어 계산하지 않습니다.",
-  "count": 200,
+  "count": 180,
   "products": [
     {
       "pd_no": "1017957",
@@ -100,7 +100,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061886",
       "collected_at": "2026-08-23T06:03:37.734698+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "헤어케어",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1044404",
@@ -212,7 +213,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068776",
       "collected_at": "2026-08-23T19:47:54.862932+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "선케어",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "94020",
@@ -240,7 +242,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064529",
       "collected_at": "2026-08-23T19:55:53.351483+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "선케어",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1067396",
@@ -268,7 +271,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045146",
       "collected_at": "2026-08-23T20:06:02.108084+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "선케어",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1048918",
@@ -366,7 +370,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035210",
       "collected_at": "2026-08-24T19:48:53.876421+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "맨즈케어",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1025659",
@@ -464,7 +469,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035006",
       "collected_at": "2026-08-24T20:19:04.320873+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "메이크업"
+      "bucket": "헤어케어",
+      "bucket_before": "메이크업"
     },
     {
       "pd_no": "1061917",
@@ -506,7 +512,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064416",
       "collected_at": "2026-08-24T20:27:33.980477+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "선케어",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1060208",
@@ -520,7 +527,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060208",
       "collected_at": "2026-08-24T20:28:37.819662+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "마스크팩"
+      "bucket": "헤어케어",
+      "bucket_before": "마스크팩"
     },
     {
       "pd_no": "1067348",
@@ -562,7 +570,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061927",
       "collected_at": "2026-08-24T20:36:35.783701+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "마스크팩"
+      "bucket": "헤어케어",
+      "bucket_before": "마스크팩"
     },
     {
       "pd_no": "1073704",
@@ -590,7 +599,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060494",
       "collected_at": "2026-08-24T20:40:21.285101+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "헤어케어",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1041403",
@@ -618,7 +628,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
       "collected_at": "2026-08-24T20:44:01.548477+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "메이크업",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "55256",
@@ -814,7 +825,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=913192170",
       "collected_at": "2026-08-25T20:23:14.657341+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "마스크팩"
+      "bucket": "구강용품",
+      "bucket_before": "마스크팩"
     },
     {
       "pd_no": "58600",
@@ -828,7 +840,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=58600",
       "collected_at": "2026-08-25T20:35:31.142506+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "바디케어",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1038603",
@@ -856,7 +869,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
       "collected_at": "2026-08-25T20:40:54.413784+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "마스크팩",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1048068",
@@ -982,7 +996,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=12753",
       "collected_at": "2026-08-26T22:29:23.787228+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "맨즈케어"
+      "bucket": "바디케어",
+      "bucket_before": "맨즈케어"
     },
     {
       "pd_no": "1041091",
@@ -1094,7 +1109,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074954",
       "collected_at": "2026-08-26T22:48:03.285493+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "향수",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1065198",
@@ -1108,7 +1124,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1065198",
       "collected_at": "2026-08-26T22:53:54.024110+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "맨즈케어",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1010376",
@@ -1150,7 +1167,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1070006",
       "collected_at": "2026-08-26T23:03:27.047607+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "헤어케어",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1004153",
@@ -1178,7 +1196,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039707",
       "collected_at": "2026-08-26T23:05:34.226964+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "향수"
+      "bucket": "바디케어",
+      "bucket_before": "향수"
     },
     {
       "pd_no": "1044846",
@@ -1248,7 +1267,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1023846",
       "collected_at": "2026-08-26T23:09:50.196728+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "맨즈케어"
+      "bucket": "헤어케어",
+      "bucket_before": "맨즈케어"
     },
     {
       "pd_no": "1049551",
@@ -1262,7 +1282,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049551",
       "collected_at": "2026-08-31T23:15:45.463328+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "향수"
+      "bucket": "바디케어",
+      "bucket_before": "향수"
     },
     {
       "pd_no": "10344161",
@@ -1402,7 +1423,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=49057",
       "collected_at": "2026-08-31T23:44:48.483094+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "뷰티소품",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1047755",
@@ -1584,7 +1606,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1032881",
       "collected_at": "2026-09-01T22:17:00.246948+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "마스크팩"
+      "bucket": "헤어케어",
+      "bucket_before": "마스크팩"
     },
     {
       "pd_no": "1068497",
@@ -1612,7 +1635,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030152",
       "collected_at": "2026-09-01T22:19:40.519930+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "향수"
+      "bucket": "헤어케어",
+      "bucket_before": "향수"
     },
     {
       "pd_no": "1060532",
@@ -1878,7 +1902,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
       "collected_at": "2026-09-02T22:25:35.019356+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "마스크팩",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1072259",
@@ -1962,7 +1987,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067977",
       "collected_at": "2026-09-02T22:39:34.166342+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "헤어케어",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "37428",
@@ -2018,7 +2044,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044577",
       "collected_at": "2026-09-02T22:45:28.148774+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "뷰티소품"
+      "bucket": "바디케어",
+      "bucket_before": "뷰티소품"
     },
     {
       "pd_no": "1039235",
@@ -2032,7 +2059,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039235",
       "collected_at": "2026-09-02T22:46:00.954510+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "마스크팩"
+      "bucket": "헤어케어",
+      "bucket_before": "마스크팩"
     },
     {
       "pd_no": "1066503",
@@ -2046,7 +2074,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1066503",
       "collected_at": "2026-09-02T22:47:05.758415+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "뷰티소품",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1041093",
@@ -2060,7 +2089,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041093",
       "collected_at": "2026-09-02T22:48:10.608426+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "뷰티소품",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1023480",
@@ -2130,7 +2160,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
       "collected_at": "2026-09-03T21:56:15.828822+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "메이크업",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "59793",
@@ -2186,7 +2217,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1066221",
       "collected_at": "2026-09-03T22:18:15.930375+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "헤어케어",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "18534",
@@ -2242,7 +2274,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060583",
       "collected_at": "2026-09-03T22:29:00.840480+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "헤어케어",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1030674",
@@ -2312,7 +2345,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1063229",
       "collected_at": "2026-09-04T21:34:12.814620+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
+      "bucket": "바디케어",
+      "bucket_before": "스킨케어"
     },
     {
       "pd_no": "1022934",
@@ -2523,286 +2557,6 @@
       "collected_at": "2026-09-04T22:29:31.605026+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "메이크업"
-    },
-    {
-      "pd_no": "1035059",
-      "name": "샤워메이트 부케 바디워시 60 ml 피치",
-      "brand": "샤워메이트",
-      "site_category": "샤워/입욕",
-      "price_krw": 1000,
-      "rating": 4.8,
-      "review_count": 208,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231130/8eiVUotCXUKiTUWkaMvm1035059_00_008eiVUotCXUKiTUWkaMvm.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035059",
-      "collected_at": "2026-09-05T21:17:37.399811+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "바디케어"
-    },
-    {
-      "pd_no": "1035441",
-      "name": "물방울 네일 파츠 10개입",
-      "brand": "다이소",
-      "site_category": "네일아트도구",
-      "price_krw": 1000,
-      "rating": 4.7,
-      "review_count": 57,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240509/RTgBt6FsvLJaAPILzeMU1035441_00_00RTgBt6FsvLJaAPILzeMU.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035441",
-      "collected_at": "2026-09-05T21:26:04.856909+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
-    },
-    {
-      "pd_no": "1067399",
-      "name": "태그 파우더브로우키트(1호_애쉬브라운)",
-      "brand": "태그",
-      "site_category": "아이메이크업",
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 525,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250919/habN3pSryVo43M4qv9wd1067399_00_01habN3pSryVo43M4qv9wd.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067399",
-      "collected_at": "2026-09-05T21:26:37.475734+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "메이크업"
-    },
-    {
-      "pd_no": "1047504",
-      "name": "더블 라인 치실 50개입 420D",
-      "brand": "다이소",
-      "site_category": "칫솔",
-      "price_krw": 1000,
-      "rating": 4.8,
-      "review_count": 423,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20241022/ZBuEypTi1IEztGYNfBEQ1047504_00_00ZBuEypTi1IEztGYNfBEQ.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1047504",
-      "collected_at": "2026-09-05T21:34:02.545793+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "구강용품"
-    },
-    {
-      "pd_no": "1060496",
-      "name": "정직한실험실 트루랩 엔젤링 워터 트리트먼트 210 ml",
-      "brand": "정직한실험실",
-      "site_category": "트리트먼트/팩",
-      "price_krw": 5000,
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260618/F53T8vTWw4GBPwd7lVn11060496_00_01F53T8vTWw4GBPwd7lVn1.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060496",
-      "collected_at": "2026-09-05T21:35:05.407956+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "마스크팩"
-    },
-    {
-      "pd_no": "1073756",
-      "name": "여름 반바지 M 블루",
-      "brand": "다이소",
-      "site_category": "남성 홈웨어",
-      "price_krw": 3000,
-      "rating": 4.5,
-      "review_count": 143,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260902/JvEOcn8fEzW9XTAIUQUE1073756_00_00JvEOcn8fEzW9XTAIUQUE.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073756",
-      "collected_at": "2026-09-05T21:35:37.648260+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "맨즈케어"
-    },
-    {
-      "pd_no": "1042531",
-      "name": "소비아 트로피칼하트 배쓰버블바 (후리지아)",
-      "brand": "다이소",
-      "site_category": "샤워/입욕",
-      "price_krw": 3000,
-      "rating": 4.9,
-      "review_count": 266,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231204/AQmSJcwrrsehYqy10hZJ1042531_00_00AQmSJcwrrsehYqy10hZJ.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042531",
-      "collected_at": "2026-09-05T21:36:41.812384+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "바디케어"
-    },
-    {
-      "pd_no": "1024950",
-      "name": "앰플 용기 50 ml",
-      "brand": "다이소",
-      "site_category": "뷰티잡화",
-      "price_krw": 1000,
-      "rating": 4.8,
-      "review_count": 238,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240725/KHCtBBljZZdgZn9ZVDYa1024950_00_00KHCtBBljZZdgZn9ZVDYa.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1024950",
-      "collected_at": "2026-09-05T21:38:50.108306+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
-    },
-    {
-      "pd_no": "1043659",
-      "name": "닥터지오 모이스처 올인원 젤로션 150 ml",
-      "brand": "다이소",
-      "site_category": "남성스킨케어",
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 587,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260325/wXm7JotUk9q64qlDBwcc1043659_00_01wXm7JotUk9q64qlDBwcc.png",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1043659",
-      "collected_at": "2026-09-05T21:43:04.993175+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
-    },
-    {
-      "pd_no": "55035",
-      "name": "일자빗＆꼬리빗",
-      "brand": "다이소",
-      "site_category": "헤어기기/브러시",
-      "price_krw": 500,
-      "rating": 4.7,
-      "review_count": 147,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260225/quxDghUV55wrkHug7fpC55035_00_00quxDghUV55wrkHug7fpC.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=55035",
-      "collected_at": "2026-09-05T21:45:44.310347+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "뷰티소품"
-    },
-    {
-      "pd_no": "60729",
-      "name": "페리오46CM 구강스프레이 6.2ml (쿨민트)",
-      "brand": "다이소",
-      "site_category": "구강청결제",
-      "price_krw": 3000,
-      "rating": 4.8,
-      "review_count": 710,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231201/4htbI49mYSK0npXBsVth60729_00_004htbI49mYSK0npXBsVth.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=60729",
-      "collected_at": "2026-09-05T21:47:50.276874+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "구강용품"
-    },
-    {
-      "pd_no": "69979",
-      "name": "커피 필터 브라운 4~7잔용 100매",
-      "brand": "다이소",
-      "site_category": "드립/추출용품",
-      "price_krw": 2000,
-      "rating": 4.8,
-      "review_count": 340,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/xP006OoTpfkAhObff8Om69979_00_00xP006OoTpfkAhObff8Om.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=69979",
-      "collected_at": "2026-09-05T21:52:03.872496+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "메이크업"
-    },
-    {
-      "pd_no": "59759",
-      "name": "NITEX 그립 코팅장갑 U3 S",
-      "brand": "다이소",
-      "site_category": "작업용장갑",
-      "price_krw": 2000,
-      "rating": 4.8,
-      "review_count": 127,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20241202/1TSQzPaM9gCZzJ4GlGAk59759_00_001TSQzPaM9gCZzJ4GlGAk.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=59759",
-      "collected_at": "2026-09-05T21:53:40.235527+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "메이크업"
-    },
-    {
-      "pd_no": "1038356",
-      "name": "컬러차트 네일 파츠 10개입",
-      "brand": "다이소",
-      "site_category": "네일아트도구",
-      "price_krw": 1000,
-      "rating": 4.8,
-      "review_count": 160,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231129/p5SJ1eEavvaogtw0vSx91038356_00_00p5SJ1eEavvaogtw0vSx9.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038356",
-      "collected_at": "2026-09-05T21:54:43.150712+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
-    },
-    {
-      "pd_no": "1001262",
-      "name": "베이직 발가락패드 2개입",
-      "brand": "다이소",
-      "site_category": "네일/패디소품",
-      "price_krw": 500,
-      "rating": 4.7,
-      "review_count": 364,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231127/e9Z2Sgwo2ytMpaRhFWEg1001262_00_00e9Z2Sgwo2ytMpaRhFWEg.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1001262",
-      "collected_at": "2026-09-05T22:01:35.594042+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
-    },
-    {
-      "pd_no": "1038593",
-      "name": "제이엠솔루션 B5 히아 모이스처라이징 마스크 30 ml",
-      "brand": "제이엠솔루션",
-      "site_category": "시트팩",
-      "price_krw": 1000,
-      "rating": 4.8,
-      "review_count": 320,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260123/koKpbhjyZcfSvXlrkhEI1038593_00_01koKpbhjyZcfSvXlrkhEI.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038593",
-      "collected_at": "2026-09-05T22:04:14.372788+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "마스크팩"
-    },
-    {
-      "pd_no": "1072794",
-      "name": "[21호 엔라이트]줌 바이 정샘물 듀이핏 스파츌라 파운데이션 25 ml",
-      "brand": "줌 바이 정샘물",
-      "site_category": "베이스메이크업",
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 1459,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260903/Z8jj56je3iLwvrEw6VMz1072794_00_01Z8jj56je3iLwvrEw6VMz.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072794",
-      "collected_at": "2026-09-05T22:05:47.990183+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "메이크업"
-    },
-    {
-      "pd_no": "1068413",
-      "name": "[펫] 포포몽 논슬립 대나무 배변 패드 표준형 40 X 50 cm 36매입",
-      "brand": "포포몽",
-      "site_category": "강아지배변위생",
-      "price_krw": 5000,
-      "rating": 4.9,
-      "review_count": 135,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251107/OYdzUoFwHdREjFYMVZEj1068413_00_00OYdzUoFwHdREjFYMVZEj.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068413",
-      "collected_at": "2026-09-05T22:06:20.228206+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "메이크업"
-    },
-    {
-      "pd_no": "1028630",
-      "name": "빅 파츠 네일 스티커 6개입",
-      "brand": "다이소",
-      "site_category": "네일팁/스티커",
-      "price_krw": 2000,
-      "rating": 4.6,
-      "review_count": 83,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240620/v800ch1CYR67k7mSD2J21028630_00_00v800ch1CYR67k7mSD2J2.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1028630",
-      "collected_at": "2026-09-05T22:08:58.020999+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
-    },
-    {
-      "pd_no": "1056708",
-      "name": "몬풋 남성 아치밴딩 단목 양말 화이트",
-      "brand": "몬풋",
-      "site_category": "몬풋",
-      "price_krw": 1000,
-      "rating": 4.8,
-      "review_count": 93,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260716/XFbvFbIWC33jnNvTCovZ1056708_00_00XFbvFbIWC33jnNvTCovZ.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056708",
-      "collected_at": "2026-09-05T22:14:18.854200+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "맨즈케어"
     }
   ]
 }

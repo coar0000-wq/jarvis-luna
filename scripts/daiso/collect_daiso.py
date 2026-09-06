@@ -252,6 +252,7 @@ def main() -> int:
         "started_at": now_iso(),
         "requested": 0, "ok": 0, "parse_failed": 0, "http_error": 0,
         "skipped_not_beauty": 0,
+        "skipped_bucket_full": 0,
         "scope": "다이소몰 뷰티관(C245) 12개 카테고리",
         "delay_seconds": DELAY, "max_items": MAX_ITEMS,
         "user_agent": UA,
@@ -277,6 +278,7 @@ def main() -> int:
         state["sitemap_cached_at"] = now_iso()
 
     counts = tally(products)
+    target = int(cfg.get("target_per_bucket") or 25)
     picked = 0
     for url in urls:
         if picked >= MAX_ITEMS:
@@ -305,6 +307,11 @@ def main() -> int:
                 bucket = classify(item, buckets)
                 if bucket is None:
                     run["skipped_not_beauty"] += 1     # 뷰티관 밖 상품은 저장하지 않는다
+                elif pd_no not in by_no and counts.get(bucket, 0) >= target:
+                    # 버킷 상한. 예전에는 target_per_bucket 이 적혀만 있고
+                    # 지켜지지 않아 메이크업 53개, 선케어 1개로 쏠렸다.
+                    # 이미 가진 상품을 갱신하는 건 상한과 무관하게 허용한다.
+                    run["skipped_bucket_full"] += 1
                 else:
                     item["bucket"] = bucket
                     counts[bucket] = counts.get(bucket, 0) + 1
@@ -318,6 +325,9 @@ def main() -> int:
         time.sleep(DELAY + random.uniform(0, 2))
 
     run["finished_at"] = now_iso()
+    run["bucket_target"] = target
+    run["buckets_short"] = {b: target - counts.get(b, 0)
+                            for b in buckets if counts.get(b, 0) < target}
     reached = run["ok"] + run["skipped_not_beauty"]
     if run["requested"] == 0:
         run["status"] = "nothing_to_do"
