@@ -829,11 +829,16 @@ function renderDaiso(status, sRec){
 
   // 실제 원가 모델 (배송비·관세·결제수수료 포함). 없으면 가격을 표시하지 않는다.
   const pm=window.__pricing;
-  const rows=(pm&&pm.scenarios&&pm.scenarios['5개_묶음배송'])||[];
+  // 대표 숫자는 단품 기준이다. 예전에는 5개 묶음을 읽어서 마진이 62% 로
+  // 보였는데 5개면 개당 배송비가 $2.14 이고 단품은 $6.98 이다. 우리는
+  // 단품과 1+1 만 파니까 5개 기준 숫자는 실제로 만날 일이 없다.
+  const rows=(pm&&pm.scenarios&&pm.scenarios['1개_묶음배송'])||[];
   const byNo={}; rows.forEach(r=>{ byNo[String(r.pd_no)]=r; });
   window.__priceByNo=byNo;
-  const single={}; ((pm&&pm.scenarios&&pm.scenarios['1개_묶음배송'])||[]).forEach(r=>{ single[String(r.pd_no)]=r; });
+  const single={}; rows.forEach(r=>{ single[String(r.pd_no)]=r; });
   window.__priceSingle=single;
+  const pair={}; ((pm&&pm.scenarios&&pm.scenarios['2개_묶음배송'])||[]).forEach(r=>{ pair[String(r.pd_no)]=r; });
+  window.__pricePair=pair;
 
   const t=(c,k,v,u)=>'<div class="dz-tile '+c+'"><div class="k">'+k+'</div><div class="v">'+v+'</div>'+(u?'<div class="u">'+u+'</div>':'')+'</div>';
 
@@ -859,6 +864,10 @@ function renderDaiso(status, sRec){
   const mkt=(pm&&pm.market_benchmark)||{};
   const rec=Number(mkt.p25||0);
   const margin=rec?((rec-landed-(rec*0.029+0.06))/rec*100):0;
+  // 1+1 은 개당 배송비가 절반 아래로 떨어져 마진이 달라진다. 함께 보여준다.
+  const pairRows=Object.values(pair);
+  const pairLanded=pairRows.length?pairRows.reduce((a,r)=>a+Number(r.landed_cost_usd||0),0)/pairRows.length:0;
+  const pairMargin=(rec&&pairLanded)?((rec-pairLanded-(rec*0.029+0.06))/rec*100):0;
 
   const sLanded=Object.values(single).reduce((a,r)=>a+Number(r.landed_cost_usd||0),0)/Math.max(1,Object.keys(single).length);
 
@@ -867,8 +876,8 @@ function renderDaiso(status, sRec){
 
   box.innerHTML='<div class="dz-grid">'+
     t('dz-green','S등급 등록 후보',recs.length+'개','Shopify 1차 테스트')+
-    t('dz-blue','권장 판매가','$'+rec.toFixed(2),'마진 '+margin.toFixed(0)+'% · 5개 묶음 기준')+
-    t('dz-slate','손익분기','$'+be.toFixed(2),'이 아래로 팔면 적자')+
+    t('dz-blue','권장 판매가','$'+rec.toFixed(2),'단품 마진 '+margin.toFixed(0)+'%'+(pairMargin?' · 1+1 '+pairMargin.toFixed(0)+'%':''))+
+    t('dz-slate','손익분기 (단품)','$'+be.toFixed(2),'개당 배송비 $'+ship.toFixed(2)+' 포함')+
     revTile+
   '</div>'+
   offersPanel(pm)+
@@ -902,11 +911,11 @@ function offersPanel(pm){
 // 관세 부담 방식(DDU/DDP)은 스토어 개설 후 정한다. 두 경우를 나란히 보여준다.
 function dutyModePanel(pm, sell){
   const ds=(pm&&pm.duty_scenarios)||{}, note=(pm&&pm.duty_mode_note)||{};
-  if(!ds['ddp_5개_묶음배송'] || !sell) return '';
+  if(!ds['ddp_1개_묶음배송'] || !sell) return '';
   const avg=(k,f)=>{const r=ds[k]||[]; return r.length? r.reduce((a,x)=>a+Number(x[f]||0),0)/r.length : 0;};
-  const du=avg('ddu_5개_묶음배송','landed_cost_usd');
-  const dp=avg('ddp_5개_묶음배송','landed_cost_usd');
-  const duty=avg('ddp_5개_묶음배송','tariff_usd');
+  const du=avg('ddu_1개_묶음배송','landed_cost_usd');
+  const dp=avg('ddp_1개_묶음배송','landed_cost_usd');
+  const duty=avg('ddp_1개_묶음배송','tariff_usd');
   const m=l=>((sell-l-(sell*0.029+0.06))/sell*100).toFixed(0);
   return '<div class="dz-note pm-duty"><b>관세 부담 방식 미정</b> — 스토어 개설 후 Markets 설정을 확인하고 고르세요.'+
     '<table class="pm-tbl"><tr><th>방식</th><th>착지원가</th><th>마진</th><th>고객 추가 부담</th></tr>'+

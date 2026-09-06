@@ -70,6 +70,11 @@ BUNDLE_SIZE = 2
 BUNDLE_DISCOUNT = 0.15
 FREE_SHIP_MIN_QTY = 2
 
+# 실제로 파는 구성. 단품과 1+1 뿐이다.
+# 예전에는 3개·5개까지 계산해두고 화면이 5개짜리를 대표값으로 읽었다.
+# 팔지도 않는 구성의 마진을 보여주면 판단이 어긋난다.
+SELL_QTYS = (1, BUNDLE_SIZE)
+
 
 def psych_price(v: float) -> float:
     """미국식 가격 표기. 0.99 로 올림."""
@@ -334,9 +339,13 @@ def main() -> int:
 
     # 기존 키(N개_묶음배송)는 ddu 기준으로 유지해 대시보드 호환을 지킨다.
     # duty_scenarios 에 두 방식을 모두 담아 비교 가능하게 한다.
+    # 우리가 실제로 파는 구성만 만든다.
+    # 단품 1개와 1+1(2개) 둘뿐이다. 3개·5개 묶음은 팔지 않는다.
+    # 그런데 화면 대표 숫자가 5개 묶음을 읽고 있어서 마진이 부풀려 보였다.
+    # 5개면 개당 배송비가 $2.14 인데 단품은 $6.98 이다. 3배 넘게 차이 난다.
     scenarios, duty_scenarios = {}, {}
     for mode in DUTY_MODES:
-        for n in (1, 2, 3, 5):
+        for n in SELL_QTYS:
             rows = [analyze(p, rate, n, MARKET, mode) for p in srec]
             duty_scenarios[f"{mode}_{n}개_묶음배송"] = rows
             if mode == "ddu":
@@ -488,7 +497,7 @@ def main() -> int:
     print(f"{'방식':6s} {'묶음':6s} {'착지원가':>9s} {'손익분기':>9s} "
           f"{'판매가':>8s} {'순익':>8s} {'마진':>7s}  고객 관세 부담")
     for mode in DUTY_MODES:
-        for n in (1, 2, 3, 5):
+        for n in SELL_QTYS:
             rows = duty_scenarios[f"{mode}_{n}개_묶음배송"]
             land = sum(r["landed_cost_usd"] for r in rows) / len(rows)
             be = sum(r["breakeven_usd"] for r in rows) / len(rows)
