@@ -114,6 +114,15 @@ jobs:
         continue-on-error: true
         run: python scripts/collect_public_trend_rss.py
 
+      - name: Collect Google Trends beauty-only
+        continue-on-error: true
+        run: |
+          if [ -f scripts/collect_google_trends_beauty.py ]; then
+            python scripts/collect_google_trends_beauty.py
+          else
+            echo "beauty trends collector missing — skip"
+          fi
+
       - name: Collect Google CSE (시크릿 있을 때만)
         continue-on-error: true
         env:
