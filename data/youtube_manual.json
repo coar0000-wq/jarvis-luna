@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-06T11:46:52.777620+00:00",
+  "generated_at": "2026-09-06T11:49:52.940442+00:00",
   "generator": "scripts/ingest_youtube_links.py",
   "입력": "data/manual/youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
-  "total": 9,
-  "ok": 9,
+  "total": 10,
+  "ok": 10,
   "failed": 0,
   "fetched_this_run": 1,
   "bad_lines": [],
@@ -12,7 +12,7 @@
     "listing": 4,
     "pricing": 1,
     "market": 3,
-    "knowledge": 1,
+    "knowledge": 2,
     "design": 5
   },
   "videos": [
@@ -181,6 +181,24 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:46:49.774494+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "CVEe0HAd--I",
+      "url": "https://www.youtube.com/watch?v=CVEe0HAd--I",
+      "note": "머니스웨거 - 유대인 투자자 전략. 설명란이 비어 있어 내용 미확인. 투자 이야기라 사업 팀 아님",
+      "title": "유대인들이 지금 돈 쓸어모으고 있는 사기급 스킬",
+      "channel": "머니스웨거 Money Swagger",
+      "views": 221465,
+      "length_sec": 1164,
+      "published": "",
+      "description": "머니스웨거",
+      "error": "",
+      "teams": [
+        "knowledge"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-06T11:49:49.937298+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
     }
   ]
