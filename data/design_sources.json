@@ -1,0 +1,2064 @@
+{
+  "generated_at": "2026-09-06T03:09:11.250255+00:00",
+  "generator": "scripts/collect_design_sources.py",
+  "원칙": "서버가 데이터를 그대로 주는 곳만 쓴다. 브라우저에서만 그려지는 사이트는 자동 수집 대상이 아니다. robots.txt 와일드카드 그룹이 허용하는 경로만 요청한다.",
+  "robots_checked_at": "2026-09-06",
+  "rejected": {
+    "coolors.co /palettes/trending": "robots 허용이나 팔레트가 브라우저에서만 그려진다. 서버 HTML 559KB 에 palette-card 0개·rgb() 0개. 데이터 출처로 보이는 /ajax/ 는 robots 가 막았다.",
+    "imweb.me /theme": "robots 는 Allow: / 지만 서버 HTML 183KB 에 '테마' 가 0번 나온다. 목록이 전부 자바스크립트로 그려진다.",
+    "styles.refero.design": "robots 가 ClaudeBot·Claude-Web·anthropic-ai·GPTBot·CCBot 을 이름으로 지목해 Disallow: /. 와일드카드 그룹에도 Disallow: / 가 있다.",
+    "themes.shopify.com/themes": "robots 는 허용. HTTP 200 에 205KB 를 주지만 테마 목록이 JSON 으로 들어있지 않다. 추가 확인 전까지는 쓰지 않는다.",
+    "YouTube /feeds/videos.xml": "youtube.com/robots.txt 가 Disallow. Data API v3 로 가야 한다."
+  },
+  "failed_blocks": [],
+  "fonts": {
+    "status": "ok",
+    "source": "fonts.google.com/metadata/fonts (공개 메타데이터)",
+    "robots": "허용 (2026-09-06 확인)",
+    "total": 1946,
+    "korean_total": 38,
+    "top_popular": [
+      {
+        "family": "Roboto",
+        "category": "Sans Serif",
+        "popularity": 2,
+        "trending": 1266,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2013-01-08"
+      },
+      {
+        "family": "Open Sans",
+        "category": "Sans Serif",
+        "popularity": 3,
+        "trending": 1277,
+        "weights": [
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i"
+        ],
+        "korean": false,
+        "date_added": "2011-02-02"
+      },
+      {
+        "family": "Google Sans",
+        "category": "Sans Serif",
+        "popularity": 4,
+        "trending": 1585,
+        "weights": [
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i"
+        ],
+        "korean": false,
+        "date_added": "2025-12-09"
+      },
+      {
+        "family": "Inter",
+        "category": "Sans Serif",
+        "popularity": 5,
+        "trending": 1264,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2020-01-24"
+      },
+      {
+        "family": "Montserrat",
+        "category": "Sans Serif",
+        "popularity": 7,
+        "trending": 1246,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2011-12-13"
+      },
+      {
+        "family": "Poppins",
+        "category": "Sans Serif",
+        "popularity": 8,
+        "trending": 1341,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2015-06-03"
+      },
+      {
+        "family": "Lato",
+        "category": "Sans Serif",
+        "popularity": 9,
+        "trending": 1020,
+        "weights": [
+          "100",
+          "100i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "700",
+          "700i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2010-12-15"
+      },
+      {
+        "family": "Noto Sans JP",
+        "category": "Sans Serif",
+        "popularity": 10,
+        "trending": 1889,
+        "weights": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": false,
+        "date_added": "2015-01-29"
+      },
+      {
+        "family": "Arimo",
+        "category": "Sans Serif",
+        "popularity": 14,
+        "trending": 966,
+        "weights": [
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i"
+        ],
+        "korean": false,
+        "date_added": "2026-05-12"
+      },
+      {
+        "family": "Roboto Mono",
+        "category": "Monospace",
+        "popularity": 15,
+        "trending": 824,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i"
+        ],
+        "korean": false,
+        "date_added": "2025-05-12"
+      },
+      {
+        "family": "Roboto Condensed",
+        "category": "Sans Serif",
+        "popularity": 16,
+        "trending": 1188,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2012-06-26"
+      },
+      {
+        "family": "Oswald",
+        "category": "Sans Serif",
+        "popularity": 19,
+        "trending": 1210,
+        "weights": [
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700"
+        ],
+        "korean": false,
+        "date_added": "2012-02-29"
+      },
+      {
+        "family": "Noto Sans",
+        "category": "Sans Serif",
+        "popularity": 20,
+        "trending": 1279,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2013-02-27"
+      },
+      {
+        "family": "DM Sans",
+        "category": "Sans Serif",
+        "popularity": 22,
+        "trending": 1343,
+        "weights": [
+          "100",
+          "1000",
+          "1000i",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2019-06-11"
+      },
+      {
+        "family": "Nunito",
+        "category": "Sans Serif",
+        "popularity": 23,
+        "trending": 1111,
+        "weights": [
+          "1000",
+          "1000i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2012-08-12"
+      },
+      {
+        "family": "Raleway",
+        "category": "Sans Serif",
+        "popularity": 24,
+        "trending": 1070,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2012-09-07"
+      },
+      {
+        "family": "Nunito Sans",
+        "category": "Sans Serif",
+        "popularity": 25,
+        "trending": 867,
+        "weights": [
+          "1000",
+          "1000i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2016-12-07"
+      },
+      {
+        "family": "Playfair Display",
+        "category": "Serif",
+        "popularity": 26,
+        "trending": 1045,
+        "weights": [
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2011-11-16"
+      },
+      {
+        "family": "Roboto Slab",
+        "category": "Serif",
+        "popularity": 28,
+        "trending": 1086,
+        "weights": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": false,
+        "date_added": "2013-04-10"
+      },
+      {
+        "family": "Rubik",
+        "category": "Sans Serif",
+        "popularity": 29,
+        "trending": 1155,
+        "weights": [
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2015-07-22"
+      },
+      {
+        "family": "Kanit",
+        "category": "Sans Serif",
+        "popularity": 31,
+        "trending": 950,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2015-12-07"
+      },
+      {
+        "family": "Ubuntu",
+        "category": "Sans Serif",
+        "popularity": 32,
+        "trending": 1190,
+        "weights": [
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "700",
+          "700i"
+        ],
+        "korean": false,
+        "date_added": "2010-12-15"
+      },
+      {
+        "family": "Outfit",
+        "category": "Sans Serif",
+        "popularity": 33,
+        "trending": 1079,
+        "weights": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": false,
+        "date_added": "2021-09-27"
+      },
+      {
+        "family": "Manrope",
+        "category": "Sans Serif",
+        "popularity": 34,
+        "trending": 914,
+        "weights": [
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800"
+        ],
+        "korean": false,
+        "date_added": "2019-10-02"
+      },
+      {
+        "family": "Archivo Black",
+        "category": "Sans Serif",
+        "popularity": 35,
+        "trending": 2082,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2012-09-18"
+      },
+      {
+        "family": "Merriweather",
+        "category": "Serif",
+        "popularity": 36,
+        "trending": 797,
+        "weights": [
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2011-05-11"
+      },
+      {
+        "family": "Noto Sans KR",
+        "category": "Sans Serif",
+        "popularity": 37,
+        "trending": 1949,
+        "weights": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": true,
+        "date_added": "2018-02-05"
+      },
+      {
+        "family": "Work Sans",
+        "category": "Sans Serif",
+        "popularity": 38,
+        "trending": 1137,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2015-07-08"
+      },
+      {
+        "family": "Lora",
+        "category": "Serif",
+        "popularity": 39,
+        "trending": 1173,
+        "weights": [
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i"
+        ],
+        "korean": false,
+        "date_added": "2011-07-06"
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "category": "Sans Serif",
+        "popularity": 40,
+        "trending": 690,
+        "weights": [
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i"
+        ],
+        "korean": false,
+        "date_added": "2022-03-23"
+      }
+    ],
+    "top_trending": [
+      {
+        "family": "Valley Sans",
+        "category": "Sans Serif",
+        "popularity": 1255,
+        "trending": 1,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2026-08-25"
+      },
+      {
+        "family": "Caacupe One",
+        "category": "Display",
+        "popularity": 1310,
+        "trending": 2,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2026-08-25"
+      },
+      {
+        "family": "Asap Sharp",
+        "category": "Sans Serif",
+        "popularity": 1341,
+        "trending": 3,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2026-08-25"
+      },
+      {
+        "family": "Scoutie Sans",
+        "category": "Sans Serif",
+        "popularity": 1333,
+        "trending": 4,
+        "weights": [
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i"
+        ],
+        "korean": false,
+        "date_added": "2026-08-25"
+      },
+      {
+        "family": "M PLUS U",
+        "category": "Sans Serif",
+        "popularity": 418,
+        "trending": 5,
+        "weights": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": false,
+        "date_added": "2026-05-12"
+      },
+      {
+        "family": "Noto Sans Sundanese",
+        "category": "Sans Serif",
+        "popularity": 1286,
+        "trending": 6,
+        "weights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ],
+        "korean": false,
+        "date_added": "2020-11-19"
+      },
+      {
+        "family": "Noto Sans Deseret",
+        "category": "Sans Serif",
+        "popularity": 1537,
+        "trending": 7,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2020-11-19"
+      },
+      {
+        "family": "Slabo 13px",
+        "category": "Serif",
+        "popularity": 837,
+        "trending": 8,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2014-05-30"
+      },
+      {
+        "family": "Doppio One",
+        "category": "Sans Serif",
+        "popularity": 970,
+        "trending": 9,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2012-02-22"
+      },
+      {
+        "family": "Comic Relief",
+        "category": "Display",
+        "popularity": 393,
+        "trending": 11,
+        "weights": [
+          "400",
+          "700"
+        ],
+        "korean": false,
+        "date_added": "2025-04-17"
+      },
+      {
+        "family": "Noto Sans Saurashtra",
+        "category": "Sans Serif",
+        "popularity": 1723,
+        "trending": 12,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2020-11-19"
+      },
+      {
+        "family": "Noto Sans Vai",
+        "category": "Sans Serif",
+        "popularity": 1709,
+        "trending": 13,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2020-11-19"
+      },
+      {
+        "family": "Alien Block",
+        "category": "Display",
+        "popularity": 1770,
+        "trending": 14,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2026-06-05"
+      },
+      {
+        "family": "Betania Patmos",
+        "category": "Handwriting",
+        "popularity": 1576,
+        "trending": 15,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2026-02-12"
+      },
+      {
+        "family": "Noto Sans Pau Cin Hau",
+        "category": "Sans Serif",
+        "popularity": 1784,
+        "trending": 17,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2020-11-19"
+      },
+      {
+        "family": "Climate Crisis",
+        "category": "Display",
+        "popularity": 971,
+        "trending": 18,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2022-09-30"
+      },
+      {
+        "family": "Noto Sans Mende Kikakui",
+        "category": "Sans Serif",
+        "popularity": 1503,
+        "trending": 19,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2020-11-19"
+      },
+      {
+        "family": "Noto Sans Math",
+        "category": "Sans Serif",
+        "popularity": 846,
+        "trending": 21,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2020-11-19"
+      },
+      {
+        "family": "Noto Serif Khojki",
+        "category": "Serif",
+        "popularity": 726,
+        "trending": 22,
+        "weights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ],
+        "korean": false,
+        "date_added": "2022-08-29"
+      },
+      {
+        "family": "Cutive Mono",
+        "category": "Monospace",
+        "popularity": 329,
+        "trending": 23,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2012-10-26"
+      }
+    ],
+    "korean_fonts": [
+      {
+        "family": "Noto Sans KR",
+        "category": "Sans Serif",
+        "popularity": 37,
+        "trending": 1949,
+        "weights": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": true,
+        "date_added": "2018-02-05"
+      },
+      {
+        "family": "Nanum Gothic",
+        "category": "Sans Serif",
+        "popularity": 103,
+        "trending": 1879,
+        "weights": [
+          "400",
+          "700",
+          "800"
+        ],
+        "korean": true,
+        "date_added": "2018-02-05"
+      },
+      {
+        "family": "Nanum Myeongjo",
+        "category": "Serif",
+        "popularity": 198,
+        "trending": 1853,
+        "weights": [
+          "400",
+          "700",
+          "800"
+        ],
+        "korean": true,
+        "date_added": "2018-02-05"
+      },
+      {
+        "family": "Noto Serif KR",
+        "category": "Serif",
+        "popularity": 201,
+        "trending": 2199,
+        "weights": [
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": true,
+        "date_added": "2018-08-22"
+      },
+      {
+        "family": "Gothic A1",
+        "category": "Sans Serif",
+        "popularity": 254,
+        "trending": 1362,
+        "weights": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": true,
+        "date_added": "2018-02-24"
+      },
+      {
+        "family": "Nanum Gothic Coding",
+        "category": "Handwriting",
+        "popularity": 311,
+        "trending": 730,
+        "weights": [
+          "400",
+          "700"
+        ],
+        "korean": true,
+        "date_added": "2018-02-05"
+      },
+      {
+        "family": "Nanum Pen Script",
+        "category": "Handwriting",
+        "popularity": 394,
+        "trending": 716,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-05"
+      },
+      {
+        "family": "Black Han Sans",
+        "category": "Sans Serif",
+        "popularity": 408,
+        "trending": 2317,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-23"
+      },
+      {
+        "family": "Dongle",
+        "category": "Sans Serif",
+        "popularity": 467,
+        "trending": 2129,
+        "weights": [
+          "300",
+          "400",
+          "700"
+        ],
+        "korean": true,
+        "date_added": "2021-06-14"
+      },
+      {
+        "family": "Jua",
+        "category": "Sans Serif",
+        "popularity": 474,
+        "trending": 1257,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-24"
+      },
+      {
+        "family": "Do Hyeon",
+        "category": "Sans Serif",
+        "popularity": 619,
+        "trending": 729,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-24"
+      },
+      {
+        "family": "Gowun Batang",
+        "category": "Serif",
+        "popularity": 634,
+        "trending": 929,
+        "weights": [
+          "400",
+          "700"
+        ],
+        "korean": true,
+        "date_added": "2021-06-10"
+      },
+      {
+        "family": "Nanum Brush Script",
+        "category": "Handwriting",
+        "popularity": 664,
+        "trending": 420,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-05"
+      },
+      {
+        "family": "IBM Plex Sans KR",
+        "category": "Sans Serif",
+        "popularity": 692,
+        "trending": 437,
+        "weights": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700"
+        ],
+        "korean": true,
+        "date_added": "2021-06-18"
+      },
+      {
+        "family": "Hahmlet",
+        "category": "Serif",
+        "popularity": 806,
+        "trending": 601,
+        "weights": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": true,
+        "date_added": "2021-05-13"
+      },
+      {
+        "family": "Gowun Dodum",
+        "category": "Sans Serif",
+        "popularity": 820,
+        "trending": 1544,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2021-06-10"
+      },
+      {
+        "family": "Gaegu",
+        "category": "Handwriting",
+        "popularity": 924,
+        "trending": 1285,
+        "weights": [
+          "300",
+          "400",
+          "700"
+        ],
+        "korean": true,
+        "date_added": "2018-02-28"
+      },
+      {
+        "family": "Sunflower",
+        "category": "Sans Serif",
+        "popularity": 992,
+        "trending": 2305,
+        "weights": [
+          "300",
+          "500",
+          "700"
+        ],
+        "korean": true,
+        "date_added": "2018-02-27"
+      },
+      {
+        "family": "Song Myung",
+        "category": "Serif",
+        "popularity": 1039,
+        "trending": 2089,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-23"
+      },
+      {
+        "family": "Gasoek One",
+        "category": "Sans Serif",
+        "popularity": 1046,
+        "trending": 128,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2023-05-17"
+      },
+      {
+        "family": "Bagel Fat One",
+        "category": "Display",
+        "popularity": 1063,
+        "trending": 2316,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2023-06-05"
+      },
+      {
+        "family": "Gamja Flower",
+        "category": "Handwriting",
+        "popularity": 1080,
+        "trending": 2321,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-23"
+      },
+      {
+        "family": "Asta Sans",
+        "category": "Sans Serif",
+        "popularity": 1106,
+        "trending": 1410,
+        "weights": [
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800"
+        ],
+        "korean": true,
+        "date_added": "2025-05-28"
+      },
+      {
+        "family": "Gugi",
+        "category": "Display",
+        "popularity": 1193,
+        "trending": 1446,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-23"
+      },
+      {
+        "family": "Hi Melody",
+        "category": "Handwriting",
+        "popularity": 1197,
+        "trending": 1275,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-23"
+      },
+      {
+        "family": "Dokdo",
+        "category": "Display",
+        "popularity": 1220,
+        "trending": 1514,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-23"
+      },
+      {
+        "family": "East Sea Dokdo",
+        "category": "Handwriting",
+        "popularity": 1250,
+        "trending": 924,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-03-12"
+      },
+      {
+        "family": "Yeon Sung",
+        "category": "Display",
+        "popularity": 1318,
+        "trending": 1087,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-23"
+      },
+      {
+        "family": "Stylish",
+        "category": "Sans Serif",
+        "popularity": 1337,
+        "trending": 2020,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-27"
+      },
+      {
+        "family": "Single Day",
+        "category": "Display",
+        "popularity": 1359,
+        "trending": 1894,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-22"
+      },
+      {
+        "family": "Cute Font",
+        "category": "Display",
+        "popularity": 1371,
+        "trending": 1018,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-23"
+      },
+      {
+        "family": "Poor Story",
+        "category": "Display",
+        "popularity": 1413,
+        "trending": 2159,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-23"
+      },
+      {
+        "family": "Orbit",
+        "category": "Sans Serif",
+        "popularity": 1501,
+        "trending": 2356,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2023-06-05"
+      },
+      {
+        "family": "Kirang Haerang",
+        "category": "Display",
+        "popularity": 1589,
+        "trending": 1628,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-24"
+      },
+      {
+        "family": "Diphylleia",
+        "category": "Serif",
+        "popularity": 1612,
+        "trending": 2385,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2023-06-05"
+      },
+      {
+        "family": "Black And White Picture",
+        "category": "Display",
+        "popularity": 1687,
+        "trending": 2119,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-27"
+      },
+      {
+        "family": "Grandiflora One",
+        "category": "Serif",
+        "popularity": 1846,
+        "trending": 285,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2023-05-17"
+      },
+      {
+        "family": "Moirai One",
+        "category": "Display",
+        "popularity": 1849,
+        "trending": 1003,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2023-06-05"
+      }
+    ]
+  },
+  "colors": {
+    "status": "ok",
+    "source": "github.com/yeun/open-color (MIT)",
+    "note": "웹 UI 용으로 명도 단계를 맞춘 오픈 팔레트. 유행 팔레트가 아니다. 유행은 coolors 가 브라우저에서만 그려서 자동 수집이 불가하다.",
+    "hues": 13,
+    "steps": 10,
+    "palette": {
+      "gray": [
+        "#f8f9fa",
+        "#f1f3f5",
+        "#e9ecef",
+        "#dee2e6",
+        "#ced4da",
+        "#adb5bd",
+        "#868e96",
+        "#495057",
+        "#343a40",
+        "#212529"
+      ],
+      "red": [
+        "#fff5f5",
+        "#ffe3e3",
+        "#ffc9c9",
+        "#ffa8a8",
+        "#ff8787",
+        "#ff6b6b",
+        "#fa5252",
+        "#f03e3e",
+        "#e03131",
+        "#c92a2a"
+      ],
+      "pink": [
+        "#fff0f6",
+        "#ffdeeb",
+        "#fcc2d7",
+        "#faa2c1",
+        "#f783ac",
+        "#f06595",
+        "#e64980",
+        "#d6336c",
+        "#c2255c",
+        "#a61e4d"
+      ],
+      "grape": [
+        "#f8f0fc",
+        "#f3d9fa",
+        "#eebefa",
+        "#e599f7",
+        "#da77f2",
+        "#cc5de8",
+        "#be4bdb",
+        "#ae3ec9",
+        "#9c36b5",
+        "#862e9c"
+      ],
+      "violet": [
+        "#f3f0ff",
+        "#e5dbff",
+        "#d0bfff",
+        "#b197fc",
+        "#9775fa",
+        "#845ef7",
+        "#7950f2",
+        "#7048e8",
+        "#6741d9",
+        "#5f3dc4"
+      ],
+      "indigo": [
+        "#edf2ff",
+        "#dbe4ff",
+        "#bac8ff",
+        "#91a7ff",
+        "#748ffc",
+        "#5c7cfa",
+        "#4c6ef5",
+        "#4263eb",
+        "#3b5bdb",
+        "#364fc7"
+      ],
+      "blue": [
+        "#e7f5ff",
+        "#d0ebff",
+        "#a5d8ff",
+        "#74c0fc",
+        "#4dabf7",
+        "#339af0",
+        "#228be6",
+        "#1c7ed6",
+        "#1971c2",
+        "#1864ab"
+      ],
+      "cyan": [
+        "#e3fafc",
+        "#c5f6fa",
+        "#99e9f2",
+        "#66d9e8",
+        "#3bc9db",
+        "#22b8cf",
+        "#15aabf",
+        "#1098ad",
+        "#0c8599",
+        "#0b7285"
+      ],
+      "teal": [
+        "#e6fcf5",
+        "#c3fae8",
+        "#96f2d7",
+        "#63e6be",
+        "#38d9a9",
+        "#20c997",
+        "#12b886",
+        "#0ca678",
+        "#099268",
+        "#087f5b"
+      ],
+      "green": [
+        "#ebfbee",
+        "#d3f9d8",
+        "#b2f2bb",
+        "#8ce99a",
+        "#69db7c",
+        "#51cf66",
+        "#40c057",
+        "#37b24d",
+        "#2f9e44",
+        "#2b8a3e"
+      ],
+      "lime": [
+        "#f4fce3",
+        "#e9fac8",
+        "#d8f5a2",
+        "#c0eb75",
+        "#a9e34b",
+        "#94d82d",
+        "#82c91e",
+        "#74b816",
+        "#66a80f",
+        "#5c940d"
+      ],
+      "yellow": [
+        "#fff9db",
+        "#fff3bf",
+        "#ffec99",
+        "#ffe066",
+        "#ffd43b",
+        "#fcc419",
+        "#fab005",
+        "#f59f00",
+        "#f08c00",
+        "#e67700"
+      ],
+      "orange": [
+        "#fff4e6",
+        "#ffe8cc",
+        "#ffd8a8",
+        "#ffc078",
+        "#ffa94d",
+        "#ff922b",
+        "#fd7e14",
+        "#f76707",
+        "#e8590c",
+        "#d9480f"
+      ]
+    }
+  },
+  "articles": {
+    "status": "ok",
+    "feeds": 2,
+    "failed": [],
+    "count": 60,
+    "items": [
+      {
+        "title": "The Many Faces Of September (2026 Wallpapers Edition)",
+        "url": "https://smashingmagazine.com/2026/08/desktop-wallpaper-calendars-september-2026/",
+        "published": "Mon, 31 Aug 2026 11:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
+        "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
+        "published": "Wed, 26 Aug 2026 13:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Why Your Website Should Never Stop Changing",
+        "url": "https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/",
+        "published": "Tue, 25 Aug 2026 08:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Timing Charts: A Blueprint For SMIL Animations",
+        "url": "https://smashingmagazine.com/2026/08/timing-charts-blueprint-smil-animations/",
+        "published": "Thu, 20 Aug 2026 13:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "New EU Guidelines For AI Labelling",
+        "url": "https://smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/",
+        "published": "Thu, 13 Aug 2026 10:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
+        "url": "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
+        "published": "Tue, 11 Aug 2026 10:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "How Baseline Can Help You Ship Less JavaScript",
+        "url": "https://smashingmagazine.com/2026/08/how-baseline-can-help-ship-less-javascript/",
+        "published": "Fri, 07 Aug 2026 13:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Small Joys And Big Adventures (August 2026 Wallpapers Edition)",
+        "url": "https://smashingmagazine.com/2026/07/desktop-wallpaper-calendars-august-2026/",
+        "published": "Fri, 31 Jul 2026 08:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "The Bull And Bear Case For Digital Design In The Age Of AI",
+        "url": "https://smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/",
+        "published": "Wed, 29 Jul 2026 13:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Thinking Outside The Box: Digital Design In The AI Era",
+        "url": "https://smashingmagazine.com/2026/07/digital-design-ai-era/",
+        "published": "Tue, 28 Jul 2026 10:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Weaponizing And Defending The React Flight Protocol: Deserialization Sinks In RSCs",
+        "url": "https://smashingmagazine.com/2026/07/weaponizing-defending-react-flight-protocol/",
+        "published": "Tue, 21 Jul 2026 10:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "When It Makes Sense To “Block” The Main Thread",
+        "url": "https://smashingmagazine.com/2026/07/when-makes-sense-block-main-thread/",
+        "published": "Fri, 17 Jul 2026 08:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "No, People Don’t Want More AI In Their Life",
+        "url": "https://smashingmagazine.com/2026/07/people-dont-want-more-ai/",
+        "published": "Wed, 15 Jul 2026 10:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "From Kickoff To First Concept: How To Turn Brand Strategy Into Visual Direction",
+        "url": "https://smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/",
+        "published": "Fri, 10 Jul 2026 13:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Designing For Distressed Users: Why Mental Health Apps Shouldn’t Follow Every UI Fashion",
+        "url": "https://smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/",
+        "published": "Thu, 09 Jul 2026 15:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Meet Kirki: WordPress’s First Visual Builder With An Infinite Canvas",
+        "url": "https://smashingmagazine.com/2026/07/kirki-wordpress-visual-builder-infinite-canvas/",
+        "published": "Tue, 07 Jul 2026 10:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Users Don’t Need More Tools: They Need Seamless Integrations",
+        "url": "https://smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/",
+        "published": "Fri, 03 Jul 2026 13:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Matching AI Modality To User Intent: Designing The Right Interface",
+        "url": "https://smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/",
+        "published": "Thu, 02 Jul 2026 10:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Why Accessibility Is An Operational Capability, Not A Feature",
+        "url": "https://smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/",
+        "published": "Tue, 30 Jun 2026 12:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Snapshots Of Summer (July 2026 Wallpapers Edition)",
+        "url": "https://smashingmagazine.com/2026/06/desktop-wallpaper-calendars-july-2026/",
+        "published": "Tue, 30 Jun 2026 11:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Designing With Uncertainty: How AI Supercharges Probabilistic Thinking",
+        "url": "https://smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/",
+        "published": "Tue, 16 Jun 2026 15:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "The Impact Of Humanoid Robots On Humanity",
+        "url": "https://smashingmagazine.com/2026/06/impact-humanoid-robots-humanity/",
+        "published": "Fri, 12 Jun 2026 08:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "The Benefits Of Cognitive Inclusion In UX Research",
+        "url": "https://smashingmagazine.com/2026/06/benefits-cognitive-inclusion-ux-research/",
+        "published": "Wed, 10 Jun 2026 10:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "How To Make Your Design System AI-Ready",
+        "url": "https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/",
+        "published": "Wed, 03 Jun 2026 13:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "June Is For Exploring (2026 Wallpapers Edition)",
+        "url": "https://smashingmagazine.com/2026/05/desktop-wallpaper-calendars-june-2026/",
+        "published": "Sun, 31 May 2026 08:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Algorithmic Theming Engines: Building Self-Correcting Color Systems With `contrast-color()`",
+        "url": "https://smashingmagazine.com/2026/05/building-self-correcting-color-systems-contrast-color/",
+        "published": "Thu, 28 May 2026 13:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Your Prototype Is Not Being Honest With Your Users (And Here’s How To Fix It)",
+        "url": "https://smashingmagazine.com/2026/05/prototype-users-fix-protopie/",
+        "published": "Mon, 25 May 2026 12:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Four Levels Of Customer Understanding",
+        "url": "https://smashingmagazine.com/2026/05/four-levels-customer-understanding/",
+        "published": "Fri, 22 May 2026 13:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Advanced Tree Counting: Mathematical Layouts With `sibling-index()` And `sibling-count()`",
+        "url": "https://smashingmagazine.com/2026/05/mathematical-layouts-sibling-index-sibling-count/",
+        "published": "Thu, 21 May 2026 08:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Ten Data-Backed Truths Of User Experience ROI",
+        "url": "https://smashingmagazine.com/2026/05/data-backed-truths-user-experience-roi/",
+        "published": "Fri, 15 May 2026 10:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Practical Interface Patterns For AI Transparency (Part 2)",
+        "url": "https://smashingmagazine.com/2026/05/practical-interface-patterns-ai-transparency/",
+        "published": "Wed, 13 May 2026 13:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "The Architecture Of Local-First Web Development",
+        "url": "https://smashingmagazine.com/2026/05/architecture-local-first-web-development/",
+        "published": "Wed, 06 May 2026 10:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Rethinking The Experience Of System Tools",
+        "url": "https://smashingmagazine.com/2026/05/rethinking-experience-system-tools/",
+        "published": "Tue, 05 May 2026 08:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Designing Stable Interfaces For Streaming Content",
+        "url": "https://smashingmagazine.com/2026/05/designing-stable-interfaces-streaming-content/",
+        "published": "Fri, 01 May 2026 08:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "A Fresh View In May (2026 Wallpapers Edition)",
+        "url": "https://smashingmagazine.com/2026/04/desktop-wallpaper-calendars-may-2026/",
+        "published": "Thu, 30 Apr 2026 11:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "The “Bug-Free” Workforce: How AI Efficiency Is Subtly Disrupting The Interactions That Build Strong Teams",
+        "url": "https://smashingmagazine.com/2026/04/bug-free-workforce-ai-disrupting-teams/",
+        "published": "Mon, 27 Apr 2026 10:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "The UX Designer’s Nightmare: When “Production-Ready” Becomes A Design Deliverable",
+        "url": "https://smashingmagazine.com/2026/04/production-ready-becomes-design-deliverable-ux/",
+        "published": "Wed, 22 Apr 2026 10:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Session Timeouts: The Overlooked Accessibility Barrier In Authentication Design",
+        "url": "https://smashingmagazine.com/2026/04/session-timeouts-accessibility-barrier-authentication-design/",
+        "published": "Mon, 20 Apr 2026 13:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "How To Improve UX In Legacy Systems",
+        "url": "https://smashingmagazine.com/2026/04/legacy-systems/",
+        "published": "Fri, 10 Apr 2026 13:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Identifying Necessary Transparency Moments In Agentic AI (Part 1)",
+        "url": "https://smashingmagazine.com/2026/04/identifying-necessary-transparency-moments-agentic-ai-part1/",
+        "published": "Tue, 07 Apr 2026 10:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
+        "title": "Designed for a Dead Language",
+        "url": "https://alistapart.com/article/designed-for-a-dead-language/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "Good designers, bad websites: a proposal",
+        "url": "https://alistapart.com/article/good-designers-bad-websites-a-proposal/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "Design for Amiability: Lessons from Vienna",
+        "url": "https://alistapart.com/article/design-for-amiability-lessons-from-vienna/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "Design Dialects: Breaking the Rules, Not the System",
+        "url": "https://alistapart.com/article/design-dialects-breaking-the-rules-not-the-system/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "An Holistic Framework for Shared Design Leadership",
+        "url": "https://alistapart.com/article/an-holistic-framework-for-shared-design-leadership/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "From Beta to Bedrock: Build Products that Stick.",
+        "url": "https://alistapart.com/article/from-beta-to-bedrock-build-products-that-stick/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "User Research Is Storytelling",
+        "url": "https://alistapart.com/article/user-research-is-storytelling/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "To Ignite a Personalization Practice, Run this Prepersonalization Workshop",
+        "url": "https://alistapart.com/article/prepersonalization-workshop/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "The Wax and the Wane of the Web",
+        "url": "https://alistapart.com/article/the-wax-and-the-wane-of-the-web/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "Opportunities for AI in Accessibility",
+        "url": "https://alistapart.com/article/opportunities-for-ai-in-accessibility/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "I am a creative.",
+        "url": "https://alistapart.com/article/i-am-a-creative/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "Humility: An Essential Value",
+        "url": "https://alistapart.com/article/humility-an-essential-value/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "Personalization Pyramid: A Framework for Designing with User Data",
+        "url": "https://alistapart.com/article/personalization-pyramid/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "Mobile-First CSS: Is It Time for a Rethink?",
+        "url": "https://alistapart.com/article/mobile-first-css-is-it-time-for-a-rethink/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "Designers, (Re)define Success First",
+        "url": "https://alistapart.com/article/redefine-success-first/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "Breaking Out of the Box",
+        "url": "https://alistapart.com/article/breaking-out-of-the-box/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "How to Sell UX Research with Two Simple Questions",
+        "url": "https://alistapart.com/article/how-to-sell-ux-research/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "A Content Model Is Not a Design System",
+        "url": "https://alistapart.com/article/a-content-model-is-not-a-design-system/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "Design for Safety, An Excerpt",
+        "url": "https://alistapart.com/article/design-for-safety-excerpt/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      },
+      {
+        "title": "Sustainable Web Design, An Excerpt",
+        "url": "https://alistapart.com/article/sustainable-web-design-excerpt/",
+        "published": "",
+        "feed": "A List Apart",
+        "topic": "웹표준·콘텐츠"
+      }
+    ]
+  }
+}

@@ -60,6 +60,13 @@ jobs:
         continue-on-error: true
         run: python scripts/collect_institutions.py
 
+      # 디자인 레퍼런스. 서버가 데이터를 그대로 주는 곳만 쓴다.
+      # coolors·imweb·refero 를 왜 뺐는지는 산출물 rejected 에 적혀 있다.
+      - name: 디자인 소스 수집 (폰트·팔레트·기사)
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python -u scripts/collect_design_sources.py
+
       - name: Build design team board (checklist + references)
         continue-on-error: true
         run: python scripts/build_design_team.py

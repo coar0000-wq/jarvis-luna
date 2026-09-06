@@ -440,9 +440,21 @@ def team_cards(graph: dict) -> list[dict]:
         waiting = c.get("waiting", 0)
         first = next((s.get("label") for s in (c.get("steps") or [])
                       if s.get("status") != "완료"), "")
+        # 새로 붙인 디자인 소스(폰트·팔레트·기사)도 함께 보여준다.
+        ds = load_json(D / "design_sources.json", None) or {}
+        bits = []
+        if (ds.get("fonts") or {}).get("total"):
+            bits.append(f'폰트 {ds["fonts"]["total"]}개'
+                        f'(한글 {ds["fonts"].get("korean_total", 0)})')
+        if (ds.get("colors") or {}).get("hues"):
+            bits.append(f'팔레트 {ds["colors"]["hues"]}색조')
+        if (ds.get("articles") or {}).get("count"):
+            bits.append(f'디자인 기사 {ds["articles"]["count"]}건')
+        src_txt = (" · " + " · ".join(bits)) if bits else ""
         cards.append(_team(
-            "design", "디자인팀", dt.get("generated_at"),
-            f'스토어 {c.get("done", 0)}/{c.get("total", 0)}단계 · 레퍼런스 {refs}건' + feed_tail("design"),
+            "design", "디자인팀", ds.get("generated_at") or dt.get("generated_at"),
+            f'스토어 {c.get("done", 0)}/{c.get("total", 0)}단계 · 레퍼런스 {refs}건'
+            + src_txt + feed_tail("design"),
             f'다음 단계: {first}' if waiting and first else None))
     else:
         cards.append(_team("design", "디자인팀", None,
