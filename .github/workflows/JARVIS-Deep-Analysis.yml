@@ -77,6 +77,13 @@ jobs:
       # 최종 생성·커밋)가 전부 skipped 되었다. 대시보드가 갱신되지 않던
       # 이유 중 하나다. 느린 수집은 따로 돌린다.
 
+      # 사람이 찾아낸 영상. data/manual/youtube_links.txt 에 URL 을 넣으면
+      # 받아온다. robots.txt 가 /watch 는 막지 않아 개별 영상은 가능하다.
+      - name: 지정 YouTube 영상 수집 (사람이 넣은 링크)
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python -u scripts/ingest_youtube_links.py
+
       - name: Build per-team feeds (route pools + FDA for legal)
         continue-on-error: true
         run: python -u scripts/build_team_feeds.py

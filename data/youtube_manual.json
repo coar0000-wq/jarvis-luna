@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-09-06T04:16:00.824645+00:00",
+  "generator": "scripts/ingest_youtube_links.py",
+  "입력": "data/manual/youtube_links.txt",
+  "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
+  "total": 2,
+  "ok": 2,
+  "failed": 0,
+  "fetched_this_run": 2,
+  "bad_lines": [],
+  "by_team": {
+    "listing": 2
+  },
+  "videos": [
+    {
+      "video_id": "gugo50_VbjE",
+      "url": "https://www.youtube.com/watch?v=gugo50_VbjE",
+      "note": "Claude 로 쇼피파이 리브랜딩",
+      "title": "How to Use Claude to Safely Rebrand Your Shopify Store",
+      "channel": "Learn With Shopify",
+      "views": 4850,
+      "length_sec": 563,
+      "published": "",
+      "description": "How to rebrand a Shopify store with Claude. #shopifytutorial  ► Shopify Free Trial Link https://utm.io/usEDB ► The OFFICIAL Shopify Tutorial For Beginners 2026 https://utm.io/usFe7 ► Want the founder stories behind brands like these? Listen to @shopifymasters  –––––––––––––––––––––––––––––––––––––––––––– A rebrand is one of the riskiest edits you can make to a Shopify store. Touch the wrong page and years of Google rankings, plus the customers who already trust you, can vanish in an afternoon. In this complete tutorial we show you how to rebrand a Shopify store with Claude the safe way, from t",
+      "error": "",
+      "teams": [
+        "listing"
+      ],
+      "collected_at": "2026-09-06T04:15:54.127617+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "jUxSAGCaJIU",
+      "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+      "note": "쇼피파이 2026 신기능",
+      "title": "Shopify Just Changed How You Sell (Spring 2026 Editions Explained)",
+      "channel": "Learn With Shopify",
+      "views": 20415,
+      "length_sec": 602,
+      "published": "",
+      "description": "2026 New Shopify Features That'll Save You Time & Make You More Money #shopifytutorial  ► Shopify Free Trial Link https://utm.io/urhOk ► Shopify Spring 2026 Editions https://utm.io/urhOn ► The OFFICIAL Shopify Tutorial For Beginners 2026 https://utm.io/urhOI ► Selling everything, everywhere, all at once: The Spring '26 Edition https://utm.io/urhZP –––––––––––––––––––––––––––––––––––––––––––– *Shopify's Spring 2026 Editions: The Top 5 Features You Need to Know*  Shopify dropped its Spring 2026 Editions, and this release moves your store deeper into AI-powered, agentic commerce. In this video, w",
+      "error": "",
+      "teams": [
+        "listing"
+      ],
+      "collected_at": "2026-09-06T04:15:57.821507+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    }
+  ]
+}
