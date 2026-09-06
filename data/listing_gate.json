@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:34:39.227616+00:00",
+  "generated_at": "2026-09-06T13:27:09.477131+00:00",
   "generator": "scripts/build_listing_gate.py",
   "규칙": "listing_ready = copy_ok AND gosi_ok AND price_ok AND legal_ok",
   "근거": {
@@ -9,19 +9,15 @@
     "legal_ok": "자동 점검이 전부 통과하고 사람이 fail 로 적지 않음. SPF·금지표현·점검 미통과가 있으면 그때 사람이 본다."
   },
   "target": "S등급",
-  "total": 6,
+  "total": 5,
   "ready": 5,
   "counts": {
     "copy": 5,
     "gosi": 5,
-    "price": 6,
+    "price": 5,
     "legal": 5
   },
-  "blockers": {
-    "copy": 1,
-    "gosi": 1,
-    "legal": 1
-  },
+  "blockers": {},
   "unreadable": [],
   "items": [
     {
@@ -84,31 +80,13 @@
       "pd_no": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "grade": "S",
-      "shopify_score": 87,
+      "shopify_score": 89,
       "copy_ok": true,
       "gosi_ok": true,
       "price_ok": true,
       "legal_ok": true,
       "listing_ready": true,
       "blocked_by": [],
-      "price_note": "",
-      "legal_note": ""
-    },
-    {
-      "pd_no": "1045421",
-      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
-      "grade": "S",
-      "shopify_score": 83,
-      "copy_ok": false,
-      "gosi_ok": false,
-      "price_ok": true,
-      "legal_ok": false,
-      "listing_ready": false,
-      "blocked_by": [
-        "copy",
-        "gosi",
-        "legal"
-      ],
       "price_note": "",
       "legal_note": ""
     }

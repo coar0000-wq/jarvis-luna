@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:34:38.986617+00:00",
+  "generated_at": "2026-09-06T13:27:09.245233+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "earthquake now",
-          "approx_traffic": "20000+",
-          "traffic_num": 20000,
-          "published": "Sun, 6 Sep 2026 00:10:00 -0700",
-          "source_name": "The Press Democrat",
-          "url": "https://trends.google.com/trending?geo=US&q=earthquake%20now"
-        },
-        {
-          "keyword": "earthquake",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Sun, 6 Sep 2026 00:10:00 -0700",
-          "source_name": "Daily Breeze",
-          "url": "https://trends.google.com/trending?geo=US&q=earthquake"
-        },
-        {
-          "keyword": "sacramento state football",
+          "keyword": "apple tv",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Sun, 6 Sep 2026 01:40:00 -0700",
-          "source_name": "KCRA",
-          "url": "https://trends.google.com/trending?geo=US&q=sacramento%20state%20football"
+          "published": "Sun, 6 Sep 2026 05:50:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=apple%20tv"
         },
         {
-          "keyword": "lakers",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 02:20:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=lakers"
+          "keyword": "badgers football",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sun, 6 Sep 2026 06:10:00 -0700",
+          "source_name": "WBAY",
+          "url": "https://trends.google.com/trending?geo=US&q=badgers%20football"
         },
         {
-          "keyword": "wardogs beta",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 01:20:00 -0700",
-          "source_name": "IGN",
-          "url": "https://trends.google.com/trending?geo=US&q=wardogs%20beta"
+          "keyword": "epl",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sun, 6 Sep 2026 06:00:00 -0700",
+          "source_name": "The Guardian",
+          "url": "https://trends.google.com/trending?geo=US&q=epl"
         },
         {
-          "keyword": "recent earthquakes",
+          "keyword": "man utd",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sun, 6 Sep 2026 06:00:00 -0700",
+          "source_name": "Sports Illustrated",
+          "url": "https://trends.google.com/trending?geo=US&q=man%20utd"
+        },
+        {
+          "keyword": "robert de niro",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sun, 6 Sep 2026 06:00:00 -0700",
+          "source_name": "Far Out Magazine",
+          "url": "https://trends.google.com/trending?geo=US&q=robert%20de%20niro"
+        },
+        {
+          "keyword": "united nations africa map",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 6 Sep 2026 00:50:00 -0700",
-          "source_name": "Morristown Green",
-          "url": "https://trends.google.com/trending?geo=US&q=recent%20earthquakes"
-        },
-        {
-          "keyword": "cryptocurrency trading",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sun, 6 Sep 2026 02:10:00 -0700",
-          "source_name": "Yahoo Finance",
-          "url": "https://trends.google.com/trending?geo=US&q=cryptocurrency%20trading"
-        },
-        {
-          "keyword": "what is a heat index",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sun, 6 Sep 2026 02:10:00 -0700",
-          "source_name": "FOX 32 Chicago",
-          "url": "https://trends.google.com/trending?geo=US&q=what%20is%20a%20heat%20index"
-        },
-        {
-          "keyword": "haitians",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sun, 6 Sep 2026 01:50:00 -0700",
+          "published": "Sun, 6 Sep 2026 06:10:00 -0700",
           "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=haitians"
+          "url": "https://trends.google.com/trending?geo=US&q=united%20nations%20africa%20map"
         },
         {
-          "keyword": "today wordle hints",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sun, 6 Sep 2026 00:40:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=today%20wordle%20hints"
+          "keyword": "scorpions band 2026 tour cancellation",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sun, 6 Sep 2026 06:10:00 -0700",
+          "source_name": "PennLive.com",
+          "url": "https://trends.google.com/trending?geo=US&q=scorpions%20band%202026%20tour%20cancellation"
+        },
+        {
+          "keyword": "troyes vs strasbourg",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sun, 6 Sep 2026 06:10:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=troyes%20vs%20strasbourg"
+        },
+        {
+          "keyword": "a qué hora juega el barcelona",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sun, 6 Sep 2026 06:00:00 -0700",
+          "source_name": "El Mundo",
+          "url": "https://trends.google.com/trending?geo=US&q=a%20qu%C3%A9%20hora%20juega%20el%20barcelona"
+        },
+        {
+          "keyword": "kimi antonelli",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sun, 6 Sep 2026 06:00:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=kimi%20antonelli"
         }
       ]
     },
@@ -187,6 +187,11 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "12 Best The Ordinary Products for an Affordable Beauty Routine",
+          "published": "Sun, 06 Sep 2026 12:00:00 +0000",
+          "url": "https://www.allure.com/gallery/best-the-ordinary-products"
+        },
         {
           "title": "Say Hello to Bouncier Waves with These Texture-Enhancing Shampoos",
           "published": "Sat, 05 Sep 2026 12:00:00 +0000",
@@ -331,11 +336,6 @@
           "title": "Maisie Williams Went Full '90s Updo at the Practical Magic Premiere—See the Photos",
           "published": "Thu, 27 Aug 2026 15:26:42 +0000",
           "url": "https://www.allure.com/story/maisie-williams-practical-magic-2-updo"
-        },
-        {
-          "title": "‘The Shards’: All the ‘80s Hair Details From Episode 6",
-          "published": "Thu, 27 Aug 2026 07:09:00 +0000",
-          "url": "https://www.allure.com/story/the-shards-season-1-lead-hairstylist-interview"
         }
       ]
     },

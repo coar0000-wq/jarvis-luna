@@ -2,7 +2,7 @@
 title: "Record 427 · Artificial-Intelligence-for-RFIC-Design-Early-Advancements-Opportuniti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:28.034693+00:00
+updated_at: 2026-09-06T13:04:49.937199+00:00
 tags: [record, real-data]
 ---
 

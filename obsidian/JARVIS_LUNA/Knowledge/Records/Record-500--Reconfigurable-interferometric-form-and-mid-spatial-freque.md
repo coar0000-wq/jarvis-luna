@@ -2,7 +2,7 @@
 title: "Record 500 · Reconfigurable-interferometric-form-and-mid-spatial-frequency-metrolog"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:28.052922+00:00
+updated_at: 2026-09-06T13:04:49.954708+00:00
 tags: [record, real-data]
 ---
 

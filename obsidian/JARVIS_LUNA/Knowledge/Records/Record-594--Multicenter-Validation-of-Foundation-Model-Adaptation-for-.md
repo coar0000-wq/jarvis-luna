@@ -2,7 +2,7 @@
 title: "Record 594 · Multicenter-Validation-of-Foundation-Model-Adaptation-for-Automated-Pa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:28.077274+00:00
+updated_at: 2026-09-06T13:04:49.977557+00:00
 tags: [record, real-data]
 ---
 

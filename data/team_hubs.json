@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T11:02:12.348653+00:00",
+  "generated_at": "2026-09-06T13:04:50.657238+00:00",
   "generator": "scripts/build_team_hubs.py",
   "왜": "Records 가 볼트의 98.6% 라 그래프뷰가 허브 몇 개에 점 수만 개가 매달린 모습이었다. Record -> Topic -> 팀 으로 층을 하나 넣는다.",
   "방식": "Record 파일 3만 7천 개는 건드리지 않는다. Topic 노트에 팀 링크를 한 줄 더하는 것으로 층이 생긴다. 파일을 3만 개 고쳐 쓰면 커밋이 터진다.",
@@ -10,15 +10,15 @@
     "orgs": 35
   },
   "corpus_by_source": {
-    "us_beauty": 8,
+    "us_beauty": 99,
     "arxiv": 121,
-    "robotics": 92,
+    "robotics": 97,
     "institutions": 1093,
-    "google": 796,
-    "youtube": 224
+    "google": 802,
+    "youtube": 227
   },
   "teams": 10,
-  "topics_linked": 0,
+  "topics_linked": 21,
   "topics_without_team": [
     "미분류"
   ],
@@ -43,7 +43,7 @@
         "인프라클라우드",
         "과학수학"
       ],
-      "corpus_now": 1141,
+      "corpus_now": 1150,
       "sources": [
         "arxiv",
         "google",
@@ -73,7 +73,7 @@
         "이커머스Shopify",
         "Shopify-Commerce"
       ],
-      "corpus_now": 804,
+      "corpus_now": 901,
       "sources": [
         "google",
         "us_beauty"
@@ -86,33 +86,33 @@
         "소셜콘텐츠",
         "마케팅광고"
       ],
-      "corpus_now": 224,
+      "corpus_now": 227,
       "sources": [
         "youtube"
       ],
       "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 디자인팀.md"
     },
     {
-      "team": "로보틱스 수집",
-      "topics": [
-        "로보틱스"
-      ],
-      "corpus_now": 92,
-      "sources": [
-        "robotics"
-      ],
-      "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 로보틱스 수집.md"
-    },
-    {
       "team": "상품 소싱팀",
       "topics": [
         "뷰티스킨케어"
       ],
-      "corpus_now": 8,
+      "corpus_now": 99,
       "sources": [
         "us_beauty"
       ],
       "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 상품 소싱팀.md"
+    },
+    {
+      "team": "로보틱스 수집",
+      "topics": [
+        "로보틱스"
+      ],
+      "corpus_now": 97,
+      "sources": [
+        "robotics"
+      ],
+      "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 로보틱스 수집.md"
     },
     {
       "team": "리스팅 제작팀",

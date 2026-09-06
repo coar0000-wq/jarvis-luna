@@ -2,7 +2,7 @@
 title: "Record 795 · Three-Non-Executive-Directors-join-Barclays-UK-Board--Barclays"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:28.125570+00:00
+updated_at: 2026-09-06T13:04:50.025988+00:00
 tags: [record, real-data]
 ---
 

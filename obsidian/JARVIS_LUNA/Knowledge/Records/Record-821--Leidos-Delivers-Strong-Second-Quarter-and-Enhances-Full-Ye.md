@@ -2,7 +2,7 @@
 title: "Record 821 · Leidos-Delivers-Strong-Second-Quarter-and-Enhances-Full-Year-Guidance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:28.132736+00:00
+updated_at: 2026-09-06T13:04:50.033532+00:00
 tags: [record, real-data]
 ---
 

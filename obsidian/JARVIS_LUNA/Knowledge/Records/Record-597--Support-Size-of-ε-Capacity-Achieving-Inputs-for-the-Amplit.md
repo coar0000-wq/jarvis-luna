@@ -2,7 +2,7 @@
 title: "Record 597 · Support-Size-of-ε-Capacity-Achieving-Inputs-for-the-Amplitude-Constrai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:28.078040+00:00
+updated_at: 2026-09-06T13:04:49.978294+00:00
 tags: [record, real-data]
 ---
 

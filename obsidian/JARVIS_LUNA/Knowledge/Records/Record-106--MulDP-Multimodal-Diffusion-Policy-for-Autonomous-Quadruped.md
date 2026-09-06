@@ -2,7 +2,7 @@
 title: "Record 106 · MulDP-Multimodal-Diffusion-Policy-for-Autonomous-Quadruped-Parkour-Nav"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:27.952909+00:00
+updated_at: 2026-09-06T13:04:49.852704+00:00
 tags: [record, real-data]
 ---
 

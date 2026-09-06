@@ -2,7 +2,7 @@
 title: "Record 638 · Scheduling-of-Graph-Queries-Controlling-Intra--and-Inter-queryn-Parall"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:28.088619+00:00
+updated_at: 2026-09-06T13:04:49.988205+00:00
 tags: [record, real-data]
 ---
 

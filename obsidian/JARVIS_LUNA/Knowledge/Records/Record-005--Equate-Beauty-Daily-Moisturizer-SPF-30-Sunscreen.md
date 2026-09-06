@@ -2,7 +2,7 @@
 title: "Record 005 · Equate-Beauty-Daily-Moisturizer-SPF-30-Sunscreen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:27.928249+00:00
+updated_at: 2026-09-06T13:04:49.823530+00:00
 tags: [record, real-data]
 ---
 

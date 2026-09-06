@@ -2,7 +2,7 @@
 title: "Record 164 · Proactive-cyber-defense-for-governments-and-enterprises"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:27.966279+00:00
+updated_at: 2026-09-06T13:04:49.868768+00:00
 tags: [record, real-data]
 ---
 

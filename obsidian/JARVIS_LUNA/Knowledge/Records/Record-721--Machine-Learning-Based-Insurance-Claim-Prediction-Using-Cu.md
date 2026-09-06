@@ -2,7 +2,7 @@
 title: "Record 721 · Machine-Learning-Based-Insurance-Claim-Prediction-Using-Customer-Behav"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:28.108855+00:00
+updated_at: 2026-09-06T13:04:50.008044+00:00
 tags: [record, real-data]
 ---
 

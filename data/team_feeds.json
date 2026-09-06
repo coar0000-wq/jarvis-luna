@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-09-06T12:12:56.734739+00:00",
+  "generated_at": "2026-09-06T13:03:30.878311+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2069,
+  "pool_size": 2027,
   "제목없어_버림": 38,
   "unrouted": 12,
   "summary": {
     "sourcing": {
-      "total": 181,
+      "total": 175,
       "recent": 174
     },
     "market": {
-      "total": 498,
-      "recent": 112
+      "total": 438,
+      "recent": 49
     },
     "listing": {
-      "total": 10,
+      "total": 11,
       "recent": 6
     },
     "pricing": {
-      "total": 11,
+      "total": 10,
       "recent": 2
     },
     "legal": {
-      "total": 100,
-      "recent": 23
+      "total": 114,
+      "recent": 22
     },
     "design": {
-      "total": 363,
-      "recent": 103
+      "total": 350,
+      "recent": 93
     },
     "robotics": {
       "total": 107,
-      "recent": 73
+      "recent": 75
     },
     "knowledge": {
-      "total": 162,
+      "total": 164,
       "recent": 53
     },
     "institutions": {
-      "total": 1066,
+      "total": 1065,
       "recent": 265
     }
   },
@@ -503,7 +503,7 @@
         "by_hand": true
       },
       {
-        "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
+        "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
         "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
         "pool": "youtube_channel",
         "date": "",
@@ -580,13 +580,6 @@
         "by_hand": true
       },
       {
-        "title": "Join CJdropshipping Discord to see New, Trending & Winning products in real time.",
-        "url": "https://www.youtube.com/watch?v=nEPNmf3iu-k",
-        "pool": "youtube",
-        "date": "2026-09-05",
-        "by_hand": false
-      },
-      {
         "title": "Investigating three real-world incidents in our cybersecurity evaluations",
         "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
         "pool": "institutions",
@@ -601,43 +594,22 @@
         "by_hand": false
       },
       {
-        "title": "뷰티 디바이스 어떤거 쓸지 고민일 때 봐야하는 영상 #디바이스 #디바이스추천",
-        "url": "https://www.youtube.com/shorts/UrjBF1CRVDY",
-        "pool": "youtube",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "Why Is Nobody Talking About These?!",
-        "url": "https://www.youtube.com/shorts/wxrfHSYM9tY",
-        "pool": "youtube",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "GRWM while I talk about OUR WEDDING💍✨ Q&A!",
-        "url": "https://www.youtube.com/watch?v=QjxZk3cJx9k",
-        "pool": "youtube",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "How to Use Claude to Safely Rebrand Your Shopify Store",
-        "url": "https://www.youtube.com/watch?v=gugo50_VbjE",
-        "pool": "youtube",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "Faster shipping can make a big difference for your eCommerce business. 📦",
-        "url": "https://www.youtube.com/shorts/3gaZeiqPzxM",
-        "pool": "youtube",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
         "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
+        "pool": "google",
+        "date": "2026-09-04",
+        "by_hand": false
+      },
+      {
+        "title": "Keauti brings K-beauty to Queen City - Springfield Business Journal",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rZVhLTzJCdjNtajVENC16TEVSempfaks3T0Nmc1FJcExOdGlpSFpxSk9pb2drUHAtQ1cyc0c1amRsLUZQWmlFXzM5cW5DczVsRExKMENRbDdqOGNEVUFCaDdfNXNsRGxnOWU5d2xxcHVxYWd3Tnc?oc=5",
+        "pool": "google",
+        "date": "2026-09-04",
+        "by_hand": false
+      },
+      {
+        "title": "K-Beauty’s Expanding Influence on Global Beauty Trends - Beauty Packaging",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd0Uya3ZtVk5MdkdiNjN1aFZ1MVN2M3NaUHhhQnhMQl9SYXJzZUtaeHlFSlRZRENwWmEyX3h2d2szZ2ZJVWpNUkZBTDBuenJ0TWZCR21ONFROcjdLZlZRMkFkTWszOUJ5SUxFSUNKN2JSR1RkcDg4amI1Z0VsbVhYMTViTDFhMFQxVnZqQU5rNXFiNzVla1FXbFpsRENDZw?oc=5",
         "pool": "google",
         "date": "2026-09-04",
         "by_hand": false
@@ -650,15 +622,8 @@
         "by_hand": false
       },
       {
-        "title": "This French moisturizer is a bestselling skincare staple — and now under $30 - nypost.com",
+        "title": "This French moisturizer is a bestselling skincare staple — and now under $30 - New York Post",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS2ZvWUtYc0FlanJRNXY2SFdCUlk4ZFVMbmt1dnB3RFhZWDFHSllsYTFxOS02TWk3NWhEeUt0Z3puWGdMekpZeWhTSWI3ZFZ1NU13STB6ZHJyMWFFWmxTbldxMW13MHd5RGxMeElXQU5pNHRtaklrUy01alI5Q0tjNWxieWxDeUJSa0FacEo4YWdmNzFqbGo0?oc=5",
-        "pool": "google",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "Here’s What This Surprising Skincare Ingredient Can Actually Do For Aging Skin - huffpost.com",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQVZfNG04UUlKSmg2Z2UxcjZZZFpiejN0SkduNGxNdm9JemJMMklLSjM0M2p2bE04VGJyVFBrcWQ5cjZmaXRVOEF5YnNzajQ3SzgtdkJYMlViYUZsVEZEdm5pbmhncTd6blNubjRXdkU5emZ6YUtnYk9aZW1NYmJJMzhJaUUyU2R20gGOAUFVX3lxTE5SQ0pOeVZyNzJSM3ZHLWhtLXJRdUxuNnRDa0cxUUhGOHU1a2s3dmF1REsxU2tWV1ZTNWU1aGM1VzVkRTJQcG1WTDlEWTBzbUlJOWFKSGxFOTFITW9yS0JWOFNWQWwtQ3BfUXByTjdDVjMzbzJUNnU0MjlZUjViLUtGZTNVbUFuV3ZhYjh1M2c?oc=5",
         "pool": "google",
         "date": "2026-09-04",
         "by_hand": false
@@ -674,27 +639,6 @@
         "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
         "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
         "pool": "institutions",
-        "date": "2026-09-03",
-        "by_hand": false
-      },
-      {
-        "title": "피부 장벽, 의외로 많이 잘못 알고 있습니다｜꼭 알아야 할 6가지",
-        "url": "https://www.youtube.com/watch?v=gD0RZu93wJg",
-        "pool": "youtube",
-        "date": "2026-09-03",
-        "by_hand": false
-      },
-      {
-        "title": "Claude + Shopify = $12,000/Month",
-        "url": "https://www.youtube.com/watch?v=9zh3Raq4FVc",
-        "pool": "youtube",
-        "date": "2026-09-03",
-        "by_hand": false
-      },
-      {
-        "title": "Found a product you want to sell but can‘t find it on CJ? 👀",
-        "url": "https://www.youtube.com/shorts/bldqxE1CBL0",
-        "pool": "youtube",
         "date": "2026-09-03",
         "by_hand": false
       },
@@ -720,37 +664,9 @@
         "by_hand": false
       },
       {
-        "title": "What to buy at the KOREAN PHARMACY that Charlize Theron visited!",
-        "url": "https://www.youtube.com/shorts/kLP780UL-vU",
-        "pool": "youtube",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
-        "title": "Is Vitamin C REALLY Worth the HYPE?! GOOD yet affordable Vitamin C that actually works!",
-        "url": "https://www.youtube.com/shorts/SODreJspUxE",
-        "pool": "youtube",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
-        "title": "3 Viral Products Kids Would Go CRAZY For 🤩",
-        "url": "https://www.youtube.com/shorts/q69CoKFFmrg",
-        "pool": "youtube",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
-        "title": "TOP 7 Winning Products For September 2026 | Trending CJdropshipping",
-        "url": "https://www.youtube.com/watch?v=6Zb3PdVx-qs",
-        "pool": "youtube",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
-        "title": "Claude AI + Digital Products = $218,974 (LOL, It Actually Worked)",
-        "url": "https://www.youtube.com/watch?v=oN9LcIA_rt8",
-        "pool": "youtube",
+        "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUTUzUEwwYzIteVlTcng5Zl9GT3hfTElLcWRGTGVXN09lT01icWhVamUwS1BlREI0YmJCTmdDaW9iRVlKQ0hVOGZ2TTFHY2RhdTFaS3UwelgtT3gxeXY3RnBrTE9RTXRySjFDa3BFWVdMSXo4bTRhdFA2QjB4T2EzNUZuRlBUVFJqQjhtS3RLTko5WGJBbmJseEh3?oc=5",
+        "pool": "google",
         "date": "2026-09-02",
         "by_hand": false
       },
@@ -762,8 +678,8 @@
         "by_hand": false
       },
       {
-        "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUTUzUEwwYzIteVlTcng5Zl9GT3hfTElLcWRGTGVXN09lT01icWhVamUwS1BlREI0YmJCTmdDaW9iRVlKQ0hVOGZ2TTFHY2RhdTFaS3UwelgtT3gxeXY3RnBrTE9RTXRySjFDa3BFWVdMSXo4bTRhdFA2QjB4T2EzNUZuRlBUVFJqQjhtS3RLTko5WGJBbmJseEh3?oc=5",
+        "title": "Confused about K-beauty? Read this before you buy anything - Get the Gloss",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ES1FaSThHUlc4TjFRbERTalhCNVcxUGYyN1dlZFVLYk5tTmc0N3JTaHc1dHcwZzUzaC1uTkRtYVN5dG40LTBRcDNMMGk1cEhadTE3YTdiWUF4SHJJaTNuNVRmN3RjaUFZWnhv?oc=5",
         "pool": "google",
         "date": "2026-09-02",
         "by_hand": false
@@ -804,43 +720,8 @@
         "by_hand": false
       },
       {
-        "title": "Are you experiencing HAIR LOSS? Secret to fuller thicker hair & stronger roots!",
-        "url": "https://www.youtube.com/shorts/MVHt-RPQKrk",
-        "pool": "youtube",
-        "date": "2026-09-01",
-        "by_hand": false
-      },
-      {
-        "title": "71-year-old korean mama finally found a vitamin c serum that'll make her skin look like this!",
-        "url": "https://www.youtube.com/shorts/AgIQT8Mrx1s",
-        "pool": "youtube",
-        "date": "2026-09-01",
-        "by_hand": false
-      },
-      {
-        "title": "You don't need to use an expensive Vitamin C Serum, here's why!",
-        "url": "https://www.youtube.com/shorts/aCqYLzd-AlQ",
-        "pool": "youtube",
-        "date": "2026-09-01",
-        "by_hand": false
-      },
-      {
-        "title": "I Tested Hundreds of K-Beauty Products — Only These Made the Cut",
-        "url": "https://www.youtube.com/watch?v=FTnMHdKLz20",
-        "pool": "youtube",
-        "date": "2026-09-01",
-        "by_hand": false
-      },
-      {
         "title": "K-beauty shapes global formulation and breaks into new categories - Personal Care Insights",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRTQ1WG5LQ1BreXVHaDVkQUVtRzNzZU0wTU9UUzdCbjRoTU5abEpjSmlBZ0tvc2ZVZzVXUjJOdFZSWWZGNWVha0ZnLTNZRG5HdEJ3ZzIzWmMxSU92VVYzZ0x6LVhtOXliUTc2UF9zeHRmSlotNUtxMEJOM2pNV3RNZ2ZSWEoxalpCbnc?oc=5",
-        "pool": "google",
-        "date": "2026-09-01",
-        "by_hand": false
-      },
-      {
-        "title": "How Far Can the K-beauty Craze Go? - wwd.com",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNEx1RkFFYkt2M1lRNGRSMVpTbENQQzRhOUJuSUpmQnlpQjdyQ1FkdE9XaVJ6SVVPdnA3aHRhSDFGUGxZMXh3Q3g1WGJFTjJXek5KQ1VoS3dIemdHTlV4U0w1U3RoTHo1SWJWSkQ3SGc1ajQtM09WWUdJMTFzRkZyWUV0NWh1OThNYmtVckJycHNUbXJWS0phaTBB?oc=5",
         "pool": "google",
         "date": "2026-09-01",
         "by_hand": false
@@ -853,45 +734,164 @@
         "by_hand": false
       },
       {
-        "title": "What your skin needs at every age with K-pharmacy skincare brand Dr.Reju-All - KTLA",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOV294ZHA2QnVFYjV5TFpSblYtV0txTUVWeEtMUVRfb2w3OFI4NThEMTNXdmNGZ0xSbEM3cWpJcVdBOW1VcW5DUVR3UThzN0xsUkE4WUlGdjVjbEFRX1ZPVUIyYUVqVGJRME83M3RRcTJiX2syNUJlWkp1THNjejJqZUZjdGlaZw?oc=5",
+        "title": "How Far Can the K-beauty Craze Go? - WWD",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNEx1RkFFYkt2M1lRNGRSMVpTbENQQzRhOUJuSUpmQnlpQjdyQ1FkdE9XaVJ6SVVPdnA3aHRhSDFGUGxZMXh3Q3g1WGJFTjJXek5KQ1VoS3dIemdHTlV4U0w1U3RoTHo1SWJWSkQ3SGc1ajQtM09WWUdJMTFzRkZyWUV0NWh1OThNYmtVckJycHNUbXJWS0phaTBB?oc=5",
         "pool": "google",
         "date": "2026-09-01",
         "by_hand": false
       },
       {
-        "title": "오늘 올리브영 단 하루 특가❗속건조 싹 잡는 판테놀 1+1 혜택",
-        "url": "https://www.youtube.com/shorts/-BaO7HHXgpI",
-        "pool": "youtube",
-        "date": "2026-08-31",
-        "by_hand": false
-      },
-      {
-        "title": "How to Use Claude Cowork to Build and Run a Shopify Store",
-        "url": "https://www.youtube.com/watch?v=IQDtl0Dacjo",
-        "pool": "youtube",
-        "date": "2026-08-31",
-        "by_hand": false
-      },
-      {
-        "title": "Effective Ways to Handle JEWRLRY Allergies #Shorts",
-        "url": "https://www.youtube.com/shorts/V5G7GbuxajQ",
-        "pool": "youtube",
-        "date": "2026-08-31",
-        "by_hand": false
-      },
-      {
-        "title": "THE OPENING OF new applications.!stable European payment methods #cjdropshipping #ecommerce",
-        "url": "https://www.youtube.com/shorts/LlXUuXJutVg",
-        "pool": "youtube",
-        "date": "2026-08-31",
-        "by_hand": false
-      },
-      {
-        "title": "This K-Beauty Balm Is Doing The Lord’s Work On My Tired Under-Eyes — And It's Less Than $15 - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRWFnM1h1cklpOXA1b2JSb0FqYjcwaEVRclo4NmFaYUJVRWJWQi1hb2xGQ1RlaTl4TnJfZlM0aU1xMmtCZmtsX3lUN3hPYlN1YUdOZ19GczBBcWJLSm1tMHFWc0picjNUbjdobmtZRTZvWVU3NnVmc2R4bWZIbWF5NENndE9Ic2l5ZG5CVlJxam96Y3pocmc?oc=5",
+        "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - Sacramento Bee",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzRUhWam1YWHZYXzlFQlVlMFcwRDBYX003QTZqSzM0WURnYnNudkZveEs3RHJCczBzSUpvMklOeXR3elA4ZVdIc2lDd2RNeEJLeE9RdGNEbVFrTjVhcnFPaUJSNEpNeXpWLWRpcGhQb0ozdU3SAXNBVV95cUxPV1Qwc05zNHBGQmhLclBFVzhrQjQ1bjBZWWFKa25fVllZRXRobkhXZGZpeUplUVFYTjJ4dEpBTDZ1TXVlc3FGT3FOOUl2VFBqdzhYcHRFeEtJV2ExN29TUTVQVVdVTmNwWW9YVHZHSkZ0TDZN?oc=5",
         "pool": "google",
         "date": "2026-08-31",
+        "by_hand": false
+      },
+      {
+        "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - Miami Herald",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxUk1UYUJPcXhnWjlFczJhckZRMjlLM0ZFX1hnclN5cjk0d1prbVNWNWZqVWFMX0M1N2VSY08tNzNteDE0NDNsdWN4SmpTUkpzSDVkMFFhdndkRVBXNGZWRjhuUXpqTWvSAWdBVV95cUxNM1p2Wmx6MVYta09USHF2UUU0MWthTlNwamRPQWUtV0FMbF94U1Zjc1RrN2pUZVg5djlwc2dyZk8zeV9PT0VrRVhUWEJlZmlMM2xHdUk3eUJNUFNkV1lRRFRuVUE5TFpZ?oc=5",
+        "pool": "google",
+        "date": "2026-08-31",
+        "by_hand": false
+      },
+      {
+        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - Teen Vogue",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OdzQ0OXlSbWVrOW1FUXdtSURIcjVsZnJhNEFleWtxZnRjcDdESjdFZlBXUVR0eEM0Tzg2NDN2M2tqU0pEaXd6TTZBOE5yRkVZR2ZBQU1DNWp1RTlxN2V6UHNHUUFJb28?oc=5",
+        "pool": "google",
+        "date": "2026-08-31",
+        "by_hand": false
+      },
+      {
+        "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
+        "pool": "google",
+        "date": "2026-08-30",
+        "by_hand": false
+      },
+      {
+        "title": "Previewing the Model Hardware Standard",
+        "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+        "pool": "institutions",
+        "date": "2026-08-29",
+        "by_hand": false
+      },
+      {
+        "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - Woman's World",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR0hPOFV3NTlQQ2h0LWNDUHBoUTNRZHNDbjllRTNFOHdlQzd5Y20zWmgwWEloVjkwdlpoTEIxcE9YMUwtX1lDazd0LXJUckRBMDhjS1JIV1o0T0l2Y3daZEZiSVBFZElES3lKLWFYVmw4WVlHQ0dKd18xeW1wX3NFN0lJQUxMZjhwbUpPTm9ZclZwZw?oc=5",
+        "pool": "google",
+        "date": "2026-08-29",
+        "by_hand": false
+      },
+      {
+        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - GeekWire",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSmd3bV80NzFvZlZtOUNnSUF4eTRlQ0VoamFoUlY5aEQ2Q000MmlBVmVTQ3ZuWV9wTmhzWXROSWNyaDNuQ0JrTFdEczljM0JlbTBtdFBZbnhtakNaWHBTZTBGWDFzbDJURU1ESi1mano4T21KMHV0ZEQwOFI3aWI3Q2lTbzhPSmw5dEp6cGZVXzhadW5GNTRNaVhhMEhIdjY0czMwTmN4aUlpVWNYTmV5ZnNxWkdlcUZFUUhoNEdId3gxZw?oc=5",
+        "pool": "google",
+        "date": "2026-08-28",
+        "by_hand": false
+      },
+      {
+        "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPczlRZTVPTlpYTHNGbFFVaGQzbXRLSF83VDZWemlkbE1DOUpUNlpKLUUzLTFJSTRTaEdhRXZ5X21xeExTdlM1ZXhIUXNNNHczRld2Q2pOZVNuMXZoS3hEbDVUM1BfQ3I0UEJSS21iMGxzVzZ0UU40cjlFOXBoMFBvTTZVa2NYSlNkSWF3bVBYZ28wZw?oc=5",
+        "pool": "google",
+        "date": "2026-08-28",
+        "by_hand": false
+      },
+      {
+        "title": "Transition-Metal Modified Zinc Oxide (ZnO) Nanostructures for Photocatalysis Application — A Comparative Review of Metal Doping and Metal-oxide Conjugation",
+        "url": "https://doi.org/10.26434/chemrxiv.15007951/v1",
+        "pool": "institutions",
+        "date": "2026-08-27",
+        "by_hand": false
+      },
+      {
+        "title": "Meet the K-beauty products that beauty lovers consistently rank as their absolute skincare favorites - Fort Worth Star-Telegram",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3Y2ZRR0YyT1RTSXFnT2R1M2R4RGdBMzdXSEFGcDg3V2dKX3dnS3dOdXNNUXZzakhkSDFsZllvTXlsOXVQdWROSEFNUDdpYlA1SDc4RmFaVWFLVzgzUGtXMnkyYUxEWEV5a0NqNE90cENyMTJ4dVFLSWlKRGjSAXxBVV95cUxPcUJTSmtsZDhHR0FvUlNpVDl1bkZPcHJiaFJIN0xCNnRCaWZLUGZIWVpzY2llSVdkQnhPMzA5Yk1tWGtJN3k1LW14dkF4NTExeFk2T0JuMVQ3ZWVEbjl5NklwMTd1cVZoenBJUmJVVWFnbTZQSzc3VFY1Vm9S?oc=5",
+        "pool": "google",
+        "date": "2026-08-27",
+        "by_hand": false
+      },
+      {
+        "title": "K-beauty’s fastest-growing products are quietly crossing over from cult status to household names - Sacramento Bee",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aWFdHVGswUVFLUzNOYnhaRzV4RXpLSE4yUU5IcHJVa2lieDYtRjBxNkZma1NUSG9hQS1QT3ZJcHVxekFETnhNUzloR3g5UkxEQWx5QVJxY1V5emtySDRYZzNnTUl3RWVCX29nazdaRUlMYWPSAXNBVV95cUxNdjl6SVNhV25mQjFJeUZITi0tLXlnMlFPcWc0a3lxNGU2cGdldm5GRzF2Yk1HY2VrQUhsVF9zemRaeVJvUkZzSDJxQnd4cXlDWTlGSEVYM3VYUEJ5aFMweWtBREtQb3NVTUVJRmxSMTlJQXBN?oc=5",
+        "pool": "google",
+        "date": "2026-08-27",
+        "by_hand": false
+      },
+      {
+        "title": "Meet the K-beauty products that made a quiet leap from cult circles into mainstream beauty routines - Miami Herald",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UZ3FrNEloVEN5aHJ0QVZJeFB4b25XVlFUSUo0NjdGbjUtN3d4WW1lNEJzS2R6Y0pUR1FTb3Zac2pYRWRIZ2E4cTIzREpTamdxVU5hOE10TTRIcXRFV2w0aXpaQTVqUFXSAWdBVV95cUxOaTJETFNXR0V6TUt1RDV3M1VvYnBSdVZqOUpNNUx5ZEdhTXdsU0w1dWZieDdjblM2TzhfbjV2cDFiZFdvQk92VENwaDJ6RVpUZGtTUTJBUG5acTAyckVucFZDazh4d2xv?oc=5",
+        "pool": "google",
+        "date": "2026-08-27",
+        "by_hand": false
+      },
+      {
+        "title": "Target launches Beauty Studio with K-beauty and premium skin care focus. - Personal Care Insights",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Jb2hGbEh0dHE2ME9CaXV3eFNqVEdYR2hJaU5zWnIyal9IakpwdjNPNlgyVzlHTlo2aFJfYkxLbVlIYWhtT3FfR3AzTURkUmVQc3A5R29FNEtLLTdVWVdzd0FRV1N5c0lWVzVfTUczRi1kc1gyU2U1VU03ZHl0Zk0?oc=5",
+        "pool": "google",
+        "date": "2026-08-27",
+        "by_hand": false
+      },
+      {
+        "title": "The New Galaxy Z Series Earns Strong Early Reviews From European Consumers",
+        "url": "https://news.samsung.com/global/the-new-galaxy-z-series-earns-strong-early-reviews-from-european-consumers",
+        "pool": "institutions",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "Smoking and vaping trends among active-duty U.S. Navy and Marine Corps personnel: results from the Annual Periodic Health Assessment, 2017-2021",
+        "url": "https://doi.org/10.1093/ntr/ntag188",
+        "pool": "institutions",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - ELLE",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5",
+        "pool": "google",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "6 Ways To Use AI in B2B Ecommerce - Shopify",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1aYzdnVG0tZXBKYzYzT1VLT0h0VGpMRXNqYXE1aWptdW5XN3RHbmg4cmpVVzVGdlpXY1NwZzhhMU43V2o5R1UxaG1FRS1pYllvSzY5TFE3Z1lzdHI5?oc=5",
+        "pool": "google",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "7 Best AI Phone Agents for Ecommerce in 2026 - onrec.com",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TM1dobGowSjJoV0JHSlBNdEdzVnMyYWYwUnFRVkQwR1hGWW5LVU5Cb01xLUFkR0VtRHMyeWhPZ1hBMDR4V0hVUGxnZ0hUajBmN0JuWFBualNvYmFkNXVyaDkwVVo3ZDJmeVl6Q2FqOTdNTkkyWHZQLWpVZw?oc=5",
+        "pool": "google",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "Shopify Payments in the United Arab Emirates now available on the Advanced plan",
+        "url": "https://changelog.shopify.com/posts/shopify-payments-in-the-united-arab-emirates-available-on-shopify-advanced-plan",
+        "pool": "design_refs",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "News - Glow Up: K-Beauty Launches at Select PXs and BXs - DVIDS",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORTBtX2VGWFJSTWRjdWQ5anhfY3pEcUpfMngweUdXbFduTjRqZ00tV0RNWS1pb2ltOWhRZy11U0o3LUtqSXZkeE12Z3Zwb0M3alh5UkZES1U4ZXJ1bURLa1pqV0psQWVDcVVndE1HY1FJSE9KeTZPT2l2YjVOdGh1NGs3bGJmOEtS?oc=5",
+        "pool": "google",
+        "date": "2026-08-25",
+        "by_hand": false
+      },
+      {
+        "title": "This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - Yahoo Life UK",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9CRUhpMWQ5TkZld196MlVISE1rdTJWY1FvUlVNT2hSTGN4SEs0Q1p6WmNYM0FsSjd5QW9WT2RxSTJ6aEFjc2ZLLXpFR0pKUDZBZm9nN1RGT3BkaUFKTmpNQ0NYVUJTbVg3QzAwbHFCd3RCOTQ?oc=5",
+        "pool": "google",
+        "date": "2026-08-25",
+        "by_hand": false
+      },
+      {
+        "title": "Move over K-beauty: K-pharmacy is Korea’s new clinical skin care trend - Cosmetics Business",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6eFNadFFpXzZndmV6Q0VpRDN5bEFEVkN0SHl5dk5tSDlNdURXS0tpRjNhSkEwb0NBenRyak9ReG1DVVZVc1BmQzVpVlRGR0pXY3Rxa2JhWU1mZVlTNFBkMDBSU0dRazU2cDdySUUxNnVVZk4yeHl4aDVR?oc=5",
+        "pool": "google",
+        "date": "2026-08-24",
         "by_hand": false
       }
     ],
@@ -939,13 +939,6 @@
         "by_hand": false
       },
       {
-        "title": "Pro SEO tips for product pages",
-        "url": "https://www.youtube.com/shorts/oHx39xLZwHo",
-        "pool": "youtube",
-        "date": "2026-08-22",
-        "by_hand": false
-      },
-      {
         "title": "[Video] [Galaxy Unpacked July 2026] Samsung Health Envisions Simpler, More Connected Care With AI",
         "url": "https://news.samsung.com/global/video-galaxy-unpacked-july-2026-samsung-health-envisions-simpler-more-connected-care-with-ai",
         "pool": "institutions",
@@ -964,6 +957,20 @@
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5",
         "pool": "google",
         "date": "2026-06-06",
+        "by_hand": false
+      },
+      {
+        "title": "Beauty of Joseon Relief Sun SPF50+",
+        "url": "https://www.amazon.com",
+        "pool": "us_beauty",
+        "date": "",
+        "by_hand": false
+      },
+      {
+        "title": "Beauty of Joseon Relief Sun SPF50+",
+        "url": "",
+        "pool": "us_beauty",
+        "date": "",
         "by_hand": false
       }
     ],
@@ -1022,13 +1029,6 @@
         "url": "https://doi.org/10.11113/intrest.v20n1.436",
         "pool": "institutions",
         "date": "2026-06-30",
-        "by_hand": false
-      },
-      {
-        "title": "7 Best Ecommerce Analytics Platforms for DTC Brands: Features, Pricing, and ROI Compared (2026) - Ask Luca",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rZktSWEpid3RqbWs0cmc4Q0pULWZNdGh6cVpxZVdFOHVMOXB5N3dNT0dqN0NlWlNyOEtUWm0yeFZMLTF6LW53TzFJVVRCVkFQUHNycldlX2JzY0hLZElkOTVmZXpyTVE?oc=5",
-        "pool": "google",
-        "date": "2026-02-27",
         "by_hand": false
       },
       {
@@ -1167,13 +1167,6 @@
         "by_hand": false
       },
       {
-        "title": "How to use your Vitamin C, Retinol, SPF the right way for the best way to age gracefully🍋#antiaging",
-        "url": "https://www.youtube.com/shorts/PaHbgC888qQ",
-        "pool": "youtube",
-        "date": "2026-08-26",
-        "by_hand": false
-      },
-      {
         "title": "Revival Animal Health, LLC Voluntarily Recalls Feline Milk Replacers Due to Inconsistent Levels of Vitamins and Trace Minerals",
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/revival-animal-health-llc-voluntarily-recalls-feline-milk-replacers-due-inconsistent-levels-vitamins",
         "pool": "fda",
@@ -1237,13 +1230,6 @@
         "by_hand": false
       },
       {
-        "title": "SPF 시험기관이 알려주는 선크림 SPF의 모든 것",
-        "url": "https://www.youtube.com/watch?v=J0u4ovCS9_k",
-        "pool": "youtube",
-        "date": "2026-08-13",
-        "by_hand": false
-      },
-      {
         "title": "DHL Express is now available in the UK, Germany, France, Italy, and Spain",
         "url": "https://changelog.shopify.com/posts/dhl-express-is-now-available-in-the-uk-germany-france-italy-and-spain",
         "pool": "design_refs",
@@ -1262,13 +1248,6 @@
         "url": "https://spectrum.ieee.org/video-robot-gemini2-ai-robot",
         "pool": "robotics",
         "date": "2026-07-31",
-        "by_hand": false
-      },
-      {
-        "title": "선크림 SPF 50+, 저희 연구원에서는 이렇게 확인합니다",
-        "url": "https://www.youtube.com/shorts/oE4PQahVsI4",
-        "pool": "youtube",
-        "date": "2026-07-16",
         "by_hand": false
       },
       {
@@ -1461,9 +1440,30 @@
         "by_hand": false
       },
       {
-        "title": "I am a creative.",
-        "url": "https://alistapart.com/article/i-am-a-creative/",
-        "pool": "design_refs",
+        "title": "Beauty of Joseon Relief Sun SPF50+",
+        "url": "https://www.amazon.com",
+        "pool": "us_beauty",
+        "date": "",
+        "by_hand": false
+      },
+      {
+        "title": "Neutrogena Ultra Sheer SPF55",
+        "url": "https://www.walmart.com",
+        "pool": "us_beauty",
+        "date": "",
+        "by_hand": false
+      },
+      {
+        "title": "FOREVER SKIN GLOW 24h wear radiant foundation Perfection and hydration Concentrated floral skincare with suncreen Broad spectrum SPF 15 00",
+        "url": "https://api.fda.gov/drug/label.json?search=id:1f013e61-f171-2ae2-e063-6294a90adcf1",
+        "pool": "us_beauty",
+        "date": "",
+        "by_hand": false
+      },
+      {
+        "title": "Olay Regenerist Regenerating with Sunscreen Broad Spectrum SPF 15",
+        "url": "https://api.fda.gov/drug/label.json?search=id:46425877-3cf0-6496-e063-6294a90acf37",
+        "pool": "us_beauty",
         "date": "",
         "by_hand": false
       }
@@ -1652,7 +1652,7 @@
         "by_hand": true
       },
       {
-        "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
+        "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
         "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
         "pool": "youtube_channel",
         "date": "",
@@ -1678,6 +1678,13 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
+      },
+      {
+        "title": "Enovis to acquire surgical tech provider eCential Robotics for $180M",
+        "url": "https://www.therobotreport.com/enovis-to-acquire-ecential-robotics-for-180m/",
+        "pool": "robotics",
+        "date": "2026-09-05",
+        "by_hand": false
       },
       {
         "title": "Formalizing Fermat's Last Theorem",
@@ -1718,13 +1725,6 @@
         "title": "TRIM21 Neutralizes Hazara Virus Using a Dual Mechanism of Nucleoprotein Caging and Ubiquitination",
         "url": "https://doi.org/10.3390/v18090974",
         "pool": "institutions",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "How to Use Claude to Safely Rebrand Your Shopify Store",
-        "url": "https://www.youtube.com/watch?v=gugo50_VbjE",
-        "pool": "youtube",
         "date": "2026-09-04",
         "by_hand": false
       },
@@ -1891,6 +1891,34 @@
       }
     ],
     "robotics": [
+      {
+        "title": "Cyborg Roaches Can Stab You With Needles",
+        "url": "https://spectrum.ieee.org/cyborg-rescue-roach",
+        "pool": "robotics",
+        "date": "2026-09-05",
+        "by_hand": false
+      },
+      {
+        "title": "ARM Institute gets $90M for 10 projects to modernize military manufacturing",
+        "url": "https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/",
+        "pool": "robotics",
+        "date": "2026-09-05",
+        "by_hand": false
+      },
+      {
+        "title": "Enovis to acquire surgical tech provider eCential Robotics for $180M",
+        "url": "https://www.therobotreport.com/enovis-to-acquire-ecential-robotics-for-180m/",
+        "pool": "robotics",
+        "date": "2026-09-05",
+        "by_hand": false
+      },
+      {
+        "title": "Video Friday: Digit Redecorates",
+        "url": "https://spectrum.ieee.org/video-friday-agility-robotics-digit",
+        "pool": "robotics",
+        "date": "2026-09-04",
+        "by_hand": false
+      },
       {
         "title": "How FPGAs become the gatekeepers of physical AI security",
         "url": "https://www.therobotreport.com/how-fpgas-become-the-gatekeepers-of-physical-ai-security/",
@@ -2279,34 +2307,6 @@
       {
         "title": "On a Gradation for Asymptotic Stability",
         "url": "https://arxiv.org/abs/2609.03120v1",
-        "pool": "robotics",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
-        "title": "Finite-Sample Limits of Entropy-Based Structure Identification in Discretized Nonlinear Systems",
-        "url": "https://arxiv.org/abs/2609.03074v1",
-        "pool": "robotics",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
-        "title": "GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations",
-        "url": "https://arxiv.org/abs/2609.03067v1",
-        "pool": "robotics",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
-        "title": "Dynamic Operational Reserve Margin Assessment from Risk-Constrained Unit Commitment States",
-        "url": "https://arxiv.org/abs/2609.03066v1",
-        "pool": "robotics",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
-        "title": "Hosting Capacity Assessment of Data Centers with Voltage Ride-Through Capability in Power Systems",
-        "url": "https://arxiv.org/abs/2609.03030v1",
         "pool": "robotics",
         "date": "2026-09-02",
         "by_hand": false
@@ -2699,7 +2699,7 @@
         "by_hand": false
       },
       {
-        "title": "7 Best AI Phone Agents for Ecommerce in 2026 - Onrec",
+        "title": "7 Best AI Phone Agents for Ecommerce in 2026 - onrec.com",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TM1dobGowSjJoV0JHSlBNdEdzVnMyYWYwUnFRVkQwR1hGWW5LVU5Cb01xLUFkR0VtRHMyeWhPZ1hBMDR4V0hVUGxnZ0hUajBmN0JuWFBualNvYmFkNXVyaDkwVVo3ZDJmeVl6Q2FqOTdNTkkyWHZQLWpVZw?oc=5",
         "pool": "google",
         "date": "2026-08-26",

@@ -2,7 +2,7 @@
 title: "Record 719 · Comparative-Study-on-the-Growth-of-Solanum-Melongena-and-Capsicum-Annu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:28.108346+00:00
+updated_at: 2026-09-06T13:04:50.007485+00:00
 tags: [record, real-data]
 ---
 

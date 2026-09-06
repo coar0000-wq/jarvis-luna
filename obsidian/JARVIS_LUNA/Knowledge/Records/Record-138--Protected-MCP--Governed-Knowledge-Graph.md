@@ -2,7 +2,7 @@
 title: "Record 138 · Protected-MCP--Governed-Knowledge-Graph"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:27.960512+00:00
+updated_at: 2026-09-06T13:04:49.861810+00:00
 tags: [record, real-data]
 ---
 

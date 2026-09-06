@@ -2,7 +2,7 @@
 title: "Record 029 · When-Robots-Mishear-Us-Mapping-the-Safety-Risks-of-Voice-Controlled-Em"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:27.933421+00:00
+updated_at: 2026-09-06T13:04:49.829743+00:00
 tags: [record, real-data]
 ---
 

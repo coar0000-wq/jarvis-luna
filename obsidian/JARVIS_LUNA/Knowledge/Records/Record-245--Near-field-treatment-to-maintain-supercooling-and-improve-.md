@@ -2,7 +2,7 @@
 title: "Record 245 · Near-field-treatment-to-maintain-supercooling-and-improve-beef-quality"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:27.986572+00:00
+updated_at: 2026-09-06T13:04:49.890819+00:00
 tags: [record, real-data]
 ---
 

@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-06T09:11:54.093053+00:00",
+  "collected_at": "2026-09-06T13:04:13.990733+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -92,15 +92,15 @@
       "score": 2
     },
     {
+      "keyword": "spf",
+      "score": 2
+    },
+    {
       "keyword": "missha",
       "score": 2
     },
     {
       "keyword": "shade",
-      "score": 2
-    },
-    {
-      "keyword": "spf",
       "score": 2
     },
     {
@@ -160,18 +160,6 @@
       "score": 1
     },
     {
-      "keyword": "comparing",
-      "score": 1
-    },
-    {
-      "keyword": "creams",
-      "score": 1
-    },
-    {
-      "keyword": "purito",
-      "score": 1
-    },
-    {
       "keyword": "aqua",
       "score": 1
     },
@@ -189,6 +177,18 @@
     },
     {
       "keyword": "40ml",
+      "score": 1
+    },
+    {
+      "keyword": "comparing",
+      "score": 1
+    },
+    {
+      "keyword": "creams",
+      "score": 1
+    },
+    {
+      "keyword": "purito",
       "score": 1
     },
     {
@@ -245,16 +245,16 @@
       "feed": "hot"
     },
     {
-      "title": "Comparing BB Creams: Missha vs. Purito in shade 21",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7vn6a/comparing_bb_creams_missha_vs_purito_in_shade_21/",
-      "published": "2026-09-05T09:06:51+00:00",
+      "title": "SKIN AQUA UV Whitening Milk SPF 50 PA++++ 40ml",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8po6i/skin_aqua_uv_whitening_milk_spf_50_pa_40ml/",
+      "published": "2026-09-06T07:45:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "SKIN AQUA UV Whitening Milk SPF 50 PA++++ 40ml",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8po6i/skin_aqua_uv_whitening_milk_spf_50_pa_40ml/",
-      "published": "2026-09-06T07:45:07+00:00",
+      "title": "Comparing BB Creams: Missha vs. Purito in shade 21",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7vn6a/comparing_bb_creams_missha_vs_purito_in_shade_21/",
+      "published": "2026-09-05T09:06:51+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },

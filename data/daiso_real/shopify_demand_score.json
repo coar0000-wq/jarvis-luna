@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-06T09:34:39.061681+00:00",
+  "generated_at": "2026-09-06T13:27:09.319284+00:00",
   "total_products": 174,
   "grade_summary": {
-    "S": 6,
-    "A": 17,
-    "B": 23,
+    "S": 5,
+    "A": 16,
+    "B": 25,
     "C": 128
   },
   "category_avg_score": {
     "클렌징": 72.2,
-    "바디케어": 65.0,
-    "스킨케어": 61.1,
-    "헤어케어": 55.9,
-    "메이크업": 50.0,
-    "마스크팩": 49.9,
+    "바디케어": 64.8,
+    "스킨케어": 60.0,
+    "헤어케어": 55.4,
+    "메이크업": 49.9,
+    "마스크팩": 49.7,
     "향수": 41.1,
     "뷰티소품": 28.8,
     "맨즈케어": 24.3,
@@ -28,7 +28,7 @@
     "walmart_beauty"
   ],
   "global_demand_signals": 77,
-  "products_with_global_match": 28,
+  "products_with_global_match": 30,
   "canonical": "shopify_s_recommendations.json",
   "priority_note": "S등급만 Shopify 1차 등록. 펫/노이즈/약한 단일토큰 제외.",
   "scoring_model": {
@@ -67,7 +67,7 @@
       "shopify_score": 97,
       "grade": "S",
       "s_rule": "strong_form",
-      "us_market_hits": 23,
+      "us_market_hits": 19,
       "us_median_price_usd": 25.65,
       "score_breakdown": {
         "category": 25.0,
@@ -77,7 +77,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 17,
+        "global_similarity_reference_only": 16,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -86,34 +86,24 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-        "similarity": 0.667,
-        "demand_weight": 0.931,
+        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+        "similarity": 0.733,
+        "demand_weight": 0.833,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.621
+        "match_score": 0.611
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "similarity": 0.667,
-          "demand_weight": 0.931,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.621
-        },
-        {
-          "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.784,
+          "demand_weight": 0.833,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.575
+          "match_score": 0.611
         },
         {
           "channel": "tiktok_shop_us",
@@ -124,9 +114,19 @@
             "ampoule"
           ],
           "match_score": 0.525
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+          "similarity": 0.667,
+          "demand_weight": 0.784,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.523
         }
       ],
-      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule",
       "s_rank": 1
     },
     {
@@ -142,15 +142,15 @@
       "shopify_score": 91,
       "grade": "S",
       "s_rule": "multi_token",
-      "us_market_hits": 28,
-      "us_median_price_usd": 25.0,
+      "us_market_hits": 31,
+      "us_median_price_usd": 24.5,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
         "reviews": 16.3,
         "price": 10.0,
         "keyword": 3,
-        "us_market_fit": 23.8,
+        "us_market_fit": 23.6,
         "rebucket_note": "",
         "global_similarity_reference_only": 17,
         "penalty": 0,
@@ -219,15 +219,15 @@
       "shopify_score": 90,
       "grade": "S",
       "s_rule": "ingredient+form",
-      "us_market_hits": 6,
-      "us_median_price_usd": 30.5,
+      "us_market_hits": 8,
+      "us_median_price_usd": 24.5,
       "score_breakdown": {
         "category": 22.6,
         "rating": 13.3,
         "reviews": 19.6,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.8,
         "rebucket_note": "",
         "global_similarity_reference_only": 16,
         "penalty": 0,
@@ -297,7 +297,7 @@
       "shopify_score": 90,
       "grade": "S",
       "s_rule": "multi_token",
-      "us_market_hits": 1,
+      "us_market_hits": 2,
       "us_median_price_usd": 26.0,
       "score_breakdown": {
         "category": 25.0,
@@ -305,7 +305,7 @@
         "reviews": 19.7,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 16.8,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 14,
         "penalty": 0,
@@ -372,18 +372,18 @@
       "review_count": 938,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
-      "shopify_score": 87,
+      "shopify_score": 89,
       "grade": "S",
       "s_rule": "ingredient+form",
       "us_market_hits": 5,
-      "us_median_price_usd": 24.65,
+      "us_median_price_usd": 24.99,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
         "reviews": 18.0,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 16.1,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 22,
         "penalty": 0,
@@ -439,81 +439,6 @@
       ],
       "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
       "s_rank": 5
-    },
-    {
-      "pd_no": "1045421",
-      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
-      "bucket": "스킨케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 567,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231221/4S2p6tvbv9F2EJVNtStV1045421_00_004S2p6tvbv9F2EJVNtStV.jpg",
-      "shopify_score": 83,
-      "grade": "S",
-      "s_rule": "strong_form",
-      "us_market_hits": 3,
-      "us_median_price_usd": 20.7,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 11.7,
-        "reviews": 16.7,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 19.5,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 19,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "TIRTIR Mask Fit Red Cushion",
-        "similarity": 0.733,
-        "demand_weight": 1.0,
-        "matched_tokens": [
-          "cushion"
-        ],
-        "match_score": 0.733
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "TIRTIR Mask Fit Red Cushion",
-          "similarity": 0.733,
-          "demand_weight": 1.0,
-          "matched_tokens": [
-            "cushion"
-          ],
-          "match_score": 0.733
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
-          "similarity": 0.65,
-          "demand_weight": 0.833,
-          "matched_tokens": [
-            "cushion"
-          ],
-          "match_score": 0.541
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Clio Kill Cover Mesh Glow Cushion",
-          "similarity": 0.667,
-          "demand_weight": 0.5,
-          "matched_tokens": [
-            "cushion"
-          ],
-          "match_score": 0.333
-        }
-      ],
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
-      "s_rank": 6
     }
   ],
   "all_scored": [
@@ -530,7 +455,7 @@
       "shopify_score": 97,
       "grade": "S",
       "s_rule": "strong_form",
-      "us_market_hits": 23,
+      "us_market_hits": 19,
       "us_median_price_usd": 25.65,
       "score_breakdown": {
         "category": 25.0,
@@ -540,7 +465,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 17,
+        "global_similarity_reference_only": 16,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -549,34 +474,24 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-        "similarity": 0.667,
-        "demand_weight": 0.931,
+        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+        "similarity": 0.733,
+        "demand_weight": 0.833,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.621
+        "match_score": 0.611
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "similarity": 0.667,
-          "demand_weight": 0.931,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.621
-        },
-        {
-          "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.784,
+          "demand_weight": 0.833,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.575
+          "match_score": 0.611
         },
         {
           "channel": "tiktok_shop_us",
@@ -587,9 +502,19 @@
             "ampoule"
           ],
           "match_score": 0.525
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+          "similarity": 0.667,
+          "demand_weight": 0.784,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.523
         }
       ],
-      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule",
       "s_rank": 1
     },
     {
@@ -605,7 +530,7 @@
       "shopify_score": 96,
       "grade": "A",
       "s_rule": "match_too_weak",
-      "us_market_hits": 23,
+      "us_market_hits": 19,
       "us_median_price_usd": 25.65,
       "score_breakdown": {
         "category": 25.0,
@@ -624,34 +549,24 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-        "similarity": 0.367,
-        "demand_weight": 0.931,
+        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+        "similarity": 0.433,
+        "demand_weight": 0.833,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.341
+        "match_score": 0.361
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "similarity": 0.367,
-          "demand_weight": 0.931,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.341
-        },
-        {
-          "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.433,
-          "demand_weight": 0.784,
+          "demand_weight": 0.833,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.34
+          "match_score": 0.361
         },
         {
           "channel": "sephora",
@@ -662,9 +577,19 @@
             "ampoule"
           ],
           "match_score": 0.315
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Skin1004 Madagascar Centella Ampoule",
+          "similarity": 0.4,
+          "demand_weight": 0.75,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.3
         }
       ],
-      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 37% · 토큰 ampoule · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 43% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
       "pd_no": "1075857",
@@ -679,7 +604,7 @@
       "shopify_score": 94,
       "grade": "A",
       "s_rule": "match_too_weak",
-      "us_market_hits": 23,
+      "us_market_hits": 25,
       "us_median_price_usd": 25.0,
       "score_breakdown": {
         "category": 25.0,
@@ -733,15 +658,15 @@
       "shopify_score": 91,
       "grade": "S",
       "s_rule": "multi_token",
-      "us_market_hits": 28,
-      "us_median_price_usd": 25.0,
+      "us_market_hits": 31,
+      "us_median_price_usd": 24.5,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
         "reviews": 16.3,
         "price": 10.0,
         "keyword": 3,
-        "us_market_fit": 23.8,
+        "us_market_fit": 23.6,
         "rebucket_note": "",
         "global_similarity_reference_only": 17,
         "penalty": 0,
@@ -810,15 +735,15 @@
       "shopify_score": 90,
       "grade": "S",
       "s_rule": "ingredient+form",
-      "us_market_hits": 6,
-      "us_median_price_usd": 30.5,
+      "us_market_hits": 8,
+      "us_median_price_usd": 24.5,
       "score_breakdown": {
         "category": 22.6,
         "rating": 13.3,
         "reviews": 19.6,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.8,
         "rebucket_note": "",
         "global_similarity_reference_only": 16,
         "penalty": 0,
@@ -888,7 +813,7 @@
       "shopify_score": 90,
       "grade": "S",
       "s_rule": "multi_token",
-      "us_market_hits": 1,
+      "us_market_hits": 2,
       "us_median_price_usd": 26.0,
       "score_breakdown": {
         "category": 25.0,
@@ -896,7 +821,7 @@
         "reviews": 19.7,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 16.8,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 14,
         "penalty": 0,
@@ -963,18 +888,18 @@
       "review_count": 938,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
-      "shopify_score": 87,
+      "shopify_score": 89,
       "grade": "S",
       "s_rule": "ingredient+form",
       "us_market_hits": 5,
-      "us_median_price_usd": 24.65,
+      "us_median_price_usd": 24.99,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
         "reviews": 18.0,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 16.1,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 22,
         "penalty": 0,
@@ -1044,15 +969,15 @@
       "shopify_score": 86,
       "grade": "A",
       "s_rule": "claim_risk",
-      "us_market_hits": 14,
-      "us_median_price_usd": 27.0,
+      "us_market_hits": 16,
+      "us_median_price_usd": 24.0,
       "score_breakdown": {
         "category": 25.0,
         "rating": 11.7,
         "reviews": 14.2,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.6,
         "rebucket_note": "",
         "global_similarity_reference_only": 11,
         "penalty": 0,
@@ -1109,6 +1034,80 @@
       "recommend_reason": "미국 판매 제약: 미백 - 미국에서 OTC 의약품 주장"
     },
     {
+      "pd_no": "1060494",
+      "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 755,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060494",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260618/cK9o5Yum5W5qX59za4jy1060494_00_01cK9o5Yum5W5qX59za4jy.jpg",
+      "shopify_score": 86,
+      "grade": "A",
+      "s_rule": "weak_solo_token",
+      "us_market_hits": 2,
+      "us_median_price_usd": 23.99,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 13.3,
+        "reviews": 17.4,
+        "price": 10.0,
+        "keyword": 3,
+        "us_market_fit": 17.1,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 7,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "amazon_best_sellers",
+        "global_product": "COSRX Advanced Snail 96 Mucin Essence",
+        "similarity": 0.28,
+        "demand_weight": 0.95,
+        "matched_tokens": [
+          "essence"
+        ],
+        "match_score": 0.266
+      },
+      "global_matches": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "COSRX Advanced Snail 96 Mucin Essence",
+          "similarity": 0.28,
+          "demand_weight": 0.95,
+          "matched_tokens": [
+            "essence"
+          ],
+          "match_score": 0.266
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "COSRX Advanced Snail 96 Mucin Essence",
+          "similarity": 0.28,
+          "demand_weight": 0.9,
+          "matched_tokens": [
+            "essence"
+          ],
+          "match_score": 0.252
+        },
+        {
+          "channel": "sephora",
+          "global_product": "글레이징 밀크 하이드레이팅 세라마이드 에센스",
+          "similarity": 0.293,
+          "demand_weight": 0.72,
+          "matched_tokens": [
+            "essence"
+          ],
+          "match_score": 0.211
+        }
+      ],
+      "recommend_reason": "글로벌 'COSRX Advanced Snail 96 Mucin Essence' (amazon_best_sellers) 유사 28% · 토큰 essence · S제외:weak_solo_token"
+    },
+    {
       "pd_no": "1074979",
       "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
       "bucket": "스킨케어",
@@ -1121,17 +1120,17 @@
       "shopify_score": 85,
       "grade": "A",
       "s_rule": "weak_solo_token",
-      "us_market_hits": 14,
-      "us_median_price_usd": 27.0,
+      "us_market_hits": 16,
+      "us_median_price_usd": 24.0,
       "score_breakdown": {
         "category": 25.0,
         "rating": 10.0,
         "reviews": 15.4,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.6,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -1161,23 +1160,23 @@
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
-          "demand_weight": 0.588,
+          "demand_weight": 0.735,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.172
+          "match_score": 0.216
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.293,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.158
+          "match_score": 0.144
         }
       ],
       "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 32% · 토큰 cream · S제외:weak_solo_token"
@@ -1257,283 +1256,6 @@
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 42% · 토큰 centella · S제외:match_too_weak"
     },
     {
-      "pd_no": "1068733",
-      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
-      "bucket": "스킨케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.4,
-      "review_count": 423,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/rb7tUhT1C5xKYvlAevXm1068733_00_00rb7tUhT1C5xKYvlAevXm.jpg",
-      "shopify_score": 84,
-      "grade": "A",
-      "s_rule": "match_too_weak",
-      "us_market_hits": 25,
-      "us_median_price_usd": 25.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 6.7,
-        "reviews": 15.9,
-        "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 21.2,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 7,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-        "similarity": 0.333,
-        "demand_weight": 0.784,
-        "matched_tokens": [
-          "ampoule"
-        ],
-        "match_score": 0.261
-      },
-      "global_matches": [
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-          "similarity": 0.333,
-          "demand_weight": 0.784,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.261
-        },
-        {
-          "channel": "sephora",
-          "global_product": "턴오버 앰플 c-PDRN 0.5%",
-          "similarity": 0.4,
-          "demand_weight": 0.63,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.252
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "similarity": 0.267,
-          "demand_weight": 0.931,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.248
-        }
-      ],
-      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 33% · 토큰 ampoule · S제외:match_too_weak"
-    },
-    {
-      "pd_no": "1035210",
-      "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
-      "bucket": "스킨케어",
-      "rebucketed": false,
-      "price_krw": 3000,
-      "rating": 4.8,
-      "review_count": 1107,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035210",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251113/xlpZA0qPNWmZjW7JJmY31035210_00_01xlpZA0qPNWmZjW7JJmY3.png",
-      "shopify_score": 84,
-      "grade": "A",
-      "s_rule": "weak_solo_token",
-      "us_market_hits": 2,
-      "us_median_price_usd": 38.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 13.3,
-        "reviews": 18.4,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 17.5,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 6,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "walmart_beauty",
-        "global_product": "CeraVe Daily Moisturizing Lotion",
-        "similarity": 0.28,
-        "demand_weight": 0.8,
-        "matched_tokens": [
-          "lotion"
-        ],
-        "match_score": 0.224
-      },
-      "global_matches": [
-        {
-          "channel": "walmart_beauty",
-          "global_product": "CeraVe Daily Moisturizing Lotion",
-          "similarity": 0.28,
-          "demand_weight": 0.8,
-          "matched_tokens": [
-            "lotion"
-          ],
-          "match_score": 0.224
-        },
-        {
-          "channel": "walmart_beauty",
-          "global_product": "EOS Shea Better Lotion",
-          "similarity": 0.272,
-          "demand_weight": 0.64,
-          "matched_tokens": [
-            "lotion"
-          ],
-          "match_score": 0.174
-        },
-        {
-          "channel": "walmart_beauty",
-          "global_product": "CeraVe PM Facial Moisturizing Lotion",
-          "similarity": 0.28,
-          "demand_weight": 0.4,
-          "matched_tokens": [
-            "lotion"
-          ],
-          "match_score": 0.112
-        }
-      ],
-      "recommend_reason": "글로벌 'CeraVe Daily Moisturizing Lotion' (walmart_beauty) 유사 28% · 토큰 lotion · S제외:weak_solo_token"
-    },
-    {
-      "pd_no": "1045421",
-      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
-      "bucket": "스킨케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 567,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231221/4S2p6tvbv9F2EJVNtStV1045421_00_004S2p6tvbv9F2EJVNtStV.jpg",
-      "shopify_score": 83,
-      "grade": "S",
-      "s_rule": "strong_form",
-      "us_market_hits": 3,
-      "us_median_price_usd": 20.7,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 11.7,
-        "reviews": 16.7,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 19.5,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 19,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "TIRTIR Mask Fit Red Cushion",
-        "similarity": 0.733,
-        "demand_weight": 1.0,
-        "matched_tokens": [
-          "cushion"
-        ],
-        "match_score": 0.733
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "TIRTIR Mask Fit Red Cushion",
-          "similarity": 0.733,
-          "demand_weight": 1.0,
-          "matched_tokens": [
-            "cushion"
-          ],
-          "match_score": 0.733
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
-          "similarity": 0.65,
-          "demand_weight": 0.833,
-          "matched_tokens": [
-            "cushion"
-          ],
-          "match_score": 0.541
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Clio Kill Cover Mesh Glow Cushion",
-          "similarity": 0.667,
-          "demand_weight": 0.5,
-          "matched_tokens": [
-            "cushion"
-          ],
-          "match_score": 0.333
-        }
-      ],
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
-      "s_rank": 6
-    },
-    {
-      "pd_no": "1060487",
-      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
-      "bucket": "마스크팩",
-      "rebucketed": false,
-      "price_krw": 3000,
-      "rating": 4.8,
-      "review_count": 1663,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060487",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/H4aAY1oXhdnLm8POPll11060487_00_00H4aAY1oXhdnLm8POPll1.jpg",
-      "shopify_score": 83,
-      "grade": "A",
-      "s_rule": "match_too_weak",
-      "us_market_hits": 2,
-      "us_median_price_usd": 29.9,
-      "score_breakdown": {
-        "category": 22.6,
-        "rating": 13.3,
-        "reviews": 19.5,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 17.5,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 8,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Medicube Zero Pore Pad",
-        "similarity": 0.433,
-        "demand_weight": 0.8,
-        "matched_tokens": [
-          "pore"
-        ],
-        "match_score": 0.347
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Medicube Zero Pore Pad",
-          "similarity": 0.433,
-          "demand_weight": 0.8,
-          "matched_tokens": [
-            "pore"
-          ],
-          "match_score": 0.347
-        }
-      ],
-      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore · S제외:match_too_weak"
-    },
-    {
       "pd_no": "1060489",
       "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
       "bucket": "마스크팩",
@@ -1608,27 +1330,27 @@
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 42% · 토큰 centella · S제외:match_too_weak"
     },
     {
-      "pd_no": "1043659",
-      "name": "닥터지오 모이스처 올인원 젤로션 150 ml",
+      "pd_no": "1068733",
+      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
       "bucket": "스킨케어",
       "rebucketed": false,
       "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 587,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1043659",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260325/wXm7JotUk9q64qlDBwcc1043659_00_01wXm7JotUk9q64qlDBwcc.png",
+      "rating": 4.4,
+      "review_count": 423,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/rb7tUhT1C5xKYvlAevXm1068733_00_00rb7tUhT1C5xKYvlAevXm.jpg",
       "shopify_score": 83,
       "grade": "A",
       "s_rule": "match_too_weak",
-      "us_market_hits": 2,
-      "us_median_price_usd": 38.0,
+      "us_market_hits": 20,
+      "us_median_price_usd": 25.65,
       "score_breakdown": {
         "category": 25.0,
-        "rating": 13.3,
-        "reviews": 16.8,
+        "rating": 6.7,
+        "reviews": 15.9,
         "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 17.5,
+        "keyword": 5,
+        "us_market_fit": 20.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 7,
         "penalty": 0,
@@ -1638,38 +1360,48 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "amazon_best_sellers",
-        "global_product": "La Roche-Posay Double Repair Moisturizer",
-        "similarity": 0.38,
-        "demand_weight": 0.76,
+        "channel": "oliveyoung_us",
+        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+        "similarity": 0.333,
+        "demand_weight": 0.833,
         "matched_tokens": [
-          "moisturizer"
+          "ampoule"
         ],
-        "match_score": 0.289
+        "match_score": 0.278
       },
       "global_matches": [
         {
-          "channel": "amazon_best_sellers",
-          "global_product": "La Roche-Posay Double Repair Moisturizer",
-          "similarity": 0.38,
-          "demand_weight": 0.76,
+          "channel": "oliveyoung_us",
+          "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+          "similarity": 0.333,
+          "demand_weight": 0.833,
           "matched_tokens": [
-            "moisturizer"
+            "ampoule"
           ],
-          "match_score": 0.289
+          "match_score": 0.278
         },
         {
-          "channel": "walmart_beauty",
-          "global_product": "Neutrogena Hydro Boost Water Gel",
-          "similarity": 0.38,
-          "demand_weight": 0.4,
+          "channel": "sephora",
+          "global_product": "턴오버 앰플 c-PDRN 0.5%",
+          "similarity": 0.4,
+          "demand_weight": 0.63,
           "matched_tokens": [
-            "moisturizer"
+            "ampoule"
           ],
-          "match_score": 0.152
+          "match_score": 0.252
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Skin1004 Madagascar Centella Ampoule",
+          "similarity": 0.3,
+          "demand_weight": 0.75,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.225
         }
       ],
-      "recommend_reason": "글로벌 'La Roche-Posay Double Repair Moisturizer' (amazon_best_sellers) 유사 38% · 토큰 moisturizer · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 33% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
       "pd_no": "1067024",
@@ -1706,40 +1438,6 @@
       "recommend_reason": "클렌징 카테고리 · 평점 4.8 · 리뷰 1,078건 (글로벌 시그널 약함)"
     },
     {
-      "pd_no": "58600",
-      "name": "과일나라 마이시크릿아이템 아르간오일 핸드크림 60 g",
-      "bucket": "바디케어",
-      "rebucketed": true,
-      "price_krw": 1000,
-      "rating": 4.8,
-      "review_count": 672,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=58600",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260625/7L8E1oVByPuC54VKaVpv58600_00_007L8E1oVByPuC54VKaVpv.jpg",
-      "shopify_score": 83,
-      "grade": "A",
-      "s_rule": "no_global_match",
-      "us_market_hits": 14,
-      "us_median_price_usd": 27.0,
-      "score_breakdown": {
-        "category": 20.2,
-        "rating": 13.3,
-        "reviews": 17.1,
-        "price": 7.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "이름의 '핸드크림' 로 스킨케어 -> 바디케어 재분류",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "바디케어 카테고리 · 평점 4.8 · 리뷰 672건 (글로벌 시그널 약함)"
-    },
-    {
       "pd_no": "1072803",
       "name": "케어존플러스 모공탄력 수분크림 75 ml",
       "bucket": "스킨케어",
@@ -1774,29 +1472,63 @@
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 444건 (글로벌 시그널 약함)"
     },
     {
-      "pd_no": "1044110",
-      "name": "존슨즈 베이비 로션 핑크 200ml",
+      "pd_no": "58600",
+      "name": "과일나라 마이시크릿아이템 아르간오일 핸드크림 60 g",
+      "bucket": "바디케어",
+      "rebucketed": true,
+      "price_krw": 1000,
+      "rating": 4.8,
+      "review_count": 672,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=58600",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260625/7L8E1oVByPuC54VKaVpv58600_00_007L8E1oVByPuC54VKaVpv.jpg",
+      "shopify_score": 82,
+      "grade": "A",
+      "s_rule": "no_global_match",
+      "us_market_hits": 16,
+      "us_median_price_usd": 24.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 17.1,
+        "price": 7.0,
+        "keyword": 0,
+        "us_market_fit": 24.6,
+        "rebucket_note": "이름의 '핸드크림' 로 스킨케어 -> 바디케어 재분류",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "바디케어 카테고리 · 평점 4.8 · 리뷰 672건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1045421",
+      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
       "bucket": "스킨케어",
       "rebucketed": false,
       "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 511,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044110",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260528/RUWg8ca0PGSfLkoJw2QX1044110_00_00RUWg8ca0PGSfLkoJw2QX.png",
-      "shopify_score": 82,
+      "rating": 4.7,
+      "review_count": 567,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231221/4S2p6tvbv9F2EJVNtStV1045421_00_004S2p6tvbv9F2EJVNtStV.jpg",
+      "shopify_score": 81,
       "grade": "A",
-      "s_rule": "weak_solo_token",
+      "s_rule": "score_below_82",
       "us_market_hits": 2,
-      "us_median_price_usd": 38.0,
+      "us_median_price_usd": 28.8,
       "score_breakdown": {
         "category": 25.0,
-        "rating": 13.3,
-        "reviews": 16.4,
+        "rating": 11.7,
+        "reviews": 16.7,
         "price": 10.0,
         "keyword": 0,
         "us_market_fit": 17.5,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 20,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -1804,48 +1536,48 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "walmart_beauty",
-        "global_product": "CeraVe Daily Moisturizing Lotion",
-        "similarity": 0.28,
-        "demand_weight": 0.8,
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.733,
+        "demand_weight": 1.0,
         "matched_tokens": [
-          "lotion"
+          "cushion"
         ],
-        "match_score": 0.224
+        "match_score": 0.733
       },
       "global_matches": [
         {
-          "channel": "walmart_beauty",
-          "global_product": "CeraVe Daily Moisturizing Lotion",
-          "similarity": 0.28,
-          "demand_weight": 0.8,
+          "channel": "tiktok_shop_us",
+          "global_product": "TIRTIR Mask Fit Red Cushion",
+          "similarity": 0.733,
+          "demand_weight": 1.0,
           "matched_tokens": [
-            "lotion"
+            "cushion"
           ],
-          "match_score": 0.224
+          "match_score": 0.733
         },
         {
-          "channel": "walmart_beauty",
-          "global_product": "EOS Shea Better Lotion",
-          "similarity": 0.272,
-          "demand_weight": 0.64,
+          "channel": "oliveyoung_us",
+          "global_product": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
+          "similarity": 0.65,
+          "demand_weight": 0.931,
           "matched_tokens": [
-            "lotion"
+            "cushion"
           ],
-          "match_score": 0.174
+          "match_score": 0.605
         },
         {
-          "channel": "walmart_beauty",
-          "global_product": "CeraVe PM Facial Moisturizing Lotion",
-          "similarity": 0.28,
-          "demand_weight": 0.4,
+          "channel": "tiktok_shop_us",
+          "global_product": "Clio Kill Cover Mesh Glow Cushion",
+          "similarity": 0.667,
+          "demand_weight": 0.5,
           "matched_tokens": [
-            "lotion"
+            "cushion"
           ],
-          "match_score": 0.112
+          "match_score": 0.333
         }
       ],
-      "recommend_reason": "글로벌 'CeraVe Daily Moisturizing Lotion' (walmart_beauty) 유사 28% · 토큰 lotion · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion · S제외:score_below_82"
     },
     {
       "pd_no": "1060208",
@@ -1857,18 +1589,18 @@
       "review_count": 349,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060208",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250307/gErKTV08hXMS48eTmBbS1060208_00_01gErKTV08hXMS48eTmBbS.jpg",
-      "shopify_score": 82,
+      "shopify_score": 81,
       "grade": "A",
-      "s_rule": "no_global_match",
-      "us_market_hits": 6,
-      "us_median_price_usd": 30.5,
+      "s_rule": "score_below_82",
+      "us_market_hits": 8,
+      "us_median_price_usd": 24.5,
       "score_breakdown": {
         "category": 17.9,
         "rating": 13.3,
         "reviews": 15.4,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.8,
         "rebucket_note": "이름의 '트리트먼트' 로 마스크팩 -> 헤어케어 재분류",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -1891,18 +1623,18 @@
       "review_count": 177,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1070006",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251030/kalM4RkxRJNUe3YWQmN51070006_00_01kalM4RkxRJNUe3YWQmN5.jpg",
-      "shopify_score": 82,
+      "shopify_score": 81,
       "grade": "A",
-      "s_rule": "no_global_match",
-      "us_market_hits": 18,
-      "us_median_price_usd": 25.65,
+      "s_rule": "score_below_82",
+      "us_market_hits": 15,
+      "us_median_price_usd": 24.0,
       "score_breakdown": {
         "category": 17.9,
         "rating": 10.0,
         "reviews": 13.6,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.6,
         "rebucket_note": "이름의 '헤어' 로 스킨케어 -> 헤어케어 재분류",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -1916,6 +1648,60 @@
       "recommend_reason": "헤어케어 카테고리 · 평점 4.6 · 리뷰 177건 (글로벌 시그널 약함)"
     },
     {
+      "pd_no": "1060487",
+      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 1663,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060487",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/H4aAY1oXhdnLm8POPll11060487_00_00H4aAY1oXhdnLm8POPll1.jpg",
+      "shopify_score": 79,
+      "grade": "A",
+      "s_rule": "score_below_82",
+      "us_market_hits": 1,
+      "us_median_price_usd": 35.0,
+      "score_breakdown": {
+        "category": 22.6,
+        "rating": 13.3,
+        "reviews": 19.5,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 13.8,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 8,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Medicube Zero Pore Pad",
+        "similarity": 0.433,
+        "demand_weight": 0.8,
+        "matched_tokens": [
+          "pore"
+        ],
+        "match_score": 0.347
+      },
+      "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Medicube Zero Pore Pad",
+          "similarity": 0.433,
+          "demand_weight": 0.8,
+          "matched_tokens": [
+            "pore"
+          ],
+          "match_score": 0.347
+        }
+      ],
+      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore · S제외:score_below_82"
+    },
+    {
       "pd_no": "1072800",
       "name": "줌 바이 정샘물 세범다운 쿠션",
       "bucket": "메이크업",
@@ -1925,18 +1711,18 @@
       "review_count": 1267,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260105/BBuw9crU6REV3VrtkYez1072800_00_00BBuw9crU6REV3VrtkYez.jpg",
-      "shopify_score": 77,
+      "shopify_score": 75,
       "grade": "A",
       "s_rule": "score_below_82",
-      "us_market_hits": 3,
-      "us_median_price_usd": 20.7,
+      "us_market_hits": 2,
+      "us_median_price_usd": 28.8,
       "score_breakdown": {
         "category": 19.0,
         "rating": 10.0,
         "reviews": 18.8,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 19.5,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -2024,74 +1810,6 @@
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 52% · 토큰 centella · S제외:score_below_82"
     },
     {
-      "pd_no": "1056662",
-      "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
-      "bucket": "헤어케어",
-      "rebucketed": false,
-      "price_krw": 3000,
-      "rating": 4.7,
-      "review_count": 620,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056662",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/1ZRA1meifAzv5F4DTBP51056662_00_001ZRA1meifAzv5F4DTBP5.jpg",
-      "shopify_score": 74,
-      "grade": "B",
-      "s_rule": "score_below_82",
-      "us_market_hits": 2,
-      "us_median_price_usd": 29.9,
-      "score_breakdown": {
-        "category": 17.9,
-        "rating": 11.7,
-        "reviews": 16.9,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 17.5,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "헤어케어 카테고리 · 평점 4.7 · 리뷰 620건 (글로벌 시그널 약함)"
-    },
-    {
-      "pd_no": "1048042",
-      "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
-      "bucket": "메이크업",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 223,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048042",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260708/ucPr4JN4R7KwEkLxL7CH1048042_00_00ucPr4JN4R7KwEkLxL7CH.jpg",
-      "shopify_score": 74,
-      "grade": "B",
-      "s_rule": "score_below_82",
-      "us_market_hits": 3,
-      "us_median_price_usd": 20.7,
-      "score_breakdown": {
-        "category": 19.0,
-        "rating": 11.7,
-        "reviews": 14.2,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 19.5,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 223건 (글로벌 시그널 약함)"
-    },
-    {
       "pd_no": "1061880",
       "name": "더페이스샵 맑은 쌀 클렌징 오일 100 ml",
       "bucket": "클렌징",
@@ -2126,27 +1844,27 @@
       "recommend_reason": "클렌징 카테고리 · 평점 4.6 · 리뷰 116건 (글로벌 시그널 약함)"
     },
     {
-      "pd_no": "1064565",
-      "name": "EVA 뒷굽 쿠션 슬리퍼 270 mm",
+      "pd_no": "1048042",
+      "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
       "bucket": "메이크업",
       "rebucketed": false,
       "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 64,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064565",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260219/MAnhhgCxRj3TTfH3LfHM1064565_00_00MAnhhgCxRj3TTfH3LfHM.jpg",
-      "shopify_score": 73,
+      "rating": 4.7,
+      "review_count": 223,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048042",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260708/ucPr4JN4R7KwEkLxL7CH1048042_00_00ucPr4JN4R7KwEkLxL7CH.jpg",
+      "shopify_score": 72,
       "grade": "B",
       "s_rule": "score_below_82",
-      "us_market_hits": 3,
-      "us_median_price_usd": 20.7,
+      "us_market_hits": 2,
+      "us_median_price_usd": 28.8,
       "score_breakdown": {
         "category": 19.0,
-        "rating": 13.3,
-        "reviews": 11.0,
+        "rating": 11.7,
+        "reviews": 14.2,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 19.5,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -2157,7 +1875,7 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": null,
       "global_matches": [],
-      "recommend_reason": "메이크업 카테고리 · 평점 4.8 · 리뷰 64건 (글로벌 시그널 약함)"
+      "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 223건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1073704",
@@ -2224,26 +1942,94 @@
           "channel": "oliveyoung_us",
           "global_product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
           "similarity": 0.26,
-          "demand_weight": 0.637,
+          "demand_weight": 0.588,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.166
+          "match_score": 0.153
         }
       ],
       "recommend_reason": "글로벌 'CeraVe Foaming Facial Cleanser' (amazon_best_sellers) 유사 28% · 토큰 cleanser · S제외:score_below_82"
     },
     {
-      "pd_no": "1060494",
-      "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
-      "bucket": "스킨케어",
+      "pd_no": "1064565",
+      "name": "EVA 뒷굽 쿠션 슬리퍼 270 mm",
+      "bucket": "메이크업",
       "rebucketed": false,
       "price_krw": 5000,
       "rating": 4.8,
-      "review_count": 755,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060494",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260618/cK9o5Yum5W5qX59za4jy1060494_00_01cK9o5Yum5W5qX59za4jy.jpg",
-      "shopify_score": 69,
+      "review_count": 64,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064565",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260219/MAnhhgCxRj3TTfH3LfHM1064565_00_00MAnhhgCxRj3TTfH3LfHM.jpg",
+      "shopify_score": 71,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 2,
+      "us_median_price_usd": 28.8,
+      "score_breakdown": {
+        "category": 19.0,
+        "rating": 13.3,
+        "reviews": 11.0,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 17.5,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "메이크업 카테고리 · 평점 4.8 · 리뷰 64건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1056662",
+      "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
+      "bucket": "헤어케어",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 4.7,
+      "review_count": 620,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056662",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/1ZRA1meifAzv5F4DTBP51056662_00_001ZRA1meifAzv5F4DTBP5.jpg",
+      "shopify_score": 70,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 1,
+      "us_median_price_usd": 35.0,
+      "score_breakdown": {
+        "category": 17.9,
+        "rating": 11.7,
+        "reviews": 16.9,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 13.8,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "헤어케어 카테고리 · 평점 4.7 · 리뷰 620건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1035210",
+      "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 1107,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035210",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251113/xlpZA0qPNWmZjW7JJmY31035210_00_01xlpZA0qPNWmZjW7JJmY3.png",
+      "shopify_score": 67,
       "grade": "B",
       "s_rule": "score_below_82",
       "us_market_hits": 0,
@@ -2251,12 +2037,12 @@
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
-        "reviews": 17.4,
+        "reviews": 18.4,
         "price": 10.0,
-        "keyword": 3,
+        "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -2264,48 +2050,48 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "amazon_best_sellers",
-        "global_product": "COSRX Advanced Snail 96 Mucin Essence",
+        "channel": "walmart_beauty",
+        "global_product": "CeraVe Daily Moisturizing Lotion",
         "similarity": 0.28,
-        "demand_weight": 0.95,
+        "demand_weight": 0.8,
         "matched_tokens": [
-          "essence"
+          "lotion"
         ],
-        "match_score": 0.266
+        "match_score": 0.224
       },
       "global_matches": [
         {
-          "channel": "amazon_best_sellers",
-          "global_product": "COSRX Advanced Snail 96 Mucin Essence",
+          "channel": "walmart_beauty",
+          "global_product": "CeraVe Daily Moisturizing Lotion",
           "similarity": 0.28,
-          "demand_weight": 0.95,
+          "demand_weight": 0.8,
           "matched_tokens": [
-            "essence"
+            "lotion"
           ],
-          "match_score": 0.266
+          "match_score": 0.224
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "COSRX Advanced Snail 96 Mucin Essence",
-          "similarity": 0.28,
-          "demand_weight": 0.9,
+          "channel": "walmart_beauty",
+          "global_product": "EOS Shea Better Lotion",
+          "similarity": 0.272,
+          "demand_weight": 0.64,
           "matched_tokens": [
-            "essence"
+            "lotion"
           ],
-          "match_score": 0.252
+          "match_score": 0.174
         },
         {
-          "channel": "sephora",
-          "global_product": "글레이징 밀크 하이드레이팅 세라마이드 에센스",
-          "similarity": 0.293,
-          "demand_weight": 0.72,
+          "channel": "walmart_beauty",
+          "global_product": "CeraVe PM Facial Moisturizing Lotion",
+          "similarity": 0.28,
+          "demand_weight": 0.4,
           "matched_tokens": [
-            "essence"
+            "lotion"
           ],
-          "match_score": 0.211
+          "match_score": 0.112
         }
       ],
-      "recommend_reason": "글로벌 'COSRX Advanced Snail 96 Mucin Essence' (amazon_best_sellers) 유사 28% · 토큰 essence · S제외:score_below_82"
+      "recommend_reason": "글로벌 'CeraVe Daily Moisturizing Lotion' (walmart_beauty) 유사 28% · 토큰 lotion · S제외:score_below_82"
     },
     {
       "pd_no": "1059832",
@@ -2380,6 +2166,144 @@
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82"
+    },
+    {
+      "pd_no": "1043659",
+      "name": "닥터지오 모이스처 올인원 젤로션 150 ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 587,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1043659",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260325/wXm7JotUk9q64qlDBwcc1043659_00_01wXm7JotUk9q64qlDBwcc.png",
+      "shopify_score": 65,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 13.3,
+        "reviews": 16.8,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 7,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "amazon_best_sellers",
+        "global_product": "La Roche-Posay Double Repair Moisturizer",
+        "similarity": 0.38,
+        "demand_weight": 0.76,
+        "matched_tokens": [
+          "moisturizer"
+        ],
+        "match_score": 0.289
+      },
+      "global_matches": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "La Roche-Posay Double Repair Moisturizer",
+          "similarity": 0.38,
+          "demand_weight": 0.76,
+          "matched_tokens": [
+            "moisturizer"
+          ],
+          "match_score": 0.289
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "Neutrogena Hydro Boost Water Gel",
+          "similarity": 0.38,
+          "demand_weight": 0.4,
+          "matched_tokens": [
+            "moisturizer"
+          ],
+          "match_score": 0.152
+        }
+      ],
+      "recommend_reason": "글로벌 'La Roche-Posay Double Repair Moisturizer' (amazon_best_sellers) 유사 38% · 토큰 moisturizer · S제외:score_below_82"
+    },
+    {
+      "pd_no": "1044110",
+      "name": "존슨즈 베이비 로션 핑크 200ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 511,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044110",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260528/RUWg8ca0PGSfLkoJw2QX1044110_00_00RUWg8ca0PGSfLkoJw2QX.png",
+      "shopify_score": 65,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 13.3,
+        "reviews": 16.4,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 6,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "walmart_beauty",
+        "global_product": "CeraVe Daily Moisturizing Lotion",
+        "similarity": 0.28,
+        "demand_weight": 0.8,
+        "matched_tokens": [
+          "lotion"
+        ],
+        "match_score": 0.224
+      },
+      "global_matches": [
+        {
+          "channel": "walmart_beauty",
+          "global_product": "CeraVe Daily Moisturizing Lotion",
+          "similarity": 0.28,
+          "demand_weight": 0.8,
+          "matched_tokens": [
+            "lotion"
+          ],
+          "match_score": 0.224
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "EOS Shea Better Lotion",
+          "similarity": 0.272,
+          "demand_weight": 0.64,
+          "matched_tokens": [
+            "lotion"
+          ],
+          "match_score": 0.174
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "CeraVe PM Facial Moisturizing Lotion",
+          "similarity": 0.28,
+          "demand_weight": 0.4,
+          "matched_tokens": [
+            "lotion"
+          ],
+          "match_score": 0.112
+        }
+      ],
+      "recommend_reason": "글로벌 'CeraVe Daily Moisturizing Lotion' (walmart_beauty) 유사 28% · 토큰 lotion · S제외:score_below_82"
     },
     {
       "pd_no": "1066221",
@@ -2586,6 +2510,60 @@
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 182건 (글로벌 시그널 약함)"
     },
     {
+      "pd_no": "1061922",
+      "name": "본셉 비타씨 젤리 마스크 1매 23 g",
+      "bucket": "마스크팩",
+      "rebucketed": false,
+      "price_krw": 1000,
+      "rating": 4.8,
+      "review_count": 992,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061922",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/ZRf7Iq7VTPUseTWDgKu21061922_00_00ZRf7Iq7VTPUseTWDgKu2.jpg",
+      "shopify_score": 61,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 22.6,
+        "rating": 13.3,
+        "reviews": 18.2,
+        "price": 7.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 6,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+        "similarity": 0.52,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "vitaminc"
+        ],
+        "match_score": 0.255
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+          "similarity": 0.52,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.255
+        }
+      ],
+      "recommend_reason": "글로벌 'Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 52% · 토큰 vitaminc · S제외:score_below_82"
+    },
+    {
       "pd_no": "1048918",
       "name": "손앤박 아티 스프레드 컬러 밤(03 멜로우)",
       "bucket": "메이크업",
@@ -2618,40 +2596,6 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 2,025건 (글로벌 시그널 약함)"
-    },
-    {
-      "pd_no": "1061922",
-      "name": "본셉 비타씨 젤리 마스크 1매 23 g",
-      "bucket": "마스크팩",
-      "rebucketed": false,
-      "price_krw": 1000,
-      "rating": 4.8,
-      "review_count": 992,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061922",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/ZRf7Iq7VTPUseTWDgKu21061922_00_00ZRf7Iq7VTPUseTWDgKu2.jpg",
-      "shopify_score": 61,
-      "grade": "B",
-      "s_rule": "score_below_82",
-      "us_market_hits": 0,
-      "us_median_price_usd": 0.0,
-      "score_breakdown": {
-        "category": 22.6,
-        "rating": 13.3,
-        "reviews": 18.2,
-        "price": 7.0,
-        "keyword": 0,
-        "us_market_fit": 0.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 992건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1039542",
@@ -2892,6 +2836,60 @@
       "recommend_reason": "바디케어 카테고리 · 평점 4.8 · 리뷰 208건 (글로벌 시그널 약함)"
     },
     {
+      "pd_no": "1032881",
+      "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
+      "bucket": "헤어케어",
+      "rebucketed": true,
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 759,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1032881",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260129/qgTdnRguYR6oGojy18Td1032881_00_01qgTdnRguYR6oGojy18Td.jpg",
+      "shopify_score": 59,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 17.9,
+        "rating": 13.3,
+        "reviews": 17.5,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "이름의 '헤어' 로 마스크팩 -> 헤어케어 재분류",
+        "global_similarity_reference_only": 3,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
+        "similarity": 0.26,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "repair"
+        ],
+        "match_score": 0.127
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
+          "similarity": 0.26,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "repair"
+          ],
+          "match_score": 0.127
+        }
+      ],
+      "recommend_reason": "글로벌 'UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)' (oliveyoung_us) 유사 26% · 토큰 repair · S제외:score_below_82"
+    },
+    {
       "pd_no": "1061927",
       "name": "리노이아 워터 트리트먼트 200 ml",
       "bucket": "헤어케어",
@@ -2924,40 +2922,6 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 893건 (글로벌 시그널 약함)"
-    },
-    {
-      "pd_no": "1032881",
-      "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
-      "bucket": "헤어케어",
-      "rebucketed": true,
-      "price_krw": 3000,
-      "rating": 4.8,
-      "review_count": 759,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1032881",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260129/qgTdnRguYR6oGojy18Td1032881_00_01qgTdnRguYR6oGojy18Td.jpg",
-      "shopify_score": 59,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 0,
-      "us_median_price_usd": 0.0,
-      "score_breakdown": {
-        "category": 17.9,
-        "rating": 13.3,
-        "reviews": 17.5,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 0.0,
-        "rebucket_note": "이름의 '헤어' 로 마스크팩 -> 헤어케어 재분류",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 759건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1033634",
@@ -3084,7 +3048,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -3111,16 +3075,6 @@
             "shampoo"
           ],
           "match_score": 0.42
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "Dr.FORHAIR Folligen Thickening Shampoo 16.9 fl. oz.(500ml)",
-          "similarity": 0.7,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "shampoo"
-          ],
-          "match_score": 0.343
         }
       ],
       "recommend_reason": "글로벌 'OGX Argan Oil Shampoo' (walmart_beauty) 유사 70% · 토큰 shampoo · S제외:score_below_82"
@@ -3187,14 +3141,14 @@
           "match_score": 0.289
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-          "similarity": 0.35,
-          "demand_weight": 0.637,
+          "channel": "amazon_best_sellers",
+          "global_product": "CeraVe Moisturizing Cream",
+          "similarity": 0.433,
+          "demand_weight": 0.475,
           "matched_tokens": [
             "moisturizer"
           ],
-          "match_score": 0.223
+          "match_score": 0.206
         }
       ],
       "recommend_reason": "글로벌 'CeraVe Daily Moisturizing Lotion' (walmart_beauty) 유사 40% · 토큰 moisturizer · S제외:score_below_82"
@@ -3456,17 +3410,17 @@
       "shopify_score": 57,
       "grade": "C",
       "s_rule": "score_below_82",
-      "us_market_hits": 14,
-      "us_median_price_usd": 27.0,
+      "us_market_hits": 16,
+      "us_median_price_usd": 24.0,
       "score_breakdown": {
         "category": 25.0,
         "rating": 0.0,
         "reviews": 0.0,
         "price": 7.0,
         "keyword": 0,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.6,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -3496,23 +3450,23 @@
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
-          "demand_weight": 0.588,
+          "demand_weight": 0.735,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.172
+          "match_score": 0.216
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.293,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.158
+          "match_score": 0.144
         }
       ],
       "recommend_reason": "글로벌 '베네피앙스 링클 스무딩 아이 크림' (sephora) 유사 32% · 토큰 cream · S제외:score_below_82"
@@ -4946,7 +4900,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -4973,16 +4927,6 @@
             "shampoo"
           ],
           "match_score": 0.42
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "Dr.FORHAIR Folligen Thickening Shampoo 16.9 fl. oz.(500ml)",
-          "similarity": 0.7,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "shampoo"
-          ],
-          "match_score": 0.343
         }
       ],
       "recommend_reason": "글로벌 'OGX Argan Oil Shampoo' (walmart_beauty) 유사 70% · 토큰 shampoo · S제외:score_below_82"

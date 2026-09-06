@@ -2,7 +2,7 @@
 title: "Record 034 · Logos-An-Agent-Harness-on-a-Cross-Process-Bus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:27.934493+00:00
+updated_at: 2026-09-06T13:04:49.831014+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 503 · KI-gestützte-Karriereberatung-und-Stellenempfehlungen-für-den-Schweize"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:28.053725+00:00
+updated_at: 2026-09-06T13:04:49.955431+00:00
 tags: [record, real-data]
 ---
 

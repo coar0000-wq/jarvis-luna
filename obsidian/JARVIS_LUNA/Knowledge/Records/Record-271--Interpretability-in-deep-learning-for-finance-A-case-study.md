@@ -2,7 +2,7 @@
 title: "Record 271 · Interpretability-in-deep-learning-for-finance-A-case-study-for-the-Hes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:27.994218+00:00
+updated_at: 2026-09-06T13:04:49.898723+00:00
 tags: [record, real-data]
 ---
 

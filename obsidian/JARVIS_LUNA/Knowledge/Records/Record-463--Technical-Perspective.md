@@ -2,7 +2,7 @@
 title: "Record 463 · Technical-Perspective"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:28.043503+00:00
+updated_at: 2026-09-06T13:04:49.945884+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 729 · Secure-AI-Based-Authentication-for-IoT-Devices"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:28.110689+00:00
+updated_at: 2026-09-06T13:04:50.009996+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 524 · FleCSI-Flexible-Computational-Science-Infrastructure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:28.058912+00:00
+updated_at: 2026-09-06T13:04:49.960272+00:00
 tags: [record, real-data]
 ---
 

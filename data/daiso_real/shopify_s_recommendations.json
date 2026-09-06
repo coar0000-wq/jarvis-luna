@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-06T09:34:39.061681+00:00",
+  "generated_at": "2026-09-06T13:27:09.319284+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
-  "count": 6,
+  "count": 5,
   "priority_note": "Shopify 1차 등록 후보. 이 파일만 정본으로 사용.",
   "recommendations": [
     {
@@ -17,16 +17,16 @@
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048583",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/GuN4uykABHahtwRmVfHO1048583_00_00GuN4uykABHahtwRmVfHO.png",
-      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule",
       "matched_global": {
         "channel": "oliveyoung_us",
-        "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-        "similarity": 0.667,
-        "demand_weight": 0.931,
+        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+        "similarity": 0.733,
+        "demand_weight": 0.833,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.621
+        "match_score": 0.611
       },
       "registerable": true
     },
@@ -111,7 +111,7 @@
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 87,
+      "shopify_score": 89,
       "grade": "S",
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
@@ -127,30 +127,6 @@
           "toner"
         ],
         "match_score": 0.874
-      },
-      "registerable": true
-    },
-    {
-      "rank": 6,
-      "pd_no": "1045421",
-      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 83,
-      "grade": "S",
-      "s_rule": "strong_form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231221/4S2p6tvbv9F2EJVNtStV1045421_00_004S2p6tvbv9F2EJVNtStV.jpg",
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "TIRTIR Mask Fit Red Cushion",
-        "similarity": 0.733,
-        "demand_weight": 1.0,
-        "matched_tokens": [
-          "cushion"
-        ],
-        "match_score": 0.733
       },
       "registerable": true
     }

@@ -2,7 +2,7 @@
 title: "Record 328 · Association-of-long-COVID-with-health-related-quality-of-life-outcomes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:28.009053+00:00
+updated_at: 2026-09-06T13:04:49.913107+00:00
 tags: [record, real-data]
 ---
 

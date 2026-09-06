@@ -2,7 +2,7 @@
 title: "Record 177 · Shallow-Trap-States-Control-Electrical-Performance-of-Amorphous-Oxide-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:27.969346+00:00
+updated_at: 2026-09-06T13:04:49.872384+00:00
 tags: [record, real-data]
 ---
 

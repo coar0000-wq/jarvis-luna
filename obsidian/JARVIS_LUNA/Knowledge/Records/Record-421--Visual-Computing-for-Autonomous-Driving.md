@@ -2,7 +2,7 @@
 title: "Record 421 · Visual-Computing-for-Autonomous-Driving"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:28.033181+00:00
+updated_at: 2026-09-06T13:04:49.935808+00:00
 tags: [record, real-data]
 ---
 

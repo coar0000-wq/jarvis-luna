@@ -2,7 +2,7 @@
 title: "Record 250 · 3UTR-directed-kinase-proximal-mRNA-decay-inhibits-CEBPβ-phosphorylatio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T09:12:27.987961+00:00
+updated_at: 2026-09-06T13:04:49.892272+00:00
 tags: [record, real-data]
 ---
 
