@@ -238,6 +238,14 @@ jobs:
 
       # 흩어진 실패 기록을 한 곳에 모은다. 막힘·고장·대기·보류를 나눈다.
       # 대시보드가 이걸 읽으므로 대시보드 생성보다 먼저 돌아야 한다.
+      # 수집원을 직접 찔러본다. 메모가 아니라 결과를 남긴다.
+      # 샌드박스는 FDA 에 차단당해 404 를 받는데 러너에서는 정상이다.
+      # 그래서 러너에서 확인해야 한다.
+      - name: 수집원 생존 확인 (러너에서 직접 호출)
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python -u scripts/check_source_health.py
+
       - name: 에러 보고서 생성 (막힘·고장·대기·보류)
         continue-on-error: true
         timeout-minutes: 3

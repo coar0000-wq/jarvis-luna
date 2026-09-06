@@ -30,9 +30,15 @@ DATA = ROOT / "data"
 OUT = DATA / "error_report.json"
 
 BLOCKED = "막힘"      # robots·규정. 고칠 수 없다
-BROKEN = "고장"       # 됐어야 하는데 안 된다
+BROKEN = "고장"       # 됐어야 하는데 안 된다. 지금도 데이터가 안 들어온다
+REPLACED = "대체됨"   # 그 주소는 죽었지만 다른 경로로 받고 있다
 WAITING = "대기"      # 사람이 값을 줘야 한다
 HELD = "보류"         # 할 수 있지만 안 하기로 했다
+
+# 대체 경로가 있다는 표시. 이게 있으면 고장이 아니다.
+# 처음 만들 때 이걸 안 봐서 FDA 3건을 고장으로 세었다. 실제로는
+# fda_failures 가 비어 있었고 법률팀은 116건을 받고 있었다.
+HAS_ALTERNATIVE = ("대체", "만 수집", "논문만", "로 대신", "대신 ")
 
 
 def load(p: Path, default=None):
@@ -43,10 +49,14 @@ def load(p: Path, default=None):
 
 
 def classify(reason: str) -> str:
-    r = str(reason).lower()
-    if "robots" in r or "disallow" in r:
+    r = str(reason)
+    low = r.lower()
+    if "robots" in low or "disallow" in low:
         return BLOCKED
-    if "404" in r or "403" in r or "http" in r or "실패" in r or "없음" in r or "0건" in r:
+    # 대체 경로가 적혀 있으면 데이터는 들어오고 있다. 고장이 아니다.
+    if any(k in r for k in HAS_ALTERNATIVE):
+        return REPLACED
+    if any(k in low for k in ("404", "403", "http")) or "실패" in r or "없음" in r or "0건" in r:
         return BROKEN
     return HELD
 
@@ -64,11 +74,21 @@ def main() -> int:
         add("기관 수집팀", org, why, classify(why),
             "OpenAlex 논문 경로는 살아 있다" if "OpenAlex" in str(why) else "")
 
-    # 팀 피드
+    # 팀 피드. not_collected 는 "예전에 이 주소가 없더라" 는 기록이지
+    # 지금 고장났다는 뜻이 아니다. 실제 실패는 fda_failures 에 담긴다.
     tf = load(DATA / "team_feeds.json") or {}
+    live = (tf.get("summary") or {}).get("legal") or {}
+    fda_ok = not (tf.get("fda_failures") or [])
     for name, why in (tf.get("not_collected") or {}).items():
-        add("법률·규제팀", name, why, classify(why),
-            "openFDA 다른 엔드포인트로 대체 중" if "openFDA" in str(name) else "")
+        kind = classify(why)
+        if fda_ok and kind == BROKEN:
+            # 지금 데이터가 들어오고 있으면 그 기록은 과거형이다.
+            kind = REPLACED
+        add("법률·규제팀", name, why, kind,
+            f'현재 법률 자료 {live.get("total", 0)}건 수신 중 (최근 {live.get("recent", 0)}건)')
+    for f in (tf.get("fda_failures") or []):
+        add("법률·규제팀", f.get("name") or f, f.get("error") or "호출 실패", BROKEN,
+            "이건 지금 실제로 안 되는 것이다")
 
     # 디자인
     ds = load(DATA / "design_sources.json") or {}
@@ -134,7 +154,8 @@ def main() -> int:
         by_kind.setdefault(r["kind"], []).append(r)
     by_team: dict = {}
     for r in rows:
-        by_team.setdefault(r["team"], {"막힘": 0, "고장": 0, "대기": 0, "보류": 0})
+        by_team.setdefault(r["team"], {"막힘": 0, "고장": 0, "대체됨": 0,
+                                       "대기": 0, "보류": 0})
         by_team[r["team"]][r["kind"]] += 1
 
     payload = {
@@ -142,7 +163,8 @@ def main() -> int:
         "generator": "scripts/build_error_report.py",
         "구분": {
             BLOCKED: "robots.txt 나 규정 때문에 앞으로도 못 한다. 고칠 대상이 아니다",
-            BROKEN: "됐어야 하는데 안 된다. 고쳐야 한다",
+            BROKEN: "됐어야 하는데 안 된다. 지금도 데이터가 안 들어온다. 고쳐야 한다",
+            REPLACED: "그 주소는 죽었지만 다른 경로로 받고 있다. 기록일 뿐 할 일이 아니다",
             WAITING: "사람이 값을 줘야 진행된다",
             HELD: "기술적으로 가능하지만 안 하기로 정했다",
         },
