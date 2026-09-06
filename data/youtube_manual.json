@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-06T11:35:10.242435+00:00",
+  "generated_at": "2026-09-06T11:40:08.698618+00:00",
   "generator": "scripts/ingest_youtube_links.py",
   "입력": "data/manual/youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
-  "total": 6,
-  "ok": 6,
+  "total": 7,
+  "ok": 7,
   "failed": 0,
   "fetched_this_run": 1,
   "bad_lines": [],
@@ -13,7 +13,7 @@
     "pricing": 1,
     "market": 3,
     "knowledge": 1,
-    "design": 2
+    "design": 3
   },
   "videos": [
     {
@@ -127,6 +127,24 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:35:07.239307+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "uTr2yXMeL9w",
+      "url": "https://www.youtube.com/watch?v=uTr2yXMeL9w",
+      "note": "Desire - 제품 사진을 광고 컷으로 바꾸는 프롬프트 100개. ChatGPT + Google Flow + Nano Banana 2",
+      "title": "100 Product Command Prompts to Boost Productivity (ChatGPT & Google Flow)",
+      "channel": "Desire",
+      "views": 10304,
+      "length_sec": 424,
+      "published": "",
+      "description": "100 FREE Advertising Command Prompts: Ultimate Google Flow & AI Product Design Tutorial\nAI Prompt Engineering Course: https://www.youtube.com/watch?v=aTV33z9xLFE&list=PLPV78uXkSo7w\n🚀🚀 What if you could turn a simple product photo into a stunning, cinematic advertising image in just seconds, without Photoshop, expensive cameras, or complicated prompts?\nIn this video, I’ll show you a powerful ChatGPT trick combined with Google Flow and Nano Banana 2 that can transform your product images into professional ads, social media posts, 3D billboards, luxury visuals, and more.\nAnd the best part? I’ve c",
+      "error": "",
+      "teams": [
+        "design"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-06T11:40:05.695439+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
     }
   ]
