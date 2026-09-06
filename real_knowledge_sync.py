@@ -110,7 +110,28 @@ def collect_youtube():
             "items": [],
         }
 
-    for cid in CHANNELS:
+    # 2026-09-06 중단.
+    # youtube.com/robots.txt 가 이 경로를 명시적으로 막고 있다.
+    #     User-agent: *
+    #     Disallow: /feeds/videos.xml
+    # 우리는 CSS-Tricks, Nielsen Norman, UX Collective, r/KoreanBeauty 를
+    # 같은 이유로 제외했다. 여기만 예외를 둘 수는 없다.
+    # 정식 경로는 YouTube Data API v3 다. robots.txt 가 아니라 이용약관과
+    # 할당량으로 관리되고, API 키가 필요하다.
+    return {
+        "status": "blocked_by_robots",
+        "source": "YouTube RSS",
+        "reason": ("youtube.com/robots.txt 가 /feeds/videos.xml 을 Disallow 한다. "
+                   "규정을 지키려고 수집을 멈췄다."),
+        "대안": ("YouTube Data API v3 (search.list / playlistItems.list). "
+               "GitHub Secrets 에 YOUTUBE_API_KEY 를 넣으면 그 경로로 바꾼다. "
+               "키는 저에게 보내지 마시고 저장소 Settings 에서 직접 넣으시면 됩니다."),
+        "확인일": "2026-09-06",
+        "channels_configured": len(CHANNELS),
+        "items": [],
+    }
+
+    for cid in CHANNELS:                                      # noqa: unreachable
 
         url = f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}"
 

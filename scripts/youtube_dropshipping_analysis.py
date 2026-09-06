@@ -201,7 +201,15 @@ def write_shopify_learn(videos: list[dict], channel_title: str) -> None:
     print(f"Learn With Shopify: {len(ordered)} → {out}")
 
 
+# 2026-09-06 중단: youtube.com/robots.txt 가 "Disallow: /feeds/videos.xml".
+# CSS-Tricks·Nielsen Norman·r/KoreanBeauty 를 같은 이유로 뺐으므로 예외 없음.
+# 정식 경로는 YouTube Data API v3 (YOUTUBE_API_KEY 필요).
+ROBOTS_BLOCKED = True
+
 def main() -> int:
+    if ROBOTS_BLOCKED:
+        print("youtube.com/robots.txt 가 /feeds/videos.xml 을 막고 있어 수집하지 않는다. YouTube Data API v3 로 전환 필요.")
+        return 0
     DATA.mkdir(parents=True, exist_ok=True)
     ids = channel_ids()
     channels = []
