@@ -1,0 +1,10 @@
+# 읽을 만한 논문을 여기에 한 줄씩 붙여넣으세요.
+# '#' 으로 시작하면 주석입니다.
+#
+# 형식 1  URL | 메모
+# 형식 2  URL | 팀 | 메모
+#
+# 팀 이름: market listing design pricing legal sourcing knowledge
+# 팀을 안 적으면 제목과 초록을 보고 자동으로 나눕니다.
+
+https://arxiv.org/abs/2608.23771 | market | 쇼피파이 앱 생태계 7년 종단분석. 후발주자가 88% 범주에서 더 빨리 성장

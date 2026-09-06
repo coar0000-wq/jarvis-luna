@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-09-06T12:09:58.125458+00:00",
+  "generator": "scripts/ingest_papers.py",
+  "입력": "data/manual/papers.txt",
+  "robots": "arxiv.org 는 /abs 를 허용하고 Crawl-delay 15 를 요구한다. 15초 간격으로 하나씩 받는다. export.arxiv.org 는 robots.txt 가 전면 차단이라 쓰지 않는다. 2026-09-06 확인.",
+  "total": 1,
+  "ok": 1,
+  "failed": 0,
+  "fetched_this_run": 1,
+  "bad_lines": [],
+  "by_team": {
+    "market": 1
+  },
+  "papers": [
+    {
+      "arxiv_id": "2608.23771",
+      "url": "https://arxiv.org/abs/2608.23771",
+      "note": "쇼피파이 앱 생태계 7년 종단분석. 후발주자가 88% 범주에서 더 빨리 성장",
+      "title": "Scale, Concentration, and Entry Timing in the Shopify App Ecosystem: A Longitudinal Study of Platform Governance and Application Survival",
+      "authors": [
+        "Assabese, Fabrizio",
+        "Celis, Peter-Jan",
+        "Destefanis, Giuseppe"
+      ],
+      "date": "2026-08-24",
+      "pdf_url": "https://arxiv.org/pdf/2608.23771",
+      "subjects": "Software Engineering (cs.SE)",
+      "abstract": "The Shopify marketplace hosts more than 16,000 active third-party applications, serving 2.7 million active merchant stores generating an estimated \\$706 billion in annual sales, yet little empirical evidence exists on its structure and adoption drivers. We analyse it using a September 2025 snapshot of all 24,826 applications, a weekly panel of 7,708 applications over 366 weeks (February 2019 to March 2026), and listing histories reconstructed from the Internet Archive. Across 55 established functional categories, over half were low-concentration and 20\\% highly concentrated, with larger categories consistently less concentrated. Later entrants grew faster than early movers in 88\\% of the 50 analysed categories, persisting across seven years of quarterly re-estimations, with early movers on net losing detected installations whilst late movers gained them. Platform governance reshaped competition asymmetrically: Shopify's entry into chat reversed more than two years of de-concentration; the deprecation of its Product Reviews application, to our knowledge the first measured platform-owner exit from complementor category, released 191,000 installations of which at most a third reappeared as competitor adoption within a year; the 2021 reduction of the platform revenue share produced no detectable change in entry or retention. Failure is largely silent and predictable: the median exiting application peaked at 8 detected installations and disappeared from tracking within 68 weeks of launch, category leadership changed hands in 92\\% of categories over seven years, and publicly observable data from an application's first six months predict exit within two years with cross-validated AUC above 0.8. App markets on Shopify remain contestable; who benefits depends on platform governance and entry conditions more than on entry timing.",
+      "error": "",
+      "teams": [
+        "market"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-06T12:09:58.125439+00:00",
+      "source": "사람이 직접 지정 (data/manual/papers.txt)"
+    }
+  ]
+}

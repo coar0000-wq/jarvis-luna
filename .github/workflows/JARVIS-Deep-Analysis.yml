@@ -91,6 +91,13 @@ jobs:
         timeout-minutes: 5
         run: python -u scripts/ingest_youtube_links.py
 
+      # 사람이 넣은 논문. arxiv robots.txt 가 Crawl-delay 15 를 걸어서
+      # 한 편에 15초씩 걸린다. 팀 피드가 이 결과를 읽으므로 앞에 둔다.
+      - name: 논문 수집 (사람 지정)
+        continue-on-error: true
+        timeout-minutes: 10
+        run: python -u scripts/ingest_papers.py
+
       - name: Build per-team feeds (route pools + FDA for legal)
         continue-on-error: true
         run: python -u scripts/build_team_feeds.py

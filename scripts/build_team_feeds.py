@@ -82,6 +82,10 @@ POOL_TEAMS = {
     # 유튜브 풀 119건이 통째로 미배정이었다. 열어보니 선크림 정량,
     # 피부 장벽, 올리브영 특가 같은 것이라 전부 시장 자료다.
     "youtube": ("market",),
+    # 논문은 사람이 팀을 지정해 넣는다. 지정한 팀은 ingest_papers.py 가
+    # 들고 있으므로 여기서는 지식팀에만 기본으로 걸어둔다.
+    # papers·youtube_manual·youtube_channel 은 항목마다 teams 를 들고 오므로
+    # 출처 기본값을 두지 않는다. 사람이 정한 것을 덮어쓰면 안 된다.
     "daiso": ("sourcing",),
 }
 
@@ -181,6 +185,37 @@ def norm(text: str) -> str:
     return low
 
 
+MONTHS = {m: f"{i:02d}" for i, m in enumerate(
+    ("jan", "feb", "mar", "apr", "may", "jun",
+     "jul", "aug", "sep", "oct", "nov", "dec"), 1)}
+
+# 사람이 골라 넣은 자료의 출처. 목록에서 위에 둔다.
+BY_HAND = ("papers", "youtube_manual", "youtube_channel", "daiso")
+
+
+def iso_date(raw: str) -> str:
+    """날짜를 YYYY-MM-DD 로 맞춘다.
+
+    풀마다 형식이 달랐다. 구글 뉴스 RSS 는 'Wed, 31 Dec 2025 08:00 GMT',
+    다이소는 '2026-09-06', 논문은 '2026-08-24' 다. 이걸 문자열로 정렬하니
+    'Wed' 가 '2026' 보다 커서 RSS 기사만 위로 올라왔다. 사람이 직접 넣은
+    영상과 논문이 상위 60건 밖으로 밀려 팀 화면에서 아예 안 보였다.
+    """
+    t = (raw or "").strip()
+    if not t:
+        return ""
+    m = re.match(r"^(\d{4})-(\d{2})-(\d{2})", t)
+    if m:
+        return "-".join(m.groups())
+    m = re.search(r"(\d{1,2})\s+([A-Za-z]{3})[a-z]*\s+(\d{4})", t)
+    if m:
+        day, mon, year = m.groups()
+        mm = MONTHS.get(mon.lower())
+        if mm:
+            return f"{year}-{mm}-{int(day):02d}"
+    return ""
+
+
 def route(text: str) -> list[str]:
     low = norm(text)
     return [team for team, kws in ROUTE.items() if any(k in low for k in kws)]
@@ -213,8 +248,48 @@ def main() -> int:
                       "url": it.get("url") or "",
                       "date": (dz or {}).get("updated_at", "")[:10],
                       "pool": "daiso",
+                      # 우리가 파는 물건이다. 소싱팀 것으로 고정한다.
+                      # 낱말로 돌리면 앰플·크림·마스크가 마케팅에도 걸려서
+                      # 상품명 174개가 마케팅팀 상단을 덮어버린다.
+                      "teams": ["sourcing"],
                       "text": " ".join(str(it.get(k) or "") for k in
                                        ("category", "bucket", "brand"))})
+
+    # 사람이 넣은 논문과 영상.
+    #
+    # 이 셋이 풀에 없었다. 세션 내내 영상을 팀에 배정해 왔는데 그 결과가
+    # 팀 피드에는 하나도 안 들어가고 있었다. 배정한 곳과 보는 곳이
+    # 달랐던 것이다.
+    #
+    # teams 를 그대로 들고 온다. 사람이 정한 팀을 낱말로 다시 뒤집으면
+    # 안 된다. 실제로 논문 하나가 초록의 'listing histories' 때문에
+    # 마케팅이 아니라 리스팅팀으로 갔다.
+    pm = load(DATA / "papers_manual.json")
+    for it in ((pm or {}).get("papers") or []):
+        if not it.get("title"):
+            continue
+        pools.append({"title": it["title"], "url": it.get("url") or "",
+                      "date": it.get("date") or "", "pool": "papers",
+                      "teams": it.get("teams") or [],
+                      "text": (it.get("abstract") or "")[:600]})
+
+    ym = load(DATA / "youtube_manual.json")
+    for it in ((ym or {}).get("videos") or []):
+        if not it.get("title") or it.get("error"):
+            continue
+        pools.append({"title": it["title"], "url": it.get("url") or "",
+                      "date": (it.get("published") or it.get("collected_at") or "")[:10],
+                      "pool": "youtube_manual", "teams": it.get("teams") or [],
+                      "text": (it.get("description") or "")[:400]})
+
+    yc = load(DATA / "youtube_channels.json")
+    for c in ((yc or {}).get("items") or []):
+        for it in (c.get("videos") or []):
+            if not it.get("title"):
+                continue
+            pools.append({"title": it["title"], "url": it.get("url") or "",
+                          "date": "", "pool": "youtube_channel",
+                          "teams": it.get("teams") or [], "text": ""})
 
     fda_items, fda_fails = collect_fda()
     for it in fda_items:
@@ -233,7 +308,12 @@ def main() -> int:
             teams.setdefault(x, [])
     unrouted = 0
     for it in pools:
-        hits = route(f'{it.get("title","")} {it.get("text","")} {it.get("pool","")}')
+        # 항목이 팀을 들고 왔으면 그것이 답이다. 낱말은 보지 않는다.
+        given = [t for t in (it.get("teams") or []) if t != "knowledge" or True]
+        if given:
+            hits = list(given)
+        else:
+            hits = route(f'{it.get("title","")} {it.get("text","")} {it.get("pool","")}')
         # 제목에 낱말이 없어도 출처를 알면 팀은 정해진다.
         pool = str(it.get("pool") or "")
         by_pool = POOL_TEAMS.get(pool, ())
@@ -246,7 +326,12 @@ def main() -> int:
             unrouted += 1
             continue
         for t in hits:
-            teams[t].append({k: it[k] for k in ("title", "url", "date", "pool") if k in it})
+            row = {k: it[k] for k in ("title", "url", "pool") if k in it}
+            row["date"] = iso_date(it.get("date", ""))
+            # 사람이 직접 넣은 것은 위에 둔다. 골라 넣은 자료가 자동
+            # 수집분에 밀려 안 보이면 넣은 의미가 없다.
+            row["by_hand"] = it.get("pool") in BY_HAND
+            teams[t].append(row)
 
     cutoff = (datetime.now(timezone.utc) - timedelta(days=RECENT_DAYS)).strftime("%Y-%m-%d")
     summary = {}
@@ -258,7 +343,8 @@ def main() -> int:
                 continue
             seen.add(k)
             uniq.append(r)
-        uniq.sort(key=lambda r: str(r.get("date") or ""), reverse=True)
+        uniq.sort(key=lambda r: (bool(r.get("by_hand")), str(r.get("date") or "")),
+                  reverse=True)
         recent = [r for r in uniq if str(r.get("date") or "")[:10] >= cutoff]
         teams[t] = uniq[:60]
         summary[t] = {"total": len(uniq), "recent": len(recent)}
