@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T16:25:19.235749+00:00",
+  "generated_at": "2026-09-06T18:31:57.519714+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -19,8 +19,8 @@
   "제목_바뀐_영상": [
     {
       "video_id": "CSr4DYGUPOM",
-      "before": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
-      "after": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
+      "before": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
+      "after": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
       "kept_teams": [
         "design",
         "market"
@@ -67,9 +67,9 @@
     {
       "video_id": "2TlIg3VokY8",
       "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-      "views_text": "467K views",
+      "views_text": "468K views",
       "published_text": "2 months ago",
-      "views": 467000,
+      "views": 468000,
       "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
       "channel": "uxpeak",
       "teams": [
@@ -173,6 +173,18 @@
       ]
     },
     {
+      "video_id": "GGg61sdEjeI",
+      "title": "Learn to Design 10X Better Mobile UI Designs",
+      "views_text": "162K views",
+      "published_text": "10 days ago",
+      "views": 162000,
+      "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
+      "channel": "uxpeak",
+      "teams": [
+        "design"
+      ]
+    },
+    {
       "video_id": "zxPZ1Fcff20",
       "title": "💸가격대별 안경🕶 브랜드 추천👍안경 입문자 맞춤 안경부터 패션트렌드 안경추천까지💕🎉  이것만 보면 내가 바로 안경👓 전문가!!",
       "views_text": "162K views",
@@ -182,18 +194,6 @@
       "channel": "땡스큐레이터",
       "teams": [
         "market"
-      ]
-    },
-    {
-      "video_id": "GGg61sdEjeI",
-      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
-      "views_text": "161K views",
-      "published_text": "10 days ago",
-      "views": 161000,
-      "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
-      "channel": "uxpeak",
-      "teams": [
-        "design"
       ]
     },
     {
@@ -212,7 +212,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-06T16:25:08.944917+00:00",
+      "last_ok_at": "2026-09-06T18:31:47.106614+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -221,14 +221,14 @@
       "subscribers": "121K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-06T16:25:08.944940+00:00",
+      "checked_at": "2026-09-06T18:31:47.106635+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
-          "views_text": "161K views",
+          "title": "Learn to Design 10X Better Mobile UI Designs",
+          "views_text": "162K views",
           "published_text": "10 days ago",
-          "views": 161000,
+          "views": 162000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -238,9 +238,9 @@
         {
           "video_id": "2TlIg3VokY8",
           "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-          "views_text": "467K views",
+          "views_text": "468K views",
           "published_text": "2 months ago",
-          "views": 467000,
+          "views": 468000,
           "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
           "channel": "uxpeak",
           "teams": [
@@ -479,7 +479,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-06T16:25:14.235553+00:00",
+      "last_ok_at": "2026-09-06T18:31:52.519491+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -488,14 +488,14 @@
       "subscribers": "17.1K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-06T16:25:14.235568+00:00",
+      "checked_at": "2026-09-06T18:31:52.519508+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
-          "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-          "views_text": "27K views",
+          "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+          "views_text": "28K views",
           "published_text": "3 days ago",
-          "views": 27000,
+          "views": 28000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
           "teams": [
@@ -519,9 +519,9 @@
         {
           "video_id": "ctBFjJ0ujKs",
           "title": "🚨견적서가 너무 어려운 사장님들 주목! | 견적 책정 기준부터 세부 항목까지 자세하게 뜯어보기 👀",
-          "views_text": "3.7K views",
+          "views_text": "3.8K views",
           "published_text": "1 month ago",
-          "views": 3700,
+          "views": 3800,
           "url": "https://www.youtube.com/watch?v=ctBFjJ0ujKs",
           "channel": "땡스큐레이터",
           "teams": [

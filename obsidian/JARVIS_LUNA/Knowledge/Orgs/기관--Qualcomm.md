@@ -2,7 +2,7 @@
 title: "기관 · Qualcomm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T16:26:52.699925+00:00
+updated_at: 2026-09-06T18:33:37.523616+00:00
 tags: [org, real-data]
 ---
 
@@ -11,31 +11,31 @@ tags: [org, real-data]
 실제 수집 레코드 **25건**이 이 기관에 연결되어 있습니다. (논문 25건)
 
 - [[Record-171--An-Artificial-IntelligenceEnabled-Cardiopulmonary-Resuscit]]
-- [[Record-254--Comment-on-Machine-learningbased-prediction-of-CAC-defined]]
-- [[Record-268--Geomorphological-dynamics-at-the-coast-A-sedimentary-strat]]
-- [[Record-269--Early-to-mid-Holocene-climate-oscillations-and-cultural-sh]]
-- [[Record-310--Earliest-iron-blooms-discovered-off-the-Carmel-coast-revis]]
-- [[Record-325--Fetal-monitoring-for-high-risk-pregnancies-using-a-wearabl]]
-- [[Record-405--Building-Intuition-in-Amplifier-Design-Using-Load-Pull-Bas]]
-- [[Record-435--An-Improved-Lower-Bound-on-Cardinality-of-Support-of-the-A]]
-- [[Record-436--Analysis-and-Design-of-mm-Wave-CMOS-Power-Amplifier-Using-]]
-- [[Record-451--Perception-of-novel-words-in-noise-by-cochlear-implant-use]]
-- [[Record-583--Neolithic-coastal-adaptation-and-resilience-in-relation-to]]
-- [[Record-597--Support-Size-of-ε-Capacity-Achieving-Inputs-for-the-Amplit]]
-- [[Record-609--An-Integrated-Tunable-Focus-Light-Field-Imaging-System-for]]
-- [[Record-610--Movement-Based-Low-Back-Pain-Subgroups-Using-Motion-Tape-S]]
-- [[Record-611--A-Multi-Sensor-Multi-Movement-Exploratory-Study-of-Motion-]]
-- [[Record-748--Employing-Data-Driven-Techniques-to-Explore-the-Lay-Public]]
-- [[Record-1780--ForeSea-AI-Forensic-Search-with-Multi-modal-Queries-for-V]]
-- [[Record-1782--α-Mutual-Information-for-the-Gaussian-Noise-Channel]]
-- [[Record-1783--Support-Size-of-varepsilon-Capacity-Achieving-Inputs-for-]]
-- [[Record-1793--Quantizing-gravitational-fields-with-an-entropy-corrected]]
-- [[Record-1797--Sub-Gaussian-Concentration-and-Entropic-Normality-of-the-]]
-- [[Record-1818--nomp-A-Framework-for-Building-Domain-Specific-Compilers]]
-- [[Record-1858--VideoSEMA-a-scalable-and-efficient-Mamba-like-attention-f]]
-- [[Record-1859--Compression-of-3D-Gaussian-Splatting-Data-Using-GPU-frien]]
-- [[Record-1886--PowerScope-ML-based-Intra-Cycle-Power-Estimation]]
+- [[Record-256--Comment-on-Machine-learningbased-prediction-of-CAC-defined]]
+- [[Record-270--Geomorphological-dynamics-at-the-coast-A-sedimentary-strat]]
+- [[Record-271--Early-to-mid-Holocene-climate-oscillations-and-cultural-sh]]
+- [[Record-312--Earliest-iron-blooms-discovered-off-the-Carmel-coast-revis]]
+- [[Record-328--Fetal-monitoring-for-high-risk-pregnancies-using-a-wearabl]]
+- [[Record-408--Building-Intuition-in-Amplifier-Design-Using-Load-Pull-Bas]]
+- [[Record-438--An-Improved-Lower-Bound-on-Cardinality-of-Support-of-the-A]]
+- [[Record-439--Analysis-and-Design-of-mm-Wave-CMOS-Power-Amplifier-Using-]]
+- [[Record-454--Perception-of-novel-words-in-noise-by-cochlear-implant-use]]
+- [[Record-586--Neolithic-coastal-adaptation-and-resilience-in-relation-to]]
+- [[Record-600--Support-Size-of-ε-Capacity-Achieving-Inputs-for-the-Amplit]]
+- [[Record-612--An-Integrated-Tunable-Focus-Light-Field-Imaging-System-for]]
+- [[Record-613--Movement-Based-Low-Back-Pain-Subgroups-Using-Motion-Tape-S]]
+- [[Record-614--A-Multi-Sensor-Multi-Movement-Exploratory-Study-of-Motion-]]
+- [[Record-753--Employing-Data-Driven-Techniques-to-Explore-the-Lay-Public]]
+- [[Record-1789--ForeSea-AI-Forensic-Search-with-Multi-modal-Queries-for-V]]
+- [[Record-1791--α-Mutual-Information-for-the-Gaussian-Noise-Channel]]
+- [[Record-1792--Support-Size-of-varepsilon-Capacity-Achieving-Inputs-for-]]
+- [[Record-1802--Quantizing-gravitational-fields-with-an-entropy-corrected]]
+- [[Record-1806--Sub-Gaussian-Concentration-and-Entropic-Normality-of-the-]]
+- [[Record-1827--nomp-A-Framework-for-Building-Domain-Specific-Compilers]]
+- [[Record-1867--VideoSEMA-a-scalable-and-efficient-Mamba-like-attention-f]]
+- [[Record-1868--Compression-of-3D-Gaussian-Splatting-Data-Using-GPU-frien]]
+- [[Record-1895--PowerScope-ML-based-Intra-Cycle-Power-Estimation]]
 
 ## Connected nodes
 
-[[Record-171--An-Artificial-IntelligenceEnabled-Cardiopulmonary-Resuscit]] [[Record-254--Comment-on-Machine-learningbased-prediction-of-CAC-defined]] [[Record-268--Geomorphological-dynamics-at-the-coast-A-sedimentary-strat]] [[Record-269--Early-to-mid-Holocene-climate-oscillations-and-cultural-sh]] [[Record-310--Earliest-iron-blooms-discovered-off-the-Carmel-coast-revis]] [[Record-325--Fetal-monitoring-for-high-risk-pregnancies-using-a-wearabl]] [[Record-405--Building-Intuition-in-Amplifier-Design-Using-Load-Pull-Bas]] [[Record-435--An-Improved-Lower-Bound-on-Cardinality-of-Support-of-the-A]] [[Record-436--Analysis-and-Design-of-mm-Wave-CMOS-Power-Amplifier-Using-]] [[Record-451--Perception-of-novel-words-in-noise-by-cochlear-implant-use]] [[Record-583--Neolithic-coastal-adaptation-and-resilience-in-relation-to]] [[Record-597--Support-Size-of-ε-Capacity-Achieving-Inputs-for-the-Amplit]] [[Record-609--An-Integrated-Tunable-Focus-Light-Field-Imaging-System-for]] [[Record-610--Movement-Based-Low-Back-Pain-Subgroups-Using-Motion-Tape-S]] [[Record-611--A-Multi-Sensor-Multi-Movement-Exploratory-Study-of-Motion-]] [[Record-748--Employing-Data-Driven-Techniques-to-Explore-the-Lay-Public]] [[Record-1780--ForeSea-AI-Forensic-Search-with-Multi-modal-Queries-for-V]] [[Record-1782--α-Mutual-Information-for-the-Gaussian-Noise-Channel]] [[Record-1783--Support-Size-of-varepsilon-Capacity-Achieving-Inputs-for-]] [[Record-1793--Quantizing-gravitational-fields-with-an-entropy-corrected]] [[Record-1797--Sub-Gaussian-Concentration-and-Entropic-Normality-of-the-]] [[Record-1818--nomp-A-Framework-for-Building-Domain-Specific-Compilers]] [[Record-1858--VideoSEMA-a-scalable-and-efficient-Mamba-like-attention-f]] [[Record-1859--Compression-of-3D-Gaussian-Splatting-Data-Using-GPU-frien]] [[Record-1886--PowerScope-ML-based-Intra-Cycle-Power-Estimation]] [[LLM언어모델]] [[반도체하드웨어]] [[소셜콘텐츠]] [[의료바이오]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]
+[[Record-171--An-Artificial-IntelligenceEnabled-Cardiopulmonary-Resuscit]] [[Record-256--Comment-on-Machine-learningbased-prediction-of-CAC-defined]] [[Record-270--Geomorphological-dynamics-at-the-coast-A-sedimentary-strat]] [[Record-271--Early-to-mid-Holocene-climate-oscillations-and-cultural-sh]] [[Record-312--Earliest-iron-blooms-discovered-off-the-Carmel-coast-revis]] [[Record-328--Fetal-monitoring-for-high-risk-pregnancies-using-a-wearabl]] [[Record-408--Building-Intuition-in-Amplifier-Design-Using-Load-Pull-Bas]] [[Record-438--An-Improved-Lower-Bound-on-Cardinality-of-Support-of-the-A]] [[Record-439--Analysis-and-Design-of-mm-Wave-CMOS-Power-Amplifier-Using-]] [[Record-454--Perception-of-novel-words-in-noise-by-cochlear-implant-use]] [[Record-586--Neolithic-coastal-adaptation-and-resilience-in-relation-to]] [[Record-600--Support-Size-of-ε-Capacity-Achieving-Inputs-for-the-Amplit]] [[Record-612--An-Integrated-Tunable-Focus-Light-Field-Imaging-System-for]] [[Record-613--Movement-Based-Low-Back-Pain-Subgroups-Using-Motion-Tape-S]] [[Record-614--A-Multi-Sensor-Multi-Movement-Exploratory-Study-of-Motion-]] [[Record-753--Employing-Data-Driven-Techniques-to-Explore-the-Lay-Public]] [[Record-1789--ForeSea-AI-Forensic-Search-with-Multi-modal-Queries-for-V]] [[Record-1791--α-Mutual-Information-for-the-Gaussian-Noise-Channel]] [[Record-1792--Support-Size-of-varepsilon-Capacity-Achieving-Inputs-for-]] [[Record-1802--Quantizing-gravitational-fields-with-an-entropy-corrected]] [[Record-1806--Sub-Gaussian-Concentration-and-Entropic-Normality-of-the-]] [[Record-1827--nomp-A-Framework-for-Building-Domain-Specific-Compilers]] [[Record-1867--VideoSEMA-a-scalable-and-efficient-Mamba-like-attention-f]] [[Record-1868--Compression-of-3D-Gaussian-Splatting-Data-Using-GPU-frien]] [[Record-1895--PowerScope-ML-based-Intra-Cycle-Power-Estimation]] [[LLM언어모델]] [[반도체하드웨어]] [[소셜콘텐츠]] [[의료바이오]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

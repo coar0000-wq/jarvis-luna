@@ -2,7 +2,7 @@
 title: "Record 040 · Token-Efficient-Data-Reasoning-Agents-via-Adaptive-Structuring-of-Unst"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T16:26:52.045968+00:00
+updated_at: 2026-09-06T18:33:36.773405+00:00
 tags: [record, real-data]
 ---
 

@@ -1,0 +1,21 @@
+---
+title: "Record 408 · Building-Intuition-in-Amplifier-Design-Using-Load-Pull-Based-Multi-Obj"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-06T18:33:36.867957+00:00
+tags: [record, real-data]
+---
+
+# Record 408 · Building-Intuition-in-Amplifier-Design-Using-Load-Pull-Based-Multi-Obj
+
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/jmw.2026.3669005)
+
+**제목:** Building Intuition in Amplifier Design Using Load-Pull Based Multi-Objective Visualization
+
+Building Intuition in Amplifier Design Using Load-Pull Based Multi-Objective Visualization
+
+**출처:** Source · institutions
+
+## Connected nodes
+
+[[Source--institutions]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T16:44:43.853847+00:00",
+  "generated_at": "2026-09-06T18:56:12.834004+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "valencia cf vs fc barcelona standings",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Sun, 6 Sep 2026 09:30:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=valencia%20cf%20vs%20fc%20barcelona%20standings"
-        },
-        {
-          "keyword": "lamine yamal",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Sun, 6 Sep 2026 09:20:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=lamine%20yamal"
-        },
-        {
-          "keyword": "braves - phillies",
+          "keyword": "alcaraz",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Sun, 6 Sep 2026 09:30:00 -0700",
-          "source_name": "MLB.com",
-          "url": "https://trends.google.com/trending?geo=US&q=braves%20-%20phillies"
+          "published": "Sun, 6 Sep 2026 11:30:00 -0700",
+          "source_name": "Diario AS",
+          "url": "https://trends.google.com/trending?geo=US&q=alcaraz"
         },
         {
-          "keyword": "trump on canadian dollar imbalance",
+          "keyword": "miami airport",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sun, 6 Sep 2026 11:30:00 -0700",
+          "source_name": "WSVN",
+          "url": "https://trends.google.com/trending?geo=US&q=miami%20airport"
+        },
+        {
+          "keyword": "jannik sinner",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sun, 6 Sep 2026 11:30:00 -0700",
+          "source_name": "La Gazzetta dello Sport",
+          "url": "https://trends.google.com/trending?geo=US&q=jannik%20sinner"
+        },
+        {
+          "keyword": "carlos alcaraz girlfriend",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sun, 6 Sep 2026 11:30:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=carlos%20alcaraz%20girlfriend"
+        },
+        {
+          "keyword": "dbacks - astros",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sun, 6 Sep 2026 11:30:00 -0700",
+          "source_name": "MLB",
+          "url": "https://trends.google.com/trending?geo=US&q=dbacks%20-%20astros"
+        },
+        {
+          "keyword": "marseille vs paris fc",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 09:20:00 -0700",
-          "source_name": "Bloomberg.com",
-          "url": "https://trends.google.com/trending?geo=US&q=trump%20on%20canadian%20dollar%20imbalance"
+          "published": "Sun, 6 Sep 2026 11:40:00 -0700",
+          "source_name": "Foot Mercato",
+          "url": "https://trends.google.com/trending?geo=US&q=marseille%20vs%20paris%20fc"
         },
         {
-          "keyword": "joao pedro",
+          "keyword": "internacional vs santos",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 09:10:00 -0700",
-          "source_name": "Chelsea Football Club",
-          "url": "https://trends.google.com/trending?geo=US&q=joao%20pedro"
+          "published": "Sun, 6 Sep 2026 11:40:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=internacional%20vs%20santos"
         },
         {
-          "keyword": "national weather service september map",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sun, 6 Sep 2026 09:30:00 -0700",
-          "source_name": "Men's Journal",
-          "url": "https://trends.google.com/trending?geo=US&q=national%20weather%20service%20september%20map"
+          "keyword": "mamdani",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 6 Sep 2026 11:40:00 -0700",
+          "source_name": "Fox News",
+          "url": "https://trends.google.com/trending?geo=US&q=mamdani"
         },
         {
-          "keyword": "trabzonspor vs gençlerbirliği",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sun, 6 Sep 2026 09:30:00 -0700",
-          "source_name": "61SAAT",
-          "url": "https://trends.google.com/trending?geo=US&q=trabzonspor%20vs%20gen%C3%A7lerbirli%C4%9Fi"
+          "keyword": "cruzeiro x athletico-pr",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 6 Sep 2026 11:30:00 -0700",
+          "source_name": "ge",
+          "url": "https://trends.google.com/trending?geo=US&q=cruzeiro%20x%20athletico-pr"
         },
         {
-          "keyword": "dp world tour",
+          "keyword": "katie meyer",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 6 Sep 2026 09:20:00 -0700",
-          "source_name": "GOLF.com",
-          "url": "https://trends.google.com/trending?geo=US&q=dp%20world%20tour"
-        },
-        {
-          "keyword": "afd",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sun, 6 Sep 2026 09:10:00 -0700",
-          "source_name": "CNN",
-          "url": "https://trends.google.com/trending?geo=US&q=afd"
-        },
-        {
-          "keyword": "harvey elliott",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sun, 6 Sep 2026 09:10:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=harvey%20elliott"
+          "published": "Sun, 6 Sep 2026 11:40:00 -0700",
+          "source_name": "San Francisco Chronicle",
+          "url": "https://trends.google.com/trending?geo=US&q=katie%20meyer"
         }
       ]
     },

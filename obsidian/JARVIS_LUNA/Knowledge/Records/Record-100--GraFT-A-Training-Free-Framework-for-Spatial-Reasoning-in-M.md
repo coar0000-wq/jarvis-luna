@@ -2,7 +2,7 @@
 title: "Record 100 · GraFT-A-Training-Free-Framework-for-Spatial-Reasoning-in-Multimodal-La"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T16:26:52.058004+00:00
+updated_at: 2026-09-06T18:33:36.788922+00:00
 tags: [record, real-data]
 ---
 

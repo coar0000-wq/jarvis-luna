@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-06T16:24:54.885482+00:00",
+  "collected_at": "2026-09-06T18:31:32.942041+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-06T16:24:07.256447+00:00"
+      "collected_at": "2026-09-06T18:30:29.704763+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-06T16:24:37.865693+00:00"
+      "collected_at": "2026-09-06T18:31:03.724975+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-06T16:24:54.884563+00:00"
+      "collected_at": "2026-09-06T18:31:32.940794+00:00"
     }
   },
   "not_collected": {
@@ -84,6 +84,19 @@
     "SEC EDGAR 공시": "샌드박스에서 검증 불가하여 미등록"
   },
   "items": [
+    {
+      "title": "An Alien Mind",
+      "url": "https://openai.com/index/an-alien-mind",
+      "date": "2026-09-06",
+      "date_raw": "Sun, 06 Sep 2026 09:00:00 GMT",
+      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
     {
       "title": "Research acceleration: The view inside OpenAI",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
@@ -111,11 +124,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
       "date": "2026-09-03",
       "date_raw": "Thu, 03 Sep 2026 12:00:00 GMT",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -124,11 +137,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
       "date": "2026-09-03",
       "date_raw": "Thu, 03 Sep 2026 12:00:00 GMT",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -389,19 +402,6 @@
       "date": "2026-08-25",
       "date_raw": "Tue, 25 Aug 2026 07:00:00 GMT",
       "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "date": "2026-08-25",
-      "date_raw": "Tue, 25 Aug 2026 00:00:00 GMT",
-      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -5882,7 +5882,7 @@
     },
     {
       "title": "Constraining Scattering Medium Geometry with Cyclic Spectroscopy",
-      "url": "https://openalex.org/W7162700466",
+      "url": "https://doi.org/10.3847/2041-8213/ae9c3e",
       "date": "2026-05-25",
       "summary": "",
       "org": "Bank of America",
@@ -6032,6 +6032,34 @@
       "title_source": "openalex",
       "venue": "arXiv (Cornell University)",
       "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
+      "title": "Osler Weber Rendu Disease (Hereditary Hemorrhagic Telangiectasia Type 2) Presenting as Acute Reversible Levodopa Responsive Manganese Induced Parkinsonism Following Blood Transfusion: A Case Report",
+      "url": "https://doi.org/10.1002/mdc3.70806",
+      "date": "2026-09-04",
+      "summary": "",
+      "org": "Citigroup",
+      "category": "투자은행",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Movement Disorders Clinical Practice",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Polymicrobial Meningoencephalitis Complicated by Severe Thrombocytopenia in an Immunocompetent Adult",
+      "url": "https://doi.org/10.4103/aian.aian_372_26",
+      "date": "2026-09-04",
+      "summary": "",
+      "org": "Citigroup",
+      "category": "투자은행",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Annals of Indian Academy of Neurology",
+      "work_type": "article",
       "cited_by": 0
     },
     {
@@ -6354,34 +6382,6 @@
       "title_source": "openalex",
       "venue": "arXiv (Cornell University)",
       "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "Governing Generative AI Across Financial Institutions: A Framework for Generative AI Risk Control",
-      "url": "https://openalex.org/W7167748759",
-      "date": "2026-07-05",
-      "summary": "",
-      "org": "Citigroup",
-      "category": "투자은행",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "arXiv (Cornell University)",
-      "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "L26/P-262 Age-dependent effects of short-term hCG supplementation in culture medium after oocyte retrieval on blastocyst development and embryo euploidy",
-      "url": "https://doi.org/10.1093/humrep/deag083.598",
-      "date": "2026-07-01",
-      "summary": "",
-      "org": "Citigroup",
-      "category": "투자은행",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Human Reproduction",
-      "work_type": "article",
       "cited_by": 0
     },
     {
@@ -8720,7 +8720,7 @@
       "title_source": "openalex",
       "venue": "Future Generation Computer Systems",
       "work_type": "article",
-      "cited_by": 13
+      "cited_by": 14
     },
     {
       "title": "Fast Generation of Custom Floating-Point Spatial Filters on FPGAs",
@@ -9885,6 +9885,20 @@
       "cited_by": 0
     },
     {
+      "title": "Steroid, thiamine, and ascorbic acid for comatose out-of-hospital cardiac arrest survivors (STAR): a randomised, placebo-controlled, phase 2 trial",
+      "url": "https://doi.org/10.1016/j.eclinm.2026.104191",
+      "date": "2026-09-05",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "EClinicalMedicine",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Dispersion-Contrasting Dual-Layer Metalens for Hybrid Chromatic-Aberration Correction in the Visible",
       "url": "https://doi.org/10.1021/acs.nanolett.6c02688",
       "date": "2026-09-04",
@@ -9909,6 +9923,20 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "ACS Applied Materials & Interfaces",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Fostering cultural change in research through innovative knowledge sharing, evaluation, and community engagement strategies",
+      "url": "https://doi.org/10.1038/s41539-026-00449-z",
+      "date": "2026-09-04",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "npj Science of Learning",
       "work_type": "article",
       "cited_by": 0
     },
@@ -10203,34 +10231,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Chemical Engineering Journal",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "2-Terminal refresh-free memory for high-density and low power consumption during data retention",
-      "url": "https://doi.org/10.21203/rs.3.rs-10662808/v1",
-      "date": "2026-08-27",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Research Square",
-      "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "A Numerical Model for Combustion and Condensation of Micron-sized Aluminum Particle in Transition Regime",
-      "url": "https://doi.org/10.1007/s42405-026-01279-4",
-      "date": "2026-08-26",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "International Journal of Aeronautical and Space Sciences",
       "work_type": "article",
       "cited_by": 0
     },
@@ -10585,6 +10585,20 @@
       "cited_by": 0
     },
     {
+      "title": "Structural Plasticity and Ligand Promiscuity of CYP3A4 Revealed by Cryo-EM",
+      "url": "https://doi.org/10.64898/2026.09.01.748687",
+      "date": "2026-09-02",
+      "summary": "",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
       "title": "A Disclosure Benchmark Specification for Automated Alignment Research",
       "url": "https://doi.org/10.5281/zenodo.22179466",
       "date": "2026-08-30",
@@ -10918,20 +10932,6 @@
       "title_source": "openalex",
       "venue": "arXiv (Cornell University)",
       "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "On the Nature of Curvature: A Transport-Based Ontology for Closure Theory",
-      "url": "https://doi.org/10.5281/zenodo.21400052",
-      "date": "2026-07-16",
-      "summary": "",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
       "cited_by": 0
     },
     {

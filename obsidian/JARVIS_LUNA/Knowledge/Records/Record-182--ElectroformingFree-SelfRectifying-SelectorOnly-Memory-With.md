@@ -2,7 +2,7 @@
 title: "Record 182 · ElectroformingFree-SelfRectifying-SelectorOnly-Memory-With-Diffusive-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T16:26:52.073415+00:00
+updated_at: 2026-09-06T18:33:36.810722+00:00
 tags: [record, real-data]
 ---
 

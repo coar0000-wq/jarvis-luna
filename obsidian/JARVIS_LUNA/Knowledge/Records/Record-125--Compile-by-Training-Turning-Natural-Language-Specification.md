@@ -2,7 +2,7 @@
 title: "Record 125 · Compile-by-Training-Turning-Natural-Language-Specifications-into-Local"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T16:26:52.063110+00:00
+updated_at: 2026-09-06T18:33:36.796025+00:00
 tags: [record, real-data]
 ---
 

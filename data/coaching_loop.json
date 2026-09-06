@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T01:44:50.303266+09:00",
+  "generated_at": "2026-09-07T03:56:20.178258+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -12,7 +12,7 @@
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-09-06T16:26:21.440017+00:00",
+      "collected_at": "2026-09-06T18:32:57.746192+00:00",
       "keyword_pool": 40
     }
   },
@@ -193,7 +193,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['a-beauty', 'skin', 'skincare']",
+          "evidence": "matched=['a-beauty', 'creams', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -220,11 +220,13 @@
           "glass skin",
           "hydrating",
           "a-beauty",
+          "creams",
           "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
           "a-beauty",
+          "creams",
           "skin",
           "skincare"
         ],
@@ -234,12 +236,13 @@
       "reddit_match": {
         "matched": [
           "a-beauty",
+          "creams",
           "skin",
           "skincare"
         ],
-        "score": 3,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['a-beauty', 'skin', 'skincare']",
+        "evidence": "matched=['a-beauty', 'creams', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {

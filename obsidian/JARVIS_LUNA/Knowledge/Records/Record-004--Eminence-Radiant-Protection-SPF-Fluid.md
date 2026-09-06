@@ -2,7 +2,7 @@
 title: "Record 004 · Eminence-Radiant-Protection-SPF-Fluid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T16:26:52.039757+00:00
+updated_at: 2026-09-06T18:33:36.765475+00:00
 tags: [record, real-data]
 ---
 

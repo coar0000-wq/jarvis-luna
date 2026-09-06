@@ -2,7 +2,7 @@
 title: "Record 183 · EcoFriendly-LaserInduced-GraphenePerovskite-Hybrids-for-EcoFriendly-Ph"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T16:26:52.073611+00:00
+updated_at: 2026-09-06T18:33:36.810987+00:00
 tags: [record, real-data]
 ---
 
