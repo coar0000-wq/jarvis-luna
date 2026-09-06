@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-09-06T11:28:42.266298+00:00",
+  "generated_at": "2026-09-06T11:31:18.201370+00:00",
   "generator": "scripts/ingest_youtube_links.py",
   "입력": "data/manual/youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
-  "total": 4,
-  "ok": 4,
+  "total": 5,
+  "ok": 5,
   "failed": 0,
-  "fetched_this_run": 0,
+  "fetched_this_run": 1,
   "bad_lines": [],
   "by_team": {
-    "listing": 2,
+    "listing": 3,
     "pricing": 1,
-    "market": 1,
-    "knowledge": 1
+    "market": 2,
+    "knowledge": 1,
+    "design": 1
   },
   "videos": [
     {
@@ -86,6 +87,26 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:21:50.009710+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "IG0V7o6Z3ZE",
+      "url": "https://www.youtube.com/watch?v=IG0V7o6Z3ZE",
+      "note": "G-ROAD - 쇼피파이 드랍쉬핑 스토어 5곳 해부. 브랜딩이 전환을 만든다는 논지",
+      "title": "쇼피파이 드랍쉬핑은 브랜딩이 답입니다. 진짜 잘 되는 스토어 5곳 까봤습니다",
+      "channel": "G-ROAD",
+      "views": 4826,
+      "length_sec": 787,
+      "published": "",
+      "description": "-\n-\n안녕하세요 Chat GPT 시대로 열린 글로벌 시장, 쇼피파이 드랍쉬핑으로 정복하기 위한 모든 정보를 공유하는 채널 🌏글로벌로드 입니다!\n\n\n👍 좋아요 & 구독 부탁드립니다!\n\n📖 쇼피파이 드랍쉬핑 전략 전자책 무료 체험판\n[ https://cafe.naver.com/globalroadmap/5 ]\n\n📚 쇼피파이 드랍쉬핑 1년만에 0에서 8억7천 전략 전자책 구매하기:\n[ https://smartstore.naver.com/blkconnection/products/9468893468]\n\n🤝 1년간 성공까지 글로벌 로드와 함께하는 동행패키지:\n[ https://cafe.naver.com/globalroadmap/161 ]\n-\n-\n-\n-\n\n#쇼피파이#드랍쉬핑#쇼피파이드랍쉬핑#shopify#dropshipping#글로벌셀러#글로벌로드#해외판매#해외쇼핑몰#전자책#buckydrop#taobao",
+      "error": "",
+      "teams": [
+        "listing",
+        "design",
+        "market"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-06T11:31:15.198234+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
     }
   ]

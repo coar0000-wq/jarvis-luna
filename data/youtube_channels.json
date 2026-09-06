@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T11:28:27.887834+00:00",
+  "generated_at": "2026-09-06T11:31:45.061244+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -7,7 +7,7 @@
   "videos": 41,
   "failed": [],
   "by_team": {
-    "design": 24,
+    "design": 25,
     "market": 11,
     "pricing": 2,
     "knowledge": 6,
@@ -206,7 +206,7 @@
       "subscribers": "120K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-06T11:28:17.446375+00:00",
+      "checked_at": "2026-09-06T11:31:34.603398+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
@@ -471,17 +471,18 @@
       "subscribers": "17K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-06T11:28:22.882688+00:00",
+      "checked_at": "2026-09-06T11:31:40.056092+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
-          "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
+          "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
           "views_text": "26K views",
           "published_text": "3 days ago",
           "views": 26000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
           "teams": [
+            "design",
             "market"
           ]
         },
