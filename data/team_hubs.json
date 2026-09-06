@@ -1,0 +1,160 @@
+{
+  "generated_at": "2026-09-06T11:02:12.348653+00:00",
+  "generator": "scripts/build_team_hubs.py",
+  "왜": "Records 가 볼트의 98.6% 라 그래프뷰가 허브 몇 개에 점 수만 개가 매달린 모습이었다. Record -> Topic -> 팀 으로 층을 하나 넣는다.",
+  "방식": "Record 파일 3만 7천 개는 건드리지 않는다. Topic 노트에 팀 링크를 한 줄 더하는 것으로 층이 생긴다. 파일을 3만 개 고쳐 쓰면 커밋이 터진다.",
+  "vault": {
+    "ref": "origin/main",
+    "records": 37082,
+    "topics": 28,
+    "orgs": 35
+  },
+  "corpus_by_source": {
+    "us_beauty": 8,
+    "arxiv": 121,
+    "robotics": 92,
+    "institutions": 1093,
+    "google": 796,
+    "youtube": 224
+  },
+  "teams": 10,
+  "topics_linked": 0,
+  "topics_without_team": [
+    "미분류"
+  ],
+  "topics_missing": [],
+  "items": [
+    {
+      "team": "지식 수집팀",
+      "topics": [
+        "AI-Research",
+        "AI-Agents",
+        "AI-에이전트",
+        "LLM언어모델",
+        "Machine-Learning-Research",
+        "머신러닝-연구",
+        "Model-Routing-and-MoE",
+        "모델-라우팅MoE",
+        "컴퓨터-비전",
+        "AI-Image-Generation",
+        "음성오디오",
+        "데이터분석",
+        "보안프라이버시",
+        "인프라클라우드",
+        "과학수학"
+      ],
+      "corpus_now": 1141,
+      "sources": [
+        "arxiv",
+        "google",
+        "youtube"
+      ],
+      "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 지식 수집팀.md"
+    },
+    {
+      "team": "기관 수집팀",
+      "topics": [
+        "투자은행금융",
+        "반도체하드웨어",
+        "경영전략"
+      ],
+      "corpus_now": 1093,
+      "sources": [
+        "institutions"
+      ],
+      "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 기관 수집팀.md"
+    },
+    {
+      "team": "마케팅 조사팀",
+      "topics": [
+        "뷰티스킨케어",
+        "마케팅광고",
+        "소셜콘텐츠",
+        "이커머스Shopify",
+        "Shopify-Commerce"
+      ],
+      "corpus_now": 804,
+      "sources": [
+        "google",
+        "us_beauty"
+      ],
+      "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 마케팅 조사팀.md"
+    },
+    {
+      "team": "디자인팀",
+      "topics": [
+        "소셜콘텐츠",
+        "마케팅광고"
+      ],
+      "corpus_now": 224,
+      "sources": [
+        "youtube"
+      ],
+      "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 디자인팀.md"
+    },
+    {
+      "team": "로보틱스 수집",
+      "topics": [
+        "로보틱스"
+      ],
+      "corpus_now": 92,
+      "sources": [
+        "robotics"
+      ],
+      "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 로보틱스 수집.md"
+    },
+    {
+      "team": "상품 소싱팀",
+      "topics": [
+        "뷰티스킨케어"
+      ],
+      "corpus_now": 8,
+      "sources": [
+        "us_beauty"
+      ],
+      "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 상품 소싱팀.md"
+    },
+    {
+      "team": "리스팅 제작팀",
+      "topics": [
+        "이커머스Shopify",
+        "Shopify-Commerce",
+        "마케팅광고"
+      ],
+      "corpus_now": 0,
+      "sources": [],
+      "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 리스팅 제작팀.md"
+    },
+    {
+      "team": "가격 정책팀",
+      "topics": [
+        "물류통관",
+        "경영전략"
+      ],
+      "corpus_now": 0,
+      "sources": [],
+      "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 가격 정책팀.md"
+    },
+    {
+      "team": "법률·규제팀",
+      "topics": [
+        "법률규제",
+        "물류통관",
+        "의료바이오"
+      ],
+      "corpus_now": 0,
+      "sources": [],
+      "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 법률·규제팀.md"
+    },
+    {
+      "team": "채널 운영팀",
+      "topics": [
+        "소셜콘텐츠",
+        "데이터분석"
+      ],
+      "corpus_now": 0,
+      "sources": [],
+      "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 채널 운영팀.md"
+    }
+  ]
+}

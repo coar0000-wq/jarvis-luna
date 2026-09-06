@@ -175,6 +175,14 @@ jobs:
             python expand_obsidian_graph.py
           fi
 
+      # Records 가 볼트의 98.6% 라 그래프뷰가 허브 몇 개에 점 수만 개가
+      # 매달린 모습이었다. Record -> Topic -> 팀 으로 층을 하나 넣는다.
+      # 그래프 재구성 뒤에 돌아야 Topic 이 이미 있다.
+      - name: 팀 허브 생성 (그래프 층 나누기)
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python -u scripts/build_team_hubs.py
+
       - name: Train real-data 3-expert MoE
         continue-on-error: true
         timeout-minutes: 12
