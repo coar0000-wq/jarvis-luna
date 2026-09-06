@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-09-06T09:10:59.174763+00:00",
+  "generated_at": "2026-09-06T11:18:25.421843+00:00",
   "generator": "scripts/ingest_youtube_links.py",
   "입력": "data/manual/youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
-  "total": 2,
-  "ok": 2,
+  "total": 3,
+  "ok": 3,
   "failed": 0,
-  "fetched_this_run": 0,
+  "fetched_this_run": 1,
   "bad_lines": [],
   "by_team": {
-    "listing": 2
+    "listing": 2,
+    "pricing": 1,
+    "market": 1
   },
   "videos": [
     {
@@ -27,7 +29,8 @@
         "listing"
       ],
       "collected_at": "2026-09-06T04:15:54.127617+00:00",
-      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)",
+      "team_source": "자동 분류"
     },
     {
       "video_id": "jUxSAGCaJIU",
@@ -44,6 +47,26 @@
         "listing"
       ],
       "collected_at": "2026-09-06T04:15:57.821507+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)",
+      "team_source": "자동 분류"
+    },
+    {
+      "video_id": "O4Z5KklVR5I",
+      "url": "https://www.youtube.com/watch?v=O4Z5KklVR5I",
+      "note": "스퀘어129 남주미 - 역마진으로 초기 안착, 플랫폼 플레이, 일본 매출이 국내 추월",
+      "title": "패션 비전공자가 25살에 창업해 100억 브랜드를 키워낸 '미친 실행력' | 스몰톡라운지 스퀘어129 남주미",
+      "channel": "채널톡",
+      "views": 82075,
+      "length_sec": 2575,
+      "published": "",
+      "description": "33:33 패션 브랜드들이 채널톡 어떻게 쓰는지 궁금하다면? 🔗 https://bit.ly/469n86K  패션 브랜드는 보통 전공자가 시작한다는 편견이 있습니다. 하지만 스퀘어129 남주미 대표는 패션 전공도 경영 전공도 아니었고, 동대문 용어조차 몰랐습니다. 크몽에서 과외를 받아가며 낸 첫 시즌의 결과는 처참했고, 안 팔린 옷은 주변에 나눠주며 재고를 털어야 했죠.  본 영상은 그 이후 대표가 보여준 '압도적인 실행력'과 철저하게 계산된 '플랫폼 플레이'에 주목합니다. 역마진을 감수하며 브랜드를 안착시키고, 10분 만에 답장하는 실행력으로 글로벌 초반 유입을 선점한 과정을 담았습니다.   매출 0원에서 시작한 브랜드는 어느덧 100억을 돌파해 올해 250억을 바라보고 있으며, 상반기 기준 일본 매출이 국내를 넘어섰습니다. 내가 만들고 싶은 옷보다 '고객이 원하는 옷'을 찾아내고, 그것을 '확실하게 파는 방법'에 집중해 온 남주미 대표의 여정을 통해, 정체기를 겪거나 넥스트 스텝을 고민하는 커머스 대표들에게 실질적인 돌파구를 제시하고자 합니다.  00:00 preview 00:18 자기소개 01:14 스퀘어129 남주미 대표님 소개 02:10 패션 브랜드 ",
+      "error": "",
+      "teams": [
+        "pricing",
+        "market"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-06T11:18:22.418749+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
     }
   ]

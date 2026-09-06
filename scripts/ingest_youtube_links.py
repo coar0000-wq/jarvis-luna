@@ -49,26 +49,60 @@ DELAY = 3.0
 VID = re.compile(r"(?:v=|youtu\.be/|/shorts/|/embed/)([A-Za-z0-9_-]{11})")
 
 # 어느 팀이 볼 자료인지. 제목과 설명으로 나눈다.
+#
+# 한글 낱말을 나중에 넣었다. 처음에는 영어만 봤는데 한국어 영상이 들어오니
+# 하나도 안 걸렸다. 채널톡의 스퀘어129 창업 인터뷰가 그랬다. 역마진과 플랫폼
+# 전략을 다루는데 제목도 설명도 전부 한글이라 knowledge 로 떨어졌다.
 TEAM_TERMS = {
     "listing": ["shopify", "product page", "listing", "description", "seo",
-                "conversion", "checkout"],
-    "design": ["theme", "design", "layout", "branding", "logo", "template"],
+                "conversion", "checkout",
+                "쇼피파이", "상세페이지", "상품페이지", "전환율", "결제"],
+    "design": ["theme", "design", "layout", "branding", "logo", "template",
+               "디자인", "브랜딩", "로고", "레이아웃", "테마", "폰트"],
     "market": ["k-beauty", "kbeauty", "korean skincare", "trend", "viral",
-               "tiktok", "haul", "review"],
-    "pricing": ["pricing", "margin", "profit", "shipping cost", "dropship"],
-    "legal": ["fda", "compliance", "label", "regulation", "customs", "import"],
-    "sourcing": ["daiso", "다이소", "sourcing", "supplier", "wholesale"],
+               "tiktok", "haul", "review",
+               "브랜드", "고객", "수요", "시장조사", "트렌드", "플랫폼",
+               "입점", "해외진출", "일본", "매출"],
+    "pricing": ["pricing", "margin", "profit", "shipping cost", "dropship",
+                "가격", "마진", "원가", "역마진", "수익", "손익", "객단가",
+                "경영", "전략", "창업", "재고"],
+    "legal": ["fda", "compliance", "label", "regulation", "customs", "import",
+              "규제", "인증", "통관", "라벨", "성분표시"],
+    "sourcing": ["daiso", "다이소", "sourcing", "supplier", "wholesale",
+                 "소싱", "도매", "공급처", "사입"],
 }
+
+# 사람이 팀을 직접 적을 수 있게 한다. 자동 분류는 어디까지나 추측이라
+# 아는 사람이 정해주면 그게 맞다.
+KNOWN_TEAMS = set(TEAM_TERMS) | {"knowledge"}
 
 
 def parse_links(text: str) -> list[dict]:
+    """한 줄을 읽는다. 칸은 | 로 나눈다.
+
+    예전 형식은 'URL | 메모' 였다. 팀 칸을 넣으면서 형식이 바뀌었는데
+    이미 적어둔 줄을 다시 고치게 하고 싶지 않았다. 그래서 두 번째 칸이
+    아는 팀 이름이면 팀으로, 아니면 메모로 읽는다. 둘 다 그대로 돈다.
+
+        https://... | 쇼피파이 2026 신기능        -> 메모  (예전 형식)
+        https://... | pricing,market | 역마진      -> 팀 지정
+    """
     out, seen = [], set()
     for raw in text.splitlines():
         line = raw.strip()
         if not line or line.startswith("#"):
             continue
-        url, _, note = line.partition("|")
-        m = VID.search(url.strip())
+        parts = [x.strip() for x in line.split("|")]
+        url = parts[0]
+        teams, note = [], ""
+        if len(parts) > 1:
+            cand = [t.strip().lower() for t in parts[1].split(",") if t.strip()]
+            if cand and all(t in KNOWN_TEAMS for t in cand):
+                teams = cand
+                note = parts[2] if len(parts) > 2 else ""
+            else:
+                note = " | ".join(parts[1:])
+        m = VID.search(url)
         if not m:
             out.append({"raw": line[:80], "video_id": None,
                         "error": "URL 에서 영상 ID 를 못 찾았다"})
@@ -77,7 +111,7 @@ def parse_links(text: str) -> list[dict]:
         if vid in seen:
             continue
         seen.add(vid)
-        out.append({"video_id": vid, "note": note.strip(),
+        out.append({"video_id": vid, "note": note, "teams": teams,
                     "url": f"https://www.youtube.com/watch?v={vid}"})
     return out
 
@@ -118,7 +152,10 @@ def fetch_video(vid: str) -> dict:
     }
 
 
-def route(v: dict) -> list[str]:
+def route(v: dict, forced: list[str] | None = None) -> list[str]:
+    """사람이 지정했으면 그걸 쓰고, 아니면 제목과 설명으로 추측한다."""
+    if forced:
+        return list(forced)
     blob = f'{v.get("title", "")} {v.get("description", "")}'.lower()
     hit = [t for t, terms in TEAM_TERMS.items() if any(k in blob for k in terms)]
     return hit or ["knowledge"]
@@ -131,7 +168,13 @@ def main() -> int:
             "# 좋은 영상을 보면 여기에 한 줄씩 붙여넣으세요.\n"
             "# '#' 으로 시작하면 주석, 뒤에 | 를 쓰면 메모를 남길 수 있습니다.\n"
             "#\n"
-            "# https://www.youtube.com/watch?v=XXXXXXXXXXX | 왜 넣었는지\n",
+            "#\n"
+            "# 팀을 직접 지정하려면 URL 뒤에 팀 이름을 적으세요.\n"
+            "#   pricing market listing design legal sourcing knowledge\n"
+            "#   여러 팀은 쉼표로. 안 적으면 제목과 설명으로 자동 분류합니다.\n"
+            "#\n"
+            "# https://www.youtube.com/watch?v=XXXXXXXXXXX | 왜 넣었는지\n"
+            "# https://www.youtube.com/watch?v=XXXXXXXXXXX | pricing,market | 메모\n",
             encoding="utf-8")
         print(f"{LINKS.relative_to(ROOT)} 를 만들었다. URL 을 넣으면 다음 실행에 받는다.")
         return 0
@@ -154,6 +197,9 @@ def main() -> int:
         # 이미 받은 것은 다시 받지 않는다. 제목이 바뀔 일은 드물다.
         if was and was.get("title") and not was.get("error"):
             was["note"] = x.get("note") or was.get("note", "")
+            # 팀 지정을 나중에 바꿀 수 있다. 다시 받지 않고 분류만 고친다.
+            was["teams"] = route(was, x.get("teams"))
+            was["team_source"] = "사람 지정" if x.get("teams") else "자동 분류"
             videos.append(was)
             continue
         got = fetch_video(vid)
@@ -161,7 +207,8 @@ def main() -> int:
         videos.append({
             "video_id": vid, "url": x["url"], "note": x.get("note", ""),
             **got,
-            "teams": route(got),
+            "teams": route(got, x.get("teams")),
+            "team_source": "사람 지정" if x.get("teams") else "자동 분류",
             "collected_at": datetime.now(timezone.utc).isoformat(),
             "source": "사람이 직접 지정 (data/manual/youtube_links.txt)",
         })

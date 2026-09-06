@@ -1,7 +1,16 @@
 # 좋은 영상을 보면 여기에 한 줄씩 붙여넣으세요.
-# '#' 으로 시작하면 주석, 뒤에 | 를 쓰면 메모를 남길 수 있습니다.
+# '#' 으로 시작하면 주석입니다.
+#
+# 형식 1  URL | 메모
+# 형식 2  URL | 팀 | 메모
+#
+# 팀 이름: pricing market listing design legal sourcing knowledge
+# 여러 팀은 쉼표로 붙여 씁니다. 팀을 안 적으면 제목과 설명을 보고
+# 자동으로 나눕니다. 다만 자동 분류는 추측이라 아는 영상이면 적어주세요.
 #
 # https://www.youtube.com/watch?v=XXXXXXXXXXX | 왜 넣었는지
+# https://www.youtube.com/watch?v=XXXXXXXXXXX | pricing,market | 왜 넣었는지
 
 https://www.youtube.com/watch?v=gugo50_VbjE | Claude 로 쇼피파이 리브랜딩
 https://www.youtube.com/watch?v=jUxSAGCaJIU | 쇼피파이 2026 신기능
+https://www.youtube.com/watch?v=O4Z5KklVR5I | pricing,market | 스퀘어129 남주미 - 역마진으로 초기 안착, 플랫폼 플레이, 일본 매출이 국내 추월
