@@ -1,40 +1,23 @@
 {
   "last_run": {
-    "started_at": "2026-09-06T02:44:11.653624+00:00",
-    "requested": 0,
-    "ok": 0,
-    "parse_failed": 0,
+    "started_at": "2026-09-05T21:17:05.097312+00:00",
+    "requested": 110,
+    "ok": 20,
+    "parse_failed": 15,
     "http_error": 0,
-    "skipped_not_beauty": 0,
-    "skipped_bucket_full": 0,
-    "skipped_excluded": {},
-    "pruned_existing": {},
-    "scope": "다이소몰 뷰티관(C245) 10개 카테고리 (선케어·네일 제외)",
+    "skipped_not_beauty": 75,
+    "scope": "다이소몰 뷰티관(C245) 12개 카테고리",
     "delay_seconds": 30.0,
-    "max_items": 0,
+    "max_items": 110,
     "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
     "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
-    "finished_at": "2026-09-06T02:44:11.653684+00:00",
-    "bucket_targets": {
-      "구강용품": 3,
-      "헤어케어": 18,
-      "바디케어": 15,
-      "맨즈케어": 5,
-      "향수": 7,
-      "클렌징": 30,
-      "마스크팩": 45,
-      "메이크업": 25,
-      "뷰티소품": 2,
-      "스킨케어": 150
-    },
-    "buckets_short": {
-      "헤어케어": 14,
-      "바디케어": 12,
-      "클렌징": 26,
-      "마스크팩": 23,
-      "스킨케어": 114
-    },
-    "status": "nothing_to_do"
+    "finished_at": "2026-09-05T22:15:22.684578+00:00",
+    "status": "ok",
+    "note": "이 기록은 2026-09-05 21:17 UTC 실제 수집분이다. 이후 선케어·네일 제외 규칙으로 저장분 26건을 정리해 totals 만 174건 기준으로 갱신했다.",
+    "pruned_after_run": {
+      "선케어": 6,
+      "네일": 20
+    }
   },
   "totals": {
     "products": 174,
@@ -130,14 +113,13 @@
     "with_rating": 171
   },
   "fx": {
-    "usd_to_krw": 1350.35,
-    "krw_to_usd": 0.00074055,
-    "as_of": "2026-09-04",
-    "source": "Frankfurter API",
-    "api_url": "https://api.frankfurter.app/latest?from=USD&to=KRW",
-    "fetched_at": "2026-09-06T02:44:12.761569+00:00",
+    "usd_to_krw": 1349.84,
+    "krw_to_usd": 0.00074083,
+    "as_of": "2026-09-06",
+    "source": "https://open.er-api.com/v6/latest/USD",
+    "fetched_at": "2026-09-06T02:39:07.967318+00:00",
     "ok": true
   },
   "sitemap_urls_known": 19739,
-  "visited": 1030
+  "visited": 1140
 }
