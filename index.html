@@ -375,7 +375,7 @@ nav a{font-size:12px;}
 
   <!-- Amazon -->
   <div class="dashboard-card">
-    <h4><span class="dashboard-card-icon">📦</span>Amazon Best Sellers <span class="ch-off">중단</span></h4>
+    <h4><span class="dashboard-card-icon">📦</span>Amazon Best Sellers</h4>
     <ul class="mkt-list" id="amazon-list">
       <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
     </ul>
@@ -391,7 +391,7 @@ nav a{font-size:12px;}
 
   <!-- Walmart -->
   <div class="dashboard-card">
-    <h4><span class="dashboard-card-icon">🛒</span>Walmart Beauty <span class="ch-off">중단</span></h4>
+    <h4><span class="dashboard-card-icon">🛒</span>Walmart Beauty</h4>
     <ul class="mkt-list" id="walmart-list">
       <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
     </ul>
@@ -399,7 +399,7 @@ nav a{font-size:12px;}
 
   <!-- Google Trends -->
   <div class="dashboard-card">
-    <h4><span class="dashboard-card-icon">📈</span>Google Trends US <span class="ch-off">중단</span></h4>
+    <h4><span class="dashboard-card-icon">📈</span>Google Trends US</h4>
     <ul class="mkt-list" id="trends-list">
       <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
     </ul>
@@ -432,7 +432,7 @@ nav a{font-size:12px;}
 
   <!-- OliveYoung US -->
   <div class="dashboard-card">
-    <h4><span class="dashboard-card-icon">🌿</span>OliveYoung US <span class="ch-off">중단</span></h4>
+    <h4><span class="dashboard-card-icon">🌿</span>OliveYoung US</h4>
     <ul class="mkt-list" id="oliveyoung-us-list">
       <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
     </ul>
@@ -1125,10 +1125,45 @@ function renderMarketingChannels(d){
     if(!el) return;
     const stt = d.global_channels_status || {};
     const keys = Object.keys(stt);
-    const live = keys.filter(k => (stt[k].count||0) > 0);
+    const live = keys.filter(k => (stt[k].count||0) > 0 && (stt[k].status||'') !== 'disabled');
     const note = d.data_integrity_note || '';
     el.innerHTML = '실데이터 수신 ' + live.length + '/' + keys.length + '개 채널'
       + (note ? '<br><span class="ch-note-sub">'+esc(note)+'</span>' : '');
+  })();
+
+  // h4 제목의 중단 뱃지를 실제 status/count 기준으로 갱신
+  (function syncChannelTitles(){
+    const stt = d.global_channels_status || {};
+    const gc = d.global_channels || {};
+    const map = {
+      'amazon-list': 'amazon_best_sellers',
+      'walmart-list': 'walmart_beauty',
+      'trends-list': 'google_trends_us',
+      'oliveyoung-us-list': 'oliveyoung_us',
+      'tiktok-list': 'tiktok_shop_us',
+      'ulta-list': 'ulta_beauty',
+      'sephora-list': 'sephora',
+      'obf-list': 'open_beauty_facts',
+      'shopify-demand-list': 'shopify_demand_matching'
+    };
+    Object.keys(map).forEach(listId=>{
+      const key = map[listId];
+      const ul = document.getElementById(listId);
+      if(!ul) return;
+      const h4 = ul.closest('.dashboard-card') && ul.closest('.dashboard-card').querySelector('h4');
+      if(!h4) return;
+      // 기존 ch-off 제거
+      h4.querySelectorAll('.ch-off').forEach(n=>n.remove());
+      const meta = stt[key] || {};
+      const n = (gc[key]||[]).length || meta.count || 0;
+      const st = meta.status || (n ? 'ok' : 'empty');
+      if(st === 'disabled' || st === 'failed' || (st !== 'ok' && !n)){
+        const span = document.createElement('span');
+        span.className = 'ch-off';
+        span.textContent = st === 'disabled' ? '중단' : (st === 'failed' ? '실패' : '없음');
+        h4.appendChild(span);
+      }
+    });
   })();
 
   // 채널별 렌더 헬퍼: title / sub / badge 를 유연하게 매핑
@@ -1183,8 +1218,8 @@ function renderMarketingChannels(d){
   // Amazon Best Sellers
   render("amazon-list", gc.amazon_best_sellers || [], i => ({
     title: i.product || i.title || '',
-    sub: i.rank ? `#${i.rank}` : (i.category || ''),
-    badge: i.trend || i.status || ''
+    sub: (i.brand || i.sub || '') + (i.rank != null ? ' · #'+i.rank : ''),
+    badge: i.badge || (i.price != null ? '$'+i.price : '') || i.trend || ''
   }), "green", "amazon_best_sellers");
 
   // TikTok Shop US
@@ -1197,29 +1232,29 @@ function renderMarketingChannels(d){
   // Walmart Beauty
   render("walmart-list", gc.walmart_beauty || [], i => ({
     title: i.product || i.title || '',
-    sub: i.category || '',
-    badge: i.status || ''
+    sub: i.brand || i.sub || i.category || '',
+    badge: i.badge || (i.price != null ? '$'+i.price : '') || i.status || ''
   }), "blue", "walmart_beauty");
 
   // Google Trends US
   render("trends-list", gc.google_trends_us || [], i => ({
     title: i.keyword || i.product || i.title || '',
-    sub: i.momentum || i.category || '',
-    badge: i.growth || ''
+    sub: i.sub || i.momentum || i.category || '',
+    badge: i.badge || i.growth || ''
   }), "amber", "google_trends_us");
 
   // Ulta Beauty
   render("ulta-list", gc.ulta_beauty || [], i => ({
     title: i.product || i.title || '',
-    sub: i.brand || i.category || '',
-    badge: i.rating != null ? String(i.rating) : (i.status || '')
+    sub: i.brand || i.sub || i.category || '',
+    badge: i.badge || (i.rating != null ? String(i.rating) : '') || i.status || ''
   }), "green", "ulta_beauty");
 
   // Sephora
   render("sephora-list", gc.sephora || [], i => ({
     title: i.product || i.title || '',
-    sub: i.category || '',
-    badge: i.loves || i.status || ''
+    sub: i.brand || i.sub || i.category || '',
+    badge: i.badge || i.loves || (i.rating != null ? String(i.rating) : '') || i.status || ''
   }), "purple", "sephora");
 
 
