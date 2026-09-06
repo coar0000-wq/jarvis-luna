@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-06T09:56:44.596779+09:00",
+  "generated_at": "2026-09-06T10:37:27.219491+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -212,174 +212,366 @@
   "global_channels": {
     "amazon_best_sellers": [
       {
-        "product": "제로 포어 패드 2.0",
-        "brand": "메디큐브",
-        "sub": "메디큐브",
-        "badge": "$20.60",
-        "price": 20.6,
-        "rating": 4.6,
-        "review_count": 28691,
+        "product": "COSRX Advanced Snail 96 Mucin Essence",
+        "brand": "",
+        "sub": "",
+        "badge": "$19.99",
+        "price": 19.99,
+        "rating": null,
+        "review_count": null,
         "rank": 1,
         "url": "https://www.amazon.com",
-        "extraction_method": "manual_screenshot"
+        "extraction_method": "catalog_file"
       },
       {
-        "product": "양면 면봉 (500매)",
-        "brand": "아마존 베이직스",
-        "sub": "아마존 베이직스",
-        "badge": "$2.55",
-        "price": 2.55,
-        "rating": 4.7,
-        "review_count": 78618,
-        "rank": 2,
-        "url": "https://www.amazon.com",
-        "extraction_method": "manual_screenshot"
-      },
-      {
-        "product": "오리지널 여드름 패치 (36개입)",
-        "brand": "마이티 패치",
-        "sub": "마이티 패치",
+        "product": "Mighty Patch Original",
+        "brand": "",
+        "sub": "",
         "badge": "$12.99",
         "price": 12.99,
-        "rating": 4.6,
-        "review_count": 185039,
+        "rating": null,
+        "review_count": null,
+        "rank": 2,
+        "url": "https://www.amazon.com",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "CeraVe Foaming Facial Cleanser",
+        "brand": "",
+        "sub": "",
+        "badge": "$15.49",
+        "price": 15.49,
+        "rating": null,
+        "review_count": null,
         "rank": 3,
         "url": "https://www.amazon.com",
-        "extraction_method": "manual_screenshot"
+        "extraction_method": "catalog_file"
       },
       {
-        "product": "바이오 콜라겐 리얼 딥 마스크",
-        "brand": "바이오댄스",
-        "sub": "바이오댄스",
-        "badge": "$18.34",
-        "price": 18.34,
-        "rating": 4.5,
-        "review_count": 44284,
+        "product": "The Ordinary Niacinamide 10% + Zinc 1%",
+        "brand": "",
+        "sub": "",
+        "badge": "$8.90",
+        "price": 8.9,
+        "rating": null,
+        "review_count": null,
         "rank": 4,
         "url": "https://www.amazon.com",
-        "extraction_method": "manual_screenshot"
+        "extraction_method": "catalog_file"
       },
       {
-        "product": "글리콜산 7% 각질 제거 토너",
-        "brand": "디오디너리",
-        "sub": "디오디너리",
-        "badge": "$13.50",
-        "price": 13.5,
-        "rating": 4.7,
-        "review_count": 58525,
+        "product": "La Roche-Posay Double Repair Moisturizer",
+        "brand": "",
+        "sub": "",
+        "badge": "$21.99",
+        "price": 21.99,
+        "rating": null,
+        "review_count": null,
         "rank": 5,
         "url": "https://www.amazon.com",
-        "extraction_method": "manual_screenshot"
+        "extraction_method": "catalog_file"
       },
       {
-        "product": "시어 베터 바디 로션 바닐라 캐시미어",
-        "brand": "eos",
-        "sub": "eos",
-        "badge": "$9.55",
-        "price": 9.55,
-        "rating": 4.7,
-        "review_count": 72360,
+        "product": "Paula's Choice 2% BHA Liquid Exfoliant",
+        "brand": "",
+        "sub": "",
+        "badge": "$34.00",
+        "price": 34.0,
+        "rating": null,
+        "review_count": null,
         "rank": 6,
         "url": "https://www.amazon.com",
-        "extraction_method": "manual_screenshot"
+        "extraction_method": "catalog_file"
       },
       {
-        "product": "메이크업 리무버 물티슈 (25매x2)",
-        "brand": "뉴트로지나",
-        "sub": "뉴트로지나",
-        "badge": "$9.97",
-        "price": 9.97,
-        "rating": 4.8,
-        "review_count": 120791,
+        "product": "Laneige Lip Sleeping Mask",
+        "brand": "",
+        "sub": "",
+        "badge": "$24.00",
+        "price": 24.0,
+        "rating": null,
+        "review_count": null,
         "rank": 7,
         "url": "https://www.amazon.com",
-        "extraction_method": "manual_screenshot"
+        "extraction_method": "catalog_file"
       },
       {
-        "product": "저자극성 화장솜 (100매)",
-        "brand": "아마존 베이직스",
-        "sub": "아마존 베이직스",
-        "badge": "$3.07",
-        "price": 3.07,
-        "rating": 4.7,
-        "review_count": 52672,
+        "product": "Skin1004 Madagascar Centella Ampoule",
+        "brand": "",
+        "sub": "",
+        "badge": "$18.99",
+        "price": 18.99,
+        "rating": null,
+        "review_count": null,
         "rank": 8,
         "url": "https://www.amazon.com",
-        "extraction_method": "manual_screenshot"
+        "extraction_method": "catalog_file"
       },
       {
-        "product": "10% 벤조일 퍼옥사이드 포밍 워시",
-        "brand": "PanOxyl",
-        "sub": "PanOxyl",
-        "badge": "$10.67",
-        "price": 10.67,
-        "rating": 4.6,
-        "review_count": 82343,
+        "product": "Mighty Patch Original Hydrocolloid",
+        "brand": "",
+        "sub": "다이소 뷰티 & 스킨케어",
+        "badge": "$12.99",
+        "price": 12.99,
+        "rating": null,
+        "review_count": null,
         "rank": 9,
         "url": "https://www.amazon.com",
-        "extraction_method": "manual_screenshot"
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Beauty of Joseon Relief Sun SPF50+",
+        "brand": "",
+        "sub": "다이소 뷰티 & 스킨케어",
+        "badge": "$16.00",
+        "price": 16.0,
+        "rating": null,
+        "review_count": null,
+        "rank": 10,
+        "url": "https://www.amazon.com",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "ANUA Heartleaf 77 Soothing Toner",
+        "brand": "",
+        "sub": "다이소 뷰티 & 스킨케어",
+        "badge": "$20.00",
+        "price": 20.0,
+        "rating": null,
+        "review_count": null,
+        "rank": 11,
+        "url": "https://www.amazon.com",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "CeraVe Moisturizing Cream",
+        "brand": "",
+        "sub": "다이소 뷰티 & 스킨케어",
+        "badge": "$18.99",
+        "price": 18.99,
+        "rating": null,
+        "review_count": null,
+        "rank": 12,
+        "url": "https://www.amazon.com",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Neutrogena Hydro Boost Water Gel",
+        "brand": "",
+        "sub": "다이소 뷰티 & 스킨케어",
+        "badge": "$15.99",
+        "price": 15.99,
+        "rating": null,
+        "review_count": null,
+        "rank": 13,
+        "url": "https://www.amazon.com",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "The Ordinary Hyaluronic Acid 2% + B5",
+        "brand": "",
+        "sub": "다이소 뷰티 & 스킨케어",
+        "badge": "$8.90",
+        "price": 8.9,
+        "rating": null,
+        "review_count": null,
+        "rank": 14,
+        "url": "https://www.amazon.com",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Goodal Green Tangerine Vita C Serum",
+        "brand": "",
+        "sub": "다이소 뷰티 & 스킨케어",
+        "badge": "$19.00",
+        "price": 19.0,
+        "rating": null,
+        "review_count": null,
+        "rank": 15,
+        "url": "https://www.amazon.com",
+        "extraction_method": "catalog_file"
       }
     ],
     "walmart_beauty": [
       {
-        "product": "톨레리안 퓨리파잉 폼 클렌저",
-        "brand": "라로슈포제",
-        "sub": "라로슈포제",
-        "badge": "$19.97",
-        "price": 19.97,
-        "rating": 4.7,
-        "review_count": 6684,
+        "product": "CeraVe Daily Moisturizing Lotion",
+        "brand": "",
+        "sub": "Moisturizer",
+        "badge": "$14.98",
+        "price": 14.98,
+        "rating": null,
+        "review_count": null,
         "rank": 1,
         "url": "https://www.walmart.com",
-        "extraction_method": "manual_screenshot"
+        "extraction_method": "catalog_file"
       },
       {
-        "product": "멜라 B3 나이아신아마이드 세럼",
-        "brand": "라로슈포제",
-        "sub": "라로슈포제",
-        "badge": "$44.99",
-        "price": 44.99,
-        "rating": 4.2,
-        "review_count": 2375,
+        "product": "PanOxyl Acne Foaming Wash",
+        "brand": "",
+        "sub": "Cleanser",
+        "badge": "$9.97",
+        "price": 9.97,
+        "rating": null,
+        "review_count": null,
         "rank": 2,
         "url": "https://www.walmart.com",
-        "extraction_method": "manual_screenshot"
+        "extraction_method": "catalog_file"
       },
       {
-        "product": "안텔리오스 클리어 스킨 SPF60",
-        "brand": "라로슈포제",
-        "sub": "라로슈포제",
-        "badge": "$20.97",
-        "price": 20.97,
-        "rating": 4.3,
-        "review_count": 1660,
+        "product": "Neutrogena Ultra Sheer SPF55",
+        "brand": "",
+        "sub": "Sunscreen",
+        "badge": "$10.94",
+        "price": 10.94,
+        "rating": null,
+        "review_count": null,
         "rank": 3,
         "url": "https://www.walmart.com",
-        "extraction_method": "manual_screenshot"
+        "extraction_method": "catalog_file"
       },
       {
-        "product": "언브러시 엉킴 방지 헤어 브러시",
-        "brand": "FHI 히트",
-        "sub": "FHI 히트",
-        "badge": "$18.00",
-        "price": 18.0,
-        "rating": 4.7,
-        "review_count": 1676,
+        "product": "The Ordinary Hyaluronic Acid 2%",
+        "brand": "",
+        "sub": "Serum",
+        "badge": "$9.80",
+        "price": 9.8,
+        "rating": null,
+        "review_count": null,
         "rank": 4,
         "url": "https://www.walmart.com",
-        "extraction_method": "manual_screenshot"
+        "extraction_method": "catalog_file"
       },
       {
-        "product": "소바쥬 엘릭서 향수 100ml",
-        "brand": "디올",
-        "sub": "디올",
-        "badge": "$98.50",
-        "price": 98.5,
-        "rating": 4.6,
-        "review_count": 8770,
+        "product": "EOS Shea Better Lotion",
+        "brand": "",
+        "sub": "Body Care",
+        "badge": "$8.97",
+        "price": 8.97,
+        "rating": null,
+        "review_count": null,
         "rank": 5,
         "url": "https://www.walmart.com",
-        "extraction_method": "manual_screenshot"
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "OGX Argan Oil Shampoo",
+        "brand": "",
+        "sub": "Hair Care",
+        "badge": "$7.98",
+        "price": 7.98,
+        "rating": null,
+        "review_count": null,
+        "rank": 6,
+        "url": "https://www.walmart.com",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Burt's Bees Beeswax Lip Balm",
+        "brand": "",
+        "sub": "Lip Care",
+        "badge": "$3.48",
+        "price": 3.48,
+        "rating": null,
+        "review_count": null,
+        "rank": 7,
+        "url": "https://www.walmart.com",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Garnier Moisture Bomb Sheet Mask",
+        "brand": "",
+        "sub": "Mask",
+        "badge": "$2.97",
+        "price": 2.97,
+        "rating": null,
+        "review_count": null,
+        "rank": 8,
+        "url": "https://www.walmart.com",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "The Ordinary Hyaluronic Acid 2% + B5",
+        "brand": "",
+        "sub": "Serum",
+        "badge": "$8.98",
+        "price": 8.98,
+        "rating": null,
+        "review_count": null,
+        "rank": 9,
+        "url": "https://www.walmart.com",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "EOS Shea Better Body Lotion",
+        "brand": "",
+        "sub": "Body",
+        "badge": "$6.98",
+        "price": 6.98,
+        "rating": null,
+        "review_count": null,
+        "rank": 10,
+        "url": "https://www.walmart.com",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "CeraVe Hydrating Facial Cleanser",
+        "brand": "",
+        "sub": "Cleanser",
+        "badge": "$13.98",
+        "price": 13.98,
+        "rating": null,
+        "review_count": null,
+        "rank": 11,
+        "url": "https://www.walmart.com",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Neutrogena Hydro Boost Water Gel",
+        "brand": "",
+        "sub": "Moisturizer",
+        "badge": "$15.94",
+        "price": 15.94,
+        "rating": null,
+        "review_count": null,
+        "rank": 12,
+        "url": "https://www.walmart.com",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Garnier SkinActive Micellar Water",
+        "brand": "",
+        "sub": "Cleanser",
+        "badge": "$8.97",
+        "price": 8.97,
+        "rating": null,
+        "review_count": null,
+        "rank": 13,
+        "url": "https://www.walmart.com",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "CeraVe PM Facial Moisturizing Lotion",
+        "brand": "",
+        "sub": "Moisturizer",
+        "badge": "$16.98",
+        "price": 16.98,
+        "rating": null,
+        "review_count": null,
+        "rank": 14,
+        "url": "https://www.walmart.com",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Equate Beauty Vitamin C Serum",
+        "brand": "",
+        "sub": "Serum",
+        "badge": "$7.48",
+        "price": 7.48,
+        "rating": null,
+        "review_count": null,
+        "rank": 15,
+        "url": "https://www.walmart.com",
+        "extraction_method": "catalog_file"
       }
     ],
     "oliveyoung_us": [
@@ -521,135 +713,176 @@
     ],
     "google_trends_us": [
       {
-        "keyword": "criminal defense attorney",
-        "product": "criminal defense attorney",
-        "sub": "Patch",
-        "badge": "1000+",
-        "url": "https://trends.google.com/trending?geo=US&q=criminal%20defense%20attorney"
+        "keyword": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
+        "product": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5"
       },
       {
-        "keyword": "domestic violence attorney",
-        "product": "domestic violence attorney",
-        "sub": "News4JAX",
-        "badge": "200+",
-        "url": "https://trends.google.com/trending?geo=US&q=domestic%20violence%20attorney"
+        "keyword": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+        "product": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5"
       },
       {
-        "keyword": "lincoln city vs southampton",
-        "product": "lincoln city vs southampton",
-        "sub": "Southampton FC Official Site",
-        "badge": "200+",
-        "url": "https://trends.google.com/trending?geo=US&q=lincoln%20city%20vs%20southampton"
+        "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - wral.com",
+        "product": "Consumer Reports puts K-Beauty sunscreens to the test - wral.com",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhPYk45c2xzWEw3Mmx2akplQWJZS1F1SnJSbnZJV3RmV0hLTktMUnl4cDBQak5jdDQ0LWlUWWtGODZSbkFfU0Q3MDZ0S0FtVFNDSjUyaldtU0l6WjhiZXpjN1MxVjdRNGVXeEUyZkNqY29aeXBqckFYYWxTYkF4TkpFVUFsZjFRMk9EU1N3?oc=5"
       },
       {
-        "keyword": "chelsea vs aston villa",
-        "product": "chelsea vs aston villa",
-        "sub": "BBC",
-        "badge": "200+",
-        "url": "https://trends.google.com/trending?geo=US&q=chelsea%20vs%20aston%20villa"
+        "keyword": "Keauti brings K-beauty to Queen City - Springfield Business Journal",
+        "product": "Keauti brings K-beauty to Queen City - Springfield Business Journal",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rZVhLTzJCdjNtajVENC16TEVSempfaks3T0Nmc1FJcExOdGlpSFpxSk9pb2drUHAtQ1cyc0c1amRsLUZQWmlFXzM5cW5DczVsRExKMENRbDdqOGNEVUFCaDdfNXNsRGxnOWU5d2xxcHVxYWd3Tnc?oc=5"
       },
       {
-        "keyword": "christa pike",
-        "product": "christa pike",
-        "sub": "The Guardian",
-        "badge": "200+",
-        "url": "https://trends.google.com/trending?geo=US&q=christa%20pike"
+        "keyword": "K-Beauty Experts Say These Trends Are Replacing the 10-Step Routine - NewBeauty",
+        "product": "K-Beauty Experts Say These Trends Are Replacing the 10-Step Routine - NewBeauty",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SQmU2eVFfdGs0bFZmTDdEc1l0YW9pSkV3S0NjcXJHUkVhRmFXcXh4SnBKUHJmZC1hOG82N2FpVmwxQ2V0NGVKWTAxSnJMd21hdlJzd3VFdC1HWXBrTmpTd0k0ZjQxZXRZOXV2WEZRWQ?oc=5"
       },
       {
-        "keyword": "earthquakes today",
-        "product": "earthquakes today",
-        "sub": "KOCO",
-        "badge": "200+",
-        "url": "https://trends.google.com/trending?geo=US&q=earthquakes%20today"
+        "keyword": "K-Beauty’s Brazil Push Signals a New Type of Korean Diplomacy - The Diplomat – Asia-Pacific Current Affairs Magazine",
+        "product": "K-Beauty’s Brazil Push Signals a New Type of Korean Diplomacy - The Diplomat – Asia-Pacific Current Affairs Magazine",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0ZibUpBTHd0ejZVOXVzTEhuQWNMVE1VblM4NUhVTWt4dmtkbW9wbnVxY0JOY1NpMEEwY2drcjZyb0dlLVRZZ1FIbUxMWkR4RVJzRlVTMDRFcHJuN2dEUDJpX1dlY0xYYXM4ajQ0dVUyN3F3MjA3a1ZlZklnSlhaTW1wcHJTUE5ncTlUZ1Axa003c1dWdE0ybg?oc=5"
       },
       {
-        "keyword": "united states department of justice antitrust division",
-        "product": "united states department of justice antitrust division",
-        "sub": "Fox News",
-        "badge": "200+",
-        "url": "https://trends.google.com/trending?geo=US&q=united%20states%20department%20of%20justice%20antitrust%20division"
+        "keyword": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
+        "product": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXkzOEhOM0k2RV9QV1hUbWlZSDhQZ2dGbWVZNHp6XzM3dWtvVTU5OTlJa3NROGF6R0ZjUlg0eHp5WTFUUmUzdElxSE9iX1JVTDV1cUdHeHBrVTVFLXRyTWVGWGVLWVdaOWQwMjVKSVVPbmxBRlhDOFp2cmRnd3JITUFibWR6UF8xSFo5aFlqem5hR2phaU5qdmx0SXJtdjJzZFA2ZmNFbTV0R0g0ZmNqMGYzZnI?oc=5"
       },
       {
-        "keyword": "beyoncé birthday fireworks jay z concert",
-        "product": "beyoncé birthday fireworks jay z concert",
-        "sub": "BBC",
-        "badge": "200+",
-        "url": "https://trends.google.com/trending?geo=US&q=beyonc%C3%A9%20birthday%20fireworks%20jay%20z%20concert"
+        "keyword": "Want Smaller-Looking Pores? These Medicube K-Beauty Picks Are Up to 70% Off - E! News",
+        "product": "Want Smaller-Looking Pores? These Medicube K-Beauty Picks Are Up to 70% Off - E! News",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa2hsTWhGS1l3cTBiN2hwOWEwVUFLdkJMVXNaSmFsdFFaMERrUDhRVTRsSVJvV2pxcEVmdGMwUXVRYXhzOG1FaV9GRV8welVXcXZ2ZFFaQkg1bndlTDNhMWNRNEJMd1JqSVdaZlBTZmEyekkxMFc1WmxINjZYbHRjcmw0WDdXYXJMYlAyS1E2V082NVdNd1lrU3ZOeGpXWHFKQUI3Z21icGV0YVh5ZDBN?oc=5"
       },
       {
-        "keyword": "weather miami",
-        "product": "weather miami",
-        "sub": "The Palm Beach Post",
-        "badge": "100+",
-        "url": "https://trends.google.com/trending?geo=US&q=weather%20miami"
+        "keyword": "US and Korean sunscreens are not created equal, study says - WTOP News",
+        "product": "US and Korean sunscreens are not created equal, study says - WTOP News",
+        "sub": "Korean sunscreen",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnpvNUR0bm0tV2E0M183TDZLUVUwal9NRHduZ21ULUtPZFl2SnFoVS1WVFVZTjJtZjFfX1R5Um1Lajk0TXZzbnVpbkdpMXdMbno4dHo0Y3g4R3lYbV9rRkcyY0VsSjRVSFFPWVV5cTNNWG0tVC0zZ0tER251cDRCM3A0ZEJnNTBjWjBrYnp2dHRHSXd2UkNMckJqQ1JmUmFkX1RCeElDdmtzMGJ4X3V6SjJYbTQyUlNvazMycGw4b2k4aG44YkdN?oc=5"
       },
       {
-        "keyword": "steve buscemi",
-        "product": "steve buscemi",
-        "sub": "RUNWAY MAGAZINE ® Official",
-        "badge": "100+",
-        "url": "https://trends.google.com/trending?geo=US&q=steve%20buscemi"
+        "keyword": "I tested the Korean sunscreen that’s been made for oily skin - The Independent",
+        "product": "I tested the Korean sunscreen that’s been made for oily skin - The Independent",
+        "sub": "Korean sunscreen",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPb0lOdHZNZlhpMGRsWTN1Q3FtUjlpREItRmxRQVRET1RoT2VhOW1naEE5c2RfWXBWUEVmaEo4ZXFqSVhJbXd2Tk8xQ1VPTUxpYVktc0dUMEVEUFpJU0JHR3YtbzNBcUJqTlpnaEs0aGhUblZNMGNHeVZVeHE5eEZsZW9ralNEYTVBY0MyWE9vY2FxZnJyR3JqS0RRekxoUGM1ZUc3Y01RcWIybG9BbFE0aGV4d3l6ZHdYYXY0OVRDZXBSRmxzNFd2bA?oc=5"
+      },
+      {
+        "keyword": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
+        "product": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
+        "sub": "Korean sunscreen",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5"
+      },
+      {
+        "keyword": "Does Korean sunscreen work better? | Consumer Reports - KING5.com",
+        "product": "Does Korean sunscreen work better? | Consumer Reports - KING5.com",
+        "sub": "Korean sunscreen",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGRVSGtHWWhrdzhNWEl1ZkZJcUxCMVpfem14eFVoOGlUV0x5UVpBTGR0TVRzMUo3ODlPM3MwMF8zSXJTa1pZZ0dELThiVlhtRjlqdTQ4SDFPcUdPaUR4ZnF0VmZvRWktajNibk9JT3pTam5CV0JGY0VOUnBFQmVXa0V1T3VJNXVQb1JLWjhkanRxWXBBeU5DZVVrUnFLWHBMWGRfa284UkFuaWNCYXV3RHJJeGtGck5TRFRES21aUV9WY3NCY21UazhEdjZ1bVk?oc=5"
+      },
+      {
+        "keyword": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
+        "product": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
+        "sub": "Korean sunscreen",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZHBXQzBDZ2dGRHdEeXdtSXk5NkpMbW5vZzYzdGVWWVk1RllId3RCaUtPVnRIUVVEME84QmUzYTRBcGt5SE9rd3VpU0NZcWhBak1tMjVNR2lPd050RUdwaUJQbHB6TU81UDVmejBkVElrcnFKdnY1UHZ6SjVOMmtCNjNod3AtYm5Qb3c?oc=5"
+      },
+      {
+        "keyword": "11 Of The Best Clear Sunscreens For Black & Brown Skin - coveteur.com",
+        "product": "11 Of The Best Clear Sunscreens For Black & Brown Skin - coveteur.com",
+        "sub": "Korean sunscreen",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZTWU0R2c2bXdNckV1N29mSDJWb201UGxUT2ZOajNjZ0oyRkJHTWVQdzdSME5YT0M2M0g2YXFrSnZGZWk3Mmx2S3VkVUx3bk9jMVV5dQ?oc=5"
+      },
+      {
+        "keyword": "The 5 Best Sunscreens (2026): Expert Approved - fortune.com",
+        "product": "The 5 Best Sunscreens (2026): Expert Approved - fortune.com",
+        "sub": "Korean sunscreen",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE04NldmdnZiVzNNZEg4ekdkM0FVMlV6aXhHVVpSV21GRTE0TE0tOVBTX203dHZQQ0xEejlHVTVNQ0ZXNmZ0Wi1kQzVQZUt0V1N3Nk1kTUM4QQ?oc=5"
       }
     ],
     "wikipedia_interest": [
       {
         "product": "Niacinamide",
-        "sub": "일평균 44회",
-        "badge": "+50.5%",
-        "change_pct": 50.5,
+        "sub": "일평균 45회",
+        "badge": "+38.8%",
+        "change_pct": 38.8,
         "url": "https://en.wikipedia.org/wiki/Niacinamide"
       },
       {
         "product": "Snail slime",
         "sub": "일평균 72회",
-        "badge": "+17.9%",
-        "change_pct": 17.9,
+        "badge": "+22.4%",
+        "change_pct": 22.4,
         "url": "https://en.wikipedia.org/wiki/Snail_slime"
       },
       {
         "product": "Centella asiatica",
-        "sub": "일평균 483회",
-        "badge": "+10.2%",
-        "change_pct": 10.2,
+        "sub": "일평균 480회",
+        "badge": "+9.8%",
+        "change_pct": 9.8,
         "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
       },
       {
-        "product": "Hyaluronic acid",
-        "sub": "일평균 567회",
-        "badge": "-1.3%",
-        "change_pct": -1.3,
-        "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
-      },
-      {
         "product": "Retinol",
-        "sub": "일평균 382회",
-        "badge": "-3.6%",
-        "change_pct": -3.6,
+        "sub": "일평균 386회",
+        "badge": "-0.9%",
+        "change_pct": -0.9,
         "url": "https://en.wikipedia.org/wiki/Retinol"
       },
       {
+        "product": "Hyaluronic acid",
+        "sub": "일평균 566회",
+        "badge": "-2.0%",
+        "change_pct": -2.0,
+        "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
+      },
+      {
         "product": "K-beauty",
-        "sub": "일평균 148회",
-        "badge": "-14.2%",
-        "change_pct": -14.2,
+        "sub": "일평균 143회",
+        "badge": "-9.9%",
+        "change_pct": -9.9,
         "url": "https://en.wikipedia.org/wiki/K-beauty"
       },
       {
         "product": "Cosmetics",
-        "sub": "일평균 863회",
-        "badge": "-31.6%",
-        "change_pct": -31.6,
+        "sub": "일평균 824회",
+        "badge": "-27.2%",
+        "change_pct": -27.2,
         "url": "https://en.wikipedia.org/wiki/Cosmetics"
       },
       {
         "product": "Sunscreen",
-        "sub": "일평균 659회",
-        "badge": "-33.5%",
-        "change_pct": -33.5,
+        "sub": "일평균 627회",
+        "badge": "-27.6%",
+        "change_pct": -27.6,
         "url": "https://en.wikipedia.org/wiki/Sunscreen"
       }
     ],
     "allure_media": [
+      {
+        "product": "Say Hello to Bouncier Waves with These Texture-Enhancing Shampoos",
+        "sub": "Sat, 05 Sep 2026",
+        "badge": "05 Sep",
+        "url": "https://www.allure.com/story/best-shampoos-for-wavy-hair"
+      },
       {
         "product": "Is the Dyson Toothbrush Worth $499? We Asked 4 Dentists.",
         "sub": "Fri, 04 Sep 2026",
@@ -733,12 +966,6 @@
         "sub": "Tue, 01 Sep 2026",
         "badge": "01 Sep",
         "url": "https://www.allure.com/story/met-gala-2027-theme-dolly-parton"
-      },
-      {
-        "product": "What Dermatologists Want Black Patients to Know About Follicular Eczema",
-        "sub": "Tue, 01 Sep 2026",
-        "badge": "01 Sep",
-        "url": "https://www.allure.com/story/follicular-eczema-black-brown-skin"
       }
     ],
     "openfda_sunscreen": [
@@ -1230,27 +1457,27 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-06"
   },
-  "last_synced": "09. 06. 오전 09:56 KST",
+  "last_synced": "09. 06. 오전 10:37 KST",
   "global_channels_status": {
     "amazon_best_sellers": {
       "status": "ok",
-      "source": "수동 입력 · https://www.amazon.com",
+      "source": "amazon_products.json 실명 카탈로그",
       "reason": "",
-      "collected_at": "2026-09-01",
-      "count": 9,
-      "trust": "manual",
-      "captured_at": "2026-09-01",
-      "age_days": 5
+      "collected_at": "2026-08-31T07:43:46.833602+00:00",
+      "count": 15,
+      "trust": "verified",
+      "captured_at": null,
+      "age_days": null
     },
     "walmart_beauty": {
       "status": "ok",
-      "source": "수동 입력 · https://www.walmart.com",
+      "source": "walmart_products.json 실명 카탈로그",
       "reason": "",
-      "collected_at": "2026-09-01",
-      "count": 5,
-      "trust": "manual",
-      "captured_at": "2026-09-01",
-      "age_days": 5
+      "collected_at": "2026-08-31T07:43:46.792834+00:00",
+      "count": 15,
+      "trust": "verified",
+      "captured_at": null,
+      "age_days": null
     },
     "oliveyoung_us": {
       "status": "ok",
@@ -1258,42 +1485,51 @@
       "reason": "",
       "collected_at": "2026-09-06T00:38:47.807796+00:00",
       "count": 15,
-      "trust": "verified"
+      "trust": "verified",
+      "captured_at": null,
+      "age_days": null
     },
     "google_trends_us": {
       "status": "ok",
-      "source": "trends.google.com/trending/rss?geo=US (공식 RSS)",
+      "source": "google news rss (beauty queries) + trends daily filtered",
       "reason": "",
-      "collected_at": "2026-09-05T11:41:03.326787+00:00",
-      "count": 10,
+      "collected_at": "2026-09-06T00:10:16.478035+00:00",
+      "count": 15,
       "trust": "verified",
-      "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽"
+      "captured_at": null,
+      "age_days": null
     },
     "wikipedia_interest": {
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-05T11:41:03.326787+00:00",
+      "collected_at": "2026-09-06T00:57:01.875799+00:00",
       "count": 8,
       "trust": "verified",
-      "note": "2026-08-05 ~ 2026-09-03 일별 조회수. 후반 15일 대비 전반 15일 증감률"
+      "captured_at": null,
+      "age_days": null,
+      "note": "2026-08-06 ~ 2026-09-04 일별 조회수. 후반 15일 대비 전반 15일 증감률"
     },
     "allure_media": {
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-05T11:41:03.326787+00:00",
+      "collected_at": "2026-09-06T00:57:01.875799+00:00",
       "count": 15,
       "trust": "verified",
+      "captured_at": null,
+      "age_days": null,
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용."
     },
     "openfda_sunscreen": {
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-05T11:41:03.326787+00:00",
+      "collected_at": "2026-09-06T00:57:01.875799+00:00",
       "count": 15,
       "trust": "verified",
+      "captured_at": null,
+      "age_days": null,
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다."
     },
     "shopify_demand_matching": {
@@ -1302,7 +1538,9 @@
       "reason": "demand_score·predicted_orders·expected_roas 가 조작값이라 삭제. 실측 지표 확보 후 재설계.",
       "collected_at": "",
       "count": 0,
-      "trust": "none"
+      "trust": "none",
+      "captured_at": null,
+      "age_days": null
     },
     "tiktok_shop_us": {
       "status": "ok",
@@ -1310,7 +1548,9 @@
       "reason": "",
       "collected_at": "",
       "count": 15,
-      "trust": "verified"
+      "trust": "verified",
+      "captured_at": null,
+      "age_days": null
     },
     "ulta_beauty": {
       "status": "ok",
@@ -1338,7 +1578,9 @@
       "reason": "",
       "collected_at": "2026-09-06T00:38:47.070170+00:00",
       "count": 15,
-      "trust": "verified"
+      "trust": "verified",
+      "captured_at": null,
+      "age_days": null
     }
   },
   "data_integrity_note": "2026-08-31 가짜 데이터 제거. 하드코딩 카탈로그와 폴백 샘플을 삭제했으며 비어 있는 채널은 실제 수집이 없다는 뜻이다. 실데이터 채널: 다이소 실수집, 환율, arXiv, Google CSE."
