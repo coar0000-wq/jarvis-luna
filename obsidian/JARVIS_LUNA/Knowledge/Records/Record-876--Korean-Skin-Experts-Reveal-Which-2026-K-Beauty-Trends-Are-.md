@@ -2,7 +2,7 @@
 title: "Record 876 · Korean-Skin-Experts-Reveal-Which-2026-K-Beauty-Trends-Are-Actually-Wor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T11:25:01.491545+00:00
+updated_at: 2026-09-06T00:39:25.132030+00:00
 tags: [record, real-data]
 ---
 

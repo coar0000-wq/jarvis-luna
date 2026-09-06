@@ -2,7 +2,7 @@
 title: "Record 516 · Indoor-microclimate-shapes-resting-patterns-of-Anopheles-funestus-in-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T11:25:01.433005+00:00
+updated_at: 2026-09-06T00:39:25.063261+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:46:17.179701+00:00",
+  "generated_at": "2026-09-06T00:38:18.511919+00:00",
   "generator": "scripts/build_listing_gate.py",
   "규칙": "listing_ready = copy_ok AND gosi_ok AND price_ok AND legal_ok",
   "근거": {
@@ -9,7 +9,7 @@
     "legal_ok": "자동 점검이 전부 통과하고 사람이 fail 로 적지 않음. SPF·금지표현·점검 미통과가 있으면 그때 사람이 본다."
   },
   "target": "S등급",
-  "total": 4,
+  "total": 5,
   "ready": 4,
   "counts": {
     "copy": 4,
@@ -17,7 +17,12 @@
     "price": 4,
     "legal": 4
   },
-  "blockers": {},
+  "blockers": {
+    "copy": 1,
+    "gosi": 1,
+    "price": 1,
+    "legal": 1
+  },
   "unreadable": [],
   "items": [
     {
@@ -73,6 +78,25 @@
       "legal_ok": true,
       "listing_ready": true,
       "blocked_by": [],
+      "price_note": "",
+      "legal_note": ""
+    },
+    {
+      "pd_no": "1068413",
+      "name": "[펫] 포포몽 논슬립 대나무 배변 패드 표준형 40 X 50 cm 36매입",
+      "grade": "S",
+      "shopify_score": 85,
+      "copy_ok": false,
+      "gosi_ok": false,
+      "price_ok": false,
+      "legal_ok": false,
+      "listing_ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "price",
+        "legal"
+      ],
       "price_note": "",
       "legal_note": ""
     }

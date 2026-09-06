@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T11:41:03.326787+00:00",
+  "generated_at": "2026-09-06T00:57:01.875799+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "criminal defense attorney",
+          "keyword": "brewers game",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sat, 5 Sep 2026 17:40:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=brewers%20game"
+        },
+        {
+          "keyword": "manny machado",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sat, 5 Sep 2026 17:30:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=manny%20machado"
+        },
+        {
+          "keyword": "phillies schedule",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sat, 5 Sep 2026 17:30:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=phillies%20schedule"
+        },
+        {
+          "keyword": "tigres - necaxa",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Sat, 5 Sep 2026 04:10:00 -0700",
-          "source_name": "Patch",
-          "url": "https://trends.google.com/trending?geo=US&q=criminal%20defense%20attorney"
+          "published": "Sat, 5 Sep 2026 17:40:00 -0700",
+          "source_name": "Fubo",
+          "url": "https://trends.google.com/trending?geo=US&q=tigres%20-%20necaxa"
         },
         {
-          "keyword": "domestic violence attorney",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 5 Sep 2026 04:20:00 -0700",
-          "source_name": "News4JAX",
-          "url": "https://trends.google.com/trending?geo=US&q=domestic%20violence%20attorney"
+          "keyword": "tom brady",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sat, 5 Sep 2026 17:40:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=tom%20brady"
         },
         {
-          "keyword": "lincoln city vs southampton",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 5 Sep 2026 04:20:00 -0700",
-          "source_name": "Southampton FC Official Site",
-          "url": "https://trends.google.com/trending?geo=US&q=lincoln%20city%20vs%20southampton"
+          "keyword": "arizona football",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sat, 5 Sep 2026 17:40:00 -0700",
+          "source_name": "Arizona Desert Swarm",
+          "url": "https://trends.google.com/trending?geo=US&q=arizona%20football"
         },
         {
-          "keyword": "chelsea vs aston villa",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 5 Sep 2026 04:20:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=chelsea%20vs%20aston%20villa"
+          "keyword": "lapd vehicle impound street takeover",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sat, 5 Sep 2026 17:40:00 -0700",
+          "source_name": "ABC7 Los Angeles",
+          "url": "https://trends.google.com/trending?geo=US&q=lapd%20vehicle%20impound%20street%20takeover"
         },
         {
-          "keyword": "christa pike",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 5 Sep 2026 04:20:00 -0700",
-          "source_name": "The Guardian",
-          "url": "https://trends.google.com/trending?geo=US&q=christa%20pike"
+          "keyword": "taylor swift travis kelce marriage",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sat, 5 Sep 2026 17:30:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=taylor%20swift%20travis%20kelce%20marriage"
         },
         {
-          "keyword": "earthquakes today",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 5 Sep 2026 04:10:00 -0700",
-          "source_name": "KOCO",
-          "url": "https://trends.google.com/trending?geo=US&q=earthquakes%20today"
+          "keyword": "ethan grunkemeyer",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sat, 5 Sep 2026 17:30:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=ethan%20grunkemeyer"
         },
         {
-          "keyword": "united states department of justice antitrust division",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 5 Sep 2026 04:10:00 -0700",
-          "source_name": "Fox News",
-          "url": "https://trends.google.com/trending?geo=US&q=united%20states%20department%20of%20justice%20antitrust%20division"
-        },
-        {
-          "keyword": "beyoncé birthday fireworks jay z concert",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 5 Sep 2026 04:10:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=beyonc%C3%A9%20birthday%20fireworks%20jay%20z%20concert"
-        },
-        {
-          "keyword": "weather miami",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sat, 5 Sep 2026 04:20:00 -0700",
-          "source_name": "The Palm Beach Post",
-          "url": "https://trends.google.com/trending?geo=US&q=weather%20miami"
-        },
-        {
-          "keyword": "steve buscemi",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sat, 5 Sep 2026 04:20:00 -0700",
-          "source_name": "RUNWAY MAGAZINE ® Official",
-          "url": "https://trends.google.com/trending?geo=US&q=steve%20buscemi"
+          "keyword": "kalie mccrystal",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sat, 5 Sep 2026 17:30:00 -0700",
+          "source_name": "People.com",
+          "url": "https://trends.google.com/trending?geo=US&q=kalie%20mccrystal"
         }
       ]
     },
@@ -96,87 +96,87 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-05 ~ 2026-09-03 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-06 ~ 2026-09-04 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
           "topic": "Niacinamide",
           "days": 30,
-          "total_views": 1335,
-          "avg_daily": 44,
-          "recent_avg": 53,
-          "prev_avg": 36,
-          "change_pct": 50.5,
+          "total_views": 1354,
+          "avg_daily": 45,
+          "recent_avg": 52,
+          "prev_avg": 38,
+          "change_pct": 38.8,
           "url": "https://en.wikipedia.org/wiki/Niacinamide"
         },
         {
           "topic": "Snail slime",
           "days": 30,
-          "total_views": 2151,
+          "total_views": 2164,
           "avg_daily": 72,
-          "recent_avg": 78,
-          "prev_avg": 66,
-          "change_pct": 17.9,
+          "recent_avg": 79,
+          "prev_avg": 65,
+          "change_pct": 22.4,
           "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "Centella asiatica",
           "days": 30,
-          "total_views": 14490,
-          "avg_daily": 483,
-          "recent_avg": 506,
-          "prev_avg": 460,
-          "change_pct": 10.2,
+          "total_views": 14401,
+          "avg_daily": 480,
+          "recent_avg": 503,
+          "prev_avg": 458,
+          "change_pct": 9.8,
           "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
-        },
-        {
-          "topic": "Hyaluronic acid",
-          "days": 30,
-          "total_views": 17019,
-          "avg_daily": 567,
-          "recent_avg": 564,
-          "prev_avg": 571,
-          "change_pct": -1.3,
-          "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
         },
         {
           "topic": "Retinol",
           "days": 30,
-          "total_views": 11472,
-          "avg_daily": 382,
-          "recent_avg": 375,
-          "prev_avg": 389,
-          "change_pct": -3.6,
+          "total_views": 11578,
+          "avg_daily": 386,
+          "recent_avg": 384,
+          "prev_avg": 388,
+          "change_pct": -0.9,
           "url": "https://en.wikipedia.org/wiki/Retinol"
+        },
+        {
+          "topic": "Hyaluronic acid",
+          "days": 30,
+          "total_views": 16989,
+          "avg_daily": 566,
+          "recent_avg": 560,
+          "prev_avg": 572,
+          "change_pct": -2.0,
+          "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 4426,
-          "avg_daily": 148,
+          "total_views": 4303,
+          "avg_daily": 143,
           "recent_avg": 136,
-          "prev_avg": 159,
-          "change_pct": -14.2,
+          "prev_avg": 151,
+          "change_pct": -9.9,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
         },
         {
           "topic": "Cosmetics",
           "days": 30,
-          "total_views": 25900,
-          "avg_daily": 863,
-          "recent_avg": 701,
-          "prev_avg": 1026,
-          "change_pct": -31.6,
+          "total_views": 24727,
+          "avg_daily": 824,
+          "recent_avg": 695,
+          "prev_avg": 954,
+          "change_pct": -27.2,
           "url": "https://en.wikipedia.org/wiki/Cosmetics"
         },
         {
           "topic": "Sunscreen",
           "days": 30,
-          "total_views": 19779,
-          "avg_daily": 659,
-          "recent_avg": 527,
-          "prev_avg": 792,
-          "change_pct": -33.5,
+          "total_views": 18800,
+          "avg_daily": 627,
+          "recent_avg": 526,
+          "prev_avg": 727,
+          "change_pct": -27.6,
           "url": "https://en.wikipedia.org/wiki/Sunscreen"
         }
       ]
@@ -187,6 +187,11 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "Say Hello to Bouncier Waves with These Texture-Enhancing Shampoos",
+          "published": "Sat, 05 Sep 2026 12:00:00 +0000",
+          "url": "https://www.allure.com/story/best-shampoos-for-wavy-hair"
+        },
         {
           "title": "Is the Dyson Toothbrush Worth $499? We Asked 4 Dentists.",
           "published": "Fri, 04 Sep 2026 19:30:34 +0000",
@@ -331,11 +336,6 @@
           "title": "‘The Shards’: All the ‘80s Hair Details From Episode 6",
           "published": "Thu, 27 Aug 2026 07:09:00 +0000",
           "url": "https://www.allure.com/story/the-shards-season-1-lead-hairstylist-interview"
-        },
-        {
-          "title": "Vanilla Chrome Nails Are the Sweetest Way to Wear a White Manicure",
-          "published": "Wed, 26 Aug 2026 20:07:01 +0000",
-          "url": "https://www.allure.com/story/vanilla-chrome-nail-trend"
         }
       ]
     },

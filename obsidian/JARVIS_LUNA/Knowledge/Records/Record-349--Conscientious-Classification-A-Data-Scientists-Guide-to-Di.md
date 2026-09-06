@@ -2,7 +2,7 @@
 title: "Record 349 · Conscientious-Classification-A-Data-Scientists-Guide-to-Discrimination"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T11:25:01.407495+00:00
+updated_at: 2026-09-06T00:39:25.032765+00:00
 tags: [record, real-data]
 ---
 

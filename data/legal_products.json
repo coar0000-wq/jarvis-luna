@@ -82,7 +82,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-05T14:46:17.128934+00:00",
+      "auto_checked_at": "2026-09-06T00:38:18.462796+00:00",
       "hard_block": false,
       "hard_block_reason": ""
     },
@@ -115,7 +115,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-05T14:46:17.128981+00:00",
+      "auto_checked_at": "2026-09-06T00:38:18.462859+00:00",
       "hard_block": true,
       "hard_block_reason": "SPF 표기 - 미국 OTC 의약품이라 라벨 요건이 별도"
     },
@@ -148,7 +148,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-05T14:46:17.128998+00:00",
+      "auto_checked_at": "2026-09-06T00:38:18.462898+00:00",
       "hard_block": false,
       "hard_block_reason": ""
     },
@@ -181,7 +181,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-05T14:46:17.129011+00:00",
+      "auto_checked_at": "2026-09-06T00:38:18.462936+00:00",
       "hard_block": false,
       "hard_block_reason": ""
     },
@@ -214,7 +214,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-05T14:46:17.129024+00:00",
+      "auto_checked_at": "2026-09-06T00:38:18.462984+00:00",
       "hard_block": false,
       "hard_block_reason": ""
     },
@@ -247,7 +247,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-05T14:46:17.129034+00:00",
+      "auto_checked_at": "2026-09-06T00:38:18.463024+00:00",
       "hard_block": true,
       "hard_block_reason": "SPF 표기 - 미국 OTC 의약품이라 라벨 요건이 별도"
     },
@@ -280,7 +280,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-05T14:46:17.129047+00:00",
+      "auto_checked_at": "2026-09-06T00:38:18.463090+00:00",
       "hard_block": false,
       "hard_block_reason": ""
     },
@@ -313,7 +313,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-05T14:46:17.129062+00:00",
+      "auto_checked_at": "2026-09-06T00:38:18.463155+00:00",
       "hard_block": false,
       "hard_block_reason": ""
     },
@@ -346,7 +346,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-05T14:46:17.129075+00:00",
+      "auto_checked_at": "2026-09-06T00:38:18.463198+00:00",
       "hard_block": false,
       "hard_block_reason": ""
     },
@@ -379,7 +379,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-05T14:46:17.129087+00:00",
+      "auto_checked_at": "2026-09-06T00:38:18.463241+00:00",
       "hard_block": false,
       "hard_block_reason": ""
     },
@@ -412,7 +412,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-05T14:46:17.129098+00:00",
+      "auto_checked_at": "2026-09-06T00:38:18.463282+00:00",
       "hard_block": false,
       "hard_block_reason": ""
     },
@@ -445,7 +445,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-05T14:46:17.129110+00:00",
+      "auto_checked_at": "2026-09-06T00:38:18.463328+00:00",
       "hard_block": false,
       "hard_block_reason": ""
     }
@@ -456,5 +456,5 @@
     "needs_attention": 7,
     "pass": 0
   },
-  "auto_checked_at": "2026-09-05T14:46:17.129119+00:00"
+  "auto_checked_at": "2026-09-06T00:38:18.463335+00:00"
 }

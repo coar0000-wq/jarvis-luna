@@ -2,7 +2,7 @@
 title: "Record 406 · Visual-Computing-for-Autonomous-Driving"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T11:25:01.416609+00:00
+updated_at: 2026-09-06T00:39:25.043742+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 688 · MCP-Under-Attack---Security-Risks-in-the-Model-Context-Protocol-Ecosys"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T11:25:01.460378+00:00
+updated_at: 2026-09-06T00:39:25.094638+00:00
 tags: [record, real-data]
 ---
 

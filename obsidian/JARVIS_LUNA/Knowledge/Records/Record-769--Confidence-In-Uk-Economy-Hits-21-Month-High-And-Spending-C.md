@@ -2,7 +2,7 @@
 title: "Record 769 · Confidence-In-Uk-Economy-Hits-21-Month-High-And-Spending-Climbs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T11:25:01.472797+00:00
+updated_at: 2026-09-06T00:39:25.109704+00:00
 tags: [record, real-data]
 ---
 

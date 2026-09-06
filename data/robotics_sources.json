@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T11:22:33.370957+00:00",
+  "generated_at": "2026-09-06T00:36:53.309681+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -504,6 +504,22 @@
       "errors": [],
       "items": [
         {
+          "title": "Cyborg Roaches Can Stab You With Needles",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/large-brown-cockroach-fitted-with-an-electronic-device-and-wires-on-its-back.jpg?id=67724302&width=1245&height=700&coordinates=0%2C62%2C0%2C63\"/><br/><br/><p>Imagine you are trapped under rubble after an earthquake and you see an electronics-covered cockroach with a spring-loaded needle on its back scuttling toward you. Although the sight might be ",
+          "published": "Sat, 05 Sep 2026 13:00:04 +0000",
+          "url": "https://spectrum.ieee.org/cyborg-rescue-roach",
+          "feed": "IEEE Spectrum Robotics",
+          "source": "rss"
+        },
+        {
+          "title": "Video Friday: Digit Redecorates",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-tidies-an-orange-couch-while-a-person-watches-in-a-modern-living-room.gif?id=67725697&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcom",
+          "published": "Fri, 04 Sep 2026 16:00:05 +0000",
+          "url": "https://spectrum.ieee.org/video-friday-agility-robotics-digit",
+          "feed": "IEEE Spectrum Robotics",
+          "source": "rss"
+        },
+        {
           "title": "Protecting Dynamic Industrial Robot Cable Carriers",
           "summary": "<img src=\"https://spectrum.ieee.org/media-library/industrial-robotic-arm-with-cable-management-system-and-flexible-energy-chains.jpg?id=67633840&width=1245&height=700&coordinates=0%2C104%2C0%2C104\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://tsubaki-kabelschlepp.com/\" target=\"_blank\">Tsubaki KabelSchlepp</a>.</em></p><p>In modern automated manufacturing, six-axis articulat",
           "published": "Thu, 03 Sep 2026 12:18:21 +0000",
@@ -688,19 +704,19 @@
           "source": "rss"
         },
         {
-          "title": "Japan Pioneered Humanoid Robots—Can It Now Catch China?",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-middle-aged-asian-man-seated-next-to-an-uncannily-similar-humanoid-robot-with-the-same-hairstyle-glasses-and-clothing.jpg?id=67080305&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p>“In the future, the relationship between humans and robots will deepen, and the distinction between them will probably disappear.” This prediction,",
-          "published": "Sat, 04 Jul 2026 11:00:01 +0000",
-          "url": "https://spectrum.ieee.org/humanoid-robots-japan",
-          "feed": "IEEE Spectrum Robotics",
+          "title": "ARM Institute gets $90M for 10 projects to modernize military manufacturing",
+          "summary": "<p>Fifteen member organizations will deliver viable working solutions within a two-year timeframe, the ARM Institute said.</p> <p>The post <a href=\"https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/\">ARM Institute gets $90M for 10 projects to modernize military manufacturing</a> appeared first on <a href=\"https://www.therobotreport.com\">The R",
+          "published": "Sat, 05 Sep 2026 14:22:41 +0000",
+          "url": "https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/",
+          "feed": "The Robot Report",
           "source": "rss"
         },
         {
-          "title": "Video Friday: An Earthbound Mars Rover for the Moon",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/mars-style-rover-prototype-on-rugged-ground-under-a-clear-sky-with-the-moon-visible.png?id=67083121&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span><a href=\"https://spectrum.ieee.org/tag/video-friday\" target=\"_blank\">Video Friday</a> is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IE",
-          "published": "Fri, 03 Jul 2026 15:00:01 +0000",
-          "url": "https://spectrum.ieee.org/video-friday-nasa-lunar-rover",
-          "feed": "IEEE Spectrum Robotics",
+          "title": "Enovis to acquire surgical tech provider eCential Robotics for $180M",
+          "summary": "<p>Enovis said it plans to bring a robotic system targeting the knee within the next two years, followed by a system focusing on the shoulder.</p> <p>The post <a href=\"https://www.therobotreport.com/enovis-to-acquire-ecential-robotics-for-180m/\">Enovis to acquire surgical tech provider eCential Robotics for $180M</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.<",
+          "published": "Sat, 05 Sep 2026 12:30:37 +0000",
+          "url": "https://www.therobotreport.com/enovis-to-acquire-ecential-robotics-for-180m/",
+          "feed": "The Robot Report",
           "source": "rss"
         },
         {
@@ -804,22 +820,6 @@
           "summary": "<p>Leaders at Amazon Robotics, Teradyne Robotics, and Cobot will discuss how they're applying physical AI to robots operating in customer environments.</p> <p>The post <a href=\"https://www.therobotreport.com/learn-how-physical-ai-is-being-used-to-do-real-work-at-robobusiness/\">Learn how physical AI is being used to do real work at RoboBusiness</a> appeared first on <a href=\"https://www.therobotrep",
           "published": "Tue, 01 Sep 2026 16:48:33 +0000",
           "url": "https://www.therobotreport.com/learn-how-physical-ai-is-being-used-to-do-real-work-at-robobusiness/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Visko launches Orbis live model and closes pre-seed funding round",
-          "summary": "<p>Visko says Orbis streams 4K video at 24 frames per second, responds to user intervention, and sustains hour-scale generation without drift.</p> <p>The post <a href=\"https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/\">Visko launches Orbis live model and closes pre-seed funding round</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robo",
-          "published": "Tue, 01 Sep 2026 16:00:01 +0000",
-          "url": "https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "The Missing Layer in Robot Safety Assurance",
-          "summary": "<p>Why robot safety assurance must account for attacks that can change how a machine sees, decides, and acts.</p> <p>The post <a href=\"https://www.therobotreport.com/the-missing-layer-in-robot-safety-assurance/\">The Missing Layer in Robot Safety Assurance</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Tue, 01 Sep 2026 13:56:53 +0000",
-          "url": "https://www.therobotreport.com/the-missing-layer-in-robot-safety-assurance/",
           "feed": "The Robot Report",
           "source": "rss"
         }

@@ -2,7 +2,7 @@
 title: "Record 888 · So-What-Exactly-Is-K-Beauty---coveteurcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T11:25:01.493510+00:00
+updated_at: 2026-09-06T00:39:25.134179+00:00
 tags: [record, real-data]
 ---
 

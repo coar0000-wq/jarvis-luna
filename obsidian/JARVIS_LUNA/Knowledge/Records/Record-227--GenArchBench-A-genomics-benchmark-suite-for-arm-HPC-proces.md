@@ -2,7 +2,7 @@
 title: "Record 227 · GenArchBench-A-genomics-benchmark-suite-for-arm-HPC-processors"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T11:25:01.387179+00:00
+updated_at: 2026-09-06T00:39:25.009182+00:00
 tags: [record, real-data]
 ---
 

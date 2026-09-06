@@ -2,7 +2,7 @@
 title: "Record 434 · Estimation-of-Auger-recombination-coefficient-C-from-DC-measurements-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T11:25:01.420724+00:00
+updated_at: 2026-09-06T00:39:25.048813+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 580 · Ultrasound-Guided-Pharmacopuncture-Targeting-the-Myotendinous-Junction"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T11:25:01.444005+00:00
+updated_at: 2026-09-06T00:39:25.075542+00:00
 tags: [record, real-data]
 ---
 
