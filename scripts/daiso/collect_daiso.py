@@ -101,12 +101,26 @@ def meta_tags(html: str) -> dict:
     return tags
 
 
+# 실패 사유를 담을 곳. parse_product 는 dict|None 을 그대로 유지하고
+# 왜 실패했는지는 여기에 적는다. 호출부를 바꾸지 않으려는 것이다.
+LAST_FAIL: dict = {}
+
+
 def parse_product(pd_no: str, url: str, html: str) -> dict | None:
-    """상품 페이지에서 실제로 표시된 값만 추출한다."""
+    """상품 페이지에서 실제로 표시된 값만 추출한다.
+
+    실패하면 LAST_FAIL 에 사유를 남긴다. 예전에는 실패 건수만 세고
+    무엇이 왜 실패했는지 아무도 기록하지 않았다. 그래서 "35건 중 15건
+    파싱 실패" 라고 보고만 하고 원인을 짚을 수가 없었다.
+    """
+    LAST_FAIL.clear()
     t = meta_tags(html)
     title = t.get("og:title") or t.get("title") or ""
     desc = t.get("og:description") or t.get("description") or ""
     if not title:
+        LAST_FAIL.update(pd_no=pd_no, reason="og:title 없음",
+                         meta_count=len(t), html_len=len(html),
+                         sold_out=("판매종료" in html or "품절" in html))
         return None
 
     # og:title 형식: "상품명 | 브랜드 | 카테고리 | 1,000원 - 다이소몰"
@@ -126,6 +140,13 @@ def parse_product(pd_no: str, url: str, html: str) -> dict | None:
             price = int(m2.group(1).replace(",", ""))
 
     if not name or price is None:
+        LAST_FAIL.update(
+            pd_no=pd_no,
+            reason=("상품명 없음" if not name else "가격 없음"),
+            og_title=title[:120],
+            # 가격이 없는 건 대개 판매 종료·품절이다. 파싱이 깨진 게 아니다.
+            sold_out=("판매종료" in html or "일시품절" in html or "품절" in html),
+        )
         return None
 
     rating = review_count = None
@@ -349,7 +370,19 @@ def main() -> int:
         else:
             item = parse_product(pd_no, url, html)
             if item is None:
-                run["parse_failed"] += 1
+                info = dict(LAST_FAIL)
+                # 품절·판매종료 상품은 가격이 표시되지 않는다. 파싱이 깨진
+                # 게 아니라 살 수 없는 상품이다. 이걸 실패로 세면 실패율이
+                # 부풀려진다. 따로 센다.
+                if info.get("sold_out"):
+                    run["sold_out"] += 1
+                else:
+                    run["parse_failed"] += 1
+                    why = info.get("reason", "?")
+                    run["parse_fail_reasons"][why] = \
+                        run["parse_fail_reasons"].get(why, 0) + 1
+                    if len(run["parse_fail_samples"]) < 12:
+                        run["parse_fail_samples"].append(info)
             else:
                 drop = excluded(item, exclude_rules)
                 if drop:

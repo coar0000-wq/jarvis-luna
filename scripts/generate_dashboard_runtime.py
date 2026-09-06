@@ -274,15 +274,23 @@ def team_cards(graph: dict) -> list[dict]:
         run = (stat or {}).get("last_run") or {}
         fail = (run.get("parse_failed") or 0) + (run.get("http_error") or 0)
         ok = run.get("ok") or 0
+        sold = run.get("sold_out") or 0
         # skipped_not_beauty 는 뷰티관이 아니라 일부러 건너뛴 것이다.
         # 이걸 분모에 넣으면 실패율이 실제보다 크게 보인다.
-        tried = ok + fail
+        tried = ok + fail + sold
+        # 왜 실패했는지 함께 보여준다. 예전에는 "15건 파싱 실패" 라고만
+        # 적어서 원인을 짚을 수 없었다.
+        why = run.get("parse_fail_reasons") or {}
+        why_txt = (" · " + ", ".join(f"{k} {v}" for k, v in
+                                    sorted(why.items(), key=lambda x: -x[1])[:3])) if why else ""
+        sold_txt = f" · 품절·판매종료 {sold}건" if sold else ""
         cards.append(_team(
             "sourcing", "상품 소싱팀",
             (score or {}).get("generated_at") or (prod or {}).get("updated_at"),
             (f'{n}개 상품 · 등급 {grade}' if grade else f'{n}개 상품') + feed_tail("sourcing"),
-            f'직전 실행에서 {tried}건 시도 중 {fail}건 파싱 실패 (성공 {ok}건)'
-            if fail else None,
+            (f'직전 실행에서 {tried}건 시도 중 {fail}건 실패 (성공 {ok}건)'
+             + why_txt + sold_txt) if fail else (
+                f'직전 실행 {tried}건 시도 · 성공 {ok}건{sold_txt}' if sold else None),
             "ok" if n else "failed"))
     else:
         cards.append(_team("sourcing", "상품 소싱팀", None,
