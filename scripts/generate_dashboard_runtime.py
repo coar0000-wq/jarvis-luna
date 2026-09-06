@@ -339,7 +339,10 @@ def team_cards(graph: dict) -> list[dict]:
         if gate:
             c = gate.get("counts") or {}
             blk = gate.get("blockers") or {}
-            LABEL = {"copy": "카피", "gosi": "고시", "price": "실측", "legal": "법률"}
+            # price 를 '실측' 이라 적어놨었다. 저울로 잰다는 뜻으로 읽혀서
+            # 오해를 준다. 무게는 고시 용량으로 계산하고, 이 항목이 보는 건
+            # 손익분기를 넘는 판매가가 실제로 나왔는지다.
+            LABEL = {"copy": "카피", "gosi": "고시", "price": "가격", "legal": "법률"}
             detail = " · ".join(f'{LABEL.get(k, k)} {c.get(k, 0)}'
                                 for k in ("copy", "gosi", "price", "legal"))
             top = ", ".join(f'{LABEL.get(k, k)} {v}건' for k, v in list(blk.items())[:3])
@@ -392,12 +395,20 @@ def team_cards(graph: dict) -> list[dict]:
         a = lp.get("auto_summary") or {}
         n_chk = a.get("checked") or len(lp.get("items") or {})
         att = a.get("needs_attention") or 0
+        items = lp.get("items") or {}
+        blocked = [v for v in items.values() if v.get("hard_block")]
+        hard = len(blocked)
+        hard_names = [f'{str(v.get("name"))[:16]}({str(v.get("hard_block_reason"))[:14]})'
+                      for v in blocked]
         cards.append(_team(
             "legal", "법률·규제팀", lp.get("auto_checked_at"),
-            f'자동 점검 {n_chk}건 · 통과 {a.get("clean", 0)} · 주의 {att} · '
-            f'사람 PASS {a.get("pass", 0)}' + feed_tail("legal"),
-            f'주의 {att}건 확인 후 PASS 판정 필요' if att
-            else (f'{n_chk}건 PASS 판정 필요' if not a.get("pass") else None)))
+            # 자동 점검이 깨끗하면 통과가 정상 경로다. 사람을 부르는 건
+            # 실제로 막힌 건(hard_block)뿐이다. 예전에는 주의 표시만 떠도
+            # "PASS 판정 필요" 라고 적어 매번 사람이 해야 할 일처럼 보였다.
+            f'자동 점검 {n_chk}건 · 통과 {a.get("clean", 0)} · '
+            f'등록 차단 {hard} · 참고 주의 {att}' + feed_tail("legal"),
+            (f'차단 {hard}건: ' + ', '.join(hard_names[:2])
+             + ' — 라벨 갖추기 전엔 못 올림') if hard else None))
     else:
         cards.append(_team("legal", "법률·규제팀", None,
                            "legal_products.json 없음", None, "missing"))

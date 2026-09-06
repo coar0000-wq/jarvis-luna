@@ -19,6 +19,12 @@ jobs:
     timeout-minutes: 60
 
     steps:
+    # 단계 순서 = 데이터가 만들어지는 순서.
+    # 예전에는 대시보드를 25번째에 만들고 점수·가격·마케팅·채널을 27~31번째에
+    # 만들었다. 그래서 화면은 언제나 한 회차 전 숫자를 보여줬다. 소싱 S 5 와
+    # 마케팅 S 12 가 어긋나 보인 것도, 채널이 계속 0/0 이던 것도 이 순서 탓이다.
+    # 학습 전 대시보드 스냅샷은 없앴다. 어차피 뒤에서 덮어쓰는데 2만 8천개
+    # 노트를 한 번 더 훑느라 시간만 먹었다.
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
@@ -67,14 +73,6 @@ jobs:
       - name: Build per-team feeds (route pools + FDA for legal)
         continue-on-error: true
         run: python -u scripts/build_team_feeds.py
-
-      - name: Legal auto-check (claims / functional / OTC / label)
-        continue-on-error: true
-        run: python -u scripts/check_legal_products.py
-
-      - name: Build listing gate (copy/gosi/price/legal)
-        continue-on-error: true
-        run: python scripts/build_listing_gate.py
 
       - name: Collect real public sources
         continue-on-error: true
@@ -156,14 +154,6 @@ jobs:
             python expand_obsidian_graph.py
           fi
 
-      - name: Generate pre-training dashboard snapshot
-        continue-on-error: true
-        timeout-minutes: 10
-        run: python scripts/generate_dashboard_runtime.py
-
-      # 학습·튜닝에 단계별 한도를 건다. 예전에 튜닝이 길어져 job 전체
-      # 60분 한도에 걸렸고, 그 뒤 점수 재계산·가격 모델·대시보드 최종
-      # 생성·커밋이 전부 skipped 되었다. 학습이 늦어도 산출물은 나와야 한다.
       - name: Train real-data 3-expert MoE
         continue-on-error: true
         timeout-minutes: 12
@@ -181,15 +171,15 @@ jobs:
             --steps 500 \
             --promote
 
-      - name: Generate final dashboard snapshot
-        timeout-minutes: 10
-        run: python scripts/generate_dashboard_runtime.py
-
       - name: Sync Global Channels and Fix Dashboard UI
         run: |
           if [ -f sync_channels.py ]; then
             python sync_channels.py
           fi
+      - name: 공개 소스 4종 수집 (Trends/Wikipedia/Allure/openFDA)
+        continue-on-error: true
+        run: python scripts/collect_public_signals.py
+
       - name: Score Shopify demand (다이소 실측 지표 기반)
         continue-on-error: true
         run: python scripts/daiso/score_shopify_demand.py
@@ -198,13 +188,17 @@ jobs:
         continue-on-error: true
         run: python scripts/pricing_model.py
 
+      - name: Legal auto-check (claims / functional / OTC / label)
+        continue-on-error: true
+        run: python -u scripts/check_legal_products.py
+
+      - name: Build listing gate (copy/gosi/price/legal)
+        continue-on-error: true
+        run: python scripts/build_listing_gate.py
+
       - name: 마케팅 조사 분석팀 보드 생성
         continue-on-error: true
         run: python scripts/build_market_team.py
-
-      - name: 공개 소스 4종 수집 (Trends/Wikipedia/Allure/openFDA)
-        continue-on-error: true
-        run: python scripts/collect_public_signals.py
 
       - name: 신규 수집 채널 발굴 (제안만, 자동 등록 안 함)
         continue-on-error: true
@@ -213,6 +207,10 @@ jobs:
       # =========================
       # VALIDATION
       # =========================
+
+      - name: Generate final dashboard snapshot
+        timeout-minutes: 10
+        run: python scripts/generate_dashboard_runtime.py
 
       - name: Validate real-data artifacts
         run: |
