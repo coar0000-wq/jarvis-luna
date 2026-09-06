@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-06T11:40:08.698618+00:00",
+  "generated_at": "2026-09-06T11:42:24.188739+00:00",
   "generator": "scripts/ingest_youtube_links.py",
   "입력": "data/manual/youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
-  "total": 7,
-  "ok": 7,
+  "total": 8,
+  "ok": 8,
   "failed": 0,
   "fetched_this_run": 1,
   "bad_lines": [],
@@ -13,7 +13,7 @@
     "pricing": 1,
     "market": 3,
     "knowledge": 1,
-    "design": 3
+    "design": 4
   },
   "videos": [
     {
@@ -145,6 +145,24 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:40:05.695439+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "QUI6Ug4cHnE",
+      "url": "https://www.youtube.com/watch?v=QUI6Ug4cHnE",
+      "note": "Nate Herk - Scrollcraft. 랜딩페이지를 스크롤 연출 사이트로 바꾸는 Claude Code 스킬",
+      "title": "I Built The Ultimate Claude Website Design Skill (steal this)",
+      "channel": "Nate Herk | AI Automation",
+      "views": 159451,
+      "length_sec": 1004,
+      "published": "",
+      "description": "My playbook for growing a $1M AI agency: https://app.aiautomationsociety.ai/opaa-ads-optin\nMy FREE resources: https://www.skool.com/ai-automation-society/about?el=scroll-craft&hcategory=youtube-videos&utm_campaign=free-group\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nI built Scrollcraft, a free Claude Code skill that turns ordinary landing pages into premium, scroll-driven websites without locking every project into the same template. \n\nIn this video, I break down how the skill",
+      "error": "",
+      "teams": [
+        "design"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-06T11:42:21.185587+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
     }
   ]
