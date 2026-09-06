@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-06T11:42:24.188739+00:00",
+  "generated_at": "2026-09-06T11:46:52.777620+00:00",
   "generator": "scripts/ingest_youtube_links.py",
   "입력": "data/manual/youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
-  "total": 8,
-  "ok": 8,
+  "total": 9,
+  "ok": 9,
   "failed": 0,
   "fetched_this_run": 1,
   "bad_lines": [],
@@ -13,7 +13,7 @@
     "pricing": 1,
     "market": 3,
     "knowledge": 1,
-    "design": 4
+    "design": 5
   },
   "videos": [
     {
@@ -163,6 +163,24 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:42:21.185587+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "SihnYUTfxR8",
+      "url": "https://www.youtube.com/watch?v=SihnYUTfxR8",
+      "note": "찍봇 - 구글 Stitch 무료 디자인 AI 정리. 화면 시안을 코드 없이 뽑는 도구",
+      "title": "구글이 무료로 뿌리는 디자인AI '스티치' 요약정리",
+      "channel": "찍봇",
+      "views": 12900,
+      "length_sec": 407,
+      "published": "",
+      "description": "제미나이 최신 근황(스파크/스킬): https://youtu.be/sKfVHPS0470?si=4uoqjXSbwpmQzt_0\n안 쓰면 손해보는 구글 7가지 도구: https://youtu.be/eLSsDD4gTDo?si=18FKo7BMpGznr8c-\n\n50만 명이 본, 클로드 1시간 무료 강의: https://youtu.be/If_U_zmXWYo?si=igNUVxtcG9l4zFez\n\n\n다양한 생성형AI 자료(+PDF): https://litt.ly/zzikbot\n\n월 1,400원으로 '찍봇'채널을 응원해주세요!! :)\nhttps://www.youtube.com/channel/UCCgm1VmWrNQQO1aJ51Iu9Sg/join",
+      "error": "",
+      "teams": [
+        "design"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-06T11:46:49.774494+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
     }
   ]
