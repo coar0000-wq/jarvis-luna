@@ -62,15 +62,25 @@ jobs:
 
           ok = True
           for p in ("data/daiso_real/products.json",
-                    "data/daiso_real/shopify_demand_score.json"):
+                    "data/daiso_real/shopify_demand_score.json",
+                    "data/daiso_real/shopify_s_recommendations.json"):
               f = Path(p)
               if not f.exists():
                   print("MISSING", p); ok = False; continue
               try:
-                  json.loads(f.read_text(encoding="utf-8"))
+                  d = json.loads(f.read_text(encoding="utf-8"))
                   print("OK", p)
               except Exception as e:
-                  print("INVALID", p, e); ok = False
+                  print("INVALID", p, e); ok = False; continue
+              if p.endswith("shopify_s_recommendations.json"):
+                  recs = d.get("recommendations") or []
+                  with_img = sum(1 for r in recs if (r.get("image_url") or "").strip())
+                  print(f"  S image_url {with_img}/{len(recs)}")
+                  if recs and with_img == 0:
+                      print("FAIL S recommendations missing all image_url")
+                      ok = False
+                  elif recs and with_img < len(recs):
+                      print(f"WARN partial images {with_img}/{len(recs)} (commit still allowed)")
 
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as out:
               out.write(f"artifacts_ok={'true' if ok else 'false'}\n")
