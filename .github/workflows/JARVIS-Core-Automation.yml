@@ -3,7 +3,9 @@ name: 🤖 JARVIS Core Automation (매 10분)
 on:
   schedule:
     # 매 10분마다 실행 (통합 자동화)
-    - cron: '*/10 * * * *'
+    # 10분마다 돌면서 매번 커밋·푸시하느라 다른 워크플로와 내 푸시를
+    # 계속 덮어썼다. 하루 144회를 돌 만큼 자주 바뀌는 데이터도 아니다.
+    - cron: '5 * * * *'      # 매시 5분
   workflow_dispatch:
 
 permissions:
@@ -62,7 +64,7 @@ jobs:
       # [3/4] YouTube 데이터 수집 (매 10분)
       # ============================================================
 
-      - name: 🎬 [3/4] YouTube 실수집 (RSS · 가짜 금지)
+      - name: 🎬 [3/4] YouTube (robots 차단으로 중단 · SerpApi 경로로 이관)
         id: youtube_collect
         run: |
           echo "🎬 YouTube Atom RSS 실수집 (Learn With Shopify 등)"

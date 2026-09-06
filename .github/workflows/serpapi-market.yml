@@ -92,9 +92,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A data/serpapi_market.json data/serpapi_usage.json 2>/dev/null || true
+          # youtube_serpapi.json 을 빠뜨려서 첫 실행 때 5회를 쓰고도
+          # 산출물이 저장되지 않았다. 새 파일을 추가하면 여기도 같이 고쳐야 한다.
+          git add -A data/serpapi_market.json data/serpapi_usage.json \
+                     data/youtube_serpapi.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
-          git commit -q -m "SerpApi 미국 시장가·트렌드 수집"
+          git commit -q -m "SerpApi 미국 시장가·트렌드·YouTube 수집"
           for i in 1 2 3; do
             git fetch -q origin main
             git rebase -X ours origin/main >/dev/null 2>&1 || git rebase --abort || true
