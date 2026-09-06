@@ -75,16 +75,18 @@
           "detail": "4항목 확보"
         }
       },
-      "hs_code": "",
+      "hs_code": "3304.99",
       "regulator": "",
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
       "auto_blockers": [],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-06T02:39:24.710456+00:00",
+      "auto_checked_at": "2026-09-06T02:11:07.301236+00:00",
       "hard_block": false,
-      "hard_block_reason": ""
+      "hard_block_reason": "",
+      "hs_basis": "버킷 '스킨케어'",
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1045146": {
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
@@ -108,16 +110,18 @@
           "detail": "4항목 확보"
         }
       },
-      "hs_code": "",
+      "hs_code": "3304.99",
       "regulator": "",
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
       "auto_blockers": [],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-06T02:39:24.710543+00:00",
+      "auto_checked_at": "2026-09-06T02:11:07.301337+00:00",
       "hard_block": true,
-      "hard_block_reason": "SPF 표기 - 미국 OTC 의약품이라 라벨 요건이 별도"
+      "hard_block_reason": "SPF 표기 - 미국 OTC 의약품이라 라벨 요건이 별도",
+      "hs_basis": "버킷 ''",
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1049271": {
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
@@ -141,16 +145,18 @@
           "detail": "4항목 확보"
         }
       },
-      "hs_code": "",
+      "hs_code": "3304.99",
       "regulator": "",
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-06T02:39:24.710584+00:00",
+      "auto_checked_at": "2026-09-06T02:11:07.301367+00:00",
       "hard_block": false,
-      "hard_block_reason": ""
+      "hard_block_reason": "",
+      "hs_basis": "버킷 '스킨케어'",
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1048581": {
       "name": "드롭비 잡티 말끔 앰플 40 ml",
@@ -174,16 +180,18 @@
           "detail": "4항목 확보"
         }
       },
-      "hs_code": "",
+      "hs_code": "3304.99",
       "regulator": "",
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
       "auto_blockers": [],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-06T02:39:24.710623+00:00",
+      "auto_checked_at": "2026-09-06T02:11:07.301395+00:00",
       "hard_block": false,
-      "hard_block_reason": ""
+      "hard_block_reason": "",
+      "hs_basis": "버킷 '스킨케어'",
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1075857": {
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
@@ -207,16 +215,18 @@
           "detail": "4항목 확보"
         }
       },
-      "hs_code": "",
+      "hs_code": "3304.99",
       "regulator": "",
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
       "auto_blockers": [],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-06T02:39:24.710672+00:00",
+      "auto_checked_at": "2026-09-06T02:11:07.301428+00:00",
       "hard_block": false,
-      "hard_block_reason": ""
+      "hard_block_reason": "",
+      "hs_basis": "버킷 '스킨케어'",
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1068776": {
       "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
@@ -240,16 +250,18 @@
           "detail": "4항목 확보"
         }
       },
-      "hs_code": "",
+      "hs_code": "3304.99",
       "regulator": "",
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
       "auto_blockers": [],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-06T02:39:24.710713+00:00",
+      "auto_checked_at": "2026-09-06T02:11:07.301456+00:00",
       "hard_block": true,
-      "hard_block_reason": "SPF 표기 - 미국 OTC 의약품이라 라벨 요건이 별도"
+      "hard_block_reason": "SPF 표기 - 미국 OTC 의약품이라 라벨 요건이 별도",
+      "hs_basis": "버킷 ''",
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1059834": {
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -273,16 +285,18 @@
           "detail": "4항목 확보"
         }
       },
-      "hs_code": "",
+      "hs_code": "3304.99",
       "regulator": "",
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
       "auto_blockers": [],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-06T02:39:24.710756+00:00",
+      "auto_checked_at": "2026-09-06T02:11:07.301485+00:00",
       "hard_block": false,
-      "hard_block_reason": ""
+      "hard_block_reason": "",
+      "hs_basis": "버킷 '마스크팩'",
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1041403": {
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
@@ -306,16 +320,18 @@
           "detail": "4항목 확보"
         }
       },
-      "hs_code": "",
+      "hs_code": "3304.99",
       "regulator": "",
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-06T02:39:24.710805+00:00",
+      "auto_checked_at": "2026-09-06T02:11:07.301514+00:00",
       "hard_block": false,
-      "hard_block_reason": ""
+      "hard_block_reason": "",
+      "hs_basis": "버킷 '스킨케어'",
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1062781": {
       "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
@@ -339,16 +355,18 @@
           "detail": "4항목 확보"
         }
       },
-      "hs_code": "",
+      "hs_code": "3304.99",
       "regulator": "",
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
       "auto_blockers": [],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-06T02:39:24.710849+00:00",
+      "auto_checked_at": "2026-09-06T02:11:07.301543+00:00",
       "hard_block": false,
-      "hard_block_reason": ""
+      "hard_block_reason": "",
+      "hs_basis": "버킷 '스킨케어'",
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1060487": {
       "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
@@ -372,16 +390,18 @@
           "detail": "4항목 확보"
         }
       },
-      "hs_code": "",
+      "hs_code": "3304.99",
       "regulator": "",
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-06T02:39:24.710892+00:00",
+      "auto_checked_at": "2026-09-06T02:11:07.301572+00:00",
       "hard_block": false,
-      "hard_block_reason": ""
+      "hard_block_reason": "",
+      "hs_basis": "버킷 '마스크팩'",
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1070006": {
       "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
@@ -405,16 +425,18 @@
           "detail": "4항목 확보"
         }
       },
-      "hs_code": "",
+      "hs_code": "3305",
       "regulator": "",
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-06T02:39:24.710935+00:00",
+      "auto_checked_at": "2026-09-06T02:11:07.301601+00:00",
       "hard_block": false,
-      "hard_block_reason": ""
+      "hard_block_reason": "",
+      "hs_basis": "버킷 '헤어케어'",
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1067024": {
       "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
@@ -438,16 +460,18 @@
           "detail": "4항목 확보"
         }
       },
-      "hs_code": "",
+      "hs_code": "3304.99",
       "regulator": "",
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-06T02:39:24.710984+00:00",
+      "auto_checked_at": "2026-09-06T02:11:07.301633+00:00",
       "hard_block": false,
-      "hard_block_reason": ""
+      "hard_block_reason": "",
+      "hs_basis": "버킷 '클렌징'",
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     }
   },
   "auto_summary": {
@@ -456,5 +480,5 @@
     "needs_attention": 7,
     "pass": 0
   },
-  "auto_checked_at": "2026-09-06T02:39:24.710992+00:00"
+  "auto_checked_at": "2026-09-06T02:11:07.301642+00:00"
 }

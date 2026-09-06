@@ -408,13 +408,21 @@ def team_cards(graph: dict) -> list[dict]:
         hard = len(blocked)
         hard_names = [f'{str(v.get("name"))[:16]}({str(v.get("hard_block_reason"))[:14]})'
                       for v in blocked]
+        # 수출 서류를 얼마나 채웠는지도 같이 본다. "대기 5항목" 만 띄우면
+        # 이미 채운 것까지 안 한 것처럼 보인다.
+        ep = load_json(D / "legal_export_prep.json", None) or {}
+        exp_txt = ""
+        if ep.get("total"):
+            need = ep.get("사람이_채워야_하는_칸") or []
+            exp_txt = (f' · 수출서류 HS {ep["total"]}건 · 라벨 '
+                       f'{6 - len(need)}/6항목 자동')
         cards.append(_team(
             "legal", "법률·규제팀", lp.get("auto_checked_at"),
             # 자동 점검이 깨끗하면 통과가 정상 경로다. 사람을 부르는 건
             # 실제로 막힌 건(hard_block)뿐이다. 예전에는 주의 표시만 떠도
             # "PASS 판정 필요" 라고 적어 매번 사람이 해야 할 일처럼 보였다.
             f'자동 점검 {n_chk}건 · 통과 {a.get("clean", 0)} · '
-            f'등록 차단 {hard} · 참고 주의 {att}' + feed_tail("legal"),
+            f'등록 차단 {hard} · 참고 주의 {att}' + exp_txt + feed_tail("legal"),
             (f'차단 {hard}건: ' + ', '.join(hard_names[:2])
              + ' — 라벨 갖추기 전엔 못 올림') if hard else None))
     else:

@@ -211,6 +211,19 @@ jobs:
         continue-on-error: true
         run: python scripts/build_listing_gate.py
 
+      # 법률팀이 "5항목 대기" 로 멈춰 있었는데 그중 넷은 이미 저장소에
+      # 있는 값으로 채울 수 있었다. HS 코드는 미국 공식 HTS 에서 받는다.
+      - name: 수출 서류 자동 준비 (HS코드·라벨 시안)
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python -u scripts/prepare_legal_export.py
+
+      # 스토어 개설은 사람이 하지만 준비물은 미리 만들어 둔다.
+      - name: 브랜드 키트 준비 (색·글꼴·규격·정책)
+        continue-on-error: true
+        timeout-minutes: 3
+        run: python -u scripts/prepare_brand_kit.py
+
       - name: 마케팅 조사 분석팀 보드 생성
         continue-on-error: true
         run: python scripts/build_market_team.py

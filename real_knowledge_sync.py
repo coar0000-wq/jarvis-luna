@@ -214,62 +214,61 @@ def collect_google():
 # NEW : US BEAUTY MARKET
 # -----------------------------
 def collect_us_beauty():
+    """미국 뷰티 시장 신호. 링크 목록이 아니라 실제 수집분을 쓴다.
 
-    items = [
-        {
-            "title": "Amazon Beauty Best Sellers",
-            "category": "Beauty",
-            "url": "https://www.amazon.com/Best-Sellers-Beauty/zgbs/beauty",
-            "source": "Amazon US"
-        },
-        {
-            "title": "Amazon Skincare Best Sellers",
-            "category": "Skincare",
-            "url": "https://www.amazon.com/Best-Sellers-Beauty-Skin-Care-Products/zgbs/beauty/11060451",
-            "source": "Amazon US"
-        },
-        {
-            "title": "TikTok Creative Center",
-            "category": "Viral",
-            "url": "https://ads.tiktok.com/business/creativecenter/inspiration/popular/products/pc/en",
-            "source": "TikTok US"
-        },
-        {
-            "title": "Google Trends US",
-            "category": "Trend",
-            "url": "https://trends.google.com/trends/explore?geo=US",
-            "source": "Google"
-        },
-        {
-            "title": "Ulta Skin Care",
-            "category": "Beauty",
-            "url": "https://www.ulta.com/shop/skin-care",
-            "source": "Ulta"
-        },
-        {
-            "title": "Sephora Skincare",
-            "category": "Luxury",
-            "url": "https://www.sephora.com/shop/skincare",
-            "source": "Sephora"
-        },
-        {
-            "title": "Target Beauty",
-            "category": "Retail",
-            "url": "https://www.target.com/c/beauty/-/N-5xu0o",
-            "source": "Target"
-        },
-        {
-            "title": "Walmart Beauty",
-            "category": "Retail",
-            "url": "https://www.walmart.com/browse/beauty/1085666",
-            "source": "Walmart"
-        }
-    ]
+    예전에는 아마존·세포라 같은 사이트 주소 8개를 그대로 돌려주고
+    "US뷰티 8건" 이라고 셌다. 링크는 데이터가 아니다. 그 주소들에서
+    무엇을 봤는지는 하나도 들어있지 않았다.
 
+    실제 수집분은 dashboard_runtime.json 의 global_channels 에 있다.
+    올리브영US·틱톡샵·세포라·울타·아마존·월마트 등 12개 채널이고
+    각 항목에 상품명·가격·평점·리뷰수가 들어있다. 그걸 코퍼스에 넣는다.
+    """
+    path = Path(__file__).resolve().parent / "data" / "dashboard_runtime.json"
+    try:
+        d = json.loads(path.read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError, UnicodeDecodeError) as e:
+        return {"status": "failed", "source": "US Beauty Market",
+                "reason": f"{type(e).__name__} - dashboard_runtime.json 을 읽지 못함",
+                "items": []}
+    channels = d.get("global_channels") or {}
+    status = d.get("global_channels_status") or {}
+    items = []
+    for ch, rows in channels.items():
+        if not isinstance(rows, list):
+            continue
+        meta = status.get(ch) or {}
+        for r in rows:
+            name = (r.get("product") or r.get("name") or "").strip()
+            if not name:
+                continue
+            bits = [name]
+            if r.get("brand"):
+                bits.append(str(r["brand"]))
+            if r.get("price") is not None:
+                bits.append(f'${r["price"]}')
+            if r.get("rating"):
+                bits.append(f'평점 {r["rating"]}')
+            if r.get("review_count"):
+                bits.append(f'리뷰 {r["review_count"]:,}')
+            items.append({
+                "title": name,
+                "text": " · ".join(bits),
+                "url": r.get("url") or "",
+                "channel": ch,
+                "brand": r.get("brand"),
+                "price_usd": r.get("price"),
+                "rating": r.get("rating"),
+                "review_count": r.get("review_count"),
+                "trust": meta.get("trust"),
+                "collected_at": meta.get("collected_at"),
+            })
     return {
-        "status": "ok",
-        "source": "US Beauty Market",
-        "items": items
+        "status": "ok" if items else "empty",
+        "source": "US Beauty Market (global_channels 실수집분)",
+        "reason": "" if items else "global_channels 가 비었다",
+        "channels": len(channels),
+        "items": items,
     }
 
 
