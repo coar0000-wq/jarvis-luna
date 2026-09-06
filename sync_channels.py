@@ -387,6 +387,110 @@ WALMART_NOTE = (
 # 이전 하드코딩("curated bestseller mirror" 15건)은 archive 로 격리했다.
 
 
+
+def from_catalog_file(filename: str, default_url: str = "", label: str = ""):
+    """data/{filename} 실명 카탈로그 → 대시보드 아이템.
+
+    amazon_products.json / walmart_products.json 처럼 name·price_usd 구조.
+    수동 스냅샷(manual_channels)보다 우선해 verified 로 올린다.
+    """
+    d = load_json(DATA / filename, {}) or {}
+    products = d if isinstance(d, list) else (d.get("products") or [])
+    rows = []
+    for i, p in enumerate(products, 1):
+        if not isinstance(p, dict):
+            continue
+        name = (p.get("name") or p.get("product") or p.get("title") or "").strip()
+        if not is_good_name(name):
+            continue
+        price = p.get("price_usd") if p.get("price_usd") is not None else p.get("price")
+        badge = p.get("badge") or ""
+        if not badge and isinstance(price, (int, float)):
+            badge = f"${price:.2f}"
+        if not badge:
+            badge = p.get("trend") or ""
+        rows.append({
+            "product": name,
+            "brand": p.get("brand") or "",
+            "sub": p.get("brand") or p.get("category") or p.get("sub") or "",
+            "badge": badge,
+            "price": price,
+            "rating": p.get("rating"),
+            "review_count": p.get("review_count"),
+            "rank": p.get("rank") or i,
+            "url": p.get("url") or default_url,
+            "extraction_method": "catalog_file",
+        })
+    rows = unique_take(rows, lambda x: (x.get("product") or "").lower())
+    at = d.get("updated_at") or d.get("collected_at") or d.get("last_updated") or ""
+    src = label or d.get("source") or filename
+    return rows, at, src
+
+
+_BEAUTY_TREND_RE = re.compile(
+    r"beauty|skincare|skin-?care|cosmetic|k-?beauty|korean|"
+    r"sunscreen|spf|serum|toner|ampoule|essence|moisturizer|cleanser|"
+    r"retinol|niacinamide|hyaluronic|ceramide|centella|cica|heartleaf|"
+    r"snail|mucin|collagen|pdrn|glass\s*skin|makeup|sephora|ulta|"
+    r"olive\s*young|cosrx|anua|medicube|pore|barrier|cushion",
+    re.I,
+)
+_TREND_NOISE_RE = re.compile(
+    r"football|baseball|nba|nhl|soccer|attorney|lawyer|election|trump|"
+    r"earthquake|weather\s+\w+|birthday|fireworks|vs\s+\w+|"
+    r"announcer|cancelled|republican|democrat|department\s+of\s+justice|"
+    r"criminal|domestic\s+violence",
+    re.I,
+)
+
+
+def from_google_trends_beauty():
+    """뷰티 전용 트렌드. google_trends_beauty.json 우선, 없으면 카탈로그 키워드.
+
+    일반 US Trends RSS(야구·정치·법률)는 대시보드에 올리지 않는다.
+    """
+    d = load_json(DATA / "google_trends_beauty.json", {}) or {}
+    items = d.get("items") or d.get("trends") or d.get("keywords") or []
+    rows = []
+    for x in items:
+        if not isinstance(x, dict):
+            continue
+        kw = (x.get("keyword") or x.get("product") or x.get("title") or "").strip()
+        if not is_good_name(kw):
+            continue
+        if _TREND_NOISE_RE.search(kw) and not _BEAUTY_TREND_RE.search(kw):
+            continue
+        if not _BEAUTY_TREND_RE.search(kw) and not x.get("beauty"):
+            # news 제목에 브랜드/성분이 없으면 스킵
+            continue
+        rows.append({
+            "keyword": kw,
+            "product": kw,
+            "sub": x.get("sub") or x.get("query") or "beauty",
+            "badge": x.get("badge") or x.get("approx_traffic") or "beauty",
+            "url": x.get("url") or "",
+        })
+    rows = unique_take(rows, lambda x: (x.get("product") or "").lower())
+    if rows:
+        return rows, d.get("collected_at") or "", (
+            d.get("source") or "google_trends_beauty.json (뷰티 필터)"
+        )
+
+    # 폴백: 다른 채널 실상품명에서 뷰티 키워드 추출 (조작 growth 없음)
+    extracted = from_google_trends()
+    out = []
+    for x in extracted:
+        kw = x.get("keyword") or ""
+        out.append({
+            "keyword": kw,
+            "product": x.get("product") or kw,
+            "sub": "catalog keyword",
+            "badge": "signal",
+            "url": "",
+        })
+    return out, "", "catalog beauty keywords (trends beauty file 없음)"
+
+
 def from_google_trends():
     """무료: 다른 채널 실상품명에서 뷰티 키워드 추출 (Trends 유료 API 없음)."""
     keys = [
@@ -437,16 +541,32 @@ def build_global_channels():
     # Gemini url_context 결과가 있으면 쓰되 신뢰 등급을 낮게 표시한다.
     _, _, _, gmodel = from_gemini_web("ulta_beauty")
 
+    am_rows, am_at, am_src = from_catalog_file(
+        "amazon_products.json", "https://www.amazon.com",
+        "amazon_products.json 실명 카탈로그")
+    wm_rows, wm_at, wm_src = from_catalog_file(
+        "walmart_products.json", "https://www.walmart.com",
+        "walmart_products.json 실명 카탈로그")
+    gt_rows, gt_at, gt_src = from_google_trends_beauty()
+
     return {
-        "amazon_best_sellers": tiered_channel("amazon_best_sellers"),
-        "walmart_beauty": tiered_channel("walmart_beauty"),
+        "amazon_best_sellers": (
+            channel(am_rows, am_src, collected_at=am_at)
+            if am_rows else tiered_channel("amazon_best_sellers")
+        ),
+        "walmart_beauty": (
+            channel(wm_rows, wm_src, collected_at=wm_at)
+            if wm_rows else tiered_channel("walmart_beauty")
+        ),
         "oliveyoung_us": channel(
             oy_items, "us.oliveyoung.com/best-sellers 실수집",
             collected_at=oy_at,
             reason=oy_reason or "수집기 미실행"),
-        # 2026-09-04: 기존 from_google_trends() 는 growth "+" momentum "High" 를
-        # 모든 항목에 동일하게 붙이는 조작값이었다. 공식 RSS 실수집으로 교체한다.
-        "google_trends_us": public_channel("google_trends_us"),
+        # 뷰티 전용 트렌드 (일반 US RSS의 법률·스포츠 키워드 차단)
+        "google_trends_us": (
+            channel(gt_rows, gt_src, collected_at=gt_at)
+            if gt_rows else public_channel("google_trends_us")
+        ),
         "wikipedia_interest": public_channel("wikipedia_interest"),
         "allure_media": public_channel("allure_media"),
         "openfda_sunscreen": public_channel("openfda_sunscreen"),
