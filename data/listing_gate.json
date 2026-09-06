@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T00:38:18.511919+00:00",
+  "generated_at": "2026-09-06T01:26:29.763207+00:00",
   "generator": "scripts/build_listing_gate.py",
   "규칙": "listing_ready = copy_ok AND gosi_ok AND price_ok AND legal_ok",
   "근거": {
@@ -10,19 +10,14 @@
   },
   "target": "S등급",
   "total": 5,
-  "ready": 4,
+  "ready": 5,
   "counts": {
-    "copy": 4,
-    "gosi": 4,
-    "price": 4,
-    "legal": 4
+    "copy": 5,
+    "gosi": 5,
+    "price": 5,
+    "legal": 5
   },
-  "blockers": {
-    "copy": 1,
-    "gosi": 1,
-    "price": 1,
-    "legal": 1
-  },
+  "blockers": {},
   "unreadable": [],
   "items": [
     {
@@ -40,10 +35,38 @@
       "legal_note": ""
     },
     {
-      "pd_no": "1048581",
-      "name": "드롭비 잡티 말끔 앰플 40 ml",
+      "pd_no": "1062781",
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
       "grade": "S",
-      "shopify_score": 96,
+      "shopify_score": 93,
+      "copy_ok": true,
+      "gosi_ok": true,
+      "price_ok": true,
+      "legal_ok": true,
+      "listing_ready": true,
+      "blocked_by": [],
+      "price_note": "",
+      "legal_note": ""
+    },
+    {
+      "pd_no": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "grade": "S",
+      "shopify_score": 90,
+      "copy_ok": true,
+      "gosi_ok": true,
+      "price_ok": true,
+      "legal_ok": true,
+      "listing_ready": true,
+      "blocked_by": [],
+      "price_note": "",
+      "legal_note": ""
+    },
+    {
+      "pd_no": "1049271",
+      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "grade": "S",
+      "shopify_score": 90,
       "copy_ok": true,
       "gosi_ok": true,
       "price_ok": true,
@@ -57,46 +80,13 @@
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "grade": "S",
-      "shopify_score": 92,
+      "shopify_score": 86,
       "copy_ok": true,
       "gosi_ok": true,
       "price_ok": true,
       "legal_ok": true,
       "listing_ready": true,
       "blocked_by": [],
-      "price_note": "",
-      "legal_note": ""
-    },
-    {
-      "pd_no": "1062781",
-      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-      "grade": "S",
-      "shopify_score": 92,
-      "copy_ok": true,
-      "gosi_ok": true,
-      "price_ok": true,
-      "legal_ok": true,
-      "listing_ready": true,
-      "blocked_by": [],
-      "price_note": "",
-      "legal_note": ""
-    },
-    {
-      "pd_no": "1068413",
-      "name": "[펫] 포포몽 논슬립 대나무 배변 패드 표준형 40 X 50 cm 36매입",
-      "grade": "S",
-      "shopify_score": 85,
-      "copy_ok": false,
-      "gosi_ok": false,
-      "price_ok": false,
-      "legal_ok": false,
-      "listing_ready": false,
-      "blocked_by": [
-        "copy",
-        "gosi",
-        "price",
-        "legal"
-      ],
       "price_note": "",
       "legal_note": ""
     }
