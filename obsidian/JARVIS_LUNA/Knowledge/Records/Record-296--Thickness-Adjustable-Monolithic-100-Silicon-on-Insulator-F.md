@@ -2,7 +2,7 @@
 title: "Record 296 · Thickness-Adjustable-Monolithic-100-Silicon-on-Insulator-Films-via-Lay"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T13:04:49.905317+00:00
+updated_at: 2026-09-06T16:26:52.096492+00:00
 tags: [record, real-data]
 ---
 

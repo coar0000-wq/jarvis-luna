@@ -2,7 +2,7 @@
 title: "Record 757 · RANCANG-BANGUN-SISTEM-INFORMASI-PENJUALAN-BERBASIS-WEB-MENGGUNAKAN-MET"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T13:04:50.016878+00:00
+updated_at: 2026-09-06T16:26:52.184509+00:00
 tags: [record, real-data]
 ---
 

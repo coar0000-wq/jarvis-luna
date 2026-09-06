@@ -2,7 +2,7 @@
 title: "Record 627 · Pourquoi-lIA-générative-va-révolutionner-le-rapport-au-travail"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T13:04:49.985499+00:00
+updated_at: 2026-09-06T16:26:52.156940+00:00
 tags: [record, real-data]
 ---
 

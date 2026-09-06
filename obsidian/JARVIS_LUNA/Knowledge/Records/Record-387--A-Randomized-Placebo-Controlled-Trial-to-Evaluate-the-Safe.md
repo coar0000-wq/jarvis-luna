@@ -2,7 +2,7 @@
 title: "Record 387 · A-Randomized-Placebo-Controlled-Trial-to-Evaluate-the-Safety-and-Effic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T13:04:49.927618+00:00
+updated_at: 2026-09-06T16:26:52.113623+00:00
 tags: [record, real-data]
 ---
 

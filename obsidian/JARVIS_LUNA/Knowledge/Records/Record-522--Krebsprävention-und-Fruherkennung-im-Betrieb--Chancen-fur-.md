@@ -2,7 +2,7 @@
 title: "Record 522 · Krebsprävention-und-Fruherkennung-im-Betrieb--Chancen-fur-Arbeitsmediz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T13:04:49.959825+00:00
+updated_at: 2026-09-06T16:26:52.136567+00:00
 tags: [record, real-data]
 ---
 

@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-06T13:04:00.207097+00:00",
+  "collected_at": "2026-09-06T16:26:01.948969+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -19,7 +19,7 @@
     "립케어": "lip-balms"
   },
   "per_category": {
-    "스킨케어": 0,
+    "스킨케어": 6,
     "마스크팩": 11,
     "클렌징": 10,
     "선케어": 9,
@@ -32,11 +32,88 @@
     "데오드란트": 12,
     "립케어": 12
   },
-  "errors": {
-    "스킨케어": "HTTPError: HTTP Error 500: Internal Server Error"
-  },
-  "count": 117,
+  "errors": {},
+  "count": 123,
   "products": [
+    {
+      "code": "4005900963499",
+      "product_name": "NIVEA Soft hydraterende créme 48u hydratatie",
+      "brands": "NIVEA",
+      "category": "스킨케어",
+      "obf_category": "skin-care",
+      "countries": [
+        "Netherlands"
+      ],
+      "ingredients_text": "",
+      "image_url": "https://images.openbeautyfacts.org/images/products/400/590/096/3499/front_nl.7.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/4005900963499"
+    },
+    {
+      "code": "3574661685977",
+      "product_name": "hand cream",
+      "brands": "Neutrogena",
+      "category": "스킨케어",
+      "obf_category": "skin-care",
+      "countries": [
+        "United States"
+      ],
+      "ingredients_text": "Aqua, Glycerin, Cetearyl Alcohol, Sodium Cetearyl Sulfate, Ethylhexylglycerin, Caprylyl Glycol, Palmitic Acid, Stearic Acid, Disodium Phosphate, Potassium Phosphate, Tocopherol, Tocopheryl Acetate.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/357/466/168/5977/front_en.3.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3574661685977"
+    },
+    {
+      "code": "0381371018451",
+      "product_name": "Aveeno Baby Eczema Therapy",
+      "brands": "Aveeno",
+      "category": "스킨케어",
+      "obf_category": "skin-care",
+      "countries": [
+        "Mongolia"
+      ],
+      "ingredients_text": "Water, Glycerin, Parthenol, Distearyldimonium Chloride, Petrolatum, bopropyl Palmitate, Cetyl Alcohol, Dimethicone, Avena Sativa (Oat) Kernel Oil, Steareth-20, Benzalkonium Chloride, Ceramide NP, Sodium Chloride, Avena Sativa (Oat) Kernel Extract",
+      "image_url": "https://images.openbeautyfacts.org/images/products/038/137/101/8451/front_en.3.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/0381371018451"
+    },
+    {
+      "code": "6297811169055",
+      "product_name": "BioCare Aloe Vera",
+      "brands": "BioCare",
+      "category": "스킨케어",
+      "obf_category": "skin-care",
+      "countries": [
+        "India"
+      ],
+      "ingredients_text": "Aqua Carbomer, Glycerin, Propylene Glycol, Aloe Barbadensis, Triethanolamine, Perfume, C.I. 61570, E.D.T.A, Sodium Benzoate, Methyl Paraben, Isobutyl Paraben.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/629/781/116/9055/front_en.3.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/6297811169055"
+    },
+    {
+      "code": "8901030957048",
+      "product_name": "Gluta hya dewy radicance",
+      "brands": "Vaseline",
+      "category": "스킨케어",
+      "obf_category": "skin-care",
+      "countries": [
+        "India"
+      ],
+      "ingredients_text": "WATER, DIMETHICONE, ISOHEXADECANE, NIACINAMIDE, GLYCER GLUTATHIONE, CYSTINE, GLYCINE, SODIUM PCA, SODIUM HYALURONATE PETROLATUM, CARBOMER, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER PHENOXYETHANOL, METHYLPARABEN, DISODIUM EDTA, TITANIUM DIOXIDE SODIUM HYDROXIDE, FRAGRANCE, BENZYL ALCOHOL, CITRONELLOL, GERANOL HEXYL CINNAMAL, LIMONENE, LINALOOL. SKIN LOTION. MADE IN INDIA. MKTD. BY LIC. USER HINDUSTAN UNILEVER LIMITED (HUL). HUL 2023. VASELINE IS THE REGISTERED TRADE MARK OF UNILEVER PL MFG. BY L.B.C.P., UNIT I HARIDWAR 249 403, UTTARAKHAND. M 16/C/UA/2010. 62727085 8 901030 957048&quot;&gt; HUL REGN. No. BO-13-000-07-AAACQUA MINIMUM THICKNESS OF THE PACKAGIN 350 MICRON. *MRP (INCL. OF ALL TAXES), USP, #MFD B. NO. & @USE BEFORE SEE CODING AREA. LEVERCARE-QUERY/FEEDBACK TOLL FREE: 1800-10-22-221 PO BOX 14760, MUMBAI 400 LEVER.CARE@UNILEVER.COM Not Vol. When Packed",
+      "image_url": "https://images.openbeautyfacts.org/images/products/890/103/095/7048/front_en.4.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/8901030957048"
+    },
+    {
+      "code": "0722510026003",
+      "product_name": "Healthy Feet Cream",
+      "brands": "O’Keefes",
+      "category": "스킨케어",
+      "obf_category": "skin-care",
+      "countries": [
+        "United Kingdom",
+        "United States"
+      ],
+      "ingredients_text": "WATER, GLYCERIN, STEARIC ACID, SODIUM HYDROXIDE, ALLANTOIN, PARAFFIN HYDROXYPROPYL METHYLCELLULOSE, OCTYLDODECYL STEARATE, DIAZOLIDINYL UREA 100OPROPYNYL BUTYLCARBAMATE, ACRYLATES/ACRYLAMIDE COPOLYMER, MINERAL OIL, POLYSORBATE 85 Questions/Comments: 1-800-275-2718 www.OKeeffesCompany.com ©2019 Manufactured by: O'Keeffe's Company 2101 E. Kemper Road, Cincinnati, OH 45241 Made in USA with Domestic and Imported Materials GUARANTEE: If you're not fully satisfied, we'll refund 100% of the purchase price. Simply return the unused portion and your receipt to: O'Keeffe's Company. 100163",
+      "image_url": "https://images.openbeautyfacts.org/images/products/072/251/002/6003/front_en.5.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/0722510026003"
+    },
     {
       "code": "3160920402005",
       "product_name": "Masque Purifiant Naturel à L'Argile Verte.",

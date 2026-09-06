@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T13:27:09.245233+00:00",
+  "generated_at": "2026-09-06T16:44:43.853847+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "apple tv",
+          "keyword": "valencia cf vs fc barcelona standings",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Sun, 6 Sep 2026 09:30:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=valencia%20cf%20vs%20fc%20barcelona%20standings"
+        },
+        {
+          "keyword": "lamine yamal",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Sun, 6 Sep 2026 05:50:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=apple%20tv"
+          "published": "Sun, 6 Sep 2026 09:20:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=lamine%20yamal"
         },
         {
-          "keyword": "badgers football",
+          "keyword": "braves - phillies",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Sun, 6 Sep 2026 06:10:00 -0700",
-          "source_name": "WBAY",
-          "url": "https://trends.google.com/trending?geo=US&q=badgers%20football"
+          "published": "Sun, 6 Sep 2026 09:30:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=braves%20-%20phillies"
         },
         {
-          "keyword": "epl",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Sun, 6 Sep 2026 06:00:00 -0700",
-          "source_name": "The Guardian",
-          "url": "https://trends.google.com/trending?geo=US&q=epl"
+          "keyword": "trump on canadian dollar imbalance",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 6 Sep 2026 09:20:00 -0700",
+          "source_name": "Bloomberg.com",
+          "url": "https://trends.google.com/trending?geo=US&q=trump%20on%20canadian%20dollar%20imbalance"
         },
         {
-          "keyword": "man utd",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sun, 6 Sep 2026 06:00:00 -0700",
-          "source_name": "Sports Illustrated",
-          "url": "https://trends.google.com/trending?geo=US&q=man%20utd"
+          "keyword": "joao pedro",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 6 Sep 2026 09:10:00 -0700",
+          "source_name": "Chelsea Football Club",
+          "url": "https://trends.google.com/trending?geo=US&q=joao%20pedro"
         },
         {
-          "keyword": "robert de niro",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sun, 6 Sep 2026 06:00:00 -0700",
-          "source_name": "Far Out Magazine",
-          "url": "https://trends.google.com/trending?geo=US&q=robert%20de%20niro"
-        },
-        {
-          "keyword": "united nations africa map",
+          "keyword": "national weather service september map",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 6 Sep 2026 06:10:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=united%20nations%20africa%20map"
+          "published": "Sun, 6 Sep 2026 09:30:00 -0700",
+          "source_name": "Men's Journal",
+          "url": "https://trends.google.com/trending?geo=US&q=national%20weather%20service%20september%20map"
         },
         {
-          "keyword": "scorpions band 2026 tour cancellation",
+          "keyword": "trabzonspor vs gençlerbirliği",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 6 Sep 2026 06:10:00 -0700",
-          "source_name": "PennLive.com",
-          "url": "https://trends.google.com/trending?geo=US&q=scorpions%20band%202026%20tour%20cancellation"
+          "published": "Sun, 6 Sep 2026 09:30:00 -0700",
+          "source_name": "61SAAT",
+          "url": "https://trends.google.com/trending?geo=US&q=trabzonspor%20vs%20gen%C3%A7lerbirli%C4%9Fi"
         },
         {
-          "keyword": "troyes vs strasbourg",
+          "keyword": "dp world tour",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 6 Sep 2026 06:10:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=troyes%20vs%20strasbourg"
+          "published": "Sun, 6 Sep 2026 09:20:00 -0700",
+          "source_name": "GOLF.com",
+          "url": "https://trends.google.com/trending?geo=US&q=dp%20world%20tour"
         },
         {
-          "keyword": "a qué hora juega el barcelona",
+          "keyword": "afd",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 6 Sep 2026 06:00:00 -0700",
-          "source_name": "El Mundo",
-          "url": "https://trends.google.com/trending?geo=US&q=a%20qu%C3%A9%20hora%20juega%20el%20barcelona"
+          "published": "Sun, 6 Sep 2026 09:10:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=afd"
         },
         {
-          "keyword": "kimi antonelli",
+          "keyword": "harvey elliott",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 6 Sep 2026 06:00:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=kimi%20antonelli"
+          "published": "Sun, 6 Sep 2026 09:10:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=harvey%20elliott"
         }
       ]
     },

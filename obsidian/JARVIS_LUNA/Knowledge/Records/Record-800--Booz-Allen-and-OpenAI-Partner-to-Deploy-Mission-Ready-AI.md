@@ -2,7 +2,7 @@
 title: "Record 800 · Booz-Allen-and-OpenAI-Partner-to-Deploy-Mission-Ready-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T13:04:50.027348+00:00
+updated_at: 2026-09-06T16:26:52.195176+00:00
 tags: [record, real-data]
 ---
 

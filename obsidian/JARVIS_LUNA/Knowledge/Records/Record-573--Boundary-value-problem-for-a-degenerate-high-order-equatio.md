@@ -2,7 +2,7 @@
 title: "Record 573 · Boundary-value-problem-for-a-degenerate-high-order-equation-with-singu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T13:04:49.972419+00:00
+updated_at: 2026-09-06T16:26:52.144467+00:00
 tags: [record, real-data]
 ---
 

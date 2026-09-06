@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-06T22:27:15.330093+09:00",
+    "updated_at": "2026-09-07T01:44:50.271877+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -65,7 +65,7 @@
         "brand": "lilyeve",
         "price_usd": 23.76,
         "rating": 4.6,
-        "review_count": 7
+        "review_count": 8
       },
       {
         "rank": 6,
@@ -150,6 +150,42 @@
     ],
     "open_beauty_facts_top": [
       {
+        "product": "NIVEA Soft hydraterende créme 48u hydratatie",
+        "brand": "NIVEA",
+        "category": "스킨케어",
+        "code": "4005900963499"
+      },
+      {
+        "product": "hand cream",
+        "brand": "Neutrogena",
+        "category": "스킨케어",
+        "code": "3574661685977"
+      },
+      {
+        "product": "Aveeno Baby Eczema Therapy",
+        "brand": "Aveeno",
+        "category": "스킨케어",
+        "code": "0381371018451"
+      },
+      {
+        "product": "BioCare Aloe Vera",
+        "brand": "BioCare",
+        "category": "스킨케어",
+        "code": "6297811169055"
+      },
+      {
+        "product": "Gluta hya dewy radicance",
+        "brand": "Vaseline",
+        "category": "스킨케어",
+        "code": "8901030957048"
+      },
+      {
+        "product": "Healthy Feet Cream",
+        "brand": "O’Keefes",
+        "category": "스킨케어",
+        "code": "0722510026003"
+      },
+      {
         "product": "Masque Purifiant Naturel à L'Argile Verte.",
         "brand": "Argile, Juvaflorine",
         "category": "마스크팩",
@@ -202,42 +238,6 @@
         "brand": "SOHO N.Y.C",
         "category": "마스크팩",
         "code": "8683420170045"
-      },
-      {
-        "product": "Glass Skin",
-        "brand": "Kimoco",
-        "category": "마스크팩",
-        "code": "5903794199934"
-      },
-      {
-        "product": "OXX Coconut face mask",
-        "brand": "Anko",
-        "category": "마스크팩",
-        "code": "9341106912899"
-      },
-      {
-        "product": "CeraVe Hydraterende Reinigingscrème",
-        "brand": "CeraVe",
-        "category": "클렌징",
-        "code": "3337875597333"
-      },
-      {
-        "product": "Effaclar Purifying Foaming Gel Cleanser for Oily Skin",
-        "brand": "Alani",
-        "category": "클렌징",
-        "code": "3337872411083"
-      },
-      {
-        "product": "Clean & Clear Blackhead Clearing Daily Scrub",
-        "brand": "Clean & Clear",
-        "category": "클렌징",
-        "code": "3574660149807"
-      },
-      {
-        "product": "Hydrating cream-to-foam cleanser",
-        "brand": "CeraVe",
-        "category": "클렌징",
-        "code": "3337875743563"
       }
     ],
     "alt_us_channels_top": [
@@ -789,6 +789,42 @@
   ],
   "competitor_watch": [
     {
+      "name": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+      "brand": "REJURAN",
+      "price_usd": 41.6,
+      "rating": 5,
+      "review_count": 9,
+      "us_rank": 4,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA67698081",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+      "brand": "lilyeve",
+      "price_usd": 23.76,
+      "rating": 4.6,
+      "review_count": 8,
+      "us_rank": 5,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA98417491",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+      "brand": "Dr.Althea",
+      "price_usd": 27.0,
+      "rating": 4.8,
+      "review_count": 1626,
+      "us_rank": 6,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 6위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA73639757",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
       "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
       "brand": "MEDIHEAL",
       "price_usd": 20.99,
@@ -822,42 +858,6 @@
       "daiso_bucket": "마스크팩",
       "why": "us.oliveyoung.com/best-sellers 실수집 27위 · 마스크팩 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA89611385",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-      "brand": "REJURAN",
-      "price_usd": 41.6,
-      "rating": 5,
-      "review_count": 9,
-      "us_rank": 4,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA67698081",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-      "brand": "lilyeve",
-      "price_usd": 23.76,
-      "rating": 4.6,
-      "review_count": 7,
-      "us_rank": 5,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA98417491",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-      "brand": "Dr.Althea",
-      "price_usd": 27.0,
-      "rating": 4.8,
-      "review_count": 1626,
-      "us_rank": 6,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 6위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA73639757",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],

@@ -2,7 +2,7 @@
 title: "Record 774 · K-beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T13:04:50.021051+00:00
+updated_at: 2026-09-06T16:26:52.189475+00:00
 tags: [record, real-data]
 ---
 

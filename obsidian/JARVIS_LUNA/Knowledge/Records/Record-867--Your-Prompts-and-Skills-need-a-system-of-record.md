@@ -2,7 +2,7 @@
 title: "Record 867 · Your-Prompts-and-Skills-need-a-system-of-record"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T13:04:50.045570+00:00
+updated_at: 2026-09-06T16:26:52.215837+00:00
 tags: [record, real-data]
 ---
 

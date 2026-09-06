@@ -2,7 +2,7 @@
 title: "Record 641 · Quantum-dynamics-of-a-fully-blockaded-Rydberg-atom-ensemble"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T13:04:49.988903+00:00
+updated_at: 2026-09-06T16:26:52.159478+00:00
 tags: [record, real-data]
 ---
 

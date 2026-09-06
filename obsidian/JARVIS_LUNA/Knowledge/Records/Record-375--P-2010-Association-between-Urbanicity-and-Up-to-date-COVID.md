@@ -2,7 +2,7 @@
 title: "Record 375 · P-2010-Association-between-Urbanicity-and-Up-to-date-COVID-19-Vaccinat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T13:04:49.924526+00:00
+updated_at: 2026-09-06T16:26:52.111282+00:00
 tags: [record, real-data]
 ---
 

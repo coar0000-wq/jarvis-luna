@@ -2,7 +2,7 @@
 title: "Record 035 · Blog-Survey-of-Optimizers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T13:04:49.831247+00:00
+updated_at: 2026-09-06T16:26:52.045079+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T13:03:26.051907+00:00",
+  "generated_at": "2026-09-06T16:25:19.235749+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -19,8 +19,8 @@
   "제목_바뀐_영상": [
     {
       "video_id": "CSr4DYGUPOM",
-      "before": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-      "after": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+      "before": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+      "after": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
       "kept_teams": [
         "design",
         "market"
@@ -186,10 +186,10 @@
     },
     {
       "video_id": "GGg61sdEjeI",
-      "title": "Learn to Design 10X Better Mobile UI Designs",
-      "views_text": "160K views",
-      "published_text": "9 days ago",
-      "views": 160000,
+      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
+      "views_text": "161K views",
+      "published_text": "10 days ago",
+      "views": 161000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -212,23 +212,23 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-06T13:03:15.734067+00:00",
+      "last_ok_at": "2026-09-06T16:25:08.944917+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
       "channel_name": "uxpeak",
       "channel_id": "UCO6_kvUIUY-ViXL3vFxJH-g",
-      "subscribers": "120K",
+      "subscribers": "121K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-06T13:03:15.734089+00:00",
+      "checked_at": "2026-09-06T16:25:08.944940+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "Learn to Design 10X Better Mobile UI Designs",
-          "views_text": "160K views",
-          "published_text": "9 days ago",
-          "views": 160000,
+          "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
+          "views_text": "161K views",
+          "published_text": "10 days ago",
+          "views": 161000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -479,23 +479,23 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-06T13:03:21.051682+00:00",
+      "last_ok_at": "2026-09-06T16:25:14.235553+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
       "channel_name": "땡스큐레이터",
       "channel_id": "UCTBhYGg_U_pBOKLydoZrhwg",
-      "subscribers": "17K",
+      "subscribers": "17.1K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-06T13:03:21.051698+00:00",
+      "checked_at": "2026-09-06T16:25:14.235568+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
-          "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
-          "views_text": "26K views",
+          "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
+          "views_text": "27K views",
           "published_text": "3 days ago",
-          "views": 26000,
+          "views": 27000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
           "teams": [
@@ -654,9 +654,9 @@
         {
           "video_id": "4ru4xgZfDPA",
           "title": "VLOG 직장인 브이로그ㅣ 연남동 퇴근길😍 콤콤오락실,달링스푼,스튜디오그림비,오월상점,소이연남,동백양과점,소품샵,카페투어ㅣ퇴근길 브이로그❤️",
-          "views_text": "557 views",
+          "views_text": "558 views",
           "published_text": "6 years ago",
-          "views": 557,
+          "views": 558,
           "url": "https://www.youtube.com/watch?v=4ru4xgZfDPA",
           "channel": "땡스큐레이터",
           "teams": [

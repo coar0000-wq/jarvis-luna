@@ -2,7 +2,7 @@
 title: "Record 411 · Reimagining-RDMA-Through-the-Lens-of-ML"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T13:04:49.933408+00:00
+updated_at: 2026-09-06T16:26:52.117969+00:00
 tags: [record, real-data]
 ---
 

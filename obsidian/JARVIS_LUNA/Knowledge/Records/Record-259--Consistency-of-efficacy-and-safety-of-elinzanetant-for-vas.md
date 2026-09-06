@@ -2,7 +2,7 @@
 title: "Record 259 · Consistency-of-efficacy-and-safety-of-elinzanetant-for-vasomotor-sympt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T13:04:49.894770+00:00
+updated_at: 2026-09-06T16:26:52.089463+00:00
 tags: [record, real-data]
 ---
 
