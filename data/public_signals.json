@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T02:39:24.511981+00:00",
+  "generated_at": "2026-09-06T05:23:19.165646+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "dave portnoy",
+          "keyword": "arsenal vs chelsea",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Sat, 5 Sep 2026 19:10:00 -0700",
+          "published": "Sat, 5 Sep 2026 22:00:00 -0700",
           "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=dave%20portnoy"
+          "url": "https://trends.google.com/trending?geo=US&q=arsenal%20vs%20chelsea"
         },
         {
-          "keyword": "atlas vs atlante",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sat, 5 Sep 2026 19:10:00 -0700",
-          "source_name": "Mediotiempo",
-          "url": "https://trends.google.com/trending?geo=US&q=atlas%20vs%20atlante"
-        },
-        {
-          "keyword": "alix earle net worth",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sat, 5 Sep 2026 19:10:00 -0700",
-          "source_name": "The Hollywood Reporter",
-          "url": "https://trends.google.com/trending?geo=US&q=alix%20earle%20net%20worth"
-        },
-        {
-          "keyword": "trevor lawrence",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sat, 5 Sep 2026 19:20:00 -0700",
-          "source_name": "Sports Illustrated",
-          "url": "https://trends.google.com/trending?geo=US&q=trevor%20lawrence"
-        },
-        {
-          "keyword": "san diego fc vs orlando city standings",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sat, 5 Sep 2026 19:20:00 -0700",
-          "source_name": "AP News",
-          "url": "https://trends.google.com/trending?geo=US&q=san%20diego%20fc%20vs%20orlando%20city%20standings"
-        },
-        {
-          "keyword": "clemson offensive coordinator",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sat, 5 Sep 2026 19:20:00 -0700",
-          "source_name": "The Clemson Insider",
-          "url": "https://trends.google.com/trending?geo=US&q=clemson%20offensive%20coordinator"
-        },
-        {
-          "keyword": "astros game",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sat, 5 Sep 2026 19:20:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=astros%20game"
-        },
-        {
-          "keyword": "st. louis vs vancouver",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sat, 5 Sep 2026 19:10:00 -0700",
-          "source_name": "www.whitecapsfc.com",
-          "url": "https://trends.google.com/trending?geo=US&q=st.%20louis%20vs%20vancouver"
-        },
-        {
-          "keyword": "michigan basketball",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sat, 5 Sep 2026 19:10:00 -0700",
-          "source_name": "The Detroit News",
-          "url": "https://trends.google.com/trending?geo=US&q=michigan%20basketball"
-        },
-        {
-          "keyword": "uofa football",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sat, 5 Sep 2026 19:10:00 -0700",
+          "keyword": "ucla football coach",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sat, 5 Sep 2026 20:40:00 -0700",
           "source_name": "247Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=uofa%20football"
+          "url": "https://trends.google.com/trending?geo=US&q=ucla%20football%20coach"
+        },
+        {
+          "keyword": "estados unidos",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sat, 5 Sep 2026 21:20:00 -0700",
+          "source_name": "AP News",
+          "url": "https://trends.google.com/trending?geo=US&q=estados%20unidos"
+        },
+        {
+          "keyword": "michael keaton",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sat, 5 Sep 2026 21:10:00 -0700",
+          "source_name": "Deadline",
+          "url": "https://trends.google.com/trending?geo=US&q=michael%20keaton"
+        },
+        {
+          "keyword": "dodgers score",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sat, 5 Sep 2026 21:10:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=dodgers%20score"
+        },
+        {
+          "keyword": "내일 날씨",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sat, 5 Sep 2026 20:50:00 -0700",
+          "source_name": "Chosunbiz",
+          "url": "https://trends.google.com/trending?geo=US&q=%EB%82%B4%EC%9D%BC%20%EB%82%A0%EC%94%A8"
+        },
+        {
+          "keyword": "portland timbers",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sat, 5 Sep 2026 20:30:00 -0700",
+          "source_name": "Portland Timbers",
+          "url": "https://trends.google.com/trending?geo=US&q=portland%20timbers"
+        },
+        {
+          "keyword": "timbers",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sat, 5 Sep 2026 20:30:00 -0700",
+          "source_name": "Portland Timbers",
+          "url": "https://trends.google.com/trending?geo=US&q=timbers"
+        },
+        {
+          "keyword": "asu hockey",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sat, 5 Sep 2026 22:00:00 -0700",
+          "source_name": "AZ Family",
+          "url": "https://trends.google.com/trending?geo=US&q=asu%20hockey"
+        },
+        {
+          "keyword": "hurricane marie",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 5 Sep 2026 21:20:00 -0700",
+          "source_name": "KBAK",
+          "url": "https://trends.google.com/trending?geo=US&q=hurricane%20marie"
         }
       ]
     },

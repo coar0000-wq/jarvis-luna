@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-06T02:17:00.750955+00:00",
+  "generated_at": "2026-09-06T04:59:31.262551+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 1880,
-  "unrouted": 1159,
+  "pool_size": 1832,
+  "unrouted": 1160,
   "summary": {
     "sourcing": {
       "total": 6,
       "recent": 0
     },
     "market": {
-      "total": 267,
-      "recent": 187
+      "total": 268,
+      "recent": 188
     },
     "listing": {
       "total": 6,
@@ -23,16 +23,16 @@
       "recent": 1
     },
     "legal": {
-      "total": 116,
-      "recent": 26
+      "total": 114,
+      "recent": 24
     },
     "design": {
-      "total": 298,
-      "recent": 186
+      "total": 281,
+      "recent": 169
     },
     "robotics": {
-      "total": 107,
-      "recent": 94
+      "total": 59,
+      "recent": 46
     }
   },
   "fda_failures": [],
@@ -130,7 +130,7 @@
         "pool": "google"
       },
       {
-        "title": "The Second Coming of K-Beauty: Korean Skincare's US Comeback - circana.com",
+        "title": "The Second Coming of K-Beauty: Korean Skincare's US Comeback - Circana",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBDR2cyQzNoU2dKaWlmYVNGUVZwMkhtanNjZFR1T196TzdlNWllQXZubEdmNk9GdkhIZ2xFUFBpU1ktMDI3WU9fdGRnaldRUWZqVllpN0VTcGRyams4R3p6YlowMnpCaXNmMUE?oc=5",
         "date": "Wed, 20 May 2026 07:00:00 GMT",
         "pool": "google"
@@ -172,7 +172,7 @@
         "pool": "google"
       },
       {
-        "title": "K-Beauty Amazon Prime Day 2026 Deals Are Already Here—I'm Shopping for My Glowiest Skin Yet - Marie Claire",
+        "title": "K-Beauty Amazon Prime Day 2026 Deals Are Already Here—I'm Shopping for My Glowiest Skin Yet - marieclaire.com",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMEdmUWlJRGt2VGo2TFVzYnpzdVFvbzB4TlNOMms4bGZFN3p1RmRyZjRVSFNJS0Zjb1dKdEhjeF9EaXk0S1dTRDAyS0tuUXFwMl9tTjJjR2gzMUZpcnpiYWVaWFpDdzZDOXRGYzRES3hZZ0wwNy1sTWdzVldVSnk3b2hvUjJNVUxkQmw5ZDkwTQ?oc=5",
         "date": "Wed, 10 Jun 2026 07:00:00 GMT",
         "pool": "google"
@@ -193,6 +193,12 @@
         "title": "The biggest beauty trends of 2026 - Luxury London",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONjI3ZUNOcWNhUVdPVElLSTdLeEJ0U1hDMUFBa1VwMkVWQXYxSXVlWVg5QUtyb25Nd2d3Q0dBYVR2STVnRzA3bGQ0TDhvQ1U1cFQ5eUhrQlJVOUVSOURoSUJuUHRHQ041TkZPVEh3VDFmbEF4RWJZZUJ3cnNzQlZjeGY4cV9jUEI5aGJveA?oc=5",
         "date": "Wed, 07 Jan 2026 08:00:00 GMT",
+        "pool": "google"
+      },
+      {
+        "title": "These are the best K-beauty products to get that glowy, “glass skin” look - nbcnews.com",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWlZLbkFIQVZoN1p3dU1rc1hTNzhuaUlCSVZ4eHpnZ3NVWnJ6dDZPZGphd0Y0el9zQUx4OVh0VFR0WUVpZVB3MDdtOHNzcmtRMDB1Mk1ZMG9XY3NrNThhMDRGdlltQXZmQ211Y2Q1c21WeDR0QnNhYlA1VWU2ekRnbVQ3ZVI?oc=5",
+        "date": "Wed, 06 May 2026 07:00:00 GMT",
         "pool": "google"
       },
       {
@@ -232,7 +238,7 @@
         "pool": "google"
       },
       {
-        "title": "\"Tuscan Mom Makeup\" Is Summer's Toastiest Beauty Trend - bustle.com",
+        "title": "\"Tuscan Mom Makeup\" Is Summer's Toastiest Beauty Trend - Bustle",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCLUc1TldaLTEtRm9HZUg3MHYyVldmWktKSkRkTlFiS0RqMDZBN21QM3FnMENvaC16Nkhxa3o3Z2NyRUlSZFBVVEdoc2UwSVZlZVI4MjU3WGlZOEU?oc=5",
         "date": "Wed, 01 Jul 2026 07:00:00 GMT",
         "pool": "google"
@@ -256,7 +262,7 @@
         "pool": "google"
       },
       {
-        "title": "TikTok's Viral \"Male Gaze\" Vs. \"Female Gaze\" Makeup Trend Asks Who Your Glam Is For - bustle.com",
+        "title": "TikTok's Viral \"Male Gaze\" Vs. \"Female Gaze\" Makeup Trend Asks Who Your Glam Is For - Bustle",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QeTctNWFLMEMzWl9ZTE5TRzYxZm1nT2h4eVNSV2N5UlRUdldiVXAtdEc5enNWMVktaXhGcWRyQk5FVEtremFVNXJ6VWU4UGpMdUxzRHhUeHgyNEhQZmc0SGxLbDhWcDNFX0FOaGJydXJKTlhIVlY4STJIbGZjVTQ?oc=5",
         "date": "Tue, 25 Nov 2025 08:00:00 GMT",
         "pool": "google"
@@ -294,12 +300,6 @@
       {
         "title": "The 20 Best Korean Beauty Products for Mature Skin, According to a K-Beauty Expert - Yahoo",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVThUVVFZMUZqTTd4dFdqbFU1Vm1tSnBXd00zMkNGV1B1WHlBSnVsdmdmRUNHR3dic3hZNE9qRi1KVlI1TXNtZ2U1dm5LR1ZDdUV4QksxdERwV29aNk9pY1FXN3VLTFRNdVV0djFYSUVIbEk1ZkVzdzB3cVpFUXpfaE5yMFFHamRNNVVVYzZYQWxjaEdqczdCSE44UGVodw?oc=5",
-        "date": "Tue, 23 Jun 2026 07:00:00 GMT",
-        "pool": "google"
-      },
-      {
-        "title": "News | Retailer Olive Young's expansion mirrors K-beauty demand in US - CoStar",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYl9HLWJXV2V5bk53Sks2R1kyM3RGbF9jX1kxWURHY2ZvMmlJTTVaNlo3YWhORnlsWV9hMGJ2QmxVMEtZVjFienR1cDR5SWw0VjRjWmwzeGZURGxWYktHcEk5ZmhnSm1YektIbUNqYnVrejQ2ZUhUeWxERmlxODVKczVGdkRkTE0xSUM2bmNrNjh1MFRlMUVmV2VEb0wxZ0daM3Z0b1lB?oc=5",
         "date": "Tue, 23 Jun 2026 07:00:00 GMT",
         "pool": "google"
       },
@@ -346,7 +346,7 @@
         "pool": "google"
       },
       {
-        "title": "K-Beauty skincare tourism booms in South Korea - wfsb.com",
+        "title": "K-Beauty skincare tourism booms in South Korea - WFSB",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSzRNcEtPS1BKWWpfaW12TW5vam1IZjBrazNpS0ZzU2pTMjdmYzNQZ2tiYkNCTzMzRzNjbkthLXo3X18zbDRmOU5zMXdYYTlaUTZkSk9vY1h1bjg0QWh1d2JvaF9aclRTU0liMUhYZ00zNEFOd2tpbGtXSjN5OHlZOUhzQ2NENmtEdHc?oc=5",
         "date": "Tue, 09 Jun 2026 07:00:00 GMT",
         "pool": "google"
@@ -370,7 +370,7 @@
         "pool": "google"
       },
       {
-        "title": "Strawberry Makeup, Hypochlorous Acid Spray Among Top TikTok Beauty Trends - WWD",
+        "title": "Strawberry Makeup, Hypochlorous Acid Spray Among Top TikTok Beauty Trends - wwd.com",
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWTlvdkpHM1R2a0hLRmFacmlQcXZIbGdhOXF0VHNkQnFYSDJCdFZsZ0NoYzJneWE3YnQ3Y3lraUJnby1LSkpKQklISVhIb1h2QTV6a3JSRFRWUWVkWV9pY0JTOEpNZXZxRFJOOWlsYzcwZlItLTNHODBqUUItUXQ5V2dHdUpicDVFR2xpMnlJb3pPS2JHTUdfYWJEODZ2OTVhb29NelB3ejUzZ3pvaVZrSkNQWmhfVDJKRTRSVllNak9ZMHloYjdxeGltODFFZXAzek82VHRLZjFUN3hnbFQ5TjF0NA?oc=5",
         "date": "Tue, 04 Jun 2024 07:00:00 GMT",
         "pool": "google"
@@ -412,7 +412,7 @@
         "pool": "google"
       },
       {
-        "title": "How Far Can the K-beauty Craze Go? - WWD",
+        "title": "How Far Can the K-beauty Craze Go? - wwd.com",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNEx1RkFFYkt2M1lRNGRSMVpTbENQQzRhOUJuSUpmQnlpQjdyQ1FkdE9XaVJ6SVVPdnA3aHRhSDFGUGxZMXh3Q3g1WGJFTjJXek5KQ1VoS3dIemdHTlV4U0w1U3RoTHo1SWJWSkQ3SGc1ajQtM09WWUdJMTFzRkZyWUV0NWh1OThNYmtVckJycHNUbXJWS0phaTBB?oc=5",
         "date": "Tue, 01 Sep 2026 04:11:14 GMT",
         "pool": "google"
@@ -652,18 +652,6 @@
         "pool": "fda"
       },
       {
-        "title": "Catalogue Photography as a Cold Start: Toward Deployable Carbide Burr Recognition",
-        "url": "https://arxiv.org/abs/2609.03995v1",
-        "date": "2026-09-03T15:36:12Z",
-        "pool": "robotics"
-      },
-      {
-        "title": "MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation across Complex Terrains",
-        "url": "https://arxiv.org/abs/2609.03984v1",
-        "date": "2026-09-03T15:19:17Z",
-        "pool": "robotics"
-      },
-      {
         "title": "How the FDA is building a secure, AI-ready data foundation on Databricks for Government",
         "url": "https://www.databricks.com/blog/how-fda-building-secure-ai-ready-data-foundation-databricks-government",
         "date": "2026-09-01",
@@ -884,6 +872,18 @@
         "url": "https://api.fda.gov/drug/label.json?search=id:3afd4f97-ceb8-c70f-e063-6394a90afeb4",
         "date": "",
         "pool": "signal:openfda_sunscreen"
+      },
+      {
+        "title": "",
+        "url": "https://api.fda.gov/drug/label.json?search=id:40b41656-3e4a-5597-e063-6394a90a952a",
+        "date": "",
+        "pool": "signal:openfda_sunscreen"
+      },
+      {
+        "title": "",
+        "url": "https://api.fda.gov/drug/label.json?search=id:085b50a9-68d7-d6e6-e063-6394a90a09be",
+        "date": "",
+        "pool": "signal:openfda_sunscreen"
       }
     ],
     "design": [
@@ -912,12 +912,6 @@
         "pool": "google"
       },
       {
-        "title": "How AI Is Making Ecommerce Migration Faster, More Predictable (2026) - Shopify",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE80blNvdVBSeEVZV296dTFRel9TUF8wX3lhc3AzaGQydVpfMjBrYzVwNnBpY0NTX05Dc0twUEM0ekVyaWJiSUtFd1kxczVrM0tTRk9lcGM0VjVGQzRRQlJHS3RSUUpjbVgxUjV3bGtiUQ?oc=5",
-        "date": "Wed, 24 Jun 2026 07:00:00 GMT",
-        "pool": "google"
-      },
-      {
         "title": "Dangers of AI: Risks and How to Manage Them - Shopify",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5sQlBrV01lWXBBQjdvQjJTRUZIeU11WUM2UWlhTTBOQWVWZWloejRjYkw0cXdvZjFOa1I3X093RktKLTVlcE1OZmpvQURuNmxaZXc0LU8zVGs?oc=5",
         "date": "Wed, 22 Jul 2026 07:00:00 GMT",
@@ -930,9 +924,15 @@
         "pool": "google"
       },
       {
-        "title": "Shopify Merchants to Pay 4% Fee on ChatGPT Checkout Sales - PYMNTS.com",
+        "title": "Shopify Merchants to Pay 4% Fee on ChatGPT Checkout Sales - pymnts.com",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdzdjaUtabUxBNmxpNi1UdmZrY2pEZEV6SGZkaGlHMjRBZjBOY1VuSWJCM2RqcFMtMUp6SGF1aDB1VGRJUE1XSEZFUGdTOTFla09WTnpFVXhQcWQ1blUtbTRBeXkwTkJaeFQ1WjZlSkI1cG9STXloSlNHWDNXNGtGVVhJeHV6NmdobDAtR0ZZei1JZzBlRnlqeS13RmNkWG1jQnRkNHhIWFl0bnRGVVAweEJ3SlJfdmZ5QkRndjFwem9EUQ?oc=5",
         "date": "Wed, 21 Jan 2026 08:00:00 GMT",
+        "pool": "google"
+      },
+      {
+        "title": "AI Tools for Business: Best Ecommerce Picks - Shopify",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1hQU1qR0NKNE1zZ296elR3aVItQjhiRkh5MDlIbEFBMUJQZWFFcHdlRTdYX3ktQzh5aE1DY3ltRWE0NzV2S1lUUmVfS1NJMWJLN0MxV1ZvUEhYNS11TDlhcHgyNA?oc=5",
+        "date": "Wed, 17 Sep 2025 07:00:00 GMT",
         "pool": "google"
       },
       {
@@ -948,7 +948,7 @@
         "pool": "google"
       },
       {
-        "title": "Shopify Leans Into AI Commerce as Profit Pressure Mounts - PYMNTS.com",
+        "title": "Shopify Leans Into AI Commerce as Profit Pressure Mounts - pymnts.com",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaVpKME5mSTFEb3JjNUFMRkVVWFRma25Gc1VBRjE1eXZRSlVIcUVPdGFrREVjdlNGYjZvQzI1THNtQ0NzbWdINEpsRXJBOUR6dExsVl9UWHlCTmg4N0NZcjdydmxHempQdVhNS0g3SEU5LXlOY0FMX1dUU2NZX2VUbHNfdTRTU2wtZEFqU1MwN0FMZXNULWZCa0hWZldDSzRP?oc=5",
         "date": "Wed, 11 Feb 2026 08:00:00 GMT",
         "pool": "google"
@@ -1128,7 +1128,7 @@
         "pool": "robotics"
       },
       {
-        "title": "Shopify President: Agentic AI Drives 11x Spike in Orders - PYMNTS.com",
+        "title": "Shopify President: Agentic AI Drives 11x Spike in Orders - pymnts.com",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSHpVM2Y0NklOV3Y2OEFORmVNc1E4NUR3UkxiWFRLTlU4clVDenMyd0pBTkQ1NVRvMVd0YmpEczVBWHBuSmtTYWg2ZFJVLWpuY0JQX1pRWUFnMlRnaDl3V3N1Y3Y4SV84T3QzbU1tdVM1M3oyNmFyTExReUtMazFVdlJnNDhKSElNWjBDaUZfcTRLOWlpRjVmdWI5Y1NQb3AwNDBuUWZB?oc=5",
         "date": "Tue, 04 Nov 2025 08:00:00 GMT",
         "pool": "google"
@@ -1496,118 +1496,112 @@
         "pool": "robotics"
       },
       {
-        "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
-        "url": "https://arxiv.org/abs/2609.04193v1",
-        "date": "2026-09-03T17:59:03Z",
-        "pool": "robotics"
-      },
-      {
         "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
         "url": "https://arxiv.org/abs/2609.04170v1",
         "date": "2026-09-03T17:54:09Z",
         "pool": "arxiv"
       },
       {
-        "title": "Formation Matrix and Energy-based Control of Multi-Agent Systems",
-        "url": "https://arxiv.org/abs/2609.04158v1",
-        "date": "2026-09-03T17:49:06Z",
-        "pool": "robotics"
+        "title": "Booz Allen Charts Autonomous AI Threats and Unveils New Counter AI Defense",
+        "url": "https://investors.boozallen.com/news-releases/news-release-details/booz-allen-charts-autonomous-ai-threats-and-unveils-new-counter",
+        "date": "2026-09-02",
+        "pool": "institutions"
       },
       {
-        "title": "A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Ackermann Vehicle",
-        "url": "https://arxiv.org/abs/2609.04147v1",
-        "date": "2026-09-03T17:40:20Z",
-        "pool": "robotics"
+        "title": "How River takes security work from a fix to merge",
+        "url": "https://shopify.engineering/river-vulnerability-remediation",
+        "date": "2026-09-02",
+        "pool": "design_refs"
       },
       {
-        "title": "Corner Cases: Headland Coverage Path Planning for Autonomous Driving in Arable Farming",
-        "url": "https://arxiv.org/abs/2609.04103v1",
-        "date": "2026-09-03T17:08:02Z",
-        "pool": "robotics"
+        "title": "Broadcom Delivers End-to-End Security, Identity, and Observability for Agentic AI",
+        "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-delivers-end-end-security-identity-and-observability",
+        "date": "2026-08-31",
+        "pool": "institutions"
       },
       {
-        "title": "Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis",
-        "url": "https://arxiv.org/abs/2609.04096v1",
-        "date": "2026-09-03T17:03:11Z",
-        "pool": "robotics"
+        "title": "Why Your Website Should Never Stop Changing",
+        "url": "https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/",
+        "date": "2026-08-25",
+        "pool": "design_refs"
       },
       {
-        "title": "Transversality Conditions for Boundary Constraints Defined by Differential Equations",
-        "url": "https://arxiv.org/abs/2609.04084v1",
-        "date": "2026-09-03T16:51:10Z",
-        "pool": "robotics"
+        "title": "Grounding Robot Generalization in Training Data via Retrieval-Augmented VLMs",
+        "url": "https://doi.org/10.1109/lra.2026.3726331",
+        "date": "2026-08-21",
+        "pool": "institutions"
       },
       {
-        "title": "Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving",
-        "url": "https://arxiv.org/abs/2609.04070v1",
-        "date": "2026-09-03T16:42:11Z",
-        "pool": "robotics"
+        "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+        "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+        "date": "2026-07-30",
+        "pool": "institutions"
       },
       {
-        "title": "Subspace Inference Enables Efficient Active Reward Learning from Preferences",
-        "url": "https://arxiv.org/abs/2609.04066v1",
-        "date": "2026-09-03T16:39:55Z",
-        "pool": "robotics"
+        "title": "Leidos introduces new AI platform to find, fix cybersecurity vulnerabilities",
+        "url": "https://investors.leidos.com/news-releases/news-release-details/leidos-introduces-new-ai-platform-find-fix-cybersecurity",
+        "date": "2026-07-29",
+        "pool": "institutions"
       },
       {
-        "title": "Catalogue Photography as a Cold Start: Toward Deployable Carbide Burr Recognition",
-        "url": "https://arxiv.org/abs/2609.03995v1",
-        "date": "2026-09-03T15:36:12Z",
-        "pool": "robotics"
+        "title": "Bridging language and action: A survey of language-conditioned robot manipulation",
+        "url": "https://doi.org/10.1177/02783649261468360",
+        "date": "2026-07-29",
+        "pool": "institutions"
       },
       {
-        "title": "MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation across Complex Terrains",
-        "url": "https://arxiv.org/abs/2609.03984v1",
-        "date": "2026-09-03T15:19:17Z",
-        "pool": "robotics"
+        "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+        "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+        "date": "2026-07-28",
+        "pool": "institutions"
       },
       {
-        "title": "Automated Weld Seam Recognition and 3D Mapping for Robotic Post Processing Using Photogrammetry and Semantic Segmentation",
-        "url": "https://arxiv.org/abs/2609.03970v1",
-        "date": "2026-09-03T15:07:52Z",
-        "pool": "robotics"
+        "title": "New Booz Allen Survey Finds Federal Agencies Are Accelerating Agentic AI Adoption Despite Significant Trust and Security Gaps",
+        "url": "https://investors.boozallen.com/news-releases/news-release-details/new-booz-allen-survey-finds-federal-agencies-are-accelerating",
+        "date": "2026-07-21",
+        "pool": "institutions"
       },
       {
-        "title": "Quantifying Power to Voltage and Frequency Dynamics for Oscillation Propagation Assessment",
-        "url": "https://arxiv.org/abs/2609.03929v1",
-        "date": "2026-09-03T14:41:17Z",
-        "pool": "robotics"
+        "title": "Empowering India’s next generation of innovators with ATL Saathi",
+        "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+        "date": "2026-07-13",
+        "pool": "institutions"
       },
       {
-        "title": "Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models",
-        "url": "https://arxiv.org/abs/2609.03927v1",
-        "date": "2026-09-03T14:40:16Z",
-        "pool": "robotics"
+        "title": "Hybrid Model--Data Fault Diagnosis for Wafer Handler Robots: Tilt and Broken Belt Cases",
+        "url": "https://doi.org/10.1109/tcst.2026.3693758",
+        "date": "2026-06-25",
+        "pool": "institutions"
       },
       {
-        "title": "Data-Based Clustering and Control of Similar Biological Systems",
-        "url": "https://arxiv.org/abs/2609.03921v1",
-        "date": "2026-09-03T14:37:42Z",
-        "pool": "robotics"
+        "title": "Agent Brain: A Biologically Inspired Memory System for Autonomous AI Agents — LongMemEval-M Evaluation",
+        "url": "https://doi.org/10.5281/zenodo.19673331",
+        "date": "2026-04-21",
+        "pool": "institutions"
       },
       {
-        "title": "Revisiting Topological Graphs for Macro Action based Closed-loop Reinforcement Learning of Vision Language Navigation in Continuous Environment",
-        "url": "https://arxiv.org/abs/2609.03906v1",
-        "date": "2026-09-03T14:24:29Z",
-        "pool": "robotics"
+        "title": "Agent Brain: A Biologically Inspired Memory System for Autonomous AI Agents — LongMemEval-M Evaluation",
+        "url": "https://doi.org/10.5281/zenodo.19673132",
+        "date": "2026-04-21",
+        "pool": "institutions"
       },
       {
-        "title": "GraFT: A Training-Free Framework for Spatial Reasoning in Multimodal Large Language Models via 3D Scene Graphs",
-        "url": "https://arxiv.org/abs/2609.03892v1",
-        "date": "2026-09-03T14:11:56Z",
-        "pool": "robotics"
+        "title": "Agent Brain: A Biologically Inspired Memory System for Autonomous AI Agents, with Head-to-Head Evaluation on LongMemEval",
+        "url": "https://doi.org/10.5281/zenodo.19673133",
+        "date": "2026-04-21",
+        "pool": "institutions"
       },
       {
-        "title": "A hybrid pipeline for dynamic ontology-based semantic mapping",
-        "url": "https://arxiv.org/abs/2609.03891v1",
-        "date": "2026-09-03T14:11:21Z",
-        "pool": "robotics"
+        "title": "Visual Computing for Autonomous Driving",
+        "url": "https://doi.org/10.1109/mcg.2024.3397581",
+        "date": "2024-05-01",
+        "pool": "institutions"
       },
       {
-        "title": "FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation",
-        "url": "https://arxiv.org/abs/2609.03889v1",
-        "date": "2026-09-03T14:10:47Z",
-        "pool": "robotics"
+        "title": "AutoNeRF: Training Implicit Scene Representations with Autonomous Agents",
+        "url": "https://doi.org/10.48550/arxiv.2304.11241",
+        "date": "2023-04-21",
+        "pool": "institutions"
       }
     ]
   }

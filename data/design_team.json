@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-06T02:16:56.323367+00:00",
+  "generated_at": "2026-09-06T04:59:21.322816+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -748,11 +748,6 @@
     "UX Collective": "robots.txt 가 Disallow: / 로 전면 차단",
     "Shopify Blog / Partners": "공개 RSS 주소 없음 (본문이 피드가 아닌 HTML)",
     "Baymard Institute": "RSS 404",
-    "Awwwards": "HTTP 502",
-    "coolors.co /palettes/trending": "robots.txt 는 허용(/u/·/url/·/ajax/ 만 금지). 그러나 팔레트 48개가 전부 브라우저에서 그려진다. 서버가 준 HTML 559KB 안에 팔레트 데이터가 없다(palette-card 0개, rgb() 0개). 색은 CSS 로 입혀진다. 데이터가 오는 곳은 /ajax/ 로 보이는데 그건 robots.txt 가 막은 경로다. GitHub Actions 의 단순 HTTP 로는 가져올 수 없다. 2026-09-06 확인.",
-    "imweb.me /theme": "robots.txt 는 Allow: /. 그러나 서버 HTML 183KB 에 '테마' 라는 낱말이 0번 나온다. 목록이 전부 자바스크립트로 그려진다. 같은 이유로 단순 HTTP 수집 불가. 2026-09-06 확인.",
-    "styles.refero.design": "robots.txt 가 ClaudeBot, Claude-Web, anthropic-ai, GPTBot, CCBot 등을 이름으로 지목해 Disallow: / 한다. 와일드카드 그룹에도 Disallow: / 가 있다. 수집하지 않는다. 2026-09-06 확인.",
-    "YouTube RSS (/feeds/videos.xml)": "youtube.com/robots.txt 가 이 경로를 Disallow 한다. 그동안 12개 채널에서 180건을 이 경로로 받고 있었다. 2026-09-06 중단. 정식 경로는 YouTube Data API v3 이고 YOUTUBE_API_KEY 가 필요하다. 참고로 /watch 는 막혀 있지 않아 개별 영상 페이지는 받을 수 있다."
-  },
-  "robots_checked_at": "2026-09-06"
+    "Awwwards": "HTTP 502"
+  }
 }

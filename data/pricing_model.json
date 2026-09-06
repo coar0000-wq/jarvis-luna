@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T04:26:53.901245+00:00",
+  "generated_at": "2026-09-06T05:23:19.297441+00:00",
   "exchange_rate": {
     "usd_to_krw": 1349.84,
     "as_of": "2026-09-06",
@@ -21,12 +21,12 @@
     ]
   },
   "market_benchmark": {
-    "min": 2.8,
-    "p25": 18.63,
+    "min": 7.7,
+    "p25": 18.99,
     "median": 24.0,
     "max": 279.0,
     "n": 100,
-    "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-05)"
+    "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-06)"
   },
   "offers_by_product": {
     "규칙": "상품별 미국 실판매 중앙값의 95% 를 기준가로 잡는다. 신규 스토어라 시장 중앙값보다 살짝 아래로 들어간다. 상품별 시장가가 없으면 종전 하위25% 벤치마크를 쓴다.",
@@ -35,13 +35,13 @@
         "pd_no": "1048583",
         "name": "드롭비 탄탄 광채 앰플 40 ml",
         "qty": 1,
-        "price_usd": 18.99,
-        "unit_price_usd": 18.99,
+        "price_usd": 17.99,
+        "unit_price_usd": 17.99,
         "landed_cost_total_usd": 11.24,
-        "fee_usd": 1.41,
-        "net_profit_usd": 6.34,
-        "margin_pct": 33.4,
-        "market_median_usd": 19.01,
+        "fee_usd": 1.33,
+        "net_profit_usd": 5.42,
+        "margin_pct": 30.1,
+        "market_median_usd": 18.03,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
         "block_reason": ""
@@ -62,36 +62,6 @@
         "block_reason": ""
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "qty": 1,
-        "price_usd": 18.99,
-        "unit_price_usd": 18.99,
-        "landed_cost_total_usd": 11.99,
-        "fee_usd": 1.41,
-        "net_profit_usd": 5.59,
-        "margin_pct": 29.5,
-        "market_median_usd": 18.99,
-        "market_price_source": "serpapi_google_shopping",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "qty": 1,
-        "price_usd": 17.99,
-        "unit_price_usd": 17.99,
-        "landed_cost_total_usd": 14.96,
-        "fee_usd": 1.33,
-        "net_profit_usd": 1.7,
-        "margin_pct": 9.4,
-        "market_median_usd": 18.25,
-        "market_price_source": "serpapi_google_shopping",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "qty": 1,
@@ -101,7 +71,37 @@
         "fee_usd": 0.96,
         "net_profit_usd": 4.1,
         "margin_pct": 31.6,
-        "market_median_usd": 12.99,
+        "market_median_usd": 13.0,
+        "market_price_source": "serpapi_google_shopping",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "qty": 1,
+        "price_usd": 18.99,
+        "unit_price_usd": 18.99,
+        "landed_cost_total_usd": 14.96,
+        "fee_usd": 1.41,
+        "net_profit_usd": 2.62,
+        "margin_pct": 13.8,
+        "market_median_usd": 19.8,
+        "market_price_source": "serpapi_google_shopping",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "qty": 1,
+        "price_usd": 20.99,
+        "unit_price_usd": 20.99,
+        "landed_cost_total_usd": 11.99,
+        "fee_usd": 1.55,
+        "net_profit_usd": 7.45,
+        "margin_pct": 35.5,
+        "market_median_usd": 21.94,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
         "block_reason": ""
@@ -112,13 +112,13 @@
         "pd_no": "1048583",
         "name": "드롭비 탄탄 광채 앰플 40 ml",
         "qty": 2,
-        "price_usd": 30.99,
-        "unit_price_usd": 15.49,
+        "price_usd": 29.99,
+        "unit_price_usd": 14.99,
         "landed_cost_total_usd": 16.24,
-        "fee_usd": 2.29,
-        "net_profit_usd": 12.46,
-        "margin_pct": 40.2,
-        "market_median_usd": 19.01,
+        "fee_usd": 2.22,
+        "net_profit_usd": 11.53,
+        "margin_pct": 38.4,
+        "market_median_usd": 18.03,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
         "block_reason": ""
@@ -139,36 +139,6 @@
         "block_reason": ""
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "qty": 2,
-        "price_usd": 30.99,
-        "unit_price_usd": 15.49,
-        "landed_cost_total_usd": 19.22,
-        "fee_usd": 2.29,
-        "net_profit_usd": 9.48,
-        "margin_pct": 30.6,
-        "market_median_usd": 18.99,
-        "market_price_source": "serpapi_google_shopping",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "qty": 2,
-        "price_usd": 29.99,
-        "unit_price_usd": 14.99,
-        "landed_cost_total_usd": 23.44,
-        "fee_usd": 2.22,
-        "net_profit_usd": 4.33,
-        "margin_pct": 14.4,
-        "market_median_usd": 18.25,
-        "market_price_source": "serpapi_google_shopping",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "qty": 2,
@@ -178,7 +148,37 @@
         "fee_usd": 1.55,
         "net_profit_usd": 9.06,
         "margin_pct": 43.1,
-        "market_median_usd": 12.99,
+        "market_median_usd": 13.0,
+        "market_price_source": "serpapi_google_shopping",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "qty": 2,
+        "price_usd": 31.99,
+        "unit_price_usd": 15.99,
+        "landed_cost_total_usd": 23.44,
+        "fee_usd": 2.37,
+        "net_profit_usd": 6.18,
+        "margin_pct": 19.3,
+        "market_median_usd": 19.8,
+        "market_price_source": "serpapi_google_shopping",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "qty": 2,
+        "price_usd": 35.99,
+        "unit_price_usd": 18.0,
+        "landed_cost_total_usd": 19.22,
+        "fee_usd": 2.66,
+        "net_profit_usd": 14.11,
+        "margin_pct": 39.2,
+        "market_median_usd": 21.94,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
         "block_reason": ""
@@ -187,7 +187,7 @@
   },
   "product_market_prices": {
     "source": "SerpApi google_shopping (미국)",
-    "matched": 12,
+    "matched": 5,
     "note": "상품별 실판매가가 있는 건은 그 값으로 마진을 계산한다. 없으면 올리브영 베스트셀러 벤치마크로 돌아간다."
   },
   "duty_mode_note": {
@@ -214,29 +214,29 @@
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
         12.99,
-        19.99
+        20.99
       ]
     },
     "bundle": {
       "qty": 2,
       "discount_pct": 15,
-      "price_usd": 30.99,
-      "unit_price_usd": 15.49,
+      "price_usd": 31.99,
+      "unit_price_usd": 15.99,
       "landed_cost_total_usd": 17.1,
       "shipping_in_cost_usd": 9.61,
-      "fee_usd": 2.29,
-      "net_profit_usd": 11.59,
-      "margin_pct": 37.4,
+      "fee_usd": 2.37,
+      "net_profit_usd": 12.52,
+      "margin_pct": 39.1,
       "free_shipping": true,
-      "orders_for_500usd": 43,
+      "orders_for_500usd": 40,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
         20.99,
-        33.99
+        35.99
       ]
     },
     "free_shipping_min_qty": 2,
-    "bundle_vs_single": 1.9,
+    "bundle_vs_single": 2.0,
     "판단_근거": "15% 할인을 고른 이유: 5~10%는 미국 소비자에게 체감이 없고, 20%면 마진이 36.7%로 떨어져 반품·파손 완충이 사라진다. 15%면 마진 40%를 지키면서 단품 대비 순익 2.2배다. 무료배송은 2개 주문 배송비가 이미 원가에 포함돼 추가 부담이 없다.",
     "광고비": "0 (매출이 붙기 전까지 광고하지 않기로 결정)"
   },
@@ -269,10 +269,10 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 6.01,
-          "margin_pct": 32.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.35,
+          "margin_pct": 33.4
         },
         "at_market_median": {
           "sell": 24.0,
@@ -281,13 +281,13 @@
           "margin_pct": 45.8
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
+        "market_median_usd": 18.03,
         "market_sample_n": 20,
         "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 6.36,
-          "margin_pct": 33.5
+          "sell": 18.03,
+          "fee": 1.33,
+          "profit": 5.46,
+          "margin_pct": 30.3
         }
       },
       {
@@ -317,10 +317,10 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 6.01,
-          "margin_pct": 32.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.35,
+          "margin_pct": 33.4
         },
         "at_market_median": {
           "sell": 24.0,
@@ -339,51 +339,51 @@
         }
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
         "shopify_score": 90,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.7,
-        "shipping_unit_usd": 7.73,
-        "shipping_order_usd": 7.73,
-        "tariff_usd": 0.56,
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.23,
+        "shipping_order_usd": 6.23,
+        "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.99,
-        "landed_cost_ddu_usd": 11.99,
-        "landed_cost_ddp_usd": 11.43,
+        "landed_cost_usd": 7.93,
+        "landed_cost_ddu_usd": 7.93,
+        "landed_cost_ddp_usd": 7.71,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.94,
+        "breakeven_usd": 8.57,
         "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": -4.44,
-          "margin_pct": -54.5
+          "sell": 3.26,
+          "fee": 0.24,
+          "profit": -4.92,
+          "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 5.26,
-          "margin_pct": 28.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.65,
+          "margin_pct": 50.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 10.24,
-          "margin_pct": 42.7
+          "profit": 14.29,
+          "margin_pct": 59.5
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
+        "market_median_usd": 13.0,
+        "market_sample_n": 20,
         "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 5.6,
-          "margin_pct": 29.5
+          "sell": 13.0,
+          "fee": 0.96,
+          "profit": 4.1,
+          "margin_pct": 31.6
         }
       },
       {
@@ -413,10 +413,10 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 2.29,
-          "margin_pct": 12.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 2.63,
+          "margin_pct": 13.8
         },
         "at_market_median": {
           "sell": 24.0,
@@ -425,61 +425,61 @@
           "margin_pct": 30.3
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
+        "market_median_usd": 19.8,
         "market_sample_n": 20,
         "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 1.94,
-          "margin_pct": 10.6
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 3.38,
+          "margin_pct": 17.1
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 86,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 6.23,
-        "shipping_order_usd": 6.23,
-        "tariff_usd": 0.22,
+        "weigh_needed": false,
+        "unit_cost_usd": 3.7,
+        "shipping_unit_usd": 7.73,
+        "shipping_order_usd": 7.73,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.93,
-        "landed_cost_ddu_usd": 7.93,
-        "landed_cost_ddp_usd": 7.71,
+        "landed_cost_usd": 11.99,
+        "landed_cost_ddu_usd": 11.99,
+        "landed_cost_ddp_usd": 11.43,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.57,
+        "breakeven_usd": 12.94,
         "at_2_2x": {
-          "sell": 3.26,
-          "fee": 0.24,
-          "profit": -4.92,
-          "margin_pct": -150.8
+          "sell": 8.15,
+          "fee": 0.6,
+          "profit": -4.44,
+          "margin_pct": -54.5
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 9.32,
-          "margin_pct": 50.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 5.6,
+          "margin_pct": 29.5
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 14.29,
-          "margin_pct": 59.5
+          "profit": 10.24,
+          "margin_pct": 42.7
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
+        "market_median_usd": 21.94,
+        "market_sample_n": 18,
         "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 4.09,
-          "margin_pct": 31.5
+          "sell": 21.94,
+          "fee": 1.62,
+          "profit": 8.33,
+          "margin_pct": 38.0
         }
       }
     ],
@@ -511,10 +511,10 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 9.13,
-          "margin_pct": 49.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.46,
+          "margin_pct": 49.8
         },
         "at_market_median": {
           "sell": 24.0,
@@ -523,13 +523,13 @@
           "margin_pct": 58.8
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
+        "market_median_usd": 18.03,
         "market_sample_n": 20,
         "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 9.48,
-          "margin_pct": 49.9
+          "sell": 18.03,
+          "fee": 1.33,
+          "profit": 8.57,
+          "margin_pct": 47.5
         }
       },
       {
@@ -559,10 +559,10 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 9.13,
-          "margin_pct": 49.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.46,
+          "margin_pct": 49.8
         },
         "at_market_median": {
           "sell": 24.0,
@@ -581,51 +581,51 @@
         }
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
         "shopify_score": 90,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.7,
-        "shipping_unit_usd": 5.35,
-        "shipping_order_usd": 10.7,
-        "tariff_usd": 0.56,
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.98,
+        "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 9.61,
-        "landed_cost_ddu_usd": 9.61,
-        "landed_cost_ddp_usd": 9.05,
+        "landed_cost_usd": 5.19,
+        "landed_cost_ddu_usd": 5.19,
+        "landed_cost_ddp_usd": 4.97,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.38,
+        "breakeven_usd": 5.61,
         "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": -2.06,
-          "margin_pct": -25.3
+          "sell": 3.26,
+          "fee": 0.24,
+          "profit": -2.17,
+          "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 7.64,
-          "margin_pct": 41.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.39,
+          "margin_pct": 65.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 12.62,
-          "margin_pct": 52.6
+          "profit": 17.03,
+          "margin_pct": 71.0
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
+        "market_median_usd": 13.0,
+        "market_sample_n": 20,
         "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 7.98,
-          "margin_pct": 42.0
+          "sell": 13.0,
+          "fee": 0.96,
+          "profit": 6.84,
+          "margin_pct": 52.7
         }
       },
       {
@@ -655,10 +655,10 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 5.54,
-          "margin_pct": 29.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 5.87,
+          "margin_pct": 30.9
         },
         "at_market_median": {
           "sell": 24.0,
@@ -667,61 +667,61 @@
           "margin_pct": 43.8
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
+        "market_median_usd": 19.8,
         "market_sample_n": 20,
         "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 5.18,
-          "margin_pct": 28.4
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 6.62,
+          "margin_pct": 33.4
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 86,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 3.49,
-        "shipping_order_usd": 6.98,
-        "tariff_usd": 0.22,
+        "weigh_needed": false,
+        "unit_cost_usd": 3.7,
+        "shipping_unit_usd": 5.35,
+        "shipping_order_usd": 10.7,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.19,
-        "landed_cost_ddu_usd": 5.19,
-        "landed_cost_ddp_usd": 4.97,
+        "landed_cost_usd": 9.61,
+        "landed_cost_ddu_usd": 9.61,
+        "landed_cost_ddp_usd": 9.05,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.61,
+        "breakeven_usd": 10.38,
         "at_2_2x": {
-          "sell": 3.26,
-          "fee": 0.24,
-          "profit": -2.17,
-          "margin_pct": -66.7
+          "sell": 8.15,
+          "fee": 0.6,
+          "profit": -2.06,
+          "margin_pct": -25.3
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 12.06,
-          "margin_pct": 64.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 7.98,
+          "margin_pct": 42.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 17.03,
-          "margin_pct": 71.0
+          "profit": 12.62,
+          "margin_pct": 52.6
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
+        "market_median_usd": 21.94,
+        "market_sample_n": 18,
         "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 6.84,
-          "margin_pct": 52.6
+          "sell": 21.94,
+          "fee": 1.62,
+          "profit": 10.71,
+          "margin_pct": 48.8
         }
       }
     ]
@@ -755,10 +755,10 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 6.01,
-          "margin_pct": 32.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.35,
+          "margin_pct": 33.4
         },
         "at_market_median": {
           "sell": 24.0,
@@ -767,13 +767,13 @@
           "margin_pct": 45.8
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
+        "market_median_usd": 18.03,
         "market_sample_n": 20,
         "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 6.36,
-          "margin_pct": 33.5
+          "sell": 18.03,
+          "fee": 1.33,
+          "profit": 5.46,
+          "margin_pct": 30.3
         }
       },
       {
@@ -803,10 +803,10 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 6.01,
-          "margin_pct": 32.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.35,
+          "margin_pct": 33.4
         },
         "at_market_median": {
           "sell": 24.0,
@@ -825,51 +825,51 @@
         }
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
         "shopify_score": 90,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.7,
-        "shipping_unit_usd": 7.73,
-        "shipping_order_usd": 7.73,
-        "tariff_usd": 0.56,
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.23,
+        "shipping_order_usd": 6.23,
+        "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.99,
-        "landed_cost_ddu_usd": 11.99,
-        "landed_cost_ddp_usd": 11.43,
+        "landed_cost_usd": 7.93,
+        "landed_cost_ddu_usd": 7.93,
+        "landed_cost_ddp_usd": 7.71,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.94,
+        "breakeven_usd": 8.57,
         "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": -4.44,
-          "margin_pct": -54.5
+          "sell": 3.26,
+          "fee": 0.24,
+          "profit": -4.92,
+          "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 5.26,
-          "margin_pct": 28.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.65,
+          "margin_pct": 50.8
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 10.24,
-          "margin_pct": 42.7
+          "profit": 14.29,
+          "margin_pct": 59.5
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
+        "market_median_usd": 13.0,
+        "market_sample_n": 20,
         "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 5.6,
-          "margin_pct": 29.5
+          "sell": 13.0,
+          "fee": 0.96,
+          "profit": 4.1,
+          "margin_pct": 31.6
         }
       },
       {
@@ -899,10 +899,10 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 2.29,
-          "margin_pct": 12.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 2.63,
+          "margin_pct": 13.8
         },
         "at_market_median": {
           "sell": 24.0,
@@ -911,61 +911,61 @@
           "margin_pct": 30.3
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
+        "market_median_usd": 19.8,
         "market_sample_n": 20,
         "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 1.94,
-          "margin_pct": 10.6
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 3.38,
+          "margin_pct": 17.1
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 86,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 6.23,
-        "shipping_order_usd": 6.23,
-        "tariff_usd": 0.22,
+        "weigh_needed": false,
+        "unit_cost_usd": 3.7,
+        "shipping_unit_usd": 7.73,
+        "shipping_order_usd": 7.73,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.93,
-        "landed_cost_ddu_usd": 7.93,
-        "landed_cost_ddp_usd": 7.71,
+        "landed_cost_usd": 11.99,
+        "landed_cost_ddu_usd": 11.99,
+        "landed_cost_ddp_usd": 11.43,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.57,
+        "breakeven_usd": 12.94,
         "at_2_2x": {
-          "sell": 3.26,
-          "fee": 0.24,
-          "profit": -4.92,
-          "margin_pct": -150.8
+          "sell": 8.15,
+          "fee": 0.6,
+          "profit": -4.44,
+          "margin_pct": -54.5
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 9.32,
-          "margin_pct": 50.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 5.6,
+          "margin_pct": 29.5
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 14.29,
-          "margin_pct": 59.5
+          "profit": 10.24,
+          "margin_pct": 42.7
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
+        "market_median_usd": 21.94,
+        "market_sample_n": 18,
         "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 4.09,
-          "margin_pct": 31.5
+          "sell": 21.94,
+          "fee": 1.62,
+          "profit": 8.33,
+          "margin_pct": 38.0
         }
       }
     ],
@@ -997,10 +997,10 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 9.13,
-          "margin_pct": 49.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.46,
+          "margin_pct": 49.8
         },
         "at_market_median": {
           "sell": 24.0,
@@ -1009,13 +1009,13 @@
           "margin_pct": 58.8
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
+        "market_median_usd": 18.03,
         "market_sample_n": 20,
         "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 9.48,
-          "margin_pct": 49.9
+          "sell": 18.03,
+          "fee": 1.33,
+          "profit": 8.57,
+          "margin_pct": 47.5
         }
       },
       {
@@ -1045,10 +1045,10 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 9.13,
-          "margin_pct": 49.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.46,
+          "margin_pct": 49.8
         },
         "at_market_median": {
           "sell": 24.0,
@@ -1067,51 +1067,51 @@
         }
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
         "shopify_score": 90,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.7,
-        "shipping_unit_usd": 5.35,
-        "shipping_order_usd": 10.7,
-        "tariff_usd": 0.56,
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.98,
+        "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 9.61,
-        "landed_cost_ddu_usd": 9.61,
-        "landed_cost_ddp_usd": 9.05,
+        "landed_cost_usd": 5.19,
+        "landed_cost_ddu_usd": 5.19,
+        "landed_cost_ddp_usd": 4.97,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.38,
+        "breakeven_usd": 5.61,
         "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": -2.06,
-          "margin_pct": -25.3
+          "sell": 3.26,
+          "fee": 0.24,
+          "profit": -2.17,
+          "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 7.64,
-          "margin_pct": 41.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.39,
+          "margin_pct": 65.3
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 12.62,
-          "margin_pct": 52.6
+          "profit": 17.03,
+          "margin_pct": 71.0
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
+        "market_median_usd": 13.0,
+        "market_sample_n": 20,
         "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 7.98,
-          "margin_pct": 42.0
+          "sell": 13.0,
+          "fee": 0.96,
+          "profit": 6.84,
+          "margin_pct": 52.7
         }
       },
       {
@@ -1141,10 +1141,10 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 5.54,
-          "margin_pct": 29.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 5.87,
+          "margin_pct": 30.9
         },
         "at_market_median": {
           "sell": 24.0,
@@ -1153,61 +1153,61 @@
           "margin_pct": 43.8
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
+        "market_median_usd": 19.8,
         "market_sample_n": 20,
         "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 5.18,
-          "margin_pct": 28.4
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 6.62,
+          "margin_pct": 33.4
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 86,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 3.49,
-        "shipping_order_usd": 6.98,
-        "tariff_usd": 0.22,
+        "weigh_needed": false,
+        "unit_cost_usd": 3.7,
+        "shipping_unit_usd": 5.35,
+        "shipping_order_usd": 10.7,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.19,
-        "landed_cost_ddu_usd": 5.19,
-        "landed_cost_ddp_usd": 4.97,
+        "landed_cost_usd": 9.61,
+        "landed_cost_ddu_usd": 9.61,
+        "landed_cost_ddp_usd": 9.05,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.61,
+        "breakeven_usd": 10.38,
         "at_2_2x": {
-          "sell": 3.26,
-          "fee": 0.24,
-          "profit": -2.17,
-          "margin_pct": -66.7
+          "sell": 8.15,
+          "fee": 0.6,
+          "profit": -2.06,
+          "margin_pct": -25.3
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 12.06,
-          "margin_pct": 64.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 7.98,
+          "margin_pct": 42.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 17.03,
-          "margin_pct": 71.0
+          "profit": 12.62,
+          "margin_pct": 52.6
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
+        "market_median_usd": 21.94,
+        "market_sample_n": 18,
         "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 6.84,
-          "margin_pct": 52.6
+          "sell": 21.94,
+          "fee": 1.62,
+          "profit": 10.71,
+          "margin_pct": 48.8
         }
       }
     ],
@@ -1239,10 +1239,10 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 6.57,
-          "margin_pct": 35.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.9,
+          "margin_pct": 36.3
         },
         "at_market_median": {
           "sell": 24.0,
@@ -1251,13 +1251,13 @@
           "margin_pct": 48.1
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
+        "market_median_usd": 18.03,
         "market_sample_n": 20,
         "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 6.92,
-          "margin_pct": 36.4
+          "sell": 18.03,
+          "fee": 1.33,
+          "profit": 6.01,
+          "margin_pct": 33.4
         }
       },
       {
@@ -1287,10 +1287,10 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 6.57,
-          "margin_pct": 35.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.9,
+          "margin_pct": 36.3
         },
         "at_market_median": {
           "sell": 24.0,
@@ -1309,51 +1309,51 @@
         }
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
         "shopify_score": 90,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.7,
-        "shipping_unit_usd": 7.73,
-        "shipping_order_usd": 7.73,
-        "tariff_usd": 0.56,
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.23,
+        "shipping_order_usd": 6.23,
+        "tariff_usd": 0.22,
         "duty_mode": "ddp",
-        "landed_cost_usd": 11.43,
-        "landed_cost_ddu_usd": 11.99,
-        "landed_cost_ddp_usd": 11.43,
+        "landed_cost_usd": 7.71,
+        "landed_cost_ddu_usd": 7.93,
+        "landed_cost_ddp_usd": 7.71,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 12.34,
+        "breakeven_usd": 8.33,
         "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": -3.88,
-          "margin_pct": -47.7
+          "sell": 3.26,
+          "fee": 0.24,
+          "profit": -4.69,
+          "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 5.82,
-          "margin_pct": 31.2
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 9.87,
+          "margin_pct": 52.0
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 10.79,
-          "margin_pct": 45.0
+          "profit": 14.51,
+          "margin_pct": 60.5
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
+        "market_median_usd": 13.0,
+        "market_sample_n": 20,
         "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 6.15,
-          "margin_pct": 32.4
+          "sell": 13.0,
+          "fee": 0.96,
+          "profit": 4.33,
+          "margin_pct": 33.3
         }
       },
       {
@@ -1383,10 +1383,10 @@
           "margin_pct": -84.1
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 2.85,
-          "margin_pct": 15.3
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 3.18,
+          "margin_pct": 16.8
         },
         "at_market_median": {
           "sell": 24.0,
@@ -1395,61 +1395,61 @@
           "margin_pct": 32.6
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
+        "market_median_usd": 19.8,
         "market_sample_n": 20,
         "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 2.5,
-          "margin_pct": 13.7
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 3.93,
+          "margin_pct": 19.9
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 86,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 6.23,
-        "shipping_order_usd": 6.23,
-        "tariff_usd": 0.22,
+        "weigh_needed": false,
+        "unit_cost_usd": 3.7,
+        "shipping_unit_usd": 7.73,
+        "shipping_order_usd": 7.73,
+        "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.71,
-        "landed_cost_ddu_usd": 7.93,
-        "landed_cost_ddp_usd": 7.71,
+        "landed_cost_usd": 11.43,
+        "landed_cost_ddu_usd": 11.99,
+        "landed_cost_ddp_usd": 11.43,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.33,
+        "breakeven_usd": 12.34,
         "at_2_2x": {
-          "sell": 3.26,
-          "fee": 0.24,
-          "profit": -4.69,
-          "margin_pct": -144.0
+          "sell": 8.15,
+          "fee": 0.6,
+          "profit": -3.88,
+          "margin_pct": -47.7
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 9.54,
-          "margin_pct": 51.2
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.15,
+          "margin_pct": 32.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 14.51,
-          "margin_pct": 60.5
+          "profit": 10.79,
+          "margin_pct": 45.0
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
+        "market_median_usd": 21.94,
+        "market_sample_n": 18,
         "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 4.32,
-          "margin_pct": 33.2
+          "sell": 21.94,
+          "fee": 1.62,
+          "profit": 8.89,
+          "margin_pct": 40.5
         }
       }
     ],
@@ -1481,10 +1481,10 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 9.68,
-          "margin_pct": 52.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.02,
+          "margin_pct": 52.7
         },
         "at_market_median": {
           "sell": 24.0,
@@ -1493,13 +1493,13 @@
           "margin_pct": 61.1
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.01,
+        "market_median_usd": 18.03,
         "market_sample_n": 20,
         "at_product_market": {
-          "sell": 19.01,
-          "fee": 1.41,
-          "profit": 10.04,
-          "margin_pct": 52.8
+          "sell": 18.03,
+          "fee": 1.33,
+          "profit": 9.13,
+          "margin_pct": 50.6
         }
       },
       {
@@ -1529,10 +1529,10 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 9.68,
-          "margin_pct": 52.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 10.02,
+          "margin_pct": 52.7
         },
         "at_market_median": {
           "sell": 24.0,
@@ -1551,51 +1551,51 @@
         }
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
         "shopify_score": 90,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.7,
-        "shipping_unit_usd": 5.35,
-        "shipping_order_usd": 10.7,
-        "tariff_usd": 0.56,
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.98,
+        "tariff_usd": 0.22,
         "duty_mode": "ddp",
-        "landed_cost_usd": 9.05,
-        "landed_cost_ddu_usd": 9.61,
-        "landed_cost_ddp_usd": 9.05,
+        "landed_cost_usd": 4.97,
+        "landed_cost_ddu_usd": 5.19,
+        "landed_cost_ddp_usd": 4.97,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 9.78,
+        "breakeven_usd": 5.37,
         "at_2_2x": {
-          "sell": 8.15,
-          "fee": 0.6,
-          "profit": -1.51,
-          "margin_pct": -18.5
+          "sell": 3.26,
+          "fee": 0.24,
+          "profit": -1.95,
+          "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 8.2,
-          "margin_pct": 44.0
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 12.61,
+          "margin_pct": 66.4
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 13.17,
-          "margin_pct": 54.9
+          "profit": 17.25,
+          "margin_pct": 71.9
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.99,
-        "market_sample_n": 15,
+        "market_median_usd": 13.0,
+        "market_sample_n": 20,
         "at_product_market": {
-          "sell": 18.99,
-          "fee": 1.41,
-          "profit": 8.53,
-          "margin_pct": 44.9
+          "sell": 13.0,
+          "fee": 0.96,
+          "profit": 7.07,
+          "margin_pct": 54.4
         }
       },
       {
@@ -1625,10 +1625,10 @@
           "margin_pct": -44.4
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 6.09,
-          "margin_pct": 32.7
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 6.42,
+          "margin_pct": 33.8
         },
         "at_market_median": {
           "sell": 24.0,
@@ -1637,61 +1637,61 @@
           "margin_pct": 46.1
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.25,
+        "market_median_usd": 19.8,
         "market_sample_n": 20,
         "at_product_market": {
-          "sell": 18.25,
-          "fee": 1.35,
-          "profit": 5.74,
-          "margin_pct": 31.4
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 7.17,
+          "margin_pct": 36.2
         }
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 86,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 1.48,
-        "shipping_unit_usd": 3.49,
-        "shipping_order_usd": 6.98,
-        "tariff_usd": 0.22,
+        "weigh_needed": false,
+        "unit_cost_usd": 3.7,
+        "shipping_unit_usd": 5.35,
+        "shipping_order_usd": 10.7,
+        "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 4.97,
-        "landed_cost_ddu_usd": 5.19,
-        "landed_cost_ddp_usd": 4.97,
+        "landed_cost_usd": 9.05,
+        "landed_cost_ddu_usd": 9.61,
+        "landed_cost_ddp_usd": 9.05,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.37,
+        "breakeven_usd": 9.78,
         "at_2_2x": {
-          "sell": 3.26,
-          "fee": 0.24,
-          "profit": -1.95,
-          "margin_pct": -59.9
+          "sell": 8.15,
+          "fee": 0.6,
+          "profit": -1.51,
+          "margin_pct": -18.5
         },
         "at_market_p25": {
-          "sell": 18.63,
-          "fee": 1.38,
-          "profit": 12.28,
-          "margin_pct": 65.9
+          "sell": 18.99,
+          "fee": 1.41,
+          "profit": 8.53,
+          "margin_pct": 44.9
         },
         "at_market_median": {
           "sell": 24.0,
           "fee": 1.78,
-          "profit": 17.25,
-          "margin_pct": 71.9
+          "profit": 13.17,
+          "margin_pct": 54.9
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.99,
-        "market_sample_n": 20,
+        "market_median_usd": 21.94,
+        "market_sample_n": 18,
         "at_product_market": {
-          "sell": 12.99,
-          "fee": 0.96,
-          "profit": 7.06,
-          "margin_pct": 54.3
+          "sell": 21.94,
+          "fee": 1.62,
+          "profit": 11.26,
+          "margin_pct": 51.3
         }
       }
     ]

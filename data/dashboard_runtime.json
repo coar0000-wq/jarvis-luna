@@ -1,121 +1,256 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-06T11:39:40.237382+09:00",
+  "generated_at": "2026-09-06T14:24:04.347185+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-09-06T02:39:24.591321+00:00",
-      "summary": "200개 상품 · 등급 S 7 / A 22 / B 21 / C 150",
-      "action": "직전 실행에서 35건 시도 중 15건 파싱 실패 (성공 20건)",
+      "when": "2026-09-06T05:23:19.239883+00:00",
+      "summary": "174개 상품 · 등급 S 5 / A 20 / B 21 / C 128",
+      "action": "직전 실행에서 35건 시도 중 15건 실패 (성공 20건)",
       "status": "ok",
+      "phase": "now",
+      "phase_label": "1단계 · 후보 선정",
       "color": "#15803d",
       "glyph": "box"
     },
     {
       "id": "institutions",
       "name": "기관 수집팀",
-      "when": "2026-09-06T02:16:49.676077+00:00",
+      "when": "2026-09-06T04:59:07.716227+00:00",
       "summary": "35곳 1,061건 · 미수집 12건 사유 기록",
       "action": null,
       "status": "ok",
+      "phase": "now",
+      "phase_label": "1단계 · 후보 선정",
       "color": "#2f7d6b",
       "glyph": "bank"
     },
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-06T11:39:24.825833+09:00",
-      "summary": "S등급 7개 · 고시표 입력 대기 1건 · 새 자료 187건",
-      "action": "다이소 상세페이지 고시 표 1건 캡처 필요",
+      "when": "2026-09-06T14:23:23.044444+09:00",
+      "summary": "S등급 5개 · 고시표 입력 대기 0건 · 새 자료 188건",
+      "action": null,
       "status": "ok",
+      "phase": "always",
+      "phase_label": "상시 · 시장 감시",
       "color": "#c2410c",
       "glyph": "chart"
     },
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-06T02:39:24.763366+00:00",
-      "summary": "등록 가능 5/7 · 카피 6 · 고시 6 · 가격 7 · 법률 5",
-      "action": "법률 2건, 카피 1건, 고시 1건 이 막고 있음",
+      "when": "2026-09-06T05:23:19.393632+00:00",
+      "summary": "등록 가능 5/5 · 카피 5 · 고시 5 · 가격 5 · 법률 5",
+      "action": null,
       "status": "ok",
+      "phase": "ready",
+      "phase_label": "2단계 · 가입 후 등록",
       "color": "#be185d",
       "glyph": "doc"
     },
     {
       "id": "pricing",
       "name": "가격 정책팀",
-      "when": "2026-09-06T02:39:24.657259+00:00",
-      "summary": "개당 배송비 $6.23~$10.70 · 무게 85~520g (이름추정 1 / 고시용량 6) · DDU/DDP 8개 · 새 자료 1건",
+      "when": "2026-09-06T05:23:19.297441+00:00",
+      "summary": "개당 배송비 $6.23~$10.70 · 무게 85~520g (고시용량 5) · DDU/DDP 4개 · 새 자료 1건",
       "action": null,
       "status": "ok",
+      "phase": "ready",
+      "phase_label": "2단계 · 가입 후 등록",
       "color": "#7c3aed",
       "glyph": "tag"
     },
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-06T02:39:24.710992+00:00",
-      "summary": "자동 점검 12건 · 통과 12 · 등록 차단 2 · 참고 주의 7 · 새 자료 26건",
+      "when": "2026-09-06T05:23:19.346293+00:00",
+      "summary": "자동 점검 12건 · 통과 12 · 등록 차단 2 · 참고 주의 7 · 수출서류 HS 12건 · 라벨 5/6항목 자동 · 새 자료 24건",
       "action": "차단 2건: 비프루브 마린 무기자차 마일드(SPF 표기 - 미국 OT), 싸이닉 파워옴므 워터리 선크림(SPF 표기 - 미국 OT) — 라벨 갖추기 전엔 못 올림",
       "status": "ok",
+      "phase": "ready",
+      "phase_label": "2단계 · 가입 후 등록",
       "color": "#b91c1c",
       "glyph": "scale"
     },
     {
       "id": "robotics",
       "name": "로보틱스 수집",
-      "when": "2026-09-06T02:15:38.979306+00:00",
-      "summary": "40건 · arxiv 0 / rss 40 · 새 자료 94건",
+      "when": "2026-09-06T04:58:11.154811+00:00",
+      "summary": "88건 · arxiv 48 / rss 40 · 새 자료 46건",
       "action": null,
       "status": "ok",
+      "phase": "now",
+      "phase_label": "1단계 · 지식",
       "color": "#1d4ed8",
       "glyph": "robot"
     },
     {
       "id": "design",
       "name": "디자인팀",
-      "when": "2026-09-06T02:16:56.323367+00:00",
-      "summary": "스토어 2/12단계 · 레퍼런스 85건 · 새 자료 186건",
+      "when": "2026-09-06T04:59:16.038799+00:00",
+      "summary": "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 21건 · 새 자료 169건",
       "action": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "status": "ok",
+      "phase": "ready",
+      "phase_label": "2단계 · 가입 후 등록",
       "color": "#0ea5e9",
       "glyph": "design"
     },
     {
       "id": "channels",
       "name": "채널 운영팀",
-      "when": "2026-09-06T02:39:38.518133+00:00",
+      "when": "2026-09-06T05:23:36.784283+00:00",
       "summary": "가동 11/12채널 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건",
       "action": null,
       "status": "ok",
+      "phase": "now",
+      "phase_label": "1단계 · 후보 선정",
       "color": "#0369a1",
       "glyph": "antenna"
     },
     {
       "id": "knowledge",
       "name": "지식 수집팀",
-      "when": "2026-09-06T02:17:00.836224+00:00",
-      "summary": "498건 · arXiv 10 / YouTube 180 / Google 300 / US뷰티 8",
-      "action": null,
+      "when": "2026-09-06T04:59:31.340606+00:00",
+      "summary": "456건 · arXiv 10 / YouTube 0 / Google 300 / US뷰티 146",
+      "action": "수집 실패: YouTube(youtube.com/robots.txt 가 /feeds/videos.xml 을 Disallow 한다. 규정을 지키려고 수집을 멈췄다.)",
       "status": "ok",
+      "phase": "now",
+      "phase_label": "1단계 · 후보 선정",
       "color": "#a16207",
       "glyph": "book"
     },
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-06T11:18:26.470625+09:00",
-      "summary": "33,818노트 · 145,649링크 · 끊어진 링크 0건 · 개인 노트 7,770건 별도",
+      "when": "2026-09-06T14:01:11.022840+09:00",
+      "summary": "36,244노트 · 155,524링크 · 끊어진 링크 0건 · 개인 노트 7,770건 별도",
       "action": null,
       "status": "ok",
+      "phase": "now",
+      "phase_label": "",
       "color": "#0f766e",
       "glyph": "graph"
     }
   ],
+  "phases": {
+    "now": {
+      "label": "1단계 · 지금 돌면서 후보를 좁힌다",
+      "teams": [
+        "sourcing",
+        "institutions",
+        "robotics",
+        "channels",
+        "knowledge",
+        "graph"
+      ]
+    },
+    "ready": {
+      "label": "2단계 · Shopify 가입하면 바로 등록으로 간다",
+      "teams": [
+        "listing",
+        "pricing",
+        "legal",
+        "design"
+      ]
+    },
+    "always": {
+      "label": "상시 · 시장이 바뀌면 1단계를 다시 돌린다",
+      "teams": [
+        "market"
+      ]
+    }
+  },
+  "errors": {
+    "generated_at": "2026-09-06T05:24:02.433399+00:00",
+    "total": 36,
+    "counts": {
+      "고장": 5,
+      "대기": 9,
+      "대체됨": 5,
+      "막힘": 13,
+      "보류": 4
+    },
+    "고쳐야_할_것": [
+      {
+        "team": "기관 수집팀",
+        "item": "Deutsche Bank 사이트",
+        "reason": "사이트맵 하위 파일에 URL 0건"
+      },
+      {
+        "team": "기관 수집팀",
+        "item": "TSMC 뉴스룸",
+        "reason": "HTTP 403"
+      },
+      {
+        "team": "기관 수집팀",
+        "item": "Marvell·Intel·Qualcomm·ASML IR RSS",
+        "reason": "IR 피드 URL 없음"
+      },
+      {
+        "team": "채널 운영팀",
+        "item": "FDA 화장품 리콜·조치 이력",
+        "reason": "요청 실패: HTTP 404"
+      },
+      {
+        "team": "상품 소싱팀",
+        "item": "파싱 실패 15건",
+        "reason": "사유가 기록되지 않은 옛 실행분. 다음 수집부터 사유가 남는다"
+      }
+    ],
+    "사람_대기": [
+      {
+        "team": "채널 운영팀",
+        "item": "amazon_best_sellers",
+        "fix": "CSV 에 상품 URL 열을 추가하면 해결된다"
+      },
+      {
+        "team": "채널 운영팀",
+        "item": "sephora",
+        "fix": "CSV 에 상품 URL 열을 추가하면 해결된다"
+      },
+      {
+        "team": "채널 운영팀",
+        "item": "ulta_beauty",
+        "fix": "CSV 에 상품 URL 열을 추가하면 해결된다"
+      },
+      {
+        "team": "채널 운영팀",
+        "item": "walmart_beauty",
+        "fix": "CSV 에 상품 URL 열을 추가하면 해결된다"
+      },
+      {
+        "team": "법률·규제팀",
+        "item": "책임자 이름·주소",
+        "fix": "한 번 알려주면 라벨과 정책 페이지 양쪽에 들어간다"
+      },
+      {
+        "team": "디자인팀",
+        "item": "Shopify 스토어 개설 (계정·도메인)",
+        "fix": ""
+      },
+      {
+        "team": "디자인팀",
+        "item": "브랜드명과 로고 확정",
+        "fix": ""
+      },
+      {
+        "team": "디자인팀",
+        "item": "정책 페이지의 회사명·주소·연락처 기입",
+        "fix": ""
+      },
+      {
+        "team": "디자인팀",
+        "item": "MoCRA 책임자 지정 (법률팀 라벨의 마지막 빈칸과 같은 값)",
+        "fix": ""
+      }
+    ]
+  },
   "team_summary": {
-    "corpus_records": 2347,
+    "corpus_records": 2432,
     "pipeline_done": 5,
     "pipeline_total": 5
   },
@@ -124,13 +259,13 @@
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "2347개 코퍼스 레코드"
+      "detail": "2432개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "33818개 노트 · 145649개 링크 · 끊어진 링크 0개 · 개인 노트 7770개 별도"
+      "detail": "36244개 노트 · 155524개 링크 · 끊어진 링크 0개 · 개인 노트 7770개 별도"
     },
     {
       "id": "dashboard",
@@ -142,7 +277,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "2347건 · 3 experts · 정확도 86.92%"
+      "detail": "2432건 · 3 experts · 정확도 87.29%"
     },
     {
       "id": "publish",
@@ -153,58 +288,58 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 2347,
+    "record_count": 2432,
     "source_counts": {},
-    "updated_at": "2026-09-06T11:17:06.000371+09:00"
+    "updated_at": "2026-09-06T13:59:32.626500+09:00"
   },
   "graph": {
-    "notes": 33818,
-    "links": 145649,
+    "notes": 36244,
+    "links": 155524,
     "dangling_links": 0,
     "dangling_personal": 7770,
     "dangling_personal_note": "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다.",
-    "records": 33280,
+    "records": 35706,
     "sources": 6,
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-06T11:18:26.470625+09:00"
+    "last_generated": "2026-09-06T14:01:11.022840+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 2347,
+    "records": 2432,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.8691947166595654,
-    "validation_accuracy": 0.8741418764302059,
-    "final_loss": 0.4099616507560573,
-    "gate_load_std": 0.23605718931902733,
+    "accuracy": 0.8729440789473685,
+    "validation_accuracy": 0.8791208791208791,
+    "final_loss": 0.4025249065764231,
+    "gate_load_std": 0.23355903769372088,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-06T02:39:07.727575+00:00"
+    "updated_at": "2026-09-06T05:22:49.518654+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 2347,
-      "notes": 33818,
-      "links": 145649
+      "records": 2432,
+      "notes": 36244,
+      "links": 155524
     },
     "prior_totals": {
-      "records": 2346,
-      "notes": 32416,
-      "links": 140453
-    },
-    "added_this_run": {
-      "records": 1,
-      "notes": 1402,
-      "links": 5196
-    },
-    "current_snapshot": {
       "records": 2347,
       "notes": 33818,
       "links": 145649
+    },
+    "added_this_run": {
+      "records": 85,
+      "notes": 2426,
+      "links": 9875
+    },
+    "current_snapshot": {
+      "records": 2432,
+      "notes": 36244,
+      "links": 155524
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -635,7 +770,7 @@
         "badge": "$39.99",
         "rank": 7,
         "rating": 4.8,
-        "review_count": 15293,
+        "review_count": 15294,
         "url": "https://us.oliveyoung.com/products/UA32407466"
       },
       {
@@ -727,8 +862,8 @@
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5"
       },
       {
-        "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
-        "product": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
+        "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - wral.com",
+        "product": "Consumer Reports puts K-Beauty sunscreens to the test - wral.com",
         "sub": "K-beauty",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhPYk45c2xzWEw3Mmx2akplQWJZS1F1SnJSbnZJV3RmV0hLTktMUnl4cDBQak5jdDQ0LWlUWWtGODZSbkFfU0Q3MDZ0S0FtVFNDSjUyaldtU0l6WjhiZXpjN1MxVjdRNGVXeEUyZkNqY29aeXBqckFYYWxTYkF4TkpFVUFsZjFRMk9EU1N3?oc=5"
@@ -755,8 +890,8 @@
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0ZibUpBTHd0ejZVOXVzTEhuQWNMVE1VblM4NUhVTWt4dmtkbW9wbnVxY0JOY1NpMEEwY2drcjZyb0dlLVRZZ1FIbUxMWkR4RVJzRlVTMDRFcHJuN2dEUDJpX1dlY0xYYXM4ajQ0dVUyN3F3MjA3a1ZlZklnSlhaTW1wcHJTUE5ncTlUZ1Axa003c1dWdE0ybg?oc=5"
       },
       {
-        "keyword": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
-        "product": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
+        "keyword": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - forbes.com",
+        "product": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - forbes.com",
         "sub": "K-beauty",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXkzOEhOM0k2RV9QV1hUbWlZSDhQZ2dGbWVZNHp6XzM3dWtvVTU5OTlJa3NROGF6R0ZjUlg0eHp5WTFUUmUzdElxSE9iX1JVTDV1cUdHeHBrVTVFLXRyTWVGWGVLWVdaOWQwMjVKSVVPbmxBRlhDOFp2cmRnd3JITUFibWR6UF8xSFo5aFlqem5hR2phaU5qdmx0SXJtdjJzZFA2ZmNFbTV0R0g0ZmNqMGYzZnI?oc=5"
@@ -769,13 +904,6 @@
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd0Uya3ZtVk5MdkdiNjN1aFZ1MVN2M3NaUHhhQnhMQl9SYXJzZUtaeHlFSlRZRENwWmEyX3h2d2szZ2ZJVWpNUkZBTDBuenJ0TWZCR21ONFROcjdLZlZRMkFkTWszOUJ5SUxFSUNKN2JSR1RkcDg4amI1Z0VsbVhYMTViTDFhMFQxVnZqQU5rNXFiNzVla1FXbFpsRENDZw?oc=5"
       },
       {
-        "keyword": "I tested the Korean sunscreen that’s been made for oily skin - AOL.com",
-        "product": "I tested the Korean sunscreen that’s been made for oily skin - AOL.com",
-        "sub": "Korean sunscreen",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVkVwMkZ5VjhQOG94aFU0X1J2MnJubWoyd2RpYW9KTjNvSWwxU05CMGRSNWpPRlFFczNQRjdWcWliYlhiWHRYdC1IQ0dxR1JOaGxTZjFGQS0xUjlIdnhrUy1WdFVfOVg1S3MwQWpuTWdPWHVMbDJLcUphSlJLcW11R3FVbw?oc=5"
-      },
-      {
         "keyword": "US and Korean sunscreens are not created equal, study says - WTOP News",
         "product": "US and Korean sunscreens are not created equal, study says - WTOP News",
         "sub": "Korean sunscreen",
@@ -783,11 +911,25 @@
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnpvNUR0bm0tV2E0M183TDZLUVUwal9NRHduZ21ULUtPZFl2SnFoVS1WVFVZTjJtZjFfX1R5Um1Lajk0TXZzbnVpbkdpMXdMbno4dHo0Y3g4R3lYbV9rRkcyY0VsSjRVSFFPWVV5cTNNWG0tVC0zZ0tER251cDRCM3A0ZEJnNTBjWjBrYnp2dHRHSXd2UkNMckJqQ1JmUmFkX1RCeElDdmtzMGJ4X3V6SjJYbTQyUlNvazMycGw4b2k4aG44YkdN?oc=5"
       },
       {
+        "keyword": "I tested the Korean sunscreen that’s been made for oily skin - AOL.com",
+        "product": "I tested the Korean sunscreen that’s been made for oily skin - AOL.com",
+        "sub": "Korean sunscreen",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVkVwMkZ5VjhQOG94aFU0X1J2MnJubWoyd2RpYW9KTjNvSWwxU05CMGRSNWpPRlFFczNQRjdWcWliYlhiWHRYdC1IQ0dxR1JOaGxTZjFGQS0xUjlIdnhrUy1WdFVfOVg1S3MwQWpuTWdPWHVMbDJLcUphSlJLcW11R3FVbw?oc=5"
+      },
+      {
         "keyword": "I tested the Korean sunscreen that’s been made for oily skin - The Independent",
         "product": "I tested the Korean sunscreen that’s been made for oily skin - The Independent",
         "sub": "Korean sunscreen",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPb0lOdHZNZlhpMGRsWTN1Q3FtUjlpREItRmxRQVRET1RoT2VhOW1naEE5c2RfWXBWUEVmaEo4ZXFqSVhJbXd2Tk8xQ1VPTUxpYVktc0dUMEVEUFpJU0JHR3YtbzNBcUJqTlpnaEs0aGhUblZNMGNHeVZVeHE5eEZsZW9ralNEYTVBY0MyWE9vY2FxZnJyR3JqS0RRekxoUGM1ZUc3Y01RcWIybG9BbFE0aGV4d3l6ZHdYYXY0OVRDZXBSRmxzNFd2bA?oc=5"
+      },
+      {
+        "keyword": "Is Korean sunscreen worth the hype? - WAFB",
+        "product": "Is Korean sunscreen worth the hype? - WAFB",
+        "sub": "Korean sunscreen",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjenlzd2RLQUd1RWtfc0V4dlZIeldiM3FfOTJ4S08wdmplNUdTVUZrUXhrU25oOVpTeVFPSGgxYXpBNWpIbTVQSlRHQlV6MW4wVkNHTzhSQlYtSmJrQmQ1bkRCc3dMOUF0OUpyZlRNQnhvMXdmMFprTQ?oc=5"
       },
       {
         "keyword": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
@@ -809,13 +951,6 @@
         "sub": "Korean sunscreen",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZHBXQzBDZ2dGRHdEeXdtSXk5NkpMbW5vZzYzdGVWWVk1RllId3RCaUtPVnRIUVVEME84QmUzYTRBcGt5SE9rd3VpU0NZcWhBak1tMjVNR2lPd050RUdwaUJQbHB6TU81UDVmejBkVElrcnFKdnY1UHZ6SjVOMmtCNjNod3AtYm5Qb3c?oc=5"
-      },
-      {
-        "keyword": "11 Of The Best Clear Sunscreens For Black & Brown Skin - coveteur.com",
-        "product": "11 Of The Best Clear Sunscreens For Black & Brown Skin - coveteur.com",
-        "sub": "Korean sunscreen",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZTWU0R2c2bXdNckV1N29mSDJWb201UGxUT2ZOajNjZ0oyRkJHTWVQdzdSME5YT0M2M0g2YXFrSnZGZWk3Mmx2S3VkVUx3bk9jMVV5dQ?oc=5"
       }
     ],
     "wikipedia_interest": [
@@ -1472,7 +1607,7 @@
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "2026-09-06T02:17:43.422163+00:00",
+      "collected_at": "2026-09-06T04:59:52.812133+00:00",
       "count": 15,
       "trust": "verified"
     },
@@ -1480,7 +1615,7 @@
       "status": "ok",
       "source": "google news rss (beauty queries) + trends daily filtered",
       "reason": "",
-      "collected_at": "2026-09-06T02:18:21.933638+00:00",
+      "collected_at": "2026-09-06T05:01:00.823748+00:00",
       "count": 15,
       "trust": "verified"
     },
@@ -1488,7 +1623,7 @@
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-06T00:57:01.875799+00:00",
+      "collected_at": "2026-09-06T02:39:24.511981+00:00",
       "count": 8,
       "trust": "verified",
       "note": "2026-08-06 ~ 2026-09-04 일별 조회수. 후반 15일 대비 전반 15일 증감률"
@@ -1497,7 +1632,7 @@
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-06T00:57:01.875799+00:00",
+      "collected_at": "2026-09-06T02:39:24.511981+00:00",
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용."
@@ -1506,7 +1641,7 @@
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-06T00:57:01.875799+00:00",
+      "collected_at": "2026-09-06T02:39:24.511981+00:00",
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다."
@@ -1551,7 +1686,7 @@
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-06T02:17:42.725412+00:00",
+      "collected_at": "2026-09-06T04:59:52.393316+00:00",
       "count": 15,
       "trust": "verified"
     }
@@ -1562,5 +1697,5 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-06"
   },
-  "last_synced": "09. 06. 오전 11:39 KST"
+  "last_synced": "09. 06. 오후 02:22 KST"
 }

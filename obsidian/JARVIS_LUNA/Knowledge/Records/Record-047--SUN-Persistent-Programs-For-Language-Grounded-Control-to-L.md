@@ -1,0 +1,21 @@
+---
+title: "Record 047 · SUN-Persistent-Programs-For-Language-Grounded-Control-to-Learning-to-R"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-06T05:01:10.273307+00:00
+tags: [record, real-data]
+---
+
+# Record 047 · SUN-Persistent-Programs-For-Language-Grounded-Control-to-Learning-to-R
+
+> 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.31167v1)
+
+**제목:** SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies
+
+SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies
+
+**출처:** Source · arXiv
+
+## Connected nodes
+
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

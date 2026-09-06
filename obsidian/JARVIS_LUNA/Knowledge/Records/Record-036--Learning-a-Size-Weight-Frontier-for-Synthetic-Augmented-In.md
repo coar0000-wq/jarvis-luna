@@ -1,0 +1,21 @@
+---
+title: "Record 036 · Learning-a-Size-Weight-Frontier-for-Synthetic-Augmented-Inference"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-06T05:01:10.270877+00:00
+tags: [record, real-data]
+---
+
+# Record 036 · Learning-a-Size-Weight-Frontier-for-Synthetic-Augmented-Inference
+
+> 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.28576v1)
+
+**제목:** Learning a Size-Weight Frontier for Synthetic-Augmented Inference
+
+Learning a Size-Weight Frontier for Synthetic-Augmented Inference
+
+**출처:** Source · arXiv
+
+## Connected nodes
+
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

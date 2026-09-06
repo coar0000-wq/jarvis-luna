@@ -1,6 +1,6 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-06T02:18:21.933638+00:00",
+  "collected_at": "2026-09-06T05:01:00.823748+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
@@ -25,8 +25,8 @@
       "beauty": true
     },
     {
-      "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
-      "product": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
+      "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - wral.com",
+      "product": "Consumer Reports puts K-Beauty sunscreens to the test - wral.com",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhPYk45c2xzWEw3Mmx2akplQWJZS1F1SnJSbnZJV3RmV0hLTktMUnl4cDBQak5jdDQ0LWlUWWtGODZSbkFfU0Q3MDZ0S0FtVFNDSjUyaldtU0l6WjhiZXpjN1MxVjdRNGVXeEUyZkNqY29aeXBqckFYYWxTYkF4TkpFVUFsZjFRMk9EU1N3?oc=5",
@@ -61,8 +61,8 @@
       "beauty": true
     },
     {
-      "keyword": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
-      "product": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
+      "keyword": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - forbes.com",
+      "product": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - forbes.com",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXkzOEhOM0k2RV9QV1hUbWlZSDhQZ2dGbWVZNHp6XzM3dWtvVTU5OTlJa3NROGF6R0ZjUlg0eHp5WTFUUmUzdElxSE9iX1JVTDV1cUdHeHBrVTVFLXRyTWVGWGVLWVdaOWQwMjVKSVVPbmxBRlhDOFp2cmRnd3JITUFibWR6UF8xSFo5aFlqem5hR2phaU5qdmx0SXJtdjJzZFA2ZmNFbTV0R0g0ZmNqMGYzZnI?oc=5",
@@ -79,15 +79,6 @@
       "beauty": true
     },
     {
-      "keyword": "I tested the Korean sunscreen that’s been made for oily skin - AOL.com",
-      "product": "I tested the Korean sunscreen that’s been made for oily skin - AOL.com",
-      "sub": "Korean sunscreen",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVkVwMkZ5VjhQOG94aFU0X1J2MnJubWoyd2RpYW9KTjNvSWwxU05CMGRSNWpPRlFFczNQRjdWcWliYlhiWHRYdC1IQ0dxR1JOaGxTZjFGQS0xUjlIdnhrUy1WdFVfOVg1S3MwQWpuTWdPWHVMbDJLcUphSlJLcW11R3FVbw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "US and Korean sunscreens are not created equal, study says - WTOP News",
       "product": "US and Korean sunscreens are not created equal, study says - WTOP News",
       "sub": "Korean sunscreen",
@@ -97,11 +88,29 @@
       "beauty": true
     },
     {
+      "keyword": "I tested the Korean sunscreen that’s been made for oily skin - AOL.com",
+      "product": "I tested the Korean sunscreen that’s been made for oily skin - AOL.com",
+      "sub": "Korean sunscreen",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVkVwMkZ5VjhQOG94aFU0X1J2MnJubWoyd2RpYW9KTjNvSWwxU05CMGRSNWpPRlFFczNQRjdWcWliYlhiWHRYdC1IQ0dxR1JOaGxTZjFGQS0xUjlIdnhrUy1WdFVfOVg1S3MwQWpuTWdPWHVMbDJLcUphSlJLcW11R3FVbw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
       "keyword": "I tested the Korean sunscreen that’s been made for oily skin - The Independent",
       "product": "I tested the Korean sunscreen that’s been made for oily skin - The Independent",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPb0lOdHZNZlhpMGRsWTN1Q3FtUjlpREItRmxRQVRET1RoT2VhOW1naEE5c2RfWXBWUEVmaEo4ZXFqSVhJbXd2Tk8xQ1VPTUxpYVktc0dUMEVEUFpJU0JHR3YtbzNBcUJqTlpnaEs0aGhUblZNMGNHeVZVeHE5eEZsZW9ralNEYTVBY0MyWE9vY2FxZnJyR3JqS0RRekxoUGM1ZUc3Y01RcWIybG9BbFE0aGV4d3l6ZHdYYXY0OVRDZXBSRmxzNFd2bA?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Is Korean sunscreen worth the hype? - WAFB",
+      "product": "Is Korean sunscreen worth the hype? - WAFB",
+      "sub": "Korean sunscreen",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjenlzd2RLQUd1RWtfc0V4dlZIeldiM3FfOTJ4S08wdmplNUdTVUZrUXhrU25oOVpTeVFPSGgxYXpBNWpIbTVQSlRHQlV6MW4wVkNHTzhSQlYtSmJrQmQ1bkRCc3dMOUF0OUpyZlRNQnhvMXdmMFprTQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -133,17 +142,8 @@
       "beauty": true
     },
     {
-      "keyword": "11 Of The Best Clear Sunscreens For Black & Brown Skin - coveteur.com",
-      "product": "11 Of The Best Clear Sunscreens For Black & Brown Skin - coveteur.com",
-      "sub": "Korean sunscreen",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZTWU0R2c2bXdNckV1N29mSDJWb201UGxUT2ZOajNjZ0oyRkJHTWVQdzdSME5YT0M2M0g2YXFrSnZGZWk3Mmx2S3VkVUx3bk9jMVV5dQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com",
-      "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com",
+      "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
+      "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FajN1UnhmQjViQ0dWVW45QVF1blJPRnBKZUltUWRyRjVDcHFVVTBiVUpkQTZlZHNYbEFmSUFtVTRWT0Q2X3o4R3R0YXhyYUJhbHV6dVln?oc=5",
@@ -151,8 +151,8 @@
       "beauty": true
     },
     {
-      "keyword": "Snail slime for your face? - cnn.com",
-      "product": "Snail slime for your face? - cnn.com",
+      "keyword": "Snail slime for your face? - CNN",
+      "product": "Snail slime for your face? - CNN",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0l4Szg4MWtxM2RLY0MzSHpBYkRHQVdCSEc1b29TNFdrUzA4QmZoNldsRnctNXRFNVNQVWowMEdXdzJ2T244SGRGSnF2cVVhUHFuZnZuS1U2NVVCQ1BPTVRoelJqcUZZZnNEVEU0a3hlZ2JuaGJ5TFhBZjJSOFowaVlPMW5IZkZnbC1zYmdTb1dVSFZscmhLaFJGRXI3Wmc?oc=5",
@@ -196,8 +196,8 @@
       "beauty": true
     },
     {
-      "keyword": "You can get the CosRx Snail Mucin Essence for 50% off right now — but only for today - nbcnews.com",
-      "product": "You can get the CosRx Snail Mucin Essence for 50% off right now — but only for today - nbcnews.com",
+      "keyword": "You can get the CosRx Snail Mucin Essence for 50% off right now — but only for today - NBC News",
+      "product": "You can get the CosRx Snail Mucin Essence for 50% off right now — but only for today - NBC News",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY2RSUTR6S01JaE5WeEhQc3UzaFdSYm9MckxYczJ2TW9EVlV3a0xPbXRWTUVZSE1sNFlPYUlmWWRwbUl2a0pyYVl3c0JKcEc1cHMyOG5NZEY0NHNSaXVpdDVLd2hCQmRGeG1sRGFqYnVuYld1ZkhWMFFpeFRFSS1zLUt5RFRtZVNhb2VxQ1pPOWtBVW9h?oc=5",
@@ -241,8 +241,8 @@
       "beauty": true
     },
     {
-      "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com",
-      "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com",
+      "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
+      "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LemdVMDM3Q3hoem1Xa013a0JQMVdWd0UxSDZpdjc4T3BmT29PMWJZZTltMl9lQkhRM1NzckFMbnBiMlIycWxqZXhrQ3lCeU1YNzFEcnpPQkRpeDQ?oc=5",
@@ -304,6 +304,15 @@
       "beauty": true
     },
     {
+      "keyword": "What Is Centella Asiatica and How Does It Benefit Your Skin? - Verywell Health",
+      "product": "What Is Centella Asiatica and How Does It Benefit Your Skin? - Verywell Health",
+      "sub": "centella serum",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TVzNFUVRuUEgxRXhKcUNZaFRWOThHeUhuX29CRTZUYVhJS1gtNVM3dUFodzROUU9YWjQyWVNydS1XNUdFdlpvbUliYy1MSWtNTTN3TzdpWFVlU0c2WTZkVjRPUlBfeUU?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
       "keyword": "This ‘amazing’ $16 serum belongs in your skincare routine, per Amazon shoppers - New York Post",
       "product": "This ‘amazing’ $16 serum belongs in your skincare routine, per Amazon shoppers - New York Post",
       "sub": "centella serum",
@@ -313,8 +322,8 @@
       "beauty": true
     },
     {
-      "keyword": "Should You Use Centella Asiatica? 5 Benefits - Health.com",
-      "product": "Should You Use Centella Asiatica? 5 Benefits - Health.com",
+      "keyword": "Should You Use Centella Asiatica? 5 Benefits - health.com",
+      "product": "Should You Use Centella Asiatica? 5 Benefits - health.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV1FGamp5TUY2bzdhcXhiTkpLQmwyZHIxOE9ITnZNcnFWemt2TzdXU09taVV0RmFReUZCUFE2YjNNa2RlVXVMR1E5SEh2eTV6Wk5HalUyaVdfN2JQQXZKZmV4alpHSVNXTXhRMFptYVM5amd3X3pRdThCYlROa18tWjRMTQ?oc=5",
@@ -345,15 +354,6 @@
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQS3NBQ0pya1FORlNaLXJBT216ejlHem55MnVkSFE1MThZWWtvdTBVek8zU2JxYVIzdlREWDhWcUU1b2NkOUpjM3hIaWk3akFxNndzMm9GRkVGaDJZQ2Jrb1MyWXBkSnB2cnJ0SHNnWmx3TExmeTctVnpnQWl1YWFYTHhnZUloWGVzT2NOZENreGFjdlVzVzJabmVOdHlpZEJKV0p3ZThieE1Gd0RaWEVONzI3bTlMeGM0YnZyM1p0aXk5UTREdnVvWkxKQ2lNdWRjRzR30gHYAUFVX3lxTFBLVlRaRExMTVdsY0wtQk5Zb3hTQUxMT1hmSlhTZ3gtblBzaFNKY1RqMDJsVER5bThnN2xZYlhvNWJxOXJCRmtpdFhRcGhaT2tlanRwQ2VxZnlCVHVsZlNfb1hyQkR2VUQwUUVudFlWTWF3YXVtYTZ2WWtpaDNFQ0tnQzJnMmIxZG5MSF9qMjZMZklrcTh4TF8zWlBPNWJ2S1cwYUNiTFBsWTctTElTMEduV1o4QXZTR3pWT1lPeHRTc3lHaTlJZm5pazFmWlBZS0RHdzlNVUJ2cQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com",
-      "product": "Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com",
-      "sub": "centella serum",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRkRkQi1TY3h2YmlWZlEzSlRKNV9lMXNXSDdBQ2RBVHBmb0NCcThJa1Q1MkNsbVVISHhZSUNyU3BncGxQQndHbDk5cnJwbFhXVHBKa2tPQXJ1WlBFRzFrbnR5NXU1ek9GYUVOcUlVTHROZTZscjFJVUlmR1had2JockFNUWIxUQ?oc=5",
       "kind": "news",
       "beauty": true
     },
