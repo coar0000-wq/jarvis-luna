@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-06T11:31:18.201370+00:00",
+  "generated_at": "2026-09-06T11:35:10.242435+00:00",
   "generator": "scripts/ingest_youtube_links.py",
   "입력": "data/manual/youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
-  "total": 5,
-  "ok": 5,
+  "total": 6,
+  "ok": 6,
   "failed": 0,
   "fetched_this_run": 1,
   "bad_lines": [],
   "by_team": {
-    "listing": 3,
+    "listing": 4,
     "pricing": 1,
-    "market": 2,
+    "market": 3,
     "knowledge": 1,
-    "design": 1
+    "design": 2
   },
   "videos": [
     {
@@ -107,6 +107,26 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:31:15.198234+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "k520NhbFhIE",
+      "url": "https://www.youtube.com/watch?v=k520NhbFhIE",
+      "note": "The Futur 크리스 두 - 가격 경쟁을 벗어나는 포지셔닝. Liquid Death 등 5개 브랜드 해부",
+      "title": "The Psychology of Making People Buy",
+      "channel": "The Futur",
+      "views": 88870,
+      "length_sec": 1451,
+      "published": "",
+      "description": "Most brands fight for attention by competing on price, features, and quality.\n\nBut cult brands create demand differently.\n\nIn this video, @ChrisDo  breaks down the marketing psychology behind brands like Liquid Death, Dude Wipes, Method Soap, Honda motorcycles, and Better Call Saul’s infamous phone-selling scene.\n\nThe lesson is simple: people don’t just buy products. They buy meaning, identity, status, fear, privacy, belonging, and desire.\n\nThis is the psychology of making people buy — not through manipulation, but through positioning.\n\nYou’ll learn how smart brands create their own lane, esca",
+      "error": "",
+      "teams": [
+        "market",
+        "listing",
+        "design"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-06T11:35:07.239307+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
     }
   ]

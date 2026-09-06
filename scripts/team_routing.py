@@ -27,10 +27,17 @@
   '패키지' 도 '패키지디자인' 으로 좁혔다. 강의를 파는 채널의
   '동행패키지' 가 디자인팀으로 걸려 들어왔다.
 
+  영어 낱말은 단어 경계를 본다. 'ui' 를 그냥 넣었더니 Liquid Death 를
+  다루는 영상이 디자인팀으로 갔다. liq'ui'd 안에 들어 있었던 것이다.
+  build, guide, quick 도 전부 걸린다. 한글은 조사가 붙어 다녀서
+  경계를 못 쓴다. '브랜딩을' 을 놓치면 안 되니 그대로 포함으로 본다.
+
   반대로 브이로그와 호캉스는 아무 팀도 아니다. 제목에 '브랜드' 가
   섞여 있어도 팀으로 보내면 안 된다. 따로 걸러낸다.
 """
 from __future__ import annotations
+
+import re
 
 # 팀별 낱말. 영어와 한글을 함께 둔다.
 TEAM_TERMS: dict[str, list[str]] = {
@@ -75,6 +82,23 @@ NOISE_TERMS = ("브이로그", "vlog", "호캉스", "먹방")
 KNOWN_TEAMS = set(TEAM_TERMS) | {"knowledge"}
 
 
+def _matcher(term: str):
+    """낱말 하나를 어떻게 찾을지 정한다.
+
+    영어는 단어 경계를 붙인다. 안 그러면 두세 글자짜리가 남의 단어
+    속에 박힌다. 한글은 조사와 붙어 다녀서 경계를 쓰면 다 놓친다.
+    """
+    if term.isascii():
+        pat = re.compile(r"\b" + re.escape(term) + r"\b")
+        return lambda low: bool(pat.search(low))
+    return lambda low: term in low
+
+
+_TEAM_MATCHERS = {t: [_matcher(k) for k in terms]
+                  for t, terms in TEAM_TERMS.items()}
+_NOISE_MATCHERS = [_matcher(n) for n in NOISE_TERMS]
+
+
 def route(text: str, forced: list[str] | str | None = None) -> list[str]:
     """제목(과 설명)을 보고 팀을 고른다.
 
@@ -84,7 +108,7 @@ def route(text: str, forced: list[str] | str | None = None) -> list[str]:
     if forced:
         return [forced] if isinstance(forced, str) else list(forced)
     low = (text or "").lower()
-    if any(n in low for n in NOISE_TERMS):
+    if any(m(low) for m in _NOISE_MATCHERS):
         return ["knowledge"]
-    hit = [t for t, terms in TEAM_TERMS.items() if any(k in low for k in terms)]
+    hit = [t for t, ms in _TEAM_MATCHERS.items() if any(m(low) for m in ms)]
     return hit or ["knowledge"]

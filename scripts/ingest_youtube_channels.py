@@ -152,6 +152,33 @@ def route(title: str, forced: str) -> list[str]:
     return route_teams(title, forced or None)
 
 
+def prev_channels() -> dict:
+    """지난 회차 채널 결과를 URL 로 꺼내온다."""
+    old = load(OUT) or {}
+    return {c.get("url"): c for c in (old.get("items") or []) if c.get("url")}
+
+
+def prev_teams() -> dict:
+    """지난 회차에 정한 팀을 영상 번호로 꺼내온다.
+
+    유튜브가 제목을 A/B 로 돌린다. 같은 영상인데 회차마다 제목이 다르다.
+    실제로 CSr4DYGUPOM 이 '브랜딩 잘하는 인스타 채널 큐레이션' 과
+    '인스타그램 잘하고 싶다면 이 계정부터 보세요' 사이를 오갔고,
+    그때마다 디자인팀에 들어왔다 빠졌다 했다.
+
+    한 번 정한 팀은 그대로 둔다. 제목이 흔들린다고 자료가 옮겨
+    다니면 팀에서 어제 본 것을 오늘 못 찾는다.
+    """
+    old = load(OUT) or {}
+    out = {}
+    for c in old.get("items") or []:
+        for v in c.get("videos") or []:
+            if v.get("video_id") and v.get("teams"):
+                out[v["video_id"]] = {"teams": v["teams"],
+                                      "title": v.get("title", "")}
+    return out
+
+
 def main() -> int:
     if not LIST.exists():
         LIST.parent.mkdir(parents=True, exist_ok=True)
@@ -178,6 +205,9 @@ def main() -> int:
                         "team": parts[1] if len(parts) > 1 else "",
                         "note": parts[2] if len(parts) > 2 else ""})
 
+    pinned = prev_teams()
+    before = prev_channels()
+    retitled = []
     channels, all_videos = [], []
     for e in entries:
         base = e["url"].split("/videos")[0]
@@ -191,7 +221,16 @@ def main() -> int:
 
         vids = []
         for v in info.get("videos") or []:
-            teams = route(v["title"], e["team"])
+            was = pinned.get(v["video_id"])
+            if was and not e["team"]:
+                teams = was["teams"]
+                if was["title"] and was["title"] != v["title"]:
+                    retitled.append({"video_id": v["video_id"],
+                                     "before": was["title"],
+                                     "after": v["title"],
+                                     "kept_teams": teams})
+            else:
+                teams = route(v["title"], e["team"])
             vids.append({
                 **v,
                 "views": views_to_int(v.get("views_text", "")),
@@ -199,8 +238,26 @@ def main() -> int:
                 "channel": info.get("channel_name") or base.rsplit("/", 1)[-1],
                 "teams": teams,
             })
-        all_videos.extend(vids)
+        # 받기에 실패했는데 지난 회차 것이 있으면 그걸 유지한다.
+        # 예전에는 실패하면 그 채널 영상이 통째로 사라졌다. 한 번 끊긴
+        # 것 때문에 20건이 날아가고 집계가 반토막 났다.
+        # 지난 것임을 감추지 않으려고 stale 과 last_ok_at 을 함께 적는다.
+        was = before.get(base)
+        stale, last_ok = False, ""
+        if not vids and was and (was.get("videos") or []):
+            vids = was["videos"]
+            all_videos.extend(vids)
+            stale = True
+            last_ok = was.get("last_ok_at") or was.get("checked_at", "")
+            info = {**info, "channel_name": was.get("channel_name", ""),
+                    "channel_id": was.get("channel_id", ""),
+                    "subscribers": was.get("subscribers", ""),
+                    "error": info.get("error", "") + " (지난 회차 결과 유지)"}
+        else:
+            all_videos.extend(vids)
+            last_ok = datetime.now(timezone.utc).isoformat()
         channels.append({
+            "stale": stale, "last_ok_at": last_ok,
             "url": base, "note": e["note"], "team_hint": e["team"],
             "channel_name": info.get("channel_name", ""),
             "channel_id": info.get("channel_id", ""),
@@ -218,7 +275,8 @@ def main() -> int:
             by_team[t] = by_team.get(t, 0) + 1
     top = sorted((v for v in all_videos if v.get("views")),
                  key=lambda x: -x["views"])[:15]
-    failed = [c for c in channels if c["error"]]
+    failed = [c for c in channels if c["error"] and not c.get("stale")]
+    kept = [c for c in channels if c.get("stale")]
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -230,7 +288,12 @@ def main() -> int:
         "channels": len(channels),
         "videos": len(all_videos),
         "failed": failed,
+        "지난결과_유지": [{"url": c["url"], "last_ok_at": c["last_ok_at"],
+                     "videos": c["video_count"]} for c in kept],
         "by_team": by_team,
+        "팀_고정": ("한 번 정한 팀은 유지한다. 유튜브가 제목을 A/B 로 돌려서 "
+                 "같은 영상이 회차마다 다른 팀으로 가는 일이 있었다."),
+        "제목_바뀐_영상": retitled,
         "top_by_views": top,
         "items": channels,
     }
@@ -247,10 +310,16 @@ def main() -> int:
         print("기록 검증 실패", file=sys.stderr)
         return 1
 
-    print(f"채널 {len(channels)}개 · 영상 {len(all_videos)}건 · 실패 {len(failed)}")
+    print(f"채널 {len(channels)}개 · 영상 {len(all_videos)}건 · 실패 {len(failed)}"
+          + (f" · 제목 바뀜 {len(retitled)}건(팀 유지)" if retitled else "")
+          + (f" · 지난 결과 유지 {len(kept)}개 채널" if kept else ""))
     for c in channels:
-        if c["error"]:
+        if c["error"] and not c.get("stale"):
             print(f"  실패 {c['url']} — {c['error']}")
+            continue
+        if c.get("stale"):
+            print(f"  유지 {c['channel_name']} · {c['video_count']}건 "
+                  f"(마지막 성공 {c['last_ok_at'][:16]}) — {c['error']}")
             continue
         print(f"  {c['channel_name']} ({c['subscribers']}) · {c['video_count']}건"
               f"{' · ' + c['note'] if c['note'] else ''}")
