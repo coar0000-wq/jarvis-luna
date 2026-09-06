@@ -2,7 +2,7 @@
 title: "Record 1141 · This-60-K-beauty-kit-is-the-easiest-way-to-build-an-entire-8-step-skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.035455+00:00
+updated_at: 2026-09-06T20:45:29.063591+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMic0FVX3lxTE9CRUhpMWQ5TkZld196MlVISE1rdTJWY1FvUlVNT2hSTGN4SEs0Q1p6WmNYM0FsSjd5QW9WT2RxSTJ6aEFjc2ZLLXpFR0pKUDZBZm9nN1RGT3BkaUFKTmpNQ0NYVUJTbVg3QzAwbHFCd3RCOTQ?oc=5)
 
-**제목:** This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - Yahoo Life UK
+**제목:** This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - uk.style.yahoo.com
 
-This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - Yahoo Life UK
+This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - uk.style.yahoo.com
 
 **출처:** Source · Google Search
 

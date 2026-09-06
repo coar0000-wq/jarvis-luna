@@ -2,7 +2,7 @@
 title: "Record 448 · Current-status-of-atomic-layer-etching-and-its-adoption-to-low-k-fine-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.877300+00:00
+updated_at: 2026-09-06T20:45:28.907601+00:00
 tags: [record, real-data]
 ---
 

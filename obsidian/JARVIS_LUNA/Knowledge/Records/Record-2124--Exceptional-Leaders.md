@@ -2,7 +2,7 @@
 title: "Record 2124 · Exceptional-Leaders"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.266547+00:00
+updated_at: 2026-09-06T20:45:29.281742+00:00
 tags: [record, real-data]
 ---
 

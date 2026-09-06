@@ -2,7 +2,7 @@
 title: "Record 2077 · Managing-Volatility-As-A-Market-Condition"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.256387+00:00
+updated_at: 2026-09-06T20:45:29.271667+00:00
 tags: [record, real-data]
 ---
 

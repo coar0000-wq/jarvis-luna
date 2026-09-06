@@ -2,7 +2,7 @@
 title: "Record 2123 · Us-Debt-Fiscal-Policy-Midterm-Outlook-Ariana-Salvatore"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.266365+00:00
+updated_at: 2026-09-06T20:45:29.281555+00:00
 tags: [record, real-data]
 ---
 

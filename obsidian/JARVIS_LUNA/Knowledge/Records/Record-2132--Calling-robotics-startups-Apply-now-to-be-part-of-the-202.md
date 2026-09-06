@@ -2,7 +2,7 @@
 title: "Record 2132 · Calling-robotics-startups-Apply-now-to-be-part-of-the-2026-Robotics-St"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.268337+00:00
+updated_at: 2026-09-06T20:45:29.283686+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1634 · Amazons-Spring-Sale-Has-So-Many-Editor-Loved-K-Beauty-Deals---Harpers-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.156347+00:00
+updated_at: 2026-09-06T20:45:29.171226+00:00
 tags: [record, real-data]
 ---
 

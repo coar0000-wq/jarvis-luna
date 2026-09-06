@@ -2,7 +2,7 @@
 title: "Record 1200 · Latest-TikTok-fad-touting-miracle-oil-to-remove-hair-is-flawed--Opinio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.049875+00:00
+updated_at: 2026-09-06T20:45:29.076355+00:00
 tags: [record, real-data]
 ---
 

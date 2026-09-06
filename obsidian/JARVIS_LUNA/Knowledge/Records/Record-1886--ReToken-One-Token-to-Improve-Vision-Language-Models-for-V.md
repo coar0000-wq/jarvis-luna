@@ -2,7 +2,7 @@
 title: "Record 1886 · ReToken-One-Token-to-Improve-Vision-Language-Models-for-Visual-Retriev"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.214275+00:00
+updated_at: 2026-09-06T20:45:29.229056+00:00
 tags: [record, real-data]
 ---
 

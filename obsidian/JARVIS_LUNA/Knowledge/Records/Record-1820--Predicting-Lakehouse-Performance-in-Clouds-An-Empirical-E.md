@@ -2,7 +2,7 @@
 title: "Record 1820 · Predicting-Lakehouse-Performance-in-Clouds-An-Empirical-Exploration-of"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.200041+00:00
+updated_at: 2026-09-06T20:45:29.214854+00:00
 tags: [record, real-data]
 ---
 

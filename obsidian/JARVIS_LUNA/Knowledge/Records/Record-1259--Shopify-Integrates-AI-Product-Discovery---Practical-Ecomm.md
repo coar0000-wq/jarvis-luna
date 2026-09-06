@@ -2,7 +2,7 @@
 title: "Record 1259 · Shopify-Integrates-AI-Product-Discovery---Practical-Ecommerce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.064324+00:00
+updated_at: 2026-09-06T20:45:29.088923+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2052 · Why-Gold-Is-Expected-To-Rise-To-Record-Highs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.251419+00:00
+updated_at: 2026-09-06T20:45:29.266678+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1501 · K-beauty-has-moved-beyond-the-skin-care-aisle---The-Korea-Times"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.124567+00:00
+updated_at: 2026-09-06T20:45:29.141956+00:00
 tags: [record, real-data]
 ---
 

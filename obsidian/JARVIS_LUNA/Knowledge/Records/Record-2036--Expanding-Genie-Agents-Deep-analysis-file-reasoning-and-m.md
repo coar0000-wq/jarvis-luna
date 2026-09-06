@@ -2,7 +2,7 @@
 title: "Record 2036 · Expanding-Genie-Agents-Deep-analysis-file-reasoning-and-more"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.247974+00:00
+updated_at: 2026-09-06T20:45:29.263106+00:00
 tags: [record, real-data]
 ---
 

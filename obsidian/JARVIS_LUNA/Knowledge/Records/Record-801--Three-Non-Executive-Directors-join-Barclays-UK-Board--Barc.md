@@ -2,7 +2,7 @@
 title: "Record 801 · Three-Non-Executive-Directors-join-Barclays-UK-Board--Barclays"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.958589+00:00
+updated_at: 2026-09-06T20:45:28.988370+00:00
 tags: [record, real-data]
 ---
 

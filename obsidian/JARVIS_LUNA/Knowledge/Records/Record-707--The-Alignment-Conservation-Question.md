@@ -2,7 +2,7 @@
 title: "Record 707 · The-Alignment-Conservation-Question"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.937700+00:00
+updated_at: 2026-09-06T20:45:28.967657+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1923 · Video-Friday-An-Italian-Humanoid-Comes-to-Life"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.223646+00:00
+updated_at: 2026-09-06T20:45:29.238401+00:00
 tags: [record, real-data]
 ---
 

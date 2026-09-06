@@ -2,7 +2,7 @@
 title: "Record 545 · Surrogate-Decision-Making-Confidence-Across-Acute-and-General-Scenario"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.900216+00:00
+updated_at: 2026-09-06T20:45:28.931573+00:00
 tags: [record, real-data]
 ---
 

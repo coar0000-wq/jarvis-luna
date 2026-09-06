@@ -2,7 +2,7 @@
 title: "Record 1487 · Anuas-KPop-Demon-Hunters-K-Beauty-Collab-Features-Face-Masks-Acne-Dots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.120977+00:00
+updated_at: 2026-09-06T20:45:29.138821+00:00
 tags: [record, real-data]
 ---
 

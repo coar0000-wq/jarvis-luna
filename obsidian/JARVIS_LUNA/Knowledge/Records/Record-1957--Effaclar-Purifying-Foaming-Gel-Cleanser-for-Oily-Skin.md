@@ -2,7 +2,7 @@
 title: "Record 1957 · Effaclar-Purifying-Foaming-Gel-Cleanser-for-Oily-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.231403+00:00
+updated_at: 2026-09-06T20:45:29.246126+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 825 · Leidos-and-DHL-form-alliance-to-strengthen-the-future-of-UK-Defence-lo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.965403+00:00
+updated_at: 2026-09-06T20:45:28.994860+00:00
 tags: [record, real-data]
 ---
 

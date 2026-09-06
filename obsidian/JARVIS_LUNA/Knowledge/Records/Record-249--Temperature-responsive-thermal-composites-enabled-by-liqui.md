@@ -2,7 +2,7 @@
 title: "Record 249 · Temperature-responsive-thermal-composites-enabled-by-liquid-metal-impr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.827998+00:00
+updated_at: 2026-09-06T20:45:28.858668+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1327 · How-to-Achieve-Hollywood-Makeup-Artist-Nina-Parks-Signature-Soft-and-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.081004+00:00
+updated_at: 2026-09-06T20:45:29.103890+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2044 · European-Stocks-Defy-Global-Shocks-With-Strong-Earnings-Growth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.249794+00:00
+updated_at: 2026-09-06T20:45:29.264993+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1371 · These-rising-K-beauty-brands-should-be-on-your-radar---Page-Six"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.092180+00:00
+updated_at: 2026-09-06T20:45:29.113569+00:00
 tags: [record, real-data]
 ---
 

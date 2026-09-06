@@ -2,7 +2,7 @@
 title: "Record 1998 · Anthropic-Teach-For-All"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.239826+00:00
+updated_at: 2026-09-06T20:45:29.254690+00:00
 tags: [record, real-data]
 ---
 

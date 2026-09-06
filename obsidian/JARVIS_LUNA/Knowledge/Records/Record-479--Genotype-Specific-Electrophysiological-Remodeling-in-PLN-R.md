@@ -2,7 +2,7 @@
 title: "Record 479 · Genotype-Specific-Electrophysiological-Remodeling-in-PLN-R14del-Cardio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.884540+00:00
+updated_at: 2026-09-06T20:45:28.915124+00:00
 tags: [record, real-data]
 ---
 

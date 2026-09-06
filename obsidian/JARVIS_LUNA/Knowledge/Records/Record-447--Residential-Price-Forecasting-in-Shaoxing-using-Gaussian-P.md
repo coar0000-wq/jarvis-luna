@@ -2,7 +2,7 @@
 title: "Record 447 · Residential-Price-Forecasting-in-Shaoxing-using-Gaussian-Process-Regre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.877037+00:00
+updated_at: 2026-09-06T20:45:28.907350+00:00
 tags: [record, real-data]
 ---
 

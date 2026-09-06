@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T18:56:12.834004+00:00",
+  "generated_at": "2026-09-06T21:08:27.573298+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "alcaraz",
+          "keyword": "dutton ranch season 2",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Sun, 6 Sep 2026 11:30:00 -0700",
-          "source_name": "Diario AS",
-          "url": "https://trends.google.com/trending?geo=US&q=alcaraz"
+          "published": "Sun, 6 Sep 2026 13:40:00 -0700",
+          "source_name": "Decider",
+          "url": "https://trends.google.com/trending?geo=US&q=dutton%20ranch%20season%202"
         },
         {
-          "keyword": "miami airport",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Sun, 6 Sep 2026 11:30:00 -0700",
-          "source_name": "WSVN",
-          "url": "https://trends.google.com/trending?geo=US&q=miami%20airport"
-        },
-        {
-          "keyword": "jannik sinner",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Sun, 6 Sep 2026 11:30:00 -0700",
-          "source_name": "La Gazzetta dello Sport",
-          "url": "https://trends.google.com/trending?geo=US&q=jannik%20sinner"
-        },
-        {
-          "keyword": "carlos alcaraz girlfriend",
+          "keyword": "matthew mcconaughey",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Sun, 6 Sep 2026 11:30:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=carlos%20alcaraz%20girlfriend"
+          "published": "Sun, 6 Sep 2026 13:30:00 -0700",
+          "source_name": "Far Out Magazine",
+          "url": "https://trends.google.com/trending?geo=US&q=matthew%20mcconaughey"
         },
         {
-          "keyword": "dbacks - astros",
+          "keyword": "what channel is the nascar race on today",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Sun, 6 Sep 2026 11:30:00 -0700",
-          "source_name": "MLB",
-          "url": "https://trends.google.com/trending?geo=US&q=dbacks%20-%20astros"
+          "published": "Sun, 6 Sep 2026 13:30:00 -0700",
+          "source_name": "NASCAR.com",
+          "url": "https://trends.google.com/trending?geo=US&q=what%20channel%20is%20the%20nascar%20race%20on%20today"
         },
         {
-          "keyword": "marseille vs paris fc",
+          "keyword": "tiafoe girlfriend",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 11:40:00 -0700",
-          "source_name": "Foot Mercato",
-          "url": "https://trends.google.com/trending?geo=US&q=marseille%20vs%20paris%20fc"
+          "published": "Sun, 6 Sep 2026 13:50:00 -0700",
+          "source_name": "HelloBeautiful",
+          "url": "https://trends.google.com/trending?geo=US&q=tiafoe%20girlfriend"
         },
         {
-          "keyword": "internacional vs santos",
+          "keyword": "washington state football coach",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 11:40:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=internacional%20vs%20santos"
+          "published": "Sun, 6 Sep 2026 13:50:00 -0700",
+          "source_name": "The Seattle Times",
+          "url": "https://trends.google.com/trending?geo=US&q=washington%20state%20football%20coach"
         },
         {
-          "keyword": "mamdani",
+          "keyword": "anna wintour",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 11:40:00 -0700",
-          "source_name": "Fox News",
-          "url": "https://trends.google.com/trending?geo=US&q=mamdani"
+          "published": "Sun, 6 Sep 2026 13:40:00 -0700",
+          "source_name": "The Guardian",
+          "url": "https://trends.google.com/trending?geo=US&q=anna%20wintour"
         },
         {
-          "keyword": "cruzeiro x athletico-pr",
+          "keyword": "brett baty",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 11:30:00 -0700",
-          "source_name": "ge",
-          "url": "https://trends.google.com/trending?geo=US&q=cruzeiro%20x%20athletico-pr"
+          "published": "Sun, 6 Sep 2026 13:40:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=brett%20baty"
         },
         {
-          "keyword": "katie meyer",
+          "keyword": "gerrit cole",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 6 Sep 2026 13:30:00 -0700",
+          "source_name": "Bleacher Report",
+          "url": "https://trends.google.com/trending?geo=US&q=gerrit%20cole"
+        },
+        {
+          "keyword": "bo bichette",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 6 Sep 2026 13:30:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=bo%20bichette"
+        },
+        {
+          "keyword": "cooper hjerpe",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 6 Sep 2026 11:40:00 -0700",
-          "source_name": "San Francisco Chronicle",
-          "url": "https://trends.google.com/trending?geo=US&q=katie%20meyer"
+          "published": "Sun, 6 Sep 2026 13:50:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=cooper%20hjerpe"
         }
       ]
     },

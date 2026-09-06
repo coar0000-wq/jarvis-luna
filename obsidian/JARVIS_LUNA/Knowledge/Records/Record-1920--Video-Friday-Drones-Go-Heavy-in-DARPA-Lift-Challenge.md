@@ -2,7 +2,7 @@
 title: "Record 1920 · Video-Friday-Drones-Go-Heavy-in-DARPA-Lift-Challenge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.222871+00:00
+updated_at: 2026-09-06T20:45:29.237646+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2027 · ASML-reports-transactions-under-its-current-share-buyback-program"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.246067+00:00
+updated_at: 2026-09-06T20:45:29.261140+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 296 · Terrace-Mediated-Growth-of-WS2-Using-Molecular-Beam-Epitaxy-Impact-on-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.840927+00:00
+updated_at: 2026-09-06T20:45:28.870162+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 941 · 11-Of-The-Best-Clear-Sunscreens-For-Black--Brown-Skin---coveteurcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.992145+00:00
+updated_at: 2026-09-06T20:45:29.021410+00:00
 tags: [record, real-data]
 ---
 

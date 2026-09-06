@@ -2,7 +2,7 @@
 title: "Record 1417 · For-Deoproce-the-Next-Chapter-Starts-With-Jinyoung---LOfficiel-Philipp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.103582+00:00
+updated_at: 2026-09-06T20:45:29.123611+00:00
 tags: [record, real-data]
 ---
 

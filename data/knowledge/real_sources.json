@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T18:32:01.568355+00:00",
+  "updated": "2026-09-06T20:43:44.837883+00:00",
   "sources": {
     "arxiv": {
       "status": "ok",
@@ -61,7 +61,7 @@
       "status": "ok",
       "source": "Robotics (arXiv cs.RO/eess.SY + IEEE Spectrum + Robot Report)",
       "reason": "",
-      "collected_at": "2026-09-06T18:30:18.235191+00:00",
+      "collected_at": "2026-09-06T20:42:11.298901+00:00",
       "items": [
         {
           "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
@@ -685,7 +685,7 @@
       "status": "ok",
       "source": "Institutions (RSS + sitemap + OpenAlex, 35개 기관)",
       "reason": "",
-      "collected_at": "2026-09-06T18:31:32.942041+00:00",
+      "collected_at": "2026-09-06T20:43:15.669155+00:00",
       "items": [
         {
           "title": "An Alien Mind",
@@ -11332,19 +11332,19 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Keauti brings K-beauty to Queen City - Springfield Business Journal",
+          "title": "Keauti brings K-beauty to Queen City - sbj.net",
           "published": "Fri, 04 Sep 2026 18:39:42 GMT",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rZVhLTzJCdjNtajVENC16TEVSempfaks3T0Nmc1FJcExOdGlpSFpxSk9pb2drUHAtQ1cyc0c1amRsLUZQWmlFXzM5cW5DczVsRExKMENRbDdqOGNEVUFCaDdfNXNsRGxnOWU5d2xxcHVxYWd3Tnc?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - shopping.yahoo.com",
+          "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - Yahoo",
           "published": "Wed, 02 Sep 2026 17:00:58 GMT",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUTUzUEwwYzIteVlTcng5Zl9GT3hfTElLcWRGTGVXN09lT01icWhVamUwS1BlREI0YmJCTmdDaW9iRVlKQ0hVOGZ2TTFHY2RhdTFaS3UwelgtT3gxeXY3RnBrTE9RTXRySjFDa3BFWVdMSXo4bTRhdFA2QjB4T2EzNUZuRlBUVFJqQjhtS3RLTko5WGJBbmJseEh3?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
+          "title": "What makes K-beauty Korean? The answer is getting complicated. - koreajoongangdaily.com",
           "published": "Wed, 02 Sep 2026 22:02:21 GMT",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5"
         },
@@ -11362,27 +11362,27 @@
         },
         {
           "query": "K-Beauty skincare",
+          "title": "Want Smaller-Looking Pores? These Medicube K-Beauty Picks Are Up to 70% Off - eonline.com",
+          "published": "Wed, 02 Sep 2026 01:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa2hsTWhGS1l3cTBiN2hwOWEwVUFLdkJMVXNaSmFsdFFaMERrUDhRVTRsSVJvV2pxcEVmdGMwUXVRYXhzOG1FaV9GRV8welVXcXZ2ZFFaQkg1bndlTDNhMWNRNEJMd1JqSVdaZlBTZmEyekkxMFc1WmxINjZYbHRjcmw0WDdXYXJMYlAyS1E2V082NVdNd1lrU3ZOeGpXWHFKQUI3Z21icGV0YVh5ZDBN?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
           "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
           "published": "Sun, 30 Aug 2026 23:55:09 GMT",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Want Smaller-Looking Pores? These Medicube K-Beauty Picks Are Up to 70% Off - E! News",
-          "published": "Wed, 02 Sep 2026 01:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa2hsTWhGS1l3cTBiN2hwOWEwVUFLdkJMVXNaSmFsdFFaMERrUDhRVTRsSVJvV2pxcEVmdGMwUXVRYXhzOG1FaV9GRV8welVXcXZ2ZFFaQkg1bndlTDNhMWNRNEJMd1JqSVdaZlBTZmEyekkxMFc1WmxINjZYbHRjcmw0WDdXYXJMYlAyS1E2V082NVdNd1lrU3ZOeGpXWHFKQUI3Z21icGV0YVh5ZDBN?oc=5"
+          "title": "K-beauty’s fastest-growing products are quietly crossing over from cult status to household names - Sacramento Bee",
+          "published": "Thu, 27 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aWFdHVGswUVFLUzNOYnhaRzV4RXpLSE4yUU5IcHJVa2lieDYtRjBxNkZma1NUSG9hQS1QT3ZJcHVxekFETnhNUzloR3g5UkxEQWx5QVJxY1V5emtySDRYZzNnTUl3RWVCX29nazdaRUlMYWPSAXNBVV95cUxNdjl6SVNhV25mQjFJeUZITi0tLXlnMlFPcWc0a3lxNGU2cGdldm5GRzF2Yk1HY2VrQUhsVF9zemRaeVJvUkZzSDJxQnd4cXlDWTlGSEVYM3VYUEJ5aFMweWtBREtQb3NVTUVJRmxSMTlJQXBN?oc=5"
         },
         {
           "query": "K-Beauty skincare",
           "title": "K-beauty shapes global formulation and breaks into new categories - Personal Care Insights",
           "published": "Tue, 01 Sep 2026 09:39:09 GMT",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRTQ1WG5LQ1BreXVHaDVkQUVtRzNzZU0wTU9UUzdCbjRoTU5abEpjSmlBZ0tvc2ZVZzVXUjJOdFZSWWZGNWVha0ZnLTNZRG5HdEJ3ZzIzWmMxSU92VVYzZ0x6LVhtOXliUTc2UF9zeHRmSlotNUtxMEJOM2pNV3RNZ2ZSWEoxalpCbnc?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "K-beauty’s fastest-growing products are quietly crossing over from cult status to household names - Sacramento Bee",
-          "published": "Thu, 27 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aWFdHVGswUVFLUzNOYnhaRzV4RXpLSE4yUU5IcHJVa2lieDYtRjBxNkZma1NUSG9hQS1QT3ZJcHVxekFETnhNUzloR3g5UkxEQWx5QVJxY1V5emtySDRYZzNnTUl3RWVCX29nazdaRUlMYWPSAXNBVV95cUxNdjl6SVNhV25mQjFJeUZITi0tLXlnMlFPcWc0a3lxNGU2cGdldm5GRzF2Yk1HY2VrQUhsVF9zemRaeVJvUkZzSDJxQnd4cXlDWTlGSEVYM3VYUEJ5aFMweWtBREtQb3NVTUVJRmxSMTlJQXBN?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11398,13 +11398,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Why Korean Beauty Products Are Appearing in More Mainstream U.S. Stores Than Ever Before - Us Weekly",
-          "published": "Tue, 01 Sep 2026 16:53:49 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObk9pR1JvZ1I2Q0tPQXVvUHRGU1djM3laSGlMNUc0eldHLVRlYjgwS0dFdllib2l5bFNPWU95Yk56eW0tMDFpZ3hiYVF4RFZnZWlQUUhpZ09mTjFEeVkzaEkzcEZJTVcyYURGQnNtTTZzU1otNWMyOTJHUjVjVlRsSzJMLUt2UG5xXzBpcjB4TTJlUm8waFFwVVNCaGwwU1pnbW5oWkp0WWhRaG9a?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "Meet the K-beauty products that made a quiet leap from cult circles into mainstream beauty routines - miamiherald.com",
+          "title": "Meet the K-beauty products that made a quiet leap from cult circles into mainstream beauty routines - Miami Herald",
           "published": "Thu, 27 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UZ3FrNEloVEN5aHJ0QVZJeFB4b25XVlFUSUo0NjdGbjUtN3d4WW1lNEJzS2R6Y0pUR1FTb3Zac2pYRWRIZ2E4cTIzREpTamdxVU5hOE10TTRIcXRFV2w0aXpaQTVqUFXSAWdBVV95cUxOaTJETFNXR0V6TUt1RDV3M1VvYnBSdVZqOUpNNUx5ZEdhTXdsU0w1dWZieDdjblM2TzhfbjV2cDFiZFdvQk92VENwaDJ6RVpUZGtTUTJBUG5acTAyckVucFZDazh4d2xv?oc=5"
         },
@@ -11413,6 +11407,12 @@
           "title": "These K-Beauty Trends Are About to Be Everywhere—We Asked Korean Skin Experts Which Ones Are Actually Worth It - Real Simple",
           "published": "Thu, 18 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc0dIOUxOUjV2Um8yamZUTWV0ZUEzX1NfWHpyTlJGUmhMZGdQc1Y2RlQ3eTMzWENxUEdGU0NCZWR5dTQ0bzhuX1lNb1prZUxDcU81azZzMlNpRW1LNnU4QXZTcXllY3VjNXQtR0JoSzY1bmlvVFFINTdRNl90eTRVRm5FUDBrbU15Q1l4Rg?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "My Entire Skincare Routine of Korean-Beauty Products Is On Sale for Prime Day - New York Magazine",
+          "published": "Thu, 25 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOFFJSEZGUVRaNlluY2c1R3V3cVhSNExuU3VJMzhtaGNBejRGNnlKQVR0bHZsMzdndVA3c3JqTElpcVN3V2lxYWlLMHpKdXZ6V0VWUEtTQ1ZVaXJxZ2hHNkZXczBVd1h0eXQ2RG43aEFrVWs2ckw2WTYtUmR2aFZoR2lVRnlwNVJOWUE0NkhpQy1Zdw?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11434,13 +11434,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "My Entire Skincare Routine of Korean-Beauty Products Is On Sale for Prime Day - nymag.com",
-          "published": "Thu, 25 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOFFJSEZGUVRaNlluY2c1R3V3cVhSNExuU3VJMzhtaGNBejRGNnlKQVR0bHZsMzdndVA3c3JqTElpcVN3V2lxYWlLMHpKdXZ6V0VWUEtTQ1ZVaXJxZ2hHNkZXczBVd1h0eXQ2RG43aEFrVWs2ckw2WTYtUmR2aFZoR2lVRnlwNVJOWUE0NkhpQy1Zdw?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "15 K-Beauty Products Allure Readers Are Obsessed With - Allure",
+          "title": "15 K-Beauty Products Allure Readers Are Obsessed With - allure.com",
           "published": "Sun, 22 Mar 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9NWTFRbW51b3I1TXotaTROUE91ZFg5QUxjbXpUZDZkdXF5bEV0RXBlbTZUbVE0OFpaV3ZGSi1SZk9neXVaOEZNckRkME1fa2NkcEJjbG1tUjlRc3ZRMkkzR2w5blk4QzA5OUdKZVJPamJRMzhWTG5n?oc=5"
         },
@@ -11452,7 +11446,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - Woman's World",
+          "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - womansworld.com",
           "published": "Sat, 29 Aug 2026 13:37:46 GMT",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR0hPOFV3NTlQQ2h0LWNDUHBoUTNRZHNDbjllRTNFOHdlQzd5Y20zWmgwWEloVjkwdlpoTEIxcE9YMUwtX1lDazd0LXJUckRBMDhjS1JIV1o0T0l2Y3daZEZiSVBFZElES3lKLWFYVmw4WVlHQ0dKd18xeW1wX3NFN0lJQUxMZjhwbUpPTm9ZclZwZw?oc=5"
         },
@@ -11464,13 +11458,13 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Olive Young’s K-Beauty Edit Finally Hit Sephora: These Finds Are Worth It - E! News",
+          "title": "Olive Young’s K-Beauty Edit Finally Hit Sephora: These Finds Are Worth It - eonline.com",
           "published": "Thu, 20 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQXhuQ0QxazlaeHhHQjRuaDJzZE9pT1pfdjNvUHFqTllKeEg2Wm4zV3BUWGdScGU4OG9JYTRaYVRHMkcxbG52ZjFIbEdNWEM0RDNQNEl3SFNWUVNWb3VmN2wzZzNuRXhicVJ1YkUwSF8tUXItRXNWZkllZXJsTGhldDVIM0lvbjFHT3VwVHFBQXVXRW4xdnN2NUxUbUpGYzJxTmFZRDdFb0xjQQ?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "News - Glow Up: K-Beauty Launches at Select PXs and BXs - DVIDS",
+          "title": "News - Glow Up: K-Beauty Launches at Select PXs and BXs - dvidshub.net",
           "published": "Tue, 25 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORTBtX2VGWFJSTWRjdWQ5anhfY3pEcUpfMngweUdXbFduTjRqZ00tV0RNWS1pb2ltOWhRZy11U0o3LUtqSXZkeE12Z3Zwb0M3alh5UkZES1U4ZXJ1bURLa1pqV0psQWVDcVVndE1HY1FJSE9KeTZPT2l2YjVOdGh1NGs3bGJmOEtS?oc=5"
         },
@@ -11479,6 +11473,12 @@
           "title": "This French moisturizer is a bestselling skincare staple — and now under $30 - New York Post",
           "published": "Fri, 04 Sep 2026 13:18:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS2ZvWUtYc0FlanJRNXY2SFdCUlk4ZFVMbmt1dnB3RFhZWDFHSllsYTFxOS02TWk3NWhEeUt0Z3puWGdMekpZeWhTSWI3ZFZ1NU13STB6ZHJyMWFFWmxTbldxMW13MHd5RGxMeElXQU5pNHRtaklrUy01alI5Q0tjNWxieWxDeUJSa0FacEo4YWdmNzFqbGo0?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "Human Skin Is the Newest Ingredient in the K-Beauty Boom - Bloomberg.com",
+          "published": "Thu, 16 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYkxGbEZDNEpITy1jaE1GcWU3R3U3UUZTMTNYVGRVU2JQeWkwTGdTSVdqNkhYbVpLTXptU1VCRlBDbWVPbEZDRDl0ZlhoNktoYi1OTWNhMG9Va2hwMjRleERjMlBHZ3FPY2xSZnZLZFRvV1ZZV19KOGhTSG1xSmxpWkQxSDZpcHlzWWVOQ2dOLTBCVi1zX3JOOHRXN1ltVFpYTDVpZE1WdER5ckVwVXc?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11494,9 +11494,9 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Human Skin Is the Newest Ingredient in the K-Beauty Boom - Bloomberg.com",
-          "published": "Thu, 16 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYkxGbEZDNEpITy1jaE1GcWU3R3U3UUZTMTNYVGRVU2JQeWkwTGdTSVdqNkhYbVpLTXptU1VCRlBDbWVPbEZDRDl0ZlhoNktoYi1OTWNhMG9Va2hwMjRleERjMlBHZ3FPY2xSZnZLZFRvV1ZZV19KOGhTSG1xSmxpWkQxSDZpcHlzWWVOQ2dOLTBCVi1zX3JOOHRXN1ltVFpYTDVpZE1WdER5ckVwVXc?oc=5"
+          "title": "Why Korean Beauty Products Are Appearing in More Mainstream U.S. Stores Than Ever Before - usmagazine.com",
+          "published": "Tue, 01 Sep 2026 16:53:49 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObk9pR1JvZ1I2Q0tPQXVvUHRGU1djM3laSGlMNUc0eldHLVRlYjgwS0dFdllib2l5bFNPWU95Yk56eW0tMDFpZ3hiYVF4RFZnZWlQUUhpZ09mTjFEeVkzaEkzcEZJTVcyYURGQnNtTTZzU1otNWMyOTJHUjVjVlRsSzJMLUt2UG5xXzBpcjB4TTJlUm8waFFwVVNCaGwwU1pnbW5oWkp0WWhRaG9a?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11512,7 +11512,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - geekwire.com",
+          "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - GeekWire",
           "published": "Fri, 28 Aug 2026 19:09:12 GMT",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSmd3bV80NzFvZlZtOUNnSUF4eTRlQ0VoamFoUlY5aEQ2Q000MmlBVmVTQ3ZuWV9wTmhzWXROSWNyaDNuQ0JrTFdEczljM0JlbTBtdFBZbnhtakNaWHBTZTBGWDFzbDJURU1ESi1mano4T21KMHV0ZEQwOFI3aWI3Q2lTbzhPSmw5dEp6cGZVXzhadW5GNTRNaVhhMEhIdjY0czMwTmN4aUlpVWNYTmV5ZnNxWkdlcUZFUUhoNEdId3gxZw?oc=5"
         },
@@ -11524,7 +11524,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "These are the best K-beauty products to get that glowy, “glass skin” look - nbcnews.com",
+          "title": "These are the best K-beauty products to get that glowy, “glass skin” look - NBC News",
           "published": "Wed, 06 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWlZLbkFIQVZoN1p3dU1rc1hTNzhuaUlCSVZ4eHpnZ3NVWnJ6dDZPZGphd0Y0el9zQUx4OVh0VFR0WUVpZVB3MDdtOHNzcmtRMDB1Mk1ZMG9XY3NrNThhMDRGdlltQXZmQ211Y2Q1c21WeDR0QnNhYlA1VWU2ekRnbVQ3ZVI?oc=5"
         },
@@ -11542,7 +11542,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Cosmetics Business reveals the top 5 K-beauty trends of 2026 in new report - cosmeticsbusiness.com",
+          "title": "Cosmetics Business reveals the top 5 K-beauty trends of 2026 in new report - Cosmetics Business",
           "published": "Tue, 04 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ2dNaGRXSUVOa1doWFc4eHo5OVUtZ091ZjNnWFEwbUc1YUdpMURUdXJVZkdpVlg5azZhb1QxWHZyT1JDQ190OVg1eFFUb3RBS0ZTSGJmc0tfdm92MEZTelg5SXVwRjViRmNqT2IzQkdkTzlYcmh5dUhRZjZoa2pxVzEwNA?oc=5"
         },
@@ -11554,7 +11554,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - Yahoo Life UK",
+          "title": "This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - uk.style.yahoo.com",
           "published": "Tue, 25 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9CRUhpMWQ5TkZld196MlVISE1rdTJWY1FvUlVNT2hSTGN4SEs0Q1p6WmNYM0FsSjd5QW9WT2RxSTJ6aEFjc2ZLLXpFR0pKUDZBZm9nN1RGT3BkaUFKTmpNQ0NYVUJTbVg3QzAwbHFCd3RCOTQ?oc=5"
         },
@@ -11572,25 +11572,25 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Your glass skin routine just got cheaper – these K-beauty faves from Laneige, Round Lab and more are up to 30% off - nbcnews.com",
-          "published": "Mon, 17 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRUxpNG1yU21xcUw3eTYycF9ZTHlBODRmaU9tb3E4NnBDU3o3cXNkbUdEM3lFV2JBS3NaSUNWWUQ3LTBIdVB4RXJYdHZTYXdwSUNUQXU4OGxWbGpTZUQtbVpXX0t3eG9BU1lOQWNJY25JelFGLWJUTXpmck1oQURuNXlhenptX2ZDYjlnRHp1V09LeTlQSUo0eVA5THJEQkVGRzJ3?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "Breaking Down K-Beauty’s Slow-Aging Philosophy - Vogue",
           "published": "Tue, 05 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hdHRjZWI3QWR4eGZIQVlTQ2laeWNjazRnWmtINGFRcDZ6bVFvczJtSkh2U3JZQllmbGhmeG9NcGVyOFJmWXBqamJXN2w3MXAwRVVuNmJoVEt1OG81V1ZCbmdsODVJTWpSd2c?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K-beauty is booming: Here’s how the trend is taking root in the DC area - wtop.com",
+          "title": "Your glass skin routine just got cheaper – these K-beauty faves from Laneige, Round Lab and more are up to 30% off - NBC News",
+          "published": "Mon, 17 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRUxpNG1yU21xcUw3eTYycF9ZTHlBODRmaU9tb3E4NnBDU3o3cXNkbUdEM3lFV2JBS3NaSUNWWUQ3LTBIdVB4RXJYdHZTYXdwSUNUQXU4OGxWbGpTZUQtbVpXX0t3eG9BU1lOQWNJY25JelFGLWJUTXpmck1oQURuNXlhenptX2ZDYjlnRHp1V09LeTlQSUo0eVA5THJEQkVGRzJ3?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "K-beauty is booming: Here’s how the trend is taking root in the DC area - WTOP News",
           "published": "Fri, 17 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMVlMY25hYmtCZDMtSUdGVHhJQTFhOEo2V0JKQU9tQWd3bklqc0o4UUlkTTViaUhNYWxLRG9DYVdVOGZhaWlUR1VUSWFPbkp5LUFybGZMQUFWQjJCMUZCT2kxTDJiOHU3Z0ZkYXpkTHhjMFBCWF96enBRdXBIR0JFdDRxYTEyZzl1eVg3ZEFZN3pRTzBWdzNUSkF4YWtxZXR6ZUtn?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "The Clock Is Ticking on These K-Beauty Prime Day Deals - Allure",
+          "title": "The Clock Is Ticking on These K-Beauty Prime Day Deals - allure.com",
           "published": "Fri, 26 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSHIwZEVqNlV1N0paengwM2Znc3dlNk1nX1FSb2RuRmNaQlFOajZpdDdJSVQ2Wmc0SWp4TTNUZ3FpY1ZKQkhtckZmVUtBT1RoQlZRRHFxOC13MXJVQXlsbFZzVC1rZWhqMWNWanQ3TUJCSGtZa2p0eHh3a0FBVVJMckJ6dDAyTzFB?oc=5"
         },
@@ -11608,19 +11608,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Target launches Beauty Studio with K-beauty and premium skin care focus. - Personal Care Insights",
-          "published": "Thu, 27 Aug 2026 15:55:49 GMT",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Jb2hGbEh0dHE2ME9CaXV3eFNqVEdYR2hJaU5zWnIyal9IakpwdjNPNlgyVzlHTlo2aFJfYkxLbVlIYWhtT3FfR3AzTURkUmVQc3A5R29FNEtLLTdVWVdzd0FRV1N5c0lWVzVfTUczRi1kc1gyU2U1VU03ZHl0Zk0?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "How Far Can the K-beauty Craze Go? - WWD",
-          "published": "Tue, 01 Sep 2026 04:11:14 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNEx1RkFFYkt2M1lRNGRSMVpTbENQQzRhOUJuSUpmQnlpQjdyQ1FkdE9XaVJ6SVVPdnA3aHRhSDFGUGxZMXh3Q3g1WGJFTjJXek5KQ1VoS3dIemdHTlV4U0w1U3RoTHo1SWJWSkQ3SGc1ajQtM09WWUdJMTFzRkZyWUV0NWh1OThNYmtVckJycHNUbXJWS0phaTBB?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "K- Beauty: Trends Into Essentials - cosmeticsbusiness.com",
+          "title": "K- Beauty: Trends Into Essentials - Cosmetics Business",
           "published": "Wed, 29 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oTjlHSVU4ZDNwM3ZENjdIbmNBaFpfeUZJRkQ3NHpFdnUtT2JIdDBFLXA0Z1VmNENtcEd3VjZoVVo3V1NWUkxiLWdTT2pHemhoY3JiTEZvU0V1SVZabmFPcGV2RXltQ0U1c2hJSmVR?oc=5"
         },
@@ -11632,15 +11620,15 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "For Deoproce, the Next Chapter Starts With Jinyoung - L'Officiel Philippines",
-          "published": "Thu, 03 Sep 2026 22:42:26 GMT",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRFp3YUZKM1dSczNNR3RZYXMxempJU29vTWFjVUtWZ0hZdWctRVc1MzFiVUxqbU0xdklwVVlldWJMUXRkWXo2RE9IUDl4QmxKTzBSMTM4aFBLOUJuNXRtdGZ4a2ZhN2hoM25jVmwyWmxQeS1peDJZRFRUSzN4akVyVDM1SDQ3cTc5bVRDNmJB?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "7 Korean beauty ingredients that will make your skin glow, according to dermatologists | CNN Underscored - CNN",
           "published": "Sat, 09 May 2026 13:09:26 GMT",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9QSjEtay14Nms3Y0xKSDVUUnEwZUJ0LXFXNUo5dWpjQXNUX2dPaVkwNG1KN0ZLd0cxYnFkVEh0V3R5Mjh6a1VEb19YTldKZV9lSnBuSlk5STdQMFhrUVRJeDJjZVhPS0Q2NHVyMGtwWU9MMTlOMWFtR3djQzJNZw?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "For Deoproce, the Next Chapter Starts With Jinyoung - L'Officiel Philippines",
+          "published": "Thu, 03 Sep 2026 22:42:26 GMT",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRFp3YUZKM1dSczNNR3RZYXMxempJU29vTWFjVUtWZ0hZdWctRVc1MzFiVUxqbU0xdklwVVlldWJMUXRkWXo2RE9IUDl4QmxKTzBSMTM4aFBLOUJuNXRtdGZ4a2ZhN2hoM25jVmwyWmxQeS1peDJZRFRUSzN4akVyVDM1SDQ3cTc5bVRDNmJB?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11680,15 +11668,9 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Human Skin Is the Newest Ingredient in K-Beauty - The Business of Fashion",
+          "title": "Human Skin Is the Newest Ingredient in K-Beauty - businessoffashion.com",
           "published": "Mon, 20 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdjRtVEFBdkhkT0Q4TXZPQzRaeDBHYTNLLXZyLV9QMC02eERQSTBBM3FIbWQwX0N3YmQtUEdNUXZ0aktUYXN0VC1aR280U2lOS0FURVJZaVFZS3hUcVZZd2dGalZLVlc4S1A5amxuUmNXNlJsMkpXdUgtRXFHemlydENNOE55SEdNcnBvZnZXUDZvaVY3clk0?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "K-beauty has moved beyond the skin care aisle - The Korea Times",
-          "published": "Sat, 08 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUjFQQmIwWTFHM091SU9sQkJWNHQyZWRlcTJ5STJqbFhJTlQ1QkJ6WmFlZEdQWDFNeHBWN2JzZWF4aHBscE1fTDhzVkdYYkxFTlJTQmJRSkFiNHdydzFzMTZ3RmZ0OW9oUHdJcVNsUmhjQnhtcGhVVXY5eVNHZTRQZy1jVWU0TEV4RXluT0pLeFNMTmtLd1RWdEN30gGfAUFVX3lxTE0ybTFVVU9EWWJKWmxfT21XVnZFU01za0dXSkJVSkN3NWpWRXhqRjVta1dDaVZ6Sk56UjV3bWdfUDJWam5uM3N1TlRZQjFzYUlSZWl0TGZqSTZQekwyZHpLNjBpN3VFYVpGWk5vVVpwMDJvUlFBRkxWd0xGTnhJOS1zalhrYmw3RmJEdXVna0IzdXBqMmNVUHdybjNzdTh1WQ?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11728,6 +11710,12 @@
         },
         {
           "query": "K-Beauty skincare",
+          "title": "K-beauty has moved beyond the skin care aisle - The Korea Times",
+          "published": "Sat, 08 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUjFQQmIwWTFHM091SU9sQkJWNHQyZWRlcTJ5STJqbFhJTlQ1QkJ6WmFlZEdQWDFNeHBWN2JzZWF4aHBscE1fTDhzVkdYYkxFTlJTQmJRSkFiNHdydzFzMTZ3RmZ0OW9oUHdJcVNsUmhjQnhtcGhVVXY5eVNHZTRQZy1jVWU0TEV4RXluT0pLeFNMTmtLd1RWdEN30gGfAUFVX3lxTE0ybTFVVU9EWWJKWmxfT21XVnZFU01za0dXSkJVSkN3NWpWRXhqRjVta1dDaVZ6Sk56UjV3bWdfUDJWam5uM3N1TlRZQjFzYUlSZWl0TGZqSTZQekwyZHpLNjBpN3VFYVpGWk5vVVpwMDJvUlFBRkxWd0xGTnhJOS1zalhrYmw3RmJEdXVna0IzdXBqMmNVUHdybjNzdTh1WQ?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
           "title": "I Went To A Medicube Masterclass & Learned What It Takes To Make Skin Glow - Refinery29",
           "published": "Thu, 25 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RQjNhZjNCdm4xS0pwaXAtTDA2QzVTU0FobFl4QTFQX2dFSHg4SkFHVmN0S1J6VVUySUJMTDhIdXBGTU1iZG5VSlRsa3NXLUdwZ2tPTWtpeklUdmhTMzhWRXF0RXZHSHNDeDRfY0o3bHlmYmFjcEs3QklR?oc=5"
@@ -11758,15 +11746,15 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Inside BTS’ Skincare Routines: SUGA’s Go-To $18 Sunscreen & More K-Beauty Favorites Worth Shopping - Billboard",
-          "published": "Wed, 05 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUzFCY3dMbmc5LXF1Y0FYVUVDdFVWYTVxMDBFYk80VVhpTk83MGNnX0JFc2hFcmRwRDhEalFYdzNDNUFmNUxhVUJTYnpVejRBMVdqTUlkeGlIUUV0eHh2RDU4ZUtPY0N6X2tJU3RCbnhNOFp4YXRqczg3OGZlS0hLOEhtUk42cFdNd01yUDlVVVBpbEZacUNPWUhlbl83M2tLYk9qYVpISTlVeXRRajRjSV80Y1QwZ0hOZHdWVVBWMlk3dUk?oc=5"
+          "title": "The Korean Skin-Care Brands You Need to Know Right Now - allure.com",
+          "published": "Sat, 21 Mar 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IU3BOQlAtbDNIMHYxV3V5ZktzQ3ExZ3JLdmtGNDdCaDdfMVJyWFNVYnptWkFWMUZlWV9obmkyendHcEtfZ2VoYzhfTjFTQWV5TlE0SFN3QWxqcUtxLTNqQXFsYkpESTJJ?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "The Korean Skin-Care Brands You Need to Know Right Now - Allure",
-          "published": "Sat, 21 Mar 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IU3BOQlAtbDNIMHYxV3V5ZktzQ3ExZ3JLdmtGNDdCaDdfMVJyWFNVYnptWkFWMUZlWV9obmkyendHcEtfZ2VoYzhfTjFTQWV5TlE0SFN3QWxqcUtxLTNqQXFsYkpESTJJ?oc=5"
+          "title": "Inside BTS’ Skincare Routines: SUGA’s Go-To $18 Sunscreen & More K-Beauty Favorites Worth Shopping - Billboard",
+          "published": "Wed, 05 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUzFCY3dMbmc5LXF1Y0FYVUVDdFVWYTVxMDBFYk80VVhpTk83MGNnX0JFc2hFcmRwRDhEalFYdzNDNUFmNUxhVUJTYnpVejRBMVdqTUlkeGlIUUV0eHh2RDU4ZUtPY0N6X2tJU3RCbnhNOFp4YXRqczg3OGZlS0hLOEhtUk42cFdNd01yUDlVVVBpbEZacUNPWUhlbl83M2tLYk9qYVpISTlVeXRRajRjSV80Y1QwZ0hOZHdWVVBWMlk3dUk?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11782,21 +11770,9 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "We Tested The Top 100 Korean Skincare Products: These Are The 10 That Actually Give You Glass Skin - ELLE",
-          "published": "Wed, 18 Mar 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9pdzQtbzJReEhNeTZzaThfaG9kVXBhWlNLTGpGSHV1TXF2eGhNZmdWUTkxS0I1RDVzdVpneEJJWkhsX21seDBkMEk4N3YxeTQ4S3FkWTlELUtFbnZpNnUyZ004bFlnVEF4WUR4eXdvMVVRVC1MVllzOWdQZw?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "15 Editor-Loved K-Beauty Products on Major Prime Day Sale - shopping.yahoo.com",
+          "title": "15 Editor-Loved K-Beauty Products on Major Prime Day Sale - Yahoo",
           "published": "Tue, 23 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRFhmQ0ZWcS1QS2pzRkJyWW03a2VnWklmb3pVQ3RjVUpWeElac0JGb3dZSWkyb0ZQMldHQnJ5bzZtbDdDMUoxbzJKRWgwOWtKekhibDcyZHNJTWVuNVVXZVhKQS1CQ0tZVEJyTGE2NVNBUGZFMDA2TEI1b1VsNDY0c29zbzNlR0V4LURXbFdDNEd1dGZ4ckE?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "Move over K-beauty: K-pharmacy is Korea’s new clinical skin care trend - cosmeticsbusiness.com",
-          "published": "Mon, 24 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6eFNadFFpXzZndmV6Q0VpRDN5bEFEVkN0SHl5dk5tSDlNdURXS0tpRjNhSkEwb0NBenRyak9ReG1DVVZVc1BmQzVpVlRGR0pXY3Rxa2JhWU1mZVlTNFBkMDBSU0dRazU2cDdySUUxNnVVZk4yeHl4aDVR?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11818,6 +11794,12 @@
         },
         {
           "query": "K-Beauty skincare",
+          "title": "We Tested The Top 100 Korean Skincare Products: These Are The 10 That Actually Give You Glass Skin - ELLE",
+          "published": "Wed, 18 Mar 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9pdzQtbzJReEhNeTZzaThfaG9kVXBhWlNLTGpGSHV1TXF2eGhNZmdWUTkxS0I1RDVzdVpneEJJWkhsX21seDBkMEk4N3YxeTQ4S3FkWTlELUtFbnZpNnUyZ004bFlnVEF4WUR4eXdvMVVRVC1MVllzOWdQZw?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
           "title": "The 2025 Top 100: Riding the K-Craze - WWD",
           "published": "Fri, 17 Apr 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOajQ1NU9Lc1VvbjJCSnVhc19hQW1RRVQ3SDMxcWQwQmh4aWprSlZfS05QNWxaLVVrekZ0dU9XSDF2WGpEVXMwbW8xc0xBLVlMNjhsMWRkOEhRSXg2V216S0JZV3UwelRDaU56WGtZalZ1a2FiYk9jd2lvcmhxX1lfamhoOUVubkFMZzRVTGZBdUp1TlY2MXBXQWlsbHlmSmZlVVRyMXlsVjN1Rmxwc0U0ODJUN0pJamRtX0V3R05XSQ?oc=5"
@@ -11836,15 +11818,15 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Olive Young Is Bringing Its K-Beauty Favorites to Sephora—Here’s What to Buy - Allure",
-          "published": "Thu, 20 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrY09pU19jMGI3NVRZZTNXekxSa1VWNXBSc19vZjhaVWNnNWo0UUJwRzdSVE5MODdVdG9ZRmg5emFsMjVjRXF6SUVkc3Q5cGZOeGdnVmhFa2tuelM1UFQtUlJfb3VpcUFFTkpmTw?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "How K-Beauty And J-Beauty Differ—And Why Experts Trust Them - Forbes",
           "published": "Tue, 27 Jan 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc1g1S1p6TUZyVTRUMjRYcE5aZWZ6R2VGYS1KczZzbXhFaGV3MHgtMTVQSS03MTlRMGZBTTItR3NjT1BCeEpkSXY3UVplem5sbVVBSG9mWmpUXzVHV1QxN0lyUXBlMGpVcV9Pb0N6a2VJNUdYZVJXeHQ1cTRPMEpaN1VEb2xTOVA4RExVdkMyZVlpU1ppWTVBWTVNU0szTS0xOTdfcDlSdDJTNGNsbDRLVUZuM0I?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "Olive Young Is Bringing Its K-Beauty Favorites to Sephora—Here’s What to Buy - allure.com",
+          "published": "Thu, 20 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrY09pU19jMGI3NVRZZTNXekxSa1VWNXBSc19vZjhaVWNnNWo0UUJwRzdSVE5MODdVdG9ZRmg5emFsMjVjRXF6SUVkc3Q5cGZOeGdnVmhFa2tuelM1UFQtUlJfb3VpcUFFTkpmTw?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11854,25 +11836,25 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Olive Young is bringing its K-beauty festival to the US for the first time - cosmeticsbusiness.com",
+          "title": "Olive Young is bringing its K-beauty festival to the US for the first time - Cosmetics Business",
           "published": "Thu, 02 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVVJLU2dJSXdWM1dIemFvemR6VWdWSHVTOGxXMVdBS2cwbjRaN0p4Wmh1TEdkNkJDSWFmRzV4eUoxTGRpZWRoTUJMZHh4RWhLNExlRl9Lak5OY3dkOTJ2QWtDUXVZYkU0bUpLMFF6ck1aNUdGRHpuX0xBbHB0ZUdsMHRKM3JIN3ZYTlE?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "We tested more than a dozen viral Medicube products — these are the ones actually worth it - nbcnews.com",
+          "title": "We tested more than a dozen viral Medicube products — these are the ones actually worth it - NBC News",
           "published": "Wed, 26 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBkT1NralB4YzNQSklyUVNfcVdBMDRCMG1FdXJQWERnaXpxRDlyZUlTYlVDSTNDS05HWFlad3ZVR1d3RFYzdXF0TXgxQkNNOU5XOEwwbUk3ZDBLSzRBTGI1NjlVXzBBTEdLdGY4dWxndkdla2hacGM4akQ0X0c?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "The 20 Best Korean Beauty Products for Mature Skin, According to a K-Beauty Expert - shopping.yahoo.com",
+          "title": "The 20 Best Korean Beauty Products for Mature Skin, According to a K-Beauty Expert - Yahoo",
           "published": "Tue, 23 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVThUVVFZMUZqTTd4dFdqbFU1Vm1tSnBXd00zMkNGV1B1WHlBSnVsdmdmRUNHR3dic3hZNE9qRi1KVlI1TXNtZ2U1dm5LR1ZDdUV4QksxdERwV29aNk9pY1FXN3VLTFRNdVV0djFYSUVIbEk1ZkVzdzB3cVpFUXpfaE5yMFFHamRNNVVVYzZYQWxjaEdqczdCSE44UGVodw?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Laneige, CosRx, and Medicube: Best Early Prime Day Korean-Beauty Deals - nymag.com",
+          "title": "Laneige, CosRx, and Medicube: Best Early Prime Day Korean-Beauty Deals - New York Magazine",
           "published": "Tue, 23 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPT3Ayd3ZLdThQbjI0RlFOSnk5QjczVTY2RXFmQjlKNzExRW14dmN0NnYwZTZLZW9vdFdhSVV0YkpfYW14OEc4S2J2ckhFdC1mcjNuODJhclZQanZyUTlxc2ktcHU1S193UWNJSWNjSEtVZ19fQWhTMW1yd3lMVkp4OElvQ2pKZmlLSGFtYjlyUDI?oc=5"
         },
@@ -11896,9 +11878,9 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K-Beauty Trends Redefining The Future Of Luxury Skincare - shopping.yahoo.com",
-          "published": "Tue, 18 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcThhZmVfLW5nWDAtZmtiM0FvdDE0ckZsNlBJVWVvSDY1WTN5UzNwMFJ0aVZSSzFxTXV3cG1abm90QkdpRzVsaGJ5dFJUcnRhcEVqZTNDX1FBRldITTFxRTZCNnRtWHhrU1hBVlBfbVVtQ0NKTF9KM29CZlduMTZ6NmEwZHlHT25aS21DZzAwOVhSbnB1bWowZkNfS0c3bDVQenc?oc=5"
+          "title": "A Look Back on the Biggest K-Beauty Trends of 2025 - Vogue",
+          "published": "Wed, 31 Dec 2025 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xbHJNOUI3NHpqVkJiNVJiWFl1YWRPdnFQVjVjZzhVX3ZFQjRJZG8tNS1uMUZUNUZJM1IxMnJRazkxay16WlppOXJNUU5mT1RrOU1lU05seTFxa0c1V3NWcHNEVUY?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11908,9 +11890,27 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "A Look Back on the Biggest K-Beauty Trends of 2025 - Vogue",
-          "published": "Wed, 31 Dec 2025 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xbHJNOUI3NHpqVkJiNVJiWFl1YWRPdnFQVjVjZzhVX3ZFQjRJZG8tNS1uMUZUNUZJM1IxMnJRazkxay16WlppOXJNUU5mT1RrOU1lU05seTFxa0c1V3NWcHNEVUY?oc=5"
+          "title": "The Korean Beauty Deals Amazon Shoppers Are Racing to Grab Tonight - eonline.com",
+          "published": "Fri, 26 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb3hwckV4UEprdjQwQ2NBbXBBa1N6V1dQbDBGbXpmR3dOVEU5ZHRfbEhHeTlyRTgyQVF6MW00d1FUeEp5OUI1S2hFa2tMWTJtUVN6NU1EWnJRTFBvQnpqWkJWQlpjVTlEREVxekthUGg0YWxDUF90c3k0dEdaM3JDQnpvcHFEbnlTQ09HSmVyLUl5b3ZxX0NVZU5hRkpCUl9Fb2NxU2F3?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "K-Beauty Trends Redefining The Future Of Luxury Skincare - Yahoo",
+          "published": "Tue, 18 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcThhZmVfLW5nWDAtZmtiM0FvdDE0ckZsNlBJVWVvSDY1WTN5UzNwMFJ0aVZSSzFxTXV3cG1abm90QkdpRzVsaGJ5dFJUcnRhcEVqZTNDX1FBRldITTFxRTZCNnRtWHhrU1hBVlBfbVVtQ0NKTF9KM29CZlduMTZ6NmEwZHlHT25aS21DZzAwOVhSbnB1bWowZkNfS0c3bDVQenc?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "Korean Makeup Is the New Frontier of K-Beauty - allure.com",
+          "published": "Thu, 19 Mar 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNMVRORG9IeVUzU0g5ck1tdjVMeEc5U0V0a29yTThVTmRock0wM2NzbEJRZUc4T1gxbEZBRXhsWXZiZTByS1dIZEhxa2c0dVREWUcxRXQtaXVjRXc?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "News | Retailer Olive Young's expansion mirrors K-beauty demand in US - CoStar",
+          "published": "Tue, 23 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYl9HLWJXV2V5bk53Sks2R1kyM3RGbF9jX1kxWURHY2ZvMmlJTTVaNlo3YWhORnlsWV9hMGJ2QmxVMEtZVjFienR1cDR5SWw0VjRjWmwzeGZURGxWYktHcEk5ZmhnSm1YektIbUNqYnVrejQ2ZUhUeWxERmlxODVKczVGdkRkTE0xSUM2bmNrNjh1MFRlMUVmV2VEb0wxZ0daM3Z0b1lB?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -11926,21 +11926,27 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
-          "published": "Thu, 03 Sep 2026 08:12:33 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
           "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - Eastern Progress",
           "published": "Fri, 28 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOVkyMlJwUEdQeGlvdlhURGpYdXJyY1hoWmVWai16TFFhckI2MmR1OFdBd1BCOXNPM1lOYTFmT0J2UExSRGFmbklVRUtsazJhajZZUHh2eTZyNG5mTUc1US16WF9oYzZfWjB5Y3ZIR0UtazJjcXFHb21XdFJ3ZjJUQ2VBWDVoTHE5SkYwUW9raVA5ZHBhcmF0cmNtOENtRXNsR09aYmhuVTU5NHBRdnd0c2pSX1ZndDR0YUE0Q0RTUTAyRllwQzhwZXlLZFRrOHNEclN1MjV0NEdrQQ?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
+          "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
+          "published": "Thu, 03 Sep 2026 08:12:33 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
           "title": "Shopify’s results show that AI is already a driver of eCommerce growth - Marketing4eCommerce",
           "published": "Fri, 07 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLWxOVHM5ZXdvNFg0SzI1NlNxSXlieUpFMGpkdkJON1kyQ2h4SzdyXzdaOHJvV2VxcEF6UFFVNTV2SGY1Y1BnY3JYOTd6R2tDMlgxU3I2UlNrUlowTEtmSVdXV1dzT1ctSGFSNEU3cTg1UU1uUmk1aldyb3d4TW13bUIySzdoT0N6N1RMN1MxQWZHVkNHMjlMMUR3T0x5MThYcmFQYnlIQVpUVV9fSlE?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Shopify Wants To Be Merchants' Built-in AI Agency - ADWEEK",
+          "published": "Thu, 18 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVjFvRFlHS3ZPelZFemxCSEQ5bnplUWFBN0JEV25mQmR2SkNZSWxGVHlScmxJbjFka0NjOFZXSXNfQlEzQmtZS1U2aXZIWFVXdDhEUmhiR0VVNEZsd0E4Y3BYQ19oQTZfeXVxLVNOWGoxdHNaUjU2Z01jbENtanVXVUV3MFFBdHJr?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12016,9 +12022,9 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify Wants To Be Merchants' Built-in AI Agency - ADWEEK",
-          "published": "Thu, 18 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVjFvRFlHS3ZPelZFemxCSEQ5bnplUWFBN0JEV25mQmR2SkNZSWxGVHlScmxJbjFka0NjOFZXSXNfQlEzQmtZS1U2aXZIWFVXdDhEUmhiR0VVNEZsd0E4Y3BYQ19oQTZfeXVxLVNOWGoxdHNaUjU2Z01jbENtanVXVUV3MFFBdHJr?oc=5"
+          "title": "AI Content Creation: 5 Best Tools in 2026 - Shopify",
+          "published": "Wed, 12 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MdkFicGV4LUhLTFlsbC1pdFFjM01DSXdnelo1cGJuMmlvS1k5Y3pfNm03MDdHVTM4aWNEOHhRV3JLdlRqeXhnSDIwZ0xHMTZ3dDBHekVDTC1rcnJzM2NnbQ?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12034,7 +12040,7 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Inside BoF and Shopify’s Knowledge Breakfast on the Future of AI Commerce - The Business of Fashion",
+          "title": "Inside BoF and Shopify’s Knowledge Breakfast on the Future of AI Commerce - businessoffashion.com",
           "published": "Tue, 26 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX3hpZW1XN3h2d0tMUWVTN2ZVSHJlOUdjMHVkeWE0cDdsTmhyX0E0cTJpUkpPS0NHNVk0Y0dpZlllckRzb1puQ1FjODdPclpLdFJvQmtURTNuUEZtZ3JqLTBDQ1d6UlRCTENQclc4NU9SbWdBUFdNRC1WdlpkbGR4djhTZ0lwQ0FxS3l3Tko5QmgwbVA5bUc3WmtTRDJYdXRHNlpQTHhPNEJEamVfVWY1eFBDS3BibG8waUdHSml0UEFNUG5ILUE?oc=5"
         },
@@ -12088,19 +12094,19 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "AI Business Ideas: 15 Ways to Start in 2026 - Shopify",
-          "published": "Fri, 28 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lSWZmcDR2dzJZbG1zSkxkWFlGRWxlSjJGZ2MyNWxkYTI4NHRSTmNOLUlOd1h1cGlpODdNZTlMOXk3d3B5cHZUcjdRVWswNkh2cjdQVjk5LWxoUQ?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
           "title": "Shopify says AI search is driving more traffic and sales, not replacing Google - TechCrunch",
           "published": "Wed, 05 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHh0TWI3dHdLZjBVWnpfTkVlbl9IRVJSY1RGOFdVYVdqSXBzb1JSbU5DVExZTHlwTEVWSGYwSGFrc1MtZFJGVTlRY0RFRWJCX0NmakF0UXZJVHhReGt1Q19ybUlKRkg5RmRKSFBQdXBzUzFUa244TTZocXlwcVQtSHpvcVZJMmxMNGZ2NS0xc3ZRZlowR2xKbHhSem1tRmR0bUVpTlhNLWRUSzY1OHRVVDZ3?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Your Search Results Are Getting Sloptimized - The Atlantic",
+          "title": "AI Business Ideas: 15 Ways to Start in 2026 - Shopify",
+          "published": "Fri, 28 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lSWZmcDR2dzJZbG1zSkxkWFlGRWxlSjJGZ2MyNWxkYTI4NHRSTmNOLUlOd1h1cGlpODdNZTlMOXk3d3B5cHZUcjdRVWswNkh2cjdQVjk5LWxoUQ?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Your Search Results Are Getting Sloptimized - theatlantic.com",
           "published": "Wed, 10 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWTkxNDFjWkl0VDA0WjR0d1F2WXdmRnhEbTVoOVNwWkd4cXVVT0Z3alBHczZWblkzREdtVlA5ZlM4djlvT3I4MWxsbVliMlhsSEptN083bm9QMk9xTzU2eVVlT0R5bzQxV1dMQXpGQ1ZJc0l4bERaQm1MczJfcTU1dm0yWEI4cGF5Y084SQ?oc=5"
         },
@@ -12130,7 +12136,7 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "TIME100 Most Influential Companies 2026: Shopify - Time Magazine",
+          "title": "TIME100 Most Influential Companies 2026: Shopify - time.com",
           "published": "Thu, 30 Apr 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaHcwNmIxV0E5WjkwZnp1QkdJU3N0R3RQaXNJOXpIUDk3bmpsa1BvSmNOQWhQb0pFUEJPVWxBd0FFUk5ERWt6UkxNa2RfWXNacHI4a1RyMWRkSzFuSGdMQkV3ZEozVWwzLTRSbkc0bGFOUVU5ak9NVnBHcXJPTC13Wktn?oc=5"
         },
@@ -12154,7 +12160,7 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "New Ecommerce Tools: May 20, 2026 - Practical Ecommerce",
+          "title": "New Ecommerce Tools: May 20, 2026 - practicalecommerce.com",
           "published": "Wed, 20 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5xNWhhUjBtQXNzQVc2UjJjMV9XOTZaT1VMNng3ME9EeHZGRGxKWjZicEo3clVfYmtRUmRlOUItMVBkaGRFeEgxajhWSzFoT2pxbzg0dWtjT2kwV0loN3BNRlFLTTVXNU1ZXzVISVRfNElrLWtG?oc=5"
         },
@@ -12166,21 +12172,9 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "AI-referred shoppers convert better and spend more (2026) - Shopify India - Shopify",
-          "published": "Mon, 11 May 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xSk1JNUNtNjJPZWJrX0F6ZzhnQVVSQ1ZNU28ycnNsd0ZPN1l2R2tNRm9JcUpmN1RNdUdoUG9zWi1VakNfZkZzU0tpWU5qcUJvNjVxMF9TUWJqYldzbEh4OGtPSVhqRl9VNk5Sa2x3?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
           "title": "Shopify Merchants Can Now Add Trustpilot Reviews to Their Stores - PYMNTS.com",
           "published": "Sun, 28 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONmliQkZZSm8yRV9VVF9zNl9RcGZDaHZUVGwwVm9oUE45bG5VeW14ZFlrT01EOWJ5bWpDRnRTd0h6SzhHZVluNUlZMDZoTmVxbXV1TGxobldsRXBEalJvSDlrVkc1cEtYTDRBQXh4eEVPcmhNTFNXLWpXbndrOFhYTnVUQk5mOTJUT2l0QWVSRTd4QjllT0xOSGlHYVZrLVQtZG9hZUplZk9pUHhB?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "AI Content Creation: 5 Best Tools in 2026 - Shopify",
-          "published": "Wed, 12 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ONnJ2VzNLWFFMeEhxVlF3eUlTRHVqUmxwU0VuRHh2NXEzWS1OcWN6SGdrZV9DQVZvSzdtX0xhMHZ1X2x5SldaMmoxMGVfWVJ2NGFTY3hxUnJFZS1QSTZQYQ?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12190,7 +12184,7 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "New Ecommerce Tools: June 24, 2026 - Practical Ecommerce",
+          "title": "New Ecommerce Tools: June 24, 2026 - practicalecommerce.com",
           "published": "Wed, 24 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YR0lkbDUtblJOajFhYkVreGlscDlCRnFtS2dBdy0xendNOVlZSmhidUlTUGJXcjVOb3JzNEk4eTRTaDhrX1V0Q1dmYzRSZkxXMjlNY0t0NkhZRV9FdUlLZS1YYzYwRVNIeHFXTmk4VUxBa2dIOGc?oc=5"
         },
@@ -12220,6 +12214,12 @@
         },
         {
           "query": "Shopify ecommerce AI",
+          "title": "Trustpilot is embedding its reviews inside Shopify stores as AI search reshapes online shopping - The Next Web",
+          "published": "Sat, 27 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZjNtakJoZUVDUUxPckVLc1BZQUt1Vi1kNWhEajcxSndMaGFtV1lqcDFxQ194YXd6a3ZHTEVSQ0U0dThFRFRjMFd1VjlGV0dKMXQ1V0pwZTl3emlGbDM2RUFWbzdmeklXVUdsMnJKRHluRXJwbnl0czNCLXdnel9ndUl3?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
           "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - Shopify",
           "published": "Thu, 26 Mar 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kZ3BiZThhVlBwRHI4RU41b3VFWF83MDZRbV9lcEI1dWdWS3E3UzdUQUlBMDBXR1FmczJtVUdLMFNqc2o3Z05IWVpwcGIybExlV1RKNDlnbw?oc=5"
@@ -12229,12 +12229,6 @@
           "title": "Target, Walmart, Shopify back Google's AI shopping standard - thestack.technology",
           "published": "Mon, 12 Jan 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcmYxVEVoWmtaTjhwRXJfUmhkYmUtMjJaZHExMDIwSV8xcGF5Z3JQdXFOSExGRGkwNWhUZkxJaUpHVWtyX1ZJVU1BNzRnTWRMZVJ0eVAxWHhOdy03TXJzRlB3RHp1dS02S01QRDZmMmNMb2tDZW9jSm9nNGtLNGJyTUtjYkk4d2tCcnE5LXdtSXRTdlU3bElRcXc4R2YxRmxldndFVm9Sbw?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "Trustpilot is embedding its reviews inside Shopify stores as AI search reshapes online shopping - The Next Web",
-          "published": "Sat, 27 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZjNtakJoZUVDUUxPckVLc1BZQUt1Vi1kNWhEajcxSndMaGFtV1lqcDFxQ194YXd6a3ZHTEVSQ0U0dThFRFRjMFd1VjlGV0dKMXQ1V0pwZTl3emlGbDM2RUFWbzdmeklXVUdsMnJKRHluRXJwbnl0czNCLXdnel9ndUl3?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12298,9 +12292,15 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "ShamlaTech Launches AI Agent for Shopify, WooCommerce, and Magento Stores in the U.S. - Morningstar",
+          "title": "ShamlaTech Launches AI Agent for Shopify, WooCommerce, and Magento Stores in the U.S. - morningstar.com",
           "published": "Mon, 13 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdFhXeEw3Z200Nmh3cFNCTVVzcmFYSGhtQUFuOHNKOFVJSTlyVmlMRzY3ZjR6VVRhOFJfVS1zWndvR25TbEpFTUZLUFhFVEVvSkZkMlpQdGhKOEZ2TVQyYURFc0pZbTN6OTV6V1hlU01qVnRjSnl2RDV0YUxfYnRJTm9tT2JJU01oYlhWWTd3S3JlSDJOTDl5R1BtUXpOamo2NVZOZjd3eHl5YjkteEwwVGRSMzZHMUxVX3hYeHhpdlFRbi04OEJXZkRMdVNWU3Fzc2c?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Shopify Stock Draws Wave Of AI-Focused Upgrades - StocksToTrade",
+          "published": "Mon, 27 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XbnlzLTh1R2ZGa0w3WFpCVDlpRlRYMTA3MmxJRFdVbWtfTkVPZFhjcVI3MWdIQVdHZGp3MVhBOVdvR2QzcG1OYnJKZDFaWE52bHhrNk1ZMW9fSFB4ZmdyM01zamZGNkg1TUw2d3RaOFIydnAt?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12322,12 +12322,6 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify Stock Draws Wave Of AI-Focused Upgrades - StocksToTrade",
-          "published": "Mon, 27 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XbnlzLTh1R2ZGa0w3WFpCVDlpRlRYMTA3MmxJRFdVbWtfTkVPZFhjcVI3MWdIQVdHZGp3MVhBOVdvR2QzcG1OYnJKZDFaWE52bHhrNk1ZMW9fSFB4ZmdyM01zamZGNkg1TUw2d3RaOFIydnAt?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
           "title": "Best eCommerce Development Service Companies in USA - ClickPost",
           "published": "Fri, 21 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51cHZ6NTJfMTQ0QllLb1Q3X2hod3llUmxsRWpDX01WRjVod25LbG44NW4ySE9qNnFwMzRLeFRycEJGTGlQS0VrVFJWQjhUSThGX2tjVGNocUdWUXdOUlFDYnJ0Z1dKUQ?oc=5"
@@ -12343,12 +12337,6 @@
           "title": "AI Business Ideas: 15 Ways to Start in 2026 - Shopify",
           "published": "Fri, 28 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XN3h1el9qb0pzeUI5MXN5M1MyNFAxVUl4bTMybHJIWURzQ1BndFJoRXZueUZZcV9WWE83SG9CWWNjTGY5MVpUaVhyaDQ1dHJZZXNKazNUSmlMcWY4TVE?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "Shopify sellers get in-chat checkout and AI ticketing in one flow - Stock Titan",
-          "published": "Thu, 30 Apr 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSkpqMmtIb0NjRjN3djhoaHZjdEQtQ3M5cEota1N1NTVtMDhKMjVVWmd2cmd3eVVQMnJtOERkaExaMk9OeThCRGMwaVhnc25UUVVwcXpod0pYbGRfeW1yVUhiakJoUWlIVTdDRm1sUVRHNU9PZzBaNVU4V2phcjNFNkRJUTd0Ymw5YTJGZUFnMzIxZFFCc3V5LVhpV181TU1fQ3ZqamUwR3R6RHYzNk0xeg?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12400,7 +12388,7 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify Defies Logic: AI Disruption Is a Good Thing - marketbeat.com",
+          "title": "Shopify Defies Logic: AI Disruption Is a Good Thing - MarketBeat",
           "published": "Wed, 11 Feb 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOUFSaFBxNmQwXy1ySjhGTVFsaVVmNndJVE9VSVUyc2g1cm5Rem9ZdDJ5N2NuVkRnMDUwX1ZVMVM5S0p5SjNTQjNQelBEbzN5UkRITVNCdklJb1ZWZkFhVlVxRm4zeGVCcWx4RjFoQnhWd2JKWkxiYlpFRFRnOVJqSVk2azFTWHBYdkxzSGxHbVo?oc=5"
         },
@@ -12412,39 +12400,27 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "New Ecommerce Tools: March 25, 2026 - Practical Ecommerce",
+          "title": "New Ecommerce Tools: March 25, 2026 - practicalecommerce.com",
           "published": "Wed, 25 Mar 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5TnV1aGRHUmpsejYtUlBoOTdfckZWSjV6U3ZVTWZ6bkE2T3NieWpaa1htQXM3eFVPWXVtMHFOXzEzTEozU3NpR2U5LTZNQUVldDZJQm1sSWNLdW1WWVhCNTlOMDZvSGIwa2h4VlBieGc4SDU2bndJ?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "New Ecommerce Tools: May 6, 2026 - Practical Ecommerce",
+          "title": "New Ecommerce Tools: May 6, 2026 - practicalecommerce.com",
           "published": "Wed, 06 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YdVZ1UEcwQWd0NDZ2UklfNlNjS2NQWlMzdmlnWXRhQVFvRnB5ZjViTFdnQzNVMU5RUXN5S0FNUmszZVI5V09sWGo1LU9IeXZWNXJDd0Y4MWpUNmxpRk1rcUNoUXhkRmg0dGFtSF9DcEhiV2s?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify vs. Wix Stores: I Tested Both E-Commerce Platforms and Found a Clear Champ - pcmag.com",
+          "title": "Shopify vs. Wix Stores: I Tested Both E-Commerce Platforms and Found a Clear Champ - PCMag",
           "published": "Fri, 20 Feb 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcWJKNTUyLUxtYjh1algyc25UUGJydkRwS1pJWnpWaURXYXJCSjNUN2JYVGU1cXZJUGxjaTVkNGlEVDNnYU83akNSRUtJY1N4NjVqc3Nxc2dqX3NOaVY4eVk5dVNWODItY2QtQmtCTHo5eEpiaE1sS25qajNxY1RCak80Q05Gdkp0NDhzUFB0QWNkUTM0SFNNWi1lakRnY1ZRY2ZPNW1MMUstYTJE?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Using AI in Ecommerce: How It’s Transforming Online Shopping - triplewhale.com",
+          "title": "Using AI in Ecommerce: How It’s Transforming Online Shopping - Triple Whale",
           "published": "Mon, 22 Dec 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0tVUQ4M3BMY2RobFA1ejZxNEdiY3V6eTlCSDZwRmQ2bENUbHpuWkpDX3ZITFhwZzhTS1hMS0o5Tm5fdC12eUlZV2o2TFBzSTdZczVmSmlpZlcyVWs5?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "What is Virtual Shopping? AI Try-On, Benefits and 2026 Trends - Shopify",
-          "published": "Thu, 20 Nov 2025 18:58:23 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80SmZIUEtZNmZjNkJyUHU2d2FxMW1oNk5BSXNtSWlsaTdrQlhtb29UTlVCMmd3ZkhvMDlYS0tNNlEyRjVJTnF5S1FIcTgwQWNqbGNBanFUX2lzR1drZWNxLWNSVmpuMTQ?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "Shopify has been on a tear in 2025. Can AI give the e-commerce stock another boost? - CNBC",
-          "published": "Mon, 01 Dec 2025 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYU5hLUV0VUxuYWd0cFdzOTlVZXlhNGVudGVZZlpuRnJ1OG9BSEFfSGtwcGRGNklnY2VoZzUyM05kY2FUVVpJRG9pNUZycWVxRGR4TEU3YU5INnBnbEFvTFN2Ry0zX2RzN2ItSWF6TjFGVXpLdTh4emVjSmMzcENYZEJYVlREQ01UNGp3OTdKWTM3MnkyNGZkTXdnR0xKZ2RzZTA5NXVoQUw3ZHk1Z0V5T185dXpQUUVXUWc?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12454,15 +12430,21 @@
         },
         {
           "query": "Shopify ecommerce AI",
+          "title": "What is Virtual Shopping? AI Try-On, Benefits and 2026 Trends - Shopify",
+          "published": "Thu, 20 Nov 2025 18:58:23 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80SmZIUEtZNmZjNkJyUHU2d2FxMW1oNk5BSXNtSWlsaTdrQlhtb29UTlVCMmd3ZkhvMDlYS0tNNlEyRjVJTnF5S1FIcTgwQWNqbGNBanFUX2lzR1drZWNxLWNSVmpuMTQ?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
           "title": "11 Best Ecommerce Platforms for Your Business in 2026 - Shopify",
           "published": "Thu, 25 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB2TDF2azRJcDhCR2hOWW5sX19NNGxuVmFMTDRjNl9HVVV2S2p5cHpGN21iNDB2bXB2cUxlaExrS2FrWlZ1UDZMRTJyWTg1NFR3aTU3OEJyVzh6dUk4VGR0TEpDcw?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Key Digital Transformation Challenges in Ecommerce for 2026 and How to Solve Them - Shopify",
-          "published": "Sat, 17 Jan 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rUEwydmN0VU9lMVl2X0NuMldBLWJqQU0xX0JIZWwycEwyUHhnQ2FjajgzbWszanVDNHU2QUpjc1F6UGdTRW1pUVd5VGhJTXVCUDkyMjl3MFNsRzJyWFRpUm51NXhiWkttWEFnMG54V3FQR2JZS0FhZG5VTXR2QQ?oc=5"
+          "title": "Shopify has been on a tear in 2025. Can AI give the e-commerce stock another boost? - CNBC",
+          "published": "Mon, 01 Dec 2025 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYU5hLUV0VUxuYWd0cFdzOTlVZXlhNGVudGVZZlpuRnJ1OG9BSEFfSGtwcGRGNklnY2VoZzUyM05kY2FUVVpJRG9pNUZycWVxRGR4TEU3YU5INnBnbEFvTFN2Ry0zX2RzN2ItSWF6TjFGVXpLdTh4emVjSmMzcENYZEJYVlREQ01UNGp3OTdKWTM3MnkyNGZkTXdnR0xKZ2RzZTA5NXVoQUw3ZHk1Z0V5T185dXpQUUVXUWc?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12513,8 +12495,26 @@
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lWjBLUm9KZEw2RWhDbnMwVk5tWG14SnlUaGlidTE3c3hzQ3VacGZfd1RKX2Y5SEk4SmNvYTA5cjhDTnZoZ2kwSHp2dUVVZ1B3ZjRLam5RaFhYMW5IVjdTNUItRGY?oc=5"
         },
         {
+          "query": "Shopify ecommerce AI",
+          "title": "AI in Retail: 10 Use Cases and an Implementation Guide (2026) - Shopify",
+          "published": "Tue, 23 Dec 2025 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BZWJpbmRtY3NGOHlXajBRNkZMMi1kSmNweW5lYWYzMTdBd08waWVVR3JFZVBvck1GMGdiMlQwZWZMa1RDUVdNT0J1VmU0NDM5Ymc2TDNoMjB3dUpyU0hxc0FR?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "7 Best Ecommerce Analytics Platforms for DTC Brands: Features, Pricing, and ROI Compared (2026) - Ask Luca",
+          "published": "Fri, 27 Feb 2026 09:42:18 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rZktSWEpid3RqbWs0cmc4Q0pULWZNdGh6cVpxZVdFOHVMOXB5N3dNT0dqN0NlWlNyOEtUWm0yeFZMLTF6LW53TzFJVVRCVkFQUHNycldlX2JzY0hLZElkOTVmZXpyTVE?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "AI Tools for Business: Best Ecommerce Picks - Shopify",
+          "published": "Wed, 17 Sep 2025 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1hQU1qR0NKNE1zZ296elR3aVItQjhiRkh5MDlIbEFBMUJQZWFFcHdlRTdYX3ktQzh5aE1DY3ltRWE0NzV2S1lUUmVfS1NJMWJLN0MxV1ZvUEhYNS11TDlhcHgyNA?oc=5"
+        },
+        {
           "query": "TikTok beauty trend",
-          "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - miamiherald.com",
+          "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - Miami Herald",
           "published": "Mon, 31 Aug 2026 19:43:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxUk1UYUJPcXhnWjlFczJhckZRMjlLM0ZFX1hnclN5cjk0d1prbVNWNWZqVWFMX0M1N2VSY08tNzNteDE0NDNsdWN4SmpTUkpzSDVkMFFhdndkRVBXNGZWRjhuUXpqTWvSAWdBVV95cUxNM1p2Wmx6MVYta09USHF2UUU0MWthTlNwamRPQWUtV0FMbF94U1Zjc1RrN2pUZVg5djlwc2dyZk8zeV9PT0VrRVhUWEJlZmlMM2xHdUk3eUJNUFNkV1lRRFRuVUE5TFpZ?oc=5"
         },
@@ -12574,7 +12574,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Gen Z: leading social media for beauty inspiration in the U.S. and UK 2026 - Statista",
+          "title": "Gen Z: leading social media for beauty inspiration in the U.S. and UK 2026 - statista.com",
           "published": "Tue, 12 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNkZXb0hsZzV2VlVYNlQzbVdpcnVLZ0VzdzFDbEE0ZkF6UnRiV0Y3LWJxUnRZa3dNbG9oYTVrS1JEOHRyNW5TWk5nVFYxbVRsWDd2eFc4MUxFdkxuNWpOaE03OHVNclh4QkFhWmdxbUF0V2tPcVRkLUhKdUVlNW9Ed2E3MDJGbkM0WEJDUG9mSkR4LVBvOC1nWjZMdFRjZWdLeXFoQzlTSU15N3JGcGpNdlV4QTY?oc=5"
         },
@@ -12604,7 +12604,13 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "What the experts really think about TikTok beauty trends - evoke.ie",
+          "title": "Toasty Makeup Has Been Signed Off By TikTok As This Summer's Top Beauty Trend - Glamour UK",
+          "published": "Fri, 15 May 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1kcDJjZFpJSlN4dk9URzBsR1VxclhxNUdwS0UwNGRmQWpZNnJXdXBDREw5Wnk0NWJNamhwanloSUZyckp0Q1RnNU16SW5HNE1CTUNlOWVPTElIVkUxTE5qYU9UdnlxZw?oc=5"
+        },
+        {
+          "query": "TikTok beauty trend",
+          "title": "What the experts really think about TikTok beauty trends - EVOKE",
           "published": "Mon, 13 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aS1RUM1BFcWNxQlVKLTRlRWFJSDFnUk1YMllsV2txUmo0bURWajhjNmRXaDZEakhhUjdJdGtzR0Q4cENjQnZQS25iMk5uTFdKNFJ4M1Jmc1g5dFJuQjNFTzJlQy12MnpXM0VKUzZZXzVJamlNN1U0eg?oc=5"
         },
@@ -12622,15 +12628,15 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "\"Glowcations\" Are Trending on TikTok — I Put it to the Test at Coachella - popsugar.com",
-          "published": "Fri, 17 Apr 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBINEcxQ2VXdjRLVWliaFVHeTFTZmQ3d2EtZW83MzA0aHlIN1JHaGdSd3RXSTVvNE5USkpPRXU3WnBQZkY0WUZfZzdrRngxVUJmWHZIYVBEVW9ybS1JcWExRmREZl9tYWtaZnNNX00weS12MEtzaDJzblpZQ04xaUE?oc=5"
-        },
-        {
-          "query": "TikTok beauty trend",
           "title": "My FYP Has Been Looking Especially Frosty: The 10 Makeup Must-Haves Leading the Charge in 2026 - Who What Wear",
           "published": "Tue, 24 Mar 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CMnVNeEZCT3N2ZDNJamhaV1pSWmdwdnpYdFJaZlI5Nk1HaXlPQzlvQmdPM0VJN3BhSWdUdEQtWkFXUlBaS3luM0tvaFlVQXVGbVktaXZaenN2bFBkempRMDc2RkY3YVhVNE8xZ1VCOXprb1FfaVE?oc=5"
+        },
+        {
+          "query": "TikTok beauty trend",
+          "title": "\"Glowcations\" Are Trending on TikTok — I Put it to the Test at Coachella - Popsugar",
+          "published": "Fri, 17 Apr 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBINEcxQ2VXdjRLVWliaFVHeTFTZmQ3d2EtZW83MzA0aHlIN1JHaGdSd3RXSTVvNE5USkpPRXU3WnBQZkY0WUZfZzdrRngxVUJmWHZIYVBEVW9ybS1JcWExRmREZl9tYWtaZnNNX00weS12MEtzaDJzblpZQ04xaUE?oc=5"
         },
         {
           "query": "TikTok beauty trend",
@@ -12646,7 +12652,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Say Goodbye Bronzing Drops & Hello Bronze Water Tints: Why the Victoria Beckham Item Is Nearly Sold Out - E! News",
+          "title": "Say Goodbye Bronzing Drops & Hello Bronze Water Tints: Why the Victoria Beckham Item Is Nearly Sold Out - eonline.com",
           "published": "Wed, 13 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUlNoajRRRC1NQ1VuZHBUbVpFQmU4QWV3SkRPb1gyWWZONW5sRURQT0hZS3hfUjFpSnlwdmZhTDZTMnp3SHp5Uk9IV0hsU2lsTXdEQldMM3FwTzZsYVhLWDFLV3BwZlN6UXNhT213QmxKQktHN20wNnZNV1Y3ZzgwclVKQl9Uc1VBaGhNeXlVQ3Y3dHZ4R1MwOXpGUVNPR0hy?oc=5"
         },
@@ -12664,7 +12670,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Sorry \"Clean Girl,\" Messy Hair & Makeup Is Back - thezoereport.com",
+          "title": "Sorry \"Clean Girl,\" Messy Hair & Makeup Is Back - The Zoe Report",
           "published": "Wed, 18 Mar 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBnb211dGNSVE4tVHpGVXpUYVNNdDZCcGdtYi0tb2l2TnVGLWRVZklSOGl5b0U3bnJQRzRNV3FLTEQ0VktXejBDWTJBRWtaTkp6SXBDc2VZMW1mU2cxWjhYcHhWV0t5Zm1EME9z?oc=5"
         },
@@ -12676,15 +12682,15 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "8 Trending K-Beauty Products To Buy When You’re In Korea, According To A K-Beauty Junkie - Harper's Bazaar Singapore",
-          "published": "Tue, 11 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOWlYS0M5WnAxTU02UFljUlNndTlMVWNkY0NoNllFVU8tTXlwVWdHd21rQTl0ZlQ5NVo3a3ZXYUVsZmxEaVBYUG5EeVFRMDR3T29jZTdmeHB4NnBSYklBc2RucDVIUnZZRlJockZSZzZTTmFqWlRLRTNoSEFLVnJsOGRXdXRkUnBoY1c5c1VXQmYtcnlq?oc=5"
+          "title": "White blush: the viral TikTok makeup trend explained - nss G-Club",
+          "published": "Fri, 20 Mar 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb3VTd0lXdjlfRkx5NUdYeWRST1U3cWE4S0xCbk05Z0xTMmVzTWZtTWo2bGR3ZXJsSE1XNEc5SzlMSmQtdThYUmtMN2hRa3pwZDRBZ2tkZFVnb0pjdk1MV01IekcxYkRsZkp2MVdPS0hNb3k2dllpMXBYLUM0MFJiSlZ3?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "White blush: the viral TikTok makeup trend explained - nss G-Club",
-          "published": "Fri, 20 Mar 2026 08:29:42 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb3VTd0lXdjlfRkx5NUdYeWRST1U3cWE4S0xCbk05Z0xTMmVzTWZtTWo2bGR3ZXJsSE1XNEc5SzlMSmQtdThYUmtMN2hRa3pwZDRBZ2tkZFVnb0pjdk1MV01IekcxYkRsZkp2MVdPS0hNb3k2dllpMXBYLUM0MFJiSlZ3?oc=5"
+          "title": "8 Trending K-Beauty Products To Buy When You’re In Korea, According To A K-Beauty Junkie - Harper's Bazaar Singapore",
+          "published": "Tue, 11 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOWlYS0M5WnAxTU02UFljUlNndTlMVWNkY0NoNllFVU8tTXlwVWdHd21rQTl0ZlQ5NVo3a3ZXYUVsZmxEaVBYUG5EeVFRMDR3T29jZTdmeHB4NnBSYklBc2RucDVIUnZZRlJockZSZzZTTmFqWlRLRTNoSEFLVnJsOGRXdXRkUnBoY1c5c1VXQmYtcnlq?oc=5"
         },
         {
           "query": "TikTok beauty trend",
@@ -12694,13 +12700,13 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Latest TikTok fad touting ‘miracle oil’ to remove hair is flawed | Opinion - miamiherald.com",
+          "title": "Latest TikTok fad touting ‘miracle oil’ to remove hair is flawed | Opinion - Miami Herald",
           "published": "Wed, 01 Apr 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1FT0JqZk8tT1NWU2hYNWVfTjZNQXlCVUtMZ3VZOWRzRHZGSEFVZXZzYVVMTkNHSVI3cXdtbTJVZlB2dTE3RDhLY3lJaVA1SEFNQWhlVTZmbUh2VGVKaUF3WjVwVjdBNXhfWU5lUE1KY0hNM3dVcGJsNnpDWdIBe0FVX3lxTE9ET21CX19UcUZFOG1wbkNtYkZDX1ZkWlhHMUwtNlFxTW9uYjJtY014UldKMmdpRjdlQUIyRzRITkdSR0ExUktFd0lGX0h0b21CTXV0M3BUNGpTcHN2dWRLNmt1REoycVIzWlM3S3ctbV83QTJ6dkhBNm9tVQ?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "'I'm a pharmaceutical scientist. These are the most overhyped skincare \"trends\" right now.' - Mamamia",
+          "title": "'I'm a pharmaceutical scientist. These are the most overhyped skincare \"trends\" right now.' - mamamia.com.au",
           "published": "Wed, 08 Apr 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44ajctZjNBYnZBbjNudndjbUFIRlQ0R3VYZjNCSlA5QnQ3WVpsZFhhRzdrUUk4QlVxYWtpX3d5X2VySlVaSzdSc0l1cUJPYXk5czNOR3MyUUlyNjduRWZNQ1FvYXYxUXQ3di1hNw?oc=5"
         },
@@ -12712,13 +12718,19 @@
         },
         {
           "query": "TikTok beauty trend",
+          "title": "Viral beauty trend debunked: Experts warn lemon and olive oil ‘glow skin’ hack may do more harm than good - Malay Mail",
+          "published": "Sat, 25 Apr 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNOFhXSWFFb2ZaSEVHbUwzSjlYWUtidVRuZkctWmRsM0N5c3NoNEF2X0xLd2tlSXdNTm9jUmpUbld2NWo0cXByVlZiTl81bnZ1UEUza2xuaHFuRWJrRlZqeHNNTVlQRXRwa1IxRmJBZEQ1dzUxWDVVQl9nQVdhVlgzdkV4eDNUcjlQdEUzdkFGd0t1YUFKSDc3c0NROXVzUnhzMndCam1MRGJrRGpiUl9oVkFRUE1QNGxQc0tWOHpobkRMYnh1d3dNSEItdWhTenoxdWY4MkxPSzQxV0psLWg3aU85T0VfUVlDVjA0WjNR0gHzAUFVX3lxTE1lbGpQQjRvVDE0eFRrbTYzWEd4Tk9lZXZWUFdpaTV2dTZvLS0wZFdIV2dzT3dyZGFGMm1ySFFHa1lHaDU3dDZLS1FHUDhEM3dwaXpjcmRibm5JTXdtVGY0aFJuSjhWU3BaU1llWDViYjlQcGhiSjhhRG02N25JanR4RTRzS25mX29vbFZuaktTTkg0NmQ0SzU2ZDI4dWVIUjdkV2lrVnA2b1VvTzJJY3o2TWZFMEJiZEpzT29iY0FDZGZUQWFxRWh5T2FzYXFMOGFHdExqU0JRbVFJOGg4c3ktUFJhWWV1MWgzSzZBc3Jsa2JtWQ?oc=5"
+        },
+        {
+          "query": "TikTok beauty trend",
           "title": "The Vogue Business Beauty Trend Tracker - Vogue",
           "published": "Tue, 04 Nov 2025 09:49:54 GMT",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96eFRtR1g5NG15VmJxdk9GX3B1V1FJdWRDdkJPb1pHMWk3d2pwMV81WFBURlJxaHRadVZTWUFKR1VSc21KX1lyVTUxa2NSa05nRmxUU1FRb1hFVWNvc2hDZ25YYUQ0Y09jMzNhLTZuWGk?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "What Is a Bebot and Why Is Everyone on TikTok Turning Into One? - Hypebae",
+          "title": "What Is a Bebot and Why Is Everyone on TikTok Turning Into One? - hypebae.com",
           "published": "Wed, 25 Feb 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPc1g3UkF4Mk9kSW5FaC1HRGljdjBoR3gxc09jUG1CaGxkZERxR2dUcjJmdm9XT1Z1RkJwclc2MThaSE93eV80RDFqWW9pQTdnZDBsd0ZMV19hbW94ejZPSlJsQTdzemtMUk5NaldJWmpndjAyYVczVzlWbkJNUVJaYQ?oc=5"
         },
@@ -12733,12 +12745,6 @@
           "title": "Year in Review: The Best Viral Beauty Products of 2025, According to a Chronically Online Editor - Cosmopolitan",
           "published": "Fri, 19 Dec 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTG0tdDBsQ2JFZTFFWEpsdlpzZzY4U0JuNGFYN0pHN2dlUWhIbjF5cjNFeWNJc2pweE8yWWpwTVFOZWJVYXpHcUZMX1BoazVUdDlJdS1iQ25sWV85NHVpVHRyZW9zTFdXMXRHTERPQW5UWDg3VU1DSnEwSkRVUmhVeWpUX09YWHNPZTBlT1dsNXUwd0hMdWc?oc=5"
-        },
-        {
-          "query": "TikTok beauty trend",
-          "title": "Everything Shower: the TikTok beauty routine causing aesthetic burnout - nss G-Club",
-          "published": "Wed, 11 Mar 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdnBWRll3VzY2aG5DSkJUaXFjNUZFaTdlcnE1bWVwNEJnTU9xdVg4Q3RVeHFtQjdobmthdVBVSU1YQVR3dFZLcG5XbjA1M2s0dk5MbnNBYjFheU1TTW1mVDV1T09qSWtmaEt5U29HYk1nclE3VWc4VXI1TV91LXh6R25VUUlzQ3M?oc=5"
         },
         {
           "query": "TikTok beauty trend",
@@ -12790,15 +12796,15 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "TikTok reveals top beauty trends and brands to watch - TheIndustry.beauty",
-          "published": "Fri, 19 Dec 2025 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMFlvT2wxX0xqbExscE1PaEpoUkpNcFZiN3IxVk1CakM5bW55YUdmUVZKeTdOVjNxX1Z4RGM3dml6YVZ0LV95NkVBS1R1MkF2clI3TkpJZVRrMWloOWd4R3BYWVB4YmptTmdIc2tVYUxvelBPYUd3cTh6bTBKaUJsWmlkRlZmSlN4VGIxSWl0V3FpMXl4eWUyeFFBUnZ2cmlKVkVyeQ?oc=5"
+          "title": "Is 2016 Makeup Back for Good? - hypebae.com",
+          "published": "Mon, 27 Oct 2025 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbWFaR3ktSVlScFJucmJZUXNYNFF4Y1VnbThzbV9HcGlWenZ5am5xMHNLTGpuWW1pSXN2cGN5UTVVcVYwVkpNaUppLVRIX0YzSFN2NjRBQUNoQnVGTHppTUxwS0xqQjZaa3Vkclo0WTgwODAyellMUmRqMzZ6VV9MbHJSMmJXYlFUaVE?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Is 2016 Makeup Back for Good? - Hypebae",
-          "published": "Mon, 27 Oct 2025 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbWFaR3ktSVlScFJucmJZUXNYNFF4Y1VnbThzbV9HcGlWenZ5am5xMHNLTGpuWW1pSXN2cGN5UTVVcVYwVkpNaUppLVRIX0YzSFN2NjRBQUNoQnVGTHppTUxwS0xqQjZaa3Vkclo0WTgwODAyellMUmRqMzZ6VV9MbHJSMmJXYlFUaVE?oc=5"
+          "title": "TikTok reveals top beauty trends and brands to watch - TheIndustry.beauty",
+          "published": "Fri, 19 Dec 2025 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMFlvT2wxX0xqbExscE1PaEpoUkpNcFZiN3IxVk1CakM5bW55YUdmUVZKeTdOVjNxX1Z4RGM3dml6YVZ0LV95NkVBS1R1MkF2clI3TkpJZVRrMWloOWd4R3BYWVB4YmptTmdIc2tVYUxvelBPYUd3cTh6bTBKaUJsWmlkRlZmSlN4VGIxSWl0V3FpMXl4eWUyeFFBUnZ2cmlKVkVyeQ?oc=5"
         },
         {
           "query": "TikTok beauty trend",
@@ -12808,7 +12814,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "TikTok Wants You to Look Drunk With Blush - Hypebae",
+          "title": "TikTok Wants You to Look Drunk With Blush - hypebae.com",
           "published": "Fri, 14 Nov 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOW1NUTNWQjdBNk5UWmVCc2RBVmRWYTBzcGptMmRBTlp6OUxhRmhuZE5hVWI2d0VZRVJ5RkRJbTZsQUc4VUdZdFlqYm5Fb21Ia3doaFU0ajNmR2VtTlBnM0ozNUk1WE5MeEdnenJxWUJjdmNGcVQtVEhtQ25BcEpQLQ?oc=5"
         },
@@ -12856,13 +12862,13 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "makeup trends - The TikTok beauty dictionary you didn’t know you needed - Cosmopolitan India - cosmopolitan.in",
+          "title": "makeup trends - The TikTok beauty dictionary you didn’t know you needed - Cosmopolitan India - Cosmopolitan India",
           "published": "Fri, 27 Feb 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdzRHdW02djFoblZhbWdUaDFZMDJzb2xWbE9HaGhsNGRTYmMyUlUwUVEtVUY3NlNOcXNtQmlvaDRXYVBCc21FX1VweU41STZ3QWNiQ05pV0tzN1p1LUFyT0tlQ2l2RkNBcDJsZEJWWlVpbVVQSXJoVmlCR2dPZDJ3TF9LcnRGRnRWZkVsWDI0YndGdkgydUlkUXA4ckJKTE83aEtLY1V2R3VXZDhObFhsRjV2RnMtNGtsS1VnRHpDT0rSAcYBQVVfeXFMTXd1ZmNDYjdfV0EzMXVjZldqZlJpMUN4ZlJLTnNYOGVjREE0TnIwaGEtQ2ZiS0pjRnMxZE5XYzBrbVg0aXpXNEpJTkd1c2hra0FsSnllVTJSak9uZnZYM2ZaRWUtZ2hQdm1yelNWRW1KN0tScFZUQkU2eFczTUZpOVVnT3B5RUx6TkVOVWZMN0JZczJHMmZENWp3ek1SNlpSd1Z4czdWYjhacUJnUThBSTZHRDdBVk00Z3RFVGlES0N5ZjdhME1B?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Why Does \"Birthday Makeup\" Make the Internet So Mad? - Hypebae",
+          "title": "Why Does \"Birthday Makeup\" Make the Internet So Mad? - hypebae.com",
           "published": "Thu, 09 Oct 2025 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUHRGeTZDWUxGbDUzSlpCdGxsQUg3eTg4bWVGUHc0Zjhjc1pzeFROWXRSajVaZG9qVXc5aFdWdUVDN1pXd2dzaDBNeXFuakhENlhnaWtiOFRPbU92NW0yZ0ZfRldLWFVyN0w4b2Npb2tHZFRyOEk3Z2ZLRVNVUzJDZUl0R3FDeVo1S1lCclVR?oc=5"
         },
@@ -12874,19 +12880,19 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Tomato, strawberry, glazed donut : why is every beauty trend named after a food? - culted.com",
+          "title": "Tomato, strawberry, glazed donut : why is every beauty trend named after a food? - Culted",
           "published": "Fri, 14 Nov 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRDA4Z1VXRzVEOGUwck9aQWNQT1Q0TG1mLUVaTmxWblFwMTBfOGlXY0NONDVyelFpdzBMNUtXVTBfR0pvYW5NZFQzaG5SUWxFdEd5akcxVl8xUENQQkhLaWVmVjgtREVCc0paMFFYN0lSeEFkTGJhSGR3a21pbklkeDRlWGN3VVlmVjVPNWNqNzhOc2s?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "How TikTok Trends Feed the Beauty Product Pipeline - The Business of Fashion",
+          "title": "How TikTok Trends Feed the Beauty Product Pipeline - businessoffashion.com",
           "published": "Thu, 06 Feb 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWmFxLUIyQXB1NHAwWEhxRmdOUUktNEVab2FpUGRIUEFCLVRITC11cjJIUV90VGpZU01DSVpjRWNjdXF1QkFsOEdpMXVQc2ZuRjlwYXNoenJhVEZvRkRudmllTlhwWW5SYW5qdkdPeDVRVkpyVVVpR1FmaWxRZmpPMjlDdDZVWTRyMDdfWGN2ZzdINU1pQlBKNHRjVHFTQ2d5R0tZ?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "TikTok ‘no-makeup movement’ trend rises in popularity - News Channel 6 | Wichita Falls, TX",
+          "title": "TikTok ‘no-makeup movement’ trend rises in popularity - newschannel6now.com",
           "published": "Thu, 13 Nov 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdnlscm0zWkRUSjZiVVhpaDVEMVR1ZTFrNTFtQ041bndYT0trd3dHcDZpM2EtdmpDWThKaWZTRmc5cnVQZkJqVkIyTllXX3RqdEFiRHFfY09pMFVFaUJyWFNmNWh6c2NwU2I4RXI5UEpfMldCeHhnQ3FrM2ZLdXJYd3ZRSlpoZ3gxT3RJaGJiRDNTZjlWMHdr?oc=5"
         },
@@ -12898,19 +12904,13 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "How K-beauty went from a viral trend to an economic powerhouse - BBC",
-          "published": "Fri, 02 Jan 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kczlzS055ODhSSGdDNlE1eXQzTE9FcTRHbV8ySUxudlozcHJvM3lXY0hJei1pemNjZ0wxUWlwWUFIVW5lRl9NX280R29PNWt5WkZrMmJieXY2dw?oc=5"
-        },
-        {
-          "query": "TikTok beauty trend",
           "title": "The Recent Beauty Trends Taking over TikTok - BeautyMatter",
           "published": "Tue, 20 May 2025 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTFc4Zzc0QmZXODVDS3ZTbUFKaVZsSHNQeGM2VVpHbzJjRTZRODdXZVVfeTBJdEo4RXJ4UjhiOHkxc21BZEJ2Z2VNdG1hVS11dzlzWXY3NHczaVN2UDBJZWdxems2ZERBQkJrVmM2U3VWbjM5SG1fQjEyU3RTZXhPZGhhT3A?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "What is Sugar Plum Fairy Makeup? How to Recreate Hailey Bieber’s Winter Look - L'OFFICIEL USA",
+          "title": "What is Sugar Plum Fairy Makeup? How to Recreate Hailey Bieber’s Winter Look - lofficielusa.com",
           "published": "Thu, 05 Feb 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT1JINkUwYUt0UzNraXZvRk50WXFYbHVtbHJCX3lWLXVmbk1IejZVTzFhNFdZSjJKcTlmR0FsMDZIbnhGT0JIVU5qUFFVU1Q0aFdPM2NzWms1cHRQRExHZ1pkOWFGY0E5YWRtLU4tbzVTeWVITVhqc1VHT1d5Z0h2QlhDUVhZVU5EOWxJQlo4bXNlT1l2anptaUhkVHlJb1NDc2dnX25venU4alJxMjdtWV9fSmxyXzY0WEk2SlppZ3ZEZjQ?oc=5"
         },
@@ -12922,9 +12922,15 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "'Skin care in a can': The fishy beauty hack once again taking over TikTok - nbcnews.com",
+          "title": "'Skin care in a can': The fishy beauty hack once again taking over TikTok - NBC News",
           "published": "Tue, 03 Mar 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMDc4djZpV1ZjSDdLcXFaVUd2OEZ5N3NFU09DVWFJRUU1N2g2MFcxdjEyY1BFaTFFQXV4bkRjNko4ZlZHZnZEc0dhb0M1YWJtc3NiM1VPUWxMbGpvMXRVZDA4TzRTYVRyUWp3NHVkVndEbU5BN2JmbnE1b1FuZmx2cmg2ekVZb2otR0l1VEJMY3hVZ2xs?oc=5"
+        },
+        {
+          "query": "TikTok beauty trend",
+          "title": "How K-beauty went from a viral trend to an economic powerhouse - BBC",
+          "published": "Fri, 02 Jan 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kczlzS055ODhSSGdDNlE1eXQzTE9FcTRHbV8ySUxudlozcHJvM3lXY0hJei1pemNjZ0wxUWlwWUFIVW5lRl9NX280R29PNWt5WkZrMmJieXY2dw?oc=5"
         },
         {
           "query": "TikTok beauty trend",
@@ -12952,9 +12958,15 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Cosmetics Business reveals the top 5 TikTok beauty trends of 2024 in new report - cosmeticsbusiness.com",
+          "title": "Cosmetics Business reveals the top 5 TikTok beauty trends of 2024 in new report - Cosmetics Business",
           "published": "Thu, 01 Aug 2024 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNV9XQXRzRy1LbmZjTkxmMWZUbU81d05DbXRjQVEyZXNUZ3ZlcDdWUFE0MzhuQ0NQZjhQY1FZT1J5SkVJTVNXU195YkR3MXAzWDJQTXFQMzRhS1lobFRBOFdQWXp1aERSQmFWbmpJTnZ1S18tZmZicE5CYnFqUmlGamh3T1lmWjg?oc=5"
+        },
+        {
+          "query": "TikTok beauty trend",
+          "title": "Every Beauty Secret This Gen Z Editor Archived From #BeautyTok (You Know, Just in Case) - Who What Wear",
+          "published": "Thu, 30 Jan 2025 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZUWthN0FWZ1Z6b3Uta0YtbG92QnpPZnZxMjZBWGkzV3pJM2FPMmJWRWZxekRnOWtFTW9kX0VVRHhsRG5ndWhkeDJpaUpnSVFXZnRGdjRwVEIzYzBWaVItTjZWeDY5Zk1SU3pob1JuZzFUcndxMnc?oc=5"
         },
         {
           "query": "TikTok beauty trend",
@@ -12970,7 +12982,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "This Makeup Trend Is Convincing Beauty Fans to Believe in Astrology - Hypebae",
+          "title": "This Makeup Trend Is Convincing Beauty Fans to Believe in Astrology - hypebae.com",
           "published": "Thu, 28 Aug 2025 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbFA3cUZQWFEwa2ljVjdSTFBMcjdhdzdKS2pnSm5jMWVILUQzQTU4clNmNVVnMTBHY0ZTNjdqeWU1bU1kbi00eGtXdzJZU041TGMyN0xKa1A3ZDdEdXlHbHcxemZuTEtLUE9udGd0TE8wNTB1MTZFUXE0N3g2QnhkeEJKOHZzc2VYX0IyUlRB?oc=5"
         },
@@ -12979,12 +12991,6 @@
           "title": "The 3 Beauty Trends That Dominated TikTok In 2024 - Vogue",
           "published": "Thu, 02 Jan 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPa0t1ODhYYkRWM3ZvcUswVDN3ZmhFTFZPQ0IxVEtzeFhOY3pROGdJcGt4blNRalhadmRXSy00bkZPdW9FSXhKQi1QYTMtSDhnaTZlb1NFQ3VfSjNKelVhbzRoUWRaR1VkVk93ZGNabkRIMjZKejNidWxYaVFuTEtqZFhyMnFYZw?oc=5"
-        },
-        {
-          "query": "TikTok beauty trend",
-          "title": "Every Beauty Secret This Gen Z Editor Archived From #BeautyTok (You Know, Just in Case) - Who What Wear",
-          "published": "Thu, 30 Jan 2025 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZUWthN0FWZ1Z6b3Uta0YtbG92QnpPZnZxMjZBWGkzV3pJM2FPMmJWRWZxekRnOWtFTW9kX0VVRHhsRG5ndWhkeDJpaUpnSVFXZnRGdjRwVEIzYzBWaVItTjZWeDY5Zk1SU3pob1JuZzFUcndxMnc?oc=5"
         },
         {
           "query": "TikTok beauty trend",
@@ -13000,15 +13006,9 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "From 'latte makeup' to 'girl dinners,' TikTok has launched tons of trends. Will its influence last? - apnews.com",
+          "title": "From 'latte makeup' to 'girl dinners,' TikTok has launched tons of trends. Will its influence last? - AP News",
           "published": "Wed, 03 Jul 2024 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNLTUzeVFyWWtLajZFMjRMRGpVSWdQR0g2bUdmS3IzeWUwVzNheUY5Rl9fcW9RWlRzV1hGV2dHLTBEbldTUEFlWFRlVDZJV0F0Xy01T1YwT3pEVW1XYzB0UGpReVFBd0lrNHJlSE5ib2VVZXVXVkpJZmxhdDFGSWpEQ0l1VHZMTEpvZU1hTTM1bDlNSzF4?oc=5"
-        },
-        {
-          "query": "TikTok beauty trend",
-          "title": "Some experts have beef with the latest TikTok beauty trend: tallow - Straight Arrow",
-          "published": "Mon, 17 Mar 2025 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdF9jMnNGTmlkbjZLeUJkSjhWMDVDcVE1bE9fdlkzMndsZC15MGowWHB2S05DVXJVN1pxcDk3Q1g4alpxX05JTjY3YThGa3dxb1prTkVLTEZNZ0hVSEQ2QmN0QUt5aWZvVlR2NmlMM2tRS0lfa1Fla1loaXRUWm5jdW5mRFVSakhDbk1iMF9n?oc=5"
         },
         {
           "query": "TikTok beauty trend",
@@ -13018,15 +13018,15 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Sephora is at the center of TikTok beauty trends—and the CEO says it’s ‘not by accident’ - Fortune",
-          "published": "Wed, 16 Oct 2024 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTFJKUnRTOGFieXpyYnBOQ0FFRVNBMzBQSXR0NDhPWGR5SUxqX0JQQjljTFNJMjdVeEt2bk9mSHpBVGYtTGJLWWczeDZRYlBIeHE4OGNEU1c2VzhnSlFCbkxJZEtsSDNheTh5V0d6Mi1STE5CUW4wMmZuZDRtSXdib294Z0VuWU0?oc=5"
+          "title": "Some experts have beef with the latest TikTok beauty trend: tallow - san.com",
+          "published": "Mon, 17 Mar 2025 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdF9jMnNGTmlkbjZLeUJkSjhWMDVDcVE1bE9fdlkzMndsZC15MGowWHB2S05DVXJVN1pxcDk3Q1g4alpxX05JTjY3YThGa3dxb1prTkVLTEZNZ0hVSEQ2QmN0QUt5aWZvVlR2NmlMM2tRS0lfa1Fla1loaXRUWm5jdW5mRFVSakhDbk1iMF9n?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "The Internet Has Mixed Feelings About the Faux Freckle Trend - Hypebae",
-          "published": "Fri, 29 Aug 2025 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN0xvNXA2cVRlUGNucHJVajY3M0ZkQmNkc0phRDRidDlIcy1WUVRLYS1lamhPNHNnQjUxaGxIcHV2Yk9iNTRCdEpZakNPSjNmaVNCdGpOQUw1TEp6bGdudUkzVEJwcWVNTUJMU0lGVVdoQ2FJTnJsNmRDNTFSUWxiWWhWTE82TGlMTmc?oc=5"
+          "title": "Sephora is at the center of TikTok beauty trends—and the CEO says it’s ‘not by accident’ - Fortune",
+          "published": "Wed, 16 Oct 2024 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTFJKUnRTOGFieXpyYnBOQ0FFRVNBMzBQSXR0NDhPWGR5SUxqX0JQQjljTFNJMjdVeEt2bk9mSHpBVGYtTGJLWWczeDZRYlBIeHE4OGNEU1c2VzhnSlFCbkxJZEtsSDNheTh5V0d6Mi1STE5CUW4wMmZuZDRtSXdib294Z0VuWU0?oc=5"
         },
         {
           "query": "TikTok beauty trend",
@@ -13036,15 +13036,27 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "From TikTok Shop to Gen X: The global beauty trends of 2025 revealed - cosmeticsbusiness.com",
+          "title": "From TikTok Shop to Gen X: The global beauty trends of 2025 revealed - Cosmetics Business",
           "published": "Tue, 18 Mar 2025 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdjNjMEZwa09UNlhqdzl5UzctcFRfWkx3MFdSd1lvdm1IU0xQSTJUelp3a1ZNMmwzWUJqcEZZVVlCMTBQSG1mWml6WjktVGNMLXRQaXM4aFpoUlhka01xcFBQanRsd20ySHZWNWZIaFN6RmFrSVNpNmk5QWNONzJLQ1RtVVlGbEMwTmdOemFR?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "‘Sad Blush’ Is the Unexpected Makeup Trend Taking Over TikTok This Winter - Glamour",
+          "title": "TikTok’s ‘facial harmony’ trend is back, so here’s why ‘midfaces’ are on your feed again - The Tab",
+          "published": "Sat, 06 Dec 2025 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVU1KX1lCV24xVDJ1UlpmaUNHT1JHQTNLemZmTnFad3NOUkNoNWtGVVpfNHM3cGlNZ185SlBWV1UtRjFxLTNYVE51ME9NT2IwV2s5SjllYks1b3hrUTI0UV9tdTRvRVl2STI4QkVfUU5VVW5qUTNja2ZwOHNVUjdNSU5rWS1ibElzYi05R3lnVGs0UnhJSGtFQU5lZ2tlNnFsNnRMckMxRWhFOGNtQXVRVw?oc=5"
+        },
+        {
+          "query": "TikTok beauty trend",
+          "title": "‘Sad Blush’ Is the Unexpected Makeup Trend Taking Over TikTok This Winter - glamour.com",
           "published": "Mon, 29 Dec 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEWEdRWC1XNUEwRF9KQ1hoZTM5WWlYaGZtb0x2bUtpcU5wRzdvdkxnY3FPUnNSeVVLbzJjNFRLWXFqV0VVV0Y3TC1lV1J3Tkh0TXN2YVJlaHRndVE5Z3FrOEF1RTM0QzNWSjNoZlFUMlFCUQ?oc=5"
+        },
+        {
+          "query": "TikTok beauty trend",
+          "title": "The Internet Has Mixed Feelings About the Faux Freckle Trend - hypebae.com",
+          "published": "Fri, 29 Aug 2025 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN0xvNXA2cVRlUGNucHJVajY3M0ZkQmNkc0phRDRidDlIcy1WUVRLYS1lamhPNHNnQjUxaGxIcHV2Yk9iNTRCdEpZakNPSjNmaVNCdGpOQUw1TEp6bGdudUkzVEJwcWVNTUJMU0lGVVdoQ2FJTnJsNmRDNTFSUWxiWWhWTE82TGlMTmc?oc=5"
         },
         {
           "query": "TikTok beauty trend",
@@ -13060,21 +13072,9 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "TikTok’s ‘facial harmony’ trend is back, so here’s why ‘midfaces’ are on your feed again - thetab.com",
-          "published": "Sat, 06 Dec 2025 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVU1KX1lCV24xVDJ1UlpmaUNHT1JHQTNLemZmTnFad3NOUkNoNWtGVVpfNHM3cGlNZ185SlBWV1UtRjFxLTNYVE51ME9NT2IwV2s5SjllYks1b3hrUTI0UV9tdTRvRVl2STI4QkVfUU5VVW5qUTNja2ZwOHNVUjdNSU5rWS1ibElzYi05R3lnVGs0UnhJSGtFQU5lZ2tlNnFsNnRMckMxRWhFOGNtQXVRVw?oc=5"
-        },
-        {
-          "query": "TikTok beauty trend",
           "title": "Mythbusting the Biggest TikTok Skin-Care Trends We’ve Seen in 2024 - NewBeauty",
           "published": "Mon, 21 Oct 2024 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aSERhbl9iazVaRDRoU213blBFZ3FwbUJFUXdQUmV2QlpqaXlvVngtUWpBMlZHTVhsUW5vUjZfMm8xam9DWC1IdjlTM2lzYlZJZUFzQnJmeVo5WjhXYmgzVlc0NkNNLVd3MXpvSnMwdjk?oc=5"
-        },
-        {
-          "query": "TikTok beauty trend",
-          "title": "Do ‘skincare drinks’ really work? TikTok’s latest beauty trend, explained - Fast Company",
-          "published": "Wed, 10 Sep 2025 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9TU1FRakpvTmRnUzhqQnJOaFF5eGVhRW5UR0Fqd1VWZXpkTlV5TXY0Q1p3QjBfODAwbm9JVExjNEFjcmJYUXdOUWFaYU12cEFkcTZWYngzVVRyV0hNWFlSSERab19hanYxLWp4cjU5eEx0YjRDb0Jlbi1hSDY?oc=5"
         },
         {
           "query": "TikTok beauty trend",
@@ -13084,13 +13084,25 @@
         },
         {
           "query": "TikTok beauty trend",
+          "title": "The latest fleeting TikTok beauty trend? Looking tired - Nine.com.au",
+          "published": "Wed, 13 Aug 2025 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPejNpRDEzdDMwS0hLc19HSlItOW44dm5uZW5WMmdyT0xBR21wMTJKdGhmMGdmd3psSE1XLTJ2N2lLRTNmMFVOdDlBNlJ0RUdvSzdIZEVIOUgwYUFmRk9PblV6Q3VrVHhZMTdxX3JrazRHajEycEwwemxPMnNjMUFfaXRpeFJOUGZfLUt4WXBFSnBzbV9UaGZEWGw0SXpDOTJzRzY3ODljaEtaTHhvaVA0ZjFEUThCTnB3X2JtSUduNUJGYVU?oc=5"
+        },
+        {
+          "query": "TikTok beauty trend",
+          "title": "Do ‘skincare drinks’ really work? TikTok’s latest beauty trend, explained - Fast Company",
+          "published": "Wed, 10 Sep 2025 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9TU1FRakpvTmRnUzhqQnJOaFF5eGVhRW5UR0Fqd1VWZXpkTlV5TXY0Q1p3QjBfODAwbm9JVExjNEFjcmJYUXdOUWFaYU12cEFkcTZWYngzVVRyV0hNWFlSSERab19hanYxLWp4cjU5eEx0YjRDb0Jlbi1hSDY?oc=5"
+        },
+        {
+          "query": "TikTok beauty trend",
           "title": "I Asked 3 TikTok Beauty Experts What the Next Big Makeup Trends Will Be—They Said These 5 - Who What Wear",
           "published": "Thu, 11 Jul 2024 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YdlBtX0RVdlVIRVNFaHRXdExGSG5ZbnU1QVItbm9YTjZ6bHphQW8tNFlYMkFGY2NyaWtqZU9SQjJub0ZrdXNJSmNHakJrdlNBSVdBQUhpY1VoQ1JqRFlsWQ?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "TikTok sparks 22% rise in beauty product sales over social media in 2024 - Euromonitor",
+          "title": "TikTok sparks 22% rise in beauty product sales over social media in 2024 - euromonitor.com",
           "published": "Thu, 03 Apr 2025 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOS1BDQmdsV0V4ZkMxbHZfTTJxSnd0ZjFIZzhYVGxwWDlqbVBRTGpxX2ROOVFrd3YtbFNlNGEyRDRBUWVWNFl3SGlPX1lQMFMyRTdvNGFkSkpkdnctd3BLU0oyOTdRUTF1T25vVlpmTHF1LUxzU0tEeTI1THVQaG05NUlydmQxRDE5Vkt0R3JVMmpzUmo2a3d0TV85VzlmZzRRQ2VfTDJkUXBQSEQxVERxaGduMGpsTGZHbGRUSkdrUzlCMFdMX2RZMF9lWTFiajJQS25DTEJwZnFXa1FXZDBQU0ctUXdCZ2J0ZW1scmw0UkhZdw?oc=5"
         },
@@ -13099,18 +13111,6 @@
           "title": "WTF Is Tired Girl Makeup? - Marie Claire",
           "published": "Tue, 19 Aug 2025 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBtMUFsYWZ4X0VmQnh3LUxpVjhnSWtrUGw0ajd2WEtjbDRjUUFNQjcxell1ZlNHQjAyX2VmdzRENW5BazFicUNEOVRtOHNqTTBGSHJPTjBTb3dGVkcwR240Z1pYU3QySG5ZRWVz?oc=5"
-        },
-        {
-          "query": "TikTok beauty trend",
-          "title": "The latest fleeting TikTok beauty trend? Looking tired - Nine.com.au",
-          "published": "Wed, 13 Aug 2025 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPejNpRDEzdDMwS0hLc19HSlItOW44dm5uZW5WMmdyT0xBR21wMTJKdGhmMGdmd3psSE1XLTJ2N2lLRTNmMFVOdDlBNlJ0RUdvSzdIZEVIOUgwYUFmRk9PblV6Q3VrVHhZMTdxX3JrazRHajEycEwwemxPMnNjMUFfaXRpeFJOUGZfLUt4WXBFSnBzbV9UaGZEWGw0SXpDOTJzRzY3ODljaEtaTHhvaVA0ZjFEUThCTnB3X2JtSUduNUJGYVU?oc=5"
-        },
-        {
-          "query": "TikTok beauty trend",
-          "title": "TikTok beauty trend: Are you cat, fox, deer, or bunny lovely? - Prestige Online - Singapore",
-          "published": "Fri, 13 Jun 2025 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeU5xbHV3ZlRVbzhTTW93RUVydWM5cmFZU2t6X19UWl90NlA2Z2ZTZFA1UEFDMWtsa2Z2dzdoaWVaazF5OFpxRmljbGlSQUZwYWdvaUhuS2t3UTdJQnZuMGNnQkhrYkdZZ2c5SnRFVFNJZmZQWGtGeGxrUUtmWS1jaUN3cjZTVEVtOENpNGhPTUNrQdIBlwFBVV95cUxNX0JSTWV1eWJOVXBOUFdWUmh2ZVNjWUZNWVRQUGxvSDM4aXluUk43Y1I2aW5vZ0hDaWZKN19zb3VSVUpZdXF4VUVoYklhMTE4TFhvWWsxQnRvOXNtQjRlUEl4WC1MV2YweTNOcTQxbHBwMElPUGxQekw1X1Y0MVNYS0FKYldvNXVIdVNKanFyRlo1elhUSEx3?oc=5"
         }
       ]
     },
@@ -13490,19 +13490,19 @@
           "rating": 4.8,
           "review_count": 1072,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:08.417440+00:00"
+          "collected_at": "2026-09-06T18:32:44.106215+00:00"
         },
         {
           "title": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
-          "text": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g) · 평점 4.7 · 리뷰 366",
+          "text": "[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g) · 평점 4.7 · 리뷰 367",
           "url": "https://us.oliveyoung.com/products/UA97366320",
           "channel": "oliveyoung_us",
           "brand": null,
           "price_usd": null,
           "rating": 4.7,
-          "review_count": 366,
+          "review_count": 367,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:08.417440+00:00"
+          "collected_at": "2026-09-06T18:32:44.106215+00:00"
         },
         {
           "title": "[11types] CORINGCO Toktokhara No Glue Eyelash",
@@ -13514,7 +13514,7 @@
           "rating": 4.8,
           "review_count": 12170,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:08.417440+00:00"
+          "collected_at": "2026-09-06T18:32:44.106215+00:00"
         },
         {
           "title": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
@@ -13526,19 +13526,19 @@
           "rating": 5,
           "review_count": 9,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:08.417440+00:00"
+          "collected_at": "2026-09-06T18:32:44.106215+00:00"
         },
         {
           "title": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "text": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml) · 평점 4.6 · 리뷰 8",
+          "text": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml) · 평점 4.7 · 리뷰 9",
           "url": "https://us.oliveyoung.com/products/UA98417491",
           "channel": "oliveyoung_us",
           "brand": null,
           "price_usd": null,
-          "rating": 4.6,
-          "review_count": 8,
+          "rating": 4.7,
+          "review_count": 9,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:08.417440+00:00"
+          "collected_at": "2026-09-06T18:32:44.106215+00:00"
         },
         {
           "title": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
@@ -13550,7 +13550,7 @@
           "rating": 4.8,
           "review_count": 1626,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:08.417440+00:00"
+          "collected_at": "2026-09-06T18:32:44.106215+00:00"
         },
         {
           "title": "Anua PDRN Hyaluronic Acid Capsule 100 Serum Refill Set 2.02 fl. oz.(60ml)",
@@ -13562,7 +13562,7 @@
           "rating": 5,
           "review_count": 2,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:08.417440+00:00"
+          "collected_at": "2026-09-06T18:32:44.106215+00:00"
         },
         {
           "title": "sonatural Powder4room All Day Tight Make Up Setting Fixx 2.53 fl. oz.(75ml)",
@@ -13574,7 +13574,7 @@
           "rating": 5,
           "review_count": 2,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:08.417440+00:00"
+          "collected_at": "2026-09-06T18:32:44.106215+00:00"
         },
         {
           "title": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
@@ -13586,7 +13586,7 @@
           "rating": 5,
           "review_count": 2,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:08.417440+00:00"
+          "collected_at": "2026-09-06T18:32:44.106215+00:00"
         },
         {
           "title": "FOODOLOGY Coleology Cutting Jelly 0.88 oz.(25g) x 10ea",
@@ -13598,7 +13598,7 @@
           "rating": 4.6,
           "review_count": 8,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:08.417440+00:00"
+          "collected_at": "2026-09-06T18:32:44.106215+00:00"
         },
         {
           "title": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
@@ -13610,7 +13610,7 @@
           "rating": 5,
           "review_count": 2,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:08.417440+00:00"
+          "collected_at": "2026-09-06T18:32:44.106215+00:00"
         },
         {
           "title": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
@@ -13622,7 +13622,7 @@
           "rating": 4.8,
           "review_count": 15313,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:08.417440+00:00"
+          "collected_at": "2026-09-06T18:32:44.106215+00:00"
         },
         {
           "title": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
@@ -13634,7 +13634,7 @@
           "rating": 4.7,
           "review_count": 184,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:08.417440+00:00"
+          "collected_at": "2026-09-06T18:32:44.106215+00:00"
         },
         {
           "title": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
@@ -13646,7 +13646,7 @@
           "rating": 4.9,
           "review_count": 16,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:08.417440+00:00"
+          "collected_at": "2026-09-06T18:32:44.106215+00:00"
         },
         {
           "title": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
@@ -13658,7 +13658,7 @@
           "rating": 5,
           "review_count": 3,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:08.417440+00:00"
+          "collected_at": "2026-09-06T18:32:44.106215+00:00"
         },
         {
           "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
@@ -13670,7 +13670,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:43.161805+00:00"
+          "collected_at": "2026-09-06T18:33:32.282489+00:00"
         },
         {
           "title": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
@@ -13682,67 +13682,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:43.161805+00:00"
-        },
-        {
-          "title": "From tourists to temporary locals: Busan bets on longer stays for K-culture fans - koreaherald.com",
-          "text": "From tourists to temporary locals: Busan bets on longer stays for K-culture fans - koreaherald.com",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBrRWRNVjZfUVFEWFRiOXdHOW5KYjc3azdQeEVRUE1yYUEyNnVNWkFjUklNcDZubWRPZFZZU0p6cVltTmJhZENPTTFhV2Z4UjBTNkd4Yy10dw?oc=5",
-          "channel": "google_trends_us",
-          "brand": null,
-          "price_usd": null,
-          "rating": null,
-          "review_count": null,
-          "trust": "verified",
-          "collected_at": "2026-09-06T16:26:43.161805+00:00"
-        },
-        {
-          "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
-          "text": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
-          "channel": "google_trends_us",
-          "brand": null,
-          "price_usd": null,
-          "rating": null,
-          "review_count": null,
-          "trust": "verified",
-          "collected_at": "2026-09-06T16:26:43.161805+00:00"
-        },
-        {
-          "title": "K-Beauty Experts Say These Trends Are Replacing the 10-Step Routine - NewBeauty",
-          "text": "K-Beauty Experts Say These Trends Are Replacing the 10-Step Routine - NewBeauty",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SQmU2eVFfdGs0bFZmTDdEc1l0YW9pSkV3S0NjcXJHUkVhRmFXcXh4SnBKUHJmZC1hOG82N2FpVmwxQ2V0NGVKWTAxSnJMd21hdlJzd3VFdC1HWXBrTmpTd0k0ZjQxZXRZOXV2WEZRWQ?oc=5",
-          "channel": "google_trends_us",
-          "brand": null,
-          "price_usd": null,
-          "rating": null,
-          "review_count": null,
-          "trust": "verified",
-          "collected_at": "2026-09-06T16:26:43.161805+00:00"
-        },
-        {
-          "title": "Keauti brings K-beauty to Queen City - Springfield Business Journal",
-          "text": "Keauti brings K-beauty to Queen City - Springfield Business Journal",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BU1ExLWtXRWdhZGpxUWN2TDFuWnZDQi1BZ0Z4RXNiaUtHdDV3YjZPX1c0aExWaE51LU9HN19CQmtMUEVkWHh3ZzhHWG11TlBGV19DSWZJVlhHSy03eVZxb3d6TC1BNG9OdXRHTkFyNmk4R3hi?oc=5",
-          "channel": "google_trends_us",
-          "brand": null,
-          "price_usd": null,
-          "rating": null,
-          "review_count": null,
-          "trust": "verified",
-          "collected_at": "2026-09-06T16:26:43.161805+00:00"
-        },
-        {
-          "title": "K-Beauty’s Brazil Push Signals a New Type of Korean Diplomacy - The Diplomat – Asia-Pacific Current Affairs Magazine",
-          "text": "K-Beauty’s Brazil Push Signals a New Type of Korean Diplomacy - The Diplomat – Asia-Pacific Current Affairs Magazine",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0ZibUpBTHd0ejZVOXVzTEhuQWNMVE1VblM4NUhVTWt4dmtkbW9wbnVxY0JOY1NpMEEwY2drcjZyb0dlLVRZZ1FIbUxMWkR4RVJzRlVTMDRFcHJuN2dEUDJpX1dlY0xYYXM4ajQ0dVUyN3F3MjA3a1ZlZklnSlhaTW1wcHJTUE5ncTlUZ1Axa003c1dWdE0ybg?oc=5",
-          "channel": "google_trends_us",
-          "brand": null,
-          "price_usd": null,
-          "rating": null,
-          "review_count": null,
-          "trust": "verified",
-          "collected_at": "2026-09-06T16:26:43.161805+00:00"
+          "collected_at": "2026-09-06T18:33:32.282489+00:00"
         },
         {
           "title": "K-Beauty Blushes Just Do It Better - Marie Claire",
@@ -13754,11 +13694,71 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:43.161805+00:00"
+          "collected_at": "2026-09-06T18:33:32.282489+00:00"
         },
         {
-          "title": "US and Korean sunscreens are not created equal, study says - WTOP News",
-          "text": "US and Korean sunscreens are not created equal, study says - WTOP News",
+          "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
+          "text": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
+          "channel": "google_trends_us",
+          "brand": null,
+          "price_usd": null,
+          "rating": null,
+          "review_count": null,
+          "trust": "verified",
+          "collected_at": "2026-09-06T18:33:32.282489+00:00"
+        },
+        {
+          "title": "From tourists to temporary locals: Busan bets on longer stays for K-culture fans - The Korea Herald",
+          "text": "From tourists to temporary locals: Busan bets on longer stays for K-culture fans - The Korea Herald",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBrRWRNVjZfUVFEWFRiOXdHOW5KYjc3azdQeEVRUE1yYUEyNnVNWkFjUklNcDZubWRPZFZZU0p6cVltTmJhZENPTTFhV2Z4UjBTNkd4Yy10dw?oc=5",
+          "channel": "google_trends_us",
+          "brand": null,
+          "price_usd": null,
+          "rating": null,
+          "review_count": null,
+          "trust": "verified",
+          "collected_at": "2026-09-06T18:33:32.282489+00:00"
+        },
+        {
+          "title": "Keauti brings K-beauty to Queen City - Springfield Business Journal",
+          "text": "Keauti brings K-beauty to Queen City - Springfield Business Journal",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rZVhLTzJCdjNtajVENC16TEVSempfaks3T0Nmc1FJcExOdGlpSFpxSk9pb2drUHAtQ1cyc0c1amRsLUZQWmlFXzM5cW5DczVsRExKMENRbDdqOGNEVUFCaDdfNXNsRGxnOWU5d2xxcHVxYWd3Tnc?oc=5",
+          "channel": "google_trends_us",
+          "brand": null,
+          "price_usd": null,
+          "rating": null,
+          "review_count": null,
+          "trust": "verified",
+          "collected_at": "2026-09-06T18:33:32.282489+00:00"
+        },
+        {
+          "title": "K-Beauty Experts Say These Trends Are Replacing the 10-Step Routine - NewBeauty",
+          "text": "K-Beauty Experts Say These Trends Are Replacing the 10-Step Routine - NewBeauty",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SQmU2eVFfdGs0bFZmTDdEc1l0YW9pSkV3S0NjcXJHUkVhRmFXcXh4SnBKUHJmZC1hOG82N2FpVmwxQ2V0NGVKWTAxSnJMd21hdlJzd3VFdC1HWXBrTmpTd0k0ZjQxZXRZOXV2WEZRWQ?oc=5",
+          "channel": "google_trends_us",
+          "brand": null,
+          "price_usd": null,
+          "rating": null,
+          "review_count": null,
+          "trust": "verified",
+          "collected_at": "2026-09-06T18:33:32.282489+00:00"
+        },
+        {
+          "title": "K-Beauty’s Brazil Push Signals a New Type of Korean Diplomacy - The Diplomat – Asia-Pacific Current Affairs Magazine",
+          "text": "K-Beauty’s Brazil Push Signals a New Type of Korean Diplomacy - The Diplomat – Asia-Pacific Current Affairs Magazine",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0ZibUpBTHd0ejZVOXVzTEhuQWNMVE1VblM4NUhVTWt4dmtkbW9wbnVxY0JOY1NpMEEwY2drcjZyb0dlLVRZZ1FIbUxMWkR4RVJzRlVTMDRFcHJuN2dEUDJpX1dlY0xYYXM4ajQ0dVUyN3F3MjA3a1ZlZklnSlhaTW1wcHJTUE5ncTlUZ1Axa003c1dWdE0ybg?oc=5",
+          "channel": "google_trends_us",
+          "brand": null,
+          "price_usd": null,
+          "rating": null,
+          "review_count": null,
+          "trust": "verified",
+          "collected_at": "2026-09-06T18:33:32.282489+00:00"
+        },
+        {
+          "title": "US and Korean sunscreens are not created equal, study says - wtop.com",
+          "text": "US and Korean sunscreens are not created equal, study says - wtop.com",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnpvNUR0bm0tV2E0M183TDZLUVUwal9NRHduZ21ULUtPZFl2SnFoVS1WVFVZTjJtZjFfX1R5Um1Lajk0TXZzbnVpbkdpMXdMbno4dHo0Y3g4R3lYbV9rRkcyY0VsSjRVSFFPWVV5cTNNWG0tVC0zZ0tER251cDRCM3A0ZEJnNTBjWjBrYnp2dHRHSXd2UkNMckJqQ1JmUmFkX1RCeElDdmtzMGJ4X3V6SjJYbTQyUlNvazMycGw4b2k4aG44YkdN?oc=5",
           "channel": "google_trends_us",
           "brand": null,
@@ -13766,19 +13766,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:43.161805+00:00"
-        },
-        {
-          "title": "I tested the Korean sunscreen that’s been made for oily skin - AOL.com",
-          "text": "I tested the Korean sunscreen that’s been made for oily skin - AOL.com",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVkVwMkZ5VjhQOG94aFU0X1J2MnJubWoyd2RpYW9KTjNvSWwxU05CMGRSNWpPRlFFczNQRjdWcWliYlhiWHRYdC1IQ0dxR1JOaGxTZjFGQS0xUjlIdnhrUy1WdFVfOVg1S3MwQWpuTWdPWHVMbDJLcUphSlJLcW11R3FVbw?oc=5",
-          "channel": "google_trends_us",
-          "brand": null,
-          "price_usd": null,
-          "rating": null,
-          "review_count": null,
-          "trust": "verified",
-          "collected_at": "2026-09-06T16:26:43.161805+00:00"
+          "collected_at": "2026-09-06T18:33:32.282489+00:00"
         },
         {
           "title": "Is Korean sunscreen worth the hype? - WAFB",
@@ -13790,7 +13778,31 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:43.161805+00:00"
+          "collected_at": "2026-09-06T18:33:32.282489+00:00"
+        },
+        {
+          "title": "I tested the Korean sunscreen that’s been made for oily skin - aol.com",
+          "text": "I tested the Korean sunscreen that’s been made for oily skin - aol.com",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVkVwMkZ5VjhQOG94aFU0X1J2MnJubWoyd2RpYW9KTjNvSWwxU05CMGRSNWpPRlFFczNQRjdWcWliYlhiWHRYdC1IQ0dxR1JOaGxTZjFGQS0xUjlIdnhrUy1WdFVfOVg1S3MwQWpuTWdPWHVMbDJLcUphSlJLcW11R3FVbw?oc=5",
+          "channel": "google_trends_us",
+          "brand": null,
+          "price_usd": null,
+          "rating": null,
+          "review_count": null,
+          "trust": "verified",
+          "collected_at": "2026-09-06T18:33:32.282489+00:00"
+        },
+        {
+          "title": "I tested the Korean sunscreen that’s been made for oily skin - The Independent",
+          "text": "I tested the Korean sunscreen that’s been made for oily skin - The Independent",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPb0lOdHZNZlhpMGRsWTN1Q3FtUjlpREItRmxRQVRET1RoT2VhOW1naEE5c2RfWXBWUEVmaEo4ZXFqSVhJbXd2Tk8xQ1VPTUxpYVktc0dUMEVEUFpJU0JHR3YtbzNBcUJqTlpnaEs0aGhUblZNMGNHeVZVeHE5eEZsZW9ralNEYTVBY0MyWE9vY2FxZnJyR3JqS0RRekxoUGM1ZUc3Y01RcWIybG9BbFE0aGV4d3l6ZHdYYXY0OVRDZXBSRmxzNFd2bA?oc=5",
+          "channel": "google_trends_us",
+          "brand": null,
+          "price_usd": null,
+          "rating": null,
+          "review_count": null,
+          "trust": "verified",
+          "collected_at": "2026-09-06T18:33:32.282489+00:00"
         },
         {
           "title": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
@@ -13802,11 +13814,11 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:43.161805+00:00"
+          "collected_at": "2026-09-06T18:33:32.282489+00:00"
         },
         {
-          "title": "Does Korean sunscreen work better? | Consumer Reports - KING5.com",
-          "text": "Does Korean sunscreen work better? | Consumer Reports - KING5.com",
+          "title": "Does Korean sunscreen work better? | Consumer Reports - king5.com",
+          "text": "Does Korean sunscreen work better? | Consumer Reports - king5.com",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGRVSGtHWWhrdzhNWEl1ZkZJcUxCMVpfem14eFVoOGlUV0x5UVpBTGR0TVRzMUo3ODlPM3MwMF8zSXJTa1pZZ0dELThiVlhtRjlqdTQ4SDFPcUdPaUR4ZnF0VmZvRWktajNibk9JT3pTam5CV0JGY0VOUnBFQmVXa0V1T3VJNXVQb1JLWjhkanRxWXBBeU5DZVVrUnFLWHBMWGRfa284UkFuaWNCYXV3RHJJeGtGck5TRFRES21aUV9WY3NCY21UazhEdjZ1bVk?oc=5",
           "channel": "google_trends_us",
           "brand": null,
@@ -13814,7 +13826,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:43.161805+00:00"
+          "collected_at": "2026-09-06T18:33:32.282489+00:00"
         },
         {
           "title": "The 5 Best Sunscreens (2026): Expert Approved - Fortune",
@@ -13826,19 +13838,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:43.161805+00:00"
-        },
-        {
-          "title": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
-          "text": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZHBXQzBDZ2dGRHdEeXdtSXk5NkpMbW5vZzYzdGVWWVk1RllId3RCaUtPVnRIUVVEME84QmUzYTRBcGt5SE9rd3VpU0NZcWhBak1tMjVNR2lPd050RUdwaUJQbHB6TU81UDVmejBkVElrcnFKdnY1UHZ6SjVOMmtCNjNod3AtYm5Qb3c?oc=5",
-          "channel": "google_trends_us",
-          "brand": null,
-          "price_usd": null,
-          "rating": null,
-          "review_count": null,
-          "trust": "verified",
-          "collected_at": "2026-09-06T16:26:43.161805+00:00"
+          "collected_at": "2026-09-06T18:33:32.282489+00:00"
         },
         {
           "title": "Niacinamide",
@@ -13850,7 +13850,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Snail slime",
@@ -13862,7 +13862,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Centella asiatica",
@@ -13874,7 +13874,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Retinol",
@@ -13886,7 +13886,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Hyaluronic acid",
@@ -13898,7 +13898,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "K-beauty",
@@ -13910,7 +13910,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Cosmetics",
@@ -13922,7 +13922,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Sunscreen",
@@ -13934,7 +13934,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "12 Best The Ordinary Products for an Affordable Beauty Routine",
@@ -13946,7 +13946,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Say Hello to Bouncier Waves with These Texture-Enhancing Shampoos",
@@ -13958,7 +13958,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Is the Dyson Toothbrush Worth $499? We Asked 4 Dentists.",
@@ -13970,7 +13970,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Urea Is an Under-the-Radar Ingredient That Softens Skin from Head to Toe",
@@ -13982,7 +13982,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Fall 2026 Makeup Trends Put Your Best Features Front and Center — See Photos",
@@ -13994,7 +13994,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Hairstylist Frédéric Fekkai Is Being Sued by Epstein Survivors for Allegedly Enabling Gender-Motivated Violence",
@@ -14006,7 +14006,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "A New Report on Plastic Surgery Trends Shows Americans Over 66 Want to Be Snatched, Too",
@@ -14018,7 +14018,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "9 Best Leave-in Conditioners for Fine Hair 2026 That Won't Nix Volume",
@@ -14030,7 +14030,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Ulta Beauty Is Using Flock Cameras at Some Stores",
@@ -14042,7 +14042,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "6 Best Products for Hair Breakage for Stronger, Healthier-Looking Strands",
@@ -14054,7 +14054,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "How Meta's Filter Ban for Minors Could Look in Practice",
@@ -14066,7 +14066,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "How to Make Your Eyes Look More Open With Makeup—Photos",
@@ -14078,7 +14078,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "8 Best Foundations for Oily Skin for a Smooth, Natural-Looking Finish",
@@ -14090,7 +14090,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Your Guide to the Perfumes That Last All Day and Night",
@@ -14102,7 +14102,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Maura Higgins's Hair Is Proof That Time-Travel Is Real — See Photos",
@@ -14114,7 +14114,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "FOREVER SKIN GLOW 24h wear radiant foundation Perfection and hydration Concentrated floral skincare with suncreen Broad spectrum SPF 15 00",
@@ -14126,7 +14126,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Olay Regenerist Regenerating with Sunscreen Broad Spectrum SPF 15",
@@ -14138,7 +14138,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Eminence Radiant Protection SPF Fluid",
@@ -14150,7 +14150,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Neutrogena Mineral Invisible Daily Defense Face Sunscreen Broad Spectrum SPF 30",
@@ -14162,7 +14162,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "MediChoice Moisturizing Lip Balm SPF15",
@@ -14174,7 +14174,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Artistry Youth Xtend Lifting Smoothing Foundation Shade Chiffon L2C1",
@@ -14186,7 +14186,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Private Label Moisturizing Oil Free Paraben Free SPF43",
@@ -14198,7 +14198,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Triple Prep SPF 40",
@@ -14210,7 +14210,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "KIZO LAB UV DEFENSE CLEAR SUNSCREN SPF50",
@@ -14222,7 +14222,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Reef Kids SPF 30 Oxybenzone Free",
@@ -14234,7 +14234,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Botnia Gentle Sun SPF 30",
@@ -14246,7 +14246,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Clear Acne Spot Treatment",
@@ -14258,7 +14258,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "BOTANICAL SOOTHING SPF-30",
@@ -14270,7 +14270,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "Equate Beauty Daily Moisturizer SPF-30 Sunscreen",
@@ -14282,7 +14282,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "glo SKIN BEAUTY Oil-Free Tinted Primer SPF 30",
@@ -14294,7 +14294,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T13:27:09.245233+00:00"
+          "collected_at": "2026-09-06T16:44:43.853847+00:00"
         },
         {
           "title": "TIRTIR Mask Fit Red Cushion",
@@ -14702,7 +14702,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:01.948969+00:00"
+          "collected_at": "2026-09-06T18:32:25.427361+00:00"
         },
         {
           "title": "hand cream",
@@ -14714,7 +14714,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:01.948969+00:00"
+          "collected_at": "2026-09-06T18:32:25.427361+00:00"
         },
         {
           "title": "Aveeno Baby Eczema Therapy",
@@ -14726,7 +14726,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:01.948969+00:00"
+          "collected_at": "2026-09-06T18:32:25.427361+00:00"
         },
         {
           "title": "BioCare Aloe Vera",
@@ -14738,7 +14738,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:01.948969+00:00"
+          "collected_at": "2026-09-06T18:32:25.427361+00:00"
         },
         {
           "title": "Gluta hya dewy radicance",
@@ -14750,7 +14750,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:01.948969+00:00"
+          "collected_at": "2026-09-06T18:32:25.427361+00:00"
         },
         {
           "title": "Healthy Feet Cream",
@@ -14762,7 +14762,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:01.948969+00:00"
+          "collected_at": "2026-09-06T18:32:25.427361+00:00"
         },
         {
           "title": "Masque Purifiant Naturel à L'Argile Verte.",
@@ -14774,7 +14774,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:01.948969+00:00"
+          "collected_at": "2026-09-06T18:32:25.427361+00:00"
         },
         {
           "title": "Garnier SkinActive Pure Charcoal Tissuemasker",
@@ -14786,7 +14786,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:01.948969+00:00"
+          "collected_at": "2026-09-06T18:32:25.427361+00:00"
         },
         {
           "title": "Masque crème hydratant",
@@ -14798,7 +14798,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:01.948969+00:00"
+          "collected_at": "2026-09-06T18:32:25.427361+00:00"
         },
         {
           "title": "Sebum Control Masque purifiant charbon végétal façon crème fouettée",
@@ -14810,7 +14810,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:01.948969+00:00"
+          "collected_at": "2026-09-06T18:32:25.427361+00:00"
         },
         {
           "title": "Polishing Charcoal + Black Sugar Gel Mask + Scrub",
@@ -14822,7 +14822,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:01.948969+00:00"
+          "collected_at": "2026-09-06T18:32:25.427361+00:00"
         },
         {
           "title": "Le masque de pureté nettoyant",
@@ -14834,7 +14834,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:01.948969+00:00"
+          "collected_at": "2026-09-06T18:32:25.427361+00:00"
         },
         {
           "title": "1 Masque Anti-Rides Bio-Cellulose",
@@ -14846,7 +14846,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:01.948969+00:00"
+          "collected_at": "2026-09-06T18:32:25.427361+00:00"
         },
         {
           "title": "Pâte d'argile",
@@ -14858,7 +14858,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:01.948969+00:00"
+          "collected_at": "2026-09-06T18:32:25.427361+00:00"
         },
         {
           "title": "SOHO N.Y.C. Anti-Aging No Rinse 2in1 Face Serum + Mask",
@@ -14870,7 +14870,7 @@
           "rating": null,
           "review_count": null,
           "trust": "verified",
-          "collected_at": "2026-09-06T16:26:01.948969+00:00"
+          "collected_at": "2026-09-06T18:32:25.427361+00:00"
         }
       ]
     }

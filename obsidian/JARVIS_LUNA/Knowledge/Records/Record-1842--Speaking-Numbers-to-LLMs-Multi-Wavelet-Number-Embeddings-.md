@@ -2,7 +2,7 @@
 title: "Record 1842 · Speaking-Numbers-to-LLMs-Multi-Wavelet-Number-Embeddings-for-Time-Seri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.204735+00:00
+updated_at: 2026-09-06T20:45:29.219595+00:00
 tags: [record, real-data]
 ---
 

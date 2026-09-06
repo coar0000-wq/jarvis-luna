@@ -2,7 +2,7 @@
 title: "Record 1720 · Samsung-Electronics-To-Establish-HVAC-Production-Line-in-Korea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.175703+00:00
+updated_at: 2026-09-06T20:45:29.190834+00:00
 tags: [record, real-data]
 ---
 

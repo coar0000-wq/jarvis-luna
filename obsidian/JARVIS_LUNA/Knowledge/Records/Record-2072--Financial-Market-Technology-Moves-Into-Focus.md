@@ -2,7 +2,7 @@
 title: "Record 2072 · Financial-Market-Technology-Moves-Into-Focus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.255407+00:00
+updated_at: 2026-09-06T20:45:29.270668+00:00
 tags: [record, real-data]
 ---
 

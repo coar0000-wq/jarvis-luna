@@ -2,7 +2,7 @@
 title: "Record 1846 · Quantum-Counterparty-Credit-Risk-A-Study-of-Path-Dependent-Derivatives"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.205623+00:00
+updated_at: 2026-09-06T20:45:29.220455+00:00
 tags: [record, real-data]
 ---
 

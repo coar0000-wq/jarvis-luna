@@ -2,7 +2,7 @@
 title: "Record 2116 · Ipo-Process-Founders-Going-Public"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.264924+00:00
+updated_at: 2026-09-06T20:45:29.280146+00:00
 tags: [record, real-data]
 ---
 

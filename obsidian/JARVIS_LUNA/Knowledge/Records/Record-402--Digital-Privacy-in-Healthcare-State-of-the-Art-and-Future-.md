@@ -2,7 +2,7 @@
 title: "Record 402 · Digital-Privacy-in-Healthcare-State-of-the-Art-and-Future-Vision"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.866603+00:00
+updated_at: 2026-09-06T20:45:28.896438+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1834 · A-semi-Lagrangian-method-for-the-polyatomic-ESBGK-model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.203022+00:00
+updated_at: 2026-09-06T20:45:29.217858+00:00
 tags: [record, real-data]
 ---
 

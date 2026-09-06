@@ -2,7 +2,7 @@
 title: "Record 1148 · B2B-Ecommerce-Platforms-15-Best-for-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.037109+00:00
+updated_at: 2026-09-06T20:45:29.065067+00:00
 tags: [record, real-data]
 ---
 

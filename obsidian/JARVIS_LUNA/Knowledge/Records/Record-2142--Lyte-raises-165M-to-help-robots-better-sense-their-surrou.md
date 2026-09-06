@@ -2,7 +2,7 @@
 title: "Record 2142 · Lyte-raises-165M-to-help-robots-better-sense-their-surroundings"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.271065+00:00
+updated_at: 2026-09-06T20:45:29.286800+00:00
 tags: [record, real-data]
 ---
 

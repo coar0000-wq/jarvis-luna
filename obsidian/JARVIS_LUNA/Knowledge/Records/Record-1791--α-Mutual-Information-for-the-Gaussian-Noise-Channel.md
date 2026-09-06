@@ -2,7 +2,7 @@
 title: "Record 1791 · α-Mutual-Information-for-the-Gaussian-Noise-Channel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.193815+00:00
+updated_at: 2026-09-06T20:45:29.208652+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1953 · Healthy-Feet-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.230559+00:00
+updated_at: 2026-09-06T20:45:29.245302+00:00
 tags: [record, real-data]
 ---
 

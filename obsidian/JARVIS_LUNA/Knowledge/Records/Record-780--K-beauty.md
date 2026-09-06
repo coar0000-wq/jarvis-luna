@@ -2,7 +2,7 @@
 title: "Record 780 · K-beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.953980+00:00
+updated_at: 2026-09-06T20:45:28.983790+00:00
 tags: [record, real-data]
 ---
 

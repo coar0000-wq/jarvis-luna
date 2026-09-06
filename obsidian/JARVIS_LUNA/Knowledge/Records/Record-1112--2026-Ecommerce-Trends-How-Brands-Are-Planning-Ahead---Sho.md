@@ -2,7 +2,7 @@
 title: "Record 1112 · 2026-Ecommerce-Trends-How-Brands-Are-Planning-Ahead---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.028371+00:00
+updated_at: 2026-09-06T20:45:29.057282+00:00
 tags: [record, real-data]
 ---
 

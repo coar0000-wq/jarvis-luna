@@ -2,7 +2,7 @@
 title: "Record 1775 · Supporting-Thailands-next-generation-of-AI-startups"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.190363+00:00
+updated_at: 2026-09-06T20:45:29.205212+00:00
 tags: [record, real-data]
 ---
 

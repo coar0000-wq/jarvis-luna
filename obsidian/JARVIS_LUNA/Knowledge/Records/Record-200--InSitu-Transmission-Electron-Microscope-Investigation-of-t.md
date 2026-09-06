@@ -2,7 +2,7 @@
 title: "Record 200 · InSitu-Transmission-Electron-Microscope-Investigation-of-the-Calcinati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.815520+00:00
+updated_at: 2026-09-06T20:45:28.847491+00:00
 tags: [record, real-data]
 ---
 

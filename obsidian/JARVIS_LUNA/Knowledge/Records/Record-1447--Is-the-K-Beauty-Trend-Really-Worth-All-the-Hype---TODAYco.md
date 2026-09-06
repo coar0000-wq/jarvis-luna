@@ -2,7 +2,7 @@
 title: "Record 1447 · Is-the-K-Beauty-Trend-Really-Worth-All-the-Hype---TODAYcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.110981+00:00
+updated_at: 2026-09-06T20:45:29.130096+00:00
 tags: [record, real-data]
 ---
 

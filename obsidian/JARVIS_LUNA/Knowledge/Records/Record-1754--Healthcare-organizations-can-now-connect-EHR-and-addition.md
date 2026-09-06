@@ -2,7 +2,7 @@
 title: "Record 1754 · Healthcare-organizations-can-now-connect-EHR-and-additional-industry-d"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.185280+00:00
+updated_at: 2026-09-06T20:45:29.200101+00:00
 tags: [record, real-data]
 ---
 

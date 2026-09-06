@@ -2,7 +2,7 @@
 title: "Record 1993 · Ai-For-Science-Program"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.238835+00:00
+updated_at: 2026-09-06T20:45:29.253674+00:00
 tags: [record, real-data]
 ---
 

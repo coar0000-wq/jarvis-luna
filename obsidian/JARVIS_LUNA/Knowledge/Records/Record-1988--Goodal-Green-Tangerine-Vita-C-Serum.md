@@ -2,7 +2,7 @@
 title: "Record 1988 · Goodal-Green-Tangerine-Vita-C-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.237878+00:00
+updated_at: 2026-09-06T20:45:29.252694+00:00
 tags: [record, real-data]
 ---
 

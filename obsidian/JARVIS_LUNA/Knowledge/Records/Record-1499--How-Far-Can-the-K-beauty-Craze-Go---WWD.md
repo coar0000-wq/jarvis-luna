@@ -2,7 +2,7 @@
 title: "Record 1499 · How-Far-Can-the-K-beauty-Craze-Go---WWD"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.124061+00:00
+updated_at: 2026-09-06T20:45:29.141533+00:00
 tags: [record, real-data]
 ---
 

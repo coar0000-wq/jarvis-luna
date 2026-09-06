@@ -2,7 +2,7 @@
 title: "Record 1271 · How-setting-sprays-became-one-of-the-biggest-TikTok-beauty-trends---Co"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.067204+00:00
+updated_at: 2026-09-06T20:45:29.091462+00:00
 tags: [record, real-data]
 ---
 

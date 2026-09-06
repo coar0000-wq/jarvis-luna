@@ -2,7 +2,7 @@
 title: "Record 1188 · Agentic-Ready-Product-Data-How-to-Get-It--the-Cost-of-Inaction-2026---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.046920+00:00
+updated_at: 2026-09-06T20:45:29.073777+00:00
 tags: [record, real-data]
 ---
 

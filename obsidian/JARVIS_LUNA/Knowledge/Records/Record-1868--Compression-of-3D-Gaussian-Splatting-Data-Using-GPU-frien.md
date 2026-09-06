@@ -2,7 +2,7 @@
 title: "Record 1868 · Compression-of-3D-Gaussian-Splatting-Data-Using-GPU-friendly-Graphics-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.210456+00:00
+updated_at: 2026-09-06T20:45:29.225256+00:00
 tags: [record, real-data]
 ---
 

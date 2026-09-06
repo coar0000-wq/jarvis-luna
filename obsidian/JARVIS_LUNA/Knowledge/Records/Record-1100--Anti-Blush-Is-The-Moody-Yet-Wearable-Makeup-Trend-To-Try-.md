@@ -2,7 +2,7 @@
 title: "Record 1100 · Anti-Blush-Is-The-Moody-Yet-Wearable-Makeup-Trend-To-Try-Now---Harpers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.025465+00:00
+updated_at: 2026-09-06T20:45:29.054670+00:00
 tags: [record, real-data]
 ---
 

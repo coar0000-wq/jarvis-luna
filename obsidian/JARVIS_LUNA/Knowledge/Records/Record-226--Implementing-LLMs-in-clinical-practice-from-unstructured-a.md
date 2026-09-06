@@ -2,7 +2,7 @@
 title: "Record 226 · Implementing-LLMs-in-clinical-practice-from-unstructured-and-semistruc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.822087+00:00
+updated_at: 2026-09-06T20:45:28.853432+00:00
 tags: [record, real-data]
 ---
 

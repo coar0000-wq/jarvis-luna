@@ -2,7 +2,7 @@
 title: "Record 925 · k-beauty---Womans-World"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.988603+00:00
+updated_at: 2026-09-06T20:45:29.018104+00:00
 tags: [record, real-data]
 ---
 

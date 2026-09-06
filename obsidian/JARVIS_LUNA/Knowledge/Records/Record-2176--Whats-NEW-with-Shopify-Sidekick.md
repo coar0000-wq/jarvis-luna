@@ -2,7 +2,7 @@
 title: "Record 2176 · Whats-NEW-with-Shopify-Sidekick"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.278644+00:00
+updated_at: 2026-09-06T20:45:29.295742+00:00
 tags: [record, real-data]
 ---
 

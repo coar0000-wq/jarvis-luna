@@ -2,7 +2,7 @@
 title: "Record 1156 · A-50-Year-Olds-Skin-Looks-Better-Than-It-Did-at-25-Thanks-to-This-15-K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.039130+00:00
+updated_at: 2026-09-06T20:45:29.066881+00:00
 tags: [record, real-data]
 ---
 

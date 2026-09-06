@@ -2,7 +2,7 @@
 title: "Record 1932 · 11types-CORINGCO-Toktokhara-No-Glue-Eyelash"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.225856+00:00
+updated_at: 2026-09-06T20:45:29.240626+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2317 · 드디어-올것이-왔다-레이어랩-여름-수분크림-출시--녹차--엑토인--아쥴렌-여름에-꼭-필요한-성분을-모아-진정--수분--열감까지"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.307517+00:00
+updated_at: 2026-09-06T20:45:29.329299+00:00
 tags: [record, real-data]
 ---
 

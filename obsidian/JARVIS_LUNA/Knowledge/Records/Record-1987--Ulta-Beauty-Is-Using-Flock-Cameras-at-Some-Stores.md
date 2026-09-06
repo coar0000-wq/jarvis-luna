@@ -2,7 +2,7 @@
 title: "Record 1987 · Ulta-Beauty-Is-Using-Flock-Cameras-at-Some-Stores"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.237682+00:00
+updated_at: 2026-09-06T20:45:29.252492+00:00
 tags: [record, real-data]
 ---
 

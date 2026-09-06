@@ -2,7 +2,7 @@
 title: "Record 1735 · The-New-Galaxy-Z-Series-Earns-Strong-Early-Reviews-From-European-Consu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.180418+00:00
+updated_at: 2026-09-06T20:45:29.195542+00:00
 tags: [record, real-data]
 ---
 

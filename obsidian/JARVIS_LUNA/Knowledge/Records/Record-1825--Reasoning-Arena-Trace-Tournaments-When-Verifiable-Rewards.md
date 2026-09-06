@@ -2,7 +2,7 @@
 title: "Record 1825 · Reasoning-Arena-Trace-Tournaments-When-Verifiable-Rewards-Fall-Short"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.201094+00:00
+updated_at: 2026-09-06T20:45:29.215947+00:00
 tags: [record, real-data]
 ---
 

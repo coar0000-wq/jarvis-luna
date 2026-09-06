@@ -2,7 +2,7 @@
 title: "Record 1903 · Drones-With-Claws-Perch-on-Arctic-Icebergs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.218163+00:00
+updated_at: 2026-09-06T20:45:29.232940+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1861 · Lessons-learned-from-ongoing-coordination-between-NRAOGBO-and-LEO-NGSO"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.208922+00:00
+updated_at: 2026-09-06T20:45:29.223697+00:00
 tags: [record, real-data]
 ---
 

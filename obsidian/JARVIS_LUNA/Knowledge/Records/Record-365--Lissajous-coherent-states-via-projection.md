@@ -2,7 +2,7 @@
 title: "Record 365 · Lissajous-coherent-states-via-projection"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.857746+00:00
+updated_at: 2026-09-06T20:45:28.886929+00:00
 tags: [record, real-data]
 ---
 

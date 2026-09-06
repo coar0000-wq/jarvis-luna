@@ -2,7 +2,7 @@
 title: "Record 900 · These-Are-the-Beauty-Trends-That-Will-Define-2026-According-to-Influen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.983172+00:00
+updated_at: 2026-09-06T20:45:29.012674+00:00
 tags: [record, real-data]
 ---
 

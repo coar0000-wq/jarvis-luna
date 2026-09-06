@@ -2,7 +2,7 @@
 title: "Record 1970 · Gluta-hya-dewy-radicance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.233994+00:00
+updated_at: 2026-09-06T20:45:29.248770+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1040 · Millions-of-merchants-can-sell-in-AI-chats---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.012804+00:00
+updated_at: 2026-09-06T20:45:29.042115+00:00
 tags: [record, real-data]
 ---
 

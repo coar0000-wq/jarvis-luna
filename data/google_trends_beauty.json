@@ -1,6 +1,6 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-06T18:33:32.282489+00:00",
+  "collected_at": "2026-09-06T20:45:19.434493+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
@@ -52,11 +52,11 @@
       "beauty": true
     },
     {
-      "keyword": "Keauti brings K-beauty to Queen City - Springfield Business Journal",
-      "product": "Keauti brings K-beauty to Queen City - Springfield Business Journal",
+      "keyword": "Keauti brings K-beauty to Queen City - sbj.net",
+      "product": "Keauti brings K-beauty to Queen City - sbj.net",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rZVhLTzJCdjNtajVENC16TEVSempfaks3T0Nmc1FJcExOdGlpSFpxSk9pb2drUHAtQ1cyc0c1amRsLUZQWmlFXzM5cW5DczVsRExKMENRbDdqOGNEVUFCaDdfNXNsRGxnOWU5d2xxcHVxYWd3Tnc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BU1ExLWtXRWdhZGpxUWN2TDFuWnZDQi1BZ0Z4RXNiaUtHdDV3YjZPX1c0aExWaE51LU9HN19CQmtMUEVkWHh3ZzhHWG11TlBGV19DSWZJVlhHSy03eVZxb3d6TC1BNG9OdXRHTkFyNmk4R3hi?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -79,11 +79,29 @@
       "beauty": true
     },
     {
-      "keyword": "US and Korean sunscreens are not created equal, study says - wtop.com",
-      "product": "US and Korean sunscreens are not created equal, study says - wtop.com",
+      "keyword": "US and Korean sunscreens are not created equal, study says - WTOP News",
+      "product": "US and Korean sunscreens are not created equal, study says - WTOP News",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnpvNUR0bm0tV2E0M183TDZLUVUwal9NRHduZ21ULUtPZFl2SnFoVS1WVFVZTjJtZjFfX1R5Um1Lajk0TXZzbnVpbkdpMXdMbno4dHo0Y3g4R3lYbV9rRkcyY0VsSjRVSFFPWVV5cTNNWG0tVC0zZ0tER251cDRCM3A0ZEJnNTBjWjBrYnp2dHRHSXd2UkNMckJqQ1JmUmFkX1RCeElDdmtzMGJ4X3V6SjJYbTQyUlNvazMycGw4b2k4aG44YkdN?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "I tested the Korean sunscreen that’s been made for oily skin - AOL.com",
+      "product": "I tested the Korean sunscreen that’s been made for oily skin - AOL.com",
+      "sub": "Korean sunscreen",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVkVwMkZ5VjhQOG94aFU0X1J2MnJubWoyd2RpYW9KTjNvSWwxU05CMGRSNWpPRlFFczNQRjdWcWliYlhiWHRYdC1IQ0dxR1JOaGxTZjFGQS0xUjlIdnhrUy1WdFVfOVg1S3MwQWpuTWdPWHVMbDJLcUphSlJLcW11R3FVbw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Does Korean sunscreen work better? | Consumer Reports - KING5.com",
+      "product": "Does Korean sunscreen work better? | Consumer Reports - KING5.com",
+      "sub": "Korean sunscreen",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGRVSGtHWWhrdzhNWEl1ZkZJcUxCMVpfem14eFVoOGlUV0x5UVpBTGR0TVRzMUo3ODlPM3MwMF8zSXJTa1pZZ0dELThiVlhtRjlqdTQ4SDFPcUdPaUR4ZnF0VmZvRWktajNibk9JT3pTam5CV0JGY0VOUnBFQmVXa0V1T3VJNXVQb1JLWjhkanRxWXBBeU5DZVVrUnFLWHBMWGRfa284UkFuaWNCYXV3RHJJeGtGck5TRFRES21aUV9WY3NCY21UazhEdjZ1bVk?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -93,15 +111,6 @@
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjenlzd2RLQUd1RWtfc0V4dlZIeldiM3FfOTJ4S08wdmplNUdTVUZrUXhrU25oOVpTeVFPSGgxYXpBNWpIbTVQSlRHQlV6MW4wVkNHTzhSQlYtSmJrQmQ1bkRCc3dMOUF0OUpyZlRNQnhvMXdmMFprTQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "I tested the Korean sunscreen that’s been made for oily skin - aol.com",
-      "product": "I tested the Korean sunscreen that’s been made for oily skin - aol.com",
-      "sub": "Korean sunscreen",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVkVwMkZ5VjhQOG94aFU0X1J2MnJubWoyd2RpYW9KTjNvSWwxU05CMGRSNWpPRlFFczNQRjdWcWliYlhiWHRYdC1IQ0dxR1JOaGxTZjFGQS0xUjlIdnhrUy1WdFVfOVg1S3MwQWpuTWdPWHVMbDJLcUphSlJLcW11R3FVbw?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -120,15 +129,6 @@
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Does Korean sunscreen work better? | Consumer Reports - king5.com",
-      "product": "Does Korean sunscreen work better? | Consumer Reports - king5.com",
-      "sub": "Korean sunscreen",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGRVSGtHWWhrdzhNWEl1ZkZJcUxCMVpfem14eFVoOGlUV0x5UVpBTGR0TVRzMUo3ODlPM3MwMF8zSXJTa1pZZ0dELThiVlhtRjlqdTQ4SDFPcUdPaUR4ZnF0VmZvRWktajNibk9JT3pTam5CV0JGY0VOUnBFQmVXa0V1T3VJNXVQb1JLWjhkanRxWXBBeU5DZVVrUnFLWHBMWGRfa284UkFuaWNCYXV3RHJJeGtGck5TRFRES21aUV9WY3NCY21UazhEdjZ1bVk?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -196,8 +196,8 @@
       "beauty": true
     },
     {
-      "keyword": "You can get the CosRx Snail Mucin Essence for 50% off right now — but only for today - nbcnews.com",
-      "product": "You can get the CosRx Snail Mucin Essence for 50% off right now — but only for today - nbcnews.com",
+      "keyword": "You can get the CosRx Snail Mucin Essence for 50% off right now — but only for today - NBC News",
+      "product": "You can get the CosRx Snail Mucin Essence for 50% off right now — but only for today - NBC News",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY2RSUTR6S01JaE5WeEhQc3UzaFdSYm9MckxYczJ2TW9EVlV3a0xPbXRWTUVZSE1sNFlPYUlmWWRwbUl2a0pyYVl3c0JKcEc1cHMyOG5NZEY0NHNSaXVpdDVLd2hCQmRGeG1sRGFqYnVuYld1ZkhWMFFpeFRFSS1zLUt5RFRtZVNhb2VxQ1pPOWtBVW9h?oc=5",
@@ -214,8 +214,8 @@
       "beauty": true
     },
     {
-      "keyword": "Anua Heartleaf 77% Soothing Toner - Mamabella",
-      "product": "Anua Heartleaf 77% Soothing Toner - Mamabella",
+      "keyword": "Anua Heartleaf 77% Soothing Toner - mamabella.uk",
+      "product": "Anua Heartleaf 77% Soothing Toner - mamabella.uk",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB1bjV1c253cFJYUGU1QVNMQ1gxYUZDSV9YMlpxVWI0UVFmV2xRRzFpdS1NSFdQN2xxTUNwbUlGSnJQVjJXQzNhbFEtQVQydE43SFhZY3QwcUlCWFdvVkQ4Y1MwMEYtN0hER3BGcXRvM3RPUGlPRFg1Zw?oc=5",
@@ -223,8 +223,8 @@
       "beauty": true
     },
     {
-      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
-      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
+      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - allure.com",
+      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - allure.com",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tUlIta29LZnJyQjZ3VlhCQ1VlZzk3bVo5LXd1NE8xX3FRemRsZXB4VXdOSDQtWVNUMlJzWmNXSnhUTWdBTl9hX1dud2VTREZwNlFfTXVxNEdOa0tSdUJZNS1B?oc=5",
@@ -286,8 +286,8 @@
       "beauty": true
     },
     {
-      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
-      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
+      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - allure.com",
+      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - allure.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yZDNoUHpEdEhOUWhHQWRZck1vTFdWeDljeGZPcVh4a1VuaWpnWTczN0Vhd2RmODNOajVxdFdzRHdJTjJVbVJfa212RDdQcVY3N2tSRjc0emxET0J6bUFfbVZUNUU?oc=5",
@@ -295,8 +295,8 @@
       "beauty": true
     },
     {
-      "keyword": "We tried 'Heated Rivalry' star Hudson Williams' viral skin care routine: Here's what to buy for aging skin. - shopping.yahoo.com",
-      "product": "We tried 'Heated Rivalry' star Hudson Williams' viral skin care routine: Here's what to buy for aging skin. - shopping.yahoo.com",
+      "keyword": "We tried 'Heated Rivalry' star Hudson Williams' viral skin care routine: Here's what to buy for aging skin. - Yahoo",
+      "product": "We tried 'Heated Rivalry' star Hudson Williams' viral skin care routine: Here's what to buy for aging skin. - Yahoo",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPWHZKdkNwcXg1OW40RDRKZ0RtWDNNU1dBOE41cy1OUGJjVE9kWTF4YVpwYWxTSXBaYUlRdkc0VDltTnJQaE5SZ1NTZDczYTFMSEZES1ZKZkN6d2NXVEZtWl9zZUx1T0JfZndVVVRlOGlMcUNDaXpCRnVvT0J6SGNFRGk4WVp6UmppRm80d0Njem81WVNPcFZVckIwdWxxQ2FjNE5ET2hFZl9HRmxscEhsYkoxc2FHZ1NKQTI5by1NZVQweHdUZEN0S29YTnBENG9NMUJLX1psbDRVa1lubEhXTjc0UTZRWkg4T3NhdzRQTjJSQ3U5ZEtMZ3F2aw?oc=5",
@@ -318,6 +318,15 @@
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV1FGamp5TUY2bzdhcXhiTkpLQmwyZHIxOE9ITnZNcnFWemt2TzdXU09taVV0RmFReUZCUFE2YjNNa2RlVXVMR1E5SEh2eTV6Wk5HalUyaVdfN2JQQXZKZmV4alpHSVNXTXhRMFptYVM5amd3X3pRdThCYlROa18tWjRMTQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Hudson Williams Swears By This K-Beauty Skincare Brand, and It’s Currently on Sale at Amazon - Harper's BAZAAR",
+      "product": "Hudson Williams Swears By This K-Beauty Skincare Brand, and It’s Currently on Sale at Amazon - Harper's BAZAAR",
+      "sub": "centella serum",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOVVRWXNFUDRyX25NaEsxTkl2cmxjb1RPX1gyWWZqWkZONUc5MUdjRm4wOENZWGk4bmRjUWNjdzJJRWdxWVd5ckFSZXZKcUFhbno4N1ZuWG90WVV0WTFsZXhYV1UycnJSc2YyMUVFRkhUdkJZVUhKamVyRnVVZGdDX1ZRSElhRF9aOFpyT1VRb0xZLXBYQ3RXTVJZcnFPZkF6LUhTMUktQzV2RmRL?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -345,15 +354,6 @@
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQS3NBQ0pya1FORlNaLXJBT216ejlHem55MnVkSFE1MThZWWtvdTBVek8zU2JxYVIzdlREWDhWcUU1b2NkOUpjM3hIaWk3akFxNndzMm9GRkVGaDJZQ2Jrb1MyWXBkSnB2cnJ0SHNnWmx3TExmeTctVnpnQWl1YWFYTHhnZUloWGVzT2NOZENreGFjdlVzVzJabmVOdHlpZEJKV0p3ZThieE1Gd0RaWEVONzI3bTlMeGM0YnZyM1p0aXk5UTREdnVvWkxKQ2lNdWRjRzR30gHYAUFVX3lxTFBLVlRaRExMTVdsY0wtQk5Zb3hTQUxMT1hmSlhTZ3gtblBzaFNKY1RqMDJsVER5bThnN2xZYlhvNWJxOXJCRmtpdFhRcGhaT2tlanRwQ2VxZnlCVHVsZlNfb1hyQkR2VUQwUUVudFlWTWF3YXVtYTZ2WWtpaDNFQ0tnQzJnMmIxZG5MSF9qMjZMZklrcTh4TF8zWlBPNWJ2S1cwYUNiTFBsWTctTElTMEduV1o4QXZTR3pWT1lPeHRTc3lHaTlJZm5pazFmWlBZS0RHdzlNVUJ2cQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com",
-      "product": "Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com",
-      "sub": "centella serum",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRkRkQi1TY3h2YmlWZlEzSlRKNV9lMXNXSDdBQ2RBVHBmb0NCcThJa1Q1MkNsbVVISHhZSUNyU3BncGxQQndHbDk5cnJwbFhXVHBKa2tPQXJ1WlBFRzFrbnR5NXU1ek9GYUVOcUlVTHROZTZscjFJVUlmR1had2JockFNUWIxUQ?oc=5",
       "kind": "news",
       "beauty": true
     },

@@ -2,7 +2,7 @@
 title: "Record 2158 · 진짜-급하게-데이트-갈-준비-GRWM--메이크업-kbeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.274941+00:00
+updated_at: 2026-09-06T20:45:29.291319+00:00
 tags: [record, real-data]
 ---
 

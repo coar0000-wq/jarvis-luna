@@ -2,7 +2,7 @@
 title: "Record 131 · Frontend-Engineering-at-Palantir-Plotlines-in-Threejs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.797532+00:00
+updated_at: 2026-09-06T20:45:28.831769+00:00
 tags: [record, real-data]
 ---
 

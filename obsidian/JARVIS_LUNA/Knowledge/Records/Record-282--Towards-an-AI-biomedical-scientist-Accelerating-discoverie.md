@@ -2,7 +2,7 @@
 title: "Record 282 · Towards-an-AI-biomedical-scientist-Accelerating-discoveries-in-neurode"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.837106+00:00
+updated_at: 2026-09-06T20:45:28.866928+00:00
 tags: [record, real-data]
 ---
 

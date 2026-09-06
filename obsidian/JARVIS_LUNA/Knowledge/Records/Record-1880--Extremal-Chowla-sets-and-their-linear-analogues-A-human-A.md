@@ -2,7 +2,7 @@
 title: "Record 1880 · Extremal-Chowla-sets-and-their-linear-analogues-A-human-AI-mathematica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.212976+00:00
+updated_at: 2026-09-06T20:45:29.227804+00:00
 tags: [record, real-data]
 ---
 

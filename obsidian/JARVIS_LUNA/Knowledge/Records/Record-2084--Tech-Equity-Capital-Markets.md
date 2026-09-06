@@ -2,7 +2,7 @@
 title: "Record 2084 · Tech-Equity-Capital-Markets"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.257721+00:00
+updated_at: 2026-09-06T20:45:29.273050+00:00
 tags: [record, real-data]
 ---
 

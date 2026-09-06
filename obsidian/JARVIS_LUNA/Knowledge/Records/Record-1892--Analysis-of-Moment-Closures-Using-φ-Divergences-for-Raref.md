@@ -2,7 +2,7 @@
 title: "Record 1892 · Analysis-of-Moment-Closures-Using-φ-Divergences-for-Rarefied-Dynamics-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.215621+00:00
+updated_at: 2026-09-06T20:45:29.230425+00:00
 tags: [record, real-data]
 ---
 

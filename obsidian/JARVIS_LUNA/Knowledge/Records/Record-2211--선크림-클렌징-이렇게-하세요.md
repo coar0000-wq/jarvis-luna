@@ -2,7 +2,7 @@
 title: "Record 2211 · 선크림-클렌징-이렇게-하세요"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.285825+00:00
+updated_at: 2026-09-06T20:45:29.304192+00:00
 tags: [record, real-data]
 ---
 

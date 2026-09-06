@@ -2,7 +2,7 @@
 title: "Record 1072 · AI-and-Efficiency-How-Businesses-Save-Time-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.019520+00:00
+updated_at: 2026-09-06T20:45:29.048777+00:00
 tags: [record, real-data]
 ---
 

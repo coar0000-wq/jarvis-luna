@@ -2,7 +2,7 @@
 title: "Record 522 · Nomen-Est-Omen-A-Psychoanalytic-Exploration-of-Names"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.894571+00:00
+updated_at: 2026-09-06T20:45:28.925625+00:00
 tags: [record, real-data]
 ---
 

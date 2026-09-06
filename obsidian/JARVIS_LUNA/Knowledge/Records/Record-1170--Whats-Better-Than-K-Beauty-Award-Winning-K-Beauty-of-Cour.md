@@ -2,7 +2,7 @@
 title: "Record 1170 · Whats-Better-Than-K-Beauty-Award-Winning-K-Beauty-of-Course---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.042592+00:00
+updated_at: 2026-09-06T20:45:29.069926+00:00
 tags: [record, real-data]
 ---
 

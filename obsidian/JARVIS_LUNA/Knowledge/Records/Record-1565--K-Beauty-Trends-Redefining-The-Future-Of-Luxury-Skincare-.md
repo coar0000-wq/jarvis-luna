@@ -1,18 +1,18 @@
 ---
-title: "Record 1565 · K-Beauty-Trends-Redefining-The-Future-Of-Luxury-Skincare---shoppingyah"
+title: "Record 1565 · K-Beauty-Trends-Redefining-The-Future-Of-Luxury-Skincare---Yahoo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.140494+00:00
+updated_at: 2026-09-06T20:45:29.155988+00:00
 tags: [record, real-data]
 ---
 
-# Record 1565 · K-Beauty-Trends-Redefining-The-Future-Of-Luxury-Skincare---shoppingyah
+# Record 1565 · K-Beauty-Trends-Redefining-The-Future-Of-Luxury-Skincare---Yahoo
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiogFBVV95cUxPcThhZmVfLW5nWDAtZmtiM0FvdDE0ckZsNlBJVWVvSDY1WTN5UzNwMFJ0aVZSSzFxTXV3cG1abm90QkdpRzVsaGJ5dFJUcnRhcEVqZTNDX1FBRldITTFxRTZCNnRtWHhrU1hBVlBfbVVtQ0NKTF9KM29CZlduMTZ6NmEwZHlHT25aS21DZzAwOVhSbnB1bWowZkNfS0c3bDVQenc?oc=5)
 
-**제목:** K-Beauty Trends Redefining The Future Of Luxury Skincare - shopping.yahoo.com
+**제목:** K-Beauty Trends Redefining The Future Of Luxury Skincare - Yahoo
 
-K-Beauty Trends Redefining The Future Of Luxury Skincare - shopping.yahoo.com
+K-Beauty Trends Redefining The Future Of Luxury Skincare - Yahoo
 
 **출처:** Source · Google Search
 

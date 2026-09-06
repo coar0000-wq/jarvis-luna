@@ -2,7 +2,7 @@
 title: "Record 2168 · 눈에서-파마약-냄새가-나서-스킨케어-루틴--و-올영세일추천템"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.277000+00:00
+updated_at: 2026-09-06T20:45:29.293801+00:00
 tags: [record, real-data]
 ---
 

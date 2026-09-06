@@ -2,7 +2,7 @@
 title: "Record 575 · O-dilema-do-poderO-SisGAAz-e-a-defesa-marítima-brasileira"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.907094+00:00
+updated_at: 2026-09-06T20:45:28.938378+00:00
 tags: [record, real-data]
 ---
 

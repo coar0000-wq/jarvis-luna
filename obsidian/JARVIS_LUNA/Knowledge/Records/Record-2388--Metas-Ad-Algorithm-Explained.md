@@ -2,7 +2,7 @@
 title: "Record 2388 · Metas-Ad-Algorithm-Explained"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.324821+00:00
+updated_at: 2026-09-06T20:45:29.347064+00:00
 tags: [record, real-data]
 ---
 

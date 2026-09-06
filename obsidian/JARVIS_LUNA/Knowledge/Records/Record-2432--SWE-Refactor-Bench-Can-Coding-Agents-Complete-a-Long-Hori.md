@@ -2,7 +2,7 @@
 title: "Record 2432 · SWE-Refactor-Bench-Can-Coding-Agents-Complete-a-Long-Horizon-Whole-Rep"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.338169+00:00
+updated_at: 2026-09-06T20:45:29.360984+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2155 · Equate-Beauty-Vitamin-C-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.274360+00:00
+updated_at: 2026-09-06T20:45:29.290599+00:00
 tags: [record, real-data]
 ---
 

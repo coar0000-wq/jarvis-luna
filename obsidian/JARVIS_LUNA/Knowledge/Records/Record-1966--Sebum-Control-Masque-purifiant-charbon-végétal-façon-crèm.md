@@ -2,7 +2,7 @@
 title: "Record 1966 · Sebum-Control-Masque-purifiant-charbon-végétal-façon-crème-fouettée"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.233226+00:00
+updated_at: 2026-09-06T20:45:29.247972+00:00
 tags: [record, real-data]
 ---
 

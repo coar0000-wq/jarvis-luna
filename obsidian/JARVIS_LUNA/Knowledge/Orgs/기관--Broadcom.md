@@ -2,7 +2,7 @@
 title: "기관 · Broadcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.495387+00:00
+updated_at: 2026-09-06T20:45:29.520459+00:00
 tags: [org, real-data]
 ---
 

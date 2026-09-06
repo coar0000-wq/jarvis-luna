@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-06T18:32:57.746192+00:00",
+  "collected_at": "2026-09-06T20:44:48.191234+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -44,16 +44,24 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "skin",
+      "keyword": "september",
       "score": 6
     },
     {
-      "keyword": "september",
-      "score": 5
+      "keyword": "2026",
+      "score": 6
     },
     {
-      "keyword": "2026",
-      "score": 5
+      "keyword": "skin",
+      "score": 4
+    },
+    {
+      "keyword": "anything",
+      "score": 3
+    },
+    {
+      "keyword": "goes",
+      "score": 3
     },
     {
       "keyword": "new",
@@ -77,6 +85,14 @@
     },
     {
       "keyword": "questions",
+      "score": 2
+    },
+    {
+      "keyword": "brands",
+      "score": 2
+    },
+    {
+      "keyword": "beauty",
       "score": 2
     },
     {
@@ -104,19 +120,7 @@
       "score": 2
     },
     {
-      "keyword": "missha",
-      "score": 2
-    },
-    {
       "keyword": "shade",
-      "score": 2
-    },
-    {
-      "keyword": "anything",
-      "score": 2
-    },
-    {
-      "keyword": "goes",
       "score": 2
     },
     {
@@ -132,10 +136,6 @@
       "score": 2
     },
     {
-      "keyword": "skincare",
-      "score": 2
-    },
-    {
       "keyword": "product",
       "score": 1
     },
@@ -145,6 +145,30 @@
     },
     {
       "keyword": "thursday",
+      "score": 1
+    },
+    {
+      "keyword": "western",
+      "score": 1
+    },
+    {
+      "keyword": "makeup",
+      "score": 1
+    },
+    {
+      "keyword": "copying",
+      "score": 1
+    },
+    {
+      "keyword": "asian",
+      "score": 1
+    },
+    {
+      "keyword": "trends",
+      "score": 1
+    },
+    {
+      "keyword": "now",
       "score": 1
     },
     {
@@ -160,54 +184,30 @@
       "score": 1
     },
     {
-      "keyword": "a-beauty",
+      "keyword": "best",
       "score": 1
     },
     {
-      "keyword": "bobbi",
+      "keyword": "thing",
       "score": 1
     },
     {
-      "keyword": "letter",
+      "keyword": "own",
       "score": 1
     },
     {
-      "keyword": "aqua",
+      "keyword": "alba",
       "score": 1
     },
     {
-      "keyword": "whitening",
-      "score": 1
-    },
-    {
-      "keyword": "milk",
-      "score": 1
-    },
-    {
-      "keyword": "pa++++",
-      "score": 1
-    },
-    {
-      "keyword": "40ml",
-      "score": 1
-    },
-    {
-      "keyword": "comparing",
-      "score": 1
-    },
-    {
-      "keyword": "creams",
-      "score": 1
-    },
-    {
-      "keyword": "purito",
+      "keyword": "white",
       "score": 1
     }
   ],
   "beauty_keywords": [
     {
       "keyword": "skin",
-      "score": 6
+      "score": 4
     },
     {
       "keyword": "masks",
@@ -219,10 +219,6 @@
     },
     {
       "keyword": "routine",
-      "score": 2
-    },
-    {
-      "keyword": "skincare",
       "score": 2
     }
   ],
@@ -242,9 +238,23 @@
       "feed": "hot"
     },
     {
+      "title": "Is it just me or are Western makeup brands just copying Asian beauty trends now?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w96nrd/is_it_just_me_or_are_western_makeup_brands_just/",
+      "published": "2026-09-06T20:05:11+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "What’s your experience with long-wear hydrogel masks?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w90ahk/whats_your_experience_with_longwear_hydrogel_masks/",
       "published": "2026-09-06T16:11:11+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "The best thing i own: d'Alba White Truffle Spray",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w95w65/the_best_thing_i_own_dalba_white_truffle_spray/",
+      "published": "2026-09-06T19:36:54+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -263,6 +273,20 @@
       "feed": "hot"
     },
     {
+      "title": "Anything Goes Sunday: September 06, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w97jpl/anything_goes_sunday_september_06_2026/",
+      "published": "2026-09-06T20:39:10+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Thoughts on Lanbena Nose Plants Pore Strips",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8mq2b/thoughts_on_lanbena_nose_plants_pore_strips/",
+      "published": "2026-09-06T05:01:03+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Comparing BB Creams: Missha vs. Purito in shade 21",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7vn6a/comparing_bb_creams_missha_vs_purito_in_shade_21/",
       "published": "2026-09-05T09:06:51+00:00",
@@ -273,13 +297,6 @@
       "title": "Has anyone tried Mucota hair products?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8xn69/has_anyone_tried_mucota_hair_products/",
       "published": "2026-09-06T14:27:05+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Thoughts on Lanbena Nose Plants Pore Strips",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8mq2b/thoughts_on_lanbena_nose_plants_pore_strips/",
-      "published": "2026-09-06T05:01:03+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -378,27 +395,6 @@
       "title": "So many brands off Yesstyle and Stylevana. What’s going on? [EU BASED]",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w68bso/so_many_brands_off_yesstyle_and_stylevana_whats/",
       "published": "2026-09-03T14:03:02+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "The Saem Single Blushers",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w6sn7s/the_saem_single_blushers/",
-      "published": "2026-09-04T03:13:39+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "What’s a skincare or makeup trick you wish you’d learned sooner?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w5unr5/whats_a_skincare_or_makeup_trick_you_wish_youd/",
-      "published": "2026-09-03T02:22:17+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Some contour and missha swatches on fair skin",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w64jfu/some_contour_and_missha_swatches_on_fair_skin/",
-      "published": "2026-09-03T11:20:22+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

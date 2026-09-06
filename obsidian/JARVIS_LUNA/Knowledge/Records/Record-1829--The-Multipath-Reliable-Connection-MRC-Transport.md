@@ -2,7 +2,7 @@
 title: "Record 1829 · The-Multipath-Reliable-Connection-MRC-Transport"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.201949+00:00
+updated_at: 2026-09-06T20:45:29.216802+00:00
 tags: [record, real-data]
 ---
 

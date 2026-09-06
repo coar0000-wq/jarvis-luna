@@ -2,7 +2,7 @@
 title: "Record 456 · First-evaluation-of-wearable-radiation-protection-for-human-deep-space"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.879211+00:00
+updated_at: 2026-09-06T20:45:28.909550+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1357 · Shopifys-revenue-rises-30-in-2025-as-B2B-sales-surge-and-AI-commerce-e"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.088705+00:00
+updated_at: 2026-09-06T20:45:29.110506+00:00
 tags: [record, real-data]
 ---
 

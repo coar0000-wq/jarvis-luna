@@ -2,7 +2,7 @@
 title: "Record 1405 · Beetlejuice-lips-are-the-latest-TikTok-beauty-trend-urging-Gen-Z-to-em"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.100582+00:00
+updated_at: 2026-09-06T20:45:29.120951+00:00
 tags: [record, real-data]
 ---
 

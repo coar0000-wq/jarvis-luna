@@ -2,7 +2,7 @@
 title: "Record 1419 · From-TikTok-Shop-to-Gen-X-The-global-beauty-trends-of-2025-revealed---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.104018+00:00
+updated_at: 2026-09-06T20:45:29.124016+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijgFBVV95cUxPdjNjMEZwa09UNlhqdzl5UzctcFRfWkx3MFdSd1lvdm1IU0xQSTJUelp3a1ZNMmwzWUJqcEZZVVlCMTBQSG1mWml6WjktVGNMLXRQaXM4aFpoUlhka01xcFBQanRsd20ySHZWNWZIaFN6RmFrSVNpNmk5QWNONzJLQ1RtVVlGbEMwTmdOemFR?oc=5)
 
-**제목:** From TikTok Shop to Gen X: The global beauty trends of 2025 revealed - cosmeticsbusiness.com
+**제목:** From TikTok Shop to Gen X: The global beauty trends of 2025 revealed - Cosmetics Business
 
-From TikTok Shop to Gen X: The global beauty trends of 2025 revealed - cosmeticsbusiness.com
+From TikTok Shop to Gen X: The global beauty trends of 2025 revealed - Cosmetics Business
 
 **출처:** Source · Google Search
 

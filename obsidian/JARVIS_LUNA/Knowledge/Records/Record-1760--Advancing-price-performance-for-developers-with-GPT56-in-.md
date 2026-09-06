@@ -2,7 +2,7 @@
 title: "Record 1760 · Advancing-price-performance-for-developers-with-GPT56-in-Kiro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.186735+00:00
+updated_at: 2026-09-06T20:45:29.201576+00:00
 tags: [record, real-data]
 ---
 

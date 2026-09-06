@@ -2,7 +2,7 @@
 title: "Record 1313 · All-About-The-Republican-Makeup-Trend-Thats-Taking-Over-TikTok---WWD"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.077500+00:00
+updated_at: 2026-09-06T20:45:29.100516+00:00
 tags: [record, real-data]
 ---
 

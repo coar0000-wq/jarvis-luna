@@ -2,7 +2,7 @@
 title: "Record 1376 · How-South-Koreas-K-beauty-trend-boosts-soft-power---DWcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.093419+00:00
+updated_at: 2026-09-06T20:45:29.114654+00:00
 tags: [record, real-data]
 ---
 

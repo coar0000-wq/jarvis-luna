@@ -2,7 +2,7 @@
 title: "Record 2253 · 다이소-선크림-논란-1분-팩트체크"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.294429+00:00
+updated_at: 2026-09-06T20:45:29.314503+00:00
 tags: [record, real-data]
 ---
 

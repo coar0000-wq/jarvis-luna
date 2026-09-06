@@ -2,7 +2,7 @@
 title: "Record 2108 · Investor-Confidence-Too-High"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.263364+00:00
+updated_at: 2026-09-06T20:45:29.278560+00:00
 tags: [record, real-data]
 ---
 

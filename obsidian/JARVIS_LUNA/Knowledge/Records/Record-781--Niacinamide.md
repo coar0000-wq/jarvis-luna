@@ -2,7 +2,7 @@
 title: "Record 781 · Niacinamide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.954178+00:00
+updated_at: 2026-09-06T20:45:28.983971+00:00
 tags: [record, real-data]
 ---
 

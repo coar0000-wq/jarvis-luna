@@ -2,7 +2,7 @@
 title: "Record 1089 · WooCommerce-vs-Shopify-Which-One-Is-Better-for-Your-Store---Hostinger"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.023141+00:00
+updated_at: 2026-09-06T20:45:29.052376+00:00
 tags: [record, real-data]
 ---
 

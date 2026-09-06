@@ -2,7 +2,7 @@
 title: "Record 1948 · DrFORHAIR-Folligen-Thickening-Shampoo-169-fl-oz500ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.229500+00:00
+updated_at: 2026-09-06T20:45:29.244238+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1894 · Robust-Control-under-Stationary-Ambiguity"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.216048+00:00
+updated_at: 2026-09-06T20:45:29.230844+00:00
 tags: [record, real-data]
 ---
 

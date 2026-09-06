@@ -2,7 +2,7 @@
 title: "Record 478 · GABLE-contract-source-code"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.884299+00:00
+updated_at: 2026-09-06T20:45:28.914877+00:00
 tags: [record, real-data]
 ---
 

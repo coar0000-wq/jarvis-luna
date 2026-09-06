@@ -2,7 +2,7 @@
 title: "Record 2097 · Introducing-CARE-X-Towards-Clinically-Useful-Radiology-VLMs-with-Auxil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.260816+00:00
+updated_at: 2026-09-06T20:45:29.276167+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2227 · 브라이트너-어디서-살까-다이소-vs-올영-레몬템-비교"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.289090+00:00
+updated_at: 2026-09-06T20:45:29.308104+00:00
 tags: [record, real-data]
 ---
 

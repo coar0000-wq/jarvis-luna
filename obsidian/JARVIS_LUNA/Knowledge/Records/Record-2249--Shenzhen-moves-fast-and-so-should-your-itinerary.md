@@ -2,7 +2,7 @@
 title: "Record 2249 · Shenzhen-moves-fast-and-so-should-your-itinerary"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.293642+00:00
+updated_at: 2026-09-06T20:45:29.313514+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 488 · Integrating-Modafinil-Effects-Into-a-Biomathematical-Model-of-Fatigue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.886672+00:00
+updated_at: 2026-09-06T20:45:28.917367+00:00
 tags: [record, real-data]
 ---
 

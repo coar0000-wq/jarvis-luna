@@ -2,7 +2,7 @@
 title: "Record 1154 · Backyard-Botox-Is-TikToks-Most-Reckless-Beauty-Trend-Yet---NewBeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.038626+00:00
+updated_at: 2026-09-06T20:45:29.066445+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 523 · Active-Surveillance-for-Invasive-Mold-Disease--Four-Hospitals-Atlanta-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.894820+00:00
+updated_at: 2026-09-06T20:45:28.925902+00:00
 tags: [record, real-data]
 ---
 

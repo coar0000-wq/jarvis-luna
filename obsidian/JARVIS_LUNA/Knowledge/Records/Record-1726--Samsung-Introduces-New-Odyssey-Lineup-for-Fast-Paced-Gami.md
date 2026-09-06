@@ -2,7 +2,7 @@
 title: "Record 1726 · Samsung-Introduces-New-Odyssey-Lineup-for-Fast-Paced-Gaming-at-Gamesco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.177612+00:00
+updated_at: 2026-09-06T20:45:29.192759+00:00
 tags: [record, real-data]
 ---
 

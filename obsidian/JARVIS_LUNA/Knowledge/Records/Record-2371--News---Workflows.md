@@ -2,7 +2,7 @@
 title: "Record 2371 · News---Workflows"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.318495+00:00
+updated_at: 2026-09-06T20:45:29.340482+00:00
 tags: [record, real-data]
 ---
 

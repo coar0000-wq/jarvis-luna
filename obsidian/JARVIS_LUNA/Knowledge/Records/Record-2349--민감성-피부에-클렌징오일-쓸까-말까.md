@@ -2,7 +2,7 @@
 title: "Record 2349 · 민감성-피부에-클렌징오일-쓸까-말까"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.314088+00:00
+updated_at: 2026-09-06T20:45:29.336012+00:00
 tags: [record, real-data]
 ---
 

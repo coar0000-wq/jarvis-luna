@@ -2,7 +2,7 @@
 title: "Record 2170 · 개털도-엔젤링-만들어주는-머릿결-구원템-구독자이벤트-샴푸추천"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.277439+00:00
+updated_at: 2026-09-06T20:45:29.294312+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 514 · Scaling-spark-in-the-real-world"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.892875+00:00
+updated_at: 2026-09-06T20:45:28.923807+00:00
 tags: [record, real-data]
 ---
 

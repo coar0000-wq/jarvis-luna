@@ -2,7 +2,7 @@
 title: "Record 2017 · Q4-2024-Financial-Results"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.244032+00:00
+updated_at: 2026-09-06T20:45:29.258967+00:00
 tags: [record, real-data]
 ---
 

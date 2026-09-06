@@ -2,7 +2,7 @@
 title: "Record 874 · Mistral-AI-partners-with-NVIDIA-to-accelerate-open-frontier-models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.977488+00:00
+updated_at: 2026-09-06T20:45:29.006928+00:00
 tags: [record, real-data]
 ---
 

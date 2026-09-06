@@ -2,7 +2,7 @@
 title: "Record 2257 · Every-Tretinoin-Hack-You-Need-To-Know"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.295263+00:00
+updated_at: 2026-09-06T20:45:29.315515+00:00
 tags: [record, real-data]
 ---
 

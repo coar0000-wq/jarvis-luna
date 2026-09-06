@@ -2,7 +2,7 @@
 title: "Record 2175 · Global-1-vs-Korea-1--Part-3"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.278446+00:00
+updated_at: 2026-09-06T20:45:29.295499+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1492 · K-beauty-shapes-global-formulation-and-breaks-into-new-categories---Pe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.122278+00:00
+updated_at: 2026-09-06T20:45:29.139909+00:00
 tags: [record, real-data]
 ---
 

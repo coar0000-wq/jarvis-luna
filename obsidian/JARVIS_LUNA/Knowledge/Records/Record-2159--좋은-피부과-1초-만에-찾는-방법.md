@@ -2,7 +2,7 @@
 title: "Record 2159 · 좋은-피부과-1초-만에-찾는-방법"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.275152+00:00
+updated_at: 2026-09-06T20:45:29.291565+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 336 · Advances-in-gate-stack-development-for-p-type-2D-channel-FETs-through-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.851176+00:00
+updated_at: 2026-09-06T20:45:28.879614+00:00
 tags: [record, real-data]
 ---
 

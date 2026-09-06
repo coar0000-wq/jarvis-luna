@@ -2,7 +2,7 @@
 title: "Record 1936 · beplain-Mung-Bean-pH-Balanced-Cleansing-Foam-541-fl-oz160ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.226770+00:00
+updated_at: 2026-09-06T20:45:29.241532+00:00
 tags: [record, real-data]
 ---
 

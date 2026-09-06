@@ -2,7 +2,7 @@
 title: "Record 2223 · 올영세일-모르겠고-그냥-제품들-써보기-٩๑-ᐛ-๑و"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.288286+00:00
+updated_at: 2026-09-06T20:45:29.307113+00:00
 tags: [record, real-data]
 ---
 

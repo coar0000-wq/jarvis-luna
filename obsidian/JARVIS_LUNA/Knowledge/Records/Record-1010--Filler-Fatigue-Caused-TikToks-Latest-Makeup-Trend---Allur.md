@@ -2,7 +2,7 @@
 title: "Record 1010 · Filler-Fatigue-Caused-TikToks-Latest-Makeup-Trend---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.006463+00:00
+updated_at: 2026-09-06T20:45:29.035673+00:00
 tags: [record, real-data]
 ---
 

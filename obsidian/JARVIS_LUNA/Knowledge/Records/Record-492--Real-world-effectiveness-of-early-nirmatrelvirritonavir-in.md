@@ -2,7 +2,7 @@
 title: "Record 492 · Real-world-effectiveness-of-early-nirmatrelvirritonavir-initiation-aft"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.887672+00:00
+updated_at: 2026-09-06T20:45:28.918403+00:00
 tags: [record, real-data]
 ---
 

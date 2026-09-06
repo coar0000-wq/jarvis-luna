@@ -2,7 +2,7 @@
 title: "Record 716 · A-Disclosure-Benchmark-Specification-for-Automated-Alignment-Research"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.939686+00:00
+updated_at: 2026-09-06T20:45:28.969494+00:00
 tags: [record, real-data]
 ---
 

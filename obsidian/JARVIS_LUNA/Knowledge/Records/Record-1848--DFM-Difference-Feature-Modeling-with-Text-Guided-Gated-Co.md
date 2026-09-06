@@ -2,7 +2,7 @@
 title: "Record 1848 · DFM-Difference-Feature-Modeling-with-Text-Guided-Gated-Contrastive-Los"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.206044+00:00
+updated_at: 2026-09-06T20:45:29.220875+00:00
 tags: [record, real-data]
 ---
 

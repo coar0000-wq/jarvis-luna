@@ -2,7 +2,7 @@
 title: "Record 766 · FORTALECIMENTO-DA-UNIVERSIDADE-EMPREENDEDORA-POR-MEIO-DE-PROGRAMAS-INS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.950929+00:00
+updated_at: 2026-09-06T20:45:28.980659+00:00
 tags: [record, real-data]
 ---
 

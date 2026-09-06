@@ -2,7 +2,7 @@
 title: "Record 1950 · lilyeve-Growturn-Exosome-Brush-Ampoule-338-fl-oz100ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.229945+00:00
+updated_at: 2026-09-06T20:45:29.244696+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)
 
 lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)
-lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml) · 평점 4.6 · 리뷰 8
+lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml) · 평점 4.7 · 리뷰 9
 
 **출처:** Source · us_beauty
 

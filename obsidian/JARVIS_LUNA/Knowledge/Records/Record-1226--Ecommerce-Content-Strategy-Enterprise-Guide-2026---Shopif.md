@@ -2,7 +2,7 @@
 title: "Record 1226 · Ecommerce-Content-Strategy-Enterprise-Guide-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.056235+00:00
+updated_at: 2026-09-06T20:45:29.081876+00:00
 tags: [record, real-data]
 ---
 

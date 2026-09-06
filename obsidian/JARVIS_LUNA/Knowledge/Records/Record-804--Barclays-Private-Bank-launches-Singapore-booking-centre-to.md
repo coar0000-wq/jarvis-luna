@@ -2,7 +2,7 @@
 title: "Record 804 · Barclays-Private-Bank-launches-Singapore-booking-centre-to-serve-globa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.959377+00:00
+updated_at: 2026-09-06T20:45:28.989128+00:00
 tags: [record, real-data]
 ---
 

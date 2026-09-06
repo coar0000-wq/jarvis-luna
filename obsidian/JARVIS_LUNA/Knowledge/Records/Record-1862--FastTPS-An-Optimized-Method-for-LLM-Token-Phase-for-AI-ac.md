@@ -2,7 +2,7 @@
 title: "Record 1862 · FastTPS-An-Optimized-Method-for-LLM-Token-Phase-for-AI-accelerators"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.209150+00:00
+updated_at: 2026-09-06T20:45:29.223898+00:00
 tags: [record, real-data]
 ---
 

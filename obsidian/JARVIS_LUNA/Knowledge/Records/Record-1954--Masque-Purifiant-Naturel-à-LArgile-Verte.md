@@ -2,7 +2,7 @@
 title: "Record 1954 · Masque-Purifiant-Naturel-à-LArgile-Verte"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.230773+00:00
+updated_at: 2026-09-06T20:45:29.245515+00:00
 tags: [record, real-data]
 ---
 

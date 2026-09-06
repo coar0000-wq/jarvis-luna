@@ -2,7 +2,7 @@
 title: "Record 2239 · Belgrade-big-ideas-are-about-to-meet-bigger-opportunities---CJEC-Belgr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.291556+00:00
+updated_at: 2026-09-06T20:45:29.310999+00:00
 tags: [record, real-data]
 ---
 

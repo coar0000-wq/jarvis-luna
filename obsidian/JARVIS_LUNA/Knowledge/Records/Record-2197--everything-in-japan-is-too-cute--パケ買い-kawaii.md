@@ -2,7 +2,7 @@
 title: "Record 2197 · everything-in-japan-is-too-cute--パケ買い-kawaii"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.282986+00:00
+updated_at: 2026-09-06T20:45:29.300812+00:00
 tags: [record, real-data]
 ---
 

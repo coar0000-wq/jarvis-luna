@@ -1,19 +1,19 @@
 ---
-title: "Record 1322 · I-tested-the-Korean-sunscreen-thats-been-made-for-oily-skin---AOLcom"
+title: "Record 1322 · I-tested-the-Korean-sunscreen-thats-been-made-for-oily-skin---aolcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.079711+00:00
+updated_at: 2026-09-06T20:45:29.102698+00:00
 tags: [record, real-data]
 ---
 
-# Record 1322 · I-tested-the-Korean-sunscreen-thats-been-made-for-oily-skin---AOLcom
+# Record 1322 · I-tested-the-Korean-sunscreen-thats-been-made-for-oily-skin---aolcom
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigwFBVV95cUxOVkVwMkZ5VjhQOG94aFU0X1J2MnJubWoyd2RpYW9KTjNvSWwxU05CMGRSNWpPRlFFczNQRjdWcWliYlhiWHRYdC1IQ0dxR1JOaGxTZjFGQS0xUjlIdnhrUy1WdFVfOVg1S3MwQWpuTWdPWHVMbDJLcUphSlJLcW11R3FVbw?oc=5)
 
-**제목:** I tested the Korean sunscreen that’s been made for oily skin - AOL.com
+**제목:** I tested the Korean sunscreen that’s been made for oily skin - aol.com
 
-I tested the Korean sunscreen that’s been made for oily skin - AOL.com
-I tested the Korean sunscreen that’s been made for oily skin - AOL.com
+I tested the Korean sunscreen that’s been made for oily skin - aol.com
+I tested the Korean sunscreen that’s been made for oily skin - aol.com
 
 **출처:** Source · us_beauty
 

@@ -2,7 +2,7 @@
 title: "Record 2112 · Trump-Tax-Cuts-Market-Volatility-2025"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.264151+00:00
+updated_at: 2026-09-06T20:45:29.279352+00:00
 tags: [record, real-data]
 ---
 

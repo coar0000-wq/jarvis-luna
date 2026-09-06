@@ -2,7 +2,7 @@
 title: "Record 1959 · Hydrating-cream-to-foam-cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.231797+00:00
+updated_at: 2026-09-06T20:45:29.246544+00:00
 tags: [record, real-data]
 ---
 

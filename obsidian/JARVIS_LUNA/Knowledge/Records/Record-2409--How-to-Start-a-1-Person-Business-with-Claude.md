@@ -2,7 +2,7 @@
 title: "Record 2409 · How-to-Start-a-1-Person-Business-with-Claude"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.328819+00:00
+updated_at: 2026-09-06T20:45:29.351103+00:00
 tags: [record, real-data]
 ---
 

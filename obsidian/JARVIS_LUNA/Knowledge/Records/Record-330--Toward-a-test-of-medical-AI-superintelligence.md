@@ -2,7 +2,7 @@
 title: "Record 330 · Toward-a-test-of-medical-AI-superintelligence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.849596+00:00
+updated_at: 2026-09-06T20:45:28.878174+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 022 · Fidelity-Is-Not-Enough-Dispatch-Level-Instrumentation-for-Agentic-Data"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.769429+00:00
+updated_at: 2026-09-06T20:45:28.804975+00:00
 tags: [record, real-data]
 ---
 

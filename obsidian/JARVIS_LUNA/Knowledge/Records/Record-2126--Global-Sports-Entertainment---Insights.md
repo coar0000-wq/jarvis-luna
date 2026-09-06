@@ -2,7 +2,7 @@
 title: "Record 2126 · Global-Sports-Entertainment---Insights"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.266927+00:00
+updated_at: 2026-09-06T20:45:29.282136+00:00
 tags: [record, real-data]
 ---
 

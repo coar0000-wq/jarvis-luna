@@ -2,7 +2,7 @@
 title: "Record 1881 · A-Photonic-CXL-Memory-Appliance-for-Scalable-KV-Cache-Management-in-LL"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.213206+00:00
+updated_at: 2026-09-06T20:45:29.228013+00:00
 tags: [record, real-data]
 ---
 

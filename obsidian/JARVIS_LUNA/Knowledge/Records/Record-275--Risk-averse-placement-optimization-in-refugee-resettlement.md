@@ -2,7 +2,7 @@
 title: "Record 275 · Risk-averse-placement-optimization-in-refugee-resettlement"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.835341+00:00
+updated_at: 2026-09-06T20:45:28.865443+00:00
 tags: [record, real-data]
 ---
 

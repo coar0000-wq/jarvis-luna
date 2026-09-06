@@ -2,7 +2,7 @@
 title: "Record 1115 · TikToks-Latest-Hair-Botox-Trend-and-Why-You-Should-Get-It---LOFFICIEL-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.029050+00:00
+updated_at: 2026-09-06T20:45:29.057889+00:00
 tags: [record, real-data]
 ---
 

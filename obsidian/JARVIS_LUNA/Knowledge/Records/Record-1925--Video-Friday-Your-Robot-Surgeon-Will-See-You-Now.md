@@ -2,7 +2,7 @@
 title: "Record 1925 · Video-Friday-Your-Robot-Surgeon-Will-See-You-Now"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.224163+00:00
+updated_at: 2026-09-06T20:45:29.238894+00:00
 tags: [record, real-data]
 ---
 

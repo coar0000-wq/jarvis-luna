@@ -2,7 +2,7 @@
 title: "Record 1286 · Key-Digital-Transformation-Challenges-in-Ecommerce-for-2026-and-How-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.070879+00:00
+updated_at: 2026-09-06T20:45:29.094701+00:00
 tags: [record, real-data]
 ---
 

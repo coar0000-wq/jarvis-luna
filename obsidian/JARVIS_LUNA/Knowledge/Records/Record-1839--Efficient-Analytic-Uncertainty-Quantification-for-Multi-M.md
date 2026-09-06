@@ -2,7 +2,7 @@
 title: "Record 1839 · Efficient-Analytic-Uncertainty-Quantification-for-Multi-Modal-Regressi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.204093+00:00
+updated_at: 2026-09-06T20:45:29.218938+00:00
 tags: [record, real-data]
 ---
 

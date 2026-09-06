@@ -2,7 +2,7 @@
 title: "Record 1769 · Path-to-Astra-critical-capabilities-and-frontier-safeguards"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.188894+00:00
+updated_at: 2026-09-06T20:45:29.203787+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1763 · Introducing-the-Admin-plugin-for-ChatGPT-Work-and-Codex"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.187461+00:00
+updated_at: 2026-09-06T20:45:29.202319+00:00
 tags: [record, real-data]
 ---
 

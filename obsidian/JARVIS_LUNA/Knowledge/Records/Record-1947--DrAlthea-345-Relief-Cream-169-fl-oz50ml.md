@@ -2,7 +2,7 @@
 title: "Record 1947 · DrAlthea-345-Relief-Cream-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.229296+00:00
+updated_at: 2026-09-06T20:45:29.244020+00:00
 tags: [record, real-data]
 ---
 

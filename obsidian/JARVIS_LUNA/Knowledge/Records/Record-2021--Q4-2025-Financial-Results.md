@@ -2,7 +2,7 @@
 title: "Record 2021 · Q4-2025-Financial-Results"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.244878+00:00
+updated_at: 2026-09-06T20:45:29.259840+00:00
 tags: [record, real-data]
 ---
 

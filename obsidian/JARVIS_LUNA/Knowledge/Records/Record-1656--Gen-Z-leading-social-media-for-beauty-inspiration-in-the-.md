@@ -2,7 +2,7 @@
 title: "Record 1656 · Gen-Z-leading-social-media-for-beauty-inspiration-in-the-US-and-UK-202"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.161082+00:00
+updated_at: 2026-09-06T20:45:29.176021+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMitAFBVV95cUxNNkZXb0hsZzV2VlVYNlQzbVdpcnVLZ0VzdzFDbEE0ZkF6UnRiV0Y3LWJxUnRZa3dNbG9oYTVrS1JEOHRyNW5TWk5nVFYxbVRsWDd2eFc4MUxFdkxuNWpOaE03OHVNclh4QkFhWmdxbUF0V2tPcVRkLUhKdUVlNW9Ed2E3MDJGbkM0WEJDUG9mSkR4LVBvOC1nWjZMdFRjZWdLeXFoQzlTSU15N3JGcGpNdlV4QTY?oc=5)
 
-**제목:** Gen Z: leading social media for beauty inspiration in the U.S. and UK 2026 - Statista
+**제목:** Gen Z: leading social media for beauty inspiration in the U.S. and UK 2026 - statista.com
 
-Gen Z: leading social media for beauty inspiration in the U.S. and UK 2026 - Statista
+Gen Z: leading social media for beauty inspiration in the U.S. and UK 2026 - statista.com
 
 **출처:** Source · Google Search
 

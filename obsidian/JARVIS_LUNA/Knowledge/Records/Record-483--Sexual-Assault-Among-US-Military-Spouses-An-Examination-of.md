@@ -2,7 +2,7 @@
 title: "Record 483 · Sexual-Assault-Among-US-Military-Spouses-An-Examination-of-Prevalence-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.885503+00:00
+updated_at: 2026-09-06T20:45:28.916126+00:00
 tags: [record, real-data]
 ---
 

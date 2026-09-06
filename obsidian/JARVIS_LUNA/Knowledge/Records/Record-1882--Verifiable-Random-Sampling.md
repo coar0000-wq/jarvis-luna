@@ -2,7 +2,7 @@
 title: "Record 1882 · Verifiable-Random-Sampling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.213411+00:00
+updated_at: 2026-09-06T20:45:29.228212+00:00
 tags: [record, real-data]
 ---
 

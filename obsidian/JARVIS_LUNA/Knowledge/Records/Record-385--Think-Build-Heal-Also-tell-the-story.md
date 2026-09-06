@@ -2,7 +2,7 @@
 title: "Record 385 · Think-Build-Heal-Also-tell-the-story"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.862526+00:00
+updated_at: 2026-09-06T20:45:28.892105+00:00
 tags: [record, real-data]
 ---
 

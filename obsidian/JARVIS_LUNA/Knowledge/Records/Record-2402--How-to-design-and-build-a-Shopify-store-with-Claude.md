@@ -2,7 +2,7 @@
 title: "Record 2402 · How-to-design-and-build-a-Shopify-store-with-Claude"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.327503+00:00
+updated_at: 2026-09-06T20:45:29.349750+00:00
 tags: [record, real-data]
 ---
 

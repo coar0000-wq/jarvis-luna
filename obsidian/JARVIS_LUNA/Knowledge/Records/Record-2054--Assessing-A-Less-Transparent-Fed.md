@@ -2,7 +2,7 @@
 title: "Record 2054 · Assessing-A-Less-Transparent-Fed"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.251810+00:00
+updated_at: 2026-09-06T20:45:29.267071+00:00
 tags: [record, real-data]
 ---
 

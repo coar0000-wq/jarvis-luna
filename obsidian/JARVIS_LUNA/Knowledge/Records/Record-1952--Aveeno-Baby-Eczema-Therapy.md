@@ -2,7 +2,7 @@
 title: "Record 1952 · Aveeno-Baby-Eczema-Therapy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.230359+00:00
+updated_at: 2026-09-06T20:45:29.245087+00:00
 tags: [record, real-data]
 ---
 

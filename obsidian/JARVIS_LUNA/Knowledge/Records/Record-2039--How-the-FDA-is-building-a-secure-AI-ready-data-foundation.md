@@ -2,7 +2,7 @@
 title: "Record 2039 · How-the-FDA-is-building-a-secure-AI-ready-data-foundation-on-Databrick"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.248687+00:00
+updated_at: 2026-09-06T20:45:29.263840+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1140 · TikToks-Icy-Glam-Makeup-Trend-Explained---Hypebae"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.035204+00:00
+updated_at: 2026-09-06T20:45:29.063352+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1890 · Amortizing-the-Calibration-Triple-A-Projection-Consistent-Neural-Opera"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.215156+00:00
+updated_at: 2026-09-06T20:45:29.229938+00:00
 tags: [record, real-data]
 ---
 

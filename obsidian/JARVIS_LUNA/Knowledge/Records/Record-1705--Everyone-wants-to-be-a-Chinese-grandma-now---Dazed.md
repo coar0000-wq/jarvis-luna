@@ -2,7 +2,7 @@
 title: "Record 1705 · Everyone-wants-to-be-a-Chinese-grandma-now---Dazed"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.171722+00:00
+updated_at: 2026-09-06T20:45:29.186813+00:00
 tags: [record, real-data]
 ---
 

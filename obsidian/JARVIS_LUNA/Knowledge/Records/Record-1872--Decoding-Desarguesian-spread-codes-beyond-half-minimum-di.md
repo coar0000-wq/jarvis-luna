@@ -2,7 +2,7 @@
 title: "Record 1872 · Decoding-Desarguesian-spread-codes-beyond-half-minimum-distance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.211316+00:00
+updated_at: 2026-09-06T20:45:29.226102+00:00
 tags: [record, real-data]
 ---
 

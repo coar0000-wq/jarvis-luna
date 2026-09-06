@@ -2,7 +2,7 @@
 title: "Record 1031 · Project-Pan-Is-The-Beauty-Trend-Helping-People-Buy-Less-In-2026---Bust"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.010854+00:00
+updated_at: 2026-09-06T20:45:29.040149+00:00
 tags: [record, real-data]
 ---
 

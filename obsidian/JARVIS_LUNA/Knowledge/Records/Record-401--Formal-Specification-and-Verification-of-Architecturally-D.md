@@ -2,7 +2,7 @@
 title: "Record 401 · Formal-Specification-and-Verification-of-Architecturally-Defined-Attes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.866387+00:00
+updated_at: 2026-09-06T20:45:28.896195+00:00
 tags: [record, real-data]
 ---
 

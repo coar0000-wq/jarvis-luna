@@ -2,7 +2,7 @@
 title: "Record 2064 · David-Solomon-Cnbc-Sep-2026---Transcript"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.253838+00:00
+updated_at: 2026-09-06T20:45:29.269099+00:00
 tags: [record, real-data]
 ---
 

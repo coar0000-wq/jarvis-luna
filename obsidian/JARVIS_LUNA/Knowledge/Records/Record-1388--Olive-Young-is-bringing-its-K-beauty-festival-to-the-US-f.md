@@ -2,7 +2,7 @@
 title: "Record 1388 · Olive-Young-is-bringing-its-K-beauty-festival-to-the-US-for-the-first-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.096322+00:00
+updated_at: 2026-09-06T20:45:29.117221+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiigFBVV95cUxQVVJLU2dJSXdWM1dIemFvemR6VWdWSHVTOGxXMVdBS2cwbjRaN0p4Wmh1TEdkNkJDSWFmRzV4eUoxTGRpZWRoTUJMZHh4RWhLNExlRl9Lak5OY3dkOTJ2QWtDUXVZYkU0bUpLMFF6ck1aNUdGRHpuX0xBbHB0ZUdsMHRKM3JIN3ZYTlE?oc=5)
 
-**제목:** Olive Young is bringing its K-beauty festival to the US for the first time - cosmeticsbusiness.com
+**제목:** Olive Young is bringing its K-beauty festival to the US for the first time - Cosmetics Business
 
-Olive Young is bringing its K-beauty festival to the US for the first time - cosmeticsbusiness.com
+Olive Young is bringing its K-beauty festival to the US for the first time - Cosmetics Business
 
 **출처:** Source · Google Search
 

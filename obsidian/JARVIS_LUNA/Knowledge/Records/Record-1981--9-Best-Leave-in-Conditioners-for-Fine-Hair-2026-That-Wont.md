@@ -2,7 +2,7 @@
 title: "Record 1981 · 9-Best-Leave-in-Conditioners-for-Fine-Hair-2026-That-Wont-Nix-Volume"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.236411+00:00
+updated_at: 2026-09-06T20:45:29.251159+00:00
 tags: [record, real-data]
 ---
 

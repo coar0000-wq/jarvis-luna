@@ -2,7 +2,7 @@
 title: "Record 219 · Immersive-Virtual-Reality-in-Foreign-Language-Learning-A-Bibliometric-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.820372+00:00
+updated_at: 2026-09-06T20:45:28.851886+00:00
 tags: [record, real-data]
 ---
 

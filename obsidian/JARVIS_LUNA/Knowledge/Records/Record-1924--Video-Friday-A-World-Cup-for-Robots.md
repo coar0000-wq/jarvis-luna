@@ -2,7 +2,7 @@
 title: "Record 1924 · Video-Friday-A-World-Cup-for-Robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.223894+00:00
+updated_at: 2026-09-06T20:45:29.238648+00:00
 tags: [record, real-data]
 ---
 

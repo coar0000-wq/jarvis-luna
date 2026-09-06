@@ -2,7 +2,7 @@
 title: "Record 1794 · Dual-View-Training-for-Instruction-Following-Information-Retrieval"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.194479+00:00
+updated_at: 2026-09-06T20:45:29.209310+00:00
 tags: [record, real-data]
 ---
 

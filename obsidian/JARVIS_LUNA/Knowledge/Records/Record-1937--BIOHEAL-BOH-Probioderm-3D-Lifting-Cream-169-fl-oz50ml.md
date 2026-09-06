@@ -2,7 +2,7 @@
 title: "Record 1937 · BIOHEAL-BOH-Probioderm-3D-Lifting-Cream-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.226991+00:00
+updated_at: 2026-09-06T20:45:29.241752+00:00
 tags: [record, real-data]
 ---
 

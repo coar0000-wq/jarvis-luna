@@ -2,7 +2,7 @@
 title: "Record 2212 · You-can-build-an-eCommerce-business-from-anywhere-But-some-connections"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.286055+00:00
+updated_at: 2026-09-06T20:45:29.304491+00:00
 tags: [record, real-data]
 ---
 

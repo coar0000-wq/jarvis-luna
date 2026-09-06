@@ -2,7 +2,7 @@
 title: "Record 1359 · Sephora-is-at-the-center-of-TikTok-beauty-trendsand-the-CEO-says-its-n"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.089225+00:00
+updated_at: 2026-09-06T20:45:29.110949+00:00
 tags: [record, real-data]
 ---
 

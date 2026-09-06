@@ -2,7 +2,7 @@
 title: "Record 1260 · Korean-Beauty-Is-Booming-My-Korean-Beauty-Brand-Is-Closing---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.064556+00:00
+updated_at: 2026-09-06T20:45:29.089127+00:00
 tags: [record, real-data]
 ---
 

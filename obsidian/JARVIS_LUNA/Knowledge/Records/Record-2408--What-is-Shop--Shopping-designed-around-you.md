@@ -2,7 +2,7 @@
 title: "Record 2408 · What-is-Shop--Shopping-designed-around-you"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.328634+00:00
+updated_at: 2026-09-06T20:45:29.350913+00:00
 tags: [record, real-data]
 ---
 

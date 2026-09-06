@@ -2,7 +2,7 @@
 title: "Record 1930 · Anua-PDRN-Hyaluronic-Acid-Capsule-100-Serum-Refill-Set-202-fl-oz60ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.225412+00:00
+updated_at: 2026-09-06T20:45:29.240160+00:00
 tags: [record, real-data]
 ---
 

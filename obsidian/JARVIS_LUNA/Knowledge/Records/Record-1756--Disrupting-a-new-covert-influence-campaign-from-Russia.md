@@ -2,7 +2,7 @@
 title: "Record 1756 · Disrupting-a-new-covert-influence-campaign-from-Russia"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.185761+00:00
+updated_at: 2026-09-06T20:45:29.200607+00:00
 tags: [record, real-data]
 ---
 

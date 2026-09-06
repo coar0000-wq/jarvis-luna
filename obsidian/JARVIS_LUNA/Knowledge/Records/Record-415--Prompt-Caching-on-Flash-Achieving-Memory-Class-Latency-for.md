@@ -2,7 +2,7 @@
 title: "Record 415 · Prompt-Caching-on-Flash-Achieving-Memory-Class-Latency-for-LLM-Inferen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.869618+00:00
+updated_at: 2026-09-06T20:45:28.899568+00:00
 tags: [record, real-data]
 ---
 

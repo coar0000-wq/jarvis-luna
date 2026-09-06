@@ -2,7 +2,7 @@
 title: "Record 1526 · The-Influence-of-TikTok-Trends-on-Beauty-Category-Sales---breakingacco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.130718+00:00
+updated_at: 2026-09-06T20:45:29.147389+00:00
 tags: [record, real-data]
 ---
 

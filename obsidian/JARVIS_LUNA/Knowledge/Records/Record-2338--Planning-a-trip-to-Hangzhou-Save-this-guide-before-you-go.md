@@ -2,7 +2,7 @@
 title: "Record 2338 · Planning-a-trip-to-Hangzhou-Save-this-guide-before-you-go"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.311902+00:00
+updated_at: 2026-09-06T20:45:29.333821+00:00
 tags: [record, real-data]
 ---
 

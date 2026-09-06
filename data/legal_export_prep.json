@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T18:56:17.804458+00:00",
+  "generated_at": "2026-09-06T21:08:31.956708+00:00",
   "generator": "scripts/prepare_legal_export.py",
   "왜": "법률팀이 '검토 0건, 5항목 대기' 였는데 그 다섯 중 넷은 이미 저장소에 있는 값으로 채울 수 있었다. 먼저 채우고 사람은 확인만 한다.",
   "hs_출처": "hts.usitc.gov/reststop/search (미국 국제무역위원회 공식)",

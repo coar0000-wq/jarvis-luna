@@ -2,7 +2,7 @@
 title: "Record 1990 · Amazon-Beauty-Best-Sellers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.238268+00:00
+updated_at: 2026-09-06T20:45:29.253069+00:00
 tags: [record, real-data]
 ---
 

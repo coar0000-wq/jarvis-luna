@@ -2,7 +2,7 @@
 title: "Record 2086 · Commodities-In-The-New-Geopolitical-Age"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.258097+00:00
+updated_at: 2026-09-06T20:45:29.273465+00:00
 tags: [record, real-data]
 ---
 

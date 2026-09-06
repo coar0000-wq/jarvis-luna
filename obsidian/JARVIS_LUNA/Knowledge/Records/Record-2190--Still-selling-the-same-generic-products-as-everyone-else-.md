@@ -2,7 +2,7 @@
 title: "Record 2190 · Still-selling-the-same-generic-products-as-everyone-else---CJ-ODM"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.281522+00:00
+updated_at: 2026-09-06T20:45:29.299157+00:00
 tags: [record, real-data]
 ---
 

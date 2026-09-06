@@ -2,7 +2,7 @@
 title: "Record 1982 · Your-Guide-to-the-Perfumes-That-Last-All-Day-and-Night"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.236610+00:00
+updated_at: 2026-09-06T20:45:29.251399+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1733 · Samsung-Wins-Multiple-Honors-at-IFA-Innovation-Awards-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.179790+00:00
+updated_at: 2026-09-06T20:45:29.194926+00:00
 tags: [record, real-data]
 ---
 

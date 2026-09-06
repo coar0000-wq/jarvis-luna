@@ -2,7 +2,7 @@
 title: "Record 1494 · What-is-TikToks-sunset-blush-makeup-trend-plus-how-to-get-the-look---P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.122832+00:00
+updated_at: 2026-09-06T20:45:29.140450+00:00
 tags: [record, real-data]
 ---
 

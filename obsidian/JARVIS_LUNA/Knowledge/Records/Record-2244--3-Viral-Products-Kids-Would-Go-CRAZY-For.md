@@ -2,7 +2,7 @@
 title: "Record 2244 · 3-Viral-Products-Kids-Would-Go-CRAZY-For"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.292592+00:00
+updated_at: 2026-09-06T20:45:29.312228+00:00
 tags: [record, real-data]
 ---
 

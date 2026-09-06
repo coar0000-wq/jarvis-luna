@@ -2,7 +2,7 @@
 title: "Record 363 · Elections-Protest-and-Alternation-of-Power"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.857349+00:00
+updated_at: 2026-09-06T20:45:28.886484+00:00
 tags: [record, real-data]
 ---
 

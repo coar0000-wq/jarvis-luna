@@ -2,7 +2,7 @@
 title: "Record 2127 · 파워-미스트-손-소독제"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.267146+00:00
+updated_at: 2026-09-06T20:45:29.282360+00:00
 tags: [record, real-data]
 ---
 

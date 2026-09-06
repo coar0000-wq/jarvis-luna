@@ -2,7 +2,7 @@
 title: "Record 2167 · Faster-shipping-can-make-a-big-difference-for-your-eCommerce-business"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.276798+00:00
+updated_at: 2026-09-06T20:45:29.293566+00:00
 tags: [record, real-data]
 ---
 

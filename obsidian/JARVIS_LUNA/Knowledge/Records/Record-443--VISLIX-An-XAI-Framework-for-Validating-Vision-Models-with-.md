@@ -2,7 +2,7 @@
 title: "Record 443 · VISLIX-An-XAI-Framework-for-Validating-Vision-Models-with-Slice-Discov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.876077+00:00
+updated_at: 2026-09-06T20:45:28.906340+00:00
 tags: [record, real-data]
 ---
 

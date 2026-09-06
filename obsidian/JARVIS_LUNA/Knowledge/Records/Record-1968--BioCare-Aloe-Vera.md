@@ -2,7 +2,7 @@
 title: "Record 1968 · BioCare-Aloe-Vera"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.233596+00:00
+updated_at: 2026-09-06T20:45:29.248362+00:00
 tags: [record, real-data]
 ---
 

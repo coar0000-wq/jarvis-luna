@@ -2,7 +2,7 @@
 title: "Record 432 · Fused-FP8-Many-Terms-Dot-Product-With-Scaling-and-FP32-Accumulation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.873579+00:00
+updated_at: 2026-09-06T20:45:28.903691+00:00
 tags: [record, real-data]
 ---
 

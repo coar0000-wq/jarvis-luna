@@ -2,7 +2,7 @@
 title: "Record 1728 · Samsung-Presents-Design-Is-an-Act-of-Love-at-Design-Miami-Seoul-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.178242+00:00
+updated_at: 2026-09-06T20:45:29.193383+00:00
 tags: [record, real-data]
 ---
 

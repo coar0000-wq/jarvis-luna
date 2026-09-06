@@ -2,7 +2,7 @@
 title: "Record 613 · Movement-Based-Low-Back-Pain-Subgroups-Using-Motion-Tape-Strain-Data-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.915956+00:00
+updated_at: 2026-09-06T20:45:28.947032+00:00
 tags: [record, real-data]
 ---
 

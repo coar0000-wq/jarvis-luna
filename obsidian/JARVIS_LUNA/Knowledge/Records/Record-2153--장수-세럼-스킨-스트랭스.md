@@ -2,7 +2,7 @@
 title: "Record 2153 · 장수-세럼-스킨-스트랭스"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.273957+00:00
+updated_at: 2026-09-06T20:45:29.290135+00:00
 tags: [record, real-data]
 ---
 

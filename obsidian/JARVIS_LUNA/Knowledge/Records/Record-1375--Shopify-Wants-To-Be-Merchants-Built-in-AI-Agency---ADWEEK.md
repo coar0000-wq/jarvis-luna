@@ -2,7 +2,7 @@
 title: "Record 1375 · Shopify-Wants-To-Be-Merchants-Built-in-AI-Agency---ADWEEK"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.093189+00:00
+updated_at: 2026-09-06T20:45:29.114456+00:00
 tags: [record, real-data]
 ---
 

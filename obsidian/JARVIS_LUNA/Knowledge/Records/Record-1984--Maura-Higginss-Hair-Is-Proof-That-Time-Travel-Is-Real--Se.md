@@ -2,7 +2,7 @@
 title: "Record 1984 · Maura-Higginss-Hair-Is-Proof-That-Time-Travel-Is-Real--See-Photos"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.237055+00:00
+updated_at: 2026-09-06T20:45:29.251853+00:00
 tags: [record, real-data]
 ---
 

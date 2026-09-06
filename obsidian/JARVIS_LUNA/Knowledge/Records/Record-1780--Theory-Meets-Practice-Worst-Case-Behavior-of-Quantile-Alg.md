@@ -2,7 +2,7 @@
 title: "Record 1780 · Theory-Meets-Practice-Worst-Case-Behavior-of-Quantile-Algorithms"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.191448+00:00
+updated_at: 2026-09-06T20:45:29.206297+00:00
 tags: [record, real-data]
 ---
 

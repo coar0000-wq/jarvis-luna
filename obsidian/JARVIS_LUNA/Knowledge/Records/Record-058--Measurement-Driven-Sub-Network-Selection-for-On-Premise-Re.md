@@ -2,7 +2,7 @@
 title: "Record 058 · Measurement-Driven-Sub-Network-Selection-for-On-Premise-Retrieval-Augm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.777248+00:00
+updated_at: 2026-09-06T20:45:28.812569+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1382 · Amazon-Updates-Its-K-Beauty-Online-Storefront---Happi--Household-And-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.094841+00:00
+updated_at: 2026-09-06T20:45:29.115921+00:00
 tags: [record, real-data]
 ---
 

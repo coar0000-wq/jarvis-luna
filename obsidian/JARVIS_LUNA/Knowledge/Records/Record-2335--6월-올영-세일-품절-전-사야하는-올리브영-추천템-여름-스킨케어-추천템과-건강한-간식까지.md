@@ -2,7 +2,7 @@
 title: "Record 2335 · 6월-올영-세일-품절-전-사야하는-올리브영-추천템-여름-스킨케어-추천템과-건강한-간식까지"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.311260+00:00
+updated_at: 2026-09-06T20:45:29.333154+00:00
 tags: [record, real-data]
 ---
 

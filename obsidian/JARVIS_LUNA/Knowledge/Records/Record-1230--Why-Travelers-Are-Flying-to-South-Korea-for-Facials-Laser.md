@@ -2,7 +2,7 @@
 title: "Record 1230 · Why-Travelers-Are-Flying-to-South-Korea-for-Facials-Lasers-and-Glass-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.057215+00:00
+updated_at: 2026-09-06T20:45:29.082765+00:00
 tags: [record, real-data]
 ---
 

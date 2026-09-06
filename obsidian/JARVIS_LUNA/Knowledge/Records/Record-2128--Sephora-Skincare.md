@@ -2,7 +2,7 @@
 title: "Record 2128 · Sephora-Skincare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.267333+00:00
+updated_at: 2026-09-06T20:45:29.282552+00:00
 tags: [record, real-data]
 ---
 

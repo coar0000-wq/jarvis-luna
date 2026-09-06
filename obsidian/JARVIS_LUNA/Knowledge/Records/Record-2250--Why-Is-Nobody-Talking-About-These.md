@@ -2,7 +2,7 @@
 title: "Record 2250 · Why-Is-Nobody-Talking-About-These"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.293824+00:00
+updated_at: 2026-09-06T20:45:29.313745+00:00
 tags: [record, real-data]
 ---
 

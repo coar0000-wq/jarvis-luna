@@ -2,7 +2,7 @@
 title: "Record 1949 · 30colors-JUNG-SAEM-MOOL-Essential-Skin-Nuder-Cushion-049-oz14g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.229728+00:00
+updated_at: 2026-09-06T20:45:29.244477+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** [30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)
 
 [30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)
-[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g) · 평점 4.7 · 리뷰 366
+[30colors] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g) · 평점 4.7 · 리뷰 367
 
 **출처:** Source · us_beauty
 

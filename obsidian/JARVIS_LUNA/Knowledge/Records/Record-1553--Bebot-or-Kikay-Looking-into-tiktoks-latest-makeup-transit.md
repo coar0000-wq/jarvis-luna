@@ -2,7 +2,7 @@
 title: "Record 1553 · Bebot-or-Kikay-Looking-into-tiktoks-latest-makeup-transition-trend---S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.137436+00:00
+updated_at: 2026-09-06T20:45:29.153318+00:00
 tags: [record, real-data]
 ---
 

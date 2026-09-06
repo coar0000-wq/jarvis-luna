@@ -2,7 +2,7 @@
 title: "Record 889 · Workflows-for-work-that-runs-the-business"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.980665+00:00
+updated_at: 2026-09-06T20:45:29.010112+00:00
 tags: [record, real-data]
 ---
 

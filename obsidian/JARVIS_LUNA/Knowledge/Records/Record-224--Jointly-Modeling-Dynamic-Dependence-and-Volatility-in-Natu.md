@@ -2,7 +2,7 @@
 title: "Record 224 · Jointly-Modeling-Dynamic-Dependence-and-Volatility-in-Natural-Resource"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.821578+00:00
+updated_at: 2026-09-06T20:45:28.852958+00:00
 tags: [record, real-data]
 ---
 

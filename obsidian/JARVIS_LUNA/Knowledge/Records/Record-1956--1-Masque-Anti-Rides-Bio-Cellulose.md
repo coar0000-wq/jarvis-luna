@@ -2,7 +2,7 @@
 title: "Record 1956 · 1-Masque-Anti-Rides-Bio-Cellulose"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.231195+00:00
+updated_at: 2026-09-06T20:45:29.245919+00:00
 tags: [record, real-data]
 ---
 

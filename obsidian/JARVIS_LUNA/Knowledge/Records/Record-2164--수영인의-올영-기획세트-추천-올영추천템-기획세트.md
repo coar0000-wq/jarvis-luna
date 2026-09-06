@@ -2,7 +2,7 @@
 title: "Record 2164 · 수영인의-올영-기획세트-추천-올영추천템-기획세트"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.276175+00:00
+updated_at: 2026-09-06T20:45:29.292787+00:00
 tags: [record, real-data]
 ---
 

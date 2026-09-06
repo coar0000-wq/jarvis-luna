@@ -2,7 +2,7 @@
 title: "Record 832 · Leidos-to-strengthen-cyber-defenses-across-Department-of-War-networks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.967479+00:00
+updated_at: 2026-09-06T20:45:28.996836+00:00
 tags: [record, real-data]
 ---
 

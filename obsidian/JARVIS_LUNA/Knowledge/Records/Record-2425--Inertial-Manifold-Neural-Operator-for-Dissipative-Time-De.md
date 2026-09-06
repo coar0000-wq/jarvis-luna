@@ -2,7 +2,7 @@
 title: "Record 2425 · Inertial-Manifold-Neural-Operator-for-Dissipative-Time-Dependent-Parti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.334545+00:00
+updated_at: 2026-09-06T20:45:29.357101+00:00
 tags: [record, real-data]
 ---
 

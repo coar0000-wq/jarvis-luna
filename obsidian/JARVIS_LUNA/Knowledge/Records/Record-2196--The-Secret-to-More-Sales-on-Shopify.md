@@ -2,7 +2,7 @@
 title: "Record 2196 · The-Secret-to-More-Sales-on-Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.282778+00:00
+updated_at: 2026-09-06T20:45:29.300564+00:00
 tags: [record, real-data]
 ---
 

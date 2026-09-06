@@ -2,7 +2,7 @@
 title: "Record 1909 · IEEE-Honors-Robotics-Pioneer-Toshio-Fukuda"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.219935+00:00
+updated_at: 2026-09-06T20:45:29.234732+00:00
 tags: [record, real-data]
 ---
 

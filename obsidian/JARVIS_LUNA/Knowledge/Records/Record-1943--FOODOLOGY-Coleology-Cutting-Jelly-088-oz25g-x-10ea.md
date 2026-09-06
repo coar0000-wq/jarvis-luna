@@ -2,7 +2,7 @@
 title: "Record 1943 · FOODOLOGY-Coleology-Cutting-Jelly-088-oz25g-x-10ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.228439+00:00
+updated_at: 2026-09-06T20:45:29.243172+00:00
 tags: [record, real-data]
 ---
 

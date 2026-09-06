@@ -2,7 +2,7 @@
 title: "Record 697 · How-much-does-an-AI-answer-change-on-its-own-A-small-sample-measuremen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.935472+00:00
+updated_at: 2026-09-06T20:45:28.965578+00:00
 tags: [record, real-data]
 ---
 

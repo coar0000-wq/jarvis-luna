@@ -2,7 +2,7 @@
 title: "Record 2305 · I-Ranked-18-Viral-Japanese-Beauty-Products-Brutally-Honest"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.305084+00:00
+updated_at: 2026-09-06T20:45:29.326714+00:00
 tags: [record, real-data]
 ---
 

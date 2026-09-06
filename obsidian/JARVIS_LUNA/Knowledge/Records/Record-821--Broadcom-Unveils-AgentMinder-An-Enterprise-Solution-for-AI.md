@@ -2,7 +2,7 @@
 title: "Record 821 · Broadcom-Unveils-AgentMinder-An-Enterprise-Solution-for-AI-Agent-Gover"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.964289+00:00
+updated_at: 2026-09-06T20:45:28.993831+00:00
 tags: [record, real-data]
 ---
 

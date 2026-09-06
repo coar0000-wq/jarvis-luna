@@ -2,7 +2,7 @@
 title: "Record 2193 · THE-OPENING-OF-new-applicationsstable-European-payment-methods-cjdrops"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.282156+00:00
+updated_at: 2026-09-06T20:45:29.299824+00:00
 tags: [record, real-data]
 ---
 

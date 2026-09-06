@@ -2,7 +2,7 @@
 title: "Record 2125 · India-Minister-Ashwini-Vaishnaw"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.266731+00:00
+updated_at: 2026-09-06T20:45:29.281930+00:00
 tags: [record, real-data]
 ---
 

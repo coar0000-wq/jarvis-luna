@@ -2,7 +2,7 @@
 title: "Record 852 · AMD-Acquires-Taalas-to-Advance-Compute-Solutions-for-Rapidly-Growing-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.971964+00:00
+updated_at: 2026-09-06T20:45:29.001319+00:00
 tags: [record, real-data]
 ---
 

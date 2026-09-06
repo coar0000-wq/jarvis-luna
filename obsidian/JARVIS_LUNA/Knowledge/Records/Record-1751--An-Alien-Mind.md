@@ -2,7 +2,7 @@
 title: "Record 1751 · An-Alien-Mind"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.184560+00:00
+updated_at: 2026-09-06T20:45:29.199410+00:00
 tags: [record, real-data]
 ---
 

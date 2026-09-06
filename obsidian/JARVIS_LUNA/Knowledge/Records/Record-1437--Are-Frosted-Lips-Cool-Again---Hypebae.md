@@ -2,7 +2,7 @@
 title: "Record 1437 · Are-Frosted-Lips-Cool-Again---Hypebae"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.108597+00:00
+updated_at: 2026-09-06T20:45:29.127974+00:00
 tags: [record, real-data]
 ---
 

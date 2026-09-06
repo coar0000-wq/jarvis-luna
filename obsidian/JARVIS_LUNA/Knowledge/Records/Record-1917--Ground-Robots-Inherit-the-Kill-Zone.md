@@ -2,7 +2,7 @@
 title: "Record 1917 · Ground-Robots-Inherit-the-Kill-Zone"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.222093+00:00
+updated_at: 2026-09-06T20:45:29.236891+00:00
 tags: [record, real-data]
 ---
 

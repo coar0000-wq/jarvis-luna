@@ -2,7 +2,7 @@
 title: "Record 1927 · Video-Friday-Meet-Google-DeepMinds-Gemini-Robotics-2"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.224721+00:00
+updated_at: 2026-09-06T20:45:29.239480+00:00
 tags: [record, real-data]
 ---
 

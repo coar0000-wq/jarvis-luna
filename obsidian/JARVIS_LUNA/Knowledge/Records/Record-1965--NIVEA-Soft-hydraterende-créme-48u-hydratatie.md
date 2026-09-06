@@ -2,7 +2,7 @@
 title: "Record 1965 · NIVEA-Soft-hydraterende-créme-48u-hydratatie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.232989+00:00
+updated_at: 2026-09-06T20:45:29.247755+00:00
 tags: [record, real-data]
 ---
 

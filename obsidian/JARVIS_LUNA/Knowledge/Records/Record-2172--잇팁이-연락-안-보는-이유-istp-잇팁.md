@@ -2,7 +2,7 @@
 title: "Record 2172 · 잇팁이-연락-안-보는-이유-istp-잇팁"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.277832+00:00
+updated_at: 2026-09-06T20:45:29.294779+00:00
 tags: [record, real-data]
 ---
 

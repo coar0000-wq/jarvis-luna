@@ -2,7 +2,7 @@
 title: "Record 2120 · Energy-Drink-Caffeine-Market-Growth-Dara-Mohsenian"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.265768+00:00
+updated_at: 2026-09-06T20:45:29.280954+00:00
 tags: [record, real-data]
 ---
 

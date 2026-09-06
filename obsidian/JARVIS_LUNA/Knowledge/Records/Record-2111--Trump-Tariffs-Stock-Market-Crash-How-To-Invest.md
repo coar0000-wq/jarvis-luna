@@ -2,7 +2,7 @@
 title: "Record 2111 · Trump-Tariffs-Stock-Market-Crash-How-To-Invest"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.263941+00:00
+updated_at: 2026-09-06T20:45:29.279141+00:00
 tags: [record, real-data]
 ---
 

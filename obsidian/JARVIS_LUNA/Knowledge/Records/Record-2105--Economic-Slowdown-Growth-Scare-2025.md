@@ -2,7 +2,7 @@
 title: "Record 2105 · Economic-Slowdown-Growth-Scare-2025"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.262759+00:00
+updated_at: 2026-09-06T20:45:29.277975+00:00
 tags: [record, real-data]
 ---
 

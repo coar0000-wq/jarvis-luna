@@ -2,7 +2,7 @@
 title: "Record 1383 · 3-Canadian-Beauty-Experts-Share-Their-Favourite-K-Beauty-Products---FA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.095076+00:00
+updated_at: 2026-09-06T20:45:29.116133+00:00
 tags: [record, real-data]
 ---
 

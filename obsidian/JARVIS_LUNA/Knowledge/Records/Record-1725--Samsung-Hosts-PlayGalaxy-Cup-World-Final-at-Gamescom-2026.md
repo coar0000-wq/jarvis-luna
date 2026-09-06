@@ -2,7 +2,7 @@
 title: "Record 1725 · Samsung-Hosts-PlayGalaxy-Cup-World-Final-at-Gamescom-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.177295+00:00
+updated_at: 2026-09-06T20:45:29.192421+00:00
 tags: [record, real-data]
 ---
 

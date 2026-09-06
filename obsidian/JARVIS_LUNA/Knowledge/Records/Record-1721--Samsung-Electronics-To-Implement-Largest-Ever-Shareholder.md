@@ -2,7 +2,7 @@
 title: "Record 1721 · Samsung-Electronics-To-Implement-Largest-Ever-Shareholder-Return-in-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.176033+00:00
+updated_at: 2026-09-06T20:45:29.191166+00:00
 tags: [record, real-data]
 ---
 

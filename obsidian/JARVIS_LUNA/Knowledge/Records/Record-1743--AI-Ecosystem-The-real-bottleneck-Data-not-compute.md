@@ -2,7 +2,7 @@
 title: "Record 1743 · AI-Ecosystem-The-real-bottleneck-Data-not-compute"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.182646+00:00
+updated_at: 2026-09-06T20:45:29.197576+00:00
 tags: [record, real-data]
 ---
 

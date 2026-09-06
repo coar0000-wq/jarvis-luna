@@ -2,7 +2,7 @@
 title: "Record 657 · Architecting-AI-Platforms-for-Regulated-and-High-Scale-Environments"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.925841+00:00
+updated_at: 2026-09-06T20:45:28.956599+00:00
 tags: [record, real-data]
 ---
 

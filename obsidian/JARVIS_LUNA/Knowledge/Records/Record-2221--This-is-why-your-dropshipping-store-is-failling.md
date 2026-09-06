@@ -2,7 +2,7 @@
 title: "Record 2221 · This-is-why-your-dropshipping-store-is-failling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.287876+00:00
+updated_at: 2026-09-06T20:45:29.306640+00:00
 tags: [record, real-data]
 ---
 

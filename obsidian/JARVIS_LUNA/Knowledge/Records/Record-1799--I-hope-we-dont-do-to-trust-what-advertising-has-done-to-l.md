@@ -2,7 +2,7 @@
 title: "Record 1799 · I-hope-we-dont-do-to-trust-what-advertising-has-done-to-love"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.195528+00:00
+updated_at: 2026-09-06T20:45:29.210351+00:00
 tags: [record, real-data]
 ---
 

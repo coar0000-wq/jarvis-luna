@@ -2,7 +2,7 @@
 title: "Record 1945 · REJURAN-Turnover-Ampoule-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.228845+00:00
+updated_at: 2026-09-06T20:45:29.243595+00:00
 tags: [record, real-data]
 ---
 

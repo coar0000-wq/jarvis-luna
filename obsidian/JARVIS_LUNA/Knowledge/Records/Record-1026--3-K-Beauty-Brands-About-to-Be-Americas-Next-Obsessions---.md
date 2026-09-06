@@ -2,7 +2,7 @@
 title: "Record 1026 · 3-K-Beauty-Brands-About-to-Be-Americas-Next-Obsessions---NewBeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.009832+00:00
+updated_at: 2026-09-06T20:45:29.039109+00:00
 tags: [record, real-data]
 ---
 

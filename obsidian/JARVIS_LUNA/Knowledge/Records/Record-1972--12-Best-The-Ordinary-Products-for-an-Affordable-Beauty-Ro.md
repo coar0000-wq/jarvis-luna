@@ -2,7 +2,7 @@
 title: "Record 1972 · 12-Best-The-Ordinary-Products-for-an-Affordable-Beauty-Routine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.234403+00:00
+updated_at: 2026-09-06T20:45:29.249158+00:00
 tags: [record, real-data]
 ---
 

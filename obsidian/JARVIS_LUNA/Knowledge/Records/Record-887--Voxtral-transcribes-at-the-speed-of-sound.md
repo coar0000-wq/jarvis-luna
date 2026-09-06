@@ -2,7 +2,7 @@
 title: "Record 887 · Voxtral-transcribes-at-the-speed-of-sound"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.980229+00:00
+updated_at: 2026-09-06T20:45:29.009690+00:00
 tags: [record, real-data]
 ---
 

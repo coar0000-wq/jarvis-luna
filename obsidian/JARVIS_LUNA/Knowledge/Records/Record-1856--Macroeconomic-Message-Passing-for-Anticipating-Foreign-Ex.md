@@ -2,7 +2,7 @@
 title: "Record 1856 · Macroeconomic-Message-Passing-for-Anticipating-Foreign-Exchange-Regime"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.207800+00:00
+updated_at: 2026-09-06T20:45:29.222641+00:00
 tags: [record, real-data]
 ---
 

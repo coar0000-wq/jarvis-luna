@@ -2,7 +2,7 @@
 title: "Record 814 · New-Booz-Allen-Survey-Finds-Federal-Agencies-Are-Accelerating-Agentic-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.962222+00:00
+updated_at: 2026-09-06T20:45:28.991853+00:00
 tags: [record, real-data]
 ---
 

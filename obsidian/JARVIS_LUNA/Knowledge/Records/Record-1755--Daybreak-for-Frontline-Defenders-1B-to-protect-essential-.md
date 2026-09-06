@@ -2,7 +2,7 @@
 title: "Record 1755 · Daybreak-for-Frontline-Defenders-1B-to-protect-essential-services"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.185516+00:00
+updated_at: 2026-09-06T20:45:29.200353+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 702 · Local-Involution-Pariety-and-Exchange-Symmetry-in-Bipartite-Quantum-Sy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.936604+00:00
+updated_at: 2026-09-06T20:45:28.966639+00:00
 tags: [record, real-data]
 ---
 

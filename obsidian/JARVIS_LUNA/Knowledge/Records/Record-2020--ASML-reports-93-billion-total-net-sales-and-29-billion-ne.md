@@ -2,7 +2,7 @@
 title: "Record 2020 · ASML-reports-93-billion-total-net-sales-and-29-billion-net-income-in-Q"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.244694+00:00
+updated_at: 2026-09-06T20:45:29.259636+00:00
 tags: [record, real-data]
 ---
 

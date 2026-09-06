@@ -2,7 +2,7 @@
 title: "Record 453 · Social-trills-of-the-pipistrelle-bat--Pipistrellus-pipistrellus--are-q"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.878494+00:00
+updated_at: 2026-09-06T20:45:28.908810+00:00
 tags: [record, real-data]
 ---
 

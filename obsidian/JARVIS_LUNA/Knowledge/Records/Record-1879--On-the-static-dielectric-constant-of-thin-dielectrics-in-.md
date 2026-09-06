@@ -2,7 +2,7 @@
 title: "Record 1879 · On-the-static-dielectric-constant-of-thin-dielectrics-in-extremely-sca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.212756+00:00
+updated_at: 2026-09-06T20:45:29.227589+00:00
 tags: [record, real-data]
 ---
 

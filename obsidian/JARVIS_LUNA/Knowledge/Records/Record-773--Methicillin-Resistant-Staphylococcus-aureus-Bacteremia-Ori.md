@@ -2,7 +2,7 @@
 title: "Record 773 · Methicillin-Resistant-Staphylococcus-aureus-Bacteremia-Originating-Fro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:36.952564+00:00
+updated_at: 2026-09-06T20:45:28.982326+00:00
 tags: [record, real-data]
 ---
 

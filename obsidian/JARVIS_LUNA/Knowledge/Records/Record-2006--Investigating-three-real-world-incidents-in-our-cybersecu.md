@@ -2,7 +2,7 @@
 title: "Record 2006 · Investigating-three-real-world-incidents-in-our-cybersecurity-evaluati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.241784+00:00
+updated_at: 2026-09-06T20:45:29.256676+00:00
 tags: [record, real-data]
 ---
 

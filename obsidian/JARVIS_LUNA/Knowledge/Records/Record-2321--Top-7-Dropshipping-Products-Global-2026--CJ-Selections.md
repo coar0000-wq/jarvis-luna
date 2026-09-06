@@ -2,7 +2,7 @@
 title: "Record 2321 · Top-7-Dropshipping-Products-Global-2026--CJ-Selections"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T18:33:37.308330+00:00
+updated_at: 2026-09-06T20:45:29.330277+00:00
 tags: [record, real-data]
 ---
 
