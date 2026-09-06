@@ -460,7 +460,12 @@ def team_cards(graph: dict) -> list[dict]:
             (cand or {}).get("generated_at") or prev.get("generated_at"),
             f'가동 {live}/{len(gcs)}채널 · 수동 입력 {manual_n}건 · '
             f'후보 {tested}건 검사, 미연동 {len(pending)}건',
-            f'후보 {len(pending)}건 승인 대기 (연동은 사람이 승인한 뒤에 한다)'
+            # 예전 문구는 "승인 대기" 였는데 승인할 화면이 없다. 후보는
+            # data/channel_candidates.json 에 쌓이고, 붙일지 말지는 대화로
+            # 지시하면 자비스가 수집기를 만들어 붙인다. 그대로 적는다.
+            (f'미연동 후보 {len(pending)}건: '
+             + ', '.join((c.get("label") or c.get("key") or "?") for c in pending[:3])
+             + ' — 붙이라고 하시면 수집기를 만들어 연동합니다')
             if pending else None,
             "ok" if live else "failed"))
     else:
@@ -521,6 +526,13 @@ def main() -> None:
     # (sync_channels.py가 나중에 덮어쓰지만, 중간 실패 시 데이터 소실 방지)
     prev = load_json(OUT, {})
     prev_global = prev.get("global_channels") if isinstance(prev, dict) else None
+    # global_channels_status 도 같이 보존해야 한다. 빠뜨려서 이 스크립트가
+    # 한 번 돌 때마다 지워졌고, 워크플로가 이 스크립트를 두 번 부르는 탓에
+    # 두 번째 실행에서는 gcs 가 비어 채널 카드가 "가동 0/0"으로 나왔다.
+    # 후보 걸러내기도 이 값을 쓰므로 이미 붙어 있는 4건이 매번 승인 대기로
+    # 다시 올라왔다. sync_channels.py 가 뒤에 채워주지만 카드는 그 전에
+    # 계산이 끝나 있다.
+    prev_gcs = prev.get("global_channels_status") if isinstance(prev, dict) else None
     prev_fx = prev.get("exchange_rate") if isinstance(prev, dict) else None
     prev_synced = prev.get("last_synced") if isinstance(prev, dict) else None
 
@@ -600,6 +612,8 @@ def main() -> None:
     # 이전 global_channels / 환율 데이터가 있으면 유지
     if isinstance(prev_global, dict) and prev_global:
         payload["global_channels"] = prev_global
+    if isinstance(prev_gcs, dict) and prev_gcs:
+        payload["global_channels_status"] = prev_gcs
     if isinstance(prev_fx, dict) and prev_fx:
         payload["exchange_rate"] = prev_fx
     if prev_synced:

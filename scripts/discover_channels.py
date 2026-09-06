@@ -221,14 +221,35 @@ def main() -> int:
         results.append(r)
         time.sleep(DELAY)
 
+    # 이미 붙어 있는 소스도 매번 후보로 다시 올라온다. 그대로 두면
+    # "미연동 4건" 처럼 보이는데 넷 다 이미 수집 중이었다.
+    # dashboard_runtime.json 의 가동 채널과 대조해 표시한다.
+    STOP = {"new", "daily", "rss", "us", "beauty", "drug", "otc", "api"}
+    def words(k):
+        return {w for w in str(k).lower().split("_") if w and w not in STOP}
+    live = []
+    try:
+        rt = json.loads((ROOT / "data" / "dashboard_runtime.json")
+                        .read_text(encoding="utf-8-sig"))
+        live = [(k, words(k)) for k, v in (rt.get("global_channels_status") or {}).items()
+                if (v or {}).get("status") == "ok"]
+    except (OSError, json.JSONDecodeError, UnicodeDecodeError):
+        pass
+    for r in results:
+        hit = next((k for k, lw in live if words(r.get("key")) & lw), "")
+        r["already_live"] = bool(hit)
+        r["live_channel"] = hit
+
     usable = [r for r in results if r["verdict"] == "가능"]
+    fresh = [r for r in usable if not r.get("already_live")]
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "generator": "scripts/discover_channels.py",
         "정책": ("후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 "
                "호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. "
-               "연동은 사람이 승인한 뒤에 한다."),
+               "붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. "
+               "이미 가동 중인 소스는 already_live 로 표시한다."),
         "판정기준": [
             "robots.txt 가 해당 경로를 막지 않을 것",
             "인증 없이 또는 보유한 키로 200 응답이 올 것",
@@ -237,12 +258,16 @@ def main() -> int:
         ],
         "tested": len(results),
         "usable": len(usable),
+        "already_live": sum(1 for r in results if r.get("already_live")),
+        "new_usable": len(fresh),
         "candidates": results,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    print(f"\n{len(usable)}/{len(results)}개 채널 추가 가능 -> {OUT.relative_to(ROOT)}")
-    if usable:
-        print("승인하시면 각각에 대해 수집기를 만들어 채널로 연동합니다.")
+    print(f"\n{len(results)}건 검사 · 사용 가능 {len(usable)} "
+          f"(이미 가동 중 {len(usable) - len(fresh)}, 신규 {len(fresh)}) "
+          f"-> {OUT.relative_to(ROOT)}")
+    for r in fresh:
+        print(f"  신규 후보: {r['label']}  {r['url'][:70]}")
     return 0
 
 

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-06T00:57:15.802774+00:00",
+  "generated_at": "2026-09-06T01:18:42.786847+00:00",
   "generator": "scripts/discover_channels.py",
-  "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 연동은 사람이 승인한 뒤에 한다.",
+  "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
     "robots.txt 가 해당 경로를 막지 않을 것",
     "인증 없이 또는 보유한 키로 200 응답이 올 것",
@@ -10,6 +10,8 @@
   ],
   "tested": 7,
   "usable": 4,
+  "already_live": 4,
+  "new_usable": 0,
   "candidates": [
     {
       "key": "openbeautyfacts_new",
@@ -20,7 +22,9 @@
       "robots": "robots.txt 금지 경로: /api",
       "verdict": "불가",
       "reason": "robots.txt 금지 경로: /api",
-      "items": 0
+      "items": 0,
+      "already_live": false,
+      "live_channel": ""
     },
     {
       "key": "wikipedia_pageviews",
@@ -37,7 +41,9 @@
         "2026080300"
       ],
       "verdict": "가능",
-      "reason": "32건 파싱 성공, 값이 서로 다름"
+      "reason": "32건 파싱 성공, 값이 서로 다름",
+      "already_live": true,
+      "live_channel": "wikipedia_interest"
     },
     {
       "key": "fda_cosmetic_enforcement",
@@ -48,7 +54,9 @@
       "robots": "robots.txt 확인 불가(HTTP 404) - 허용으로 간주",
       "verdict": "불가",
       "reason": "요청 실패: HTTP 404",
-      "items": 0
+      "items": 0,
+      "already_live": false,
+      "live_channel": ""
     },
     {
       "key": "allure_beauty_rss",
@@ -65,7 +73,9 @@
         "Urea Is an Under-the-Radar Ingredient That Softens Skin from Head to Toe"
       ],
       "verdict": "가능",
-      "reason": "30건 파싱 성공, 값이 서로 다름"
+      "reason": "30건 파싱 성공, 값이 서로 다름",
+      "already_live": true,
+      "live_channel": "allure_media"
     },
     {
       "key": "reddit_kbeauty_new",
@@ -76,7 +86,9 @@
       "robots": "robots.txt 금지 경로: /",
       "verdict": "불가",
       "reason": "robots.txt 금지 경로: /",
-      "items": 0
+      "items": 0,
+      "already_live": false,
+      "live_channel": ""
     },
     {
       "key": "google_trends_daily_rss",
@@ -85,15 +97,17 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21570,
+      "bytes": 21831,
       "items": 40,
       "samples": [
-        "tigres - necaxa",
-        "Tigres UANL vs Necaxa - Dónde ver, transmisión en vivo, canal de TV y actualizaciones (5 de septiembre de 2026)",
-        "Lesionados y sancionados de Tigres para enfrentarse al Necaxa"
+        "christopher vizzina",
+        "Who is Clemson's QB vs LSU? What to know about Christopher Vizzina",
+        "2026 ACC Quarterback Power Rankings Ahead of Week 1"
       ],
       "verdict": "가능",
-      "reason": "40건 파싱 성공, 값이 서로 다름"
+      "reason": "40건 파싱 성공, 값이 서로 다름",
+      "already_live": true,
+      "live_channel": "google_trends_us"
     },
     {
       "key": "openfda_drug_otc_sunscreen",
@@ -110,7 +124,9 @@
         "2737f1e2-08e3-0e06-e063-6394a90a8159"
       ],
       "verdict": "가능",
-      "reason": "10건 파싱 성공, 값이 서로 다름"
+      "reason": "10건 파싱 성공, 값이 서로 다름",
+      "already_live": true,
+      "live_channel": "openfda_sunscreen"
     }
   ]
 }
