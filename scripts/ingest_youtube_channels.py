@@ -41,16 +41,11 @@ TIMEOUT = 30
 DELAY = 5.0          # 채널마다 넉넉히 쉰다. 목록을 훑는 게 아니다.
 MAX_VIDEOS = 30
 
-TEAM_TERMS = {
-    "design": ["ux", "ui", "design", "figma", "layout", "typography", "redesign",
-               "landing page", "conversion", "wireframe", "prototype"],
-    "listing": ["shopify", "product page", "listing", "seo", "copywriting",
-                "checkout", "cart"],
-    "market": ["k-beauty", "korean skincare", "trend", "tiktok", "haul", "review"],
-    "pricing": ["pricing", "margin", "profit", "dropship", "shipping"],
-    "legal": ["fda", "compliance", "regulation", "label", "customs"],
-}
-
+# 낱말표는 team_routing.py 한 곳에 있다. 예전에는 이 파일과
+# ingest_youtube_links.py 가 각자 표를 들고 있었고, 한쪽에만 한글을
+# 넣었다가 채널 영상 20건이 전부 knowledge 로 떨어졌다.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from team_routing import TEAM_TERMS, KNOWN_TEAMS, route as route_teams  # noqa: E402
 
 def load(p: Path, default=None):
     try:
@@ -154,11 +149,7 @@ def views_to_int(text: str) -> int | None:
 
 
 def route(title: str, forced: str) -> list[str]:
-    if forced:
-        return [forced]
-    low = title.lower()
-    hit = [t for t, terms in TEAM_TERMS.items() if any(k in low for k in terms)]
-    return hit or ["knowledge"]
+    return route_teams(title, forced or None)
 
 
 def main() -> int:

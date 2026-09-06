@@ -48,34 +48,11 @@ DELAY = 3.0
 
 VID = re.compile(r"(?:v=|youtu\.be/|/shorts/|/embed/)([A-Za-z0-9_-]{11})")
 
-# 어느 팀이 볼 자료인지. 제목과 설명으로 나눈다.
-#
-# 한글 낱말을 나중에 넣었다. 처음에는 영어만 봤는데 한국어 영상이 들어오니
-# 하나도 안 걸렸다. 채널톡의 스퀘어129 창업 인터뷰가 그랬다. 역마진과 플랫폼
-# 전략을 다루는데 제목도 설명도 전부 한글이라 knowledge 로 떨어졌다.
-TEAM_TERMS = {
-    "listing": ["shopify", "product page", "listing", "description", "seo",
-                "conversion", "checkout",
-                "쇼피파이", "상세페이지", "상품페이지", "전환율", "결제"],
-    "design": ["theme", "design", "layout", "branding", "logo", "template",
-               "디자인", "브랜딩", "로고", "레이아웃", "테마", "폰트"],
-    "market": ["k-beauty", "kbeauty", "korean skincare", "trend", "viral",
-               "tiktok", "haul", "review",
-               "브랜드", "고객", "수요", "시장조사", "트렌드", "플랫폼",
-               "입점", "해외진출", "일본", "매출"],
-    "pricing": ["pricing", "margin", "profit", "shipping cost", "dropship",
-                "가격", "마진", "원가", "역마진", "수익", "손익", "객단가",
-                "경영", "전략", "창업", "재고"],
-    "legal": ["fda", "compliance", "label", "regulation", "customs", "import",
-              "규제", "인증", "통관", "라벨", "성분표시"],
-    "sourcing": ["daiso", "다이소", "sourcing", "supplier", "wholesale",
-                 "소싱", "도매", "공급처", "사입"],
-}
-
-# 사람이 팀을 직접 적을 수 있게 한다. 자동 분류는 어디까지나 추측이라
-# 아는 사람이 정해주면 그게 맞다.
-KNOWN_TEAMS = set(TEAM_TERMS) | {"knowledge"}
-
+# 낱말표는 team_routing.py 한 곳에 있다. 예전에는 이 파일과
+# ingest_youtube_links.py 가 각자 표를 들고 있었고, 한쪽에만 한글을
+# 넣었다가 채널 영상 20건이 전부 knowledge 로 떨어졌다.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from team_routing import TEAM_TERMS, KNOWN_TEAMS, route as route_teams  # noqa: E402
 
 def parse_links(text: str) -> list[dict]:
     """한 줄을 읽는다. 칸은 | 로 나눈다.
@@ -168,11 +145,8 @@ def fetch_video(vid: str) -> dict:
 
 def route(v: dict, forced: list[str] | None = None) -> list[str]:
     """사람이 지정했으면 그걸 쓰고, 아니면 제목과 설명으로 추측한다."""
-    if forced:
-        return list(forced)
-    blob = f'{v.get("title", "")} {v.get("description", "")}'.lower()
-    hit = [t for t, terms in TEAM_TERMS.items() if any(k in blob for k in terms)]
-    return hit or ["knowledge"]
+    blob = f'{v.get("title", "")} {v.get("description", "")}'
+    return route_teams(blob, forced)
 
 
 def main() -> int:
