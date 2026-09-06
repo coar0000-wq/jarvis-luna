@@ -2,7 +2,7 @@
 title: "Record 274 · Rational-structural-design-of-cost-effective-copolyimide-membranes-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.865238+00:00
+updated_at: 2026-09-06T22:41:38.667656+00:00
 tags: [record, real-data]
 ---
 

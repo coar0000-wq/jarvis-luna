@@ -2,7 +2,7 @@
 title: "Record 172 · Serum-Tumor-Markers-and-Outcomes-in-Patients-With-Appendiceal-Adenocar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.840830+00:00
+updated_at: 2026-09-06T22:41:38.643984+00:00
 tags: [record, real-data]
 ---
 

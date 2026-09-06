@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-06T20:45:29.622590+00:00",
+  "generated_at": "2026-09-06T22:41:39.384156+00:00",
   "generator": "scripts/build_team_hubs.py",
   "왜": "Records 가 볼트의 98.6% 라 그래프뷰가 허브 몇 개에 점 수만 개가 매달린 모습이었다. Record -> Topic -> 팀 으로 층을 하나 넣는다.",
   "방식": "Record 파일 3만 7천 개는 건드리지 않는다. Topic 노트에 팀 링크를 한 줄 더하는 것으로 층이 생긴다. 파일을 3만 개 고쳐 쓰면 커밋이 터진다.",
   "vault": {
     "ref": "origin/main",
-    "records": 42350,
+    "records": 42368,
     "topics": 28,
     "orgs": 35
   },
@@ -14,7 +14,7 @@
     "arxiv": 121,
     "robotics": 98,
     "institutions": 1101,
-    "google": 805,
+    "google": 807,
     "youtube": 227
   },
   "teams": 10,
@@ -43,7 +43,7 @@
         "인프라클라우드",
         "과학수학"
       ],
-      "corpus_now": 1153,
+      "corpus_now": 1155,
       "sources": [
         "arxiv",
         "google",
@@ -73,7 +73,7 @@
         "이커머스Shopify",
         "Shopify-Commerce"
       ],
-      "corpus_now": 917,
+      "corpus_now": 919,
       "sources": [
         "google",
         "us_beauty"

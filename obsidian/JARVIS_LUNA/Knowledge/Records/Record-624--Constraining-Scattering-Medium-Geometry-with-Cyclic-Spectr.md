@@ -2,7 +2,7 @@
 title: "Record 624 · Constraining-Scattering-Medium-Geometry-with-Cyclic-Spectroscopy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.949478+00:00
+updated_at: 2026-09-06T22:41:38.743261+00:00
 tags: [record, real-data]
 ---
 

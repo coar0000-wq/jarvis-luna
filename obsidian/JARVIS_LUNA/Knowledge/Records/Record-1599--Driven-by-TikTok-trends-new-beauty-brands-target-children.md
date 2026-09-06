@@ -1,18 +1,18 @@
 ---
-title: "Record 1599 · Driven-by-TikTok-trends-new-beauty-brands-target-children---The-Jakart"
+title: "Record 1599 · Driven-by-TikTok-trends-new-beauty-brands-target-children---FashionNet"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T13:04:50.212743+00:00
+updated_at: 2026-09-06T22:41:38.931495+00:00
 tags: [record, real-data]
 ---
 
-# Record 1599 · Driven-by-TikTok-trends-new-beauty-brands-target-children---The-Jakart
+# Record 1599 · Driven-by-TikTok-trends-new-beauty-brands-target-children---FashionNet
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeGlSSGw2T09DbmwyRURTcFlHWmxWN2pNaUtwM2UwQ2NPdjdsdU5rbHRKemdGMl83RC03Mm1BRmh1VkJHREVfV21kdDFhZUdUMjNjeFJRU0xwT2FPT0NUdXA2YjBSLWxJWThJUzU0aHYxTF9DWnluUzM1MUYwcUZ0Z2N1YXF2aVpubXlSWDZBZ1BBVzFobk5TZ3VsWmFWQjByWUlydWFuMjFTVXc?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLXkzWGhXdjBqbnRXTWdYRDkya051ZXYwdlJ0RXBGYWw3eVVSWWg1STJUUEVpQm9PWWRDdm1EZnNhM29UbUtIZmdGOFpkWDJRWTlJSmJmUnAyRC1LN3FWOHFFRHRjZ2JuaE5RUFh2d1EwdkVuWTk2TllJdEgxMnJ1WTIzSUg5OUxQYlhUNGZuSmpEeWx1Rjg0dk9ZbzFYaEtPdDlQYnpoaGY?oc=5)
 
-**제목:** Driven by TikTok trends, new beauty brands target children - The Jakarta Post
+**제목:** Driven by TikTok trends, new beauty brands target children - FashionNetwork France
 
-Driven by TikTok trends, new beauty brands target children - The Jakarta Post
+Driven by TikTok trends, new beauty brands target children - FashionNetwork France
 
 **출처:** Source · Google Search
 

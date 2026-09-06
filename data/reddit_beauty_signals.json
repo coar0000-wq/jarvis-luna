@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-06T20:44:48.191234+00:00",
+  "collected_at": "2026-09-06T22:41:02.058484+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 25,
+  "post_count": 28,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -35,10 +35,9 @@
     },
     {
       "subreddit": "AsianBeautyAdvice",
-      "post_count": 0,
+      "post_count": 3,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests",
-        "top_week: HTTPError: HTTP Error 429: Too Many Requests"
+        "hot: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     }
   ],
@@ -53,6 +52,10 @@
     },
     {
       "keyword": "skin",
+      "score": 4
+    },
+    {
+      "keyword": "routine",
       "score": 4
     },
     {
@@ -100,10 +103,6 @@
       "score": 2
     },
     {
-      "keyword": "products",
-      "score": 2
-    },
-    {
       "keyword": "similar",
       "score": 2
     },
@@ -120,15 +119,15 @@
       "score": 2
     },
     {
+      "keyword": "thoughts",
+      "score": 2
+    },
+    {
       "keyword": "shade",
       "score": 2
     },
     {
       "keyword": "mascara",
-      "score": 2
-    },
-    {
-      "keyword": "routine",
       "score": 2
     },
     {
@@ -172,18 +171,6 @@
       "score": 1
     },
     {
-      "keyword": "experience",
-      "score": 1
-    },
-    {
-      "keyword": "long-wear",
-      "score": 1
-    },
-    {
-      "keyword": "hydrogel",
-      "score": 1
-    },
-    {
       "keyword": "best",
       "score": 1
     },
@@ -202,6 +189,18 @@
     {
       "keyword": "white",
       "score": 1
+    },
+    {
+      "keyword": "truffle",
+      "score": 1
+    },
+    {
+      "keyword": "spray",
+      "score": 1
+    },
+    {
+      "keyword": "experience",
+      "score": 1
     }
   ],
   "beauty_keywords": [
@@ -210,15 +209,15 @@
       "score": 4
     },
     {
+      "keyword": "routine",
+      "score": 4
+    },
+    {
       "keyword": "masks",
       "score": 2
     },
     {
       "keyword": "spf",
-      "score": 2
-    },
-    {
-      "keyword": "routine",
       "score": 2
     }
   ],
@@ -245,16 +244,16 @@
       "feed": "hot"
     },
     {
-      "title": "What’s your experience with long-wear hydrogel masks?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w90ahk/whats_your_experience_with_longwear_hydrogel_masks/",
-      "published": "2026-09-06T16:11:11+00:00",
+      "title": "The best thing i own: d'Alba White Truffle Spray",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w95w65/the_best_thing_i_own_dalba_white_truffle_spray/",
+      "published": "2026-09-06T19:36:54+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "The best thing i own: d'Alba White Truffle Spray",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w95w65/the_best_thing_i_own_dalba_white_truffle_spray/",
-      "published": "2026-09-06T19:36:54+00:00",
+      "title": "What’s your experience with long-wear hydrogel masks?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w90ahk/whats_your_experience_with_longwear_hydrogel_masks/",
+      "published": "2026-09-06T16:11:11+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -290,13 +289,6 @@
       "title": "Comparing BB Creams: Missha vs. Purito in shade 21",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7vn6a/comparing_bb_creams_missha_vs_purito_in_shade_21/",
       "published": "2026-09-05T09:06:51+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Has anyone tried Mucota hair products?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8xn69/has_anyone_tried_mucota_hair_products/",
-      "published": "2026-09-06T14:27:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -397,6 +389,34 @@
       "published": "2026-09-03T14:03:02+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
+    },
+    {
+      "title": "The Saem Single Blushers",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w6sn7s/the_saem_single_blushers/",
+      "published": "2026-09-04T03:13:39+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Random AB thoughts",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w804rt/random_ab_thoughts/",
+      "published": "2026-09-05T13:00:11+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "top_week"
+    },
+    {
+      "title": "I know it’s not AB, but...",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w59ohe/i_know_its_not_ab_but/",
+      "published": "2026-09-02T13:00:24+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "top_week"
+    },
+    {
+      "title": "Routine Journal",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w3d44t/routine_journal/",
+      "published": "2026-08-31T13:00:10+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "top_week"
     }
   ],
   "note": "커뮤니티 실수요 시그널. 광고 키워드·S등급 코칭 보강용. 판매 순위 아님.",

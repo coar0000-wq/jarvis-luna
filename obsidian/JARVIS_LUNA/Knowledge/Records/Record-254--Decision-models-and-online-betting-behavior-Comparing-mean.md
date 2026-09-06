@@ -2,7 +2,7 @@
 title: "Record 254 · Decision-models-and-online-betting-behavior-Comparing-mean-variance-ex"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.860622+00:00
+updated_at: 2026-09-06T22:41:38.663084+00:00
 tags: [record, real-data]
 ---
 

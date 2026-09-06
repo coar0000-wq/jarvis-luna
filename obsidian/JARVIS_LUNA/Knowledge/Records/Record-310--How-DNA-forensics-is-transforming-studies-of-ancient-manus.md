@@ -2,7 +2,7 @@
 title: "Record 310 · How-DNA-forensics-is-transforming-studies-of-ancient-manuscripts"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.873573+00:00
+updated_at: 2026-09-06T22:41:38.675653+00:00
 tags: [record, real-data]
 ---
 

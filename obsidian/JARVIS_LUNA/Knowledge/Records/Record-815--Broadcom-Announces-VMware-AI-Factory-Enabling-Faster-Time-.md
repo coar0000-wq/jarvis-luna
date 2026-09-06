@@ -2,7 +2,7 @@
 title: "Record 815 · Broadcom-Announces-VMware-AI-Factory-Enabling-Faster-Time-to-Productio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.992143+00:00
+updated_at: 2026-09-06T22:41:38.783852+00:00
 tags: [record, real-data]
 ---
 

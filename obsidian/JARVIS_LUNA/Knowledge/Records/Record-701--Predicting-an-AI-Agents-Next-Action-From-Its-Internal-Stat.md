@@ -2,7 +2,7 @@
 title: "Record 701 · Predicting-an-AI-Agents-Next-Action-From-Its-Internal-State-Before-It-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.966432+00:00
+updated_at: 2026-09-06T22:41:38.759341+00:00
 tags: [record, real-data]
 ---
 

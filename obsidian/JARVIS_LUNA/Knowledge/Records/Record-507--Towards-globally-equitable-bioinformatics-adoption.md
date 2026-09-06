@@ -2,7 +2,7 @@
 title: "Record 507 · Towards-globally-equitable-bioinformatics-adoption"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.922066+00:00
+updated_at: 2026-09-06T22:41:38.717660+00:00
 tags: [record, real-data]
 ---
 

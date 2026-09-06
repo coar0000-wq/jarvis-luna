@@ -2,7 +2,7 @@
 title: "Record 135 · Securing-Software-at-the-Speed-of-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.832602+00:00
+updated_at: 2026-09-06T22:41:38.636084+00:00
 tags: [record, real-data]
 ---
 

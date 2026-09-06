@@ -2,7 +2,7 @@
 title: "Record 516 · Watermarks-in-stream-processing-systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.924257+00:00
+updated_at: 2026-09-06T22:41:38.719484+00:00
 tags: [record, real-data]
 ---
 

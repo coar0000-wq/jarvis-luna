@@ -2,7 +2,7 @@
 title: "Record 622 · NAVIGATING-BUSINESS-INTELLIGENCE-TOOLS-STRATEGIES-TO-DRIVE-BUSINESS-GR"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.949026+00:00
+updated_at: 2026-09-06T22:41:38.742831+00:00
 tags: [record, real-data]
 ---
 

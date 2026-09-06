@@ -2,7 +2,7 @@
 title: "Record 246 · Exchange-of-indivisible-goods-under-matroid-constraints"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.857915+00:00
+updated_at: 2026-09-06T22:41:38.660478+00:00
 tags: [record, real-data]
 ---
 

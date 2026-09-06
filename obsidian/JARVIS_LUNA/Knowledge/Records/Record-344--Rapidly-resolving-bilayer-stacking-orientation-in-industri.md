@@ -2,7 +2,7 @@
 title: "Record 344 · Rapidly-resolving-bilayer-stacking-orientation-in-industrially-compati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.881663+00:00
+updated_at: 2026-09-06T22:41:38.682856+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 659 · Unified-Workload-Management-Through-Kubernetes-Native-APIs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.957001+00:00
+updated_at: 2026-09-06T22:41:38.750350+00:00
 tags: [record, real-data]
 ---
 

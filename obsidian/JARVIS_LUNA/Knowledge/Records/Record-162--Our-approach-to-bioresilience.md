@@ -2,7 +2,7 @@
 title: "Record 162 · Our-approach-to-bioresilience"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.838619+00:00
+updated_at: 2026-09-06T22:41:38.641849+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 222 · Die-Wirtschaftlichkeit-Künstlicher-Intelligenz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.852511+00:00
+updated_at: 2026-09-06T22:41:38.655175+00:00
 tags: [record, real-data]
 ---
 

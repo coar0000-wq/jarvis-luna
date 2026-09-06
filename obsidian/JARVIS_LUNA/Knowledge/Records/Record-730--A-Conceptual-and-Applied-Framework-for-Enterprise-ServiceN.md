@@ -2,7 +2,7 @@
 title: "Record 730 · A-Conceptual-and-Applied-Framework-for-Enterprise-ServiceNow-Program-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.972559+00:00
+updated_at: 2026-09-06T22:41:38.765057+00:00
 tags: [record, real-data]
 ---
 

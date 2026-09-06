@@ -2,7 +2,7 @@
 title: "Record 130 · Frontend-Engineering-at-Palantir-Engineering-Multilingual-Collaboratio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.831564+00:00
+updated_at: 2026-09-06T22:41:38.635049+00:00
 tags: [record, real-data]
 ---
 

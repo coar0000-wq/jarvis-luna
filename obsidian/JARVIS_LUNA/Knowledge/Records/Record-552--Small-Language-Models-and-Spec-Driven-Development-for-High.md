@@ -2,7 +2,7 @@
 title: "Record 552 · Small-Language-Models-and-Spec-Driven-Development-for-High-Accuracy-Ag"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.933187+00:00
+updated_at: 2026-09-06T22:41:38.727422+00:00
 tags: [record, real-data]
 ---
 

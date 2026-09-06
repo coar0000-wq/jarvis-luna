@@ -2,7 +2,7 @@
 title: "Record 568 · Inovação-desenvolvimento-e-tecnologias-uma-revisão-integrativa-sobre-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.936761+00:00
+updated_at: 2026-09-06T22:41:38.730847+00:00
 tags: [record, real-data]
 ---
 

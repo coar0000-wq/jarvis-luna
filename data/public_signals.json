@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T21:08:27.573298+00:00",
+  "generated_at": "2026-09-06T23:00:46.324378+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "dutton ranch season 2",
+          "keyword": "puka nacua",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Sun, 6 Sep 2026 15:40:00 -0700",
+          "source_name": "Bleacher Report",
+          "url": "https://trends.google.com/trending?geo=US&q=puka%20nacua"
+        },
+        {
+          "keyword": "cruz azul - santos",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Sun, 6 Sep 2026 15:20:00 -0700",
+          "source_name": "Fubo",
+          "url": "https://trends.google.com/trending?geo=US&q=cruz%20azul%20-%20santos"
+        },
+        {
+          "keyword": "burning man news",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Sun, 6 Sep 2026 13:40:00 -0700",
-          "source_name": "Decider",
-          "url": "https://trends.google.com/trending?geo=US&q=dutton%20ranch%20season%202"
+          "published": "Sun, 6 Sep 2026 15:30:00 -0700",
+          "source_name": "Burning Man Journal",
+          "url": "https://trends.google.com/trending?geo=US&q=burning%20man%20news"
         },
         {
-          "keyword": "matthew mcconaughey",
+          "keyword": "michael j fox",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Sun, 6 Sep 2026 13:30:00 -0700",
-          "source_name": "Far Out Magazine",
-          "url": "https://trends.google.com/trending?geo=US&q=matthew%20mcconaughey"
+          "published": "Sun, 6 Sep 2026 15:30:00 -0700",
+          "source_name": "Town & Country Magazine",
+          "url": "https://trends.google.com/trending?geo=US&q=michael%20j%20fox"
         },
         {
-          "keyword": "what channel is the nascar race on today",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sun, 6 Sep 2026 13:30:00 -0700",
-          "source_name": "NASCAR.com",
-          "url": "https://trends.google.com/trending?geo=US&q=what%20channel%20is%20the%20nascar%20race%20on%20today"
-        },
-        {
-          "keyword": "tiafoe girlfriend",
+          "keyword": "pegula",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 13:50:00 -0700",
-          "source_name": "HelloBeautiful",
-          "url": "https://trends.google.com/trending?geo=US&q=tiafoe%20girlfriend"
+          "published": "Sun, 6 Sep 2026 15:40:00 -0700",
+          "source_name": "Last Word On Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=pegula"
         },
         {
-          "keyword": "washington state football coach",
+          "keyword": "agi",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 13:50:00 -0700",
-          "source_name": "The Seattle Times",
-          "url": "https://trends.google.com/trending?geo=US&q=washington%20state%20football%20coach"
+          "published": "Sun, 6 Sep 2026 15:40:00 -0700",
+          "source_name": "The Economist",
+          "url": "https://trends.google.com/trending?geo=US&q=agi"
         },
         {
-          "keyword": "anna wintour",
+          "keyword": "sorana cîrstea",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 13:40:00 -0700",
-          "source_name": "The Guardian",
-          "url": "https://trends.google.com/trending?geo=US&q=anna%20wintour"
+          "published": "Sun, 6 Sep 2026 15:40:00 -0700",
+          "source_name": "GSP",
+          "url": "https://trends.google.com/trending?geo=US&q=sorana%20c%C3%AErstea"
         },
         {
-          "keyword": "brett baty",
+          "keyword": "miss america 2027",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 13:40:00 -0700",
-          "source_name": "MLB.com",
-          "url": "https://trends.google.com/trending?geo=US&q=brett%20baty"
+          "published": "Sun, 6 Sep 2026 15:30:00 -0700",
+          "source_name": "AL.com",
+          "url": "https://trends.google.com/trending?geo=US&q=miss%20america%202027"
         },
         {
-          "keyword": "gerrit cole",
+          "keyword": "erin andrews",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 13:30:00 -0700",
-          "source_name": "Bleacher Report",
-          "url": "https://trends.google.com/trending?geo=US&q=gerrit%20cole"
+          "published": "Sun, 6 Sep 2026 15:30:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=erin%20andrews"
         },
         {
-          "keyword": "bo bichette",
+          "keyword": "corinthians vs chapecoense",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 13:30:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=bo%20bichette"
-        },
-        {
-          "keyword": "cooper hjerpe",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sun, 6 Sep 2026 13:50:00 -0700",
-          "source_name": "MLB.com",
-          "url": "https://trends.google.com/trending?geo=US&q=cooper%20hjerpe"
+          "published": "Sun, 6 Sep 2026 15:20:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=corinthians%20vs%20chapecoense"
         }
       ]
     },

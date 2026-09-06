@@ -2,7 +2,7 @@
 title: "Record 389 · Reducing-Ileostomy-Postoperative-Complications-Due-to-Dehydration"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:28.893140+00:00
+updated_at: 2026-09-06T22:41:38.692876+00:00
 tags: [record, real-data]
 ---
 
