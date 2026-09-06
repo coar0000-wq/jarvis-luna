@@ -597,6 +597,28 @@ def main() -> int:
         print(f"ERROR: no products in {PRODUCTS}")
         return 1
 
+    # 이미지 URL 유실 방지: 이전 S추천·products 양쪽에서 보강
+    prev_s = load_json(OUT_S, {}) or {}
+    img_by_no, img_by_name = {}, {}
+    for r in (prev_s.get("recommendations") or []):
+        if r.get("pd_no") and r.get("image_url"):
+            img_by_no[str(r["pd_no"])] = r["image_url"]
+        if r.get("name") and r.get("image_url"):
+            img_by_name[(r.get("name") or "").strip()] = r["image_url"]
+    for p in products:
+        if not isinstance(p, dict):
+            continue
+        if not p.get("image_url"):
+            p["image_url"] = (
+                img_by_no.get(str(p.get("pd_no") or ""))
+                or img_by_name.get((p.get("name") or "").strip())
+                or ""
+            )
+        elif p.get("pd_no"):
+            img_by_no[str(p["pd_no"])] = p["image_url"]
+        if p.get("name") and p.get("image_url"):
+            img_by_name[(p.get("name") or "").strip()] = p["image_url"]
+
     dashboard = load_json(DASHBOARD, {}) or {}
     signals = extract_signals(dashboard.get("global_channels") or {})
     scored = [score_one(p, signals) for p in products]
@@ -679,7 +701,12 @@ def main() -> int:
                 "grade": "S",
                 "s_rule": x.get("s_rule"),
                 "url": x.get("url"),
-                "image_url": x.get("image_url"),
+                "image_url": (
+                    x.get("image_url")
+                    or img_by_no.get(str(x.get("pd_no") or ""))
+                    or img_by_name.get((x.get("name") or "").strip())
+                    or ""
+                ),
                 "recommend_reason": x.get("recommend_reason"),
                 "matched_global": x.get("best_global_match"),
                 "registerable": True,
@@ -714,7 +741,17 @@ def main() -> int:
 
     print(f"Done {len(scored)} → {OUT}")
     print("Grades:", by_grade, "| matched:", matched, "| signals:", len(signals))
-    print(f"S-list {len(s_list)} → {OUT_S}")
+    # S JSON 이미지 커버리지 검증 (자동화 성공 조건)
+    s_written = load_json(OUT_S, {}) or {}
+    s_recs = s_written.get("recommendations") or []
+    with_img = sum(1 for r in s_recs if (r.get("image_url") or "").strip())
+    missing = [r.get("name") for r in s_recs if not (r.get("image_url") or "").strip()]
+    print(f"S-list {len(s_list)} → {OUT_S} | image_url {with_img}/{len(s_recs)}")
+    if missing:
+        print("WARN image_url missing:", "; ".join((n or "")[:30] for n in missing[:8]))
+    if s_recs and with_img == 0:
+        print("ERROR: S recommendations have zero image_url — check products.json og:image")
+        return 2
     for i, s in enumerate(s_list, 1):
         m = s.get("best_global_match") or {}
         print(f"  {i}. {s['shopify_score']:3d} {s['name'][:36]} | {m.get('global_product','-')[:28]} [{','.join((m.get('matched_tokens') or [])[:3])}]")
