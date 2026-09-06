@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T21:08:27.650840+00:00",
+  "generated_at": "2026-09-06T21:25:50.034882+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
