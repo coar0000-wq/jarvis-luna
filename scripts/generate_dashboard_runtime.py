@@ -241,12 +241,49 @@ TEAM_ICONS = {
 }
 
 
+# 팀이 언제 일하는지. 사람이 "지금 뭐가 돌고 있나" 를 알려면 필요하다.
+#   now    지금 돌면서 S등급 후보를 좁힌다
+#   ready  준비는 끝났고 Shopify 계정이 생기면 바로 등록으로 넘어간다
+#   always 상시. 시장이 바뀌면 앞 단계가 다시 돈다
+TEAM_PHASE = {
+    "channels": ("now", "1단계 · 후보 선정"),
+    "knowledge": ("now", "1단계 · 후보 선정"),
+    "institutions": ("now", "1단계 · 후보 선정"),
+    "sourcing": ("now", "1단계 · 후보 선정"),
+    "market": ("always", "상시 · 시장 감시"),
+    "listing": ("ready", "2단계 · 가입 후 등록"),
+    "pricing": ("ready", "2단계 · 가입 후 등록"),
+    "legal": ("ready", "2단계 · 가입 후 등록"),
+    "design": ("ready", "2단계 · 가입 후 등록"),
+    "robotics": ("now", "1단계 · 지식"),
+    "obsidian": ("now", "1단계 · 지식"),
+}
+
+
 def _team(tid: str, name: str, when: str | None, summary: str,
           action: str | None = None, status: str = "ok") -> dict:
     icon = TEAM_ICONS.get(tid, {"color": "#555", "glyph": "dot"})
+    phase, phase_label = TEAM_PHASE.get(tid, ("now", ""))
     return {"id": tid, "name": name, "when": when, "summary": summary,
             "action": action, "status": status,
+            "phase": phase, "phase_label": phase_label,
             "color": icon["color"], "glyph": icon["glyph"]}
+
+
+def _error_summary() -> dict:
+    """에러 보고서를 화면이 바로 쓸 수 있게 줄인다."""
+    d = load_json(ROOT / "data" / "error_report.json", None) or {}
+    if not d:
+        return {"status": "missing"}
+    return {
+        "generated_at": d.get("generated_at"),
+        "total": d.get("total", 0),
+        "counts": d.get("counts", {}),
+        "고쳐야_할_것": [{"team": r["team"], "item": r["item"], "reason": r["reason"][:90]}
+                    for r in (d.get("고쳐야_할_것") or [])],
+        "사람_대기": [{"team": r["team"], "item": r["item"], "fix": r.get("fix", "")}
+                  for r in (d.get("사람_대기") or [])],
+    }
 
 
 def team_cards(graph: dict) -> list[dict]:
@@ -583,6 +620,16 @@ def main() -> None:
             "실행 기록이 없는 작업은 진행중으로 표시하지 않음."
         ),
         "teams": teams,
+        # 단계별 묶음. 화면이 팀을 순서대로 보여줄 수 있게 한다.
+        "phases": {
+            "now": {"label": "1단계 · 지금 돌면서 후보를 좁힌다",
+                    "teams": [t["id"] for t in teams if t.get("phase") == "now"]},
+            "ready": {"label": "2단계 · Shopify 가입하면 바로 등록으로 간다",
+                      "teams": [t["id"] for t in teams if t.get("phase") == "ready"]},
+            "always": {"label": "상시 · 시장이 바뀌면 1단계를 다시 돌린다",
+                       "teams": [t["id"] for t in teams if t.get("phase") == "always"]},
+        },
+        "errors": _error_summary(),
         # 특정 팀에 속하지 않는 전체 값. 팀 섹션 머리말에 쓴다.
         "team_summary": {
             "corpus_records": ((cumulative.get("totals") or {}).get("records")
