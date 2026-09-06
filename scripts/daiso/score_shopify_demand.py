@@ -31,7 +31,6 @@ DASHBOARD = ROOT / "data" / "dashboard_runtime.json"
 
 CATEGORY_BASE = {
     "스킨케어": 42,
-    "선케어": 40,
     "마스크팩": 38,
     "클렌징": 34,
     "메이크업": 32,
@@ -39,7 +38,6 @@ CATEGORY_BASE = {
     "바디케어": 34,
     "맨즈케어": 28,
     "향수": 22,
-    "네일": 16,
     "뷰티소품": 14,
     "구강용품": 10,
 }
@@ -54,7 +52,8 @@ CHANNEL_WEIGHT = {
 }
 
 CORE_BUCKETS = {
-    "스킨케어", "선케어", "마스크팩", "클렌징", "메이크업", "헤어케어", "바디케어",
+    # 선케어(미국 OTC 의약품)와 네일(인화성 액체, 항공배송 제약)은 제외.
+    "스킨케어", "마스크팩", "클렌징", "메이크업", "헤어케어", "바디케어",
 }
 
 # 상품이 실제로 미국에서 팔리는 목록만 매칭. Trends/기사/라벨 DB 제외.
@@ -149,8 +148,6 @@ NON_CORE = (
     "[펫]", "펫]", "펫 ", "반려동물", "강아지", "고양이", "애견", "포포몽",
     "배변", "배변패드", "배변 패드", "논슬립", "대나무 배변",
     "용기", "공병", "펌프만",
-    "앰플 용기", "세럼 용기", "공병만", "리필 용기", "빈용기",
-    "배변 패드", "배변패드", "애견용", "강아지용", "고양이용",
 )
 
 STOP = {"the", "and", "for", "with", "from", "best", "ml", "oz", "by", "new"}
@@ -160,16 +157,14 @@ BUCKET_RULES = [
     ("헤어케어", ("헤어", "샴푸", "린스", "트리트먼트", "두피", "hair", "shampoo")),
     ("바디케어", ("바디샴푸", "바디워시", "바디로션", "핸드크림", "body wash", "hand cream")),
     ("구강용품", ("치약", "칫솔", "구강", "가글")),
-    ("네일", ("네일", "매니큐어", "젤네일")),
     ("향수", ("향수", "퍼퓸", "오드뚜왈렛", "perfume")),
-    ("선케어", ("선크림", "선쿠션", "선스틱", "자차", "spf", "sunscreen")),
     ("클렌징", ("클렌징", "클렌저", "리무버")),
     ("마스크팩", ("마스크팩", "시트팩", "마스크 시트")),
 ]
 
 BUCKET_FAMILY = {
-    "스킨케어": "skin", "마스크팩": "skin", "선케어": "skin", "클렌징": "skin",
-    "메이크업": "makeup", "네일": "makeup",
+    "스킨케어": "skin", "마스크팩": "skin", "클렌징": "skin",
+    "메이크업": "makeup",
     "헤어케어": "hair", "바디케어": "body", "구강용품": "oral",
     "향수": "fragrance", "뷰티소품": "tool", "맨즈케어": "skin",
 }
@@ -405,10 +400,49 @@ def us_market_fit(name):
     return round(hit_pts + price_pts, 1), len(strong), round(med, 2)
 
 
+# 미국에서 그대로는 못 파는 것들. 소싱 단계에서 걸러야 한다.
+# 뒤늦게 법률팀이 막으면 이미 카피·가격·고시 작업을 다 해버린 뒤다.
+#
+# SPF 표기 제품은 미국에서 화장품이 아니라 OTC 의약품이다.
+# Drug Facts 라벨, 활성성분 표기, 시설 등록이 따로 필요하다.
+US_OTC_SUN = ("spf", "선크림", "선스틱", "선쿠션", "선세럼", "자차", "선블록",
+              "sunscreen", "sun cream", "pa+")
+
+# 상품의 핵심 소구점이 미국에서 의약품 주장이 되는 경우.
+# 미백은 OTC 의약품 주장이고, 주름개선·여드름 치료도 마찬가지다.
+# 그 말을 못 쓰면 그 상품을 팔 이유 자체가 사라지므로 후보에서 뺀다.
+KR_CLAIM_RISK = {
+    "화이트닝": "미백 - 미국에서 OTC 의약품 주장",
+    "미백": "미백 - 미국에서 OTC 의약품 주장",
+    "주름개선": "주름개선 - 미국에서 의약품 주장",
+    "링클": "주름개선 - 미국에서 의약품 주장",
+    "안티에이징": "항노화 - 미국에서 의약품 주장",
+    "여드름": "여드름 치료 - 미국에서 OTC 의약품",
+    "아크네": "여드름 치료 - 미국에서 OTC 의약품",
+    "기능성화장품": "한국 기능성 제도 표현 - 미국에 없는 범주",
+    "아토피": "질병명 - 화장품에 쓸 수 없음",
+}
+
+
+def us_blockers(name: str) -> tuple[str, str]:
+    """(구분, 사유). 문제 없으면 ("", "")."""
+    low = (name or "").lower()
+    for k in US_OTC_SUN:
+        if k in low:
+            return "otc_drug", f"'{k}' - 미국에서 OTC 의약품(Drug Facts 라벨 필요)"
+    for k, why in KR_CLAIM_RISK.items():
+        if k in name:
+            return "claim_risk", why
+    return "", ""
+
+
 def qualify_s(name: str, bucket: str, total: int, matches: list) -> tuple[bool, str]:
     """S등급 단일 게이트. True면 등록 후보."""
     if is_non_core(name):
         return False, "non_core"
+    kind, _why = us_blockers(name)
+    if kind:
+        return False, kind
     if bucket not in CORE_BUCKETS:
         return False, "non_core_bucket"
     if total < 82:
@@ -495,8 +529,11 @@ def score_one(p: dict, signals: list[dict]) -> dict:
     else:
         grade = "C"
 
+    us_kind, us_why = us_blockers(name)
     if non_core:
         reason = "비핵심 상품 (펫·잡화·구강 등)"
+    elif us_kind:
+        reason = f"미국 판매 제약: {us_why}"
     elif matches:
         m = matches[0]
         reason = (
@@ -538,6 +575,8 @@ def score_one(p: dict, signals: list[dict]) -> dict:
             "rebucket_note": rebucket_note,
             "global_similarity_reference_only": sim_pts,
             "penalty": -penalty,
+            "us_block_kind": us_kind,
+            "us_block_reason": us_why,
             "max_possible": 100,
         },
         "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",

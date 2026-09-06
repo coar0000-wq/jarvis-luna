@@ -149,8 +149,26 @@ def parse_product(pd_no: str, url: str, html: str) -> dict | None:
     }
 
 
+def excluded(item: dict, rules: dict) -> str:
+    """수집 대상에서 뺄 상품이면 그 이유(버킷 이름)를 낸다.
+
+    선케어와 네일은 아예 받지 않는다. 버킷 목록에서 빼기만 하면
+    남은 버킷의 넓은 키워드(크림·로션·립 등)에 걸려 다른 이름으로
+    들어오므로, 분류보다 먼저 검사한다.
+    """
+    hay = " ".join(filter(None, [item.get("site_category"), item.get("name")])).lower()
+    if not hay:
+        return ""
+    for name, spec in rules.items():
+        if name.startswith("_"):
+            continue
+        if any(str(k).lower() in hay for k in (spec.get("keywords") or [])):
+            return name
+    return ""
+
+
 def classify(item: dict, buckets: dict) -> str | None:
-    """뷰티관 12개 카테고리 중 하나로 분류. 해당 없으면 None (수집 대상 아님)."""
+    """뷰티관 카테고리 중 하나로 분류. 해당 없으면 None (수집 대상 아님)."""
     haystack = " ".join(filter(None, [item.get("site_category"), item.get("name")]))
     if not haystack:
         return None
@@ -239,6 +257,7 @@ def product_urls() -> list[str]:
 def main() -> int:
     cfg = load_json(CATMAP, {})
     buckets = cfg.get("buckets", {})
+    exclude_rules = cfg.get("exclude", {})
     target = int(cfg.get("target_per_bucket", 100))
 
     store = load_json(PRODUCTS, {"products": []})
@@ -253,7 +272,8 @@ def main() -> int:
         "requested": 0, "ok": 0, "parse_failed": 0, "http_error": 0,
         "skipped_not_beauty": 0,
         "skipped_bucket_full": 0,
-        "scope": "다이소몰 뷰티관(C245) 12개 카테고리",
+        "skipped_excluded": {},
+        "scope": "다이소몰 뷰티관(C245) 10개 카테고리 (선케어·네일 제외)",
         "delay_seconds": DELAY, "max_items": MAX_ITEMS,
         "user_agent": UA,
         "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
@@ -304,6 +324,12 @@ def main() -> int:
             if item is None:
                 run["parse_failed"] += 1
             else:
+                drop = excluded(item, exclude_rules)
+                if drop:
+                    run["skipped_excluded"][drop] = \
+                        run["skipped_excluded"].get(drop, 0) + 1
+                    time.sleep(DELAY + random.uniform(0, 2))
+                    continue
                 bucket = classify(item, buckets)
                 if bucket is None:
                     run["skipped_not_beauty"] += 1     # 뷰티관 밖 상품은 저장하지 않는다
