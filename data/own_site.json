@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-09-06T06:00:25.779655+00:00",
+  "generator": "scripts/ingest_own_site.py",
+  "왜": "브랜드는 사람이 정하는 것이다. 사용자가 이미 만든 사이트가 있으면 우리가 고른 색보다 그게 먼저다.",
+  "브랜드_기준": {
+    "name": "Coar Family",
+    "url": "https://coarfamily-cyber.github.io/wep/",
+    "글꼴": [
+      "Cormorant Garamond",
+      "SF Pro Text','Helvetica Neue',sans-serif"
+    ],
+    "색_변수": {
+      "--color-obsidian": "#1d1d1f",
+      "--color-frost-white": "#f5f5f7",
+      "--color-pure-black": "#000000",
+      "--color-paper-white": "#ffffff",
+      "--color-carbon": "#111111",
+      "--color-platinum": "#86868b",
+      "--color-graphite": "#333336",
+      "--color-silver-mist": "#cccccc",
+      "--color-smoke": "#424245",
+      "--color-apple-blue": "#0071e3",
+      "--color-link-blue": "#0066cc",
+      "--color-halo-blue": "#2997ff",
+      "--color-signal-orange": "#f56900",
+      "--color-iris-violet": "#8668ff",
+      "--color-reef-teal": "#00a1b3"
+    },
+    "언어": [
+      "EN",
+      "ES",
+      "JP",
+      "ZH"
+    ],
+    "pwa": {
+      "manifest": true,
+      "service_worker": true
+    }
+  },
+  "sites": 1,
+  "failed": [],
+  "claim_risk_count": 0,
+  "claim_risks": [],
+  "items": [
+    {
+      "url": "https://coarfamily-cyber.github.io/wep/",
+      "title": "Coar Family",
+      "description": "",
+      "lang": "ko",
+      "colors": [
+        {
+          "var": "--color-obsidian",
+          "value": "#1d1d1f",
+          "role": "text"
+        },
+        {
+          "var": "--color-frost-white",
+          "value": "#f5f5f7",
+          "role": "surface"
+        },
+        {
+          "var": "--color-pure-black",
+          "value": "#000000",
+          "role": "text"
+        },
+        {
+          "var": "--color-paper-white",
+          "value": "#ffffff",
+          "role": "surface"
+        },
+        {
+          "var": "--color-carbon",
+          "value": "#111111",
+          "role": "text"
+        },
+        {
+          "var": "--color-platinum",
+          "value": "#86868b",
+          "role": "muted"
+        },
+        {
+          "var": "--color-graphite",
+          "value": "#333336",
+          "role": "text"
+        },
+        {
+          "var": "--color-silver-mist",
+          "value": "#cccccc",
+          "role": "surface"
+        },
+        {
+          "var": "--color-smoke",
+          "value": "#424245",
+          "role": "muted"
+        },
+        {
+          "var": "--color-apple-blue",
+          "value": "#0071e3",
+          "role": "accent"
+        },
+        {
+          "var": "--color-link-blue",
+          "value": "#0066cc",
+          "role": "accent"
+        },
+        {
+          "var": "--color-halo-blue",
+          "value": "#2997ff",
+          "role": "accent"
+        },
+        {
+          "var": "--color-signal-orange",
+          "value": "#f56900",
+          "role": "accent"
+        },
+        {
+          "var": "--color-iris-violet",
+          "value": "#8668ff",
+          "role": "accent"
+        },
+        {
+          "var": "--color-reef-teal",
+          "value": "#00a1b3",
+          "role": "accent"
+        }
+      ],
+      "color_top": [
+        "#111111",
+        "#c8962a",
+        "#2c2c2e",
+        "#3a3a3c",
+        "#636366",
+        "#000000",
+        "#2997ff",
+        "#333336"
+      ],
+      "tokens": {
+        "--radius-nav": "980px",
+        "--radius-pill": "980px",
+        "--radius-cards": "28px",
+        "--radius-links": "10px",
+        "--radius-buttons": "36px",
+        "--page-max": "1366px"
+      },
+      "fonts": [
+        {
+          "source": "Google Fonts",
+          "family": "Cormorant Garamond"
+        },
+        {
+          "source": "CSS",
+          "family": "SF Pro Text','Helvetica Neue',sans-serif"
+        }
+      ],
+      "i18n_keys": 26,
+      "languages": [
+        "EN",
+        "ES",
+        "JP",
+        "ZH"
+      ],
+      "pwa": {
+        "manifest": true,
+        "service_worker": true
+      },
+      "has_admin": true,
+      "visible_text": "Coar Family K-Beauty · Seoul Sourced in Seoul. Trusted by millions. Shipped to your door. K-Beauty A product that will change your everyday. Korean skincare trusted by millions — freshly sourced from Seoul and shipped straight to your door. Learn more › Skincare Skin that glows from within. Learn more › Full Catalog + 제품 추가 La Belle Rose Glass Lip Gloss Moisturizing • Radiant finish Dewy Calming Centella Cica & Blue Vervetiale Collagen Glow Mist Ampoule Enhances Radiance & Elasticity · Small Molecule Nano-Collagen Concentrated PDRN Glow Essence Radiant, Firm, Youthful Skin Vita C Whip First Essence Skin Boosting · Brightening 관리자 로그인 비밀번호를 입력하세요 비밀번호가 틀렸습니다 확인 취소 🔐 관리자 · 로그아웃 새 제품 추가 🖼️ 클릭 또는 드래그해서 이미지 업로드 🇺🇸 EN 🇯🇵 JP 🇨🇳 ZH 🇪🇸 ES 저장 취소 Discover the full collection. ✨ Carefully selected in Korea, thoroughly tested for quality, and ready to ship right away. E-mail Coar Family About Us Privacy Policy Terms of Use Customer Support © 2026 Brand. All rights reserved. 🇰🇷 Email copied! coar1004@naver.com Feel free to reach out — we'll reply as soon as possible.",
+      "bytes": 81076,
+      "note": "Coar Family 스토어프론트 시안 (사용자 제작·사용 가능)",
+      "claim_risks": []
+    }
+  ]
+}

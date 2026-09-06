@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T05:23:22.991070+00:00",
+  "generated_at": "2026-09-06T06:00:50.832181+00:00",
   "generator": "scripts/prepare_brand_kit.py",
   "왜": "스토어 개설은 사람이 해야 하지만 준비물까지 기다릴 이유는 없다. 계정이 생기면 바로 붙일 수 있게 먼저 만들어 둔다.",
   "만들지_않는_것": "로고. 상표는 사람이 정할 일이고 내가 그린 걸 쓰면 상표 분쟁을 자초한다. 색과 글꼴 후보까지만 정해 둔다.",
@@ -10,64 +10,74 @@
   "등록_대상": 5,
   "colors": {
     "status": "ok",
-    "기준": "가장 많은 상품군 '스킨케어' — 진정·수분 계열이 많아 차분한 청록을 주색으로 둔다",
+    "기준": "사용자 사이트 https://coarfamily-cyber.github.io/wep/ 의 CSS 변수를 그대로 쓴다",
     "primary": {
-      "hue": "teal",
-      "hex": "#12b886",
+      "hue": "--color-apple-blue",
+      "hex": "#0071e3",
       "용도": "버튼·강조"
     },
-    "primary_dark": {
-      "hex": "#099268",
-      "용도": "버튼 눌림·링크 방문"
-    },
-    "primary_light": {
-      "hex": "#c3fae8",
-      "용도": "배경 강조 블록"
-    },
     "text": {
-      "hex": "#212529",
+      "hex": "#1d1d1f",
       "용도": "본문"
     },
     "text_muted": {
-      "hex": "#868e96",
+      "hex": "#86868b",
       "용도": "보조 설명"
-    },
-    "border": {
-      "hex": "#dee2e6",
-      "용도": "구분선·입력창 테두리"
     },
     "bg": {
       "hex": "#ffffff",
       "용도": "기본 배경"
     },
-    "출처": "Open Color (MIT). 명도 단계를 맞춰 만든 팔레트라 대비가 확보된다."
+    "전체_변수": {
+      "--color-obsidian": "#1d1d1f",
+      "--color-frost-white": "#f5f5f7",
+      "--color-pure-black": "#000000",
+      "--color-paper-white": "#ffffff",
+      "--color-carbon": "#111111",
+      "--color-platinum": "#86868b",
+      "--color-graphite": "#333336",
+      "--color-silver-mist": "#cccccc",
+      "--color-smoke": "#424245",
+      "--color-apple-blue": "#0071e3",
+      "--color-link-blue": "#0066cc",
+      "--color-halo-blue": "#2997ff",
+      "--color-signal-orange": "#f56900",
+      "--color-iris-violet": "#8668ff",
+      "--color-reef-teal": "#00a1b3"
+    },
+    "레이아웃_토큰": {
+      "--radius-nav": "980px",
+      "--radius-pill": "980px",
+      "--radius-cards": "28px",
+      "--radius-links": "10px",
+      "--radius-buttons": "36px",
+      "--page-max": "1366px"
+    },
+    "출처": "사용자 제작 사이트. 우리가 고른 색보다 우선한다."
   },
   "fonts": {
     "status": "ok",
-    "본문": {
-      "후보": [
-        "Roboto",
-        "Open Sans",
-        "Google Sans"
-      ],
-      "이유": "인기 순위 상위 산세리프. 화면에서 읽기 좋고 웨이트가 많다"
-    },
     "제목": {
       "후보": [
-        "Playfair Display",
-        "Roboto Slab"
+        "Cormorant Garamond",
+        "SF Pro Text','Helvetica Neue',sans-serif"
       ],
-      "이유": "본문과 대비를 주려면 세리프가 낫다. 없으면 산세리프 볼드"
+      "이유": "사용자 사이트가 쓰는 글꼴"
+    },
+    "본문": {
+      "후보": [
+        "Cormorant Garamond",
+        "SF Pro Text','Helvetica Neue',sans-serif"
+      ],
+      "이유": "사용자 사이트가 쓰는 글꼴"
     },
     "한글": {
       "후보": [
-        "Noto Sans KR",
-        "Nanum Gothic",
-        "Nanum Myeongjo"
+        "Noto Sans KR"
       ],
-      "이유": "브랜드명이나 후기에 한글이 섞이면 fallback 이 깨진다. 미리 지정해 둔다"
+      "이유": "사이트가 한글 글꼴을 따로 지정하지 않았다. 브랜드명이나 후기에 한글이 섞이면 fallback 이 깨진다"
     },
-    "출처": "fonts.google.com/metadata/fonts 실수집분"
+    "출처": "사용자 제작 사이트"
   },
   "image_spec": {
     "상품 이미지": {
@@ -154,9 +164,14 @@
       "상태": "뼈대만 있음"
     }
   },
+  "이미_되어_있는_것": [
+    "브랜드명 Coar Family",
+    "색 체계 15개 변수",
+    "글꼴 Cormorant Garamond, SF Pro Text','Helvetica Neue',sans-serif",
+    "다국어 EN, ES, JP, ZH"
+  ],
   "사람이_해야_하는_것": [
     "Shopify 스토어 개설 (계정·도메인)",
-    "브랜드명과 로고 확정",
     "정책 페이지의 회사명·주소·연락처 기입",
     "MoCRA 책임자 지정 (법률팀 라벨의 마지막 빈칸과 같은 값)"
   ]

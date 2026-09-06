@@ -35,6 +35,7 @@ DESIGN = DATA / "design_sources.json"
 SCORE = DATA / "daiso_real" / "shopify_demand_score.json"
 GATE = DATA / "listing_gate.json"
 COPY = DATA / "shopify_listing_copy.json"
+OWN = DATA / "own_site.json"
 
 # Shopify 공개 문서 기준. 2026-09-06 확인.
 IMAGE_SPEC = {
@@ -121,6 +122,55 @@ def pick_fonts(fonts: dict) -> dict:
     }
 
 
+def from_own_site(base: dict, own: dict) -> dict:
+    """사용자 사이트의 CSS 변수를 그대로 쓴다. 이름에 역할이 적혀 있다."""
+    cols = base.get("색_변수") or {}
+    items = (own.get("items") or [{}])[0]
+    by_role: dict = {}
+    for c in (items.get("colors") or []):
+        by_role.setdefault(c.get("role", "other"), []).append(c)
+
+    def pick(role, want=None):
+        rows = by_role.get(role) or []
+        if want:
+            for r in rows:
+                if want in r["var"]:
+                    return r
+        return rows[0] if rows else None
+
+    accent = pick("accent") or {}
+    text = pick("text") or {}
+    surface = pick("surface", "paper") or pick("surface") or {}
+    muted = pick("muted") or {}
+    return {
+        "status": "ok",
+        "기준": f'사용자 사이트 {base.get("url", "")} 의 CSS 변수를 그대로 쓴다',
+        "primary": {"hue": accent.get("var", ""), "hex": accent.get("value", ""),
+                    "용도": "버튼·강조"},
+        "text": {"hex": text.get("value", ""), "용도": "본문"},
+        "text_muted": {"hex": muted.get("value", ""), "용도": "보조 설명"},
+        "bg": {"hex": surface.get("value", "#ffffff"), "용도": "기본 배경"},
+        "전체_변수": cols,
+        "레이아웃_토큰": items.get("tokens", {}),
+        "출처": "사용자 제작 사이트. 우리가 고른 색보다 우선한다.",
+    }
+
+
+def from_own_fonts(base: dict) -> dict:
+    fams = base.get("글꼴") or []
+    display = [f for f in fams if "Cormorant" in f or "serif" in f.lower()]
+    body = [f for f in fams if f not in display]
+    return {
+        "status": "ok",
+        "제목": {"후보": display or fams[:1], "이유": "사용자 사이트가 쓰는 글꼴"},
+        "본문": {"후보": body or fams, "이유": "사용자 사이트가 쓰는 글꼴"},
+        "한글": {"후보": ["Noto Sans KR"],
+               "이유": "사이트가 한글 글꼴을 따로 지정하지 않았다. "
+                     "브랜드명이나 후기에 한글이 섞이면 fallback 이 깨진다"},
+        "출처": "사용자 제작 사이트",
+    }
+
+
 def main() -> int:
     ds = load(DESIGN) or {}
     score = load(SCORE) or {}
@@ -134,8 +184,17 @@ def main() -> int:
                       if i in by_no and by_no[i].get("bucket"))
 
     palette = ((ds.get("colors") or {}).get("palette")) or {}
-    kit_colors = pick_palette(buckets, palette)
-    kit_fonts = pick_fonts(ds.get("fonts") or {})
+    # 사용자가 만든 사이트가 있으면 그게 브랜드 기준이다.
+    # 우리가 Open Color 에서 고른 색은 근거가 있었지만 어디까지나 우리 선택이다.
+    # 브랜드는 사람이 정하는 것이고 이미 정해져 있으면 따라야 한다.
+    own = load(OWN) or {}
+    base = own.get("브랜드_기준") or {}
+    if base.get("색_변수"):
+        kit_colors = from_own_site(base, own)
+    else:
+        kit_colors = pick_palette(buckets, palette)
+    kit_fonts = (from_own_fonts(base) if base.get("글꼴")
+                 else pick_fonts(ds.get("fonts") or {}))
 
     # 썸네일이 실제로 있는지. 없으면 만들 수도 없다.
     imgs = [(str(i.get("pd_no")), i.get("image_url"))
@@ -164,9 +223,14 @@ def main() -> int:
         "product_types": types,
         "policies": {k: {"채워야 할 것": v, "상태": "뼈대만 있음"}
                      for k, v in POLICIES.items()},
+        "이미_되어_있는_것": ([
+            f'브랜드명 {base.get("name", "")}',
+            f'색 체계 {len(base.get("색_변수") or {})}개 변수',
+            f'글꼴 {", ".join(base.get("글꼴") or [])}',
+            f'다국어 {", ".join(base.get("언어") or [])}',
+        ] if base.get("색_변수") else []),
         "사람이_해야_하는_것": [
             "Shopify 스토어 개설 (계정·도메인)",
-            "브랜드명과 로고 확정",
             "정책 페이지의 회사명·주소·연락처 기입",
             "MoCRA 책임자 지정 (법률팀 라벨의 마지막 빈칸과 같은 값)",
         ],

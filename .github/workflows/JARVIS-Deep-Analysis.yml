@@ -233,6 +233,13 @@ jobs:
         run: python -u scripts/prepare_legal_export.py
 
       # 스토어 개설은 사람이 하지만 준비물은 미리 만들어 둔다.
+      # 사용자가 만든 사이트를 브랜드 기준으로 삼는다.
+      # 브랜드 키트보다 먼저 돌아야 그 값을 쓸 수 있다.
+      - name: 내 사이트 수집 (브랜드 기준)
+        continue-on-error: true
+        timeout-minutes: 3
+        run: python -u scripts/ingest_own_site.py
+
       - name: 브랜드 키트 준비 (색·글꼴·규격·정책)
         continue-on-error: true
         timeout-minutes: 3
