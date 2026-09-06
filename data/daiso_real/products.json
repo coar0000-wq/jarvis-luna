@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-05T22:15:22.696266+00:00",
+  "updated_at": "2026-09-06T02:44:11.813028+00:00",
   "source": "daisomall.co.kr (robots.txt 허용 경로 /pd/pdr/)",
   "truth_note": "가격은 상품 페이지에 표시된 실제 원화 금액입니다. 배송비·관세·수수료는 확정 견적이 없어 계산하지 않습니다.",
-  "count": 200,
+  "count": 174,
   "products": [
     {
       "pd_no": "1017957",
@@ -201,20 +201,6 @@
       "bucket": "맨즈케어"
     },
     {
-      "pd_no": "1068776",
-      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-      "brand": "싸이닉",
-      "site_category": "선크림",
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 241,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250814/kDp8f0Zwxqfnlp3FmmwS1068776_00_01kDp8f0Zwxqfnlp3FmmwS.png",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068776",
-      "collected_at": "2026-08-23T19:47:54.862932+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
-    },
-    {
       "pd_no": "94020",
       "name": "단색 향수 리필용기 5 ml",
       "brand": "다이소",
@@ -227,20 +213,6 @@
       "collected_at": "2026-08-23T19:54:16.541403+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "향수"
-    },
-    {
-      "pd_no": "1064529",
-      "name": "더마블록 무기자차선크림 35 ml (by 셀퓨전씨)",
-      "brand": "더마블록",
-      "site_category": "선크림",
-      "price_krw": 5000,
-      "rating": 4.6,
-      "review_count": 349,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260429/tbdC47YquykbvmA7Ujmi1064529_00_00tbdC47YquykbvmA7Ujmi.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064529",
-      "collected_at": "2026-08-23T19:55:53.351483+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
     },
     {
       "pd_no": "1067396",
@@ -257,20 +229,6 @@
       "bucket": "메이크업"
     },
     {
-      "pd_no": "1045146",
-      "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
-      "brand": "비프루브",
-      "site_category": "선크림",
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 1449,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250425/ATDev4SQOg7J1IEOb9j01045146_00_01ATDev4SQOg7J1IEOb9j0.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045146",
-      "collected_at": "2026-08-23T20:06:02.108084+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
-    },
-    {
       "pd_no": "1048918",
       "name": "손앤박 아티 스프레드 컬러 밤(03 멜로우)",
       "brand": "손앤박",
@@ -283,20 +241,6 @@
       "collected_at": "2026-08-23T20:07:06.192994+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "메이크업"
-    },
-    {
-      "pd_no": "1048799",
-      "name": "링링 파스텔 네일 10 ml 피치코랄",
-      "brand": "다이소",
-      "site_category": "일반네일",
-      "price_krw": 1000,
-      "rating": 4.5,
-      "review_count": 166,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231227/M5W8WqSkgczu0Rjrw6mB1048799_00_00M5W8WqSkgczu0Rjrw6mB.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048799",
-      "collected_at": "2026-08-23T20:08:43.879680+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
     },
     {
       "pd_no": "1061922",
@@ -495,20 +439,6 @@
       "bucket": "구강용품"
     },
     {
-      "pd_no": "1064416",
-      "name": "프롬더스킨 글로우 미라클선밤 10 g",
-      "brand": "프롬 더 스킨",
-      "site_category": "선스틱/선쿠션",
-      "price_krw": 5000,
-      "rating": 4.6,
-      "review_count": 237,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250411/pLzdwAX49FhgACm3CRtK1064416_00_01pLzdwAX49FhgACm3CRtK.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064416",
-      "collected_at": "2026-08-24T20:27:33.980477+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
-    },
-    {
       "pd_no": "1060208",
       "name": "쿤달 콜라겐 데미지 케어 트리트먼트 150 ml",
       "brand": "쿤달",
@@ -521,20 +451,6 @@
       "collected_at": "2026-08-24T20:28:37.819662+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "마스크팩"
-    },
-    {
-      "pd_no": "1067348",
-      "name": "태그 톤업선파우더(2호_핑크라이트) 5 g",
-      "brand": "태그",
-      "site_category": "베이스메이크업",
-      "price_krw": 5000,
-      "rating": 4.6,
-      "review_count": 173,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250919/9PqGdZcvme9wavHcWlZS1067348_00_019PqGdZcvme9wavHcWlZS.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067348",
-      "collected_at": "2026-08-24T20:29:42.333944+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "메이크업"
     },
     {
       "pd_no": "1056862",
@@ -731,20 +647,6 @@
       "collected_at": "2026-08-25T20:07:11.749493+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "마스크팩"
-    },
-    {
-      "pd_no": "1057223",
-      "name": "태그 핑크 라이트 선쿠션 15 g",
-      "brand": "태그",
-      "site_category": "선스틱/선쿠션",
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 1170,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240923/QryV7GdM5GG60Zul6wET1057223_00_00QryV7GdM5GG60Zul6wET.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057223",
-      "collected_at": "2026-08-25T20:07:43.604954+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "선케어"
     },
     {
       "pd_no": "1048042",
@@ -957,20 +859,6 @@
       "bucket": "메이크업"
     },
     {
-      "pd_no": "1072490",
-      "name": "티타 젤네일 폴리쉬 9 ml 얼그레이라떼",
-      "brand": "다이소",
-      "site_category": "젤네일",
-      "price_krw": 2000,
-      "rating": 4.8,
-      "review_count": 420,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260729/ZEuAtFjronVS0GiXWDe21072490_00_00ZEuAtFjronVS0GiXWDe2.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072490",
-      "collected_at": "2026-08-26T22:27:17.160976+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
-    },
-    {
       "pd_no": "12753",
       "name": "바디면도기 1개입",
       "brand": "다이소",
@@ -983,20 +871,6 @@
       "collected_at": "2026-08-26T22:29:23.787228+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "맨즈케어"
-    },
-    {
-      "pd_no": "1041091",
-      "name": "빅 손톱깎이",
-      "brand": "다이소",
-      "site_category": "네일/패디소품",
-      "price_krw": 2000,
-      "rating": 4.7,
-      "review_count": 178,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231201/SWvzq5SY4aF3iVogKlAS1041091_00_00SWvzq5SY4aF3iVogKlAS.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041091",
-      "collected_at": "2026-08-26T22:34:42.173094+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
     },
     {
       "pd_no": "1053844",
@@ -1053,20 +927,6 @@
       "collected_at": "2026-08-26T22:45:20.894673+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "메이크업"
-    },
-    {
-      "pd_no": "1052334",
-      "name": "네일 데코 글리터 세트 6개입",
-      "brand": "다이소",
-      "site_category": "네일/패디소품",
-      "price_krw": 1000,
-      "rating": 4.7,
-      "review_count": 47,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260112/dFihzWp8YKC0BmLrSk311052334_00_00dFihzWp8YKC0BmLrSk31.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1052334",
-      "collected_at": "2026-08-26T22:46:25.767580+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
     },
     {
       "pd_no": "1043751",
@@ -1223,20 +1083,6 @@
       "bucket": "스킨케어"
     },
     {
-      "pd_no": "1048803",
-      "name": "링링 파스텔 네일 10 ml 스카이블루",
-      "brand": "다이소",
-      "site_category": "일반네일",
-      "price_krw": 1000,
-      "rating": 4.7,
-      "review_count": 189,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231227/cE5NzgmJ6kt9zwTSbmjc1048803_00_00cE5NzgmJ6kt9zwTSbmjc.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048803",
-      "collected_at": "2026-08-26T23:08:45.547739+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
-    },
-    {
       "pd_no": "1023846",
       "name": "엘라스틴 맨인매트 클레이 왁스 80 g",
       "brand": "엘라스틴",
@@ -1291,20 +1137,6 @@
       "collected_at": "2026-08-31T23:22:42.170301+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "메이크업"
-    },
-    {
-      "pd_no": "32177",
-      "name": "컬러풀 손톱깎이",
-      "brand": "다이소",
-      "site_category": "네일/패디소품",
-      "price_krw": 1000,
-      "rating": 4.6,
-      "review_count": 257,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250213/R6tyeNlUS6kqgJT9NqMt32177_00_00R6tyeNlUS6kqgJT9NqMt.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=32177",
-      "collected_at": "2026-08-31T23:23:46.150214+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
     },
     {
       "pd_no": "1072195",
@@ -1531,20 +1363,6 @@
       "bucket": "메이크업"
     },
     {
-      "pd_no": "1035654",
-      "name": "마이멜로디 네일 데코 스티커",
-      "brand": "다이소",
-      "site_category": "네일팁/스티커",
-      "price_krw": 1000,
-      "rating": 4.9,
-      "review_count": 366,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240611/0CAS7prqfw9NEs1iD1aF1035654_00_000CAS7prqfw9NEs1iD1aF.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035654",
-      "collected_at": "2026-09-01T21:55:29.247304+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
-    },
-    {
       "pd_no": "1062235",
       "name": "팔레트17 컨실러 브러쉬",
       "brand": "다이소",
@@ -1671,34 +1489,6 @@
       "bucket": "스킨케어"
     },
     {
-      "pd_no": "1068862",
-      "name": "25FW 링링코핀 네일팁 #1",
-      "brand": "다이소",
-      "site_category": "네일팁/스티커",
-      "price_krw": 3000,
-      "rating": 4.7,
-      "review_count": 49,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250826/JMhWxFGcutbDwdewkNPg1068862_00_01JMhWxFGcutbDwdewkNPg.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068862",
-      "collected_at": "2026-09-02T21:57:50.895062+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
-    },
-    {
-      "pd_no": "1004553",
-      "name": "네일 팁 부착용 양면 테이프 84개입",
-      "brand": "다이소",
-      "site_category": "네일팁/스티커",
-      "price_krw": 1000,
-      "rating": 4.7,
-      "review_count": 756,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260116/qJa05wdjdAqdva8oHxfx1004553_00_00qJa05wdjdAqdva8oHxfx.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1004553",
-      "collected_at": "2026-09-02T22:00:30.244431+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
-    },
-    {
       "pd_no": "1055153",
       "name": "[02 핑크워터] 본셉 워터 베일 틴트",
       "brand": "본셉 메이크업",
@@ -1711,20 +1501,6 @@
       "collected_at": "2026-09-02T22:01:02.524863+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "메이크업"
-    },
-    {
-      "pd_no": "1018496",
-      "name": "일자형 네일 핀셋",
-      "brand": "다이소",
-      "site_category": "네일/패디소품",
-      "price_krw": 1000,
-      "rating": 4.8,
-      "review_count": 219,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260116/f4GW3AuD479koHj3zx9A1018496_00_00f4GW3AuD479koHj3zx9A.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1018496",
-      "collected_at": "2026-09-02T22:02:05.820024+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
     },
     {
       "pd_no": "1009199",
@@ -1741,20 +1517,6 @@
       "bucket": "마스크팩"
     },
     {
-      "pd_no": "1058672",
-      "name": "바디러버듀얼네일푸셔",
-      "brand": "다이소",
-      "site_category": "네일/패디소품",
-      "price_krw": 2000,
-      "rating": 4.8,
-      "review_count": 141,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251223/2rkoIxoMGJuXVygSULQI1058672_00_002rkoIxoMGJuXVygSULQI.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1058672",
-      "collected_at": "2026-09-02T22:04:13.460828+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
-    },
-    {
       "pd_no": "1049295",
       "name": "[진정수분버블]VT 시카 버블 스파클링 부스터 10 g 4개입",
       "brand": "VT",
@@ -1767,20 +1529,6 @@
       "collected_at": "2026-09-02T22:06:55.260813+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "마스크팩"
-    },
-    {
-      "pd_no": "1058690",
-      "name": "원 포인트 컬러 스테인리스 손톱깎이 중형",
-      "brand": "다이소",
-      "site_category": "네일/패디소품",
-      "price_krw": 1000,
-      "rating": 4.7,
-      "review_count": 144,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251208/fctY3QAEweVCyw4VeOVg1058690_00_00fctY3QAEweVCyw4VeOVg.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1058690",
-      "collected_at": "2026-09-02T22:07:27.017196+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
     },
     {
       "pd_no": "1064335",
@@ -1895,34 +1643,6 @@
       "bucket": "맨즈케어"
     },
     {
-      "pd_no": "1051739",
-      "name": "핑크퐁 아기 상어 키즈 네일 스티커",
-      "brand": "다이소",
-      "site_category": "네일팁/스티커",
-      "price_krw": 1000,
-      "rating": 4.8,
-      "review_count": 179,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240404/VyyTZAxwagECVUeQLdvh1051739_00_00VyyTZAxwagECVUeQLdvh.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051739",
-      "collected_at": "2026-09-02T22:28:19.134570+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
-    },
-    {
-      "pd_no": "1064176",
-      "name": "그라데이션 네일 팁 16개입 #3",
-      "brand": "다이소",
-      "site_category": "네일팁/스티커",
-      "price_krw": 2000,
-      "rating": 4.5,
-      "review_count": 131,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251208/uWl52AOTIzMKJJfX62zS1064176_00_00uWl52AOTIzMKJJfX62zS.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064176",
-      "collected_at": "2026-09-02T22:32:03.230176+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
-    },
-    {
       "pd_no": "1073585",
       "name": "맥세이프 호환용 케이스 갤럭시 Z플립7",
       "brand": "모란카노",
@@ -1935,20 +1655,6 @@
       "collected_at": "2026-09-02T22:34:45.207221+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "메이크업"
-    },
-    {
-      "pd_no": "1048786",
-      "name": "링링 솔리드 네일 10 ml 트로피칼블루",
-      "brand": "다이소",
-      "site_category": "일반네일",
-      "price_krw": 1000,
-      "rating": 4.7,
-      "review_count": 278,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240105/ekReaxUKxOGj4scFv80W1048786_00_00ekReaxUKxOGj4scFv80W.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048786",
-      "collected_at": "2026-09-02T22:35:50.278782+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
     },
     {
       "pd_no": "1067977",
@@ -2187,20 +1893,6 @@
       "collected_at": "2026-09-03T22:18:15.930375+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "스킨케어"
-    },
-    {
-      "pd_no": "18534",
-      "name": "클리어 손톱깎이",
-      "brand": "다이소",
-      "site_category": "네일/패디소품",
-      "price_krw": 1000,
-      "rating": 4.3,
-      "review_count": 109,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231130/ZtrmArJfgJ4MJhqCzwKS18534_00_00ZtrmArJfgJ4MJhqCzwKS.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=18534",
-      "collected_at": "2026-09-03T22:19:20.077494+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
     },
     {
       "pd_no": "99572122",
@@ -2539,20 +2231,6 @@
       "bucket": "바디케어"
     },
     {
-      "pd_no": "1035441",
-      "name": "물방울 네일 파츠 10개입",
-      "brand": "다이소",
-      "site_category": "네일아트도구",
-      "price_krw": 1000,
-      "rating": 4.7,
-      "review_count": 57,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240509/RTgBt6FsvLJaAPILzeMU1035441_00_00RTgBt6FsvLJaAPILzeMU.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035441",
-      "collected_at": "2026-09-05T21:26:04.856909+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
-    },
-    {
       "pd_no": "1067399",
       "name": "태그 파우더브로우키트(1호_애쉬브라운)",
       "brand": "태그",
@@ -2707,34 +2385,6 @@
       "bucket": "메이크업"
     },
     {
-      "pd_no": "1038356",
-      "name": "컬러차트 네일 파츠 10개입",
-      "brand": "다이소",
-      "site_category": "네일아트도구",
-      "price_krw": 1000,
-      "rating": 4.8,
-      "review_count": 160,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231129/p5SJ1eEavvaogtw0vSx91038356_00_00p5SJ1eEavvaogtw0vSx9.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038356",
-      "collected_at": "2026-09-05T21:54:43.150712+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
-    },
-    {
-      "pd_no": "1001262",
-      "name": "베이직 발가락패드 2개입",
-      "brand": "다이소",
-      "site_category": "네일/패디소품",
-      "price_krw": 500,
-      "rating": 4.7,
-      "review_count": 364,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231127/e9Z2Sgwo2ytMpaRhFWEg1001262_00_00e9Z2Sgwo2ytMpaRhFWEg.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1001262",
-      "collected_at": "2026-09-05T22:01:35.594042+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
-    },
-    {
       "pd_no": "1038593",
       "name": "제이엠솔루션 B5 히아 모이스처라이징 마스크 30 ml",
       "brand": "제이엠솔루션",
@@ -2775,20 +2425,6 @@
       "collected_at": "2026-09-05T22:06:20.228206+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "메이크업"
-    },
-    {
-      "pd_no": "1028630",
-      "name": "빅 파츠 네일 스티커 6개입",
-      "brand": "다이소",
-      "site_category": "네일팁/스티커",
-      "price_krw": 2000,
-      "rating": 4.6,
-      "review_count": 83,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240620/v800ch1CYR67k7mSD2J21028630_00_00v800ch1CYR67k7mSD2J2.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1028630",
-      "collected_at": "2026-09-05T22:08:58.020999+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "네일"
     },
     {
       "pd_no": "1056708",

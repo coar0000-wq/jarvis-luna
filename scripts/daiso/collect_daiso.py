@@ -258,10 +258,25 @@ def main() -> int:
     cfg = load_json(CATMAP, {})
     buckets = cfg.get("buckets", {})
     exclude_rules = cfg.get("exclude", {})
-    target = int(cfg.get("target_per_bucket", 100))
 
     store = load_json(PRODUCTS, {"products": []})
     products = store.get("products", [])
+
+    # 이미 저장된 것도 매 회차 다시 거른다.
+    # 수집 단계에서 새 상품만 막았더니, 워크플로가 예전 목록을 그대로 다시
+    # 커밋해 선케어·네일 22건이 되살아났다. 규칙을 바꿨으면 가진 것도
+    # 같이 정리해야 한다. 몇 건을 왜 뺐는지 남긴다.
+    pruned = {}
+    kept = []
+    for it in products:
+        why = excluded(it, exclude_rules)
+        if why:
+            pruned[why] = pruned.get(why, 0) + 1
+        else:
+            kept.append(it)
+    if pruned:
+        print(f"제외 규칙으로 기존 {sum(pruned.values())}건 정리: {pruned}")
+    products = kept
     by_no = {p["pd_no"]: i for i, p in enumerate(products)}
 
     state = load_json(STATE, {"visited": [], "sitemap_cached_at": None, "urls": []})
@@ -273,6 +288,7 @@ def main() -> int:
         "skipped_not_beauty": 0,
         "skipped_bucket_full": 0,
         "skipped_excluded": {},
+        "pruned_existing": {},
         "scope": "다이소몰 뷰티관(C245) 10개 카테고리 (선케어·네일 제외)",
         "delay_seconds": DELAY, "max_items": MAX_ITEMS,
         "user_agent": UA,
@@ -286,7 +302,9 @@ def main() -> int:
             run.update(finished_at=now_iso(), status="blocked",
                        message="sitemap.xml에서 상품 URL을 가져오지 못했습니다. "
                                "차단 또는 사이트 구조 변경 가능성.")
-            save_json(STATUS, {"last_run": run, "totals": summarize(products, buckets, target),
+            save_json(STATUS, {"last_run": run,
+                               "totals": summarize(products, buckets,
+                                                   {b: target_of(b) for b in buckets}),
                                "fx": load_json(STATUS, {}).get("fx")})
             print(json.dumps(run, ensure_ascii=False, indent=2))
             return 1
@@ -360,6 +378,7 @@ def main() -> int:
         time.sleep(DELAY + random.uniform(0, 2))
 
     run["finished_at"] = now_iso()
+    run["pruned_existing"] = pruned
     run["bucket_targets"] = {b: target_of(b) for b in buckets}
     run["buckets_short"] = {b: target_of(b) - counts.get(b, 0)
                             for b in buckets if counts.get(b, 0) < target_of(b)}
@@ -387,7 +406,8 @@ def main() -> int:
     })
     save_json(STATUS, {
         "last_run": run,
-        "totals": summarize(products, buckets, target),
+        "totals": summarize(products, buckets,
+                            {b: target_of(b) for b in buckets}),
         "fx": fetch_fx(),
         "sitemap_urls_known": len(urls),
         "visited": len(visited),
@@ -405,8 +425,8 @@ def tally(products: list) -> dict:
     return c
 
 
-def summarize(products: list, buckets: dict, target: int) -> dict:
-    """카테고리별 실측 원화 가격 요약. USD 환산은 화면에서 실시간 환율로 계산한다."""
+def summarize(products: list, buckets: dict, target) -> dict:
+    """target 은 이제 버킷별 dict 다. 단일값도 계속 받는다."""
     rows = {}
     for b in buckets:
         items = [p for p in products if p.get("bucket") == b]
@@ -420,7 +440,7 @@ def summarize(products: list, buckets: dict, target: int) -> dict:
     prices = [p["price_krw"] for p in products if isinstance(p.get("price_krw"), int)]
     return {
         "products": len(products),
-        "target_per_bucket": target,
+        "bucket_targets": target,
         "by_bucket": {b: rows[b]["count"] for b in buckets},
         "categories": rows,
         "avg_price_krw": round(sum(prices) / len(prices)) if prices else None,

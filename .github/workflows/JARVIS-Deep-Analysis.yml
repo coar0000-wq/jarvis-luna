@@ -220,6 +220,13 @@ jobs:
         timeout-minutes: 10
         run: python scripts/generate_dashboard_runtime.py
 
+      # 팀이 보고한 숫자를 원본 파일과 대조한다. 스크립트가 오류 없이
+      # 끝나도 숫자가 틀릴 수 있고, 실제로 이틀 동안 네 번 그랬다.
+      # 여기서 빨갛게 뜨는 편이 조용히 틀린 값을 띄우는 것보다 낫다.
+      - name: 팀 보고 숫자 감사 (카드 vs 원본 파일)
+        timeout-minutes: 3
+        run: python -u scripts/audit_team_reports.py
+
       - name: Validate real-data artifacts
         run: |
           python -m json.tool data/knowledge/real_sources.json >/dev/null
