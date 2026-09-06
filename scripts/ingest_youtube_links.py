@@ -132,22 +132,36 @@ def fetch_video(vid: str) -> dict:
         m = re.search(pat, html, flags)
         return m.group(1) if m else ""
 
-    title = grab(r'"videoDetails":\{.*?"title":"([^"]{2,200})"', re.S)
+    def grab_json_str(field: str) -> str:
+        """JSON 문자열 값을 이스케이프까지 제대로 읽는다.
+
+        예전에는 "title":"([^"]+)" 로 잘라냈다. 그런데 제목에 큰따옴표가
+        들어 있으면 거기서 끊긴다. 언어의 정원의 '천재들은 "어떻게"
+        이미지로 요약하는 걸까?' 가 '천재들은 \\' 로 저장됐다.
+        이스케이프된 따옴표는 넘기고, 값 전체를 json 으로 풀어야 한다.
+        """
+        m = re.search(r'"' + field + r'":"((?:[^"\\]|\\.)*)"', html)
+        if not m:
+            return ""
+        try:
+            return json.loads('"' + m.group(1) + '"')
+        except json.JSONDecodeError:
+            return m.group(1)
+
+    title = grab_json_str("title")
+    if not title:
+        title = grab(r"<meta name=\"title\" content=\"([^\"]{3,200})\"")
     if not title:
         title = grab(r"<title>([^<]{3,200})</title>").replace(" - YouTube", "")
-    desc = grab(r'"shortDescription":"([^"]{0,1200})')
-    # JSON 문자열 안이라 이스케이프가 남아 있다. 사람이 읽게 푼다.
-    for a, b in (("\\u0026", "&"), ("\\n", " "), ('\\"', '"'), ("\\/", "/")):
-        title = title.replace(a, b)
-        desc = desc.replace(a, b)
+    desc = grab_json_str("shortDescription")[:600]
     views = grab(r'"viewCount":"(\d+)"')
     return {
         "title": title.strip(),
-        "channel": grab(r'"ownerChannelName":"([^"]{2,60})"'),
+        "channel": grab_json_str("ownerChannelName"),
         "views": int(views) if views else None,
         "length_sec": int(grab(r'"lengthSeconds":"(\d+)"') or 0) or None,
         "published": grab(r'"uploadDate":"([\d-]{10})"') or grab(r'"publishDate":"([\d-]{10})"'),
-        "description": desc.strip()[:600],
+        "description": desc.strip(),
         "error": "" if title else "제목을 못 읽었다",
     }
 

@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-09-06T11:18:25.421843+00:00",
+  "generated_at": "2026-09-06T11:21:53.012817+00:00",
   "generator": "scripts/ingest_youtube_links.py",
   "입력": "data/manual/youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
-  "total": 3,
-  "ok": 3,
+  "total": 4,
+  "ok": 4,
   "failed": 0,
   "fetched_this_run": 1,
   "bad_lines": [],
   "by_team": {
     "listing": 2,
     "pricing": 1,
-    "market": 1
+    "market": 1,
+    "knowledge": 1
   },
   "videos": [
     {
@@ -67,6 +68,24 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:18:22.418749+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "ehmoVENJEB0",
+      "url": "https://www.youtube.com/watch?v=ehmoVENJEB0",
+      "note": "언어의 정원 - 이미지로 요약하는 법(스키마·마인드맵). 학습법이라 사업팀 아님",
+      "title": "천재들은 \"어떻게\" 이미지로 요약하는 걸까?",
+      "channel": "언어의 정원",
+      "views": 26505,
+      "length_sec": 637,
+      "published": "",
+      "description": "🔔 《뇌과학 공부법 대학》 (26학년도)\n\n🧠 수강신청서 & 커리큘럼\nhttps://forms.gle/S1LimSeA6e3Wf2tY6\n(📗 수강신청서 안에 26학년도 「대학 안내 & 커리큘럼」 전자책 다운로드 링크도 있습니다)\n\n※ 제공 혜택, 진행 일정 등이 모두 위 링크의 수강신청서에 자세히 안내돼있습니다\n\n🎬 《뇌과학 공부법 대학》 설명회 녹화본\n\n‧ 26년 1차 설명회: https://youtu.be/eJ5Izz0YSHE\n‧ 25년 1차 설명회: https://youtu.be/vchAW7L3aXE\n‧ 25년 2차 설명회: https://youtu.be/Zb8OBIO0Vac\n\n━━━━━━━━━\n\n🎥 《뇌과학 공부법 대학》 참조 샘플 영상\n\n(0) 프롬프트 지능 계발법 (26년 4월 《뇌과학 공부법 대학》 3시간 해설, 생방 녹화 강연)\nhttps://youtu.be/qFYIjbV-auM\n\n(1) 지능[아이큐] 향상법 (24년 6월 《뇌과학 공부법 대학》 5시간 해설, 생방 녹화 강연)\nhttps://youtu.be/V2KwgMeYFBo\n\n(2) 뇌과학 개론 (24년 1월 《Vvip 인문학 북클럽》 5시간 해설, 생방 녹화 강연)\nhttps://youtu",
+      "error": "",
+      "teams": [
+        "knowledge"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-06T11:21:50.009710+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
     }
   ]
