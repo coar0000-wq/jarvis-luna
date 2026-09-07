@@ -270,6 +270,50 @@ def _team(tid: str, name: str, when: str | None, summary: str,
             "color": icon["color"], "glyph": icon["glyph"]}
 
 
+# 채널 상태가 몇 살인지 따진다.
+#
+# amazon_best_sellers 와 walmart_beauty 가 status "ok", trust "verified" 로
+# 떠 있었다. 그런데 값은 2026-08-31 에 손으로 적어 넣은 카탈로그이고
+# 그 뒤로 아무도 다시 확인하지 않았다. url 도 상품 주소가 아니라
+# amazon.com 홈페이지였다.
+#
+# 보존 로직이 값을 지우지 않는 것까지는 맞다. 하지만 나이를 안 따지면
+# 한 달 전 값도 "검증됨" 으로 남는다. 그건 확인한 것이 아니다.
+STALE_HOURS = 48
+
+
+def age_channel_status(gcs):
+    """오래된 채널 상태의 신뢰 등급을 내리고 며칠 됐는지 적는다."""
+    if not isinstance(gcs, dict) or not gcs:
+        return gcs
+    now_dt = datetime.now(timezone.utc)
+    out = {}
+    for key, meta in gcs.items():
+        if not isinstance(meta, dict):
+            out[key] = meta
+            continue
+        m = dict(meta)
+        raw = m.get("collected_at") or ""
+        try:
+            age_h = (now_dt - datetime.fromisoformat(
+                str(raw).replace("Z", "+00:00"))).total_seconds() / 3600
+        except (ValueError, TypeError):
+            out[key] = m
+            continue
+        m["age_hours"] = round(age_h, 1)
+        if age_h > STALE_HOURS:
+            m["stale"] = True
+            if m.get("trust") == "verified":
+                m["trust"] = "stale"
+            m["status"] = "stale"
+            m["reason"] = (f"{raw[:10]} 이후 갱신 없음 ({age_h / 24:.1f}일). "
+                           + (m.get("reason") or "")).strip()
+        else:
+            m["stale"] = False
+        out[key] = m
+    return out
+
+
 def _error_summary() -> dict:
     """에러 보고서를 화면이 바로 쓸 수 있게 줄인다."""
     d = load_json(ROOT / "data" / "error_report.json", None) or {}
@@ -617,6 +661,7 @@ def main() -> None:
     # 다시 올라왔다. sync_channels.py 가 뒤에 채워주지만 카드는 그 전에
     # 계산이 끝나 있다.
     prev_gcs = prev.get("global_channels_status") if isinstance(prev, dict) else None
+    prev_gcs = age_channel_status(prev_gcs)
     prev_fx = prev.get("exchange_rate") if isinstance(prev, dict) else None
     prev_synced = prev.get("last_synced") if isinstance(prev, dict) else None
 
