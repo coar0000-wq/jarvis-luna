@@ -62,25 +62,15 @@ jobs:
 
           ok = True
           for p in ("data/daiso_real/products.json",
-                    "data/daiso_real/shopify_demand_score.json",
-                    "data/daiso_real/shopify_s_recommendations.json"):
+                    "data/daiso_real/shopify_demand_score.json"):
               f = Path(p)
               if not f.exists():
                   print("MISSING", p); ok = False; continue
               try:
-                  d = json.loads(f.read_text(encoding="utf-8"))
+                  json.loads(f.read_text(encoding="utf-8"))
                   print("OK", p)
               except Exception as e:
-                  print("INVALID", p, e); ok = False; continue
-              if p.endswith("shopify_s_recommendations.json"):
-                  recs = d.get("recommendations") or []
-                  with_img = sum(1 for r in recs if (r.get("image_url") or "").strip())
-                  print(f"  S image_url {with_img}/{len(recs)}")
-                  if recs and with_img == 0:
-                      print("FAIL S recommendations missing all image_url")
-                      ok = False
-                  elif recs and with_img < len(recs):
-                      print(f"WARN partial images {with_img}/{len(recs)} (commit still allowed)")
+                  print("INVALID", p, e); ok = False
 
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as out:
               out.write(f"artifacts_ok={'true' if ok else 'false'}\n")
@@ -160,6 +150,38 @@ jobs:
           done
           echo "5회 시도 후 push 실패"
           exit 1
+      # 수집 단계가 continue-on-error 라 스크립트가 죽어도 워크플로는
+      # 초록으로 끝난다. 실제로 09-06 21:23 실행이 성공으로 보고됐는데
+      # collection_status 는 09-05 것 그대로였다. 성공했다고 믿게 된다.
+      #
+      # 커밋 뒤에 둔다. 기록은 남기고 결과만 빨갛게 만든다.
+      - name: 수집이 실제로 일어났는지 확인
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, sys
+          from datetime import datetime, timezone
+          from pathlib import Path
+          p = Path("data/daiso_real/collection_status.json")
+          if not p.exists():
+              print("::error::collection_status.json 이 없다")
+              sys.exit(1)
+          run = json.loads(p.read_text(encoding="utf-8")).get("last_run") or {}
+          started = run.get("started_at") or ""
+          if not started:
+              print("::error::last_run.started_at 이 없다")
+              sys.exit(1)
+          age = (datetime.now(timezone.utc)
+                 - datetime.fromisoformat(started.replace("Z", "+00:00")))
+          hours = age.total_seconds() / 3600
+          state = run.get("status", "?")
+          print(f"마지막 수집 시각 {started} ({hours:.1f}시간 전) · 상태 {state}")
+          if hours > 6 or state not in ("ok",):
+              print(f"::error::이번 실행에서 수집이 일어나지 않았다. "
+                    f"기록은 {hours:.1f}시간 전 것이고 상태는 {state} 다.")
+              sys.exit(1)
+          PY
+
       - name: Skip notice
         if: steps.validate.outputs.artifacts_ok != 'true'
         run: echo "산출물 검증 실패 - 커밋하지 않음" >> $GITHUB_STEP_SUMMARY

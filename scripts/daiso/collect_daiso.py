@@ -483,5 +483,32 @@ def summarize(products: list, buckets: dict, target) -> dict:
     }
 
 
+def record_crash(e: BaseException) -> None:
+    """터졌다는 사실을 파일에 남긴다.
+
+    워크플로의 수집 단계가 continue-on-error 라서, 스크립트가 죽어도
+    워크플로는 초록으로 끝난다. 실제로 09-06 실행이 그랬다. 성공으로
+    보고됐는데 collection_status 는 09-05 것 그대로였다.
+
+    아무 기록도 없으면 다음 사람이 성공했다고 믿는다. 그게 제일 나쁘다.
+    """
+    prev = load_json(STATUS, {})
+    run = dict(prev.get("last_run") or {})
+    run.update(finished_at=now_iso(), status="crashed",
+               error=f"{type(e).__name__}: {str(e)[:200]}",
+               message="수집 도중 예외로 중단됐다. 이 기록은 실패를 남기려고 쓴 것이며 "
+                       "totals 는 직전 성공분 그대로다.")
+    save_json(STATUS, {"last_run": run,
+                       "totals": prev.get("totals"),
+                       "fx": prev.get("fx")})
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        raise SystemExit(main())
+    except SystemExit:
+        raise
+    except BaseException as _e:                                   # noqa: BLE001
+        record_crash(_e)
+        print(f"수집이 예외로 중단됐다: {type(_e).__name__}: {_e}", file=sys.stderr)
+        raise SystemExit(1)
