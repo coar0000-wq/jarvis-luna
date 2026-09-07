@@ -314,6 +314,53 @@ def age_channel_status(gcs):
     return out
 
 
+def merge_manual_channels(prev_global, prev_gcs, man):
+    """사람이 화면을 보고 넣은 값을 채널 목록에 얹는다.
+
+    manual_channels.json 이 32건을 들고 있는데 대시보드는 그 개수만
+    카드에 적고 목록에는 안 썼다. 정작 목록에 뜨는 amazon_best_sellers 는
+    2026-08-31 하드코딩 카탈로그였다. 사람이 실제 화면을 보고 넣은 값이
+    있는데 손으로 적어둔 옛 목록이 이기고 있었던 것이다.
+
+    수동 값이 더 최근이면 그걸 쓴다. 옛 카탈로그로 되돌리지 않는다.
+    """
+    gl = dict(prev_global or {})
+    st = dict(prev_gcs or {})
+    if not isinstance(man, dict):
+        return gl, st
+    for key, blk in (man.get("channels") or {}).items():
+        items = (blk or {}).get("products") or []
+        if not items:
+            continue
+        cap = str(blk.get("captured_at") or "")
+        old_cap = str((st.get(key) or {}).get("collected_at") or "")[:10]
+        if old_cap and cap and cap < old_cap:
+            continue                      # 더 오래된 것으로 덮지 않는다
+        gl[key] = [{
+            "product": it.get("product") or it.get("name") or "",
+            "brand": it.get("brand") or "",
+            "sub": it.get("category") or "",
+            "badge": f'${it.get("price_usd")}' if it.get("price_usd") else "",
+            "price": it.get("price_usd"),
+            "rating": it.get("rating"),
+            "review_count": it.get("review_count"),
+            "rank": it.get("rank"),
+            # 상품 주소를 모르면 비워 둔다. 예전에는 amazon.com 홈페이지를
+            # 넣어서 링크가 있는 것처럼 보였다.
+            "url": it.get("product_url") or "",
+            "extraction_method": it.get("extraction_method") or "manual_screenshot",
+        } for it in items]
+        st[key] = {
+            "status": "ok",
+            "source": f'사람이 직접 확인 ({blk.get("file", "")})',
+            "reason": "" if blk.get("source_url_given") else "출처 URL 미기재",
+            "collected_at": (cap + "T00:00:00+00:00") if cap else "",
+            "count": len(items),
+            "trust": "manual",
+        }
+    return gl, st
+
+
 def _error_summary() -> dict:
     """에러 보고서를 화면이 바로 쓸 수 있게 줄인다."""
     d = load_json(ROOT / "data" / "error_report.json", None) or {}
@@ -661,6 +708,10 @@ def main() -> None:
     # 다시 올라왔다. sync_channels.py 가 뒤에 채워주지만 카드는 그 전에
     # 계산이 끝나 있다.
     prev_gcs = prev.get("global_channels_status") if isinstance(prev, dict) else None
+    # 사람이 넣은 값을 먼저 얹고 나이를 따진다. 순서가 반대면
+    # 방금 넣은 값도 옛 기록의 나이를 물려받는다.
+    prev_global, prev_gcs = merge_manual_channels(
+        prev_global, prev_gcs, load_json(D / "manual_channels.json", None))
     prev_gcs = age_channel_status(prev_gcs)
     prev_fx = prev.get("exchange_rate") if isinstance(prev, dict) else None
     prev_synced = prev.get("last_synced") if isinstance(prev, dict) else None
