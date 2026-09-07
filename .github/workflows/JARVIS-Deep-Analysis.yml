@@ -230,6 +230,14 @@ jobs:
         continue-on-error: true
         run: python scripts/collect_public_signals.py
 
+      # 환율은 상품 수집과 별개로 돈다. 예전에는 collect_daiso.py 안에
+      # 있어서 다이소가 막히면 환율도 같이 멈췄다.
+      # 점수·원가 계산이 이 값을 읽으므로 그 앞에 둔다.
+      - name: 환율 갱신 (USD/KRW)
+        continue-on-error: true
+        timeout-minutes: 3
+        run: python -u scripts/fetch_fx_rate.py
+
       - name: Score Shopify demand (다이소 실측 지표 기반)
         continue-on-error: true
         run: python scripts/daiso/score_shopify_demand.py

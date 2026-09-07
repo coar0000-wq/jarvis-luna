@@ -200,56 +200,15 @@ def classify(item: dict, buckets: dict) -> str | None:
 
 
 # ----------------------------------------------------------------- fx rate
-def fetch_fx() -> dict:
-    """공개 API로 실시간 USD ↔ KRW 환율 (다중 소스 폴백)"""
-    endpoints = [
-        ("https://api.frankfurter.app/latest?from=USD&to=KRW",
-         lambda d: float(d["rates"]["KRW"]),
-         lambda d: d.get("date"),
-         "Frankfurter API"),
-        ("https://open.er-api.com/v6/latest/USD",
-         lambda d: float(d["rates"]["KRW"]),
-         lambda d: ((d.get("time_last_update_utc") or "")[:10] if d.get("time_last_update_utc") else None) or d.get("date"),
-         "ExchangeRate-API"),
-        ("https://api.exchangerate-api.com/v4/latest/USD",
-         lambda d: float(d["rates"]["KRW"]),
-         lambda d: d.get("date"),
-         "exchangerate-api"),
-    ]
-    last_err = None
-    for url, rate_fn, date_fn, label in endpoints:
-        try:
-            status, body = fetch(url)
-            if status != 200:
-                raise RuntimeError(f"HTTP {status}")
-            data = json.loads(body)
-            krw = round(float(rate_fn(data)), 2)
-            as_of = date_fn(data) or datetime.now(timezone.utc).strftime("%Y-%m-%d")
-            result = {
-                "usd_to_krw": krw,
-                "krw_to_usd": round(1 / krw, 8),
-                "as_of": as_of,
-                "source": label,
-                "api_url": url,
-                "fetched_at": now_iso(),
-                "ok": True,
-            }
-            print(f"✅ 환율 갱신 완료 : 1 USD = {krw:,.2f} KRW ({as_of}, {label})")
-            return result
-        except Exception as e:
-            last_err = e
-            print(f"⚠️ 환율 API 실패 ({label}): {e}")
-            continue
-    return {
-        "usd_to_krw": None,
-        "krw_to_usd": None,
-        "as_of": None,
-        "source": "all-failed",
-        "api_url": None,
-        "fetched_at": now_iso(),
-        "ok": False,
-        "error": str(last_err) if last_err else "unknown",
-    }
+# 환율은 scripts/fetch_fx_rate.py 가 담당한다.
+#
+# 예전에는 이 파일 안에 있었다. 그런데 다이소 수집이 조용히 죽으면
+# 환율까지 같이 멈췄다. 원가 계산이 환율에 걸려 있는데 상품 수집이
+# 막혔다고 환율이 멈출 이유가 없다.
+#
+# 저장 자리는 그대로 collection_status.json 의 fx 다.
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from fetch_fx_rate import fetch_fx  # noqa: E402
 
 
 # ----------------------------------------------------------------- sitemap
@@ -441,7 +400,10 @@ def main() -> int:
         "last_run": run,
         "totals": summarize(products, buckets,
                             {b: target_of(b) for b in buckets}),
-        "fx": fetch_fx(),
+        # 여기서 다시 받지 않는다. 워크플로가 fetch_fx_rate.py 를 따로
+        # 돌린다. 수집이 오래 걸려 그 사이 환율이 갱신됐을 수도 있으니
+        # 지금 파일에 있는 값을 그대로 둔다.
+        "fx": load_json(STATUS, {}).get("fx"),
         "sitemap_urls_known": len(urls),
         "visited": len(visited),
     })

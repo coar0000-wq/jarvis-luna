@@ -42,6 +42,13 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install requests beautifulsoup4 lxml
 
+      # 환율은 상품 수집과 별개로 돈다. 예전에는 collect_daiso.py 안에
+      # 있어서 다이소가 막히면 환율도 같이 멈췄다.
+      - name: 환율 갱신 (USD/KRW)
+        continue-on-error: true
+        timeout-minutes: 3
+        run: python -u scripts/fetch_fx_rate.py
+
       - name: Collect Daiso products
         env:
           DAISO_MAX_ITEMS: ${{ github.event.inputs.max_items || '110' }}
