@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-06T02:44:11.813028+00:00",
+  "updated_at": "2026-09-07T10:56:05.208804+00:00",
   "source": "daisomall.co.kr (robots.txt 허용 경로 /pd/pdr/)",
   "truth_note": "가격은 상품 페이지에 표시된 실제 원화 금액입니다. 배송비·관세·수수료는 확정 견적이 없어 계산하지 않습니다.",
-  "count": 174,
+  "count": 179,
   "products": [
     {
       "pd_no": "1017957",
@@ -2439,6 +2439,76 @@
       "collected_at": "2026-09-05T22:14:18.854200+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "맨즈케어"
+    },
+    {
+      "pd_no": "1051736",
+      "name": "랩잇 by 닥터지 포어 코팩",
+      "brand": "랩잇",
+      "site_category": "코팩",
+      "price_krw": 1000,
+      "rating": 4.7,
+      "review_count": 317,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250513/75QbM2UaIlzv8WdBDvXI1051736_00_0075QbM2UaIlzv8WdBDvXI.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051736",
+      "collected_at": "2026-09-07T10:37:25.321475+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "마스크팩"
+    },
+    {
+      "pd_no": "1065290",
+      "name": "일본제 무염색 굵은 양모실 25 g 아이보리",
+      "brand": "다이소",
+      "site_category": "뜨개실",
+      "price_krw": 1000,
+      "rating": 4.8,
+      "review_count": 22,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251107/HsZXfZDwADaG9G2fTPmP1065290_00_00HsZXfZDwADaG9G2fTPmP.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1065290",
+      "collected_at": "2026-09-07T10:40:40.025906+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "헤어케어"
+    },
+    {
+      "pd_no": "1069995",
+      "name": "실크테라피 실크케라틴 앰플트리트먼트 150 ml",
+      "brand": "실크테라피",
+      "site_category": "트리트먼트/팩",
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 737,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/MlfzXa3gzvGbwdbY61P01069995_00_00MlfzXa3gzvGbwdbY61P0.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1069995",
+      "collected_at": "2026-09-07T10:47:04.430003+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "헤어케어"
+    },
+    {
+      "pd_no": "1051792",
+      "name": "비프루브 리브레이크 페이스 바 120 g",
+      "brand": "비프루브",
+      "site_category": "샤워/입욕",
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 626,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/nWJjAcOCtxoaRAeMQ4me1051792_00_00nWJjAcOCtxoaRAeMQ4me.png",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051792",
+      "collected_at": "2026-09-07T10:50:48.272073+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "바디케어"
+    },
+    {
+      "pd_no": "1063312",
+      "name": "돌림형 스마트폰 방수팩",
+      "brand": "다이소",
+      "site_category": "휴대폰방수팩",
+      "price_krw": 3000,
+      "rating": 4.6,
+      "review_count": 98,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251208/Yx8mwlFau2frTjztPhLZ1063312_00_00Yx8mwlFau2frTjztPhLZ.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1063312",
+      "collected_at": "2026-09-07T10:52:54.964220+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "마스크팩"
     }
   ]
 }
