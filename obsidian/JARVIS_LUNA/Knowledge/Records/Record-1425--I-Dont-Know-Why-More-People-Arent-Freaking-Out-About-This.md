@@ -2,17 +2,17 @@
 title: "Record 1425 · I-Dont-Know-Why-More-People-Arent-Freaking-Out-About-This-Huge-K-Beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-05T02:24:18.326016+00:00
+updated_at: 2026-09-07T05:38:07.790248+00:00
 tags: [record, real-data]
 ---
 
 # Record 1425 · I-Dont-Know-Why-More-People-Arent-Freaking-Out-About-This-Huge-K-Beaut
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilwFBVV95cUxOWHFsdERNNzkxMXN1dTdjeWxneC1SVjVrN28zWEJEdHAzSU05S2FtTzdCTkt3RER6N3JMVUxHX2w5MXN6RTEzMzlQcUQ1cGd5aUhmQU9aYktxUFRwRHh2VjBQWkdLNVZPVl8wdlc2d0V3RmRYSEVxdHlBMVhCX3hMSmZJOUUyNERMU1czNVE2QmZ5QkVZcFJr?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihwFBVV95cUxQY1J0SHVtUFRWdXhrVmxxbUZZSi15X2xfc3VDeWJ0RjlQZUEwN1I3M1M5b1JqbTltcnNsT3hXODRaWFZvZDFUUk1DVGVycTZWWThBTjhRcVprMy1LZ3pGRFg0QTIydTFJZ1BSbkpIeVhNUnUyZTBNcGw2QTh2MHNZQ2szcmZrXzg?oc=5)
 
-**제목:** I Don't Know Why More People Aren't Freaking Out About This Huge K-Beauty Sale - Yahoo
+**제목:** I Don’t Know Why More People Aren’t Freaking Out About This Huge K-Beauty Sale - SheKnows
 
-I Don't Know Why More People Aren't Freaking Out About This Huge K-Beauty Sale - Yahoo
+I Don’t Know Why More People Aren’t Freaking Out About This Huge K-Beauty Sale - SheKnows
 
 **출처:** Source · Google Search
 

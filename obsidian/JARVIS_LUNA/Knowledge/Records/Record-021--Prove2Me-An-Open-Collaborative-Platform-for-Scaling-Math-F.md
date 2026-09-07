@@ -2,7 +2,7 @@
 title: "Record 021 · Prove2Me-An-Open-Collaborative-Platform-for-Scaling-Math-Formalization"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-07T00:39:25.530666+00:00
+updated_at: 2026-09-07T05:38:07.462059+00:00
 tags: [record, real-data]
 ---
 

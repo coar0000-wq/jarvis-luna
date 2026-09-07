@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T00:37:51.870068+00:00",
+  "generated_at": "2026-09-07T05:36:22.570662+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -129,9 +129,9 @@
     {
       "video_id": "wLJ40GV2XEc",
       "title": "Top UI/UX Design Tips - How to Design a Great Bottom Mobile Navigation Bar",
-      "views_text": "199K views",
+      "views_text": "200K views",
       "published_text": "1 year ago",
-      "views": 199000,
+      "views": 200000,
       "url": "https://www.youtube.com/watch?v=wLJ40GV2XEc",
       "channel": "uxpeak",
       "teams": [
@@ -164,10 +164,10 @@
     },
     {
       "video_id": "GGg61sdEjeI",
-      "title": "Learn to Design 10X Better Mobile UI Designs",
-      "views_text": "165K views",
+      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
+      "views_text": "166K views",
       "published_text": "10 days ago",
-      "views": 165000,
+      "views": 166000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -202,7 +202,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-07T00:37:41.554873+00:00",
+      "last_ok_at": "2026-09-07T05:36:12.170515+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -211,14 +211,14 @@
       "subscribers": "121K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-07T00:37:41.554894+00:00",
+      "checked_at": "2026-09-07T05:36:12.170539+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "Learn to Design 10X Better Mobile UI Designs",
-          "views_text": "165K views",
+          "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
+          "views_text": "166K views",
           "published_text": "10 days ago",
-          "views": 165000,
+          "views": 166000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -240,9 +240,9 @@
         {
           "video_id": "zr37ibqXl1U",
           "title": "Top 3 UX/UI Redesigns That Make You Design Like a Pro",
-          "views_text": "98K views",
+          "views_text": "99K views",
           "published_text": "3 months ago",
-          "views": 98000,
+          "views": 99000,
           "url": "https://www.youtube.com/watch?v=zr37ibqXl1U",
           "channel": "uxpeak",
           "teams": [
@@ -288,9 +288,9 @@
         {
           "video_id": "wLJ40GV2XEc",
           "title": "Top UI/UX Design Tips - How to Design a Great Bottom Mobile Navigation Bar",
-          "views_text": "199K views",
+          "views_text": "200K views",
           "published_text": "1 year ago",
-          "views": 199000,
+          "views": 200000,
           "url": "https://www.youtube.com/watch?v=wLJ40GV2XEc",
           "channel": "uxpeak",
           "teams": [
@@ -469,7 +469,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-07T00:37:46.869847+00:00",
+      "last_ok_at": "2026-09-07T05:36:17.570437+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -478,14 +478,14 @@
       "subscribers": "17.2K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-07T00:37:46.869867+00:00",
+      "checked_at": "2026-09-07T05:36:17.570454+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
           "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-          "views_text": "30K views",
+          "views_text": "32K views",
           "published_text": "3 days ago",
-          "views": 30000,
+          "views": 32000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
           "teams": [
@@ -496,9 +496,9 @@
         {
           "video_id": "l6VfFik0rHI",
           "title": "스몰 브랜드 대표가 밝히는 브랜딩 실전편 | 계속 성장 중인 리솔츠 이야기🛁",
-          "views_text": "4.1K views",
+          "views_text": "4.2K views",
           "published_text": "2 weeks ago",
-          "views": 4100,
+          "views": 4200,
           "url": "https://www.youtube.com/watch?v=l6VfFik0rHI",
           "channel": "땡스큐레이터",
           "teams": [
@@ -583,9 +583,9 @@
         {
           "video_id": "s04NYW3nOxA",
           "title": "🔑 브랜딩 잘하면 영업 안 해도 됩니다 | MD가 먼저 연락 오는 브랜드, 뭐가 다를까요",
-          "views_text": "82K views",
+          "views_text": "83K views",
           "published_text": "3 months ago",
-          "views": 82000,
+          "views": 83000,
           "url": "https://www.youtube.com/watch?v=s04NYW3nOxA",
           "channel": "땡스큐레이터",
           "teams": [
@@ -680,9 +680,9 @@
         {
           "video_id": "Tu8Ziv_y_Cc",
           "title": "마케팅에 속지않는 화장품 구매팁! 👌 ❌화장품 마케팅 싫어 🔥땡큐한 화장품 추천 ✔️ 솔직리뷰! 마케팅 썰 대방출 / 천연 화장품 /유기농 화장품 / 더마 화장품 [땡큐]",
-          "views_text": "971 views",
+          "views_text": "972 views",
           "published_text": "6 years ago",
-          "views": 971,
+          "views": 972,
           "url": "https://www.youtube.com/watch?v=Tu8Ziv_y_Cc",
           "channel": "땡스큐레이터",
           "teams": [
@@ -704,9 +704,9 @@
         {
           "video_id": "aIG5u5xJs6g",
           "title": "해외구매 아이폰 장점 / 아이폰 11 Pro 512GB 미드나잇 그린ㅣ굳이 미국에서 구매한 K의 하울!  영롱한 자태. 실물 감상 [땡큐]",
-          "views_text": "662 views",
+          "views_text": "663 views",
           "published_text": "6 years ago",
-          "views": 662,
+          "views": 663,
           "url": "https://www.youtube.com/watch?v=aIG5u5xJs6g",
           "channel": "땡스큐레이터",
           "teams": [

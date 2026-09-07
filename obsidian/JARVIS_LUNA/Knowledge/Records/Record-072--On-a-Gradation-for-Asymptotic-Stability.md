@@ -2,7 +2,7 @@
 title: "Record 072 · On-a-Gradation-for-Asymptotic-Stability"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-07T00:39:25.544182+00:00
+updated_at: 2026-09-07T05:38:07.474957+00:00
 tags: [record, real-data]
 ---
 

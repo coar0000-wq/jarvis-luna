@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T01:02:03.356107+00:00",
+  "generated_at": "2026-09-07T06:02:16.519581+00:00",
   "exchange_rate": {
     "usd_to_krw": 1346.56,
     "as_of": "2026-09-07",
@@ -21,9 +21,9 @@
     ]
   },
   "market_benchmark": {
-    "min": 2.8,
-    "p25": 17.0,
-    "median": 22.49,
+    "min": 7.6,
+    "p25": 19.8,
+    "median": 24.0,
     "max": 279.0,
     "n": 100,
     "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-07)"
@@ -269,16 +269,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 4.48,
-          "margin_pct": 26.3
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 7.07,
+          "margin_pct": 35.7
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 9.56,
-          "margin_pct": 42.5
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 10.96,
+          "margin_pct": 45.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.03,
@@ -294,7 +294,7 @@
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
@@ -317,16 +317,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 4.48,
-          "margin_pct": 26.3
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 7.07,
+          "margin_pct": 35.7
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 9.56,
-          "margin_pct": 42.5
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 10.96,
+          "margin_pct": 45.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.5,
@@ -342,7 +342,7 @@
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 90,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -365,16 +365,16 @@
           "margin_pct": -54.5
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 3.73,
-          "margin_pct": 21.9
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 6.32,
+          "margin_pct": 31.9
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 8.81,
-          "margin_pct": 39.2
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 10.21,
+          "margin_pct": 42.5
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 21.94,
@@ -413,16 +413,16 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 0.75,
-          "margin_pct": 4.4
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 3.34,
+          "margin_pct": 16.9
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 5.83,
-          "margin_pct": 25.9
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 7.23,
+          "margin_pct": 30.1
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.8,
@@ -438,7 +438,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -461,16 +461,16 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 7.79,
-          "margin_pct": 45.8
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 10.38,
+          "margin_pct": 52.4
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 12.87,
-          "margin_pct": 57.2
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 14.27,
+          "margin_pct": 59.5
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -511,16 +511,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 7.6,
-          "margin_pct": 44.7
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 10.19,
+          "margin_pct": 51.5
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 12.68,
-          "margin_pct": 56.4
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 14.08,
+          "margin_pct": 58.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.03,
@@ -536,7 +536,7 @@
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
@@ -559,16 +559,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 7.6,
-          "margin_pct": 44.7
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 10.19,
+          "margin_pct": 51.5
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 12.68,
-          "margin_pct": 56.4
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 14.08,
+          "margin_pct": 58.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.5,
@@ -584,7 +584,7 @@
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 90,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -607,16 +607,16 @@
           "margin_pct": -25.3
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 6.11,
-          "margin_pct": 35.9
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 8.7,
+          "margin_pct": 44.0
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 11.19,
-          "margin_pct": 49.8
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 12.59,
+          "margin_pct": 52.5
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 21.94,
@@ -655,16 +655,16 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 4.0,
-          "margin_pct": 23.5
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 6.59,
+          "margin_pct": 33.3
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 9.08,
-          "margin_pct": 40.4
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 10.48,
+          "margin_pct": 43.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.8,
@@ -680,7 +680,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -703,16 +703,16 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 10.54,
-          "margin_pct": 62.0
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 13.13,
+          "margin_pct": 66.3
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 15.62,
-          "margin_pct": 69.5
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 17.02,
+          "margin_pct": 70.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -755,16 +755,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 4.48,
-          "margin_pct": 26.3
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 7.07,
+          "margin_pct": 35.7
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 9.56,
-          "margin_pct": 42.5
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 10.96,
+          "margin_pct": 45.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.03,
@@ -780,7 +780,7 @@
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
@@ -803,16 +803,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 4.48,
-          "margin_pct": 26.3
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 7.07,
+          "margin_pct": 35.7
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 9.56,
-          "margin_pct": 42.5
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 10.96,
+          "margin_pct": 45.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.5,
@@ -828,7 +828,7 @@
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 90,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -851,16 +851,16 @@
           "margin_pct": -54.5
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 3.73,
-          "margin_pct": 21.9
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 6.32,
+          "margin_pct": 31.9
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 8.81,
-          "margin_pct": 39.2
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 10.21,
+          "margin_pct": 42.5
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 21.94,
@@ -899,16 +899,16 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 0.75,
-          "margin_pct": 4.4
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 3.34,
+          "margin_pct": 16.9
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 5.83,
-          "margin_pct": 25.9
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 7.23,
+          "margin_pct": 30.1
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.8,
@@ -924,7 +924,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -947,16 +947,16 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 7.79,
-          "margin_pct": 45.8
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 10.38,
+          "margin_pct": 52.4
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 12.87,
-          "margin_pct": 57.2
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 14.27,
+          "margin_pct": 59.5
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -997,16 +997,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 7.6,
-          "margin_pct": 44.7
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 10.19,
+          "margin_pct": 51.5
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 12.68,
-          "margin_pct": 56.4
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 14.08,
+          "margin_pct": 58.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.03,
@@ -1022,7 +1022,7 @@
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
@@ -1045,16 +1045,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 7.6,
-          "margin_pct": 44.7
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 10.19,
+          "margin_pct": 51.5
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 12.68,
-          "margin_pct": 56.4
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 14.08,
+          "margin_pct": 58.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.5,
@@ -1070,7 +1070,7 @@
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 90,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -1093,16 +1093,16 @@
           "margin_pct": -25.3
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 6.11,
-          "margin_pct": 35.9
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 8.7,
+          "margin_pct": 44.0
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 11.19,
-          "margin_pct": 49.8
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 12.59,
+          "margin_pct": 52.5
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 21.94,
@@ -1141,16 +1141,16 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 4.0,
-          "margin_pct": 23.5
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 6.59,
+          "margin_pct": 33.3
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 9.08,
-          "margin_pct": 40.4
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 10.48,
+          "margin_pct": 43.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.8,
@@ -1166,7 +1166,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -1189,16 +1189,16 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 10.54,
-          "margin_pct": 62.0
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 13.13,
+          "margin_pct": 66.3
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 15.62,
-          "margin_pct": 69.5
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 17.02,
+          "margin_pct": 70.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -1239,16 +1239,16 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 5.03,
-          "margin_pct": 29.6
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 7.63,
+          "margin_pct": 38.5
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 10.12,
-          "margin_pct": 45.0
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 11.52,
+          "margin_pct": 48.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.03,
@@ -1264,7 +1264,7 @@
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
@@ -1287,16 +1287,16 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 5.03,
-          "margin_pct": 29.6
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 7.63,
+          "margin_pct": 38.5
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 10.12,
-          "margin_pct": 45.0
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 11.52,
+          "margin_pct": 48.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.5,
@@ -1312,7 +1312,7 @@
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 90,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -1335,16 +1335,16 @@
           "margin_pct": -47.7
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 4.28,
-          "margin_pct": 25.2
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 6.88,
+          "margin_pct": 34.7
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 9.37,
-          "margin_pct": 41.6
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 10.77,
+          "margin_pct": 44.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 21.94,
@@ -1383,16 +1383,16 @@
           "margin_pct": -84.1
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 1.31,
-          "margin_pct": 7.7
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 3.9,
+          "margin_pct": 19.7
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 6.39,
-          "margin_pct": 28.4
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 7.79,
+          "margin_pct": 32.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.8,
@@ -1408,7 +1408,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -1431,16 +1431,16 @@
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 8.01,
-          "margin_pct": 47.1
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 10.6,
+          "margin_pct": 53.6
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 13.09,
-          "margin_pct": 58.2
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 14.49,
+          "margin_pct": 60.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -1481,16 +1481,16 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 8.16,
-          "margin_pct": 48.0
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 10.75,
+          "margin_pct": 54.3
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 13.24,
-          "margin_pct": 58.9
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 14.64,
+          "margin_pct": 61.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.03,
@@ -1506,7 +1506,7 @@
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
@@ -1529,16 +1529,16 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 8.16,
-          "margin_pct": 48.0
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 10.75,
+          "margin_pct": 54.3
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 13.24,
-          "margin_pct": 58.9
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 14.64,
+          "margin_pct": 61.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.5,
@@ -1554,7 +1554,7 @@
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 90,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -1577,16 +1577,16 @@
           "margin_pct": -18.5
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 6.67,
-          "margin_pct": 39.2
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 9.26,
+          "margin_pct": 46.8
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 11.75,
-          "margin_pct": 52.2
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 13.15,
+          "margin_pct": 54.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 21.94,
@@ -1625,16 +1625,16 @@
           "margin_pct": -44.4
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 4.55,
-          "margin_pct": 26.8
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 7.15,
+          "margin_pct": 36.1
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 9.64,
-          "margin_pct": 42.9
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 11.04,
+          "margin_pct": 46.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.8,
@@ -1650,7 +1650,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 87,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -1673,16 +1673,16 @@
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 17.0,
-          "fee": 1.26,
-          "profit": 10.76,
-          "margin_pct": 63.3
+          "sell": 19.8,
+          "fee": 1.47,
+          "profit": 13.35,
+          "margin_pct": 67.4
         },
         "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 15.84,
-          "margin_pct": 70.4
+          "sell": 24.0,
+          "fee": 1.78,
+          "profit": 17.24,
+          "margin_pct": 71.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,

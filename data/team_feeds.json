@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-07T00:37:56.526723+00:00",
+  "generated_at": "2026-09-07T05:36:26.543161+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2027,
+  "pool_size": 2007,
   "제목없어_버림": 38,
   "unrouted": 9,
   "summary": {
@@ -13,10 +13,10 @@
     },
     "market": {
       "total": 442,
-      "recent": 46
+      "recent": 44
     },
     "listing": {
-      "total": 11,
+      "total": 12,
       "recent": 6
     },
     "pricing": {
@@ -25,10 +25,10 @@
     },
     "legal": {
       "total": 114,
-      "recent": 22
+      "recent": 23
     },
     "design": {
-      "total": 347,
+      "total": 346,
       "recent": 96
     },
     "robotics": {
@@ -36,12 +36,12 @@
       "recent": 75
     },
     "knowledge": {
-      "total": 162,
+      "total": 163,
       "recent": 54
     },
     "institutions": {
-      "total": 1065,
-      "recent": 266
+      "total": 1045,
+      "recent": 263
     }
   },
   "fda_failures": [],
@@ -601,22 +601,8 @@
         "by_hand": false
       },
       {
-        "title": "Keauti brings K-beauty to Queen City - Springfield Business Journal",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rZVhLTzJCdjNtajVENC16TEVSempfaks3T0Nmc1FJcExOdGlpSFpxSk9pb2drUHAtQ1cyc0c1amRsLUZQWmlFXzM5cW5DczVsRExKMENRbDdqOGNEVUFCaDdfNXNsRGxnOWU5d2xxcHVxYWd3Tnc?oc=5",
-        "pool": "google",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
         "title": "K-Beauty Experts Say These Trends Are Replacing the 10-Step Routine - NewBeauty",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SQmU2eVFfdGs0bFZmTDdEc1l0YW9pSkV3S0NjcXJHUkVhRmFXcXh4SnBKUHJmZC1hOG82N2FpVmwxQ2V0NGVKWTAxSnJMd21hdlJzd3VFdC1HWXBrTmpTd0k0ZjQxZXRZOXV2WEZRWQ?oc=5",
-        "pool": "google",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "This French moisturizer is a bestselling skincare staple — and now under $30 - nypost.com",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS2ZvWUtYc0FlanJRNXY2SFdCUlk4ZFVMbmt1dnB3RFhZWDFHSllsYTFxOS02TWk3NWhEeUt0Z3puWGdMekpZeWhTSWI3ZFZ1NU13STB6ZHJyMWFFWmxTbldxMW13MHd5RGxMeElXQU5pNHRtaklrUy01alI5Q0tjNWxieWxDeUJSa0FacEo4YWdmNzFqbGo0?oc=5",
         "pool": "google",
         "date": "2026-09-04",
         "by_hand": false
@@ -629,7 +615,7 @@
         "by_hand": false
       },
       {
-        "title": "Anti-Blush Is The Moody Yet Wearable Makeup Trend To Try Now - Harper's Bazaar Singapore",
+        "title": "Anti-Blush Is The Moody Yet Wearable Makeup Trend To Try Now - harpersbazaar.com.sg",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HeW5JcWxfLU1RS2RYYzMxYTAzbGFVQTBvWktyOExud0JYc3dDZFFpQ0NobzMzUnhxR3BjOXVYQnFZaVh5RjZKM1F3QUp5TlZmZTl3OUNCQy1fYzREQmlvUmdTOHZ1X1JXM05HZVJ5MA?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -734,7 +720,7 @@
         "by_hand": false
       },
       {
-        "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - Sacramento Bee",
+        "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - sacbee.com",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzRUhWam1YWHZYXzlFQlVlMFcwRDBYX003QTZqSzM0WURnYnNudkZveEs3RHJCczBzSUpvMklOeXR3elA4ZVdIc2lDd2RNeEJLeE9RdGNEbVFrTjVhcnFPaUJSNEpNeXpWLWRpcGhQb0ozdU3SAXNBVV95cUxPV1Qwc05zNHBGQmhLclBFVzhrQjQ1bjBZWWFKa25fVllZRXRobkhXZGZpeUplUVFYTjJ4dEpBTDZ1TXVlc3FGT3FOOUl2VFBqdzhYcHRFeEtJV2ExN29TUTVQVVdVTmNwWW9YVHZHSkZ0TDZN?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -797,7 +783,7 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty’s fastest-growing products are quietly crossing over from cult status to household names - Sacramento Bee",
+        "title": "K-beauty’s fastest-growing products are quietly crossing over from cult status to household names - sacbee.com",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aWFdHVGswUVFLUzNOYnhaRzV4RXpLSE4yUU5IcHJVa2lieDYtRjBxNkZma1NUSG9hQS1QT3ZJcHVxekFETnhNUzloR3g5UkxEQWx5QVJxY1V5emtySDRYZzNnTUl3RWVCX29nazdaRUlMYWPSAXNBVV95cUxNdjl6SVNhV25mQjFJeUZITi0tLXlnMlFPcWc0a3lxNGU2cGdldm5GRzF2Yk1HY2VrQUhsVF9zemRaeVJvUkZzSDJxQnd4cXlDWTlGSEVYM3VYUEJ5aFMweWtBREtQb3NVTUVJRmxSMTlJQXBN?oc=5",
         "pool": "google",
         "date": "2026-08-27",
@@ -893,6 +879,20 @@
         "pool": "google",
         "date": "2026-08-21",
         "by_hand": false
+      },
+      {
+        "title": "19 Cult-Favorite K-Beauty Brands Just Landed at Sephora - NewBeauty",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTVHFoN09DYWF2TW5oeEx3NWlKejVzV3lSUldROGZYaWRld3YtTWZ4Sk1YeTlUMS1fVmw4RkRYMmZETmhiRkNLX1RhczR3OHJZZGJRSmpLamUwdU85V0VqUUlJS0xTOXlu?oc=5",
+        "pool": "google",
+        "date": "2026-08-20",
+        "by_hand": false
+      },
+      {
+        "title": "Olive Young’s K-Beauty Edit Finally Hit Sephora: These Finds Are Worth It - E! News",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQXhuQ0QxazlaeHhHQjRuaDJzZE9pT1pfdjNvUHFqTllKeEg2Wm4zV3BUWGdScGU4OG9JYTRaYVRHMkcxbG52ZjFIbEdNWEM0RDNQNEl3SFNWUVNWb3VmN2wzZzNuRXhicVJ1YkUwSF8tUXItRXNWZkllZXJsTGhldDVIM0lvbjFHT3VwVHFBQXVXRW4xdnN2NUxUbUpGYzJxTmFZRDdFb0xjQQ?oc=5",
+        "pool": "google",
+        "date": "2026-08-20",
+        "by_hand": false
       }
     ],
     "listing": [
@@ -957,6 +957,13 @@
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5",
         "pool": "google",
         "date": "2026-06-06",
+        "by_hand": false
+      },
+      {
+        "title": "Seoul Travel Haul: All the Beauty Products I Brought Home - The Daily Beast",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUWNydzdmSGpWZFFKVVZzaWxnejhoalhXQ2ZpTWhpSmk4Z1A0U1RxdUhjWl9tRkxnMV9HaFFYUTFxWGZJdE5FUDJMbFhPT2ZxNkQxLWtTUHFKSC1vZUhSMHBxY3JmcjRTZW9EdjZrdDdONDRQSEFMX2RkMnpra2doZkNxZnJvdWM?oc=5",
+        "pool": "google",
+        "date": "2026-03-26",
         "by_hand": false
       },
       {
@@ -1060,6 +1067,13 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
+      },
+      {
+        "title": "Made Fresh Salads, Inc. Recalls Ready to Eat Deli Style Salads and Cream Cheese Because of Possible Health Risk",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/made-fresh-salads-inc-recalls-ready-eat-deli-style-salads-and-cream-cheese-because-possible-health",
+        "pool": "fda",
+        "date": "2026-09-06",
+        "by_hand": false
       },
       {
         "title": "Foods Alive Recalls Organic Moringa Leaf Powder Because of Possible Health Risk",
@@ -1225,13 +1239,6 @@
       {
         "title": "Fromm Family Foods Voluntarily Recalls Turkey Pâté Wet Food For Dogs and Diner Classic Milo’s Meatloaf Pâté Wet Food For Dogs Due to Potential Metal Contamination",
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fromm-family-foods-voluntarily-recalls-turkey-pate-wet-food-dogs-and-diner-classic-milos-meatloaf",
-        "pool": "fda",
-        "date": "2026-08-21",
-        "by_hand": false
-      },
-      {
-        "title": "Vitruvias Therapeutics, Inc Issues Nationwide Recall of One Lot of Thyroid Tablets, USP 30 mg Due to Potential Super Potency",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vitruvias-therapeutics-inc-issues-nationwide-recall-one-lot-thyroid-tablets-usp-30-mg-due-potential",
         "pool": "fda",
         "date": "2026-08-21",
         "by_hand": false
@@ -1512,7 +1519,7 @@
         "by_hand": true
       },
       {
-        "title": "Learn to Design 10X Better Mobile UI Designs",
+        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -2750,6 +2757,13 @@
         "by_hand": false
       },
       {
+        "title": "Samsung Enhances Long-Term Value of Refrigerators and Laundry Appliances With AI-Focused Software Updates",
+        "url": "https://news.samsung.com/global/samsung-enhances-long-term-value-of-refrigerators-and-laundry-appliances-with-ai-focused-software-updates",
+        "pool": "institutions",
+        "date": "2026-09-07",
+        "by_hand": false
+      },
+      {
         "title": "An Alien Mind",
         "url": "https://openai.com/index/an-alien-mind",
         "pool": "institutions",
@@ -2871,13 +2885,6 @@
       {
         "title": "Setting Grok Bot loose on procurement",
         "url": "https://x.ai/news/grok-bot-procurement",
-        "pool": "institutions",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "Sign up for ASML news alerts",
-        "url": "https://www.asml.com/en/news/news-subscription",
         "pool": "institutions",
         "date": "2026-09-04",
         "by_hand": false
@@ -3114,13 +3121,6 @@
         "by_hand": false
       },
       {
-        "title": "ASML reports transactions under its current share buyback program",
-        "url": "https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-31",
-        "pool": "institutions",
-        "date": "2026-09-03",
-        "by_hand": false
-      },
-      {
         "title": "Is Ai Impacting Global Labor Markets",
         "url": "https://www.goldmansachs.com/insights/articles/is-ai-impacting-global-labor-markets",
         "pool": "institutions",
@@ -3158,6 +3158,13 @@
       {
         "title": "How Are Trading Platforms Evolving",
         "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/how-are-trading-platforms-evolving",
+        "pool": "institutions",
+        "date": "2026-09-03",
+        "by_hand": false
+      },
+      {
+        "title": "Technology Overtakes Liquidity Market Structure",
+        "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/technology-overtakes-liquidity-market-structure",
         "pool": "institutions",
         "date": "2026-09-03",
         "by_hand": false
