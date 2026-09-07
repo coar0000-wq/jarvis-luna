@@ -1,19 +1,20 @@
 {
-  "generated_at": "2026-09-07T10:44:54.115581+00:00",
+  "generated_at": "2026-09-07T10:53:14.977959+00:00",
   "generator": "scripts/ingest_youtube_links.py",
   "입력": "data/manual/youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
-  "total": 12,
-  "ok": 12,
+  "total": 13,
+  "ok": 13,
   "failed": 0,
-  "fetched_this_run": 0,
+  "fetched_this_run": 1,
   "bad_lines": [],
   "by_team": {
-    "listing": 4,
+    "listing": 5,
     "pricing": 1,
     "market": 3,
     "knowledge": 3,
-    "design": 6
+    "design": 7,
+    "sourcing": 1
   },
   "학습금지_표시": [
     {
@@ -276,6 +277,28 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-07T10:44:26.756949+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "dPPd65Kvh7Y",
+      "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y",
+      "note": "Ali Akbar - Claude 로 월매출 200만불 스토어를 통째로 복제하는 78분 강의. 방법은 참고, 복제 자체는 위험",
+      "title": "Claude Copies $2m Shopify Store & Replaces Everything With My Brand (Full Course)",
+      "channel": "Ali Akbar | White-Label Ecommerce",
+      "views": 23670,
+      "length_sec": 4678,
+      "published": "",
+      "description": "👉 Get a Whitelabeler.ai Pro account to do everything I've done in this video: https://whitelabeler.ai\n\nThis includes: building the store, access to all of my ai employees and much more. \n\n👉  Ai Vault 3.0: https://app.whitelabeler.ai/community/ai-vault-3-0\n\n-------------\n\nWatch me build a $2M/month e-commerce brand from scratch using AI. I clone Neuro (a $1.5–$2.9M/month caffeine gum brand) end-to-end — supplier research, page, branding, mockups, images, and ads — and launch our own version: ACUMEN.\n\n-------------\n\n🔗 Register For My Free Ecommerce Workshop: https://www.shopfunnels.net/ai-dropsh",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "listing",
+        "design",
+        "sourcing"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-07T10:53:11.974779+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
     }
   ]
