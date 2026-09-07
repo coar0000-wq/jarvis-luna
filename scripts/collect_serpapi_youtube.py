@@ -40,7 +40,16 @@ OUT = DATA / "youtube_serpapi.json"
 LEDGER = DATA / "serpapi_usage.json"          # market 수집기와 공유
 ENDPOINT = "https://serpapi.com/search.json"
 
-YOUTUBE_CAP = 30          # 월 상한. market 200 과 합쳐 230, 무료 250 안쪽
+# 월 상한. market 200 과 합쳐 245 로 무료 250 안쪽이다.
+#
+# 30 에서 45 로 올렸다. 스케줄을 주 1회에서 주 2회로 바꿨는데 회당 5회를
+# 쓰므로 한 달 45회가 된다. 30 이면 달 중반에 막혀 나머지 회차는 헛돈다.
+#
+# 실측으로 계산했다. S등급이 5개인 지금 market 은 회당 13회(S 5 + 키워드 8),
+# 주 2회면 117회다. 여기에 youtube 45 를 더해 162회. S가 14개로 늘어도
+# market 198 + youtube 45 = 243 으로 250 안쪽이다.
+# 주 3회는 youtube 65회가 되어 초과한다. 그래서 주 2회로 정했다.
+YOUTUBE_CAP = 45
 TIMEOUT = 30
 DELAY = 2.0
 
@@ -85,7 +94,10 @@ def read_ledger() -> dict:
     # 용도별 사용량. 없으면 0 부터.
     d.setdefault("by_purpose", {})
     d["by_purpose"].setdefault("youtube", 0)
-    d.setdefault("youtube_cap", YOUTUBE_CAP)
+    # setdefault 가 아니라 대입이다. 원장 파일에 이미 30 이 적혀 있으면
+    # setdefault 는 코드에서 45 로 올려도 30 을 그대로 쓴다. 상한을 바꾼
+    # 이유가 코드에 적혀 있으니 코드가 기준이다.
+    d["youtube_cap"] = YOUTUBE_CAP
     return d
 
 

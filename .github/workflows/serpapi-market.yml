@@ -1,12 +1,22 @@
 name: SerpApi 미국 시장가·트렌드·YouTube 수집
 
-# 무료 플랜은 월 250회다. 매일 돌리면 하루 8회밖에 못 쓴다.
-# 상품 14 + 키워드 8 = 22회가 한 번에 들어가므로 주 1회만 돈다.
-# YouTube 검색 5회가 더해져 회당 27회. 월 4회면 108회로 250 안쪽이다.
+# 무료 플랜 월 250회를 용도별로 나눠 쓴다.
+#   market  상한 200 (S등급 상품 + 키워드 8)
+#   youtube 상한 45
+# 둘을 합쳐 245 로 250 안쪽이다.
+#
+# 실측: 09-05 실행 22회, 09-06 실행 13회. S등급 개수에 따라 달라진다.
+# 지금 S 가 5개라 회당 13회쯤 든다. 주 2회면 한 달 117회다.
+#
+# 주 1회에서 주 2회로 늘렸다. 깃허브가 스케줄을 부하에 따라 걸러내는데
+# Deep Analysis 는 30분 설정에 실측 132분이었다. 하루 48회짜리는 걸러져도
+# 몇 번은 돌지만 주 1회짜리는 한 번 걸러지면 그 주가 통째로 빈다.
+# 실제로 09-05 에 크론을 걸었는데 스케줄 실행이 한 번도 없었다.
+#
 # youtube.com/robots.txt 가 RSS 를 막아 SerpApi 로 우회한다.
 on:
   schedule:
-    - cron: "0 20 * * 1"      # 매주 화요일 05:00 KST
+    - cron: "0 20 * * 1,4"    # 매주 화·금요일 05:00 KST
   workflow_dispatch:
     inputs:
       only:
@@ -33,15 +43,37 @@ jobs:
         with:
           python-version: "3.11"
 
+      # 예전에는 "호출 없이 종료한다" 고 찍기만 하고 그대로 다음 단계로
+      # 넘어갔다. 말과 동작이 달랐다. 키가 없으면 실제로 멈춘다.
+      # 멈추기 전에 사유를 파일에 남겨서 대시보드가 이유를 알 수 있게 한다.
       - name: 시크릿 확인
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: |
-          if [ -z "$SERPAPI_KEY" ]; then
-            echo "SERPAPI_KEY 가 등록되어 있지 않다. 호출 없이 종료한다."
-          else
-            echo "SERPAPI_KEY 확인됨"
+          if [ -n "$SERPAPI_KEY" ]; then
+            echo "SERPAPI_KEY 확인됨 (길이 ${#SERPAPI_KEY})"
+            exit 0
           fi
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          p = Path("data/serpapi_market.json")
+          try:
+              d = json.loads(p.read_text(encoding="utf-8"))
+          except (OSError, json.JSONDecodeError):
+              d = {}
+          d["blocked"] = {
+              "at": datetime.now(timezone.utc).isoformat(),
+              "reason": "SERPAPI_KEY 가 저장소 Secrets 에 없다",
+              "fix": "Settings > Secrets and variables > Actions 에 SERPAPI_KEY 등록",
+          }
+          p.parent.mkdir(parents=True, exist_ok=True)
+          p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n",
+                       encoding="utf-8")
+          PY
+          echo "::error::SERPAPI_KEY 가 없다. 호출하지 않고 여기서 멈춘다."
+          exit 1
 
       - name: 수집
         env:

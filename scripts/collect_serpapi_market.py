@@ -54,7 +54,9 @@ def read_ledger() -> dict:
     d = load(LEDGER, None) or {}
     if d.get("month") != month_key():
         return {"month": month_key(), "used": 0, "cap": MONTHLY_CAP, "runs": []}
-    d.setdefault("cap", MONTHLY_CAP)
+    # 여기도 대입이다. 상한을 코드에서 바꿔도 원장에 적힌 옛 값이
+    # 이기면 바꾼 의미가 없다.
+    d["cap"] = MONTHLY_CAP
     d.setdefault("runs", [])
     return d
 
