@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-06T03:25:21.616918+00:00",
+  "generated_at": "2026-09-07T11:11:50.854294+00:00",
   "generator": "scripts/collect_serpapi_market.py",
   "plan": "SerpApi free 250 searches/month, 50/hour (2026-09-05 확인)",
   "정책": "월 상한 200 회. 넘으면 호출하지 않고 사유만 남긴다. 주 1회만 실행한다.",
   "usage": {
     "month": "2026-09",
-    "used": 35,
+    "used": 52,
     "cap": 200,
-    "spent_this_run": 13
+    "spent_this_run": 12
   },
   "prices": {
     "status": "ok",
@@ -20,9 +20,9 @@
         "name": "드롭비 탄탄 광채 앰플 40 ml",
         "query": "Drop B Firming Glow Ampoule 40ml",
         "n": 20,
-        "min_usd": 5.36,
-        "median_usd": 18.03,
-        "max_usd": 69.99,
+        "min_usd": 6.34,
+        "median_usd": 16.8,
+        "max_usd": 54.98,
         "engine": "google_shopping",
         "cached": false
       },
@@ -32,8 +32,8 @@
         "query": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
         "n": 20,
         "min_usd": 7.41,
-        "median_usd": 20.5,
-        "max_usd": 75.77,
+        "median_usd": 22.06,
+        "max_usd": 71.11,
         "engine": "google_shopping",
         "cached": false
       },
@@ -43,8 +43,8 @@
         "query": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml",
         "n": 18,
         "min_usd": 6.34,
-        "median_usd": 21.94,
-        "max_usd": 29.6,
+        "median_usd": 19.93,
+        "max_usd": 42.91,
         "engine": "google_shopping",
         "cached": false
       },
@@ -54,8 +54,8 @@
         "query": "VT Cica Calming Toner 300 ml",
         "n": 20,
         "min_usd": 5.99,
-        "median_usd": 19.8,
-        "max_usd": 86.98,
+        "median_usd": 19.3,
+        "max_usd": 54.18,
         "engine": "google_shopping",
         "cached": false
       },
@@ -65,7 +65,7 @@
         "query": "Celderma Daily Transforming Firming Collagen Mask 28g",
         "n": 20,
         "min_usd": 2.99,
-        "median_usd": 13.0,
+        "median_usd": 16.49,
         "max_usd": 39.0,
         "engine": "google_shopping",
         "cached": false
@@ -75,25 +75,14 @@
   "trends": {
     "status": "ok",
     "reason": "",
-    "count": 8,
+    "count": 7,
     "failures": [],
     "items": [
       {
-        "seed": "korean face cream",
-        "points": 54,
-        "avg_recent_8w": 20.5,
-        "avg_base_8w": 16.9,
-        "peak": 100,
-        "engine": "google_trends",
-        "geo": "US",
-        "window": "today 12-m",
-        "cached": false
-      },
-      {
         "seed": "collagen",
-        "points": 54,
-        "avg_recent_8w": 35.5,
-        "avg_base_8w": 29.5,
+        "points": 53,
+        "avg_recent_8w": 37.0,
+        "avg_base_8w": 30.0,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -102,9 +91,9 @@
       },
       {
         "seed": "korean toner",
-        "points": 54,
+        "points": 53,
         "avg_recent_8w": 21.0,
-        "avg_base_8w": 24.0,
+        "avg_base_8w": 23.9,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -113,9 +102,20 @@
       },
       {
         "seed": "korean ampoule",
-        "points": 54,
-        "avg_recent_8w": 18.0,
-        "avg_base_8w": 15.2,
+        "points": 53,
+        "avg_recent_8w": 19.4,
+        "avg_base_8w": 12.5,
+        "peak": 100,
+        "engine": "google_trends",
+        "geo": "US",
+        "window": "today 12-m",
+        "cached": false
+      },
+      {
+        "seed": "korean face cream",
+        "points": 53,
+        "avg_recent_8w": 19.8,
+        "avg_base_8w": 15.5,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -124,20 +124,9 @@
       },
       {
         "seed": "pdrn",
-        "points": 54,
-        "avg_recent_8w": 36.6,
-        "avg_base_8w": 9.6,
-        "peak": 100,
-        "engine": "google_trends",
-        "geo": "US",
-        "window": "today 12-m",
-        "cached": false
-      },
-      {
-        "seed": "korean sheet mask",
-        "points": 54,
-        "avg_recent_8w": 8.2,
-        "avg_base_8w": 13.8,
+        "points": 53,
+        "avg_recent_8w": 36.0,
+        "avg_base_8w": 9.9,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -146,8 +135,8 @@
       },
       {
         "seed": "heartleaf",
-        "points": 54,
-        "avg_recent_8w": 13.9,
+        "points": 53,
+        "avg_recent_8w": 13.4,
         "avg_base_8w": 10.1,
         "peak": 100,
         "engine": "google_trends",
@@ -156,10 +145,10 @@
         "cached": false
       },
       {
-        "seed": "korean sunscreen",
-        "points": 54,
-        "avg_recent_8w": 40.6,
-        "avg_base_8w": 26.0,
+        "seed": "korean sheet mask",
+        "points": 53,
+        "avg_recent_8w": 7.4,
+        "avg_base_8w": 8.4,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",

@@ -1,6 +1,6 @@
 {
   "month": "2026-09",
-  "used": 40,
+  "used": 57,
   "cap": 200,
   "runs": [
     {
@@ -15,10 +15,19 @@
       "at": "2026-09-06T03:26:57.014837+00:00",
       "purpose": "youtube",
       "spent": 5
+    },
+    {
+      "at": "2026-09-07T11:11:50.854294+00:00",
+      "spent": 12
+    },
+    {
+      "at": "2026-09-07T11:13:23.591964+00:00",
+      "purpose": "youtube",
+      "spent": 5
     }
   ],
   "by_purpose": {
-    "youtube": 5
+    "youtube": 10
   },
-  "youtube_cap": 30
+  "youtube_cap": 45
 }
