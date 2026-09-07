@@ -2,7 +2,7 @@
 title: "Record 008 · MediChoice-Moisturizing-Lip-Balm-SPF15"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.606802+00:00
+updated_at: 2026-09-07T00:39:25.527395+00:00
 tags: [record, real-data]
 ---
 

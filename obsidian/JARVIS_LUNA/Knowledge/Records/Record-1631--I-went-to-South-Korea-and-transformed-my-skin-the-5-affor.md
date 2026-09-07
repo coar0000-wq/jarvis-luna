@@ -2,7 +2,7 @@
 title: "Record 1631 · I-went-to-South-Korea-and-transformed-my-skin-the-5-affordable-product"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.937152+00:00
+updated_at: 2026-09-07T00:39:25.933000+00:00
 tags: [record, real-data]
 ---
 

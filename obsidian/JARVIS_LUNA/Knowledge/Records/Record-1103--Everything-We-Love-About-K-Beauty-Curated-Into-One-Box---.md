@@ -2,7 +2,7 @@
 title: "Record 1103 · Everything-We-Love-About-K-Beauty-Curated-Into-One-Box---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.842429+00:00
+updated_at: 2026-09-07T00:39:25.807314+00:00
 tags: [record, real-data]
 ---
 

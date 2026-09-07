@@ -2,7 +2,7 @@
 title: "Record 1199 · Keauti-brings-K-beauty-to-Queen-City---Springfield-Business-Journal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.860765+00:00
+updated_at: 2026-09-07T00:39:25.829657+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** Keauti brings K-beauty to Queen City - Springfield Business Journal
 
 Keauti brings K-beauty to Queen City - Springfield Business Journal
+Keauti brings K-beauty to Queen City - Springfield Business Journal
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[경영전략]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[경영전략]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

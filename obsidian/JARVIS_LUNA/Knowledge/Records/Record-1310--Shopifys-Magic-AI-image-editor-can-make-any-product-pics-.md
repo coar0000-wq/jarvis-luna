@@ -2,7 +2,7 @@
 title: "Record 1310 · Shopifys-Magic-AI-image-editor-can-make-any-product-pics-look-professi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.880272+00:00
+updated_at: 2026-09-07T00:39:25.855377+00:00
 tags: [record, real-data]
 ---
 

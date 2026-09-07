@@ -2,7 +2,7 @@
 title: "Record 709 · Measuring-Genuine-Conceptual-Novelty-in-Frontier-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.760873+00:00
+updated_at: 2026-09-07T00:39:25.712177+00:00
 tags: [record, real-data]
 ---
 

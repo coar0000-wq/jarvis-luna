@@ -2,7 +2,7 @@
 title: "Record 323 · Engineered-interfaces-in-electronic-materials-for-energy-efficient-com"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.678462+00:00
+updated_at: 2026-09-07T00:39:25.615865+00:00
 tags: [record, real-data]
 ---
 

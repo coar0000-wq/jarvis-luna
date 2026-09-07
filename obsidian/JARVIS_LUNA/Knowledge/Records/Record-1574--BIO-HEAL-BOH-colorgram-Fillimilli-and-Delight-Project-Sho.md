@@ -2,7 +2,7 @@
 title: "Record 1574 · BIO-HEAL-BOH-colorgram-Fillimilli-and-Delight-Project-Showcase-K-Beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.927164+00:00
+updated_at: 2026-09-07T00:39:25.918062+00:00
 tags: [record, real-data]
 ---
 

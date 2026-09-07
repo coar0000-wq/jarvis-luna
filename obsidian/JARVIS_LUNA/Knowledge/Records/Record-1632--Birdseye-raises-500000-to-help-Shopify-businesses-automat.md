@@ -2,7 +2,7 @@
 title: "Record 1632 · Birdseye-raises-500000-to-help-Shopify-businesses-automate-marketing-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.937339+00:00
+updated_at: 2026-09-07T00:39:25.933256+00:00
 tags: [record, real-data]
 ---
 

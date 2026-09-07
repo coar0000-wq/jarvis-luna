@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-06T22:40:42.090298+00:00",
+  "collected_at": "2026-09-07T00:38:19.367663+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -864,19 +864,6 @@
       "url": "https://world.openbeautyfacts.org/product/8717163607268"
     },
     {
-      "code": "3574661701028",
-      "product_name": "crème lavante main lait",
-      "brands": "le Petit Marseillais",
-      "category": "바디케어",
-      "obf_category": "soaps",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "",
-      "image_url": "https://images.openbeautyfacts.org/images/products/357/466/170/1028/front_fr.7.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3574661701028"
-    },
-    {
       "code": "8714789700045",
       "product_name": "Palmolive Naturals zeeptablet original",
       "brands": "Palmolive",
@@ -889,6 +876,19 @@
       "ingredients_text": "Sodium Palmate, Sodium Oleate, Aqua, Glycerin, Kaolin, Sodium Laurate, Sodium Chloride, Parfum, Sodium Adipe Lac, Olea Europaea Fruit Oil, Aloe Barbadensis Leaf Juice Powder, Citrus Aurantium Dulcis Peel Powder, Prunus Amygdalus Dulcis Oil, Alpha-Isomethyl Ionone, Benzyl Salicylate, Citronellol, Coumarin, Limonene, Linalool, CI 77891",
       "image_url": "https://images.openbeautyfacts.org/images/products/871/478/970/0045/front_fr.6.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/8714789700045"
+    },
+    {
+      "code": "3574661701028",
+      "product_name": "crème lavante main lait",
+      "brands": "le Petit Marseillais",
+      "category": "바디케어",
+      "obf_category": "soaps",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "",
+      "image_url": "https://images.openbeautyfacts.org/images/products/357/466/170/1028/front_fr.7.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3574661701028"
     },
     {
       "code": "8003520012944",

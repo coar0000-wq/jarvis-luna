@@ -2,7 +2,7 @@
 title: "Record 589 · Augmenting-interferon-β-and-anti-PD-L1-antibody-bolsters-non-ablative-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.735550+00:00
+updated_at: 2026-09-07T00:39:25.683463+00:00
 tags: [record, real-data]
 ---
 

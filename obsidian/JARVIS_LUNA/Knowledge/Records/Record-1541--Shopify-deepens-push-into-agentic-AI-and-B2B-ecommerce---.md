@@ -2,7 +2,7 @@
 title: "Record 1541 · Shopify-deepens-push-into-agentic-AI-and-B2B-ecommerce---Digital-Comme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.921163+00:00
+updated_at: 2026-09-07T00:39:25.909453+00:00
 tags: [record, real-data]
 ---
 

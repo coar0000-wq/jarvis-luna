@@ -2,7 +2,7 @@
 title: "Record 485 · High-beta-activity-tracks-disease-state-in-persistent-postural-percept"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.712987+00:00
+updated_at: 2026-09-07T00:39:25.658150+00:00
 tags: [record, real-data]
 ---
 

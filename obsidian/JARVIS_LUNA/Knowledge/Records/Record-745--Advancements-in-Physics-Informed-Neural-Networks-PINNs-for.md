@@ -2,7 +2,7 @@
 title: "Record 745 · Advancements-in-Physics-Informed-Neural-Networks-PINNs-for-Real-Time-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.768227+00:00
+updated_at: 2026-09-07T00:39:25.721473+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 435 · Redesigning-Objective-Questions-for-Efficient-and-Fair-Assessment-in-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.702484+00:00
+updated_at: 2026-09-07T00:39:25.646161+00:00
 tags: [record, real-data]
 ---
 

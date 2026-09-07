@@ -2,7 +2,7 @@
 title: "Record 854 · AMD-Cisco-and-HUMAIN-Expand-Saudi-Arabias-AI-Infrastructure-as-AMD-Ins"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.793233+00:00
+updated_at: 2026-09-07T00:39:25.749716+00:00
 tags: [record, real-data]
 ---
 

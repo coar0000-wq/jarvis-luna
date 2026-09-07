@@ -2,7 +2,7 @@
 title: "Record 1656 · Olive-Young-Opens-In-Los-Angeles-With-New-K-Beauty-Stores---Forbes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.941749+00:00
+updated_at: 2026-09-07T00:39:25.939621+00:00
 tags: [record, real-data]
 ---
 

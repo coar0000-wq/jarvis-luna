@@ -2,7 +2,7 @@
 title: "Record 1430 · We-asked-Gen-Z-whats-actually-cool-in-the-beauty-world--and-youll-be-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.901654+00:00
+updated_at: 2026-09-07T00:39:25.883564+00:00
 tags: [record, real-data]
 ---
 

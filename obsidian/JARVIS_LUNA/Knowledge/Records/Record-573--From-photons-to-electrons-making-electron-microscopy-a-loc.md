@@ -2,7 +2,7 @@
 title: "Record 573 · From-photons-to-electrons-making-electron-microscopy-a-local-discovery"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.731925+00:00
+updated_at: 2026-09-07T00:39:25.679407+00:00
 tags: [record, real-data]
 ---
 

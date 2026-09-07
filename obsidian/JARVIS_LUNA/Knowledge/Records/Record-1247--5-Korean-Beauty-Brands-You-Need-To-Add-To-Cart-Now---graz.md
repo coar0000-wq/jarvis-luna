@@ -2,7 +2,7 @@
 title: "Record 1247 · 5-Korean-Beauty-Brands-You-Need-To-Add-To-Cart-Now---graziamagazinecom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.869261+00:00
+updated_at: 2026-09-07T00:39:25.840814+00:00
 tags: [record, real-data]
 ---
 

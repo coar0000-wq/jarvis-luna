@@ -2,7 +2,7 @@
 title: "Record 1600 · TIKTOK-SHOP-BRINGS-VIRAL-BEAUTY-TRENDS-TO-LIFE-AT-WESTFIELD-STRATFORD-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.931673+00:00
+updated_at: 2026-09-07T00:39:25.924835+00:00
 tags: [record, real-data]
 ---
 

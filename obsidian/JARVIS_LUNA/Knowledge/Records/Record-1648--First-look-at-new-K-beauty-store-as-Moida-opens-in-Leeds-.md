@@ -2,7 +2,7 @@
 title: "Record 1648 · First-look-at-new-K-beauty-store-as-Moida-opens-in-Leeds---Yorkshire-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.940299+00:00
+updated_at: 2026-09-07T00:39:25.937477+00:00
 tags: [record, real-data]
 ---
 

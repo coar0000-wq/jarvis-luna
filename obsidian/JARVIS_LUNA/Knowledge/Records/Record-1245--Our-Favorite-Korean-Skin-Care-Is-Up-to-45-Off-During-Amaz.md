@@ -2,7 +2,7 @@
 title: "Record 1245 · Our-Favorite-Korean-Skin-Care-Is-Up-to-45-Off-During-Amazons-Big-Sprin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.868925+00:00
+updated_at: 2026-09-07T00:39:25.840353+00:00
 tags: [record, real-data]
 ---
 

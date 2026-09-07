@@ -2,7 +2,7 @@
 title: "Record 1720 · Meet-the-Generation17-Young-Leaders-The-Story-of-Soumya-Dabriwal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.954167+00:00
+updated_at: 2026-09-07T00:39:25.957123+00:00
 tags: [record, real-data]
 ---
 

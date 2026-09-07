@@ -2,7 +2,7 @@
 title: "Record 1676 · As-a-K-Beauty-Fan-of-10-Plus-Years-Heres-What-to-Buy-on-Sale-During-Pr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.945461+00:00
+updated_at: 2026-09-07T00:39:25.944921+00:00
 tags: [record, real-data]
 ---
 

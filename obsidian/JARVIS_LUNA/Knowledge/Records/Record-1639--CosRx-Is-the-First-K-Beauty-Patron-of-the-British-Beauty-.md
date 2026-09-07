@@ -2,7 +2,7 @@
 title: "Record 1639 · CosRx-Is-the-First-K-Beauty-Patron-of-the-British-Beauty-Council---Bea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.938671+00:00
+updated_at: 2026-09-07T00:39:25.935143+00:00
 tags: [record, real-data]
 ---
 

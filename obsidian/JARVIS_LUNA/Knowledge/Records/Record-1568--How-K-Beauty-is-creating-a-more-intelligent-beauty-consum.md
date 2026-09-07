@@ -2,7 +2,7 @@
 title: "Record 1568 · How-K-Beauty-is-creating-a-more-intelligent-beauty-consumer---Indianwe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.926071+00:00
+updated_at: 2026-09-07T00:39:25.916453+00:00
 tags: [record, real-data]
 ---
 

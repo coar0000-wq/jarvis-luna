@@ -2,7 +2,7 @@
 title: "Record 1672 · The-Transformation-of-Ecommerce-Shopifys-SHOP-AI-Powered-Strategy-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.944717+00:00
+updated_at: 2026-09-07T00:39:25.943839+00:00
 tags: [record, real-data]
 ---
 

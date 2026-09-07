@@ -1,12 +1,11 @@
 {
-  "collected_at": "2026-09-06T22:39:50.173014+00:00",
-  "total": 1061,
+  "collected_at": "2026-09-07T00:37:27.119408+00:00",
+  "total": 1041,
   "organizations": 35,
   "by_org": {
     "OpenAI": 50,
     "Google DeepMind": 50,
     "Samsung Electronics": 50,
-    "ASML": 45,
     "Barclays": 45,
     "Goldman Sachs": 45,
     "JPMorgan Chase": 45,
@@ -29,6 +28,7 @@
     "Arm Holdings": 25,
     "Marvell Technology": 25,
     "TSMC": 25,
+    "ASML": 25,
     "Microsoft": 25,
     "CACI International": 25,
     "Splunk": 25,
@@ -41,12 +41,12 @@
   },
   "by_category": {
     "AI연구소": 183,
-    "반도체": 325,
+    "반도체": 305,
     "데이터분석": 273,
     "투자은행": 280
   },
   "by_kind": {
-    "발표물": 350,
+    "발표물": 330,
     "논문": 711
   },
   "sources": {
@@ -54,19 +54,25 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-06T22:38:55.881109+00:00"
+      "collected_at": "2026-09-07T00:36:19.793329+00:00"
     },
     "sitemap": {
       "status": "ok",
-      "count": 140,
-      "failures": [],
-      "collected_at": "2026-09-06T22:39:30.636756+00:00"
+      "count": 120,
+      "failures": [
+        {
+          "org": "ASML",
+          "url": "https://www.asml.com/sitemap.xml",
+          "reason": "URLError: <urlopen error timed out>"
+        }
+      ],
+      "collected_at": "2026-09-07T00:37:06.443940+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-06T22:39:50.172067+00:00"
+      "collected_at": "2026-09-07T00:37:27.118306+00:00"
     }
   },
   "not_collected": {
@@ -1450,6 +1456,19 @@
       "title_source": "feed"
     },
     {
+      "title": "Samsung Enhances Long-Term Value of Refrigerators and Laundry Appliances With AI-Focused Software Updates",
+      "url": "https://news.samsung.com/global/samsung-enhances-long-term-value-of-refrigerators-and-laundry-appliances-with-ai-focused-software-updates",
+      "date": "2026-09-07",
+      "date_raw": "Mon, 07 Sep 2026 08:00:00 +0000",
+      "summary": "Samsung Electronics today announced major software updates for select refrigerators and laundry appliances. Beginning in September, the update to Tizen OS 10.0 will bring key services and features to select existing appliances in line with those offered on models launched this year. “Home appliances are products that consumers rely on for many years. We believe […]",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://news.samsung.com/global/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "Samsung Wins Multiple Honors at IFA Innovation Awards 2026",
       "url": "https://news.samsung.com/global/samsung-wins-multiple-honors-at-ifa-innovation-awards-2026",
       "date": "2026-09-04",
@@ -1754,19 +1773,6 @@
       "date": "2026-08-20",
       "date_raw": "Thu, 20 Aug 2026 08:00:00 +0000",
       "summary": "Samsung Electronics today announced its new Over-the-Range Microwave in the U.S. and Canada beginning September 2026. The new model introduces DualVent technology, a ventilation system with air intakes at both the bottom and front of the microwave. Additional features include Auto Connectivity and a fingerprint resistant finish that helps maintain the microwave’s clean appearance. “Consumers […]",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://news.samsung.com/global/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "[Video] Samsung AI Assistant Helps Teachers Create More Engaging and Accessible Lessons",
-      "url": "https://news.samsung.com/global/video-samsung-ai-assistant-helps-teachers-create-more-engaging-and-accessible-lessons",
-      "date": "2026-08-19",
-      "date_raw": "Wed, 19 Aug 2026 11:00:00 +0000",
-      "summary": "Helping every student stay engaged and supported throughout a lesson requires teachers to balance instruction, interaction, and individual learning needs. Managing these different needs while maintaining lesson flow can add to a teacher’s workload. Samsung AI Assistant is a built-in app for compatible Android-based Samsung Interactive Displays that helps teachers support every stage of a […]",
       "org": "Samsung Electronics",
       "category": "반도체",
       "kind": "발표물",
@@ -3333,266 +3339,6 @@
       "kind": "발표물",
       "source": "sitemap",
       "feed": "https://x.ai/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/news-subscription",
-      "date": "2026-09-04",
-      "date_raw": "2026-09-04",
-      "title_source": "page",
-      "title": "Sign up for ASML news alerts",
-      "summary": "Receive an email when ASML publishes a new press release, announcement, story, or share buyback update.",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-31",
-      "date": "2026-09-03",
-      "date_raw": "2026-09-03",
-      "title_source": "page",
-      "title": "ASML reports transactions under its current share buyback program",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-29",
-      "date": "2026-08-31",
-      "date_raw": "2026-08-31",
-      "title_source": "page",
-      "title": "ASML reports transactions under its current share buyback program",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-30",
-      "date": "2026-08-31",
-      "date_raw": "2026-08-31",
-      "title_source": "page",
-      "title": "ASML reports transactions under its current share buyback program",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-28",
-      "date": "2026-08-17",
-      "date_raw": "2026-08-17",
-      "title_source": "page",
-      "title": "ASML reports transactions under its current share buyback program",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-27",
-      "date": "2026-08-10",
-      "date_raw": "2026-08-10",
-      "title_source": "page",
-      "title": "ASML reports transactions under its current share buyback program",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-1",
-      "date": "2026-08-03",
-      "date_raw": "2026-08-03",
-      "title_source": "page",
-      "title": "ASML reports transactions under its current share buyback program",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-26",
-      "date": "2026-08-03",
-      "date_raw": "2026-08-03",
-      "title_source": "page",
-      "title": "ASML reports transactions under its current share buyback program",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-25",
-      "date": "2026-07-27",
-      "date_raw": "2026-07-27",
-      "title_source": "page",
-      "title": "ASML reports transactions under its current share buyback program | ASML",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results",
-      "date": "2026-07-15",
-      "date_raw": "2026-07-15",
-      "title_source": "page",
-      "title": "ASML reports €9.3 billion total net sales and €2.9 billion net income in Q2 2026",
-      "summary": "ASML increases outlook, expects 2026 total net sales to be between €43 billion and €45 billion, with a gross margin between 54% and 56%",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone",
-      "date": "2026-07-15",
-      "date_raw": "2026-07-15",
-      "title_source": "url-slug",
-      "title": "High Na Euv Reaches New Readiness Milestone",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/press-releases",
-      "date": "2026-07-14",
-      "date_raw": "2026-07-14",
-      "title_source": "url-slug",
-      "title": "Press Releases",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-24",
-      "date": "2026-07-14",
-      "date_raw": "2026-07-14",
-      "title_source": "url-slug",
-      "title": "Asml Reports Transactions Under Its Current Share Buyback Program 24",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-23",
-      "date": "2026-07-09",
-      "date_raw": "2026-07-09",
-      "title_source": "url-slug",
-      "title": "Asml Reports Transactions Under Its Current Share Buyback Program 23",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/press-releases/2026/q1-2026-financial-results",
-      "date": "2026-07-03",
-      "date_raw": "2026-07-03",
-      "title_source": "url-slug",
-      "title": "Q1 2026 Financial Results",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/press-releases/2026/q4-2025-financial-results",
-      "date": "2026-07-03",
-      "date_raw": "2026-07-03",
-      "title_source": "url-slug",
-      "title": "Q4 2025 Financial Results",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/press-releases/2025/q3-2025-financial-results",
-      "date": "2026-07-03",
-      "date_raw": "2026-07-03",
-      "title_source": "url-slug",
-      "title": "Q3 2025 Financial Results",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/press-releases/2025/q2-2025-financial-results",
-      "date": "2026-07-03",
-      "date_raw": "2026-07-03",
-      "title_source": "url-slug",
-      "title": "Q2 2025 Financial Results",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/press-releases/2025/q1-2025-financial-results",
-      "date": "2026-07-03",
-      "date_raw": "2026-07-03",
-      "title_source": "url-slug",
-      "title": "Q1 2025 Financial Results",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.asml.com/en/news/press-releases/2025/q4-2024-financial-results",
-      "date": "2026-07-03",
-      "date_raw": "2026-07-03",
-      "title_source": "url-slug",
-      "title": "Q4 2024 Financial Results",
-      "summary": "",
-      "org": "ASML",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.asml.com/sitemap.xml"
     },
     {
       "url": "https://home.barclays/news/press-releases/20260/090/barclays-private-bank-launches-singapore--booking-centre-to-serv/",

@@ -2,7 +2,7 @@
 title: "Record 729 · Ferramentas-Alteryx-Designer-Dataiku-DSS-e-SPAD-data-mining-um-estudo-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.764836+00:00
+updated_at: 2026-09-07T00:39:25.717069+00:00
 tags: [record, real-data]
 ---
 

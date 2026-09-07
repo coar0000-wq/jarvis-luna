@@ -2,7 +2,7 @@
 title: "Record 1485 · TikTok-no-makeup-movement-trend-rises-in-popularity---News-Channel-6--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.911154+00:00
+updated_at: 2026-09-07T00:39:25.896254+00:00
 tags: [record, real-data]
 ---
 

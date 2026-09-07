@@ -2,7 +2,7 @@
 title: "Record 566 · University-students-AI-attitudes-an-experiential-transformation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.730424+00:00
+updated_at: 2026-09-07T00:39:25.677698+00:00
 tags: [record, real-data]
 ---
 

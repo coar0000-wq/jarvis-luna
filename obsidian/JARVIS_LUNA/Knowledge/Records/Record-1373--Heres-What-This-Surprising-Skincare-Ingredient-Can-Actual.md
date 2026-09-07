@@ -2,7 +2,7 @@
 title: "Record 1373 · Heres-What-This-Surprising-Skincare-Ingredient-Can-Actually-Do-For-Agi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.891520+00:00
+updated_at: 2026-09-07T00:39:25.870188+00:00
 tags: [record, real-data]
 ---
 

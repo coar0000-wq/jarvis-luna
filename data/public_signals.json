@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T23:00:46.324378+00:00",
+  "generated_at": "2026-09-07T01:02:03.226341+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "puka nacua",
+          "keyword": "labor day",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Sun, 6 Sep 2026 15:40:00 -0700",
-          "source_name": "Bleacher Report",
-          "url": "https://trends.google.com/trending?geo=US&q=puka%20nacua"
+          "published": "Sun, 6 Sep 2026 17:40:00 -0700",
+          "source_name": "WMUR",
+          "url": "https://trends.google.com/trending?geo=US&q=labor%20day"
         },
         {
-          "keyword": "cruz azul - santos",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Sun, 6 Sep 2026 15:20:00 -0700",
-          "source_name": "Fubo",
-          "url": "https://trends.google.com/trending?geo=US&q=cruz%20azul%20-%20santos"
-        },
-        {
-          "keyword": "burning man news",
+          "keyword": "oba femi",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Sun, 6 Sep 2026 15:30:00 -0700",
-          "source_name": "Burning Man Journal",
-          "url": "https://trends.google.com/trending?geo=US&q=burning%20man%20news"
+          "published": "Sun, 6 Sep 2026 17:40:00 -0700",
+          "source_name": "WWE",
+          "url": "https://trends.google.com/trending?geo=US&q=oba%20femi"
         },
         {
-          "keyword": "michael j fox",
+          "keyword": "emma navarro",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sun, 6 Sep 2026 17:30:00 -0700",
+          "source_name": "RIKKYO PORTAL",
+          "url": "https://trends.google.com/trending?geo=US&q=emma%20navarro"
+        },
+        {
+          "keyword": "nascar race",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sun, 6 Sep 2026 17:30:00 -0700",
+          "source_name": "NASCAR.com",
+          "url": "https://trends.google.com/trending?geo=US&q=nascar%20race"
+        },
+        {
+          "keyword": "trick williams",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sun, 6 Sep 2026 17:20:00 -0700",
+          "source_name": "WWE",
+          "url": "https://trends.google.com/trending?geo=US&q=trick%20williams"
+        },
+        {
+          "keyword": "elizabeth holmes",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Sun, 6 Sep 2026 15:30:00 -0700",
-          "source_name": "Town & Country Magazine",
-          "url": "https://trends.google.com/trending?geo=US&q=michael%20j%20fox"
+          "published": "Sun, 6 Sep 2026 17:40:00 -0700",
+          "source_name": "Deadline",
+          "url": "https://trends.google.com/trending?geo=US&q=elizabeth%20holmes"
         },
         {
-          "keyword": "pegula",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 15:40:00 -0700",
-          "source_name": "Last Word On Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=pegula"
+          "keyword": "chicago white sox",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sun, 6 Sep 2026 17:40:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=chicago%20white%20sox"
         },
         {
-          "keyword": "agi",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 15:40:00 -0700",
-          "source_name": "The Economist",
-          "url": "https://trends.google.com/trending?geo=US&q=agi"
+          "keyword": "spider-noir",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sun, 6 Sep 2026 17:10:00 -0700",
+          "source_name": "Entertainment Weekly",
+          "url": "https://trends.google.com/trending?geo=US&q=spider-noir"
         },
         {
-          "keyword": "sorana cîrstea",
+          "keyword": "kristen bell",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 15:40:00 -0700",
-          "source_name": "GSP",
-          "url": "https://trends.google.com/trending?geo=US&q=sorana%20c%C3%AErstea"
+          "published": "Sun, 6 Sep 2026 17:40:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=kristen%20bell"
         },
         {
-          "keyword": "miss america 2027",
+          "keyword": "jordan faison",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 15:30:00 -0700",
-          "source_name": "AL.com",
-          "url": "https://trends.google.com/trending?geo=US&q=miss%20america%202027"
-        },
-        {
-          "keyword": "erin andrews",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 15:30:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=erin%20andrews"
-        },
-        {
-          "keyword": "corinthians vs chapecoense",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 15:20:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=corinthians%20vs%20chapecoense"
+          "published": "Sun, 6 Sep 2026 17:10:00 -0700",
+          "source_name": "On3",
+          "url": "https://trends.google.com/trending?geo=US&q=jordan%20faison"
         }
       ]
     },
@@ -96,88 +96,88 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-06 ~ 2026-09-04 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-07 ~ 2026-09-05 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
           "topic": "Niacinamide",
           "days": 30,
-          "total_views": 1354,
-          "avg_daily": 45,
+          "total_views": 1374,
+          "avg_daily": 46,
           "recent_avg": 52,
-          "prev_avg": 38,
-          "change_pct": 38.8,
+          "prev_avg": 39,
+          "change_pct": 34.1,
           "url": "https://en.wikipedia.org/wiki/Niacinamide"
         },
         {
           "topic": "Snail slime",
           "days": 30,
-          "total_views": 2164,
+          "total_views": 2147,
           "avg_daily": 72,
           "recent_avg": 79,
-          "prev_avg": 65,
-          "change_pct": 22.4,
+          "prev_avg": 64,
+          "change_pct": 22.0,
           "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "Centella asiatica",
           "days": 30,
-          "total_views": 14401,
-          "avg_daily": 480,
-          "recent_avg": 503,
-          "prev_avg": 458,
-          "change_pct": 9.8,
+          "total_views": 14375,
+          "avg_daily": 479,
+          "recent_avg": 504,
+          "prev_avg": 455,
+          "change_pct": 10.7,
           "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
         },
         {
           "topic": "Retinol",
           "days": 30,
-          "total_views": 11578,
-          "avg_daily": 386,
+          "total_views": 11536,
+          "avg_daily": 385,
           "recent_avg": 384,
-          "prev_avg": 388,
-          "change_pct": -0.9,
+          "prev_avg": 385,
+          "change_pct": -0.3,
           "url": "https://en.wikipedia.org/wiki/Retinol"
         },
         {
           "topic": "Hyaluronic acid",
           "days": 30,
-          "total_views": 16989,
-          "avg_daily": 566,
-          "recent_avg": 560,
-          "prev_avg": 572,
-          "change_pct": -2.0,
+          "total_views": 17039,
+          "avg_daily": 568,
+          "recent_avg": 567,
+          "prev_avg": 569,
+          "change_pct": -0.4,
           "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 4303,
-          "avg_daily": 143,
-          "recent_avg": 136,
-          "prev_avg": 151,
-          "change_pct": -9.9,
+          "total_views": 4195,
+          "avg_daily": 140,
+          "recent_avg": 135,
+          "prev_avg": 144,
+          "change_pct": -6.4,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
-        },
-        {
-          "topic": "Cosmetics",
-          "days": 30,
-          "total_views": 24727,
-          "avg_daily": 824,
-          "recent_avg": 695,
-          "prev_avg": 954,
-          "change_pct": -27.2,
-          "url": "https://en.wikipedia.org/wiki/Cosmetics"
         },
         {
           "topic": "Sunscreen",
           "days": 30,
-          "total_views": 18800,
-          "avg_daily": 627,
-          "recent_avg": 526,
-          "prev_avg": 727,
-          "change_pct": -27.6,
+          "total_views": 18519,
+          "avg_daily": 617,
+          "recent_avg": 523,
+          "prev_avg": 712,
+          "change_pct": -26.5,
           "url": "https://en.wikipedia.org/wiki/Sunscreen"
+        },
+        {
+          "topic": "Cosmetics",
+          "days": 30,
+          "total_views": 24496,
+          "avg_daily": 817,
+          "recent_avg": 689,
+          "prev_avg": 944,
+          "change_pct": -27.0,
+          "url": "https://en.wikipedia.org/wiki/Cosmetics"
         }
       ]
     },

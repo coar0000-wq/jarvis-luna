@@ -2,7 +2,7 @@
 title: "Record 1034 · Wix-vs-Shopify-I-tested-both-and-heres-my-winner-2026---Cybernews"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.829233+00:00
+updated_at: 2026-09-07T00:39:25.791653+00:00
 tags: [record, real-data]
 ---
 

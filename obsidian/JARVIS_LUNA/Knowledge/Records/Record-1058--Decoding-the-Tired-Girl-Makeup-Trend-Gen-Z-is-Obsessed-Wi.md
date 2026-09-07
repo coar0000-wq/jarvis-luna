@@ -2,7 +2,7 @@
 title: "Record 1058 · Decoding-the-Tired-Girl-Makeup-Trend-Gen-Z-is-Obsessed-With---Vogue-Ar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.833906+00:00
+updated_at: 2026-09-07T00:39:25.797219+00:00
 tags: [record, real-data]
 ---
 

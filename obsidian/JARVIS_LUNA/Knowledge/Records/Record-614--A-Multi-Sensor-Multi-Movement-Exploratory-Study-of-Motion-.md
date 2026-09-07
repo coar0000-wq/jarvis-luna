@@ -2,7 +2,7 @@
 title: "Record 614 · A-Multi-Sensor-Multi-Movement-Exploratory-Study-of-Motion-Tape-Strain-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.741062+00:00
+updated_at: 2026-09-07T00:39:25.689588+00:00
 tags: [record, real-data]
 ---
 

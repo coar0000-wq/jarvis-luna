@@ -2,7 +2,7 @@
 title: "Record 1644 · Native-AI-Search-Is-Only-Half-the-Battle-for-E-Commerce-Brands---E-Com"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.939595+00:00
+updated_at: 2026-09-07T00:39:25.936450+00:00
 tags: [record, real-data]
 ---
 

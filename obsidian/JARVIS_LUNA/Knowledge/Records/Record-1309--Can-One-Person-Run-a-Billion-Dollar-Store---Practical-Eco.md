@@ -2,7 +2,7 @@
 title: "Record 1309 · Can-One-Person-Run-a-Billion-Dollar-Store---Practical-Ecommerce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.880071+00:00
+updated_at: 2026-09-07T00:39:25.855135+00:00
 tags: [record, real-data]
 ---
 

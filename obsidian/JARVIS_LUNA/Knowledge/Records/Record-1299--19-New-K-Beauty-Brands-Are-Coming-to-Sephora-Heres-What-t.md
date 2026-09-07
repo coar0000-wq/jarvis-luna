@@ -2,7 +2,7 @@
 title: "Record 1299 · 19-New-K-Beauty-Brands-Are-Coming-to-Sephora-Heres-What-to-Buy---New-Y"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.878374+00:00
+updated_at: 2026-09-07T00:39:25.852823+00:00
 tags: [record, real-data]
 ---
 

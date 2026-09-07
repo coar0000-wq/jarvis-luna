@@ -2,7 +2,7 @@
 title: "Record 1192 · Korean-retail-giant-to-open-second-Calif-store-after-blockbuster-launc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.859553+00:00
+updated_at: 2026-09-07T00:39:25.828043+00:00
 tags: [record, real-data]
 ---
 

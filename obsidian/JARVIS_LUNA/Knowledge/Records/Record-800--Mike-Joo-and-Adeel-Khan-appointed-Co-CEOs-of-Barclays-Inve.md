@@ -2,7 +2,7 @@
 title: "Record 800 · Mike-Joo-and-Adeel-Khan-appointed-Co-CEOs-of-Barclays-Investment-Bank-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.779853+00:00
+updated_at: 2026-09-07T00:39:25.735216+00:00
 tags: [record, real-data]
 ---
 

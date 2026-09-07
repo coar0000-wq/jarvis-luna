@@ -2,7 +2,7 @@
 title: "Record 1030 · A-Look-Back-on-the-Biggest-K-Beauty-Trends-of-2025---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.828487+00:00
+updated_at: 2026-09-07T00:39:25.790756+00:00
 tags: [record, real-data]
 ---
 

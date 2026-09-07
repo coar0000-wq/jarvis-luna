@@ -2,7 +2,7 @@
 title: "Record 578 · Burden-and-trends-of-vaccine-preventable-diseases-among-under-five-chi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.733051+00:00
+updated_at: 2026-09-07T00:39:25.680658+00:00
 tags: [record, real-data]
 ---
 

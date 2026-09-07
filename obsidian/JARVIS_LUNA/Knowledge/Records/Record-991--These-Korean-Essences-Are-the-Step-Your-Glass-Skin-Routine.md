@@ -2,7 +2,7 @@
 title: "Record 991 · These-Korean-Essences-Are-the-Step-Your-Glass-Skin-Routine-Is-Missing-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.820949+00:00
+updated_at: 2026-09-07T00:39:25.781909+00:00
 tags: [record, real-data]
 ---
 

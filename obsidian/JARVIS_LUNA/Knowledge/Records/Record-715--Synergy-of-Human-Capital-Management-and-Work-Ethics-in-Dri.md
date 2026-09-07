@@ -2,7 +2,7 @@
 title: "Record 715 · Synergy-of-Human-Capital-Management-and-Work-Ethics-in-Driving-OCB-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.762036+00:00
+updated_at: 2026-09-07T00:39:25.713533+00:00
 tags: [record, real-data]
 ---
 

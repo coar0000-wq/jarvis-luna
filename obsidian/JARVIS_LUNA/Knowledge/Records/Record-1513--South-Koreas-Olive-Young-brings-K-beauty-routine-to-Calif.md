@@ -2,7 +2,7 @@
 title: "Record 1513 · South-Koreas-Olive-Young-brings-K-beauty-routine-to-California---upico"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.916259+00:00
+updated_at: 2026-09-07T00:39:25.903041+00:00
 tags: [record, real-data]
 ---
 

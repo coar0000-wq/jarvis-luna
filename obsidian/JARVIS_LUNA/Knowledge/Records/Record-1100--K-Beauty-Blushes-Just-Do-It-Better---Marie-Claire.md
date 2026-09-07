@@ -2,7 +2,7 @@
 title: "Record 1100 · K-Beauty-Blushes-Just-Do-It-Better---Marie-Claire"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.841842+00:00
+updated_at: 2026-09-07T00:39:25.806638+00:00
 tags: [record, real-data]
 ---
 

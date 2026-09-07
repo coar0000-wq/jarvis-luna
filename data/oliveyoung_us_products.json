@@ -2,7 +2,7 @@
   "source": "us.oliveyoung.com/best-sellers (실수집)",
   "method": "React Router turbo-stream 데이터 응답 파싱",
   "robots_note": "robots.txt 확인: Allow / 이며 /best-sellers 는 허용 경로. Disallow 인 /search 는 요청하지 않음.",
-  "collected_at": "2026-09-06T22:40:48.731068+00:00",
+  "collected_at": "2026-09-07T00:38:25.921982+00:00",
   "count": 100,
   "reason": "",
   "is_stale": false,
@@ -542,7 +542,7 @@
       "original_price_usd": 9.9,
       "currency": "USD",
       "rating": 4.9,
-      "review_count": 3920,
+      "review_count": 3921,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8801051028874/thumbnail/96a0abaf-39b4-46d2-b04f-02d59004975c.png",
       "url": "https://us.oliveyoung.com/products/UA11102173"

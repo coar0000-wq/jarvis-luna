@@ -2,7 +2,7 @@
 title: "Record 146 · Accelerating-the-frontiers-of-scientific-discovery-Googles-40M-commitm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.638525+00:00
+updated_at: 2026-09-07T00:39:25.566762+00:00
 tags: [record, real-data]
 ---
 

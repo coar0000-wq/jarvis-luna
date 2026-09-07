@@ -2,7 +2,7 @@
 title: "Record 1643 · Skin-care-in-a-can-How-TikTok-turned-sardines-into-a-viral-beauty-tren"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.939412+00:00
+updated_at: 2026-09-07T00:39:25.936196+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMisAFBVV95cUxPd0k5R1RwXy1Ha0c5RU9xcnhsSkRWSTBIT3NpUGJROUxFekpwLXhSNVVPb1VyWE53Zzh3WndKYTZOWl93WlN4UHY1VUIxOWE4RUg3XzAxS253RDdTMW9jRVBqVGZoV1BpV1FqSWxzemxtSXRHeEt1anVIS3RiemxLNFp0Q3JXVkRxemdacUxyZDYzWm14Mk5nVEN2RWVNTERaYjdvTGJuSG80cExrOEs4Uw?oc=5)
 
-**제목:** ‘Skin care in a can’: How TikTok turned sardines into a viral beauty trend - ajc.com
+**제목:** ‘Skin care in a can’: How TikTok turned sardines into a viral beauty trend - AJC.com
 
-‘Skin care in a can’: How TikTok turned sardines into a viral beauty trend - ajc.com
+‘Skin care in a can’: How TikTok turned sardines into a viral beauty trend - AJC.com
 
 **출처:** Source · Google Search
 

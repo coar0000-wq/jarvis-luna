@@ -2,7 +2,7 @@
 title: "Record 1535 · Save-up-to-50-on-K-beauty-and-more-in-iHerbs-anniversary-sale---Nineco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.920154+00:00
+updated_at: 2026-09-07T00:39:25.908159+00:00
 tags: [record, real-data]
 ---
 

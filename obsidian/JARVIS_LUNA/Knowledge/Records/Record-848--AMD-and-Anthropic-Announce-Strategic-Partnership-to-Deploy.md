@@ -2,7 +2,7 @@
 title: "Record 848 · AMD-and-Anthropic-Announce-Strategic-Partnership-to-Deploy-Up-to-2-Gig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.792016+00:00
+updated_at: 2026-09-07T00:39:25.748308+00:00
 tags: [record, real-data]
 ---
 

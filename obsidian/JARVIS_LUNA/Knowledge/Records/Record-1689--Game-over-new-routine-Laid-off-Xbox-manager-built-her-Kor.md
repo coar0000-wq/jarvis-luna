@@ -2,7 +2,7 @@
 title: "Record 1689 · Game-over-new-routine-Laid-off-Xbox-manager-built-her-Korean-skincare-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.947826+00:00
+updated_at: 2026-09-07T00:39:25.948342+00:00
 tags: [record, real-data]
 ---
 

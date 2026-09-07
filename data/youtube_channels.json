@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T22:40:15.665465+00:00",
+  "generated_at": "2026-09-07T00:37:51.870068+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -57,9 +57,9 @@
     {
       "video_id": "2TlIg3VokY8",
       "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-      "views_text": "468K views",
+      "views_text": "469K views",
       "published_text": "2 months ago",
-      "views": 468000,
+      "views": 469000,
       "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
       "channel": "uxpeak",
       "teams": [
@@ -164,10 +164,10 @@
     },
     {
       "video_id": "GGg61sdEjeI",
-      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
-      "views_text": "164K views",
+      "title": "Learn to Design 10X Better Mobile UI Designs",
+      "views_text": "165K views",
       "published_text": "10 days ago",
-      "views": 164000,
+      "views": 165000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -202,7 +202,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-06T22:40:05.284710+00:00",
+      "last_ok_at": "2026-09-07T00:37:41.554873+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -211,14 +211,14 @@
       "subscribers": "121K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-06T22:40:05.284733+00:00",
+      "checked_at": "2026-09-07T00:37:41.554894+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
-          "views_text": "164K views",
+          "title": "Learn to Design 10X Better Mobile UI Designs",
+          "views_text": "165K views",
           "published_text": "10 days ago",
-          "views": 164000,
+          "views": 165000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -228,9 +228,9 @@
         {
           "video_id": "2TlIg3VokY8",
           "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-          "views_text": "468K views",
+          "views_text": "469K views",
           "published_text": "2 months ago",
-          "views": 468000,
+          "views": 469000,
           "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
           "channel": "uxpeak",
           "teams": [
@@ -469,23 +469,23 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-06T22:40:10.665260+00:00",
+      "last_ok_at": "2026-09-07T00:37:46.869847+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
       "channel_name": "땡스큐레이터",
       "channel_id": "UCTBhYGg_U_pBOKLydoZrhwg",
-      "subscribers": "17.1K",
+      "subscribers": "17.2K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-06T22:40:10.665283+00:00",
+      "checked_at": "2026-09-07T00:37:46.869867+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
           "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-          "views_text": "29K views",
+          "views_text": "30K views",
           "published_text": "3 days ago",
-          "views": 29000,
+          "views": 30000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
           "teams": [

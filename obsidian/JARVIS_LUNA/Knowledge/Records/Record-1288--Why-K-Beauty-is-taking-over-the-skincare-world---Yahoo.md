@@ -2,7 +2,7 @@
 title: "Record 1288 · Why-K-Beauty-is-taking-over-the-skincare-world---Yahoo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.876472+00:00
+updated_at: 2026-09-07T00:39:25.850260+00:00
 tags: [record, real-data]
 ---
 

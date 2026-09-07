@@ -2,7 +2,7 @@
 title: "Record 1576 · K-beautys-Next-Chapter-Amorepacific-CEO-Sean-Kim-on-Building-Lasting-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T22:41:38.927586+00:00
+updated_at: 2026-09-07T00:39:25.918646+00:00
 tags: [record, real-data]
 ---
 

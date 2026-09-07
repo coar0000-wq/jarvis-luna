@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-06T22:41:02.058484+00:00",
+  "collected_at": "2026-09-07T00:38:39.159533+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 28,
+  "post_count": 25,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -35,9 +35,10 @@
     },
     {
       "subreddit": "AsianBeautyAdvice",
-      "post_count": 3,
+      "post_count": 0,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests"
+        "hot: HTTPError: HTTP Error 429: Too Many Requests",
+        "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     }
   ],
@@ -52,10 +53,6 @@
     },
     {
       "keyword": "skin",
-      "score": 4
-    },
-    {
-      "keyword": "routine",
       "score": 4
     },
     {
@@ -119,15 +116,15 @@
       "score": 2
     },
     {
-      "keyword": "thoughts",
-      "score": 2
-    },
-    {
       "keyword": "shade",
       "score": 2
     },
     {
       "keyword": "mascara",
+      "score": 2
+    },
+    {
+      "keyword": "routine",
       "score": 2
     },
     {
@@ -201,6 +198,10 @@
     {
       "keyword": "experience",
       "score": 1
+    },
+    {
+      "keyword": "long-wear",
+      "score": 1
     }
   ],
   "beauty_keywords": [
@@ -209,15 +210,15 @@
       "score": 4
     },
     {
-      "keyword": "routine",
-      "score": 4
-    },
-    {
       "keyword": "masks",
       "score": 2
     },
     {
       "keyword": "spf",
+      "score": 2
+    },
+    {
+      "keyword": "routine",
       "score": 2
     }
   ],
@@ -279,16 +280,16 @@
       "feed": "hot"
     },
     {
-      "title": "Thoughts on Lanbena Nose Plants Pore Strips",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8mq2b/thoughts_on_lanbena_nose_plants_pore_strips/",
-      "published": "2026-09-06T05:01:03+00:00",
+      "title": "Comparing BB Creams: Missha vs. Purito in shade 21",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7vn6a/comparing_bb_creams_missha_vs_purito_in_shade_21/",
+      "published": "2026-09-05T09:06:51+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Comparing BB Creams: Missha vs. Purito in shade 21",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7vn6a/comparing_bb_creams_missha_vs_purito_in_shade_21/",
-      "published": "2026-09-05T09:06:51+00:00",
+      "title": "Thoughts on Lanbena Nose Plants Pore Strips",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8mq2b/thoughts_on_lanbena_nose_plants_pore_strips/",
+      "published": "2026-09-06T05:01:03+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -396,27 +397,6 @@
       "published": "2026-09-04T03:13:39+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
-    },
-    {
-      "title": "Random AB thoughts",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w804rt/random_ab_thoughts/",
-      "published": "2026-09-05T13:00:11+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "top_week"
-    },
-    {
-      "title": "I know it’s not AB, but...",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w59ohe/i_know_its_not_ab_but/",
-      "published": "2026-09-02T13:00:24+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "top_week"
-    },
-    {
-      "title": "Routine Journal",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w3d44t/routine_journal/",
-      "published": "2026-08-31T13:00:10+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "top_week"
     }
   ],
   "note": "커뮤니티 실수요 시그널. 광고 키워드·S등급 코칭 보강용. 판매 순위 아님.",
