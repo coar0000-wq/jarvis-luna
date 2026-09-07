@@ -265,6 +265,15 @@ def main() -> int:
     run = {
         "started_at": now_iso(),
         "requested": 0, "ok": 0, "parse_failed": 0, "http_error": 0,
+        # 이 세 줄이 빠져 있었다. 아래에서 run["sold_out"] += 1 과
+        # run["parse_fail_reasons"][why], run["parse_fail_samples"].append 을
+        # 쓰는데 초기화가 없어 첫 품절 상품이나 첫 파싱 실패에서 KeyError 로
+        # 죽었다. 죽으면 status 를 못 쓰니 last_run 이 09-05 에 멈춰 있었다.
+        # 워크플로는 continue-on-error 라 초록으로 끝났고, 그래서 아무도
+        # 몰랐다. 다이소는 품절 상품이 흔해서 사실상 매번 걸렸다.
+        "sold_out": 0,
+        "parse_fail_reasons": {},
+        "parse_fail_samples": [],
         "skipped_not_beauty": 0,
         "skipped_bucket_full": 0,
         "skipped_excluded": {},
