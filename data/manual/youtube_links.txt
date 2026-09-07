@@ -24,3 +24,4 @@ https://www.youtube.com/watch?v=CVEe0HAd--I | knowledge | 머니스웨거 - 유�
 https://www.youtube.com/watch?v=dNUXhId7XfE | knowledge | 방구석컴퍼니 - AI허브 977개 전수 실측. 한국어 데이터 확보 경로와 이용조건
 https://www.youtube.com/watch?v=F4Jm1TFv0I0 | design | KBS 크랩 - 기업 전용 폰트를 만드는 이유. 라이선스 자체 해결이 핵심. AI 학습 금지 표기 있음
 https://www.youtube.com/watch?v=dPPd65Kvh7Y | listing,design,sourcing | Ali Akbar - Claude 로 월매출 200만불 스토어를 통째로 복제하는 78분 강의. 방법은 참고, 복제 자체는 위험
+https://www.youtube.com/watch?v=9RUcYdww138 | design | IDEAiPlus - 화면을 고치지 말고 디자인 규칙을 먼저 정하라. 컬러·타이포·버튼·여백·모서리
