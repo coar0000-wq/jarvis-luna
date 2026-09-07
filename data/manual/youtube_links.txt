@@ -22,3 +22,4 @@ https://www.youtube.com/watch?v=QUI6Ug4cHnE | design | Nate Herk - Scrollcraft. 
 https://www.youtube.com/watch?v=SihnYUTfxR8 | design | 찍봇 - 구글 Stitch 무료 디자인 AI 정리. 화면 시안을 코드 없이 뽑는 도구
 https://www.youtube.com/watch?v=CVEe0HAd--I | knowledge | 머니스웨거 - 유대인 투자자 전략. 설명란이 비어 있어 내용 미확인. 투자 이야기라 사업 팀 아님
 https://www.youtube.com/watch?v=dNUXhId7XfE | knowledge | 방구석컴퍼니 - AI허브 977개 전수 실측. 한국어 데이터 확보 경로와 이용조건
+https://www.youtube.com/watch?v=F4Jm1TFv0I0 | design | KBS 크랩 - 기업 전용 폰트를 만드는 이유. 라이선스 자체 해결이 핵심. AI 학습 금지 표기 있음

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-07T05:36:22.647499+00:00",
+  "generated_at": "2026-09-07T10:44:54.115581+00:00",
   "generator": "scripts/ingest_youtube_links.py",
   "입력": "data/manual/youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
-  "total": 11,
-  "ok": 11,
+  "total": 12,
+  "ok": 12,
   "failed": 0,
   "fetched_this_run": 0,
   "bad_lines": [],
@@ -13,8 +13,19 @@
     "pricing": 1,
     "market": 3,
     "knowledge": 3,
-    "design": 5
+    "design": 6
   },
+  "학습금지_표시": [
+    {
+      "video_id": "F4Jm1TFv0I0",
+      "title": "기업들이 사활 걸고 자기 폰트 만드는 이유｜크랩",
+      "marks": [
+        "무단 전재",
+        "all rights reserved",
+        "AI 학습 금지"
+      ]
+    }
+  ],
   "videos": [
     {
       "video_id": "gugo50_VbjE",
@@ -32,7 +43,9 @@
       ],
       "collected_at": "2026-09-06T04:15:54.127617+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)",
-      "team_source": "자동 분류"
+      "team_source": "자동 분류",
+      "ai_training_allowed": null,
+      "rights_marks": []
     },
     {
       "video_id": "jUxSAGCaJIU",
@@ -50,7 +63,9 @@
       ],
       "collected_at": "2026-09-06T04:15:57.821507+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)",
-      "team_source": "자동 분류"
+      "team_source": "자동 분류",
+      "ai_training_allowed": null,
+      "rights_marks": []
     },
     {
       "video_id": "O4Z5KklVR5I",
@@ -69,7 +84,9 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:18:22.418749+00:00",
-      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)",
+      "ai_training_allowed": null,
+      "rights_marks": []
     },
     {
       "video_id": "ehmoVENJEB0",
@@ -87,7 +104,9 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:21:50.009710+00:00",
-      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)",
+      "ai_training_allowed": null,
+      "rights_marks": []
     },
     {
       "video_id": "IG0V7o6Z3ZE",
@@ -107,7 +126,9 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:31:15.198234+00:00",
-      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)",
+      "ai_training_allowed": null,
+      "rights_marks": []
     },
     {
       "video_id": "k520NhbFhIE",
@@ -127,7 +148,9 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:35:07.239307+00:00",
-      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)",
+      "ai_training_allowed": null,
+      "rights_marks": []
     },
     {
       "video_id": "uTr2yXMeL9w",
@@ -145,7 +168,9 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:40:05.695439+00:00",
-      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)",
+      "ai_training_allowed": null,
+      "rights_marks": []
     },
     {
       "video_id": "QUI6Ug4cHnE",
@@ -163,7 +188,9 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:42:21.185587+00:00",
-      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)",
+      "ai_training_allowed": null,
+      "rights_marks": []
     },
     {
       "video_id": "SihnYUTfxR8",
@@ -181,7 +208,9 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:46:49.774494+00:00",
-      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)",
+      "ai_training_allowed": null,
+      "rights_marks": []
     },
     {
       "video_id": "CVEe0HAd--I",
@@ -199,7 +228,9 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:49:49.937298+00:00",
-      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)",
+      "ai_training_allowed": null,
+      "rights_marks": []
     },
     {
       "video_id": "dNUXhId7XfE",
@@ -217,6 +248,34 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-06T11:52:26.940874+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "rights_note": "설명란에 저작권 제한 문구가 있다. 링크와 우리가 쓴 요약은 인용으로 남기되 원문을 코퍼스에 넣지 않는다."
+    },
+    {
+      "video_id": "F4Jm1TFv0I0",
+      "url": "https://www.youtube.com/watch?v=F4Jm1TFv0I0",
+      "note": "KBS 크랩 - 기업 전용 폰트를 만드는 이유. 라이선스 자체 해결이 핵심. AI 학습 금지 표기 있음",
+      "title": "기업들이 사활 걸고 자기 폰트 만드는 이유｜크랩",
+      "channel": "크랩 KLAB",
+      "views": 433656,
+      "length_sec": 342,
+      "published": "",
+      "description": "#크랩 #폰트 #디자인 #브랜딩\n\n00:00 시작\n00:38 기업들이 왜 이리 폰트에 진심이야\n01:44 디지털 시대에 빛나는 폰트만의 강점\n02:46 라이선스도 자체 해결 가능하다구~\n03:33 이 분야 레전드 현대카드\n04:14 보통 빡센 게 아니라는 한글 폰트 제작\n\n최근 기업들이 브랜드 전략의 일환으로 자체 글꼴, 폰트를 적극 개발하고 있습니다.\n\n롯데리아체, 무신사체, 핑크퐁 아기상어체까지… 자체 폰트가 없는 기업을 찾기가 더 어려울 정도인데요.\n\n기업들이 이렇게까지 폰트 제작에 진심인 이유를 크랩이 알아봤습니다.\n\nCopyright ⓒ KBS. All rights reserved. 무단 전재, 재배포 및 이용(AI 학습 포함) 금지",
+      "error": "",
+      "ai_training_allowed": false,
+      "rights_marks": [
+        "무단 전재",
+        "all rights reserved",
+        "AI 학습 금지"
+      ],
+      "rights_note": "설명란에 저작권 제한 문구가 있다. 링크와 우리가 쓴 요약은 인용으로 남기되 원문을 코퍼스에 넣지 않는다.",
+      "teams": [
+        "design"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-07T10:44:26.756949+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
     }
   ]

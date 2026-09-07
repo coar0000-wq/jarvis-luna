@@ -143,6 +143,43 @@ def fetch_video(vid: str) -> dict:
     }
 
 
+# 저작권자가 AI 학습을 명시적으로 막은 경우를 잡는다.
+#
+# KBS 크랩 영상 설명란에 "무단 전재, 재배포 및 이용(AI 학습 포함) 금지"
+# 가 적혀 있었다. 지금 우리 코퍼스는 real_sources.json 만 읽어서 이
+# 영상이 학습에 쓰이지는 않는다. 하지만 나중에 누가 경로를 이으면
+# 모르고 들어간다. 그때 알아볼 수 있게 지금 표시해 둔다.
+#
+# 링크와 우리가 직접 쓴 요약은 인용이라 괜찮다. 원문을 퍼오거나
+# 학습에 넣는 것이 막힌 것이다.
+# 그 자체로 금지를 뜻하는 문구.
+NO_TRAIN_MARKS = (
+    "무단 전재", "무단전재", "무단 복제", "무단복제",
+    "재배포 금지", "재배포금지", "all rights reserved",
+)
+
+# 'AI 학습' 은 그 말만으로는 금지가 아니다. 방구석컴퍼니의 'AI 학습데이터
+# 977개' 는 주제일 뿐인데 금지로 잡혔다. 가까이에 금지·불가가 있어야 한다.
+NEAR_BAN = re.compile(r"(ai\s*학습|ai학습)[^\n]{0,40}?(금지|불가|허용하지)", re.I)
+
+
+def rights_of(text: str) -> dict:
+    """설명란에서 저작권 제한 문구를 찾는다."""
+    low = (text or "").lower()
+    hit = [m for m in NO_TRAIN_MARKS if m in low]
+    ai_ban = bool(NEAR_BAN.search(low))
+    if ai_ban:
+        hit.append("AI 학습 금지")
+    if not hit:
+        return {"ai_training_allowed": None, "rights_marks": []}
+    return {
+        "ai_training_allowed": False,
+        "rights_marks": hit,
+        "rights_note": ("설명란에 저작권 제한 문구가 있다. 링크와 우리가 쓴 "
+                        "요약은 인용으로 남기되 원문을 코퍼스에 넣지 않는다."),
+    }
+
+
 def route(v: dict, forced: list[str] | None = None) -> list[str]:
     """사람이 지정했으면 그걸 쓰고, 아니면 제목과 설명으로 추측한다."""
     blob = f'{v.get("title", "")} {v.get("description", "")}'
@@ -186,6 +223,7 @@ def main() -> int:
         if was and was.get("title") and not was.get("error"):
             was["note"] = x.get("note") or was.get("note", "")
             # 팀 지정을 나중에 바꿀 수 있다. 다시 받지 않고 분류만 고친다.
+            was.update(rights_of(was.get("description", "")))
             was["teams"] = route(was, x.get("teams"))
             was["team_source"] = "사람 지정" if x.get("teams") else "자동 분류"
             videos.append(was)
@@ -195,6 +233,7 @@ def main() -> int:
         videos.append({
             "video_id": vid, "url": x["url"], "note": x.get("note", ""),
             **got,
+            **rights_of(got.get("description", "")),
             "teams": route(got, x.get("teams")),
             "team_source": "사람 지정" if x.get("teams") else "자동 분류",
             "collected_at": datetime.now(timezone.utc).isoformat(),
@@ -221,6 +260,9 @@ def main() -> int:
         "fetched_this_run": fetched,
         "bad_lines": bad,
         "by_team": by_team,
+        "학습금지_표시": [{"video_id": v["video_id"], "title": v.get("title", ""),
+                     "marks": v.get("rights_marks")}
+                    for v in ok if v.get("ai_training_allowed") is False],
         "videos": videos,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
