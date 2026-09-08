@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T21:32:15.646999+09:00",
+  "generated_at": "2026-09-08T23:35:21.005953+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -11,8 +11,8 @@
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
-      "post_count": 25,
-      "collected_at": "2026-09-08T12:06:45.672880+00:00",
+      "post_count": 33,
+      "collected_at": "2026-09-08T14:09:04.641399+00:00",
       "keyword_pool": 40
     }
   },
@@ -78,14 +78,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skin', 'skinny']",
+          "evidence": "matched=['k-beauty', 'skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Drop B Firming Glow Ampoule 40ml — beauty · K-beauty",
+          "primary_text": "Drop B Firming Glow Ampoule 40ml — k-beauty · K-beauty",
           "headline": "Drop B Firming Glow Ampoule 40ml",
           "description": "Experience the Drop B Firming Glow Ampoule in a convenient 40ml size designed for your daily skincare routine. Apply gently to the skin to help maintain a radiant and smooth appearance every day.",
           "cta": "Shop now"
@@ -102,12 +102,12 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
+          "k-beauty",
           "skin",
           "skinny"
         ],
         "reddit_keywords_used": [
-          "beauty",
+          "k-beauty",
           "skin",
           "skinny"
         ],
@@ -116,13 +116,13 @@
       },
       "reddit_match": {
         "matched": [
-          "beauty",
+          "k-beauty",
           "skin",
           "skinny"
         ],
         "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skin', 'skinny']",
+        "evidence": "matched=['k-beauty', 'skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -193,14 +193,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skin', 'skinny']",
+          "evidence": "matched=['k-beauty', 'skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml — beauty · K-beauty",
+          "primary_text": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml — k-beauty · K-beauty",
           "headline": "Cell Fusion C Derma Block PDRN Collagen ",
           "description": "Discover the Cell Fusion C Derma Block PDRN Collagen Cream in a convenient 50 ml size. Formulated with PDRN and collagen, this daily face cream provides essential moisture for your skincare routine. S",
           "cta": "Shop now"
@@ -219,12 +219,12 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
+          "k-beauty",
           "skin",
           "skinny"
         ],
         "reddit_keywords_used": [
-          "beauty",
+          "k-beauty",
           "skin",
           "skinny"
         ],
@@ -233,13 +233,13 @@
       },
       "reddit_match": {
         "matched": [
-          "beauty",
+          "k-beauty",
           "skin",
           "skinny"
         ],
         "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skin', 'skinny']",
+        "evidence": "matched=['k-beauty', 'skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -426,14 +426,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skin', 'skinny']",
+          "evidence": "matched=['k-beauty', 'skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml — beauty · K-beauty",
+          "primary_text": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml — k-beauty · K-beauty",
           "headline": "Chaebigonggan Heartleaf Extract Vegan To",
           "description": "Discover the refreshing benefits of Chaebigonggan Heartleaf Extract Vegan Toner, formulated with heartleaf extract in a 150 ml size. Incorporating this gentle vegan toner into your daily routine helps",
           "cta": "Shop now"
@@ -451,12 +451,12 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
+          "k-beauty",
           "skin",
           "skinny"
         ],
         "reddit_keywords_used": [
-          "beauty",
+          "k-beauty",
           "skin",
           "skinny"
         ],
@@ -465,13 +465,13 @@
       },
       "reddit_match": {
         "matched": [
-          "beauty",
+          "k-beauty",
           "skin",
           "skinny"
         ],
         "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skin', 'skinny']",
+        "evidence": "matched=['k-beauty', 'skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -542,14 +542,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skin', 'skinny']",
+          "evidence": "matched=['k-beauty', 'skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Cica Calming Toner 300 ml — beauty · K-beauty",
+          "primary_text": "VT Cica Calming Toner 300 ml — k-beauty · K-beauty",
           "headline": "VT Cica Calming Toner 300 ml",
           "description": "Discover the refreshing hydration of VT Cica Calming Toner, formulated in a generous 300 ml size. This soothing toner helps prep your skin daily, leaving it feeling balanced and comfortable.",
           "cta": "Shop now"
@@ -566,12 +566,12 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
+          "k-beauty",
           "skin",
           "skinny"
         ],
         "reddit_keywords_used": [
-          "beauty",
+          "k-beauty",
           "skin",
           "skinny"
         ],
@@ -580,13 +580,13 @@
       },
       "reddit_match": {
         "matched": [
-          "beauty",
+          "k-beauty",
           "skin",
           "skinny"
         ],
         "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skin', 'skinny']",
+        "evidence": "matched=['k-beauty', 'skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {

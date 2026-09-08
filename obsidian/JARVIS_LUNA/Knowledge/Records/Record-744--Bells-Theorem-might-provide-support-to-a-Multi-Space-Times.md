@@ -2,13 +2,13 @@
 title: "Record 744 · Bells-Theorem-might-provide-support-to-a-Multi-Space-Times-model-of-th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.562940+00:00
+updated_at: 2026-09-08T14:10:03.346268+00:00
 tags: [record, real-data]
 ---
 
 # Record 744 · Bells-Theorem-might-provide-support-to-a-Multi-Space-Times-model-of-th
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.20759277)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.20759276)
 
 **제목:** Bell's Theorem might provide support to a Multi-Space-Times model of the Universe
 

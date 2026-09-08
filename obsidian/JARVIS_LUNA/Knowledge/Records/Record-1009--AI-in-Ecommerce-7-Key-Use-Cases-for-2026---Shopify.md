@@ -2,13 +2,13 @@
 title: "Record 1009 · AI-in-Ecommerce-7-Key-Use-Cases-for-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.633331+00:00
+updated_at: 2026-09-08T14:10:03.411975+00:00
 tags: [record, real-data]
 ---
 
 # Record 1009 · AI-in-Ecommerce-7-Key-Use-Cases-for-2026---Shopify
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kZ3BiZThhVlBwRHI4RU41b3VFWF83MDZRbV9lcEI1dWdWS3E3UzdUQUlBMDBXR1FmczJtVUdLMFNqc2o3Z05IWVpwcGIybExlV1RKNDlnbw?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5qRFdLYmRLWXlTSjNqcmVUVjJ0dEhjYUx2VklLa3ZXUGxSRWY2UDNBbE1BdHJrOU1jZDF6Y2NwNnR2c0wtNE1udE15OENqWEI1UF8zVHhONA?oc=5)
 
 **제목:** AI in Ecommerce: 7 Key Use Cases for 2026 - Shopify
 

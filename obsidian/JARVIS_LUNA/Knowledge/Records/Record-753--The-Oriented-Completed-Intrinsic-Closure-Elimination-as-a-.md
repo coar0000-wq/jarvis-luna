@@ -2,13 +2,13 @@
 title: "Record 753 · The-Oriented-Completed-Intrinsic-Closure-Elimination-as-a-Candidate-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.565056+00:00
+updated_at: 2026-09-08T14:10:03.348471+00:00
 tags: [record, real-data]
 ---
 
 # Record 753 · The-Oriented-Completed-Intrinsic-Closure-Elimination-as-a-Candidate-In
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21478941)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21478940)
 
 **제목:** The Oriented Completed Intrinsic Closure Elimination as a Candidate Intrinsic Charge Invariant
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T12:05:52.813307+00:00",
+  "generated_at": "2026-09-08T14:08:11.973702+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -16,7 +16,17 @@
     "sourcing": 1
   },
   "팀_고정": "한 번 정한 팀은 유지한다. 유튜브가 제목을 A/B 로 돌려서 같은 영상이 회차마다 다른 팀으로 가는 일이 있었다.",
-  "제목_바뀐_영상": [],
+  "제목_바뀐_영상": [
+    {
+      "video_id": "CSr4DYGUPOM",
+      "before": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
+      "after": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+      "kept_teams": [
+        "design",
+        "market"
+      ]
+    }
+  ],
   "top_by_views": [
     {
       "video_id": "6lSvKk7lTl0",
@@ -153,9 +163,9 @@
     {
       "video_id": "GGg61sdEjeI",
       "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
-      "views_text": "174K views",
-      "published_text": "11 days ago",
-      "views": 174000,
+      "views_text": "175K views",
+      "published_text": "12 days ago",
+      "views": 175000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -202,7 +212,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-08T12:05:42.469248+00:00",
+      "last_ok_at": "2026-09-08T14:08:01.619290+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -211,14 +221,14 @@
       "subscribers": "121K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-08T12:05:42.469271+00:00",
+      "checked_at": "2026-09-08T14:08:01.619314+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
           "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
-          "views_text": "174K views",
-          "published_text": "11 days ago",
-          "views": 174000,
+          "views_text": "175K views",
+          "published_text": "12 days ago",
+          "views": 175000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -240,9 +250,9 @@
         {
           "video_id": "zr37ibqXl1U",
           "title": "Top 3 UX/UI Redesigns That Make You Design Like a Pro",
-          "views_text": "99K views",
+          "views_text": "100K views",
           "published_text": "3 months ago",
-          "views": 99000,
+          "views": 100000,
           "url": "https://www.youtube.com/watch?v=zr37ibqXl1U",
           "channel": "uxpeak",
           "teams": [
@@ -469,7 +479,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-08T12:05:47.813091+00:00",
+      "last_ok_at": "2026-09-08T14:08:06.973480+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -478,14 +488,14 @@
       "subscribers": "17.6K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-08T12:05:47.813107+00:00",
+      "checked_at": "2026-09-08T14:08:06.973495+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
-          "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-          "views_text": "44K views",
+          "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+          "views_text": "45K views",
           "published_text": "5 days ago",
-          "views": 44000,
+          "views": 45000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
           "teams": [
@@ -644,9 +654,9 @@
         {
           "video_id": "4ru4xgZfDPA",
           "title": "VLOG 직장인 브이로그ㅣ 연남동 퇴근길😍 콤콤오락실,달링스푼,스튜디오그림비,오월상점,소이연남,동백양과점,소품샵,카페투어ㅣ퇴근길 브이로그❤️",
-          "views_text": "560 views",
+          "views_text": "561 views",
           "published_text": "6 years ago",
-          "views": 560,
+          "views": 561,
           "url": "https://www.youtube.com/watch?v=4ru4xgZfDPA",
           "channel": "땡스큐레이터",
           "teams": [
@@ -680,9 +690,9 @@
         {
           "video_id": "Tu8Ziv_y_Cc",
           "title": "마케팅에 속지않는 화장품 구매팁! 👌 ❌화장품 마케팅 싫어 🔥땡큐한 화장품 추천 ✔️ 솔직리뷰! 마케팅 썰 대방출 / 천연 화장품 /유기농 화장품 / 더마 화장품 [땡큐]",
-          "views_text": "976 views",
+          "views_text": "977 views",
           "published_text": "6 years ago",
-          "views": 976,
+          "views": 977,
           "url": "https://www.youtube.com/watch?v=Tu8Ziv_y_Cc",
           "channel": "땡스큐레이터",
           "teams": [

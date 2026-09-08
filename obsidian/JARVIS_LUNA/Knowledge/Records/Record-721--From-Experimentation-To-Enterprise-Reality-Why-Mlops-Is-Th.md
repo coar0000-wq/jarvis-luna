@@ -2,13 +2,13 @@
 title: "Record 721 · From-Experimentation-To-Enterprise-Reality-Why-Mlops-Is-The-Backbone-O"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.557385+00:00
+updated_at: 2026-09-08T14:10:03.340565+00:00
 tags: [record, real-data]
 ---
 
 # Record 721 · From-Experimentation-To-Enterprise-Reality-Why-Mlops-Is-The-Backbone-O
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.18194146)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.18194145)
 
 **제목:** From Experimentation To Enterprise Reality: Why Mlops Is The Backbone Of Production AI
 

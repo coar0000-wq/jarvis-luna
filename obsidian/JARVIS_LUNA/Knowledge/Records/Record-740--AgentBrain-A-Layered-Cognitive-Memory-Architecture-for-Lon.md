@@ -2,13 +2,13 @@
 title: "Record 740 · AgentBrain-A-Layered-Cognitive-Memory-Architecture-for-Long-Lived-AI-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.561948+00:00
+updated_at: 2026-09-08T14:10:03.345242+00:00
 tags: [record, real-data]
 ---
 
 # Record 740 · AgentBrain-A-Layered-Cognitive-Memory-Architecture-for-Long-Lived-AI-A
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.20371135)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.20371134)
 
 **제목:** AgentBrain: A Layered Cognitive Memory Architecture for Long-Lived AI Agents
 

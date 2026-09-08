@@ -2,13 +2,13 @@
 title: "Record 777 · Supporting-the-Assumption-that-Space-Time-is-an-Emergent-Entity-via-a-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.570637+00:00
+updated_at: 2026-09-08T14:10:03.354165+00:00
 tags: [record, real-data]
 ---
 
 # Record 777 · Supporting-the-Assumption-that-Space-Time-is-an-Emergent-Entity-via-a-
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.22068083)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.22068082)
 
 **제목:** Supporting the Assumption that Space-Time is an Emergent Entity via a Proposed Experiment
 

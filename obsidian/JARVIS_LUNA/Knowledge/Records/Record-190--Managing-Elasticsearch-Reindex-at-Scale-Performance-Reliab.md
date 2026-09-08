@@ -2,7 +2,7 @@
 title: "Record 190 · Managing-Elasticsearch-Reindex-at-Scale-Performance-Reliability-and-Ob"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.427112+00:00
+updated_at: 2026-09-08T14:10:03.205843+00:00
 tags: [record, real-data]
 ---
 

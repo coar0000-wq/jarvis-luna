@@ -2,13 +2,13 @@
 title: "Record 759 · Self-Regulated-Learning-Strategies-and-Reading-and-Writing-Skills-of-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.566474+00:00
+updated_at: 2026-09-08T14:10:03.349906+00:00
 tags: [record, real-data]
 ---
 
 # Record 759 · Self-Regulated-Learning-Strategies-and-Reading-and-Writing-Skills-of-S
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21493244)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21493243)
 
 **제목:** Self-Regulated Learning Strategies and Reading and Writing Skills of Students: Basis for Action Plan
 

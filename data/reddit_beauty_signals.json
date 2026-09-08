@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-08T12:06:45.672880+00:00",
+  "collected_at": "2026-09-08T14:09:04.641399+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 25,
+  "post_count": 33,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -35,20 +35,35 @@
     },
     {
       "subreddit": "AsianBeautyAdvice",
-      "post_count": 0,
+      "post_count": 25,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests",
         "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     }
   ],
   "hot_keywords": [
     {
+      "keyword": "thoughts",
+      "score": 14
+    },
+    {
+      "keyword": "random",
+      "score": 13
+    },
+    {
+      "keyword": "know",
+      "score": 6
+    },
+    {
       "keyword": "september",
       "score": 4
     },
     {
       "keyword": "2026",
+      "score": 4
+    },
+    {
+      "keyword": "cushion",
       "score": 4
     },
     {
@@ -64,11 +79,19 @@
       "score": 3
     },
     {
-      "keyword": "new",
+      "keyword": "anything",
       "score": 3
     },
     {
+      "keyword": "ask",
+      "score": 2
+    },
+    {
       "keyword": "monday",
+      "score": 2
+    },
+    {
+      "keyword": "shades",
       "score": 2
     },
     {
@@ -80,23 +103,15 @@
       "score": 2
     },
     {
-      "keyword": "beauty",
+      "keyword": "trends",
       "score": 2
     },
     {
-      "keyword": "medium",
+      "keyword": "new",
       "score": 2
     },
     {
       "keyword": "clio",
-      "score": 2
-    },
-    {
-      "keyword": "cushion",
-      "score": 2
-    },
-    {
-      "keyword": "anything",
       "score": 2
     },
     {
@@ -105,6 +120,10 @@
     },
     {
       "keyword": "sheet",
+      "score": 2
+    },
+    {
+      "keyword": "review",
       "score": 2
     },
     {
@@ -120,19 +139,27 @@
       "score": 2
     },
     {
-      "keyword": "love",
-      "score": 2
-    },
-    {
       "keyword": "shade",
       "score": 2
     },
     {
-      "keyword": "question",
-      "score": 1
+      "keyword": "routine",
+      "score": 2
     },
     {
-      "keyword": "ask",
+      "keyword": "japanese",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreens",
+      "score": 2
+    },
+    {
+      "keyword": "k-beauty",
+      "score": 2
+    },
+    {
+      "keyword": "question",
       "score": 1
     },
     {
@@ -156,55 +183,31 @@
       "score": 1
     },
     {
-      "keyword": "flashback",
+      "keyword": "jungsaemmool",
       "score": 1
     },
     {
-      "keyword": "speedy",
+      "keyword": "long",
       "score": 1
     },
     {
-      "keyword": "brow",
+      "keyword": "wear",
       "score": 1
     },
     {
-      "keyword": "mascara",
+      "keyword": "cover",
       "score": 1
     },
     {
-      "keyword": "peony",
-      "score": 1
-    },
-    {
-      "keyword": "ash",
-      "score": 1
-    },
-    {
-      "keyword": "western",
-      "score": 1
-    },
-    {
-      "keyword": "brands",
-      "score": 1
-    },
-    {
-      "keyword": "copying",
-      "score": 1
-    },
-    {
-      "keyword": "asian",
-      "score": 1
-    },
-    {
-      "keyword": "trends",
-      "score": 1
-    },
-    {
-      "keyword": "now",
+      "keyword": "layer",
       "score": 1
     }
   ],
   "beauty_keywords": [
+    {
+      "keyword": "cushion",
+      "score": 4
+    },
     {
       "keyword": "skin",
       "score": 4
@@ -218,15 +221,23 @@
       "score": 2
     },
     {
-      "keyword": "cushion",
-      "score": 2
-    },
-    {
       "keyword": "sheet",
       "score": 2
     },
     {
       "keyword": "spf",
+      "score": 2
+    },
+    {
+      "keyword": "routine",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreens",
+      "score": 2
+    },
+    {
+      "keyword": "k-beauty",
       "score": 2
     }
   ],
@@ -253,6 +264,13 @@
       "feed": "hot"
     },
     {
+      "title": "Jungsaemmool cushion shades in Long wear vs Cover layer",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wanedk/jungsaemmool_cushion_shades_in_long_wear_vs_cover/",
+      "published": "2026-09-08T12:44:20+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "makeup flashback on peripera speedy skinny brow mascara (peony ash)",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wafjz7/makeup_flashback_on_peripera_speedy_skinny_brow/",
       "published": "2026-09-08T05:36:14+00:00",
@@ -260,16 +278,16 @@
       "feed": "hot"
     },
     {
-      "title": "Is it just me or are Western makeup brands just copying Asian beauty trends now?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w96nrd/is_it_just_me_or_are_western_makeup_brands_just/",
-      "published": "2026-09-06T20:05:11+00:00",
+      "title": "Happy medium between straight and curled lashes?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wahskn/happy_medium_between_straight_and_curled_lashes/",
+      "published": "2026-09-08T07:44:52+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Happy medium between straight and curled lashes?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wahskn/happy_medium_between_straight_and_curled_lashes/",
-      "published": "2026-09-08T07:44:52+00:00",
+      "title": "Is it just me or are Western makeup brands just copying Asian beauty trends now?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w96nrd/is_it_just_me_or_are_western_makeup_brands_just/",
+      "published": "2026-09-06T20:05:11+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -344,16 +362,16 @@
       "feed": "hot"
     },
     {
-      "title": "Anything Goes Sunday: September 06, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w97jpl/anything_goes_sunday_september_06_2026/",
-      "published": "2026-09-06T20:39:10+00:00",
+      "title": "A-beauty products similar to Bobbi Brown Love Letter?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8iyx1/abeauty_products_similar_to_bobbi_brown_love/",
+      "published": "2026-09-06T01:52:49+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "A-beauty products similar to Bobbi Brown Love Letter?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8iyx1/abeauty_products_similar_to_bobbi_brown_love/",
-      "published": "2026-09-06T01:52:49+00:00",
+      "title": "Anything Goes Sunday: September 06, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w97jpl/anything_goes_sunday_september_06_2026/",
+      "published": "2026-09-06T20:39:10+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -400,10 +418,59 @@
       "feed": "hot"
     },
     {
-      "title": "New Ricky Beauty Lipliners: love the look of this one for low to medium contrast, muted people.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w79w2j/new_ricky_beauty_lipliners_love_the_look_of_this/",
-      "published": "2026-09-04T16:52:12+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "Revamping ABA",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/10dpkk9/revamping_aba/",
+      "published": "2023-01-16T19:53:22+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "Random AB thoughts",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w804rt/random_ab_thoughts/",
+      "published": "2026-09-05T13:00:11+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "I know it’s not AB, but...",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w59ohe/i_know_its_not_ab_but/",
+      "published": "2026-09-02T13:00:24+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "Routine Journal",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w3d44t/routine_journal/",
+      "published": "2026-08-31T13:00:10+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[Review] Japanese sunscreens",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1vzze8m/review_japanese_sunscreens/",
+      "published": "2026-08-27T16:49:56+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[Q&A] Can I still use it after the expiry date?",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1vvhx8l/qa_can_i_still_use_it_after_the_expiry_date/",
+      "published": "2026-08-22T17:09:57+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[Q&A] Who’s the most honest K-beauty YouTuber you actually trust?",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1un7xgb/qa_whos_the_most_honest_kbeauty_youtuber_you/",
+      "published": "2026-07-04T12:32:43+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[Q&A] I’m a student born and raised in Japan (currently living in Kyoto)! Ask me anything about Japanese drugstore cosmetics or local trends",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1u60pb4/qa_im_a_student_born_and_raised_in_japan/",
+      "published": "2026-06-14T23:55:47+00:00",
+      "subreddit": "AsianBeautyAdvice",
       "feed": "hot"
     }
   ],

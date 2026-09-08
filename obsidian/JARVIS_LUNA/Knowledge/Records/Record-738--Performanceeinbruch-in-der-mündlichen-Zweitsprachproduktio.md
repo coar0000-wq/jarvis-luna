@@ -2,13 +2,13 @@
 title: "Record 738 · Performanceeinbruch-in-der-mündlichen-Zweitsprachproduktion-akademisch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.561508+00:00
+updated_at: 2026-09-08T14:10:03.344741+00:00
 tags: [record, real-data]
 ---
 
 # Record 738 · Performanceeinbruch-in-der-mündlichen-Zweitsprachproduktion-akademisch
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.20028578)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.20028577)
 
 **제목:** Performanceeinbruch in der mündlichen Zweitsprachproduktion akademisch qualifizierter Migrantinnen: Theoretische Grundlage eines stress- und identitätssensiblen Lehrrahmens
 

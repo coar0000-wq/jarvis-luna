@@ -2,7 +2,7 @@
 title: "Record 047 · SUN-Persistent-Programs-For-Language-Grounded-Control-to-Learning-to-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.384892+00:00
+updated_at: 2026-09-08T14:10:03.162563+00:00
 tags: [record, real-data]
 ---
 

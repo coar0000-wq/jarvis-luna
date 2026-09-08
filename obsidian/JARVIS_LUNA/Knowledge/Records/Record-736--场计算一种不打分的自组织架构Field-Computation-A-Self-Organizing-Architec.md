@@ -2,13 +2,13 @@
 title: "Record 736 · 场计算一种不打分的自组织架构Field-Computation-A-Self-Organizing-Architecture-Without"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.560951+00:00
+updated_at: 2026-09-08T14:10:03.344228+00:00
 tags: [record, real-data]
 ---
 
 # Record 736 · 场计算一种不打分的自组织架构Field-Computation-A-Self-Organizing-Architecture-Without
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.19971267)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.19971266)
 
 **제목:** 场计算:一种不打分的自组织架构/Field Computation: A Self-Organizing Architecture Without Scoring
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T12:32:06.712757+00:00",
+  "generated_at": "2026-09-08T14:35:14.015537+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "six flags",
+          "keyword": "dow jones",
+          "approx_traffic": "20000+",
+          "traffic_num": 20000,
+          "published": "Tue, 8 Sep 2026 07:00:00 -0700",
+          "source_name": "WSJ",
+          "url": "https://trends.google.com/trending?geo=US&q=dow%20jones"
+        },
+        {
+          "keyword": "ocarina of time remake",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Tue, 8 Sep 2026 04:30:00 -0700",
-          "source_name": "WKYC",
-          "url": "https://trends.google.com/trending?geo=US&q=six%20flags"
+          "published": "Tue, 8 Sep 2026 07:20:00 -0700",
+          "source_name": "Vooks",
+          "url": "https://trends.google.com/trending?geo=US&q=ocarina%20of%20time%20remake"
         },
         {
-          "keyword": "jaclyn smith",
+          "keyword": "s&p 500",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Tue, 8 Sep 2026 07:10:00 -0700",
+          "source_name": "Yahoo Finance",
+          "url": "https://trends.google.com/trending?geo=US&q=s%26p%20500"
+        },
+        {
+          "keyword": "amazon stock",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Tue, 8 Sep 2026 05:00:00 -0700",
-          "source_name": "HELLO! Magazine",
-          "url": "https://trends.google.com/trending?geo=US&q=jaclyn%20smith"
+          "published": "Tue, 8 Sep 2026 07:10:00 -0700",
+          "source_name": "CNBC",
+          "url": "https://trends.google.com/trending?geo=US&q=amazon%20stock"
         },
         {
-          "keyword": "sandra bullock",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 8 Sep 2026 05:10:00 -0700",
-          "source_name": "AP News",
-          "url": "https://trends.google.com/trending?geo=US&q=sandra%20bullock"
+          "keyword": "intel stock",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Tue, 8 Sep 2026 07:10:00 -0700",
+          "source_name": "Yahoo Finance",
+          "url": "https://trends.google.com/trending?geo=US&q=intel%20stock"
         },
         {
-          "keyword": "oil prices",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 8 Sep 2026 04:50:00 -0700",
-          "source_name": "CBS News",
-          "url": "https://trends.google.com/trending?geo=US&q=oil%20prices"
+          "keyword": "djia",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Tue, 8 Sep 2026 07:00:00 -0700",
+          "source_name": "CNBC",
+          "url": "https://trends.google.com/trending?geo=US&q=djia"
         },
         {
-          "keyword": "good morning america",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 8 Sep 2026 04:40:00 -0700",
-          "source_name": "ABC News - Breaking News, Latest News and Videos",
-          "url": "https://trends.google.com/trending?geo=US&q=good%20morning%20america"
-        },
-        {
-          "keyword": "mike tomlin",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 8 Sep 2026 04:30:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=mike%20tomlin"
-        },
-        {
-          "keyword": "nicole kidman",
+          "keyword": "tesla stock price",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 05:10:00 -0700",
-          "source_name": "InStyle",
-          "url": "https://trends.google.com/trending?geo=US&q=nicole%20kidman"
+          "published": "Tue, 8 Sep 2026 07:10:00 -0700",
+          "source_name": "Yahoo Finance",
+          "url": "https://trends.google.com/trending?geo=US&q=tesla%20stock%20price"
         },
         {
-          "keyword": "unemployment",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Tue, 8 Sep 2026 04:50:00 -0700",
-          "source_name": "WSJ",
-          "url": "https://trends.google.com/trending?geo=US&q=unemployment"
+          "keyword": "crwv stock",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 8 Sep 2026 07:10:00 -0700",
+          "source_name": "Seeking Alpha",
+          "url": "https://trends.google.com/trending?geo=US&q=crwv%20stock"
         },
         {
-          "keyword": "democrats 2026 midterms gop territory",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Tue, 8 Sep 2026 04:40:00 -0700",
-          "source_name": "CNN",
-          "url": "https://trends.google.com/trending?geo=US&q=democrats%202026%20midterms%20gop%20territory"
+          "keyword": "sofi stock",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 8 Sep 2026 07:10:00 -0700",
+          "source_name": "Yahoo Finance",
+          "url": "https://trends.google.com/trending?geo=US&q=sofi%20stock"
         },
         {
-          "keyword": "good morning america live",
+          "keyword": "tsm stock",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Tue, 8 Sep 2026 04:40:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=good%20morning%20america%20live"
+          "published": "Tue, 8 Sep 2026 07:10:00 -0700",
+          "source_name": "Yahoo Finance",
+          "url": "https://trends.google.com/trending?geo=US&q=tsm%20stock"
         }
       ]
     },

@@ -2,13 +2,13 @@
 title: "Record 723 · Architecting-AI-Platforms-for-Regulated-and-High-Scale-Environments"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.557814+00:00
+updated_at: 2026-09-08T14:10:03.341015+00:00
 tags: [record, real-data]
 ---
 
 # Record 723 · Architecting-AI-Platforms-for-Regulated-and-High-Scale-Environments
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.18201907)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.18201906)
 
 **제목:** Architecting AI Platforms for Regulated and High-Scale Environments
 

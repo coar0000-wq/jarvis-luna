@@ -2,13 +2,13 @@
 title: "Record 742 · Werkraum-Zeit-Artefakte-als-temporale-Forderungsstrukturen--Zeitwürdig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.562497+00:00
+updated_at: 2026-09-08T14:10:03.345754+00:00
 tags: [record, real-data]
 ---
 
 # Record 742 · Werkraum-Zeit-Artefakte-als-temporale-Forderungsstrukturen--Zeitwürdig
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.20746511)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.20746510)
 
 **제목:** Werkraum Zeit: Artefakte als temporale Forderungsstrukturen — Zeitwürdigkeit, gebundene Zukunft und relationale Zeitethik
 

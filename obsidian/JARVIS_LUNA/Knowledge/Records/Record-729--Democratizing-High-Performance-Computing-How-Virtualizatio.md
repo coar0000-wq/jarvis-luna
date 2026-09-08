@@ -2,13 +2,13 @@
 title: "Record 729 · Democratizing-High-Performance-Computing-How-Virtualization-and-Worklo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.559216+00:00
+updated_at: 2026-09-08T14:10:03.342448+00:00
 tags: [record, real-data]
 ---
 
 # Record 729 · Democratizing-High-Performance-Computing-How-Virtualization-and-Worklo
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.18813142)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.18813141)
 
 **제목:** Democratizing High-Performance Computing: How Virtualization and Workload Mobility Enable AI/ML Accessibility Across Organizations
 

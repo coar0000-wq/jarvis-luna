@@ -1,18 +1,18 @@
 ---
-title: "Record 870 · Mike-Joo-And-Adeel-Khan-Appointed-Co-Ceos-Of-Barclays-Investment0"
+title: "Record 870 · Mike-Joo-And-Adeel-Khan-Appointed-Co-Ceos-Of-Barclays-Investment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.594468+00:00
+updated_at: 2026-09-08T14:10:03.376638+00:00
 tags: [record, real-data]
 ---
 
-# Record 870 · Mike-Joo-And-Adeel-Khan-Appointed-Co-Ceos-Of-Barclays-Investment0
+# Record 870 · Mike-Joo-And-Adeel-Khan-Appointed-Co-Ceos-Of-Barclays-Investment
 
-> 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/080/mike-joo-and-adeel-khan-appointed-co-ceos-of-barclays-investment0/)
+> 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/080/mike-joo-and-adeel-khan-appointed-co-ceos-of-barclays-investment/)
 
-**제목:** Mike Joo And Adeel Khan Appointed Co Ceos Of Barclays Investment0
+**제목:** Mike Joo And Adeel Khan Appointed Co Ceos Of Barclays Investment
 
-Mike Joo And Adeel Khan Appointed Co Ceos Of Barclays Investment0
+Mike Joo And Adeel Khan Appointed Co Ceos Of Barclays Investment
 
 **출처:** Source · institutions
 

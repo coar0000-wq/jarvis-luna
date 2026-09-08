@@ -2,13 +2,13 @@
 title: "Record 763 · How-much-does-an-AI-answer-change-on-its-own-A-small-sample-measuremen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.567446+00:00
+updated_at: 2026-09-08T14:10:03.350912+00:00
 tags: [record, real-data]
 ---
 
 # Record 763 · How-much-does-an-AI-answer-change-on-its-own-A-small-sample-measuremen
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21606840)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21606839)
 
 **제목:** How much does an AI answer change on its own? A small-sample measurement of generative-engine volatility
 

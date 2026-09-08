@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-08T12:05:28.184096+00:00",
+  "collected_at": "2026-09-08T14:07:46.652539+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-08T12:04:24.287505+00:00"
+      "collected_at": "2026-09-08T14:06:40.477762+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-08T12:04:56.973522+00:00"
+      "collected_at": "2026-09-08T14:07:13.662664+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-08T12:05:28.183090+00:00"
+      "collected_at": "2026-09-08T14:07:46.651311+00:00"
     }
   },
   "not_collected": {
@@ -84,6 +84,32 @@
     "SEC EDGAR 공시": "샌드박스에서 검증 불가하여 미등록"
   },
   "items": [
+    {
+      "title": "The Work Now Within Reach",
+      "url": "https://openai.com/index/the-work-now-within-reach",
+      "date": "2026-09-08",
+      "date_raw": "Tue, 08 Sep 2026 13:00:00 GMT",
+      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
+    {
+      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "date": "2026-09-08",
+      "date_raw": "Tue, 08 Sep 2026 00:00:00 GMT",
+      "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
     {
       "title": "Supporting independent journalism in Ukraine",
       "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
@@ -137,11 +163,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
       "date": "2026-09-03",
       "date_raw": "Thu, 03 Sep 2026 12:00:00 GMT",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -150,11 +176,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
       "date": "2026-09-03",
       "date_raw": "Thu, 03 Sep 2026 12:00:00 GMT",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -345,11 +371,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Learning never stops: How AI makes learning continuous",
-      "url": "https://openai.com/index/learning-never-stops",
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
       "date": "2026-08-26",
       "date_raw": "Wed, 26 Aug 2026 10:00:00 GMT",
-      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -358,11 +384,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "title": "Learning never stops: How AI makes learning continuous",
+      "url": "https://openai.com/index/learning-never-stops",
       "date": "2026-08-26",
       "date_raw": "Wed, 26 Aug 2026 10:00:00 GMT",
-      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -384,29 +410,16 @@
       "title_source": "feed"
     },
     {
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "url": "https://openai.com/index/loveholidays",
-      "date": "2026-08-26",
-      "date_raw": "Wed, 26 Aug 2026 00:00:00 GMT",
-      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
-      "org": "OpenAI",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "date": "2026-09-08",
+      "date_raw": "Tue, 08 Sep 2026 14:00:15 +0000",
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "org": "Google DeepMind",
       "category": "AI연구소",
       "kind": "발표물",
       "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "The full stack behind abundant intelligence",
-      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "date": "2026-08-25",
-      "date_raw": "Tue, 25 Aug 2026 07:05:00 GMT",
-      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
+      "feed": "https://deepmind.google/blog/rss.xml",
       "title_source": "feed"
     },
     {
@@ -714,19 +727,6 @@
       "date": "2026-06-16",
       "date_raw": "Tue, 16 Jun 2026 15:46:31 +0000",
       "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
-      "org": "Google DeepMind",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://deepmind.google/blog/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "DiffusionGemma: 4x faster text generation",
-      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-      "date": "2026-06-10",
-      "date_raw": "Wed, 10 Jun 2026 16:24:11 +0000",
-      "summary": "",
       "org": "Google DeepMind",
       "category": "AI연구소",
       "kind": "발표물",
@@ -3595,6 +3595,19 @@
       "feed": "https://www.asml.com/sitemap.xml"
     },
     {
+      "url": "https://home.barclays/news/press-releases/20260/090/card-spending-grows-2-1-per-cent-in-august--as-travel-rebounds-a/",
+      "date": "2026-09-08",
+      "date_raw": "2026-09-08T12:53:50+01:00",
+      "title_source": "page",
+      "title": "Card spending grows 2.1 per cent in August, as travel rebounds and confidence in household finances improves | Barclays",
+      "summary": "Consumers’ confidence in their household finances, ability to live within their means, and spend on non-essentials all improved in August",
+      "org": "Barclays",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://home.barclays/sitemap.xml"
+    },
+    {
       "url": "https://home.barclays/news/press-releases/20260/090/barclays-private-bank-launches-singapore--booking-centre-to-serv/",
       "date": "2026-09-07",
       "date_raw": "2026-09-07T08:41:28+01:00",
@@ -3834,19 +3847,6 @@
       "date_raw": "2026-07-14T12:00:18+01:00",
       "title_source": "url-slug",
       "title": "Barclays Appoints Peter Luck Chairman Of Uk Investment Banking",
-      "summary": "",
-      "org": "Barclays",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://home.barclays/sitemap.xml"
-    },
-    {
-      "url": "https://home.barclays/news/press-releases/20260/070/lynne-burns-appointed-barclays-group-human-resources-director/",
-      "date": "2026-07-13",
-      "date_raw": "2026-07-13T14:42:03+01:00",
-      "title_source": "url-slug",
-      "title": "Lynne Burns Appointed Barclays Group Human Resources Director",
       "summary": "",
       "org": "Barclays",
       "category": "투자은행",

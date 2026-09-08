@@ -2,13 +2,13 @@
 title: "Record 731 · Enabling-Zero-Downtime-Maintenance-And-Dynamic-Load-Balancing-Through-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.559686+00:00
+updated_at: 2026-09-08T14:10:03.342926+00:00
 tags: [record, real-data]
 ---
 
 # Record 731 · Enabling-Zero-Downtime-Maintenance-And-Dynamic-Load-Balancing-Through-
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.19074097)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.19074096)
 
 **제목:** Enabling Zero-Downtime Maintenance And Dynamic Load Balancing Through Intelligent Workload Migration In Enterprise Data Centers
 
