@@ -2,7 +2,7 @@
 title: "Record 634 · Inovação-desenvolvimento-e-tecnologias-uma-revisão-integrativa-sobre-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.223613+00:00
+updated_at: 2026-09-08T22:24:12.472879+00:00
 tags: [record, real-data]
 ---
 

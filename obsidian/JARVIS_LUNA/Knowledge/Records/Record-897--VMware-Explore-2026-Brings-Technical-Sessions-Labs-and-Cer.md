@@ -2,7 +2,7 @@
 title: "Record 897 · VMware-Explore-2026-Brings-Technical-Sessions-Labs-and-Certs-to-IT-Pra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.286343+00:00
+updated_at: 2026-09-08T22:24:12.533753+00:00
 tags: [record, real-data]
 ---
 

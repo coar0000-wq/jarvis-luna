@@ -2,7 +2,7 @@
 title: "Record 401 · Co-packaged-optics-for-high-performance-computing-and-artificial-intel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.169307+00:00
+updated_at: 2026-09-08T22:24:12.418948+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 613 · Discussing-a-Framework-for-the-Responsible-Use-of-Facial-Recognition-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.218578+00:00
+updated_at: 2026-09-08T22:24:12.467496+00:00
 tags: [record, real-data]
 ---
 

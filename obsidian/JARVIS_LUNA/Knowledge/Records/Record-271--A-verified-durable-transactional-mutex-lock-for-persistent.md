@@ -2,7 +2,7 @@
 title: "Record 271 · A-verified-durable-transactional-mutex-lock-for-persistent-x86-TSO"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.138805+00:00
+updated_at: 2026-09-08T22:24:12.388951+00:00
 tags: [record, real-data]
 ---
 

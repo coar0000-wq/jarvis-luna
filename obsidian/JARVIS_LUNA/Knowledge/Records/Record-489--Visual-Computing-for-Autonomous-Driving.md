@@ -2,7 +2,7 @@
 title: "Record 489 · Visual-Computing-for-Autonomous-Driving"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.189883+00:00
+updated_at: 2026-09-08T22:24:12.439198+00:00
 tags: [record, real-data]
 ---
 

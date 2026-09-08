@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-08T19:16:17.982806+00:00",
+  "collected_at": "2026-09-08T22:21:47.335070+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-08T19:15:19.231614+00:00"
+      "collected_at": "2026-09-08T22:20:57.061024+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-08T19:15:56.322343+00:00"
+      "collected_at": "2026-09-08T22:21:29.294069+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-08T19:16:17.981829+00:00"
+      "collected_at": "2026-09-08T22:21:47.333966+00:00"
     }
   },
   "not_collected": {
@@ -84,6 +84,19 @@
     "SEC EDGAR 공시": "샌드박스에서 검증 불가하여 미등록"
   },
   "items": [
+    {
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "date": "2026-09-08",
+      "date_raw": "Tue, 08 Sep 2026 17:00:00 GMT",
+      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
     {
       "title": "The Work Now Within Reach",
       "url": "https://openai.com/index/the-work-now-within-reach",
@@ -142,6 +155,19 @@
       "date": "2026-09-08",
       "date_raw": "Tue, 08 Sep 2026 00:00:00 GMT",
       "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
+    {
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "url": "https://openai.com/index/1password",
+      "date": "2026-09-08",
+      "date_raw": "Tue, 08 Sep 2026 00:00:00 GMT",
+      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -376,32 +402,6 @@
       "date": "2026-08-28",
       "date_raw": "Fri, 28 Aug 2026 02:00:00 GMT",
       "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "date": "2026-08-27",
-      "date_raw": "Thu, 27 Aug 2026 09:00:00 GMT",
-      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "date": "2026-08-27",
-      "date_raw": "Thu, 27 Aug 2026 03:00:00 GMT",
-      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -2295,11 +2295,37 @@
       "title_source": "feed"
     },
     {
+      "title": "SQL Data Types: Reference and Best Practices",
+      "url": "https://www.databricks.com/blog/sql-data-types",
+      "date": "2026-09-08",
+      "date_raw": "Tue, 08 Sep 2026 17:16:06 GMT",
+      "summary": "A SQL data type is a fundamental specification that defines what values a column...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "Build durable agents with Temporal and Lakebase",
       "url": "https://www.databricks.com/blog/build-durable-agents-temporal-and-lakebase",
       "date": "2026-09-08",
       "date_raw": "Tue, 08 Sep 2026 15:46:40 GMT",
       "summary": "A personal-loan underwriting agent gathers evidence, applies policy, and may wait...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
+      "title": "The 40-year-old database rule agents just broke: How LTAP unifies OLTP and OLAP workloads",
+      "url": "https://www.databricks.com/blog/40-year-old-database-rule-agents-just-broke-how-ltap-unifies-oltp-and-olap-workloads",
+      "date": "2026-09-07",
+      "date_raw": "Mon, 07 Sep 2026 12:48:05 GMT",
+      "summary": "Jonathan Katz has spent his career on both sides of a line that most of the data...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",
@@ -2391,32 +2417,6 @@
       "date": "2026-09-02",
       "date_raw": "Wed, 02 Sep 2026 19:30:00 GMT",
       "summary": "At Data and AI Summit, we&nbsp;announced the evolution of Genie Spaces to Genie Agents,...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Announcing the Databricks Big Book of AgentOps",
-      "url": "https://www.databricks.com/blog/announcing-databricks-big-book-agentops",
-      "date": "2026-09-02",
-      "date_raw": "Wed, 02 Sep 2026 01:30:00 GMT",
-      "summary": "What is AgentOps?AgentOps is the operating discipline for building, deploying and...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "How the FDA is building a secure, AI-ready data foundation on Databricks for Government",
-      "url": "https://www.databricks.com/blog/how-fda-building-secure-ai-ready-data-foundation-databricks-government",
-      "date": "2026-09-01",
-      "date_raw": "Tue, 01 Sep 2026 21:45:00 GMT",
-      "summary": "Modernizing a federal data platform is a little like steering an aircraft carrier while rebuilding the engine mid-ocean...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",
@@ -3868,11 +3868,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
-      "date": "2026-09-04",
-      "date_raw": "2026-09-04T13:29:35.000Z",
+      "url": "https://www.goldmansachs.com/insights/top-of-mind/assessing-a-less-transparent-fed",
+      "date": "2026-09-08",
+      "date_raw": "2026-09-08T21:13:59.000Z",
       "title_source": "url-slug",
-      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
+      "title": "Assessing A Less Transparent Fed",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3886,6 +3886,19 @@
       "date_raw": "2026-09-04T15:26:17.000Z",
       "title_source": "url-slug",
       "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
+      "date": "2026-09-04",
+      "date_raw": "2026-09-04T13:29:35.000Z",
+      "title_source": "url-slug",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3946,11 +3959,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T20:18:47.000Z",
+      "date_raw": "2026-09-02T16:13:53.000Z",
       "title_source": "url-slug",
-      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
+      "title": "David Solomon Cnbc Sep 2026   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3959,11 +3972,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T16:13:53.000Z",
+      "date_raw": "2026-09-02T20:18:47.000Z",
       "title_source": "url-slug",
-      "title": "David Solomon Cnbc Sep 2026   Transcript",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4063,19 +4076,6 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/top-of-mind/assessing-a-less-transparent-fed",
-      "date": "2026-08-24",
-      "date_raw": "2026-08-24T14:14:07.000Z",
-      "title_source": "url-slug",
-      "title": "Assessing A Less Transparent Fed",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
       "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/building-ai-systems-for-capital-markets/transcript.pdf",
       "date": "2026-08-24",
       "date_raw": "2026-08-24T14:49:21.000Z",
@@ -4113,6 +4113,45 @@
       "kind": "발표물",
       "source": "sitemap",
       "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/treasury/treasury-management/philippines-treasury-transformation-mkdg",
+      "date": "2026-09-08",
+      "date_raw": "2026-09-08",
+      "title_source": "url-slug",
+      "title": "Philippines Treasury Transformation Mkdg",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/how-is-automation-shaping-emerging-markets",
+      "date": "2026-09-08",
+      "date_raw": "2026-09-08",
+      "title_source": "url-slug",
+      "title": "How Is Automation Shaping Emerging Markets",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/treasury/trade-working-capital/healthcare-working-capital-solutions",
+      "date": "2026-09-08",
+      "date_raw": "2026-09-08",
+      "title_source": "url-slug",
+      "title": "Healthcare Working Capital Solutions",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
       "url": "https://www.jpmorgan.com/insights/payments/embedded-finance-baas/unum-insurance-payments-concourse",
@@ -4328,45 +4367,6 @@
       "date_raw": "2026-09-03",
       "title_source": "url-slug",
       "title": "Private Credit Machine Learning Moment",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/markets/insights/the-trading-desk-rewired",
-      "date": "2026-09-03",
-      "date_raw": "2026-09-03",
-      "title_source": "url-slug",
-      "title": "The Trading Desk Rewired",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/markets/insights/new-routes-to-liquidity",
-      "date": "2026-09-03",
-      "date_raw": "2026-09-03",
-      "title_source": "url-slug",
-      "title": "New Routes To Liquidity",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/markets/insights/commodities-in-the-new-geopolitical-age",
-      "date": "2026-09-03",
-      "date_raw": "2026-09-03",
-      "title_source": "url-slug",
-      "title": "Commodities In The New Geopolitical Age",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",

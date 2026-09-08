@@ -2,7 +2,7 @@
 title: "Record 402 · Quantum-counterdiabatic-driving-enhanced-by-two-stage-local-control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.169547+00:00
+updated_at: 2026-09-08T22:24:12.419187+00:00
 tags: [record, real-data]
 ---
 

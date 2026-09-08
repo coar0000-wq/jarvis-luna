@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T19:44:29.375193+00:00",
+  "generated_at": "2026-09-08T22:50:17.502361+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,7 +65,7 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 24865,
+      "bytes": 24901,
       "items": 30,
       "samples": [
         "Florence Pugh Elevated the Messiest Bun With the Fanciest Scarf — See Photos",
@@ -97,12 +97,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21579,
+      "bytes": 21475,
       "items": 40,
       "samples": [
-        "fc porto",
-        "FC Porto-Manchester City: Dragão volta a ser palco da Champions",
-        "Porto x Manchester City na Champions League 2026/27: onde assistir ao vivo e horário"
+        "the young and the restless",
+        "Who Is Leaving & Coming to Young & Restless This Week (September 7-11)?",
+        "The Young and the Restless Spoilers Video: ‘If I told You, I’d Have to Kill You’"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름",

@@ -2,7 +2,7 @@
 title: "Record 723 · Architecting-AI-Platforms-for-Regulated-and-High-Scale-Environments"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.244379+00:00
+updated_at: 2026-09-08T22:24:12.493389+00:00
 tags: [record, real-data]
 ---
 

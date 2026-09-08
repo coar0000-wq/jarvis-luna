@@ -2,7 +2,7 @@
 title: "Record 189 · Frontend-Engineering-at-Palantir-Polar-Scaled-Tiles-in-Zodiac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.117241+00:00
+updated_at: 2026-09-08T22:24:12.369268+00:00
 tags: [record, real-data]
 ---
 

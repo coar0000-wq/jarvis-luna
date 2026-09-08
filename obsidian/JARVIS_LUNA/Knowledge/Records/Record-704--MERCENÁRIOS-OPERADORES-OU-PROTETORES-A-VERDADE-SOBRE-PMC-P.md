@@ -2,7 +2,7 @@
 title: "Record 704 · MERCENÁRIOS-OPERADORES-OU-PROTETORES-A-VERDADE-SOBRE-PMC-PSD-E-CPO"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.240213+00:00
+updated_at: 2026-09-08T22:24:12.489222+00:00
 tags: [record, real-data]
 ---
 

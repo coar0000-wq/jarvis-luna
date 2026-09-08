@@ -1,10 +1,10 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-08T19:18:28.733344+00:00",
+  "collected_at": "2026-09-08T22:23:59.453602+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
-  "count": 93,
+  "count": 92,
   "items": [
     {
       "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
@@ -12,6 +12,15 @@
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Lady Gaga is the latest star to use this $19 K-beauty face mask - Page Six",
+      "product": "Lady Gaga is the latest star to use this $19 K-beauty face mask - Page Six",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOS1FkTXk5MzRSc1FJMnBOU3drbkctblZKaVJlUHUxWTZGaHVQNVdNam9KaDhHSi1hNVV5eDB3U2FQVmh3M01NVEEyMldtQnRKTWRhb1k4ZUhoTFNYUF9UZXpiMW0wb2hIaXlyMU1hLVJTTmhOZWM1RmUxY3dPdWwtaEZQV2c2UWRkdFNuSGg0czNTRHdjckVFYWt3?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -34,6 +43,24 @@
       "beauty": true
     },
     {
+      "keyword": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - Korea JoongAng Daily",
+      "product": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - Korea JoongAng Daily",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDhGOE5GQWVncngtaGZBcVkzT0pGcjB4V3dHLUNMMjNoMGJVcjIzWDRjWDJGS3JWWjZ1N1dkN2dfSWpabktCMzd0bXEyNU9TYmtUMUk0VDZlVktNMjh6aER3cTZmdDFnWS1EN1RvOUJDMlNlY0huVlROa0tCUF9RMXNOaGZ5R0NvNEd0UWFjRVhsSmpXZ053WEpfN01zaUNOZExHMm5zLU5OckVKUEktMm5UUTBwT2VyV2dKZUJWNmUtT2xBSklwTHFwN1pzcXVj?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "BeautyPro targets K-beauty demand with travel retail-exclusive Glass Skin mask duo - Moodie Davitt Report",
+      "product": "BeautyPro targets K-beauty demand with travel retail-exclusive Glass Skin mask duo - Moodie Davitt Report",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZGtPcGp3dWM2dUNNVjJLU29HVXZ3VmFGMkFvb09pcVZDZEFUMkgzZmE4STN0V0NBTzM3TEIxdDdzbWJUcUxQRkdwOXdPd1U4Wm5nS3VTT1BPS3VhSy1Vdi1mbDRPakw0eF9jTXlzTWZUSkhjbXcxVlZSQ2NlZ2pVWk5BUV9XRVhwZldNc0MxVGUyZ2oyVnJpc2FXclBueVB1N01tLWZmUlFNUVRjZjJ4SW5uYm4?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
       "keyword": "Move over, snail mucin: COSRX has a $14 PDRN face mask thousands are buying - New York Post",
       "product": "Move over, snail mucin: COSRX has a $14 PDRN face mask thousands are buying - New York Post",
       "sub": "K-beauty",
@@ -52,38 +79,20 @@
       "beauty": true
     },
     {
-      "keyword": "BeautyPro targets K-beauty demand with travel retail-exclusive Glass Skin mask duo - Moodie Davitt Report",
-      "product": "BeautyPro targets K-beauty demand with travel retail-exclusive Glass Skin mask duo - Moodie Davitt Report",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZGtPcGp3dWM2dUNNVjJLU29HVXZ3VmFGMkFvb09pcVZDZEFUMkgzZmE4STN0V0NBTzM3TEIxdDdzbWJUcUxQRkdwOXdPd1U4Wm5nS3VTT1BPS3VhSy1Vdi1mbDRPakw0eF9jTXlzTWZUSkhjbXcxVlZSQ2NlZ2pVWk5BUV9XRVhwZldNc0MxVGUyZ2oyVnJpc2FXclBueVB1N01tLWZmUlFNUVRjZjJ4SW5uYm4?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "When Can Beauty Retailers Be Friends? - WWD",
-      "product": "When Can Beauty Retailers Be Friends? - WWD",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLWEtWVA2YVNqamhFemRHRE45bWpVcEdPOEI5RThRVzlrZW40N0NybkFZYjBuZEJEYW9XaDhOcmpzS3ZJTGZYYU5RQXpZSXBTQk9VQzJtbGR3V2xuWF95U2RuWU5sU0hnb1pZTjJoTE9FbjVMVzhhYlo1S1RMaklzQ3FQWVFGRHN4cGV4Vlktb0RRSGIzdERBZnp0RUo0V3gzRm1OMzRPYmk?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "From spandex to skin care: Hyosung bets big on K-beauty through new supply chains - Korea JoongAng Daily",
-      "product": "From spandex to skin care: Hyosung bets big on K-beauty through new supply chains - Korea JoongAng Daily",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVDV0LU55a2lyX3FOdWlNZ1JYaEltVGFOTkExeWxvWXg3S3RuZk5FampFNnlrN0VUY1p4OFJlNHg3VXBoak9qVC0wSUp4NnQzcFVfaFNrU3U5bEYtT2J1QndjelM4UGhaTElKSnl2Zm1KcDlWZ0VORkVaRWVjQVJxZTBhUVJwd3hnVmVsam4xTmwtNmpjbmRqWjdUVXB0ZTlCTkJacFV5N3pVc3hFa0JEenJlb01mREk1alA2S2lfb3VRcjdVaFR0c2ZJeVk?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "US and Korean sunscreens are not created equal, study says - WTOP News",
       "product": "US and Korean sunscreens are not created equal, study says - WTOP News",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnpvNUR0bm0tV2E0M183TDZLUVUwal9NRHduZ21ULUtPZFl2SnFoVS1WVFVZTjJtZjFfX1R5Um1Lajk0TXZzbnVpbkdpMXdMbno4dHo0Y3g4R3lYbV9rRkcyY0VsSjRVSFFPWVV5cTNNWG0tVC0zZ0tER251cDRCM3A0ZEJnNTBjWjBrYnp2dHRHSXd2UkNMckJqQ1JmUmFkX1RCeElDdmtzMGJ4X3V6SjJYbTQyUlNvazMycGw4b2k4aG44YkdN?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
+      "product": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
+      "sub": "Korean sunscreen",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhPYk45c2xzWEw3Mmx2akplQWJZS1F1SnJSbnZJV3RmV0hLTktMUnl4cDBQak5jdDQ0LWlUWWtGODZSbkFfU0Q3MDZ0S0FtVFNDSjUyaldtU0l6WjhiZXpjN1MxVjdRNGVXeEUyZkNqY29aeXBqckFYYWxTYkF4TkpFVUFsZjFRMk9EU1N3?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -97,15 +106,6 @@
       "beauty": true
     },
     {
-      "keyword": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
-      "product": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
-      "sub": "Korean sunscreen",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZHBXQzBDZ2dGRHdEeXdtSXk5NkpMbW5vZzYzdGVWWVk1RllId3RCaUtPVnRIUVVEME84QmUzYTRBcGt5SE9rd3VpU0NZcWhBak1tMjVNR2lPd050RUdwaUJQbHB6TU81UDVmejBkVElrcnFKdnY1UHZ6SjVOMmtCNjNod3AtYm5Qb3c?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "Is Korean sunscreen worth the hype? - WAFB",
       "product": "Is Korean sunscreen worth the hype? - WAFB",
       "sub": "Korean sunscreen",
@@ -115,8 +115,17 @@
       "beauty": true
     },
     {
-      "keyword": "The 5 Best Sunscreens (2026): Expert Approved - Fortune",
-      "product": "The 5 Best Sunscreens (2026): Expert Approved - Fortune",
+      "keyword": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - womenshealthmag.com",
+      "product": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - womenshealthmag.com",
+      "sub": "Korean sunscreen",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZHBXQzBDZ2dGRHdEeXdtSXk5NkpMbW5vZzYzdGVWWVk1RllId3RCaUtPVnRIUVVEME84QmUzYTRBcGt5SE9rd3VpU0NZcWhBak1tMjVNR2lPd050RUdwaUJQbHB6TU81UDVmejBkVElrcnFKdnY1UHZ6SjVOMmtCNjNod3AtYm5Qb3c?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "The 5 Best Sunscreens (2026): Expert Approved - fortune.com",
+      "product": "The 5 Best Sunscreens (2026): Expert Approved - fortune.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE04NldmdnZiVzNNZEg4ekdkM0FVMlV6aXhHVVpSV21GRTE0TE0tOVBTX203dHZQQ0xEejlHVTVNQ0ZXNmZ0Wi1kQzVQZUt0V1N3Nk1kTUM4QQ?oc=5",
@@ -124,8 +133,8 @@
       "beauty": true
     },
     {
-      "keyword": "11 Of The Best Clear Sunscreens For Black & Brown Skin - coveteur.com",
-      "product": "11 Of The Best Clear Sunscreens For Black & Brown Skin - coveteur.com",
+      "keyword": "11 Of The Best Clear Sunscreens For Black & Brown Skin - Coveteur",
+      "product": "11 Of The Best Clear Sunscreens For Black & Brown Skin - Coveteur",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZTWU0R2c2bXdNckV1N29mSDJWb201UGxUT2ZOajNjZ0oyRkJHTWVQdzdSME5YT0M2M0g2YXFrSnZGZWk3Mmx2S3VkVUx3bk9jMVV5dQ?oc=5",
@@ -138,15 +147,6 @@
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Why Dermatologists Say Korean Sunscreens Are a Game-Changer for Your Skin - TODAY.com",
-      "product": "Why Dermatologists Say Korean Sunscreens Are a Game-Changer for Your Skin - TODAY.com",
-      "sub": "Korean sunscreen",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYSVhpV19HSHdPNzdPX2JLRjJvdWxIOVRBa3NSX2NfMUw3Tkc3MWJwa0s4ZERHUzFHcWNXSnByV2lYN09jMEJ2a3pjaGNzMzRsSjMzWktsMllRS2laWVZnMl9YQVBMLXA4Sm1rVQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -232,8 +232,8 @@
       "beauty": true
     },
     {
-      "keyword": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - Cosmopolitan",
-      "product": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - Cosmopolitan",
+      "keyword": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - cosmopolitan.com",
+      "product": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - cosmopolitan.com",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51X3N0RkJ5UUFOczdKQ2xiV24wOEJsMGlUUU1vTnJIWGZXd0VJVDZtcExtbHh5VWwwUVpzYXVqYklvc29sSF9zaUtnbDUybF9iTGxVWE1PVkxOZGVacVNUT2REeG42TGtPaGNUdjF6a08zSG40M3Z5d0JR?oc=5",
@@ -358,8 +358,8 @@
       "beauty": true
     },
     {
-      "keyword": "EADEM Milk Marvel Dark Spot Serum with Niacinamide and Vitamin C - Teen Vogue",
-      "product": "EADEM Milk Marvel Dark Spot Serum with Niacinamide and Vitamin C - Teen Vogue",
+      "keyword": "EADEM Milk Marvel Dark Spot Serum with Niacinamide and Vitamin C - teenvogue.com",
+      "product": "EADEM Milk Marvel Dark Spot Serum with Niacinamide and Vitamin C - teenvogue.com",
       "sub": "niacinamide serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMS1TTmJDR1F4RmlGV0tDYmhMYkZpMFFLVE1wM0YzdmtXSzExcHRMRHFMNHdqb0NhQlQ0TW1oSFhJaVFEa2x4SGJfc2tscVhEVVM1bmVOQmxuWFRqbWE2bC1ZWlZEeFU4d2dHVmk1WF9NdGRpRE5YNGZ6OFZmZFdhRWx5V2VQNWoxbHVIekhpWVpURUJsZWhMQWI1Z2VOTzIyQkhFVTVlWDZvaDdab2sxN3N2V0ExYXROZGlBc292UXBnZ3M2?oc=5",

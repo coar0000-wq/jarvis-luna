@@ -2,7 +2,7 @@
 title: "Record 128 · Deep-Reinforcement-Learning-for-Optimization-of-STAR-RIS-Phase-and-Ene"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.099069+00:00
+updated_at: 2026-09-08T22:24:12.352938+00:00
 tags: [record, real-data]
 ---
 

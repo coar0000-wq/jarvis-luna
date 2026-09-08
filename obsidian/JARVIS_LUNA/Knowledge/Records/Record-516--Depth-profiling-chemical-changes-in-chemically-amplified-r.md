@@ -2,7 +2,7 @@
 title: "Record 516 · Depth-profiling-chemical-changes-in-chemically-amplified-resists-for-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.195889+00:00
+updated_at: 2026-09-08T22:24:12.445186+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 110 · Transversality-Conditions-for-Boundary-Constraints-Defined-by-Differen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.094053+00:00
+updated_at: 2026-09-08T22:24:12.348497+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 853 · Retinol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.275025+00:00
+updated_at: 2026-09-08T22:24:12.522705+00:00
 tags: [record, real-data]
 ---
 

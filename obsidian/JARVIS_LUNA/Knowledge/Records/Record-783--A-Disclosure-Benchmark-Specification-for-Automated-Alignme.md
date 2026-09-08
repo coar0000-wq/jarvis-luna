@@ -2,7 +2,7 @@
 title: "Record 783 · A-Disclosure-Benchmark-Specification-for-Automated-Alignment-Research-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.259163+00:00
+updated_at: 2026-09-08T22:24:12.506716+00:00
 tags: [record, real-data]
 ---
 

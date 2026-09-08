@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T19:44:07.983408+00:00",
+  "generated_at": "2026-09-08T22:49:56.744079+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "trump 9/11",
+          "keyword": "rockies vs yankees",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Tue, 8 Sep 2026 15:10:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=rockies%20vs%20yankees"
+        },
+        {
+          "keyword": "angels vs red sox",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Tue, 8 Sep 2026 15:00:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=angels%20vs%20red%20sox"
+        },
+        {
+          "keyword": "mets vs marlins",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Tue, 8 Sep 2026 15:00:00 -0700",
+          "source_name": "SNY",
+          "url": "https://trends.google.com/trending?geo=US&q=mets%20vs%20marlins"
+        },
+        {
+          "keyword": "twins vs tigers",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Tue, 8 Sep 2026 15:00:00 -0700",
+          "source_name": "Bless You Boys",
+          "url": "https://trends.google.com/trending?geo=US&q=twins%20vs%20tigers"
+        },
+        {
+          "keyword": "rays vs braves",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Tue, 8 Sep 2026 12:20:00 -0700",
-          "source_name": "WUSA9",
-          "url": "https://trends.google.com/trending?geo=US&q=trump%209/11"
+          "published": "Tue, 8 Sep 2026 15:20:00 -0700",
+          "source_name": "CBS News",
+          "url": "https://trends.google.com/trending?geo=US&q=rays%20vs%20braves"
         },
         {
-          "keyword": "dortmund",
+          "keyword": "kelly osbourne",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Tue, 8 Sep 2026 12:10:00 -0700",
-          "source_name": "sportschau.de",
-          "url": "https://trends.google.com/trending?geo=US&q=dortmund"
+          "published": "Tue, 8 Sep 2026 15:00:00 -0700",
+          "source_name": "USA Today",
+          "url": "https://trends.google.com/trending?geo=US&q=kelly%20osbourne"
         },
         {
-          "keyword": "fc porto",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 8 Sep 2026 12:30:00 -0700",
-          "source_name": "A Bola",
-          "url": "https://trends.google.com/trending?geo=US&q=fc%20porto"
-        },
-        {
-          "keyword": "evergreen middle school",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 8 Sep 2026 12:10:00 -0700",
-          "source_name": "KREM",
-          "url": "https://trends.google.com/trending?geo=US&q=evergreen%20middle%20school"
-        },
-        {
-          "keyword": "pentagon polygraph screening military officials",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 8 Sep 2026 12:10:00 -0700",
-          "source_name": "The Guardian",
-          "url": "https://trends.google.com/trending?geo=US&q=pentagon%20polygraph%20screening%20military%20officials"
-        },
-        {
-          "keyword": "destroyer",
+          "keyword": "the young and the restless",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 12:30:00 -0700",
-          "source_name": "CNN",
-          "url": "https://trends.google.com/trending?geo=US&q=destroyer"
+          "published": "Tue, 8 Sep 2026 15:30:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=the%20young%20and%20the%20restless"
         },
         {
-          "keyword": "meta muse",
+          "keyword": "trump ai posts",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 12:30:00 -0700",
-          "source_name": "CNBC",
-          "url": "https://trends.google.com/trending?geo=US&q=meta%20muse"
+          "published": "Tue, 8 Sep 2026 15:20:00 -0700",
+          "source_name": "ABC News - Breaking News, Latest News and Videos",
+          "url": "https://trends.google.com/trending?geo=US&q=trump%20ai%20posts"
         },
         {
-          "keyword": "cardinals depth chart",
+          "keyword": "fire near me",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 12:30:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=cardinals%20depth%20chart"
+          "published": "Tue, 8 Sep 2026 15:10:00 -0700",
+          "source_name": "cbs8.com",
+          "url": "https://trends.google.com/trending?geo=US&q=fire%20near%20me"
         },
         {
-          "keyword": "phil jackson",
+          "keyword": "dwts premiere",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 12:30:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=phil%20jackson"
-        },
-        {
-          "keyword": "tudn",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 12:20:00 -0700",
-          "source_name": "Fubo",
-          "url": "https://trends.google.com/trending?geo=US&q=tudn"
+          "published": "Tue, 8 Sep 2026 15:10:00 -0700",
+          "source_name": "ABC News - Breaking News, Latest News and Videos",
+          "url": "https://trends.google.com/trending?geo=US&q=dwts%20premiere"
         }
       ]
     },

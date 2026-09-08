@@ -2,7 +2,7 @@
 title: "Record 355 · Hydrogen-Radical-Permeation-Dynamics-through-Ultrathin-ALD-Al-2-O-3-La"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.158221+00:00
+updated_at: 2026-09-08T22:24:12.408342+00:00
 tags: [record, real-data]
 ---
 

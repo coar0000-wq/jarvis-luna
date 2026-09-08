@@ -2,7 +2,7 @@
 title: "Record 923 · AMD-and-Cerebras-Announce-Industry-Leading-Ultra-Low-Latency-and-High-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.292703+00:00
+updated_at: 2026-09-08T22:24:12.539953+00:00
 tags: [record, real-data]
 ---
 

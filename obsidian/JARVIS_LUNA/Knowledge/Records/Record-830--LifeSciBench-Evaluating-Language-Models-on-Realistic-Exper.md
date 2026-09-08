@@ -2,7 +2,7 @@
 title: "Record 830 · LifeSciBench-Evaluating-Language-Models-on-Realistic-Expert-Level-Task"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.269985+00:00
+updated_at: 2026-09-08T22:24:12.517546+00:00
 tags: [record, real-data]
 ---
 

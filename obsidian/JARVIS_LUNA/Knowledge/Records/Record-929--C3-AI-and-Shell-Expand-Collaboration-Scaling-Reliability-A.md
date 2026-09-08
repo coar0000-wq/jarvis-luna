@@ -2,7 +2,7 @@
 title: "Record 929 · C3-AI-and-Shell-Expand-Collaboration-Scaling-Reliability-AI-Deployment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.294036+00:00
+updated_at: 2026-09-08T22:24:12.541386+00:00
 tags: [record, real-data]
 ---
 

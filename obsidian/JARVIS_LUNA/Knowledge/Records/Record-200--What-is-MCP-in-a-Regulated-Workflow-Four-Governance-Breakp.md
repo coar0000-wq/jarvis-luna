@@ -2,7 +2,7 @@
 title: "Record 200 · What-is-MCP-in-a-Regulated-Workflow-Four-Governance-Breakpoints"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.120005+00:00
+updated_at: 2026-09-08T22:24:12.371708+00:00
 tags: [record, real-data]
 ---
 

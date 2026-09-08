@@ -2,7 +2,7 @@
 title: "Record 256 · Impact-of-Source-Contact-Segmentation-on-the-Electrical-Characteristic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.135334+00:00
+updated_at: 2026-09-08T22:24:12.385492+00:00
 tags: [record, real-data]
 ---
 

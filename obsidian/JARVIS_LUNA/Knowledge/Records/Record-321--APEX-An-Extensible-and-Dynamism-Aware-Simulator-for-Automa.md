@@ -2,7 +2,7 @@
 title: "Record 321 · APEX-An-Extensible-and-Dynamism-Aware-Simulator-for-Automated-Parallel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.150379+00:00
+updated_at: 2026-09-08T22:24:12.400533+00:00
 tags: [record, real-data]
 ---
 

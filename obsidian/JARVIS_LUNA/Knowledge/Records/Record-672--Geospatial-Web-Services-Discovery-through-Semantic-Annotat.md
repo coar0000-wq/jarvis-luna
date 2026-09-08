@@ -2,7 +2,7 @@
 title: "Record 672 · Geospatial-Web-Services-Discovery-through-Semantic-Annotation-of-WPS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.232732+00:00
+updated_at: 2026-09-08T22:24:12.482032+00:00
 tags: [record, real-data]
 ---
 

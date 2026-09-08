@@ -2,7 +2,7 @@
 title: "Record 826 · Systematic-Integration-of-genomics-with-transcriptomics-for-the-Study-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.269102+00:00
+updated_at: 2026-09-08T22:24:12.516652+00:00
 tags: [record, real-data]
 ---
 

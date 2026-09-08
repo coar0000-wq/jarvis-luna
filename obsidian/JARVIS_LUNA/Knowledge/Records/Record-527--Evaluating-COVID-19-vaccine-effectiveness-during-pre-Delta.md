@@ -2,7 +2,7 @@
 title: "Record 527 · Evaluating-COVID-19-vaccine-effectiveness-during-pre-Delta-Delta-and-O"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.198711+00:00
+updated_at: 2026-09-08T22:24:12.447739+00:00
 tags: [record, real-data]
 ---
 

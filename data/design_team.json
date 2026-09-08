@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-08T19:16:33.141907+00:00",
+  "generated_at": "2026-09-08T22:22:07.971566+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -153,6 +153,13 @@
         "feed": "Shopify Changelog"
       },
       {
+        "title": "Meta is now an AI channel in your admin",
+        "url": "https://changelog.shopify.com/posts/meta-is-now-an-ai-channel-in-your-admin",
+        "date": "2026-09-08",
+        "summary": "Meta now appears alongside your other AI channels in Agentic Storefronts in your admin. Your products are shared with Meta by default through Shopify Catalog. You can manage acess for Catalog and direct checkout, and view performance for Meta in your agentic settings. Learn more about selling on Met",
+        "feed": "Shopify Changelog"
+      },
+      {
         "title": "Permitted store staff can now see an identified customer's online cart in POS",
         "url": "https://changelog.shopify.com/posts/permitted-store-staff-can-now-see-an-identified-customer-s-online-cart-in-pos",
         "date": "2026-09-03",
@@ -241,13 +248,6 @@
         "url": "https://changelog.shopify.com/posts/managed-markets-is-ending-delivered-duty-unpaid-ddu-support",
         "date": "2026-08-11",
         "summary": "On August 24, 2026, Shopify Managed Markets will stop supporting delivered duty unpaid (DDU) in every country and region where it supports delivered duty paid (DDP). What's changing Markets that use or inherit DDU automatically move to DDP wherever Managed Markets supports it. Customers in those mar",
-        "feed": "Shopify Changelog"
-      },
-      {
-        "title": "Enhanced printed receipt editor",
-        "url": "https://changelog.shopify.com/posts/enhanced-printed-receipt-editor",
-        "date": "2026-08-11",
-        "summary": "We've updated printed receipts in Shopify POS so you can manage sale, return, exchange, gift, and gift card receipts in one place. Return and exchange receipts now print as a single section with one amount summary at the bottom, instead of two separate sections with two subtotals. What’s new? The ne",
         "feed": "Shopify Changelog"
       },
       {

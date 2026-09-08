@@ -2,7 +2,7 @@
 title: "Record 466 · Formal-Specification-and-Verification-of-Architecturally-Defined-Attes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.184871+00:00
+updated_at: 2026-09-08T22:24:12.434092+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 187 · Frontend-Engineering-at-Palantir-Engineering-Multilingual-Collaboratio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.116786+00:00
+updated_at: 2026-09-08T22:24:12.368824+00:00
 tags: [record, real-data]
 ---
 

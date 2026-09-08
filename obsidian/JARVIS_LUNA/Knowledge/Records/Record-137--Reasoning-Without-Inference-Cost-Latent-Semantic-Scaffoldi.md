@@ -2,7 +2,7 @@
 title: "Record 137 · Reasoning-Without-Inference-Cost-Latent-Semantic-Scaffolding-for-Robot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.101892+00:00
+updated_at: 2026-09-08T22:24:12.355469+00:00
 tags: [record, real-data]
 ---
 

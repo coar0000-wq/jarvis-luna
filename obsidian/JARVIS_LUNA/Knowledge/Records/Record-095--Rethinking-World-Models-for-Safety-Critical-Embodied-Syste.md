@@ -2,7 +2,7 @@
 title: "Record 095 · Rethinking-World-Models-for-Safety-Critical-Embodied-Systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.089219+00:00
+updated_at: 2026-09-08T22:24:12.344035+00:00
 tags: [record, real-data]
 ---
 

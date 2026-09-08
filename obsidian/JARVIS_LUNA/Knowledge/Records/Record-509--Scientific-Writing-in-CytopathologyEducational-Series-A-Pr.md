@@ -2,7 +2,7 @@
 title: "Record 509 · Scientific-Writing-in-CytopathologyEducational-Series-A-Practical-Guid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.194328+00:00
+updated_at: 2026-09-08T22:24:12.443640+00:00
 tags: [record, real-data]
 ---
 

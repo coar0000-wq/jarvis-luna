@@ -2,7 +2,7 @@
 title: "Record 912 · Snowflake-Pioneers-New-Open-Framework-for-Interoperable-Enterprise-Dat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.290358+00:00
+updated_at: 2026-09-08T22:24:12.537573+00:00
 tags: [record, real-data]
 ---
 

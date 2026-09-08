@@ -2,7 +2,7 @@
 title: "Record 462 · Reimagining-resilience-informal-workers-and-adaptive-strategies-for-po"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.183967+00:00
+updated_at: 2026-09-08T22:24:12.433184+00:00
 tags: [record, real-data]
 ---
 

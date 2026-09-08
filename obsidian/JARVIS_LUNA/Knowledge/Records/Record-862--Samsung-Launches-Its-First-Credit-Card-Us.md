@@ -2,7 +2,7 @@
 title: "Record 862 · Samsung-Launches-Its-First-Credit-Card-Us"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.276912+00:00
+updated_at: 2026-09-08T22:24:12.524623+00:00
 tags: [record, real-data]
 ---
 

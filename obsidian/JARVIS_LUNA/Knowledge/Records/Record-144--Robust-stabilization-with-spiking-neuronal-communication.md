@@ -2,7 +2,7 @@
 title: "Record 144 · Robust-stabilization-with-spiking-neuronal-communication"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.104141+00:00
+updated_at: 2026-09-08T22:24:12.357469+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 431 · Comparing-classical-and-quantum-machine-learning-approaches-for-crop-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.176503+00:00
+updated_at: 2026-09-08T22:24:12.425824+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 121 · One-Editor-Many-Edits-A-Unified-Training-Free-Framework-for-Diverse-Vi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.097006+00:00
+updated_at: 2026-09-08T22:24:12.351133+00:00
 tags: [record, real-data]
 ---
 

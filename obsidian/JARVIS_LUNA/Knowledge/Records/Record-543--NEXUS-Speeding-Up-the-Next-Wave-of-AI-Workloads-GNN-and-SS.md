@@ -2,7 +2,7 @@
 title: "Record 543 · NEXUS-Speeding-Up-the-Next-Wave-of-AI-Workloads-GNN-and-SSM-Optimizati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.202585+00:00
+updated_at: 2026-09-08T22:24:12.451085+00:00
 tags: [record, real-data]
 ---
 

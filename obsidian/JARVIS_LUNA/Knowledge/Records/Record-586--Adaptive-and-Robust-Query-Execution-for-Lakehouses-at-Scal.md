@@ -2,7 +2,7 @@
 title: "Record 586 · Adaptive-and-Robust-Query-Execution-for-Lakehouses-at-Scale"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.212336+00:00
+updated_at: 2026-09-08T22:24:12.460593+00:00
 tags: [record, real-data]
 ---
 

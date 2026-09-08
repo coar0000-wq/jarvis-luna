@@ -2,7 +2,7 @@
 title: "Record 920 · AMD-Appoints-Alan-Smith-as-Newest-Corporate-Fellow"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.292032+00:00
+updated_at: 2026-09-08T22:24:12.539282+00:00
 tags: [record, real-data]
 ---
 

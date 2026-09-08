@@ -2,7 +2,7 @@
 title: "Record 686 · Vivência-da-Amamentação-no-Pós-Parto-Imediato-Sobre-a-Ótica-das-Puérpe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.236050+00:00
+updated_at: 2026-09-08T22:24:12.485241+00:00
 tags: [record, real-data]
 ---
 

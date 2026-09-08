@@ -2,7 +2,7 @@
 title: "Record 523 · The-next-Turing-tests-Reimagining-conceptions-and-measures-of-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.197603+00:00
+updated_at: 2026-09-08T22:24:12.446750+00:00
 tags: [record, real-data]
 ---
 

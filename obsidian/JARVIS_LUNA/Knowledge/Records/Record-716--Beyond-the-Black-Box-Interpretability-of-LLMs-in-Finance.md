@@ -2,7 +2,7 @@
 title: "Record 716 · Beyond-the-Black-Box-Interpretability-of-LLMs-in-Finance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.242787+00:00
+updated_at: 2026-09-08T22:24:12.491825+00:00
 tags: [record, real-data]
 ---
 

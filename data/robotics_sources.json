@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T19:15:06.880090+00:00",
+  "generated_at": "2026-09-08T22:20:46.811587+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -704,6 +704,22 @@
           "source": "rss"
         },
         {
+          "title": "Boston Dynamics veterans launch Dynamic Creatures to bring characters to life with robotics",
+          "summary": "<p>Dynamic Creatures plants to create its own line of characters, and to re-create characters for specific brands and environments.</p> <p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/\">Boston Dynamics veterans launch Dynamic Creatures to bring characters to life with robotics</a> appeared first on <a h",
+          "published": "Tue, 08 Sep 2026 20:39:51 +0000",
+          "url": "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
+          "title": "AI can’t outrun a humanoid’s hardware",
+          "summary": "<p>The remarkable progress in AI has brought robotics closer to machines capable of determining what they should do. The next major advance may depend on whether their physical systems can execute those decisions efficiently, precisely and safely.</p> <p>The post <a href=\"https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/\">AI can’t outrun a humanoid&#8217;s hardware</a> appeared f",
+          "published": "Tue, 08 Sep 2026 19:03:09 +0000",
+          "url": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
           "title": "Why vision AI is the safety backbone of the automated job site",
           "summary": "<p>Vision AI doesn't replace robots or human judgement; it provides the continuous perception that allows both to operate safely together.</p> <p>The post <a href=\"https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/\">Why vision AI is the safety backbone of the automated job site</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.<",
           "published": "Tue, 08 Sep 2026 16:05:04 +0000",
@@ -804,22 +820,6 @@
           "summary": "<p>Medtronic and Cornerstone Robotics are building a multi-port portfolio anchored by the Hugo surgical system and expanded by Sentire.</p> <p>The post <a href=\"https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/\">Medtronic invests $700M in surgical partner Cornerstone Robotics</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Repo",
           "published": "Thu, 03 Sep 2026 18:53:54 +0000",
           "url": "https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "JAKA hits Teradyne Robotics back over patent dispute",
-          "summary": "<p>JAKA is now taking legal action against Teradyne Robotics to end public dissemination of statements it considers \"false, misleading and damaging.\"</p> <p>The post <a href=\"https://www.therobotreport.com/jaka-hits-teradyne-robotics-back-over-patent-dispute/\">JAKA hits Teradyne Robotics back over patent dispute</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</",
-          "published": "Thu, 03 Sep 2026 17:44:20 +0000",
-          "url": "https://www.therobotreport.com/jaka-hits-teradyne-robotics-back-over-patent-dispute/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "NVIDIA plans to acquire Hugging Face and keep AI development platform open",
-          "summary": "<p>NVIDIA is already a major model contributor to Hugging Face, which recently surpassed 1 million datasets.</p> <p>The post <a href=\"https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/\">NVIDIA plans to acquire Hugging Face and keep AI development platform open</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Thu, 03 Sep 2026 15:28:02 +0000",
-          "url": "https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/",
           "feed": "The Robot Report",
           "source": "rss"
         }

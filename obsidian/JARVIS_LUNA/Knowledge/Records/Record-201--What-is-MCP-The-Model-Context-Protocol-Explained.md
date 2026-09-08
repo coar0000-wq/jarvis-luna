@@ -2,7 +2,7 @@
 title: "Record 201 · What-is-MCP-The-Model-Context-Protocol-Explained"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T19:18:43.120247+00:00
+updated_at: 2026-09-08T22:24:12.371927+00:00
 tags: [record, real-data]
 ---
 
