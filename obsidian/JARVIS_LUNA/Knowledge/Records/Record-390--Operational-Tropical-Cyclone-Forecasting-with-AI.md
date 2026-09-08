@@ -2,7 +2,7 @@
 title: "Record 390 · Operational-Tropical-Cyclone-Forecasting-with-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.258576+00:00
+updated_at: 2026-09-08T19:18:43.166695+00:00
 tags: [record, real-data]
 ---
 

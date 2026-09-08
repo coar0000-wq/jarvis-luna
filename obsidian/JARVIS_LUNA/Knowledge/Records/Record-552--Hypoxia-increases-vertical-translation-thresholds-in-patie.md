@@ -2,7 +2,7 @@
 title: "Record 552 · Hypoxia-increases-vertical-translation-thresholds-in-patients-with-uni"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.299278+00:00
+updated_at: 2026-09-08T19:18:43.204860+00:00
 tags: [record, real-data]
 ---
 

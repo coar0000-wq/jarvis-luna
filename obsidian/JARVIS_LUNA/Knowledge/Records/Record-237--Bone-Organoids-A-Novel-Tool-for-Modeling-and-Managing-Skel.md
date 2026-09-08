@@ -2,7 +2,7 @@
 title: "Record 237 · Bone-Organoids-A-Novel-Tool-for-Modeling-and-Managing-Skeletal-Disorde"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.218905+00:00
+updated_at: 2026-09-08T19:18:43.130165+00:00
 tags: [record, real-data]
 ---
 

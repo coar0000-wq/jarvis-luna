@@ -2,7 +2,7 @@
 title: "Record 485 · A-11-pJbLane-18-Tbs-Chiplet-Using-113-Gbs-PAM-4-Transceiver-With-Equal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.283356+00:00
+updated_at: 2026-09-08T19:18:43.189029+00:00
 tags: [record, real-data]
 ---
 

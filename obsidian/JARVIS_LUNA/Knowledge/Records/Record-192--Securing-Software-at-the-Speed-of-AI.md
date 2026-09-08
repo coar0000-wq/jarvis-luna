@@ -2,7 +2,7 @@
 title: "Record 192 · Securing-Software-at-the-Speed-of-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.206336+00:00
+updated_at: 2026-09-08T19:18:43.117950+00:00
 tags: [record, real-data]
 ---
 

@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-08T14:08:01.065480+00:00",
+  "generated_at": "2026-09-08T19:16:33.141907+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -146,6 +146,13 @@
     "failures": [],
     "items": [
       {
+        "title": "Product variants now support multiple barcodes",
+        "url": "https://changelog.shopify.com/posts/multiple-barcodes-in-variants",
+        "date": "2026-09-08",
+        "summary": "Until now, a product variant could hold one barcode. That's a problem when the same item arrives with a manufacturer's UPC on the box, your own private-label EAN on the shelf tag, and an ASIN on a marketplace listing. You had to pick one and keep the rest in a spreadsheet. Now you can add up to 20 b",
+        "feed": "Shopify Changelog"
+      },
+      {
         "title": "Permitted store staff can now see an identified customer's online cart in POS",
         "url": "https://changelog.shopify.com/posts/permitted-store-staff-can-now-see-an-identified-customer-s-online-cart-in-pos",
         "date": "2026-09-03",
@@ -244,11 +251,18 @@
         "feed": "Shopify Changelog"
       },
       {
-        "title": "See Shop Campaigns performance in your analytics tools",
-        "url": "https://changelog.shopify.com/posts/see-shop-campaigns-performance-in-your-analytics-tools",
-        "date": "2026-08-10",
-        "summary": "Shop Campaigns performance data, including ad spend, sales, ROAS, and customer acquisition cost, is now available through ShopifyQL . This means your analytics and reporting apps can pull Shop Campaigns data directly, so you can see campaign performance alongside your other marketing channels. What ",
-        "feed": "Shopify Changelog"
+        "title": "Variants now support multiple barcodes",
+        "url": "https://shopify.dev/changelog/product-variant-barcode-is-being-replaced-by-barcodes",
+        "date": "2026-09-08",
+        "summary": "Merchants often sell the same variant under more than one identifier: a manufacturer UPC alongside a private-label EAN, a GTIN, a reissued ISBN, or an ASIN for a marketplace listing. Until now a variant held a single barcode value, so the extras ended up in metafields, tags, or outside Shopify entir",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "Customer Address APIs now support countryCode",
+        "url": "https://shopify.dev/changelog/customer-address-apis-now-support-countrycode",
+        "date": "2026-09-08",
+        "summary": "Starting with Customer Account API version 2026-10, customer address inputs and objects support countryCode . The existing territoryCode field is deprecated but remains fully supported, so current integrations continue working without interruption. Developers should migrate to countryCode when adopt",
+        "feed": "Shopify Dev Changelog"
       },
       {
         "title": "Shopify storefronts now support UCP 2026-08-25",
@@ -339,20 +353,6 @@
         "url": "https://shopify.dev/changelog/hydrogen-developer-preview-update-august-18-2026",
         "date": "2026-08-18",
         "summary": "The Hydrogen developer preview adds new capabilities to the toolkit and extends the ways developers can build Shopify storefronts: Cart session attribution: Carts and Customer Account sessions stay in step, so signed-in shoppers reach checkout with their saved details instead of a guest flow. Cart a",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Shop Campaigns performance data now available via ShopifyQL",
-        "url": "https://shopify.dev/changelog/shop-campaigns-shopifyql",
-        "date": "2026-08-10",
-        "summary": "The shop_campaign_insights schema is now available in the ShopifyQL . Analytics and reporting apps can query Shop Campaigns performance data on behalf of authorized merchants using the existing shopifyqlQuery field with read_reports scope. Available data Campaign-level and segment-level metrics incl",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Standard storefront events and actions now support cart attributes",
-        "url": "https://shopify.dev/changelog/events-and-actions-cart-attributes-support",
-        "date": "2026-08-06",
-        "summary": "The updateCart standard action now updates cart attributes, and a new shopify:cart:attributes-update event fires whenever an attributes update is initiated. Before this, changing an attribute meant calling the Storefront API yourself, and nothing told your app when one changed. The action now handle",
         "feed": "Shopify Dev Changelog"
       },
       {

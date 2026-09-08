@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-08T14:09:04.641399+00:00",
+  "collected_at": "2026-09-08T19:17:38.262354+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 33,
+  "post_count": 25,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -35,39 +35,28 @@
     },
     {
       "subreddit": "AsianBeautyAdvice",
-      "post_count": 25,
+      "post_count": 0,
       "errors": [
+        "hot: HTTPError: HTTP Error 429: Too Many Requests",
         "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     }
   ],
   "hot_keywords": [
     {
-      "keyword": "thoughts",
-      "score": 14
-    },
-    {
-      "keyword": "random",
-      "score": 13
-    },
-    {
-      "keyword": "know",
+      "keyword": "skin",
       "score": 6
     },
     {
       "keyword": "september",
-      "score": 4
+      "score": 5
     },
     {
       "keyword": "2026",
-      "score": 4
+      "score": 5
     },
     {
       "keyword": "cushion",
-      "score": 4
-    },
-    {
-      "keyword": "skin",
       "score": 4
     },
     {
@@ -79,15 +68,35 @@
       "score": 3
     },
     {
-      "keyword": "anything",
-      "score": 3
+      "keyword": "question",
+      "score": 2
     },
     {
       "keyword": "ask",
       "score": 2
     },
     {
+      "keyword": "here",
+      "score": 2
+    },
+    {
+      "keyword": "alter-daily",
+      "score": 2
+    },
+    {
+      "keyword": "questions",
+      "score": 2
+    },
+    {
       "keyword": "monday",
+      "score": 2
+    },
+    {
+      "keyword": "lashes",
+      "score": 2
+    },
+    {
+      "keyword": "thing",
       "score": 2
     },
     {
@@ -103,15 +112,11 @@
       "score": 2
     },
     {
-      "keyword": "trends",
-      "score": 2
-    },
-    {
       "keyword": "new",
       "score": 2
     },
     {
-      "keyword": "clio",
+      "keyword": "anything",
       "score": 2
     },
     {
@@ -120,10 +125,6 @@
     },
     {
       "keyword": "sheet",
-      "score": 2
-    },
-    {
-      "keyword": "review",
       "score": 2
     },
     {
@@ -143,35 +144,23 @@
       "score": 2
     },
     {
-      "keyword": "routine",
-      "score": 2
-    },
-    {
-      "keyword": "japanese",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreens",
-      "score": 2
-    },
-    {
-      "keyword": "k-beauty",
-      "score": 2
-    },
-    {
-      "keyword": "question",
+      "keyword": "wosado",
       "score": 1
     },
     {
-      "keyword": "here",
+      "keyword": "gimmick",
       "score": 1
     },
     {
-      "keyword": "alter-daily",
+      "keyword": "don",
       "score": 1
     },
     {
-      "keyword": "questions",
+      "keyword": "waste",
+      "score": 1
+    },
+    {
+      "keyword": "money",
       "score": 1
     },
     {
@@ -180,6 +169,26 @@
     },
     {
       "keyword": "empty",
+      "score": 1
+    },
+    {
+      "keyword": "improved",
+      "score": 1
+    },
+    {
+      "keyword": "stopped",
+      "score": 1
+    },
+    {
+      "keyword": "trying",
+      "score": 1
+    },
+    {
+      "keyword": "fix",
+      "score": 1
+    },
+    {
+      "keyword": "every",
       "score": 1
     },
     {
@@ -193,23 +202,15 @@
     {
       "keyword": "wear",
       "score": 1
-    },
-    {
-      "keyword": "cover",
-      "score": 1
-    },
-    {
-      "keyword": "layer",
-      "score": 1
     }
   ],
   "beauty_keywords": [
     {
-      "keyword": "cushion",
-      "score": 4
+      "keyword": "skin",
+      "score": 6
     },
     {
-      "keyword": "skin",
+      "keyword": "cushion",
       "score": 4
     },
     {
@@ -227,25 +228,13 @@
     {
       "keyword": "spf",
       "score": 2
-    },
-    {
-      "keyword": "routine",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreens",
-      "score": 2
-    },
-    {
-      "keyword": "k-beauty",
-      "score": 2
     }
   ],
   "posts": [
     {
-      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 06, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8yosp/have_a_question_ask_here_alterdaily_help_and/",
-      "published": "2026-09-06T15:09:24+00:00",
+      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 08, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1war2mh/have_a_question_ask_here_alterdaily_help_and/",
+      "published": "2026-09-08T15:09:10+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -257,9 +246,23 @@
       "feed": "hot"
     },
     {
+      "title": "Wosado lashes are a gimmick — don’t waste your money.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1waq3r2/wosado_lashes_are_a_gimmick_dont_waste_your_money/",
+      "published": "2026-09-08T14:33:53+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Heartbreaking empty",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wa6yxp/heartbreaking_empty/",
       "published": "2026-09-07T22:46:54+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "My skin improved when I stopped trying to fix every thing",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wawj7o/my_skin_improved_when_i_stopped_trying_to_fix/",
+      "published": "2026-09-08T18:22:55+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -327,16 +330,16 @@
       "feed": "hot"
     },
     {
-      "title": "New cleansing foam!! Primera sprakling pack-foam",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w9el34/new_cleansing_foam_primera_sprakling_packfoam/",
-      "published": "2026-09-07T01:43:11+00:00",
+      "title": "The best thing i own: d'Alba White Truffle Spray",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w95w65/the_best_thing_i_own_dalba_white_truffle_spray/",
+      "published": "2026-09-06T19:36:54+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "The best thing i own: d'Alba White Truffle Spray",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w95w65/the_best_thing_i_own_dalba_white_truffle_spray/",
-      "published": "2026-09-06T19:36:54+00:00",
+      "title": "New cleansing foam!! Primera sprakling pack-foam",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w9el34/new_cleansing_foam_primera_sprakling_packfoam/",
+      "published": "2026-09-07T01:43:11+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -376,9 +379,9 @@
       "feed": "hot"
     },
     {
-      "title": "Comparing BB Creams: Missha vs. Purito in shade 21",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7vn6a/comparing_bb_creams_missha_vs_purito_in_shade_21/",
-      "published": "2026-09-05T09:06:51+00:00",
+      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 06, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8yosp/have_a_question_ask_here_alterdaily_help_and/",
+      "published": "2026-09-06T15:09:24+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -390,87 +393,17 @@
       "feed": "hot"
     },
     {
+      "title": "Comparing BB Creams: Missha vs. Purito in shade 21",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7vn6a/comparing_bb_creams_missha_vs_purito_in_shade_21/",
+      "published": "2026-09-05T09:06:51+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "similar shade to peripera 15 acorn brown?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w826k0/similar_shade_to_peripera_15_acorn_brown/",
       "published": "2026-09-05T14:26:20+00:00",
       "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "“Men” VT reedle 60-85% cheaper per mL …. why?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7jhsu/men_vt_reedle_6085_cheaper_per_ml_why/",
-      "published": "2026-09-04T22:50:02+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Clio brought back discontinued pro eye palettes in 16 Napping Cheese and 11 Walking on the Cosey Alley",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7qlqg/clio_brought_back_discontinued_pro_eye_palettes/",
-      "published": "2026-09-05T04:29:06+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Ya man POREFICIENT device in Canada.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8kfls/ya_man_poreficient_device_in_canada/",
-      "published": "2026-09-06T03:04:49+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Revamping ABA",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/10dpkk9/revamping_aba/",
-      "published": "2023-01-16T19:53:22+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "hot"
-    },
-    {
-      "title": "Random AB thoughts",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w804rt/random_ab_thoughts/",
-      "published": "2026-09-05T13:00:11+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "hot"
-    },
-    {
-      "title": "I know it’s not AB, but...",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w59ohe/i_know_its_not_ab_but/",
-      "published": "2026-09-02T13:00:24+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "hot"
-    },
-    {
-      "title": "Routine Journal",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w3d44t/routine_journal/",
-      "published": "2026-08-31T13:00:10+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "hot"
-    },
-    {
-      "title": "[Review] Japanese sunscreens",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1vzze8m/review_japanese_sunscreens/",
-      "published": "2026-08-27T16:49:56+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "hot"
-    },
-    {
-      "title": "[Q&A] Can I still use it after the expiry date?",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1vvhx8l/qa_can_i_still_use_it_after_the_expiry_date/",
-      "published": "2026-08-22T17:09:57+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "hot"
-    },
-    {
-      "title": "[Q&A] Who’s the most honest K-beauty YouTuber you actually trust?",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1un7xgb/qa_whos_the_most_honest_kbeauty_youtuber_you/",
-      "published": "2026-07-04T12:32:43+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "hot"
-    },
-    {
-      "title": "[Q&A] I’m a student born and raised in Japan (currently living in Kyoto)! Ask me anything about Japanese drugstore cosmetics or local trends",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1u60pb4/qa_im_a_student_born_and_raised_in_japan/",
-      "published": "2026-06-14T23:55:47+00:00",
-      "subreddit": "AsianBeautyAdvice",
       "feed": "hot"
     }
   ],

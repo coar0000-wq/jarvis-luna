@@ -2,7 +2,7 @@
 title: "Record 846 · Análisis-de-sobrevida-a-los-2-años-de-seguimiento-del-Primer-Estudio-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.371083+00:00
+updated_at: 2026-09-08T19:18:43.273694+00:00
 tags: [record, real-data]
 ---
 

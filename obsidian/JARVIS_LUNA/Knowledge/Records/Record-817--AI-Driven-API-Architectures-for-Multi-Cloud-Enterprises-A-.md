@@ -2,7 +2,7 @@
 title: "Record 817 · AI-Driven-API-Architectures-for-Multi-Cloud-Enterprises-A-Comparative-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.363907+00:00
+updated_at: 2026-09-08T19:18:43.266988+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 540 · HONEYBEE-Efficient-Role-based-Access-Control-for-Vector-Databases-via-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.296394+00:00
+updated_at: 2026-09-08T19:18:43.201835+00:00
 tags: [record, real-data]
 ---
 

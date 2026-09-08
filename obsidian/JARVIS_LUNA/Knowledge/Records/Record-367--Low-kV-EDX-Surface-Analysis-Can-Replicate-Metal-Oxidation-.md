@@ -2,7 +2,7 @@
 title: "Record 367 · Low-kV-EDX-Surface-Analysis-Can-Replicate-Metal-Oxidation-Trends-of-XP"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.252651+00:00
+updated_at: 2026-09-08T19:18:43.161183+00:00
 tags: [record, real-data]
 ---
 

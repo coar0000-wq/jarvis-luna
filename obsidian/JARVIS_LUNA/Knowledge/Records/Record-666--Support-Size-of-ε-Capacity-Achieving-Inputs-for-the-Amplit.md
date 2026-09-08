@@ -2,7 +2,7 @@
 title: "Record 666 · Support-Size-of-ε-Capacity-Achieving-Inputs-for-the-Amplitude-Constrai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.327302+00:00
+updated_at: 2026-09-08T19:18:43.231230+00:00
 tags: [record, real-data]
 ---
 

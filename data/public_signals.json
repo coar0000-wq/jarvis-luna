@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T14:35:14.015537+00:00",
+  "generated_at": "2026-09-08T19:44:07.983408+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "dow jones",
-          "approx_traffic": "20000+",
-          "traffic_num": 20000,
-          "published": "Tue, 8 Sep 2026 07:00:00 -0700",
-          "source_name": "WSJ",
-          "url": "https://trends.google.com/trending?geo=US&q=dow%20jones"
-        },
-        {
-          "keyword": "ocarina of time remake",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Tue, 8 Sep 2026 07:20:00 -0700",
-          "source_name": "Vooks",
-          "url": "https://trends.google.com/trending?geo=US&q=ocarina%20of%20time%20remake"
-        },
-        {
-          "keyword": "s&p 500",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Tue, 8 Sep 2026 07:10:00 -0700",
-          "source_name": "Yahoo Finance",
-          "url": "https://trends.google.com/trending?geo=US&q=s%26p%20500"
-        },
-        {
-          "keyword": "amazon stock",
+          "keyword": "trump 9/11",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Tue, 8 Sep 2026 07:10:00 -0700",
+          "published": "Tue, 8 Sep 2026 12:20:00 -0700",
+          "source_name": "WUSA9",
+          "url": "https://trends.google.com/trending?geo=US&q=trump%209/11"
+        },
+        {
+          "keyword": "dortmund",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Tue, 8 Sep 2026 12:10:00 -0700",
+          "source_name": "sportschau.de",
+          "url": "https://trends.google.com/trending?geo=US&q=dortmund"
+        },
+        {
+          "keyword": "fc porto",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 8 Sep 2026 12:30:00 -0700",
+          "source_name": "A Bola",
+          "url": "https://trends.google.com/trending?geo=US&q=fc%20porto"
+        },
+        {
+          "keyword": "evergreen middle school",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 8 Sep 2026 12:10:00 -0700",
+          "source_name": "KREM",
+          "url": "https://trends.google.com/trending?geo=US&q=evergreen%20middle%20school"
+        },
+        {
+          "keyword": "pentagon polygraph screening military officials",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 8 Sep 2026 12:10:00 -0700",
+          "source_name": "The Guardian",
+          "url": "https://trends.google.com/trending?geo=US&q=pentagon%20polygraph%20screening%20military%20officials"
+        },
+        {
+          "keyword": "destroyer",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 8 Sep 2026 12:30:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=destroyer"
+        },
+        {
+          "keyword": "meta muse",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 8 Sep 2026 12:30:00 -0700",
           "source_name": "CNBC",
-          "url": "https://trends.google.com/trending?geo=US&q=amazon%20stock"
+          "url": "https://trends.google.com/trending?geo=US&q=meta%20muse"
         },
         {
-          "keyword": "intel stock",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Tue, 8 Sep 2026 07:10:00 -0700",
-          "source_name": "Yahoo Finance",
-          "url": "https://trends.google.com/trending?geo=US&q=intel%20stock"
-        },
-        {
-          "keyword": "djia",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Tue, 8 Sep 2026 07:00:00 -0700",
-          "source_name": "CNBC",
-          "url": "https://trends.google.com/trending?geo=US&q=djia"
-        },
-        {
-          "keyword": "tesla stock price",
+          "keyword": "cardinals depth chart",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 07:10:00 -0700",
-          "source_name": "Yahoo Finance",
-          "url": "https://trends.google.com/trending?geo=US&q=tesla%20stock%20price"
+          "published": "Tue, 8 Sep 2026 12:30:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=cardinals%20depth%20chart"
         },
         {
-          "keyword": "crwv stock",
+          "keyword": "phil jackson",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 07:10:00 -0700",
-          "source_name": "Seeking Alpha",
-          "url": "https://trends.google.com/trending?geo=US&q=crwv%20stock"
+          "published": "Tue, 8 Sep 2026 12:30:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=phil%20jackson"
         },
         {
-          "keyword": "sofi stock",
+          "keyword": "tudn",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 07:10:00 -0700",
-          "source_name": "Yahoo Finance",
-          "url": "https://trends.google.com/trending?geo=US&q=sofi%20stock"
-        },
-        {
-          "keyword": "tsm stock",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Tue, 8 Sep 2026 07:10:00 -0700",
-          "source_name": "Yahoo Finance",
-          "url": "https://trends.google.com/trending?geo=US&q=tsm%20stock"
+          "published": "Tue, 8 Sep 2026 12:20:00 -0700",
+          "source_name": "Fubo",
+          "url": "https://trends.google.com/trending?geo=US&q=tudn"
         }
       ]
     },
@@ -188,6 +188,21 @@
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
         {
+          "title": "Florence Pugh Elevated the Messiest Bun With the Fanciest Scarf — See Photos",
+          "published": "Tue, 08 Sep 2026 18:05:43 +0000",
+          "url": "https://www.allure.com/story/florence-pugh-messy-bun-scarf"
+        },
+        {
+          "title": "6 Best At-Home Teeth-Whitening Kits for a Brighter Smile",
+          "published": "Tue, 08 Sep 2026 17:01:17 +0000",
+          "url": "https://www.allure.com/story/best-at-home-teeth-whitening-kit"
+        },
+        {
+          "title": "How Corsets and Bras Have Helped Reinforce Beauty Standards Throughout History",
+          "published": "Tue, 08 Sep 2026 15:00:18 +0000",
+          "url": "https://www.allure.com/story/history-bras-corsets-perspectives-podcast"
+        },
+        {
           "title": "14 Peony Perfumes to Take You From Summer to Fall",
           "published": "Mon, 07 Sep 2026 20:15:00 +0000",
           "url": "https://www.allure.com/story/peony-fragrances"
@@ -263,7 +278,7 @@
           "url": "https://www.allure.com/story/make-eyes-look-open-with-makeup"
         },
         {
-          "title": "8 Best Foundations for Oily Skin for a Smooth, Natural-Looking Finish",
+          "title": "9 Best Foundations for Oily Skin for a Smooth, Natural-Looking Finish",
           "published": "Tue, 01 Sep 2026 20:20:07 +0000",
           "url": "https://www.allure.com/story/best-foundation-for-acne"
         },
@@ -321,21 +336,6 @@
           "title": "8 Best Body Butters to Moisturize, Nourish, and Soothe Dry Skin",
           "published": "Sat, 29 Aug 2026 12:00:00 +0000",
           "url": "https://www.allure.com/story/best-body-butter"
-        },
-        {
-          "title": "Volufiline Users Say It’s “Filler in a Bottle”—But Is It?",
-          "published": "Fri, 28 Aug 2026 22:00:00 +0000",
-          "url": "https://www.allure.com/story/volufiline"
-        },
-        {
-          "title": "Dolly Parton Embraced Plastic Surgery. She Was Still a Natural Beauty.",
-          "published": "Fri, 28 Aug 2026 20:30:18 +0000",
-          "url": "https://www.allure.com/story/dolly-parton-beauty-choices-plastic-surgery-reactions"
-        },
-        {
-          "title": "Do Peptide Serums Actually Help With Thinning Hair? Here's What Derms Say",
-          "published": "Fri, 28 Aug 2026 20:21:53 +0000",
-          "url": "https://www.allure.com/story/best-peptide-hair-serum"
         }
       ]
     },

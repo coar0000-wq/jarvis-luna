@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T14:35:34.148649+00:00",
+  "generated_at": "2026-09-08T19:44:29.375193+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,12 +65,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 24751,
+      "bytes": 24865,
       "items": 30,
       "samples": [
-        "14 Peony Perfumes to Take You From Summer to Fall",
-        "Emma Stone's Hair Is Suddenly So Long — See Photos",
-        "Pamela Anderson Brought Classic Movie Star Hair to Venice—See the Photos"
+        "Florence Pugh Elevated the Messiest Bun With the Fanciest Scarf — See Photos",
+        "6 Best At-Home Teeth-Whitening Kits for a Brighter Smile",
+        "How Corsets and Bras Have Helped Reinforce Beauty Standards Throughout History"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름",
@@ -97,12 +97,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21572,
+      "bytes": 21579,
       "items": 40,
       "samples": [
-        "ocarina of time remake",
-        "The Legend of Zelda Ocarina of Time remake pricing revealed",
-        "Here’s What The Zelda: Ocarina Of Time Remake Looks Like"
+        "fc porto",
+        "FC Porto-Manchester City: Dragão volta a ser palco da Champions",
+        "Porto x Manchester City na Champions League 2026/27: onde assistir ao vivo e horário"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름",

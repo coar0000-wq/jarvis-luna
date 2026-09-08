@@ -2,7 +2,7 @@
 title: "Record 538 · Decidability-of-Liveness-on-the-TSO-Memory-Model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.295903+00:00
+updated_at: 2026-09-08T19:18:43.201316+00:00
 tags: [record, real-data]
 ---
 

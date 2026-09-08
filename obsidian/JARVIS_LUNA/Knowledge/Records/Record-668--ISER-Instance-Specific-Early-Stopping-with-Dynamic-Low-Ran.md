@@ -2,7 +2,7 @@
 title: "Record 668 · ISER-Instance-Specific-Early-Stopping-with-Dynamic-Low-Rank-Adaptation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.327839+00:00
+updated_at: 2026-09-08T19:18:43.231766+00:00
 tags: [record, real-data]
 ---
 

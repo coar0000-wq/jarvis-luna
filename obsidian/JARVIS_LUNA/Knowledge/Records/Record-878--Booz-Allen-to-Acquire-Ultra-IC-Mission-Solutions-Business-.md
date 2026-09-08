@@ -2,7 +2,7 @@
 title: "Record 878 · Booz-Allen-to-Acquire-Ultra-IC-Mission-Solutions-Business-Further-Stre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.378788+00:00
+updated_at: 2026-09-08T19:18:43.280904+00:00
 tags: [record, real-data]
 ---
 

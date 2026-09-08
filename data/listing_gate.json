@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T17:34:11.161845+00:00",
+  "generated_at": "2026-09-08T19:44:09.018266+00:00",
   "generator": "scripts/build_listing_gate.py",
   "규칙": "listing_ready = copy_ok AND gosi_ok AND price_ok AND legal_ok",
   "근거": {
@@ -35,10 +35,24 @@
       "legal_note": ""
     },
     {
+      "pd_no": "1049271",
+      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "grade": "S",
+      "shopify_score": 92,
+      "copy_ok": true,
+      "gosi_ok": true,
+      "price_ok": true,
+      "legal_ok": true,
+      "listing_ready": true,
+      "blocked_by": [],
+      "price_note": "",
+      "legal_note": ""
+    },
+    {
       "pd_no": "1062781",
       "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
       "grade": "S",
-      "shopify_score": 93,
+      "shopify_score": 91,
       "copy_ok": true,
       "gosi_ok": true,
       "price_ok": true,
@@ -66,21 +80,7 @@
       "pd_no": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "grade": "S",
-      "shopify_score": 90,
-      "copy_ok": true,
-      "gosi_ok": true,
-      "price_ok": true,
-      "legal_ok": true,
-      "listing_ready": true,
-      "blocked_by": [],
-      "price_note": "",
-      "legal_note": ""
-    },
-    {
-      "pd_no": "1049271",
-      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-      "grade": "S",
-      "shopify_score": 90,
+      "shopify_score": 85,
       "copy_ok": true,
       "gosi_ok": true,
       "price_ok": true,

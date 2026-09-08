@@ -2,7 +2,7 @@
 title: "Record 153 · Risk-Aware-Optimal-Control-with-Rulebooks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.194769+00:00
+updated_at: 2026-09-08T19:18:43.107014+00:00
 tags: [record, real-data]
 ---
 

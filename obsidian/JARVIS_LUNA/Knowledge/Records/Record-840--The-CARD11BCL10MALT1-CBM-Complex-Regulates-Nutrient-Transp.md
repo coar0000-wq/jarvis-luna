@@ -2,7 +2,7 @@
 title: "Record 840 · The-CARD11BCL10MALT1-CBM-Complex-Regulates-Nutrient-Transport-and-mTOR"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.369563+00:00
+updated_at: 2026-09-08T19:18:43.272227+00:00
 tags: [record, real-data]
 ---
 

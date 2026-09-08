@@ -2,7 +2,7 @@
 title: "Record 413 · ICE-arrests-20152026-Variation-in-targeting-method-and-geography"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.264562+00:00
+updated_at: 2026-09-08T19:18:43.172237+00:00
 tags: [record, real-data]
 ---
 

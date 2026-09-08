@@ -2,7 +2,7 @@
 title: "Record 555 · Low-emission-operation-of-an-NH-3--diesel-dual-fuel-4-stroke-engine-ta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.299992+00:00
+updated_at: 2026-09-08T19:18:43.205605+00:00
 tags: [record, real-data]
 ---
 

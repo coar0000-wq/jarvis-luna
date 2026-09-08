@@ -2,7 +2,7 @@
 title: "Record 487 · In-Network-Collective-Operations-Game-Changer-or-Challenge-for-AI-Work"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.283844+00:00
+updated_at: 2026-09-08T19:18:43.189448+00:00
 tags: [record, real-data]
 ---
 

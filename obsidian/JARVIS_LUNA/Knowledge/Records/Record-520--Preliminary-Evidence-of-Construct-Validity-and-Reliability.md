@@ -2,7 +2,7 @@
 title: "Record 520 · Preliminary-Evidence-of-Construct-Validity-and-Reliability-of-the-Supi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.291659+00:00
+updated_at: 2026-09-08T19:18:43.196859+00:00
 tags: [record, real-data]
 ---
 

@@ -1,47 +1,47 @@
 {
-  "generated_at": "2026-09-08T14:08:16.097726+00:00",
+  "generated_at": "2026-09-08T19:16:48.654435+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2048,
+  "pool_size": 2032,
   "제목없어_버림": 38,
-  "unrouted": 12,
+  "unrouted": 11,
   "summary": {
     "sourcing": {
       "total": 194,
       "recent": 193
     },
     "market": {
-      "total": 440,
-      "recent": 45
+      "total": 426,
+      "recent": 44
     },
     "listing": {
       "total": 15,
-      "recent": 10
+      "recent": 12
     },
     "pricing": {
       "total": 12,
       "recent": 4
     },
     "legal": {
-      "total": 114,
-      "recent": 22
+      "total": 117,
+      "recent": 26
     },
     "design": {
       "total": 352,
-      "recent": 98
+      "recent": 100
     },
     "robotics": {
       "total": 106,
       "recent": 75
     },
     "knowledge": {
-      "total": 166,
-      "recent": 54
+      "total": 163,
+      "recent": 53
     },
     "institutions": {
       "total": 1066,
-      "recent": 272
+      "recent": 274
     }
   },
   "fda_failures": [],
@@ -503,7 +503,7 @@
         "by_hand": true
       },
       {
-        "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+        "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
         "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
         "pool": "youtube_channel",
         "date": "",
@@ -636,7 +636,7 @@
         "by_hand": false
       },
       {
-        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -664,14 +664,14 @@
         "by_hand": false
       },
       {
-        "title": "The Vogue Business Beauty Trend Tracker - Vogue",
+        "title": "The Vogue Business Beauty Trend Tracker - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96eFRtR1g5NG15VmJxdk9GX3B1V1FJdWRDdkJPb1pHMWk3d2pwMV81WFBURlJxaHRadVZTWUFKR1VSc21KX1lyVTUxa2NSa05nRmxUU1FRb1hFVWNvc2hDZ25YYUQ0Y09jMzNhLTZuWGk?oc=5",
         "pool": "google",
         "date": "2026-09-04",
         "by_hand": false
       },
       {
-        "title": "Anti-Blush Is The Moody Yet Wearable Makeup Trend To Try Now - harpersbazaar.com.sg",
+        "title": "Anti-Blush Is The Moody Yet Wearable Makeup Trend To Try Now - Harper's Bazaar Singapore",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HeW5JcWxfLU1RS2RYYzMxYTAzbGFVQTBvWktyOExud0JYc3dDZFFpQ0NobzMzUnhxR3BjOXVYQnFZaVh5RjZKM1F3QUp5TlZmZTl3OUNCQy1fYzREQmlvUmdTOHZ1X1JXM05HZVJ5MA?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -720,7 +720,7 @@
         "by_hand": false
       },
       {
-        "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - shopping.yahoo.com",
+        "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - Yahoo",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUTUzUEwwYzIteVlTcng5Zl9GT3hfTElLcWRGTGVXN09lT01icWhVamUwS1BlREI0YmJCTmdDaW9iRVlKQ0hVOGZ2TTFHY2RhdTFaS3UwelgtT3gxeXY3RnBrTE9RTXRySjFDa3BFWVdMSXo4bTRhdFA2QjB4T2EzNUZuRlBUVFJqQjhtS3RLTko5WGJBbmJseEh3?oc=5",
         "pool": "google",
         "date": "2026-09-02",
@@ -734,7 +734,7 @@
         "by_hand": false
       },
       {
-        "title": "Ecommerce Evolution: Shopify’s (SHOP) AI-Driven Approach to Retail Success - Yahoo Finance",
+        "title": "Ecommerce Evolution: Shopify’s (SHOP) AI-Driven Approach to Retail Success - finance.yahoo.com",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQnNfUW9Pdjhhc2ZBejlUV0lWYmZXRW9KeWxSbjJWLWltODYyQnZGTkpzRE9QOVNUamxuTzFSc1VhcktzWGhSVU5xRnI3QlBTS1c1a0lzTHdEUklzYUw0RDdzNFE0X2FUS3VoX1dWSkRuUDQ2Z0NabkJheVZRUXJOSXhsR0hOajNmYTQ4TUtLUHNWSzlTZTRuYlpmc0FtWXAy?oc=5",
         "pool": "google",
         "date": "2026-09-02",
@@ -748,7 +748,7 @@
         "by_hand": false
       },
       {
-        "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - Miami Herald",
+        "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - miamiherald.com",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxUk1UYUJPcXhnWjlFczJhckZRMjlLM0ZFX1hnclN5cjk0d1prbVNWNWZqVWFMX0M1N2VSY08tNzNteDE0NDNsdWN4SmpTUkpzSDVkMFFhdndkRVBXNGZWRjhuUXpqTWvSAWdBVV95cUxNM1p2Wmx6MVYta09USHF2UUU0MWthTlNwamRPQWUtV0FMbF94U1Zjc1RrN2pUZVg5djlwc2dyZk8zeV9PT0VrRVhUWEJlZmlMM2xHdUk3eUJNUFNkV1lRRFRuVUE5TFpZ?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -769,7 +769,7 @@
         "by_hand": false
       },
       {
-        "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - womansworld.com",
+        "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - Woman's World",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR0hPOFV3NTlQQ2h0LWNDUHBoUTNRZHNDbjllRTNFOHdlQzd5Y20zWmgwWEloVjkwdlpoTEIxcE9YMUwtX1lDazd0LXJUckRBMDhjS1JIV1o0T0l2Y3daZEZiSVBFZElES3lKLWFYVmw4WVlHQ0dKd18xeW1wX3NFN0lJQUxMZjhwbUpPTm9ZclZwZw?oc=5",
         "pool": "google",
         "date": "2026-08-29",
@@ -811,7 +811,7 @@
         "by_hand": false
       },
       {
-        "title": "Meet the K-beauty products that made a quiet leap from cult circles into mainstream beauty routines - Miami Herald",
+        "title": "Meet the K-beauty products that made a quiet leap from cult circles into mainstream beauty routines - miamiherald.com",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UZ3FrNEloVEN5aHJ0QVZJeFB4b25XVlFUSUo0NjdGbjUtN3d4WW1lNEJzS2R6Y0pUR1FTb3Zac2pYRWRIZ2E4cTIzREpTamdxVU5hOE10TTRIcXRFV2w0aXpaQTVqUFXSAWdBVV95cUxOaTJETFNXR0V6TUt1RDV3M1VvYnBSdVZqOUpNNUx5ZEdhTXdsU0w1dWZieDdjblM2TzhfbjV2cDFiZFdvQk92VENwaDJ6RVpUZGtTUTJBUG5acTAyckVucFZDazh4d2xv?oc=5",
         "pool": "google",
         "date": "2026-08-27",
@@ -832,7 +832,7 @@
         "by_hand": false
       },
       {
-        "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - ELLE",
+        "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - elle.com",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5",
         "pool": "google",
         "date": "2026-08-26",
@@ -841,13 +841,6 @@
       {
         "title": "6 Ways To Use AI in B2B Ecommerce - Shopify",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ZODRjaVlwQWNnbldISllYaUV1bWQ5SDVZbHYzOFl1YU9MOVVRdnRNWTQwNFZIN3MxSlZERnFPUFFTajVaSlFqbVl3RlRqSkl0Ukl6eGptUUpLMVVn?oc=5",
-        "pool": "google",
-        "date": "2026-08-26",
-        "by_hand": false
-      },
-      {
-        "title": "7 Best AI Phone Agents for Ecommerce in 2026 - Onrec",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TM1dobGowSjJoV0JHSlBNdEdzVnMyYWYwUnFRVkQwR1hGWW5LVU5Cb01xLUFkR0VtRHMyeWhPZ1hBMDR4V0hVUGxnZ0hUajBmN0JuWFBualNvYmFkNXVyaDkwVVo3ZDJmeVl6Q2FqOTdNTkkyWHZQLWpVZw?oc=5",
         "pool": "google",
         "date": "2026-08-26",
         "by_hand": false
@@ -893,6 +886,13 @@
         "pool": "design_refs",
         "date": "2026-08-22",
         "by_hand": false
+      },
+      {
+        "title": "14 Best Korean Beauty Products For Acne, According To K-Beauty Experts - coveteur.com",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9OV2s5SXhSM1NiZ0JYcm5PVm11clFHYzNsOFFaVG1kNlA0cUNmRjNqY3lScm1CR1pYR1pLcFBia2pzbEVZTkppbGRQanJSbWVLWHNFaUt2WjJaa2ptclhaLVZzb2NZVHRU?oc=5",
+        "pool": "google",
+        "date": "2026-08-21",
+        "by_hand": false
       }
     ],
     "listing": [
@@ -930,6 +930,20 @@
         "pool": "youtube_manual",
         "date": "2026-09-06",
         "by_hand": true
+      },
+      {
+        "title": "Product variants now support multiple barcodes",
+        "url": "https://changelog.shopify.com/posts/multiple-barcodes-in-variants",
+        "pool": "design_refs",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "Variants now support multiple barcodes",
+        "url": "https://shopify.dev/changelog/product-variant-barcode-is-being-replaced-by-barcodes",
+        "pool": "design_refs",
+        "date": "2026-09-08",
+        "by_hand": false
       },
       {
         "title": "Immaculate Engineering Meets Artistic Imagination: Highlights From Design Miami Seoul 2026",
@@ -978,20 +992,6 @@
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5",
         "pool": "google",
         "date": "2026-06-06",
-        "by_hand": false
-      },
-      {
-        "title": "Seoul Travel Haul: All the Beauty Products I Brought Home - The Daily Beast",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUWNydzdmSGpWZFFKVVZzaWxnejhoalhXQ2ZpTWhpSmk4Z1A0U1RxdUhjWl9tRkxnMV9HaFFYUTFxWGZJdE5FUDJMbFhPT2ZxNkQxLWtTUHFKSC1vZUhSMHBxY3JmcjRTZW9EdjZrdDdONDRQSEFMX2RkMnpra2doZkNxZnJvdWM?oc=5",
-        "pool": "google",
-        "date": "2026-03-26",
-        "by_hand": false
-      },
-      {
-        "title": "Beauty of Joseon Relief Sun SPF50+",
-        "url": "https://www.amazon.com",
-        "pool": "us_beauty",
-        "date": "",
         "by_hand": false
       },
       {
@@ -1097,6 +1097,27 @@
         "by_hand": true
       },
       {
+        "title": "Product variants now support multiple barcodes",
+        "url": "https://changelog.shopify.com/posts/multiple-barcodes-in-variants",
+        "pool": "design_refs",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "Variants now support multiple barcodes",
+        "url": "https://shopify.dev/changelog/product-variant-barcode-is-being-replaced-by-barcodes",
+        "pool": "design_refs",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "BMC Medical Co., Ltd. Recalls Luna G3 APAP (Model LG3600) with Firmware G3-2.00.76 Due to Firmware Defect",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bmc-medical-co-ltd-recalls-luna-g3-apap-model-lg3600-firmware-g3-20076-due-firmware-defect",
+        "pool": "fda",
+        "date": "2026-09-07",
+        "by_hand": false
+      },
+      {
         "title": "Made Fresh Salads, Inc. Recalls Ready to Eat Deli Style Salads and Cream Cheese Because of Possible Health Risk",
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/made-fresh-salads-inc-recalls-ready-eat-deli-style-salads-and-cream-cheese-because-possible-health",
         "pool": "fda",
@@ -1134,6 +1155,13 @@
       {
         "title": "B. Braun Medical Inc. Issues Voluntary Nationwide Recall of 0.9% Sodium Chloride Injection USP, 100 mL, in a 150 mL PAB® Container Due to the Presence of Particulate Matter",
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/b-braun-medical-inc-issues-voluntary-nationwide-recall-09-sodium-chloride-injection-usp-100-ml-150",
+        "pool": "fda",
+        "date": "2026-09-03",
+        "by_hand": false
+      },
+      {
+        "title": "Fi Recalls Supplements for Dogs Because of Possible Salmonella Contamination",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fi-recalls-supplements-dogs-because-possible-salmonella-contamination",
         "pool": "fda",
         "date": "2026-09-03",
         "by_hand": false
@@ -1255,20 +1283,6 @@
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/better-bakehouse-snack-company-recalling-certain-lots-donutful-chocolate-dipped-vanilla-cake-donuts",
         "pool": "fda",
         "date": "2026-08-24",
-        "by_hand": false
-      },
-      {
-        "title": "Everything Sprouts, LLC Recalls Alfalfa Sprouts Due to Potential E. Coli and Salmonella Risk",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/everything-sprouts-llc-recalls-alfalfa-sprouts-due-potential-e-coli-and-salmonella-risk",
-        "pool": "fda",
-        "date": "2026-08-22",
-        "by_hand": false
-      },
-      {
-        "title": "Fromm Family Foods Voluntarily Recalls Turkey Pâté Wet Food For Dogs and Diner Classic Milo’s Meatloaf Pâté Wet Food For Dogs Due to Potential Metal Contamination",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fromm-family-foods-voluntarily-recalls-turkey-pate-wet-food-dogs-and-diner-classic-milos-meatloaf",
-        "pool": "fda",
-        "date": "2026-08-21",
         "by_hand": false
       },
       {
@@ -1482,29 +1496,15 @@
         "by_hand": false
       },
       {
-        "title": "Beauty of Joseon Relief Sun SPF50+",
-        "url": "https://www.amazon.com",
+        "title": "글리콜산 7% 각질 제거 토너",
+        "url": "",
         "pool": "us_beauty",
         "date": "",
         "by_hand": false
       },
       {
-        "title": "Neutrogena Ultra Sheer SPF55",
-        "url": "https://www.walmart.com",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "FOREVER SKIN GLOW 24h wear radiant foundation Perfection and hydration Concentrated floral skincare with suncreen Broad spectrum SPF 15 00",
-        "url": "https://api.fda.gov/drug/label.json?search=id:1f013e61-f171-2ae2-e063-6294a90adcf1",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "Olay Regenerist Regenerating with Sunscreen Broad Spectrum SPF 15",
-        "url": "https://api.fda.gov/drug/label.json?search=id:46425877-3cf0-6496-e063-6294a90acf37",
+        "title": "안텔리오스 클리어 스킨 SPF60",
+        "url": "",
         "pool": "us_beauty",
         "date": "",
         "by_hand": false
@@ -1715,7 +1715,7 @@
         "by_hand": true
       },
       {
-        "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+        "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
         "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
         "pool": "youtube_channel",
         "date": "",
@@ -1753,6 +1753,27 @@
         "title": "Detecting and preventing distillation attacks",
         "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
         "pool": "institutions",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "Product variants now support multiple barcodes",
+        "url": "https://changelog.shopify.com/posts/multiple-barcodes-in-variants",
+        "pool": "design_refs",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "Variants now support multiple barcodes",
+        "url": "https://shopify.dev/changelog/product-variant-barcode-is-being-replaced-by-barcodes",
+        "pool": "design_refs",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "Customer Address APIs now support countryCode",
+        "url": "https://shopify.dev/changelog/customer-address-apis-now-support-countrycode",
+        "pool": "design_refs",
         "date": "2026-09-08",
         "by_hand": false
       },
@@ -1907,27 +1928,6 @@
         "title": "Open-Loop Stackelberg LQ Difference Games with Coupled-Affine Inequality Constraints: An Exact OCP--LCS/LCQP Reformulation",
         "url": "https://arxiv.org/abs/2609.04928v1",
         "pool": "robotics",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "Bayesian thermal digital twin for a space habitat subjected to an impact event",
-        "url": "https://arxiv.org/abs/2609.04614v1",
-        "pool": "robotics",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "India Country Brief: The Anthropic Economic Index",
-        "url": "https://www.anthropic.com/research/india-brief-economic-index",
-        "pool": "institutions",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "Barclays strengthens Japan Cash Equities franchise with senior sales trading appointments | Barclays",
-        "url": "https://home.barclays/news/press-releases/20260/090/barclays-strengthens-japan-cash-equities-franchise-with-senior-s/",
-        "pool": "institutions",
         "date": "2026-09-04",
         "by_hand": false
       }
@@ -2762,17 +2762,17 @@
         "by_hand": false
       },
       {
-        "title": "7 Best AI Phone Agents for Ecommerce in 2026 - Onrec",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TM1dobGowSjJoV0JHSlBNdEdzVnMyYWYwUnFRVkQwR1hGWW5LVU5Cb01xLUFkR0VtRHMyeWhPZ1hBMDR4V0hVUGxnZ0hUajBmN0JuWFBualNvYmFkNXVyaDkwVVo3ZDJmeVl6Q2FqOTdNTkkyWHZQLWpVZw?oc=5",
-        "pool": "google",
-        "date": "2026-08-26",
-        "by_hand": false
-      },
-      {
         "title": "Why Your Website Should Never Stop Changing",
         "url": "https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/",
         "pool": "design_refs",
         "date": "2026-08-25",
+        "by_hand": false
+      },
+      {
+        "title": "US tax calculation accuracy improvements based on fulfillment location",
+        "url": "https://changelog.shopify.com/posts/shopify-tax-is-now-compatible-with-order-routing",
+        "pool": "design_refs",
+        "date": "2026-08-24",
         "by_hand": false
       }
     ],
@@ -2782,6 +2782,27 @@
         "url": "https://openalex.org/W7160476156",
         "pool": "institutions",
         "date": "2026-09-26",
+        "by_hand": false
+      },
+      {
+        "title": "The Work Now Within Reach",
+        "url": "https://openai.com/index/the-work-now-within-reach",
+        "pool": "institutions",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+        "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+        "pool": "institutions",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+        "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+        "pool": "institutions",
+        "date": "2026-09-08",
         "by_hand": false
       },
       {
@@ -2857,6 +2878,13 @@
       {
         "title": "TSMC and ASML Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA EUV",
         "url": "https://www.asml.com/en/news/press-releases/2026/tsmc-and-asml-announce-industry-transition-to-large-format-photomasks-for-high-na-euv",
+        "pool": "institutions",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "Card spending grows 2.1 per cent in August, as travel rebounds and confidence in household finances improves | Barclays",
+        "url": "https://home.barclays/news/press-releases/20260/090/card-spending-grows-2-1-per-cent-in-august--as-travel-rebounds-a/",
         "pool": "institutions",
         "date": "2026-09-08",
         "by_hand": false
@@ -3165,34 +3193,6 @@
       {
         "title": "Tech Equity Capital Markets",
         "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/tech-equity-capital-markets",
-        "pool": "institutions",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "Osler Weber Rendu Disease (Hereditary Hemorrhagic Telangiectasia Type 2) Presenting as Acute Reversible Levodopa Responsive Manganese Induced Parkinsonism Following Blood Transfusion: A Case Report",
-        "url": "https://doi.org/10.1002/mdc3.70806",
-        "pool": "institutions",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "Polymicrobial Meningoencephalitis Complicated by Severe Thrombocytopenia in an Immunocompetent Adult",
-        "url": "https://doi.org/10.4103/aian.aian_372_26",
-        "pool": "institutions",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "First case of Brucella suis biovar 1 infection in a dog in Switzerland",
-        "url": "https://doi.org/10.1007/s11259-026-11491-y",
-        "pool": "institutions",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "Dispersion-Contrasting Dual-Layer Metalens for Hybrid Chromatic-Aberration Correction in the Visible",
-        "url": "https://doi.org/10.1021/acs.nanolett.6c02688",
         "pool": "institutions",
         "date": "2026-09-04",
         "by_hand": false

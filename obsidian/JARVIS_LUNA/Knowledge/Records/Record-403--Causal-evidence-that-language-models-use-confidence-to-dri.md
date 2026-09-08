@@ -2,7 +2,7 @@
 title: "Record 403 · Causal-evidence-that-language-models-use-confidence-to-drive-behaviour"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.261902+00:00
+updated_at: 2026-09-08T19:18:43.169775+00:00
 tags: [record, real-data]
 ---
 

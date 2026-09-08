@@ -2,7 +2,7 @@
 title: "Record 849 · Cosmetics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.371749+00:00
+updated_at: 2026-09-08T19:18:43.274275+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 327 · A-semi-transparent-strategy-for-sustainable-radiative-cooling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.242199+00:00
+updated_at: 2026-09-08T19:18:43.151867+00:00
 tags: [record, real-data]
 ---
 

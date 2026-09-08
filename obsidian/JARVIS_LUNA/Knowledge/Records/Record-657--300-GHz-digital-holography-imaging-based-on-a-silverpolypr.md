@@ -2,7 +2,7 @@
 title: "Record 657 · 300-GHz-digital-holography-imaging-based-on-a-silverpolypropylene-holl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.325086+00:00
+updated_at: 2026-09-08T19:18:43.229191+00:00
 tags: [record, real-data]
 ---
 

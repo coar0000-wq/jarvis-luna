@@ -2,7 +2,7 @@
 title: "Record 464 · Institutional-insulation-as-response-to-racial-diversity-evidence-from"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.277976+00:00
+updated_at: 2026-09-08T19:18:43.184397+00:00
 tags: [record, real-data]
 ---
 

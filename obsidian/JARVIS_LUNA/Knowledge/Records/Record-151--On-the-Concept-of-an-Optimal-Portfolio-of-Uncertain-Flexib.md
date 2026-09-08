@@ -2,7 +2,7 @@
 title: "Record 151 · On-the-Concept-of-an-Optimal-Portfolio-of-Uncertain-Flexible-Loads"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.194146+00:00
+updated_at: 2026-09-08T19:18:43.106380+00:00
 tags: [record, real-data]
 ---
 

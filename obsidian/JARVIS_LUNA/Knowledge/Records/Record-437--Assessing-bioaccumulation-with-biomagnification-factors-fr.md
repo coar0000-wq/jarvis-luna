@@ -2,7 +2,7 @@
 title: "Record 437 · Assessing-bioaccumulation-with-biomagnification-factors-from-dietary-b"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.270754+00:00
+updated_at: 2026-09-08T19:18:43.178018+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 199 · What-is-MCP-for-AI-Agents-When-the-Protocol-Is-Enough-and-When-You-Nee"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.208185+00:00
+updated_at: 2026-09-08T19:18:43.119749+00:00
 tags: [record, real-data]
 ---
 

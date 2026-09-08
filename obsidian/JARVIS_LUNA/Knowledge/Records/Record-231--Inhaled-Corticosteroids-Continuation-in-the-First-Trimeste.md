@@ -2,7 +2,7 @@
 title: "Record 231 · Inhaled-Corticosteroids-Continuation-in-the-First-Trimester-and-Pregna"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.216542+00:00
+updated_at: 2026-09-08T19:18:43.128449+00:00
 tags: [record, real-data]
 ---
 

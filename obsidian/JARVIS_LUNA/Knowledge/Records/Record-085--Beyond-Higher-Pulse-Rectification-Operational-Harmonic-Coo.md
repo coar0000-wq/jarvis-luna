@@ -2,7 +2,7 @@
 title: "Record 085 · Beyond-Higher-Pulse-Rectification-Operational-Harmonic-Coordination-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.173358+00:00
+updated_at: 2026-09-08T19:18:43.086062+00:00
 tags: [record, real-data]
 ---
 

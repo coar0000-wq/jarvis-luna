@@ -2,7 +2,7 @@
 title: "Record 851 · K-beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T14:10:03.372172+00:00
+updated_at: 2026-09-08T19:18:43.274661+00:00
 tags: [record, real-data]
 ---
 
