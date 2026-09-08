@@ -45,7 +45,10 @@ jobs:
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_URL_MODEL: ${{ vars.GEMINI_URL_MODEL }}
+          # 저장소에 이 변수가 없으면 빈 문자열이 들어간다. 스크립트가
+          # 빈 값을 받으면 API 에 모델 목록을 물어 고르도록 고쳤지만,
+          # 애초에 빈 값을 넘기지 않는 편이 낫다.
+          GEMINI_URL_MODEL: ${{ vars.GEMINI_URL_MODEL || '' }}
         run: python scripts/collect_via_gemini.py
 
       - name: 결과 요약

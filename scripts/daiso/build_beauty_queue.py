@@ -34,7 +34,7 @@ robots.txt (2026-09-08 확인)
 
 환경변수
   GEMINI_API_KEY      필수
-  GEMINI_URL_MODEL    선택 (기본 gemini-3.7-flash)
+  GEMINI_URL_MODEL    선택. 비우면 API 에 모델 목록을 물어 고른다.
   DAISO_QUEUE_ONLY    선택. 카테고리 이름 하나만 시험할 때 쓴다.
 """
 from __future__ import annotations
@@ -53,8 +53,9 @@ ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "data" / "daiso_real" / "beauty_queue.json"
 CATMAP = ROOT / "scripts" / "daiso" / "category_map.json"
 
-ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/openai/responses"
-MODEL = os.environ.get("GEMINI_URL_MODEL", "gemini-3.7-flash")
+# 엔드포인트를 잘못 적어 404 를 받았다. 작동하는 collect_via_gemini.py 와
+# 같은 주소를 쓴다.
+ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/interactions"
 TIMEOUT = 120
 RETRIES = 3
 BASE = "https://www.daisomall.co.kr"
@@ -79,6 +80,42 @@ Hard rules:
 PD_RE = re.compile(r"https://www\.daisomall\.co\.kr/pd/pdr/SCR_PDR_0001\?pdNo=\d+")
 
 
+API_ROOT = "https://generativelanguage.googleapis.com/v1beta"
+
+
+def pick_model(key: str) -> tuple[str, str]:
+    """쓸 모델을 정한다.
+
+    예전에는 os.environ.get("GEMINI_URL_MODEL", "기본값") 였다. 그런데
+    워크플로가 ${{ vars.GEMINI_URL_MODEL }} 을 넘기는데 저장소에 그 변수가
+    없어서 빈 문자열이 들어온다. get 의 기본값은 키가 없을 때만 쓰이므로
+    빈 문자열이 그대로 모델 이름이 됐다.
+
+    그 결과 Gemini 수집이 09-03 부터 09-07 까지 엿새 내내
+    "Model '' not found" 로 실패했다. 매번 0건이었는데 아무도 몰랐다.
+
+    이제 지정이 없으면 API 에 모델 목록을 물어 고른다. 이름을 추측해
+    박아두면 모델이 바뀔 때 또 같은 일이 난다.
+    """
+    forced = (os.environ.get("GEMINI_URL_MODEL") or "").strip()
+    if forced:
+        return forced, "환경변수 지정"
+    try:
+        req = urllib.request.Request(f"{API_ROOT}/models?key={key}&pageSize=200")
+        with urllib.request.urlopen(req, timeout=30) as r:
+            d = json.loads(r.read().decode("utf-8"))
+    except Exception as e:                                    # noqa: BLE001
+        return "", f"모델 목록 조회 실패: {type(e).__name__}: {e}"
+    names = [m["name"].replace("models/", "") for m in d.get("models", [])
+             if "generateContent" in (m.get("supportedGenerationMethods") or [])]
+    # 페이지를 읽는 일이라 정확도보다 속도와 비용이 낫다. flash 계열 우선.
+    for pat in ("gemini-flash-latest", "gemini-3", "2.5-flash", "flash", "pro"):
+        for n in names:
+            if pat in n:
+                return n, f"목록에서 고름 (후보 {len(names)}개)"
+    return (names[0], f"목록 첫 항목 (후보 {len(names)}개)") if names else ("", "쓸 모델 없음")
+
+
 def now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 
@@ -90,9 +127,9 @@ def load(p: Path, default=None):
         return default
 
 
-def call(key: str, url: str) -> tuple[list, str, str]:
+def call(key: str, model: str, url: str) -> tuple[list, str, str]:
     """Gemini 에게 페이지를 읽혀 상품 URL 목록을 받는다."""
-    body = {"model": MODEL, "input": PROMPT.format(url=url),
+    body = {"model": model, "input": PROMPT.format(url=url),
             "tools": [{"type": "url_context"}]}
     data = json.dumps(body).encode("utf-8")
     last = ""
@@ -150,7 +187,13 @@ def main() -> int:
         print("::error::GEMINI_API_KEY 가 없다. 호출하지 않고 멈춘다.")
         return 1
 
-    only = os.environ.get("DAISO_QUEUE_ONLY", "").strip()
+    model, how = pick_model(key)
+    print(f"  모델: {model or '(없음)'} — {how}")
+    if not model:
+        print(f"::error::쓸 모델을 못 정했다. {how}")
+        return 1
+
+    only = (os.environ.get("DAISO_QUEUE_ONLY") or "").strip()
     targets = [("뷰티관 허브", HUB)]
     if only and only != "hub":
         targets = [(only, f"{BASE}/ds/diy2/{only}")]
@@ -160,7 +203,7 @@ def main() -> int:
 
     got, errors, statuses = [], [], []
     for name, url in targets:
-        urls, err, st = call(key, url)
+        urls, err, st = call(key, model, url)
         statuses.append({"target": name, "url": url,
                          "count": len(urls), "url_context": st[:200]})
         if err:
@@ -180,7 +223,8 @@ def main() -> int:
               "한 회차 110건 중 82건이 그랬고 Crawl-delay 30 이라 41분이 버려졌다."),
         "신뢰": ("URL 만 받는다. 이름과 가격은 collect_daiso.py 가 직접 받는다. "
                "LLM 이 옮긴 숫자를 실측값으로 쓰지 않는다."),
-        "model": MODEL,
+        "model": model,
+        "model_pick": how,
         "targets": statuses,
         "errors": errors,
         "new_this_run": len(fresh),

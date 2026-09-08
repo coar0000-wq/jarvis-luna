@@ -20,7 +20,7 @@ robots.txt (2026-08-31 확인)
 
 환경변수
   GEMINI_API_KEY  필수
-  GEMINI_URL_MODEL  선택 (기본 gemini-3.7-flash)
+  GEMINI_URL_MODEL  선택. 비우면 API 에 모델 목록을 물어 고른다.
 """
 from __future__ import annotations
 
@@ -38,7 +38,19 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "gemini_web_channels.json"
 
 ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/interactions"
-MODEL = os.environ.get("GEMINI_URL_MODEL", "gemini-3.7-flash")
+# 모델 이름을 여기서 정하지 않는다.
+#
+# 예전에는 os.environ.get("GEMINI_URL_MODEL", "gemini-3.7-flash") 였다.
+# 워크플로가 ${{ vars.GEMINI_URL_MODEL }} 을 넘기는데 저장소에 그 변수가
+# 없어서 빈 문자열이 들어왔다. get 의 기본값은 키가 없을 때만 쓰이므로
+# 빈 문자열이 그대로 모델 이름이 됐다.
+#
+# 그래서 09-03 부터 09-07 까지 엿새 내내 "Model \'\' not found" 로 실패했다.
+# 여섯 번 모두 0건이었는데 continue-on-error 라 아무도 몰랐다.
+MODEL = ""
+
+sys.path.insert(0, str(Path(__file__).resolve().parent / "daiso"))
+from build_beauty_queue import pick_model  # noqa: E402
 TIMEOUT = 120
 RETRIES = 3
 
@@ -162,7 +174,11 @@ def clean(arr: list, target: dict) -> list[dict]:
 
 
 def main() -> int:
+    global MODEL
     key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if key and not MODEL:
+        MODEL, how = pick_model(key)
+        print(f"  모델: {MODEL or '(없음)'} — {how}")
     if not key:
         print("GEMINI_API_KEY 가 없습니다.")
         return 1
