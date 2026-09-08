@@ -710,8 +710,11 @@ def main() -> None:
     prev_gcs = prev.get("global_channels_status") if isinstance(prev, dict) else None
     # 사람이 넣은 값을 먼저 얹고 나이를 따진다. 순서가 반대면
     # 방금 넣은 값도 옛 기록의 나이를 물려받는다.
+    # D 는 team_cards() 안에서만 사는 지역 변수다. 여기서 쓰면 NameError 다.
+    # 실제로 그렇게 써서 대시보드 생성이 28시간 동안 죽어 있었다.
     prev_global, prev_gcs = merge_manual_channels(
-        prev_global, prev_gcs, load_json(D / "manual_channels.json", None))
+        prev_global, prev_gcs,
+        load_json(ROOT / "data" / "manual_channels.json", None))
     prev_gcs = age_channel_status(prev_gcs)
     prev_fx = prev.get("exchange_rate") if isinstance(prev, dict) else None
     prev_synced = prev.get("last_synced") if isinstance(prev, dict) else None

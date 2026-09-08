@@ -290,12 +290,52 @@ def check_deploy():
                 pass
 
 
+def check_undefined():
+    """쓰지 않는 이름을 쓰는 곳을 찾는다.
+
+    문법 검사만으로는 못 잡는다. 실제로 이런 일이 있었다.
+
+      generate_dashboard_runtime.py 에서 D 를 썼는데 D 는 다른 함수 안에서만
+      사는 지역 변수였다. 문법은 멀쩡해서 배포 전 검증을 통과했고,
+      대시보드 생성이 28시간 동안 죽어 있었다. 화면은 어제 시각에 멈춰 있었다.
+
+      collect_daiso.py 에서는 target_of 를 정의보다 위에서 불렀다. 사이트맵이
+      막혔을 때만 도는 경로라 평소에는 안 걸린다. 즉 다이소가 우리를 차단하면
+      "차단됐다" 고 기록하려다 죽는다. 정작 기록이 필요한 순간에 못 남긴다.
+
+    pyflakes 가 둘 다 잡는다. 없으면 건너뛰되 건너뛴 사실을 남긴다.
+    """
+    try:
+        r = subprocess.run([sys.executable, "-m", "pyflakes", "--version"],
+                           capture_output=True, text=True)
+        if r.returncode != 0:
+            raise FileNotFoundError
+    except (FileNotFoundError, OSError):
+        warn("이름검사", "pyflakes 가 없어 건너뜀 (pip install pyflakes)")
+        return
+
+    targets = sorted(str(x) for x in (ROOT / "scripts").rglob("*.py"))
+    if not targets:
+        warn("이름검사", "검사할 스크립트가 없다")
+        return
+    r = subprocess.run([sys.executable, "-m", "pyflakes", *targets],
+                       capture_output=True, text=True)
+    bad = [ln for ln in (r.stdout + r.stderr).splitlines()
+           if "undefined name" in ln]
+    if bad:
+        for ln in bad[:10]:
+            fail("이름검사", ln.replace(str(ROOT) + "/", ""))
+    else:
+        ok("이름검사", f"스크립트 {len(targets)}개에 undefined name 없음")
+
+
 def main() -> int:
     global GIT_MODE
     GIT_MODE = "--git" in sys.argv
     quick = "--quick" in sys.argv
     print(f"검사 대상: {'git 블롭 (' + GIT_REF + ')' if GIT_MODE else '작업 트리'}\n")
     check_integrity()
+    check_undefined()
     if not quick:
         check_fake()
         check_consistency()

@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: 의존성
-        run: python -m pip install --quiet pyyaml
+        run: python -m pip install --quiet pyyaml pyflakes
       - name: 검증 실행
         id: pf
         continue-on-error: true

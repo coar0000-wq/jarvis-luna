@@ -284,6 +284,19 @@ def main() -> int:
         "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
     }
 
+    # 버킷 목표치. 스킨케어에 절반을 배정했다(근거: data/kbeauty_news.json).
+    # 옛 형식(target_per_bucket 단일값)도 계속 읽는다.
+    #
+    # 원래 이 정의가 사이트맵 확인보다 아래에 있었다. 그런데 사이트맵이
+    # 막혔을 때 도는 blocked 경로가 target_of 를 먼저 부른다. 즉 다이소가
+    # 우리를 차단하면 "차단됐다" 고 기록하려다 NameError 로 죽는다.
+    # 정작 기록이 필요한 순간에 기록을 못 남기는 구조였다.
+    tmap = cfg.get("bucket_targets") or {}
+    flat = int(cfg.get("target_per_bucket") or 25)
+
+    def target_of(b: str) -> int:
+        return int(tmap.get(b, flat))
+
     urls = state.get("urls") or []
     if not urls:
         urls = product_urls()
@@ -309,12 +322,6 @@ def main() -> int:
     # 무작위라 순서를 조정할 수 없으니, 대신 이번 회차에 남은 자리를
     # 로그에 남겨 어디가 비었는지 보이게 한다.
     # 버킷마다 목표가 다르다. 미국 기사에서 스킨케어 언급이 85.9% 라
-    # 스킨케어에 절반을 배정했다(근거: data/kbeauty_news.json).
-    # 옛 형식(target_per_bucket 단일값)도 계속 읽는다.
-    tmap = cfg.get("bucket_targets") or {}
-    flat = int(cfg.get("target_per_bucket") or 25)
-    def target_of(b: str) -> int:
-        return int(tmap.get(b, flat))
     picked = 0
     for url in urls:
         if picked >= MAX_ITEMS:
