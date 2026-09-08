@@ -47,11 +47,13 @@ jobs:
       # 넘어갔다. 말과 동작이 달랐다. 키가 없으면 실제로 멈춘다.
       # 멈추기 전에 사유를 파일에 남겨서 대시보드가 이유를 알 수 있게 한다.
       - name: 시크릿 확인
+        id: secret
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: |
           if [ -n "$SERPAPI_KEY" ]; then
             echo "SERPAPI_KEY 확인됨 (길이 ${#SERPAPI_KEY})"
+            echo "ok=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           python - <<'PY'
@@ -120,7 +122,14 @@ jobs:
               print("- youtube: 산출물 없음")
           PY
 
+      # 앞 단계가 깨져도 이번 회차가 모은 것은 커밋한다. Deep Analysis 에서
+      # 대시보드 생성 한 곳이 죽자 커밋이 통째로 건너뛰어져 산출물 여덟 개가
+      # 29시간 멈춘 일이 있었다. 화면이 깨졌다고 그날 자료를 버릴 이유가 없다.
       - name: 커밋 및 푸시
+        # always() 가 아니라 키가 있을 때만이다. 키가 없으면 호출 자체를
+        # 안 했으니 커밋할 산출물이 없다. 그 경우 시크릿 확인 단계가
+        # 사유를 파일에 남기고 멈춘다.
+        if: always() && steps.secret.outputs.ok == 'true' 
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -137,3 +146,13 @@ jobs:
             sleep 5
           done
           echo "푸시 실패"; exit 1
+
+      # 위에서 넘어간 실패를 여기서 드러낸다. 커밋은 이미 끝났다.
+      - name: 앞 단계 실패 확인
+        if: always()
+        run: |
+          if [ "${{ job.status }}" != "success" ]; then
+            echo "::error::앞 단계 중 하나가 실패했다. 커밋은 마쳤으니 자료는 남아 있다."
+            exit 1
+          fi
+          echo "모든 단계 정상"

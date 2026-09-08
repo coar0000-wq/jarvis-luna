@@ -349,7 +349,17 @@ jobs:
       # COMMIT & PUSH
       # =========================
 
+      # 앞 단계가 깨져도 이번 회차가 모은 것은 커밋한다.
+      #
+      # 대시보드 생성이 NameError 로 죽자 이 단계가 통째로 건너뛰어졌고,
+      # 그 바람에 팀 피드·팀 허브·브랜드 키트·K뷰티 뉴스·기관 피드·
+      # 유튜브 채널까지 여덟 개가 29시간 동안 09-07 에 멈춰 있었다.
+      # 화면 한 곳이 깨졌다고 그날 모은 자료를 통째로 버릴 이유가 없다.
+      #
+      # 다만 결과는 그대로 실패로 남긴다. 아래 '앞 단계 실패 확인' 이
+      # 빨갛게 끝낸다. 자료는 남기고 문제는 드러낸다.
       - name: Commit generated knowledge and dashboard state
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -402,3 +412,14 @@ jobs:
         run: |
           echo "JARVIS Deep Analysis finished."
           echo "Workflow: ${{ job.status }}"
+
+      # 위에서 continue-on-error 나 if: always() 로 넘어간 실패를 여기서
+      # 드러낸다. 커밋은 이미 끝났으므로 자료는 남아 있다.
+      - name: 앞 단계 실패 확인
+        if: always()
+        run: |
+          if [ "${{ job.status }}" != "success" ]; then
+            echo "::error::앞 단계 중 하나가 실패했다. 커밋은 마쳤으니 자료는 남아 있다."
+            exit 1
+          fi
+          echo "모든 단계 정상"
