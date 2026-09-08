@@ -34,6 +34,7 @@ ROOT = Path(__file__).resolve().parents[2]
 OUT_DIR = ROOT / "data" / "daiso_real"
 PRODUCTS = OUT_DIR / "products.json"
 STATE = OUT_DIR / "crawl_state.json"
+QUEUE = OUT_DIR / "beauty_queue.json"
 STATUS = OUT_DIR / "collection_status.json"
 CATMAP = Path(__file__).with_name("category_map.json")
 
@@ -278,6 +279,8 @@ def main() -> int:
         "skipped_bucket_full": 0,
         "skipped_excluded": {},
         "pruned_existing": {},
+        "queue_size": 0,
+        "url_source": "",
         "scope": "다이소몰 뷰티관(C245) 10개 카테고리 (선케어·네일 제외)",
         "delay_seconds": DELAY, "max_items": MAX_ITEMS,
         "user_agent": UA,
@@ -297,7 +300,22 @@ def main() -> int:
     def target_of(b: str) -> int:
         return int(tmap.get(b, flat))
 
-    urls = state.get("urls") or []
+    # 뷰티 URL 큐가 있으면 그걸 먼저 쓴다.
+    #
+    # 사이트맵을 훑으면 뷰티관 밖 상품을 받아본 뒤에야 버린다. 한 회차
+    # 110건 중 82건이 그랬고 Crawl-delay 30 이라 41분이 버려졌다.
+    # build_beauty_queue.py 가 뷰티관 페이지에서 상품 URL 만 모아 둔다.
+    #
+    # 큐가 없거나 비면 예전대로 사이트맵을 쓴다. 새 경로가 막혀도
+    # 수집이 멈추지 않게 한다.
+    queue = (load_json(QUEUE, {}) or {}).get("urls") or []
+    queue = [u for u in queue if "/pd/pdr/" in u]
+    run["queue_size"] = len(queue)
+    run["url_source"] = "beauty_queue" if queue else "sitemap"
+
+    urls = list(queue)
+    if not urls:
+        urls = state.get("urls") or []
     if not urls:
         urls = product_urls()
         if not urls:

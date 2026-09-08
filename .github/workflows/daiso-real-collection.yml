@@ -12,6 +12,10 @@ on:
         description: '이번 실행에서 수집할 상품 수'
         required: false
         default: '110'
+      queue_only:
+        description: "뷰티 큐 대상 (비우면 허브 전체)"
+        required: false
+        default: ""
       delay:
         description: '요청 간 대기 초 (robots.txt 권장 30)'
         required: false
@@ -48,6 +52,20 @@ jobs:
         continue-on-error: true
         timeout-minutes: 3
         run: python -u scripts/fetch_fx_rate.py
+
+      # 뷰티 URL 큐. 실패해도 수집은 사이트맵으로 계속 돈다.
+      #
+      # 사이트맵을 훑으면 뷰티관 밖 상품을 받아본 뒤 버린다. 한 회차
+      # 110건 중 82건이 그랬고 Crawl-delay 30 이라 41분이 버려졌다.
+      # Gemini 가 렌더된 뷰티관 페이지를 읽어 상품 URL 만 돌려준다.
+      # 이름과 가격은 받지 않는다. 그건 아래 수집 단계가 직접 받는다.
+      - name: 뷰티 URL 큐 만들기
+        continue-on-error: true
+        timeout-minutes: 8
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DAISO_QUEUE_ONLY: ${{ github.event.inputs.queue_only }}
+        run: python -u scripts/daiso/build_beauty_queue.py
 
       - name: Collect Daiso products
         env:
