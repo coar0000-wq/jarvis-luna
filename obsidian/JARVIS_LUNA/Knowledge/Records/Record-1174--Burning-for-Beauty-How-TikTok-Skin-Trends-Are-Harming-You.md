@@ -2,7 +2,7 @@
 title: "Record 1174 · Burning-for-Beauty-How-TikTok-Skin-Trends-Are-Harming-Young-Girls---Sc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.964385+00:00
+updated_at: 2026-09-08T12:07:28.675249+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 604 · Retrospective-analysis-of-coronary-angiograms-showing-myocardial-bridg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.874945+00:00
+updated_at: 2026-09-08T12:07:28.529389+00:00
 tags: [record, real-data]
 ---
 

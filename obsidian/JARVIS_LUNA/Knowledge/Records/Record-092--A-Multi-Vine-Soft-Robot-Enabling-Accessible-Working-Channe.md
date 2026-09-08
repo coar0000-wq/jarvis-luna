@@ -2,7 +2,7 @@
 title: "Record 092 · A-Multi-Vine-Soft-Robot-Enabling-Accessible-Working-Channel-and-Steeri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.797360+00:00
+updated_at: 2026-09-08T12:07:28.397702+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1453 · Im-A-K-Beauty-Expert-Living-In-Seoul--These-9-Products-Are-About-To-Be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.001293+00:00
+updated_at: 2026-09-08T12:07:28.747383+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 459 · Uncovering-bias-in-uncovered-interest-parity-tests"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.855384+00:00
+updated_at: 2026-09-08T12:07:28.494746+00:00
 tags: [record, real-data]
 ---
 

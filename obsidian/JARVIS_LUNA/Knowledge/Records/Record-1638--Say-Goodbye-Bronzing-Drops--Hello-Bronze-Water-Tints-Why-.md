@@ -2,7 +2,7 @@
 title: "Record 1638 · Say-Goodbye-Bronzing-Drops--Hello-Bronze-Water-Tints-Why-the-Victoria-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.025846+00:00
+updated_at: 2026-09-08T12:07:28.796229+00:00
 tags: [record, real-data]
 ---
 

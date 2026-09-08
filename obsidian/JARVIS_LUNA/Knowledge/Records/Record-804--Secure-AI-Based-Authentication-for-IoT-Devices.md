@@ -2,7 +2,7 @@
 title: "Record 804 · Secure-AI-Based-Authentication-for-IoT-Devices"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.906058+00:00
+updated_at: 2026-09-08T12:07:28.577168+00:00
 tags: [record, real-data]
 ---
 

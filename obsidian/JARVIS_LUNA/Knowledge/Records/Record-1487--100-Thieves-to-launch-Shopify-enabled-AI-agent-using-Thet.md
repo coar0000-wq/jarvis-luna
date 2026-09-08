@@ -2,7 +2,7 @@
 title: "Record 1487 · 100-Thieves-to-launch-Shopify-enabled-AI-agent-using-Theta-Labs---Bloc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.005770+00:00
+updated_at: 2026-09-08T12:07:28.756117+00:00
 tags: [record, real-data]
 ---
 

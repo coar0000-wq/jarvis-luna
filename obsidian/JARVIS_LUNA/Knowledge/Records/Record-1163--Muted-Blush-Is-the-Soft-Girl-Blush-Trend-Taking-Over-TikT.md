@@ -2,7 +2,7 @@
 title: "Record 1163 · Muted-Blush-Is-the-Soft-Girl-Blush-Trend-Taking-Over-TikTok---NewBeaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.962766+00:00
+updated_at: 2026-09-08T12:07:28.672480+00:00
 tags: [record, real-data]
 ---
 

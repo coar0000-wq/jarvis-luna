@@ -2,7 +2,7 @@
 title: "Record 1329 · These-9-K-beauty-products-reveal-why-Korean-skin-care-is-all-anyone-ca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.984973+00:00
+updated_at: 2026-09-08T12:07:28.715071+00:00
 tags: [record, real-data]
 ---
 

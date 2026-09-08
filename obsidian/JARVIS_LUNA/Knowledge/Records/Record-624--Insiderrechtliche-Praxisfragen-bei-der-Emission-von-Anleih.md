@@ -2,7 +2,7 @@
 title: "Record 624 · Insiderrechtliche-Praxisfragen-bei-der-Emission-von-Anleihen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.877883+00:00
+updated_at: 2026-09-08T12:07:28.534205+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 674 · CMOS-MEMS-Z-Axis-Magnetic-Field-Sensor-with-an-Additional-Collector"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.886296+00:00
+updated_at: 2026-09-08T12:07:28.546385+00:00
 tags: [record, real-data]
 ---
 

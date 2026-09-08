@@ -2,7 +2,7 @@
 title: "Record 1753 · Sephora-and-Olive-Young-Bring-the-Latest-K-Beauty-Trends-Closer-to-Sou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.040819+00:00
+updated_at: 2026-09-08T12:07:28.826212+00:00
 tags: [record, real-data]
 ---
 

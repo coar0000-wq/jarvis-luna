@@ -2,7 +2,7 @@
 title: "Record 1260 · Ecommerce-Fraud-Management-in-the-AI-Era-A-2026-Guide---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.976072+00:00
+updated_at: 2026-09-08T12:07:28.697292+00:00
 tags: [record, real-data]
 ---
 

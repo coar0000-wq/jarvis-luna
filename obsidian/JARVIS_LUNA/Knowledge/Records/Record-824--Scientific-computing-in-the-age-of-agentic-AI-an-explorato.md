@@ -2,7 +2,7 @@
 title: "Record 824 · Scientific-computing-in-the-age-of-agentic-AI-an-exploratory-field-rep"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.909258+00:00
+updated_at: 2026-09-08T12:07:28.582551+00:00
 tags: [record, real-data]
 ---
 

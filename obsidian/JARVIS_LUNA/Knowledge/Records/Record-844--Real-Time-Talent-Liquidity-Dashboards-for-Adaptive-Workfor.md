@@ -2,7 +2,7 @@
 title: "Record 844 · Real-Time-Talent-Liquidity-Dashboards-for-Adaptive-Workforce-Allocatio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.912487+00:00
+updated_at: 2026-09-08T12:07:28.587717+00:00
 tags: [record, real-data]
 ---
 

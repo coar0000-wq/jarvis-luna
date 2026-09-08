@@ -2,7 +2,7 @@
 title: "Record 492 · The-RFIC2026-Symposium"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.859759+00:00
+updated_at: 2026-09-08T12:07:28.502671+00:00
 tags: [record, real-data]
 ---
 

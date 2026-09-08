@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-08T11:57:50.362138+00:00",
+  "collected_at": "2026-09-08T12:06:45.672880+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",

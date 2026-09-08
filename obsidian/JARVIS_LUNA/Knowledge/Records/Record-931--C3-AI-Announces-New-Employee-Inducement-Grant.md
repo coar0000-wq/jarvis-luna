@@ -2,7 +2,7 @@
 title: "Record 931 · C3-AI-Announces-New-Employee-Inducement-Grant"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.927881+00:00
+updated_at: 2026-09-08T12:07:28.612548+00:00
 tags: [record, real-data]
 ---
 

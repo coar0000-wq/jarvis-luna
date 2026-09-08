@@ -2,7 +2,7 @@
 title: "Record 1555 · A-Derm-Informed-Guide-To-All-Of-The-K-Beauty-Thats-Showing-Up-In-Your-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.014531+00:00
+updated_at: 2026-09-08T12:07:28.773874+00:00
 tags: [record, real-data]
 ---
 

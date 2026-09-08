@@ -2,7 +2,7 @@
 title: "Record 1342 · K-Beauty-Dominated-A-Softer-Amazon-Prime-Day-For-Beauty---Beauty-Indep"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.986632+00:00
+updated_at: 2026-09-08T12:07:28.718488+00:00
 tags: [record, real-data]
 ---
 

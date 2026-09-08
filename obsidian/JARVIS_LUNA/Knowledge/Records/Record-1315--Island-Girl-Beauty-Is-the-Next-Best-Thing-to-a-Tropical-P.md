@@ -2,7 +2,7 @@
 title: "Record 1315 · Island-Girl-Beauty-Is-the-Next-Best-Thing-to-a-Tropical-Paradise-Escap"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.983172+00:00
+updated_at: 2026-09-08T12:07:28.711477+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiekFVX3lxTE5CVXI5Vktnd0hvQ3dWVjUzNERpRHdhUVFvZHFYNkFvZzh6S3JzUDRpYnVHN3dNSy10NzB0cy0teTFHa0hUbG1la3E4SGdYTkpPSzQ4bkMwX3dKRTV6UTVQb04wSElibXJ3Vy1Bc3RSNjA5SW0zT29xN0tB?oc=5)
 
-**제목:** "Island Girl Beauty" Is the Next Best Thing to a Tropical Paradise Escape—How to Get the Look - whowhatwear.com
+**제목:** "Island Girl Beauty" Is the Next Best Thing to a Tropical Paradise Escape—How to Get the Look - Who What Wear
 
-"Island Girl Beauty" Is the Next Best Thing to a Tropical Paradise Escape—How to Get the Look - whowhatwear.com
+"Island Girl Beauty" Is the Next Best Thing to a Tropical Paradise Escape—How to Get the Look - Who What Wear
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record 698 · Polymicrobial-Meningoencephalitis-Complicated-by-Severe-Thrombocytopen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.890061+00:00
+updated_at: 2026-09-08T12:07:28.552054+00:00
 tags: [record, real-data]
 ---
 

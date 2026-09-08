@@ -2,7 +2,7 @@
 title: "Record 1310 · The-biggest-TikTok-beauty-trends-of-2024---Womens-Health-Australia"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.982496+00:00
+updated_at: 2026-09-08T12:07:28.710193+00:00
 tags: [record, real-data]
 ---
 

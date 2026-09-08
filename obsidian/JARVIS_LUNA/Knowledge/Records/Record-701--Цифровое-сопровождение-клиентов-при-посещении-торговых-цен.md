@@ -2,7 +2,7 @@
 title: "Record 701 · Цифровое-сопровождение-клиентов-при-посещении-торговых-центров-стратег"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.890526+00:00
+updated_at: 2026-09-08T12:07:28.552764+00:00
 tags: [record, real-data]
 ---
 

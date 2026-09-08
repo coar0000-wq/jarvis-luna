@@ -2,7 +2,7 @@
 title: "Record 253 · Impact-of-NH-Emission-on-Determining-the-Rotational-Temperature-From-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.825781+00:00
+updated_at: 2026-09-08T12:07:28.443616+00:00
 tags: [record, real-data]
 ---
 

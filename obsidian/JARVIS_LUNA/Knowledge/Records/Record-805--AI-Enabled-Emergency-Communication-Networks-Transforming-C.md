@@ -2,7 +2,7 @@
 title: "Record 805 · AI-Enabled-Emergency-Communication-Networks-Transforming-Crisis-Respon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.906220+00:00
+updated_at: 2026-09-08T12:07:28.577394+00:00
 tags: [record, real-data]
 ---
 

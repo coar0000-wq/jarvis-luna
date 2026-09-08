@@ -2,7 +2,7 @@
 title: "Record 1475 · I-tried-the-rubber-band-TikTok-beauty-trend-and-this-is-what-I-found--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.004153+00:00
+updated_at: 2026-09-08T12:07:28.753013+00:00
 tags: [record, real-data]
 ---
 

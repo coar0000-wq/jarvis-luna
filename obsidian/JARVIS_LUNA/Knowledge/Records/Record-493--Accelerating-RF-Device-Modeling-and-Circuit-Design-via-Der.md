@@ -2,7 +2,7 @@
 title: "Record 493 · Accelerating-RF-Device-Modeling-and-Circuit-Design-via-Derivative-Free"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.859891+00:00
+updated_at: 2026-09-08T12:07:28.502904+00:00
 tags: [record, real-data]
 ---
 

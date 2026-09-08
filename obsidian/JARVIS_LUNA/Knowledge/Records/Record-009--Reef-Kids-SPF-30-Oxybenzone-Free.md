@@ -2,7 +2,7 @@
 title: "Record 009 · Reef-Kids-SPF-30-Oxybenzone-Free"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.784735+00:00
+updated_at: 2026-09-08T12:07:28.375969+00:00
 tags: [record, real-data]
 ---
 

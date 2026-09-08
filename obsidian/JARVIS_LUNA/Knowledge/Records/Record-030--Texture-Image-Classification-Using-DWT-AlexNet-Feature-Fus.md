@@ -2,7 +2,7 @@
 title: "Record 030 · Texture-Image-Classification-Using-DWT-AlexNet-Feature-Fusion-and-Deep"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.787276+00:00
+updated_at: 2026-09-08T12:07:28.380885+00:00
 tags: [record, real-data]
 ---
 

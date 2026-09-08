@@ -2,7 +2,7 @@
 title: "Record 957 · Vibe-gets-to-work"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.932339+00:00
+updated_at: 2026-09-08T12:07:28.619704+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1317 · TikTok-Caveman-Skincare-Is-Clean-Beauty-At-Its-Worst---thekitca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.983410+00:00
+updated_at: 2026-09-08T12:07:28.711962+00:00
 tags: [record, real-data]
 ---
 

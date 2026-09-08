@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T06:02:36.113666+00:00",
+  "generated_at": "2026-09-08T12:32:29.034681+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,12 +65,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 25162,
+      "bytes": 24751,
       "items": 30,
       "samples": [
-        "12 Best The Ordinary Products for an Affordable Beauty Routine",
-        "Say Hello to Bouncier Waves with These Texture-Enhancing Shampoos",
-        "Is the Dyson Toothbrush Worth $499? We Asked 4 Dentists."
+        "14 Peony Perfumes to Take You From Summer to Fall",
+        "Emma Stone's Hair Is Suddenly So Long — See Photos",
+        "Pamela Anderson Brought Classic Movie Star Hair to Venice—See the Photos"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름",
@@ -97,15 +97,15 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 18263,
-      "items": 35,
+      "bytes": 21509,
+      "items": 40,
       "samples": [
-        "alex call",
-        "Dave Roberts: Dodgers’ Depth ‘Important’ To Success",
-        "nintendo switch banned"
+        "sandra bullock",
+        "For Sandra Bullock and Nicole Kidman, ‘Practical Magic 2' heals old wounds",
+        "Nicole Kidman and Sandra Bullock's Body Language Speaks Volumes About Their Relationship"
       ],
       "verdict": "가능",
-      "reason": "35건 파싱 성공, 값이 서로 다름",
+      "reason": "40건 파싱 성공, 값이 서로 다름",
       "already_live": true,
       "live_channel": "google_trends_us"
     },

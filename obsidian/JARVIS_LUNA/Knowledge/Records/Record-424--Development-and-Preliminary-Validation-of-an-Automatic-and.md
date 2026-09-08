@@ -2,7 +2,7 @@
 title: "Record 424 · Development-and-Preliminary-Validation-of-an-Automatic-and-Intelligent"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.850197+00:00
+updated_at: 2026-09-08T12:07:28.485830+00:00
 tags: [record, real-data]
 ---
 

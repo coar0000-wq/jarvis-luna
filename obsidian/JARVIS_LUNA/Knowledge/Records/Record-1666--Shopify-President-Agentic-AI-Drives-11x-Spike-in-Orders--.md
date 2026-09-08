@@ -2,7 +2,7 @@
 title: "Record 1666 · Shopify-President-Agentic-AI-Drives-11x-Spike-in-Orders---PYMNTScom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.029594+00:00
+updated_at: 2026-09-08T12:07:28.803768+00:00
 tags: [record, real-data]
 ---
 

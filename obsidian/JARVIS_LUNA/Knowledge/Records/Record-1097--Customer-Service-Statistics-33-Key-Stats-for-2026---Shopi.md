@@ -2,7 +2,7 @@
 title: "Record 1097 · Customer-Service-Statistics-33-Key-Stats-for-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.953227+00:00
+updated_at: 2026-09-08T12:07:28.655646+00:00
 tags: [record, real-data]
 ---
 

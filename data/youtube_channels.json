@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T11:56:54.821396+00:00",
+  "generated_at": "2026-09-08T12:05:52.813307+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -202,7 +202,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-08T11:56:44.459303+00:00",
+      "last_ok_at": "2026-09-08T12:05:42.469248+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -211,7 +211,7 @@
       "subscribers": "121K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-08T11:56:44.459322+00:00",
+      "checked_at": "2026-09-08T12:05:42.469271+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
@@ -469,7 +469,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-08T11:56:49.821200+00:00",
+      "last_ok_at": "2026-09-08T12:05:47.813091+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -478,7 +478,7 @@
       "subscribers": "17.6K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-08T11:56:49.821215+00:00",
+      "checked_at": "2026-09-08T12:05:47.813107+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",

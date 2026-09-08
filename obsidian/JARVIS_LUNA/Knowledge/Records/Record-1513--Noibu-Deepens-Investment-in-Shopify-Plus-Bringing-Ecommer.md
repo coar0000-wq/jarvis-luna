@@ -2,7 +2,7 @@
 title: "Record 1513 · Noibu-Deepens-Investment-in-Shopify-Plus-Bringing-Ecommerce-Analytics-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.009249+00:00
+updated_at: 2026-09-08T12:07:28.762972+00:00
 tags: [record, real-data]
 ---
 

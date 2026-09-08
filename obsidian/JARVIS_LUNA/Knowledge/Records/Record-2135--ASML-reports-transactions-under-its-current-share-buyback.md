@@ -2,13 +2,13 @@
 title: "Record 2135 · ASML-reports-transactions-under-its-current-share-buyback-program"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.097085+00:00
+updated_at: 2026-09-08T12:07:28.924396+00:00
 tags: [record, real-data]
 ---
 
 # Record 2135 · ASML-reports-transactions-under-its-current-share-buyback-program
 
-> 실제 수집 레코드입니다. 원문: [www.asml.com](https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-30)
+> 실제 수집 레코드입니다. 원문: [www.asml.com](https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-31)
 
 **제목:** ASML reports transactions under its current share buyback program
 

@@ -2,7 +2,7 @@
 title: "Record 681 · Simultaneous-Platinum-Nanoparticle-Refinement-and-Carbon-Support-Struc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.887466+00:00
+updated_at: 2026-09-08T12:07:28.548099+00:00
 tags: [record, real-data]
 ---
 

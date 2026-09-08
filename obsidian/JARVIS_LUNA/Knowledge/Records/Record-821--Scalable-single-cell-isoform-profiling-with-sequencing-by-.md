@@ -2,7 +2,7 @@
 title: "Record 821 · Scalable-single-cell-isoform-profiling-with-sequencing-by-expansion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.908776+00:00
+updated_at: 2026-09-08T12:07:28.581696+00:00
 tags: [record, real-data]
 ---
 

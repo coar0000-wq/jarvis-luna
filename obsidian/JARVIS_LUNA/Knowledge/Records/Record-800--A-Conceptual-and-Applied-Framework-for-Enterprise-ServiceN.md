@@ -2,7 +2,7 @@
 title: "Record 800 · A-Conceptual-and-Applied-Framework-for-Enterprise-ServiceNow-Program-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.905468+00:00
+updated_at: 2026-09-08T12:07:28.576186+00:00
 tags: [record, real-data]
 ---
 

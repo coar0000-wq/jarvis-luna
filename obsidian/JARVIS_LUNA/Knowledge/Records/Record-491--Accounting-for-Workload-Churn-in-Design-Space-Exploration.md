@@ -2,7 +2,7 @@
 title: "Record 491 · Accounting-for-Workload-Churn-in-Design-Space-Exploration"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.859663+00:00
+updated_at: 2026-09-08T12:07:28.502471+00:00
 tags: [record, real-data]
 ---
 

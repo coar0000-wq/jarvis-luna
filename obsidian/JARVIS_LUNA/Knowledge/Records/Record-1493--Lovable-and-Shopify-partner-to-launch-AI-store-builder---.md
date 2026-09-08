@@ -2,7 +2,7 @@
 title: "Record 1493 · Lovable-and-Shopify-partner-to-launch-AI-store-builder---thekeywordco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.006569+00:00
+updated_at: 2026-09-08T12:07:28.757766+00:00
 tags: [record, real-data]
 ---
 

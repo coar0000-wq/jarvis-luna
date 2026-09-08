@@ -2,7 +2,7 @@
 title: "Record 1485 · Experts-AgreeIf-Youre-Going-to-Buy-3-K-Beauty-Items-This-Summer-It-Sho"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.005509+00:00
+updated_at: 2026-09-08T12:07:28.755687+00:00
 tags: [record, real-data]
 ---
 

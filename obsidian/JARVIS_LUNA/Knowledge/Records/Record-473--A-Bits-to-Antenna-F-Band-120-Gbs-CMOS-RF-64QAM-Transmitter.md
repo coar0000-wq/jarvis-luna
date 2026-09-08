@@ -2,7 +2,7 @@
 title: "Record 473 · A-Bits-to-Antenna-F-Band-120-Gbs-CMOS-RF-64QAM-Transmitter-for-FutureG"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.857292+00:00
+updated_at: 2026-09-08T12:07:28.498170+00:00
 tags: [record, real-data]
 ---
 

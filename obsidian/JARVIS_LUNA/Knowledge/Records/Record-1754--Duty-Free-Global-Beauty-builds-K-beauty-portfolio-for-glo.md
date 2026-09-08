@@ -2,7 +2,7 @@
 title: "Record 1754 · Duty-Free-Global-Beauty-builds-K-beauty-portfolio-for-global-travel-re"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.040943+00:00
+updated_at: 2026-09-08T12:07:28.826464+00:00
 tags: [record, real-data]
 ---
 

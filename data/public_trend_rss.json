@@ -1,6 +1,6 @@
 {
   "source": "public RSS (hnrss + Google News RSS)",
-  "collected_at": "2026-09-08T11:58:08.320811+00:00",
+  "collected_at": "2026-09-08T12:07:00.270407+00:00",
   "status": "ok",
   "feed_summaries": [
     {
@@ -256,7 +256,7 @@
       "category": "beauty"
     },
     {
-      "title": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - forbes.com",
+      "title": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXkzOEhOM0k2RV9QV1hUbWlZSDhQZ2dGbWVZNHp6XzM3dWtvVTU5OTlJa3NROGF6R0ZjUlg0eHp5WTFUUmUzdElxSE9iX1JVTDV1cUdHeHBrVTVFLXRyTWVGWGVLWVdaOWQwMjVKSVVPbmxBRlhDOFp2cmRnd3JITUFibWR6UF8xSFo5aFlqem5hR2phaU5qdmx0SXJtdjJzZFA2ZmNFbTV0R0g0ZmNqMGYzZnI?oc=5",
       "published": "Tue, 18 Aug 2026 07:00:00 GMT",
       "feed": "google_news_kbeauty",
@@ -326,13 +326,6 @@
       "category": "beauty"
     },
     {
-      "title": "Korea’s cosmetic medical platform Unni suffers data leak exposing global user records - KED Global",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5IemZTYkJrdXptVkxJQjVEOHM3MHMxR0ZMTG0yOTdhRlNyWnBkNHIzbUV6NVA0ZlpjWUtrSnQtRFhScGZhQ3l1dFFiZmRJOElHZVdrU2g2WW04dmJsRnFYVWRVRE5JM1FWRHVNVFRfeEpOY3h4UWc?oc=5",
-      "published": "Mon, 07 Sep 2026 12:13:00 GMT",
-      "feed": "google_news_kbeauty",
-      "category": "beauty"
-    },
-    {
       "title": "APR's Medicube tests negative for banned dye tied to unauthorized seller - The Korea Herald",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4zc202TjRiVGVHOHZRSjFJNzRRQVNRY0JsUnBNell4andrN3haR1NEWng2aFdHZm1MczF3d25LX2stcnpxOUFaSUtSUzFTTHpFd1Y4N1Brcw?oc=5",
       "published": "Sun, 06 Sep 2026 05:54:50 GMT",
@@ -343,6 +336,13 @@
       "title": "Kolmar Korea brings K-beauty colors to Paris fashion stage - The Korea Times",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdzM3UkhXRnlIQ0NyNnV6S1dYdVpwLXVEckd0Nmw4VVhZSFFGSjdjYmU3c3diOGMwMkh1ZEVQM0xaNGtCbGJlZVJ0X05WUm85Qm9SZmFER2gwa0RXZDM2ekFiZnlDZHpzUGs2dzRxelBaeS0zT0FYWVZoRlNhR1l6cW1xT21nWDkwWldtQ3dKci1SY3U5N0RnSDlCek1BeVdHQ2tQLXVqTUVEOUtQeVFsUzE1QmJhd9IBuwFBVV95cUxPT3VWWm9oS2MtQWhhYjh5ZUhubWlCRlRuMm14dGhfZkxrcXkzeXFwZGdtWG1QXzNYOGtJMGsxR0xWS1FoNnA5SFg1Z0ZtS2RMdWlkd1VZX1g4NEs4dDBCejJPLVpOTXpUU0tqV0d1bENSVGM2STh4QjFTc2lPcjFWS0l2LWN6WmdEVnEyeU4xU2RLM2Z0MUw2VEtkV1VkcDliZkFUTUZmY1lPb2VDcnFkTTdPLV9iWVNOcGlj?oc=5",
       "published": "Fri, 04 Sep 2026 04:04:02 GMT",
+      "feed": "google_news_kbeauty",
+      "category": "beauty"
+    },
+    {
+      "title": "Korea’s cosmetic medical platform Unni suffers data leak exposing global user records - KED Global",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5IemZTYkJrdXptVkxJQjVEOHM3MHMxR0ZMTG0yOTdhRlNyWnBkNHIzbUV6NVA0ZlpjWUtrSnQtRFhScGZhQ3l1dFFiZmRJOElHZVdrU2g2WW04dmJsRnFYVWRVRE5JM1FWRHVNVFRfeEpOY3h4UWc?oc=5",
+      "published": "Mon, 07 Sep 2026 12:13:00 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
@@ -375,16 +375,16 @@
       "category": "beauty"
     },
     {
-      "title": "Wonderbalm expands travel retail reach with Gebr. Heinemann launch - gtrmag.com",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNENaMGF5UVFkVC1GQV9IYmtkRXFTUVd0elQtZ3R5OW5QYmF4bV82WG9TUjFySlZRNHZSUFk0M2dYVzhMWlprVzVGalJKZUY1UTQydkY1aGNLWFZxYmxVVE9rX2FLMG1wOFNUdEJ6cHJQSktlWXdHMUs0THBwT1Fia0NBU2dnVWQ3bnktbEZVOE5lVTN6RkV2OQ?oc=5",
-      "published": "Mon, 07 Sep 2026 15:10:15 GMT",
+      "title": "Europe’s K-Beauty boom - The Parliament Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iWnVqOVdJRU5qN3R1U0gzamxmaFNWNzMteUhBQ2UtTm54U0pDUWtSQ3BuWi1TMjVpeENWZy1sTmRYTFB0MTIzYUpHeExlRjluUVJQcDFEUDFlVXg0NVVHMER1RmxYWllIcjFidlVTTkF0VkdwdGpneHdR?oc=5",
+      "published": "Tue, 25 Aug 2026 07:00:00 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
     {
-      "title": "Europe’s K-Beauty boom - The Parliament Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iWnVqOVdJRU5qN3R1U0gzamxmaFNWNzMteUhBQ2UtTm54U0pDUWtSQ3BuWi1TMjVpeENWZy1sTmRYTFB0MTIzYUpHeExlRjluUVJQcDFEUDFlVXg0NVVHMER1RmxYWllIcjFidlVTTkF0VkdwdGpneHdR?oc=5",
-      "published": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "title": "Wonderbalm expands travel retail reach with Gebr. Heinemann launch - Global Travel Retail Magazine",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNENaMGF5UVFkVC1GQV9IYmtkRXFTUVd0elQtZ3R5OW5QYmF4bV82WG9TUjFySlZRNHZSUFk0M2dYVzhMWlprVzVGalJKZUY1UTQydkY1aGNLWFZxYmxVVE9rX2FLMG1wOFNUdEJ6cHJQSktlWXdHMUs0THBwT1Fia0NBU2dnVWQ3bnktbEZVOE5lVTN6RkV2OQ?oc=5",
+      "published": "Mon, 07 Sep 2026 15:10:15 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
@@ -582,6 +582,11 @@
           "published": "Tue, 08 Sep 2026 04:48:10 +0000"
         },
         {
+          "title": "There's a new \"Google Jail\" for independent wikis",
+          "url": "https://weirdgloop.org/blog/google-jail",
+          "published": "Tue, 08 Sep 2026 01:57:23 +0000"
+        },
+        {
           "title": "Jellyfin 12.0",
           "url": "https://jellyfin.org/posts/jellyfin-release-12.0/",
           "published": "Tue, 08 Sep 2026 01:56:35 +0000"
@@ -615,11 +620,6 @@
           "title": "De-Brainrot Vacations",
           "url": "https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/",
           "published": "Mon, 07 Sep 2026 13:00:48 +0000"
-        },
-        {
-          "title": "Splash-free urinals (2025)",
-          "url": "https://academic.oup.com/pnasnexus/article/4/4/pgaf087/8098745?login=false",
-          "published": "Mon, 07 Sep 2026 12:58:57 +0000"
         },
         {
           "title": "Smartphone makers don't bother to comply with EU repairability requirements",
@@ -868,7 +868,7 @@
           "published": "Mon, 07 Sep 2026 21:20:05 GMT"
         },
         {
-          "title": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - forbes.com",
+          "title": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXkzOEhOM0k2RV9QV1hUbWlZSDhQZ2dGbWVZNHp6XzM3dWtvVTU5OTlJa3NROGF6R0ZjUlg0eHp5WTFUUmUzdElxSE9iX1JVTDV1cUdHeHBrVTVFLXRyTWVGWGVLWVdaOWQwMjVKSVVPbmxBRlhDOFp2cmRnd3JITUFibWR6UF8xSFo5aFlqem5hR2phaU5qdmx0SXJtdjJzZFA2ZmNFbTV0R0g0ZmNqMGYzZnI?oc=5",
           "published": "Tue, 18 Aug 2026 07:00:00 GMT"
         },
@@ -918,11 +918,6 @@
           "published": "Mon, 07 Sep 2026 21:30:05 GMT"
         },
         {
-          "title": "Korea’s cosmetic medical platform Unni suffers data leak exposing global user records - KED Global",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5IemZTYkJrdXptVkxJQjVEOHM3MHMxR0ZMTG0yOTdhRlNyWnBkNHIzbUV6NVA0ZlpjWUtrSnQtRFhScGZhQ3l1dFFiZmRJOElHZVdrU2g2WW04dmJsRnFYVWRVRE5JM1FWRHVNVFRfeEpOY3h4UWc?oc=5",
-          "published": "Mon, 07 Sep 2026 12:13:00 GMT"
-        },
-        {
           "title": "APR's Medicube tests negative for banned dye tied to unauthorized seller - The Korea Herald",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4zc202TjRiVGVHOHZRSjFJNzRRQVNRY0JsUnBNell4andrN3haR1NEWng2aFdHZm1MczF3d25LX2stcnpxOUFaSUtSUzFTTHpFd1Y4N1Brcw?oc=5",
           "published": "Sun, 06 Sep 2026 05:54:50 GMT"
@@ -931,6 +926,11 @@
           "title": "Kolmar Korea brings K-beauty colors to Paris fashion stage - The Korea Times",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdzM3UkhXRnlIQ0NyNnV6S1dYdVpwLXVEckd0Nmw4VVhZSFFGSjdjYmU3c3diOGMwMkh1ZEVQM0xaNGtCbGJlZVJ0X05WUm85Qm9SZmFER2gwa0RXZDM2ekFiZnlDZHpzUGs2dzRxelBaeS0zT0FYWVZoRlNhR1l6cW1xT21nWDkwWldtQ3dKci1SY3U5N0RnSDlCek1BeVdHQ2tQLXVqTUVEOUtQeVFsUzE1QmJhd9IBuwFBVV95cUxPT3VWWm9oS2MtQWhhYjh5ZUhubWlCRlRuMm14dGhfZkxrcXkzeXFwZGdtWG1QXzNYOGtJMGsxR0xWS1FoNnA5SFg1Z0ZtS2RMdWlkd1VZX1g4NEs4dDBCejJPLVpOTXpUU0tqV0d1bENSVGM2STh4QjFTc2lPcjFWS0l2LWN6WmdEVnEyeU4xU2RLM2Z0MUw2VEtkV1VkcDliZkFUTUZmY1lPb2VDcnFkTTdPLV9iWVNOcGlj?oc=5",
           "published": "Fri, 04 Sep 2026 04:04:02 GMT"
+        },
+        {
+          "title": "Korea’s cosmetic medical platform Unni suffers data leak exposing global user records - KED Global",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5IemZTYkJrdXptVkxJQjVEOHM3MHMxR0ZMTG0yOTdhRlNyWnBkNHIzbUV6NVA0ZlpjWUtrSnQtRFhScGZhQ3l1dFFiZmRJOElHZVdrU2g2WW04dmJsRnFYVWRVRE5JM1FWRHVNVFRfeEpOY3h4UWc?oc=5",
+          "published": "Mon, 07 Sep 2026 12:13:00 GMT"
         }
       ],
       "error": null

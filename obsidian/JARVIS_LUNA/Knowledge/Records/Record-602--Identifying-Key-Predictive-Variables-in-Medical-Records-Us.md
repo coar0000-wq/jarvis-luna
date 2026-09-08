@@ -2,7 +2,7 @@
 title: "Record 602 · Identifying-Key-Predictive-Variables-in-Medical-Records-Using-a-Large-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.874597+00:00
+updated_at: 2026-09-08T12:07:28.528823+00:00
 tags: [record, real-data]
 ---
 

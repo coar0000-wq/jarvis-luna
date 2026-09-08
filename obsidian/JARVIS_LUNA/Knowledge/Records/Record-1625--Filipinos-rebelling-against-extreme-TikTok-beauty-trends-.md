@@ -2,7 +2,7 @@
 title: "Record 1625 · Filipinos-rebelling-against-extreme-TikTok-beauty-trends--doctor---tri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.024032+00:00
+updated_at: 2026-09-08T12:07:28.792688+00:00
 tags: [record, real-data]
 ---
 

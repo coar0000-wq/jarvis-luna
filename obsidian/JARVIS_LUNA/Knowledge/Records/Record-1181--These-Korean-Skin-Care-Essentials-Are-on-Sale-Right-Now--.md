@@ -2,7 +2,7 @@
 title: "Record 1181 · These-Korean-Skin-Care-Essentials-Are-on-Sale-Right-Now---Teen-Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.965441+00:00
+updated_at: 2026-09-08T12:07:28.677010+00:00
 tags: [record, real-data]
 ---
 

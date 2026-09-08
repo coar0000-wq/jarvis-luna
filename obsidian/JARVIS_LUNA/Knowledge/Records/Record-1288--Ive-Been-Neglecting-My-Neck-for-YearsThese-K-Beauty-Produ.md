@@ -2,7 +2,7 @@
 title: "Record 1288 · Ive-Been-Neglecting-My-Neck-for-YearsThese-K-Beauty-Products-Are-Chang"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.979606+00:00
+updated_at: 2026-09-08T12:07:28.704535+00:00
 tags: [record, real-data]
 ---
 

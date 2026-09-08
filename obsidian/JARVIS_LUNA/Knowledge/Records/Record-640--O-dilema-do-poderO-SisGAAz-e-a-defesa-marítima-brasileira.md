@@ -2,7 +2,7 @@
 title: "Record 640 · O-dilema-do-poderO-SisGAAz-e-a-defesa-marítima-brasileira"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.880652+00:00
+updated_at: 2026-09-08T12:07:28.538122+00:00
 tags: [record, real-data]
 ---
 

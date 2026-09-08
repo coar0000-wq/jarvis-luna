@@ -2,7 +2,7 @@
 title: "Record 757 · Closure-Theory-An-Introductory-Résumé-of-Papers-0IV"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.899171+00:00
+updated_at: 2026-09-08T12:07:28.565992+00:00
 tags: [record, real-data]
 ---
 

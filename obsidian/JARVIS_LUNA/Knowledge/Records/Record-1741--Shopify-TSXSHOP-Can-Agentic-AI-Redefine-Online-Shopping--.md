@@ -2,7 +2,7 @@
 title: "Record 1741 · Shopify-TSXSHOP-Can-Agentic-AI-Redefine-Online-Shopping---Kalkine-Medi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.039276+00:00
+updated_at: 2026-09-08T12:07:28.823061+00:00
 tags: [record, real-data]
 ---
 

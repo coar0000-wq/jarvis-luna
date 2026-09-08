@@ -2,7 +2,7 @@
 title: "Record 1745 · Why-Is-the-Turning-Myself-Into-an-LA-10-Trend-Attracting-So-Many-Hate-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.039788+00:00
+updated_at: 2026-09-08T12:07:28.824109+00:00
 tags: [record, real-data]
 ---
 

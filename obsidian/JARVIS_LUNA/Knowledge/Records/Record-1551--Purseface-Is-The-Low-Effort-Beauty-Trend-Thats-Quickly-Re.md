@@ -2,7 +2,7 @@
 title: "Record 1551 · Purseface-Is-The-Low-Effort-Beauty-Trend-Thats-Quickly-Replacing-The-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.014051+00:00
+updated_at: 2026-09-08T12:07:28.772859+00:00
 tags: [record, real-data]
 ---
 

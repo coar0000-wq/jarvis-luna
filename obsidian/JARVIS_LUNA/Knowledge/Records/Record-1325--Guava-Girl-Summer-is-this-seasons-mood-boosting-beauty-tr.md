@@ -2,7 +2,7 @@
 title: "Record 1325 · Guava-Girl-Summer-is-this-seasons-mood-boosting-beauty-trend---CBC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.984425+00:00
+updated_at: 2026-09-08T12:07:28.714001+00:00
 tags: [record, real-data]
 ---
 

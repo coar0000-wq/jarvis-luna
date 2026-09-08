@@ -2,7 +2,7 @@
 title: "Record 530 · Technical-Perspective"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.865023+00:00
+updated_at: 2026-09-08T12:07:28.511676+00:00
 tags: [record, real-data]
 ---
 

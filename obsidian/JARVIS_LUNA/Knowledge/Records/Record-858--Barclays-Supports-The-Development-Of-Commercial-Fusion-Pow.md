@@ -2,7 +2,7 @@
 title: "Record 858 · Barclays-Supports-The-Development-Of-Commercial-Fusion-Power-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.914341+00:00
+updated_at: 2026-09-08T12:07:28.591223+00:00
 tags: [record, real-data]
 ---
 

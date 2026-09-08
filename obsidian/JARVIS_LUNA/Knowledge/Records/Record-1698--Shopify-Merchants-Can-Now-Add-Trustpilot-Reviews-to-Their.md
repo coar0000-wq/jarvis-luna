@@ -2,7 +2,7 @@
 title: "Record 1698 · Shopify-Merchants-Can-Now-Add-Trustpilot-Reviews-to-Their-Stores---PYM"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.033652+00:00
+updated_at: 2026-09-08T12:07:28.811793+00:00
 tags: [record, real-data]
 ---
 

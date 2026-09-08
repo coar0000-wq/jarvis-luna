@@ -2,7 +2,7 @@
 title: "Record 1155 · Olive-Young-Is-Coming-To-Sephora-Singapore-With-Over-20-Korean-Beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.961569+00:00
+updated_at: 2026-09-08T12:07:28.670452+00:00
 tags: [record, real-data]
 ---
 

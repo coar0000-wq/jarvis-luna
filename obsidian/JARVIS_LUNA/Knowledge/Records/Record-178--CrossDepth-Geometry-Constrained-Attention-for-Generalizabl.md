@@ -2,7 +2,7 @@
 title: "Record 178 · CrossDepth-Geometry-Constrained-Attention-for-Generalizable-Multi-View"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.814674+00:00
+updated_at: 2026-09-08T12:07:28.424110+00:00
 tags: [record, real-data]
 ---
 

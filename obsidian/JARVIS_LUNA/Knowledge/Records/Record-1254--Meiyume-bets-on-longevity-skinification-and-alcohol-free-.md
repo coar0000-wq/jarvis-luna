@@ -2,7 +2,7 @@
 title: "Record 1254 · Meiyume-bets-on-longevity-skinification-and-alcohol-free-fragrance-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.975391+00:00
+updated_at: 2026-09-08T12:07:28.695774+00:00
 tags: [record, real-data]
 ---
 

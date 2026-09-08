@@ -2,7 +2,7 @@
 title: "Record 1207 · Kolmar-Korea-puts-cosmetics-RD-on-display-at-Seoul-Beauty-Week---Korea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.969143+00:00
+updated_at: 2026-09-08T12:07:28.683737+00:00
 tags: [record, real-data]
 ---
 

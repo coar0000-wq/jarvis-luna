@@ -2,7 +2,7 @@
 title: "Record 1095 · Makeup-artist-Liz-Hyuns-Korean-beauty-favourites---Fashion-Journal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.952916+00:00
+updated_at: 2026-09-08T12:07:28.655120+00:00
 tags: [record, real-data]
 ---
 

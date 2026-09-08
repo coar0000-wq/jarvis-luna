@@ -2,7 +2,7 @@
 title: "Record 1170 · 17-Korean-Skincare-Products-That-Are-Actually-Worth-the-Hype---Byrdie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.963759+00:00
+updated_at: 2026-09-08T12:07:28.674216+00:00
 tags: [record, real-data]
 ---
 

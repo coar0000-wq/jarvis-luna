@@ -2,7 +2,7 @@
 title: "Record 1150 · 14-Best-Korean-Beauty-Products-For-Acne-According-To-K-Beauty-Experts-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.960826+00:00
+updated_at: 2026-09-08T12:07:28.669107+00:00
 tags: [record, real-data]
 ---
 

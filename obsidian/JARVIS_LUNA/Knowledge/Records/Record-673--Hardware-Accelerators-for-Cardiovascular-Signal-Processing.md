@@ -2,7 +2,7 @@
 title: "Record 673 · Hardware-Accelerators-for-Cardiovascular-Signal-Processing-A-System-on"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.886135+00:00
+updated_at: 2026-09-08T12:07:28.546175+00:00
 tags: [record, real-data]
 ---
 

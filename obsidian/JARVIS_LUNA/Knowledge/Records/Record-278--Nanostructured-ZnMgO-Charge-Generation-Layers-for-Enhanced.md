@@ -2,7 +2,7 @@
 title: "Record 278 · Nanostructured-ZnMgO-Charge-Generation-Layers-for-Enhanced-Tandem-Quan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.829433+00:00
+updated_at: 2026-09-08T12:07:28.449801+00:00
 tags: [record, real-data]
 ---
 

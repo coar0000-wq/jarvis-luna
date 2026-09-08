@@ -2,7 +2,7 @@
 title: "Record 305 · Incentive-ratio-A-game-theoretical-analysis-of-market-equilibria"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.833233+00:00
+updated_at: 2026-09-08T12:07:28.456386+00:00
 tags: [record, real-data]
 ---
 

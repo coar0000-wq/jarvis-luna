@@ -2,7 +2,7 @@
 title: "Record 146 · Regional-Frequency-Constrained-Dispatch-Method-Considering-Spatial-joi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.808605+00:00
+updated_at: 2026-09-08T12:07:28.414563+00:00
 tags: [record, real-data]
 ---
 

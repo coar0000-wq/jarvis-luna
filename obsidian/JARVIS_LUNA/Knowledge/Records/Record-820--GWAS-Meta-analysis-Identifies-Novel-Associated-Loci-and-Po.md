@@ -2,7 +2,7 @@
 title: "Record 820 · GWAS-Meta-analysis-Identifies-Novel-Associated-Loci-and-Points-to-Caus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.908636+00:00
+updated_at: 2026-09-08T12:07:28.581460+00:00
 tags: [record, real-data]
 ---
 

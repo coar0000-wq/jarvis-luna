@@ -2,7 +2,7 @@
 title: "Record 1287 · Shopify-wants-chatbots-to-become-the-internets-next-shoppers---YourSto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.979467+00:00
+updated_at: 2026-09-08T12:07:28.704266+00:00
 tags: [record, real-data]
 ---
 

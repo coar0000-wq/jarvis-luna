@@ -2,7 +2,7 @@
 title: "Record 621 · The-Illiquidity-Budget-in-Modern-Portfolios-Structural-Limits-to-Priva"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.877504+00:00
+updated_at: 2026-09-08T12:07:28.533553+00:00
 tags: [record, real-data]
 ---
 

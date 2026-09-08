@@ -2,7 +2,7 @@
 title: "Record 832 · Structural-Plasticity-and-Ligand-Promiscuity-of-CYP3A4-Revealed-by-Cry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.910517+00:00
+updated_at: 2026-09-08T12:07:28.584454+00:00
 tags: [record, real-data]
 ---
 

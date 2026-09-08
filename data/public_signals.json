@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T06:02:16.388208+00:00",
+  "generated_at": "2026-09-08T12:32:06.712757+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "administration",
+          "keyword": "six flags",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Sun, 6 Sep 2026 21:20:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=administration"
+          "published": "Tue, 8 Sep 2026 04:30:00 -0700",
+          "source_name": "WKYC",
+          "url": "https://trends.google.com/trending?geo=US&q=six%20flags"
         },
         {
-          "keyword": "history of labor day",
+          "keyword": "jaclyn smith",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Sun, 6 Sep 2026 21:10:00 -0700",
-          "source_name": "Freedom Forum",
-          "url": "https://trends.google.com/trending?geo=US&q=history%20of%20labor%20day"
+          "published": "Tue, 8 Sep 2026 05:00:00 -0700",
+          "source_name": "HELLO! Magazine",
+          "url": "https://trends.google.com/trending?geo=US&q=jaclyn%20smith"
         },
         {
-          "keyword": "tom cruise",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Sun, 6 Sep 2026 21:10:00 -0700",
-          "source_name": "TV Insider",
-          "url": "https://trends.google.com/trending?geo=US&q=tom%20cruise"
-        },
-        {
-          "keyword": "nintendo switch banned",
+          "keyword": "sandra bullock",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Sun, 6 Sep 2026 22:10:00 -0700",
-          "source_name": "Notebookcheck",
-          "url": "https://trends.google.com/trending?geo=US&q=nintendo%20switch%20banned"
+          "published": "Tue, 8 Sep 2026 05:10:00 -0700",
+          "source_name": "AP News",
+          "url": "https://trends.google.com/trending?geo=US&q=sandra%20bullock"
         },
         {
-          "keyword": "dodgers schedule",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 22:00:00 -0700",
+          "keyword": "oil prices",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 8 Sep 2026 04:50:00 -0700",
+          "source_name": "CBS News",
+          "url": "https://trends.google.com/trending?geo=US&q=oil%20prices"
+        },
+        {
+          "keyword": "good morning america",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 8 Sep 2026 04:40:00 -0700",
+          "source_name": "ABC News - Breaking News, Latest News and Videos",
+          "url": "https://trends.google.com/trending?geo=US&q=good%20morning%20america"
+        },
+        {
+          "keyword": "mike tomlin",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 8 Sep 2026 04:30:00 -0700",
           "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=dodgers%20schedule"
+          "url": "https://trends.google.com/trending?geo=US&q=mike%20tomlin"
         },
         {
-          "keyword": "edgardo henriquez",
+          "keyword": "nicole kidman",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 22:00:00 -0700",
-          "source_name": "CBS Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=edgardo%20henriquez"
+          "published": "Tue, 8 Sep 2026 05:10:00 -0700",
+          "source_name": "InStyle",
+          "url": "https://trends.google.com/trending?geo=US&q=nicole%20kidman"
         },
         {
-          "keyword": "tommy edman",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sun, 6 Sep 2026 22:00:00 -0700",
-          "source_name": "Los Angeles Times",
-          "url": "https://trends.google.com/trending?geo=US&q=tommy%20edman"
-        },
-        {
-          "keyword": "alex call",
+          "keyword": "unemployment",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 6 Sep 2026 22:20:00 -0700",
-          "source_name": "DodgerBlue.com",
-          "url": "https://trends.google.com/trending?geo=US&q=alex%20call"
+          "published": "Tue, 8 Sep 2026 04:50:00 -0700",
+          "source_name": "WSJ",
+          "url": "https://trends.google.com/trending?geo=US&q=unemployment"
         },
         {
-          "keyword": "melania trump",
+          "keyword": "democrats 2026 midterms gop territory",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 6 Sep 2026 22:10:00 -0700",
-          "source_name": "The Washington Post",
-          "url": "https://trends.google.com/trending?geo=US&q=melania%20trump"
+          "published": "Tue, 8 Sep 2026 04:40:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=democrats%202026%20midterms%20gop%20territory"
         },
         {
-          "keyword": "agreement",
+          "keyword": "good morning america live",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 6 Sep 2026 21:50:00 -0700",
-          "source_name": "CNBC",
-          "url": "https://trends.google.com/trending?geo=US&q=agreement"
+          "published": "Tue, 8 Sep 2026 04:40:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=good%20morning%20america%20live"
         }
       ]
     },
@@ -96,87 +96,87 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-07 ~ 2026-09-05 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-08 ~ 2026-09-06 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
-          "topic": "Niacinamide",
-          "days": 30,
-          "total_views": 1374,
-          "avg_daily": 46,
-          "recent_avg": 52,
-          "prev_avg": 39,
-          "change_pct": 34.1,
-          "url": "https://en.wikipedia.org/wiki/Niacinamide"
-        },
-        {
           "topic": "Snail slime",
           "days": 30,
-          "total_views": 2147,
-          "avg_daily": 72,
-          "recent_avg": 79,
-          "prev_avg": 64,
-          "change_pct": 22.0,
+          "total_views": 2132,
+          "avg_daily": 71,
+          "recent_avg": 77,
+          "prev_avg": 65,
+          "change_pct": 19.1,
           "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "Centella asiatica",
           "days": 30,
-          "total_views": 14375,
-          "avg_daily": 479,
-          "recent_avg": 504,
-          "prev_avg": 455,
-          "change_pct": 10.7,
+          "total_views": 14461,
+          "avg_daily": 482,
+          "recent_avg": 502,
+          "prev_avg": 462,
+          "change_pct": 8.8,
           "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
         },
         {
-          "topic": "Retinol",
+          "topic": "Niacinamide",
           "days": 30,
-          "total_views": 11536,
-          "avg_daily": 385,
-          "recent_avg": 384,
-          "prev_avg": 385,
-          "change_pct": -0.3,
-          "url": "https://en.wikipedia.org/wiki/Retinol"
+          "total_views": 1359,
+          "avg_daily": 45,
+          "recent_avg": 46,
+          "prev_avg": 44,
+          "change_pct": 4.7,
+          "url": "https://en.wikipedia.org/wiki/Niacinamide"
         },
         {
           "topic": "Hyaluronic acid",
           "days": 30,
-          "total_views": 17039,
-          "avg_daily": 568,
-          "recent_avg": 567,
+          "total_views": 17421,
+          "avg_daily": 581,
+          "recent_avg": 592,
           "prev_avg": 569,
-          "change_pct": -0.4,
+          "change_pct": 4.1,
           "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
+        },
+        {
+          "topic": "Retinol",
+          "days": 30,
+          "total_views": 11476,
+          "avg_daily": 383,
+          "recent_avg": 385,
+          "prev_avg": 380,
+          "change_pct": 1.2,
+          "url": "https://en.wikipedia.org/wiki/Retinol"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 4195,
-          "avg_daily": 140,
-          "recent_avg": 135,
-          "prev_avg": 144,
-          "change_pct": -6.4,
+          "total_views": 4028,
+          "avg_daily": 134,
+          "recent_avg": 134,
+          "prev_avg": 134,
+          "change_pct": -0.2,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
         },
         {
           "topic": "Sunscreen",
           "days": 30,
-          "total_views": 18519,
-          "avg_daily": 617,
-          "recent_avg": 523,
-          "prev_avg": 712,
-          "change_pct": -26.5,
+          "total_views": 18645,
+          "avg_daily": 622,
+          "recent_avg": 548,
+          "prev_avg": 695,
+          "change_pct": -21.3,
           "url": "https://en.wikipedia.org/wiki/Sunscreen"
         },
         {
           "topic": "Cosmetics",
           "days": 30,
-          "total_views": 24496,
-          "avg_daily": 817,
-          "recent_avg": 689,
-          "prev_avg": 944,
-          "change_pct": -27.0,
+          "total_views": 24090,
+          "avg_daily": 803,
+          "recent_avg": 686,
+          "prev_avg": 920,
+          "change_pct": -25.4,
           "url": "https://en.wikipedia.org/wiki/Cosmetics"
         }
       ]
@@ -187,6 +187,21 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "14 Peony Perfumes to Take You From Summer to Fall",
+          "published": "Mon, 07 Sep 2026 20:15:00 +0000",
+          "url": "https://www.allure.com/story/peony-fragrances"
+        },
+        {
+          "title": "Emma Stone's Hair Is Suddenly So Long — See Photos",
+          "published": "Mon, 07 Sep 2026 14:50:54 +0000",
+          "url": "https://www.allure.com/story/emma-stone-long-wavy-hair-2026"
+        },
+        {
+          "title": "Pamela Anderson Brought Classic Movie Star Hair to Venice—See the Photos",
+          "published": "Mon, 07 Sep 2026 13:48:18 +0000",
+          "url": "https://www.allure.com/story/pamela-anderson-venice-film-festival-hairstyles"
+        },
         {
           "title": "12 Best The Ordinary Products for an Affordable Beauty Routine",
           "published": "Sun, 06 Sep 2026 12:00:00 +0000",
@@ -321,21 +336,6 @@
           "title": "Do Peptide Serums Actually Help With Thinning Hair? Here's What Derms Say",
           "published": "Fri, 28 Aug 2026 20:21:53 +0000",
           "url": "https://www.allure.com/story/best-peptide-hair-serum"
-        },
-        {
-          "title": "It’s Not Just Hype—Rōz Delivers Your Easiest Hair Days Yet",
-          "published": "Fri, 28 Aug 2026 17:37:54 +0000",
-          "url": "https://www.allure.com/story/best-roz-products"
-        },
-        {
-          "title": "Petrichor Fragrances Were Made for the Dog Days of Summer",
-          "published": "Thu, 27 Aug 2026 15:27:13 +0000",
-          "url": "https://www.allure.com/story/petrichor-fragrance-trend"
-        },
-        {
-          "title": "Maisie Williams Went Full '90s Updo at the Practical Magic Premiere—See the Photos",
-          "published": "Thu, 27 Aug 2026 15:26:42 +0000",
-          "url": "https://www.allure.com/story/maisie-williams-practical-magic-2-updo"
         }
       ]
     },

@@ -2,7 +2,7 @@
 title: "Record 1473 · Opinion-K-Beauty-Needs-More-Than-Salmon-Sperm-Snail-Mucin-to-Win-the-U"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.003878+00:00
+updated_at: 2026-09-08T12:07:28.752522+00:00
 tags: [record, real-data]
 ---
 

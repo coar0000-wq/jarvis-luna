@@ -2,7 +2,7 @@
 title: "Record 1560 · This-Filler-In-A-Bottle-Serum-Is-A-Top-K-Beauty-Find-That-No-One-Knows"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.015144+00:00
+updated_at: 2026-09-08T12:07:28.775186+00:00
 tags: [record, real-data]
 ---
 

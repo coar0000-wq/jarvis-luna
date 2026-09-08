@@ -2,7 +2,7 @@
 title: "Record 252 · Wavefront-Selective-Modal-Excitations-for-Optimally-Informative-Sensin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.825647+00:00
+updated_at: 2026-09-08T12:07:28.443382+00:00
 tags: [record, real-data]
 ---
 

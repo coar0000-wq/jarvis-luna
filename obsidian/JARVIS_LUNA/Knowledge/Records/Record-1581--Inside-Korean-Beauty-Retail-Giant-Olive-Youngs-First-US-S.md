@@ -2,7 +2,7 @@
 title: "Record 1581 · Inside-Korean-Beauty-Retail-Giant-Olive-Youngs-First-US-Store---fashio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.018252+00:00
+updated_at: 2026-09-08T12:07:28.781018+00:00
 tags: [record, real-data]
 ---
 

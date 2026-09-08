@@ -2,7 +2,7 @@
 title: "Record 1563 · I-Dont-Know-Why-More-People-Arent-Freaking-Out-About-This-Huge-K-Beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:36.015522+00:00
+updated_at: 2026-09-08T12:07:28.775975+00:00
 tags: [record, real-data]
 ---
 

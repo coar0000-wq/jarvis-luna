@@ -2,7 +2,7 @@
 title: "Record 503 · Analysis-and-Design-of-mm-Wave-CMOS-Power-Amplifier-Using-Stacked-Para"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.861232+00:00
+updated_at: 2026-09-08T12:07:28.505242+00:00
 tags: [record, real-data]
 ---
 

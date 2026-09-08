@@ -2,7 +2,7 @@
 title: "Record 1348 · These-are-the-biggest-Korean-beauty-trends-RN-and-how-to-recreate-them"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.987372+00:00
+updated_at: 2026-09-08T12:07:28.719996+00:00
 tags: [record, real-data]
 ---
 

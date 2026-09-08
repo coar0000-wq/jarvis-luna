@@ -2,7 +2,7 @@
 title: "Record 960 · Speaking-of-Voxtral"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.932813+00:00
+updated_at: 2026-09-08T12:07:28.620487+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 134 · CoLMIN-LLM-based-Multi-Decision-Path-Negotiation-for-Cooperative-Auton"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.806015+00:00
+updated_at: 2026-09-08T12:07:28.410605+00:00
 tags: [record, real-data]
 ---
 

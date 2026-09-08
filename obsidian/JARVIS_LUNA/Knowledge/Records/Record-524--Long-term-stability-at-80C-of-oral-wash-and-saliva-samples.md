@@ -2,7 +2,7 @@
 title: "Record 524 · Long-term-stability-at-80C-of-oral-wash-and-saliva-samples-for-microbi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T11:58:35.864212+00:00
+updated_at: 2026-09-08T12:07:28.510294+00:00
 tags: [record, real-data]
 ---
 
