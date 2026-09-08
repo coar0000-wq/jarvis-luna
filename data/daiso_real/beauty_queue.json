@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T13:10:13.171536+00:00",
+  "generated_at": "2026-09-08T21:54:39.952357+00:00",
   "generator": "scripts/daiso/build_beauty_queue.py",
   "왜": "사이트맵을 훑으면 뷰티관 밖 상품을 받아본 뒤 버린다. 한 회차 110건 중 82건이 그랬고 Crawl-delay 30 이라 41분이 버려졌다.",
   "신뢰": "URL 만 받는다. 이름과 가격은 collect_daiso.py 가 직접 받는다. LLM 이 옮긴 숫자를 실측값으로 쓰지 않는다.",
@@ -10,14 +10,14 @@
       "target": "뷰티관 허브",
       "url": "https://www.daisomall.co.kr/ds/diy2/C245",
       "count": 0,
-      "url_context": ""
+      "url_context": "{\"call_id\": \"call_411020\", \"signature\": \"EuQCCuECCAIS3AIBEU0yDzhe0PbuUO5mvJiMSpqEvehuzU+r2eH9gmBLfHhMI/EBQAgUV1Ho04jO2VnIkQ5cH6ugnjaxercWGQPogLWXH9+J1fPZWxYkFhEiwDlnhV3X39V5XVZ7NGldc98zWJ1FOAIRZ3S87fy"
     }
   ],
   "errors": [
     {
       "target": "뷰티관 허브",
       "url": "https://www.daisomall.co.kr/ds/diy2/C245",
-      "error": "TimeoutError: The read operation timed out"
+      "error": "상품 URL 없음: []"
     }
   ],
   "new_this_run": 0,
