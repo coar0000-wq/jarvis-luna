@@ -1,56 +1,46 @@
 {
   "last_run": {
-    "started_at": "2026-09-07T22:02:46.492250+00:00",
-    "requested": 110,
-    "ok": 13,
-    "parse_failed": 5,
+    "started_at": "2026-09-08T12:45:59.734615+00:00",
+    "requested": 20,
+    "ok": 0,
+    "parse_failed": 3,
     "http_error": 0,
     "sold_out": 0,
     "parse_fail_reasons": {
-      "가격 없음": 5
+      "가격 없음": 3
     },
     "parse_fail_samples": [
       {
-        "pd_no": "1052637",
+        "pd_no": "1040842",
         "reason": "가격 없음",
         "og_title": "다이소몰",
         "sold_out": false
       },
       {
-        "pd_no": "1063547",
+        "pd_no": "1021398",
         "reason": "가격 없음",
         "og_title": "다이소몰",
         "sold_out": false
       },
       {
-        "pd_no": "1063514",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "1054254",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "1049674",
+        "pd_no": "1020383",
         "reason": "가격 없음",
         "og_title": "다이소몰",
         "sold_out": false
       }
     ],
-    "skipped_not_beauty": 82,
-    "skipped_bucket_full": 10,
+    "skipped_not_beauty": 14,
+    "skipped_bucket_full": 3,
     "skipped_excluded": {},
     "pruned_existing": {},
+    "queue_size": 0,
+    "url_source": "sitemap",
     "scope": "다이소몰 뷰티관(C245) 10개 카테고리 (선케어·네일 제외)",
     "delay_seconds": 30.0,
-    "max_items": 110,
+    "max_items": 20,
     "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
     "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
-    "finished_at": "2026-09-07T23:01:51.886574+00:00",
+    "finished_at": "2026-09-08T12:56:44.418529+00:00",
     "bucket_targets": {
       "구강용품": 3,
       "헤어케어": 18,
@@ -171,7 +161,7 @@
     "as_of": "2026-09-08",
     "source": "ExchangeRate-API",
     "api_url": "https://open.er-api.com/v6/latest/USD",
-    "fetched_at": "2026-09-08T12:32:07.311353+00:00",
+    "fetched_at": "2026-09-08T12:45:59.486942+00:00",
     "ok": true,
     "대조": [
       "exchangerate-api 1,345.38(2026-09-08)",
@@ -179,5 +169,5 @@
     ]
   },
   "sitemap_urls_known": 19739,
-  "visited": 1290
+  "visited": 1310
 }

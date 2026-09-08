@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-09-08T12:45:59.647214+00:00",
+  "generator": "scripts/daiso/build_beauty_queue.py",
+  "왜": "사이트맵을 훑으면 뷰티관 밖 상품을 받아본 뒤 버린다. 한 회차 110건 중 82건이 그랬고 Crawl-delay 30 이라 41분이 버려졌다.",
+  "신뢰": "URL 만 받는다. 이름과 가격은 collect_daiso.py 가 직접 받는다. LLM 이 옮긴 숫자를 실측값으로 쓰지 않는다.",
+  "model": "gemini-3.7-flash",
+  "targets": [
+    {
+      "target": "뷰티관 허브",
+      "url": "https://www.daisomall.co.kr/ds/diy2/C245",
+      "count": 0,
+      "url_context": ""
+    }
+  ],
+  "errors": [
+    {
+      "target": "뷰티관 허브",
+      "url": "https://www.daisomall.co.kr/ds/diy2/C245",
+      "error": "HTTP 404: "
+    }
+  ],
+  "new_this_run": 0,
+  "total": 0,
+  "urls": []
+}
