@@ -2,7 +2,7 @@
 title: "Record 003 · FOREVER-SKIN-GLOW-24h-wear-radiant-foundation-Perfection-and-hydration"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-07T05:38:07.457576+00:00
+updated_at: 2026-09-08T11:58:35.783880+00:00
 tags: [record, real-data]
 ---
 

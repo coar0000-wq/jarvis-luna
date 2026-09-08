@@ -2,7 +2,7 @@
 title: "기관 · DataWalk"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-07T05:38:08.205807+00:00
+updated_at: 2026-09-08T11:58:36.303321+00:00
 tags: [org, real-data]
 ---
 

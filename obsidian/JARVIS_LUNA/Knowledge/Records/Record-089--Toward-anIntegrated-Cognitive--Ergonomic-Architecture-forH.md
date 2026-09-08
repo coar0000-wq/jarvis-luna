@@ -2,7 +2,7 @@
 title: "Record 089 · Toward-anIntegrated-Cognitive--Ergonomic-Architecture-forHuman--Machin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-07T05:38:07.480462+00:00
+updated_at: 2026-09-08T11:58:35.796745+00:00
 tags: [record, real-data]
 ---
 

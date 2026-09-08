@@ -1,0 +1,21 @@
+---
+title: "Record 651 · Neolithic-coastal-adaptation-and-resilience-in-relation-to-environment"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-08T11:58:35.882431+00:00
+tags: [record, real-data]
+---
+
+# Record 651 · Neolithic-coastal-adaptation-and-resilience-in-relation-to-environment
+
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3389/fearc.2026.1775646)
+
+**제목:** Neolithic coastal adaptation and resilience in relation to environmental dynamics during the early Holocene in the Eastern Mediterranean
+
+Neolithic coastal adaptation and resilience in relation to environmental dynamics during the early Holocene in the Eastern Mediterranean
+
+**출처:** Source · institutions
+
+## Connected nodes
+
+[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

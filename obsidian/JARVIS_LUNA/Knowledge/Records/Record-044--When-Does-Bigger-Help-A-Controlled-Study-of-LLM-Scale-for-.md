@@ -2,7 +2,7 @@
 title: "Record 044 · When-Does-Bigger-Help-A-Controlled-Study-of-LLM-Scale-for-Ontology-Lea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-07T05:38:07.467694+00:00
+updated_at: 2026-09-08T11:58:35.788961+00:00
 tags: [record, real-data]
 ---
 

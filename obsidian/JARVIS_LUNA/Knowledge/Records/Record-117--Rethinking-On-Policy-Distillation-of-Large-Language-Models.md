@@ -2,7 +2,7 @@
 title: "Record 117 · Rethinking-On-Policy-Distillation-of-Large-Language-Models-II-One-Trai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-07T05:38:07.489063+00:00
+updated_at: 2026-09-08T11:58:35.802926+00:00
 tags: [record, real-data]
 ---
 

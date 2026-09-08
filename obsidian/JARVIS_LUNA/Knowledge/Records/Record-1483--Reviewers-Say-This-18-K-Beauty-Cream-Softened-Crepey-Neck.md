@@ -2,17 +2,17 @@
 title: "Record 1483 · Reviewers-Say-This-18-K-Beauty-Cream-Softened-Crepey-Neck-Skin-In-Just"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.610285+00:00
+updated_at: 2026-09-08T11:58:36.005207+00:00
 tags: [record, real-data]
 ---
 
 # Record 1483 · Reviewers-Say-This-18-K-Beauty-Cream-Softened-Crepey-Neck-Skin-In-Just
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimgFBVV95cUxNN2otN3RvRmcyMHdaWWJ6SEp6ZHlrODlpOFk0cG1TRU85eWQwVzB0M0k0YndPLXNETl8zM2s0X0EzMEt6bGhCSGRBaU1lUkpVQzlPX3RzUnEwdkE2Y2JBV3lMdXQwR1BmbDJsREFIbFVHcm1UYmFyTHdSbS1oa0NYTUZVZGtwYkdzbUk1akZBdUtCUWpoOHV0Mlln?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxPR2V2TTRPSUtlWjEtNjU2U3h3YnBmVDM2Y1dFYUswYWNFSkNaS0tNdV9iUXpreGg4a29yeV9wZk5iVFpTX0hPOWdDSTE0R1FUZDBRM1BKS3NhcG5Qc2lpTFpqNkpHZUJfU2MtUWhQWERERXhXSEtmQWRNOXA0WWdtWU9yN1MycEdqS0NtetIBkgFBVV95cUxOMklyMHp6NFREMFZBa2ZuMWZfdTBKZEliMExwRWlwRnJPSjVBRTl1YW5MRTJBcWRQVjJYd0hQQXEzdm5vT0xoYzRwM1RiSHRTRVVLSXdZcmVsVm03VEJGT1hiZ1pzeVJIOFkxUDZNUy1za3JfYnJNMHFFWmtrci1BVnRDWDhTRDMzbDN5RVdWTUhUUQ?oc=5)
 
-**제목:** Reviewers Say This $18 K-Beauty Cream Softened Crepey Neck Skin ‘In Just Two Days’ - Yahoo
+**제목:** Reviewers Say This $18 K-Beauty Cream Softened Crepey Neck Skin ‘In Just Two Days’ - HuffPost
 
-Reviewers Say This $18 K-Beauty Cream Softened Crepey Neck Skin ‘In Just Two Days’ - Yahoo
+Reviewers Say This $18 K-Beauty Cream Softened Crepey Neck Skin ‘In Just Two Days’ - HuffPost
 
 **출처:** Source · Google Search
 

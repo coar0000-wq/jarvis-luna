@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T05:34:43.876321+00:00",
+  "generated_at": "2026-09-08T11:55:16.355871+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -504,6 +504,14 @@
       "errors": [],
       "items": [
         {
+          "title": "This Robot Will Draw Your Blood Now",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-older-silver-haired-woman-seated-at-automated-medical-device-with-a-robotic-arm-drawing-blood.jpg?id=67726417&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p>You sit down and put your arm in the cradle. You press a button. The machine takes it from there.</p><p>A <a href=\"https://spectrum.ieee.org/tag/near-infrared-light\" targ",
+          "published": "Mon, 07 Sep 2026 13:00:01 +0000",
+          "url": "https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta",
+          "feed": "IEEE Spectrum Robotics",
+          "source": "rss"
+        },
+        {
           "title": "Cyborg Roaches Can Stab You With Needles",
           "summary": "<img src=\"https://spectrum.ieee.org/media-library/large-brown-cockroach-fitted-with-an-electronic-device-and-wires-on-its-back.jpg?id=67724302&width=1245&height=700&coordinates=0%2C62%2C0%2C63\"/><br/><br/><p>Imagine you are trapped under rubble after an earthquake and you see an electronics-covered cockroach with a spring-loaded needle on its back scuttling toward you. Although the sight might be ",
           "published": "Sat, 05 Sep 2026 13:00:04 +0000",
@@ -696,11 +704,27 @@
           "source": "rss"
         },
         {
-          "title": "IEEE Honors Robotics Pioneer Toshio Fukuda",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/three-men-in-suits-onstage-smiling-as-one-presents-an-award-medal-in-a-box.jpg?id=67107362&width=1245&height=700&coordinates=0%2C469%2C0%2C469\"/><br/><br/><p><a href=\"https://ethw.org/Toshio_Fukuda\" rel=\"noopener noreferrer\" target=\"_blank\">Toshio Fukuda</a> has been blazing trails for most of his career. He is considered to be one of the most prol",
-          "published": "Tue, 07 Jul 2026 19:02:42 +0000",
-          "url": "https://spectrum.ieee.org/ieee-honors-toshio-fukuda",
-          "feed": "IEEE Spectrum Robotics",
+          "title": "Inbolt to discuss physical AI’s deployment problem at RoboBusiness",
+          "summary": "<p>Rudy Cohen, the co-founder and CEO of Inbolt, will reframe where physical AI pays off at RoboBusiness this fall.</p> <p>The post <a href=\"https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/\">Inbolt to discuss physical AI&#8217;s deployment problem at RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>",
+          "published": "Mon, 07 Sep 2026 14:00:13 +0000",
+          "url": "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
+          "title": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
+          "summary": "<p>Agility Robotics’ S-4 filing reveals $1.8 million in 2025 revenue, a $140 million operating loss and plans to scale its Digit humanoid robot business.</p> <p>The post <a href=\"https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/\">Agility Robotics reports $1.8M revenue ahead of humanoid SPAC</a> appeared first on <a href=\"https://www.therobotreport.com\">The",
+          "published": "Mon, 07 Sep 2026 13:17:45 +0000",
+          "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
+          "title": "MassRobotics shares member survey results around FCC restrictions",
+          "summary": "<p>MassRobotics has found that companies were split on the FCC ban on new foreign-produced mobile robots.</p> <p>The post <a href=\"https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/\">MassRobotics shares member survey results around FCC restrictions</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Mon, 07 Sep 2026 12:30:16 +0000",
+          "url": "https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/",
+          "feed": "The Robot Report",
           "source": "rss"
         },
         {
@@ -796,30 +820,6 @@
           "summary": "<p>The SPAC transaction values PlusAI, whose self-driving trucking software is already generating revenue, at about $800 million.</p> <p>The post <a href=\"https://www.therobotreport.com/plusai-takes-autonomous-trucking-public-via-spac-deal/\">PlusAI to take autonomous trucking public via a SPAC deal</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
           "published": "Thu, 03 Sep 2026 10:00:14 +0000",
           "url": "https://www.therobotreport.com/plusai-takes-autonomous-trucking-public-via-spac-deal/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "NexCOBOT discusses physical AI market hurdles and acceleration",
-          "summary": "<p>NexCOBOT, which provides functional safety and motion controllers, discusses how physical AI benefits from 'Big Tech' and where it will grow.</p> <p>The post <a href=\"https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/\">NexCOBOT discusses physical AI market hurdles and acceleration</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robo",
-          "published": "Wed, 02 Sep 2026 19:45:19 +0000",
-          "url": "https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Learn why food is physical AI’s hardest problem at RoboBusiness",
-          "summary": "<p>Rajat Bhageria, the founder and CEO of Chef Robotics, will explore what makes food such a demanding benchmark for physical AI.</p> <p>The post <a href=\"https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/\">Learn why food is physical AI&#8217;s hardest problem at RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Ro",
-          "published": "Wed, 02 Sep 2026 17:37:50 +0000",
-          "url": "https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "AIR to use Elmo Motion Control technology in uncrewed cargo aircraft",
-          "summary": "<p>The partnership brings together Elmo's compact, high-power density servo drives and AIR's electric aviation design.</p> <p>The post <a href=\"https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/\">AIR to use Elmo Motion Control technology in uncrewed cargo aircraft</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p",
-          "published": "Wed, 02 Sep 2026 15:29:23 +0000",
-          "url": "https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/",
           "feed": "The Robot Report",
           "source": "rss"
         }

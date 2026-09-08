@@ -2,7 +2,7 @@
 title: "Record 174 · Reflection-aware-Generative-Novel-View-Synthesis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-07T05:38:07.506325+00:00
+updated_at: 2026-09-08T11:58:35.814088+00:00
 tags: [record, real-data]
 ---
 

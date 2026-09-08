@@ -2,7 +2,7 @@
 title: "Record 184 · Connecting-Agents-to-Decisions"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-07T05:38:07.508962+00:00
+updated_at: 2026-09-08T11:58:35.815612+00:00
 tags: [record, real-data]
 ---
 

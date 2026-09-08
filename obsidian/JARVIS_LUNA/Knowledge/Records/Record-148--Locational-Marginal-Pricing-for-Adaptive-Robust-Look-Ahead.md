@@ -2,7 +2,7 @@
 title: "Record 148 · Locational-Marginal-Pricing-for-Adaptive-Robust-Look-Ahead-Dispatch-wi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-07T05:38:07.498443+00:00
+updated_at: 2026-09-08T11:58:35.809012+00:00
 tags: [record, real-data]
 ---
 

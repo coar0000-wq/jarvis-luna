@@ -2,7 +2,7 @@
 title: "Record 195 · Protected-MCP--Governed-Knowledge-Graph"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-07T05:38:07.511640+00:00
+updated_at: 2026-09-08T11:58:35.817042+00:00
 tags: [record, real-data]
 ---
 

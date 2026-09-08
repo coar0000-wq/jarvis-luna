@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-07T05:36:57.191529+00:00",
+  "collected_at": "2026-09-08T11:57:35.791792+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -864,6 +864,19 @@
       "url": "https://world.openbeautyfacts.org/product/8717163607268"
     },
     {
+      "code": "3574661701028",
+      "product_name": "crème lavante main lait",
+      "brands": "le Petit Marseillais",
+      "category": "바디케어",
+      "obf_category": "soaps",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "",
+      "image_url": "https://images.openbeautyfacts.org/images/products/357/466/170/1028/front_fr.7.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3574661701028"
+    },
+    {
       "code": "8714789700045",
       "product_name": "Palmolive Naturals zeeptablet original",
       "brands": "Palmolive",
@@ -876,19 +889,6 @@
       "ingredients_text": "Sodium Palmate, Sodium Oleate, Aqua, Glycerin, Kaolin, Sodium Laurate, Sodium Chloride, Parfum, Sodium Adipe Lac, Olea Europaea Fruit Oil, Aloe Barbadensis Leaf Juice Powder, Citrus Aurantium Dulcis Peel Powder, Prunus Amygdalus Dulcis Oil, Alpha-Isomethyl Ionone, Benzyl Salicylate, Citronellol, Coumarin, Limonene, Linalool, CI 77891",
       "image_url": "https://images.openbeautyfacts.org/images/products/871/478/970/0045/front_fr.6.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/8714789700045"
-    },
-    {
-      "code": "3574661701028",
-      "product_name": "crème lavante main lait",
-      "brands": "le Petit Marseillais",
-      "category": "바디케어",
-      "obf_category": "soaps",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "",
-      "image_url": "https://images.openbeautyfacts.org/images/products/357/466/170/1028/front_fr.7.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3574661701028"
     },
     {
       "code": "8003520012944",
@@ -1413,18 +1413,18 @@
       "url": "https://world.openbeautyfacts.org/product/4005900035745"
     },
     {
-      "code": "4005900243553",
-      "product_name": "Nivea men Protect & Care",
-      "brands": "Nivea Men",
+      "code": "3600551146188",
+      "product_name": "Invisimax",
+      "brands": "NARTA",
       "category": "데오드란트",
       "obf_category": "deodorants",
       "countries": [
         "France",
         "Morocco"
       ],
-      "ingredients_text": "Aqua, Aluminium chlorohydrate, PPG-15 stearyl ether, Steareth-2, Steareth-21, Parfum, Glycerin, Panthenol, Octyldodecanol, Persea Gratissima oil, Trisodium EDTA, Limoene, Linalool, Coumarin, Geraniol",
-      "image_url": "https://images.openbeautyfacts.org/images/products/400/590/024/3553/front_en.13.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/4005900243553"
+      "ingredients_text": "ISOBUTANE\nALUMINUM CHLOROHYDRATE\nISODODECANE\nCOCOS NUCIFERA OIL / COCONUT OIL  PARFUM / FRAGRANCE\nISOPROPYL PALMITATE\nPANTHENOL\nDISTEARDIMONIUM HECTORITE\nPROPYLENE CARBONATE\nDIMETHICONE\nDIMETHICONOL\nBENZYL ALCOHOL\nBENZYL SALICYLATE\nCITRONELLOL\nGERANIOL\nHEXYL CINNAMAL\nLIMONENE\nLINALOOL\n(F.I.L. C267387/1)",
+      "image_url": "https://images.openbeautyfacts.org/images/products/360/055/114/6188/front_fr.13.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3600551146188"
     },
     {
       "code": "59095842",
@@ -1438,20 +1438,6 @@
       "ingredients_text": "Aqua, Glycerin, Aluminum Sesquichlorohydrate, Helianthus Annuus Seed Oil, Steareth-2, Parfum, Steareth-20, Calcium Chloride, Glycine, Disodium EDTA, Pentaerythrity Tetra-di-butyl Hydroxyhydrocinnamate, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Citronellol, Eugenol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool",
       "image_url": "https://images.openbeautyfacts.org/images/products/000/005/909/5842/front_en.41.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/59095842"
-    },
-    {
-      "code": "3600551146188",
-      "product_name": "Invisimax",
-      "brands": "NARTA",
-      "category": "데오드란트",
-      "obf_category": "deodorants",
-      "countries": [
-        "France",
-        "Morocco"
-      ],
-      "ingredients_text": "ISOBUTANE\nALUMINUM CHLOROHYDRATE\nISODODECANE\nCOCOS NUCIFERA OIL / COCONUT OIL  PARFUM / FRAGRANCE\nISOPROPYL PALMITATE\nPANTHENOL\nDISTEARDIMONIUM HECTORITE\nPROPYLENE CARBONATE\nDIMETHICONE\nDIMETHICONOL\nBENZYL ALCOHOL\nBENZYL SALICYLATE\nCITRONELLOL\nGERANIOL\nHEXYL CINNAMAL\nLIMONENE\nLINALOOL\n(F.I.L. C267387/1)",
-      "image_url": "https://images.openbeautyfacts.org/images/products/360/055/114/6188/front_fr.13.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3600551146188"
     },
     {
       "code": "8714789913919",
@@ -1469,6 +1455,20 @@
       "ingredients_text": "Propylene Glycol, Aqua, Sodium Stearate, Parfum, Sodium Chloride, Stearyl Alcohol, Tetrasodium EDTA.",
       "image_url": "https://images.openbeautyfacts.org/images/products/871/478/991/3919/front_en.52.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/8714789913919"
+    },
+    {
+      "code": "4005900243553",
+      "product_name": "Nivea men Protect & Care",
+      "brands": "Nivea Men",
+      "category": "데오드란트",
+      "obf_category": "deodorants",
+      "countries": [
+        "France",
+        "Morocco"
+      ],
+      "ingredients_text": "Aqua, Aluminium chlorohydrate, PPG-15 stearyl ether, Steareth-2, Steareth-21, Parfum, Glycerin, Panthenol, Octyldodecanol, Persea Gratissima oil, Trisodium EDTA, Limoene, Linalool, Coumarin, Geraniol",
+      "image_url": "https://images.openbeautyfacts.org/images/products/400/590/024/3553/front_en.13.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/4005900243553"
     },
     {
       "code": "42345275",
