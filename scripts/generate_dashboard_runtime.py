@@ -377,7 +377,7 @@ def _error_summary() -> dict:
     }
 
 
-def team_cards(graph: dict) -> list[dict]:
+def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
     """팀별 한 줄 현황. 숫자는 산출 파일 실측값만 쓴다."""
     cards: list[dict] = []
     D = ROOT / "data"
@@ -607,8 +607,13 @@ def team_cards(graph: dict) -> list[dict]:
     # 채널 운영팀 --------------------------------------------------------
     # 채널 가동 상태와 사람 승인 대기 건을 한 줄로 본다.
     prev = load_json(OUT, None) or {}
-    gcs = prev.get("global_channels_status") or {}
+    # 카드가 파일에서 직접 읽으면 안 된다. 아래 aging 을 거치기 전 값이라
+    # 카드는 가동 11 이라 적고 저장되는 최종 상태는 7 이 된다. 감사가 그
+    # 차이를 잡아 워크플로가 통째로 실패했다. aging 을 마친 값을 받는다.
+    if gcs is None:
+        gcs = prev.get("global_channels_status") or {}
     live = sum(1 for v in gcs.values() if (v or {}).get("status") == "ok")
+    aged = sum(1 for v in gcs.values() if (v or {}).get("stale"))
     cand = load_json(D / "channel_candidates.json", None)
     man = load_json(D / "manual_channels.json", None)
     if gcs or cand:
@@ -633,7 +638,9 @@ def team_cards(graph: dict) -> list[dict]:
         cards.append(_team(
             "channels", "채널 운영팀",
             (cand or {}).get("generated_at") or prev.get("generated_at"),
-            f'가동 {live}/{len(gcs)}채널 · 수동 입력 {manual_n}건 · '
+            f'가동 {live}/{len(gcs)}채널'
+            + (f' · 낡음 {aged}건' if aged else '')
+            + f' · 수동 입력 {manual_n}건 · '
             f'후보 {tested}건 검사, 미연동 {len(pending)}건',
             # 예전 문구는 "승인 대기" 였는데 승인할 화면이 없다. 후보는
             # data/channel_candidates.json 에 쌓이고, 붙일지 말지는 대화로
@@ -687,7 +694,17 @@ def main() -> None:
     sources = source_metrics()
     training = training_metrics()
     cumulative = cumulative_metrics(graph, sources)
-    teams = team_cards(graph)
+    # 채널 상태를 먼저 정리한 뒤 카드를 만든다. 순서가 반대면 카드가
+    # 낡음 처리 전 숫자를 적고 저장되는 값은 처리 후라 서로 어긋난다.
+    _p = load_json(OUT, {}) or {}
+    prev_global = _p.get("global_channels") if isinstance(_p, dict) else None
+    prev_gcs = _p.get("global_channels_status") if isinstance(_p, dict) else None
+    prev_global, prev_gcs = merge_manual_channels(
+        prev_global, prev_gcs,
+        load_json(ROOT / "data" / "manual_channels.json", None))
+    prev_gcs = age_channel_status(prev_gcs)
+
+    teams = team_cards(graph, prev_gcs)
 
     now = datetime.now(KST).isoformat()
 
@@ -700,22 +717,13 @@ def main() -> None:
     # 기존 dashboard_runtime.json에 있던 global_channels / exchange_rate 보존
     # (sync_channels.py가 나중에 덮어쓰지만, 중간 실패 시 데이터 소실 방지)
     prev = load_json(OUT, {})
-    prev_global = prev.get("global_channels") if isinstance(prev, dict) else None
+    # prev_global / prev_gcs 는 위에서 이미 만들어 두었다.
     # global_channels_status 도 같이 보존해야 한다. 빠뜨려서 이 스크립트가
     # 한 번 돌 때마다 지워졌고, 워크플로가 이 스크립트를 두 번 부르는 탓에
     # 두 번째 실행에서는 gcs 가 비어 채널 카드가 "가동 0/0"으로 나왔다.
     # 후보 걸러내기도 이 값을 쓰므로 이미 붙어 있는 4건이 매번 승인 대기로
     # 다시 올라왔다. sync_channels.py 가 뒤에 채워주지만 카드는 그 전에
     # 계산이 끝나 있다.
-    prev_gcs = prev.get("global_channels_status") if isinstance(prev, dict) else None
-    # 사람이 넣은 값을 먼저 얹고 나이를 따진다. 순서가 반대면
-    # 방금 넣은 값도 옛 기록의 나이를 물려받는다.
-    # D 는 team_cards() 안에서만 사는 지역 변수다. 여기서 쓰면 NameError 다.
-    # 실제로 그렇게 써서 대시보드 생성이 28시간 동안 죽어 있었다.
-    prev_global, prev_gcs = merge_manual_channels(
-        prev_global, prev_gcs,
-        load_json(ROOT / "data" / "manual_channels.json", None))
-    prev_gcs = age_channel_status(prev_gcs)
     prev_fx = prev.get("exchange_rate") if isinstance(prev, dict) else None
     prev_synced = prev.get("last_synced") if isinstance(prev, dict) else None
 
