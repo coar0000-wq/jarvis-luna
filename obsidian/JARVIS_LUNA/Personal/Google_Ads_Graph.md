@@ -418,7 +418,7 @@
 - **Bid Strategy**: Optimize bids
 - **Ad Extensions**: Add extensions
 - **Analytics**: Review data
-- [[A/B Testing]]: Test ads
+- [[B Testing]]: Test ads
 - **Audience Targeting**: Segment users
 
 ### Advanced Level (Week 5-6)

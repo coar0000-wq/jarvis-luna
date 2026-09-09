@@ -152,7 +152,7 @@
 - [[Landing Pages]]: High conversion
 - **Retargeting**: Re-engage visitors
 - **Attribution Modeling**: Track ROI
-- [[A/B Testing]]: Continuous optimization
+- [[B Testing]]: Continuous optimization
 - **Audience Segmentation**: Targeted messaging
 
 ### Strategic Partnerships

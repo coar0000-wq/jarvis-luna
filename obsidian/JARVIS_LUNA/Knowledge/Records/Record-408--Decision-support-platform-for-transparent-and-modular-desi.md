@@ -2,7 +2,7 @@
 title: "Record 408 · Decision-support-platform-for-transparent-and-modular-design-of-sustai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.885075+00:00
+updated_at: 2026-09-09T14:12:25.629468+00:00
 tags: [record, real-data]
 ---
 

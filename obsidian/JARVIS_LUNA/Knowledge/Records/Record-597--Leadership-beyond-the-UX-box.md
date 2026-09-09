@@ -2,7 +2,7 @@
 title: "Record 597 · Leadership-beyond-the-UX-box"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.928316+00:00
+updated_at: 2026-09-09T14:12:25.685754+00:00
 tags: [record, real-data]
 ---
 

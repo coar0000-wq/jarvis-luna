@@ -97,7 +97,7 @@
 - **Quality Control**: 제품 품질 관리에서의 정규분포 활용
 - **Risk Analysis**: 금융 리스크 분석
 - [[Machine Learning]]: ML 모델의 확률적 기초
-- [[A/B Testing]]: 통계적 유의성 판정
+- [[B Testing]]: 통계적 유의성 판정
 - **Forecasting**: 시계열 예측
 
 #### 주의사항

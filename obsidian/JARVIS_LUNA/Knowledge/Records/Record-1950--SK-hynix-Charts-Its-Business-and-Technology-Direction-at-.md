@@ -2,18 +2,17 @@
 title: "Record 1950 · SK-hynix-Charts-Its-Business-and-Technology-Direction-at-the-2026-Futu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.232860+00:00
+updated_at: 2026-09-09T14:12:26.024705+00:00
 tags: [record, real-data]
 ---
 
 # Record 1950 · SK-hynix-Charts-Its-Business-and-Technology-Direction-at-the-2026-Futu
 
-> 실제 수집 레코드입니다. 원문: [news.skhynix.com](https://news.skhynix.com/en/future-forum-2026-6/)
+> 실제 수집 레코드입니다. 원문: [news.skhynix.com](https://news.skhynix.com/en/future-forum-2026-10/)
 
 **제목:** SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”
 
 SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”
-▲ SK hynix Vice President Kyunghoon Kim, head of the Design Research Lab, delivering the third keynote presentation
 
 **출처:** Source · institutions
 

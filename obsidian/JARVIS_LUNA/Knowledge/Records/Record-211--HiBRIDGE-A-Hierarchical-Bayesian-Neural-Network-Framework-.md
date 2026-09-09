@@ -2,7 +2,7 @@
 title: "Record 211 · HiBRIDGE-A-Hierarchical-Bayesian-Neural-Network-Framework-for-Interpre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.836094+00:00
+updated_at: 2026-09-09T14:12:25.575825+00:00
 tags: [record, real-data]
 ---
 

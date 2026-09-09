@@ -2,7 +2,7 @@
 title: "Record 407 · Ownership-networks-financing-and-firm-growth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.884820+00:00
+updated_at: 2026-09-09T14:12:25.629064+00:00
 tags: [record, real-data]
 ---
 

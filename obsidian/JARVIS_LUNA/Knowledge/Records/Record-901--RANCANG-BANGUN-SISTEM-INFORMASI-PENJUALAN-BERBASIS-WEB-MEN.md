@@ -2,7 +2,7 @@
 title: "Record 901 · RANCANG-BANGUN-SISTEM-INFORMASI-PENJUALAN-BERBASIS-WEB-MENGGUNAKAN-MET"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.993598+00:00
+updated_at: 2026-09-09T14:12:25.769880+00:00
 tags: [record, real-data]
 ---
 

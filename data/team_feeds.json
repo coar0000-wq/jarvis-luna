@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T10:48:32.704436+00:00",
+  "generated_at": "2026-09-09T14:11:04.289903+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -13,7 +13,7 @@
     },
     "market": {
       "total": 418,
-      "recent": 47
+      "recent": 48
     },
     "listing": {
       "total": 18,
@@ -28,8 +28,8 @@
       "recent": 21
     },
     "design": {
-      "total": 350,
-      "recent": 95
+      "total": 351,
+      "recent": 96
     },
     "robotics": {
       "total": 109,
@@ -580,7 +580,7 @@
         "by_hand": true
       },
       {
-        "title": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - kedglobal.com",
+        "title": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3ZU9yYWdlM1JUZGlkem45TFVrY1Z1ZzVCZEJ2V29RX3FaZ043TG9PamFJdjBHUWxWOG1IbzktajdOZzRKLUxkZF8xaHJ4R2NMaDNDQy0yOGItRHVobEd2bk9IVmh1S2FSM0g0cEtRY0xFTFpWQUE?oc=5",
         "pool": "google",
         "date": "2026-09-09",
@@ -603,6 +603,13 @@
       {
         "title": "Viral-to-Retail K-Beauty: nooni Brings Its Viral Lip Oil to Target in Eight Shades - trendhunter.com",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TU2k5bU9DMWFraFREU29nU1o0ZnlVQ201YjVsTW56TkhvZlBMRUtEWVczd1Y0R2MwQXk4NkliSTZQOVpqT19lYl9GYllvM3VsNmtvNW42Yy1ZTzREUXJ4WVhNRzJjTFk?oc=5",
+        "pool": "google",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "How Generative AI Is Reshaping Ecommerce Search and Product Discovery - Technology Org",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTlhickxjakJSeHNMZWVRLXlrcjhaRzdaM3lEV183eTZVM1EwZEQ1SjR3VFlwNkdvOVZ0TVdfa192cERxRWF0dFVKN2FRb0N0aFNHblo0OERET0RMTnFmdURUcC1vY18wNTRFdFlCZUhQQjA0MlFobEkyeDFKYkpHV25abmlhS2o5OXd4S0NvUkRienRHVHV4eFhJX3NGa2NVUjdOTDJ0VjdxcGFu?oc=5",
         "pool": "google",
         "date": "2026-09-09",
         "by_hand": false
@@ -811,7 +818,7 @@
         "by_hand": false
       },
       {
-        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - geekwire.com",
+        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - GeekWire",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSmd3bV80NzFvZlZtOUNnSUF4eTRlQ0VoamFoUlY5aEQ2Q000MmlBVmVTQ3ZuWV9wTmhzWXROSWNyaDNuQ0JrTFdEczljM0JlbTBtdFBZbnhtakNaWHBTZTBGWDFzbDJURU1ESi1mano4T21KMHV0ZEQwOFI3aWI3Q2lTbzhPSmw5dEp6cGZVXzhadW5GNTRNaVhhMEhIdjY0czMwTmN4aUlpVWNYTmV5ZnNxWkdlcUZFUUhoNEdId3gxZw?oc=5",
         "pool": "google",
         "date": "2026-08-28",
@@ -885,13 +892,6 @@
         "url": "https://changelog.shopify.com/posts/shopify-payments-in-the-united-arab-emirates-available-on-shopify-advanced-plan",
         "pool": "design_refs",
         "date": "2026-08-26",
-        "by_hand": false
-      },
-      {
-        "title": "News - Glow Up: K-Beauty Launches at Select PXs and BXs - DVIDS",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORTBtX2VGWFJSTWRjdWQ5anhfY3pEcUpfMngweUdXbFduTjRqZ00tV0RNWS1pb2ltOWhRZy11U0o3LUtqSXZkeE12Z3Zwb0M3alh5UkZES1U4ZXJ1bURLa1pqV0psQWVDcVVndE1HY1FJSE9KeTZPT2l2YjVOdGh1NGs3bGJmOEtS?oc=5",
-        "pool": "google",
-        "date": "2026-08-25",
         "by_hand": false
       }
     ],
@@ -1596,7 +1596,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
+        "title": "Learn to Design 10X Better Mobile UI Designs",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -1778,9 +1778,16 @@
         "by_hand": false
       },
       {
-        "title": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - kedglobal.com",
+        "title": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3ZU9yYWdlM1JUZGlkem45TFVrY1Z1ZzVCZEJ2V29RX3FaZ043TG9PamFJdjBHUWxWOG1IbzktajdOZzRKLUxkZF8xaHJ4R2NMaDNDQy0yOGItRHVobEd2bk9IVmh1S2FSM0g0cEtRY0xFTFpWQUE?oc=5",
         "pool": "google",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "The Death Of The Button: Why The Best Interface Is No Interface",
+        "url": "https://smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/",
+        "pool": "design_refs",
         "date": "2026-09-09",
         "by_hand": false
       },
@@ -1925,7 +1932,7 @@
         "by_hand": false
       },
       {
-        "title": "Amorepacific builds ‘holistic longevity’ strategy around biotech, AI - kedglobal.com",
+        "title": "Amorepacific builds ‘holistic longevity’ strategy around biotech, AI - KED Global",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9EQVlfZ19Bdm5NbnpYdzl0VTMwYzlHWmdFYmZTRERiZTZCWHczS3NBN2gyRWNBLUY4eWFEVFM5U0VSVVhxSnNSZTR4c1ZoczVOdktiMzJwZGxVQ00yYXZCdTFBWXRESWJwYVNJcFhWNmhFQUhoRlE?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -1948,13 +1955,6 @@
       {
         "title": "Variants now support multiple barcodes",
         "url": "https://shopify.dev/changelog/product-variant-barcode-is-being-replaced-by-barcodes",
-        "pool": "design_refs",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "Customer Address APIs now support countryCode",
-        "url": "https://shopify.dev/changelog/customer-address-apis-now-support-countrycode",
         "pool": "design_refs",
         "date": "2026-09-08",
         "by_hand": false

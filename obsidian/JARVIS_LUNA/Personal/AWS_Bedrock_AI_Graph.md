@@ -312,7 +312,7 @@
 - **Manual Review** - 수동 검토
 - **Expert Assessment** - 전문가 평가
 - **User Testing** - 사용자 테스트
-- [[A/B Testing]] - A/B 테스트
+- [[B Testing]] - A/B 테스트
 
 ### **Bedrock Human Evaluation**
 **Videos 20-22 - Duration: ~45 minutes**

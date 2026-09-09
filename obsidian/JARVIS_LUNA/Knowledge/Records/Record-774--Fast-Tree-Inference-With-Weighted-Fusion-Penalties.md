@@ -2,7 +2,7 @@
 title: "Record 774 · Fast-Tree-Inference-With-Weighted-Fusion-Penalties"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.964713+00:00
+updated_at: 2026-09-09T14:12:25.736113+00:00
 tags: [record, real-data]
 ---
 

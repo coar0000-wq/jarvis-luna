@@ -2,7 +2,7 @@
 title: "Record 678 · Surrogate-Decision-Making-Confidence-Across-Acute-and-General-Scenario"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.944805+00:00
+updated_at: 2026-09-09T14:12:25.709970+00:00
 tags: [record, real-data]
 ---
 

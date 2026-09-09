@@ -2,7 +2,7 @@
 title: "Record 832 · Measuring-Share-of-Model-A-Reproducible-Protocol-for-Quantifying-Brand"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.977522+00:00
+updated_at: 2026-09-09T14:12:25.751745+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 450 · Integration-of-GWAS-and-single-cell-analysis-for-psoriasis-identifies-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.895441+00:00
+updated_at: 2026-09-09T14:12:25.643239+00:00
 tags: [record, real-data]
 ---
 

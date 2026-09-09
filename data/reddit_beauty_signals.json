@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-09T10:49:32.677496+00:00",
+  "collected_at": "2026-09-09T14:11:49.543486+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -44,10 +44,6 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "skin",
-      "score": 6
-    },
-    {
       "keyword": "2026",
       "score": 5
     },
@@ -57,6 +53,10 @@
     },
     {
       "keyword": "cushion",
+      "score": 4
+    },
+    {
+      "keyword": "skin",
       "score": 4
     },
     {
@@ -76,15 +76,11 @@
       "score": 2
     },
     {
-      "keyword": "lashes",
-      "score": 2
-    },
-    {
       "keyword": "does",
       "score": 2
     },
     {
-      "keyword": "brown",
+      "keyword": "lashes",
       "score": 2
     },
     {
@@ -93,6 +89,10 @@
     },
     {
       "keyword": "tints",
+      "score": 2
+    },
+    {
+      "keyword": "dodoskin",
       "score": 2
     },
     {
@@ -156,26 +156,6 @@
       "score": 1
     },
     {
-      "keyword": "wosado",
-      "score": 1
-    },
-    {
-      "keyword": "gimmick",
-      "score": 1
-    },
-    {
-      "keyword": "don",
-      "score": 1
-    },
-    {
-      "keyword": "waste",
-      "score": 1
-    },
-    {
-      "keyword": "money",
-      "score": 1
-    },
-    {
       "keyword": "judydoll",
       "score": 1
     },
@@ -202,15 +182,35 @@
     {
       "keyword": "chestnut",
       "score": 1
+    },
+    {
+      "keyword": "one",
+      "score": 1
+    },
+    {
+      "keyword": "wosado",
+      "score": 1
+    },
+    {
+      "keyword": "gimmick",
+      "score": 1
+    },
+    {
+      "keyword": "don",
+      "score": 1
+    },
+    {
+      "keyword": "waste",
+      "score": 1
     }
   ],
   "beauty_keywords": [
     {
-      "keyword": "skin",
-      "score": 6
+      "keyword": "cushion",
+      "score": 4
     },
     {
-      "keyword": "cushion",
+      "keyword": "skin",
       "score": 4
     },
     {
@@ -219,6 +219,10 @@
     },
     {
       "keyword": "essence",
+      "score": 2
+    },
+    {
+      "keyword": "dodoskin",
       "score": 2
     },
     {
@@ -257,13 +261,6 @@
       "feed": "hot"
     },
     {
-      "title": "Wosado lashes are a gimmick — don’t waste your money.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1waq3r2/wosado_lashes_are_a_gimmick_dont_waste_your_money/",
-      "published": "2026-09-08T14:33:53+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Does JudyDoll sell singles from their 6 lip and cheek pallet? This is the Chestnut one.",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wb4qay/does_judydoll_sell_singles_from_their_6_lip_and/",
       "published": "2026-09-08T23:25:59+00:00",
@@ -271,9 +268,9 @@
       "feed": "hot"
     },
     {
-      "title": "Is it brown skin friendly? Does it leave bad whitecast ?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbffqh/is_it_brown_skin_friendly_does_it_leave_bad/",
-      "published": "2026-09-09T08:13:58+00:00",
+      "title": "Wosado lashes are a gimmick — don’t waste your money.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1waq3r2/wosado_lashes_are_a_gimmick_dont_waste_your_money/",
+      "published": "2026-09-08T14:33:53+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -295,6 +292,20 @@
       "title": "Heartbreaking empty",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wa6yxp/heartbreaking_empty/",
       "published": "2026-09-07T22:46:54+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Is the dodoskin website legit?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wb4mx0/is_the_dodoskin_website_legit/",
+      "published": "2026-09-08T23:22:05+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "does lemon bottle makes ur arms loose fat but flabby",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbm27l/does_lemon_bottle_makes_ur_arms_loose_fat_but/",
+      "published": "2026-09-09T13:46:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -362,16 +373,16 @@
       "feed": "hot"
     },
     {
-      "title": "Yesstyle tracking is wrong?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w9x33q/yesstyle_tracking_is_wrong/",
-      "published": "2026-09-07T16:35:09+00:00",
+      "title": "The best thing i own: d'Alba White Truffle Spray",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w95w65/the_best_thing_i_own_dalba_white_truffle_spray/",
+      "published": "2026-09-06T19:36:54+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "The best thing i own: d'Alba White Truffle Spray",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w95w65/the_best_thing_i_own_dalba_white_truffle_spray/",
-      "published": "2026-09-06T19:36:54+00:00",
+      "title": "Yesstyle tracking is wrong?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w9x33q/yesstyle_tracking_is_wrong/",
+      "published": "2026-09-07T16:35:09+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -400,13 +411,6 @@
       "title": "SKIN AQUA UV Whitening Milk SPF 50 PA++++ 40ml",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8po6i/skin_aqua_uv_whitening_milk_spf_50_pa_40ml/",
       "published": "2026-09-06T07:45:07+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "A-beauty products similar to Bobbi Brown Love Letter?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8iyx1/abeauty_products_similar_to_bobbi_brown_love/",
-      "published": "2026-09-06T01:52:49+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

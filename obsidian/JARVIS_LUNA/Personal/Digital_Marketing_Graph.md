@@ -69,7 +69,7 @@
 - **Segmentation**: Target specific audiences
 - **Automation**: Trigger-based campaigns
 - **Personalization**: Custom messages
-- [[A/B Testing]]: Test subject lines and content
+- [[B Testing]]: Test subject lines and content
 - **Newsletters**: Regular updates
 - **Drip Campaigns**: Nurture leads over time
 - **CRM Integration**: Customer relationship management
@@ -109,7 +109,7 @@
 - [[Site Speed]]: Page load performance
 - **User Experience (UX)**: Improve usability
 - **Conversion Rate Optimization**: Increase conversions
-- [[A/B Testing]]: Compare versions
+- [[B Testing]]: Compare versions
 - **Heatmaps**: Visualize user behavior
 - **User Recordings**: Watch visitor sessions
 - **Form Optimization**: Improve form completion
@@ -261,7 +261,7 @@
 
 ### Phase 4: Optimization (Week 17-20)
 - **Performance Analysis**
-- [[A/B Testing]]
+- [[B Testing]]
 - **Refinement**
 - **Scaling**
 

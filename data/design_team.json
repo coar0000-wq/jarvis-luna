@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-09T10:48:17.399868+00:00",
+  "generated_at": "2026-09-09T14:10:49.347150+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -461,6 +461,13 @@
         "feed": "Shopify Engineering"
       },
       {
+        "title": "The Death Of The Button: Why The Best Interface Is No Interface",
+        "url": "https://smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/",
+        "date": "2026-09-09",
+        "summary": "TThe web is evolving beyond menus, forms, and endless clicks toward experiences shaped around human intent. For UX designers, understanding this shift means re-evaluating their role, moving from designing visible interfaces to guiding transparent, intent-driven AI experiences.",
+        "feed": "Smashing Magazine"
+      },
+      {
         "title": "The Many Faces Of September (2026 Wallpapers Edition)",
         "url": "https://smashingmagazine.com/2026/08/desktop-wallpaper-calendars-september-2026/",
         "date": "2026-08-31",
@@ -556,13 +563,6 @@
         "url": "https://smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/",
         "date": "2026-07-10",
         "summary": "The strongest visual concepts don’t start in Figma. They start with the right questions. Explore the pre-concept phase of brand identity design, where teams research brand context, uncover hidden assumptions with stakeholders, and turn shared direction into a visual foundation before a single concep",
-        "feed": "Smashing Magazine"
-      },
-      {
-        "title": "Designing For Distressed Users: Why Mental Health Apps Shouldn’t Follow Every UI Fashion",
-        "url": "https://smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/",
-        "date": "2026-07-09",
-        "summary": "Many UI trends are designed to capture attention and signal innovation, but those goals often conflict with the needs of mental health apps: reducing cognitive strain, fostering trust, and providing a sense of refuge. Kat Homan introduces an evaluation framework that helps designers assess whether t",
         "feed": "Smashing Magazine"
       },
       {

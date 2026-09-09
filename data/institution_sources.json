@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-09T10:48:03.906219+00:00",
+  "collected_at": "2026-09-09T14:10:34.940152+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-09T10:47:14.769940+00:00"
+      "collected_at": "2026-09-09T14:09:28.436368+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-09T10:47:45.865417+00:00"
+      "collected_at": "2026-09-09T14:10:07.075055+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-09T10:48:03.905113+00:00"
+      "collected_at": "2026-09-09T14:10:34.939046+00:00"
     }
   },
   "not_collected": {
@@ -2295,6 +2295,19 @@
       "title_source": "feed"
     },
     {
+      "title": "Adaptive Instructed-Retriever: Frontier-Quality Search at 2x Lower Latency",
+      "url": "https://www.databricks.com/blog/adaptive-instructed-retriever-frontier-quality-search-2x-lower-latency",
+      "date": "2026-09-09",
+      "date_raw": "Wed, 09 Sep 2026 13:30:00 GMT",
+      "summary": "Effective enterprise data agents require search that is both accurate and fast. Earlier...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow",
       "url": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
       "date": "2026-09-09",
@@ -2404,19 +2417,6 @@
       "date": "2026-09-03",
       "date_raw": "Thu, 03 Sep 2026 19:54:00 GMT",
       "summary": "What is data transformation?Data transformation is the process of taking raw data...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Southern Company’s SCOUT: Completing the Storm Intelligence Story",
-      "url": "https://www.databricks.com/blog/southern-companys-scout-completing-storm-intelligence-story",
-      "date": "2026-09-02",
-      "date_raw": "Wed, 02 Sep 2026 23:20:00 GMT",
-      "summary": "Completing the storm intelligence storyIn an earlier post, we explored how Southern...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",
@@ -2815,6 +2815,19 @@
       "title_source": "feed"
     },
     {
+      "url": "https://www.anthropic.com/research/team/economics",
+      "date": "2026-09-09",
+      "date_raw": "2026-09-09T13:28:11.000Z",
+      "title_source": "page",
+      "title": "Economics",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "org": "Anthropic",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.anthropic.com/sitemap.xml"
+    },
+    {
       "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
       "date": "2026-09-08",
       "date_raw": "2026-09-08T10:47:50.000Z",
@@ -2935,9 +2948,9 @@
       "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "date": "2026-09-04",
       "date_raw": "2026-09-04T14:19:31.000Z",
-      "title_source": "page",
-      "title": "How well do job retraining programs work?",
-      "summary": "An evidence review from Anthropic's Economic Research team",
+      "title_source": "url-slug",
+      "title": "Reviewing The Evidence On Worker Retraining Programs",
+      "summary": "",
       "org": "Anthropic",
       "category": "AI연구소",
       "kind": "발표물",
@@ -3054,19 +3067,6 @@
       "date_raw": "2026-08-27T15:14:27.000Z",
       "title_source": "url-slug",
       "title": "Ai For Science Program",
-      "summary": "",
-      "org": "Anthropic",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.anthropic.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots",
-      "date": "2026-08-27",
-      "date_raw": "2026-08-27T15:13:17.000Z",
-      "title_source": "url-slug",
-      "title": "Anthropic And Iceland Announce One Of The World S First National Ai Education Pilots",
       "summary": "",
       "org": "Anthropic",
       "category": "AI연구소",
@@ -3595,6 +3595,19 @@
       "feed": "https://www.asml.com/sitemap.xml"
     },
     {
+      "url": "https://home.barclays/news/press-releases/20260/090/barclays-launches-isa-and-life-insurance-reward-offers-worth-up-/",
+      "date": "2026-09-09",
+      "date_raw": "2026-09-09T13:25:26+01:00",
+      "title_source": "page",
+      "title": "Barclays launches ISA and Life Insurance reward offers worth up to £750 | Barclays",
+      "summary": "Eligible customers can receive up to £600 through the cash ISA transfer reward offer and up to £150 through the life insurance reward offer.",
+      "org": "Barclays",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://home.barclays/sitemap.xml"
+    },
+    {
       "url": "https://home.barclays/news/press-releases/20260/090/card-spending-grows-2-1-per-cent-in-august--as-travel-rebounds-a/",
       "date": "2026-09-08",
       "date_raw": "2026-09-08T12:53:50+01:00",
@@ -3715,9 +3728,9 @@
       "url": "https://home.barclays/news/press-releases/20260/050/gen-zs-inclined-to-pay-over-face-value-for-tickets--as-demand-an/",
       "date": "2026-08-17",
       "date_raw": "2026-08-17T10:53:22+01:00",
-      "title_source": "page",
-      "title": "Gen Zs inclined to pay over face value for tickets, as demand and AI drive summer scams risk | Barclays",
-      "summary": "Fans aged 18-29 would pay an extra £55 on average for resale tickets – more than double the national average of £25",
+      "title_source": "url-slug",
+      "title": "Gen Zs Inclined To Pay Over Face Value For Tickets As Demand An",
+      "summary": "",
       "org": "Barclays",
       "category": "투자은행",
       "kind": "발표물",
@@ -3842,19 +3855,6 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://home.barclays/news/press-releases/20260/070/barclays-appoints-peter-luck-chairman-of-uk-investment-banking/",
-      "date": "2026-07-14",
-      "date_raw": "2026-07-14T12:00:18+01:00",
-      "title_source": "url-slug",
-      "title": "Barclays Appoints Peter Luck Chairman Of Uk Investment Banking",
-      "summary": "",
-      "org": "Barclays",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://home.barclays/sitemap.xml"
-    },
-    {
       "url": "https://www.goldmansachs.com/what-we-do/ayco/insights/employee-stock-purchase-plans",
       "date": "2026-09-08",
       "date_raw": "2026-09-08T15:51:58.000Z",
@@ -3881,11 +3881,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T15:26:17.000Z",
+      "date_raw": "2026-09-04T13:29:35.000Z",
       "title_source": "url-slug",
-      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3894,11 +3894,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T13:29:35.000Z",
+      "date_raw": "2026-09-04T15:26:17.000Z",
       "title_source": "url-slug",
-      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
+      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3959,11 +3959,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T16:13:53.000Z",
+      "date_raw": "2026-09-02T20:18:47.000Z",
       "title_source": "url-slug",
-      "title": "David Solomon Cnbc Sep 2026   Transcript",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3972,11 +3972,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T20:18:47.000Z",
+      "date_raw": "2026-09-02T16:13:53.000Z",
       "title_source": "url-slug",
-      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
+      "title": "David Solomon Cnbc Sep 2026   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",

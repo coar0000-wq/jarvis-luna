@@ -60,7 +60,7 @@
 **Modern Methods**:
 - **CNN-based**: 합성곱 신경망
 - **R-CNN Variants**: R-CNN 계열
-- [[SSD/YOLO]]: 일반 객체 감지
+- [[YOLO]]: 일반 객체 감지
 - **MTCNN**: Multi-task Cascaded CNN
 - **RetinaFace**: 강건한 감지
 

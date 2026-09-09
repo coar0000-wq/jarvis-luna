@@ -2,7 +2,7 @@
 title: "Record 692 · Insiderrechtliche-Praxisfragen-bei-der-Emission-von-Anleihen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.947622+00:00
+updated_at: 2026-09-09T14:12:25.713779+00:00
 tags: [record, real-data]
 ---
 

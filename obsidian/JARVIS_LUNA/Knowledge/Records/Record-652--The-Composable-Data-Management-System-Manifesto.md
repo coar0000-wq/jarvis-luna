@@ -2,7 +2,7 @@
 title: "Record 652 · The-Composable-Data-Management-System-Manifesto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.939343+00:00
+updated_at: 2026-09-09T14:12:25.702904+00:00
 tags: [record, real-data]
 ---
 

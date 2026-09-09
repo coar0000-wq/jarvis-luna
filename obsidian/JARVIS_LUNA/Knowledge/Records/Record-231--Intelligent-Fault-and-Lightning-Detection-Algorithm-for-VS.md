@@ -2,7 +2,7 @@
 title: "Record 231 · Intelligent-Fault-and-Lightning-Detection-Algorithm-for-VSC-MTDC-grids"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.841954+00:00
+updated_at: 2026-09-09T14:12:25.581901+00:00
 tags: [record, real-data]
 ---
 

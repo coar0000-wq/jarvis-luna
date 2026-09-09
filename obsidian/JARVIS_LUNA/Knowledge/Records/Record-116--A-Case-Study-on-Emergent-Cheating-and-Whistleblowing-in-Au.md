@@ -2,7 +2,7 @@
 title: "Record 116 · A-Case-Study-on-Emergent-Cheating-and-Whistleblowing-in-Autonomous-Res"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.809050+00:00
+updated_at: 2026-09-09T14:12:25.547967+00:00
 tags: [record, real-data]
 ---
 

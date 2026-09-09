@@ -2,7 +2,7 @@
 title: "Record 634 · Aerosol-and-vapor-detection-via-infrared-laser-reflectance-from-common"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.935782+00:00
+updated_at: 2026-09-09T14:12:25.698210+00:00
 tags: [record, real-data]
 ---
 
