@@ -2,7 +2,7 @@
 title: "Record 1490 · I-tested-the-Korean-sunscreen-thats-been-made-for-oily-skin---AOLcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.125253+00:00
+updated_at: 2026-09-09T10:50:16.193817+00:00
 tags: [record, real-data]
 ---
 

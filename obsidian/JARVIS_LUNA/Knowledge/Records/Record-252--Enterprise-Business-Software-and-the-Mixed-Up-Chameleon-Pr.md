@@ -2,7 +2,7 @@
 title: "Record 252 · Enterprise-Business-Software-and-the-Mixed-Up-Chameleon-Problem"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.847347+00:00
+updated_at: 2026-09-09T10:50:15.862892+00:00
 tags: [record, real-data]
 ---
 

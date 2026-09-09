@@ -2,7 +2,7 @@
 title: "Record 272 · DiffusionGemma-4x-faster-text-generation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.852105+00:00
+updated_at: 2026-09-09T10:50:15.868091+00:00
 tags: [record, real-data]
 ---
 

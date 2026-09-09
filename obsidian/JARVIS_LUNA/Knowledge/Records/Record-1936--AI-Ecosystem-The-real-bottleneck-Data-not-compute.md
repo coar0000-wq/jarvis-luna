@@ -2,13 +2,13 @@
 title: "Record 1936 · AI-Ecosystem-The-real-bottleneck-Data-not-compute"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.229437+00:00
+updated_at: 2026-09-09T10:50:16.304770+00:00
 tags: [record, real-data]
 ---
 
 # Record 1936 · AI-Ecosystem-The-real-bottleneck-Data-not-compute
 
-> 실제 수집 레코드입니다. 원문: [news.skhynix.com](https://news.skhynix.com/en/ai-ecosystem-series-ep2-3/)
+> 실제 수집 레코드입니다. 원문: [news.skhynix.com](https://news.skhynix.com/en/ai-ecosystem-series-ep2-2/)
 
 **제목:** [AI Ecosystem] The real bottleneck: Data, not compute
 

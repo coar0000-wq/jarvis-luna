@@ -2,7 +2,7 @@
 title: "Record 639 · KI-gestützte-Karriereberatung-und-Stellenempfehlungen-für-den-Schweize"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.936830+00:00
+updated_at: 2026-09-09T10:50:15.964383+00:00
 tags: [record, real-data]
 ---
 

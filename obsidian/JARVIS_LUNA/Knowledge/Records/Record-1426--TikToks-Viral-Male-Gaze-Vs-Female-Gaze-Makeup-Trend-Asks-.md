@@ -2,7 +2,7 @@
 title: "Record 1426 · TikToks-Viral-Male-Gaze-Vs-Female-Gaze-Makeup-Trend-Asks-Who-Your-Glam"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.110824+00:00
+updated_at: 2026-09-09T10:50:16.177113+00:00
 tags: [record, real-data]
 ---
 

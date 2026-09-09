@@ -2,7 +2,7 @@
 title: "Record 1768 · Tranexamic-Acid-Cream-Retinal-Serums-Lead-K-Beauty-Skincare-Trends---H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.188306+00:00
+updated_at: 2026-09-09T10:50:16.261149+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1801 · Sephora-Launches-K-Beauty-Selection-Curated-by-Olive-Young---EUPHORIA-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.195752+00:00
+updated_at: 2026-09-09T10:50:16.269136+00:00
 tags: [record, real-data]
 ---
 

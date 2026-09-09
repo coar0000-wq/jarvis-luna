@@ -2,7 +2,7 @@
 title: "Record 947 · Booz-Allen-Charts-Autonomous-AI-Threats-and-Unveils-New-Counter-AI-Def"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.004567+00:00
+updated_at: 2026-09-09T10:50:16.052752+00:00
 tags: [record, real-data]
 ---
 

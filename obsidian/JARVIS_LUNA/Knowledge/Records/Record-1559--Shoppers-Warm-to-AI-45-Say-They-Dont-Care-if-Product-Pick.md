@@ -2,7 +2,7 @@
 title: "Record 1559 · Shoppers-Warm-to-AI-45-Say-They-Dont-Care-if-Product-Picks-Come-from-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.140829+00:00
+updated_at: 2026-09-09T10:50:16.210471+00:00
 tags: [record, real-data]
 ---
 

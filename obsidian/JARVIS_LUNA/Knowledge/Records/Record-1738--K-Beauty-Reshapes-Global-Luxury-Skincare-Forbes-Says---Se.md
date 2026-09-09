@@ -2,7 +2,7 @@
 title: "Record 1738 · K-Beauty-Reshapes-Global-Luxury-Skincare-Forbes-Says---Seoul-Economic-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.181494+00:00
+updated_at: 2026-09-09T10:50:16.253789+00:00
 tags: [record, real-data]
 ---
 

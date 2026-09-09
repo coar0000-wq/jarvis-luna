@@ -2,7 +2,7 @@
 title: "Record 1059 · mixsoon-Joins-Target-Beauty-Studio-Bringing-pure-ingredients-skincare-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.033015+00:00
+updated_at: 2026-09-09T10:50:16.084931+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1019 · Bringing-more-control-over-your-connectors"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.023398+00:00
+updated_at: 2026-09-09T10:50:16.074065+00:00
 tags: [record, real-data]
 ---
 

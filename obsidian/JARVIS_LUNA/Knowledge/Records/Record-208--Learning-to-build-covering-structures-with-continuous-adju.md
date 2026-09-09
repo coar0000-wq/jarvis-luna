@@ -2,7 +2,7 @@
 title: "Record 208 · Learning-to-build-covering-structures-with-continuous-adjustments"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.835198+00:00
+updated_at: 2026-09-09T10:50:15.849660+00:00
 tags: [record, real-data]
 ---
 

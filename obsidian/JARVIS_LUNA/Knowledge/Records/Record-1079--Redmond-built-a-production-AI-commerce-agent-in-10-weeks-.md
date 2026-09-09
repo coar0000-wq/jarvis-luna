@@ -2,7 +2,7 @@
 title: "Record 1079 · Redmond-built-a-production-AI-commerce-agent-in-10-weeks-using-Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.037380+00:00
+updated_at: 2026-09-09T10:50:16.089869+00:00
 tags: [record, real-data]
 ---
 

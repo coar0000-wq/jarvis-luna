@@ -2,7 +2,7 @@
 title: "Record 1771 · Inside-looksmaxxing-the-extreme-cosmetic-social-media-trend---bbccom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.188948+00:00
+updated_at: 2026-09-09T10:50:16.261852+00:00
 tags: [record, real-data]
 ---
 

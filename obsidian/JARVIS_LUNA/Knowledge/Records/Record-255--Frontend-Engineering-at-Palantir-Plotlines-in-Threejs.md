@@ -2,7 +2,7 @@
 title: "Record 255 · Frontend-Engineering-at-Palantir-Plotlines-in-Threejs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.848047+00:00
+updated_at: 2026-09-09T10:50:15.863615+00:00
 tags: [record, real-data]
 ---
 

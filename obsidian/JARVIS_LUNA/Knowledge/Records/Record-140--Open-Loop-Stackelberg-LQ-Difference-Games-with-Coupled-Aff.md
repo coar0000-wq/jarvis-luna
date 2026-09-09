@@ -2,7 +2,7 @@
 title: "Record 140 · Open-Loop-Stackelberg-LQ-Difference-Games-with-Coupled-Affine-Inequali"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.815595+00:00
+updated_at: 2026-09-09T10:50:15.828475+00:00
 tags: [record, real-data]
 ---
 

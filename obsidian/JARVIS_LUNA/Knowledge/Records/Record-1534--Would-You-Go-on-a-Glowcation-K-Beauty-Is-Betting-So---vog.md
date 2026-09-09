@@ -2,7 +2,7 @@
 title: "Record 1534 · Would-You-Go-on-a-Glowcation-K-Beauty-Is-Betting-So---voguecom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.135244+00:00
+updated_at: 2026-09-09T10:50:16.204517+00:00
 tags: [record, real-data]
 ---
 

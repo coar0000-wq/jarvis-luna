@@ -2,7 +2,7 @@
 title: "Record 896 · Spatially-Organized-Tertiary-Lymphoid-Structures-Emerge-in-Small-Cell-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.992462+00:00
+updated_at: 2026-09-09T10:50:16.038986+00:00
 tags: [record, real-data]
 ---
 

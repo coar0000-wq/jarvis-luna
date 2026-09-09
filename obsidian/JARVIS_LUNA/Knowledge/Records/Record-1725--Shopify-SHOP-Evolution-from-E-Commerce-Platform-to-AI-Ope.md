@@ -2,7 +2,7 @@
 title: "Record 1725 · Shopify-SHOP-Evolution-from-E-Commerce-Platform-to-AI-Operating-System"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.178496+00:00
+updated_at: 2026-09-09T10:50:16.250579+00:00
 tags: [record, real-data]
 ---
 

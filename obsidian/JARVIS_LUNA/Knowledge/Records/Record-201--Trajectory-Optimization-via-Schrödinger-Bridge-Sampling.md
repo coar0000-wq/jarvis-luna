@@ -2,7 +2,7 @@
 title: "Record 201 · Trajectory-Optimization-via-Schrödinger-Bridge-Sampling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.833116+00:00
+updated_at: 2026-09-09T10:50:15.847402+00:00
 tags: [record, real-data]
 ---
 

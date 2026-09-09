@@ -2,7 +2,7 @@
 title: "Record 911 · Methicillin-Resistant-Staphylococcus-aureus-Bacteremia-Originating-Fro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.996024+00:00
+updated_at: 2026-09-09T10:50:16.043169+00:00
 tags: [record, real-data]
 ---
 

@@ -1,18 +1,18 @@
 ---
-title: "Record 1363 · Amorepacific-builds-holistic-longevity-strategy-around-biotech-AI---ke"
+title: "Record 1363 · Amorepacific-builds-holistic-longevity-strategy-around-biotech-AI---KE"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.096685+00:00
+updated_at: 2026-09-09T10:50:16.161598+00:00
 tags: [record, real-data]
 ---
 
-# Record 1363 · Amorepacific-builds-holistic-longevity-strategy-around-biotech-AI---ke
+# Record 1363 · Amorepacific-builds-holistic-longevity-strategy-around-biotech-AI---KE
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMidkFVX3lxTE9EQVlfZ19Bdm5NbnpYdzl0VTMwYzlHWmdFYmZTRERiZTZCWHczS3NBN2gyRWNBLUY4eWFEVFM5U0VSVVhxSnNSZTR4c1ZoczVOdktiMzJwZGxVQ00yYXZCdTFBWXRESWJwYVNJcFhWNmhFQUhoRlE?oc=5)
 
-**제목:** Amorepacific builds ‘holistic longevity’ strategy around biotech, AI - kedglobal.com
+**제목:** Amorepacific builds ‘holistic longevity’ strategy around biotech, AI - KED Global
 
-Amorepacific builds ‘holistic longevity’ strategy around biotech, AI - kedglobal.com
+Amorepacific builds ‘holistic longevity’ strategy around biotech, AI - KED Global
 
 **출처:** Source · Google Search
 

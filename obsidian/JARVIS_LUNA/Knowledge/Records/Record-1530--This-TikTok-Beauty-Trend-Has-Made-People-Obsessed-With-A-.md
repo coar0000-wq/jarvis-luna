@@ -2,7 +2,7 @@
 title: "Record 1530 · This-TikTok-Beauty-Trend-Has-Made-People-Obsessed-With-A-Relentless-Pu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.134328+00:00
+updated_at: 2026-09-09T10:50:16.203511+00:00
 tags: [record, real-data]
 ---
 

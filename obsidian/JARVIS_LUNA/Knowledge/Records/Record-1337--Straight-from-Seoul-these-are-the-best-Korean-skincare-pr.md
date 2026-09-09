@@ -2,7 +2,7 @@
 title: "Record 1337 · Straight-from-Seoul-these-are-the-best-Korean-skincare-products-worth-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.091677+00:00
+updated_at: 2026-09-09T10:50:16.155797+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 188 · One-MLLM-One-Call-Efficient-Zero-Shot-Vision-and-Language-Navigation-v"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.829527+00:00
+updated_at: 2026-09-09T10:50:15.843481+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 790 · Architecting-AI-Platforms-for-Regulated-and-High-Scale-Environments"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.967922+00:00
+updated_at: 2026-09-09T10:50:16.010752+00:00
 tags: [record, real-data]
 ---
 

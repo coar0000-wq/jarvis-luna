@@ -2,7 +2,7 @@
 title: "Record 1794 · Curecode-Lets-New-Yorkers-See-Whats-Inside-Their-Beauty-Products---EIN"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.194196+00:00
+updated_at: 2026-09-09T10:50:16.267441+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 950 · Booz-Allen-Hamilton-Announces-First-Quarter-Fiscal-Year-2027-Results"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.005402+00:00
+updated_at: 2026-09-09T10:50:16.053691+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 872 · Secure-AI-Based-Authentication-for-IoT-Devices"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.986684+00:00
+updated_at: 2026-09-09T10:50:16.032402+00:00
 tags: [record, real-data]
 ---
 

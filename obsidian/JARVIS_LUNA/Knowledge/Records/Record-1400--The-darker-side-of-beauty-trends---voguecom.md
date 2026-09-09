@@ -2,7 +2,7 @@
 title: "Record 1400 · The-darker-side-of-beauty-trends---voguecom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.104946+00:00
+updated_at: 2026-09-09T10:50:16.169731+00:00
 tags: [record, real-data]
 ---
 

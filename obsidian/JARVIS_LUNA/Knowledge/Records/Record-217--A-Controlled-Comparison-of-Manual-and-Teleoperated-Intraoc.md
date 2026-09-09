@@ -2,7 +2,7 @@
 title: "Record 217 · A-Controlled-Comparison-of-Manual-and-Teleoperated-Intraocular-Instrum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.837855+00:00
+updated_at: 2026-09-09T10:50:15.852550+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 495 · Elections-Protest-and-Alternation-of-Power"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.906067+00:00
+updated_at: 2026-09-09T10:50:15.926827+00:00
 tags: [record, real-data]
 ---
 

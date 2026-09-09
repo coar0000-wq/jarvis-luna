@@ -2,7 +2,7 @@
 title: "Record 542 · A-32-Gbs-036-pJbit-3-nm-Chiplet-IO-Using-25-D-CoWoS-Package-With-Real-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.917160+00:00
+updated_at: 2026-09-09T10:50:15.939340+00:00
 tags: [record, real-data]
 ---
 

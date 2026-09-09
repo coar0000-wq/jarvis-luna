@@ -2,7 +2,7 @@
 title: "Record 1470 · TikToks-Head-of-Beauty-Told-Me-Whats-Actually-SellingMeet-the-12-Produ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.120712+00:00
+updated_at: 2026-09-09T10:50:16.189111+00:00
 tags: [record, real-data]
 ---
 

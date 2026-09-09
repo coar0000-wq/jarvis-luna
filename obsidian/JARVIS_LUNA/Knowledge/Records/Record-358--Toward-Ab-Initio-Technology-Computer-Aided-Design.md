@@ -2,7 +2,7 @@
 title: "Record 358 · Toward-Ab-Initio-Technology-Computer-Aided-Design"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.873016+00:00
+updated_at: 2026-09-09T10:50:15.890474+00:00
 tags: [record, real-data]
 ---
 

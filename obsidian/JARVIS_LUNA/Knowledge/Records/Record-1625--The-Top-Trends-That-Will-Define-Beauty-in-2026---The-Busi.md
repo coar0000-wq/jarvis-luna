@@ -2,7 +2,7 @@
 title: "Record 1625 · The-Top-Trends-That-Will-Define-Beauty-in-2026---The-Business-of-Fashi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.155744+00:00
+updated_at: 2026-09-09T10:50:16.226093+00:00
 tags: [record, real-data]
 ---
 

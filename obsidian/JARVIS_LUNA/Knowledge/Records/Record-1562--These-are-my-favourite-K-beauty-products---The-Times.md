@@ -2,7 +2,7 @@
 title: "Record 1562 · These-are-my-favourite-K-beauty-products---The-Times"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.141465+00:00
+updated_at: 2026-09-09T10:50:16.211170+00:00
 tags: [record, real-data]
 ---
 

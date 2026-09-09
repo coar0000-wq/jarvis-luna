@@ -2,7 +2,7 @@
 title: "Record 1727 · TikToks-Latest-Beauty-Obsession-May-Be-the-Most-Dangerous-Yet-Skin-Exp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.178953+00:00
+updated_at: 2026-09-09T10:50:16.251072+00:00
 tags: [record, real-data]
 ---
 

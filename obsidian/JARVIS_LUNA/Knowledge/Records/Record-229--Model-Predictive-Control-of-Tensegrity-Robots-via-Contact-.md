@@ -2,7 +2,7 @@
 title: "Record 229 · Model-Predictive-Control-of-Tensegrity-Robots-via-Contact-Aware-Graph-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.841349+00:00
+updated_at: 2026-09-09T10:50:15.856376+00:00
 tags: [record, real-data]
 ---
 

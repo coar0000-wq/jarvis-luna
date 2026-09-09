@@ -2,7 +2,7 @@
 title: "Record 1782 · What-is-a-bebot-girl-The-TikTok-beauty-transformation-trend-explained-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.191415+00:00
+updated_at: 2026-09-09T10:50:16.264501+00:00
 tags: [record, real-data]
 ---
 

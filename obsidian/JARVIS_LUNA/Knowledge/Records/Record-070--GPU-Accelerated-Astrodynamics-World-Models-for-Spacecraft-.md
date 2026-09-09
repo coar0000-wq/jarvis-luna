@@ -2,7 +2,7 @@
 title: "Record 070 · GPU-Accelerated-Astrodynamics-World-Models-for-Spacecraft-Rendezvous-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.795742+00:00
+updated_at: 2026-09-09T10:50:15.806431+00:00
 tags: [record, real-data]
 ---
 

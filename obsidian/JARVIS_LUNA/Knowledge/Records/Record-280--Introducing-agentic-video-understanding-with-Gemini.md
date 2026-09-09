@@ -2,7 +2,7 @@
 title: "Record 280 · Introducing-agentic-video-understanding-with-Gemini"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:13.854044+00:00
+updated_at: 2026-09-09T10:50:15.870190+00:00
 tags: [record, real-data]
 ---
 

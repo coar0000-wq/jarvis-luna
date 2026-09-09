@@ -2,7 +2,7 @@
 title: "Record 1083 · Cosmax-LOreal-expand-partnership-on-next-generation-cosmetics---The-Ko"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.038259+00:00
+updated_at: 2026-09-09T10:50:16.090928+00:00
 tags: [record, real-data]
 ---
 

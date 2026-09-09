@@ -2,7 +2,7 @@
 title: "Record 1265 · TikToks-Tired-Girl-Makeup-Trend-Makes-Exhaustion-Look-Cute---Bustle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.077338+00:00
+updated_at: 2026-09-09T10:50:16.133212+00:00
 tags: [record, real-data]
 ---
 

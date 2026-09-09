@@ -2,7 +2,7 @@
 title: "Record 1214 · TikTok-fueled-K-beauty-boom-triggers-a-retail-race-in-the-US---CNBC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.066834+00:00
+updated_at: 2026-09-09T10:50:16.120444+00:00
 tags: [record, real-data]
 ---
 
