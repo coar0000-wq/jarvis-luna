@@ -2,7 +2,7 @@
 title: "Record 123 · ESPO-Error-Structured-Prompt-Optimization-via-Diagnose-Diversify-and-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T16:40:03.534854+00:00
+updated_at: 2026-09-09T19:06:24.324949+00:00
 tags: [record, real-data]
 ---
 

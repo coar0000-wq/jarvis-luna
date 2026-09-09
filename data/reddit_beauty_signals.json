@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-09T14:11:49.543486+00:00",
+  "collected_at": "2026-09-09T19:05:28.393920+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -56,10 +56,6 @@
       "score": 4
     },
     {
-      "keyword": "skin",
-      "score": 4
-    },
-    {
       "keyword": "masks",
       "score": 4
     },
@@ -76,7 +72,11 @@
       "score": 2
     },
     {
-      "keyword": "does",
+      "keyword": "over",
+      "score": 2
+    },
+    {
+      "keyword": "review",
       "score": 2
     },
     {
@@ -116,11 +116,11 @@
       "score": 2
     },
     {
-      "keyword": "sheet",
+      "keyword": "skin",
       "score": 2
     },
     {
-      "keyword": "spf",
+      "keyword": "sheet",
       "score": 2
     },
     {
@@ -156,6 +156,22 @@
       "score": 1
     },
     {
+      "keyword": "product",
+      "score": 1
+    },
+    {
+      "keyword": "repurchased",
+      "score": 1
+    },
+    {
+      "keyword": "again",
+      "score": 1
+    },
+    {
+      "keyword": "does",
+      "score": 1
+    },
+    {
       "keyword": "judydoll",
       "score": 1
     },
@@ -186,31 +202,11 @@
     {
       "keyword": "one",
       "score": 1
-    },
-    {
-      "keyword": "wosado",
-      "score": 1
-    },
-    {
-      "keyword": "gimmick",
-      "score": 1
-    },
-    {
-      "keyword": "don",
-      "score": 1
-    },
-    {
-      "keyword": "waste",
-      "score": 1
     }
   ],
   "beauty_keywords": [
     {
       "keyword": "cushion",
-      "score": 4
-    },
-    {
-      "keyword": "skin",
       "score": 4
     },
     {
@@ -230,11 +226,11 @@
       "score": 2
     },
     {
-      "keyword": "sheet",
+      "keyword": "skin",
       "score": 2
     },
     {
-      "keyword": "spf",
+      "keyword": "sheet",
       "score": 2
     }
   ],
@@ -261,9 +257,23 @@
       "feed": "hot"
     },
     {
+      "title": "What is the product(s) you have repurchased over and over again",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbshx8/what_is_the_products_you_have_repurchased_over/",
+      "published": "2026-09-09T17:40:55+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Does JudyDoll sell singles from their 6 lip and cheek pallet? This is the Chestnut one.",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wb4qay/does_judydoll_sell_singles_from_their_6_lip_and/",
       "published": "2026-09-08T23:25:59+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "[Review] Dear Klairs Blue EGF Intensive Pro Cream",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbp0oz/review_dear_klairs_blue_egf_intensive_pro_cream/",
+      "published": "2026-09-09T15:36:51+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -289,13 +299,6 @@
       "feed": "hot"
     },
     {
-      "title": "Heartbreaking empty",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wa6yxp/heartbreaking_empty/",
-      "published": "2026-09-07T22:46:54+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Is the dodoskin website legit?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wb4mx0/is_the_dodoskin_website_legit/",
       "published": "2026-09-08T23:22:05+00:00",
@@ -303,9 +306,9 @@
       "feed": "hot"
     },
     {
-      "title": "does lemon bottle makes ur arms loose fat but flabby",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbm27l/does_lemon_bottle_makes_ur_arms_loose_fat_but/",
-      "published": "2026-09-09T13:46:07+00:00",
+      "title": "Heartbreaking empty",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wa6yxp/heartbreaking_empty/",
+      "published": "2026-09-07T22:46:54+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -373,16 +376,16 @@
       "feed": "hot"
     },
     {
-      "title": "The best thing i own: d'Alba White Truffle Spray",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w95w65/the_best_thing_i_own_dalba_white_truffle_spray/",
-      "published": "2026-09-06T19:36:54+00:00",
+      "title": "Yesstyle tracking is wrong?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w9x33q/yesstyle_tracking_is_wrong/",
+      "published": "2026-09-07T16:35:09+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Yesstyle tracking is wrong?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w9x33q/yesstyle_tracking_is_wrong/",
-      "published": "2026-09-07T16:35:09+00:00",
+      "title": "The best thing i own: d'Alba White Truffle Spray",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w95w65/the_best_thing_i_own_dalba_white_truffle_spray/",
+      "published": "2026-09-06T19:36:54+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -404,13 +407,6 @@
       "title": "Where to buy Boben in Beijing?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w9gofb/where_to_buy_boben_in_beijing/",
       "published": "2026-09-07T03:24:37+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "SKIN AQUA UV Whitening Milk SPF 50 PA++++ 40ml",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8po6i/skin_aqua_uv_whitening_milk_spf_50_pa_40ml/",
-      "published": "2026-09-06T07:45:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

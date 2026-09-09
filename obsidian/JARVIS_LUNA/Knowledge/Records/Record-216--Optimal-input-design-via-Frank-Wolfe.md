@@ -2,7 +2,7 @@
 title: "Record 216 · Optimal-input-design-via-Frank-Wolfe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T16:40:03.563192+00:00
+updated_at: 2026-09-09T19:06:24.353415+00:00
 tags: [record, real-data]
 ---
 

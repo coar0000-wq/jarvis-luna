@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T14:09:15.998942+00:00",
+  "generated_at": "2026-09-09T19:03:04.623960+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -714,8 +714,24 @@
           "source": "rss"
         },
         {
-          "title": "Boston Dynamics veterans launch Dynamic Creatures to bring characters to life with robotics",
-          "summary": "<p>Dynamic Creatures plants to create its own line of characters, and to re-create characters for specific brands and environments.</p> <p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/\">Boston Dynamics veterans launch Dynamic Creatures to bring characters to life with robotics</a> appeared first on <a h",
+          "title": "AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness",
+          "summary": "<p>AGIBOT plans to give attendees actionable insights on identifying high-value robotics use cases and building sustainable developer ecosystems.</p> <p>The post <a href=\"https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/\">AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness</a> appeared first on <a href=\"htt",
+          "published": "Wed, 09 Sep 2026 16:43:28 +0000",
+          "url": "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
+          "title": "Vention opens Physical AI Lab for manufacturing in Montreal",
+          "summary": "<p>Vention's new Physical AI Lab will focus on advancing robotic manipulation from research to scalable production-line deployment.</p> <p>The post <a href=\"https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/\">Vention opens Physical AI Lab for manufacturing in Montreal</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Wed, 09 Sep 2026 15:41:50 +0000",
+          "url": "https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
+          "title": "Boston Dynamics veteran launches Dynamic Creatures to bring characters to life with robotics",
+          "summary": "<p>Dynamic Creatures plants to create its own line of characters, and to re-create characters for specific brands and environments.</p> <p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/\">Boston Dynamics veteran launches Dynamic Creatures to bring characters to life with robotics</a> appeared first on <a ",
           "published": "Tue, 08 Sep 2026 20:39:51 +0000",
           "url": "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/",
           "feed": "The Robot Report",
@@ -814,22 +830,6 @@
           "summary": "<p>Lyte AI plans to use its second round of funding this year to scale production of its AI and perception capabilities.</p> <p>The post <a href=\"https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/\">Lyte raises $165M to help robots better sense their surroundings</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
           "published": "Fri, 04 Sep 2026 14:32:52 +0000",
           "url": "https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Robot.com partners with Sodexo to roll out more sidewalk delivery robots",
-          "summary": "<p>Robot.com says college campuses will continue to be an important part of its strategy as it scales sidewalk delivery robots.</p> <p>The post <a href=\"https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/\">Robot.com partners with Sodexo to roll out more sidewalk delivery robots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Re",
-          "published": "Fri, 04 Sep 2026 14:15:23 +0000",
-          "url": "https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Medtronic invests $700M in surgical partner Cornerstone Robotics",
-          "summary": "<p>Medtronic and Cornerstone Robotics are building a multi-port portfolio anchored by the Hugo surgical system and expanded by Sentire.</p> <p>The post <a href=\"https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/\">Medtronic invests $700M in surgical partner Cornerstone Robotics</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Repo",
-          "published": "Thu, 03 Sep 2026 18:53:54 +0000",
-          "url": "https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/",
           "feed": "The Robot Report",
           "source": "rss"
         }

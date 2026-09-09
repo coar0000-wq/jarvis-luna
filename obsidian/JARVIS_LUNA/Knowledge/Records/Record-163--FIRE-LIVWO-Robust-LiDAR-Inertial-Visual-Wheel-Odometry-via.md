@@ -2,7 +2,7 @@
 title: "Record 163 · FIRE-LIVWO-Robust-LiDAR-Inertial-Visual-Wheel-Odometry-via-Failure-Imm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T16:40:03.547608+00:00
+updated_at: 2026-09-09T19:06:24.338432+00:00
 tags: [record, real-data]
 ---
 

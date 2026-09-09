@@ -1,18 +1,18 @@
 ---
-title: "Record 1488 · 19-New-K-Beauty-Brands-Are-Coming-to-Sephora-Heres-What-to-Buy---Yahoo"
+title: "Record 1488 · 19-New-K-Beauty-Brands-Are-Coming-to-Sephora-Heres-What-to-Buy---New-Y"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:29.139039+00:00
+updated_at: 2026-09-09T19:06:24.656348+00:00
 tags: [record, real-data]
 ---
 
-# Record 1488 · 19-New-K-Beauty-Brands-Are-Coming-to-Sephora-Heres-What-to-Buy---Yahoo
+# Record 1488 · 19-New-K-Beauty-Brands-Are-Coming-to-Sephora-Heres-What-to-Buy---New-Y
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilwFBVV95cUxPdU96bWtLQjBydnhYalkzd2h4SmJBbUNZdjZvdzJ5T2VDcl91OEdVWkk0SnZyd29kSGxpUjU0N21rREthcDlPWHNQQVNVTE5vTDN4MWZ6RmZDZW8wVFJhQnI2SmJkREJPd3RUbUxBWWZzVkFGY2Z2MVY2aDZCR1VVbnhtUnN1RXhJWElMTXBUSEVuekpKb3lz?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigAFBVV95cUxPSE02eTRlczlNYkpRLWJfNzNVMVNEMXA4UmVXREZiM09NWjlncXdKRTRROGRuV0QtWXlxVWw4NGdlTW5YcHQzckZlbkFfUXI1OVhfZEFPallRQnNJeHVwLTRJYkxpaVUyN0U1NXo0SEV5RWdqOEw1N0plM25nck1pbQ?oc=5)
 
-**제목:** 19 New K-Beauty Brands Are Coming to Sephora. Here’s What to Buy. - Yahoo
+**제목:** 19 New K-Beauty Brands Are Coming to Sephora. Here’s What to Buy. - New York Magazine
 
-19 New K-Beauty Brands Are Coming to Sephora. Here’s What to Buy. - Yahoo
+19 New K-Beauty Brands Are Coming to Sephora. Here’s What to Buy. - New York Magazine
 
 **출처:** Source · Google Search
 

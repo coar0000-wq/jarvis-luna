@@ -2,7 +2,7 @@
 title: "Record 010 · Olay-Regenerist-Regenerating-with-Sunscreen-Broad-Spectrum-SPF-15"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T16:40:03.503612+00:00
+updated_at: 2026-09-09T19:06:24.293433+00:00
 tags: [record, real-data]
 ---
 

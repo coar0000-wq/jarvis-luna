@@ -1,0 +1,21 @@
+---
+title: "Record 351 · A-Numerical-Model-for-Combustion-and-Condensation-of-Micron-sized-Alum"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-09T19:06:24.388239+00:00
+tags: [record, real-data]
+---
+
+# Record 351 · A-Numerical-Model-for-Combustion-and-Condensation-of-Micron-sized-Alum
+
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1007/s42405-026-01279-4)
+
+**제목:** A Numerical Model for Combustion and Condensation of Micron-sized Aluminum Particle in Transition Regime
+
+A Numerical Model for Combustion and Condensation of Micron-sized Aluminum Particle in Transition Regime
+
+**출처:** Source · institutions
+
+## Connected nodes
+
+[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

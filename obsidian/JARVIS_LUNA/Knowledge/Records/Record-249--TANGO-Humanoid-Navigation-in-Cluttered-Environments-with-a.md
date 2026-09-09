@@ -2,7 +2,7 @@
 title: "Record 249 · TANGO-Humanoid-Navigation-in-Cluttered-Environments-with-a-Whole-Body-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T16:40:03.573026+00:00
+updated_at: 2026-09-09T19:06:24.362970+00:00
 tags: [record, real-data]
 ---
 

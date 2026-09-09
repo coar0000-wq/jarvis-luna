@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T16:39:55.160900+00:00",
+  "updated": "2026-09-09T19:04:50.114791+00:00",
   "sources": {
     "arxiv": {
       "status": "ok",
@@ -61,7 +61,7 @@
       "status": "ok",
       "source": "Robotics (arXiv cs.RO/eess.SY + IEEE Spectrum + Robot Report)",
       "reason": "",
-      "collected_at": "2026-09-09T14:09:15.998942+00:00",
+      "collected_at": "2026-09-09T19:03:04.623960+00:00",
       "items": [
         {
           "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
@@ -582,8 +582,22 @@
           "primary_category": null
         },
         {
-          "title": "Boston Dynamics veterans launch Dynamic Creatures to bring characters to life with robotics",
-          "text": "<p>Dynamic Creatures plants to create its own line of characters, and to re-create characters for specific brands and environments.</p> <p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/\">Boston Dynamics veterans launch Dynamic Creatures to bring characters to life with robotics</a> appeared first on <a h",
+          "title": "AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness",
+          "text": "<p>AGIBOT plans to give attendees actionable insights on identifying high-value robotics use cases and building sustainable developer ecosystems.</p> <p>The post <a href=\"https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/\">AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness</a> appeared first on <a href=\"htt",
+          "published": "Wed, 09 Sep 2026 16:43:28 +0000",
+          "url": "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/",
+          "primary_category": null
+        },
+        {
+          "title": "Vention opens Physical AI Lab for manufacturing in Montreal",
+          "text": "<p>Vention's new Physical AI Lab will focus on advancing robotic manipulation from research to scalable production-line deployment.</p> <p>The post <a href=\"https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/\">Vention opens Physical AI Lab for manufacturing in Montreal</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Wed, 09 Sep 2026 15:41:50 +0000",
+          "url": "https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/",
+          "primary_category": null
+        },
+        {
+          "title": "Boston Dynamics veteran launches Dynamic Creatures to bring characters to life with robotics",
+          "text": "<p>Dynamic Creatures plants to create its own line of characters, and to re-create characters for specific brands and environments.</p> <p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/\">Boston Dynamics veteran launches Dynamic Creatures to bring characters to life with robotics</a> appeared first on <a ",
           "published": "Tue, 08 Sep 2026 20:39:51 +0000",
           "url": "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/",
           "primary_category": null
@@ -671,20 +685,6 @@
           "published": "Fri, 04 Sep 2026 14:32:52 +0000",
           "url": "https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/",
           "primary_category": null
-        },
-        {
-          "title": "Robot.com partners with Sodexo to roll out more sidewalk delivery robots",
-          "text": "<p>Robot.com says college campuses will continue to be an important part of its strategy as it scales sidewalk delivery robots.</p> <p>The post <a href=\"https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/\">Robot.com partners with Sodexo to roll out more sidewalk delivery robots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Re",
-          "published": "Fri, 04 Sep 2026 14:15:23 +0000",
-          "url": "https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/",
-          "primary_category": null
-        },
-        {
-          "title": "Medtronic invests $700M in surgical partner Cornerstone Robotics",
-          "text": "<p>Medtronic and Cornerstone Robotics are building a multi-port portfolio anchored by the Hugo surgical system and expanded by Sentire.</p> <p>The post <a href=\"https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/\">Medtronic invests $700M in surgical partner Cornerstone Robotics</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Repo",
-          "published": "Thu, 03 Sep 2026 18:53:54 +0000",
-          "url": "https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/",
-          "primary_category": null
         }
       ]
     },
@@ -692,8 +692,18 @@
       "status": "ok",
       "source": "Institutions (RSS + sitemap + OpenAlex, 35개 기관)",
       "reason": "",
-      "collected_at": "2026-09-09T14:10:34.940152+00:00",
+      "collected_at": "2026-09-09T19:04:20.940475+00:00",
       "items": [
+        {
+          "title": "Paul Christiano joins OpenAI Foundation Board",
+          "text": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+          "published": "2026-09-09",
+          "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+          "org": "OpenAI",
+          "category": "AI연구소",
+          "kind": "발표물",
+          "venue": ""
+        },
         {
           "title": "How GPT-5.6 Sol helps run quantum computing experiments",
           "text": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
@@ -929,16 +939,6 @@
           "text": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
           "published": "2026-08-28",
           "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-          "org": "OpenAI",
-          "category": "AI연구소",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Supporting Thailand’s next generation of AI startups",
-          "text": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
-          "published": "2026-08-28",
-          "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
           "org": "OpenAI",
           "category": "AI연구소",
           "kind": "발표물",
@@ -1195,6 +1195,16 @@
           "venue": ""
         },
         {
+          "title": "Modernizing complex legacy code with AI agents.",
+          "text": "Mistral helped a European energy operator migrate 40,000 lines of Fortran 77 to C++. Learn how it was done, and the lessons to carry forward.",
+          "published": "2026-09-09",
+          "url": "https://mistral.ai/news/legacy-code-modernization/",
+          "org": "Mistral AI",
+          "category": "AI연구소",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
           "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
           "text": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.",
           "published": "2026-09-08",
@@ -1429,16 +1439,6 @@
           "text": "",
           "published": "2026-03-16",
           "url": "https://mistral.ai/news/leanstral/",
-          "org": "Mistral AI",
-          "category": "AI연구소",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Rails testing on autopilot: Building an agent that writes what developers won't",
-          "text": "",
-          "published": "2026-03-11",
-          "url": "https://mistral.ai/news/rails-testing-on-autopilot-building-an-agent-that-writes-what-developers-wont/",
           "org": "Mistral AI",
           "category": "AI연구소",
           "kind": "발표물",
@@ -2395,6 +2395,36 @@
           "venue": ""
         },
         {
+          "title": "A practical approach to end-to-end Solvency II reporting in Databricks",
+          "text": "Solvency II reporting is not only a regulatory submission. It is a business process...",
+          "published": "2026-09-09",
+          "url": "https://www.databricks.com/blog/practical-approach-end-end-solvency-ii-reporting-databricks",
+          "org": "Databricks",
+          "category": "데이터분석",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Beyond embedding: How to secure AI/BI Dashboards for every viewer",
+          "text": "The challengeEmbedding a Databricks AI/BI Dashboard in a customer-facing application is relatively straightforward...",
+          "published": "2026-09-09",
+          "url": "https://www.databricks.com/blog/beyond-embedding-how-secure-aibi-dashboards-every-viewer",
+          "org": "Databricks",
+          "category": "데이터분석",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Introducing Consort: Test-driven development on a branching database",
+          "text": "For 25 years I built software on the practices I grew up with: Kent Beck’s TDD, Martin...",
+          "published": "2026-09-09",
+          "url": "https://www.databricks.com/blog/introducing-consort-test-driven-development-branching-database",
+          "org": "Databricks",
+          "category": "데이터분석",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
           "title": "Adaptive Instructed-Retriever: Frontier-Quality Search at 2x Lower Latency",
           "text": "Effective enterprise data agents require search that is both accurate and fast. Earlier...",
           "published": "2026-09-09",
@@ -2465,31 +2495,11 @@
           "venue": ""
         },
         {
-          "title": "Governance beyond security: knowledge, context & ontology on the lakehouse",
-          "text": "Ask most organizations what data governance for AI means, and you’ll hear a security...",
-          "published": "2026-09-03",
-          "url": "https://www.databricks.com/blog/governance-beyond-security-knowledge-context-ontology-lakehouse",
-          "org": "Databricks",
-          "category": "데이터분석",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Building High-Quality and Trusted Data Products with Databricks",
-          "text": "IntroductionOrganizations aiming to become AI and data-driven often need to provide...",
-          "published": "2026-09-03",
-          "url": "https://www.databricks.com/blog/building-high-quality-and-trusted-data-products-databricks",
-          "org": "Databricks",
-          "category": "데이터분석",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "What is Data Transformation?",
-          "text": "What is data transformation?Data transformation is the process of taking raw data...",
-          "published": "2026-09-03",
-          "url": "https://www.databricks.com/blog/what-is-data-transformation",
-          "org": "Databricks",
+          "title": "Leidos to participate in the Jefferies 2026 Global Industrials Conference",
+          "text": "Live audio webcast available on September 9, 2026, from 11:30 a.m. to 12:05 p.m. ET RESTON, Va., Sept. 9, 2026 /PRNewswire/ -- Leidos &nbsp;(NYSE: LDOS) today announced it will participate in Jefferies' 2026 Global Industrials Conference being held in New York City, New York.",
+          "published": "2026-09-09",
+          "url": "https://investors.leidos.com/news-releases/news-release-details/leidos-participate-jefferies-2026-global-industrials-conference",
+          "org": "Leidos",
           "category": "데이터분석",
           "kind": "발표물",
           "venue": ""
@@ -2579,16 +2589,6 @@
           "text": "RESTON, Va., July 28, 2026 /PRNewswire/ -- As global threats become more complex, contested and fast-moving, U.S. airmen need timely intelligence that is trusted and operationally relevant. Leidos &nbsp;(NYSE: LDOS) has been awarded a new task order by the U.S.",
           "published": "2026-07-28",
           "url": "https://investors.leidos.com/news-releases/news-release-details/us-air-force-awards-leidos-isr-operations-support-task-order",
-          "org": "Leidos",
-          "category": "데이터분석",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Leidos demonstrates tactical cyber detection capability during Valiant Shield 2026",
-          "text": "RESTON, Va., July 27, 2026 /PRNewswire/ -- Leidos &nbsp;(NYSE: LDOS) successfully demonstrated a tactical cyber detection capability during Valiant Shield 2026, showing how military operators can spot potential cyber threats to connected mission systems in real time.",
-          "published": "2026-07-27",
-          "url": "https://investors.leidos.com/news-releases/news-release-details/leidos-demonstrates-tactical-cyber-detection-capability-during",
           "org": "Leidos",
           "category": "데이터분석",
           "kind": "발표물",
@@ -2795,19 +2795,9 @@
           "venue": ""
         },
         {
-          "title": "Economics",
-          "text": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+          "title": "Mapping AI-enabled cyber threats",
+          "text": "As AI changes how cyberattacks happen, how well do the security community's frameworks hold up? A new report maps attacks onto MITRE ATT&CK.",
           "published": "2026-09-09",
-          "url": "https://www.anthropic.com/research/team/economics",
-          "org": "Anthropic",
-          "category": "AI연구소",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "What we learned mapping a year’s worth of AI-enabled cyber threats",
-          "text": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question.",
-          "published": "2026-09-08",
           "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
           "org": "Anthropic",
           "category": "AI연구소",
@@ -2815,100 +2805,90 @@
           "venue": ""
         },
         {
-          "title": "Detecting and countering malicious uses of Claude",
-          "text": "Detecting and Countering Malicious Uses of Claude",
-          "published": "2026-09-08",
-          "url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
+          "title": "Alberta uses Claude to find and fix security vulnerabilities",
+          "text": "The Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them.",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
           "org": "Anthropic",
           "category": "AI연구소",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Detecting and preventing distillation attacks",
-          "text": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-          "published": "2026-09-08",
-          "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+          "title": "Anthropic acquires Stainless",
+          "text": "Anthropic has acquired Stainless, a builder of SDK and MCP server tooling, to strengthen Claude's ability to connect to external data and tools.",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
           "org": "Anthropic",
           "category": "AI연구소",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Detecting and countering misuse of AI: August 2025",
-          "text": "Anthropic's threat intelligence report on AI cybercrime and other abuses",
-          "published": "2026-09-08",
-          "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
+          "title": "KPMG integrates Claude across its workforce",
+          "text": "KPMG makes Claude available to 276,000+ employees and embeds it in its Digital Gateway platform for tax, legal, and private equity clients.",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/anthropic-kpmg",
           "org": "Anthropic",
           "category": "AI연구소",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Disrupting the first reported AI-orchestrated cyber espionage campaign",
-          "text": "A report describing an a highly sophisticated AI-led cyberattack",
-          "published": "2026-09-08",
-          "url": "https://www.anthropic.com/news/disrupting-AI-espionage",
+          "title": "Ben Bernanke joins the Long-Term Benefit Trust",
+          "text": "Former Federal Reserve Chair Ben Bernanke has been appointed to Anthropic's Long-Term Benefit Trust, bringing expertise on AI's economic impacts.",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/ben-bernanke",
           "org": "Anthropic",
           "category": "AI연구소",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Improving our alignment and security practices",
-          "text": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.",
-          "published": "2026-09-07",
-          "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+          "title": "Chris Olah's remarks on Pope Leo XIV's encyclical",
+          "text": "The full text of Anthropic co-founder Chris Olah's remarks on the Pope's encyclical on AI, \"Magnifica humanitas.\"",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
           "org": "Anthropic",
           "category": "AI연구소",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Formalizing Fermat's Last Theorem",
-          "text": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-          "published": "2026-09-07",
-          "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+          "title": "Introducing Claude Corps",
+          "text": "Claude Corps is a national fellowship for early-career people passionate about extending the benefits of AI to communities across America.",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/claude-corps",
           "org": "Anthropic",
           "category": "AI연구소",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-          "text": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.  Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to p",
-          "published": "2026-09-04",
-          "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+          "title": "Introducing Claude for Teachers",
+          "text": "Verified US K-12 educators get free access to premium Claude capabilities, a teaching skills library, and standards-aligned curricula for all 50 states.",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/claude-for-teachers",
           "org": "Anthropic",
           "category": "AI연구소",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "India Country Brief: The Anthropic Economic Index",
-          "text": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-          "published": "2026-09-04",
-          "url": "https://www.anthropic.com/research/india-brief-economic-index",
+          "title": "Introducing Claude Opus 4.8",
+          "text": "Claude Opus 4.8 brings stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/claude-opus-4-8",
           "org": "Anthropic",
           "category": "AI연구소",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Reviewing The Evidence On Worker Retraining Programs",
-          "text": "",
-          "published": "2026-09-04",
-          "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
-          "org": "Anthropic",
-          "category": "AI연구소",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Enterprise Frontier Safeguards",
-          "text": "",
-          "published": "2026-09-02",
-          "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+          "title": "Claude Science, an AI workbench for scientists",
+          "text": "Claude Science integrates the tools researchers use most, produces auditable artifacts, and provides flexible access to computing resources.",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
           "org": "Anthropic",
           "category": "AI연구소",
           "kind": "발표물",
@@ -2917,7 +2897,7 @@
         {
           "title": "Claude Text Watermark",
           "text": "",
-          "published": "2026-09-01",
+          "published": "2026-09-09",
           "url": "https://www.anthropic.com/news/claude-text-watermark",
           "org": "Anthropic",
           "category": "AI연구소",
@@ -2925,70 +2905,90 @@
           "venue": ""
         },
         {
-          "title": "Model Hardware Standard Research Preview",
+          "title": "Cognizant Anthropic",
           "text": "",
-          "published": "2026-08-29",
-          "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/cognizant-anthropic",
           "org": "Anthropic",
           "category": "AI연구소",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Claude For Teachers",
+          "title": "Confidential Draft S1 Sec",
           "text": "",
-          "published": "2026-08-28",
-          "url": "https://www.anthropic.com/news/claude-for-teachers",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
           "org": "Anthropic",
           "category": "AI연구소",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Expanding Support For Scientists",
+          "title": "Dxc Anthropic Alliance",
           "text": "",
-          "published": "2026-08-28",
-          "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
           "org": "Anthropic",
           "category": "AI연구소",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Automated Researchers Mitigate Alignment Failures",
+          "title": "Economic Futures Research Fund Agenda",
           "text": "",
-          "published": "2026-08-28",
-          "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
           "org": "Anthropic",
           "category": "AI연구소",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Accelerating Scientific Research",
+          "title": "Expanding Project Glasswing",
           "text": "",
-          "published": "2026-08-27",
-          "url": "https://www.anthropic.com/news/accelerating-scientific-research",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/expanding-project-glasswing",
           "org": "Anthropic",
           "category": "AI연구소",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Advancing Claude For Education",
+          "title": "Fable Mythos Access",
           "text": "",
-          "published": "2026-08-27",
-          "url": "https://www.anthropic.com/news/advancing-claude-for-education",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/fable-mythos-access",
           "org": "Anthropic",
           "category": "AI연구소",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Ai For Science Program",
+          "title": "Fable Safeguards Jailbreak Framework",
           "text": "",
-          "published": "2026-08-27",
-          "url": "https://www.anthropic.com/news/ai-for-science-program",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+          "org": "Anthropic",
+          "category": "AI연구소",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Gates Foundation Partnership",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/gates-foundation-partnership",
+          "org": "Anthropic",
+          "category": "AI연구소",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Improving Fable 5 S Biology Safeguards",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
           "org": "Anthropic",
           "category": "AI연구소",
           "kind": "발표물",
@@ -3595,10 +3595,20 @@
           "venue": ""
         },
         {
-          "title": "Employee Stock Purchase Plans",
+          "title": "Why Global Bond Yields Are Expected To Stay Elevated",
           "text": "",
-          "published": "2026-09-08",
-          "url": "https://www.goldmansachs.com/what-we-do/ayco/insights/employee-stock-purchase-plans",
+          "published": "2026-09-09",
+          "url": "https://www.goldmansachs.com/insights/articles/why-global-bond-yields-are-expected-to-stay-elevated",
+          "org": "Goldman Sachs",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "How Will Less Fed Transparency Affect Markets And The Economy",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-will-less-fed-transparency-affect-markets-and-the-economy",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
@@ -3607,8 +3617,28 @@
         {
           "title": "Assessing A Less Transparent Fed",
           "text": "",
-          "published": "2026-09-08",
+          "published": "2026-09-09",
           "url": "https://www.goldmansachs.com/insights/top-of-mind/assessing-a-less-transparent-fed",
+          "org": "Goldman Sachs",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "How Will Less Fed Transparency Affect Markets And The Economy   Transcript",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/how-will-less-fed-transparency-affect-markets-and-the-economy/transcript.pdf",
+          "org": "Goldman Sachs",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Employee Stock Purchase Plans",
+          "text": "",
+          "published": "2026-09-08",
+          "url": "https://www.goldmansachs.com/what-we-do/ayco/insights/employee-stock-purchase-plans",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
@@ -3625,20 +3655,20 @@
           "venue": ""
         },
         {
-          "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
+          "title": "Why Gold Is Expected To Rise To Record Highs",
           "text": "",
           "published": "2026-09-04",
-          "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
+          "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Why Gold Is Expected To Rise To Record Highs",
+          "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
           "text": "",
           "published": "2026-09-04",
-          "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
+          "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
@@ -3675,20 +3705,20 @@
           "venue": ""
         },
         {
-          "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
+          "title": "David Solomon Cnbc Sep 2026   Transcript",
           "text": "",
           "published": "2026-09-02",
-          "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
+          "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "David Solomon Cnbc Sep 2026   Transcript",
+          "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
           "text": "",
           "published": "2026-09-02",
-          "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
+          "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
@@ -3705,20 +3735,20 @@
           "venue": ""
         },
         {
-          "title": "What Is The Outlook For Diesel And Gasoline Supplies",
+          "title": "Gold Is Forecast To Climb As Central Banks Buy The Precious Metal",
           "text": "",
           "published": "2026-08-28",
-          "url": "https://www.goldmansachs.com/insights/the-markets/what-is-the-outlook-for-diesel-and-gasoline-supplies",
+          "url": "https://www.goldmansachs.com/insights/articles/gold-is-forecast-to-climb-as-central-banks-buy-the-precious-metal",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Gold Is Forecast To Climb As Central Banks Buy The Precious Metal",
+          "title": "What Is The Outlook For Diesel And Gasoline Supplies",
           "text": "",
           "published": "2026-08-28",
-          "url": "https://www.goldmansachs.com/insights/articles/gold-is-forecast-to-climb-as-central-banks-buy-the-precious-metal",
+          "url": "https://www.goldmansachs.com/insights/the-markets/what-is-the-outlook-for-diesel-and-gasoline-supplies",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
@@ -3759,36 +3789,6 @@
           "text": "",
           "published": "2026-08-24",
           "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/building-ai-systems-for-capital-markets",
-          "org": "Goldman Sachs",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Building Ai Systems For Capital Markets   Transcript",
-          "text": "",
-          "published": "2026-08-24",
-          "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/building-ai-systems-for-capital-markets/transcript.pdf",
-          "org": "Goldman Sachs",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Tom Fed Communications Redacted",
-          "text": "",
-          "published": "2026-08-24",
-          "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-research/assessing-a-less-transparent-fed/TOM_Fed_Communications_Redacted.pdf",
-          "org": "Goldman Sachs",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Why Us Equity Returns Are Broadening Beyond Ai Stocks",
-          "text": "",
-          "published": "2026-08-21",
-          "url": "https://www.goldmansachs.com/insights/the-markets/why-us-equity-returns-are-broadening-beyond-ai-stocks",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
@@ -3995,40 +3995,10 @@
           "venue": ""
         },
         {
-          "title": "India Insights Investment Outlook",
+          "title": "Global Tariffs",
           "text": "",
-          "published": "2026-09-08",
-          "url": "https://www.morganstanley.com/Themes/india-insights-investment-outlook",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Thoughts On The Market",
-          "text": "",
-          "published": "2026-09-08",
-          "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Humanoid Robot Market 5 Trillion By 2050",
-          "text": "",
-          "published": "2026-09-08",
-          "url": "https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Trump Tariff Delay Ongoing Outlook Uncertainty",
-          "text": "",
-          "published": "2026-09-08",
-          "url": "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
           "org": "Morgan Stanley",
           "category": "투자은행",
           "kind": "발표물",
@@ -4037,7 +4007,7 @@
         {
           "title": "Digital Assets",
           "text": "",
-          "published": "2026-09-08",
+          "published": "2026-09-09",
           "url": "https://www.morganstanley.com/insights/themes/digital-assets",
           "org": "Morgan Stanley",
           "category": "투자은행",
@@ -4045,20 +4015,140 @@
           "venue": ""
         },
         {
-          "title": "Milken Institute Global Conference Trends Insights Outlook",
+          "title": "Fed Policy And Markets",
           "text": "",
-          "published": "2026-09-08",
-          "url": "https://www.morganstanley.com/insights/themes/milken-institute-global-conference-trends-insights-outlook",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/ideas/fed-policy-and-markets",
           "org": "Morgan Stanley",
           "category": "투자은행",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Global Tariffs",
+          "title": "Us Tariffs Research Roundtable",
           "text": "",
-          "published": "2026-09-08",
-          "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/ideas/us-tariffs-research-roundtable",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Trump Tariff Delay Ongoing Outlook Uncertainty",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Power Moves Detroit",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/ideas/power-moves-detroit",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Deepseek Ai Watershed Moment",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/insights/articles/deepseek-ai-watershed-moment",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Tech Startups Insiders Lessons For Growth",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/ideas/tech-startups-insiders-lessons-for-growth",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Future Plastics Ideas Podcast",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/ideas/future-plastics-ideas-podcast",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Kelly Street Garden",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/ideas/kelly-street-garden",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Entrepreneurs Roundtable Multicultural Innovation Lab 2018",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/ideas/entrepreneurs-roundtable-multicultural-innovation-lab-2018",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Ai Monetization Race To Roi Tmt",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/insights/articles/ai-monetization-race-to-roi-tmt",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Genai Revenue Growth And Profitability",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/insights/articles/genai-revenue-growth-and-profitability",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Tmt Barcelona 2015",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/ideas/tmt-barcelona-2015",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Trump Tariffs Stock Market Crash How To Invest",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/ideas/trump-tariffs-stock-market-crash-how-to-invest",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Startup Seed Money Tips For Multicultural And Women Founders",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/ideas/startup-seed-money-tips-for-multicultural-and-women-founders",
           "org": "Morgan Stanley",
           "category": "투자은행",
           "kind": "발표물",
@@ -4075,120 +4165,30 @@
           "venue": ""
         },
         {
-          "title": "Water Scarcity Causes And Solutions",
+          "title": "India Insights Investment Outlook",
           "text": "",
-          "published": "2026-09-07",
-          "url": "https://www.morganstanley.com/ideas/water-scarcity-causes-and-solutions",
+          "published": "2026-09-08",
+          "url": "https://www.morganstanley.com/Themes/india-insights-investment-outlook",
           "org": "Morgan Stanley",
           "category": "투자은행",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Us Tariffs Research Roundtable",
+          "title": "Milken Institute Global Conference Trends Insights Outlook",
           "text": "",
-          "published": "2026-09-07",
-          "url": "https://www.morganstanley.com/ideas/us-tariffs-research-roundtable",
+          "published": "2026-09-08",
+          "url": "https://www.morganstanley.com/insights/themes/milken-institute-global-conference-trends-insights-outlook",
           "org": "Morgan Stanley",
           "category": "투자은행",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Sustainability Metrics Esg Improvers",
+          "title": "Thoughts On The Market",
           "text": "",
-          "published": "2026-09-07",
-          "url": "https://www.morganstanley.com/ideas/sustainability-metrics-esg-improvers",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Investing In Treasury Bonds Q3 2023",
-          "text": "",
-          "published": "2026-09-07",
-          "url": "https://www.morganstanley.com/ideas/investing-in-treasury-bonds-Q3-2023",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Obesity Drugs Investment Opportunity",
-          "text": "",
-          "published": "2026-09-07",
-          "url": "https://www.morganstanley.com/ideas/obesity-drugs-investment-opportunity",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Media Sector Turnaround",
-          "text": "",
-          "published": "2026-09-07",
-          "url": "https://www.morganstanley.com/ideas/media-sector-turnaround",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Stocks On The Rise How Long 2023",
-          "text": "",
-          "published": "2026-09-07",
-          "url": "https://www.morganstanley.com/ideas/stocks-on-the-rise-how-long-2023",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "This Time Is Different 2024 Investing Risks",
-          "text": "",
-          "published": "2026-09-07",
-          "url": "https://www.morganstanley.com/ideas/this-time-is-different-2024-investing-risks",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Investment Risk 2023 Stock Rally Over",
-          "text": "",
-          "published": "2026-09-07",
-          "url": "https://www.morganstanley.com/ideas/investment-risk-2023-stock-rally-over",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Womens Impact On The Economy",
-          "text": "",
-          "published": "2026-09-07",
-          "url": "https://www.morganstanley.com/ideas/womens-impact-on-the-economy",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Esg Cryptocurrency Pros Cons",
-          "text": "",
-          "published": "2026-09-07",
-          "url": "https://www.morganstanley.com/ideas/esg-cryptocurrency-pros-cons",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Value Investing Gets Momentum",
-          "text": "",
-          "published": "2026-09-07",
-          "url": "https://www.morganstanley.com/ideas/value-investing-gets-momentum",
+          "published": "2026-09-08",
+          "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
           "org": "Morgan Stanley",
           "category": "투자은행",
           "kind": "발표물",
@@ -4455,6 +4455,16 @@
           "venue": "Journal of Collective Bargaining in the Academy"
         },
         {
+          "title": "Optimal buprenorphine exposure to treat patients with opioid use disorder in the era of fentanyl and polysubstance use",
+          "text": "",
+          "published": "2026-09-08",
+          "url": "https://doi.org/10.3389/fphar.2026.1839067",
+          "org": "JPMorgan Chase",
+          "category": "투자은행",
+          "kind": "논문",
+          "venue": "Frontiers in Pharmacology"
+        },
+        {
           "title": "Introducing relative pollen productivity estimates for Iberian taxa: methodological insights and implications for landscape modelling in the Western Mediterranean",
           "text": "",
           "published": "2026-09-07",
@@ -4683,16 +4693,6 @@
           "category": "투자은행",
           "kind": "논문",
           "venue": "arXiv (Cornell University)"
-        },
-        {
-          "title": "Early clinical decision support using interpretable artificial intelligence in acute illness (sepsis and infection): A systematic review and meta-analysis",
-          "text": "",
-          "published": "2026-07-20",
-          "url": "https://doi.org/10.1016/j.ijmedinf.2026.106629",
-          "org": "JPMorgan Chase",
-          "category": "투자은행",
-          "kind": "논문",
-          "venue": "International Journal of Medical Informatics"
         },
         {
           "title": "Effects of one-time application of controlled-release compound fertilizer on peanut yield and nitrogen loss in sloping farmland",
@@ -5445,6 +5445,16 @@
           "venue": "arXiv (Cornell University)"
         },
         {
+          "title": "Gastric Mucosa Cancer Risk: The Operative Link on Gastritis Assessment Staging System",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://doi.org/10.7704/kjhugr.2026.0027",
+          "org": "UBS",
+          "category": "투자은행",
+          "kind": "논문",
+          "venue": "The Korean Journal of Helicobacter and Upper Gastrointestinal Research"
+        },
+        {
           "title": "First case of Brucella suis biovar 1 infection in a dog in Switzerland",
           "text": "",
           "published": "2026-09-04",
@@ -5665,7 +5675,7 @@
           "venue": "Hemato"
         },
         {
-          "title": "Faithful by Construction: Claim-Anchored Attribution for Multi-Document Summarization",
+          "title": "Attributable by Construction: Claim-Anchored Provenance for Multi-Document Summarization",
           "text": "",
           "published": "2026-06-22",
           "url": "https://openalex.org/W7165972836",
@@ -5683,16 +5693,6 @@
           "category": "투자은행",
           "kind": "논문",
           "venue": "Water Quality Research Journal"
-        },
-        {
-          "title": "How to spot outliers: an Ensemble Anomaly Detection Framework",
-          "text": "",
-          "published": "2026-06-18",
-          "url": "https://openalex.org/W7165424194",
-          "org": "UBS",
-          "category": "투자은행",
-          "kind": "논문",
-          "venue": "arXiv (Cornell University)"
         },
         {
           "title": "Adaptive Multi-Agent Deep Reinforcement Learning for Distributed Zero Trust Architectures in Global Financial Ecosystems",
@@ -7945,6 +7945,56 @@
           "venue": "ACS Applied Nano Materials"
         },
         {
+          "title": "Spatial nonparametric Bayesian Poisson hurdle model for analyzing zero-inflated tick data",
+          "text": "",
+          "published": "2026-09-08",
+          "url": "https://doi.org/10.1007/s42952-026-00390-2",
+          "org": "Samsung Electronics",
+          "category": "반도체",
+          "kind": "논문",
+          "venue": "Journal of the Korean Statistical Society"
+        },
+        {
+          "title": "Refining RhIG Prophylaxis Guidelines: Asian-type DEL as RhD-Positive and Unresolved Dosing Challenges in RhD Epitope-Deficient Variants",
+          "text": "",
+          "published": "2026-09-08",
+          "url": "https://doi.org/10.3343/alm.2026.0264",
+          "org": "Samsung Electronics",
+          "category": "반도체",
+          "kind": "논문",
+          "venue": "Annals of Laboratory Medicine"
+        },
+        {
+          "title": "Nonmonotonic Li-Content Evolution and Size-Dependent Lithium Accessibility in Degraded High-Nickel Cathodes",
+          "text": "",
+          "published": "2026-09-08",
+          "url": "https://doi.org/10.1021/acsenergylett.6c01660",
+          "org": "Samsung Electronics",
+          "category": "반도체",
+          "kind": "논문",
+          "venue": "ACS Energy Letters"
+        },
+        {
+          "title": "Diagnostic accuracy of core needle biopsy versus fine-needle aspiration cytology in salivary gland malignancies: A systematic review and metaanalysis",
+          "text": "",
+          "published": "2026-09-08",
+          "url": "https://doi.org/10.21053/ceo.2026-00178",
+          "org": "Samsung Electronics",
+          "category": "반도체",
+          "kind": "논문",
+          "venue": "Clinical and Experimental Otorhinolaryngology"
+        },
+        {
+          "title": "Enhancing Chiroptical Selectivity and Device Stability of Chiral Perovskite Photodetectors Via Interfacial AlF 3 Passivation",
+          "text": "",
+          "published": "2026-09-07",
+          "url": "https://doi.org/10.1002/smtd.71019",
+          "org": "Samsung Electronics",
+          "category": "반도체",
+          "kind": "논문",
+          "venue": "Small Methods"
+        },
+        {
           "title": "Nanostructured ZnMgO Charge Generation Layers for Enhanced Tandem Quantum-Dot Light-Emitting Diodes",
           "text": "",
           "published": "2026-09-05",
@@ -8105,6 +8155,26 @@
           "venue": "Knowledge-Based Systems"
         },
         {
+          "title": "Elevated remnant cholesterol levels and variability with incident mental disorders in adults with type 1 diabetes: a nationwide cohort study",
+          "text": "",
+          "published": "2026-09-01",
+          "url": "https://doi.org/10.1016/j.jpsychores.2026.112984",
+          "org": "Samsung Electronics",
+          "category": "반도체",
+          "kind": "논문",
+          "venue": "Journal of Psychosomatic Research"
+        },
+        {
+          "title": "Exposure to Ambient Air Pollutants During Early Gestation and Phenotypic Variation in Non-Syndromic Microtia",
+          "text": "",
+          "published": "2026-09-01",
+          "url": "https://doi.org/10.1016/j.bjps.2026.09.003",
+          "org": "Samsung Electronics",
+          "category": "반도체",
+          "kind": "논문",
+          "venue": "Journal of Plastic Reconstructive & Aesthetic Surgery"
+        },
+        {
           "title": "Interpreting transformer representations under positional inductive bias in learning-by-confusion for the two-dimensional Ising model",
           "text": "",
           "published": "2026-08-31",
@@ -8123,76 +8193,6 @@
           "category": "반도체",
           "kind": "논문",
           "venue": "Journal of Welding and Joining"
-        },
-        {
-          "title": "Circulating extracellular vesicle–enriched miR-144-3p and functional regulation of the mTOR pathway in multiple myeloma",
-          "text": "",
-          "published": "2026-08-30",
-          "url": "https://doi.org/10.1038/s41598-026-69238-3",
-          "org": "Samsung Electronics",
-          "category": "반도체",
-          "kind": "논문",
-          "venue": "Scientific Reports"
-        },
-        {
-          "title": "Clopidogrel or Dual Antiplatelet Therapy in High-Ischemic-Risk Patients",
-          "text": "",
-          "published": "2026-08-29",
-          "url": "https://doi.org/10.1056/nejmoa2608533",
-          "org": "Samsung Electronics",
-          "category": "반도체",
-          "kind": "논문",
-          "venue": "New England Journal of Medicine"
-        },
-        {
-          "title": "Real-time frosting detection and deep learning-based defrosting control for air-source heat pumps with optimized discharge pressure",
-          "text": "",
-          "published": "2026-08-29",
-          "url": "https://doi.org/10.1016/j.applthermaleng.2026.133010",
-          "org": "Samsung Electronics",
-          "category": "반도체",
-          "kind": "논문",
-          "venue": "Applied Thermal Engineering"
-        },
-        {
-          "title": "Variation in meningioma recurrence risk estimates across observational cohorts: the influence of calendar time, WHO classifications, geographical settings, and healthcare systems",
-          "text": "",
-          "published": "2026-08-28",
-          "url": "https://doi.org/10.1007/s11060-026-05753-7",
-          "org": "Samsung Electronics",
-          "category": "반도체",
-          "kind": "논문",
-          "venue": "Journal of Neuro-Oncology"
-        },
-        {
-          "title": "Labeling matters: A multicenter machine learning study on visual field progression in Glaucoma",
-          "text": "",
-          "published": "2026-08-28",
-          "url": "https://doi.org/10.1371/journal.pone.0357179",
-          "org": "Samsung Electronics",
-          "category": "반도체",
-          "kind": "논문",
-          "venue": "PLoS ONE"
-        },
-        {
-          "title": "Ultrasound-Guided Pharmacopuncture Targeting the Myotendinous Junction for Refractory Common Extensor Tendinopathy: A Case Series",
-          "text": "",
-          "published": "2026-08-28",
-          "url": "https://doi.org/10.3390/diagnostics16172755",
-          "org": "Samsung Electronics",
-          "category": "반도체",
-          "kind": "논문",
-          "venue": "Diagnostics"
-        },
-        {
-          "title": "Accelerated Determination of the S-N Curve for Fiber-reinforced Composites Using a Quasistatic Tri-modal Tensile Test System",
-          "text": "",
-          "published": "2026-08-27",
-          "url": "https://doi.org/10.31224/8089",
-          "org": "Samsung Electronics",
-          "category": "반도체",
-          "kind": "논문",
-          "venue": ""
         },
         {
           "title": "Rapidly resolving bilayer stacking orientation in industrially compatible MOCVD-grown MoS2 films through second harmonic generation imaging",
@@ -8695,6 +8695,16 @@
           "venue": "Zenodo (CERN European Organization for Nuclear Research)"
         },
         {
+          "title": "Category-Native Solomonoff Approximation: From Algorithmic Geometry to Kernels, Operators, and Induction",
+          "text": "",
+          "published": "2026-09-08",
+          "url": "https://doi.org/10.3390/e28091005",
+          "org": "Google DeepMind",
+          "category": "AI연구소",
+          "kind": "논문",
+          "venue": "Entropy"
+        },
+        {
           "title": "Earth Mother Geothermal Solution: Closed-loop & Mineralization Architecture for High-Acidity Volcanic Andesite Geothermal Resources",
           "text": "",
           "published": "2026-09-07",
@@ -8835,6 +8845,16 @@
           "venue": "arXiv (Cornell University)"
         },
         {
+          "title": "Extracting Anyon Statistics from Neural Network Fractional Quantum Hall States",
+          "text": "",
+          "published": "2026-07-28",
+          "url": "https://doi.org/10.1103/sb8g-qvn6",
+          "org": "Google DeepMind",
+          "category": "AI연구소",
+          "kind": "논문",
+          "venue": "PRX Intelligence"
+        },
+        {
           "title": "Extremal Chowla sets and their linear analogues: A human-AI mathematical investigation using Co-Scientist",
           "text": "",
           "published": "2026-07-25",
@@ -8925,26 +8945,6 @@
           "venue": "PLoS Biology"
         },
         {
-          "title": "Introduction to Stochastic Differential Equations for Generative Machine Learning: A Variational Perspective",
-          "text": "",
-          "published": "2026-06-30",
-          "url": "https://openalex.org/W7167154843",
-          "org": "Google DeepMind",
-          "category": "AI연구소",
-          "kind": "논문",
-          "venue": "arXiv (Cornell University)"
-        },
-        {
-          "title": "B3O: Scalable Boltzmann Batch Bayesian Optimization",
-          "text": "",
-          "published": "2026-06-29",
-          "url": "https://openalex.org/W7166901122",
-          "org": "Google DeepMind",
-          "category": "AI연구소",
-          "kind": "논문",
-          "venue": "arXiv (Cornell University)"
-        },
-        {
           "title": "Counsel: A Meta-Evaluation Dataset for Agentic Tasks",
           "text": "",
           "published": "2026-06-19",
@@ -9023,6 +9023,26 @@
           "category": "AI연구소",
           "kind": "논문",
           "venue": "arXiv (Cornell University)"
+        },
+        {
+          "title": "Predicting the status of 35 sustainable development goal indicators in Indian villages: a semi-supervised machine learning approach for precision public policy",
+          "text": "",
+          "published": "2026-09-08",
+          "url": "https://doi.org/10.1016/j.lansea.2026.100852",
+          "org": "Microsoft",
+          "category": "데이터분석",
+          "kind": "논문",
+          "venue": "The Lancet Regional Health - Southeast Asia"
+        },
+        {
+          "title": "Periodic GFN2- x TB in CP2K: Multipolar Ewald Electrostatics, k-Point Sampling, and Transferability Benchmarks for Solids",
+          "text": "",
+          "published": "2026-09-08",
+          "url": "https://doi.org/10.1021/acs.jctc.6c01034",
+          "org": "Microsoft",
+          "category": "데이터분석",
+          "kind": "논문",
+          "venue": "Journal of Chemical Theory and Computation"
         },
         {
           "title": "Optimization of Reduced Chemical Mechanisms Using Graph Theory‐Assisted Gradient Descent",
@@ -9249,26 +9269,6 @@
           "text": "",
           "published": "2026-08-15",
           "url": "https://doi.org/10.5281/zenodo.21959276",
-          "org": "Microsoft",
-          "category": "데이터분석",
-          "kind": "논문",
-          "venue": "Zenodo (CERN European Organization for Nuclear Research)"
-        },
-        {
-          "title": "FleCSI: Flexible Computational Science Infrastructure",
-          "text": "",
-          "published": "2026-08-14",
-          "url": "https://doi.org/10.21105/joss.09333",
-          "org": "Microsoft",
-          "category": "데이터분석",
-          "kind": "논문",
-          "venue": "The Journal of Open Source Software"
-        },
-        {
-          "title": "Benchmark Collapse",
-          "text": "",
-          "published": "2026-08-14",
-          "url": "https://doi.org/10.5281/zenodo.21939755",
           "org": "Microsoft",
           "category": "데이터분석",
           "kind": "논문",
@@ -9525,6 +9525,16 @@
           "venue": "Journal of Motor Learning and Development"
         },
         {
+          "title": "HRAS promotes mutant NRAS–driven transformation with codon and allele specificity",
+          "text": "",
+          "published": "2026-09-08",
+          "url": "https://doi.org/10.1126/scisignal.aej6209",
+          "org": "Leidos",
+          "category": "데이터분석",
+          "kind": "논문",
+          "venue": "Science Signaling"
+        },
+        {
           "title": "TRIM21 Neutralizes Hazara Virus Using a Dual Mechanism of Nucleoprotein Caging and Ubiquitination",
           "text": "",
           "published": "2026-09-04",
@@ -9763,16 +9773,6 @@
           "category": "데이터분석",
           "kind": "논문",
           "venue": "iScience"
-        },
-        {
-          "title": "Examining the role of extrachromosomal DNA in lung cancer",
-          "text": "",
-          "published": "2026-08-01",
-          "url": "https://doi.org/10.1093/jnci/djag273",
-          "org": "Leidos",
-          "category": "데이터분석",
-          "kind": "논문",
-          "venue": "JNCI Journal of the National Cancer Institute"
         },
         {
           "title": "Scalable single-cell isoform profiling with sequencing-by-expansion",
@@ -10195,7 +10195,7 @@
           "venue": "Journal of Statistical Computation and Simulation"
         },
         {
-          "title": "Theory Meets Practice: Worst Case Behavior of Quantile Algorithms",
+          "title": "Theory meets Practice: worst case behavior of quantile algorithms",
           "text": "",
           "published": "2021-02-18",
           "url": "https://openalex.org/W3130356934",
@@ -10635,6 +10635,16 @@
           "venue": "ACM SIGMOD Record"
         },
         {
+          "title": "Counterbalance of Ti and OH concentrations in tuning the zero thermal expansion behaviour of TiO2-SiO2 glass for use as mask substrate in EUV lithography",
+          "text": "",
+          "published": "2026-09-01",
+          "url": "https://doi.org/10.1016/j.ceramint.2026.09.135",
+          "org": "SK hynix",
+          "category": "반도체",
+          "kind": "논문",
+          "venue": "Ceramics International"
+        },
+        {
           "title": "Electroforming‐Free, Self‐Rectifying Selector‐Only Memory With Diffusive Cu‐Ion Dynamics for Logic‐In‐Memory Computing",
           "text": "",
           "published": "2026-08-25",
@@ -10873,16 +10883,6 @@
           "category": "반도체",
           "kind": "논문",
           "venue": "Materials Today Electronics"
-        },
-        {
-          "title": "CMOS-compatible ferroelectric tunnel junctions integrate stochastic sampling and deterministic computing for image generation",
-          "text": "",
-          "published": "2026-05-08",
-          "url": "https://doi.org/10.1038/s41467-026-72969-6",
-          "org": "SK hynix",
-          "category": "반도체",
-          "kind": "논문",
-          "venue": "Nature Communications"
         },
         {
           "title": "Real-world effectiveness of early nirmatrelvir/ritonavir initiation after COVID-19 diagnosis in outpatient setting against severe illness, hospitalization, death, and long COVID in N3C",
@@ -11322,7 +11322,7 @@
         {
           "query": "K-Beauty skincare",
           "title": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
-          "published": "Wed, 09 Sep 2026 16:13:27 GMT",
+          "published": "Wed, 09 Sep 2026 17:28:24 GMT",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3ZU9yYWdlM1JUZGlkem45TFVrY1Z1ZzVCZEJ2V29RX3FaZ043TG9PamFJdjBHUWxWOG1IbzktajdOZzRKLUxkZF8xaHJ4R2NMaDNDQy0yOGItRHVobEd2bk9IVmh1S2FSM0g0cEtRY0xFTFpWQUE?oc=5"
         },
         {
@@ -11333,7 +11333,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - forbes.com",
+          "title": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
           "published": "Tue, 18 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXkzOEhOM0k2RV9QV1hUbWlZSDhQZ2dGbWVZNHp6XzM3dWtvVTU5OTlJa3NROGF6R0ZjUlg0eHp5WTFUUmUzdElxSE9iX1JVTDV1cUdHeHBrVTVFLXRyTWVGWGVLWVdaOWQwMjVKSVVPbmxBRlhDOFp2cmRnd3JITUFibWR6UF8xSFo5aFlqem5hR2phaU5qdmx0SXJtdjJzZFA2ZmNFbTV0R0g0ZmNqMGYzZnI?oc=5"
         },
@@ -11369,21 +11369,21 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "19 Cult-Favorite K-Beauty Brands Just Landed at Sephora - newbeauty.com",
+          "title": "19 Cult-Favorite K-Beauty Brands Just Landed at Sephora - NewBeauty",
           "published": "Thu, 20 Aug 2026 14:30:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTVHFoN09DYWF2TW5oeEx3NWlKejVzV3lSUldROGZYaWRld3YtTWZ4Sk1YeTlUMS1fVmw4RkRYMmZETmhiRkNLX1RhczR3OHJZZGJRSmpLamUwdU85V0VqUUlJS0xTOXlu?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - Global Cosmetics News",
-          "published": "Wed, 09 Sep 2026 05:02:33 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMjY0SGdyaGU3MjdmNlUtemxuYlZaaHFwdmZsY2dDd0hTTHM1NHJvRTk3ck5TNFAxa19fa2NmaG9iMzdXVVpwWVlodGJSTmlMT1JnNUMyNTdsTnM3QjdMMGFlWFIzeEtGbjRLX0xZbjhLdkZ6N0NUUlVHVG1mYTVMcDQyU0UzUVBxa1J1QjJROThfR2gtYjlHQVpwbEU5WmxoUG9TM2RseTUzQS1u?oc=5"
         },
         {
           "query": "K-Beauty skincare",
           "title": "K-beauty’s fastest-growing products are quietly crossing over from cult status to household names - Sacramento Bee",
           "published": "Thu, 27 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aWFdHVGswUVFLUzNOYnhaRzV4RXpLSE4yUU5IcHJVa2lieDYtRjBxNkZma1NUSG9hQS1QT3ZJcHVxekFETnhNUzloR3g5UkxEQWx5QVJxY1V5emtySDRYZzNnTUl3RWVCX29nazdaRUlMYWPSAXNBVV95cUxNdjl6SVNhV25mQjFJeUZITi0tLXlnMlFPcWc0a3lxNGU2cGdldm5GRzF2Yk1HY2VrQUhsVF9zemRaeVJvUkZzSDJxQnd4cXlDWTlGSEVYM3VYUEJ5aFMweWtBREtQb3NVTUVJRmxSMTlJQXBN?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - Global Cosmetics News",
+          "published": "Wed, 09 Sep 2026 05:02:33 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMjY0SGdyaGU3MjdmNlUtemxuYlZaaHFwdmZsY2dDd0hTTHM1NHJvRTk3ck5TNFAxa19fa2NmaG9iMzdXVVpwWVlodGJSTmlMT1JnNUMyNTdsTnM3QjdMMGFlWFIzeEtGbjRLX0xZbjhLdkZ6N0NUUlVHVG1mYTVMcDQyU0UzUVBxa1J1QjJROThfR2gtYjlHQVpwbEU5WmxoUG9TM2RseTUzQS1u?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11399,7 +11399,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Move over K-beauty: K-pharmacy is Korea’s new clinical skin care trend - Cosmetics Business",
+          "title": "Move over K-beauty: K-pharmacy is Korea’s new clinical skin care trend - cosmeticsbusiness.com",
           "published": "Mon, 24 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6eFNadFFpXzZndmV6Q0VpRDN5bEFEVkN0SHl5dk5tSDlNdURXS0tpRjNhSkEwb0NBenRyak9ReG1DVVZVc1BmQzVpVlRGR0pXY3Rxa2JhWU1mZVlTNFBkMDBSU0dRazU2cDdySUUxNnVVZk4yeHl4aDVR?oc=5"
         },
@@ -11417,15 +11417,15 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Why Mikayla Nogueira Chose Skin Prep Over Skincare And Sephora For POV - forbes.com",
-          "published": "Wed, 09 Sep 2026 14:30:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTEFReVYycEt0SVlVejR4R0w1UEdoT3V1dVBpN2NXZXFYdDNqeUZLQ21HdnQ5ekVPeHFiYXFUbWM5dFpqdWs3TE8xblE3RWRaTm94el9fTjVvQkhpQnN3eloxLWVQalM1dEtOaHYtN2Y1OTJCV1k0RTFZeFVWOUd4RTFLLWt1SW1tZVlBa19WckZDUmJUeHJrVmtLemZaMkRmTVhLeXRxZjZJTzhxek5KVmYySE5BWi1QSV9hUUQzVWgzNGM?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "The Best K-Beauty Products to Buy During Amazon Prime Day - Coveteur",
           "published": "Tue, 23 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SUDVvTVRNazh4Z2tOR29pVEpzWFJ1bXFEcFJBaFBLSFNWSGNpVzljcVdDU1IxRENRWTVzUTBSUjlWczNiTHNQeWVrMU9oWEZnYU82dFZWSGVPNFZ2OTQzS1NBRQ?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "Why Mikayla Nogueira Chose Skin Prep Over Skincare And Sephora For POV - Forbes",
+          "published": "Wed, 09 Sep 2026 14:30:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTEFReVYycEt0SVlVejR4R0w1UEdoT3V1dVBpN2NXZXFYdDNqeUZLQ21HdnQ5ekVPeHFiYXFUbWM5dFpqdWs3TE8xblE3RWRaTm94el9fTjVvQkhpQnN3eloxLWVQalM1dEtOaHYtN2Y1OTJCV1k0RTFZeFVWOUd4RTFLLWt1SW1tZVlBa19WckZDUmJUeHJrVmtLemZaMkRmTVhLeXRxZjZJTzhxek5KVmYySE5BWi1QSV9hUUQzVWgzNGM?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11471,15 +11471,15 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "mixsoon Joins Target Beauty Studio, Bringing pure ingredients skincare philosophy to Target Guests Nationwide - PR Newswire",
-          "published": "Tue, 08 Sep 2026 14:14:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcVVwbEh2aWc5U0p4MU0xQmgzTUJNY1dYd3AyQ3F6TEtCR3d4Y2d3Yk5DWm90YnYtaVRmUDNSeEw2b25ySFFiejJMWm4zODJBTDNWU2tpamFHX25kRWRSOTBNSFp0VWFRLUMzdnZIdzRldXo0NVNRNEdOZE5QelpJcTUyemdQaE5XR083YUwxVDNKR3VvSm85ZFg1WEswaTRyeldXVUpLTG5iVlNvUUVmdWVPZkVnNnB3TlZScm5lb29aZThpOXJEQTZqNjZ1Z0xBMGVjVXBDUXM1Q0RhNzd0M19XeFhnZDl4SVFjRmUyTUFhZUoyc0c4?oc=5"
+          "title": "15 K-Beauty Products Allure Readers Are Obsessed With - Allure",
+          "published": "Sun, 22 Mar 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9NWTFRbW51b3I1TXotaTROUE91ZFg5QUxjbXpUZDZkdXF5bEV0RXBlbTZUbVE0OFpaV3ZGSi1SZk9neXVaOEZNckRkME1fa2NkcEJjbG1tUjlRc3ZRMkkzR2w5blk4QzA5OUdKZVJPamJRMzhWTG5n?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "15 K-Beauty Products Allure Readers Are Obsessed With - allure.com",
-          "published": "Sun, 22 Mar 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9NWTFRbW51b3I1TXotaTROUE91ZFg5QUxjbXpUZDZkdXF5bEV0RXBlbTZUbVE0OFpaV3ZGSi1SZk9neXVaOEZNckRkME1fa2NkcEJjbG1tUjlRc3ZRMkkzR2w5blk4QzA5OUdKZVJPamJRMzhWTG5n?oc=5"
+          "title": "mixsoon Joins Target Beauty Studio, Bringing pure ingredients skincare philosophy to Target Guests Nationwide - PR Newswire",
+          "published": "Tue, 08 Sep 2026 14:14:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcVVwbEh2aWc5U0p4MU0xQmgzTUJNY1dYd3AyQ3F6TEtCR3d4Y2d3Yk5DWm90YnYtaVRmUDNSeEw2b25ySFFiejJMWm4zODJBTDNWU2tpamFHX25kRWRSOTBNSFp0VWFRLUMzdnZIdzRldXo0NVNRNEdOZE5QelpJcTUyemdQaE5XR083YUwxVDNKR3VvSm85ZFg1WEswaTRyeldXVUpLTG5iVlNvUUVmdWVPZkVnNnB3TlZScm5lb29aZThpOXJEQTZqNjZ1Z0xBMGVjVXBDUXM1Q0RhNzd0M19XeFhnZDl4SVFjRmUyTUFhZUoyc0c4?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11501,27 +11501,9 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
-          "published": "Wed, 02 Sep 2026 22:02:21 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "Olive Young’s K-Beauty Edit Finally Hit Sephora: These Finds Are Worth It - E! News",
           "published": "Thu, 20 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQXhuQ0QxazlaeHhHQjRuaDJzZE9pT1pfdjNvUHFqTllKeEg2Wm4zV3BUWGdScGU4OG9JYTRaYVRHMkcxbG52ZjFIbEdNWEM0RDNQNEl3SFNWUVNWb3VmN2wzZzNuRXhicVJ1YkUwSF8tUXItRXNWZkllZXJsTGhldDVIM0lvbjFHT3VwVHFBQXVXRW4xdnN2NUxUbUpGYzJxTmFZRDdFb0xjQQ?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "Human Skin Is the Newest Ingredient in the K-Beauty Boom - Bloomberg.com",
-          "published": "Fri, 17 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYkxGbEZDNEpITy1jaE1GcWU3R3U3UUZTMTNYVGRVU2JQeWkwTGdTSVdqNkhYbVpLTXptU1VCRlBDbWVPbEZDRDl0ZlhoNktoYi1OTWNhMG9Va2hwMjRleERjMlBHZ3FPY2xSZnZLZFRvV1ZZV19KOGhTSG1xSmxpWkQxSDZpcHlzWWVOQ2dOLTBCVi1zX3JOOHRXN1ltVFpYTDVpZE1WdER5ckVwVXc?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "K-Beauty’s Rise in the US: Ingredients, Philosophy and The Shift to Layered Skincare - Happi | Household And Personal Products Industry",
-          "published": "Mon, 01 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM0JmYVZvV2tEM2FtaldydnNlN0tCUWc3TkVmYkdfV09YY2ItcU5mdERNVEQzamUtWmZOeGhkcFpWT25LNXV6NVlqTjlsbHlVQ0NrdDNJYktWTmg2ZVVsMHhlZWpua3ZPR0RlVFRoR0kxQ3VuWU9relg5YUZPZU0wUUVaaVFpTzNnbnFURkVleWNhTEpST3NYYnVFZkQtVGM1OG5ZWERpdmxVN3RVSV94dUs0ZFFpQQ?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11531,9 +11513,27 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "News - Glow Up: K-Beauty Launches at Select PXs and BXs - DVIDS",
-          "published": "Tue, 25 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORTBtX2VGWFJSTWRjdWQ5anhfY3pEcUpfMngweUdXbFduTjRqZ00tV0RNWS1pb2ltOWhRZy11U0o3LUtqSXZkeE12Z3Zwb0M3alh5UkZES1U4ZXJ1bURLa1pqV0psQWVDcVVndE1HY1FJSE9KeTZPT2l2YjVOdGh1NGs3bGJmOEtS?oc=5"
+          "title": "Human Skin Is the Newest Ingredient in the K-Beauty Boom - Bloomberg",
+          "published": "Fri, 17 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYkxGbEZDNEpITy1jaE1GcWU3R3U3UUZTMTNYVGRVU2JQeWkwTGdTSVdqNkhYbVpLTXptU1VCRlBDbWVPbEZDRDl0ZlhoNktoYi1OTWNhMG9Va2hwMjRleERjMlBHZ3FPY2xSZnZLZFRvV1ZZV19KOGhTSG1xSmxpWkQxSDZpcHlzWWVOQ2dOLTBCVi1zX3JOOHRXN1ltVFpYTDVpZE1WdER5ckVwVXc?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
+          "published": "Wed, 02 Sep 2026 22:02:21 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "K-Beauty’s Rise in the US: Ingredients, Philosophy and The Shift to Layered Skincare - Happi | Household And Personal Products Industry",
+          "published": "Mon, 01 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM0JmYVZvV2tEM2FtaldydnNlN0tCUWc3TkVmYkdfV09YY2ItcU5mdERNVEQzamUtWmZOeGhkcFpWT25LNXV6NVlqTjlsbHlVQ0NrdDNJYktWTmg2ZVVsMHhlZWpua3ZPR0RlVFRoR0kxQ3VuWU9relg5YUZPZU0wUUVaaVFpTzNnbnFURkVleWNhTEpST3NYYnVFZkQtVGM1OG5ZWERpdmxVN3RVSV94dUs0ZFFpQQ?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "The Best of K-Beauty: Shop Medicube, Innisfree and More Award-Winning Picks - today.com",
+          "published": "Tue, 21 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5pRWtfNmxFQ01KczlrR1JyaTBXNEFXVENmcU1kbnZGXzBNalU3MDd6R1FTMk5td25WaWd4RlBvcjFIcklOWnVoUGhiZ2l0dFg3WFd0blZ2cjJubGxTMWtFYm9rNlF2VXg5RExMeFZEdFpRUmg2LUl5WW9n?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11543,13 +11543,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "The Best of K-Beauty: Shop Medicube, Innisfree and More Award-Winning Picks - TODAY.com",
-          "published": "Tue, 21 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5pRWtfNmxFQ01KczlrR1JyaTBXNEFXVENmcU1kbnZGXzBNalU3MDd6R1FTMk5td25WaWd4RlBvcjFIcklOWnVoUGhiZ2l0dFg3WFd0blZ2cjJubGxTMWtFYm9rNlF2VXg5RExMeFZEdFpRUmg2LUl5WW9n?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "The Clock Is Ticking on These K-Beauty Prime Day Deals - allure.com",
+          "title": "The Clock Is Ticking on These K-Beauty Prime Day Deals - Allure",
           "published": "Fri, 26 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSHIwZEVqNlV1N0paengwM2Znc3dlNk1nX1FSb2RuRmNaQlFOajZpdDdJSVQ2Wmc0SWp4TTNUZ3FpY1ZKQkhtckZmVUtBT1RoQlZRRHFxOC13MXJVQXlsbFZzVC1rZWhqMWNWanQ3TUJCSGtZa2p0eHh3a0FBVVJMckJ6dDAyTzFB?oc=5"
         },
@@ -11573,27 +11567,21 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K-Beauty Experts Say These Trends Are Replacing the 10-Step Routine - newbeauty.com",
-          "published": "Fri, 04 Sep 2026 18:15:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SQmU2eVFfdGs0bFZmTDdEc1l0YW9pSkV3S0NjcXJHUkVhRmFXcXh4SnBKUHJmZC1hOG82N2FpVmwxQ2V0NGVKWTAxSnJMd21hdlJzd3VFdC1HWXBrTmpTd0k0ZjQxZXRZOXV2WEZRWQ?oc=5"
+          "title": "Cosmetics Business reveals the top 5 K-beauty trends of 2026 in new report - cosmeticsbusiness.com",
+          "published": "Tue, 04 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ2dNaGRXSUVOa1doWFc4eHo5OVUtZ091ZjNnWFEwbUc1YUdpMURUdXJVZkdpVlg5azZhb1QxWHZyT1JDQ190OVg1eFFUb3RBS0ZTSGJmc0tfdm92MEZTelg5SXVwRjViRmNqT2IzQkdkTzlYcmh5dUhRZjZoa2pxVzEwNA?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Move over, snail mucin: COSRX has a $14 PDRN face mask thousands are buying - nypost.com",
+          "title": "Move over, snail mucin: COSRX has a $14 PDRN face mask thousands are buying - New York Post",
           "published": "Tue, 08 Sep 2026 12:54:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbGs2eXllX0pHUzVteGw1TG10Y0dLVlFEdWhCX3doTWJzV25MTVZEbXBvUzhtZTktMUVhU21FRW5ucXQzeXJycExyTWxMNzZyV2M3cVdOTllsR2k0ZlhoUkhkV2Q2aVJfQUxPS2RkU2doSHJQVkNMNFROcHpBOGx1VnBZN2NRVkFsc25R?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Viral-to-Retail K-Beauty: nooni Brings Its Viral Lip Oil to Target in Eight Shades - Trend Hunter",
-          "published": "Wed, 09 Sep 2026 04:41:48 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TU2k5bU9DMWFraFREU29nU1o0ZnlVQ201YjVsTW56TkhvZlBMRUtEWVczd1Y0R2MwQXk4NkliSTZQOVpqT19lYl9GYllvM3VsNmtvNW42Yy1ZTzREUXJ4WVhNRzJjTFk?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "Cosmetics Business reveals the top 5 K-beauty trends of 2026 in new report - Cosmetics Business",
-          "published": "Tue, 04 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ2dNaGRXSUVOa1doWFc4eHo5OVUtZ091ZjNnWFEwbUc1YUdpMURUdXJVZkdpVlg5azZhb1QxWHZyT1JDQ190OVg1eFFUb3RBS0ZTSGJmc0tfdm92MEZTelg5SXVwRjViRmNqT2IzQkdkTzlYcmh5dUhRZjZoa2pxVzEwNA?oc=5"
+          "title": "K-Beauty Experts Say These Trends Are Replacing the 10-Step Routine - NewBeauty",
+          "published": "Fri, 04 Sep 2026 18:15:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SQmU2eVFfdGs0bFZmTDdEc1l0YW9pSkV3S0NjcXJHUkVhRmFXcXh4SnBKUHJmZC1hOG82N2FpVmwxQ2V0NGVKWTAxSnJMd21hdlJzd3VFdC1HWXBrTmpTd0k0ZjQxZXRZOXV2WEZRWQ?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11627,19 +11615,25 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - womanandhome.com",
-          "published": "Tue, 25 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVEFxUTExeGlubm5Ic3F4c0dzMWVTVHNSOW1EWXpQTWMzbG8ybnEyRFEtaUFMVkMwVEtIWGpaT0pHY3BxRUx6WnBKS1k4blNvSHRQX2xkb1MybzFtXzc1dzVrekpJclZ6SHJZUnFQM0ZHMngtTG9iZGlJMmNfQlB5ckdQdTA?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "Korean beauty products are becoming mainstream in the U.S. Why there may be even more growth ahead - CNBC",
           "published": "Sat, 18 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaEFkcWhMdDdlUnJBelpLRUU4QmtlNXNXR2dSTGdZT3RGdmtEWng5TlpEbVVhSjJhSlhFdlp0dlpvTkNla25yNDdmMVFCMDNCQnNFMFFzR3RhX2t4dVYtd1hhQ19OZDhLeE43bldyS3I3cmRNS3NFZm1RdUxzTXdxWG5Za3RueVZpbWJFcU1mZ1NPV3phTUxEX9IBngFBVV95cUxQOEtvb2dRRmNqNFFwc2QyZ1JfNTRpT0JRVldMRm5pY3hOT3o3ZHlrVHZTbmYwQ0M5bDJfNW5kb0k4dFZYRC0wX1dfODdDc1FFQWc5cl9JN0lKaXFNd0J5T3RwWi1wZGFmemtqajcxYzFVYWN2eXJoOW1teDRCVkZjcVdGeE5vRTFCUmpOZUxBRDM3bnNPNUU3elU0VmhmZw?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K- Beauty: Trends Into Essentials - Cosmetics Business",
+          "title": "This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - Woman & Home",
+          "published": "Tue, 25 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVEFxUTExeGlubm5Ic3F4c0dzMWVTVHNSOW1EWXpQTWMzbG8ybnEyRFEtaUFMVkMwVEtIWGpaT0pHY3BxRUx6WnBKS1k4blNvSHRQX2xkb1MybzFtXzc1dzVrekpJclZ6SHJZUnFQM0ZHMngtTG9iZGlJMmNfQlB5ckdQdTA?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "Viral-to-Retail K-Beauty: nooni Brings Its Viral Lip Oil to Target in Eight Shades - Trend Hunter",
+          "published": "Wed, 09 Sep 2026 04:41:48 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TU2k5bU9DMWFraFREU29nU1o0ZnlVQ201YjVsTW56TkhvZlBMRUtEWVczd1Y0R2MwQXk4NkliSTZQOVpqT19lYl9GYllvM3VsNmtvNW42Yy1ZTzREUXJ4WVhNRzJjTFk?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "K- Beauty: Trends Into Essentials - cosmeticsbusiness.com",
           "published": "Wed, 29 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oTjlHSVU4ZDNwM3ZENjdIbmNBaFpfeUZJRkQ3NHpFdnUtT2JIdDBFLXA0Z1VmNENtcEd3VjZoVVo3V1NWUkxiLWdTT2pHemhoY3JiTEZvU0V1SVZabmFPcGV2RXltQ0U1c2hJSmVR?oc=5"
         },
@@ -11657,7 +11651,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Olive Young Is Now At Sephora—Shop These K-Beauty Favorites First - forbes.com",
+          "title": "Olive Young Is Now At Sephora—Shop These K-Beauty Favorites First - Forbes",
           "published": "Thu, 20 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWWlnak4xOTY3RFk5dGxpcC1oQXpJdVdMejJ2ZEEyaTI4dGlMcEpNM0V0bVlJS295Zkg5ZUVjMGowWWhGd3RGd2lPajl6bWRsUVpIYklsUVlzV3BTcGVFVk9uZDI3OEwwNkNDcFpKSVlpRDJUMUNQZzdtV1EwendxSkU3UnR2ZUMzOWRaZzg5UVk0Q2hVX2c?oc=5"
         },
@@ -11675,9 +11669,15 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "PURESEOUL Launches K-Beauty Mini Mart at Primark - TheIndustry.beauty",
-          "published": "Fri, 04 Sep 2026 16:15:31 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeTVMZGFVT2VuRUZlNG5nWU02SGExVWxmQUwyWEYtMnhaYUVjSUotWFQzemRrQVUyMTY1Y2FoYjhISzVuSWVnOHNwTVpOMTRlQ0hycXZYX29kcTg5TGtXOTdIbDVwaFlVaURpR2x5S2hsOEctanBOWVJMQ3htZ21Fb1NVWnNZVDVqcTN2d19Qb3NELU5QX2t3TFZwQVVubllyb3cxSF9ldTU3dw?oc=5"
+          "title": "The Rise of K-Beauty and the Economic Implications for South Korea - Korea Economic Institute of America -",
+          "published": "Mon, 12 Jan 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSjVaaEZTNjItYjRGamR5Y1dvOWc4TlFycGo1MDBnMjZHY25RYkRLcU04M2tXdUE4bU90aVZROHZjNnFFTG9NLWROVFcyamtKOW0yVnozS2FYaHFMWV9WS2FQRTQ1MlpVb180QThfTmw2MmV0T3RrM0RDMUg3Qkl1MHh0SmRaT1J3YXJsMU9lX1pGLVZUT3ZKMQ?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "Target launches Beauty Studio with K-beauty and premium skin care focus. - Personal Care Insights",
+          "published": "Thu, 27 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Jb2hGbEh0dHE2ME9CaXV3eFNqVEdYR2hJaU5zWnIyal9IakpwdjNPNlgyVzlHTlo2aFJfYkxLbVlIYWhtT3FfR3AzTURkUmVQc3A5R29FNEtLLTdVWVdzd0FRV1N5c0lWVzVfTUczRi1kc1gyU2U1VU03ZHl0Zk0?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11690,12 +11690,6 @@
           "title": "5 Korean Beauty Brands You Need To Add To Cart Now - graziamagazine.com",
           "published": "Mon, 08 Jun 2026 06:44:01 GMT",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zSlhmaFRsaUttRUVOYjBqbFhiR3hNODVqOGxvUjd3REw5ZExOUnZ0cDV0UVFYMkx2bTk1MFJzM1FQbHBYMndubUFhazRuRGxfOGtRSEtDRmNVdUVlZkg4NVZmUUtjakhYOERRdlFmWUsta2FycEdRdFZ3?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "The Rise of K-Beauty and the Economic Implications for South Korea - Korea Economic Institute of America -",
-          "published": "Mon, 12 Jan 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSjVaaEZTNjItYjRGamR5Y1dvOWc4TlFycGo1MDBnMjZHY25RYkRLcU04M2tXdUE4bU90aVZROHZjNnFFTG9NLWROVFcyamtKOW0yVnozS2FYaHFMWV9WS2FQRTQ1MlpVb180QThfTmw2MmV0T3RrM0RDMUg3Qkl1MHh0SmRaT1J3YXJsMU9lX1pGLVZUT3ZKMQ?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11723,7 +11717,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K-Beauty Craze Lands Founder Of Skincare Device Firm In Ranks Of South Korea’s Richest - forbes.com",
+          "title": "K-Beauty Craze Lands Founder Of Skincare Device Firm In Ranks Of South Korea’s Richest - Forbes",
           "published": "Mon, 13 Apr 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWlRtNlZWcW9rMlpwM1o0VjVuT3VVRWJ4Y2hpYkJTdHFHUzFwWTNjUmZrY0cxX2Y5N043WHRHamh0MFY2Q3QtRUZVM3BsaG15b1oyMnF5M0xFZkRvcEJ6aF9YN0d3MTFxVUJtUDFTVVRteWdRdWlIb0tSTGdROWs2cXh4a2JzZTR3Zy0zdHVjUHM3cFI4ZWNfMTVyOE9TeThWOTJ1ak5PeGJ2LWd4VTZsbWNYTnUtbms4N1E2RFRiWTRYMDE4OHZMOHFwbXRzMDAy?oc=5"
         },
@@ -11741,15 +11735,15 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "CosRx Is the First K-Beauty Patron of the British Beauty Council - Beauty Packaging",
-          "published": "Mon, 24 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVE5XYUEyc1Ayam4wbmUzamRLMDFHLWV3cEJuYjFtOGxaSkJkaEZMQ0VBVmlic3NhQ3VuckFnejByOVV2MzJVZm9KY0ZZX0NmNm9UU2tmcUoxVGNQREk2dHNJWVptaGJLUHdaMllqLWZoUlVpeEFPTWhYQ1NSWDlHWmlqcXhBWHNHM19pQVJUcUZob01DUWNTSTRvZHlIZnI3Q243eGNDOG9vQjBHbjgyaQ?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "Human Skin Is the Newest Ingredient in K-Beauty - The Business of Fashion",
           "published": "Mon, 20 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdjRtVEFBdkhkT0Q4TXZPQzRaeDBHYTNLLXZyLV9QMC02eERQSTBBM3FIbWQwX0N3YmQtUEdNUXZ0aktUYXN0VC1aR280U2lOS0FURVJZaVFZS3hUcVZZd2dGalZLVlc4S1A5amxuUmNXNlJsMkpXdUgtRXFHemlydENNOE55SEdNcnBvZnZXUDZvaVY3clk0?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "CosRx Is the First K-Beauty Patron of the British Beauty Council - Beauty Packaging",
+          "published": "Mon, 24 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVE5XYUEyc1Ayam4wbmUzamRLMDFHLWV3cEJuYjFtOGxaSkJkaEZMQ0VBVmlic3NhQ3VuckFnejByOVV2MzJVZm9KY0ZZX0NmNm9UU2tmcUoxVGNQREk2dHNJWVptaGJLUHdaMllqLWZoUlVpeEFPTWhYQ1NSWDlHWmlqcXhBWHNHM19pQVJUcUZob01DUWNTSTRvZHlIZnI3Q243eGNDOG9vQjBHbjgyaQ?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11777,7 +11771,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "The Korean Skin-Care Brands You Need to Know Right Now - allure.com",
+          "title": "The Korean Skin-Care Brands You Need to Know Right Now - Allure",
           "published": "Sat, 21 Mar 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IU3BOQlAtbDNIMHYxV3V5ZktzQ3ExZ3JLdmtGNDdCaDdfMVJyWFNVYnptWkFWMUZlWV9obmkyendHcEtfZ2VoYzhfTjFTQWV5TlE0SFN3QWxqcUtxLTNqQXFsYkpESTJJ?oc=5"
         },
@@ -11789,39 +11783,21 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "14 Impressive Korean Skincare Products to Shop During Amazon Prime Day - Who What Wear",
-          "published": "Fri, 26 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTWNoSUdnbGpBeDNSVm5XdTM5YndVbWNjanI5czRIS2VQbm9DMUFoQVptczE3VWlfSEliOS1LdjYwNkVMa042bTU0UWQzYUNFZ081c2c5LVJXRkdZT2JzOVczWVRVTU8yNnBiOVAxdzJCS3F5d3BqRUp5MlllU2ZnN3JqZzBIMmlIR1lJallQWG9YU1hfOHhocw?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "The Best K-Beauty Brands On Amazon Right Now, According To Editors - Refinery29",
-          "published": "Wed, 10 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ROXJfckFVdVh4TzdUV24zdzRXcXljMlRLYWlqcnNvcjFQeDdnRVRsX0hCdmx5ZXo3dFp1bVZFbDJLMUttanplREFNeHdHTWc4UUVfTnJKU3RkZGhJNXZxNGxjWThneWxoXzBKbjlDcGYwX0FKQWYyTk1laVlkY3M?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "Your glass skin routine just got cheaper – these K-beauty faves from Laneige, Round Lab and more are up to 30% off - NBC News",
           "published": "Mon, 17 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRUxpNG1yU21xcUw3eTYycF9ZTHlBODRmaU9tb3E4NnBDU3o3cXNkbUdEM3lFV2JBS3NaSUNWWUQ3LTBIdVB4RXJYdHZTYXdwSUNUQXU4OGxWbGpTZUQtbVpXX0t3eG9BU1lOQWNJY25JelFGLWJUTXpmck1oQURuNXlhenptX2ZDYjlnRHp1V09LeTlQSUo0eVA5THJEQkVGRzJ3?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Olive Young is bringing its K-beauty festival to the US for the first time - Cosmetics Business",
+          "title": "14 Impressive Korean Skincare Products to Shop During Amazon Prime Day - Who What Wear",
+          "published": "Fri, 26 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTWNoSUdnbGpBeDNSVm5XdTM5YndVbWNjanI5czRIS2VQbm9DMUFoQVptczE3VWlfSEliOS1LdjYwNkVMa042bTU0UWQzYUNFZ081c2c5LVJXRkdZT2JzOVczWVRVTU8yNnBiOVAxdzJCS3F5d3BqRUp5MlllU2ZnN3JqZzBIMmlIR1lJallQWG9YU1hfOHhocw?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "Olive Young is bringing its K-beauty festival to the US for the first time - cosmeticsbusiness.com",
           "published": "Thu, 02 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVVJLU2dJSXdWM1dIemFvemR6VWdWSHVTOGxXMVdBS2cwbjRaN0p4Wmh1TEdkNkJDSWFmRzV4eUoxTGRpZWRoTUJMZHh4RWhLNExlRl9Lak5OY3dkOTJ2QWtDUXVZYkU0bUpLMFF6ck1aNUdGRHpuX0xBbHB0ZUdsMHRKM3JIN3ZYTlE?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "K-beauty’s China retreat boosts Amorepacific and LG H&H profits - Personal Care Insights",
-          "published": "Mon, 10 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzY1ljc2xfa0RodHNDaHBNOEdETkJzTmQzaG9TUXZtSEpQaG9xU3dNdDNVazBXX091eWhWYktCUTRKUHRMTEwzMTZZYk5Bb09hS0ZObVByUXAwdEs4ZGVWLURoVjlFQU1uZEpBSnZRVHI4ZG40WTNJ?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "15 Editor-Loved K-Beauty Products on Major Prime Day Sale - Yahoo",
-          "published": "Tue, 23 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRFhmQ0ZWcS1QS2pzRkJyWW03a2VnWklmb3pVQ3RjVUpWeElac0JGb3dZSWkyb0ZQMldHQnJ5bzZtbDdDMUoxbzJKRWgwOWtKekhibDcyZHNJTWVuNVVXZVhKQS1CQ0tZVEJyTGE2NVNBUGZFMDA2TEI1b1VsNDY0c29zbzNlR0V4LURXbFdDNEd1dGZ4ckE?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11831,7 +11807,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "The Korean Beauty Giant Coming for America’s Dollars - wsj.com",
+          "title": "The Korean Beauty Giant Coming for America’s Dollars - WSJ",
           "published": "Thu, 28 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS3ZMaXU3eXVhN0s5dV9yNmNrU3l3THlQeVJWLXFBUWdCNDR3MjNpOVN4QUxUVmRpRE15enlXTTZQS3o1blhZTVlZT3RESTFtX2RDNldEd0VTNHpXdVhXV2J1SGwyX1NvUDZnVERzRldrR19JUTM3UU4ybWFKbEQtbnRWQlN3U1hkME5mT3ZSeEc4Zw?oc=5"
         },
@@ -11843,13 +11819,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "How K-Beauty And J-Beauty Differ—And Why Experts Trust Them - forbes.com",
-          "published": "Tue, 27 Jan 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc1g1S1p6TUZyVTRUMjRYcE5aZWZ6R2VGYS1KczZzbXhFaGV3MHgtMTVQSS03MTlRMGZBTTItR3NjT1BCeEpkSXY3UVplem5sbVVBSG9mWmpUXzVHV1QxN0lyUXBlMGpVcV9Pb0N6a2VJNUdYZVJXeHQ1cTRPMEpaN1VEb2xTOVA4RExVdkMyZVlpU1ppWTVBWTVNU0szTS0xOTdfcDlSdDJTNGNsbDRLVUZuM0I?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "A beauty reporter’s guide to the best Korean beauty on Amazon, starting at $18 - nypost.com",
+          "title": "A beauty reporter’s guide to the best Korean beauty on Amazon, starting at $18 - New York Post",
           "published": "Fri, 12 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPR3lxNWgxbmc2dG5CcmFZSjJTVFJuMXhNSmwxUzNXUUx4RTN5WHBwTkpZQ2labGJ1WFhCU2tSVncxSWVKbXlMUGhaeHd2S3c1UlBaQkhILVBvalRuTUdnVHNIT3k5WmJlZlJiVVdYdDlTZkNEWEhmSFBQSVgzRHFJWXBEZlNNRkdTWnk1c1QxdUgzNWRPNUdMWWtDUVpCenVUenZMZ3NB?oc=5"
         },
@@ -11867,13 +11837,19 @@
         },
         {
           "query": "K-Beauty skincare",
+          "title": "How K-Beauty And J-Beauty Differ—And Why Experts Trust Them - Forbes",
+          "published": "Tue, 27 Jan 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc1g1S1p6TUZyVTRUMjRYcE5aZWZ6R2VGYS1KczZzbXhFaGV3MHgtMTVQSS03MTlRMGZBTTItR3NjT1BCeEpkSXY3UVplem5sbVVBSG9mWmpUXzVHV1QxN0lyUXBlMGpVcV9Pb0N6a2VJNUdYZVJXeHQ1cTRPMEpaN1VEb2xTOVA4RExVdkMyZVlpU1ppWTVBWTVNU0szTS0xOTdfcDlSdDJTNGNsbDRLVUZuM0I?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
           "title": "All of Hudson Williams’s Favorite K-Beauty Products Are on Sale (and More) - The Cut",
           "published": "Wed, 24 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTXUzeDRrTWM1T3BHM01jQ0xjcEVjT05jMWlIbzJpNWtzVTBWSUFrUklzdVl6aVE1X2xKdnVsMDFSck9rckdvdHBSdHZIa2R2TzVleGI5QjZMcGtNQ2ZVaUtQNWRCa2xHUXo4b0lwRE92Z2Y0UXhiUjRsSnVBQTZjYkMxSEdFZw?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - Premium Beauty News",
+          "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - premiumbeautynews.com",
           "published": "Sat, 06 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5"
         },
@@ -11891,9 +11867,9 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Korean Makeup Is the New Frontier of K-Beauty - allure.com",
-          "published": "Thu, 19 Mar 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNMVRORG9IeVUzU0g5ck1tdjVMeEc5U0V0a29yTThVTmRock0wM2NzbEJRZUc4T1gxbEZBRXhsWXZiZTByS1dIZEhxa2c0dVREWUcxRXQtaXVjRXc?oc=5"
+          "title": "The Best K-Beauty Brands On Amazon Right Now, According To R29 Editors - Refinery29",
+          "published": "Wed, 10 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ROXJfckFVdVh4TzdUV24zdzRXcXljMlRLYWlqcnNvcjFQeDdnRVRsX0hCdmx5ZXo3dFp1bVZFbDJLMUttanplREFNeHdHTWc4UUVfTnJKU3RkZGhJNXZxNGxjWThneWxoXzBKbjlDcGYwX0FKQWYyTk1laVlkY3M?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -11909,27 +11885,51 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "News | Retailer Olive Young's expansion mirrors K-beauty demand in US - costar.com",
-          "published": "Tue, 23 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYl9HLWJXV2V5bk53Sks2R1kyM3RGbF9jX1kxWURHY2ZvMmlJTTVaNlo3YWhORnlsWV9hMGJ2QmxVMEtZVjFienR1cDR5SWw0VjRjWmwzeGZURGxWYktHcEk5ZmhnSm1YektIbUNqYnVrejQ2ZUhUeWxERmlxODVKczVGdkRkTE0xSUM2bmNrNjh1MFRlMUVmV2VEb0wxZ0daM3Z0b1lB?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "26 Korean Skincare Products So Effective, It’s No Wonder They Went Viral On TikTok - HuffPost",
           "published": "Sun, 12 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMVVIVlZkSzlDX2hFQVNRR0V4eHhjaFZRenFEdW5xQkczaEN0ejRGYWhHa3FJM181Wkg1cWNPNTdHUGU2ZHNLQ3V2d3dIUXBCY3FoMVBhYVByQ0V2M2plMG9GUmNNY1dUTEQydWNYZDN5UVhQOFc0bUFKWXdBVE5pZEEySjRQbkk2VnIzcHA2UG9zbERDb0kw0gGcAUFVX3lxTE1MSmhCbWY4Ykl4OHpUUnU1WjN5RWFLRGFpMDVIZVFvNE1hcTNaenhaT1BVTC0yNmdjckZCM1VhZU5ZTDZUZHlXbmhOc0FyYjdEVXhtZWZtSFlQUC04R2NVOURxU0JQenQ4UHdWbUh1OFZCRml0ZVRwOElOYzRnZVdlSUpOQTUzR0hrZ1lNMXp1cE9xVUZqZURBa3kzcw?oc=5"
         },
         {
-          "query": "Shopify ecommerce AI",
-          "title": "How Generative AI Is Reshaping Ecommerce Search and Product Discovery - technology.org",
-          "published": "Wed, 09 Sep 2026 09:51:37 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTlhickxjakJSeHNMZWVRLXlrcjhaRzdaM3lEV183eTZVM1EwZEQ1SjR3VFlwNkdvOVZ0TVdfa192cERxRWF0dFVKN2FRb0N0aFNHblo0OERET0RMTnFmdURUcC1vY18wNTRFdFlCZUhQQjA0MlFobEkyeDFKYkpHV25abmlhS2o5OXd4S0NvUkRienRHVHV4eFhJX3NGa2NVUjdOTDJ0VjdxcGFu?oc=5"
+          "query": "K-Beauty skincare",
+          "title": "News | Retailer Olive Young's expansion mirrors K-beauty demand in US - CoStar",
+          "published": "Tue, 23 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYl9HLWJXV2V5bk53Sks2R1kyM3RGbF9jX1kxWURHY2ZvMmlJTTVaNlo3YWhORnlsWV9hMGJ2QmxVMEtZVjFienR1cDR5SWw0VjRjWmwzeGZURGxWYktHcEk5ZmhnSm1YektIbUNqYnVrejQ2ZUhUeWxERmlxODVKczVGdkRkTE0xSUM2bmNrNjh1MFRlMUVmV2VEb0wxZ0daM3Z0b1lB?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "15 Editor-Loved K-Beauty Products on Major Prime Day Sale - Harper's BAZAAR",
+          "published": "Tue, 23 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOGhJcjFob1ZlZEc5LUNvaFlqbXBvVzZkVV84NmJ6SS1UMnhSRHBNYkVkVkRFbEt5SEhTenQteFY0M1hpSWZkRGpyWHpRV3FLWjg4T0x6NjlIa2Vrdnl6SzVkTDAzWm1EeE5UYXA0VF9ZY29pTG9DZ2tHb1M2YW1namJudGhmLWd5cnNReW9pajJMbUxzSTdz?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "Olive Young to host experiential K-beauty festival - drugstorenews.com",
+          "published": "Mon, 06 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1lY1EzN0xIaV8tdDRSYXVXYnVhLWxiVlF6LWhJamo2blNzRlVWTkc5eHB3OXlLSmtjSGpaMURtNlpwZkVIVlU3eE1WRkpBSkgweEoyZ1lKa0kwLXVYM21qLUM1OXY0YjNsa3BwTG4tcU1ySlRyN0s2bGtwUUhZQQ?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "Why the K-Beauty Approach to Treating Fine Lines & Wrinkles Is So Effective - Allure",
+          "published": "Wed, 25 Mar 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jc2w2a1FMbHgxMWV1NXZNcFpwc1JUOWRwTlBRWHNBWkl4RlZ3TXVPWm5namw2dkdnbEEyOVRkN09QZnFUanMyZ0V4NTRTZy1nSEtHZVpwaGZFRmZkaVoxcWlKZXZmOUdWV1pXY2tYcVprSEpD?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "7 K-Beauty Trends Shaping 2026 - Vogue",
+          "published": "Fri, 16 Jan 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5aSW9GVV9hWUZyZWp2eVowQm1HT3BJcVVWUjRTWk9yYkJJZmNjQTdpeWhhYllUalZ5aEZMTVNzdnRpMDJubFV3RHpXclFrQUtxRXBGWjBkRmxVa0NsYllV?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
           "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - Shopify",
           "published": "Fri, 04 Sep 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Fb3JFd2Rkb0RHMUZ5YXpmb0pDS2Q1cVhFdmRQbHJ0OHBLcnU0Qm5ZeXdmbGFHdDZOaTdKSUJTTHdPb2VOV2FjOTk1WXduVlJyWjFkbTBjYw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1NSTR6RXEtWU80RVVGR2xRNGc4OGYyR0pzUzR1OXV4Y2pnVERwTFBjZHQzenF6WEtaSV9mUzNwcFZJNnVpYkUzLU5nN0Z2WFpzY1FmR0hRYw?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "How Generative AI Is Reshaping Ecommerce Search and Product Discovery - Technology Org",
+          "published": "Wed, 09 Sep 2026 09:51:37 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTlhickxjakJSeHNMZWVRLXlrcjhaRzdaM3lEV183eTZVM1EwZEQ1SjR3VFlwNkdvOVZ0TVdfa192cERxRWF0dFVKN2FRb0N0aFNHblo0OERET0RMTnFmdURUcC1vY18wNTRFdFlCZUhQQjA0MlFobEkyeDFKYkpHV25abmlhS2o5OXd4S0NvUkRienRHVHV4eFhJX3NGa2NVUjdOTDJ0VjdxcGFu?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -11957,15 +11957,15 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Generative AI Use Cases: 20 Ecommerce Examples (2026) - Shopify",
-          "published": "Sun, 07 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WM1lfaXJ0Wkg0SEtjZzVBbTZDM3NSMUNiczVqaWNkSDBSSy1sX3pJODJ1UlRBRVcxNUJTejVFSWgyRDJndnRZOXM5NVZQdGE1dmNHMVdCMU0zeEpOdDZDRkdvVWlIRGNfN09Na3JXcEc?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
           "title": "Shopify (SHOP): Evolution from E-Commerce Platform to AI Operating System - Yahoo Finance",
           "published": "Mon, 03 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUUQydWxwR2xWR1E2VXlHODRzQXZESS02TWVRYzF4S2tSYy1vVVlKUV96SjFCMElleU9yQXRjYU55bmZlWUtOanBtSVNnenR0cEpoSXh5Ui1vSHVoZmNwNUMtb2ZqelJzZ2JPNl9naksyaHhPS3k4cTVrTGZiMUlfS2RWMmR2bm1UZEh0ODIwSVdCdUR4d2dGU1RKR1RYckE?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Generative AI Use Cases: 20 Ecommerce Examples (2026) - Shopify",
+          "published": "Sun, 07 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WM1lfaXJ0Wkg0SEtjZzVBbTZDM3NSMUNiczVqaWNkSDBSSy1sX3pJODJ1UlRBRVcxNUJTejVFSWgyRDJndnRZOXM5NVZQdGE1dmNHMVdCMU0zeEpOdDZDRkdvVWlIRGNfN09Na3JXcEc?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12065,7 +12065,7 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Meta’s AI Push Threatens Shopify’s Core Business, Analyst Warns - Barron's",
+          "title": "Meta’s AI Push Threatens Shopify’s Core Business, Analyst Warns - barrons.com",
           "published": "Tue, 21 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51cG82LVRNMFBMdlM3dEoxb1hxY2JUM1hfTHZudERyZmpaeHgxLXV4SGFBaXBkTzdCc0t3R3RpQ2RScGl6MkdDdzh5UU9vRF9ndFhHMXFpdldBZ1dVdG4wdE13QThuM2NNLUhIbUZRNVQ?oc=5"
         },
@@ -12107,9 +12107,15 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Your Search Results Are Getting Sloptimized - The Atlantic",
+          "title": "Your Search Results Are Getting Sloptimized - theatlantic.com",
           "published": "Wed, 10 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWTkxNDFjWkl0VDA0WjR0d1F2WXdmRnhEbTVoOVNwWkd4cXVVT0Z3alBHczZWblkzREdtVlA5ZlM4djlvT3I4MWxsbVliMlhsSEptN083bm9QMk9xTzU2eVVlT0R5bzQxV1dMQXpGQ1ZJc0l4bERaQm1MczJfcTU1dm0yWEI4cGF5Y084SQ?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "AI Chatbot Customer Service: Shopify Guide (2026) - Shopify",
+          "published": "Sat, 04 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1BcW1SNmhjZExGRWxiNUg3aTZBOUlMbmJQc01hOGpuaUdLRVViWFl5TmlSckcza3hHTGtoaGszNXY5bGZ0WDFSN1BQMGdLc1Y0d1JxWjRURzBFX2RoZG8taVdxeVVrUTBkX25v?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12125,27 +12131,21 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "AI Chatbot Customer Service: Shopify Guide (2026) - Shopify",
-          "published": "Sat, 04 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1BcW1SNmhjZExGRWxiNUg3aTZBOUlMbmJQc01hOGpuaUdLRVViWFl5TmlSckcza3hHTGtoaGszNXY5bGZ0WDFSN1BQMGdLc1Y0d1JxWjRURzBFX2RoZG8taVdxeVVrUTBkX25v?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
           "title": "AI Business Ideas: 15 Ways to Start in 2026 - Shopify",
           "published": "Fri, 28 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lSWZmcDR2dzJZbG1zSkxkWFlGRWxlSjJGZ2MyNWxkYTI4NHRSTmNOLUlOd1h1cGlpODdNZTlMOXk3d3B5cHZUcjdRVWswNkh2cjdQVjk5LWxoUQ?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify is preparing for AI shopping agents to change everything, exec says - TechCrunch",
-          "published": "Mon, 16 Mar 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaTRqWW5KUEt4ZDUyYVVJcVJEZFRGdWZVNFl1b3ktbUhlNDVyeDRIM29ZOW9zUHQ3Y21JMkVHOHdLdEh5OEc2a0hKQlE0U3JsalRwUFJSTThvWWRmOWwxb1huYzhSLVM2VFJtR0FaVDNhLWJiQi0zV1BlRm1PYzZyaU9ZeUtGSlktZm4tblpNS29PQjVaclZHVVZocDdEcnZZOWdPRVhNekVvNF9oYXc?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
           "title": "TIME100 Most Influential Companies 2026: Shopify - Time Magazine",
           "published": "Thu, 30 Apr 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaHcwNmIxV0E5WjkwZnp1QkdJU3N0R3RQaXNJOXpIUDk3bmpsa1BvSmNOQWhQb0pFUEJPVWxBd0FFUk5ERWt6UkxNa2RfWXNacHI4a1RyMWRkSzFuSGdMQkV3ZEozVWwzLTRSbkc0bGFOUVU5ak9NVnBHcXJPTC13Wktn?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Shopify is preparing for AI shopping agents to change everything, exec says - TechCrunch",
+          "published": "Mon, 16 Mar 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaTRqWW5KUEt4ZDUyYVVJcVJEZFRGdWZVNFl1b3ktbUhlNDVyeDRIM29ZOW9zUHQ3Y21JMkVHOHdLdEh5OEc2a0hKQlE0U3JsalRwUFJSTThvWWRmOWwxb1huYzhSLVM2VFJtR0FaVDNhLWJiQi0zV1BlRm1PYzZyaU9ZeUtGSlktZm4tblpNS29PQjVaclZHVVZocDdEcnZZOWdPRVhNekVvNF9oYXc?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12179,15 +12179,21 @@
         },
         {
           "query": "Shopify ecommerce AI",
+          "title": "New Ecommerce Tools: June 24, 2026 - practicalecommerce.com",
+          "published": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YR0lkbDUtblJOajFhYkVreGlscDlCRnFtS2dBdy0xendNOVlZSmhidUlTUGJXcjVOb3JzNEk4eTRTaDhrX1V0Q1dmYzRSZkxXMjlNY0t0NkhZRV9FdUlLZS1YYzYwRVNIeHFXTmk4VUxBa2dIOGc?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
           "title": "10 Best AI Tools for Shopify Owners 2026: Platforms Ranked by Intelligence Depth - Ask Luca",
           "published": "Sat, 14 Feb 2026 06:07:48 GMT",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZQU1rdC05UlJ3bDRuMFlrMWdWN3NlMXBUT1VRTUxxdW1HZDBCdnpYWU9lQlRSSkJ4cjA3MExEc1N4RVlKNGJBblZlbGd0OGhEcFVzLUtBU1lNT2ZWNjVySDRpbC1rR0ozVnJB?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "New Ecommerce Tools: June 24, 2026 - Practical Ecommerce",
-          "published": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YR0lkbDUtblJOajFhYkVreGlscDlCRnFtS2dBdy0xendNOVlZSmhidUlTUGJXcjVOb3JzNEk4eTRTaDhrX1V0Q1dmYzRSZkxXMjlNY0t0NkhZRV9FdUlLZS1YYzYwRVNIeHFXTmk4VUxBa2dIOGc?oc=5"
+          "title": "Native AI Search Is Only Half the Battle for E-Commerce Brands - E-Commerce Times",
+          "published": "Tue, 28 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdkhsQzJITFpzblNJSHFCZktrckJKNGpWd2FKcnZGUU5ya3Jtdl9EX01FT3F2anRrcmlHMGFyMm5XbVdaUVYxbllBXzF2U0p4SjhJTXdVNkJOODBLSGlEZGlGSWFyRWJ0ZTZPRVpWSy1PdEhSaF9fWGJrMk83VWh2b3ZoTFZXX2lRb3N2VHdaZW9YV1E5LXhXTklSb3ZuTVJaS055aVcwUDJFWWJCelZjQg?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12197,21 +12203,15 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Native AI Search Is Only Half the Battle for E-Commerce Brands - ecommercetimes.com",
-          "published": "Tue, 28 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdkhsQzJITFpzblNJSHFCZktrckJKNGpWd2FKcnZGUU5ya3Jtdl9EX01FT3F2anRrcmlHMGFyMm5XbVdaUVYxbllBXzF2U0p4SjhJTXdVNkJOODBLSGlEZGlGSWFyRWJ0ZTZPRVpWSy1PdEhSaF9fWGJrMk83VWh2b3ZoTFZXX2lRb3N2VHdaZW9YV1E5LXhXTklSb3ZuTVJaS055aVcwUDJFWWJCelZjQg?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
           "title": "33% Turn to AI: Shopify UCP Advances AI-Powered Shopping - DesignRush",
           "published": "Wed, 29 Apr 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoS3VKMmFrUVd4am9BMDN6NU9jcDN3RzdVUkl1SHBVc0RHQW9kTHhmNVpZSV9GcXB6UGpqT1c5RjAwblVTZ3FxX2x1bF9KLU5BVlJCekxUVTFEb3EyNThRNUlDV25oeUdCYk5hWFJQMUxWNkwxc1Y2LWZ4aUQ?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - Shopify",
-          "published": "Thu, 26 Mar 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kZ3BiZThhVlBwRHI4RU41b3VFWF83MDZRbV9lcEI1dWdWS3E3UzdUQUlBMDBXR1FmczJtVUdLMFNqc2o3Z05IWVpwcGIybExlV1RKNDlnbw?oc=5"
+          "title": "Trustpilot is embedding its reviews inside Shopify stores as AI search reshapes online shopping - The Next Web",
+          "published": "Sat, 27 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZjNtakJoZUVDUUxPckVLc1BZQUt1Vi1kNWhEajcxSndMaGFtV1lqcDFxQ194YXd6a3ZHTEVSQ0U0dThFRFRjMFd1VjlGV0dKMXQ1V0pwZTl3emlGbDM2RUFWbzdmeklXVUdsMnJKRHluRXJwbnl0czNCLXdnel9ndUl3?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12221,15 +12221,15 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Target, Walmart, Shopify back Google's AI shopping standard - thestack.technology",
-          "published": "Mon, 12 Jan 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcmYxVEVoWmtaTjhwRXJfUmhkYmUtMjJaZHExMDIwSV8xcGF5Z3JQdXFOSExGRGkwNWhUZkxJaUpHVWtyX1ZJVU1BNzRnTWRMZVJ0eVAxWHhOdy03TXJzRlB3RHp1dS02S01QRDZmMmNMb2tDZW9jSm9nNGtLNGJyTUtjYkk4d2tCcnE5LXdtSXRTdlU3bElRcXc4R2YxRmxldndFVm9Sbw?oc=5"
+          "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - Shopify",
+          "published": "Thu, 26 Mar 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kZ3BiZThhVlBwRHI4RU41b3VFWF83MDZRbV9lcEI1dWdWS3E3UzdUQUlBMDBXR1FmczJtVUdLMFNqc2o3Z05IWVpwcGIybExlV1RKNDlnbw?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Trustpilot is embedding its reviews inside Shopify stores as AI search reshapes online shopping - The Next Web",
-          "published": "Sat, 27 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZjNtakJoZUVDUUxPckVLc1BZQUt1Vi1kNWhEajcxSndMaGFtV1lqcDFxQ194YXd6a3ZHTEVSQ0U0dThFRFRjMFd1VjlGV0dKMXQ1V0pwZTl3emlGbDM2RUFWbzdmeklXVUdsMnJKRHluRXJwbnl0czNCLXdnel9ndUl3?oc=5"
+          "title": "Target, Walmart, Shopify back Google's AI shopping standard - thestack.technology",
+          "published": "Mon, 12 Jan 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcmYxVEVoWmtaTjhwRXJfUmhkYmUtMjJaZHExMDIwSV8xcGF5Z3JQdXFOSExGRGkwNWhUZkxJaUpHVWtyX1ZJVU1BNzRnTWRMZVJ0eVAxWHhOdy03TXJzRlB3RHp1dS02S01QRDZmMmNMb2tDZW9jSm9nNGtLNGJyTUtjYkk4d2tCcnE5LXdtSXRTdlU3bElRcXc4R2YxRmxldndFVm9Sbw?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12305,15 +12305,15 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify Merchants to Pay 4% Fee on ChatGPT Checkout Sales - PYMNTS.com",
-          "published": "Wed, 21 Jan 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdzdjaUtabUxBNmxpNi1UdmZrY2pEZEV6SGZkaGlHMjRBZjBOY1VuSWJCM2RqcFMtMUp6SGF1aDB1VGRJUE1XSEZFUGdTOTFla09WTnpFVXhQcWQ1blUtbTRBeXkwTkJaeFQ1WjZlSkI1cG9STXloSlNHWDNXNGtGVVhJeHV6NmdobDAtR0ZZei1JZzBlRnlqeS13RmNkWG1jQnRkNHhIWFl0bnRGVVAweEJ3SlJfdmZ5QkRndjFwem9EUQ?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
           "title": "OpenAI's first crack at online shopping stumbled. It's preparing for the next wave - CNBC",
           "published": "Fri, 20 Mar 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa2pLb1hoNURvU0Z2S1g2VHRiZVJ6QlRucXN6WVpFYkxzZzAwV1ZqWGZMUFg1bUhxYkV6SFotOUh6N3F6a0ZQYmhUOXZSWlJGSGVGWFprcUVvZW5BLVNtVThURDZnRWk3b09LSmtKLU4xUDVuUC1pNjViel9jY1loZzZ2VWxLdHljZHd5Q2NsRzlzY2_SAZgBQVVfeXFMUFFiRGhnMnNJX04zbldhX2FaMEJqT3oybFhMLV9mYlJCMm8tUWJzNjM1bE0zODE2NS1iWS1CRFZKRTJicFhyWEhkT3hwcEZRSGlwNlNiYjNxODlEZ0lhZ3ZKM2JEaERNX0lMVHhpdmM4a0NFN2hYU0lVcElGYTVDUlhzS2hBV2NoYVFJdDBmbU1sTnNXdXRhSEs?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Shopify Merchants to Pay 4% Fee on ChatGPT Checkout Sales - PYMNTS.com",
+          "published": "Wed, 21 Jan 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdzdjaUtabUxBNmxpNi1UdmZrY2pEZEV6SGZkaGlHMjRBZjBOY1VuSWJCM2RqcFMtMUp6SGF1aDB1VGRJUE1XSEZFUGdTOTFla09WTnpFVXhQcWQ1blUtbTRBeXkwTkJaeFQ1WjZlSkI1cG9STXloSlNHWDNXNGtGVVhJeHV6NmdobDAtR0ZZei1JZzBlRnlqeS13RmNkWG1jQnRkNHhIWFl0bnRGVVAweEJ3SlJfdmZ5QkRndjFwem9EUQ?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12395,15 +12395,15 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify deepens push into agentic AI and B2B ecommerce - Digital Commerce 360",
-          "published": "Wed, 05 Nov 2025 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT2h6SUJSQVY1Q2FVWER0NjBYbGFoMkRNNFhQMFI5bVJjWlU5ZjE5NUFLVGhxcktPVXRETG5QOEp1REdqQk9NeVBGaVNZeDNKZGR4RXlSMUhTanFWXzh0UlNkTWNXM2hOYnVyUk1pMWRYV1NrSW8yQ25td2tua19aUWVXTDR6WDAwSm5TeUFJTkJxbUdGaW1nS3ZweHZLZ9IBowFBVV95cUxOOG45SzN4b0hKVTE0UkJsQnFaSFVzVEN6M0Q2V3lXZEVzVm5FN0NEamRrWHpkMlZjM2JPLVpNRF9SNDhpUlhYckxfOUl6LW9oeEJnMzVISU0wX0g5ZkNSQTdCdWZZTXRKNXQzTVZ4bjc4V0RkdHB2dzZNX1M1U0stREQtbjgzYW8yVDJOT28ycUNBUU5sNFpoQi00dmNXeklPTzE0?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
           "title": "How Google, Shopify Partnership Could Spur Agentic Commerce Boom - Investor's Business Daily",
           "published": "Mon, 12 Jan 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN0ttNE5GZEdqQTAzNXBWYUZQeXo2TVIydk9vSXFQeWJzMElZLUFuYlFyUTJWb2h2S2xOQkxWYUNvbm9VZHdjakNrSWZISHFNeTF0eGVPSGw2Vnc5ZWRpczhNUWpxeGpvTFBDODVLbjlEX1VLY3pZTGlWb0Jxa3A0eHdieWdWQmdmbkwtaHVn?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Shopify deepens push into agentic AI and B2B ecommerce - Digital Commerce 360",
+          "published": "Wed, 05 Nov 2025 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT2h6SUJSQVY1Q2FVWER0NjBYbGFoMkRNNFhQMFI5bVJjWlU5ZjE5NUFLVGhxcktPVXRETG5QOEp1REdqQk9NeVBGaVNZeDNKZGR4RXlSMUhTanFWXzh0UlNkTWNXM2hOYnVyUk1pMWRYV1NrSW8yQ25td2tua19aUWVXTDR6WDAwSm5TeUFJTkJxbUdGaW1nS3ZweHZLZ9IBowFBVV95cUxOOG45SzN4b0hKVTE0UkJsQnFaSFVzVEN6M0Q2V3lXZEVzVm5FN0NEamRrWHpkMlZjM2JPLVpNRF9SNDhpUlhYckxfOUl6LW9oeEJnMzVISU0wX0g5ZkNSQTdCdWZZTXRKNXQzTVZ4bjc4V0RkdHB2dzZNX1M1U0stREQtbjgzYW8yVDJOT28ycUNBUU5sNFpoQi00dmNXeklPTzE0?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12437,6 +12437,12 @@
         },
         {
           "query": "Shopify ecommerce AI",
+          "title": "New Ecommerce Tools: May 6, 2026 - practicalecommerce.com",
+          "published": "Wed, 06 May 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YdVZ1UEcwQWd0NDZ2UklfNlNjS2NQWlMzdmlnWXRhQVFvRnB5ZjViTFdnQzNVMU5RUXN5S0FNUmszZVI5V09sWGo1LU9IeXZWNXJDd0Y4MWpUNmxpRk1rcUNoUXhkRmg0dGFtSF9DcEhiV2s?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
           "title": "Using AI in Ecommerce: How It’s Transforming Online Shopping - Triple Whale",
           "published": "Mon, 22 Dec 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0tVUQ4M3BMY2RobFA1ejZxNEdiY3V6eTlCSDZwRmQ2bENUbHpuWkpDX3ZITFhwZzhTS1hMS0o5Tm5fdC12eUlZV2o2TFBzSTdZczVmSmlpZlcyVWs5?oc=5"
@@ -12446,12 +12452,6 @@
           "title": "Shopify vs. Wix Stores: I Tested Both E-Commerce Platforms and Found a Clear Champ - PCMag",
           "published": "Fri, 20 Feb 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcWJKNTUyLUxtYjh1algyc25UUGJydkRwS1pJWnpWaURXYXJCSjNUN2JYVGU1cXZJUGxjaTVkNGlEVDNnYU83akNSRUtJY1N4NjVqc3Nxc2dqX3NOaVY4eVk5dVNWODItY2QtQmtCTHo5eEpiaE1sS25qajNxY1RCak80Q05Gdkp0NDhzUFB0QWNkUTM0SFNNWi1lakRnY1ZRY2ZPNW1MMUstYTJE?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "New Ecommerce Tools: May 6, 2026 - Practical Ecommerce",
-          "published": "Wed, 06 May 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YdVZ1UEcwQWd0NDZ2UklfNlNjS2NQWlMzdmlnWXRhQVFvRnB5ZjViTFdnQzNVMU5RUXN5S0FNUmszZVI5V09sWGo1LU9IeXZWNXJDd0Y4MWpUNmxpRk1rcUNoUXhkRmg0dGFtSF9DcEhiV2s?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12479,7 +12479,7 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Noibu Deepens Investment in Shopify Plus, Bringing Ecommerce Analytics & Monitoring Platform to Plus Merchants Across Every Build - Business Wire",
+          "title": "Noibu Deepens Investment in Shopify Plus, Bringing Ecommerce Analytics & Monitoring Platform to Plus Merchants Across Every Build - businesswire.com",
           "published": "Tue, 12 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNRVJneWFnLXpRMncyWkNLc3pPRTR4WGlGVFhpUDFCTzFQYWY4SUlBdTB5dm9TcUNubTNXRGxZNXdTWm5GZEFuZGhuZTh0Yk40a054WHRkVzFUMlVQOE5yWDZ5aE5iUjI3NV9RTlF5UTlkUVAxQnhQRUMxM1BVRnpNbDk1WlpkRmdCZ3BKTTIxNWlXejc5RzF4cUdoSnptUkpLNl9zMXgxQlpsUThpYXFHQkVoYkRBd2NNa2FXYW5oUHhhVGRaNFFPNEhPbVVLNlNhc1FFbHpMUk1XNHpDZUNzMEJJc25SODRyZndGSVVycEJmam52SmJxejh1VzdtVnZaeUtTemxjOC1uTmJfOGVSWQ?oc=5"
         },
@@ -12605,13 +12605,13 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "TikTok says drinking your skincare is the hottest beauty trend to know now - so we tried it - Grazia Daily UK",
+          "title": "TikTok says drinking your skincare is the hottest beauty trend to know now - so we tried it - graziadaily.co.uk",
           "published": "Thu, 14 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9RaHZWZVYySkhLMXpoVlR6aXI3SG94UmYxUkgzZmxZbXliX2NCczZnSzFHYWZvUlFwTlFmN29raVZwcUNnVDczVHF2aHJRSTI4dWhJRWFBNDA0N1ZvWWVWeDZma19tRlc2MkdMZ2tqaV80RHQwemUwQ1p0SXA?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "What Beauty Trends Does 2026 Have in Store for Us? - newbeauty.com",
+          "title": "What Beauty Trends Does 2026 Have in Store for Us? - NewBeauty",
           "published": "Thu, 12 Feb 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84eEFtX0NpSjJkS2N6eXpUdWdYemJzc0xyYlV6U0tCdWN1VkczaE5aMXhZanItaU9zZ3E3cG9DVS1QaWlDRWNsdWFhbmJ5WUF4SG5aNHFwYV8xbk9MS1ZmQ014YWZhTWM?oc=5"
         },
@@ -12641,7 +12641,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "‘Backyard Botox’ Is TikTok’s Most Reckless Beauty Trend Yet - newbeauty.com",
+          "title": "‘Backyard Botox’ Is TikTok’s Most Reckless Beauty Trend Yet - NewBeauty",
           "published": "Tue, 27 Jan 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81bXE4QnNUcllxVlE5b0F3WDVrNGFmbG5ZWTN2Z0h0X2FIalVXVTZiUE0wRmViYVdkUDd6RFVqZ1JYUUROWGtBZjRyU3c2MFNGTkpxRElWak5xaW8wNUgteXFHc2R0TnJaRUpta1RjdEw?oc=5"
         },
@@ -12653,15 +12653,15 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Anti-Blush Is The Moody Yet Wearable Makeup Trend To Try Now - Harper's Bazaar Singapore",
-          "published": "Fri, 04 Sep 2026 02:05:14 GMT",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HeW5JcWxfLU1RS2RYYzMxYTAzbGFVQTBvWktyOExud0JYc3dDZFFpQ0NobzMzUnhxR3BjOXVYQnFZaVh5RjZKM1F3QUp5TlZmZTl3OUNCQy1fYzREQmlvUmdTOHZ1X1JXM05HZVJ5MA?oc=5"
-        },
-        {
-          "query": "TikTok beauty trend",
           "title": "Gen Z: leading social media for beauty inspiration in the U.S. and UK 2026 - Statista",
           "published": "Tue, 12 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNkZXb0hsZzV2VlVYNlQzbVdpcnVLZ0VzdzFDbEE0ZkF6UnRiV0Y3LWJxUnRZa3dNbG9oYTVrS1JEOHRyNW5TWk5nVFYxbVRsWDd2eFc4MUxFdkxuNWpOaE03OHVNclh4QkFhWmdxbUF0V2tPcVRkLUhKdUVlNW9Ed2E3MDJGbkM0WEJDUG9mSkR4LVBvOC1nWjZMdFRjZWdLeXFoQzlTSU15N3JGcGpNdlV4QTY?oc=5"
+        },
+        {
+          "query": "TikTok beauty trend",
+          "title": "Anti-Blush Is The Moody Yet Wearable Makeup Trend To Try Now - harpersbazaar.com.sg",
+          "published": "Fri, 04 Sep 2026 02:05:14 GMT",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HeW5JcWxfLU1RS2RYYzMxYTAzbGFVQTBvWktyOExud0JYc3dDZFFpQ0NobzMzUnhxR3BjOXVYQnFZaVh5RjZKM1F3QUp5TlZmZTl3OUNCQy1fYzREQmlvUmdTOHZ1X1JXM05HZVJ5MA?oc=5"
         },
         {
           "query": "TikTok beauty trend",
@@ -12695,7 +12695,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Sorry \"Clean Girl,\" Messy Hair & Makeup Is Back - The Zoe Report",
+          "title": "Sorry \"Clean Girl,\" Messy Hair & Makeup Is Back - thezoereport.com",
           "published": "Wed, 18 Mar 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBnb211dGNSVE4tVHpGVXpUYVNNdDZCcGdtYi0tb2l2TnVGLWRVZklSOGl5b0U3bnJQRzRNV3FLTEQ0VktXejBDWTJBRWtaTkp6SXBDc2VZMW1mU2cxWjhYcHhWV0t5Zm1EME9z?oc=5"
         },
@@ -12809,7 +12809,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "What the experts really think about TikTok beauty trends - evoke.ie",
+          "title": "What the experts really think about TikTok beauty trends - EVOKE",
           "published": "Mon, 13 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aS1RUM1BFcWNxQlVKLTRlRWFJSDFnUk1YMllsV2txUmo0bURWajhjNmRXaDZEakhhUjdJdGtzR0Q4cENjQnZQS25iMk5uTFdKNFJ4M1Jmc1g5dFJuQjNFTzJlQy12MnpXM0VKUzZZXzVJamlNN1U0eg?oc=5"
         },
@@ -12833,7 +12833,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Top Skincare Trends For 2026—And Those Losing Their Sizzle - Beauty Independent",
+          "title": "Top Skincare Trends For 2026—And Those Losing Their Sizzle - beautyindependent.com",
           "published": "Mon, 12 Jan 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPX2t2bjhzejd5NTF6YlNORURCb3ZnSWk0Q1FxczZQZ3NYYmdTY0NhYW9LWHZQdTlrRjhxRmRmLTgxS1VkZXRXU3lsZnNMX1pFTE5OWDdXeWEzandjY3JpWk9WYXhaZ3lNbmtIZ0lkM2QtcnpxWE9KblV2NDNJakg4NjJjTnQxdw?oc=5"
         },
@@ -12851,7 +12851,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "I'm acne-prone and can't achieve glass skin, but this new K-beauty trend promises a glow for all - Grazia Daily UK",
+          "title": "I'm acne-prone and can't achieve glass skin, but this new K-beauty trend promises a glow for all - graziadaily.co.uk",
           "published": "Fri, 15 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zZVAyLVM5a0d6TE9sZ1lMczU4cGVpOHhmVzkyazRjUHl1dUIteXJJam9yUkR5aFNRbVo1dnV2MjYtNFVUMUZ3QnVVWTlNMUR0RG5UNVhxWk9YM01hMUwyVW05dF9TaG1meTh2TGFFTGJIU29KTXZtdw?oc=5"
         },
@@ -12875,7 +12875,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Driven by TikTok trends, new beauty brands target children - canadianaffairs.news",
+          "title": "Driven by TikTok trends, new beauty brands target children - Canadian Affairs",
           "published": "Sun, 30 Nov 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeVhray02UG9HQ2oybGRNTmxTT1YwOS0wazFJZXRiZkFZQ3VZbGF0WE9aT3FjdGZTYTRJNDUxeVg0eUYxZy1hUnVtelo3X19sMTZwc00xX2JQY1BXT0tYX1ZxdFphSmxnQVpUY25RYjlOOEFVQzBqdGdNOTAxdS1uU0JiZDd4N0c3UTJkdGExUm5YYk04X3gzNDRpd2VuWnFHMzdVRQ?oc=5"
         },
@@ -12941,7 +12941,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Paloma Elsesser Isn’t Falling for TikTok Beauty Trends - Interview Magazine",
+          "title": "Paloma Elsesser Isn’t Falling for TikTok Beauty Trends - interviewmagazine.com",
           "published": "Tue, 19 Aug 2025 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRzkxcDVSYjhOOHNtYnA5dXB1UXRQaklMQ0VuWnZZRXVHY1AyamR3UnJzMHRLTTBCcEZTNzh2V3dpMU90U1IxOTZlSWZWMDRJdHB3Rk1oYUFQM0U4UjExbEhLdk9kZVZ1cWNrb3B2VWtvc3pqdGF2dW5rckUxT0xJOVM0VjRVMlBRUVhQV3lJS21ySHl3OEFMRjlOMA?oc=5"
         },
@@ -13007,7 +13007,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Unhinged or Inspired? Experts Weigh in on TikTok’s Wildest Beauty Tips - Marie Claire UK",
+          "title": "Unhinged or Inspired? Experts Weigh in on TikTok’s Wildest Beauty Tips - marieclaire.co.uk",
           "published": "Tue, 23 Sep 2025 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE43VlM4eGFRUkp5QXVQc1ZKUjVsbURrTFJDREItX2htRXlwaXZyU1hKTWp3dS1qbF9rM1hjblFTc1Q2ZlBFNVE3TGxLNmMtR1N5TGxEMjROTGtqOXc1LUZoempJTHVFRG5GVjRLZ3pPbV9yQQ?oc=5"
         },
@@ -13031,7 +13031,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "What is the 'Bebot' beauty trend and where did it come from? - philstarlife.com",
+          "title": "What is the 'Bebot' beauty trend and where did it come from? - Philstar Life",
           "published": "Sat, 07 Feb 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE92UUVVaXN1aFA3MF9paFJZWHdScnJGbElzYzE3WHVHWFdxVm9ubzdBZEpvc2FNNWhFUXFSNlZ4T1R1blZyZlFVdk1sTFc2YmpxQUV0WU1LYXE0V1BvY3BHRnJuSW9vaE5SQkRvaHhQUnZXUEdGUkUw0gFzQVVfeXFMTloxa3lqWnR4ZHF5c2NnRGRJdmY2Q2RPYzBQdGRBNHdkMVVSRjdrREF3TExQVDNkRzNFYXJNZDlWSGZkUEIyU1BqRnNXampCYWhBSW9tZ1pvMnZxOTN3d0dSTHJ1NGxUdGZsQjduQzdTcmJhZw?oc=5"
         },
@@ -13061,7 +13061,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Turkish Delight Makeup Is TikTok’s Delicious New Trend - newbeauty.com",
+          "title": "Turkish Delight Makeup Is TikTok’s Delicious New Trend - NewBeauty",
           "published": "Mon, 22 Sep 2025 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9uTmZ5Wm12WUUwc2xlcjJyOWlMT1VLVkxvM2VVekEtWmtvNDkwNnpLbTU2TF95S24wSkZNUlBqS2JBdUFGNnpyS240cnlYQmM5bHFleURIdDdSTG9qQk94R1RmazlpTWFNOEJV?oc=5"
         },
@@ -13115,7 +13115,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Cosmetics Business reveals the top 5 TikTok beauty trends of 2024 in new report - Cosmetics Business",
+          "title": "Cosmetics Business reveals the top 5 TikTok beauty trends of 2024 in new report - cosmeticsbusiness.com",
           "published": "Thu, 01 Aug 2024 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNV9XQXRzRy1LbmZjTkxmMWZUbU81d05DbXRjQVEyZXNUZ3ZlcDdWUFE0MzhuQ0NQZjhQY1FZT1J5SkVJTVNXU195YkR3MXAzWDJQTXFQMzRhS1lobFRBOFdQWXp1aERSQmFWbmpJTnZ1S18tZmZicE5CYnFqUmlGamh3T1lmWjg?oc=5"
         }

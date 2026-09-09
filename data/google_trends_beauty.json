@@ -1,17 +1,26 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-09T14:12:18.110154+00:00",
+  "collected_at": "2026-09-09T19:06:06.012335+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
-  "count": 94,
+  "count": 93,
   "items": [
     {
-      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
-      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
+      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
+      "product": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5N2ZIdEFwRWx5ZzJ0aHhib3ZvMHQ5c1o0Z1J5Nm14ZW5wUmpHZ0xKcGhnaVBTVVRFYU81WVFrbUZkQnhNTmxHeGMzQ3dHWHhtc0xxQzVoRkhqNFFWVjR4WGNoT0lhYXktTGhHZ001VHJ1Z282RWpRdGFabG43Zw?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -21,6 +30,15 @@
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3ZU9yYWdlM1JUZGlkem45TFVrY1Z1ZzVCZEJ2V29RX3FaZ043TG9PamFJdjBHUWxWOG1IbzktajdOZzRKLUxkZF8xaHJ4R2NMaDNDQy0yOGItRHVobEd2bk9IVmh1S2FSM0g0cEtRY0xFTFpWQUE?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
+      "product": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -43,20 +61,11 @@
       "beauty": true
     },
     {
-      "keyword": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - globalcosmeticsnews.com",
-      "product": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - globalcosmeticsnews.com",
+      "keyword": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - Global Cosmetics News",
+      "product": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - Global Cosmetics News",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMjY0SGdyaGU3MjdmNlUtemxuYlZaaHFwdmZsY2dDd0hTTHM1NHJvRTk3ck5TNFAxa19fa2NmaG9iMzdXVVpwWVlodGJSTmlMT1JnNUMyNTdsTnM3QjdMMGFlWFIzeEtGbjRLX0xZbjhLdkZ6N0NUUlVHVG1mYTVMcDQyU0UzUVBxa1J1QjJROThfR2gtYjlHQVpwbEU5WmxoUG9TM2RseTUzQS1u?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
-      "product": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -70,11 +79,11 @@
       "beauty": true
     },
     {
-      "keyword": "Cosmax, L'Oreal expand partnership on next-generation cosmetics - The Korea Herald",
-      "product": "Cosmax, L'Oreal expand partnership on next-generation cosmetics - The Korea Herald",
-      "sub": "K-beauty",
+      "keyword": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
+      "product": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
+      "sub": "Korean sunscreen",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9oMmM5MHJDemVfd1NMbzhlTWh1VzZPN1hXN2d5MFBlanItRnhTcWp2cnpmZkt4WVlOb1A1d0EwQUd4VjNJMHNUTXQ1RkItVTNjcjRzcUo3SQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGtUdkEtYWNZaFVvSFFvcUlXQzNRWS1zcXUtVUctWkx2b3V4d3JWNk42dmtPYjFweUxTX2IxUHNqamdCRWY0T2lxUWtyN3RkYnA4Z0dORHJNR05HaWpvX3lJT190RVFtVXhNVk10YnNuNjdqZ1NBdFNRUU94cG9nYmJ1Uld1c2hmS1YyXzF5VmRMMTRo?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -106,20 +115,20 @@
       "beauty": true
     },
     {
-      "keyword": "Is Korean sunscreen worth the hype? - WAFB",
-      "product": "Is Korean sunscreen worth the hype? - WAFB",
-      "sub": "Korean sunscreen",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjenlzd2RLQUd1RWtfc0V4dlZIeldiM3FfOTJ4S08wdmplNUdTVUZrUXhrU25oOVpTeVFPSGgxYXpBNWpIbTVQSlRHQlV6MW4wVkNHTzhSQlYtSmJrQmQ1bkRCc3dMOUF0OUpyZlRNQnhvMXdmMFprTQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
       "product": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZHBXQzBDZ2dGRHdEeXdtSXk5NkpMbW5vZzYzdGVWWVk1RllId3RCaUtPVnRIUVVEME84QmUzYTRBcGt5SE9rd3VpU0NZcWhBak1tMjVNR2lPd050RUdwaUJQbHB6TU81UDVmejBkVElrcnFKdnY1UHZ6SjVOMmtCNjNod3AtYm5Qb3c?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Is Korean sunscreen worth the hype? - WAFB",
+      "product": "Is Korean sunscreen worth the hype? - WAFB",
+      "sub": "Korean sunscreen",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjenlzd2RLQUd1RWtfc0V4dlZIeldiM3FfOTJ4S08wdmplNUdTVUZrUXhrU25oOVpTeVFPSGgxYXpBNWpIbTVQSlRHQlV6MW4wVkNHTzhSQlYtSmJrQmQ1bkRCc3dMOUF0OUpyZlRNQnhvMXdmMFprTQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -142,15 +151,6 @@
       "beauty": true
     },
     {
-      "keyword": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
-      "product": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
-      "sub": "Korean sunscreen",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "Should You Get a Tofu Facial? - VegNews.com",
       "product": "Should You Get a Tofu Facial? - VegNews.com",
       "sub": "snail mucin",
@@ -169,8 +169,8 @@
       "beauty": true
     },
     {
-      "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
-      "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
+      "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com",
+      "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FajN1UnhmQjViQ0dWVW45QVF1blJPRnBKZUltUWRyRjVDcHFVVTBiVUpkQTZlZHNYbEFmSUFtVTRWT0Q2X3o4R3R0YXhyYUJhbHV6dVln?oc=5",
@@ -205,8 +205,8 @@
       "beauty": true
     },
     {
-      "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
-      "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
+      "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
+      "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LUmI0VzFqenBxYXlPcjlQVE4xOEVsbE8wYW4xdG1jSHRWbFQzWFZEOVRpTmN0bndubWptdUJqc3BRb2ExWUJCZmtRSVhSWDliZDN5RGhjVGhLSW1ieU45TVhMZVpKSFVYZWc?oc=5",
@@ -223,8 +223,8 @@
       "beauty": true
     },
     {
-      "keyword": "Anua Heartleaf 77% Soothing Toner - Mamabella",
-      "product": "Anua Heartleaf 77% Soothing Toner - Mamabella",
+      "keyword": "Anua Heartleaf 77% Soothing Toner - mamabella.uk",
+      "product": "Anua Heartleaf 77% Soothing Toner - mamabella.uk",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB1bjV1c253cFJYUGU1QVNMQ1gxYUZDSV9YMlpxVWI0UVFmV2xRRzFpdS1NSFdQN2xxTUNwbUlGSnJQVjJXQzNhbFEtQVQydE43SFhZY3QwcUlCWFdvVkQ4Y1MwMEYtN0hER3BGcXRvM3RPUGlPRFg1Zw?oc=5",
@@ -268,15 +268,6 @@
       "beauty": true
     },
     {
-      "keyword": "8 Toner Pads To Calm Oily Sweaty Skin In Humidity - femina.in",
-      "product": "8 Toner Pads To Calm Oily Sweaty Skin In Humidity - femina.in",
-      "sub": "heartleaf toner",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSUMyeGZqTk5KaUpBR3Q0SXJBbkJKU1o5T0V5emVCRm1RT3Vsa002R2RUOE9ta1BMNmFnNDBXM2g3aXdQWUpDSUFJSklveEhPMmdJcGFXdmlLWGtrUkkzZGljSjBIMmp4M2JGeDNkQUFRdzZJLWk0Z1FiLW5WdEMyWldic1VwQ0tUNmZuVG5jUks4SnRlQ2JNWWx3aGUwZnE2czNLd2M0UlVLUXNFbmxz0gGvAUFVX3lxTE5JQzJ4ZmpOTkppSkFHdDRJckFuQkpTWjlPRXl6ZUJGbVFPdWxrTTZHZFQ4T21rUEw2YWc0MFczaDdpd1BZSkNJQUlKSW94SE8yZ0lwYVd2aUtYa2tSSTNkaWNKMEgyangzYkZ4M2RBQVF3NkktaTRnUWItblZ0QzJaV2JzVXBDS1Q2Zm5UbmNSSzhKdGVDYk1ZbHdoZTBmcTZzM0t3YzRSVUtRc0VubHM?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - NewBeauty",
       "product": "Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - NewBeauty",
       "sub": "heartleaf toner",
@@ -286,8 +277,17 @@
       "beauty": true
     },
     {
-      "keyword": "This Soothing Toner for Acne-Prone Skin That’s Always Sold Out on TikTok Shop & Is a Rare 30% off til Midnight - sheknows.com",
-      "product": "This Soothing Toner for Acne-Prone Skin That’s Always Sold Out on TikTok Shop & Is a Rare 30% off til Midnight - sheknows.com",
+      "keyword": "8 Toner Pads To Calm Oily Sweaty Skin In Humidity - femina.in",
+      "product": "8 Toner Pads To Calm Oily Sweaty Skin In Humidity - femina.in",
+      "sub": "heartleaf toner",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSUMyeGZqTk5KaUpBR3Q0SXJBbkJKU1o5T0V5emVCRm1RT3Vsa002R2RUOE9ta1BMNmFnNDBXM2g3aXdQWUpDSUFJSklveEhPMmdJcGFXdmlLWGtrUkkzZGljSjBIMmp4M2JGeDNkQUFRdzZJLWk0Z1FiLW5WdEMyWldic1VwQ0tUNmZuVG5jUks4SnRlQ2JNWWx3aGUwZnE2czNLd2M0UlVLUXNFbmxz0gGvAUFVX3lxTE5JQzJ4ZmpOTkppSkFHdDRJckFuQkpTWjlPRXl6ZUJGbVFPdWxrTTZHZFQ4T21rUEw2YWc0MFczaDdpd1BZSkNJQUlKSW94SE8yZ0lwYVd2aUtYa2tSSTNkaWNKMEgyangzYkZ4M2RBQVF3NkktaTRnUWItblZ0QzJaV2JzVXBDS1Q2Zm5UbmNSSzhKdGVDYk1ZbHdoZTBmcTZzM0t3YzRSVUtRc0VubHM?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "This Soothing Toner for Acne-Prone Skin That’s Always Sold Out on TikTok Shop & Is a Rare 30% off til Midnight - SheKnows",
+      "product": "This Soothing Toner for Acne-Prone Skin That’s Always Sold Out on TikTok Shop & Is a Rare 30% off til Midnight - SheKnows",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82eTk2NHJ2QUFpbWZLZUhMUVlUR25HeGw5UUhZVVl1QjVYcnV3SDUtemwyUUo5MDU2TEFoN2NTMmtvclRGbWZ2R0RqdkhmLThlM1ZUY3VMcWtiUmctT3N0dnBWNzJvb2xIQWpTZFNMTTNrMkQ0UEpvUmw4eE1sdw?oc=5",
@@ -313,8 +313,8 @@
       "beauty": true
     },
     {
-      "keyword": "Should You Use Centella Asiatica? 5 Benefits - health.com",
-      "product": "Should You Use Centella Asiatica? 5 Benefits - health.com",
+      "keyword": "Should You Use Centella Asiatica? 5 Benefits - Health.com",
+      "product": "Should You Use Centella Asiatica? 5 Benefits - Health.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV1FGamp5TUY2bzdhcXhiTkpLQmwyZHIxOE9ITnZNcnFWemt2TzdXU09taVV0RmFReUZCUFE2YjNNa2RlVXVMR1E5SEh2eTV6Wk5HalUyaVdfN2JQQXZKZmV4alpHSVNXTXhRMFptYVM5amd3X3pRdThCYlROa18tWjRMTQ?oc=5",
@@ -340,15 +340,6 @@
       "beauty": true
     },
     {
-      "keyword": "Scientists invent a plant-based serum that is proven to regrow hair in weeks - earth.com",
-      "product": "Scientists invent a plant-based serum that is proven to regrow hair in weeks - earth.com",
-      "sub": "centella serum",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSFVtSjNNOWR6b0pRZU9ZeEVzN09KMmtvUXlLbVRGTEJmeUdScHA5TTlFeWUwMFpHb3JKSWJNa3VwWm1JaU5VZ1NTeE5ROXo0ODhWa0dTcXp2ZU14RDA4SEk2WGUyZWtHZGNuZ0h6bWhZbkxOTlgwWG5HTXhkMkdXWW1MczgydFdQQzhoQTQ4blZjTjd4ZDVncy1uZmotamhnUXk4ZDIzY2F3ZTdT?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "7 best Korean Skincare products: Tried & Tested by a Beauty Editor - the-independent.com",
       "product": "7 best Korean Skincare products: Tried & Tested by a Beauty Editor - the-independent.com",
       "sub": "centella serum",
@@ -358,11 +349,20 @@
       "beauty": true
     },
     {
-      "keyword": "Scientists develop plant-based serum that regrows hair within weeks - The Times of India",
-      "product": "Scientists develop plant-based serum that regrows hair within weeks - The Times of India",
+      "keyword": "Scientists develop plant-based serum that regrows hair within weeks - timesofindia.indiatimes.com",
+      "product": "Scientists develop plant-based serum that regrows hair within weeks - timesofindia.indiatimes.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQS3NBQ0pya1FORlNaLXJBT216ejlHem55MnVkSFE1MThZWWtvdTBVek8zU2JxYVIzdlREWDhWcUU1b2NkOUpjM3hIaWk3akFxNndzMm9GRkVGaDJZQ2Jrb1MyWXBkSnB2cnJ0SHNnWmx3TExmeTctVnpnQWl1YWFYTHhnZUloWGVzT2NOZENreGFjdlVzVzJabmVOdHlpZEJKV0p3ZThieE1Gd0RaWEVONzI3bTlMeGM0YnZyM1p0aXk5UTREdnVvWkxKQ2lNdWRjRzR30gHYAUFVX3lxTFBLVlRaRExMTVdsY0wtQk5Zb3hTQUxMT1hmSlhTZ3gtblBzaFNKY1RqMDJsVER5bThnN2xZYlhvNWJxOXJCRmtpdFhRcGhaT2tlanRwQ2VxZnlCVHVsZlNfb1hyQkR2VUQwUUVudFlWTWF3YXVtYTZ2WWtpaDNFQ0tnQzJnMmIxZG5MSF9qMjZMZklrcTh4TF8zWlBPNWJ2S1cwYUNiTFBsWTctTElTMEduV1o4QXZTR3pWT1lPeHRTc3lHaTlJZm5pazFmWlBZS0RHdzlNVUJ2cQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com",
+      "product": "Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com",
+      "sub": "centella serum",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRkRkQi1TY3h2YmlWZlEzSlRKNV9lMXNXSDdBQ2RBVHBmb0NCcThJa1Q1MkNsbVVISHhZSUNyU3BncGxQQndHbDk5cnJwbFhXVHBKa2tPQXJ1WlBFRzFrbnR5NXU1ek9GYUVOcUlVTHROZTZscjFJVUlmR1had2JockFNUWIxUQ?oc=5",
       "kind": "news",
       "beauty": true
     }

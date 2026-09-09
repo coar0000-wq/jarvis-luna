@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-09T23:15:16.026294+09:00",
+  "generated_at": "2026-09-10T04:09:17.596234+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
   "scope": "S등급 상위 15개",
   "summary": {
     "ready_to_list": 0,
-    "ready_with_notes": 5,
-    "fix_then_list": 1,
+    "ready_with_notes": 4,
+    "fix_then_list": 2,
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-09-09T14:11:49.543486+00:00",
+      "collected_at": "2026-09-09T19:05:28.393920+00:00",
       "keyword_pool": 40
     }
   },
@@ -94,7 +94,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [2sizes] ILLIYOON Ceramide Ato Concentra.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -209,7 +209,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cream Collagen Pdrn — Daiso Find — Affordable hydrating pick",
           "headline": "Cream Collagen Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [2sizes] ILLIYOON Ceramide Ato Concentra.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -326,7 +326,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule Centella — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule Centella — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [2sizes] ILLIYOON Ceramide Ato Concentra.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -426,7 +426,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'masks', 'sheet']",
+          "evidence": "matched=['ask', 'masks', 'over', 'sheet']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -453,11 +453,13 @@
           "collagen mask",
           "ask",
           "masks",
+          "over",
           "sheet"
         ],
         "reddit_keywords_used": [
           "ask",
           "masks",
+          "over",
           "sheet"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -467,11 +469,12 @@
         "matched": [
           "ask",
           "masks",
+          "over",
           "sheet"
         ],
-        "score": 3,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['ask', 'masks', 'sheet']",
+        "evidence": "matched=['ask', 'masks', 'over', 'sheet']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -485,7 +488,7 @@
       "pd_no": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
       "bucket": "스킨케어",
-      "shopify_score": 90,
+      "shopify_score": 87,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
       "readiness": "ready_with_notes",
       "checklist": [
@@ -493,7 +496,7 @@
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=90",
+          "evidence": "grade=S, score=87",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -558,7 +561,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Toner — Daiso Find — Affordable hydrating pick",
           "headline": "Toner — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [2sizes] ILLIYOON Ceramide Ato Concentra.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -600,18 +603,18 @@
       }
     },
     {
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "pd_no": "1053482",
+      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
       "bucket": "스킨케어",
-      "shopify_score": 88,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "readiness": "ready_with_notes",
+      "shopify_score": 86,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
+      "readiness": "fix_then_list",
       "checklist": [
         {
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=88",
+          "evidence": "grade=S, score=86",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -631,8 +634,8 @@
         {
           "id": "listing_copy",
           "label": "영문 리스팅 카피",
-          "status": "pass",
-          "evidence": "Gemini 카피 있음",
+          "status": "fail",
+          "evidence": "카피 미생성",
           "tip": "shopify-listing-copy 워크플로 실행"
         },
         {
@@ -646,14 +649,14 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+          "evidence": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
           "id": "social_proof",
           "label": "국내 리뷰(대리지표)",
           "status": "pass",
-          "evidence": "review_count=938",
+          "evidence": "review_count=592",
           "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
         },
         {
@@ -667,21 +670,20 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml — dodoskin · K-beauty",
-          "headline": "Chaebigonggan Heartleaf Extract Vegan To",
-          "description": "Discover the refreshing benefits of Chaebigonggan Heartleaf Extract Vegan Toner, formulated with heartleaf extract in a 150 ml size. Incorporating this gentle vegan toner into your daily routine helps",
+          "primary_text": "Toner — Daiso Find — dodoskin · K-beauty",
+          "headline": "Toner — Daiso Find",
+          "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
-          "primary_text": "Toner Heartleaf — Daiso Find — Affordable hydrating pick",
-          "headline": "Toner Heartleaf — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [2sizes] ILLIYOON Ceramide Ato Concentra.",
+          "primary_text": "Toner — Daiso Find — Affordable hydrating pick",
+          "headline": "Toner — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
           "cta": "See price"
         },
         "suggested_keywords": [
           "toner",
-          "heartleaf",
           "K-beauty",
           "glass skin",
           "hydrating",
@@ -712,10 +714,10 @@
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
-        "pass": 5,
+        "pass": 4,
         "warn": 3,
-        "fail": 0,
-        "next_action": "경고 항목 보완 후 등록"
+        "fail": 1,
+        "next_action": "실패 항목 수정"
       }
     }
   ],

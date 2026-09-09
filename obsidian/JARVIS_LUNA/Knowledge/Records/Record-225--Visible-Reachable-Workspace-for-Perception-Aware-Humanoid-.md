@@ -2,7 +2,7 @@
 title: "Record 225 · Visible-Reachable-Workspace-for-Perception-Aware-Humanoid-Design"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T16:40:03.566048+00:00
+updated_at: 2026-09-09T19:06:24.356246+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 269 · Protected-Why-Context-Not-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T16:40:03.577838+00:00
+updated_at: 2026-09-09T19:06:24.367753+00:00
 tags: [record, real-data]
 ---
 

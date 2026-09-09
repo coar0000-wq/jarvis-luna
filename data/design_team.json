@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-09T14:10:49.347150+00:00",
+  "generated_at": "2026-09-09T19:04:35.273005+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -251,6 +251,13 @@
         "feed": "Shopify Changelog"
       },
       {
+        "title": "Create and delete dev stores in Shopify CLI",
+        "url": "https://shopify.dev/changelog/create-and-delete-dev-stores-in-shopify-cli",
+        "date": "2026-09-09",
+        "summary": "Shopify CLI 4.8 adds shopify store commands that let you create and manage dev stores from your terminal or coding agent. These commands are available after you update to Shopify CLI 4.8. What changed You can now use the following commands to manage dev stores in your Dev Dashboard organization: sho",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
         "title": "Variants now support multiple barcodes",
         "url": "https://shopify.dev/changelog/product-variant-barcode-is-being-replaced-by-barcodes",
         "date": "2026-09-08",
@@ -346,13 +353,6 @@
         "url": "https://shopify.dev/changelog/app-intents-on-admin-app-intent-link-now-open-as-a-full-page-navigation",
         "date": "2026-08-19",
         "summary": "When Sidekick invokes an app intent declared on the admin.app.intent.link extension target, the Shopify admin now navigates the merchant to your extension's url as a full page, matching how Shopify's own admin intents behave. Previously, the same intent always opened in an overlay on top of the page",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Hydrogen developer preview update: August 18, 2026",
-        "url": "https://shopify.dev/changelog/hydrogen-developer-preview-update-august-18-2026",
-        "date": "2026-08-18",
-        "summary": "The Hydrogen developer preview adds new capabilities to the toolkit and extends the ways developers can build Shopify storefronts: Cart session attribution: Carts and Customer Account sessions stay in step, so signed-in shoppers reach checkout with their saved details instead of a guest flow. Cart a",
         "feed": "Shopify Dev Changelog"
       },
       {

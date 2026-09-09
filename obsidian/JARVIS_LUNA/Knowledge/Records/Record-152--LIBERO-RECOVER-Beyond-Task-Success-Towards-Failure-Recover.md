@@ -2,7 +2,7 @@
 title: "Record 152 · LIBERO-RECOVER-Beyond-Task-Success-Towards-Failure-Recovery-in-Robotic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T16:40:03.544112+00:00
+updated_at: 2026-09-09T19:06:24.334900+00:00
 tags: [record, real-data]
 ---
 

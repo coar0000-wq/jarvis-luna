@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T14:15:08.561302+00:00",
+  "generated_at": "2026-09-09T19:09:10.007429+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "barcelona vs feyenoord",
+          "keyword": "att",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Wed, 9 Sep 2026 07:00:00 -0700",
+          "published": "Wed, 9 Sep 2026 11:40:00 -0700",
+          "source_name": "WFAA",
+          "url": "https://trends.google.com/trending?geo=US&q=att"
+        },
+        {
+          "keyword": "samsung fold",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Wed, 9 Sep 2026 11:30:00 -0700",
+          "source_name": "CNET",
+          "url": "https://trends.google.com/trending?geo=US&q=samsung%20fold"
+        },
+        {
+          "keyword": "trey kaufman renn",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 9 Sep 2026 11:50:00 -0700",
+          "source_name": "On3",
+          "url": "https://trends.google.com/trending?geo=US&q=trey%20kaufman%20renn"
+        },
+        {
+          "keyword": "michael cohen",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 9 Sep 2026 11:30:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=michael%20cohen"
+        },
+        {
+          "keyword": "iphone air 2",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 9 Sep 2026 11:50:00 -0700",
+          "source_name": "MacRumors",
+          "url": "https://trends.google.com/trending?geo=US&q=iphone%20air%202"
+        },
+        {
+          "keyword": "norwich city vs birmingham",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 9 Sep 2026 11:40:00 -0700",
           "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=barcelona%20vs%20feyenoord"
+          "url": "https://trends.google.com/trending?geo=US&q=norwich%20city%20vs%20birmingham"
         },
         {
-          "keyword": "kaya scodelario",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Wed, 9 Sep 2026 06:30:00 -0700",
-          "source_name": "The Tab",
-          "url": "https://trends.google.com/trending?geo=US&q=kaya%20scodelario"
-        },
-        {
-          "keyword": "social security cost-of-living adjustment",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Wed, 9 Sep 2026 06:00:00 -0700",
-          "source_name": "Yahoo Finance",
-          "url": "https://trends.google.com/trending?geo=US&q=social%20security%20cost-of-living%20adjustment"
-        },
-        {
-          "keyword": "novig",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 9 Sep 2026 06:50:00 -0700",
-          "source_name": "Chiefs Wire",
-          "url": "https://trends.google.com/trending?geo=US&q=novig"
-        },
-        {
-          "keyword": "liam neeson",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 9 Sep 2026 06:20:00 -0700",
-          "source_name": "MovieWeb",
-          "url": "https://trends.google.com/trending?geo=US&q=liam%20neeson"
-        },
-        {
-          "keyword": "ronaldo",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 9 Sep 2026 06:20:00 -0700",
+          "keyword": "caitlin clark team usa bench",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Wed, 9 Sep 2026 11:40:00 -0700",
           "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=ronaldo"
+          "url": "https://trends.google.com/trending?geo=US&q=caitlin%20clark%20team%20usa%20bench"
         },
         {
-          "keyword": "tropics",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 9 Sep 2026 06:10:00 -0700",
-          "source_name": "The Guardian",
-          "url": "https://trends.google.com/trending?geo=US&q=tropics"
+          "keyword": "katie price",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Wed, 9 Sep 2026 11:40:00 -0700",
+          "source_name": "News.com.au",
+          "url": "https://trends.google.com/trending?geo=US&q=katie%20price"
         },
         {
-          "keyword": "obama presidential center",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 9 Sep 2026 06:40:00 -0700",
-          "source_name": "The Brown Daily Herald",
-          "url": "https://trends.google.com/trending?geo=US&q=obama%20presidential%20center"
+          "keyword": "art",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Wed, 9 Sep 2026 11:40:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=art"
         },
         {
-          "keyword": "hayley atwell",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 9 Sep 2026 06:20:00 -0700",
-          "source_name": "Deadline",
-          "url": "https://trends.google.com/trending?geo=US&q=hayley%20atwell"
-        },
-        {
-          "keyword": "aj brown",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 9 Sep 2026 05:50:00 -0700",
-          "source_name": "RotoBaller",
-          "url": "https://trends.google.com/trending?geo=US&q=aj%20brown"
+          "keyword": "world news",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Wed, 9 Sep 2026 11:30:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=world%20news"
         }
       ]
     },
@@ -187,6 +187,21 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "Why the French Manicure Has Divided People For Decades",
+          "published": "Wed, 09 Sep 2026 18:56:19 +0000",
+          "url": "https://www.allure.com/story/french-manicure-history-50th-anniversary-jeff-pink"
+        },
+        {
+          "title": "Taraji P. Henson Makes a Flawless Case for Matching Your Manicure to Your Jewelry — See Photos",
+          "published": "Wed, 09 Sep 2026 18:36:17 +0000",
+          "url": "https://www.allure.com/story/taraji-p-henson-gold-nails"
+        },
+        {
+          "title": "Are Compounded Peptide Creams Any Better Than Over the Counter Options?",
+          "published": "Wed, 09 Sep 2026 18:06:45 +0000",
+          "url": "https://www.allure.com/story/ghkcu-copper-peptide-skin-care-cream-compound"
+        },
         {
           "title": "Dua Lipa's Multicolored French Manicure Says Summer Isn't Over Yet—See the Photos",
           "published": "Wed, 09 Sep 2026 13:40:06 +0000",
@@ -321,21 +336,6 @@
           "title": "We Were the First Editors to Try the New $499 Dyson Toothbrush",
           "published": "Tue, 01 Sep 2026 09:30:00 +0000",
           "url": "https://www.allure.com/story/dyson-camerajet-launch-september-2026"
-        },
-        {
-          "title": "The Fall Pedicure Colors of 2026 Will Have You Feeling Extra Cozy",
-          "published": "Tue, 01 Sep 2026 01:30:00 +0000",
-          "url": "https://www.allure.com/story/fall-pedicure-colors-2026"
-        },
-        {
-          "title": "September Allure Beauty Box Review",
-          "published": "Mon, 31 Aug 2026 16:00:00 +0000",
-          "url": "https://www.allure.com/story/september-allure-beauty-box-26"
-        },
-        {
-          "title": "Zara Larsson's Swan Eye Makeup Is a Literal Flight of Fancy",
-          "published": "Mon, 31 Aug 2026 14:15:41 +0000",
-          "url": "https://www.allure.com/story/zara-larsson-swan-eye-makeup"
         }
       ]
     },
