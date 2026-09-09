@@ -656,22 +656,37 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
 
     # 지식 수집팀 --------------------------------------------------------
     # 기관·로보틱스는 각자 카드가 있으므로 여기서는 담당 카드가 없던 소스만 센다.
+    #
+    # blocked_by_robots 는 장애가 아니라 우리가 지키기로 한 규칙이다.
+    # youtube.com/robots.txt 가 /feeds/videos.xml 을 막아서 우리가 그 경로를
+    # 부르지 않기로 한 것이다. 고칠 것이 없다.
+    #
+    # 그런데 화면에는 "수집 실패: YouTube" 로 떴다. 정말 깨진 소스와 같은
+    # 칸에 놓이면 매일 고칠 것을 찾게 된다. 둘을 갈라 적는다.
     rs = load_json(KNOWLEDGE / "real_sources.json", None)
     if rs:
         LABEL = {"arxiv": "arXiv", "youtube": "YouTube",
                  "google": "Google", "us_beauty": "US뷰티"}
-        parts, total, bad = [], 0, []
+        parts, total, paused, failed = [], 0, [], []
         for key, label in LABEL.items():
             blk = (rs.get("sources") or {}).get(key) or {}
             n = len(blk.get("items") or [])
             total += n
             parts.append(f"{label} {n}")
-            if blk.get("status") != "ok" or n == 0:
-                bad.append(f'{label}({blk.get("reason") or blk.get("status") or "0건"})')
+            st = (blk.get("status") or "").strip()
+            if st == "blocked_by_robots":
+                paused.append(f"{label}(robots.txt 준수 · Data API 키 대기)")
+            elif st != "ok" or n == 0:
+                failed.append(f'{label}({blk.get("reason") or st or "0건"})')
+        bits = []
+        if paused:
+            bits.append("의도적 중단: " + ", ".join(paused))
+        if failed:
+            bits.append("수집 실패: " + ", ".join(failed))
         cards.append(_team(
             "knowledge", "지식 수집팀", rs.get("updated"),
             f'{total}건 · ' + " / ".join(parts),
-            f'수집 실패: {", ".join(bad)}' if bad else None,
+            " · ".join(bits) if bits else None,
             "ok" if total else "failed"))
     else:
         cards.append(_team("knowledge", "지식 수집팀", None,

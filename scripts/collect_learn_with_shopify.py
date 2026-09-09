@@ -1,12 +1,26 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Learn With Shopify (@learnwithshopify) → JARVIS 데이터 (완전 무료)
+"""Learn With Shopify 채널 수집 - 중단됨.
 
-YouTube Atom RSS 만 사용. API 키·유료 서비스 없음.
-  https://www.youtube.com/feeds/videos.xml?channel_id=UC7geKfz2-IH0rsgRBtHTm0g
+왜 멈췄나
+  youtube.com/robots.txt 가 /feeds/videos.xml 을 Disallow 한다.
+  이 스크립트는 그 경로를 부른다. 그래서 돌리지 않는다.
 
-출력:
+  지금 어느 워크플로도 이 파일을 부르지 않는다. 하지만 파일이 남아
+  있으면 누군가 손으로 돌릴 수 있다. 그래서 실행 자체를 막았다.
+  주석으로 "쓰지 마세요" 라고만 적어두면 언젠가 돌아간다.
+
+대신 쓰는 길
+  scripts/ingest_youtube_links.py    사람이 URL 을 넣으면 /watch 로 받는다.
+  scripts/ingest_youtube_channels.py 채널 페이지를 받는다. /@ 는 막혀 있지 않다.
+  scripts/collect_serpapi_youtube.py SerpApi 로 검색한다.
+
+  robots.txt 가 막은 것은 /feeds/videos.xml, /results, /youtubei/, /api/ 다.
+  /watch 와 /@ 와 /channel/ 은 막혀 있지 않다. 2026-09-06 확인.
+
+  YouTube Data API v3 키가 생기면 그 경로로 되살릴 수 있다.
+
+출력 (중단 전 기준)
   data/shopify_learn_with_shopify.json
 """
 from __future__ import annotations
@@ -140,5 +154,14 @@ def main() -> int:
     return 0
 
 
+# 실행을 막는다. robots.txt 가 막은 경로를 부르는 코드다.
+# 되살리려면 RSS 대신 Data API v3 로 바꾼 뒤 이 줄을 지운다.
+DISABLED = "youtube.com/robots.txt 가 /feeds/videos.xml 을 Disallow 한다"
+
+
 if __name__ == "__main__":
-    raise SystemExit(main())
+    import sys as _sys
+    print(f"::error::이 수집기는 중단됐다. {DISABLED}", file=_sys.stderr)
+    print("대신 ingest_youtube_links.py 나 ingest_youtube_channels.py 를 쓴다.",
+          file=_sys.stderr)
+    raise SystemExit(2)

@@ -1185,8 +1185,13 @@ function renderMarketingChannels(d){
 
     if(!items || !items.length){
       const meta = st[key] || {};
+      // blocked_by_robots 는 장애가 아니다. 상대 사이트가 막은 경로를
+      // 우리가 부르지 않기로 한 것이라 고칠 것이 없다. 깨진 소스와
+      // 같은 말로 적으면 매일 고칠 것을 찾게 된다.
       const label = {
         disabled: '중단됨',
+        blocked_by_robots: '규정 준수 중단',
+        stale:    '갱신 안 됨',
         empty:    '수집 결과 없음',
         failed:   '수집 실패',
         not_configured: '미설정'
