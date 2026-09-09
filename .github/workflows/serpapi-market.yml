@@ -125,29 +125,26 @@ jobs:
       # 앞 단계가 깨져도 이번 회차가 모은 것은 커밋한다. Deep Analysis 에서
       # 대시보드 생성 한 곳이 죽자 커밋이 통째로 건너뛰어져 산출물 여덟 개가
       # 29시간 멈춘 일이 있었다. 화면이 깨졌다고 그날 자료를 버릴 이유가 없다.
-      - name: 커밋 및 푸시
-        # always() 가 아니라 키가 있을 때만이다. 키가 없으면 호출 자체를
-        # 안 했으니 커밋할 산출물이 없다. 그 경우 시크릿 확인 단계가
-        # 사유를 파일에 남기고 멈춘다.
-        if: always() && steps.secret.outputs.ok == 'true' 
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          # youtube_serpapi.json 을 빠뜨려서 첫 실행 때 5회를 쓰고도
-          # 산출물이 저장되지 않았다. 새 파일을 추가하면 여기도 같이 고쳐야 한다.
-          git add -A data/serpapi_market.json data/serpapi_usage.json \
-                     data/youtube_serpapi.json 2>/dev/null || true
-          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
-          git commit -q -m "SerpApi 미국 시장가·트렌드·YouTube 수집"
-          for i in 1 2 3; do
-            git fetch -q origin main
-            git rebase -X ours origin/main >/dev/null 2>&1 || git rebase --abort || true
-            if git push -q origin HEAD:main; then echo "푸시 성공"; exit 0; fi
-            sleep 5
-          done
-          echo "푸시 실패"; exit 1
+      # 2026-09-09: 커밋 블록을 .github/actions/publish 로 옮겼다.
+      #   전에는 이랬다.
+      #     git checkout -B publish origin/main
+      #     git checkout $MINE -- <경로>
+      #   원격 최신을 베이스로 두는 것까지는 맞다. 그런데 둘째 줄이
+      #   경로 전체를 자기 스냅샷으로 덮어서, 내가 건드리지도 않은 파일을
+      #   내 실행이 시작할 때 값으로 되돌렸다.
+      #
+      #   실제로 그 일이 났다. Deep Analysis #443 이 만든 45개 파일을
+      #   같은 방식으로 만든 커밋 하나가 통째로 되돌렸다.
+      #   이 워크플로는 2시간마다 도니까 그럴 기회가 하루 열두 번 있다.
+      #
+      #   이제 이번 실행이 실제로 바꾼 파일만 얹는다. 대시보드는
+      #   밀어넣을 그 트리에서 다시 만들고, 감사도 거기서 돌린다.
+      - name: 산출물 발행 (원격 최신 위에 이번 변경만)
+        uses: ./.github/actions/publish
+        with:
+          paths: data/serpapi_market.json data/serpapi_usage.json data/youtube_serpapi.json
+          message: SerpApi 미국 시장가·트렌드·YouTube 수집
 
-      # 위에서 넘어간 실패를 여기서 드러낸다. 커밋은 이미 끝났다.
       - name: 앞 단계 실패 확인
         if: always()
         run: |

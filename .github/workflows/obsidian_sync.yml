@@ -49,18 +49,26 @@ jobs:
       # 앞 단계가 깨져도 이번 회차가 모은 것은 커밋한다. Deep Analysis 에서
       # 대시보드 생성 한 곳이 죽자 커밋이 통째로 건너뛰어져 산출물 여덟 개가
       # 29시간 멈춘 일이 있었다. 화면이 깨졌다고 그날 자료를 버릴 이유가 없다.
-      - name: 📤 결과 커밋 및 푸시
+      # 2026-09-09: 커밋 블록을 .github/actions/publish 로 옮겼다.
+      #   전에는 이랬다.
+      #     git checkout -B publish origin/main
+      #     git checkout $MINE -- <경로>
+      #   원격 최신을 베이스로 두는 것까지는 맞다. 그런데 둘째 줄이
+      #   경로 전체를 자기 스냅샷으로 덮어서, 내가 건드리지도 않은 파일을
+      #   내 실행이 시작할 때 값으로 되돌렸다.
+      #
+      #   실제로 그 일이 났다. Deep Analysis #443 이 만든 45개 파일을
+      #   같은 방식으로 만든 커밋 하나가 통째로 되돌렸다.
+      #   이 워크플로는 2시간마다 도니까 그럴 기회가 하루 열두 번 있다.
+      #
+      #   이제 이번 실행이 실제로 바꾼 파일만 얹는다. 대시보드는
+      #   밀어넣을 그 트리에서 다시 만들고, 감사도 거기서 돌린다.
+      - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: always()
-        run: |
-          git config --local user.email "jarvis@automation.local"
-          git config --local user.name "JARVIS Obsidian Sync"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "변경사항 없음"
-          else
-            git commit -m "🧠 Obsidian 동기화: Phase 26 ($(date '+%Y-%m-%d %H:%M:%S'))"
-            git push origin main
-          fi
+        uses: ./.github/actions/publish
+        with:
+          paths: data obsidian
+          message: Obsidian 동기화 (Phase 26)
 
       - name: 📊 동기화 결과 표시
         run: |
