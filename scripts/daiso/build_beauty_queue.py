@@ -181,6 +181,41 @@ def call(key: str, model: str, url: str) -> tuple[list, str, str]:
     return uniq, "", fetch_status
 
 
+def probe(key: str, model: str, url: str) -> str:
+    """빈 배열이 왔을 때, 페이지를 정말 읽었는지 되묻는다.
+
+    첫 회차가 [] 를 돌려줬다. 그런데 [] 는 두 가지를 똑같이 뜻한다.
+      1. 페이지를 못 열었다 (렌더 실패·차단·타임아웃)
+      2. 페이지는 열었는데 상품 링크가 없었다
+    둘은 대응이 정반대다. 1이면 이 방법을 접고 다른 길을 찾아야 하고,
+    2면 허브 주소를 바꾸면 된다. 같은 요청을 한 번 더 보내봐야
+    또 [] 만 온다. 그래서 무엇을 봤는지 직접 묻는다.
+
+    이 답은 기록에만 남긴다. 수집 데이터로 쓰지 않는다.
+    """
+    q = (f"Open {url}. Do not list links. Answer in one short line:\n"
+         f"the page <title>, then how many product cards you can see, "
+         f"then the first 40 characters of visible body text. "
+         f"If you could not open the page, say exactly: COULD_NOT_OPEN")
+    body = {"model": model, "input": q, "tools": [{"type": "url_context"}]}
+    data = json.dumps(body).encode("utf-8")
+    try:
+        req = urllib.request.Request(
+            ENDPOINT, data=data, method="POST",
+            headers={"Content-Type": "application/json", "x-goog-api-key": key})
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+            res = json.loads(r.read().decode("utf-8"))
+    except Exception as e:                                    # noqa: BLE001
+        return f"진단 호출 실패: {type(e).__name__}: {e}"
+    out = ""
+    for step in res.get("steps", []):
+        if step.get("type") == "model_output":
+            for cb in step.get("content", []):
+                if cb.get("type") == "text":
+                    out += cb.get("text", "")
+    return (out or "(진단 응답 없음)").strip()[:400]
+
+
 def main() -> int:
     key = os.environ.get("GEMINI_API_KEY", "").strip()
     if not key:
@@ -204,8 +239,12 @@ def main() -> int:
     got, errors, statuses = [], [], []
     for name, url in targets:
         urls, err, st = call(key, model, url)
-        statuses.append({"target": name, "url": url,
-                         "count": len(urls), "url_context": st[:200]})
+        row = {"target": name, "url": url,
+               "count": len(urls), "url_context": st[:200]}
+        if not urls:
+            row["진단"] = probe(key, model, url)
+            print(f"  {name}: 진단 - {row['진단'][:160]}")
+        statuses.append(row)
         if err:
             errors.append({"target": name, "url": url, "error": err})
             print(f"  {name}: 실패 - {err[:120]}")
@@ -225,6 +264,9 @@ def main() -> int:
                "LLM 이 옮긴 숫자를 실측값으로 쓰지 않는다."),
         "model": model,
         "model_pick": how,
+        "진단이란": ("count 가 0 인 대상에는 진단 칸이 붙는다. Gemini 에게 "
+                  "그 페이지에서 무엇을 봤는지 되물은 답이다. 기록용이며 "
+                  "수집 데이터로 쓰지 않는다."),
         "targets": statuses,
         "errors": errors,
         "new_this_run": len(fresh),
