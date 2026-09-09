@@ -126,55 +126,13 @@ jobs:
                   print(f"- {p}: {len(d)}건")
           PY
 
-      - name: Commit and push
+      - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: steps.validate.outputs.artifacts_ok == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        uses: ./.github/actions/publish
+        with:
+          paths: data/daiso_real
+          message: 다이소 실수집 + Shopify 수요 점수 갱신
 
-          # 이번 실행이 만든 산출물을 임시 커밋으로 고정
-          for pth in data/daiso_real; do
-            git add -A -- "$pth" 2>/dev/null || true
-          done
-          if git diff --cached --quiet; then
-            echo "생성된 변경 없음"
-            exit 0
-          fi
-          git commit -q -m "wip"
-          MINE=$(git rev-parse HEAD)
-
-          # 원격 최신을 베이스로 두고 그 위에 우리 산출물만 얹는다.
-          # rebase 를 쓰지 않으므로 add/add 충돌이 구조적으로 발생하지 않는다.
-          # (2026-09-01: rebase 방식이 manual_channels.json 충돌로 계속 실패해 교체)
-          for i in 1 2 3 4 5; do
-            git fetch -q origin main
-            git checkout -q -B publish origin/main
-              RESTORED=0
-              for pth in data/daiso_real; do
-                if git checkout -q "$MINE" -- "$pth" 2>/dev/null; then
-                  RESTORED=$((RESTORED+1))
-                fi
-                git add -A -- "$pth" 2>/dev/null || true
-              done
-            if [ "$RESTORED" -eq 0 ]; then
-              echo "산출물 복원 실패 - 중단"
-              exit 1
-            fi
-            if git diff --cached --quiet; then
-              echo "원격과 동일 - 푸시 불필요"
-              exit 0
-            fi
-            git commit -q -m "다이소 실수집 + Shopify 수요 점수 갱신"
-            if git push -q origin HEAD:main; then
-              echo "push 성공 (시도 $i, 복원 경로 ${RESTORED}개)"
-              exit 0
-            fi
-            echo "push 거절됨, 재시도 $i"
-            git reset -q --hard "$MINE"
-            sleep $((i * 4))
-          done
-          echo "5회 시도 후 push 실패"
-          exit 1
       # 수집 단계가 continue-on-error 라 스크립트가 죽어도 워크플로는
       # 초록으로 끝난다. 실제로 09-06 21:23 실행이 성공으로 보고됐는데
       # collection_status 는 09-05 것 그대로였다. 성공했다고 믿게 된다.

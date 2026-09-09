@@ -312,9 +312,10 @@ jobs:
       # 팀이 보고한 숫자를 원본 파일과 대조한다. 스크립트가 오류 없이
       # 끝나도 숫자가 틀릴 수 있고, 실제로 이틀 동안 네 번 그랬다.
       # 여기서 빨갛게 뜨는 편이 조용히 틀린 값을 띄우는 것보다 낫다.
-      - name: 팀 보고 숫자 감사 (카드 vs 원본 파일)
-        timeout-minutes: 3
-        run: python -u scripts/audit_team_reports.py
+      # 팀 보고 숫자 감사는 발행 액션(.github/actions/publish) 안으로 옮겼다.
+      # 여기서 돌리면 아직 원격과 합치기 전 트리를 본다. 그런데 다른
+      # 워크플로가 그 사이 원본 파일을 갱신했으면 합친 뒤 숫자가 달라진다.
+      # 실제로 밀어넣는 트리를 봐야 감사가 뜻이 있다.
 
       - name: Validate real-data artifacts
         run: |
@@ -362,55 +363,13 @@ jobs:
       #
       # 다만 결과는 그대로 실패로 남긴다. 아래 '앞 단계 실패 확인' 이
       # 빨갛게 끝낸다. 자료는 남기고 문제는 드러낸다.
-      - name: Commit generated knowledge and dashboard state
+      - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: always()
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        uses: ./.github/actions/publish
+        with:
+          paths: data obsidian
+          message: Run JARVIS Daiso + US Beauty Shopify Pipeline & Sync Channels
 
-          # 이번 실행이 만든 산출물을 임시 커밋으로 고정
-          for pth in data obsidian; do
-            git add -A -- "$pth" 2>/dev/null || true
-          done
-          if git diff --cached --quiet; then
-            echo "생성된 변경 없음"
-            exit 0
-          fi
-          git commit -q -m "wip"
-          MINE=$(git rev-parse HEAD)
-
-          # 원격 최신을 베이스로 두고 그 위에 우리 산출물만 얹는다.
-          # rebase 를 쓰지 않으므로 add/add 충돌이 구조적으로 발생하지 않는다.
-          # (2026-09-01: rebase 방식이 manual_channels.json 충돌로 계속 실패해 교체)
-          for i in 1 2 3 4 5; do
-            git fetch -q origin main
-            git checkout -q -B publish origin/main
-              RESTORED=0
-              for pth in data obsidian; do
-                if git checkout -q "$MINE" -- "$pth" 2>/dev/null; then
-                  RESTORED=$((RESTORED+1))
-                fi
-                git add -A -- "$pth" 2>/dev/null || true
-              done
-            if [ "$RESTORED" -eq 0 ]; then
-              echo "산출물 복원 실패 - 중단"
-              exit 1
-            fi
-            if git diff --cached --quiet; then
-              echo "원격과 동일 - 푸시 불필요"
-              exit 0
-            fi
-            git commit -q -m "Run JARVIS Daiso + US Beauty Shopify Pipeline & Sync Channels"
-            if git push -q origin HEAD:main; then
-              echo "push 성공 (시도 $i, 복원 경로 ${RESTORED}개)"
-              exit 0
-            fi
-            echo "push 거절됨, 재시도 $i"
-            git reset -q --hard "$MINE"
-            sleep $((i * 4))
-          done
-          echo "5회 시도 후 push 실패"
-          exit 1
       - name: Complete summary
         if: always()
         run: |
