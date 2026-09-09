@@ -2,7 +2,7 @@
 title: "Record 1047 · JetSenseai-Launches-TextChat-The-Only-Ecommerce-Sales-Tool-That-Turns-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.081614+00:00
+updated_at: 2026-09-09T10:37:14.030125+00:00
 tags: [record, real-data]
 ---
 

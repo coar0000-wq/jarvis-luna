@@ -8,7 +8,7 @@
 
 ## 📋 프로젝트 개요
 
-[[JARVIS_Phase1_아침모닝콜_시스템|pyttsx3 기반 모닝콜]] 에서 **Twilio 기반 실제 전화**로 업그레이드
+**pyttsx3 기반 모닝콜** 에서 **Twilio 기반 실제 전화**로 업그레이드
 
 **최종 목표**:
 - ✅ 매일 08:00에 자동 실행
@@ -106,7 +106,7 @@
 - **단점**: 
   - 컴퓨터 스피커 필요
   - 핸드폰이 아님
-- **상태**: [[JARVIS_Phase1_아침모닝콜_시스템|기존 pyttsx3 시스템]] 활용
+- **상태**: **기존 pyttsx3 시스템** 활용
 
 ### ⚠️ **방안 2: Twilio 미국 가상 번호**
 - **비용**: $1-1.50/월 (영구)
@@ -158,10 +158,10 @@ python setup_twilio_scheduler.py
 
 ## 📚 관련 노드
 
-- [[JARVIS_Phase1_아침모닝콜_시스템|pyttsx3 기반 모닝콜]]
-- [[JARVIS_아키텍처_음성비서_전도메인|JARVIS 음성 비서]]
-- [[Twilio_API_통합|Twilio API 가이드]]
-- [[Windows_Task_Scheduler_자동화|Task Scheduler 설정]]
+- **pyttsx3 기반 모닝콜**
+- **JARVIS 음성 비서**
+- **Twilio API 가이드**
+- **Task Scheduler 설정**
 
 ---
 

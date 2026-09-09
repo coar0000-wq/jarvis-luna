@@ -14,85 +14,85 @@
 
 ## 자동 데이터 라벨링 팩토리 개요
 
-### [[Automatic Data Labeling Factory Overview]]
+### **Automatic Data Labeling Factory Overview**
 
 **팩토리의 정의**:
-[[What is Factory?]]:
-- [[Automated Infrastructure]]: 완전 자동화 인프라
-- [[End-to-End Pipeline]]: 데이터 입력부터 출력까지
+**What is Factory?**:
+- **Automated Infrastructure**: 완전 자동화 인프라
+- **End-to-End Pipeline**: 데이터 입력부터 출력까지
 - [[Hybrid Approach]]: 인간-AI 협력
 - [[Continuous Learning]]: 지속적 자동 개선
-- [[Enterprise Scale]]: 대규모 처리 능력
+- **Enterprise Scale**: 대규모 처리 능력
 
 **핵심 특징**:
-[[Key Characteristics]]:
-- [[10x Faster]]: 10배 빠른 처리
-- [[Cost Reduction]]: 비용 80% 절감
-- [[Quality Assurance]]: 정확도 90%+ 유지
-- [[Scalability]]: 무제한 확장
-- [[Automation]]: 60-80% 자동화율
+**Key Characteristics**:
+- **10x Faster**: 10배 빠른 처리
+- **Cost Reduction**: 비용 80% 절감
+- **Quality Assurance**: 정확도 90%+ 유지
+- **Scalability**: 무제한 확장
+- **Automation**: 60-80% 자동화율
 
 ---
 
 ## AI 에이전트 기반 라벨링 팩토리
 
-### [[AI Agent-Based Labeling Factory]]
+### **AI Agent-Based Labeling Factory**
 
 #### 에이전트의 역할
-[[Agent Roles in Factory]]:
-- [[Easy Sample Detection]]: 쉬운 샘플 자동 감지
-- [[Auto Labeling]]: 자동 라벨 생성
-- [[Hard Case Routing]]: 어려운 케이스 인간에게 라우팅
-- [[Quality Scoring]]: 품질 점수 계산
-- [[Continuous Improvement]]: 지속적 성능 개선
+**Agent Roles in Factory**:
+- **Easy Sample Detection**: 쉬운 샘플 자동 감지
+- **Auto Labeling**: 자동 라벨 생성
+- **Hard Case Routing**: 어려운 케이스 인간에게 라우팅
+- **Quality Scoring**: 품질 점수 계산
+- **Continuous Improvement**: 지속적 성능 개선
 
 #### 팩토리 아키텍처
-[[Factory Architecture]]:
+**Factory Architecture**:
 
 **입력 계층 (Input Layer)**:
-1. [[Data Ingestion]]: 데이터 수집
-2. [[Data Validation]]: 검증
+1. **Data Ingestion**: 데이터 수집
+2. **Data Validation**: 검증
 3. [[Data Preparation]]: 전처리
-4. [[Metadata Extraction]]: 메타데이터 추출
+4. **Metadata Extraction**: 메타데이터 추출
 
 **처리 계층 (Processing Layer)**:
-1. [[Pre-Labeling]]: 자동 사전 라벨링
-2. [[Model Inference]]: 모델 추론
+1. **Pre-Labeling**: 자동 사전 라벨링
+2. **Model Inference**: 모델 추론
 3. [[Confidence Scoring]]: 신뢰도 계산
-4. [[Difficulty Assessment]]: 난이도 평가
+4. **Difficulty Assessment**: 난이도 평가
 
 **라우팅 계층 (Routing Layer)**:
-1. [[Easy Cases]]: 자동 완료 (신뢰도 > 90%)
-2. [[Medium Cases]]: 품질 검토 필요
-3. [[Hard Cases]]: 인간 검토 필요
+1. **Easy Cases**: 자동 완료 (신뢰도 > 90%)
+2. **Medium Cases**: 품질 검토 필요
+3. **Hard Cases**: 인간 검토 필요
 4. [[Edge Cases]]: 특수 처리
 
 **인간 루프 (Human Loop)**:
-1. [[Expert Review]]: 전문가 검토
+1. **Expert Review**: 전문가 검토
 2. [[Consensus Labeling]]: 합의 라벨링
-3. [[Feedback Collection]]: 피드백 수집
-4. [[Learning Update]]: 모델 학습
+3. **Feedback Collection**: 피드백 수집
+4. **Learning Update**: 모델 학습
 
 **출력 계층 (Output Layer)**:
-1. [[Quality Control]]: 최종 품질 관리
+1. **Quality Control**: 최종 품질 관리
 2. [[Format Conversion]]: 형식 변환
-3. [[Data Export]]: 데이터 내보내기
+3. **Data Export**: 데이터 내보내기
 4. [[Audit Trail]]: 감사 추적 기록
 
 ---
 
 ## 하이브리드 인간-AI 접근법
 
-### [[Hybrid Human-AI Approach]]
+### **Hybrid Human-AI Approach**
 
 **패러다임 전환**:
-[[Paradigm Shift]]:
-- [[Old Model]]: 100% 인간 라벨링
-- [[Transition]]: 하이브리드 모델 (70% 자동 + 30% 인간)
-- [[Future]]: 80-90% 자동화
+**Paradigm Shift**:
+- **Old Model**: 100% 인간 라벨링
+- **Transition**: 하이브리드 모델 (70% 자동 + 30% 인간)
+- **Future**: 80-90% 자동화
 
 **효율성 비교**:
-[[Efficiency Comparison]]:
+**Efficiency Comparison**:
 
 | 측면 | 전통적 | 하이브리드 | 자동 |
 |------|--------|----------|------|
@@ -109,82 +109,82 @@
 ### [[Technology Stack]]
 
 #### AI & LLM 기술
-[[AI Technologies]]:
-- [[Large Language Models]]: GPT, Claude, LLaMA
-- [[Vision Models]]: YOLO, SAM, CLIP
-- [[Multi-Modal Models]]: DALL-E, Flamingo
-- [[Fine-tuned Models]]: 도메인 특화 모델
+**AI Technologies**:
+- **Large Language Models**: GPT, Claude, LLaMA
+- **Vision Models**: YOLO, SAM, CLIP
+- **Multi-Modal Models**: DALL-E, Flamingo
+- **Fine-tuned Models**: 도메인 특화 모델
 
 #### 기계학습 기법
-[[ML Techniques]]:
+**ML Techniques**:
 
 **Active Learning**:
-- [[Query Strategy]]: 불확실성 샘플링
+- **Query Strategy**: 불확실성 샘플링
 - [[Uncertainty Sampling]]: 신뢰도 기반 선택
-- [[Diversity Sampling]]: 다양성 기반 선택
-- [[Cost-Sensitive]]: 비용 고려 샘플링
+- **Diversity Sampling**: 다양성 기반 선택
+- **Cost-Sensitive**: 비용 고려 샘플링
 
 **Self-Supervised Learning**:
 - [[Contrastive Learning]]: SimCLR, MoCo
-- [[Clustering]]: 군집 기반 학습
-- [[Pseudo-Labeling]]: 의사 라벨 생성
-- [[Self-Training]]: 자기 학습
+- **Clustering**: 군집 기반 학습
+- **Pseudo-Labeling**: 의사 라벨 생성
+- **Self-Training**: 자기 학습
 
 **Model-in-the-Loop**:
-- [[MILO Framework]]: 모델-인-루프 프레임워크
-- [[Pre-annotation]]: 사전 주석
-- [[Real-time Assistance]]: 실시간 보조
+- **MILO Framework**: 모델-인-루프 프레임워크
+- **Pre-annotation**: 사전 주석
+- **Real-time Assistance**: 실시간 보조
 - [[Feedback Loop]]: 피드백 루프
 
 #### 자동화 도구
-[[Automation Tools]]:
-- [[Labeling Platforms]]: Labelbox, Encord, Roboflow
-- [[Quality Assurance]]: Label Studio, CVAT
+**Automation Tools**:
+- **Labeling Platforms**: Labelbox, Encord, Roboflow
+- **Quality Assurance**: Label Studio, CVAT
 - [[Data Processing]]: MLOps 파이프라인
-- [[Orchestration]]: 작업 흐름 관리
+- **Orchestration**: 작업 흐름 관리
 
 ---
 
 ## 엔터프라이즈 솔루션
 
-### [[Enterprise Solutions]]
+### **Enterprise Solutions**
 
 #### 주요 제공업체
-[[Leading Providers]]:
+**Leading Providers**:
 
 **Scale AI**:
-- [[Hybrid Pipelines]]: 인간-모델 하이브리드
-- [[Global Workforce]]: 글로벌 온디맨드 인력
+- **Hybrid Pipelines**: 인간-모델 하이브리드
+- **Global Workforce**: 글로벌 온디맨드 인력
 - [[Autonomous Vehicles]]: 자율주행 데이터
-- [[Defense & Robotics]]: 방위/로봇 데이터
-- [[Throughput]]: 수십억 프레임 처리
+- **Defense & Robotics**: 방위/로봇 데이터
+- **Throughput**: 수십억 프레임 처리
 
 **TELUS Digital**:
-- [[Everest Leader]]: 데이터 주석 리더 인정
-- [[AI/ML Solutions]]: 엔터프라이즈급
-- [[Quality Guaranteed]]: 품질 보증
-- [[Global Operations]]: 글로벌 운영
+- **Everest Leader**: 데이터 주석 리더 인정
+- **AI/ML Solutions**: 엔터프라이즈급
+- **Quality Guaranteed**: 품질 보증
+- **Global Operations**: 글로벌 운영
 
 **Labellerr**:
-- [[Auto-Labeling]]: 자동 라벨링 기능
+- **Auto-Labeling**: 자동 라벨링 기능
 - [[AI Integration]]: AI 통합
-- [[Industry Support]]: 산업별 지원
-- [[Cost Efficient]]: 비용 효율
+- **Industry Support**: 산업별 지원
+- **Cost Efficient**: 비용 효율
 
 **Encord**:
-- [[Automated Annotation]]: 자동 주석
+- **Automated Annotation**: 자동 주석
 - [[Computer Vision]]: CV 특화
 - [[Medical Imaging]]: 의료 이미징
-- [[Video Support]]: 비디오 지원
+- **Video Support**: 비디오 지원
 
 **Roboflow**:
-- [[Auto-labeling]]: 자동 라벨링
+- **Auto-labeling**: 자동 라벨링
 - [[SAM Integration]]: Segment Anything 통합
 - [[Model Training]]: 모델 훈련
 - [[Edge Deployment]]: 엣지 배포
 
 #### 솔루션 비교
-[[Solution Comparison]]:
+**Solution Comparison**:
 
 **고성능 추구 (Performance-First)**:
 - → Scale AI, TELUS Digital
@@ -212,11 +212,11 @@
 
 #### Active Learning 기반 라벨링
 [[Active Learning]]:
-- [[Concept]]: 가장 정보성 높은 샘플 선택
-- [[Strategy 1]]: 불확실성 샘플링
-- [[Strategy 2]]: 다양성 기반
-- [[Strategy 3]]: 비용 고려
-- [[Benefit]]: 라벨링 비용 50% 절감
+- **Concept**: 가장 정보성 높은 샘플 선택
+- **Strategy 1**: 불확실성 샘플링
+- **Strategy 2**: 다양성 기반
+- **Strategy 3**: 비용 고려
+- **Benefit**: 라벨링 비용 50% 절감
 
 **구현 예**:
 ```
@@ -229,12 +229,12 @@
 ```
 
 #### Self-Supervised 라벨링
-[[Self-Supervised Learning]]:
-- [[Concept]]: 라벨 없이 표현 학습
-- [[Method 1]]: 대조 학습 (SimCLR, MoCo)
-- [[Method 2]]: 군집 기반
-- [[Method 3]]: 의사 라벨
-- [[Benefit]]: 초기 라벨 의존도 감소
+**Self-Supervised Learning**:
+- **Concept**: 라벨 없이 표현 학습
+- **Method 1**: 대조 학습 (SimCLR, MoCo)
+- **Method 2**: 군집 기반
+- **Method 3**: 의사 라벨
+- **Benefit**: 초기 라벨 의존도 감소
 
 **Curator 도구**:
 - 대규모 이미지 데이터 (페타바이트)
@@ -243,12 +243,12 @@
 - 활성 학습으로 후보 추출
 
 #### Model-in-the-Loop (MILO)
-[[Model-in-the-Loop]]:
-- [[Pre-annotation]]: AI가 사전 라벨링
-- [[Real-time Assistance]]: 실시간 제안
-- [[Judge Function]]: 품질 판단
+**Model-in-the-Loop**:
+- **Pre-annotation**: AI가 사전 라벨링
+- **Real-time Assistance**: 실시간 제안
+- **Judge Function**: 품질 판단
 - [[Human Review]]: 인간 검토
-- [[Feedback]]: 자동 피드백 루프
+- **Feedback**: 자동 피드백 루프
 
 **이점**:
 - 처리 시간 30-50% 감소
@@ -259,99 +259,99 @@
 
 ## 엔터프라이즈 구현 아키텍처
 
-### [[Enterprise Implementation]]
+### **Enterprise Implementation**
 
 #### Phase 1: 기반 구축
 [[Foundation Phase]]:
 1. [[Requirements Analysis]]: 요구사항 분석
-2. [[Data Assessment]]: 데이터 평가
+2. **Data Assessment**: 데이터 평가
 3. [[Tool Selection]]: 도구 선택
-4. [[Team Setup]]: 팀 구성
-5. [[Pilot Project]]: 파일럿 프로젝트
+4. **Team Setup**: 팀 구성
+5. **Pilot Project**: 파일럿 프로젝트
 
 #### Phase 2: 파이프라인 구성
-[[Pipeline Setup]]:
-1. [[Data Ingestion]]: 데이터 수집 자동화
-2. [[Pre-labeling]]: 자동 사전 라벨링
-3. [[Quality Metrics]]: 품질 메트릭 정의
-4. [[Routing Logic]]: 라우팅 로직 설정
+**Pipeline Setup**:
+1. **Data Ingestion**: 데이터 수집 자동화
+2. **Pre-labeling**: 자동 사전 라벨링
+3. **Quality Metrics**: 품질 메트릭 정의
+4. **Routing Logic**: 라우팅 로직 설정
 5. [[Feedback Loop]]: 피드백 구성
 
 #### Phase 3: 자동화 확대
-[[Scaling Phase]]:
-1. [[Increase Volume]]: 처리량 증가
-2. [[Add Models]]: 모델 추가
-3. [[Optimize Routes]]: 라우팅 최적화
-4. [[Monitor Quality]]: 품질 모니터링
-5. [[Continuous Improvement]]: 지속적 개선
+**Scaling Phase**:
+1. **Increase Volume**: 처리량 증가
+2. **Add Models**: 모델 추가
+3. **Optimize Routes**: 라우팅 최적화
+4. **Monitor Quality**: 품질 모니터링
+5. **Continuous Improvement**: 지속적 개선
 
 #### Phase 4: 운영 자동화
-[[Operations Phase]]:
-1. [[Full Automation]]: 완전 자동화
-2. [[24/7 Processing]]: 연속 운영
-3. [[Auto-Scaling]]: 자동 스케일링
-4. [[Predictive Maintenance]]: 예측 유지보수
-5. [[Analytics & Reporting]]: 분석 & 보고
+**Operations Phase**:
+1. **Full Automation**: 완전 자동화
+2. **24/7 Processing**: 연속 운영
+3. **Auto-Scaling**: 자동 스케일링
+4. **Predictive Maintenance**: 예측 유지보수
+5. **Analytics & Reporting**: 분석 & 보고
 
 ---
 
 ## 산업별 적용 사례
 
-### [[Industry Applications]]
+### **Industry Applications**
 
 #### 자율주행 (Autonomous Vehicles)
 [[Autonomous Vehicles]]:
-- [[Data Type]]: LiDAR, Camera, Radar
-- [[Annotation]]: 3D Bounding Box, Tracking
-- [[Scale]]: 수억 프레임
-- [[Challenge]]: 높은 정확도 요구
-- [[Solution]]: Scale AI, TELUS
+- **Data Type**: LiDAR, Camera, Radar
+- **Annotation**: 3D Bounding Box, Tracking
+- **Scale**: 수억 프레임
+- **Challenge**: 높은 정확도 요구
+- **Solution**: Scale AI, TELUS
 - [[ROI]]: 개발 시간 70% 단축
 
 #### 헬스케어 (Healthcare)
-[[Healthcare]]:
-- [[Data Type]]: CT, MRI, X-ray, Pathology
-- [[Annotation]]: 영상 분석, 분류
-- [[Scale]]: 수백만 이미지
-- [[Challenge]]: 규제, 개인정보
-- [[Solution]]: Encord Medical, Roboflow
+**Healthcare**:
+- **Data Type**: CT, MRI, X-ray, Pathology
+- **Annotation**: 영상 분석, 분류
+- **Scale**: 수백만 이미지
+- **Challenge**: 규제, 개인정보
+- **Solution**: Encord Medical, Roboflow
 - [[ROI]]: 진단 시간 50% 단축
 
 #### 제조 (Manufacturing)
-[[Manufacturing]]:
-- [[Data Type]]: 공장 카메라, 센서
-- [[Annotation]]: 결함 감지, 분류
-- [[Scale]]: 실시간 스트림
-- [[Challenge]]: 엣지 배포
-- [[Solution]]: Roboflow Edge, CVAT
+**Manufacturing**:
+- **Data Type**: 공장 카메라, 센서
+- **Annotation**: 결함 감지, 분류
+- **Scale**: 실시간 스트림
+- **Challenge**: 엣지 배포
+- **Solution**: Roboflow Edge, CVAT
 - [[ROI]]: 품질 관리 비용 40% 절감
 
 #### 금융 (Finance)
-[[Finance]]:
-- [[Data Type]]: 문서, 거래, 이미지
-- [[Annotation]]: 분류, 개체명 인식
-- [[Scale]]: 수십억 기록
-- [[Challenge]]: 규정 준수, 감사
-- [[Solution]]: Labellerr, Label Studio
+**Finance**:
+- **Data Type**: 문서, 거래, 이미지
+- **Annotation**: 분류, 개체명 인식
+- **Scale**: 수십억 기록
+- **Challenge**: 규정 준수, 감사
+- **Solution**: Labellerr, Label Studio
 - [[ROI]]: 처리 시간 80% 단축
 
 #### 소매 (Retail)
-[[Retail]]:
-- [[Data Type]]: 상품 이미지, 재고
-- [[Annotation]]: 분류, 태깅
-- [[Scale]]: 대규모
-- [[Challenge]]: 실시간 요구
-- [[Solution]]: Roboflow, Labelbox
+**Retail**:
+- **Data Type**: 상품 이미지, 재고
+- **Annotation**: 분류, 태깅
+- **Scale**: 대규모
+- **Challenge**: 실시간 요구
+- **Solution**: Roboflow, Labelbox
 - [[ROI]]: 인벤토리 정확도 95%+
 
 ---
 
 ## LLM 기반 자동 라벨링
 
-### [[LLM-Based Auto-Labeling]]
+### **LLM-Based Auto-Labeling**
 
 #### 접근법
-[[Approaches]]:
+**Approaches**:
 
 **DALL (Data Labeling via Data Programming)**:
 - LLM 기반 약한 감독자 (Weak Supervisors)
@@ -360,59 +360,59 @@
 - 낮은 라벨 의존도
 
 **Open-Source LLM 기반**:
-- [[Retrieval Augmented Classification]]: RAC
-- [[Dynamic Label Schema]]: 동적 라벨 스키마
-- [[Cost Efficiency]]: 비용 효율적
-- [[Customization]]: 커스터마이징 가능
+- **Retrieval Augmented Classification**: RAC
+- **Dynamic Label Schema**: 동적 라벨 스키마
+- **Cost Efficiency**: 비용 효율적
+- **Customization**: 커스터마이징 가능
 
 **Vision-Language Models**:
-- [[CLIP Integration]]: CLIP 통합
-- [[Zero-shot Labeling]]: 제로샷 라벨링
-- [[Multi-modal]]: 다중 모달
+- **CLIP Integration**: CLIP 통합
+- **Zero-shot Labeling**: 제로샷 라벨링
+- **Multi-modal**: 다중 모달
 - [[Domain Adaptation]]: 도메인 적응
 
 #### 성능 지표
-[[Performance]]:
-- [[Speed Improvement]]: 100-500배 빠름
-- [[Cost Reduction]]: 비용 80-90% 절감
-- [[Accuracy]]: 88-96% (모델-인-루프)
-- [[Scalability]]: 무제한 확장
+**Performance**:
+- **Speed Improvement**: 100-500배 빠름
+- **Cost Reduction**: 비용 80-90% 절감
+- **Accuracy**: 88-96% (모델-인-루프)
+- **Scalability**: 무제한 확장
 
 ---
 
 ## 학술 논문 & 연구
 
-### [[Research & Papers]]
+### **Research & Papers**
 
 #### 2025 최신 논문
-[[2025 Papers]]:
-- [[LABELING-COPILOT]]: Deep Research Agent for Auto Curation
-- [[MILO Framework]]: Model-in-the-Loop Multimodal Annotation
-- [[Auto-Annotation]]: From Guidelines to Auto (3D LiDAR)
-- [[DALL]]: Data Programming + Active Learning
+**2025 Papers**:
+- **LABELING-COPILOT**: Deep Research Agent for Auto Curation
+- **MILO Framework**: Model-in-the-Loop Multimodal Annotation
+- **Auto-Annotation**: From Guidelines to Auto (3D LiDAR)
+- **DALL**: Data Programming + Active Learning
 
 #### 2024 주요 연구
-[[2024 Research]]:
-- [[Structured Exploration]]: Label Function Optimization
-- [[OpenAnnotate3D]]: Open-Vocabulary Auto-Labeling
-- [[AS3L]]: Active Semi-Supervised Learning
-- [[Curator Tool]]: Self-Supervised Image Curation
+**2024 Research**:
+- **Structured Exploration**: Label Function Optimization
+- **OpenAnnotate3D**: Open-Vocabulary Auto-Labeling
+- **AS3L**: Active Semi-Supervised Learning
+- **Curator Tool**: Self-Supervised Image Curation
 
 #### 기술 논문
-[[Technical Papers]]:
+**Technical Papers**:
 - [[Active Learning]]: Query Strategy Optimization
-- [[Self-Supervised]]: Contrastive Learning Approaches
-- [[HITL]]: Human-in-the-Loop Workflows
-- [[Quality Assurance]]: Multi-Level Review Process
+- **Self-Supervised**: Contrastive Learning Approaches
+- **HITL**: Human-in-the-Loop Workflows
+- **Quality Assurance**: Multi-Level Review Process
 
 ---
 
 ## YouTube 학습 자료
 
-### [[YouTube Resources]]
+### **YouTube Resources**
 
 #### 자동 라벨링 튜토리얼
-[[Tutorial Videos]]:
+**Tutorial Videos**:
 
 1. **Labelbox 기초** - Labelbox Annotation Tutorial for Newbies
    - 플랫폼 설치 및 기본 사용
@@ -443,41 +443,41 @@
 
 ## ROI & 비즈니스 임팩트
 
-### [[ROI & Business Impact]]
+### **ROI & Business Impact**
 
 #### 비용 절감
-[[Cost Reduction]]:
-- [[Before]]: 100명 팀, $5M/연
-- [[After]]: 20명 팀 + 자동화, $1M/연
-- [[Savings]]: 80% 비용 절감 ($4M/연)
-- [[Payback]]: 6-12개월
+**Cost Reduction**:
+- **Before**: 100명 팀, $5M/연
+- **After**: 20명 팀 + 자동화, $1M/연
+- **Savings**: 80% 비용 절감 ($4M/연)
+- **Payback**: 6-12개월
 
 #### 속도 개선
-[[Speed Improvement]]:
-- [[Before]]: 매달 1M 샘플 처리
-- [[After]]: 매달 10M 샘플 처리
-- [[Improvement]]: 10배 처리량
-- [[Time-to-Market]]: 모델 배포 70% 단축
+**Speed Improvement**:
+- **Before**: 매달 1M 샘플 처리
+- **After**: 매달 10M 샘플 처리
+- **Improvement**: 10배 처리량
+- **Time-to-Market**: 모델 배포 70% 단축
 
 #### 품질 향상
-[[Quality Improvement]]:
-- [[Consistency]]: 95%+ 일관성
-- [[Accuracy]]: 92-96% 정확도
-- [[Rework Rate]]: 5% 이하
-- [[Customer Satisfaction]]: 98%+
+**Quality Improvement**:
+- **Consistency**: 95%+ 일관성
+- **Accuracy**: 92-96% 정확도
+- **Rework Rate**: 5% 이하
+- **Customer Satisfaction**: 98%+
 
 #### 확장성
-[[Scalability]]:
-- [[Before]]: 100M 데이터 포인트 (6개월)
-- [[After]]: 1B 데이터 포인트 (3개월)
-- [[Growth]]: 10배 확장성
-- [[Infrastructure]]: 선형 비용 증가
+**Scalability**:
+- **Before**: 100M 데이터 포인트 (6개월)
+- **After**: 1B 데이터 포인트 (3개월)
+- **Growth**: 10배 확장성
+- **Infrastructure**: 선형 비용 증가
 
 ---
 
 ## 구현 체크리스트
 
-### [[Implementation Checklist]]
+### **Implementation Checklist**
 
 **준비 단계**:
 - ☐ 요구사항 정의
@@ -528,7 +528,7 @@
 
 ## 요점 정리
 
-### [[Key Takeaways]]
+### **Key Takeaways**
 
 ✅ **팩토리의 정의**:
 - 완전 자동화된 데이터 라벨링 인프라

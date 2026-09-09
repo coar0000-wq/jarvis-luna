@@ -2,7 +2,7 @@
 title: "Record 859 · Earth-Mother-Geothermal-Solution-Closed-loop--Mineralization-Architect"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.028879+00:00
+updated_at: 2026-09-09T10:37:13.983565+00:00
 tags: [record, real-data]
 ---
 

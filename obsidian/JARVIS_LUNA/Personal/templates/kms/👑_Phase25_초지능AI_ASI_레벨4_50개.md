@@ -179,7 +179,7 @@ tags:
 **초지능**: [[Phase-25-초지능AI|초지능]]
 
 **마스터**: [[JARVIS_AGI_v2_완전완성|JARVIS AGI v2 완성]] - 1,450개 자료 전체 통합  
-**프로토콜**: [[JARVIS_Obsidian_Protocol|JARVIS Obsidian 프로토콜]]
+**프로토콜**: **JARVIS Obsidian 프로토콜**
 
 ---
 

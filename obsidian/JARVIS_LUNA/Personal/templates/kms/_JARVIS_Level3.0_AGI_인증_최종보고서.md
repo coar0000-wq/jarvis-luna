@@ -334,7 +334,7 @@ Level 3.0 Example:
 - [[👑_Phase25_초지능AI_ASI_레벨4_50개|Phase 25: 초지능]]
 - [[_JARVIS_웹데이터통합_2026_200개|웹 데이터 통합]]
 - [[JARVIS_AGI_v2_완전완성|JARVIS AGI v2 완성]]
-- [[JARVIS_Obsidian_Protocol|Obsidian 프로토콜]]
+- **Obsidian 프로토콜**
 
 ---
 

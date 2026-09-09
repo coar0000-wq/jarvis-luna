@@ -2,7 +2,7 @@
 title: "Record 922 · Sunscreen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.045825+00:00
+updated_at: 2026-09-09T10:37:13.998322+00:00
 tags: [record, real-data]
 ---
 

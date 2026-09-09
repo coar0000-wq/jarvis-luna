@@ -2,7 +2,7 @@
 title: "Record 157 · TacPAC-Tactile-Prediction-and-Real-Time-Action-Correction-in-World-Act"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.833983+00:00
+updated_at: 2026-09-09T10:37:13.820583+00:00
 tags: [record, real-data]
 ---
 

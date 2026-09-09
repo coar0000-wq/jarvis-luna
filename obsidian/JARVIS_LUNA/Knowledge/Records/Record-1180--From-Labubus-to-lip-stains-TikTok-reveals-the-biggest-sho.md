@@ -2,7 +2,7 @@
 title: "Record 1180 · From-Labubus-to-lip-stains-TikTok-reveals-the-biggest-shopping-trends-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.113362+00:00
+updated_at: 2026-09-09T10:37:14.059273+00:00
 tags: [record, real-data]
 ---
 

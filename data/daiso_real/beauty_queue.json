@@ -1,23 +1,25 @@
 {
-  "generated_at": "2026-09-08T21:54:39.952357+00:00",
+  "generated_at": "2026-09-09T10:48:29.482892+00:00",
   "generator": "scripts/daiso/build_beauty_queue.py",
   "왜": "사이트맵을 훑으면 뷰티관 밖 상품을 받아본 뒤 버린다. 한 회차 110건 중 82건이 그랬고 Crawl-delay 30 이라 41분이 버려졌다.",
   "신뢰": "URL 만 받는다. 이름과 가격은 collect_daiso.py 가 직접 받는다. LLM 이 옮긴 숫자를 실측값으로 쓰지 않는다.",
   "model": "gemini-flash-latest",
   "model_pick": "목록에서 고름 (후보 40개)",
+  "진단이란": "count 가 0 인 대상에는 진단 칸이 붙는다. Gemini 에게 그 페이지에서 무엇을 봤는지 되물은 답이다. 기록용이며 수집 데이터로 쓰지 않는다.",
   "targets": [
     {
       "target": "뷰티관 허브",
       "url": "https://www.daisomall.co.kr/ds/diy2/C245",
       "count": 0,
-      "url_context": "{\"call_id\": \"call_411020\", \"signature\": \"EuQCCuECCAIS3AIBEU0yDzhe0PbuUO5mvJiMSpqEvehuzU+r2eH9gmBLfHhMI/EBQAgUV1Ho04jO2VnIkQ5cH6ugnjaxercWGQPogLWXH9+J1fPZWxYkFhEiwDlnhV3X39V5XVZ7NGldc98zWJ1FOAIRZ3S87fy"
+      "url_context": "",
+      "진단": "진단 호출 실패: HTTPError: HTTP Error 500: Internal Server Error"
     }
   ],
   "errors": [
     {
       "target": "뷰티관 허브",
       "url": "https://www.daisomall.co.kr/ds/diy2/C245",
-      "error": "상품 URL 없음: []"
+      "error": "HTTP 500: {\"error\":{\"message\":\"gemini-flash-latest is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.\",\"code\":\"api_error\"}}"
     }
   ],
   "new_this_run": 0,

@@ -2,7 +2,7 @@
 title: "Record 806 · Performanceeinbruch-in-der-mündlichen-Zweitsprachproduktion-akademisch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.015152+00:00
+updated_at: 2026-09-09T10:37:13.971317+00:00
 tags: [record, real-data]
 ---
 

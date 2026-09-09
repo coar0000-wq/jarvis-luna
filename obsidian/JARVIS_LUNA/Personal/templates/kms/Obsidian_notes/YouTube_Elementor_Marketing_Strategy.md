@@ -2,7 +2,7 @@
 
 **원본 영상**: [Steal My Elementor Portfolio (Free Template)](https://www.youtube.com/watch?v=BOHnf9veNNU)  
 **분석일**: 2026-08-07  
-**학습 목적**: [[Satellite AI 콘텐츠 마케팅]] 전략 수립
+**학습 목적**: **Satellite AI 콘텐츠 마케팅** 전략 수립
 
 ---
 
@@ -196,13 +196,13 @@ Elementor 제휴               →  Google Earth/Sentinel 제휴
 
 ## 🔗 관련 Obsidian 노드
 
-- [[YouTube 마케팅 전략]]
-- [[Satellite AI 콘텐츠 마케팅]]
-- [[SaaS 무료+프리미엄 비즈니스 모델]]
-- [[SEO 키워드 최적화]]
-- [[웹 영상 마케팅]]
-- [[Satellite AI 사용 사례]]
-- [[AI 제품 론칭 전략]]
+- **YouTube 마케팅 전략**
+- **Satellite AI 콘텐츠 마케팅**
+- **SaaS 무료+프리미엄 비즈니스 모델**
+- **SEO 키워드 최적화**
+- **웹 영상 마케팅**
+- **Satellite AI 사용 사례**
+- **AI 제품 론칭 전략**
 
 ---
 

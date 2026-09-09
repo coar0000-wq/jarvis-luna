@@ -2,7 +2,7 @@
 title: "Record 518 · Reducing-Hospitalization-in-Adult-Hospice-Patients-by-Leveraging-Endof"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.933069+00:00
+updated_at: 2026-09-09T10:37:13.911609+00:00
 tags: [record, real-data]
 ---
 

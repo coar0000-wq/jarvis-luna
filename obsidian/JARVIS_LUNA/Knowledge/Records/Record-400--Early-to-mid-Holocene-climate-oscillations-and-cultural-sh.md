@@ -2,7 +2,7 @@
 title: "Record 400 · Early-to-mid-Holocene-climate-oscillations-and-cultural-shifts-in-the-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.901778+00:00
+updated_at: 2026-09-09T10:37:13.883223+00:00
 tags: [record, real-data]
 ---
 

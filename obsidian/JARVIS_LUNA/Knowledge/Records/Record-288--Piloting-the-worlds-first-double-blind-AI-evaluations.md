@@ -2,7 +2,7 @@
 title: "Record 288 · Piloting-the-worlds-first-double-blind-AI-evaluations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.872128+00:00
+updated_at: 2026-09-09T10:37:13.855872+00:00
 tags: [record, real-data]
 ---
 

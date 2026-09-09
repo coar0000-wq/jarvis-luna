@@ -2,7 +2,7 @@
 title: "Record 1054 · Viral-beauty-trend-debunked-Experts-warn-lemon-and-olive-oil-glow-skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.083520+00:00
+updated_at: 2026-09-09T10:37:14.031800+00:00
 tags: [record, real-data]
 ---
 

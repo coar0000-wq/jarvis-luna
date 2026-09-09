@@ -2,7 +2,7 @@
 title: "Record 1010 · Introducing-Forge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.071627+00:00
+updated_at: 2026-09-09T10:37:14.021251+00:00
 tags: [record, real-data]
 ---
 

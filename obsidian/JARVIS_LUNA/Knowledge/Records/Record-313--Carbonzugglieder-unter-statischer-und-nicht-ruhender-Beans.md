@@ -2,7 +2,7 @@
 title: "Record 313 · Carbonzugglieder-unter-statischer-und-nicht-ruhender-Beanspruchung"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.878443+00:00
+updated_at: 2026-09-09T10:37:13.861995+00:00
 tags: [record, real-data]
 ---
 

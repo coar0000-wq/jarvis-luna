@@ -2,7 +2,7 @@
 title: "Record 1221 · WTF-Is-Tired-Girl-Makeup---Marie-Claire"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.122231+00:00
+updated_at: 2026-09-09T10:37:14.068331+00:00
 tags: [record, real-data]
 ---
 

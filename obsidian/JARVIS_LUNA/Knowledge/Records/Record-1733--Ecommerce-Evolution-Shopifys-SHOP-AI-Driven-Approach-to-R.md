@@ -2,7 +2,7 @@
 title: "Record 1733 · Ecommerce-Evolution-Shopifys-SHOP-AI-Driven-Approach-to-Retail-Success"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.252561+00:00
+updated_at: 2026-09-09T10:37:14.180355+00:00
 tags: [record, real-data]
 ---
 

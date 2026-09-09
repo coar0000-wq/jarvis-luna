@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-09T10:49:32.677496+00:00",
+  "collected_at": "2026-09-09T10:36:37.863545+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -84,11 +84,11 @@
       "score": 2
     },
     {
-      "keyword": "brown",
+      "keyword": "essence",
       "score": 2
     },
     {
-      "keyword": "essence",
+      "keyword": "brown",
       "score": 2
     },
     {
@@ -271,16 +271,16 @@
       "feed": "hot"
     },
     {
-      "title": "Is it brown skin friendly? Does it leave bad whitecast ?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbffqh/is_it_brown_skin_friendly_does_it_leave_bad/",
-      "published": "2026-09-09T08:13:58+00:00",
+      "title": "Biore, rich, watery essence & My meltdown.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wb9fp9/biore_rich_watery_essence_my_meltdown/",
+      "published": "2026-09-09T02:53:26+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Biore, rich, watery essence & My meltdown.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wb9fp9/biore_rich_watery_essence_my_meltdown/",
-      "published": "2026-09-09T02:53:26+00:00",
+      "title": "Is it brown skin friendly? Does it leave bad whitecast ?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbffqh/is_it_brown_skin_friendly_does_it_leave_bad/",
+      "published": "2026-09-09T08:13:58+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },

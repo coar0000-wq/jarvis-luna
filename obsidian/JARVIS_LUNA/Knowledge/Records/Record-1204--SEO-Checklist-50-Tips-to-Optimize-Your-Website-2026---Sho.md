@@ -2,7 +2,7 @@
 title: "Record 1204 · SEO-Checklist-50-Tips-to-Optimize-Your-Website-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.118315+00:00
+updated_at: 2026-09-09T10:37:14.064572+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 451 · Fostering-cultural-change-in-research-through-innovative-knowledge-sha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.915415+00:00
+updated_at: 2026-09-09T10:37:13.895672+00:00
 tags: [record, real-data]
 ---
 

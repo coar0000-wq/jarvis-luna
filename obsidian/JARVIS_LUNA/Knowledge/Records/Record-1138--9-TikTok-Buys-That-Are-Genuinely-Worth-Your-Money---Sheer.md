@@ -2,7 +2,7 @@
 title: "Record 1138 · 9-TikTok-Buys-That-Are-Genuinely-Worth-Your-Money---SheerLuxe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.103706+00:00
+updated_at: 2026-09-09T10:37:14.050180+00:00
 tags: [record, real-data]
 ---
 

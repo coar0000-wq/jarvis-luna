@@ -2,7 +2,7 @@
 title: "Record 1744 · K-Beauty-Trends-Redefining-The-Future-Of-Luxury-Skincare---shoppingyah"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.255269+00:00
+updated_at: 2026-09-09T10:37:14.182884+00:00
 tags: [record, real-data]
 ---
 

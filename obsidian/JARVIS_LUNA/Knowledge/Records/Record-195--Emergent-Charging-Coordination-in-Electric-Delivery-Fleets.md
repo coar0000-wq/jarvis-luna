@@ -2,7 +2,7 @@
 title: "Record 195 · Emergent-Charging-Coordination-in-Electric-Delivery-Fleets"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.845457+00:00
+updated_at: 2026-09-09T10:37:13.831325+00:00
 tags: [record, real-data]
 ---
 

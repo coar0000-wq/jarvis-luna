@@ -356,13 +356,13 @@ channel: {metadata['channel']}
 - **조회수**: {metadata['views']}
 
 ## 관련 Phase
-{' '.join([f"[[{phase}]]" for phase in analysis['related_phases']])}
+{' '.join([f"**{phase}**" for phase in analysis['related_phases']])}
 
 ## 핵심 개념
-{' '.join([f"[[{concept}]]" for concept in analysis['concepts']])}
+{' '.join([f"**{concept}**" for concept in analysis['concepts']])}
 
 ## 기술 스택
-{' '.join([f"[[{tech}]]" for tech in analysis['tech_stack']])}
+{' '.join([f"**{tech}**" for tech in analysis['tech_stack']])}
 
 ## 메모리 파일
 [[youtube_integration_{metadata['video_id']}]]
@@ -397,8 +397,8 @@ def create_backlinks(node_name, analysis):
                 content += "\n## 참고 자료\n"
             
             # 중복 방지
-            if f"[[{node_name}]]" not in content:
-                content += f"- [[{node_name}]]\n"
+            if f"**{node_name}**" not in content:
+                content += f"- **{node_name}**\n"
             
             with open(phase_file, 'w', encoding='utf-8') as f:
                 f.write(content)

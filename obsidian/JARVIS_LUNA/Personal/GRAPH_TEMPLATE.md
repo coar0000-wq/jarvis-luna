@@ -15,47 +15,47 @@
 
 ## 📚 [주요 섹션 이름]
 
-### [[Main Topic Title]]
+### **Main Topic Title**
 
 **정의**:
-[[Topic Concept]]:
-- [[Key Point 1]]: 설명
-- [[Key Point 2]]: 설명
-- [[Key Point 3]]: 설명
+**Topic Concept**:
+- **Key Point 1**: 설명
+- **Key Point 2**: 설명
+- **Key Point 3**: 설명
 
 **특징**:
-[[Key Characteristics]]:
-- [[Feature 1]]: 설명
-- [[Feature 2]]: 설명
-- [[Feature 3]]: 설명
+**Key Characteristics**:
+- **Feature 1**: 설명
+- **Feature 2**: 설명
+- **Feature 3**: 설명
 
 ---
 
 ## 🎯 [실무 활용 섹션]
 
-### [[Practical Applications]]
+### **Practical Applications**
 
 #### [세부 활용 분야 1]
-[[Use Case Category 1]]:
-- [[Specific Use 1]]: 설명
+**Use Case Category 1**:
+- **Specific Use 1**: 설명
 - [[Specific Use 2]]: 설명
-- [[Specific Use 3]]: 설명
+- **Specific Use 3**: 설명
 
 #### [세부 활용 분야 2]
-[[Use Case Category 2]]:
-- [[Specific Use 1]]: 설명
+**Use Case Category 2**:
+- **Specific Use 1**: 설명
 - [[Specific Use 2]]: 설명
 
 ---
 
 ## 🎬 YouTube 학습 자료
 
-### [[YouTube Resources]]
+### **YouTube Resources**
 
 #### [카테고리 1]
-[[Category Name]]:
+**Category Name**:
 
-1. [[Video-Title-Slug]] - "[정확한 비디오 제목]"
+1. **Video-Title-Slug** - "[정확한 비디오 제목]"
    - **Channel**: [채널 이름] ([구독자 수])
    - **Duration**: [시간]분 [초]초
    - **Upload**: [업로드 시간]
@@ -63,14 +63,14 @@
    - **Focus**: [비디오 주제]
    - **Difficulty**: [난이도]
    - **Key Sections**:
-     - [[Topic 1]]: 설명
-     - [[Topic 2]]: 설명
-     - [[Topic 3]]: 설명
+     - **Topic 1**: 설명
+     - **Topic 2**: 설명
+     - **Topic 3**: 설명
    - **Language**: [언어]
    - **Best For**: [대상 청중]
 
 #### [카테고리 2]
-[[Category Name]]:
+**Category Name**:
 
 2. "[비디오 제목]" - [채널명]
    - [간단한 설명]
@@ -80,24 +80,24 @@
 
 ## 🔗 관련 개념
 
-### [[Related Concepts]]
+### **Related Concepts**
 
 #### [카테고리 1]
-[[Related Topic 1]]:
-- [[Concept A]]: 설명
-- [[Concept B]]: 설명
-- [[Concept C]]: 설명
+**Related Topic 1**:
+- **Concept A**: 설명
+- **Concept B**: 설명
+- **Concept C**: 설명
 
 #### [카테고리 2]
-[[Related Topic 2]]:
-- [[Concept X]]: 설명
-- [[Concept Y]]: 설명
+**Related Topic 2**:
+- **Concept X**: 설명
+- **Concept Y**: 설명
 
 ---
 
 ## 📈 학습 로드맵
 
-### [[Learning Path]]
+### **Learning Path**
 
 **Phase 1: [1단계 이름] ([기간])**
 - [학습 내용 1]
@@ -126,12 +126,12 @@
 - 고급 주제 2
 - 고급 주제 3
 
-### [[Common Mistakes]]
+### **Common Mistakes**
 - 흔한 실수 1
 - 흔한 실수 2
 - 흔한 실수 3
 
-### [[Tools & Resources]]
+### **Tools & Resources**
 - [도구 1]: 설명
 - [도구 2]: 설명
 - [도구 3]: 설명

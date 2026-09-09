@@ -2,7 +2,7 @@
 title: "Record 1026 · Introducing-Shieldstral"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.075972+00:00
+updated_at: 2026-09-09T10:37:14.025059+00:00
 tags: [record, real-data]
 ---
 

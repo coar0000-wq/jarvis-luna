@@ -2,7 +2,7 @@
 title: "Record 228 · Unifying-Power-Flow-and-Electromagnetic-Transient-Modeling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.856059+00:00
+updated_at: 2026-09-09T10:37:13.841061+00:00
 tags: [record, real-data]
 ---
 

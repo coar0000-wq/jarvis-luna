@@ -2,7 +2,7 @@
 title: "Record 366 · Steroid-thiamine-and-ascorbic-acid-for-comatose-out-of-hospital-cardia"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.892628+00:00
+updated_at: 2026-09-09T10:37:13.874960+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1361 · Every-Beauty-Secret-This-Gen-Z-Editor-Archived-From-BeautyTok-You-Know"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.161189+00:00
+updated_at: 2026-09-09T10:37:14.096304+00:00
 tags: [record, real-data]
 ---
 

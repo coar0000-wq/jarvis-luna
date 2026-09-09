@@ -2,7 +2,7 @@
 title: "Record 871 · Uso-de-clubes-de-lectura-escolares-para-fomentar-el-hábito-lector-en-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.032174+00:00
+updated_at: 2026-09-09T10:37:13.986477+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 031 · InstructMesh-Selective-Refinement-of-Generative-3D-Models-for-Fabricat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.796556+00:00
+updated_at: 2026-09-09T10:37:13.786896+00:00
 tags: [record, real-data]
 ---
 

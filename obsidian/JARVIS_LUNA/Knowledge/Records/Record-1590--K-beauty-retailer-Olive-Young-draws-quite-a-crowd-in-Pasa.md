@@ -2,7 +2,7 @@
 title: "Record 1590 · K-beauty-retailer-Olive-Young-draws-quite-a-crowd-in-Pasadena-its-firs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.218113+00:00
+updated_at: 2026-09-09T10:37:14.147913+00:00
 tags: [record, real-data]
 ---
 

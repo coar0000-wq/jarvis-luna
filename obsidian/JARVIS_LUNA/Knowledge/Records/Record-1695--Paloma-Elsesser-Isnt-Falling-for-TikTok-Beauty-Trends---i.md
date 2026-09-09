@@ -2,7 +2,7 @@
 title: "Record 1695 · Paloma-Elsesser-Isnt-Falling-for-TikTok-Beauty-Trends---interviewmagaz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.243237+00:00
+updated_at: 2026-09-09T10:37:14.171698+00:00
 tags: [record, real-data]
 ---
 

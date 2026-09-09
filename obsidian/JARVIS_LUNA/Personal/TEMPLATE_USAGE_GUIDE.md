@@ -88,27 +88,27 @@ GRAPH_TEMPLATE.md 형식으로 작성하고,
 
 ### 2. 주요 섹션
 ```markdown
-### [[Topic Name]]
+### **Topic Name**
 
 **정의**:
-[[Concept]]:
-- [[Point 1]]: 간단한 설명
-- [[Point 2]]: 간단한 설명
+**Concept**:
+- **Point 1**: 간단한 설명
+- **Point 2**: 간단한 설명
 
 **특징**:
-[[Key Characteristics]]:
-- [[Feature 1]]: 설명
-- [[Feature 2]]: 설명
+**Key Characteristics**:
+- **Feature 1**: 설명
+- **Feature 2**: 설명
 ```
 
 **작성 팁**:
 - 3-5개의 핵심 포인트만 선택
 - 각 포인트는 한 문장 정도로 간결하게
-- `[[Double Bracket]]` 형식으로 Obsidian 링크 생성
+- `**Double Bracket**` 형식으로 Obsidian 링크 생성
 
 ### 3. YouTube 자료 섹션
 ```markdown
-1. [[Video-Slug]] - "[정확한 제목]"
+1. **Video-Slug** - "[정확한 제목]"
    - **Channel**: [이름] ([구독자])
    - **Duration**: [시간]분 [초]초
    - **Upload**: [언제]
@@ -116,8 +116,8 @@ GRAPH_TEMPLATE.md 형식으로 작성하고,
    - **Focus**: [비디오의 주요 내용]
    - **Difficulty**: [초보자/중급/고급]
    - **Key Sections**:
-     - [[Topic 1]]: 설명
-     - [[Topic 2]]: 설명
+     - **Topic 1**: 설명
+     - **Topic 2**: 설명
 ```
 
 **작성 팁**:
@@ -217,7 +217,7 @@ AI_Agent_Security_Complete_Guide.md
 
 ### Step 3: 검증 체크리스트
 - [ ] 파일명이 PascalCase_Complete_Guide.md 형식
-- [ ] 모든 섹션이 `[[Double Bracket]]` 링크 포함
+- [ ] 모든 섹션이 `**Double Bracket**` 링크 포함
 - [ ] YouTube 자료가 최소 3개 이상
 - [ ] 난이도가 명확하게 표시됨
 - [ ] 메타데이터가 완전함
@@ -261,7 +261,7 @@ YouTube 자료: [링크들]
 
 ### 구조 검증
 - [ ] 모든 섹션이 마크다운 헤더로 구분됨
-- [ ] `[[Double Bracket]]` 링크 20개 이상 포함
+- [ ] `**Double Bracket**` 링크 20개 이상 포함
 - [ ] 순환 참조 없음
 - [ ] 고아 개념 없음
 

@@ -2,7 +2,7 @@
 title: "Record 1324 · Choose-Your-Fighter-The-Beauty-Debates-That-Ruled-2025---Bustle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.151866+00:00
+updated_at: 2026-09-09T10:37:14.089084+00:00
 tags: [record, real-data]
 ---
 

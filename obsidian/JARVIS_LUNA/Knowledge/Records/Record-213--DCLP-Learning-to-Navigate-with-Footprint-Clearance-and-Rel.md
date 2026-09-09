@@ -2,7 +2,7 @@
 title: "Record 213 · DCLP-Learning-to-Navigate-with-Footprint-Clearance-and-Relative-Motion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.851286+00:00
+updated_at: 2026-09-09T10:37:13.836691+00:00
 tags: [record, real-data]
 ---
 

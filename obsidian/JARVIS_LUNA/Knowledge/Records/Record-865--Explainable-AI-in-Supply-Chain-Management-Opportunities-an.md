@@ -2,7 +2,7 @@
 title: "Record 865 · Explainable-AI-in-Supply-Chain-Management-Opportunities-and-Research-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.030551+00:00
+updated_at: 2026-09-09T10:37:13.985016+00:00
 tags: [record, real-data]
 ---
 

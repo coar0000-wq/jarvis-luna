@@ -2,7 +2,7 @@
 title: "Record 1211 · Confused-about-K-beauty-Read-this-before-you-buy-anything---Get-the-Gl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.119763+00:00
+updated_at: 2026-09-09T10:37:14.066140+00:00
 tags: [record, real-data]
 ---
 

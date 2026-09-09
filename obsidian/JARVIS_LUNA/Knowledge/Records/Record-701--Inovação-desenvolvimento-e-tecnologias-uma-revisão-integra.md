@@ -2,7 +2,7 @@
 title: "Record 701 · Inovação-desenvolvimento-e-tecnologias-uma-revisão-integrativa-sobre-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.980519+00:00
+updated_at: 2026-09-09T10:37:13.949581+00:00
 tags: [record, real-data]
 ---
 

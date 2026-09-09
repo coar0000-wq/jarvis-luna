@@ -1,102 +1,25 @@
 {
   "last_run": {
-    "started_at": "2026-09-08T21:54:40.008086+00:00",
-    "requested": 110,
-    "ok": 10,
-    "parse_failed": 13,
+    "started_at": "2026-09-09T10:48:29.548285+00:00",
+    "requested": 3,
+    "ok": 0,
+    "parse_failed": 0,
     "http_error": 0,
     "sold_out": 0,
-    "parse_fail_reasons": {
-      "가격 없음": 13
-    },
-    "parse_fail_samples": [
-      {
-        "pd_no": "1038044",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "1037509",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "1063854",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "1011003",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "1051575",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "1061572",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "1071830",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "1045176",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "1051697",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "1062580",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "1047739",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "77503",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      }
-    ],
-    "skipped_not_beauty": 74,
-    "skipped_bucket_full": 12,
-    "skipped_excluded": {
-      "네일": 1
-    },
+    "parse_fail_reasons": {},
+    "parse_fail_samples": [],
+    "skipped_not_beauty": 3,
+    "skipped_bucket_full": 0,
+    "skipped_excluded": {},
     "pruned_existing": {},
     "queue_size": 0,
     "url_source": "sitemap",
     "scope": "다이소몰 뷰티관(C245) 10개 카테고리 (선케어·네일 제외)",
     "delay_seconds": 30.0,
-    "max_items": 110,
+    "max_items": 3,
     "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
     "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
-    "finished_at": "2026-09-08T22:53:16.628577+00:00",
+    "finished_at": "2026-09-09T10:50:05.437608+00:00",
     "bucket_targets": {
       "구강용품": 3,
       "헤어케어": 18,
@@ -217,7 +140,7 @@
     "as_of": "2026-09-09",
     "source": "ExchangeRate-API",
     "api_url": "https://open.er-api.com/v6/latest/USD",
-    "fetched_at": "2026-09-09T11:17:04.154513+00:00",
+    "fetched_at": "2026-09-09T10:46:14.986070+00:00",
     "ok": true,
     "대조": [
       "exchangerate-api 1,340.86(2026-09-09)",
@@ -225,5 +148,5 @@
     ]
   },
   "sitemap_urls_known": 19739,
-  "visited": 1425
+  "visited": 1428
 }

@@ -2,7 +2,7 @@
 title: "Record 1240 · The-11-Best-Korean-Skincare-Brands-Worth-Your-Money-According-to-a-Kor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.127045+00:00
+updated_at: 2026-09-09T10:37:14.072500+00:00
 tags: [record, real-data]
 ---
 

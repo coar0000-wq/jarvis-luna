@@ -2,7 +2,7 @@
 title: "Record 1646 · Social-Shopping-Spree-The-Future-of-Ecommerce-With-Shopify---ADWEEK"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.231212+00:00
+updated_at: 2026-09-09T10:37:14.160478+00:00
 tags: [record, real-data]
 ---
 

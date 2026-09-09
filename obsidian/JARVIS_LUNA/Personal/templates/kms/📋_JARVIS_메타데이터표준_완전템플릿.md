@@ -64,12 +64,12 @@ metadata:
   
   # 관련 정보
   related-phases: 
-    - [[Phase-X]]
-    - [[Phase-Y]]
+    - **Phase-X**
+    - **Phase-Y**
   
   prerequisites:
-    - [[Phase-A]]
-    - [[Concept-B]]
+    - **Phase-A**
+    - **Concept-B**
   
   # 진행 현황
   status: completed|in-progress|planned
@@ -194,7 +194,7 @@ tags:
 ```markdown
 ## 핵심 개념
 
-[[Meta-Learning]] / [[Transfer-Learning]] / [[Few-Shot-Learning]]
+**Meta-Learning** / **Transfer-Learning** / **Few-Shot-Learning**
 ```
 
 ---
@@ -311,7 +311,7 @@ tags:
 
 ### 1. 양자 머신러닝 (10개)
 [[Phase-20-화학AI|화학]]과 연동
-builds-on [[Meta-Learning]]
+builds-on **Meta-Learning**
 
 ### 2. 신경망 물리학 (15개)
 PINN, 유체역학, 구조역학 시뮬레이션

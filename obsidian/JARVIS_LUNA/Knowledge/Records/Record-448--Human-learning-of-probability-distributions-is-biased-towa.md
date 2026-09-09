@@ -2,7 +2,7 @@
 title: "Record 448 · Human-learning-of-probability-distributions-is-biased-toward-moderate-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.914626+00:00
+updated_at: 2026-09-09T10:37:13.894974+00:00
 tags: [record, real-data]
 ---
 

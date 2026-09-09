@@ -2,7 +2,7 @@
 title: "Record 488 · Fast-Tree-Inference-With-Weighted-Fusion-Penalties"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.925022+00:00
+updated_at: 2026-09-09T10:37:13.904383+00:00
 tags: [record, real-data]
 ---
 

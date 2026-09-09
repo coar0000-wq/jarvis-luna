@@ -2,7 +2,7 @@
 title: "Record 603 · Elevating-Security-with-Arm-CCA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.954986+00:00
+updated_at: 2026-09-09T10:37:13.929413+00:00
 tags: [record, real-data]
 ---
 

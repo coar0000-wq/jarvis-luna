@@ -2,7 +2,7 @@
 title: "Record 1150 · Chai-Latte-Makeup-Is-The-Warm--Spicy-Beauty-Trend-Taking-Over-TikTok--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.106622+00:00
+updated_at: 2026-09-09T10:37:14.052716+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1700 · K-beauty-brands-dominate-on-Amazon-Prime-Day---Korea-JoongAng-Daily"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.244457+00:00
+updated_at: 2026-09-09T10:37:14.172854+00:00
 tags: [record, real-data]
 ---
 

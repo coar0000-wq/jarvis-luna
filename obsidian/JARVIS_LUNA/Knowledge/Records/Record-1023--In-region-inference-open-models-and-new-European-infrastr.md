@@ -2,7 +2,7 @@
 title: "Record 1023 · In-region-inference-open-models-and-new-European-infrastructure-for-so"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.075174+00:00
+updated_at: 2026-09-09T10:37:14.024355+00:00
 tags: [record, real-data]
 ---
 

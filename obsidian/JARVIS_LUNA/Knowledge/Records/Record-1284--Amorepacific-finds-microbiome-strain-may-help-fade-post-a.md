@@ -2,7 +2,7 @@
 title: "Record 1284 · Amorepacific-finds-microbiome-strain-may-help-fade-post-acne-pigmentat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.138230+00:00
+updated_at: 2026-09-09T10:37:14.081067+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 476 · Molecular-dynamics-study-of-ferroelectric-switching-mechanisms-in-mono"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.921837+00:00
+updated_at: 2026-09-09T10:37:13.901516+00:00
 tags: [record, real-data]
 ---
 

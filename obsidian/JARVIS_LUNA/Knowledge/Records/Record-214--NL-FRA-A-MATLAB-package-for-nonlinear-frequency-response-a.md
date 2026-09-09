@@ -2,7 +2,7 @@
 title: "Record 214 · NL-FRA-A-MATLAB-package-for-nonlinear-frequency-response-analysis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.851572+00:00
+updated_at: 2026-09-09T10:37:13.836994+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1724 · Why-Is-Veralab-slowing-down-K-Beauty-retail-and-e-commerce-shift---nss"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.250339+00:00
+updated_at: 2026-09-09T10:37:14.178274+00:00
 tags: [record, real-data]
 ---
 

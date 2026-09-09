@@ -2,7 +2,7 @@
 title: "Record 1777 · Driven-by-TikTok-trends-new-beauty-brands-target-children---FashionNet"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.263284+00:00
+updated_at: 2026-09-09T10:37:14.190288+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1549 · Instant-Checkout-OpenAI-Bringing-E-Commerce-to-ChatGPT---AI-Magazine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.208046+00:00
+updated_at: 2026-09-09T10:37:14.138539+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 732 · Entropies-of-the-Classical-Dimer-Model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.988060+00:00
+updated_at: 2026-09-09T10:37:13.956083+00:00
 tags: [record, real-data]
 ---
 

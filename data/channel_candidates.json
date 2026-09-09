@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T11:17:25.281311+00:00",
+  "generated_at": "2026-09-09T09:06:41.616318+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -97,15 +97,15 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21589,
-      "items": 40,
+      "bytes": 19880,
+      "items": 38,
       "samples": [
-        "adam sandler",
-        "Adam Sandler turns 60 — Revisit all of his iconic film roles",
-        "Licensable video: ARCHIVE: US comedy actor Adam Sandler turns 60 on September 9"
+        "new hampshire primary election results",
+        "New Hampshire Senate Primary Election 2026 Live Results: Chris Pappas, Karishma Manzur, John Sununu and More",
+        "New Hampshire primary results: Key takeaways for US midterm elections"
       ],
       "verdict": "가능",
-      "reason": "40건 파싱 성공, 값이 서로 다름",
+      "reason": "38건 파싱 성공, 값이 서로 다름",
       "already_live": true,
       "live_channel": "google_trends_us"
     },

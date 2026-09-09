@@ -2,7 +2,7 @@
 title: "Record 1395 · TikToks-Morning-Shed-Routine-Feels-Like-a-Step-Backwards-for-Self-Love"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.168471+00:00
+updated_at: 2026-09-09T10:37:14.103852+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1210 · AI-Chatbot-Customer-Service-Shopify-Guide-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.119564+00:00
+updated_at: 2026-09-09T10:37:14.065945+00:00
 tags: [record, real-data]
 ---
 

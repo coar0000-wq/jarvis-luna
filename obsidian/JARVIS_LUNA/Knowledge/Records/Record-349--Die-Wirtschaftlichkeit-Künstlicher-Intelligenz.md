@@ -2,7 +2,7 @@
 title: "Record 349 · Die-Wirtschaftlichkeit-Künstlicher-Intelligenz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:15.888101+00:00
+updated_at: 2026-09-09T10:37:13.870836+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1712 · The-Science-of-PDRN-Korean-Beautys-Hottest-Ingredient---USC-Dornsife"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.247391+00:00
+updated_at: 2026-09-09T10:37:14.175572+00:00
 tags: [record, real-data]
 ---
 

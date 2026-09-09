@@ -2,7 +2,7 @@
 title: "Record 1290 · Korea-overtakes-US-to-become-worlds-No-2-cosmetics-exporter---Korea-Bi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.140388+00:00
+updated_at: 2026-09-09T10:37:14.082274+00:00
 tags: [record, real-data]
 ---
 

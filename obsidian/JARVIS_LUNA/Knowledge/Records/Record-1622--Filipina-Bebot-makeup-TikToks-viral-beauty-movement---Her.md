@@ -2,7 +2,7 @@
 title: "Record 1622 · Filipina-Bebot-makeup-TikToks-viral-beauty-movement---Her-World-Singap"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:50:16.225325+00:00
+updated_at: 2026-09-09T10:37:14.155105+00:00
 tags: [record, real-data]
 ---
 

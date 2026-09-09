@@ -152,11 +152,11 @@ JARVIS = 의미 관계 기반 AI
 
 ## 🔗 연결되는 노드
 
-- [[JARVIS_Level3.5_10명전문가_협력]]
-- [[YouTube_마케팅_전략]]
-- [[KB증권_API_튜토리얼_전략]]
-- [[Satellite_AI_SaaS_비즈니스_모델]]
-- [[Series_B_투자_전략]]
+- **JARVIS_Level3.5_10명전문가_협력**
+- **YouTube_마케팅_전략**
+- **KB증권_API_튜토리얼_전략**
+- **Satellite_AI_SaaS_비즈니스_모델**
+- **Series_B_투자_전략**
 
 ---
 

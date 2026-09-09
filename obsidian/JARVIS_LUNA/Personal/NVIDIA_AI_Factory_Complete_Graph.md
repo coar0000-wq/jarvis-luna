@@ -16,26 +16,26 @@
 
 ## AI Factory 개요
 
-### [[NVIDIA AI Factory Overview]]
+### **NVIDIA AI Factory Overview**
 
 **AI Factory의 정의**:
-[[What is AI Factory?]]:
-- [[Full-Stack Solution]]: 완전한 스택 솔루션
-- [[Integrated Infrastructure]]: 통합 인프라
-- [[End-to-End Platform]]: 입력부터 출력까지
+**What is AI Factory?**:
+- **Full-Stack Solution**: 완전한 스택 솔루션
+- **Integrated Infrastructure**: 통합 인프라
+- **End-to-End Platform**: 입력부터 출력까지
 - [[Enterprise Ready]]: 엔터프라이즈급
-- [[Agentic AI Focused]]: 에이전트 AI 중심
+- **Agentic AI Focused**: 에이전트 AI 중심
 
 **핵심 가치**:
-[[Core Value Proposition]]:
-- [[Intelligence Generation]]: 대규모 지능 생성
-- [[Game-Changing Scale]]: 게임 체인징 규모
-- [[Continuous Output]]: 지속적 출력
-- [[Cost Efficiency]]: 35x 비용 절감
-- [[ROI Proven]]: 2.6x ROI (1년 내)
+**Core Value Proposition**:
+- **Intelligence Generation**: 대규모 지능 생성
+- **Game-Changing Scale**: 게임 체인징 규모
+- **Continuous Output**: 지속적 출력
+- **Cost Efficiency**: 35x 비용 절감
+- **ROI Proven**: 2.6x ROI (1년 내)
 
 **2026 시장 현황**:
-[[Market Status 2026]]:
+**Market Status 2026**:
 - 고객 수: 4,000+
 - 주요 파트너: Dell, NTT DATA, Supermicro
 - 배포 지역: 전 엔터프라이즈
@@ -45,57 +45,57 @@
 
 ## AI Factory 아키텍처
 
-### [[AI Factory Architecture]]
+### **AI Factory Architecture**
 
 #### 통합 스택 구성요소
-[[Integrated Stack]]:
+**Integrated Stack**:
 
 **1. 컴퓨팅 계층 (Compute Layer)**:
-[[Compute Infrastructure]]:
-- [[NVIDIA Blackwell]]: 최신 GPU 아키텍처
-- [[Grace CPUs]]: ARM 기반 CPU
-- [[NVLink Fabric]]: 고대역폭 상호연결
-- [[NVL72 System]]: 72 Blackwell Ultra + 36 Grace CPUs
+**Compute Infrastructure**:
+- **NVIDIA Blackwell**: 최신 GPU 아키텍처
+- **Grace CPUs**: ARM 기반 CPU
+- **NVLink Fabric**: 고대역폭 상호연결
+- **NVL72 System**: 72 Blackwell Ultra + 36 Grace CPUs
 
 **2. 네트워크 계층 (Networking)**:
-[[Networking Layer]]:
-- [[Spectrum-X]]: 고속 AI 컴퓨팅 패브릭
-- [[BlueField]]: 인프라 가속
-- [[High-Bandwidth]]: 모든 GPU 간 통신
-- [[Low Latency]]: 초저지연
+**Networking Layer**:
+- **Spectrum-X**: 고속 AI 컴퓨팅 패브릭
+- **BlueField**: 인프라 가속
+- **High-Bandwidth**: 모든 GPU 간 통신
+- **Low Latency**: 초저지연
 
 **3. 소프트웨어 계층 (Software)**:
-[[Software Stack]]:
-- [[NVIDIA AI Enterprise]]: 엔터프라이즈 소프트웨어
-- [[CUDA]]: 병렬 처리
-- [[cuDNN]]: 신경망 라이브러리
-- [[NIM Microservices]]: 모델 서빙
+**Software Stack**:
+- **NVIDIA AI Enterprise**: 엔터프라이즈 소프트웨어
+- **CUDA**: 병렬 처리
+- **cuDNN**: 신경망 라이브러리
+- **NIM Microservices**: 모델 서빙
 
 **4. 저장소 계층 (Storage)**:
-[[Storage Layer]]:
-- [[High-Performance Storage]]: 고성능 저장소
+**Storage Layer**:
+- **High-Performance Storage**: 고성능 저장소
 - [[Data Management]]: 데이터 관리
-- [[Scalability]]: 확장성
+- **Scalability**: 확장성
 
 **5. 전원 & 냉각 (Power & Cooling)**:
-[[Power & Cooling]]:
-- [[Liquid Cooling]]: 액체 냉각
-- [[Power Efficiency]]: 50x 향상
-- [[Green Computing]]: 녹색 컴퓨팅
+**Power & Cooling**:
+- **Liquid Cooling**: 액체 냉각
+- **Power Efficiency**: 50x 향상
+- **Green Computing**: 녹색 컴퓨팅
 
 ---
 
 ## 하드웨어 플랫폼
 
-### [[AI Factory Hardware Platforms]]
+### **AI Factory Hardware Platforms**
 
 #### NVIDIA Blackwell
-[[Blackwell Architecture]]:
-- [[Latest Generation]]: 최신 세대 (2026)
-- [[Performance]]: 최고 성능
-- [[Efficiency]]: 에너지 효율
-- [[Scalability]]: 완전 확장성
-- [[NVL72]]: 72개 GPU 통합
+**Blackwell Architecture**:
+- **Latest Generation**: 최신 세대 (2026)
+- **Performance**: 최고 성능
+- **Efficiency**: 에너지 효율
+- **Scalability**: 완전 확장성
+- **NVL72**: 72개 GPU 통합
 
 **NVL72 시스템**:
 - 72 × Blackwell Ultra GPUs
@@ -104,12 +104,12 @@
 - 완전 상호연결 (All-to-all)
 
 #### RTX PRO AI Factory
-[[RTX PRO Configuration]]:
-- [[2-8-5-200]]: 표준 구성
-- [[Modular Design]]: 모듈 설계
-- [[Power Efficient]]: 전력 효율
-- [[Small-to-Medium]]: 중소형 배포용
-- [[Edge Ready]]: 엣지 배포 가능
+**RTX PRO Configuration**:
+- **2-8-5-200**: 표준 구성
+- **Modular Design**: 모듈 설계
+- **Power Efficient**: 전력 효율
+- **Small-to-Medium**: 중소형 배포용
+- **Edge Ready**: 엣지 배포 가능
 
 **구성**:
 - RTX PRO Blackwell Server Edition GPUs
@@ -124,34 +124,34 @@
 ### [[Foundation Models]]
 
 #### NVIDIA AI Foundation Models
-[[AI Models Portfolio]]:
+**AI Models Portfolio**:
 - [[Community Models]]: 오픈소스 모델
-- [[NVIDIA-Built]]: NVIDIA 자체 모델
-- [[Optimized Performance]]: NVIDIA 하드웨어 최적화
-- [[NIM Integration]]: NIM 마이크로서비스
+- **NVIDIA-Built**: NVIDIA 자체 모델
+- **Optimized Performance**: NVIDIA 하드웨어 최적화
+- **NIM Integration**: NIM 마이크로서비스
 
 **주요 모델**:
-[[Key Models]]:
+**Key Models**:
 
 1. **Llama Nemotron**
-   - [[Reasoning Models]]: 추론 모델
-   - [[Agentic Tasks]]: 에이전트 작업 최적화
-   - [[High Accuracy]]: 높은 정확도
-   - [[Efficiency]]: 효율성
+   - **Reasoning Models**: 추론 모델
+   - **Agentic Tasks**: 에이전트 작업 최적화
+   - **High Accuracy**: 높은 정확도
+   - **Efficiency**: 효율성
 
 2. **Custom Models**
-   - [[Fine-tuning]]: 미세 조정 가능
-   - [[Domain-Specific]]: 도메인 특화
+   - **Fine-tuning**: 미세 조정 가능
+   - **Domain-Specific**: 도메인 특화
    - [[Enterprise Ready]]: 엔터프라이즈급
-   - [[NVIDIA Optimized]]: NVIDIA 최적화
+   - **NVIDIA Optimized**: NVIDIA 최적화
 
 #### NIM (NVIDIA Inference Microservices)
-[[NIM Microservices]]:
-- [[Model Serving]]: 모델 서빙
-- [[Containerized]]: 컨테이너화
-- [[Scalable Inference]]: 확장 가능 추론
-- [[API-First]]: API 우선
-- [[Multi-tenant]]: 멀티테넌트
+**NIM Microservices**:
+- **Model Serving**: 모델 서빙
+- **Containerized**: 컨테이너화
+- **Scalable Inference**: 확장 가능 추론
+- **API-First**: API 우선
+- **Multi-tenant**: 멀티테넌트
 
 **기능**:
 - 모델 배포 자동화
@@ -163,22 +163,22 @@
 
 ## Agentic AI 기능
 
-### [[Agentic AI Capabilities]]
+### **Agentic AI Capabilities**
 
 #### AI Factory for Agents
-[[Agent Support]]:
-- [[Agent Reasoning]]: 에이전트 추론
-- [[Multi-step Planning]]: 멀티 스텝 계획
+**Agent Support**:
+- **Agent Reasoning**: 에이전트 추론
+- **Multi-step Planning**: 멀티 스텝 계획
 - [[Tool Integration]]: 도구 통합
-- [[State Management]]: 상태 관리
+- **State Management**: 상태 관리
 - [[Continuous Learning]]: 지속적 학습
 
 #### Agent-First Libraries
-[[Agent Libraries]]:
-- [[Skill Libraries]]: 스킬 라이브러리
-- [[Specialization]]: 특화 도구
-- [[Optimization]]: 최적화 기능
-- [[Governance]]: 거버넌스 도구
+**Agent Libraries**:
+- **Skill Libraries**: 스킬 라이브러리
+- **Specialization**: 특화 도구
+- **Optimization**: 최적화 기능
+- **Governance**: 거버넌스 도구
 
 **기능**:
 - AI 에이전트 가속화
@@ -190,15 +190,15 @@
 
 ## 엔터프라이즈 배포
 
-### [[Enterprise Deployment]]
+### **Enterprise Deployment**
 
 #### Dell AI Factory with NVIDIA
-[[Dell Partnership]]:
-- [[Years of Success]]: 2년 이상 운영
-- [[Customer Base]]: 4,000+
+**Dell Partnership**:
+- **Years of Success**: 2년 이상 운영
+- **Customer Base**: 4,000+
 - [[ROI]]: 첫 해 2.6배
-- [[Proven Path]]: 검증된 경로
-- [[Production Ready]]: 프로덕션 준비
+- **Proven Path**: 검증된 경로
+- **Production Ready**: 프로덕션 준비
 
 **성과**:
 - 4,000개 이상 고객사 배포
@@ -207,12 +207,12 @@
 - 즉시 배포 가능
 
 #### NTT DATA Enterprise AI Factories
-[[NTT DATA Initiative]]:
-- [[Full-Stack Solutions]]: 완전 스택
-- [[Domain-Specific]]: 도메인 특화
-- [[Data Integration]]: 데이터 통합
-- [[Workflow Management]]: 워크플로우
-- [[Governance]]: 거버넌스
+**NTT DATA Initiative**:
+- **Full-Stack Solutions**: 완전 스택
+- **Domain-Specific**: 도메인 특화
+- **Data Integration**: 데이터 통합
+- **Workflow Management**: 워크플로우
+- **Governance**: 거버넌스
 
 **제공**:
 - 데이터 준비
@@ -224,15 +224,15 @@
 
 ## 성능 메트릭
 
-### [[Performance Metrics]]
+### **Performance Metrics**
 
 #### 토큰 생성 성능
-[[Token Generation]]:
-- [[Previous Generation]]: Hopper 기준
-- [[Blackwell Improvement]]: 50배 향상
-- [[Power Efficiency]]: 전력당 50배 증가
-- [[Throughput]]: 최고 처리량
-- [[Scalability]]: 완전 확장
+**Token Generation**:
+- **Previous Generation**: Hopper 기준
+- **Blackwell Improvement**: 50배 향상
+- **Power Efficiency**: 전력당 50배 증가
+- **Throughput**: 최고 처리량
+- **Scalability**: 완전 확장
 
 **구체적 수치**:
 - Hopper vs Blackwell: 50배 성능 향상
@@ -240,12 +240,12 @@
 - 동일 전력으로: 50배 더 많은 토큰
 
 #### 비용 절감
-[[Cost Reduction]]:
-- [[Token Cost]]: 35배 저감
-- [[Infrastructure Cost]]: 대폭 절감
-- [[Operational Cost]]: 운영비 절감
-- [[TCO]]: 총 소유 비용 감소
-- [[ROI Timeline]]: 1년 내 회수
+**Cost Reduction**:
+- **Token Cost**: 35배 저감
+- **Infrastructure Cost**: 대폭 절감
+- **Operational Cost**: 운영비 절감
+- **TCO**: 총 소유 비용 감소
+- **ROI Timeline**: 1년 내 회수
 
 **시간당 비용**:
 - 이전: 높은 비용
@@ -253,26 +253,26 @@
 - 결과: 대규모 배포 가능
 
 #### 확장성
-[[Scalability]]:
-- [[Unlimited Scale]]: 무제한 확장
-- [[Linear Scaling]]: 선형 확장
-- [[Multi-tenant]]: 멀티테넌트
+**Scalability**:
+- **Unlimited Scale**: 무제한 확장
+- **Linear Scaling**: 선형 확장
+- **Multi-tenant**: 멀티테넌트
 - [[Load Balancing]]: 부하 분산
-- [[Elasticity]]: 탄력성
+- **Elasticity**: 탄력성
 
 ---
 
 ## Physical AI & Robotics
 
-### [[Physical AI & Robotics]]
+### **Physical AI & Robotics**
 
 #### Open Physical AI Data Factory
-[[Physical AI Blueprint]]:
-- [[Robotics]]: 로봇 제어
-- [[Vision AI]]: 비전 AI
-- [[AI Agents]]: AI 에이전트
+**Physical AI Blueprint**:
+- **Robotics**: 로봇 제어
+- **Vision AI**: 비전 AI
+- **AI Agents**: AI 에이전트
 - [[Autonomous Vehicles]]: 자율주행
-- [[Open Source]]: 오픈소스
+- **Open Source**: 오픈소스
 
 **지원 분야**:
 - 로봇공학 가속화
@@ -282,18 +282,18 @@
 - 오픈 표준
 
 #### Factory Operations Blueprint
-[[Factory AI Brain]]:
-- [[Operations Optimization]]: 운영 최적화
-- [[AI Brain]]: AI 두뇌
-- [[Real-time Control]]: 실시간 제어
-- [[Predictive Maintenance]]: 예측 유지보수
+**Factory AI Brain**:
+- **Operations Optimization**: 운영 최적화
+- **AI Brain**: AI 두뇌
+- **Real-time Control**: 실시간 제어
+- **Predictive Maintenance**: 예측 유지보수
 - [[Efficiency Gains]]: 효율성 향상
 
 ---
 
 ## 사용 사례
 
-### [[Use Cases]]
+### **Use Cases**
 
 **1. Large-Scale Foundation Model Training**:
 - 수십억 파라미터 모델
@@ -324,12 +324,12 @@
 
 ## NVIDIA Academy Training
 
-### [[NVIDIA Academy Courses]]
+### **NVIDIA Academy Courses**
 
 **AI Factory Deployment Training**:
-- [[Course Name]]: AI Factory Deployment (AIFD)
-- [[Format]]: Self-paced
-- [[Topics]]:
+- **Course Name**: AI Factory Deployment (AIFD)
+- **Format**: Self-paced
+- **Topics**:
   * 설계 원칙
   * 배포 전략
   * 성능 최적화
@@ -347,15 +347,15 @@
 
 ## 파트너 에코시스템
 
-### [[Partner Ecosystem]]
+### **Partner Ecosystem**
 
 **주요 파트너**:
-[[Key Partners]]:
-- [[Dell]]: Dell AI Factory
-- [[Supermicro]]: 인프라 제공
-- [[NTT DATA]]: 서비스 통합
-- [[System Integrators]]: SI 파트너
-- [[Cloud Providers]]: 클라우드 제공
+**Key Partners**:
+- **Dell**: Dell AI Factory
+- **Supermicro**: 인프라 제공
+- **NTT DATA**: 서비스 통합
+- **System Integrators**: SI 파트너
+- **Cloud Providers**: 클라우드 제공
 
 **에코시스템 역할**:
 - 인프라 제공
@@ -368,16 +368,16 @@
 
 ## YouTube 비디오 시리즈 (20편)
 
-### [[YouTube Video Series]]
+### **YouTube Video Series**
 
 **NVIDIA AI Factory YouTube Playlist**:
-- [[Total Videos]]: 20개
-- [[Channel]]: NVIDIA Official
-- [[Series Name]]: AI Factory Series
-- [[Link]]: https://www.youtube.com/playlist?list=PLZHnYvH1qtOb05PRsK2yif9TSZnD_oT35
+- **Total Videos**: 20개
+- **Channel**: NVIDIA Official
+- **Series Name**: AI Factory Series
+- **Link**: https://www.youtube.com/playlist?list=PLZHnYvH1qtOb05PRsK2yif9TSZnD_oT35
 
 **콘텐츠 카테고리**:
-[[Video Categories]]:
+**Video Categories**:
 
 1. **소개 & 개요** (2-3편)
    - AI Factory란?
@@ -414,10 +414,10 @@
 
 ## 구현 로드맵
 
-### [[Implementation Roadmap]]
+### **Implementation Roadmap**
 
 #### Phase 1: 평가 (2-4주)
-[[Evaluation Phase]]:
+**Evaluation Phase**:
 1. 요구사항 분석
 2. 하드웨어 선택
 3. 아키텍처 설계
@@ -431,14 +431,14 @@
 4. 성능 검증
 
 #### Phase 3: 프로덕션 (8-12주)
-[[Production Phase]]:
+**Production Phase**:
 1. 대규모 배포
 2. 멀티테넌트 구성
 3. 거버넌스 구현
 4. 모니터링 설정
 
 #### Phase 4: 최적화 (지속)
-[[Optimization Phase]]:
+**Optimization Phase**:
 1. 성능 튜닝
 2. 비용 최적화
 3. 기능 확대
@@ -463,7 +463,7 @@
 
 ## 요점 정리
 
-### [[Key Takeaways]]
+### **Key Takeaways**
 
 ✅ **AI Factory의 정의**:
 - 완전한 스택 AI 솔루션
