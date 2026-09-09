@@ -200,18 +200,28 @@ jobs:
         timeout-minutes: 5
         run: python -u scripts/build_team_hubs.py
 
-      - name: Train real-data 3-expert MoE
+      # 2026-09-09: train 단계를 뺐다.
+      #   train 12분 + tune 15분을 매 회차 돌렸다. 그런데 tune 에 --promote
+      #   가 붙어 있어서 real_knowledge_moe.npz 와 real_knowledge_router.npz
+      #   를 자기 것으로 덮어썼다. train 이 만든 가중치는 매번 그대로
+      #   버려졌다. 12분이 통째로 버려진 것이다.
+      #   train_real_knowledge.py 는 남겨둔다. 손으로 한 벌만 돌려볼 때 쓴다.
+      #   대시보드가 읽던 항목은 tune 이 대신 적는다.
+      #
+      #   그리고 einsum 에 optimize=True 를 붙였다. 기본값이 False 라
+      #   수축 순서를 안 잡고 도는데, 2262x10444 행렬에서 그 차이가 컸다.
+      #   500스텝이 22.1분에서 43초가 됐다. tune 이 15분 타임아웃에 계속
+      #   걸리던 이유가 이것이다.
+      #
+      #   전에는 후보가 1개였다. 값을 하나씩만 줘서 탐색이 아니었다.
+      #   이제 4개를 본다(전문가 3·4 × 학습률 0.7·1.2). 약 3분이다.
+      - name: MoE 튜닝 후 승격 (실측 말뭉치만)
         continue-on-error: true
-        timeout-minutes: 12
-        run: python train_real_knowledge.py
-
-      - name: Tune and promote 3-expert MoE
-        continue-on-error: true
-        timeout-minutes: 15
+        timeout-minutes: 10
         run: |
-          python tune_real_knowledge_moe.py \
-            --experts 3 \
-            --learning-rates 1.2 \
+          python -u tune_real_knowledge_moe.py \
+            --experts 3,4 \
+            --learning-rates 0.7,1.2 \
             --l2-values 0.0001 \
             --temperatures 0.9 \
             --steps 500 \

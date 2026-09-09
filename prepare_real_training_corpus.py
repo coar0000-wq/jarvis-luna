@@ -7,6 +7,7 @@ separates data preparation from weight updates.
 """
 from __future__ import annotations
 
+import hashlib
 import json
 from datetime import datetime, timezone
 from pathlib import Path
@@ -91,13 +92,46 @@ def main() -> int:
         "records_before": before,
         "records_added": added,
         "source_status": {name: value.get("status") for name, value in payload.get("sources", {}).items()},
-        "training_performed": False,
-        "weights_updated": False,
+        "corpus_sha256": hashlib.sha256(OUT.read_bytes()).hexdigest(),
         "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
         "corpus": str(OUT.relative_to(ROOT)),
     }
-    STATUS.write_text(json.dumps(status, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps(status, ensure_ascii=False))
+    # 이 파일은 나 혼자 쓰는 게 아니다. train_real_knowledge.py 와
+    # tune_real_knowledge_moe.py 도 같은 파일에 학습 결과를 적는다.
+    #
+    # 예전에는 여기서 통째로 덮어썼다. 그래서 09-09 09:06 에 튜닝이 끝나
+    # training_performed=true 로 적혔는데, 10:36 에 이 스크립트가 돌면서
+    # false 로 되돌렸다. 대시보드는 training_performed 와 weights_updated 를
+    # 보고 학습 상태를 정하므로 화면에는 "학습 안 됨" 으로 떴다.
+    # 실제로는 학습도 승격도 끝나 있었다.
+    #
+    # 이제 합친다. 그리고 false 로 되돌리는 것은 말뭉치가 실제로 바뀌어
+    # 지금 가중치가 낡았을 때만 한다. 그때는 되돌리는 게 맞다.
+    prev = {}
+    if STATUS.exists():
+        try:
+            prev = json.loads(STATUS.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError, UnicodeDecodeError):
+            prev = {}
+    if not isinstance(prev, dict):
+        prev = {}
+
+    merged = dict(prev)
+    merged.update(status)
+    trained_on = prev.get("trained_corpus_sha256")
+    if trained_on and trained_on == status.get("corpus_sha256"):
+        # 지금 가중치가 바로 이 말뭉치로 학습한 것이다. 그대로 둔다.
+        for k in ("training_performed", "weights_updated"):
+            merged[k] = prev.get(k, False)
+        merged["말뭉치"] = "변화 없음. 기존 가중치가 이 말뭉치 기준이라 학습 상태를 유지한다."
+    else:
+        merged["training_performed"] = False
+        merged["weights_updated"] = False
+        merged["말뭉치"] = ("바뀌었다. 지금 가중치는 이 말뭉치로 학습한 것이 아니다. "
+                         "학습기가 돌아야 다시 참이 된다.")
+
+    STATUS.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps(merged, ensure_ascii=False))
     return 0
 
 

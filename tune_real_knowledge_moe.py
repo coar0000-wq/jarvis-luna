@@ -16,6 +16,17 @@ from pathlib import Path
 
 import numpy as np
 
+# 왜 np.einsum 에 optimize=True 를 붙였나 (2026-09-09)
+#   numpy 의 einsum 은 기본값이 optimize=False 다. 그러면 수축 순서를 잡지
+#   않고 그대로 반복문으로 돈다. 여기 행렬은 2262x10444 라 그 차이가 컸다.
+#
+#     nd,kdc->nkc   False 0.346s  ->  True 0.015s   (23배)
+#     nd,nkc->kdc   False 1.457s  ->  True 0.015s   (97배)
+#
+#   500스텝 학습이 22.1분에서 43초로 줄었다. 워크플로에서 튜닝 단계가
+#   15분 타임아웃에 계속 걸리던 이유가 이것이다. 계산식은 그대로다.
+#   검증 정확도 0.8800 / 학습 0.8740 으로 기존(0.8798 / 0.8739)과 같다.
+
 from train_real_knowledge import build_features, label, load_records, softmax
 
 ROOT = Path(__file__).resolve().parent
@@ -47,9 +58,9 @@ def init_params(d: int, c: int, k: int) -> tuple[np.ndarray, np.ndarray, np.ndar
 
 def predict(X: np.ndarray, params: tuple[np.ndarray, ...], temperature: float) -> tuple[np.ndarray, np.ndarray]:
     expert_w, expert_b, gate_w, gate_b = params
-    expert_logits = np.einsum("nd,kdc->nkc", X, expert_w) + expert_b[None, :, :]
+    expert_logits = np.einsum("nd,kdc->nkc", X, expert_w, optimize=True) + expert_b[None, :, :]
     gate = softmax((X @ gate_w + gate_b[None, :]) / temperature)
-    logits = np.einsum("nk,nkc->nc", gate, expert_logits)
+    logits = np.einsum("nk,nkc->nc", gate, expert_logits, optimize=True)
     return logits, gate
 
 
@@ -68,10 +79,10 @@ def train(X: np.ndarray, y: np.ndarray, k: int, steps: int, lr: float, l2: float
         probs = softmax(logits)
         grad_logits = (probs - y) / max(n, 1)
         grad_expert_logits = gate[:, :, None] * grad_logits[:, None, :]
-        grad_expert_w = np.einsum("nd,nkc->kdc", X, grad_expert_logits) + l2 * expert_w
+        grad_expert_w = np.einsum("nd,nkc->kdc", X, grad_expert_logits, optimize=True) + l2 * expert_w
         grad_expert_b = grad_expert_logits.sum(axis=0)
-        expert_logits = np.einsum("nd,kdc->nkc", X, expert_w) + expert_b[None, :, :]
-        expert_score = np.einsum("nc,nkc->nk", grad_logits, expert_logits)
+        expert_logits = np.einsum("nd,kdc->nkc", X, expert_w, optimize=True) + expert_b[None, :, :]
+        expert_score = np.einsum("nc,nkc->nk", grad_logits, expert_logits, optimize=True)
         grad_gate_logits = gate * (expert_score - (gate * expert_score).sum(axis=1, keepdims=True)) / temperature
         grad_gate_w = X.T @ grad_gate_logits + l2 * gate_w
         grad_gate_b = grad_gate_logits.sum(axis=0)
@@ -141,10 +152,26 @@ def main() -> int:
             target.write_bytes(args.model_out.read_bytes())
         status_path = ROOT / "data/knowledge/training_status.json"
         status = json.loads(status_path.read_text(encoding="utf-8")) if status_path.exists() else {}
+        # train_real_knowledge.py 가 적던 항목까지 여기서 적는다.
+        #
+        # 워크플로는 train 을 12분, tune 을 15분 돌렸다. 그런데 tune 에
+        # --promote 가 붙어 있어서 real_knowledge_moe.npz 와
+        # real_knowledge_router.npz 를 자기 것으로 덮어썼다. train 이
+        # 만든 가중치는 매 회차 그대로 버려졌다. 12분이 통째로 버려진 것이다.
+        #
+        # 그래서 train 단계를 워크플로에서 뺐다. 스크립트는 남겨둔다.
+        # 손으로 한 벌만 돌려보고 싶을 때 쓴다. 대신 대시보드가 읽던
+        # 항목(model_type·source_labels·전체 말뭉치 정확도)을 여기서 채운다.
+        full_acc = accuracy(X, y, params, best["temperature"])
         status.update({
             "updated_at": report["updated_at"],
             "training_performed": True,
             "weights_updated": True,
+            "trained_corpus_sha256": hashlib.sha256(CORPUS.read_bytes()).hexdigest(),
+            "training_accuracy_on_corpus": full_acc,
+            "source_labels": {v: labels.count(v) for v in classes},
+            "model_type": ("real-data Mixture-of-Experts with expert linear "
+                           "networks and learned softmax gate"),
             "experts": best["experts"],
             "tuning_promoted": True,
             "tuning_steps": args.steps,
