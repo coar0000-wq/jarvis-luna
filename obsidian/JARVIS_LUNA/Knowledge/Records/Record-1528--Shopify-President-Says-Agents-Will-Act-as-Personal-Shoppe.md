@@ -2,7 +2,7 @@
 title: "Record 1528 · Shopify-President-Says-Agents-Will-Act-as-Personal-Shoppers---PYMNTSco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.736176+00:00
+updated_at: 2026-09-09T22:16:52.208253+00:00
 tags: [record, real-data]
 ---
 

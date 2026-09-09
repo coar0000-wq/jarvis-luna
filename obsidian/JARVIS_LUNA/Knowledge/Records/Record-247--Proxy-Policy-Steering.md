@@ -2,7 +2,7 @@
 title: "Record 247 · Proxy-Policy-Steering"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.444188+00:00
+updated_at: 2026-09-09T22:16:51.883362+00:00
 tags: [record, real-data]
 ---
 

@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-09T19:05:28.393920+00:00",
+  "collected_at": "2026-09-09T22:16:03.482467+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 25,
+  "post_count": 33,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -35,20 +35,35 @@
     },
     {
       "subreddit": "AsianBeautyAdvice",
-      "post_count": 0,
+      "post_count": 25,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests",
         "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     }
   ],
   "hot_keywords": [
     {
+      "keyword": "random",
+      "score": 13
+    },
+    {
+      "keyword": "thoughts",
+      "score": 13
+    },
+    {
       "keyword": "2026",
-      "score": 5
+      "score": 6
+    },
+    {
+      "keyword": "know",
+      "score": 6
     },
     {
       "keyword": "september",
+      "score": 5
+    },
+    {
+      "keyword": "anything",
       "score": 4
     },
     {
@@ -56,11 +71,11 @@
       "score": 4
     },
     {
-      "keyword": "masks",
-      "score": 4
+      "keyword": "makeup",
+      "score": 3
     },
     {
-      "keyword": "makeup",
+      "keyword": "review",
       "score": 3
     },
     {
@@ -68,15 +83,19 @@
       "score": 3
     },
     {
+      "keyword": "goes",
+      "score": 3
+    },
+    {
+      "keyword": "ask",
+      "score": 2
+    },
+    {
       "keyword": "monday",
       "score": 2
     },
     {
       "keyword": "over",
-      "score": 2
-    },
-    {
-      "keyword": "review",
       "score": 2
     },
     {
@@ -88,6 +107,10 @@
       "score": 2
     },
     {
+      "keyword": "who",
+      "score": 2
+    },
+    {
       "keyword": "tints",
       "score": 2
     },
@@ -96,19 +119,15 @@
       "score": 2
     },
     {
-      "keyword": "anything",
-      "score": 2
-    },
-    {
-      "keyword": "goes",
-      "score": 2
-    },
-    {
       "keyword": "shades",
       "score": 2
     },
     {
       "keyword": "skinny",
+      "score": 2
+    },
+    {
+      "keyword": "trends",
       "score": 2
     },
     {
@@ -124,11 +143,27 @@
       "score": 2
     },
     {
-      "keyword": "question",
-      "score": 1
+      "keyword": "masks",
+      "score": 2
     },
     {
-      "keyword": "ask",
+      "keyword": "routine",
+      "score": 2
+    },
+    {
+      "keyword": "japanese",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreens",
+      "score": 2
+    },
+    {
+      "keyword": "k-beauty",
+      "score": 2
+    },
+    {
+      "keyword": "question",
       "score": 1
     },
     {
@@ -144,18 +179,6 @@
       "score": 1
     },
     {
-      "keyword": "august",
-      "score": 1
-    },
-    {
-      "keyword": "empties",
-      "score": 1
-    },
-    {
-      "keyword": "reviews",
-      "score": 1
-    },
-    {
       "keyword": "product",
       "score": 1
     },
@@ -168,49 +191,21 @@
       "score": 1
     },
     {
-      "keyword": "does",
+      "keyword": "first",
       "score": 1
     },
     {
-      "keyword": "judydoll",
+      "keyword": "online",
       "score": 1
     },
     {
-      "keyword": "sell",
-      "score": 1
-    },
-    {
-      "keyword": "singles",
-      "score": 1
-    },
-    {
-      "keyword": "their",
-      "score": 1
-    },
-    {
-      "keyword": "cheek",
-      "score": 1
-    },
-    {
-      "keyword": "pallet",
-      "score": 1
-    },
-    {
-      "keyword": "chestnut",
-      "score": 1
-    },
-    {
-      "keyword": "one",
+      "keyword": "purchase",
       "score": 1
     }
   ],
   "beauty_keywords": [
     {
       "keyword": "cushion",
-      "score": 4
-    },
-    {
-      "keyword": "masks",
       "score": 4
     },
     {
@@ -231,6 +226,22 @@
     },
     {
       "keyword": "sheet",
+      "score": 2
+    },
+    {
+      "keyword": "masks",
+      "score": 2
+    },
+    {
+      "keyword": "routine",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreens",
+      "score": 2
+    },
+    {
+      "keyword": "k-beauty",
       "score": 2
     }
   ],
@@ -250,13 +261,6 @@
       "feed": "hot"
     },
     {
-      "title": "August 2026 Empties + Reviews",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbfd9z/august_2026_empties_reviews/",
-      "published": "2026-09-09T08:09:54+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "What is the product(s) you have repurchased over and over again",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbshx8/what_is_the_products_you_have_repurchased_over/",
       "published": "2026-09-09T17:40:55+00:00",
@@ -264,9 +268,16 @@
       "feed": "hot"
     },
     {
-      "title": "Does JudyDoll sell singles from their 6 lip and cheek pallet? This is the Chestnut one.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wb4qay/does_judydoll_sell_singles_from_their_6_lip_and/",
-      "published": "2026-09-08T23:25:59+00:00",
+      "title": "My first online purchase from Sekkisei. I think I got extra free stuff:O? Was it a mistake or a promotion I wasn’t aware about?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbvseq/my_first_online_purchase_from_sekkisei_i_think_i/",
+      "published": "2026-09-09T19:34:55+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "August 2026 Empties + Reviews",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbfd9z/august_2026_empties_reviews/",
+      "published": "2026-09-09T08:09:54+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -278,9 +289,23 @@
       "feed": "hot"
     },
     {
+      "title": "Does JudyDoll sell singles from their 6 lip and cheek pallet? This is the Chestnut one.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wb4qay/does_judydoll_sell_singles_from_their_6_lip_and/",
+      "published": "2026-09-08T23:25:59+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Wosado lashes are a gimmick — don’t waste your money.",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1waq3r2/wosado_lashes_are_a_gimmick_dont_waste_your_money/",
       "published": "2026-09-08T14:33:53+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Anything Goes Wednesday: September 09, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbxm31/anything_goes_wednesday_september_09_2026/",
+      "published": "2026-09-09T20:39:06+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -397,17 +422,59 @@
       "feed": "hot"
     },
     {
-      "title": "What’s your experience with long-wear hydrogel masks?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w90ahk/whats_your_experience_with_longwear_hydrogel_masks/",
-      "published": "2026-09-06T16:11:11+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "Revamping ABA",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/10dpkk9/revamping_aba/",
+      "published": "2023-01-16T19:53:22+00:00",
+      "subreddit": "AsianBeautyAdvice",
       "feed": "hot"
     },
     {
-      "title": "Where to buy Boben in Beijing?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w9gofb/where_to_buy_boben_in_beijing/",
-      "published": "2026-09-07T03:24:37+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "Random AB thoughts",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w804rt/random_ab_thoughts/",
+      "published": "2026-09-05T13:00:11+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "I know it’s not AB, but...",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w59ohe/i_know_its_not_ab_but/",
+      "published": "2026-09-02T13:00:24+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "Routine Journal",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w3d44t/routine_journal/",
+      "published": "2026-08-31T13:00:10+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[Review] Japanese sunscreens",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1vzze8m/review_japanese_sunscreens/",
+      "published": "2026-08-27T16:49:56+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[Q&A] Can I still use it after the expiry date?",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1vvhx8l/qa_can_i_still_use_it_after_the_expiry_date/",
+      "published": "2026-08-22T17:09:57+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[Q&A] Who’s the most honest K-beauty YouTuber you actually trust?",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1un7xgb/qa_whos_the_most_honest_kbeauty_youtuber_you/",
+      "published": "2026-07-04T12:32:43+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[Q&A] I’m a student born and raised in Japan (currently living in Kyoto)! Ask me anything about Japanese drugstore cosmetics or local trends",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1u60pb4/qa_im_a_student_born_and_raised_in_japan/",
+      "published": "2026-06-14T23:55:47+00:00",
+      "subreddit": "AsianBeautyAdvice",
       "feed": "hot"
     }
   ],

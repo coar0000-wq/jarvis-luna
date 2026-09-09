@@ -2,7 +2,7 @@
 title: "Record 486 · ETV5-reduces-androgen-receptor-expression-and-induces-neural-stemlike-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.501337+00:00
+updated_at: 2026-09-09T22:16:51.951411+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1367 · Keauti-brings-K-beauty-to-Queen-City---sbjnet"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.700951+00:00
+updated_at: 2026-09-09T22:16:52.169957+00:00
 tags: [record, real-data]
 ---
 

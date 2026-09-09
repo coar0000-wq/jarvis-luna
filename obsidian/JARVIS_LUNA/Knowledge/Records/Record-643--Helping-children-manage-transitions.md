@@ -2,7 +2,7 @@
 title: "Record 643 · Helping-children-manage-transitions"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.537774+00:00
+updated_at: 2026-09-09T22:16:51.990843+00:00
 tags: [record, real-data]
 ---
 

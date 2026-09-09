@@ -2,7 +2,7 @@
 title: "Record 237 · Rethinking-Learned-Occupancy-in-Autonomous-Active-Mapping-with-Observa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.441806+00:00
+updated_at: 2026-09-09T22:16:51.879042+00:00
 tags: [record, real-data]
 ---
 

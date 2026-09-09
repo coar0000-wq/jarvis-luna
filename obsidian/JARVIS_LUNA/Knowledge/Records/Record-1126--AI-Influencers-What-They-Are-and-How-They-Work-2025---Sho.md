@@ -2,7 +2,7 @@
 title: "Record 1126 · AI-Influencers-What-They-Are-and-How-They-Work-2025---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.648596+00:00
+updated_at: 2026-09-09T22:16:52.113029+00:00
 tags: [record, real-data]
 ---
 

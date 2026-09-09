@@ -2,7 +2,7 @@
 title: "Record 1731 · From-face-tape-to-morning-shed-TikToks-7-strangest-beauty-fads--and-wh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.780283+00:00
+updated_at: 2026-09-09T22:16:52.257386+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMinAFBVV95cUxQamNkWVd6QVQ1YWRiZG9Kd3V0U25WdV8wYU1OeU96T3RPUGJRWnZOdXEyZWoxVVozaG9wdTVqa1pfQTdIeDNfNkp4SHFDbWZEZlExVWtXLXpZLWlzV2NuV0tpUVlmeVJpak1QdkFYVzZwbDMwYUM2NVNWMkIxRmNxRDB3MWdHZUlHcTRaU0VTMEZBWElJbkpEZmJpV0w?oc=5)
 
-**제목:** From face tape to 'morning shed': TikTok’s 7 strangest beauty fads – and what to try instead - CNA Lifestyle
+**제목:** From face tape to 'morning shed': TikTok’s 7 strangest beauty fads – and what to try instead - cnalifestyle.channelnewsasia.com
 
-From face tape to 'morning shed': TikTok’s 7 strangest beauty fads – and what to try instead - CNA Lifestyle
+From face tape to 'morning shed': TikTok’s 7 strangest beauty fads – and what to try instead - cnalifestyle.channelnewsasia.com
 
 **출처:** Source · Google Search
 

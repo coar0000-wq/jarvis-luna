@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-10T04:09:17.556460+09:00",
+    "updated_at": "2026-09-10T07:19:48.388155+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -806,42 +806,6 @@
   ],
   "competitor_watch": [
     {
-      "name": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
-      "brand": "MEDIHEAL",
-      "price_usd": 39.99,
-      "rating": 4.8,
-      "review_count": 15397,
-      "us_rank": 2,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA32407466",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-      "brand": "REJURAN",
-      "price_usd": 41.6,
-      "rating": 5,
-      "review_count": 11,
-      "us_rank": 3,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA67698081",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[2sizes] ILLIYOON Ceramide Ato Concentrate Cream",
-      "brand": "ILLIYOON",
-      "price_usd": 21.24,
-      "rating": 5,
-      "review_count": 4,
-      "us_rank": 4,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA39684183",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
       "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
       "brand": "MEDIHEAL",
       "price_usd": 20.99,
@@ -875,6 +839,42 @@
       "daiso_bucket": "마스크팩",
       "why": "us.oliveyoung.com/best-sellers 실수집 32위 · 마스크팩 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA22731950",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
+      "brand": "MEDIHEAL",
+      "price_usd": 39.99,
+      "rating": 4.8,
+      "review_count": 15397,
+      "us_rank": 2,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA32407466",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+      "brand": "REJURAN",
+      "price_usd": 41.6,
+      "rating": 5,
+      "review_count": 11,
+      "us_rank": 3,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA67698081",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[2sizes] ILLIYOON Ceramide Ato Concentrate Cream",
+      "brand": "ILLIYOON",
+      "price_usd": 21.24,
+      "rating": 5,
+      "review_count": 4,
+      "us_rank": 4,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA39684183",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],

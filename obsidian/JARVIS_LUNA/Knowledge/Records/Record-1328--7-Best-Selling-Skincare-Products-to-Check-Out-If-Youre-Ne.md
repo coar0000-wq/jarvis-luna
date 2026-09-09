@@ -2,7 +2,7 @@
 title: "Record 1328 · 7-Best-Selling-Skincare-Products-to-Check-Out-If-Youre-New-to-K-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.692421+00:00
+updated_at: 2026-09-09T22:16:52.160488+00:00
 tags: [record, real-data]
 ---
 

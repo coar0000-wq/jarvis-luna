@@ -2,7 +2,7 @@
 title: "Record 1445 · Shopifys-New-AI-Tools-Empower-Merchants---Practical-Ecommerce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.718029+00:00
+updated_at: 2026-09-09T22:16:52.188351+00:00
 tags: [record, real-data]
 ---
 

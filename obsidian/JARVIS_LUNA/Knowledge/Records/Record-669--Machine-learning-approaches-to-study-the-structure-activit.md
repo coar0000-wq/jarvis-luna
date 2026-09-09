@@ -2,7 +2,7 @@
 title: "Record 669 · Machine-learning-approaches-to-study-the-structure-activity-relationsh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.543481+00:00
+updated_at: 2026-09-09T22:16:51.997211+00:00
 tags: [record, real-data]
 ---
 

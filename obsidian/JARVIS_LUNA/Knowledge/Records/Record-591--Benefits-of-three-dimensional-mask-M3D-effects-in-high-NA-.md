@@ -2,7 +2,7 @@
 title: "Record 591 · Benefits-of-three-dimensional-mask-M3D-effects-in-high-NA-and-hyper-NA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.526184+00:00
+updated_at: 2026-09-09T22:16:51.977991+00:00
 tags: [record, real-data]
 ---
 

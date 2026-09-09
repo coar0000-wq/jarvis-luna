@@ -2,13 +2,13 @@
 title: "Record 1975 · SK-hynix-Charts-Its-Business-and-Technology-Direction-at-the-2026-Futu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.836308+00:00
+updated_at: 2026-09-09T22:16:52.319317+00:00
 tags: [record, real-data]
 ---
 
 # Record 1975 · SK-hynix-Charts-Its-Business-and-Technology-Direction-at-the-2026-Futu
 
-> 실제 수집 레코드입니다. 원문: [news.skhynix.com](https://news.skhynix.com/en/future-forum-2026-3/)
+> 실제 수집 레코드입니다. 원문: [news.skhynix.com](https://news.skhynix.com/en/future-forum-2026-2/)
 
 **제목:** SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”
 

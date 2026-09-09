@@ -2,7 +2,7 @@
 title: "Record 162 · RoboSPA-Can-VLA-Models-Go-Beyond-Simple-Scenes-and-Short-Horizon-Tasks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.421410+00:00
+updated_at: 2026-09-09T22:16:51.851674+00:00
 tags: [record, real-data]
 ---
 

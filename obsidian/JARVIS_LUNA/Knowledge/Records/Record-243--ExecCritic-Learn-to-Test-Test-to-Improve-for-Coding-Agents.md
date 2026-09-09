@@ -2,7 +2,7 @@
 title: "Record 243 · ExecCritic-Learn-to-Test-Test-to-Improve-for-Coding-Agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.443224+00:00
+updated_at: 2026-09-09T22:16:51.881632+00:00
 tags: [record, real-data]
 ---
 

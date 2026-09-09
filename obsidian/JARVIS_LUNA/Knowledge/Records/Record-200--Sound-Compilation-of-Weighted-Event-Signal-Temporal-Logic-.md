@@ -2,7 +2,7 @@
 title: "Record 200 · Sound-Compilation-of-Weighted-Event-Signal-Temporal-Logic-to-Timeless-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.431329+00:00
+updated_at: 2026-09-09T22:16:51.866294+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 220 · Real-time-Puncture-Detection-and-Recovery-for-Pneumatic-Soft-Actuators"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.436985+00:00
+updated_at: 2026-09-09T22:16:51.872669+00:00
 tags: [record, real-data]
 ---
 

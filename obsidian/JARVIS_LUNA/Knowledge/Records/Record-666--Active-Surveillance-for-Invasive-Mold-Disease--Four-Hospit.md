@@ -2,7 +2,7 @@
 title: "Record 666 · Active-Surveillance-for-Invasive-Mold-Disease--Four-Hospitals-Atlanta-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.542812+00:00
+updated_at: 2026-09-09T22:16:51.996461+00:00
 tags: [record, real-data]
 ---
 

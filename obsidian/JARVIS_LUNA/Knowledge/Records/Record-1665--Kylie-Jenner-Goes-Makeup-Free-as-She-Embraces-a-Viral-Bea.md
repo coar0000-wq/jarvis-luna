@@ -2,7 +2,7 @@
 title: "Record 1665 · Kylie-Jenner-Goes-Makeup-Free-as-She-Embraces-a-Viral-Beauty-Trend-as-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.765894+00:00
+updated_at: 2026-09-09T22:16:52.241284+00:00
 tags: [record, real-data]
 ---
 

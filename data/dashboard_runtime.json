@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T06:34:34.918155+09:00",
+  "generated_at": "2026-09-10T07:24:59.891198+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-09-09T19:09:11.209688+00:00",
+      "when": "2026-09-09T22:19:42.145045+00:00",
       "summary": "202개 상품 · 등급 S 6 / A 30 / B 26 / C 140 · 새 자료 203건",
       "action": "직전 실행에서 23건 시도 중 13건 실패 (성공 10건) · 가격 없음 13",
       "status": "ok",
@@ -18,8 +18,8 @@
     {
       "id": "institutions",
       "name": "기관 수집팀",
-      "when": "2026-09-09T19:04:20.940475+00:00",
-      "summary": "35곳 1,061건 · 미수집 12건 사유 기록 · 새 자료 271건",
+      "when": "2026-09-09T22:14:52.796829+00:00",
+      "summary": "35곳 1,061건 · 미수집 12건 사유 기록 · 새 자료 283건",
       "action": null,
       "status": "ok",
       "phase": "now",
@@ -30,8 +30,8 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-10T06:33:20.834888+09:00",
-      "summary": "S등급 6개 · 고시표 입력 대기 2건 · 새 자료 48건",
+      "when": "2026-09-10T07:20:41.484936+09:00",
+      "summary": "S등급 6개 · 고시표 입력 대기 2건 · 새 자료 47건",
       "action": "다이소 상세페이지 고시 표 2건 캡처 필요",
       "status": "ok",
       "phase": "always",
@@ -42,7 +42,7 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-09T19:09:11.366367+00:00",
+      "when": "2026-09-09T22:19:42.302389+00:00",
       "summary": "등록 가능 4/6 · 카피 4 · 고시 4 · 가격 6 · 법률 4",
       "action": "카피 2건, 고시 2건, 법률 2건 이 막고 있음",
       "status": "ok",
@@ -54,8 +54,8 @@
     {
       "id": "pricing",
       "name": "가격 정책팀",
-      "when": "2026-09-09T19:09:11.272663+00:00",
-      "summary": "개당 배송비 $6.29~$10.81 · 무게 85~520g (이름추정 2 / 고시용량 4) · DDU/DDP 4개 · 새 자료 5건",
+      "when": "2026-09-09T22:19:42.210258+00:00",
+      "summary": "개당 배송비 $6.29~$10.81 · 무게 85~520g (이름추정 2 / 고시용량 4) · DDU/DDP 4개 · 새 자료 6건",
       "action": null,
       "status": "ok",
       "phase": "ready",
@@ -66,8 +66,8 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-09T19:09:11.319690+00:00",
-      "summary": "자동 점검 12건 · 통과 12 · 등록 차단 2 · 참고 주의 7 · 수출서류 HS 12건 · 라벨 5/6항목 자동 · 새 자료 21건",
+      "when": "2026-09-09T22:19:42.256259+00:00",
+      "summary": "자동 점검 12건 · 통과 12 · 등록 차단 2 · 참고 주의 7 · 수출서류 HS 12건 · 라벨 5/6항목 자동 · 새 자료 19건",
       "action": "차단 2건: 비프루브 마린 무기자차 마일드(SPF 표기 - 미국 OT), 싸이닉 파워옴므 워터리 선크림(SPF 표기 - 미국 OT) — 라벨 갖추기 전엔 못 올림",
       "status": "ok",
       "phase": "ready",
@@ -78,8 +78,8 @@
     {
       "id": "robotics",
       "name": "로보틱스 수집",
-      "when": "2026-09-09T19:03:04.623960+00:00",
-      "summary": "89건 · arxiv 49 / rss 40 · 새 자료 76건",
+      "when": "2026-09-09T22:13:50.565488+00:00",
+      "summary": "89건 · arxiv 49 / rss 40 · 새 자료 75건",
       "action": null,
       "status": "ok",
       "phase": "now",
@@ -90,8 +90,8 @@
     {
       "id": "design",
       "name": "디자인팀",
-      "when": "2026-09-09T19:04:29.241198+00:00",
-      "summary": "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 33건 · 새 자료 99건",
+      "when": "2026-09-09T22:15:01.063951+00:00",
+      "summary": "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 33건 · 새 자료 97건",
       "action": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "status": "ok",
       "phase": "ready",
@@ -102,7 +102,7 @@
     {
       "id": "channels",
       "name": "채널 운영팀",
-      "when": "2026-09-09T19:09:30.451097+00:00",
+      "when": "2026-09-09T22:20:02.449074+00:00",
       "summary": "가동 7/12채널 · 낡음 4건 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건",
       "action": null,
       "status": "ok",
@@ -114,7 +114,7 @@
     {
       "id": "knowledge",
       "name": "지식 수집팀",
-      "when": "2026-09-09T20:57:24.129952+00:00",
+      "when": "2026-09-09T22:15:23.066581+00:00",
       "summary": "440건 · arXiv 10 / YouTube 0 / Google 300 / US뷰티 130",
       "action": "의도적 중단: YouTube(robots.txt 준수 · Data API 키 대기)",
       "status": "ok",
@@ -126,8 +126,8 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-10T06:33:23.578366+09:00",
-      "summary": "70,463노트 · 278,381링크 · 끊어진 링크 106건 · 개인 노트 16건 별도",
+      "when": "2026-09-10T07:24:55.756744+09:00",
+      "summary": "71,450노트 · 282,325링크 · 끊어진 링크 106건 · 개인 노트 16건 별도",
       "action": null,
       "status": "failed",
       "phase": "now",
@@ -165,7 +165,7 @@
     }
   },
   "errors": {
-    "generated_at": "2026-09-09T19:10:03.858701+00:00",
+    "generated_at": "2026-09-09T22:20:33.983944+00:00",
     "total": 35,
     "counts": {
       "고장": 5,
@@ -245,7 +245,7 @@
     ]
   },
   "team_summary": {
-    "corpus_records": 2866,
+    "corpus_records": 2885,
     "pipeline_done": 4,
     "pipeline_total": 5
   },
@@ -254,13 +254,13 @@
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "2866개 코퍼스 레코드"
+      "detail": "2885개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "failed",
-      "detail": "70463개 노트 · 278381개 링크 · 끊어진 링크 106개 · 개인 노트 16개 별도"
+      "detail": "71450개 노트 · 282325개 링크 · 끊어진 링크 106개 · 개인 노트 16개 별도"
     },
     {
       "id": "dashboard",
@@ -272,7 +272,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "2866건 · 3 experts · 정확도 87.75%"
+      "detail": "2885건 · 3 experts · 정확도 87.80%"
     },
     {
       "id": "publish",
@@ -283,48 +283,48 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 2866,
+    "record_count": 2885,
     "source_counts": {},
-    "updated_at": "2026-09-10T06:33:20.825212+09:00"
+    "updated_at": "2026-09-10T07:20:41.093938+09:00"
   },
   "graph": {
-    "notes": 70463,
-    "links": 278381,
+    "notes": 71450,
+    "links": 282325,
     "dangling_links": 106,
     "dangling_personal": 16,
     "dangling_personal_note": "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다.",
-    "records": 69625,
+    "records": 70612,
     "sources": 6,
     "topics": 28,
     "orgs": 35,
     "audit": "failed",
-    "last_generated": "2026-09-10T06:33:23.578366+09:00"
+    "last_generated": "2026-09-10T07:24:55.756744+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 2866,
+    "records": 2885,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.8775296580600139,
-    "validation_accuracy": 0.8831168831168831,
-    "final_loss": 0.40550112782782205,
-    "gate_load_std": 0.17894406280477199,
+    "accuracy": 0.8779896013864819,
+    "validation_accuracy": 0.8835489833641405,
+    "final_loss": 0.40489701562415004,
+    "gate_load_std": 0.17604190706947953,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-09T20:58:35.509687+00:00"
+    "updated_at": "2026-09-09T22:19:13.014015+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 2866,
-      "notes": 70569,
-      "links": 284990
+      "records": 2885,
+      "notes": 71556,
+      "links": 289053
     },
     "prior_totals": {
-      "records": 2866,
-      "notes": 70569,
-      "links": 284990
+      "records": 2885,
+      "notes": 71556,
+      "links": 289053
     },
     "added_this_run": {
       "records": 0,
@@ -332,9 +332,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 2866,
-      "notes": 70463,
-      "links": 278381
+      "records": 2885,
+      "notes": 71450,
+      "links": 282325
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -651,18 +651,18 @@
     ],
     "google_trends_us": [
       {
-        "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
-        "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
-        "sub": "K-beauty",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5"
-      },
-      {
         "keyword": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
         "product": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
         "sub": "K-beauty",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5N2ZIdEFwRWx5ZzJ0aHhib3ZvMHQ5c1o0Z1J5Nm14ZW5wUmpHZ0xKcGhnaVBTVVRFYU81WVFrbUZkQnhNTmxHeGMzQ3dHWHhtc0xxQzVoRkhqNFFWVjR4WGNoT0lhYXktTGhHZ001VHJ1Z282RWpRdGFabG43Zw?oc=5"
+      },
+      {
+        "keyword": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
+        "product": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeEJ0MTljNGRxbHppX0V4djZuR3ZoTTlQX1FRT0Z0VHgwMmxuLWhyRlY1ZnRkMktJYjItc0ZSUi05T0hIeDFFUGhZSUNtN2xqVHhQSHozeHJWYzY1Vzl2UFoxUjV3Q3AzdXowc1hlODhkck50Z3V2N3d0Wm5JX3EtYWsxeFBQQVh3Z0FnYnZ3Nm02SFJDd1hPYzltdkdOVFMwdUR1eW1QbnpuUQ?oc=5"
       },
       {
         "keyword": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
@@ -672,6 +672,13 @@
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3ZU9yYWdlM1JUZGlkem45TFVrY1Z1ZzVCZEJ2V29RX3FaZ043TG9PamFJdjBHUWxWOG1IbzktajdOZzRKLUxkZF8xaHJ4R2NMaDNDQy0yOGItRHVobEd2bk9IVmh1S2FSM0g0cEtRY0xFTFpWQUE?oc=5"
       },
       {
+        "keyword": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+        "product": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5"
+      },
+      {
         "keyword": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
         "product": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
         "sub": "K-beauty",
@@ -679,32 +686,25 @@
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5"
       },
       {
-        "keyword": "Amorepacific finds microbiome strain may help fade post-acne pigmentation - Korea Biomedical Review",
-        "product": "Amorepacific finds microbiome strain may help fade post-acne pigmentation - Korea Biomedical Review",
+        "keyword": "Amorepacific finds microbiome strain may help fade post-acne pigmentation - koreabiomed.com",
+        "product": "Amorepacific finds microbiome strain may help fade post-acne pigmentation - koreabiomed.com",
         "sub": "K-beauty",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45dlY2V09IOEdUUDlUQW81YmctQ25WVDl6cnUtUWZOamJ2RkRUR0dGTlNNUGh4OUt1cml1dnlBWjk4ZGxpWHc2emc4OTQ1YlV1aFVlc0xjc1c5eFc5YUYtXzR1OGMtaWEtbm0zNEV30gFyQVVfeXFMTkEtUXVvelh5dzVleGJNWjVTRU1aaENSbG5NNHVIa3oyREdTejdMeFMyQ1duZXdzZy00UzFOZzNiVW1QUXdhaU0zM3pybldzQjhsVlVkd05Pdi1CSlVGM2EySnRXWnhDdEE4eEk0bXJvemdB?oc=5"
       },
       {
-        "keyword": "Korean Hair Products Are Here. This is Why You Absolutely Need to Try Them. - Women's Health",
-        "product": "Korean Hair Products Are Here. This is Why You Absolutely Need to Try Them. - Women's Health",
+        "keyword": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
+        "product": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
         "sub": "K-beauty",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOEh6R2M4VmNWR0FtR2loaEpLX002R2F3dkRFRldjSmZUdkxjekVzb2NXYzhZMUFiZzM5cXRQVHk1RmQ0NTkxcU5MZTVMX1RsQVBNcEw5NkM3ZGJ5Q19KajNpTkdoZE93MFR5cnExZTNHTHZad0s0aGpaS2xUMG1LMFE0VUxKUQ?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFlyd3hfU3ozdUtzS0d1MU5Hbmx6MHlWZTFicUdJT2NrSWlaLWJTS2lzQ21tZGhrQTRRei1FeDJnQk1OU0dvM1R5cUlnYnZFM05SM0syVjhnYXlnTmV5LVlHRmNpTmVBamFQMVFHVWJEQW9JVm1uTGxWLW84dTZCYTZ1RU1QVjhYTGhaaEp2NHNkQ2k3T1hsZElFcw?oc=5"
       },
       {
-        "keyword": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - Global Cosmetics News",
-        "product": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - Global Cosmetics News",
+        "keyword": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
+        "product": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
         "sub": "K-beauty",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMjY0SGdyaGU3MjdmNlUtemxuYlZaaHFwdmZsY2dDd0hTTHM1NHJvRTk3ck5TNFAxa19fa2NmaG9iMzdXVVpwWVlodGJSTmlMT1JnNUMyNTdsTnM3QjdMMGFlWFIzeEtGbjRLX0xZbjhLdkZ6N0NUUlVHVG1mYTVMcDQyU0UzUVBxa1J1QjJROThfR2gtYjlHQVpwbEU5WmxoUG9TM2RseTUzQS1u?oc=5"
-      },
-      {
-        "keyword": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - Trend Hunter",
-        "product": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - Trend Hunter",
-        "sub": "K-beauty",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yd21ockxiN01RTlN0SGRoNWdlcFBFdkpab3JqdXRGUHRIS3NjS1VzR3VDWjhKRmJtaTN4MGlaS0NLUjlVbVRxZE5xY1lqU28yV0dVOTNLby03OUhKVWVuVlg3ZjBVMEkydXc?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXkzOEhOM0k2RV9QV1hUbWlZSDhQZ2dGbWVZNHp6XzM3dWtvVTU5OTlJa3NROGF6R0ZjUlg0eHp5WTFUUmUzdElxSE9iX1JVTDV1cUdHeHBrVTVFLXRyTWVGWGVLWVdaOWQwMjVKSVVPbmxBRlhDOFp2cmRnd3JITUFibWR6UF8xSFo5aFlqem5hR2phaU5qdmx0SXJtdjJzZFA2ZmNFbTV0R0g0ZmNqMGYzZnI?oc=5"
       },
       {
         "keyword": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
@@ -816,6 +816,24 @@
     ],
     "allure_media": [
       {
+        "product": "Why the French Manicure Has Divided People For Decades",
+        "sub": "Wed, 09 Sep 2026",
+        "badge": "09 Sep",
+        "url": "https://www.allure.com/story/french-manicure-history-50th-anniversary-jeff-pink"
+      },
+      {
+        "product": "Taraji P. Henson Makes a Flawless Case for Matching Your Manicure to Your Jewelry — See Photos",
+        "sub": "Wed, 09 Sep 2026",
+        "badge": "09 Sep",
+        "url": "https://www.allure.com/story/taraji-p-henson-gold-nails"
+      },
+      {
+        "product": "Are Compounded Peptide Creams Any Better Than Over the Counter Options?",
+        "sub": "Wed, 09 Sep 2026",
+        "badge": "09 Sep",
+        "url": "https://www.allure.com/story/ghkcu-copper-peptide-skin-care-cream-compound"
+      },
+      {
         "product": "Dua Lipa's Multicolored French Manicure Says Summer Isn't Over Yet—See the Photos",
         "sub": "Wed, 09 Sep 2026",
         "badge": "09 Sep",
@@ -886,24 +904,6 @@
         "sub": "Fri, 04 Sep 2026",
         "badge": "04 Sep",
         "url": "https://www.allure.com/story/best-urea-moisturizer"
-      },
-      {
-        "product": "Fall 2026 Makeup Trends Put Your Best Features Front and Center — See Photos",
-        "sub": "Fri, 04 Sep 2026",
-        "badge": "04 Sep",
-        "url": "https://www.allure.com/story/fall-makeup-trends-2026"
-      },
-      {
-        "product": "Hairstylist Frédéric Fekkai Is Being Sued by Epstein Survivors for Allegedly Enabling Gender-Motivated Violence",
-        "sub": "Thu, 03 Sep 2026",
-        "badge": "03 Sep",
-        "url": "https://www.allure.com/story/hairstylist-frederic-fekkai-lawsuit-grooming-accusations"
-      },
-      {
-        "product": "A New Report on Plastic Surgery Trends Shows Americans Over 66 Want to Be Snatched, Too",
-        "sub": "Thu, 03 Sep 2026",
-        "badge": "03 Sep",
-        "url": "https://www.allure.com/story/asps-plastic-surgery-trends-2025"
       }
     ],
     "openfda_sunscreen": [
@@ -1397,7 +1397,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 9,
       "trust": "manual",
-      "age_hours": 213.6,
+      "age_hours": 214.4,
       "stale": true
     },
     "walmart_beauty": {
@@ -1407,60 +1407,60 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 5,
       "trust": "manual",
-      "age_hours": 213.6,
+      "age_hours": 214.4,
       "stale": true
     },
     "oliveyoung_us": {
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "2026-09-09T19:05:14.796318+00:00",
+      "collected_at": "2026-09-09T22:15:49.890241+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 2.5,
+      "age_hours": 0.2,
       "stale": false
     },
     "google_trends_us": {
       "status": "ok",
       "source": "google news rss (beauty queries) + trends daily filtered",
       "reason": "",
-      "collected_at": "2026-09-09T19:06:06.012335+00:00",
+      "collected_at": "2026-09-09T22:16:39.392804+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 2.5,
+      "age_hours": 0.1,
       "stale": false
     },
     "wikipedia_interest": {
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-09T14:15:08.561302+00:00",
+      "collected_at": "2026-09-09T19:09:10.007429+00:00",
       "count": 8,
       "trust": "verified",
       "note": "2026-08-09 ~ 2026-09-07 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 7.3,
+      "age_hours": 3.3,
       "stale": false
     },
     "allure_media": {
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-09T14:15:08.561302+00:00",
+      "collected_at": "2026-09-09T19:09:10.007429+00:00",
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 7.3,
+      "age_hours": 3.3,
       "stale": false
     },
     "openfda_sunscreen": {
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-09T14:15:08.561302+00:00",
+      "collected_at": "2026-09-09T19:09:10.007429+00:00",
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 7.3,
+      "age_hours": 3.3,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1486,7 +1486,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 8,
       "trust": "manual",
-      "age_hours": 213.6,
+      "age_hours": 214.4,
       "stale": true
     },
     "sephora": {
@@ -1496,17 +1496,17 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 10,
       "trust": "manual",
-      "age_hours": 213.6,
+      "age_hours": 214.4,
       "stale": true
     },
     "open_beauty_facts": {
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-09T19:05:14.035803+00:00",
+      "collected_at": "2026-09-09T22:15:49.338411+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 2.5,
+      "age_hours": 0.2,
       "stale": false
     }
   },
@@ -1516,5 +1516,5 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-10"
   },
-  "last_synced": "09. 10. 오전 04:08 KST"
+  "last_synced": "09. 10. 오전 07:19 KST"
 }

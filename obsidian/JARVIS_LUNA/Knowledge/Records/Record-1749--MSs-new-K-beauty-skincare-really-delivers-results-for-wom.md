@@ -2,7 +2,7 @@
 title: "Record 1749 · MSs-new-K-beauty-skincare-really-delivers-results-for-women-over-50---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.784189+00:00
+updated_at: 2026-09-09T22:16:52.261784+00:00
 tags: [record, real-data]
 ---
 

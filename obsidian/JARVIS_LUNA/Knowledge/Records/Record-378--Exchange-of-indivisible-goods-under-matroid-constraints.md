@@ -2,7 +2,7 @@
 title: "Record 378 · Exchange-of-indivisible-goods-under-matroid-constraints"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.475833+00:00
+updated_at: 2026-09-09T22:16:51.923434+00:00
 tags: [record, real-data]
 ---
 

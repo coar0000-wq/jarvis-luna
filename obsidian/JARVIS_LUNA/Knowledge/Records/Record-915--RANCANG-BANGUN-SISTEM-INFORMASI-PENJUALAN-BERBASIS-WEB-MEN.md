@@ -2,7 +2,7 @@
 title: "Record 915 · RANCANG-BANGUN-SISTEM-INFORMASI-PENJUALAN-BERBASIS-WEB-MENGGUNAKAN-MET"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.599317+00:00
+updated_at: 2026-09-09T22:16:52.059551+00:00
 tags: [record, real-data]
 ---
 

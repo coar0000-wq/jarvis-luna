@@ -2,7 +2,7 @@
 title: "Record 1631 · The-Korean-Beauty-Giant-Coming-for-Americas-Dollars---WSJ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.758633+00:00
+updated_at: 2026-09-09T22:16:52.233126+00:00
 tags: [record, real-data]
 ---
 

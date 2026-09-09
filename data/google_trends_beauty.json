@@ -1,26 +1,26 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-09T19:06:06.012335+00:00",
+  "collected_at": "2026-09-09T22:16:39.392804+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
   "count": 93,
   "items": [
     {
-      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
-      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
       "product": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5N2ZIdEFwRWx5ZzJ0aHhib3ZvMHQ5c1o0Z1J5Nm14ZW5wUmpHZ0xKcGhnaVBTVVRFYU81WVFrbUZkQnhNTmxHeGMzQ3dHWHhtc0xxQzVoRkhqNFFWVjR4WGNoT0lhYXktTGhHZ001VHJ1Z282RWpRdGFabG43Zw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
+      "product": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeEJ0MTljNGRxbHppX0V4djZuR3ZoTTlQX1FRT0Z0VHgwMmxuLWhyRlY1ZnRkMktJYjItc0ZSUi05T0hIeDFFUGhZSUNtN2xqVHhQSHozeHJWYzY1Vzl2UFoxUjV3Q3AzdXowc1hlODhkck50Z3V2N3d0Wm5JX3EtYWsxeFBQQVh3Z0FnYnZ3Nm02SFJDd1hPYzltdkdOVFMwdUR1eW1QbnpuUQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -34,6 +34,15 @@
       "beauty": true
     },
     {
+      "keyword": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+      "product": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
       "keyword": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
       "product": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
       "sub": "K-beauty",
@@ -43,8 +52,8 @@
       "beauty": true
     },
     {
-      "keyword": "Amorepacific finds microbiome strain may help fade post-acne pigmentation - Korea Biomedical Review",
-      "product": "Amorepacific finds microbiome strain may help fade post-acne pigmentation - Korea Biomedical Review",
+      "keyword": "Amorepacific finds microbiome strain may help fade post-acne pigmentation - koreabiomed.com",
+      "product": "Amorepacific finds microbiome strain may help fade post-acne pigmentation - koreabiomed.com",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45dlY2V09IOEdUUDlUQW81YmctQ25WVDl6cnUtUWZOamJ2RkRUR0dGTlNNUGh4OUt1cml1dnlBWjk4ZGxpWHc2emc4OTQ1YlV1aFVlc0xjc1c5eFc5YUYtXzR1OGMtaWEtbm0zNEV30gFyQVVfeXFMTkEtUXVvelh5dzVleGJNWjVTRU1aaENSbG5NNHVIa3oyREdTejdMeFMyQ1duZXdzZy00UzFOZzNiVW1QUXdhaU0zM3pybldzQjhsVlVkd05Pdi1CSlVGM2EySnRXWnhDdEE4eEk0bXJvemdB?oc=5",
@@ -52,29 +61,20 @@
       "beauty": true
     },
     {
-      "keyword": "Korean Hair Products Are Here. This is Why You Absolutely Need to Try Them. - Women's Health",
-      "product": "Korean Hair Products Are Here. This is Why You Absolutely Need to Try Them. - Women's Health",
+      "keyword": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
+      "product": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOEh6R2M4VmNWR0FtR2loaEpLX002R2F3dkRFRldjSmZUdkxjekVzb2NXYzhZMUFiZzM5cXRQVHk1RmQ0NTkxcU5MZTVMX1RsQVBNcEw5NkM3ZGJ5Q19KajNpTkdoZE93MFR5cnExZTNHTHZad0s0aGpaS2xUMG1LMFE0VUxKUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFlyd3hfU3ozdUtzS0d1MU5Hbmx6MHlWZTFicUdJT2NrSWlaLWJTS2lzQ21tZGhrQTRRei1FeDJnQk1OU0dvM1R5cUlnYnZFM05SM0syVjhnYXlnTmV5LVlHRmNpTmVBamFQMVFHVWJEQW9JVm1uTGxWLW84dTZCYTZ1RU1QVjhYTGhaaEp2NHNkQ2k3T1hsZElFcw?oc=5",
       "kind": "news",
       "beauty": true
     },
     {
-      "keyword": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - Global Cosmetics News",
-      "product": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - Global Cosmetics News",
+      "keyword": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
+      "product": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMjY0SGdyaGU3MjdmNlUtemxuYlZaaHFwdmZsY2dDd0hTTHM1NHJvRTk3ck5TNFAxa19fa2NmaG9iMzdXVVpwWVlodGJSTmlMT1JnNUMyNTdsTnM3QjdMMGFlWFIzeEtGbjRLX0xZbjhLdkZ6N0NUUlVHVG1mYTVMcDQyU0UzUVBxa1J1QjJROThfR2gtYjlHQVpwbEU5WmxoUG9TM2RseTUzQS1u?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - Trend Hunter",
-      "product": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - Trend Hunter",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yd21ockxiN01RTlN0SGRoNWdlcFBFdkpab3JqdXRGUHRIS3NjS1VzR3VDWjhKRmJtaTN4MGlaS0NLUjlVbVRxZE5xY1lqU28yV0dVOTNLby03OUhKVWVuVlg3ZjBVMEkydXc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXkzOEhOM0k2RV9QV1hUbWlZSDhQZ2dGbWVZNHp6XzM3dWtvVTU5OTlJa3NROGF6R0ZjUlg0eHp5WTFUUmUzdElxSE9iX1JVTDV1cUdHeHBrVTVFLXRyTWVGWGVLWVdaOWQwMjVKSVVPbmxBRlhDOFp2cmRnd3JITUFibWR6UF8xSFo5aFlqem5hR2phaU5qdmx0SXJtdjJzZFA2ZmNFbTV0R0g0ZmNqMGYzZnI?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -223,8 +223,17 @@
       "beauty": true
     },
     {
-      "keyword": "Anua Heartleaf 77% Soothing Toner - mamabella.uk",
-      "product": "Anua Heartleaf 77% Soothing Toner - mamabella.uk",
+      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "sub": "heartleaf toner",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Anua Heartleaf 77% Soothing Toner - Mamabella",
+      "product": "Anua Heartleaf 77% Soothing Toner - Mamabella",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB1bjV1c253cFJYUGU1QVNMQ1gxYUZDSV9YMlpxVWI0UVFmV2xRRzFpdS1NSFdQN2xxTUNwbUlGSnJQVjJXQzNhbFEtQVQydE43SFhZY3QwcUlCWFdvVkQ4Y1MwMEYtN0hER3BGcXRvM3RPUGlPRFg1Zw?oc=5",
@@ -250,8 +259,8 @@
       "beauty": true
     },
     {
-      "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
-      "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
+      "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com",
+      "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LemdVMDM3Q3hoem1Xa013a0JQMVdWd0UxSDZpdjc4T3BmT29PMWJZZTltMl9lQkhRM1NzckFMbnBiMlIycWxqZXhrQ3lCeU1YNzFEcnpPQkRpeDQ?oc=5",
@@ -282,15 +291,6 @@
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSUMyeGZqTk5KaUpBR3Q0SXJBbkJKU1o5T0V5emVCRm1RT3Vsa002R2RUOE9ta1BMNmFnNDBXM2g3aXdQWUpDSUFJSklveEhPMmdJcGFXdmlLWGtrUkkzZGljSjBIMmp4M2JGeDNkQUFRdzZJLWk0Z1FiLW5WdEMyWldic1VwQ0tUNmZuVG5jUks4SnRlQ2JNWWx3aGUwZnE2czNLd2M0UlVLUXNFbmxz0gGvAUFVX3lxTE5JQzJ4ZmpOTkppSkFHdDRJckFuQkpTWjlPRXl6ZUJGbVFPdWxrTTZHZFQ4T21rUEw2YWc0MFczaDdpd1BZSkNJQUlKSW94SE8yZ0lwYVd2aUtYa2tSSTNkaWNKMEgyangzYkZ4M2RBQVF3NkktaTRnUWItblZ0QzJaV2JzVXBDS1Q2Zm5UbmNSSzhKdGVDYk1ZbHdoZTBmcTZzM0t3YzRSVUtRc0VubHM?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "This Soothing Toner for Acne-Prone Skin That’s Always Sold Out on TikTok Shop & Is a Rare 30% off til Midnight - SheKnows",
-      "product": "This Soothing Toner for Acne-Prone Skin That’s Always Sold Out on TikTok Shop & Is a Rare 30% off til Midnight - SheKnows",
-      "sub": "heartleaf toner",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82eTk2NHJ2QUFpbWZLZUhMUVlUR25HeGw5UUhZVVl1QjVYcnV3SDUtemwyUUo5MDU2TEFoN2NTMmtvclRGbWZ2R0RqdkhmLThlM1ZUY3VMcWtiUmctT3N0dnBWNzJvb2xIQWpTZFNMTTNrMkQ0UEpvUmw4eE1sdw?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -349,8 +349,8 @@
       "beauty": true
     },
     {
-      "keyword": "Scientists develop plant-based serum that regrows hair within weeks - timesofindia.indiatimes.com",
-      "product": "Scientists develop plant-based serum that regrows hair within weeks - timesofindia.indiatimes.com",
+      "keyword": "Scientists develop plant-based serum that regrows hair within weeks - The Times of India",
+      "product": "Scientists develop plant-based serum that regrows hair within weeks - The Times of India",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQS3NBQ0pya1FORlNaLXJBT216ejlHem55MnVkSFE1MThZWWtvdTBVek8zU2JxYVIzdlREWDhWcUU1b2NkOUpjM3hIaWk3akFxNndzMm9GRkVGaDJZQ2Jrb1MyWXBkSnB2cnJ0SHNnWmx3TExmeTctVnpnQWl1YWFYTHhnZUloWGVzT2NOZENreGFjdlVzVzJabmVOdHlpZEJKV0p3ZThieE1Gd0RaWEVONzI3bTlMeGM0YnZyM1p0aXk5UTREdnVvWkxKQ2lNdWRjRzR30gHYAUFVX3lxTFBLVlRaRExMTVdsY0wtQk5Zb3hTQUxMT1hmSlhTZ3gtblBzaFNKY1RqMDJsVER5bThnN2xZYlhvNWJxOXJCRmtpdFhRcGhaT2tlanRwQ2VxZnlCVHVsZlNfb1hyQkR2VUQwUUVudFlWTWF3YXVtYTZ2WWtpaDNFQ0tnQzJnMmIxZG5MSF9qMjZMZklrcTh4TF8zWlBPNWJ2S1cwYUNiTFBsWTctTElTMEduV1o4QXZTR3pWT1lPeHRTc3lHaTlJZm5pazFmWlBZS0RHdzlNVUJ2cQ?oc=5",

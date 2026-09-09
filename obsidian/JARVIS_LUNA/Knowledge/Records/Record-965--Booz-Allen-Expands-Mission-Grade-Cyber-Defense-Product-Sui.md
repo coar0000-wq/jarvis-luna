@@ -2,7 +2,7 @@
 title: "Record 965 · Booz-Allen-Expands-Mission-Grade-Cyber-Defense-Product-Suite"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.610725+00:00
+updated_at: 2026-09-09T22:16:52.071987+00:00
 tags: [record, real-data]
 ---
 

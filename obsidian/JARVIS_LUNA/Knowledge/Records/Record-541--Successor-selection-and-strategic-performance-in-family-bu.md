@@ -2,7 +2,7 @@
 title: "Record 541 · Successor-selection-and-strategic-performance-in-family-businesses-the"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.515187+00:00
+updated_at: 2026-09-09T22:16:51.965487+00:00
 tags: [record, real-data]
 ---
 

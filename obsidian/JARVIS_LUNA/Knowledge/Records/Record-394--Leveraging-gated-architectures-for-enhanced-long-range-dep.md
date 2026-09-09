@@ -2,7 +2,7 @@
 title: "Record 394 · Leveraging-gated-architectures-for-enhanced-long-range-dependency-lear"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.479705+00:00
+updated_at: 2026-09-09T22:16:51.927720+00:00
 tags: [record, real-data]
 ---
 

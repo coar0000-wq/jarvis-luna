@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T19:03:04.623960+00:00",
+  "generated_at": "2026-09-09T22:13:50.565488+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -714,6 +714,22 @@
           "source": "rss"
         },
         {
+          "title": "What bricklaying has taught Monumental about robots in construction",
+          "summary": "<p>The construction industry is rife with opportunity for robotics, but the technology hasn't broken in at scale yet. </p> <p>The post <a href=\"https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/\">What bricklaying has taught Monumental about robots in construction</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Wed, 09 Sep 2026 21:08:06 +0000",
+          "url": "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
+          "title": "Unitree shares down 53% from IPO debut",
+          "summary": "<p>The market is pulling back on Unitree's $66 billion valuation from its debut on the Shanghai Stock Exchange just last month.</p> <p>The post <a href=\"https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/\">Unitree shares down 53% from IPO debut</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Wed, 09 Sep 2026 19:34:57 +0000",
+          "url": "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
           "title": "AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness",
           "summary": "<p>AGIBOT plans to give attendees actionable insights on identifying high-value robotics use cases and building sustainable developer ecosystems.</p> <p>The post <a href=\"https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/\">AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness</a> appeared first on <a href=\"htt",
           "published": "Wed, 09 Sep 2026 16:43:28 +0000",
@@ -814,22 +830,6 @@
           "summary": "<p>Eric Sivertson, vice president of security business at Lattice Semiconductor, explains how FPGAs can act as deterministic guardrails for robotic systems.</p> <p>The post <a href=\"https://www.therobotreport.com/how-fpgas-become-the-gatekeepers-of-physical-ai-security/\">How FPGAs become the gatekeepers of physical AI security</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robo",
           "published": "Fri, 04 Sep 2026 18:09:54 +0000",
           "url": "https://www.therobotreport.com/how-fpgas-become-the-gatekeepers-of-physical-ai-security/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Calling robotics startups: Apply now to be part of the 2026 Robotics Startup Radar",
-          "summary": "<p>Submit now to be part of the Robotics Startup Radar, which brings together some of the most promising robotics startups.</p> <p>The post <a href=\"https://www.therobotreport.com/calling-all-robotics-startups-apply-now-2026-robotics-startup-radar/\">Calling robotics startups: Apply now to be part of the 2026 Robotics Startup Radar</a> appeared first on <a href=\"https://www.therobotreport.com\">The ",
-          "published": "Fri, 04 Sep 2026 16:33:59 +0000",
-          "url": "https://www.therobotreport.com/calling-all-robotics-startups-apply-now-2026-robotics-startup-radar/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Lyte raises $165M to help robots better sense their surroundings",
-          "summary": "<p>Lyte AI plans to use its second round of funding this year to scale production of its AI and perception capabilities.</p> <p>The post <a href=\"https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/\">Lyte raises $165M to help robots better sense their surroundings</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Fri, 04 Sep 2026 14:32:52 +0000",
-          "url": "https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/",
           "feed": "The Robot Report",
           "source": "rss"
         }

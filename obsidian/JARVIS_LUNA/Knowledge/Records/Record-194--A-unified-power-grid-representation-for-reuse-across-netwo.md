@@ -2,7 +2,7 @@
 title: "Record 194 · A-unified-power-grid-representation-for-reuse-across-network-structure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.429573+00:00
+updated_at: 2026-09-09T22:16:51.863960+00:00
 tags: [record, real-data]
 ---
 

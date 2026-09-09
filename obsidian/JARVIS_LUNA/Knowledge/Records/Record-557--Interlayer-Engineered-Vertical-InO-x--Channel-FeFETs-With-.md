@@ -2,7 +2,7 @@
 title: "Record 557 · Interlayer-Engineered-Vertical-InO-x--Channel-FeFETs-With-Two-Step-Ann"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.518710+00:00
+updated_at: 2026-09-09T22:16:51.969459+00:00
 tags: [record, real-data]
 ---
 

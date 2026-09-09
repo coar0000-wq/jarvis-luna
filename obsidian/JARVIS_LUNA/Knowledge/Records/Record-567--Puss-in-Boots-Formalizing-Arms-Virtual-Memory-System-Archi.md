@@ -2,7 +2,7 @@
 title: "Record 567 · Puss-in-Boots-Formalizing-Arms-Virtual-Memory-System-Architecture"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.520913+00:00
+updated_at: 2026-09-09T22:16:51.971934+00:00
 tags: [record, real-data]
 ---
 

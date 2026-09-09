@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T04:09:17.596234+09:00",
+  "generated_at": "2026-09-10T07:19:48.427921+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -11,8 +11,8 @@
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
-      "post_count": 25,
-      "collected_at": "2026-09-09T19:05:28.393920+00:00",
+      "post_count": 33,
+      "collected_at": "2026-09-09T22:16:03.482467+00:00",
       "keyword_pool": 40
     }
   },
@@ -78,7 +78,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['dodoskin', 'skin', 'skinny']",
+          "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -103,11 +103,13 @@
           "glass skin",
           "hydrating",
           "dodoskin",
+          "k-beauty",
           "skin",
           "skinny"
         ],
         "reddit_keywords_used": [
           "dodoskin",
+          "k-beauty",
           "skin",
           "skinny"
         ],
@@ -117,12 +119,13 @@
       "reddit_match": {
         "matched": [
           "dodoskin",
+          "k-beauty",
           "skin",
           "skinny"
         ],
-        "score": 3,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['dodoskin', 'skin', 'skinny']",
+        "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -193,7 +196,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['dodoskin', 'skin', 'skinny']",
+          "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -220,11 +223,13 @@
           "glass skin",
           "hydrating",
           "dodoskin",
+          "k-beauty",
           "skin",
           "skinny"
         ],
         "reddit_keywords_used": [
           "dodoskin",
+          "k-beauty",
           "skin",
           "skinny"
         ],
@@ -234,12 +239,13 @@
       "reddit_match": {
         "matched": [
           "dodoskin",
+          "k-beauty",
           "skin",
           "skinny"
         ],
-        "score": 3,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['dodoskin', 'skin', 'skinny']",
+        "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -310,7 +316,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['dodoskin', 'skin', 'skinny']",
+          "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -336,11 +342,13 @@
           "glass skin",
           "hydrating",
           "dodoskin",
+          "k-beauty",
           "skin",
           "skinny"
         ],
         "reddit_keywords_used": [
           "dodoskin",
+          "k-beauty",
           "skin",
           "skinny"
         ],
@@ -350,12 +358,13 @@
       "reddit_match": {
         "matched": [
           "dodoskin",
+          "k-beauty",
           "skin",
           "skinny"
         ],
-        "score": 3,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['dodoskin', 'skin', 'skinny']",
+        "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -545,7 +554,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['dodoskin', 'one', 'skin', 'skinny']",
+          "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -570,13 +579,13 @@
           "glass skin",
           "hydrating",
           "dodoskin",
-          "one",
+          "k-beauty",
           "skin",
           "skinny"
         ],
         "reddit_keywords_used": [
           "dodoskin",
-          "one",
+          "k-beauty",
           "skin",
           "skinny"
         ],
@@ -586,13 +595,13 @@
       "reddit_match": {
         "matched": [
           "dodoskin",
-          "one",
+          "k-beauty",
           "skin",
           "skinny"
         ],
         "score": 4,
         "status": "pass",
-        "evidence": "matched=['dodoskin', 'one', 'skin', 'skinny']",
+        "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -663,7 +672,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['dodoskin', 'one', 'skin', 'skinny']",
+          "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -688,13 +697,13 @@
           "glass skin",
           "hydrating",
           "dodoskin",
-          "one",
+          "k-beauty",
           "skin",
           "skinny"
         ],
         "reddit_keywords_used": [
           "dodoskin",
-          "one",
+          "k-beauty",
           "skin",
           "skinny"
         ],
@@ -704,13 +713,13 @@
       "reddit_match": {
         "matched": [
           "dodoskin",
-          "one",
+          "k-beauty",
           "skin",
           "skinny"
         ],
         "score": 4,
         "status": "pass",
-        "evidence": "matched=['dodoskin', 'one', 'skin', 'skinny']",
+        "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {

@@ -2,7 +2,7 @@
 title: "Record 522 · P-707-Trends-in-Respiratory-Virus-associated-Hospitalizations--Nationa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.510669+00:00
+updated_at: 2026-09-09T22:16:51.960650+00:00
 tags: [record, real-data]
 ---
 

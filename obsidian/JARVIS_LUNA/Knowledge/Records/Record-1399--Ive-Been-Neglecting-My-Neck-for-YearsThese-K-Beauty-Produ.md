@@ -2,7 +2,7 @@
 title: "Record 1399 · Ive-Been-Neglecting-My-Neck-for-YearsThese-K-Beauty-Products-Are-Chang"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.707925+00:00
+updated_at: 2026-09-09T22:16:52.177369+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5)
 
-**제목:** I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - elle.com
+**제목:** I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - ELLE
 
-I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - elle.com
+I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - ELLE
 
 **출처:** Source · Google Search
 

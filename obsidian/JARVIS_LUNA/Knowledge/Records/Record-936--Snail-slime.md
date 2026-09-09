@@ -2,7 +2,7 @@
 title: "Record 936 · Snail-slime"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.603877+00:00
+updated_at: 2026-09-09T22:16:52.064556+00:00
 tags: [record, real-data]
 ---
 

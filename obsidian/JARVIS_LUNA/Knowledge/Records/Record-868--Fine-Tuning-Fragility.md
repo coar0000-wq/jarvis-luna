@@ -2,7 +2,7 @@
 title: "Record 868 · Fine-Tuning-Fragility"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.588270+00:00
+updated_at: 2026-09-09T22:16:52.047227+00:00
 tags: [record, real-data]
 ---
 

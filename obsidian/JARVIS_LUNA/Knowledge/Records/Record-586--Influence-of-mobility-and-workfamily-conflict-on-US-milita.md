@@ -2,7 +2,7 @@
 title: "Record 586 · Influence-of-mobility-and-workfamily-conflict-on-US-military-spouse-em"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.525109+00:00
+updated_at: 2026-09-09T22:16:51.976746+00:00
 tags: [record, real-data]
 ---
 

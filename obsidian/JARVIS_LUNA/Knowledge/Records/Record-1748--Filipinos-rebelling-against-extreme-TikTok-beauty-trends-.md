@@ -1,18 +1,18 @@
 ---
-title: "Record 1748 · Filipinos-rebelling-against-extreme-TikTok-beauty-trends--doctor---Dai"
+title: "Record 1748 · Filipinos-rebelling-against-extreme-TikTok-beauty-trends--doctor---tri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.783957+00:00
+updated_at: 2026-09-09T22:16:52.261507+00:00
 tags: [record, real-data]
 ---
 
-# Record 1748 · Filipinos-rebelling-against-extreme-TikTok-beauty-trends--doctor---Dai
+# Record 1748 · Filipinos-rebelling-against-extreme-TikTok-beauty-trends--doctor---tri
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMingFBVV95cUxQdTBmMFFFRG9JVkdQNDc1U2hGV2RleTBNZTh6MUtGcDludDFxYmtUNUJPLURVb2FTQjdxTnhhSGhVMW5KTzRndDdnRzVCdHVHVzVuX2kwWXltaWk4bW1CNl9LbnhGOHhibXc3NVprMEtlekI1S1FQQVRERDRrY1M4ZUNtcUZiMkQybDBuWGNXM2V1Z2NHLVhSY2tkQThsZw?oc=5)
 
-**제목:** Filipinos rebelling against extreme TikTok beauty trends — doctor - Daily Tribune
+**제목:** Filipinos rebelling against extreme TikTok beauty trends — doctor - tribune.net.ph
 
-Filipinos rebelling against extreme TikTok beauty trends — doctor - Daily Tribune
+Filipinos rebelling against extreme TikTok beauty trends — doctor - tribune.net.ph
 
 **출처:** Source · Google Search
 

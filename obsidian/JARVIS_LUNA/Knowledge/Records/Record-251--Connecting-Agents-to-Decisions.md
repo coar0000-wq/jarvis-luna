@@ -2,7 +2,7 @@
 title: "Record 251 · Connecting-Agents-to-Decisions"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.445167+00:00
+updated_at: 2026-09-09T22:16:51.885633+00:00
 tags: [record, real-data]
 ---
 

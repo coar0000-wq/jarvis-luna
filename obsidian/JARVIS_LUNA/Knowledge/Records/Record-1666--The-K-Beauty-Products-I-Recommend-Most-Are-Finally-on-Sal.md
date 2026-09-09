@@ -2,7 +2,7 @@
 title: "Record 1666 · The-K-Beauty-Products-I-Recommend-Most-Are-Finally-on-Sale-for-Prime-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T20:57:33.766097+00:00
+updated_at: 2026-09-09T22:16:52.241511+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilgFBVV95cUxNMURzQjJKNGs4eUl6dGxwQkxkTUttanM4ZW1COUJlWmZrUEoxTWJWRDcyRUhGS19nZmNRV1pxV0ZOT3BnMEU5X1BlNmNGM2ZNdnhlQThScjA1dnFSUEZtcjJCQU9oaGhVdzNZekVadE0tNGtQWG1Sd255VU5Sb3lQVXZ1Vi1GenV6TjBQaDJScE9NUkMzLXc?oc=5)
 
-**제목:** The K-Beauty Products I Recommend Most Are Finally on Sale for Prime Day - elle.com
+**제목:** The K-Beauty Products I Recommend Most Are Finally on Sale for Prime Day - ELLE
 
-The K-Beauty Products I Recommend Most Are Finally on Sale for Prime Day - elle.com
+The K-Beauty Products I Recommend Most Are Finally on Sale for Prime Day - ELLE
 
 **출처:** Source · Google Search
 
