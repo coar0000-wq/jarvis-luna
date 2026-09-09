@@ -2,7 +2,7 @@
 title: "Record 075 · Real-Time-Shape-Control-of-Multi-Segment-Soft-Robotic-Arms-Using-Koopm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.635356+00:00
+updated_at: 2026-09-09T10:37:13.797172+00:00
 tags: [record, real-data]
 ---
 

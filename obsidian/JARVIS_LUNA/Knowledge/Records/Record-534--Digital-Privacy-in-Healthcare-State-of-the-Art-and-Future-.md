@@ -2,7 +2,7 @@
 title: "Record 534 · Digital-Privacy-in-Healthcare-State-of-the-Art-and-Future-Vision"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.758041+00:00
+updated_at: 2026-09-09T10:37:13.915441+00:00
 tags: [record, real-data]
 ---
 

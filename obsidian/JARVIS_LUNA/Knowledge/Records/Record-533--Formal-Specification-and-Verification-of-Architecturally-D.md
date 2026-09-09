@@ -2,7 +2,7 @@
 title: "Record 533 · Formal-Specification-and-Verification-of-Architecturally-Defined-Attes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.757828+00:00
+updated_at: 2026-09-09T10:37:13.915227+00:00
 tags: [record, real-data]
 ---
 

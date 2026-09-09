@@ -2,7 +2,7 @@
 title: "Record 804 · 场计算一种不打分的自组织架构Field-Computation-A-Self-Organizing-Architecture-Without"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.816524+00:00
+updated_at: 2026-09-09T10:37:13.970729+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1024 · Introducing-Robostral-Navigate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.866100+00:00
+updated_at: 2026-09-09T10:37:14.024589+00:00
 tags: [record, real-data]
 ---
 

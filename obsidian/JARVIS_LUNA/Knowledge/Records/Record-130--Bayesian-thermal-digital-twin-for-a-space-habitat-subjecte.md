@@ -2,7 +2,7 @@
 title: "Record 130 · Bayesian-thermal-digital-twin-for-a-space-habitat-subjected-to-an-impa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.650326+00:00
+updated_at: 2026-09-09T10:37:13.812670+00:00
 tags: [record, real-data]
 ---
 

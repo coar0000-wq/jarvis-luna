@@ -2,7 +2,7 @@
 title: "Record 339 · Fast-Verified-Computation-for-HOL-ITPs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.708027+00:00
+updated_at: 2026-09-09T10:37:13.868449+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 348 · Real-time-Software-Enablement-in-Zonal-Controllers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.710191+00:00
+updated_at: 2026-09-09T10:37:13.870599+00:00
 tags: [record, real-data]
 ---
 

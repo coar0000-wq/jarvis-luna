@@ -2,7 +2,7 @@
 title: "Record 290 · Putting-sign-language-AI-into-users-hands"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.693807+00:00
+updated_at: 2026-09-09T10:37:13.856349+00:00
 tags: [record, real-data]
 ---
 

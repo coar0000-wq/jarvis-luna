@@ -2,7 +2,7 @@
 title: "Record 439 · How-DNA-forensics-is-transforming-studies-of-ancient-manuscripts"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.734685+00:00
+updated_at: 2026-09-09T10:37:13.892811+00:00
 tags: [record, real-data]
 ---
 

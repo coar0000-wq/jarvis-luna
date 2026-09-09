@@ -2,7 +2,7 @@
 title: "Record 215 · FOCI-Policy-Focus-on-Object-Centric-Interactions-for-Relational-Manipu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.673578+00:00
+updated_at: 2026-09-09T10:37:13.837281+00:00
 tags: [record, real-data]
 ---
 

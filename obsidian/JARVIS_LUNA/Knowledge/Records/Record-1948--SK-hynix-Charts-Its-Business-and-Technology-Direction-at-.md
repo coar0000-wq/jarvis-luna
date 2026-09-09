@@ -2,21 +2,21 @@
 title: "Record 1948 · SK-hynix-Charts-Its-Business-and-Technology-Direction-at-the-2026-Futu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:26.101962+00:00
+updated_at: 2026-09-09T10:37:14.232335+00:00
 tags: [record, real-data]
 ---
 
 # Record 1948 · SK-hynix-Charts-Its-Business-and-Technology-Direction-at-the-2026-Futu
 
-> 실제 수집 레코드입니다. 원문: [news.skhynix.com](https://news.skhynix.com/en/future-forum-2026-7/)
+> 실제 수집 레코드입니다. 원문: [news.skhynix.com](https://news.skhynix.com/en/future-forum-2026-4/)
 
 **제목:** SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”
 
 SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”
-▲ Industry experts taking part in the panel discussion, together with SK hynix Vice President Hyungsoo Kim, head of the DRAM Design department (first from left)
+▲ SK hynix Vice President Jaewuk Ju, head of the Smart Manufacturing Technology/AX Advance department, delivering the first keynote presentation
 
 **출처:** Source · institutions
 
 ## Connected nodes
 
-[[Source--institutions]] [[경영전략]] [[모델-라우팅MoE]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[경영전략]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

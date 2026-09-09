@@ -2,7 +2,7 @@
 title: "Record 465 · Single-session-estimation-of-cardiorespiratory-fitness-lower-limb-stre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.740977+00:00
+updated_at: 2026-09-09T10:37:13.898951+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 126 · Waves-on-the-Walls-Empirical-Characterization-of-mmWave-Lateral-Waves-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.649163+00:00
+updated_at: 2026-09-09T10:37:13.811481+00:00
 tags: [record, real-data]
 ---
 

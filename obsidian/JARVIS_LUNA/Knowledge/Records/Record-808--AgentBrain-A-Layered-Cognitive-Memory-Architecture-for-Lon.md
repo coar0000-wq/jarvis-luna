@@ -2,7 +2,7 @@
 title: "Record 808 · AgentBrain-A-Layered-Cognitive-Memory-Architecture-for-Long-Lived-AI-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.817432+00:00
+updated_at: 2026-09-09T10:37:13.971776+00:00
 tags: [record, real-data]
 ---
 

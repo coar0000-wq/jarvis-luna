@@ -2,7 +2,7 @@
 title: "Record 898 · Perturb-ME-Scalable-mechanism-discovery-from-phenotype-enriched-genome"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.836974+00:00
+updated_at: 2026-09-09T10:37:13.992938+00:00
 tags: [record, real-data]
 ---
 

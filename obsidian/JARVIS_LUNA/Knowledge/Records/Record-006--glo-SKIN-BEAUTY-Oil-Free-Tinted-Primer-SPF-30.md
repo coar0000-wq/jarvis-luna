@@ -2,7 +2,7 @@
 title: "Record 006 · glo-SKIN-BEAUTY-Oil-Free-Tinted-Primer-SPF-30"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.620468+00:00
+updated_at: 2026-09-09T10:37:13.781334+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 851 · A-Disclosure-Benchmark-Specification-for-Automated-Alignment-Research"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.826636+00:00
+updated_at: 2026-09-09T10:37:13.981787+00:00
 tags: [record, real-data]
 ---
 

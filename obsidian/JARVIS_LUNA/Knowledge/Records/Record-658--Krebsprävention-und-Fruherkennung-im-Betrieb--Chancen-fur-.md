@@ -2,7 +2,7 @@
 title: "Record 658 · Krebsprävention-und-Fruherkennung-im-Betrieb--Chancen-fur-Arbeitsmediz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.784672+00:00
+updated_at: 2026-09-09T10:37:13.940524+00:00
 tags: [record, real-data]
 ---
 

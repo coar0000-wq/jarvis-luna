@@ -2,7 +2,7 @@
 title: "Record 301 · Tetracyclic-πExtended-MultiResonant-TADF-Emitters-for-Green-PSFOLEDs-W"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.697117+00:00
+updated_at: 2026-09-09T10:37:13.859014+00:00
 tags: [record, real-data]
 ---
 

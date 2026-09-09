@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-09T08:38:29.618517+00:00",
+  "collected_at": "2026-09-09T10:36:37.863545+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -88,11 +88,11 @@
       "score": 2
     },
     {
-      "keyword": "tints",
+      "keyword": "brown",
       "score": 2
     },
     {
-      "keyword": "brown",
+      "keyword": "tints",
       "score": 2
     },
     {
@@ -144,6 +144,18 @@
       "score": 1
     },
     {
+      "keyword": "august",
+      "score": 1
+    },
+    {
+      "keyword": "empties",
+      "score": 1
+    },
+    {
+      "keyword": "reviews",
+      "score": 1
+    },
+    {
       "keyword": "wosado",
       "score": 1
     },
@@ -189,18 +201,6 @@
     },
     {
       "keyword": "chestnut",
-      "score": 1
-    },
-    {
-      "keyword": "one",
-      "score": 1
-    },
-    {
-      "keyword": "biore",
-      "score": 1
-    },
-    {
-      "keyword": "rich",
       "score": 1
     }
   ],
@@ -250,6 +250,13 @@
       "feed": "hot"
     },
     {
+      "title": "August 2026 Empties + Reviews",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbfd9z/august_2026_empties_reviews/",
+      "published": "2026-09-09T08:09:54+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Wosado lashes are a gimmick — don’t waste your money.",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1waq3r2/wosado_lashes_are_a_gimmick_dont_waste_your_money/",
       "published": "2026-09-08T14:33:53+00:00",
@@ -271,9 +278,9 @@
       "feed": "hot"
     },
     {
-      "title": "August 2026 Empties + Reviews",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbfd9z/august_2026_empties_reviews/",
-      "published": "2026-09-09T08:09:54+00:00",
+      "title": "Is it brown skin friendly? Does it leave bad whitecast ?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbffqh/is_it_brown_skin_friendly_does_it_leave_bad/",
+      "published": "2026-09-09T08:13:58+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -281,13 +288,6 @@
       "title": "Those of you who get reactions around your lips from newer lip tints - which ones HAVE and HAVEN’T worked for you?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbdk2e/those_of_you_who_get_reactions_around_your_lips/",
       "published": "2026-09-09T06:24:38+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Is it brown skin friendly? Does it leave bad whitecast ?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbffqh/is_it_brown_skin_friendly_does_it_leave_bad/",
-      "published": "2026-09-09T08:13:58+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },

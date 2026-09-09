@@ -2,7 +2,7 @@
 title: "Record 052 · Designing-Proactive-Thought-Partners-for-Writing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.629821+00:00
+updated_at: 2026-09-09T10:37:13.791517+00:00
 tags: [record, real-data]
 ---
 

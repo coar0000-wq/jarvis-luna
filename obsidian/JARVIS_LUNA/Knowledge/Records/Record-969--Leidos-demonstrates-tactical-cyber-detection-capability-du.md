@@ -2,7 +2,7 @@
 title: "Record 969 · Leidos-demonstrates-tactical-cyber-detection-capability-during-Valiant"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.853522+00:00
+updated_at: 2026-09-09T10:37:14.010790+00:00
 tags: [record, real-data]
 ---
 

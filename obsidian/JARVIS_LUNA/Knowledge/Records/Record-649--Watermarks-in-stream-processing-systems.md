@@ -2,7 +2,7 @@
 title: "Record 649 · Watermarks-in-stream-processing-systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.782842+00:00
+updated_at: 2026-09-09T10:37:13.938801+00:00
 tags: [record, real-data]
 ---
 

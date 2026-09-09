@@ -1,29 +1,18 @@
 {
-  "updated_at": "2026-09-09T09:06:42.719250+00:00",
-  "real_records": 2784,
-  "source_labels": {
-    "ai-image": 91,
-    "ai-research": 2436,
-    "shopify-commerce-image": 257
+  "updated_at": "2026-09-09T10:36:59.776107+00:00",
+  "real_records": 2787,
+  "records_before": 2784,
+  "records_added": 3,
+  "source_status": {
+    "arxiv": "ok",
+    "robotics": "ok",
+    "institutions": "ok",
+    "youtube": "blocked_by_robots",
+    "google": "ok",
+    "us_beauty": "ok"
   },
-  "corpus_sha256": "0085d7d0f73df01888c8ba1078e0cb2f1620db16203cfeca578e49cec4f6318c",
-  "training_performed": true,
-  "weights_updated": true,
-  "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
-  "experts": 3,
-  "top_k_inference": 2,
-  "model_file": "data/knowledge/real_knowledge_moe.npz",
-  "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.875,
-  "mean_gate_load": [
-    0.270773,
-    0.319262,
-    0.409964
-  ],
-  "note": "This is a text knowledge-routing MoE, not an image foundation model.",
-  "tuning_promoted": true,
-  "tuning_steps": 500,
-  "tuning_validation_accuracy": 0.8797709923664122,
-  "tuning_final_loss": 0.41131564714491126,
-  "tuning_gate_load_std": 0.17820822247170223
+  "training_performed": false,
+  "weights_updated": false,
+  "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
+  "corpus": "data/knowledge/training_corpus.jsonl"
 }

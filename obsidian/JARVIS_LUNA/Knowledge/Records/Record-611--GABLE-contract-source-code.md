@@ -2,7 +2,7 @@
 title: "Record 611 · GABLE-contract-source-code"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.774598+00:00
+updated_at: 2026-09-09T10:37:13.930990+00:00
 tags: [record, real-data]
 ---
 

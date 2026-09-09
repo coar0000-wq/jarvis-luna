@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-09T08:36:45.190514+00:00",
+  "collected_at": "2026-09-09T10:35:23.550732+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-09T08:35:40.110944+00:00"
+      "collected_at": "2026-09-09T10:34:34.693515+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-09T08:36:25.223071+00:00"
+      "collected_at": "2026-09-09T10:35:06.011482+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-09T08:36:45.189446+00:00"
+      "collected_at": "2026-09-09T10:35:23.549660+00:00"
     }
   },
   "not_collected": {
@@ -3881,11 +3881,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T13:29:35.000Z",
+      "date_raw": "2026-09-04T15:26:17.000Z",
       "title_source": "url-slug",
-      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
+      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3894,11 +3894,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T15:26:17.000Z",
+      "date_raw": "2026-09-04T13:29:35.000Z",
       "title_source": "url-slug",
-      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3959,11 +3959,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T20:18:47.000Z",
+      "date_raw": "2026-09-02T16:13:53.000Z",
       "title_source": "url-slug",
-      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
+      "title": "David Solomon Cnbc Sep 2026   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3972,11 +3972,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T16:13:53.000Z",
+      "date_raw": "2026-09-02T20:18:47.000Z",
       "title_source": "url-slug",
-      "title": "David Solomon Cnbc Sep 2026   Transcript",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",

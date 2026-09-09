@@ -2,7 +2,7 @@
 title: "Record 914 · RENACER-CV-National-Registry-of-Cardiac-Rehabilitation-Centers-in-Arge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.840540+00:00
+updated_at: 2026-09-09T10:37:13.996734+00:00
 tags: [record, real-data]
 ---
 

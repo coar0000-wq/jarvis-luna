@@ -2,7 +2,7 @@
 title: "Record 294 · WeatherNext-AI-model-achieves-breakthrough-in-forecasting-cyclones"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.694914+00:00
+updated_at: 2026-09-09T10:37:13.857248+00:00
 tags: [record, real-data]
 ---
 

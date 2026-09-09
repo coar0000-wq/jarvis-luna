@@ -2,7 +2,7 @@
 title: "Record 764 · Pourquoi-lIA-générative-va-révolutionner-le-rapport-au-travail"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T08:39:25.808008+00:00
+updated_at: 2026-09-09T10:37:13.962703+00:00
 tags: [record, real-data]
 ---
 
