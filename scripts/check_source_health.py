@@ -77,24 +77,80 @@ SOURCES = [
 
     ("기관 수집팀", "TSMC 뉴스룸", "html", "https://pr.tsmc.com/english/latest-news"),
     ("기관 수집팀", "ASML 뉴스", "html", "https://www.asml.com/en/news"),
-    ("기관 수집팀", "Deutsche Bank 미디어", "html", "https://www.db.com/news/"),
+    # 2026-09-09: /news/ 는 404 다. 공식 안내가 /media/news 를 가리킨다.
+    ("기관 수집팀", "Deutsche Bank 미디어", "html",
+     "https://www.db.com/media/news?language_id=1"),
     ("기관 수집팀", "Marvell 뉴스", "html", "https://www.marvell.com/company/newsroom.html"),
 ]
 
 
+# 이 스크립트를 만든 이유가 위 설명에 적혀 있다. "FDA 리콜 RSS 를 404 라고
+# 적어뒀는데 브라우저로 열어보니 멀쩡했다" 는 것이다.
+#
+# 그런데 이 스크립트가 같은 실수를 다시 했다. 09-09 보고서에 여섯 곳이
+# 실패로 적혔다. 하나씩 브라우저로 열어봤다.
+#
+#   FDA 리콜/MedWatch/건강사기 RSS  404 -> 살아 있음. 최신 항목 09-06.
+#   TSMC 뉴스룸                    403 -> 살아 있음. 최신 09-08.
+#   Deutsche Bank                  404 -> 주소가 정말 바뀜(/media/news)
+#
+# 앞의 넷은 소스가 죽은 게 아니라 우리 User-Agent 가 막힌 것이다.
+# CDN(Akamai 등)이 봇 UA 에 404·403 을 준다. 주소가 없어진 것과
+# 우리가 거절당한 것은 다른 일인데 같은 칸에 적히고 있었다.
+#
+# 그래서 두 가지를 한다.
+#   1. 봇 UA 가 거절당하면 브라우저 UA 로 한 번 더 찔러본다.
+#      막힌 것인지 없어진 것인지 갈라야 판단할 수 있다.
+#   2. 결과를 LIVE / BLOCKED / GONE / EMPTY / DOWN 으로 나눠 적는다.
+#      BLOCKED 는 고칠 것이 없다. 그쪽이 우리를 안 받는 것이다.
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36")
+BLOCKISH = (401, 403, 404, 406, 409, 429)
+
+
+# 응답을 400,000 바이트만 읽고 있었다. Google Fonts 메타는 그보다 커서
+# 딱 400,000 에서 잘렸고, 잘린 JSON 이라 파싱에 실패했다. 보고서에는
+# "JSON 파싱 실패" 로만 적혀서 형식이 바뀐 줄 알았다. 형식은 멀쩡했다.
+# 상한을 올리고, 상한에 닿으면 잘렸다고 적는다.
+READ_CAP = 4_000_000
+
+
+def _get(url: str, ua: str) -> tuple[int, bytes, str]:
+    req = urllib.request.Request(url, headers={
+        "User-Agent": ua, "Accept": "*/*", "Accept-Language": "en-US,en;q=0.9"})
+    try:
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+            return r.status, r.read(READ_CAP), ""
+    except urllib.error.HTTPError as e:
+        return e.code, b"", f"HTTP {e.code}"
+    except (urllib.error.URLError, OSError) as e:
+        return 0, b"", type(e).__name__
+
+
 def probe(url: str, kind: str) -> dict:
     t0 = time.monotonic()
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
-        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-            status = r.status
-            body = r.read(400000)
-    except urllib.error.HTTPError as e:
-        return {"status": e.code, "items": 0, "bytes": 0, "ok": False,
-                "note": f"HTTP {e.code}", "ms": int((time.monotonic() - t0) * 1000)}
-    except (urllib.error.URLError, OSError) as e:
-        return {"status": 0, "items": 0, "bytes": 0, "ok": False,
-                "note": f"{type(e).__name__}", "ms": int((time.monotonic() - t0) * 1000)}
+    status, body, err = _get(url, UA)
+    ua_used, blocked = "bot", False
+
+    # 봇 UA 가 거절당했으면 브라우저 UA 로 한 번 더 본다. 사이트가 죽은
+    # 것인지 우리를 안 받는 것인지 갈라야 한다.
+    if status in BLOCKISH:
+        time.sleep(1.0)
+        s2, b2, e2 = _get(url, BROWSER_UA)
+        if s2 == 200:
+            status, body, err = s2, b2, ""
+            ua_used, blocked = "browser", True
+        else:
+            return {"status": status, "items": 0, "bytes": 0, "ok": False,
+                    "판정": "GONE" if status == 404 else "BLOCKED",
+                    "ua": "both-failed", "blocked_for_bot": True,
+                    "note": f"{err} (브라우저 UA 로도 {s2})",
+                    "ms": int((time.monotonic() - t0) * 1000)}
+    elif status != 200:
+        return {"status": status, "items": 0, "bytes": 0, "ok": False,
+                "판정": "DOWN", "ua": ua_used, "blocked_for_bot": False,
+                "note": err or f"HTTP {status}",
+                "ms": int((time.monotonic() - t0) * 1000)}
 
     text = body.decode("utf-8", "replace")
     items, note = 0, ""
@@ -126,14 +182,20 @@ def probe(url: str, kind: str) -> dict:
                 else:
                     items = len(d)
         except (json.JSONDecodeError, ValueError):
-            note = "JSON 파싱 실패"
+            note = ("응답이 상한(%d바이트)에서 잘려 파싱 못 함" % READ_CAP
+                    if len(body) >= READ_CAP else "JSON 파싱 실패")
     else:
         items = 1 if len(text) > 2000 else 0
         note = "HTML 은 크기로만 판단"
 
     # 200 이어도 항목이 0 이면 실패로 본다. 껍데기는 성공이 아니다.
+    ok = status == 200 and items > 0
+    if blocked and ok:
+        note = (note + " · " if note else "") + "봇 UA 는 거절당했고 브라우저 UA 로 받았다"
     return {"status": status, "items": items, "bytes": len(body),
-            "ok": status == 200 and items > 0, "note": note,
+            "ok": ok,
+            "판정": ("BLOCKED" if (ok and blocked) else "LIVE" if ok else "EMPTY"),
+            "ua": ua_used, "blocked_for_bot": blocked, "note": note,
             "ms": int((time.monotonic() - t0) * 1000)}
 
 
@@ -172,6 +234,15 @@ def main() -> int:
               "적어뒀는데 실제로는 멀쩡했다. 확인한 환경이 차단당하고 있었을 뿐이다."),
         "판정": ("HTTP 200 이면서 항목이 1건 이상일 때만 정상. 껍데기를 받는 건 "
                "성공이 아니다. 3회 연속 실패해야 고장으로 본다."),
+        "판정이란": {
+            "LIVE": "우리 봇 UA 로 받았다",
+            "BLOCKED": "봇 UA 는 거절당했지만 살아 있다. 고칠 것이 없다",
+            "GONE": "브라우저 UA 로도 404 다. 주소를 다시 찾아야 한다",
+            "EMPTY": "200 인데 항목이 0건이다",
+            "DOWN": "연결 자체가 안 된다",
+        },
+        "판정별": {k: sum(1 for r in rows if r.get("판정") == k)
+                for k in ("LIVE", "BLOCKED", "GONE", "EMPTY", "DOWN")},
         "total": len(rows),
         "alive": len(alive),
         "dead": len(dead),
