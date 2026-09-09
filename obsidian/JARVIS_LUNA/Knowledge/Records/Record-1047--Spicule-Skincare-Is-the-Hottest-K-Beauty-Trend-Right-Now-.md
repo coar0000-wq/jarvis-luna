@@ -2,7 +2,7 @@
 title: "Record 1047 · Spicule-Skincare-Is-the-Hottest-K-Beauty-Trend-Right-Now-but-Dermatolo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.810998+00:00
+updated_at: 2026-09-09T16:40:03.780710+00:00
 tags: [record, real-data]
 ---
 

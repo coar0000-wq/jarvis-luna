@@ -2,7 +2,7 @@
 title: "Record 016 · Clear-Acne-Spot-Treatment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.521223+00:00
+updated_at: 2026-09-09T16:40:03.505093+00:00
 tags: [record, real-data]
 ---
 

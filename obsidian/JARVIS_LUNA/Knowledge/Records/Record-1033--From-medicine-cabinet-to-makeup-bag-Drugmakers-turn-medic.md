@@ -2,7 +2,7 @@
 title: "Record 1033 · From-medicine-cabinet-to-makeup-bag-Drugmakers-turn-medical-research-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.807207+00:00
+updated_at: 2026-09-09T16:40:03.777020+00:00
 tags: [record, real-data]
 ---
 

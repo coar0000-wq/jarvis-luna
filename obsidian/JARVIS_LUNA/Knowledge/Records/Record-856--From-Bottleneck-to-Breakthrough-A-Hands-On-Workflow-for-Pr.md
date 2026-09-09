@@ -2,7 +2,7 @@
 title: "Record 856 · From-Bottleneck-to-Breakthrough-A-Hands-On-Workflow-for-Profiling-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.757495+00:00
+updated_at: 2026-09-09T16:40:03.729475+00:00
 tags: [record, real-data]
 ---
 

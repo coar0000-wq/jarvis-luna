@@ -2,7 +2,7 @@
 title: "Record 397 · Porting-hypre-to-heterogeneous-computer-architectures-Strategies-and-e"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.623428+00:00
+updated_at: 2026-09-09T16:40:03.611627+00:00
 tags: [record, real-data]
 ---
 

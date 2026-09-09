@@ -2,7 +2,7 @@
 title: "Record 303 · BottomUp-Engineering-of-a-Human-Neuromuscular-System-for-Modeling-Acti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.599941+00:00
+updated_at: 2026-09-09T16:40:03.586776+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 554 · In-Network-Collective-Operations-Game-Changer-or-Challenge-for-AI-Work"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.673425+00:00
+updated_at: 2026-09-09T16:40:03.653042+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 904 · FORTALECIMENTO-DA-UNIVERSIDADE-EMPREENDEDORA-POR-MEIO-DE-PROGRAMAS-INS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.770728+00:00
+updated_at: 2026-09-09T16:40:03.741856+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 263 · MCP-vs-REST-The-Enterprise-Decision-Is-More-About-Governance-Than-Inte"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.590078+00:00
+updated_at: 2026-09-09T16:40:03.576321+00:00
 tags: [record, real-data]
 ---
 

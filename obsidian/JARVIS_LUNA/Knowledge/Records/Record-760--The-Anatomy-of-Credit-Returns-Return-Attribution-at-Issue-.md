@@ -2,7 +2,7 @@
 title: "Record 760 · The-Anatomy-of-Credit-Returns-Return-Attribution-at-Issue-Level"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.732442+00:00
+updated_at: 2026-09-09T16:40:03.705195+00:00
 tags: [record, real-data]
 ---
 

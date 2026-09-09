@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-09T14:14:37.119503+00:00",
-  "real_records": 2800,
+  "updated_at": "2026-09-09T16:41:00.782708+00:00",
+  "real_records": 2803,
   "source_labels": {
     "ai-image": 91,
-    "ai-research": 2449,
-    "shopify-commerce-image": 260
+    "ai-research": 2451,
+    "shopify-commerce-image": 261
   },
-  "corpus_sha256": "6d8127184e1033fe124c615f0bbd82dbe1a4eb768be80ec762b391b3b08d3d9f",
+  "corpus_sha256": "a1f1a23975b07cc4c091f065eb585e4837f1e81c4833548145ef34a4a293ae2f",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,29 +14,17 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.8746428571428572,
+  "training_accuracy_on_corpus": 0.8744202640028541,
   "mean_gate_load": [
-    0.270302,
-    0.319044,
-    0.410654
+    0.269386,
+    0.318629,
+    0.411985
   ],
-  "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
+  "note": "This is a text knowledge-routing MoE, not an image foundation model.",
+  "trained_corpus_sha256": "a1f1a23975b07cc4c091f065eb585e4837f1e81c4833548145ef34a4a293ae2f",
   "tuning_promoted": true,
   "tuning_steps": 500,
   "tuning_validation_accuracy": 0.8806818181818182,
-  "tuning_final_loss": 0.4114661235788325,
-  "tuning_gate_load_std": 0.1844179100606338,
-  "records_before": 2788,
-  "records_added": 12,
-  "source_status": {
-    "arxiv": "ok",
-    "robotics": "ok",
-    "institutions": "ok",
-    "youtube": "blocked_by_robots",
-    "google": "ok",
-    "us_beauty": "ok"
-  },
-  "corpus": "data/knowledge/training_corpus.jsonl",
-  "말뭉치": "바뀌었다. 지금 가중치는 이 말뭉치로 학습한 것이 아니다. 학습기가 돌아야 다시 참이 된다.",
-  "trained_corpus_sha256": "6d8127184e1033fe124c615f0bbd82dbe1a4eb768be80ec762b391b3b08d3d9f"
+  "tuning_final_loss": 0.41172632742390447,
+  "tuning_gate_load_std": 0.18602728126990387
 }

@@ -2,7 +2,7 @@
 title: "Record 617 · Group-incentives-and-rational-voting"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.692230+00:00
+updated_at: 2026-09-09T16:40:03.668728+00:00
 tags: [record, real-data]
 ---
 

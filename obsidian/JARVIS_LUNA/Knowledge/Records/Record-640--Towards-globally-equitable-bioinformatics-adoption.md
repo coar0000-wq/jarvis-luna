@@ -2,7 +2,7 @@
 title: "Record 640 · Towards-globally-equitable-bioinformatics-adoption"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.699831+00:00
+updated_at: 2026-09-09T16:40:03.674594+00:00
 tags: [record, real-data]
 ---
 

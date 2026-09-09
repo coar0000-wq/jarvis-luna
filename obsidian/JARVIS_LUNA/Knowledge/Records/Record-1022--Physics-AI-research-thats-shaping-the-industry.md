@@ -2,7 +2,7 @@
 title: "Record 1022 · Physics-AI-research-thats-shaping-the-industry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.804331+00:00
+updated_at: 2026-09-09T16:40:03.774221+00:00
 tags: [record, real-data]
 ---
 

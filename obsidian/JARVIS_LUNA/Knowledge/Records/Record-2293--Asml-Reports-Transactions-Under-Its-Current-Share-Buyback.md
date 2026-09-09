@@ -1,18 +1,18 @@
 ---
-title: "Record 2293 · Asml-Reports-Transactions-Under-Its-Current-Share-Buyback-Program-27"
+title: "Record 2293 · Asml-Reports-Transactions-Under-Its-Current-Share-Buyback-Program-24"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:26.113565+00:00
+updated_at: 2026-09-09T16:40:04.077704+00:00
 tags: [record, real-data]
 ---
 
-# Record 2293 · Asml-Reports-Transactions-Under-Its-Current-Share-Buyback-Program-27
+# Record 2293 · Asml-Reports-Transactions-Under-Its-Current-Share-Buyback-Program-24
 
-> 실제 수집 레코드입니다. 원문: [www.asml.com](https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-27)
+> 실제 수집 레코드입니다. 원문: [www.asml.com](https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-24)
 
-**제목:** Asml Reports Transactions Under Its Current Share Buyback Program 27
+**제목:** Asml Reports Transactions Under Its Current Share Buyback Program 24
 
-Asml Reports Transactions Under Its Current Share Buyback Program 27
+Asml Reports Transactions Under Its Current Share Buyback Program 24
 
 **출처:** Source · institutions
 

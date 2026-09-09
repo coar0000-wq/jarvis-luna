@@ -2,7 +2,7 @@
 title: "Record 571 · Analysis-and-Design-of-mm-Wave-CMOS-Power-Amplifier-Using-Stacked-Para"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.678188+00:00
+updated_at: 2026-09-09T16:40:03.657198+00:00
 tags: [record, real-data]
 ---
 

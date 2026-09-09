@@ -2,17 +2,17 @@
 title: "Record 1709 · COSRX-Becomes-the-First-K-Beauty-Patron-of-the-British-Beauty-Council-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T20:45:29.187731+00:00
+updated_at: 2026-09-09T16:40:03.933129+00:00
 tags: [record, real-data]
 ---
 
 # Record 1709 · COSRX-Becomes-the-First-K-Beauty-Patron-of-the-British-Beauty-Council-
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiygFBVV95cUxOeWJHV1plSW9hU2h5eFNlOUF0b1dYQk1NR09mMlVqYlJLaFgwWTNUa1BMLXZnelBBallMRFZwTzlSblZVMEJGOEplT0Z5d1hyZ0pFN24xX0kwZEhlYkxNV0FyTGJUQ3dlUkV3WHFGUFhjWlNJSlZwMG9WQUVtTFdMMW9Vb0RwYzRMaXo0SEZjWTFaWGpvS1Nic1dKbjBPdWpfY3Itc2stUjBXMXBPTEYxS2lPOU1LZnRxNkY2TEx6SWE1UTFuNHhPclFn?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMinAFBVV95cUxPajlrWm9BSFcyN1FwVjI0cXhQWGRKbEd4WDA0cTViWnFaTmZuTTlsMlRGVm1kRkRzY0FoNDE3LVhOV3g2Sy1HZmRyakZlcndqaVNkY19SYmZPTGQ3UVBCa2M5X3pqTHlrUF9jX0hiR2FzYk5qQnVaMGVqQ3YtWkMtVTRkQVF3dVh6VW1ISkJmempvaTZsRGhjUGZaa3k?oc=5)
 
-**제목:** COSRX Becomes the First K-Beauty Patron of the British Beauty Council - Morningstar
+**제목:** COSRX Becomes the First K-Beauty Patron of the British Beauty Council - Yahoo Finance
 
-COSRX Becomes the First K-Beauty Patron of the British Beauty Council - Morningstar
+COSRX Becomes the First K-Beauty Patron of the British Beauty Council - Yahoo Finance
 
 **출처:** Source · Google Search
 

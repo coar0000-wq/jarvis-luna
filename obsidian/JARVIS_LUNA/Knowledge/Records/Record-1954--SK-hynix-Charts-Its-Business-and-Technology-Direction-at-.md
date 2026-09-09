@@ -2,18 +2,18 @@
 title: "Record 1954 · SK-hynix-Charts-Its-Business-and-Technology-Direction-at-the-2026-Futu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:26.025783+00:00
+updated_at: 2026-09-09T16:40:03.993858+00:00
 tags: [record, real-data]
 ---
 
 # Record 1954 · SK-hynix-Charts-Its-Business-and-Technology-Direction-at-the-2026-Futu
 
-> 실제 수집 레코드입니다. 원문: [news.skhynix.com](https://news.skhynix.com/en/future-forum-2026-4/)
+> 실제 수집 레코드입니다. 원문: [news.skhynix.com](https://news.skhynix.com/en/future-forum-2026-2/)
 
 **제목:** SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”
 
 SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”
-▲ SK hynix Vice President Jaewuk Ju, head of the Smart Manufacturing Technology/AX Advance department, delivering the first keynote presentation
+▲ SK hynix CEO Kwak Noh-Jung delivering the welcoming remarks at the 2026 Future Forum
 
 **출처:** Source · institutions
 

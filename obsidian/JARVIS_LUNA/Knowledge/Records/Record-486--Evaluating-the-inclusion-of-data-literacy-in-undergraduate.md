@@ -2,7 +2,7 @@
 title: "Record 486 · Evaluating-the-inclusion-of-data-literacy-in-undergraduate-economics-c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.653650+00:00
+updated_at: 2026-09-09T16:40:03.634709+00:00
 tags: [record, real-data]
 ---
 

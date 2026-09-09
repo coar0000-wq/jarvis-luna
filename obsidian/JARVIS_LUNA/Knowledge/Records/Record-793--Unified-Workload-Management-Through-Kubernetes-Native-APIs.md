@@ -2,7 +2,7 @@
 title: "Record 793 · Unified-Workload-Management-Through-Kubernetes-Native-APIs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.741168+00:00
+updated_at: 2026-09-09T16:40:03.713441+00:00
 tags: [record, real-data]
 ---
 

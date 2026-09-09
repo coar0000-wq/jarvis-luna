@@ -2,7 +2,7 @@
 title: "Record 553 · An-Inductive-Load-Modulated-Multiband-Phase-Shifter-With-038012-dB-RMS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.673142+00:00
+updated_at: 2026-09-09T16:40:03.652753+00:00
 tags: [record, real-data]
 ---
 

@@ -2,13 +2,13 @@
 title: "Record 1948 · AI-Infrastructure-Insight-Why-faster-GPUs-alone-cant-deliver-AI-perfor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:26.024140+00:00
+updated_at: 2026-09-09T16:40:03.992216+00:00
 tags: [record, real-data]
 ---
 
 # Record 1948 · AI-Infrastructure-Insight-Why-faster-GPUs-alone-cant-deliver-AI-perfor
 
-> 실제 수집 레코드입니다. 원문: [news.skhynix.com](https://news.skhynix.com/en/ai-infrastructure-insight-ep2-3/)
+> 실제 수집 레코드입니다. 원문: [news.skhynix.com](https://news.skhynix.com/en/ai-infrastructure-insight-ep2-1/)
 
 **제목:** [AI Infrastructure Insight] Why faster GPUs alone can’t deliver AI performance
 

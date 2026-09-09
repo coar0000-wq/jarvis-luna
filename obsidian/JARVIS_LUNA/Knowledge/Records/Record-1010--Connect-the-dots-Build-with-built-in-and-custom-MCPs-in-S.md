@@ -2,7 +2,7 @@
 title: "Record 1010 · Connect-the-dots-Build-with-built-in-and-custom-MCPs-in-Studio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.801137+00:00
+updated_at: 2026-09-09T16:40:03.771147+00:00
 tags: [record, real-data]
 ---
 

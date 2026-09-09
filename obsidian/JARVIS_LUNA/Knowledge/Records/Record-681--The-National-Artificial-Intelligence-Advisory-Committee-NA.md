@@ -2,7 +2,7 @@
 title: "Record 681 · The-National-Artificial-Intelligence-Advisory-Committee-NAIAC--Recomme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.710829+00:00
+updated_at: 2026-09-09T16:40:03.684805+00:00
 tags: [record, real-data]
 ---
 

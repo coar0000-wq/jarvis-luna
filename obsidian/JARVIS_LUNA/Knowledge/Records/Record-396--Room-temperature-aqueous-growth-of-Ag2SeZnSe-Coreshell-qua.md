@@ -2,7 +2,7 @@
 title: "Record 396 · Room-temperature-aqueous-growth-of-Ag2SeZnSe-Coreshell-quantum-dots-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.623189+00:00
+updated_at: 2026-09-09T16:40:03.611376+00:00
 tags: [record, real-data]
 ---
 

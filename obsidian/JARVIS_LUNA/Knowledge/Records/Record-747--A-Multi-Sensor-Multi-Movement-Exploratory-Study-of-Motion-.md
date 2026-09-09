@@ -2,7 +2,7 @@
 title: "Record 747 · A-Multi-Sensor-Multi-Movement-Exploratory-Study-of-Motion-Tape-Strain-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.728945+00:00
+updated_at: 2026-09-09T16:40:03.701888+00:00
 tags: [record, real-data]
 ---
 

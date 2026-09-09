@@ -2,7 +2,7 @@
 title: "Record 423 · Dispersion-Contrasting-Dual-Layer-Metalens-for-Hybrid-Chromatic-Aberra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T14:12:25.635637+00:00
+updated_at: 2026-09-09T16:40:03.618359+00:00
 tags: [record, real-data]
 ---
 
