@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T03:18:51.812912+00:00",
+  "generated_at": "2026-09-09T09:06:20.216132+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "brewers",
-          "approx_traffic": "20000+",
-          "traffic_num": 20000,
-          "published": "Tue, 8 Sep 2026 19:50:00 -0700",
-          "source_name": "Brew Crew Ball",
-          "url": "https://trends.google.com/trending?geo=US&q=brewers"
+          "keyword": "new hampshire primary election results",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Wed, 9 Sep 2026 01:50:00 -0700",
+          "source_name": "NBC News",
+          "url": "https://trends.google.com/trending?geo=US&q=new%20hampshire%20primary%20election%20results"
         },
         {
-          "keyword": "luis lara",
+          "keyword": "mortgage rates",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Tue, 8 Sep 2026 19:50:00 -0700",
-          "source_name": "AP News",
-          "url": "https://trends.google.com/trending?geo=US&q=luis%20lara"
+          "published": "Wed, 9 Sep 2026 01:30:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=mortgage%20rates"
         },
         {
-          "keyword": "will smith",
+          "keyword": "iran war",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Tue, 8 Sep 2026 19:50:00 -0700",
-          "source_name": "Variety",
-          "url": "https://trends.google.com/trending?geo=US&q=will%20smith"
+          "published": "Wed, 9 Sep 2026 01:00:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=iran%20war"
         },
         {
-          "keyword": "daycare",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 8 Sep 2026 20:00:00 -0700",
-          "source_name": "WKMG",
-          "url": "https://trends.google.com/trending?geo=US&q=daycare"
-        },
-        {
-          "keyword": "childcare",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 8 Sep 2026 20:00:00 -0700",
-          "source_name": "WRIC ABC 8News",
-          "url": "https://trends.google.com/trending?geo=US&q=childcare"
-        },
-        {
-          "keyword": "alfred collins",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 8 Sep 2026 19:50:00 -0700",
-          "source_name": "CBS Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=alfred%20collins"
-        },
-        {
-          "keyword": "elly de la cruz",
+          "keyword": "epstein files",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 20:00:00 -0700",
+          "published": "Wed, 9 Sep 2026 01:00:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=epstein%20files"
+        },
+        {
+          "keyword": "alexander zverev",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 9 Sep 2026 01:00:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=alexander%20zverev"
+        },
+        {
+          "keyword": "botic van de zandschulp",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 9 Sep 2026 00:40:00 -0700",
+          "source_name": "ATP Tour",
+          "url": "https://trends.google.com/trending?geo=US&q=botic%20van%20de%20zandschulp"
+        },
+        {
+          "keyword": "alexander blockx",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 9 Sep 2026 00:40:00 -0700",
+          "source_name": "Last Word On Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=alexander%20blockx"
+        },
+        {
+          "keyword": "chamberlain harris",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Wed, 9 Sep 2026 01:40:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=chamberlain%20harris"
+        },
+        {
+          "keyword": "sinner us open",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Wed, 9 Sep 2026 00:50:00 -0700",
           "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=elly%20de%20la%20cruz"
+          "url": "https://trends.google.com/trending?geo=US&q=sinner%20us%20open"
         },
         {
-          "keyword": "jannik sinner",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 20:00:00 -0700",
-          "source_name": "La Gazzetta dello Sport",
-          "url": "https://trends.google.com/trending?geo=US&q=jannik%20sinner"
-        },
-        {
-          "keyword": "pete buttigieg",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 20:00:00 -0700",
-          "source_name": "The Washington Post",
-          "url": "https://trends.google.com/trending?geo=US&q=pete%20buttigieg"
-        },
-        {
-          "keyword": "jacob webb",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 19:50:00 -0700",
-          "source_name": "Chicago Sun-Times",
-          "url": "https://trends.google.com/trending?geo=US&q=jacob%20webb"
+          "keyword": "arbor",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Wed, 9 Sep 2026 00:50:00 -0700",
+          "source_name": "Yield PRO",
+          "url": "https://trends.google.com/trending?geo=US&q=arbor"
         }
       ]
     },

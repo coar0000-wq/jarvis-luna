@@ -2,7 +2,7 @@
 title: "Record 007 · Neutrogena-Mineral-Invisible-Daily-Defense-Face-Sunscreen-Broad-Spectr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T02:52:35.947370+00:00
+updated_at: 2026-09-09T08:39:25.620692+00:00
 tags: [record, real-data]
 ---
 

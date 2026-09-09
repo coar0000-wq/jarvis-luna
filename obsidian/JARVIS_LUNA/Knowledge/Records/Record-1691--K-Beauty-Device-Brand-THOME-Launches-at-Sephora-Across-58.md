@@ -2,17 +2,17 @@
 title: "Record 1691 · K-Beauty-Device-Brand-THOME-Launches-at-Sephora-Across-580-US-Stores--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-06T05:01:10.658560+00:00
+updated_at: 2026-09-09T08:39:26.040314+00:00
 tags: [record, real-data]
 ---
 
 # Record 1691 · K-Beauty-Device-Brand-THOME-Launches-at-Sephora-Across-580-US-Stores--
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVDFpY2NHcWlZamRXeGFNeGRhZkdoS3d4UndFSGQxeGFEVUVqNXBIeV8xSmozN0NRRnJFUnBsWXVuUFB6cmNqVTlhYjJiRDVwZVZTOHFrRjdzUmFabWNvNGo3UVY5X3MxSWJ0Sm4wVFJTbUc1aDZTQ2plU3pCemctMm5ISERXSS1hUG1SLU44SW1fRzZEYlR3cndKUlh4LW9DM3ZYeG9mN3hYak5JTDVINHhxX2ZfTVZUU2xEaEVTbkM2dUc3YWdVRg?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimwFBVV95cUxOcTI5LTV3LVB4MHg0SzJxVjk0V1BqbnY1eWZ2MnMxTXdlY3c5akFzS2x0b0JLMllSODgwYmNLVE9ZS3V4OEpoUGNEZFBUTk1WaG9VWGU2eGxZSlN5cU4zSWhXc0E1ZjNrU2NjOU1mM3I3UUNDWE5Tak4yNWFfek5PTDlTSEdjV3NXMVJxeG1aeFhmNzJoclFlYmFsbw?oc=5)
 
-**제목:** K-Beauty Device Brand THOME Launches at Sephora Across 580+ U.S. Stores - Morningstar
+**제목:** K-Beauty Device Brand THOME Launches at Sephora Across 580+ U.S. Stores - finance.yahoo.com
 
-K-Beauty Device Brand THOME Launches at Sephora Across 580+ U.S. Stores - Morningstar
+K-Beauty Device Brand THOME Launches at Sephora Across 580+ U.S. Stores - finance.yahoo.com
 
 **출처:** Source · Google Search
 

@@ -1,29 +1,511 @@
 {
-  "generated_at": "2026-09-09T02:49:05.535113+00:00",
+  "generated_at": "2026-09-09T08:35:30.429697+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
-  "total": 40,
+  "total": 89,
   "sources": {
     "arxiv": {
-      "status": "failed",
-      "reason": "전 카테고리 수집 실패",
+      "status": "ok",
+      "reason": "",
       "source": "export.arxiv.org (프로그램 접근 전용 주소)",
       "categories": [
         "cs.RO",
         "eess.SY"
       ],
-      "errors": [
+      "errors": [],
+      "items": [
         {
-          "category": "cs.RO",
-          "error": "HTTP 429"
+          "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+          "summary": "We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware whole-body adaptation, including coordinated arm placement, torso adjustment, and gait modulation for collision-free movement through complex 3D spaces",
+          "published": "2026-09-08T17:59:55Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.09158v1",
+          "source": "arxiv"
         },
         {
-          "category": "eess.SY",
-          "error": "TimeoutError: The read operation timed out"
+          "title": "Proxy Policy Steering",
+          "summary": "Generalist robot policies carry broad manipulation priors from large-scale data, but specializing them to a new task remains the deployment bottleneck. This requires eliciting task-specific behavior from limited demonstrations without degrading their broad capabilities. We introduce Proxy Policy Steering (PPS), an inference-time adaptation method that resolves this challenge by training two lightw",
+          "published": "2026-09-08T17:59:03Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.09148v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination",
+          "summary": "Dexterous manipulation involves contact-rich and fine-grained interactions with the physical world, posing significant challenges for existing vision-language-action (VLA) models due to severe visual occlusions and complex contact dynamics. While recent works have incorporated tactile sensing into robotic manipulation, most approaches still rely on homogeneous multimodal fusion, lacking adaptive t",
+          "published": "2026-09-08T17:47:43Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.09119v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Online, Reachability-Aware, Sampling-Based Motion Planning",
+          "summary": "Sampling-Based Model-Predictive Control (MPC) algorithms are a flexible class of controllers used for navigation on a wide range of robotic systems. Historically, such approaches have lacked hard safety guarantees, a shortcoming which we remedy in this work by computing guaranteed reachable-set overapproximations online with a fast, interval-based pipeline. We show that our method achieves similar",
+          "published": "2026-09-08T17:27:25Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.09073v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Rethinking Learned Occupancy in Autonomous Active Mapping with Observation-Gated Filtering",
+          "summary": "Autonomous 3D active mapping requires a space robot to choose where to sense while building the geometry needed for navigation. Learned occupancy completion extends spatial context beyond the current field of view, but one predicted map often serves two planning roles: it scores expected surface gain and constrains collision-free motion. Unsupported occupancy can therefore distort both where the r",
+          "published": "2026-09-08T17:23:37Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.09069v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "A Distributed Consensus Particle Filter for Target Tracking using Autonomous Surface Vessels",
+          "summary": "Maritime target tracking over large distances often requires multi-agent teams without centralized coordination, and intermittent communication. Each agent must maintain an independent estimate that can take advantage of opportunistic communications availability when possible. This can lead to overly confident local estimates in the absence of external data. In this work, we propose an augmentatio",
+          "published": "2026-09-08T17:20:07Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.09066v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "DYAD: A Multimodal Dataset of Co-Located Human Assistance",
+          "summary": "An embodied assistant working beside a person must track task state, recognize help seeking, choose how to intervene, and produce an appropriate response. Existing procedural datasets richly describe individual execution, while interactive datasets capture remote verbal instruction or undifferentiated co-working. They do not jointly link a co-located helper's verbal and physical interventions to p",
+          "published": "2026-09-08T16:53:15Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.09023v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Spheriverse: 3D Scene Understanding from Spherical Observations in the Wild",
+          "summary": "Spherical observations provide global visual context for 3D scene understanding. However, visual information is encoded in an angular domain, whereas the physical world is represented in Cartesian coordinates. This cross-space representation gap complicates geometric correspondence and semantic evidence aggregation. To delve into this challenge, we introduce Spheriverse, comprising $64,400$ tempor",
+          "published": "2026-09-08T16:47:25Z",
+          "primary_category": "cs.CV",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.09012v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
+          "summary": "Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains a fragmented modular pipeline in which scenario generation, retrieval, modification, ADS execution, and results analysis are performed by separate tools with little interaction. Large Language Model (LLM) agents have sh",
+          "published": "2026-09-08T16:19:06Z",
+          "primary_category": "cs.AI",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08965v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Model Predictive Control of Tensegrity Robots via Contact-Aware Graph Neural Dynamics Model",
+          "summary": "Tensegrity robots offer lightweight, compliant mobility over challenging terrain but remain difficult to model and control due to complex contact-rich dynamics and partial observability. This work presents a model predictive path integral (MPPI) controller for a three-bar tensegrity robot driven by a learned graph neural network (GNN) dynamics model. This work first extends prior GNN-based models ",
+          "published": "2026-09-08T16:14:25Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08958v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Remotely Detectable Keyed Communication through Motion",
+          "summary": "Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se",
+          "published": "2026-09-08T15:49:10Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08920v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Visible-Reachable Workspace for Perception-Aware Humanoid Design",
+          "summary": "Workspace analysis measures where a robot can place its end effector. For visually guided manipulation, reachability alone is insufficient: a kinematically reachable target may not be visible in the specific pose required to reach it. The robot must then redirect its sensing or move its body to acquire a view, turning a perception limitation into additional motion. Existing humanoids largely inher",
+          "published": "2026-09-08T15:40:05Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08905v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "FRAME: Factored Retrieval via Attribute Readouts for Object-Centric Scene Memory",
+          "summary": "Language-guided robots need persistent scene memories to follow instructions, revisit objects, and resolve references to objects encountered over time. While much of language-guided scene-memory retrieval has emphasized spatial or relational references, many everyday object references specify objects by multiple persistent attributes, such as category, material, size, or surface appearance. We for",
+          "published": "2026-09-08T15:26:00Z",
+          "primary_category": "cs.CV",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08886v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "CAST: Alternating State-Value Targets and Expanded Policy Gradients for Model-Based Reinforcement Learning",
+          "summary": "Model-based reinforcement learning (MBRL) is a family of RL methods that learn a model of the environment and use it for action selection, making it well suited to robotics due to its sample efficiency. Combining learned models with online planning can further improve action selection, as the planner can exploit the model to find better actions than the learned policy alone. Recent methods combini",
+          "published": "2026-09-08T15:05:16Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08853v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "FIRE3D: Feed-forward Interactive 3D Scene Reconstruction Within A Minute",
+          "summary": "We present FIRE3D, a unified framework that takes a single RGB image or casual RGB video and transforms it into simulation-ready 3D scene assets for games and interactive applications in under a minute. At the core of FIRE3D is a feed-forward, end-to-end network that predicts a compositional scene representation from posed RGB-D observations estimated from the RGB capture, including the 6-DoF pose",
+          "published": "2026-09-08T15:01:49Z",
+          "primary_category": "cs.CV",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08848v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Real-time Puncture Detection and Recovery for Pneumatic Soft Actuators",
+          "summary": "Soft robots offer safe and adaptive interaction with humans and unstructured environments through their inherent ability to deform and comply. Pneumatic actuators are one way to build soft robots. They are typically made from soft silicone materials and are especially effective for driving such systems, enabling smooth and adaptable motion. However, their compliant nature also makes them vulnerabl",
+          "published": "2026-09-08T14:31:59Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08804v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Graph-Based Safe Reinforcement Learning for Multi-Agent Systems with Time-Varying Topology",
+          "summary": "This paper presents a graph-based safe multi-agent reinforcement learning (MARL) framework for cooperative navigation with time-varying topology. To address the critical challenge of ensuring safety in environments with sensing constraints, a safety-decoupled mechanism is introduced through a Control Barrier-Like Function (CBLF) action screening layer. This mechanism bridges the gap between discre",
+          "published": "2026-09-08T14:30:06Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08802v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Ostrich: Taking Large Strides Through Stiff Contact in Differentiable Dynamics",
+          "summary": "Three properties determine whether a differentiable simulator can drive gradient-based optimization through contact: simulation accuracy, gradient reliability, and per-iteration cost. Tape-based engines such as MJX and Newton Semi-Implicit require timesteps small enough to keep contacts numerically tractable, and their backpropagation memory grows linearly with the number of timesteps T. Surrogate",
+          "published": "2026-09-08T14:28:52Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08800v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "A Controlled Comparison of Manual and Teleoperated Intraocular Instrument Motion for an Input Device",
+          "summary": "Input devices for robotic microsurgery are frequently described as preserving the surgeon's trained technique, but the claim is rarely measured. We compared manual and teleoperated intraocular instrument motion with the trocar constraint, the instrument, the eye model and the tracking source common to both conditions, so that the control interface was the only factor varied. Prior comparisons cann",
+          "published": "2026-09-08T14:04:00Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08770v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "FOCI Policy: Focus on Object-Centric Interactions for Relational Manipulation Policies",
+          "summary": "Object-centric manipulation policies improve generalization by modeling object motion instead of directly predicting robot actions. However, existing methods are often limited by representations which are either too simplistic to capture interaction dynamics or too dense to learn efficiently. We observe that many rigid relational manipulation tasks are governed by short interaction phases where th",
+          "published": "2026-09-08T13:35:56Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08743v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "DCLP++: Learning to Navigate with Footprint Clearance and Relative Motion",
+          "summary": "We present DCLP++, a local navigation frameworkthat uses footprint clearance as the geometric basis for studying relative motion features in dynamic environments. Each valid LiDAR return is mapped to its shortest Euclidean distance from the filled robot footprint before reciprocal encoding, replacing distance from the sensor with distance to the occupied body. Radial measurementsor simulated plana",
+          "published": "2026-09-08T13:09:35Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08711v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "HiBRIDGE: A Hierarchical Bayesian Neural Network Framework for Interpretable Dialogue Management in Group-Robot Interaction",
+          "summary": "In multi-party human-robot interaction, a robot must continuously decide whom to address and what to say to participate effectively in the conversation. In real-world interactions, this is challenging because several behaviours may be plausible at the same time: a robot might continue a topic with one participant, involve another through a question, or address the whole group, with the appropriate",
+          "published": "2026-09-08T12:44:38Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08678v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "BIFTA: Brain-Inspired Few-Shot Tactile Adaptation for Unknown Sensors",
+          "summary": "Advances in tactile sensing have made contact-rich perception possible, accelerating progress in robotic manipulation, material understanding, and embodied interaction. However, because optical design, elastomer mechanics, and imaging geometry differ substantially across tactile sensors, models trained on known sensor types can suffer an abrupt performance collapse on unknown sensors. To address t",
+          "published": "2026-09-08T12:39:36Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08673v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Learning to build covering structures with continuous adjustments",
+          "summary": "Robotic construction offers the potential to use materials more efficiently and create complex geometries, but current methods rely on rigid, high-precision plans that cannot accommodate the tolerances, inaccuracies, and unexpected changes inherent in physical fabrication. In this work, we introduce a reinforcement learning approach that forgoes predefined plans entirely, instead generating constr",
+          "published": "2026-09-08T12:32:42Z",
+          "primary_category": "cs.RO",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08669v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "SUN: Reaching for Novelty in Reinforcement Learning",
+          "summary": "Exploration in reinforcement learning (RL) remains a fundamental challenge. Recent goal-conditioned RL strategies (which select goals to encourage broader state coverage) have shown promising results, but none scores a goal by novelty and reachability jointly: the two signals are traded off by hand, applied in sequence, or one is neglected outright. In this paper, we introduce a reachability-aware",
+          "published": "2026-09-08T12:12:13Z",
+          "primary_category": "cs.LG",
+          "query_category": "cs.RO",
+          "category_label": "로보틱스",
+          "url": "https://arxiv.org/abs/2609.08642v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Efficient Quantile-Resolved Hosting Capacity Assessment on Nodal Level for Low-Voltage Grids",
+          "summary": "Hosting capacity - the maximum additional capacity a network can accommodate without violating operational limits - is a key metric in distribution system planning and operation. Decisions on grid reinforcements and the deployment of flexibility management require not only the worst-case HC but also an understanding of the distribution of HC under different likelihoods in load and generation patte",
+          "published": "2026-09-08T17:16:23Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.09060v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Time-Varying Data as Sheaves: an Invitation to Narratives",
+          "summary": "Modern science and engineering increasingly rely on time-varying data, yet the mathematical tools used to model temporal phenomena are often developed within separate disciplines, obscuring common principles and limiting the transfer of ideas across fields. This chapter presents the theory of narratives, an abstract framework for time-varying objects of any mathematical kind that supports both the",
+          "published": "2026-09-08T17:12:24Z",
+          "primary_category": "cs.AI",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.09056v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Intelligent Fault and Lightning Detection Algorithm for VSC-MTDC grids based on ResNet with Hybrid Attention Mechanism",
+          "summary": "To address the existing challenges in fault detection for voltage source converter-based multi-terminal DC (VSC-MTDC) grids, this paper proposes an intelligent fault and lightning detection algorithm based on S transform and Residual Network with hybrid attention mechanism (RWHAM).The DC line double-ended initial current traveling waves (ICTWs) are first converted into time-frequency matrices by p",
+          "published": "2026-09-08T16:38:08Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.09000v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Unifying Power Flow and Electromagnetic Transient Modeling",
+          "summary": "Grid tools are separated by timescales: steady-state analysis is performed by power flow (PF), whereas the fastest dynamics are captured by electromagnetic transient (EMT) simulation. Although operating at varying timescales, different tools should produce consistent results when analyzing the same grid conditions. However, the PF steady-state solution does not match the time-to-infinity EMT respo",
+          "published": "2026-09-08T15:56:06Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.08933v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "The consequences of high SMR operating costs in electricity markets",
+          "summary": "As US power markets contend with growing demand for firm generation, the nuclear industry has offered Small Modular Reactors (SMRs). However, how these concepts would fare in a rapidly evolving power grid is unclear, given the paucity of operational examples. Current literature, informed by substantial cost escalations for traditional nuclear plants, focuses on the investment costs SMRs need to ac",
+          "published": "2026-09-08T15:54:40Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.08929v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Asynchronous Model Predictive Control Under Model Mismatch: Stability and Performance Guarantees",
+          "summary": "Certainty-equivalence model predictive control (CE-MPC) is widely used for its simplicity and efficiency, but theoretical guarantees under asynchronous feedback remain limited. This paper establishes stability and performance guarantees for asynchronous CE-MPC of input-constrained nonlinear systems. We first derive a nominal stability condition and competitive-ratio bound that explicitly account f",
+          "published": "2026-09-08T14:55:45Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.08836v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Optimal input design via Frank-Wolfe",
+          "summary": "We study optimal input design over a finite horizon for linear dynamical systems. The goal is to minimize a weighted inverse-covariance (information) criterion subject to an energy budget. The set of covariances achievable by causal policies is convex but lacks a tractable explicit description, ruling out projection-based methods. We show that Frank--Wolfe applies naturally: each linear minimizati",
+          "published": "2026-09-08T13:45:58Z",
+          "primary_category": "math.OC",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.08751v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "NL-FRA: A MATLAB package for nonlinear frequency response analysis",
+          "summary": "Nonlinear Output Frequency Response Functions (NOFRFs) provide a one-dimensional frequency-domain representation of nonlinear dynamics, enabling direct decomposition of an output spectrum into contributions from different orders of nonlinearity. NL-FRA (NonLinear Frequency Response Analysis) is an open-source MATLAB package implementing a data-driven Least Squares (LS) method for estimating NOFRFs",
+          "published": "2026-09-08T13:20:08Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.08723v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Model Predictive Control for Dynamic Hydraulic Balancing in Building Radiator Heating Systems: Modeling, Design, and Experimental Validation",
+          "summary": "Hydronic radiator systems are among the most widely used heating systems in buildings. In the literature, radiator heat outputs are often assumed to be independent of one another and arbitrarily adjustable in time when designing controllers. However, in practice, radiators are supplied by one or multiple common heat sources and are hydraulically coupled through the water circulation system. Mainta",
+          "published": "2026-09-08T13:06:27Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.08708v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Entropic Risk-Sensitive Evolutionary Learning and Equilibrium Selection in Coordination Games",
+          "summary": "We study risk-sensitive evolutionary learning dynamics and their long-run equilibrium selection behaviors in coordination games. Agents' risk attitudes enter through the classical entropic risk measure, which evaluates opponent-induced payoff uncertainty and feeds into noisy best responses under two standard revision protocols: best response with mutations and logit choice. We first analyze $2\\tim",
+          "published": "2026-09-08T12:44:10Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.08677v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "A Two-Stage, Model-Based Reinforcement Learning Approach for Active Flow Control of Bluff Body Wakes",
+          "summary": "This paper develops a data-driven, output-feedback approach to the infinite-horizon optimal control of high-dimensional nonlinear systems with unknown and unstable equilibria, using sparse partial observations. The approach builds on the transfer-plus-regulation decomposition of the infinite-horizon problem: a finite-horizon nonlinear transfer drives the system into a region where the dynamics are",
+          "published": "2026-09-08T08:41:04Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.08436v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "On the Local and Global Nature of Frequency and Voltage Dynamics",
+          "summary": "This paper utilizes the autocorrelation of frequency and voltage measurements to identify, quantify and classify local and global properties of power system dynamics. The analysis is based on measurements with various resolutions (20 ms, 1 s, and 1 min) from several nodes of the Irish All-Island Power System (AIPS). Simulations based on stochastic differential algebraic equations on an IEEE benchm",
+          "published": "2026-09-08T08:14:29Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.08405v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Stabilizing Traffic Flow Via Autonomous Vehicles: A Less Conservative Approach",
+          "summary": "This paper explores stabilizing traffic flow using a minimum number of autonomous vehicles (AVs) under control constraints. In contrast to most studies, we consider a heterogeneous parameter setup scenario for human-driven vehicles (HVs) to reflect real-world differences in driving behavior. While current literature uses an H-Infinity based sufficient condition to ensure the string stability of tr",
+          "published": "2026-09-08T04:02:27Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.08218v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Bi-ZOL: Bilevel Zeroth-Order Learning with Nonsmooth Responses",
+          "summary": "This paper studies lower-level-constrained bilevel optimization in a response-oracle setting, where lower-level model information is unavailable and the induced response mapping is locally Lipschitz but potentially nonsmooth. In this setting, the classical response Jacobian and reduced hypergradient may fail to exist. We propose Bilevel Zeroth-Order Learning (Bi-ZOL), a structure-guided zeroth-ord",
+          "published": "2026-09-07T22:05:22Z",
+          "primary_category": "math.OC",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.08021v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Koopman-Based Model Predictive Control for Simultaneous State of Charge and Temperature Balancing of Lithium-Ion Cells",
+          "summary": "Cell-to-cell electrical and thermal variations produce nonuniform state of charge (SoC) and temperature distributions in lithium-ion battery packs. This paper proposes a Koopman-operator-based framework for simultaneous SoC and temperature balancing of series-connected cells. Cell-specific Koopman predictors identified using extended dynamic mode decomposition are assembled into neighboring-cell e",
+          "published": "2026-09-07T21:44:42Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.08008v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Trajectory Optimization via Schrödinger Bridge Sampling",
+          "summary": "We take a new look at the relation between finite-horizon trajectory optimization and Schrödinger bridge sampling. Viewed as inference, KL-regularized trajectory optimization is solved by sampling from a Gibbs--Boltzmann distribution whose energy is the trajectory cost, and the adjoint Schrödinger bridge sampler (ASBS) is a simulation-free diffusion sampler designed for exactly such unnormalized t",
+          "published": "2026-09-07T19:26:43Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.07914v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Sound Compilation of Weighted Event Signal Temporal Logic to Timeless Geometric Control",
+          "summary": "Cyber-Physical Systems (CPS) controllers synthesized from standard temporal logics rely on rigid global clocks, rendering them vulnerable to asynchronous timing anomalies like clock snaps, jitter, and network delays. To overcome these vulnerabilities, we introduce a fundamentally timeless geometric control paradigm alongside a novel specification language: Weighted Event-Based Signal Temporal Logi",
+          "published": "2026-09-07T19:03:34Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.07900v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Configuration-Constrained Tube MPC for Difference-of-Convex Nonlinear Systems",
+          "summary": "This paper develops a convex tube model predictive control formulation for constrained nonlinear systems. We consider dynamics described by a discrete-time state-space model with parametric and additive uncertainty that admits a difference-of-convex decomposition. Convex directional bounds of the nonlinear dynamics are combined with configuration-constrained polytopic tubes, whose predefined combi",
+          "published": "2026-09-07T17:47:56Z",
+          "primary_category": "math.OC",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.07809v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Grid Trouble in Paradise: Uncovering Vulnerable Distributed Energy Resources and Their Grid-Level Risks",
+          "summary": "Grid-connected solar distributed energy resources (DERs), such as solar inverters and monitoring platforms, have been deployed at unprecedented scale over the past few years, with global solar capacity more than doubling since 2022. To support monitoring and control, many of these systems are Internet-connected and configured by installers or end users, yet the real-world scale of their Internet e",
+          "published": "2026-09-07T17:30:24Z",
+          "primary_category": "cs.CR",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.07783v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Distributed Droop-Free Control of Grid-Forming Inverters with Dynamic Line and Load Modeling",
+          "summary": "Droop-free distributed control has emerged as a promising alternative to conventional linear droop control for coordinating inverter-based resources in AC microgrids. However, existing droop-free methods typically rely on quasi-steady state network models that neglect fast electromagnetic transients and assume a decoupled dependence of active and reactive power on frequency and voltage, respective",
+          "published": "2026-09-07T17:24:43Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.07777v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Online Constrained Control of Storage Systems via Simplex Disturbance-Action Policies",
+          "summary": "We study online control of a scalar storage system with nonnegative adversarial resource arrivals and state-dependent action constraints. The adversarial, time-varying cost depends on both state and action. At each time, the controller selects a feasible action before the current resource arrival and cost are revealed. To handle the coupling between feasibility and online learning, we introduce Si",
+          "published": "2026-09-07T16:10:07Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.07690v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Emergent Charging Coordination in Electric Delivery Fleets",
+          "summary": "In electric delivery fleets, mid-shift charging is non-trivial: each vehicle must decide when, where and how much to charge to finish on time with battery above a safety floor. The choices are coupled: queues build where too many vehicles pick the same station. Prior work resolves this coupling with central dispatching, precomputed schedules or reservations, machinery that charging infrastructure ",
+          "published": "2026-09-07T16:09:13Z",
+          "primary_category": "cs.LG",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.07689v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "A unified power-grid representation for reuse across network structures and computational tasks",
+          "summary": "Data-driven power-system models are typically developed for specific grids and computational tasks, but their performance can deteriorate markedly or even fail when network structures or analytical objectives change. This paper develops a unified grid representation that separates physical-grid description from downstream computation. A self-supervised encoder represents each grid as a variable nu",
+          "published": "2026-09-07T15:39:34Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.07650v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Data-driven estimation of design heating loads for HVAC equipment sizing",
+          "summary": "Oversized heating and cooling equipment can unnecessarily increase up-front costs, energy costs, pollutant emissions, and strain on electrical infrastructure. This paper develops two data-driven methods for estimating heating loads at design conditions to improve equipment sizing. One method uses smart thermostat data; the other uses utility bills. We test the methods on a dataset that we gathered",
+          "published": "2026-09-07T15:23:22Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.07619v1",
+          "source": "arxiv"
         }
-      ],
-      "items": []
+      ]
     },
     "rss": {
       "status": "ok",

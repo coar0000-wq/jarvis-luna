@@ -2,7 +2,7 @@
 title: "Record 182 · Beyond-Scalar-Flexibility-From-Eligible-AI-Workloads-to-Dependable-Loa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T02:52:35.995481+00:00
+updated_at: 2026-09-09T08:39:25.665054+00:00
 tags: [record, real-data]
 ---
 

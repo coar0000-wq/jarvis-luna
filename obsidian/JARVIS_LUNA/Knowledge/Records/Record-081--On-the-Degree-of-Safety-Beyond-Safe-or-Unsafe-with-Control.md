@@ -2,7 +2,7 @@
 title: "Record 081 · On-the-Degree-of-Safety-Beyond-Safe-or-Unsafe-with-Control-Barrier-Fun"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T02:52:35.965720+00:00
+updated_at: 2026-09-09T08:39:25.637125+00:00
 tags: [record, real-data]
 ---
 

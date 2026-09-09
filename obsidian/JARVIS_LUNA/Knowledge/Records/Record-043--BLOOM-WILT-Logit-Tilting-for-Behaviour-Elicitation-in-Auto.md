@@ -2,7 +2,7 @@
 title: "Record 043 · BLOOM-WILT-Logit-Tilting-for-Behaviour-Elicitation-in-Automated-LLM-Au"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T02:52:35.955607+00:00
+updated_at: 2026-09-09T08:39:25.628005+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 154 · Morphology-and-actuation-as-inductive-biases-in-robotic-hand-manipulat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T02:52:35.987539+00:00
+updated_at: 2026-09-09T08:39:25.657111+00:00
 tags: [record, real-data]
 ---
 

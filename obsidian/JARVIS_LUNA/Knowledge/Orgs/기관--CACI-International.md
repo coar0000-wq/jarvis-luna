@@ -2,7 +2,7 @@
 title: "기관 · CACI International"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T02:52:36.787053+00:00
+updated_at: 2026-09-09T08:39:26.450870+00:00
 tags: [org, real-data]
 ---
 
@@ -10,33 +10,33 @@ tags: [org, real-data]
 
 실제 수집 레코드 **26건**이 이 기관에 연결되어 있습니다. (논문 26건)
 
-- [[Record-242--Dammarenediol-II-enhances-etoposideinduced-apoptosis-by-ta]]
-- [[Record-285--Fine-root-traits-coordinate-with-aboveground-strategies-ye]]
-- [[Record-299--Chiisanogenin-enhances-glucose-uptake-and-lowers-blood-glu]]
-- [[Record-362--Virtual-Reality-Simulation-for-Assessment-of-Hemorrhage-Co]]
-- [[Record-383--Comprehensive-profiling-of-RNA-modification-related-genes-]]
-- [[Record-404--Association-of-long-COVID-with-health-related-quality-of-l]]
-- [[Record-406--Antiviral-and-anti-inflammatory-effects-of-Tabamide-A-deri]]
-- [[Record-414--Health-CareAssociated-Infections-in-US-Hospitals-2023-vers]]
-- [[Record-421--ETV5-reduces-androgen-receptor-expression-and-induces-neur]]
-- [[Record-422--Fatty-acid-regulation-and-phosphatidylethanolamine-biosynt]]
-- [[Record-444--Rapid-screening-of-shellfish-tainting-from-oil-spills-usin]]
-- [[Record-446--Integrating-ex-situ-biomimetic-extraction-analyses-into-co]]
-- [[Record-447--Assessing-bioaccumulation-with-biomagnification-factors-fr]]
-- [[Record-453--P-2010-Association-between-Urbanicity-and-Up-to-date-COVID]]
-- [[Record-459--Perceived-self-and-social-relevance-of-content-motivates-n]]
-- [[Record-467--Wastewater-integrated-pathogen-surveillance-dashboards-ena]]
-- [[Record-571--CaliciBoost-Performance-driven-evaluation-of-molecular-rep]]
-- [[Record-615--Retrospective-analysis-of-coronary-angiograms-showing-myoc]]
-- [[Record-616--Antiviral-and-anti-inflammatory-effects-of-Tabamide-A-deri]]
-- [[Record-645--American-College-of-Veterinary-Radiology-and-European-Coll]]
-- [[Record-666--What-role-for-real-world-evidence-in-market-access-of-bios]]
-- [[Record-675--Entropies-of-the-Classical-Dimer-Model]]
-- [[Record-725--Some-linear-feedback-laws-for-stabilisation-of-sterile-ins]]
-- [[Record-814--Uso-de-clubes-de-lectura-escolares-para-fomentar-el-hábito]]
-- [[Record-832--Scalable-single-cell-isoform-profiling-with-sequencing-by-]]
-- [[Record-850--The-CARD11BCL10MALT1-CBM-Complex-Regulates-Nutrient-Transp]]
+- [[Record-299--Dammarenediol-II-enhances-etoposideinduced-apoptosis-by-ta]]
+- [[Record-342--Fine-root-traits-coordinate-with-aboveground-strategies-ye]]
+- [[Record-356--Chiisanogenin-enhances-glucose-uptake-and-lowers-blood-glu]]
+- [[Record-419--Virtual-Reality-Simulation-for-Assessment-of-Hemorrhage-Co]]
+- [[Record-440--Comprehensive-profiling-of-RNA-modification-related-genes-]]
+- [[Record-461--Association-of-long-COVID-with-health-related-quality-of-l]]
+- [[Record-463--Antiviral-and-anti-inflammatory-effects-of-Tabamide-A-deri]]
+- [[Record-471--Health-CareAssociated-Infections-in-US-Hospitals-2023-vers]]
+- [[Record-478--ETV5-reduces-androgen-receptor-expression-and-induces-neur]]
+- [[Record-479--Fatty-acid-regulation-and-phosphatidylethanolamine-biosynt]]
+- [[Record-501--Rapid-screening-of-shellfish-tainting-from-oil-spills-usin]]
+- [[Record-503--Integrating-ex-situ-biomimetic-extraction-analyses-into-co]]
+- [[Record-504--Assessing-bioaccumulation-with-biomagnification-factors-fr]]
+- [[Record-510--P-2010-Association-between-Urbanicity-and-Up-to-date-COVID]]
+- [[Record-516--Perceived-self-and-social-relevance-of-content-motivates-n]]
+- [[Record-524--Wastewater-integrated-pathogen-surveillance-dashboards-ena]]
+- [[Record-628--CaliciBoost-Performance-driven-evaluation-of-molecular-rep]]
+- [[Record-672--Retrospective-analysis-of-coronary-angiograms-showing-myoc]]
+- [[Record-673--Antiviral-and-anti-inflammatory-effects-of-Tabamide-A-deri]]
+- [[Record-702--American-College-of-Veterinary-Radiology-and-European-Coll]]
+- [[Record-723--What-role-for-real-world-evidence-in-market-access-of-bios]]
+- [[Record-732--Entropies-of-the-Classical-Dimer-Model]]
+- [[Record-782--Some-linear-feedback-laws-for-stabilisation-of-sterile-ins]]
+- [[Record-871--Uso-de-clubes-de-lectura-escolares-para-fomentar-el-hábito]]
+- [[Record-889--Scalable-single-cell-isoform-profiling-with-sequencing-by-]]
+- [[Record-907--The-CARD11BCL10MALT1-CBM-Complex-Regulates-Nutrient-Transp]]
 
 ## Connected nodes
 
-[[Record-242--Dammarenediol-II-enhances-etoposideinduced-apoptosis-by-ta]] [[Record-285--Fine-root-traits-coordinate-with-aboveground-strategies-ye]] [[Record-299--Chiisanogenin-enhances-glucose-uptake-and-lowers-blood-glu]] [[Record-362--Virtual-Reality-Simulation-for-Assessment-of-Hemorrhage-Co]] [[Record-383--Comprehensive-profiling-of-RNA-modification-related-genes-]] [[Record-404--Association-of-long-COVID-with-health-related-quality-of-l]] [[Record-406--Antiviral-and-anti-inflammatory-effects-of-Tabamide-A-deri]] [[Record-414--Health-CareAssociated-Infections-in-US-Hospitals-2023-vers]] [[Record-421--ETV5-reduces-androgen-receptor-expression-and-induces-neur]] [[Record-422--Fatty-acid-regulation-and-phosphatidylethanolamine-biosynt]] [[Record-444--Rapid-screening-of-shellfish-tainting-from-oil-spills-usin]] [[Record-446--Integrating-ex-situ-biomimetic-extraction-analyses-into-co]] [[Record-447--Assessing-bioaccumulation-with-biomagnification-factors-fr]] [[Record-453--P-2010-Association-between-Urbanicity-and-Up-to-date-COVID]] [[Record-459--Perceived-self-and-social-relevance-of-content-motivates-n]] [[Record-467--Wastewater-integrated-pathogen-surveillance-dashboards-ena]] [[Record-571--CaliciBoost-Performance-driven-evaluation-of-molecular-rep]] [[Record-615--Retrospective-analysis-of-coronary-angiograms-showing-myoc]] [[Record-616--Antiviral-and-anti-inflammatory-effects-of-Tabamide-A-deri]] [[Record-645--American-College-of-Veterinary-Radiology-and-European-Coll]] [[Record-666--What-role-for-real-world-evidence-in-market-access-of-bios]] [[Record-675--Entropies-of-the-Classical-Dimer-Model]] [[Record-725--Some-linear-feedback-laws-for-stabilisation-of-sterile-ins]] [[Record-814--Uso-de-clubes-de-lectura-escolares-para-fomentar-el-hábito]] [[Record-832--Scalable-single-cell-isoform-profiling-with-sequencing-by-]] [[Record-850--The-CARD11BCL10MALT1-CBM-Complex-Regulates-Nutrient-Transp]] [[LLM언어모델]] [[데이터분석]] [[마케팅광고]] [[머신러닝-연구]] [[법률규제]] [[소셜콘텐츠]] [[의료바이오]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]
+[[Record-299--Dammarenediol-II-enhances-etoposideinduced-apoptosis-by-ta]] [[Record-342--Fine-root-traits-coordinate-with-aboveground-strategies-ye]] [[Record-356--Chiisanogenin-enhances-glucose-uptake-and-lowers-blood-glu]] [[Record-419--Virtual-Reality-Simulation-for-Assessment-of-Hemorrhage-Co]] [[Record-440--Comprehensive-profiling-of-RNA-modification-related-genes-]] [[Record-461--Association-of-long-COVID-with-health-related-quality-of-l]] [[Record-463--Antiviral-and-anti-inflammatory-effects-of-Tabamide-A-deri]] [[Record-471--Health-CareAssociated-Infections-in-US-Hospitals-2023-vers]] [[Record-478--ETV5-reduces-androgen-receptor-expression-and-induces-neur]] [[Record-479--Fatty-acid-regulation-and-phosphatidylethanolamine-biosynt]] [[Record-501--Rapid-screening-of-shellfish-tainting-from-oil-spills-usin]] [[Record-503--Integrating-ex-situ-biomimetic-extraction-analyses-into-co]] [[Record-504--Assessing-bioaccumulation-with-biomagnification-factors-fr]] [[Record-510--P-2010-Association-between-Urbanicity-and-Up-to-date-COVID]] [[Record-516--Perceived-self-and-social-relevance-of-content-motivates-n]] [[Record-524--Wastewater-integrated-pathogen-surveillance-dashboards-ena]] [[Record-628--CaliciBoost-Performance-driven-evaluation-of-molecular-rep]] [[Record-672--Retrospective-analysis-of-coronary-angiograms-showing-myoc]] [[Record-673--Antiviral-and-anti-inflammatory-effects-of-Tabamide-A-deri]] [[Record-702--American-College-of-Veterinary-Radiology-and-European-Coll]] [[Record-723--What-role-for-real-world-evidence-in-market-access-of-bios]] [[Record-732--Entropies-of-the-Classical-Dimer-Model]] [[Record-782--Some-linear-feedback-laws-for-stabilisation-of-sterile-ins]] [[Record-871--Uso-de-clubes-de-lectura-escolares-para-fomentar-el-hábito]] [[Record-889--Scalable-single-cell-isoform-profiling-with-sequencing-by-]] [[Record-907--The-CARD11BCL10MALT1-CBM-Complex-Regulates-Nutrient-Transp]] [[LLM언어모델]] [[데이터분석]] [[마케팅광고]] [[머신러닝-연구]] [[법률규제]] [[소셜콘텐츠]] [[의료바이오]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

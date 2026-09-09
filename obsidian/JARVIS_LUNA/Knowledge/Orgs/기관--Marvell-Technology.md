@@ -2,7 +2,7 @@
 title: "기관 · Marvell Technology"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T02:52:36.803159+00:00
+updated_at: 2026-09-09T08:39:26.466479+00:00
 tags: [org, real-data]
 ---
 
@@ -10,32 +10,32 @@ tags: [org, real-data]
 
 실제 수집 레코드 **25건**이 이 기관에 연결되어 있습니다. (논문 25건)
 
-- [[Record-279--Employing-artificial-intelligence-in-Galileo-orbital-error]]
-- [[Record-338--Novel-high-radiopurity-doped-amorphous-silicon-resistors-f]]
-- [[Record-388--Room-temperature-valley-selective-emission-in-Si-MoSe2-het]]
-- [[Record-465--A-Randomized-Placebo-Controlled-Trial-to-Evaluate-the-Safe]]
-- [[Record-482--Recent-Advances-in-Low-Power-Digital-Signal-Processing-Tec]]
-- [[Record-484--A-Bits-to-Antenna-F-Band-120-Gbs-CMOS-RF-64QAM-Transmitter]]
-- [[Record-485--A-32-Gbs-036-pJbit-3-nm-Chiplet-IO-Using-25-D-CoWoS-Packag]]
-- [[Record-486--A-3--3-Multi-Chip-Ka-Band-Phased-Array-With-2-D-Scalable-L]]
-- [[Record-487--An-Antenna-to-Bits-F-Band-120-Gbps-CMOS-RF-64QAM-Receiver]]
-- [[Record-488--Deep-Learning-Based-Auto-Encoder-for-Time-Offset-Sub-Faste]]
-- [[Record-495--A-11-pJbLane-18-Tbs-Chiplet-Using-113-Gbs-PAM-4-Transceive]]
-- [[Record-496--An-Inductive-Load-Modulated-Multiband-Phase-Shifter-With-0]]
-- [[Record-505--Artificial-Intelligence-for-RFIC-Design-Early-Advancements]]
-- [[Record-508--Tamper-Resistant-Reconfigurable-Preamplifier-Physical-Uncl]]
-- [[Record-512--Abelian-Group-Codes-for-Classical-Quantum-Channels-One-Sho]]
-- [[Record-538--Thermal-Optimization-Strategies-for-High-Performance-Semic]]
-- [[Record-657--Bridging-science-policy-practice-and-purpose-global-insigh]]
-- [[Record-713--Blockchain-and-Machine-Learning-Integration-for-Data-Priva]]
-- [[Record-809--New-Computational-Methods-for-Enhancing-Reliability-Testin]]
-- [[Record-817--Novel-Materials-and-Processes-for-Miniaturization-in-Semic]]
-- [[Record-818--The-Impact-of-Extreme-Ultraviolet-Lithography-EUVL-on-Semi]]
-- [[Record-819--Novel-Materials-and-Processes-for-Miniaturization-in-Semic]]
-- [[Record-820--Integration-of-AI-and-Machine-Learning-in-Semiconductor-Ma]]
-- [[Record-1987--Simulating-Unified-Tensor-Resharding-in-heterogeneous-AI-]]
-- [[Record-2027--A-Photonic-CXL-Memory-Appliance-for-Scalable-KV-Cache-Man]]
+- [[Record-336--Employing-artificial-intelligence-in-Galileo-orbital-error]]
+- [[Record-395--Novel-high-radiopurity-doped-amorphous-silicon-resistors-f]]
+- [[Record-445--Room-temperature-valley-selective-emission-in-Si-MoSe2-het]]
+- [[Record-522--A-Randomized-Placebo-Controlled-Trial-to-Evaluate-the-Safe]]
+- [[Record-539--Recent-Advances-in-Low-Power-Digital-Signal-Processing-Tec]]
+- [[Record-541--A-Bits-to-Antenna-F-Band-120-Gbs-CMOS-RF-64QAM-Transmitter]]
+- [[Record-542--A-32-Gbs-036-pJbit-3-nm-Chiplet-IO-Using-25-D-CoWoS-Packag]]
+- [[Record-543--A-3--3-Multi-Chip-Ka-Band-Phased-Array-With-2-D-Scalable-L]]
+- [[Record-544--An-Antenna-to-Bits-F-Band-120-Gbps-CMOS-RF-64QAM-Receiver]]
+- [[Record-545--Deep-Learning-Based-Auto-Encoder-for-Time-Offset-Sub-Faste]]
+- [[Record-552--A-11-pJbLane-18-Tbs-Chiplet-Using-113-Gbs-PAM-4-Transceive]]
+- [[Record-553--An-Inductive-Load-Modulated-Multiband-Phase-Shifter-With-0]]
+- [[Record-562--Artificial-Intelligence-for-RFIC-Design-Early-Advancements]]
+- [[Record-565--Tamper-Resistant-Reconfigurable-Preamplifier-Physical-Uncl]]
+- [[Record-569--Abelian-Group-Codes-for-Classical-Quantum-Channels-One-Sho]]
+- [[Record-595--Thermal-Optimization-Strategies-for-High-Performance-Semic]]
+- [[Record-714--Bridging-science-policy-practice-and-purpose-global-insigh]]
+- [[Record-770--Blockchain-and-Machine-Learning-Integration-for-Data-Priva]]
+- [[Record-866--New-Computational-Methods-for-Enhancing-Reliability-Testin]]
+- [[Record-874--Novel-Materials-and-Processes-for-Miniaturization-in-Semic]]
+- [[Record-875--The-Impact-of-Extreme-Ultraviolet-Lithography-EUVL-on-Semi]]
+- [[Record-876--Novel-Materials-and-Processes-for-Miniaturization-in-Semic]]
+- [[Record-877--Integration-of-AI-and-Machine-Learning-in-Semiconductor-Ma]]
+- [[Record-2050--Simulating-Unified-Tensor-Resharding-in-heterogeneous-AI-]]
+- [[Record-2090--A-Photonic-CXL-Memory-Appliance-for-Scalable-KV-Cache-Man]]
 
 ## Connected nodes
 
-[[Record-279--Employing-artificial-intelligence-in-Galileo-orbital-error]] [[Record-338--Novel-high-radiopurity-doped-amorphous-silicon-resistors-f]] [[Record-388--Room-temperature-valley-selective-emission-in-Si-MoSe2-het]] [[Record-465--A-Randomized-Placebo-Controlled-Trial-to-Evaluate-the-Safe]] [[Record-482--Recent-Advances-in-Low-Power-Digital-Signal-Processing-Tec]] [[Record-484--A-Bits-to-Antenna-F-Band-120-Gbs-CMOS-RF-64QAM-Transmitter]] [[Record-485--A-32-Gbs-036-pJbit-3-nm-Chiplet-IO-Using-25-D-CoWoS-Packag]] [[Record-486--A-3--3-Multi-Chip-Ka-Band-Phased-Array-With-2-D-Scalable-L]] [[Record-487--An-Antenna-to-Bits-F-Band-120-Gbps-CMOS-RF-64QAM-Receiver]] [[Record-488--Deep-Learning-Based-Auto-Encoder-for-Time-Offset-Sub-Faste]] [[Record-495--A-11-pJbLane-18-Tbs-Chiplet-Using-113-Gbs-PAM-4-Transceive]] [[Record-496--An-Inductive-Load-Modulated-Multiband-Phase-Shifter-With-0]] [[Record-505--Artificial-Intelligence-for-RFIC-Design-Early-Advancements]] [[Record-508--Tamper-Resistant-Reconfigurable-Preamplifier-Physical-Uncl]] [[Record-512--Abelian-Group-Codes-for-Classical-Quantum-Channels-One-Sho]] [[Record-538--Thermal-Optimization-Strategies-for-High-Performance-Semic]] [[Record-657--Bridging-science-policy-practice-and-purpose-global-insigh]] [[Record-713--Blockchain-and-Machine-Learning-Integration-for-Data-Priva]] [[Record-809--New-Computational-Methods-for-Enhancing-Reliability-Testin]] [[Record-817--Novel-Materials-and-Processes-for-Miniaturization-in-Semic]] [[Record-818--The-Impact-of-Extreme-Ultraviolet-Lithography-EUVL-on-Semi]] [[Record-819--Novel-Materials-and-Processes-for-Miniaturization-in-Semic]] [[Record-820--Integration-of-AI-and-Machine-Learning-in-Semiconductor-Ma]] [[Record-1987--Simulating-Unified-Tensor-Resharding-in-heterogeneous-AI-]] [[Record-2027--A-Photonic-CXL-Memory-Appliance-for-Scalable-KV-Cache-Man]] [[LLM언어모델]] [[경영전략]] [[과학수학]] [[반도체하드웨어]] [[보안프라이버시]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Record-336--Employing-artificial-intelligence-in-Galileo-orbital-error]] [[Record-395--Novel-high-radiopurity-doped-amorphous-silicon-resistors-f]] [[Record-445--Room-temperature-valley-selective-emission-in-Si-MoSe2-het]] [[Record-522--A-Randomized-Placebo-Controlled-Trial-to-Evaluate-the-Safe]] [[Record-539--Recent-Advances-in-Low-Power-Digital-Signal-Processing-Tec]] [[Record-541--A-Bits-to-Antenna-F-Band-120-Gbs-CMOS-RF-64QAM-Transmitter]] [[Record-542--A-32-Gbs-036-pJbit-3-nm-Chiplet-IO-Using-25-D-CoWoS-Packag]] [[Record-543--A-3--3-Multi-Chip-Ka-Band-Phased-Array-With-2-D-Scalable-L]] [[Record-544--An-Antenna-to-Bits-F-Band-120-Gbps-CMOS-RF-64QAM-Receiver]] [[Record-545--Deep-Learning-Based-Auto-Encoder-for-Time-Offset-Sub-Faste]] [[Record-552--A-11-pJbLane-18-Tbs-Chiplet-Using-113-Gbs-PAM-4-Transceive]] [[Record-553--An-Inductive-Load-Modulated-Multiband-Phase-Shifter-With-0]] [[Record-562--Artificial-Intelligence-for-RFIC-Design-Early-Advancements]] [[Record-565--Tamper-Resistant-Reconfigurable-Preamplifier-Physical-Uncl]] [[Record-569--Abelian-Group-Codes-for-Classical-Quantum-Channels-One-Sho]] [[Record-595--Thermal-Optimization-Strategies-for-High-Performance-Semic]] [[Record-714--Bridging-science-policy-practice-and-purpose-global-insigh]] [[Record-770--Blockchain-and-Machine-Learning-Integration-for-Data-Priva]] [[Record-866--New-Computational-Methods-for-Enhancing-Reliability-Testin]] [[Record-874--Novel-Materials-and-Processes-for-Miniaturization-in-Semic]] [[Record-875--The-Impact-of-Extreme-Ultraviolet-Lithography-EUVL-on-Semi]] [[Record-876--Novel-Materials-and-Processes-for-Miniaturization-in-Semic]] [[Record-877--Integration-of-AI-and-Machine-Learning-in-Semiconductor-Ma]] [[Record-2050--Simulating-Unified-Tensor-Resharding-in-heterogeneous-AI-]] [[Record-2090--A-Photonic-CXL-Memory-Appliance-for-Scalable-KV-Cache-Man]] [[LLM언어모델]] [[경영전략]] [[과학수학]] [[반도체하드웨어]] [[보안프라이버시]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-09T02:51:51.521267+00:00",
+  "collected_at": "2026-09-09T08:38:29.618517+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -44,19 +44,19 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "september",
+      "keyword": "skin",
       "score": 6
     },
     {
       "keyword": "2026",
-      "score": 6
+      "score": 5
     },
     {
-      "keyword": "cushion",
+      "keyword": "september",
       "score": 4
     },
     {
-      "keyword": "skin",
+      "keyword": "cushion",
       "score": 4
     },
     {
@@ -68,32 +68,8 @@
       "score": 3
     },
     {
-      "keyword": "anything",
+      "keyword": "lip",
       "score": 3
-    },
-    {
-      "keyword": "goes",
-      "score": 3
-    },
-    {
-      "keyword": "question",
-      "score": 2
-    },
-    {
-      "keyword": "ask",
-      "score": 2
-    },
-    {
-      "keyword": "here",
-      "score": 2
-    },
-    {
-      "keyword": "alter-daily",
-      "score": 2
-    },
-    {
-      "keyword": "questions",
-      "score": 2
     },
     {
       "keyword": "monday",
@@ -104,7 +80,27 @@
       "score": 2
     },
     {
-      "keyword": "lip",
+      "keyword": "does",
+      "score": 2
+    },
+    {
+      "keyword": "essence",
+      "score": 2
+    },
+    {
+      "keyword": "tints",
+      "score": 2
+    },
+    {
+      "keyword": "brown",
+      "score": 2
+    },
+    {
+      "keyword": "anything",
+      "score": 2
+    },
+    {
+      "keyword": "goes",
       "score": 2
     },
     {
@@ -128,6 +124,26 @@
       "score": 2
     },
     {
+      "keyword": "question",
+      "score": 1
+    },
+    {
+      "keyword": "ask",
+      "score": 1
+    },
+    {
+      "keyword": "here",
+      "score": 1
+    },
+    {
+      "keyword": "alter-daily",
+      "score": 1
+    },
+    {
+      "keyword": "questions",
+      "score": 1
+    },
+    {
       "keyword": "wosado",
       "score": 1
     },
@@ -145,10 +161,6 @@
     },
     {
       "keyword": "money",
-      "score": 1
-    },
-    {
-      "keyword": "does",
       "score": 1
     },
     {
@@ -184,38 +196,30 @@
       "score": 1
     },
     {
-      "keyword": "heartbreaking",
+      "keyword": "biore",
       "score": 1
     },
     {
-      "keyword": "empty",
-      "score": 1
-    },
-    {
-      "keyword": "tuesday",
-      "score": 1
-    },
-    {
-      "keyword": "jungsaemmool",
-      "score": 1
-    },
-    {
-      "keyword": "long",
+      "keyword": "rich",
       "score": 1
     }
   ],
   "beauty_keywords": [
     {
-      "keyword": "cushion",
-      "score": 4
+      "keyword": "skin",
+      "score": 6
     },
     {
-      "keyword": "skin",
+      "keyword": "cushion",
       "score": 4
     },
     {
       "keyword": "masks",
       "score": 4
+    },
+    {
+      "keyword": "essence",
+      "score": 2
     },
     {
       "keyword": "skinny",
@@ -256,6 +260,34 @@
       "title": "Does JudyDoll sell singles from their 6 lip and cheek pallet? This is the Chestnut one.",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wb4qay/does_judydoll_sell_singles_from_their_6_lip_and/",
       "published": "2026-09-08T23:25:59+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Biore, rich, watery essence & My meltdown.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wb9fp9/biore_rich_watery_essence_my_meltdown/",
+      "published": "2026-09-09T02:53:26+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "August 2026 Empties + Reviews",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbfd9z/august_2026_empties_reviews/",
+      "published": "2026-09-09T08:09:54+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Those of you who get reactions around your lips from newer lip tints - which ones HAVE and HAVEN’T worked for you?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbdk2e/those_of_you_who_get_reactions_around_your_lips/",
+      "published": "2026-09-09T06:24:38+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Is it brown skin friendly? Does it leave bad whitecast ?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbffqh/is_it_brown_skin_friendly_does_it_leave_bad/",
+      "published": "2026-09-09T08:13:58+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -375,34 +407,6 @@
       "title": "A-beauty products similar to Bobbi Brown Love Letter?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8iyx1/abeauty_products_similar_to_bobbi_brown_love/",
       "published": "2026-09-06T01:52:49+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Sunday: September 06, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w97jpl/anything_goes_sunday_september_06_2026/",
-      "published": "2026-09-06T20:39:10+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 06, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8yosp/have_a_question_ask_here_alterdaily_help_and/",
-      "published": "2026-09-06T15:09:24+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Thoughts on Lanbena Nose Plants Pore Strips",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8mq2b/thoughts_on_lanbena_nose_plants_pore_strips/",
-      "published": "2026-09-06T05:01:03+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Comparing BB Creams: Missha vs. Purito in shade 21",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7vn6a/comparing_bb_creams_missha_vs_purito_in_shade_21/",
-      "published": "2026-09-05T09:06:51+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

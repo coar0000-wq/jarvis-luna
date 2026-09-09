@@ -2,7 +2,7 @@
 title: "Record 084 · Taylor-Informed-Predictive-Cost-Adaptive-Control-for-Quadrotors-with-O"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T02:52:35.966645+00:00
+updated_at: 2026-09-09T08:39:25.637994+00:00
 tags: [record, real-data]
 ---
 

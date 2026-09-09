@@ -1,6 +1,6 @@
 {
-  "collected_at": "2026-09-09T02:50:25.873917+00:00",
-  "total": 1036,
+  "collected_at": "2026-09-09T08:36:45.190514+00:00",
+  "total": 1061,
   "organizations": 35,
   "by_org": {
     "OpenAI": 50,
@@ -13,6 +13,7 @@
     "Morgan Stanley": 45,
     "AMD": 35,
     "Broadcom": 35,
+    "SK hynix": 35,
     "Palantir": 35,
     "Leidos": 35,
     "Booz Allen Hamilton": 35,
@@ -35,44 +36,37 @@
     "xAI": 20,
     "Dataiku": 17,
     "Microsoft Research": 10,
-    "SK hynix": 10,
     "C3 AI": 10,
     "DataWalk": 10
   },
   "by_category": {
     "AI연구소": 183,
-    "반도체": 300,
+    "반도체": 325,
     "데이터분석": 273,
     "투자은행": 280
   },
   "by_kind": {
     "발표물": 350,
-    "논문": 686
+    "논문": 711
   },
   "sources": {
     "rss": {
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-09T02:49:18.173695+00:00"
+      "collected_at": "2026-09-09T08:35:40.110944+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-09T02:49:53.124051+00:00"
+      "collected_at": "2026-09-09T08:36:25.223071+00:00"
     },
     "openalex": {
       "status": "ok",
-      "count": 686,
-      "failures": [
-        {
-          "org": "SK hynix",
-          "url": "https://api.openalex.org/works?per-page=25&mailto=coar0000@naver.com&sort=publication_date:desc&select=title,doi,id,publication_date,cited_by_count,primary_location,authorships,type&filter=raw_affiliation_strings.search:%22SK%20Hynix%22,type:article|preprint|review",
-          "reason": "HTTPError: HTTP Error 429: Too Many Requests"
-        }
-      ],
-      "collected_at": "2026-09-09T02:50:25.872775+00:00"
+      "count": 711,
+      "failures": [],
+      "collected_at": "2026-09-09T08:36:45.189446+00:00"
     }
   },
   "not_collected": {
@@ -3601,12 +3595,12 @@
       "feed": "https://www.asml.com/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/090/card-spending-grows-2-1-per-cent-in-august--as-travel-rebounds-a/",
+      "url": "https://home.barclays/news/press-releases/20260/090/card-spending-grows-2-1-per-cent-in-august--as-travel-rebounds-a/",
       "date": "2026-09-08",
       "date_raw": "2026-09-08T12:53:50+01:00",
-      "title_source": "url-slug",
-      "title": "Card Spending Grows 2 1 Per Cent In August As Travel Rebounds A",
-      "summary": "",
+      "title_source": "page",
+      "title": "Card spending grows 2.1 per cent in August, as travel rebounds and confidence in household finances improves | Barclays",
+      "summary": "Consumers’ confidence in their household finances, ability to live within their means, and spend on non-essentials all improved in August",
       "org": "Barclays",
       "category": "투자은행",
       "kind": "발표물",
@@ -3614,12 +3608,12 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/090/barclays-private-bank-launches-singapore--booking-centre-to-serv/",
+      "url": "https://home.barclays/news/press-releases/20260/090/barclays-private-bank-launches-singapore--booking-centre-to-serv/",
       "date": "2026-09-07",
       "date_raw": "2026-09-07T08:41:28+01:00",
-      "title_source": "url-slug",
-      "title": "Barclays Private Bank Launches Singapore Booking Centre To Serv",
-      "summary": "",
+      "title_source": "page",
+      "title": "Barclays Private Bank launches Singapore booking centre to serve globally connected clients | Barclays",
+      "summary": "Barclays today announces the launch of its Private Bank booking centre in Singapore.",
       "org": "Barclays",
       "category": "투자은행",
       "kind": "발표물",
@@ -3627,12 +3621,12 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/090/barclays-strengthens-japan-cash-equities-franchise-with-senior-s/",
+      "url": "https://home.barclays/news/press-releases/20260/090/barclays-strengthens-japan-cash-equities-franchise-with-senior-s/",
       "date": "2026-09-04",
       "date_raw": "2026-09-04T09:05:46+01:00",
-      "title_source": "url-slug",
-      "title": "Barclays Strengthens Japan Cash Equities Franchise With Senior S",
-      "summary": "",
+      "title_source": "page",
+      "title": "Barclays strengthens Japan Cash Equities franchise with senior sales trading appointments | Barclays",
+      "summary": "Barclays today announced the appointments of Takeo Kamai as Head of High-Touch Sales Trading, Japan, and Warren Kim, to its Cash Equities business.",
       "org": "Barclays",
       "category": "투자은행",
       "kind": "발표물",
@@ -3640,12 +3634,12 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/080/barclays--supported-by-atlassian-williams-f1-team--launches-nati/",
+      "url": "https://home.barclays/news/press-releases/20260/080/barclays--supported-by-atlassian-williams-f1-team--launches-nati/",
       "date": "2026-09-02",
       "date_raw": "2026-09-02T08:35:16+01:00",
-      "title_source": "url-slug",
-      "title": "Barclays Supported By Atlassian Williams F1 Team Launches Nati",
-      "summary": "",
+      "title_source": "page",
+      "title": "Barclays, supported by Atlassian Williams F1 Team, launches national competition to help young people build the human skills needed for an AI-powered future | Barclays",
+      "summary": "Barclays LifeSkills, supported by Atlassian Williams F1 Team, announce the launch of Accelerate your skills.",
       "org": "Barclays",
       "category": "투자은행",
       "kind": "발표물",
@@ -3653,12 +3647,12 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/090/-application-to-offer-in-24-hours-with-new-barclays-fast-track-r/",
+      "url": "https://home.barclays/news/press-releases/20260/090/-application-to-offer-in-24-hours-with-new-barclays-fast-track-r/",
       "date": "2026-09-02",
       "date_raw": "2026-09-02T09:49:50+01:00",
-      "title_source": "url-slug",
-      "title": "Application To Offer In 24 Hours With New Barclays Fast Track R",
-      "summary": "",
+      "title_source": "page",
+      "title": "Application to offer in 24 hours with new Barclays Fast-Track Remortgage | Barclays",
+      "summary": "The new Fast-Track Remortgage service is designed to make remortgaging to Barclays faster and more straightforward, with completion in as little as 5 days.",
       "org": "Barclays",
       "category": "투자은행",
       "kind": "발표물",
@@ -3666,12 +3660,12 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/080/uk-businesses-welcome-political-reset-but-seek-greater-policy-ce/",
+      "url": "https://home.barclays/news/press-releases/20260/080/uk-businesses-welcome-political-reset-but-seek-greater-policy-ce/",
       "date": "2026-08-27",
       "date_raw": "2026-08-27T09:42:56+01:00",
-      "title_source": "url-slug",
-      "title": "Uk Businesses Welcome Political Reset But Seek Greater Policy Ce",
-      "summary": "",
+      "title_source": "page",
+      "title": "UK businesses welcome political reset but seek greater policy certainty | Barclays",
+      "summary": "Barclays’ Q2 2026 Business Prosperity Index1 reveals that business confidence has rebounded following changes in the Government.",
       "org": "Barclays",
       "category": "투자은행",
       "kind": "발표물",
@@ -3679,12 +3673,12 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/080/three-non-executive-directors-join-barclays-uk-board/",
+      "url": "https://home.barclays/news/press-releases/20260/080/three-non-executive-directors-join-barclays-uk-board/",
       "date": "2026-08-27",
       "date_raw": "2026-08-27T14:50:40+01:00",
-      "title_source": "url-slug",
-      "title": "Three Non Executive Directors Join Barclays Uk Board",
-      "summary": "",
+      "title_source": "page",
+      "title": "Three Non-Executive Directors join Barclays UK Board | Barclays",
+      "summary": "Barclays Bank UK PLC is today announcing the appointment of Stacey Madge, Adam Banks and Kelly Richdale as Non-Executive Directors to its Board.",
       "org": "Barclays",
       "category": "투자은행",
       "kind": "발표물",
@@ -3692,12 +3686,12 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/080/britain-is-more-yimby-than-nimby--as-social-housing-tops-consume/",
+      "url": "https://home.barclays/news/press-releases/20260/080/britain-is-more-yimby-than-nimby--as-social-housing-tops-consume/",
       "date": "2026-08-25",
       "date_raw": "2026-08-25T09:40:21+01:00",
-      "title_source": "url-slug",
-      "title": "Britain Is More Yimby Than Nimby As Social Housing Tops Consume",
-      "summary": "",
+      "title_source": "page",
+      "title": "Britain is more YIMBY than NIMBY, as social housing tops consumers’ housing policy priorities | Barclays",
+      "summary": "Barclays Property Insights finds that support for local housing development is nearly twice as common as opposition, with the strongest backing from Gen Z.",
       "org": "Barclays",
       "category": "투자은행",
       "kind": "발표물",
@@ -3705,12 +3699,12 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/080/barclays-appoints-ramin-naji-as-head-of-healthcare---real-estate/",
+      "url": "https://home.barclays/news/press-releases/20260/080/barclays-appoints-ramin-naji-as-head-of-healthcare---real-estate/",
       "date": "2026-08-25",
       "date_raw": "2026-08-25T10:29:32+01:00",
-      "title_source": "url-slug",
-      "title": "Barclays Appoints Ramin Naji As Head Of Healthcare Real Estate",
-      "summary": "",
+      "title_source": "page",
+      "title": "Barclays appoints Ramin Naji as Head of Healthcare & Real Estate, Asia Pacific",
+      "summary": "Barclays announces the appointment of Ramin Naji as Managing Director and Head of Healthcare & Real Estate, Asia Pacific",
       "org": "Barclays",
       "category": "투자은행",
       "kind": "발표물",
@@ -3718,12 +3712,12 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/050/gen-zs-inclined-to-pay-over-face-value-for-tickets--as-demand-an/",
+      "url": "https://home.barclays/news/press-releases/20260/050/gen-zs-inclined-to-pay-over-face-value-for-tickets--as-demand-an/",
       "date": "2026-08-17",
       "date_raw": "2026-08-17T10:53:22+01:00",
-      "title_source": "url-slug",
-      "title": "Gen Zs Inclined To Pay Over Face Value For Tickets As Demand An",
-      "summary": "",
+      "title_source": "page",
+      "title": "Gen Zs inclined to pay over face value for tickets, as demand and AI drive summer scams risk | Barclays",
+      "summary": "Fans aged 18-29 would pay an extra £55 on average for resale tickets – more than double the national average of £25",
       "org": "Barclays",
       "category": "투자은행",
       "kind": "발표물",
@@ -3731,7 +3725,7 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/080/mike-joo-and-adeel-khan-appointed-co-ceos-of-barclays-investment/",
+      "url": "https://home.barclays/news/press-releases/20260/080/mike-joo-and-adeel-khan-appointed-co-ceos-of-barclays-investment/",
       "date": "2026-08-17",
       "date_raw": "2026-08-17T13:39:33+01:00",
       "title_source": "url-slug",
@@ -3744,7 +3738,7 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/080/mike-joo-and-adeel-khan-appointed-co-ceos-of-barclays-investment0/",
+      "url": "https://home.barclays/news/press-releases/20260/080/mike-joo-and-adeel-khan-appointed-co-ceos-of-barclays-investment0/",
       "date": "2026-08-17",
       "date_raw": "2026-08-17T14:56:14+01:00",
       "title_source": "url-slug",
@@ -3757,7 +3751,7 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/080/confidence-in-uk-economy-hits-21-month-high-and-spending-climbs-/",
+      "url": "https://home.barclays/news/press-releases/20260/080/confidence-in-uk-economy-hits-21-month-high-and-spending-climbs-/",
       "date": "2026-08-11",
       "date_raw": "2026-08-11T10:01:50+01:00",
       "title_source": "url-slug",
@@ -3770,7 +3764,7 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/070/-uk-business-equity-investment-rises-by-more-than-a-quarter-in-h/",
+      "url": "https://home.barclays/news/press-releases/20260/070/-uk-business-equity-investment-rises-by-more-than-a-quarter-in-h/",
       "date": "2026-07-30",
       "date_raw": "2026-07-30T10:44:52+01:00",
       "title_source": "url-slug",
@@ -3783,7 +3777,7 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/070/second-steppers-turn-to-higher-ltv-mortgages-as-deposits-fall/",
+      "url": "https://home.barclays/news/press-releases/20260/070/second-steppers-turn-to-higher-ltv-mortgages-as-deposits-fall/",
       "date": "2026-07-24",
       "date_raw": "2026-07-24T09:22:06+01:00",
       "title_source": "url-slug",
@@ -3796,7 +3790,7 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/070/uk-businesses-see-defence-investment-plan-as-catalyst-for-growth/",
+      "url": "https://home.barclays/news/press-releases/20260/070/uk-businesses-see-defence-investment-plan-as-catalyst-for-growth/",
       "date": "2026-07-22",
       "date_raw": "2026-07-22T09:34:22+01:00",
       "title_source": "url-slug",
@@ -3809,7 +3803,7 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/070/barclays-supports-the-development-of-commercial-fusion-power-in-/",
+      "url": "https://home.barclays/news/press-releases/20260/070/barclays-supports-the-development-of-commercial-fusion-power-in-/",
       "date": "2026-07-21",
       "date_raw": "2026-07-21T11:32:11+01:00",
       "title_source": "url-slug",
@@ -3822,7 +3816,7 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/070/samsung-launches-its-first-credit-card-us/",
+      "url": "https://home.barclays/news/press-releases/20260/070/samsung-launches-its-first-credit-card-us/",
       "date": "2026-07-21",
       "date_raw": "2026-07-21T12:29:49+01:00",
       "title_source": "url-slug",
@@ -3835,7 +3829,7 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/070/consumer-confidence-stabilises-and-spending-grows-1-9-per-cent-i/",
+      "url": "https://home.barclays/news/press-releases/20260/070/consumer-confidence-stabilises-and-spending-grows-1-9-per-cent-i/",
       "date": "2026-07-14",
       "date_raw": "2026-07-14T10:08:15+01:00",
       "title_source": "url-slug",
@@ -3848,7 +3842,7 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.barclayscorporate.com/news/press-releases/20260/070/barclays-appoints-peter-luck-chairman-of-uk-investment-banking/",
+      "url": "https://home.barclays/news/press-releases/20260/070/barclays-appoints-peter-luck-chairman-of-uk-investment-banking/",
       "date": "2026-07-14",
       "date_raw": "2026-07-14T12:00:18+01:00",
       "title_source": "url-slug",
@@ -4394,37 +4388,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
       "date": "2026-09-08",
-      "date_raw": "2026-09-08T05:18:14Z",
+      "date_raw": "2026-09-08T18:11:46Z",
       "title_source": "url-slug",
-      "title": "Trump Tariff Delay Ongoing Outlook Uncertainty",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
-      "date": "2026-09-08",
-      "date_raw": "2026-09-08T05:23:51Z",
-      "title_source": "url-slug",
-      "title": "Global Tariffs",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/insights/themes/digital-assets",
-      "date": "2026-09-08",
-      "date_raw": "2026-09-08T05:20:19Z",
-      "title_source": "url-slug",
-      "title": "Digital Assets",
+      "title": "Thoughts On The Market",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4446,11 +4414,24 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/themes/investment-themes-2025",
+      "url": "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty",
       "date": "2026-09-08",
-      "date_raw": "2026-09-08T05:34:02Z",
+      "date_raw": "2026-09-08T05:18:14Z",
       "title_source": "url-slug",
-      "title": "Investment Themes 2025",
+      "title": "Trump Tariff Delay Ongoing Outlook Uncertainty",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/themes/digital-assets",
+      "date": "2026-09-08",
+      "date_raw": "2026-09-08T05:20:19Z",
+      "title_source": "url-slug",
+      "title": "Digital Assets",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4472,11 +4453,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/investment-opportunities-in-india",
-      "date": "2026-09-07",
-      "date_raw": "2026-09-07T11:58:44Z",
+      "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
+      "date": "2026-09-08",
+      "date_raw": "2026-09-08T05:23:51Z",
       "title_source": "url-slug",
-      "title": "Investment Opportunities In India",
+      "title": "Global Tariffs",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4485,11 +4466,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/this-time-is-different-2024-investing-risks",
-      "date": "2026-09-07",
-      "date_raw": "2026-09-07T12:41:18Z",
+      "url": "https://www.morganstanley.com/insights/themes/investment-themes-2025",
+      "date": "2026-09-08",
+      "date_raw": "2026-09-08T05:34:02Z",
       "title_source": "url-slug",
-      "title": "This Time Is Different 2024 Investing Risks",
+      "title": "Investment Themes 2025",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4498,11 +4479,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/space-economy-investment-themes",
+      "url": "https://www.morganstanley.com/ideas/water-scarcity-causes-and-solutions",
       "date": "2026-09-07",
-      "date_raw": "2026-09-07T12:36:07Z",
+      "date_raw": "2026-09-07T13:22:38Z",
       "title_source": "url-slug",
-      "title": "Space Economy Investment Themes",
+      "title": "Water Scarcity Causes And Solutions",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4511,24 +4492,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/technology-and-inflation-businesses",
+      "url": "https://www.morganstanley.com/ideas/us-tariffs-research-roundtable",
       "date": "2026-09-07",
-      "date_raw": "2026-09-07T12:38:24Z",
+      "date_raw": "2026-09-07T13:15:27Z",
       "title_source": "url-slug",
-      "title": "Technology And Inflation Businesses",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/mid-year-2018-strategy",
-      "date": "2026-09-07",
-      "date_raw": "2026-09-07T12:13:54Z",
-      "title_source": "url-slug",
-      "title": "Mid Year 2018 Strategy",
+      "title": "Us Tariffs Research Roundtable",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4550,6 +4518,32 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
+      "url": "https://www.morganstanley.com/ideas/investing-in-treasury-bonds-Q3-2023",
+      "date": "2026-09-07",
+      "date_raw": "2026-09-07T11:56:17Z",
+      "title_source": "url-slug",
+      "title": "Investing In Treasury Bonds Q3 2023",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/obesity-drugs-investment-opportunity",
+      "date": "2026-09-07",
+      "date_raw": "2026-09-07T12:16:47Z",
+      "title_source": "url-slug",
+      "title": "Obesity Drugs Investment Opportunity",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
       "url": "https://www.morganstanley.com/ideas/media-sector-turnaround",
       "date": "2026-09-07",
       "date_raw": "2026-09-07T12:10:08Z",
@@ -4563,11 +4557,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/global-macro-economy-outlook-2023",
+      "url": "https://www.morganstanley.com/ideas/stocks-on-the-rise-how-long-2023",
       "date": "2026-09-07",
-      "date_raw": "2026-09-07T11:38:53Z",
+      "date_raw": "2026-09-07T12:29:46Z",
       "title_source": "url-slug",
-      "title": "Global Macro Economy Outlook 2023",
+      "title": "Stocks On The Rise How Long 2023",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4576,11 +4570,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/midyear-2017-global-economic-strategy-outlook1",
+      "url": "https://www.morganstanley.com/ideas/this-time-is-different-2024-investing-risks",
       "date": "2026-09-07",
-      "date_raw": "2026-09-07T12:12:03Z",
+      "date_raw": "2026-09-07T12:41:18Z",
       "title_source": "url-slug",
-      "title": "Midyear 2017 Global Economic Strategy Outlook1",
+      "title": "This Time Is Different 2024 Investing Risks",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4589,11 +4583,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/trading-vs-investing-market-rally-q4-2023",
+      "url": "https://www.morganstanley.com/ideas/investment-risk-2023-stock-rally-over",
       "date": "2026-09-07",
-      "date_raw": "2026-09-07T12:47:06Z",
+      "date_raw": "2026-09-07T12:04:04Z",
       "title_source": "url-slug",
-      "title": "Trading Vs Investing Market Rally Q4 2023",
+      "title": "Investment Risk 2023 Stock Rally Over",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4602,11 +4596,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/global-investment-strategy-outlook-2023",
+      "url": "https://www.morganstanley.com/ideas/womens-impact-on-the-economy",
       "date": "2026-09-07",
-      "date_raw": "2026-09-07T11:34:03Z",
+      "date_raw": "2026-09-07T14:20:38Z",
       "title_source": "url-slug",
-      "title": "Global Investment Strategy Outlook 2023",
+      "title": "Womens Impact On The Economy",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4615,11 +4609,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/oil-markets-tighten",
+      "url": "https://www.morganstanley.com/ideas/esg-cryptocurrency-pros-cons",
       "date": "2026-09-07",
-      "date_raw": "2026-09-07T12:18:33Z",
+      "date_raw": "2026-09-07T09:29:14Z",
       "title_source": "url-slug",
-      "title": "Oil Markets Tighten",
+      "title": "Esg Cryptocurrency Pros Cons",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4628,11 +4622,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/global-ecommerce-growth-forecast-2022",
+      "url": "https://www.morganstanley.com/ideas/value-investing-gets-momentum",
       "date": "2026-09-07",
-      "date_raw": "2026-09-07T11:17:23Z",
+      "date_raw": "2026-09-07T13:19:18Z",
       "title_source": "url-slug",
-      "title": "Global Ecommerce Growth Forecast 2022",
+      "title": "Value Investing Gets Momentum",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -13655,6 +13649,356 @@
       "venue": "ACM SIGMOD Record",
       "work_type": "article",
       "cited_by": 1
+    },
+    {
+      "title": "Electroforming‐Free, Self‐Rectifying Selector‐Only Memory With Diffusive Cu‐Ion Dynamics for Logic‐In‐Memory Computing",
+      "url": "https://doi.org/10.1002/advs.77423",
+      "date": "2026-08-25",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Advanced Science",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Triple‐Level Content‐Addressable Vertical NAND Flash Memory",
+      "url": "https://doi.org/10.1002/advs.77390",
+      "date": "2026-08-24",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Advanced Science",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Systematic optimization of low-temperature ALD ZnO thin-film transistors with epoxy interlayer toward monolithic 3D integration",
+      "url": "https://doi.org/10.1016/j.apsusc.2026.168190",
+      "date": "2026-08-22",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Applied Surface Science",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Co-packaged optics for high-performance computing and artificial intelligence",
+      "url": "https://doi.org/10.1038/s41928-026-01681-6",
+      "date": "2026-08-19",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Nature Electronics",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Role of bioactive layer on membrane surface for urea removal in A2O-MBR under varying operating conditions for ultrapure water production",
+      "url": "https://doi.org/10.1016/j.desal.2026.120627",
+      "date": "2026-08-07",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Desalination",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Determining the Relationship Between Composition, Structure, and Device Properties of Ge x Se 1‐x ‐Based Selector‐Only Memory",
+      "url": "https://doi.org/10.1002/aelm.70529",
+      "date": "2026-08-05",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Advanced Electronic Materials",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "NELSSA: A GPU-PNM Heterogeneous System for Mixed-Length LLM Serving via Length-based Request Placement",
+      "url": "https://openalex.org/W7172068543",
+      "date": "2026-07-29",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "arXiv (Cornell University)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
+      "title": "High beta activity tracks disease state in persistent postural-perceptual dizziness: A longitudinal quantitative EEG study",
+      "url": "https://doi.org/10.1177/09574271261471781",
+      "date": "2026-07-26",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Journal of Vestibular Research",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Atomic Layer Deposition of High-Density GeSe Films for Stable Vertical Ovonic Threshold Switching and Selector-Only Memory",
+      "url": "https://doi.org/10.1021/acs.chemmater.6c01199",
+      "date": "2026-07-21",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Chemistry of Materials",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Interpretable Kolmogorov-Arnold Network Using Vertical NAND Flash Memory",
+      "url": "https://doi.org/10.21203/rs.3.rs-10109396/v1",
+      "date": "2026-07-10",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Research Square",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
+      "title": "Flexible oxide-halide perovskite composites with enhanced piezoelectric energy conversion",
+      "url": "https://doi.org/10.1016/j.jmst.2026.07.008",
+      "date": "2026-07-09",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Journal of Material Science and Technology",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "StreamDQ: Near-Memory Weight DeQuantization in Custom HBM for Scalable AI Inference Acceleration",
+      "url": "https://openalex.org/W7168328792",
+      "date": "2026-07-09",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "arXiv (Cornell University)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
+      "title": "Prompt Caching on Flash: Achieving Memory-Class Latency for LLM Inference",
+      "url": "https://doi.org/10.1109/lca.2026.3711675",
+      "date": "2026-07-01",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "IEEE Computer Architecture Letters",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Deep Learning-Based Safety Legislation Recommendation System for Construction Safety Reports",
+      "url": "https://doi.org/10.3390/buildings16122374",
+      "date": "2026-06-14",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Buildings",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Electrochemical Metallization Memristors: From Bulk to 2D Materials",
+      "url": "https://doi.org/10.1002/adfm.76117",
+      "date": "2026-06-12",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Advanced Functional Materials",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Simultaneous Platinum Nanoparticle Refinement and Carbon Support Structural Modification via Intense Pulsed Light Processing for Improved Oxygen Reduction Reaction",
+      "url": "https://doi.org/10.33961/jecst.2026.00192",
+      "date": "2026-06-10",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Journal of Electrochemical Science and Technology",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "ITME: Inference Tiered Memory Expansion with Disaggregated CXL-Hybrid Memories",
+      "url": "https://openalex.org/W7164701415",
+      "date": "2026-06-10",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "arXiv (Cornell University)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
+      "title": "A Memristor‐Based In‐Memory Computing System‐on‐Chip with Efficient Depthwise Convolution",
+      "url": "https://doi.org/10.1002/aisy.202501225",
+      "date": "2026-06-04",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Advanced Intelligent Systems",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Characterization of Multi-Model Agentic AI Systems on General Tasks via Trace-Driven Simulation",
+      "url": "https://openalex.org/W7163594953",
+      "date": "2026-06-01",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "arXiv (Cornell University)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
+      "title": "Analytical circuit modeling of FSS–plasma structures: Analysis on reflection reduction mechanisms",
+      "url": "https://doi.org/10.1063/5.0314180",
+      "date": "2026-06-01",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Physics of Plasmas",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "A2SG:Adaptive and Asymmetric Surrogate Gradients for Training Deep Spiking Neural Networks",
+      "url": "https://openalex.org/W7164615323",
+      "date": "2026-05-29",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "arXiv (Cornell University)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
+      "title": "A semi-transparent strategy for sustainable radiative cooling",
+      "url": "https://doi.org/10.1016/j.nanoen.2026.112064",
+      "date": "2026-05-25",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Nano Energy",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Ising Solver Using Vertical NAND Flash Memory",
+      "url": "https://doi.org/10.1002/aisy.70439",
+      "date": "2026-05-24",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Advanced Intelligent Systems",
+      "work_type": "article",
+      "cited_by": 1
+    },
+    {
+      "title": "Stepwise and selective missing-value imputation for machine learning-based process monitoring and diagnosis of high-speed DRAM peripheral devices",
+      "url": "https://doi.org/10.1016/j.mtelec.2026.100223",
+      "date": "2026-05-14",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Materials Today Electronics",
+      "work_type": "article",
+      "cited_by": 1
+    },
+    {
+      "title": "CMOS-compatible ferroelectric tunnel junctions integrate stochastic sampling and deterministic computing for image generation",
+      "url": "https://doi.org/10.1038/s41467-026-72969-6",
+      "date": "2026-05-08",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Nature Communications",
+      "work_type": "article",
+      "cited_by": 0
     },
     {
       "title": "Real-world effectiveness of early nirmatrelvir/ritonavir initiation after COVID-19 diagnosis in outpatient setting against severe illness, hospitalization, death, and long COVID in N3C",
