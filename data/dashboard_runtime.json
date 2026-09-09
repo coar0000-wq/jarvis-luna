@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T07:43:06.215369+09:00",
+  "generated_at": "2026-09-10T07:45:14.052308+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -30,7 +30,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-10T07:43:01.030189+09:00",
+      "when": "2026-09-10T07:44:01.963129+09:00",
       "summary": "S등급 6개 · 고시표 입력 대기 2건 · 새 자료 47건",
       "action": "다이소 상세페이지 고시 표 2건 캡처 필요",
       "status": "ok",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-10T07:43:01.197190+09:00",
+      "when": "2026-09-10T07:44:04.597816+09:00",
       "summary": "71,450노트 · 282,325링크 · 끊어진 링크 106건 · 개인 노트 16건 별도",
       "action": null,
       "status": "failed",
@@ -285,7 +285,7 @@
     "status": "completed",
     "record_count": 2885,
     "source_counts": {},
-    "updated_at": "2026-09-10T07:43:01.024189+09:00"
+    "updated_at": "2026-09-10T07:44:01.957699+09:00"
   },
   "graph": {
     "notes": 71450,
@@ -298,7 +298,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "failed",
-    "last_generated": "2026-09-10T07:43:01.197190+09:00"
+    "last_generated": "2026-09-10T07:44:04.597816+09:00"
   },
   "training": {
     "status": "completed",
@@ -1397,7 +1397,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 9,
       "trust": "manual",
-      "age_hours": 214.7,
+      "age_hours": 214.8,
       "stale": true
     },
     "walmart_beauty": {
@@ -1407,7 +1407,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 5,
       "trust": "manual",
-      "age_hours": 214.7,
+      "age_hours": 214.8,
       "stale": true
     },
     "oliveyoung_us": {
@@ -1427,7 +1427,7 @@
       "collected_at": "2026-09-09T22:16:39.392804+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.4,
+      "age_hours": 0.5,
       "stale": false
     },
     "wikipedia_interest": {
@@ -1486,7 +1486,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 8,
       "trust": "manual",
-      "age_hours": 214.7,
+      "age_hours": 214.8,
       "stale": true
     },
     "sephora": {
@@ -1496,7 +1496,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 10,
       "trust": "manual",
-      "age_hours": 214.7,
+      "age_hours": 214.8,
       "stale": true
     },
     "open_beauty_facts": {
