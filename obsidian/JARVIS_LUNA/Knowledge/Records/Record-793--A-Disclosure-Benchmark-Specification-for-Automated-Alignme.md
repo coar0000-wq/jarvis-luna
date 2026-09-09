@@ -2,13 +2,13 @@
 title: "Record 793 · A-Disclosure-Benchmark-Specification-for-Automated-Alignment-Research-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T12:07:28.574399+00:00
+updated_at: 2026-09-09T02:52:36.143729+00:00
 tags: [record, real-data]
 ---
 
 # Record 793 · A-Disclosure-Benchmark-Specification-for-Automated-Alignment-Research-
 
-> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.22650960)
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.22179465)
 
 **제목:** A Disclosure Benchmark Specification for Automated Alignment Research — Version 1.2
 

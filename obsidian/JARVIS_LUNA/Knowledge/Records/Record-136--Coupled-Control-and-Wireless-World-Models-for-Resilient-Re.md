@@ -2,7 +2,7 @@
 title: "Record 136 · Coupled-Control-and-Wireless-World-Models-for-Resilient-Remote-Robotic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T22:24:12.355189+00:00
+updated_at: 2026-09-09T02:52:35.981991+00:00
 tags: [record, real-data]
 ---
 

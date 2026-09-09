@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T07:50:03.688597+09:00",
+  "generated_at": "2026-09-09T12:18:59.060313+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -7,13 +7,13 @@
   "summary": {
     "ready_to_list": 0,
     "ready_with_notes": 5,
-    "fix_then_list": 0,
+    "fix_then_list": 1,
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
-      "post_count": 50,
-      "collected_at": "2026-09-08T22:23:10.751705+00:00",
-      "keyword_pool": 42
+      "post_count": 25,
+      "collected_at": "2026-09-09T02:51:51.521267+00:00",
+      "keyword_pool": 40
     }
   },
   "sessions": [
@@ -78,14 +78,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'koreanbeauty', 'skin', 'skincare', 'skinny']",
+          "evidence": "matched=['skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Drop B Firming Glow Ampoule 40ml — beauty · K-beauty",
+          "primary_text": "Drop B Firming Glow Ampoule 40ml — skin · K-beauty",
           "headline": "Drop B Firming Glow Ampoule 40ml",
           "description": "Experience the Drop B Firming Glow Ampoule in a convenient 40ml size designed for your daily skincare routine. Apply gently to the skin to help maintain a radiant and smooth appearance every day.",
           "cta": "Shop now"
@@ -94,7 +94,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [2sizes] ILLIYOON Ceramide Ato Concentra.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -102,17 +102,11 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "koreanbeauty",
           "skin",
-          "skincare",
           "skinny"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "koreanbeauty",
           "skin",
-          "skincare",
           "skinny"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -120,15 +114,12 @@
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "koreanbeauty",
           "skin",
-          "skincare",
           "skinny"
         ],
-        "score": 5,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['beauty', 'koreanbeauty', 'skin', 'skincare', 'skinny']",
+        "evidence": "matched=['skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -139,10 +130,123 @@
       }
     },
     {
+      "pd_no": "1041749",
+      "name": "식물원 병풀 클리어 앰플 30 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 93,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
+      "readiness": "fix_then_list",
+      "checklist": [
+        {
+          "id": "grade_s",
+          "label": "S등급 유지",
+          "status": "pass",
+          "evidence": "grade=S, score=93",
+          "tip": "S가 아니면 1차 등록 보류"
+        },
+        {
+          "id": "margin",
+          "label": "마진 확인",
+          "status": "warn",
+          "evidence": "pricing 미연결",
+          "tip": "pricing_model 재실행"
+        },
+        {
+          "id": "price_band",
+          "label": "권장가",
+          "status": "warn",
+          "evidence": "suggested_price 없음",
+          "tip": "pricing_model 확인"
+        },
+        {
+          "id": "listing_copy",
+          "label": "영문 리스팅 카피",
+          "status": "fail",
+          "evidence": "카피 미생성",
+          "tip": "shopify-listing-copy 워크플로 실행"
+        },
+        {
+          "id": "listing_ready_flag",
+          "label": "등록 준비 플래그",
+          "status": "warn",
+          "evidence": "listing_ready=False",
+          "tip": "카피·이미지 준비되면 true"
+        },
+        {
+          "id": "global_signal",
+          "label": "글로벌 수요 시그널",
+          "status": "pass",
+          "evidence": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 92% · 토큰 ampoule, centella",
+          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
+        },
+        {
+          "id": "social_proof",
+          "label": "국내 리뷰(대리지표)",
+          "status": "pass",
+          "evidence": "review_count=461",
+          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
+        },
+        {
+          "id": "reddit_community",
+          "label": "Reddit 뷰티 커뮤니티 키워드",
+          "status": "pass",
+          "evidence": "matched=['skin', 'skinny']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        }
+      ],
+      "ad_copy_ab": {
+        "variant_a": {
+          "label": "A · 성분/커뮤니티 후킹",
+          "primary_text": "Ampoule Centella — Daiso Find — skin · K-beauty",
+          "headline": "Ampoule Centella — Daiso Find",
+          "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
+          "cta": "Shop now"
+        },
+        "variant_b": {
+          "label": "B · 가성비/가격 후킹",
+          "primary_text": "Ampoule Centella — Daiso Find — Affordable hydrating pick",
+          "headline": "Ampoule Centella — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
+          "cta": "See price"
+        },
+        "suggested_keywords": [
+          "ampoule",
+          "centella",
+          "K-beauty",
+          "glass skin",
+          "hydrating",
+          "skin",
+          "skinny"
+        ],
+        "reddit_keywords_used": [
+          "skin",
+          "skinny"
+        ],
+        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
+        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
+      },
+      "reddit_match": {
+        "matched": [
+          "skin",
+          "skinny"
+        ],
+        "score": 2,
+        "status": "pass",
+        "evidence": "matched=['skin', 'skinny']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+      },
+      "coach_summary": {
+        "pass": 4,
+        "warn": 3,
+        "fail": 1,
+        "next_action": "실패 항목 수정"
+      }
+    },
+    {
       "pd_no": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
       "bucket": "스킨케어",
-      "shopify_score": 92,
+      "shopify_score": 91,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
       "readiness": "ready_with_notes",
       "checklist": [
@@ -150,7 +254,7 @@
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=92",
+          "evidence": "grade=S, score=91",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -199,14 +303,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'koreanbeauty', 'skin', 'skincare', 'skinny']",
+          "evidence": "matched=['one', 'skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Cica Calming Toner 300 ml — beauty · K-beauty",
+          "primary_text": "VT Cica Calming Toner 300 ml — one · K-beauty",
           "headline": "VT Cica Calming Toner 300 ml",
           "description": "Discover the refreshing hydration of VT Cica Calming Toner, formulated in a generous 300 ml size. This soothing toner helps prep your skin daily, leaving it feeling balanced and comfortable.",
           "cta": "Shop now"
@@ -215,7 +319,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Toner — Daiso Find — Affordable hydrating pick",
           "headline": "Toner — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [2sizes] ILLIYOON Ceramide Ato Concentra.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -223,17 +327,13 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "koreanbeauty",
+          "one",
           "skin",
-          "skincare",
           "skinny"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "koreanbeauty",
+          "one",
           "skin",
-          "skincare",
           "skinny"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -241,138 +341,13 @@
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "koreanbeauty",
+          "one",
           "skin",
-          "skincare",
           "skinny"
         ],
-        "score": 5,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'koreanbeauty', 'skin', 'skincare', 'skinny']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-      },
-      "coach_summary": {
-        "pass": 5,
-        "warn": 3,
-        "fail": 0,
-        "next_action": "경고 항목 보완 후 등록"
-      }
-    },
-    {
-      "pd_no": "1062781",
-      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-      "bucket": "스킨케어",
-      "shopify_score": 91,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
-      "readiness": "ready_with_notes",
-      "checklist": [
-        {
-          "id": "grade_s",
-          "label": "S등급 유지",
-          "status": "pass",
-          "evidence": "grade=S, score=91",
-          "tip": "S가 아니면 1차 등록 보류"
-        },
-        {
-          "id": "margin",
-          "label": "마진 확인",
-          "status": "warn",
-          "evidence": "pricing 미연결",
-          "tip": "pricing_model 재실행"
-        },
-        {
-          "id": "price_band",
-          "label": "권장가",
-          "status": "warn",
-          "evidence": "suggested_price 없음",
-          "tip": "pricing_model 확인"
-        },
-        {
-          "id": "listing_copy",
-          "label": "영문 리스팅 카피",
-          "status": "pass",
-          "evidence": "Gemini 카피 있음",
-          "tip": "shopify-listing-copy 워크플로 실행"
-        },
-        {
-          "id": "listing_ready_flag",
-          "label": "등록 준비 플래그",
-          "status": "warn",
-          "evidence": "listing_ready=False",
-          "tip": "카피·이미지 준비되면 true"
-        },
-        {
-          "id": "global_signal",
-          "label": "글로벌 수요 시그널",
-          "status": "pass",
-          "evidence": "글로벌 'PDRN 핑크 콜라겐 볼륨 멀티밤' (ulta_beauty) 유사 100% · 토큰 collagen, pdrn",
-          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
-        },
-        {
-          "id": "social_proof",
-          "label": "국내 리뷰(대리지표)",
-          "status": "pass",
-          "evidence": "review_count=491",
-          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
-        },
-        {
-          "id": "reddit_community",
-          "label": "Reddit 뷰티 커뮤니티 키워드",
-          "status": "pass",
-          "evidence": "matched=['beauty', 'koreanbeauty', 'pdrn', 'skin', 'skincare', 'skinny']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-        }
-      ],
-      "ad_copy_ab": {
-        "variant_a": {
-          "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml — beauty · K-beauty",
-          "headline": "Cell Fusion C Derma Block PDRN Collagen ",
-          "description": "Discover the Cell Fusion C Derma Block PDRN Collagen Cream in a convenient 50 ml size. Formulated with PDRN and collagen, this daily face cream provides essential moisture for your skincare routine. S",
-          "cta": "Shop now"
-        },
-        "variant_b": {
-          "label": "B · 가성비/가격 후킹",
-          "primary_text": "Cream Collagen Pdrn — Daiso Find — Affordable hydrating pick",
-          "headline": "Cream Collagen Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [2sizes] ILLIYOON Ceramide Ato Concentra.",
-          "cta": "See price"
-        },
-        "suggested_keywords": [
-          "cream",
-          "collagen",
-          "PDRN",
-          "K-beauty",
-          "glass skin",
-          "hydrating",
-          "beauty",
-          "koreanbeauty",
-          "pdrn",
-          "skin"
-        ],
-        "reddit_keywords_used": [
-          "beauty",
-          "koreanbeauty",
-          "pdrn",
-          "skin",
-          "skincare"
-        ],
-        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
-        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
-      },
-      "reddit_match": {
-        "matched": [
-          "beauty",
-          "koreanbeauty",
-          "pdrn",
-          "skin",
-          "skincare",
-          "skinny"
-        ],
-        "score": 6,
-        "status": "pass",
-        "evidence": "matched=['beauty', 'koreanbeauty', 'pdrn', 'skin', 'skincare', 'skinny']",
+        "evidence": "matched=['one', 'skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -499,10 +474,124 @@
       }
     },
     {
+      "pd_no": "1062781",
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "bucket": "스킨케어",
+      "shopify_score": 89,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
+      "readiness": "ready_with_notes",
+      "checklist": [
+        {
+          "id": "grade_s",
+          "label": "S등급 유지",
+          "status": "pass",
+          "evidence": "grade=S, score=89",
+          "tip": "S가 아니면 1차 등록 보류"
+        },
+        {
+          "id": "margin",
+          "label": "마진 확인",
+          "status": "warn",
+          "evidence": "pricing 미연결",
+          "tip": "pricing_model 재실행"
+        },
+        {
+          "id": "price_band",
+          "label": "권장가",
+          "status": "warn",
+          "evidence": "suggested_price 없음",
+          "tip": "pricing_model 확인"
+        },
+        {
+          "id": "listing_copy",
+          "label": "영문 리스팅 카피",
+          "status": "pass",
+          "evidence": "Gemini 카피 있음",
+          "tip": "shopify-listing-copy 워크플로 실행"
+        },
+        {
+          "id": "listing_ready_flag",
+          "label": "등록 준비 플래그",
+          "status": "warn",
+          "evidence": "listing_ready=False",
+          "tip": "카피·이미지 준비되면 true"
+        },
+        {
+          "id": "global_signal",
+          "label": "글로벌 수요 시그널",
+          "status": "pass",
+          "evidence": "글로벌 'PDRN 핑크 콜라겐 볼륨 멀티밤' (ulta_beauty) 유사 100% · 토큰 collagen, pdrn",
+          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
+        },
+        {
+          "id": "social_proof",
+          "label": "국내 리뷰(대리지표)",
+          "status": "pass",
+          "evidence": "review_count=491",
+          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
+        },
+        {
+          "id": "reddit_community",
+          "label": "Reddit 뷰티 커뮤니티 키워드",
+          "status": "pass",
+          "evidence": "matched=['skin', 'skinny']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        }
+      ],
+      "ad_copy_ab": {
+        "variant_a": {
+          "label": "A · 성분/커뮤니티 후킹",
+          "primary_text": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml — skin · K-beauty",
+          "headline": "Cell Fusion C Derma Block PDRN Collagen ",
+          "description": "Discover the Cell Fusion C Derma Block PDRN Collagen Cream in a convenient 50 ml size. Formulated with PDRN and collagen, this daily face cream provides essential moisture for your skincare routine. S",
+          "cta": "Shop now"
+        },
+        "variant_b": {
+          "label": "B · 가성비/가격 후킹",
+          "primary_text": "Cream Collagen Pdrn — Daiso Find — Affordable hydrating pick",
+          "headline": "Cream Collagen Pdrn — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
+          "cta": "See price"
+        },
+        "suggested_keywords": [
+          "cream",
+          "collagen",
+          "PDRN",
+          "K-beauty",
+          "glass skin",
+          "hydrating",
+          "skin",
+          "skinny"
+        ],
+        "reddit_keywords_used": [
+          "skin",
+          "skinny"
+        ],
+        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
+        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
+      },
+      "reddit_match": {
+        "matched": [
+          "skin",
+          "skinny"
+        ],
+        "score": 2,
+        "status": "pass",
+        "evidence": "matched=['skin', 'skinny']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+      },
+      "coach_summary": {
+        "pass": 5,
+        "warn": 3,
+        "fail": 0,
+        "next_action": "경고 항목 보완 후 등록"
+      }
+    },
+    {
       "pd_no": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "bucket": "스킨케어",
-      "shopify_score": 85,
+      "shopify_score": 88,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
       "readiness": "ready_with_notes",
       "checklist": [
@@ -510,7 +599,7 @@
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=85",
+          "evidence": "grade=S, score=88",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -559,14 +648,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'koreanbeauty', 'skin', 'skincare', 'skinny']",
+          "evidence": "matched=['one', 'skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml — beauty · K-beauty",
+          "primary_text": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml — one · K-beauty",
           "headline": "Chaebigonggan Heartleaf Extract Vegan To",
           "description": "Discover the refreshing benefits of Chaebigonggan Heartleaf Extract Vegan Toner, formulated with heartleaf extract in a 150 ml size. Incorporating this gentle vegan toner into your daily routine helps",
           "cta": "Shop now"
@@ -575,7 +664,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Toner Heartleaf — Daiso Find — Affordable hydrating pick",
           "headline": "Toner Heartleaf — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [2sizes] ILLIYOON Ceramide Ato Concentra.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -584,17 +673,13 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "koreanbeauty",
+          "one",
           "skin",
-          "skincare",
           "skinny"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "koreanbeauty",
+          "one",
           "skin",
-          "skincare",
           "skinny"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -602,15 +687,13 @@
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "koreanbeauty",
+          "one",
           "skin",
-          "skincare",
           "skinny"
         ],
-        "score": 5,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'koreanbeauty', 'skin', 'skincare', 'skinny']",
+        "evidence": "matched=['one', 'skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {

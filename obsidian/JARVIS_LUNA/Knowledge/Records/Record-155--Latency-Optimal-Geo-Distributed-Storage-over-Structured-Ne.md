@@ -2,7 +2,7 @@
 title: "Record 155 · Latency-Optimal-Geo-Distributed-Storage-over-Structured-Networks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T22:24:12.360545+00:00
+updated_at: 2026-09-09T02:52:35.987828+00:00
 tags: [record, real-data]
 ---
 

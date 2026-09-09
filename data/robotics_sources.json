@@ -1,501 +1,29 @@
 {
-  "generated_at": "2026-09-08T22:20:46.811587+00:00",
+  "generated_at": "2026-09-09T02:49:05.535113+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
-  "total": 88,
+  "total": 40,
   "sources": {
     "arxiv": {
-      "status": "ok",
-      "reason": "",
+      "status": "failed",
+      "reason": "전 카테고리 수집 실패",
       "source": "export.arxiv.org (프로그램 접근 전용 주소)",
       "categories": [
         "cs.RO",
         "eess.SY"
       ],
-      "errors": [],
-      "items": [
+      "errors": [
         {
-          "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
-          "summary": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantically equivalent goal descriptions. We show that current VLM reward models often violate this property. Paraphrasing the instruction alone can substantially change predicted progress scores, and can even",
-          "published": "2026-09-04T17:47:58Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05401v1",
-          "source": "arxiv"
+          "category": "cs.RO",
+          "error": "HTTP 429"
         },
         {
-          "title": "CrossDepth: Geometry-Constrained Attention for Generalizable Multi-View Surround Depth Estimation",
-          "summary": "Reliable 3D understanding of the surrounding environment is a core requirement for autonomous driving. Multi-view surround camera rigs provide broad scene coverage, but the spatially adjacent images typically overlap only minimally. Consequently, the depth of most pixels must be inferred from monocular appearance cues. These cues can appear differently across images and may therefore be interprete",
-          "published": "2026-09-04T17:45:06Z",
-          "primary_category": "cs.CV",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05397v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies",
-          "summary": "Visuomotor imitation policies can achieve high performance under in-distribution visual conditions yet fail when visually similar objects or receptacles are introduced. We study this behavior as a problem of conditional visual grounding: the visual target required for successful control changes with the manipulation phase and, in more complex tasks, with the observed task state. Using Action Chunk",
-          "published": "2026-09-04T17:27:35Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05376v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation",
-          "summary": "Vision-language-action (VLA) models can execute short manipulation skills, but remain brittle in long-horizon procedures requiring persistent task state, dependency-aware reasoning, conditional decisions, and reliable grounding. We investigate a neuro-symbolic framework that combines learned VLA control with explicit task graphs and multimodal procedural memory. Task graphs encode action dependenc",
-          "published": "2026-09-04T17:14:50Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05369v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction",
-          "summary": "Human-robot interaction (HRI) enables intuitive and intelligent collaboration between humans and robots in real-world environments. This paper introduces a humanoid robot prototype designed as a flexible testbed for developing and integrating artificial intelligence (AI) modules in HRI tasks. The system features a 12 degree-of-freedom (DOFs) dual-arm mechanism and a 2 DOFs head with an expressive ",
-          "published": "2026-09-04T17:06:47Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05361v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Adaptation Needs in Robotic Systems: Assessing Behavior Trees and Their Enhancement",
-          "summary": "Robotic systems increasingly operate in dynamic, uncertain, and open-ended environments, where design-time assumptions may no longer hold, and adaptation becomes necessary to maintain effective and safe operation. Behavior Trees (BTs) are widely used in robotic control architectures due to their modularity, readability, and reactivity. This raises a central question: are BTs sufficient to meet the",
-          "published": "2026-09-04T16:36:28Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05331v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
-          "summary": "Achieving robust SLAM in large-scale underground coal mines with complex structures and severe degeneracies remains highly challenging. Dense smoke and dust cause substantial loss of visual information and degrade LiDAR point-cloud features, while long, self-similar corridors induce geometric degeneration, leading to pronounced odometry drift. To address these issues, we propose FIRE-LIVWO: Failur",
-          "published": "2026-09-04T16:19:58Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05325v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
-          "summary": "Vision-Language-Action (VLA) models have shown promising progress in language-conditioned robotic manipulation. However, existing datasets and benchmarks mainly evaluate task completion under predefined settings, offering limited insight into model reasoning under increasing spatial and procedural complexity. We introduce \\textbf{RoboSPA} (\\textbf{Robo}t \\textbf{S}patial-\\textbf{P}rocedural \\textb",
-          "published": "2026-09-04T16:19:01Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05324v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Human-Human & Human-Robot Interaction Transformer (H2INT) for Robot Navigation in Dense and Uncertain Crowds",
-          "summary": "Safe robot navigation in dense crowds requires reasoning about pedestrian motion and how it may change in response to a robot. However, many learning-based approaches generate pedestrian motion independently of the robot or assume uniform reciprocity, omitting an important source of interaction uncertainty. This paper presents a Human-Human & Human-Robot Interaction Transformer (H2INT), a reinforc",
-          "published": "2026-09-04T15:53:56Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05300v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover",
-          "summary": "Reliable robot-to-human handover requires the robot to infer when the person is ready to receive the object, and release it safely, comfortably, and at the right time. This is challenging because visual observations alone may not disambiguate clear taking intent from accidental contact, weak grasping, wrong-direction forces, or transient interactions. In this work we treat human-robot handover as ",
-          "published": "2026-09-04T15:34:47Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05282v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "TacPAC: Tactile Prediction and Real-Time Action Correction in World-Action Models for Contact-Rich Manipulation",
-          "summary": "World-action models guide action generation with predicted future observations, but vision-centric predictions miss the local contact cues that decide contact-rich manipulation. However, naively predicting future tactile observations as additional views recovers only a third of the achievable gain in our experiments. This gap reflects a timing mismatch: predictions precede execution, while tactile",
-          "published": "2026-09-04T15:24:58Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05266v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning",
-          "summary": "Natural-language instruction changes can directly alter robot behavior. A reliable embodied system should preserve its action when the task is unchanged and update it correctly when the task itself changes. We introduce One Word, Different Action, a real-robot benchmark built on physical decision states and executable actions, using task-preserving and task-changing instruction pairs to jointly ev",
-          "published": "2026-09-04T15:21:58Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05260v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Morphology and actuation as inductive biases in robotic hand manipulation",
-          "summary": "Robotic hands vary widely in anatomical fidelity and mechanical complexity, and these structural choices influence the coordination of joint motions and the difficulty of controlling the system. A unified framework is presented in which the kinematic and actuation stages are analysed separately and in composition, through the conditioning of the task Jacobian, the actuation matrix, and their produ",
-          "published": "2026-09-04T14:38:13Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05206v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Risk-Aware Optimal Control with Rulebooks",
-          "summary": "We consider safety-critical control problems involving multiple requirements with different priorities and uncertainty in their evaluation. We represent these requirements using risk-aware rulebooks, where each requirement is assigned a risk measure and an acceptable threshold, and a priority relation is defined among the requirements. Each requirement induces a risk-evaluation function that maps ",
-          "published": "2026-09-04T14:32:12Z",
-          "primary_category": "eess.SY",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05199v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models",
-          "summary": "Vision-Language-Action (VLA) or World Action (WAM) models have recently demonstrated remarkable performance in robotic manipulation. On LIBERO, SOTA method have achieved nearly 100\\% success rates, seemingly suggesting that the models are ready for deployment in real world. However, near perfect performance on existing benchmarks can be misleading: success under ideal conditions does not imply rea",
-          "published": "2026-09-04T14:15:27Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05178v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "APEX-RBD: Mixed-Precision Exploration Framework for Hardware-Efficient Robot Dynamics Accelerator Design",
-          "summary": "Rigid Body Dynamics (RBD) forms the computational core of real-time robotic control, but its immense computational complexity creates a performance bottleneck that necessitates dedicated hardware accelerators. However, the substantial hardware resource and power costs of these accelerators make their deployment on resource-constrained edge platforms highly challenging. While quantization offers a ",
-          "published": "2026-09-04T14:02:44Z",
-          "primary_category": "cs.AR",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05161v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "A Schema Bounded Language Model for Refining Robot Policies Without Destabilizing Local Learning",
-          "summary": "This paper addresses navigation by composite heterogeneous robots in a decentralized system when policy reasoning and local control operate at different update levels. In a NetLogo--Python implementation, three robots share motion dynamics but use different LLM backends. Each robot independently combines a large language model (LLM) policy agent, an Upper Confidence Bound (UCB) bandit, and a Doubl",
-          "published": "2026-09-04T13:35:55Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05133v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "ToPos: Automated Optimal Positioning on Topographic Manifolds using Constrained Geodesic Voronoi Decomposition",
-          "summary": "Reliable autonomous mapping, environmental sampling, last-mile logistics, and infrastructure deployment depend on the optimal surface area-balanced distribution of Spatial Reference Sites (SRS). Conventional 2D Euclidean methods often fail in high-relief environments by neglecting topographic variations and physical obstructions. This leads to significant planimetric distortion, spatial clustering",
-          "published": "2026-09-04T12:38:48Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.05084v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision",
-          "summary": "Recovering camera and hand motion in world coordinates from egocentric video is a key capability for activity understanding, robot learning, and augmented reality. Existing systems typically decompose this problem into separate stages for camera motion, depth, hand reconstruction, and trajectory refinement, resulting in substantial computational overhead and preventing the joint modeling of camera",
-          "published": "2026-09-04T10:05:11Z",
-          "primary_category": "cs.CV",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.04958v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "One Diffusion Model, Two Roles: Guided Trajectory Planning and Safety-Critical Scenario Generation in Closed-Loop Simulation",
-          "summary": "Diffusion probabilistic models can capture the multi-modal, interaction-rich distribution of joint future trajectories in driving scenes. We show that a single pretrained diffusion traffic model can serve two complementary roles in the autonomous driving development loop: as an ego motion planner, and as a controllable generator of safety-critical scenarios for stress-testing the planners. On the ",
-          "published": "2026-09-04T09:22:54Z",
-          "primary_category": "cs.CV",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.04921v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Sound-based Multi-Person 3D Pose Estimation",
-          "summary": "Can we recover the 3D poses of multiple people using only sound? This paper presents the first attempt to estimate multi-person 3D poses solely from acoustic signals. Estimating the poses of multiple individuals using acoustic signals is inherently challenging due to the superposition of motion-dependent signal variations. Unlike single-person scenarios, the presence of multiple subjects leads to ",
-          "published": "2026-09-04T09:02:11Z",
-          "primary_category": "cs.CV",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.04902v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Reasoning Without Inference Cost: Latent Semantic Scaffolding for Robot VLA Policies",
-          "summary": "Vision-language-action (VLA) models are trained by imitation and capture what action to take but not why; adding causal reasoning improves manipulation, but current methods pay for it at inference time - generating reasoning tokens or rolling out predicted future states at every step, a cost that compounds over long horizons. We ask whether this benefit can instead be captured during training and ",
-          "published": "2026-09-04T08:49:31Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.04893v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Coupled Control and Wireless World Models for Resilient Remote Robotic Control",
-          "summary": "Remote robotic systems operating over wireless networks must maintain reliable control despite limited communication resources, changing channel conditions, and environmental disturbances.However, continuously transmitting high-dimensional sensory observations, such as camera images, increases communication overhead and energy consumption while reducing robustness under unreliable connectivity.To ",
-          "published": "2026-09-04T08:09:55Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.04851v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Strict Modes Everywhere - Bringing Order Into Dynamics of Mechanical Systems by a Potential Compatible With the Geodesic Flow",
-          "summary": "Strict nonlinear normal modes provide very regular families of oscillations within conservative mechanical systems. However, a strict normal mode will generally be an isolated curve within the configuration space of the system. In this letter, we design a potential that will densely fill the configuration space with strict normal modes such that each configuration belongs to one mode and each mode",
-          "published": "2026-09-04T07:14:48Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.04817v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "CoLMIN: LLM-based Multi-Decision Path Negotiation for Cooperative Autonomous Driving",
-          "summary": "Multi-vehicle cooperative autonomous driving enhances the safety and reliability of autonomous driving systems through information sharing among connected vehicles, demonstrating significant potential for improving traffic safety. LLM-based approaches leverage strong reasoning capabilities of LLMs to enable effective inter-vehicle negotiation and improve cooperative driving performance. However, d",
-          "published": "2026-09-04T07:03:29Z",
-          "primary_category": "cs.RO",
-          "query_category": "cs.RO",
-          "category_label": "로보틱스",
-          "url": "https://arxiv.org/abs/2609.04807v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Beyond Scalar Flexibility: From Eligible AI Workloads to Dependable Load Relief",
-          "summary": "Grid studies often represent data-center flexibility as a fixed percentage of load, although no public production trace has shown how much eligible load persists across event durations or co-moves across clusters. We reconstruct 4,439 hourly power observations from a 185-day trace of 155,410 GPUs and derive a workload-semantic flexibility envelope. The fleet's time-averaged Monte Carlo median faci",
-          "published": "2026-09-04T17:52:50Z",
-          "primary_category": "eess.SY",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.05406v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Full-field laser-Doppler-vibrometry FRF dataset for a four-bolt aluminum plate under bolt-torque variation",
-          "summary": "The dataset described in this article was constructed using the results of laser Doppler vibrometry experiments conducted on an aluminum plate having four bolts. The database captures the variation in the vibration characteristics of the plate as a function of changes in tightening torque on the bolts. In total, there were 18 different states for the tightening torque, ranging from a situation whe",
-          "published": "2026-09-04T17:28:51Z",
-          "primary_category": "eess.SP",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.05378v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Data-Driven Generator Transient Prediction for Digital Twin Decision Support",
-          "summary": "This paper develops a calibrated transient forecasting surrogate model for generator digital twin (DT) decision support that evaluates planned active- and reactive power load commands before they are applied. The proposed event-conditioned Hankel Dynamic Mode Decomposition with Control (Hankel-DMDc) model combines delay-coordinate lifting, command-event memory features, and an event-weighted Hanke",
-          "published": "2026-09-04T17:02:26Z",
-          "primary_category": "eess.SY",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.05356v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Headroom-Aware Stochastic Adaptive Model Predictive Control for Load Frequency Control in Microgrids",
-          "summary": "As the penetration of inverter-based resources (IBRs) increases in microgrids, they are increasingly expected to play a greater role in load frequency control (LFC). Model predictive control (MPC) is attractive for LFC because it incorporates system dynamics and operational constraints. However, most MPC-based LFC formulations rely on fixed reserve headroom based on forecasted renewable availabili",
-          "published": "2026-09-04T16:36:51Z",
-          "primary_category": "eess.SY",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.05332v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
-          "summary": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and fragmented documentation obstruct their operational use. This systematic review analyses and codes 66 peer-reviewed studies on large language models (LLMs) for HVAC operations published between 2023 and March 2026. Each study is classified across five application ",
-          "published": "2026-09-04T16:08:05Z",
-          "primary_category": "cs.AI",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.05314v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Forecast-Ensemble-Based Active Binary-Threshold Query Design for Interval Data Assimilation",
-          "summary": "Data assimilation estimates the evolving state of a dynamical system by combining model forecasts with observations. While many conventional methods assume point-valued measurements, practical sensing systems may instead provide coarse information such as binary, ordinal, inequality, or interval-valued reports. Interval Data Assimilation (IDA) provides a principled framework for assimilating such ",
-          "published": "2026-09-04T16:01:07Z",
-          "primary_category": "eess.SY",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.05307v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Latency-Optimal Geo-Distributed Storage over Structured Networks",
-          "summary": "We study latency-optimal file assignment in geo-distributed storage systems modeled as weighted graphs, where edge weights represent communication delays and each node stores one (possibly coded) file. Our goal is to minimize the average time required to retrieve an original file, taken uniformly over all nodes and files. We show that for every fixed number of files $k \\geq 3$, computing a latency",
-          "published": "2026-09-04T14:56:08Z",
-          "primary_category": "cs.IT",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.05229v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "On the Concept of an Optimal Portfolio of Uncertain Flexible Loads",
-          "summary": "Flexible loads can enhance power system stability by providing reserves, but their limited energy capacity and uncertain availability distinguish them from conventional generators. To accommodate these characteristics, the Danish Transmission System Operator (TSO) recently introduced new reserve market rules that incorporate energy constraints and relax reliability requirements. In this context, t",
-          "published": "2026-09-04T14:15:03Z",
-          "primary_category": "eess.SY",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.05176v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Context-Enriched Performance Boosting via Operator Decomposition",
-          "summary": "Performance Boosting (PB) is a control framework that, for a pre-stabilized system subject to $\\mathcal L_p$ process disturbances, parametrizes the controllers that preserve closed-loop $\\mathcal L_p$-stability through a causal $\\mathcal L_p$-stable operator mapping reconstructed disturbances to corrective control actions. Although this permits optimization over expressive stability-preserving con",
-          "published": "2026-09-04T13:59:27Z",
-          "primary_category": "eess.SY",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.05158v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Locational Marginal Pricing for Adaptive Robust Look-Ahead Dispatch with Casual Affine Recourse",
-          "summary": "This paper develops a marginal pricing mechanism for adaptive robust look-ahead economic dispatch (LAED) under net-load uncertainty. In current market practice, deterministic multi-interval dispatch can misprice flexibility when forecast error is large. Fully adaptive robust (FAR) dispatch captures this uncertainty, but competing worst-case trajectories can imply different marginal values of deman",
-          "published": "2026-09-04T13:57:56Z",
-          "primary_category": "eess.SY",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.05156v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Regional Frequency Constrained Dispatch Method Considering Spatial-joint Stochastic Disturbances and Contingencies",
-          "summary": "The increasing penetration of renewable energy challenges frequency stability due to high variability and declining inertia. Traditional frequency security constrained dispatch methods fail to capture regional frequency heterogeneity and spatially correlated stochastic disturbances, resulting in inaccurate frequency security enforcement. To address this, a regional frequency constrained dispatch m",
-          "published": "2026-09-04T12:39:35Z",
-          "primary_category": "eess.SY",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.05087v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Robust stabilization with spiking neuronal communication",
-          "summary": "Neuromorphic engineering develops hardware and software systems inspired by biological neurons, with the goal of achieving energy-efficient, low-latency, robust, and adaptive computation, communication and control. Its potential impact on systems and control is significant, as it may enable novel approaches to control and estimation by leveraging brain-inspired computation and communication princi",
-          "published": "2026-09-04T12:16:31Z",
-          "primary_category": "eess.SY",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.05054v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "A Forward Model for Route- and Season-Dependent High-Pressure Compressor Efficiency Deterioration in Turbofan Engines",
-          "summary": "Civil turbofan engines lose compressor efficiency every time they fly through particle-laden air. Fouling of the high-pressure compressor (HPC) is the dominant recoverable performance-loss mechanism. Existing studies treat environmental particle exposure, blade-row deposition and stage-performance deterioration as separate problems, which limits understanding of the issue. Stage-stacking approache",
-          "published": "2026-09-04T11:46:39Z",
-          "primary_category": "eess.SY",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.05029v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Physics-Aware Random Walk Fingerprints for Scalable Power Grid Graph Classification",
-          "summary": "Recent benchmarks such as PowerGraph provide large collections of power-grid graphs for cascading-failure classification. Graph neural networks (GNNs) achieve strong predictive performance on this task, but typically require end-to-end training and model-specific tuning, while their latent representations can be difficult to relate to physically meaningful propagation patterns. Random Walk Fingerp",
-          "published": "2026-09-04T09:52:24Z",
-          "primary_category": "cs.LG",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.04943v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Open-Loop Stackelberg LQ Difference Games with Coupled-Affine Inequality Constraints: An Exact OCP--LCS/LCQP Reformulation",
-          "summary": "In this letter, we study finite-horizon linear-quadratic Stackelberg difference games with coupled-affine state-control inequality constraints. Under the stated assumptions, we show that generalized open-loop Stackelberg equilibria admit an exact reformulation as an optimal control problem subject to a discrete-time linear complementarity system. Eliminating the dynamic variables yields a large-sc",
-          "published": "2026-09-04T09:28:41Z",
-          "primary_category": "math.OC",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.04928v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Policy Iteration for Domain Randomized Linear Quadratic Systems",
-          "summary": "In this work, we study policy optimization under domain randomization for linear quadratic control, focusing on learning a single state-feedback controller that minimizes the average cost across systems with uncertain dynamics. We propose a policy iteration algorithm with a step-size rule that preserves stability across all sampled systems at each iteration. We show that the method yields monotoni",
-          "published": "2026-09-04T06:47:34Z",
-          "primary_category": "math.OC",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.04794v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "On the differential of the exponential map",
-          "summary": "We study the time derivative of the matrix exponential $B(t)=\\mathrm{exp}(A(t))$, where $A(t)$ is a time-parametrized curve in $\\mathrm{Mat}(n)$. Starting from the Taylor series expansion, we derive a nested summation formula, which is then reformulated into a double summation. This expression is converted into an integral representation using Euler's beta function, and further expressed in terms ",
-          "published": "2026-09-04T05:49:17Z",
-          "primary_category": "eess.SY",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.04762v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "SiLR: Structure-Preserving Admission and Process Reward for LLM Tool Agents",
-          "summary": "A runtime gate for an LLM tool agent is usually cast as a filter. In a ReAct loop a rejected proposal is followed by another at the same state, so the gate is a search operator over the proposal stream whose admission criterion shapes which trajectories are reachable. We study post-violation recovery admission, where progress must be admitted while the system is still in violation, and identify th",
-          "published": "2026-09-04T02:03:52Z",
-          "primary_category": "cs.AI",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.04629v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Bayesian thermal digital twin for a space habitat subjected to an impact event",
-          "summary": "Space habitats may experience disruptive events, such as micro-meteorite impacts, that can induce structural damage and thermal anomalies in the interior environment, requiring resilient Environmental Control and Life Support Systems (ECLSS). Digital twins offer a promising paradigm for supporting resilience, onboard decision making, and uncertainty-aware autonomy. However, limited work has develo",
-          "published": "2026-09-04T01:28:25Z",
-          "primary_category": "eess.SY",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.04614v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Integrating Agentic Artificial Intelligence with High-Performance Computing for Grid Planning",
-          "summary": "We present AgentiGrid, an agentic artificial intelligence (AI) framework that integrates large language models (LLMs) intelligence and high-performance computing (HPC) to streamline and accelerate the multi-scenario power flow studies. AgentiGrid is an autonomous decision-making agent that proposes parameter modifications, invokes analyses through HPC analysis toolkit ExaGO, interprets results, an",
-          "published": "2026-09-03T23:03:26Z",
-          "primary_category": "eess.SY",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.04544v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Deep Reinforcement Learning for Optimization of STAR-RIS Phase and Energy Splitting Coefficients in OTFS-NOMA Framework",
-          "summary": "This paper considers a downlink communication framework comprising a simultaneously transmitting and reflecting reconfigurable intelligent surface (STAR-RIS)-aided by orthogonal time frequency space (OTFS) and non-orthogonal multiple access (NOMA) technologies. Further, delay-Doppler mobility in such frameworks renders classical alternating optimization impractical for per-coherence interval recon",
-          "published": "2026-09-03T22:48:59Z",
-          "primary_category": "cs.IT",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.04536v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Estimating the Health and State of Charge of Each Cell in a Second-Life Battery System from Field Data",
-          "summary": "Effective use of battery storage depends on reliable estimation of its state of health (SOH) and state of charge (SOC). Model-based state estimation requires the open-circuit voltage (OCV) curve, which is typically unknown for second-life batteries. We present a framework that jointly estimates the states and parameters of an equivalent circuit model solely from field operation data, using Gaussia",
-          "published": "2026-09-03T21:17:05Z",
-          "primary_category": "eess.SY",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.04487v1",
-          "source": "arxiv"
-        },
-        {
-          "title": "Waves on the Walls: Empirical Characterization of mmWave Lateral Waves for Enhanced Indoor Coverage",
-          "summary": "High-frequency millimeter-wave (mmWave) communication systems are constrained by the surrounding environment, where walls are traditionally treated as obstacles that block or reflect signals indoors. Consequently, current beamforming strategies are tailored to circumvent these obstructions. In this paper, a paradigm shift is introduced that leverages lateral wave propagation along building interfa",
-          "published": "2026-09-03T19:49:23Z",
-          "primary_category": "cs.NI",
-          "query_category": "eess.SY",
-          "category_label": "시스템·제어",
-          "url": "https://arxiv.org/abs/2609.04429v1",
-          "source": "arxiv"
+          "category": "eess.SY",
+          "error": "TimeoutError: The read operation timed out"
         }
-      ]
+      ],
+      "items": []
     },
     "rss": {
       "status": "ok",
@@ -505,7 +33,7 @@
       "items": [
         {
           "title": "This Robot Will Draw Your Blood Now",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-older-silver-haired-woman-seated-at-automated-medical-device-with-a-robotic-arm-drawing-blood.jpg?id=67726417&width=1200&height=800&coordinates=0%2C83%2C0%2C84\"/><br/><br/><p>You sit down and put your arm in the cradle. You press a button. The machine takes it from there.</p><p>A <a href=\"https://spectrum.ieee.org/tag/near-infrared-light\" target",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-older-silver-haired-woman-seated-at-automated-medical-device-with-a-robotic-arm-drawing-blood.jpg?id=67726417&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p>You sit down and put your arm in the cradle. You press a button. The machine takes it from there.</p><p>A <a href=\"https://spectrum.ieee.org/tag/near-infrared-light\" targ",
           "published": "Mon, 07 Sep 2026 13:00:01 +0000",
           "url": "https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta",
           "feed": "IEEE Spectrum Robotics",
@@ -513,7 +41,7 @@
         },
         {
           "title": "Cyborg Roaches Can Stab You With Needles",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/large-brown-cockroach-fitted-with-an-electronic-device-and-wires-on-its-back.jpg?id=67724302&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p>Imagine you are trapped under rubble after an earthquake and you see an electronics-covered cockroach with a spring-loaded needle on its back scuttling toward you. Although the sight might be ",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/large-brown-cockroach-fitted-with-an-electronic-device-and-wires-on-its-back.jpg?id=67724302&width=1245&height=700&coordinates=0%2C62%2C0%2C63\"/><br/><br/><p>Imagine you are trapped under rubble after an earthquake and you see an electronics-covered cockroach with a spring-loaded needle on its back scuttling toward you. Although the sight might be ",
           "published": "Sat, 05 Sep 2026 13:00:04 +0000",
           "url": "https://spectrum.ieee.org/cyborg-rescue-roach",
           "feed": "IEEE Spectrum Robotics",
@@ -521,7 +49,7 @@
         },
         {
           "title": "Video Friday: Digit Redecorates",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-tidies-an-orange-couch-while-a-person-watches-in-a-modern-living-room.gif?id=67725697&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upc",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-tidies-an-orange-couch-while-a-person-watches-in-a-modern-living-room.gif?id=67725697&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcom",
           "published": "Fri, 04 Sep 2026 16:00:05 +0000",
           "url": "https://spectrum.ieee.org/video-friday-agility-robotics-digit",
           "feed": "IEEE Spectrum Robotics",
@@ -529,7 +57,7 @@
         },
         {
           "title": "Protecting Dynamic Industrial Robot Cable Carriers",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/industrial-robotic-arm-with-cable-management-system-and-flexible-energy-chains.jpg?id=67633840&width=1200&height=800&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://tsubaki-kabelschlepp.com/\" target=\"_blank\">Tsubaki KabelSchlepp</a>.</em></p><p>In modern automated manufacturing, six-axis articulated r",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/industrial-robotic-arm-with-cable-management-system-and-flexible-energy-chains.jpg?id=67633840&width=1245&height=700&coordinates=0%2C104%2C0%2C104\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://tsubaki-kabelschlepp.com/\" target=\"_blank\">Tsubaki KabelSchlepp</a>.</em></p><p>In modern automated manufacturing, six-axis articulat",
           "published": "Thu, 03 Sep 2026 12:18:21 +0000",
           "url": "https://spectrum.ieee.org/industrial-robot-cable-carrier-protection",
           "feed": "IEEE Spectrum Robotics",
@@ -537,7 +65,7 @@
         },
         {
           "title": "The Best Way to Explore Lunar Craters Is a Giant Robot Ball",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-gif-of-a-spherical-robot-rolling-over-a-bumpy-path.gif?id=67701776&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p>On a good day, the rock quarry in central Texas is about 370,000 kilometers (230,000 miles) from the moon. But last February, when Rishi Jangale watched his 1.8-meter-wide, 150-kilogram inflatable robot roll effortle",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-gif-of-a-spherical-robot-rolling-over-a-bumpy-path.gif?id=67701776&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p>On a good day, the rock quarry in central Texas is about 370,000 kilometers (230,000 miles) from the moon. But last February, when Rishi Jangale watched his 1.8-meter-wide, 150-kilogram inflatable robot roll effortless",
           "published": "Thu, 03 Sep 2026 12:00:01 +0000",
           "url": "https://spectrum.ieee.org/moon-ball-robot",
           "feed": "IEEE Spectrum Robotics",
@@ -545,7 +73,7 @@
         },
         {
           "title": "Video Friday: Meet Microduck",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/colorful-desk-robots-posed-among-books-beside-an-open-laptop-in-an-office.png?id=67687638&width=1200&height=800&coordinates=241%2C0%2C242%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming rob",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/colorful-desk-robots-posed-among-books-beside-an-open-laptop-in-an-office.png?id=67687638&width=1245&height=700&coordinates=101%2C0%2C101%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming rob",
           "published": "Fri, 28 Aug 2026 16:00:03 +0000",
           "url": "https://spectrum.ieee.org/video-friday-microduck-robot",
           "feed": "IEEE Spectrum Robotics",
@@ -553,7 +81,7 @@
         },
         {
           "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/cute-home-robot-on-carpet-in-cozy-living-room-with-beige-sofa-and-warm-lighting.jpg?id=67154308&width=1200&height=800&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://ollobot.com/\" target=\"_blank\">Ollobot</a>.</em></p><p>From about 2017, individuals began to truly connect with the initial wave of compa",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/cute-home-robot-on-carpet-in-cozy-living-room-with-beige-sofa-and-warm-lighting.jpg?id=67154308&width=1245&height=700&coordinates=0%2C260%2C0%2C261\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://ollobot.com/\" target=\"_blank\">Ollobot</a>.</em></p><p>From about 2017, individuals began to truly connect with the initial wave of c",
           "published": "Tue, 25 Aug 2026 10:00:03 +0000",
           "url": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
           "feed": "IEEE Spectrum Robotics",
@@ -561,7 +89,7 @@
         },
         {
           "title": "Video Friday: Do We Need Superhuman Humanoid Robots?",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-leaps-over-200-centimeter-height-board-beside-person-in-warehouse.png?id=67655329&width=1200&height=800&coordinates=150%2C0%2C150%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcom",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-leaps-over-200-centimeter-height-board-beside-person-in-warehouse.png?id=67655329&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming ",
           "published": "Fri, 21 Aug 2026 16:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-unitree-superhuman",
           "feed": "IEEE Spectrum Robotics",
@@ -569,7 +97,7 @@
         },
         {
           "title": "Drones With Claws Perch on Arctic Icebergs",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-drone-firmly-planted-on-the-steep-slope-of-an-iceberg-after-a-successful-landing.jpg?id=67573301&width=1200&height=800&coordinates=0%2C83%2C0%2C84\"/><br/><br/><p><em><em>This article is part of our exclusive </em></em><a href=\"https://spectrum.ieee.org/collections/journal-watch/\" target=\"_self\"><em><em>IEEE Journal Watch series</em></em></a><em><",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-drone-firmly-planted-on-the-steep-slope-of-an-iceberg-after-a-successful-landing.jpg?id=67573301&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p><em><em>This article is part of our exclusive </em></em><a href=\"https://spectrum.ieee.org/collections/journal-watch/\" target=\"_self\"><em><em>IEEE Journal Watch series</em></em></a><em",
           "published": "Tue, 18 Aug 2026 13:00:01 +0000",
           "url": "https://spectrum.ieee.org/arctic-iceberg-drones",
           "feed": "IEEE Spectrum Robotics",
@@ -577,7 +105,7 @@
         },
         {
           "title": "Is Shipyard Welding the Right First Job for Humanoid Robots?",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-men-supervise-a-humanoid-robot-as-it-completes-a-welding-task-in-an-industrial-warehouse.jpg?id=67626093&width=1200&height=800&coordinates=0%2C83%2C0%2C84\"/><br/><br/><p>Humanoids desperately need to stop making YouTube videos and get a job already, and <a href=\"https://persona.ai/\" rel=\"noopener noreferrer\" target=\"_blank\">Persona AI</a> is on",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-men-supervise-a-humanoid-robot-as-it-completes-a-welding-task-in-an-industrial-warehouse.jpg?id=67626093&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p>Humanoids desperately need to stop making YouTube videos and get a job already, and <a href=\"https://persona.ai/\" rel=\"noopener noreferrer\" target=\"_blank\">Persona AI</a> is ",
           "published": "Mon, 17 Aug 2026 15:33:42 +0000",
           "url": "https://spectrum.ieee.org/persona-ai-humanoid-robot-welding",
           "feed": "IEEE Spectrum Robotics",
@@ -585,7 +113,7 @@
         },
         {
           "title": "Video Friday: Lift Happens",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/drone-crash-on-grassland-engulfed-in-flames-with-thick-black-smoke-rising.png?id=67615846&width=1200&height=800&coordinates=156%2C0%2C156%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming rob",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/drone-crash-on-grassland-engulfed-in-flames-with-thick-black-smoke-rising.png?id=67615846&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming robotic",
           "published": "Fri, 14 Aug 2026 17:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge",
           "feed": "IEEE Spectrum Robotics",
@@ -593,7 +121,7 @@
         },
         {
           "title": "Robot Recycler Salvages Parts From Broken Machines",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&width=1200&height=800&coordinates=156%2C0%2C156%2C0\"/><br/><br/><p>Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacture",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&width=1245&height=700&coordinates=0%2C156%2C0%2C157\"/><br/><br/><p>Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacture",
           "published": "Mon, 10 Aug 2026 18:01:25 +0000",
           "url": "https://spectrum.ieee.org/recycling-robot",
           "feed": "IEEE Spectrum Robotics",
@@ -601,7 +129,7 @@
         },
         {
           "title": "Video Friday: Drones Go Heavy in DARPA Lift Challenge",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/engineers-watch-a-slender-experimental-drone-fly-near-a-large-hangar.jpg?id=67585216&width=1200&height=800&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming robotics eve",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/engineers-watch-a-slender-experimental-drone-fly-near-a-large-hangar.jpg?id=67585216&width=1245&height=700&coordinates=0%2C104%2C0%2C104\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming robotics",
           "published": "Fri, 07 Aug 2026 16:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-heavy-lift-drone",
           "feed": "IEEE Spectrum Robotics",
@@ -609,7 +137,7 @@
         },
         {
           "title": "What Robotics Companies Think About the U.S. Foreign Robot Ban",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/photo-collage-of-humanoid-quadruped-and-unmanned-ground-vehicle-robots.jpg?id=67563239&width=1200&height=800&coordinates=0%2C208%2C0%2C209\"/><br/><br/><p>The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment and services that it says pose a threat to national security. <sp",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/photo-collage-of-humanoid-quadruped-and-unmanned-ground-vehicle-robots.jpg?id=67563239&width=1245&height=700&coordinates=0%2C469%2C0%2C469\"/><br/><br/><p>The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment and services that it says pose a threat to national security. <sp",
           "published": "Tue, 04 Aug 2026 11:00:01 +0000",
           "url": "https://spectrum.ieee.org/fcc-covered-list-mobile-robots",
           "feed": "IEEE Spectrum Robotics",
@@ -617,7 +145,7 @@
         },
         {
           "title": "Walden Robotics Partners With Toyota on Practical Humanoids",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-orange-and-white-robot-using-two-finger-gripper-hands-to-work-with-metal-tool-components.jpg?id=67568024&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p>For a while there, it seemed as though robotics as a whole was stuck in a <a href=\"https://spectrum.ieee.org/top-robotics-stories-2024\" target=\"_self\">mad rush</a> towards",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-orange-and-white-robot-using-two-finger-gripper-hands-to-work-with-metal-tool-components.jpg?id=67568024&width=1245&height=700&coordinates=0%2C62%2C0%2C63\"/><br/><br/><p>For a while there, it seemed as though robotics as a whole was stuck in a <a href=\"https://spectrum.ieee.org/top-robotics-stories-2024\" target=\"_self\">mad rush</a> towards",
           "published": "Mon, 03 Aug 2026 16:05:39 +0000",
           "url": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota",
           "feed": "IEEE Spectrum Robotics",
@@ -625,7 +153,7 @@
         },
         {
           "title": "Video Friday: Meet Google DeepMind’s Gemini Robotics 2",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-and-robotic-arm-labeled-gemini-robotics-er-2-in-a-workshop-setting.webp?id=67560022&width=1200&height=800&coordinates=125%2C0%2C125%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upc",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-and-robotic-arm-labeled-gemini-robotics-er-2-in-a-workshop-setting.webp?id=67560022&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcomin",
           "published": "Fri, 31 Jul 2026 16:00:03 +0000",
           "url": "https://spectrum.ieee.org/video-robot-gemini2-ai-robot",
           "feed": "IEEE Spectrum Robotics",
@@ -633,7 +161,7 @@
         },
         {
           "title": "Robot Finger Feels in Color",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/close-up-of-a-sensor-for-a-robotic-fingertip-and-raised-relief-images-of-a-leaf-and-a-u-s-penny.jpg?id=67542077&width=1200&height=800&coordinates=0%2C83%2C0%2C84\"/><br/><br/><p><span>Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and, ",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/close-up-of-a-sensor-for-a-robotic-fingertip-and-raised-relief-images-of-a-leaf-and-a-u-s-penny.jpg?id=67542077&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p><span>Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and",
           "published": "Tue, 28 Jul 2026 15:00:03 +0000",
           "url": "https://spectrum.ieee.org/robot-finger",
           "feed": "IEEE Spectrum Robotics",
@@ -641,7 +169,7 @@
         },
         {
           "title": "Optical Tech Would Update a Robot’s AI on the Fly",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-asian-man-positions-the-lens-of-an-optical-receiver-a-meter-away-from-a-beam-of-led-light-in-a-lab.jpg?id=67530602&width=1200&height=800&coordinates=0%2C209%2C0%2C209\"/><br/><br/><p>Atop a lab bench, <a href=\"https://tech.cornell.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Cornell Tech</a> postdoctoral researcher <a href=\"https://www.linkedi",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-asian-man-positions-the-lens-of-an-optical-receiver-a-meter-away-from-a-beam-of-led-light-in-a-lab.jpg?id=67530602&width=1245&height=700&coordinates=0%2C469%2C0%2C470\"/><br/><br/><p>Atop a lab bench, <a href=\"https://tech.cornell.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Cornell Tech</a> postdoctoral researcher <a href=\"https://www.linkedi",
           "published": "Sun, 26 Jul 2026 13:00:01 +0000",
           "url": "https://spectrum.ieee.org/ai-in-robotics",
           "feed": "IEEE Spectrum Robotics",
@@ -649,7 +177,7 @@
         },
         {
           "title": "Video Friday: An Italian Humanoid Comes to Life",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-with-red-armor-and-glowing-lights-stands-against-a-dark-background.png?id=67531350&width=1200&height=800&coordinates=150%2C0%2C150%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upco",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-with-red-armor-and-glowing-lights-stands-against-a-dark-background.png?id=67531350&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming",
           "published": "Fri, 24 Jul 2026 15:30:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
           "feed": "IEEE Spectrum Robotics",
@@ -657,7 +185,7 @@
         },
         {
           "title": "This Graduate Student Equips NASA’s Robots With Assembly Skills",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-young-woman-with-blonde-hair-softly-smiling-next-to-a-pair-of-collaborative-robot-arms.jpg?id=67499761&width=1200&height=800&coordinates=156%2C0%2C156%2C0\"/><br/><br/><p>Like many engineers, <a href=\"https://www.linkedin.com/in/sarahdownsprofile\" rel=\"noopener noreferrer\" target=\"_blank\">Sarah Downs</a> says she knew she wanted to pursue a STEM c",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-young-woman-with-blonde-hair-softly-smiling-next-to-a-pair-of-collaborative-robot-arms.jpg?id=67499761&width=1245&height=700&coordinates=0%2C156%2C0%2C157\"/><br/><br/><p>Like many engineers, <a href=\"https://www.linkedin.com/in/sarahdownsprofile\" rel=\"noopener noreferrer\" target=\"_blank\">Sarah Downs</a> says she knew she wanted to pursue a STEM c",
           "published": "Fri, 17 Jul 2026 18:00:01 +0000",
           "url": "https://spectrum.ieee.org/graduate-student-nasas-robots-assembly",
           "feed": "IEEE Spectrum Robotics",
@@ -665,7 +193,7 @@
         },
         {
           "title": "Video Friday: Your Robot Surgeon Will See You Now",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-humanoid-robots-perform-a-surgical-procedure-on-a-patient-in-a-dark-lab.png?id=67494478&width=1200&height=800&coordinates=150%2C0%2C150%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming r",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-humanoid-robots-perform-a-surgical-procedure-on-a-patient-in-a-dark-lab.png?id=67494478&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming robot",
           "published": "Fri, 17 Jul 2026 16:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-robotic-surgery",
           "feed": "IEEE Spectrum Robotics",
@@ -673,7 +201,7 @@
         },
         {
           "title": "How to Make an Invisible Drone",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/low-visibility-drone-flying-in-front-of-an-office-plant.jpg?id=67480624&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p><span>There are many words that I would never, ever use to describe a drone. Stealthy. Subtle. Whatever the opposite of obnoxious is. Much of this is because of the giant angry bee sound that drones tend to make, ",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/low-visibility-drone-flying-in-front-of-an-office-plant.jpg?id=67480624&width=1245&height=700&coordinates=0%2C62%2C0%2C63\"/><br/><br/><p><span>There are many words that I would never, ever use to describe a drone. Stealthy. Subtle. Whatever the opposite of obnoxious is. Much of this is because of the giant angry bee sound that drones tend to make, ",
           "published": "Thu, 16 Jul 2026 16:09:21 +0000",
           "url": "https://spectrum.ieee.org/invisible-spinning-drone",
           "feed": "IEEE Spectrum Robotics",
@@ -681,7 +209,7 @@
         },
         {
           "title": "Building a Foundation Stack for General-Purpose Robots",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-folding-laundry-on-a-neatly-made-bed-in-a-sunlit-bedroom.png?id=67111698&width=1200&height=800&coordinates=115%2C0%2C115%2C0\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://x2robot.com/\" target=\"_blank\">X Square Robot</a>.</em></p><p>Large language models gave artificial intelligence a working recipe. Pretrain a",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-folding-laundry-on-a-neatly-made-bed-in-a-sunlit-bedroom.png?id=67111698&width=1245&height=700&coordinates=4%2C0%2C4%2C0\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://x2robot.com/\" target=\"_blank\">X Square Robot</a>.</em></p><p>Large language models gave artificial intelligence a working recipe. Pretrain a lar",
           "published": "Mon, 13 Jul 2026 10:19:51 +0000",
           "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
           "feed": "IEEE Spectrum Robotics",
@@ -689,7 +217,7 @@
         },
         {
           "title": "Video Friday: A World Cup for Robots",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robots-play-soccer-as-a-ball-flies-toward-the-goal-in-a-tournament-arena.jpg?id=67119515&width=1200&height=800&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span><a href=\"https://spectrum.ieee.org/tag/video-friday\" target=\"_blank\">Video Friday</a> is your weekly selection of <a data-linked-post=\"2677074152\" href=\"https://spectrum.ieee.org/vide",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robots-play-soccer-as-a-ball-flies-toward-the-goal-in-a-tournament-arena.jpg?id=67119515&width=1245&height=700&coordinates=0%2C312%2C0%2C313\"/><br/><br/><p><span><a href=\"https://spectrum.ieee.org/tag/video-friday\" target=\"_blank\">Video Friday</a> is your weekly selection of <a data-linked-post=\"2677074152\" href=\"https://spectrum.ieee.org/",
           "published": "Fri, 10 Jul 2026 16:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-robot-world-cup",
           "feed": "IEEE Spectrum Robotics",
@@ -697,7 +225,7 @@
         },
         {
           "title": "Ground Robots Inherit the Kill Zone",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-unmanned-ground-vehicle-moving-through-a-sparse-forest-landscape.jpg?id=67114838&width=1200&height=800&coordinates=156%2C0%2C156%2C0\"/><br/><br/><p><a href=\"https://itarena.ua/speaker/borys-drozhak/\" rel=\"noopener noreferrer\" target=\"_blank\">Borys Drozhak</a> has a vision: a front line almost free of humans, patrolled by <a href=\"https://spectru",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-unmanned-ground-vehicle-moving-through-a-sparse-forest-landscape.jpg?id=67114838&width=1245&height=700&coordinates=0%2C156%2C0%2C157\"/><br/><br/><p><a href=\"https://itarena.ua/speaker/borys-drozhak/\" rel=\"noopener noreferrer\" target=\"_blank\">Borys Drozhak</a> has a vision: a front line almost free of humans, patrolled by <a href=\"https://spectru",
           "published": "Fri, 10 Jul 2026 11:00:01 +0000",
           "url": "https://spectrum.ieee.org/ukraine-ground-drones",
           "feed": "IEEE Spectrum Robotics",

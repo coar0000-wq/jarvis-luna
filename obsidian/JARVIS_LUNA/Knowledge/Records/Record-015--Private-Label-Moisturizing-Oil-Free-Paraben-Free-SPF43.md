@@ -2,7 +2,7 @@
 title: "Record 015 · Private-Label-Moisturizing-Oil-Free-Paraben-Free-SPF43"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T22:24:12.324692+00:00
+updated_at: 2026-09-09T02:52:35.949191+00:00
 tags: [record, real-data]
 ---
 

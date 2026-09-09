@@ -2,7 +2,7 @@
 title: "Record 141 · Physics-Aware-Random-Walk-Fingerprints-for-Scalable-Power-Grid-Graph-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T22:24:12.356595+00:00
+updated_at: 2026-09-09T02:52:35.983517+00:00
 tags: [record, real-data]
 ---
 

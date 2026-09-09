@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T22:49:56.744079+00:00",
+  "generated_at": "2026-09-09T03:18:51.812912+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "rockies vs yankees",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Tue, 8 Sep 2026 15:10:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=rockies%20vs%20yankees"
+          "keyword": "brewers",
+          "approx_traffic": "20000+",
+          "traffic_num": 20000,
+          "published": "Tue, 8 Sep 2026 19:50:00 -0700",
+          "source_name": "Brew Crew Ball",
+          "url": "https://trends.google.com/trending?geo=US&q=brewers"
         },
         {
-          "keyword": "angels vs red sox",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Tue, 8 Sep 2026 15:00:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=angels%20vs%20red%20sox"
-        },
-        {
-          "keyword": "mets vs marlins",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Tue, 8 Sep 2026 15:00:00 -0700",
-          "source_name": "SNY",
-          "url": "https://trends.google.com/trending?geo=US&q=mets%20vs%20marlins"
-        },
-        {
-          "keyword": "twins vs tigers",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Tue, 8 Sep 2026 15:00:00 -0700",
-          "source_name": "Bless You Boys",
-          "url": "https://trends.google.com/trending?geo=US&q=twins%20vs%20tigers"
-        },
-        {
-          "keyword": "rays vs braves",
+          "keyword": "luis lara",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Tue, 8 Sep 2026 15:20:00 -0700",
-          "source_name": "CBS News",
-          "url": "https://trends.google.com/trending?geo=US&q=rays%20vs%20braves"
+          "published": "Tue, 8 Sep 2026 19:50:00 -0700",
+          "source_name": "AP News",
+          "url": "https://trends.google.com/trending?geo=US&q=luis%20lara"
         },
         {
-          "keyword": "kelly osbourne",
+          "keyword": "will smith",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Tue, 8 Sep 2026 15:00:00 -0700",
-          "source_name": "USA Today",
-          "url": "https://trends.google.com/trending?geo=US&q=kelly%20osbourne"
+          "published": "Tue, 8 Sep 2026 19:50:00 -0700",
+          "source_name": "Variety",
+          "url": "https://trends.google.com/trending?geo=US&q=will%20smith"
         },
         {
-          "keyword": "the young and the restless",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 15:30:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=the%20young%20and%20the%20restless"
+          "keyword": "daycare",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 8 Sep 2026 20:00:00 -0700",
+          "source_name": "WKMG",
+          "url": "https://trends.google.com/trending?geo=US&q=daycare"
         },
         {
-          "keyword": "trump ai posts",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 15:20:00 -0700",
-          "source_name": "ABC News - Breaking News, Latest News and Videos",
-          "url": "https://trends.google.com/trending?geo=US&q=trump%20ai%20posts"
+          "keyword": "childcare",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 8 Sep 2026 20:00:00 -0700",
+          "source_name": "WRIC ABC 8News",
+          "url": "https://trends.google.com/trending?geo=US&q=childcare"
         },
         {
-          "keyword": "fire near me",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 15:10:00 -0700",
-          "source_name": "cbs8.com",
-          "url": "https://trends.google.com/trending?geo=US&q=fire%20near%20me"
+          "keyword": "alfred collins",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 8 Sep 2026 19:50:00 -0700",
+          "source_name": "CBS Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=alfred%20collins"
         },
         {
-          "keyword": "dwts premiere",
+          "keyword": "elly de la cruz",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Tue, 8 Sep 2026 15:10:00 -0700",
-          "source_name": "ABC News - Breaking News, Latest News and Videos",
-          "url": "https://trends.google.com/trending?geo=US&q=dwts%20premiere"
+          "published": "Tue, 8 Sep 2026 20:00:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=elly%20de%20la%20cruz"
+        },
+        {
+          "keyword": "jannik sinner",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 8 Sep 2026 20:00:00 -0700",
+          "source_name": "La Gazzetta dello Sport",
+          "url": "https://trends.google.com/trending?geo=US&q=jannik%20sinner"
+        },
+        {
+          "keyword": "pete buttigieg",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 8 Sep 2026 20:00:00 -0700",
+          "source_name": "The Washington Post",
+          "url": "https://trends.google.com/trending?geo=US&q=pete%20buttigieg"
+        },
+        {
+          "keyword": "jacob webb",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 8 Sep 2026 19:50:00 -0700",
+          "source_name": "Chicago Sun-Times",
+          "url": "https://trends.google.com/trending?geo=US&q=jacob%20webb"
         }
       ]
     },
@@ -96,87 +96,87 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-08 ~ 2026-09-06 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-09 ~ 2026-09-07 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
           "topic": "Snail slime",
           "days": 30,
-          "total_views": 2132,
+          "total_views": 2141,
           "avg_daily": 71,
-          "recent_avg": 77,
+          "recent_avg": 78,
           "prev_avg": 65,
-          "change_pct": 19.1,
+          "change_pct": 20.3,
           "url": "https://en.wikipedia.org/wiki/Snail_slime"
-        },
-        {
-          "topic": "Centella asiatica",
-          "days": 30,
-          "total_views": 14461,
-          "avg_daily": 482,
-          "recent_avg": 502,
-          "prev_avg": 462,
-          "change_pct": 8.8,
-          "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
-        },
-        {
-          "topic": "Niacinamide",
-          "days": 30,
-          "total_views": 1359,
-          "avg_daily": 45,
-          "recent_avg": 46,
-          "prev_avg": 44,
-          "change_pct": 4.7,
-          "url": "https://en.wikipedia.org/wiki/Niacinamide"
         },
         {
           "topic": "Hyaluronic acid",
           "days": 30,
-          "total_views": 17421,
-          "avg_daily": 581,
-          "recent_avg": 592,
-          "prev_avg": 569,
-          "change_pct": 4.1,
+          "total_views": 17676,
+          "avg_daily": 589,
+          "recent_avg": 610,
+          "prev_avg": 568,
+          "change_pct": 7.5,
           "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
+        },
+        {
+          "topic": "Centella asiatica",
+          "days": 30,
+          "total_views": 14587,
+          "avg_daily": 486,
+          "recent_avg": 499,
+          "prev_avg": 474,
+          "change_pct": 5.2,
+          "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
         },
         {
           "topic": "Retinol",
           "days": 30,
-          "total_views": 11476,
+          "total_views": 11478,
           "avg_daily": 383,
-          "recent_avg": 385,
-          "prev_avg": 380,
-          "change_pct": 1.2,
+          "recent_avg": 388,
+          "prev_avg": 377,
+          "change_pct": 3.0,
           "url": "https://en.wikipedia.org/wiki/Retinol"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 4028,
-          "avg_daily": 134,
-          "recent_avg": 134,
-          "prev_avg": 134,
-          "change_pct": -0.2,
+          "total_views": 3873,
+          "avg_daily": 129,
+          "recent_avg": 131,
+          "prev_avg": 127,
+          "change_pct": 2.6,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
+        },
+        {
+          "topic": "Niacinamide",
+          "days": 30,
+          "total_views": 1351,
+          "avg_daily": 45,
+          "recent_avg": 45,
+          "prev_avg": 45,
+          "change_pct": 0.4,
+          "url": "https://en.wikipedia.org/wiki/Niacinamide"
         },
         {
           "topic": "Sunscreen",
           "days": 30,
-          "total_views": 18645,
-          "avg_daily": 622,
-          "recent_avg": 548,
-          "prev_avg": 695,
-          "change_pct": -21.3,
+          "total_views": 18298,
+          "avg_daily": 610,
+          "recent_avg": 544,
+          "prev_avg": 676,
+          "change_pct": -19.5,
           "url": "https://en.wikipedia.org/wiki/Sunscreen"
         },
         {
           "topic": "Cosmetics",
           "days": 30,
-          "total_views": 24090,
-          "avg_daily": 803,
-          "recent_avg": 686,
-          "prev_avg": 920,
-          "change_pct": -25.4,
+          "total_views": 23824,
+          "avg_daily": 794,
+          "recent_avg": 698,
+          "prev_avg": 890,
+          "change_pct": -21.5,
           "url": "https://en.wikipedia.org/wiki/Cosmetics"
         }
       ]

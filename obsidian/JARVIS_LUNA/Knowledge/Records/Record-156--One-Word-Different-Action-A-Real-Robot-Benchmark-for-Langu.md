@@ -2,7 +2,7 @@
 title: "Record 156 · One-Word-Different-Action-A-Real-Robot-Benchmark-for-Language-Conditio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T22:24:12.360813+00:00
+updated_at: 2026-09-09T02:52:35.988152+00:00
 tags: [record, real-data]
 ---
 

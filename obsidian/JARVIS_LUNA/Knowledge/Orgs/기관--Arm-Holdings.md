@@ -2,7 +2,7 @@
 title: "기관 · Arm Holdings"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T22:24:13.081489+00:00
+updated_at: 2026-09-09T02:52:36.777081+00:00
 tags: [org, real-data]
 ---
 
@@ -10,32 +10,32 @@ tags: [org, real-data]
 
 실제 수집 레코드 **25건**이 이 기관에 연결되어 있습니다. (논문 25건)
 
-- [[Record-271--A-verified-durable-transactional-mutex-lock-for-persistent]]
-- [[Record-272--Fast-Verified-Computation-for-HOL-ITPs]]
-- [[Record-280--Echtzeitsoftware-in-zonalen-Controllern]]
-- [[Record-281--Real-time-Software-Enablement-in-Zonal-Controllers]]
-- [[Record-305--GenArchBench-A-genomics-benchmark-suite-for-arm-HPC-proces]]
-- [[Record-350--An-efficient-algorithm-for-disparity-map-compression-based]]
-- [[Record-466--Formal-Specification-and-Verification-of-Architecturally-D]]
-- [[Record-468--Fast-Generation-of-Custom-Floating-Point-Spatial-Filters-o]]
-- [[Record-471--Enabling-ImageNet-Scale-Deep-Learning-on-MCUs-for-Accurate]]
-- [[Record-490--Edge-AIAn-Industry-View]]
-- [[Record-491--Puss-in-Boots-Formalizing-Arms-Virtual-Memory-System-Archi]]
-- [[Record-492--Accounting-for-Workload-Churn-in-Design-Space-Exploration]]
-- [[Record-496--Radix-64-Floating-Point-Division-and-Square-Root-Iterative]]
-- [[Record-497--Fused-FP8-Many-Terms-Dot-Product-With-Scaling-and-FP32-Acc]]
-- [[Record-501--Private-Delegated-Computations-Using-Strong-Isolation]]
-- [[Record-536--Elevating-Security-with-Arm-CCA]]
-- [[Record-537--Mix-Testing-Specifying-and-Testing-ABI-Compatibility-of-CC]]
-- [[Record-538--Decidability-of-Liveness-on-the-TSO-Memory-Model]]
-- [[Record-670--Exploring-Therapists-Experiences-of-an-Educational-Website]]
-- [[Record-674--Hardware-Accelerators-for-Cardiovascular-Signal-Processing]]
-- [[Record-701--On-the-Role-of-Prose-in-Specifications-Invited-Talk]]
-- [[Record-1903--Puss-In-Boots-on-formalising-Arms-Virtual-Memory-System-A]]
-- [[Record-1915--AdaExplore-Failure-Driven-Adaptation-and-Diversity-Preser]]
-- [[Record-1921--I-hope-we-dont-do-to-trust-what-advertising-has-done-to-l]]
-- [[Record-1926--Effective-and-Memory-Efficient-Alternatives-to-ECC-for-Re]]
+- [[Record-281--A-verified-durable-transactional-mutex-lock-for-persistent]]
+- [[Record-282--Fast-Verified-Computation-for-HOL-ITPs]]
+- [[Record-290--Echtzeitsoftware-in-zonalen-Controllern]]
+- [[Record-291--Real-time-Software-Enablement-in-Zonal-Controllers]]
+- [[Record-315--GenArchBench-A-genomics-benchmark-suite-for-arm-HPC-proces]]
+- [[Record-360--An-efficient-algorithm-for-disparity-map-compression-based]]
+- [[Record-476--Formal-Specification-and-Verification-of-Architecturally-D]]
+- [[Record-478--Fast-Generation-of-Custom-Floating-Point-Spatial-Filters-o]]
+- [[Record-481--Enabling-ImageNet-Scale-Deep-Learning-on-MCUs-for-Accurate]]
+- [[Record-500--Edge-AIAn-Industry-View]]
+- [[Record-501--Puss-in-Boots-Formalizing-Arms-Virtual-Memory-System-Archi]]
+- [[Record-502--Accounting-for-Workload-Churn-in-Design-Space-Exploration]]
+- [[Record-506--Radix-64-Floating-Point-Division-and-Square-Root-Iterative]]
+- [[Record-507--Fused-FP8-Many-Terms-Dot-Product-With-Scaling-and-FP32-Acc]]
+- [[Record-511--Private-Delegated-Computations-Using-Strong-Isolation]]
+- [[Record-546--Elevating-Security-with-Arm-CCA]]
+- [[Record-547--Mix-Testing-Specifying-and-Testing-ABI-Compatibility-of-CC]]
+- [[Record-548--Decidability-of-Liveness-on-the-TSO-Memory-Model]]
+- [[Record-680--Exploring-Therapists-Experiences-of-an-Educational-Website]]
+- [[Record-684--Hardware-Accelerators-for-Cardiovascular-Signal-Processing]]
+- [[Record-711--On-the-Role-of-Prose-in-Specifications-Invited-Talk]]
+- [[Record-1927--Puss-In-Boots-on-formalising-Arms-Virtual-Memory-System-A]]
+- [[Record-1939--AdaExplore-Failure-Driven-Adaptation-and-Diversity-Preser]]
+- [[Record-1945--I-hope-we-dont-do-to-trust-what-advertising-has-done-to-l]]
+- [[Record-1950--Effective-and-Memory-Efficient-Alternatives-to-ECC-for-Re]]
 
 ## Connected nodes
 
-[[Record-271--A-verified-durable-transactional-mutex-lock-for-persistent]] [[Record-272--Fast-Verified-Computation-for-HOL-ITPs]] [[Record-280--Echtzeitsoftware-in-zonalen-Controllern]] [[Record-281--Real-time-Software-Enablement-in-Zonal-Controllers]] [[Record-305--GenArchBench-A-genomics-benchmark-suite-for-arm-HPC-proces]] [[Record-350--An-efficient-algorithm-for-disparity-map-compression-based]] [[Record-466--Formal-Specification-and-Verification-of-Architecturally-D]] [[Record-468--Fast-Generation-of-Custom-Floating-Point-Spatial-Filters-o]] [[Record-471--Enabling-ImageNet-Scale-Deep-Learning-on-MCUs-for-Accurate]] [[Record-490--Edge-AIAn-Industry-View]] [[Record-491--Puss-in-Boots-Formalizing-Arms-Virtual-Memory-System-Archi]] [[Record-492--Accounting-for-Workload-Churn-in-Design-Space-Exploration]] [[Record-496--Radix-64-Floating-Point-Division-and-Square-Root-Iterative]] [[Record-497--Fused-FP8-Many-Terms-Dot-Product-With-Scaling-and-FP32-Acc]] [[Record-501--Private-Delegated-Computations-Using-Strong-Isolation]] [[Record-536--Elevating-Security-with-Arm-CCA]] [[Record-537--Mix-Testing-Specifying-and-Testing-ABI-Compatibility-of-CC]] [[Record-538--Decidability-of-Liveness-on-the-TSO-Memory-Model]] [[Record-670--Exploring-Therapists-Experiences-of-an-Educational-Website]] [[Record-674--Hardware-Accelerators-for-Cardiovascular-Signal-Processing]] [[Record-701--On-the-Role-of-Prose-in-Specifications-Invited-Talk]] [[Record-1903--Puss-In-Boots-on-formalising-Arms-Virtual-Memory-System-A]] [[Record-1915--AdaExplore-Failure-Driven-Adaptation-and-Diversity-Preser]] [[Record-1921--I-hope-we-dont-do-to-trust-what-advertising-has-done-to-l]] [[Record-1926--Effective-and-Memory-Efficient-Alternatives-to-ECC-for-Re]] [[마케팅광고]] [[머신러닝-연구]] [[반도체하드웨어]] [[보안프라이버시]] [[의료바이오]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]
+[[Record-281--A-verified-durable-transactional-mutex-lock-for-persistent]] [[Record-282--Fast-Verified-Computation-for-HOL-ITPs]] [[Record-290--Echtzeitsoftware-in-zonalen-Controllern]] [[Record-291--Real-time-Software-Enablement-in-Zonal-Controllers]] [[Record-315--GenArchBench-A-genomics-benchmark-suite-for-arm-HPC-proces]] [[Record-360--An-efficient-algorithm-for-disparity-map-compression-based]] [[Record-476--Formal-Specification-and-Verification-of-Architecturally-D]] [[Record-478--Fast-Generation-of-Custom-Floating-Point-Spatial-Filters-o]] [[Record-481--Enabling-ImageNet-Scale-Deep-Learning-on-MCUs-for-Accurate]] [[Record-500--Edge-AIAn-Industry-View]] [[Record-501--Puss-in-Boots-Formalizing-Arms-Virtual-Memory-System-Archi]] [[Record-502--Accounting-for-Workload-Churn-in-Design-Space-Exploration]] [[Record-506--Radix-64-Floating-Point-Division-and-Square-Root-Iterative]] [[Record-507--Fused-FP8-Many-Terms-Dot-Product-With-Scaling-and-FP32-Acc]] [[Record-511--Private-Delegated-Computations-Using-Strong-Isolation]] [[Record-546--Elevating-Security-with-Arm-CCA]] [[Record-547--Mix-Testing-Specifying-and-Testing-ABI-Compatibility-of-CC]] [[Record-548--Decidability-of-Liveness-on-the-TSO-Memory-Model]] [[Record-680--Exploring-Therapists-Experiences-of-an-Educational-Website]] [[Record-684--Hardware-Accelerators-for-Cardiovascular-Signal-Processing]] [[Record-711--On-the-Role-of-Prose-in-Specifications-Invited-Talk]] [[Record-1927--Puss-In-Boots-on-formalising-Arms-Virtual-Memory-System-A]] [[Record-1939--AdaExplore-Failure-Driven-Adaptation-and-Diversity-Preser]] [[Record-1945--I-hope-we-dont-do-to-trust-what-advertising-has-done-to-l]] [[Record-1950--Effective-and-Memory-Efficient-Alternatives-to-ECC-for-Re]] [[마케팅광고]] [[머신러닝-연구]] [[반도체하드웨어]] [[보안프라이버시]] [[의료바이오]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

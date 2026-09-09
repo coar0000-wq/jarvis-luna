@@ -1,47 +1,47 @@
 {
-  "generated_at": "2026-09-08T22:22:23.454911+00:00",
+  "generated_at": "2026-09-09T02:50:55.483953+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2032,
+  "pool_size": 2042,
   "제목없어_버림": 38,
   "unrouted": 12,
   "summary": {
     "sourcing": {
-      "total": 194,
-      "recent": 193
+      "total": 204,
+      "recent": 203
     },
     "market": {
-      "total": 426,
-      "recent": 46
+      "total": 425,
+      "recent": 44
     },
     "listing": {
-      "total": 15,
-      "recent": 12
+      "total": 14,
+      "recent": 10
     },
     "pricing": {
       "total": 12,
       "recent": 4
     },
     "legal": {
-      "total": 121,
-      "recent": 27
+      "total": 115,
+      "recent": 22
     },
     "design": {
-      "total": 358,
-      "recent": 104
+      "total": 351,
+      "recent": 97
     },
     "robotics": {
-      "total": 106,
-      "recent": 75
+      "total": 107,
+      "recent": 74
     },
     "knowledge": {
-      "total": 164,
-      "recent": 54
+      "total": 163,
+      "recent": 53
     },
     "institutions": {
-      "total": 1066,
-      "recent": 278
+      "total": 1065,
+      "recent": 270
     }
   },
   "fda_failures": [],
@@ -587,6 +587,20 @@
         "by_hand": false
       },
       {
+        "title": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - shopping.yahoo.com",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWDhHZXdJUDRjOTRTZ01GNmc0UTdpSFB5QVdTVWxTM25ERVBfX0FKOEpjVXh4OERnU3NtMWJSOUpnSFA1Qkh0THI3MTFscmQtLS00U3c2SGxTN0FkdjdWYWhOMGFiX0RuSG1mQnVOd29wRXRUemRpM09NX1VOZlNxWTlqcWVMSXJzS3cxWDc3Yw?oc=5",
+        "pool": "google",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - Korea JoongAng Daily",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDhGOE5GQWVncngtaGZBcVkzT0pGcjB4V3dHLUNMMjNoMGJVcjIzWDRjWDJGS3JWWjZ1N1dkN2dfSWpabktCMzd0bXEyNU9TYmtUMUk0VDZlVktNMjh6aER3cTZmdDFnWS1EN1RvOUJDMlNlY0huVlROa0tCUF9RMXNOaGZ5R0NvNEd0UWFjRVhsSmpXZ053WEpfN01zaUNOZExHMm5zLU5OckVKUEktMm5UUTBwT2VyV2dKZUJWNmUtT2xBSklwTHFwN1pzcXVj?oc=5",
+        "pool": "google",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
         "title": "mixsoon Joins Target Beauty Studio, Bringing pure ingredients skincare philosophy to Target Guests Nationwide - PR Newswire",
         "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcVVwbEh2aWc5U0p4MU0xQmgzTUJNY1dYd3AyQ3F6TEtCR3d4Y2d3Yk5DWm90YnYtaVRmUDNSeEw2b25ySFFiejJMWm4zODJBTDNWU2tpamFHX25kRWRSOTBNSFp0VWFRLUMzdnZIdzRldXo0NVNRNEdOZE5QelpJcTUyemdQaE5XR083YUwxVDNKR3VvSm85ZFg1WEswaTRyeldXVUpLTG5iVlNvUUVmdWVPZkVnNnB3TlZScm5lb29aZThpOXJEQTZqNjZ1Z0xBMGVjVXBDUXM1Q0RhNzd0M19XeFhnZDl4SVFjRmUyTUFhZUoyc0c4?oc=5",
         "pool": "google",
@@ -594,15 +608,15 @@
         "by_hand": false
       },
       {
-        "title": "I'd Pay Double For This K-Beauty Product That's Working Wonders On My Neck Lines - HuffPost",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM3VWZjc2RlRMajZ5MlJUdXp0NjlXb2tpUXdqcklNRzdyWlpXdmZObjFzWGNZVEtGekdtM05mcGxHM19KczUtN00yU0x4NlRMVzhYWWRVLXowR2I4dDgxZXlIWFpNNXVlRjFPWlI1ODUxVXlSUEdYT1ZTeWVWNzd4SlhxdkdHYzdwVHB4N3BLSzRMYUtk0gGaAUFVX3lxTFB2eGlDdHI1bG92Qkc1cUNleVo0SG16OFdtenVLY3o5b1ZldzY3aFY4czdhNVNEOU9NQWFQcFdqajF5U2lockQycm8yNGtjLVZxTm9hYjFBcjdodVlldGRLQ2hYamFXXzh1bnBxdnVfOTVwamYwMTFILUozU1VRcmR3QUpGS0NORkdKVEJVbXM0NTVpTkp2OGF6SlE?oc=5",
+        "title": "Meiyume bets on longevity, skinification and alcohol-free fragrance for AW26 - premiumbeautynews.com",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE96OUx6TTNFcG9QZkhGOXQwYVlhS1Y2bjV2MlpURUhTXzVkTTBjOGh1ejJpYUlwamFXOTFtWFNoSnY4ZjJ6RXFhZm1Ca1RhdDNEbTBYdl9SVzZmcWJlb3ZXYUZJc1pwT0ZPQ2pNV2ltZGdvOE1KLV9Z?oc=5",
         "pool": "google",
         "date": "2026-09-08",
         "by_hand": false
       },
       {
-        "title": "Meiyume bets on longevity, skinification and alcohol-free fragrance for AW26 - Premium Beauty News",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE96OUx6TTNFcG9QZkhGOXQwYVlhS1Y2bjV2MlpURUhTXzVkTTBjOGh1ejJpYUlwamFXOTFtWFNoSnY4ZjJ6RXFhZm1Ca1RhdDNEbTBYdl9SVzZmcWJlb3ZXYUZJc1pwT0ZPQ2pNV2ltZGdvOE1KLV9Z?oc=5",
+        "title": "I'd Pay Double For This K-Beauty Product That's Working Wonders On My Neck Lines - shopping.yahoo.com",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeThXYVNQSHQ4S0JoNnFEcnJ6RHdMNkZVc3JRdGJYbDRJeTczaG0wYmxLMnZlMEU2eVRJUE9SbWdudzJySV9pODdZV0txUzJrZ3ZRX1VZUDQ0Y2F4NTFmd01wNXB6c0RFVldzQzE5bTlpSUZyc0Rxb09OdEVFSjFfT3l2STBRREpYMkNGbXB6NDdXcnM?oc=5",
         "pool": "google",
         "date": "2026-09-08",
         "by_hand": false
@@ -678,20 +692,6 @@
         "by_hand": false
       },
       {
-        "title": "PURESEOUL Launches K-Beauty Mini Mart at Primark - TheIndustry.beauty",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeTVMZGFVT2VuRUZlNG5nWU02SGExVWxmQUwyWEYtMnhaYUVjSUotWFQzemRrQVUyMTY1Y2FoYjhISzVuSWVnOHNwTVpOMTRlQ0hycXZYX29kcTg5TGtXOTdIbDVwaFlVaURpR2x5S2hsOEctanBOWVJMQ3htZ21Fb1NVWnNZVDVqcTN2d19Qb3NELU5QX2t3TFZwQVVubllyb3cxSF9ldTU3dw?oc=5",
-        "pool": "google",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "Here’s What This Surprising Skincare Ingredient Can Actually Do For Aging Skin - HuffPost",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQVZfNG04UUlKSmg2Z2UxcjZZZFpiejN0SkduNGxNdm9JemJMMklLSjM0M2p2bE04VGJyVFBrcWQ5cjZmaXRVOEF5YnNzajQ3SzgtdkJYMlViYUZsVEZEdm5pbmhncTd6blNubjRXdkU5emZ6YUtnYk9aZW1NYmJJMzhJaUUyU2R20gGOAUFVX3lxTE5SQ0pOeVZyNzJSM3ZHLWhtLXJRdUxuNnRDa0cxUUhGOHU1a2s3dmF1REsxU2tWV1ZTNWU1aGM1VzVkRTJQcG1WTDlEWTBzbUlJOWFKSGxFOTFITW9yS0JWOFNWQWwtQ3BfUXByTjdDVjMzbzJUNnU0MjlZUjViLUtGZTNVbUFuV3ZhYjh1M2c?oc=5",
-        "pool": "google",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
         "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - Shopify",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Fb3JFd2Rkb0RHMUZ5YXpmb0pDS2Q1cVhFdmRQbHJ0OHBLcnU0Qm5ZeXdmbGFHdDZOaTdKSUJTTHdPb2VOV2FjOTk1WXduVlJyWjFkbTBjYw?oc=5",
         "pool": "google",
@@ -720,7 +720,7 @@
         "by_hand": false
       },
       {
-        "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
+        "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - ask-luca.com",
         "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5",
         "pool": "google",
         "date": "2026-09-03",
@@ -741,7 +741,7 @@
         "by_hand": false
       },
       {
-        "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - Yahoo",
+        "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - shopping.yahoo.com",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUTUzUEwwYzIteVlTcng5Zl9GT3hfTElLcWRGTGVXN09lT01icWhVamUwS1BlREI0YmJCTmdDaW9iRVlKQ0hVOGZ2TTFHY2RhdTFaS3UwelgtT3gxeXY3RnBrTE9RTXRySjFDa3BFWVdMSXo4bTRhdFA2QjB4T2EzNUZuRlBUVFJqQjhtS3RLTko5WGJBbmJseEh3?oc=5",
         "pool": "google",
         "date": "2026-09-02",
@@ -769,7 +769,7 @@
         "by_hand": false
       },
       {
-        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - Teen Vogue",
+        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - teenvogue.com",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OdzQ0OXlSbWVrOW1FUXdtSURIcjVsZnJhNEFleWtxZnRjcDdESjdFZlBXUVR0eEM0Tzg2NDN2M2tqU0pEaXd6TTZBOE5yRkVZR2ZBQU1DNWp1RTlxN2V6UHNHUUFJb28?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -797,7 +797,7 @@
         "by_hand": false
       },
       {
-        "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - Eastern Progress",
+        "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - easternprogress.com",
         "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOVkyMlJwUEdQeGlvdlhURGpYdXJyY1hoWmVWai16TFFhckI2MmR1OFdBd1BCOXNPM1lOYTFmT0J2UExSRGFmbklVRUtsazJhajZZUHh2eTZyNG5mTUc1US16WF9oYzZfWjB5Y3ZIR0UtazJjcXFHb21XdFJ3ZjJUQ2VBWDVoTHE5SkYwUW9raVA5ZHBhcmF0cmNtOENtRXNsR09aYmhuVTU5NHBRdnd0c2pSX1ZndDR0YUE0Q0RTUTAyRllwQzhwZXlLZFRrOHNEclN1MjV0NEdrQQ?oc=5",
         "pool": "google",
         "date": "2026-08-28",
@@ -960,13 +960,6 @@
         "by_hand": false
       },
       {
-        "title": "PURESEOUL Launches K-Beauty Mini Mart at Primark - TheIndustry.beauty",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeTVMZGFVT2VuRUZlNG5nWU02SGExVWxmQUwyWEYtMnhaYUVjSUotWFQzemRrQVUyMTY1Y2FoYjhISzVuSWVnOHNwTVpOMTRlQ0hycXZYX29kcTg5TGtXOTdIbDVwaFlVaURpR2x5S2hsOEctanBOWVJMQ3htZ21Fb1NVWnNZVDVqcTN2d19Qb3NELU5QX2t3TFZwQVVubllyb3cxSF9ldTU3dw?oc=5",
-        "pool": "google",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
         "title": "Samsung Presents ‘Design Is an Act of Love’ at Design Miami Seoul 2026",
         "url": "https://news.samsung.com/global/samsung-presents-design-is-an-act-of-love-at-design-miami-seoul-2026",
         "pool": "institutions",
@@ -988,7 +981,7 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - Premium Beauty News",
+        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - premiumbeautynews.com",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5",
         "pool": "google",
         "date": "2026-06-06",
@@ -1185,13 +1178,6 @@
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/frutas-y-hortalizas-del-sur-sa-expands-recall-include-one-lot-great-value-frozen-organic-triple",
         "pool": "fda",
         "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
-        "title": "How the FDA is building a secure, AI-ready data foundation on Databricks for Government",
-        "url": "https://www.databricks.com/blog/how-fda-building-secure-ai-ready-data-foundation-databricks-government",
-        "pool": "institutions",
-        "date": "2026-09-01",
         "by_hand": false
       },
       {
@@ -1508,6 +1494,13 @@
         "pool": "us_beauty",
         "date": "",
         "by_hand": false
+      },
+      {
+        "title": "FOREVER SKIN GLOW 24h wear radiant foundation Perfection and hydration Concentrated floral skincare with suncreen Broad spectrum SPF 15 00",
+        "url": "https://api.fda.gov/drug/label.json?search=id:1f013e61-f171-2ae2-e063-6294a90adcf1",
+        "pool": "us_beauty",
+        "date": "",
+        "by_hand": false
       }
     ],
     "design": [
@@ -1743,6 +1736,13 @@
         "by_hand": true
       },
       {
+        "title": "1Password increases engineering productivity 21% with Codex",
+        "url": "https://openai.com/index/1password",
+        "pool": "institutions",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
         "title": "Samsung Electronics and ASML Expand Strategic Collaboration for Next-Generation Semiconductor Manufacturing",
         "url": "https://news.samsung.com/global/samsung-electronics-and-asml-expand-strategic-collaboration-for-next-generation-semiconductor-manufacturing",
         "pool": "institutions",
@@ -1923,20 +1923,34 @@
         "pool": "robotics",
         "date": "2026-09-04",
         "by_hand": false
-      },
-      {
-        "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
-        "url": "https://arxiv.org/abs/2609.05314v1",
-        "pool": "robotics",
-        "date": "2026-09-04",
-        "by_hand": false
       }
     ],
     "robotics": [
       {
+        "title": "Boston Dynamics veterans launch Dynamic Creatures to bring characters to life with robotics",
+        "url": "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/",
+        "pool": "robotics",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "AI can’t outrun a humanoid’s hardware",
+        "url": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/",
+        "pool": "robotics",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
         "title": "Why vision AI is the safety backbone of the automated job site",
         "url": "https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/",
         "pool": "robotics",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+        "url": "https://openai.com/index/codex-quantum-computing-experiments",
+        "pool": "institutions",
         "date": "2026-09-08",
         "by_hand": false
       },
@@ -2331,27 +2345,6 @@
         "pool": "robotics",
         "date": "2026-09-04",
         "by_hand": false
-      },
-      {
-        "title": "Lyte raises $165M to help robots better sense their surroundings",
-        "url": "https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/",
-        "pool": "robotics",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "Robot.com partners with Sodexo to roll out more sidewalk delivery robots",
-        "url": "https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/",
-        "pool": "robotics",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "Integrating Agentic Artificial Intelligence with High-Performance Computing for Grid Planning",
-        "url": "https://arxiv.org/abs/2609.04544v1",
-        "pool": "robotics",
-        "date": "2026-09-03",
-        "by_hand": false
       }
     ],
     "knowledge": [
@@ -2430,6 +2423,13 @@
         "url": "https://changelog.shopify.com/posts/meta-is-now-an-ai-channel-in-your-admin",
         "pool": "design_refs",
         "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "The 40-year-old database rule agents just broke: How LTAP unifies OLTP and OLAP workloads",
+        "url": "https://www.databricks.com/blog/40-year-old-database-rule-agents-just-broke-how-ltap-unifies-oltp-and-olap-workloads",
+        "pool": "institutions",
+        "date": "2026-09-07",
         "by_hand": false
       },
       {
@@ -2664,13 +2664,6 @@
         "by_hand": false
       },
       {
-        "title": "Announcing the Databricks Big Book of AgentOps",
-        "url": "https://www.databricks.com/blog/announcing-databricks-big-book-agentops",
-        "pool": "institutions",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
         "title": "How River takes security work from a fix to merge",
         "url": "https://shopify.engineering/river-vulnerability-remediation",
         "pool": "design_refs",
@@ -2799,6 +2792,13 @@
         "by_hand": false
       },
       {
+        "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+        "url": "https://openai.com/index/codex-quantum-computing-experiments",
+        "pool": "institutions",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
         "title": "The Work Now Within Reach",
         "url": "https://openai.com/index/the-work-now-within-reach",
         "pool": "institutions",
@@ -2834,6 +2834,13 @@
         "by_hand": false
       },
       {
+        "title": "1Password increases engineering productivity 21% with Codex",
+        "url": "https://openai.com/index/1password",
+        "pool": "institutions",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
         "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
         "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
         "pool": "institutions",
@@ -2850,6 +2857,13 @@
       {
         "title": "Samsung Electronics and ASML Expand Strategic Collaboration for Next-Generation Semiconductor Manufacturing",
         "url": "https://news.samsung.com/global/samsung-electronics-and-asml-expand-strategic-collaboration-for-next-generation-semiconductor-manufacturing",
+        "pool": "institutions",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "SQL Data Types: Reference and Best Practices",
+        "url": "https://www.databricks.com/blog/sql-data-types",
         "pool": "institutions",
         "date": "2026-09-08",
         "by_hand": false
@@ -2946,6 +2960,34 @@
         "by_hand": false
       },
       {
+        "title": "Assessing A Less Transparent Fed",
+        "url": "https://www.goldmansachs.com/insights/top-of-mind/assessing-a-less-transparent-fed",
+        "pool": "institutions",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "Philippines Treasury Transformation Mkdg",
+        "url": "https://www.jpmorgan.com/insights/treasury/treasury-management/philippines-treasury-transformation-mkdg",
+        "pool": "institutions",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "How Is Automation Shaping Emerging Markets",
+        "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/how-is-automation-shaping-emerging-markets",
+        "pool": "institutions",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "Healthcare Working Capital Solutions",
+        "url": "https://www.jpmorgan.com/insights/treasury/trade-working-capital/healthcare-working-capital-solutions",
+        "pool": "institutions",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
         "title": "Supporting independent journalism in Ukraine",
         "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
         "pool": "institutions",
@@ -2969,6 +3011,13 @@
       {
         "title": "Samsung Enhances Long-Term Value of Refrigerators and Laundry Appliances With AI-Focused Software Updates",
         "url": "https://news.samsung.com/global/samsung-enhances-long-term-value-of-refrigerators-and-laundry-appliances-with-ai-focused-software-updates",
+        "pool": "institutions",
+        "date": "2026-09-07",
+        "by_hand": false
+      },
+      {
+        "title": "The 40-year-old database rule agents just broke: How LTAP unifies OLTP and OLAP workloads",
+        "url": "https://www.databricks.com/blog/40-year-old-database-rule-agents-just-broke-how-ltap-unifies-oltp-and-olap-workloads",
         "pool": "institutions",
         "date": "2026-09-07",
         "by_hand": false
@@ -3139,62 +3188,6 @@
         "url": "https://www.morganstanley.com/ideas/stock-market-rally-2023-reasons-for-caution",
         "pool": "institutions",
         "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "Introducing relative pollen productivity estimates for Iberian taxa: methodological insights and implications for landscape modelling in the Western Mediterranean",
-        "url": "https://doi.org/10.5194/bg-23-6119-2026",
-        "pool": "institutions",
-        "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "NEXUS: Speeding Up the Next Wave of AI Workloads, GNN and SSM Optimization on NPUs",
-        "url": "https://doi.org/10.1145/3846378",
-        "pool": "institutions",
-        "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "A Disclosure Benchmark Specification for Automated Alignment Research — Version 1.2",
-        "url": "https://doi.org/10.5281/zenodo.22179465",
-        "pool": "institutions",
-        "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "A Disclosure Benchmark Specification for Automated Alignment Research — Version 1.2",
-        "url": "https://doi.org/10.5281/zenodo.22650960",
-        "pool": "institutions",
-        "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "Earth Mother Geothermal Solution: Closed-loop & Mineralization Architecture for High-Acidity Volcanic Andesite Geothermal Resources",
-        "url": "https://doi.org/10.5281/zenodo.22646578",
-        "pool": "institutions",
-        "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "Causal evidence that language models use confidence to drive behaviour",
-        "url": "https://doi.org/10.1038/s42256-026-01293-x",
-        "pool": "institutions",
-        "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "Earth Mother Geothermal Solution: Closed-loop & Mineralization Architecture for High-Acidity Volcanic Andesite Geothermal Resources",
-        "url": "https://doi.org/10.5281/zenodo.22646577",
-        "pool": "institutions",
-        "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "An Alien Mind",
-        "url": "https://openai.com/index/an-alien-mind",
-        "pool": "institutions",
-        "date": "2026-09-06",
         "by_hand": false
       }
     ]

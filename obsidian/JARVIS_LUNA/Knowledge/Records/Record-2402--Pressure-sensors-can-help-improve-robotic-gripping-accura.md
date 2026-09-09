@@ -1,0 +1,22 @@
+---
+title: "Record 2402 · Pressure-sensors-can-help-improve-robotic-gripping-accuracy"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-09T02:52:36.540202+00:00
+tags: [record, real-data]
+---
+
+# Record 2402 · Pressure-sensors-can-help-improve-robotic-gripping-accuracy
+
+> 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/)
+
+**제목:** Pressure sensors can help improve robotic gripping accuracy
+
+Pressure sensors can help improve robotic gripping accuracy
+<p>From first contact through surface deformation, load distribution, and final stable hold, pressure sensors can improve robotic bin picking.</p> <p>The post <a href="https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/">Pressure sensors can help improve robotic gripping accuracy</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report
+
+**출처:** Source · robotics
+
+## Connected nodes
+
+[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]
