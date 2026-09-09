@@ -1,92 +1,62 @@
 {
   "last_run": {
-    "started_at": "2026-09-08T21:54:40.008086+00:00",
+    "started_at": "2026-09-09T21:44:24.603293+00:00",
     "requested": 110,
-    "ok": 10,
-    "parse_failed": 13,
+    "ok": 12,
+    "parse_failed": 7,
     "http_error": 0,
     "sold_out": 0,
     "parse_fail_reasons": {
-      "가격 없음": 13
+      "가격 없음": 7
     },
     "parse_fail_samples": [
       {
-        "pd_no": "1038044",
+        "pd_no": "1069432",
         "reason": "가격 없음",
         "og_title": "다이소몰",
         "sold_out": false
       },
       {
-        "pd_no": "1037509",
+        "pd_no": "1058806",
         "reason": "가격 없음",
         "og_title": "다이소몰",
         "sold_out": false
       },
       {
-        "pd_no": "1063854",
+        "pd_no": "30493",
         "reason": "가격 없음",
         "og_title": "다이소몰",
         "sold_out": false
       },
       {
-        "pd_no": "1011003",
+        "pd_no": "1065883",
         "reason": "가격 없음",
         "og_title": "다이소몰",
         "sold_out": false
       },
       {
-        "pd_no": "1051575",
+        "pd_no": "1072035",
         "reason": "가격 없음",
         "og_title": "다이소몰",
         "sold_out": false
       },
       {
-        "pd_no": "1061572",
+        "pd_no": "10346312",
         "reason": "가격 없음",
         "og_title": "다이소몰",
         "sold_out": false
       },
       {
-        "pd_no": "1071830",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "1045176",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "1051697",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "1062580",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "1047739",
-        "reason": "가격 없음",
-        "og_title": "다이소몰",
-        "sold_out": false
-      },
-      {
-        "pd_no": "77503",
+        "pd_no": "1057256",
         "reason": "가격 없음",
         "og_title": "다이소몰",
         "sold_out": false
       }
     ],
-    "skipped_not_beauty": 74,
-    "skipped_bucket_full": 12,
+    "skipped_not_beauty": 73,
+    "skipped_bucket_full": 14,
     "skipped_excluded": {
-      "네일": 1
+      "네일": 4
     },
     "pruned_existing": {},
     "queue_size": 0,
@@ -96,7 +66,7 @@
     "max_items": 110,
     "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
     "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
-    "finished_at": "2026-09-08T22:53:16.628577+00:00",
+    "finished_at": "2026-09-09T22:42:59.014772+00:00",
     "bucket_targets": {
       "구강용품": 3,
       "헤어케어": 18,
@@ -111,15 +81,15 @@
     },
     "buckets_short": {
       "헤어케어": 10,
-      "바디케어": 6,
-      "클렌징": 24,
-      "마스크팩": 16,
-      "스킨케어": 105
+      "바디케어": 2,
+      "클렌징": 23,
+      "마스크팩": 10,
+      "스킨케어": 104
     },
     "status": "ok"
   },
   "totals": {
-    "products": 202,
+    "products": 214,
     "bucket_targets": {
       "구강용품": 3,
       "헤어케어": 18,
@@ -135,14 +105,14 @@
     "by_bucket": {
       "구강용품": 13,
       "헤어케어": 8,
-      "바디케어": 9,
+      "바디케어": 13,
       "맨즈케어": 23,
       "향수": 9,
-      "클렌징": 6,
-      "마스크팩": 29,
+      "클렌징": 7,
+      "마스크팩": 35,
       "메이크업": 52,
       "뷰티소품": 8,
-      "스킨케어": 45
+      "스킨케어": 46
     },
     "categories": {
       "구강용품": {
@@ -158,8 +128,8 @@
         "max_price_krw": 5000
       },
       "바디케어": {
-        "count": 9,
-        "avg_price_krw": 3000,
+        "count": 13,
+        "avg_price_krw": 2923,
         "min_price_krw": 1000,
         "max_price_krw": 5000
       },
@@ -176,14 +146,14 @@
         "max_price_krw": 5000
       },
       "클렌징": {
-        "count": 6,
-        "avg_price_krw": 3167,
+        "count": 7,
+        "avg_price_krw": 3429,
         "min_price_krw": 1000,
         "max_price_krw": 5000
       },
       "마스크팩": {
-        "count": 29,
-        "avg_price_krw": 2241,
+        "count": 35,
+        "avg_price_krw": 2171,
         "min_price_krw": 500,
         "max_price_krw": 5000
       },
@@ -200,16 +170,16 @@
         "max_price_krw": 3000
       },
       "스킨케어": {
-        "count": 45,
-        "avg_price_krw": 3522,
+        "count": 46,
+        "avg_price_krw": 3554,
         "min_price_krw": 1000,
         "max_price_krw": 5000
       }
     },
-    "avg_price_krw": 2834,
+    "avg_price_krw": 2825,
     "price_krw_min": 500,
     "price_krw_max": 5000,
-    "with_rating": 198
+    "with_rating": 210
   },
   "fx": {
     "usd_to_krw": 1336.2,
@@ -217,7 +187,7 @@
     "as_of": "2026-09-09",
     "source": "Frankfurter API",
     "api_url": "https://api.frankfurter.app/latest?from=USD&to=KRW",
-    "fetched_at": "2026-09-09T22:19:42.068874+00:00",
+    "fetched_at": "2026-09-09T21:44:15.218418+00:00",
     "ok": true,
     "대조": [
       "ExchangeRate-API 1,340.86(2026-09-09)",
@@ -225,5 +195,5 @@
     ]
   },
   "sitemap_urls_known": 19739,
-  "visited": 1425
+  "visited": 1535
 }

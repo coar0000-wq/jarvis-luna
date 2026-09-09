@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T07:24:59.891198+09:00",
+  "generated_at": "2026-09-10T07:43:06.215369+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-09-09T22:19:42.145045+00:00",
-      "summary": "202개 상품 · 등급 S 6 / A 30 / B 26 / C 140 · 새 자료 203건",
-      "action": "직전 실행에서 23건 시도 중 13건 실패 (성공 10건) · 가격 없음 13",
+      "when": "2026-09-09T22:42:59.102625+00:00",
+      "summary": "214개 상품 · 등급 S 6 / A 33 / B 29 / C 146 · 새 자료 203건",
+      "action": "직전 실행에서 19건 시도 중 7건 실패 (성공 12건) · 가격 없음 7",
       "status": "ok",
       "phase": "now",
       "phase_label": "1단계 · 후보 선정",
@@ -30,7 +30,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-10T07:20:41.484936+09:00",
+      "when": "2026-09-10T07:43:01.030189+09:00",
       "summary": "S등급 6개 · 고시표 입력 대기 2건 · 새 자료 47건",
       "action": "다이소 상세페이지 고시 표 2건 캡처 필요",
       "status": "ok",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-10T07:24:55.756744+09:00",
+      "when": "2026-09-10T07:43:01.197190+09:00",
       "summary": "71,450노트 · 282,325링크 · 끊어진 링크 106건 · 개인 노트 16건 별도",
       "action": null,
       "status": "failed",
@@ -285,7 +285,7 @@
     "status": "completed",
     "record_count": 2885,
     "source_counts": {},
-    "updated_at": "2026-09-10T07:20:41.093938+09:00"
+    "updated_at": "2026-09-10T07:43:01.024189+09:00"
   },
   "graph": {
     "notes": 71450,
@@ -298,7 +298,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "failed",
-    "last_generated": "2026-09-10T07:24:55.756744+09:00"
+    "last_generated": "2026-09-10T07:43:01.197190+09:00"
   },
   "training": {
     "status": "completed",
@@ -1397,7 +1397,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 9,
       "trust": "manual",
-      "age_hours": 214.4,
+      "age_hours": 214.7,
       "stale": true
     },
     "walmart_beauty": {
@@ -1407,7 +1407,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 5,
       "trust": "manual",
-      "age_hours": 214.4,
+      "age_hours": 214.7,
       "stale": true
     },
     "oliveyoung_us": {
@@ -1417,7 +1417,7 @@
       "collected_at": "2026-09-09T22:15:49.890241+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.2,
+      "age_hours": 0.5,
       "stale": false
     },
     "google_trends_us": {
@@ -1427,7 +1427,7 @@
       "collected_at": "2026-09-09T22:16:39.392804+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.1,
+      "age_hours": 0.4,
       "stale": false
     },
     "wikipedia_interest": {
@@ -1438,7 +1438,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-09 ~ 2026-09-07 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 3.3,
+      "age_hours": 3.6,
       "stale": false
     },
     "allure_media": {
@@ -1449,7 +1449,7 @@
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 3.3,
+      "age_hours": 3.6,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -1460,7 +1460,7 @@
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 3.3,
+      "age_hours": 3.6,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1486,7 +1486,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 8,
       "trust": "manual",
-      "age_hours": 214.4,
+      "age_hours": 214.7,
       "stale": true
     },
     "sephora": {
@@ -1496,7 +1496,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 10,
       "trust": "manual",
-      "age_hours": 214.4,
+      "age_hours": 214.7,
       "stale": true
     },
     "open_beauty_facts": {
@@ -1506,7 +1506,7 @@
       "collected_at": "2026-09-09T22:15:49.338411+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.2,
+      "age_hours": 0.5,
       "stale": false
     }
   },
