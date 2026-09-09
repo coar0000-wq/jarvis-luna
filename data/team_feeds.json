@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-09T10:35:51.916166+00:00",
+  "generated_at": "2026-09-09T10:48:32.704436+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2023,
+  "pool_size": 2036,
   "제목없어_버림": 38,
   "unrouted": 10,
   "summary": {
@@ -12,11 +12,11 @@
       "recent": 203
     },
     "market": {
-      "total": 424,
-      "recent": 46
+      "total": 418,
+      "recent": 47
     },
     "listing": {
-      "total": 17,
+      "total": 18,
       "recent": 13
     },
     "pricing": {
@@ -24,11 +24,11 @@
       "recent": 5
     },
     "legal": {
-      "total": 94,
-      "recent": 5
+      "total": 114,
+      "recent": 21
     },
     "design": {
-      "total": 351,
+      "total": 350,
       "recent": 95
     },
     "robotics": {
@@ -44,12 +44,7 @@
       "recent": 270
     }
   },
-  "fda_failures": [
-    {
-      "source": "FDA 리콜 RSS",
-      "reason": "항목 0건"
-    }
-  ],
+  "fda_failures": [],
   "not_collected": {
     "openFDA cosmetic/enforcement": "HTTP 404 - 해당 엔드포인트 없음",
     "FDA 화장품 전용 RSS": "HTTP 404 - 주소 없음. 리콜 RSS 로 대체",
@@ -592,21 +587,21 @@
         "by_hand": false
       },
       {
-        "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - Trend Hunter",
+        "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - trendhunter.com",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yd21ockxiN01RTlN0SGRoNWdlcFBFdkpab3JqdXRGUHRIS3NjS1VzR3VDWjhKRmJtaTN4MGlaS0NLUjlVbVRxZE5xY1lqU28yV0dVOTNLby03OUhKVWVuVlg3ZjBVMEkydXc?oc=5",
         "pool": "google",
         "date": "2026-09-09",
         "by_hand": false
       },
       {
-        "title": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - globalcosmeticsnews.com",
+        "title": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - Global Cosmetics News",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMjY0SGdyaGU3MjdmNlUtemxuYlZaaHFwdmZsY2dDd0hTTHM1NHJvRTk3ck5TNFAxa19fa2NmaG9iMzdXVVpwWVlodGJSTmlMT1JnNUMyNTdsTnM3QjdMMGFlWFIzeEtGbjRLX0xZbjhLdkZ6N0NUUlVHVG1mYTVMcDQyU0UzUVBxa1J1QjJROThfR2gtYjlHQVpwbEU5WmxoUG9TM2RseTUzQS1u?oc=5",
         "pool": "google",
         "date": "2026-09-09",
         "by_hand": false
       },
       {
-        "title": "Viral-to-Retail K-Beauty: nooni Brings Its Viral Lip Oil to Target in Eight Shades - Trend Hunter",
+        "title": "Viral-to-Retail K-Beauty: nooni Brings Its Viral Lip Oil to Target in Eight Shades - trendhunter.com",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TU2k5bU9DMWFraFREU29nU1o0ZnlVQ201YjVsTW56TkhvZlBMRUtEWVczd1Y0R2MwQXk4NkliSTZQOVpqT19lYl9GYllvM3VsNmtvNW42Yy1ZTzREUXJ4WVhNRzJjTFk?oc=5",
         "pool": "google",
         "date": "2026-09-09",
@@ -620,7 +615,7 @@
         "by_hand": false
       },
       {
-        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -648,15 +643,15 @@
         "by_hand": false
       },
       {
-        "title": "I'd Pay Double For This K-Beauty Product That's Working Wonders On My Neck Lines - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeThXYVNQSHQ4S0JoNnFEcnJ6RHdMNkZVc3JRdGJYbDRJeTczaG0wYmxLMnZlMEU2eVRJUE9SbWdudzJySV9pODdZV0txUzJrZ3ZRX1VZUDQ0Y2F4NTFmd01wNXB6c0RFVldzQzE5bTlpSUZyc0Rxb09OdEVFSjFfT3l2STBRREpYMkNGbXB6NDdXcnM?oc=5",
+        "title": "From spandex to skin care: Hyosung bets big on K-beauty through new supply chains - Korea JoongAng Daily",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVDV0LU55a2lyX3FOdWlNZ1JYaEltVGFOTkExeWxvWXg3S3RuZk5FampFNnlrN0VUY1p4OFJlNHg3VXBoak9qVC0wSUp4NnQzcFVfaFNrU3U5bEYtT2J1QndjelM4UGhaTElKSnl2Zm1KcDlWZ0VORkVaRWVjQVJxZTBhUVJwd3hnVmVsam4xTmwtNmpjbmRqWjdUVXB0ZTlCTkJacFV5N3pVc3hFa0JEenJlb01mREk1alA2S2lfb3VRcjdVaFR0c2ZJeVk?oc=5",
         "pool": "google",
         "date": "2026-09-08",
         "by_hand": false
       },
       {
-        "title": "From spandex to skin care: Hyosung bets big on K-beauty through new supply chains - Korea JoongAng Daily",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVDV0LU55a2lyX3FOdWlNZ1JYaEltVGFOTkExeWxvWXg3S3RuZk5FampFNnlrN0VUY1p4OFJlNHg3VXBoak9qVC0wSUp4NnQzcFVfaFNrU3U5bEYtT2J1QndjelM4UGhaTElKSnl2Zm1KcDlWZ0VORkVaRWVjQVJxZTBhUVJwd3hnVmVsam4xTmwtNmpjbmRqWjdUVXB0ZTlCTkJacFV5N3pVc3hFa0JEenJlb01mREk1alA2S2lfb3VRcjdVaFR0c2ZJeVk?oc=5",
+        "title": "I'd Pay Double For This K-Beauty Product That's Working Wonders On My Neck Lines - Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeThXYVNQSHQ4S0JoNnFEcnJ6RHdMNkZVc3JRdGJYbDRJeTczaG0wYmxLMnZlMEU2eVRJUE9SbWdudzJySV9pODdZV0txUzJrZ3ZRX1VZUDQ0Y2F4NTFmd01wNXB6c0RFVldzQzE5bTlpSUZyc0Rxb09OdEVFSjFfT3l2STBRREpYMkNGbXB6NDdXcnM?oc=5",
         "pool": "google",
         "date": "2026-09-08",
         "by_hand": false
@@ -697,7 +692,7 @@
         "by_hand": false
       },
       {
-        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -725,7 +720,7 @@
         "by_hand": false
       },
       {
-        "title": "The Vogue Business Beauty Trend Tracker - Vogue",
+        "title": "The Vogue Business Beauty Trend Tracker - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96eFRtR1g5NG15VmJxdk9GX3B1V1FJdWRDdkJPb1pHMWk3d2pwMV81WFBURlJxaHRadVZTWUFKR1VSc21KX1lyVTUxa2NSa05nRmxUU1FRb1hFVWNvc2hDZ25YYUQ0Y09jMzNhLTZuWGk?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -781,6 +776,13 @@
         "by_hand": false
       },
       {
+        "title": "Why Korean Beauty Products Are Appearing in More Mainstream U.S. Stores Than Ever Before - Us Weekly",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObk9pR1JvZ1I2Q0tPQXVvUHRGU1djM3laSGlMNUc0eldHLVRlYjgwS0dFdllib2l5bFNPWU95Yk56eW0tMDFpZ3hiYVF4RFZnZWlQUUhpZ09mTjFEeVkzaEkzcEZJTVcyYURGQnNtTTZzU1otNWMyOTJHUjVjVlRsSzJMLUt2UG5xXzBpcjB4TTJlUm8waFFwVVNCaGwwU1pnbW5oWkp0WWhRaG9a?oc=5",
+        "pool": "google",
+        "date": "2026-09-01",
+        "by_hand": false
+      },
+      {
         "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - Miami Herald",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxUk1UYUJPcXhnWjlFczJhckZRMjlLM0ZFX1hnclN5cjk0d1prbVNWNWZqVWFMX0M1N2VSY08tNzNteDE0NDNsdWN4SmpTUkpzSDVkMFFhdndkRVBXNGZWRjhuUXpqTWvSAWdBVV95cUxNM1p2Wmx6MVYta09USHF2UUU0MWthTlNwamRPQWUtV0FMbF94U1Zjc1RrN2pUZVg5djlwc2dyZk8zeV9PT0VrRVhUWEJlZmlMM2xHdUk3eUJNUFNkV1lRRFRuVUE5TFpZ?oc=5",
         "pool": "google",
@@ -788,7 +790,7 @@
         "by_hand": false
       },
       {
-        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - teenvogue.com",
+        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - Teen Vogue",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OdzQ0OXlSbWVrOW1FUXdtSURIcjVsZnJhNEFleWtxZnRjcDdESjdFZlBXUVR0eEM0Tzg2NDN2M2tqU0pEaXd6TTZBOE5yRkVZR2ZBQU1DNWp1RTlxN2V6UHNHUUFJb28?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -809,7 +811,7 @@
         "by_hand": false
       },
       {
-        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - GeekWire",
+        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - geekwire.com",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSmd3bV80NzFvZlZtOUNnSUF4eTRlQ0VoamFoUlY5aEQ2Q000MmlBVmVTQ3ZuWV9wTmhzWXROSWNyaDNuQ0JrTFdEczljM0JlbTBtdFBZbnhtakNaWHBTZTBGWDFzbDJURU1ESi1mano4T21KMHV0ZEQwOFI3aWI3Q2lTbzhPSmw5dEp6cGZVXzhadW5GNTRNaVhhMEhIdjY0czMwTmN4aUlpVWNYTmV5ZnNxWkdlcUZFUUhoNEdId3gxZw?oc=5",
         "pool": "google",
         "date": "2026-08-28",
@@ -891,13 +893,6 @@
         "pool": "google",
         "date": "2026-08-25",
         "by_hand": false
-      },
-      {
-        "title": "This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - Woman & Home",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVEFxUTExeGlubm5Ic3F4c0dzMWVTVHNSOW1EWXpQTWMzbG8ybnEyRFEtaUFMVkMwVEtIWGpaT0pHY3BxRUx6WnBKS1k4blNvSHRQX2xkb1MybzFtXzc1dzVrekpJclZ6SHJZUnFQM0ZHMngtTG9iZGlJMmNfQlB5ckdQdTA?oc=5",
-        "pool": "google",
-        "date": "2026-08-25",
-        "by_hand": false
       }
     ],
     "listing": [
@@ -937,7 +932,7 @@
         "by_hand": true
       },
       {
-        "title": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - globalcosmeticsnews.com",
+        "title": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - Global Cosmetics News",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMjY0SGdyaGU3MjdmNlUtemxuYlZaaHFwdmZsY2dDd0hTTHM1NHJvRTk3ck5TNFAxa19fa2NmaG9iMzdXVVpwWVlodGJSTmlMT1JnNUMyNTdsTnM3QjdMMGFlWFIzeEtGbjRLX0xZbjhLdkZ6N0NUUlVHVG1mYTVMcDQyU0UzUVBxa1J1QjJROThfR2gtYjlHQVpwbEU5WmxoUG9TM2RseTUzQS1u?oc=5",
         "pool": "google",
         "date": "2026-09-09",
@@ -1011,6 +1006,13 @@
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5",
         "pool": "google",
         "date": "2026-06-06",
+        "by_hand": false
+      },
+      {
+        "title": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - globalcosmeticsnews.com",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMjY0SGdyaGU3MjdmNlUtemxuYlZaaHFwdmZsY2dDd0hTTHM1NHJvRTk3ck5TNFAxa19fa2NmaG9iMzdXVVpwWVlodGJSTmlMT1JnNUMyNTdsTnM3QjdMMGFlWFIzeEtGbjRLX0xZbjhLdkZ6N0NUUlVHVG1mYTVMcDQyU0UzUVBxa1J1QjJROThfR2gtYjlHQVpwbEU5WmxoUG9TM2RseTUzQS1u?oc=5",
+        "pool": "us_beauty",
+        "date": "",
         "by_hand": false
       },
       {
@@ -1144,6 +1146,83 @@
         "by_hand": false
       },
       {
+        "title": "FreshPoint Issues Recall Due to an Improperly Declared Allergen (Egg) in Chicken Salad Wedge Sandwiches",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/freshpoint-issues-recall-due-improperly-declared-allergen-egg-chicken-salad-wedge-sandwiches",
+        "pool": "fda",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "BMC Medical Co., Ltd. Recalls Luna G3 APAP (Model LG3600) with Firmware G3-2.00.76 Due to Firmware Defect",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bmc-medical-co-ltd-recalls-luna-g3-apap-model-lg3600-firmware-g3-20076-due-firmware-defect",
+        "pool": "fda",
+        "date": "2026-09-07",
+        "by_hand": false
+      },
+      {
+        "title": "Made Fresh Salads, Inc. Recalls Ready to Eat Deli Style Salads and Cream Cheese Because of Possible Health Risk",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/made-fresh-salads-inc-recalls-ready-eat-deli-style-salads-and-cream-cheese-because-possible-health",
+        "pool": "fda",
+        "date": "2026-09-06",
+        "by_hand": false
+      },
+      {
+        "title": "Foods Alive Recalls Organic Moringa Leaf Powder Because of Possible Health Risk",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/foods-alive-recalls-organic-moringa-leaf-powder-because-possible-health-risk",
+        "pool": "fda",
+        "date": "2026-09-04",
+        "by_hand": false
+      },
+      {
+        "title": "American Regent, Inc. Issues Voluntary Nationwide Recall of Three Lots of Epinephrine Injection, USP 30 mg/ 30 mL (1 mg/mL) Due to the Presence of Particulate Matter and Lack of Assurance of Sterility",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/american-regent-inc-issues-voluntary-nationwide-recall-three-lots-epinephrine-injection-usp-30-mg-30",
+        "pool": "fda",
+        "date": "2026-09-03",
+        "by_hand": false
+      },
+      {
+        "title": "B. Braun Medical Inc. Issues Voluntary Nationwide Recall of 0.9% Sodium Chloride Injection USP, 100 mL, in a 150 mL PAB® Container Due to the Presence of Particulate Matter",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/b-braun-medical-inc-issues-voluntary-nationwide-recall-09-sodium-chloride-injection-usp-100-ml-150",
+        "pool": "fda",
+        "date": "2026-09-03",
+        "by_hand": false
+      },
+      {
+        "title": "Fi Recalls Supplements for Dogs Because of Possible Salmonella Contamination",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fi-recalls-supplements-dogs-because-possible-salmonella-contamination",
+        "pool": "fda",
+        "date": "2026-09-03",
+        "by_hand": false
+      },
+      {
+        "title": "SUPPLX.com Issues Voluntary Nationwide Recall of Business Pill and Branch Manager for Men Due to Undeclared Yohimbine",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/supplxcom-issues-voluntary-nationwide-recall-business-pill-and-branch-manager-men-due-undeclared",
+        "pool": "fda",
+        "date": "2026-09-03",
+        "by_hand": false
+      },
+      {
+        "title": "Frutas y Hortalizas del Sur S.A. Expands Recall to Include One Lot of Great Value Frozen Organic Triple Berry Blend Because of Potential Contamination with Escherichia coli O145:H28 (E. coli O145)",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/frutas-y-hortalizas-del-sur-sa-expands-recall-include-one-lot-great-value-frozen-organic-triple",
+        "pool": "fda",
+        "date": "2026-09-02",
+        "by_hand": false
+      },
+      {
+        "title": "Crystal Temptations Issues Allergy Alert on Undeclared Milk in Chocolatey Eyeballs",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/crystal-temptations-issues-allergy-alert-undeclared-milk-chocolatey-eyeballs",
+        "pool": "fda",
+        "date": "2026-08-31",
+        "by_hand": false
+      },
+      {
+        "title": "LMSI LLC/Kofinas Olive Oil Issues a Voluntary Recall of its Garlic Mediterranean Infused Extra Virgin Olive Oil for Using a Garlic Essential Oil Not Approved for Culinary Use",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lmsi-llckofinas-olive-oil-issues-voluntary-recall-its-garlic-mediterranean-infused-extra-virgin",
+        "pool": "fda",
+        "date": "2026-08-31",
+        "by_hand": false
+      },
+      {
         "title": "Circulating extracellular vesicle–enriched miR-144-3p and functional regulation of the mTOR pathway in multiple myeloma",
         "url": "https://doi.org/10.1038/s41598-026-69238-3",
         "pool": "institutions",
@@ -1155,6 +1234,69 @@
         "url": "https://doi.org/10.1371/journal.pone.0357179",
         "pool": "institutions",
         "date": "2026-08-28",
+        "by_hand": false
+      },
+      {
+        "title": "Northwest Naturals Voluntarily Recalls Two Raw Pet Food Products Because of Possible Salmonella & Listeria Monocytogenes Health Risk",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/northwest-naturals-voluntarily-recalls-two-raw-pet-food-products-because-possible-salmonella",
+        "pool": "fda",
+        "date": "2026-08-28",
+        "by_hand": false
+      },
+      {
+        "title": "Everything Sprouts, LLC Expands Voluntarily Recall to Include Robust Radish Mix Due to Potential E. Coli and Salmonella Risk",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/everything-sprouts-llc-expands-voluntarily-recall-include-robust-radish-mix-due-potential-e-coli-and",
+        "pool": "fda",
+        "date": "2026-08-28",
+        "by_hand": false
+      },
+      {
+        "title": "Panorama Produce Recalls Mangoes Due to Possible Salmonella Contamination",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/panorama-produce-recalls-mangoes-due-possible-salmonella-contamination",
+        "pool": "fda",
+        "date": "2026-08-28",
+        "by_hand": false
+      },
+      {
+        "title": "Ana Salazar Modela Tu Cuerpo Inc. Issues Nationwide Voluntary Recall of Lipofit Extreme Fat Burner 2.0 Due to Presence of Undeclared Fluoxetine and 2,4-Dinitrophenol (DNP)",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ana-salazar-modela-tu-cuerpo-inc-issues-nationwide-voluntary-recall-lipofit-extreme-fat-burner-20",
+        "pool": "fda",
+        "date": "2026-08-27",
+        "by_hand": false
+      },
+      {
+        "title": "Revival Animal Health, LLC Voluntarily Recalls Feline Milk Replacers Due to Inconsistent Levels of Vitamins and Trace Minerals",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/revival-animal-health-llc-voluntarily-recalls-feline-milk-replacers-due-inconsistent-levels-vitamins",
+        "pool": "fda",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "Baxter Issues Voluntary Nationwide Recall for One Lot of Anticoagulant Sodium Citrate Solution Due to Potential Presence of Particulate Matter",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/baxter-issues-voluntary-nationwide-recall-one-lot-anticoagulant-sodium-citrate-solution-due",
+        "pool": "fda",
+        "date": "2026-08-25",
+        "by_hand": false
+      },
+      {
+        "title": "Baxter Issues Voluntary Nationwide Recall for One Lot of 70% Dextrose Injection Due to Potential Presence of Particulate Matter",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/baxter-issues-voluntary-nationwide-recall-one-lot-70-dextrose-injection-due-potential-presence",
+        "pool": "fda",
+        "date": "2026-08-25",
+        "by_hand": false
+      },
+      {
+        "title": "Baxter Issues Voluntary Nationwide Recall for Two Lots of 0.9% Sodium Chloride Injection Due to Potential Presence of Particulate Matter",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/baxter-issues-voluntary-nationwide-recall-two-lots-09-sodium-chloride-injection-due-potential",
+        "pool": "fda",
+        "date": "2026-08-25",
+        "by_hand": false
+      },
+      {
+        "title": "Jaime’s Foods ATX Issues Allergy Alert on Undeclared Egg Allergen in Jaime’s Spanish Village Jalapeno Ranch",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jaimes-foods-atx-issues-allergy-alert-undeclared-egg-allergen-jaimes-spanish-village-jalapeno-ranch",
+        "pool": "fda",
+        "date": "2026-08-25",
         "by_hand": false
       },
       {
@@ -1392,146 +1534,6 @@
         "title": "Olay Regenerist Regenerating with Sunscreen Broad Spectrum SPF 15",
         "url": "https://api.fda.gov/drug/label.json?search=id:46425877-3cf0-6496-e063-6294a90acf37",
         "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "Eminence Radiant Protection SPF Fluid",
-        "url": "https://api.fda.gov/drug/label.json?search=id:2737f1e2-08e3-0e06-e063-6394a90a8159",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "Neutrogena Mineral Invisible Daily Defense Face Sunscreen Broad Spectrum SPF 30",
-        "url": "https://api.fda.gov/drug/label.json?search=id:3afd4f97-ceb8-c70f-e063-6394a90afeb4",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "MediChoice Moisturizing Lip Balm SPF15",
-        "url": "https://api.fda.gov/drug/label.json?search=id:40b41656-3e4a-5597-e063-6394a90a952a",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "Private Label Moisturizing Oil Free Paraben Free SPF43",
-        "url": "https://api.fda.gov/drug/label.json?search=id:4e399a9d-b92c-4483-962a-4d65f8cddc30",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "Triple Prep SPF 40",
-        "url": "https://api.fda.gov/drug/label.json?search=id:47fc4312-dc25-9486-e063-6394a90a0899",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "KIZO LAB UV DEFENSE CLEAR SUNSCREN SPF50",
-        "url": "https://api.fda.gov/drug/label.json?search=id:497ed1ba-ebe5-a00a-e063-6394a90a447c",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "Reef Kids SPF 30 Oxybenzone Free",
-        "url": "https://api.fda.gov/drug/label.json?search=id:42c9f9a6-e079-6f4f-e063-6394a90afca4",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "Botnia Gentle Sun SPF 30",
-        "url": "https://api.fda.gov/drug/label.json?search=id:4c1e721a-a8f5-db1b-e063-6294a90a0a26",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "BOTANICAL SOOTHING SPF-30",
-        "url": "https://api.fda.gov/drug/label.json?search=id:474bb04f-2be5-2dd9-e063-6394a90a6a3c",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "Equate Beauty Daily Moisturizer SPF-30 Sunscreen",
-        "url": "https://api.fda.gov/drug/label.json?search=id:27485ab0-a7d5-4c16-92b2-fd89bbeadbec",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "glo SKIN BEAUTY Oil-Free Tinted Primer SPF 30",
-        "url": "https://api.fda.gov/drug/label.json?search=id:2bc36c49-aa1b-89e9-e063-6294a90ae445",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "Beauty of Joseon Relief Sun SPF50+",
-        "url": "",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "베터 스크린 UV 세럼 SPF 50+",
-        "url": "",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "I am a creative.",
-        "url": "https://alistapart.com/article/i-am-a-creative/",
-        "pool": "design_refs",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "24501143",
-        "url": "https://api.fda.gov/cosmetic/event.json",
-        "pool": "fda",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "24503357",
-        "url": "https://api.fda.gov/cosmetic/event.json",
-        "pool": "fda",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "24505409",
-        "url": "https://api.fda.gov/cosmetic/event.json",
-        "pool": "fda",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "24510391",
-        "url": "https://api.fda.gov/cosmetic/event.json",
-        "pool": "fda",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "24512469",
-        "url": "https://api.fda.gov/cosmetic/event.json",
-        "pool": "fda",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "24511902",
-        "url": "https://api.fda.gov/cosmetic/event.json",
-        "pool": "fda",
         "date": "",
         "by_hand": false
       }

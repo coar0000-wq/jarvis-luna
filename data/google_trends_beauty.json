@@ -1,6 +1,6 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-09T10:36:59.514169+00:00",
+  "collected_at": "2026-09-09T10:49:54.719877+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
@@ -16,8 +16,8 @@
       "beauty": true
     },
     {
-      "keyword": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - kedglobal.com",
-      "product": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - kedglobal.com",
+      "keyword": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
+      "product": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3ZU9yYWdlM1JUZGlkem45TFVrY1Z1ZzVCZEJ2V29RX3FaZ043TG9PamFJdjBHUWxWOG1IbzktajdOZzRKLUxkZF8xaHJ4R2NMaDNDQy0yOGItRHVobEd2bk9IVmh1S2FSM0g0cEtRY0xFTFpWQUE?oc=5",
@@ -61,20 +61,20 @@
       "beauty": true
     },
     {
-      "keyword": "Cosmax, L'Oreal expand partnership on next-generation cosmetics - The Korea Herald",
-      "product": "Cosmax, L'Oreal expand partnership on next-generation cosmetics - The Korea Herald",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9oMmM5MHJDemVfd1NMbzhlTWh1VzZPN1hXN2d5MFBlanItRnhTcWp2cnpmZkt4WVlOb1A1d0EwQUd4VjNJMHNUTXQ1RkItVTNjcjRzcUo3SQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
       "product": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Cosmax, L'Oreal expand partnership on next-generation cosmetics - The Korea Herald",
+      "product": "Cosmax, L'Oreal expand partnership on next-generation cosmetics - The Korea Herald",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9oMmM5MHJDemVfd1NMbzhlTWh1VzZPN1hXN2d5MFBlanItRnhTcWp2cnpmZkt4WVlOb1A1d0EwQUd4VjNJMHNUTXQ1RkItVTNjcjRzcUo3SQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -133,8 +133,8 @@
       "beauty": true
     },
     {
-      "keyword": "11 Of The Best Clear Sunscreens For Black & Brown Skin - coveteur.com",
-      "product": "11 Of The Best Clear Sunscreens For Black & Brown Skin - coveteur.com",
+      "keyword": "11 Of The Best Clear Sunscreens For Black & Brown Skin - Coveteur",
+      "product": "11 Of The Best Clear Sunscreens For Black & Brown Skin - Coveteur",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZTWU0R2c2bXdNckV1N29mSDJWb201UGxUT2ZOajNjZ0oyRkJHTWVQdzdSME5YT0M2M0g2YXFrSnZGZWk3Mmx2S3VkVUx3bk9jMVV5dQ?oc=5",
