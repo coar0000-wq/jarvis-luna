@@ -143,7 +143,12 @@ def tiered_channel(key, direct=None, direct_at="", model=""):
 
 
 def from_us_beauty(source_substr: str):
-    """scripts/collect_us_beauty_data.py 의 실제 스크래핑 결과만 사용.
+    """data/us_beauty_products.json 이 있을 때만 쓴다.
+
+    전에는 scripts/collect_us_beauty_data.py 를 가리켰는데 그 스크립트는
+    손으로 적은 8건을 돌려주던 것이라 2026-09-09 에 지웠다. 지금 이 파일을
+    만드는 수집기는 없어서 이 경로는 항상 0건이다. 지어낸 값을 채우느니
+    0건이 낫다.
 
     실제 상품이라면 브랜드나 가격 중 하나는 반드시 있다.
     Ulta/Sephora 는 봇 차단 때문에 카테고리 네비게이션 텍스트만 긁히므로

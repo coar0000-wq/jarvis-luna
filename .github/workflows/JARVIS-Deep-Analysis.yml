@@ -126,9 +126,13 @@ jobs:
       #   - build_shopify_demand_matching.py : demand_score 등 조작값
       # 실제 다이소 수집은 daiso-real-collection.yml 이 담당한다.
 
-      - name: Collect US Beauty Market
-        continue-on-error: true
-        run: python scripts/collect_us_beauty_data.py
+      # 2026-09-09 제거: Collect US Beauty Market
+      #   scripts/collect_us_beauty_data.py 는 손으로 적은 8건을 돌려줬다.
+      #   가격이 없고 별점만 있는데 source 는 "Olive Young US" 였다.
+      #   더 나쁜 것은 쓰는 자리가 collect_oliveyoung_us.py 와 같았다는 점이다.
+      #   실수집기가 한 번 실패하자 그 8건이 그대로 남아
+      #   market_team.json 과 shopify_demand_matching.json 에
+      #   미국 베스트셀러로 들어갔다. 스크립트째 지운다.
 
       - name: Collect Open Beauty Facts (오픈데이터, 인증 불필요)
         continue-on-error: true

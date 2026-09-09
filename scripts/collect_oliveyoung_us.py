@@ -198,6 +198,31 @@ def parse(body: str) -> list[dict]:
     return rows
 
 
+def is_ours(prev: dict) -> bool:
+    """이 파일이 정말 우리가 받아 적은 것인지 본다.
+
+    09-09 에 이 검사가 없어서 벌어진 일을 적어둔다.
+
+      1. collect_us_beauty_data.py 가 손으로 적은 8건을 같은 경로에 썼다.
+         가격은 없고 별점만 있는데 source 는 "Olive Young US" 였다.
+      2. 36초 뒤 이 수집기가 돌다가 아무것도 못 쓰고 끝났다.
+      3. 그래서 그 8건이 파일에 그대로 남았고, market_team.json 과
+         shopify_demand_matching.json 에 미국 베스트셀러로 들어갔다.
+
+    이전 회차를 물려받는 것 자체는 맞다. 다만 물려받을 자격을 본다.
+    우리 수집기가 남긴 표식(source·collected_at)과 실제 가격이 있어야 한다.
+    가격이 없는 목록은 시장 벤치마크로 못 쓰므로 물려받을 값이 아니다.
+    """
+    if not isinstance(prev, dict):
+        return False
+    if not str(prev.get("source", "")).startswith("us.oliveyoung.com"):
+        return False
+    if not prev.get("collected_at"):
+        return False
+    return any(p.get("price_usd") for p in (prev.get("products") or [])
+               if isinstance(p, dict))
+
+
 def main() -> int:
     body, err = fetch(DATA_URL)
     products, reason = [], ""
@@ -213,19 +238,24 @@ def main() -> int:
 
     # 수집 실패 시 이전 성공분을 유지한다. 0건으로 덮어쓰면
     # 시장 벤치마크와 가격 모델이 통째로 무너진다.
+    # 다만 아무 파일이나 물려받지 않는다. is_ours 를 본다.
     stale_from = ""
     if not products and OUT.exists():
         try:
             prev = json.loads(OUT.read_text(encoding="utf-8"))
-            if prev.get("products"):
-                products = prev["products"]
-                stale_from = prev.get("collected_at") or prev.get("stale_from") or ""
-                reason = f"{reason} · 이전 수집분 유지({stale_from[:10]})"
-                print(f"이전 성공분 {len(products)}건 유지")
         except (OSError, json.JSONDecodeError):
-            pass
+            prev = {}
+        if is_ours(prev):
+            products = prev["products"]
+            stale_from = prev.get("collected_at") or prev.get("stale_from") or ""
+            reason = f"{reason} · 이전 수집분 유지({stale_from[:10]})"
+            print(f"이전 성공분 {len(products)}건 유지")
+        elif prev:
+            print("::warning::기존 파일이 우리 수집기가 남긴 것이 아니라 "
+                  "물려받지 않는다. 0건으로 기록한다.")
+            reason = f"{reason} · 기존 파일 출처 불명이라 승계 안 함"
 
-    priced = [p for p in products if p["price_usd"]]
+    priced = [p for p in products if p.get("price_usd")]
     prices = sorted(p["price_usd"] for p in priced)
 
     payload = {
@@ -259,4 +289,14 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    # 09-09 에 이 단계가 36초 돌고 아무것도 안 쓰고 끝났다. continue-on-error
+    # 라서 다음 단계로 넘어갔고, 파일에는 앞 단계가 쓴 것이 그대로 남았다.
+    # 무엇이 터졌는지는 로그를 뒤져도 안 나왔다. 자취를 남기게 한다.
+    try:
+        sys.exit(main())
+    except Exception:                                          # noqa: BLE001
+        import traceback
+        traceback.print_exc()
+        print("::error::올리브영 US 수집기가 예상 못한 예외로 멈췄다. "
+              "위 traceback 을 본다.", file=sys.stderr)
+        sys.exit(1)
