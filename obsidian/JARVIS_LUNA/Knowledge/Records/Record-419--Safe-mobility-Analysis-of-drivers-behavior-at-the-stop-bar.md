@@ -2,7 +2,7 @@
 title: "Record 419 · Safe-mobility-Analysis-of-drivers-behavior-at-the-stop-bar-of-signaliz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.404984+00:00
+updated_at: 2026-09-09T20:57:33.485514+00:00
 tags: [record, real-data]
 ---
 

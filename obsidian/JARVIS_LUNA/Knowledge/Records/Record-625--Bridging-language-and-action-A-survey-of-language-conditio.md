@@ -2,7 +2,7 @@
 title: "Record 625 · Bridging-language-and-action-A-survey-of-language-conditioned-robot-ma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.454725+00:00
+updated_at: 2026-09-09T20:57:33.533774+00:00
 tags: [record, real-data]
 ---
 

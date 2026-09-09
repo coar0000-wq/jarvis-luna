@@ -2,7 +2,7 @@
 title: "Record 273 · Empowering-Indias-next-generation-of-innovators-with-ATL-Saathi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.368817+00:00
+updated_at: 2026-09-09T20:57:33.450305+00:00
 tags: [record, real-data]
 ---
 

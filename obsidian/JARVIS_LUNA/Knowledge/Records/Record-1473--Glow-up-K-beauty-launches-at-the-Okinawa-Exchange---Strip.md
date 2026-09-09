@@ -2,7 +2,7 @@
 title: "Record 1473 · Glow-up-K-beauty-launches-at-the-Okinawa-Exchange---Stripes-Okinawa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.652991+00:00
+updated_at: 2026-09-09T20:57:33.724320+00:00
 tags: [record, real-data]
 ---
 

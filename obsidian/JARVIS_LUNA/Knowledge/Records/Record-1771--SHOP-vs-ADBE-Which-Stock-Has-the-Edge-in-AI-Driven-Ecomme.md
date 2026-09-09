@@ -1,18 +1,18 @@
 ---
-title: "Record 1771 · SHOP-vs-ADBE-Which-Stock-Has-the-Edge-in-AI-Driven-Ecommerce---Trading"
+title: "Record 1771 · SHOP-vs-ADBE-Which-Stock-Has-the-Edge-in-AI-Driven-Ecommerce---Zacks-I"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-08T22:24:12.723087+00:00
+updated_at: 2026-09-09T20:57:33.789021+00:00
 tags: [record, real-data]
 ---
 
-# Record 1771 · SHOP-vs-ADBE-Which-Stock-Has-the-Edge-in-AI-Driven-Ecommerce---Trading
+# Record 1771 · SHOP-vs-ADBE-Which-Stock-Has-the-Edge-in-AI-Driven-Ecommerce---Zacks-I
 
-> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMitwFBVV95cUxNenpSUXdfM1M1UERROFdlUlhZZjRiN2tfSVpCSkRnQnZfNEhxRnRDNDdwVmlRVGlNQjA4Skt1R3VkSEpaRFpJR2ZrNmhELVBEQWFYVFh0c1JLZ1dsZVAtNU4xWlVCaTgwMkNybTFjT1ZvZFUyWXc0cWNEMUNQclVmYmN0eEk3aHFIN251WHpvQkRQN3NjNnFsOE9WSTUzbWVYTUw0c0dDTlg3R3pHbWpwN0R5ME9UWU0?oc=5)
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiowFBVV95cUxNMUtNX1F3WDQ2YTZRT0NIcTRaUjVqOF9GQ3RyeUJJU2RLak1XTng5WnhlWURMcHhaNVN4eTJrMndPb1pwd1BUeGtTdS1BUi1UMVc3M1NTZENJUHVHUTRnWkkzTW9KUm1MMGFKNWVDdzZsZ1d3bU1rbmlYVkpKUFpybkJzeWhvUEFsSmNpWVZEV25tbnh4aDNNNW0tb0xKRlA3djQ0?oc=5)
 
-**제목:** SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - TradingView
+**제목:** SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - Zacks Investment Research
 
-SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - TradingView
+SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - Zacks Investment Research
 
 **출처:** Source · Google Search
 

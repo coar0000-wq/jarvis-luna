@@ -2,7 +2,7 @@
 title: "Record 976 · Broadcom-Strengthens-Spring-Security-and-Adds-Coverage-of-Java-Python-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.538612+00:00
+updated_at: 2026-09-09T20:57:33.613808+00:00
 tags: [record, real-data]
 ---
 

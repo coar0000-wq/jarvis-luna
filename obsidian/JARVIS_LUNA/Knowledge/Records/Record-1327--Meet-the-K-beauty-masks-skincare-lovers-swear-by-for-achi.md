@@ -2,7 +2,7 @@
 title: "Record 1327 · Meet-the-K-beauty-masks-skincare-lovers-swear-by-for-achieving-a-true-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.619775+00:00
+updated_at: 2026-09-09T20:57:33.692198+00:00
 tags: [record, real-data]
 ---
 

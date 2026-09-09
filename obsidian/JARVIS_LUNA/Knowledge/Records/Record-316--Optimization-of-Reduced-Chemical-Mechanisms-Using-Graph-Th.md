@@ -2,7 +2,7 @@
 title: "Record 316 · Optimization-of-Reduced-Chemical-Mechanisms-Using-Graph-TheoryAssisted"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.379536+00:00
+updated_at: 2026-09-09T20:57:33.460961+00:00
 tags: [record, real-data]
 ---
 

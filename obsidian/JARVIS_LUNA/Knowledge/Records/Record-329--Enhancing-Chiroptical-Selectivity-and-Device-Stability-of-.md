@@ -2,7 +2,7 @@
 title: "Record 329 · Enhancing-Chiroptical-Selectivity-and-Device-Stability-of-Chiral-Perov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.382993+00:00
+updated_at: 2026-09-09T20:57:33.464378+00:00
 tags: [record, real-data]
 ---
 

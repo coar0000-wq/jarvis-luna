@@ -2,7 +2,7 @@
 title: "Record 571 · Artificial-Intelligence-for-RFIC-Design-Early-Advancements-Opportuniti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.441949+00:00
+updated_at: 2026-09-09T20:57:33.521776+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 343 · Fine-root-traits-coordinate-with-aboveground-strategies-yet-poorly-pre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.386412+00:00
+updated_at: 2026-09-09T20:57:33.467773+00:00
 tags: [record, real-data]
 ---
 

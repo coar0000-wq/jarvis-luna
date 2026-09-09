@@ -2,7 +2,7 @@
 title: "Record 626 · Sexual-Assault-Among-US-Military-Spouses-An-Examination-of-Prevalence-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.454976+00:00
+updated_at: 2026-09-09T20:57:33.534008+00:00
 tags: [record, real-data]
 ---
 

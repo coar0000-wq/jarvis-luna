@@ -2,7 +2,7 @@
 title: "Record 858 · Supporting-the-Assumption-that-Space-Time-is-an-Emergent-Entity-via-a-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.509923+00:00
+updated_at: 2026-09-09T20:57:33.586180+00:00
 tags: [record, real-data]
 ---
 

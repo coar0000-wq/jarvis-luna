@@ -1,18 +1,18 @@
 ---
-title: "Record 1471 · 33-Turn-to-AI-Shopify-UCP-Advances-AI-Powered-Shopping---DesignRush"
+title: "Record 1471 · 33-Turn-to-AI-Shopify-UCP-Advances-AI-Powered-Shopping---newsdesignrus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.652548+00:00
+updated_at: 2026-09-09T20:57:33.723808+00:00
 tags: [record, real-data]
 ---
 
-# Record 1471 · 33-Turn-to-AI-Shopify-UCP-Advances-AI-Powered-Shopping---DesignRush
+# Record 1471 · 33-Turn-to-AI-Shopify-UCP-Advances-AI-Powered-Shopping---newsdesignrus
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifEFVX3lxTFBoS3VKMmFrUVd4am9BMDN6NU9jcDN3RzdVUkl1SHBVc0RHQW9kTHhmNVpZSV9GcXB6UGpqT1c5RjAwblVTZ3FxX2x1bF9KLU5BVlJCekxUVTFEb3EyNThRNUlDV25oeUdCYk5hWFJQMUxWNkwxc1Y2LWZ4aUQ?oc=5)
 
-**제목:** 33% Turn to AI: Shopify UCP Advances AI-Powered Shopping - DesignRush
+**제목:** 33% Turn to AI: Shopify UCP Advances AI-Powered Shopping - news.designrush.com
 
-33% Turn to AI: Shopify UCP Advances AI-Powered Shopping - DesignRush
+33% Turn to AI: Shopify UCP Advances AI-Powered Shopping - news.designrush.com
 
 **출처:** Source · Google Search
 

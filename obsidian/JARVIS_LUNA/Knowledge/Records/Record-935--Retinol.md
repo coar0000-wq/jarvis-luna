@@ -2,7 +2,7 @@
 title: "Record 935 · Retinol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.528001+00:00
+updated_at: 2026-09-09T20:57:33.603697+00:00
 tags: [record, real-data]
 ---
 

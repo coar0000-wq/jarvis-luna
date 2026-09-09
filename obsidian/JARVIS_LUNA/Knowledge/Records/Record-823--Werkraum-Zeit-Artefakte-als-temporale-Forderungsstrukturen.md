@@ -2,7 +2,7 @@
 title: "Record 823 · Werkraum-Zeit-Artefakte-als-temporale-Forderungsstrukturen--Zeitwürdig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.501854+00:00
+updated_at: 2026-09-09T20:57:33.578597+00:00
 tags: [record, real-data]
 ---
 

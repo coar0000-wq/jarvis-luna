@@ -2,7 +2,7 @@
 title: "Record 949 · Barclays-appoints-Ramin-Naji-as-Head-of-Healthcare--Real-Estate-Asia-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.531167+00:00
+updated_at: 2026-09-09T20:57:33.606680+00:00
 tags: [record, real-data]
 ---
 

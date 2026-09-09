@@ -2,7 +2,7 @@
 title: "Record 1443 · Putting-K-beauty-sunscreens-to-the-test--Consumer-Reports---WESH"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.646293+00:00
+updated_at: 2026-09-09T20:57:33.717582+00:00
 tags: [record, real-data]
 ---
 

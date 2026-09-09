@@ -2,7 +2,7 @@
 title: "Record 1469 · K-Beauty-Travel-Is-Booming-Why-Everyone-Is-Booking-Beauty-Trips-to-Sou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.652053+00:00
+updated_at: 2026-09-09T20:57:33.723262+00:00
 tags: [record, real-data]
 ---
 

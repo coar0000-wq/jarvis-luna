@@ -2,7 +2,7 @@
 title: "Record 747 · Category-Native-Solomonoff-Approximation-From-Algorithmic-Geometry-to-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.483881+00:00
+updated_at: 2026-09-09T20:57:33.561564+00:00
 tags: [record, real-data]
 ---
 

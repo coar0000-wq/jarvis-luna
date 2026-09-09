@@ -2,7 +2,7 @@
 title: "Record 062 · frb100-40-After-Two-Decades-An-Optimality-Certificate-and-a-Preregiste"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.306160+00:00
+updated_at: 2026-09-09T20:57:33.393417+00:00
 tags: [record, real-data]
 ---
 

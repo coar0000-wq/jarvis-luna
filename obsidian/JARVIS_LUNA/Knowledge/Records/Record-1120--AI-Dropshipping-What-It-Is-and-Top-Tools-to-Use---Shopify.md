@@ -2,7 +2,7 @@
 title: "Record 1120 · AI-Dropshipping-What-It-Is-and-Top-Tools-to-Use---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.573133+00:00
+updated_at: 2026-09-09T20:57:33.647364+00:00
 tags: [record, real-data]
 ---
 

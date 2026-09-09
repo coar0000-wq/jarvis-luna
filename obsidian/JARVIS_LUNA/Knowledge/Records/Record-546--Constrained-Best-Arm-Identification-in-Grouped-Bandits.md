@@ -2,7 +2,7 @@
 title: "Record 546 · Constrained-Best-Arm-Identification-in-Grouped-Bandits"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.436033+00:00
+updated_at: 2026-09-09T20:57:33.516288+00:00
 tags: [record, real-data]
 ---
 

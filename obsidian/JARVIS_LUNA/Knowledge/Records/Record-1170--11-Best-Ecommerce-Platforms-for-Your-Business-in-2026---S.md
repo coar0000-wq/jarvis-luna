@@ -2,7 +2,7 @@
 title: "Record 1170 · 11-Best-Ecommerce-Platforms-for-Your-Business-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.584303+00:00
+updated_at: 2026-09-09T20:57:33.657938+00:00
 tags: [record, real-data]
 ---
 

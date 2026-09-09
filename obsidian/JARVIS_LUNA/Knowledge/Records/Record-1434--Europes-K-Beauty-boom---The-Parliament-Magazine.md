@@ -2,7 +2,7 @@
 title: "Record 1434 · Europes-K-Beauty-boom---The-Parliament-Magazine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.644206+00:00
+updated_at: 2026-09-09T20:57:33.715589+00:00
 tags: [record, real-data]
 ---
 

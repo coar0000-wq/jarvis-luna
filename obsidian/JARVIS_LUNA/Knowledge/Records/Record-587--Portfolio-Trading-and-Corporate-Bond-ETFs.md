@@ -2,7 +2,7 @@
 title: "Record 587 · Portfolio-Trading-and-Corporate-Bond-ETFs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.445718+00:00
+updated_at: 2026-09-09T20:57:33.525303+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 986 · Leidos-Holdings-Inc-declares-quarterly-cash-dividend-share-repurchase-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.541299+00:00
+updated_at: 2026-09-09T20:57:33.616449+00:00
 tags: [record, real-data]
 ---
 

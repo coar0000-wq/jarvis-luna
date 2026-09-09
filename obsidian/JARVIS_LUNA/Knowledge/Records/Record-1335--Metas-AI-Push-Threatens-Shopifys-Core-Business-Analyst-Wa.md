@@ -1,18 +1,18 @@
 ---
-title: "Record 1335 · Metas-AI-Push-Threatens-Shopifys-Core-Business-Analyst-Warns---barrons"
+title: "Record 1335 · Metas-AI-Push-Threatens-Shopifys-Core-Business-Analyst-Warns---Barrons"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.621590+00:00
+updated_at: 2026-09-09T20:57:33.693892+00:00
 tags: [record, real-data]
 ---
 
-# Record 1335 · Metas-AI-Push-Threatens-Shopifys-Core-Business-Analyst-Warns---barrons
+# Record 1335 · Metas-AI-Push-Threatens-Shopifys-Core-Business-Analyst-Warns---Barrons
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMicEFVX3lxTE51cG82LVRNMFBMdlM3dEoxb1hxY2JUM1hfTHZudERyZmpaeHgxLXV4SGFBaXBkTzdCc0t3R3RpQ2RScGl6MkdDdzh5UU9vRF9ndFhHMXFpdldBZ1dVdG4wdE13QThuM2NNLUhIbUZRNVQ?oc=5)
 
-**제목:** Meta’s AI Push Threatens Shopify’s Core Business, Analyst Warns - barrons.com
+**제목:** Meta’s AI Push Threatens Shopify’s Core Business, Analyst Warns - Barron's
 
-Meta’s AI Push Threatens Shopify’s Core Business, Analyst Warns - barrons.com
+Meta’s AI Push Threatens Shopify’s Core Business, Analyst Warns - Barron's
 
 **출처:** Source · Google Search
 

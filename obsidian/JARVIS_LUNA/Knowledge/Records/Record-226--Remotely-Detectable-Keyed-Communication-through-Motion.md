@@ -2,7 +2,7 @@
 title: "Record 226 · Remotely-Detectable-Keyed-Communication-through-Motion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.356551+00:00
+updated_at: 2026-09-09T20:57:33.438680+00:00
 tags: [record, real-data]
 ---
 

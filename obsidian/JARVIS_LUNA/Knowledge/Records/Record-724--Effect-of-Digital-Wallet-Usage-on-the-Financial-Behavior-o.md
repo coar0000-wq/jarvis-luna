@@ -2,7 +2,7 @@
 title: "Record 724 · Effect-of-Digital-Wallet-Usage-on-the-Financial-Behavior-of-Millennial"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.478343+00:00
+updated_at: 2026-09-09T20:57:33.556309+00:00
 tags: [record, real-data]
 ---
 

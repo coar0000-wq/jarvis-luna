@@ -2,7 +2,7 @@
 title: "Record 054 · The-Rise-of-Verbal-Reinforcement-Learning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.304177+00:00
+updated_at: 2026-09-09T20:57:33.391677+00:00
 tags: [record, real-data]
 ---
 

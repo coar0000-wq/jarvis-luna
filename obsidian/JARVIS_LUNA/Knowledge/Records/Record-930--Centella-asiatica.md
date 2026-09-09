@@ -2,7 +2,7 @@
 title: "Record 930 · Centella-asiatica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.526998+00:00
+updated_at: 2026-09-09T20:57:33.602760+00:00
 tags: [record, real-data]
 ---
 

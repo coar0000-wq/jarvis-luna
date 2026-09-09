@@ -2,7 +2,7 @@
 title: "Record 1143 · CLERIVY-Brings-a-K-Beauty-Take-on-Pimple-Patches-to-Amazoncom---usacro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.578199+00:00
+updated_at: 2026-09-09T20:57:33.652324+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 641 · Pre-hedging"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.458563+00:00
+updated_at: 2026-09-09T20:57:33.537351+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 467 · AI-enhanced-adaptive-virtual-screening-of-large-libraries-for-ligand-d"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.416711+00:00
+updated_at: 2026-09-09T20:57:33.496911+00:00
 tags: [record, real-data]
 ---
 

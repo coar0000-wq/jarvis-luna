@@ -2,7 +2,7 @@
 title: "Record 138 · Sound-based-Multi-Person-3D-Pose-Estimation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.329688+00:00
+updated_at: 2026-09-09T20:57:33.414443+00:00
 tags: [record, real-data]
 ---
 

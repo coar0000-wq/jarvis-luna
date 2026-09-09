@@ -2,7 +2,7 @@
 title: "Record 715 · Analysis-of-the-dynamics-and-current-state-of-innovative-activity-in-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.476203+00:00
+updated_at: 2026-09-09T20:57:33.554250+00:00
 tags: [record, real-data]
 ---
 

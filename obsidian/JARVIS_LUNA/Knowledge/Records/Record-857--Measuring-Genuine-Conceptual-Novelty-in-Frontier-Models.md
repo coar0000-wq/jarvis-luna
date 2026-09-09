@@ -2,7 +2,7 @@
 title: "Record 857 · Measuring-Genuine-Conceptual-Novelty-in-Frontier-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.509694+00:00
+updated_at: 2026-09-09T20:57:33.585962+00:00
 tags: [record, real-data]
 ---
 

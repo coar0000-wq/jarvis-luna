@@ -2,7 +2,7 @@
 title: "Record 1456 · Enterprise-Artificial-Intelligence-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.649150+00:00
+updated_at: 2026-09-09T20:57:33.720393+00:00
 tags: [record, real-data]
 ---
 

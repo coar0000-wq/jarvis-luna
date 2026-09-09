@@ -2,7 +2,7 @@
 title: "Record 618 · Seq2Synth-Benchmarking-Temporal-Fidelity-in-Synthetic-Sequential-Tabul"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T19:06:24.453044+00:00
+updated_at: 2026-09-09T20:57:33.532211+00:00
 tags: [record, real-data]
 ---
 
