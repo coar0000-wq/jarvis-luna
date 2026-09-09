@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T20:17:53.552079+09:00",
+  "generated_at": "2026-09-09T20:53:45.709149+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -30,7 +30,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-09T20:17:11.350862+09:00",
+      "when": "2026-09-09T20:52:09.842915+09:00",
       "summary": "S등급 6개 · 고시표 입력 대기 1건 · 새 자료 47건",
       "action": "다이소 상세페이지 고시 표 1건 캡처 필요",
       "status": "ok",
@@ -126,8 +126,8 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-09T19:50:16.847850+09:00",
-      "summary": "64,089노트 · 264,120링크 · 끊어진 링크 0건 · 개인 노트 7,770건 별도",
+      "when": "2026-09-09T20:52:11.250848+09:00",
+      "summary": "63,420노트 · 251,189링크 · 끊어진 링크 0건 · 개인 노트 16건 별도",
       "action": null,
       "status": "ok",
       "phase": "now",
@@ -260,7 +260,7 @@
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "64089개 노트 · 264120개 링크 · 끊어진 링크 0개 · 개인 노트 7770개 별도"
+      "detail": "63420개 노트 · 251189개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도"
     },
     {
       "id": "dashboard",
@@ -285,20 +285,20 @@
     "status": "completed",
     "record_count": 2788,
     "source_counts": {},
-    "updated_at": "2026-09-09T19:48:34.110153+09:00"
+    "updated_at": "2026-09-09T20:52:09.836915+09:00"
   },
   "graph": {
-    "notes": 64089,
-    "links": 264120,
+    "notes": 63420,
+    "links": 251189,
     "dangling_links": 0,
-    "dangling_personal": 7770,
+    "dangling_personal": 16,
     "dangling_personal_note": "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다.",
-    "records": 63541,
+    "records": 62582,
     "sources": 6,
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-09T19:50:16.847850+09:00"
+    "last_generated": "2026-09-09T20:52:11.250848+09:00"
   },
   "training": {
     "status": "completed",
@@ -322,19 +322,19 @@
       "links": 264120
     },
     "prior_totals": {
-      "records": 2784,
-      "notes": 61445,
-      "links": 254178
-    },
-    "added_this_run": {
-      "records": 4,
-      "notes": 2644,
-      "links": 9942
-    },
-    "current_snapshot": {
       "records": 2788,
       "notes": 64089,
       "links": 264120
+    },
+    "added_this_run": {
+      "records": 0,
+      "notes": 0,
+      "links": 0
+    },
+    "current_snapshot": {
+      "records": 2788,
+      "notes": 63420,
+      "links": 251189
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -1397,7 +1397,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 9,
       "trust": "manual",
-      "age_hours": 203.3,
+      "age_hours": 203.9,
       "stale": true
     },
     "walmart_beauty": {
@@ -1407,7 +1407,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 5,
       "trust": "manual",
-      "age_hours": 203.3,
+      "age_hours": 203.9,
       "stale": true
     },
     "oliveyoung_us": {
@@ -1417,7 +1417,7 @@
       "collected_at": "2026-09-09T10:49:19.519760+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.5,
+      "age_hours": 1.1,
       "stale": false
     },
     "google_trends_us": {
@@ -1427,7 +1427,7 @@
       "collected_at": "2026-09-09T10:49:54.719877+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.5,
+      "age_hours": 1.1,
       "stale": false
     },
     "wikipedia_interest": {
@@ -1438,7 +1438,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-09 ~ 2026-09-07 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 2.2,
+      "age_hours": 2.8,
       "stale": false
     },
     "allure_media": {
@@ -1449,7 +1449,7 @@
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 2.2,
+      "age_hours": 2.8,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -1460,7 +1460,7 @@
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 2.2,
+      "age_hours": 2.8,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1486,7 +1486,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 8,
       "trust": "manual",
-      "age_hours": 203.3,
+      "age_hours": 203.9,
       "stale": true
     },
     "sephora": {
@@ -1496,7 +1496,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 10,
       "trust": "manual",
-      "age_hours": 203.3,
+      "age_hours": 203.9,
       "stale": true
     },
     "open_beauty_facts": {
@@ -1506,7 +1506,7 @@
       "collected_at": "2026-09-09T10:49:00.918073+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.5,
+      "age_hours": 1.1,
       "stale": false
     }
   },

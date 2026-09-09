@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T22:58:42.984572+00:00",
+  "generated_at": "2026-09-09T11:53:41.917579+00:00",
   "generator": "scripts/collect_via_gemini.py",
   "model": "gemini-flash-latest",
   "method": "Gemini API url_context 도구",
@@ -13,7 +13,7 @@
       "count": 0,
       "status": "failed",
       "reason": "페이지에서 상품을 얻지 못함",
-      "url_context_result": "{\"call_id\": \"call_525758\", \"signature\": \"EtQpCtEpCAISzCkBEU0yD/QevdEuwnudTk0Tq+tpfhzFhy4sQ4XPobRgy9JhYqqkpZAKgeHZAvCEI6KKCP3DGeIaQPlMqjGzzLb78tuQZyaMd8r+UqGq85PrkNJcLyiES8NxMYV86e8OhcV/g5Vnajv6CBj0xPSGyKiiIDEkjLdpA5mI2xP5Ry/YVoxJsa7Gh4CUa9t/UI+o3fZny5FclVXw8oiq3AVvNfK9+3iyf1I8ByTVIrh9nCDEE21+3U8h6TE",
+      "url_context_result": "{\"call_id\": \"call_1399938\", \"signature\": \"Et0pCtopCAIS1SkBEU0yDzKp5xYZz58S+bvuGY6jeQHnRZikeFColSTdJELxuw68dcENrR0Fn268/etJqK8H5IQFQXOi3ypP5GVo2uN7s8TtjhpvKKD00G39GQnFFaRzgUxa8sIzP6+sPdOog6PNEgS/k7eOVf3bWYIuP3Bc39YKCH2bKQwBFy5eJ9J/BVggGCodYizLD/LeXKRc9L7BogMP/1Vs8IPR4noQXbNv351+k6U3z9S1O4JcXq1A7TNEPg",
       "products": []
     },
     "sephora": {
