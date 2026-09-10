@@ -2,7 +2,7 @@
 title: "Record 2437 · How-Are-Trading-Platforms-Evolving"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.432718+00:00
+updated_at: 2026-09-10T02:54:23.855010+00:00
 tags: [record, real-data]
 ---
 

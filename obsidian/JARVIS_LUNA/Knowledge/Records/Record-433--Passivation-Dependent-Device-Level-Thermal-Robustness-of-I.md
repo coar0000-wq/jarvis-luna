@@ -2,7 +2,7 @@
 title: "Record 433 · Passivation-Dependent-Device-Level-Thermal-Robustness-of-Indium-Galliu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.937707+00:00
+updated_at: 2026-09-10T02:54:23.351035+00:00
 tags: [record, real-data]
 ---
 

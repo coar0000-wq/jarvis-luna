@@ -2,7 +2,7 @@
 title: "Record 2208 · REJURAN-Skin-Protection-Mask-5ct-091-fl-oz27ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.379301+00:00
+updated_at: 2026-09-10T02:54:23.800265+00:00
 tags: [record, real-data]
 ---
 

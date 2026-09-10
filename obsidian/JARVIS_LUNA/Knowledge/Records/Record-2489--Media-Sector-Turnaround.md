@@ -2,7 +2,7 @@
 title: "Record 2489 · Media-Sector-Turnaround"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.445084+00:00
+updated_at: 2026-09-10T02:54:23.867257+00:00
 tags: [record, real-data]
 ---
 

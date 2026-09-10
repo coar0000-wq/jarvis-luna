@@ -2,7 +2,7 @@
 title: "Record 2246 · Glass-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.388226+00:00
+updated_at: 2026-09-10T02:54:23.810161+00:00
 tags: [record, real-data]
 ---
 

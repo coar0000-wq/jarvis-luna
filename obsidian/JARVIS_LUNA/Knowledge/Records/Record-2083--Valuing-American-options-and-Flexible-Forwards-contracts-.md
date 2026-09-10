@@ -2,7 +2,7 @@
 title: "Record 2083 · Valuing-American-options-and-Flexible-Forwards-contracts-in-time-depen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.347154+00:00
+updated_at: 2026-09-10T02:54:23.765468+00:00
 tags: [record, real-data]
 ---
 

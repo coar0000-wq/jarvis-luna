@@ -2,7 +2,7 @@
 title: "Record 2342 · ASML-begins-construction-of-new-Eindhoven-campus-strengthening-its-pre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.410455+00:00
+updated_at: 2026-09-10T02:54:23.833303+00:00
 tags: [record, real-data]
 ---
 

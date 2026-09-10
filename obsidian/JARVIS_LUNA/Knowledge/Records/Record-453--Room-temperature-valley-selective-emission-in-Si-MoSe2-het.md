@@ -2,7 +2,7 @@
 title: "Record 453 · Room-temperature-valley-selective-emission-in-Si-MoSe2-heterostructure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.943153+00:00
+updated_at: 2026-09-10T02:54:23.356725+00:00
 tags: [record, real-data]
 ---
 

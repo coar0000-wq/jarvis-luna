@@ -2,7 +2,7 @@
 title: "Record 189 · Second-Order-Smooth-Planning-with-Optimal-Transport-Bellman-Smoothing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.861730+00:00
+updated_at: 2026-09-10T02:54:23.281416+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2075 · Sparse-add-on-controller-design-A-Youla-approach-to-system-level-perfo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.345226+00:00
+updated_at: 2026-09-10T02:54:23.763355+00:00
 tags: [record, real-data]
 ---
 

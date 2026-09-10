@@ -2,7 +2,7 @@
 title: "Record 248 · Procedural-Graphs-Self-Evolving-Execution-Structures-for-LLM-Agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.883967+00:00
+updated_at: 2026-09-10T02:54:23.299993+00:00
 tags: [record, real-data]
 ---
 

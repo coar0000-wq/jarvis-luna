@@ -2,7 +2,7 @@
 title: "Record 1374 · The-Enterprise-Guide-to-Ecommerce-Technical-SEO-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.171565+00:00
+updated_at: 2026-09-10T02:54:23.584829+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1894 · My-K-Beauty-brings-Korean-skin-care-cosmetics-to-Northwest-Austin---Co"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.296587+00:00
+updated_at: 2026-09-10T02:54:23.710656+00:00
 tags: [record, real-data]
 ---
 

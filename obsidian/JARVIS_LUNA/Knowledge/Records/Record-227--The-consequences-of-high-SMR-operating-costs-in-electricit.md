@@ -2,7 +2,7 @@
 title: "Record 227 · The-consequences-of-high-SMR-operating-costs-in-electricity-markets"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.874880+00:00
+updated_at: 2026-09-10T02:54:23.293726+00:00
 tags: [record, real-data]
 ---
 

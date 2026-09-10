@@ -2,7 +2,7 @@
 title: "Record 1920 · Shopify-AI--The-Features-Shaping-the-Future-of-Ecommerce-Pramendra-Yad"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.302762+00:00
+updated_at: 2026-09-10T02:54:23.717602+00:00
 tags: [record, real-data]
 ---
 

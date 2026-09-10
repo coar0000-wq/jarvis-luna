@@ -2,7 +2,7 @@
 title: "Record 2402 · European-Stocks-Defy-Global-Shocks-With-Strong-Earnings-Growth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.424898+00:00
+updated_at: 2026-09-10T02:54:23.847249+00:00
 tags: [record, real-data]
 ---
 

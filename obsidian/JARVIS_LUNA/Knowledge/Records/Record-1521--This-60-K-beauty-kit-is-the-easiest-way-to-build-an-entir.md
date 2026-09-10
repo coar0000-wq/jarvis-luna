@@ -2,7 +2,7 @@
 title: "Record 1521 · This-60-K-beauty-kit-is-the-easiest-way-to-build-an-entire-8-step-skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.206558+00:00
+updated_at: 2026-09-10T02:54:23.619735+00:00
 tags: [record, real-data]
 ---
 

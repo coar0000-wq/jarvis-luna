@@ -2,7 +2,7 @@
 title: "Record 2122 · On-the-static-dielectric-constant-of-thin-dielectrics-in-extremely-sca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.356612+00:00
+updated_at: 2026-09-10T02:54:23.775876+00:00
 tags: [record, real-data]
 ---
 

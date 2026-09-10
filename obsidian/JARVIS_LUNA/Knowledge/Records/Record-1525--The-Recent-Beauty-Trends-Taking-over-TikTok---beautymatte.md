@@ -2,7 +2,7 @@
 title: "Record 1525 · The-Recent-Beauty-Trends-Taking-over-TikTok---beautymattercom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.207538+00:00
+updated_at: 2026-09-10T02:54:23.620696+00:00
 tags: [record, real-data]
 ---
 

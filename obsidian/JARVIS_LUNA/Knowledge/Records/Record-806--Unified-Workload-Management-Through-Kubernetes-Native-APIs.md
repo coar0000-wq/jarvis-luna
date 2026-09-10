@@ -2,7 +2,7 @@
 title: "Record 806 · Unified-Workload-Management-Through-Kubernetes-Native-APIs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.031928+00:00
+updated_at: 2026-09-10T02:54:23.448034+00:00
 tags: [record, real-data]
 ---
 

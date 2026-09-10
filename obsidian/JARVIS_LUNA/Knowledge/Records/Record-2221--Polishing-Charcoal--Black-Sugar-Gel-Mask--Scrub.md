@@ -2,7 +2,7 @@
 title: "Record 2221 · Polishing-Charcoal--Black-Sugar-Gel-Mask--Scrub"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.382539+00:00
+updated_at: 2026-09-10T02:54:23.803834+00:00
 tags: [record, real-data]
 ---
 

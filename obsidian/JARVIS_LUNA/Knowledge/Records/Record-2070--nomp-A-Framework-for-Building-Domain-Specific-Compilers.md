@@ -2,7 +2,7 @@
 title: "Record 2070 · nomp-A-Framework-for-Building-Domain-Specific-Compilers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.344038+00:00
+updated_at: 2026-09-10T02:54:23.762056+00:00
 tags: [record, real-data]
 ---
 

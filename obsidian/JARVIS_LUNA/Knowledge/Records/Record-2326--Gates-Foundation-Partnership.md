@@ -2,7 +2,7 @@
 title: "Record 2326 · Gates-Foundation-Partnership"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.406606+00:00
+updated_at: 2026-09-10T02:54:23.829443+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2178 · UNOVE-Damage-Repair-Hydrating-Conditioner-Tender-Bloom-98-fl-oz290ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.371741+00:00
+updated_at: 2026-09-10T02:54:23.791902+00:00
 tags: [record, real-data]
 ---
 

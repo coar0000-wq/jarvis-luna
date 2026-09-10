@@ -2,7 +2,7 @@
 title: "Record 2147 · This-Robot-Will-Draw-Your-Blood-Now"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.362877+00:00
+updated_at: 2026-09-10T02:54:23.782207+00:00
 tags: [record, real-data]
 ---
 

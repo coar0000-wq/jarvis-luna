@@ -2,7 +2,7 @@
 title: "Record 1897 · The-2025-Top-100-Riding-the-K-Craze---wwdcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.297276+00:00
+updated_at: 2026-09-10T02:54:23.711413+00:00
 tags: [record, real-data]
 ---
 

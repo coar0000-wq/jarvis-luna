@@ -2,7 +2,7 @@
 title: "Record 037 · Aero-Hand-Open-A-Simulation-Ready-Tendon-Driven-Hand-for-Dexterous-Man"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.812697+00:00
+updated_at: 2026-09-10T02:54:23.234705+00:00
 tags: [record, real-data]
 ---
 

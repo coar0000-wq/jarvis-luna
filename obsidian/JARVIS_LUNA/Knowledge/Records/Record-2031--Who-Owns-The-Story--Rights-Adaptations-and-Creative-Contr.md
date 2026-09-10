@@ -2,7 +2,7 @@
 title: "Record 2031 · Who-Owns-The-Story--Rights-Adaptations-and-Creative-Control-in-Theatre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.334481+00:00
+updated_at: 2026-09-10T02:54:23.751585+00:00
 tags: [record, real-data]
 ---
 

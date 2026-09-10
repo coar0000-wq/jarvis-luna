@@ -2,7 +2,7 @@
 title: "Record 2154 · Protecting-Dynamic-Industrial-Robot-Cable-Carriers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.365047+00:00
+updated_at: 2026-09-10T02:54:23.784529+00:00
 tags: [record, real-data]
 ---
 

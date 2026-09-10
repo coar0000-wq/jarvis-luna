@@ -2,7 +2,7 @@
 title: "Record 2241 · Dermo-protect-spf-50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.387096+00:00
+updated_at: 2026-09-10T02:54:23.808915+00:00
 tags: [record, real-data]
 ---
 

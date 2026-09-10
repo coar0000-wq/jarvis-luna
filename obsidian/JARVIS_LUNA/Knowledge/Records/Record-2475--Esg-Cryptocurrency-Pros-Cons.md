@@ -2,7 +2,7 @@
 title: "Record 2475 · Esg-Cryptocurrency-Pros-Cons"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.442005+00:00
+updated_at: 2026-09-10T02:54:23.864203+00:00
 tags: [record, real-data]
 ---
 

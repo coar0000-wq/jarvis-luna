@@ -2,7 +2,7 @@
 title: "Record 2250 · Low-PH-good-morning-gel-cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.389124+00:00
+updated_at: 2026-09-10T02:54:23.811169+00:00
 tags: [record, real-data]
 ---
 

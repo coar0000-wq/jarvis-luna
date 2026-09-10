@@ -2,7 +2,7 @@
 title: "Record 1768 · What-is-this-century-old-moisturizer-thats-all-the-rage-on-TikTok-call"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.266467+00:00
+updated_at: 2026-09-10T02:54:23.679409+00:00
 tags: [record, real-data]
 ---
 

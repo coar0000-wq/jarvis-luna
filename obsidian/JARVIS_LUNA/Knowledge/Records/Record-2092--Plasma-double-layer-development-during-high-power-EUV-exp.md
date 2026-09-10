@@ -2,7 +2,7 @@
 title: "Record 2092 · Plasma-double-layer-development-during-high-power-EUV-exposure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.349291+00:00
+updated_at: 2026-09-10T02:54:23.767859+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1861 · I-Live-in-KoreaHere-Are-the-Best-K-Beauty-Products-Ive-Ever-Tried---Ha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.288636+00:00
+updated_at: 2026-09-10T02:54:23.701706+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1737 · K-Beautys-Expanding-Influence-on-Global-Beauty-Trends---Beauty-Packagi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.258863+00:00
+updated_at: 2026-09-10T02:54:23.671853+00:00
 tags: [record, real-data]
 ---
 

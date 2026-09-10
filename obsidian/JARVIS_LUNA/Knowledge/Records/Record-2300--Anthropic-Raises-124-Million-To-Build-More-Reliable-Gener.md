@@ -2,7 +2,7 @@
 title: "Record 2300 · Anthropic-Raises-124-Million-To-Build-More-Reliable-General-Ai-Systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.400700+00:00
+updated_at: 2026-09-10T02:54:23.823610+00:00
 tags: [record, real-data]
 ---
 

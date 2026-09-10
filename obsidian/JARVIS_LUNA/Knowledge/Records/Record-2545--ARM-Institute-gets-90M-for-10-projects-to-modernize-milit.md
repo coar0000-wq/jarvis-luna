@@ -2,7 +2,7 @@
 title: "Record 2545 · ARM-Institute-gets-90M-for-10-projects-to-modernize-military-manufactu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.458069+00:00
+updated_at: 2026-09-10T02:54:23.879908+00:00
 tags: [record, real-data]
 ---
 

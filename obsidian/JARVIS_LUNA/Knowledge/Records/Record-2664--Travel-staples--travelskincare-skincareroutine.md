@@ -2,7 +2,7 @@
 title: "Record 2664 · Travel-staples--travelskincare-skincareroutine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.487254+00:00
+updated_at: 2026-09-10T02:54:23.908429+00:00
 tags: [record, real-data]
 ---
 

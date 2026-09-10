@@ -2,7 +2,7 @@
 title: "Record 882 · A-Conceptual-and-Applied-Framework-for-Enterprise-ServiceNow-Program-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.051075+00:00
+updated_at: 2026-09-10T02:54:23.466140+00:00
 tags: [record, real-data]
 ---
 

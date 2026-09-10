@@ -2,7 +2,7 @@
 title: "Record 1166 · K-Pharmacy-Skincare---Trend-Hunter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.122206+00:00
+updated_at: 2026-09-10T02:54:23.536236+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2766 · Realistic-Day-In-The-Life-Of-A-Multi-Millionaire-In-Miami"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.510413+00:00
+updated_at: 2026-09-10T02:54:23.931573+00:00
 tags: [record, real-data]
 ---
 

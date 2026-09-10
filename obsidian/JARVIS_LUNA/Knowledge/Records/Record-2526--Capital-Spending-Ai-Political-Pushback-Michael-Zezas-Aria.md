@@ -2,7 +2,7 @@
 title: "Record 2526 · Capital-Spending-Ai-Political-Pushback-Michael-Zezas-Ariana-Salvatore"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.453415+00:00
+updated_at: 2026-09-10T02:54:23.875392+00:00
 tags: [record, real-data]
 ---
 

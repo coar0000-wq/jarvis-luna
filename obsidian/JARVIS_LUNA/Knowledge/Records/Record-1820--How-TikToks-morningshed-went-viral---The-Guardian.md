@@ -2,7 +2,7 @@
 title: "Record 1820 · How-TikToks-morningshed-went-viral---The-Guardian"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.278974+00:00
+updated_at: 2026-09-10T02:54:23.691740+00:00
 tags: [record, real-data]
 ---
 

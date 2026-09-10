@@ -2,7 +2,7 @@
 title: "Record 1088 · k-beauty---Womans-World"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.104199+00:00
+updated_at: 2026-09-10T02:54:23.518603+00:00
 tags: [record, real-data]
 ---
 

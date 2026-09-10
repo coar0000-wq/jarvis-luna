@@ -2,7 +2,7 @@
 title: "Record 2467 · India-Insights-Investment-Outlook"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.440225+00:00
+updated_at: 2026-09-10T02:54:23.862440+00:00
 tags: [record, real-data]
 ---
 

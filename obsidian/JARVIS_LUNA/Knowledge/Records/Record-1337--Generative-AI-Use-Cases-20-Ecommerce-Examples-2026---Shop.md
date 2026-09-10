@@ -2,7 +2,7 @@
 title: "Record 1337 · Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.162650+00:00
+updated_at: 2026-09-10T02:54:23.576065+00:00
 tags: [record, real-data]
 ---
 

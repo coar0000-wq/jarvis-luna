@@ -2,7 +2,7 @@
 title: "Record 2056 · Generalized-specific-entropy-on-Wiener-space-with-application-to-Marti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.340708+00:00
+updated_at: 2026-09-10T02:54:23.758309+00:00
 tags: [record, real-data]
 ---
 

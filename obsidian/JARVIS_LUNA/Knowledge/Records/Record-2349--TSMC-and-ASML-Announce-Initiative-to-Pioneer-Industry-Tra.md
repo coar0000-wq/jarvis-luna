@@ -2,7 +2,7 @@
 title: "Record 2349 · TSMC-and-ASML-Announce-Initiative-to-Pioneer-Industry-Transition-to-La"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.412099+00:00
+updated_at: 2026-09-10T02:54:23.834866+00:00
 tags: [record, real-data]
 ---
 

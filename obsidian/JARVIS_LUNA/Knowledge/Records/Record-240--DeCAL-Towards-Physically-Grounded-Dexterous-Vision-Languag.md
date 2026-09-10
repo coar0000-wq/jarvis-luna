@@ -2,7 +2,7 @@
 title: "Record 240 · DeCAL-Towards-Physically-Grounded-Dexterous-Vision-Language-Action-Mod"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.880388+00:00
+updated_at: 2026-09-10T02:54:23.297859+00:00
 tags: [record, real-data]
 ---
 

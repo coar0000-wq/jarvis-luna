@@ -2,7 +2,7 @@
 title: "Record 1994 · How-law-firm-Gilbert--Tobin-governs-and-scales-AI-with-OpenAI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.324391+00:00
+updated_at: 2026-09-10T02:54:23.741071+00:00
 tags: [record, real-data]
 ---
 

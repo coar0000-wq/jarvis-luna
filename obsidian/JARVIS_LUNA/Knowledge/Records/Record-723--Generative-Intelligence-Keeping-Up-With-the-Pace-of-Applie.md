@@ -2,7 +2,7 @@
 title: "Record 723 · Generative-Intelligence-Keeping-Up-With-the-Pace-of-Applied-Intelligen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.011263+00:00
+updated_at: 2026-09-10T02:54:23.427854+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1481 · US-and-UK-retailers-bet-on-K-beauty-dermacosmetics-and-premium-care---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.196930+00:00
+updated_at: 2026-09-10T02:54:23.610165+00:00
 tags: [record, real-data]
 ---
 

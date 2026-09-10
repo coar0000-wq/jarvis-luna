@@ -2,7 +2,7 @@
 title: "Record 1028 · Introducing-physics-AI-at-Mistral-the-foundation-for-engineering-accel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.089538+00:00
+updated_at: 2026-09-10T02:54:23.504121+00:00
 tags: [record, real-data]
 ---
 

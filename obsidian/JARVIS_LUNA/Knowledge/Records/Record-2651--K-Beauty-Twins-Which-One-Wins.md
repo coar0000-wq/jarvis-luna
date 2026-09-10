@@ -2,7 +2,7 @@
 title: "Record 2651 · K-Beauty-Twins-Which-One-Wins"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.484282+00:00
+updated_at: 2026-09-10T02:54:23.905517+00:00
 tags: [record, real-data]
 ---
 

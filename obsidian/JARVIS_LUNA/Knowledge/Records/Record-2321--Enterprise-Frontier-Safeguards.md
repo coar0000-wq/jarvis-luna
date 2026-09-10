@@ -2,7 +2,7 @@
 title: "Record 2321 · Enterprise-Frontier-Safeguards"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.405544+00:00
+updated_at: 2026-09-10T02:54:23.828377+00:00
 tags: [record, real-data]
 ---
 

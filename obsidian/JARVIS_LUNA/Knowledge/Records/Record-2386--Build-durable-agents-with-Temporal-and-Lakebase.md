@@ -2,7 +2,7 @@
 title: "Record 2386 · Build-durable-agents-with-Temporal-and-Lakebase"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.420826+00:00
+updated_at: 2026-09-10T02:54:23.843271+00:00
 tags: [record, real-data]
 ---
 

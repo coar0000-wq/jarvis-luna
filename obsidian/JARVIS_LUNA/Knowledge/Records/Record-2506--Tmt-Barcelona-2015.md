@@ -2,7 +2,7 @@
 title: "Record 2506 · Tmt-Barcelona-2015"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.448917+00:00
+updated_at: 2026-09-10T02:54:23.871024+00:00
 tags: [record, real-data]
 ---
 

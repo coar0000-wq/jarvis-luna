@@ -2,7 +2,7 @@
 title: "Record 2415 · Cnbc-David-Solomon-On-Us-Economy-Outlook"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.427806+00:00
+updated_at: 2026-09-10T02:54:23.850168+00:00
 tags: [record, real-data]
 ---
 

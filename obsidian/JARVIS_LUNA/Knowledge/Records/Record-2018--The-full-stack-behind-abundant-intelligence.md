@@ -2,7 +2,7 @@
 title: "Record 2018 · The-full-stack-behind-abundant-intelligence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.330811+00:00
+updated_at: 2026-09-10T02:54:23.748125+00:00
 tags: [record, real-data]
 ---
 

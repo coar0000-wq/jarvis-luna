@@ -2,7 +2,7 @@
 title: "Record 2121 · gMAGNUS-Fast-SpGEMM-on-GPUs-for-Irregular-Matrices-via-Hierarchical-Mu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.356367+00:00
+updated_at: 2026-09-10T02:54:23.775603+00:00
 tags: [record, real-data]
 ---
 

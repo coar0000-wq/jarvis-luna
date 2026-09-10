@@ -2,7 +2,7 @@
 title: "Record 2767 · Underrated-Korean-Skin-Care-You-Need-To-Try"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.510622+00:00
+updated_at: 2026-09-10T02:54:23.931788+00:00
 tags: [record, real-data]
 ---
 

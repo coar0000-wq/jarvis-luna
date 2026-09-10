@@ -2,7 +2,7 @@
 title: "Record 2652 · Expensive-SHT-thats-Worth-Every-Single-Dollar-K-Beauty-Edition"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.484508+00:00
+updated_at: 2026-09-10T02:54:23.905762+00:00
 tags: [record, real-data]
 ---
 

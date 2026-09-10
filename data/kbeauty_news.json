@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T22:19:25.372188+00:00",
+  "generated_at": "2026-09-10T02:56:52.795153+00:00",
   "generator": "scripts/collect_kbeauty_news.py",
   "출처": "Google News RSS (키 불필요). 기사 제목만 읽는다.",
   "성격": "판매 데이터가 아니라 매체 노출 신호다. 점수의 us_market_fit 에는 넣지 않는다. 어떤 상품군을 더 모을지 정하는 데 쓴다.",
@@ -10,19 +10,19 @@
     "Korean beauty ingredient snail mucin PDRN centella",
     "K-beauty Amazon Ulta Sephora launch"
   ],
-  "articles": 241,
+  "articles": 238,
   "failed_queries": [],
   "bucket_mentions": {
-    "스킨케어": 67,
+    "스킨케어": 68,
     "메이크업": 3,
-    "헤어케어": 3,
-    "마스크팩": 7
+    "마스크팩": 7,
+    "헤어케어": 4
   },
   "bucket_share_pct": {
-    "스킨케어": 83.8,
-    "마스크팩": 8.8,
-    "메이크업": 3.8,
-    "헤어케어": 3.8
+    "스킨케어": 82.9,
+    "마스크팩": 8.5,
+    "헤어케어": 4.9,
+    "메이크업": 3.7
   },
   "ingredient_mentions": {
     "pdrn": 8,
@@ -56,17 +56,24 @@
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "K-beauty sales surpass $2B mark - drugstorenews.com",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYTHVqa0tjeHpYdHBTVXhiQzhRNzZNbW5BYVMwZnk4OTNkTHNNd19nNmxZS21KaE5VaVVfejVwbUN2V3NqaVhUNi1zOV80eFhaemNBQndzUzJ6c0N1V0g4cXlxWFFTa00?oc=5",
-      "published": "Tue, 28 Jul 2026 07:00:00 GMT",
-      "source": "drugstorenews.com",
+      "title": "The Second Coming of K-Beauty: Korean Skincare's US Comeback - Circana",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBDR2cyQzNoU2dKaWlmYVNGUVZwMkhtanNjZFR1T196TzdlNWllQXZubEdmNk9GdkhIZ2xFUFBpU1ktMDI3WU9fdGRnaldRUWZqVllpN0VTcGRyams4R3p6YlowMnpCaXNmMUE?oc=5",
+      "published": "Wed, 20 May 2026 07:00:00 GMT",
+      "source": "Circana",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "How ByUR Wins in the Crowded K‑Beauty Market - U.S. Chamber of Commerce",
+      "title": "K-beauty sales surpass $2B mark - Drug Store News",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYTHVqa0tjeHpYdHBTVXhiQzhRNzZNbW5BYVMwZnk4OTNkTHNNd19nNmxZS21KaE5VaVVfejVwbUN2V3NqaVhUNi1zOV80eFhaemNBQndzUzJ6c0N1V0g4cXlxWFFTa00?oc=5",
+      "published": "Tue, 28 Jul 2026 07:00:00 GMT",
+      "source": "Drug Store News",
+      "query": "\"K-beauty\" skincare US sales"
+    },
+    {
+      "title": "How ByUR Wins in the Crowded K‑Beauty Market - uschamber.com",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaUFyQndDRVVtQ2RoM2VkbFFrZkNUWnhyRG1fa3pScFRnNWp3WU1BMU1jckpsaDdoMkYxRGxZcXk4UlZ1WkZ3UVFUOW8wck1KRU03Z0hsVEMtYlI4U0xyblA1aFdxM09vV2VzeFc3YVdXVkhnaHVQMjNRZ3J3aUgtQlUzMzBndw?oc=5",
       "published": "Thu, 02 Jul 2026 07:00:00 GMT",
-      "source": "U.S. Chamber of Commerce",
+      "source": "uschamber.com",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
@@ -91,10 +98,10 @@
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "K-beauty’s China retreat boosts Amorepacific and LG H&H profits - Personal Care Insights",
+      "title": "K-beauty’s China retreat boosts Amorepacific and LG H&H profits - personalcareinsights.com",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzY1ljc2xfa0RodHNDaHBNOEdETkJzTmQzaG9TUXZtSEpQaG9xU3dNdDNVazBXX091eWhWYktCUTRKUHRMTEwzMTZZYk5Bb09hS0ZObVByUXAwdEs4ZGVWLURoVjlFQU1uZEpBSnZRVHI4ZG40WTNJ?oc=5",
       "published": "Mon, 10 Aug 2026 07:00:00 GMT",
-      "source": "Personal Care Insights",
+      "source": "personalcareinsights.com",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
@@ -119,20 +126,6 @@
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "This K-beauty giant is taking over North America, one brand at a time - Retail Brew",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUx2bHhJb3BKQkM1RlNubnRVZHVxM0dJM1VSSWJGSHYxanZ0WjB6OFNfbnh6SE9Uc2xnX3lFa3k0STdwazZDbkJ1U1dmQklPMDI3dnB1UXBXdVpuUkNqdklKX0t2Mml5dTJSV3M5WmFEbTEtVXY5ZWN2X1BjZk5aSnVfdHNBMmdqakNRRWdOMjVhMHhaeWZPdzdpSm10S1NPMjIza3NR?oc=5",
-      "published": "Mon, 11 May 2026 07:00:00 GMT",
-      "source": "Retail Brew",
-      "query": "\"K-beauty\" skincare US sales"
-    },
-    {
-      "title": "Salmon Sperm, Snail Mucin Fuel K-Beauty’s US Push - Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc1hwODY4QjVVSC1FWldxck04WF95Snl0aGdwcjUzTjFxd1FaZUQ1NTFkOWFDX05lV0tCWXllRWd6MmFiT0preVFCTUVfbmdjZ2k5YlE0V2lVYmtDcExBOFYwVlltbzhFQVVqWVNVU3Rpc2hhM1Y0QmZxU3VKYnFHbFpxYVBWMjlORVJ6elFYWTR1YTBpT1gwYjNCWEZEWTlJanhMUg?oc=5",
-      "published": "Sun, 01 Mar 2026 08:00:00 GMT",
-      "source": "Bloomberg",
-      "query": "\"K-beauty\" skincare US sales"
-    },
-    {
       "title": "All of Hudson Williams’s Favorite K-Beauty Products Are on Sale (and More) - The Cut",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTXUzeDRrTWM1T3BHM01jQ0xjcEVjT05jMWlIbzJpNWtzVTBWSUFrUklzdVl6aVE1X2xKdnVsMDFSck9rckdvdHBSdHZIa2R2TzVleGI5QjZMcGtNQ2ZVaUtQNWRCa2xHUXo4b0lwRE92Z2Y0UXhiUjRsSnVBQTZjYkMxSEdFZw?oc=5",
       "published": "Wed, 24 Jun 2026 07:00:00 GMT",
@@ -140,24 +133,24 @@
       "query": "\"K-beauty\" skincare US sales"
     },
     {
+      "title": "This K-beauty giant is taking over North America, one brand at a time - Retail Brew",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUx2bHhJb3BKQkM1RlNubnRVZHVxM0dJM1VSSWJGSHYxanZ0WjB6OFNfbnh6SE9Uc2xnX3lFa3k0STdwazZDbkJ1U1dmQklPMDI3dnB1UXBXdVpuUkNqdklKX0t2Mml5dTJSV3M5WmFEbTEtVXY5ZWN2X1BjZk5aSnVfdHNBMmdqakNRRWdOMjVhMHhaeWZPdzdpSm10S1NPMjIza3NR?oc=5",
+      "published": "Mon, 11 May 2026 07:00:00 GMT",
+      "source": "Retail Brew",
+      "query": "\"K-beauty\" skincare US sales"
+    },
+    {
+      "title": "Salmon Sperm, Snail Mucin Fuel K-Beauty’s US Push - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc1hwODY4QjVVSC1FWldxck04WF95Snl0aGdwcjUzTjFxd1FaZUQ1NTFkOWFDX05lV0tCWXllRWd6MmFiT0preVFCTUVfbmdjZ2k5YlE0V2lVYmtDcExBOFYwVlltbzhFQVVqWVNVU3Rpc2hhM1Y0QmZxU3VKYnFHbFpxYVBWMjlORVJ6elFYWTR1YTBpT1gwYjNCWEZEWTlJanhMUg?oc=5",
+      "published": "Sun, 01 Mar 2026 08:00:00 GMT",
+      "source": "Bloomberg.com",
+      "query": "\"K-beauty\" skincare US sales"
+    },
+    {
       "title": "How K-beauty went from a viral trend to an economic powerhouse - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kczlzS055ODhSSGdDNlE1eXQzTE9FcTRHbV8ySUxudlozcHJvM3lXY0hJei1pemNjZ0wxUWlwWUFIVW5lRl9NX280R29PNWt5WkZrMmJieXY2dw?oc=5",
       "published": "Fri, 02 Jan 2026 08:00:00 GMT",
       "source": "BBC",
-      "query": "\"K-beauty\" skincare US sales"
-    },
-    {
-      "title": "TikTok-fueled K-beauty boom triggers a retail race in the U.S. - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hVXdoeVB2TmNYb2tKWXVXUlVTVVlodW5KdEs1ZF9RdGt6c3NwTDNNV0RfMVViN0Zzc3pZc1RaeXRTV0djV3hMRHM3R19XeVpMVjl0THFZUFJDSTVUbjVVX2VlaF9ldXNKMVg40gFwQVVfeXFMTUhCZjJwVmNVZWo4LVVTZWtKb0FnZXhUUGs1aWR4cDMwejAza1JlNlJGemFTbURkQlBLVUhBWWYza2pUMFpUZEJkT093WXZsWHZaQVFfaEQ4YVdGTjJwZGtJYmVrV2Z2UDZEOVVlTDR3Nw?oc=5",
-      "published": "Thu, 27 Nov 2025 08:00:00 GMT",
-      "source": "CNBC",
-      "query": "\"K-beauty\" skincare US sales"
-    },
-    {
-      "title": "K-beauty brands dominate on Amazon Prime Day - Korea JoongAng Daily",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLUQ4VDFhaGdFTFNOS2dXdm5XOHhSQkdJSC1WeXlMdDRKSFNfZVVTOUNGbkZFQ1N5QzdvSE5TdmpZak1mYXV2QjVoUUU4VG9SV20tWHlBVmo3QzVOaDUxMEVUYlE0WlZtQ3puVG85MXFiWkJkeXZUYXJQRUtPZUpfTVFVcXU5UUpvZ3pzbnc5Rm1jUi1hYkc0Y2FjcXA?oc=5",
-      "published": "Sat, 04 Jul 2026 07:00:00 GMT",
-      "source": "Korea JoongAng Daily",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
@@ -175,17 +168,31 @@
       "query": "\"K-beauty\" skincare US sales"
     },
     {
+      "title": "K-beauty effect: Diving into Sephora’s sales, buys & business strategy - personalcareinsights.com",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Na2l0X3BMbGxRNV8yLVZpS1NJZFl6bUlzajRYNHBCQ1I4anNRU0pnM3A5dFNkaXVBNzA3anFsZ0tTNVRDNVNUM2VESVM4a3dTcHF6cDAwQUQwdlFld3l4VGxtdWdPVVpLVUpZMDhfOXNmajY3MU9ZQ2hGdVladw?oc=5",
+      "published": "Mon, 09 Feb 2026 08:00:00 GMT",
+      "source": "personalcareinsights.com",
+      "query": "\"K-beauty\" skincare US sales"
+    },
+    {
+      "title": "K-beauty brands dominate on Amazon Prime Day - Korea JoongAng Daily",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLUQ4VDFhaGdFTFNOS2dXdm5XOHhSQkdJSC1WeXlMdDRKSFNfZVVTOUNGbkZFQ1N5QzdvSE5TdmpZak1mYXV2QjVoUUU4VG9SV20tWHlBVmo3QzVOaDUxMEVUYlE0WlZtQ3puVG85MXFiWkJkeXZUYXJQRUtPZUpfTVFVcXU5UUpvZ3pzbnc5Rm1jUi1hYkc0Y2FjcXA?oc=5",
+      "published": "Sat, 04 Jul 2026 07:00:00 GMT",
+      "source": "Korea JoongAng Daily",
+      "query": "\"K-beauty\" skincare US sales"
+    },
+    {
+      "title": "TikTok-fueled K-beauty boom triggers a retail race in the U.S. - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hVXdoeVB2TmNYb2tKWXVXUlVTVVlodW5KdEs1ZF9RdGt6c3NwTDNNV0RfMVViN0Zzc3pZc1RaeXRTV0djV3hMRHM3R19XeVpMVjl0THFZUFJDSTVUbjVVX2VlaF9ldXNKMVg40gFwQVVfeXFMTUhCZjJwVmNVZWo4LVVTZWtKb0FnZXhUUGs1aWR4cDMwejAza1JlNlJGemFTbURkQlBLVUhBWWYza2pUMFpUZEJkT093WXZsWHZaQVFfaEQ4YVdGTjJwZGtJYmVrV2Z2UDZEOVVlTDR3Nw?oc=5",
+      "published": "Thu, 27 Nov 2025 08:00:00 GMT",
+      "source": "CNBC",
+      "query": "\"K-beauty\" skincare US sales"
+    },
+    {
       "title": "Five of the best Korean skincare brands you can actually find in the US - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTWc4TWUxblZCeDRxX2NHVEdYUEY3Q09yeUFDclFySVZheFhyZUY2eW95NjduTTJBYWxHdjdOTk1IYzdrVVFsVzVsZ0VfcVN3NzIzLWlZaV82VXJFNENFSVp0am5yVHlxYnZjckQxMTRaNnFzZWdpa0VYUm01UGVjY3VzdUkzQ2E1UDZRdE1tZFIxbEU?oc=5",
       "published": "Fri, 10 Jul 2026 07:00:00 GMT",
       "source": "The Guardian",
-      "query": "\"K-beauty\" skincare US sales"
-    },
-    {
-      "title": "K-beauty effect: Diving into Sephora’s sales, buys & business strategy - Personal Care Insights",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Na2l0X3BMbGxRNV8yLVZpS1NJZFl6bUlzajRYNHBCQ1I4anNRU0pnM3A5dFNkaXVBNzA3anFsZ0tTNVRDNVNUM2VESVM4a3dTcHF6cDAwQUQwdlFld3l4VGxtdWdPVVpLVUpZMDhfOXNmajY3MU9ZQ2hGdVladw?oc=5",
-      "published": "Mon, 09 Feb 2026 08:00:00 GMT",
-      "source": "Personal Care Insights",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
@@ -259,10 +266,10 @@
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "Salmon sperm, snail mucin fuel K-beauty’s US push - FashionNetwork USA",
+      "title": "Salmon sperm, snail mucin fuel K-beauty’s US push - us.fashionnetwork.com",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUjZOLXVSUVkyb2VLZi1fbXVKanpKWU1zaS1yWl9uWkZrY0hZN05ZTzNRRlQzYXpBN2N5Y1RGaEpDUjNUUFBfcktCU2pqRHpQY0FiLS1aWmhLbXRPbmVXOXg2UUIyWHRIRVd3SjZGM3QwOEV1VGE3RUJONWdGTmtqQW8zYktMaFc2djdWUTRWckdyanJKRUFvbnZKQXc?oc=5",
       "published": "Mon, 02 Mar 2026 08:00:00 GMT",
-      "source": "FashionNetwork USA",
+      "source": "us.fashionnetwork.com",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
@@ -294,23 +301,23 @@
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "Shop the best Korean beauty and skincare deals at Amazon's spring sale - USA Today",
+      "title": "Shop the best Korean beauty and skincare deals at Amazon's spring sale - usatoday.com",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMmFVMVdqcDNpelBteE5HX2xSeHVXdzRNUjc0WkpJOWpfRnpxQWJiVnM1dlFxRmd6Wm5EZjMwSHpfUnAwOTlkMnEtSDBVbWxJNVoxWG1jaUxJMElxc2pNUlR0YW8zNWM1NEk4WTBUeUVHeEZnQ3BCSHdkU3N2Unp0aDFmTG5FdldReVpzbFo1YjlmNTlpZGg2Z09keml6eHhMeEJEY2k2NzBCQWFvUmJoS05adTBkUmtfZEx6ZnhjZHFpSFByYTREV3k0bTVUOFUzcWlOU29kSGQ?oc=5",
       "published": "Fri, 27 Mar 2026 07:00:00 GMT",
-      "source": "USA Today",
+      "source": "usatoday.com",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "CJ chases 12T-won North America sales as Lee Jay-hyun elevates K-beauty - CHOSUNBIZ - Chosunbiz",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0xV0xieXBKaXE3V21qOHJZYWZidVo5WXpxUXJKeTF1UW1rRTJGT05XakdJR1dnUW5yenBPZzBzRE1PUVJ0eHhlUGpWZXRWR0VyQVpkVVRjVV9ZcUdWdE5JdFZEMEdsdFVHSlZHQWh6em12NXJ5a3dDUmgzc09zRE3SAZMBQVVfeXFMT0ItUWw5emQ2czlseUpCeUNSNFRIakw5NjJzZmlsMDlaZkhraFN0MWhVLVJDMjh5bUxTWUwzT0Job0x6MXk3MXBQMEExemdQOFl1TTFucGtHcXdlQm1BRG1malNqQm9oTVdVZTlaSEtXMjJ5T0Zka0tHaUNjd1ZjbEtET3BsMTRYN2EwdnFpMjYtb0dn?oc=5",
-      "published": "Mon, 17 Aug 2026 07:00:00 GMT",
-      "source": "Chosunbiz",
+      "title": "Kolmar, Cosmax and Cosmecca post strong Q1 results on K-beauty boom, but margins diverge - Korea Biomedical Review",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0eThobkZDY1pmV21udzVKSk1PNERhRVlSOUxYakxJZTR3LThCQ3ZuWEplUXRZTmJjWWJuMGkzVjZjVWY1QXJUN0pid1ppVk5QLWVtSWFpSk9WLWlfOExYa0t0VkpwQS1VRzU5aTVR0gFyQVVfeXFMUFRzUVQ5RDVFbmdCZUN3ZUxmbWw3cVlxbXV6MEloVWN5ZHdfeGhfTjZZWHgyX09yYi1CdGpWaTdCal9YMjFOVE5EcnJaaUxIRUdHdnN3ai1qSFFFaVlxY3ZMdktjMFppb2RlUE5id3RqMWZB?oc=5",
+      "published": "Wed, 13 May 2026 07:00:00 GMT",
+      "source": "Korea Biomedical Review",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "Cyber Week Is Ending Soon—Shop Our Favorite K-Beauty Deals Now - Harper's BAZAAR",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZnI1ZEh4RHROV2d2cmhmaGdGTzRtUmw0OWJIS3RGTUEtaXF3VFBjR2NoVThIdllrbFZNSjNYUDU3clJNbnp4RV9RYTA0VlZiZkJ0elloUzJnRV9YREE3azAtaW5uT19WSGZwNTRDX1BsSTlPckVKYmJvRXo0VV9naDBFdFR0QVZGSUdqR0VDVUZvVkpxdjFMMTU0ZHdPbl9RQkJqWWE0YTF0M3hnc3VocmdQTnNSMDltMUk5SkRuRC1GWFU?oc=5",
-      "published": "Mon, 01 Dec 2025 08:00:00 GMT",
+      "title": "Hudson Williams Swears By This K-Beauty Skincare Brand, and It’s Currently on Sale at Amazon - Harper's BAZAAR",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOVVRWXNFUDRyX25NaEsxTkl2cmxjb1RPX1gyWWZqWkZONUc5MUdjRm4wOENZWGk4bmRjUWNjdzJJRWdxWVd5ckFSZXZKcUFhbno4N1ZuWG90WVV0WTFsZXhYV1UycnJSc2YyMUVFRkhUdkJZVUhKamVyRnVVZGdDX1ZRSElhRF9aOFpyT1VRb0xZLXBYQ3RXTVJZcnFPZkF6LUhTMUktQzV2RmRL?oc=5",
+      "published": "Wed, 01 Apr 2026 07:00:00 GMT",
       "source": "Harper's BAZAAR",
       "query": "\"K-beauty\" skincare US sales"
     },
@@ -322,24 +329,17 @@
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "Kolmar, Cosmax and Cosmecca post strong Q1 results on K-beauty boom, but margins diverge - koreabiomed.com",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0eThobkZDY1pmV21udzVKSk1PNERhRVlSOUxYakxJZTR3LThCQ3ZuWEplUXRZTmJjWWJuMGkzVjZjVWY1QXJUN0pid1ppVk5QLWVtSWFpSk9WLWlfOExYa0t0VkpwQS1VRzU5aTVR0gFyQVVfeXFMUFRzUVQ5RDVFbmdCZUN3ZUxmbWw3cVlxbXV6MEloVWN5ZHdfeGhfTjZZWHgyX09yYi1CdGpWaTdCal9YMjFOVE5EcnJaaUxIRUdHdnN3ai1qSFFFaVlxY3ZMdktjMFppb2RlUE5id3RqMWZB?oc=5",
-      "published": "Wed, 13 May 2026 07:00:00 GMT",
-      "source": "koreabiomed.com",
-      "query": "\"K-beauty\" skincare US sales"
-    },
-    {
-      "title": "Hudson Williams Swears By This K-Beauty Skincare Brand, and It’s Currently on Sale at Amazon - Harper's BAZAAR",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOVVRWXNFUDRyX25NaEsxTkl2cmxjb1RPX1gyWWZqWkZONUc5MUdjRm4wOENZWGk4bmRjUWNjdzJJRWdxWVd5ckFSZXZKcUFhbno4N1ZuWG90WVV0WTFsZXhYV1UycnJSc2YyMUVFRkhUdkJZVUhKamVyRnVVZGdDX1ZRSElhRF9aOFpyT1VRb0xZLXBYQ3RXTVJZcnFPZkF6LUhTMUktQzV2RmRL?oc=5",
-      "published": "Wed, 01 Apr 2026 07:00:00 GMT",
-      "source": "Harper's BAZAAR",
-      "query": "\"K-beauty\" skincare US sales"
-    },
-    {
       "title": "The changing face of the beauty industry - Morning Brew",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYVUwRmkzV0hMeUo4Tm1MNWJiaVRINWVobUZ2cTI1OEVKdWtBYVl2Y0FMdVc2dkMwRWhFSFpyVHdoWmI1MS1zTkxSaW1qTnBreERjS05YNWROWC1JYjRVcURmZmxHalAwLWx2SXdYQVd0N3JvVm9RNDEzeWFjQUd3a3VwZWJxamNkTlBXeUdJZEI?oc=5",
       "published": "Sat, 14 Mar 2026 07:00:00 GMT",
       "source": "Morning Brew",
+      "query": "\"K-beauty\" skincare US sales"
+    },
+    {
+      "title": "Cyber Week Is Ending Soon—Shop Our Favorite K-Beauty Deals Now - Harper's BAZAAR",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZnI1ZEh4RHROV2d2cmhmaGdGTzRtUmw0OWJIS3RGTUEtaXF3VFBjR2NoVThIdllrbFZNSjNYUDU3clJNbnp4RV9RYTA0VlZiZkJ0elloUzJnRV9YREE3azAtaW5uT19WSGZwNTRDX1BsSTlPckVKYmJvRXo0VV9naDBFdFR0QVZGSUdqR0VDVUZvVkpxdjFMMTU0ZHdPbl9RQkJqWWE0YTF0M3hnc3VocmdQTnNSMDltMUk5SkRuRC1GWFU?oc=5",
+      "published": "Mon, 01 Dec 2025 08:00:00 GMT",
+      "source": "Harper's BAZAAR",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
@@ -357,17 +357,10 @@
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "Kendall Jenner’s $14 ‘must-have’ highlighter is on sale pre-Prime Day, along with more beauty finds - Page Six",
+      "title": "Kendall Jenner’s $14 ‘must-have’ highlighter is on sale pre-Prime Day, along with more beauty finds - pagesix.com",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jRHdYSnUyb2k2RlZVMEFJQW9WeXk4b25lbGtPaGVUV085a2d1VTV0dE9TZGs4UjVQMjRndWtUeW1xQWpqSWtaUDl6cENPaF9UTDYtbWduc196MjJoTHZkRHR0MEhCTEZTamhwdmxqOWo1Q012aVctd0E5aThBVzg?oc=5",
       "published": "Tue, 09 Jun 2026 07:00:00 GMT",
-      "source": "Page Six",
-      "query": "\"K-beauty\" skincare US sales"
-    },
-    {
-      "title": "Cosmetics Business reveals the top 5 skin care trends of 2026 in new report - Cosmetics Business",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdExYNVlPVDVxbVcyazZFWFU0MHdDVGUwZDd6dlJkR1g0dVhWUTZzdGFRQ1p3bVdlUVhSREMwRlprTkw5ZkU2MmdYc0Y3MWxlNGpxVGwyYmV5VUNHZEF2X2JpenVXT2RZNkltejlMWlVGSkh6VnNzbVMtRmwyTGpVckRaR1Q?oc=5",
-      "published": "Tue, 03 Mar 2026 08:00:00 GMT",
-      "source": "Cosmetics Business",
+      "source": "pagesix.com",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
@@ -378,10 +371,10 @@
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "A K-Beauty Turf War Is Brewing in the US - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbjMtMUU4NkEtMW1fbjNxaE5MU0lkak5PQXp0cUltSEhfZG1rcnlrczZSUUhWT2NzbFJGd21qUjJVRWlVaTJKWU1QQmFBbklONzFieG1mTUJ5SldaSmVVbEpoWHJ0aDBfMHZIamlEbmdmbE1xNDh3YmhDc05nX190bHFjLS05NHVDTHBzcnF0TW5kMHhRSk5KOXJ4aw?oc=5",
-      "published": "Tue, 14 Oct 2025 07:00:00 GMT",
-      "source": "Business Insider",
+      "title": "Cosmetics Business reveals the top 5 skin care trends of 2026 in new report - Cosmetics Business",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdExYNVlPVDVxbVcyazZFWFU0MHdDVGUwZDd6dlJkR1g0dVhWUTZzdGFRQ1p3bVdlUVhSREMwRlprTkw5ZkU2MmdYc0Y3MWxlNGpxVGwyYmV5VUNHZEF2X2JpenVXT2RZNkltejlMWlVGSkh6VnNzbVMtRmwyTGpVckRaR1Q?oc=5",
+      "published": "Tue, 03 Mar 2026 08:00:00 GMT",
+      "source": "Cosmetics Business",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
@@ -389,6 +382,13 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMFlEeGkwTHh2eUpETzhqOHRQaU5FdTc4RUc4MW9SZGRwakQ4UzBsQ0RudklLUVFtbVZNcjF3NDZHUmdxSkQxdFFmVDlUMDB2a3c1YUp2YkdzWldMc09DWWJ4d0lzZWdBNlU1VVlmdnA1anlnU3ZLYlJvY01LWlM2cjRpVjVlQm5aTkY4TlZKSVhSa2VwXzdCLWxJbVo3cXUtcnAzWmZ5LWRDcTlyM1gxVDZmcl9Tek8zU2QwRUFB0gHDAUFVX3lxTE12djh4WDBUYm10SUs4SGxFOHo2aW9ENW9XUzJsVzJiZXJ5YmcwSkd5ZjAxNFM3VzZFREVXaWxGc01TZ3NnLWk0WHJvelZsMk1pSjB4MHNUQ0NEODItUnVBdjhUQ1RYLXZxWnZaMGpXdUlfZHg2TnhwTmY5bUlMcTE1M0pCMzhQMU5jNGkwMHJkdVVza1hDeDRiWlVIWXotSktNV2YtVjdLaG9KRE9RU1JyYk5WU1hQZlQwdlJTb0NIdFpZTQ?oc=5",
       "published": "Fri, 27 Mar 2026 07:00:00 GMT",
       "source": "koreatimes.co.kr",
+      "query": "\"K-beauty\" skincare US sales"
+    },
+    {
+      "title": "A K-Beauty Turf War Is Brewing in the US - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbjMtMUU4NkEtMW1fbjNxaE5MU0lkak5PQXp0cUltSEhfZG1rcnlrczZSUUhWT2NzbFJGd21qUjJVRWlVaTJKWU1QQmFBbklONzFieG1mTUJ5SldaSmVVbEpoWHJ0aDBfMHZIamlEbmdmbE1xNDh3YmhDc05nX190bHFjLS05NHVDTHBzcnF0TW5kMHhRSk5KOXJ4aw?oc=5",
+      "published": "Tue, 14 Oct 2025 07:00:00 GMT",
+      "source": "Business Insider",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
@@ -406,13 +406,6 @@
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "Kardashian endorsement of skincare gadget creates K-beauty champion - Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMHdmYmFiWUJRRmRPQTZ0X29tMEJ1MER6NlJLQUUtN1RQaU1IOXl2N2dheTJreXhyajdGeERtR2RnSnYyOFEtRHpUVXdLcHh4Z2tVTGpPQS1VMmpUc3AwMGR0MUtZc0pmYnFjeEZZaUtOLVBUbU9Xd1dIcUU0TXZCT3k4Z3E?oc=5",
-      "published": "Mon, 20 Oct 2025 07:00:00 GMT",
-      "source": "Financial Times",
-      "query": "\"K-beauty\" skincare US sales"
-    },
-    {
       "title": "K-Beauty sweeps Amazon best-sellers list during US Black Friday - KED Global",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBtUlM4SzlfR2V1T2xxdGtfbUdPanBtY1RyeEtKMEUxcWJHREVEcVpFZmpBTGVMRElYTXRXQUc0WFJ1Z3FVY2MySWxyRFUxWnJuVXJZRWRHWi0xdUd6MG8wSlhJczdpUUJRdDNzdC16bUJUeWRQd2c?oc=5",
       "published": "Mon, 08 Dec 2025 08:00:00 GMT",
@@ -420,10 +413,10 @@
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "Koreas CJ picks safe site for first U.S. Olive Young store to test offline popularity of K-beauty - Aju Press",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tYXMxQ3o0OE0tei1wa3RwS1A3UmhpX3VlYm4yaXZ3N2RrenkycHdUMjJraElpQktxTGM3eDBFR014aUN5MlFHZ25ZRzlFcFIzQk9DREN6ejN3c2PSAVdBVV95cUxQc1FXYWk1NnpVMTBFVUFrZ1lUdGdXdmMxZ1NzZ0ZudTFtUUNGYmgycGpXY1c0cGxmSzJmNGMwZzRXZTdXYmdHQ1FUU2dHajJqOVc1bXJoOGs?oc=5",
-      "published": "Fri, 05 Dec 2025 08:00:00 GMT",
-      "source": "Aju Press",
+      "title": "Kardashian endorsement of skincare gadget creates K-beauty champion - ft.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMHdmYmFiWUJRRmRPQTZ0X29tMEJ1MER6NlJLQUUtN1RQaU1IOXl2N2dheTJreXhyajdGeERtR2RnSnYyOFEtRHpUVXdLcHh4Z2tVTGpPQS1VMmpUc3AwMGR0MUtZc0pmYnFjeEZZaUtOLVBUbU9Xd1dIcUU0TXZCT3k4Z3E?oc=5",
+      "published": "Mon, 20 Oct 2025 07:00:00 GMT",
+      "source": "ft.com",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
@@ -431,6 +424,13 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaEFkcWhMdDdlUnJBelpLRUU4QmtlNXNXR2dSTGdZT3RGdmtEWng5TlpEbVVhSjJhSlhFdlp0dlpvTkNla25yNDdmMVFCMDNCQnNFMFFzR3RhX2t4dVYtd1hhQ19OZDhLeE43bldyS3I3cmRNS3NFZm1RdUxzTXdxWG5Za3RueVZpbWJFcU1mZ1NPV3phTUxEX9IBngFBVV95cUxQOEtvb2dRRmNqNFFwc2QyZ1JfNTRpT0JRVldMRm5pY3hOT3o3ZHlrVHZTbmYwQ0M5bDJfNW5kb0k4dFZYRC0wX1dfODdDc1FFQWc5cl9JN0lKaXFNd0J5T3RwWi1wZGFmemtqajcxYzFVYWN2eXJoOW1teDRCVkZjcVdGeE5vRTFCUmpOZUxBRDM3bnNPNUU3elU0VmhmZw?oc=5",
       "published": "Sat, 18 Jul 2026 07:00:00 GMT",
       "source": "CNBC",
+      "query": "\"K-beauty\" skincare US sales"
+    },
+    {
+      "title": "Koreas CJ picks safe site for first U.S. Olive Young store to test offline popularity of K-beauty - Aju Press",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tYXMxQ3o0OE0tei1wa3RwS1A3UmhpX3VlYm4yaXZ3N2RrenkycHdUMjJraElpQktxTGM3eDBFR014aUN5MlFHZ25ZRzlFcFIzQk9DREN6ejN3c2PSAVdBVV95cUxQc1FXYWk1NnpVMTBFVUFrZ1lUdGdXdmMxZ1NzZ0ZudTFtUUNGYmgycGpXY1c0cGxmSzJmNGMwZzRXZTdXYmdHQ1FUU2dHajJqOVc1bXJoOGs?oc=5",
+      "published": "Fri, 05 Dec 2025 08:00:00 GMT",
+      "source": "Aju Press",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
@@ -476,10 +476,10 @@
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "Sephora doubles down on K-Beauty hair care - glossy.co",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5nTFJENG9Pd1NLMHFkMk9zbnFNRUo4bXJLYlFsaGNDQ2xpNnJycVJmNFJfblJGeHlpbUtRVGp4QUY1UkxmSlRBLXJMQWppRWM2WHc0Z1ZJTHhfOExYU3hIeE9JM2hqaWNJa1dmVzZsMUJjRk5md2dsaXFObks?oc=5",
-      "published": "Thu, 05 Mar 2026 08:00:00 GMT",
-      "source": "glossy.co",
+      "title": "Why Korean Beauty Products Are Appearing in More Mainstream U.S. Stores Than Ever Before - Us Weekly",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObk9pR1JvZ1I2Q0tPQXVvUHRGU1djM3laSGlMNUc0eldHLVRlYjgwS0dFdllib2l5bFNPWU95Yk56eW0tMDFpZ3hiYVF4RFZnZWlQUUhpZ09mTjFEeVkzaEkzcEZJTVcyYURGQnNtTTZzU1otNWMyOTJHUjVjVlRsSzJMLUt2UG5xXzBpcjB4TTJlUm8waFFwVVNCaGwwU1pnbW5oWkp0WWhRaG9a?oc=5",
+      "published": "Tue, 01 Sep 2026 07:00:00 GMT",
+      "source": "Us Weekly",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
@@ -497,10 +497,10 @@
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "K-beauty hits US mass retailers and scales domestic production as tariff clock ticks - Personal Care Insights",
+      "title": "K-beauty hits US mass retailers and scales domestic production as tariff clock ticks - personalcareinsights.com",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1DWVJ5ZHNxSXYxMEVMM2xRUXVOdnZyaDhiT0gzNlNscUZ5elI5cF85OWJoRnUxSVBzblJTU2J2U1FneDljLXpmV0dLVHF6eVlscnptQWp1bTZwVHVwMW9jVGpTTmJyRC1Ldmp5ODlTd1VHOUxGMU83SFpWcVdyQQ?oc=5",
       "published": "Wed, 23 Jul 2025 07:00:00 GMT",
-      "source": "Personal Care Insights",
+      "source": "personalcareinsights.com",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
@@ -525,31 +525,24 @@
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "South Korea’s cosmetic industry ranks third globally as exports reach US$10B milestone - Personal Care Insights",
+      "title": "South Korea’s cosmetic industry ranks third globally as exports reach US$10B milestone - personalcareinsights.com",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMUdWa0ttYV8yOTJkUVE1QUpiRl82MXViU3AwTElaWVB1V3NYbWo4VTZSUVVyZkNXTGM4b0l4bWJfVnVUNjBDQmN6QjNqRW1JQmMzYjBQNE4xTmE2RVczaUVfSEppX0NqNEsyVFpDYnRkMkhLY2JaSG9YRDZyVGt4Wmx2LVdkTFdS?oc=5",
       "published": "Fri, 30 May 2025 07:00:00 GMT",
-      "source": "Personal Care Insights",
+      "source": "personalcareinsights.com",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "K-beauty brand APR breaks Q2 sales records on global Medicube boom - koreabiomed.com",
+      "title": "K-beauty brand APR breaks Q2 sales records on global Medicube boom - Korea Biomedical Review",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyaXNiemZISW4xbTZ6M01nTlN2TGxRU0ZFREUzMTVNVHBiZjJpRHpZVEUxRThFTWpQS0VNd0RtLVRvMmsxRFBzdVhjNHdXRlpkbG9jS0RybGhMSk14V0hJS1h2angyZnFmX3UySmRn0gFyQVVfeXFMTUd0WVU2WHpSenFaeFlNR2lHem91RnZod2J6TTFHUXR6UTB6ZnlnMnlDME1mdHhMM1BQY3kzTWR6ZUtBSHQwck5YU3JHYncxRXYzRUcwemlpWnZycVV2S1dMYmhIX3o3U1JjbzNyd2pMWDFR?oc=5",
       "published": "Wed, 06 Aug 2025 07:00:00 GMT",
-      "source": "koreabiomed.com",
+      "source": "Korea Biomedical Review",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
-      "title": "Europe looms large as K-beauty brands look to blue ocean; shares rise - KED Global",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1XdEd0bEI2eDMwTjZ3YWJxOFpKODdvS3FHVFUtZTM3eXVXcFJvbWhJN1lfRDFsTWJOTVVRbTZ5OVN3d0pyODgtTkVEckNYZGVGS0h2MVNHb0w0M25QTjhabjY3ZTROMFd1QUVUNHpXNDRuUk5qbUE?oc=5",
-      "published": "Fri, 23 May 2025 07:00:00 GMT",
-      "source": "KED Global",
-      "query": "\"K-beauty\" skincare US sales"
-    },
-    {
-      "title": "TikTok-fuelled skincare routines mint South Korea’s latest billionaire - scmp.com",
+      "title": "TikTok-fuelled skincare routines mint South Korea’s latest billionaire - South China Morning Post",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSWN3YVlCRGVoY2hxVTdVd2J4eHNwWFFCSTdYVkRmOWNfMDZXRllwSVVIYkE5QnllR3RwN01Tc3o5RHdXSloza0s4Tm5iV2dzWUVORnBpWlprMDZPdktDQTR1OUhNSHpWR3FjZEIzRFJoYUktMjI5VTVhYmZxTUNuS3dZT3l4c3ZVQWt5RWhZWGdnT3NRNEVaUjJHZThMTGZ2aENQYlB2VkZRbjdOTWVGdjYxdDVuQVQ5aWE5MEhFQnRBQjZV0gHEAUFVX3lxTE4zTE1Ray03TG02OWxTVDlOLTc5RFFkNFBIZEkzalFBeDJrcXdOLUdMME1WNFFFNHJ6M25KU0dCMl92ZTZWYWhaUi01aVFlSnA0V3B5dHoyUnQ0XzRGOGozbG5WTTdXZGh1WGdJX1N2Yy1KcDJJOHBGRzNlOGZWcVFieXZKeWc1MjVNUWU4eWoyYW5BT0I0V1lGTTNGb2pLZ0RGRmtHTEhaNnN4U1B5TnAwXzhUMXMtWXV3dDA2UjJHNW1aNVI?oc=5",
       "published": "Tue, 08 Jul 2025 07:00:00 GMT",
-      "source": "scmp.com",
+      "source": "South China Morning Post",
       "query": "\"K-beauty\" skincare US sales"
     },
     {
@@ -560,17 +553,17 @@
       "query": "Korean skincare essence serum trend United States"
     },
     {
-      "title": "I Test Korean Skin Care Products for a Living—These Are My 10 Favorites - glamour.com",
+      "title": "I Test Korean Skin Care Products for a Living—These Are My 10 Favorites - Glamour",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mV053TUFuLWQ5YWhUV2g3WDZvYmlQRk5Bc0Fpb0VRQUw2UERlbGc1bVE5T3M0a0JlbUxkQ0t1ZV9nOTlVZmoxdElFMFdWdlNQdU40YVdVaFVFMHFPdV9QZUxvMUNEQmU5bVliUQ?oc=5",
       "published": "Mon, 29 Jun 2026 07:00:00 GMT",
-      "source": "glamour.com",
+      "source": "Glamour",
       "query": "Korean skincare essence serum trend United States"
     },
     {
-      "title": "The Best Korean Beauty Products, According To Editors & Experts - Coveteur",
+      "title": "The Best Korean Beauty Products, According To Editors & Experts - coveteur.com",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ueDcxeXh1TTFoT3FhbHFneENjaW9lMVJxQkRYNzRSU1RjZ3R1bkZyYkRLMmJ6VXdQLWNTRktaVDdnWFl6c0dBc2NaRFI4V3A2d0IwRVJXOHoyT1Z5?oc=5",
       "published": "Mon, 24 Nov 2025 08:00:00 GMT",
-      "source": "Coveteur",
+      "source": "coveteur.com",
       "query": "Korean skincare essence serum trend United States"
     },
     {
@@ -581,10 +574,10 @@
       "query": "Korean skincare essence serum trend United States"
     },
     {
-      "title": "24 Korean Skin-Care Products That Will Completely Transform Your Routine - Allure",
+      "title": "24 Korean Skin-Care Products That Will Completely Transform Your Routine - allure.com",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BQ2IzSWdOT1JQbDdCNEh2SXgybWROc3ptY2U3MDlXM0NWTWZ1T0V3c1FVcC1tZjJMTzN6RlVnaDk5djZQZTJhWE9rblRPb2dodDUwUU9XbEVYekp1dWxXZ19Sdm9GdlU?oc=5",
       "published": "Fri, 20 Mar 2026 07:00:00 GMT",
-      "source": "Allure",
+      "source": "allure.com",
       "query": "Korean skincare essence serum trend United States"
     },
     {
@@ -651,13 +644,6 @@
       "query": "Korean skincare essence serum trend United States"
     },
     {
-      "title": "7 Korean beauty ingredients that will make your skin glow, according to dermatologists | CNN Underscored - CNN",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9QSjEtay14Nms3Y0xKSDVUUnEwZUJ0LXFXNUo5dWpjQXNUX2dPaVkwNG1KN0ZLd0cxYnFkVEh0V3R5Mjh6a1VEb19YTldKZV9lSnBuSlk5STdQMFhrUVRJeDJjZVhPS0Q2NHVyMGtwWU9MMTlOMWFtR3djQzJNZw?oc=5",
-      "published": "Sat, 09 May 2026 07:00:00 GMT",
-      "source": "CNN",
-      "query": "Korean skincare essence serum trend United States"
-    },
-    {
       "title": "The surprising truth behind Korea's most effective skincare products - BBC Science Focus Magazine",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QV3RKV0YtanBaLThoaDNzb2gyWTRUTy1xRTBvSHhLOElFT29DbHFpeklxZmNiQ0wwT1loQ0o1bW0xRHVCQ0V1dkx6akpQTEl0aEtUNVlkV1p2M1lEb0RETDBLQi1tTzJ2R0E?oc=5",
       "published": "Sun, 07 Jun 2026 07:00:00 GMT",
@@ -672,10 +658,17 @@
       "query": "Korean skincare essence serum trend United States"
     },
     {
-      "title": "The 5 Biggest K-Beauty Trends of 2022 - Allure",
+      "title": "Formulating on Trend: K-beauty 'Glass Skin' - Cosmetics & Toiletries",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcnVzWkl5eTdCQ0owZHZrOVg1MEpHQUwxS1RvUWgyNkN4MmRjWDRqalMwajZlcDNqa3JXWWE0b3pFQkx2cGVaemQza1lNV3FDc01kM01NUHdqTVJNRGNRV2RnTy0wNDdFandYcmFPWmUxZ2sycEJMQzR2LXlpQjVVX0dhS3dLWXA1SjBVdGZsQnliX1BrZy14ek9weVl1b0VuVjdUOU9ldTBMbmY3WXBCbHB1UQ?oc=5",
+      "published": "Tue, 23 Nov 2021 08:00:00 GMT",
+      "source": "Cosmetics & Toiletries",
+      "query": "Korean skincare essence serum trend United States"
+    },
+    {
+      "title": "The 5 Biggest K-Beauty Trends of 2022 - allure.com",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54Q1p6M0hGZDRGM1hfd3ZzOUVRRGRlSjRFN0VpWkdONTVXRm45WEdXVWtDUFBpcXpnRmxCWlBTclE0dmpJS2pVczdaa19JcmoxTE54ZVZqWE9CYm91RTg4eEJ4YWRKVXJWbnpnSDJKQVdkUQ?oc=5",
       "published": "Sun, 27 Mar 2022 07:00:00 GMT",
-      "source": "Allure",
+      "source": "allure.com",
       "query": "Korean skincare essence serum trend United States"
     },
     {
@@ -693,13 +686,6 @@
       "query": "Korean skincare essence serum trend United States"
     },
     {
-      "title": "Formulating on Trend: K-beauty 'Glass Skin' - Cosmetics & Toiletries",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcnVzWkl5eTdCQ0owZHZrOVg1MEpHQUwxS1RvUWgyNkN4MmRjWDRqalMwajZlcDNqa3JXWWE0b3pFQkx2cGVaemQza1lNV3FDc01kM01NUHdqTVJNRGNRV2RnTy0wNDdFandYcmFPWmUxZ2sycEJMQzR2LXlpQjVVX0dhS3dLWXA1SjBVdGZsQnliX1BrZy14ek9weVl1b0VuVjdUOU9ldTBMbmY3WXBCbHB1UQ?oc=5",
-      "published": "Tue, 23 Nov 2021 08:00:00 GMT",
-      "source": "Cosmetics & Toiletries",
-      "query": "Korean skincare essence serum trend United States"
-    },
-    {
       "title": "The 42 best Korean beauty products for glowy skin, according to dermatologists - CNN",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9XUWw4bWVUVG0xVVlObWpfYlB3QUpXb1I1c3l4VEtwSXF0d1dQeUZzakh6ZWlTbFFSMmZEWEVEdDhwZm15YzJRREk4VkJWdEJVcFU0RThvTV9kYS0teTk5cUtKUFZ5aU1NM0xCckNweXFMeXUyN2xjYy1R?oc=5",
       "published": "Thu, 23 Jan 2025 08:00:00 GMT",
@@ -707,10 +693,10 @@
       "query": "Korean skincare essence serum trend United States"
     },
     {
-      "title": "These Hydrating Essences Are the Key to Glass Skin - Allure",
+      "title": "These Hydrating Essences Are the Key to Glass Skin - allure.com",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QMHRiRWhqMFJhRWo1aWxHUTVLR1paMzVfUER4QWxtNHN3cWNKZmQ3eWtUM3prYlhHTGRlSzZ4MF9PLWRtR0M3MzdySTRsUE9aTkNEd19FSTFaSDFYQkp4dg?oc=5",
       "published": "Sat, 06 Jul 2024 07:00:00 GMT",
-      "source": "Allure",
+      "source": "allure.com",
       "query": "Korean skincare essence serum trend United States"
     },
     {
@@ -721,17 +707,17 @@
       "query": "Korean skincare essence serum trend United States"
     },
     {
-      "title": "The Biggest Skin-Care Trends of 2026 Have Us Going Back to Basics - Allure",
+      "title": "The Biggest Skin-Care Trends of 2026 Have Us Going Back to Basics - allure.com",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5aS3EzTzVLRW92dHVHUzBZNWhXZElzbTJOYVNGZVVDbmNwS2VaT3FCNkJ5RHo1R0o4N3gtNHpUeERxQmRkb3NTeDFTZFhGUno5TGZIVTh6YV9MaFhxcHln?oc=5",
       "published": "Wed, 07 Jan 2026 08:00:00 GMT",
-      "source": "Allure",
+      "source": "allure.com",
       "query": "Korean skincare essence serum trend United States"
     },
     {
-      "title": "Amazon Is Home to Our Favorite K-Beauty Products - Allure",
+      "title": "Amazon Is Home to Our Favorite K-Beauty Products - allure.com",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBKVGtYN1RLbnJJRzhIOUVFRGs4ZHZuM0VHY2JCRTBCNXN2UVVEaDhVOWhBNXNVRFpYZkowcUpCOXBqeFpDeWhUOTZYTzd0M3NZNnVNeFJEbkx3RGJHc3BvTHZHOHNYYnJiVk9lTQ?oc=5",
       "published": "Sat, 06 Jun 2026 07:00:00 GMT",
-      "source": "Allure",
+      "source": "allure.com",
       "query": "Korean skincare essence serum trend United States"
     },
     {
@@ -756,17 +742,17 @@
       "query": "Korean skincare essence serum trend United States"
     },
     {
-      "title": "9 New Skincare Trends That’ll Be Everywhere In 2024 - refinery29.com",
+      "title": "9 New Skincare Trends That’ll Be Everywhere In 2024 - Refinery29",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1uOXR5dmVYR2MzdU5JT0VXVVVleFhrNEk2RVpiTjNIaXMtTmFuakN3MU5Vb3FLZ0htWnlLRTlCSGw4WHhUXzc0QkMxN3JNRDVSbUhya3pXM2VZSzhKZE1iR3ZjUQ?oc=5",
       "published": "Tue, 06 Feb 2024 08:00:00 GMT",
-      "source": "refinery29.com",
+      "source": "Refinery29",
       "query": "Korean skincare essence serum trend United States"
     },
     {
-      "title": "Bring the Bounce Back With a Collagen Mask - Allure",
+      "title": "Bring the Bounce Back With a Collagen Mask - allure.com",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4tTWNyNk1GOFRVNHMxTk1qMVZ3ODNhMUF5Q0JZS21CTVlzY0wySklBcS0tb2VGQ0dvVjVuOVBsMDR2N3FsajJrNGF5Qm9DTGRQalNEX0laUEZYYnp3?oc=5",
       "published": "Fri, 09 Jan 2026 08:00:00 GMT",
-      "source": "Allure",
+      "source": "allure.com",
       "query": "Korean skincare essence serum trend United States"
     },
     {
@@ -784,24 +770,17 @@
       "query": "Korean skincare essence serum trend United States"
     },
     {
-      "title": "5 Tips A Korean Beauty Expert Swears By For Glowing Skin In Winter - refinery29.com",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ueThvNmU4TzZwQzBzZGlrMzJZNmExZVlCeXdnYW5kVm5xckloeWk0LWgzQ3pNeTZQZlRaVFpZUHFzTnpaWnpUZ1IzMXhHMFBpdnlWTHBneUhNWXRwRXlmQ3FKTWxJejBYMUo1ZlAzLTIyNEFObWlzSXhaNmY?oc=5",
-      "published": "Thu, 21 Oct 2021 07:00:00 GMT",
-      "source": "refinery29.com",
-      "query": "Korean skincare essence serum trend United States"
-    },
-    {
-      "title": "What Is Snail Mucin? Benefits, Side Effects, Usage, More - Everyday Health",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa1hIdC1keUFteVZlN1VRU2ZSeDljdzNqUTRDb1JuTjZuQWQwYTN1b21tN2RsWVpPSmJpMHhjcWxFOXNrN21oOWloZ2lRbWRUMWtYLTNkczk4MUVFSG5QU3d4NjJQNmxsTzlVRVJOSzZ4Z01ZeXIyYk1ha3U1cVJwS20tbw?oc=5",
-      "published": "Mon, 23 Jan 2023 08:00:00 GMT",
-      "source": "Everyday Health",
-      "query": "Korean skincare essence serum trend United States"
-    },
-    {
-      "title": "Black Women Are Making Korean Beauty Their Own, One Sheet Mask at a Time - highsnobiety.com",
+      "title": "Black Women Are Making Korean Beauty Their Own, One Sheet Mask at a Time - Highsnobiety",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53TGpCZFRsaDRNNDBCdk1faFZhMzBxSE5UVFBYd1NYMGJtY0RpdW1reFMyX2Q4NVFlV1VSd0podV9YMUFFbHNXSUh3MC00cS1xcHZ2OG5BUjZ6cm1iMzBrb05ZcXg3bk95LUxPakotUVVhRk9Z?oc=5",
       "published": "Thu, 20 Jul 2023 07:00:00 GMT",
-      "source": "highsnobiety.com",
+      "source": "Highsnobiety",
+      "query": "Korean skincare essence serum trend United States"
+    },
+    {
+      "title": "5 Tips A Korean Beauty Expert Swears By For Glowing Skin In Winter - Refinery29",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ueThvNmU4TzZwQzBzZGlrMzJZNmExZVlCeXdnYW5kVm5xckloeWk0LWgzQ3pNeTZQZlRaVFpZUHFzTnpaWnpUZ1IzMXhHMFBpdnlWTHBneUhNWXRwRXlmQ3FKTWxJejBYMUo1ZlAzLTIyNEFObWlzSXhaNmY?oc=5",
+      "published": "Thu, 21 Oct 2021 07:00:00 GMT",
+      "source": "Refinery29",
       "query": "Korean skincare essence serum trend United States"
     },
     {
@@ -819,6 +798,20 @@
       "query": "Korean skincare essence serum trend United States"
     },
     {
+      "title": "What Is Snail Mucin? Benefits, Side Effects, Usage, More - Everyday Health",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa1hIdC1keUFteVZlN1VRU2ZSeDljdzNqUTRDb1JuTjZuQWQwYTN1b21tN2RsWVpPSmJpMHhjcWxFOXNrN21oOWloZ2lRbWRUMWtYLTNkczk4MUVFSG5QU3d4NjJQNmxsTzlVRVJOSzZ4Z01ZeXIyYk1ha3U1cVJwS20tbw?oc=5",
+      "published": "Mon, 23 Jan 2023 08:00:00 GMT",
+      "source": "Everyday Health",
+      "query": "Korean skincare essence serum trend United States"
+    },
+    {
+      "title": "Meet the Best Skin-Care Products of 2026 - Vogue",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsYlllZWhBNlhwLUJFTmY0ZFo4Q3BrY29QMFZhcjZXcFB4Z0tIQ0EtYURndFlFZ2tsLWdPTnpyeVVPWW4zMlpPd1VmOThCRmY0aFpUZjBrYTdTdWZl?oc=5",
+      "published": "Mon, 27 Jul 2026 07:00:00 GMT",
+      "source": "Vogue",
+      "query": "Korean skincare essence serum trend United States"
+    },
+    {
       "title": "The Ultimate Guide to Getting Glass Skin - Healthline",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sMEo0cjJFTTBmV3dRZzBzRzRHSWdabUtXR1lZb0ljTTBxQ3NQQURUaUFsLVhEbG1XR1hfV0lUTEJBUkhpcU5vSzV5cmVUak1TbC1KSWRKVFRMbmxuWlkzM0JKckdYWVhIcDVLdUJiMGgxWDZMUFdWTUNEVVo?oc=5",
       "published": "Fri, 16 Oct 2020 07:00:00 GMT",
@@ -826,24 +819,24 @@
       "query": "Korean skincare essence serum trend United States"
     },
     {
-      "title": "Beauty Expert Shares Top Korean Skincare Hacks - harpersbazaar.com.au",
+      "title": "Beauty Expert Shares Top Korean Skincare Hacks - Harper's Bazaar Australia",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVDJLcGc2Ykg3bFNvRE1IQ09JQUN6Y2xpeWZGd0p5WGVvQUtCUFFpanh0cEV2N2JORHlpZVByaVFhaWdCSzVhUnI2NDVrV1NNc0M4QUxHYkdWcThiMDJKVGFjbi1iVEpCM0pKeDJXMXF4UWxBc1hEb2pkeVQxRWVPeW1n?oc=5",
       "published": "Thu, 01 Jun 2023 03:45:54 GMT",
-      "source": "harpersbazaar.com.au",
+      "source": "Harper's Bazaar Australia",
       "query": "Korean skincare essence serum trend United States"
     },
     {
-      "title": "From watery lotions to snail slime, why better skincare counts - scmp.com",
+      "title": "From watery lotions to snail slime, why better skincare counts - South China Morning Post",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOek1OT21mN29qU1pfZ1BjM0tjQjlVc3c0akNvbkgtS1pNZi1rMWZwQ1F6ZGp5bGtSaW1Eem5DbjUxQ0hmbW5JZmRnZGw1WXNOWUJCdkFMTkJjRUlmWHowRFJlZEktTlpIUWw4cGRPdGo2VE9MU2R2V2hYS2lsSjVtYkpqbURvVXhudlpHeTY1dmoxRXpIeFYyR0xqUUZCLTBJQ0s1WS1lOVQxdW5yODl3MGhESVPSAbQBQVVfeXFMTjhyYlhJMnpnU0NSOGpEOVBNajNvMEpDV0x5ZmtUX2czYnNnUS1UbXpaMGJSUzJ6YlJoM09pdnJ5ZUVXNXlGNWotMVBMX29sNi1VNldfWkpOS2NQWDFXR3JkNXR0Y1FMbEl3MFdPcWgtT0RyZXlqODhkUkRsUEo3TW1leHBnMVlzM2dpSEZhTWRDcTBVSkc5dmVtUmJ6YkZoZm03aFI1MHc5Q0paclZxUGRTSUxk?oc=5",
       "published": "Mon, 11 Mar 2019 07:00:00 GMT",
-      "source": "scmp.com",
+      "source": "South China Morning Post",
       "query": "Korean skincare essence serum trend United States"
     },
     {
-      "title": "10 New Skincare Trends That’ll Be Everywhere In 2022 - refinery29.com",
+      "title": "10 New Skincare Trends That’ll Be Everywhere In 2022 - Refinery29",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BOE42dmVHQXMwZkFQaTFFaHFLWlk2NzliUGtzRGlpekZ1UUIwV3oxQ3d0RDZaVjAyMW4wZnVVTzlxR2RqMWpnQ2lhZFNWbDVzQjEyb245M1VwT01fdDhQVE4tTQ?oc=5",
       "published": "Tue, 23 Nov 2021 08:00:00 GMT",
-      "source": "refinery29.com",
+      "source": "Refinery29",
       "query": "Korean skincare essence serum trend United States"
     },
     {
@@ -851,13 +844,6 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhMllFQUlQVUoyNTYzeUM5S3ZNaERzbUNYR043VzNBc3FkZ0Ewb2lXTDNiU2duRE1zdE1leDJISm9UdC1rRG16WVdhdTV0SjlVRmR1ZXpYNWx4WUpfYWxDdw?oc=5",
       "published": "Thu, 13 Nov 2025 08:00:00 GMT",
       "source": "British Vogue",
-      "query": "Korean skincare essence serum trend United States"
-    },
-    {
-      "title": "Dermatologists On The Big Korean Skincare Trends Of 2021 - FZINE Singapore",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZjc4QjBwRGxnTndKLUFRbmpCbmFLR1dMZlg2bDJDYlJRVGtrYWFzaFhuQWR4X3R0Wk4xWVlHdzJiaDVqc0ZUbzBXNFJnQ3NkV3JRV3FBcWxwMXJKRkttUU9Pc0JockxaUTJmMHhyV05LeXRkQ2lITUo4RVVEejh4dkNrdmRDYk9SOTBfaUNyUWgzRFljZzBF?oc=5",
-      "published": "Sat, 08 May 2021 07:00:00 GMT",
-      "source": "FZINE Singapore",
       "query": "Korean skincare essence serum trend United States"
     },
     {
@@ -872,6 +858,20 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNU0gtVnBXaFQ3ZnYxWG9DN2ZneXNQdy1UVE1RUWZVUmJUdzJua1g0Qk9NcXBmVWNpckQ2SmVsd092NlNyeGtDUXdUOFBMNERlUkQzNGhfbmVpNDFFNjhoVUZpOGZtbTQ?oc=5",
       "published": "Mon, 05 May 2025 07:00:00 GMT",
       "source": "AWISEE.com",
+      "query": "Korean skincare essence serum trend United States"
+    },
+    {
+      "title": "Korean Skincare Routines Disrupted by Trump Tariffs - Kompas.id",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOFNCQTZWSzlfazVxaGdQdTBnZlljT2xHek5JaTd2bXZkWWRqYkxuTGJ3cHRsS2M4Y2VaTWdIZGtkVGItY0pOeGk4YmhTVmljRlZqaDZfQjNqZTNLM292R012TFFvam5wVEZqWnJhVFJwY0ZKWGEyMDRZdjNYQTFEaWJnQm4tVk1Xc09tUThRcWh1Nm1nc3lLV2VXNGQ3S200cFE?oc=5",
+      "published": "Mon, 04 Aug 2025 07:00:00 GMT",
+      "source": "Kompas.id",
+      "query": "Korean skincare essence serum trend United States"
+    },
+    {
+      "title": "[Bloomberg Column] The Real Face of K-Beauty - 아시아경제",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9kMnRubjdwZEJ3SGtQM3ZSS09BV2dTOGc5UzBia19RQXNDeDc0TDcwZ2w4bk84LXpYQ09EX0ZaR2hqcWRmMmFaYi03aVFLdkVkTDFyQWV6azh6Zk1OYVA2SXBaOXc?oc=5",
+      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "source": "아시아경제",
       "query": "Korean skincare essence serum trend United States"
     }
   ]

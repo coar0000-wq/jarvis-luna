@@ -2,7 +2,7 @@
 title: "Record 374 · 32eP-Long-term-efficacy-and-safety-of-adjuvant-icotinib-with-or-withou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.922454+00:00
+updated_at: 2026-09-10T02:54:23.335206+00:00
 tags: [record, real-data]
 ---
 

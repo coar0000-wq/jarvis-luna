@@ -2,7 +2,7 @@
 title: "Record 711 · Artificial-intelligence-social-justice-and-public-governance-perspecti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.008201+00:00
+updated_at: 2026-09-10T02:54:23.424873+00:00
 tags: [record, real-data]
 ---
 

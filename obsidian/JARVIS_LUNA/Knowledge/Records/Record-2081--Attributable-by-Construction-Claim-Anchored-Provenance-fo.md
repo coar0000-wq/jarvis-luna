@@ -2,7 +2,7 @@
 title: "Record 2081 · Attributable-by-Construction-Claim-Anchored-Provenance-for-Multi-Docum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.346665+00:00
+updated_at: 2026-09-10T02:54:23.764950+00:00
 tags: [record, real-data]
 ---
 

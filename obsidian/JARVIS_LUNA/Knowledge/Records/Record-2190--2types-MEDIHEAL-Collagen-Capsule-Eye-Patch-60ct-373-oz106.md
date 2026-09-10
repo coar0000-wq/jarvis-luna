@@ -2,7 +2,7 @@
 title: "Record 2190 · 2types-MEDIHEAL-Collagen-Capsule-Eye-Patch-60ct-373-oz106g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.374812+00:00
+updated_at: 2026-09-10T02:54:23.795277+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2169 · Video-Friday-Your-Robot-Surgeon-Will-See-You-Now"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.369346+00:00
+updated_at: 2026-09-10T02:54:23.789265+00:00
 tags: [record, real-data]
 ---
 

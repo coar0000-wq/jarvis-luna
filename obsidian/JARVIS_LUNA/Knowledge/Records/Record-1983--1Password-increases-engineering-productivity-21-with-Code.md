@@ -2,7 +2,7 @@
 title: "Record 1983 · 1Password-increases-engineering-productivity-21-with-Codex"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.321541+00:00
+updated_at: 2026-09-10T02:54:23.737904+00:00
 tags: [record, real-data]
 ---
 

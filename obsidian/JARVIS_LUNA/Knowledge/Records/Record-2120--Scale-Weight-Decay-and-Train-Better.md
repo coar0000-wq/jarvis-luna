@@ -2,7 +2,7 @@
 title: "Record 2120 · Scale-Weight-Decay-and-Train-Better"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.356133+00:00
+updated_at: 2026-09-10T02:54:23.775325+00:00
 tags: [record, real-data]
 ---
 

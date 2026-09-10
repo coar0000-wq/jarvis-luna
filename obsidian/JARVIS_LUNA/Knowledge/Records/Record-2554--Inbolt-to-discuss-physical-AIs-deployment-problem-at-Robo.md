@@ -2,7 +2,7 @@
 title: "Record 2554 · Inbolt-to-discuss-physical-AIs-deployment-problem-at-RoboBusiness"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.460730+00:00
+updated_at: 2026-09-10T02:54:23.882578+00:00
 tags: [record, real-data]
 ---
 

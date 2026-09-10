@@ -1,20 +1,11 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-09T22:16:39.392804+00:00",
+  "collected_at": "2026-09-10T02:54:09.827712+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
   "count": 93,
   "items": [
-    {
-      "keyword": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
-      "product": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5N2ZIdEFwRWx5ZzJ0aHhib3ZvMHQ5c1o0Z1J5Nm14ZW5wUmpHZ0xKcGhnaVBTVVRFYU81WVFrbUZkQnhNTmxHeGMzQ3dHWHhtc0xxQzVoRkhqNFFWVjR4WGNoT0lhYXktTGhHZ001VHJ1Z282RWpRdGFabG43Zw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
     {
       "keyword": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
       "product": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
@@ -25,11 +16,29 @@
       "beauty": true
     },
     {
+      "keyword": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - personalcareinsights.com",
+      "product": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - personalcareinsights.com",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5N2ZIdEFwRWx5ZzJ0aHhib3ZvMHQ5c1o0Z1J5Nm14ZW5wUmpHZ0xKcGhnaVBTVVRFYU81WVFrbUZkQnhNTmxHeGMzQ3dHWHhtc0xxQzVoRkhqNFFWVjR4WGNoT0lhYXktTGhHZ001VHJ1Z282RWpRdGFabG43Zw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
       "keyword": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
       "product": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3ZU9yYWdlM1JUZGlkem45TFVrY1Z1ZzVCZEJ2V29RX3FaZ043TG9PamFJdjBHUWxWOG1IbzktajdOZzRKLUxkZF8xaHJ4R2NMaDNDQy0yOGItRHVobEd2bk9IVmh1S2FSM0g0cEtRY0xFTFpWQUE?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "What’s in a name? Less than shoppers might think as counterfeiters cash in on Korean brand popularity. - Korea JoongAng Daily",
+      "product": "What’s in a name? Less than shoppers might think as counterfeiters cash in on Korean brand popularity. - Korea JoongAng Daily",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPT05vX1dsNmQwNFJ2bGVxakxZV1EtLWduLWpHNkp0U1oyMUhpanRtZzZmUVhNN2U5MG9qNDhIWkdDdTFvcENQam5Zd3JvUlZjbGlUVVNNSTIxRTRTcXpDZ05sa1lyMFZaOS1QUzdBdHQ1MkZQYzRaaWN6N05nTWxXeW9xWXBZUUp2cHBNZmNnWDlTSDhhR0FOcHJiNm1SXzg2T0VyNFM1T1pwVG5OWFBiazlXREsydXRKaEFoMkl5RWhXY0lTXzM4eC15SmMzTkVfOXZIdmwzTEJ6cXlucm9ySDRDeFZ6MUU?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -52,11 +61,11 @@
       "beauty": true
     },
     {
-      "keyword": "Amorepacific finds microbiome strain may help fade post-acne pigmentation - koreabiomed.com",
-      "product": "Amorepacific finds microbiome strain may help fade post-acne pigmentation - koreabiomed.com",
+      "keyword": "NOONI, K-BEAUTY BRAND BEHIND VIRAL APPLE SEED LIP OIL, MAKES U.S. RETAIL DEBUT AT TARGET - Yahoo Finance",
+      "product": "NOONI, K-BEAUTY BRAND BEHIND VIRAL APPLE SEED LIP OIL, MAKES U.S. RETAIL DEBUT AT TARGET - Yahoo Finance",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45dlY2V09IOEdUUDlUQW81YmctQ25WVDl6cnUtUWZOamJ2RkRUR0dGTlNNUGh4OUt1cml1dnlBWjk4ZGxpWHc2emc4OTQ1YlV1aFVlc0xjc1c5eFc5YUYtXzR1OGMtaWEtbm0zNEV30gFyQVVfeXFMTkEtUXVvelh5dzVleGJNWjVTRU1aaENSbG5NNHVIa3oyREdTejdMeFMyQ1duZXdzZy00UzFOZzNiVW1QUXdhaU0zM3pybldzQjhsVlVkd05Pdi1CSlVGM2EySnRXWnhDdEE4eEk0bXJvemdB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWkV2dTRnZjRONHMwalFpNHNheW1NeEwxSGFkNTJKNk9zd2l4aE5HTlQtNjZMMlBsUXpPU2VJZTYtaVh4WUR1eFIwVk8tWVY3YVUzM1hOWnA5M1p4cnp3RzV0ZEJ5R1FnOTVoaG5zWm9faUFNZ3ZneU9feUNHTGg4VjV4YU5GMGs1Y0UtMTJ1Y19Ic2diNy1DcTNTRQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -70,17 +79,8 @@
       "beauty": true
     },
     {
-      "keyword": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
-      "product": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXkzOEhOM0k2RV9QV1hUbWlZSDhQZ2dGbWVZNHp6XzM3dWtvVTU5OTlJa3NROGF6R0ZjUlg0eHp5WTFUUmUzdElxSE9iX1JVTDV1cUdHeHBrVTVFLXRyTWVGWGVLWVdaOWQwMjVKSVVPbmxBRlhDOFp2cmRnd3JITUFibWR6UF8xSFo5aFlqem5hR2phaU5qdmx0SXJtdjJzZFA2ZmNFbTV0R0g0ZmNqMGYzZnI?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
-      "product": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
+      "keyword": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - pagesix.com",
+      "product": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - pagesix.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGtUdkEtYWNZaFVvSFFvcUlXQzNRWS1zcXUtVUctWkx2b3V4d3JWNk42dmtPYjFweUxTX2IxUHNqamdCRWY0T2lxUWtyN3RkYnA4Z0dORHJNR05HaWpvX3lJT190RVFtVXhNVk10YnNuNjdqZ1NBdFNRUU94cG9nYmJ1Uld1c2hmS1YyXzF5VmRMMTRo?oc=5",
@@ -115,8 +115,8 @@
       "beauty": true
     },
     {
-      "keyword": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
-      "product": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
+      "keyword": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - womenshealthmag.com",
+      "product": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - womenshealthmag.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZHBXQzBDZ2dGRHdEeXdtSXk5NkpMbW5vZzYzdGVWWVk1RllId3RCaUtPVnRIUVVEME84QmUzYTRBcGt5SE9rd3VpU0NZcWhBak1tMjVNR2lPd050RUdwaUJQbHB6TU81UDVmejBkVElrcnFKdnY1UHZ6SjVOMmtCNjNod3AtYm5Qb3c?oc=5",
@@ -124,8 +124,8 @@
       "beauty": true
     },
     {
-      "keyword": "Is Korean sunscreen worth the hype? - WAFB",
-      "product": "Is Korean sunscreen worth the hype? - WAFB",
+      "keyword": "Is Korean sunscreen worth the hype? - wafb.com",
+      "product": "Is Korean sunscreen worth the hype? - wafb.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjenlzd2RLQUd1RWtfc0V4dlZIeldiM3FfOTJ4S08wdmplNUdTVUZrUXhrU25oOVpTeVFPSGgxYXpBNWpIbTVQSlRHQlV6MW4wVkNHTzhSQlYtSmJrQmQ1bkRCc3dMOUF0OUpyZlRNQnhvMXdmMFprTQ?oc=5",
@@ -133,20 +133,20 @@
       "beauty": true
     },
     {
-      "keyword": "The 5 Best Sunscreens (2026): Expert Approved - Fortune",
-      "product": "The 5 Best Sunscreens (2026): Expert Approved - Fortune",
+      "keyword": "11 Of The Best Clear Sunscreens For Black & Brown Skin - coveteur.com",
+      "product": "11 Of The Best Clear Sunscreens For Black & Brown Skin - coveteur.com",
       "sub": "Korean sunscreen",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE04NldmdnZiVzNNZEg4ekdkM0FVMlV6aXhHVVpSV21GRTE0TE0tOVBTX203dHZQQ0xEejlHVTVNQ0ZXNmZ0Wi1kQzVQZUt0V1N3Nk1kTUM4QQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZTWU0R2c2bXdNckV1N29mSDJWb201UGxUT2ZOajNjZ0oyRkJHTWVQdzdSME5YT0M2M0g2YXFrSnZGZWk3Mmx2S3VkVUx3bk9jMVV5dQ?oc=5",
       "kind": "news",
       "beauty": true
     },
     {
-      "keyword": "11 Of The Best Clear Sunscreens For Black & Brown Skin - Coveteur",
-      "product": "11 Of The Best Clear Sunscreens For Black & Brown Skin - Coveteur",
+      "keyword": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
+      "product": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
       "sub": "Korean sunscreen",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZTWU0R2c2bXdNckV1N29mSDJWb201UGxUT2ZOajNjZ0oyRkJHTWVQdzdSME5YT0M2M0g2YXFrSnZGZWk3Mmx2S3VkVUx3bk9jMVV5dQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -160,17 +160,8 @@
       "beauty": true
     },
     {
-      "keyword": "Move over, snail mucin: COSRX has a $14 PDRN face mask thousands are buying - New York Post",
-      "product": "Move over, snail mucin: COSRX has a $14 PDRN face mask thousands are buying - New York Post",
-      "sub": "snail mucin",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbGs2eXllX0pHUzVteGw1TG10Y0dLVlFEdWhCX3doTWJzV25MTVZEbXBvUzhtZTktMUVhU21FRW5ucXQzeXJycExyTWxMNzZyV2M3cVdOTllsR2k0ZlhoUkhkV2Q2aVJfQUxPS2RkU2doSHJQVkNMNFROcHpBOGx1VnBZN2NRVkFsc25R?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com",
-      "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com",
+      "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
+      "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FajN1UnhmQjViQ0dWVW45QVF1blJPRnBKZUltUWRyRjVDcHFVVTBiVUpkQTZlZHNYbEFmSUFtVTRWT0Q2X3o4R3R0YXhyYUJhbHV6dVln?oc=5",
@@ -187,8 +178,8 @@
       "beauty": true
     },
     {
-      "keyword": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six",
-      "product": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six",
+      "keyword": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - pagesix.com",
+      "product": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - pagesix.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOVFOcDNSNU5FazZmWTllWXZrM0ZPdE0zcll3Qk9WbWFhdEIzZmhpVVZRY29xbE8xMDZ5VjNIR083a0FrbEUxU2RSNHkxNWFnczE0U0dDenNXdlMzOU50cmdBM1JxcmxYbHEtZFpXQ1FXNXY0Smxnb3ZxYWdoTEFIY3BaZkJucHhWMEJZTVAtV2ZpWEtZTmdNZUkxbXotelFLOUxWLVJ3?oc=5",
@@ -214,8 +205,8 @@
       "beauty": true
     },
     {
-      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
-      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
+      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - goodhousekeeping.com",
+      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - goodhousekeeping.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVFB2b0FsdDRfdzNDNmZiTU9kX2RJdmJncVQxcWtUUGYyNHhHb3ZXZkZCdXR6ck4wYmxIUzJMbUFhb1Mxc2FTVkZRbmlKVFBQMEY0aXZsODdCLWIxZUV3QnZJcEtMaW9EeTFfaUNtek9hQU10YmJ5OHd0QjAwZWR3UGRUdGo2XzBuenFwcA?oc=5",
@@ -223,11 +214,11 @@
       "beauty": true
     },
     {
-      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
-      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
-      "sub": "heartleaf toner",
+      "keyword": "Snails are masters of mucus chemistry - C&EN",
+      "product": "Snails are masters of mucus chemistry - C&EN",
+      "sub": "snail mucin",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdWxLYWM0V1J4VkM4aWpQRXRGM2h2RTFYYUg4NmdNd0RFbEtpZlNTdHc1Rkg5alNqbzByMEkycVh1bnJSby1seFpNc3JZMkgzUVBmOUJQT0pxYTI2RnA4bHh5U0lQdzZDa1E4eUxXZnBUa3FVUE55T0JsaXFIbTZnbkZFRFVtNmJNRVNLNlN0SVNaXzM1UVVqNmVjTjlmRkk?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -241,8 +232,17 @@
       "beauty": true
     },
     {
-      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
-      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
+      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "sub": "heartleaf toner",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - allure.com",
+      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - allure.com",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tUlIta29LZnJyQjZ3VlhCQ1VlZzk3bVo5LXd1NE8xX3FRemRsZXB4VXdOSDQtWVNUMlJzWmNXSnhUTWdBTl9hX1dud2VTREZwNlFfTXVxNEdOa0tSdUJZNS1B?oc=5",
@@ -259,8 +259,8 @@
       "beauty": true
     },
     {
-      "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com",
-      "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com",
+      "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
+      "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LemdVMDM3Q3hoem1Xa013a0JQMVdWd0UxSDZpdjc4T3BmT29PMWJZZTltMl9lQkhRM1NzckFMbnBiMlIycWxqZXhrQ3lCeU1YNzFEcnpPQkRpeDQ?oc=5",
@@ -295,8 +295,8 @@
       "beauty": true
     },
     {
-      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
-      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
+      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - allure.com",
+      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - allure.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yZDNoUHpEdEhOUWhHQWRZck1vTFdWeDljeGZPcVh4a1VuaWpnWTczN0Vhd2RmODNOajVxdFdzRHdJTjJVbVJfa212RDdQcVY3N2tSRjc0emxET0J6bUFfbVZUNUU?oc=5",
@@ -313,8 +313,8 @@
       "beauty": true
     },
     {
-      "keyword": "Should You Use Centella Asiatica? 5 Benefits - Health.com",
-      "product": "Should You Use Centella Asiatica? 5 Benefits - Health.com",
+      "keyword": "Should You Use Centella Asiatica? 5 Benefits - health.com",
+      "product": "Should You Use Centella Asiatica? 5 Benefits - health.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV1FGamp5TUY2bzdhcXhiTkpLQmwyZHIxOE9ITnZNcnFWemt2TzdXU09taVV0RmFReUZCUFE2YjNNa2RlVXVMR1E5SEh2eTV6Wk5HalUyaVdfN2JQQXZKZmV4alpHSVNXTXhRMFptYVM5amd3X3pRdThCYlROa18tWjRMTQ?oc=5",

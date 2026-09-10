@@ -2,7 +2,7 @@
 title: "Record 1922 · K-Beauty-Device-Brand-THOME-Launches-at-Sephora-Across-580-US-Stores--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.303224+00:00
+updated_at: 2026-09-10T02:54:23.718123+00:00
 tags: [record, real-data]
 ---
 

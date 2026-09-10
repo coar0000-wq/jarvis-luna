@@ -2,7 +2,7 @@
 title: "Record 2446 · How-Is-Automation-Shaping-Emerging-Markets"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.434747+00:00
+updated_at: 2026-09-10T02:54:23.856973+00:00
 tags: [record, real-data]
 ---
 

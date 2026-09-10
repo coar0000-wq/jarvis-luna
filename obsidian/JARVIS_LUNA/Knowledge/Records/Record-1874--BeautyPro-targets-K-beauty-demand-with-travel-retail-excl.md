@@ -2,7 +2,7 @@
 title: "Record 1874 · BeautyPro-targets-K-beauty-demand-with-travel-retail-exclusive-Glass-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.291717+00:00
+updated_at: 2026-09-10T02:54:23.705174+00:00
 tags: [record, real-data]
 ---
 

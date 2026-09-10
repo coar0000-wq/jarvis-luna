@@ -2,7 +2,7 @@
 title: "Record 2536 · India-Minister-Ashwini-Vaishnaw"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.455616+00:00
+updated_at: 2026-09-10T02:54:23.877459+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1935 · Interview-The-People-Behind-the-Galaxy-Z-Fold8-Series-Camera-Innovatio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.306926+00:00
+updated_at: 2026-09-10T02:54:23.722216+00:00
 tags: [record, real-data]
 ---
 

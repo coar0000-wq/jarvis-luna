@@ -2,7 +2,7 @@
 title: "Record 2672 · How-to-create-your-brand-in-Claude-Design"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.489120+00:00
+updated_at: 2026-09-10T02:54:23.910288+00:00
 tags: [record, real-data]
 ---
 

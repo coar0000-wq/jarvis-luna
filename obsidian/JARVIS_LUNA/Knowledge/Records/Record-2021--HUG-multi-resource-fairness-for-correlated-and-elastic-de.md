@@ -2,7 +2,7 @@
 title: "Record 2021 · HUG-multi-resource-fairness-for-correlated-and-elastic-demands"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.331552+00:00
+updated_at: 2026-09-10T02:54:23.748976+00:00
 tags: [record, real-data]
 ---
 

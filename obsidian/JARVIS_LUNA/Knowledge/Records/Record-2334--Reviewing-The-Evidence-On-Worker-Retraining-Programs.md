@@ -2,7 +2,7 @@
 title: "Record 2334 · Reviewing-The-Evidence-On-Worker-Retraining-Programs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.408674+00:00
+updated_at: 2026-09-10T02:54:23.831503+00:00
 tags: [record, real-data]
 ---
 

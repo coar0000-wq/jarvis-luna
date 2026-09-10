@@ -2,7 +2,7 @@
 title: "Record 1463 · You-Can-Try-to-Vibe-Code-Your-Commerce-Stack-but-Should-You---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.192595+00:00
+updated_at: 2026-09-10T02:54:23.605883+00:00
 tags: [record, real-data]
 ---
 

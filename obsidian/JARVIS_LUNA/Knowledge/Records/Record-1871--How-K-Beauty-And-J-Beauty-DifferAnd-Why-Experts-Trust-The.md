@@ -2,7 +2,7 @@
 title: "Record 1871 · How-K-Beauty-And-J-Beauty-DifferAnd-Why-Experts-Trust-Them---Forbes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.291023+00:00
+updated_at: 2026-09-10T02:54:23.704362+00:00
 tags: [record, real-data]
 ---
 

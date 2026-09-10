@@ -2,7 +2,7 @@
 title: "Record 122 · GIFT-Guided-Intermediate-Feature-Training-via-Action-Oriented-Structur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.837919+00:00
+updated_at: 2026-09-10T02:54:23.260338+00:00
 tags: [record, real-data]
 ---
 

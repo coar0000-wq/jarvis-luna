@@ -2,7 +2,7 @@
 title: "Record 733 · Friend-or-foe-divergent-immunomodulatory-effects-of-metabolites-derive"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.013783+00:00
+updated_at: 2026-09-10T02:54:23.430305+00:00
 tags: [record, real-data]
 ---
 

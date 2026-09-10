@@ -2,7 +2,7 @@
 title: "Record 1889 · Same-brand-different-SPF-Why-Korean-sunscreens-outperform-US-versions-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.295399+00:00
+updated_at: 2026-09-10T02:54:23.709274+00:00
 tags: [record, real-data]
 ---
 

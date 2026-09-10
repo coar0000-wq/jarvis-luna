@@ -2,7 +2,7 @@
 title: "Record 1936 · Invitation-Design-Miami-Seoul-2026-Opening-of-Samsungs-Design-Is-an-Ac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.307266+00:00
+updated_at: 2026-09-10T02:54:23.722606+00:00
 tags: [record, real-data]
 ---
 

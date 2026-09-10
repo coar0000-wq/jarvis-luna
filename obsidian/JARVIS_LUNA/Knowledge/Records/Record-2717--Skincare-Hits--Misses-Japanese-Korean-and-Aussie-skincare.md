@@ -2,7 +2,7 @@
 title: "Record 2717 · Skincare-Hits--Misses-Japanese-Korean-and-Aussie-skincare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.499450+00:00
+updated_at: 2026-09-10T02:54:23.920453+00:00
 tags: [record, real-data]
 ---
 

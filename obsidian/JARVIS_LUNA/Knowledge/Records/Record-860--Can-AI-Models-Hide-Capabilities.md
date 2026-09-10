@@ -2,7 +2,7 @@
 title: "Record 860 · Can-AI-Models-Hide-Capabilities"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.045364+00:00
+updated_at: 2026-09-10T02:54:23.460841+00:00
 tags: [record, real-data]
 ---
 

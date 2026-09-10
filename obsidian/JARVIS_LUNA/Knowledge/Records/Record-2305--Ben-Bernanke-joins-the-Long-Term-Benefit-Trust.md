@@ -2,7 +2,7 @@
 title: "Record 2305 · Ben-Bernanke-joins-the-Long-Term-Benefit-Trust"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.401866+00:00
+updated_at: 2026-09-10T02:54:23.824739+00:00
 tags: [record, real-data]
 ---
 

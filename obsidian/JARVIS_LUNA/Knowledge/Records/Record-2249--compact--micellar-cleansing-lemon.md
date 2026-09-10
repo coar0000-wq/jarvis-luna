@@ -2,7 +2,7 @@
 title: "Record 2249 · compact--micellar-cleansing-lemon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.388905+00:00
+updated_at: 2026-09-10T02:54:23.810923+00:00
 tags: [record, real-data]
 ---
 

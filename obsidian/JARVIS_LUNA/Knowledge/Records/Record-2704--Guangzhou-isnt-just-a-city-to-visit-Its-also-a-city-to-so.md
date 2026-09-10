@@ -2,7 +2,7 @@
 title: "Record 2704 · Guangzhou-isnt-just-a-city-to-visit-Its-also-a-city-to-source"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.496503+00:00
+updated_at: 2026-09-10T02:54:23.917508+00:00
 tags: [record, real-data]
 ---
 

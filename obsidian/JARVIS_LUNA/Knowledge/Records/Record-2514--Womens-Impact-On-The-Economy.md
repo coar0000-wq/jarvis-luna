@@ -2,7 +2,7 @@
 title: "Record 2514 · Womens-Impact-On-The-Economy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.450679+00:00
+updated_at: 2026-09-10T02:54:23.872756+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2435 · Financial-Market-Technology-Moves-Into-Focus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.432294+00:00
+updated_at: 2026-09-10T02:54:23.854577+00:00
 tags: [record, real-data]
 ---
 

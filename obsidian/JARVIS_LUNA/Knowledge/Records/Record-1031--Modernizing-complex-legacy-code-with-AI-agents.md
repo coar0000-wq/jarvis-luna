@@ -2,7 +2,7 @@
 title: "Record 1031 · Modernizing-complex-legacy-code-with-AI-agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.090242+00:00
+updated_at: 2026-09-10T02:54:23.504837+00:00
 tags: [record, real-data]
 ---
 

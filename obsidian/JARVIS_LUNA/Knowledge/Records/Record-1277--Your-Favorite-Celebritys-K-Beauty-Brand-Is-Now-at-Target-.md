@@ -2,7 +2,7 @@
 title: "Record 1277 · Your-Favorite-Celebritys-K-Beauty-Brand-Is-Now-at-Target---NewBeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.148259+00:00
+updated_at: 2026-09-10T02:54:23.561860+00:00
 tags: [record, real-data]
 ---
 

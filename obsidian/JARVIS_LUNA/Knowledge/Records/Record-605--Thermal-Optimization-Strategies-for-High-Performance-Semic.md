@@ -2,7 +2,7 @@
 title: "Record 605 · Thermal-Optimization-Strategies-for-High-Performance-Semiconductor-3D-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.981599+00:00
+updated_at: 2026-09-10T02:54:23.398307+00:00
 tags: [record, real-data]
 ---
 

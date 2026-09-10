@@ -2,7 +2,7 @@
 title: "Record 2397 · Operationalizing-Genie-Ontology-in-Your-Data-Stack"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.423663+00:00
+updated_at: 2026-09-10T02:54:23.846024+00:00
 tags: [record, real-data]
 ---
 

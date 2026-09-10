@@ -2,7 +2,7 @@
 title: "Record 2028 · Generalized-Discrete-Diffusion-with-Self-Correction"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.333226+00:00
+updated_at: 2026-09-10T02:54:23.750804+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 113 · A-Low-Cost-Open-Platform-for-End-to-End-Autonomous-Driving-on-a-Miniat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.835464+00:00
+updated_at: 2026-09-10T02:54:23.257913+00:00
 tags: [record, real-data]
 ---
 

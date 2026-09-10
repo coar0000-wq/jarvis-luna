@@ -2,7 +2,7 @@
 title: "Record 2151 · Japan-Pioneered-Humanoid-RobotsCan-It-Now-Catch-China"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.364172+00:00
+updated_at: 2026-09-10T02:54:23.783596+00:00
 tags: [record, real-data]
 ---
 

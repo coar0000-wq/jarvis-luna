@@ -2,7 +2,7 @@
 title: "Record 1987 · Bringing-ChatGPT-for-Teachers-to-more-US-school-districts"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.322556+00:00
+updated_at: 2026-09-10T02:54:23.739032+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1952 · Samsung-Redefines-Laundry-With-New-A-70-and-13-Kg-Bespoke-AI-Washers-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.312654+00:00
+updated_at: 2026-09-10T02:54:23.728527+00:00
 tags: [record, real-data]
 ---
 

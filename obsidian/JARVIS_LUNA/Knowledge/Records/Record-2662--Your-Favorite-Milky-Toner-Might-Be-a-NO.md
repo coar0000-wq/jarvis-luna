@@ -2,7 +2,7 @@
 title: "Record 2662 · Your-Favorite-Milky-Toner-Might-Be-a-NO"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.486798+00:00
+updated_at: 2026-09-10T02:54:23.907960+00:00
 tags: [record, real-data]
 ---
 

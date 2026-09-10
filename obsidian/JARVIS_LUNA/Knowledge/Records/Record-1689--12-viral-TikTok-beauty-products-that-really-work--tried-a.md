@@ -2,7 +2,7 @@
 title: "Record 1689 · 12-viral-TikTok-beauty-products-that-really-work--tried-and-tested---t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.247170+00:00
+updated_at: 2026-09-10T02:54:23.660484+00:00
 tags: [record, real-data]
 ---
 

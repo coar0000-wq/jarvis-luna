@@ -2,7 +2,7 @@
 title: "Record 2086 · Detecting-and-Controlling-Sycophancy-with-Cascading-Linear-Features"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.347878+00:00
+updated_at: 2026-09-10T02:54:23.766254+00:00
 tags: [record, real-data]
 ---
 

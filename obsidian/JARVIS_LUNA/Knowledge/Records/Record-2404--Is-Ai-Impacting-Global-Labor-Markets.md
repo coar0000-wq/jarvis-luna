@@ -2,7 +2,7 @@
 title: "Record 2404 · Is-Ai-Impacting-Global-Labor-Markets"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.425330+00:00
+updated_at: 2026-09-10T02:54:23.847705+00:00
 tags: [record, real-data]
 ---
 

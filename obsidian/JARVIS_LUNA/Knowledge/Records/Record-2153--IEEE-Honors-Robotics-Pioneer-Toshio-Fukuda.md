@@ -2,7 +2,7 @@
 title: "Record 2153 · IEEE-Honors-Robotics-Pioneer-Toshio-Fukuda"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.364743+00:00
+updated_at: 2026-09-10T02:54:23.784221+00:00
 tags: [record, real-data]
 ---
 

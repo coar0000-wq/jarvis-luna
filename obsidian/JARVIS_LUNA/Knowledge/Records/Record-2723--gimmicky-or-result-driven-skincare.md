@@ -2,7 +2,7 @@
 title: "Record 2723 · gimmicky-or-result-driven-skincare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.500809+00:00
+updated_at: 2026-09-10T02:54:23.921820+00:00
 tags: [record, real-data]
 ---
 

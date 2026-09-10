@@ -2,7 +2,7 @@
 title: "Record 2520 · Genai-Revenue-Growth-And-Profitability"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.452058+00:00
+updated_at: 2026-09-10T02:54:23.874064+00:00
 tags: [record, real-data]
 ---
 

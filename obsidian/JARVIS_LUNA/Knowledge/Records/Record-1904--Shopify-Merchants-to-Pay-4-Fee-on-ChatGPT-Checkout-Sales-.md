@@ -2,7 +2,7 @@
 title: "Record 1904 · Shopify-Merchants-to-Pay-4-Fee-on-ChatGPT-Checkout-Sales---PYMNTScom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.298970+00:00
+updated_at: 2026-09-10T02:54:23.713315+00:00
 tags: [record, real-data]
 ---
 

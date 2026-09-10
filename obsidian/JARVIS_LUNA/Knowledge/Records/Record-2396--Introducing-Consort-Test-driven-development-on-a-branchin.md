@@ -2,7 +2,7 @@
 title: "Record 2396 · Introducing-Consort-Test-driven-development-on-a-branching-database"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.423418+00:00
+updated_at: 2026-09-10T02:54:23.845807+00:00
 tags: [record, real-data]
 ---
 

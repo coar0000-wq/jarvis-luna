@@ -2,7 +2,7 @@
 title: "Record 2202 · THOME-The-Glow-Signature"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.377875+00:00
+updated_at: 2026-09-10T02:54:23.798665+00:00
 tags: [record, real-data]
 ---
 

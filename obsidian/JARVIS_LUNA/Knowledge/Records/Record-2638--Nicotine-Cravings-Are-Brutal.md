@@ -2,7 +2,7 @@
 title: "Record 2638 · Nicotine-Cravings-Are-Brutal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.481322+00:00
+updated_at: 2026-09-10T02:54:23.902607+00:00
 tags: [record, real-data]
 ---
 

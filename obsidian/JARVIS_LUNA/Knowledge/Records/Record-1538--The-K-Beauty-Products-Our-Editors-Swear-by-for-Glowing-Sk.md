@@ -2,7 +2,7 @@
 title: "Record 1538 · The-K-Beauty-Products-Our-Editors-Swear-by-for-Glowing-Skin-Are-on-Sal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.210729+00:00
+updated_at: 2026-09-10T02:54:23.623860+00:00
 tags: [record, real-data]
 ---
 

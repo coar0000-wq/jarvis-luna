@@ -2,7 +2,7 @@
 title: "Record 2113 · Planning-with-Transformers-Chain-of-Computation-and-Structured-Context"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.354460+00:00
+updated_at: 2026-09-10T02:54:23.773502+00:00
 tags: [record, real-data]
 ---
 

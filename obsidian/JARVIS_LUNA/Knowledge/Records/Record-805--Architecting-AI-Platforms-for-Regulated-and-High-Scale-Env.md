@@ -2,7 +2,7 @@
 title: "Record 805 · Architecting-AI-Platforms-for-Regulated-and-High-Scale-Environments"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.031673+00:00
+updated_at: 2026-09-10T02:54:23.447802+00:00
 tags: [record, real-data]
 ---
 

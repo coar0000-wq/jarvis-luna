@@ -2,7 +2,7 @@
 title: "Record 2543 · AI-cant-outrun-a-humanoids-hardware"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.457465+00:00
+updated_at: 2026-09-10T02:54:23.879300+00:00
 tags: [record, real-data]
 ---
 

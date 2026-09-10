@@ -2,7 +2,7 @@
 title: "Record 2269 · Your-Guide-to-the-Perfumes-That-Last-All-Day-and-Night"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.393716+00:00
+updated_at: 2026-09-10T02:54:23.816182+00:00
 tags: [record, real-data]
 ---
 

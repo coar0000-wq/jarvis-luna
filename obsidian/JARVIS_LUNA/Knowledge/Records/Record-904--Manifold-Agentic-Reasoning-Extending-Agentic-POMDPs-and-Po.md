@@ -2,7 +2,7 @@
 title: "Record 904 · Manifold-Agentic-Reasoning-Extending-Agentic-POMDPs-and-Post-Training-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.056747+00:00
+updated_at: 2026-09-10T02:54:23.471630+00:00
 tags: [record, real-data]
 ---
 

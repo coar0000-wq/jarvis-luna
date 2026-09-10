@@ -2,7 +2,7 @@
 title: "Record 1896 · TikTok-Shop-poised-for-record-Black-Friday-as-it-reveals-top-beauty-tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.297070+00:00
+updated_at: 2026-09-10T02:54:23.711186+00:00
 tags: [record, real-data]
 ---
 

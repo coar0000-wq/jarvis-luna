@@ -2,7 +2,7 @@
 title: "Record 2333 · India-Country-Brief-The-Anthropic-Economic-Index"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.408457+00:00
+updated_at: 2026-09-10T02:54:23.831266+00:00
 tags: [record, real-data]
 ---
 

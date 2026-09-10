@@ -2,7 +2,7 @@
 title: "Record 2443 · The-Rush-For-Resources"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.434103+00:00
+updated_at: 2026-09-10T02:54:23.856317+00:00
 tags: [record, real-data]
 ---
 

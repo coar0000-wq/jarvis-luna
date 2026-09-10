@@ -2,7 +2,7 @@
 title: "Record 2639 · Found-a-product-you-want-to-sell-but-cant-find-it-on-CJ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.481561+00:00
+updated_at: 2026-09-10T02:54:23.902845+00:00
 tags: [record, real-data]
 ---
 

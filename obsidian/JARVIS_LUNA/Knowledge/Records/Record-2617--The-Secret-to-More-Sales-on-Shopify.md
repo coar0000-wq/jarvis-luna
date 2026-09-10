@@ -2,7 +2,7 @@
 title: "Record 2617 · The-Secret-to-More-Sales-on-Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.476489+00:00
+updated_at: 2026-09-10T02:54:23.897843+00:00
 tags: [record, real-data]
 ---
 

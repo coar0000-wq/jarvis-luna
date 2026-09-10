@@ -2,7 +2,7 @@
 title: "Record 1420 · Is-Korean-sunscreen-worth-the-hype---WAFB"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.182383+00:00
+updated_at: 2026-09-10T02:54:23.595823+00:00
 tags: [record, real-data]
 ---
 

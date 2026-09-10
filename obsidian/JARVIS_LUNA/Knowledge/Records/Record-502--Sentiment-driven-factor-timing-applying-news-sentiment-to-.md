@@ -2,7 +2,7 @@
 title: "Record 502 · Sentiment-driven-factor-timing-applying-news-sentiment-to-Fama-French-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.955445+00:00
+updated_at: 2026-09-10T02:54:23.370268+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 516 · The-Scales-Have-Tipped-US-Marine-Corps-Boot-Camp-Increases-Muscle-Mass"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.958968+00:00
+updated_at: 2026-09-10T02:54:23.374113+00:00
 tags: [record, real-data]
 ---
 

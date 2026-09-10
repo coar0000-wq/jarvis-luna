@@ -2,7 +2,7 @@
 title: "Record 2194 · AESTURA-Atobarrier365-Lotion-507-fl-oz150ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.375858+00:00
+updated_at: 2026-09-10T02:54:23.796406+00:00
 tags: [record, real-data]
 ---
 

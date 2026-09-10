@@ -2,7 +2,7 @@
 title: "Record 1698 · Last-Minute-K-Beauty-Memorial-Day-Sales-Medicube-Hero-Cosmetics-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.249372+00:00
+updated_at: 2026-09-10T02:54:23.662703+00:00
 tags: [record, real-data]
 ---
 

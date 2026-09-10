@@ -2,7 +2,7 @@
 title: "Record 1830 · How-Generative-AI-Is-Reshaping-Ecommerce-Search-and-Product-Discovery-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.281329+00:00
+updated_at: 2026-09-10T02:54:23.694124+00:00
 tags: [record, real-data]
 ---
 

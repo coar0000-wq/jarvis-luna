@@ -2,7 +2,7 @@
 title: "Record 2006 · Our-decision-on-Cursor-following-its-acquisition-by-SpaceX"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.327655+00:00
+updated_at: 2026-09-10T02:54:23.744618+00:00
 tags: [record, real-data]
 ---
 

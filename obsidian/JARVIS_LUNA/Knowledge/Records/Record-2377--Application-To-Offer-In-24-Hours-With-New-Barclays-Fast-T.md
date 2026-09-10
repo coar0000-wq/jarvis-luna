@@ -2,7 +2,7 @@
 title: "Record 2377 · Application-To-Offer-In-24-Hours-With-New-Barclays-Fast-Track-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.418517+00:00
+updated_at: 2026-09-10T02:54:23.841131+00:00
 tags: [record, real-data]
 ---
 

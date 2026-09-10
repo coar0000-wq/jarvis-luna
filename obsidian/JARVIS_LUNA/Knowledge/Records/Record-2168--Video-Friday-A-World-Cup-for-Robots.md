@@ -2,7 +2,7 @@
 title: "Record 2168 · Video-Friday-A-World-Cup-for-Robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.369068+00:00
+updated_at: 2026-09-10T02:54:23.788964+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2301 · Anthropic-Raises-30-Billion-Series-G-Funding-380-Billion-Post-Money-Va"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.400948+00:00
+updated_at: 2026-09-10T02:54:23.823825+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1381 · I-tried-the-10-step-Korean-skin-care-routineheres-what-happened---Moth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.173213+00:00
+updated_at: 2026-09-10T02:54:23.586451+00:00
 tags: [record, real-data]
 ---
 

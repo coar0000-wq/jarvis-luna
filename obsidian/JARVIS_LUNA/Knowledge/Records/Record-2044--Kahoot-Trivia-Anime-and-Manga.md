@@ -2,7 +2,7 @@
 title: "Record 2044 · Kahoot-Trivia-Anime-and-Manga"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.337861+00:00
+updated_at: 2026-09-10T02:54:23.755160+00:00
 tags: [record, real-data]
 ---
 

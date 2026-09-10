@@ -2,7 +2,7 @@
 title: "Record 1302 · What-is-the-Bebot-style-and-why-TikTok-revived-2000s-makeup-find-out-h"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.154185+00:00
+updated_at: 2026-09-10T02:54:23.567734+00:00
 tags: [record, real-data]
 ---
 

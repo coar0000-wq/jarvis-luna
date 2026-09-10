@@ -2,7 +2,7 @@
 title: "Record 1947 · Samsung-Hosts-PlayGalaxy-Cup-World-Final-at-Gamescom-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.310944+00:00
+updated_at: 2026-09-10T02:54:23.726684+00:00
 tags: [record, real-data]
 ---
 

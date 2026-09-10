@@ -2,7 +2,7 @@
 title: "Record 1856 · Shopify-says-AI-search-is-driving-more-traffic-and-sales-not-replacing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.287431+00:00
+updated_at: 2026-09-10T02:54:23.700334+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2560 · Medtronic-invests-700M-in-surgical-partner-Cornerstone-Robotics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.462512+00:00
+updated_at: 2026-09-10T02:54:23.884341+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2025 · Transmon-Architecture-for-Emission-and-Detection-of-Single-Microwave-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.332514+00:00
+updated_at: 2026-09-10T02:54:23.750029+00:00
 tags: [record, real-data]
 ---
 

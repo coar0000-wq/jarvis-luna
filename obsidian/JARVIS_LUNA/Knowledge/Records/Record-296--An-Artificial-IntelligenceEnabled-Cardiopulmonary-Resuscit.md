@@ -2,7 +2,7 @@
 title: "Record 296 · An-Artificial-IntelligenceEnabled-Cardiopulmonary-Resuscitation-Instru"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.901997+00:00
+updated_at: 2026-09-10T02:54:23.313154+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2214 · CJ-innerb-Aqua-Rich-119-oz336g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.380760+00:00
+updated_at: 2026-09-10T02:54:23.801916+00:00
 tags: [record, real-data]
 ---
 

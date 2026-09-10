@@ -2,7 +2,7 @@
 title: "Record 2141 · Model-Confidence-Under-Answer-Preserving-Attacks-An-Informativeness-Ma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.361247+00:00
+updated_at: 2026-09-10T02:54:23.780742+00:00
 tags: [record, real-data]
 ---
 

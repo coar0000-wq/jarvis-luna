@@ -2,7 +2,7 @@
 title: "Record 703 · Insiderrechtliche-Praxisfragen-bei-der-Emission-von-Anleihen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.005915+00:00
+updated_at: 2026-09-10T02:54:23.422826+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 397 · Numerical-describing-function-analysis-of-closed-loop-discrete-time-re"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.928526+00:00
+updated_at: 2026-09-10T02:54:23.341061+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2009 · Playco-cut-manual-fixes-50-prototyping-games-with-GPT-6-Astra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.328429+00:00
+updated_at: 2026-09-10T02:54:23.745474+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 445 · Synthesis-of-MetalQuantum-Dot-CoreSatellite-Nanoparticles-and-Plasmoni"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.941103+00:00
+updated_at: 2026-09-10T02:54:23.354493+00:00
 tags: [record, real-data]
 ---
 

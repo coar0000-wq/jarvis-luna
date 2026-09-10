@@ -2,7 +2,7 @@
 title: "Record 1895 · REJURAN-COSMETICS-Launches-at-Sephora-Singapore-Following-Strong-Local"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.296835+00:00
+updated_at: 2026-09-10T02:54:23.710922+00:00
 tags: [record, real-data]
 ---
 

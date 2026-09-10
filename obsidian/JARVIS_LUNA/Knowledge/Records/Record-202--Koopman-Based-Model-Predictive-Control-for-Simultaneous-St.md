@@ -2,7 +2,7 @@
 title: "Record 202 · Koopman-Based-Model-Predictive-Control-for-Simultaneous-State-of-Charg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.867044+00:00
+updated_at: 2026-09-10T02:54:23.285646+00:00
 tags: [record, real-data]
 ---
 

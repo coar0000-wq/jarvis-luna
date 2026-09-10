@@ -2,7 +2,7 @@
 title: "Record 1386 · Keauti-brings-K-beauty-to-Queen-City---Springfield-Business-Journal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.174397+00:00
+updated_at: 2026-09-10T02:54:23.587648+00:00
 tags: [record, real-data]
 ---
 

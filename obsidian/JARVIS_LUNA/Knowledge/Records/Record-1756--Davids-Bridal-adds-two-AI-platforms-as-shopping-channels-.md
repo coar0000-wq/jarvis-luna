@@ -2,7 +2,7 @@
 title: "Record 1756 · Davids-Bridal-adds-two-AI-platforms-as-shopping-channels---Digital-Com"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.263463+00:00
+updated_at: 2026-09-10T02:54:23.676450+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 793 · Quantum-dynamics-of-a-fully-blockaded-Rydberg-atom-ensemble"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.028751+00:00
+updated_at: 2026-09-10T02:54:23.444942+00:00
 tags: [record, real-data]
 ---
 

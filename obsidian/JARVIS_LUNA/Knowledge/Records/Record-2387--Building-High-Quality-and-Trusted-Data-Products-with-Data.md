@@ -2,7 +2,7 @@
 title: "Record 2387 · Building-High-Quality-and-Trusted-Data-Products-with-Databricks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.421074+00:00
+updated_at: 2026-09-10T02:54:23.843508+00:00
 tags: [record, real-data]
 ---
 

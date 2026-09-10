@@ -2,7 +2,7 @@
 title: "Record 2316 · Detecting-and-preventing-distillation-attacks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.404417+00:00
+updated_at: 2026-09-10T02:54:23.827295+00:00
 tags: [record, real-data]
 ---
 

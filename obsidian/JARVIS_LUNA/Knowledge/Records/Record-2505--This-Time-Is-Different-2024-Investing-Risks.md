@@ -2,7 +2,7 @@
 title: "Record 2505 · This-Time-Is-Different-2024-Investing-Risks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.448687+00:00
+updated_at: 2026-09-10T02:54:23.870821+00:00
 tags: [record, real-data]
 ---
 

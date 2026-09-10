@@ -2,7 +2,7 @@
 title: "Record 792 · AutoNeRF-Training-Implicit-Scene-Representations-with-Autonomous-Agent"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.028443+00:00
+updated_at: 2026-09-10T02:54:23.444669+00:00
 tags: [record, real-data]
 ---
 

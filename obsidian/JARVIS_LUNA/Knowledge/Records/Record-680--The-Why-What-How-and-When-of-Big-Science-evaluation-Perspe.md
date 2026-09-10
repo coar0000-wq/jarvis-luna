@@ -2,7 +2,7 @@
 title: "Record 680 · The-Why-What-How-and-When-of-Big-Science-evaluation-Perspectives-on-so"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.999967+00:00
+updated_at: 2026-09-10T02:54:23.417091+00:00
 tags: [record, real-data]
 ---
 

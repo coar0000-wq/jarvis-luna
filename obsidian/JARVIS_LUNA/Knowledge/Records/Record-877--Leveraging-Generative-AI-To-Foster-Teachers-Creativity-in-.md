@@ -2,7 +2,7 @@
 title: "Record 877 · Leveraging-Generative-AI-To-Foster-Teachers-Creativity-in-Lesson-Desig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.049659+00:00
+updated_at: 2026-09-10T02:54:23.464846+00:00
 tags: [record, real-data]
 ---
 

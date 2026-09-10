@@ -2,7 +2,7 @@
 title: "Record 933 · K-beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.063960+00:00
+updated_at: 2026-09-10T02:54:23.478677+00:00
 tags: [record, real-data]
 ---
 

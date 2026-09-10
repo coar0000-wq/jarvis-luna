@@ -2,7 +2,7 @@
 title: "Record 956 · Application-to-offer-in-24-hours-with-new-Barclays-Fast-Track-Remortga"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.069401+00:00
+updated_at: 2026-09-10T02:54:23.484143+00:00
 tags: [record, real-data]
 ---
 

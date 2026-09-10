@@ -2,7 +2,7 @@
 title: "Record 2507 · Trading-Vs-Investing-Market-Rally-Q4-2023"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.449135+00:00
+updated_at: 2026-09-10T02:54:23.871235+00:00
 tags: [record, real-data]
 ---
 

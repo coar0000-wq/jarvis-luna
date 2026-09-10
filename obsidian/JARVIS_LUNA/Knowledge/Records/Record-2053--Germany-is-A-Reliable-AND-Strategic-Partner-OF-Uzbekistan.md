@@ -2,7 +2,7 @@
 title: "Record 2053 · Germany-is-A-Reliable-AND-Strategic-Partner-OF-Uzbekistan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.339997+00:00
+updated_at: 2026-09-10T02:54:23.757514+00:00
 tags: [record, real-data]
 ---
 

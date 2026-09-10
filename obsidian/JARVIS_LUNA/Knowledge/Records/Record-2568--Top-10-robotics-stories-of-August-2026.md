@@ -2,7 +2,7 @@
 title: "Record 2568 · Top-10-robotics-stories-of-August-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.464849+00:00
+updated_at: 2026-09-10T02:54:23.886662+00:00
 tags: [record, real-data]
 ---
 

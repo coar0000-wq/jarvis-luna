@@ -2,7 +2,7 @@
 title: "Record 2878 · Learning-a-Continuous-Sepsis-Severity-Score-Without-Hour-by-Hour-Super"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.549390+00:00
+updated_at: 2026-09-10T02:54:23.970524+00:00
 tags: [record, real-data]
 ---
 

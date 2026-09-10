@@ -2,7 +2,7 @@
 title: "Record 2015 · OpenAI-expands-initiatives-to-support-journalism-from-classrooms-to-ne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.329984+00:00
+updated_at: 2026-09-10T02:54:23.747220+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 499 · Decoding-the-PI3KAktmTOR-AMPK-signalling-nexus-molecular-crosstalk-met"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.954634+00:00
+updated_at: 2026-09-10T02:54:23.369383+00:00
 tags: [record, real-data]
 ---
 

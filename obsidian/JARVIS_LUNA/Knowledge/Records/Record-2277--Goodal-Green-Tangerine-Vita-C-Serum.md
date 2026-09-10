@@ -2,7 +2,7 @@
 title: "Record 2277 · Goodal-Green-Tangerine-Vita-C-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.395465+00:00
+updated_at: 2026-09-10T02:54:23.818290+00:00
 tags: [record, real-data]
 ---
 

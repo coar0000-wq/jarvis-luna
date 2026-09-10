@@ -2,7 +2,7 @@
 title: "Record 159 · Human-Human--Human-Robot-Interaction-Transformer-H2INT-for-Robot-Navig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.850671+00:00
+updated_at: 2026-09-10T02:54:23.272801+00:00
 tags: [record, real-data]
 ---
 

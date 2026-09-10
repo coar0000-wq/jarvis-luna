@@ -2,7 +2,7 @@
 title: "Record 463 · Reinforcement-learning-control-of-quantum-error-correction"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.945689+00:00
+updated_at: 2026-09-10T02:54:23.359446+00:00
 tags: [record, real-data]
 ---
 

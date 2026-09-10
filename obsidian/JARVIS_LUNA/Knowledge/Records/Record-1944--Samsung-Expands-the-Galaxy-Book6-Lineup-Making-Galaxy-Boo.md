@@ -2,7 +2,7 @@
 title: "Record 1944 · Samsung-Expands-the-Galaxy-Book6-Lineup-Making-Galaxy-Book-More-Access"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.309941+00:00
+updated_at: 2026-09-10T02:54:23.725594+00:00
 tags: [record, real-data]
 ---
 

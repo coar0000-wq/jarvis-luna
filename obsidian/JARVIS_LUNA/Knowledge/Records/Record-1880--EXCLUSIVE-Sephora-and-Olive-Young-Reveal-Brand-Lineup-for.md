@@ -2,7 +2,7 @@
 title: "Record 1880 · EXCLUSIVE-Sephora-and-Olive-Young-Reveal-Brand-Lineup-for-Partnership-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.293170+00:00
+updated_at: 2026-09-10T02:54:23.706809+00:00
 tags: [record, real-data]
 ---
 

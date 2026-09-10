@@ -2,7 +2,7 @@
 title: "Record 2176 · 12scents-hetras-Mango-Seed-Butter-Hand-Cream-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.371225+00:00
+updated_at: 2026-09-10T02:54:23.791312+00:00
 tags: [record, real-data]
 ---
 

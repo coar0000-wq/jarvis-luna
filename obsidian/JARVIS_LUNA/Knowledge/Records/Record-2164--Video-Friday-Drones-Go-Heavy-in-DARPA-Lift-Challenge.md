@@ -2,7 +2,7 @@
 title: "Record 2164 · Video-Friday-Drones-Go-Heavy-in-DARPA-Lift-Challenge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.367939+00:00
+updated_at: 2026-09-10T02:54:23.787740+00:00
 tags: [record, real-data]
 ---
 

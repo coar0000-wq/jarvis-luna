@@ -2,7 +2,7 @@
 title: "Record 2061 · Characterization-of-Multi-Model-Agentic-AI-Systems-on-General-Tasks-vi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.341946+00:00
+updated_at: 2026-09-10T02:54:23.759704+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2171 · Video-Friday-Meet-Google-DeepMinds-Gemini-Robotics-2"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.369980+00:00
+updated_at: 2026-09-10T02:54:23.789938+00:00
 tags: [record, real-data]
 ---
 

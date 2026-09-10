@@ -2,7 +2,7 @@
 title: "Record 2152 · Walden-Robotics-Partners-With-Toyota-on-Practical-Humanoids"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.364463+00:00
+updated_at: 2026-09-10T02:54:23.783915+00:00
 tags: [record, real-data]
 ---
 

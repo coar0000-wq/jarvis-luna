@@ -2,7 +2,7 @@
 title: "Record 318 · Osler-Weber-Rendu-Disease-Hereditary-Hemorrhagic-Telangiectasia-Type-2"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.907943+00:00
+updated_at: 2026-09-10T02:54:23.319604+00:00
 tags: [record, real-data]
 ---
 

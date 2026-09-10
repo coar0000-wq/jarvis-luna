@@ -2,7 +2,7 @@
 title: "Record 1416 · All-the-Best-Korean-Beauty-Products-That-Weve-Written-About-on-the-Str"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.181441+00:00
+updated_at: 2026-09-10T02:54:23.594890+00:00
 tags: [record, real-data]
 ---
 

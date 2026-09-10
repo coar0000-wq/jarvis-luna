@@ -2,7 +2,7 @@
 title: "Record 2660 · Belgrade-big-ideas-are-about-to-meet-bigger-opportunities---CJEC-Belgr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.486334+00:00
+updated_at: 2026-09-10T02:54:23.907505+00:00
 tags: [record, real-data]
 ---
 

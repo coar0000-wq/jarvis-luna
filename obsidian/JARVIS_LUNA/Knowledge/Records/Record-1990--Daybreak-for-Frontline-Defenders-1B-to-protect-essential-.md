@@ -2,7 +2,7 @@
 title: "Record 1990 · Daybreak-for-Frontline-Defenders-1B-to-protect-essential-services"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.323332+00:00
+updated_at: 2026-09-10T02:54:23.739903+00:00
 tags: [record, real-data]
 ---
 

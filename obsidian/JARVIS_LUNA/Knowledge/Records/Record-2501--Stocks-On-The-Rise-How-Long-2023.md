@@ -2,7 +2,7 @@
 title: "Record 2501 · Stocks-On-The-Rise-How-Long-2023"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.447802+00:00
+updated_at: 2026-09-10T02:54:23.869933+00:00
 tags: [record, real-data]
 ---
 

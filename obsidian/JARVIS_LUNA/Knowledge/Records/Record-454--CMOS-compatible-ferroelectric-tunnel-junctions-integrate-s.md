@@ -2,7 +2,7 @@
 title: "Record 454 · CMOS-compatible-ferroelectric-tunnel-junctions-integrate-stochastic-sa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.943397+00:00
+updated_at: 2026-09-10T02:54:23.357005+00:00
 tags: [record, real-data]
 ---
 

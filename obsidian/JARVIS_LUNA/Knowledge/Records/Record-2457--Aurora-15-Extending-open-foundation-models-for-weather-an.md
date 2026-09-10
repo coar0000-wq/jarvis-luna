@@ -2,7 +2,7 @@
 title: "Record 2457 · Aurora-15-Extending-open-foundation-models-for-weather-and-Earth-syste"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.437280+00:00
+updated_at: 2026-09-10T02:54:23.859447+00:00
 tags: [record, real-data]
 ---
 

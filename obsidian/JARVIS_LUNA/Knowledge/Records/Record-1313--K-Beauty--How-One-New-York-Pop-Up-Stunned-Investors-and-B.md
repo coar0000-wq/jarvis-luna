@@ -2,7 +2,7 @@
 title: "Record 1313 · K-Beauty--How-One-New-York-Pop-Up-Stunned-Investors-and-Buyers---The-K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.156943+00:00
+updated_at: 2026-09-10T02:54:23.570431+00:00
 tags: [record, real-data]
 ---
 

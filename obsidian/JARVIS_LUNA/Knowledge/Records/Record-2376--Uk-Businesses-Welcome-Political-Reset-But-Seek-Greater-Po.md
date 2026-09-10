@@ -2,7 +2,7 @@
 title: "Record 2376 · Uk-Businesses-Welcome-Political-Reset-But-Seek-Greater-Policy-Ce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.418282+00:00
+updated_at: 2026-09-10T02:54:23.840910+00:00
 tags: [record, real-data]
 ---
 

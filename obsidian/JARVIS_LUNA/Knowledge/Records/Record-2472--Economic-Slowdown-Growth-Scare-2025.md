@@ -2,7 +2,7 @@
 title: "Record 2472 · Economic-Slowdown-Growth-Scare-2025"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.441328+00:00
+updated_at: 2026-09-10T02:54:23.863542+00:00
 tags: [record, real-data]
 ---
 

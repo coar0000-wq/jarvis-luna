@@ -2,7 +2,7 @@
 title: "Record 1928 · Walmart-has-Laneige-Estee-Lauder-more-skincare-up-to-63-off-during-Bea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.304710+00:00
+updated_at: 2026-09-10T02:54:23.719813+00:00
 tags: [record, real-data]
 ---
 

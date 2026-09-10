@@ -2,7 +2,7 @@
 title: "Record 1913 · Why-Mikayla-Nogueira-Chose-Skin-Prep-Over-Skincare-And-Sephora-For-POV"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.301099+00:00
+updated_at: 2026-09-10T02:54:23.715755+00:00
 tags: [record, real-data]
 ---
 

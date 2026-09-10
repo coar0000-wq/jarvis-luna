@@ -2,7 +2,7 @@
 title: "Record 743 · Multicenter-Validation-of-Foundation-Model-Adaptation-for-Automated-Pa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.016339+00:00
+updated_at: 2026-09-10T02:54:23.432791+00:00
 tags: [record, real-data]
 ---
 

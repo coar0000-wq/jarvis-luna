@@ -2,7 +2,7 @@
 title: "Record 2140 · Confidence-Estimation-for-Financial-Vision-Language-Models-in-Chart-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.361004+00:00
+updated_at: 2026-09-10T02:54:23.780500+00:00
 tags: [record, real-data]
 ---
 

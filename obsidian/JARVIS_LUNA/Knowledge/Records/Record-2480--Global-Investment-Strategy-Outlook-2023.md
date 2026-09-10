@@ -2,7 +2,7 @@
 title: "Record 2480 · Global-Investment-Strategy-Outlook-2023"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.443104+00:00
+updated_at: 2026-09-10T02:54:23.865316+00:00
 tags: [record, real-data]
 ---
 

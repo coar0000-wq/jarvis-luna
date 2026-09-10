@@ -2,7 +2,7 @@
 title: "Record 2426 · Employee-Stock-Purchase-Plans"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.430271+00:00
+updated_at: 2026-09-10T02:54:23.852633+00:00
 tags: [record, real-data]
 ---
 

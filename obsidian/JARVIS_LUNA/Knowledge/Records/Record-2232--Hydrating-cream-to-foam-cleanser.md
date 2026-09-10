@@ -2,7 +2,7 @@
 title: "Record 2232 · Hydrating-cream-to-foam-cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.385038+00:00
+updated_at: 2026-09-10T02:54:23.806649+00:00
 tags: [record, real-data]
 ---
 

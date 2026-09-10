@@ -2,7 +2,7 @@
 title: "Record 1403 · K-beauty-top-10-innovative-launches-spotted-at-Cosmobeauty-Seoul-2026-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.178297+00:00
+updated_at: 2026-09-10T02:54:23.591771+00:00
 tags: [record, real-data]
 ---
 

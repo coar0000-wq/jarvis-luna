@@ -2,7 +2,7 @@
 title: "Record 2052 · Utility-Oriented-Visual-Evidence-Selection-for-Multimodal-Retrieval-Au"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.339744+00:00
+updated_at: 2026-09-10T02:54:23.757264+00:00
 tags: [record, real-data]
 ---
 

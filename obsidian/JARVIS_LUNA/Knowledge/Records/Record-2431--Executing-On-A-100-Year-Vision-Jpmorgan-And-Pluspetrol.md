@@ -2,7 +2,7 @@
 title: "Record 2431 · Executing-On-A-100-Year-Vision-Jpmorgan-And-Pluspetrol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.431362+00:00
+updated_at: 2026-09-10T02:54:23.853698+00:00
 tags: [record, real-data]
 ---
 

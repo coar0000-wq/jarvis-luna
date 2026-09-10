@@ -2,7 +2,7 @@
 title: "Record 2020 · Better-answers-broader-thinking-What-students-gain-from-ChatGPT-and-cr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.331323+00:00
+updated_at: 2026-09-10T02:54:23.748726+00:00
 tags: [record, real-data]
 ---
 

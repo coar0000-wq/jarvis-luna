@@ -2,7 +2,7 @@
 title: "Record 1308 · Korean-Skincare-Isnt-Just-for-Your-FaceThese-High-Performance-Bodycare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.155677+00:00
+updated_at: 2026-09-10T02:54:23.569212+00:00
 tags: [record, real-data]
 ---
 

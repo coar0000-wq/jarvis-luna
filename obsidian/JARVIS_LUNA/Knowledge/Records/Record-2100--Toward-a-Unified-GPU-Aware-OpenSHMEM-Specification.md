@@ -2,7 +2,7 @@
 title: "Record 2100 · Toward-a-Unified-GPU-Aware-OpenSHMEM-Specification"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.351286+00:00
+updated_at: 2026-09-10T02:54:23.770015+00:00
 tags: [record, real-data]
 ---
 

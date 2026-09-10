@@ -2,7 +2,7 @@
 title: "Record 732 · Estimating-heatwave-induced-excess-mortality-in-Indias-districts"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.013514+00:00
+updated_at: 2026-09-10T02:54:23.430062+00:00
 tags: [record, real-data]
 ---
 

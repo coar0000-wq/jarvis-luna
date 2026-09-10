@@ -2,7 +2,7 @@
 title: "Record 2213 · 2colors-medicube-AGE-R-Booster-Pro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.380550+00:00
+updated_at: 2026-09-10T02:54:23.801671+00:00
 tags: [record, real-data]
 ---
 

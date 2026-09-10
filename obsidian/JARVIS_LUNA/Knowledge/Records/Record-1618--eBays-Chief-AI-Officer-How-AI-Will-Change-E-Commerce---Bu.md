@@ -2,7 +2,7 @@
 title: "Record 1618 · eBays-Chief-AI-Officer-How-AI-Will-Change-E-Commerce---Business-Inside"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.229964+00:00
+updated_at: 2026-09-10T02:54:23.642829+00:00
 tags: [record, real-data]
 ---
 

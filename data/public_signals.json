@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T22:19:41.357628+00:00",
+  "generated_at": "2026-09-10T02:57:10.305800+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "santos vs atlético mineiro",
+          "keyword": "chris pappas",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Wed, 9 Sep 2026 19:40:00 -0700",
+          "source_name": "NBC News",
+          "url": "https://trends.google.com/trending?geo=US&q=chris%20pappas"
+        },
+        {
+          "keyword": "carrie underwood",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Wed, 9 Sep 2026 14:50:00 -0700",
-          "source_name": "gol.conmebol.com",
-          "url": "https://trends.google.com/trending?geo=US&q=santos%20vs%20atl%C3%A9tico%20mineiro"
+          "published": "Wed, 9 Sep 2026 19:40:00 -0700",
+          "source_name": "Consequence of Sound",
+          "url": "https://trends.google.com/trending?geo=US&q=carrie%20underwood"
         },
         {
-          "keyword": "switch 2 games",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Wed, 9 Sep 2026 14:50:00 -0700",
-          "source_name": "Nintendo",
-          "url": "https://trends.google.com/trending?geo=US&q=switch%202%20games"
-        },
-        {
-          "keyword": "judge judy",
+          "keyword": "roy cooper",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Wed, 9 Sep 2026 15:00:00 -0700",
-          "source_name": "TV Insider",
-          "url": "https://trends.google.com/trending?geo=US&q=judge%20judy"
+          "published": "Wed, 9 Sep 2026 19:30:00 -0700",
+          "source_name": "Carolina Journal",
+          "url": "https://trends.google.com/trending?geo=US&q=roy%20cooper"
         },
         {
-          "keyword": "richard branson wife",
+          "keyword": "brandon sproat",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Wed, 9 Sep 2026 14:50:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=richard%20branson%20wife"
+          "published": "Wed, 9 Sep 2026 19:30:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=brandon%20sproat"
         },
         {
-          "keyword": "santos x atlético-mg",
+          "keyword": "physint",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Wed, 9 Sep 2026 15:00:00 -0700",
-          "source_name": "ge",
-          "url": "https://trends.google.com/trending?geo=US&q=santos%20x%20atl%C3%A9tico-mg"
+          "published": "Wed, 9 Sep 2026 19:40:00 -0700",
+          "source_name": "XBOX Wire",
+          "url": "https://trends.google.com/trending?geo=US&q=physint"
         },
         {
-          "keyword": "tampa",
+          "keyword": "traitors",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Wed, 9 Sep 2026 15:00:00 -0700",
-          "source_name": "wtsp.com",
-          "url": "https://trends.google.com/trending?geo=US&q=tampa"
+          "published": "Wed, 9 Sep 2026 19:40:00 -0700",
+          "source_name": "Who",
+          "url": "https://trends.google.com/trending?geo=US&q=traitors"
         },
         {
-          "keyword": "lochmoor club",
+          "keyword": "talarico",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Wed, 9 Sep 2026 15:00:00 -0700",
-          "source_name": "Detroit Free Press",
-          "url": "https://trends.google.com/trending?geo=US&q=lochmoor%20club"
+          "published": "Wed, 9 Sep 2026 19:30:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=talarico"
         },
         {
-          "keyword": "james talarico ken paxton poll",
+          "keyword": "mary peltola",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Wed, 9 Sep 2026 15:00:00 -0700",
-          "source_name": "USA Today",
-          "url": "https://trends.google.com/trending?geo=US&q=james%20talarico%20ken%20paxton%20poll"
+          "published": "Wed, 9 Sep 2026 19:30:00 -0700",
+          "source_name": "Bloomberg.com",
+          "url": "https://trends.google.com/trending?geo=US&q=mary%20peltola"
         },
         {
-          "keyword": "trump administration 2030 census overhaul",
+          "keyword": "casemiro",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Wed, 9 Sep 2026 15:00:00 -0700",
-          "source_name": "The Washington Post",
-          "url": "https://trends.google.com/trending?geo=US&q=trump%20administration%202030%20census%20overhaul"
+          "published": "Wed, 9 Sep 2026 19:30:00 -0700",
+          "source_name": "MLSsoccer.com",
+          "url": "https://trends.google.com/trending?geo=US&q=casemiro"
         },
         {
-          "keyword": "football schedule",
+          "keyword": "kylie kelce",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Wed, 9 Sep 2026 14:50:00 -0700",
-          "source_name": "Pittsburgh Post-Gazette",
-          "url": "https://trends.google.com/trending?geo=US&q=football%20schedule"
+          "published": "Wed, 9 Sep 2026 19:30:00 -0700",
+          "source_name": "The Times of India",
+          "url": "https://trends.google.com/trending?geo=US&q=kylie%20kelce"
         }
       ]
     },
@@ -96,88 +96,88 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-09 ~ 2026-09-07 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-10 ~ 2026-09-08 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
           "topic": "Snail slime",
           "days": 30,
-          "total_views": 2141,
-          "avg_daily": 71,
-          "recent_avg": 78,
+          "total_views": 2157,
+          "avg_daily": 72,
+          "recent_avg": 79,
           "prev_avg": 65,
-          "change_pct": 20.3,
+          "change_pct": 21.7,
           "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "Hyaluronic acid",
           "days": 30,
-          "total_views": 17676,
-          "avg_daily": 589,
-          "recent_avg": 610,
-          "prev_avg": 568,
-          "change_pct": 7.5,
+          "total_views": 17805,
+          "avg_daily": 594,
+          "recent_avg": 612,
+          "prev_avg": 575,
+          "change_pct": 6.6,
           "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
         },
         {
           "topic": "Centella asiatica",
           "days": 30,
-          "total_views": 14587,
-          "avg_daily": 486,
+          "total_views": 14645,
+          "avg_daily": 488,
           "recent_avg": 499,
-          "prev_avg": 474,
-          "change_pct": 5.2,
+          "prev_avg": 478,
+          "change_pct": 4.5,
           "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
         },
         {
           "topic": "Retinol",
           "days": 30,
-          "total_views": 11478,
-          "avg_daily": 383,
-          "recent_avg": 388,
+          "total_views": 11439,
+          "avg_daily": 381,
+          "recent_avg": 386,
           "prev_avg": 377,
-          "change_pct": 3.0,
+          "change_pct": 2.5,
           "url": "https://en.wikipedia.org/wiki/Retinol"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 3873,
+          "total_views": 3881,
           "avg_daily": 129,
           "recent_avg": 131,
-          "prev_avg": 127,
-          "change_pct": 2.6,
+          "prev_avg": 128,
+          "change_pct": 2.2,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
         },
         {
           "topic": "Niacinamide",
           "days": 30,
-          "total_views": 1351,
+          "total_views": 1342,
           "avg_daily": 45,
-          "recent_avg": 45,
-          "prev_avg": 45,
-          "change_pct": 0.4,
+          "recent_avg": 43,
+          "prev_avg": 47,
+          "change_pct": -8.3,
           "url": "https://en.wikipedia.org/wiki/Niacinamide"
-        },
-        {
-          "topic": "Sunscreen",
-          "days": 30,
-          "total_views": 18298,
-          "avg_daily": 610,
-          "recent_avg": 544,
-          "prev_avg": 676,
-          "change_pct": -19.5,
-          "url": "https://en.wikipedia.org/wiki/Sunscreen"
         },
         {
           "topic": "Cosmetics",
           "days": 30,
-          "total_views": 23824,
-          "avg_daily": 794,
+          "total_views": 23668,
+          "avg_daily": 789,
           "recent_avg": 698,
-          "prev_avg": 890,
-          "change_pct": -21.5,
+          "prev_avg": 879,
+          "change_pct": -20.6,
           "url": "https://en.wikipedia.org/wiki/Cosmetics"
+        },
+        {
+          "topic": "Sunscreen",
+          "days": 30,
+          "total_views": 17999,
+          "avg_daily": 600,
+          "recent_avg": 527,
+          "prev_avg": 673,
+          "change_pct": -21.7,
+          "url": "https://en.wikipedia.org/wiki/Sunscreen"
         }
       ]
     },

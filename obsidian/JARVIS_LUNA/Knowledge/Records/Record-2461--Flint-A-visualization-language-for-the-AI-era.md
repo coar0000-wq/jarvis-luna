@@ -2,7 +2,7 @@
 title: "Record 2461 · Flint-A-visualization-language-for-the-AI-era"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.438435+00:00
+updated_at: 2026-09-10T02:54:23.860696+00:00
 tags: [record, real-data]
 ---
 

@@ -1,47 +1,47 @@
 {
-  "generated_at": "2026-09-09T22:15:22.981792+00:00",
+  "generated_at": "2026-09-10T02:52:19.428291+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2043,
+  "pool_size": 2055,
   "제목없어_버림": 38,
-  "unrouted": 9,
+  "unrouted": 12,
   "summary": {
     "sourcing": {
-      "total": 204,
-      "recent": 203
+      "total": 216,
+      "recent": 215
     },
     "market": {
-      "total": 417,
-      "recent": 47
+      "total": 416,
+      "recent": 42
     },
     "listing": {
-      "total": 16,
+      "total": 17,
       "recent": 12
     },
     "pricing": {
       "total": 14,
-      "recent": 6
+      "recent": 5
     },
     "legal": {
       "total": 112,
-      "recent": 19
+      "recent": 18
     },
     "design": {
-      "total": 347,
-      "recent": 97
+      "total": 352,
+      "recent": 94
     },
     "robotics": {
-      "total": 108,
-      "recent": 75
+      "total": 109,
+      "recent": 76
     },
     "knowledge": {
-      "total": 161,
-      "recent": 54
+      "total": 160,
+      "recent": 53
     },
     "institutions": {
       "total": 1065,
-      "recent": 283
+      "recent": 273
     }
   },
   "fda_failures": [],
@@ -56,420 +56,420 @@
         "title": "쉬크 익스트림 3중날 면도기 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1017957",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "[41 레오네]프릴루드 딘토 단테 샤프너블 브로우 펜슬",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061146",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "캐릭터 팩트형 누드 쌍꺼풀 테이프 슬림 156개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1065375",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "개별포장 듀얼 종이 면봉 뾰족형 굴곡형 100P",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1004959",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "존슨즈 베이비 로션 핑크 200ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044110",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "드롭비 잡티 말끔 앰플 40 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "더페이스샵 데미지 클리닉 리커버리 밤 40 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061886",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "NEW 스타일리쉬 오토 립 라이너 펜슬 베리쉬폰",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044404",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "논슬립 걸이형 바지걸이 2개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1046646",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "루니툰즈 아크릴 거울 키링 트위티",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072616",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "심플리오 헤븐리 샤워 젤 100 ml 그린브리즈 향",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1047040",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "내 맘대로 DIY 필링패드 70P",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039542",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "디즈니 칩앤데일 손거울",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067875",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "숫자 스포츠 양말 남성용",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=54005",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "단색 향수 리필용기 5 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=94020",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "태그 벨벳블러밤(2호_모브휘슬)",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067396",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "손앤박 아티 스프레드 컬러 밤(03 멜로우)",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048918",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "본셉 비타씨 젤리 마스크 1매 23 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061922",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "플란넬 파자마 바지 L",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064429",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "베이스섀도우 브러시 납작형",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1002220",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "온더바디 국민뷰티템 익스트림쿨링 풋샴푸 390 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067022",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035210",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "나무 스틱 둥근 면봉 500개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1025659",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "오릭스 컬러 립밤 4.8 g 체리로즈",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041890",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "2080 닥터크리닉 잇몸 치약 120 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044428",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "작은 헤드 미세모 칫솔 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042265",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "투명 핸들 파우더 브러시",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059411",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "헤어테소로 새치 커버 마스카라 다크브라운 10 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035006",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "랩잇 by 닥터지 포어 젤리 마스크 50 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061917",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "스테인리스 칫솔 치약 스탠드",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051565",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "쿤달 콜라겐 데미지 케어 트리트먼트 150 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060208",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "판도라 by 비비안 심리스 팬티 100 스킨",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056862",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "리노이아 워터 트리트먼트 200 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061927",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "[각질순삭]큐어레스트 버블 필링 클렌저 120 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073704",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060494",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "채비공간 어성초 추출물 비건 토너 150 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "남성용 배색 스트라이프 단목 양말",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=55256",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "삼각 모서리 집게 클립 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1043939",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067024",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "몬풋 남성 보온 골지 장목 양말 화이트",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056719",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "와플 라운지웨어 하의 M 아이보리",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067772",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "원터치 케이스 치실 100P",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=98800",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056662",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "에코팩 유리 저장 용기 230ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027208",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048042",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "시크 접이식 물결 사각 거울 1배＆2배 일체형",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1069042",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "케어존플러스 모공탄력 수분크림 75 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072803",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "여성 일체형 심리스 브라 L 스킨",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072291",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "일본제 콤팩트 이중 미세모 칫솔 2개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=913192170",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "과일나라 마이시크릿아이템 아르간오일 핸드크림 60 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=58600",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "식물원 병풀 클리어 마스크 시트",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038603",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "발바닥 모양 풋 브러시",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048068",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "[벨벳우드]데일리콤마 벨로 드 퍼퓸 고체 향수 4.7 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1052595",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "루니툰즈 쿠션 아크릴 키링 딸기",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072612",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "크림 구두약 65g (블랙)",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030153",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "2080 파워쉴드 플러스 치약 130 gX3개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044430",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       },
       {
         "title": "몬풋 남성 넓은 골지 장목 양말 와인",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059044",
         "pool": "daiso",
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "by_hand": true
       }
     ],
@@ -608,7 +608,7 @@
         "by_hand": false
       },
       {
-        "title": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - Global Cosmetics News",
+        "title": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - globalcosmeticsnews.com",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMjY0SGdyaGU3MjdmNlUtemxuYlZaaHFwdmZsY2dDd0hTTHM1NHJvRTk3ck5TNFAxa19fa2NmaG9iMzdXVVpwWVlodGJSTmlMT1JnNUMyNTdsTnM3QjdMMGFlWFIzeEtGbjRLX0xZbjhLdkZ6N0NUUlVHVG1mYTVMcDQyU0UzUVBxa1J1QjJROThfR2gtYjlHQVpwbEU5WmxoUG9TM2RseTUzQS1u?oc=5",
         "pool": "google",
         "date": "2026-09-09",
@@ -650,13 +650,6 @@
         "by_hand": false
       },
       {
-        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
-        "pool": "google",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
         "title": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - Yahoo",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWDhHZXdJUDRjOTRTZ01GNmc0UTdpSFB5QVdTVWxTM25ERVBfX0FKOEpjVXh4OERnU3NtMWJSOUpnSFA1Qkh0THI3MTFscmQtLS00U3c2SGxTN0FkdjdWYWhOMGFiX0RuSG1mQnVOd29wRXRUemRpM09NX1VOZlNxWTlqcWVMSXJzS3cxWDc3Yw?oc=5",
         "pool": "google",
@@ -673,6 +666,13 @@
       {
         "title": "I'd Pay Double For This K-Beauty Product That's Working Wonders On My Neck Lines - Yahoo",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeThXYVNQSHQ4S0JoNnFEcnJ6RHdMNkZVc3JRdGJYbDRJeTczaG0wYmxLMnZlMEU2eVRJUE9SbWdudzJySV9pODdZV0txUzJrZ3ZRX1VZUDQ0Y2F4NTFmd01wNXB6c0RFVldzQzE5bTlpSUZyc0Rxb09OdEVFSjFfT3l2STBRREpYMkNGbXB6NDdXcnM?oc=5",
+        "pool": "google",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
         "pool": "google",
         "date": "2026-09-08",
         "by_hand": false
@@ -867,7 +867,7 @@
         "by_hand": false
       },
       {
-        "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - elle.com",
+        "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - ELLE",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5",
         "pool": "google",
         "date": "2026-08-26",
@@ -888,8 +888,8 @@
         "by_hand": false
       },
       {
-        "title": "This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - Woman & Home",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVEFxUTExeGlubm5Ic3F4c0dzMWVTVHNSOW1EWXpQTWMzbG8ybnEyRFEtaUFMVkMwVEtIWGpaT0pHY3BxRUx6WnBKS1k4blNvSHRQX2xkb1MybzFtXzc1dzVrekpJclZ6SHJZUnFQM0ZHMngtTG9iZGlJMmNfQlB5ckdQdTA?oc=5",
+        "title": "News - Glow Up: K-Beauty Launches at Select PXs and BXs - DVIDS",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORTBtX2VGWFJSTWRjdWQ5anhfY3pEcUpfMngweUdXbFduTjRqZ00tV0RNWS1pb2ltOWhRZy11U0o3LUtqSXZkeE12Z3Zwb0M3alh5UkZES1U4ZXJ1bURLa1pqV0psQWVDcVVndE1HY1FJSE9KeTZPT2l2YjVOdGh1NGs3bGJmOEtS?oc=5",
         "pool": "google",
         "date": "2026-08-25",
         "by_hand": false
@@ -932,7 +932,7 @@
         "by_hand": true
       },
       {
-        "title": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - Global Cosmetics News",
+        "title": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - globalcosmeticsnews.com",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMjY0SGdyaGU3MjdmNlUtemxuYlZaaHFwdmZsY2dDd0hTTHM1NHJvRTk3ck5TNFAxa19fa2NmaG9iMzdXVVpwWVlodGJSTmlMT1JnNUMyNTdsTnM3QjdMMGFlWFIzeEtGbjRLX0xZbjhLdkZ6N0NUUlVHVG1mYTVMcDQyU0UzUVBxa1J1QjJROThfR2gtYjlHQVpwbEU5WmxoUG9TM2RseTUzQS1u?oc=5",
         "pool": "google",
         "date": "2026-09-09",
@@ -1002,6 +1002,13 @@
         "by_hand": false
       },
       {
+        "title": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - Global Cosmetics News",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMjY0SGdyaGU3MjdmNlUtemxuYlZaaHFwdmZsY2dDd0hTTHM1NHJvRTk3ck5TNFAxa19fa2NmaG9iMzdXVVpwWVlodGJSTmlMT1JnNUMyNTdsTnM3QjdMMGFlWFIzeEtGbjRLX0xZbjhLdkZ6N0NUUlVHVG1mYTVMcDQyU0UzUVBxa1J1QjJROThfR2gtYjlHQVpwbEU5WmxoUG9TM2RseTUzQS1u?oc=5",
+        "pool": "us_beauty",
+        "date": "",
+        "by_hand": false
+      },
+      {
         "title": "Beauty of Joseon Relief Sun SPF50+",
         "url": "",
         "pool": "us_beauty",
@@ -1032,15 +1039,8 @@
         "by_hand": true
       },
       {
-        "title": "Global Tariffs",
-        "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Us Tariffs Research Roundtable",
-        "url": "https://www.morganstanley.com/ideas/us-tariffs-research-roundtable",
+        "title": "Current Events   Us Tariffs",
+        "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
@@ -1049,14 +1049,21 @@
         "title": "Trump Tariff Delay Ongoing Outlook Uncertainty",
         "url": "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty",
         "pool": "institutions",
-        "date": "2026-09-09",
+        "date": "2026-09-08",
         "by_hand": false
       },
       {
-        "title": "Trump Tariffs Stock Market Crash How To Invest",
-        "url": "https://www.morganstanley.com/ideas/trump-tariffs-stock-market-crash-how-to-invest",
+        "title": "Global Tariffs",
+        "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
         "pool": "institutions",
-        "date": "2026-09-09",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "Us Tariffs Research Roundtable",
+        "url": "https://www.morganstanley.com/ideas/us-tariffs-research-roundtable",
+        "pool": "institutions",
+        "date": "2026-09-07",
         "by_hand": false
       },
       {
@@ -1792,6 +1799,27 @@
         "by_hand": false
       },
       {
+        "title": "How scientists use Claude to accelerate research",
+        "url": "https://www.anthropic.com/news/accelerating-scientific-research",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic acquires Vercept",
+        "url": "https://www.anthropic.com/news/acquires-vercept",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "An AI policy tool for today: Invest in NIST",
+        "url": "https://www.anthropic.com/news/an-ai-policy-tool-for-today-ambitiously-invest-in-nist",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
         "title": "Anthropic acquires Stainless",
         "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
         "pool": "institutions",
@@ -1799,8 +1827,15 @@
         "by_hand": false
       },
       {
-        "title": "KPMG integrates Claude across its workforce",
-        "url": "https://www.anthropic.com/news/anthropic-kpmg",
+        "title": "Anthropic Raises 124 Million To Build More Reliable General Ai Systems",
+        "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic Raises Series B To Build Safe Reliable Ai",
+        "url": "https://www.anthropic.com/news/anthropic-raises-series-b-to-build-safe-reliable-ai",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
@@ -1923,37 +1958,23 @@
         "pool": "robotics",
         "date": "2026-09-08",
         "by_hand": false
-      },
-      {
-        "title": "A Two-Stage, Model-Based Reinforcement Learning Approach for Active Flow Control of Bluff Body Wakes",
-        "url": "https://arxiv.org/abs/2609.08436v1",
-        "pool": "robotics",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "1Password increases engineering productivity 21% with Codex",
-        "url": "https://openai.com/index/1password",
-        "pool": "institutions",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "Samsung Electronics and ASML Expand Strategic Collaboration for Next-Generation Semiconductor Manufacturing",
-        "url": "https://news.samsung.com/global/samsung-electronics-and-asml-expand-strategic-collaboration-for-next-generation-semiconductor-manufacturing",
-        "pool": "institutions",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "Build durable agents with Temporal and Lakebase",
-        "url": "https://www.databricks.com/blog/build-durable-agents-temporal-and-lakebase",
-        "pool": "institutions",
-        "date": "2026-09-08",
-        "by_hand": false
       }
     ],
     "robotics": [
+      {
+        "title": "What bricklaying has taught Monumental about robots in construction",
+        "url": "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/",
+        "pool": "robotics",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "Unitree shares down 53% from IPO debut",
+        "url": "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/",
+        "pool": "robotics",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
       {
         "title": "AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness",
         "url": "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/",
@@ -2263,6 +2284,13 @@
         "by_hand": false
       },
       {
+        "title": "Humanoid Robot Market 5 Trillion By 2050",
+        "url": "https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050",
+        "pool": "institutions",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
         "title": "Bi-ZOL: Bilevel Zeroth-Order Learning with Nonsmooth Responses",
         "url": "https://arxiv.org/abs/2609.08021v1",
         "pool": "robotics",
@@ -2352,27 +2380,6 @@
         "pool": "robotics",
         "date": "2026-09-07",
         "by_hand": false
-      },
-      {
-        "title": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
-        "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
-        "pool": "robotics",
-        "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "MassRobotics shares member survey results around FCC restrictions",
-        "url": "https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/",
-        "pool": "robotics",
-        "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "Eric Sivertson discusses FPGAs and robot security",
-        "url": "https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/",
-        "pool": "robotics",
-        "date": "2026-09-06",
-        "by_hand": false
       }
     ],
     "knowledge": [
@@ -2456,13 +2463,6 @@
       {
         "title": "Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow",
         "url": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Introducing Claude Opus 4.8",
-        "url": "https://www.anthropic.com/news/claude-opus-4-8",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
@@ -2795,6 +2795,13 @@
         "pool": "institutions",
         "date": "2026-08-27",
         "by_hand": false
+      },
+      {
+        "title": "Why Your Website Should Never Stop Changing",
+        "url": "https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/",
+        "pool": "design_refs",
+        "date": "2026-08-25",
+        "by_hand": false
       }
     ],
     "institutions": [
@@ -2803,6 +2810,13 @@
         "url": "https://openalex.org/W7160476156",
         "pool": "institutions",
         "date": "2026-09-26",
+        "by_hand": false
+      },
+      {
+        "title": "GPT-6 Astra: The next generation in intelligence for work",
+        "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+        "pool": "institutions",
+        "date": "2026-09-09",
         "by_hand": false
       },
       {
@@ -2904,6 +2918,13 @@
         "by_hand": false
       },
       {
+        "title": "Five AI Questions We're Hearing from Financial Services Leaders",
+        "url": "https://www.databricks.com/blog/five-ai-questions-were-hearing-financial-services-leaders",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
         "title": "A practical approach to end-to-end Solvency II reporting in Databricks",
         "url": "https://www.databricks.com/blog/practical-approach-end-end-solvency-ii-reporting-databricks",
         "pool": "institutions",
@@ -2946,6 +2967,27 @@
         "by_hand": false
       },
       {
+        "title": "Introducing 100K context windows",
+        "url": "https://www.anthropic.com/news/100k-context-windows",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "How scientists use Claude to accelerate research",
+        "url": "https://www.anthropic.com/news/accelerating-scientific-research",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic acquires Vercept",
+        "url": "https://www.anthropic.com/news/acquires-vercept",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
         "title": "Mapping AI-enabled cyber threats",
         "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
         "pool": "institutions",
@@ -2960,6 +3002,13 @@
         "by_hand": false
       },
       {
+        "title": "An AI policy tool for today: Invest in NIST",
+        "url": "https://www.anthropic.com/news/an-ai-policy-tool-for-today-ambitiously-invest-in-nist",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
         "title": "Anthropic acquires Stainless",
         "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
         "pool": "institutions",
@@ -2967,120 +3016,92 @@
         "by_hand": false
       },
       {
-        "title": "KPMG integrates Claude across its workforce",
+        "title": "Expanding access to safer AI with Amazon",
+        "url": "https://www.anthropic.com/news/anthropic-amazon",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic and Amazon expand compute collaboration",
+        "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "Irina Ghose named Managing Director of India",
+        "url": "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic Bcg",
+        "url": "https://www.anthropic.com/news/anthropic-bcg",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic Codepath Partnership",
+        "url": "https://www.anthropic.com/news/anthropic-codepath-partnership",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic Infosys",
+        "url": "https://www.anthropic.com/news/anthropic-infosys",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic Kpmg",
         "url": "https://www.anthropic.com/news/anthropic-kpmg",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
       },
       {
-        "title": "Ben Bernanke joins the Long-Term Benefit Trust",
-        "url": "https://www.anthropic.com/news/ben-bernanke",
+        "title": "Anthropic Nec",
+        "url": "https://www.anthropic.com/news/anthropic-nec",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
       },
       {
-        "title": "Chris Olah's remarks on Pope Leo XIV's encyclical",
-        "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+        "title": "Anthropic Partners With Allen Institute And Howard Hughes Medical Institute",
+        "url": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
       },
       {
-        "title": "Introducing Claude Corps",
-        "url": "https://www.anthropic.com/news/claude-corps",
+        "title": "Anthropic Partners With Google Cloud",
+        "url": "https://www.anthropic.com/news/anthropic-partners-with-google-cloud",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
       },
       {
-        "title": "Introducing Claude for Teachers",
-        "url": "https://www.anthropic.com/news/claude-for-teachers",
+        "title": "Anthropic Raises 124 Million To Build More Reliable General Ai Systems",
+        "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
       },
       {
-        "title": "Introducing Claude Opus 4.8",
-        "url": "https://www.anthropic.com/news/claude-opus-4-8",
+        "title": "Anthropic Raises 30 Billion Series G Funding 380 Billion Post Money Valuation",
+        "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
       },
       {
-        "title": "Claude Science, an AI workbench for scientists",
-        "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Claude Text Watermark",
-        "url": "https://www.anthropic.com/news/claude-text-watermark",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Cognizant Anthropic",
-        "url": "https://www.anthropic.com/news/cognizant-anthropic",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Confidential Draft S1 Sec",
-        "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Dxc Anthropic Alliance",
-        "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Economic Futures Research Fund Agenda",
-        "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Expanding Project Glasswing",
-        "url": "https://www.anthropic.com/news/expanding-project-glasswing",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Fable Mythos Access",
-        "url": "https://www.anthropic.com/news/fable-mythos-access",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Fable Safeguards Jailbreak Framework",
-        "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Gates Foundation Partnership",
-        "url": "https://www.anthropic.com/news/gates-foundation-partnership",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Improving Fable 5 S Biology Safeguards",
-        "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+        "title": "Anthropic Raises Series B To Build Safe Reliable Ai",
+        "url": "https://www.anthropic.com/news/anthropic-raises-series-b-to-build-safe-reliable-ai",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
@@ -3121,101 +3142,87 @@
         "by_hand": false
       },
       {
-        "title": "Global Tariffs",
-        "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
+        "title": "Financial Sponsors Global Credit Markets",
+        "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-sponsors-global-credit-markets",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
       },
       {
-        "title": "Digital Assets",
-        "url": "https://www.morganstanley.com/insights/themes/digital-assets",
+        "title": "Current Events   Us Tariffs",
+        "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
       },
       {
-        "title": "Fed Policy And Markets",
-        "url": "https://www.morganstanley.com/ideas/fed-policy-and-markets",
+        "title": "How Is Automation Shaping Emerging Markets",
+        "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/how-is-automation-shaping-emerging-markets",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
       },
       {
-        "title": "Us Tariffs Research Roundtable",
-        "url": "https://www.morganstanley.com/ideas/us-tariffs-research-roundtable",
+        "title": "Gastric Mucosa Cancer Risk: The Operative Link on Gastritis Assessment Staging System",
+        "url": "https://doi.org/10.7704/kjhugr.2026.0027",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
       },
       {
-        "title": "Trump Tariff Delay Ongoing Outlook Uncertainty",
-        "url": "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty",
+        "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+        "url": "https://openai.com/index/codex-quantum-computing-experiments",
         "pool": "institutions",
-        "date": "2026-09-09",
+        "date": "2026-09-08",
         "by_hand": false
       },
       {
-        "title": "Power Moves Detroit",
-        "url": "https://www.morganstanley.com/ideas/power-moves-detroit",
+        "title": "The Work Now Within Reach",
+        "url": "https://openai.com/index/the-work-now-within-reach",
         "pool": "institutions",
-        "date": "2026-09-09",
+        "date": "2026-09-08",
         "by_hand": false
       },
       {
-        "title": "Deepseek Ai Watershed Moment",
-        "url": "https://www.morganstanley.com/insights/articles/deepseek-ai-watershed-moment",
+        "title": "Introducing ChatGPT Images 2.5",
+        "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
         "pool": "institutions",
-        "date": "2026-09-09",
+        "date": "2026-09-08",
         "by_hand": false
       },
       {
-        "title": "Tech Startups Insiders Lessons For Growth",
-        "url": "https://www.morganstanley.com/ideas/tech-startups-insiders-lessons-for-growth",
+        "title": "On the Navier–Stokes Millennium Prize Problem",
+        "url": "https://openai.com/index/navier-stokes-solution",
         "pool": "institutions",
-        "date": "2026-09-09",
+        "date": "2026-09-08",
         "by_hand": false
       },
       {
-        "title": "Future Plastics Ideas Podcast",
-        "url": "https://www.morganstanley.com/ideas/future-plastics-ideas-podcast",
+        "title": "Funding grants for new research into AI and teen development",
+        "url": "https://openai.com/index/teen-development-research-grants",
         "pool": "institutions",
-        "date": "2026-09-09",
+        "date": "2026-09-08",
         "by_hand": false
       },
       {
-        "title": "Kelly Street Garden",
-        "url": "https://www.morganstanley.com/ideas/kelly-street-garden",
+        "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+        "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
         "pool": "institutions",
-        "date": "2026-09-09",
+        "date": "2026-09-08",
         "by_hand": false
       },
       {
-        "title": "Entrepreneurs Roundtable Multicultural Innovation Lab 2018",
-        "url": "https://www.morganstanley.com/ideas/entrepreneurs-roundtable-multicultural-innovation-lab-2018",
+        "title": "1Password increases engineering productivity 21% with Codex",
+        "url": "https://openai.com/index/1password",
         "pool": "institutions",
-        "date": "2026-09-09",
+        "date": "2026-09-08",
         "by_hand": false
       },
       {
-        "title": "Ai Monetization Race To Roi Tmt",
-        "url": "https://www.morganstanley.com/insights/articles/ai-monetization-race-to-roi-tmt",
+        "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+        "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
         "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Genai Revenue Growth And Profitability",
-        "url": "https://www.morganstanley.com/insights/articles/genai-revenue-growth-and-profitability",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Tmt Barcelona 2015",
-        "url": "https://www.morganstanley.com/ideas/tmt-barcelona-2015",
-        "pool": "institutions",
-        "date": "2026-09-09",
+        "date": "2026-09-08",
         "by_hand": false
       }
     ]

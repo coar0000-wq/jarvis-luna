@@ -2,7 +2,7 @@
 title: "Record 2170 · Video-Friday-Do-We-Need-Superhuman-Humanoid-Robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.369619+00:00
+updated_at: 2026-09-10T02:54:23.789585+00:00
 tags: [record, real-data]
 ---
 

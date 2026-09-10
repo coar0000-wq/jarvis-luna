@@ -2,7 +2,7 @@
 title: "Record 2564 · Pressure-sensors-can-help-improve-robotic-gripping-accuracy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.463688+00:00
+updated_at: 2026-09-10T02:54:23.885516+00:00
 tags: [record, real-data]
 ---
 

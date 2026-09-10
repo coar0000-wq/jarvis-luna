@@ -2,7 +2,7 @@
 title: "Record 2556 · Learn-how-physical-AI-is-being-used-to-do-real-work-at-RoboBusiness"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.461324+00:00
+updated_at: 2026-09-10T02:54:23.883149+00:00
 tags: [record, real-data]
 ---
 

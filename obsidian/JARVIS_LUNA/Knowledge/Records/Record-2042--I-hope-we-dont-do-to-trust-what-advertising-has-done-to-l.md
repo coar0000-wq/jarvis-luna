@@ -2,7 +2,7 @@
 title: "Record 2042 · I-hope-we-dont-do-to-trust-what-advertising-has-done-to-love"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.337360+00:00
+updated_at: 2026-09-10T02:54:23.754625+00:00
 tags: [record, real-data]
 ---
 

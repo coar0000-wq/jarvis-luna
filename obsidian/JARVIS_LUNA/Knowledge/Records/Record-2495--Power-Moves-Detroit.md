@@ -2,7 +2,7 @@
 title: "Record 2495 · Power-Moves-Detroit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.446379+00:00
+updated_at: 2026-09-10T02:54:23.868568+00:00
 tags: [record, real-data]
 ---
 

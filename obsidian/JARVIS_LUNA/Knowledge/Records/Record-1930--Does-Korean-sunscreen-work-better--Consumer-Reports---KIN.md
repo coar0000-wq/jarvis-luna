@@ -2,7 +2,7 @@
 title: "Record 1930 · Does-Korean-sunscreen-work-better--Consumer-Reports---KING5com"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.305205+00:00
+updated_at: 2026-09-10T02:54:23.720337+00:00
 tags: [record, real-data]
 ---
 

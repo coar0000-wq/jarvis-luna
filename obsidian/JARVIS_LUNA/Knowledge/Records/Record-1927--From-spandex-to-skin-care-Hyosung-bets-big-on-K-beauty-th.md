@@ -2,7 +2,7 @@
 title: "Record 1927 · From-spandex-to-skin-care-Hyosung-bets-big-on-K-beauty-through-new-sup"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.304484+00:00
+updated_at: 2026-09-10T02:54:23.719531+00:00
 tags: [record, real-data]
 ---
 

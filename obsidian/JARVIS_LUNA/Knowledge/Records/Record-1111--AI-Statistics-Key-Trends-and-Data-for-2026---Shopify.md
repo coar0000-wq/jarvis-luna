@@ -2,7 +2,7 @@
 title: "Record 1111 · AI-Statistics-Key-Trends-and-Data-for-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.109548+00:00
+updated_at: 2026-09-10T02:54:23.523860+00:00
 tags: [record, real-data]
 ---
 

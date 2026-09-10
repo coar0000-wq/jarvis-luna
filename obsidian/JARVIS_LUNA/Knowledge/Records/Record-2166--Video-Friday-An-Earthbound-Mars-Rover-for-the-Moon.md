@@ -2,7 +2,7 @@
 title: "Record 2166 · Video-Friday-An-Earthbound-Mars-Rover-for-the-Moon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.368484+00:00
+updated_at: 2026-09-10T02:54:23.788341+00:00
 tags: [record, real-data]
 ---
 

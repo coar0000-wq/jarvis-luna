@@ -2,7 +2,7 @@
 title: "Record 2370 · Barclays-Appoints-Ramin-Naji-As-Head-Of-Healthcare-Real-Estate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.416890+00:00
+updated_at: 2026-09-10T02:54:23.839535+00:00
 tags: [record, real-data]
 ---
 

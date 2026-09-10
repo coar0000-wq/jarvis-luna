@@ -2,7 +2,7 @@
 title: "Record 2148 · Cyborg-Roaches-Can-Stab-You-With-Needles"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.363162+00:00
+updated_at: 2026-09-10T02:54:23.782473+00:00
 tags: [record, real-data]
 ---
 

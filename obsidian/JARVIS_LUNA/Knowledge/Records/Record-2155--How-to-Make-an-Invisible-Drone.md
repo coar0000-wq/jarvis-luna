@@ -2,7 +2,7 @@
 title: "Record 2155 · How-to-Make-an-Invisible-Drone"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.365325+00:00
+updated_at: 2026-09-10T02:54:23.784851+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1603 · Olive-Youngs-US-Launch-Is-Mega-Fuel-for-My-K-Beauty-Obsession---mariec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.226384+00:00
+updated_at: 2026-09-10T02:54:23.639308+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 918 · FORTALECIMENTO-DA-UNIVERSIDADE-EMPREENDEDORA-POR-MEIO-DE-PROGRAMAS-INS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.060283+00:00
+updated_at: 2026-09-10T02:54:23.475045+00:00
 tags: [record, real-data]
 ---
 

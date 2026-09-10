@@ -2,7 +2,7 @@
 title: "Record 1872 · K-Beauty-Trends-2026-Korean-Skincare-Trends-Shaping-Luxury-Beauty---Fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.291246+00:00
+updated_at: 2026-09-10T02:54:23.704632+00:00
 tags: [record, real-data]
 ---
 

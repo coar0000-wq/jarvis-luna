@@ -2,7 +2,7 @@
 title: "Record 1839 · ADWIN-KOREA-Shapes-the-Future-of-K-Beauty-Through-Material-Innovation-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.283518+00:00
+updated_at: 2026-09-10T02:54:23.696276+00:00
 tags: [record, real-data]
 ---
 

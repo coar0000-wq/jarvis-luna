@@ -2,7 +2,7 @@
 title: "Record 1431 · Wall-Street-chases-K-beauty-with-first-dedicated-ETF-filing---Personal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.185011+00:00
+updated_at: 2026-09-10T02:54:23.598379+00:00
 tags: [record, real-data]
 ---
 

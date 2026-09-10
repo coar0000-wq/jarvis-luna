@@ -2,7 +2,7 @@
 title: "Record 2782 · Grok-Bot-is-now-included-with-more-plans"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.514101+00:00
+updated_at: 2026-09-10T02:54:23.935234+00:00
 tags: [record, real-data]
 ---
 

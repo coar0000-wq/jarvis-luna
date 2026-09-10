@@ -2,7 +2,7 @@
 title: "Record 2416 · Building-Ai-Systems-For-Capital-Markets---Transcript"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.428033+00:00
+updated_at: 2026-09-10T02:54:23.850387+00:00
 tags: [record, real-data]
 ---
 

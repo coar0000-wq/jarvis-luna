@@ -2,7 +2,7 @@
 title: "Record 2311 · Claude-Science-an-AI-workbench-for-scientists"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.403295+00:00
+updated_at: 2026-09-10T02:54:23.826161+00:00
 tags: [record, real-data]
 ---
 

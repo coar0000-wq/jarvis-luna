@@ -2,7 +2,7 @@
 title: "Record 330 · From-Paper-to-Pixels-Lessons-Learnt-from-Creating-and-Using-the-Nuclea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.911193+00:00
+updated_at: 2026-09-10T02:54:23.323032+00:00
 tags: [record, real-data]
 ---
 

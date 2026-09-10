@@ -2,7 +2,7 @@
 title: "Record 2776 · Grok-46-on-Amazon-Bedrock"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.512665+00:00
+updated_at: 2026-09-10T02:54:23.933813+00:00
 tags: [record, real-data]
 ---
 

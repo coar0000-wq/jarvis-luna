@@ -2,7 +2,7 @@
 title: "Record 2115 · Decoding-Desarguesian-spread-codes-beyond-half-minimum-distance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.354961+00:00
+updated_at: 2026-09-10T02:54:23.774043+00:00
 tags: [record, real-data]
 ---
 

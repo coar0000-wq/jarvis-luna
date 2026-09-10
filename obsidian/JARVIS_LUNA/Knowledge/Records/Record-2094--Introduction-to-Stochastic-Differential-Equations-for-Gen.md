@@ -2,7 +2,7 @@
 title: "Record 2094 · Introduction-to-Stochastic-Differential-Equations-for-Generative-Machi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.349803+00:00
+updated_at: 2026-09-10T02:54:23.768363+00:00
 tags: [record, real-data]
 ---
 

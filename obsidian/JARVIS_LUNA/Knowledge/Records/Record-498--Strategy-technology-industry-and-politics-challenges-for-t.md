@@ -2,7 +2,7 @@
 title: "Record 498 · Strategy-technology-industry-and-politics-challenges-for-the-21-st-Cha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:51.954376+00:00
+updated_at: 2026-09-10T02:54:23.369099+00:00
 tags: [record, real-data]
 ---
 

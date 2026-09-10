@@ -2,7 +2,7 @@
 title: "Record 2035 · Support-Size-of-varepsilon-Capacity-Achieving-Inputs-for-the-Amplitude"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.335597+00:00
+updated_at: 2026-09-10T02:54:23.752691+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1954 · Samsung-Showcases-P9-and-P7-SSDs-Featuring-USB4-at-Gamescom-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.313323+00:00
+updated_at: 2026-09-10T02:54:23.729248+00:00
 tags: [record, real-data]
 ---
 

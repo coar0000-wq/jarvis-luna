@@ -2,7 +2,7 @@
 title: "Record 2557 · Learn-why-food-is-physical-AIs-hardest-problem-at-RoboBusiness"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.461636+00:00
+updated_at: 2026-09-10T02:54:23.883448+00:00
 tags: [record, real-data]
 ---
 

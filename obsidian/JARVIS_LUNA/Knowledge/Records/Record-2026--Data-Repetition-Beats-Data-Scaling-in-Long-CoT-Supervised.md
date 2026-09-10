@@ -2,7 +2,7 @@
 title: "Record 2026 · Data-Repetition-Beats-Data-Scaling-in-Long-CoT-Supervised-Fine-Tuning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.332755+00:00
+updated_at: 2026-09-10T02:54:23.750288+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2007 · Path-to-Astra-critical-capabilities-and-frontier-safeguards"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.327927+00:00
+updated_at: 2026-09-10T02:54:23.744901+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2197 · BIOHEAL-BOH-Probioderm-3D-Lifting-Skincare-Set-32-fl-oz95ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.376602+00:00
+updated_at: 2026-09-10T02:54:23.797262+00:00
 tags: [record, real-data]
 ---
 

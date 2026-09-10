@@ -2,7 +2,7 @@
 title: "Record 1899 · 12-Korean-Beauty-Brands-Endorsed-by-K-Pop-Stars-and-Skincare-Junkies-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.297750+00:00
+updated_at: 2026-09-10T02:54:23.711973+00:00
 tags: [record, real-data]
 ---
 

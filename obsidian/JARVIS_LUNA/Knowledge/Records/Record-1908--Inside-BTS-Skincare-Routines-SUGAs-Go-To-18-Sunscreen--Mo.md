@@ -2,7 +2,7 @@
 title: "Record 1908 · Inside-BTS-Skincare-Routines-SUGAs-Go-To-18-Sunscreen--More-K-Beauty-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.299935+00:00
+updated_at: 2026-09-10T02:54:23.714410+00:00
 tags: [record, real-data]
 ---
 

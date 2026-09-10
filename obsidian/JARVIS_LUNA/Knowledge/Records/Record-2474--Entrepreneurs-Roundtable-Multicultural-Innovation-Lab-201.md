@@ -2,7 +2,7 @@
 title: "Record 2474 · Entrepreneurs-Roundtable-Multicultural-Innovation-Lab-2018"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.441788+00:00
+updated_at: 2026-09-10T02:54:23.863993+00:00
 tags: [record, real-data]
 ---
 

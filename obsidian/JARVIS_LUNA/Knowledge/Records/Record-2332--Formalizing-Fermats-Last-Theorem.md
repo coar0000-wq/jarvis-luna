@@ -2,7 +2,7 @@
 title: "Record 2332 · Formalizing-Fermats-Last-Theorem"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.408217+00:00
+updated_at: 2026-09-10T02:54:23.831039+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2401 · What-is-Data-Transformation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.424657+00:00
+updated_at: 2026-09-10T02:54:23.847027+00:00
 tags: [record, real-data]
 ---
 

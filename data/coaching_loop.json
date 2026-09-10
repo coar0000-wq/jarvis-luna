@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-10T07:19:48.427921+09:00",
+  "generated_at": "2026-09-10T11:57:18.019083+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
   "scope": "S등급 상위 15개",
   "summary": {
     "ready_to_list": 0,
-    "ready_with_notes": 4,
+    "ready_with_notes": 5,
     "fix_then_list": 2,
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
-      "post_count": 33,
-      "collected_at": "2026-09-09T22:16:03.482467+00:00",
+      "post_count": 25,
+      "collected_at": "2026-09-10T02:53:37.243650+00:00",
       "keyword_pool": 40
     }
   },
@@ -78,7 +78,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
+          "evidence": "matched=['dodoskin', 'skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -103,13 +103,11 @@
           "glass skin",
           "hydrating",
           "dodoskin",
-          "k-beauty",
           "skin",
           "skinny"
         ],
         "reddit_keywords_used": [
           "dodoskin",
-          "k-beauty",
           "skin",
           "skinny"
         ],
@@ -119,13 +117,12 @@
       "reddit_match": {
         "matched": [
           "dodoskin",
-          "k-beauty",
           "skin",
           "skinny"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
+        "evidence": "matched=['dodoskin', 'skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -196,7 +193,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
+          "evidence": "matched=['dodoskin', 'k-moisturizers', 'skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -223,13 +220,13 @@
           "glass skin",
           "hydrating",
           "dodoskin",
-          "k-beauty",
+          "k-moisturizers",
           "skin",
           "skinny"
         ],
         "reddit_keywords_used": [
           "dodoskin",
-          "k-beauty",
+          "k-moisturizers",
           "skin",
           "skinny"
         ],
@@ -239,13 +236,13 @@
       "reddit_match": {
         "matched": [
           "dodoskin",
-          "k-beauty",
+          "k-moisturizers",
           "skin",
           "skinny"
         ],
         "score": 4,
         "status": "pass",
-        "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
+        "evidence": "matched=['dodoskin', 'k-moisturizers', 'skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -316,7 +313,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
+          "evidence": "matched=['dodoskin', 'skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -342,13 +339,11 @@
           "glass skin",
           "hydrating",
           "dodoskin",
-          "k-beauty",
           "skin",
           "skinny"
         ],
         "reddit_keywords_used": [
           "dodoskin",
-          "k-beauty",
           "skin",
           "skinny"
         ],
@@ -358,13 +353,12 @@
       "reddit_match": {
         "matched": [
           "dodoskin",
-          "k-beauty",
           "skin",
           "skinny"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
+        "evidence": "matched=['dodoskin', 'skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -497,7 +491,7 @@
       "pd_no": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
       "bucket": "스킨케어",
-      "shopify_score": 87,
+      "shopify_score": 90,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
       "readiness": "ready_with_notes",
       "checklist": [
@@ -505,7 +499,7 @@
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=87",
+          "evidence": "grade=S, score=90",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -554,7 +548,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
+          "evidence": "matched=['dodoskin', 'skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -579,13 +573,11 @@
           "glass skin",
           "hydrating",
           "dodoskin",
-          "k-beauty",
           "skin",
           "skinny"
         ],
         "reddit_keywords_used": [
           "dodoskin",
-          "k-beauty",
           "skin",
           "skinny"
         ],
@@ -595,13 +587,12 @@
       "reddit_match": {
         "matched": [
           "dodoskin",
-          "k-beauty",
           "skin",
           "skinny"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
+        "evidence": "matched=['dodoskin', 'skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -612,18 +603,18 @@
       }
     },
     {
-      "pd_no": "1053482",
-      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+      "pd_no": "1045421",
+      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
       "bucket": "스킨케어",
-      "shopify_score": 86,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
+      "shopify_score": 88,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
       "readiness": "fix_then_list",
       "checklist": [
         {
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=86",
+          "evidence": "grade=S, score=88",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -658,52 +649,168 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
+          "evidence": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
           "id": "social_proof",
           "label": "국내 리뷰(대리지표)",
           "status": "pass",
-          "evidence": "review_count=592",
+          "evidence": "review_count=567",
           "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
         },
         {
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
+          "evidence": "matched=['cushion', 'dodoskin', 'skin', 'skinny']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Toner — Daiso Find — dodoskin · K-beauty",
-          "headline": "Toner — Daiso Find",
+          "primary_text": "Cushion — Daiso Find — cushion · K-beauty",
+          "headline": "Cushion — Daiso Find",
           "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
-          "primary_text": "Toner — Daiso Find — Affordable hydrating pick",
-          "headline": "Toner — Daiso Find",
+          "primary_text": "Cushion — Daiso Find — Affordable hydrating pick",
+          "headline": "Cushion — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
+          "cta": "See price"
+        },
+        "suggested_keywords": [
+          "cushion",
+          "K-beauty",
+          "glass skin",
+          "hydrating",
+          "dodoskin",
+          "skin",
+          "skinny"
+        ],
+        "reddit_keywords_used": [
+          "cushion",
+          "dodoskin",
+          "skin",
+          "skinny"
+        ],
+        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
+        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
+      },
+      "reddit_match": {
+        "matched": [
+          "cushion",
+          "dodoskin",
+          "skin",
+          "skinny"
+        ],
+        "score": 4,
+        "status": "pass",
+        "evidence": "matched=['cushion', 'dodoskin', 'skin', 'skinny']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+      },
+      "coach_summary": {
+        "pass": 4,
+        "warn": 3,
+        "fail": 1,
+        "next_action": "실패 항목 수정"
+      }
+    },
+    {
+      "pd_no": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 85,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "readiness": "ready_with_notes",
+      "checklist": [
+        {
+          "id": "grade_s",
+          "label": "S등급 유지",
+          "status": "pass",
+          "evidence": "grade=S, score=85",
+          "tip": "S가 아니면 1차 등록 보류"
+        },
+        {
+          "id": "margin",
+          "label": "마진 확인",
+          "status": "warn",
+          "evidence": "pricing 미연결",
+          "tip": "pricing_model 재실행"
+        },
+        {
+          "id": "price_band",
+          "label": "권장가",
+          "status": "warn",
+          "evidence": "suggested_price 없음",
+          "tip": "pricing_model 확인"
+        },
+        {
+          "id": "listing_copy",
+          "label": "영문 리스팅 카피",
+          "status": "pass",
+          "evidence": "Gemini 카피 있음",
+          "tip": "shopify-listing-copy 워크플로 실행"
+        },
+        {
+          "id": "listing_ready_flag",
+          "label": "등록 준비 플래그",
+          "status": "warn",
+          "evidence": "listing_ready=False",
+          "tip": "카피·이미지 준비되면 true"
+        },
+        {
+          "id": "global_signal",
+          "label": "글로벌 수요 시그널",
+          "status": "pass",
+          "evidence": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
+        },
+        {
+          "id": "social_proof",
+          "label": "국내 리뷰(대리지표)",
+          "status": "pass",
+          "evidence": "review_count=938",
+          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
+        },
+        {
+          "id": "reddit_community",
+          "label": "Reddit 뷰티 커뮤니티 키워드",
+          "status": "pass",
+          "evidence": "matched=['dodoskin', 'skin', 'skinny']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        }
+      ],
+      "ad_copy_ab": {
+        "variant_a": {
+          "label": "A · 성분/커뮤니티 후킹",
+          "primary_text": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml — dodoskin · K-beauty",
+          "headline": "Chaebigonggan Heartleaf Extract Vegan To",
+          "description": "Discover the refreshing benefits of Chaebigonggan Heartleaf Extract Vegan Toner, formulated with heartleaf extract in a 150 ml size. Incorporating this gentle vegan toner into your daily routine helps",
+          "cta": "Shop now"
+        },
+        "variant_b": {
+          "label": "B · 가성비/가격 후킹",
+          "primary_text": "Toner Heartleaf — Daiso Find — Affordable hydrating pick",
+          "headline": "Toner Heartleaf — Daiso Find",
           "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
           "cta": "See price"
         },
         "suggested_keywords": [
           "toner",
+          "heartleaf",
           "K-beauty",
           "glass skin",
           "hydrating",
           "dodoskin",
-          "k-beauty",
           "skin",
           "skinny"
         ],
         "reddit_keywords_used": [
           "dodoskin",
-          "k-beauty",
           "skin",
           "skinny"
         ],
@@ -713,20 +820,19 @@
       "reddit_match": {
         "matched": [
           "dodoskin",
-          "k-beauty",
           "skin",
           "skinny"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['dodoskin', 'k-beauty', 'skin', 'skinny']",
+        "evidence": "matched=['dodoskin', 'skin', 'skinny']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
-        "pass": 4,
+        "pass": 5,
         "warn": 3,
-        "fail": 1,
-        "next_action": "실패 항목 수정"
+        "fail": 0,
+        "next_action": "경고 항목 보완 후 등록"
       }
     }
   ],

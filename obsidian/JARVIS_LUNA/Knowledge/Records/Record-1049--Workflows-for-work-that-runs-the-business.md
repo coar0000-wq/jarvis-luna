@@ -2,7 +2,7 @@
 title: "Record 1049 · Workflows-for-work-that-runs-the-business"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.094631+00:00
+updated_at: 2026-09-10T02:54:23.509177+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2493 · Obesity-Drugs-Investment-Opportunity"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.445973+00:00
+updated_at: 2026-09-10T02:54:23.868123+00:00
 tags: [record, real-data]
 ---
 

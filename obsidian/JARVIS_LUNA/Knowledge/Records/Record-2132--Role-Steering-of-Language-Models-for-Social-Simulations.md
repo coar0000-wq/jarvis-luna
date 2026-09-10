@@ -2,7 +2,7 @@
 title: "Record 2132 · Role-Steering-of-Language-Models-for-Social-Simulations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.358995+00:00
+updated_at: 2026-09-10T02:54:23.778500+00:00
 tags: [record, real-data]
 ---
 

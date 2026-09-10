@@ -2,7 +2,7 @@
 title: "Record 2323 · Expanding-Support-For-Scientists"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T22:16:52.405969+00:00
+updated_at: 2026-09-10T02:54:23.828796+00:00
 tags: [record, real-data]
 ---
 
