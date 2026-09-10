@@ -436,8 +436,21 @@ def us_blockers(name: str) -> tuple[str, str]:
     return "", ""
 
 
-def qualify_s(name: str, bucket: str, total: int, matches: list) -> tuple[bool, str]:
-    """S등급 단일 게이트. True면 등록 후보."""
+def qualify_s(name: str, bucket: str, total: int, matches: list,
+              sold_out: bool = False) -> tuple[bool, str]:
+    """S등급 단일 게이트. True면 등록 후보.
+
+    품절은 여기서 막는다.
+
+    09-09 에 S등급 1위 '드롭비 탄탄 광채 앰플' 이 품절 상태였다.
+    품절이어도 og:title 에 가격이 있어 파싱은 성공한다. 수집기가 성공
+    경로에서 품절을 안 읽었고 이 게이트도 재고를 보지 않았다.
+    살 수 없는 물건을 미국에 등록할 뻔했다.
+
+    품절은 되돌아오니 지우지 않는다. 등급만 내린다.
+    """
+    if sold_out:
+        return False, "sold_out"
     if is_non_core(name):
         return False, "non_core"
     kind, _why = us_blockers(name)
@@ -519,7 +532,7 @@ def score_one(p: dict, signals: list[dict]) -> dict:
     total = max(5, min(100, round(
         cat_pts + rating_pts + review_pts + price_pts + kw_pts + us_pts - penalty)))
 
-    ok_s, s_rule = qualify_s(name, bucket, total, matches)
+    ok_s, s_rule = qualify_s(name, bucket, total, matches, bool(p.get("sold_out")))
     if ok_s:
         grade = "S"
     elif not non_core and total >= 75:

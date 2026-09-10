@@ -106,6 +106,9 @@ def meta_tags(html: str) -> dict:
 # 왜 실패했는지는 여기에 적는다. 호출부를 바꾸지 않으려는 것이다.
 LAST_FAIL: dict = {}
 
+# og:description 끝에 "[가격 5,000원, 리뷰 4.8점(1198건), 품절]" 처럼 붙는다.
+SOLDOUT_RE = re.compile(r"(일시품절|판매종료|품절)")
+
 
 def parse_product(pd_no: str, url: str, html: str) -> dict | None:
     """상품 페이지에서 실제로 표시된 값만 추출한다.
@@ -118,6 +121,33 @@ def parse_product(pd_no: str, url: str, html: str) -> dict | None:
     t = meta_tags(html)
     title = t.get("og:title") or t.get("title") or ""
     desc = t.get("og:description") or t.get("description") or ""
+
+    # 구매할 수 없는 상품은 200 을 주면서 상품이 없는 껍데기를 돌려준다.
+    #
+    # "가격 없음 13건" 이 떠서 파서가 가격을 못 읽는 줄 알았다. 세 건을
+    # 직접 열어봤다(1038044 / 1063854 / 77503). 셋 다 같았다.
+    #   og:type   website   (살아 있는 상품은 product 다)
+    #   og:title  "다이소몰" (상품명이 아니라 사이트 기본 제목)
+    #   본문      상품 내용이 한 줄도 없음
+    #
+    # 다이소 API 에 물어보니 말로 답했다.
+    #   POST fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlInfo  pdNo=1038044
+    #   {"message":"현재 구매할 수 없는 상품입니다.","data":null,"success":false}
+    #
+    # 페이지에도 API 에도 가격이 없다. 파서를 고쳐서 읽어낼 값이 아니다.
+    # 억지로 채우면 지어낸 값이다.
+    #
+    # 사이트맵에는 남아 있어 계속 시도하게 된다. 실패로 세지 말고
+    # "구매 불가" 로 따로 센다. 고칠 것이 없는 항목을 고장 칸에 두면
+    # 매번 파서를 의심하게 된다.
+    if (t.get("og:type") or "").lower() != "product" or title.strip() == "다이소몰":
+        LAST_FAIL.update(pd_no=pd_no, reason="구매 불가 (상품 페이지 없음)",
+                         unavailable=True, og_type=t.get("og:type") or "",
+                         og_title=title[:60],
+                         근거=("다이소 selPdDtlInfo 가 '현재 구매할 수 없는 "
+                             "상품입니다' 로 답한다. 페이지에 가격이 없다."))
+        return None
+
     if not title:
         LAST_FAIL.update(pd_no=pd_no, reason="og:title 없음",
                          meta_count=len(t), html_len=len(html),
@@ -156,12 +186,26 @@ def parse_product(pd_no: str, url: str, html: str) -> dict | None:
         rating = float(r.group(1))
         review_count = int(r.group(2).replace(",", ""))
 
+    # 품절을 성공 경로에서 아무도 안 봤다.
+    #
+    # 품절이어도 og:title 에 가격이 그대로 있어서 파싱은 성공한다.
+    # 그래서 품절 상품이 정상 상품으로 저장되고 S등급 등록 후보까지 갔다.
+    # 09-09 기준 S등급 1위 '드롭비 탄탄 광채 앰플' 이 그 상태였다.
+    #   og:description ... [가격 5,000원, 리뷰 4.8점(1198건), 품절]
+    # 살 수 없는 물건을 미국에 등록할 뻔했다.
+    #
+    # 품절은 되돌아오니 지우지 않는다. 표시만 남기고 등록 후보를 고르는
+    # 쪽(score_shopify_demand.py 의 qualify_s)이 거른다.
+    sold_out = bool(SOLDOUT_RE.search(f"{title} {desc}"))
     return {
         "pd_no": pd_no,
         "name": name,
         "brand": brand,
         "site_category": category,
         "price_krw": price,
+        "sold_out": sold_out,
+        "stock_note": ("품절 표시 있음" if sold_out else "판매 중"),
+        "stock_checked_at": now_iso(),
         "rating": rating,
         "review_count": review_count,
         "image_url": t.get("og:image"),
@@ -273,6 +317,11 @@ def main() -> int:
         # 워크플로는 continue-on-error 라 초록으로 끝났고, 그래서 아무도
         # 몰랐다. 다이소는 품절 상품이 흔해서 사실상 매번 걸렸다.
         "sold_out": 0,
+        # 구매할 수 없는 상품. 파싱 실패가 아니다. 사이트맵에는 남아 있지만
+        # 다이소가 "현재 구매할 수 없는 상품입니다" 라고 답하는 것들이다.
+        # 고칠 것이 없으므로 실패 칸과 갈라 센다.
+        "unavailable": 0,
+        "unavailable_samples": [],
         "parse_fail_reasons": {},
         "parse_fail_samples": [],
         "skipped_not_beauty": 0,
@@ -367,7 +416,11 @@ def main() -> int:
                 # 품절·판매종료 상품은 가격이 표시되지 않는다. 파싱이 깨진
                 # 게 아니라 살 수 없는 상품이다. 이걸 실패로 세면 실패율이
                 # 부풀려진다. 따로 센다.
-                if info.get("sold_out"):
+                if info.get("unavailable"):
+                    run["unavailable"] += 1
+                    if len(run["unavailable_samples"]) < 20:
+                        run["unavailable_samples"].append(pd_no)
+                elif info.get("sold_out"):
                     run["sold_out"] += 1
                 else:
                     run["parse_failed"] += 1

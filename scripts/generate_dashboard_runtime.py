@@ -411,14 +411,29 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         why = run.get("parse_fail_reasons") or {}
         why_txt = (" · " + ", ".join(f"{k} {v}" for k, v in
                                     sorted(why.items(), key=lambda x: -x[1])[:3])) if why else ""
-        sold_txt = f" · 품절·판매종료 {sold}건" if sold else ""
+        # 구매할 수 없는 상품은 실패가 아니다.
+        #
+        # 카드에 "13건 실패 · 가격 없음 13" 이라고 떠서 파서가 가격을 못
+        # 읽는 줄 알았다. 세 건을 직접 열어보니 페이지에 상품이 없었고,
+        # 다이소 API 는 "현재 구매할 수 없는 상품입니다" 로 답했다.
+        # 가격이 없는 게 아니라 상품이 없는 것이다. 고칠 것이 없다.
+        # 고칠 것이 없는 항목을 실패 칸에 두면 매일 파서를 의심하게 된다.
+        gone = run.get("unavailable") or 0
+        tried = ok + fail + sold + gone
+        sold_txt = f" · 품절 {sold}건" if sold else ""
+        gone_txt = f" · 구매 불가 {gone}건(다이소에서 내려감)" if gone else ""
+        if fail:
+            act = (f'직전 실행에서 {tried}건 시도 중 {fail}건 실패 (성공 {ok}건)'
+                   + why_txt + sold_txt + gone_txt)
+        elif sold or gone:
+            act = f'직전 실행 {tried}건 시도 · 성공 {ok}건{sold_txt}{gone_txt}'
+        else:
+            act = None
         cards.append(_team(
             "sourcing", "상품 소싱팀",
             (score or {}).get("generated_at") or (prod or {}).get("updated_at"),
             (f'{n}개 상품 · 등급 {grade}' if grade else f'{n}개 상품') + feed_tail("sourcing"),
-            (f'직전 실행에서 {tried}건 시도 중 {fail}건 실패 (성공 {ok}건)'
-             + why_txt + sold_txt) if fail else (
-                f'직전 실행 {tried}건 시도 · 성공 {ok}건{sold_txt}' if sold else None),
+            act,
             "ok" if n else "failed"))
     else:
         cards.append(_team("sourcing", "상품 소싱팀", None,

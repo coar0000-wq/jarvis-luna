@@ -2,8 +2,10 @@
 """Expand the Obsidian knowledge graph from real collected records only."""
 from __future__ import annotations
 
+import hashlib
 import json
 import re
+import unicodedata
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -18,9 +20,51 @@ TOKEN_RE = re.compile(r"[\w가-힣]{3,}", re.UNICODE)
 STOP = {"the", "and", "for", "with", "from", "that", "this", "using", "based", "into", "about", "their", "your", "our", "are", "was", "have", "has"}
 
 
+# 파일 이름 상한. 리눅스는 파일명 255 바이트가 한계다. 한글은 UTF-8 로
+# 한 자 3 바이트라 글자 수로 재면 넘길 수 있다. 바이트로도 잰다.
+NAME_MAX_BYTES = 180
+
+
 def slug(text: str, fallback: str = "Node") -> str:
-    clean = SLUG_RE.sub("", text).strip().replace(" ", "-")
-    return clean[:70] or fallback
+    # NFC 로 맞춘다. 같은 글자가 조합형(NFD)과 완성형(NFC) 두 가지로 올 수
+    # 있는데, 파일 이름과 링크가 서로 다른 형태면 눈으로는 같아 보여도
+    # 못 찾는다. é 와 한글이 특히 그렇다.
+    text = unicodedata.normalize("NFC", text)
+    clean = SLUG_RE.sub("", text).strip().replace(" ", "-")[:70]
+    while len(clean.encode("utf-8")) > NAME_MAX_BYTES and clean:
+        clean = clean[:-1]
+    return clean or fallback
+
+
+def record_key(row: dict) -> str:
+    """자료 하나를 가리키는 고정 이름.
+
+    전에는 이랬다.
+        record = f"Record {i:03d} · {slug(title)}"
+    i 는 말뭉치 안의 순번이다. 말뭉치는 회차마다 늘어난다. 그러면 같은
+    글이 회차마다 다른 번호를 받고, 파일 이름에 번호가 들어가니 회차마다
+    새 파일이 하나 더 생긴다.
+
+    실제로 같은 기사 하나가 볼트에 다섯 벌 있었다.
+        Record-1199--J-beauty-pushes-overseas-as-Curél-and-Ci-Flavors-scale-gl.md
+        Record-1205--...  Record-1216--...  Record-1221--...  Record-1224--...
+    그런데 인덱스(Source--Google-Search.md)는 Record-1230 을 가리켰다.
+    디스크에 없는 번호다. 그래서 끊어진 링크가 된다. 다섯 벌은 아무도
+    안 가리키는 고아로 남는다. 회차마다 이 일이 되풀이된다.
+
+    노트가 3만에서 7만 6천으로 분 것도 이것 때문이다. 새 자료가 그만큼
+    들어온 게 아니라 같은 자료를 계속 다시 쓴 것이다.
+
+    그래서 순번을 쓰지 않고 원문 URL 로 이름을 정한다. URL 이 없으면
+    제목으로 정한다. 같은 글은 회차가 바뀌어도 같은 파일이라 안 끊어진다.
+
+    앞 10자리 해시를 붙이는 것은 제목이 같은 다른 글을 가르기 위해서다.
+    쌓인 고아는 scripts/clean_record_duplicates.py 가 따로 치운다.
+    """
+    url = str(row.get("url") or "").strip()
+    title = unicodedata.normalize("NFC", str(row.get("title") or "Untitled").strip())
+    h = hashlib.sha256((url or title).encode("utf-8")).hexdigest()[:10]
+    return f"Record {h} · {slug(title, 'Record')}"
 
 
 def wiki(name: str) -> str:
@@ -159,9 +203,16 @@ def main() -> int:
     topic_records: dict[str, list[dict]] = defaultdict(list)
     org_records: dict[str, list[dict]] = defaultdict(list)
     record_nodes: list[str] = []
-    for i, row in enumerate(rows, 1):
-        title = str(row.get("title", "Untitled")).strip()
-        record = f"Record {i:03d} · {slug(title, f'Record-{i:03d}') }"
+    seen_names: dict[str, str] = {}
+    for row in rows:
+        title = unicodedata.normalize("NFC", str(row.get("title", "Untitled")).strip())
+        record = record_key(row)
+        # 잘라낸 이름이 우연히 겹치면 뒤엣것이 앞엣것을 덮는다. 겹치면
+        # 건너뛴다. 같은 자료면 어차피 같은 파일이라 잃는 것이 없다.
+        fname = slug(record)
+        if fname in seen_names and seen_names[fname] != record:
+            continue
+        seen_names[fname] = record
         record_nodes.append(record)
         src = source_name(row)
         source_records[src].append({"node": record, "row": row})
