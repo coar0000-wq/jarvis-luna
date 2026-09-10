@@ -87,5 +87,112 @@
       "https://yourpincoach.com/free-pinterest-keyword-research-tool/",
       "https://www.pinterest.com/robots.txt"
     ]
+  },
+
+  "threads": {
+    "상태": "MCP 없음. 공식 API 있음. 계정 준비 안 됨.",
+    "mcp": {
+      "확인일": "2026-09-10",
+      "결과": "Claude 커넥터 레지스트리에 Threads/Meta 커넥터가 없다.",
+      "검색어": ["threads", "meta", "instagram", "social posting"],
+      "걸린_것": "Metabase·Metal·Metaview 등 'meta' 글자만 겹치는 것들. 전부 무관.",
+      "그래서": "MCP 를 기다리지 않는다. Meta 공식 Threads API 를 직접 붙인다. 무료다."
+    },
+
+    "robots_txt": {
+      "확인일": "2026-09-10",
+      "대상": "https://www.threads.com/robots.txt",
+      "User-agent: *": "Disallow: /",
+      "뜻": "Threads 도 모든 크롤러를 막는다. Pinterest 와 같다.",
+      "특이점": "Disallow 는 전부인데 Sitemap 은 13개 넘게 공개한다. 그래도 Disallow 가 우선이다. 긁지 않는다.",
+      "그래서": [
+        "경쟁사 글·해시태그·인기글을 스크래핑하지 않는다.",
+        "필요한 수치는 전부 공식 API 의 insights 로 가져온다. 우리 계정 것만 나온다.",
+        "남의 계정을 보려면 사람이 브라우저로 본다."
+      ]
+    },
+
+    "공식_API": {
+      "출처": "https://developers.facebook.com/docs/threads/overview (2025-12-22 갱신)",
+      "출처2": "https://developers.facebook.com/docs/threads/get-started (2026-06-30 갱신)",
+      "엔드포인트": "graph.threads.com 또는 graph.threads.net",
+      "돈": "가격표가 없다. 무료다.",
+      "하루_제한": {
+        "게시물": "250건 / 24시간 (슬라이드 1묶음 = 1건)",
+        "답글": "1,000건 / 24시간",
+        "삭제": "100건 / 24시간",
+        "위치검색": "500건 / 24시간",
+        "호출수_공식": "24시간 내 호출 = 4800 × 노출수. 노출수 최솟값은 10 이므로 바닥이 48,000회다.",
+        "잔량_확인": "GET /{threads-user-id}/threads_publishing_limit"
+      },
+      "규격": {
+        "글자수": "텍스트 게시물 500자",
+        "슬라이드": "하위 항목 2~20개",
+        "이미지": "JPEG/PNG · 최대 8MB · 화면비 최대 10:1 · 너비 320~1440 · sRGB",
+        "영상": "MOV/MP4 · H264 또는 HEVC · 23~60fps · 최대 가로 1920 · 9:16 권장 · 최대 300초 · 최대 1GB"
+      },
+      "권한": {
+        "threads_basic": "모든 엔드포인트 필수",
+        "threads_content_publish": "게시",
+        "threads_read_replies": "답글 읽기",
+        "threads_manage_replies": "답글 달기",
+        "threads_manage_insights": "인사이트 읽기"
+      },
+      "토큰": "OAuth 2.0. 단기 1시간 → 장기 60일로 교환. GET /refresh_access_token 으로 연장. 공개 프로필이면 권한이 90일마다 자동 연장되고, 비공개 프로필이면 연장이 안 돼 매번 다시 부여해야 한다.",
+      "앱_검수": "필요 없다 — 내 계정에만 올릴 때는. 앱 역할에서 나를 'Threads 테스터' 로 초대하고 Threads 설정 > 웹사이트 권한에서 수락하면 검수 없이 바로 된다. 남의 계정에 올리려면 그때 검수를 받는다.",
+      "숨은_조건": "게시할 때 Meta 가 미디어를 직접 내려받는다. 그래서 이미지·영상이 공개 서버에 올라가 있어야 한다. base64 업로드가 안 된다."
+    },
+
+    "왜_이_채널인가": [
+      "Threads 는 팔로워가 아닌 사람에게도 글을 밀어준다. 시작이 0이어도 도달이 난다. Pinterest 와 정반대 방식으로 초기에 유리하다.",
+      "공식 API 가 무료로 게시·답글·인사이트를 다 연다. Pinterest 는 비즈니스 계정부터 막히는데 여기는 안 막힌다.",
+      "인스타그램 계정으로 그대로 만든다. 나중에 인스타와 소재를 같이 쓴다."
+    ],
+
+    "알고리즘_신호": {
+      "가장_강한_것": "답글. 대화가 이어지는 글이 더 퍼진다. 글 개수보다 답글이 중요하다.",
+      "해시태그": "도달에 안 쓰인다. 대신 글을 쓰는 중에 뜨는 토픽 태그로 주제를 알린다.",
+      "계정_활동": "남의 글에 답글을 다는 것 자체가 계정 신호가 된다. 잘 되는 브랜드는 쓰는 시간만큼 답하는 데 쓴다.",
+      "출처": "sendible / gainapp / imarkinfotech 2026 가이드"
+    },
+
+    "조사된_주장": [
+      {"값": "권장 게시 5~10회/일", "뜻": "Pinterest 주 10핀보다 훨씬 빡세다. 상품 컷으로는 절대 못 채운다", "성격": "가이드 권장치. 실측 아님"},
+      {"값": "팔로워 아닌 사람에게 노출됨", "뜻": "0에서 시작해도 첫 글이 읽힌다", "성격": "플랫폼 특성"},
+      {"값": "기회 창이 2026 4분기에 닫힌다는 주장", "뜻": "블로그 예측이다. 근거 수치가 없다. 그대로 믿지 않는다", "성격": "예측. 검증 안 됨"}
+    ],
+
+    "JARVIS와_맞물리는_곳": {
+      "글감": "data/shopify_listing_copy.json 영문 카피를 500자로 잘라 쓴다",
+      "이미지_호스팅": "Meta 가 미디어를 내려받아야 하므로 공개 URL 이 필요하다. GitHub Pages(coar0000-wq.github.io/jarvis-luna)가 이미 공개 서버다. 여기 올리면 된다",
+      "영상": "9:16 · 300초 이하 · 1GB 이하. higgsfield MCP 산출물이 이 규격 안에 든다",
+      "자동화": "게시는 워크플로에서 graph.threads.com 호출 한 번이면 된다. 토큰만 시크릿에 넣으면 다이소 수집 → 카피 생성 → 게시가 한 줄로 이어진다",
+      "성과_측정": "threads_manage_insights 로 우리 글 수치를 받아 온다. 지어내지 않고 실측이 된다"
+    },
+
+    "지금_막힌_것": [
+      "Threads 계정이 없다. 인스타그램 계정으로 만든다. 무료다.",
+      "Meta 개발자 앱을 만들어야 한다. Threads 용도로 만들고 Threads 앱 ID·시크릿을 쓴다. 페이스북 앱 ID 가 아니다.",
+      "하루 5~10회를 상품 5개로 못 채운다. Pinterest 와 같은 문제다. 콘텐츠가 필요하다.",
+      "답글이 핵심 신호인데 자동으로 달면 안 된다. 사람이 해야 하는 부분이 남는다."
+    ],
+
+    "다음에_할_일": [
+      "인스타그램 계정으로 Threads 계정 만들기 (무료)",
+      "프로필을 공개로 둔다. 비공개면 토큰 권한이 90일마다 끊긴다",
+      "Meta 개발자 앱 생성 → Threads 사용 사례 선택 → 본인을 Threads 테스터로 초대·수락",
+      "장기 토큰을 저장소 시크릿 THREADS_ACCESS_TOKEN 으로 넣기 — 키는 저에게 보내지 말고 Settings 에서 직접",
+      "scripts/marketing/post_threads.py 작성 (게시 + threads_publishing_limit 잔량 확인 + insights 수집)",
+      "60일 만료 전 refresh_access_token 을 도는 워크플로 추가"
+    ],
+
+    "출처": [
+      "https://www.threads.com/robots.txt",
+      "https://developers.facebook.com/docs/threads/overview",
+      "https://developers.facebook.com/docs/threads/get-started",
+      "https://www.sendible.com/insights/how-to-grow-on-threads-and-build-a-human-brand-presence",
+      "https://blog.gainapp.com/threads-strategy/",
+      "https://www.imarkinfotech.com/threads-marketing-strategy-2026-why-threads-just-overtook-x-in-active-user-growth/"
+    ]
   }
 }
