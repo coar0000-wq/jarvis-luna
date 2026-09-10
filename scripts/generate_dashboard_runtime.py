@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import re
 import time
+import unicodedata
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -76,7 +77,7 @@ def graph_metrics() -> dict:
         bucket = personal if top == "Personal" else generated
 
         for target in found:
-            normalized = target.strip().replace("\\", "/")
+            normalized = unicodedata.normalize("NFC", target).strip().replace("\\", "/")
             normalized = normalized.rsplit("/", 1)[-1]
             if normalized.endswith(".md"):
                 normalized = normalized[:-3]
@@ -84,10 +85,11 @@ def graph_metrics() -> dict:
                 # Obsidian 은 파일명을 대소문자 구분 없이 찾는다. 여기서 구분하면
                 # Windows 가 기존 파일명 대소문자를 유지하는 탓에 멀쩡한 링크가
                 # 끊어진 것으로 잡힌다. (ASML-reports... vs Asml-Reports...)
+                # NFC 로 맞추지 않으면 한글 NFD 자모 링크가 실파일과 어긋난다.
                 targets.add(normalized)
                 bucket.add(normalized.lower())
 
-    stems = {n.stem.lower() for n in notes}
+    stems = {unicodedata.normalize("NFC", n.stem).lower() for n in notes}
     dangling_generated = sorted(x for x in generated if x not in stems)
     dangling_personal = sorted(x for x in personal if x not in stems)
     # iso_mtime 을 노트마다 두 번 부르고 있었다. 2만 8천개면 stat 호출이
@@ -411,29 +413,14 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         why = run.get("parse_fail_reasons") or {}
         why_txt = (" · " + ", ".join(f"{k} {v}" for k, v in
                                     sorted(why.items(), key=lambda x: -x[1])[:3])) if why else ""
-        # 구매할 수 없는 상품은 실패가 아니다.
-        #
-        # 카드에 "13건 실패 · 가격 없음 13" 이라고 떠서 파서가 가격을 못
-        # 읽는 줄 알았다. 세 건을 직접 열어보니 페이지에 상품이 없었고,
-        # 다이소 API 는 "현재 구매할 수 없는 상품입니다" 로 답했다.
-        # 가격이 없는 게 아니라 상품이 없는 것이다. 고칠 것이 없다.
-        # 고칠 것이 없는 항목을 실패 칸에 두면 매일 파서를 의심하게 된다.
-        gone = run.get("unavailable") or 0
-        tried = ok + fail + sold + gone
-        sold_txt = f" · 품절 {sold}건" if sold else ""
-        gone_txt = f" · 구매 불가 {gone}건(다이소에서 내려감)" if gone else ""
-        if fail:
-            act = (f'직전 실행에서 {tried}건 시도 중 {fail}건 실패 (성공 {ok}건)'
-                   + why_txt + sold_txt + gone_txt)
-        elif sold or gone:
-            act = f'직전 실행 {tried}건 시도 · 성공 {ok}건{sold_txt}{gone_txt}'
-        else:
-            act = None
+        sold_txt = f" · 품절·판매종료 {sold}건" if sold else ""
         cards.append(_team(
             "sourcing", "상품 소싱팀",
             (score or {}).get("generated_at") or (prod or {}).get("updated_at"),
             (f'{n}개 상품 · 등급 {grade}' if grade else f'{n}개 상품') + feed_tail("sourcing"),
-            act,
+            (f'직전 실행에서 {tried}건 시도 중 {fail}건 실패 (성공 {ok}건)'
+             + why_txt + sold_txt) if fail else (
+                f'직전 실행 {tried}건 시도 · 성공 {ok}건{sold_txt}' if sold else None),
             "ok" if n else "failed"))
     else:
         cards.append(_team("sourcing", "상품 소싱팀", None,
@@ -671,16 +658,11 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
 
     # 지식 수집팀 --------------------------------------------------------
     # 기관·로보틱스는 각자 카드가 있으므로 여기서는 담당 카드가 없던 소스만 센다.
-    #
-    # blocked_by_robots 는 장애가 아니라 우리가 지키기로 한 규칙이다.
-    # youtube.com/robots.txt 가 /feeds/videos.xml 을 막아서 우리가 그 경로를
-    # 부르지 않기로 한 것이다. 고칠 것이 없다.
-    #
-    # 그런데 화면에는 "수집 실패: YouTube" 로 떴다. 정말 깨진 소스와 같은
-    # 칸에 놓이면 매일 고칠 것을 찾게 된다. 둘을 갈라 적는다.
+    # blocked_by_robots 는 장애가 아니라 robots.txt 준수(의도적 중단)다.
+    # "수집 실패"로 묶지 않고 별도 안내로 표시한다.
     rs = load_json(KNOWLEDGE / "real_sources.json", None)
     if rs:
-        LABEL = {"arxiv": "arXiv", "youtube": "YouTube",
+        LABEL = {"arxiv": "arXiv", "organic_skincare": "유기농스킨",
                  "google": "Google", "us_beauty": "US뷰티"}
         parts, total, paused, failed = [], 0, [], []
         for key, label in LABEL.items():
@@ -690,18 +672,24 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
             parts.append(f"{label} {n}")
             st = (blk.get("status") or "").strip()
             if st == "blocked_by_robots":
-                paused.append(f"{label}(robots.txt 준수 · Data API 키 대기)")
+                # 규정 준수 중단 — 실패가 아님. API 키 경로 대기 상태.
+                paused.append(
+                    f'{label}(robots.txt 준수 · Data API 키 대기)'
+                )
             elif st != "ok" or n == 0:
-                failed.append(f'{label}({blk.get("reason") or st or "0건"})')
-        bits = []
+                failed.append(
+                    f'{label}({blk.get("reason") or st or "0건"})'
+                )
+        action_bits = []
         if paused:
-            bits.append("의도적 중단: " + ", ".join(paused))
+            action_bits.append("의도적 중단: " + ", ".join(paused))
         if failed:
-            bits.append("수집 실패: " + ", ".join(failed))
+            action_bits.append("수집 실패: " + ", ".join(failed))
+        action = " · ".join(action_bits) if action_bits else None
         cards.append(_team(
             "knowledge", "지식 수집팀", rs.get("updated"),
             f'{total}건 · ' + " / ".join(parts),
-            " · ".join(bits) if bits else None,
+            action,
             "ok" if total else "failed"))
     else:
         cards.append(_team("knowledge", "지식 수집팀", None,
@@ -875,5 +863,4 @@ def main() -> None:
           f"코퍼스 {payload['team_summary']['corpus_records']}")
 
 
-if __name__ == "__main__":
-    main()
+if __name__ == "__mai
