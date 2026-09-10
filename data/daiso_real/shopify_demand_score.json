@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-10T08:43:56.696115+00:00",
+  "generated_at": "2026-09-10T13:49:00.504556+00:00",
   "total_products": 214,
   "grade_summary": {
-    "S": 7,
-    "A": 35,
-    "B": 26,
+    "S": 6,
+    "A": 32,
+    "B": 30,
     "C": 146
   },
   "category_avg_score": {
-    "클렌징": 72.9,
-    "스킨케어": 66.4,
+    "클렌징": 73.1,
+    "스킨케어": 65.8,
     "바디케어": 63.9,
-    "헤어케어": 54.8,
+    "헤어케어": 54.7,
     "마스크팩": 50.8,
-    "메이크업": 50.1,
+    "메이크업": 49.9,
     "향수": 41.1,
     "뷰티소품": 28.8,
     "맨즈케어": 24.3,
@@ -67,17 +67,17 @@
       "shopify_score": 97,
       "grade": "S",
       "s_rule": "strong_form",
-      "us_market_hits": 25,
-      "us_median_price_usd": 26.0,
+      "us_market_hits": 21,
+      "us_median_price_usd": 24.0,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
         "reviews": 18.7,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.6,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 15,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -88,22 +88,22 @@
         "channel": "oliveyoung_us",
         "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
         "similarity": 0.667,
-        "demand_weight": 0.882,
+        "demand_weight": 0.833,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.588
+        "match_score": 0.555
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.882,
+          "demand_weight": 0.833,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.588
+          "match_score": 0.555
         },
         {
           "channel": "tiktok_shop_us",
@@ -142,8 +142,8 @@
       "shopify_score": 93,
       "grade": "S",
       "s_rule": "multi_token",
-      "us_market_hits": 32,
-      "us_median_price_usd": 28.0,
+      "us_market_hits": 33,
+      "us_median_price_usd": 27.0,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
@@ -219,15 +219,15 @@
       "shopify_score": 92,
       "grade": "S",
       "s_rule": "ingredient+form",
-      "us_market_hits": 25,
-      "us_median_price_usd": 26.0,
+      "us_market_hits": 21,
+      "us_median_price_usd": 24.0,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
         "reviews": 16.1,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 22.5,
+        "us_market_fit": 22.1,
         "rebucket_note": "",
         "global_similarity_reference_only": 18,
         "penalty": 0,
@@ -271,14 +271,14 @@
           "match_score": 0.568
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)",
-          "similarity": 0.487,
-          "demand_weight": 0.686,
+          "channel": "sephora",
+          "global_product": "턴오버 앰플 c-PDRN 0.5%",
+          "similarity": 0.5,
+          "demand_weight": 0.63,
           "matched_tokens": [
-            "centella"
+            "ampoule"
           ],
-          "match_score": 0.334
+          "match_score": 0.315
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 92% · 토큰 ampoule, centella",
@@ -297,7 +297,7 @@
       "shopify_score": 90,
       "grade": "S",
       "s_rule": "ingredient+form",
-      "us_market_hits": 4,
+      "us_market_hits": 7,
       "us_median_price_usd": 24.5,
       "score_breakdown": {
         "category": 22.6,
@@ -450,18 +450,18 @@
       "review_count": 938,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
-      "shopify_score": 85,
+      "shopify_score": 89,
       "grade": "S",
       "s_rule": "ingredient+form",
-      "us_market_hits": 4,
-      "us_median_price_usd": 21.43,
+      "us_market_hits": 6,
+      "us_median_price_usd": 22.0,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
         "reviews": 18.0,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 13.6,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 22,
         "penalty": 0,
@@ -517,71 +517,6 @@
       ],
       "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
       "s_rank": 6
-    },
-    {
-      "pd_no": "1045421",
-      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
-      "bucket": "스킨케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 567,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231221/4S2p6tvbv9F2EJVNtStV1045421_00_004S2p6tvbv9F2EJVNtStV.jpg",
-      "shopify_score": 85,
-      "grade": "S",
-      "s_rule": "strong_form",
-      "us_market_hits": 3,
-      "us_median_price_usd": 24.8,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 11.7,
-        "reviews": 16.7,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 21.2,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 18,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "TIRTIR Mask Fit Red Cushion",
-        "similarity": 0.733,
-        "demand_weight": 1.0,
-        "matched_tokens": [
-          "cushion"
-        ],
-        "match_score": 0.733
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "TIRTIR Mask Fit Red Cushion",
-          "similarity": 0.733,
-          "demand_weight": 1.0,
-          "matched_tokens": [
-            "cushion"
-          ],
-          "match_score": 0.733
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Clio Kill Cover Mesh Glow Cushion",
-          "similarity": 0.667,
-          "demand_weight": 0.5,
-          "matched_tokens": [
-            "cushion"
-          ],
-          "match_score": 0.333
-        }
-      ],
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
-      "s_rank": 7
     }
   ],
   "all_scored": [
@@ -598,17 +533,17 @@
       "shopify_score": 97,
       "grade": "S",
       "s_rule": "strong_form",
-      "us_market_hits": 25,
-      "us_median_price_usd": 26.0,
+      "us_market_hits": 21,
+      "us_median_price_usd": 24.0,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
         "reviews": 18.7,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.6,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 15,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -619,22 +554,22 @@
         "channel": "oliveyoung_us",
         "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
         "similarity": 0.667,
-        "demand_weight": 0.882,
+        "demand_weight": 0.833,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.588
+        "match_score": 0.555
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.882,
+          "demand_weight": 0.833,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.588
+          "match_score": 0.555
         },
         {
           "channel": "tiktok_shop_us",
@@ -673,17 +608,17 @@
       "shopify_score": 96,
       "grade": "A",
       "s_rule": "match_too_weak",
-      "us_market_hits": 25,
-      "us_median_price_usd": 26.0,
+      "us_market_hits": 21,
+      "us_median_price_usd": 24.0,
       "score_breakdown": {
         "category": 25.0,
         "rating": 11.7,
         "reviews": 19.4,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.6,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -691,26 +626,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-        "similarity": 0.367,
-        "demand_weight": 0.882,
+        "channel": "sephora",
+        "global_product": "턴오버 앰플 c-PDRN 0.5%",
+        "similarity": 0.5,
+        "demand_weight": 0.63,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.323
+        "match_score": 0.315
       },
       "global_matches": [
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "similarity": 0.367,
-          "demand_weight": 0.882,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.323
-        },
         {
           "channel": "sephora",
           "global_product": "턴오버 앰플 c-PDRN 0.5%",
@@ -720,6 +645,16 @@
             "ampoule"
           ],
           "match_score": 0.315
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+          "similarity": 0.367,
+          "demand_weight": 0.833,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.305
         },
         {
           "channel": "tiktok_shop_us",
@@ -732,7 +667,7 @@
           "match_score": 0.3
         }
       ],
-      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 37% · 토큰 ampoule · S제외:match_too_weak"
+      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 50% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
       "pd_no": "1064419",
@@ -747,15 +682,15 @@
       "shopify_score": 96,
       "grade": "A",
       "s_rule": "weak_solo_token",
-      "us_market_hits": 19,
-      "us_median_price_usd": 26.0,
+      "us_market_hits": 17,
+      "us_median_price_usd": 24.0,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
         "reviews": 18.2,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.6,
         "rebucket_note": "",
         "global_similarity_reference_only": 7,
         "penalty": 0,
@@ -821,7 +756,7 @@
       "shopify_score": 94,
       "grade": "A",
       "s_rule": "match_too_weak",
-      "us_market_hits": 29,
+      "us_market_hits": 28,
       "us_median_price_usd": 28.0,
       "score_breakdown": {
         "category": 25.0,
@@ -875,8 +810,8 @@
       "shopify_score": 93,
       "grade": "S",
       "s_rule": "multi_token",
-      "us_market_hits": 32,
-      "us_median_price_usd": 28.0,
+      "us_market_hits": 33,
+      "us_median_price_usd": 27.0,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
@@ -952,8 +887,8 @@
       "shopify_score": 93,
       "grade": "A",
       "s_rule": "weak_solo_token",
-      "us_market_hits": 18,
-      "us_median_price_usd": 29.74,
+      "us_market_hits": 21,
+      "us_median_price_usd": 28.99,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
@@ -973,22 +908,22 @@
         "channel": "oliveyoung_us",
         "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
         "similarity": 0.293,
-        "demand_weight": 0.931,
+        "demand_weight": 0.98,
         "matched_tokens": [
           "cream"
         ],
-        "match_score": 0.273
+        "match_score": 0.287
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
           "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.293,
-          "demand_weight": 0.931,
+          "demand_weight": 0.98,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.273
+          "match_score": 0.287
         },
         {
           "channel": "sephora",
@@ -1004,11 +939,11 @@
           "channel": "oliveyoung_us",
           "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
-          "demand_weight": 0.539,
+          "demand_weight": 0.735,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.158
+          "match_score": 0.216
         }
       ],
       "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
@@ -1026,8 +961,8 @@
       "shopify_score": 93,
       "grade": "A",
       "s_rule": "no_global_match",
-      "us_market_hits": 19,
-      "us_median_price_usd": 29.74,
+      "us_market_hits": 22,
+      "us_median_price_usd": 29.0,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
@@ -1060,15 +995,15 @@
       "shopify_score": 92,
       "grade": "S",
       "s_rule": "ingredient+form",
-      "us_market_hits": 25,
-      "us_median_price_usd": 26.0,
+      "us_market_hits": 21,
+      "us_median_price_usd": 24.0,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
         "reviews": 16.1,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 22.5,
+        "us_market_fit": 22.1,
         "rebucket_note": "",
         "global_similarity_reference_only": 18,
         "penalty": 0,
@@ -1112,92 +1047,18 @@
           "match_score": 0.568
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)",
-          "similarity": 0.487,
-          "demand_weight": 0.686,
+          "channel": "sephora",
+          "global_product": "턴오버 앰플 c-PDRN 0.5%",
+          "similarity": 0.5,
+          "demand_weight": 0.63,
           "matched_tokens": [
-            "centella"
+            "ampoule"
           ],
-          "match_score": 0.334
+          "match_score": 0.315
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 92% · 토큰 ampoule, centella",
       "s_rank": 3
-    },
-    {
-      "pd_no": "1062135",
-      "name": "네시픽 글로우 더블샷세럼 30 ml",
-      "bucket": "스킨케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 215,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062135",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250306/knHiz8QM35NvOy5XSHfH1062135_00_01knHiz8QM35NvOy5XSHfH.jpg",
-      "shopify_score": 91,
-      "grade": "A",
-      "s_rule": "weak_solo_token",
-      "us_market_hits": 19,
-      "us_median_price_usd": 26.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 11.7,
-        "reviews": 14.1,
-        "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 7,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "sephora",
-        "global_product": "베터 스크린 UV 세럼 SPF 50+",
-        "similarity": 0.293,
-        "demand_weight": 0.855,
-        "matched_tokens": [
-          "serum"
-        ],
-        "match_score": 0.251
-      },
-      "global_matches": [
-        {
-          "channel": "sephora",
-          "global_product": "베터 스크린 UV 세럼 SPF 50+",
-          "similarity": 0.293,
-          "demand_weight": 0.855,
-          "matched_tokens": [
-            "serum"
-          ],
-          "match_score": 0.251
-        },
-        {
-          "channel": "sephora",
-          "global_product": "아베이 로얄 유스 워터리 오일 세럼",
-          "similarity": 0.32,
-          "demand_weight": 0.765,
-          "matched_tokens": [
-            "serum"
-          ],
-          "match_score": 0.245
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "아젤라익산 10 히알루론 세럼",
-          "similarity": 0.293,
-          "demand_weight": 0.807,
-          "matched_tokens": [
-            "serum"
-          ],
-          "match_score": 0.237
-        }
-      ],
-      "recommend_reason": "글로벌 '베터 스크린 UV 세럼 SPF 50+' (sephora) 유사 29% · 토큰 serum · S제외:weak_solo_token"
     },
     {
       "pd_no": "1059834",
@@ -1212,7 +1073,7 @@
       "shopify_score": 90,
       "grade": "S",
       "s_rule": "ingredient+form",
-      "us_market_hits": 4,
+      "us_market_hits": 7,
       "us_median_price_usd": 24.5,
       "score_breakdown": {
         "category": 22.6,
@@ -1356,6 +1217,158 @@
       "s_rank": 5
     },
     {
+      "pd_no": "1062135",
+      "name": "네시픽 글로우 더블샷세럼 30 ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 215,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062135",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250306/knHiz8QM35NvOy5XSHfH1062135_00_01knHiz8QM35NvOy5XSHfH.jpg",
+      "shopify_score": 90,
+      "grade": "A",
+      "s_rule": "weak_solo_token",
+      "us_market_hits": 17,
+      "us_median_price_usd": 24.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 11.7,
+        "reviews": 14.1,
+        "price": 10.0,
+        "keyword": 5,
+        "us_market_fit": 24.6,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 7,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "sephora",
+        "global_product": "베터 스크린 UV 세럼 SPF 50+",
+        "similarity": 0.293,
+        "demand_weight": 0.855,
+        "matched_tokens": [
+          "serum"
+        ],
+        "match_score": 0.251
+      },
+      "global_matches": [
+        {
+          "channel": "sephora",
+          "global_product": "베터 스크린 UV 세럼 SPF 50+",
+          "similarity": 0.293,
+          "demand_weight": 0.855,
+          "matched_tokens": [
+            "serum"
+          ],
+          "match_score": 0.251
+        },
+        {
+          "channel": "sephora",
+          "global_product": "아베이 로얄 유스 워터리 오일 세럼",
+          "similarity": 0.32,
+          "demand_weight": 0.765,
+          "matched_tokens": [
+            "serum"
+          ],
+          "match_score": 0.245
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "아젤라익산 10 히알루론 세럼",
+          "similarity": 0.293,
+          "demand_weight": 0.807,
+          "matched_tokens": [
+            "serum"
+          ],
+          "match_score": 0.237
+        }
+      ],
+      "recommend_reason": "글로벌 '베터 스크린 UV 세럼 SPF 50+' (sephora) 유사 29% · 토큰 serum · S제외:weak_solo_token"
+    },
+    {
+      "pd_no": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 938,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
+      "shopify_score": 89,
+      "grade": "S",
+      "s_rule": "ingredient+form",
+      "us_market_hits": 6,
+      "us_median_price_usd": 22.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 13.3,
+        "reviews": 18.0,
+        "price": 10.0,
+        "keyword": 5,
+        "us_market_fit": 17.5,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 22,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "ANUA Heartleaf 77 Soothing Toner",
+        "similarity": 0.92,
+        "demand_weight": 0.95,
+        "matched_tokens": [
+          "heartleaf",
+          "toner"
+        ],
+        "match_score": 0.874
+      },
+      "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "ANUA Heartleaf 77 Soothing Toner",
+          "similarity": 0.92,
+          "demand_weight": 0.95,
+          "matched_tokens": [
+            "heartleaf",
+            "toner"
+          ],
+          "match_score": 0.874
+        },
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "ANUA Heartleaf 77 Soothing Toner",
+          "similarity": 0.92,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "heartleaf",
+            "toner"
+          ],
+          "match_score": 0.437
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Round Lab Dokdo Toner",
+          "similarity": 0.433,
+          "demand_weight": 0.65,
+          "matched_tokens": [
+            "toner"
+          ],
+          "match_score": 0.282
+        }
+      ],
+      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+      "s_rank": 6
+    },
+    {
       "pd_no": "1060487",
       "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
       "bucket": "마스크팩",
@@ -1368,17 +1381,17 @@
       "shopify_score": 89,
       "grade": "A",
       "s_rule": "match_too_weak",
-      "us_market_hits": 4,
-      "us_median_price_usd": 21.0,
+      "us_market_hits": 5,
+      "us_median_price_usd": 20.8,
       "score_breakdown": {
         "category": 22.6,
         "rating": 13.3,
         "reviews": 19.5,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 23.4,
+        "us_market_fit": 23.3,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -1405,16 +1418,6 @@
             "pore"
           ],
           "match_score": 0.347
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "beplain Mung Bean Pore Double Cleansing Duo Set (Cleansing Oil 6.76 fl. oz.(200ml) + Cleansing Foam 5.41 fl. oz.(160ml))",
-          "similarity": 0.357,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "pore"
-          ],
-          "match_score": 0.175
         }
       ],
       "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore · S제외:match_too_weak"
@@ -1432,8 +1435,8 @@
       "shopify_score": 89,
       "grade": "A",
       "s_rule": "weak_solo_token",
-      "us_market_hits": 18,
-      "us_median_price_usd": 29.74,
+      "us_market_hits": 21,
+      "us_median_price_usd": 28.99,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
@@ -1453,22 +1456,22 @@
         "channel": "oliveyoung_us",
         "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
         "similarity": 0.293,
-        "demand_weight": 0.931,
+        "demand_weight": 0.98,
         "matched_tokens": [
           "cream"
         ],
-        "match_score": 0.273
+        "match_score": 0.287
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
           "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.293,
-          "demand_weight": 0.931,
+          "demand_weight": 0.98,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.273
+          "match_score": 0.287
         },
         {
           "channel": "sephora",
@@ -1484,124 +1487,14 @@
           "channel": "oliveyoung_us",
           "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
-          "demand_weight": 0.539,
+          "demand_weight": 0.735,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.158
+          "match_score": 0.216
         }
       ],
       "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
-    },
-    {
-      "pd_no": "1069995",
-      "name": "실크테라피 실크케라틴 앰플트리트먼트 150 ml",
-      "bucket": "헤어케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 737,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1069995",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/MlfzXa3gzvGbwdbY61P01069995_00_00MlfzXa3gzvGbwdbY61P0.jpg",
-      "shopify_score": 89,
-      "grade": "A",
-      "s_rule": "no_global_match",
-      "us_market_hits": 25,
-      "us_median_price_usd": 26.0,
-      "score_breakdown": {
-        "category": 17.9,
-        "rating": 13.3,
-        "reviews": 17.4,
-        "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 737건 (글로벌 시그널 약함)"
-    },
-    {
-      "pd_no": "1062141",
-      "name": "네시픽 화이트닝 모이스처크림 50 ml",
-      "bucket": "스킨케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 223,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062141",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250306/GoRwz8jRUDcn8upJ3Ilc1062141_00_01GoRwz8jRUDcn8upJ3Ilc.jpg",
-      "shopify_score": 86,
-      "grade": "A",
-      "s_rule": "claim_risk",
-      "us_market_hits": 18,
-      "us_median_price_usd": 29.74,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 11.7,
-        "reviews": 14.2,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 11,
-        "penalty": 0,
-        "us_block_kind": "claim_risk",
-        "us_block_reason": "미백 - 미국에서 OTC 의약품 주장",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "amazon_best_sellers",
-        "global_product": "CeraVe Moisturizing Cream",
-        "similarity": 0.867,
-        "demand_weight": 0.475,
-        "matched_tokens": [
-          "cream",
-          "moisturizer"
-        ],
-        "match_score": 0.412
-      },
-      "global_matches": [
-        {
-          "channel": "amazon_best_sellers",
-          "global_product": "CeraVe Moisturizing Cream",
-          "similarity": 0.867,
-          "demand_weight": 0.475,
-          "matched_tokens": [
-            "cream",
-            "moisturizer"
-          ],
-          "match_score": 0.412
-        },
-        {
-          "channel": "walmart_beauty",
-          "global_product": "CeraVe Daily Moisturizing Lotion",
-          "similarity": 0.4,
-          "demand_weight": 0.8,
-          "matched_tokens": [
-            "moisturizer"
-          ],
-          "match_score": 0.32
-        },
-        {
-          "channel": "amazon_best_sellers",
-          "global_product": "La Roche-Posay Double Repair Moisturizer",
-          "similarity": 0.38,
-          "demand_weight": 0.76,
-          "matched_tokens": [
-            "moisturizer"
-          ],
-          "match_score": 0.289
-        }
-      ],
-      "recommend_reason": "미국 판매 제약: 미백 - 미국에서 OTC 의약품 주장"
     },
     {
       "pd_no": "1060494",
@@ -1613,18 +1506,18 @@
       "review_count": 755,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060494",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260618/cK9o5Yum5W5qX59za4jy1060494_00_01cK9o5Yum5W5qX59za4jy.jpg",
-      "shopify_score": 86,
+      "shopify_score": 89,
       "grade": "A",
       "s_rule": "weak_solo_token",
-      "us_market_hits": 2,
-      "us_median_price_usd": 26.5,
+      "us_market_hits": 3,
+      "us_median_price_usd": 21.75,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
         "reviews": 17.4,
         "price": 10.0,
         "keyword": 3,
-        "us_market_fit": 17.5,
+        "us_market_fit": 19.9,
         "rebucket_note": "",
         "global_similarity_reference_only": 7,
         "penalty": 0,
@@ -1687,18 +1580,18 @@
       "review_count": 838,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044967",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251128/48KGdDdZtzKogEC9hIZr1044967_00_0048KGdDdZtzKogEC9hIZr.png",
-      "shopify_score": 86,
+      "shopify_score": 89,
       "grade": "A",
       "s_rule": "no_global_match",
-      "us_market_hits": 2,
-      "us_median_price_usd": 26.5,
+      "us_market_hits": 3,
+      "us_median_price_usd": 21.75,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
         "reviews": 17.7,
         "price": 10.0,
         "keyword": 3,
-        "us_market_fit": 17.5,
+        "us_market_fit": 19.9,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -1712,318 +1605,27 @@
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 838건 (글로벌 시그널 약함)"
     },
     {
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "bucket": "스킨케어",
+      "pd_no": "1069995",
+      "name": "실크테라피 실크케라틴 앰플트리트먼트 150 ml",
+      "bucket": "헤어케어",
       "rebucketed": false,
       "price_krw": 5000,
       "rating": 4.8,
-      "review_count": 938,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
-      "shopify_score": 85,
-      "grade": "S",
-      "s_rule": "ingredient+form",
-      "us_market_hits": 4,
-      "us_median_price_usd": 21.43,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 13.3,
-        "reviews": 18.0,
-        "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 13.6,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 22,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "ANUA Heartleaf 77 Soothing Toner",
-        "similarity": 0.92,
-        "demand_weight": 0.95,
-        "matched_tokens": [
-          "heartleaf",
-          "toner"
-        ],
-        "match_score": 0.874
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "ANUA Heartleaf 77 Soothing Toner",
-          "similarity": 0.92,
-          "demand_weight": 0.95,
-          "matched_tokens": [
-            "heartleaf",
-            "toner"
-          ],
-          "match_score": 0.874
-        },
-        {
-          "channel": "amazon_best_sellers",
-          "global_product": "ANUA Heartleaf 77 Soothing Toner",
-          "similarity": 0.92,
-          "demand_weight": 0.475,
-          "matched_tokens": [
-            "heartleaf",
-            "toner"
-          ],
-          "match_score": 0.437
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Round Lab Dokdo Toner",
-          "similarity": 0.433,
-          "demand_weight": 0.65,
-          "matched_tokens": [
-            "toner"
-          ],
-          "match_score": 0.282
-        }
-      ],
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
-      "s_rank": 6
-    },
-    {
-      "pd_no": "1045421",
-      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
-      "bucket": "스킨케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 567,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231221/4S2p6tvbv9F2EJVNtStV1045421_00_004S2p6tvbv9F2EJVNtStV.jpg",
-      "shopify_score": 85,
-      "grade": "S",
-      "s_rule": "strong_form",
-      "us_market_hits": 3,
-      "us_median_price_usd": 24.8,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 11.7,
-        "reviews": 16.7,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 21.2,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 18,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "TIRTIR Mask Fit Red Cushion",
-        "similarity": 0.733,
-        "demand_weight": 1.0,
-        "matched_tokens": [
-          "cushion"
-        ],
-        "match_score": 0.733
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "TIRTIR Mask Fit Red Cushion",
-          "similarity": 0.733,
-          "demand_weight": 1.0,
-          "matched_tokens": [
-            "cushion"
-          ],
-          "match_score": 0.733
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Clio Kill Cover Mesh Glow Cushion",
-          "similarity": 0.667,
-          "demand_weight": 0.5,
-          "matched_tokens": [
-            "cushion"
-          ],
-          "match_score": 0.333
-        }
-      ],
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
-      "s_rank": 7
-    },
-    {
-      "pd_no": "1049295",
-      "name": "[진정수분버블]VT 시카 버블 스파클링 부스터 10 g 4개입",
-      "bucket": "마스크팩",
-      "rebucketed": false,
-      "price_krw": 3000,
-      "rating": 4.8,
-      "review_count": 1692,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049295",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251031/Yj86my6ouI2DNkTqCH1u1049295_00_01Yj86my6ouI2DNkTqCH1u.jpg",
-      "shopify_score": 85,
-      "grade": "A",
-      "s_rule": "match_too_weak",
-      "us_market_hits": 2,
-      "us_median_price_usd": 26.0,
-      "score_breakdown": {
-        "category": 22.6,
-        "rating": 13.3,
-        "reviews": 19.6,
-        "price": 10.0,
-        "keyword": 3,
-        "us_market_fit": 16.2,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 8,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.42,
-        "demand_weight": 0.75,
-        "matched_tokens": [
-          "centella"
-        ],
-        "match_score": 0.315
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.42,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "centella"
-          ],
-          "match_score": 0.315
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "ANUA Heartleaf 77 Soothing Toner",
-          "similarity": 0.3,
-          "demand_weight": 0.95,
-          "matched_tokens": [
-            "calming"
-          ],
-          "match_score": 0.285
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)",
-          "similarity": 0.387,
-          "demand_weight": 0.686,
-          "matched_tokens": [
-            "centella"
-          ],
-          "match_score": 0.265
-        }
-      ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 42% · 토큰 centella · S제외:match_too_weak"
-    },
-    {
-      "pd_no": "1074979",
-      "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
-      "bucket": "스킨케어",
-      "rebucketed": false,
-      "price_krw": 3000,
-      "rating": 4.6,
-      "review_count": 352,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260116/vBSXuja9jWgInfVlOGRy1074979_00_00vBSXuja9jWgInfVlOGRy.jpg",
-      "shopify_score": 85,
-      "grade": "A",
-      "s_rule": "weak_solo_token",
-      "us_market_hits": 18,
-      "us_median_price_usd": 29.74,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 10.0,
-        "reviews": 15.4,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 7,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-        "similarity": 0.293,
-        "demand_weight": 0.931,
-        "matched_tokens": [
-          "cream"
-        ],
-        "match_score": 0.273
-      },
-      "global_matches": [
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-          "similarity": 0.293,
-          "demand_weight": 0.931,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.273
-        },
-        {
-          "channel": "sephora",
-          "global_product": "베네피앙스 링클 스무딩 아이 크림",
-          "similarity": 0.32,
-          "demand_weight": 0.81,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.259
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-          "similarity": 0.293,
-          "demand_weight": 0.539,
-          "matched_tokens": [
-            "cream"
-          ],
-          "match_score": 0.158
-        }
-      ],
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
-    },
-    {
-      "pd_no": "1067024",
-      "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
-      "bucket": "클렌징",
-      "rebucketed": false,
-      "price_krw": 2000,
-      "rating": 4.8,
-      "review_count": 1078,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067024",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/2UUKBdK8jzSspPiyY3ul1067024_00_002UUKBdK8jzSspPiyY3ul.png",
-      "shopify_score": 85,
+      "review_count": 737,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1069995",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/MlfzXa3gzvGbwdbY61P01069995_00_00MlfzXa3gzvGbwdbY61P0.jpg",
+      "shopify_score": 88,
       "grade": "A",
       "s_rule": "no_global_match",
-      "us_market_hits": 9,
-      "us_median_price_usd": 21.0,
+      "us_market_hits": 21,
+      "us_median_price_usd": 24.0,
       "score_breakdown": {
-        "category": 20.2,
+        "category": 17.9,
         "rating": 13.3,
-        "reviews": 18.4,
+        "reviews": 17.4,
         "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 23.4,
+        "keyword": 5,
+        "us_market_fit": 24.6,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -2034,7 +1636,83 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": null,
       "global_matches": [],
-      "recommend_reason": "클렌징 카테고리 · 평점 4.8 · 리뷰 1,078건 (글로벌 시그널 약함)"
+      "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 737건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1062141",
+      "name": "네시픽 화이트닝 모이스처크림 50 ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 223,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062141",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250306/GoRwz8jRUDcn8upJ3Ilc1062141_00_01GoRwz8jRUDcn8upJ3Ilc.jpg",
+      "shopify_score": 86,
+      "grade": "A",
+      "s_rule": "claim_risk",
+      "us_market_hits": 21,
+      "us_median_price_usd": 28.99,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 11.7,
+        "reviews": 14.2,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 11,
+        "penalty": 0,
+        "us_block_kind": "claim_risk",
+        "us_block_reason": "미백 - 미국에서 OTC 의약품 주장",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "amazon_best_sellers",
+        "global_product": "CeraVe Moisturizing Cream",
+        "similarity": 0.867,
+        "demand_weight": 0.475,
+        "matched_tokens": [
+          "cream",
+          "moisturizer"
+        ],
+        "match_score": 0.412
+      },
+      "global_matches": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "CeraVe Moisturizing Cream",
+          "similarity": 0.867,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "cream",
+            "moisturizer"
+          ],
+          "match_score": 0.412
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "CeraVe Daily Moisturizing Lotion",
+          "similarity": 0.4,
+          "demand_weight": 0.8,
+          "matched_tokens": [
+            "moisturizer"
+          ],
+          "match_score": 0.32
+        },
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "La Roche-Posay Double Repair Moisturizer",
+          "similarity": 0.38,
+          "demand_weight": 0.76,
+          "matched_tokens": [
+            "moisturizer"
+          ],
+          "match_score": 0.289
+        }
+      ],
+      "recommend_reason": "미국 판매 제약: 미백 - 미국에서 OTC 의약품 주장"
     },
     {
       "pd_no": "1053482",
@@ -2046,18 +1724,18 @@
       "review_count": 592,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/S3WHamdJK4z5s7WVkYus1053482_00_00S3WHamdJK4z5s7WVkYus.jpg",
-      "shopify_score": 84,
+      "shopify_score": 85,
       "grade": "A",
       "s_rule": "form_cap",
-      "us_market_hits": 0,
-      "us_median_price_usd": 21.24,
+      "us_market_hits": 1,
+      "us_median_price_usd": 22.0,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
         "reviews": 16.8,
         "price": 10.0,
         "keyword": 3,
-        "us_market_fit": 16.0,
+        "us_market_fit": 17.2,
         "rebucket_note": "",
         "global_similarity_reference_only": 14,
         "penalty": 0,
@@ -2115,6 +1793,188 @@
       "downgrade_reason": "동일 제형(토너) 상위 2개에 밀림"
     },
     {
+      "pd_no": "1074979",
+      "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 4.6,
+      "review_count": 352,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260116/vBSXuja9jWgInfVlOGRy1074979_00_00vBSXuja9jWgInfVlOGRy.jpg",
+      "shopify_score": 85,
+      "grade": "A",
+      "s_rule": "weak_solo_token",
+      "us_market_hits": 21,
+      "us_median_price_usd": 28.99,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 10.0,
+        "reviews": 15.4,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 7,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "similarity": 0.293,
+        "demand_weight": 0.98,
+        "matched_tokens": [
+          "cream"
+        ],
+        "match_score": 0.287
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "similarity": 0.293,
+          "demand_weight": 0.98,
+          "matched_tokens": [
+            "cream"
+          ],
+          "match_score": 0.287
+        },
+        {
+          "channel": "sephora",
+          "global_product": "베네피앙스 링클 스무딩 아이 크림",
+          "similarity": 0.32,
+          "demand_weight": 0.81,
+          "matched_tokens": [
+            "cream"
+          ],
+          "match_score": 0.259
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+          "similarity": 0.293,
+          "demand_weight": 0.735,
+          "matched_tokens": [
+            "cream"
+          ],
+          "match_score": 0.216
+        }
+      ],
+      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
+    },
+    {
+      "pd_no": "1067024",
+      "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 2000,
+      "rating": 4.8,
+      "review_count": 1078,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067024",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/2UUKBdK8jzSspPiyY3ul1067024_00_002UUKBdK8jzSspPiyY3ul.png",
+      "shopify_score": 85,
+      "grade": "A",
+      "s_rule": "no_global_match",
+      "us_market_hits": 10,
+      "us_median_price_usd": 21.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 18.4,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "클렌징 카테고리 · 평점 4.8 · 리뷰 1,078건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1049295",
+      "name": "[진정수분버블]VT 시카 버블 스파클링 부스터 10 g 4개입",
+      "bucket": "마스크팩",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 1692,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049295",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251031/Yj86my6ouI2DNkTqCH1u1049295_00_01Yj86my6ouI2DNkTqCH1u.jpg",
+      "shopify_score": 84,
+      "grade": "A",
+      "s_rule": "match_too_weak",
+      "us_market_hits": 1,
+      "us_median_price_usd": 26.0,
+      "score_breakdown": {
+        "category": 22.6,
+        "rating": 13.3,
+        "reviews": 19.6,
+        "price": 10.0,
+        "keyword": 3,
+        "us_market_fit": 15.6,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 8,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Skin1004 Madagascar Centella Ampoule",
+        "similarity": 0.42,
+        "demand_weight": 0.75,
+        "matched_tokens": [
+          "centella"
+        ],
+        "match_score": 0.315
+      },
+      "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Skin1004 Madagascar Centella Ampoule",
+          "similarity": 0.42,
+          "demand_weight": 0.75,
+          "matched_tokens": [
+            "centella"
+          ],
+          "match_score": 0.315
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "ANUA Heartleaf 77 Soothing Toner",
+          "similarity": 0.3,
+          "demand_weight": 0.95,
+          "matched_tokens": [
+            "calming"
+          ],
+          "match_score": 0.285
+        },
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "Skin1004 Madagascar Centella Ampoule",
+          "similarity": 0.42,
+          "demand_weight": 0.617,
+          "matched_tokens": [
+            "centella"
+          ],
+          "match_score": 0.259
+        }
+      ],
+      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 42% · 토큰 centella · S제외:match_too_weak"
+    },
+    {
       "pd_no": "1060489",
       "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
       "bucket": "마스크팩",
@@ -2127,7 +1987,7 @@
       "shopify_score": 84,
       "grade": "A",
       "s_rule": "match_too_weak",
-      "us_market_hits": 2,
+      "us_market_hits": 1,
       "us_median_price_usd": 26.0,
       "score_breakdown": {
         "category": 22.6,
@@ -2176,17 +2036,91 @@
           "match_score": 0.285
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)",
-          "similarity": 0.387,
-          "demand_weight": 0.686,
+          "channel": "amazon_best_sellers",
+          "global_product": "Skin1004 Madagascar Centella Ampoule",
+          "similarity": 0.42,
+          "demand_weight": 0.617,
           "matched_tokens": [
             "centella"
           ],
-          "match_score": 0.265
+          "match_score": 0.259
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 42% · 토큰 centella · S제외:match_too_weak"
+    },
+    {
+      "pd_no": "1068733",
+      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.4,
+      "review_count": 423,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/rb7tUhT1C5xKYvlAevXm1068733_00_00rb7tUhT1C5xKYvlAevXm.jpg",
+      "shopify_score": 84,
+      "grade": "A",
+      "s_rule": "match_too_weak",
+      "us_market_hits": 23,
+      "us_median_price_usd": 24.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 6.7,
+        "reviews": 15.9,
+        "price": 10.0,
+        "keyword": 5,
+        "us_market_fit": 20.9,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 7,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+        "similarity": 0.42,
+        "demand_weight": 0.686,
+        "matched_tokens": [
+          "vitaminc"
+        ],
+        "match_score": 0.288
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+          "similarity": 0.42,
+          "demand_weight": 0.686,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.288
+        },
+        {
+          "channel": "sephora",
+          "global_product": "턴오버 앰플 c-PDRN 0.5%",
+          "similarity": 0.4,
+          "demand_weight": 0.63,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.252
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Skin1004 Madagascar Centella Ampoule",
+          "similarity": 0.3,
+          "demand_weight": 0.75,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.225
+        }
+      ],
+      "recommend_reason": "글로벌 'Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 42% · 토큰 vitaminc · S제외:match_too_weak"
     },
     {
       "pd_no": "1046083",
@@ -2201,8 +2135,8 @@
       "shopify_score": 84,
       "grade": "A",
       "s_rule": "weak_solo_token",
-      "us_market_hits": 18,
-      "us_median_price_usd": 29.74,
+      "us_market_hits": 21,
+      "us_median_price_usd": 28.99,
       "score_breakdown": {
         "category": 25.0,
         "rating": 10.0,
@@ -2222,22 +2156,22 @@
         "channel": "oliveyoung_us",
         "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
         "similarity": 0.293,
-        "demand_weight": 0.931,
+        "demand_weight": 0.98,
         "matched_tokens": [
           "cream"
         ],
-        "match_score": 0.273
+        "match_score": 0.287
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
           "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.293,
-          "demand_weight": 0.931,
+          "demand_weight": 0.98,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.273
+          "match_score": 0.287
         },
         {
           "channel": "sephora",
@@ -2253,88 +2187,14 @@
           "channel": "oliveyoung_us",
           "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
-          "demand_weight": 0.539,
+          "demand_weight": 0.735,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.158
+          "match_score": 0.216
         }
       ],
       "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
-    },
-    {
-      "pd_no": "1068733",
-      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
-      "bucket": "스킨케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.4,
-      "review_count": 423,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/rb7tUhT1C5xKYvlAevXm1068733_00_00rb7tUhT1C5xKYvlAevXm.jpg",
-      "shopify_score": 83,
-      "grade": "A",
-      "s_rule": "match_too_weak",
-      "us_market_hits": 26,
-      "us_median_price_usd": 26.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 6.7,
-        "reviews": 15.9,
-        "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 20.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 9,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
-        "similarity": 0.42,
-        "demand_weight": 0.833,
-        "matched_tokens": [
-          "vitaminc"
-        ],
-        "match_score": 0.35
-      },
-      "global_matches": [
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
-          "similarity": 0.42,
-          "demand_weight": 0.833,
-          "matched_tokens": [
-            "vitaminc"
-          ],
-          "match_score": 0.35
-        },
-        {
-          "channel": "sephora",
-          "global_product": "턴오버 앰플 c-PDRN 0.5%",
-          "similarity": 0.4,
-          "demand_weight": 0.63,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.252
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "similarity": 0.267,
-          "demand_weight": 0.882,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.235
-        }
-      ],
-      "recommend_reason": "글로벌 'Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 42% · 토큰 vitaminc · S제외:match_too_weak"
     },
     {
       "pd_no": "1051730",
@@ -2349,7 +2209,7 @@
       "shopify_score": 83,
       "grade": "A",
       "s_rule": "weak_solo_token",
-      "us_market_hits": 9,
+      "us_market_hits": 10,
       "us_median_price_usd": 21.0,
       "score_breakdown": {
         "category": 20.2,
@@ -2399,13 +2259,13 @@
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-          "similarity": 0.26,
+          "global_product": "ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml)",
+          "similarity": 0.293,
           "demand_weight": 0.49,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.127
+          "match_score": 0.144
         }
       ],
       "recommend_reason": "글로벌 'CeraVe Foaming Facial Cleanser' (amazon_best_sellers) 유사 28% · 토큰 cleanser · S제외:weak_solo_token"
@@ -2423,8 +2283,8 @@
       "shopify_score": 83,
       "grade": "A",
       "s_rule": "no_global_match",
-      "us_market_hits": 18,
-      "us_median_price_usd": 29.74,
+      "us_market_hits": 21,
+      "us_median_price_usd": 28.99,
       "score_breakdown": {
         "category": 20.2,
         "rating": 13.3,
@@ -2491,8 +2351,8 @@
       "shopify_score": 83,
       "grade": "A",
       "s_rule": "no_global_match",
-      "us_market_hits": 18,
-      "us_median_price_usd": 29.74,
+      "us_market_hits": 21,
+      "us_median_price_usd": 28.99,
       "score_breakdown": {
         "category": 20.2,
         "rating": 11.7,
@@ -2513,40 +2373,6 @@
       "recommend_reason": "바디케어 카테고리 · 평점 4.7 · 리뷰 425건 (글로벌 시그널 약함)"
     },
     {
-      "pd_no": "1070006",
-      "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
-      "bucket": "헤어케어",
-      "rebucketed": true,
-      "price_krw": 3000,
-      "rating": 4.6,
-      "review_count": 177,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1070006",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251030/kalM4RkxRJNUe3YWQmN51070006_00_01kalM4RkxRJNUe3YWQmN5.jpg",
-      "shopify_score": 82,
-      "grade": "A",
-      "s_rule": "no_global_match",
-      "us_market_hits": 19,
-      "us_median_price_usd": 26.0,
-      "score_breakdown": {
-        "category": 17.9,
-        "rating": 10.0,
-        "reviews": 13.6,
-        "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 25.0,
-        "rebucket_note": "이름의 '헤어' 로 스킨케어 -> 헤어케어 재분류",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "헤어케어 카테고리 · 평점 4.6 · 리뷰 177건 (글로벌 시그널 약함)"
-    },
-    {
       "pd_no": "1070756",
       "name": "더페이스샵 프루츠톡 망고 핸드크림 50 ml",
       "bucket": "바디케어",
@@ -2559,8 +2385,8 @@
       "shopify_score": 82,
       "grade": "A",
       "s_rule": "no_global_match",
-      "us_market_hits": 18,
-      "us_median_price_usd": 29.74,
+      "us_market_hits": 21,
+      "us_median_price_usd": 28.99,
       "score_breakdown": {
         "category": 20.2,
         "rating": 13.3,
@@ -2581,6 +2407,70 @@
       "recommend_reason": "바디케어 카테고리 · 평점 4.8 · 리뷰 158건 (글로벌 시그널 약함)"
     },
     {
+      "pd_no": "1045421",
+      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 567,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231221/4S2p6tvbv9F2EJVNtStV1045421_00_004S2p6tvbv9F2EJVNtStV.jpg",
+      "shopify_score": 81,
+      "grade": "A",
+      "s_rule": "score_below_82",
+      "us_market_hits": 2,
+      "us_median_price_usd": 24.8,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 11.7,
+        "reviews": 16.7,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 17.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 18,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.733,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "cushion"
+        ],
+        "match_score": 0.733
+      },
+      "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "TIRTIR Mask Fit Red Cushion",
+          "similarity": 0.733,
+          "demand_weight": 1.0,
+          "matched_tokens": [
+            "cushion"
+          ],
+          "match_score": 0.733
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Clio Kill Cover Mesh Glow Cushion",
+          "similarity": 0.667,
+          "demand_weight": 0.5,
+          "matched_tokens": [
+            "cushion"
+          ],
+          "match_score": 0.333
+        }
+      ],
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion · S제외:score_below_82"
+    },
+    {
       "pd_no": "1038219",
       "name": "식물원 병풀 클리어 클렌징 워터",
       "bucket": "클렌징",
@@ -2593,15 +2483,15 @@
       "shopify_score": 81,
       "grade": "A",
       "s_rule": "score_below_82",
-      "us_market_hits": 11,
-      "us_median_price_usd": 21.0,
+      "us_market_hits": 12,
+      "us_median_price_usd": 22.49,
       "score_breakdown": {
         "category": 20.2,
         "rating": 13.3,
         "reviews": 18.9,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 18.4,
+        "us_market_fit": 19.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 10,
         "penalty": 0,
@@ -2632,16 +2522,6 @@
           "match_score": 0.39
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)",
-          "similarity": 0.487,
-          "demand_weight": 0.686,
-          "matched_tokens": [
-            "centella"
-          ],
-          "match_score": 0.334
-        },
-        {
           "channel": "amazon_best_sellers",
           "global_product": "Skin1004 Madagascar Centella Ampoule",
           "similarity": 0.52,
@@ -2650,6 +2530,16 @@
             "centella"
           ],
           "match_score": 0.321
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)",
+          "similarity": 0.487,
+          "demand_weight": 0.588,
+          "matched_tokens": [
+            "centella"
+          ],
+          "match_score": 0.286
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 52% · 토큰 centella · S제외:score_below_82"
@@ -2667,7 +2557,7 @@
       "shopify_score": 81,
       "grade": "A",
       "s_rule": "score_below_82",
-      "us_market_hits": 4,
+      "us_market_hits": 7,
       "us_median_price_usd": 24.5,
       "score_breakdown": {
         "category": 17.9,
@@ -2689,6 +2579,40 @@
       "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 349건 (글로벌 시그널 약함)"
     },
     {
+      "pd_no": "1070006",
+      "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
+      "bucket": "헤어케어",
+      "rebucketed": true,
+      "price_krw": 3000,
+      "rating": 4.6,
+      "review_count": 177,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1070006",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251030/kalM4RkxRJNUe3YWQmN51070006_00_01kalM4RkxRJNUe3YWQmN5.jpg",
+      "shopify_score": 81,
+      "grade": "A",
+      "s_rule": "score_below_82",
+      "us_market_hits": 17,
+      "us_median_price_usd": 24.0,
+      "score_breakdown": {
+        "category": 17.9,
+        "rating": 10.0,
+        "reviews": 13.6,
+        "price": 10.0,
+        "keyword": 5,
+        "us_market_fit": 24.6,
+        "rebucket_note": "이름의 '헤어' 로 스킨케어 -> 헤어케어 재분류",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "헤어케어 카테고리 · 평점 4.6 · 리뷰 177건 (글로벌 시그널 약함)"
+    },
+    {
       "pd_no": "1056662",
       "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
       "bucket": "헤어케어",
@@ -2701,15 +2625,15 @@
       "shopify_score": 80,
       "grade": "A",
       "s_rule": "score_below_82",
-      "us_market_hits": 4,
-      "us_median_price_usd": 21.0,
+      "us_market_hits": 5,
+      "us_median_price_usd": 20.8,
       "score_breakdown": {
         "category": 17.9,
         "rating": 11.7,
         "reviews": 16.9,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 23.4,
+        "us_market_fit": 23.3,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -2721,114 +2645,6 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "헤어케어 카테고리 · 평점 4.7 · 리뷰 620건 (글로벌 시그널 약함)"
-    },
-    {
-      "pd_no": "1035210",
-      "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
-      "bucket": "스킨케어",
-      "rebucketed": false,
-      "price_krw": 3000,
-      "rating": 4.8,
-      "review_count": 1107,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035210",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251113/xlpZA0qPNWmZjW7JJmY31035210_00_01xlpZA0qPNWmZjW7JJmY3.png",
-      "shopify_score": 79,
-      "grade": "A",
-      "s_rule": "score_below_82",
-      "us_market_hits": 1,
-      "us_median_price_usd": 21.24,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 13.3,
-        "reviews": 18.4,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 12.2,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 6,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "walmart_beauty",
-        "global_product": "CeraVe Daily Moisturizing Lotion",
-        "similarity": 0.28,
-        "demand_weight": 0.8,
-        "matched_tokens": [
-          "lotion"
-        ],
-        "match_score": 0.224
-      },
-      "global_matches": [
-        {
-          "channel": "walmart_beauty",
-          "global_product": "CeraVe Daily Moisturizing Lotion",
-          "similarity": 0.28,
-          "demand_weight": 0.8,
-          "matched_tokens": [
-            "lotion"
-          ],
-          "match_score": 0.224
-        },
-        {
-          "channel": "walmart_beauty",
-          "global_product": "EOS Shea Better Lotion",
-          "similarity": 0.272,
-          "demand_weight": 0.64,
-          "matched_tokens": [
-            "lotion"
-          ],
-          "match_score": 0.174
-        },
-        {
-          "channel": "walmart_beauty",
-          "global_product": "CeraVe PM Facial Moisturizing Lotion",
-          "similarity": 0.28,
-          "demand_weight": 0.4,
-          "matched_tokens": [
-            "lotion"
-          ],
-          "match_score": 0.112
-        }
-      ],
-      "recommend_reason": "글로벌 'CeraVe Daily Moisturizing Lotion' (walmart_beauty) 유사 28% · 토큰 lotion · S제외:score_below_82"
-    },
-    {
-      "pd_no": "1072800",
-      "name": "줌 바이 정샘물 세범다운 쿠션",
-      "bucket": "메이크업",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.6,
-      "review_count": 1267,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260105/BBuw9crU6REV3VrtkYez1072800_00_00BBuw9crU6REV3VrtkYez.jpg",
-      "shopify_score": 79,
-      "grade": "A",
-      "s_rule": "score_below_82",
-      "us_market_hits": 3,
-      "us_median_price_usd": 24.8,
-      "score_breakdown": {
-        "category": 19.0,
-        "rating": 10.0,
-        "reviews": 18.8,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 21.2,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "메이크업 카테고리 · 평점 4.6 · 리뷰 1,267건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1038603",
@@ -2882,16 +2698,6 @@
           "match_score": 0.39
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)",
-          "similarity": 0.487,
-          "demand_weight": 0.686,
-          "matched_tokens": [
-            "centella"
-          ],
-          "match_score": 0.334
-        },
-        {
           "channel": "amazon_best_sellers",
           "global_product": "Skin1004 Madagascar Centella Ampoule",
           "similarity": 0.52,
@@ -2900,34 +2706,112 @@
             "centella"
           ],
           "match_score": 0.321
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)",
+          "similarity": 0.487,
+          "demand_weight": 0.588,
+          "matched_tokens": [
+            "centella"
+          ],
+          "match_score": 0.286
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 52% · 토큰 centella · S제외:score_below_82"
     },
     {
-      "pd_no": "1043659",
-      "name": "닥터지오 모이스처 올인원 젤로션 150 ml",
-      "bucket": "스킨케어",
+      "pd_no": "1061880",
+      "name": "더페이스샵 맑은 쌀 클렌징 오일 100 ml",
+      "bucket": "클렌징",
       "rebucketed": false,
       "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 587,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1043659",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260325/wXm7JotUk9q64qlDBwcc1043659_00_01wXm7JotUk9q64qlDBwcc.png",
-      "shopify_score": 77,
+      "rating": 4.6,
+      "review_count": 116,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061880",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250213/DliZ4YBFiBWirxlLoAE51061880_00_01DliZ4YBFiBWirxlLoAE5.jpg",
+      "shopify_score": 76,
       "grade": "A",
       "s_rule": "score_below_82",
-      "us_market_hits": 1,
-      "us_median_price_usd": 21.24,
+      "us_market_hits": 10,
+      "us_median_price_usd": 21.0,
       "score_breakdown": {
-        "category": 25.0,
-        "rating": 13.3,
-        "reviews": 16.8,
+        "category": 20.2,
+        "rating": 10.0,
+        "reviews": 12.5,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 12.2,
+        "us_market_fit": 23.4,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "클렌징 카테고리 · 평점 4.6 · 리뷰 116건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1072800",
+      "name": "줌 바이 정샘물 세범다운 쿠션",
+      "bucket": "메이크업",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.6,
+      "review_count": 1267,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260105/BBuw9crU6REV3VrtkYez1072800_00_00BBuw9crU6REV3VrtkYez.jpg",
+      "shopify_score": 75,
+      "grade": "A",
+      "s_rule": "score_below_82",
+      "us_market_hits": 2,
+      "us_median_price_usd": 24.8,
+      "score_breakdown": {
+        "category": 19.0,
+        "rating": 10.0,
+        "reviews": 18.8,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 17.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "메이크업 카테고리 · 평점 4.6 · 리뷰 1,267건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1073704",
+      "name": "[각질순삭]큐어레스트 버블 필링 클렌저 120 ml",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.6,
+      "review_count": 223,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073704",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251030/Wp4xjCpbmdO7J5FSWXLt1073704_00_01Wp4xjCpbmdO7J5FSWXLt.jpg",
+      "shopify_score": 72,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 5,
+      "us_median_price_usd": 21.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 10.0,
+        "reviews": 14.2,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 17.8,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -2936,60 +2820,138 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "amazon_best_sellers",
-        "global_product": "La Roche-Posay Double Repair Moisturizer",
-        "similarity": 0.38,
-        "demand_weight": 0.76,
+        "global_product": "CeraVe Foaming Facial Cleanser",
+        "similarity": 0.28,
+        "demand_weight": 0.855,
         "matched_tokens": [
-          "moisturizer"
+          "cleanser"
         ],
-        "match_score": 0.289
+        "match_score": 0.239
       },
       "global_matches": [
         {
           "channel": "amazon_best_sellers",
-          "global_product": "La Roche-Posay Double Repair Moisturizer",
-          "similarity": 0.38,
-          "demand_weight": 0.76,
+          "global_product": "CeraVe Foaming Facial Cleanser",
+          "similarity": 0.28,
+          "demand_weight": 0.855,
           "matched_tokens": [
-            "moisturizer"
+            "cleanser"
           ],
-          "match_score": 0.289
+          "match_score": 0.239
         },
         {
           "channel": "walmart_beauty",
-          "global_product": "Neutrogena Hydro Boost Water Gel",
-          "similarity": 0.38,
-          "demand_weight": 0.4,
+          "global_product": "PanOxyl Acne Foaming Wash",
+          "similarity": 0.272,
+          "demand_weight": 0.76,
           "matched_tokens": [
-            "moisturizer"
+            "cleanser"
           ],
-          "match_score": 0.152
+          "match_score": 0.207
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml)",
+          "similarity": 0.293,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "cleanser"
+          ],
+          "match_score": 0.144
         }
       ],
-      "recommend_reason": "글로벌 'La Roche-Posay Double Repair Moisturizer' (amazon_best_sellers) 유사 38% · 토큰 moisturizer · S제외:score_below_82"
+      "recommend_reason": "글로벌 'CeraVe Foaming Facial Cleanser' (amazon_best_sellers) 유사 28% · 토큰 cleanser · S제외:score_below_82"
     },
     {
-      "pd_no": "1044110",
-      "name": "존슨즈 베이비 로션 핑크 200ml",
-      "bucket": "스킨케어",
+      "pd_no": "1048042",
+      "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
+      "bucket": "메이크업",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 223,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048042",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260708/ucPr4JN4R7KwEkLxL7CH1048042_00_00ucPr4JN4R7KwEkLxL7CH.jpg",
+      "shopify_score": 72,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 2,
+      "us_median_price_usd": 24.8,
+      "score_breakdown": {
+        "category": 19.0,
+        "rating": 11.7,
+        "reviews": 14.2,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 17.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 223건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1064565",
+      "name": "EVA 뒷굽 쿠션 슬리퍼 270 mm",
+      "bucket": "메이크업",
       "rebucketed": false,
       "price_krw": 5000,
       "rating": 4.8,
-      "review_count": 511,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044110",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260528/RUWg8ca0PGSfLkoJw2QX1044110_00_00RUWg8ca0PGSfLkoJw2QX.png",
-      "shopify_score": 77,
-      "grade": "A",
+      "review_count": 64,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064565",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260219/MAnhhgCxRj3TTfH3LfHM1064565_00_00MAnhhgCxRj3TTfH3LfHM.jpg",
+      "shopify_score": 71,
+      "grade": "B",
       "s_rule": "score_below_82",
-      "us_market_hits": 1,
-      "us_median_price_usd": 21.24,
+      "us_market_hits": 2,
+      "us_median_price_usd": 24.8,
+      "score_breakdown": {
+        "category": 19.0,
+        "rating": 13.3,
+        "reviews": 11.0,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 17.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "메이크업 카테고리 · 평점 4.8 · 리뷰 64건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1035210",
+      "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 1107,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035210",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251113/xlpZA0qPNWmZjW7JJmY31035210_00_01xlpZA0qPNWmZjW7JJmY3.png",
+      "shopify_score": 67,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
-        "reviews": 16.4,
+        "reviews": 18.4,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 12.2,
+        "us_market_fit": 0.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 6,
         "penalty": 0,
@@ -3041,182 +3003,6 @@
         }
       ],
       "recommend_reason": "글로벌 'CeraVe Daily Moisturizing Lotion' (walmart_beauty) 유사 28% · 토큰 lotion · S제외:score_below_82"
-    },
-    {
-      "pd_no": "1048042",
-      "name": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
-      "bucket": "메이크업",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 223,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048042",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260708/ucPr4JN4R7KwEkLxL7CH1048042_00_00ucPr4JN4R7KwEkLxL7CH.jpg",
-      "shopify_score": 76,
-      "grade": "A",
-      "s_rule": "score_below_82",
-      "us_market_hits": 3,
-      "us_median_price_usd": 24.8,
-      "score_breakdown": {
-        "category": 19.0,
-        "rating": 11.7,
-        "reviews": 14.2,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 21.2,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 223건 (글로벌 시그널 약함)"
-    },
-    {
-      "pd_no": "1061880",
-      "name": "더페이스샵 맑은 쌀 클렌징 오일 100 ml",
-      "bucket": "클렌징",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.6,
-      "review_count": 116,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061880",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250213/DliZ4YBFiBWirxlLoAE51061880_00_01DliZ4YBFiBWirxlLoAE5.jpg",
-      "shopify_score": 76,
-      "grade": "A",
-      "s_rule": "score_below_82",
-      "us_market_hits": 9,
-      "us_median_price_usd": 21.0,
-      "score_breakdown": {
-        "category": 20.2,
-        "rating": 10.0,
-        "reviews": 12.5,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 23.4,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "클렌징 카테고리 · 평점 4.6 · 리뷰 116건 (글로벌 시그널 약함)"
-    },
-    {
-      "pd_no": "1064565",
-      "name": "EVA 뒷굽 쿠션 슬리퍼 270 mm",
-      "bucket": "메이크업",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 64,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064565",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260219/MAnhhgCxRj3TTfH3LfHM1064565_00_00MAnhhgCxRj3TTfH3LfHM.jpg",
-      "shopify_score": 74,
-      "grade": "B",
-      "s_rule": "score_below_82",
-      "us_market_hits": 3,
-      "us_median_price_usd": 24.8,
-      "score_breakdown": {
-        "category": 19.0,
-        "rating": 13.3,
-        "reviews": 11.0,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 21.2,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "메이크업 카테고리 · 평점 4.8 · 리뷰 64건 (글로벌 시그널 약함)"
-    },
-    {
-      "pd_no": "1073704",
-      "name": "[각질순삭]큐어레스트 버블 필링 클렌저 120 ml",
-      "bucket": "클렌징",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.6,
-      "review_count": 223,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073704",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251030/Wp4xjCpbmdO7J5FSWXLt1073704_00_01Wp4xjCpbmdO7J5FSWXLt.jpg",
-      "shopify_score": 70,
-      "grade": "B",
-      "s_rule": "score_below_82",
-      "us_market_hits": 4,
-      "us_median_price_usd": 21.0,
-      "score_breakdown": {
-        "category": 20.2,
-        "rating": 10.0,
-        "reviews": 14.2,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 15.9,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 6,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "amazon_best_sellers",
-        "global_product": "CeraVe Foaming Facial Cleanser",
-        "similarity": 0.28,
-        "demand_weight": 0.855,
-        "matched_tokens": [
-          "cleanser"
-        ],
-        "match_score": 0.239
-      },
-      "global_matches": [
-        {
-          "channel": "amazon_best_sellers",
-          "global_product": "CeraVe Foaming Facial Cleanser",
-          "similarity": 0.28,
-          "demand_weight": 0.855,
-          "matched_tokens": [
-            "cleanser"
-          ],
-          "match_score": 0.239
-        },
-        {
-          "channel": "walmart_beauty",
-          "global_product": "PanOxyl Acne Foaming Wash",
-          "similarity": 0.272,
-          "demand_weight": 0.76,
-          "matched_tokens": [
-            "cleanser"
-          ],
-          "match_score": 0.207
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-          "similarity": 0.26,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "cleanser"
-          ],
-          "match_score": 0.127
-        }
-      ],
-      "recommend_reason": "글로벌 'CeraVe Foaming Facial Cleanser' (amazon_best_sellers) 유사 28% · 토큰 cleanser · S제외:score_below_82"
     },
     {
       "pd_no": "1059832",
@@ -3273,24 +3059,162 @@
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.272,
-          "demand_weight": 0.98,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.267
+          "match_score": 0.253
         },
         {
-          "channel": "amazon_best_sellers",
-          "global_product": "Laneige Lip Sleeping Mask",
-          "similarity": 0.293,
-          "demand_weight": 0.665,
+          "channel": "oliveyoung_us",
+          "global_product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
+          "similarity": 0.263,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.195
+          "match_score": 0.206
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82"
+    },
+    {
+      "pd_no": "1043659",
+      "name": "닥터지오 모이스처 올인원 젤로션 150 ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 587,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1043659",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260325/wXm7JotUk9q64qlDBwcc1043659_00_01wXm7JotUk9q64qlDBwcc.png",
+      "shopify_score": 65,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 13.3,
+        "reviews": 16.8,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 7,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "amazon_best_sellers",
+        "global_product": "La Roche-Posay Double Repair Moisturizer",
+        "similarity": 0.38,
+        "demand_weight": 0.76,
+        "matched_tokens": [
+          "moisturizer"
+        ],
+        "match_score": 0.289
+      },
+      "global_matches": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "La Roche-Posay Double Repair Moisturizer",
+          "similarity": 0.38,
+          "demand_weight": 0.76,
+          "matched_tokens": [
+            "moisturizer"
+          ],
+          "match_score": 0.289
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "Neutrogena Hydro Boost Water Gel",
+          "similarity": 0.38,
+          "demand_weight": 0.4,
+          "matched_tokens": [
+            "moisturizer"
+          ],
+          "match_score": 0.152
+        }
+      ],
+      "recommend_reason": "글로벌 'La Roche-Posay Double Repair Moisturizer' (amazon_best_sellers) 유사 38% · 토큰 moisturizer · S제외:score_below_82"
+    },
+    {
+      "pd_no": "1044110",
+      "name": "존슨즈 베이비 로션 핑크 200ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 511,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044110",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260528/RUWg8ca0PGSfLkoJw2QX1044110_00_00RUWg8ca0PGSfLkoJw2QX.png",
+      "shopify_score": 65,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 13.3,
+        "reviews": 16.4,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 6,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "walmart_beauty",
+        "global_product": "CeraVe Daily Moisturizing Lotion",
+        "similarity": 0.28,
+        "demand_weight": 0.8,
+        "matched_tokens": [
+          "lotion"
+        ],
+        "match_score": 0.224
+      },
+      "global_matches": [
+        {
+          "channel": "walmart_beauty",
+          "global_product": "CeraVe Daily Moisturizing Lotion",
+          "similarity": 0.28,
+          "demand_weight": 0.8,
+          "matched_tokens": [
+            "lotion"
+          ],
+          "match_score": 0.224
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "EOS Shea Better Lotion",
+          "similarity": 0.272,
+          "demand_weight": 0.64,
+          "matched_tokens": [
+            "lotion"
+          ],
+          "match_score": 0.174
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "CeraVe PM Facial Moisturizing Lotion",
+          "similarity": 0.28,
+          "demand_weight": 0.4,
+          "matched_tokens": [
+            "lotion"
+          ],
+          "match_score": 0.112
+        }
+      ],
+      "recommend_reason": "글로벌 'CeraVe Daily Moisturizing Lotion' (walmart_beauty) 유사 28% · 토큰 lotion · S제외:score_below_82"
     },
     {
       "pd_no": "1066221",
@@ -3689,7 +3613,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -3700,22 +3624,22 @@
         "channel": "oliveyoung_us",
         "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
         "similarity": 0.52,
-        "demand_weight": 0.833,
+        "demand_weight": 0.686,
         "matched_tokens": [
           "vitaminc"
         ],
-        "match_score": 0.433
+        "match_score": 0.357
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
           "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
           "similarity": 0.52,
-          "demand_weight": 0.833,
+          "demand_weight": 0.686,
           "matched_tokens": [
             "vitaminc"
           ],
-          "match_score": 0.433
+          "match_score": 0.357
         }
       ],
       "recommend_reason": "글로벌 'Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 52% · 토큰 vitaminc · S제외:score_below_82"
@@ -4481,21 +4405,21 @@
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.272,
-          "demand_weight": 0.98,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.267
+          "match_score": 0.253
         },
         {
-          "channel": "amazon_best_sellers",
-          "global_product": "Laneige Lip Sleeping Mask",
-          "similarity": 0.293,
-          "demand_weight": 0.665,
+          "channel": "oliveyoung_us",
+          "global_product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
+          "similarity": 0.263,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.195
+          "match_score": 0.206
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82"
@@ -4827,21 +4751,21 @@
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.272,
-          "demand_weight": 0.98,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.267
+          "match_score": 0.253
         },
         {
-          "channel": "amazon_best_sellers",
-          "global_product": "Laneige Lip Sleeping Mask",
-          "similarity": 0.293,
-          "demand_weight": 0.665,
+          "channel": "oliveyoung_us",
+          "global_product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
+          "similarity": 0.263,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.195
+          "match_score": 0.206
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82"
@@ -4859,8 +4783,8 @@
       "shopify_score": 57,
       "grade": "C",
       "s_rule": "score_below_82",
-      "us_market_hits": 18,
-      "us_median_price_usd": 29.74,
+      "us_market_hits": 21,
+      "us_median_price_usd": 28.99,
       "score_breakdown": {
         "category": 25.0,
         "rating": 0.0,
@@ -4880,22 +4804,22 @@
         "channel": "oliveyoung_us",
         "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
         "similarity": 0.293,
-        "demand_weight": 0.931,
+        "demand_weight": 0.98,
         "matched_tokens": [
           "cream"
         ],
-        "match_score": 0.273
+        "match_score": 0.287
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
           "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
           "similarity": 0.293,
-          "demand_weight": 0.931,
+          "demand_weight": 0.98,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.273
+          "match_score": 0.287
         },
         {
           "channel": "sephora",
@@ -4911,11 +4835,11 @@
           "channel": "oliveyoung_us",
           "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
-          "demand_weight": 0.539,
+          "demand_weight": 0.735,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.158
+          "match_score": 0.216
         }
       ],
       "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82"
@@ -5113,7 +5037,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -5124,22 +5048,22 @@
         "channel": "oliveyoung_us",
         "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
         "similarity": 0.272,
-        "demand_weight": 0.98,
+        "demand_weight": 0.931,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.267
+        "match_score": 0.253
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.272,
-          "demand_weight": 0.98,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.267
+          "match_score": 0.253
         },
         {
           "channel": "amazon_best_sellers",
@@ -5865,21 +5789,21 @@
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.272,
-          "demand_weight": 0.98,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.267
+          "match_score": 0.253
         },
         {
-          "channel": "amazon_best_sellers",
-          "global_product": "Laneige Lip Sleeping Mask",
-          "similarity": 0.293,
-          "demand_weight": 0.665,
+          "channel": "oliveyoung_us",
+          "global_product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
+          "similarity": 0.263,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.195
+          "match_score": 0.206
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82"
@@ -6911,21 +6835,21 @@
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.272,
-          "demand_weight": 0.98,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.267
+          "match_score": 0.253
         },
         {
-          "channel": "amazon_best_sellers",
-          "global_product": "Laneige Lip Sleeping Mask",
-          "similarity": 0.293,
-          "demand_weight": 0.665,
+          "channel": "oliveyoung_us",
+          "global_product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
+          "similarity": 0.263,
+          "demand_weight": 0.784,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.195
+          "match_score": 0.206
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82"

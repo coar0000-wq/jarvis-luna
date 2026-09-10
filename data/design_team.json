@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-10T08:38:57.946573+00:00",
+  "generated_at": "2026-09-10T13:44:26.596084+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -356,6 +356,20 @@
         "feed": "Shopify Dev Changelog"
       },
       {
+        "title": "Migrating Shop app from React Native to native",
+        "url": "https://shopify.engineering/shop-app-migration",
+        "date": "2026-09-10",
+        "summary": "We migrated the Shop app from React Native to Swift and Kotlin. Assisted by AI, the team was able to go from a proof of concept to a fully rebuilt native app published in the app stores in just 12 weeks.",
+        "feed": "Shopify Engineering"
+      },
+      {
+        "title": "Native is now the future of mobile at Shopify",
+        "url": "https://shopify.engineering/back-to-native",
+        "date": "2026-09-10",
+        "summary": "Coding agents changed what it costs to build mobile apps twice. Here’s why Shopify is moving from React Native back to Swift and Kotlin.",
+        "feed": "Shopify Engineering"
+      },
+      {
         "title": "How River takes security work from a fix to merge",
         "url": "https://shopify.engineering/river-vulnerability-remediation",
         "date": "2026-09-02",
@@ -444,20 +458,6 @@
         "url": "https://shopify.engineering/fine-tuning-agent-shopify-flow",
         "date": "2026-04-22",
         "summary": "We fine-tuned Qwen3-32B into a tool-calling agent that generates Flow automations from natural language—faster, cheaper, and more accurate than the frontier model it replaced, with a weekly retraining flywheel built on real merchant data.",
-        "feed": "Shopify Engineering"
-      },
-      {
-        "title": "Autoresearch isn’t just for training models",
-        "url": "https://shopify.engineering/autoresearch",
-        "date": "2026-04-15",
-        "summary": "Tobi and I generalized Karpathy’s Autoresearch to improve 40+ metrics across Shopify, then we open-sourced our project.",
-        "feed": "Shopify Engineering"
-      },
-      {
-        "title": "Building a Magic Mirror: AI retail experiences with Remix",
-        "url": "https://shopify.engineering/magic-mirror",
-        "date": "2026-03-19",
-        "summary": "The technical blueprint for an AI-powered mirror that sees customers, analyzes their appearance, and delivers personalized product recommendations in real-time.",
         "feed": "Shopify Engineering"
       },
       {

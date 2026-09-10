@@ -1,0 +1,21 @@
+---
+title: "Record 0c60b71198 · AI-Contextual-Measurement-for-Recovering-Individual-and-Group-Level-Ef"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-10T13:46:27.257435+00:00
+tags: [record, real-data]
+---
+
+# Record 0c60b71198 · AI-Contextual-Measurement-for-Recovering-Individual-and-Group-Level-Ef
+
+> 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.02821v1)
+
+**제목:** AI Contextual Measurement for Recovering Individual and Group-Level Effects: Validation Against Survey Measures and an Occupational Application
+
+AI Contextual Measurement for Recovering Individual and Group-Level Effects: Validation Against Survey Measures and an Occupational Application
+
+**출처:** Source · arXiv
+
+## Connected nodes
+
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

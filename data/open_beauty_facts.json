@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-10T08:39:48.386800+00:00",
+  "collected_at": "2026-09-10T13:45:29.379648+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -22,7 +22,7 @@
     "스킨케어": 6,
     "마스크팩": 11,
     "클렌징": 10,
-    "선케어": 0,
+    "선케어": 9,
     "메이크업": 10,
     "헤어케어": 11,
     "바디케어": 10,
@@ -32,10 +32,8 @@
     "데오드란트": 12,
     "립케어": 12
   },
-  "errors": {
-    "선케어": "HTTPError: HTTP Error 500: Internal Server Error"
-  },
-  "count": 114,
+  "errors": {},
+  "count": 123,
   "products": [
     {
       "code": "4005900963499",
@@ -396,6 +394,127 @@
       "ingredients_text": "WATER, DENATURED ALCOHOL, PROPANEDIOL, GLYCOLIC ACID, NIACINAMIDE, DIMETHYL ISOSORBIDE, PENTYLENE GLYCOL, SALICYLIC ACID, SODIUM HYDROXIDE, PEG-60 HYDROGENATED CASTOR OIL, HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID, CITRIC ACID, PEG-30 GLYCERYL COCOATE, CAPRYLOYL SALICYLIC ACID, BIOSACCHARIDE GUM-1, MALTODEXTRIN, PHYTIC ACID, POLYQUATERNIUM-10, PERFUME.",
       "image_url": "https://images.openbeautyfacts.org/images/products/333/787/572/2827/front_en.22.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/3337875722827"
+    },
+    {
+      "code": "3770000717587",
+      "product_name": "la Rosée lait solaire spf 50+",
+      "brands": "La Rosée",
+      "category": "선케어",
+      "obf_category": "sunscreens",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "AQUA (WATER), DICAPRYLYL CARBONATE, DIETHYLAMINO HYDROXYBENZOYL BIS ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, PHENYLBENZIMIDAZOLE SULFONIC HEXYL BENZOATE, PROPANEDIOL, DECYL OLEATE, COCO-CAPRYLATE/CAPRATE ACD, PRUNUS ARMENIACA (APRICOT) KERNEL OIL, ETHYLHEXYL TRIAZONE, LACTOBACILLUS FERMENT, TRIACONTANYL PVP, CETEARYL GLUCOSIDE, LACTOBACILLUS, POTASSIUM CETYL PHOSPHATE, PARFUM (FRAGRANCE), GLYCERIN, SORBITAN OLIVATE, CETEARYL ALCOHOL, SODIUM HYDROXIDE, TOCOPHEROL ETHYLHEXYLGLYCERIN, COCOS NUCIFERA (COCONUT) RUT EXTRACT, PANTHENOL XANTHAN GUM, AVENA SATIVA OAT KERNEL EXTRACT, ALOE BARBADENSIS LEAF JUICE POWDER, BRASSICA NAPUS SEED OIL, MALTODEXTRIN, CITRIC OD HYDROGENATED VEGETABLE GLYCERIDES CITRATE.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/377/000/071/7587/front_fr.6.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3770000717587"
+    },
+    {
+      "code": "3662361002146",
+      "product_name": "SVR Spray Sun Secure SPF 50+",
+      "brands": "SVR",
+      "category": "선케어",
+      "obf_category": "sunscreens",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "WATER, DICAPRYLYL ETHER, DIISOPROPYL ADIPATE, DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE, ETHYLHEXYL TRIAZONE, C12-15 ALKYL BENZOATE, BIS - ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, DIETHYLHEXYL BUTAMIDO TRIAZONE, SILICA, BEHENETH-25, PROPANEDIOL, PENTYLENE GLYCOL, ACRYLATES/C12-22 ALKYL METHACRYLATE COPOLYMER, HYDROGENATED VEGETABLE OIL, NIACINAMIDE, CETEARYL ALCOHOL, POLYESTER-7, COCO-GLUCOSIDE, MICROCRYSTALLINE CELLULOSE, NEOPENTYL GLYCOL DIHEPTANOATE, PARFUM (FRAGRANCE), 1,2-HEXANEDIOL, CAPRYLYL GLYCOL, GLYCERIN, ARGININE, CITRIC ACID, TOCOPHEROL, CELLULOSE GUM, HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER, DISODIUM LAURYL SULFOSUCCINATE, GLYCINE SOJA (SOYBEAN) OIL, LECITHIN, POLYSORBATE 60, SORBITAN ISOSTEARATE, LEPIDIUM SATIVUM SPROUT EXTRACT",
+      "image_url": "https://images.openbeautyfacts.org/images/products/366/236/100/2146/front_en.4.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3662361002146"
+    },
+    {
+      "code": "3282770141214",
+      "product_name": "Intense Protect 50+",
+      "brands": "Avène, אוון",
+      "category": "선케어",
+      "obf_category": "sunscreens",
+      "countries": [
+        "France",
+        "Morocco"
+      ],
+      "ingredients_text": "AVENE THERMAL SPRING WATER (AVENE AQUA), C12-15 ALKYL BENZOATE, CAPRYLIC/CAPRIC TRIGLYCERIDE, DICAPRYLYL CARBONATE, DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE, GLYCERIN, ETHYLHEXYL TRIAZONE, PHENYLENE BIS-DIPHENYLTRIAZINE, WATER (AQUA), BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, POTASSIUM CETYL PHOSPHATE, STEARYL ALCOHOL, VP/EICOSENE COPOLYMER, BENZOIC ACID, CAPRYLYL GLYCOL GLYCERYL BEHENATE, GLYCERYL DIBEHENATE GLYCERYL STEARATE, PEG-100 STEARATE, POLYACRYLATE-13, POLYISOBUTENE POLYSORBATE 20, PPG-1-PEG-9 LAURYL GLYCOL ETHER, RED 33 (CI 17200), SORBITAN ISOSTEARATE, TOCOPHEROL TOCOPHERYL GLUCOSIDE, TRIBEHENIN, XANTHAN GUM",
+      "image_url": "https://images.openbeautyfacts.org/images/products/328/277/014/1214/front_fr.6.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3282770141214"
+    },
+    {
+      "code": "3600551125305",
+      "product_name": "Dermo protect spf 50+",
+      "brands": "Mixa",
+      "category": "선케어",
+      "obf_category": "sunscreens",
+      "countries": [
+        "France",
+        "Morocco"
+      ],
+      "ingredients_text": "",
+      "image_url": "https://images.openbeautyfacts.org/images/products/360/055/112/5305/front_fr.9.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3600551125305"
+    },
+    {
+      "code": "3600542520454",
+      "product_name": "Sensitive expert + Spf 50+",
+      "brands": "Garnier, Garnier ambre solaire",
+      "category": "선케어",
+      "obf_category": "sunscreens",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "AQUA/WATER, ALCOHOL DENAT., ETHYLHEXYL SALICYLATE, ETHYLHEXYL TRIAZONE, BUTYL METHOXYDIBENZOYLMETHANE. BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, ISOPROPYL PALMITATE, DIISOPROPYL ADIPATE, GLYCERIN, PROPANEDIOL, PHENYLBENZIMIDAZOLE SULFONIC ACID, DICAPRYLYL ETHER, TRIETHANOLAMINE, C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER, TOCOPHEROL, HYDROXYACETOPHENONE, SODIUM POLYACRYLATE, SODIUM BENZOATE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, DROMETRIZOLE TRISILOXANE, ALOE BARBADENSIS LEAF JUICE, CAPRYLYL GLYCOL, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, CERAMIDE NP, CITRIC ACID, POTASSIUM SORBATE.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/360/054/252/0454/front_fr.3.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3600542520454"
+    },
+    {
+      "code": "3282770396331",
+      "product_name": "Spray Solare Protezione alta SPF 50 - Corpo",
+      "brands": "Avène",
+      "category": "선케어",
+      "obf_category": "sunscreens",
+      "countries": [
+        "France",
+        "Italy"
+      ],
+      "ingredients_text": "AVENE THERMAL SPRING WATER (AVENE AQUA), DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE, DIISOPROPYL SEBACATE, COCO CAPRYLATE/CAPRATE, DICAPRYLYL CARBONATE DIETHYLHEXYL BUTAMIDO TRIAZONE, GLYCERIN, BISETHYLHEXY LOXYPHENOL METHOXYPHENYL TRIAZINE, GLYCERIN, STEARATE CITRATE, ORYZA SATIVA (RICE) STARCH (ORYZA SATIVA STARCH), PENTYLENE GLYCOL, C12-15 ALKYL BENZOATE, VP/EICOSENE COPOLYMER BENZOIC ACID, CAPRYLIC/CAPRIC TRIGLYCERIDE, CELLULOSE GUM, FRAGRANCE (PARFUM), GLYCINE SOJA (SOYBEAN) OIL (GLYCINE SOJA OIL), HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL (HELIANTHUS SEED OIL), MICROCRYSTALLINE CELLULOSE, SODIUM HYDROXIDE, TOCOPHEROL TOCOPHERYL GLUCOSIDE.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/328/277/039/6331/front_it.8.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3282770396331"
+    },
+    {
+      "code": "3504105036751",
+      "product_name": "Spray solaire",
+      "brands": "Mustela",
+      "category": "선케어",
+      "obf_category": "sunscreens",
+      "countries": [
+        "France",
+        "Italy"
+      ],
+      "ingredients_text": "INGREDIENTS: AQUA (WATER), CAPRYLIC/CAPRIC TRIGLYCERIDE, DICAPRYLYL CARBONATE, DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, DIETHYLHEXYL BUTAMIDO TRIAZONE, GLYCERIN, ETHYLHEXYL TRIAZONE. POTASSIUM CETYL PHOSPHATE, 1,2-HEXANEDIOL, C20-22 ALKYL PHOSPHATE, C20-22 ALCOHOLS, GLYCERYL CAPRYLATE, PERSEA GRATISSIMA (AVOCADO) OIL, TOCOPHEROL, CAPRYLYL GLYCOL, HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL, TOCOPHERYL ACETATE, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, ARGININE, PERSEA GRATISSIMA (AVOCADO) FRUIT EXTRACT.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/350/410/503/6751/front_en.7.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3504105036751"
+    },
+    {
+      "code": "3600542520263",
+      "product_name": "Enfant sensitive expert + Spf 50+ Spay",
+      "brands": "Garnier",
+      "category": "선케어",
+      "obf_category": "sunscreens",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "AQUA/WATER, ALCOHOL DENAT., ETHYLHEXYL SALICYLATE, ETHYLHEXYL TRIAZONE, BUTYL METHOXYDIBENZOYLMETHANE BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, ISOPROPYL PALMITATE, DIISOPROPYL ADIPATE, GLYCERIN, PROPANEDIOL, PHENYLBENZIMIDAZOLE SULFONIC ACID, DICAPRYLYL ETHER, TRIETHANOLAMINE, C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER, TOCOPHEROL, HYDROXYACETOPHENONE, SODIUM POLYACRYLATE, SODIUM BENZOATE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, DROMETRIZOLE TRISILOXANE, ALOE BARBADENSIS LEAF JUICE, CAPRYLYL GLYCOL, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, CERAMIDE NP, CITRIC ACID, POTASSIUM SORBATE. (F.I.L. Z70015318/1). *Hors colorants, additifs et pompe.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/360/054/252/0263/front_fr.9.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3600542520263"
+    },
+    {
+      "code": "3522931003761",
+      "product_name": "spray invisible haute protection vinosun pritect indice 50",
+      "brands": "caudalie",
+      "category": "선케어",
+      "obf_category": "sunscreens",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "",
+      "image_url": "https://images.openbeautyfacts.org/images/products/352/293/100/3761/front_fr.3.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3522931003761"
     },
     {
       "code": "3600551020419",

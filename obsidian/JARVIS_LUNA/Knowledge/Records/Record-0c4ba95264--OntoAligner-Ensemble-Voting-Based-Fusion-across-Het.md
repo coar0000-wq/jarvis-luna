@@ -1,0 +1,21 @@
+---
+title: "Record 0c4ba95264 · OntoAligner-Ensemble-Voting-Based-Fusion-across-Heterogeneous-Ontology"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-10T13:46:27.254024+00:00
+tags: [record, real-data]
+---
+
+# Record 0c4ba95264 · OntoAligner-Ensemble-Voting-Based-Fusion-across-Heterogeneous-Ontology
+
+> 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.31137v1)
+
+**제목:** OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques
+
+OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques
+
+**출처:** Source · arXiv
+
+## Connected nodes
+
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]
