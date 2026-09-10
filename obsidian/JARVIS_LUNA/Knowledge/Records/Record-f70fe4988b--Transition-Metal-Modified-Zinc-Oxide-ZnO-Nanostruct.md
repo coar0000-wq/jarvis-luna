@@ -2,7 +2,7 @@
 title: "Record f70fe4988b · Transition-Metal-Modified-Zinc-Oxide-ZnO-Nanostructures-for-Photocatal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.597373+00:00
+updated_at: 2026-09-10T16:44:03.186537+00:00
 tags: [record, real-data]
 ---
 

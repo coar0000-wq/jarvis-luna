@@ -2,7 +2,7 @@
 title: "Record 3dd0bc98b4 · Building-Intuition-in-Amplifier-Design-Using-Load-Pull-Based-Multi-Obj"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.550334+00:00
+updated_at: 2026-09-10T16:44:03.139375+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 58b60f17a9 · JarvisGUI-Towards-Cross-Device-GUI-Agents-with-Dynamic-Task-Compositio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.470821+00:00
+updated_at: 2026-09-10T16:44:03.052827+00:00
 tags: [record, real-data]
 ---
 

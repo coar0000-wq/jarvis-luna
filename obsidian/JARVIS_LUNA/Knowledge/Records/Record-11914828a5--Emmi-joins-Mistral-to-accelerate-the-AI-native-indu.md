@@ -2,7 +2,7 @@
 title: "Record 11914828a5 · Emmi-joins-Mistral-to-accelerate-the-AI-native-industry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.678633+00:00
+updated_at: 2026-09-10T16:44:03.268162+00:00
 tags: [record, real-data]
 ---
 

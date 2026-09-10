@@ -2,7 +2,7 @@
 title: "Record 639eb2571f · 12-full-sized-best-of-korean-skincare-for-face-body-hair-with-63-disco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:27.145577+00:00
+updated_at: 2026-09-10T16:44:03.728042+00:00
 tags: [record, real-data]
 ---
 

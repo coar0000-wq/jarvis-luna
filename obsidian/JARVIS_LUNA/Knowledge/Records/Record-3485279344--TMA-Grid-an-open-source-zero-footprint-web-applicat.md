@@ -2,7 +2,7 @@
 title: "Record 3485279344 · TMA-Grid-an-open-source-zero-footprint-web-application-for-FAIR-tissue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.574206+00:00
+updated_at: 2026-09-10T16:44:03.163015+00:00
 tags: [record, real-data]
 ---
 

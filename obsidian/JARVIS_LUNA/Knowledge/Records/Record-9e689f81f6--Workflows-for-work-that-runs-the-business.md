@@ -2,7 +2,7 @@
 title: "Record 9e689f81f6 · Workflows-for-work-that-runs-the-business"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.685921+00:00
+updated_at: 2026-09-10T16:44:03.275037+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0f52b8834d · What-is-the-Bebot-beauty-trend-and-where-did-it-come-from---Philstar-L"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.768325+00:00
+updated_at: 2026-09-10T16:44:03.352879+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ab717e6f33 · SUNGBOON-EDITOR-Green-Tomato-Nmn-Pore-Minimizing-Ampoule-135-fl-oz40ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:27.002015+00:00
+updated_at: 2026-09-10T16:44:03.579206+00:00
 tags: [record, real-data]
 ---
 

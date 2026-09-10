@@ -2,7 +2,7 @@
 title: "Record a1d35b0f2e · This-TikTok-Beauty-Trend-Has-Made-People-Obsessed-With-A-Relentless-Pu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.820017+00:00
+updated_at: 2026-09-10T16:44:03.401725+00:00
 tags: [record, real-data]
 ---
 

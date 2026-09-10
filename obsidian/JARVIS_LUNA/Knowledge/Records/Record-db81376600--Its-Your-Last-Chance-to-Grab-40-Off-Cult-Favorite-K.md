@@ -2,7 +2,7 @@
 title: "Record db81376600 · Its-Your-Last-Chance-to-Grab-40-Off-Cult-Favorite-K-Beauty-Products---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.785175+00:00
+updated_at: 2026-09-10T16:44:03.368821+00:00
 tags: [record, real-data]
 ---
 

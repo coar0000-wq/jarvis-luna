@@ -2,7 +2,7 @@
 title: "Record 7be8c4badd · Extensive-Calcific-Chronic-Pancreatitis-Developing-Within-Three-Years-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.651458+00:00
+updated_at: 2026-09-10T16:44:03.240712+00:00
 tags: [record, real-data]
 ---
 

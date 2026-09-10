@@ -2,7 +2,7 @@
 title: "Record bcb7aef09a · TikToks-Beauty-Stacking-Trend-Has-People-Doing-Full-Makeup-Routines-Mi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.816064+00:00
+updated_at: 2026-09-10T16:44:03.398005+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihgFBVV95cUxPMDQ5bnVpZFFVSEI2MkhYcHlrZmc4dE9CdHVMdjJIeGo1QVBFX2drUUFFMlpUOW5DNW9fblpDX0NsM2U4ZHl6TjN1SkVGOFNicGJWTzZfbHJVOEVtSjkxSXZ6T18wQlB0aUYteWVFaXZLUVV2R2U1UndyclhvX2xwQTZWdzFTQQ?oc=5)
 
-**제목:** TikTok's "Beauty Stacking" Trend Has People Doing Full Makeup Routines Mid-Workout - Bustle
+**제목:** TikTok's "Beauty Stacking" Trend Has People Doing Full Makeup Routines Mid-Workout - bustle.com
 
-TikTok's "Beauty Stacking" Trend Has People Doing Full Makeup Routines Mid-Workout - Bustle
+TikTok's "Beauty Stacking" Trend Has People Doing Full Makeup Routines Mid-Workout - bustle.com
 
 **출처:** Source · Google Search
 

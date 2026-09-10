@@ -2,7 +2,7 @@
 title: "Record 53987ec6b8 · In-Network-Collective-Operations-Game-Changer-or-Challenge-for-AI-Work"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.554062+00:00
+updated_at: 2026-09-10T16:44:03.143092+00:00
 tags: [record, real-data]
 ---
 

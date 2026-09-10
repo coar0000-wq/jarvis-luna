@@ -2,7 +2,7 @@
 title: "Record 904c818152 · US-K-Beauty-Sales-Surge-48-Trend-Picks-Up-Speed---Briefs-Finance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.804387+00:00
+updated_at: 2026-09-10T16:44:03.386998+00:00
 tags: [record, real-data]
 ---
 

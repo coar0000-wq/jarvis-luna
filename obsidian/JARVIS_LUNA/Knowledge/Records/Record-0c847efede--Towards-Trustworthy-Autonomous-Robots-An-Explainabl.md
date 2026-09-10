@@ -2,7 +2,7 @@
 title: "Record 0c847efede · Towards-Trustworthy-Autonomous-Robots-An-Explainable-AI-Based-Decision"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.404055+00:00
+updated_at: 2026-09-10T16:44:02.981226+00:00
 tags: [record, real-data]
 ---
 

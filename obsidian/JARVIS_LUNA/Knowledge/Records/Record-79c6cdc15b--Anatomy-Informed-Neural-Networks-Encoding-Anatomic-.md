@@ -2,7 +2,7 @@
 title: "Record 79c6cdc15b · Anatomy-Informed-Neural-Networks-Encoding-Anatomic-Priors-in-Loss-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:27.171896+00:00
+updated_at: 2026-09-10T16:44:03.752818+00:00
 tags: [record, real-data]
 ---
 

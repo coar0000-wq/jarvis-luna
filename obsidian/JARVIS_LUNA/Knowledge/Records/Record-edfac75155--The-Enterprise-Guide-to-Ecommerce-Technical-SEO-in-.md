@@ -2,7 +2,7 @@
 title: "Record edfac75155 · The-Enterprise-Guide-to-Ecommerce-Technical-SEO-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.771958+00:00
+updated_at: 2026-09-10T16:44:03.356275+00:00
 tags: [record, real-data]
 ---
 

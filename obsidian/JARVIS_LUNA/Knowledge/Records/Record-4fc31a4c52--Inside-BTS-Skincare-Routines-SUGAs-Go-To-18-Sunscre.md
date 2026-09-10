@@ -2,7 +2,7 @@
 title: "Record 4fc31a4c52 · Inside-BTS-Skincare-Routines-SUGAs-Go-To-18-Sunscreen--More-K-Beauty-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.913500+00:00
+updated_at: 2026-09-10T16:44:03.489262+00:00
 tags: [record, real-data]
 ---
 

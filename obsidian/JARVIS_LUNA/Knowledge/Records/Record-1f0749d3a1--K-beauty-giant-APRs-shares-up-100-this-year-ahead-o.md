@@ -2,7 +2,7 @@
 title: "Record 1f0749d3a1 · K-beauty-giant-APRs-shares-up-100-this-year-ahead-of-US-Costco-launch-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.798427+00:00
+updated_at: 2026-09-10T16:44:03.381365+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC
 
 K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC
+K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

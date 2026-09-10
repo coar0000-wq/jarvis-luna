@@ -2,7 +2,7 @@
 title: "Record 88c48e99b1 · Walmart-has-Laneige-Estee-Lauder-more-skincare-up-to-63-off-during-Bea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.918807+00:00
+updated_at: 2026-09-10T16:44:03.494168+00:00
 tags: [record, real-data]
 ---
 

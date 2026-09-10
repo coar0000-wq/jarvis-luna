@@ -2,7 +2,7 @@
 title: "Record 8ca7eb51c5 · Filler-Fatigue-Caused-TikToks-Latest-Makeup-Trend---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.721928+00:00
+updated_at: 2026-09-10T16:44:03.308802+00:00
 tags: [record, real-data]
 ---
 

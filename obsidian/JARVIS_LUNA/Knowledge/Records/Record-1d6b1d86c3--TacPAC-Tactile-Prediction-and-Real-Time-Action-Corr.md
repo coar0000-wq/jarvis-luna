@@ -2,7 +2,7 @@
 title: "Record 1d6b1d86c3 · TacPAC-Tactile-Prediction-and-Real-Time-Action-Correction-in-World-Act"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.431399+00:00
+updated_at: 2026-09-10T16:44:03.009520+00:00
 tags: [record, real-data]
 ---
 

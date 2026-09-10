@@ -2,7 +2,7 @@
 title: "Record e20256f25c · Coupled-Control-and-Wireless-World-Models-for-Resilient-Remote-Robotic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.425063+00:00
+updated_at: 2026-09-10T16:44:03.002794+00:00
 tags: [record, real-data]
 ---
 

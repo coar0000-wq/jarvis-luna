@@ -2,7 +2,7 @@
 title: "Record cf40c439f2 · Amazons-Spring-Sale-Has-So-Many-Editor-Loved-K-Beauty-Deals---Harpers-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.896921+00:00
+updated_at: 2026-09-10T16:44:03.473622+00:00
 tags: [record, real-data]
 ---
 

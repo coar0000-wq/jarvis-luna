@@ -2,7 +2,7 @@
 title: "Record 4bde4a241c · 1-Masque-Anti-Rides-Bio-Cellulose"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:27.005379+00:00
+updated_at: 2026-09-10T16:44:03.582676+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 6b14e28b02 · Bebot-or-Kikay-Looking-into-tiktoks-latest-makeup-transition-trend---S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.874074+00:00
+updated_at: 2026-09-10T16:44:03.452328+00:00
 tags: [record, real-data]
 ---
 

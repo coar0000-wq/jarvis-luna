@@ -2,7 +2,7 @@
 title: "Record 541eeadc2a · K-Beauty-Experts-Say-These-Trends-Are-Replacing-the-10-Step-Routine---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.747215+00:00
+updated_at: 2026-09-10T16:44:03.332529+00:00
 tags: [record, real-data]
 ---
 

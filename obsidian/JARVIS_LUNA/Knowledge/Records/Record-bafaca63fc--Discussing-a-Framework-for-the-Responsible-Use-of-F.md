@@ -2,7 +2,7 @@
 title: "Record bafaca63fc · Discussing-a-Framework-for-the-Responsible-Use-of-Facial-Recognition-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.589995+00:00
+updated_at: 2026-09-10T16:44:03.178602+00:00
 tags: [record, real-data]
 ---
 

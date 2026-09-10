@@ -2,7 +2,7 @@
 title: "Record c8a8a8f5e3 · Davids-Bridal-adds-two-AI-platforms-as-shopping-channels---Digital-Com"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.873537+00:00
+updated_at: 2026-09-10T16:44:03.451809+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 6ad6a2589a · How-Google-Shopify-Partnership-Could-Spur-Agentic-Commerce-Boom---Inve"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:24:26.836005+00:00
+updated_at: 2026-09-10T16:44:03.416838+00:00
 tags: [record, real-data]
 ---
 
