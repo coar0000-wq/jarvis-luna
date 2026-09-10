@@ -12,3 +12,15 @@ __pycache__/
 
 deploy_result.json
 deploy_stdout.txt
+
+# 푸시용 임시 배치와 로그.
+# 셸에서 커밋을 못 만들 때 .bat 을 써서 실행 창으로 돌린다. 그 부산물이
+# 저장소 루트에 쌓여 git status 가 200줄씩 나왔다. 진짜 변경이 묻힌다.
+*.bat
+COMMIT_MSG.txt
+push*.txt
+push*.log
+*_log.txt
+_bak/
+_trash/
+
