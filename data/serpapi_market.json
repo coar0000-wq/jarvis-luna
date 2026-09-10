@@ -1,88 +1,74 @@
 {
-  "generated_at": "2026-09-07T22:28:04.055638+00:00",
+  "generated_at": "2026-09-10T22:13:25.885878+00:00",
   "generator": "scripts/collect_serpapi_market.py",
   "plan": "SerpApi free 250 searches/month, 50/hour (2026-09-05 확인)",
   "정책": "월 상한 200 회. 넘으면 호출하지 않고 사유만 남긴다. 주 1회만 실행한다.",
   "usage": {
     "month": "2026-09",
-    "used": 69,
+    "used": 82,
     "cap": 200,
-    "spent_this_run": 12
+    "spent_this_run": 8
   },
   "prices": {
-    "status": "ok",
-    "reason": "",
-    "count": 5,
-    "failures": [],
-    "items": [
+    "status": "failed",
+    "reason": "수집 0건",
+    "count": 0,
+    "failures": [
       {
         "pd_no": "1048583",
-        "name": "드롭비 탄탄 광채 앰플 40 ml",
         "query": "Drop B Firming Glow Ampoule 40ml",
-        "n": 20,
-        "min_usd": 6.25,
-        "median_usd": 18.03,
-        "max_usd": 69.99,
-        "engine": "google_shopping",
-        "cached": false
+        "reason": "TimeoutError: The read operation timed out"
       },
       {
         "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "query": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
-        "n": 20,
-        "min_usd": 2.89,
-        "median_usd": 20.2,
-        "max_usd": 51.0,
-        "engine": "google_shopping",
-        "cached": false
+        "reason": "TimeoutError: The read operation timed out"
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "query": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml",
-        "n": 15,
-        "min_usd": 6.34,
-        "median_usd": 19.93,
-        "max_usd": 42.91,
-        "engine": "google_shopping",
-        "cached": false
-      },
-      {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "query": "VT Cica Calming Toner 300 ml",
-        "n": 20,
-        "min_usd": 5.99,
-        "median_usd": 18.5,
-        "max_usd": 54.18,
-        "engine": "google_shopping",
-        "cached": false
+        "pd_no": "1041749",
+        "query": "식물원 병풀 클리어 앰플 30 ml",
+        "reason": "TimeoutError: The read operation timed out"
       },
       {
         "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "query": "Celderma Daily Transforming Firming Collagen Mask 28g",
-        "n": 20,
-        "min_usd": 2.99,
-        "median_usd": 13.0,
-        "max_usd": 39.0,
-        "engine": "google_shopping",
-        "cached": false
+        "reason": "TimeoutError: The read operation timed out"
+      },
+      {
+        "pd_no": "1049271",
+        "query": "VT Cica Calming Toner 300 ml",
+        "reason": "TimeoutError: The read operation timed out"
+      },
+      {
+        "pd_no": "1041403",
+        "query": "Chaebigonggan Heartleaf Extract Vegan Toner 150 ml",
+        "reason": "TimeoutError: The read operation timed out"
       }
-    ]
+    ],
+    "items": []
   },
   "trends": {
     "status": "ok",
     "reason": "",
-    "count": 7,
+    "count": 8,
     "failures": [],
     "items": [
+      {
+        "seed": "korean ampoule",
+        "points": 53,
+        "avg_recent_8w": 20.6,
+        "avg_base_8w": 12.9,
+        "peak": 100,
+        "engine": "google_trends",
+        "geo": "US",
+        "window": "today 12-m",
+        "cached": false
+      },
       {
         "seed": "collagen",
         "points": 53,
         "avg_recent_8w": 36.8,
-        "avg_base_8w": 29.4,
+        "avg_base_8w": 29.2,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -92,19 +78,8 @@
       {
         "seed": "korean toner",
         "points": 53,
-        "avg_recent_8w": 21.4,
+        "avg_recent_8w": 21.2,
         "avg_base_8w": 24.2,
-        "peak": 100,
-        "engine": "google_trends",
-        "geo": "US",
-        "window": "today 12-m",
-        "cached": false
-      },
-      {
-        "seed": "korean ampoule",
-        "points": 53,
-        "avg_recent_8w": 19.8,
-        "avg_base_8w": 13.6,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -114,8 +89,8 @@
       {
         "seed": "korean face cream",
         "points": 53,
-        "avg_recent_8w": 19.9,
-        "avg_base_8w": 15.6,
+        "avg_recent_8w": 20.0,
+        "avg_base_8w": 16.6,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -125,8 +100,8 @@
       {
         "seed": "pdrn",
         "points": 53,
-        "avg_recent_8w": 37.0,
-        "avg_base_8w": 9.5,
+        "avg_recent_8w": 36.2,
+        "avg_base_8w": 10.0,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -134,10 +109,10 @@
         "cached": false
       },
       {
-        "seed": "heartleaf",
+        "seed": "centella",
         "points": 53,
-        "avg_recent_8w": 13.6,
-        "avg_base_8w": 10.4,
+        "avg_recent_8w": 21.1,
+        "avg_base_8w": 14.8,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -147,8 +122,19 @@
       {
         "seed": "korean sheet mask",
         "points": 53,
-        "avg_recent_8w": 11.2,
-        "avg_base_8w": 12.0,
+        "avg_recent_8w": 5.8,
+        "avg_base_8w": 9.6,
+        "peak": 100,
+        "engine": "google_trends",
+        "geo": "US",
+        "window": "today 12-m",
+        "cached": false
+      },
+      {
+        "seed": "heartleaf",
+        "points": 53,
+        "avg_recent_8w": 13.9,
+        "avg_base_8w": 10.4,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
