@@ -2,7 +2,7 @@
 title: "Record 014 · Botnia-Gentle-Sun-SPF-30"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T02:54:23.229022+00:00
+updated_at: 2026-09-10T04:45:23.731078+00:00
 tags: [record, real-data]
 ---
 

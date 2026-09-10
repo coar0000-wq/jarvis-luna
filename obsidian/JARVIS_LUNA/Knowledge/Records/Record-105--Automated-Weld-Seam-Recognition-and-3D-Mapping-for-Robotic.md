@@ -2,7 +2,7 @@
 title: "Record 105 · Automated-Weld-Seam-Recognition-and-3D-Mapping-for-Robotic-Post-Proces"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T02:54:23.255236+00:00
+updated_at: 2026-09-10T04:45:23.754900+00:00
 tags: [record, real-data]
 ---
 

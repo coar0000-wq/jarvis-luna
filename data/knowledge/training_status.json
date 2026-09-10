@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-10T02:56:40.136091+00:00",
-  "real_records": 2885,
+  "updated_at": "2026-09-10T04:46:24.586379+00:00",
+  "real_records": 2912,
   "source_labels": {
     "ai-image": 91,
-    "ai-research": 2533,
+    "ai-research": 2560,
     "shopify-commerce-image": 261
   },
-  "corpus_sha256": "eade302e5dc401a2046cf019c211e7050d8c47393ffbfd3383d700d0f77beb5d",
+  "corpus_sha256": "d63e92f60392dcfc7a4683e61c4a64da09b9c8337cd23fedba00016078f75a6a",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,29 +14,17 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.8779896013864819,
+  "training_accuracy_on_corpus": 0.8791208791208791,
   "mean_gate_load": [
-    0.270736,
-    0.319248,
-    0.410016
+    0.27322,
+    0.320373,
+    0.406407
   ],
-  "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
-  "trained_corpus_sha256": "eade302e5dc401a2046cf019c211e7050d8c47393ffbfd3383d700d0f77beb5d",
+  "note": "This is a text knowledge-routing MoE, not an image foundation model.",
+  "trained_corpus_sha256": "d63e92f60392dcfc7a4683e61c4a64da09b9c8337cd23fedba00016078f75a6a",
   "tuning_promoted": true,
   "tuning_steps": 500,
-  "tuning_validation_accuracy": 0.8835489833641405,
-  "tuning_final_loss": 0.40489701562415004,
-  "tuning_gate_load_std": 0.17604190706947953,
-  "records_before": 2885,
-  "records_added": 0,
-  "source_status": {
-    "arxiv": "ok",
-    "robotics": "ok",
-    "institutions": "ok",
-    "youtube": "blocked_by_robots",
-    "google": "ok",
-    "us_beauty": "ok"
-  },
-  "corpus": "data/knowledge/training_corpus.jsonl",
-  "말뭉치": "변화 없음. 기존 가중치가 이 말뭉치 기준이라 학습 상태를 유지한다."
+  "tuning_validation_accuracy": 0.8839779005524862,
+  "tuning_final_loss": 0.4032589887616907,
+  "tuning_gate_load_std": 0.1683870431230275
 }

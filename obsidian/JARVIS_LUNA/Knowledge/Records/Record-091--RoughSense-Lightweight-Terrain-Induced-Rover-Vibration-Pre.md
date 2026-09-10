@@ -2,7 +2,7 @@
 title: "Record 091 · RoughSense-Lightweight-Terrain-Induced-Rover-Vibration-Prediction-Usin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T02:54:23.250570+00:00
+updated_at: 2026-09-10T04:45:23.750582+00:00
 tags: [record, real-data]
 ---
 

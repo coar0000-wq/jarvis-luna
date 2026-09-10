@@ -2,7 +2,7 @@
 title: "Record 222 · FIRE3D-Feed-forward-Interactive-3D-Scene-Reconstruction-Within-A-Minut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T02:54:23.292070+00:00
+updated_at: 2026-09-10T04:45:23.788940+00:00
 tags: [record, real-data]
 ---
 

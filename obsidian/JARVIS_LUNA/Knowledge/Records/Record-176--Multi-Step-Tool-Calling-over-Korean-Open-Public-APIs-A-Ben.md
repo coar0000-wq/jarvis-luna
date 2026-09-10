@@ -2,7 +2,7 @@
 title: "Record 176 · Multi-Step-Tool-Calling-over-Korean-Open-Public-APIs-A-Benchmark-and-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T02:54:23.277936+00:00
+updated_at: 2026-09-10T04:45:23.775609+00:00
 tags: [record, real-data]
 ---
 

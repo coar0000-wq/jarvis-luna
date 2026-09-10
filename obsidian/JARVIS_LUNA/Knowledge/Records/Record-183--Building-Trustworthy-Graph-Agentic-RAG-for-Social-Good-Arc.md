@@ -2,7 +2,7 @@
 title: "Record 183 · Building-Trustworthy-Graph-Agentic-RAG-for-Social-Good-Architectures-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T02:54:23.279900+00:00
+updated_at: 2026-09-10T04:45:23.777478+00:00
 tags: [record, real-data]
 ---
 
