@@ -2,7 +2,7 @@
 title: "Record e04a310d3f · Same-brand-different-SPF-Why-Korean-sunscreens-outperform-US-versions-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:10:00.016353+00:00
+updated_at: 2026-09-10T22:36:46.673583+00:00
 tags: [record, real-data]
 ---
 

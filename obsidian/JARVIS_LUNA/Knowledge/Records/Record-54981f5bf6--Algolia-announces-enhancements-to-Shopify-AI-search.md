@@ -2,7 +2,7 @@
 title: "Record 54981f5bf6 · Algolia-announces-enhancements-to-Shopify-AI-search-integration---Digi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.976351+00:00
+updated_at: 2026-09-10T22:36:46.635581+00:00
 tags: [record, real-data]
 ---
 

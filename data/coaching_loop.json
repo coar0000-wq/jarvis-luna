@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T04:24:24.236900+09:00",
+  "generated_at": "2026-09-11T07:39:54.667087+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -7,12 +7,12 @@
   "summary": {
     "ready_to_list": 0,
     "ready_with_notes": 5,
-    "fix_then_list": 1,
+    "fix_then_list": 2,
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-09-10T18:59:50.665319+00:00",
+      "collected_at": "2026-09-10T22:17:25.280926+00:00",
       "keyword_pool": 40
     }
   },
@@ -94,7 +94,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Centellian24 Madeca Cream Time Reverse D.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -206,7 +206,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cream Collagen Pdrn — Daiso Find — Affordable hydrating pick",
           "headline": "Cream Collagen Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Centellian24 Madeca Cream Time Reverse D.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -247,10 +247,125 @@
       }
     },
     {
+      "pd_no": "1055165",
+      "name": "본셉 레티놀 아이 크림 25 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 93,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055165",
+      "readiness": "fix_then_list",
+      "checklist": [
+        {
+          "id": "grade_s",
+          "label": "S등급 유지",
+          "status": "pass",
+          "evidence": "grade=S, score=93",
+          "tip": "S가 아니면 1차 등록 보류"
+        },
+        {
+          "id": "margin",
+          "label": "마진 확인",
+          "status": "warn",
+          "evidence": "pricing 미연결",
+          "tip": "pricing_model 재실행"
+        },
+        {
+          "id": "price_band",
+          "label": "권장가",
+          "status": "warn",
+          "evidence": "suggested_price 없음",
+          "tip": "pricing_model 확인"
+        },
+        {
+          "id": "listing_copy",
+          "label": "영문 리스팅 카피",
+          "status": "fail",
+          "evidence": "카피 미생성",
+          "tip": "shopify-listing-copy 워크플로 실행"
+        },
+        {
+          "id": "listing_ready_flag",
+          "label": "등록 준비 플래그",
+          "status": "warn",
+          "evidence": "listing_ready=False",
+          "tip": "카피·이미지 준비되면 true"
+        },
+        {
+          "id": "global_signal",
+          "label": "글로벌 수요 시그널",
+          "status": "pass",
+          "evidence": "글로벌 'Anua Collagen Retinol Guasha Cream 2.70 fl.oz.(80ml)' (oliveyoung_us) 유사 88% · 토큰 cream, retinol",
+          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
+        },
+        {
+          "id": "social_proof",
+          "label": "국내 리뷰(대리지표)",
+          "status": "pass",
+          "evidence": "review_count=3012",
+          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
+        },
+        {
+          "id": "reddit_community",
+          "label": "Reddit 뷰티 커뮤니티 키워드",
+          "status": "pass",
+          "evidence": "matched=['beauty', 'k-moisturizers', 'skin']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        }
+      ],
+      "ad_copy_ab": {
+        "variant_a": {
+          "label": "A · 성분/커뮤니티 후킹",
+          "primary_text": "Cream — Daiso Find — beauty · K-beauty",
+          "headline": "Cream — Daiso Find",
+          "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
+          "cta": "Shop now"
+        },
+        "variant_b": {
+          "label": "B · 가성비/가격 후킹",
+          "primary_text": "Cream — Daiso Find — Affordable hydrating pick",
+          "headline": "Cream — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Centellian24 Madeca Cream Time Reverse D.",
+          "cta": "See price"
+        },
+        "suggested_keywords": [
+          "cream",
+          "K-beauty",
+          "glass skin",
+          "hydrating",
+          "beauty",
+          "k-moisturizers",
+          "skin"
+        ],
+        "reddit_keywords_used": [
+          "beauty",
+          "k-moisturizers",
+          "skin"
+        ],
+        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
+        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
+      },
+      "reddit_match": {
+        "matched": [
+          "beauty",
+          "k-moisturizers",
+          "skin"
+        ],
+        "score": 3,
+        "status": "pass",
+        "evidence": "matched=['beauty', 'k-moisturizers', 'skin']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+      },
+      "coach_summary": {
+        "pass": 4,
+        "warn": 3,
+        "fail": 1,
+        "next_action": "실패 항목 수정"
+      }
+    },
+    {
       "pd_no": "1041749",
       "name": "식물원 병풀 클리어 앰플 30 ml",
       "bucket": "스킨케어",
-      "shopify_score": 92,
+      "shopify_score": 91,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
       "readiness": "fix_then_list",
       "checklist": [
@@ -258,7 +373,7 @@
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=92",
+          "evidence": "grade=S, score=91",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -323,7 +438,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule Centella — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule Centella — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Centellian24 Madeca Cream Time Reverse D.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -549,7 +664,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Toner — Daiso Find — Affordable hydrating pick",
           "headline": "Toner — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Centellian24 Madeca Cream Time Reverse D.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -664,7 +779,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Toner Heartleaf — Daiso Find — Affordable hydrating pick",
           "headline": "Toner Heartleaf — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Centellian24 Madeca Cream Time Reverse D.",
           "cta": "See price"
         },
         "suggested_keywords": [

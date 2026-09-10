@@ -2,7 +2,7 @@
 title: "Record ce9586eecd · Video-Friday-Digit-Redecorates"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:10:00.140964+00:00
+updated_at: 2026-09-10T22:36:46.752782+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Video Friday: Digit Redecorates
 
 Video Friday: Digit Redecorates
-<img src="https://spectrum.ieee.org/media-library/humanoid-robot-tidies-an-orange-couch-while-a-person-watches-in-a-modern-living-room.gif?id=67725697&width=1245&height=700&coordinates=0%2C0%2C0%2C0"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcom
+<img src="https://spectrum.ieee.org/media-library/humanoid-robot-tidies-an-orange-couch-while-a-person-watches-in-a-modern-living-room.gif?id=67725697&width=2000&height=1500&coordinates=100%2C0%2C100%2C0"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of
 
 **출처:** Source · robotics
 

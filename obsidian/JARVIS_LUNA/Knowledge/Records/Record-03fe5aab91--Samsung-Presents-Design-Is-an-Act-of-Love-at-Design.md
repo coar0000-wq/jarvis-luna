@@ -2,7 +2,7 @@
 title: "Record 03fe5aab91 · Samsung-Presents-Design-Is-an-Act-of-Love-at-Design-Miami-Seoul-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:10:00.045554+00:00
+updated_at: 2026-09-10T22:36:46.692006+00:00
 tags: [record, real-data]
 ---
 

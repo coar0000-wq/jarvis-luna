@@ -2,7 +2,7 @@
 title: "Record 5b628cf00f · CMB-Net-A-Clinically-Modulated-Boundary-Aware-Network-for-Anatomical-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.606026+00:00
+updated_at: 2026-09-10T22:36:46.277615+00:00
 tags: [record, real-data]
 ---
 

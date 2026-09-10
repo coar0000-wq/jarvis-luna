@@ -2,7 +2,7 @@
 title: "Record 69beab34bd · Mike-Joo-And-Adeel-Khan-Appointed-Co-Ceos-Of-Barclays-Investment0"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.745064+00:00
+updated_at: 2026-09-10T22:36:46.429798+00:00
 tags: [record, real-data]
 ---
 

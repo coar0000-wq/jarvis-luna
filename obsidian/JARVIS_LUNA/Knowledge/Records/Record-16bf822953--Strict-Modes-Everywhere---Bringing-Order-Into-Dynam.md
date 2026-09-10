@@ -2,7 +2,7 @@
 title: "Record 16bf822953 · Strict-Modes-Everywhere---Bringing-Order-Into-Dynamics-of-Mechanical-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.539697+00:00
+updated_at: 2026-09-10T22:36:46.208672+00:00
 tags: [record, real-data]
 ---
 

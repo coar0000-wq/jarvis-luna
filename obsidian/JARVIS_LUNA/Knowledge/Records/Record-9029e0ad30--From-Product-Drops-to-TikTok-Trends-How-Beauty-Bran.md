@@ -2,7 +2,7 @@
 title: "Record 9029e0ad30 · From-Product-Drops-to-TikTok-Trends-How-Beauty-Brands-Scale-with-Lemon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.895789+00:00
+updated_at: 2026-09-10T22:36:46.576211+00:00
 tags: [record, real-data]
 ---
 

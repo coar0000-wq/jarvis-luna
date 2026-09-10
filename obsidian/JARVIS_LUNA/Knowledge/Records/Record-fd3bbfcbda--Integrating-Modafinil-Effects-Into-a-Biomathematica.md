@@ -2,7 +2,7 @@
 title: "Record fd3bbfcbda · Integrating-Modafinil-Effects-Into-a-Biomathematical-Model-of-Fatigue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.671283+00:00
+updated_at: 2026-09-10T22:36:46.350114+00:00
 tags: [record, real-data]
 ---
 

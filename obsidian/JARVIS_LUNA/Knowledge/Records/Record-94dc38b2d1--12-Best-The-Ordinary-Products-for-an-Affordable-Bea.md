@@ -2,7 +2,7 @@
 title: "Record 94dc38b2d1 · 12-Best-The-Ordinary-Products-for-an-Affordable-Beauty-Routine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:10:00.169628+00:00
+updated_at: 2026-09-10T22:36:46.778318+00:00
 tags: [record, real-data]
 ---
 

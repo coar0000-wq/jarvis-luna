@@ -1,18 +1,18 @@
 ---
-title: "Record b936746e0e · Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---shopifycom"
+title: "Record b936746e0e · Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.863603+00:00
+updated_at: 2026-09-10T22:36:46.534685+00:00
 tags: [record, real-data]
 ---
 
-# Record b936746e0e · Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---shopifycom
+# Record b936746e0e · Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---Shopify
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMicEFVX3lxTE5WM1lfaXJ0Wkg0SEtjZzVBbTZDM3NSMUNiczVqaWNkSDBSSy1sX3pJODJ1UlRBRVcxNUJTejVFSWgyRDJndnRZOXM5NVZQdGE1dmNHMVdCMU0zeEpOdDZDRkdvVWlIRGNfN09Na3JXcEc?oc=5)
 
-**제목:** Generative AI Use Cases: 20 Ecommerce Examples (2026) - shopify.com
+**제목:** Generative AI Use Cases: 20 Ecommerce Examples (2026) - Shopify
 
-Generative AI Use Cases: 20 Ecommerce Examples (2026) - shopify.com
+Generative AI Use Cases: 20 Ecommerce Examples (2026) - Shopify
 
 **출처:** Source · Google Search
 

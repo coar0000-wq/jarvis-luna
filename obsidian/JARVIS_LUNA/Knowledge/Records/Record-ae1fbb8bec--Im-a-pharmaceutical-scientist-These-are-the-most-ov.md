@@ -2,7 +2,7 @@
 title: "Record ae1fbb8bec · Im-a-pharmaceutical-scientist-These-are-the-most-overhyped-skincare-tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.848247+00:00
+updated_at: 2026-09-10T22:36:46.521210+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibEFVX3lxTE44ajctZjNBYnZBbjNudndjbUFIRlQ0R3VYZjNCSlA5QnQ3WVpsZFhhRzdrUUk4QlVxYWtpX3d5X2VySlVaSzdSc0l1cUJPYXk5czNOR3MyUUlyNjduRWZNQ1FvYXYxUXQ3di1hNw?oc=5)
 
-**제목:** 'I'm a pharmaceutical scientist. These are the most overhyped skincare "trends" right now.' - Mamamia
+**제목:** 'I'm a pharmaceutical scientist. These are the most overhyped skincare "trends" right now.' - mamamia.com.au
 
-'I'm a pharmaceutical scientist. These are the most overhyped skincare "trends" right now.' - Mamamia
+'I'm a pharmaceutical scientist. These are the most overhyped skincare "trends" right now.' - mamamia.com.au
 
 **출처:** Source · Google Search
 

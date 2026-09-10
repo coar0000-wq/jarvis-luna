@@ -2,7 +2,7 @@
 title: "Record 7427406ead · Buy-it-in-ChatGPT-Instant-Checkout-and-the-Agentic-Commerce-Protocol--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.801570+00:00
+updated_at: 2026-09-10T22:36:46.476309+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCZC1fZHFfMXFaZm5EV2x0WEJ2U0tkV2tndWprV0VHQVUtZzZEcjN6amdRWXk4c3pxZ2U3bVdDLXhDWkNrb2FYeGg2dnRlTlR6TFJrcGN3?oc=5)
 
-**제목:** Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol - OpenAI
+**제목:** Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol - openai.com
 
-Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol - OpenAI
+Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol - openai.com
 
 **출처:** Source · Google Search
 

@@ -1,18 +1,18 @@
 ---
-title: "Record a8bf224e18 · TikTok-no-makeup-movement-trend-rises-in-popularity---News-Channel-6--"
+title: "Record a8bf224e18 · TikTok-no-makeup-movement-trend-rises-in-popularity---newschannel6nowc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.951521+00:00
+updated_at: 2026-09-10T22:36:46.621179+00:00
 tags: [record, real-data]
 ---
 
-# Record a8bf224e18 · TikTok-no-makeup-movement-trend-rises-in-popularity---News-Channel-6--
+# Record a8bf224e18 · TikTok-no-makeup-movement-trend-rises-in-popularity---newschannel6nowc
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilwFBVV95cUxOdnlscm0zWkRUSjZiVVhpaDVEMVR1ZTFrNTFtQ041bndYT0trd3dHcDZpM2EtdmpDWThKaWZTRmc5cnVQZkJqVkIyTllXX3RqdEFiRHFfY09pMFVFaUJyWFNmNWh6c2NwU2I4RXI5UEpfMldCeHhnQ3FrM2ZLdXJYd3ZRSlpoZ3gxT3RJaGJiRDNTZjlWMHdr?oc=5)
 
-**제목:** TikTok ‘no-makeup movement’ trend rises in popularity - News Channel 6 | Wichita Falls, TX
+**제목:** TikTok ‘no-makeup movement’ trend rises in popularity - newschannel6now.com
 
-TikTok ‘no-makeup movement’ trend rises in popularity - News Channel 6 | Wichita Falls, TX
+TikTok ‘no-makeup movement’ trend rises in popularity - newschannel6now.com
 
 **출처:** Source · Google Search
 

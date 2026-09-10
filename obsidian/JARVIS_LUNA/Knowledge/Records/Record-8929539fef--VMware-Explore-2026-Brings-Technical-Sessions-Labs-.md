@@ -2,7 +2,7 @@
 title: "Record 8929539fef · VMware-Explore-2026-Brings-Technical-Sessions-Labs-and-Certs-to-IT-Pra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.759385+00:00
+updated_at: 2026-09-10T22:36:46.438612+00:00
 tags: [record, real-data]
 ---
 

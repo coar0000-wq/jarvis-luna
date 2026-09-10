@@ -2,7 +2,7 @@
 title: "Record 2410839d3a · Robot-Recycler-Salvages-Parts-From-Broken-Machines"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:10:00.140347+00:00
+updated_at: 2026-09-10T22:36:46.751553+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Robot Recycler Salvages Parts From Broken Machines
 
 Robot Recycler Salvages Parts From Broken Machines
-<img src="https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&width=1245&height=700&coordinates=0%2C156%2C0%2C157"/><br/><br/><p>Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacture
+<img src="https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&width=2000&height=1500&coordinates=416%2C0%2C417%2C0"/><br/><br/><p>Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufactur
 
 **출처:** Source · robotics
 

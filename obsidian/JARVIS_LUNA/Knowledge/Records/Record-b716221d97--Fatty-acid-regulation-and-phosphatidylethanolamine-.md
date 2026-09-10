@@ -2,7 +2,7 @@
 title: "Record b716221d97 · Fatty-acid-regulation-and-phosphatidylethanolamine-biosynthesis-are-im"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.640319+00:00
+updated_at: 2026-09-10T22:36:46.315146+00:00
 tags: [record, real-data]
 ---
 

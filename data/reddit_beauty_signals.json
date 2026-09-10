@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-10T18:59:50.665319+00:00",
+  "collected_at": "2026-09-10T22:17:25.280926+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -45,6 +45,10 @@
   "hot_keywords": [
     {
       "keyword": "2026",
+      "score": 5
+    },
+    {
+      "keyword": "september",
       "score": 4
     },
     {
@@ -64,10 +68,6 @@
       "score": 4
     },
     {
-      "keyword": "september",
-      "score": 3
-    },
-    {
       "keyword": "products",
       "score": 3
     },
@@ -84,6 +84,10 @@
       "score": 2
     },
     {
+      "keyword": "thursday",
+      "score": 2
+    },
+    {
       "keyword": "balm",
       "score": 2
     },
@@ -96,19 +100,27 @@
       "score": 2
     },
     {
-      "keyword": "watery",
-      "score": 2
-    },
-    {
       "keyword": "skin",
       "score": 2
     },
     {
-      "keyword": "over",
+      "keyword": "thoughts",
       "score": 2
     },
     {
-      "keyword": "thoughts",
+      "keyword": "anything",
+      "score": 2
+    },
+    {
+      "keyword": "goes",
+      "score": 2
+    },
+    {
+      "keyword": "serum",
+      "score": 2
+    },
+    {
+      "keyword": "over",
       "score": 2
     },
     {
@@ -136,10 +148,6 @@
       "score": 2
     },
     {
-      "keyword": "essence",
-      "score": 2
-    },
-    {
       "keyword": "question",
       "score": 1
     },
@@ -161,10 +169,6 @@
     },
     {
       "keyword": "authenticity",
-      "score": 1
-    },
-    {
-      "keyword": "thursday",
       "score": 1
     },
     {
@@ -198,10 +202,6 @@
     {
       "keyword": "limited",
       "score": 1
-    },
-    {
-      "keyword": "romand",
-      "score": 1
     }
   ],
   "beauty_keywords": [
@@ -226,15 +226,15 @@
       "score": 2
     },
     {
+      "keyword": "serum",
+      "score": 2
+    },
+    {
       "keyword": "routine",
       "score": 2
     },
     {
       "keyword": "k-moisturizers",
-      "score": 2
-    },
-    {
-      "keyword": "essence",
       "score": 2
     }
   ],
@@ -289,9 +289,30 @@
       "feed": "hot"
     },
     {
+      "title": "Thoughts on amuse dew power vegan cushion",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wciksw/thoughts_on_amuse_dew_power_vegan_cushion/",
+      "published": "2026-09-10T13:01:31+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Fwee all day black cushion",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcf1hy/fwee_all_day_black_cushion/",
       "published": "2026-09-10T10:14:35+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Anything Goes Thursday: September 10, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcv53u/anything_goes_thursday_september_10_2026/",
+      "published": "2026-09-10T20:39:09+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Decorté Liposome Advanced Serum batch code",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcu8xw/decorté_liposome_advanced_serum_batch_code/",
+      "published": "2026-09-10T20:06:18+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -306,13 +327,6 @@
       "title": "What is the product(s) you have repurchased over and over again",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbshx8/what_is_the_products_you_have_repurchased_over/",
       "published": "2026-09-09T17:40:55+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Thoughts on amuse dew power vegan cushion",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wciksw/thoughts_on_amuse_dew_power_vegan_cushion/",
-      "published": "2026-09-10T13:01:31+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -345,6 +359,13 @@
       "feed": "hot"
     },
     {
+      "title": "Have you guys tried these two duo lip products Laka Perfect Twin Lip vs. Etude Duo Fixing Tint? What are your honest thoughts?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wc5spr/have_you_guys_tried_these_two_duo_lip_products/",
+      "published": "2026-09-10T02:11:10+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Easyderm beauty patch",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcimzh/easyderm_beauty_patch/",
       "published": "2026-09-10T13:03:55+00:00",
@@ -355,13 +376,6 @@
       "title": "[Review] Dear Klairs Blue EGF Intensive Pro Cream",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbp0oz/review_dear_klairs_blue_egf_intensive_pro_cream/",
       "published": "2026-09-09T15:36:51+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Have you guys tried these two duo lip products Laka Perfect Twin Lip vs. Etude Duo Fixing Tint? What are your honest thoughts?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wc5spr/have_you_guys_tried_these_two_duo_lip_products/",
-      "published": "2026-09-10T02:11:10+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -397,20 +411,6 @@
       "title": "Does JudyDoll sell singles from their 6 lip and cheek pallet? This is the Chestnut one.",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wb4qay/does_judydoll_sell_singles_from_their_6_lip_and/",
       "published": "2026-09-08T23:25:59+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Wosado lashes are a gimmick — don’t waste your money.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1waq3r2/wosado_lashes_are_a_gimmick_dont_waste_your_money/",
-      "published": "2026-09-08T14:33:53+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Biore, rich, watery essence & My meltdown.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wb9fp9/biore_rich_watery_essence_my_meltdown/",
-      "published": "2026-09-09T02:53:26+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

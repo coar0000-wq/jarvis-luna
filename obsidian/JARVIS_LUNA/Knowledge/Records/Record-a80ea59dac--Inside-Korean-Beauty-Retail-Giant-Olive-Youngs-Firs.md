@@ -2,7 +2,7 @@
 title: "Record a80ea59dac · Inside-Korean-Beauty-Retail-Giant-Olive-Youngs-First-US-Store---fashio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.954379+00:00
+updated_at: 2026-09-10T22:36:46.625459+00:00
 tags: [record, real-data]
 ---
 

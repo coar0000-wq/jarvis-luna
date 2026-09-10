@@ -2,7 +2,7 @@
 title: "Record 936483bcd8 · Gen-Z-leading-social-media-for-beauty-inspiration-in-the-US-and-UK-202"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:10:00.013007+00:00
+updated_at: 2026-09-10T22:36:46.668052+00:00
 tags: [record, real-data]
 ---
 

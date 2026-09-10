@@ -2,7 +2,7 @@
 title: "Record a099ee3d9d · Executing-On-A-100-Year-Vision-Jpmorgan-And-Pluspetrol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:10:00.242862+00:00
+updated_at: 2026-09-10T22:36:46.832773+00:00
 tags: [record, real-data]
 ---
 

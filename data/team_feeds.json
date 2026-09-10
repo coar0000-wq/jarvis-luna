@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-10T18:58:13.743623+00:00",
+  "generated_at": "2026-09-10T22:16:47.018764+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
   "pool_size": 2082,
   "제목없어_버림": 38,
-  "unrouted": 11,
+  "unrouted": 10,
   "summary": {
     "sourcing": {
       "total": 216,
       "recent": 215
     },
     "market": {
-      "total": 453,
-      "recent": 49
+      "total": 457,
+      "recent": 52
     },
     "listing": {
       "total": 14,
@@ -21,23 +21,23 @@
     },
     "pricing": {
       "total": 14,
-      "recent": 5
+      "recent": 6
     },
     "legal": {
       "total": 115,
       "recent": 18
     },
     "design": {
-      "total": 350,
-      "recent": 95
+      "total": 349,
+      "recent": 96
     },
     "robotics": {
       "total": 105,
       "recent": 72
     },
     "knowledge": {
-      "total": 157,
-      "recent": 54
+      "total": 162,
+      "recent": 58
     },
     "institutions": {
       "total": 1065,
@@ -594,8 +594,15 @@
         "by_hand": false
       },
       {
-        "title": "Korean Beauty giant TONYMOLY is expanding its Australian footprint into 1,600 stores nationwide - 7NEWS",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNWwxTHE4SlpGN21NSmhwTHBMRlJuUmtUcjg5UUNPTVFCR21IbjdONWRSVUM0Yk1jUTlkc1dNa2s3YWJRX2hsc0FtWF9pY0N2N0lOcEhZOFBjajVCSkVXaUhUb1BXYlFVLWYwMjhOaGJ1aGdBSDJVdVgtdnl2X0hYZGw0RWxHSDc2TjlKLXlYaUNybTF5Vy12TTNzd2ZURmFNUEJCU1JTel9kWUlDcTI0LXZDazN2MHhQTjhOS3hPLUVrZHFSaGtYc2tnZWZRTDJhczFGU9IB2gFBVV95cUxPUVBHX21LaWFhUk5SX0FnWVpjeVlLTmNXWU55NHY1YjV3UlJxNG5EQ0ViaEJMdG5ja1JMODN4TGhxWkFGSTQ2bWJBOU5sYV9XQmU1Q2dIdUdoYmhZMnJ3OWtsQ0djcGRpOENWbWpMb3N0SF8zMEFUWmNpQmxRVWR4M2VKeWkzelF3VE1LamE5bDJDWXpUZ0RacTZRTFRTMmVjeExXODU0ZHNxQ256bmlHQjVHQ21NUGhDem1pb0ZIa0JtTDZYaW9teGphRktiaG4tX0pLc1c0d0xKUQ?oc=5",
+        "title": "The K-Beauty ingredient dethroning hyaluronic acid in 2026: meet PDRN - Paris Select Book",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPakItUi1WWm9Bd0NSOV9sUTNVZTNCSW4xWTA1RnV6M2l5a0VKT1NWUVppdk9sM1h3SVFieTFfTVpqdGJCMkZXd1pJbFBCRFFrdlV5YTNQNXQ0TGFjTFJrdDZUeURNZ2NWZ21sNWZfbTN2WnB1bldHTTdaVG1GVFVlRG5R?oc=5",
+        "pool": "google",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "My beauty routine started to overwhelm me so I replaced it with these two viral K-beauty products - Grazia Daily UK",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVzduZ092dl81cFdySU9Md2pxY0w4Z2FRTlpuOGxudFY3UWVLcWV6UU1qb0VBLXotb0h5bUYtTFNFMWMyYkZNeDhaRVUyQk4teUJpZkMtWHU5VVd4d0JyVXhUelcxVWR4WkVaRTFIZE90RE5JWXh0S1VEbk1FbGtoZFR6b1kzQQ?oc=5",
         "pool": "google",
         "date": "2026-09-10",
         "by_hand": false
@@ -643,14 +650,7 @@
         "by_hand": false
       },
       {
-        "title": "Alberta uses Claude to find and fix security vulnerabilities",
-        "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - kedglobal.com",
+        "title": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3ZU9yYWdlM1JUZGlkem45TFVrY1Z1ZzVCZEJ2V29RX3FaZ043TG9PamFJdjBHUWxWOG1IbzktajdOZzRKLUxkZF8xaHJ4R2NMaDNDQy0yOGItRHVobEd2bk9IVmh1S2FSM0g0cEtRY0xFTFpWQUE?oc=5",
         "pool": "google",
         "date": "2026-09-09",
@@ -699,6 +699,13 @@
         "by_hand": false
       },
       {
+        "title": "We Tested Dozens of the Best Korean Skincare Products—These 17 Gave Us Radiant Skin - byrdie.com",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sc1dUR0l3QkxvbDVjMnk4bzBxd0RKMW13ZVFBZlRLQmFwM3gtdjR1Sk5vZkp3c2xFNUc5Tm9ycThJWGc3TnVZekNOWHNYVHppZEhWWkZ6NjFwQzlZakk2VERaNzlNRVVxaGk1a0ZUWQ?oc=5",
+        "pool": "google",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
         "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
         "pool": "google",
@@ -706,7 +713,7 @@
         "by_hand": false
       },
       {
-        "title": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - Yahoo",
+        "title": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - shopping.yahoo.com",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWDhHZXdJUDRjOTRTZ01GNmc0UTdpSFB5QVdTVWxTM25ERVBfX0FKOEpjVXh4OERnU3NtMWJSOUpnSFA1Qkh0THI3MTFscmQtLS00U3c2SGxTN0FkdjdWYWhOMGFiX0RuSG1mQnVOd29wRXRUemRpM09NX1VOZlNxWTlqcWVMSXJzS3cxWDc3Yw?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -722,6 +729,13 @@
       {
         "title": "mixsoon Joins Target Beauty Studio, Bringing pure ingredients skincare philosophy to Target Guests Nationwide - PR Newswire",
         "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcVVwbEh2aWc5U0p4MU0xQmgzTUJNY1dYd3AyQ3F6TEtCR3d4Y2d3Yk5DWm90YnYtaVRmUDNSeEw2b25ySFFiejJMWm4zODJBTDNWU2tpamFHX25kRWRSOTBNSFp0VWFRLUMzdnZIdzRldXo0NVNRNEdOZE5QelpJcTUyemdQaE5XR083YUwxVDNKR3VvSm85ZFg1WEswaTRyeldXVUpLTG5iVlNvUUVmdWVPZkVnNnB3TlZScm5lb29aZThpOXJEQTZqNjZ1Z0xBMGVjVXBDUXM1Q0RhNzd0M19XeFhnZDl4SVFjRmUyTUFhZUoyc0c4?oc=5",
+        "pool": "google",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - celebsecrets.com",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWlTTVg4ZkQ1N1Rfemtmamx1WXdDemF4b1JIaUIxWVdJeUJKQlh5QjRCbXFmTWxnT3JMWlh0TmwwaVpfVnZNR1B1N0prR0p6dlhJTHhVQU9fN3VNdDlDZHN3dWswdTcydjVvMmo2RXVrN09vcUgweHotU0dQZjFIb2V3?oc=5",
         "pool": "google",
         "date": "2026-09-08",
         "by_hand": false
@@ -748,7 +762,7 @@
         "by_hand": false
       },
       {
-        "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - Shopify",
+        "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - shopify.com",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1NSTR6RXEtWU80RVVGR2xRNGc4OGYyR0pzUzR1OXV4Y2pnVERwTFBjZHQzenF6WEtaSV9mUzNwcFZJNnVpYkUzLU5nN0Z2WFpzY1FmR0hRYw?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -804,7 +818,7 @@
         "by_hand": false
       },
       {
-        "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - Yahoo",
+        "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - shopping.yahoo.com",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUTUzUEwwYzIteVlTcng5Zl9GT3hfTElLcWRGTGVXN09lT01icWhVamUwS1BlREI0YmJCTmdDaW9iRVlKQ0hVOGZ2TTFHY2RhdTFaS3UwelgtT3gxeXY3RnBrTE9RTXRySjFDa3BFWVdMSXo4bTRhdFA2QjB4T2EzNUZuRlBUVFJqQjhtS3RLTko5WGJBbmJseEh3?oc=5",
         "pool": "google",
         "date": "2026-09-02",
@@ -815,6 +829,13 @@
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQnNfUW9Pdjhhc2ZBejlUV0lWYmZXRW9KeWxSbjJWLWltODYyQnZGTkpzRE9QOVNUamxuTzFSc1VhcktzWGhSVU5xRnI3QlBTS1c1a0lzTHdEUklzYUw0RDdzNFE0X2FUS3VoX1dWSkRuUDQ2Z0NabkJheVZRUXJOSXhsR0hOajNmYTQ4TUtLUHNWSzlTZTRuYlpmc0FtWXAy?oc=5",
         "pool": "google",
         "date": "2026-09-02",
+        "by_hand": false
+      },
+      {
+        "title": "Why Korean Beauty Products Are Appearing in More Mainstream U.S. Stores Than Ever Before - Us Weekly",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObk9pR1JvZ1I2Q0tPQXVvUHRGU1djM3laSGlMNUc0eldHLVRlYjgwS0dFdllib2l5bFNPWU95Yk56eW0tMDFpZ3hiYVF4RFZnZWlQUUhpZ09mTjFEeVkzaEkzcEZJTVcyYURGQnNtTTZzU1otNWMyOTJHUjVjVlRsSzJMLUt2UG5xXzBpcjB4TTJlUm8waFFwVVNCaGwwU1pnbW5oWkp0WWhRaG9a?oc=5",
+        "pool": "google",
+        "date": "2026-09-01",
         "by_hand": false
       },
       {
@@ -870,27 +891,6 @@
         "title": "Transition-Metal Modified Zinc Oxide (ZnO) Nanostructures for Photocatalysis Application — A Comparative Review of Metal Doping and Metal-oxide Conjugation",
         "url": "https://doi.org/10.26434/chemrxiv.15007951/v1",
         "pool": "institutions",
-        "date": "2026-08-27",
-        "by_hand": false
-      },
-      {
-        "title": "K-beauty’s fastest-growing products are quietly crossing over from cult status to household names - Sacramento Bee",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aWFdHVGswUVFLUzNOYnhaRzV4RXpLSE4yUU5IcHJVa2lieDYtRjBxNkZma1NUSG9hQS1QT3ZJcHVxekFETnhNUzloR3g5UkxEQWx5QVJxY1V5emtySDRYZzNnTUl3RWVCX29nazdaRUlMYWPSAXNBVV95cUxNdjl6SVNhV25mQjFJeUZITi0tLXlnMlFPcWc0a3lxNGU2cGdldm5GRzF2Yk1HY2VrQUhsVF9zemRaeVJvUkZzSDJxQnd4cXlDWTlGSEVYM3VYUEJ5aFMweWtBREtQb3NVTUVJRmxSMTlJQXBN?oc=5",
-        "pool": "google",
-        "date": "2026-08-27",
-        "by_hand": false
-      },
-      {
-        "title": "Meet the K-beauty products that beauty lovers consistently rank as their absolute skincare favorites - Fort Worth Star-Telegram",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3Y2ZRR0YyT1RTSXFnT2R1M2R4RGdBMzdXSEFGcDg3V2dKX3dnS3dOdXNNUXZzakhkSDFsZllvTXlsOXVQdWROSEFNUDdpYlA1SDc4RmFaVWFLVzgzUGtXMnkyYUxEWEV5a0NqNE90cENyMTJ4dVFLSWlKRGjSAXxBVV95cUxPcUJTSmtsZDhHR0FvUlNpVDl1bkZPcHJiaFJIN0xCNnRCaWZLUGZIWVpzY2llSVdkQnhPMzA5Yk1tWGtJN3k1LW14dkF4NTExeFk2T0JuMVQ3ZWVEbjl5NklwMTd1cVZoenBJUmJVVWFnbTZQSzc3VFY1Vm9S?oc=5",
-        "pool": "google",
-        "date": "2026-08-27",
-        "by_hand": false
-      },
-      {
-        "title": "Meet the K-beauty products that made a quiet leap from cult circles into mainstream beauty routines - Miami Herald",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UZ3FrNEloVEN5aHJ0QVZJeFB4b25XVlFUSUo0NjdGbjUtN3d4WW1lNEJzS2R6Y0pUR1FTb3Zac2pYRWRIZ2E4cTIzREpTamdxVU5hOE10TTRIcXRFV2w0aXpaQTVqUFXSAWdBVV95cUxOaTJETFNXR0V6TUt1RDV3M1VvYnBSdVZqOUpNNUx5ZEdhTXdsU0w1dWZieDdjblM2TzhfbjV2cDFiZFdvQk92VENwaDJ6RVpUZGtTUTJBUG5acTAyckVucFZDazh4d2xv?oc=5",
-        "pool": "google",
         "date": "2026-08-27",
         "by_hand": false
       }
@@ -1018,22 +1018,15 @@
         "by_hand": true
       },
       {
+        "title": "Introducing Claude Opus 4.5",
+        "url": "https://www.anthropic.com/news/claude-opus-4-5",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
         "title": "Current Events   Us Tariffs",
         "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Trump Tariff Delay Ongoing Outlook Uncertainty",
-        "url": "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Global Tariffs",
-        "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
@@ -1046,17 +1039,24 @@
         "by_hand": false
       },
       {
+        "title": "Us Tariffs Research Roundtable",
+        "url": "https://www.morganstanley.com/ideas/us-tariffs-research-roundtable",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "Global Tariffs",
+        "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
         "title": "Smoking and vaping trends among active-duty U.S. Navy and Marine Corps personnel: results from the Annual Periodic Health Assessment, 2017-2021",
         "url": "https://doi.org/10.1093/ntr/ntag188",
         "pool": "institutions",
         "date": "2026-08-26",
-        "by_hand": false
-      },
-      {
-        "title": "Managed Markets is ending Delivered Duty Unpaid (DDU) support",
-        "url": "https://changelog.shopify.com/posts/managed-markets-is-ending-delivered-duty-unpaid-ddu-support",
-        "pool": "design_refs",
-        "date": "2026-08-11",
         "by_hand": false
       },
       {
@@ -1750,8 +1750,43 @@
         "by_hand": true
       },
       {
-        "title": "Formalizing Fermat's Last Theorem",
-        "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+        "title": "Now everyone can put data to work",
+        "url": "https://openai.com/index/put-data-to-work",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Introducing ChatGPT for Financial Services",
+        "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+        "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic acquires Bun as Claude Code hits $1B",
+        "url": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic invests $50 billion in American AI infrastructure",
+        "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Claude in Microsoft Foundry and 365 Copilot",
+        "url": "https://www.anthropic.com/news/claude-in-microsoft-foundry",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
@@ -1760,6 +1795,13 @@
         "title": "Seven in 10 Gen Z jobseekers apply without checking whether roles are genuine as four in five face financial pressure | Barclays",
         "url": "https://home.barclays/news/press-releases/20260/090/seven-in-10-gen-z-jobseekers-apply-without-checking-whether-role/",
         "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Collect WhatsApp marketing consent at checkout",
+        "url": "https://changelog.shopify.com/posts/collect-whatsapp-marketing-consent-at-checkout",
+        "pool": "design_refs",
         "date": "2026-09-10",
         "by_hand": false
       },
@@ -1893,48 +1935,6 @@
         "title": "AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness",
         "url": "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/",
         "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "The AI policy window is open. We need to act.",
-        "url": "https://openai.com/index/ai-policy-window",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”",
-        "url": "https://news.skhynix.com/en/future-forum-2026-5/",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Introducing Consort: Test-driven development on a branching database",
-        "url": "https://www.databricks.com/blog/introducing-consort-test-driven-development-branching-database",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Adaptive Instructed-Retriever: Frontier-Quality Search at 2x Lower Latency",
-        "url": "https://www.databricks.com/blog/adaptive-instructed-retriever-frontier-quality-search-2x-lower-latency",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "How scientists use Claude to accelerate research",
-        "url": "https://www.anthropic.com/news/accelerating-scientific-research",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic acquires Vercept",
-        "url": "https://www.anthropic.com/news/acquires-vercept",
-        "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
       }
@@ -2426,6 +2426,41 @@
         "by_hand": true
       },
       {
+        "title": "Now everyone can put data to work",
+        "url": "https://openai.com/index/put-data-to-work",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Claude in Microsoft Foundry and 365 Copilot",
+        "url": "https://www.anthropic.com/news/claude-in-microsoft-foundry",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Introducing Claude Opus 4.5",
+        "url": "https://www.anthropic.com/news/claude-opus-4-5",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Cognizant brings Claude to 350,000 employees",
+        "url": "https://www.anthropic.com/news/cognizant-partnership",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Donating The Model Context Protocol And Establishing Of The Agentic Ai Foundation",
+        "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
         "title": "Native is now the future of mobile at Shopify",
         "url": "https://shopify.engineering/back-to-native",
         "pool": "design_refs",
@@ -2671,13 +2706,6 @@
         "by_hand": false
       },
       {
-        "title": "Achieving Extreme Efficiency through Specialized GPU Kernel Generation",
-        "url": "https://www.databricks.com/blog/achieving-extreme-efficiency-through-specialized-gpu-kernel-generation",
-        "pool": "institutions",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
         "title": "Designing Grok Bot for a world of persistent agents",
         "url": "https://x.ai/news/designing-grok-bot",
         "pool": "institutions",
@@ -2753,34 +2781,6 @@
         "pool": "institutions",
         "date": "2026-08-31",
         "by_hand": false
-      },
-      {
-        "title": "Interpreting transformer representations under positional inductive bias in learning-by-confusion for the two-dimensional Ising model",
-        "url": "https://doi.org/10.1016/j.commatsci.2026.115035",
-        "pool": "institutions",
-        "date": "2026-08-31",
-        "by_hand": false
-      },
-      {
-        "title": "A Disclosure Benchmark Specification for Automated Alignment Research",
-        "url": "https://doi.org/10.5281/zenodo.22179466",
-        "pool": "institutions",
-        "date": "2026-08-30",
-        "by_hand": false
-      },
-      {
-        "title": "[Video] No Unfolding Needed: A Day With Galaxy Z Flip8’s FlexWindow",
-        "url": "https://news.samsung.com/global/video-no-unfolding-needed-a-day-with-galaxy-z-flip8s-flexwindow",
-        "pool": "institutions",
-        "date": "2026-08-27",
-        "by_hand": false
-      },
-      {
-        "title": "LLM Prompt Interfaces as Execution Contracts: Reducing Unsafe Tool Invocation Across the Incident Lifecycle in AIOps",
-        "url": "https://doi.org/10.70917/ijcisim-2026-5217",
-        "pool": "institutions",
-        "date": "2026-08-27",
-        "by_hand": false
       }
     ],
     "institutions": [
@@ -2792,6 +2792,41 @@
         "by_hand": false
       },
       {
+        "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+        "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Now everyone can put data to work",
+        "url": "https://openai.com/index/put-data-to-work",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Introducing ChatGPT for Financial Services",
+        "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+        "url": "https://openai.com/index/expanding-ai-access-us-government",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+        "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
         "title": "Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data",
         "url": "https://mistral.ai/news/mistral-x-cloudera/",
         "pool": "institutions",
@@ -2799,22 +2834,148 @@
         "by_hand": false
       },
       {
-        "title": "An alignment assessment of recent cybersecurity incidents",
-        "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+        "title": "Improving Lakebase Postgres compute cache",
+        "url": "https://www.databricks.com/blog/improving-lakebase-postgres-compute-cache",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
       },
       {
-        "title": "Formalizing Fermat's Last Theorem",
-        "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+        "title": "Advancing Claude for Financial Services",
+        "url": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
       },
       {
-        "title": "Claude's progress on the Riemann hypothesis",
-        "url": "https://www.anthropic.com/research/riemann-zeta",
+        "title": "Mapping AI-enabled cyber threats",
+        "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Accenture and Anthropic launch partnership",
+        "url": "https://www.anthropic.com/news/anthropic-accenture-partnership",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic acquires Bun as Claude Code hits $1B",
+        "url": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Iceland launches a national AI education pilot",
+        "url": "https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Chris Ciauri named Managing Director of International",
+        "url": "https://www.anthropic.com/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic invests $50 billion in American AI infrastructure",
+        "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Claude in Microsoft Foundry and 365 Copilot",
+        "url": "https://www.anthropic.com/news/claude-in-microsoft-foundry",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Introducing Claude Opus 4.5",
+        "url": "https://www.anthropic.com/news/claude-opus-4-5",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Cognizant brings Claude to 350,000 employees",
+        "url": "https://www.anthropic.com/news/cognizant-partnership",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Deloitte Anthropic Partnership",
+        "url": "https://www.anthropic.com/news/deloitte-anthropic-partnership",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Detecting And Countering Malicious Uses Of Claude March 2025",
+        "url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Detecting Countering Misuse Aug 2025",
+        "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Disrupting Ai Espionage",
+        "url": "https://www.anthropic.com/news/disrupting-AI-espionage",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Donating The Model Context Protocol And Establishing Of The Agentic Ai Foundation",
+        "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Economic Futures Uk Europe",
+        "url": "https://www.anthropic.com/news/economic-futures-uk-europe",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Expanding Global Operations To India",
+        "url": "https://www.anthropic.com/news/expanding-global-operations-to-india",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Expanding Our Use Of Google Cloud Tpus And Services",
+        "url": "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Genesis Mission Partnership",
+        "url": "https://www.anthropic.com/news/genesis-mission-partnership",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Maryland Partnership",
+        "url": "https://www.anthropic.com/news/maryland-partnership",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
@@ -2827,15 +2988,15 @@
         "by_hand": false
       },
       {
-        "title": "How Will Less Fed Transparency Affect Markets And The Economy",
-        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-will-less-fed-transparency-affect-markets-and-the-economy",
+        "title": "Why Global Bond Yields Are Expected To Stay Elevated",
+        "url": "https://www.goldmansachs.com/insights/articles/why-global-bond-yields-are-expected-to-stay-elevated",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
       },
       {
-        "title": "Why Global Bond Yields Are Expected To Stay Elevated",
-        "url": "https://www.goldmansachs.com/insights/articles/why-global-bond-yields-are-expected-to-stay-elevated",
+        "title": "How Will Less Fed Transparency Affect Markets And The Economy",
+        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-will-less-fed-transparency-affect-markets-and-the-economy",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
@@ -3002,125 +3163,6 @@
         "by_hand": false
       },
       {
-        "title": "Introducing 100K context windows",
-        "url": "https://www.anthropic.com/news/100k-context-windows",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "How scientists use Claude to accelerate research",
-        "url": "https://www.anthropic.com/news/accelerating-scientific-research",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic acquires Vercept",
-        "url": "https://www.anthropic.com/news/acquires-vercept",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Mapping AI-enabled cyber threats",
-        "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Alberta uses Claude to find and fix security vulnerabilities",
-        "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "An AI policy tool for today: Invest in NIST",
-        "url": "https://www.anthropic.com/news/an-ai-policy-tool-for-today-ambitiously-invest-in-nist",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic acquires Stainless",
-        "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Amazon",
-        "url": "https://www.anthropic.com/news/anthropic-amazon",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Amazon Compute",
-        "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Appoints Irina Ghose As Managing Director Of India",
-        "url": "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Bcg",
-        "url": "https://www.anthropic.com/news/anthropic-bcg",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Codepath Partnership",
-        "url": "https://www.anthropic.com/news/anthropic-codepath-partnership",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Infosys",
-        "url": "https://www.anthropic.com/news/anthropic-infosys",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Kpmg",
-        "url": "https://www.anthropic.com/news/anthropic-kpmg",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Nec",
-        "url": "https://www.anthropic.com/news/anthropic-nec",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Partners With Allen Institute And Howard Hughes Medical Institute",
-        "url": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Partners With Google Cloud",
-        "url": "https://www.anthropic.com/news/anthropic-partners-with-google-cloud",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
         "title": "Barclays launches ISA and Life Insurance reward offers worth up to £750 | Barclays",
         "url": "https://home.barclays/news/press-releases/20260/090/barclays-launches-isa-and-life-insurance-reward-offers-worth-up-/",
         "pool": "institutions",
@@ -3158,48 +3200,6 @@
       {
         "title": "How Is Automation Shaping Emerging Markets",
         "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/how-is-automation-shaping-emerging-markets",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Us Election 60 Seconds Michael Zezas Two Investor Takeaways",
-        "url": "https://www.morganstanley.com/ideas/us-election-60-seconds-michael-zezas-two-investor-takeaways",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Digital Assets",
-        "url": "https://www.morganstanley.com/insights/themes/digital-assets",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Deepseek Ai Watershed Moment",
-        "url": "https://www.morganstanley.com/insights/articles/deepseek-ai-watershed-moment",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Tmt Barcelona 2015",
-        "url": "https://www.morganstanley.com/ideas/tmt-barcelona-2015",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "M A Outlook Election Policy 2024",
-        "url": "https://www.morganstanley.com/ideas/m-a-outlook-election-policy-2024",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Trump Tariff Delay Ongoing Outlook Uncertainty",
-        "url": "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false

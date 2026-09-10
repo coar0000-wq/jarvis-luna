@@ -2,7 +2,7 @@
 title: "Record ea3921d38d · Consumer-Confidence-Stabilises-And-Spending-Grows-1-9-Per-Cent-I"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:10:00.218551+00:00
+updated_at: 2026-09-10T22:36:46.814226+00:00
 tags: [record, real-data]
 ---
 

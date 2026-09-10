@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T19:24:17.116216+00:00",
+  "generated_at": "2026-09-10T22:39:47.354709+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "shailene woodley",
+          "keyword": "leshon johnson",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Thu, 10 Sep 2026 15:20:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=leshon%20johnson"
+        },
+        {
+          "keyword": "internet outages",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Thu, 10 Sep 2026 11:30:00 -0700",
-          "source_name": "People.com",
-          "url": "https://trends.google.com/trending?geo=US&q=shailene%20woodley"
+          "published": "Thu, 10 Sep 2026 15:20:00 -0700",
+          "source_name": "Centralmaine.com",
+          "url": "https://trends.google.com/trending?geo=US&q=internet%20outages"
         },
         {
-          "keyword": "braves",
+          "keyword": "beauty in black renewed season 4",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Thu, 10 Sep 2026 11:30:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=braves"
+          "published": "Thu, 10 Sep 2026 15:20:00 -0700",
+          "source_name": "What's on Netflix",
+          "url": "https://trends.google.com/trending?geo=US&q=beauty%20in%20black%20renewed%20season%204"
         },
         {
-          "keyword": "azerbaijan",
+          "keyword": "rabies",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 10 Sep 2026 12:00:00 -0700",
-          "source_name": "Radio Free Europe/Radio Liberty",
-          "url": "https://trends.google.com/trending?geo=US&q=azerbaijan"
+          "published": "Thu, 10 Sep 2026 15:20:00 -0700",
+          "source_name": "Centers for Disease Control and Prevention | CDC (.gov)",
+          "url": "https://trends.google.com/trending?geo=US&q=rabies"
         },
         {
-          "keyword": "storm damage repair",
+          "keyword": "dan caine",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 10 Sep 2026 11:50:00 -0700",
-          "source_name": "KCTV",
-          "url": "https://trends.google.com/trending?geo=US&q=storm%20damage%20repair"
+          "published": "Thu, 10 Sep 2026 15:20:00 -0700",
+          "source_name": "The Hill",
+          "url": "https://trends.google.com/trending?geo=US&q=dan%20caine"
         },
         {
-          "keyword": "como vs rb leipzig",
+          "keyword": "armond paige mail dumping indictment",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 10 Sep 2026 11:30:00 -0700",
-          "source_name": "n-tv.de",
-          "url": "https://trends.google.com/trending?geo=US&q=como%20vs%20rb%20leipzig"
+          "published": "Thu, 10 Sep 2026 15:20:00 -0700",
+          "source_name": "FOX 2",
+          "url": "https://trends.google.com/trending?geo=US&q=armond%20paige%20mail%20dumping%20indictment"
         },
         {
-          "keyword": "bayern",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 10 Sep 2026 12:10:00 -0700",
-          "source_name": "Kicker",
-          "url": "https://trends.google.com/trending?geo=US&q=bayern"
+          "keyword": "terrance ferguson",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 10 Sep 2026 15:20:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=terrance%20ferguson"
         },
         {
-          "keyword": "nancy guthrie",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 10 Sep 2026 12:00:00 -0700",
-          "source_name": "TODAY.com",
-          "url": "https://trends.google.com/trending?geo=US&q=nancy%20guthrie"
+          "keyword": "joe pierro",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 10 Sep 2026 15:20:00 -0700",
+          "source_name": "Mosti Funeral Homes",
+          "url": "https://trends.google.com/trending?geo=US&q=joe%20pierro"
         },
         {
-          "keyword": "rick springfield",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 10 Sep 2026 12:00:00 -0700",
-          "source_name": "NBC News",
-          "url": "https://trends.google.com/trending?geo=US&q=rick%20springfield"
+          "keyword": "dallas weather",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 10 Sep 2026 15:10:00 -0700",
+          "source_name": "FOX 4 News Dallas-Fort Worth",
+          "url": "https://trends.google.com/trending?geo=US&q=dallas%20weather"
         },
         {
-          "keyword": "chris johnson",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 10 Sep 2026 11:50:00 -0700",
-          "source_name": "Bleacher Report",
-          "url": "https://trends.google.com/trending?geo=US&q=chris%20johnson"
-        },
-        {
-          "keyword": "como - rb leipzig",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 10 Sep 2026 11:50:00 -0700",
-          "source_name": "MARCA",
-          "url": "https://trends.google.com/trending?geo=US&q=como%20-%20rb%20leipzig"
+          "keyword": "jacob degrom",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 10 Sep 2026 15:10:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=jacob%20degrom"
         }
       ]
     },
@@ -187,6 +187,16 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "\"Sunglass Nails\" Are the Fashion Week-Approved Way to Go Sheer—See the Photos",
+          "published": "Thu, 10 Sep 2026 20:23:27 +0000",
+          "url": "https://www.allure.com/story/dvf-nyfw-sunglass-nails"
+        },
+        {
+          "title": "An Oral History of Allure’s Best of Beauty Awards",
+          "published": "Thu, 10 Sep 2026 20:20:33 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-oral-history-30th-anniversary"
+        },
         {
           "title": "Morphe Signature Lip Pencil Review",
           "published": "Thu, 10 Sep 2026 18:37:39 +0000",
@@ -326,16 +336,6 @@
           "title": "How Meta's Filter Ban for Minors Could Look in Practice",
           "published": "Wed, 02 Sep 2026 14:49:13 +0000",
           "url": "https://www.allure.com/story/meta-beauty-filter-ban-teens"
-        },
-        {
-          "title": "How to Make Your Eyes Look More Open With Makeup—Photos",
-          "published": "Wed, 02 Sep 2026 12:00:00 +0000",
-          "url": "https://www.allure.com/story/make-eyes-look-open-with-makeup"
-        },
-        {
-          "title": "9 Best Foundations for Oily Skin for a Smooth, Natural-Looking Finish",
-          "published": "Tue, 01 Sep 2026 20:20:07 +0000",
-          "url": "https://www.allure.com/story/best-foundation-for-acne"
         }
       ]
     },

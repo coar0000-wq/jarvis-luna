@@ -2,7 +2,7 @@
 title: "Record 1223f65b2e · Skin-Care-Myths-I-Used-To-Believe-and-you-might-still-too"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:10:00.300302+00:00
+updated_at: 2026-09-10T22:36:46.900334+00:00
 tags: [record, real-data]
 ---
 

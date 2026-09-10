@@ -2,7 +2,7 @@
 title: "Record 12ef5796c9 · Freaky-Nikkis-Terrifying-Look-in-Obsession-Was-a-Practical-Effect-Insp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.786777+00:00
+updated_at: 2026-09-10T22:36:46.460423+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record fc26140207 · 2sizes-ILLIYOON-Ceramide-Ato-Concentrate-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:10:00.148461+00:00
+updated_at: 2026-09-10T22:36:46.762216+00:00
 tags: [record, real-data]
 ---
 

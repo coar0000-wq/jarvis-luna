@@ -2,7 +2,7 @@
 title: "Record cdc1596d52 · Ground-Robots-Inherit-the-Kill-Zone"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:10:00.140767+00:00
+updated_at: 2026-09-10T22:36:46.752464+00:00
 tags: [record, real-data]
 ---
 

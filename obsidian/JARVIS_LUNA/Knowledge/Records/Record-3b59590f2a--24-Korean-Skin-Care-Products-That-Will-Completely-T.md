@@ -2,7 +2,7 @@
 title: "Record 3b59590f2a · 24-Korean-Skin-Care-Products-That-Will-Completely-Transform-Your-Routi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.818176+00:00
+updated_at: 2026-09-10T22:36:46.497167+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BQ2IzSWdOT1JQbDdCNEh2SXgybWROc3ptY2U3MDlXM0NWTWZ1T0V3c1FVcC1tZjJMTzN6RlVnaDk5djZQZTJhWE9rblRPb2dodDUwUU9XbEVYekp1dWxXZ19Sdm9GdlU?oc=5)
 
-**제목:** 24 Korean Skin-Care Products That Will Completely Transform Your Routine - allure.com
+**제목:** 24 Korean Skin-Care Products That Will Completely Transform Your Routine - Allure
 
-24 Korean Skin-Care Products That Will Completely Transform Your Routine - allure.com
+24 Korean Skin-Care Products That Will Completely Transform Your Routine - Allure
 
 **출처:** Source · Google Search
 

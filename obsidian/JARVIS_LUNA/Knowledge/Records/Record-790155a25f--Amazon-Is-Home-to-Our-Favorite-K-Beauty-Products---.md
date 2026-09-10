@@ -1,18 +1,18 @@
 ---
-title: "Record 790155a25f · Amazon-Is-Home-to-Our-Favorite-K-Beauty-Products---allurecom"
+title: "Record 790155a25f · Amazon-Is-Home-to-Our-Favorite-K-Beauty-Products---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.849674+00:00
+updated_at: 2026-09-10T22:36:46.523917+00:00
 tags: [record, real-data]
 ---
 
-# Record 790155a25f · Amazon-Is-Home-to-Our-Favorite-K-Beauty-Products---allurecom
+# Record 790155a25f · Amazon-Is-Home-to-Our-Favorite-K-Beauty-Products---Allure
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibEFVX3lxTFBKVGtYN1RLbnJJRzhIOUVFRGs4ZHZuM0VHY2JCRTBCNXN2UVVEaDhVOWhBNXNVRFpYZkowcUpCOXBqeFpDeWhUOTZYTzd0M3NZNnVNeFJEbkx3RGJHc3BvTHZHOHNYYnJiVk9lTQ?oc=5)
 
-**제목:** Amazon Is Home to Our Favorite K-Beauty Products - allure.com
+**제목:** Amazon Is Home to Our Favorite K-Beauty Products - Allure
 
-Amazon Is Home to Our Favorite K-Beauty Products - allure.com
+Amazon Is Home to Our Favorite K-Beauty Products - Allure
 
 **출처:** Source · Google Search
 

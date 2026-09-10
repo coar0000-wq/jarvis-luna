@@ -2,7 +2,7 @@
 title: "Record 7e8f9702a7 · A-Volumetrically-Stabilized-Mixed-Formulation-of-the-Finite-Element-Im"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:10:00.131571+00:00
+updated_at: 2026-09-10T22:36:46.746190+00:00
 tags: [record, real-data]
 ---
 

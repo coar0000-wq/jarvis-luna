@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T19:24:17.916234+00:00",
+  "generated_at": "2026-09-10T22:39:48.328441+00:00",
   "exchange_rate": {
     "usd_to_krw": 1343.8,
     "as_of": "2026-09-10",
@@ -21,9 +21,9 @@
     ]
   },
   "market_benchmark": {
-    "min": 5.44,
-    "p25": 19.8,
-    "median": 22.5,
+    "min": 0.95,
+    "p25": 20.7,
+    "median": 23.9,
     "max": 83.99,
     "n": 100,
     "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-10)"
@@ -62,16 +62,31 @@
         "block_reason": ""
       },
       {
+        "pd_no": "1055165",
+        "name": "본셉 레티놀 아이 크림 25 ml",
+        "qty": 1,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
+        "landed_cost_total_usd": 8.83,
+        "fee_usd": 1.78,
+        "net_profit_usd": 13.38,
+        "margin_pct": 55.8,
+        "market_median_usd": 23.9,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "qty": 1,
-        "price_usd": 22.99,
-        "unit_price_usd": 22.99,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
         "landed_cost_total_usd": 10.54,
-        "fee_usd": 1.7,
-        "net_profit_usd": 10.75,
-        "margin_pct": 46.8,
-        "market_median_usd": 22.5,
+        "fee_usd": 1.78,
+        "net_profit_usd": 11.67,
+        "margin_pct": 48.7,
+        "market_median_usd": 23.9,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -154,16 +169,31 @@
         "block_reason": ""
       },
       {
+        "pd_no": "1055165",
+        "name": "본셉 레티놀 아이 크림 25 ml",
+        "qty": 2,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
+        "landed_cost_total_usd": 12.14,
+        "fee_usd": 3.03,
+        "net_profit_usd": 25.82,
+        "margin_pct": 63.0,
+        "market_median_usd": 23.9,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "qty": 2,
-        "price_usd": 38.99,
-        "unit_price_usd": 19.5,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
         "landed_cost_total_usd": 15.56,
-        "fee_usd": 2.89,
-        "net_profit_usd": 20.54,
-        "margin_pct": 52.7,
-        "market_median_usd": 22.5,
+        "fee_usd": 3.03,
+        "net_profit_usd": 22.4,
+        "margin_pct": 54.6,
+        "market_median_usd": 23.9,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -234,17 +264,17 @@
       "discount_pct": 0,
       "price_usd": 18.99,
       "unit_price_usd": 18.99,
-      "landed_cost_total_usd": 11.36,
-      "shipping_in_cost_usd": 7.51,
+      "landed_cost_total_usd": 11.0,
+      "shipping_in_cost_usd": 7.33,
       "fee_usd": 1.41,
-      "net_profit_usd": 6.23,
-      "margin_pct": 32.8,
+      "net_profit_usd": 6.59,
+      "margin_pct": 34.7,
       "free_shipping": false,
-      "orders_for_500usd": 80,
+      "orders_for_500usd": 76,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
         12.99,
-        22.99
+        23.99
       ]
     },
     "bundle": {
@@ -252,17 +282,17 @@
       "discount_pct": 15,
       "price_usd": 32.99,
       "unit_price_usd": 16.5,
-      "landed_cost_total_usd": 16.91,
-      "shipping_in_cost_usd": 9.21,
+      "landed_cost_total_usd": 16.23,
+      "shipping_in_cost_usd": 8.9,
       "fee_usd": 2.44,
-      "net_profit_usd": 13.64,
-      "margin_pct": 41.3,
+      "net_profit_usd": 14.32,
+      "margin_pct": 43.4,
       "free_shipping": true,
-      "orders_for_500usd": 37,
+      "orders_for_500usd": 35,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
         20.99,
-        38.99
+        40.99
       ]
     },
     "free_shipping_min_qty": 2,
@@ -299,16 +329,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 7.05,
-          "margin_pct": 35.6
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.88,
+          "margin_pct": 38.1
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 9.55,
-          "margin_pct": 42.4
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 10.84,
+          "margin_pct": 45.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.03,
@@ -347,16 +377,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 7.05,
-          "margin_pct": 35.6
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.88,
+          "margin_pct": 38.1
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 9.55,
-          "margin_pct": 42.4
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 10.84,
+          "margin_pct": 45.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.2,
@@ -369,10 +399,53 @@
         }
       },
       {
+        "pd_no": "1055165",
+        "name": "본셉 레티놀 아이 크림 25 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 3000,
+        "weight_g_est": 80,
+        "weight_note": "25ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 6.26,
+        "shipping_order_usd": 6.26,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 8.83,
+        "landed_cost_ddu_usd": 8.83,
+        "landed_cost_ddp_usd": 8.49,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 9.53,
+        "at_2_2x": {
+          "sell": 4.91,
+          "fee": 0.36,
+          "profit": -4.28,
+          "margin_pct": -87.1
+        },
+        "at_market_p25": {
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 10.34,
+          "margin_pct": 50.0
+        },
+        "at_market_median": {
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 13.31,
+          "margin_pct": 55.7
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.9,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 92,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
@@ -395,19 +468,19 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 7.8,
-          "margin_pct": 39.4
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 8.63,
+          "margin_pct": 41.7
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 10.3,
-          "margin_pct": 45.8
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 11.59,
+          "margin_pct": 48.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.5,
+        "market_median_usd": 23.9,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -438,16 +511,16 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 10.36,
-          "margin_pct": 52.3
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.2,
+          "margin_pct": 54.1
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 12.87,
-          "margin_pct": 57.2
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 14.16,
+          "margin_pct": 59.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -486,16 +559,16 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 3.31,
-          "margin_pct": 16.7
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 4.14,
+          "margin_pct": 20.0
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 5.81,
-          "margin_pct": 25.8
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 7.11,
+          "margin_pct": 29.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.5,
@@ -534,16 +607,16 @@
           "margin_pct": -54.5
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 6.29,
-          "margin_pct": 31.8
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.13,
+          "margin_pct": 34.4
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 8.79,
-          "margin_pct": 39.1
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 10.09,
+          "margin_pct": 42.2
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.93,
@@ -584,16 +657,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 10.18,
-          "margin_pct": 51.4
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.01,
+          "margin_pct": 53.2
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 12.68,
-          "margin_pct": 56.3
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 13.97,
+          "margin_pct": 58.5
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.03,
@@ -632,16 +705,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 10.18,
-          "margin_pct": 51.4
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.01,
+          "margin_pct": 53.2
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 12.68,
-          "margin_pct": 56.3
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 13.97,
+          "margin_pct": 58.5
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.2,
@@ -654,10 +727,53 @@
         }
       },
       {
+        "pd_no": "1055165",
+        "name": "본셉 레티놀 아이 크림 25 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 3000,
+        "weight_g_est": 80,
+        "weight_note": "25ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 3.5,
+        "shipping_order_usd": 7.01,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 6.07,
+        "landed_cost_ddu_usd": 6.07,
+        "landed_cost_ddp_usd": 5.74,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 6.56,
+        "at_2_2x": {
+          "sell": 4.91,
+          "fee": 0.36,
+          "profit": -1.52,
+          "margin_pct": -31.0
+        },
+        "at_market_p25": {
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 13.1,
+          "margin_pct": 63.3
+        },
+        "at_market_median": {
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 16.06,
+          "margin_pct": 67.2
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.9,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 92,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
@@ -680,19 +796,19 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 10.55,
-          "margin_pct": 53.3
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.38,
+          "margin_pct": 55.0
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 13.05,
-          "margin_pct": 58.0
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 14.35,
+          "margin_pct": 60.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.5,
+        "market_median_usd": 23.9,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -723,16 +839,16 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 13.12,
-          "margin_pct": 66.3
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 13.95,
+          "margin_pct": 67.4
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 15.62,
-          "margin_pct": 69.4
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 16.91,
+          "margin_pct": 70.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -771,16 +887,16 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 6.57,
-          "margin_pct": 33.2
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.4,
+          "margin_pct": 35.7
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 9.07,
-          "margin_pct": 40.3
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 10.36,
+          "margin_pct": 43.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.5,
@@ -819,16 +935,16 @@
           "margin_pct": -25.3
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 8.68,
-          "margin_pct": 43.9
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 9.52,
+          "margin_pct": 46.0
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 11.18,
-          "margin_pct": 49.7
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 12.48,
+          "margin_pct": 52.2
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.93,
@@ -871,16 +987,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 7.05,
-          "margin_pct": 35.6
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.88,
+          "margin_pct": 38.1
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 9.55,
-          "margin_pct": 42.4
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 10.84,
+          "margin_pct": 45.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.03,
@@ -919,16 +1035,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 7.05,
-          "margin_pct": 35.6
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.88,
+          "margin_pct": 38.1
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 9.55,
-          "margin_pct": 42.4
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 10.84,
+          "margin_pct": 45.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.2,
@@ -941,10 +1057,53 @@
         }
       },
       {
+        "pd_no": "1055165",
+        "name": "본셉 레티놀 아이 크림 25 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 3000,
+        "weight_g_est": 80,
+        "weight_note": "25ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 6.26,
+        "shipping_order_usd": 6.26,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 8.83,
+        "landed_cost_ddu_usd": 8.83,
+        "landed_cost_ddp_usd": 8.49,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 9.53,
+        "at_2_2x": {
+          "sell": 4.91,
+          "fee": 0.36,
+          "profit": -4.28,
+          "margin_pct": -87.1
+        },
+        "at_market_p25": {
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 10.34,
+          "margin_pct": 50.0
+        },
+        "at_market_median": {
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 13.31,
+          "margin_pct": 55.7
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.9,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 92,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
@@ -967,19 +1126,19 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 7.8,
-          "margin_pct": 39.4
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 8.63,
+          "margin_pct": 41.7
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 10.3,
-          "margin_pct": 45.8
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 11.59,
+          "margin_pct": 48.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.5,
+        "market_median_usd": 23.9,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1010,16 +1169,16 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 10.36,
-          "margin_pct": 52.3
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.2,
+          "margin_pct": 54.1
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 12.87,
-          "margin_pct": 57.2
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 14.16,
+          "margin_pct": 59.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -1058,16 +1217,16 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 3.31,
-          "margin_pct": 16.7
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 4.14,
+          "margin_pct": 20.0
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 5.81,
-          "margin_pct": 25.8
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 7.11,
+          "margin_pct": 29.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.5,
@@ -1106,16 +1265,16 @@
           "margin_pct": -54.5
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 6.29,
-          "margin_pct": 31.8
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.13,
+          "margin_pct": 34.4
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 8.79,
-          "margin_pct": 39.1
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 10.09,
+          "margin_pct": 42.2
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.93,
@@ -1156,16 +1315,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 10.18,
-          "margin_pct": 51.4
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.01,
+          "margin_pct": 53.2
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 12.68,
-          "margin_pct": 56.3
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 13.97,
+          "margin_pct": 58.5
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.03,
@@ -1204,16 +1363,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 10.18,
-          "margin_pct": 51.4
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.01,
+          "margin_pct": 53.2
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 12.68,
-          "margin_pct": 56.3
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 13.97,
+          "margin_pct": 58.5
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.2,
@@ -1226,10 +1385,53 @@
         }
       },
       {
+        "pd_no": "1055165",
+        "name": "본셉 레티놀 아이 크림 25 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 3000,
+        "weight_g_est": 80,
+        "weight_note": "25ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 3.5,
+        "shipping_order_usd": 7.01,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 6.07,
+        "landed_cost_ddu_usd": 6.07,
+        "landed_cost_ddp_usd": 5.74,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 6.56,
+        "at_2_2x": {
+          "sell": 4.91,
+          "fee": 0.36,
+          "profit": -1.52,
+          "margin_pct": -31.0
+        },
+        "at_market_p25": {
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 13.1,
+          "margin_pct": 63.3
+        },
+        "at_market_median": {
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 16.06,
+          "margin_pct": 67.2
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.9,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 92,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
@@ -1252,19 +1454,19 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 10.55,
-          "margin_pct": 53.3
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.38,
+          "margin_pct": 55.0
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 13.05,
-          "margin_pct": 58.0
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 14.35,
+          "margin_pct": 60.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.5,
+        "market_median_usd": 23.9,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1295,16 +1497,16 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 13.12,
-          "margin_pct": 66.3
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 13.95,
+          "margin_pct": 67.4
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 15.62,
-          "margin_pct": 69.4
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 16.91,
+          "margin_pct": 70.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -1343,16 +1545,16 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 6.57,
-          "margin_pct": 33.2
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.4,
+          "margin_pct": 35.7
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 9.07,
-          "margin_pct": 40.3
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 10.36,
+          "margin_pct": 43.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.5,
@@ -1391,16 +1593,16 @@
           "margin_pct": -25.3
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 8.68,
-          "margin_pct": 43.9
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 9.52,
+          "margin_pct": 46.0
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 11.18,
-          "margin_pct": 49.7
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 12.48,
+          "margin_pct": 52.2
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.93,
@@ -1441,16 +1643,16 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 7.6,
-          "margin_pct": 38.4
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 8.44,
+          "margin_pct": 40.8
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 10.1,
-          "margin_pct": 44.9
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 11.4,
+          "margin_pct": 47.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.03,
@@ -1489,16 +1691,16 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 7.6,
-          "margin_pct": 38.4
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 8.44,
+          "margin_pct": 40.8
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 10.1,
-          "margin_pct": 44.9
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 11.4,
+          "margin_pct": 47.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.2,
@@ -1511,10 +1713,53 @@
         }
       },
       {
+        "pd_no": "1055165",
+        "name": "본셉 레티놀 아이 크림 25 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 3000,
+        "weight_g_est": 80,
+        "weight_note": "25ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 6.26,
+        "shipping_order_usd": 6.26,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 8.49,
+        "landed_cost_ddu_usd": 8.83,
+        "landed_cost_ddp_usd": 8.49,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 9.17,
+        "at_2_2x": {
+          "sell": 4.91,
+          "fee": 0.36,
+          "profit": -3.94,
+          "margin_pct": -80.3
+        },
+        "at_market_p25": {
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 10.68,
+          "margin_pct": 51.6
+        },
+        "at_market_median": {
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 13.64,
+          "margin_pct": 57.1
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.9,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 92,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
@@ -1537,19 +1782,19 @@
           "margin_pct": -29.3
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 8.36,
-          "margin_pct": 42.2
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 9.19,
+          "margin_pct": 44.4
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 10.86,
-          "margin_pct": 48.2
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 12.15,
+          "margin_pct": 50.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.5,
+        "market_median_usd": 23.9,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1580,16 +1825,16 @@
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 10.59,
-          "margin_pct": 53.5
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.42,
+          "margin_pct": 55.2
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 13.09,
-          "margin_pct": 58.2
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 14.38,
+          "margin_pct": 60.2
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -1628,16 +1873,16 @@
           "margin_pct": -84.1
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 3.87,
-          "margin_pct": 19.5
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 4.7,
+          "margin_pct": 22.7
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 6.37,
-          "margin_pct": 28.3
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 7.66,
+          "margin_pct": 32.1
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.5,
@@ -1676,16 +1921,16 @@
           "margin_pct": -47.7
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 6.85,
-          "margin_pct": 34.6
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.69,
+          "margin_pct": 37.1
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 9.35,
-          "margin_pct": 41.6
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 10.65,
+          "margin_pct": 44.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.93,
@@ -1726,16 +1971,16 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 10.73,
-          "margin_pct": 54.2
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.57,
+          "margin_pct": 55.9
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 13.23,
-          "margin_pct": 58.8
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 14.53,
+          "margin_pct": 60.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.03,
@@ -1774,16 +2019,16 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 10.73,
-          "margin_pct": 54.2
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.57,
+          "margin_pct": 55.9
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 13.23,
-          "margin_pct": 58.8
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 14.53,
+          "margin_pct": 60.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.2,
@@ -1796,10 +2041,53 @@
         }
       },
       {
+        "pd_no": "1055165",
+        "name": "본셉 레티놀 아이 크림 25 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 3000,
+        "weight_g_est": 80,
+        "weight_note": "25ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 3.5,
+        "shipping_order_usd": 7.01,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 5.74,
+        "landed_cost_ddu_usd": 6.07,
+        "landed_cost_ddp_usd": 5.74,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 6.2,
+        "at_2_2x": {
+          "sell": 4.91,
+          "fee": 0.36,
+          "profit": -1.19,
+          "margin_pct": -24.2
+        },
+        "at_market_p25": {
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 13.43,
+          "margin_pct": 64.9
+        },
+        "at_market_median": {
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 16.39,
+          "margin_pct": 68.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.9,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 92,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
@@ -1822,19 +2110,19 @@
           "margin_pct": 4.3
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 11.11,
-          "margin_pct": 56.1
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.94,
+          "margin_pct": 57.7
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 13.61,
-          "margin_pct": 60.5
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 14.91,
+          "margin_pct": 62.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.5,
+        "market_median_usd": 23.9,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1865,16 +2153,16 @@
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 13.34,
-          "margin_pct": 67.4
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 14.17,
+          "margin_pct": 68.5
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 15.84,
-          "margin_pct": 70.4
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 17.14,
+          "margin_pct": 71.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -1913,16 +2201,16 @@
           "margin_pct": -44.4
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 7.12,
-          "margin_pct": 36.0
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.96,
+          "margin_pct": 38.4
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 9.62,
-          "margin_pct": 42.8
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 10.92,
+          "margin_pct": 45.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.5,
@@ -1961,16 +2249,16 @@
           "margin_pct": -18.5
         },
         "at_market_p25": {
-          "sell": 19.8,
-          "fee": 1.47,
-          "profit": 9.24,
-          "margin_pct": 46.7
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 10.07,
+          "margin_pct": 48.7
         },
         "at_market_median": {
-          "sell": 22.5,
-          "fee": 1.66,
-          "profit": 11.74,
-          "margin_pct": 52.2
+          "sell": 23.9,
+          "fee": 1.77,
+          "profit": 13.04,
+          "margin_pct": 54.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.93,

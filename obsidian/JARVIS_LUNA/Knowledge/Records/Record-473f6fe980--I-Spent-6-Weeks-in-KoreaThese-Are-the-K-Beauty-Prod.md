@@ -2,7 +2,7 @@
 title: "Record 473f6fe980 · I-Spent-6-Weeks-in-KoreaThese-Are-the-K-Beauty-Products-Everyones-Buzz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.918811+00:00
+updated_at: 2026-09-10T22:36:46.603052+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijgFBVV95cUxNd2NuMkpsWWVaandGRE9tNWdhblNjY0I2Q2JxTUtUMlAzT0I5TmhyVTVscXVnSEhSenhRX3VVeXZJeC02dFBHcEFpcFEzeXh5bFdTU050X1luSTI5TGZFM0ZzMkFSTHVfdlprVlRRS2pOdlhNUU9QNlRuQkNNOGJaZjA1bFBYV190VjYwNXZB?oc=5)
 
-**제목:** I Spent 6 Weeks in Korea–These Are the K-Beauty Products Everyone's Buzzing About - Good Housekeeping
+**제목:** I Spent 6 Weeks in Korea–These Are the K-Beauty Products Everyone's Buzzing About - goodhousekeeping.com
 
-I Spent 6 Weeks in Korea–These Are the K-Beauty Products Everyone's Buzzing About - Good Housekeeping
+I Spent 6 Weeks in Korea–These Are the K-Beauty Products Everyone's Buzzing About - goodhousekeeping.com
 
 **출처:** Source · Google Search
 

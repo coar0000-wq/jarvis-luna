@@ -2,7 +2,7 @@
 title: "Record eafba321de · Institutional-insulation-as-response-to-racial-diversity-evidence-from"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.652459+00:00
+updated_at: 2026-09-10T22:36:46.328258+00:00
 tags: [record, real-data]
 ---
 
