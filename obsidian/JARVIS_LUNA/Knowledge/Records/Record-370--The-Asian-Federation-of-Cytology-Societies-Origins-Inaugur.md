@@ -2,7 +2,7 @@
 title: "Record 370 · The-Asian-Federation-of-Cytology-Societies-Origins-Inaugural-Congress-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.247645+00:00
+updated_at: 2026-09-10T11:22:07.400757+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 634 · Abelian-Group-Codes-for-Classical-Quantum-Channels-One-Shot-and-Asympt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.302484+00:00
+updated_at: 2026-09-10T11:22:07.449882+00:00
 tags: [record, real-data]
 ---
 

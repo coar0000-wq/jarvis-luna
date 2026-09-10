@@ -2,7 +2,7 @@
 title: "Record 400 · Discovery-of-a-millisecond-pulsar-with-a-CO-white-dwarf-companion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.254109+00:00
+updated_at: 2026-09-10T11:22:07.406360+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 493 · Nonmonotonic-Li-Content-Evolution-and-Size-Dependent-Lithium-Accessibi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.273381+00:00
+updated_at: 2026-09-10T11:22:07.424360+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 274 · Mitigating-Degradation-Attacks-in-Cooperative-Autonomous-Driving-via-I"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.227108+00:00
+updated_at: 2026-09-10T11:22:07.383694+00:00
 tags: [record, real-data]
 ---
 

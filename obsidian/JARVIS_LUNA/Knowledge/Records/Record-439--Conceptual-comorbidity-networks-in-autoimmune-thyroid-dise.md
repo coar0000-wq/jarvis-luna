@@ -2,7 +2,7 @@
 title: "Record 439 · Conceptual-comorbidity-networks-in-autoimmune-thyroid-disease-A-PRISMA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.262131+00:00
+updated_at: 2026-09-10T11:22:07.413446+00:00
 tags: [record, real-data]
 ---
 

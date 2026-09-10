@@ -2,7 +2,7 @@
 title: "Record 232 · Spheriverse-3D-Scene-Understanding-from-Spherical-Observations-in-the-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.216717+00:00
+updated_at: 2026-09-10T11:22:07.375332+00:00
 tags: [record, real-data]
 ---
 

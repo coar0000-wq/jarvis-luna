@@ -2,7 +2,7 @@
 title: "Record 696 · CaliciBoost-Performance-driven-evaluation-of-molecular-representations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.314859+00:00
+updated_at: 2026-09-10T11:22:07.461513+00:00
 tags: [record, real-data]
 ---
 

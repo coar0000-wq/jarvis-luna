@@ -2,7 +2,7 @@
 title: "Record 251 · Spatial-LLM-Workload-Shifting-Needs-Foresight-Model-Commitment-for-AI-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.221186+00:00
+updated_at: 2026-09-10T11:22:07.378822+00:00
 tags: [record, real-data]
 ---
 

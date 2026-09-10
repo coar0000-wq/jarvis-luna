@@ -2,7 +2,7 @@
 title: "Record 275 · FolDeX-A-Physical-World-Benchmark-for-Long-Horizon-Robotic-Manipulatio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.227348+00:00
+updated_at: 2026-09-10T11:22:07.383901+00:00
 tags: [record, real-data]
 ---
 

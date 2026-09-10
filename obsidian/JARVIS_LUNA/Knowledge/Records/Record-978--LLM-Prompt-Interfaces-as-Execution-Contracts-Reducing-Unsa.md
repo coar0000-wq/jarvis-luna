@@ -2,7 +2,7 @@
 title: "Record 978 · LLM-Prompt-Interfaces-as-Execution-Contracts-Reducing-Unsafe-Tool-Invo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.371525+00:00
+updated_at: 2026-09-10T11:22:07.512886+00:00
 tags: [record, real-data]
 ---
 

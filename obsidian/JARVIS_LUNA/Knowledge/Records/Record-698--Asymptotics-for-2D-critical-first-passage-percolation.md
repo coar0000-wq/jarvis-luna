@@ -2,7 +2,7 @@
 title: "Record 698 · Asymptotics-for-2D-critical-first-passage-percolation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.315224+00:00
+updated_at: 2026-09-10T11:22:07.461867+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 789 · Neolithic-coastal-adaptation-and-resilience-in-relation-to-environment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.333761+00:00
+updated_at: 2026-09-10T11:22:07.478836+00:00
 tags: [record, real-data]
 ---
 

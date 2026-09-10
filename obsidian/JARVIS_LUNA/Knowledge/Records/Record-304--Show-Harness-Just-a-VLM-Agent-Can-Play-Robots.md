@@ -2,7 +2,7 @@
 title: "Record 304 · Show-Harness-Just-a-VLM-Agent-Can-Play-Robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.234253+00:00
+updated_at: 2026-09-10T11:22:07.389431+00:00
 tags: [record, real-data]
 ---
 

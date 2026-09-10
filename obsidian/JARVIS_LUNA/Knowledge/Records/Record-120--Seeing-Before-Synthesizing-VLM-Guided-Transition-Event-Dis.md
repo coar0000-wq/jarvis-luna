@@ -2,7 +2,7 @@
 title: "Record 120 · Seeing-Before-Synthesizing-VLM-Guided-Transition-Event-Discovery-for-W"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.188527+00:00
+updated_at: 2026-09-10T11:22:07.352850+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 783 · Bridging-science-policy-practice-and-purpose-global-insights-from-sust"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.332438+00:00
+updated_at: 2026-09-10T11:22:07.477724+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 794 · Optimal-buprenorphine-exposure-to-treat-patients-with-opioid-use-disor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.334801+00:00
+updated_at: 2026-09-10T11:22:07.479764+00:00
 tags: [record, real-data]
 ---
 

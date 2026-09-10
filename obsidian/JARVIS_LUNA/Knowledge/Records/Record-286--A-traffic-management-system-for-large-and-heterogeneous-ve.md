@@ -2,7 +2,7 @@
 title: "Record 286 · A-traffic-management-system-for-large-and-heterogeneous-vehicles-in-na"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.230121+00:00
+updated_at: 2026-09-10T11:22:07.386120+00:00
 tags: [record, real-data]
 ---
 

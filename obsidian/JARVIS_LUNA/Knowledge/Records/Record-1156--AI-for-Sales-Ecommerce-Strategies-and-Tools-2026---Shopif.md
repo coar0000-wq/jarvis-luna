@@ -2,7 +2,7 @@
 title: "Record 1156 · AI-for-Sales-Ecommerce-Strategies-and-Tools-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.409063+00:00
+updated_at: 2026-09-10T11:22:07.547401+00:00
 tags: [record, real-data]
 ---
 

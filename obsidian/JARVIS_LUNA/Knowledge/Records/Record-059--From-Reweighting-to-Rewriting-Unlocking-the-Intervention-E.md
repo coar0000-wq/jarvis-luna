@@ -2,7 +2,7 @@
 title: "Record 059 · From-Reweighting-to-Rewriting-Unlocking-the-Intervention-Effects-of-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.172215+00:00
+updated_at: 2026-09-10T11:22:07.340680+00:00
 tags: [record, real-data]
 ---
 

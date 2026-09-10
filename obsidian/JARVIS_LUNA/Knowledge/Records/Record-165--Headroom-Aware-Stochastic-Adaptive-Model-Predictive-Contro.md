@@ -2,7 +2,7 @@
 title: "Record 165 · Headroom-Aware-Stochastic-Adaptive-Model-Predictive-Control-for-Load-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.200259+00:00
+updated_at: 2026-09-10T11:22:07.362230+00:00
 tags: [record, real-data]
 ---
 

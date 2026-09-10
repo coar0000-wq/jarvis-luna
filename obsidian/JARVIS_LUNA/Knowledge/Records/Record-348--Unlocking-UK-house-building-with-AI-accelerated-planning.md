@@ -2,7 +2,7 @@
 title: "Record 348 · Unlocking-UK-house-building-with-AI-accelerated-planning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.242948+00:00
+updated_at: 2026-09-10T11:22:07.396624+00:00
 tags: [record, real-data]
 ---
 

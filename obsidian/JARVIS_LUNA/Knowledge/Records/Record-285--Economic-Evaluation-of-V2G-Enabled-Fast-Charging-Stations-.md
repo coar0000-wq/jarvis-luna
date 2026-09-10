@@ -2,7 +2,7 @@
 title: "Record 285 · Economic-Evaluation-of-V2G-Enabled-Fast-Charging-Stations-Under-Endoge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.229857+00:00
+updated_at: 2026-09-10T11:22:07.385905+00:00
 tags: [record, real-data]
 ---
 

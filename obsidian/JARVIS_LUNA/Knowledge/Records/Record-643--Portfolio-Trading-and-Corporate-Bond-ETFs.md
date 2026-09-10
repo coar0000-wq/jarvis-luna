@@ -2,7 +2,7 @@
 title: "Record 643 · Portfolio-Trading-and-Corporate-Bond-ETFs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.304302+00:00
+updated_at: 2026-09-10T11:22:07.451563+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 404 · Real-time-Software-Enablement-in-Zonal-Controllers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.254865+00:00
+updated_at: 2026-09-10T11:22:07.407022+00:00
 tags: [record, real-data]
 ---
 

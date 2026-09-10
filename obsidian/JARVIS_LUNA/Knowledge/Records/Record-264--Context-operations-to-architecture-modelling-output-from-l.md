@@ -2,7 +2,7 @@
 title: "Record 264 · Context-operations-to-architecture-modelling-output-from-large-languag"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.224525+00:00
+updated_at: 2026-09-10T11:22:07.381601+00:00
 tags: [record, real-data]
 ---
 

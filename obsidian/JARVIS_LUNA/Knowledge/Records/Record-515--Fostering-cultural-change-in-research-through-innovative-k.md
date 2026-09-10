@@ -2,7 +2,7 @@
 title: "Record 515 · Fostering-cultural-change-in-research-through-innovative-knowledge-sha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.278024+00:00
+updated_at: 2026-09-10T11:22:07.428033+00:00
 tags: [record, real-data]
 ---
 

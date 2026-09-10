@@ -2,7 +2,7 @@
 title: "Record 622 · Edge-AIAn-Industry-View"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.300193+00:00
+updated_at: 2026-09-10T11:22:07.447715+00:00
 tags: [record, real-data]
 ---
 

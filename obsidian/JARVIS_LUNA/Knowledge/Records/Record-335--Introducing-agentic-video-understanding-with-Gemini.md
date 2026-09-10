@@ -2,7 +2,7 @@
 title: "Record 335 · Introducing-agentic-video-understanding-with-Gemini"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.240418+00:00
+updated_at: 2026-09-10T11:22:07.394528+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 314 · Securing-Software-at-the-Speed-of-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.236146+00:00
+updated_at: 2026-09-10T11:22:07.390973+00:00
 tags: [record, real-data]
 ---
 

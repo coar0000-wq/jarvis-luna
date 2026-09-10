@@ -2,7 +2,7 @@
 title: "Record 261 · Grounding-Generated-Video-Plans-in-Simulation-Towards-Versatile-Dexter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.223734+00:00
+updated_at: 2026-09-10T11:22:07.380962+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 170 · CUA-Universe-A-Scalable-and-Dynamic-Environment-for-Hybrid-GUICLI-Agen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.201400+00:00
+updated_at: 2026-09-10T11:22:07.363152+00:00
 tags: [record, real-data]
 ---
 

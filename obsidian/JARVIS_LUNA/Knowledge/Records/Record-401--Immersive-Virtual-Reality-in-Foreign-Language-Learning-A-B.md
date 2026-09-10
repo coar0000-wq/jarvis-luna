@@ -2,7 +2,7 @@
 title: "Record 401 · Immersive-Virtual-Reality-in-Foreign-Language-Learning-A-Bibliometric-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.254295+00:00
+updated_at: 2026-09-10T11:22:07.406528+00:00
 tags: [record, real-data]
 ---
 

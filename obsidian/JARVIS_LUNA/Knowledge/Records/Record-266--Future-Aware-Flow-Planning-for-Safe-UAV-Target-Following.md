@@ -2,7 +2,7 @@
 title: "Record 266 · Future-Aware-Flow-Planning-for-Safe-UAV-Target-Following"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.225012+00:00
+updated_at: 2026-09-10T11:22:07.382010+00:00
 tags: [record, real-data]
 ---
 

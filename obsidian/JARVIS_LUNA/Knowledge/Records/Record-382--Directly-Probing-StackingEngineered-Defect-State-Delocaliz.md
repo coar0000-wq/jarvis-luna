@@ -2,7 +2,7 @@
 title: "Record 382 · Directly-Probing-StackingEngineered-Defect-State-Delocalization-in-Mar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.250410+00:00
+updated_at: 2026-09-10T11:22:07.403026+00:00
 tags: [record, real-data]
 ---
 

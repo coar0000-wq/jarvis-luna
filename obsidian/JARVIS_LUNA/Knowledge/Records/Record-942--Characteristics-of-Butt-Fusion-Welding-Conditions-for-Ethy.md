@@ -2,7 +2,7 @@
 title: "Record 942 · Characteristics-of-Butt-Fusion-Welding-Conditions-for-Ethylene-Chlorot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.364194+00:00
+updated_at: 2026-09-10T11:22:07.506292+00:00
 tags: [record, real-data]
 ---
 

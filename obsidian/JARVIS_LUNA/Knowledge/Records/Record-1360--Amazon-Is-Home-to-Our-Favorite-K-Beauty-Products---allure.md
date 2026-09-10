@@ -2,7 +2,7 @@
 title: "Record 1360 · Amazon-Is-Home-to-Our-Favorite-K-Beauty-Products---allurecom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.447633+00:00
+updated_at: 2026-09-10T11:22:07.581758+00:00
 tags: [record, real-data]
 ---
 

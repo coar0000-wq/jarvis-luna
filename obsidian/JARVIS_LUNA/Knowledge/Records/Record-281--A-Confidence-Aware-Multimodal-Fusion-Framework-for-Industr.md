@@ -2,7 +2,7 @@
 title: "Record 281 · A-Confidence-Aware-Multimodal-Fusion-Framework-for-Industrial-Human-Ro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.228862+00:00
+updated_at: 2026-09-10T11:22:07.385100+00:00
 tags: [record, real-data]
 ---
 

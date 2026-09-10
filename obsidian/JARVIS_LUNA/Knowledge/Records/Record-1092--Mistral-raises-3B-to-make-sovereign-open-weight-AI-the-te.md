@@ -2,7 +2,7 @@
 title: "Record 1092 · Mistral-raises-3B-to-make-sovereign-open-weight-AI-the-technology-fron"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.396475+00:00
+updated_at: 2026-09-10T11:22:07.535891+00:00
 tags: [record, real-data]
 ---
 

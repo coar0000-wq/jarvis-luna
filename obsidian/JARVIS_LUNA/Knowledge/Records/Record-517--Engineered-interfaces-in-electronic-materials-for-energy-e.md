@@ -2,7 +2,7 @@
 title: "Record 517 · Engineered-interfaces-in-electronic-materials-for-energy-efficient-com"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.278414+00:00
+updated_at: 2026-09-10T11:22:07.428342+00:00
 tags: [record, real-data]
 ---
 

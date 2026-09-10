@@ -2,7 +2,7 @@
 title: "Record 181 · Diffusion-TV-Experiencing-Diffusion-Models-through-Tangible-Embodied-I"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.203857+00:00
+updated_at: 2026-09-10T11:22:07.365128+00:00
 tags: [record, real-data]
 ---
 

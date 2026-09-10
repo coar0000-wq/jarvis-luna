@@ -2,7 +2,7 @@
 title: "Record 267 · Multi-Robot-Scanner-for-Automated-Full-Body-Dermoscopic-Imaging"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.225249+00:00
+updated_at: 2026-09-10T11:22:07.382206+00:00
 tags: [record, real-data]
 ---
 

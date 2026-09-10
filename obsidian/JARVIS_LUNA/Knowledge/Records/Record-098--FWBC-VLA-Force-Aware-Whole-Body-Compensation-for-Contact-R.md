@@ -2,7 +2,7 @@
 title: "Record 098 · FWBC-VLA-Force-Aware-Whole-Body-Compensation-for-Contact-Rich-Loco-Man"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.182027+00:00
+updated_at: 2026-09-10T11:22:07.348515+00:00
 tags: [record, real-data]
 ---
 

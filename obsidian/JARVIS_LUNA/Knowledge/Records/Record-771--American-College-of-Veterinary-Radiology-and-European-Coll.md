@@ -2,7 +2,7 @@
 title: "Record 771 · American-College-of-Veterinary-Radiology-and-European-College-of-Veter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.330026+00:00
+updated_at: 2026-09-10T11:22:07.475406+00:00
 tags: [record, real-data]
 ---
 

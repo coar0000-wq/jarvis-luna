@@ -2,7 +2,7 @@
 title: "Record 914 · MCP-Under-Attack---Security-Risks-in-the-Model-Context-Protocol-Ecosys"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.358695+00:00
+updated_at: 2026-09-10T11:22:07.501337+00:00
 tags: [record, real-data]
 ---
 

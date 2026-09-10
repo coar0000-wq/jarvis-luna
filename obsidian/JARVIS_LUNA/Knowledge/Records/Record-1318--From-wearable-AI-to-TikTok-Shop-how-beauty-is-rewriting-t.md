@@ -2,7 +2,7 @@
 title: "Record 1318 · From-wearable-AI-to-TikTok-Shop-how-beauty-is-rewriting-the-retail-gro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.439609+00:00
+updated_at: 2026-09-10T11:22:07.575300+00:00
 tags: [record, real-data]
 ---
 

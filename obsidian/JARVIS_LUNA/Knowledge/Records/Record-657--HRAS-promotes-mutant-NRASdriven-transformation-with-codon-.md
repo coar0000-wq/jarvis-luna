@@ -2,7 +2,7 @@
 title: "Record 657 · HRAS-promotes-mutant-NRASdriven-transformation-with-codon-and-allele-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.307077+00:00
+updated_at: 2026-09-10T11:22:07.454178+00:00
 tags: [record, real-data]
 ---
 

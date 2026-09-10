@@ -2,7 +2,7 @@
 title: "Record 800 · Deep-Learning-Based-Safety-Legislation-Recommendation-System-for-Const"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.336032+00:00
+updated_at: 2026-09-10T11:22:07.480855+00:00
 tags: [record, real-data]
 ---
 

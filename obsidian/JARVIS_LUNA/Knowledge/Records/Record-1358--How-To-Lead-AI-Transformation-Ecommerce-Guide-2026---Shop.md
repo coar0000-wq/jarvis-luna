@@ -2,7 +2,7 @@
 title: "Record 1358 · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.447274+00:00
+updated_at: 2026-09-10T11:22:07.581495+00:00
 tags: [record, real-data]
 ---
 

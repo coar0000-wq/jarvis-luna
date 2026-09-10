@@ -2,7 +2,7 @@
 title: "Record 086 · WISE-World-model-guided-Imagination-Scheduling-for-Efficient-Post-trai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.178890+00:00
+updated_at: 2026-09-10T11:22:07.345997+00:00
 tags: [record, real-data]
 ---
 

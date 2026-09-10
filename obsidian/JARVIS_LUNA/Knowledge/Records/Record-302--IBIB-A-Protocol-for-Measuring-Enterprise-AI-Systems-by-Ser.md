@@ -2,7 +2,7 @@
 title: "Record 302 · IBIB-A-Protocol-for-Measuring-Enterprise-AI-Systems-by-Serving-Route-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.233758+00:00
+updated_at: 2026-09-10T11:22:07.389021+00:00
 tags: [record, real-data]
 ---
 

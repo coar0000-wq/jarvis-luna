@@ -2,7 +2,7 @@
 title: "Record 603 · Enabling-ImageNet-Scale-Deep-Learning-on-MCUs-for-Accurate-and-Efficie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.296422+00:00
+updated_at: 2026-09-10T11:22:07.444217+00:00
 tags: [record, real-data]
 ---
 

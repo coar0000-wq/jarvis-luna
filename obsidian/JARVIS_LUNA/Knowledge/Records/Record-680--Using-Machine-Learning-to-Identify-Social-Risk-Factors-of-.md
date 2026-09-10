@@ -2,7 +2,7 @@
 title: "Record 680 · Using-Machine-Learning-to-Identify-Social-Risk-Factors-of-Hypertension"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.311586+00:00
+updated_at: 2026-09-10T11:22:07.458369+00:00
 tags: [record, real-data]
 ---
 

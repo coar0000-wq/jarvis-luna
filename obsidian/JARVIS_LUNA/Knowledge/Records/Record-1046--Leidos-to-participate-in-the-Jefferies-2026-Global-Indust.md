@@ -2,7 +2,7 @@
 title: "Record 1046 · Leidos-to-participate-in-the-Jefferies-2026-Global-Industrials-Confere"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.386482+00:00
+updated_at: 2026-09-10T11:22:07.526442+00:00
 tags: [record, real-data]
 ---
 

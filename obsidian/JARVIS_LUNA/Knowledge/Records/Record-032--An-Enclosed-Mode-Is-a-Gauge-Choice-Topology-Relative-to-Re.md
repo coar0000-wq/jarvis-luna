@@ -2,7 +2,7 @@
 title: "Record 032 · An-Enclosed-Mode-Is-a-Gauge-Choice-Topology-Relative-to-Reach-in-Certi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.167044+00:00
+updated_at: 2026-09-10T11:22:07.336466+00:00
 tags: [record, real-data]
 ---
 

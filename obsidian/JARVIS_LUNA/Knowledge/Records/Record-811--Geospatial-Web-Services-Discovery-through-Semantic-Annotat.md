@@ -2,7 +2,7 @@
 title: "Record 811 · Geospatial-Web-Services-Discovery-through-Semantic-Annotation-of-WPS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.338406+00:00
+updated_at: 2026-09-10T11:22:07.482936+00:00
 tags: [record, real-data]
 ---
 

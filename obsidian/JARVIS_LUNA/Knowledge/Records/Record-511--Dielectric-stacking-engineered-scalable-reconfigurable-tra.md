@@ -2,7 +2,7 @@
 title: "Record 511 · Dielectric-stacking-engineered-scalable-reconfigurable-transistor-plat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.277189+00:00
+updated_at: 2026-09-10T11:22:07.427383+00:00
 tags: [record, real-data]
 ---
 

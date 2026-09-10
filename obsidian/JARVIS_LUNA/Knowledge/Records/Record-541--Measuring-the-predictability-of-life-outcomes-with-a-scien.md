@@ -2,7 +2,7 @@
 title: "Record 541 · Measuring-the-predictability-of-life-outcomes-with-a-scientific-mass-c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.283350+00:00
+updated_at: 2026-09-10T11:22:07.432452+00:00
 tags: [record, real-data]
 ---
 

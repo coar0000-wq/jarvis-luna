@@ -2,7 +2,7 @@
 title: "Record 639 · AttributionScanner-A-Visual-Analytics-System-for-Model-Validation-With"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.303490+00:00
+updated_at: 2026-09-10T11:22:07.450814+00:00
 tags: [record, real-data]
 ---
 

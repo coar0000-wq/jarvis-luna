@@ -2,7 +2,7 @@
 title: "Record 930 · A-Disclosure-Benchmark-Specification-for-Automated-Alignment-Research-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.361697+00:00
+updated_at: 2026-09-10T11:22:07.504067+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1266 · I-tried-the-viral-K-beauty-serum-with-salmon-DNA-Heres-my-honest-revie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.429667+00:00
+updated_at: 2026-09-10T11:22:07.567163+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 563 · Conscientious-Classification-A-Data-Scientists-Guide-to-Discrimination"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.287863+00:00
+updated_at: 2026-09-10T11:22:07.436614+00:00
 tags: [record, real-data]
 ---
 

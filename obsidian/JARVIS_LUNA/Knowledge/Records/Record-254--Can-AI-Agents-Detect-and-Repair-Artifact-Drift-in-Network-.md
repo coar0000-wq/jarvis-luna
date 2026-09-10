@@ -2,7 +2,7 @@
 title: "Record 254 · Can-AI-Agents-Detect-and-Repair-Artifact-Drift-in-Network-Experiments"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.221962+00:00
+updated_at: 2026-09-10T11:22:07.379465+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 513 · Breaking-the-bottleneck-in-AI-clusters-with-parallel-photonic-integrat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.277596+00:00
+updated_at: 2026-09-10T11:22:07.427721+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 423 · Interpreting-transformer-representations-under-positional-inductive-bi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.258763+00:00
+updated_at: 2026-09-10T11:22:07.410493+00:00
 tags: [record, real-data]
 ---
 

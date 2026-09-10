@@ -2,7 +2,7 @@
 title: "Record 729 · FleCSI-Flexible-Computational-Science-Infrastructure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.321232+00:00
+updated_at: 2026-09-10T11:22:07.467576+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 295 · ConvMem-Convolutional-Memory-for-Long-Context-Reasoning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.232114+00:00
+updated_at: 2026-09-10T11:22:07.387740+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 484 · Periodic-GFN2--x-TB-in-CP2K-Multipolar-Ewald-Electrostatics-k-Point-Sa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.271420+00:00
+updated_at: 2026-09-10T11:22:07.422512+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 701 · Helping-children-manage-transitions"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.315763+00:00
+updated_at: 2026-09-10T11:22:07.462413+00:00
 tags: [record, real-data]
 ---
 

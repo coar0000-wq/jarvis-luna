@@ -2,7 +2,7 @@
 title: "Record 1119 · OLIVE-YOUNG-Brings-Signature-K-Beauty-Festival-to-the-US-with-OLIVE-YO"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.401882+00:00
+updated_at: 2026-09-10T11:22:07.540746+00:00
 tags: [record, real-data]
 ---
 

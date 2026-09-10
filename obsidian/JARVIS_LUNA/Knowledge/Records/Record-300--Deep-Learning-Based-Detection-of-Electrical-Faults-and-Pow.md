@@ -2,7 +2,7 @@
 title: "Record 300 · Deep-Learning-Based-Detection-of-Electrical-Faults-and-Power-Quality-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.233301+00:00
+updated_at: 2026-09-10T11:22:07.388676+00:00
 tags: [record, real-data]
 ---
 

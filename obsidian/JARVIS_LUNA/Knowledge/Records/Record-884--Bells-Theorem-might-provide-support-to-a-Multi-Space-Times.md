@@ -2,7 +2,7 @@
 title: "Record 884 · Bells-Theorem-might-provide-support-to-a-Multi-Space-Times-model-of-th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.352898+00:00
+updated_at: 2026-09-10T11:22:07.496088+00:00
 tags: [record, real-data]
 ---
 

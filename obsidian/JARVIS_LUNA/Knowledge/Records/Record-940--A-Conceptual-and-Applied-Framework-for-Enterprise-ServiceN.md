@@ -2,7 +2,7 @@
 title: "Record 940 · A-Conceptual-and-Applied-Framework-for-Enterprise-ServiceNow-Program-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.363789+00:00
+updated_at: 2026-09-10T11:22:07.505885+00:00
 tags: [record, real-data]
 ---
 

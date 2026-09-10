@@ -2,7 +2,7 @@
 title: "Record 1321 · Is-Foam-the-New-Serum-in-Skincare---Happi--Household-And-Personal-Prod"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.440175+00:00
+updated_at: 2026-09-10T11:22:07.575760+00:00
 tags: [record, real-data]
 ---
 

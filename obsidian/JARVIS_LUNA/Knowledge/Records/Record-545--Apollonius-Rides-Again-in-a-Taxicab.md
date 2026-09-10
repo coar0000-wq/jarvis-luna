@@ -2,7 +2,7 @@
 title: "Record 545 · Apollonius-Rides-Again-in-a-Taxicab"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.284215+00:00
+updated_at: 2026-09-10T11:22:07.433240+00:00
 tags: [record, real-data]
 ---
 

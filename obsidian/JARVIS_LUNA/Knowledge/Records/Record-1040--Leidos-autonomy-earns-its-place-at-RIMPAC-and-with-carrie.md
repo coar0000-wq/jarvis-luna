@@ -2,7 +2,7 @@
 title: "Record 1040 · Leidos-autonomy-earns-its-place-at-RIMPAC-and-with-carrier-strike-grou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.385030+00:00
+updated_at: 2026-09-10T11:22:07.525117+00:00
 tags: [record, real-data]
 ---
 

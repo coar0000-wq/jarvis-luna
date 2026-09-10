@@ -2,7 +2,7 @@
 title: "Record 1056 · Snowflake-Unlocks-Better-AI-Economics-with-Dynamic-Model-Routing-Deliv"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.388678+00:00
+updated_at: 2026-09-10T11:22:07.528411+00:00
 tags: [record, real-data]
 ---
 

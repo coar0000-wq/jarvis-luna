@@ -2,7 +2,7 @@
 title: "Record 273 · CougarTail--CUB-A-General-Purpose-Mast-and-Central-Utility-Board-for-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.226852+00:00
+updated_at: 2026-09-10T11:22:07.383475+00:00
 tags: [record, real-data]
 ---
 

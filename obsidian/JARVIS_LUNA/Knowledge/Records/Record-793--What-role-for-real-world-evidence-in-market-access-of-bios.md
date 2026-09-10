@@ -2,7 +2,7 @@
 title: "Record 793 · What-role-for-real-world-evidence-in-market-access-of-biosimilars"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T08:40:52.334593+00:00
+updated_at: 2026-09-10T11:22:07.479563+00:00
 tags: [record, real-data]
 ---
 
