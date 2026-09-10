@@ -2,7 +2,7 @@
 title: "Record 142 · MINT-A-Unified-Model-for-World-Space-Camera-and-Hand-Motion-Estimation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T04:45:23.765590+00:00
+updated_at: 2026-09-10T08:40:52.194116+00:00
 tags: [record, real-data]
 ---
 

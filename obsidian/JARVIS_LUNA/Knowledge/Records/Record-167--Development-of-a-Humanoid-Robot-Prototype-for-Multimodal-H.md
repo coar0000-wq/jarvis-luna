@@ -2,7 +2,7 @@
 title: "Record 167 · Development-of-a-Humanoid-Robot-Prototype-for-Multimodal-Human-Robot-I"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T04:45:23.773290+00:00
+updated_at: 2026-09-10T08:40:52.200787+00:00
 tags: [record, real-data]
 ---
 

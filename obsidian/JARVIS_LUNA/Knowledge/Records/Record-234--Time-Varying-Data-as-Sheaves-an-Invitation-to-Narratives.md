@@ -2,7 +2,7 @@
 title: "Record 234 · Time-Varying-Data-as-Sheaves-an-Invitation-to-Narratives"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T04:45:23.792587+00:00
+updated_at: 2026-09-10T08:40:52.217220+00:00
 tags: [record, real-data]
 ---
 

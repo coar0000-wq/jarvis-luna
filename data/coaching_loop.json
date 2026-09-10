@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T11:57:18.019083+09:00",
+  "generated_at": "2026-09-10T17:44:03.468906+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -11,9 +11,9 @@
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
-      "post_count": 25,
-      "collected_at": "2026-09-10T02:53:37.243650+00:00",
-      "keyword_pool": 40
+      "post_count": 49,
+      "collected_at": "2026-09-10T08:40:08.508747+00:00",
+      "keyword_pool": 48
     }
   },
   "sessions": [
@@ -64,7 +64,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule",
+          "evidence": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -78,7 +78,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['dodoskin', 'skin', 'skinny']",
+          "evidence": "matched=['dodoskin', 'hydrating', 'k-beauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -94,7 +94,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -103,13 +103,16 @@
           "glass skin",
           "hydrating",
           "dodoskin",
+          "k-beauty",
           "skin",
-          "skinny"
+          "skincare"
         ],
         "reddit_keywords_used": [
           "dodoskin",
+          "hydrating",
+          "k-beauty",
           "skin",
-          "skinny"
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -117,12 +120,14 @@
       "reddit_match": {
         "matched": [
           "dodoskin",
+          "hydrating",
+          "k-beauty",
           "skin",
-          "skinny"
+          "skincare"
         ],
-        "score": 3,
+        "score": 5,
         "status": "pass",
-        "evidence": "matched=['dodoskin', 'skin', 'skinny']",
+        "evidence": "matched=['dodoskin', 'hydrating', 'k-beauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -193,7 +198,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['dodoskin', 'k-moisturizers', 'skin', 'skinny']",
+          "evidence": "matched=['dodoskin', 'hydrating', 'k-beauty', 'k-moisturizers', 'moisturizer', 'pdrn', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -209,7 +214,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cream Collagen Pdrn — Daiso Find — Affordable hydrating pick",
           "headline": "Cream Collagen Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -220,15 +225,16 @@
           "glass skin",
           "hydrating",
           "dodoskin",
+          "k-beauty",
           "k-moisturizers",
-          "skin",
-          "skinny"
+          "moisturizer"
         ],
         "reddit_keywords_used": [
           "dodoskin",
+          "hydrating",
+          "k-beauty",
           "k-moisturizers",
-          "skin",
-          "skinny"
+          "moisturizer"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -236,13 +242,17 @@
       "reddit_match": {
         "matched": [
           "dodoskin",
+          "hydrating",
+          "k-beauty",
           "k-moisturizers",
+          "moisturizer",
+          "pdrn",
           "skin",
-          "skinny"
+          "skincare"
         ],
-        "score": 4,
+        "score": 8,
         "status": "pass",
-        "evidence": "matched=['dodoskin', 'k-moisturizers', 'skin', 'skinny']",
+        "evidence": "matched=['dodoskin', 'hydrating', 'k-beauty', 'k-moisturizers', 'moisturizer', 'pdrn', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -313,7 +323,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['dodoskin', 'skin', 'skinny']",
+          "evidence": "matched=['dodoskin', 'hydrating', 'k-beauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -329,7 +339,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule Centella — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule Centella — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -339,13 +349,16 @@
           "glass skin",
           "hydrating",
           "dodoskin",
+          "k-beauty",
           "skin",
-          "skinny"
+          "skincare"
         ],
         "reddit_keywords_used": [
           "dodoskin",
+          "hydrating",
+          "k-beauty",
           "skin",
-          "skinny"
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -353,12 +366,14 @@
       "reddit_match": {
         "matched": [
           "dodoskin",
+          "hydrating",
+          "k-beauty",
           "skin",
-          "skinny"
+          "skincare"
         ],
-        "score": 3,
+        "score": 5,
         "status": "pass",
-        "evidence": "matched=['dodoskin', 'skin', 'skinny']",
+        "evidence": "matched=['dodoskin', 'hydrating', 'k-beauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -429,14 +444,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'masks', 'over', 'sheet']",
+          "evidence": "matched=['masks', 'over', 'sheet']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — ask · sheet mask",
+          "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — masks · sheet mask",
           "headline": "Celderma Daily Transforming Firming Coll",
           "description": "Discover the Celderma Daily Transforming Firming Collagen Mask, designed to give your daily skincare routine a refreshing boost. This 28g sheet mask delivers convenient and soothing care for your skin",
           "cta": "Shop now"
@@ -454,13 +469,11 @@
           "sheet mask",
           "overnight mask",
           "collagen mask",
-          "ask",
           "masks",
           "over",
           "sheet"
         ],
         "reddit_keywords_used": [
-          "ask",
           "masks",
           "over",
           "sheet"
@@ -470,14 +483,13 @@
       },
       "reddit_match": {
         "matched": [
-          "ask",
           "masks",
           "over",
           "sheet"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['ask', 'masks', 'over', 'sheet']",
+        "evidence": "matched=['masks', 'over', 'sheet']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -548,7 +560,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['dodoskin', 'skin', 'skinny']",
+          "evidence": "matched=['dodoskin', 'hydrating', 'k-beauty', 'one', 'skin', 'skincare', 'toners']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -564,7 +576,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Toner — Daiso Find — Affordable hydrating pick",
           "headline": "Toner — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -573,13 +585,16 @@
           "glass skin",
           "hydrating",
           "dodoskin",
-          "skin",
-          "skinny"
+          "k-beauty",
+          "one",
+          "skin"
         ],
         "reddit_keywords_used": [
           "dodoskin",
-          "skin",
-          "skinny"
+          "hydrating",
+          "k-beauty",
+          "one",
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -587,12 +602,16 @@
       "reddit_match": {
         "matched": [
           "dodoskin",
+          "hydrating",
+          "k-beauty",
+          "one",
           "skin",
-          "skinny"
+          "skincare",
+          "toners"
         ],
-        "score": 3,
+        "score": 7,
         "status": "pass",
-        "evidence": "matched=['dodoskin', 'skin', 'skinny']",
+        "evidence": "matched=['dodoskin', 'hydrating', 'k-beauty', 'one', 'skin', 'skincare', 'toners']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -600,123 +619,6 @@
         "warn": 3,
         "fail": 0,
         "next_action": "경고 항목 보완 후 등록"
-      }
-    },
-    {
-      "pd_no": "1045421",
-      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
-      "bucket": "스킨케어",
-      "shopify_score": 88,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
-      "readiness": "fix_then_list",
-      "checklist": [
-        {
-          "id": "grade_s",
-          "label": "S등급 유지",
-          "status": "pass",
-          "evidence": "grade=S, score=88",
-          "tip": "S가 아니면 1차 등록 보류"
-        },
-        {
-          "id": "margin",
-          "label": "마진 확인",
-          "status": "warn",
-          "evidence": "pricing 미연결",
-          "tip": "pricing_model 재실행"
-        },
-        {
-          "id": "price_band",
-          "label": "권장가",
-          "status": "warn",
-          "evidence": "suggested_price 없음",
-          "tip": "pricing_model 확인"
-        },
-        {
-          "id": "listing_copy",
-          "label": "영문 리스팅 카피",
-          "status": "fail",
-          "evidence": "카피 미생성",
-          "tip": "shopify-listing-copy 워크플로 실행"
-        },
-        {
-          "id": "listing_ready_flag",
-          "label": "등록 준비 플래그",
-          "status": "warn",
-          "evidence": "listing_ready=False",
-          "tip": "카피·이미지 준비되면 true"
-        },
-        {
-          "id": "global_signal",
-          "label": "글로벌 수요 시그널",
-          "status": "pass",
-          "evidence": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
-          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
-        },
-        {
-          "id": "social_proof",
-          "label": "국내 리뷰(대리지표)",
-          "status": "pass",
-          "evidence": "review_count=567",
-          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
-        },
-        {
-          "id": "reddit_community",
-          "label": "Reddit 뷰티 커뮤니티 키워드",
-          "status": "pass",
-          "evidence": "matched=['cushion', 'dodoskin', 'skin', 'skinny']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-        }
-      ],
-      "ad_copy_ab": {
-        "variant_a": {
-          "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Cushion — Daiso Find — cushion · K-beauty",
-          "headline": "Cushion — Daiso Find",
-          "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
-          "cta": "Shop now"
-        },
-        "variant_b": {
-          "label": "B · 가성비/가격 후킹",
-          "primary_text": "Cushion — Daiso Find — Affordable hydrating pick",
-          "headline": "Cushion — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
-          "cta": "See price"
-        },
-        "suggested_keywords": [
-          "cushion",
-          "K-beauty",
-          "glass skin",
-          "hydrating",
-          "dodoskin",
-          "skin",
-          "skinny"
-        ],
-        "reddit_keywords_used": [
-          "cushion",
-          "dodoskin",
-          "skin",
-          "skinny"
-        ],
-        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
-        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
-      },
-      "reddit_match": {
-        "matched": [
-          "cushion",
-          "dodoskin",
-          "skin",
-          "skinny"
-        ],
-        "score": 4,
-        "status": "pass",
-        "evidence": "matched=['cushion', 'dodoskin', 'skin', 'skinny']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-      },
-      "coach_summary": {
-        "pass": 4,
-        "warn": 3,
-        "fail": 1,
-        "next_action": "실패 항목 수정"
       }
     },
     {
@@ -780,7 +682,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['dodoskin', 'skin', 'skinny']",
+          "evidence": "matched=['dodoskin', 'hydrating', 'k-beauty', 'one', 'skin', 'skincare', 'toners']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -796,7 +698,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Toner Heartleaf — Daiso Find — Affordable hydrating pick",
           "headline": "Toner Heartleaf — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [7types] MEDIHEAL Toner Pad 100+100ct Do.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -806,13 +708,16 @@
           "glass skin",
           "hydrating",
           "dodoskin",
-          "skin",
-          "skinny"
+          "k-beauty",
+          "one",
+          "skin"
         ],
         "reddit_keywords_used": [
           "dodoskin",
-          "skin",
-          "skinny"
+          "hydrating",
+          "k-beauty",
+          "one",
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -820,12 +725,16 @@
       "reddit_match": {
         "matched": [
           "dodoskin",
+          "hydrating",
+          "k-beauty",
+          "one",
           "skin",
-          "skinny"
+          "skincare",
+          "toners"
         ],
-        "score": 3,
+        "score": 7,
         "status": "pass",
-        "evidence": "matched=['dodoskin', 'skin', 'skinny']",
+        "evidence": "matched=['dodoskin', 'hydrating', 'k-beauty', 'one', 'skin', 'skincare', 'toners']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -833,6 +742,126 @@
         "warn": 3,
         "fail": 0,
         "next_action": "경고 항목 보완 후 등록"
+      }
+    },
+    {
+      "pd_no": "1045421",
+      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+      "bucket": "스킨케어",
+      "shopify_score": 85,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
+      "readiness": "fix_then_list",
+      "checklist": [
+        {
+          "id": "grade_s",
+          "label": "S등급 유지",
+          "status": "pass",
+          "evidence": "grade=S, score=85",
+          "tip": "S가 아니면 1차 등록 보류"
+        },
+        {
+          "id": "margin",
+          "label": "마진 확인",
+          "status": "warn",
+          "evidence": "pricing 미연결",
+          "tip": "pricing_model 재실행"
+        },
+        {
+          "id": "price_band",
+          "label": "권장가",
+          "status": "warn",
+          "evidence": "suggested_price 없음",
+          "tip": "pricing_model 확인"
+        },
+        {
+          "id": "listing_copy",
+          "label": "영문 리스팅 카피",
+          "status": "fail",
+          "evidence": "카피 미생성",
+          "tip": "shopify-listing-copy 워크플로 실행"
+        },
+        {
+          "id": "listing_ready_flag",
+          "label": "등록 준비 플래그",
+          "status": "warn",
+          "evidence": "listing_ready=False",
+          "tip": "카피·이미지 준비되면 true"
+        },
+        {
+          "id": "global_signal",
+          "label": "글로벌 수요 시그널",
+          "status": "pass",
+          "evidence": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
+          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
+        },
+        {
+          "id": "social_proof",
+          "label": "국내 리뷰(대리지표)",
+          "status": "pass",
+          "evidence": "review_count=567",
+          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
+        },
+        {
+          "id": "reddit_community",
+          "label": "Reddit 뷰티 커뮤니티 키워드",
+          "status": "pass",
+          "evidence": "matched=['cushion', 'dodoskin', 'hydrating', 'k-beauty', 'skin', 'skincare']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        }
+      ],
+      "ad_copy_ab": {
+        "variant_a": {
+          "label": "A · 성분/커뮤니티 후킹",
+          "primary_text": "Cushion — Daiso Find — cushion · K-beauty",
+          "headline": "Cushion — Daiso Find",
+          "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
+          "cta": "Shop now"
+        },
+        "variant_b": {
+          "label": "B · 가성비/가격 후킹",
+          "primary_text": "Cushion — Daiso Find — Affordable hydrating pick",
+          "headline": "Cushion — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "cta": "See price"
+        },
+        "suggested_keywords": [
+          "cushion",
+          "K-beauty",
+          "glass skin",
+          "hydrating",
+          "dodoskin",
+          "k-beauty",
+          "skin"
+        ],
+        "reddit_keywords_used": [
+          "cushion",
+          "dodoskin",
+          "hydrating",
+          "k-beauty",
+          "skin"
+        ],
+        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
+        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
+      },
+      "reddit_match": {
+        "matched": [
+          "cushion",
+          "dodoskin",
+          "hydrating",
+          "k-beauty",
+          "skin",
+          "skincare"
+        ],
+        "score": 6,
+        "status": "pass",
+        "evidence": "matched=['cushion', 'dodoskin', 'hydrating', 'k-beauty', 'skin', 'skincare']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+      },
+      "coach_summary": {
+        "pass": 4,
+        "warn": 3,
+        "fail": 1,
+        "next_action": "실패 항목 수정"
       }
     }
   ],

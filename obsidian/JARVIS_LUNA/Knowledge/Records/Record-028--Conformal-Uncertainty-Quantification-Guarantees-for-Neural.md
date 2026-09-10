@@ -2,7 +2,7 @@
 title: "Record 028 · Conformal-Uncertainty-Quantification-Guarantees-for-Neural-Operators"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T04:45:23.734426+00:00
+updated_at: 2026-09-10T08:40:52.166254+00:00
 tags: [record, real-data]
 ---
 

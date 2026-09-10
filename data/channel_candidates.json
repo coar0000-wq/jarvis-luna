@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T02:57:31.806864+00:00",
+  "generated_at": "2026-09-10T08:44:17.044177+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -97,15 +97,15 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21328,
-      "items": 40,
+      "bytes": 20744,
+      "items": 39,
       "samples": [
-        "carrie underwood",
-        "Carrie Underwood Goes Full Nu-Metal with Limp Bizkit, Linkin Park, and Papa Roach Covers: Watch",
-        "See CARRIE UNDERWOOD cover LIMP BIZKIT's \"Break Stuff\""
+        "motagua - alianza",
+        "FC Motagua se impone en la ida de los Cuartos de Final",
+        "Estos son los convocados de Alianza para enfrentar a Motagua"
       ],
       "verdict": "가능",
-      "reason": "40건 파싱 성공, 값이 서로 다름",
+      "reason": "39건 파싱 성공, 값이 서로 다름",
       "already_live": true,
       "live_channel": "google_trends_us"
     },

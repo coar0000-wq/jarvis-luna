@@ -2,7 +2,7 @@
 title: "Record 104 · Quantifying-Power-to-Voltage-and-Frequency-Dynamics-for-Oscillation-Pr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T04:45:23.754586+00:00
+updated_at: 2026-09-10T08:40:52.183670+00:00
 tags: [record, real-data]
 ---
 

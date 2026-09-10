@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T02:57:10.305800+00:00",
+  "generated_at": "2026-09-10T08:43:56.054005+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "chris pappas",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Wed, 9 Sep 2026 19:40:00 -0700",
-          "source_name": "NBC News",
-          "url": "https://trends.google.com/trending?geo=US&q=chris%20pappas"
+          "keyword": "delta flight 2311 rapid descent",
+          "approx_traffic": "20000+",
+          "traffic_num": 20000,
+          "published": "Thu, 10 Sep 2026 00:10:00 -0700",
+          "source_name": "Fox News",
+          "url": "https://trends.google.com/trending?geo=US&q=delta%20flight%202311%20rapid%20descent"
         },
         {
-          "keyword": "carrie underwood",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Wed, 9 Sep 2026 19:40:00 -0700",
-          "source_name": "Consequence of Sound",
-          "url": "https://trends.google.com/trending?geo=US&q=carrie%20underwood"
-        },
-        {
-          "keyword": "roy cooper",
+          "keyword": "woody harrelson",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Wed, 9 Sep 2026 19:30:00 -0700",
-          "source_name": "Carolina Journal",
-          "url": "https://trends.google.com/trending?geo=US&q=roy%20cooper"
+          "published": "Wed, 9 Sep 2026 21:50:00 -0700",
+          "source_name": "MovieWeb",
+          "url": "https://trends.google.com/trending?geo=US&q=woody%20harrelson"
         },
         {
-          "keyword": "brandon sproat",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Wed, 9 Sep 2026 19:30:00 -0700",
+          "keyword": "deepseek v4.1 flash",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 9 Sep 2026 23:40:00 -0700",
+          "source_name": "36氪",
+          "url": "https://trends.google.com/trending?geo=US&q=deepseek%20v4.1%20flash"
+        },
+        {
+          "keyword": "san jose earthquakes",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 9 Sep 2026 21:40:00 -0700",
+          "source_name": "sandiegofc.com",
+          "url": "https://trends.google.com/trending?geo=US&q=san%20jose%20earthquakes"
+        },
+        {
+          "keyword": "blake lively",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 9 Sep 2026 22:40:00 -0700",
+          "source_name": "People.com",
+          "url": "https://trends.google.com/trending?geo=US&q=blake%20lively"
+        },
+        {
+          "keyword": "tommy mcmillen",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 9 Sep 2026 22:20:00 -0700",
+          "source_name": "MMA Fighting",
+          "url": "https://trends.google.com/trending?geo=US&q=tommy%20mcmillen"
+        },
+        {
+          "keyword": "cynthia klitbo",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 9 Sep 2026 22:20:00 -0700",
+          "source_name": "Dallas News",
+          "url": "https://trends.google.com/trending?geo=US&q=cynthia%20klitbo"
+        },
+        {
+          "keyword": "eliezer alfonzo",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 9 Sep 2026 21:50:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=eliezer%20alfonzo"
+        },
+        {
+          "keyword": "jose trevino",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 9 Sep 2026 21:50:00 -0700",
           "source_name": "MLB.com",
-          "url": "https://trends.google.com/trending?geo=US&q=brandon%20sproat"
+          "url": "https://trends.google.com/trending?geo=US&q=jose%20trevino"
         },
         {
-          "keyword": "physint",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 9 Sep 2026 19:40:00 -0700",
-          "source_name": "XBOX Wire",
-          "url": "https://trends.google.com/trending?geo=US&q=physint"
-        },
-        {
-          "keyword": "traitors",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 9 Sep 2026 19:40:00 -0700",
-          "source_name": "Who",
-          "url": "https://trends.google.com/trending?geo=US&q=traitors"
-        },
-        {
-          "keyword": "talarico",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 9 Sep 2026 19:30:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=talarico"
-        },
-        {
-          "keyword": "mary peltola",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 9 Sep 2026 19:30:00 -0700",
-          "source_name": "Bloomberg.com",
-          "url": "https://trends.google.com/trending?geo=US&q=mary%20peltola"
-        },
-        {
-          "keyword": "casemiro",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 9 Sep 2026 19:30:00 -0700",
-          "source_name": "MLSsoccer.com",
-          "url": "https://trends.google.com/trending?geo=US&q=casemiro"
-        },
-        {
-          "keyword": "kylie kelce",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 9 Sep 2026 19:30:00 -0700",
-          "source_name": "The Times of India",
-          "url": "https://trends.google.com/trending?geo=US&q=kylie%20kelce"
+          "keyword": "motagua - alianza",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Thu, 10 Sep 2026 01:10:00 -0700",
+          "source_name": "Concacaf | Official Website",
+          "url": "https://trends.google.com/trending?geo=US&q=motagua%20-%20alianza"
         }
       ]
     },

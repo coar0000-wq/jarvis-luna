@@ -2,7 +2,7 @@
 title: "Record 218 · Ostrich-Taking-Large-Strides-Through-Stiff-Contact-in-Differentiable-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T04:45:23.787726+00:00
+updated_at: 2026-09-10T08:40:52.213084+00:00
 tags: [record, real-data]
 ---
 
