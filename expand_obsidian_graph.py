@@ -209,10 +209,16 @@ def main() -> int:
         record = record_key(row)
         # 잘라낸 이름이 우연히 겹치면 뒤엣것이 앞엣것을 덮는다. 겹치면
         # 건너뛴다. 같은 자료면 어차피 같은 파일이라 잃는 것이 없다.
+        #
+        # 대소문자를 무시하고 본다. 윈도우는 ASML 과 Asml 을 같은 파일로
+        # 본다. 저장소에는 둘 다 등록되고 체크아웃하면 하나가 다른 하나를
+        # 덮는다. 그러면 작업 폴더가 영구히 dirty 가 되고 rebase 가 안 된다.
+        # 실제로 그렇게 돼서 72개 파일이 되돌려도 계속 수정됨으로 남았다.
         fname = slug(record)
-        if fname in seen_names and seen_names[fname] != record:
+        key = fname.casefold()
+        if key in seen_names and seen_names[key] != record:
             continue
-        seen_names[fname] = record
+        seen_names[key] = record
         record_nodes.append(record)
         src = source_name(row)
         source_records[src].append({"node": record, "row": row})

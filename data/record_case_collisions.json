@@ -1,0 +1,1063 @@
+{
+  "생성": "2026-09-10T12:45:24.506022+00:00",
+  "만든이": "scripts/fix_case_collisions.py",
+  "왜": "대소문자만 다른 같은 경로가 저장소에 둘씩 등록돼 있었다. 윈도우는 같은 파일로 보므로 하나가 다른 하나를 덮고, 덮인 쪽이 영구히 수정됨으로 남아 rebase 가 안 됐다.",
+  "추적_노트수": 74126,
+  "충돌_묶음": 77,
+  "남긴_경로수": 9,
+  "뺀_경로수": 145,
+  "적용함": true,
+  "판정": [
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-051--AI-for-Sales-Ecommerce-Strategies-and-Tools-2026---Shopify.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-051--AI-for-Sales-Ecommerce-Strategies-and-Tools-2026---shopify.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-067--K-Beauty-Products-Market-Size-Share--CAGR-of-96---Marketus.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-067--K-Beauty-Products-Market-Size-Share--CAGR-of-96---marketus.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-069--Trying-Out-A-TikTok-Beauty-Trend---WWLTVcom.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-069--Trying-Out-A-TikTok-Beauty-Trend---wwltvcom.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-099--9-TikTok-Buys-That-Are-Genuinely-Worth-Your-Money---SheerL.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-099--9-TikTok-Buys-That-Are-Genuinely-Worth-Your-Money---sheerl.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1011--Turkish-Delight-Makeup-Is-TikToks-Delicious-New-Trend---N.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1011--Turkish-Delight-Makeup-Is-TikToks-Delicious-New-Trend---n.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1017--2026-Ecommerce-Trends-How-Brands-Are-Planning-Ahead---Sho.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1017--2026-Ecommerce-Trends-How-Brands-Are-Planning-Ahead---sho.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1024--AI-and-Efficiency-How-Businesses-Save-Time-2026---Shopify.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1024--AI-and-Efficiency-How-Businesses-Save-Time-2026---shopify.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1083--How-To-Start-a-Business-Using-AI-in-6-Steps-2026---Shopif.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1083--How-To-Start-a-Business-Using-AI-in-6-Steps-2026---shopif.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1104--Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---Shop.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1104--Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---shop.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1119--K-Beauty-Products-Market-Size-Share--CAGR-of-96---Marketu.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1119--K-Beauty-Products-Market-Size-Share--CAGR-of-96---marketu.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1128--15-K-Beauty-Products-Allure-Readers-Are-Obsessed-With---A.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1128--15-K-Beauty-Products-Allure-Readers-Are-Obsessed-With---a.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1133--Ecommerce-Fraud-Management-in-the-AI-Era-A-2026-Guide---S.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1133--Ecommerce-Fraud-Management-in-the-AI-Era-A-2026-Guide---s.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1136--K-Beauty-Products-Market-Size-Share--CAGR-of-96---Marketu.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1136--K-Beauty-Products-Market-Size-Share--CAGR-of-96---marketu.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1140--Shopify-Stock-Draws-Wave-Of-AI-Focused-Upgrades---StocksT.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1140--Shopify-Stock-Draws-Wave-Of-AI-Focused-Upgrades---stockst.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1175--6-Steps-to-Glass-Skin-According-to-K-Beauty-Experts---Vog.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1175--6-Steps-to-Glass-Skin-According-to-K-Beauty-Experts---vog.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1176--Ecommerce-Content-Strategy-Enterprise-Guide-2026---Shopif.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1176--Ecommerce-Content-Strategy-Enterprise-Guide-2026---shopif.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1177--15-K-Beauty-Products-Allure-Readers-Are-Obsessed-With---A.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1177--15-K-Beauty-Products-Allure-Readers-Are-Obsessed-With---a.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1233--Olive-Young-to-host-experiential-K-beauty-festival---Drug.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1233--Olive-Young-to-host-experiential-K-beauty-festival---drug.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "하나만 남김",
+      "남김": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1235--6-Steps-to-Glass-Skin-According-to-K-Beauty-Experts---vog.md",
+      "남긴_이유": "불린 횟수 3 (묶음 최다)",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1235--6-Steps-to-Glass-Skin-According-to-K-Beauty-Experts---Vog.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "하나만 남김",
+      "남김": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1243--The-Korean-Makeup-Products-You-Should-Absolutely-Try---vo.md",
+      "남긴_이유": "불린 횟수 3 (묶음 최다)",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1243--The-Korean-Makeup-Products-You-Should-Absolutely-Try---Vo.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "하나만 남김",
+      "남김": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1265--A-Look-Back-on-the-Biggest-K-Beauty-Trends-of-2025---vogu.md",
+      "남긴_이유": "불린 횟수 3 (묶음 최다)",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1265--A-Look-Back-on-the-Biggest-K-Beauty-Trends-of-2025---Vogu.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1280--The-Recent-Beauty-Trends-Taking-over-TikTok---BeautyMatte.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1280--The-Recent-Beauty-Trends-Taking-over-TikTok---beautymatte.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1329--How-To-Start-a-Business-Using-AI-in-6-Steps-2026---Shopif.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1329--How-To-Start-a-Business-Using-AI-in-6-Steps-2026---shopif.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1376--Shopify-Wants-To-Be-Merchants-Built-in-AI-Agency---ADWEEK.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1376--Shopify-Wants-To-Be-Merchants-Built-in-AI-Agency---adweek.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1410--Why-Does-Birthday-Makeup-Make-the-Internet-So-Mad---Hypeb.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1410--Why-Does-Birthday-Makeup-Make-the-Internet-So-Mad---hypeb.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1432--Shopify-Defies-Logic-AI-Disruption-Is-a-Good-Thing---Mark.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1432--Shopify-Defies-Logic-AI-Disruption-Is-a-Good-Thing---mark.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1459--Paloma-Elsesser-Isnt-Falling-for-TikTok-Beauty-Trends---I.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1459--Paloma-Elsesser-Isnt-Falling-for-TikTok-Beauty-Trends---i.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1464--Shopify-Debuts-Tinker-App-for-AI-Powered-Stores---PYMNTSc.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1464--Shopify-Debuts-Tinker-App-for-AI-Powered-Stores---pymntsc.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1484--TikTok-no-makeup-movement-trend-rises-in-popularity---New.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1484--TikTok-no-makeup-movement-trend-rises-in-popularity---new.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1525--The-Recent-Beauty-Trends-Taking-over-TikTok---BeautyMatte.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1525--The-Recent-Beauty-Trends-Taking-over-TikTok---beautymatte.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1579--TikTok-reveals-top-beauty-trends-and-brands-to-watch---Th.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1579--TikTok-reveals-top-beauty-trends-and-brands-to-watch---th.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1713--Does-Korean-sunscreen-work-better--Consumer-Reports---KIN.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1713--Does-Korean-sunscreen-work-better--Consumer-Reports---kin.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1724--Whats-Driving-Shopify-Inc-TSXSHOP-In-AI-Stocks-Today---Ka.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1724--Whats-Driving-Shopify-Inc-TSXSHOP-In-AI-Stocks-Today---ka.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1889--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1889--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1890--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1890--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1893--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1893--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1894--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1894--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1897--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1897--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1898--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1898--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1903--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1903--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1904--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1904--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1910--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1910--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1911--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1911--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1912--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1912--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1994--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1994--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1995--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1995--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1996--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1996--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1999--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-1999--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2000--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2000--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2024--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2024--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2025--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2025--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2026--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2026--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2027--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2027--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-207--Turkish-Delight-Makeup-Is-TikToks-Delicious-New-Trend---Ne.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-207--Turkish-Delight-Makeup-Is-TikToks-Delicious-New-Trend---ne.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-208--Meet-The-French-Makeup-Trend-Taking-Over-TikTok---NewBeaut.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-208--Meet-The-French-Makeup-Trend-Taking-Over-TikTok---newbeaut.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2132--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2132--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "하나만 남김",
+      "남김": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2279--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+      "남긴_이유": "불린 횟수 4 (묶음 최다)",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2279--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "하나만 남김",
+      "남김": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2280--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+      "남긴_이유": "불린 횟수 4 (묶음 최다)",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2280--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "하나만 남김",
+      "남김": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2281--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+      "남긴_이유": "불린 횟수 4 (묶음 최다)",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2281--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2294--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2294--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2295--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2295--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2296--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2296--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2335--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2335--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "하나만 남김",
+      "남김": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2425--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+      "남긴_이유": "불린 횟수 3 (묶음 최다)",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2425--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "하나만 남김",
+      "남김": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2426--Asml-Reports-Transactions-Under-Its-Current-Share-Buyback.md",
+      "남긴_이유": "불린 횟수 3 (묶음 최다)",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-2426--ASML-reports-transactions-under-its-current-share-buyback.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-523--The-Differential-Impacts-of-Critical-Mineral-Prices-and-Oi.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-523--The-differential-impacts-of-critical-mineral-prices-and-oi.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-533--The-Differential-Impacts-of-Critical-Mineral-Prices-and-Oi.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-533--The-differential-impacts-of-critical-mineral-prices-and-oi.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-535--eBays-Chief-AI-Officer-How-AI-Will-Change-E-Commerce---Bus.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-535--eBays-Chief-AI-Officer-How-AI-Will-Change-E-Commerce---bus.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-755--Mike-Joo-And-Adeel-Khan-Appointed-Co-Ceos-Of-Barclays-Inve.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-755--Mike-Joo-and-Adeel-Khan-appointed-Co-CEOs-of-Barclays-Inve.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-919--Tuscan-Mom-Makeup-Is-Summers-Toastiest-Beauty-Trend---Bust.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-919--Tuscan-Mom-Makeup-Is-Summers-Toastiest-Beauty-Trend---bust.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-923--AEO-for-Ecommerce-Drive-Traffic-From-AI-Search-2026---Shop.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-923--AEO-for-Ecommerce-Drive-Traffic-From-AI-Search-2026---shop.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "하나만 남김",
+      "남김": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-923--Gen-Zs-inclined-to-pay-over-face-value-for-tickets-as-dema.md",
+      "남긴_이유": "불린 횟수 6 (묶음 최다)",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-923--Gen-Zs-Inclined-To-Pay-Over-Face-Value-For-Tickets-As-Dema.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-930--15-Best-AI-Marketing-Tools-for-Ecommerce-Now-in-2026---Sho.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-930--15-Best-AI-Marketing-Tools-for-Ecommerce-Now-in-2026---sho.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-962--AI-Customer-Insights-How-To-Use-Them-in-Your-Business---Sh.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-962--AI-Customer-Insights-How-To-Use-Them-in-Your-Business---sh.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-965--K-Beauty-Products-Market-Size-Share--CAGR-of-96---Marketus.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-965--K-Beauty-Products-Market-Size-Share--CAGR-of-96---marketus.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-973--What-Beauty-Trends-Does-2026-Have-in-Store-for-Us---NewBea.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-973--What-Beauty-Trends-Does-2026-Have-in-Store-for-Us---newbea.md",
+          "불린_횟수": 0
+        }
+      ]
+    },
+    {
+      "판정": "통째로 뺌",
+      "사유": "묶음 전체가 아무 노트에서도 안 불린다",
+      "뺌": [
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-987--9-TikTok-Buys-That-Are-Genuinely-Worth-Your-Money---SheerL.md",
+          "불린_횟수": 0
+        },
+        {
+          "경로": "obsidian/JARVIS_LUNA/Knowledge/Records/Record-987--9-TikTok-Buys-That-Are-Genuinely-Worth-Your-Money---sheerl.md",
+          "불린_횟수": 0
+        }
+      ]
+    }
+  ]
+}
