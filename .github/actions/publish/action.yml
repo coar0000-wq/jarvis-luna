@@ -1,56 +1,42 @@
 name: 산출물 발행
-description: >
-  이번 실행이 실제로 바꾼 파일만 원격 최신 위에 얹고, 대시보드를 바로 그
-  트리에서 다시 만든 뒤 밀어 넣는다. 워크플로마다 흩어져 있던 커밋 블록을
-  한 곳으로 모은 것이다.
 
-# 왜 만들었나
-#   지금까지 각 워크플로가 이렇게 밀어넣었다.
-#       git checkout -B publish origin/main
-#       git checkout $MINE -- data obsidian
-#   원격 최신을 베이스로 두는 것까지는 맞다. 그런데 두 번째 줄이
-#   data/ 전체를 자기 스냅샷으로 덮는다. 내가 건드리지도 않은 파일까지
-#   내 실행이 시작할 때의 값으로 되돌린다.
-#
-#   실제로 재현했다. A 가 a.json 만 바꾸는 사이 B 가 b.json 을 원격에
-#   푸시하면
-#       지금 방식  a=A1  b=B0(되돌림)  gone=OLD(삭제 무시됨)
-#       이 방식    a=A1  b=B1(유지)    gone=삭제됨
-#
-#   Deep Analysis 는 2시간마다, Daiso 는 매일, 나머지 일곱도 각자 돈다.
-#   겹치는 순간 뒤에 끝난 쪽이 앞선 쪽의 수집 결과를 지운다.
-#
-#   대시보드가 어긋나던 것도 여기서 나온다. dashboard_runtime.json 은
-#   원본 파일들에서 계산한 값인데, 그것을 만든 실행과 원본을 갱신한 실행이
-#   다르면 화면 숫자와 파일이 서로 다른 시점을 가리킨다.
-#   그래서 대시보드는 이제 어느 단계도 직접 만들지 않는다.
-#   밀어넣기 직전, 밀어넣을 바로 그 트리에서 다시 만든다.
+description: >
+  이번 실행이 실제로 바꾼 파일만 원격 최신 위에 얹고,
+  대시보드를 최종 트리에서 다시 만든 뒤,
+  팀 숫자 감사를 통과한 경우에만 main으로 발행한다.
 
 inputs:
   paths:
     description: 발행 대상 경로. 공백으로 나눈다.
     required: false
     default: data obsidian
+
   message:
     description: 커밋 메시지
     required: true
+
   base:
     description: >
-      이번 실행이 시작한 커밋. 여기서 MINE 까지의 변경만 발행한다.
-      비우면 경로 전체를 덮는 예전 방식으로 돌아간다.
+      이번 실행이 시작한 커밋.
+      이 커밋부터 현재 실행이 만든 변경만 발행한다.
     required: false
     default: ${{ github.sha }}
+
   regenerate-dashboard:
-    description: 발행 직전 dashboard_runtime.json 을 다시 만들지
+    description: >
+      발행 직전 dashboard_runtime.json 을 다시 만들지
     required: false
     default: 'true'
+
   audit:
-    description: 발행 뒤 팀 보고 숫자 감사를 돌릴지
+    description: >
+      발행 전에 팀 보고 숫자 감사를 실행할지
     required: false
     default: 'true'
 
 runs:
   using: composite
+
   steps:
     - shell: bash
       env:
@@ -59,84 +45,213 @@ runs:
         IN_BASE: ${{ inputs.base }}
         IN_REGEN: ${{ inputs.regenerate-dashboard }}
         IN_AUDIT: ${{ inputs.audit }}
+
       run: |
-        set -uo pipefail
+        set -euo pipefail
 
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+        echo "========================================"
+        echo "JARVIS 안전 발행 시작"
+        echo "========================================"
+
+        # ------------------------------------------------------------
+        # 1. 이번 실행이 실제로 만든 변경사항을 임시 커밋으로 고정
+        # ------------------------------------------------------------
+
         git add -A -- $IN_PATHS 2>/dev/null || true
+
         if git diff --cached --quiet; then
           echo "이번 실행이 만든 변경 없음"
           exit 0
         fi
+
         git commit -q -m "wip (발행 전 고정)"
+
         MINE=$(git rev-parse HEAD)
 
-        # 기준 커밋이 없으면(얕은 클론 등) 옛 방식으로 물러난다.
+        echo "이번 실행 커밋: $MINE"
+
+        # ------------------------------------------------------------
+        # 2. 기준 커밋 존재 여부 확인
+        #
+        # 기준 커밋을 찾지 못하면 과거처럼 전체 경로를 덮어쓰지 않는다.
+        # 안전하게 중단한다.
+        # ------------------------------------------------------------
+
         BASE="$IN_BASE"
-        if [ -n "$BASE" ] && ! git cat-file -e "${BASE}^{commit}" 2>/dev/null; then
-          echo "::warning::기준 커밋 ${BASE} 을 찾지 못했다. 경로 전체를 덮는 방식으로 돈다."
-          BASE=""
+
+        if [ -z "$BASE" ]; then
+          echo "::error::이번 실행의 기준 커밋이 비어 있다."
+          echo "::error::안전하지 않은 전체 경로 발행을 막기 위해 중단한다."
+          exit 1
         fi
 
+        if ! git cat-file -e "${BASE}^{commit}" 2>/dev/null; then
+          echo "::error::기준 커밋 ${BASE} 을 찾을 수 없다."
+          echo "::error::전체 data 덮어쓰기 폴백은 사용하지 않는다."
+          exit 1
+        fi
+
+        echo "기준 커밋 확인: $BASE"
+
+        # ------------------------------------------------------------
+        # 3. 최신 origin/main 위에 이번 실행의 변경 파일만 적용
+        # ------------------------------------------------------------
+
         for i in 1 2 3 4 5; do
+
+          echo "----------------------------------------"
+          echo "발행 시도 $i / 5"
+          echo "----------------------------------------"
+
           git fetch -q origin main
+
           git checkout -q -B publish origin/main
           git reset -q --hard origin/main
 
-          N=0
-          if [ -n "$BASE" ]; then
-            CHANGED=$(git diff --name-only "$BASE" "$MINE" -- $IN_PATHS)
-            if [ -z "$CHANGED" ]; then
-              echo "이번 실행이 바꾼 파일이 없다"
-              exit 0
-            fi
-            while IFS= read -r f; do
-              [ -z "$f" ] && continue
-              if git cat-file -e "${MINE}:${f}" 2>/dev/null; then
-                git checkout -q "$MINE" -- "$f" && N=$((N+1))
-              else
-                git rm -q -f --ignore-unmatch -- "$f" >/dev/null && N=$((N+1))
-              fi
-            done <<< "$CHANGED"
-            echo "이번 실행이 바꾼 파일 ${N}개만 얹는다 (나머지는 원격 최신 유지)"
-          else
-            for pth in $IN_PATHS; do
-              git checkout -q "$MINE" -- "$pth" 2>/dev/null && N=$((N+1))
-            done
-            if [ "$N" -eq 0 ]; then
-              echo "산출물 복원 실패 - 중단"
-              exit 1
-            fi
-          fi
+          CHANGED=$(git diff --name-only "$BASE" "$MINE" -- $IN_PATHS)
 
-          # 대시보드는 밀어넣을 바로 이 트리에서 만든다.
-          # 어느 단계가 미리 만들어 둔 값을 그대로 싣지 않는다.
-          if [ "$IN_REGEN" = "true" ] && [ -f scripts/generate_dashboard_runtime.py ]; then
-            if python3 -u scripts/generate_dashboard_runtime.py; then
-              git add -A -- data/dashboard_runtime.json 2>/dev/null || true
-            else
-              echo "::warning::대시보드 재생성 실패. 직전 값을 그대로 둔다."
-            fi
-          fi
-
-          if git diff --cached --quiet; then
-            echo "원격과 같다 - 푸시할 것 없음"
+          if [ -z "$CHANGED" ]; then
+            echo "이번 실행이 바꾼 파일이 없다"
             exit 0
           fi
-          git commit -q -m "$IN_MESSAGE"
-          if git push -q origin HEAD:main; then
-            echo "push 성공 (시도 ${i}, 얹은 파일 ${N}개)"
-            RC=0
-            if [ "$IN_AUDIT" = "true" ] && [ -f scripts/audit_team_reports.py ]; then
-              python3 -u scripts/audit_team_reports.py || RC=1
-              [ "$RC" -ne 0 ] && echo "::error::팀 보고 숫자가 원본 파일과 어긋난다. 위 FAIL 을 본다."
+
+          echo "이번 실행 변경 파일:"
+          printf '%s\n' "$CHANGED"
+
+          N=0
+
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+
+            # MINE에 파일이 존재하면 최신 원격 트리에 그 파일만 복원
+            if git cat-file -e "${MINE}:${f}" 2>/dev/null; then
+
+              git checkout -q "$MINE" -- "$f"
+              N=$((N + 1))
+
+            else
+
+              # 이번 실행에서 파일이 삭제됐다면 원격에서도 삭제
+              if git cat-file -e "HEAD:${f}" 2>/dev/null; then
+                git rm -q -f -- "$f"
+                N=$((N + 1))
+              fi
+
             fi
-            exit $RC
+
+          done <<< "$CHANGED"
+
+          echo "이번 실행이 바꾼 파일 ${N}개만 얹는다"
+          echo "나머지 원격 파일은 그대로 유지한다"
+
+          if [ "$N" -eq 0 ]; then
+            echo "::error::적용된 변경 파일이 0개다."
+            exit 1
           fi
-          echo "push 거절됨, 재시도 ${i}"
+
+          git add -A -- $IN_PATHS 2>/dev/null || true
+
+          # ----------------------------------------------------------
+          # 4. 최종 트리에서 dashboard_runtime.json 재생성
+          # ----------------------------------------------------------
+
+          if [ "$IN_REGEN" = "true" ] &&
+             [ -f scripts/generate_dashboard_runtime.py ]; then
+
+            echo "대시보드 최종 트리 재생성..."
+
+            python3 -u scripts/generate_dashboard_runtime.py
+
+            git add -A -- data/dashboard_runtime.json 2>/dev/null || true
+
+          fi
+
+          # ----------------------------------------------------------
+          # 5. 변경사항이 정말 있는지 확인
+          # ----------------------------------------------------------
+
+          if git diff --cached --quiet; then
+            echo "최종 트리에 발행할 변경사항 없음"
+            exit 0
+          fi
+
+          # ----------------------------------------------------------
+          # 6. 커밋 후보 생성
+          # ----------------------------------------------------------
+
+          git commit -q -m "$IN_MESSAGE"
+
+          CANDIDATE=$(git rev-parse HEAD)
+
+          echo "발행 후보 커밋: $CANDIDATE"
+
+          # ----------------------------------------------------------
+          # 7. 중요:
+          #    푸시하기 전에 감사 실행
+          #
+          #    예전에는 push 후 audit이었다.
+          #    그래서:
+          #
+          #      push 성공
+          #      ↓
+          #      audit FAIL
+          #      ↓
+          #      Actions 빨간색
+          #
+          #    이제는:
+          #
+          #      대시보드 생성
+          #      ↓
+          #      audit
+          #      ↓
+          #      audit 통과
+          #      ↓
+          #      push
+          #
+          #    순서로 바꾼다.
+          # ----------------------------------------------------------
+
+          if [ "$IN_AUDIT" = "true" ] &&
+             [ -f scripts/audit_team_reports.py ]; then
+
+            echo "팀 보고 숫자 감사 시작..."
+
+            if ! python3 -u scripts/audit_team_reports.py; then
+              echo "::error::팀 보고 숫자 감사 실패."
+              echo "::error::원격 main에는 아직 푸시하지 않는다."
+              echo "::error::위 FAIL 내용을 먼저 수정한다."
+              exit 1
+            fi
+
+            echo "팀 보고 숫자 감사 통과"
+
+          fi
+
+          # ----------------------------------------------------------
+          # 8. 최종 푸시
+          # ----------------------------------------------------------
+
+          if git push -q origin HEAD:main; then
+
+            echo "========================================"
+            echo "push 성공"
+            echo "시도: $i"
+            echo "이번 실행 변경 파일: ${N}개"
+            echo "========================================"
+
+            exit 0
+          fi
+
+          echo "::warning::push 거절됨. 최신 원격으로 다시 계산한다."
+
+          git reset -q --hard origin/main
+
           sleep $((i * 4))
+
         done
+
         echo "::error::5회 시도 후 push 실패"
         exit 1
