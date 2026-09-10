@@ -2,7 +2,7 @@
 title: "Record de3e906a43 · Amorepacific-expands-K-beauty-portfolio-in-India-with-Mamonde-launch--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.464800+00:00
+updated_at: 2026-09-10T19:20:42.299878+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 511f8ab52c · Should-K-beauty-products-have-to-come-from-South-Korea---BBC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.296005+00:00
+updated_at: 2026-09-10T19:20:42.131793+00:00
 tags: [record, real-data]
 ---
 

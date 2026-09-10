@@ -2,7 +2,7 @@
 title: "Record e4e60568e0 · Putting-K-beauty-sunscreens-to-the-test--Consumer-Reports---WESH"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.373524+00:00
+updated_at: 2026-09-10T19:20:42.208191+00:00
 tags: [record, real-data]
 ---
 

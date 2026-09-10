@@ -2,7 +2,7 @@
 title: "Record b89b06d077 · Project-Pan-Is-The-Anti-Haul-Beauty-Trend-Everyones-Trying-This-Year--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.361676+00:00
+updated_at: 2026-09-10T19:20:42.196459+00:00
 tags: [record, real-data]
 ---
 

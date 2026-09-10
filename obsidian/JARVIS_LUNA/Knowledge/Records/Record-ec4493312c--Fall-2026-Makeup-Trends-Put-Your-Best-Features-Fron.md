@@ -2,7 +2,7 @@
 title: "Record ec4493312c · Fall-2026-Makeup-Trends-Put-Your-Best-Features-Front-and-Center--See-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.592792+00:00
+updated_at: 2026-09-10T19:20:42.422249+00:00
 tags: [record, real-data]
 ---
 

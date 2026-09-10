@@ -2,7 +2,7 @@
 title: "Record 94873ec314 · From-TikTok-Shop-to-Gen-X-The-global-beauty-trends-of-2025-revealed---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.416604+00:00
+updated_at: 2026-09-10T19:20:42.251030+00:00
 tags: [record, real-data]
 ---
 

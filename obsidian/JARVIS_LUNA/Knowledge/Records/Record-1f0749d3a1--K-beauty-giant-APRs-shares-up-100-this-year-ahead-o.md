@@ -2,7 +2,7 @@
 title: "Record 1f0749d3a1 · K-beauty-giant-APRs-shares-up-100-this-year-ahead-of-US-Costco-launch-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.381365+00:00
+updated_at: 2026-09-10T19:20:42.215939+00:00
 tags: [record, real-data]
 ---
 

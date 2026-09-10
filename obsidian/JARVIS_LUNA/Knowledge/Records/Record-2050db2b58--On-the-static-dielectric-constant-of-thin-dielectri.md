@@ -2,7 +2,7 @@
 title: "Record 2050db2b58 · On-the-static-dielectric-constant-of-thin-dielectrics-in-extremely-sca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.550009+00:00
+updated_at: 2026-09-10T19:20:42.383456+00:00
 tags: [record, real-data]
 ---
 

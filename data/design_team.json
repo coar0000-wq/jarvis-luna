@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-10T15:03:03.191146+00:00",
+  "generated_at": "2026-09-10T18:57:58.083544+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -251,6 +251,13 @@
         "feed": "Shopify Changelog"
       },
       {
+        "title": "Discounts Allocator Function API developer preview has ended",
+        "url": "https://shopify.dev/changelog/discounts-allocator-function-api-developer-preview-has-ended",
+        "date": "2026-09-10",
+        "summary": "The Discounts Allocator Function API, available only through the Discounts Allocator developer preview, has been removed and won’t be released. The developer preview is closed. Most developers don’t need to take action. The one exception is an app that still declares the purchase.discounts-allocator",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
         "title": "Create and delete dev stores in Shopify CLI",
         "url": "https://shopify.dev/changelog/create-and-delete-dev-stores-in-shopify-cli",
         "date": "2026-09-09",
@@ -346,13 +353,6 @@
         "url": "https://shopify.dev/changelog/online-store-script-tags-deprecation",
         "date": "2026-08-24",
         "summary": "Starting October 1, 2026, the scriptTagCreate and scriptTagUpdate mutations will return an user error, and the ScriptTag REST Admin API resource will reject POST and PUT . The deprecation applies to all API versions, including older ones, so pinning won't defer it. On March 1, 2027, Shopify will sto",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "App intents on `admin.app.intent.link` now open as a full-page navigation",
-        "url": "https://shopify.dev/changelog/app-intents-on-admin-app-intent-link-now-open-as-a-full-page-navigation",
-        "date": "2026-08-19",
-        "summary": "When Sidekick invokes an app intent declared on the admin.app.intent.link extension target, the Shopify admin now navigates the merchant to your extension's url as a full page, matching how Shopify's own admin intents behave. Previously, the same intent always opened in an overlay on top of the page",
         "feed": "Shopify Dev Changelog"
       },
       {

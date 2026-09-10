@@ -2,7 +2,7 @@
 title: "Record bf2f1d100c · Korean-Skincare-Really-Is-Living-In-the-FutureThese-9-Products-Are-Pro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.395042+00:00
+updated_at: 2026-09-10T19:20:42.229466+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 5d01de01c0 · Fast-Tree-Inference-With-Weighted-Fusion-Penalties"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.205646+00:00
+updated_at: 2026-09-10T19:20:42.042118+00:00
 tags: [record, real-data]
 ---
 

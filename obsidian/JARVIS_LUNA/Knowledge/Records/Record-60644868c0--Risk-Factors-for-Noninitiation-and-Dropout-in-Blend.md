@@ -2,7 +2,7 @@
 title: "Record 60644868c0 · Risk-Factors-for-Noninitiation-and-Dropout-in-Blended-Therapy-in-Inpat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.182375+00:00
+updated_at: 2026-09-10T19:20:42.020797+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4e7a924000 · Human-Human--Human-Robot-Interaction-Transformer-H2INT-for-Robot-Navig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.010173+00:00
+updated_at: 2026-09-10T19:20:41.858777+00:00
 tags: [record, real-data]
 ---
 

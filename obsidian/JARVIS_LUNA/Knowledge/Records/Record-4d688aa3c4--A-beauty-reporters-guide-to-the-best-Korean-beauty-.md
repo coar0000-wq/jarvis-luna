@@ -2,7 +2,7 @@
 title: "Record 4d688aa3c4 · A-beauty-reporters-guide-to-the-best-Korean-beauty-on-Amazon-starting-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.459798+00:00
+updated_at: 2026-09-10T19:20:42.294761+00:00
 tags: [record, real-data]
 ---
 

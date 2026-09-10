@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T15:27:48.662977+00:00",
+  "generated_at": "2026-09-10T19:24:38.495587+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,12 +65,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 25576,
+      "bytes": 25770,
       "items": 30,
       "samples": [
-        "Rodial Soft Focus Glow Drops Review",
-        "Anne Hathaway's Matchy-Matchy Red Lips and Nails Are Fall's Most Glamorous Trend—See the Photos",
-        "Allure Best of Beauty: Live Is Back—Here's What You Need to Know"
+        "Morphe Signature Lip Pencil Review",
+        "Dime Beauty Co. Skin-Care Products—Allure Beauty Box Member Choice Review",
+        "Rodial Soft Focus Glow Drops Review"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름",
@@ -97,12 +97,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21330,
+      "bytes": 21148,
       "items": 40,
       "samples": [
-        "9/11 memorial",
-        "Scottsdale honors 9/11 victims 25 years after the attacks",
-        "Ceremonies, events to remember 25th anniversary of 9/11 attacks"
+        "bayern",
+        "Liveticker | Bayern München - FK Bodö/Glimt : | 1. Spieltag | Champions League 2026/27",
+        "\"Janteloven\" als Erfolgsrezept: Macht des Kollektivs - So gefährlich ist Bodø/Glimt für Bayern"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름",

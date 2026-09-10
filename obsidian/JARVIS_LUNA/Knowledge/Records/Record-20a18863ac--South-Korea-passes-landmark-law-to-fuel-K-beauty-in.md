@@ -2,7 +2,7 @@
 title: "Record 20a18863ac · South-Korea-passes-landmark-law-to-fuel-K-beauty-industry---Personal-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.399484+00:00
+updated_at: 2026-09-10T19:20:42.233911+00:00
 tags: [record, real-data]
 ---
 

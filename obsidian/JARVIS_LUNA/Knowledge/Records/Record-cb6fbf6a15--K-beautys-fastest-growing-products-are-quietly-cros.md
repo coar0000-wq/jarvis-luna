@@ -2,7 +2,7 @@
 title: "Record cb6fbf6a15 · K-beautys-fastest-growing-products-are-quietly-crossing-over-from-cult"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.343135+00:00
+updated_at: 2026-09-10T19:20:42.178158+00:00
 tags: [record, real-data]
 ---
 

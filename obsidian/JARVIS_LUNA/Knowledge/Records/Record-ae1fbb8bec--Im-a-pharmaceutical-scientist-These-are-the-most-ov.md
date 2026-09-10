@@ -2,7 +2,7 @@
 title: "Record ae1fbb8bec · Im-a-pharmaceutical-scientist-These-are-the-most-overhyped-skincare-tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.334069+00:00
+updated_at: 2026-09-10T19:20:42.169241+00:00
 tags: [record, real-data]
 ---
 

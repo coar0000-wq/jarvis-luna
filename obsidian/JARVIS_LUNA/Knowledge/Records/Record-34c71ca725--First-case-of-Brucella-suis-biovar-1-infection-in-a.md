@@ -2,7 +2,7 @@
 title: "Record 34c71ca725 · First-case-of-Brucella-suis-biovar-1-infection-in-a-dog-in-Switzerland"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.081276+00:00
+updated_at: 2026-09-10T19:20:41.926517+00:00
 tags: [record, real-data]
 ---
 

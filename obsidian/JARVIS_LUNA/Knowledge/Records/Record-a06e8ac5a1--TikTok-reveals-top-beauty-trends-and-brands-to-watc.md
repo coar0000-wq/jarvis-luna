@@ -2,7 +2,7 @@
 title: "Record a06e8ac5a1 · TikTok-reveals-top-beauty-trends-and-brands-to-watch---TheIndustrybeau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.458542+00:00
+updated_at: 2026-09-10T19:20:42.293517+00:00
 tags: [record, real-data]
 ---
 

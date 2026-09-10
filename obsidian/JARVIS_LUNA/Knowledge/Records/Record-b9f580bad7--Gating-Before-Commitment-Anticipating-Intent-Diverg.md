@@ -2,7 +2,7 @@
 title: "Record b9f580bad7 · Gating-Before-Commitment-Anticipating-Intent-Divergence-to-Prevent-Pos"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.767456+00:00
+updated_at: 2026-09-10T19:20:42.605271+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f65ca9a0db · Aero-Hand-Open-A-Simulation-Ready-Tendon-Driven-Hand-for-Dexterous-Man"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:02.974228+00:00
+updated_at: 2026-09-10T19:20:41.822462+00:00
 tags: [record, real-data]
 ---
 

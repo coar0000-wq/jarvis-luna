@@ -2,7 +2,7 @@
 title: "Record d6a5276768 · Geometry-dependent-Halogen-Contact-Doping-in-WWSe2W-Field-Effect-Trans"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.107170+00:00
+updated_at: 2026-09-10T19:20:41.950465+00:00
 tags: [record, real-data]
 ---
 

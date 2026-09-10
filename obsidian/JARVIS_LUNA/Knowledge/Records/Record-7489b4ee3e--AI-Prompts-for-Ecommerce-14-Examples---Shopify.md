@@ -2,7 +2,7 @@
 title: "Record 7489b4ee3e · AI-Prompts-for-Ecommerce-14-Examples---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.290586+00:00
+updated_at: 2026-09-10T19:20:42.126437+00:00
 tags: [record, real-data]
 ---
 

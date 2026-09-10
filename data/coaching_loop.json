@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T00:27:35.055171+09:00",
+  "generated_at": "2026-09-11T04:24:24.236900+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -11,9 +11,9 @@
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
-      "post_count": 50,
-      "collected_at": "2026-09-10T15:04:05.800262+00:00",
-      "keyword_pool": 41
+      "post_count": 25,
+      "collected_at": "2026-09-10T18:59:50.665319+00:00",
+      "keyword_pool": 40
     }
   },
   "sessions": [
@@ -78,7 +78,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skin', 'skincare', 'skinfessionals']",
+          "evidence": "matched=['beauty', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -103,15 +103,11 @@
           "glass skin",
           "hydrating",
           "beauty",
-          "skin",
-          "skincare",
-          "skinfessionals"
+          "skin"
         ],
         "reddit_keywords_used": [
           "beauty",
-          "skin",
-          "skincare",
-          "skinfessionals"
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -119,13 +115,11 @@
       "reddit_match": {
         "matched": [
           "beauty",
-          "skin",
-          "skincare",
-          "skinfessionals"
+          "skin"
         ],
-        "score": 4,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skin', 'skincare', 'skinfessionals']",
+        "evidence": "matched=['beauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -196,7 +190,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'k-moisturizers', 'skin', 'skincare', 'skinfessionals']",
+          "evidence": "matched=['beauty', 'k-moisturizers', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -224,15 +218,12 @@
           "hydrating",
           "beauty",
           "k-moisturizers",
-          "skin",
-          "skincare"
+          "skin"
         ],
         "reddit_keywords_used": [
           "beauty",
           "k-moisturizers",
-          "skin",
-          "skincare",
-          "skinfessionals"
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -241,13 +232,11 @@
         "matched": [
           "beauty",
           "k-moisturizers",
-          "skin",
-          "skincare",
-          "skinfessionals"
+          "skin"
         ],
-        "score": 5,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'k-moisturizers', 'skin', 'skincare', 'skinfessionals']",
+        "evidence": "matched=['beauty', 'k-moisturizers', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -318,7 +307,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skin', 'skincare', 'skinfessionals']",
+          "evidence": "matched=['beauty', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -344,15 +333,11 @@
           "glass skin",
           "hydrating",
           "beauty",
-          "skin",
-          "skincare",
-          "skinfessionals"
+          "skin"
         ],
         "reddit_keywords_used": [
           "beauty",
-          "skin",
-          "skincare",
-          "skinfessionals"
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -360,13 +345,11 @@
       "reddit_match": {
         "matched": [
           "beauty",
-          "skin",
-          "skincare",
-          "skinfessionals"
+          "skin"
         ],
-        "score": 4,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skin', 'skincare', 'skinfessionals']",
+        "evidence": "matched=['beauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -437,14 +420,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['over']",
-          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+          "evidence": "matched=['ask', 'over']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — over · sheet mask",
+          "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — ask · sheet mask",
           "headline": "Celderma Daily Transforming Firming Coll",
           "description": "Discover the Celderma Daily Transforming Firming Collagen Mask, designed to give your daily skincare routine a refreshing boost. This 28g sheet mask delivers convenient and soothing care for your skin",
           "cta": "Shop now"
@@ -462,9 +445,11 @@
           "sheet mask",
           "overnight mask",
           "collagen mask",
+          "ask",
           "over"
         ],
         "reddit_keywords_used": [
+          "ask",
           "over"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -472,12 +457,13 @@
       },
       "reddit_match": {
         "matched": [
+          "ask",
           "over"
         ],
-        "score": 1,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['over']",
-        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+        "evidence": "matched=['ask', 'over']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
         "pass": 5,
@@ -547,7 +533,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'one', 'skin', 'skincare', 'skinfessionals', 'toners']",
+          "evidence": "matched=['beauty', 'skin', 'toners']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -572,17 +558,13 @@
           "glass skin",
           "hydrating",
           "beauty",
-          "one",
           "skin",
-          "skincare",
-          "skinfessionals"
+          "toners"
         ],
         "reddit_keywords_used": [
           "beauty",
-          "one",
           "skin",
-          "skincare",
-          "skinfessionals"
+          "toners"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -590,15 +572,12 @@
       "reddit_match": {
         "matched": [
           "beauty",
-          "one",
           "skin",
-          "skincare",
-          "skinfessionals",
           "toners"
         ],
-        "score": 6,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'one', 'skin', 'skincare', 'skinfessionals', 'toners']",
+        "evidence": "matched=['beauty', 'skin', 'toners']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -669,7 +648,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'one', 'skin', 'skincare', 'skinfessionals', 'toners']",
+          "evidence": "matched=['beauty', 'skin', 'toners']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -695,17 +674,13 @@
           "glass skin",
           "hydrating",
           "beauty",
-          "one",
           "skin",
-          "skincare",
-          "skinfessionals"
+          "toners"
         ],
         "reddit_keywords_used": [
           "beauty",
-          "one",
           "skin",
-          "skincare",
-          "skinfessionals"
+          "toners"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -713,15 +688,12 @@
       "reddit_match": {
         "matched": [
           "beauty",
-          "one",
           "skin",
-          "skincare",
-          "skinfessionals",
           "toners"
         ],
-        "score": 6,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'one', 'skin', 'skincare', 'skinfessionals', 'toners']",
+        "evidence": "matched=['beauty', 'skin', 'toners']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {

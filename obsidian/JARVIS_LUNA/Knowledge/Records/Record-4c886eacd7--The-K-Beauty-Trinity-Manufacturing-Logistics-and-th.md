@@ -2,7 +2,7 @@
 title: "Record 4c886eacd7 · The-K-Beauty-Trinity-Manufacturing-Logistics-and-the-Rise-of-the-Indie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.488506+00:00
+updated_at: 2026-09-10T19:20:42.323591+00:00
 tags: [record, real-data]
 ---
 

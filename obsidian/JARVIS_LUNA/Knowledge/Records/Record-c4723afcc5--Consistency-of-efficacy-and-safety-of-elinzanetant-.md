@@ -2,7 +2,7 @@
 title: "Record c4723afcc5 · Consistency-of-efficacy-and-safety-of-elinzanetant-for-vasomotor-sympt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.095933+00:00
+updated_at: 2026-09-10T19:20:41.940444+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 363ef13347 · Mind-the-Gap-Standard-3DGS-Evaluation-Primarily-Measures-Near-Trajecto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.542525+00:00
+updated_at: 2026-09-10T19:20:42.376800+00:00
 tags: [record, real-data]
 ---
 

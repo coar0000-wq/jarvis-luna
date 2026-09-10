@@ -2,7 +2,7 @@
 title: "Record ae90439358 · Medicube-other-K-beauty-brands-chart-new-course-aboard-cruise-ships-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.359472+00:00
+updated_at: 2026-09-10T19:20:42.194286+00:00
 tags: [record, real-data]
 ---
 

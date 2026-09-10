@@ -2,7 +2,7 @@
 title: "Record 820b92b44f · Measuring-the-effects-of-urban-heat-island-mitigation-techniques-in-th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.102669+00:00
+updated_at: 2026-09-10T19:20:41.946770+00:00
 tags: [record, real-data]
 ---
 

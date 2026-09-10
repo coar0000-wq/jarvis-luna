@@ -2,7 +2,7 @@
 title: "Record 2442bcbd9f · Why-is-this-type-of-Korean-mask-used-at-Korean-Skincare-Clinic-after-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.687164+00:00
+updated_at: 2026-09-10T19:20:42.520315+00:00
 tags: [record, real-data]
 ---
 

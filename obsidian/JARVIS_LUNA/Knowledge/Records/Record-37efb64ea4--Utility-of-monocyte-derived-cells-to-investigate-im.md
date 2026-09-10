@@ -2,7 +2,7 @@
 title: "Record 37efb64ea4 · Utility-of-monocyte-derived-cells-to-investigate-immune-mediated-drug-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.101821+00:00
+updated_at: 2026-09-10T19:20:41.945987+00:00
 tags: [record, real-data]
 ---
 

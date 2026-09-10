@@ -2,7 +2,7 @@
 title: "Record 02a155e436 · Real-Time-Talent-Liquidity-Dashboards-for-Adaptive-Workforce-Allocatio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T16:44:03.241246+00:00
+updated_at: 2026-09-10T19:20:42.077520+00:00
 tags: [record, real-data]
 ---
 
