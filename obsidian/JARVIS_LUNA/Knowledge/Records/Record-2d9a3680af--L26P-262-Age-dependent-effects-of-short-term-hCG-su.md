@@ -2,7 +2,7 @@
 title: "Record 2d9a3680af · L26P-262-Age-dependent-effects-of-short-term-hCG-supplementation-in-cu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.044827+00:00
+updated_at: 2026-09-10T15:24:26.539632+00:00
 tags: [record, real-data]
 ---
 

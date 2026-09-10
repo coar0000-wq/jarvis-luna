@@ -2,7 +2,7 @@
 title: "Record 4bcd0ce397 · 2types-MEDIHEAL-Collagen-Capsule-Eye-Patch-60ct-373-oz106g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.467446+00:00
+updated_at: 2026-09-10T15:24:26.994313+00:00
 tags: [record, real-data]
 ---
 

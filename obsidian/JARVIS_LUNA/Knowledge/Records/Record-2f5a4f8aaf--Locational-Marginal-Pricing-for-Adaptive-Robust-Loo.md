@@ -2,7 +2,7 @@
 title: "Record 2f5a4f8aaf · Locational-Marginal-Pricing-for-Adaptive-Robust-Look-Ahead-Dispatch-wi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:09.933256+00:00
+updated_at: 2026-09-10T15:24:26.428722+00:00
 tags: [record, real-data]
 ---
 

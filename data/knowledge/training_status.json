@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T15:20:15.838411+00:00",
+  "updated_at": "2026-09-10T15:26:58.999369+00:00",
   "real_records": 3003,
   "source_labels": {
     "ai-image": 100,
@@ -16,15 +16,27 @@
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
   "training_accuracy_on_corpus": 0.8794538794538794,
   "mean_gate_load": [
-    0.276022,
-    0.321533,
-    0.402445
+    0.275323,
+    0.321245,
+    0.403432
   ],
-  "note": "This is a text knowledge-routing MoE, not an image foundation model.",
+  "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
   "trained_corpus_sha256": "dcd85043956e264b35032c55f1abc39ff7c24b07db8a6c648a747cb2cd81726c",
   "tuning_promoted": true,
   "tuning_steps": 500,
   "tuning_validation_accuracy": 0.8853046594982079,
   "tuning_final_loss": 0.4065422792581645,
-  "tuning_gate_load_std": 0.15617782425559792
+  "tuning_gate_load_std": 0.15617782425559792,
+  "records_before": 2983,
+  "records_added": 20,
+  "source_status": {
+    "arxiv": "ok",
+    "robotics": "ok",
+    "institutions": "ok",
+    "organic_skincare": "ok",
+    "google": "ok",
+    "us_beauty": "ok"
+  },
+  "corpus": "data/knowledge/training_corpus.jsonl",
+  "말뭉치": "바뀌었다. 지금 가중치는 이 말뭉치로 학습한 것이 아니다. 학습기가 돌아야 다시 참이 된다."
 }

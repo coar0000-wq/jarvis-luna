@@ -2,7 +2,7 @@
 title: "Record 7e41e6f25e · Three-Non-Executive-Directors-join-Barclays-UK-Board--Barclays"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.161478+00:00
+updated_at: 2026-09-10T15:24:26.658932+00:00
 tags: [record, real-data]
 ---
 

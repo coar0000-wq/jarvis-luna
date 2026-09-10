@@ -2,7 +2,7 @@
 title: "Record 22c13c6d27 · Insiderrechtliche-Praxisfragen-bei-der-Emission-von-Anleihen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.097566+00:00
+updated_at: 2026-09-10T15:24:26.593165+00:00
 tags: [record, real-data]
 ---
 

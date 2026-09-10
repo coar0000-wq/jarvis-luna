@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T14:10:08.736888+00:00",
+  "generated_at": "2026-09-10T15:27:27.903646+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "practical magic 2",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Thu, 10 Sep 2026 06:00:00 -0700",
-          "source_name": "The Guardian",
-          "url": "https://trends.google.com/trending?geo=US&q=practical%20magic%202"
+          "keyword": "245 million cryptocurrency rico conspiracy",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 10 Sep 2026 07:40:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=245%20million%20cryptocurrency%20rico%20conspiracy"
         },
         {
-          "keyword": "walmart great value berry recall",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Thu, 10 Sep 2026 06:00:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=walmart%20great%20value%20berry%20recall"
+          "keyword": "osama bin laden",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 10 Sep 2026 07:40:00 -0700",
+          "source_name": "PBS",
+          "url": "https://trends.google.com/trending?geo=US&q=osama%20bin%20laden"
         },
         {
-          "keyword": "what are the details of donald trump's plan to send $500 obamacare rebate checks",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Thu, 10 Sep 2026 06:00:00 -0700",
+          "keyword": "9/11 memorial",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 10 Sep 2026 08:10:00 -0700",
           "source_name": "Axios",
-          "url": "https://trends.google.com/trending?geo=US&q=what%20are%20the%20details%20of%20donald%20trump%27s%20plan%20to%20send%20%24500%20obamacare%20rebate%20checks"
+          "url": "https://trends.google.com/trending?geo=US&q=9/11%20memorial"
         },
         {
-          "keyword": "xolo maridueña",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Thu, 10 Sep 2026 06:30:00 -0700",
-          "source_name": "Softonic",
-          "url": "https://trends.google.com/trending?geo=US&q=xolo%20maridue%C3%B1a"
+          "keyword": "jessica tarlov",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 10 Sep 2026 07:50:00 -0700",
+          "source_name": "USA Today",
+          "url": "https://trends.google.com/trending?geo=US&q=jessica%20tarlov"
         },
         {
-          "keyword": "10 year treasury yield",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Thu, 10 Sep 2026 06:30:00 -0700",
+          "keyword": "naruto",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 10 Sep 2026 07:50:00 -0700",
+          "source_name": "Variety",
+          "url": "https://trends.google.com/trending?geo=US&q=naruto"
+        },
+        {
+          "keyword": "playstation store",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 10 Sep 2026 07:30:00 -0700",
+          "source_name": "MP1st",
+          "url": "https://trends.google.com/trending?geo=US&q=playstation%20store"
+        },
+        {
+          "keyword": "oracle stock",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 10 Sep 2026 07:30:00 -0700",
           "source_name": "CNBC",
-          "url": "https://trends.google.com/trending?geo=US&q=10%20year%20treasury%20yield"
+          "url": "https://trends.google.com/trending?geo=US&q=oracle%20stock"
         },
         {
-          "keyword": "cpi",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Thu, 10 Sep 2026 05:50:00 -0700",
-          "source_name": "Morningstar",
-          "url": "https://trends.google.com/trending?geo=US&q=cpi"
-        },
-        {
-          "keyword": "irish open",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Thu, 10 Sep 2026 05:50:00 -0700",
-          "source_name": "The Irish Times",
-          "url": "https://trends.google.com/trending?geo=US&q=irish%20open"
-        },
-        {
-          "keyword": "fbi",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Thu, 10 Sep 2026 05:50:00 -0700",
-          "source_name": "WSVN",
-          "url": "https://trends.google.com/trending?geo=US&q=fbi"
-        },
-        {
-          "keyword": "indw vs banw",
+          "keyword": "stocks",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Thu, 10 Sep 2026 06:50:00 -0700",
-          "source_name": "Cricinfo",
-          "url": "https://trends.google.com/trending?geo=US&q=indw%20vs%20banw"
+          "published": "Thu, 10 Sep 2026 07:30:00 -0700",
+          "source_name": "CNBC",
+          "url": "https://trends.google.com/trending?geo=US&q=stocks"
         },
         {
-          "keyword": "wardogs release time",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 10 Sep 2026 06:50:00 -0700",
-          "source_name": "Pure Xbox",
-          "url": "https://trends.google.com/trending?geo=US&q=wardogs%20release%20time"
+          "keyword": "stars",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Thu, 10 Sep 2026 08:10:00 -0700",
+          "source_name": "Space",
+          "url": "https://trends.google.com/trending?geo=US&q=stars"
+        },
+        {
+          "keyword": "cma awards 2026",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Thu, 10 Sep 2026 08:00:00 -0700",
+          "source_name": "Billboard",
+          "url": "https://trends.google.com/trending?geo=US&q=cma%20awards%202026"
         }
       ]
     },
@@ -187,6 +187,11 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "Rodial Soft Focus Glow Drops Review",
+          "published": "Thu, 10 Sep 2026 14:11:06 +0000",
+          "url": "https://www.allure.com/review/rodial-soft-focus-glow-drops-review-2026"
+        },
         {
           "title": "Anne Hathaway's Matchy-Matchy Red Lips and Nails Are Fall's Most Glamorous Trend—See the Photos",
           "published": "Thu, 10 Sep 2026 13:29:14 +0000",
@@ -331,11 +336,6 @@
           "title": "Maura Higgins's Hair Is Proof That Time-Travel Is Real — See Photos",
           "published": "Tue, 01 Sep 2026 19:32:25 +0000",
           "url": "https://www.allure.com/story/maura-higgins-retro-hair-us-open"
-        },
-        {
-          "title": "Why the Met Gala 2027 Theme Should Be Dolly Parton",
-          "published": "Tue, 01 Sep 2026 14:48:37 +0000",
-          "url": "https://www.allure.com/story/met-gala-2027-theme-dolly-parton"
         }
       ]
     },

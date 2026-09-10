@@ -2,7 +2,7 @@
 title: "Record f8a4461dd5 · Korean-Hair-Products-Are-Here-This-is-Why-You-Absolutely-Need-to-Try-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.298655+00:00
+updated_at: 2026-09-10T15:24:26.814271+00:00
 tags: [record, real-data]
 ---
 

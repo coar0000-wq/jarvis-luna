@@ -2,7 +2,7 @@
 title: "Record 1c78123f4b · Scientific-computing-in-the-age-of-agentic-AI-an-exploratory-field-rep"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.150550+00:00
+updated_at: 2026-09-10T15:24:26.646273+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2f78879af4 · Unified-Workload-Management-Through-Kubernetes-Native-APIs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.125250+00:00
+updated_at: 2026-09-10T15:24:26.620175+00:00
 tags: [record, real-data]
 ---
 

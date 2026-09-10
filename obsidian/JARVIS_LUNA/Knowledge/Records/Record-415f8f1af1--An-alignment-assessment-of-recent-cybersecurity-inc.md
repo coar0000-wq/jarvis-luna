@@ -2,7 +2,7 @@
 title: "Record 415f8f1af1 · An-alignment-assessment-of-recent-cybersecurity-incidents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.506600+00:00
+updated_at: 2026-09-10T15:24:27.033842+00:00
 tags: [record, real-data]
 ---
 

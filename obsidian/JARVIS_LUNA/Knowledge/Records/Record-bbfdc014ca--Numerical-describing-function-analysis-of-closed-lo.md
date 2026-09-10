@@ -2,7 +2,7 @@
 title: "Record bbfdc014ca · Numerical-describing-function-analysis-of-closed-loop-discrete-time-re"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.013354+00:00
+updated_at: 2026-09-10T15:24:26.509549+00:00
 tags: [record, real-data]
 ---
 

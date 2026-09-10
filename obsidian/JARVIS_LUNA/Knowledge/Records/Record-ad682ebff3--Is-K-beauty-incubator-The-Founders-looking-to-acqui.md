@@ -2,7 +2,7 @@
 title: "Record ad682ebff3 · Is-K-beauty-incubator-The-Founders-looking-to-acquire-Dr-Jart-from-Est"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.323307+00:00
+updated_at: 2026-09-10T15:24:26.842541+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9fe33ee019 · What-Is-Conservative-Girl-Makeup-Explaining-the-TikTok-Trend-on-Republ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.340141+00:00
+updated_at: 2026-09-10T15:24:26.861867+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2a31f44085 · Temperature-dependent-mean-inner-potential-of-polystyrene-spheres-meas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.019201+00:00
+updated_at: 2026-09-10T15:24:26.515502+00:00
 tags: [record, real-data]
 ---
 

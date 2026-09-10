@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T00:25:38.583858+09:00",
+  "generated_at": "2026-09-11T00:33:48.175596+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-09-10T15:16:37.521374+00:00",
+      "when": "2026-09-10T15:27:28.847850+00:00",
       "summary": "214개 상품 · 등급 S 6 / A 32 / B 30 / C 146 · 새 자료 215건",
-      "action": "직전 실행에서 5건 시도 중 5건 실패 (성공 0건) · 상품 상세 HTML이 다이소몰 기본 페이지로 반환됨 5",
+      "action": "직전 실행에서 19건 시도 중 7건 실패 (성공 12건) · 가격 없음 7",
       "status": "ok",
       "phase": "now",
       "phase_label": "1단계 · 후보 선정",
@@ -18,7 +18,7 @@
     {
       "id": "institutions",
       "name": "기관 수집팀",
-      "when": "2026-09-10T14:04:24.338266+00:00",
+      "when": "2026-09-10T15:02:49.593891+00:00",
       "summary": "35곳 1,061건 · 미수집 12건 사유 기록 · 새 자료 287건",
       "action": null,
       "status": "ok",
@@ -30,8 +30,8 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-10T23:59:44.323003+09:00",
-      "summary": "S등급 6개 · 고시표 입력 대기 1건 · 새 자료 50건",
+      "when": "2026-09-11T00:28:33.936227+09:00",
+      "summary": "S등급 6개 · 고시표 입력 대기 1건 · 새 자료 51건",
       "action": "다이소 상세페이지 고시 표 1건 캡처 필요",
       "status": "ok",
       "phase": "always",
@@ -42,7 +42,7 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-10T14:10:09.703523+00:00",
+      "when": "2026-09-10T15:27:29.009217+00:00",
       "summary": "등록 가능 5/6 · 카피 5 · 고시 5 · 가격 6 · 법률 5",
       "action": "카피 1건, 고시 1건, 법률 1건 이 막고 있음",
       "status": "ok",
@@ -54,8 +54,8 @@
     {
       "id": "pricing",
       "name": "가격 정책팀",
-      "when": "2026-09-10T14:10:09.595298+00:00",
-      "summary": "개당 배송비 $6.28~$10.78 · 무게 85~520g (이름추정 1 / 고시용량 5) · DDU/DDP 4개 · 새 자료 5건",
+      "when": "2026-09-10T15:27:28.909294+00:00",
+      "summary": "개당 배송비 $6.26~$10.75 · 무게 85~520g (이름추정 1 / 고시용량 5) · DDU/DDP 4개 · 새 자료 5건",
       "action": null,
       "status": "ok",
       "phase": "ready",
@@ -66,7 +66,7 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-10T14:10:09.647904+00:00",
+      "when": "2026-09-10T15:27:28.955874+00:00",
       "summary": "자동 점검 12건 · 통과 12 · 등록 차단 2 · 참고 주의 7 · 수출서류 HS 12건 · 라벨 5/6항목 자동 · 새 자료 18건",
       "action": "차단 2건: 비프루브 마린 무기자차 마일드(SPF 표기 - 미국 OT), 싸이닉 파워옴므 워터리 선크림(SPF 표기 - 미국 OT) — 라벨 갖추기 전엔 못 올림",
       "status": "ok",
@@ -78,7 +78,7 @@
     {
       "id": "robotics",
       "name": "로보틱스 수집",
-      "when": "2026-09-10T14:03:20.772796+00:00",
+      "when": "2026-09-10T15:01:50.517958+00:00",
       "summary": "86건 · arxiv 46 / rss 40 · 새 자료 72건",
       "action": null,
       "status": "ok",
@@ -90,8 +90,8 @@
     {
       "id": "design",
       "name": "디자인팀",
-      "when": "2026-09-10T14:04:32.455991+00:00",
-      "summary": "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 33건 · 새 자료 93건",
+      "when": "2026-09-10T15:02:57.984492+00:00",
+      "summary": "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 33건 · 새 자료 94건",
       "action": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "status": "ok",
       "phase": "ready",
@@ -102,7 +102,7 @@
     {
       "id": "channels",
       "name": "채널 운영팀",
-      "when": "2026-09-10T14:10:30.489746+00:00",
+      "when": "2026-09-10T15:27:48.662977+00:00",
       "summary": "가동 7/12채널 · 낡음 4건 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건",
       "action": null,
       "status": "ok",
@@ -114,7 +114,7 @@
     {
       "id": "knowledge",
       "name": "지식 수집팀",
-      "when": "2026-09-10T15:00:27.552768+00:00",
+      "when": "2026-09-10T15:03:18.693523+00:00",
       "summary": "470건 · arXiv 10 / 유기농스킨 30 / Google 300 / US뷰티 130",
       "action": null,
       "status": "ok",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-11T00:25:34.088154+09:00",
+      "when": "2026-09-11T00:33:43.542630+09:00",
       "summary": "80,856노트 · 319,349링크 · 끊어진 링크 109건 · 개인 노트 16건 별도",
       "action": null,
       "status": "failed",
@@ -165,13 +165,13 @@
     }
   },
   "errors": {
-    "generated_at": "2026-09-10T14:11:00.693938+00:00",
-    "total": 35,
+    "generated_at": "2026-09-10T15:28:17.995352+00:00",
+    "total": 34,
     "counts": {
       "고장": 5,
       "대기": 8,
       "대체됨": 5,
-      "막힘": 13,
+      "막힘": 12,
       "보류": 4
     },
     "고쳐야_할_것": [
@@ -285,7 +285,7 @@
     "status": "completed",
     "record_count": 3003,
     "source_counts": {},
-    "updated_at": "2026-09-11T00:20:23.643607+09:00"
+    "updated_at": "2026-09-11T00:28:33.528223+09:00"
   },
   "graph": {
     "notes": 80856,
@@ -298,7 +298,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "failed",
-    "last_generated": "2026-09-11T00:25:34.088154+09:00"
+    "last_generated": "2026-09-11T00:33:43.542630+09:00"
   },
   "training": {
     "status": "completed",
@@ -313,18 +313,18 @@
     "gate_load_std": 0.15617782425559792,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-10T15:20:15.838411+00:00"
+    "updated_at": "2026-09-10T15:26:58.999369+00:00"
   },
   "cumulative": {
     "totals": {
       "records": 3003,
       "notes": 80965,
-      "links": 326411
+      "links": 326441
     },
     "prior_totals": {
       "records": 3003,
       "notes": 80965,
-      "links": 326411
+      "links": 326441
     },
     "added_this_run": {
       "records": 0,
@@ -672,11 +672,11 @@
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPREh5V1dVR0taWWs2anMwVTl0Y3paZFVNRVJuUzJOUEJZOHZsem5ZRUJzZ2ZhWUdmM2tPWmR5T0ZiTXdHRlROX25qbzVqbGpxR05UTzlBRzIzRkJCOGVvM0ZiQWlFTUY3eU1zN0lYcURSQy12VzFtNUN3NkNvQ3Y3SUQ1bGM5MU0?oc=5"
       },
       {
-        "keyword": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
-        "product": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
+        "keyword": "Tonymoly expands Australia reach to 1,220 Coles, Kmart, Target stores - koreabiomed.com",
+        "product": "Tonymoly expands Australia reach to 1,220 Coles, Kmart, Target stores - koreabiomed.com",
         "sub": "K-beauty",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeEJ0MTljNGRxbHppX0V4djZuR3ZoTTlQX1FRT0Z0VHgwMmxuLWhyRlY1ZnRkMktJYjItc0ZSUi05T0hIeDFFUGhZSUNtN2xqVHhQSHozeHJWYzY1Vzl2UFoxUjV3Q3AzdXowc1hlODhkck50Z3V2N3d0Wm5JX3EtYWsxeFBQQVh3Z0FnYnZ3Nm02SFJDd1hPYzltdkdOVFMwdUR1eW1QbnpuUQ?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uTUF0Zk9GWWh1Z1JIc2ZXcDBYNG9UTzVHWmxTY0o0a2d4MnhrMFBreXF5SFotZm9PSVhJaXJETmlpVUtOU1lBX0NjZmpjMUlvbVdmWnlmTExKOEhDN1JYV2wwT0VDR3ZwYmRVMmtB0gFyQVVfeXFMTnRwOWtSb25kaDV5S29yTllTRUd5cWloU2FXNnEzNmI1Y0dvQUpqSmY4YlpwaWFsd1RGdE1zY1E3Qk1QejFNOTVTQ3RWb1pCckszQWlmZ3phTC04SGdEdzBWSkczalNoT1pUbzVJemhMWnFn?oc=5"
       },
       {
         "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
@@ -686,6 +686,13 @@
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5"
       },
       {
+        "keyword": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
+        "product": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeEJ0MTljNGRxbHppX0V4djZuR3ZoTTlQX1FRT0Z0VHgwMmxuLWhyRlY1ZnRkMktJYjItc0ZSUi05T0hIeDFFUGhZSUNtN2xqVHhQSHozeHJWYzY1Vzl2UFoxUjV3Q3AzdXowc1hlODhkck50Z3V2N3d0Wm5JX3EtYWsxeFBQQVh3Z0FnYnZ3Nm02SFJDd1hPYzltdkdOVFMwdUR1eW1QbnpuUQ?oc=5"
+      },
+      {
         "keyword": "L’Oréal and Cosmax pen agreement to collaborate on next-generation beauty products - Cosmetics Business",
         "product": "L’Oréal and Cosmax pen agreement to collaborate on next-generation beauty products - Cosmetics Business",
         "sub": "K-beauty",
@@ -693,18 +700,11 @@
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOR3FFZ3h3bHVSVUp5VWx0M0JwVzR0TUlKWXl0cmtnRUxVdkdrSzZHS1Z6T290cHpXU2t4SVJEeklJaDB6eTdXR1Z5aFhLcWNnelBsRXFBeXhKTWF0N0NWVE9XbGhISWE5c29wWkFOVGhKbGRrZWIwSjZoclAzZlNaandn?oc=5"
       },
       {
-        "keyword": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
-        "product": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
+        "keyword": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
+        "product": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
         "sub": "K-beauty",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3ZU9yYWdlM1JUZGlkem45TFVrY1Z1ZzVCZEJ2V29RX3FaZ043TG9PamFJdjBHUWxWOG1IbzktajdOZzRKLUxkZF8xaHJ4R2NMaDNDQy0yOGItRHVobEd2bk9IVmh1S2FSM0g0cEtRY0xFTFpWQUE?oc=5"
-      },
-      {
-        "keyword": "Amorepacific's Ryo names actress Gong Seung-yeon global ambassador - Korea Biomedical Review",
-        "product": "Amorepacific's Ryo names actress Gong Seung-yeon global ambassador - Korea Biomedical Review",
-        "sub": "K-beauty",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1DbmpXeGl0VUNxbUo2bmgtMnRyZ1lVOC05RmUtV2ZfcERyR0dmNlM5SEFmUTYwZ0dseGwwaGFBUk1OUGRuUDNsZzdVWGdONVBBeVhob20yNWdWYXRmSGdMdy1icGdVWTU3OEpDbVdR0gFyQVVfeXFMT3h6VG5RU3NoYmFSSWFIMjFIWHhfSDZBZUg2S2VLdjdFSmZvcHR3NmpxeFB3bmpqOEU4UUd0VlVEa1psVkl3Ml9Jc0VHdE12TkxqSkFuc2xLREl5V0JmeXJZYTFyVklUVHJoYUMzdzdPYV9n?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5"
       },
       {
         "keyword": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
@@ -721,8 +721,8 @@
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhPYk45c2xzWEw3Mmx2akplQWJZS1F1SnJSbnZJV3RmV0hLTktMUnl4cDBQak5jdDQ0LWlUWWtGODZSbkFfU0Q3MDZ0S0FtVFNDSjUyaldtU0l6WjhiZXpjN1MxVjdRNGVXeEUyZkNqY29aeXBqckFYYWxTYkF4TkpFVUFsZjFRMk9EU1N3?oc=5"
       },
       {
-        "keyword": "US and Korean sunscreens are not created equal, study says - WTOP News",
-        "product": "US and Korean sunscreens are not created equal, study says - WTOP News",
+        "keyword": "US and Korean sunscreens are not created equal, study says - wtop.com",
+        "product": "US and Korean sunscreens are not created equal, study says - wtop.com",
         "sub": "Korean sunscreen",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnpvNUR0bm0tV2E0M183TDZLUVUwal9NRHduZ21ULUtPZFl2SnFoVS1WVFVZTjJtZjFfX1R5Um1Lajk0TXZzbnVpbkdpMXdMbno4dHo0Y3g4R3lYbV9rRkcyY0VsSjRVSFFPWVV5cTNNWG0tVC0zZ0tER251cDRCM3A0ZEJnNTBjWjBrYnp2dHRHSXd2UkNMckJqQ1JmUmFkX1RCeElDdmtzMGJ4X3V6SjJYbTQyUlNvazMycGw4b2k4aG44YkdN?oc=5"
@@ -749,8 +749,8 @@
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjenlzd2RLQUd1RWtfc0V4dlZIeldiM3FfOTJ4S08wdmplNUdTVUZrUXhrU25oOVpTeVFPSGgxYXpBNWpIbTVQSlRHQlV6MW4wVkNHTzhSQlYtSmJrQmQ1bkRCc3dMOUF0OUpyZlRNQnhvMXdmMFprTQ?oc=5"
       },
       {
-        "keyword": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
-        "product": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
+        "keyword": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
+        "product": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
         "sub": "Korean sunscreen",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5"
@@ -1298,94 +1298,94 @@
     ],
     "open_beauty_facts": [
       {
-        "product": "CeraVe Hydraterende Reinigingscrème",
-        "brand": "CeraVe",
-        "category": "클렌징",
-        "url": "https://world.openbeautyfacts.org/product/3337875597333"
+        "product": "NIVEA Soft hydraterende créme 48u hydratatie",
+        "brand": "NIVEA",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/4005900963499"
       },
       {
-        "product": "Effaclar Purifying Foaming Gel Cleanser for Oily Skin",
-        "brand": "Alani",
-        "category": "클렌징",
-        "url": "https://world.openbeautyfacts.org/product/3337872411083"
+        "product": "hand cream",
+        "brand": "Neutrogena",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/3574661685977"
       },
       {
-        "product": "Clean & Clear Blackhead Clearing Daily Scrub",
-        "brand": "Clean & Clear",
-        "category": "클렌징",
-        "url": "https://world.openbeautyfacts.org/product/3574660149807"
+        "product": "Aveeno Baby Eczema Therapy",
+        "brand": "Aveeno",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/0381371018451"
       },
       {
-        "product": "Hydrating cream-to-foam cleanser",
-        "brand": "CeraVe",
-        "category": "클렌징",
-        "url": "https://world.openbeautyfacts.org/product/3337875743563"
+        "product": "BioCare Aloe Vera",
+        "brand": "BioCare",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/6297811169055"
       },
       {
-        "product": "Skin Active Solution Micellaire Tout En 1 Peaux Sèches et Sensibles",
-        "brand": "Garnier",
-        "category": "클렌징",
-        "url": "https://world.openbeautyfacts.org/product/3600541594968"
+        "product": "Gluta hya dewy radicance",
+        "brand": "Vaseline",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/8901030957048"
       },
       {
-        "product": "Low PH good morning gel cleanser",
-        "brand": "COSRX",
-        "category": "클렌징",
-        "url": "https://world.openbeautyfacts.org/product/8809416470511"
+        "product": "Healthy Feet Cream",
+        "brand": "O’Keefes",
+        "category": "스킨케어",
+        "url": "https://world.openbeautyfacts.org/product/0722510026003"
       },
       {
-        "product": "Précieux Argan Eau micellaire anti-âge",
-        "brand": "Léa Nature, So Bio Etic",
-        "category": "클렌징",
-        "url": "https://world.openbeautyfacts.org/product/3517360008685"
+        "product": "Masque Purifiant Naturel à L'Argile Verte.",
+        "brand": "Argile, Juvaflorine",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3160920402005"
       },
       {
-        "product": "Micellar water fresh",
-        "brand": "Cien",
-        "category": "클렌징",
-        "url": "https://world.openbeautyfacts.org/product/20864774"
+        "product": "Garnier SkinActive Pure Charcoal Tissuemasker",
+        "brand": "Garnier, Garnier SkinActive",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3600542097024"
       },
       {
-        "product": "compact  micellar cleansing lemon",
-        "brand": "",
-        "category": "클렌징",
-        "url": "https://world.openbeautyfacts.org/product/8697420539214"
+        "product": "Masque crème hydratant",
+        "brand": "Caudalie",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3522932031787"
       },
       {
-        "product": "Effaclar",
-        "brand": "La roche-posay",
-        "category": "클렌징",
-        "url": "https://world.openbeautyfacts.org/product/3337875722827"
+        "product": "Sebum Control Masque purifiant charbon végétal façon crème fouettée",
+        "brand": "Bioré",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/5017634256739"
       },
       {
-        "product": "la Rosée lait solaire spf 50+",
-        "brand": "La Rosée",
-        "category": "선케어",
-        "url": "https://world.openbeautyfacts.org/product/3770000717587"
+        "product": "Polishing Charcoal + Black Sugar Gel Mask + Scrub",
+        "brand": "Freeman",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/0072151421119"
       },
       {
-        "product": "SVR Spray Sun Secure SPF 50+",
-        "brand": "SVR",
-        "category": "선케어",
-        "url": "https://world.openbeautyfacts.org/product/3662361002146"
+        "product": "Le masque de pureté nettoyant",
+        "brand": "La Provençale",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3600550972153"
       },
       {
-        "product": "Intense Protect 50+",
-        "brand": "Avène, אוון",
-        "category": "선케어",
-        "url": "https://world.openbeautyfacts.org/product/3282770141214"
+        "product": "1 Masque Anti-Rides Bio-Cellulose",
+        "brand": "Barbara Gould",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3331300096460"
       },
       {
-        "product": "Dermo protect spf 50+",
-        "brand": "Mixa",
-        "category": "선케어",
-        "url": "https://world.openbeautyfacts.org/product/3600551125305"
+        "product": "Pâte d'argile",
+        "brand": "Copar, Laboratoires Biocos, Lovea, Lovea Nature",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/3329310012495"
       },
       {
-        "product": "Sensitive expert + Spf 50+",
-        "brand": "Garnier, Garnier ambre solaire",
-        "category": "선케어",
-        "url": "https://world.openbeautyfacts.org/product/3600542520454"
+        "product": "SOHO N.Y.C. Anti-Aging No Rinse 2in1 Face Serum + Mask",
+        "brand": "SOHO N.Y.C",
+        "category": "마스크팩",
+        "url": "https://world.openbeautyfacts.org/product/8683420170045"
       }
     ]
   },
@@ -1397,7 +1397,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 9,
       "trust": "manual",
-      "age_hours": 231.4,
+      "age_hours": 231.6,
       "stale": true
     },
     "walmart_beauty": {
@@ -1407,60 +1407,60 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 5,
       "trust": "manual",
-      "age_hours": 231.4,
+      "age_hours": 231.6,
       "stale": true
     },
     "oliveyoung_us": {
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "2026-09-10T14:05:55.820349+00:00",
+      "collected_at": "2026-09-10T15:03:52.252702+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.3,
+      "age_hours": 0.5,
       "stale": false
     },
     "google_trends_us": {
       "status": "ok",
       "source": "google news rss (beauty queries) + trends daily filtered",
       "reason": "",
-      "collected_at": "2026-09-10T14:06:41.041073+00:00",
+      "collected_at": "2026-09-10T15:04:40.857174+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.3,
+      "age_hours": 0.5,
       "stale": false
     },
     "wikipedia_interest": {
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-10T13:49:00.119219+00:00",
+      "collected_at": "2026-09-10T14:10:08.736888+00:00",
       "count": 8,
       "trust": "verified",
       "note": "2026-08-10 ~ 2026-09-08 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 1.6,
+      "age_hours": 1.4,
       "stale": false
     },
     "allure_media": {
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-10T13:49:00.119219+00:00",
+      "collected_at": "2026-09-10T14:10:08.736888+00:00",
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 1.6,
+      "age_hours": 1.4,
       "stale": false
     },
     "openfda_sunscreen": {
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-10T13:49:00.119219+00:00",
+      "collected_at": "2026-09-10T14:10:08.736888+00:00",
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 1.6,
+      "age_hours": 1.4,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1486,7 +1486,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 8,
       "trust": "manual",
-      "age_hours": 231.4,
+      "age_hours": 231.6,
       "stale": true
     },
     "sephora": {
@@ -1496,17 +1496,17 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 10,
       "trust": "manual",
-      "age_hours": 231.4,
+      "age_hours": 231.6,
       "stale": true
     },
     "open_beauty_facts": {
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-10T14:05:19.284505+00:00",
+      "collected_at": "2026-09-10T15:03:51.645840+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.3,
+      "age_hours": 0.5,
       "stale": false
     }
   },
@@ -1514,7 +1514,7 @@
     "rate": 1339.0,
     "as_of": "2026-09-10",
     "source": "https://open.er-api.com/v6/latest/USD",
-    "updated_at": "2026-09-10"
+    "updated_at": "2026-09-11"
   },
-  "last_synced": "09. 10. 오후 11:09 KST"
+  "last_synced": "09. 11. 오전 12:26 KST"
 }

@@ -1,6 +1,6 @@
 {
   "source": "public RSS (hnrss + Google News RSS)",
-  "collected_at": "2026-09-10T14:06:24.633411+00:00",
+  "collected_at": "2026-09-10T15:04:24.917380+00:00",
   "status": "ok",
   "feed_summaries": [
     {
@@ -29,14 +29,35 @@
       "error": null
     }
   ],
-  "relevant_count": 183,
+  "relevant_count": 184,
   "relevant_items": [
+    {
+      "title": "Amazon pilots ad services in ChatGPT",
+      "url": "https://www.marketingdive.com/news/amazon-pilots-ad-services-in-chatgpt-what-marketers-need-to-know/829945/",
+      "published": "Thu, 10 Sep 2026 14:13:09 +0000",
+      "feed": "hacker_news_frontpage",
+      "category": "tech"
+    },
+    {
+      "title": "Shopify moves back to Native from React Native",
+      "url": "https://shopify.engineering/back-to-native",
+      "published": "Thu, 10 Sep 2026 14:09:31 +0000",
+      "feed": "hacker_news_frontpage",
+      "category": "tech"
+    },
     {
       "title": "Shopify acquires Tailwind",
       "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
       "published": "Wed, 09 Sep 2026 13:27:11 +0000",
-      "feed": "hacker_news_frontpage",
+      "feed": "hacker_news_best",
       "category": "tech"
+    },
+    {
+      "title": "Shopify is moving from React Native to Native",
+      "url": "https://twitter.com/mustafa01ali/status/2098047492772249730",
+      "published": "Thu, 10 Sep 2026 14:52:01 +0000",
+      "feed": "hacker_news_ecommerce",
+      "category": "ecommerce"
     },
     {
       "title": "Livy, a Shopify app looking for beta testers",
@@ -158,20 +179,6 @@
       "category": "ecommerce"
     },
     {
-      "title": "I tested 20 \"agent-ready\" Shopify stores –> 25% silently break at add-to-cart",
-      "url": "https://github.com/MythrilS/agent-ready-checkout",
-      "published": "Sat, 22 Aug 2026 04:10:13 +0000",
-      "feed": "hacker_news_ecommerce",
-      "category": "ecommerce"
-    },
-    {
-      "title": "US retail giant Target doubles $1 BILLION income last quarter via tariff refunds",
-      "url": "https://www.bbc.com/news/articles/c78gp4y8d3eo",
-      "published": "Thu, 20 Aug 2026 14:50:09 +0000",
-      "feed": "hacker_news_ecommerce",
-      "category": "ecommerce"
-    },
-    {
       "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
       "published": "Tue, 08 Sep 2026 17:52:16 GMT",
@@ -186,7 +193,14 @@
       "category": "beauty"
     },
     {
-      "title": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
+      "title": "COSMECCA KOREA plans $150 mil. AI-based skincare factory in Korea - koreabiomed.com",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JOHRFeGJMRElFbVVDVkNFMXdWZTVvVWF1Sy1nckZmdHU2dVNuVlRyYktZZ0RnTTU1aWUwT3Z0LVJxeGxrRnVpaHV6RHNjaHVrQVJNNDVkVlQ1SXZTNFluWFBiWGZ4bURabzZIZUJ30gFyQVVfeXFMUHJVc2QwM0dFXzMyM1Jjek50c3A0LVp4NXo5MVhIb0haZ1JILVdWYUpTV0NVNUtXaExVdUw2Q1YxOVpfU3NMalBJMWZ4b0tJS1gxSnJacEpuQnRkSE1YdUd4dzVJMnRVQktqNnl2Rnk4Ymp3?oc=5",
+      "published": "Thu, 10 Sep 2026 06:20:08 GMT",
+      "feed": "google_news_kbeauty",
+      "category": "beauty"
+    },
+    {
+      "title": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - kedglobal.com",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3ZU9yYWdlM1JUZGlkem45TFVrY1Z1ZzVCZEJ2V29RX3FaZ043TG9PamFJdjBHUWxWOG1IbzktajdOZzRKLUxkZF8xaHJ4R2NMaDNDQy0yOGItRHVobEd2bk9IVmh1S2FSM0g0cEtRY0xFTFpWQUE?oc=5",
       "published": "Wed, 09 Sep 2026 21:27:30 GMT",
       "feed": "google_news_kbeauty",
@@ -228,13 +242,6 @@
       "category": "beauty"
     },
     {
-      "title": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRURKYS1ZekRkbWVwN2g1TTFWd3VkUmtReXFsVFFlbEFlR0cxTXFXd2k5Zkw5WGM0TmRWc0tSS21fWjROdHZMYVI2S3pqOF90QnJNQ242blFzLTNFd0V1NlhQQ1h5UkFYZS1qQ21RQnN0bW5oenpibURlTi1XVmE2R255Mm5Ga0NEUEwyVEhhUzk1LVhKeEVXbm14NNIBoAFBVV95cUxOWVE3UVVwRWxaYWpnVDgxUHdiWUF1YzVsMkJZVFpJZGlOOEpCdXNxX1hjWGJfY0MtelJjZkREVzhMX2VZdkVDd1hJVWdYcHRHenU2Ylh5Z25kN2lGWm5WZTJTeWthWldFbndJTjNYODdlV0FqaFpnYXVFQ0hlU1NSSjhONXZtQmloUndlT3FrVW1tSEV4b3FPNHEycWI3VjZj?oc=5",
-      "published": "Tue, 08 Sep 2026 10:00:17 GMT",
-      "feed": "google_news_kbeauty",
-      "category": "beauty"
-    },
-    {
       "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - ELLE",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5",
       "published": "Wed, 26 Aug 2026 07:00:00 GMT",
@@ -252,13 +259,6 @@
       "title": "Korean Hair Products Are Here. This is Why You Absolutely Need to Try Them. - Women's Health",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOEh6R2M4VmNWR0FtR2loaEpLX002R2F3dkRFRldjSmZUdkxjekVzb2NXYzhZMUFiZzM5cXRQVHk1RmQ0NTkxcU5MZTVMX1RsQVBNcEw5NkM3ZGJ5Q19KajNpTkdoZE93MFR5cnExZTNHTHZad0s0aGpaS2xUMG1LMFE0VUxKUQ?oc=5",
       "published": "Wed, 09 Sep 2026 12:00:00 GMT",
-      "feed": "google_news_kbeauty",
-      "category": "beauty"
-    },
-    {
-      "title": "Cosmax, L’Oréal deepen 20-year alliance with global beauty R&D push - Korea Biomedical Review",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91SGxzYzdQRURGT0IybVFQNnRaNngyLUR4SWwtUy1Pb29QRHdmTThYUnJWVjNlUFRIeFZ4dTRfSFhXY2ExYk9GLURGREtLLUU3MkYwcFRWRlU1YWRrVjZqSUNsZ3dTcFkwS3hFNkx30gFyQVVfeXFMTXpodjdyQUJuTDFVblI4YU5wck9nOFNnRUdFQXlna0lReEZ4OFRUdGZEeGwwS0xZbWlnNGcyelIzUFBFckdVcTR6SWdsWkZNUWJzRHl5XzFQNm5EQWgzVUlsQ2wwWTBvUzF1d0FCa2RGdlJ3?oc=5",
-      "published": "Wed, 09 Sep 2026 01:53:14 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
@@ -291,6 +291,13 @@
       "category": "beauty"
     },
     {
+      "title": "Cosmax, L’Oréal deepen 20-year alliance with global beauty R&D push - koreabiomed.com",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91SGxzYzdQRURGT0IybVFQNnRaNngyLUR4SWwtUy1Pb29QRHdmTThYUnJWVjNlUFRIeFZ4dTRfSFhXY2ExYk9GLURGREtLLUU3MkYwcFRWRlU1YWRrVjZqSUNsZ3dTcFkwS3hFNkx30gFyQVVfeXFMTXpodjdyQUJuTDFVblI4YU5wck9nOFNnRUdFQXlna0lReEZ4OFRUdGZEeGwwS0xZbWlnNGcyelIzUFBFckdVcTR6SWdsWkZNUWJzRHl5XzFQNm5EQWgzVUlsQ2wwWTBvUzF1d0FCa2RGdlJ3?oc=5",
+      "published": "Wed, 09 Sep 2026 01:53:14 GMT",
+      "feed": "google_news_kbeauty",
+      "category": "beauty"
+    },
+    {
       "title": "Mixing Joseon beauty with sexual desire: Hit erotic film returns as Netflix K-drama - The Korea Herald",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5FNFNQLUFITmQ3VGsybmRXRXViNlF5ZjdiUGh4YXNDX01Pc19EM0MwN3NraEtYVEE1aGlneW5OLWFiZFpPSExSSV9CaExkTl96cEZBeGJURQ?oc=5",
       "published": "Thu, 10 Sep 2026 05:12:28 GMT",
@@ -305,7 +312,7 @@
       "category": "beauty"
     },
     {
-      "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - trendhunter.com",
+      "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - Trend Hunter",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yd21ockxiN01RTlN0SGRoNWdlcFBFdkpab3JqdXRGUHRIS3NjS1VzR3VDWjhKRmJtaTN4MGlaS0NLUjlVbVRxZE5xY1lqU28yV0dVOTNLby03OUhKVWVuVlg3ZjBVMEkydXc?oc=5",
       "published": "Wed, 09 Sep 2026 04:41:48 GMT",
       "feed": "google_news_kbeauty",
@@ -333,9 +340,16 @@
       "category": "beauty"
     },
     {
-      "title": "Amorepacific builds ‘holistic longevity’ strategy around biotech, AI - KED Global",
+      "title": "Amorepacific builds ‘holistic longevity’ strategy around biotech, AI - kedglobal.com",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9EQVlfZ19Bdm5NbnpYdzl0VTMwYzlHWmdFYmZTRERiZTZCWHczS3NBN2gyRWNBLUY4eWFEVFM5U0VSVVhxSnNSZTR4c1ZoczVOdktiMzJwZGxVQ00yYXZCdTFBWXRESWJwYVNJcFhWNmhFQUhoRlE?oc=5",
       "published": "Tue, 08 Sep 2026 18:41:17 GMT",
+      "feed": "google_news_kbeauty",
+      "category": "beauty"
+    },
+    {
+      "title": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRURKYS1ZekRkbWVwN2g1TTFWd3VkUmtReXFsVFFlbEFlR0cxTXFXd2k5Zkw5WGM0TmRWc0tSS21fWjROdHZMYVI2S3pqOF90QnJNQ242blFzLTNFd0V1NlhQQ1h5UkFYZS1qQ21RQnN0bW5oenpibURlTi1XVmE2R255Mm5Ga0NEUEwyVEhhUzk1LVhKeEVXbm14NNIBoAFBVV95cUxOWVE3UVVwRWxaYWpnVDgxUHdiWUF1YzVsMkJZVFpJZGlOOEpCdXNxX1hjWGJfY0MtelJjZkREVzhMX2VZdkVDd1hJVWdYcHRHenU2Ylh5Z25kN2lGWm5WZTJTeWthWldFbndJTjNYODdlV0FqaFpnYXVFQ0hlU1NSSjhONXZtQmloUndlT3FrVW1tSEV4b3FPNHEycWI3VjZj?oc=5",
+      "published": "Tue, 08 Sep 2026 10:00:17 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
@@ -436,20 +450,6 @@
       "published": "Tue, 23 Jun 2026 07:00:00 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
-    },
-    {
-      "title": "Cosmax, L’Oréal Sign Beauty Innovation Pact - Businesskorea",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4VVBDTEcwaTREbzIwVTVCTjBoelVDa0c5S3JDS0JtblFhT0c1cWNfZ0FLN0s3VHJyb2xMOHp3NS1jalFDSHd5azZTMVJDTjZ3Q240dGg0VVVCRkhSYTJoZUQ2S1pJejdjLWhEVC1pNUVwZ0Zt?oc=5",
-      "published": "Wed, 09 Sep 2026 11:06:31 GMT",
-      "feed": "google_news_kbeauty",
-      "category": "beauty"
-    },
-    {
-      "title": "Move over K-beauty: K-pharmacy is Korea’s new clinical skin care trend - Cosmetics Business",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6eFNadFFpXzZndmV6Q0VpRDN5bEFEVkN0SHl5dk5tSDlNdURXS0tpRjNhSkEwb0NBenRyak9ReG1DVVZVc1BmQzVpVlRGR0pXY3Rxa2JhWU1mZVlTNFBkMDBSU0dRazU2cDdySUUxNnVVZk4yeHl4aDVR?oc=5",
-      "published": "Mon, 24 Aug 2026 07:00:00 GMT",
-      "feed": "google_news_kbeauty",
-      "category": "beauty"
     }
   ],
   "feeds": [
@@ -459,14 +459,39 @@
       "url": "https://hnrss.org/frontpage",
       "items": [
         {
+          "title": "Amazon pilots ad services in ChatGPT",
+          "url": "https://www.marketingdive.com/news/amazon-pilots-ad-services-in-chatgpt-what-marketers-need-to-know/829945/",
+          "published": "Thu, 10 Sep 2026 14:13:09 +0000"
+        },
+        {
+          "title": "Show HN: I couldn't afford interview prep, so I built a free alternative",
+          "url": "https://learningto.co/",
+          "published": "Thu, 10 Sep 2026 14:10:02 +0000"
+        },
+        {
+          "title": "Shopify moves back to Native from React Native",
+          "url": "https://shopify.engineering/back-to-native",
+          "published": "Thu, 10 Sep 2026 14:09:31 +0000"
+        },
+        {
+          "title": "Who Dung It? (Turdle.fun)",
+          "url": "https://turdle.fun/",
+          "published": "Thu, 10 Sep 2026 14:01:15 +0000"
+        },
+        {
+          "title": "Bending Spoons buying Miro for $1.355B",
+          "url": "https://investors.bendingspoons.com/newsroom/bending-spoons-agrees-to-acquire-miro",
+          "published": "Thu, 10 Sep 2026 14:00:21 +0000"
+        },
+        {
           "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
           "url": "https://news.ycombinator.com/item?id=49643556",
           "published": "Thu, 10 Sep 2026 13:39:53 +0000"
         },
         {
-          "title": "AI Doomlord Jacob Coxon's Media Tour Has Begun",
-          "url": "https://gizmodo.com/ai-doomlord-jacob-coxons-media-tour-has-begun-2000809720",
-          "published": "Thu, 10 Sep 2026 13:21:50 +0000"
+          "title": "Rust Is Tier-1 Language at Microsoft",
+          "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+          "published": "Thu, 10 Sep 2026 13:39:16 +0000"
         },
         {
           "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
@@ -489,11 +514,6 @@
           "published": "Thu, 10 Sep 2026 10:36:00 +0000"
         },
         {
-          "title": "Show HN: The same nine streaming subscriptions cost $702/year more than in 2021",
-          "url": "https://honestlyranked.com/guides/streaming-price-increases/",
-          "published": "Thu, 10 Sep 2026 10:13:59 +0000"
-        },
-        {
           "title": "What algorithm did Windows XP use to choose your initial user picture?",
           "url": "https://devblogs.microsoft.com/oldnewthing/20260909-00/?p=112683",
           "published": "Thu, 10 Sep 2026 09:04:14 +0000"
@@ -509,11 +529,6 @@
           "published": "Thu, 10 Sep 2026 01:58:00 +0000"
         },
         {
-          "title": "Automattic's board forces CEO Matt Mullenweg into leave of absence",
-          "url": "https://techcrunch.com/2026/09/09/automattics-board-forces-ceo-matt-mullenweg-into-leave-of-absence/",
-          "published": "Wed, 09 Sep 2026 23:49:29 +0000"
-        },
-        {
           "title": "iPhone Duo",
           "url": "https://www.apple.com/iphone-duo/",
           "published": "Wed, 09 Sep 2026 18:15:43 +0000"
@@ -522,11 +537,6 @@
           "title": "AirPods 5",
           "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
           "published": "Wed, 09 Sep 2026 17:39:24 +0000"
-        },
-        {
-          "title": "iPhone 18 Pro and iPhone 18 Pro Max",
-          "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
-          "published": "Wed, 09 Sep 2026 17:33:20 +0000"
         },
         {
           "title": "Growing proof that autonomous cars save lives",
@@ -547,16 +557,6 @@
           "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
           "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
           "published": "Wed, 09 Sep 2026 14:37:47 +0000"
-        },
-        {
-          "title": "Shopify acquires Tailwind",
-          "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-          "published": "Wed, 09 Sep 2026 13:27:11 +0000"
-        },
-        {
-          "title": "Liesegang Rings",
-          "url": "https://chillphysicsenjoyer.substack.com/p/liesegang-rings",
-          "published": "Wed, 09 Sep 2026 13:20:36 +0000"
         }
       ],
       "error": null
@@ -566,6 +566,11 @@
       "category": "tech",
       "url": "https://hnrss.org/best",
       "items": [
+        {
+          "title": "The same nine streaming subscriptions cost $702/year more than in 2021",
+          "url": "https://honestlyranked.com/guides/streaming-price-increases/",
+          "published": "Thu, 10 Sep 2026 10:13:59 +0000"
+        },
         {
           "title": "DeepSeek v4.1 Flash",
           "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
@@ -580,6 +585,11 @@
           "title": "Automattic's board forces CEO Matt Mullenweg into leave of absence",
           "url": "https://techcrunch.com/2026/09/09/automattics-board-forces-ceo-matt-mullenweg-into-leave-of-absence/",
           "published": "Wed, 09 Sep 2026 23:49:29 +0000"
+        },
+        {
+          "title": "iPhone Duo",
+          "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+          "published": "Wed, 09 Sep 2026 18:17:06 +0000"
         },
         {
           "title": "iPhone Duo",
@@ -680,16 +690,6 @@
           "title": "LG TVs caught spying even when offline or on standby",
           "url": "https://www.theverge.com/tech/991190/lg-tv-spying-standby-recording-wi-fi-scanning-gamers-nexus",
           "published": "Tue, 08 Sep 2026 16:07:08 +0000"
-        },
-        {
-          "title": "AlphaGenome Atlas: a high-resolution map of human DNA",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
-          "published": "Tue, 08 Sep 2026 14:55:45 +0000"
-        },
-        {
-          "title": "DHS 'Predictive Policing' Unit Is Analyzing Americans' Financial Habits",
-          "url": "https://www.404media.co/a-secretive-dhs-predictive-policing-unit-is-analyzing-americans-financial-habits-and-pulling-them-over/",
-          "published": "Tue, 08 Sep 2026 14:40:30 +0000"
         }
       ],
       "error": null
@@ -699,6 +699,16 @@
       "category": "ecommerce",
       "url": "https://hnrss.org/newest?q=ecommerce+OR+shopify+OR+retail",
       "items": [
+        {
+          "title": "Shopify is moving from React Native to Native",
+          "url": "https://twitter.com/mustafa01ali/status/2098047492772249730",
+          "published": "Thu, 10 Sep 2026 14:52:01 +0000"
+        },
+        {
+          "title": "Shopify moves back to Native from React Native",
+          "url": "https://shopify.engineering/back-to-native",
+          "published": "Thu, 10 Sep 2026 14:09:31 +0000"
+        },
         {
           "title": "Shopify acquires Tailwind",
           "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
@@ -788,16 +798,6 @@
           "title": "How do ecommerce businesses handle reconciliation?",
           "url": "https://news.ycombinator.com/item?id=49399160",
           "published": "Sat, 22 Aug 2026 12:41:36 +0000"
-        },
-        {
-          "title": "I tested 20 \"agent-ready\" Shopify stores –> 25% silently break at add-to-cart",
-          "url": "https://github.com/MythrilS/agent-ready-checkout",
-          "published": "Sat, 22 Aug 2026 04:10:13 +0000"
-        },
-        {
-          "title": "US retail giant Target doubles $1 BILLION income last quarter via tariff refunds",
-          "url": "https://www.bbc.com/news/articles/c78gp4y8d3eo",
-          "published": "Thu, 20 Aug 2026 14:50:09 +0000"
         }
       ],
       "error": null
@@ -818,7 +818,12 @@
           "published": "Thu, 10 Sep 2026 13:45:45 GMT"
         },
         {
-          "title": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
+          "title": "COSMECCA KOREA plans $150 mil. AI-based skincare factory in Korea - koreabiomed.com",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JOHRFeGJMRElFbVVDVkNFMXdWZTVvVWF1Sy1nckZmdHU2dVNuVlRyYktZZ0RnTTU1aWUwT3Z0LVJxeGxrRnVpaHV6RHNjaHVrQVJNNDVkVlQ1SXZTNFluWFBiWGZ4bURabzZIZUJ30gFyQVVfeXFMUHJVc2QwM0dFXzMyM1Jjek50c3A0LVp4NXo5MVhIb0haZ1JILVdWYUpTV0NVNUtXaExVdUw2Q1YxOVpfU3NMalBJMWZ4b0tJS1gxSnJacEpuQnRkSE1YdUd4dzVJMnRVQktqNnl2Rnk4Ymp3?oc=5",
+          "published": "Thu, 10 Sep 2026 06:20:08 GMT"
+        },
+        {
+          "title": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - kedglobal.com",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3ZU9yYWdlM1JUZGlkem45TFVrY1Z1ZzVCZEJ2V29RX3FaZ043TG9PamFJdjBHUWxWOG1IbzktajdOZzRKLUxkZF8xaHJ4R2NMaDNDQy0yOGItRHVobEd2bk9IVmh1S2FSM0g0cEtRY0xFTFpWQUE?oc=5",
           "published": "Wed, 09 Sep 2026 21:27:30 GMT"
         },
@@ -848,11 +853,6 @@
           "published": "Wed, 09 Sep 2026 22:00:33 GMT"
         },
         {
-          "title": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRURKYS1ZekRkbWVwN2g1TTFWd3VkUmtReXFsVFFlbEFlR0cxTXFXd2k5Zkw5WGM0TmRWc0tSS21fWjROdHZMYVI2S3pqOF90QnJNQ242blFzLTNFd0V1NlhQQ1h5UkFYZS1qQ21RQnN0bW5oenpibURlTi1XVmE2R255Mm5Ga0NEUEwyVEhhUzk1LVhKeEVXbm14NNIBoAFBVV95cUxOWVE3UVVwRWxaYWpnVDgxUHdiWUF1YzVsMkJZVFpJZGlOOEpCdXNxX1hjWGJfY0MtelJjZkREVzhMX2VZdkVDd1hJVWdYcHRHenU2Ylh5Z25kN2lGWm5WZTJTeWthWldFbndJTjNYODdlV0FqaFpnYXVFQ0hlU1NSSjhONXZtQmloUndlT3FrVW1tSEV4b3FPNHEycWI3VjZj?oc=5",
-          "published": "Tue, 08 Sep 2026 10:00:17 GMT"
-        },
-        {
           "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - ELLE",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5",
           "published": "Wed, 26 Aug 2026 07:00:00 GMT"
@@ -866,11 +866,6 @@
           "title": "Korean Hair Products Are Here. This is Why You Absolutely Need to Try Them. - Women's Health",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOEh6R2M4VmNWR0FtR2loaEpLX002R2F3dkRFRldjSmZUdkxjekVzb2NXYzhZMUFiZzM5cXRQVHk1RmQ0NTkxcU5MZTVMX1RsQVBNcEw5NkM3ZGJ5Q19KajNpTkdoZE93MFR5cnExZTNHTHZad0s0aGpaS2xUMG1LMFE0VUxKUQ?oc=5",
           "published": "Wed, 09 Sep 2026 12:00:00 GMT"
-        },
-        {
-          "title": "Cosmax, L’Oréal deepen 20-year alliance with global beauty R&D push - Korea Biomedical Review",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91SGxzYzdQRURGT0IybVFQNnRaNngyLUR4SWwtUy1Pb29QRHdmTThYUnJWVjNlUFRIeFZ4dTRfSFhXY2ExYk9GLURGREtLLUU3MkYwcFRWRlU1YWRrVjZqSUNsZ3dTcFkwS3hFNkx30gFyQVVfeXFMTXpodjdyQUJuTDFVblI4YU5wck9nOFNnRUdFQXlna0lReEZ4OFRUdGZEeGwwS0xZbWlnNGcyelIzUFBFckdVcTR6SWdsWkZNUWJzRHl5XzFQNm5EQWgzVUlsQ2wwWTBvUzF1d0FCa2RGdlJ3?oc=5",
-          "published": "Wed, 09 Sep 2026 01:53:14 GMT"
         },
         {
           "title": "14 Best Korean Beauty Products For Acne, According To K-Beauty Experts - Coveteur",
@@ -893,6 +888,11 @@
           "published": "Thu, 10 Sep 2026 06:39:00 GMT"
         },
         {
+          "title": "Cosmax, L’Oréal deepen 20-year alliance with global beauty R&D push - koreabiomed.com",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91SGxzYzdQRURGT0IybVFQNnRaNngyLUR4SWwtUy1Pb29QRHdmTThYUnJWVjNlUFRIeFZ4dTRfSFhXY2ExYk9GLURGREtLLUU3MkYwcFRWRlU1YWRrVjZqSUNsZ3dTcFkwS3hFNkx30gFyQVVfeXFMTXpodjdyQUJuTDFVblI4YU5wck9nOFNnRUdFQXlna0lReEZ4OFRUdGZEeGwwS0xZbWlnNGcyelIzUFBFckdVcTR6SWdsWkZNUWJzRHl5XzFQNm5EQWgzVUlsQ2wwWTBvUzF1d0FCa2RGdlJ3?oc=5",
+          "published": "Wed, 09 Sep 2026 01:53:14 GMT"
+        },
+        {
           "title": "Mixing Joseon beauty with sexual desire: Hit erotic film returns as Netflix K-drama - The Korea Herald",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5FNFNQLUFITmQ3VGsybmRXRXViNlF5ZjdiUGh4YXNDX01Pc19EM0MwN3NraEtYVEE1aGlneW5OLWFiZFpPSExSSV9CaExkTl96cEZBeGJURQ?oc=5",
           "published": "Thu, 10 Sep 2026 05:12:28 GMT"
@@ -903,7 +903,7 @@
           "published": "Wed, 09 Sep 2026 03:46:47 GMT"
         },
         {
-          "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - trendhunter.com",
+          "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - Trend Hunter",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yd21ockxiN01RTlN0SGRoNWdlcFBFdkpab3JqdXRGUHRIS3NjS1VzR3VDWjhKRmJtaTN4MGlaS0NLUjlVbVRxZE5xY1lqU28yV0dVOTNLby03OUhKVWVuVlg3ZjBVMEkydXc?oc=5",
           "published": "Wed, 09 Sep 2026 04:41:48 GMT"
         },
@@ -923,14 +923,14 @@
           "published": "Sun, 06 Sep 2026 11:00:00 GMT"
         },
         {
-          "title": "Amorepacific builds ‘holistic longevity’ strategy around biotech, AI - KED Global",
+          "title": "Amorepacific builds ‘holistic longevity’ strategy around biotech, AI - kedglobal.com",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9EQVlfZ19Bdm5NbnpYdzl0VTMwYzlHWmdFYmZTRERiZTZCWHczS3NBN2gyRWNBLUY4eWFEVFM5U0VSVVhxSnNSZTR4c1ZoczVOdktiMzJwZGxVQ00yYXZCdTFBWXRESWJwYVNJcFhWNmhFQUhoRlE?oc=5",
           "published": "Tue, 08 Sep 2026 18:41:17 GMT"
         },
         {
-          "title": "K-Beauty’s Brazil Push Signals a New Type of Korean Diplomacy - The Diplomat – Asia-Pacific Current Affairs Magazine",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0ZibUpBTHd0ejZVOXVzTEhuQWNMVE1VblM4NUhVTWt4dmtkbW9wbnVxY0JOY1NpMEEwY2drcjZyb0dlLVRZZ1FIbUxMWkR4RVJzRlVTMDRFcHJuN2dEUDJpX1dlY0xYYXM4ajQ0dVUyN3F3MjA3a1ZlZklnSlhaTW1wcHJTUE5ncTlUZ1Axa003c1dWdE0ybg?oc=5",
-          "published": "Thu, 03 Sep 2026 11:30:44 GMT"
+          "title": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRURKYS1ZekRkbWVwN2g1TTFWd3VkUmtReXFsVFFlbEFlR0cxTXFXd2k5Zkw5WGM0TmRWc0tSS21fWjROdHZMYVI2S3pqOF90QnJNQ242blFzLTNFd0V1NlhQQ1h5UkFYZS1qQ21RQnN0bW5oenpibURlTi1XVmE2R255Mm5Ga0NEUEwyVEhhUzk1LVhKeEVXbm14NNIBoAFBVV95cUxOWVE3UVVwRWxaYWpnVDgxUHdiWUF1YzVsMkJZVFpJZGlOOEpCdXNxX1hjWGJfY0MtelJjZkREVzhMX2VZdkVDd1hJVWdYcHRHenU2Ylh5Z25kN2lGWm5WZTJTeWthWldFbndJTjNYODdlV0FqaFpnYXVFQ0hlU1NSSjhONXZtQmloUndlT3FrVW1tSEV4b3FPNHEycWI3VjZj?oc=5",
+          "published": "Tue, 08 Sep 2026 10:00:17 GMT"
         }
       ],
       "error": null

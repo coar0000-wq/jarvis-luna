@@ -2,7 +2,7 @@
 title: "Record 1723b5814f · Learning-to-build-covering-structures-with-continuous-adjustments"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:09.949816+00:00
+updated_at: 2026-09-10T15:24:26.445394+00:00
 tags: [record, real-data]
 ---
 

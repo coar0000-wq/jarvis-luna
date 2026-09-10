@@ -2,7 +2,7 @@
 title: "Record cf878d57e7 · A-unified-power-grid-representation-for-reuse-across-network-structure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:09.945640+00:00
+updated_at: 2026-09-10T15:24:26.441202+00:00
 tags: [record, real-data]
 ---
 

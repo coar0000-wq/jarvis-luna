@@ -2,7 +2,7 @@
 title: "Record 22e111a10e · Active-Surveillance-for-Invasive-Mold-Disease--Four-Hospitals-Atlanta-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.087552+00:00
+updated_at: 2026-09-10T15:24:26.582904+00:00
 tags: [record, real-data]
 ---
 

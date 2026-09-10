@@ -2,7 +2,7 @@
 title: "Record 1d7d566208 · Intel-Foundry-and-ASML-Collaborate-to-Accelerate-Industry-Readiness-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.510361+00:00
+updated_at: 2026-09-10T15:24:27.037634+00:00
 tags: [record, real-data]
 ---
 

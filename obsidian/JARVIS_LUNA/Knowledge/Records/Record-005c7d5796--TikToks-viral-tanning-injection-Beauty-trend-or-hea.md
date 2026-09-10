@@ -2,7 +2,7 @@
 title: "Record 005c7d5796 · TikToks-viral-tanning-injection-Beauty-trend-or-health-risk---TheHealt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.361956+00:00
+updated_at: 2026-09-10T15:24:26.886676+00:00
 tags: [record, real-data]
 ---
 

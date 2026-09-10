@@ -2,7 +2,7 @@
 title: "Record 7294a35ab2 · Spatially-Organized-Tertiary-Lymphoid-Structures-Emerge-in-Small-Cell-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.151488+00:00
+updated_at: 2026-09-10T15:24:26.647358+00:00
 tags: [record, real-data]
 ---
 

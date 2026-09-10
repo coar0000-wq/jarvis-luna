@@ -2,7 +2,7 @@
 title: "Record c618f438ad · The-Rising-Sign-Makeup-Trend-Is-Popular-With-Women-on-TikTok---Twisted"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.343087+00:00
+updated_at: 2026-09-10T15:24:26.865197+00:00
 tags: [record, real-data]
 ---
 

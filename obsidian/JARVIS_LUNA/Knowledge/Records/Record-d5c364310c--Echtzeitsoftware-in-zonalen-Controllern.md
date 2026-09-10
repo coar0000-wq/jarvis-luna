@@ -2,7 +2,7 @@
 title: "Record d5c364310c · Echtzeitsoftware-in-zonalen-Controllern"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.001053+00:00
+updated_at: 2026-09-10T15:24:26.497144+00:00
 tags: [record, real-data]
 ---
 

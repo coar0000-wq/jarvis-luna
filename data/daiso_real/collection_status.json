@@ -1,56 +1,63 @@
 {
   "last_run": {
-    "started_at": "2026-09-10T14:15:57.585937+00:00",
+    "started_at": "2026-09-09T21:44:24.603293+00:00",
     "requested": 110,
-    "ok": 0,
-    "parse_failed": 5,
+    "ok": 12,
+    "parse_failed": 7,
     "http_error": 0,
     "sold_out": 0,
     "parse_fail_reasons": {
-      "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨": 5
+      "가격 없음": 7
     },
     "parse_fail_samples": [
       {
-        "pd_no": "1037532",
-        "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
+        "pd_no": "1069432",
+        "reason": "가격 없음",
         "og_title": "다이소몰",
-        "sold_out": false,
-        "fallback_attempted": true
+        "sold_out": false
       },
       {
-        "pd_no": "1037533",
-        "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
+        "pd_no": "1058806",
+        "reason": "가격 없음",
         "og_title": "다이소몰",
-        "sold_out": false,
-        "fallback_attempted": true
+        "sold_out": false
       },
       {
-        "pd_no": "1068835",
-        "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
+        "pd_no": "30493",
+        "reason": "가격 없음",
         "og_title": "다이소몰",
-        "sold_out": false,
-        "fallback_attempted": true
+        "sold_out": false
       },
       {
-        "pd_no": "048025191",
-        "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
+        "pd_no": "1065883",
+        "reason": "가격 없음",
         "og_title": "다이소몰",
-        "sold_out": false,
-        "fallback_attempted": true
+        "sold_out": false
       },
       {
-        "pd_no": "1056006",
-        "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
+        "pd_no": "1072035",
+        "reason": "가격 없음",
         "og_title": "다이소몰",
-        "sold_out": false,
-        "fallback_attempted": true
+        "sold_out": false
+      },
+      {
+        "pd_no": "10346312",
+        "reason": "가격 없음",
+        "og_title": "다이소몰",
+        "sold_out": false
+      },
+      {
+        "pd_no": "1057256",
+        "reason": "가격 없음",
+        "og_title": "다이소몰",
+        "sold_out": false
       }
     ],
-    "fallback_used": 0,
-    "fallback_price_fixed": 0,
-    "skipped_not_beauty": 105,
-    "skipped_bucket_full": 0,
-    "skipped_excluded": {},
+    "skipped_not_beauty": 73,
+    "skipped_bucket_full": 14,
+    "skipped_excluded": {
+      "네일": 4
+    },
     "pruned_existing": {},
     "queue_size": 0,
     "url_source": "sitemap",
@@ -59,7 +66,7 @@
     "max_items": 110,
     "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
     "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
-    "finished_at": "2026-09-10T15:16:37.440104+00:00",
+    "finished_at": "2026-09-09T22:42:59.014772+00:00",
     "bucket_targets": {
       "구강용품": 3,
       "헤어케어": 18,
@@ -73,11 +80,11 @@
       "스킨케어": 150
     },
     "buckets_short": {
-      "헤어케어": 8,
-      "바디케어": 13,
-      "클렌징": 7,
-      "마스크팩": 35,
-      "스킨케어": 46
+      "헤어케어": 10,
+      "바디케어": 2,
+      "클렌징": 23,
+      "마스크팩": 10,
+      "스킨케어": 104
     },
     "status": "ok"
   },
@@ -97,20 +104,50 @@
     },
     "by_bucket": {
       "구강용품": 13,
-      "마스크팩": 35,
-      "맨즈케어": 23,
-      "메이크업": 52,
+      "헤어케어": 8,
       "바디케어": 13,
-      "뷰티소품": 8,
-      "스킨케어": 46,
-      "클렌징": 7,
+      "맨즈케어": 23,
       "향수": 9,
-      "헤어케어": 8
+      "클렌징": 7,
+      "마스크팩": 35,
+      "메이크업": 52,
+      "뷰티소품": 8,
+      "스킨케어": 46
     },
     "categories": {
       "구강용품": {
         "count": 13,
         "avg_price_krw": 2154,
+        "min_price_krw": 1000,
+        "max_price_krw": 5000
+      },
+      "헤어케어": {
+        "count": 8,
+        "avg_price_krw": 3250,
+        "min_price_krw": 1000,
+        "max_price_krw": 5000
+      },
+      "바디케어": {
+        "count": 13,
+        "avg_price_krw": 2923,
+        "min_price_krw": 1000,
+        "max_price_krw": 5000
+      },
+      "맨즈케어": {
+        "count": 23,
+        "avg_price_krw": 3109,
+        "min_price_krw": 1000,
+        "max_price_krw": 5000
+      },
+      "향수": {
+        "count": 9,
+        "avg_price_krw": 2444,
+        "min_price_krw": 1000,
+        "max_price_krw": 5000
+      },
+      "클렌징": {
+        "count": 7,
+        "avg_price_krw": 3429,
         "min_price_krw": 1000,
         "max_price_krw": 5000
       },
@@ -120,21 +157,9 @@
         "min_price_krw": 500,
         "max_price_krw": 5000
       },
-      "맨즈케어": {
-        "count": 23,
-        "avg_price_krw": 3109,
-        "min_price_krw": 1000,
-        "max_price_krw": 5000
-      },
       "메이크업": {
         "count": 52,
         "avg_price_krw": 2750,
-        "min_price_krw": 1000,
-        "max_price_krw": 5000
-      },
-      "바디케어": {
-        "count": 13,
-        "avg_price_krw": 2923,
         "min_price_krw": 1000,
         "max_price_krw": 5000
       },
@@ -149,24 +174,6 @@
         "avg_price_krw": 3554,
         "min_price_krw": 1000,
         "max_price_krw": 5000
-      },
-      "클렌징": {
-        "count": 7,
-        "avg_price_krw": 3429,
-        "min_price_krw": 1000,
-        "max_price_krw": 5000
-      },
-      "향수": {
-        "count": 9,
-        "avg_price_krw": 2444,
-        "min_price_krw": 1000,
-        "max_price_krw": 5000
-      },
-      "헤어케어": {
-        "count": 8,
-        "avg_price_krw": 3250,
-        "min_price_krw": 1000,
-        "max_price_krw": 5000
       }
     },
     "avg_price_krw": 2825,
@@ -175,18 +182,18 @@
     "with_rating": 210
   },
   "fx": {
-    "usd_to_krw": 1339.0,
-    "krw_to_usd": 0.00074683,
+    "usd_to_krw": 1343.8,
+    "krw_to_usd": 0.00074416,
     "as_of": "2026-09-10",
-    "source": "ExchangeRate-API",
-    "api_url": "https://open.er-api.com/v6/latest/USD",
-    "fetched_at": "2026-09-10T14:07:44.885047+00:00",
+    "source": "Frankfurter API",
+    "api_url": "https://api.frankfurter.app/latest?from=USD&to=KRW",
+    "fetched_at": "2026-09-10T15:27:28.772186+00:00",
     "ok": true,
     "대조": [
-      "exchangerate-api 1,339.00(2026-09-10)",
-      "Frankfurter API 1,336.20(2026-09-09)"
+      "ExchangeRate-API 1,339.00(2026-09-10)",
+      "exchangerate-api 1,339.00(2026-09-10)"
     ]
   },
   "sitemap_urls_known": 19739,
-  "visited": 110
+  "visited": 1535
 }

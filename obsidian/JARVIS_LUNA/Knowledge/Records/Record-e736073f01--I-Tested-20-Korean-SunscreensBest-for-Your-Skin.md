@@ -2,7 +2,7 @@
 title: "Record e736073f01 · I-Tested-20-Korean-SunscreensBest-for-Your-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.582103+00:00
+updated_at: 2026-09-10T15:24:27.111823+00:00
 tags: [record, real-data]
 ---
 

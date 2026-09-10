@@ -2,7 +2,7 @@
 title: "Record 88d065c102 · Artificial-intelligence-social-justice-and-public-governance-perspecti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.099800+00:00
+updated_at: 2026-09-10T15:24:26.595360+00:00
 tags: [record, real-data]
 ---
 

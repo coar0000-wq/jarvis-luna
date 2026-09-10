@@ -2,7 +2,7 @@
 title: "Record 204993ec2b · South-Koreas-Olive-Young-brings-K-beauty-routine-to-California---upico"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.341074+00:00
+updated_at: 2026-09-10T15:24:26.862922+00:00
 tags: [record, real-data]
 ---
 

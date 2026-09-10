@@ -2,7 +2,7 @@
 title: "Record fc72ed30f3 · A-Controlled-Comparison-of-Manual-and-Teleoperated-Intraocular-Instrum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:09.952515+00:00
+updated_at: 2026-09-10T15:24:26.448142+00:00
 tags: [record, real-data]
 ---
 

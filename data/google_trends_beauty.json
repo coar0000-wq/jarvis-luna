@@ -1,10 +1,10 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-10T14:06:41.041073+00:00",
+  "collected_at": "2026-09-10T15:04:40.857174+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
-  "count": 92,
+  "count": 91,
   "items": [
     {
       "keyword": "VOESH Joins Target Beauty Studio, Bringing K-Beauty Body Care to Target Guests Nationwide with Target-Exclusive Collection - PR Newswire",
@@ -34,11 +34,11 @@
       "beauty": true
     },
     {
-      "keyword": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
-      "product": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
+      "keyword": "Tonymoly expands Australia reach to 1,220 Coles, Kmart, Target stores - koreabiomed.com",
+      "product": "Tonymoly expands Australia reach to 1,220 Coles, Kmart, Target stores - koreabiomed.com",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeEJ0MTljNGRxbHppX0V4djZuR3ZoTTlQX1FRT0Z0VHgwMmxuLWhyRlY1ZnRkMktJYjItc0ZSUi05T0hIeDFFUGhZSUNtN2xqVHhQSHozeHJWYzY1Vzl2UFoxUjV3Q3AzdXowc1hlODhkck50Z3V2N3d0Wm5JX3EtYWsxeFBQQVh3Z0FnYnZ3Nm02SFJDd1hPYzltdkdOVFMwdUR1eW1QbnpuUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uTUF0Zk9GWWh1Z1JIc2ZXcDBYNG9UTzVHWmxTY0o0a2d4MnhrMFBreXF5SFotZm9PSVhJaXJETmlpVUtOU1lBX0NjZmpjMUlvbVdmWnlmTExKOEhDN1JYV2wwT0VDR3ZwYmRVMmtB0gFyQVVfeXFMTnRwOWtSb25kaDV5S29yTllTRUd5cWloU2FXNnEzNmI1Y0dvQUpqSmY4YlpwaWFsd1RGdE1zY1E3Qk1QejFNOTVTQ3RWb1pCckszQWlmZ3phTC04SGdEdzBWSkczalNoT1pUbzVJemhMWnFn?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -52,6 +52,15 @@
       "beauty": true
     },
     {
+      "keyword": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
+      "product": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeEJ0MTljNGRxbHppX0V4djZuR3ZoTTlQX1FRT0Z0VHgwMmxuLWhyRlY1ZnRkMktJYjItc0ZSUi05T0hIeDFFUGhZSUNtN2xqVHhQSHozeHJWYzY1Vzl2UFoxUjV3Q3AzdXowc1hlODhkck50Z3V2N3d0Wm5JX3EtYWsxeFBQQVh3Z0FnYnZ3Nm02SFJDd1hPYzltdkdOVFMwdUR1eW1QbnpuUQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
       "keyword": "L’Oréal and Cosmax pen agreement to collaborate on next-generation beauty products - Cosmetics Business",
       "product": "L’Oréal and Cosmax pen agreement to collaborate on next-generation beauty products - Cosmetics Business",
       "sub": "K-beauty",
@@ -61,20 +70,11 @@
       "beauty": true
     },
     {
-      "keyword": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
-      "product": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
+      "keyword": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
+      "product": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3ZU9yYWdlM1JUZGlkem45TFVrY1Z1ZzVCZEJ2V29RX3FaZ043TG9PamFJdjBHUWxWOG1IbzktajdOZzRKLUxkZF8xaHJ4R2NMaDNDQy0yOGItRHVobEd2bk9IVmh1S2FSM0g0cEtRY0xFTFpWQUE?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Amorepacific's Ryo names actress Gong Seung-yeon global ambassador - Korea Biomedical Review",
-      "product": "Amorepacific's Ryo names actress Gong Seung-yeon global ambassador - Korea Biomedical Review",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1DbmpXeGl0VUNxbUo2bmgtMnRyZ1lVOC05RmUtV2ZfcERyR0dmNlM5SEFmUTYwZ0dseGwwaGFBUk1OUGRuUDNsZzdVWGdONVBBeVhob20yNWdWYXRmSGdMdy1icGdVWTU3OEpDbVdR0gFyQVVfeXFMT3h6VG5RU3NoYmFSSWFIMjFIWHhfSDZBZUg2S2VLdjdFSmZvcHR3NmpxeFB3bmpqOEU4UUd0VlVEa1psVkl3Ml9Jc0VHdE12TkxqSkFuc2xLREl5V0JmeXJZYTFyVklUVHJoYUMzdzdPYV9n?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -97,8 +97,8 @@
       "beauty": true
     },
     {
-      "keyword": "US and Korean sunscreens are not created equal, study says - WTOP News",
-      "product": "US and Korean sunscreens are not created equal, study says - WTOP News",
+      "keyword": "US and Korean sunscreens are not created equal, study says - wtop.com",
+      "product": "US and Korean sunscreens are not created equal, study says - wtop.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnpvNUR0bm0tV2E0M183TDZLUVUwal9NRHduZ21ULUtPZFl2SnFoVS1WVFVZTjJtZjFfX1R5Um1Lajk0TXZzbnVpbkdpMXdMbno4dHo0Y3g4R3lYbV9rRkcyY0VsSjRVSFFPWVV5cTNNWG0tVC0zZ0tER251cDRCM3A0ZEJnNTBjWjBrYnp2dHRHSXd2UkNMckJqQ1JmUmFkX1RCeElDdmtzMGJ4X3V6SjJYbTQyUlNvazMycGw4b2k4aG44YkdN?oc=5",
@@ -133,8 +133,8 @@
       "beauty": true
     },
     {
-      "keyword": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
-      "product": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
+      "keyword": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
+      "product": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5",
@@ -232,8 +232,8 @@
       "beauty": true
     },
     {
-      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - allure.com",
-      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - allure.com",
+      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
+      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tUlIta29LZnJyQjZ3VlhCQ1VlZzk3bVo5LXd1NE8xX3FRemRsZXB4VXdOSDQtWVNUMlJzWmNXSnhUTWdBTl9hX1dud2VTREZwNlFfTXVxNEdOa0tSdUJZNS1B?oc=5",
@@ -286,8 +286,8 @@
       "beauty": true
     },
     {
-      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - allure.com",
-      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - allure.com",
+      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
+      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yZDNoUHpEdEhOUWhHQWRZck1vTFdWeDljeGZPcVh4a1VuaWpnWTczN0Vhd2RmODNOajVxdFdzRHdJTjJVbVJfa212RDdQcVY3N2tSRjc0emxET0J6bUFfbVZUNUU?oc=5",
@@ -358,8 +358,8 @@
       "beauty": true
     },
     {
-      "keyword": "Experts Say the Niacinamide Inside This $6 ‘Holy Grail’ Serum Helps Nearly Every Complaint With Aging Skin - realsimple.com",
-      "product": "Experts Say the Niacinamide Inside This $6 ‘Holy Grail’ Serum Helps Nearly Every Complaint With Aging Skin - realsimple.com",
+      "keyword": "Experts Say the Niacinamide Inside This $6 ‘Holy Grail’ Serum Helps Nearly Every Complaint With Aging Skin - Real Simple",
+      "product": "Experts Say the Niacinamide Inside This $6 ‘Holy Grail’ Serum Helps Nearly Every Complaint With Aging Skin - Real Simple",
       "sub": "niacinamide serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTlpDWDM1WVl1OUxvNFJjVGFROXM2TFE0YWNOMUk1aEgtM3g0QWFsb1VVU3RValNGTTlIRTdVWVhZUmNZbm9OZGlKVUZLb3o4NkVpcG40VWtkdUd1UWVCT3lUekFPX2RlUVQzRy1GLUNHQkNnSzFTX3pkU3FrUUNfckVzSXAtSjhEWnpzMThUX2dlQQ?oc=5",

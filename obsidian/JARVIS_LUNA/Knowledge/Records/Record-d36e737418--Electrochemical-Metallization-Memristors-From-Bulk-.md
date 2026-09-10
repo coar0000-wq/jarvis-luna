@@ -2,7 +2,7 @@
 title: "Record d36e737418 · Electrochemical-Metallization-Memristors-From-Bulk-to-2D-Materials"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:09.989186+00:00
+updated_at: 2026-09-10T15:24:26.485227+00:00
 tags: [record, real-data]
 ---
 

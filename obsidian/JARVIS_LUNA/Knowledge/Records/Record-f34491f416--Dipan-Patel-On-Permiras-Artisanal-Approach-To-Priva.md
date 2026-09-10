@@ -2,7 +2,7 @@
 title: "Record f34491f416 · Dipan-Patel-On-Permiras-Artisanal-Approach-To-Private-Equity---Transcr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:10.529771+00:00
+updated_at: 2026-09-10T15:24:27.057248+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e93c407601 · The-Asian-Federation-of-Cytology-Societies-Origins-Inaugural-Congress-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T15:19:09.992936+00:00
+updated_at: 2026-09-10T15:24:26.489010+00:00
 tags: [record, real-data]
 ---
 

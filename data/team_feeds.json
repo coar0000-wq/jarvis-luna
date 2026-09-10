@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T14:04:55.162207+00:00",
+  "generated_at": "2026-09-10T15:03:18.612555+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -12,8 +12,8 @@
       "recent": 215
     },
     "market": {
-      "total": 419,
-      "recent": 50
+      "total": 420,
+      "recent": 51
     },
     "listing": {
       "total": 14,
@@ -28,8 +28,8 @@
       "recent": 18
     },
     "design": {
-      "total": 351,
-      "recent": 93
+      "total": 350,
+      "recent": 94
     },
     "robotics": {
       "total": 105,
@@ -594,7 +594,7 @@
         "by_hand": false
       },
       {
-        "title": "Musinsa announced on the 10th that it will open the first store of Musinsa Beauty, an editing shop t.. - 매일경제",
+        "title": "Musinsa announced on the 10th that it will open the first store of Musinsa Beauty, an editing shop t.. - mk.co.kr",
         "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6NXBjbTl6aE1Wb0Q3TU1wZVMzQWl4dVQ2Mnk0bjlEWXpUT2VCaUk0RXJ6RzNLUkVralkyb1puNW54MXV3dV9Nby1qYzB3SEV1VUJB?oc=5",
         "pool": "google",
         "date": "2026-09-10",
@@ -657,15 +657,8 @@
         "by_hand": false
       },
       {
-        "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - Trend Hunter",
+        "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - trendhunter.com",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yd21ockxiN01RTlN0SGRoNWdlcFBFdkpab3JqdXRGUHRIS3NjS1VzR3VDWjhKRmJtaTN4MGlaS0NLUjlVbVRxZE5xY1lqU28yV0dVOTNLby03OUhKVWVuVlg3ZjBVMEkydXc?oc=5",
-        "pool": "google",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Why Mikayla Nogueira Chose Skin Prep Over Skincare And Sephora For POV - Forbes",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTEFReVYycEt0SVlVejR4R0w1UEdoT3V1dVBpN2NXZXFYdDNqeUZLQ21HdnQ5ekVPeHFiYXFUbWM5dFpqdWs3TE8xblE3RWRaTm94el9fTjVvQkhpQnN3eloxLWVQalM1dEtOaHYtN2Y1OTJCV1k0RTFZeFVWOUd4RTFLLWt1SW1tZVlBa19WckZDUmJUeHJrVmtLemZaMkRmTVhLeXRxZjZJTzhxek5KVmYySE5BWi1QSV9hUUQzVWgzNGM?oc=5",
         "pool": "google",
         "date": "2026-09-09",
         "by_hand": false
@@ -678,7 +671,14 @@
         "by_hand": false
       },
       {
-        "title": "Viral-to-Retail K-Beauty: nooni Brings Its Viral Lip Oil to Target in Eight Shades - Trend Hunter",
+        "title": "Why Mikayla Nogueira Chose Skin Prep Over Skincare And Sephora For POV - Forbes",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTEFReVYycEt0SVlVejR4R0w1UEdoT3V1dVBpN2NXZXFYdDNqeUZLQ21HdnQ5ekVPeHFiYXFUbWM5dFpqdWs3TE8xblE3RWRaTm94el9fTjVvQkhpQnN3eloxLWVQalM1dEtOaHYtN2Y1OTJCV1k0RTFZeFVWOUd4RTFLLWt1SW1tZVlBa19WckZDUmJUeHJrVmtLemZaMkRmTVhLeXRxZjZJTzhxek5KVmYySE5BWi1QSV9hUUQzVWgzNGM?oc=5",
+        "pool": "google",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "Viral-to-Retail K-Beauty: nooni Brings Its Viral Lip Oil to Target in Eight Shades - trendhunter.com",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TU2k5bU9DMWFraFREU29nU1o0ZnlVQ201YjVsTW56TkhvZlBMRUtEWVczd1Y0R2MwQXk4NkliSTZQOVpqT19lYl9GYllvM3VsNmtvNW42Yy1ZTzREUXJ4WVhNRzJjTFk?oc=5",
         "pool": "google",
         "date": "2026-09-09",
@@ -755,6 +755,13 @@
         "by_hand": false
       },
       {
+        "title": "8 best ecommerce AI Website Builder for creating an online store - Hostinger",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpU29tczMwM1pKaUdZYld0aThjYVRYWlE1c3k2VXc4RDBpUDdLOEx5bDg1OHljdURVUG5Xc25PWUxVZDY0RGl2OEFNM1ZYelFhN3FTVm1ySC1hRFk5amtVbkpudm9ZSFFCaEVQX1hleGRKWHV0d1NzSDhJdw?oc=5",
+        "pool": "google",
+        "date": "2026-09-04",
+        "by_hand": false
+      },
+      {
         "title": "The Vogue Business Beauty Trend Tracker - Vogue",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96eFRtR1g5NG15VmJxdk9GX3B1V1FJdWRDdkJPb1pHMWk3d2pwMV81WFBURlJxaHRadVZTWUFKR1VSc21KX1lyVTUxa2NSa05nRmxUU1FRb1hFVWNvc2hDZ25YYUQ0Y09jMzNhLTZuWGk?oc=5",
         "pool": "google",
@@ -825,7 +832,7 @@
         "by_hand": false
       },
       {
-        "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - sacbee.com",
+        "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - Sacramento Bee",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzRUhWam1YWHZYXzlFQlVlMFcwRDBYX003QTZqSzM0WURnYnNudkZveEs3RHJCczBzSUpvMklOeXR3elA4ZVdIc2lDd2RNeEJLeE9RdGNEbVFrTjVhcnFPaUJSNEpNeXpWLWRpcGhQb0ozdU3SAXNBVV95cUxPV1Qwc05zNHBGQmhLclBFVzhrQjQ1bjBZWWFKa25fVllZRXRobkhXZGZpeUplUVFYTjJ4dEpBTDZ1TXVlc3FGT3FOOUl2VFBqdzhYcHRFeEtJV2ExN29TUTVQVVdVTmNwWW9YVHZHSkZ0TDZN?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -881,15 +888,8 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty’s fastest-growing products are quietly crossing over from cult status to household names - sacbee.com",
+        "title": "K-beauty’s fastest-growing products are quietly crossing over from cult status to household names - Sacramento Bee",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aWFdHVGswUVFLUzNOYnhaRzV4RXpLSE4yUU5IcHJVa2lieDYtRjBxNkZma1NUSG9hQS1QT3ZJcHVxekFETnhNUzloR3g5UkxEQWx5QVJxY1V5emtySDRYZzNnTUl3RWVCX29nazdaRUlMYWPSAXNBVV95cUxNdjl6SVNhV25mQjFJeUZITi0tLXlnMlFPcWc0a3lxNGU2cGdldm5GRzF2Yk1HY2VrQUhsVF9zemRaeVJvUkZzSDJxQnd4cXlDWTlGSEVYM3VYUEJ5aFMweWtBREtQb3NVTUVJRmxSMTlJQXBN?oc=5",
-        "pool": "google",
-        "date": "2026-08-27",
-        "by_hand": false
-      },
-      {
-        "title": "Meet the K-beauty products that beauty lovers consistently rank as their absolute skincare favorites - Fort Worth Star-Telegram",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3Y2ZRR0YyT1RTSXFnT2R1M2R4RGdBMzdXSEFGcDg3V2dKX3dnS3dOdXNNUXZzakhkSDFsZllvTXlsOXVQdWROSEFNUDdpYlA1SDc4RmFaVWFLVzgzUGtXMnkyYUxEWEV5a0NqNE90cENyMTJ4dVFLSWlKRGjSAXxBVV95cUxPcUJTSmtsZDhHR0FvUlNpVDl1bkZPcHJiaFJIN0xCNnRCaWZLUGZIWVpzY2llSVdkQnhPMzA5Yk1tWGtJN3k1LW14dkF4NTExeFk2T0JuMVQ3ZWVEbjl5NklwMTd1cVZoenBJUmJVVWFnbTZQSzc3VFY1Vm9S?oc=5",
         "pool": "google",
         "date": "2026-08-27",
         "by_hand": false
@@ -2827,6 +2827,13 @@
         "by_hand": false
       },
       {
+        "title": "How Will Less Fed Transparency Affect Markets And The Economy",
+        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-will-less-fed-transparency-affect-markets-and-the-economy",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
         "title": "Why Global Bond Yields Are Expected To Stay Elevated",
         "url": "https://www.goldmansachs.com/insights/articles/why-global-bond-yields-are-expected-to-stay-elevated",
         "pool": "institutions",
@@ -3116,13 +3123,6 @@
       {
         "title": "Barclays launches ISA and Life Insurance reward offers worth up to £750 | Barclays",
         "url": "https://home.barclays/news/press-releases/20260/090/barclays-launches-isa-and-life-insurance-reward-offers-worth-up-/",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "How Will Less Fed Transparency Affect Markets And The Economy",
-        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-will-less-fed-transparency-affect-markets-and-the-economy",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false

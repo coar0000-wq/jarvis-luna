@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T14:10:30.569295+00:00",
+  "generated_at": "2026-09-10T15:27:48.737542+00:00",
   "generator": "scripts/check_source_health.py",
   "왜": "메모 대신 결과를 남긴다. 예전에 FDA 리콜 RSS 를 '404, 주소 없음' 이라고 적어뒀는데 실제로는 멀쩡했다. 확인한 환경이 차단당하고 있었을 뿐이다.",
   "판정": "HTTP 200 이면서 항목이 1건 이상일 때만 정상. 껍데기를 받는 건 성공이 아니다. 3회 연속 실패해야 고장으로 본다.",
@@ -11,15 +11,15 @@
     "DOWN": "연결 자체가 안 된다"
   },
   "판정별": {
-    "LIVE": 16,
+    "LIVE": 15,
     "BLOCKED": 1,
     "GONE": 3,
     "EMPTY": 0,
-    "DOWN": 0
+    "DOWN": 1
   },
   "total": 20,
-  "alive": 16,
-  "dead": 4,
+  "alive": 15,
+  "dead": 5,
   "broken": 4,
   "고장": [
     {
@@ -27,7 +27,7 @@
       "name": "FDA 리콜 RSS",
       "note": "HTTP 404 (브라우저 UA 로도 404)",
       "status": 404,
-      "fail_streak": 24,
+      "fail_streak": 25,
       "last_ok_at": null
     },
     {
@@ -35,7 +35,7 @@
       "name": "FDA MedWatch 안전경보 RSS",
       "note": "HTTP 404 (브라우저 UA 로도 404)",
       "status": 404,
-      "fail_streak": 24,
+      "fail_streak": 25,
       "last_ok_at": null
     },
     {
@@ -43,7 +43,7 @@
       "name": "FDA 건강사기 RSS",
       "note": "HTTP 404 (브라우저 UA 로도 404)",
       "status": 404,
-      "fail_streak": 24,
+      "fail_streak": 25,
       "last_ok_at": null
     },
     {
@@ -51,7 +51,7 @@
       "name": "TSMC 뉴스룸",
       "note": "HTTP 403 (브라우저 UA 로도 403)",
       "status": 403,
-      "fail_streak": 24,
+      "fail_streak": 25,
       "last_ok_at": null
     }
   ],
@@ -61,28 +61,35 @@
       "name": "FDA 리콜 RSS",
       "status": 404,
       "note": "HTTP 404 (브라우저 UA 로도 404)",
-      "fail_streak": 24
+      "fail_streak": 25
     },
     {
       "team": "법률·규제팀",
       "name": "FDA MedWatch 안전경보 RSS",
       "status": 404,
       "note": "HTTP 404 (브라우저 UA 로도 404)",
-      "fail_streak": 24
+      "fail_streak": 25
     },
     {
       "team": "법률·규제팀",
       "name": "FDA 건강사기 RSS",
       "status": 404,
       "note": "HTTP 404 (브라우저 UA 로도 404)",
-      "fail_streak": 24
+      "fail_streak": 25
+    },
+    {
+      "team": "채널 운영팀",
+      "name": "Open Beauty Facts",
+      "status": 500,
+      "note": "HTTP 500",
+      "fail_streak": 1
     },
     {
       "team": "기관 수집팀",
       "name": "TSMC 뉴스룸",
       "status": 403,
       "note": "HTTP 403 (브라우저 UA 로도 403)",
-      "fail_streak": 24
+      "fail_streak": 25
     }
   ],
   "sources": [
@@ -99,9 +106,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 757,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
-      "last_ok_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 441,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
+      "last_ok_at": "2026-09-10T15:27:48.737542+00:00",
       "fail_streak": 0
     },
     {
@@ -117,9 +124,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 514,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
-      "last_ok_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 531,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
+      "last_ok_at": "2026-09-10T15:27:48.737542+00:00",
       "fail_streak": 0
     },
     {
@@ -135,10 +142,10 @@
       "ua": "both-failed",
       "blocked_for_bot": true,
       "note": "HTTP 404 (브라우저 UA 로도 404)",
-      "ms": 1244,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 1276,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
       "last_ok_at": null,
-      "fail_streak": 24
+      "fail_streak": 25
     },
     {
       "team": "법률·규제팀",
@@ -153,10 +160,10 @@
       "ua": "both-failed",
       "blocked_for_bot": true,
       "note": "HTTP 404 (브라우저 UA 로도 404)",
-      "ms": 1216,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 1160,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
       "last_ok_at": null,
-      "fail_streak": 24
+      "fail_streak": 25
     },
     {
       "team": "법률·규제팀",
@@ -171,10 +178,10 @@
       "ua": "both-failed",
       "blocked_for_bot": true,
       "note": "HTTP 404 (브라우저 UA 로도 404)",
-      "ms": 1301,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 1213,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
       "last_ok_at": null,
-      "fail_streak": 24
+      "fail_streak": 25
     },
     {
       "team": "디자인팀",
@@ -183,15 +190,15 @@
       "url": "https://fonts.google.com/metadata/fonts",
       "status": 200,
       "items": 1946,
-      "bytes": 2699999,
+      "bytes": 2699811,
       "ok": true,
       "판정": "LIVE",
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 170,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
-      "last_ok_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 156,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
+      "last_ok_at": "2026-09-10T15:27:48.737542+00:00",
       "fail_streak": 0
     },
     {
@@ -207,9 +214,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 73,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
-      "last_ok_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 77,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
+      "last_ok_at": "2026-09-10T15:27:48.737542+00:00",
       "fail_streak": 0
     },
     {
@@ -225,9 +232,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 183,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
-      "last_ok_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 201,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
+      "last_ok_at": "2026-09-10T15:27:48.737542+00:00",
       "fail_streak": 0
     },
     {
@@ -243,9 +250,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 82,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
-      "last_ok_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 122,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
+      "last_ok_at": "2026-09-10T15:27:48.737542+00:00",
       "fail_streak": 0
     },
     {
@@ -261,9 +268,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 193,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
-      "last_ok_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 266,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
+      "last_ok_at": "2026-09-10T15:27:48.737542+00:00",
       "fail_streak": 0
     },
     {
@@ -273,15 +280,15 @@
       "url": "https://news.google.com/rss/search?q=%22K-beauty%22+skincare&hl=en-US&gl=US&ceid=US:en",
       "status": 200,
       "items": 100,
-      "bytes": 123706,
+      "bytes": 124247,
       "ok": true,
       "판정": "LIVE",
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 612,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
-      "last_ok_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 464,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
+      "last_ok_at": "2026-09-10T15:27:48.737542+00:00",
       "fail_streak": 0
     },
     {
@@ -291,15 +298,15 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "status": 200,
       "items": 10,
-      "bytes": 21392,
+      "bytes": 21400,
       "ok": true,
       "판정": "LIVE",
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 181,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
-      "last_ok_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 183,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
+      "last_ok_at": "2026-09-10T15:27:48.737542+00:00",
       "fail_streak": 0
     },
     {
@@ -309,15 +316,15 @@
       "url": "https://www.allure.com/feed/rss",
       "status": 200,
       "items": 30,
-      "bytes": 25537,
+      "bytes": 25576,
       "ok": true,
       "판정": "LIVE",
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 48,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
-      "last_ok_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 37,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
+      "last_ok_at": "2026-09-10T15:27:48.737542+00:00",
       "fail_streak": 0
     },
     {
@@ -333,9 +340,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 42,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
-      "last_ok_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 29,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
+      "last_ok_at": "2026-09-10T15:27:48.737542+00:00",
       "fail_streak": 0
     },
     {
@@ -343,18 +350,18 @@
       "name": "Open Beauty Facts",
       "kind": "json",
       "url": "https://world.openbeautyfacts.org/api/v2/search?countries_tags_en=united-states&fields=code,product_name&page_size=5",
-      "status": 200,
-      "items": 5,
-      "bytes": 273,
-      "ok": true,
-      "판정": "LIVE",
+      "status": 500,
+      "items": 0,
+      "bytes": 0,
+      "ok": false,
+      "판정": "DOWN",
       "ua": "bot",
       "blocked_for_bot": false,
-      "note": "",
-      "ms": 809,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
+      "note": "HTTP 500",
+      "ms": 468,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
       "last_ok_at": "2026-09-10T14:10:30.569295+00:00",
-      "fail_streak": 0
+      "fail_streak": 1
     },
     {
       "team": "법률·규제팀",
@@ -369,9 +376,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 345,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
-      "last_ok_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 121,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
+      "last_ok_at": "2026-09-10T15:27:48.737542+00:00",
       "fail_streak": 0
     },
     {
@@ -387,10 +394,10 @@
       "ua": "both-failed",
       "blocked_for_bot": true,
       "note": "HTTP 403 (브라우저 UA 로도 403)",
-      "ms": 1167,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 1100,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
       "last_ok_at": null,
-      "fail_streak": 24
+      "fail_streak": 25
     },
     {
       "team": "기관 수집팀",
@@ -405,9 +412,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "HTML 은 크기로만 판단",
-      "ms": 419,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
-      "last_ok_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 338,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
+      "last_ok_at": "2026-09-10T15:27:48.737542+00:00",
       "fail_streak": 0
     },
     {
@@ -423,9 +430,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "HTML 은 크기로만 판단",
-      "ms": 283,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
-      "last_ok_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 599,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
+      "last_ok_at": "2026-09-10T15:27:48.737542+00:00",
       "fail_streak": 0
     },
     {
@@ -441,9 +448,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "HTML 은 크기로만 판단",
-      "ms": 396,
-      "checked_at": "2026-09-10T14:10:30.569295+00:00",
-      "last_ok_at": "2026-09-10T14:10:30.569295+00:00",
+      "ms": 392,
+      "checked_at": "2026-09-10T15:27:48.737542+00:00",
+      "last_ok_at": "2026-09-10T15:27:48.737542+00:00",
       "fail_streak": 0
     }
   ]

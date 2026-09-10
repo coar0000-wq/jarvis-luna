@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T14:04:50.473003+00:00",
+  "generated_at": "2026-09-10T15:03:13.894402+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -202,7 +202,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-10T14:04:40.154907+00:00",
+      "last_ok_at": "2026-09-10T15:03:03.551424+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -211,7 +211,7 @@
       "subscribers": "122K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-10T14:04:40.154934+00:00",
+      "checked_at": "2026-09-10T15:03:03.551446+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
@@ -469,7 +469,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-10T14:04:45.472735+00:00",
+      "last_ok_at": "2026-09-10T15:03:08.894154+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -478,14 +478,14 @@
       "subscribers": "18.1K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-10T14:04:45.472754+00:00",
+      "checked_at": "2026-09-10T15:03:08.894168+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
           "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-          "views_text": "60K views",
+          "views_text": "61K views",
           "published_text": "7 days ago",
-          "views": 60000,
+          "views": 61000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
           "teams": [
@@ -546,9 +546,9 @@
         {
           "video_id": "rM6gwEyfKZ8",
           "title": "🧐브랜딩을 잘하고 싶다면 리서치가 가장 중요합니다 | 인풋 쌓는 과정부터 시장조사 노하우까지! 일단 시작부터!",
-          "views_text": "86K views",
+          "views_text": "87K views",
           "published_text": "2 months ago",
-          "views": 86000,
+          "views": 87000,
           "url": "https://www.youtube.com/watch?v=rM6gwEyfKZ8",
           "channel": "땡스큐레이터",
           "teams": [
@@ -608,9 +608,9 @@
         {
           "video_id": "7Zt2t_SRyP8",
           "title": "정부지원사업, 안하면 손해🚨 | 지원사업으로 미국까지 간 스몰브랜드 대표의 팩트 기반 노하우 공유 (헌터아님)",
-          "views_text": "4.8K views",
+          "views_text": "4.9K views",
           "published_text": "4 months ago",
-          "views": 4800,
+          "views": 4900,
           "url": "https://www.youtube.com/watch?v=7Zt2t_SRyP8",
           "channel": "땡스큐레이터",
           "teams": [
