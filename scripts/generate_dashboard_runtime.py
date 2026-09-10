@@ -863,4 +863,5 @@ def main() -> None:
           f"코퍼스 {payload['team_summary']['corpus_records']}")
 
 
-if __name__ == "__mai
+if __name__ == "__main__":
+    main()
