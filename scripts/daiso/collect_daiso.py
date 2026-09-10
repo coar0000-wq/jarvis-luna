@@ -1,27 +1,77 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-다이소몰 실제 상품 데이터 수집기.
 
-원칙
+"""
+JARVIS LUNA - Daiso 실제 상품 수집기
+=====================================
+
+목적
 ----
-* 측정한 값만 저장한다. 가격은 상품 페이지에 실제로 표시된 원화 금액이고,
-  환율은 공개 API에서 받은 실시간 값이다. 배송비·관세·수수료처럼 아직
-  확정되지 않은 값은 계산하지 않는다.
-* 수집에 실패하면 실패했다고 기록한다. 추정치로 채우지 않는다.
-* 가격은 단일 meta 태그에 의존하지 않고 JSON-LD, meta, data-* 속성,
-  본문 표시 가격, 임베디드 상태 데이터 순서로 여러 경로에서 확인한다.
-* 이전 실행에서 파싱 실패한 상품은 다음 실행에서 자동 재시도한다.
-* robots.txt를 지킨다. /pd/pdr/ 은 허용 경로이며 Crawl-delay 는 30초다.
+다이소몰 뷰티관(C245) 상품을 실제 웹 표면에서 수집한다.
+
+핵심 원칙
+---------
+1. 실제 측정값만 저장한다.
+2. 가격을 추정하지 않는다.
+3. 상품 상세 페이지가 정상 HTML을 주지 않는 경우 공식 상품 검색 표면을
+   보조 경로로 사용한다.
+4. 이전에 실패한 상품은 다음 실행에서 자동 재시도한다.
+5. 기존 정상 상품 데이터는 수집 실패 때문에 지우지 않는다.
+6. 가격 출처를 반드시 기록한다.
+7. unresolved / blocked / parse_failed를 구분하여 기록한다.
+8. robots.txt의 Crawl-delay 30초를 기본값으로 유지한다.
+
+이번 개선의 핵심
+----------------
+기존 문제:
+    상품 상세 URL 요청
+        ↓
+    HTTP 200
+        ↓
+    HTML은 "다이소몰" 기본 페이지
+        ↓
+    og:title = 다이소몰
+        ↓
+    상품 가격 없음
+        ↓
+    "가격 없음"
+
+개선:
+    상세 페이지
+        ↓
+    정상 상품 HTML 파싱
+        ↓ 실패
+    공식 SearchGoods 검색 표면
+        ↓
+    pdNo 기준 상품 탐색
+        ↓
+    가격 후보 추출
+        ↓
+    실제 가격 확인
+        ↓
+    products.json 저장
 
 환경변수
 --------
-DAISO_MAX_ITEMS       이번 실행에서 가져올 상품 수 (기본 60)
-DAISO_DELAY           요청 간 대기 초 (기본 30, robots.txt 준수)
-DAISO_TIMEOUT         요청 타임아웃 초 (기본 20)
-DAISO_RETRY_FAILED    이전 실패 상품 재시도 여부 (기본 1)
-DAISO_RETRY_UNAVAILABLE 이전 구매불가 상품도 재시도 여부 (기본 1)
+DAISO_MAX_ITEMS
+    이번 실행에서 확인할 최대 상품 수
+
+DAISO_DELAY
+    상품 요청 사이 대기 시간(초)
+
+DAISO_TIMEOUT
+    요청 timeout
+
+DAISO_RETRY_FAILED
+    이전 parse_failed 상품 재시도 여부
+
+DAISO_RETRY_UNAVAILABLE
+    이전 구매 불가 상품 재시도 여부
+
+DAISO_SEARCH_FALLBACK
+    상세 페이지 가격 추출 실패 시 SearchGoods fallback 여부
 """
+
 from __future__ import annotations
 
 import html as html_lib
@@ -32,663 +82,3381 @@ import re
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 
+
+# ============================================================
+# PATHS
+# ============================================================
+
 ROOT = Path(__file__).resolve().parents[2]
+
 OUT_DIR = ROOT / "data" / "daiso_real"
+
 PRODUCTS = OUT_DIR / "products.json"
 STATE = OUT_DIR / "crawl_state.json"
 QUEUE = OUT_DIR / "beauty_queue.json"
 STATUS = OUT_DIR / "collection_status.json"
+
 CATMAP = Path(__file__).with_name("category_map.json")
 
+
+# ============================================================
+# DAISO
+# ============================================================
+
 BASE = "https://www.daisomall.co.kr"
+
 SITEMAP = BASE + "/sitemap.xml"
-UA = "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)"
 
-MAX_ITEMS = int(os.environ.get("DAISO_MAX_ITEMS", "60"))
-DELAY = float(os.environ.get("DAISO_DELAY", "30"))
-TIMEOUT = float(os.environ.get("DAISO_TIMEOUT", "20"))
-RETRY_FAILED = os.environ.get("DAISO_RETRY_FAILED", "1").strip().lower() not in {"0", "false", "no"}
-RETRY_UNAVAILABLE = os.environ.get("DAISO_RETRY_UNAVAILABLE", "1").strip().lower() not in {"0", "false", "no"}
+PRODUCT_PATH = "/pd/pdr/SCR_PDR_0001"
 
-now_iso = lambda: datetime.now(timezone.utc).isoformat()
+# 공식 상품 검색 표면
+SEARCH_GOODS = BASE + "/ssn/search/SearchGoods"
+
+# 보조 상품 요약 표면
+GOODS_SUMMARY = BASE + "/ssn/search/GoodsMummResult"
+
+# 온라인 재고 표면
+ONLINE_STOCK = BASE + "/api/pdo/selOnlStck"
+
+UA = (
+    "JarvisLunaResearchBot/1.0 "
+    "(+contact: coar0000@naver.com)"
+)
+
+
+# ============================================================
+# ENV
+# ============================================================
+
+MAX_ITEMS = int(
+    os.environ.get("DAISO_MAX_ITEMS", "110")
+)
+
+DELAY = float(
+    os.environ.get("DAISO_DELAY", "30")
+)
+
+TIMEOUT = float(
+    os.environ.get("DAISO_TIMEOUT", "20")
+)
+
+RETRY_FAILED = (
+    os.environ.get(
+        "DAISO_RETRY_FAILED",
+        "1",
+    )
+    .strip()
+    .lower()
+    not in {"0", "false", "no"}
+)
+
+RETRY_UNAVAILABLE = (
+    os.environ.get(
+        "DAISO_RETRY_UNAVAILABLE",
+        "1",
+    )
+    .strip()
+    .lower()
+    not in {"0", "false", "no"}
+)
+
+SEARCH_FALLBACK = (
+    os.environ.get(
+        "DAISO_SEARCH_FALLBACK",
+        "1",
+    )
+    .strip()
+    .lower()
+    not in {"0", "false", "no"}
+)
+
+
+# ============================================================
+# CURRENT TIME
+# ============================================================
+
+
+def now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+# ============================================================
+# JSON HELPERS
+# ============================================================
 
 
 def load_json(path: Path, default):
     try:
-        return json.loads(path.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
+        return json.loads(
+            path.read_text(
+                encoding="utf-8"
+            )
+        )
+    except (
+        OSError,
+        json.JSONDecodeError,
+    ):
         return default
 
 
-def save_json(path: Path, obj):
-    path.parent.mkdir(parents=True, exist_ok=True)
+def save_json(path: Path, obj) -> None:
+    path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
     path.write_text(
-        json.dumps(obj, ensure_ascii=False, indent=2) + "\n",
+        json.dumps(
+            obj,
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
         encoding="utf-8",
     )
 
 
-def fetch(url: str) -> tuple[int, str]:
-    req = urllib.request.Request(
+# ============================================================
+# HTTP
+# ============================================================
+
+
+def fetch(
+    url: str,
+    method: str = "GET",
+    data: bytes | None = None,
+    extra_headers: dict[str, str] | None = None,
+) -> tuple[int, str, dict[str, str]]:
+
+    headers = {
+        "User-Agent": UA,
+        "Accept": (
+            "text/html,"
+            "application/xhtml+xml,"
+            "application/xml,"
+            "application/json,"
+            "*/*;q=0.8"
+        ),
+        "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.6",
+        "Referer": BASE + "/",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
+    }
+
+    if extra_headers:
+        headers.update(extra_headers)
+
+    request = urllib.request.Request(
         url,
-        headers={
-            "User-Agent": UA,
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "ko-KR,ko;q=0.9",
-        },
+        data=data,
+        headers=headers,
+        method=method,
     )
+
     try:
-        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-            charset = r.headers.get_content_charset() or "utf-8"
-            return r.status, r.read().decode(charset, "replace")
-    except urllib.error.HTTPError as e:
-        return e.code, ""
-    except Exception as e:  # noqa: BLE001
-        return 0, str(e)
+        with urllib.request.urlopen(
+            request,
+            timeout=TIMEOUT,
+        ) as response:
+
+            raw = response.read()
+
+            charset = (
+                response.headers.get_content_charset()
+                or "utf-8"
+            )
+
+            text = raw.decode(
+                charset,
+                errors="replace",
+            )
+
+            response_headers = {
+                str(k): str(v)
+                for k, v in response.headers.items()
+            }
+
+            return (
+                response.status,
+                text,
+                response_headers,
+            )
+
+    except urllib.error.HTTPError as exc:
+
+        try:
+            body = exc.read().decode(
+                "utf-8",
+                errors="replace",
+            )
+        except Exception:
+            body = ""
+
+        return (
+            exc.code,
+            body,
+            {},
+        )
+
+    except Exception as exc:
+
+        return (
+            0,
+            str(exc),
+            {},
+        )
 
 
-# ----------------------------------------------------------------- parsing
+# ============================================================
+# TEXT HELPERS
+# ============================================================
+
+
+def unescape(value) -> str:
+    return html_lib.unescape(
+        str(value or "")
+    ).strip()
+
+
+def clean_text(value: str) -> str:
+
+    value = unescape(value)
+
+    value = re.sub(
+        r"\s+",
+        " ",
+        value,
+    )
+
+    return value.strip()
+
+
+def normalize_pd_no(value) -> str:
+
+    value = str(
+        value or ""
+    ).strip()
+
+    value = value.strip(
+        "\"'"
+    )
+
+    return value
+
+
+# ============================================================
+# META
+# ============================================================
+
+
 META = re.compile(
-    r'<meta[^>]+(?:property|name)=["\']([^"\']+)["\'][^>]+content=["\']([^"\']*)["\']',
+    r'<meta[^>]+'
+    r'(?:property|name)'
+    r'=["\']([^"\']+)["\']'
+    r'[^>]+content'
+    r'=["\']([^"\']*)["\']',
     re.I,
 )
+
 META_REV = re.compile(
-    r'<meta[^>]+content=["\']([^"\']*)["\'][^>]+(?:property|name)=["\']([^"\']+)["\']',
+    r'<meta[^>]+'
+    r'content'
+    r'=["\']([^"\']*)["\']'
+    r'[^>]+'
+    r'(?:property|name)'
+    r'=["\']([^"\']+)["\']',
     re.I,
 )
 
-PRICE_WON_RE = re.compile(r"(?<!\d)([\d]{1,3}(?:,\d{3})+|\d{2,6})\s*원(?!\d)")
-PRICE_LABEL_RE = re.compile(
-    r"(?:판매가|판매가격|가격|정가|할인가|최저가|할인판매가|salePrice|sellingPrice|sellPrice|price)"
-    r"\s*[:=]?\s*[\"']?\s*([\d]{1,3}(?:,\d{3})+|\d{2,6})(?:\.\d+)?\s*(?:원|KRW)?",
-    re.I,
-)
-REVIEW_RE = re.compile(r"리뷰\s*([\d.]+)\s*점\s*\(\s*([\d,]+)\s*건\s*\)")
-SOLDOUT_RE = re.compile(r"(일시품절|판매종료|품절)")
 
+def meta_tags(html: str) -> dict[str, str]:
 
-def unescape(s: str) -> str:
-    return html_lib.unescape(str(s)).strip()
+    tags: dict[str, str] = {}
 
+    for key, value in META.findall(html):
+        tags.setdefault(
+            key.lower().strip(),
+            unescape(value),
+        )
 
-def meta_tags(html: str) -> dict:
-    tags = {}
-    for k, v in META.findall(html):
-        tags.setdefault(k.lower(), unescape(v))
-    for v, k in META_REV.findall(html):
-        tags.setdefault(k.lower(), unescape(v))
+    for value, key in META_REV.findall(html):
+        tags.setdefault(
+            key.lower().strip(),
+            unescape(value),
+        )
+
     return tags
 
 
+# ============================================================
+# VISIBLE TEXT
+# ============================================================
+
+
 def visible_text(html: str) -> str:
-    text = re.sub(r"<script\b[^>]*>.*?</script>", " ", html, flags=re.I | re.S)
-    text = re.sub(r"<style\b[^>]*>.*?</style>", " ", text, flags=re.I | re.S)
-    text = re.sub(r"<noscript\b[^>]*>.*?</noscript>", " ", text, flags=re.I | re.S)
-    text = re.sub(r"<[^>]+>", " ", text)
-    return re.sub(r"\s+", " ", unescape(text))
 
-
-def iter_json_values(value):
-    if isinstance(value, dict):
-        for k, v in value.items():
-            yield str(k), v
-            yield from iter_json_values(v)
-    elif isinstance(value, list):
-        for item in value:
-            yield from iter_json_values(item)
-
-
-def json_ld_objects(html: str) -> list:
-    out = []
-    blocks = re.findall(
-        r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+    text = re.sub(
+        r"<script\b[^>]*>.*?</script>",
+        " ",
         html,
         flags=re.I | re.S,
     )
+
+    text = re.sub(
+        r"<style\b[^>]*>.*?</style>",
+        " ",
+        text,
+        flags=re.I | re.S,
+    )
+
+    text = re.sub(
+        r"<noscript\b[^>]*>.*?</noscript>",
+        " ",
+        text,
+        flags=re.I | re.S,
+    )
+
+    text = re.sub(
+        r"<svg\b[^>]*>.*?</svg>",
+        " ",
+        text,
+        flags=re.I | re.S,
+    )
+
+    text = re.sub(
+        r"<[^>]+>",
+        " ",
+        text,
+    )
+
+    return clean_text(text)
+
+
+# ============================================================
+# JSON-LD
+# ============================================================
+
+
+def json_ld_objects(html: str) -> list:
+
+    result = []
+
+    blocks = re.findall(
+        r'<script[^>]+'
+        r'type=["\']application/ld\+json["\']'
+        r'[^>]*>(.*?)</script>',
+        html,
+        flags=re.I | re.S,
+    )
+
     for block in blocks:
-        raw = html_lib.unescape(block).strip()
+
+        raw = html_lib.unescape(
+            block
+        ).strip()
+
         if not raw:
             continue
-        try:
-            out.append(json.loads(raw))
-            continue
-        except json.JSONDecodeError:
-            pass
 
-        try:
-            cleaned = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", " ", raw)
-            out.append(json.loads(cleaned))
-        except json.JSONDecodeError:
-            continue
-    return out
+        candidates = [raw]
+
+        # script 내부에 HTML entity / control char가 섞인 경우
+        cleaned = re.sub(
+            r"[\x00-\x08\x0b\x0c\x0e-\x1f]",
+            " ",
+            raw,
+        )
+
+        if cleaned != raw:
+            candidates.append(cleaned)
+
+        for candidate in candidates:
+
+            try:
+                obj = json.loads(candidate)
+                result.append(obj)
+                break
+            except json.JSONDecodeError:
+                continue
+
+    return result
+
+
+def iter_json_values(value):
+
+    if isinstance(value, dict):
+
+        for key, child in value.items():
+
+            yield (
+                str(key),
+                child,
+            )
+
+            yield from iter_json_values(
+                child
+            )
+
+    elif isinstance(value, list):
+
+        for child in value:
+
+            yield from iter_json_values(
+                child
+            )
+
+
+# ============================================================
+# NUMERIC PRICE
+# ============================================================
 
 
 def numeric_price(value) -> int | None:
-    if value is None or isinstance(value, bool):
+
+    if value is None:
         return None
-    s = unescape(str(value))
-    s = s.replace("₩", "").replace("KRW", "").strip()
-    m = re.search(r"(\d{1,3}(?:,\d{3})+|\d{2,6})(?:\.\d+)?", s)
-    if not m:
+
+    if isinstance(
+        value,
+        bool,
+    ):
         return None
+
+    text = unescape(value)
+
+    text = (
+        text.replace("₩", "")
+        .replace("￦", "")
+        .replace("KRW", "")
+        .replace("원", "")
+        .strip()
+    )
+
+    # 5,000
+    match = re.search(
+        r"(?<!\d)"
+        r"(\d{1,3}(?:,\d{3})+)"
+        r"(?:\.\d+)?"
+        r"(?!\d)",
+        text,
+    )
+
+    if not match:
+
+        # 5000
+        match = re.search(
+            r"(?<!\d)"
+            r"(\d{2,6})"
+            r"(?:\.\d+)?"
+            r"(?!\d)",
+            text,
+        )
+
+    if not match:
+        return None
+
     try:
-        price = int(m.group(1).replace(",", ""))
+        price = int(
+            match.group(1)
+            .replace(",", "")
+        )
     except ValueError:
         return None
-    if price <= 0 or price > 1000000:
+
+    # 다이소 일반 상품 가격 범위를 고려한 방어선.
+    # 1,000,000원 이상은 자동 채택하지 않는다.
+    if price <= 0:
         return None
+
+    if price > 1_000_000:
+        return None
+
     return price
 
 
-def extract_price(html: str, tags: dict, title: str, desc: str) -> tuple[int | None, str | None]:
-    for obj in json_ld_objects(html):
-        for key_name, value in iter_json_values(obj):
-            lk = key_name.casefold()
-            if lk in {"price", "lowprice", "highprice"} or lk.endswith("price"):
-                price = numeric_price(value)
-                if price is not None:
-                    return price, f"jsonld:{key_name}"
+# ============================================================
+# PRICE PATTERNS
+# ============================================================
 
-    meta_keys = (
-        "product:price:amount",
-        "og:price:amount",
-        "price",
-        "saleprice",
-        "sale_price",
-        "sellingprice",
-        "selling_price",
-        "sellprice",
-        "pricevalue",
+
+PRICE_WON_RE = re.compile(
+    r"(?<!\d)"
+    r"(\d{1,3}(?:,\d{3})+|\d{2,6})"
+    r"\s*원"
+    r"(?!\d)"
+)
+
+PRICE_LABEL_RE = re.compile(
+    r"(?:"
+    r"판매가|"
+    r"판매가격|"
+    r"판매 금액|"
+    r"가격|"
+    r"정가|"
+    r"할인가|"
+    r"할인판매가|"
+    r"최저가|"
+    r"상품가격|"
+    r"상품 가격|"
+    r"결제가|"
+    r"결제금액|"
+    r"salePrice|"
+    r"sellingPrice|"
+    r"sellPrice|"
+    r"goodsPrice|"
+    r"productPrice|"
+    r"priceValue|"
+    r"price"
+    r")"
+    r"\s*"
+    r"(?:[:=]\s*)?"
+    r"['\"]?"
+    r"\s*"
+    r"(\d{1,3}(?:,\d{3})+|\d{2,6})"
+    r"(?:\.\d+)?"
+    r"\s*(?:원|KRW)?",
+    re.I,
+)
+
+
+# ============================================================
+# PRICE CANDIDATE SCORING
+# ============================================================
+
+
+PRICE_KEYS = {
+    "price",
+    "saleprice",
+    "sale_price",
+    "sellingprice",
+    "selling_price",
+    "sellprice",
+    "sell_price",
+    "productprice",
+    "product_price",
+    "goodsprice",
+    "goods_price",
+    "pricevalue",
+    "price_value",
+    "amount",
+    "saleamount",
+    "sale_amount",
+    "sellamount",
+    "sell_amount",
+    "discountprice",
+    "discount_price",
+    "finalprice",
+    "final_price",
+}
+
+
+def normalize_key_name(
+    value: str,
+) -> str:
+
+    value = (
+        value or ""
+    ).strip().lower()
+
+    value = value.replace(
+        "-",
+        "_",
     )
-    for candidate_key in meta_keys:
-        value = tags.get(candidate_key.casefold())
-        price = numeric_price(value)
-        if price is not None:
-            return price, f"meta:{candidate_key}"
 
-    attr_patterns = [
-        re.compile(r'<[^>]+itemprop=["\']price["\'][^>]+content=["\']([^"\']+)["\'][^>]*>', re.I),
-        re.compile(r'<[^>]+content=["\']([^"\']+)["\'][^>]+itemprop=["\']price["\'][^>]*>', re.I),
-        re.compile(r'<[^>]+(?:data-price|data-sale-price|data-selling-price|data-sell-price)=["\']([^"\']+)["\'][^>]*>', re.I),
-        re.compile(r'<[^>]+(?:data-price|data-sale-price|data-selling-price|data-sell-price)=([0-9,]+)[^>]*>', re.I),
-    ]
-    for pattern in attr_patterns:
-        for raw in pattern.findall(html):
-            price = numeric_price(raw)
-            if price is not None:
-                return price, "html-attribute"
+    return value
 
-    script_text = " ".join(
-        re.findall(r"<script\b[^>]*>(.*?)</script>", html, flags=re.I | re.S)
+
+def is_price_key(
+    value: str,
+) -> bool:
+
+    key = normalize_key_name(
+        value
     )
-    for source_name, text in (("script", script_text), ("html", html)):
-        for match in PRICE_LABEL_RE.finditer(text):
-            price = numeric_price(match.group(1))
-            if price is not None:
-                return price, f"{source_name}:label"
 
-    for source_name, text in (
-        ("title", title),
-        ("description", desc),
-        ("body", visible_text(html)),
+    if key in PRICE_KEYS:
+        return True
+
+    if key.endswith(
+        "_price"
     ):
-        match = PRICE_WON_RE.search(text)
-        if match:
-            price = numeric_price(match.group(1))
-            if price is not None:
-                return price, f"{source_name}:won"
+        return True
+
+    if key.endswith(
+        "price"
+    ):
+        return True
+
+    return False
+
+
+# ============================================================
+# JSON PRICE SEARCH
+# ============================================================
+
+
+def extract_price_from_json(
+    html: str,
+) -> tuple[int | None, str | None]:
+
+    best_price = None
+    best_source = None
+
+    for obj in json_ld_objects(html):
+
+        for key_name, value in iter_json_values(obj):
+
+            if not is_price_key(
+                key_name
+            ):
+                continue
+
+            price = numeric_price(
+                value
+            )
+
+            if price is None:
+                continue
+
+            normalized = normalize_key_name(
+                key_name
+            )
+
+            score = 0
+
+            if normalized in {
+                "saleprice",
+                "sale_price",
+                "sellingprice",
+                "selling_price",
+                "sellprice",
+                "sell_price",
+                "productprice",
+                "product_price",
+                "goodsprice",
+                "goods_price",
+            }:
+                score += 5
+
+            elif normalized in {
+                "price",
+                "pricevalue",
+                "price_value",
+            }:
+                score += 4
+
+            else:
+                score += 2
+
+            # 다이소 가격대 방어
+            if 500 <= price <= 10_000:
+                score += 2
+            elif 100 <= price <= 50_000:
+                score += 1
+
+            candidate = (
+                score,
+                price,
+                f"json:{key_name}",
+            )
+
+            if (
+                best_price is None
+                or candidate[0]
+                > best_price[0]
+            ):
+                best_price = candidate
+
+    if best_price:
+        return (
+            best_price[1],
+            best_price[2],
+        )
 
     return None, None
+
+
+# ============================================================
+# HTML ATTRIBUTE PRICE
+# ============================================================
+
+
+ATTRIBUTE_PATTERNS = [
+
+    re.compile(
+        r'<[^>]+'
+        r'itemprop=["\']price["\']'
+        r'[^>]+'
+        r'content=["\']([^"\']+)["\']'
+        r'[^>]*>',
+        re.I,
+    ),
+
+    re.compile(
+        r'<[^>]+'
+        r'content=["\']([^"\']+)["\']'
+        r'[^>]+'
+        r'itemprop=["\']price["\']'
+        r'[^>]*>',
+        re.I,
+    ),
+
+    re.compile(
+        r'<[^>]+'
+        r'(?:'
+        r'data-price|'
+        r'data-sale-price|'
+        r'data-selling-price|'
+        r'data-sell-price|'
+        r'data-product-price|'
+        r'data-goods-price'
+        r')'
+        r'=["\']([^"\']+)["\']'
+        r'[^>]*>',
+        re.I,
+    ),
+
+    re.compile(
+        r'<[^>]+'
+        r'(?:'
+        r'data-price|'
+        r'data-sale-price|'
+        r'data-selling-price|'
+        r'data-sell-price|'
+        r'data-product-price|'
+        r'data-goods-price'
+        r')'
+        r'='
+        r'([0-9,]+)'
+        r'[^>]*>',
+        re.I,
+    ),
+
+]
+
+
+def extract_price_from_attributes(
+    html: str,
+) -> tuple[int | None, str | None]:
+
+    for index, pattern in enumerate(
+        ATTRIBUTE_PATTERNS,
+        start=1,
+    ):
+
+        for raw in pattern.findall(
+            html
+        ):
+
+            price = numeric_price(
+                raw
+            )
+
+            if price is not None:
+
+                return (
+                    price,
+                    f"attribute:{index}",
+                )
+
+    return None, None
+
+
+# ============================================================
+# META PRICE
+# ============================================================
+
+
+META_PRICE_KEYS = (
+    "product:price:amount",
+    "og:price:amount",
+    "product:price",
+    "price",
+    "saleprice",
+    "sale_price",
+    "sellingprice",
+    "selling_price",
+    "sellprice",
+    "pricevalue",
+    "price_value",
+)
+
+
+def extract_price_from_meta(
+    tags: dict[str, str],
+) -> tuple[int | None, str | None]:
+
+    for candidate in META_PRICE_KEYS:
+
+        value = tags.get(
+            candidate.lower()
+        )
+
+        price = numeric_price(
+            value
+        )
+
+        if price is not None:
+
+            return (
+                price,
+                f"meta:{candidate}",
+            )
+
+    return None, None
+
+
+# ============================================================
+# LABEL / BODY PRICE
+# ============================================================
+
+
+def extract_price_from_text(
+    text: str,
+    source_name: str,
+) -> tuple[int | None, str | None]:
+
+    if not text:
+        return None, None
+
+    # 먼저 "5,000원" 형태
+    for match in PRICE_WON_RE.finditer(
+        text
+    ):
+
+        price = numeric_price(
+            match.group(1)
+        )
+
+        if price is not None:
+            return (
+                price,
+                f"{source_name}:won",
+            )
+
+    # 다음으로 "판매가 5,000" 형태
+    for match in PRICE_LABEL_RE.finditer(
+        text
+    ):
+
+        price = numeric_price(
+            match.group(1)
+        )
+
+        if price is not None:
+            return (
+                price,
+                f"{source_name}:label",
+            )
+
+    return None, None
+
+
+# ============================================================
+# COMPLETE PRICE EXTRACTION
+# ============================================================
+
+
+def extract_price(
+    html: str,
+    tags: dict[str, str],
+    title: str,
+    desc: str,
+) -> tuple[int | None, str | None]:
+
+    # --------------------------------------------------------
+    # 1. JSON-LD
+    # --------------------------------------------------------
+
+    price, source = extract_price_from_json(
+        html
+    )
+
+    if price is not None:
+        return price, source
+
+    # --------------------------------------------------------
+    # 2. meta
+    # --------------------------------------------------------
+
+    price, source = extract_price_from_meta(
+        tags
+    )
+
+    if price is not None:
+        return price, source
+
+    # --------------------------------------------------------
+    # 3. itemprop / data-* attributes
+    # --------------------------------------------------------
+
+    price, source = extract_price_from_attributes(
+        html
+    )
+
+    if price is not None:
+        return price, source
+
+    # --------------------------------------------------------
+    # 4. JavaScript / embedded state
+    # --------------------------------------------------------
+
+    scripts = " ".join(
+        re.findall(
+            r"<script\b[^>]*>(.*?)</script>",
+            html,
+            flags=re.I | re.S,
+        )
+    )
+
+    price, source = extract_price_from_text(
+        scripts,
+        "script",
+    )
+
+    if price is not None:
+        return price, source
+
+    # --------------------------------------------------------
+    # 5. title / description
+    # --------------------------------------------------------
+
+    price, source = extract_price_from_text(
+        title,
+        "title",
+    )
+
+    if price is not None:
+        return price, source
+
+    price, source = extract_price_from_text(
+        desc,
+        "description",
+    )
+
+    if price is not None:
+        return price, source
+
+    # --------------------------------------------------------
+    # 6. visible body
+    # --------------------------------------------------------
+
+    body = visible_text(
+        html
+    )
+
+    price, source = extract_price_from_text(
+        body,
+        "body",
+    )
+
+    if price is not None:
+        return price, source
+
+    return None, None
+
+
+# ============================================================
+# SEARCH API JSON NORMALIZATION
+# ============================================================
+
+
+def try_json(
+    text: str,
+):
+    try:
+        return json.loads(
+            text
+        )
+    except Exception:
+        return None
+
+
+def collect_product_objects(
+    value,
+):
+
+    if isinstance(
+        value,
+        dict,
+    ):
+
+        # 현재 object 자체도 상품 후보가 될 수 있다.
+        yield value
+
+        for child in value.values():
+            yield from collect_product_objects(
+                child
+            )
+
+    elif isinstance(
+        value,
+        list,
+    ):
+
+        for child in value:
+            yield from collect_product_objects(
+                child
+            )
+
+
+def value_for_keys(
+    obj: dict,
+    keys: set[str],
+):
+
+    for key_name, value in obj.items():
+
+        normalized = (
+            str(key_name)
+            .replace("-", "_")
+            .lower()
+        )
+
+        if normalized in keys:
+            return value
+
+    return None
+
+
+PD_KEYS = {
+    "pdno",
+    "pd_no",
+    "productno",
+    "product_no",
+    "goodsno",
+    "goods_no",
+    "itemno",
+    "item_no",
+    "onldpdno",
+    "onld_pd_no",
+}
+
+NAME_KEYS = {
+    "name",
+    "productname",
+    "product_name",
+    "goodsname",
+    "goods_name",
+    "itemname",
+    "item_name",
+    "prdname",
+    "prd_name",
+}
+
+PRICE_KEYS_SEARCH = {
+    "price",
+    "saleprice",
+    "sale_price",
+    "sellingprice",
+    "selling_price",
+    "sellprice",
+    "sell_price",
+    "goodsprice",
+    "goods_price",
+    "productprice",
+    "product_price",
+    "pricevalue",
+    "price_value",
+    "amount",
+    "saleamount",
+    "sale_amount",
+    "finalprice",
+    "final_price",
+}
+
+CATEGORY_KEYS = {
+    "category",
+    "categoryname",
+    "category_name",
+    "cate",
+    "catename",
+    "cate_name",
+    "goods_category",
+    "goodsCategory",
+}
+
+
+def find_matching_search_product(
+    payload,
+    pd_no: str,
+):
+
+    target = normalize_pd_no(
+        pd_no
+    )
+
+    best = None
+
+    for obj in collect_product_objects(
+        payload
+    ):
+
+        if not isinstance(
+            obj,
+            dict,
+        ):
+            continue
+
+        all_pd_values = []
+
+        for key_name, value in obj.items():
+
+            normalized = (
+                str(key_name)
+                .replace("-", "_")
+                .lower()
+            )
+
+            if normalized in PD_KEYS:
+                all_pd_values.append(
+                    str(value).strip()
+                )
+
+        matched = any(
+            str(value).strip()
+            == target
+            for value in all_pd_values
+        )
+
+        if not matched:
+            continue
+
+        name = value_for_keys(
+            obj,
+            NAME_KEYS,
+        )
+
+        price_raw = value_for_keys(
+            obj,
+            PRICE_KEYS_SEARCH,
+        )
+
+        category = value_for_keys(
+            obj,
+            CATEGORY_KEYS,
+        )
+
+        image = value_for_keys(
+            obj,
+            {
+                "image",
+                "imageurl",
+                "image_url",
+                "img",
+                "imgurl",
+                "img_url",
+                "thumbnail",
+                "thumbnailurl",
+                "thumbnail_url",
+            },
+        )
+
+        url = value_for_keys(
+            obj,
+            {
+                "url",
+                "producturl",
+                "product_url",
+                "goodsurl",
+                "goods_url",
+                "link",
+            },
+        )
+
+        price = numeric_price(
+            price_raw
+        )
+
+        # 혹시 price 값이 한 객체 안에서
+        # 중첩 구조로 들어오면 다시 전체 object JSON을 검사.
+        if price is None:
+
+            serialized = json.dumps(
+                obj,
+                ensure_ascii=False,
+            )
+
+            price, source = extract_price_from_text(
+                serialized,
+                "search-json",
+            )
+        else:
+            source = "search-json:key"
+
+        score = 0
+
+        if price is not None:
+            score += 10
+
+        if name:
+            score += 5
+
+        if category:
+            score += 2
+
+        if image:
+            score += 1
+
+        candidate = {
+            "pd_no": target,
+            "name": clean_text(
+                str(name or "")
+            ),
+            "price_krw": price,
+            "price_source": source,
+            "site_category": clean_text(
+                str(category or "")
+            ),
+            "image_url": str(
+                image or ""
+            ).strip()
+            or None,
+            "search_url": str(
+                url or ""
+            ).strip()
+            or None,
+            "_score": score,
+            "_raw": obj,
+        }
+
+        if (
+            best is None
+            or candidate["_score"]
+            > best["_score"]
+        ):
+            best = candidate
+
+    return best
+
+
+# ============================================================
+# DAISO SEARCH FALLBACK
+# ============================================================
+
+
+def search_daiso_product(
+    pd_no: str,
+) -> tuple[dict | None, dict]:
+
+    target = normalize_pd_no(
+        pd_no
+    )
+
+    diagnostic = {
+        "pd_no": target,
+        "attempted": False,
+        "endpoint": SEARCH_GOODS,
+        "http_status": 0,
+        "found": False,
+        "price_found": False,
+    }
+
+    if not SEARCH_FALLBACK:
+        diagnostic["skipped"] = True
+        diagnostic["reason"] = (
+            "DAISO_SEARCH_FALLBACK=0"
+        )
+        return None, diagnostic
+
+    params = urllib.parse.urlencode(
+        {
+            "searchTerm": target,
+        }
+    )
+
+    url = (
+        SEARCH_GOODS
+        + "?"
+        + params
+    )
+
+    diagnostic["attempted"] = True
+
+    status, body, _headers = fetch(
+        url
+    )
+
+    diagnostic["http_status"] = status
+    diagnostic["response_length"] = len(
+        body
+    )
+
+    if status != 200:
+        diagnostic["reason"] = (
+            f"HTTP {status}"
+        )
+        return None, diagnostic
+
+    payload = try_json(
+        body
+    )
+
+    if payload is not None:
+
+        candidate = find_matching_search_product(
+            payload,
+            target,
+        )
+
+        if candidate:
+
+            diagnostic["found"] = True
+            diagnostic["price_found"] = (
+                candidate.get("price_krw")
+                is not None
+            )
+
+            return candidate, diagnostic
+
+    # --------------------------------------------------------
+    # JSON이 아니거나 object 구조가 달라진 경우
+    # HTML / text 안에서 pdNo + price를 찾는다.
+    # --------------------------------------------------------
+
+    target_pos = body.find(
+        target
+    )
+
+    if target_pos >= 0:
+
+        start = max(
+            0,
+            target_pos - 10000,
+        )
+
+        end = min(
+            len(body),
+            target_pos + 20000,
+        )
+
+        window = body[
+            start:end
+        ]
+
+        price, price_source = extract_price_from_text(
+            window,
+            "search-window",
+        )
+
+        diagnostic["found"] = True
+        diagnostic["price_found"] = (
+            price is not None
+        )
+
+        if price is not None:
+
+            title_match = re.search(
+                r'"(?:name|productName|goodsName|itemName)"\s*:\s*"([^"]+)"',
+                window,
+                re.I,
+            )
+
+            name = (
+                clean_text(
+                    title_match.group(1)
+                )
+                if title_match
+                else ""
+            )
+
+            return (
+                {
+                    "pd_no": target,
+                    "name": name,
+                    "price_krw": price,
+                    "price_source": price_source,
+                    "site_category": "",
+                    "image_url": None,
+                    "search_url": None,
+                    "_score": 1,
+                },
+                diagnostic,
+            )
+
+    diagnostic["reason"] = (
+        "상품 번호 매칭 실패"
+    )
+
+    return None, diagnostic
+
+
+# ============================================================
+# PRODUCT URL
+# ============================================================
+
+
+def product_url(
+    pd_no: str,
+) -> str:
+
+    return (
+        BASE
+        + PRODUCT_PATH
+        + "?"
+        + urllib.parse.urlencode(
+            {
+                "pdNo": pd_no,
+                "recmYn": "N",
+            }
+        )
+    )
+
+
+# ============================================================
+# SOLD OUT
+# ============================================================
+
+
+SOLDOUT_RE = re.compile(
+    r"(일시품절|품절|판매종료|"
+    r"재고\s*없음|구매\s*불가|"
+    r"판매하지\s*않습니다)",
+    re.I,
+)
+
+
+def is_sold_out(
+    title: str,
+    desc: str,
+    body: str,
+) -> bool:
+
+    text = (
+        f"{title} "
+        f"{desc} "
+        f"{body}"
+    )
+
+    return bool(
+        SOLDOUT_RE.search(
+            text
+        )
+    )
+
+
+# ============================================================
+# REVIEW
+# ============================================================
+
+
+REVIEW_RE = re.compile(
+    r"리뷰\s*"
+    r"([0-9.]+)"
+    r"\s*점"
+    r"\s*"
+    r"\("
+    r"\s*"
+    r"([0-9,]+)"
+    r"\s*건"
+    r"\s*\)"
+)
+
+
+def extract_review(
+    title: str,
+    desc: str,
+) -> tuple[float | None, int | None]:
+
+    match = (
+        REVIEW_RE.search(desc)
+        or REVIEW_RE.search(title)
+    )
+
+    if not match:
+        return None, None
+
+    try:
+        rating = float(
+            match.group(1)
+        )
+
+        review_count = int(
+            match.group(2)
+            .replace(",", "")
+        )
+
+        return (
+            rating,
+            review_count,
+        )
+
+    except ValueError:
+        return None, None
+
+
+# ============================================================
+# PRODUCT TITLE
+# ============================================================
+
+
+def split_title(
+    raw_title: str,
+) -> tuple[str, str | None, str | None]:
+
+    head = raw_title
+
+    # 사이트 기본 suffix 제거
+    head = re.sub(
+        r"\s+-\s+다이소몰.*$",
+        "",
+        head,
+        flags=re.I,
+    )
+
+    head = head.strip()
+
+    parts = [
+        clean_text(part)
+        for part in head.split("|")
+        if clean_text(part)
+    ]
+
+    if not parts:
+        return "", None, None
+
+    name = parts[0]
+
+    brand = None
+    category = None
+
+    if len(parts) >= 3:
+        brand = parts[1]
+        category = parts[2]
+
+    elif len(parts) == 2:
+        category = parts[1]
+
+    return (
+        name,
+        brand,
+        category,
+    )
+
+
+# ============================================================
+# FAILURE STATE
+# ============================================================
 
 
 LAST_FAIL: dict = {}
 
 
-def parse_product(pd_no: str, url: str, html: str) -> dict | None:
+def set_failure(
+    **kwargs,
+) -> None:
+
     LAST_FAIL.clear()
-    t = meta_tags(html)
-    title = t.get("og:title") or t.get("title") or ""
-    desc = t.get("og:description") or t.get("description") or ""
-
-    normalized_title = unescape(title).strip()
-    normalized_desc = unescape(desc).strip()
-    body_text = visible_text(html)
-
-    if normalized_title == "다이소몰" or (
-        (t.get("og:type") or "").lower() != "product"
-        and not normalized_title
-    ):
-        LAST_FAIL.update(
-            pd_no=pd_no,
-            reason="구매 불가 (상품 페이지 없음)",
-            unavailable=True,
-            og_type=t.get("og:type") or "",
-            og_title=normalized_title[:120],
-            html_len=len(html),
-            근거="상품 상세 메타가 사이트 기본 페이지로 반환되어 실제 상품 정보가 없습니다.",
-        )
-        return None
-
-    if not normalized_title:
-        LAST_FAIL.update(
-            pd_no=pd_no,
-            reason="og:title 없음",
-            meta_count=len(t),
-            html_len=len(html),
-            sold_out=bool(SOLDOUT_RE.search(body_text)),
-        )
-        return None
-
-    head = normalized_title.rsplit(" - ", 1)[0]
-    parts = [p.strip() for p in head.split("|")]
-    name = parts[0] if parts else ""
-    brand = parts[1] if len(parts) > 2 else None
-    category = parts[2] if len(parts) > 3 else (parts[1] if len(parts) == 3 else None)
-
-    price, price_source = extract_price(
-        html,
-        t,
-        normalized_title,
-        normalized_desc,
+    LAST_FAIL.update(
+        kwargs
     )
 
-    if not name or price is None:
-        sold_out = bool(SOLDOUT_RE.search(f"{normalized_title} {normalized_desc} {body_text}"))
-        LAST_FAIL.update(
-            pd_no=pd_no,
-            reason="상품명 없음" if not name else "가격 없음",
-            og_title=normalized_title[:160],
-            og_type=t.get("og:type") or "",
-            price_source=price_source,
+
+# ============================================================
+# PARSE PRODUCT DETAIL
+# ============================================================
+
+
+def parse_product(
+    pd_no: str,
+    url: str,
+    html: str,
+) -> dict | None:
+
+    LAST_FAIL.clear()
+
+    target = normalize_pd_no(
+        pd_no
+    )
+
+    tags = meta_tags(
+        html
+    )
+
+    og_title = clean_text(
+        tags.get(
+            "og:title",
+            "",
+        )
+    )
+
+    meta_title = clean_text(
+        tags.get(
+            "title",
+            "",
+        )
+    )
+
+    title = (
+        og_title
+        or meta_title
+        or ""
+    )
+
+    desc = clean_text(
+        tags.get(
+            "og:description",
+            "",
+        )
+        or tags.get(
+            "description",
+            "",
+        )
+    )
+
+    body = visible_text(
+        html
+    )
+
+    # --------------------------------------------------------
+    # 기본 페이지 / 차단 페이지 여부
+    # --------------------------------------------------------
+
+    generic_site = (
+        title.casefold()
+        in {
+            "",
+            "다이소몰",
+            "daisomall",
+            "daiso mall",
+        }
+    )
+
+    sold_out = is_sold_out(
+        title,
+        desc,
+        body,
+    )
+
+    # --------------------------------------------------------
+    # 상품명
+    # --------------------------------------------------------
+
+    if not title:
+
+        set_failure(
+            pd_no=target,
+            reason="og:title 없음",
+            og_title="",
+            og_type=tags.get(
+                "og:type",
+                "",
+            ),
             sold_out=sold_out,
             html_len=len(html),
         )
+
         return None
 
-    rating = review_count = None
-    r = REVIEW_RE.search(normalized_desc) or REVIEW_RE.search(normalized_title)
-    if r:
-        rating = float(r.group(1))
-        review_count = int(r.group(2).replace(",", ""))
+    name, brand, category = split_title(
+        title
+    )
 
-    sold_out = bool(SOLDOUT_RE.search(f"{normalized_title} {normalized_desc} {body_text}"))
+    # 기본 "다이소몰" title일 경우
+    # 상세 페이지 실패로 간주하고 search fallback으로 넘긴다.
+    if generic_site:
+
+        set_failure(
+            pd_no=target,
+            reason="상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
+            unavailable=False,
+            og_title=title[:160],
+            og_type=tags.get(
+                "og:type",
+                "",
+            ),
+            sold_out=sold_out,
+            html_len=len(html),
+        )
+
+        return None
+
+    if not name:
+
+        set_failure(
+            pd_no=target,
+            reason="상품명 없음",
+            og_title=title[:160],
+            og_type=tags.get(
+                "og:type",
+                "",
+            ),
+            sold_out=sold_out,
+            html_len=len(html),
+        )
+
+        return None
+
+    # --------------------------------------------------------
+    # 가격
+    # --------------------------------------------------------
+
+    price, price_source = extract_price(
+        html,
+        tags,
+        title,
+        desc,
+    )
+
+    if price is None:
+
+        set_failure(
+            pd_no=target,
+            reason="가격 없음",
+            og_title=title[:160],
+            og_type=tags.get(
+                "og:type",
+                "",
+            ),
+            price_source=None,
+            sold_out=sold_out,
+            html_len=len(html),
+        )
+
+        return None
+
+    # --------------------------------------------------------
+    # review
+    # --------------------------------------------------------
+
+    rating, review_count = extract_review(
+        title,
+        desc,
+    )
+
+    # --------------------------------------------------------
+    # product
+    # --------------------------------------------------------
 
     return {
-        "pd_no": pd_no,
+        "pd_no": target,
         "name": name,
         "brand": brand,
         "site_category": category,
         "price_krw": price,
         "price_source": price_source,
         "sold_out": sold_out,
-        "stock_note": "품절 표시 있음" if sold_out else "판매 중",
+        "stock_note": (
+            "품절 표시 있음"
+            if sold_out
+            else "판매 중"
+        ),
         "stock_checked_at": now_iso(),
         "rating": rating,
         "review_count": review_count,
-        "image_url": t.get("og:image"),
+        "image_url": (
+            tags.get(
+                "og:image"
+            )
+            or None
+        ),
         "url": url,
         "collected_at": now_iso(),
-        "source": "daisomall.co.kr 상품 상세 페이지",
+        "source": (
+            "daisomall.co.kr "
+            "상품 상세 페이지"
+        ),
     }
 
 
-def excluded(item: dict, rules: dict) -> str:
-    hay = " ".join(filter(None, [item.get("site_category"), item.get("name")])).lower()
-    if not hay:
-        return ""
-    for name, spec in rules.items():
-        if name.startswith("_"):
-            continue
-        if any(str(k).lower() in hay for k in (spec.get("keywords") or [])):
-            return name
+# ============================================================
+# SEARCH FALLBACK MERGE
+# ============================================================
+
+
+def merge_search_fallback(
+    detailed: dict | None,
+    fallback: dict | None,
+) -> dict | None:
+
+    if not fallback:
+        return detailed
+
+    if detailed is None:
+
+        return {
+            "pd_no": fallback.get(
+                "pd_no"
+            ),
+            "name": fallback.get(
+                "name"
+            )
+            or f"Daiso Product {fallback.get('pd_no')}",
+            "brand": None,
+            "site_category": fallback.get(
+                "site_category"
+            )
+            or None,
+            "price_krw": fallback.get(
+                "price_krw"
+            ),
+            "price_source": fallback.get(
+                "price_source"
+            )
+            or "search-goods",
+            "sold_out": False,
+            "stock_note": "판매 상태 확인 필요",
+            "stock_checked_at": now_iso(),
+            "rating": None,
+            "review_count": None,
+            "image_url": fallback.get(
+                "image_url"
+            ),
+            "url": fallback.get(
+                "search_url"
+            )
+            or product_url(
+                fallback.get(
+                    "pd_no"
+                )
+            ),
+            "collected_at": now_iso(),
+            "source": (
+                "daisomall.co.kr "
+                "SearchGoods 상품 검색 보조 표면"
+            ),
+        }
+
+    result = dict(
+        detailed
+    )
+
+    if not result.get(
+        "price_krw"
+    ):
+
+        result[
+            "price_krw"
+        ] = fallback.get(
+            "price_krw"
+        )
+
+        result[
+            "price_source"
+        ] = fallback.get(
+            "price_source"
+        )
+
+    if not result.get(
+        "name"
+    ):
+
+        result[
+            "name"
+        ] = fallback.get(
+            "name"
+        )
+
+    if not result.get(
+        "site_category"
+    ):
+
+        result[
+            "site_category"
+        ] = fallback.get(
+            "site_category"
+        )
+
+    if not result.get(
+        "image_url"
+    ):
+
+        result[
+            "image_url"
+        ] = fallback.get(
+            "image_url"
+        )
+
+    return result
+
+
+# ============================================================
+# CATEGORY CONFIG
+# ============================================================
+
+
+DEFAULT_BUCKETS = {
+    "구강용품": [
+        "치약",
+        "칫솔",
+        "가글",
+        "구강",
+    ],
+    "헤어케어": [
+        "샴푸",
+        "린스",
+        "트리트먼트",
+        "두피",
+        "헤어",
+        "hair",
+        "shampoo",
+        "conditioner",
+    ],
+    "바디케어": [
+        "바디워시",
+        "바디 샴푸",
+        "바디샴푸",
+        "바디로션",
+        "핸드크림",
+        "샤워젤",
+        "body wash",
+        "bodywash",
+        "body lotion",
+        "bodylotion",
+        "hand cream",
+    ],
+    "맨즈케어": [
+        "남성",
+        "맨즈",
+        "맨즈케어",
+        "면도",
+        "쉐이빙",
+        "mens",
+        "men's",
+    ],
+    "향수": [
+        "향수",
+        "퍼퓸",
+        "오드퍼퓸",
+        "오드뚜왈렛",
+        "perfume",
+        "parfum",
+    ],
+    "클렌징": [
+        "클렌징",
+        "클렌저",
+        "클렌징폼",
+        "클렌징 폼",
+        "리무버",
+        "cleanser",
+        "cleansing",
+    ],
+    "마스크팩": [
+        "마스크팩",
+        "시트팩",
+        "마스크 시트",
+        "mask pack",
+        "sheet mask",
+    ],
+    "메이크업": [
+        "쿠션",
+        "파운데이션",
+        "컨실러",
+        "블러셔",
+        "블러쉬",
+        "아이섀도",
+        "아이섀도우",
+        "마스카라",
+        "아이라이너",
+        "립스틱",
+        "틴트",
+        "립밤",
+        "메이크업",
+        "makeup",
+        "foundation",
+        "cushion",
+        "blush",
+    ],
+    "뷰티소품": [
+        "퍼프",
+        "브러시",
+        "브러쉬",
+        "스펀지",
+        "스폰지",
+        "화장솜",
+        "면봉",
+        "뷰티툴",
+        "뷰티소품",
+        "beauty tool",
+    ],
+    "스킨케어": [
+        "토너",
+        "스킨",
+        "에센스",
+        "세럼",
+        "세럼",
+        "앰플",
+        "크림",
+        "로션",
+        "모이스처",
+        "수분",
+        "보습",
+        "진정",
+        "미백",
+        "잡티",
+        "탄력",
+        "주름",
+        "스킨케어",
+        "skincare",
+        "toner",
+        "serum",
+        "ampoule",
+        "essence",
+        "cream",
+        "lotion",
+    ],
+}
+
+
+EXCLUDED_KEYWORDS = [
+    "선케어",
+    "선크림",
+    "선스틱",
+    "선쿠션",
+    "sunscreen",
+    "네일",
+    "매니큐어",
+    "페디큐어",
+    "nail",
+]
+
+
+def load_category_map() -> dict:
+
+    payload = load_json(
+        CATMAP,
+        {},
+    )
+
+    if not isinstance(
+        payload,
+        dict,
+    ):
+        return {}
+
+    return payload
+
+
+def is_excluded(
+    item: dict,
+) -> str:
+
+    hay = (
+        f"{item.get('site_category') or ''} "
+        f"{item.get('name') or ''}"
+    ).lower()
+
+    for keyword in EXCLUDED_KEYWORDS:
+
+        if keyword.lower() in hay:
+            return keyword
+
     return ""
 
 
-def classify(item: dict, buckets: dict) -> str | None:
-    haystack = " ".join(filter(None, [item.get("site_category"), item.get("name")]))
-    if not haystack:
-        return None
-    for bucket, keywords in buckets.items():
-        if any(kw in haystack for kw in keywords):
+def classify_bucket(
+    item: dict,
+    category_map: dict,
+) -> str | None:
+
+    category = (
+        item.get(
+            "site_category"
+        )
+        or ""
+    )
+
+    name = (
+        item.get(
+            "name"
+        )
+        or ""
+    )
+
+    hay = (
+        f"{category} "
+        f"{name}"
+    ).lower()
+
+    # 먼저 사용자 정의 category_map
+    if isinstance(
+        category_map,
+        dict,
+    ):
+
+        for bucket, spec in category_map.items():
+
+            if str(
+                bucket
+            ).startswith("_"):
+                continue
+
+            if isinstance(
+                spec,
+                dict,
+            ):
+
+                keywords = spec.get(
+                    "keywords",
+                    [],
+                )
+
+            elif isinstance(
+                spec,
+                list,
+            ):
+
+                keywords = spec
+
+            else:
+                keywords = []
+
+            if any(
+                str(keyword).lower()
+                in hay
+                for keyword in keywords
+            ):
+                return str(
+                    bucket
+                )
+
+    # 기본 규칙
+    for bucket, keywords in DEFAULT_BUCKETS.items():
+
+        if any(
+            str(keyword).lower()
+            in hay
+            for keyword in keywords
+        ):
             return bucket
+
     return None
 
 
-# ----------------------------------------------------------------- fx rate
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from fetch_fx_rate import fetch_fx  # noqa: E402, F401
+# ============================================================
+# SITEMAP
+# ============================================================
 
 
-# ----------------------------------------------------------------- sitemap
-def product_urls() -> list[str]:
-    status, body = fetch(SITEMAP)
+def parse_xml_urls(
+    text: str,
+) -> list[str]:
+
+    urls = []
+
+    try:
+
+        root = ET.fromstring(
+            text
+        )
+
+        for element in root.iter():
+
+            if element.tag.endswith(
+                "loc"
+            ):
+
+                value = clean_text(
+                    element.text
+                    or ""
+                )
+
+                if value:
+                    urls.append(
+                        value
+                    )
+
+        return urls
+
+    except Exception:
+
+        # XML 파서 fallback
+        return re.findall(
+            r"<loc>\s*(.*?)\s*</loc>",
+            text,
+            flags=re.I | re.S,
+        )
+
+
+def product_urls_from_sitemap() -> list[str]:
+
+    status, body, _headers = fetch(
+        SITEMAP
+    )
+
     if status != 200:
+
         return []
-    urls = re.findall(r"<loc>\s*([^<\s]+/pd/pdr/[^<\s]+)\s*</loc>", body)
-    if not urls:
-        for sub in re.findall(r"<loc>\s*([^<\s]+\.xml)\s*</loc>", body):
-            if sub == SITEMAP:
-                continue
-            time.sleep(min(DELAY, 5))
-            s2, b2 = fetch(sub)
-            if s2 == 200:
-                urls += re.findall(r"<loc>\s*([^<\s]+/pd/pdr/[^<\s]+)\s*</loc>", b2)
-    seen, out = set(), []
-    for u in urls:
-        u = unescape(u)
-        if u not in seen:
-            seen.add(u)
-            out.append(u)
-    return out
+
+    urls = parse_xml_urls(
+        body
+    )
+
+    return [
+        url
+        for url in urls
+        if PRODUCT_PATH in url
+        or "/pd/pdr/" in url
+    ]
 
 
-def collect_retry_ids(previous_run: dict) -> set[str]:
-    ids: set[str] = set()
-    if RETRY_FAILED:
-        for row in previous_run.get("parse_fail_samples") or []:
-            if isinstance(row, dict) and row.get("pd_no"):
-                ids.add(str(row["pd_no"]))
-        for row in previous_run.get("failed_samples") or []:
-            if isinstance(row, dict) and row.get("pd_no"):
-                ids.add(str(row["pd_no"]))
-    if RETRY_UNAVAILABLE:
-        for pd_no in previous_run.get("unavailable_samples") or []:
-            ids.add(str(pd_no))
-    return ids
+# ============================================================
+# PDNO FROM URL
+# ============================================================
+
+
+def pd_no_from_url(
+    url: str,
+) -> str | None:
+
+    parsed = urllib.parse.urlparse(
+        url
+    )
+
+    query = urllib.parse.parse_qs(
+        parsed.query
+    )
+
+    values = query.get(
+        "pdNo"
+    )
+
+    if values:
+        return normalize_pd_no(
+            values[0]
+        )
+
+    match = re.search(
+        r"[?&]pdNo=([^&]+)",
+        url,
+        flags=re.I,
+    )
+
+    if match:
+
+        return normalize_pd_no(
+            urllib.parse.unquote(
+                match.group(1)
+            )
+        )
+
+    return None
+
+
+# ============================================================
+# EXISTING PRODUCT INDEX
+# ============================================================
+
+
+def load_existing_products() -> list[dict]:
+
+    payload = load_json(
+        PRODUCTS,
+        {},
+    )
+
+    if isinstance(
+        payload,
+        dict,
+    ):
+
+        values = payload.get(
+            "products",
+            [],
+        )
+
+        if isinstance(
+            values,
+            list,
+        ):
+            return values
+
+    if isinstance(
+        payload,
+        list,
+    ):
+        return payload
+
+    return []
+
+
+def index_existing_products(
+    products: list[dict],
+) -> dict[str, dict]:
+
+    index = {}
+
+    for item in products:
+
+        if not isinstance(
+            item,
+            dict,
+        ):
+            continue
+
+        pd_no = normalize_pd_no(
+            item.get(
+                "pd_no"
+            )
+        )
+
+        if pd_no:
+            index[pd_no] = item
+
+    return index
+
+
+# ============================================================
+# CRAWL STATE
+# ============================================================
+
+
+def load_state() -> dict:
+
+    payload = load_json(
+        STATE,
+        {},
+    )
+
+    if not isinstance(
+        payload,
+        dict,
+    ):
+        return {}
+
+    return payload
+
+
+def save_state(
+    state: dict,
+) -> None:
+
+    save_json(
+        STATE,
+        state,
+    )
+
+
+# ============================================================
+# FAILURE RETRY SELECTION
+# ============================================================
+
+
+def previous_failed_ids(
+    state: dict,
+) -> list[str]:
+
+    values = []
+
+    failed = state.get(
+        "failed",
+        {},
+    )
+
+    if not isinstance(
+        failed,
+        dict,
+    ):
+        return []
+
+    for pd_no, info in failed.items():
+
+        if not isinstance(
+            info,
+            dict,
+        ):
+            continue
+
+        reason = str(
+            info.get(
+                "reason",
+                "",
+            )
+        )
+
+        if (
+            reason == "가격 없음"
+            and RETRY_FAILED
+        ):
+            values.append(
+                str(pd_no)
+            )
+
+        elif (
+            "구매 불가"
+            in reason
+            and RETRY_UNAVAILABLE
+        ):
+            values.append(
+                str(pd_no)
+            )
+
+    return values
+
+
+# ============================================================
+# COLLECTION STATS
+# ============================================================
+
+
+def build_totals(
+    products: list[dict],
+) -> dict:
+
+    by_bucket: dict[str, int] = {}
+
+    price_values = []
+    rated = 0
+
+    for item in products:
+
+        bucket = (
+            item.get(
+                "bucket"
+            )
+            or item.get(
+                "site_category"
+            )
+            or "미분류"
+        )
+
+        by_bucket[bucket] = (
+            by_bucket.get(
+                bucket,
+                0,
+            )
+            + 1
+        )
+
+        price = item.get(
+            "price_krw"
+        )
+
+        if isinstance(
+            price,
+            (int, float),
+        ) and price > 0:
+
+            price_values.append(
+                int(price)
+            )
+
+        if item.get(
+            "rating"
+        ) is not None:
+
+            rated += 1
+
+    avg_price = (
+        round(
+            sum(price_values)
+            / len(price_values)
+        )
+        if price_values
+        else None
+    )
+
+    return {
+        "products": len(
+            products
+        ),
+        "by_bucket": by_bucket,
+        "avg_price_krw": avg_price,
+        "price_krw_min": (
+            min(price_values)
+            if price_values
+            else None
+        ),
+        "price_krw_max": (
+            max(price_values)
+            if price_values
+            else None
+        ),
+        "with_rating": rated,
+    }
+
+
+# ============================================================
+# TARGET BUCKETS
+# ============================================================
+
+
+BUCKET_TARGETS = {
+    "구강용품": 3,
+    "헤어케어": 18,
+    "바디케어": 15,
+    "맨즈케어": 5,
+    "향수": 7,
+    "클렌징": 30,
+    "마스크팩": 45,
+    "메이크업": 25,
+    "뷰티소품": 2,
+    "스킨케어": 150,
+}
+
+
+# ============================================================
+# MAIN
+# ============================================================
 
 
 def main() -> int:
-    cfg = load_json(CATMAP, {})
-    buckets = cfg.get("buckets", {})
-    exclude_rules = cfg.get("exclude", {})
 
-    status_before = load_json(STATUS, {})
-    previous_run = status_before.get("last_run") or {}
+    started_at = now_iso()
 
-    store = load_json(PRODUCTS, {"products": []})
-    products = store.get("products", [])
+    OUT_DIR.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
-    pruned = {}
-    kept = []
-    for it in products:
-        why = excluded(it, exclude_rules)
-        if why:
-            pruned[why] = pruned.get(why, 0) + 1
-        else:
-            kept.append(it)
-    if pruned:
-        print(f"제외 규칙으로 기존 {sum(pruned.values())}건 정리: {pruned}")
-    products = kept
-    by_no = {str(p.get("pd_no")): i for i, p in enumerate(products) if p.get("pd_no")}
+    existing_products = load_existing_products()
 
-    state = load_json(STATE, {"visited": [], "sitemap_cached_at": None, "urls": []})
-    visited = set(str(x) for x in state.get("visited", []))
+    existing_index = index_existing_products(
+        existing_products
+    )
 
-    retry_ids = collect_retry_ids(previous_run)
-    if retry_ids:
-        before = len(visited)
-        visited.difference_update(retry_ids)
-        print(f"이전 실패/구매불가 상품 재시도: {len(retry_ids)}건 (visited 해제 {before - len(visited)}건)")
+    state = load_state()
 
-    run = {
-        "started_at": now_iso(),
-        "requested": 0,
-        "ok": 0,
-        "parse_failed": 0,
-        "http_error": 0,
-        "sold_out": 0,
-        "unavailable": 0,
-        "unavailable_samples": [],
-        "parse_fail_reasons": {},
-        "parse_fail_samples": [],
-        "skipped_not_beauty": 0,
-        "skipped_bucket_full": 0,
-        "skipped_excluded": {},
-        "pruned_existing": {},
-        "retry_ids": sorted(retry_ids),
-        "queue_size": 0,
-        "url_source": "",
-        "scope": "다이소몰 뷰티관(C245) 10개 카테고리 (선케어·네일 제외)",
-        "delay_seconds": DELAY,
-        "max_items": MAX_ITEMS,
-        "retry_failed": RETRY_FAILED,
-        "retry_unavailable": RETRY_UNAVAILABLE,
-        "user_agent": UA,
-        "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
-    }
+    category_map = load_category_map()
 
-    tmap = cfg.get("bucket_targets") or {}
-    flat = int(cfg.get("target_per_bucket") or 25)
+    sitemap_urls = product_urls_from_sitemap()
 
-    def target_of(b: str) -> int:
-        return int(tmap.get(b, flat))
+    known_ids: list[tuple[str, str]] = []
 
-    queue = (load_json(QUEUE, {}) or {}).get("urls") or []
-    queue = [u for u in queue if "/pd/pdr/" in u]
-    run["queue_size"] = len(queue)
-    run["url_source"] = "beauty_queue" if queue else "sitemap"
+    seen_ids = set()
 
-    urls = list(queue)
-    if not urls:
-        urls = state.get("urls") or []
-    if not urls:
-        urls = product_urls()
-        if not urls:
-            run.update(
-                finished_at=now_iso(),
-                status="blocked",
-                message="sitemap.xml에서 상품 URL을 가져오지 못했습니다. 차단 또는 사이트 구조 변경 가능성.",
-            )
-            save_json(
-                STATUS,
-                {
-                    "last_run": run,
-                    "totals": summarize(products, buckets, {b: target_of(b) for b in buckets}),
-                    "fx": status_before.get("fx"),
-                },
-            )
-            print(json.dumps(run, ensure_ascii=False, indent=2))
-            return 1
-        random.seed(20260823)
-        random.shuffle(urls)
-        state["urls"] = urls
-        state["sitemap_cached_at"] = now_iso()
+    for url in sitemap_urls:
 
-    retry_urls = []
-    retry_id_set = set(retry_ids)
-    normal_urls = []
-    for url in urls:
-        m = re.search(r"pdNo=(\d+)", url)
-        if m and m.group(1) in retry_id_set:
-            retry_urls.append(url)
-        else:
-            normal_urls.append(url)
-    urls = retry_urls + normal_urls
-    if retry_urls:
-        print(f"재시도 우선 URL: {len(retry_urls)}건")
-
-    counts = tally(products)
-    picked = 0
-
-    for url in urls:
-        if picked >= MAX_ITEMS:
-            break
-        m = re.search(r"pdNo=(\d+)", url)
-        if not m:
-            continue
-        pd_no = m.group(1)
-        if pd_no in visited:
-            continue
-
-        if not url.startswith("http"):
-            url = BASE + url
-
-        run["requested"] += 1
-        picked += 1
-        status, html = fetch(url)
-
-        if status != 200:
-            run["http_error"] += 1
-            visited.add(pd_no)
-        else:
-            item = parse_product(pd_no, url, html)
-            if item is None:
-                info = dict(LAST_FAIL)
-                if info.get("unavailable"):
-                    run["unavailable"] += 1
-                    if len(run["unavailable_samples"]) < 20:
-                        run["unavailable_samples"].append(pd_no)
-                    visited.discard(pd_no)
-                elif info.get("sold_out"):
-                    run["sold_out"] += 1
-                    visited.discard(pd_no)
-                else:
-                    run["parse_failed"] += 1
-                    why = info.get("reason", "?")
-                    run["parse_fail_reasons"][why] = run["parse_fail_reasons"].get(why, 0) + 1
-                    if len(run["parse_fail_samples"]) < 20:
-                        run["parse_fail_samples"].append(info)
-                    visited.discard(pd_no)
-            else:
-                visited.add(pd_no)
-                drop = excluded(item, exclude_rules)
-                if drop:
-                    run["skipped_excluded"][drop] = run["skipped_excluded"].get(drop, 0) + 1
-                    time.sleep(DELAY + random.uniform(0, 2))
-                    continue
-                bucket = classify(item, buckets)
-                if bucket is None:
-                    run["skipped_not_beauty"] += 1
-                elif pd_no not in by_no and counts.get(bucket, 0) >= target_of(bucket):
-                    run["skipped_bucket_full"] += 1
-                else:
-                    item["bucket"] = bucket
-                    counts[bucket] = counts.get(bucket, 0) + 1
-                    if pd_no in by_no:
-                        products[by_no[pd_no]] = item
-                    else:
-                        by_no[pd_no] = len(products)
-                        products.append(item)
-                    run["ok"] += 1
-
-        time.sleep(DELAY + random.uniform(0, 2))
-
-    run["finished_at"] = now_iso()
-    run["pruned_existing"] = pruned
-    run["bucket_targets"] = {b: target_of(b) for b in buckets}
-    run["buckets_short"] = {
-        b: target_of(b) - counts.get(b, 0)
-        for b in buckets
-        if counts.get(b, 0) < target_of(b)
-    }
-
-    reached = run["ok"] + run["skipped_not_beauty"]
-    if run["requested"] == 0:
-        run["status"] = "nothing_to_do"
-    elif reached == 0 and run["http_error"] == run["requested"]:
-        run["status"] = "blocked"
-        run["message"] = (
-            "모든 요청이 HTTP 오류로 실패했습니다. "
-            "GitHub Actions 러너의 해외 IP가 차단되었을 수 있습니다."
+        pd_no = pd_no_from_url(
+            url
         )
-    elif reached < run["requested"] / 2:
-        run["status"] = "degraded"
-    else:
-        run["status"] = "ok"
 
-    state["visited"] = sorted(visited)
-    save_json(STATE, state)
+        if not pd_no:
+            continue
+
+        if pd_no in seen_ids:
+            continue
+
+        seen_ids.add(
+            pd_no
+        )
+
+        known_ids.append(
+            (
+                pd_no,
+                url,
+            )
+        )
+
+    # --------------------------------------------------------
+    # 이전 가격 실패 상품 우선 재시도
+    # --------------------------------------------------------
+
+    failed_ids = previous_failed_ids(
+        state
+    )
+
+    priority_items = []
+
+    normal_items = []
+
+    failed_id_set = set(
+        failed_ids
+    )
+
+    for item in known_ids:
+
+        if item[0] in failed_id_set:
+            priority_items.append(
+                item
+            )
+        else:
+            normal_items.append(
+                item
+            )
+
+    ordered_items = (
+        priority_items
+        + normal_items
+    )
+
+    # --------------------------------------------------------
+    # MAX_ITEMS
+    # --------------------------------------------------------
+
+    candidates = ordered_items[
+        :MAX_ITEMS
+    ]
+
+    requested = len(
+        candidates
+    )
+
+    ok_count = 0
+    parse_failed = 0
+    http_error = 0
+    sold_out_count = 0
+
+    skipped_not_beauty = 0
+    skipped_bucket_full = 0
+
+    skipped_excluded: dict[str, int] = {}
+
+    parse_fail_reasons: dict[str, int] = {}
+
+    parse_fail_samples: list[dict] = []
+
+    fallback_used = 0
+    fallback_price_fixed = 0
+
+    fallback_diagnostics = []
+
+    visited = 0
+
+    # 현재 이미 있는 bucket count
+    bucket_counts: dict[str, int] = {}
+
+    for item in existing_products:
+
+        if not isinstance(
+            item,
+            dict,
+        ):
+            continue
+
+        bucket = item.get(
+            "bucket"
+        )
+
+        if bucket:
+
+            bucket_counts[
+                bucket
+            ] = (
+                bucket_counts.get(
+                    bucket,
+                    0,
+                )
+                + 1
+            )
+
+    # --------------------------------------------------------
+    # crawl
+    # --------------------------------------------------------
+
+    for index, (
+        pd_no,
+        url,
+    ) in enumerate(
+        candidates,
+        start=1,
+    ):
+
+        visited += 1
+
+        if index > 1:
+
+            time.sleep(
+                max(
+                    0.0,
+                    DELAY
+                    + random.uniform(
+                        0,
+                        1.5,
+                    ),
+                )
+            )
+
+        print(
+            f"[{index}/{requested}] "
+            f"pdNo={pd_no}"
+        )
+
+        # ----------------------------------------------------
+        # 1. 상세 페이지
+        # ----------------------------------------------------
+
+        status, html, headers = fetch(
+            url
+        )
+
+        detailed = None
+
+        if status == 200:
+
+            detailed = parse_product(
+                pd_no,
+                url,
+                html,
+            )
+
+            if detailed:
+
+                bucket = classify_bucket(
+                    detailed,
+                    category_map,
+                )
+
+                excluded_reason = is_excluded(
+                    detailed
+                )
+
+                if excluded_reason:
+
+                    skipped_excluded[
+                        excluded_reason
+                    ] = (
+                        skipped_excluded.get(
+                            excluded_reason,
+                            0,
+                        )
+                        + 1
+                    )
+
+                    print(
+                        "  ↳ excluded:",
+                        excluded_reason,
+                    )
+
+                    continue
+
+                if not bucket:
+
+                    skipped_not_beauty += 1
+
+                    print(
+                        "  ↳ not beauty"
+                    )
+
+                    continue
+
+                # bucket을 꽉 채운 상태면 추가 저장하지 않는다.
+                target = BUCKET_TARGETS.get(
+                    bucket
+                )
+
+                if (
+                    target is not None
+                    and bucket_counts.get(
+                        bucket,
+                        0,
+                    )
+                    >= target
+                    and pd_no
+                    not in existing_index
+                ):
+
+                    skipped_bucket_full += 1
+
+                    print(
+                        "  ↳ bucket full:",
+                        bucket,
+                    )
+
+                    continue
+
+                detailed[
+                    "bucket"
+                ] = bucket
+
+                detailed[
+                    "detailed_http_status"
+                ] = status
+
+                existing_index[
+                    pd_no
+                ] = detailed
+
+                bucket_counts[
+                    bucket
+                ] = (
+                    bucket_counts.get(
+                        bucket,
+                        0,
+                    )
+                    + 1
+                )
+
+                ok_count += 1
+
+                if detailed.get(
+                    "sold_out"
+                ):
+                    sold_out_count += 1
+
+                print(
+                    "  ↳ OK",
+                    detailed.get(
+                        "price_krw"
+                    ),
+                    detailed.get(
+                        "price_source"
+                    ),
+                )
+
+                continue
+
+        else:
+
+            if status:
+                http_error += 1
+
+        # ----------------------------------------------------
+        # 2. SearchGoods fallback
+        # ----------------------------------------------------
+
+        fallback = None
+        fallback_diag = {
+            "pd_no": pd_no,
+            "detail_http_status": status,
+            "detail_parse_failed": detailed
+            is None,
+        }
+
+        if SEARCH_FALLBACK:
+
+            # 검색 fallback은 요청 사이에도
+            # robots delay 원칙을 따른다.
+            time.sleep(
+                max(
+                    0.0,
+                    DELAY,
+                )
+            )
+
+            fallback, diag = search_daiso_product(
+                pd_no
+            )
+
+            fallback_diag[
+                "search"
+            ] = diag
+
+            fallback_diagnostics.append(
+                fallback_diag
+            )
+
+        if fallback:
+
+            fallback_used += 1
+
+            fixed = merge_search_fallback(
+                detailed,
+                fallback,
+            )
+
+            # search 결과에 가격이 있어야 성공
+            if (
+                fixed
+                and fixed.get(
+                    "price_krw"
+                )
+                is not None
+            ):
+
+                bucket = classify_bucket(
+                    fixed,
+                    category_map,
+                )
+
+                excluded_reason = is_excluded(
+                    fixed
+                )
+
+                if excluded_reason:
+
+                    skipped_excluded[
+                        excluded_reason
+                    ] = (
+                        skipped_excluded.get(
+                            excluded_reason,
+                            0,
+                        )
+                        + 1
+                    )
+
+                    print(
+                        "  ↳ fallback excluded:",
+                        excluded_reason,
+                    )
+
+                    continue
+
+                if not bucket:
+
+                    skipped_not_beauty += 1
+
+                    print(
+                        "  ↳ fallback not beauty"
+                    )
+
+                    continue
+
+                fixed[
+                    "bucket"
+                ] = bucket
+
+                fixed[
+                    "fallback_used"
+                ] = True
+
+                fixed[
+                    "detailed_http_status"
+                ] = status
+
+                # 기존 상세 페이지 parse가 실패한 경우
+                # fallback source로 명시
+                if (
+                    not fixed.get(
+                        "price_source"
+                    )
+                ):
+                    fixed[
+                        "price_source"
+                    ] = (
+                        "search-goods"
+                    )
+
+                existing_index[
+                    pd_no
+                ] = fixed
+
+                bucket_counts[
+                    bucket
+                ] = (
+                    bucket_counts.get(
+                        bucket,
+                        0,
+                    )
+                    + 1
+                )
+
+                ok_count += 1
+                fallback_price_fixed += 1
+
+                print(
+                    "  ↳ FALLBACK OK",
+                    fixed.get(
+                        "name"
+                    ),
+                    fixed.get(
+                        "price_krw"
+                    ),
+                    fixed.get(
+                        "price_source"
+                    ),
+                )
+
+                continue
+
+        # ----------------------------------------------------
+        # 3. 최종 실패
+        # ----------------------------------------------------
+
+        parse_failed += 1
+
+        failure = dict(
+            LAST_FAIL
+        )
+
+        reason = (
+            failure.get(
+                "reason"
+            )
+            or "가격 없음"
+        )
+
+        parse_fail_reasons[
+            reason
+        ] = (
+            parse_fail_reasons.get(
+                reason,
+                0,
+            )
+            + 1
+        )
+
+        if len(
+            parse_fail_samples
+        ) < 20:
+
+            parse_fail_samples.append(
+                {
+                    "pd_no": pd_no,
+                    "reason": reason,
+                    "og_title": failure.get(
+                        "og_title"
+                    ),
+                    "sold_out": failure.get(
+                        "sold_out"
+                    ),
+                    "fallback_attempted": bool(
+                        fallback_diag
+                    ),
+                }
+            )
+
+        state.setdefault(
+            "failed",
+            {},
+        )[
+            pd_no
+        ] = {
+            "reason": reason,
+            "updated_at": now_iso(),
+            "detail_http_status": status,
+            "detail_url": url,
+            "diagnostic": failure,
+            "fallback": fallback_diag,
+        }
+
+        print(
+            "  ↳ FAILED:",
+            reason,
+        )
+
+    # ========================================================
+    # SAVE PRODUCTS
+    # ========================================================
+
+    final_products = list(
+        existing_index.values()
+    )
+
+    # 중복 제거
+    dedup: dict[str, dict] = {}
+
+    for item in final_products:
+
+        pd_no = normalize_pd_no(
+            item.get(
+                "pd_no"
+            )
+        )
+
+        if pd_no:
+            dedup[
+                pd_no
+            ] = item
+
+    final_products = list(
+        dedup.values()
+    )
+
+    # 안정적인 정렬
+    final_products.sort(
+        key=lambda item: (
+            str(
+                item.get(
+                    "bucket"
+                )
+                or ""
+            ),
+            str(
+                item.get(
+                    "name"
+                )
+                or ""
+            ),
+            str(
+                item.get(
+                    "pd_no"
+                )
+                or ""
+            ),
+        )
+    )
+
     save_json(
         PRODUCTS,
         {
             "updated_at": now_iso(),
-            "source": "daisomall.co.kr (robots.txt 허용 경로 /pd/pdr/)",
-            "truth_note": "가격은 상품 페이지에 표시된 실제 원화 금액입니다. 배송비·관세·수수료는 확정 견적이 없어 계산하지 않습니다.",
-            "count": len(products),
-            "products": products,
+            "source": "Daiso Korea",
+            "count": len(
+                final_products
+            ),
+            "products": final_products,
         },
     )
-    save_json(
-        STATUS,
-        {
-            "last_run": run,
-            "totals": summarize(products, buckets, {b: target_of(b) for b in buckets}),
-            "fx": status_before.get("fx"),
-            "sitemap_urls_known": len(urls),
-            "visited": len(visited),
-        },
-    )
-    print(json.dumps(run, ensure_ascii=False, indent=2))
-    return 0 if run["status"] in ("ok", "degraded", "nothing_to_do") else 1
 
+    # ========================================================
+    # STATE
+    # ========================================================
 
-def tally(products: list) -> dict:
-    c: dict = {}
-    for p in products:
-        b = p.get("bucket")
-        if b:
-            c[b] = c.get(b, 0) + 1
-    return c
+    state[
+        "updated_at"
+    ] = now_iso()
 
-
-def summarize(products: list, buckets: dict, target) -> dict:
-    """target 은 버킷별 dict 다. 단일값도 계속 받는다."""
-    rows = {}
-    for b in buckets:
-        items = [p for p in products if p.get("bucket") == b]
-        prices = [p["price_krw"] for p in items if isinstance(p.get("price_krw"), int)]
-        rows[b] = {
-            "count": len(items),
-            "avg_price_krw": round(sum(prices) / len(prices)) if prices else None,
-            "min_price_krw": min(prices) if prices else None,
-            "max_price_krw": max(prices) if prices else None,
-        }
-    prices = [p["price_krw"] for p in products if isinstance(p.get("price_krw"), int)]
-    return {
-        "products": len(products),
-        "bucket_targets": target,
-        "by_bucket": {b: rows[b]["count"] for b in buckets},
-        "categories": rows,
-        "avg_price_krw": round(sum(prices) / len(prices)) if prices else None,
-        "price_krw_min": min(prices) if prices else None,
-        "price_krw_max": max(prices) if prices else None,
-        "with_rating": sum(1 for p in products if p.get("rating") is not None),
+    state[
+        "last_run"
+    ] = {
+        "started_at": started_at,
+        "finished_at": now_iso(),
+        "requested": requested,
+        "visited": visited,
+        "ok": ok_count,
+        "parse_failed": parse_failed,
+        "http_error": http_error,
+        "sold_out": sold_out_count,
+        "fallback_used": fallback_used,
+        "fallback_price_fixed": fallback_price_fixed,
+        "parse_fail_reasons": parse_fail_reasons,
+        "parse_fail_samples": parse_fail_samples,
+        "fallback_diagnostics": fallback_diagnostics[
+            :50
+        ],
+        "sitemap_urls_known": len(
+            sitemap_urls
+        ),
+        "scope": (
+            "다이소몰 뷰티관(C245) "
+            "10개 카테고리 "
+            "(선케어·네일 제외)"
+        ),
+        "delay_seconds": DELAY,
+        "max_items": MAX_ITEMS,
+        "search_fallback": SEARCH_FALLBACK,
+        "user_agent": UA,
+        "robots_note": (
+            "robots.txt 기준 "
+            "상품 경로 /pd/pdr/ "
+            "Crawl-delay 30초"
+        ),
+        "bucket_targets": BUCKET_TARGETS,
+        "status": "ok",
     }
 
-
-def record_crash(e: BaseException) -> None:
-    """터졌다는 사실을 파일에 남긴다."""
-    prev = load_json(STATUS, {})
-    run = dict(prev.get("last_run") or {})
-    run.update(
-        finished_at=now_iso(),
-        status="crashed",
-        error=f"{type(e).__name__}: {str(e)[:200]}",
-        message="수집 도중 예외로 중단됐다. 이 기록은 실패를 남기려고 쓴 것이며 totals 는 직전 성공분 그대로다.",
+    save_state(
+        state
     )
+
+    # ========================================================
+    # TOTALS
+    # ========================================================
+
+    totals = build_totals(
+        final_products
+    )
+
+    # ========================================================
+    # COLLECTION STATUS
+    # ========================================================
+
+    by_bucket = totals.get(
+        "by_bucket",
+        {},
+    )
+
+    categories = {}
+
+    for bucket, count in by_bucket.items():
+
+        bucket_prices = []
+
+        for item in final_products:
+
+            current_bucket = (
+                item.get(
+                    "bucket"
+                )
+                or item.get(
+                    "site_category"
+                )
+                or "미분류"
+            )
+
+            if current_bucket != bucket:
+                continue
+
+            price = item.get(
+                "price_krw"
+            )
+
+            if isinstance(
+                price,
+                (int, float),
+            ) and price > 0:
+
+                bucket_prices.append(
+                    int(price)
+                )
+
+        categories[
+            bucket
+        ] = {
+            "count": count,
+            "avg_price_krw": (
+                round(
+                    sum(bucket_prices)
+                    / len(
+                        bucket_prices
+                    )
+                )
+                if bucket_prices
+                else None
+            ),
+            "min_price_krw": (
+                min(bucket_prices)
+                if bucket_prices
+                else None
+            ),
+            "max_price_krw": (
+                max(bucket_prices)
+                if bucket_prices
+                else None
+            ),
+        }
+
+    status_payload = load_json(
+        STATUS,
+        {},
+    )
+
+    if not isinstance(
+        status_payload,
+        dict,
+    ):
+        status_payload = {}
+
+    status_payload[
+        "last_run"
+    ] = {
+        "started_at": started_at,
+        "requested": requested,
+        "ok": ok_count,
+        "parse_failed": parse_failed,
+        "http_error": http_error,
+        "sold_out": sold_out_count,
+        "parse_fail_reasons": parse_fail_reasons,
+        "parse_fail_samples": parse_fail_samples,
+        "fallback_used": fallback_used,
+        "fallback_price_fixed": fallback_price_fixed,
+        "skipped_not_beauty": skipped_not_beauty,
+        "skipped_bucket_full": skipped_bucket_full,
+        "skipped_excluded": skipped_excluded,
+        "pruned_existing": {},
+        "queue_size": 0,
+        "url_source": "sitemap",
+        "scope": (
+            "다이소몰 뷰티관(C245) "
+            "10개 카테고리 "
+            "(선케어·네일 제외)"
+        ),
+        "delay_seconds": DELAY,
+        "max_items": MAX_ITEMS,
+        "user_agent": UA,
+        "robots_note": (
+            "robots.txt: "
+            "User-agent * → Allow /pd/pdr/, "
+            "Crawl-delay 30"
+        ),
+        "finished_at": now_iso(),
+        "bucket_targets": BUCKET_TARGETS,
+        "buckets_short": {
+            key: by_bucket.get(
+                key,
+                0,
+            )
+            for key in (
+                "헤어케어",
+                "바디케어",
+                "클렌징",
+                "마스크팩",
+                "스킨케어",
+            )
+        },
+        "status": "ok",
+    }
+
+    status_payload[
+        "totals"
+    ] = {
+        "products": totals[
+            "products"
+        ],
+        "bucket_targets": BUCKET_TARGETS,
+        "by_bucket": by_bucket,
+        "categories": categories,
+        "avg_price_krw": totals[
+            "avg_price_krw"
+        ],
+        "price_krw_min": totals[
+            "price_krw_min"
+        ],
+        "price_krw_max": totals[
+            "price_krw_max"
+        ],
+        "with_rating": totals[
+            "with_rating"
+        ],
+    }
+
+    # sitemap 정보
+    status_payload[
+        "sitemap_urls_known"
+    ] = len(
+        sitemap_urls
+    )
+
+    status_payload[
+        "visited"
+    ] = visited
+
     save_json(
         STATUS,
-        {
-            "last_run": run,
-            "totals": prev.get("totals"),
-            "fx": prev.get("fx"),
-        },
+        status_payload,
     )
+
+    # ========================================================
+    # REPORT
+    # ========================================================
+
+    print()
+    print("=" * 70)
+    print("DAISO COLLECTION RESULT")
+    print("=" * 70)
+    print(
+        f"products total       : {len(final_products)}"
+    )
+    print(
+        f"requested            : {requested}"
+    )
+    print(
+        f"ok                   : {ok_count}"
+    )
+    print(
+        f"parse_failed         : {parse_failed}"
+    )
+    print(
+        f"http_error           : {http_error}"
+    )
+    print(
+        f"fallback_used        : {fallback_used}"
+    )
+    print(
+        f"fallback_price_fixed : {fallback_price_fixed}"
+    )
+    print(
+        f"price failures       : {parse_fail_reasons.get('가격 없음', 0)}"
+    )
+    print(
+        f"sitemap urls         : {len(sitemap_urls)}"
+    )
+    print("=" * 70)
+
+    if parse_fail_samples:
+
+        print()
+        print(
+            "Remaining failures:"
+        )
+
+        for item in parse_fail_samples:
+            print(
+                f" - {item['pd_no']}: "
+                f"{item['reason']}"
+            )
+
+    return 0
 
 
 if __name__ == "__main__":
-    try:
-        raise SystemExit(main())
-    except SystemExit:
-        raise
-    except BaseException as _e:  # noqa: BLE001
-        record_crash(_e)
-        print(
-            f"수집이 예외로 중단됐다: {type(_e).__name__}: {_e}",
-            file=sys.stderr,
-        )
-        raise SystemExit(1)
+    raise SystemExit(
+        main()
+    )
