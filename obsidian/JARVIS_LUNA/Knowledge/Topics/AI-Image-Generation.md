@@ -13,17 +13,17 @@ tags: [knowledge-graph, topic]
 - [[Record-009--ARC-CT-Anatomy-Routed-Contrastive-Vision-Language-Learning]]
 - [[Record-015--Texture-Image-Classification-Using-DWT-AlexNet-Feature-Fus]]
 - [[Record-016--InstructMesh-Selective-Refinement-of-Generative-3D-Models-]]
-- [[Record-018--Video-Generative-Models-as-Geometry-Learner]]
+- [[Record-2eb66e41fe--Video-Generative-Models-as-Geometry-Learner]]
 - [[Record-024--Reconciling-Process-Supervision-with-Outcome-Based-Credit-]]
 - [[Record-299--Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---Shopi]]
 - [[Record-449--Shopifys-Magic-AI-image-editor-can-make-any-product-pics-l]]
 - [[Record-772--Shopify-Faces-Generative-AI-eCommerce-Competition-with-10W]]
-- [[Record-1021--MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use]]
+- [[Record-56fa4ad922--MidTool-Mid-training-Data-Synthesis-for-Agentic-Too]]
 - [[Record-1026--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beh]]
 - [[Record-1029--G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pat]]
 - [[Record-1064--Anatomy-Informed-Neural-Networks-Encoding-Anatomic-Priors]]
 - [[Record-1067--Asymmetric-Capacity-Allocation-in-Self-Refinement-Pipelin]]
-- [[Record-1070--AI-with-Authority-from-Application-to-Silicon]]
+- [[Record-3eaa8f3372--AI-with-Authority-from-Application-to-Silicon]]
 - [[Record-1071--VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-]]
 - [[Record-1076--ConvergeFlow-Language-Flow-with-Provable-Convergence-to-T]]
 - [[Record-1078--Provably-adaptive-sampling-with-uniform-and-remasking-dis]]
@@ -36,7 +36,7 @@ tags: [knowledge-graph, topic]
 
 ## Connected nodes
 
-[[Record-009--ARC-CT-Anatomy-Routed-Contrastive-Vision-Language-Learning]] [[Record-015--Texture-Image-Classification-Using-DWT-AlexNet-Feature-Fus]] [[Record-016--InstructMesh-Selective-Refinement-of-Generative-3D-Models-]] [[Record-018--Video-Generative-Models-as-Geometry-Learner]] [[Record-024--Reconciling-Process-Supervision-with-Outcome-Based-Credit-]] [[Record-299--Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---Shopi]] [[Record-449--Shopifys-Magic-AI-image-editor-can-make-any-product-pics-l]] [[Record-772--Shopify-Faces-Generative-AI-eCommerce-Competition-with-10W]] [[Record-1021--MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use]] [[Record-1026--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beh]] [[Record-1029--G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pat]] [[Record-1064--Anatomy-Informed-Neural-Networks-Encoding-Anatomic-Priors]] [[Record-1067--Asymmetric-Capacity-Allocation-in-Self-Refinement-Pipelin]] [[Record-1070--AI-with-Authority-from-Application-to-Silicon]] [[Record-1071--VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-]] [[Record-1076--ConvergeFlow-Language-Flow-with-Provable-Convergence-to-T]] [[Record-1078--Provably-adaptive-sampling-with-uniform-and-remasking-dis]] [[Record-1080--EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Saf]] [[Record-1086--LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-Multim]] [[Record-1089--Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augm]] [[Record-1093--What-FID-Hides-Detecting-Ranking-and-Diagnosing-Deviation]] [[Record-1103--VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native-Visua]] [[Record-1106--Learning-a-Continuous-Sepsis-Severity-Score-Without-Hour-]] [[Source--Google-Search]] [[Source--arXiv]] [[JARVIS Real Knowledge Index]]
+[[Record-009--ARC-CT-Anatomy-Routed-Contrastive-Vision-Language-Learning]] [[Record-015--Texture-Image-Classification-Using-DWT-AlexNet-Feature-Fus]] [[Record-016--InstructMesh-Selective-Refinement-of-Generative-3D-Models-]] [[Record-2eb66e41fe--Video-Generative-Models-as-Geometry-Learner]] [[Record-024--Reconciling-Process-Supervision-with-Outcome-Based-Credit-]] [[Record-299--Generative-AI-Use-Cases-20-Ecommerce-Examples-2026---Shopi]] [[Record-449--Shopifys-Magic-AI-image-editor-can-make-any-product-pics-l]] [[Record-772--Shopify-Faces-Generative-AI-eCommerce-Competition-with-10W]] [[Record-56fa4ad922--MidTool-Mid-training-Data-Synthesis-for-Agentic-Too]] [[Record-1026--An-Agentic-Approach-for-Active-Data-Collection-Travel-Beh]] [[Record-1029--G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Pat]] [[Record-1064--Anatomy-Informed-Neural-Networks-Encoding-Anatomic-Priors]] [[Record-1067--Asymmetric-Capacity-Allocation-in-Self-Refinement-Pipelin]] [[Record-3eaa8f3372--AI-with-Authority-from-Application-to-Silicon]] [[Record-1071--VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-]] [[Record-1076--ConvergeFlow-Language-Flow-with-Provable-Convergence-to-T]] [[Record-1078--Provably-adaptive-sampling-with-uniform-and-remasking-dis]] [[Record-1080--EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Saf]] [[Record-1086--LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-Multim]] [[Record-1089--Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augm]] [[Record-1093--What-FID-Hides-Detecting-Ranking-and-Diagnosing-Deviation]] [[Record-1103--VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native-Visua]] [[Record-1106--Learning-a-Continuous-Sepsis-Severity-Score-Without-Hour-]] [[Source--Google-Search]] [[Source--arXiv]] [[JARVIS Real Knowledge Index]]
 
 ## 담당 팀
 

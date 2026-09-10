@@ -2,7 +2,7 @@
 title: "Record 76a7f6eacd · Obesity-Drugs-Investment-Opportunity"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.556209+00:00
+updated_at: 2026-09-10T15:19:10.549067+00:00
 tags: [record, real-data]
 ---
 

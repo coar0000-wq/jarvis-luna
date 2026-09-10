@@ -2,7 +2,7 @@
 title: "Record 0ec9fef83a · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---Ninecomau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.407768+00:00
+updated_at: 2026-09-10T15:19:10.387366+00:00
 tags: [record, real-data]
 ---
 

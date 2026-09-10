@@ -2,7 +2,7 @@
 title: "Record 6b564d3efa · On-a-Gradation-for-Asymptotic-Stability"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:06:59.948755+00:00
+updated_at: 2026-09-10T15:19:09.911055+00:00
 tags: [record, real-data]
 ---
 

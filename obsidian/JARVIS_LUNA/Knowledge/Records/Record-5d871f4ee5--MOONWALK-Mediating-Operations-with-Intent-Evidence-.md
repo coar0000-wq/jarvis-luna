@@ -2,7 +2,7 @@
 title: "Record 5d871f4ee5 · MOONWALK-Mediating-Operations-with-Intent-Evidence-Action-Alignment-Ac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.010980+00:00
+updated_at: 2026-09-10T15:19:09.971781+00:00
 tags: [record, real-data]
 ---
 

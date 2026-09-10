@@ -2,7 +2,7 @@
 title: "Record fb45188475 · Whats-in-this-k-beauty-box-Your-1st-Korean-sauna-experience-that-you-d"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.583305+00:00
+updated_at: 2026-09-10T15:19:10.580121+00:00
 tags: [record, real-data]
 ---
 

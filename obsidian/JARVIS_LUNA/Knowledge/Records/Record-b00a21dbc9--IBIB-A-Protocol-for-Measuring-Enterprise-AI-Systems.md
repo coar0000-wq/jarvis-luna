@@ -2,7 +2,7 @@
 title: "Record b00a21dbc9 · IBIB-A-Protocol-for-Measuring-Enterprise-AI-Systems-by-Serving-Route-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.015870+00:00
+updated_at: 2026-09-10T15:19:09.976564+00:00
 tags: [record, real-data]
 ---
 

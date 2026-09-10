@@ -2,7 +2,7 @@
 title: "Record 89d81abca3 · One-MLLM-One-Call-Efficient-Zero-Shot-Vision-and-Language-Navigation-v"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:06:59.982947+00:00
+updated_at: 2026-09-10T15:19:09.944136+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 18a2fcf560 · ConvergeFlow-Language-Flow-with-Provable-Convergence-to-Token-Embeddin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.644541+00:00
+updated_at: 2026-09-10T15:19:10.646900+00:00
 tags: [record, real-data]
 ---
 

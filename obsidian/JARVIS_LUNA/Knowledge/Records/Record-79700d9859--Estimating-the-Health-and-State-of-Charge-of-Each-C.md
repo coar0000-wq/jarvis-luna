@@ -2,7 +2,7 @@
 title: "Record 79700d9859 · Estimating-the-Health-and-State-of-Charge-of-Each-Cell-in-a-Second-Lif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:06:59.965549+00:00
+updated_at: 2026-09-10T15:19:09.926913+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ea9e811aa7 · TIKTOK-SHOP-BRINGS-VIRAL-BEAUTY-TRENDS-TO-LIFE-AT-WESTFIELD-STRATFORD-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.383459+00:00
+updated_at: 2026-09-10T15:19:10.361716+00:00
 tags: [record, real-data]
 ---
 

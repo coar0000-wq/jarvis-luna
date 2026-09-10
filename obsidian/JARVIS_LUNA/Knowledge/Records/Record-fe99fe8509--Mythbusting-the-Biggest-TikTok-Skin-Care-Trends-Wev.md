@@ -2,7 +2,7 @@
 title: "Record fe99fe8509 · Mythbusting-the-Biggest-TikTok-Skin-Care-Trends-Weve-Seen-in-2024---Ne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.268501+00:00
+updated_at: 2026-09-10T15:19:10.251796+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4746ae73e8 · US-and-UK-retailers-bet-on-K-beauty-dermacosmetics-and-premium-care---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.303785+00:00
+updated_at: 2026-09-10T15:19:10.286086+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights
 
 US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights
-US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

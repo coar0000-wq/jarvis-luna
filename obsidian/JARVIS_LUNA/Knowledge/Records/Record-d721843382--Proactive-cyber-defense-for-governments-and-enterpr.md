@@ -2,7 +2,7 @@
 title: "Record d721843382 · Proactive-cyber-defense-for-governments-and-enterprises"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.026210+00:00
+updated_at: 2026-09-10T15:19:09.986492+00:00
 tags: [record, real-data]
 ---
 

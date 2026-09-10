@@ -2,7 +2,7 @@
 title: "Record 22e8ad389e · On-the-Local-and-Global-Nature-of-Frequency-and-Voltage-Dynamics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:06:59.987832+00:00
+updated_at: 2026-09-10T15:19:09.948947+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3c59c1683b · Grok-Imagine-Video-1-5-References"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.625236+00:00
+updated_at: 2026-09-10T15:19:10.626633+00:00
 tags: [record, real-data]
 ---
 

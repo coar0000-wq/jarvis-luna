@@ -2,7 +2,7 @@
 title: "Record a540d2ee70 · AESTURA-Atobarrier365-Cream-270-fl-oz-80ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.484062+00:00
+updated_at: 2026-09-10T15:19:10.471840+00:00
 tags: [record, real-data]
 ---
 

@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-10T14:09:39.662261+00:00",
-  "real_records": 2983,
+  "updated_at": "2026-09-10T15:20:15.838411+00:00",
+  "real_records": 3003,
   "source_labels": {
     "ai-image": 100,
-    "ai-research": 2621,
+    "ai-research": 2641,
     "shopify-commerce-image": 262
   },
-  "corpus_sha256": "f3fffc7bb1fc5cb6d4bc1bb66f6f17ccd710584eb943dceaf99ea9a060b157ec",
+  "corpus_sha256": "dcd85043956e264b35032c55f1abc39ff7c24b07db8a6c648a747cb2cd81726c",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,29 +14,17 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.8786456587328193,
+  "training_accuracy_on_corpus": 0.8794538794538794,
   "mean_gate_load": [
-    0.275323,
-    0.321245,
-    0.403432
+    0.276022,
+    0.321533,
+    0.402445
   ],
-  "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
-  "trained_corpus_sha256": "f3fffc7bb1fc5cb6d4bc1bb66f6f17ccd710584eb943dceaf99ea9a060b157ec",
+  "note": "This is a text knowledge-routing MoE, not an image foundation model.",
+  "trained_corpus_sha256": "dcd85043956e264b35032c55f1abc39ff7c24b07db8a6c648a747cb2cd81726c",
   "tuning_promoted": true,
   "tuning_steps": 500,
-  "tuning_validation_accuracy": 0.8846846846846846,
-  "tuning_final_loss": 0.4082929341867084,
-  "tuning_gate_load_std": 0.15765849017539774,
-  "records_before": 2979,
-  "records_added": 4,
-  "source_status": {
-    "arxiv": "ok",
-    "robotics": "ok",
-    "institutions": "ok",
-    "youtube": "blocked_by_robots",
-    "google": "ok",
-    "us_beauty": "ok"
-  },
-  "corpus": "data/knowledge/training_corpus.jsonl",
-  "말뭉치": "바뀌었다. 지금 가중치는 이 말뭉치로 학습한 것이 아니다. 학습기가 돌아야 다시 참이 된다."
+  "tuning_validation_accuracy": 0.8853046594982079,
+  "tuning_final_loss": 0.4065422792581645,
+  "tuning_gate_load_std": 0.15617782425559792
 }

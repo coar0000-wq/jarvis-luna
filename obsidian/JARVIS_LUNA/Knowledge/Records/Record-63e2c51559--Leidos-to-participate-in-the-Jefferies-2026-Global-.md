@@ -2,7 +2,7 @@
 title: "Record 63e2c51559 · Leidos-to-participate-in-the-Jefferies-2026-Global-Industrials-Confere"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.194729+00:00
+updated_at: 2026-09-10T15:19:10.171363+00:00
 tags: [record, real-data]
 ---
 

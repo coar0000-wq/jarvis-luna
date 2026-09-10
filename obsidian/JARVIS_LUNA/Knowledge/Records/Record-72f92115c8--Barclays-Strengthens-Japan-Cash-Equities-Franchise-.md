@@ -2,7 +2,7 @@
 title: "Record 72f92115c8 · Barclays-Strengthens-Japan-Cash-Equities-Franchise-With-Senior-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.528696+00:00
+updated_at: 2026-09-10T15:19:10.519022+00:00
 tags: [record, real-data]
 ---
 

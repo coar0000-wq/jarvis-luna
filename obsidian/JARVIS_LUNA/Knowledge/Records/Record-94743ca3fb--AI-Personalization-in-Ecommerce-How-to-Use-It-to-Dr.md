@@ -2,7 +2,7 @@
 title: "Record 94743ca3fb · AI-Personalization-in-Ecommerce-How-to-Use-It-to-Drive-Growth---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.259612+00:00
+updated_at: 2026-09-10T15:19:10.241877+00:00
 tags: [record, real-data]
 ---
 

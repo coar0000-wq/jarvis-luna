@@ -2,7 +2,7 @@
 title: "Record 8a4d0d2a69 · Shopify-sees-strong-revenue-as-e-commerce-business-grows-despite-tarif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.403131+00:00
+updated_at: 2026-09-10T15:19:10.381943+00:00
 tags: [record, real-data]
 ---
 

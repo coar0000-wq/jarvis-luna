@@ -2,7 +2,7 @@
 title: "Record 5a4cb30e45 · The-Recent-Beauty-Trends-Taking-over-TikTok---BeautyMatter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.314805+00:00
+updated_at: 2026-09-10T15:19:10.296505+00:00
 tags: [record, real-data]
 ---
 

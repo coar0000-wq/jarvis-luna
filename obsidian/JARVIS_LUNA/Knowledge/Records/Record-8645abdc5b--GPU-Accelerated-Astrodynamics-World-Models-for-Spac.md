@@ -2,7 +2,7 @@
 title: "Record 8645abdc5b · GPU-Accelerated-Astrodynamics-World-Models-for-Spacecraft-Rendezvous-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:06:59.948140+00:00
+updated_at: 2026-09-10T15:19:09.910479+00:00
 tags: [record, real-data]
 ---
 

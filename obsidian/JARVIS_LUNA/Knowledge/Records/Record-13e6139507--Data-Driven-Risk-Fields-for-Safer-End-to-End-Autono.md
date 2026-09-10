@@ -2,7 +2,7 @@
 title: "Record 13e6139507 · Data-Driven-Risk-Fields-for-Safer-End-to-End-Autonomous-Driving"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T14:07:00.010723+00:00
+updated_at: 2026-09-10T15:19:09.971541+00:00
 tags: [record, real-data]
 ---
 
