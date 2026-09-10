@@ -2,7 +2,7 @@
 title: "Record 795b7fc750 · Does-Becoming-Exceptional-at-One-Domain-Reduce-Transfer-Elsewhere"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.534207+00:00
+updated_at: 2026-09-10T14:07:00.167287+00:00
 tags: [record, real-data]
 ---
 

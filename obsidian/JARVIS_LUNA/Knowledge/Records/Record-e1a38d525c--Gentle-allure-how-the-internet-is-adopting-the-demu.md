@@ -2,7 +2,7 @@
 title: "Record e1a38d525c · Gentle-allure-how-the-internet-is-adopting-the-demure-beauty-trend---R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.582016+00:00
+updated_at: 2026-09-10T14:07:00.222329+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3dd414ffab · Global-Ecommerce-Growth-Forecast-2022"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.825825+00:00
+updated_at: 2026-09-10T14:07:00.553043+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f42b105107 · Detecting-and-countering-malicious-uses-of-Claude"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.799346+00:00
+updated_at: 2026-09-10T14:07:00.512525+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4ed47fbe8d · 6-Steps-to-Glass-Skin-According-to-K-Beauty-Experts---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.593520+00:00
+updated_at: 2026-09-10T14:07:00.235599+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** 6 Steps to Glass Skin, According to K-Beauty Experts - Vogue
 
 6 Steps to Glass Skin, According to K-Beauty Experts - Vogue
+6 Steps to Glass Skin, According to K-Beauty Experts - Vogue
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

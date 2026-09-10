@@ -2,7 +2,7 @@
 title: "Record 9175a81b82 · K-Beauty-World-Expands-Assortment-on-Ulta-Beauty-Marketplace-With-17-V"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.573958+00:00
+updated_at: 2026-09-10T14:07:00.212999+00:00
 tags: [record, real-data]
 ---
 

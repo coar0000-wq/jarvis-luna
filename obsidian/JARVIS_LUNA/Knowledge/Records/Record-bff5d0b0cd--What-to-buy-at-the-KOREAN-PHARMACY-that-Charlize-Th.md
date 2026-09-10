@@ -2,7 +2,7 @@
 title: "Record bff5d0b0cd · What-to-buy-at-the-KOREAN-PHARMACY-that-Charlize-Theron-visited"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.855259+00:00
+updated_at: 2026-09-10T14:07:00.595516+00:00
 tags: [record, real-data]
 ---
 

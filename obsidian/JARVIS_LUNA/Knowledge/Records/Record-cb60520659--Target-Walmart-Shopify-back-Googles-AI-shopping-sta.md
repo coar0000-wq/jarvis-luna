@@ -2,7 +2,7 @@
 title: "Record cb60520659 · Target-Walmart-Shopify-back-Googles-AI-shopping-standard---thestacktec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.709623+00:00
+updated_at: 2026-09-10T14:07:00.382800+00:00
 tags: [record, real-data]
 ---
 

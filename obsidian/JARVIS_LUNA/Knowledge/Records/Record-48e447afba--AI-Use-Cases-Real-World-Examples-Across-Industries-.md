@@ -2,7 +2,7 @@
 title: "Record 48e447afba · AI-Use-Cases-Real-World-Examples-Across-Industries-2025---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.581049+00:00
+updated_at: 2026-09-10T14:07:00.221195+00:00
 tags: [record, real-data]
 ---
 

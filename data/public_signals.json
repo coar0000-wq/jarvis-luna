@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T13:49:00.119219+00:00",
+  "generated_at": "2026-09-10T14:10:08.736888+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -35,12 +35,12 @@
           "url": "https://trends.google.com/trending?geo=US&q=what%20are%20the%20details%20of%20donald%20trump%27s%20plan%20to%20send%20%24500%20obamacare%20rebate%20checks"
         },
         {
-          "keyword": "lee pace",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Thu, 10 Sep 2026 05:40:00 -0700",
-          "source_name": "IMDb",
-          "url": "https://trends.google.com/trending?geo=US&q=lee%20pace"
+          "keyword": "xolo maridueña",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 10 Sep 2026 06:30:00 -0700",
+          "source_name": "Softonic",
+          "url": "https://trends.google.com/trending?geo=US&q=xolo%20maridue%C3%B1a"
         },
         {
           "keyword": "10 year treasury yield",
@@ -55,8 +55,16 @@
           "approx_traffic": "500+",
           "traffic_num": 500,
           "published": "Thu, 10 Sep 2026 05:50:00 -0700",
-          "source_name": "CNBC",
+          "source_name": "Morningstar",
           "url": "https://trends.google.com/trending?geo=US&q=cpi"
+        },
+        {
+          "keyword": "irish open",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 10 Sep 2026 05:50:00 -0700",
+          "source_name": "The Irish Times",
+          "url": "https://trends.google.com/trending?geo=US&q=irish%20open"
         },
         {
           "keyword": "fbi",
@@ -67,28 +75,20 @@
           "url": "https://trends.google.com/trending?geo=US&q=fbi"
         },
         {
-          "keyword": "cleveland browns defensive end jared verse",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Thu, 10 Sep 2026 05:40:00 -0700",
-          "source_name": "Cleveland.com",
-          "url": "https://trends.google.com/trending?geo=US&q=cleveland%20browns%20defensive%20end%20jared%20verse"
-        },
-        {
-          "keyword": "irish open",
+          "keyword": "indw vs banw",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Thu, 10 Sep 2026 05:50:00 -0700",
-          "source_name": "The Irish Times",
-          "url": "https://trends.google.com/trending?geo=US&q=irish%20open"
+          "published": "Thu, 10 Sep 2026 06:50:00 -0700",
+          "source_name": "Cricinfo",
+          "url": "https://trends.google.com/trending?geo=US&q=indw%20vs%20banw"
         },
         {
-          "keyword": "ppi data",
+          "keyword": "wardogs release time",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Thu, 10 Sep 2026 05:50:00 -0700",
-          "source_name": "CNBC",
-          "url": "https://trends.google.com/trending?geo=US&q=ppi%20data"
+          "published": "Thu, 10 Sep 2026 06:50:00 -0700",
+          "source_name": "Pure Xbox",
+          "url": "https://trends.google.com/trending?geo=US&q=wardogs%20release%20time"
         }
       ]
     },

@@ -2,7 +2,7 @@
 title: "Record dc3108c2fc · 5-Best-Dropshipping-Courses-for-Ecommerce-Entrepreneurs---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.605793+00:00
+updated_at: 2026-09-10T14:07:00.249934+00:00
 tags: [record, real-data]
 ---
 

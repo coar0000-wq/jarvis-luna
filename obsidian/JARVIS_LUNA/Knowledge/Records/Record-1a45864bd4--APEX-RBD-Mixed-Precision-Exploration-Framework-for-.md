@@ -2,7 +2,7 @@
 title: "Record 1a45864bd4 · APEX-RBD-Mixed-Precision-Exploration-Framework-for-Hardware-Efficient-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.277417+00:00
+updated_at: 2026-09-10T14:06:59.972469+00:00
 tags: [record, real-data]
 ---
 

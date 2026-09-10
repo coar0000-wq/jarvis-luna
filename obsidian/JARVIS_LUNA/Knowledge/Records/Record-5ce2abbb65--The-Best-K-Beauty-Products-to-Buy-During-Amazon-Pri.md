@@ -1,18 +1,18 @@
 ---
-title: "Record 5ce2abbb65 · The-Best-K-Beauty-Products-to-Buy-During-Amazon-Prime-Day---coveteurco"
+title: "Record 5ce2abbb65 · The-Best-K-Beauty-Products-to-Buy-During-Amazon-Prime-Day---Coveteur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.592089+00:00
+updated_at: 2026-09-10T14:07:00.233956+00:00
 tags: [record, real-data]
 ---
 
-# Record 5ce2abbb65 · The-Best-K-Beauty-Products-to-Buy-During-Amazon-Prime-Day---coveteurco
+# Record 5ce2abbb65 · The-Best-K-Beauty-Products-to-Buy-During-Amazon-Prime-Day---Coveteur
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SUDVvTVRNazh4Z2tOR29pVEpzWFJ1bXFEcFJBaFBLSFNWSGNpVzljcVdDU1IxRENRWTVzUTBSUjlWczNiTHNQeWVrMU9oWEZnYU82dFZWSGVPNFZ2OTQzS1NBRQ?oc=5)
 
-**제목:** The Best K-Beauty Products to Buy During Amazon Prime Day - coveteur.com
+**제목:** The Best K-Beauty Products to Buy During Amazon Prime Day - Coveteur
 
-The Best K-Beauty Products to Buy During Amazon Prime Day - coveteur.com
+The Best K-Beauty Products to Buy During Amazon Prime Day - Coveteur
 
 **출처:** Source · Google Search
 

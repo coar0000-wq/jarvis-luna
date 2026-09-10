@@ -2,7 +2,7 @@
 title: "Record 287b43296e · Broadening-access-to-Skala-creates-a-faster-path-to-predictive-DFT"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.822057+00:00
+updated_at: 2026-09-10T14:07:00.547684+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d195f87aa7 · A-decentralized-adaptive-momentum-method-for-solving-a-class-of-min-ma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.336606+00:00
+updated_at: 2026-09-10T14:07:00.057793+00:00
 tags: [record, real-data]
 ---
 

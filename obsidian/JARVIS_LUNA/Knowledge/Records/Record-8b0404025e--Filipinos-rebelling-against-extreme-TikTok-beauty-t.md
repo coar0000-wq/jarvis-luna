@@ -2,7 +2,7 @@
 title: "Record 8b0404025e · Filipinos-rebelling-against-extreme-TikTok-beauty-trends--doctor---Dai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.699426+00:00
+updated_at: 2026-09-10T14:07:00.369584+00:00
 tags: [record, real-data]
 ---
 

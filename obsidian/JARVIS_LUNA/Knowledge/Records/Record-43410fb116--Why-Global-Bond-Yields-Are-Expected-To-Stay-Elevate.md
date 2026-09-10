@@ -2,7 +2,7 @@
 title: "Record 43410fb116 · Why-Global-Bond-Yields-Are-Expected-To-Stay-Elevated"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.814059+00:00
+updated_at: 2026-09-10T14:07:00.535526+00:00
 tags: [record, real-data]
 ---
 

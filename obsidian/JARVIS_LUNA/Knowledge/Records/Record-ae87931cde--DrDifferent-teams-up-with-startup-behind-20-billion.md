@@ -2,7 +2,7 @@
 title: "Record ae87931cde · DrDifferent-teams-up-with-startup-behind-20-billion-won-deal-to-break-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.581466+00:00
+updated_at: 2026-09-10T14:07:00.221694+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c3ce505fa7 · AEO-for-Ecommerce-Drive-Traffic-From-AI-Search-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.585998+00:00
+updated_at: 2026-09-10T14:07:00.226946+00:00
 tags: [record, real-data]
 ---
 

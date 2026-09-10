@@ -2,7 +2,7 @@
 title: "Record 303c98b553 · A-Randomized-Placebo-Controlled-Trial-to-Evaluate-the-Safety-and-Effic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.357794+00:00
+updated_at: 2026-09-10T14:07:00.088671+00:00
 tags: [record, real-data]
 ---
 

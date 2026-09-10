@@ -2,7 +2,7 @@
 title: "Record a854a70d08 · How-to-Achieve-Hollywood-Makeup-Artist-Nina-Parks-Signature-Soft-and-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.656335+00:00
+updated_at: 2026-09-10T14:07:00.313314+00:00
 tags: [record, real-data]
 ---
 

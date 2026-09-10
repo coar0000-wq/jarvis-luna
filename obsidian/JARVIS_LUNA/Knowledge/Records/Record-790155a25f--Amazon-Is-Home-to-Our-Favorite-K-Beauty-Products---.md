@@ -2,7 +2,7 @@
 title: "Record 790155a25f · Amazon-Is-Home-to-Our-Favorite-K-Beauty-Products---allurecom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.615846+00:00
+updated_at: 2026-09-10T14:07:00.261433+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0bafdd0635 · Quantum-counterdiabatic-driving-enhanced-by-two-stage-local-control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.348070+00:00
+updated_at: 2026-09-10T14:07:00.074489+00:00
 tags: [record, real-data]
 ---
 

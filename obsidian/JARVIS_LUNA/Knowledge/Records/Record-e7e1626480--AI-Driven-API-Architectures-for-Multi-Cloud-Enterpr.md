@@ -2,7 +2,7 @@
 title: "Record e7e1626480 · AI-Driven-API-Architectures-for-Multi-Cloud-Enterprises-A-Comparative-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.539768+00:00
+updated_at: 2026-09-10T14:07:00.173734+00:00
 tags: [record, real-data]
 ---
 

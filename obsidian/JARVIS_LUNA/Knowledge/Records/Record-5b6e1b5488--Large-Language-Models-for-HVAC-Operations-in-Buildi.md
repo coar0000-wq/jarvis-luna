@@ -2,7 +2,7 @@
 title: "Record 5b6e1b5488 · Large-Language-Models-for-HVAC-Operations-in-Building-Energy-Systems-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.279810+00:00
+updated_at: 2026-09-10T14:06:59.975784+00:00
 tags: [record, real-data]
 ---
 

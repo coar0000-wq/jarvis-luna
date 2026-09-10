@@ -2,7 +2,7 @@
 title: "Record 10ade4eb41 · AI-and-Efficiency-How-Businesses-Save-Time-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.607328+00:00
+updated_at: 2026-09-10T14:07:00.251714+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 62003111f3 · Disrupting-a-new-covert-influence-campaign-from-Russia"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.744410+00:00
+updated_at: 2026-09-10T14:07:00.430802+00:00
 tags: [record, real-data]
 ---
 

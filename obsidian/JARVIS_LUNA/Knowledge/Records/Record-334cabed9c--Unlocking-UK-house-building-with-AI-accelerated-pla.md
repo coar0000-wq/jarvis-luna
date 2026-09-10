@@ -2,7 +2,7 @@
 title: "Record 334cabed9c · Unlocking-UK-house-building-with-AI-accelerated-planning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.315629+00:00
+updated_at: 2026-09-10T14:07:00.027192+00:00
 tags: [record, real-data]
 ---
 

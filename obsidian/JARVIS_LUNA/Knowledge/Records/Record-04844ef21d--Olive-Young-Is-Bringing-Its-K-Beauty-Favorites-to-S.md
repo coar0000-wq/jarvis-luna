@@ -2,7 +2,7 @@
 title: "Record 04844ef21d · Olive-Young-Is-Bringing-Its-K-Beauty-Favorites-to-SephoraHeres-What-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.616025+00:00
+updated_at: 2026-09-10T14:07:00.261676+00:00
 tags: [record, real-data]
 ---
 

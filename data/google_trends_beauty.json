@@ -1,6 +1,6 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-10T13:46:09.184495+00:00",
+  "collected_at": "2026-09-10T14:06:41.041073+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
@@ -21,6 +21,15 @@
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPakhlYThFX3d6TkdIRTI1cUlaUi1HVkdrbjU4THltQnEwczNndXozSldIN0hhb1ljVnhxbkRTbmtRQnl4cHVJZzRLLXNicGFiVGxNS3RmM0lUTE5qaVR4TFJIRFZFUFlwOXM1Y0UyMUJrT010WnRUeVFJSXR4bk9MQVFJRTZfWDVIT0N3cTVRVTFBakwz?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "L’Oréal leans into K-beauty with Cosmax development partnership - Personal Care Insights",
+      "product": "L’Oréal leans into K-beauty with Cosmax development partnership - Personal Care Insights",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPREh5V1dVR0taWWs2anMwVTl0Y3paZFVNRVJuUzJOUEJZOHZsem5ZRUJzZ2ZhWUdmM2tPWmR5T0ZiTXdHRlROX25qbzVqbGpxR05UTzlBRzIzRkJCOGVvM0ZiQWlFTUY3eU1zN0lYcURSQy12VzFtNUN3NkNvQ3Y3SUQ1bGM5MU0?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -70,15 +79,6 @@
       "beauty": true
     },
     {
-      "keyword": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
-      "product": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5N2ZIdEFwRWx5ZzJ0aHhib3ZvMHQ5c1o0Z1J5Nm14ZW5wUmpHZ0xKcGhnaVBTVVRFYU81WVFrbUZkQnhNTmxHeGMzQ3dHWHhtc0xxQzVoRkhqNFFWVjR4WGNoT0lhYXktTGhHZ001VHJ1Z282RWpRdGFabG43Zw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
       "product": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
       "sub": "Korean sunscreen",
@@ -106,8 +106,8 @@
       "beauty": true
     },
     {
-      "keyword": "Does Korean sunscreen work better? | Consumer Reports - king5.com",
-      "product": "Does Korean sunscreen work better? | Consumer Reports - king5.com",
+      "keyword": "Does Korean sunscreen work better? | Consumer Reports - KING5.com",
+      "product": "Does Korean sunscreen work better? | Consumer Reports - KING5.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGRVSGtHWWhrdzhNWEl1ZkZJcUxCMVpfem14eFVoOGlUV0x5UVpBTGR0TVRzMUo3ODlPM3MwMF8zSXJTa1pZZ0dELThiVlhtRjlqdTQ4SDFPcUdPaUR4ZnF0VmZvRWktajNibk9JT3pTam5CV0JGY0VOUnBFQmVXa0V1T3VJNXVQb1JLWjhkanRxWXBBeU5DZVVrUnFLWHBMWGRfa284UkFuaWNCYXV3RHJJeGtGck5TRFRES21aUV9WY3NCY21UazhEdjZ1bVk?oc=5",
@@ -142,8 +142,8 @@
       "beauty": true
     },
     {
-      "keyword": "11 Of The Best Clear Sunscreens For Black & Brown Skin - coveteur.com",
-      "product": "11 Of The Best Clear Sunscreens For Black & Brown Skin - coveteur.com",
+      "keyword": "11 Of The Best Clear Sunscreens For Black & Brown Skin - Coveteur",
+      "product": "11 Of The Best Clear Sunscreens For Black & Brown Skin - Coveteur",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZTWU0R2c2bXdNckV1N29mSDJWb201UGxUT2ZOajNjZ0oyRkJHTWVQdzdSME5YT0M2M0g2YXFrSnZGZWk3Mmx2S3VkVUx3bk9jMVV5dQ?oc=5",
@@ -331,6 +331,15 @@
       "beauty": true
     },
     {
+      "keyword": "Scientists invent a plant-based serum that is proven to regrow hair in weeks - Earth.com",
+      "product": "Scientists invent a plant-based serum that is proven to regrow hair in weeks - Earth.com",
+      "sub": "centella serum",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSFVtSjNNOWR6b0pRZU9ZeEVzN09KMmtvUXlLbVRGTEJmeUdScHA5TTlFeWUwMFpHb3JKSWJNa3VwWm1JaU5VZ1NTeE5ROXo0ODhWa0dTcXp2ZU14RDA4SEk2WGUyZWtHZGNuZ0h6bWhZbkxOTlgwWG5HTXhkMkdXWW1MczgydFdQQzhoQTQ4blZjTjd4ZDVncy1uZmotamhnUXk4ZDIzY2F3ZTdT?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
       "keyword": "7 best Korean Skincare products: Tried & Tested by a Beauty Editor - the-independent.com",
       "product": "7 best Korean Skincare products: Tried & Tested by a Beauty Editor - the-independent.com",
       "sub": "centella serum",
@@ -349,17 +358,8 @@
       "beauty": true
     },
     {
-      "keyword": "Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com",
-      "product": "Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com",
-      "sub": "centella serum",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRkRkQi1TY3h2YmlWZlEzSlRKNV9lMXNXSDdBQ2RBVHBmb0NCcThJa1Q1MkNsbVVISHhZSUNyU3BncGxQQndHbDk5cnJwbFhXVHBKa2tPQXJ1WlBFRzFrbnR5NXU1ek9GYUVOcUlVTHROZTZscjFJVUlmR1had2JockFNUWIxUQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Experts Say the Niacinamide Inside This $6 ‘Holy Grail’ Serum Helps Nearly Every Complaint With Aging Skin - Real Simple",
-      "product": "Experts Say the Niacinamide Inside This $6 ‘Holy Grail’ Serum Helps Nearly Every Complaint With Aging Skin - Real Simple",
+      "keyword": "Experts Say the Niacinamide Inside This $6 ‘Holy Grail’ Serum Helps Nearly Every Complaint With Aging Skin - realsimple.com",
+      "product": "Experts Say the Niacinamide Inside This $6 ‘Holy Grail’ Serum Helps Nearly Every Complaint With Aging Skin - realsimple.com",
       "sub": "niacinamide serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTlpDWDM1WVl1OUxvNFJjVGFROXM2TFE0YWNOMUk1aEgtM3g0QWFsb1VVU3RValNGTTlIRTdVWVhZUmNZbm9OZGlKVUZLb3o4NkVpcG40VWtkdUd1UWVCT3lUekFPX2RlUVQzRy1GLUNHQkNnSzFTX3pkU3FrUUNfckVzSXAtSjhEWnpzMThUX2dlQQ?oc=5",

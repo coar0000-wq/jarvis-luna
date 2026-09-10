@@ -2,7 +2,7 @@
 title: "Record d95516051e · Perturb-ME-Scalable-mechanism-discovery-from-phenotype-enriched-genome"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.542507+00:00
+updated_at: 2026-09-10T14:07:00.176839+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2ab25d9fb1 · Japan-Pioneered-Humanoid-RobotsCan-It-Now-Catch-China"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.771282+00:00
+updated_at: 2026-09-10T14:07:00.469145+00:00
 tags: [record, real-data]
 ---
 

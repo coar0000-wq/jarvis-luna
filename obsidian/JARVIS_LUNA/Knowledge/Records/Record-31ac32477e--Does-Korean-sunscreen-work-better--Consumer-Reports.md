@@ -1,19 +1,19 @@
 ---
-title: "Record 31ac32477e · Does-Korean-sunscreen-work-better--Consumer-Reports---KING5com"
+title: "Record 31ac32477e · Does-Korean-sunscreen-work-better--Consumer-Reports---king5com"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.731220+00:00
+updated_at: 2026-09-10T14:07:00.412483+00:00
 tags: [record, real-data]
 ---
 
-# Record 31ac32477e · Does-Korean-sunscreen-work-better--Consumer-Reports---KING5com
+# Record 31ac32477e · Does-Korean-sunscreen-work-better--Consumer-Reports---king5com
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGRVSGtHWWhrdzhNWEl1ZkZJcUxCMVpfem14eFVoOGlUV0x5UVpBTGR0TVRzMUo3ODlPM3MwMF8zSXJTa1pZZ0dELThiVlhtRjlqdTQ4SDFPcUdPaUR4ZnF0VmZvRWktajNibk9JT3pTam5CV0JGY0VOUnBFQmVXa0V1T3VJNXVQb1JLWjhkanRxWXBBeU5DZVVrUnFLWHBMWGRfa284UkFuaWNCYXV3RHJJeGtGck5TRFRES21aUV9WY3NCY21UazhEdjZ1bVk?oc=5)
 
-**제목:** Does Korean sunscreen work better? | Consumer Reports - KING5.com
+**제목:** Does Korean sunscreen work better? | Consumer Reports - king5.com
 
-Does Korean sunscreen work better? | Consumer Reports - KING5.com
-Does Korean sunscreen work better? | Consumer Reports - KING5.com
+Does Korean sunscreen work better? | Consumer Reports - king5.com
+Does Korean sunscreen work better? | Consumer Reports - king5.com
 
 **출처:** Source · us_beauty
 

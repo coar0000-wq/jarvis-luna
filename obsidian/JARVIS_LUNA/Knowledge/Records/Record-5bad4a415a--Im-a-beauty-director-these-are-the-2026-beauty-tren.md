@@ -2,7 +2,7 @@
 title: "Record 5bad4a415a · Im-a-beauty-director-these-are-the-2026-beauty-trends-Ive-tried-and-lo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.599904+00:00
+updated_at: 2026-09-10T14:07:00.243025+00:00
 tags: [record, real-data]
 ---
 

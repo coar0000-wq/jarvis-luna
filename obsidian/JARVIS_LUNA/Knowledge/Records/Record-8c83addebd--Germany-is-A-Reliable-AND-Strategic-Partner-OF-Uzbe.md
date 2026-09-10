@@ -2,7 +2,7 @@
 title: "Record 8c83addebd · Germany-is-A-Reliable-AND-Strategic-Partner-OF-Uzbekistan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.754966+00:00
+updated_at: 2026-09-10T14:07:00.445880+00:00
 tags: [record, real-data]
 ---
 

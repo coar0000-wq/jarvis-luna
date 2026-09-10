@@ -2,7 +2,7 @@
 title: "Record 4f49d24049 · These-Are-the-Beauty-Trends-That-Will-Define-2026-According-to-Influen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.573030+00:00
+updated_at: 2026-09-10T14:07:00.211938+00:00
 tags: [record, real-data]
 ---
 

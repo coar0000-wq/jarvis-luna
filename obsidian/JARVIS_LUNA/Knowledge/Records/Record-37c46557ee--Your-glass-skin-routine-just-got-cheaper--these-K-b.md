@@ -2,7 +2,7 @@
 title: "Record 37c46557ee · Your-glass-skin-routine-just-got-cheaper--these-K-beauty-faves-from-La"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.705329+00:00
+updated_at: 2026-09-10T14:07:00.377356+00:00
 tags: [record, real-data]
 ---
 

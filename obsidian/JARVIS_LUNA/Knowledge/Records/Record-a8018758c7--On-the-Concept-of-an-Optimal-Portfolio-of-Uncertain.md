@@ -2,7 +2,7 @@
 title: "Record a8018758c7 · On-the-Concept-of-an-Optimal-Portfolio-of-Uncertain-Flexible-Loads"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.277624+00:00
+updated_at: 2026-09-10T14:06:59.972770+00:00
 tags: [record, real-data]
 ---
 

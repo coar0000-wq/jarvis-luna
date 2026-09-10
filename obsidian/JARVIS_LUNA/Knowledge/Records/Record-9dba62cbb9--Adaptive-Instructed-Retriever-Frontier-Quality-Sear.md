@@ -2,7 +2,7 @@
 title: "Record 9dba62cbb9 · Adaptive-Instructed-Retriever-Frontier-Quality-Search-at-2x-Lower-Late"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.810275+00:00
+updated_at: 2026-09-10T14:07:00.529739+00:00
 tags: [record, real-data]
 ---
 

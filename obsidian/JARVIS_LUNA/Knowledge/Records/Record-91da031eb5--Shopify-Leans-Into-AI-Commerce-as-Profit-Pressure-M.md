@@ -1,18 +1,18 @@
 ---
-title: "Record 91da031eb5 · Shopify-Leans-Into-AI-Commerce-as-Profit-Pressure-Mounts---pymntscom"
+title: "Record 91da031eb5 · Shopify-Leans-Into-AI-Commerce-as-Profit-Pressure-Mounts---PYMNTScom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.702119+00:00
+updated_at: 2026-09-10T14:07:00.373026+00:00
 tags: [record, real-data]
 ---
 
-# Record 91da031eb5 · Shopify-Leans-Into-AI-Commerce-as-Profit-Pressure-Mounts---pymntscom
+# Record 91da031eb5 · Shopify-Leans-Into-AI-Commerce-as-Profit-Pressure-Mounts---PYMNTScom
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMioAFBVV95cUxPaVpKME5mSTFEb3JjNUFMRkVVWFRma25Gc1VBRjE1eXZRSlVIcUVPdGFrREVjdlNGYjZvQzI1THNtQ0NzbWdINEpsRXJBOUR6dExsVl9UWHlCTmg4N0NZcjdydmxHempQdVhNS0g3SEU5LXlOY0FMX1dUU2NZX2VUbHNfdTRTU2wtZEFqU1MwN0FMZXNULWZCa0hWZldDSzRP?oc=5)
 
-**제목:** Shopify Leans Into AI Commerce as Profit Pressure Mounts - pymnts.com
+**제목:** Shopify Leans Into AI Commerce as Profit Pressure Mounts - PYMNTS.com
 
-Shopify Leans Into AI Commerce as Profit Pressure Mounts - pymnts.com
+Shopify Leans Into AI Commerce as Profit Pressure Mounts - PYMNTS.com
 
 **출처:** Source · Google Search
 

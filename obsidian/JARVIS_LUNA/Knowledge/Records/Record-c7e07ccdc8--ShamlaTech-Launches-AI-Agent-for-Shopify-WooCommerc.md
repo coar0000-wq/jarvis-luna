@@ -2,7 +2,7 @@
 title: "Record c7e07ccdc8 · ShamlaTech-Launches-AI-Agent-for-Shopify-WooCommerce-and-Magento-Store"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T13:46:27.571291+00:00
+updated_at: 2026-09-10T14:07:00.209948+00:00
 tags: [record, real-data]
 ---
 
