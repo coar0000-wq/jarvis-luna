@@ -2,7 +2,7 @@
 title: "Record b20b9b210d · Im-acne-prone-and-cant-achieve-glass-skin-but-this-new-K-beauty-trend-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.198671+00:00
+updated_at: 2026-09-10T21:09:59.881308+00:00
 tags: [record, real-data]
 ---
 

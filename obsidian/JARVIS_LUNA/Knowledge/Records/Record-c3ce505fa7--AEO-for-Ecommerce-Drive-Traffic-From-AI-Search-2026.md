@@ -1,18 +1,18 @@
 ---
-title: "Record c3ce505fa7 · AEO-for-Ecommerce-Drive-Traffic-From-AI-Search-2026---Shopify"
+title: "Record c3ce505fa7 · AEO-for-Ecommerce-Drive-Traffic-From-AI-Search-2026---shopifycom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.132035+00:00
+updated_at: 2026-09-10T21:09:59.804329+00:00
 tags: [record, real-data]
 ---
 
-# Record c3ce505fa7 · AEO-for-Ecommerce-Drive-Traffic-From-AI-Search-2026---Shopify
+# Record c3ce505fa7 · AEO-for-Ecommerce-Drive-Traffic-From-AI-Search-2026---shopifycom
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3ek03TnNpYU1ZWEU3ZEZ6azFldVRkdWxZaVFLWTJYZkRrWGZBYUQycThwZExrRy1ZOW54VEQ4TXJ2TGd5Yl9EVWhFU3pTd1Atbm12MERDVzVNQQ?oc=5)
 
-**제목:** AEO for Ecommerce: Drive Traffic From AI Search (2026) - Shopify
+**제목:** AEO for Ecommerce: Drive Traffic From AI Search (2026) - shopify.com
 
-AEO for Ecommerce: Drive Traffic From AI Search (2026) - Shopify
+AEO for Ecommerce: Drive Traffic From AI Search (2026) - shopify.com
 
 **출처:** Source · Google Search
 

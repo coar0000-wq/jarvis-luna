@@ -2,7 +2,7 @@
 title: "Record 3035372992 · In-Conversation-with-Charlotte-Cho-on-K-Beauty-Right-Now---The-Chalkbo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.179414+00:00
+updated_at: 2026-09-10T21:09:59.861766+00:00
 tags: [record, real-data]
 ---
 

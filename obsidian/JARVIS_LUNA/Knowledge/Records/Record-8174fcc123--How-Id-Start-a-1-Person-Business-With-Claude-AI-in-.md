@@ -2,7 +2,7 @@
 title: "Record 8174fcc123 · How-Id-Start-a-1-Person-Business-With-Claude-AI-in-30-Days"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.546138+00:00
+updated_at: 2026-09-10T21:10:00.301428+00:00
 tags: [record, real-data]
 ---
 

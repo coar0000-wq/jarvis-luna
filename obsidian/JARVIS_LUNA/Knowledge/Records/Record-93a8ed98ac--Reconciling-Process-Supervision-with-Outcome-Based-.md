@@ -2,7 +2,7 @@
 title: "Record 93a8ed98ac · Reconciling-Process-Supervision-with-Outcome-Based-Credit-in-Agentic-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:41.822943+00:00
+updated_at: 2026-09-10T21:09:59.513627+00:00
 tags: [record, real-data]
 ---
 

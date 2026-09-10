@@ -2,7 +2,7 @@
 title: "Record e895ce87bb · Low-movement-deep-learned-sitting-patterns-and-sedentary-behavior-in-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:41.954401+00:00
+updated_at: 2026-09-10T21:09:59.631923+00:00
 tags: [record, real-data]
 ---
 

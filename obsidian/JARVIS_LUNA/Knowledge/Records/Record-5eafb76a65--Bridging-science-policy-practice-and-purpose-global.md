@@ -2,7 +2,7 @@
 title: "Record 5eafb76a65 · Bridging-science-policy-practice-and-purpose-global-insights-from-sust"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.025936+00:00
+updated_at: 2026-09-10T21:09:59.687302+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 908ebfeccc · Ever-wondered-what-happens-to-your-orders-before-they-leave-a-CJ-wareh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.542012+00:00
+updated_at: 2026-09-10T21:10:00.299375+00:00
 tags: [record, real-data]
 ---
 

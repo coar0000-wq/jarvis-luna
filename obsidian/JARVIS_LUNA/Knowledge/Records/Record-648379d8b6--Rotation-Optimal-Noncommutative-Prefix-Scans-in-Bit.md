@@ -2,7 +2,7 @@
 title: "Record 648379d8b6 · Rotation-Optimal-Noncommutative-Prefix-Scans-in-Bit-Reversed-Homomorph"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.377070+00:00
+updated_at: 2026-09-10T21:10:00.119326+00:00
 tags: [record, real-data]
 ---
 

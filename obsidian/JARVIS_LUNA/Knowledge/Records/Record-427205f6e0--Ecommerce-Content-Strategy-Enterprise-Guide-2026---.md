@@ -1,18 +1,18 @@
 ---
-title: "Record 427205f6e0 · Ecommerce-Content-Strategy-Enterprise-Guide-2026---Shopify"
+title: "Record 427205f6e0 · Ecommerce-Content-Strategy-Enterprise-Guide-2026---shopifycom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.189194+00:00
+updated_at: 2026-09-10T21:09:59.875028+00:00
 tags: [record, real-data]
 ---
 
-# Record 427205f6e0 · Ecommerce-Content-Strategy-Enterprise-Guide-2026---Shopify
+# Record 427205f6e0 · Ecommerce-Content-Strategy-Enterprise-Guide-2026---shopifycom
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMidEFVX3lxTE03RUZ3UkJFbTlsV1JFSEJyOEZlWUY5TlFQd2RBU2FIS1hYbHhHc3VaUnB0dmItVmlPSTNaNDNZQ1o1c1ozNWFoYWxFX29vaFJ3cXpfQTJ5d3A2MU90TDhMMVpabGpxVWctWWxLTHI1d1JFVUhY?oc=5)
 
-**제목:** Ecommerce Content Strategy: Enterprise Guide (2026) - Shopify
+**제목:** Ecommerce Content Strategy: Enterprise Guide (2026) - shopify.com
 
-Ecommerce Content Strategy: Enterprise Guide (2026) - Shopify
+Ecommerce Content Strategy: Enterprise Guide (2026) - shopify.com
 
 **출처:** Source · Google Search
 

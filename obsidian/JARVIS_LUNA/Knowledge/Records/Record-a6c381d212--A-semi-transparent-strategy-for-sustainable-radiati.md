@@ -2,7 +2,7 @@
 title: "Record a6c381d212 · A-semi-transparent-strategy-for-sustainable-radiative-cooling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:41.941463+00:00
+updated_at: 2026-09-10T21:09:59.620367+00:00
 tags: [record, real-data]
 ---
 

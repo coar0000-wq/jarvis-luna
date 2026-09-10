@@ -2,7 +2,7 @@
 title: "Record 9bdfe39458 · Simulating-Unified-Tensor-Resharding-in-heterogeneous-AI-systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.374079+00:00
+updated_at: 2026-09-10T21:10:00.117576+00:00
 tags: [record, real-data]
 ---
 

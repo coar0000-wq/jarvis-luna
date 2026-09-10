@@ -1,18 +1,18 @@
 ---
-title: "Record 261f12b52d · Tuscan-Mom-Makeup-Is-Summers-Toastiest-Beauty-Trend---bustlecom"
+title: "Record 261f12b52d · Tuscan-Mom-Makeup-Is-Summers-Toastiest-Beauty-Trend---Bustle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.129748+00:00
+updated_at: 2026-09-10T21:09:59.803011+00:00
 tags: [record, real-data]
 ---
 
-# Record 261f12b52d · Tuscan-Mom-Makeup-Is-Summers-Toastiest-Beauty-Trend---bustlecom
+# Record 261f12b52d · Tuscan-Mom-Makeup-Is-Summers-Toastiest-Beauty-Trend---Bustle
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCLUc1TldaLTEtRm9HZUg3MHYyVldmWktKSkRkTlFiS0RqMDZBN21QM3FnMENvaC16Nkhxa3o3Z2NyRUlSZFBVVEdoc2UwSVZlZVI4MjU3WGlZOEU?oc=5)
 
-**제목:** "Tuscan Mom Makeup" Is Summer's Toastiest Beauty Trend - bustle.com
+**제목:** "Tuscan Mom Makeup" Is Summer's Toastiest Beauty Trend - Bustle
 
-"Tuscan Mom Makeup" Is Summer's Toastiest Beauty Trend - bustle.com
+"Tuscan Mom Makeup" Is Summer's Toastiest Beauty Trend - Bustle
 
 **출처:** Source · Google Search
 

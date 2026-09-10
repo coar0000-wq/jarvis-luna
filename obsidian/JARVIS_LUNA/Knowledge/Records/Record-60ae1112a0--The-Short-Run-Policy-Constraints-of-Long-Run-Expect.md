@@ -2,7 +2,7 @@
 title: "Record 60ae1112a0 · The-Short-Run-Policy-Constraints-of-Long-Run-Expectations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:41.968863+00:00
+updated_at: 2026-09-10T21:09:59.643928+00:00
 tags: [record, real-data]
 ---
 

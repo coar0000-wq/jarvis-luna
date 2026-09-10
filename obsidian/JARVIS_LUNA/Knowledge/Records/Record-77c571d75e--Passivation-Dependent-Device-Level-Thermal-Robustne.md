@@ -2,7 +2,7 @@
 title: "Record 77c571d75e · Passivation-Dependent-Device-Level-Thermal-Robustness-of-Indium-Galliu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:41.949908+00:00
+updated_at: 2026-09-10T21:09:59.628072+00:00
 tags: [record, real-data]
 ---
 

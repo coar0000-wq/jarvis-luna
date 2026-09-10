@@ -2,7 +2,7 @@
 title: "Record d0b4d610f9 · Introducing-relative-pollen-productivity-estimates-for-Iberian-taxa-me"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.045349+00:00
+updated_at: 2026-09-10T21:09:59.699801+00:00
 tags: [record, real-data]
 ---
 

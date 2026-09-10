@@ -2,7 +2,7 @@
 title: "Record b02076286e · Sephora-and-Olive-Young-are-bringing-20-Korean-beauty-brands-to-Southe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.261544+00:00
+updated_at: 2026-09-10T21:09:59.937630+00:00
 tags: [record, real-data]
 ---
 

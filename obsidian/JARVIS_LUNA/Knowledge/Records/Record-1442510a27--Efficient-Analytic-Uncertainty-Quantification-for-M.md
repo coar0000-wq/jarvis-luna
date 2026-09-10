@@ -2,7 +2,7 @@
 title: "Record 1442510a27 · Efficient-Analytic-Uncertainty-Quantification-for-Multi-Modal-Regressi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.373580+00:00
+updated_at: 2026-09-10T21:10:00.117254+00:00
 tags: [record, real-data]
 ---
 

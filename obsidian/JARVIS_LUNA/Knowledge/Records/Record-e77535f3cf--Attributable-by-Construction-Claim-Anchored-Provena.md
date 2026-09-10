@@ -2,7 +2,7 @@
 title: "Record e77535f3cf · Attributable-by-Construction-Claim-Anchored-Provenance-for-Multi-Docum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.373347+00:00
+updated_at: 2026-09-10T21:10:00.110805+00:00
 tags: [record, real-data]
 ---
 

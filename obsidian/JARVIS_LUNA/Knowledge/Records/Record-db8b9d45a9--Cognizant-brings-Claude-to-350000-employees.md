@@ -2,7 +2,7 @@
 title: "Record db8b9d45a9 · Cognizant-brings-Claude-to-350000-employees"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.437446+00:00
+updated_at: 2026-09-10T21:10:00.193275+00:00
 tags: [record, real-data]
 ---
 

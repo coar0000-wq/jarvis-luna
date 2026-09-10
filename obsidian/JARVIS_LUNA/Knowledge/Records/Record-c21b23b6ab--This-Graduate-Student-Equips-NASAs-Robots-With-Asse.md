@@ -2,7 +2,7 @@
 title: "Record c21b23b6ab · This-Graduate-Student-Equips-NASAs-Robots-With-Assembly-Skills"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.390786+00:00
+updated_at: 2026-09-10T21:10:00.138358+00:00
 tags: [record, real-data]
 ---
 

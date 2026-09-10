@@ -2,7 +2,7 @@
 title: "Record 6e077414c4 · Keauti-brings-K-beauty-to-Queen-City---sbjnet"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.189431+00:00
+updated_at: 2026-09-10T21:09:59.875210+00:00
 tags: [record, real-data]
 ---
 

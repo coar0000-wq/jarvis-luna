@@ -2,7 +2,7 @@
 title: "Record 42a530521b · The-Best-Way-to-Explore-Lunar-Craters-Is-a-Giant-Robot-Ball"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.392592+00:00
+updated_at: 2026-09-10T21:10:00.139668+00:00
 tags: [record, real-data]
 ---
 

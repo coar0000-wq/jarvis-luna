@@ -2,7 +2,7 @@
 title: "Record 4df154bbaa · Intercom-Wants-to-End-the-Support-to-Sales-Handoff-Problem---CX-Today"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.228723+00:00
+updated_at: 2026-09-10T21:09:59.905679+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record fd5633ab74 · C3-AI-Board-Member-Jim-Hagemann-Snabe-Appointed-European-Commission-Sp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.103001+00:00
+updated_at: 2026-09-10T21:09:59.780362+00:00
 tags: [record, real-data]
 ---
 

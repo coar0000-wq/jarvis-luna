@@ -2,7 +2,7 @@
 title: "Record c432475374 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---KESQ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.300374+00:00
+updated_at: 2026-09-10T21:10:00.002901+00:00
 tags: [record, real-data]
 ---
 

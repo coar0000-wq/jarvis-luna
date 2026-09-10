@@ -2,7 +2,7 @@
 title: "Record 815db2ca99 · Parameterized-Complexity-of-L_p-Lipschitz-Constants-for-Input-Convex-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.603219+00:00
+updated_at: 2026-09-10T21:10:00.356707+00:00
 tags: [record, real-data]
 ---
 

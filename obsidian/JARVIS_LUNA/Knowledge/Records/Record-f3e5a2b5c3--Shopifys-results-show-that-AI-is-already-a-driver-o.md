@@ -2,7 +2,7 @@
 title: "Record f3e5a2b5c3 · Shopifys-results-show-that-AI-is-already-a-driver-of-eCommerce-growth-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.306750+00:00
+updated_at: 2026-09-10T21:10:00.008148+00:00
 tags: [record, real-data]
 ---
 

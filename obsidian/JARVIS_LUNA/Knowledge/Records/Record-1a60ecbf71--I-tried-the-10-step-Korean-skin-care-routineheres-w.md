@@ -2,7 +2,7 @@
 title: "Record 1a60ecbf71 · I-tried-the-10-step-Korean-skin-care-routineheres-what-happened---Moth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.192828+00:00
+updated_at: 2026-09-10T21:09:59.877156+00:00
 tags: [record, real-data]
 ---
 

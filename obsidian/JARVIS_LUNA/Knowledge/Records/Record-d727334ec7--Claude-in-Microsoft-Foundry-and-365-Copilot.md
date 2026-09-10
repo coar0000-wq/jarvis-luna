@@ -2,7 +2,7 @@
 title: "Record d727334ec7 · Claude-in-Microsoft-Foundry-and-365-Copilot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.435775+00:00
+updated_at: 2026-09-10T21:10:00.192441+00:00
 tags: [record, real-data]
 ---
 

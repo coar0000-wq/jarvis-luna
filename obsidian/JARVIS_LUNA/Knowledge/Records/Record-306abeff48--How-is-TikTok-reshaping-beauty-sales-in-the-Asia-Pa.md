@@ -2,7 +2,7 @@
 title: "Record 306abeff48 · How-is-TikTok-reshaping-beauty-sales-in-the-Asia-Pacific-region---Reta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.274786+00:00
+updated_at: 2026-09-10T21:09:59.962194+00:00
 tags: [record, real-data]
 ---
 

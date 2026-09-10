@@ -2,7 +2,7 @@
 title: "Record bfc5a390c2 · Matcha-Make-up-the-new-natural-and-sophisticated-beauty-trend---nss-G-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.190441+00:00
+updated_at: 2026-09-10T21:09:59.875754+00:00
 tags: [record, real-data]
 ---
 

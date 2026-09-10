@@ -2,7 +2,7 @@
 title: "Record 8296f97495 · Application-To-Offer-In-24-Hours-With-New-Barclays-Fast-Track-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.456819+00:00
+updated_at: 2026-09-10T21:10:00.225231+00:00
 tags: [record, real-data]
 ---
 

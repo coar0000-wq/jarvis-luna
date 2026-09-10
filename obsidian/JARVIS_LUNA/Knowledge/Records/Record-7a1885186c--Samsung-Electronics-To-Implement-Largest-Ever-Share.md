@@ -2,7 +2,7 @@
 title: "Record 7a1885186c · Samsung-Electronics-To-Implement-Largest-Ever-Shareholder-Return-in-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.334065+00:00
+updated_at: 2026-09-10T21:10:00.043060+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e51a9f8254 · Chris-Ciauri-named-Managing-Director-of-International"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T19:20:42.431788+00:00
+updated_at: 2026-09-10T21:10:00.190197+00:00
 tags: [record, real-data]
 ---
 
