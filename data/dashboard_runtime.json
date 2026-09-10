@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T07:17:52.097773+09:00",
+  "generated_at": "2026-09-11T07:39:29.057674+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-09-10T19:24:17.852178+00:00",
+      "when": "2026-09-10T22:39:23.453244+00:00",
       "summary": "214개 상품 · 등급 S 6 / A 32 / B 30 / C 146 · 새 자료 215건",
-      "action": "직전 실행에서 19건 시도 중 7건 실패 (성공 12건) · 가격 없음 7",
+      "action": "직전 실행에서 1건 시도 중 1건 실패 (성공 0건) · 상품 상세 HTML이 다이소몰 기본 페이지로 반환됨 1",
       "status": "ok",
       "phase": "now",
       "phase_label": "1단계 · 후보 선정",
@@ -30,7 +30,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-11T07:13:22.076883+09:00",
+      "when": "2026-09-11T06:40:02.552117+09:00",
       "summary": "S등급 6개 · 고시표 입력 대기 1건 · 새 자료 49건",
       "action": "다이소 상세페이지 고시 표 1건 캡처 필요",
       "status": "ok",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-11T07:13:25.384362+09:00",
+      "when": "2026-09-11T06:40:05.479775+09:00",
       "summary": "80,907노트 · 319,642링크 · 끊어진 링크 109건 · 개인 노트 16건 별도",
       "action": null,
       "status": "failed",
@@ -285,7 +285,7 @@
     "status": "completed",
     "record_count": 3032,
     "source_counts": {},
-    "updated_at": "2026-09-11T07:13:22.069387+09:00"
+    "updated_at": "2026-09-11T06:40:02.545866+09:00"
   },
   "graph": {
     "notes": 80907,
@@ -298,7 +298,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "failed",
-    "last_generated": "2026-09-11T07:13:25.384362+09:00"
+    "last_generated": "2026-09-11T06:40:05.479775+09:00"
   },
   "training": {
     "status": "completed",
@@ -1397,7 +1397,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 9,
       "trust": "manual",
-      "age_hours": 238.3,
+      "age_hours": 238.7,
       "stale": true
     },
     "walmart_beauty": {
@@ -1407,7 +1407,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 5,
       "trust": "manual",
-      "age_hours": 238.3,
+      "age_hours": 238.7,
       "stale": true
     },
     "oliveyoung_us": {
@@ -1417,7 +1417,7 @@
       "collected_at": "2026-09-10T18:59:37.683425+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 3.3,
+      "age_hours": 3.7,
       "stale": false
     },
     "google_trends_us": {
@@ -1436,7 +1436,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-10 ~ 2026-09-08 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 6.8,
+      "age_hours": 7.2,
       "stale": false
     },
     "allure_media": {
@@ -1447,7 +1447,7 @@
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 6.8,
+      "age_hours": 7.2,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -1458,7 +1458,7 @@
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 6.8,
+      "age_hours": 7.2,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1484,7 +1484,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 8,
       "trust": "manual",
-      "age_hours": 238.3,
+      "age_hours": 238.7,
       "stale": true
     },
     "sephora": {
@@ -1494,7 +1494,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 10,
       "trust": "manual",
-      "age_hours": 238.3,
+      "age_hours": 238.7,
       "stale": true
     },
     "open_beauty_facts": {
@@ -1504,7 +1504,7 @@
       "collected_at": "2026-09-10T18:59:01.290141+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 3.3,
+      "age_hours": 3.7,
       "stale": false
     }
   },

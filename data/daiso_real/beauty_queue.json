@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T14:16:15.668818+00:00",
+  "generated_at": "2026-09-10T21:41:06.135008+00:00",
   "generator": "scripts/daiso/build_beauty_queue.py",
   "왜": "사이트맵을 훑으면 뷰티관 밖 상품을 받아본 뒤 버린다. 한 회차 110건 중 82건이 그랬고 Crawl-delay 30 이라 41분이 버려졌다.",
   "신뢰": "URL 만 받는다. 이름과 가격은 collect_daiso.py 가 직접 받는다. LLM 이 옮긴 숫자를 실측값으로 쓰지 않는다.",
@@ -11,15 +11,15 @@
       "target": "뷰티관 허브",
       "url": "https://www.daisomall.co.kr/ds/diy2/C245",
       "count": 0,
-      "url_context": "",
-      "진단": "진단 호출 실패: TimeoutError: The read operation timed out"
+      "url_context": "{\"call_id\": \"call_196047\", \"signature\": \"EpEyCo4yCAISiTIBEU0yD6WUuGTWtjtmFb7pn+ZY8bPCogB5FWH3anYxlC6W7stHn6H65PN90uw2l6rJHjtW/LbYQOf5RygyNhTmYVxUAhK9CF4uhJY1JQgviFF8NalEwfiT/rrcbXKH4MHpuG+nypCRocDsy/q",
+      "진단": "Title: 다이소몰, Product cards: 14, First 40 characters: \"다이소몰 다이소몰 - 다이소 검색 페이지 랜딩 일본제 검색 신상클럽 일본\""
     }
   ],
   "errors": [
     {
       "target": "뷰티관 허브",
       "url": "https://www.daisomall.co.kr/ds/diy2/C245",
-      "error": "TimeoutError: The read operation timed out"
+      "error": "상품 URL 없음: ```json\n[]\n```"
     }
   ],
   "new_this_run": 0,
