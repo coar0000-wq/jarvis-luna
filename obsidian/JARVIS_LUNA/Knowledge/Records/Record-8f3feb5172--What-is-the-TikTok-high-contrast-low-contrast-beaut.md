@@ -2,7 +2,7 @@
 title: "Record 8f3feb5172 · What-is-the-TikTok-high-contrast-low-contrast-beauty-trend-A-makeup-ar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.234110+00:00
+updated_at: 2026-09-11T08:41:07.345868+00:00
 tags: [record, real-data]
 ---
 

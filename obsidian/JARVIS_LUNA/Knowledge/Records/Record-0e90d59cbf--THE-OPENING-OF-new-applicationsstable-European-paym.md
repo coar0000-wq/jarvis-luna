@@ -2,7 +2,7 @@
 title: "Record 0e90d59cbf · THE-OPENING-OF-new-applicationsstable-European-payment-methods-cjdrops"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.399610+00:00
+updated_at: 2026-09-11T08:41:07.534736+00:00
 tags: [record, real-data]
 ---
 

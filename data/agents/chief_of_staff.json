@@ -1,7 +1,7 @@
 {
   "agent": "Chief-of-Staff",
   "role": "전체 JARVIS 운영상태를 종합하여 우선순위와 Safe Auto-Fix 실행 여부를 결정",
-  "generated_at": "2026-09-11T07:44:17.220649+00:00",
+  "generated_at": "2026-09-11T08:40:43.508837+00:00",
   "risk": "high",
   "overall_priority": "P1",
   "overall_action": "SAFE_BLACKLIST_SYNC",
@@ -16,6 +16,21 @@
       "auto_execute": true
     },
     {
+      "priority": "P1",
+      "severity_score": 70,
+      "area": "collector",
+      "team": "collector",
+      "action": "SAFE_BLACKLIST_SYNC",
+      "reason": "다이소 수집 실패",
+      "evidence": {
+        "requested": 110,
+        "ok": 12,
+        "parse_failed": 7,
+        "finished_at": "2026-09-09T22:42:59.014772+00:00"
+      },
+      "auto_execute": true
+    },
+    {
       "priority": "P2",
       "severity_score": 72,
       "area": "signals",
@@ -27,11 +42,39 @@
       "auto_execute": false
     },
     {
+      "priority": "P2",
+      "severity_score": 50,
+      "area": "market",
+      "team": "market",
+      "action": "INVESTIGATE_EMPTY_CHANNELS",
+      "reason": "글로벌 신호 채널 저하",
+      "evidence": {
+        "live_channels": 11,
+        "total_channels": 12,
+        "empty_channels": [
+          "shopify_demand_matching"
+        ]
+      },
+      "auto_execute": false
+    },
+    {
       "priority": "P3",
       "severity_score": 45,
       "area": "daiso_queue",
       "action": "MONITOR_BLACKLIST",
       "reason": "현재 blacklist가 7건이다.",
+      "auto_execute": false
+    },
+    {
+      "priority": "P3",
+      "severity_score": 30,
+      "area": "ops",
+      "team": "ops",
+      "action": "MONITOR_BLACKLIST",
+      "reason": "운영 큐 모니터링 필요",
+      "evidence": {
+        "blacklist_count": 7
+      },
       "auto_execute": false
     }
   ],
@@ -42,6 +85,21 @@
       "area": "daiso",
       "action": "SAFE_BLACKLIST_SYNC",
       "reason": "다이소 수집 parse_failed가 7건 존재한다.",
+      "auto_execute": true
+    },
+    {
+      "priority": "P1",
+      "severity_score": 70,
+      "area": "collector",
+      "team": "collector",
+      "action": "SAFE_BLACKLIST_SYNC",
+      "reason": "다이소 수집 실패",
+      "evidence": {
+        "requested": 110,
+        "ok": 12,
+        "parse_failed": 7,
+        "finished_at": "2026-09-09T22:42:59.014772+00:00"
+      },
       "auto_execute": true
     }
   ],
@@ -58,11 +116,39 @@
       "auto_execute": false
     },
     {
+      "priority": "P2",
+      "severity_score": 50,
+      "area": "market",
+      "team": "market",
+      "action": "INVESTIGATE_EMPTY_CHANNELS",
+      "reason": "글로벌 신호 채널 저하",
+      "evidence": {
+        "live_channels": 11,
+        "total_channels": 12,
+        "empty_channels": [
+          "shopify_demand_matching"
+        ]
+      },
+      "auto_execute": false
+    },
+    {
       "priority": "P3",
       "severity_score": 45,
       "area": "daiso_queue",
       "action": "MONITOR_BLACKLIST",
       "reason": "현재 blacklist가 7건이다.",
+      "auto_execute": false
+    },
+    {
+      "priority": "P3",
+      "severity_score": 30,
+      "area": "ops",
+      "team": "ops",
+      "action": "MONITOR_BLACKLIST",
+      "reason": "운영 큐 모니터링 필요",
+      "evidence": {
+        "blacklist_count": 7
+      },
       "auto_execute": false
     }
   ],
@@ -74,6 +160,151 @@
     "may_run_ads": false,
     "may_change_secrets": false,
     "may_force_push": false
+  },
+  "team_health": {
+    "collector": {
+      "name": "Collector-Audit",
+      "description": "실제 데이터 수집 성공률, parse 실패, 수집 실행 상태를 감시",
+      "status": "attention",
+      "priority": "P1",
+      "evidence": {
+        "requested": 110,
+        "ok": 12,
+        "parse_failed": 7,
+        "finished_at": "2026-09-09T22:42:59.014772+00:00"
+      },
+      "recommended_action": "SAFE_BLACKLIST_SYNC",
+      "auto_execute": true
+    },
+    "market": {
+      "name": "Signal-Audit",
+      "description": "Amazon/TikTok/Trends/Walmart/OliveYoung 등 글로벌 신호 채널을 감시",
+      "status": "attention",
+      "priority": "P2",
+      "evidence": {
+        "live_channels": 11,
+        "total_channels": 12,
+        "empty_channels": [
+          "shopify_demand_matching"
+        ]
+      },
+      "recommended_action": "INVESTIGATE_EMPTY_CHANNELS",
+      "auto_execute": false
+    },
+    "score": {
+      "name": "Score-Explain",
+      "description": "Shopify 수요점수와 S등급 추천 산출 상태를 감시",
+      "status": "ok",
+      "priority": "P4",
+      "evidence": {
+        "s_grade_count": 7,
+        "recommendation_source": "data/daiso_real/shopify_s_recommendations.json"
+      },
+      "recommended_action": "MONITOR",
+      "auto_execute": false
+    },
+    "ops": {
+      "name": "Ops-Prioritizer",
+      "description": "실행 우선순위와 후보 큐 상태를 감시",
+      "status": "attention",
+      "priority": "P3",
+      "evidence": {
+        "blacklist_count": 7
+      },
+      "recommended_action": "MONITOR_BLACKLIST",
+      "auto_execute": false
+    },
+    "listing": {
+      "name": "Listing-Draft",
+      "description": "상품 Listing/CSV/Gate 준비 상태를 감시",
+      "status": "ok",
+      "priority": "P4",
+      "evidence": {
+        "listing_gate_present": true
+      },
+      "recommended_action": "MONITOR",
+      "auto_execute": false
+    },
+    "legal": {
+      "name": "Legal",
+      "description": "법률/라벨/기능성 검증 파이프라인 상태를 감시",
+      "status": "ok",
+      "priority": "P4",
+      "evidence": {
+        "legal_artifact_present": true
+      },
+      "recommended_action": "MONITOR",
+      "auto_execute": false
+    },
+    "pricing": {
+      "name": "Pricing",
+      "description": "환율/원가/마진 계산 파이프라인 상태를 감시",
+      "status": "ok",
+      "priority": "P4",
+      "evidence": {
+        "pricing_artifact_present": true
+      },
+      "recommended_action": "MONITOR",
+      "auto_execute": false
+    },
+    "shopify": {
+      "name": "Shopify",
+      "description": "Shopify 등록 준비와 S등급 산출 결과를 감시",
+      "status": "ok",
+      "priority": "P4",
+      "evidence": {
+        "s_grade_count": 7,
+        "recommendation_source": "data/daiso_real/shopify_s_recommendations.json"
+      },
+      "recommended_action": "MONITOR",
+      "auto_execute": false
+    },
+    "obsidian": {
+      "name": "Obsidian",
+      "description": "지식 그래프/위키링크/노트 구조를 감시",
+      "status": "ok",
+      "priority": "P4",
+      "evidence": {
+        "nodes": 81132,
+        "links": 321862,
+        "dangling_generated": 0,
+        "truth_guard_anomaly": false,
+        "anomaly_reasons": []
+      },
+      "recommended_action": "MONITOR",
+      "auto_execute": false
+    },
+    "knowledge": {
+      "name": "Knowledge-MoE",
+      "description": "실제 소스 corpus와 학습 상태를 감시",
+      "status": "ok",
+      "priority": "P4",
+      "evidence": {
+        "training_performed": true,
+        "weights_updated": true,
+        "corpus_present": true,
+        "training_status_source": "data/knowledge/training_status.json"
+      },
+      "recommended_action": "MONITOR",
+      "auto_execute": false
+    }
+  },
+  "team_control_policy": {
+    "team_diagnosis": "all_teams",
+    "automatic_data_repairs": [
+      "SAFE_BLACKLIST_SYNC",
+      "NORMALIZE_AND_REBUILD_GRAPH"
+    ],
+    "human_review_required": [
+      "REFRESH_LOW_SIGNAL_CHANNELS",
+      "INVESTIGATE_EMPTY_CHANNELS",
+      "REVIEW_SCORE_PIPELINE",
+      "REVIEW_LISTING_GATE",
+      "REVIEW_LEGAL_PIPELINE",
+      "REVIEW_PRICING_PIPELINE",
+      "REVIEW_KNOWLEDGE_PIPELINE",
+      "SHOPIFY_ADMIN_WRITE"
+    ]
   },
   "snapshot": {
     "collection": {
@@ -95,9 +326,108 @@
       ]
     },
     "graph": {
-      "nodes": 0,
-      "links": 321832,
-      "dangling_generated": 0
+      "nodes": 81132,
+      "links": 321862,
+      "dangling_generated": 0,
+      "runtime_nodes": 81132,
+      "runtime_links": 321862,
+      "runtime_dangling_generated": 0,
+      "truth_guard": {
+        "vault": "obsidian/JARVIS_LUNA",
+        "actual_nodes": 81132,
+        "actual_links": 321862,
+        "actual_dangling_generated": 0,
+        "actual_dangling_personal": 21,
+        "generated_dangling_samples": [],
+        "personal_dangling_samples": [
+          {
+            "source": "Personal/Claude/Projects/kms/JARVIS_그래프데이터화_심도있는작업계획.md",
+            "target": "phase-x"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/JARVIS_기술구현_동적가격_예측모델.md",
+            "target": "group_a_conversions, group_a_impressions - group_a_conversions"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "target": "jarvis_level3.5_10명전문가_협력"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "target": "youtube_마케팅_전략"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "target": "kb증권_api_튜토리얼_전략"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "target": "satellite_ai_saas_비즈니스_모델"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "target": "series_b_투자_전략"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
+            "target": "satellite ai 콘텐츠 마케팅"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
+            "target": "youtube 마케팅 전략"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
+            "target": "satellite ai 콘텐츠 마케팅"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
+            "target": "saas 무료+프리미엄 비즈니스 모델"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
+            "target": "seo 키워드 최적화"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
+            "target": "웹 영상 마케팅"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
+            "target": "satellite ai 사용 사례"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
+            "target": "ai 제품 론칭 전략"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+            "target": "{metadata['channel'"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+            "target": "youtube_integration_{metadata['video_id'"
+          },
+          {
+            "source": "Personal/templates/kms/JARVIS_기술구현_동적가격_예측모델.md",
+            "target": "group_a_conversions, group_a_impressions - group_a_conversions"
+          },
+          {
+            "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+            "target": "{metadata['channel'"
+          },
+          {
+            "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+            "target": "youtube_integration_{metadata['video_id'"
+          }
+        ],
+        "runtime_nodes": 81132,
+        "runtime_links": 321862,
+        "runtime_dangling_generated": 0,
+        "runtime_consistent": true,
+        "anomaly": false,
+        "anomaly_reasons": []
+      }
     },
     "shopify": {
       "s_count": 7

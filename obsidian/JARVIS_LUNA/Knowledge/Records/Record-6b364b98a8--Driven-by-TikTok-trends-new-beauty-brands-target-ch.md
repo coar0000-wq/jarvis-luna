@@ -2,7 +2,7 @@
 title: "Record 6b364b98a8 · Driven-by-TikTok-trends-new-beauty-brands-target-children---FashionNet"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.238641+00:00
+updated_at: 2026-09-11T08:41:07.350958+00:00
 tags: [record, real-data]
 ---
 

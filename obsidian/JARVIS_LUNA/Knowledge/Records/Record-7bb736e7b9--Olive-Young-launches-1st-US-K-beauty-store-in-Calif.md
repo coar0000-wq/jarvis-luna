@@ -2,7 +2,7 @@
 title: "Record 7bb736e7b9 · Olive-Young-launches-1st-US-K-beauty-store-in-California-as-Sephora-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.155710+00:00
+updated_at: 2026-09-11T08:41:07.250383+00:00
 tags: [record, real-data]
 ---
 

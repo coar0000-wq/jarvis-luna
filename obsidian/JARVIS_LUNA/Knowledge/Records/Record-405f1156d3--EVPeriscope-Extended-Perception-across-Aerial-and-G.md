@@ -2,7 +2,7 @@
 title: "Record 405f1156d3 · EVPeriscope-Extended-Perception-across-Aerial-and-Ground-Vehicles-with"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:35.973768+00:00
+updated_at: 2026-09-11T08:41:07.031635+00:00
 tags: [record, real-data]
 ---
 

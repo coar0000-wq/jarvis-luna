@@ -2,7 +2,7 @@
 title: "Record 1c6de0516f · Florence-Pugh-Elevated-the-Messiest-Bun-With-the-Fanciest-Scarf--See-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.330985+00:00
+updated_at: 2026-09-11T08:41:07.455964+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 48de55c872 · The-Vogue-Business-Beauty-Trend-Tracker---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.586911+00:00
+updated_at: 2026-09-11T08:41:07.256498+00:00
 tags: [record, real-data]
 ---
 

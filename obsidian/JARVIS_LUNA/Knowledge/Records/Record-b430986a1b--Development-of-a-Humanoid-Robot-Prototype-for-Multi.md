@@ -2,7 +2,7 @@
 title: "Record b430986a1b · Development-of-a-Humanoid-Robot-Prototype-for-Multimodal-Human-Robot-I"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:35.916035+00:00
+updated_at: 2026-09-11T08:41:06.982537+00:00
 tags: [record, real-data]
 ---
 

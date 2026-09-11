@@ -2,7 +2,7 @@
 title: "Record 1a1b3e7686 · SK-hynix-Charts-Its-Business-and-Technology-Direction-at-the-2026-Futu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.272577+00:00
+updated_at: 2026-09-11T08:41:07.388861+00:00
 tags: [record, real-data]
 ---
 

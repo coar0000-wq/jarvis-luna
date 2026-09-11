@@ -2,7 +2,7 @@
 title: "Record 10dfe95588 · COSRX-Becomes-the-First-K-Beauty-Patron-of-the-British-Beauty-Council-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.225954+00:00
+updated_at: 2026-09-11T08:41:07.336523+00:00
 tags: [record, real-data]
 ---
 

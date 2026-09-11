@@ -2,7 +2,7 @@
 title: "Record 887b26f48f · Quantizing-gravitational-fields-with-an-entropy-corrected-action-princ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.287738+00:00
+updated_at: 2026-09-11T08:41:07.406480+00:00
 tags: [record, real-data]
 ---
 

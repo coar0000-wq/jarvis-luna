@@ -2,7 +2,7 @@
 title: "Record 855be406d5 · Geospatial-Web-Services-Discovery-through-Semantic-Annotation-of-WPS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.060612+00:00
+updated_at: 2026-09-11T08:41:07.135242+00:00
 tags: [record, real-data]
 ---
 

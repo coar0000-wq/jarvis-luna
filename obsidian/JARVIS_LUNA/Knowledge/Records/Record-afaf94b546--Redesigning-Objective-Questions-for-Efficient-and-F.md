@@ -2,7 +2,7 @@
 title: "Record afaf94b546 · Redesigning-Objective-Questions-for-Efficient-and-Fair-Assessment-in-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.029751+00:00
+updated_at: 2026-09-11T08:41:07.099095+00:00
 tags: [record, real-data]
 ---
 

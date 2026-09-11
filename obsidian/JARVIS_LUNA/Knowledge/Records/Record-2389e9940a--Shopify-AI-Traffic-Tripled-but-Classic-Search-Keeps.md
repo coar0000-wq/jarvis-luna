@@ -2,7 +2,7 @@
 title: "Record 2389e9940a · Shopify-AI-Traffic-Tripled-but-Classic-Search-Keeps-Growing---Pasquale"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.190284+00:00
+updated_at: 2026-09-11T08:41:07.294162+00:00
 tags: [record, real-data]
 ---
 

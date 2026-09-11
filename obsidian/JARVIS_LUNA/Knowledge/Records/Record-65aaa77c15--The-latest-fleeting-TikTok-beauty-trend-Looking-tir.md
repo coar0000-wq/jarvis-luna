@@ -1,18 +1,18 @@
 ---
-title: "Record 65aaa77c15 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---CNN"
+title: "Record 65aaa77c15 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---cnncom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.195387+00:00
+updated_at: 2026-09-11T08:41:07.300459+00:00
 tags: [record, real-data]
 ---
 
-# Record 65aaa77c15 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---CNN
+# Record 65aaa77c15 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---cnncom
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihwFBVV95cUxPYlYzODItQm9reDc0MGs5OXZZU1NxN1Jvb0RsbnpfNi12a1lIQ0dQU2RXaWZHUmlWWlBMYXE0a0lSa2sxSXlCVWkzZzIzNFNyTHVUUjF5TTU0cURtaHcxNVRTMkNST2ZrV1B1NTFBVHQ2UTZ0a3M0WEt4bi1vNVpySlVfQmJVU2c?oc=5)
 
-**제목:** The latest fleeting TikTok beauty trend? Looking tired - CNN
+**제목:** The latest fleeting TikTok beauty trend? Looking tired - cnn.com
 
-The latest fleeting TikTok beauty trend? Looking tired - CNN
+The latest fleeting TikTok beauty trend? Looking tired - cnn.com
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record 535cd9db73 · Social-Shopping-Spree-The-Future-of-Ecommerce-With-Shopify---ADWEEK"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.216221+00:00
+updated_at: 2026-09-11T08:41:07.325014+00:00
 tags: [record, real-data]
 ---
 

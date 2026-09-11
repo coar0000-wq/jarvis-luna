@@ -2,7 +2,7 @@
 title: "Record 27727d34ab · Galderma-launches-ALASTIN-skincare-in-Korea-at-GAIN-RESTAGE---Korea-Bi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.154139+00:00
+updated_at: 2026-09-11T08:41:07.248516+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - Korea Biomedical Review
 
 Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - Korea Biomedical Review
-Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - Korea Biomedical Review
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

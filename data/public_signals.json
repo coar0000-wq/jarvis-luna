@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T07:42:58.236367+00:00",
+  "generated_at": "2026-09-11T08:39:46.484718+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -10,22 +10,6 @@
       "source": "trends.google.com/trending/rss?geo=US (공식 RSS)",
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
-        {
-          "keyword": "aster",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Thu, 10 Sep 2026 21:00:00 -0700",
-          "source_name": "Country Living Magazine",
-          "url": "https://trends.google.com/trending?geo=US&q=aster"
-        },
-        {
-          "keyword": "downdetector",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Thu, 10 Sep 2026 21:30:00 -0700",
-          "source_name": "Centralmaine.com",
-          "url": "https://trends.google.com/trending?geo=US&q=downdetector"
-        },
         {
           "keyword": "vaccines",
           "approx_traffic": "2000+",
@@ -83,12 +67,28 @@
           "url": "https://trends.google.com/trending?geo=US&q=cable%20tv"
         },
         {
-          "keyword": "mobland season 2",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 10 Sep 2026 21:20:00 -0700",
-          "source_name": "Variety",
-          "url": "https://trends.google.com/trending?geo=US&q=mobland%20season%202"
+          "keyword": "home prices",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Fri, 11 Sep 2026 01:20:00 -0700",
+          "source_name": "Realtor.com",
+          "url": "https://trends.google.com/trending?geo=US&q=home%20prices"
+        },
+        {
+          "keyword": "nick woltemade",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Fri, 11 Sep 2026 01:00:00 -0700",
+          "source_name": "WELT",
+          "url": "https://trends.google.com/trending?geo=US&q=nick%20woltemade"
+        },
+        {
+          "keyword": "elon musk",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Fri, 11 Sep 2026 01:00:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=elon%20musk"
         }
       ]
     },

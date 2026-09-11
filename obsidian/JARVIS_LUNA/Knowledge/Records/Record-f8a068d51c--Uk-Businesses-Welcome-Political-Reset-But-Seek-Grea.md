@@ -2,7 +2,7 @@
 title: "Record f8a068d51c · Uk-Businesses-Welcome-Political-Reset-But-Seek-Greater-Policy-Ce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.353715+00:00
+updated_at: 2026-09-11T08:41:07.482302+00:00
 tags: [record, real-data]
 ---
 

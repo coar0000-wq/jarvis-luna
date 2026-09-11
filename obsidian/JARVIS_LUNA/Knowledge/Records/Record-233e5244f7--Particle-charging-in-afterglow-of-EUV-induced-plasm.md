@@ -2,7 +2,7 @@
 title: "Record 233e5244f7 · Particle-charging-in-afterglow-of-EUV-induced-plasma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.013322+00:00
+updated_at: 2026-09-11T08:41:07.079782+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d1a2950a1f · 5-Ecommerce-Questions-AI-Answers-in-Seconds-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.155025+00:00
+updated_at: 2026-09-11T08:41:07.249563+00:00
 tags: [record, real-data]
 ---
 

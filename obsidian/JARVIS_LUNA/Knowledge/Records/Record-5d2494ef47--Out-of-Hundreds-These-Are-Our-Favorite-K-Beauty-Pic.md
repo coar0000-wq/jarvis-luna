@@ -2,7 +2,7 @@
 title: "Record 5d2494ef47 · Out-of-Hundreds-These-Are-Our-Favorite-K-Beauty-Picks-at-Nordstrom---A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.152720+00:00
+updated_at: 2026-09-11T08:41:07.246793+00:00
 tags: [record, real-data]
 ---
 

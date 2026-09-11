@@ -2,7 +2,7 @@
 title: "Record 025b0cab3b · Contact-Aware-Incremental-Model-Predictive-Control-for-an-Underactuate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:35.968397+00:00
+updated_at: 2026-09-11T08:41:07.025358+00:00
 tags: [record, real-data]
 ---
 

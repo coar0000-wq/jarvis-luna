@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-11T07:38:33.584490+00:00",
+  "collected_at": "2026-09-11T08:34:49.457918+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -92,11 +92,11 @@
       "score": 2
     },
     {
-      "keyword": "skin",
+      "keyword": "products",
       "score": 2
     },
     {
-      "keyword": "products",
+      "keyword": "skin",
       "score": 2
     },
     {
@@ -302,16 +302,16 @@
       "feed": "hot"
     },
     {
-      "title": "Milky toners vs watery hydrating toners for oily skin?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wca8xe/milky_toners_vs_watery_hydrating_toners_for_oily/",
-      "published": "2026-09-10T05:45:41+00:00",
+      "title": "Daiso/affordable products that you like?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcbmr4/daisoaffordable_products_that_you_like/",
+      "published": "2026-09-10T07:00:53+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Daiso/affordable products that you like?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcbmr4/daisoaffordable_products_that_you_like/",
-      "published": "2026-09-10T07:00:53+00:00",
+      "title": "Milky toners vs watery hydrating toners for oily skin?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wca8xe/milky_toners_vs_watery_hydrating_toners_for_oily/",
+      "published": "2026-09-10T05:45:41+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },

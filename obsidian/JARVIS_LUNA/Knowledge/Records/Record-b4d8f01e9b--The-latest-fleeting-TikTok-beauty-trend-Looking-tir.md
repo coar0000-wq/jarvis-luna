@@ -2,7 +2,7 @@
 title: "Record b4d8f01e9b · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---stylemagazinec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T07:44:36.228354+00:00
+updated_at: 2026-09-11T08:41:07.339358+00:00
 tags: [record, real-data]
 ---
 
