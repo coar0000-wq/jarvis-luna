@@ -1,0 +1,23 @@
+{
+  "agent": "Signal-Audit",
+  "generated_at": "2026-09-11T06:42:33.094408+00:00",
+  "live_channels": 11,
+  "total_channels": 12,
+  "empty_or_failed": [
+    {
+      "channel": "shopify_demand_matching",
+      "count": 0,
+      "status": "disabled"
+    }
+  ],
+  "stale_or_manual": [],
+  "severity": true,
+  "suggestions": [
+    {
+      "action": "investigate_empty_channels",
+      "channels": [
+        "shopify_demand_matching"
+      ]
+    }
+  ]
+}
