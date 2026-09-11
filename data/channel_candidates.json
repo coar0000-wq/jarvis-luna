@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T04:32:01.262476+00:00",
+  "generated_at": "2026-09-11T06:09:15.499376+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -97,12 +97,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21083,
+      "bytes": 21012,
       "items": 40,
       "samples": [
-        "내일 날씨",
-        "[포토타임] 아침 기온 10도까지 뚝…큰 일교차 주의",
-        "“아침엔 쌀쌀, 낮엔 포근”…내륙 일교차 10~15도 - 조선비즈"
+        "josh hartnett",
+        "12 Must-Watch Films at the 2026 Toronto International Film Festival",
+        "Here’s what to look for at this year’s Toronto International Film Festival"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름",

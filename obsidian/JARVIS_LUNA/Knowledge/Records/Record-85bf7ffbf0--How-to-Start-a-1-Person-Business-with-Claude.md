@@ -2,7 +2,7 @@
 title: "Record 85bf7ffbf0 · How-to-Start-a-1-Person-Business-with-Claude"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T05:00:44.807181+00:00
+updated_at: 2026-09-11T06:13:55.968252+00:00
 tags: [record, real-data]
 ---
 

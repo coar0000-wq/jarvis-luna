@@ -2,7 +2,7 @@
 title: "Record 3e0f5372ad · Measuring-Reward-Seeking-via-Contrastive-Belief-Updates"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T05:00:44.613356+00:00
+updated_at: 2026-09-11T06:13:55.774718+00:00
 tags: [record, real-data]
 ---
 

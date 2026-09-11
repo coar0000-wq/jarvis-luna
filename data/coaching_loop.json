@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T13:31:47.593532+09:00",
+  "generated_at": "2026-09-11T15:09:01.875496+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -11,9 +11,9 @@
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
-      "post_count": 25,
-      "collected_at": "2026-09-11T04:09:21.378220+00:00",
-      "keyword_pool": 40
+      "post_count": 41,
+      "collected_at": "2026-09-11T05:46:12.317497+00:00",
+      "keyword_pool": 46
     }
   },
   "sessions": [
@@ -78,7 +78,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skin']",
+          "evidence": "matched=['beauty', 'hydrating', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -107,6 +107,7 @@
         ],
         "reddit_keywords_used": [
           "beauty",
+          "hydrating",
           "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -115,11 +116,12 @@
       "reddit_match": {
         "matched": [
           "beauty",
+          "hydrating",
           "skin"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skin']",
+        "evidence": "matched=['beauty', 'hydrating', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -190,7 +192,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'k-moisturizers', 'skin']",
+          "evidence": "matched=['beauty', 'hydrating', 'k-moisturizers', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -222,6 +224,7 @@
         ],
         "reddit_keywords_used": [
           "beauty",
+          "hydrating",
           "k-moisturizers",
           "skin"
         ],
@@ -231,12 +234,13 @@
       "reddit_match": {
         "matched": [
           "beauty",
+          "hydrating",
           "k-moisturizers",
           "skin"
         ],
-        "score": 3,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['beauty', 'k-moisturizers', 'skin']",
+        "evidence": "matched=['beauty', 'hydrating', 'k-moisturizers', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -307,7 +311,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skin']",
+          "evidence": "matched=['beauty', 'hydrating', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -337,6 +341,7 @@
         ],
         "reddit_keywords_used": [
           "beauty",
+          "hydrating",
           "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -345,11 +350,12 @@
       "reddit_match": {
         "matched": [
           "beauty",
+          "hydrating",
           "skin"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skin']",
+        "evidence": "matched=['beauty', 'hydrating', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -420,14 +426,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'over']",
+          "evidence": "matched=['masks', 'over']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — ask · sheet mask",
+          "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — masks · sheet mask",
           "headline": "Celderma Daily Transforming Firming Coll",
           "description": "Discover the Celderma Daily Transforming Firming Collagen Mask, designed to give your daily skincare routine a refreshing boost. This 28g sheet mask delivers convenient and soothing care for your skin",
           "cta": "Shop now"
@@ -445,11 +451,11 @@
           "sheet mask",
           "overnight mask",
           "collagen mask",
-          "ask",
+          "masks",
           "over"
         ],
         "reddit_keywords_used": [
-          "ask",
+          "masks",
           "over"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -457,12 +463,12 @@
       },
       "reddit_match": {
         "matched": [
-          "ask",
+          "masks",
           "over"
         ],
         "score": 2,
         "status": "pass",
-        "evidence": "matched=['ask', 'over']",
+        "evidence": "matched=['masks', 'over']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -533,7 +539,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skin', 'toners']",
+          "evidence": "matched=['beauty', 'hydrating', 'skin', 'toners']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -563,6 +569,7 @@
         ],
         "reddit_keywords_used": [
           "beauty",
+          "hydrating",
           "skin",
           "toners"
         ],
@@ -572,12 +579,13 @@
       "reddit_match": {
         "matched": [
           "beauty",
+          "hydrating",
           "skin",
           "toners"
         ],
-        "score": 3,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skin', 'toners']",
+        "evidence": "matched=['beauty', 'hydrating', 'skin', 'toners']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -648,7 +656,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skin', 'toners']",
+          "evidence": "matched=['beauty', 'hydrating', 'skin', 'toners']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -679,6 +687,7 @@
         ],
         "reddit_keywords_used": [
           "beauty",
+          "hydrating",
           "skin",
           "toners"
         ],
@@ -688,12 +697,13 @@
       "reddit_match": {
         "matched": [
           "beauty",
+          "hydrating",
           "skin",
           "toners"
         ],
-        "score": 3,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skin', 'toners']",
+        "evidence": "matched=['beauty', 'hydrating', 'skin', 'toners']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {

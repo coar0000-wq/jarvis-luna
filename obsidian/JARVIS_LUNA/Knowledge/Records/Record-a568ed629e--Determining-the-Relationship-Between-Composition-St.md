@@ -2,7 +2,7 @@
 title: "Record a568ed629e · Determining-the-Relationship-Between-Composition-Structure-and-Device-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T05:00:44.143557+00:00
+updated_at: 2026-09-11T06:13:55.335982+00:00
 tags: [record, real-data]
 ---
 

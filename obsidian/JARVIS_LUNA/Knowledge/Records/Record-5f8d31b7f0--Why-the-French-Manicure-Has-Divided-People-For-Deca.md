@@ -2,7 +2,7 @@
 title: "Record 5f8d31b7f0 · Why-the-French-Manicure-Has-Divided-People-For-Decades"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T05:00:44.656230+00:00
+updated_at: 2026-09-11T06:13:55.814813+00:00
 tags: [record, real-data]
 ---
 

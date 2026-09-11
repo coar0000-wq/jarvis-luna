@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-11T13:31:47.553081+09:00",
+    "updated_at": "2026-09-11T15:09:01.834055+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -365,10 +365,10 @@
     "manual_trends": [],
     "note": "실수집 가능한 소스만 반영한다. OliveYoung US 가 Actions 403 이면 Sephora/Ulta 등으로 경쟁군을 채운다. OY 는 주 1회 로컬·브라우저 수집을 권장한다.",
     "sources": {
-      "oliveyoung_us": "수집 실패: HTTP 403 · 이전 수집분 유지(2026-09-11)",
+      "oliveyoung_us": "us.oliveyoung.com/best-sellers (실수집)",
       "open_beauty_facts": "world.openbeautyfacts.org /api/v2/search",
       "competitor_pool_size": 146,
-      "competitor_fallback": "sephora+ulta+amazon+walmart"
+      "competitor_fallback": "oliveyoung_us primary"
     }
   },
   "keyword_board": [

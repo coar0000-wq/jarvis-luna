@@ -2,7 +2,7 @@
 title: "Record 2aaf94e29c · Hardware-Accelerators-for-Cardiovascular-Signal-Processing-A-System-on"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T05:00:44.261993+00:00
+updated_at: 2026-09-11T06:13:55.444974+00:00
 tags: [record, real-data]
 ---
 

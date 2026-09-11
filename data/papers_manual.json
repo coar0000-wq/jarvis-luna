@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T04:07:53.552523+00:00",
+  "generated_at": "2026-09-11T05:45:23.312275+00:00",
   "generator": "scripts/ingest_papers.py",
   "입력": "data/manual/papers.txt",
   "robots": "arxiv.org 는 /abs 를 허용하고 Crawl-delay 15 를 요구한다. 15초 간격으로 하나씩 받는다. export.arxiv.org 는 robots.txt 가 전면 차단이라 쓰지 않는다. 2026-09-06 확인.",

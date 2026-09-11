@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T04:31:41.017471+00:00",
+  "generated_at": "2026-09-11T06:08:55.982731+00:00",
   "generator": "scripts/build_listing_gate.py",
   "규칙": "listing_ready = copy_ok AND gosi_ok AND price_ok AND legal_ok",
   "근거": {

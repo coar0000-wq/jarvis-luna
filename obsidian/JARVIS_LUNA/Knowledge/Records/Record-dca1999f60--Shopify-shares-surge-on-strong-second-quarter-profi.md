@@ -2,7 +2,7 @@
 title: "Record dca1999f60 · Shopify-shares-surge-on-strong-second-quarter-profit-as-AI-helps-drive"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T05:00:44.486205+00:00
+updated_at: 2026-09-11T06:13:55.656532+00:00
 tags: [record, real-data]
 ---
 

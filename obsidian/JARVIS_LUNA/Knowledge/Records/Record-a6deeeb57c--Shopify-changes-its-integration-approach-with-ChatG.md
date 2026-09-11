@@ -2,7 +2,7 @@
 title: "Record a6deeeb57c · Shopify-changes-its-integration-approach-with-ChatGPT---Digital-Commer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T05:00:44.484457+00:00
+updated_at: 2026-09-11T06:13:55.654930+00:00
 tags: [record, real-data]
 ---
 

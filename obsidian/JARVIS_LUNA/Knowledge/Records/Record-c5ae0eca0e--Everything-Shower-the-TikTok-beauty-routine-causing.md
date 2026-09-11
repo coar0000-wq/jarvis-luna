@@ -2,7 +2,7 @@
 title: "Record c5ae0eca0e · Everything-Shower-the-TikTok-beauty-routine-causing-aesthetic-burnout-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T05:00:44.465423+00:00
+updated_at: 2026-09-11T06:13:55.637333+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihwFBVV95cUxNdnBWRll3VzY2aG5DSkJUaXFjNUZFaTdlcnE1bWVwNEJnTU9xdVg4Q3RVeHFtQjdobmthdVBVSU1YQVR3dFZLcG5XbjA1M2s0dk5MbnNBYjFheU1TTW1mVDV1T09qSWtmaEt5U29HYk1nclE3VWc4VXI1TV91LXh6R25VUUlzQ3M?oc=5)
 
-**제목:** Everything Shower: the TikTok beauty routine causing aesthetic burnout - nssgclub.com
+**제목:** Everything Shower: the TikTok beauty routine causing aesthetic burnout - nss magazine
 
-Everything Shower: the TikTok beauty routine causing aesthetic burnout - nssgclub.com
+Everything Shower: the TikTok beauty routine causing aesthetic burnout - nss magazine
 
 **출처:** Source · Google Search
 

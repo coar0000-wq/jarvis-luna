@@ -2,7 +2,7 @@
 title: "Record f8497707c3 · 1-From-photons-to-electrons-making-electron-microscopy-a-local-discove"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T05:00:44.251184+00:00
+updated_at: 2026-09-11T06:13:55.435407+00:00
 tags: [record, real-data]
 ---
 

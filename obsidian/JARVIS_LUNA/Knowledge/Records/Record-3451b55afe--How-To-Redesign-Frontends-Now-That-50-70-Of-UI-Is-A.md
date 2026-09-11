@@ -2,7 +2,7 @@
 title: "Record 3451b55afe · How-To-Redesign-Frontends-Now-That-50-70-Of-UI-Is-AI-Generated-Dynamic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T05:00:44.246025+00:00
+updated_at: 2026-09-11T06:13:55.430907+00:00
 tags: [record, real-data]
 ---
 

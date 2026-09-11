@@ -1,0 +1,69 @@
+{
+  "agent": "Safe-Auto-Fix",
+  "generated_at": "2026-09-11T06:09:48.415857+00:00",
+  "status": "success",
+  "enabled": true,
+  "trigger": [
+    "parse_failed=7"
+  ],
+  "parse_failed": 7,
+  "queue": {
+    "action": "repair_daiso_queue",
+    "started_at": "2026-09-11T06:09:48.415779+00:00",
+    "enabled": true,
+    "changed": false,
+    "added_to_blacklist": [],
+    "already_blacklisted": [
+      "1069432",
+      "1058806",
+      "30493",
+      "1065883",
+      "1072035",
+      "10346312",
+      "1057256"
+    ],
+    "removed_from_priority": [],
+    "removed_from_urls": [],
+    "skipped": [],
+    "reason": null,
+    "blacklist_field": "blacklist_pd_nos",
+    "candidate_count": 7,
+    "finished_at": "2026-09-11T06:09:48.415837+00:00"
+  },
+  "queue_validation": {
+    "queue_is_dict": true,
+    "blacklist_is_list": true,
+    "blacklist_field": "blacklist_pd_nos",
+    "ok": true
+  },
+  "obsidian": null,
+  "graph_rebuild": null,
+  "runtime_generation": null,
+  "summary": {
+    "changed": false,
+    "changed_files": [],
+    "safe_scope": [
+      "data/daiso_real/beauty_queue.json",
+      "obsidian/",
+      "data/dashboard_runtime.json",
+      "data/agents/"
+    ],
+    "never_modified": [
+      "Python source code",
+      "GitHub Actions YAML",
+      "collection_status.json",
+      "Shopify Admin",
+      "ad accounts",
+      "payment/legal/external accounts"
+    ]
+  },
+  "policy": {
+    "allow_code_autofix": false,
+    "allow_workflow_autofix": false,
+    "allow_collection_status_edit": false,
+    "allow_shopify_write": false,
+    "allow_external_account_write": false,
+    "allow_force_push": false,
+    "allow_deterministic_data_repair": true
+  }
+}

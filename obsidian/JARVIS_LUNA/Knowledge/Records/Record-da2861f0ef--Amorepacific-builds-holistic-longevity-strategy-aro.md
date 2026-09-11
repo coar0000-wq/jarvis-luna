@@ -2,7 +2,7 @@
 title: "Record da2861f0ef · Amorepacific-builds-holistic-longevity-strategy-around-biotech-AI---KE"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T05:00:44.423386+00:00
+updated_at: 2026-09-11T06:13:55.598276+00:00
 tags: [record, real-data]
 ---
 

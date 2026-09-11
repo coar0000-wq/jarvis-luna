@@ -1,21 +1,19 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-11T04:09:21.378220+00:00",
+  "collected_at": "2026-09-11T05:46:12.317497+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 25,
+  "post_count": 41,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
-      "post_count": 25,
-      "errors": [
-        "top_week: HTTPError: HTTP Error 429: Too Many Requests"
-      ]
+      "post_count": 50,
+      "errors": []
     },
     {
       "subreddit": "KoreanBeauty",
@@ -44,15 +42,31 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "2026",
-      "score": 4
+      "keyword": "toners",
+      "score": 8
     },
     {
-      "keyword": "toners",
-      "score": 4
+      "keyword": "skin",
+      "score": 8
     },
     {
       "keyword": "cushion",
+      "score": 6
+    },
+    {
+      "keyword": "2026",
+      "score": 5
+    },
+    {
+      "keyword": "korean",
+      "score": 4
+    },
+    {
+      "keyword": "balm",
+      "score": 4
+    },
+    {
+      "keyword": "products",
       "score": 4
     },
     {
@@ -60,7 +74,15 @@
       "score": 4
     },
     {
-      "keyword": "korean",
+      "keyword": "beauty",
+      "score": 4
+    },
+    {
+      "keyword": "over",
+      "score": 4
+    },
+    {
+      "keyword": "lip",
       "score": 4
     },
     {
@@ -68,149 +90,133 @@
       "score": 3
     },
     {
-      "keyword": "products",
-      "score": 3
-    },
-    {
-      "keyword": "lip",
-      "score": 3
-    },
-    {
-      "keyword": "oil",
-      "score": 3
-    },
-    {
       "keyword": "product",
-      "score": 2
+      "score": 3
+    },
+    {
+      "keyword": "mascara",
+      "score": 3
+    },
+    {
+      "keyword": "tint",
+      "score": 3
+    },
+    {
+      "keyword": "watery",
+      "score": 3
+    },
+    {
+      "keyword": "pro",
+      "score": 3
     },
     {
       "keyword": "thursday",
       "score": 2
     },
     {
-      "keyword": "balm",
-      "score": 2
-    },
-    {
-      "keyword": "mascara",
-      "score": 2
-    },
-    {
-      "keyword": "tint",
-      "score": 2
-    },
-    {
-      "keyword": "skin",
-      "score": 2
-    },
-    {
-      "keyword": "thoughts",
-      "score": 2
-    },
-    {
-      "keyword": "serum",
-      "score": 2
-    },
-    {
-      "keyword": "over",
-      "score": 2
-    },
-    {
-      "keyword": "routine",
-      "score": 2
-    },
-    {
-      "keyword": "beauty",
-      "score": 2
-    },
-    {
-      "keyword": "duo",
-      "score": 2
-    },
-    {
-      "keyword": "squalane",
-      "score": 2
-    },
-    {
-      "keyword": "k-moisturizers",
-      "score": 2
-    },
-    {
-      "keyword": "derived",
-      "score": 2
-    },
-    {
-      "keyword": "question",
-      "score": 1
-    },
-    {
-      "keyword": "ask",
-      "score": 1
-    },
-    {
-      "keyword": "here",
-      "score": 1
-    },
-    {
-      "keyword": "alter-daily",
-      "score": 1
-    },
-    {
-      "keyword": "questions",
-      "score": 1
-    },
-    {
-      "keyword": "authenticity",
-      "score": 1
-    },
-    {
       "keyword": "gorgeous",
-      "score": 1
+      "score": 2
     },
     {
       "keyword": "lancome",
-      "score": 1
+      "score": 2
     },
     {
       "keyword": "lippie",
-      "score": 1
+      "score": 2
     },
     {
       "keyword": "only",
-      "score": 1
+      "score": 2
     },
     {
       "keyword": "sold",
-      "score": 1
+      "score": 2
     },
     {
       "keyword": "asia",
-      "score": 1
+      "score": 2
     },
     {
       "keyword": "cleansing",
-      "score": 1
+      "score": 2
     },
     {
       "keyword": "remover",
-      "score": 1
+      "score": 2
     },
     {
-      "keyword": "finish",
-      "score": 1
+      "keyword": "ordered",
+      "score": 2
     },
     {
-      "keyword": "sunstick",
-      "score": 1
+      "keyword": "dasique",
+      "score": 2
+    },
+    {
+      "keyword": "off",
+      "score": 2
+    },
+    {
+      "keyword": "amazon",
+      "score": 2
+    },
+    {
+      "keyword": "recieved",
+      "score": 2
+    },
+    {
+      "keyword": "limited",
+      "score": 2
+    },
+    {
+      "keyword": "romand",
+      "score": 2
+    },
+    {
+      "keyword": "hannah",
+      "score": 2
+    },
+    {
+      "keyword": "banhg",
+      "score": 2
+    },
+    {
+      "keyword": "milky",
+      "score": 2
+    },
+    {
+      "keyword": "hydrating",
+      "score": 2
+    },
+    {
+      "keyword": "oily",
+      "score": 2
+    },
+    {
+      "keyword": "daiso",
+      "score": 2
+    },
+    {
+      "keyword": "affordable",
+      "score": 2
     }
   ],
   "beauty_keywords": [
     {
       "keyword": "toners",
-      "score": 4
+      "score": 8
+    },
+    {
+      "keyword": "skin",
+      "score": 8
     },
     {
       "keyword": "cushion",
+      "score": 6
+    },
+    {
+      "keyword": "korean",
       "score": 4
     },
     {
@@ -218,14 +224,6 @@
       "score": 4
     },
     {
-      "keyword": "korean",
-      "score": 4
-    },
-    {
-      "keyword": "skin",
-      "score": 2
-    },
-    {
       "keyword": "serum",
       "score": 2
     },
@@ -235,6 +233,18 @@
     },
     {
       "keyword": "k-moisturizers",
+      "score": 2
+    },
+    {
+      "keyword": "masks",
+      "score": 2
+    },
+    {
+      "keyword": "essence",
+      "score": 2
+    },
+    {
+      "keyword": "spf",
       "score": 2
     }
   ],
@@ -261,9 +271,23 @@
       "feed": "hot"
     },
     {
+      "title": "Part Korean hoping to try and fit into my culture",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wd5vv7/part_korean_hoping_to_try_and_fit_into_my_culture/",
+      "published": "2026-09-11T04:21:56+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Cleansing balm or mascara remover?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wckkbs/cleansing_balm_or_mascara_remover/",
       "published": "2026-09-10T14:19:30+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Melano CC vitamin C tube duration?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wd7d8i/melano_cc_vitamin_c_tube_duration/",
+      "published": "2026-09-11T05:41:00+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -331,6 +355,13 @@
       "feed": "hot"
     },
     {
+      "title": "Easyderm beauty patch",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcimzh/easyderm_beauty_patch/",
+      "published": "2026-09-10T13:03:55+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "What is the product(s) you have repurchased over and over again",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbshx8/what_is_the_products_you_have_repurchased_over/",
       "published": "2026-09-09T17:40:55+00:00",
@@ -380,13 +411,6 @@
       "feed": "hot"
     },
     {
-      "title": "Easyderm beauty patch",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcimzh/easyderm_beauty_patch/",
-      "published": "2026-09-10T13:03:55+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Squalane oil in k-moisturizers - How do I know if the squalane oil is sugarcane derived or olive derived?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wc3pk2/squalane_oil_in_kmoisturizers_how_do_i_know_if/",
       "published": "2026-09-10T00:39:50+00:00",
@@ -401,18 +425,116 @@
       "feed": "hot"
     },
     {
-      "title": "Any Korean oil infused micellar water products?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcbw6x/any_korean_oil_infused_micellar_water_products/",
-      "published": "2026-09-10T07:15:24+00:00",
+      "title": "Is it just me or are Western makeup brands just copying Asian beauty trends now?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w96nrd/is_it_just_me_or_are_western_makeup_brands_just/",
+      "published": "2026-09-06T20:05:11+00:00",
       "subreddit": "AsianBeauty",
-      "feed": "hot"
+      "feed": "top_week"
+    },
+    {
+      "title": "Wosado lashes are a gimmick — don’t waste your money.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1waq3r2/wosado_lashes_are_a_gimmick_dont_waste_your_money/",
+      "published": "2026-09-08T14:33:53+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "“Men” VT reedle 60-85% cheaper per mL …. why?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7jhsu/men_vt_reedle_6085_cheaper_per_ml_why/",
+      "published": "2026-09-04T22:50:02+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Heartbreaking empty",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wa6yxp/heartbreaking_empty/",
+      "published": "2026-09-07T22:46:54+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Comparing BB Creams: Missha vs. Purito in shade 21",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7vn6a/comparing_bb_creams_missha_vs_purito_in_shade_21/",
+      "published": "2026-09-05T09:06:51+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
     },
     {
       "title": "Does JudyDoll sell singles from their 6 lip and cheek pallet? This is the Chestnut one.",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wb4qay/does_judydoll_sell_singles_from_their_6_lip_and/",
       "published": "2026-09-08T23:25:59+00:00",
       "subreddit": "AsianBeauty",
-      "feed": "hot"
+      "feed": "top_week"
+    },
+    {
+      "title": "New Ricky Beauty Lipliners: love the look of this one for low to medium contrast, muted people.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w79w2j/new_ricky_beauty_lipliners_love_the_look_of_this/",
+      "published": "2026-09-04T16:52:12+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Swatches: new shades of Hera lip tints and lipsticks",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w9lw9t/swatches_new_shades_of_hera_lip_tints_and/",
+      "published": "2026-09-07T08:01:34+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Clio brought back discontinued pro eye palettes in 16 Napping Cheese and 11 Walking on the Cosey Alley",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w7qlqg/clio_brought_back_discontinued_pro_eye_palettes/",
+      "published": "2026-09-05T04:29:06+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "A-beauty products similar to Bobbi Brown Love Letter?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8iyx1/abeauty_products_similar_to_bobbi_brown_love/",
+      "published": "2026-09-06T01:52:49+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "The best thing i own: d'Alba White Truffle Spray",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w95w65/the_best_thing_i_own_dalba_white_truffle_spray/",
+      "published": "2026-09-06T19:36:54+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "What’s your experience with long-wear hydrogel masks?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w90ahk/whats_your_experience_with_longwear_hydrogel_masks/",
+      "published": "2026-09-06T16:11:11+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "similar shade to peripera 15 acorn brown?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w826k0/similar_shade_to_peripera_15_acorn_brown/",
+      "published": "2026-09-05T14:26:20+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Biore, rich, watery essence & My meltdown.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wb9fp9/biore_rich_watery_essence_my_meltdown/",
+      "published": "2026-09-09T02:53:26+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "SKIN AQUA UV Whitening Milk SPF 50 PA++++ 40ml",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w8po6i/skin_aqua_uv_whitening_milk_spf_50_pa_40ml/",
+      "published": "2026-09-06T07:45:07+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Has anyone tried Clio’s Mesh Blur cushion on combination skin?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1w9snoj/has_anyone_tried_clios_mesh_blur_cushion_on/",
+      "published": "2026-09-07T13:47:17+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
     }
   ],
   "note": "커뮤니티 실수요 시그널. 광고 키워드·S등급 코칭 보강용. 판매 순위 아님.",

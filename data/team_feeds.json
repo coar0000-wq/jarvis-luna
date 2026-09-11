@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-09-11T04:07:58.176574+00:00",
+  "generated_at": "2026-09-11T05:45:27.776839+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2087,
+  "pool_size": 2090,
   "제목없어_버림": 38,
-  "unrouted": 7,
+  "unrouted": 10,
   "summary": {
     "sourcing": {
       "total": 221,
       "recent": 220
     },
     "market": {
-      "total": 458,
-      "recent": 33
+      "total": 448,
+      "recent": 39
     },
     "listing": {
-      "total": 15,
-      "recent": 9
+      "total": 14,
+      "recent": 10
     },
     "pricing": {
-      "total": 13,
-      "recent": 5
+      "total": 14,
+      "recent": 6
     },
     "legal": {
-      "total": 115,
-      "recent": 17
+      "total": 116,
+      "recent": 18
     },
     "design": {
-      "total": 349,
-      "recent": 91
+      "total": 361,
+      "recent": 99
     },
     "robotics": {
-      "total": 105,
-      "recent": 73
+      "total": 108,
+      "recent": 76
     },
     "knowledge": {
-      "total": 158,
-      "recent": 52
+      "total": 159,
+      "recent": 53
     },
     "institutions": {
       "total": 1065,
@@ -580,6 +580,20 @@
         "by_hand": true
       },
       {
+        "title": "Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - Korea Biomedical Review",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TTjJFMUxHR3ZlOEJkRlNLekZpOTBpOVREVVZqUmNEcWhfbkFIb0pMclZybVZGNThud3pJdlE5TzNBaUZMTmNFQkZxWDdKNk50LUI3OTFJVTVJOEt6M1ZuVGNzZHN0NnhhUHZvLXpB0gFyQVVfeXFMT2wyVzU1U2NGZmcwMFRXdWJfT3VNdXpLYWlzSkcyUHBtRnZSZHRrMHJ3R1RIV01yTmtDaktQUi1hSDVrblRuQ3BTbXFlb1RZeTY4Rzc3RktnS0tSQWlUNkRwM1l0ZDM3al9ZdHFQSm45RFZR?oc=5",
+        "pool": "google",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Halo lips: lip pencil trends on TikTok in 2026 - Benin Web TV",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1FN0tHM1BaMDgzdk84ajZCQjJfVjlHekR3UlV5Q3hoSXlxTHVydW5MV3ZxOHZRSEVpMy1kTHBNNlV0TDlRRXljU2xMa1dJenhOcUdOVWlBUk1rY3NQMGRSSEV4aTRpTjdzQURyVUxuVWI3YzZCa281c1dUcw?oc=5",
+        "pool": "google",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
         "title": "VOESH Joins Target Beauty Studio, Bringing K-Beauty Body Care to Target Guests Nationwide with Target-Exclusive Collection - PR Newswire",
         "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQekZyU2tfY0w2UDhDcmhqZS05Y1Q1MEgxdndCU0xZa0YzcUZDN2JsUllLaTV2NFdONFZVdmJOdDdXM1JaVm9iNGpWQldJcnl0Slo5MTA5dXptZ2szR25hbl9DdExTTzdBT0F1SW9LTHZQb2NTWlUxRHhWVWlHQjRyM0gzaWUweWtSM1Atdk5Idjk3d0pCTGVEMW00VVdzY3hjTHMyYldiREt0WXU1V0E4YnJ6WWdUQXlndGNxaXd3UXA1V1FYbXFSLVZiWlZHQkxKVUQ1T0xCdENxVGtSdHk0bFctVnRjTnEtekVfZ1BVSUJGWEZGN2NoS2ZiZXJ6aG1MYTQ5Nld0VVE?oc=5",
         "pool": "google",
@@ -587,8 +601,22 @@
         "by_hand": false
       },
       {
+        "title": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - celebsecrets.com",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWlTTVg4ZkQ1N1Rfemtmamx1WXdDemF4b1JIaUIxWVdJeUJKQlh5QjRCbXFmTWxnT3JMWlh0TmwwaVpfVnZNR1B1N0prR0p6dlhJTHhVQU9fN3VNdDlDZHN3dWswdTcydjVvMmo2RXVrN09vcUgweHotU0dQZjFIb2V3?oc=5",
+        "pool": "google",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
         "title": "COSMECCA KOREA plans $150 mil. AI-based skincare factory in Korea - Korea Biomedical Review",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JOHRFeGJMRElFbVVDVkNFMXdWZTVvVWF1Sy1nckZmdHU2dVNuVlRyYktZZ0RnTTU1aWUwT3Z0LVJxeGxrRnVpaHV6RHNjaHVrQVJNNDVkVlQ1SXZTNFluWFBiWGZ4bURabzZIZUJ30gFyQVVfeXFMUHJVc2QwM0dFXzMyM1Jjek50c3A0LVp4NXo5MVhIb0haZ1JILVdWYUpTV0NVNUtXaExVdUw2Q1YxOVpfU3NMalBJMWZ4b0tJS1gxSnJacEpuQnRkSE1YdUd4dzVJMnRVQktqNnl2Rnk4Ymp3?oc=5",
+        "pool": "google",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "The K-Beauty ingredient dethroning hyaluronic acid in 2026: meet PDRN - parisselectbook.com",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPakItUi1WWm9Bd0NSOV9sUTNVZTNCSW4xWTA1RnV6M2l5a0VKT1NWUVppdk9sM1h3SVFieTFfTVpqdGJCMkZXd1pJbFBCRFFrdlV5YTNQNXQ0TGFjTFJrdDZUeURNZ2NWZ21sNWZfbTN2WnB1bldHTTdaVG1GVFVlRG5R?oc=5",
         "pool": "google",
         "date": "2026-09-10",
         "by_hand": false
@@ -608,42 +636,7 @@
         "by_hand": false
       },
       {
-        "title": "Emergency Department Revisit Quality Review Screening: Exploring Human Decision-Making and Artificial Intelligence Support",
-        "url": "https://arxiv.org/abs/2609.10421v1",
-        "pool": "arxiv",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "MOONWALK: Mediating Operations with Intent-Evidence-Action Alignment Across Junior-Supervisor Review Workflows in Animation/VFX Pre-Production",
-        "url": "https://arxiv.org/abs/2609.10385v1",
-        "pool": "arxiv",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Multi-Agent Reinforcement Learning for Autonomous UAV Exploration in Wildfire Response",
-        "url": "https://arxiv.org/abs/2609.10433v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "A Confidence-Aware Multimodal Fusion Framework for Industrial Human-Robot Collaboration",
-        "url": "https://arxiv.org/abs/2609.10339v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Review on State-of-the-art Energy Systems in Arctic",
-        "url": "https://arxiv.org/abs/2609.09992v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - kedglobal.com",
+        "title": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3ZU9yYWdlM1JUZGlkem45TFVrY1Z1ZzVCZEJ2V29RX3FaZ043TG9PamFJdjBHUWxWOG1IbzktajdOZzRKLUxkZF8xaHJ4R2NMaDNDQy0yOGItRHVobEd2bk9IVmh1S2FSM0g0cEtRY0xFTFpWQUE?oc=5",
         "pool": "google",
         "date": "2026-09-09",
@@ -659,6 +652,20 @@
       {
         "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - Trend Hunter",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yd21ockxiN01RTlN0SGRoNWdlcFBFdkpab3JqdXRGUHRIS3NjS1VzR3VDWjhKRmJtaTN4MGlaS0NLUjlVbVRxZE5xY1lqU28yV0dVOTNLby03OUhKVWVuVlg3ZjBVMEkydXc?oc=5",
+        "pool": "google",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - globalcosmeticsnews.com",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMjY0SGdyaGU3MjdmNlUtemxuYlZaaHFwdmZsY2dDd0hTTHM1NHJvRTk3ck5TNFAxa19fa2NmaG9iMzdXVVpwWVlodGJSTmlMT1JnNUMyNTdsTnM3QjdMMGFlWFIzeEtGbjRLX0xZbjhLdkZ6N0NUUlVHVG1mYTVMcDQyU0UzUVBxa1J1QjJROThfR2gtYjlHQVpwbEU5WmxoUG9TM2RseTUzQS1u?oc=5",
+        "pool": "google",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "Why Mikayla Nogueira Chose Skin Prep Over Skincare And Sephora For POV - Forbes",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTEFReVYycEt0SVlVejR4R0w1UEdoT3V1dVBpN2NXZXFYdDNqeUZLQ21HdnQ5ekVPeHFiYXFUbWM5dFpqdWs3TE8xblE3RWRaTm94el9fTjVvQkhpQnN3eloxLWVQalM1dEtOaHYtN2Y1OTJCV1k0RTFZeFVWOUd4RTFLLWt1SW1tZVlBa19WckZDUmJUeHJrVmtLemZaMkRmTVhLeXRxZjZJTzhxek5KVmYySE5BWi1QSV9hUUQzVWgzNGM?oc=5",
         "pool": "google",
         "date": "2026-09-09",
         "by_hand": false
@@ -685,6 +692,13 @@
         "by_hand": false
       },
       {
+        "title": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWDhHZXdJUDRjOTRTZ01GNmc0UTdpSFB5QVdTVWxTM25ERVBfX0FKOEpjVXh4OERnU3NtMWJSOUpnSFA1Qkh0THI3MTFscmQtLS00U3c2SGxTN0FkdjdWYWhOMGFiX0RuSG1mQnVOd29wRXRUemRpM09NX1VOZlNxWTlqcWVMSXJzS3cxWDc3Yw?oc=5",
+        "pool": "google",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
         "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - Korea JoongAng Daily",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDhGOE5GQWVncngtaGZBcVkzT0pGcjB4V3dHLUNMMjNoMGJVcjIzWDRjWDJGS3JWWjZ1N1dkN2dfSWpabktCMzd0bXEyNU9TYmtUMUk0VDZlVktNMjh6aER3cTZmdDFnWS1EN1RvOUJDMlNlY0huVlROa0tCUF9RMXNOaGZ5R0NvNEd0UWFjRVhsSmpXZ053WEpfN01zaUNOZExHMm5zLU5OckVKUEktMm5UUTBwT2VyV2dKZUJWNmUtT2xBSklwTHFwN1pzcXVj?oc=5",
         "pool": "google",
@@ -692,8 +706,15 @@
         "by_hand": false
       },
       {
-        "title": "I'd Pay Double For This K-Beauty Product That's Working Wonders On My Neck Lines - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeThXYVNQSHQ4S0JoNnFEcnJ6RHdMNkZVc3JRdGJYbDRJeTczaG0wYmxLMnZlMEU2eVRJUE9SbWdudzJySV9pODdZV0txUzJrZ3ZRX1VZUDQ0Y2F4NTFmd01wNXB6c0RFVldzQzE5bTlpSUZyc0Rxb09OdEVFSjFfT3l2STBRREpYMkNGbXB6NDdXcnM?oc=5",
+        "title": "mixsoon Joins Target Beauty Studio, Bringing pure ingredients skincare philosophy to Target Guests Nationwide - PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcVVwbEh2aWc5U0p4MU0xQmgzTUJNY1dYd3AyQ3F6TEtCR3d4Y2d3Yk5DWm90YnYtaVRmUDNSeEw2b25ySFFiejJMWm4zODJBTDNWU2tpamFHX25kRWRSOTBNSFp0VWFRLUMzdnZIdzRldXo0NVNRNEdOZE5QelpJcTUyemdQaE5XR083YUwxVDNKR3VvSm85ZFg1WEswaTRyeldXVUpLTG5iVlNvUUVmdWVPZkVnNnB3TlZScm5lb29aZThpOXJEQTZqNjZ1Z0xBMGVjVXBDUXM1Q0RhNzd0M19XeFhnZDl4SVFjRmUyTUFhZUoyc0c4?oc=5",
+        "pool": "google",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "I'd Pay Double For This K-Beauty Product That's Working Wonders On My Neck Lines - huffpost.com",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM3VWZjc2RlRMajZ5MlJUdXp0NjlXb2tpUXdqcklNRzdyWlpXdmZObjFzWGNZVEtGekdtM05mcGxHM19KczUtN00yU0x4NlRMVzhYWWRVLXowR2I4dDgxZXlIWFpNNXVlRjFPWlI1ODUxVXlSUEdYT1ZTeWVWNzd4SlhxdkdHYzdwVHB4N3BLSzRMYUtk0gGaAUFVX3lxTFB2eGlDdHI1bG92Qkc1cUNleVo0SG16OFdtenVLY3o5b1ZldzY3aFY4czdhNVNEOU9NQWFQcFdqajF5U2lockQycm8yNGtjLVZxTm9hYjFBcjdodVlldGRLQ2hYamFXXzh1bnBxdnVfOTVwamYwMTFILUozU1VRcmR3QUpGS0NORkdKVEJVbXM0NTVpTkp2OGF6SlE?oc=5",
         "pool": "google",
         "date": "2026-09-08",
         "by_hand": false
@@ -755,6 +776,20 @@
         "by_hand": false
       },
       {
+        "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5",
+        "pool": "google",
+        "date": "2026-09-02",
+        "by_hand": false
+      },
+      {
+        "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUTUzUEwwYzIteVlTcng5Zl9GT3hfTElLcWRGTGVXN09lT01icWhVamUwS1BlREI0YmJCTmdDaW9iRVlKQ0hVOGZ2TTFHY2RhdTFaS3UwelgtT3gxeXY3RnBrTE9RTXRySjFDa3BFWVdMSXo4bTRhdFA2QjB4T2EzNUZuRlBUVFJqQjhtS3RLTko5WGJBbmJseEh3?oc=5",
+        "pool": "google",
+        "date": "2026-09-02",
+        "by_hand": false
+      },
+      {
         "title": "Ecommerce Evolution: Shopify’s (SHOP) AI-Driven Approach to Retail Success - Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQnNfUW9Pdjhhc2ZBejlUV0lWYmZXRW9KeWxSbjJWLWltODYyQnZGTkpzRE9QOVNUamxuTzFSc1VhcktzWGhSVU5xRnI3QlBTS1c1a0lzTHdEUklzYUw0RDdzNFE0X2FUS3VoX1dWSkRuUDQ2Z0NabkJheVZRUXJOSXhsR0hOajNmYTQ4TUtLUHNWSzlTZTRuYlpmc0FtWXAy?oc=5",
         "pool": "google",
@@ -762,24 +797,31 @@
         "by_hand": false
       },
       {
-        "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - miamiherald.com",
+        "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - Miami Herald",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxUk1UYUJPcXhnWjlFczJhckZRMjlLM0ZFX1hnclN5cjk0d1prbVNWNWZqVWFMX0M1N2VSY08tNzNteDE0NDNsdWN4SmpTUkpzSDVkMFFhdndkRVBXNGZWRjhuUXpqTWvSAWdBVV95cUxNM1p2Wmx6MVYta09USHF2UUU0MWthTlNwamRPQWUtV0FMbF94U1Zjc1RrN2pUZVg5djlwc2dyZk8zeV9PT0VrRVhUWEJlZmlMM2xHdUk3eUJNUFNkV1lRRFRuVUE5TFpZ?oc=5",
         "pool": "google",
         "date": "2026-08-31",
         "by_hand": false
       },
       {
-        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - Teen Vogue",
+        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - teenvogue.com",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OdzQ0OXlSbWVrOW1FUXdtSURIcjVsZnJhNEFleWtxZnRjcDdESjdFZlBXUVR0eEM0Tzg2NDN2M2tqU0pEaXd6TTZBOE5yRkVZR2ZBQU1DNWp1RTlxN2V6UHNHUUFJb28?oc=5",
         "pool": "google",
         "date": "2026-08-31",
         "by_hand": false
       },
       {
-        "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - womansworld.com",
+        "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - Woman's World",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR0hPOFV3NTlQQ2h0LWNDUHBoUTNRZHNDbjllRTNFOHdlQzd5Y20zWmgwWEloVjkwdlpoTEIxcE9YMUwtX1lDazd0LXJUckRBMDhjS1JIV1o0T0l2Y3daZEZiSVBFZElES3lKLWFYVmw4WVlHQ0dKd18xeW1wX3NFN0lJQUxMZjhwbUpPTm9ZclZwZw?oc=5",
         "pool": "google",
         "date": "2026-08-29",
+        "by_hand": false
+      },
+      {
+        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - GeekWire",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSmd3bV80NzFvZlZtOUNnSUF4eTRlQ0VoamFoUlY5aEQ2Q000MmlBVmVTQ3ZuWV9wTmhzWXROSWNyaDNuQ0JrTFdEczljM0JlbTBtdFBZbnhtakNaWHBTZTBGWDFzbDJURU1ESi1mano4T21KMHV0ZEQwOFI3aWI3Q2lTbzhPSmw5dEp6cGZVXzhadW5GNTRNaVhhMEhIdjY0czMwTmN4aUlpVWNYTmV5ZnNxWkdlcUZFUUhoNEdId3gxZw?oc=5",
+        "pool": "google",
+        "date": "2026-08-28",
         "by_hand": false
       },
       {
@@ -797,8 +839,29 @@
         "by_hand": false
       },
       {
+        "title": "K-beauty’s fastest-growing products are quietly crossing over from cult status to household names - sacbee.com",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aWFdHVGswUVFLUzNOYnhaRzV4RXpLSE4yUU5IcHJVa2lieDYtRjBxNkZma1NUSG9hQS1QT3ZJcHVxekFETnhNUzloR3g5UkxEQWx5QVJxY1V5emtySDRYZzNnTUl3RWVCX29nazdaRUlMYWPSAXNBVV95cUxNdjl6SVNhV25mQjFJeUZITi0tLXlnMlFPcWc0a3lxNGU2cGdldm5GRzF2Yk1HY2VrQUhsVF9zemRaeVJvUkZzSDJxQnd4cXlDWTlGSEVYM3VYUEJ5aFMweWtBREtQb3NVTUVJRmxSMTlJQXBN?oc=5",
+        "pool": "google",
+        "date": "2026-08-27",
+        "by_hand": false
+      },
+      {
         "title": "Meet the K-beauty products that beauty lovers consistently rank as their absolute skincare favorites - Fort Worth Star-Telegram",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3Y2ZRR0YyT1RTSXFnT2R1M2R4RGdBMzdXSEFGcDg3V2dKX3dnS3dOdXNNUXZzakhkSDFsZllvTXlsOXVQdWROSEFNUDdpYlA1SDc4RmFaVWFLVzgzUGtXMnkyYUxEWEV5a0NqNE90cENyMTJ4dVFLSWlKRGjSAXxBVV95cUxPcUJTSmtsZDhHR0FvUlNpVDl1bkZPcHJiaFJIN0xCNnRCaWZLUGZIWVpzY2llSVdkQnhPMzA5Yk1tWGtJN3k1LW14dkF4NTExeFk2T0JuMVQ3ZWVEbjl5NklwMTd1cVZoenBJUmJVVWFnbTZQSzc3VFY1Vm9S?oc=5",
+        "pool": "google",
+        "date": "2026-08-27",
+        "by_hand": false
+      },
+      {
+        "title": "Meet the K-beauty products that made a quiet leap from cult circles into mainstream beauty routines - Miami Herald",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UZ3FrNEloVEN5aHJ0QVZJeFB4b25XVlFUSUo0NjdGbjUtN3d4WW1lNEJzS2R6Y0pUR1FTb3Zac2pYRWRIZ2E4cTIzREpTamdxVU5hOE10TTRIcXRFV2w0aXpaQTVqUFXSAWdBVV95cUxOaTJETFNXR0V6TUt1RDV3M1VvYnBSdVZqOUpNNUx5ZEdhTXdsU0w1dWZieDdjblM2TzhfbjV2cDFiZFdvQk92VENwaDJ6RVpUZGtTUTJBUG5acTAyckVucFZDazh4d2xv?oc=5",
+        "pool": "google",
+        "date": "2026-08-27",
+        "by_hand": false
+      },
+      {
+        "title": "Target launches Beauty Studio with K-beauty and premium skin care focus. - Personal Care Insights",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Jb2hGbEh0dHE2ME9CaXV3eFNqVEdYR2hJaU5zWnIyal9IakpwdjNPNlgyVzlHTlo2aFJfYkxLbVlIYWhtT3FfR3AzTURkUmVQc3A5R29FNEtLLTdVWVdzd0FRV1N5c0lWVzVfTUczRi1kc1gyU2U1VU03ZHl0Zk0?oc=5",
         "pool": "google",
         "date": "2026-08-27",
         "by_hand": false
@@ -818,80 +881,17 @@
         "by_hand": false
       },
       {
+        "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - ELLE",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5",
+        "pool": "google",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
         "title": "Ecommerce Content Strategy: Enterprise Guide (2026) - Shopify",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03RUZ3UkJFbTlsV1JFSEJyOEZlWUY5TlFQd2RBU2FIS1hYbHhHc3VaUnB0dmItVmlPSTNaNDNZQ1o1c1ozNWFoYWxFX29vaFJ3cXpfQTJ5d3A2MU90TDhMMVpabGpxVWctWWxLTHI1d1JFVUhY?oc=5",
         "pool": "google",
         "date": "2026-08-26",
-        "by_hand": false
-      },
-      {
-        "title": "6 Ways To Use AI in B2B Ecommerce - Shopify",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ZODRjaVlwQWNnbldISllYaUV1bWQ5SDVZbHYzOFl1YU9MOVVRdnRNWTQwNFZIN3MxSlZERnFPUFFTajVaSlFqbVl3RlRqSkl0Ukl6eGptUUpLMVVn?oc=5",
-        "pool": "google",
-        "date": "2026-08-26",
-        "by_hand": false
-      },
-      {
-        "title": "Shopify Payments in the United Arab Emirates now available on the Advanced plan",
-        "url": "https://changelog.shopify.com/posts/shopify-payments-in-the-united-arab-emirates-available-on-shopify-advanced-plan",
-        "pool": "design_refs",
-        "date": "2026-08-26",
-        "by_hand": false
-      },
-      {
-        "title": "This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - Woman & Home",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVEFxUTExeGlubm5Ic3F4c0dzMWVTVHNSOW1EWXpQTWMzbG8ybnEyRFEtaUFMVkMwVEtIWGpaT0pHY3BxRUx6WnBKS1k4blNvSHRQX2xkb1MybzFtXzc1dzVrekpJclZ6SHJZUnFQM0ZHMngtTG9iZGlJMmNfQlB5ckdQdTA?oc=5",
-        "pool": "google",
-        "date": "2026-08-25",
-        "by_hand": false
-      },
-      {
-        "title": "Move over K-beauty: K-pharmacy is Korea’s new clinical skin care trend - Cosmetics Business",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6eFNadFFpXzZndmV6Q0VpRDN5bEFEVkN0SHl5dk5tSDlNdURXS0tpRjNhSkEwb0NBenRyak9ReG1DVVZVc1BmQzVpVlRGR0pXY3Rxa2JhWU1mZVlTNFBkMDBSU0dRazU2cDdySUUxNnVVZk4yeHl4aDVR?oc=5",
-        "pool": "google",
-        "date": "2026-08-24",
-        "by_hand": false
-      },
-      {
-        "title": "Review Shopify Payments balance activity with the new activity report",
-        "url": "https://changelog.shopify.com/posts/review-shopify-payments-balance-activity-with-the-new-activity-report",
-        "pool": "design_refs",
-        "date": "2026-08-22",
-        "by_hand": false
-      },
-      {
-        "title": "14 Best Korean Beauty Products For Acne, According To K-Beauty Experts - Coveteur",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9OV2s5SXhSM1NiZ0JYcm5PVm11clFHYzNsOFFaVG1kNlA0cUNmRjNqY3lScm1CR1pYR1pLcFBia2pzbEVZTkppbGRQanJSbWVLWHNFaUt2WjJaa2ptclhaLVZzb2NZVHRU?oc=5",
-        "pool": "google",
-        "date": "2026-08-21",
-        "by_hand": false
-      },
-      {
-        "title": "12 best Korean skincare products, tested by a beauty writer - The Independent",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdFIwOHEtZzJHSVppZnlwN1ZjZk9SWC1ENWR6TmR6OEN2R3NfTHNicUJjY3dZZTduOHhRMzRKeHZKN0JBV256b2VFZnBJdm5BRV8xMWpDTno0X2d0dVVtSnFGZkJaTmVXcF9iSUVST3M2MWFwbm9FSkZpSkVEVVhERFBEOU8zNWJMUFNwTG4tdFlVMkFtNTF1aEctSHRpVWpLU3VmMmNHS3Q1OXlmZDluaTJEUQ?oc=5",
-        "pool": "google",
-        "date": "2026-08-21",
-        "by_hand": false
-      },
-      {
-        "title": "Best eCommerce Development Service Companies in USA - ClickPost",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51cHZ6NTJfMTQ0QllLb1Q3X2hod3llUmxsRWpDX01WRjVod25LbG44NW4ySE9qNnFwMzRLeFRycEJGTGlQS0VrVFJWQjhUSThGX2tjVGNocUdWUXdOUlFDYnJ0Z1dKUQ?oc=5",
-        "pool": "google",
-        "date": "2026-08-21",
-        "by_hand": false
-      },
-      {
-        "title": "‘Skin care in a can’: How TikTok turned sardines into a viral beauty trend - AJC.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd0k5R1RwXy1Ha0c5RU9xcnhsSkRWSTBIT3NpUGJROUxFekpwLXhSNVVPb1VyWE53Zzh3WndKYTZOWl93WlN4UHY1VUIxOWE4RUg3XzAxS253RDdTMW9jRVBqVGZoV1BpV1FqSWxzemxtSXRHeEt1anVIS3RiemxLNFp0Q3JXVkRxemdacUxyZDYzWm14Mk5nVEN2RWVNTERaYjdvTGJuSG80cExrOEs4Uw?oc=5",
-        "pool": "google",
-        "date": "2026-08-20",
-        "by_hand": false
-      },
-      {
-        "title": "The Vogue Business TikTok Trend Tracker - Vogue",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nc2ktNnQxVzlMTjl1MjR5MFYwSkMtVjI1Z0VhZlBLU0JqVlBjdHUyejJCVDV3OE9xYmF3ckhxR2VXLTk1Y3ZScXZfN0VPSU1ManFXYmFUWWxKTDN6cjFXTzk2OGxSVWxDOHIyeXZmRG9jUktfd2FIMg?oc=5",
-        "pool": "google",
-        "date": "2026-08-20",
         "by_hand": false
       }
     ],
@@ -930,6 +930,13 @@
         "pool": "youtube_manual",
         "date": "2026-09-06",
         "by_hand": true
+      },
+      {
+        "title": "Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - globalcosmeticsnews.com",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMjY0SGdyaGU3MjdmNlUtemxuYlZaaHFwdmZsY2dDd0hTTHM1NHJvRTk3ck5TNFAxa19fa2NmaG9iMzdXVVpwWVlodGJSTmlMT1JnNUMyNTdsTnM3QjdMMGFlWFIzeEtGbjRLX0xZbjhLdkZ6N0NUUlVHVG1mYTVMcDQyU0UzUVBxa1J1QjJROThfR2gtYjlHQVpwbEU5WmxoUG9TM2RseTUzQS1u?oc=5",
+        "pool": "google",
+        "date": "2026-09-09",
+        "by_hand": false
       },
       {
         "title": "Product variants now support multiple barcodes",
@@ -974,24 +981,10 @@
         "by_hand": false
       },
       {
-        "title": "Straight from Seoul, these are the best Korean skincare products worth the hype - New York Post",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5VSXBtZUQ1VW5vZnhFTFdkR1NRcGZKWFhvN19ac0ljLXdhUUlXaHBSOXAybVpobUZLU2JST1N2bmxzdEk4OXpIcDZOMU1MZk96WXRNMDQ5cE5BbWFOVXczMHNHWldaN3A2czI5d3lwRlNKODdNb09J?oc=5",
+        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - Premium Beauty News",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5",
         "pool": "google",
-        "date": "2026-06-05",
-        "by_hand": false
-      },
-      {
-        "title": "Last-Minute K-Beauty Memorial Day Sales: Medicube, Hero Cosmetics, Beauty of Joseon & More - E! News",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWGVxSFpSdUtyMDBFdDEzWDgzUEtsZUFHODRLZUI2RThRVUZoenlMcHNmZGFjOEtidHc5MTVBaklPbHFjaUd2eUVWRDE0V25yVnM5UGlVR0JOV21fNzYwRVdIcmRRSzM2dDEyNHgydWM3bzVlYzBsS05meTNxVk45TWI5VDc2MHI3bDZhN0c5QnFTZUI2WEdXVg?oc=5",
-        "pool": "google",
-        "date": "2026-05-25",
-        "by_hand": false
-      },
-      {
-        "title": "Seoul Travel Haul: All the Beauty Products I Brought Home - The Daily Beast",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUWNydzdmSGpWZFFKVVZzaWxnejhoalhXQ2ZpTWhpSmk4Z1A0U1RxdUhjWl9tRkxnMV9HaFFYUTFxWGZJdE5FUDJMbFhPT2ZxNkQxLWtTUHFKSC1vZUhSMHBxY3JmcjRTZW9EdjZrdDdONDRQSEFMX2RkMnpra2doZkNxZnJvdWM?oc=5",
-        "pool": "google",
-        "date": "2026-03-26",
+        "date": "2026-06-06",
         "by_hand": false
       },
       {
@@ -1025,6 +1018,13 @@
         "by_hand": true
       },
       {
+        "title": "A Primal-Dual Formulation for Pricing Static Voltage Stability Services within a Unit Commitment Model",
+        "url": "https://arxiv.org/abs/2609.11436v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
         "title": "Current Events   Us Tariffs",
         "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
         "pool": "institutions",
@@ -1032,8 +1032,8 @@
         "by_hand": false
       },
       {
-        "title": "Trump Tariffs Stock Market Crash How To Invest",
-        "url": "https://www.morganstanley.com/ideas/trump-tariffs-stock-market-crash-how-to-invest",
+        "title": "Global Tariffs",
+        "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
@@ -1046,8 +1046,8 @@
         "by_hand": false
       },
       {
-        "title": "Global Tariffs",
-        "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
+        "title": "Trump Tariff Delay Ongoing Outlook Uncertainty",
+        "url": "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
@@ -1104,10 +1104,17 @@
         "by_hand": true
       },
       {
-        "title": "Fortunate Recall: Ontology-Driven Memory Lifecycle Management for Persistent Coherence in LLMs",
-        "url": "https://arxiv.org/abs/2609.10413v1",
-        "pool": "arxiv",
-        "date": "2026-09-09",
+        "title": "Using Automated Vehicles Operational Data to Confirm Safety and Anticipate Threats",
+        "url": "https://arxiv.org/abs/2609.11549v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Exact PID and PI Gain Regions for Uncertain Non-Affine MIMO Systems",
+        "url": "https://arxiv.org/abs/2609.11130v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
         "by_hand": false
       },
       {
@@ -1508,13 +1515,6 @@
         "pool": "us_beauty",
         "date": "",
         "by_hand": false
-      },
-      {
-        "title": "FOREVER SKIN GLOW 24h wear radiant foundation Perfection and hydration Concentrated floral skincare with suncreen Broad spectrum SPF 15 00",
-        "url": "https://api.fda.gov/drug/label.json?search=id:1f013e61-f171-2ae2-e063-6294a90adcf1",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
       }
     ],
     "design": [
@@ -1750,8 +1750,169 @@
         "by_hand": true
       },
       {
+        "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+        "url": "https://arxiv.org/abs/2609.11873v1",
+        "pool": "arxiv",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "EVPeriscope: Extended Perception across Aerial and Ground Vehicles with Event-based Propeller Tracking",
+        "url": "https://arxiv.org/abs/2609.11920v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling",
+        "url": "https://arxiv.org/abs/2609.11875v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Learning Agent-based Model Predictive Control for Holistic Vehicle Performance",
+        "url": "https://arxiv.org/abs/2609.11871v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Rapid Learning of Dexterous In-Hand Pen Writing through Real-Time Jacobian Estimation",
+        "url": "https://arxiv.org/abs/2609.11775v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI",
+        "url": "https://arxiv.org/abs/2609.11737v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Aerodynamic Prior-Free Coordinated Trajectory Generation and Tracking Control for a Tail-Sitter UAV",
+        "url": "https://arxiv.org/abs/2609.11698v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Quasi-static analysis of passive stability in a novel underactuated multi-finger hand",
+        "url": "https://arxiv.org/abs/2609.11579v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+        "url": "https://arxiv.org/abs/2609.11561v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "FARM: Reading Failure Signals from the Internal Predictive States of a Frozen Robotic World Model",
+        "url": "https://arxiv.org/abs/2609.11445v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Safety-aware Skill Adaptation for Reinforcement Learning in Dynamic Environments",
+        "url": "https://arxiv.org/abs/2609.11433v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "SwarmNxt: Open-source Software-Hardware Platform for Fast and Agile Aerial Swarms",
+        "url": "https://arxiv.org/abs/2609.11382v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Morphology-Aware Human Motion Retargeting for Wheeled-Humanoid Loco-Manipulation",
+        "url": "https://arxiv.org/abs/2609.11357v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation",
+        "url": "https://arxiv.org/abs/2609.11308v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Truncated Noisy Best-Response Algorithms: Toward Game Theoretic Learning with Safety Guarantees",
+        "url": "https://arxiv.org/abs/2609.11863v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Acoustic-based Guidance for Automatic Docking of Holonomic AUVs",
+        "url": "https://arxiv.org/abs/2609.11821v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Predefined-Time Resilient Integral Reinforcement Learning for Input-Constrained Unknown Nonlinear Systems Under FDI Attacks and Disturbances: A Fully Data-Driven Approach",
+        "url": "https://arxiv.org/abs/2609.11815v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Predefined-Time Leaderless Consensus Under Denial-of-Service Attacks",
+        "url": "https://arxiv.org/abs/2609.11781v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "A Primal-Dual Formulation for Pricing Static Voltage Stability Services within a Unit Commitment Model",
+        "url": "https://arxiv.org/abs/2609.11436v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Asynchronous Replanning in Two Population Linear Quadratic Mean Field Games: Information Requirements and Stability",
+        "url": "https://arxiv.org/abs/2609.11424v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Estimating Inconsistency Response Surfaces under Uncertainty in Cyber-Physical System Development",
+        "url": "https://arxiv.org/abs/2609.11331v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "A Mathematical Theory of Pragmatic Information",
+        "url": "https://arxiv.org/abs/2609.10986v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
         "title": "Robots Are Learning to Feel",
         "url": "https://spectrum.ieee.org/tactile-data-robots",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Teradyne Robotics sues JAKA over 3 Universal Robots patents",
+        "url": "https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/",
         "pool": "robotics",
         "date": "2026-09-10",
         "by_hand": false
@@ -1776,173 +1937,362 @@
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
-      },
-      {
-        "title": "Introducing the Agents API",
-        "url": "https://openai.com/index/introducing-the-agents-api",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-        "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic acquires Bun as Claude Code hits $1B",
-        "url": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Education Report: How educators use Claude",
-        "url": "https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic invests $50 billion in American AI infrastructure",
-        "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic raises $13B Series F at $183B valuation",
-        "url": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Seven in 10 Gen Z jobseekers apply without checking whether roles are genuine as four in five face financial pressure | Barclays",
-        "url": "https://home.barclays/news/press-releases/20260/090/seven-in-10-gen-z-jobseekers-apply-without-checking-whether-role/",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Collect WhatsApp marketing consent at checkout",
-        "url": "https://changelog.shopify.com/posts/collect-whatsapp-marketing-consent-at-checkout",
-        "pool": "design_refs",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Discounts Allocator Function API developer preview has ended",
-        "url": "https://shopify.dev/changelog/discounts-allocator-function-api-developer-preview-has-ended",
-        "pool": "design_refs",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Migrating Shop app from React Native to native",
-        "url": "https://shopify.engineering/shop-app-migration",
-        "pool": "design_refs",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Native is now the future of mobile at Shopify",
-        "url": "https://shopify.engineering/back-to-native",
-        "pool": "design_refs",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "JarvisGUI: Towards Cross-Device GUI Agents with Dynamic Task Composition",
-        "url": "https://arxiv.org/abs/2609.10451v1",
-        "pool": "arxiv",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Coastal Environment Generation with HoloOcean",
-        "url": "https://arxiv.org/abs/2609.10484v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "A traffic management system for large and heterogeneous vehicles in narrow industrial environments",
-        "url": "https://arxiv.org/abs/2609.10400v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Data-Driven Risk Fields for Safer End-to-End Autonomous Driving",
-        "url": "https://arxiv.org/abs/2609.10377v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "CougarTail & CUB: A General-Purpose Mast and Central Utility Board for Cylindrical Underwater Enclosures",
-        "url": "https://arxiv.org/abs/2609.10230v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Multi-Robot Scanner for Automated Full-Body Dermoscopic Imaging",
-        "url": "https://arxiv.org/abs/2609.10169v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Future-Aware Flow Planning for Safe UAV Target Following",
-        "url": "https://arxiv.org/abs/2609.10166v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Automatic Reproducible Camera Intrinsic Calibration",
-        "url": "https://arxiv.org/abs/2609.10082v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "What Symmetry Buys a Learned Motion Planner",
-        "url": "https://arxiv.org/abs/2609.10033v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Deep Learning-Based Detection of Electrical Faults and Power Quality Disturbances in Aerospace Power Systems",
-        "url": "https://arxiv.org/abs/2609.10479v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Multivariate linear regression without prior assumptions",
-        "url": "https://arxiv.org/abs/2609.10477v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Economic Evaluation of V2G-Enabled Fast Charging Stations Under Endogenous EV Adoption Dynamics",
-        "url": "https://arxiv.org/abs/2609.10388v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
       }
     ],
     "robotics": [
       {
+        "title": "EVPeriscope: Extended Perception across Aerial and Ground Vehicles with Event-based Propeller Tracking",
+        "url": "https://arxiv.org/abs/2609.11920v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling",
+        "url": "https://arxiv.org/abs/2609.11875v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Learning Agent-based Model Predictive Control for Holistic Vehicle Performance",
+        "url": "https://arxiv.org/abs/2609.11871v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Rapid Learning of Dexterous In-Hand Pen Writing through Real-Time Jacobian Estimation",
+        "url": "https://arxiv.org/abs/2609.11775v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Visual-SLAM for the detection of hidden tomatoes in greenhouses by Hierarchical Localization and GLOMAPfor robotized harvesting",
+        "url": "https://arxiv.org/abs/2609.11766v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "SEED-UMI: Sharing the Exoskeleton between human and robot for onE-to-one Dexterous demonstration",
+        "url": "https://arxiv.org/abs/2609.11753v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI",
+        "url": "https://arxiv.org/abs/2609.11737v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Reflex-Informed Neuromuscular Reinforcement Learning for Muscle-Driven Locomotion",
+        "url": "https://arxiv.org/abs/2609.11733v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "MC-DeTra: Motion-Consistent Joint Object Detection and Socially-Aware Trajectory Forecasting in Bird's-Eye-View Images",
+        "url": "https://arxiv.org/abs/2609.11717v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Aerodynamic Prior-Free Coordinated Trajectory Generation and Tracking Control for a Tail-Sitter UAV",
+        "url": "https://arxiv.org/abs/2609.11698v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "ActSafeGuard: Differentiable and Training-Aligned Constraint Enforcement for Flow-Matching Policies",
+        "url": "https://arxiv.org/abs/2609.11697v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Contact-Aware Incremental Model Predictive Control for an Underactuated Aerial Manipulator",
+        "url": "https://arxiv.org/abs/2609.11661v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Quasi-static analysis of passive stability in a novel underactuated multi-finger hand",
+        "url": "https://arxiv.org/abs/2609.11579v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+        "url": "https://arxiv.org/abs/2609.11561v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising",
+        "url": "https://arxiv.org/abs/2609.11553v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Using Automated Vehicles Operational Data to Confirm Safety and Anticipate Threats",
+        "url": "https://arxiv.org/abs/2609.11549v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "CARLAverse: A Highly Modular, Distributed, and Multimodal Framework for Human-in-the-Loop Simulation",
+        "url": "https://arxiv.org/abs/2609.11478v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "3D Euler-Angle Orientation Control for Two-Ray Fading Mitigation in Maritime Air-to-Sea Communications",
+        "url": "https://arxiv.org/abs/2609.11476v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "FARM: Reading Failure Signals from the Internal Predictive States of a Frozen Robotic World Model",
+        "url": "https://arxiv.org/abs/2609.11445v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Safety-aware Skill Adaptation for Reinforcement Learning in Dynamic Environments",
+        "url": "https://arxiv.org/abs/2609.11433v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "SwarmNxt: Open-source Software-Hardware Platform for Fast and Agile Aerial Swarms",
+        "url": "https://arxiv.org/abs/2609.11382v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "GeoTrussRover: Morphological Computation with Contact-Semantic Control Primitives",
+        "url": "https://arxiv.org/abs/2609.11361v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Morphology-Aware Human Motion Retargeting for Wheeled-Humanoid Loco-Manipulation",
+        "url": "https://arxiv.org/abs/2609.11357v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Modular Kinematic Reduction of Closed-Chain Mechanisms Using Path Assembly and Defect Homotopy",
+        "url": "https://arxiv.org/abs/2609.11338v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation",
+        "url": "https://arxiv.org/abs/2609.11308v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Truncated Noisy Best-Response Algorithms: Toward Game Theoretic Learning with Safety Guarantees",
+        "url": "https://arxiv.org/abs/2609.11863v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Acoustic-based Guidance for Automatic Docking of Holonomic AUVs",
+        "url": "https://arxiv.org/abs/2609.11821v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Predefined-Time Resilient Integral Reinforcement Learning for Input-Constrained Unknown Nonlinear Systems Under FDI Attacks and Disturbances: A Fully Data-Driven Approach",
+        "url": "https://arxiv.org/abs/2609.11815v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Predefined-Time Leaderless Consensus Under Denial-of-Service Attacks",
+        "url": "https://arxiv.org/abs/2609.11781v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Construction of Control Lyapunov-Barrier Functions from CLF-CBF Pairs",
+        "url": "https://arxiv.org/abs/2609.11746v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Mixed-integer optimization for multi-year military aircraft fleet management",
+        "url": "https://arxiv.org/abs/2609.11710v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Elementwise Positivity of the Solution to Lyapunov Equation for Hurwitz Companion Matrices",
+        "url": "https://arxiv.org/abs/2609.11651v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "From Grid to Chip: Power Architecture, Stability, and Flexibility of AI Data Centers",
+        "url": "https://arxiv.org/abs/2609.11649v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Distributed Optimization of Modular Production Systems using Model-based Reinforcement Learning with Inverse Models",
+        "url": "https://arxiv.org/abs/2609.11615v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Critic-Free Policy Iteration for Continuous-Time Zero-Sum Games: A Policy-Space Riccati Approach",
+        "url": "https://arxiv.org/abs/2609.11564v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "A Primal-Dual Formulation for Pricing Static Voltage Stability Services within a Unit Commitment Model",
+        "url": "https://arxiv.org/abs/2609.11436v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Asynchronous Replanning in Two Population Linear Quadratic Mean Field Games: Information Requirements and Stability",
+        "url": "https://arxiv.org/abs/2609.11424v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Quantifying the Unintentional Islanding Risk: A Comparative Study on Active Distribution Network",
+        "url": "https://arxiv.org/abs/2609.11400v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Estimating Inconsistency Response Surfaces under Uncertainty in Cyber-Physical System Development",
+        "url": "https://arxiv.org/abs/2609.11331v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Optimal chemo-immunotherapy scheduling: A hybrid QPSO-SQP approach with Michaelis-Menten pharmacodynamics",
+        "url": "https://arxiv.org/abs/2609.11213v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Optimal Control for Cancer Chemotherapy Using Hybrid Quantum Particle Swarm Optimization",
+        "url": "https://arxiv.org/abs/2609.11197v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "A Counterexample to Two Representative Unit Aggregation Formulations for Unit Commitment",
+        "url": "https://arxiv.org/abs/2609.11139v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Exact PID and PI Gain Regions for Uncertain Non-Affine MIMO Systems",
+        "url": "https://arxiv.org/abs/2609.11130v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Quantifying the Reality Gap for RL-Based UAV Placement at mmWave and Sub-THz",
+        "url": "https://arxiv.org/abs/2609.11121v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Freehand Sketching for End-User Programming of Robot Swarms",
+        "url": "https://arxiv.org/abs/2609.11078v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Fusion Estimation in Multi-sensor Systems for Data Packets with Disrupted Identities",
+        "url": "https://arxiv.org/abs/2609.11062v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "BenchShield: Formal Model-Backed Instrumentation for Reward Integrity in LLM-Agent Evaluation Infrastructure",
+        "url": "https://arxiv.org/abs/2609.11028v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Structured Stochastic Representations of Integrated Dynamic Strategies",
+        "url": "https://arxiv.org/abs/2609.10998v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "A Mathematical Theory of Pragmatic Information",
+        "url": "https://arxiv.org/abs/2609.10986v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
         "title": "Robots Are Learning to Feel",
         "url": "https://spectrum.ieee.org/tactile-data-robots",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Teradyne Robotics sues JAKA over 3 Universal Robots patents",
+        "url": "https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/",
         "pool": "robotics",
         "date": "2026-09-10",
         "by_hand": false
@@ -1959,328 +2309,6 @@
         "url": "https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/",
         "pool": "robotics",
         "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Show-Harness: Just a VLM Agent Can Play Robots",
-        "url": "https://arxiv.org/abs/2609.10522v1",
-        "pool": "arxiv",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation",
-        "url": "https://arxiv.org/abs/2609.10506v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Coastal Environment Generation with HoloOcean",
-        "url": "https://arxiv.org/abs/2609.10484v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Multi-Agent Reinforcement Learning for Autonomous UAV Exploration in Wildfire Response",
-        "url": "https://arxiv.org/abs/2609.10433v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Frequency-Conditioned Flow Matching for Vision-Language-Action Models",
-        "url": "https://arxiv.org/abs/2609.10405v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "A traffic management system for large and heterogeneous vehicles in narrow industrial environments",
-        "url": "https://arxiv.org/abs/2609.10400v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Data-Driven Risk Fields for Safer End-to-End Autonomous Driving",
-        "url": "https://arxiv.org/abs/2609.10377v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for QoE-Efficient Retrieval-Augmented Dialogue Serving",
-        "url": "https://arxiv.org/abs/2609.10372v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "A Confidence-Aware Multimodal Fusion Framework for Industrial Human-Robot Collaboration",
-        "url": "https://arxiv.org/abs/2609.10339v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Odometer-Agnostic Drift Correction Using OpenStreetMap Lane Geometry",
-        "url": "https://arxiv.org/abs/2609.10336v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Deformable Object Manipulation under Partial Observability via Real-Time Full-Shape Estimation",
-        "url": "https://arxiv.org/abs/2609.10308v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain",
-        "url": "https://arxiv.org/abs/2609.10286v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "SwingBot: Learning Whole-Body Brachiation for Humanoid Robots",
-        "url": "https://arxiv.org/abs/2609.10283v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Frame-Coded Legged Locomotion over Noisy Terrain",
-        "url": "https://arxiv.org/abs/2609.10273v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects",
-        "url": "https://arxiv.org/abs/2609.10243v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "CougarTail & CUB: A General-Purpose Mast and Central Utility Board for Cylindrical Underwater Enclosures",
-        "url": "https://arxiv.org/abs/2609.10230v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Adaptive Shared Control with Online Bounded-Rational Human Behavior Estimation",
-        "url": "https://arxiv.org/abs/2609.10215v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "IMU-Centric Moving Horizon Estimation for Lateral Dynamics Estimation Across Vehicles and Grip Conditions",
-        "url": "https://arxiv.org/abs/2609.10202v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Multi-Robot Scanner for Automated Full-Body Dermoscopic Imaging",
-        "url": "https://arxiv.org/abs/2609.10169v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Future-Aware Flow Planning for Safe UAV Target Following",
-        "url": "https://arxiv.org/abs/2609.10166v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Assembling Two Parts in One Hand",
-        "url": "https://arxiv.org/abs/2609.10137v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Automatic Reproducible Camera Intrinsic Calibration",
-        "url": "https://arxiv.org/abs/2609.10082v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Grounding Generated Video Plans in Simulation Towards Versatile Dexterous Controllers",
-        "url": "https://arxiv.org/abs/2609.10050v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Belief-State Engine: Augmenting LLMs for Principled Planning Under Partial Observability",
-        "url": "https://arxiv.org/abs/2609.10036v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "What Symmetry Buys a Learned Motion Planner",
-        "url": "https://arxiv.org/abs/2609.10033v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Deep Learning-Based Detection of Electrical Faults and Power Quality Disturbances in Aerospace Power Systems",
-        "url": "https://arxiv.org/abs/2609.10479v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Multivariate linear regression without prior assumptions",
-        "url": "https://arxiv.org/abs/2609.10477v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "The U.S. Interconnection Queue System: Cascading Vulnerability Analysis and a Resilience Engineering Framework",
-        "url": "https://arxiv.org/abs/2609.10455v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Mobility Information Capacity in the Sky: A Gaussian Channel Perspective",
-        "url": "https://arxiv.org/abs/2609.10436v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Tethered UAVs for Dense Urban Connectivity",
-        "url": "https://arxiv.org/abs/2609.10414v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Economic Evaluation of V2G-Enabled Fast Charging Stations Under Endogenous EV Adoption Dynamics",
-        "url": "https://arxiv.org/abs/2609.10388v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Mitigating Degradation Attacks in Cooperative Autonomous Driving via Intention Sharing: A Vehicle-in-the-Loop Study",
-        "url": "https://arxiv.org/abs/2609.10232v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "From Laboratory Aging Studies to Field Predictions: Quantifying Uncertainty in Battery Storage Lifetime Predictions",
-        "url": "https://arxiv.org/abs/2609.10185v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Distributed ToA Localization of Acoustic Sources with Unknown Time of Emission via Operator Splitting",
-        "url": "https://arxiv.org/abs/2609.10182v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Can AI Agents Deliver Verifiable Network-Wide Outcomes Across Authority Boundaries?",
-        "url": "https://arxiv.org/abs/2609.10181v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Context operations to architecture modelling output from large language models and evaluation criteria for their use in systems engineering design",
-        "url": "https://arxiv.org/abs/2609.10132v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Joint nonlinearity in a stiffened aluminium wingbox panel and what it requires of a reduced basis",
-        "url": "https://arxiv.org/abs/2609.10088v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Elastoformer: Enabling Dynamic Adaptivity via Elastic Model Transformation",
-        "url": "https://arxiv.org/abs/2609.10018v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Review on State-of-the-art Energy Systems in Arctic",
-        "url": "https://arxiv.org/abs/2609.09992v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "The Global Asymptotic Stability Problem for Linear MPC Is Undecidable",
-        "url": "https://arxiv.org/abs/2609.09930v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Optimal Dispatch of a Hydrogen-Colocated Renewable-Powered Desalination Plant",
-        "url": "https://arxiv.org/abs/2609.09868v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Can AI Agents Detect and Repair Artifact Drift in Network Experiments?",
-        "url": "https://arxiv.org/abs/2609.09849v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Semi-Cooperative Passive Integrated Sensing and Communication by Utilizing Physical Layer Information of 5G Signals",
-        "url": "https://arxiv.org/abs/2609.09844v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Entropy-Regularized Optimal Transport for Time-Varying Multi-Agent Coverage Control",
-        "url": "https://arxiv.org/abs/2609.09829v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Spatial LLM Workload Shifting Needs Foresight: Model Commitment for AI Data Center Operation under Power Grid Constraints",
-        "url": "https://arxiv.org/abs/2609.09787v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Graph-Based Characterization of Vision-Derived Dynamic Modes for Structural Damage Identification",
-        "url": "https://arxiv.org/abs/2609.09666v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
         "by_hand": false
       },
       {
@@ -2330,34 +2358,6 @@
         "url": "https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/",
         "pool": "robotics",
         "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-        "url": "https://openai.com/index/codex-quantum-computing-experiments",
-        "pool": "institutions",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "This Robot Will Draw Your Blood Now",
-        "url": "https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta",
-        "pool": "robotics",
-        "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "Inbolt to discuss physical AI’s deployment problem at RoboBusiness",
-        "url": "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/",
-        "pool": "robotics",
-        "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
-        "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
-        "pool": "robotics",
-        "date": "2026-09-07",
         "by_hand": false
       }
     ],
@@ -2426,6 +2426,167 @@
         "by_hand": true
       },
       {
+        "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
+        "url": "https://arxiv.org/abs/2609.11923v1",
+        "pool": "arxiv",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "General Quantification of Covariate and Concept Shifts",
+        "url": "https://arxiv.org/abs/2609.11918v1",
+        "pool": "arxiv",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Can Edge-Deployable Vision-Language Models Identify Species?",
+        "url": "https://arxiv.org/abs/2609.11916v1",
+        "pool": "arxiv",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
+        "url": "https://arxiv.org/abs/2609.11915v1",
+        "pool": "arxiv",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
+        "url": "https://arxiv.org/abs/2609.11911v1",
+        "pool": "arxiv",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
+        "url": "https://arxiv.org/abs/2609.11900v1",
+        "pool": "arxiv",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Domain-Specific Hallucination Detection in Large Language Models",
+        "url": "https://arxiv.org/abs/2609.11878v1",
+        "pool": "arxiv",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Biology-in-the-loop: Amortized Adaptive Hit Discovery in CRISPR Screens",
+        "url": "https://arxiv.org/abs/2609.11877v1",
+        "pool": "arxiv",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "On the Regularization Landscape for the Linear Recommendation Models",
+        "url": "https://arxiv.org/abs/2609.11876v1",
+        "pool": "arxiv",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+        "url": "https://arxiv.org/abs/2609.11873v1",
+        "pool": "arxiv",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Learning Agent-based Model Predictive Control for Holistic Vehicle Performance",
+        "url": "https://arxiv.org/abs/2609.11871v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Rapid Learning of Dexterous In-Hand Pen Writing through Real-Time Jacobian Estimation",
+        "url": "https://arxiv.org/abs/2609.11775v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI",
+        "url": "https://arxiv.org/abs/2609.11737v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Reflex-Informed Neuromuscular Reinforcement Learning for Muscle-Driven Locomotion",
+        "url": "https://arxiv.org/abs/2609.11733v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "CARLAverse: A Highly Modular, Distributed, and Multimodal Framework for Human-in-the-Loop Simulation",
+        "url": "https://arxiv.org/abs/2609.11478v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Safety-aware Skill Adaptation for Reinforcement Learning in Dynamic Environments",
+        "url": "https://arxiv.org/abs/2609.11433v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation",
+        "url": "https://arxiv.org/abs/2609.11308v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Truncated Noisy Best-Response Algorithms: Toward Game Theoretic Learning with Safety Guarantees",
+        "url": "https://arxiv.org/abs/2609.11863v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Predefined-Time Resilient Integral Reinforcement Learning for Input-Constrained Unknown Nonlinear Systems Under FDI Attacks and Disturbances: A Fully Data-Driven Approach",
+        "url": "https://arxiv.org/abs/2609.11815v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Predefined-Time Leaderless Consensus Under Denial-of-Service Attacks",
+        "url": "https://arxiv.org/abs/2609.11781v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Distributed Optimization of Modular Production Systems using Model-based Reinforcement Learning with Inverse Models",
+        "url": "https://arxiv.org/abs/2609.11615v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Quantifying the Reality Gap for RL-Based UAV Placement at mmWave and Sub-THz",
+        "url": "https://arxiv.org/abs/2609.11121v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "BenchShield: Formal Model-Backed Instrumentation for Reward Integrity in LLM-Agent Evaluation Infrastructure",
+        "url": "https://arxiv.org/abs/2609.11028v1",
+        "pool": "robotics",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
         "title": "Now everyone can put data to work",
         "url": "https://openai.com/index/put-data-to-work",
         "pool": "institutions",
@@ -2440,164 +2601,10 @@
         "by_hand": false
       },
       {
-        "title": "Donating The Model Context Protocol And Establishing Of The Agentic Ai Foundation",
-        "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
         "title": "Native is now the future of mobile at Shopify",
         "url": "https://shopify.engineering/back-to-native",
         "pool": "design_refs",
         "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Show-Harness: Just a VLM Agent Can Play Robots",
-        "url": "https://arxiv.org/abs/2609.10522v1",
-        "pool": "arxiv",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "IBIB: A Protocol for Measuring Enterprise AI Systems by Serving Route, Not Model Identifier",
-        "url": "https://arxiv.org/abs/2609.10494v1",
-        "pool": "arxiv",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization",
-        "url": "https://arxiv.org/abs/2609.10464v1",
-        "pool": "arxiv",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "JarvisGUI: Towards Cross-Device GUI Agents with Dynamic Task Composition",
-        "url": "https://arxiv.org/abs/2609.10451v1",
-        "pool": "arxiv",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "ConvMem: Convolutional Memory for Long-Context Reasoning",
-        "url": "https://arxiv.org/abs/2609.10441v1",
-        "pool": "arxiv",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Forgetting Only What Matters: Layer-Selective Unlearning toward Robust LLMs",
-        "url": "https://arxiv.org/abs/2609.10439v1",
-        "pool": "arxiv",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Emergency Department Revisit Quality Review Screening: Exploring Human Decision-Making and Artificial Intelligence Support",
-        "url": "https://arxiv.org/abs/2609.10421v1",
-        "pool": "arxiv",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Fortunate Recall: Ontology-Driven Memory Lifecycle Management for Persistent Coherence in LLMs",
-        "url": "https://arxiv.org/abs/2609.10413v1",
-        "pool": "arxiv",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Can Foundation Models Moderate Online Content? Evaluating Instruction- vs. Example-Driven Policy Operationalization",
-        "url": "https://arxiv.org/abs/2609.10410v1",
-        "pool": "arxiv",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "MOONWALK: Mediating Operations with Intent-Evidence-Action Alignment Across Junior-Supervisor Review Workflows in Animation/VFX Pre-Production",
-        "url": "https://arxiv.org/abs/2609.10385v1",
-        "pool": "arxiv",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Multi-Agent Reinforcement Learning for Autonomous UAV Exploration in Wildfire Response",
-        "url": "https://arxiv.org/abs/2609.10433v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Deformable Object Manipulation under Partial Observability via Real-Time Full-Shape Estimation",
-        "url": "https://arxiv.org/abs/2609.10308v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects",
-        "url": "https://arxiv.org/abs/2609.10243v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Assembling Two Parts in One Hand",
-        "url": "https://arxiv.org/abs/2609.10137v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Belief-State Engine: Augmenting LLMs for Principled Planning Under Partial Observability",
-        "url": "https://arxiv.org/abs/2609.10036v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "What Symmetry Buys a Learned Motion Planner",
-        "url": "https://arxiv.org/abs/2609.10033v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Can AI Agents Deliver Verifiable Network-Wide Outcomes Across Authority Boundaries?",
-        "url": "https://arxiv.org/abs/2609.10181v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Context operations to architecture modelling output from large language models and evaluation criteria for their use in systems engineering design",
-        "url": "https://arxiv.org/abs/2609.10132v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Can AI Agents Detect and Repair Artifact Drift in Network Experiments?",
-        "url": "https://arxiv.org/abs/2609.09849v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Entropy-Regularized Optimal Transport for Time-Varying Multi-Agent Coverage Control",
-        "url": "https://arxiv.org/abs/2609.09829v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Spatial LLM Workload Shifting Needs Foresight: Model Commitment for AI Data Center Operation under Power Grid Constraints",
-        "url": "https://arxiv.org/abs/2609.09787v1",
-        "pool": "robotics",
-        "date": "2026-09-09",
         "by_hand": false
       },
       {
@@ -2774,13 +2781,6 @@
         "pool": "institutions",
         "date": "2026-08-27",
         "by_hand": false
-      },
-      {
-        "title": "LLM Prompt Interfaces as Execution Contracts: Reducing Unsafe Tool Invocation Across the Incident Lifecycle in AIOps",
-        "url": "https://doi.org/10.70917/ijcisim-2026-5217",
-        "pool": "institutions",
-        "date": "2026-08-27",
-        "by_hand": false
       }
     ],
     "institutions": [
@@ -2789,6 +2789,13 @@
         "url": "https://openalex.org/W7160476156",
         "pool": "institutions",
         "date": "2026-09-26",
+        "by_hand": false
+      },
+      {
+        "title": "Introducing Claude Corps",
+        "url": "https://www.anthropic.com/news/claude-corps",
+        "pool": "institutions",
+        "date": "2026-09-11",
         "by_hand": false
       },
       {
@@ -2918,7 +2925,7 @@
         "by_hand": false
       },
       {
-        "title": "Anthropic raises $13B Series F at $183B valuation",
+        "title": "Anthropic Raises Series F At Usd183B Post Money Valuation",
         "url": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation",
         "pool": "institutions",
         "date": "2026-09-10",
@@ -2988,15 +2995,15 @@
         "by_hand": false
       },
       {
-        "title": "Donating The Model Context Protocol And Establishing Of The Agentic Ai Foundation",
-        "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
+        "title": "Seven in 10 Gen Z jobseekers apply without checking whether roles are genuine as four in five face financial pressure | Barclays",
+        "url": "https://home.barclays/news/press-releases/20260/090/seven-in-10-gen-z-jobseekers-apply-without-checking-whether-role/",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
       },
       {
-        "title": "Seven in 10 Gen Z jobseekers apply without checking whether roles are genuine as four in five face financial pressure | Barclays",
-        "url": "https://home.barclays/news/press-releases/20260/090/seven-in-10-gen-z-jobseekers-apply-without-checking-whether-role/",
+        "title": "How Will Less Fed Transparency Affect Markets And The Economy",
+        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-will-less-fed-transparency-affect-markets-and-the-economy",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
@@ -3009,8 +3016,15 @@
         "by_hand": false
       },
       {
-        "title": "How Will Less Fed Transparency Affect Markets And The Economy",
-        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-will-less-fed-transparency-affect-markets-and-the-economy",
+        "title": "Thoughts On The Market",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Sustainable Funds Outperform Traditional First Half 2026",
+        "url": "https://www.morganstanley.com/insights/articles/sustainable-funds-outperform-traditional-first-half-2026",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
@@ -3186,20 +3200,6 @@
       {
         "title": "Assessing A Less Transparent Fed",
         "url": "https://www.goldmansachs.com/insights/top-of-mind/assessing-a-less-transparent-fed",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "How Will Less Fed Transparency Affect Markets And The Economy   Transcript",
-        "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/how-will-less-fed-transparency-affect-markets-and-the-economy/transcript.pdf",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Financial Sponsors Global Credit Markets",
-        "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-sponsors-global-credit-markets",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false

@@ -2,7 +2,7 @@
 title: "Record 04421fbce3 · Diagnostic-accuracy-of-core-needle-biopsy-versus-fine-needle-aspiratio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T05:00:44.239012+00:00
+updated_at: 2026-09-11T06:13:55.424381+00:00
 tags: [record, real-data]
 ---
 

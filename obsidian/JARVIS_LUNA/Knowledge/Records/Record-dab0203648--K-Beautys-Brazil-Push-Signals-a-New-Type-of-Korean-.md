@@ -2,7 +2,7 @@
 title: "Record dab0203648 · K-Beautys-Brazil-Push-Signals-a-New-Type-of-Korean-Diplomacy---The-Dip"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T05:00:44.502479+00:00
+updated_at: 2026-09-11T06:13:55.671855+00:00
 tags: [record, real-data]
 ---
 

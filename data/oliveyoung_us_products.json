@@ -2,11 +2,11 @@
   "source": "us.oliveyoung.com/best-sellers (실수집)",
   "method": "React Router turbo-stream 데이터 응답 파싱",
   "robots_note": "robots.txt 확인: Allow / 이며 /best-sellers 는 허용 경로. Disallow 인 /search 는 요청하지 않음.",
-  "collected_at": "2026-09-11T04:09:08.299267+00:00",
+  "collected_at": "2026-09-11T05:45:59.084221+00:00",
   "count": 100,
-  "reason": "수집 실패: HTTP 403 · 이전 수집분 유지(2026-09-11)",
-  "is_stale": true,
-  "stale_from": "2026-09-11T02:45:34.604421+00:00",
+  "reason": "",
+  "is_stale": false,
+  "stale_from": "",
   "price_stats": {
     "n": 100,
     "min": 5.49,
@@ -138,7 +138,7 @@
       "rating": 5,
       "review_count": 3,
       "is_soldout": false,
-      "image_url": "https://use-image.oliveyoung.com/images/prd/8809962545275/thumbnail/32edae55-06f3-4639-87af-e173d3c55ba3.png",
+      "image_url": "https://use-image.oliveyoung.com/images/prd/8809962545275/thumbnail/0c9e2c2b-5899-4e6b-afa4-ebeb62196846.png",
       "url": "https://us.oliveyoung.com/products/UA38918945"
     },
     {
@@ -488,7 +488,7 @@
       "rating": 4.7,
       "review_count": 3,
       "is_soldout": false,
-      "image_url": "https://use-image.oliveyoung.com/images/prd/8809962545268/thumbnail/c35e3f31-64d7-4155-a2e7-95c9e2fa92e6.png",
+      "image_url": "https://use-image.oliveyoung.com/images/prd/8809962545268/thumbnail/efd69f2b-2ab2-42e5-8753-6e5bbfce803c.png",
       "url": "https://us.oliveyoung.com/products/UA40428614"
     },
     {
@@ -866,7 +866,7 @@
       "rating": 4.2,
       "review_count": 6,
       "is_soldout": false,
-      "image_url": "https://use-image.oliveyoung.com/images/prd/8809962545244/thumbnail/c092ebdc-297f-45f8-9f8c-f4f96edf2f66.png",
+      "image_url": "https://use-image.oliveyoung.com/images/prd/8809962545244/thumbnail/a2e67017-cd27-4e11-bfe5-c04f814ed929.png",
       "url": "https://us.oliveyoung.com/products/UA31335546"
     },
     {

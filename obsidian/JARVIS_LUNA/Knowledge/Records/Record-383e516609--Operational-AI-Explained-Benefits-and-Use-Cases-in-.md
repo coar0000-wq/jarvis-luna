@@ -2,7 +2,7 @@
 title: "Record 383e516609 · Operational-AI-Explained-Benefits-and-Use-Cases-in-Ecommerce---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T05:00:44.389284+00:00
+updated_at: 2026-09-11T06:13:55.565718+00:00
 tags: [record, real-data]
 ---
 

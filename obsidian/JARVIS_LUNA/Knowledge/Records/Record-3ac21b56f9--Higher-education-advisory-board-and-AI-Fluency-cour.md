@@ -2,7 +2,7 @@
 title: "Record 3ac21b56f9 · Higher-education-advisory-board-and-AI-Fluency-courses"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T05:00:44.666023+00:00
+updated_at: 2026-09-11T06:13:55.823993+00:00
 tags: [record, real-data]
 ---
 

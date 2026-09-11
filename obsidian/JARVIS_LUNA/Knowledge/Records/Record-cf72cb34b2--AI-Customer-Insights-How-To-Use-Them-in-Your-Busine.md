@@ -2,7 +2,7 @@
 title: "Record cf72cb34b2 · AI-Customer-Insights-How-To-Use-Them-in-Your-Business---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T05:00:44.373768+00:00
+updated_at: 2026-09-11T06:13:55.551419+00:00
 tags: [record, real-data]
 ---
 
