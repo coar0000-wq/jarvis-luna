@@ -1,18 +1,18 @@
 ---
-title: "Record 917b5659d7 · TikTok-and-the-Korean-beauty-boom-are-shifting-global-retail---Retail-"
+title: "Record 917b5659d7 · TikTok-and-the-Korean-beauty-boom-are-shifting-global-retail---retail-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.819586+00:00
+updated_at: 2026-09-11T22:20:57.944900+00:00
 tags: [record, real-data]
 ---
 
-# Record 917b5659d7 · TikTok-and-the-Korean-beauty-boom-are-shifting-global-retail---Retail-
+# Record 917b5659d7 · TikTok-and-the-Korean-beauty-boom-are-shifting-global-retail---retail-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimgFBVV95cUxQTTFBajJjSXQxMXJjMkhJLXMxTEJCd0xtdGpmcE9kbkJ4cDlFQmluVkNTajhwTnhyWGdpRDU1MG5UVHQyOU51Y1RFUUtHV0tQa2pqTkVGWUNueHBmUGxmc1ozQ0VSYUZQOS11cVB1dEhLQnEwR0tDTXFhb1BtdU5jVHFISHNTYTdUa0FxaFN0SXRkU2E0T2Fqb2t3?oc=5)
 
-**제목:** TikTok and the Korean beauty boom are shifting global retail - Retail Merchandiser Magazine
+**제목:** TikTok and the Korean beauty boom are shifting global retail - retail-merchandiser.com
 
-TikTok and the Korean beauty boom are shifting global retail - Retail Merchandiser Magazine
+TikTok and the Korean beauty boom are shifting global retail - retail-merchandiser.com
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record e903e652e1 · MINT-A-Unified-Model-for-World-Space-Camera-and-Hand-Motion-Estimation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.377155+00:00
+updated_at: 2026-09-11T22:20:57.635274+00:00
 tags: [record, real-data]
 ---
 

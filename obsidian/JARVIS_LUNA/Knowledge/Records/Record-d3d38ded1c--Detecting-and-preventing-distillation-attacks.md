@@ -2,7 +2,7 @@
 title: "Record d3d38ded1c · Detecting-and-preventing-distillation-attacks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.984958+00:00
+updated_at: 2026-09-11T22:20:58.061253+00:00
 tags: [record, real-data]
 ---
 

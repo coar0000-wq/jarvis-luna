@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T18:58:03.674046+00:00",
+  "generated_at": "2026-09-11T22:12:38.477102+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -714,6 +714,22 @@
           "source": "rss"
         },
         {
+          "title": "One brick at a time: How Monumental uses robotics to build walls",
+          "summary": "<p>CEO Salar al Khafaji introduces podcast listeners to how Monumental is using robotics to build walls.</p> <p>The post <a href=\"https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/\">One brick at a time: How Monumental uses robotics to build walls</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Fri, 11 Sep 2026 21:09:01 +0000",
+          "url": "https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
+          "title": "Learn how AVs and robotics are laying the groundwork for field deployments at RoboBusiness",
+          "summary": "<p>ASI CEO Mel Torrie will explore why the intersection of autonomous vehicles and robotics will further revolutionize field deployments.</p> <p>The post <a href=\"https://www.therobotreport.com/learn-how-avs-robotics-are-laying-groundwork-field-deployments-robobusiness/\">Learn how AVs and robotics are laying the groundwork for field deployments at RoboBusiness</a> appeared first on <a href=\"https:",
+          "published": "Fri, 11 Sep 2026 19:49:40 +0000",
+          "url": "https://www.therobotreport.com/learn-how-avs-robotics-are-laying-groundwork-field-deployments-robobusiness/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
           "title": "How to select the right rack and pinion system for high-precision linear motion",
           "summary": "<p>GAM explains why robotics designers should consider pinion size when thinking about motion control for high-precision applications. </p> <p>The post <a href=\"https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/\">How to select the right rack and pinion system for high-precision linear motion</a> appeared first on <a href=\"https://www.the",
           "published": "Fri, 11 Sep 2026 14:35:47 +0000",
@@ -814,22 +830,6 @@
           "summary": "<p>Rudy Cohen, the co-founder and CEO of Inbolt, will reframe where physical AI pays off at RoboBusiness this fall.</p> <p>The post <a href=\"https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/\">Inbolt to discuss physical AI&#8217;s deployment problem at RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>",
           "published": "Mon, 07 Sep 2026 14:00:13 +0000",
           "url": "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
-          "summary": "<p>Agility Robotics’ S-4 filing reveals $1.8 million in 2025 revenue, a $140 million operating loss and plans to scale its Digit humanoid robot business.</p> <p>The post <a href=\"https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/\">Agility Robotics reports $1.8M revenue ahead of humanoid SPAC</a> appeared first on <a href=\"https://www.therobotreport.com\">The",
-          "published": "Mon, 07 Sep 2026 13:17:45 +0000",
-          "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "MassRobotics shares member survey results around FCC restrictions",
-          "summary": "<p>MassRobotics has found that companies were split on the FCC ban on new foreign-produced mobile robots.</p> <p>The post <a href=\"https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/\">MassRobotics shares member survey results around FCC restrictions</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Mon, 07 Sep 2026 12:30:16 +0000",
-          "url": "https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/",
           "feed": "The Robot Report",
           "source": "rss"
         }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:04:47.201524+00:00",
+  "generated_at": "2026-09-11T22:19:15.546785+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "sevilla vs valencia",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Fri, 11 Sep 2026 11:10:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=sevilla%20vs%20valencia"
+          "keyword": "football games tonight",
+          "approx_traffic": "500000+",
+          "traffic_num": 500000,
+          "published": "Fri, 11 Sep 2026 14:50:00 -0700",
+          "source_name": "NFL.com",
+          "url": "https://trends.google.com/trending?geo=US&q=football%20games%20tonight"
         },
         {
-          "keyword": "cyclosporiasis",
+          "keyword": "greg gutfeld",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Fri, 11 Sep 2026 14:50:00 -0700",
+          "source_name": "The Independent",
+          "url": "https://trends.google.com/trending?geo=US&q=greg%20gutfeld"
+        },
+        {
+          "keyword": "rockies vs tigers",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Fri, 11 Sep 2026 14:50:00 -0700",
+          "source_name": "Bless You Boys",
+          "url": "https://trends.google.com/trending?geo=US&q=rockies%20vs%20tigers"
+        },
+        {
+          "keyword": "matthew mcconaughey",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Fri, 11 Sep 2026 14:40:00 -0700",
+          "source_name": "People.com",
+          "url": "https://trends.google.com/trending?geo=US&q=matthew%20mcconaughey"
+        },
+        {
+          "keyword": "judge judy",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Fri, 11 Sep 2026 11:30:00 -0700",
-          "source_name": "CNBC",
-          "url": "https://trends.google.com/trending?geo=US&q=cyclosporiasis"
+          "published": "Fri, 11 Sep 2026 15:00:00 -0700",
+          "source_name": "KTLA",
+          "url": "https://trends.google.com/trending?geo=US&q=judge%20judy"
         },
         {
-          "keyword": "travel warning",
+          "keyword": "angels vs nationals",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Fri, 11 Sep 2026 11:20:00 -0700",
-          "source_name": "Fox News",
-          "url": "https://trends.google.com/trending?geo=US&q=travel%20warning"
-        },
-        {
-          "keyword": "deportivo vs real madrid",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Fri, 11 Sep 2026 11:20:00 -0700",
-          "source_name": "Real Madrid CF | Web Oficial",
-          "url": "https://trends.google.com/trending?geo=US&q=deportivo%20vs%20real%20madrid"
-        },
-        {
-          "keyword": "malik davis",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 11 Sep 2026 11:50:00 -0700",
-          "source_name": "Sports Illustrated",
-          "url": "https://trends.google.com/trending?geo=US&q=malik%20davis"
-        },
-        {
-          "keyword": "bo melton",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 11 Sep 2026 11:50:00 -0700",
-          "source_name": "WLUK",
-          "url": "https://trends.google.com/trending?geo=US&q=bo%20melton"
-        },
-        {
-          "keyword": "wilber dotel",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 11 Sep 2026 11:50:00 -0700",
+          "published": "Fri, 11 Sep 2026 14:50:00 -0700",
           "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=wilber%20dotel"
+          "url": "https://trends.google.com/trending?geo=US&q=angels%20vs%20nationals"
         },
         {
-          "keyword": "john lowe cbs legal dispute",
+          "keyword": "college football tonight",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Fri, 11 Sep 2026 14:50:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=college%20football%20tonight"
+        },
+        {
+          "keyword": "scp foundation movie a24 2027",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 11 Sep 2026 11:20:00 -0700",
+          "published": "Fri, 11 Sep 2026 15:00:00 -0700",
           "source_name": "Deadline",
-          "url": "https://trends.google.com/trending?geo=US&q=john%20lowe%20cbs%20legal%20dispute"
+          "url": "https://trends.google.com/trending?geo=US&q=scp%20foundation%20movie%20a24%202027"
         },
         {
-          "keyword": "europa league",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Fri, 11 Sep 2026 11:20:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=europa%20league"
+          "keyword": "32 hour work week",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 11 Sep 2026 14:50:00 -0700",
+          "source_name": "USA Today",
+          "url": "https://trends.google.com/trending?geo=US&q=32%20hour%20work%20week"
         },
         {
-          "keyword": "sun",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Fri, 11 Sep 2026 11:20:00 -0700",
-          "source_name": "Scientific American",
-          "url": "https://trends.google.com/trending?geo=US&q=sun"
+          "keyword": "interstate 5",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 11 Sep 2026 14:50:00 -0700",
+          "source_name": "KATU",
+          "url": "https://trends.google.com/trending?geo=US&q=interstate%205"
         }
       ]
     },
@@ -187,6 +187,21 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "14 Best Gourmand Perfumes 2026 to Delight Your Senses",
+          "published": "Fri, 11 Sep 2026 20:35:48 +0000",
+          "url": "https://www.allure.com/story/best-gourmand-perfumes"
+        },
+        {
+          "title": "12 Best Beauty Advent Calendars 2026 to Delight Everyone on Your List",
+          "published": "Fri, 11 Sep 2026 20:34:27 +0000",
+          "url": "https://www.allure.com/gallery/best-beauty-advent-calendars"
+        },
+        {
+          "title": "6 Types of Eyelid Bumps and How to Treat Them, According to Dermatologists",
+          "published": "Fri, 11 Sep 2026 20:00:00 +0000",
+          "url": "https://www.allure.com/story/bump-on-eyelid-styes-milia-causes-treatment"
+        },
         {
           "title": "Crimped Hair Got a Sleek Makeover at New York Fashion Week Spring/Summer 2027 — See Photos",
           "published": "Fri, 11 Sep 2026 18:14:49 +0000",
@@ -321,21 +336,6 @@
           "title": "Fall 2026 Makeup Trends Put Your Best Features Front and Center — See Photos",
           "published": "Fri, 04 Sep 2026 00:00:00 +0000",
           "url": "https://www.allure.com/story/fall-makeup-trends-2026"
-        },
-        {
-          "title": "Hairstylist Frédéric Fekkai Is Being Sued by Epstein Survivors for Allegedly Enabling Gender-Motivated Violence",
-          "published": "Thu, 03 Sep 2026 22:50:04 +0000",
-          "url": "https://www.allure.com/story/hairstylist-frederic-fekkai-lawsuit-grooming-accusations"
-        },
-        {
-          "title": "A New Report on Plastic Surgery Trends Shows Americans Over 66 Want to Be Snatched, Too",
-          "published": "Thu, 03 Sep 2026 22:31:50 +0000",
-          "url": "https://www.allure.com/story/asps-plastic-surgery-trends-2025"
-        },
-        {
-          "title": "9 Best Leave-in Conditioners for Fine Hair 2026 That Won't Nix Volume",
-          "published": "Thu, 03 Sep 2026 17:34:36 +0000",
-          "url": "https://www.allure.com/story/leave-in-conditioners-for-fine-hair"
         }
       ]
     },

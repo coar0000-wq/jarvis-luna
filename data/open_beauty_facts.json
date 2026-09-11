@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-11T18:59:55.477172+00:00",
+  "collected_at": "2026-09-11T22:14:48.628807+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -20,7 +20,7 @@
   },
   "per_category": {
     "스킨케어": 6,
-    "마스크팩": 11,
+    "마스크팩": 10,
     "클렌징": 10,
     "선케어": 9,
     "메이크업": 10,
@@ -33,7 +33,7 @@
     "립케어": 12
   },
   "errors": {},
-  "count": 123,
+  "count": 122,
   "products": [
     {
       "code": "4005900963499",
@@ -232,30 +232,17 @@
       "url": "https://world.openbeautyfacts.org/product/8683420170045"
     },
     {
-      "code": "6931583605884",
-      "product_name": "Masque Tissu Visage Hydratant Vitamine A",
-      "brands": "Miniso",
+      "code": "8809990942121",
+      "product_name": "purple rice PDRN bubble mask",
+      "brands": "Over The Moon Global Co. Ltd., tokki on the moon",
       "category": "마스크팩",
       "obf_category": "face-masks",
       "countries": [
-        "France"
+        "Singapore"
       ],
-      "ingredients_text": "AQUA/WATER/EAU, BUTYLENE GLYCOL, GLYCERIN, HYDROXYACETOPHENONE, DIMETICONE, PANTHENOL, PHENOXYETHANOL, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, ALLANTOIN, SODIUM POLYACRYLATE, PEG-40 HYDROGENATED CASTOR OIL, SODIUM HYDROXIDE, SODIUM HYALURONATE, DIPOTASSIUM GLYCYRRHIZATE, DISODIUM EDTA, HYDROEXYTHYLCELLULOSE, PARFUM/FRAGRANCE, LIMONENE, CELLULOSE, ACETATE BUTYRATE, TRICAPRYLIN, RETINOL, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE",
-      "image_url": "https://images.openbeautyfacts.org/images/products/693/158/360/5884/front_fr.6.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/6931583605884"
-    },
-    {
-      "code": "5900116091990",
-      "product_name": "Face it!",
-      "brands": "AA",
-      "category": "마스크팩",
-      "obf_category": "face-masks",
-      "countries": [
-        "Poland"
-      ],
-      "ingredients_text": "Aqua, Propylene Glycol, Niacinamide, Propanediol, Betaine, Hydroxypropyl Starch Phosphate, Glycerin, Sodium Hyaluronate, Xanthan Gum, Allantoin, Panthenol, Zinc PCA, Inulin, Alpha-Glucan Oligosaccharide, Betaine Salicylate, Mandelic Acid, 3-0-Ethyl Ascorbic Acid, Azelaic Acid, Polyacrylate Crosspolymer-6, 1,2-Hexanediol, Hydroxyacetophenone, Tetrasodium Glutamate Diacetate, Polysorbate 20, Parfum.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/590/011/609/1990/front_en.7.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/5900116091990"
+      "ingredients_text": "",
+      "image_url": "https://images.openbeautyfacts.org/images/products/880/999/094/2121/front_en.5.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/8809990942121"
     },
     {
       "code": "3337875597333",
@@ -1430,19 +1417,6 @@
       "url": "https://world.openbeautyfacts.org/product/8714789913919"
     },
     {
-      "code": "59095842",
-      "product_name": "Dove Advanced Care Anti-Transpirant Deodorant Roller Original 50 ML",
-      "brands": "Dove",
-      "category": "데오드란트",
-      "obf_category": "deodorants",
-      "countries": [
-        "Netherlands"
-      ],
-      "ingredients_text": "Aqua, Glycerin, Aluminum Sesquichlorohydrate, Helianthus Annuus Seed Oil, Steareth-2, Parfum, Steareth-20, Calcium Chloride, Glycine, Disodium EDTA, Pentaerythrity Tetra-di-butyl Hydroxyhydrocinnamate, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Citronellol, Eugenol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool",
-      "image_url": "https://images.openbeautyfacts.org/images/products/000/005/909/5842/front_en.41.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/59095842"
-    },
-    {
       "code": "4005900243553",
       "product_name": "Nivea men Protect & Care",
       "brands": "Nivea Men",
@@ -1455,6 +1429,19 @@
       "ingredients_text": "Aqua, Aluminium chlorohydrate, PPG-15 stearyl ether, Steareth-2, Steareth-21, Parfum, Glycerin, Panthenol, Octyldodecanol, Persea Gratissima oil, Trisodium EDTA, Limoene, Linalool, Coumarin, Geraniol",
       "image_url": "https://images.openbeautyfacts.org/images/products/400/590/024/3553/front_en.13.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/4005900243553"
+    },
+    {
+      "code": "59095842",
+      "product_name": "Dove Advanced Care Anti-Transpirant Deodorant Roller Original 50 ML",
+      "brands": "Dove",
+      "category": "데오드란트",
+      "obf_category": "deodorants",
+      "countries": [
+        "Netherlands"
+      ],
+      "ingredients_text": "Aqua, Glycerin, Aluminum Sesquichlorohydrate, Helianthus Annuus Seed Oil, Steareth-2, Parfum, Steareth-20, Calcium Chloride, Glycine, Disodium EDTA, Pentaerythrity Tetra-di-butyl Hydroxyhydrocinnamate, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Citronellol, Eugenol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool",
+      "image_url": "https://images.openbeautyfacts.org/images/products/000/005/909/5842/front_en.41.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/59095842"
     },
     {
       "code": "3600551146188",

@@ -2,7 +2,7 @@
 title: "Record 7b9452647d · Astronomy-centered-relativity-and-its-immediate-applications"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.589982+00:00
+updated_at: 2026-09-11T22:20:57.791396+00:00
 tags: [record, real-data]
 ---
 

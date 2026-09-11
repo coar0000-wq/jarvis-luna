@@ -2,7 +2,7 @@
 title: "Record 6dc4cf213d · I-Found-Every-Makeup-Product-Hailey-Bieber-UsesAnd-Theyre-All-Under-10"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.819070+00:00
+updated_at: 2026-09-11T22:20:57.944580+00:00
 tags: [record, real-data]
 ---
 

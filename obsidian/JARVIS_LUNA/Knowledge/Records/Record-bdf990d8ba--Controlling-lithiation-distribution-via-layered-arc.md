@@ -2,7 +2,7 @@
 title: "Record bdf990d8ba · Controlling-lithiation-distribution-via-layered-architecture-for-high-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.471048+00:00
+updated_at: 2026-09-11T22:20:57.704607+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9cd873529f · Learning-Agent-based-Model-Predictive-Control-for-Holistic-Vehicle-Per"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.436375+00:00
+updated_at: 2026-09-11T22:20:57.679406+00:00
 tags: [record, real-data]
 ---
 

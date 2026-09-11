@@ -2,7 +2,7 @@
 title: "Record 6a29e373d0 · Stress-and-Substitution-A-Theory-of-Opaque-Capital-Allocation-under-Ma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.548950+00:00
+updated_at: 2026-09-11T22:20:57.761437+00:00
 tags: [record, real-data]
 ---
 

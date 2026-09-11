@@ -2,7 +2,7 @@
 title: "Record bbc6796136 · Co-packaged-optics-for-high-performance-computing-and-artificial-intel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.496258+00:00
+updated_at: 2026-09-11T22:20:57.723108+00:00
 tags: [record, real-data]
 ---
 

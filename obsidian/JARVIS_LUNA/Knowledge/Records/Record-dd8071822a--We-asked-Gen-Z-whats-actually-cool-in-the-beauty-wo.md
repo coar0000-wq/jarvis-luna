@@ -2,7 +2,7 @@
 title: "Record dd8071822a · We-asked-Gen-Z-whats-actually-cool-in-the-beauty-world--and-youll-be-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.796930+00:00
+updated_at: 2026-09-11T22:20:57.930304+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikAFBVV95cUxOdmh1M0ZIbk50WDc0T0ZDWkNfczlITkVaNmNyaU5aNGxZRjF3MzR5UkhiQU9fVDdVUk5HWDlkQzViX0VaX25UdDRzOFRVNkQtQXlWY2lNVTE5djFkQ3RNLVR0QW5oV0o5S1NVRERFZXdMOXR1ckI0b1ZHRURTX0pic2lHN2JnQjR6VHZuekI5NVQ?oc=5)
 
-**제목:** We asked Gen Z what's actually cool in the beauty world – and you'll be surprised what they said - HELLO! Magazine
+**제목:** We asked Gen Z what's actually cool in the beauty world – and you'll be surprised what they said - hellomagazine.com
 
-We asked Gen Z what's actually cool in the beauty world – and you'll be surprised what they said - HELLO! Magazine
+We asked Gen Z what's actually cool in the beauty world – and you'll be surprised what they said - hellomagazine.com
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record 06b2313412 · Watermarks-in-stream-processing-systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.542482+00:00
+updated_at: 2026-09-11T22:20:57.756775+00:00
 tags: [record, real-data]
 ---
 

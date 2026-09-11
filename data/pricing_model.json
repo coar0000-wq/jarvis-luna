@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:04:47.990828+00:00",
+  "generated_at": "2026-09-11T22:19:16.139610+00:00",
   "exchange_rate": {
     "usd_to_krw": 1342.79,
     "as_of": "2026-09-11",
@@ -21,9 +21,9 @@
     ]
   },
   "market_benchmark": {
-    "min": 4.25,
-    "p25": 20.14,
-    "median": 24.0,
+    "min": 5.5,
+    "p25": 20.99,
+    "median": 24.99,
     "max": 279.0,
     "n": 100,
     "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-11)"
@@ -41,7 +41,7 @@
         "fee_usd": 1.85,
         "net_profit_usd": 11.84,
         "margin_pct": 47.4,
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -56,7 +56,7 @@
         "fee_usd": 1.85,
         "net_profit_usd": 11.84,
         "margin_pct": 47.4,
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -71,37 +71,7 @@
         "fee_usd": 1.85,
         "net_profit_usd": 12.59,
         "margin_pct": 50.4,
-        "market_median_usd": 24.0,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
-        "landed_cost_total_usd": 12.05,
-        "fee_usd": 1.85,
-        "net_profit_usd": 11.09,
-        "margin_pct": 44.4,
-        "market_median_usd": 24.0,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
-        "landed_cost_total_usd": 15.04,
-        "fee_usd": 1.85,
-        "net_profit_usd": 8.1,
-        "margin_pct": 32.4,
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -116,7 +86,52 @@
         "fee_usd": 1.85,
         "net_profit_usd": 15.16,
         "margin_pct": 60.7,
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "qty": 1,
+        "price_usd": 24.99,
+        "unit_price_usd": 24.99,
+        "landed_cost_total_usd": 15.04,
+        "fee_usd": 1.85,
+        "net_profit_usd": 8.1,
+        "margin_pct": 32.4,
+        "market_median_usd": 24.99,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "qty": 1,
+        "price_usd": 24.99,
+        "unit_price_usd": 24.99,
+        "landed_cost_total_usd": 12.05,
+        "fee_usd": 1.85,
+        "net_profit_usd": 11.09,
+        "margin_pct": 44.4,
+        "market_median_usd": 24.99,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1045421",
+        "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+        "qty": 1,
+        "price_usd": 24.99,
+        "unit_price_usd": 24.99,
+        "landed_cost_total_usd": 10.55,
+        "fee_usd": 1.85,
+        "net_profit_usd": 12.59,
+        "margin_pct": 50.4,
+        "market_median_usd": 24.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -127,13 +142,13 @@
         "pd_no": "1048583",
         "name": "드롭비 탄탄 광채 앰플 40 ml",
         "qty": 2,
-        "price_usd": 40.99,
-        "unit_price_usd": 20.5,
+        "price_usd": 42.99,
+        "unit_price_usd": 21.5,
         "landed_cost_total_usd": 16.34,
-        "fee_usd": 3.03,
-        "net_profit_usd": 21.62,
-        "margin_pct": 52.7,
-        "market_median_usd": 24.0,
+        "fee_usd": 3.18,
+        "net_profit_usd": 23.47,
+        "margin_pct": 54.6,
+        "market_median_usd": 24.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -142,13 +157,13 @@
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "qty": 2,
-        "price_usd": 40.99,
-        "unit_price_usd": 20.5,
+        "price_usd": 42.99,
+        "unit_price_usd": 21.5,
         "landed_cost_total_usd": 16.34,
-        "fee_usd": 3.03,
-        "net_profit_usd": 21.62,
-        "margin_pct": 52.7,
-        "market_median_usd": 24.0,
+        "fee_usd": 3.18,
+        "net_profit_usd": 23.47,
+        "margin_pct": 54.6,
+        "market_median_usd": 24.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -157,43 +172,13 @@
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "qty": 2,
-        "price_usd": 40.99,
-        "unit_price_usd": 20.5,
+        "price_usd": 42.99,
+        "unit_price_usd": 21.5,
         "landed_cost_total_usd": 15.58,
-        "fee_usd": 3.03,
-        "net_profit_usd": 22.38,
-        "margin_pct": 54.6,
-        "market_median_usd": 24.0,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "qty": 2,
-        "price_usd": 40.99,
-        "unit_price_usd": 20.5,
-        "landed_cost_total_usd": 19.32,
-        "fee_usd": 3.03,
-        "net_profit_usd": 18.64,
-        "margin_pct": 45.5,
-        "market_median_usd": 24.0,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "qty": 2,
-        "price_usd": 40.99,
-        "unit_price_usd": 20.5,
-        "landed_cost_total_usd": 23.56,
-        "fee_usd": 3.03,
-        "net_profit_usd": 14.4,
-        "margin_pct": 35.1,
-        "market_median_usd": 24.0,
+        "fee_usd": 3.18,
+        "net_profit_usd": 24.23,
+        "margin_pct": 56.4,
+        "market_median_usd": 24.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -202,13 +187,58 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "qty": 2,
-        "price_usd": 40.99,
-        "unit_price_usd": 20.5,
+        "price_usd": 42.99,
+        "unit_price_usd": 21.5,
         "landed_cost_total_usd": 10.44,
-        "fee_usd": 3.03,
-        "net_profit_usd": 27.52,
-        "margin_pct": 67.1,
-        "market_median_usd": 24.0,
+        "fee_usd": 3.18,
+        "net_profit_usd": 29.37,
+        "margin_pct": 68.3,
+        "market_median_usd": 24.99,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "qty": 2,
+        "price_usd": 42.99,
+        "unit_price_usd": 21.5,
+        "landed_cost_total_usd": 23.56,
+        "fee_usd": 3.18,
+        "net_profit_usd": 16.25,
+        "margin_pct": 37.8,
+        "market_median_usd": 24.99,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "qty": 2,
+        "price_usd": 42.99,
+        "unit_price_usd": 21.5,
+        "landed_cost_total_usd": 19.32,
+        "fee_usd": 3.18,
+        "net_profit_usd": 20.49,
+        "margin_pct": 47.7,
+        "market_median_usd": 24.99,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1045421",
+        "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+        "qty": 2,
+        "price_usd": 42.99,
+        "unit_price_usd": 21.5,
+        "landed_cost_total_usd": 15.58,
+        "fee_usd": 3.18,
+        "net_profit_usd": 24.23,
+        "margin_pct": 56.4,
+        "market_median_usd": 24.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -234,11 +264,11 @@
       "discount_pct": 0,
       "price_usd": 24.99,
       "unit_price_usd": 24.99,
-      "landed_cost_total_usd": 11.37,
-      "shipping_in_cost_usd": 7.51,
+      "landed_cost_total_usd": 11.25,
+      "shipping_in_cost_usd": 7.33,
       "fee_usd": 1.85,
-      "net_profit_usd": 11.77,
-      "margin_pct": 47.1,
+      "net_profit_usd": 11.89,
+      "margin_pct": 47.6,
       "free_shipping": false,
       "orders_for_500usd": 42,
       "price_basis": "상품별 권장가의 중앙값",
@@ -250,23 +280,23 @@
     "bundle": {
       "qty": 2,
       "discount_pct": 15,
-      "price_usd": 40.99,
-      "unit_price_usd": 20.5,
-      "landed_cost_total_usd": 16.93,
-      "shipping_in_cost_usd": 9.22,
-      "fee_usd": 3.03,
-      "net_profit_usd": 21.03,
-      "margin_pct": 51.3,
+      "price_usd": 42.99,
+      "unit_price_usd": 21.5,
+      "landed_cost_total_usd": 16.74,
+      "shipping_in_cost_usd": 8.91,
+      "fee_usd": 3.18,
+      "net_profit_usd": 23.07,
+      "margin_pct": 53.7,
       "free_shipping": true,
-      "orders_for_500usd": 24,
+      "orders_for_500usd": 22,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
-        40.99,
-        40.99
+        42.99,
+        42.99
       ]
     },
     "free_shipping_min_qty": 2,
-    "bundle_vs_single": 1.8,
+    "bundle_vs_single": 1.9,
     "판단_근거": "15% 할인을 고른 이유: 5~10%는 미국 소비자에게 체감이 없고, 20%면 마진이 36.7%로 떨어져 반품·파손 완충이 사라진다. 15%면 마진 40%를 지키면서 단품 대비 순익 2.2배다. 무료배송은 2개 주문 배송비가 이미 원가에 포함돼 추가 부담이 없다.",
     "광고비": "0 (매출이 붙기 전까지 광고하지 않기로 결정)"
   },
@@ -299,19 +329,19 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 7.35,
-          "margin_pct": 36.5
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 8.14,
+          "margin_pct": 38.8
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 10.93,
-          "margin_pct": 45.5
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 11.84,
+          "margin_pct": 47.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -342,19 +372,19 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 7.35,
-          "margin_pct": 36.5
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 8.14,
+          "margin_pct": 38.8
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 10.93,
-          "margin_pct": 45.5
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 11.84,
+          "margin_pct": 47.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -385,105 +415,19 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 8.1,
-          "margin_pct": 40.2
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 11.68,
-          "margin_pct": 48.7
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 7.77,
-        "shipping_order_usd": 7.77,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 12.05,
-        "landed_cost_ddu_usd": 12.05,
-        "landed_cost_ddp_usd": 11.49,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 13.01,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -4.46,
-          "margin_pct": -54.5
-        },
-        "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 6.6,
-          "margin_pct": 32.8
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 10.17,
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 8.89,
           "margin_pct": 42.4
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 520,
-        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 10.75,
-        "shipping_order_usd": 10.75,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 15.04,
-        "landed_cost_ddu_usd": 15.04,
-        "landed_cost_ddp_usd": 14.48,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 16.24,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -7.45,
-          "margin_pct": -90.9
-        },
-        "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 3.61,
-          "margin_pct": 17.9
-        },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 7.19,
-          "margin_pct": 30.0
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 12.6,
+          "margin_pct": 50.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -491,7 +435,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -514,19 +458,148 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 10.67,
-          "margin_pct": 53.0
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 11.46,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.25,
-          "margin_pct": 59.4
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 15.16,
+          "margin_pct": 60.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 10.75,
+        "shipping_order_usd": 10.75,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 15.04,
+        "landed_cost_ddu_usd": 15.04,
+        "landed_cost_ddp_usd": 14.48,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 16.24,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -7.45,
+          "margin_pct": -90.9
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 4.4,
+          "margin_pct": 21.0
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 8.1,
+          "margin_pct": 32.4
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 7.77,
+        "shipping_order_usd": 7.77,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 12.05,
+        "landed_cost_ddu_usd": 12.05,
+        "landed_cost_ddp_usd": 11.49,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 13.01,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -4.46,
+          "margin_pct": -54.5
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 7.39,
+          "margin_pct": 35.2
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 11.09,
+          "margin_pct": 44.4
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1045421",
+        "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+        "bucket": "스킨케어",
+        "shopify_score": 85,
+        "price_krw": 5000,
+        "weight_g_est": 64,
+        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 6.26,
+        "shipping_order_usd": 6.26,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 10.55,
+        "landed_cost_ddu_usd": 10.55,
+        "landed_cost_ddp_usd": 9.99,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 11.39,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -2.96,
+          "margin_pct": -36.1
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 8.89,
+          "margin_pct": 42.4
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 12.6,
+          "margin_pct": 50.4
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -559,19 +632,19 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 10.48,
-          "margin_pct": 52.1
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 11.27,
+          "margin_pct": 53.7
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.06,
-          "margin_pct": 58.6
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 14.97,
+          "margin_pct": 59.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -602,19 +675,19 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 10.48,
-          "margin_pct": 52.1
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 11.27,
+          "margin_pct": 53.7
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.06,
-          "margin_pct": 58.6
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 14.97,
+          "margin_pct": 59.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -645,105 +718,19 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 10.86,
-          "margin_pct": 53.9
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 11.65,
+          "margin_pct": 55.5
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.43,
-          "margin_pct": 60.1
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 15.35,
+          "margin_pct": 61.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 5.38,
-        "shipping_order_usd": 10.75,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 9.66,
-        "landed_cost_ddu_usd": 9.66,
-        "landed_cost_ddp_usd": 9.1,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.43,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -2.07,
-          "margin_pct": -25.3
-        },
-        "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 8.99,
-          "margin_pct": 44.6
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 12.57,
-          "margin_pct": 52.4
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 520,
-        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 7.5,
-        "shipping_order_usd": 14.99,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 11.78,
-        "landed_cost_ddu_usd": 11.78,
-        "landed_cost_ddp_usd": 11.22,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.72,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -4.19,
-          "margin_pct": -51.2
-        },
-        "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 6.87,
-          "margin_pct": 34.1
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 10.45,
-          "margin_pct": 43.5
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -751,7 +738,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -774,19 +761,148 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 13.43,
-          "margin_pct": 66.7
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 14.22,
+          "margin_pct": 67.7
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 17.0,
-          "margin_pct": 70.8
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 17.92,
+          "margin_pct": 71.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 7.5,
+        "shipping_order_usd": 14.99,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.78,
+        "landed_cost_ddu_usd": 11.78,
+        "landed_cost_ddp_usd": 11.22,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 12.72,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -4.19,
+          "margin_pct": -51.2
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 7.66,
+          "margin_pct": 36.5
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 11.36,
+          "margin_pct": 45.5
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 5.38,
+        "shipping_order_usd": 10.75,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 9.66,
+        "landed_cost_ddu_usd": 9.66,
+        "landed_cost_ddp_usd": 9.1,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 10.43,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -2.07,
+          "margin_pct": -25.3
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 9.78,
+          "margin_pct": 46.6
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 13.48,
+          "margin_pct": 53.9
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1045421",
+        "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+        "bucket": "스킨케어",
+        "shopify_score": 85,
+        "price_krw": 5000,
+        "weight_g_est": 64,
+        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 3.51,
+        "shipping_order_usd": 7.02,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.79,
+        "landed_cost_ddu_usd": 7.79,
+        "landed_cost_ddp_usd": 7.23,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.41,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -0.2,
+          "margin_pct": -2.5
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 11.65,
+          "margin_pct": 55.5
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 15.35,
+          "margin_pct": 61.4
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -821,19 +937,19 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 7.35,
-          "margin_pct": 36.5
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 8.14,
+          "margin_pct": 38.8
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 10.93,
-          "margin_pct": 45.5
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 11.84,
+          "margin_pct": 47.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -864,19 +980,19 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 7.35,
-          "margin_pct": 36.5
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 8.14,
+          "margin_pct": 38.8
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 10.93,
-          "margin_pct": 45.5
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 11.84,
+          "margin_pct": 47.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -907,105 +1023,19 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 8.1,
-          "margin_pct": 40.2
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 11.68,
-          "margin_pct": 48.7
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 7.77,
-        "shipping_order_usd": 7.77,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 12.05,
-        "landed_cost_ddu_usd": 12.05,
-        "landed_cost_ddp_usd": 11.49,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 13.01,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -4.46,
-          "margin_pct": -54.5
-        },
-        "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 6.6,
-          "margin_pct": 32.8
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 10.17,
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 8.89,
           "margin_pct": 42.4
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 520,
-        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 10.75,
-        "shipping_order_usd": 10.75,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 15.04,
-        "landed_cost_ddu_usd": 15.04,
-        "landed_cost_ddp_usd": 14.48,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 16.24,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -7.45,
-          "margin_pct": -90.9
-        },
-        "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 3.61,
-          "margin_pct": 17.9
-        },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 7.19,
-          "margin_pct": 30.0
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 12.6,
+          "margin_pct": 50.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1013,7 +1043,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -1036,19 +1066,148 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 10.67,
-          "margin_pct": 53.0
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 11.46,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.25,
-          "margin_pct": 59.4
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 15.16,
+          "margin_pct": 60.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 10.75,
+        "shipping_order_usd": 10.75,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 15.04,
+        "landed_cost_ddu_usd": 15.04,
+        "landed_cost_ddp_usd": 14.48,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 16.24,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -7.45,
+          "margin_pct": -90.9
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 4.4,
+          "margin_pct": 21.0
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 8.1,
+          "margin_pct": 32.4
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 7.77,
+        "shipping_order_usd": 7.77,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 12.05,
+        "landed_cost_ddu_usd": 12.05,
+        "landed_cost_ddp_usd": 11.49,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 13.01,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -4.46,
+          "margin_pct": -54.5
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 7.39,
+          "margin_pct": 35.2
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 11.09,
+          "margin_pct": 44.4
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1045421",
+        "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+        "bucket": "스킨케어",
+        "shopify_score": 85,
+        "price_krw": 5000,
+        "weight_g_est": 64,
+        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 6.26,
+        "shipping_order_usd": 6.26,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 10.55,
+        "landed_cost_ddu_usd": 10.55,
+        "landed_cost_ddp_usd": 9.99,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 11.39,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -2.96,
+          "margin_pct": -36.1
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 8.89,
+          "margin_pct": 42.4
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 12.6,
+          "margin_pct": 50.4
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -1081,19 +1240,19 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 10.48,
-          "margin_pct": 52.1
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 11.27,
+          "margin_pct": 53.7
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.06,
-          "margin_pct": 58.6
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 14.97,
+          "margin_pct": 59.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1124,19 +1283,19 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 10.48,
-          "margin_pct": 52.1
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 11.27,
+          "margin_pct": 53.7
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.06,
-          "margin_pct": 58.6
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 14.97,
+          "margin_pct": 59.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1167,105 +1326,19 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 10.86,
-          "margin_pct": 53.9
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 11.65,
+          "margin_pct": 55.5
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.43,
-          "margin_pct": 60.1
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 15.35,
+          "margin_pct": 61.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 5.38,
-        "shipping_order_usd": 10.75,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 9.66,
-        "landed_cost_ddu_usd": 9.66,
-        "landed_cost_ddp_usd": 9.1,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.43,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -2.07,
-          "margin_pct": -25.3
-        },
-        "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 8.99,
-          "margin_pct": 44.6
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 12.57,
-          "margin_pct": 52.4
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 520,
-        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 7.5,
-        "shipping_order_usd": 14.99,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 11.78,
-        "landed_cost_ddu_usd": 11.78,
-        "landed_cost_ddp_usd": 11.22,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.72,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -4.19,
-          "margin_pct": -51.2
-        },
-        "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 6.87,
-          "margin_pct": 34.1
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 10.45,
-          "margin_pct": 43.5
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1273,7 +1346,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -1296,19 +1369,148 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 13.43,
-          "margin_pct": 66.7
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 14.22,
+          "margin_pct": 67.7
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 17.0,
-          "margin_pct": 70.8
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 17.92,
+          "margin_pct": 71.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 7.5,
+        "shipping_order_usd": 14.99,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.78,
+        "landed_cost_ddu_usd": 11.78,
+        "landed_cost_ddp_usd": 11.22,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 12.72,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -4.19,
+          "margin_pct": -51.2
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 7.66,
+          "margin_pct": 36.5
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 11.36,
+          "margin_pct": 45.5
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 5.38,
+        "shipping_order_usd": 10.75,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 9.66,
+        "landed_cost_ddu_usd": 9.66,
+        "landed_cost_ddp_usd": 9.1,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 10.43,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -2.07,
+          "margin_pct": -25.3
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 9.78,
+          "margin_pct": 46.6
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 13.48,
+          "margin_pct": 53.9
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1045421",
+        "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+        "bucket": "스킨케어",
+        "shopify_score": 85,
+        "price_krw": 5000,
+        "weight_g_est": 64,
+        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 3.51,
+        "shipping_order_usd": 7.02,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.79,
+        "landed_cost_ddu_usd": 7.79,
+        "landed_cost_ddp_usd": 7.23,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.41,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -0.2,
+          "margin_pct": -2.5
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 11.65,
+          "margin_pct": 55.5
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 15.35,
+          "margin_pct": 61.4
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -1341,19 +1543,19 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 7.91,
-          "margin_pct": 39.3
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 8.7,
+          "margin_pct": 41.4
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 11.49,
-          "margin_pct": 47.9
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 12.4,
+          "margin_pct": 49.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1384,19 +1586,19 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 7.91,
-          "margin_pct": 39.3
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 8.7,
+          "margin_pct": 41.4
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 11.49,
-          "margin_pct": 47.9
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 12.4,
+          "margin_pct": 49.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1427,105 +1629,19 @@
           "margin_pct": -29.3
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 8.66,
-          "margin_pct": 43.0
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 9.45,
+          "margin_pct": 45.0
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 12.24,
-          "margin_pct": 51.0
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 13.15,
+          "margin_pct": 52.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 7.77,
-        "shipping_order_usd": 7.77,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 11.49,
-        "landed_cost_ddu_usd": 12.05,
-        "landed_cost_ddp_usd": 11.49,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 12.41,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -3.91,
-          "margin_pct": -47.7
-        },
-        "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 7.16,
-          "margin_pct": 35.5
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 10.73,
-          "margin_pct": 44.7
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 520,
-        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 10.75,
-        "shipping_order_usd": 10.75,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 14.48,
-        "landed_cost_ddu_usd": 15.04,
-        "landed_cost_ddp_usd": 14.48,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 15.63,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -6.89,
-          "margin_pct": -84.1
-        },
-        "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 4.17,
-          "margin_pct": 20.7
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 7.75,
-          "margin_pct": 32.3
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1533,7 +1649,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -1556,19 +1672,148 @@
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 10.9,
-          "margin_pct": 54.1
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 11.68,
+          "margin_pct": 55.7
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.47,
-          "margin_pct": 60.3
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 15.39,
+          "margin_pct": 61.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 10.75,
+        "shipping_order_usd": 10.75,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 14.48,
+        "landed_cost_ddu_usd": 15.04,
+        "landed_cost_ddp_usd": 14.48,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 15.63,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -6.89,
+          "margin_pct": -84.1
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 4.96,
+          "margin_pct": 23.6
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 8.66,
+          "margin_pct": 34.7
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 7.77,
+        "shipping_order_usd": 7.77,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 11.49,
+        "landed_cost_ddu_usd": 12.05,
+        "landed_cost_ddp_usd": 11.49,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 12.41,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -3.91,
+          "margin_pct": -47.7
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 7.95,
+          "margin_pct": 37.9
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 11.65,
+          "margin_pct": 46.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1045421",
+        "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+        "bucket": "스킨케어",
+        "shopify_score": 85,
+        "price_krw": 5000,
+        "weight_g_est": 64,
+        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 6.26,
+        "shipping_order_usd": 6.26,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 9.99,
+        "landed_cost_ddu_usd": 10.55,
+        "landed_cost_ddp_usd": 9.99,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 10.78,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -2.4,
+          "margin_pct": -29.3
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 9.45,
+          "margin_pct": 45.0
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 13.15,
+          "margin_pct": 52.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -1601,19 +1846,19 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 11.04,
-          "margin_pct": 54.8
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 11.83,
+          "margin_pct": 56.4
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.62,
-          "margin_pct": 60.9
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 15.53,
+          "margin_pct": 62.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1644,19 +1889,19 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 11.04,
-          "margin_pct": 54.8
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 11.83,
+          "margin_pct": 56.4
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.62,
-          "margin_pct": 60.9
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 15.53,
+          "margin_pct": 62.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1687,105 +1932,19 @@
           "margin_pct": 4.3
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 11.42,
-          "margin_pct": 56.7
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 12.21,
+          "margin_pct": 58.1
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 14.99,
-          "margin_pct": 62.5
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 15.91,
+          "margin_pct": 63.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 5.38,
-        "shipping_order_usd": 10.75,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 9.1,
-        "landed_cost_ddu_usd": 9.66,
-        "landed_cost_ddp_usd": 9.1,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 9.83,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -1.51,
-          "margin_pct": -18.5
-        },
-        "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 9.55,
-          "margin_pct": 47.4
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 13.12,
-          "margin_pct": 54.7
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 520,
-        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 7.5,
-        "shipping_order_usd": 14.99,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 11.22,
-        "landed_cost_ddu_usd": 11.78,
-        "landed_cost_ddp_usd": 11.22,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 12.12,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -3.63,
-          "margin_pct": -44.4
-        },
-        "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 7.43,
-          "margin_pct": 36.9
-        },
-        "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 11.0,
-          "margin_pct": 45.9
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1793,7 +1952,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 90,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -1816,19 +1975,148 @@
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 20.14,
-          "fee": 1.49,
-          "profit": 13.65,
-          "margin_pct": 67.8
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 14.44,
+          "margin_pct": 68.8
         },
         "at_market_median": {
-          "sell": 24.0,
-          "fee": 1.78,
-          "profit": 17.23,
-          "margin_pct": 71.8
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 18.14,
+          "margin_pct": 72.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.0,
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 7.5,
+        "shipping_order_usd": 14.99,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 11.22,
+        "landed_cost_ddu_usd": 11.78,
+        "landed_cost_ddp_usd": 11.22,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 12.12,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -3.63,
+          "margin_pct": -44.4
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 8.22,
+          "margin_pct": 39.1
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 11.92,
+          "margin_pct": 47.7
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 5.38,
+        "shipping_order_usd": 10.75,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 9.1,
+        "landed_cost_ddu_usd": 9.66,
+        "landed_cost_ddp_usd": 9.1,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 9.83,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -1.51,
+          "margin_pct": -18.5
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 10.34,
+          "margin_pct": 49.2
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 14.04,
+          "margin_pct": 56.2
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1045421",
+        "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+        "bucket": "스킨케어",
+        "shopify_score": 85,
+        "price_krw": 5000,
+        "weight_g_est": 64,
+        "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 3.51,
+        "shipping_order_usd": 7.02,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 7.23,
+        "landed_cost_ddu_usd": 7.79,
+        "landed_cost_ddp_usd": 7.23,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 7.81,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": 0.35,
+          "margin_pct": 4.3
+        },
+        "at_market_p25": {
+          "sell": 20.99,
+          "fee": 1.55,
+          "profit": 12.21,
+          "margin_pct": 58.1
+        },
+        "at_market_median": {
+          "sell": 24.99,
+          "fee": 1.85,
+          "profit": 15.91,
+          "margin_pct": 63.7
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.99,
         "market_sample_n": 100,
         "at_product_market": null
       }

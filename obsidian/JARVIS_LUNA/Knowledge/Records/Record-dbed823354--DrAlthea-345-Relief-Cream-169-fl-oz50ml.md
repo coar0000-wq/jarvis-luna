@@ -2,7 +2,7 @@
 title: "Record dbed823354 · DrAlthea-345-Relief-Cream-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.953632+00:00
+updated_at: 2026-09-11T22:20:58.038179+00:00
 tags: [record, real-data]
 ---
 

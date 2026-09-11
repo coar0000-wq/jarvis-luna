@@ -2,7 +2,7 @@
 title: "Record 124f92c03b · Taylor-Informed-Indirect-Adaptive-Predictive-Control-Using-Jacobian-Fr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.360370+00:00
+updated_at: 2026-09-11T22:20:57.622368+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 29e993bcad · The-Korean-Makeup-Products-You-Should-Absolutely-Try---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.679955+00:00
+updated_at: 2026-09-11T22:20:57.852185+00:00
 tags: [record, real-data]
 ---
 

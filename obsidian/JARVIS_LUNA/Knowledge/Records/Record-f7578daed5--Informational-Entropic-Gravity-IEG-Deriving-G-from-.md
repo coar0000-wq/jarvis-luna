@@ -2,7 +2,7 @@
 title: "Record f7578daed5 · Informational-Entropic-Gravity-IEG-Deriving-G-from-the-Informational-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.559935+00:00
+updated_at: 2026-09-11T22:20:57.769313+00:00
 tags: [record, real-data]
 ---
 

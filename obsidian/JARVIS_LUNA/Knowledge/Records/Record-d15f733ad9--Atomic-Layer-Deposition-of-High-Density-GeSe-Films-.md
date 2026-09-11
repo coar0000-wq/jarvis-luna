@@ -2,7 +2,7 @@
 title: "Record d15f733ad9 · Atomic-Layer-Deposition-of-High-Density-GeSe-Films-for-Stable-Vertical"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.483404+00:00
+updated_at: 2026-09-11T22:20:57.713753+00:00
 tags: [record, real-data]
 ---
 

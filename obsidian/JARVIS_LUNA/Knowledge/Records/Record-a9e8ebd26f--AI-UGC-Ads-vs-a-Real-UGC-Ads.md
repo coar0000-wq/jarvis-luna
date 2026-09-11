@@ -2,7 +2,7 @@
 title: "Record a9e8ebd26f · AI-UGC-Ads-vs-a-Real-UGC-Ads"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:43.069548+00:00
+updated_at: 2026-09-11T22:20:58.123309+00:00
 tags: [record, real-data]
 ---
 

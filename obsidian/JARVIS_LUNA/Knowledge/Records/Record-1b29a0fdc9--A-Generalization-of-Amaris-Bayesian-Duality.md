@@ -2,7 +2,7 @@
 title: "Record 1b29a0fdc9 · A-Generalization-of-Amaris-Bayesian-Duality"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.405164+00:00
+updated_at: 2026-09-11T22:20:57.656202+00:00
 tags: [record, real-data]
 ---
 

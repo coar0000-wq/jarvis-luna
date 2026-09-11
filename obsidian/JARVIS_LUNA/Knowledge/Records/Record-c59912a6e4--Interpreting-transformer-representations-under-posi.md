@@ -2,7 +2,7 @@
 title: "Record c59912a6e4 · Interpreting-transformer-representations-under-positional-inductive-bi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.468844+00:00
+updated_at: 2026-09-11T22:20:57.702977+00:00
 tags: [record, real-data]
 ---
 

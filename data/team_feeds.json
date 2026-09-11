@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-11T18:59:33.867577+00:00",
+  "generated_at": "2026-09-11T22:14:25.319638+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
   "pool_size": 2090,
   "제목없어_버림": 38,
-  "unrouted": 9,
+  "unrouted": 10,
   "summary": {
     "sourcing": {
       "total": 221,
       "recent": 220
     },
     "market": {
-      "total": 450,
-      "recent": 40
+      "total": 447,
+      "recent": 38
     },
     "listing": {
       "total": 13,
@@ -24,24 +24,24 @@
       "recent": 5
     },
     "legal": {
-      "total": 119,
+      "total": 115,
       "recent": 19
     },
     "design": {
-      "total": 364,
-      "recent": 102
+      "total": 359,
+      "recent": 103
     },
     "robotics": {
-      "total": 108,
-      "recent": 76
+      "total": 109,
+      "recent": 77
     },
     "knowledge": {
-      "total": 159,
-      "recent": 54
+      "total": 156,
+      "recent": 53
     },
     "institutions": {
-      "total": 1065,
-      "recent": 275
+      "total": 1061,
+      "recent": 286
     }
   },
   "fda_failures": [],
@@ -587,7 +587,7 @@
         "by_hand": false
       },
       {
-        "title": "Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - Korea Biomedical Review",
+        "title": "Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - koreabiomed.com",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TTjJFMUxHR3ZlOEJkRlNLekZpOTBpOVREVVZqUmNEcWhfbkFIb0pMclZybVZGNThud3pJdlE5TzNBaUZMTmNFQkZxWDdKNk50LUI3OTFJVTVJOEt6M1ZuVGNzZHN0NnhhUHZvLXpB0gFyQVVfeXFMT2wyVzU1U2NGZmcwMFRXdWJfT3VNdXpLYWlzSkcyUHBtRnZSZHRrMHJ3R1RIV01yTmtDaktQUi1hSDVrblRuQ3BTbXFlb1RZeTY4Rzc3RktnS0tSQWlUNkRwM1l0ZDM3al9ZdHFQSm45RFZR?oc=5",
         "pool": "google",
         "date": "2026-09-11",
@@ -608,7 +608,7 @@
         "by_hand": false
       },
       {
-        "title": "COSMECCA KOREA plans $150 mil. AI-based skincare factory in Korea - Korea Biomedical Review",
+        "title": "COSMECCA KOREA plans $150 mil. AI-based skincare factory in Korea - koreabiomed.com",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JOHRFeGJMRElFbVVDVkNFMXdWZTVvVWF1Sy1nckZmdHU2dVNuVlRyYktZZ0RnTTU1aWUwT3Z0LVJxeGxrRnVpaHV6RHNjaHVrQVJNNDVkVlQ1SXZTNFluWFBiWGZ4bURabzZIZUJ30gFyQVVfeXFMUHJVc2QwM0dFXzMyM1Jjek50c3A0LVp4NXo5MVhIb0haZ1JILVdWYUpTV0NVNUtXaExVdUw2Q1YxOVpfU3NMalBJMWZ4b0tJS1gxSnJacEpuQnRkSE1YdUd4dzVJMnRVQktqNnl2Rnk4Ymp3?oc=5",
         "pool": "google",
         "date": "2026-09-10",
@@ -622,13 +622,6 @@
         "by_hand": false
       },
       {
-        "title": "The K-Beauty ingredient dethroning hyaluronic acid in 2026: meet PDRN - Paris Select Book",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPakItUi1WWm9Bd0NSOV9sUTNVZTNCSW4xWTA1RnV6M2l5a0VKT1NWUVppdk9sM1h3SVFieTFfTVpqdGJCMkZXd1pJbFBCRFFrdlV5YTNQNXQ0TGFjTFJrdDZUeURNZ2NWZ21sNWZfbTN2WnB1bldHTTdaVG1GVFVlRG5R?oc=5",
-        "pool": "google",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
         "title": "Discounts Allocator Function API developer preview has ended",
         "url": "https://shopify.dev/changelog/discounts-allocator-function-api-developer-preview-has-ended",
         "pool": "design_refs",
@@ -636,7 +629,7 @@
         "by_hand": false
       },
       {
-        "title": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
+        "title": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - personalcareinsights.com",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5N2ZIdEFwRWx5ZzJ0aHhib3ZvMHQ5c1o0Z1J5Nm14ZW5wUmpHZ0xKcGhnaVBTVVRFYU81WVFrbUZkQnhNTmxHeGMzQ3dHWHhtc0xxQzVoRkhqNFFWVjR4WGNoT0lhYXktTGhHZ001VHJ1Z282RWpRdGFabG43Zw?oc=5",
         "pool": "google",
         "date": "2026-09-09",
@@ -701,13 +694,6 @@
       {
         "title": "mixsoon Joins Target Beauty Studio, Bringing pure ingredients skincare philosophy to Target Guests Nationwide - PR Newswire",
         "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcVVwbEh2aWc5U0p4MU0xQmgzTUJNY1dYd3AyQ3F6TEtCR3d4Y2d3Yk5DWm90YnYtaVRmUDNSeEw2b25ySFFiejJMWm4zODJBTDNWU2tpamFHX25kRWRSOTBNSFp0VWFRLUMzdnZIdzRldXo0NVNRNEdOZE5QelpJcTUyemdQaE5XR083YUwxVDNKR3VvSm85ZFg1WEswaTRyeldXVUpLTG5iVlNvUUVmdWVPZkVnNnB3TlZScm5lb29aZThpOXJEQTZqNjZ1Z0xBMGVjVXBDUXM1Q0RhNzd0M19XeFhnZDl4SVFjRmUyTUFhZUoyc0c4?oc=5",
-        "pool": "google",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "I'd Pay Double For This K-Beauty Product That's Working Wonders On My Neck Lines - HuffPost",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM3VWZjc2RlRMajZ5MlJUdXp0NjlXb2tpUXdqcklNRzdyWlpXdmZObjFzWGNZVEtGekdtM05mcGxHM19KczUtN00yU0x4NlRMVzhYWWRVLXowR2I4dDgxZXlIWFpNNXVlRjFPWlI1ODUxVXlSUEdYT1ZTeWVWNzd4SlhxdkdHYzdwVHB4N3BLSzRMYUtk0gGaAUFVX3lxTFB2eGlDdHI1bG92Qkc1cUNleVo0SG16OFdtenVLY3o5b1ZldzY3aFY4czdhNVNEOU9NQWFQcFdqajF5U2lockQycm8yNGtjLVZxTm9hYjFBcjdodVlldGRLQ2hYamFXXzh1bnBxdnVfOTVwamYwMTFILUozU1VRcmR3QUpGS0NORkdKVEJVbXM0NTVpTkp2OGF6SlE?oc=5",
         "pool": "google",
         "date": "2026-09-08",
         "by_hand": false
@@ -797,7 +783,7 @@
         "by_hand": false
       },
       {
-        "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - Miami Herald",
+        "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - miamiherald.com",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxUk1UYUJPcXhnWjlFczJhckZRMjlLM0ZFX1hnclN5cjk0d1prbVNWNWZqVWFMX0M1N2VSY08tNzNteDE0NDNsdWN4SmpTUkpzSDVkMFFhdndkRVBXNGZWRjhuUXpqTWvSAWdBVV95cUxNM1p2Wmx6MVYta09USHF2UUU0MWthTlNwamRPQWUtV0FMbF94U1Zjc1RrN2pUZVg5djlwc2dyZk8zeV9PT0VrRVhUWEJlZmlMM2xHdUk3eUJNUFNkV1lRRFRuVUE5TFpZ?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -825,7 +811,7 @@
         "by_hand": false
       },
       {
-        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - geekwire.com",
+        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - GeekWire",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSmd3bV80NzFvZlZtOUNnSUF4eTRlQ0VoamFoUlY5aEQ2Q000MmlBVmVTQ3ZuWV9wTmhzWXROSWNyaDNuQ0JrTFdEczljM0JlbTBtdFBZbnhtakNaWHBTZTBGWDFzbDJURU1ESi1mano4T21KMHV0ZEQwOFI3aWI3Q2lTbzhPSmw5dEp6cGZVXzhadW5GNTRNaVhhMEhIdjY0czMwTmN4aUlpVWNYTmV5ZnNxWkdlcUZFUUhoNEdId3gxZw?oc=5",
         "pool": "google",
         "date": "2026-08-28",
@@ -860,14 +846,14 @@
         "by_hand": false
       },
       {
-        "title": "Meet the K-beauty products that made a quiet leap from cult circles into mainstream beauty routines - Miami Herald",
+        "title": "Meet the K-beauty products that made a quiet leap from cult circles into mainstream beauty routines - miamiherald.com",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UZ3FrNEloVEN5aHJ0QVZJeFB4b25XVlFUSUo0NjdGbjUtN3d4WW1lNEJzS2R6Y0pUR1FTb3Zac2pYRWRIZ2E4cTIzREpTamdxVU5hOE10TTRIcXRFV2w0aXpaQTVqUFXSAWdBVV95cUxOaTJETFNXR0V6TUt1RDV3M1VvYnBSdVZqOUpNNUx5ZEdhTXdsU0w1dWZieDdjblM2TzhfbjV2cDFiZFdvQk92VENwaDJ6RVpUZGtTUTJBUG5acTAyckVucFZDazh4d2xv?oc=5",
         "pool": "google",
         "date": "2026-08-27",
         "by_hand": false
       },
       {
-        "title": "Target launches Beauty Studio with K-beauty and premium skin care focus. - Personal Care Insights",
+        "title": "Target launches Beauty Studio with K-beauty and premium skin care focus. - personalcareinsights.com",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Jb2hGbEh0dHE2ME9CaXV3eFNqVEdYR2hJaU5zWnIyal9IakpwdjNPNlgyVzlHTlo2aFJfYkxLbVlIYWhtT3FfR3AzTURkUmVQc3A5R29FNEtLLTdVWVdzd0FRV1N5c0lWVzVfTUczRi1kc1gyU2U1VU03ZHl0Zk0?oc=5",
         "pool": "google",
         "date": "2026-08-27",
@@ -888,9 +874,23 @@
         "by_hand": false
       },
       {
-        "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - ELLE",
+        "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - elle.com",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5",
         "pool": "google",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "Ecommerce Content Strategy: Enterprise Guide (2026) - Shopify",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03RUZ3UkJFbTlsV1JFSEJyOEZlWUY5TlFQd2RBU2FIS1hYbHhHc3VaUnB0dmItVmlPSTNaNDNZQ1o1c1ozNWFoYWxFX29vaFJ3cXpfQTJ5d3A2MU90TDhMMVpabGpxVWctWWxLTHI1d1JFVUhY?oc=5",
+        "pool": "google",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "Shopify Payments in the United Arab Emirates now available on the Advanced plan",
+        "url": "https://changelog.shopify.com/posts/shopify-payments-in-the-united-arab-emirates-available-on-shopify-advanced-plan",
+        "pool": "design_refs",
         "date": "2026-08-26",
         "by_hand": false
       }
@@ -1181,7 +1181,7 @@
         "by_hand": false
       },
       {
-        "title": "Frutas y Hortalizas del Sur S.A. Expands Recall to Include One Lot of Great Value Frozen Organic Triple Berry Blend Because of Potential Contamination with Escherichia coli O145:H28 (E. coli O145)",
+        "title": "Frutas y Hortalizas Del Sur S.A. Expands Recall to Include One Lot of Great Value Frozen Organic Triple Berry Blend Because of Potential Contamination with Escherichia Coli 0145 (E. Coli O145)",
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/frutas-y-hortalizas-del-sur-sa-expands-recall-include-one-lot-great-value-frozen-organic-triple",
         "pool": "fda",
         "date": "2026-09-02",
@@ -1750,8 +1750,15 @@
         "by_hand": false
       },
       {
-        "title": "Many-shot jailbreaking",
-        "url": "https://www.anthropic.com/research/many-shot-jailbreaking",
+        "title": "Barclays continues strategic investment in Equity Capital Markets team",
+        "url": "https://home.barclays/news/press-releases/20260/090/barclays-continues-strategic-investment-in-equity-capital-market/",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Bain Capitals David Gross On Global Opportunities And Private Equitys Evolution",
+        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/bain-capitals-david-gross-on-global-opportunities-and-private-equitys-evolution",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false
@@ -1916,16 +1923,23 @@
         "pool": "robotics",
         "date": "2026-09-10",
         "by_hand": false
-      },
-      {
-        "title": "A Mathematical Theory of Pragmatic Information",
-        "url": "https://arxiv.org/abs/2609.10986v1",
-        "pool": "robotics",
-        "date": "2026-09-10",
-        "by_hand": false
       }
     ],
     "robotics": [
+      {
+        "title": "Video Friday: Humanoid Robot Takes On Monkey Bars",
+        "url": "https://spectrum.ieee.org/video-friday-disaster-response-robots",
+        "pool": "robotics",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "How to select the right rack and pinion system for high-precision linear motion",
+        "url": "https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/",
+        "pool": "robotics",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
       {
         "title": "How drone developers are navigating changing regulatory landscapes to help farmers",
         "url": "https://www.therobotreport.com/how-hylio-drone-developers-navigate-changing-regulatory-landscape-help-farmers/",
@@ -2331,20 +2345,6 @@
         "pool": "robotics",
         "date": "2026-09-09",
         "by_hand": false
-      },
-      {
-        "title": "Boston Dynamics veteran launches Dynamic Creatures to bring characters to life with robotics",
-        "url": "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/",
-        "pool": "robotics",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "AI can’t outrun a humanoid’s hardware",
-        "url": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/",
-        "pool": "robotics",
-        "date": "2026-09-08",
-        "by_hand": false
       }
     ],
     "knowledge": [
@@ -2594,6 +2594,13 @@
         "by_hand": false
       },
       {
+        "title": "Multi-Agent Tourism Support Systems (MATSS): a SOR-CLT perspective on traveller cognition and AI-mediated service experience",
+        "url": "https://doi.org/10.1080/13683500.2026.2729832",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
         "title": "Native is now the future of mobile at Shopify",
         "url": "https://shopify.engineering/back-to-native",
         "pool": "design_refs",
@@ -2626,13 +2633,6 @@
         "url": "https://shopify.dev/changelog/create-and-delete-dev-stores-in-shopify-cli",
         "pool": "design_refs",
         "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Build durable agents with Temporal and Lakebase",
-        "url": "https://www.databricks.com/blog/build-durable-agents-temporal-and-lakebase",
-        "pool": "institutions",
-        "date": "2026-09-08",
         "by_hand": false
       },
       {
@@ -2755,17 +2755,17 @@
         "by_hand": false
       },
       {
-        "title": "Interpreting transformer representations under positional inductive bias in learning-by-confusion for the two-dimensional Ising model",
-        "url": "https://doi.org/10.1016/j.commatsci.2026.115035",
-        "pool": "institutions",
-        "date": "2026-08-31",
-        "by_hand": false
-      },
-      {
         "title": "A Disclosure Benchmark Specification for Automated Alignment Research",
         "url": "https://doi.org/10.5281/zenodo.22179466",
         "pool": "institutions",
         "date": "2026-08-30",
+        "by_hand": false
+      },
+      {
+        "title": "[Video] No Unfolding Needed: A Day With Galaxy Z Flip8’s FlexWindow",
+        "url": "https://news.samsung.com/global/video-no-unfolding-needed-a-day-with-galaxy-z-flip8s-flexwindow",
+        "pool": "institutions",
+        "date": "2026-08-27",
         "by_hand": false
       }
     ],
@@ -2775,6 +2775,27 @@
         "url": "https://openalex.org/W7160476156",
         "pool": "institutions",
         "date": "2026-09-26",
+        "by_hand": false
+      },
+      {
+        "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Health Plans: Your BI Tells You MLR Moved. Can Your AI Tell You Why?",
+        "url": "https://www.databricks.com/blog/health-plans-your-bi-tells-you-mlr-moved-can-your-ai-tell-you-why",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Unify your marketing data with Lakeflow Connect",
+        "url": "https://www.databricks.com/blog/unify-your-marketing-data-lakeflow-connect",
+        "pool": "institutions",
+        "date": "2026-09-11",
         "by_hand": false
       },
       {
@@ -2813,6 +2834,13 @@
         "by_hand": false
       },
       {
+        "title": "How Claude's values vary by model and language",
+        "url": "https://www.anthropic.com/research/claude-values-models-languages",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
         "title": "Economic Index: AI's role in the US and global economy",
         "url": "https://www.anthropic.com/research/economic-index-geography",
         "pool": "institutions",
@@ -2834,6 +2862,13 @@
         "by_hand": false
       },
       {
+        "title": "Enabling independent research on how people use Claude",
+        "url": "https://www.anthropic.com/research/enabling-independent-research",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
         "title": "Anthropic Economic Index: AI's impact on software development",
         "url": "https://www.anthropic.com/research/impact-software-development",
         "pool": "institutions",
@@ -2841,14 +2876,14 @@
         "by_hand": false
       },
       {
-        "title": "Measuring AI capabilities in intelligence targeting and conventional weapons",
+        "title": "Intelligence Targeting Conventional Weapons Capabilities",
         "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false
       },
       {
-        "title": "Many-shot jailbreaking",
+        "title": "Many Shot Jailbreaking",
         "url": "https://www.anthropic.com/research/many-shot-jailbreaking",
         "pool": "institutions",
         "date": "2026-09-11",
@@ -2864,6 +2899,34 @@
       {
         "title": "The Anthropic Economic Index",
         "url": "https://www.anthropic.com/research/the-anthropic-economic-index",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Barclays continues strategic investment in Equity Capital Markets team",
+        "url": "https://home.barclays/news/press-releases/20260/090/barclays-continues-strategic-investment-in-equity-capital-market/",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Bain Capitals David Gross On Global Opportunities And Private Equitys Evolution",
+        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/bain-capitals-david-gross-on-global-opportunities-and-private-equitys-evolution",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Why Global Bond Yields Are Expected To Stay Elevated",
+        "url": "https://www.goldmansachs.com/insights/articles/why-global-bond-yields-are-expected-to-stay-elevated",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "How Automation Impacts The Lives And Careers Of Displaced Workers",
+        "url": "https://www.goldmansachs.com/insights/articles/how-automation-impacts-the-lives-and-careers-of-displaced-workers",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false
@@ -2974,20 +3037,6 @@
         "by_hand": false
       },
       {
-        "title": "Anthropic Higher Education Initiatives",
-        "url": "https://www.anthropic.com/news/anthropic-higher-education-initiatives",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Invests 50 Billion In American Ai Infrastructure",
-        "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
         "title": "Seven in 10 Gen Z jobseekers apply without checking whether roles are genuine as four in five face financial pressure | Barclays",
         "url": "https://home.barclays/news/press-releases/20260/090/seven-in-10-gen-z-jobseekers-apply-without-checking-whether-role/",
         "pool": "institutions",
@@ -2997,13 +3046,6 @@
       {
         "title": "How Will Less Fed Transparency Affect Markets And The Economy",
         "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-will-less-fed-transparency-affect-markets-and-the-economy",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Why Global Bond Yields Are Expected To Stay Elevated",
-        "url": "https://www.goldmansachs.com/insights/articles/why-global-bond-yields-are-expected-to-stay-elevated",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
@@ -3037,8 +3079,78 @@
         "by_hand": false
       },
       {
+        "title": "Multi-Agent Tourism Support Systems (MATSS): a SOR-CLT perspective on traveller cognition and AI-mediated service experience",
+        "url": "https://doi.org/10.1080/13683500.2026.2729832",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Cfap410a and Cby work together with tissue-specific requirements to build Drosophila ciliary transition zones",
+        "url": "https://doi.org/10.64898/2026.09.08.749861",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Depression as a Risk of Lung Cancer in Women: a Nationwide Cohort Study",
+        "url": "https://doi.org/10.4046/trd.2026.0108",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Interplay of Adsorbed and Free Polymer Governs Microstructure and Processability of Battery Slurries",
+        "url": "https://doi.org/10.1021/acsnano.6c10201",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Marangoni Flow Control Framework for Uniform Thin-Film Formation in Inkjet-Printed Light-Emitting Devices",
+        "url": "https://doi.org/10.1021/acsami.6c10360",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "On the Finite Upper Bound f(6) <= 24,600 and Structural Barriers to Counterexamples in the Erdős–Gyárfás Conjecture",
+        "url": "https://doi.org/10.5281/zenodo.22697836",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "On the Finite Upper Bound f(6) <= 24,600 and Structural Barriers to Counterexamples in the Erdős–Gyárfás Conjecture",
+        "url": "https://doi.org/10.5281/zenodo.22697825",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "On the Finite Upper Bound f(6) <= 24,600 and Structural Barriers to Counterexamples in the Erdős–Gyárfás Conjecture",
+        "url": "https://doi.org/10.5281/zenodo.22697835",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "On the Finite Upper Bound f(6) <= 24,600 and Structural Barriers to Counterexamples in the Erdős–Gyárfás Conjecture",
+        "url": "https://doi.org/10.5281/zenodo.22697824",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
         "title": "The Python simulations of chemistry framework: 10 years of an open-source quantum chemistry project",
         "url": "https://doi.org/10.1063/5.0337441",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Oral Fungal Infection Impacts Epithelial Innate Immunity to Promote Local and Distal Squamous Cell Carcinoma Progression",
+        "url": "https://doi.org/10.1158/0008-5472.can-26-0070",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
@@ -3074,118 +3186,6 @@
       {
         "title": "Samsung and Mistral AI Announce Strategic Partnership for Intelligence-Driven Semiconductor Infrastructure",
         "url": "https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "From 253 Grams to 201 Grams: The Engineering Behind the World’s Lightest Fold",
-        "url": "https://news.samsung.com/global/from-253-grams-to-201-grams-the-engineering-behind-the-worlds-lightest-fold",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”",
-        "url": "https://news.skhynix.com/en/future-forum-2026-11/",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”",
-        "url": "https://news.skhynix.com/en/future-forum-2026-10/",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”",
-        "url": "https://news.skhynix.com/en/future-forum-2026-9/",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”",
-        "url": "https://news.skhynix.com/en/future-forum-2026-8/",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”",
-        "url": "https://news.skhynix.com/en/future-forum-2026-7/",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”",
-        "url": "https://news.skhynix.com/en/future-forum-2026-6/",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”",
-        "url": "https://news.skhynix.com/en/future-forum-2026-5/",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”",
-        "url": "https://news.skhynix.com/en/future-forum-2026-4/",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”",
-        "url": "https://news.skhynix.com/en/future-forum-2026-3/",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”",
-        "url": "https://news.skhynix.com/en/future-forum-2026-2/",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Five AI Questions We're Hearing from Financial Services Leaders",
-        "url": "https://www.databricks.com/blog/five-ai-questions-were-hearing-financial-services-leaders",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "A practical approach to end-to-end Solvency II reporting in Databricks",
-        "url": "https://www.databricks.com/blog/practical-approach-end-end-solvency-ii-reporting-databricks",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Beyond embedding: How to secure AI/BI Dashboards for every viewer",
-        "url": "https://www.databricks.com/blog/beyond-embedding-how-secure-aibi-dashboards-every-viewer",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Introducing Consort: Test-driven development on a branching database",
-        "url": "https://www.databricks.com/blog/introducing-consort-test-driven-development-branching-database",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Adaptive Instructed-Retriever: Frontier-Quality Search at 2x Lower Latency",
-        "url": "https://www.databricks.com/blog/adaptive-instructed-retriever-frontier-quality-search-2x-lower-latency",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false

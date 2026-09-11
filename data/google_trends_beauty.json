@@ -1,11 +1,20 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-11T19:00:56.281415+00:00",
+  "collected_at": "2026-09-11T22:15:57.835934+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
-  "count": 89,
+  "count": 90,
   "items": [
+    {
+      "keyword": "K-Beauty Expert Brings Industry Experience to Auburn Through Sejong Culture Academy - Auburn University",
+      "product": "K-Beauty Expert Brings Industry Experience to Auburn Through Sejong Culture Academy - Auburn University",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWFo5eXpyZ1JXdWRmc2p0dEJUd011UXVyWW5XOVFJZlVUQ0I4MUxNZXlHelBnUVo2aHhMT0MzMDI0NzI1MEROMmVmSlJ6VHYzbDFqYkRpbDdycFFKVEN0ZUEycXg4azZnMVd3VVFzbGR4WUw5eXBWaTJEWlBGVmpXY05pUFVxUW1HMG5JWXI3c3JHaF9qSlVOSXRIdHVMWk5DdC1Iem5pRmo5MEFzWXl6ZTVtaEpsTll3dzJLTmpWTkZlakM4YXlOaFo3X3NpVUlLa3pIMzhkcG1ibGNXUG93c0tmc2lydw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
     {
       "keyword": "K-beauty giant Cosmax moves a gentler retinol into stick form - Korea Biomedical Review",
       "product": "K-beauty giant Cosmax moves a gentler retinol into stick form - Korea Biomedical Review",
@@ -25,24 +34,6 @@
       "beauty": true
     },
     {
-      "keyword": "Wonderbalm steps up global travel retail push for K-beauty-led skincare with Gebr. Heinemann - Moodie Davitt Report",
-      "product": "Wonderbalm steps up global travel retail push for K-beauty-led skincare with Gebr. Heinemann - Moodie Davitt Report",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZTBKRXRfSzJ1dTk5MV9OUkc0NGhuLWd5ek53VGthSEdJY01VSHV4VGFvZEwtVWRvZEFzUEVwMmpOT3JvbENnTGlsZ29nLXUxdUdzbHlaTjZfUlA1NWloSjhfQ08zRDNZMVR4SDBiX00wSFI1cXpLbExISG9QcmgyVTZ4cVBrd0JrQl9RTXpERDVDb05HT1pJOFpQTGtSRE52b05qeEotZ2VwV3h6MkIyZ2ZLSDItenpYc1Rrdjg5dDc?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "How L’Oréal and Cosmax Are Bringing K-Beauty Innovation into Global R&D - BeautyMatter",
-      "product": "How L’Oréal and Cosmax Are Bringing K-Beauty Innovation into Global R&D - BeautyMatter",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOajNPOE1Ga3dSNFc2NWRwX3Y1VXo2WXdKR2F6U2VBYUtzV3BPVGlOc0dVaE4xQmpqMEpkX0Z0WC1aNG4tZFhzMTRMWXpGZnAzNUVLbWtFbjNYSHBDTDc5a2pfMFNVM0JGanNnRURKazRBWDRmd3FDdjdsYXNMQU4zdnFVOW9EZEFoOUE?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - Celeb Secrets",
       "product": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - Celeb Secrets",
       "sub": "K-beauty",
@@ -52,11 +43,11 @@
       "beauty": true
     },
     {
-      "keyword": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
-      "product": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
+      "keyword": "Wonderbalm steps up global travel retail push for K-beauty-led skincare with Gebr. Heinemann - Moodie Davitt Report",
+      "product": "Wonderbalm steps up global travel retail push for K-beauty-led skincare with Gebr. Heinemann - Moodie Davitt Report",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFlyd3hfU3ozdUtzS0d1MU5Hbmx6MHlWZTFicUdJT2NrSWlaLWJTS2lzQ21tZGhrQTRRei1FeDJnQk1OU0dvM1R5cUlnYnZFM05SM0syVjhnYXlnTmV5LVlHRmNpTmVBamFQMVFHVWJEQW9JVm1uTGxWLW84dTZCYTZ1RU1QVjhYTGhaaEp2NHNkQ2k3T1hsZElFcw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZTBKRXRfSzJ1dTk5MV9OUkc0NGhuLWd5ek53VGthSEdJY01VSHV4VGFvZEwtVWRvZEFzUEVwMmpOT3JvbENnTGlsZ29nLXUxdUdzbHlaTjZfUlA1NWloSjhfQ08zRDNZMVR4SDBiX00wSFI1cXpLbExISG9QcmgyVTZ4cVBrd0JrQl9RTXpERDVDb05HT1pJOFpQTGtSRE52b05qeEotZ2VwV3h6MkIyZ2ZLSDItenpYc1Rrdjg5dDc?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -70,17 +61,26 @@
       "beauty": true
     },
     {
-      "keyword": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
-      "product": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
+      "keyword": "How L’Oréal and Cosmax Are Bringing K-Beauty Innovation into Global R&D - BeautyMatter",
+      "product": "How L’Oréal and Cosmax Are Bringing K-Beauty Innovation into Global R&D - BeautyMatter",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeEJ0MTljNGRxbHppX0V4djZuR3ZoTTlQX1FRT0Z0VHgwMmxuLWhyRlY1ZnRkMktJYjItc0ZSUi05T0hIeDFFUGhZSUNtN2xqVHhQSHozeHJWYzY1Vzl2UFoxUjV3Q3AzdXowc1hlODhkck50Z3V2N3d0Wm5JX3EtYWsxeFBQQVh3Z0FnYnZ3Nm02SFJDd1hPYzltdkdOVFMwdUR1eW1QbnpuUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOajNPOE1Ga3dSNFc2NWRwX3Y1VXo2WXdKR2F6U2VBYUtzV3BPVGlOc0dVaE4xQmpqMEpkX0Z0WC1aNG4tZFhzMTRMWXpGZnAzNUVLbWtFbjNYSHBDTDc5a2pfMFNVM0JGanNnRURKazRBWDRmd3FDdjdsYXNMQU4zdnFVOW9EZEFoOUE?oc=5",
       "kind": "news",
       "beauty": true
     },
     {
-      "keyword": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - pagesix.com",
-      "product": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - pagesix.com",
+      "keyword": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
+      "product": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFlyd3hfU3ozdUtzS0d1MU5Hbmx6MHlWZTFicUdJT2NrSWlaLWJTS2lzQ21tZGhrQTRRei1FeDJnQk1OU0dvM1R5cUlnYnZFM05SM0syVjhnYXlnTmV5LVlHRmNpTmVBamFQMVFHVWJEQW9JVm1uTGxWLW84dTZCYTZ1RU1QVjhYTGhaaEp2NHNkQ2k3T1hsZElFcw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
+      "product": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGtUdkEtYWNZaFVvSFFvcUlXQzNRWS1zcXUtVUctWkx2b3V4d3JWNk42dmtPYjFweUxTX2IxUHNqamdCRWY0T2lxUWtyN3RkYnA4Z0dORHJNR05HaWpvX3lJT190RVFtVXhNVk10YnNuNjdqZ1NBdFNRUU94cG9nYmJ1Uld1c2hmS1YyXzF5VmRMMTRo?oc=5",
@@ -97,8 +97,8 @@
       "beauty": true
     },
     {
-      "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - wral.com",
-      "product": "Consumer Reports puts K-Beauty sunscreens to the test - wral.com",
+      "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
+      "product": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhPYk45c2xzWEw3Mmx2akplQWJZS1F1SnJSbnZJV3RmV0hLTktMUnl4cDBQak5jdDQ0LWlUWWtGODZSbkFfU0Q3MDZ0S0FtVFNDSjUyaldtU0l6WjhiZXpjN1MxVjdRNGVXeEUyZkNqY29aeXBqckFYYWxTYkF4TkpFVUFsZjFRMk9EU1N3?oc=5",
@@ -160,8 +160,8 @@
       "beauty": true
     },
     {
-      "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
-      "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
+      "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com",
+      "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FajN1UnhmQjViQ0dWVW45QVF1blJPRnBKZUltUWRyRjVDcHFVVTBiVUpkQTZlZHNYbEFmSUFtVTRWT0Q2X3o4R3R0YXhyYUJhbHV6dVln?oc=5",
@@ -178,8 +178,8 @@
       "beauty": true
     },
     {
-      "keyword": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - pagesix.com",
-      "product": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - pagesix.com",
+      "keyword": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six",
+      "product": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOVFOcDNSNU5FazZmWTllWXZrM0ZPdE0zcll3Qk9WbWFhdEIzZmhpVVZRY29xbE8xMDZ5VjNIR083a0FrbEUxU2RSNHkxNWFnczE0U0dDenNXdlMzOU50cmdBM1JxcmxYbHEtZFpXQ1FXNXY0Smxnb3ZxYWdoTEFIY3BaZkJucHhWMEJZTVAtV2ZpWEtZTmdNZUkxbXotelFLOUxWLVJ3?oc=5",
@@ -232,8 +232,8 @@
       "beauty": true
     },
     {
-      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
-      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
+      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - allure.com",
+      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - allure.com",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tUlIta29LZnJyQjZ3VlhCQ1VlZzk3bVo5LXd1NE8xX3FRemRsZXB4VXdOSDQtWVNUMlJzWmNXSnhUTWdBTl9hX1dud2VTREZwNlFfTXVxNEdOa0tSdUJZNS1B?oc=5",
@@ -286,8 +286,8 @@
       "beauty": true
     },
     {
-      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
-      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
+      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - allure.com",
+      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - allure.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yZDNoUHpEdEhOUWhHQWRZck1vTFdWeDljeGZPcVh4a1VuaWpnWTczN0Vhd2RmODNOajVxdFdzRHdJTjJVbVJfa212RDdQcVY3N2tSRjc0emxET0J6bUFfbVZUNUU?oc=5",
@@ -304,8 +304,8 @@
       "beauty": true
     },
     {
-      "keyword": "Should You Use Centella Asiatica? 5 Benefits - health.com",
-      "product": "Should You Use Centella Asiatica? 5 Benefits - health.com",
+      "keyword": "Should You Use Centella Asiatica? 5 Benefits - Health.com",
+      "product": "Should You Use Centella Asiatica? 5 Benefits - Health.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV1FGamp5TUY2bzdhcXhiTkpLQmwyZHIxOE9ITnZNcnFWemt2TzdXU09taVV0RmFReUZCUFE2YjNNa2RlVXVMR1E5SEh2eTV6Wk5HalUyaVdfN2JQQXZKZmV4alpHSVNXTXhRMFptYVM5amd3X3pRdThCYlROa18tWjRMTQ?oc=5",
@@ -318,15 +318,6 @@
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPWHZKdkNwcXg1OW40RDRKZ0RtWDNNU1dBOE41cy1OUGJjVE9kWTF4YVpwYWxTSXBaYUlRdkc0VDltTnJQaE5SZ1NTZDczYTFMSEZES1ZKZkN6d2NXVEZtWl9zZUx1T0JfZndVVVRlOGlMcUNDaXpCRnVvT0J6SGNFRGk4WVp6UmppRm80d0Njem81WVNPcFZVckIwdWxxQ2FjNE5ET2hFZl9HRmxscEhsYkoxc2FHZ1NKQTI5by1NZVQweHdUZEN0S29YTnBENG9NMUJLX1psbDRVa1lubEhXTjc0UTZRWkg4T3NhdzRQTjJSQ3U5ZEtMZ3F2aw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "21 Best Centella Asiatica Serums For Angry, Irritated & Sensitive Skin - femina.in",
-      "product": "21 Best Centella Asiatica Serums For Angry, Irritated & Sensitive Skin - femina.in",
-      "sub": "centella serum",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWnZsemNubzdCa2hPb1RFbWRyaTI2ZHZPT01TVGhPaFZlaVUzSEVEcGYwTEkxWHp6Y1dnaUZQZXhHZmNMc2hsUzU1OHphcTlqdWpWTlJzd0cxYjVzZTVyam1XY1FRNGxVMHNDdHVDQzRqNHVXMWJFQU1qLVp3VHdIRm9FMkpScDVXcU9XZExiNjhTbk1yNTJlV2hpakVYendrdFNPdHlFZE1iczJmWFE4dmhPVUFGTVNBRExnaGFsSmZzUGQ0di0w0gHHAUFVX3lxTE9admx6Y25vN0JraE9vVEVtZHJpMjZkdk9PTVNUaE9oVmVpVTNIRURwZjBMSTFYenpjV2dpRlBleEdmY0xzaGxTNTU4emFxOWp1alZOUnN3RzFiNXNlNXJqbVdjUVE0bFUwc0N0dUNDNGo0dVcxYkVBTWotWndUd0hGb0UySlJwNVdxT1dkTGI2OFNuTXI1MmVXaGlqRVh6d2t0U090eUVkTWJzMmZYUTh2aE9VQUZNU0FETGdoYWxKZnNQZDR2LTA?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -354,6 +345,15 @@
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRkRkQi1TY3h2YmlWZlEzSlRKNV9lMXNXSDdBQ2RBVHBmb0NCcThJa1Q1MkNsbVVISHhZSUNyU3BncGxQQndHbDk5cnJwbFhXVHBKa2tPQXJ1WlBFRzFrbnR5NXU1ek9GYUVOcUlVTHROZTZscjFJVUlmR1had2JockFNUWIxUQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "I tried these 5 face serums on my sensitive skin, and this Korean brand one worked like magic | Fashion Trends - hindustantimes.com",
+      "product": "I tried these 5 face serums on my sensitive skin, and this Korean brand one worked like magic | Fashion Trends - hindustantimes.com",
+      "sub": "centella serum",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxObUdOa2N6MW1YenBZM1FmNEVQd2ZLSm5fekRobE1SMjlfQ2EtVi1icENJaFZZaVdHajhJQmJYQzlPa3UyNkVKMXlRTUhadXZudU5iQXhrYU4xb1loemJVMHJHWHN1SkQ0OUFON1ZzTmhyME5KYVduWDF1TlkzT2paRG5xc2FOVGVPS1F4RlFUUXhBTEZVaFQwRDdDNjB4aFRydFR6dnVhaVplZHZwa1Jmd3V4U25LZUJsMXdZT0FodjgtMVJTZjVzZlpUOWkzQmprc2xhdXVISFd4NFFoV0hHQkRmRUY4a05McHRST1d1WkdmaTdl0gH6AUFVX3lxTE9iZHNpQjY0V1luUTdlZDlhaFRHT1ZvOWRxejV6c0RZaE9kcjMzSk43YVdsNWRoOVFTUjZRaHFDamtCU09TN0RQbFlpVTVnMXRpX2ZSSTMzM0tHNmtNb3NfLVlncWlWbUNuMThzU2JjUUNVeE92ai1SV1Y0aG12X3VOM2ptQkV0a2FTOVFvTi1YT1drUmMxdkpFRF9JQ3N1UEZ2MXJoR1B1Mk1wWkpRM3d0RnNWdW52OS00akw0S3RCeGZ0Qm9nclIzc2VZdUhvak5xNzI1aV8zb3k2YjUtdGdlVzZkaXl2UDhKNkMxTGlVV3o1MnM4SDAyZWc?oc=5",
       "kind": "news",
       "beauty": true
     },

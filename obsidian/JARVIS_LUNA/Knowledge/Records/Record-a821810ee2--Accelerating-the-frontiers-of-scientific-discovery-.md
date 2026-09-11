@@ -2,7 +2,7 @@
 title: "Record a821810ee2 · Accelerating-the-frontiers-of-scientific-discovery-Googles-40M-commitm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.444093+00:00
+updated_at: 2026-09-11T22:20:57.685146+00:00
 tags: [record, real-data]
 ---
 

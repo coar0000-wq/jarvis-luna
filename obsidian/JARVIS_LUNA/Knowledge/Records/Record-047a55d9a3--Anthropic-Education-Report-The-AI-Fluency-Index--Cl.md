@@ -2,7 +2,7 @@
 title: "Record 047a55d9a3 · Anthropic-Education-Report-The-AI-Fluency-Index--Claude-Academy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.989817+00:00
+updated_at: 2026-09-11T22:20:58.064864+00:00
 tags: [record, real-data]
 ---
 

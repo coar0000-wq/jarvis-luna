@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-11T21:00:56.867640+00:00",
-  "real_records": 3171,
+  "updated_at": "2026-09-11T22:18:43.500384+00:00",
+  "real_records": 3179,
   "source_labels": {
     "ai-image": 109,
-    "ai-research": 2795,
-    "shopify-commerce-image": 267
+    "ai-research": 2800,
+    "shopify-commerce-image": 270
   },
-  "corpus_sha256": "fb92dc19c5bd2bbb8aa3383a9438ef2fe3488227b1e24ee051f6405bca104ae3",
+  "corpus_sha256": "677e492949a7c53250a46ef91168a9059c45089097ff60c452bfce93acd61033",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,17 +14,29 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.8814254178492589,
+  "training_accuracy_on_corpus": 0.8807801195344448,
   "mean_gate_load": [
     0.278892,
     0.322669,
     0.39844
   ],
-  "note": "This is a text knowledge-routing MoE, not an image foundation model.",
-  "trained_corpus_sha256": "fb92dc19c5bd2bbb8aa3383a9438ef2fe3488227b1e24ee051f6405bca104ae3",
+  "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
+  "trained_corpus_sha256": "677e492949a7c53250a46ef91168a9059c45089097ff60c452bfce93acd61033",
   "tuning_promoted": true,
   "tuning_steps": 500,
-  "tuning_validation_accuracy": 0.8875838926174496,
-  "tuning_final_loss": 0.4048367965329797,
-  "tuning_gate_load_std": 0.14558715864329422
+  "tuning_validation_accuracy": 0.8879598662207357,
+  "tuning_final_loss": 0.40611395779234793,
+  "tuning_gate_load_std": 0.14905257363568358,
+  "records_before": 3171,
+  "records_added": 8,
+  "source_status": {
+    "arxiv": "ok",
+    "robotics": "ok",
+    "institutions": "ok",
+    "organic_skincare": "ok",
+    "google": "ok",
+    "us_beauty": "ok"
+  },
+  "corpus": "data/knowledge/training_corpus.jsonl",
+  "말뭉치": "바뀌었다. 지금 가중치는 이 말뭉치로 학습한 것이 아니다. 학습기가 돌아야 다시 참이 된다."
 }

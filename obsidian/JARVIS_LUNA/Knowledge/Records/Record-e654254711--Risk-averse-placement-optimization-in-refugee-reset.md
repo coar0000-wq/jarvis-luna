@@ -2,7 +2,7 @@
 title: "Record e654254711 · Risk-averse-placement-optimization-in-refugee-resettlement"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.479570+00:00
+updated_at: 2026-09-11T22:20:57.710941+00:00
 tags: [record, real-data]
 ---
 

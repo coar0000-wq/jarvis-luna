@@ -2,7 +2,7 @@
 title: "Record ea52e4fde3 · New-Booz-Allen-Analysis-Reveals-Risks-in-Using-Chinese-AI-Models-for-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.620248+00:00
+updated_at: 2026-09-11T22:20:57.813109+00:00
 tags: [record, real-data]
 ---
 

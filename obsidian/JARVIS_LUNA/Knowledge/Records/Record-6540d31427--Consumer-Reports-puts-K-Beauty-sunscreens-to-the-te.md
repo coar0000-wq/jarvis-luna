@@ -2,7 +2,7 @@
 title: "Record 6540d31427 · Consumer-Reports-puts-K-Beauty-sunscreens-to-the-test---wralcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.793330+00:00
+updated_at: 2026-09-11T22:20:57.927960+00:00
 tags: [record, real-data]
 ---
 

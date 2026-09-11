@@ -2,7 +2,7 @@
 title: "Record ff819a8334 · Deep-Reinforcement-Learning-for-Optimization-of-STAR-RIS-Phase-and-Ene"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.373008+00:00
+updated_at: 2026-09-11T22:20:57.632198+00:00
 tags: [record, real-data]
 ---
 

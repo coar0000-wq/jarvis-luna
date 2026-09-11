@@ -2,7 +2,7 @@
 title: "Record d7fcf95133 · Retrospective-analysis-of-coronary-angiograms-showing-myocardial-bridg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.548196+00:00
+updated_at: 2026-09-11T22:20:57.760884+00:00
 tags: [record, real-data]
 ---
 

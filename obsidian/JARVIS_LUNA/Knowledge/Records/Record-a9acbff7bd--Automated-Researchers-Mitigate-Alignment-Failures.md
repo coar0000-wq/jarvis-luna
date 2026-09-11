@@ -2,7 +2,7 @@
 title: "Record a9acbff7bd · Automated-Researchers-Mitigate-Alignment-Failures"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.990731+00:00
+updated_at: 2026-09-11T22:20:58.065584+00:00
 tags: [record, real-data]
 ---
 

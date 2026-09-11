@@ -2,7 +2,7 @@
 title: "Record f2f387b681 · Multiphoton-interference-with-a-symmetric-SU-N--beam-splitter-and-the-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.511681+00:00
+updated_at: 2026-09-11T22:20:57.734342+00:00
 tags: [record, real-data]
 ---
 

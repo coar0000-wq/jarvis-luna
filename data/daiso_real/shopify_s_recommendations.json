@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-11T19:04:47.875583+00:00",
+  "generated_at": "2026-09-11T22:19:16.046552+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
-  "count": 6,
+  "count": 7,
   "priority_note": "Shopify 1차 등록 후보. 이 파일만 정본으로 사용.",
   "recommendations": [
     {
@@ -17,16 +17,16 @@
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048583",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/GuN4uykABHahtwRmVfHO1048583_00_00GuN4uykABHahtwRmVfHO.png",
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule",
       "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "oliveyoung_us",
+        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+        "similarity": 0.733,
+        "demand_weight": 0.784,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.575
       },
       "registerable": true
     },
@@ -82,26 +82,26 @@
     },
     {
       "rank": 4,
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 91,
+      "pd_no": "1059834",
+      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "bucket": "마스크팩",
+      "price_krw": 2000,
+      "shopify_score": 90,
       "grade": "S",
       "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
+      "recommend_reason": "글로벌 '콜라겐 리얼 딥 마스크' (sephora) 유사 100% · 토큰 collagen, mask",
       "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "ANUA Heartleaf 77 Soothing Toner",
-        "similarity": 0.92,
-        "demand_weight": 0.95,
+        "channel": "sephora",
+        "global_product": "콜라겐 리얼 딥 마스크",
+        "similarity": 1.0,
+        "demand_weight": 0.585,
         "matched_tokens": [
-          "heartleaf",
-          "toner"
+          "collagen",
+          "mask"
         ],
-        "match_score": 0.874
+        "match_score": 0.585
       },
       "registerable": true
     },
@@ -111,7 +111,7 @@
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 91,
+      "shopify_score": 90,
       "grade": "S",
       "s_rule": "multi_token",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
@@ -132,26 +132,50 @@
     },
     {
       "rank": 6,
-      "pd_no": "1059834",
-      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "bucket": "마스크팩",
-      "price_krw": 2000,
+      "pd_no": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
       "shopify_score": 89,
       "grade": "S",
       "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
-      "recommend_reason": "글로벌 '콜라겐 리얼 딥 마스크' (sephora) 유사 100% · 토큰 collagen, mask",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
+      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
       "matched_global": {
-        "channel": "sephora",
-        "global_product": "콜라겐 리얼 딥 마스크",
-        "similarity": 1.0,
-        "demand_weight": 0.585,
+        "channel": "tiktok_shop_us",
+        "global_product": "ANUA Heartleaf 77 Soothing Toner",
+        "similarity": 0.92,
+        "demand_weight": 0.95,
         "matched_tokens": [
-          "collagen",
-          "mask"
+          "heartleaf",
+          "toner"
         ],
-        "match_score": 0.585
+        "match_score": 0.874
+      },
+      "registerable": true
+    },
+    {
+      "rank": 7,
+      "pd_no": "1045421",
+      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 85,
+      "grade": "S",
+      "s_rule": "strong_form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231221/4S2p6tvbv9F2EJVNtStV1045421_00_004S2p6tvbv9F2EJVNtStV.jpg",
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.733,
+        "demand_weight": 1.0,
+        "matched_tokens": [
+          "cushion"
+        ],
+        "match_score": 0.733
       },
       "registerable": true
     }

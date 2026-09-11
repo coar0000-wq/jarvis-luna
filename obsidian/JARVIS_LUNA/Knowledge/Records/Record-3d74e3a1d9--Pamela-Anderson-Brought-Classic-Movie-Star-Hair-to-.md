@@ -2,7 +2,7 @@
 title: "Record 3d74e3a1d9 · Pamela-Anderson-Brought-Classic-Movie-Star-Hair-to-VeniceSee-the-Photo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.972011+00:00
+updated_at: 2026-09-11T22:20:58.051798+00:00
 tags: [record, real-data]
 ---
 

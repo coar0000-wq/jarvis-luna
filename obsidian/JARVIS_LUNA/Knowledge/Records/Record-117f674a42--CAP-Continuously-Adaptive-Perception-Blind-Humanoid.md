@@ -2,7 +2,7 @@
 title: "Record 117f674a42 · CAP-Continuously-Adaptive-Perception-Blind-Humanoid-Locomotion-via-Lea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.429800+00:00
+updated_at: 2026-09-11T22:20:57.674491+00:00
 tags: [record, real-data]
 ---
 

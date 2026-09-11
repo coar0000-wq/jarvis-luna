@@ -2,7 +2,7 @@
 title: "Record aacd13190e · The-Oriented-Completed-Intrinsic-Closure-Elimination-as-a-Candidate-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.585809+00:00
+updated_at: 2026-09-11T22:20:57.788346+00:00
 tags: [record, real-data]
 ---
 

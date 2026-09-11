@@ -2,7 +2,7 @@
 title: "Record d66d27ca3c · Celah-Regulasi-atau-Dilema-Pro-Investasi-Kasus-Impor-Truk-CBU-Tiongkok"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T20:59:42.556939+00:00
+updated_at: 2026-09-11T22:20:57.767210+00:00
 tags: [record, real-data]
 ---
 
