@@ -2,7 +2,7 @@
 title: "Record 1986eab2e2 · WeatherNext-AI-model-achieves-breakthrough-in-forecasting-cyclones"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.352025+00:00
+updated_at: 2026-09-11T19:06:34.647033+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 6359ceb130 · AI-referred-shoppers-convert-better-and-spend-more-2026---Shopify-Indi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.612815+00:00
+updated_at: 2026-09-11T19:06:34.913981+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 8011b5c7a7 · Building-Trustworthy-Graph-Agentic-RAG-for-Social-Good-Architectures-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.283693+00:00
+updated_at: 2026-09-11T19:06:34.577794+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b0ef9c74a3 · From-Concentration-to-Differentiation-and-Back-Routing-Effective-Rank-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.283948+00:00
+updated_at: 2026-09-11T19:06:34.578051+00:00
 tags: [record, real-data]
 ---
 

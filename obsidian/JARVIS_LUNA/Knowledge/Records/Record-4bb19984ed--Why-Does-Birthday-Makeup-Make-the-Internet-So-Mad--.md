@@ -1,18 +1,18 @@
 ---
-title: "Record 4bb19984ed · Why-Does-Birthday-Makeup-Make-the-Internet-So-Mad---Hypebae"
+title: "Record 4bb19984ed · Why-Does-Birthday-Makeup-Make-the-Internet-So-Mad---hypebaecom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.681993+00:00
+updated_at: 2026-09-11T19:06:34.983645+00:00
 tags: [record, real-data]
 ---
 
-# Record 4bb19984ed · Why-Does-Birthday-Makeup-Make-the-Internet-So-Mad---Hypebae
+# Record 4bb19984ed · Why-Does-Birthday-Makeup-Make-the-Internet-So-Mad---hypebaecom
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijgFBVV95cUxNUHRGeTZDWUxGbDUzSlpCdGxsQUg3eTg4bWVGUHc0Zjhjc1pzeFROWXRSajVaZG9qVXc5aFdWdUVDN1pXd2dzaDBNeXFuakhENlhnaWtiOFRPbU92NW0yZ0ZfRldLWFVyN0w4b2Npb2tHZFRyOEk3Z2ZLRVNVUzJDZUl0R3FDeVo1S1lCclVR?oc=5)
 
-**제목:** Why Does "Birthday Makeup" Make the Internet So Mad? - Hypebae
+**제목:** Why Does "Birthday Makeup" Make the Internet So Mad? - hypebae.com
 
-Why Does "Birthday Makeup" Make the Internet So Mad? - Hypebae
+Why Does "Birthday Makeup" Make the Internet So Mad? - hypebae.com
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record bd891e1aa6 · Confidential-Draft-S1-Sec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.876003+00:00
+updated_at: 2026-09-11T19:06:35.167748+00:00
 tags: [record, real-data]
 ---
 

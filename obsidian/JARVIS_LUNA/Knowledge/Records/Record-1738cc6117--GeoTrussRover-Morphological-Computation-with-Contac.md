@@ -2,7 +2,7 @@
 title: "Record 1738cc6117 · GeoTrussRover-Morphological-Computation-with-Contact-Semantic-Control-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.326353+00:00
+updated_at: 2026-09-11T19:06:34.621121+00:00
 tags: [record, real-data]
 ---
 

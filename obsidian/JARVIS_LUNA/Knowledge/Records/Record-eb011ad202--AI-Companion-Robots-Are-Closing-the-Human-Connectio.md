@@ -2,7 +2,7 @@
 title: "Record eb011ad202 · AI-Companion-Robots-Are-Closing-the-Human-Connection-in-Modern-Homes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.827487+00:00
+updated_at: 2026-09-11T19:06:35.121306+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** AI Companion Robots Are Closing the Human Connection in Modern Homes
 
 AI Companion Robots Are Closing the Human Connection in Modern Homes
-<img src="https://spectrum.ieee.org/media-library/cute-home-robot-on-carpet-in-cozy-living-room-with-beige-sofa-and-warm-lighting.jpg?id=67154308&width=980"/><br/><br/><p><em>This article is brought to you by <a href="https://ollobot.com/" target="_blank">Ollobot</a>.</em></p><p>From about 2017, individuals began to truly connect with the initial wave of companion robots. These devices had persona
+<img src="https://spectrum.ieee.org/media-library/cute-home-robot-on-carpet-in-cozy-living-room-with-beige-sofa-and-warm-lighting.jpg?id=67154308&width=1200&height=800&coordinates=0%2C0%2C0%2C0"/><br/><br/><p><em>This article is brought to you by <a href="https://ollobot.com/" target="_blank">Ollobot</a>.</em></p><p>From about 2017, individuals began to truly connect with the initial wave of compa
 
 **출처:** Source · robotics
 

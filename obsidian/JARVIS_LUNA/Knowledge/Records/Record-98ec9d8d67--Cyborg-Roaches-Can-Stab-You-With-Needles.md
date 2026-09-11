@@ -2,7 +2,7 @@
 title: "Record 98ec9d8d67 · Cyborg-Roaches-Can-Stab-You-With-Needles"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.824480+00:00
+updated_at: 2026-09-11T19:06:35.118633+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Cyborg Roaches Can Stab You With Needles
 
 Cyborg Roaches Can Stab You With Needles
-<img src="https://spectrum.ieee.org/media-library/large-brown-cockroach-fitted-with-an-electronic-device-and-wires-on-its-back.jpg?id=67724302&width=980"/><br/><br/><p>Imagine you are trapped under rubble after an earthquake and you see an electronics-covered cockroach with a spring-loaded needle on its back scuttling toward you. Although the sight might be unnerving, to say the least, this protot
+<img src="https://spectrum.ieee.org/media-library/large-brown-cockroach-fitted-with-an-electronic-device-and-wires-on-its-back.jpg?id=67724302&width=1200&height=800&coordinates=62%2C0%2C63%2C0"/><br/><br/><p>Imagine you are trapped under rubble after an earthquake and you see an electronics-covered cockroach with a spring-loaded needle on its back scuttling toward you. Although the sight might be
 
 **출처:** Source · robotics
 

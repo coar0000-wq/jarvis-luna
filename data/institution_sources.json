@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-11T14:03:40.629972+00:00",
+  "collected_at": "2026-09-11T18:59:04.966711+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-11T14:02:44.846054+00:00"
+      "collected_at": "2026-09-11T18:58:14.269500+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-11T14:03:22.236022+00:00"
+      "collected_at": "2026-09-11T18:58:46.824677+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-11T14:03:40.628853+00:00"
+      "collected_at": "2026-09-11T18:59:04.965575+00:00"
     }
   },
   "not_collected": {
@@ -84,6 +84,19 @@
     "SEC EDGAR 공시": "샌드박스에서 검증 불가하여 미등록"
   },
   "items": [
+    {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "date": "2026-09-11",
+      "date_raw": "Fri, 11 Sep 2026 10:00:00 GMT",
+      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
     {
       "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
@@ -389,19 +402,6 @@
       "date": "2026-09-03",
       "date_raw": "Thu, 03 Sep 2026 00:00:00 GMT",
       "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "url": "https://openai.com/index/atv-big-air-tour",
-      "date": "2026-09-02",
-      "date_raw": "Wed, 02 Sep 2026 12:00:00 GMT",
-      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -2295,6 +2295,32 @@
       "title_source": "feed"
     },
     {
+      "title": "Health Plans: Your BI Tells You MLR Moved. Can Your AI Tell You Why?",
+      "url": "https://www.databricks.com/blog/health-plans-your-bi-tells-you-mlr-moved-can-your-ai-tell-you-why",
+      "date": "2026-09-11",
+      "date_raw": "Fri, 11 Sep 2026 18:26:59 GMT",
+      "summary": "A health plan CFO closes the month after the usual round of extracts, spreadsheets,...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
+      "title": "Unify your marketing data with Lakeflow Connect",
+      "url": "https://www.databricks.com/blog/unify-your-marketing-data-lakeflow-connect",
+      "date": "2026-09-11",
+      "date_raw": "Fri, 11 Sep 2026 18:00:00 GMT",
+      "summary": "This is the first post in a new series exploring how Lakeflow Connect brings fully...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "Unifying governance across engines and catalogs in the Open Lakehouse",
       "url": "https://www.databricks.com/blog/unifying-governance-across-engines-and-catalogs-open-lakehouse",
       "date": "2026-09-10",
@@ -2391,32 +2417,6 @@
       "date": "2026-09-09",
       "date_raw": "Wed, 09 Sep 2026 03:00:00 GMT",
       "summary": "Zepto's Push for Reliable, Real-Time Customer SupportZepto is one of India's fastest-growing...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "SQL Data Types: Reference and Best Practices",
-      "url": "https://www.databricks.com/blog/sql-data-types",
-      "date": "2026-09-08",
-      "date_raw": "Tue, 08 Sep 2026 17:16:06 GMT",
-      "summary": "A SQL data type is a fundamental specification that defines what values a column...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Build durable agents with Temporal and Lakebase",
-      "url": "https://www.databricks.com/blog/build-durable-agents-temporal-and-lakebase",
-      "date": "2026-09-08",
-      "date_raw": "Tue, 08 Sep 2026 15:46:40 GMT",
-      "summary": "A personal-loan underwriting agent gathers evidence, applies policy, and may wait...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",
@@ -2867,6 +2867,19 @@
       "feed": "https://www.anthropic.com/sitemap.xml"
     },
     {
+      "url": "https://www.anthropic.com/research/claude-values-models-languages",
+      "date": "2026-09-11",
+      "date_raw": "2026-09-11T16:58:57.000Z",
+      "title_source": "page",
+      "title": "How Claude's values vary by model and language",
+      "summary": "We analyzed 300,000 real conversations to measure the values Claude expresses across models and languages, compressed into four interpretable axes.",
+      "org": "Anthropic",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.anthropic.com/sitemap.xml"
+    },
+    {
       "url": "https://www.anthropic.com/research/economic-index-geography",
       "date": "2026-09-11",
       "date_raw": "2026-09-11T11:55:40.000Z",
@@ -2906,6 +2919,19 @@
       "feed": "https://www.anthropic.com/sitemap.xml"
     },
     {
+      "url": "https://www.anthropic.com/research/enabling-independent-research",
+      "date": "2026-09-11",
+      "date_raw": "2026-09-11T16:57:50.000Z",
+      "title_source": "page",
+      "title": "Enabling independent research on how people use Claude",
+      "summary": "Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot.",
+      "org": "Anthropic",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.anthropic.com/sitemap.xml"
+    },
+    {
       "url": "https://www.anthropic.com/research/impact-software-development",
       "date": "2026-09-11",
       "date_raw": "2026-09-11T11:56:53.000Z",
@@ -2922,9 +2948,9 @@
       "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
       "date": "2026-09-11",
       "date_raw": "2026-09-11T09:42:25.000Z",
-      "title_source": "page",
-      "title": "Measuring AI capabilities in intelligence targeting and conventional weapons",
-      "summary": "Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.",
+      "title_source": "url-slug",
+      "title": "Intelligence Targeting Conventional Weapons Capabilities",
+      "summary": "",
       "org": "Anthropic",
       "category": "AI연구소",
       "kind": "발표물",
@@ -2935,9 +2961,9 @@
       "url": "https://www.anthropic.com/research/many-shot-jailbreaking",
       "date": "2026-09-11",
       "date_raw": "2026-09-11T12:13:44.000Z",
-      "title_source": "page",
-      "title": "Many-shot jailbreaking",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "title_source": "url-slug",
+      "title": "Many Shot Jailbreaking",
+      "summary": "",
       "org": "Anthropic",
       "category": "AI연구소",
       "kind": "발표물",
@@ -3041,32 +3067,6 @@
       "date_raw": "2026-09-10T18:51:09.000Z",
       "title_source": "url-slug",
       "title": "Anthropic Expands Global Leadership In Enterprise Ai Naming Chris Ciauri As Managing Director Of",
-      "summary": "",
-      "org": "Anthropic",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.anthropic.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.anthropic.com/news/anthropic-higher-education-initiatives",
-      "date": "2026-09-10",
-      "date_raw": "2026-09-10T20:10:33.000Z",
-      "title_source": "url-slug",
-      "title": "Anthropic Higher Education Initiatives",
-      "summary": "",
-      "org": "Anthropic",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.anthropic.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
-      "date": "2026-09-10",
-      "date_raw": "2026-09-10T18:26:26.000Z",
-      "title_source": "url-slug",
-      "title": "Anthropic Invests 50 Billion In American Ai Infrastructure",
       "summary": "",
       "org": "Anthropic",
       "category": "AI연구소",
@@ -3595,6 +3595,19 @@
       "feed": "https://www.asml.com/sitemap.xml"
     },
     {
+      "url": "https://home.barclays/news/press-releases/20260/090/barclays-continues-strategic-investment-in-equity-capital-market/",
+      "date": "2026-09-11",
+      "date_raw": "2026-09-11T16:59:43+01:00",
+      "title_source": "page",
+      "title": "Barclays continues strategic investment in Equity Capital Markets team",
+      "summary": "Barclays continues strategic investment in Equity Capital Markets team",
+      "org": "Barclays",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://home.barclays/sitemap.xml"
+    },
+    {
       "url": "https://home.barclays/news/press-releases/20260/090/seven-in-10-gen-z-jobseekers-apply-without-checking-whether-role/",
       "date": "2026-09-10",
       "date_raw": "2026-09-10T14:17:33+01:00",
@@ -3715,9 +3728,9 @@
       "url": "https://home.barclays/news/press-releases/20260/080/britain-is-more-yimby-than-nimby--as-social-housing-tops-consume/",
       "date": "2026-08-25",
       "date_raw": "2026-08-25T09:40:21+01:00",
-      "title_source": "page",
-      "title": "Britain is more YIMBY than NIMBY, as social housing tops consumers’ housing policy priorities | Barclays",
-      "summary": "Barclays Property Insights finds that support for local housing development is nearly twice as common as opposition, with the strongest backing from Gen Z.",
+      "title_source": "url-slug",
+      "title": "Britain Is More Yimby Than Nimby As Social Housing Tops Consume",
+      "summary": "",
       "org": "Barclays",
       "category": "투자은행",
       "kind": "발표물",
@@ -3842,24 +3855,11 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://home.barclays/news/press-releases/20260/070/samsung-launches-its-first-credit-card-us/",
-      "date": "2026-07-21",
-      "date_raw": "2026-07-21T12:29:49+01:00",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/bain-capitals-david-gross-on-global-opportunities-and-private-equitys-evolution",
+      "date": "2026-09-11",
+      "date_raw": "2026-09-11T13:27:30.000Z",
       "title_source": "url-slug",
-      "title": "Samsung Launches Its First Credit Card Us",
-      "summary": "",
-      "org": "Barclays",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://home.barclays/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-will-less-fed-transparency-affect-markets-and-the-economy",
-      "date": "2026-09-10",
-      "date_raw": "2026-09-10T13:43:01.000Z",
-      "title_source": "url-slug",
-      "title": "How Will Less Fed Transparency Affect Markets And The Economy",
+      "title": "Bain Capitals David Gross On Global Opportunities And Private Equitys Evolution",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3869,10 +3869,36 @@
     },
     {
       "url": "https://www.goldmansachs.com/insights/articles/why-global-bond-yields-are-expected-to-stay-elevated",
-      "date": "2026-09-10",
-      "date_raw": "2026-09-10T18:43:32.000Z",
+      "date": "2026-09-11",
+      "date_raw": "2026-09-11T18:33:49.000Z",
       "title_source": "url-slug",
       "title": "Why Global Bond Yields Are Expected To Stay Elevated",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/articles/how-automation-impacts-the-lives-and-careers-of-displaced-workers",
+      "date": "2026-09-11",
+      "date_raw": "2026-09-11T18:49:04.000Z",
+      "title_source": "url-slug",
+      "title": "How Automation Impacts The Lives And Careers Of Displaced Workers",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-will-less-fed-transparency-affect-markets-and-the-economy",
+      "date": "2026-09-10",
+      "date_raw": "2026-09-10T13:43:01.000Z",
+      "title_source": "url-slug",
+      "title": "How Will Less Fed Transparency Affect Markets And The Economy",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3933,11 +3959,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T19:12:16.000Z",
+      "date_raw": "2026-09-04T15:26:17.000Z",
       "title_source": "url-slug",
-      "title": "Why Gold Is Expected To Rise To Record Highs",
+      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3946,11 +3972,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
+      "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T15:26:17.000Z",
+      "date_raw": "2026-09-04T19:12:16.000Z",
       "title_source": "url-slug",
-      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
+      "title": "Why Gold Is Expected To Rise To Record Highs",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3998,11 +4024,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T16:13:53.000Z",
+      "date_raw": "2026-09-02T20:18:47.000Z",
       "title_source": "url-slug",
-      "title": "David Solomon Cnbc Sep 2026   Transcript",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4011,11 +4037,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T20:18:47.000Z",
+      "date_raw": "2026-09-02T16:13:53.000Z",
       "title_source": "url-slug",
-      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
+      "title": "David Solomon Cnbc Sep 2026   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4037,11 +4063,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/articles/gold-is-forecast-to-climb-as-central-banks-buy-the-precious-metal",
+      "url": "https://www.goldmansachs.com/insights/the-markets/what-is-the-outlook-for-diesel-and-gasoline-supplies",
       "date": "2026-08-28",
-      "date_raw": "2026-08-28T15:56:18.000Z",
+      "date_raw": "2026-08-28T13:35:15.000Z",
       "title_source": "url-slug",
-      "title": "Gold Is Forecast To Climb As Central Banks Buy The Precious Metal",
+      "title": "What Is The Outlook For Diesel And Gasoline Supplies",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4050,11 +4076,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/the-markets/what-is-the-outlook-for-diesel-and-gasoline-supplies",
+      "url": "https://www.goldmansachs.com/insights/articles/gold-is-forecast-to-climb-as-central-banks-buy-the-precious-metal",
       "date": "2026-08-28",
-      "date_raw": "2026-08-28T13:35:15.000Z",
+      "date_raw": "2026-08-28T15:56:18.000Z",
       "title_source": "url-slug",
-      "title": "What Is The Outlook For Diesel And Gasoline Supplies",
+      "title": "Gold Is Forecast To Climb As Central Banks Buy The Precious Metal",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4081,32 +4107,6 @@
       "date_raw": "2026-08-27T13:36:42.000Z",
       "title_source": "url-slug",
       "title": "The Insight Powering The Ai Era",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows/transcript.pdf",
-      "date": "2026-08-27",
-      "date_raw": "2026-08-27T17:20:58.000Z",
-      "title_source": "url-slug",
-      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows   Transcript",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/building-ai-systems-for-capital-markets",
-      "date": "2026-08-24",
-      "date_raw": "2026-08-24T19:28:09.000Z",
-      "title_source": "url-slug",
-      "title": "Building Ai Systems For Capital Markets",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4854,7 +4854,7 @@
       "kind": "논문",
       "source": "openalex",
       "title_source": "openalex",
-      "venue": "bepress Legal Repository",
+      "venue": "eYLS (Yale Law School)",
       "work_type": "article",
       "cited_by": 0
     },
@@ -4994,7 +4994,7 @@
       "kind": "논문",
       "source": "openalex",
       "title_source": "openalex",
-      "venue": "Journal of Collective Bargaining in the Academy",
+      "venue": "The Keep (Eastern Illinois University)",
       "work_type": "article",
       "cited_by": 0
     },
@@ -5051,6 +5051,20 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "International Journal of Creative and Open Research in Engineering and Management",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "GAN-Augmented Intrusion Detection: A Feature-Wise Attention MLP Framework for Imbalanced Network Traffic",
+      "url": "https://doi.org/10.47852/bonviewaia620210960",
+      "date": "2026-09-01",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Artificial Intelligence and Applications",
       "work_type": "article",
       "cited_by": 0
     },
@@ -5321,17 +5335,17 @@
       "cited_by": 0
     },
     {
-      "title": "Quantum codes from classical annealing",
-      "url": "https://openalex.org/W7170989633",
-      "date": "2026-07-21",
+      "title": "Multi-Agent Tourism Support Systems (MATSS): a SOR-CLT perspective on traveller cognition and AI-mediated service experience",
+      "url": "https://doi.org/10.1080/13683500.2026.2729832",
+      "date": "2026-09-10",
       "summary": "",
-      "org": "JPMorgan Chase",
+      "org": "Morgan Stanley",
       "category": "투자은행",
       "kind": "논문",
       "source": "openalex",
       "title_source": "openalex",
-      "venue": "arXiv (Cornell University)",
-      "work_type": "preprint",
+      "venue": "Current Issues in Tourism",
+      "work_type": "article",
       "cited_by": 0
     },
     {
@@ -5654,7 +5668,7 @@
       "title_source": "openalex",
       "venue": "International Journal of Contemporary Hospitality Management",
       "work_type": "article",
-      "cited_by": 11
+      "cited_by": 12
     },
     {
       "title": "The effect of data poisoning on counterfactual explanations",
@@ -5668,20 +5682,6 @@
       "title_source": "openalex",
       "venue": "Information Fusion",
       "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Generalized Discrete Diffusion with Self-Correction",
-      "url": "https://openalex.org/W7133570985",
-      "date": "2026-02-13",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "arXiv (Cornell University)",
-      "work_type": "preprint",
       "cited_by": 0
     },
     {
@@ -6133,6 +6133,20 @@
       "cited_by": 0
     },
     {
+      "title": "Optimization and Accuracy Improvement of Power Forecasting Models for Wind Farms Under Transient Weather Conditions",
+      "url": "https://doi.org/10.7716/aem.v15i3.4325",
+      "date": "2026-08-21",
+      "summary": "",
+      "org": "Citigroup",
+      "category": "투자은행",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Advanced Electromagnetics",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Astronomy-centered relativity and its immediate applications",
       "url": "https://doi.org/10.5281/zenodo.22018922",
       "date": "2026-08-19",
@@ -6371,17 +6385,17 @@
       "cited_by": 0
     },
     {
-      "title": "Does Demographic Dividend Impact Economic Growth? Evidence from G-20 Countries",
-      "url": "https://doi.org/10.1177/00194662261457512",
-      "date": "2026-07-13",
+      "title": "Cfap410a and Cby work together with tissue-specific requirements to build Drosophila ciliary transition zones",
+      "url": "https://doi.org/10.64898/2026.09.08.749861",
+      "date": "2026-09-10",
       "summary": "",
-      "org": "Citigroup",
+      "org": "UBS",
       "category": "투자은행",
       "kind": "논문",
       "source": "openalex",
       "title_source": "openalex",
-      "venue": "The Indian Economic Journal",
-      "work_type": "article",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "work_type": "preprint",
       "cited_by": 0
     },
     {
@@ -6718,20 +6732,6 @@
       "title_source": "openalex",
       "venue": "arXiv (Cornell University)",
       "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "Tracking microplastics across urban drainage systems and highway runoff: a snapshot assessment",
-      "url": "https://doi.org/10.2166/wqrj.2026.054",
-      "date": "2026-06-19",
-      "summary": "",
-      "org": "UBS",
-      "category": "투자은행",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Water Quality Research Journal",
-      "work_type": "article",
       "cited_by": 0
     },
     {
@@ -7883,6 +7883,20 @@
       "cited_by": 0
     },
     {
+      "title": "Celah Regulasi atau Dilema Pro-Investasi? Kasus Impor Truk CBU Tiongkok di Indonesia",
+      "url": "https://doi.org/10.26740/mitrans.v4n2.p515-525",
+      "date": "2026-08-20",
+      "summary": "",
+      "org": "Intel",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Jurnal Media Publikasi Terapan Transportasi",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Molecular dynamics study of ferroelectric switching mechanisms in monodomain and 180° domain walls of BaTiO3 and PbTiO3",
       "url": "https://doi.org/10.1063/5.0341581",
       "date": "2026-08-14",
@@ -8121,20 +8135,6 @@
       "cited_by": 0
     },
     {
-      "title": "Redesigning Objective Questions for Efficient and Fair Assessment in Theoretical STEM Courses",
-      "url": "https://doi.org/10.1109/te.2026.3693554",
-      "date": "2026-07-21",
-      "summary": "",
-      "org": "Intel",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "IEEE Transactions on Education",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
       "title": "Geomorphological dynamics at the coast: A sedimentary stratigraphy for Atlit-Yam, the earliest coastal village at the Eastern Mediterranean and its submerged landscape",
       "url": "https://doi.org/10.1016/j.quaint.2026.110434",
       "date": "2026-09-01",
@@ -8286,7 +8286,7 @@
       "title_source": "openalex",
       "venue": "Nature Biotechnology",
       "work_type": "article",
-      "cited_by": 1
+      "cited_by": 2
     },
     {
       "title": "An Artificial Intelligence–Enabled Cardiopulmonary Resuscitation Instructor",
@@ -9476,7 +9476,7 @@
       "title_source": "openalex",
       "venue": "Journal of Artificial Intelligence General science (JAIGS) ISSN 3006-4023",
       "work_type": "article",
-      "cited_by": 8
+      "cited_by": 9
     },
     {
       "title": "The Impact of Extreme Ultraviolet Lithography (EUVL) on Semiconductor Scaling",
@@ -9885,6 +9885,48 @@
       "cited_by": 0
     },
     {
+      "title": "Depression as a Risk of Lung Cancer in Women: a Nationwide Cohort Study",
+      "url": "https://doi.org/10.4046/trd.2026.0108",
+      "date": "2026-09-10",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Tuberculosis & respiratory diseases",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Interplay of Adsorbed and Free Polymer Governs Microstructure and Processability of Battery Slurries",
+      "url": "https://doi.org/10.1021/acsnano.6c10201",
+      "date": "2026-09-10",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "ACS Nano",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Marangoni Flow Control Framework for Uniform Thin-Film Formation in Inkjet-Printed Light-Emitting Devices",
+      "url": "https://doi.org/10.1021/acsami.6c10360",
+      "date": "2026-09-10",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "ACS Applied Materials & Interfaces",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Lifestyle transitions and healthier biological aging in middle-aged and older adults: a prospective study in an East Asian cohort",
       "url": "https://doi.org/10.1186/s13148-026-02240-8",
       "date": "2026-09-09",
@@ -10189,48 +10231,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Knowledge-Based Systems",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Elevated remnant cholesterol levels and variability with incident mental disorders in adults with type 1 diabetes: a nationwide cohort study",
-      "url": "https://doi.org/10.1016/j.jpsychores.2026.112984",
-      "date": "2026-09-01",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Journal of Psychosomatic Research",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Exposure to Ambient Air Pollutants During Early Gestation and Phenotypic Variation in Non-Syndromic Microtia",
-      "url": "https://doi.org/10.1016/j.bjps.2026.09.003",
-      "date": "2026-09-01",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Journal of Plastic Reconstructive & Aesthetic Surgery",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Interpreting transformer representations under positional inductive bias in learning-by-confusion for the two-dimensional Ising model",
-      "url": "https://doi.org/10.1016/j.commatsci.2026.115035",
-      "date": "2026-08-31",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Computational Materials Science",
       "work_type": "article",
       "cited_by": 0
     },
@@ -10585,6 +10585,62 @@
       "cited_by": 0
     },
     {
+      "title": "On the Finite Upper Bound f(6) <= 24,600 and Structural Barriers to Counterexamples in the Erdős–Gyárfás Conjecture",
+      "url": "https://doi.org/10.5281/zenodo.22697836",
+      "date": "2026-09-10",
+      "summary": "",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
+      "title": "On the Finite Upper Bound f(6) <= 24,600 and Structural Barriers to Counterexamples in the Erdős–Gyárfás Conjecture",
+      "url": "https://doi.org/10.5281/zenodo.22697825",
+      "date": "2026-09-10",
+      "summary": "",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
+      "title": "On the Finite Upper Bound f(6) <= 24,600 and Structural Barriers to Counterexamples in the Erdős–Gyárfás Conjecture",
+      "url": "https://doi.org/10.5281/zenodo.22697835",
+      "date": "2026-09-10",
+      "summary": "",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
+      "title": "On the Finite Upper Bound f(6) <= 24,600 and Structural Barriers to Counterexamples in the Erdős–Gyárfás Conjecture",
+      "url": "https://doi.org/10.5281/zenodo.22697824",
+      "date": "2026-09-10",
+      "summary": "",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
       "title": "A Disclosure Benchmark Specification for Automated Alignment Research — Version 1.2",
       "url": "https://doi.org/10.5281/zenodo.22179465",
       "date": "2026-09-07",
@@ -10879,59 +10935,59 @@
       "cited_by": 0
     },
     {
-      "title": "Closure Theory: An Introductory Résumé of Papers 0–IV",
-      "url": "https://doi.org/10.5281/zenodo.21479200",
-      "date": "2026-07-21",
+      "title": "On the Finite Upper Bound f(6) <= 24,600 and Structural Barriers to Counterexamples in the Erdős–Gyárfás Conjecture",
+      "url": "https://doi.org/10.5281/zenodo.22697836",
+      "date": "2026-09-10",
       "summary": "",
-      "org": "OpenAI",
+      "org": "Google DeepMind",
       "category": "AI연구소",
       "kind": "논문",
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
+      "work_type": "preprint",
       "cited_by": 0
     },
     {
-      "title": "Canonical Frame Transport as the Induced Geometry of the Canonical Transport Equation",
-      "url": "https://doi.org/10.5281/zenodo.21477825",
-      "date": "2026-07-21",
+      "title": "On the Finite Upper Bound f(6) <= 24,600 and Structural Barriers to Counterexamples in the Erdős–Gyárfás Conjecture",
+      "url": "https://doi.org/10.5281/zenodo.22697825",
+      "date": "2026-09-10",
       "summary": "",
-      "org": "OpenAI",
+      "org": "Google DeepMind",
       "category": "AI연구소",
       "kind": "논문",
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
+      "work_type": "preprint",
       "cited_by": 0
     },
     {
-      "title": "Circular–Hyperbolic Canonical Transport Exponential Structure, Frame Rotation and the Possible Emergence of Helical Fibre Geometry",
-      "url": "https://doi.org/10.5281/zenodo.21477918",
-      "date": "2026-07-21",
+      "title": "On the Finite Upper Bound f(6) <= 24,600 and Structural Barriers to Counterexamples in the Erdős–Gyárfás Conjecture",
+      "url": "https://doi.org/10.5281/zenodo.22697835",
+      "date": "2026-09-10",
       "summary": "",
-      "org": "OpenAI",
+      "org": "Google DeepMind",
       "category": "AI연구소",
       "kind": "논문",
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
+      "work_type": "preprint",
       "cited_by": 0
     },
     {
-      "title": "Circular–Hyperbolic Canonical Transport Exponential Structure, Frame Rotation and the Possible Emergence of Helical Fibre Geometry",
-      "url": "https://doi.org/10.5281/zenodo.21477917",
-      "date": "2026-07-21",
+      "title": "On the Finite Upper Bound f(6) <= 24,600 and Structural Barriers to Counterexamples in the Erdős–Gyárfás Conjecture",
+      "url": "https://doi.org/10.5281/zenodo.22697824",
+      "date": "2026-09-10",
       "summary": "",
-      "org": "OpenAI",
+      "org": "Google DeepMind",
       "category": "AI연구소",
       "kind": "논문",
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
+      "work_type": "preprint",
       "cited_by": 0
     },
     {
@@ -11030,6 +11086,20 @@
       "title_source": "openalex",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
+      "title": "Visual Storytelling: An Embodied Companion [Arts and Robotics]",
+      "url": "https://doi.org/10.1109/mra.2026.3714296",
+      "date": "2026-08-10",
+      "summary": "",
+      "org": "Google DeepMind",
+      "category": "AI연구소",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "IEEE Robotics & Automation Magazine",
+      "work_type": "article",
       "cited_by": 0
     },
     {
@@ -11215,76 +11285,6 @@
       "cited_by": 0
     },
     {
-      "title": "Gaussian Invariant Markov Chain Monte Carlo",
-      "url": "https://doi.org/10.1080/01621459.2026.2702653",
-      "date": "2026-07-15",
-      "summary": "",
-      "org": "Google DeepMind",
-      "category": "AI연구소",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Journal of the American Statistical Association",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "An encyclopedia of human enhancer–gene regulatory interactions",
-      "url": "https://doi.org/10.1038/s41586-026-10781-4",
-      "date": "2026-07-15",
-      "summary": "",
-      "org": "Google DeepMind",
-      "category": "AI연구소",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Nature",
-      "work_type": "article",
-      "cited_by": 4
-    },
-    {
-      "title": "Role Steering of Language Models for Social Simulations",
-      "url": "https://openalex.org/W7172557415",
-      "date": "2026-07-09",
-      "summary": "",
-      "org": "Google DeepMind",
-      "category": "AI연구소",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "arXiv (Cornell University)",
-      "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "Reinforcement learning control of quantum error correction",
-      "url": "https://doi.org/10.1038/s41586-026-10759-2",
-      "date": "2026-07-08",
-      "summary": "",
-      "org": "Google DeepMind",
-      "category": "AI연구소",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Nature",
-      "work_type": "article",
-      "cited_by": 2
-    },
-    {
-      "title": "Towards globally equitable bioinformatics adoption",
-      "url": "https://doi.org/10.1371/journal.pbio.3003839",
-      "date": "2026-07-01",
-      "summary": "",
-      "org": "Google DeepMind",
-      "category": "AI연구소",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "PLoS Biology",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
       "title": "Counsel: A Meta-Evaluation Dataset for Agentic Tasks",
       "url": "https://openalex.org/W7165818325",
       "date": "2026-06-19",
@@ -11380,7 +11380,7 @@
       "title_source": "openalex",
       "venue": "Transactions of the Association for Computational Linguistics",
       "work_type": "article",
-      "cited_by": 1
+      "cited_by": 2
     },
     {
       "title": "AutoNeRF: Training Implicit Scene Representations with Autonomous Agents",
@@ -12097,6 +12097,20 @@
       "cited_by": 0
     },
     {
+      "title": "Oral Fungal Infection Impacts Epithelial Innate Immunity to Promote Local and Distal Squamous Cell Carcinoma Progression",
+      "url": "https://doi.org/10.1158/0008-5472.can-26-0070",
+      "date": "2026-09-10",
+      "summary": "",
+      "org": "Leidos",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Cancer Research",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "TMA-Grid: an open-source, zero-footprint web application for FAIR tissue microarray de-arraying",
       "url": "https://doi.org/10.1186/s12859-026-06638-2",
       "date": "2026-09-09",
@@ -12429,20 +12443,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Long-term stability at −80°C of oral wash and saliva samples for microbiome analyses",
-      "url": "https://doi.org/10.1128/spectrum.00573-26",
-      "date": "2026-08-06",
-      "summary": "",
-      "org": "Leidos",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Microbiology Spectrum",
       "work_type": "article",
       "cited_by": 0
     },
@@ -14264,7 +14264,7 @@
       "title_source": "openalex",
       "venue": "JAMA Network Open",
       "work_type": "article",
-      "cited_by": 33
+      "cited_by": 34
     },
     {
       "title": "Assessing the effect of selective serotonin reuptake inhibitors in the prevention of post-acute sequelae of COVID-19",

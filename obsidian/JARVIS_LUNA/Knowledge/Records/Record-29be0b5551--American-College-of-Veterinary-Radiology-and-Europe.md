@@ -2,7 +2,7 @@
 title: "Record 29be0b5551 · American-College-of-Veterinary-Radiology-and-European-College-of-Veter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.468549+00:00
+updated_at: 2026-09-11T19:06:34.754896+00:00
 tags: [record, real-data]
 ---
 

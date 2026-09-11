@@ -2,7 +2,7 @@
 title: "Record 644bfd7586 · From-Snail-Mucin-to-PDRN-10-Ingredients-That-Define-K-beauty---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.600682+00:00
+updated_at: 2026-09-11T19:06:34.901698+00:00
 tags: [record, real-data]
 ---
 

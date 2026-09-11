@@ -2,7 +2,7 @@
 title: "Record c7cd0692ae · Distributed-Droop-Free-Control-of-Grid-Forming-Inverters-with-Dynamic-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.287633+00:00
+updated_at: 2026-09-11T19:06:34.581766+00:00
 tags: [record, real-data]
 ---
 

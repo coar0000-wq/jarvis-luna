@@ -2,7 +2,7 @@
 title: "Record c278736dfd · A-Look-Back-on-the-Biggest-K-Beauty-Trends-of-2025---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.587789+00:00
+updated_at: 2026-09-11T19:06:34.888618+00:00
 tags: [record, real-data]
 ---
 

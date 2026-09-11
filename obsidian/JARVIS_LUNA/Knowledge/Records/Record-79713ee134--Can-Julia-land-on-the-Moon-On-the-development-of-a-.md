@@ -2,7 +2,7 @@
 title: "Record 79713ee134 · Can-Julia-land-on-the-Moon-On-the-development-of-a-GNC-simulation-fram"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.256410+00:00
+updated_at: 2026-09-11T19:06:34.552190+00:00
 tags: [record, real-data]
 ---
 

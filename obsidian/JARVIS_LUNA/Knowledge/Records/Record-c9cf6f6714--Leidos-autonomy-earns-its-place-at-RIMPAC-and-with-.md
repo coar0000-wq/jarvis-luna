@@ -2,7 +2,7 @@
 title: "Record c9cf6f6714 · Leidos-autonomy-earns-its-place-at-RIMPAC-and-with-carrier-strike-grou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.533732+00:00
+updated_at: 2026-09-11T19:06:34.831440+00:00
 tags: [record, real-data]
 ---
 

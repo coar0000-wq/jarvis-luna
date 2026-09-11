@@ -2,7 +2,7 @@
 title: "Record 2f360fb405 · PlusAI-to-take-autonomous-trucking-public-via-a-SPAC-deal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.942661+00:00
+updated_at: 2026-09-11T19:06:35.242627+00:00
 tags: [record, real-data]
 ---
 

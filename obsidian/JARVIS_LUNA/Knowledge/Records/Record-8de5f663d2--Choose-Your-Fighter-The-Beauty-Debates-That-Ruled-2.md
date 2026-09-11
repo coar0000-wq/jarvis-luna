@@ -2,7 +2,7 @@
 title: "Record 8de5f663d2 · Choose-Your-Fighter-The-Beauty-Debates-That-Ruled-2025---Bustle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.620558+00:00
+updated_at: 2026-09-11T19:06:34.921794+00:00
 tags: [record, real-data]
 ---
 

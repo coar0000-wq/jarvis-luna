@@ -2,7 +2,7 @@
 title: "Record 3560184cf0 · People-Are-Sharing-Their-Most-Unhinged-Beauty-Hacks-on-TikTokHere-Are-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.620795+00:00
+updated_at: 2026-09-11T19:06:34.922038+00:00
 tags: [record, real-data]
 ---
 

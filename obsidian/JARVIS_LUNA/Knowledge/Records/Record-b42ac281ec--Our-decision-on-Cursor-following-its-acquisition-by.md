@@ -2,7 +2,7 @@
 title: "Record b42ac281ec · Our-decision-on-Cursor-following-its-acquisition-by-SpaceX"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.786537+00:00
+updated_at: 2026-09-11T19:06:35.084200+00:00
 tags: [record, real-data]
 ---
 

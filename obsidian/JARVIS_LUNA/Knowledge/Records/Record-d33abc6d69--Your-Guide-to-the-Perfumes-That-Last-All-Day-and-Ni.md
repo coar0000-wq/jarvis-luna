@@ -2,7 +2,7 @@
 title: "Record d33abc6d69 · Your-Guide-to-the-Perfumes-That-Last-All-Day-and-Night"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.862531+00:00
+updated_at: 2026-09-11T19:06:35.154082+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9101277b50 · TANGO-Humanoid-Navigation-in-Cluttered-Environments-with-a-Whole-Body-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.304000+00:00
+updated_at: 2026-09-11T19:06:34.598253+00:00
 tags: [record, real-data]
 ---
 

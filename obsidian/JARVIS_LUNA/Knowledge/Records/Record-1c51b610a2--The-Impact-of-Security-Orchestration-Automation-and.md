@@ -2,7 +2,7 @@
 title: "Record 1c51b610a2 · The-Impact-of-Security-Orchestration-Automation-and-Response-SOAR-on-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.511111+00:00
+updated_at: 2026-09-11T19:06:34.805392+00:00
 tags: [record, real-data]
 ---
 

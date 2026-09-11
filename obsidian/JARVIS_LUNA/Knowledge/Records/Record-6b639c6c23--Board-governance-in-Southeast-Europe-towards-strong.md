@@ -2,7 +2,7 @@
 title: "Record 6b639c6c23 · Board-governance-in-Southeast-Europe-towards-stronger-training-and-qua"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.467021+00:00
+updated_at: 2026-09-11T19:06:34.753156+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0540a13064 · How-To-Nail-TikToks-Sade-Girl-Makeup-Trend-This-Winter---essencecom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.594337+00:00
+updated_at: 2026-09-11T19:06:34.895265+00:00
 tags: [record, real-data]
 ---
 

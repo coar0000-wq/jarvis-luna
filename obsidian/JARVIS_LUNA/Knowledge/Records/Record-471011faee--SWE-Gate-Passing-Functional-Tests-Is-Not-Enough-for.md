@@ -2,7 +2,7 @@
 title: "Record 471011faee · SWE-Gate-Passing-Functional-Tests-Is-Not-Enough-for-Software-Engineeri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.262530+00:00
+updated_at: 2026-09-11T19:06:34.557550+00:00
 tags: [record, real-data]
 ---
 

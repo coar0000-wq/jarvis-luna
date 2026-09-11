@@ -2,7 +2,7 @@
 title: "Record 770c19b93c · Cross-Regional-Grapevine-Cold-Hardiness-Prediction-via-Learned-Multimo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.239647+00:00
+updated_at: 2026-09-11T19:06:34.536556+00:00
 tags: [record, real-data]
 ---
 

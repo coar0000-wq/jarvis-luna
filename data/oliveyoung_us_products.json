@@ -2,7 +2,7 @@
   "source": "us.oliveyoung.com/best-sellers (실수집)",
   "method": "React Router turbo-stream 데이터 응답 파싱",
   "robots_note": "robots.txt 확인: Allow / 이며 /best-sellers 는 허용 경로. Disallow 인 /search 는 요청하지 않음.",
-  "collected_at": "2026-09-11T14:04:39.020958+00:00",
+  "collected_at": "2026-09-11T18:59:56.096539+00:00",
   "count": 100,
   "reason": "",
   "is_stale": false,
@@ -24,7 +24,7 @@
       "original_price_usd": 70.0,
       "currency": "USD",
       "rating": 4.8,
-      "review_count": 3787,
+      "review_count": 3881,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8806109102636/thumbnail/3bb2dfbf-06b7-49a4-a943-da69133106e2.jpg",
       "url": "https://us.oliveyoung.com/products/UA39839880"
@@ -38,7 +38,7 @@
       "original_price_usd": 22.0,
       "currency": "USD",
       "rating": 4.8,
-      "review_count": 1069,
+      "review_count": 1070,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809936744284/thumbnail/50eb5700-9f44-4ea5-8193-851d86d70ba1.webp",
       "url": "https://us.oliveyoung.com/products/UA48723304"
@@ -52,7 +52,7 @@
       "original_price_usd": 32.0,
       "currency": "USD",
       "rating": 4.7,
-      "review_count": 372,
+      "review_count": 375,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809826717145/thumbnail/64b849cb-98b5-4d8e-bf55-82617424ceee.png",
       "url": "https://us.oliveyoung.com/products/UA97366320"
@@ -80,7 +80,7 @@
       "original_price_usd": 27.0,
       "currency": "USD",
       "rating": 4.8,
-      "review_count": 1632,
+      "review_count": 1636,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809447256221/thumbnail/c9648ec1-d566-45e9-b542-9237595fc4eb.jpg",
       "url": "https://us.oliveyoung.com/products/UA73639757"
@@ -94,7 +94,7 @@
       "original_price_usd": 48.0,
       "currency": "USD",
       "rating": 4.8,
-      "review_count": 15514,
+      "review_count": 15664,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/GA251135382/thumbnail/d8aac09a-bc51-4ae4-b603-eb61af3ec315.jpg",
       "url": "https://us.oliveyoung.com/products/UA32407466"
@@ -136,7 +136,7 @@
       "original_price_usd": 15.0,
       "currency": "USD",
       "rating": 4.8,
-      "review_count": 12097,
+      "review_count": 12136,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/GA241227536/thumbnail/5cdf1dc3-e47a-42f5-98dc-caf43c1bf054.jpg",
       "url": "https://us.oliveyoung.com/products/UA29855490"
@@ -164,7 +164,7 @@
       "original_price_usd": 26.4,
       "currency": "USD",
       "rating": 4.8,
-      "review_count": 12828,
+      "review_count": 12851,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/GA220815951/thumbnail/de08665b-7999-4137-86c7-8e09d2980a87.jpg",
       "url": "https://us.oliveyoung.com/products/UA74545007"
@@ -206,8 +206,8 @@
       "original_price_usd": 29.99,
       "currency": "USD",
       "rating": 4.9,
-      "review_count": 1873,
-      "is_soldout": false,
+      "review_count": 1883,
+      "is_soldout": true,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809641690807/thumbnail/100008ec-48da-4dff-8aa5-fc22f8abf5cb.png",
       "url": "https://us.oliveyoung.com/products/UA24515121"
     },
@@ -234,7 +234,7 @@
       "original_price_usd": 24.0,
       "currency": "USD",
       "rating": 5,
-      "review_count": 10,
+      "review_count": 11,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809784607243/thumbnail/0c3867ef-7fb4-40d7-a90a-26e0bf152041.jpg",
       "url": "https://us.oliveyoung.com/products/UA56625219"
@@ -332,7 +332,7 @@
       "original_price_usd": 36.0,
       "currency": "USD",
       "rating": 4.8,
-      "review_count": 268,
+      "review_count": 269,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809603900685/thumbnail/02f6e91d-1d63-4ca8-84b6-999cda0334ad.jpg",
       "url": "https://us.oliveyoung.com/products/UA43803100"
@@ -598,7 +598,7 @@
       "original_price_usd": 16.0,
       "currency": "USD",
       "rating": 4.6,
-      "review_count": 2456,
+      "review_count": 2468,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/GA250530917/thumbnail/1a6a92ff-430e-4006-8f61-ffe0739f816a.png",
       "url": "https://us.oliveyoung.com/products/UA61090771"
@@ -612,7 +612,7 @@
       "original_price_usd": 12.86,
       "currency": "USD",
       "rating": 4.7,
-      "review_count": 3375,
+      "review_count": 3396,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809815644308/thumbnail/382e870c-a5d2-4979-a972-27d15c5c0f83.png",
       "url": "https://us.oliveyoung.com/products/UA84026922"
@@ -640,7 +640,7 @@
       "original_price_usd": 27.0,
       "currency": "USD",
       "rating": 4.9,
-      "review_count": 52,
+      "review_count": 56,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8800283675276/thumbnail/f29fd375-1fee-46a3-bc21-4497ffb1ee86.jpg",
       "url": "https://us.oliveyoung.com/products/UA49121959"
@@ -654,7 +654,7 @@
       "original_price_usd": 22.0,
       "currency": "USD",
       "rating": 4.7,
-      "review_count": 299,
+      "review_count": 306,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8800290363975/thumbnail/ae8ffbb1-9aba-4eee-b360-44f2e7c96745.jpg",
       "url": "https://us.oliveyoung.com/products/UA21110049"
@@ -668,7 +668,7 @@
       "original_price_usd": 26.0,
       "currency": "USD",
       "rating": 4.6,
-      "review_count": 1757,
+      "review_count": 1771,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/GA251034089/thumbnail/6be3027b-c3c4-42f9-9322-cd973fbb176a.png",
       "url": "https://us.oliveyoung.com/products/UA49855308"
@@ -682,7 +682,7 @@
       "original_price_usd": 22.0,
       "currency": "USD",
       "rating": 4.7,
-      "review_count": 1392,
+      "review_count": 1397,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/UA32903292/thumbnail/e42a0426-b3f5-49f6-ba11-51f752a6eb63.jpg",
       "url": "https://us.oliveyoung.com/products/UA32903292"
@@ -766,7 +766,7 @@
       "original_price_usd": 20.0,
       "currency": "USD",
       "rating": 4.7,
-      "review_count": 2665,
+      "review_count": 2679,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809082392292/thumbnail/1681b580-635e-47d7-b189-3f52774d0fed.jpg",
       "url": "https://us.oliveyoung.com/products/UA32525107"
@@ -780,7 +780,7 @@
       "original_price_usd": 22.4,
       "currency": "USD",
       "rating": 4.8,
-      "review_count": 525,
+      "review_count": 528,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/UA43302788/thumbnail/5edfe4ed-160f-4026-b6a9-bb1b8a2d1fe9.jpg",
       "url": "https://us.oliveyoung.com/products/UA43302788"
@@ -808,7 +808,7 @@
       "original_price_usd": 29.0,
       "currency": "USD",
       "rating": 4.9,
-      "review_count": 2322,
+      "review_count": 2325,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809652587639/thumbnail/9d63448f-3816-41aa-9c1e-3f838712ef61.png",
       "url": "https://us.oliveyoung.com/products/UA71332893"
@@ -836,7 +836,7 @@
       "original_price_usd": 31.2,
       "currency": "USD",
       "rating": 4.7,
-      "review_count": 1766,
+      "review_count": 1770,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/GA210004842/thumbnail/550ba69d-c17c-4439-afa1-c496eaa1b93b.webp",
       "url": "https://us.oliveyoung.com/products/UA50161155"
@@ -920,7 +920,7 @@
       "original_price_usd": 19.9,
       "currency": "USD",
       "rating": 4.8,
-      "review_count": 1148,
+      "review_count": 1153,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/GA250933794/thumbnail/b68fb719-e1b1-4a3f-9b18-8b7c7126f311.jpg",
       "url": "https://us.oliveyoung.com/products/UA40171383"
@@ -962,7 +962,7 @@
       "original_price_usd": 34.0,
       "currency": "USD",
       "rating": 4.8,
-      "review_count": 1839,
+      "review_count": 1847,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809970751934/thumbnail/e2464a15-1630-4056-af51-022f51d740c5.jpg",
       "url": "https://us.oliveyoung.com/products/UA52271115"
@@ -1060,7 +1060,7 @@
       "original_price_usd": 27.0,
       "currency": "USD",
       "rating": 5,
-      "review_count": 1,
+      "review_count": 2,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809784607250/thumbnail/10b520cc-2e3a-4f7c-b4eb-f64ae64c549a.jpg",
       "url": "https://us.oliveyoung.com/products/UA88631233"
@@ -1074,7 +1074,7 @@
       "original_price_usd": 13.7,
       "currency": "USD",
       "rating": 4.7,
-      "review_count": 1467,
+      "review_count": 1470,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809714721858/thumbnail/cabf5a8a-08b6-4637-8f1d-1bdc82556fc5.jpg",
       "url": "https://us.oliveyoung.com/products/UA78366215"
@@ -1130,7 +1130,7 @@
       "original_price_usd": 13.99,
       "currency": "USD",
       "rating": 4.8,
-      "review_count": 18076,
+      "review_count": 18186,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809393727561/thumbnail/91f98321-4065-4aa1-9598-b2735afc1037.jpg",
       "url": "https://us.oliveyoung.com/products/UA58610827"
@@ -1186,7 +1186,7 @@
       "original_price_usd": 59.0,
       "currency": "USD",
       "rating": 4.9,
-      "review_count": 136,
+      "review_count": 143,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809859320190/thumbnail/0f0d5b33-5be0-4210-8959-293c747243a5.jpg",
       "url": "https://us.oliveyoung.com/products/UA49876822"
@@ -1200,7 +1200,7 @@
       "original_price_usd": 15.99,
       "currency": "USD",
       "rating": 4.7,
-      "review_count": 1415,
+      "review_count": 1421,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/GA240825413/thumbnail/a8f13a83-7b8d-4ca1-8ddf-066494f5b87a.jpg",
       "url": "https://us.oliveyoung.com/products/UA34955856"
@@ -1214,7 +1214,7 @@
       "original_price_usd": 24.0,
       "currency": "USD",
       "rating": 4.7,
-      "review_count": 50,
+      "review_count": 51,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8800311120822/thumbnail/60f8b790-d9c9-4d2d-a424-fc7282f24c82.png",
       "url": "https://us.oliveyoung.com/products/UA17825922"
@@ -1228,7 +1228,7 @@
       "original_price_usd": 25.0,
       "currency": "USD",
       "rating": 4.8,
-      "review_count": 493,
+      "review_count": 542,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809640737800/thumbnail/78cc037a-561e-4046-a942-1b2044e0b3b6.png",
       "url": "https://us.oliveyoung.com/products/UA84178713"
@@ -1270,7 +1270,7 @@
       "original_price_usd": 26.0,
       "currency": "USD",
       "rating": 4.8,
-      "review_count": 958,
+      "review_count": 962,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/GA250631330/thumbnail/d4fd0444-64b6-4a88-a4ff-d81e44180b64.jpg",
       "url": "https://us.oliveyoung.com/products/UA60874004"
@@ -1284,7 +1284,7 @@
       "original_price_usd": 47.2,
       "currency": "USD",
       "rating": 4.8,
-      "review_count": 742,
+      "review_count": 752,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/GA260136971/thumbnail/850724fa-f6fd-4e1f-b4de-91c78e1dd9bc.jpg",
       "url": "https://us.oliveyoung.com/products/UA73797710"
@@ -1299,7 +1299,7 @@
       "currency": "USD",
       "rating": 0,
       "review_count": 0,
-      "is_soldout": false,
+      "is_soldout": true,
       "image_url": "https://use-image.oliveyoung.com/images/prd/810059620315/thumbnail/aa687d4a-57f7-4618-8e3c-ed62ed082dca.jpg",
       "url": "https://us.oliveyoung.com/products/UA76380273"
     },
@@ -1354,7 +1354,7 @@
       "original_price_usd": 12.0,
       "currency": "USD",
       "rating": 4.8,
-      "review_count": 9393,
+      "review_count": 9451,
       "is_soldout": false,
       "image_url": "https://use-image.oliveyoung.com/images/prd/8809759906654/thumbnail/e3d13c62-17bd-4f12-9d58-9c84b04dd3ae.jpg",
       "url": "https://us.oliveyoung.com/products/UA76874352"

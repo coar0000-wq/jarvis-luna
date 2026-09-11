@@ -2,7 +2,7 @@
 title: "Record 5933340549 · Configuration-Constrained-Tube-MPC-for-Difference-of-Convex-Nonlinear-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.288304+00:00
+updated_at: 2026-09-11T19:06:34.582421+00:00
 tags: [record, real-data]
 ---
 

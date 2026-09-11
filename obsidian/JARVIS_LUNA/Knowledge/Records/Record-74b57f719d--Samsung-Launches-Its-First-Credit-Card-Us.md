@@ -2,7 +2,7 @@
 title: "Record 74b57f719d · Samsung-Launches-Its-First-Credit-Card-Us"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.892170+00:00
+updated_at: 2026-09-11T19:06:35.184447+00:00
 tags: [record, real-data]
 ---
 

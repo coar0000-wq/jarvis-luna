@@ -2,7 +2,7 @@
 title: "Record c8194a3a80 · You-can-build-an-eCommerce-business-from-anywhere-But-some-connections"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.959565+00:00
+updated_at: 2026-09-11T19:06:35.262541+00:00
 tags: [record, real-data]
 ---
 

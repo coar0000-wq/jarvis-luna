@@ -2,7 +2,7 @@
 title: "Record 160037c914 · Power-Flow-Feasibility-Assessment-Using-Variational-Graph-Autoencoders"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.811960+00:00
+updated_at: 2026-09-11T19:06:35.107531+00:00
 tags: [record, real-data]
 ---
 

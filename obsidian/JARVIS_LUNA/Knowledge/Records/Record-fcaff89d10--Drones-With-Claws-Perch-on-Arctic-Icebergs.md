@@ -2,7 +2,7 @@
 title: "Record fcaff89d10 · Drones-With-Claws-Perch-on-Arctic-Icebergs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.823855+00:00
+updated_at: 2026-09-11T19:06:35.118097+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Drones With Claws Perch on Arctic Icebergs
 
 Drones With Claws Perch on Arctic Icebergs
-<img src="https://spectrum.ieee.org/media-library/a-drone-firmly-planted-on-the-steep-slope-of-an-iceberg-after-a-successful-landing.jpg?id=67573301&width=980"/><br/><br/><p><em><em>This article is part of our exclusive </em></em><a href="https://spectrum.ieee.org/collections/journal-watch/" target="_self"><em><em>IEEE Journal Watch series</em></em></a><em><em> in partnership with IEEE Xplore.</em
+<img src="https://spectrum.ieee.org/media-library/a-drone-firmly-planted-on-the-steep-slope-of-an-iceberg-after-a-successful-landing.jpg?id=67573301&width=1200&height=800&coordinates=0%2C83%2C0%2C84"/><br/><br/><p><em><em>This article is part of our exclusive </em></em><a href="https://spectrum.ieee.org/collections/journal-watch/" target="_self"><em><em>IEEE Journal Watch series</em></em></a><em><
 
 **출처:** Source · robotics
 

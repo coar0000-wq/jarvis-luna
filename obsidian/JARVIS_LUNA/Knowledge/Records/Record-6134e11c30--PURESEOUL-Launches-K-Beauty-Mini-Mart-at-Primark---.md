@@ -2,7 +2,7 @@
 title: "Record 6134e11c30 · PURESEOUL-Launches-K-Beauty-Mini-Mart-at-Primark---TheIndustrybeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.731408+00:00
+updated_at: 2026-09-11T19:06:35.033708+00:00
 tags: [record, real-data]
 ---
 

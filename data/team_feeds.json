@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T14:04:09.567016+00:00",
+  "generated_at": "2026-09-11T18:59:33.867577+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -12,8 +12,8 @@
       "recent": 220
     },
     "market": {
-      "total": 447,
-      "recent": 39
+      "total": 450,
+      "recent": 40
     },
     "listing": {
       "total": 13,
@@ -24,12 +24,12 @@
       "recent": 5
     },
     "legal": {
-      "total": 116,
+      "total": 119,
       "recent": 19
     },
     "design": {
-      "total": 360,
-      "recent": 100
+      "total": 364,
+      "recent": 102
     },
     "robotics": {
       "total": 108,
@@ -41,7 +41,7 @@
     },
     "institutions": {
       "total": 1065,
-      "recent": 273
+      "recent": 275
     }
   },
   "fda_failures": [],
@@ -580,6 +580,13 @@
         "by_hand": true
       },
       {
+        "title": "Wonderbalm steps up global travel retail push for K-beauty-led skincare with Gebr. Heinemann - Moodie Davitt Report",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZTBKRXRfSzJ1dTk5MV9OUkc0NGhuLWd5ek53VGthSEdJY01VSHV4VGFvZEwtVWRvZEFzUEVwMmpOT3JvbENnTGlsZ29nLXUxdUdzbHlaTjZfUlA1NWloSjhfQ08zRDNZMVR4SDBiX00wSFI1cXpLbExISG9QcmgyVTZ4cVBrd0JrQl9RTXpERDVDb05HT1pJOFpQTGtSRE52b05qeEotZ2VwV3h6MkIyZ2ZLSDItenpYc1Rrdjg5dDc?oc=5",
+        "pool": "google",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
         "title": "Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - Korea Biomedical Review",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TTjJFMUxHR3ZlOEJkRlNLekZpOTBpOVREVVZqUmNEcWhfbkFIb0pMclZybVZGNThud3pJdlE5TzNBaUZMTmNFQkZxWDdKNk50LUI3OTFJVTVJOEt6M1ZuVGNzZHN0NnhhUHZvLXpB0gFyQVVfeXFMT2wyVzU1U2NGZmcwMFRXdWJfT3VNdXpLYWlzSkcyUHBtRnZSZHRrMHJ3R1RIV01yTmtDaktQUi1hSDVrblRuQ3BTbXFlb1RZeTY4Rzc3RktnS0tSQWlUNkRwM1l0ZDM3al9ZdHFQSm45RFZR?oc=5",
         "pool": "google",
@@ -615,7 +622,7 @@
         "by_hand": false
       },
       {
-        "title": "The K-Beauty ingredient dethroning hyaluronic acid in 2026: meet PDRN - parisselectbook.com",
+        "title": "The K-Beauty ingredient dethroning hyaluronic acid in 2026: meet PDRN - Paris Select Book",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPakItUi1WWm9Bd0NSOV9sUTNVZTNCSW4xWTA1RnV6M2l5a0VKT1NWUVppdk9sM1h3SVFieTFfTVpqdGJCMkZXd1pJbFBCRFFrdlV5YTNQNXQ0TGFjTFJrdDZUeURNZ2NWZ21sNWZfbTN2WnB1bldHTTdaVG1GVFVlRG5R?oc=5",
         "pool": "google",
         "date": "2026-09-10",
@@ -727,7 +734,7 @@
         "by_hand": false
       },
       {
-        "title": "8 best ecommerce AI Website Builder for creating an online store - hostinger.com",
+        "title": "8 best ecommerce AI Website Builder for creating an online store - Hostinger",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpU29tczMwM1pKaUdZYld0aThjYVRYWlE1c3k2VXc4RDBpUDdLOEx5bDg1OHljdURVUG5Xc25PWUxVZDY0RGl2OEFNM1ZYelFhN3FTVm1ySC1hRFk5amtVbkpudm9ZSFFCaEVQX1hleGRKWHV0d1NzSDhJdw?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -797,14 +804,14 @@
         "by_hand": false
       },
       {
-        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - teenvogue.com",
+        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - Teen Vogue",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OdzQ0OXlSbWVrOW1FUXdtSURIcjVsZnJhNEFleWtxZnRjcDdESjdFZlBXUVR0eEM0Tzg2NDN2M2tqU0pEaXd6TTZBOE5yRkVZR2ZBQU1DNWp1RTlxN2V6UHNHUUFJb28?oc=5",
         "pool": "google",
         "date": "2026-08-31",
         "by_hand": false
       },
       {
-        "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - cnbc.com",
+        "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
         "pool": "google",
         "date": "2026-08-30",
@@ -818,14 +825,14 @@
         "by_hand": false
       },
       {
-        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - GeekWire",
+        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - geekwire.com",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSmd3bV80NzFvZlZtOUNnSUF4eTRlQ0VoamFoUlY5aEQ2Q000MmlBVmVTQ3ZuWV9wTmhzWXROSWNyaDNuQ0JrTFdEczljM0JlbTBtdFBZbnhtakNaWHBTZTBGWDFzbDJURU1ESi1mano4T21KMHV0ZEQwOFI3aWI3Q2lTbzhPSmw5dEp6cGZVXzhadW5GNTRNaVhhMEhIdjY0czMwTmN4aUlpVWNYTmV5ZnNxWkdlcUZFUUhoNEdId3gxZw?oc=5",
         "pool": "google",
         "date": "2026-08-28",
         "by_hand": false
       },
       {
-        "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - easternprogress.com",
+        "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - Eastern Progress",
         "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOVkyMlJwUEdQeGlvdlhURGpYdXJyY1hoWmVWai16TFFhckI2MmR1OFdBd1BCOXNPM1lOYTFmT0J2UExSRGFmbklVRUtsazJhajZZUHh2eTZyNG5mTUc1US16WF9oYzZfWjB5Y3ZIR0UtazJjcXFHb21XdFJ3ZjJUQ2VBWDVoTHE5SkYwUW9raVA5ZHBhcmF0cmNtOENtRXNsR09aYmhuVTU5NHBRdnd0c2pSX1ZndDR0YUE0Q0RTUTAyRllwQzhwZXlLZFRrOHNEclN1MjV0NEdrQQ?oc=5",
         "pool": "google",
         "date": "2026-08-28",
@@ -883,13 +890,6 @@
       {
         "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - ELLE",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5",
-        "pool": "google",
-        "date": "2026-08-26",
-        "by_hand": false
-      },
-      {
-        "title": "Ecommerce Content Strategy: Enterprise Guide (2026) - Shopify",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03RUZ3UkJFbTlsV1JFSEJyOEZlWUY5TlFQd2RBU2FIS1hYbHhHc3VaUnB0dmItVmlPSTNaNDNZQ1o1c1ozNWFoYWxFX29vaFJ3cXpfQTJ5d3A2MU90TDhMMVpabGpxVWctWWxLTHI1d1JFVUhY?oc=5",
         "pool": "google",
         "date": "2026-08-26",
         "by_hand": false
@@ -1258,13 +1258,6 @@
         "by_hand": false
       },
       {
-        "title": "DHL Express is now available in the UK, Germany, France, Italy, and Spain",
-        "url": "https://changelog.shopify.com/posts/dhl-express-is-now-available-in-the-uk-germany-france-italy-and-spain",
-        "pool": "design_refs",
-        "date": "2026-08-13",
-        "by_hand": false
-      },
-      {
         "title": "New EU Guidelines For AI Labelling",
         "url": "https://smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/",
         "pool": "design_refs",
@@ -1498,6 +1491,13 @@
       {
         "title": "안텔리오스 클리어 스킨 SPF60",
         "url": "",
+        "pool": "us_beauty",
+        "date": "",
+        "by_hand": false
+      },
+      {
+        "title": "FOREVER SKIN GLOW 24h wear radiant foundation Perfection and hydration Concentrated floral skincare with suncreen Broad spectrum SPF 15 00",
+        "url": "https://api.fda.gov/drug/label.json?search=id:1f013e61-f171-2ae2-e063-6294a90adcf1",
         "pool": "us_beauty",
         "date": "",
         "by_hand": false
@@ -1757,6 +1757,20 @@
         "by_hand": false
       },
       {
+        "title": "Multi-currency payouts now available in Australia and France",
+        "url": "https://changelog.shopify.com/posts/multi-currency-payouts-now-available-in-australia-and-france",
+        "pool": "design_refs",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Building A UX ROI Case That Survives The Boardroom",
+        "url": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
+        "pool": "design_refs",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
         "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
         "url": "https://arxiv.org/abs/2609.11873v1",
         "pool": "arxiv",
@@ -1906,20 +1920,6 @@
       {
         "title": "A Mathematical Theory of Pragmatic Information",
         "url": "https://arxiv.org/abs/2609.10986v1",
-        "pool": "robotics",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Robots Are Learning to Feel",
-        "url": "https://spectrum.ieee.org/tactile-data-robots",
-        "pool": "robotics",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Teradyne Robotics sues JAKA over 3 Universal Robots patents",
-        "url": "https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/",
         "pool": "robotics",
         "date": "2026-09-10",
         "by_hand": false
@@ -3037,6 +3037,13 @@
         "by_hand": false
       },
       {
+        "title": "The Python simulations of chemistry framework: 10 years of an open-source quantum chemistry project",
+        "url": "https://doi.org/10.1063/5.0337441",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
         "title": "The AI policy window is open. We need to act.",
         "url": "https://openai.com/index/ai-policy-window",
         "pool": "institutions",
@@ -3179,13 +3186,6 @@
       {
         "title": "Adaptive Instructed-Retriever: Frontier-Quality Search at 2x Lower Latency",
         "url": "https://www.databricks.com/blog/adaptive-instructed-retriever-frontier-quality-search-2x-lower-latency",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow",
-        "url": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false

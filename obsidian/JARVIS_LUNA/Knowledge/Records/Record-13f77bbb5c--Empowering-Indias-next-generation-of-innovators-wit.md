@@ -2,7 +2,7 @@
 title: "Record 13f77bbb5c · Empowering-Indias-next-generation-of-innovators-with-ATL-Saathi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.346513+00:00
+updated_at: 2026-09-11T19:06:34.641456+00:00
 tags: [record, real-data]
 ---
 

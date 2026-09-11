@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-11T14:03:54.136964+00:00",
+  "generated_at": "2026-09-11T18:59:18.342875+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -146,6 +146,13 @@
     "failures": [],
     "items": [
       {
+        "title": "Multi-currency payouts now available in Australia and France",
+        "url": "https://changelog.shopify.com/posts/multi-currency-payouts-now-available-in-australia-and-france",
+        "date": "2026-09-11",
+        "summary": "We've expanded Multi-Currency Payouts for eligible Shopify Payments merchants to Australia and France. Merchants in Australia can now receive payouts in 13 currencies: AUD, NZD, USD, EUR, GBP, CAD, NOK, SEK, DKK, CHF, JPY, SGD and HKD. All 13 can be paid into an Australian bank account, or you can a",
+        "feed": "Shopify Changelog"
+      },
+      {
         "title": "Collect WhatsApp marketing consent at checkout",
         "url": "https://changelog.shopify.com/posts/collect-whatsapp-marketing-consent-at-checkout",
         "date": "2026-09-10",
@@ -241,13 +248,6 @@
         "url": "https://changelog.shopify.com/posts/taxes-now-recalculate-automatically-when-you-change-an-order-s-shipping-address",
         "date": "2026-08-13",
         "summary": "Update : Tax rates vary by destination. Previously, the original destination tax stayed on the order even after you updated the shipping address, so your financials and tax reporting could drift out of sync. Now the order reflects the taxes for where it's actually shipping, which keeps your records ",
-        "feed": "Shopify Changelog"
-      },
-      {
-        "title": "DHL Express is now available in the UK, Germany, France, Italy, and Spain",
-        "url": "https://changelog.shopify.com/posts/dhl-express-is-now-available-in-the-uk-germany-france-italy-and-spain",
-        "date": "2026-08-13",
-        "summary": "DHL Express is now available in the UK, Germany, France, Italy, and Spain. Merchants in these markets can buy domestic and international shipping labels from their Shopify admin, with no third-party app or separate DHL account required. What's included: * Competitive DHL Express rates * Domestic and",
         "feed": "Shopify Changelog"
       },
       {
@@ -461,6 +461,13 @@
         "feed": "Shopify Engineering"
       },
       {
+        "title": "Building A UX ROI Case That Survives The Boardroom",
+        "url": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
+        "date": "2026-09-11",
+        "summary": "Strong UX ideas do not secure investment on their own. Through a worked example, Alex Williams breaks down how to define business value, calculate costs, test causality, and build a credible case for the return on a design initiative. - UX - Design - Business",
+        "feed": "Smashing Magazine"
+      },
+      {
         "title": "The Death Of The Button: Why The Best Interface Is No Interface",
         "url": "https://smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/",
         "date": "2026-09-09",
@@ -556,13 +563,6 @@
         "url": "https://smashingmagazine.com/2026/07/people-dont-want-more-ai/",
         "date": "2026-07-15",
         "summary": "Many companies assume everyone craves new AI features. But the reality is that most people don't want more AI — at least not in the way most AI leaders envision it. Brought to you by Design Patterns For AI Interfaces , **friendly video courses on UX** and design patterns by Vitaly.",
-        "feed": "Smashing Magazine"
-      },
-      {
-        "title": "From Kickoff To First Concept: How To Turn Brand Strategy Into Visual Direction",
-        "url": "https://smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/",
-        "date": "2026-07-10",
-        "summary": "The strongest visual concepts don’t start in Figma. They start with the right questions. Explore the pre-concept phase of brand identity design, where teams research brand context, uncover hidden assumptions with stakeholders, and turn shared direction into a visual foundation before a single concep",
         "feed": "Smashing Magazine"
       },
       {

@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-11T14:04:52.014018+00:00",
+  "collected_at": "2026-09-11T19:00:09.932143+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 25,
+  "post_count": 50,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -19,10 +19,9 @@
     },
     {
       "subreddit": "KoreanBeauty",
-      "post_count": 0,
+      "post_count": 25,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests",
-        "top_week: HTTPError: HTTP Error 429: Too Many Requests"
+        "hot: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     },
     {
@@ -44,16 +43,36 @@
   ],
   "hot_keywords": [
     {
+      "keyword": "skin",
+      "score": 12
+    },
+    {
+      "keyword": "korean",
+      "score": 8
+    },
+    {
+      "keyword": "cushion",
+      "score": 6
+    },
+    {
       "keyword": "serum",
-      "score": 4
+      "score": 6
+    },
+    {
+      "keyword": "products",
+      "score": 5
     },
     {
       "keyword": "toners",
       "score": 4
     },
     {
-      "keyword": "cushion",
+      "keyword": "masks",
       "score": 4
+    },
+    {
+      "keyword": "here",
+      "score": 3
     },
     {
       "keyword": "september",
@@ -68,6 +87,18 @@
       "score": 3
     },
     {
+      "keyword": "better",
+      "score": 3
+    },
+    {
+      "keyword": "hair",
+      "score": 3
+    },
+    {
+      "keyword": "care",
+      "score": 3
+    },
+    {
       "keyword": "cleansing",
       "score": 3
     },
@@ -76,19 +107,39 @@
       "score": 3
     },
     {
-      "keyword": "oil",
+      "keyword": "beauty",
       "score": 3
     },
     {
-      "keyword": "here",
-      "score": 2
+      "keyword": "translated",
+      "score": 3
+    },
+    {
+      "keyword": "seoul",
+      "score": 3
     },
     {
       "keyword": "thursday",
       "score": 2
     },
     {
-      "keyword": "mascara",
+      "keyword": "cream",
+      "score": 2
+    },
+    {
+      "keyword": "anything",
+      "score": 2
+    },
+    {
+      "keyword": "like",
+      "score": 2
+    },
+    {
+      "keyword": "actually",
+      "score": 2
+    },
+    {
+      "keyword": "does",
       "score": 2
     },
     {
@@ -96,11 +147,11 @@
       "score": 2
     },
     {
-      "keyword": "products",
+      "keyword": "affordable",
       "score": 2
     },
     {
-      "keyword": "skin",
+      "keyword": "hydrating",
       "score": 2
     },
     {
@@ -108,125 +159,109 @@
       "score": 2
     },
     {
-      "keyword": "beauty",
-      "score": 2
-    },
-    {
       "keyword": "over",
       "score": 2
     },
     {
-      "keyword": "routine",
+      "keyword": "why",
       "score": 2
     },
     {
-      "keyword": "duo",
+      "keyword": "doctor",
       "score": 2
     },
     {
-      "keyword": "lip",
+      "keyword": "says",
       "score": 2
     },
     {
-      "keyword": "squalane",
+      "keyword": "pdrn",
       "score": 2
     },
     {
-      "keyword": "k-moisturizers",
+      "keyword": "lee",
       "score": 2
     },
     {
-      "keyword": "derived",
+      "keyword": "sang-wook",
       "score": 2
     },
     {
-      "keyword": "question",
-      "score": 1
+      "keyword": "youtube",
+      "score": 2
     },
     {
-      "keyword": "ask",
-      "score": 1
+      "keyword": "channel",
+      "score": 2
     },
     {
-      "keyword": "alter-daily",
-      "score": 1
+      "keyword": "sheet",
+      "score": 2
     },
     {
-      "keyword": "questions",
-      "score": 1
-    },
-    {
-      "keyword": "authenticity",
-      "score": 1
-    },
-    {
-      "keyword": "severe",
-      "score": 1
-    },
-    {
-      "keyword": "reaction",
-      "score": 1
-    },
-    {
-      "keyword": "yuja",
-      "score": 1
-    },
-    {
-      "keyword": "niacin",
-      "score": 1
-    },
-    {
-      "keyword": "gorgeous",
-      "score": 1
-    },
-    {
-      "keyword": "lancome",
-      "score": 1
-    },
-    {
-      "keyword": "lippie",
-      "score": 1
-    },
-    {
-      "keyword": "only",
-      "score": 1
-    },
-    {
-      "keyword": "sold",
-      "score": 1
-    },
-    {
-      "keyword": "asia",
-      "score": 1
-    },
-    {
-      "keyword": "remover",
-      "score": 1
+      "keyword": "yesstyle",
+      "score": 2
     }
   ],
   "beauty_keywords": [
     {
+      "keyword": "skin",
+      "score": 12
+    },
+    {
+      "keyword": "korean",
+      "score": 8
+    },
+    {
+      "keyword": "cushion",
+      "score": 6
+    },
+    {
       "keyword": "serum",
-      "score": 4
+      "score": 6
     },
     {
       "keyword": "toners",
       "score": 4
     },
     {
-      "keyword": "cushion",
+      "keyword": "masks",
       "score": 4
     },
     {
-      "keyword": "skin",
+      "keyword": "pdrn",
       "score": 2
     },
     {
-      "keyword": "routine",
+      "keyword": "sheet",
       "score": 2
     },
     {
-      "keyword": "k-moisturizers",
+      "keyword": "skincare",
+      "score": 2
+    },
+    {
+      "keyword": "cleansers",
+      "score": 2
+    },
+    {
+      "keyword": "moisturizer",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreen",
+      "score": 2
+    },
+    {
+      "keyword": "essence",
+      "score": 2
+    },
+    {
+      "keyword": "serums",
+      "score": 2
+    },
+    {
+      "keyword": "dodoskin",
       "score": 2
     }
   ],
@@ -246,9 +281,37 @@
       "feed": "hot"
     },
     {
+      "title": "Freshian cream blush",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdkqrd/freshian_cream_blush/",
+      "published": "2026-09-11T16:15:14+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Colorgram contours",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdkt2a/colorgram_contours/",
+      "published": "2026-09-11T16:17:30+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "JSM Essential Skin Nuder Cushion Review",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdhs5v/jsm_essential_skin_nuder_cushion_review/",
+      "published": "2026-09-11T14:25:01+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Severe reaction to Some by mi Yuja Niacin serum",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdgk8l/severe_reaction_to_some_by_mi_yuja_niacin_serum/",
       "published": "2026-09-11T13:37:49+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Calling all Missha Perfect Cover BB Cream lovers! Have you found anything better that feels like a true \"next level\"?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdc7hm/calling_all_missha_perfect_cover_bb_cream_lovers/",
+      "published": "2026-09-11T10:19:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -260,9 +323,30 @@
       "feed": "hot"
     },
     {
+      "title": "Acne pustules",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdmmxy/acne_pustules/",
+      "published": "2026-09-11T17:23:18+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Hair care influencers that use Asian Hair care products?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdl194/hair_care_influencers_that_use_asian_hair_care/",
+      "published": "2026-09-11T16:25:45+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Cleansing balm or mascara remover?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wckkbs/cleansing_balm_or_mascara_remover/",
       "published": "2026-09-10T14:19:30+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Lamelin products",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdhz02/lamelin_products/",
+      "published": "2026-09-11T14:32:14+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -358,53 +442,179 @@
       "feed": "hot"
     },
     {
-      "title": "My first online purchase from Sekkisei. I think I got extra free stuff:O? Was it a mistake or a promotion I wasn’t aware about?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbvseq/my_first_online_purchase_from_sekkisei_i_think_i/",
-      "published": "2026-09-09T19:34:55+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
+      "title": "Why a Korean doctor says PDRN does absolutely nothing — translated from Dr. Lee Sang-wook’s YouTube channel",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w81ff8/why_a_korean_doctor_says_pdrn_does_absolutely/",
+      "published": "2026-09-05T13:55:41+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
     },
     {
-      "title": "Best Asian beauty influencers / pages?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcjdp0/best_asian_beauty_influencers_pages/",
-      "published": "2026-09-10T13:34:08+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
+      "title": "Why a Korean doctor says daily sheet masks may not work for you — translated from Dr. Lee Sang-wook’s YouTube channel",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wam9wc/why_a_korean_doctor_says_daily_sheet_masks_may/",
+      "published": "2026-09-08T11:53:57+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
     },
     {
-      "title": "What's the very last step of your makeup routine?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wc8dwq/whats_the_very_last_step_of_your_makeup_routine/",
-      "published": "2026-09-10T04:11:10+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
+      "title": "Olive Young vs. YesStyle — Is switching worth it for lower prices and better options?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wcpb2d/olive_young_vs_yesstyle_is_switching_worth_it_for/",
+      "published": "2026-09-10T17:12:38+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
     },
     {
-      "title": "Have you guys tried these two duo lip products Laka Perfect Twin Lip vs. Etude Duo Fixing Tint? What are your honest thoughts?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wc5spr/have_you_guys_tried_these_two_duo_lip_products/",
-      "published": "2026-09-10T02:11:10+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
+      "title": "If you had to choose one brand or line for all your skincare products, what would you choose?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wa9r2e/if_you_had_to_choose_one_brand_or_line_for_all/",
+      "published": "2026-09-08T00:49:57+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
     },
     {
-      "title": "Any mascara/ lash recommendations?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wckd2i/any_mascara_lash_recommendations/",
-      "published": "2026-09-10T14:11:50+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
+      "title": "Stylevana",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w7qpkl/stylevana/",
+      "published": "2026-09-05T04:34:29+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
     },
     {
-      "title": "[Review] Dear Klairs Blue EGF Intensive Pro Cream",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbp0oz/review_dear_klairs_blue_egf_intensive_pro_cream/",
-      "published": "2026-09-09T15:36:51+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
+      "title": "A Korean Beauty Nerd YouTuber Tries 46 Beauty Devices — Here’s the Full Breakdown -Translated from Calarygirl",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wam9d6/a_korean_beauty_nerd_youtuber_tries_46_beauty/",
+      "published": "2026-09-08T11:53:13+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
     },
     {
-      "title": "Squalane oil in k-moisturizers - How do I know if the squalane oil is sugarcane derived or olive derived?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wc3pk2/squalane_oil_in_kmoisturizers_how_do_i_know_if/",
-      "published": "2026-09-10T00:39:50+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
+      "title": "What are your thoughts on Yesstyle? How has your experience been with the shop?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w8f6kp/what_are_your_thoughts_on_yesstyle_how_has_your/",
+      "published": "2026-09-05T22:56:29+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Dermatologist in Seoul",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wc1q33/dermatologist_in_seoul/",
+      "published": "2026-09-09T23:15:58+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Super moisturising serum for mature skin?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wabiov/super_moisturising_serum_for_mature_skin/",
+      "published": "2026-09-08T02:11:12+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Best hydrating products for combo dry skin?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w7yw51/best_hydrating_products_for_combo_dry_skin/",
+      "published": "2026-09-05T12:01:43+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Unni App",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w9jrmk/unni_app/",
+      "published": "2026-09-07T06:03:33+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Holy Grail of Facial Cleansers?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w9h12f/holy_grail_of_facial_cleansers/",
+      "published": "2026-09-07T03:42:12+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Korean moisturizer",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wcj6nw/korean_moisturizer/",
+      "published": "2026-09-10T13:26:32+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Seoul salons for blonde hair ?👱‍♀️",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wdgq35/seoul_salons_for_blonde_hair/",
+      "published": "2026-09-11T13:44:17+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "help! I need advice choosing lip tint",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wd256f/help_i_need_advice_choosing_lip_tint/",
+      "published": "2026-09-11T01:27:05+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Help please! Just learning about my skin",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wczni0/help_please_just_learning_about_my_skin/",
+      "published": "2026-09-10T23:38:52+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Need recommendations for my mother",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wbuc0t/need_recommendations_for_my_mother/",
+      "published": "2026-09-09T18:44:51+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Temples, tear troughs, and smile lines: which filler areas are actually the riskiest?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wapk1s/temples_tear_troughs_and_smile_lines_which_filler/",
+      "published": "2026-09-08T14:12:57+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Sunscreen recommendations",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wabw8h/sunscreen_recommendations/",
+      "published": "2026-09-08T02:29:17+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Purito or S. Nature",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w970w4/purito_or_s_nature/",
+      "published": "2026-09-06T20:18:58+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "I made a list of clinics after searching for months",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w968tz/i_made_a_list_of_clinics_after_searching_for/",
+      "published": "2026-09-06T19:49:58+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Seoul affordable skin treatments",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1w8xnld/seoul_affordable_skin_treatments/",
+      "published": "2026-09-06T14:27:33+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Where to buy red light therapy (RLT) masks in Korea?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wczl2k/where_to_buy_red_light_therapy_rlt_masks_in_korea/",
+      "published": "2026-09-10T23:35:59+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Suggest essence/serums in Korea!",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wb7jq4/suggest_essenceserums_in_korea/",
+      "published": "2026-09-09T01:27:56+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Is the dodoskin website legit?",
+      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wb4nbp/is_the_dodoskin_website_legit/",
+      "published": "2026-09-08T23:22:31+00:00",
+      "subreddit": "KoreanBeauty",
+      "feed": "top_week"
     }
   ],
   "note": "커뮤니티 실수요 시그널. 광고 키워드·S등급 코칭 보강용. 판매 순위 아님.",

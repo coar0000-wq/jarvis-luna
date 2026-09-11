@@ -1,6 +1,6 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-11T14:05:14.434134+00:00",
+  "collected_at": "2026-09-11T19:00:56.281415+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
@@ -16,17 +16,8 @@
       "beauty": true
     },
     {
-      "keyword": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - Celeb Secrets",
-      "product": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - Celeb Secrets",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWlTTVg4ZkQ1N1Rfemtmamx1WXdDemF4b1JIaUIxWVdJeUJKQlh5QjRCbXFmTWxnT3JMWlh0TmwwaVpfVnZNR1B1N0prR0p6dlhJTHhVQU9fN3VNdDlDZHN3dWswdTcydjVvMmo2RXVrN09vcUgweHotU0dQZjFIb2V3?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
-      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
+      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
@@ -34,38 +25,29 @@
       "beauty": true
     },
     {
-      "keyword": "L’Oréal leans into K-beauty with Cosmax development partnership - Personal Care Insights",
-      "product": "L’Oréal leans into K-beauty with Cosmax development partnership - Personal Care Insights",
+      "keyword": "Wonderbalm steps up global travel retail push for K-beauty-led skincare with Gebr. Heinemann - Moodie Davitt Report",
+      "product": "Wonderbalm steps up global travel retail push for K-beauty-led skincare with Gebr. Heinemann - Moodie Davitt Report",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPREh5V1dVR0taWWs2anMwVTl0Y3paZFVNRVJuUzJOUEJZOHZsem5ZRUJzZ2ZhWUdmM2tPWmR5T0ZiTXdHRlROX25qbzVqbGpxR05UTzlBRzIzRkJCOGVvM0ZiQWlFTUY3eU1zN0lYcURSQy12VzFtNUN3NkNvQ3Y3SUQ1bGM5MU0?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZTBKRXRfSzJ1dTk5MV9OUkc0NGhuLWd5ek53VGthSEdJY01VSHV4VGFvZEwtVWRvZEFzUEVwMmpOT3JvbENnTGlsZ29nLXUxdUdzbHlaTjZfUlA1NWloSjhfQ08zRDNZMVR4SDBiX00wSFI1cXpLbExISG9QcmgyVTZ4cVBrd0JrQl9RTXpERDVDb05HT1pJOFpQTGtSRE52b05qeEotZ2VwV3h6MkIyZ2ZLSDItenpYc1Rrdjg5dDc?oc=5",
       "kind": "news",
       "beauty": true
     },
     {
-      "keyword": "VOESH joins Target Beauty Studio, bringing K-Beauty body care to Target guests nationwide with Target-Exclusive Collection - Chain Drug Review",
-      "product": "VOESH joins Target Beauty Studio, bringing K-Beauty body care to Target guests nationwide with Target-Exclusive Collection - Chain Drug Review",
+      "keyword": "How L’Oréal and Cosmax Are Bringing K-Beauty Innovation into Global R&D - BeautyMatter",
+      "product": "How L’Oréal and Cosmax Are Bringing K-Beauty Innovation into Global R&D - BeautyMatter",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZmVtajhORWR0aVZ3UW5BMVhJN3lvOHQ1RDE3ZlZfelp5dDRScVBnM0JyMm5vVGxBWktCY3JKMXJvZEpNYklQWkFQYUdpM2U5QUJESlItQUFfeGZ5UWJyZ3l6RE1pamFSanM2RnJFaDRyMDR2VWJVNlU0TmJnbkVkQnVzV3Jkd1dzRWF0dEo3U3hVQzBEME56VG1jbzVxRUNnWlU4YWNNanJoUXZsaV90M0NXQ2xLSGhBM0J6UGRuRWxrYU5nOEJFQjdCZnZJTlJici0tY2VWeDhoMHpWM1hrY3JfZmE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOajNPOE1Ga3dSNFc2NWRwX3Y1VXo2WXdKR2F6U2VBYUtzV3BPVGlOc0dVaE4xQmpqMEpkX0Z0WC1aNG4tZFhzMTRMWXpGZnAzNUVLbWtFbjNYSHBDTDc5a2pfMFNVM0JGanNnRURKazRBWDRmd3FDdjdsYXNMQU4zdnFVOW9EZEFoOUE?oc=5",
       "kind": "news",
       "beauty": true
     },
     {
-      "keyword": "Sulwhasoo tests Japan's luxury beauty market with first Tokyo pop-up - Korea JoongAng Daily",
-      "product": "Sulwhasoo tests Japan's luxury beauty market with first Tokyo pop-up - Korea JoongAng Daily",
+      "keyword": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - Celeb Secrets",
+      "product": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - Celeb Secrets",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLVFjc3hJVkl0Z3ZVbC1PRUlicUE3Y3B2QUFPT1EzYXdJOTJKSUZUaWVldzdqalNvcE1iODhXVlpzakROZHB4d3dmSHZDYkwzWDMzaGVRaGRGeHhHa3pxZFpPOENWb2ZiOGNob0swMDFaVkNmZkllTHFxb2ZNc2J4TWFINGd5T0xfbHVKUFdWd2tRSVpqX0R6S0ZBRVlqY3huY1FYVmE2QzA4LWtwcHg1V3JvTVduU3ZwdTJ3?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
-      "product": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeEJ0MTljNGRxbHppX0V4djZuR3ZoTTlQX1FRT0Z0VHgwMmxuLWhyRlY1ZnRkMktJYjItc0ZSUi05T0hIeDFFUGhZSUNtN2xqVHhQSHozeHJWYzY1Vzl2UFoxUjV3Q3AzdXowc1hlODhkck50Z3V2N3d0Wm5JX3EtYWsxeFBQQVh3Z0FnYnZ3Nm02SFJDd1hPYzltdkdOVFMwdUR1eW1QbnpuUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWlTTVg4ZkQ1N1Rfemtmamx1WXdDemF4b1JIaUIxWVdJeUJKQlh5QjRCbXFmTWxnT3JMWlh0TmwwaVpfVnZNR1B1N0prR0p6dlhJTHhVQU9fN3VNdDlDZHN3dWswdTcydjVvMmo2RXVrN09vcUgweHotU0dQZjFIb2V3?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -79,8 +61,26 @@
       "beauty": true
     },
     {
-      "keyword": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
-      "product": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
+      "keyword": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
+      "product": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5N2ZIdEFwRWx5ZzJ0aHhib3ZvMHQ5c1o0Z1J5Nm14ZW5wUmpHZ0xKcGhnaVBTVVRFYU81WVFrbUZkQnhNTmxHeGMzQ3dHWHhtc0xxQzVoRkhqNFFWVjR4WGNoT0lhYXktTGhHZ001VHJ1Z282RWpRdGFabG43Zw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
+      "product": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeEJ0MTljNGRxbHppX0V4djZuR3ZoTTlQX1FRT0Z0VHgwMmxuLWhyRlY1ZnRkMktJYjItc0ZSUi05T0hIeDFFUGhZSUNtN2xqVHhQSHozeHJWYzY1Vzl2UFoxUjV3Q3AzdXowc1hlODhkck50Z3V2N3d0Wm5JX3EtYWsxeFBQQVh3Z0FnYnZ3Nm02SFJDd1hPYzltdkdOVFMwdUR1eW1QbnpuUQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - pagesix.com",
+      "product": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - pagesix.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGtUdkEtYWNZaFVvSFFvcUlXQzNRWS1zcXUtVUctWkx2b3V4d3JWNk42dmtPYjFweUxTX2IxUHNqamdCRWY0T2lxUWtyN3RkYnA4Z0dORHJNR05HaWpvX3lJT190RVFtVXhNVk10YnNuNjdqZ1NBdFNRUU94cG9nYmJ1Uld1c2hmS1YyXzF5VmRMMTRo?oc=5",
@@ -97,8 +97,8 @@
       "beauty": true
     },
     {
-      "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
-      "product": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
+      "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - wral.com",
+      "product": "Consumer Reports puts K-Beauty sunscreens to the test - wral.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhPYk45c2xzWEw3Mmx2akplQWJZS1F1SnJSbnZJV3RmV0hLTktMUnl4cDBQak5jdDQ0LWlUWWtGODZSbkFfU0Q3MDZ0S0FtVFNDSjUyaldtU0l6WjhiZXpjN1MxVjdRNGVXeEUyZkNqY29aeXBqckFYYWxTYkF4TkpFVUFsZjFRMk9EU1N3?oc=5",
@@ -169,24 +169,6 @@
       "beauty": true
     },
     {
-      "keyword": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six",
-      "product": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six",
-      "sub": "snail mucin",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOVFOcDNSNU5FazZmWTllWXZrM0ZPdE0zcll3Qk9WbWFhdEIzZmhpVVZRY29xbE8xMDZ5VjNIR083a0FrbEUxU2RSNHkxNWFnczE0U0dDenNXdlMzOU50cmdBM1JxcmxYbHEtZFpXQ1FXNXY0Smxnb3ZxYWdoTEFIY3BaZkJucHhWMEJZTVAtV2ZpWEtZTmdNZUkxbXotelFLOUxWLVJ3?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Sticky or slippery? Snails can change their slime to meet the moment - NPR",
-      "product": "Sticky or slippery? Snails can change their slime to meet the moment - NPR",
-      "sub": "snail mucin",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRlRZZlJCZVJLZThvM0ZQYXpuNWFfck9MV2pBekdVSUxPMGRTSGFuZzJBYjV4ZExXUElZNnRLY3ZsankzTnNIV0dxVGdMWFQ3Qk1xMGlVR1JBTzJnZk1JQlhFYUt0X1BXT2s3WXdIc1MyZDF3bm5ZUzVQM2lVc2Z0a21lSm9BMGRianFtbg?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "Snail slime for your face? - CNN",
       "product": "Snail slime for your face? - CNN",
       "sub": "snail mucin",
@@ -196,8 +178,26 @@
       "beauty": true
     },
     {
-      "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
-      "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
+      "keyword": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - pagesix.com",
+      "product": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - pagesix.com",
+      "sub": "snail mucin",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOVFOcDNSNU5FazZmWTllWXZrM0ZPdE0zcll3Qk9WbWFhdEIzZmhpVVZRY29xbE8xMDZ5VjNIR083a0FrbEUxU2RSNHkxNWFnczE0U0dDenNXdlMzOU50cmdBM1JxcmxYbHEtZFpXQ1FXNXY0Smxnb3ZxYWdoTEFIY3BaZkJucHhWMEJZTVAtV2ZpWEtZTmdNZUkxbXotelFLOUxWLVJ3?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Sticky or slippery? Snails can change their slime to meet the moment - npr.org",
+      "product": "Sticky or slippery? Snails can change their slime to meet the moment - npr.org",
+      "sub": "snail mucin",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRlRZZlJCZVJLZThvM0ZQYXpuNWFfck9MV2pBekdVSUxPMGRTSGFuZzJBYjV4ZExXUElZNnRLY3ZsankzTnNIV0dxVGdMWFQ3Qk1xMGlVR1JBTzJnZk1JQlhFYUt0X1BXT2s3WXdIc1MyZDF3bm5ZUzVQM2lVc2Z0a21lSm9BMGRianFtbg?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
+      "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LUmI0VzFqenBxYXlPcjlQVE4xOEVsbE8wYW4xdG1jSHRWbFQzWFZEOVRpTmN0bndubWptdUJqc3BRb2ExWUJCZmtRSVhSWDliZDN5RGhjVGhLSW1ieU45TVhMZVpKSFVYZWc?oc=5",
@@ -205,8 +205,8 @@
       "beauty": true
     },
     {
-      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - goodhousekeeping.com",
-      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - goodhousekeeping.com",
+      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
+      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVFB2b0FsdDRfdzNDNmZiTU9kX2RJdmJncVQxcWtUUGYyNHhHb3ZXZkZCdXR6ck4wYmxIUzJMbUFhb1Mxc2FTVkZRbmlKVFBQMEY0aXZsODdCLWIxZUV3QnZJcEtMaW9EeTFfaUNtek9hQU10YmJ5OHd0QjAwZWR3UGRUdGo2XzBuenFwcA?oc=5",

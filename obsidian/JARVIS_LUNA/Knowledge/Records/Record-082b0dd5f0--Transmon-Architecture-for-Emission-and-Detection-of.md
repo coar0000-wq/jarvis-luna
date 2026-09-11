@@ -2,7 +2,7 @@
 title: "Record 082b0dd5f0 · Transmon-Architecture-for-Emission-and-Detection-of-Single-Microwave-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.792370+00:00
+updated_at: 2026-09-11T19:06:35.089665+00:00
 tags: [record, real-data]
 ---
 
