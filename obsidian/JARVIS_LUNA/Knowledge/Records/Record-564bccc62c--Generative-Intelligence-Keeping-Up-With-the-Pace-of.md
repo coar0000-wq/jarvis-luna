@@ -2,7 +2,7 @@
 title: "Record 564bccc62c · Generative-Intelligence-Keeping-Up-With-the-Pace-of-Applied-Intelligen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.224503+00:00
+updated_at: 2026-09-11T16:31:03.470909+00:00
 tags: [record, real-data]
 ---
 

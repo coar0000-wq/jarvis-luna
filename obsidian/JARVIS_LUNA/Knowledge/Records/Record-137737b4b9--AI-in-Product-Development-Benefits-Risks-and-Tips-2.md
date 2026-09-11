@@ -2,7 +2,7 @@
 title: "Record 137737b4b9 · AI-in-Product-Development-Benefits-Risks-and-Tips-2025---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.352452+00:00
+updated_at: 2026-09-11T16:31:03.589779+00:00
 tags: [record, real-data]
 ---
 

@@ -1,18 +1,18 @@
 ---
-title: "Record 6a8652ca54 · K-beautys-next-formula-Makeup-that-works-like-skincare---koreaheraldco"
+title: "Record 6a8652ca54 · K-beautys-next-formula-Makeup-that-works-like-skincare---The-Korea-Her"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.325244+00:00
+updated_at: 2026-09-11T16:31:03.562568+00:00
 tags: [record, real-data]
 ---
 
-# Record 6a8652ca54 · K-beautys-next-formula-Makeup-that-works-like-skincare---koreaheraldco
+# Record 6a8652ca54 · K-beautys-next-formula-Makeup-that-works-like-skincare---The-Korea-Her
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiV0FVX3lxTE1PYnJCNTJIVmFKVEZlQWtpaXZZaUYyT2k3d1M1M3hLN3AxR25hczVMMDBnQUlSN3FOUDA4NkEwQlg2SGFVOVpwd1JhRXF1SEVYX1FSMHp5bw?oc=5)
 
-**제목:** K-beauty's next formula: Makeup that works like skincare - koreaherald.com
+**제목:** K-beauty's next formula: Makeup that works like skincare - The Korea Herald
 
-K-beauty's next formula: Makeup that works like skincare - koreaherald.com
+K-beauty's next formula: Makeup that works like skincare - The Korea Herald
 
 **출처:** Source · Google Search
 

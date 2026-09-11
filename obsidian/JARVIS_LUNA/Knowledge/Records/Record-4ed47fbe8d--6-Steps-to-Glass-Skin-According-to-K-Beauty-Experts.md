@@ -1,19 +1,19 @@
 ---
-title: "Record 4ed47fbe8d · 6-Steps-to-Glass-Skin-According-to-K-Beauty-Experts---Vogue"
+title: "Record 4ed47fbe8d · 6-Steps-to-Glass-Skin-According-to-K-Beauty-Experts---voguecom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.343811+00:00
+updated_at: 2026-09-11T16:31:03.581129+00:00
 tags: [record, real-data]
 ---
 
-# Record 4ed47fbe8d · 6-Steps-to-Glass-Skin-According-to-K-Beauty-Experts---Vogue
+# Record 4ed47fbe8d · 6-Steps-to-Glass-Skin-According-to-K-Beauty-Experts---voguecom
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5)
 
-**제목:** 6 Steps to Glass Skin, According to K-Beauty Experts - Vogue
+**제목:** 6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com
 
-6 Steps to Glass Skin, According to K-Beauty Experts - Vogue
-6 Steps to Glass Skin, According to K-Beauty Experts - Vogue
+6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com
+6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com
 
 **출처:** Source · us_beauty
 

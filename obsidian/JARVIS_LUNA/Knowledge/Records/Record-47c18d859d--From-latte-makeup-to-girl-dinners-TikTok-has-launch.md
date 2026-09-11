@@ -2,7 +2,7 @@
 title: "Record 47c18d859d · From-latte-makeup-to-girl-dinners-TikTok-has-launched-tons-of-trends-W"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.457479+00:00
+updated_at: 2026-09-11T16:31:03.693798+00:00
 tags: [record, real-data]
 ---
 

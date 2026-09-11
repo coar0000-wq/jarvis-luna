@@ -2,7 +2,7 @@
 title: "Record f8e42127a5 · How-To-Start-a-Business-Using-AI-in-6-Steps-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.384186+00:00
+updated_at: 2026-09-11T16:31:03.621007+00:00
 tags: [record, real-data]
 ---
 

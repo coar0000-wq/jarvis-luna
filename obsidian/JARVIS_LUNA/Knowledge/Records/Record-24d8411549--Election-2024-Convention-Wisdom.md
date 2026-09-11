@@ -2,7 +2,7 @@
 title: "Record 24d8411549 · Election-2024-Convention-Wisdom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.672552+00:00
+updated_at: 2026-09-11T16:31:03.918384+00:00
 tags: [record, real-data]
 ---
 

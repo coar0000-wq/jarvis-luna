@@ -2,7 +2,7 @@
 title: "Record bd647c68a1 · Anthropic-Economic-Index-Insights-from-Claude-37-Sonnet"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.633065+00:00
+updated_at: 2026-09-11T16:31:03.882014+00:00
 tags: [record, real-data]
 ---
 

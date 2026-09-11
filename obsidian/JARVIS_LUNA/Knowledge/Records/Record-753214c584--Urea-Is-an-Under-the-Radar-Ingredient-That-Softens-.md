@@ -2,7 +2,7 @@
 title: "Record 753214c584 · Urea-Is-an-Under-the-Radar-Ingredient-That-Softens-Skin-from-Head-to-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.610596+00:00
+updated_at: 2026-09-11T16:31:03.859422+00:00
 tags: [record, real-data]
 ---
 

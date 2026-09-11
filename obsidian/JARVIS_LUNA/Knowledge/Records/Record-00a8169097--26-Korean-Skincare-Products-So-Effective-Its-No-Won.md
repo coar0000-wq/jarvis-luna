@@ -2,7 +2,7 @@
 title: "Record 00a8169097 · 26-Korean-Skincare-Products-So-Effective-Its-No-Wonder-They-Went-Viral"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.464644+00:00
+updated_at: 2026-09-11T16:31:03.701094+00:00
 tags: [record, real-data]
 ---
 

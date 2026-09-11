@@ -2,7 +2,7 @@
 title: "Record 24cfcbb1ce · Sulwhasoo-tests-Japans-luxury-beauty-market-with-first-Tokyo-pop-up---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.513134+00:00
+updated_at: 2026-09-11T16:31:03.750654+00:00
 tags: [record, real-data]
 ---
 

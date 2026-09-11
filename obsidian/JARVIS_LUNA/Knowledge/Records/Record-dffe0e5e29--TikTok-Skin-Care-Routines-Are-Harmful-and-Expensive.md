@@ -2,7 +2,7 @@
 title: "Record dffe0e5e29 · TikTok-Skin-Care-Routines-Are-Harmful-and-Expensive-Researchers-Say---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.476022+00:00
+updated_at: 2026-09-11T16:31:03.712518+00:00
 tags: [record, real-data]
 ---
 

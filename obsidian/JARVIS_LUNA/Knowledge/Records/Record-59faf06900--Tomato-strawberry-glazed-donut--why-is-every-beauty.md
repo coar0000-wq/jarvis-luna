@@ -2,7 +2,7 @@
 title: "Record 59faf06900 · Tomato-strawberry-glazed-donut--why-is-every-beauty-trend-named-after-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.457256+00:00
+updated_at: 2026-09-11T16:31:03.693572+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikwFBVV95cUxQRDA4Z1VXRzVEOGUwck9aQWNQT1Q0TG1mLUVaTmxWblFwMTBfOGlXY0NONDVyelFpdzBMNUtXVTBfR0pvYW5NZFQzaG5SUWxFdEd5akcxVl8xUENQQkhLaWVmVjgtREVCc0paMFFYN0lSeEFkTGJhSGR3a21pbklkeDRlWGN3VVlmVjVPNWNqNzhOc2s?oc=5)
 
-**제목:** Tomato, strawberry, glazed donut : why is every beauty trend named after a food? - culted.com
+**제목:** Tomato, strawberry, glazed donut : why is every beauty trend named after a food? - Culted
 
-Tomato, strawberry, glazed donut : why is every beauty trend named after a food? - culted.com
+Tomato, strawberry, glazed donut : why is every beauty trend named after a food? - Culted
 
 **출처:** Source · Google Search
 

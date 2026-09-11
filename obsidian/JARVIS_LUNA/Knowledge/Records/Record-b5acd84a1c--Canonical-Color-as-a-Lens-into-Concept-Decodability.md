@@ -2,7 +2,7 @@
 title: "Record b5acd84a1c · Canonical-Color-as-a-Lens-into-Concept-Decodability-in-Vision-Encoders"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.062692+00:00
+updated_at: 2026-09-11T16:31:03.301846+00:00
 tags: [record, real-data]
 ---
 

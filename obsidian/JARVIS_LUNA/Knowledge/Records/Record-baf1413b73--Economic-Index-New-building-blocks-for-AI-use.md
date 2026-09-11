@@ -2,7 +2,7 @@
 title: "Record baf1413b73 · Economic-Index-New-building-blocks-for-AI-use"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.634228+00:00
+updated_at: 2026-09-11T16:31:03.883169+00:00
 tags: [record, real-data]
 ---
 

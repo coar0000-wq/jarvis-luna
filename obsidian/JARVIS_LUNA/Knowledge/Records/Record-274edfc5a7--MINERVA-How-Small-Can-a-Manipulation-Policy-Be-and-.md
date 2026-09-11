@@ -2,7 +2,7 @@
 title: "Record 274edfc5a7 · MINERVA-How-Small-Can-a-Manipulation-Policy-Be-and-Still-Solve-LIBERO"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.018144+00:00
+updated_at: 2026-09-11T16:31:03.253874+00:00
 tags: [record, real-data]
 ---
 

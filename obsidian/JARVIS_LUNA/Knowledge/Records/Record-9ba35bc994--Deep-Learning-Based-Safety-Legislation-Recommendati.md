@@ -2,7 +2,7 @@
 title: "Record 9ba35bc994 · Deep-Learning-Based-Safety-Legislation-Recommendation-System-for-Const"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.230213+00:00
+updated_at: 2026-09-11T16:31:03.475751+00:00
 tags: [record, real-data]
 ---
 

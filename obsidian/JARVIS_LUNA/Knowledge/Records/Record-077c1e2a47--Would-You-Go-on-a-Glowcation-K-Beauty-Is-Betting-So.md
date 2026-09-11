@@ -1,18 +1,18 @@
 ---
-title: "Record 077c1e2a47 · Would-You-Go-on-a-Glowcation-K-Beauty-Is-Betting-So---voguecom"
+title: "Record 077c1e2a47 · Would-You-Go-on-a-Glowcation-K-Beauty-Is-Betting-So---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.434936+00:00
+updated_at: 2026-09-11T16:31:03.671190+00:00
 tags: [record, real-data]
 ---
 
-# Record 077c1e2a47 · Would-You-Go-on-a-Glowcation-K-Beauty-Is-Betting-So---voguecom
+# Record 077c1e2a47 · Would-You-Go-on-a-Glowcation-K-Beauty-Is-Betting-So---Vogue
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5)
 
-**제목:** Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com
+**제목:** Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue
 
-Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com
+Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue
 
 **출처:** Source · Google Search
 

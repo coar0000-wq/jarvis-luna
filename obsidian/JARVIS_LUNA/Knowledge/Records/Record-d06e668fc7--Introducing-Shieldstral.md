@@ -2,7 +2,7 @@
 title: "Record d06e668fc7 · Introducing-Shieldstral"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.312261+00:00
+updated_at: 2026-09-11T16:31:03.549737+00:00
 tags: [record, real-data]
 ---
 

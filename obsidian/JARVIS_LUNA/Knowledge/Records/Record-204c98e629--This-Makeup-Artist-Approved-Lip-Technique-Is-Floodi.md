@@ -2,7 +2,7 @@
 title: "Record 204c98e629 · This-Makeup-Artist-Approved-Lip-Technique-Is-Flooding-Our-TikTok-Feeds"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.494272+00:00
+updated_at: 2026-09-11T16:31:03.730723+00:00
 tags: [record, real-data]
 ---
 

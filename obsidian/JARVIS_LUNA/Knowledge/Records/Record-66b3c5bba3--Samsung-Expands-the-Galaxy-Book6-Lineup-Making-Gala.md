@@ -2,7 +2,7 @@
 title: "Record 66b3c5bba3 · Samsung-Expands-the-Galaxy-Book6-Lineup-Making-Galaxy-Book-More-Access"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.526394+00:00
+updated_at: 2026-09-11T16:31:03.766067+00:00
 tags: [record, real-data]
 ---
 

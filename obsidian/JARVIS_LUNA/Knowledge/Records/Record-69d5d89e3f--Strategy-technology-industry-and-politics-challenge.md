@@ -2,7 +2,7 @@
 title: "Record 69d5d89e3f · Strategy-technology-industry-and-politics-challenges-for-the-21-st-Cha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.161585+00:00
+updated_at: 2026-09-11T16:31:03.410215+00:00
 tags: [record, real-data]
 ---
 

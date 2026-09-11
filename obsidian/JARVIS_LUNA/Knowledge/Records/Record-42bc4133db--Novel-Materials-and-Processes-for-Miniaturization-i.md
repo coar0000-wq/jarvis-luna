@@ -2,7 +2,7 @@
 title: "Record 42bc4133db · Novel-Materials-and-Processes-for-Miniaturization-in-Semiconductor-Pac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.270233+00:00
+updated_at: 2026-09-11T16:31:03.509908+00:00
 tags: [record, real-data]
 ---
 

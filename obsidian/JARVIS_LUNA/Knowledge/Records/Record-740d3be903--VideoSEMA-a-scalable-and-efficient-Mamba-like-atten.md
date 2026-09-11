@@ -2,7 +2,7 @@
 title: "Record 740d3be903 · VideoSEMA-a-scalable-and-efficient-Mamba-like-attention-for-video-unde"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.569722+00:00
+updated_at: 2026-09-11T16:31:03.814344+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record cd0bf2e5a7 · Assessing-bioaccumulation-with-biomagnification-factors-from-dietary-b"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.165891+00:00
+updated_at: 2026-09-11T16:31:03.414277+00:00
 tags: [record, real-data]
 ---
 

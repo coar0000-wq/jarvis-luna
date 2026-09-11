@@ -2,7 +2,7 @@
 title: "Record 6aa4c03cc1 · 19-New-K-Beauty-Brands-Are-Coming-to-Sephora-Heres-What-to-Buy---Yahoo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.465408+00:00
+updated_at: 2026-09-11T16:31:03.701843+00:00
 tags: [record, real-data]
 ---
 

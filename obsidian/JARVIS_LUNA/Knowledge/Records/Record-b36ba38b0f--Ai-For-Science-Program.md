@@ -2,7 +2,7 @@
 title: "Record b36ba38b0f · Ai-For-Science-Program"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.618225+00:00
+updated_at: 2026-09-11T16:31:03.867304+00:00
 tags: [record, real-data]
 ---
 

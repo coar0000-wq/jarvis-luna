@@ -2,7 +2,7 @@
 title: "Record 702efbd5a0 · HPP-Hierarchical-Programmatic-Probing-for-Long-Video-Understanding-by-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.561890+00:00
+updated_at: 2026-09-11T16:31:03.805505+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9c485cd8b3 · Learning-a-Size-Weight-Frontier-for-Synthetic-Augmented-Inference"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.002412+00:00
+updated_at: 2026-09-11T16:31:03.238366+00:00
 tags: [record, real-data]
 ---
 

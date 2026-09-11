@@ -2,7 +2,7 @@
 title: "Record 6cc8144c96 · Advancements-in-Physics-Informed-Neural-Networks-PINNs-for-Real-Time-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.272674+00:00
+updated_at: 2026-09-11T16:31:03.512065+00:00
 tags: [record, real-data]
 ---
 

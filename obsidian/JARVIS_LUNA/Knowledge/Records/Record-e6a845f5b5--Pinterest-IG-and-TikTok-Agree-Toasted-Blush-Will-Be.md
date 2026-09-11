@@ -2,7 +2,7 @@
 title: "Record e6a845f5b5 · Pinterest-IG-and-TikTok-Agree-Toasted-Blush-Will-Be-a-Huge-Makeup-Tren"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.383497+00:00
+updated_at: 2026-09-11T16:31:03.620348+00:00
 tags: [record, real-data]
 ---
 

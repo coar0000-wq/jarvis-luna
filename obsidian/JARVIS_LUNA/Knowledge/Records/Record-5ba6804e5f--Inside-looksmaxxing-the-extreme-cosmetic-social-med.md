@@ -2,7 +2,7 @@
 title: "Record 5ba6804e5f · Inside-looksmaxxing-the-extreme-cosmetic-social-media-trend---bbccom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.490830+00:00
+updated_at: 2026-09-11T16:31:03.727331+00:00
 tags: [record, real-data]
 ---
 

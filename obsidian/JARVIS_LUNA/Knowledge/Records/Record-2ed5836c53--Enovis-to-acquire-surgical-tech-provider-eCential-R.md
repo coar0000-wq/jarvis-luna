@@ -2,7 +2,7 @@
 title: "Record 2ed5836c53 · Enovis-to-acquire-surgical-tech-provider-eCential-Robotics-for-180M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.694635+00:00
+updated_at: 2026-09-11T16:31:03.938084+00:00
 tags: [record, real-data]
 ---
 

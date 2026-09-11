@@ -2,7 +2,7 @@
 title: "Record 37cbc33e11 · Do-NOT-Go-to-a-Korean-Sauna-Without-Watching-This-Korean-Sauna-Jimjilb"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.724216+00:00
+updated_at: 2026-09-11T16:31:03.966896+00:00
 tags: [record, real-data]
 ---
 

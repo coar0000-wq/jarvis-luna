@@ -2,7 +2,7 @@
 title: "Record 4b45407c75 · Sunglass-Nails-Are-the-Fashion-Week-Approved-Way-to-Go-SheerSee-the-Ph"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.611119+00:00
+updated_at: 2026-09-11T16:31:03.859925+00:00
 tags: [record, real-data]
 ---
 

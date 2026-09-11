@@ -2,7 +2,7 @@
 title: "Record 92e0218a9d · Early-to-mid-Holocene-climate-oscillations-and-cultural-shifts-in-the-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.136094+00:00
+updated_at: 2026-09-11T16:31:03.384253+00:00
 tags: [record, real-data]
 ---
 

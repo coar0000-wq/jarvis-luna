@@ -2,7 +2,7 @@
 title: "Record 073b13b14a · Supporting-independent-journalism-in-Ukraine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.547128+00:00
+updated_at: 2026-09-11T16:31:03.789029+00:00
 tags: [record, real-data]
 ---
 

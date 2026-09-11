@@ -2,7 +2,7 @@
 title: "Record c9af867167 · Anthropic-Raises-Series-B-To-Build-Safe-Reliable-Ai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.623267+00:00
+updated_at: 2026-09-11T16:31:03.872310+00:00
 tags: [record, real-data]
 ---
 

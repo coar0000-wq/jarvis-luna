@@ -2,7 +2,7 @@
 title: "Record 5e584fad81 · Vapor-phase-HMDS-passivation-improves-performance-and-ambient-stabilit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T14:10:47.157060+00:00
+updated_at: 2026-09-11T16:31:03.405907+00:00
 tags: [record, real-data]
 ---
 
