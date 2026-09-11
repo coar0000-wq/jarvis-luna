@@ -1,0 +1,87 @@
+{
+  "agent": "Collector-Audit",
+  "generated_at": "2026-09-11T06:42:33.094220+00:00",
+  "last_run": {
+    "requested": 110,
+    "ok": 12,
+    "parse_failed": 7,
+    "reasons": {
+      "가격 없음": 7
+    },
+    "finished_at": "2026-09-09T22:42:59.014772+00:00"
+  },
+  "failure_types": [
+    {
+      "pd_no": "1069432",
+      "type": "og_title_only_no_price",
+      "og_title": "다이소몰",
+      "sold_out": false
+    },
+    {
+      "pd_no": "1058806",
+      "type": "og_title_only_no_price",
+      "og_title": "다이소몰",
+      "sold_out": false
+    },
+    {
+      "pd_no": "30493",
+      "type": "og_title_only_no_price",
+      "og_title": "다이소몰",
+      "sold_out": false
+    },
+    {
+      "pd_no": "1065883",
+      "type": "og_title_only_no_price",
+      "og_title": "다이소몰",
+      "sold_out": false
+    },
+    {
+      "pd_no": "1072035",
+      "type": "og_title_only_no_price",
+      "og_title": "다이소몰",
+      "sold_out": false
+    },
+    {
+      "pd_no": "10346312",
+      "type": "og_title_only_no_price",
+      "og_title": "다이소몰",
+      "sold_out": false
+    },
+    {
+      "pd_no": "1057256",
+      "type": "og_title_only_no_price",
+      "og_title": "다이소몰",
+      "sold_out": false
+    }
+  ],
+  "products_total": 219,
+  "blacklist_hint": [
+    "1069432",
+    "1058806",
+    "30493",
+    "1065883",
+    "1072035",
+    "10346312",
+    "1057256"
+  ],
+  "suggestions": [
+    {
+      "action": "keep_blacklist_and_prefer_category",
+      "detail": "가격없음/og_title만 잡히는 pd_no는 beauty_queue 블랙리스트 유지. 로션/오일/미스트 등 대체 카테고리 URL 우선.",
+      "category_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01114"
+    },
+    {
+      "action": "do_not_retry_failed_pd_nos",
+      "pd_nos": [
+        "1069432",
+        "1058806",
+        "30493",
+        "1065883",
+        "1072035",
+        "10346312",
+        "1057256"
+      ]
+    }
+  ],
+  "severity": true
+}
