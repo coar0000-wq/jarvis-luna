@@ -2,7 +2,7 @@
 title: "Record 3f20b75cb6 · Hydrogen-Radical-Permeation-Dynamics-through-Ultrathin-ALD-Al-2-O-3-La"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:57.714281+00:00
+updated_at: 2026-09-11T22:43:21.706396+00:00
 tags: [record, real-data]
 ---
 

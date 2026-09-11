@@ -2,7 +2,7 @@
 title: "Record ae335c347e · Ranking-Every-Viral-Korean-Sunscreen-here-are-the-best"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:58.146005+00:00
+updated_at: 2026-09-11T22:43:22.077624+00:00
 tags: [record, real-data]
 ---
 

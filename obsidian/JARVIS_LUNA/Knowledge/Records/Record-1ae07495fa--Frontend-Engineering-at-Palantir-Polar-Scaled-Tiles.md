@@ -2,7 +2,7 @@
 title: "Record 1ae07495fa · Frontend-Engineering-at-Palantir-Polar-Scaled-Tiles-in-Zodiac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:57.682711+00:00
+updated_at: 2026-09-11T22:43:21.680278+00:00
 tags: [record, real-data]
 ---
 

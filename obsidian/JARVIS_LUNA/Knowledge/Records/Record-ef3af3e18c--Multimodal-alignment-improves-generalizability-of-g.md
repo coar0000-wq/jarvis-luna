@@ -2,7 +2,7 @@
 title: "Record ef3af3e18c · Multimodal-alignment-improves-generalizability-of-genomic-biomarker-pr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:57.703149+00:00
+updated_at: 2026-09-11T22:43:21.697101+00:00
 tags: [record, real-data]
 ---
 

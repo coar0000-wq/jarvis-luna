@@ -2,7 +2,7 @@
 title: "Record 81398f3ca4 · What-Is-A-Financial-Plan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:58.102146+00:00
+updated_at: 2026-09-11T22:43:22.039892+00:00
 tags: [record, real-data]
 ---
 

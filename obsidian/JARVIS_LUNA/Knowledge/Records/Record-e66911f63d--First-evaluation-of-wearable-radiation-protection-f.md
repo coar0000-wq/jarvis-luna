@@ -2,7 +2,7 @@
 title: "Record e66911f63d · First-evaluation-of-wearable-radiation-protection-for-human-deep-space"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:57.745398+00:00
+updated_at: 2026-09-11T22:43:21.733833+00:00
 tags: [record, real-data]
 ---
 

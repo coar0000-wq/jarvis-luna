@@ -2,7 +2,7 @@
 title: "Record 05037cf678 · UniMPA-A-Unified-Memory-Prediction-Action-Model-via-Action-Grounded-Tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:57.679801+00:00
+updated_at: 2026-09-11T22:43:21.678020+00:00
 tags: [record, real-data]
 ---
 

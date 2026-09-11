@@ -2,7 +2,7 @@
 title: "Record 5c68135f66 · 2-Terminal-refresh-free-memory-for-high-density-and-low-power-consumpt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:57.759618+00:00
+updated_at: 2026-09-11T22:43:21.746819+00:00
 tags: [record, real-data]
 ---
 

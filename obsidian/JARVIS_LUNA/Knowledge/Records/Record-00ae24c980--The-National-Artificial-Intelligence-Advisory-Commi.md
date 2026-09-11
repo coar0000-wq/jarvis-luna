@@ -2,7 +2,7 @@
 title: "Record 00ae24c980 · The-National-Artificial-Intelligence-Advisory-Committee-NAIAC--Recomme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:57.762702+00:00
+updated_at: 2026-09-11T22:43:21.749685+00:00
 tags: [record, real-data]
 ---
 

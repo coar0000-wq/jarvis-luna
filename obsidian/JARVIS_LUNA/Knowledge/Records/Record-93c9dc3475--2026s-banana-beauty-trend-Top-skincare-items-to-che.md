@@ -1,18 +1,18 @@
 ---
-title: "Record 93c9dc3475 · 2026s-banana-beauty-trend-Top-skincare-items-to-check-out---Prestige-O"
+title: "Record 93c9dc3475 · 2026s-banana-beauty-trend-Top-skincare-items-to-check-out---prestigeon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:57.963770+00:00
+updated_at: 2026-09-11T22:43:21.919381+00:00
 tags: [record, real-data]
 ---
 
-# Record 93c9dc3475 · 2026s-banana-beauty-trend-Top-skincare-items-to-check-out---Prestige-O
+# Record 93c9dc3475 · 2026s-banana-beauty-trend-Top-skincare-items-to-check-out---prestigeon
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVFRCb3N0VldPTzd2RnEza3lmUzBMbXZQcGhDdVJTRWVobXdVbldLSHJtR21XNnhZdnVyQ0p6WThoZEc4UWx5Y1hISTRrOFg5bmNVR3hQQlFBQlRIU0t5ai1BZkVHd3dXbnpIQ3p5OUZkNG9rTmcwa2JYcmx1X3VNZERJbkp5VTVmdkIzeFlzZ2syeTNTbDgzRU16dEJpcjZQYTBIaUZJdjl0RzDSAbABQVVfeXFMTXRnWmVCWTgyS3dKVUJtdXVYUV84cC1heS1pU0h2OWFUXzczMkhuR1V3eDc3MmZSS0FyRUdpQk1WX0xqeXc1NmtpRFA2X3I1NDR6REhLbURnczFrRzJJQW5EYTFRcWpxdFluRHpKNW5BMTMzdDBGM0lyVl9NcXdqRnhITzQ2WnlvbEs3RS1qRi1vdVZLc2gxcjk5S1dNTG9teWs2bHZuaDJmSEFGdldtRU0?oc=5)
 
-**제목:** 2026’s banana beauty trend: Top skincare items to check out - Prestige Online - Singapore
+**제목:** 2026’s banana beauty trend: Top skincare items to check out - prestigeonline.com
 
-2026’s banana beauty trend: Top skincare items to check out - Prestige Online - Singapore
+2026’s banana beauty trend: Top skincare items to check out - prestigeonline.com
 
 **출처:** Source · Google Search
 

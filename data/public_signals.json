@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T22:19:15.546785+00:00",
+  "generated_at": "2026-09-11T22:41:45.422852+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "football games tonight",
-          "approx_traffic": "500000+",
-          "traffic_num": 500000,
-          "published": "Fri, 11 Sep 2026 14:50:00 -0700",
-          "source_name": "NFL.com",
-          "url": "https://trends.google.com/trending?geo=US&q=football%20games%20tonight"
+          "keyword": "mets vs yankees",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Fri, 11 Sep 2026 15:10:00 -0700",
+          "source_name": "Fox News",
+          "url": "https://trends.google.com/trending?geo=US&q=mets%20vs%20yankees"
         },
         {
-          "keyword": "greg gutfeld",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Fri, 11 Sep 2026 14:50:00 -0700",
-          "source_name": "The Independent",
-          "url": "https://trends.google.com/trending?geo=US&q=greg%20gutfeld"
-        },
-        {
-          "keyword": "rockies vs tigers",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Fri, 11 Sep 2026 14:50:00 -0700",
-          "source_name": "Bless You Boys",
-          "url": "https://trends.google.com/trending?geo=US&q=rockies%20vs%20tigers"
-        },
-        {
-          "keyword": "matthew mcconaughey",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Fri, 11 Sep 2026 14:40:00 -0700",
-          "source_name": "People.com",
-          "url": "https://trends.google.com/trending?geo=US&q=matthew%20mcconaughey"
-        },
-        {
-          "keyword": "judge judy",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Fri, 11 Sep 2026 15:00:00 -0700",
-          "source_name": "KTLA",
-          "url": "https://trends.google.com/trending?geo=US&q=judge%20judy"
-        },
-        {
-          "keyword": "angels vs nationals",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Fri, 11 Sep 2026 14:50:00 -0700",
+          "keyword": "dodgers vs marlins",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Fri, 11 Sep 2026 15:10:00 -0700",
           "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=angels%20vs%20nationals"
+          "url": "https://trends.google.com/trending?geo=US&q=dodgers%20vs%20marlins"
         },
         {
-          "keyword": "college football tonight",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Fri, 11 Sep 2026 14:50:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=college%20football%20tonight"
+          "keyword": "phillies vs braves",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Fri, 11 Sep 2026 15:20:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=phillies%20vs%20braves"
         },
         {
-          "keyword": "scp foundation movie a24 2027",
+          "keyword": "royals vs red sox",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Fri, 11 Sep 2026 15:20:00 -0700",
+          "source_name": "The Boston Globe",
+          "url": "https://trends.google.com/trending?geo=US&q=royals%20vs%20red%20sox"
+        },
+        {
+          "keyword": "astros vs rays",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Fri, 11 Sep 2026 15:20:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=astros%20vs%20rays"
+        },
+        {
+          "keyword": "villanova vs louisville",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Fri, 11 Sep 2026 15:10:00 -0700",
+          "source_name": "Card Chronicle",
+          "url": "https://trends.google.com/trending?geo=US&q=villanova%20vs%20louisville"
+        },
+        {
+          "keyword": "richmond vs nc state",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Fri, 11 Sep 2026 15:10:00 -0700",
+          "source_name": "Backing The Pack",
+          "url": "https://trends.google.com/trending?geo=US&q=richmond%20vs%20nc%20state"
+        },
+        {
+          "keyword": "tasia fortune",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 11 Sep 2026 15:00:00 -0700",
-          "source_name": "Deadline",
-          "url": "https://trends.google.com/trending?geo=US&q=scp%20foundation%20movie%20a24%202027"
+          "published": "Fri, 11 Sep 2026 15:20:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=tasia%20fortune"
         },
         {
-          "keyword": "32 hour work week",
+          "keyword": "charles iii",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 11 Sep 2026 14:50:00 -0700",
-          "source_name": "USA Today",
-          "url": "https://trends.google.com/trending?geo=US&q=32%20hour%20work%20week"
+          "published": "Fri, 11 Sep 2026 15:20:00 -0700",
+          "source_name": "IMDb",
+          "url": "https://trends.google.com/trending?geo=US&q=charles%20iii"
         },
         {
-          "keyword": "interstate 5",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 11 Sep 2026 14:50:00 -0700",
-          "source_name": "KATU",
-          "url": "https://trends.google.com/trending?geo=US&q=interstate%205"
+          "keyword": "ufc noche",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Fri, 11 Sep 2026 15:20:00 -0700",
+          "source_name": "MMA Junkie",
+          "url": "https://trends.google.com/trending?geo=US&q=ufc%20noche"
         }
       ]
     },

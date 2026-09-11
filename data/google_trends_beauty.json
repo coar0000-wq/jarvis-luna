@@ -1,6 +1,6 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-11T22:15:57.835934+00:00",
+  "collected_at": "2026-09-11T22:38:22.810582+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
@@ -52,8 +52,8 @@
       "beauty": true
     },
     {
-      "keyword": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
-      "product": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
+      "keyword": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - personalcareinsights.com",
+      "product": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - personalcareinsights.com",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5N2ZIdEFwRWx5ZzJ0aHhib3ZvMHQ5c1o0Z1J5Nm14ZW5wUmpHZ0xKcGhnaVBTVVRFYU81WVFrbUZkQnhNTmxHeGMzQ3dHWHhtc0xxQzVoRkhqNFFWVjR4WGNoT0lhYXktTGhHZ001VHJ1Z282RWpRdGFabG43Zw?oc=5",
@@ -79,8 +79,8 @@
       "beauty": true
     },
     {
-      "keyword": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
-      "product": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
+      "keyword": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - pagesix.com",
+      "product": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - pagesix.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGtUdkEtYWNZaFVvSFFvcUlXQzNRWS1zcXUtVUctWkx2b3V4d3JWNk42dmtPYjFweUxTX2IxUHNqamdCRWY0T2lxUWtyN3RkYnA4Z0dORHJNR05HaWpvX3lJT190RVFtVXhNVk10YnNuNjdqZ1NBdFNRUU94cG9nYmJ1Uld1c2hmS1YyXzF5VmRMMTRo?oc=5",
@@ -142,8 +142,8 @@
       "beauty": true
     },
     {
-      "keyword": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
-      "product": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
+      "keyword": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
+      "product": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5",
@@ -160,8 +160,8 @@
       "beauty": true
     },
     {
-      "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com",
-      "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com",
+      "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
+      "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FajN1UnhmQjViQ0dWVW45QVF1blJPRnBKZUltUWRyRjVDcHFVVTBiVUpkQTZlZHNYbEFmSUFtVTRWT0Q2X3o4R3R0YXhyYUJhbHV6dVln?oc=5",
@@ -169,8 +169,8 @@
       "beauty": true
     },
     {
-      "keyword": "Snail slime for your face? - CNN",
-      "product": "Snail slime for your face? - CNN",
+      "keyword": "Snail slime for your face? - cnn.com",
+      "product": "Snail slime for your face? - cnn.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0l4Szg4MWtxM2RLY0MzSHpBYkRHQVdCSEc1b29TNFdrUzA4QmZoNldsRnctNXRFNVNQVWowMEdXdzJ2T244SGRGSnF2cVVhUHFuZnZuS1U2NVVCQ1BPTVRoelJqcUZZZnNEVEU0a3hlZ2JuaGJ5TFhBZjJSOFowaVlPMW5IZkZnbC1zYmdTb1dVSFZscmhLaFJGRXI3Wmc?oc=5",
@@ -178,8 +178,8 @@
       "beauty": true
     },
     {
-      "keyword": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six",
-      "product": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six",
+      "keyword": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - pagesix.com",
+      "product": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - pagesix.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOVFOcDNSNU5FazZmWTllWXZrM0ZPdE0zcll3Qk9WbWFhdEIzZmhpVVZRY29xbE8xMDZ5VjNIR083a0FrbEUxU2RSNHkxNWFnczE0U0dDenNXdlMzOU50cmdBM1JxcmxYbHEtZFpXQ1FXNXY0Smxnb3ZxYWdoTEFIY3BaZkJucHhWMEJZTVAtV2ZpWEtZTmdNZUkxbXotelFLOUxWLVJ3?oc=5",
@@ -187,8 +187,8 @@
       "beauty": true
     },
     {
-      "keyword": "Sticky or slippery? Snails can change their slime to meet the moment - npr.org",
-      "product": "Sticky or slippery? Snails can change their slime to meet the moment - npr.org",
+      "keyword": "Sticky or slippery? Snails can change their slime to meet the moment - NPR",
+      "product": "Sticky or slippery? Snails can change their slime to meet the moment - NPR",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRlRZZlJCZVJLZThvM0ZQYXpuNWFfck9MV2pBekdVSUxPMGRTSGFuZzJBYjV4ZExXUElZNnRLY3ZsankzTnNIV0dxVGdMWFQ3Qk1xMGlVR1JBTzJnZk1JQlhFYUt0X1BXT2s3WXdIc1MyZDF3bm5ZUzVQM2lVc2Z0a21lSm9BMGRianFtbg?oc=5",
@@ -232,8 +232,8 @@
       "beauty": true
     },
     {
-      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - allure.com",
-      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - allure.com",
+      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
+      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tUlIta29LZnJyQjZ3VlhCQ1VlZzk3bVo5LXd1NE8xX3FRemRsZXB4VXdOSDQtWVNUMlJzWmNXSnhUTWdBTl9hX1dud2VTREZwNlFfTXVxNEdOa0tSdUJZNS1B?oc=5",
@@ -241,8 +241,8 @@
       "beauty": true
     },
     {
-      "keyword": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - Cosmopolitan",
-      "product": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - Cosmopolitan",
+      "keyword": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - cosmopolitan.com",
+      "product": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - cosmopolitan.com",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51X3N0RkJ5UUFOczdKQ2xiV24wOEJsMGlUUU1vTnJIWGZXd0VJVDZtcExtbHh5VWwwUVpzYXVqYklvc29sSF9zaUtnbDUybF9iTGxVWE1PVkxOZGVacVNUT2REeG42TGtPaGNUdjF6a08zSG40M3Z5d0JR?oc=5",
@@ -250,8 +250,8 @@
       "beauty": true
     },
     {
-      "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
-      "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
+      "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com",
+      "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LemdVMDM3Q3hoem1Xa013a0JQMVdWd0UxSDZpdjc4T3BmT29PMWJZZTltMl9lQkhRM1NzckFMbnBiMlIycWxqZXhrQ3lCeU1YNzFEcnpPQkRpeDQ?oc=5",
@@ -286,8 +286,8 @@
       "beauty": true
     },
     {
-      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - allure.com",
-      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - allure.com",
+      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
+      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yZDNoUHpEdEhOUWhHQWRZck1vTFdWeDljeGZPcVh4a1VuaWpnWTczN0Vhd2RmODNOajVxdFdzRHdJTjJVbVJfa212RDdQcVY3N2tSRjc0emxET0J6bUFfbVZUNUU?oc=5",
@@ -304,8 +304,8 @@
       "beauty": true
     },
     {
-      "keyword": "Should You Use Centella Asiatica? 5 Benefits - Health.com",
-      "product": "Should You Use Centella Asiatica? 5 Benefits - Health.com",
+      "keyword": "Should You Use Centella Asiatica? 5 Benefits - health.com",
+      "product": "Should You Use Centella Asiatica? 5 Benefits - health.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV1FGamp5TUY2bzdhcXhiTkpLQmwyZHIxOE9ITnZNcnFWemt2TzdXU09taVV0RmFReUZCUFE2YjNNa2RlVXVMR1E5SEh2eTV6Wk5HalUyaVdfN2JQQXZKZmV4alpHSVNXTXhRMFptYVM5amd3X3pRdThCYlROa18tWjRMTQ?oc=5",
@@ -349,8 +349,8 @@
       "beauty": true
     },
     {
-      "keyword": "I tried these 5 face serums on my sensitive skin, and this Korean brand one worked like magic | Fashion Trends - hindustantimes.com",
-      "product": "I tried these 5 face serums on my sensitive skin, and this Korean brand one worked like magic | Fashion Trends - hindustantimes.com",
+      "keyword": "I tried these 5 face serums on my sensitive skin, and this Korean brand one worked like magic | Fashion Trends - Hindustan Times",
+      "product": "I tried these 5 face serums on my sensitive skin, and this Korean brand one worked like magic | Fashion Trends - Hindustan Times",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxObUdOa2N6MW1YenBZM1FmNEVQd2ZLSm5fekRobE1SMjlfQ2EtVi1icENJaFZZaVdHajhJQmJYQzlPa3UyNkVKMXlRTUhadXZudU5iQXhrYU4xb1loemJVMHJHWHN1SkQ0OUFON1ZzTmhyME5KYVduWDF1TlkzT2paRG5xc2FOVGVPS1F4RlFUUXhBTEZVaFQwRDdDNjB4aFRydFR6dnVhaVplZHZwa1Jmd3V4U25LZUJsMXdZT0FodjgtMVJTZjVzZlpUOWkzQmprc2xhdXVISFd4NFFoV0hHQkRmRUY4a05McHRST1d1WkdmaTdl0gH6AUFVX3lxTE9iZHNpQjY0V1luUTdlZDlhaFRHT1ZvOWRxejV6c0RZaE9kcjMzSk43YVdsNWRoOVFTUjZRaHFDamtCU09TN0RQbFlpVTVnMXRpX2ZSSTMzM0tHNmtNb3NfLVlncWlWbUNuMThzU2JjUUNVeE92ai1SV1Y0aG12X3VOM2ptQkV0a2FTOVFvTi1YT1drUmMxdkpFRF9JQ3N1UEZ2MXJoR1B1Mk1wWkpRM3d0RnNWdW52OS00akw0S3RCeGZ0Qm9nclIzc2VZdUhvak5xNzI1aV8zb3k2YjUtdGdlVzZkaXl2UDhKNkMxTGlVV3o1MnM4SDAyZWc?oc=5",

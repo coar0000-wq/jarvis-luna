@@ -2,7 +2,7 @@
 title: "Record 43821dbfa6 · Shopify-Launches-Agentic-Storefronts-What-it-Means-For-Fashion---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:57.941682+00:00
+updated_at: 2026-09-11T22:43:21.901627+00:00
 tags: [record, real-data]
 ---
 

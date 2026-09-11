@@ -2,7 +2,7 @@
 title: "Record 9852bd3675 · Is-the-Dyson-Toothbrush-Worth-499-We-Asked-4-Dentists"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:58.049156+00:00
+updated_at: 2026-09-11T22:43:21.993911+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 97fe9a3513 · AIR-to-use-Elmo-Motion-Control-technology-in-uncrewed-cargo-aircraft"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:58.106592+00:00
+updated_at: 2026-09-11T22:43:22.043740+00:00
 tags: [record, real-data]
 ---
 

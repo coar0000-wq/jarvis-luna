@@ -2,7 +2,7 @@
 title: "Record ffbeb6b5c9 · Towards-an-AI-biomedical-scientist-Accelerating-discoveries-in-neurode"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:57.712118+00:00
+updated_at: 2026-09-11T22:43:21.704577+00:00
 tags: [record, real-data]
 ---
 

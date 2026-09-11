@@ -2,7 +2,7 @@
 title: "Record 81977e484d · Bridging-language-and-action-A-survey-of-language-conditioned-robot-ma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:57.750598+00:00
+updated_at: 2026-09-11T22:43:21.738630+00:00
 tags: [record, real-data]
 ---
 

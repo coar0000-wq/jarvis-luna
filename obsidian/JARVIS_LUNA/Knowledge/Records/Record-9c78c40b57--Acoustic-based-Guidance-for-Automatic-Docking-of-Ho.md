@@ -2,7 +2,7 @@
 title: "Record 9c78c40b57 · Acoustic-based-Guidance-for-Automatic-Docking-of-Holonomic-AUVs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:57.678962+00:00
+updated_at: 2026-09-11T22:43:21.677269+00:00
 tags: [record, real-data]
 ---
 

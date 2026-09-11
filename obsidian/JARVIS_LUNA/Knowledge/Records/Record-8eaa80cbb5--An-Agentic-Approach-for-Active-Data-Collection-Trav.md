@@ -2,7 +2,7 @@
 title: "Record 8eaa80cbb5 · An-Agentic-Approach-for-Active-Data-Collection-Travel-Behavior-Modelin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:58.153402+00:00
+updated_at: 2026-09-11T22:43:22.084328+00:00
 tags: [record, real-data]
 ---
 

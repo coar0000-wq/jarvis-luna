@@ -2,7 +2,7 @@
 title: "Record a3e48d6326 · Modular-Kinematic-Reduction-of-Closed-Chain-Mechanisms-Using-Path-Asse"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:57.671823+00:00
+updated_at: 2026-09-11T22:43:21.670380+00:00
 tags: [record, real-data]
 ---
 

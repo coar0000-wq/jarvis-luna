@@ -2,7 +2,7 @@
 title: "Record 9050a4ba85 · The-Latest-TikTok-Beauty-Trend-Looking-Tired---1045-WOKV"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:57.958571+00:00
+updated_at: 2026-09-11T22:43:21.915238+00:00
 tags: [record, real-data]
 ---
 

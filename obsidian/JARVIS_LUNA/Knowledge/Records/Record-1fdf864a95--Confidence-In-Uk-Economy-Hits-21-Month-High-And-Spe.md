@@ -2,7 +2,7 @@
 title: "Record 1fdf864a95 · Confidence-In-Uk-Economy-Hits-21-Month-High-And-Spending-Climbs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:57.808955+00:00
+updated_at: 2026-09-11T22:43:21.791905+00:00
 tags: [record, real-data]
 ---
 

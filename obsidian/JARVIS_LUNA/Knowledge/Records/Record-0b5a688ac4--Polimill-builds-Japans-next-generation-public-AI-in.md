@@ -2,7 +2,7 @@
 title: "Record 0b5a688ac4 · Polimill-builds-Japans-next-generation-public-AI-infrastructure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:58.001038+00:00
+updated_at: 2026-09-11T22:43:21.951632+00:00
 tags: [record, real-data]
 ---
 

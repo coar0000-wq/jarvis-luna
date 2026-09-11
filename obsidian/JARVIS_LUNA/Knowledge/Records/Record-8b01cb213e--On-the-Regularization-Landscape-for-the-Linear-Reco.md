@@ -2,7 +2,7 @@
 title: "Record 8b01cb213e · On-the-Regularization-Landscape-for-the-Linear-Recommendation-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:20:57.679969+00:00
+updated_at: 2026-09-11T22:43:21.678158+00:00
 tags: [record, real-data]
 ---
 
