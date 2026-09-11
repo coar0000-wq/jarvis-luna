@@ -2,7 +2,7 @@
 title: "Record 16e1be8365 · 9-K-Beauty-Brands-Were-Obsessed-with-for-Fall-2026---celebsecretscom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.690770+00:00
+updated_at: 2026-09-11T04:28:32.206084+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** 9 K-Beauty Brands We’re Obsessed with for Fall 2026 - celebsecrets.com
 
 9 K-Beauty Brands We’re Obsessed with for Fall 2026 - celebsecrets.com
+9 K-Beauty Brands We’re Obsessed with for Fall 2026 - celebsecrets.com
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

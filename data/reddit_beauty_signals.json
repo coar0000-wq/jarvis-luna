@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-11T02:45:47.680765+00:00",
+  "collected_at": "2026-09-11T04:09:21.378220+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -289,16 +289,16 @@
       "feed": "hot"
     },
     {
-      "title": "Thoughts on amuse dew power vegan cushion",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wciksw/thoughts_on_amuse_dew_power_vegan_cushion/",
-      "published": "2026-09-10T13:01:31+00:00",
+      "title": "Daiso/affordable products that you like?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcbmr4/daisoaffordable_products_that_you_like/",
+      "published": "2026-09-10T07:00:53+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Daiso/affordable products that you like?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcbmr4/daisoaffordable_products_that_you_like/",
-      "published": "2026-09-10T07:00:53+00:00",
+      "title": "Thoughts on amuse dew power vegan cushion",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wciksw/thoughts_on_amuse_dew_power_vegan_cushion/",
+      "published": "2026-09-10T13:01:31+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },

@@ -1,18 +1,18 @@
 ---
-title: "Record 59d22aec59 · Shopify-Defies-Logic-AI-Disruption-Is-a-Good-Thing---marketbeatcom"
+title: "Record 59d22aec59 · Shopify-Defies-Logic-AI-Disruption-Is-a-Good-Thing---MarketBeat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.724102+00:00
+updated_at: 2026-09-11T04:28:32.241854+00:00
 tags: [record, real-data]
 ---
 
-# Record 59d22aec59 · Shopify-Defies-Logic-AI-Disruption-Is-a-Good-Thing---marketbeatcom
+# Record 59d22aec59 · Shopify-Defies-Logic-AI-Disruption-Is-a-Good-Thing---MarketBeat
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikAFBVV95cUxQOUFSaFBxNmQwXy1ySjhGTVFsaVVmNndJVE9VSVUyc2g1cm5Rem9ZdDJ5N2NuVkRnMDUwX1ZVMVM5S0p5SjNTQjNQelBEbzN5UkRITVNCdklJb1ZWZkFhVlVxRm4zeGVCcWx4RjFoQnhWd2JKWkxiYlpFRFRnOVJqSVk2azFTWHBYdkxzSGxHbVo?oc=5)
 
-**제목:** Shopify Defies Logic: AI Disruption Is a Good Thing - marketbeat.com
+**제목:** Shopify Defies Logic: AI Disruption Is a Good Thing - MarketBeat
 
-Shopify Defies Logic: AI Disruption Is a Good Thing - marketbeat.com
+Shopify Defies Logic: AI Disruption Is a Good Thing - MarketBeat
 
 **출처:** Source · Google Search
 

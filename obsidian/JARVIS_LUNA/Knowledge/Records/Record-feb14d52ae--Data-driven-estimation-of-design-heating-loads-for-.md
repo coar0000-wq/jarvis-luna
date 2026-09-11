@@ -2,7 +2,7 @@
 title: "Record feb14d52ae · Data-driven-estimation-of-design-heating-loads-for-HVAC-equipment-sizi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.338078+00:00
+updated_at: 2026-09-11T04:28:31.821493+00:00
 tags: [record, real-data]
 ---
 

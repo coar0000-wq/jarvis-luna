@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-11T03:08:53.343754+00:00",
-  "total_products": 214,
+  "generated_at": "2026-09-11T04:31:40.852744+00:00",
+  "total_products": 219,
   "grade_summary": {
     "S": 6,
     "A": 35,
-    "B": 27,
-    "C": 146
+    "B": 28,
+    "C": 150
   },
   "category_avg_score": {
     "클렌징": 73.0,
-    "스킨케어": 66.7,
-    "바디케어": 63.9,
+    "스킨케어": 65.8,
+    "바디케어": 60.9,
     "헤어케어": 54.9,
     "마스크팩": 50.8,
     "메이크업": 49.9,
@@ -28,7 +28,7 @@
     "walmart_beauty"
   ],
   "global_demand_signals": 77,
-  "products_with_global_match": 39,
+  "products_with_global_match": 41,
   "canonical": "shopify_s_recommendations.json",
   "priority_note": "S등급만 Shopify 1차 등록. 펫/노이즈/약한 단일토큰 제외.",
   "scoring_model": {
@@ -3228,6 +3228,72 @@
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82"
     },
     {
+      "pd_no": "1061697",
+      "name": "더페이스샵 스밈 보습밀도 장벽 세럼 45 ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061697",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250213/81CX04PlrLKd3AYOc95u1061697_00_0181CX04PlrLKd3AYOc95u.jpg",
+      "shopify_score": 65,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 18,
+      "us_median_price_usd": 27.2,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 10.0,
+        "keyword": 5,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 16,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "ulta_beauty",
+        "global_product": "Hyaluronic Acid 2% + B5 Hydrating Serum",
+        "similarity": 0.76,
+        "demand_weight": 0.85,
+        "matched_tokens": [
+          "hydrating",
+          "serum"
+        ],
+        "match_score": 0.646
+      },
+      "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Hyaluronic Acid 2% + B5 Hydrating Serum",
+          "similarity": 0.76,
+          "demand_weight": 0.85,
+          "matched_tokens": [
+            "hydrating",
+            "serum"
+          ],
+          "match_score": 0.646
+        },
+        {
+          "channel": "sephora",
+          "global_product": "퍼스트 케어 안티에이징 세럼",
+          "similarity": 0.28,
+          "demand_weight": 0.54,
+          "matched_tokens": [
+            "serum"
+          ],
+          "match_score": 0.151
+        }
+      ],
+      "recommend_reason": "글로벌 'Hyaluronic Acid 2% + B5 Hydrating Serum' (ulta_beauty) 유사 76% · 토큰 hydrating, serum · S제외:score_below_82"
+    },
+    {
       "pd_no": "1066221",
       "name": "리노이아 스칼프 쿨링부스터 120 ml",
       "bucket": "스킨케어",
@@ -3294,40 +3360,6 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "바디케어 카테고리 · 평점 4.8 · 리뷰 422건 (글로벌 시그널 약함)"
-    },
-    {
-      "pd_no": "1060583",
-      "name": "메리트 미라클 아르간 오일 플로럴 블룸 95 ml",
-      "bucket": "스킨케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 441,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060583",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250507/OeJ6ooTkYW0V7AtuHx2P1060583_00_00OeJ6ooTkYW0V7AtuHx2P.jpg",
-      "shopify_score": 63,
-      "grade": "B",
-      "s_rule": "score_below_82",
-      "us_market_hits": 0,
-      "us_median_price_usd": 0.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 11.7,
-        "reviews": 16.0,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 0.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 441건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1066503",
@@ -3770,6 +3802,83 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "메이크업 카테고리 · 평점 4.9 · 리뷰 595건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1062777",
+      "name": "닥터씨피유 모이스처소프트 스팀크림 60 g",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062777",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250403/J9yrAc6bVG73Qjyvg6mb1062777_00_01J9yrAc6bVG73Qjyvg6mb.jpg",
+      "shopify_score": 60,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 20,
+      "us_median_price_usd": 29.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 14,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
+        "similarity": 0.76,
+        "demand_weight": 0.686,
+        "matched_tokens": [
+          "cream",
+          "moisturizer"
+        ],
+        "match_score": 0.521
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
+          "similarity": 0.76,
+          "demand_weight": 0.686,
+          "matched_tokens": [
+            "cream",
+            "moisturizer"
+          ],
+          "match_score": 0.521
+        },
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "CeraVe Moisturizing Cream",
+          "similarity": 0.867,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "cream",
+            "moisturizer"
+          ],
+          "match_score": 0.412
+        },
+        {
+          "channel": "walmart_beauty",
+          "global_product": "CeraVe Daily Moisturizing Lotion",
+          "similarity": 0.4,
+          "demand_weight": 0.8,
+          "matched_tokens": [
+            "moisturizer"
+          ],
+          "match_score": 0.32
+        }
+      ],
+      "recommend_reason": "글로벌 'S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 76% · 토큰 cream, moisturizer · S제외:score_below_82"
     },
     {
       "pd_no": "1072794",
@@ -5078,6 +5187,40 @@
         }
       ],
       "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:score_below_82"
+    },
+    {
+      "pd_no": "1060583",
+      "name": "메리트 미라클 아르간 오일 플로럴 블룸 95 ml",
+      "bucket": "헤어케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 441,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060583",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250507/OeJ6ooTkYW0V7AtuHx2P1060583_00_00OeJ6ooTkYW0V7AtuHx2P.jpg",
+      "shopify_score": 56,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 17.9,
+        "rating": 11.7,
+        "reviews": 16.0,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "헤어케어 카테고리 · 평점 4.7 · 리뷰 441건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1067396",
@@ -6480,6 +6623,40 @@
       "recommend_reason": "메이크업 카테고리 · 평점 4.9 · 리뷰 39건 (글로벌 시그널 약함)"
     },
     {
+      "pd_no": "1048267",
+      "name": "샤워메이트 사철쑥 시카 케어 바디 미스트 200 ml",
+      "bucket": "바디케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048267",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251218/tLwZ56GKJpzQHMsLAG2N1048267_00_01tLwZ56GKJpzQHMsLAG2N.jpg",
+      "shopify_score": 51,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 2,
+      "us_median_price_usd": 26.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 10.0,
+        "keyword": 3,
+        "us_market_fit": 17.5,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "바디케어 카테고리 (글로벌 시그널 약함)"
+    },
+    {
       "pd_no": "1035069",
       "name": "더마앤모어 AHA 쿨링 비듬케어 샴푸 60ml",
       "bucket": "헤어케어",
@@ -7186,6 +7363,40 @@
       "recommend_reason": "뷰티소품 카테고리 · 평점 4.7 · 리뷰 147건 (글로벌 시그널 약함)"
     },
     {
+      "pd_no": "1061698",
+      "name": "더페이스샵 스밈 보습밀도 장벽 에멀전 100 ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061698",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250213/gCxk2UQhxxJ9XSAOZDLq1061698_00_01gCxk2UQhxxJ9XSAOZDLq.jpg",
+      "shopify_score": 35,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "스킨케어 카테고리 (글로벌 시그널 약함)"
+    },
+    {
       "pd_no": "73320",
       "name": "비누 그물망 3매입",
       "bucket": "스킨케어",
@@ -7218,6 +7429,40 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "스킨케어 카테고리 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1072855",
+      "name": "[등드름케어]VT 리들샷 비 클리어 AC 워시오프 바디미스트 150 ml",
+      "bucket": "바디케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072855",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260629/8DGepjQE26iBOECx7gh71072855_00_018DGepjQE26iBOECx7gh7.jpg",
+      "shopify_score": 30,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "바디케어 카테고리 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1041093",

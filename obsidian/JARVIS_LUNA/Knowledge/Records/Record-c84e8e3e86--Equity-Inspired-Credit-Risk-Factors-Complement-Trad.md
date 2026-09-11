@@ -2,7 +2,7 @@
 title: "Record c84e8e3e86 · Equity-Inspired-Credit-Risk-Factors-Complement-Traditional-Ones"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.508613+00:00
+updated_at: 2026-09-11T04:28:32.016735+00:00
 tags: [record, real-data]
 ---
 

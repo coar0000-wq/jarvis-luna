@@ -2,7 +2,7 @@
 title: "Record b44c7a9f64 · Top-7-Dropshipping-Products-Global-2026--CJ-Selections"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:50.017779+00:00
+updated_at: 2026-09-11T04:28:32.543021+00:00
 tags: [record, real-data]
 ---
 

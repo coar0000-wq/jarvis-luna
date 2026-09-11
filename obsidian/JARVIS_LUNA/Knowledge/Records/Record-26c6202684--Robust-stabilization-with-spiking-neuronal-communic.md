@@ -2,7 +2,7 @@
 title: "Record 26c6202684 · Robust-stabilization-with-spiking-neuronal-communication"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.324021+00:00
+updated_at: 2026-09-11T04:28:31.807223+00:00
 tags: [record, real-data]
 ---
 

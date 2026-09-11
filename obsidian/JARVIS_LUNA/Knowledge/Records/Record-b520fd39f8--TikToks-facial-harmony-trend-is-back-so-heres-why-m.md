@@ -2,7 +2,7 @@
 title: "Record b520fd39f8 · TikToks-facial-harmony-trend-is-back-so-heres-why-midfaces-are-on-your"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.779607+00:00
+updated_at: 2026-09-11T04:28:32.300151+00:00
 tags: [record, real-data]
 ---
 

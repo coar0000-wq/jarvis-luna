@@ -1,18 +1,18 @@
 ---
-title: "Record 948d21792d · White-blush-the-viral-TikTok-makeup-trend-explained---nssgclubcom"
+title: "Record 948d21792d · White-blush-the-viral-TikTok-makeup-trend-explained---nss-magazine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.694425+00:00
+updated_at: 2026-09-11T04:28:32.209937+00:00
 tags: [record, real-data]
 ---
 
-# Record 948d21792d · White-blush-the-viral-TikTok-makeup-trend-explained---nssgclubcom
+# Record 948d21792d · White-blush-the-viral-TikTok-makeup-trend-explained---nss-magazine
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiggFBVV95cUxQb3VTd0lXdjlfRkx5NUdYeWRST1U3cWE4S0xCbk05Z0xTMmVzTWZtTWo2bGR3ZXJsSE1XNEc5SzlMSmQtdThYUmtMN2hRa3pwZDRBZ2tkZFVnb0pjdk1MV01IekcxYkRsZkp2MVdPS0hNb3k2dllpMXBYLUM0MFJiSlZ3?oc=5)
 
-**제목:** White blush: the viral TikTok makeup trend explained - nssgclub.com
+**제목:** White blush: the viral TikTok makeup trend explained - nss magazine
 
-White blush: the viral TikTok makeup trend explained - nssgclub.com
+White blush: the viral TikTok makeup trend explained - nss magazine
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record 0bd96d4e1d · Power-Mean-Estimation-in-Stochastic-Continuous-Monte-Carlo-Tree-Search"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.337272+00:00
+updated_at: 2026-09-11T04:28:31.820699+00:00
 tags: [record, real-data]
 ---
 

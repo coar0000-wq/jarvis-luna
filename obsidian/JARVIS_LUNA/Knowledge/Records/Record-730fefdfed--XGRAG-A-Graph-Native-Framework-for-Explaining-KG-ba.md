@@ -2,7 +2,7 @@
 title: "Record 730fefdfed · XGRAG-A-Graph-Native-Framework-for-Explaining-KG-based-Retrieval-Augme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.832225+00:00
+updated_at: 2026-09-11T04:28:32.352885+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 40dbd01845 · Dermocosmetics-TikTok--Longevity-Are-Reshaping-Europes-Beauty-Market--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.732437+00:00
+updated_at: 2026-09-11T04:28:32.250642+00:00
 tags: [record, real-data]
 ---
 

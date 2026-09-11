@@ -2,7 +2,7 @@
 title: "Record d5cfeac506 · Ostrich-Taking-Large-Strides-Through-Stiff-Contact-in-Differentiable-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.345944+00:00
+updated_at: 2026-09-11T04:28:31.829321+00:00
 tags: [record, real-data]
 ---
 

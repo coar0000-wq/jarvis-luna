@@ -2,7 +2,7 @@
 title: "Record 5db50091f8 · K-Beauty-Blushes-Just-Do-It-Better---Marie-Claire"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.636992+00:00
+updated_at: 2026-09-11T04:28:32.149284+00:00
 tags: [record, real-data]
 ---
 

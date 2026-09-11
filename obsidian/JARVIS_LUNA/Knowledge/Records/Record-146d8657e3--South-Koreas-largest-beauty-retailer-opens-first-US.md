@@ -2,7 +2,7 @@
 title: "Record 146d8657e3 · South-Koreas-largest-beauty-retailer-opens-first-US-store-in-Pasadena-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.759155+00:00
+updated_at: 2026-09-11T04:28:32.278883+00:00
 tags: [record, real-data]
 ---
 

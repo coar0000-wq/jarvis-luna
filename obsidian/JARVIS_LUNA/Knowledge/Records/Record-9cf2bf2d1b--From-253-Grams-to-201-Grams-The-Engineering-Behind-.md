@@ -2,7 +2,7 @@
 title: "Record 9cf2bf2d1b · From-253-Grams-to-201-Grams-The-Engineering-Behind-the-Worlds-Lightest"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.800065+00:00
+updated_at: 2026-09-11T04:28:32.320543+00:00
 tags: [record, real-data]
 ---
 

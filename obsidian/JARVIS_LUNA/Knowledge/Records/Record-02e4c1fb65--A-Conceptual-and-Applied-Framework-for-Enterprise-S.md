@@ -2,7 +2,7 @@
 title: "Record 02e4c1fb65 · A-Conceptual-and-Applied-Framework-for-Enterprise-ServiceNow-Program-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.535231+00:00
+updated_at: 2026-09-11T04:28:32.043798+00:00
 tags: [record, real-data]
 ---
 

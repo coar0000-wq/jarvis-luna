@@ -2,7 +2,7 @@
 title: "Record ee2e843336 · Why-your-vitamin-c-serum-might-not-be-removing-unwanted-age-spots--hyp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.980042+00:00
+updated_at: 2026-09-11T04:28:32.504381+00:00
 tags: [record, real-data]
 ---
 

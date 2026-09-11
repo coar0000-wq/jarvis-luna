@@ -2,7 +2,7 @@
 title: "Record afe1f7803d · I-Tested-Hundreds-of-K-Beauty-Products--Only-These-Made-the-Cut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:50.006652+00:00
+updated_at: 2026-09-11T04:28:32.530321+00:00
 tags: [record, real-data]
 ---
 

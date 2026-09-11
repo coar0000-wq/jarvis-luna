@@ -2,7 +2,7 @@
 title: "Record 1aa0355a0b · The-role-of-pure-mathematics-in-resolving-complex-biological-problems-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.399880+00:00
+updated_at: 2026-09-11T04:28:31.902104+00:00
 tags: [record, real-data]
 ---
 

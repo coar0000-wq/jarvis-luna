@@ -2,7 +2,7 @@
 title: "Record e457756726 · Who-Owns-The-Story--Rights-Adaptations-and-Creative-Control-in-Theatre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.830464+00:00
+updated_at: 2026-09-11T04:28:32.351082+00:00
 tags: [record, real-data]
 ---
 

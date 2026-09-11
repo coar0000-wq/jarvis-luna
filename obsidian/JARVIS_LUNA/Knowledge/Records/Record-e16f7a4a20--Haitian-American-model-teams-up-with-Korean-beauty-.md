@@ -2,7 +2,7 @@
 title: "Record e16f7a4a20 · Haitian-American-model-teams-up-with-Korean-beauty-entrepreneur-on-ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.763832+00:00
+updated_at: 2026-09-11T04:28:32.283878+00:00
 tags: [record, real-data]
 ---
 

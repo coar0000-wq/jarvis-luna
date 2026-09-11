@@ -2,7 +2,7 @@
 title: "Record 753eaae4a3 · Quantum-Counterparty-Credit-Risk-A-Study-of-Path-Dependent-Derivatives"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.844597+00:00
+updated_at: 2026-09-11T04:28:32.365282+00:00
 tags: [record, real-data]
 ---
 

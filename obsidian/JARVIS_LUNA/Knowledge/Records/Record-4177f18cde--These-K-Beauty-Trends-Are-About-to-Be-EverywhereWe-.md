@@ -2,7 +2,7 @@
 title: "Record 4177f18cde · These-K-Beauty-Trends-Are-About-to-Be-EverywhereWe-Asked-Korean-Skin-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.716759+00:00
+updated_at: 2026-09-11T04:28:32.234040+00:00
 tags: [record, real-data]
 ---
 

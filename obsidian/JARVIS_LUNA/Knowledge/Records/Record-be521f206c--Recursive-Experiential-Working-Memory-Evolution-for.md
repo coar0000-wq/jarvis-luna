@@ -2,7 +2,7 @@
 title: "Record be521f206c · Recursive-Experiential-Working-Memory-Evolution-for-Long-Horizon-Agent"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:50.056848+00:00
+updated_at: 2026-09-11T04:28:32.582952+00:00
 tags: [record, real-data]
 ---
 

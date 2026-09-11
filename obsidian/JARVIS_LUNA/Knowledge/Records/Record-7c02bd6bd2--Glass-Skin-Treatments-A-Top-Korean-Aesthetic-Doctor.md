@@ -2,7 +2,7 @@
 title: "Record 7c02bd6bd2 · Glass-Skin-Treatments-A-Top-Korean-Aesthetic-Doctors-Insider-Tips---He"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.769609+00:00
+updated_at: 2026-09-11T04:28:32.290025+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** 'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline
 
 'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline
+'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

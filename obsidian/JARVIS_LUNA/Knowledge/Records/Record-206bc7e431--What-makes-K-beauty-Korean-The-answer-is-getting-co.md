@@ -1,18 +1,18 @@
 ---
-title: "Record 206bc7e431 · What-makes-K-beauty-Korean-The-answer-is-getting-complicated---Korea-J"
+title: "Record 206bc7e431 · What-makes-K-beauty-Korean-The-answer-is-getting-complicated---koreajo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.781043+00:00
+updated_at: 2026-09-11T04:28:32.301618+00:00
 tags: [record, real-data]
 ---
 
-# Record 206bc7e431 · What-makes-K-beauty-Korean-The-answer-is-getting-complicated---Korea-J
+# Record 206bc7e431 · What-makes-K-beauty-Korean-The-answer-is-getting-complicated---koreajo
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5)
 
-**제목:** What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily
+**제목:** What makes K-beauty Korean? The answer is getting complicated. - koreajoongangdaily.com
 
-What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily
+What makes K-beauty Korean? The answer is getting complicated. - koreajoongangdaily.com
 
 **출처:** Source · Google Search
 

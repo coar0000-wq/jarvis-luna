@@ -2,7 +2,7 @@
 title: "Record 58aa1f8e04 · k-beauty---Womans-World"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.590891+00:00
+updated_at: 2026-09-11T04:28:32.100368+00:00
 tags: [record, real-data]
 ---
 

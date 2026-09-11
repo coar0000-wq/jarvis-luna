@@ -2,7 +2,7 @@
 title: "Record 37640c1c52 · Clopidogrel-or-Dual-Antiplatelet-Therapy-in-High-Ischemic-Risk-Patient"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.431410+00:00
+updated_at: 2026-09-11T04:28:31.935637+00:00
 tags: [record, real-data]
 ---
 
