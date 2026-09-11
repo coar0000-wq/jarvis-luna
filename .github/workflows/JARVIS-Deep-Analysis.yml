@@ -256,6 +256,12 @@ jobs:
         continue-on-error: true
         run: python scripts/daiso/score_shopify_demand.py
 
+      # S등급 → Shopify Products CSV (Admin Import용)
+      # score 직후 돌려야 shopify_s_recommendations.json 과 숫자가 맞다.
+      - name: Export Shopify S-grade import CSV
+        continue-on-error: true
+        run: python scripts/daiso/export_shopify_s_csv.py
+
       - name: 한국→미국 실배송 원가 모델 계산
         continue-on-error: true
         run: python scripts/pricing_model.py
@@ -318,6 +324,11 @@ jobs:
       - name: Generate final dashboard snapshot
         timeout-minutes: 10
         run: python scripts/generate_dashboard_runtime.py
+
+      # runtime 생성 후 commit_summary 를 다시 붙여 CSV·S건수를 대시보드에 남긴다
+      - name: Attach commit_summary to runtime
+        continue-on-error: true
+        run: python scripts/daiso/export_shopify_s_csv.py
 
       # 팀이 보고한 숫자를 원본 파일과 대조한다. 스크립트가 오류 없이
       # 끝나도 숫자가 틀릴 수 있고, 실제로 이틀 동안 네 번 그랬다.
