@@ -311,6 +311,19 @@ nav a{font-size:12px;}
 .of-hl td{color:#7ee787;font-weight:600;}
 .of-fs{font-size:9.5px;background:rgba(126,231,135,.14);border:1px solid rgba(126,231,135,.26);border-radius:999px;padding:1px 6px;margin-left:5px;}
 .of-note{font-size:11px;color:#6e7681;line-height:1.6;}
+
+.ops-banner{margin:0 0 18px;padding:12px 14px;border-radius:10px;border:1px solid #3d2a00;background:#1a1408;color:#e3b341;font-size:13px;line-height:1.55;}
+.ops-banner.ok{border-color:#238636;background:#0d1f12;color:#3fb950;}
+.ops-banner.warn{border-color:#9e6a03;background:#1a1408;color:#e3b341;}
+.ops-banner.err{border-color:#da3633;background:#1a0a0a;color:#f85149;}
+.ops-banner .ops-title{font-weight:700;margin-bottom:4px;}
+.ops-banner a{color:#58a6ff;text-decoration:underline;}
+.ops-meta{font-size:11px;color:#8b949e;margin-top:8px;}
+.sd-csv-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0 4px;font-size:12px;}
+.sd-csv-bar a{color:#58a6ff;}
+.sd-kw{display:inline-block;margin:2px 4px 0 0;padding:2px 6px;border-radius:4px;background:#21262d;color:#c9d1d9;font-size:10px;}
+.sd-cost{font-size:11px;color:#8b949e;margin-top:2px;}
+
 </style>
 </head>
 <body>
@@ -350,6 +363,11 @@ nav a{font-size:12px;}
 <li class="team-row"><div class="team-body"><div class="team-summary">팀 현황을 불러오는 중…</div></div></li>
 </ul>
 </div>
+
+
+<!-- 운영 알림: 수집 실패 · 마지막 동기화 · 커밋 요약 -->
+<div id="ops-banner" class="ops-banner" style="display:none;"></div>
+<div id="commit-summary" class="ops-meta" style="margin:-6px 0 14px 2px;"></div>
 
 <!-- Shopify 등록 후보 · 다이소 Dropshipping · S등급 우선순위 (통합) -->
 <div class="stats-section stats-merged">
@@ -606,11 +624,66 @@ const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'
 const $ = id => document.getElementById(id);
 const set = (id,v) => { const el=$(id); if(el) el.textContent=v; };
 
-async function getJSON(path){
-const r = await fetch(path+'?t='+Date.now(),{cache:'no-store'});
-if(!r.ok) throw new Error(path+' → HTTP '+r.status);
-return r.json();
+async function getJSON(path, timeoutMs){
+timeoutMs = timeoutMs || 12000;
+const ctrl = typeof AbortController !== 'undefined' ? new AbortController() : null;
+const timer = ctrl ? setTimeout(()=>ctrl.abort(), timeoutMs) : null;
+try{
+  const r = await fetch(path+'?t='+Date.now(),{cache:'no-store', signal: ctrl ? ctrl.signal : undefined});
+  if(!r.ok) throw new Error(path+' → HTTP '+r.status);
+  return await r.json();
+}catch(e){
+  const msg = (e && e.name === 'AbortError') ? (path+' → timeout '+timeoutMs+'ms') : (e && e.message ? e.message : String(e));
+  throw new Error(msg);
+}finally{
+  if(timer) clearTimeout(timer);
 }
+}
+
+function setListFallback(id, msg){
+  const el = $(id);
+  if(el) el.innerHTML = '<li style="color:#8b949e;font-size:13px;padding:10px 0;">'+esc(msg||'데이터 없음')+'</li>';
+}
+
+function renderOpsBanner(collStatus, runtime){
+  const box = $('ops-banner');
+  if(!box) return;
+  const parts = [];
+  let level = 'ok';
+  const lr = (collStatus && collStatus.last_run) || {};
+  const pf = Number(lr.parse_failed || 0);
+  const ok = Number(lr.ok || 0);
+  const req = Number(lr.requested || 0);
+  if(pf > 0){
+    level = 'warn';
+    const samples = (lr.parse_fail_samples || []).slice(0,5).map(s => s.pd_no || '').filter(Boolean);
+    parts.push('<div class="ops-title">수집 경고 · 가격없음/파싱실패 '+pf+'건</div>');
+    parts.push('직전 수집 시도 '+req+' · 성공 '+ok+' · 실패 '+pf+(samples.length ? ' · pd_no '+samples.join(', ') : ''));
+    parts.push(' · <a href="data/daiso_real/collection_status.json" target="_blank" rel="noopener">collection_status.json</a>');
+  }
+  const totals = (collStatus && collStatus.totals) || {};
+  if(totals.products != null){
+    parts.push((parts.length?'<br>':'')+'상품 DB <b>'+Number(totals.products).toLocaleString('ko-KR')+'</b>건');
+  }
+  const gen = runtime && (runtime.generated_at || runtime.last_synced);
+  if(gen){
+    parts.push((parts.length?' · ':'')+'런타임 동기화 <b>'+esc(KST(runtime.generated_at||runtime.last_synced))+'</b>');
+  }
+  const cs = runtime && runtime.commit_summary;
+  if(cs){
+    const line = typeof cs === 'string' ? cs : (cs.line || cs.summary || JSON.stringify(cs));
+    const el = $('commit-summary');
+    if(el) el.textContent = '최근 Deep Analysis · '+line;
+  }
+  if(!parts.length){
+    box.style.display = 'none';
+    return;
+  }
+  box.className = 'ops-banner '+level;
+  box.style.display = 'block';
+  box.innerHTML = parts.join('');
+}
+
 
 const KST = ts => {
 if(!ts) return '시각 정보 없음';
@@ -1008,11 +1081,26 @@ summary.innerHTML=
 (g.C!=null?'<span class="sd-badge c">C '+(g.C||0)+'</span>':'')+
 '<span style="font-size:11px;color:#8b949e;margin-left:6px;">쇼피파이 1차 테스트용</span>';
 
-list.innerHTML=items.map((p,i)=>{
-  const m=p.match||p.best_global_match||null;
+// CSV 바 + S카드: 원가·추정USD·글로벌 키워드 고정
+const rate = Number(window.__fxRate||0) || Number((window.__runtime&&window.__runtime.exchange_rate&&window.__runtime.exchange_rate.rate)||0);
+const csvBar = '<div class="sd-csv-bar">'+
+  '<a href="data/daiso_real/shopify_s_products_import.csv" download>Shopify Import CSV 다운로드</a>'+
+  '<span style="color:#6e7681;">S등급 '+items.length+'개 · Admin → Products → Import</span>'+
+  (sRec && sRec.generated_at ? '<span style="color:#6e7681;">채점 '+esc(KST(sRec.generated_at))+'</span>' : '')+
+'</div>';
+
+list.innerHTML = csvBar + items.map((p,i)=>{
+  const m = p.match || p.best_global_match || p.matched_global || null;
+  const tokens = (m && (m.matched_tokens||m.tokens)) || [];
+  const kwHtml = tokens.slice(0,5).map(t=>'<span class="sd-kw">'+esc(t)+'</span>').join('');
   const matchLine = m
-    ? ('↔ '+esc(m.global_product||'')+' · '+esc(m.channel||''))
-    : esc((p.reason||'').slice(0,80));
+    ? ('↔ '+esc((m.global_product||'').slice(0,48))+' · '+esc(m.channel||''))
+    : esc((p.reason||p.recommend_reason||'').slice(0,80));
+  const krw = Number(p.price_krw||0);
+  const estUsd = rate>0 && krw>0 ? (krw/rate) : null;
+  const costLine = '<div class="sd-cost">원가 ₩'+(krw?krw.toLocaleString('ko-KR'):'–')+
+    (estUsd!=null ? ' · 추정 $'+estUsd.toFixed(2)+' (환율만)' : '')+
+    (p.pd_no ? ' · pd_no '+esc(String(p.pd_no)) : '')+'</div>';
   const img = (p.image_url||'').trim();
   const thumb = img
     ? '<div class="sd-thumb"><img src="'+esc(img)+'" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add(\'ph\');this.remove()"></div>'
@@ -1022,14 +1110,17 @@ list.innerHTML=items.map((p,i)=>{
     thumb+
     '<div class="sd-info">'+
       '<div class="sd-name"><span class="sd-grade '+(p.grade||'S')+'">'+(p.grade||'S')+'</span>'+esc(p.name||'')+'</div>'+
-      '<div class="sd-meta">'+esc(p.bucket||'')+' · '+Number(p.price_krw||0).toLocaleString('ko-KR')+'원</div>'+
+      '<div class="sd-meta">'+esc(p.bucket||'')+'</div>'+
+      costLine+
       (matchLine?'<div class="sd-meta" style="color:#58a6ff;margin-top:2px;">'+matchLine+'</div>':'')+
+      (kwHtml?'<div style="margin-top:4px;">'+kwHtml+'</div>':'')+
     '</div>'+
     sellCell(p)+
     '<div class="sd-score">'+(p.shopify_score!=null?p.shopify_score:'–')+'점</div>'+
   '</li>';
 }).join('');
 }
+
 
 
 function renderMarketTeam(mt){
@@ -1326,7 +1417,7 @@ if(rt.status==='fulfilled'){
 const d=rt.value;
 window.__runtime = d;
 
-set('updated-at',KST(d.generated_at)+' 동기화');
+set('updated-at',KST(d.generated_at||d.last_synced)+' 동기화');
 renderCumulative(d);
 renderMarketingChannels(d);
 if(d.graph) set('side-dangling',d.graph.dangling_links+'건');
@@ -1364,10 +1455,36 @@ if(rt.status!=='fulfilled') renderTraining(tr.value);
 renderLatest(src.status==='fulfilled'?src.value:null);
 window.__sRec = sRec.status==='fulfilled'?sRec.value:null;
 window.__marketTeam = mkt.status==='fulfilled'?mkt.value:null;
+window.__collStatus = daiso.status==='fulfilled'?daiso.value:null;
+renderOpsBanner(window.__collStatus, window.__runtime||null);
 renderDaiso(daiso.status==='fulfilled'?daiso.value:null, window.__sRec);
 renderShopifyDemand(sd.status==='fulfilled'?sd.value:null, window.__sRec);
 renderMarketTeam(window.__marketTeam);
 if(window.__runtime) renderMarketingChannels(window.__runtime);
+// 로딩 실패 폴백: 빈 리스트가 "로딩중..."으로 남지 않게
+const fb = [
+  ['amazon-list','Amazon 데이터 없음'],
+  ['tiktok-list','TikTok 데이터 없음'],
+  ['walmart-list','Walmart 데이터 없음'],
+  ['trends-list','Trends 데이터 없음'],
+  ['ulta-list','Ulta 데이터 없음'],
+  ['sephora-list','Sephora 데이터 없음'],
+  ['oliveyoung-us-list','OliveYoung US 데이터 없음'],
+  ['obf-list','Open Beauty Facts 데이터 없음'],
+  ['shopify-demand-list','S등급 목록 없음']
+];
+fb.forEach(([id,msg])=>{
+  const el=$(id);
+  if(el && /로딩중|Loading|불러오는/.test(el.textContent||'')) setListFallback(id, msg);
+});
+if(sRec.status!=='fulfilled' && $('sd-list') && /로딩|데이터 로딩/.test(($('sd-list').textContent||''))){
+  $('sd-list').innerHTML='<li style="color:#8b949e;font-size:13px;">S등급 JSON을 불러오지 못했습니다.</li>';
+}
+if(rt.status==='fulfilled' && rt.value && rt.value.commit_summary){
+  const cs=rt.value.commit_summary;
+  const line=typeof cs==='string'?cs:(cs.line||cs.summary||'');
+  const el=$('commit-summary'); if(el && line) el.textContent='최근 Deep Analysis · '+line;
+}
 }
 
 document.addEventListener('DOMContentLoaded',loadData);
