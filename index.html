@@ -75,7 +75,7 @@ box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
 .section-header::after{content:'';flex:1;height:1px;background:#2a2a2a;}
 
 /* Team Cards */
-.team-section{background:#141414;border:1px solid #2a2a2a;border-radius:12px;padding:24px 26px;margin-bottom:40px;}
+.team-section{background:#141414;border:1px solid #2a2a2a;border-radius:12px;padding:24px 26px;margin-bottom:40px;}.team-focus{background:linear-gradient(150deg,rgba(255,255,255,.09) 0%,rgba(255,255,255,.035) 45%,rgba(88,166,255,.055) 100%);border-color:rgba(88,166,255,.22);box-shadow:0 14px 42px rgba(0,0,0,.42),inset 0 1px 0 rgba(255,255,255,.16),inset 0 0 30px rgba(88,166,255,.035);}.team-focus h3{font-size:15px;color:#f0f0f0;}.team-focus .team-sub{color:#8b949e;font-size:12px;margin-bottom:14px;}.team-focus .team-meta{background:rgba(255,255,255,.018);border-top-color:#30343a;border-bottom:1px solid #232323;border-radius:8px;padding:11px 12px;margin-bottom:8px;}.team-focus .team-row{padding:16px 10px;}.team-focus .team-name{font-size:14.5px;}.team-focus .team-summary{font-size:12.5px;color:#b0b7c0;}.team-focus .team-action{font-weight:600;}
 .team-section h3{font-size:13px;letter-spacing:2px;color:#8b949e;text-transform:uppercase;margin-bottom:4px;display:flex;justify-content:space-between;align-items:baseline;gap:12px;}
 .team-section .team-h3{display:inline-flex;align-items:center;gap:8px;}
 .team-section .team-h3-img{width:40px;height:40px;object-fit:contain;display:block;flex:0 0 40px;}
@@ -317,13 +317,6 @@ nav a{font-size:12px;}
 .of-hl td{color:#7ee787;font-weight:600;}
 .of-fs{font-size:9.5px;background:rgba(126,231,135,.14);border:1px solid rgba(126,231,135,.26);border-radius:999px;padding:1px 6px;margin-left:5px;}
 .of-note{font-size:11px;color:#6e7681;line-height:1.6;}
-
-.ops-banner{margin:0 0 18px;padding:12px 14px;border-radius:10px;border:1px solid #3d2a00;background:#1a1408;color:#e3b341;font-size:13px;line-height:1.55;}
-.ops-banner.ok{border-color:#238636;background:#0d1f12;color:#3fb950;}
-.ops-banner.warn{border-color:#9e6a03;background:#1a1408;color:#e3b341;}
-.ops-banner.err{border-color:#da3633;background:#1a0a0a;color:#f85149;}
-.ops-banner .ops-title{font-weight:700;margin-bottom:4px;}
-.ops-banner a{color:#58a6ff;text-decoration:underline;}
 .ops-meta{font-size:11px;color:#8b949e;margin-top:8px;}
 .sd-csv-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0 4px;font-size:12px;}
 .sd-csv-bar a{color:#58a6ff;}
@@ -372,18 +365,14 @@ nav a{font-size:12px;}
 
 
 <!-- Team Cards -->
-<div class="team-section" id="teams"><span id="knowledge"></span>
+<div class="team-section team-focus" id="teams"><span id="knowledge"></span>
 <h3><span class="team-h3"><img class="team-h3-img" src="images/jarvis.png" alt="JARVIS" width="40" height="40">JARVIS 팀 현황<span id="updated-at" class="team-h3-when">동기화 확인 중…</span></span><span id="team-updated" style="font-size:11px;letter-spacing:0;text-transform:none;color:#6e7681;"></span></h3>
-<div class="team-sub">각 줄의 숫자는 해당 팀 산출 파일의 실측값입니다.</div>
+<div class="team-sub">각 팀의 현재 상태 · 경고 · 다음 조치를 한 곳에서 관리합니다.</div>
 <div class="team-meta" id="team-meta"></div>
 <ul class="team-list" id="team-list">
 <li class="team-row"><div class="team-body"><div class="team-summary">팀 현황을 불러오는 중…</div></div></li>
 </ul>
 </div>
-
-
-<!-- 운영 알림: 수집 실패 · 마지막 동기화 · 커밋 요약 -->
-<div id="ops-banner" class="ops-banner" style="display:none;"></div>
 
 <!-- 다중 에이전트 제안 (data/agents/ops_plan.json) -->
 <div id="agent-plan" class="agent-card" style="display:none;"></div>
@@ -665,47 +654,6 @@ function setListFallback(id, msg){
   const el = $(id);
   if(el) el.innerHTML = '<li style="color:#8b949e;font-size:13px;padding:10px 0;">'+esc(msg||'데이터 없음')+'</li>';
 }
-
-function renderOpsBanner(collStatus, runtime){
-  const box = $('ops-banner');
-  if(!box) return;
-  const parts = [];
-  let level = 'ok';
-  const lr = (collStatus && collStatus.last_run) || {};
-  const pf = Number(lr.parse_failed || 0);
-  const ok = Number(lr.ok || 0);
-  const req = Number(lr.requested || 0);
-  if(pf > 0){
-    level = 'warn';
-    const samples = (lr.parse_fail_samples || []).slice(0,5).map(s => s.pd_no || '').filter(Boolean);
-    parts.push('<div class="ops-title">수집 경고 · 가격없음/파싱실패 '+pf+'건</div>');
-    parts.push('직전 수집 시도 '+req+' · 성공 '+ok+' · 실패 '+pf+(samples.length ? ' · pd_no '+samples.join(', ') : ''));
-    parts.push(' · <a href="data/daiso_real/collection_status.json" target="_blank" rel="noopener">collection_status.json</a>');
-  }
-  const totals = (collStatus && collStatus.totals) || {};
-  if(totals.products != null){
-    parts.push((parts.length?'<br>':'')+'상품 DB <b>'+Number(totals.products).toLocaleString('ko-KR')+'</b>건');
-  }
-  const gen = runtime && (runtime.generated_at || runtime.last_synced);
-  if(gen){
-    parts.push((parts.length?' · ':'')+'런타임 동기화 <b>'+esc(KST(runtime.generated_at||runtime.last_synced))+'</b>');
-  }
-  const cs = runtime && runtime.commit_summary;
-  if(cs){
-    const line = typeof cs === 'string' ? cs : (cs.line || cs.summary || JSON.stringify(cs));
-    const el = $('commit-summary');
-    if(el) el.textContent = '최근 Deep Analysis · '+line;
-  }
-  if(!parts.length){
-    box.style.display = 'none';
-    return;
-  }
-  box.className = 'ops-banner '+level;
-  box.style.display = 'block';
-  box.innerHTML = parts.join('');
-}
-
-
 const KST = ts => {
 if(!ts) return '시각 정보 없음';
 const d = new Date(ts);
@@ -1510,7 +1458,6 @@ renderLatest(src.status==='fulfilled'?src.value:null);
 window.__sRec = sRec.status==='fulfilled'?sRec.value:null;
 window.__marketTeam = mkt.status==='fulfilled'?mkt.value:null;
 window.__collStatus = daiso.status==='fulfilled'?daiso.value:null;
-renderOpsBanner(window.__collStatus, window.__runtime||null);
 renderAgentPlan(opsPlan.status==='fulfilled'?opsPlan.value:null);
 renderDaiso(daiso.status==='fulfilled'?daiso.value:null, window.__sRec);
 renderShopifyDemand(sd.status==='fulfilled'?sd.value:null, window.__sRec);
