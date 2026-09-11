@@ -1,6 +1,8 @@
 """
-product_discovery.py - FULL FILE
+product_discovery.py - FULL FILE 전체 코드
+진짜 데이터만 수집, 증거 없으면 저장 안 함
 """
+
 import json
 import datetime
 from pathlib import Path
@@ -37,8 +39,22 @@ def collect_real_products():
             }
         }
     ]
+    
     valid = [p for p in products if validate_evidence(p)]
-    DATA_PATH.write_text(json.dumps({"products": valid, "updated_at": datetime.datetime.utcnow().isoformat() + "Z"}, indent=2, ensure_ascii=False), encoding="utf-8")
+    
+    if not valid:
+        DATA_PATH.write_text(json.dumps({
+            "products": [],
+            "updated_at": datetime.datetime.utcnow().isoformat() + "Z",
+            "note": "no valid evidence - widget hidden"
+        }, indent=2), encoding="utf-8")
+        print("ℹ️ 유효 데이터 없음 - 위젯 숨김")
+        return []
+    
+    DATA_PATH.write_text(json.dumps({
+        "products": valid,
+        "updated_at": datetime.datetime.utcnow().isoformat() + "Z"
+    }, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"✅ 저장: {len(valid)}개")
     return valid
 
