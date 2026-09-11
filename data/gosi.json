@@ -262,6 +262,32 @@
       "verified": false,
       "vision_at": "2026-09-05T14:29:10.529301+00:00",
       "사람_필요": []
+    },
+    "1041749": {
+      "name": "식물원 병풀 클리어 앰플 30 ml",
+      "ingredients": "정제수, 부틸렌글라이콜, 글리세린, 1,2-헥산다이올, 프로판다이올, 흰버드나무껍질추출물, 병풀추출물(100.1 ppm), 병풀잎추출물(100 ppm), 병풀뿌리추출물(100 ppm), 티트리잎오일, C12-14알케스-12, 소듐폴리아크릴로일다이메틸타우레이트, 소듐시트레이트, 에틸헥실글리세린, 시트릭애씨드, 토코페롤, 에피갈로카테킨갈레이트, 살리실릭애씨드, 글라이콜릭애씨드, 카프릴릭/카프릭트라이글리세라이드, 매스틱검, 하이드로제네이티드레시틴, 잔탄검, 페네틸알코올",
+      "volume": "30 ml",
+      "maker": "코스맥스(주) / (주)네이처리퍼블릭",
+      "origin": "대한민국",
+      "warnings": "1. 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것\n2. 상처가 있는 부위 등에는 사용을 자제할 것\n3. 보관 및 취급 시 주의사항\n  가) 어린이의 손이 닿지 않는 곳에 보관할 것\n  나) 직사광선을 피해서 보관할 것",
+      "expiry": "별도 표기",
+      "functional": "해당 없음",
+      "usage": "토너 사용 후, 적당량을 덜어 얼굴 전면에 부드럽게 펴 바르고 흡수시켜줍니다.",
+      "captured_at": "2026-09-11T22:29:17.357982+00:00",
+      "detail_images": [
+        "data/daiso_real/gosi_img/1041749_01.jpg"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1041749_01.jpg",
+      "vision_source": "상세이미지 하단 상품정보제공고시 표 전사",
+      "vision_image": "data/daiso_real/gosi_img/1041749_01.jpg",
+      "verified": false,
+      "사람_필요": [],
+      "자동_출처": {
+        "origin": "selPdDtlNtfc + 상세이미지 고시표",
+        "volume": "상세이미지 하단 상품정보제공 고시",
+        "ingredients": "상세이미지 하단 상품정보제공 고시",
+        "maker": "상세이미지 하단 상품정보제공 고시"
+      }
     }
   },
   "사람이_할_일": "gosi_image 를 열면 제품명·용량·사용기한·기능성·제조업자·제조국·전성분이 한 표에 인쇄되어 있다. 그것을 보고 volume, ingredients, maker 를 채운다. 표를 그대로 옮겨 적고 요약하지 않는다.",
@@ -269,7 +295,7 @@
   "auto_source": "POST fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlNtfc, selPdDtlDesc",
   "last_auto_run": "2026-09-11T17:20:04.794518+00:00",
   "auto_failures": [],
-  "gosi_ok_count": 14,
+  "gosi_ok_count": 15,
   "vision_status": "ok",
   "vision_note": "필수 4항목이 모두 채워져 있어 호출하지 않았다.",
   "vision_failures": [],
