@@ -2,7 +2,7 @@
 title: "Record f0aeb8690c · What-is-Data-Transformation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:25.270426+00:00
+updated_at: 2026-09-11T14:10:47.652676+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 33e6b79d6d · Meet-the-K-beauty-products-that-beauty-lovers-consistently-rank-as-the"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:25.014391+00:00
+updated_at: 2026-09-11T14:10:47.412319+00:00
 tags: [record, real-data]
 ---
 

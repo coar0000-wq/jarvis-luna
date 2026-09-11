@@ -2,7 +2,7 @@
 title: "Record 0077e236d8 · Genotype-Specific-Electrophysiological-Remodeling-in-PLN-R14del-Cardio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.795436+00:00
+updated_at: 2026-09-11T14:10:47.196014+00:00
 tags: [record, real-data]
 ---
 

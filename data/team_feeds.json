@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T13:38:37.687836+00:00",
+  "generated_at": "2026-09-11T14:04:09.567016+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -13,23 +13,23 @@
     },
     "market": {
       "total": 447,
-      "recent": 40
+      "recent": 39
     },
     "listing": {
       "total": 13,
       "recent": 9
     },
     "pricing": {
-      "total": 14,
-      "recent": 6
+      "total": 13,
+      "recent": 5
     },
     "legal": {
       "total": 116,
       "recent": 19
     },
     "design": {
-      "total": 359,
-      "recent": 99
+      "total": 360,
+      "recent": 100
     },
     "robotics": {
       "total": 108,
@@ -37,11 +37,11 @@
     },
     "knowledge": {
       "total": 159,
-      "recent": 53
+      "recent": 54
     },
     "institutions": {
       "total": 1065,
-      "recent": 272
+      "recent": 273
     }
   },
   "fda_failures": [],
@@ -503,7 +503,7 @@
         "by_hand": true
       },
       {
-        "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+        "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
         "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
         "pool": "youtube_channel",
         "date": "",
@@ -615,7 +615,7 @@
         "by_hand": false
       },
       {
-        "title": "The K-Beauty ingredient dethroning hyaluronic acid in 2026: meet PDRN - Paris Select Book",
+        "title": "The K-Beauty ingredient dethroning hyaluronic acid in 2026: meet PDRN - parisselectbook.com",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPakItUi1WWm9Bd0NSOV9sUTNVZTNCSW4xWTA1RnV6M2l5a0VKT1NWUVppdk9sM1h3SVFieTFfTVpqdGJCMkZXd1pJbFBCRFFrdlV5YTNQNXQ0TGFjTFJrdDZUeURNZ2NWZ21sNWZfbTN2WnB1bldHTTdaVG1GVFVlRG5R?oc=5",
         "pool": "google",
         "date": "2026-09-10",
@@ -727,15 +727,8 @@
         "by_hand": false
       },
       {
-        "title": "8 best ecommerce AI Website Builder for creating an online store - Hostinger",
+        "title": "8 best ecommerce AI Website Builder for creating an online store - hostinger.com",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpU29tczMwM1pKaUdZYld0aThjYVRYWlE1c3k2VXc4RDBpUDdLOEx5bDg1OHljdURVUG5Xc25PWUxVZDY0RGl2OEFNM1ZYelFhN3FTVm1ySC1hRFk5amtVbkpudm9ZSFFCaEVQX1hleGRKWHV0d1NzSDhJdw?oc=5",
-        "pool": "google",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "The Vogue Business Beauty Trend Tracker - Vogue",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96eFRtR1g5NG15VmJxdk9GX3B1V1FJdWRDdkJPb1pHMWk3d2pwMV81WFBURlJxaHRadVZTWUFKR1VSc21KX1lyVTUxa2NSa05nRmxUU1FRb1hFVWNvc2hDZ25YYUQ0Y09jMzNhLTZuWGk?oc=5",
         "pool": "google",
         "date": "2026-09-04",
         "by_hand": false
@@ -804,14 +797,14 @@
         "by_hand": false
       },
       {
-        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - Teen Vogue",
+        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - teenvogue.com",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OdzQ0OXlSbWVrOW1FUXdtSURIcjVsZnJhNEFleWtxZnRjcDdESjdFZlBXUVR0eEM0Tzg2NDN2M2tqU0pEaXd6TTZBOE5yRkVZR2ZBQU1DNWp1RTlxN2V6UHNHUUFJb28?oc=5",
         "pool": "google",
         "date": "2026-08-31",
         "by_hand": false
       },
       {
-        "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
+        "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - cnbc.com",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
         "pool": "google",
         "date": "2026-08-30",
@@ -832,7 +825,7 @@
         "by_hand": false
       },
       {
-        "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - Eastern Progress",
+        "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - easternprogress.com",
         "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOVkyMlJwUEdQeGlvdlhURGpYdXJyY1hoWmVWai16TFFhckI2MmR1OFdBd1BCOXNPM1lOYTFmT0J2UExSRGFmbklVRUtsazJhajZZUHh2eTZyNG5mTUc1US16WF9oYzZfWjB5Y3ZIR0UtazJjcXFHb21XdFJ3ZjJUQ2VBWDVoTHE5SkYwUW9raVA5ZHBhcmF0cmNtOENtRXNsR09aYmhuVTU5NHBRdnd0c2pSX1ZndDR0YUE0Q0RTUTAyRllwQzhwZXlLZFRrOHNEclN1MjV0NEdrQQ?oc=5",
         "pool": "google",
         "date": "2026-08-28",
@@ -890,6 +883,13 @@
       {
         "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - ELLE",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5",
+        "pool": "google",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "Ecommerce Content Strategy: Enterprise Guide (2026) - Shopify",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03RUZ3UkJFbTlsV1JFSEJyOEZlWUY5TlFQd2RBU2FIS1hYbHhHc3VaUnB0dmItVmlPSTNaNDNZQ1o1c1ozNWFoYWxFX29vaFJ3cXpfQTJ5d3A2MU90TDhMMVpabGpxVWctWWxLTHI1d1JFVUhY?oc=5",
         "pool": "google",
         "date": "2026-08-26",
         "by_hand": false
@@ -1034,13 +1034,6 @@
       {
         "title": "Us Tariffs Research Roundtable",
         "url": "https://www.morganstanley.com/ideas/us-tariffs-research-roundtable",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Trump Tariff Delay Ongoing Outlook Uncertainty",
-        "url": "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
@@ -1568,7 +1561,7 @@
         "by_hand": true
       },
       {
-        "title": "Learn to Design 10X Better Mobile UI Designs",
+        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -1715,7 +1708,7 @@
         "by_hand": true
       },
       {
-        "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+        "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
         "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
         "pool": "youtube_channel",
         "date": "",
@@ -1741,6 +1734,27 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
+      },
+      {
+        "title": "Education Report: How educators use Claude",
+        "url": "https://www.anthropic.com/research/anthropic-education-report-how-educators-use-claude",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Economic Index: New building blocks for AI use",
+        "url": "https://www.anthropic.com/research/economic-index-primitives",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Many-shot jailbreaking",
+        "url": "https://www.anthropic.com/research/many-shot-jailbreaking",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
       },
       {
         "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
@@ -1909,30 +1923,16 @@
         "pool": "robotics",
         "date": "2026-09-10",
         "by_hand": false
-      },
-      {
-        "title": "Swarmer to acquire Ukrainian UGV maker Ratel Robotics for up to $224M",
-        "url": "https://www.therobotreport.com/swarmer-to-acquire-ukrainian-ugv-maker-ratel-robotics-for-up-to-224m/",
-        "pool": "robotics",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Now everyone can put data to work",
-        "url": "https://openai.com/index/put-data-to-work",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Introducing ChatGPT for Financial Services",
-        "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
       }
     ],
     "robotics": [
+      {
+        "title": "How drone developers are navigating changing regulatory landscapes to help farmers",
+        "url": "https://www.therobotreport.com/how-hylio-drone-developers-navigate-changing-regulatory-landscape-help-farmers/",
+        "pool": "robotics",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
       {
         "title": "EVPeriscope: Extended Perception across Aerial and Ground Vehicles with Event-based Propeller Tracking",
         "url": "https://arxiv.org/abs/2609.11920v1",
@@ -2345,13 +2345,6 @@
         "pool": "robotics",
         "date": "2026-09-08",
         "by_hand": false
-      },
-      {
-        "title": "Why vision AI is the safety backbone of the automated job site",
-        "url": "https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/",
-        "pool": "robotics",
-        "date": "2026-09-08",
-        "by_hand": false
       }
     ],
     "knowledge": [
@@ -2417,6 +2410,13 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
+      },
+      {
+        "title": "Mapping Mind Language Model",
+        "url": "https://www.anthropic.com/research/mapping-mind-language-model",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
       },
       {
         "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
@@ -2767,13 +2767,6 @@
         "pool": "institutions",
         "date": "2026-08-30",
         "by_hand": false
-      },
-      {
-        "title": "[Video] No Unfolding Needed: A Day With Galaxy Z Flip8’s FlexWindow",
-        "url": "https://news.samsung.com/global/video-no-unfolding-needed-a-day-with-galaxy-z-flip8s-flexwindow",
-        "pool": "institutions",
-        "date": "2026-08-27",
-        "by_hand": false
       }
     ],
     "institutions": [
@@ -2785,8 +2778,92 @@
         "by_hand": false
       },
       {
+        "title": "Booz Allen to Host Conference Call to Discuss Second Quarter Fiscal 2027 Results on Friday, October 23, 2026",
+        "url": "https://investors.boozallen.com/news-releases/news-release-details/booz-allen-host-conference-call-discuss-second-quarter-fiscal",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
         "title": "Introducing Claude Corps",
         "url": "https://www.anthropic.com/news/claude-corps",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic Education Report: The AI Fluency Index · Claude Academy",
+        "url": "https://www.anthropic.com/research/AI-fluency-index",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic Economic Index: Insights from Claude 3.7 Sonnet",
+        "url": "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Education Report: How educators use Claude",
+        "url": "https://www.anthropic.com/research/anthropic-education-report-how-educators-use-claude",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Economic Index: AI's role in the US and global economy",
+        "url": "https://www.anthropic.com/research/economic-index-geography",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic Economic Index report: Cadences",
+        "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Economic Index: New building blocks for AI use",
+        "url": "https://www.anthropic.com/research/economic-index-primitives",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic Economic Index: AI's impact on software development",
+        "url": "https://www.anthropic.com/research/impact-software-development",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Measuring AI capabilities in intelligence targeting and conventional weapons",
+        "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Many-shot jailbreaking",
+        "url": "https://www.anthropic.com/research/many-shot-jailbreaking",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Mapping Mind Language Model",
+        "url": "https://www.anthropic.com/research/mapping-mind-language-model",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "The Anthropic Economic Index",
+        "url": "https://www.anthropic.com/research/the-anthropic-economic-index",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false
@@ -2820,15 +2897,15 @@
         "by_hand": false
       },
       {
-        "title": "Introducing the Agents API",
-        "url": "https://openai.com/index/introducing-the-agents-api",
+        "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+        "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
       },
       {
-        "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-        "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+        "title": "Introducing the Agents API",
+        "url": "https://openai.com/index/introducing-the-agents-api",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
@@ -2855,134 +2932,57 @@
         "by_hand": false
       },
       {
-        "title": "Advancing Claude for Financial Services",
+        "title": "Advancing Claude For Financial Services",
         "url": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
       },
       {
-        "title": "Mapping AI-enabled cyber threats",
+        "title": "Ai Enabled Cyber Threats Mitre Attack",
         "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
       },
       {
-        "title": "Accenture and Anthropic launch partnership",
+        "title": "Anthropic Accenture Partnership",
         "url": "https://www.anthropic.com/news/anthropic-accenture-partnership",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
       },
       {
-        "title": "Anthropic acquires Bun as Claude Code hits $1B",
+        "title": "Anthropic Acquires Bun As Claude Code Reaches Usd1B Milestone",
         "url": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
       },
       {
-        "title": "Iceland launches a national AI education pilot",
+        "title": "Anthropic And Iceland Announce One Of The World S First National Ai Education Pilots",
         "url": "https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
       },
       {
-        "title": "Education Report: How educators use Claude",
-        "url": "https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Chris Ciauri named Managing Director of International",
+        "title": "Anthropic Expands Global Leadership In Enterprise Ai Naming Chris Ciauri As Managing Director Of",
         "url": "https://www.anthropic.com/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
       },
       {
-        "title": "Higher education advisory board and AI Fluency courses",
+        "title": "Anthropic Higher Education Initiatives",
         "url": "https://www.anthropic.com/news/anthropic-higher-education-initiatives",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
       },
       {
-        "title": "Anthropic invests $50 billion in American AI infrastructure",
+        "title": "Anthropic Invests 50 Billion In American Ai Infrastructure",
         "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Raises Series F At Usd183B Post Money Valuation",
-        "url": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Signs Pledge To Americas Youth Investing In Ai Education",
-        "url": "https://www.anthropic.com/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Claude In Microsoft Foundry",
-        "url": "https://www.anthropic.com/news/claude-in-microsoft-foundry",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Claude Opus 4 5",
-        "url": "https://www.anthropic.com/news/claude-opus-4-5",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Cognizant Partnership",
-        "url": "https://www.anthropic.com/news/cognizant-partnership",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Deloitte Anthropic Partnership",
-        "url": "https://www.anthropic.com/news/deloitte-anthropic-partnership",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Detecting And Countering Malicious Uses Of Claude March 2025",
-        "url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Detecting Countering Misuse Aug 2025",
-        "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Developing Nuclear Safeguards For Ai Through Public Private Partnership",
-        "url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Disrupting Ai Espionage",
-        "url": "https://www.anthropic.com/news/disrupting-AI-espionage",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
@@ -3011,6 +3011,20 @@
       {
         "title": "Thoughts On The Market",
         "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Market Volatility Investors May Miss Andrew Sheets",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/market-volatility-investors-may-miss-andrew-sheets",
+        "pool": "institutions",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Global Healthcare Conference",
+        "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
@@ -3172,27 +3186,6 @@
       {
         "title": "Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow",
         "url": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Leidos to participate in the Jefferies 2026 Global Industrials Conference",
-        "url": "https://investors.leidos.com/news-releases/news-release-details/leidos-participate-jefferies-2026-global-industrials-conference",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Barclays launches ISA and Life Insurance reward offers worth up to £750 | Barclays",
-        "url": "https://home.barclays/news/press-releases/20260/090/barclays-launches-isa-and-life-insurance-reward-offers-worth-up-/",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Assessing A Less Transparent Fed",
-        "url": "https://www.goldmansachs.com/insights/top-of-mind/assessing-a-less-transparent-fed",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false

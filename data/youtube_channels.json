@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T13:38:33.035062+00:00",
+  "generated_at": "2026-09-11T14:04:04.891510+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -19,8 +19,8 @@
   "제목_바뀐_영상": [
     {
       "video_id": "CSr4DYGUPOM",
-      "before": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-      "after": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+      "before": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+      "after": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
       "kept_teams": [
         "design",
         "market"
@@ -150,7 +150,7 @@
     },
     {
       "video_id": "GGg61sdEjeI",
-      "title": "Learn to Design 10X Better Mobile UI Designs",
+      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
       "views_text": "194K views",
       "published_text": "2 weeks ago",
       "views": 194000,
@@ -212,7 +212,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-11T13:38:22.701559+00:00",
+      "last_ok_at": "2026-09-11T14:03:54.599689+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -221,11 +221,11 @@
       "subscribers": "122K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-11T13:38:22.701582+00:00",
+      "checked_at": "2026-09-11T14:03:54.599710+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "Learn to Design 10X Better Mobile UI Designs",
+          "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
           "views_text": "194K views",
           "published_text": "2 weeks ago",
           "views": 194000,
@@ -479,7 +479,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-11T13:38:28.034855+00:00",
+      "last_ok_at": "2026-09-11T14:03:59.891292+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -488,11 +488,11 @@
       "subscribers": "18.2K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-11T13:38:28.034871+00:00",
+      "checked_at": "2026-09-11T14:03:59.891308+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
-          "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+          "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
           "views_text": "65K views",
           "published_text": "8 days ago",
           "views": 65000,

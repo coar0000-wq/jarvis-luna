@@ -2,7 +2,7 @@
 title: "Record 6ddf92d9b5 · Simultaneous-Platinum-Nanoparticle-Refinement-and-Carbon-Support-Struc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.832234+00:00
+updated_at: 2026-09-11T14:10:47.236238+00:00
 tags: [record, real-data]
 ---
 

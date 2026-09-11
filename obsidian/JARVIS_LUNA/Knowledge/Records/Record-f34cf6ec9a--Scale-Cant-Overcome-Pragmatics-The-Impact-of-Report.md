@@ -2,7 +2,7 @@
 title: "Record f34cf6ec9a · Scale-Cant-Overcome-Pragmatics-The-Impact-of-Reporting-Bias-on-Vision-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.795958+00:00
+updated_at: 2026-09-11T14:10:47.196586+00:00
 tags: [record, real-data]
 ---
 

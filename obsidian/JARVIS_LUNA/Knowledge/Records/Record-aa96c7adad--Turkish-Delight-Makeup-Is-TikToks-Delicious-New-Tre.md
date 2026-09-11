@@ -2,7 +2,7 @@
 title: "Record aa96c7adad · Turkish-Delight-Makeup-Is-TikToks-Delicious-New-Trend---newbeautycom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.956550+00:00
+updated_at: 2026-09-11T14:10:47.358451+00:00
 tags: [record, real-data]
 ---
 

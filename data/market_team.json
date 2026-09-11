@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-11T22:43:40.446734+09:00",
+    "updated_at": "2026-09-11T23:09:10.189615+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -150,72 +150,6 @@
     ],
     "open_beauty_facts_top": [
       {
-        "product": "Masque Purifiant Naturel à L'Argile Verte.",
-        "brand": "Argile, Juvaflorine",
-        "category": "마스크팩",
-        "code": "3160920402005"
-      },
-      {
-        "product": "Garnier SkinActive Pure Charcoal Tissuemasker",
-        "brand": "Garnier, Garnier SkinActive",
-        "category": "마스크팩",
-        "code": "3600542097024"
-      },
-      {
-        "product": "Masque crème hydratant",
-        "brand": "Caudalie",
-        "category": "마스크팩",
-        "code": "3522932031787"
-      },
-      {
-        "product": "Sebum Control Masque purifiant charbon végétal façon crème fouettée",
-        "brand": "Bioré",
-        "category": "마스크팩",
-        "code": "5017634256739"
-      },
-      {
-        "product": "Polishing Charcoal + Black Sugar Gel Mask + Scrub",
-        "brand": "Freeman",
-        "category": "마스크팩",
-        "code": "0072151421119"
-      },
-      {
-        "product": "Le masque de pureté nettoyant",
-        "brand": "La Provençale",
-        "category": "마스크팩",
-        "code": "3600550972153"
-      },
-      {
-        "product": "1 Masque Anti-Rides Bio-Cellulose",
-        "brand": "Barbara Gould",
-        "category": "마스크팩",
-        "code": "3331300096460"
-      },
-      {
-        "product": "Pâte d'argile",
-        "brand": "Copar, Laboratoires Biocos, Lovea, Lovea Nature",
-        "category": "마스크팩",
-        "code": "3329310012495"
-      },
-      {
-        "product": "SOHO N.Y.C. Anti-Aging No Rinse 2in1 Face Serum + Mask",
-        "brand": "SOHO N.Y.C",
-        "category": "마스크팩",
-        "code": "8683420170045"
-      },
-      {
-        "product": "Glass Skin",
-        "brand": "Kimoco",
-        "category": "마스크팩",
-        "code": "5903794199934"
-      },
-      {
-        "product": "OXX Coconut face mask",
-        "brand": "Anko",
-        "category": "마스크팩",
-        "code": "9341106912899"
-      },
-      {
         "product": "CeraVe Hydraterende Reinigingscrème",
         "brand": "CeraVe",
         "category": "클렌징",
@@ -238,6 +172,72 @@
         "brand": "CeraVe",
         "category": "클렌징",
         "code": "3337875743563"
+      },
+      {
+        "product": "Skin Active Solution Micellaire Tout En 1 Peaux Sèches et Sensibles",
+        "brand": "Garnier",
+        "category": "클렌징",
+        "code": "3600541594968"
+      },
+      {
+        "product": "Low PH good morning gel cleanser",
+        "brand": "COSRX",
+        "category": "클렌징",
+        "code": "8809416470511"
+      },
+      {
+        "product": "Précieux Argan Eau micellaire anti-âge",
+        "brand": "Léa Nature, So Bio Etic",
+        "category": "클렌징",
+        "code": "3517360008685"
+      },
+      {
+        "product": "Micellar water fresh",
+        "brand": "Cien",
+        "category": "클렌징",
+        "code": "20864774"
+      },
+      {
+        "product": "compact  micellar cleansing lemon",
+        "brand": "",
+        "category": "클렌징",
+        "code": "8697420539214"
+      },
+      {
+        "product": "Effaclar",
+        "brand": "La roche-posay",
+        "category": "클렌징",
+        "code": "3337875722827"
+      },
+      {
+        "product": "la Rosée lait solaire spf 50+",
+        "brand": "La Rosée",
+        "category": "선케어",
+        "code": "3770000717587"
+      },
+      {
+        "product": "SVR Spray Sun Secure SPF 50+",
+        "brand": "SVR",
+        "category": "선케어",
+        "code": "3662361002146"
+      },
+      {
+        "product": "Intense Protect 50+",
+        "brand": "Avène, אוון",
+        "category": "선케어",
+        "code": "3282770141214"
+      },
+      {
+        "product": "Dermo protect spf 50+",
+        "brand": "Mixa",
+        "category": "선케어",
+        "code": "3600551125305"
+      },
+      {
+        "product": "Sensitive expert + Spf 50+",
+        "brand": "Garnier, Garnier ambre solaire",
+        "category": "선케어",
+        "code": "3600542520454"
       }
     ],
     "alt_us_channels_top": [
@@ -835,42 +835,6 @@
   ],
   "competitor_watch": [
     {
-      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-      "brand": "MEDIHEAL",
-      "price_usd": 20.99,
-      "rating": 4.8,
-      "review_count": 1069,
-      "us_rank": 2,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA48723304",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
-      "brand": "Biodance",
-      "price_usd": 62.0,
-      "rating": 5,
-      "review_count": 2,
-      "us_rank": 21,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 21위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA22731950",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-      "brand": "UNOVE",
-      "price_usd": 24.7,
-      "rating": 5,
-      "review_count": 3,
-      "us_rank": 27,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 27위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA39329211",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
       "name": "Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.50 fl. oz.(15ml) x 2ea)",
       "brand": "Centellian24",
       "price_usd": 59.5,
@@ -905,6 +869,42 @@
       "why": "us.oliveyoung.com/best-sellers 실수집 6위 · 스킨케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA32407466",
       "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+      "brand": "MEDIHEAL",
+      "price_usd": 20.99,
+      "rating": 4.8,
+      "review_count": 1069,
+      "us_rank": 2,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA48723304",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
+      "brand": "Biodance",
+      "price_usd": 62.0,
+      "rating": 5,
+      "review_count": 2,
+      "us_rank": 21,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 21위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA22731950",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
+      "brand": "UNOVE",
+      "price_usd": 24.7,
+      "rating": 5,
+      "review_count": 3,
+      "us_rank": 27,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 27위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA39329211",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
   "weekly_actions": [
@@ -936,7 +936,7 @@
     "listing_ready_count": 5,
     "last_score_run": "2026-09-11",
     "last_pricing_run": "2026-09-11",
-    "exchange_rate": 1345.06
+    "exchange_rate": 1342.79
   },
   "data_integrity_note": "모든 수치는 실수집 산출물에서 계산했다. 근거가 없는 필드(키워드 추세·검색량)는 채우지 않고 사유를 적었다."
 }

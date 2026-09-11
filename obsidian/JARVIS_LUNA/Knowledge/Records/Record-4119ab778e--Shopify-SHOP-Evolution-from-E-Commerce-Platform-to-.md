@@ -2,7 +2,7 @@
 title: "Record 4119ab778e · Shopify-SHOP-Evolution-from-E-Commerce-Platform-to-AI-Operating-System"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:25.086953+00:00
+updated_at: 2026-09-11T14:10:47.479980+00:00
 tags: [record, real-data]
 ---
 

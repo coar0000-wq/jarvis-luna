@@ -2,7 +2,7 @@
 title: "Record a1010cff47 · Amorepacifics-Ryo-names-actress-Gong-Seung-yeon-global-ambassador---Ko"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.971614+00:00
+updated_at: 2026-09-11T14:10:47.372602+00:00
 tags: [record, real-data]
 ---
 

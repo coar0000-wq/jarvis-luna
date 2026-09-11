@@ -2,7 +2,7 @@
 title: "Record 71c43cf780 · Piloting-the-worlds-first-double-blind-AI-evaluations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.707416+00:00
+updated_at: 2026-09-11T14:10:47.106541+00:00
 tags: [record, real-data]
 ---
 

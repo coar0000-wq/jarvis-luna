@@ -2,7 +2,7 @@
 title: "Record 5d85a58a2d · Lessons-learned-from-ongoing-coordination-between-NRAOGBO-and-LEO-NGSO"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:25.181015+00:00
+updated_at: 2026-09-11T14:10:47.568326+00:00
 tags: [record, real-data]
 ---
 

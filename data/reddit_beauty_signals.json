@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-11T13:39:26.065340+00:00",
+  "collected_at": "2026-09-11T14:04:52.014018+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -160,6 +160,22 @@
       "score": 1
     },
     {
+      "keyword": "severe",
+      "score": 1
+    },
+    {
+      "keyword": "reaction",
+      "score": 1
+    },
+    {
+      "keyword": "yuja",
+      "score": 1
+    },
+    {
+      "keyword": "niacin",
+      "score": 1
+    },
+    {
       "keyword": "gorgeous",
       "score": 1
     },
@@ -185,22 +201,6 @@
     },
     {
       "keyword": "remover",
-      "score": 1
-    },
-    {
-      "keyword": "sticks",
-      "score": 1
-    },
-    {
-      "keyword": "actually",
-      "score": 1
-    },
-    {
-      "keyword": "better",
-      "score": 1
-    },
-    {
-      "keyword": "than",
       "score": 1
     }
   ],
@@ -246,6 +246,13 @@
       "feed": "hot"
     },
     {
+      "title": "Severe reaction to Some by mi Yuja Niacin serum",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdgk8l/severe_reaction_to_some_by_mi_yuja_niacin_serum/",
+      "published": "2026-09-11T13:37:49+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "gorgeous lancome lippie only sold in asia",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcyx6x/gorgeous_lancome_lippie_only_sold_in_asia/",
       "published": "2026-09-10T23:07:57+00:00",
@@ -263,13 +270,6 @@
       "title": "Are cleansing balm sticks actually better than jars?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wd7swo/are_cleansing_balm_sticks_actually_better_than/",
       "published": "2026-09-11T06:04:58+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Severe reaction to Some by mi Yuja Niacin serum",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdgk8l/severe_reaction_to_some_by_mi_yuja_niacin_serum/",
-      "published": "2026-09-11T13:37:49+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },

@@ -2,7 +2,7 @@
 title: "Record 2fb6e379a5 · What-Matters-When-Diagnosing-and-Improving-Conditional-Visual-Groundin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.640220+00:00
+updated_at: 2026-09-11T14:10:47.043158+00:00
 tags: [record, real-data]
 ---
 

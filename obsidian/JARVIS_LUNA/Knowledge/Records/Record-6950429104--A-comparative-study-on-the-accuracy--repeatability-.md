@@ -2,7 +2,7 @@
 title: "Record 6950429104 · A-comparative-study-on-the-accuracy--repeatability-of-mobile-robotic-p"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.617271+00:00
+updated_at: 2026-09-11T14:10:47.020138+00:00
 tags: [record, real-data]
 ---
 

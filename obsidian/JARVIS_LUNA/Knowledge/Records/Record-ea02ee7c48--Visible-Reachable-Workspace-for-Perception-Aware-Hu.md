@@ -2,7 +2,7 @@
 title: "Record ea02ee7c48 · Visible-Reachable-Workspace-for-Perception-Aware-Humanoid-Design"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.656004+00:00
+updated_at: 2026-09-11T14:10:47.058131+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e8c6d0f8bf · Discovery-of-a-millisecond-pulsar-with-a-CO-white-dwarf-companion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.722237+00:00
+updated_at: 2026-09-11T14:10:47.120593+00:00
 tags: [record, real-data]
 ---
 

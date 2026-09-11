@@ -2,7 +2,7 @@
 title: "Record e157d7c926 · Shopify-The-Next-Era-Of-E-Commerce-NASDAQSHOP---Seeking-Alpha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:25.021260+00:00
+updated_at: 2026-09-11T14:10:47.418694+00:00
 tags: [record, real-data]
 ---
 

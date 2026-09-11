@@ -2,7 +2,7 @@
 title: "Record 9226e143b7 · Why-Is-the-Turning-Myself-Into-an-LA-10-Trend-Attracting-So-Many-Hate-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:25.117759+00:00
+updated_at: 2026-09-11T14:10:47.508174+00:00
 tags: [record, real-data]
 ---
 

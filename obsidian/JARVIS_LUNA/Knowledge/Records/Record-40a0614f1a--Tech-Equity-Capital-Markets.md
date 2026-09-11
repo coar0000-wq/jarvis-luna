@@ -2,7 +2,7 @@
 title: "Record 40a0614f1a · Tech-Equity-Capital-Markets"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:25.281928+00:00
+updated_at: 2026-09-11T14:10:47.665145+00:00
 tags: [record, real-data]
 ---
 

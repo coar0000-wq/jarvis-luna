@@ -2,7 +2,7 @@
 title: "Record 5bad01cafd · Stationarity-Statistics-on-Rolling-Windows"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.720473+00:00
+updated_at: 2026-09-11T14:10:47.118941+00:00
 tags: [record, real-data]
 ---
 

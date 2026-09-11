@@ -2,7 +2,7 @@
 title: "Record 1ce5d7e274 · AMD-and-Cerebras-Announce-Industry-Leading-Ultra-Low-Latency-and-High-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.896715+00:00
+updated_at: 2026-09-11T14:10:47.302517+00:00
 tags: [record, real-data]
 ---
 

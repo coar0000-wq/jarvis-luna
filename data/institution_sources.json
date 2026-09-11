@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-11T13:38:08.903497+00:00",
+  "collected_at": "2026-09-11T14:03:40.629972+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-11T13:37:16.825025+00:00"
+      "collected_at": "2026-09-11T14:02:44.846054+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-11T13:37:48.712913+00:00"
+      "collected_at": "2026-09-11T14:03:22.236022+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-11T13:38:08.902384+00:00"
+      "collected_at": "2026-09-11T14:03:40.628853+00:00"
     }
   },
   "not_collected": {
@@ -3933,11 +3933,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
+      "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T15:26:17.000Z",
+      "date_raw": "2026-09-04T19:12:16.000Z",
       "title_source": "url-slug",
-      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
+      "title": "Why Gold Is Expected To Rise To Record Highs",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3946,11 +3946,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T19:12:16.000Z",
+      "date_raw": "2026-09-04T15:26:17.000Z",
       "title_source": "url-slug",
-      "title": "Why Gold Is Expected To Rise To Record Highs",
+      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3998,11 +3998,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T20:18:47.000Z",
+      "date_raw": "2026-09-02T16:13:53.000Z",
       "title_source": "url-slug",
-      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
+      "title": "David Solomon Cnbc Sep 2026   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4011,11 +4011,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T16:13:53.000Z",
+      "date_raw": "2026-09-02T20:18:47.000Z",
       "title_source": "url-slug",
-      "title": "David Solomon Cnbc Sep 2026   Transcript",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4037,11 +4037,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/the-markets/what-is-the-outlook-for-diesel-and-gasoline-supplies",
+      "url": "https://www.goldmansachs.com/insights/articles/gold-is-forecast-to-climb-as-central-banks-buy-the-precious-metal",
       "date": "2026-08-28",
-      "date_raw": "2026-08-28T13:35:15.000Z",
+      "date_raw": "2026-08-28T15:56:18.000Z",
       "title_source": "url-slug",
-      "title": "What Is The Outlook For Diesel And Gasoline Supplies",
+      "title": "Gold Is Forecast To Climb As Central Banks Buy The Precious Metal",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4050,11 +4050,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/articles/gold-is-forecast-to-climb-as-central-banks-buy-the-precious-metal",
+      "url": "https://www.goldmansachs.com/insights/the-markets/what-is-the-outlook-for-diesel-and-gasoline-supplies",
       "date": "2026-08-28",
-      "date_raw": "2026-08-28T15:56:18.000Z",
+      "date_raw": "2026-08-28T13:35:15.000Z",
       "title_source": "url-slug",
-      "title": "Gold Is Forecast To Climb As Central Banks Buy The Precious Metal",
+      "title": "What Is The Outlook For Diesel And Gasoline Supplies",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -11397,6 +11397,20 @@
       "cited_by": 5
     },
     {
+      "title": "The Python simulations of chemistry framework: 10 years of an open-source quantum chemistry project",
+      "url": "https://doi.org/10.1063/5.0337441",
+      "date": "2026-09-10",
+      "summary": "",
+      "org": "Microsoft",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "The Journal of Chemical Physics",
+      "work_type": "article",
+      "cited_by": 5
+    },
+    {
       "title": "The Media Bias Detector: A framework for annotating and analyzing the news",
       "url": "https://doi.org/10.1126/sciadv.aea7456",
       "date": "2026-09-09",
@@ -11721,20 +11735,6 @@
     {
       "title": "Measuring Genuine Conceptual Novelty in Frontier Models",
       "url": "https://doi.org/10.5281/zenodo.22051546",
-      "date": "2026-08-18",
-      "summary": "",
-      "org": "Microsoft",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "The Alignment Conservation Question",
-      "url": "https://doi.org/10.5281/zenodo.22051539",
       "date": "2026-08-18",
       "summary": "",
       "org": "Microsoft",
@@ -12181,6 +12181,20 @@
       "cited_by": 0
     },
     {
+      "title": "Functional characterization of the 9q34.13 locus identifies RAPGEF1 as a candidate gene modulating risk for melanoma and nevi via RAS activation",
+      "url": "https://doi.org/10.1016/j.ajhg.2026.08.014",
+      "date": "2026-09-01",
+      "summary": "",
+      "org": "Leidos",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "The American Journal of Human Genetics",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Neuromuscular effects of repeated exposure to the pesticide methyl bromide",
       "url": "https://doi.org/10.1371/journal.pone.0357385",
       "date": "2026-08-31",
@@ -12429,20 +12443,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Microbiology Spectrum",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Therapeutic NAMPT inhibition reveals a targetable metabolic vulnerability in neuroblastoma",
-      "url": "https://doi.org/10.1186/s13046-026-03793-5",
-      "date": "2026-08-05",
-      "summary": "",
-      "org": "Leidos",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Journal of Experimental & Clinical Cancer Research",
       "work_type": "article",
       "cited_by": 0
     },

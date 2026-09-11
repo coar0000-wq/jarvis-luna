@@ -2,7 +2,7 @@
 title: "Record 7160cfc6b1 · Measuring-AI-capabilities-in-intelligence-targeting-and-conventional-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:25.252021+00:00
+updated_at: 2026-09-11T14:10:47.635211+00:00
 tags: [record, real-data]
 ---
 

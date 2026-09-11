@@ -2,7 +2,7 @@
 title: "Record 6a8652ca54 · K-beautys-next-formula-Makeup-that-works-like-skincare---koreaheraldco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.920989+00:00
+updated_at: 2026-09-11T14:10:47.325244+00:00
 tags: [record, real-data]
 ---
 

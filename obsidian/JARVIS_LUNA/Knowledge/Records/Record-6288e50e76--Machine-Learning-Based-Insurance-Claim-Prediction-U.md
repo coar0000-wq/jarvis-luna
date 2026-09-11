@@ -2,7 +2,7 @@
 title: "Record 6288e50e76 · Machine-Learning-Based-Insurance-Claim-Prediction-Using-Customer-Behav"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.861650+00:00
+updated_at: 2026-09-11T14:10:47.267517+00:00
 tags: [record, real-data]
 ---
 

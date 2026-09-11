@@ -2,7 +2,7 @@
 title: "Record c6eef9e736 · Sephora-Launches-K-Beauty-Selection-Curated-by-Olive-Young---EUPHORIA-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:25.106534+00:00
+updated_at: 2026-09-11T14:10:47.498028+00:00
 tags: [record, real-data]
 ---
 

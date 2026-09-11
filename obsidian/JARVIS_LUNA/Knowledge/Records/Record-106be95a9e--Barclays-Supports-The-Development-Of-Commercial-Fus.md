@@ -2,7 +2,7 @@
 title: "Record 106be95a9e · Barclays-Supports-The-Development-Of-Commercial-Fusion-Power-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.877697+00:00
+updated_at: 2026-09-11T14:10:47.284306+00:00
 tags: [record, real-data]
 ---
 

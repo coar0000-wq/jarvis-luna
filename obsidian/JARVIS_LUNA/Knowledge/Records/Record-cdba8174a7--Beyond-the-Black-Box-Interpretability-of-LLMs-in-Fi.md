@@ -2,7 +2,7 @@
 title: "Record cdba8174a7 · Beyond-the-Black-Box-Interpretability-of-LLMs-in-Finance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.840726+00:00
+updated_at: 2026-09-11T14:10:47.245592+00:00
 tags: [record, real-data]
 ---
 

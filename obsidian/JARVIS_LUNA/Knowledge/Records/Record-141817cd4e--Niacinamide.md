@@ -2,7 +2,7 @@
 title: "Record 141817cd4e · Niacinamide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.876076+00:00
+updated_at: 2026-09-11T14:10:47.282610+00:00
 tags: [record, real-data]
 ---
 

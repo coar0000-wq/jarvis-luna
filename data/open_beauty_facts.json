@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-11T13:39:12.484967+00:00",
+  "collected_at": "2026-09-11T14:04:38.426754+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -20,7 +20,7 @@
   },
   "per_category": {
     "스킨케어": 0,
-    "마스크팩": 11,
+    "마스크팩": 0,
     "클렌징": 10,
     "선케어": 9,
     "메이크업": 10,
@@ -33,153 +33,11 @@
     "립케어": 12
   },
   "errors": {
-    "스킨케어": "HTTPError: HTTP Error 500: Internal Server Error"
+    "스킨케어": "HTTPError: HTTP Error 500: Internal Server Error",
+    "마스크팩": "HTTPError: HTTP Error 500: Internal Server Error"
   },
-  "count": 117,
+  "count": 106,
   "products": [
-    {
-      "code": "3160920402005",
-      "product_name": "Masque Purifiant Naturel à L'Argile Verte.",
-      "brands": "Argile, Juvaflorine",
-      "category": "마스크팩",
-      "obf_category": "face-masks",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "Aqua (Water), Montmorillonite, Caprylyl/Capryt Glucoside, Chlorphenesln, Parfum (Fragrance), Methylisothiazolinone.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/316/092/040/2005/front_fr.12.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3160920402005"
-    },
-    {
-      "code": "3600542097024",
-      "product_name": "Garnier SkinActive Pure Charcoal Tissuemasker",
-      "brands": "Garnier, Garnier SkinActive",
-      "category": "마스크팩",
-      "obf_category": "face-masks",
-      "countries": [
-        "Netherlands"
-      ],
-      "ingredients_text": "AQUA / WATER, PROPYLENE GLYCOL, GLYCERIN, PEG-32, PEG-40 HYDROGENATED CASTOR OIL, PVM/MA COPOLYMER, PAPAIN, POTASSIUM HYDROXIDE, GLYCERYL ACRYLATE/ACRYLIC ACID COPOLYMER, SODIUM HYALURONATE, ANANAS SATIVUS FRUIT EXTRACT / PINEAPPLE FRUIT EXTRACT, P-ANISIC ACID, ALCOHOL, PROPANEDIOL, SUCROSE, HYDROGENATED STARCH HYDROLYSATE, HYDROXYACETOPHENONE, HYDROXYETHYLCELLULOSE, CAPRYLOYL SALICYLIC ACID, XANTHAN GUM, FUCUS VESICULOSUS EXTRACT, SODIUM BENZOATE, PHENOXYETHANOL, PARFUM / FRAGRANCE (F.I.L C208350/1)",
-      "image_url": "https://images.openbeautyfacts.org/images/products/360/054/209/7024/front_fr.5.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3600542097024"
-    },
-    {
-      "code": "3522932031787",
-      "product_name": "Masque crème hydratant",
-      "brands": "Caudalie",
-      "category": "마스크팩",
-      "obf_category": "face-masks",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "",
-      "image_url": "https://images.openbeautyfacts.org/images/products/352/293/203/1787/front_fr.7.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3522932031787"
-    },
-    {
-      "code": "5017634256739",
-      "product_name": "Sebum Control Masque purifiant charbon végétal façon crème fouettée",
-      "brands": "Bioré",
-      "category": "마스크팩",
-      "obf_category": "face-masks",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "AQUA, SODIUM COCOYL ISETHIONATE, GLYCERIN, GLYCOL DISTEARATE, ETHOXYDIGLYCOL, PEG-6 CAPRYLIC/CAPRIC GLYCERIDES, CETYL ALCOHOL, PEG-12 DIMETHICONE, SODIUM LAUROYL LACTYLATE, ACRYLATES/C10-30 ALKYLACRYLATE CROSSPOLYMER, XANTHAN GUM, CHARCOAL POWDER, PARFUM, SODIUM HYDROXIDE, MENTHOL, BENZOPHENONE-4, SALICYLIC ACID, SODIUM BENZOATE.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/501/763/425/6739/front_fr.12.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/5017634256739"
-    },
-    {
-      "code": "0072151421119",
-      "product_name": "Polishing Charcoal + Black Sugar Gel Mask + Scrub",
-      "brands": "Freeman",
-      "category": "마스크팩",
-      "obf_category": "face-masks",
-      "countries": [
-        "United States"
-      ],
-      "ingredients_text": "sucrose, propylene glycol, charcoal, kaolin, musa sapientum (banana) fruit extract, cocos nucifera (coconut) fruit extract, aleurites moluccanus seed extract, zingiber officinale (ginger) root extract, psidium guajava fruit extract, cymbopogon schdenanthus extract, carica papaya (papaya) fruit extract, rubus idaeus (raspberry) fruit extract, santalum album (sandalwood) extract, macrocystis pyrifera (kelp) extract, nasturtium officinale extract, maranta arundinacea root extract, lavadula angustifolia (lavender) oil, carbomer, phenoxyethanol, fragrance (parfum), iron oxides",
-      "image_url": "https://images.openbeautyfacts.org/images/products/007/215/142/1119/front_en.12.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/0072151421119"
-    },
-    {
-      "code": "3600550972153",
-      "product_name": "Le masque de pureté nettoyant",
-      "brands": "La Provençale",
-      "category": "마스크팩",
-      "obf_category": "face-masks",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "aqua / water, kaolin, perlite, glycerin, caprylic/capric triglyceride, sucrose*, cetearyl alcohol, benzyl alcohol, olea europaea fruit oil / olive fruit oil*, aloe barbadensis leaf juice powder*, stearic acid, stearyl alcohol, glyceryl stearate citrate, cetearyl glucoside, sodium anisate, sodium levulinate, sodium phytate, helianthus annuus seed oil, sunflower seed oil, myristic acid, palmitic acid, alcohol, xanthan gum, tocopherol, salicylic acid, linalool, geraniol, limonene, citronellol, parfum / fragrance.\r\n* Ingrédients issus de l'agriculture biologique",
-      "image_url": "https://images.openbeautyfacts.org/images/products/360/055/097/2153/front_fr.7.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3600550972153"
-    },
-    {
-      "code": "3331300096460",
-      "product_name": "1 Masque Anti-Rides Bio-Cellulose",
-      "brands": "Barbara Gould",
-      "category": "마스크팩",
-      "obf_category": "face-masks",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "AQUA, GLYCERIN, POLYACRYLATE-13, PHENOXYETHANOL, ETHYLHEXYLGLYCERIN, TRIETHANOLAMINE, POLYISOBUTENE, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, DISODIUM EDTA, SODIUM HYALURONATE, POLYSORBATE 20, PARFUM, SORBITAN ISOSTEARATE, BIOSACCHARIDE GUM-1, CITRIC ACID, SODIUM CITRATE, SOLUBLE COLLAGEN, SODIUM BENZOATE, HEXYL CINNAMAL, HYDROXYISOHEXYL 3-CYCLOHEXENE CARBOXALDEHYDE, LINALOOL, ALOE BARBADENSIS LEAF JUICE POWDER.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/333/130/009/6460/front_fr.5.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3331300096460"
-    },
-    {
-      "code": "3329310012495",
-      "product_name": "Pâte d'argile",
-      "brands": "Copar, Laboratoires Biocos, Lovea, Lovea Nature",
-      "category": "마스크팩",
-      "obf_category": "face-masks",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "illite/montmorillonite (green clay), aqua (water), glycerin, imidazolidinyl urea, chlorhexidine, digluconate, methylchloroisothiazolinone, methylisothiazolinone, magnesium nitrate, magnesium chloride.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/332/931/001/2495/front_fr.5.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3329310012495"
-    },
-    {
-      "code": "8683420170045",
-      "product_name": "SOHO N.Y.C. Anti-Aging No Rinse 2in1 Face Serum + Mask",
-      "brands": "SOHO N.Y.C",
-      "category": "마스크팩",
-      "obf_category": "face-masks",
-      "countries": [
-        "Turkey"
-      ],
-      "ingredients_text": "Aqua, Glycerin, Aloe Barbadensis Leaf Extract, Alcohol Denat., Propylene Glycol, Polysorbate 20, Phenethyl Alcohol, Sesamum Indicum Seed Extract, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Triethanolamine, Cucumis Sativus Fruit Extract, Camellia Sinensis Leaf Extract, Spirulina Platensis Extract, Avocado Oil PEG-11 Esters, PEG-10 Olive Glycerides, Allantoin, Sodium Hyaluronate, Calendula Officinalis Flower Extract, Chamomilla Recutita Flower Extract, Panax Ginseng Root Extract, Tilia Cordata Flower Extract, Panthenol, Butylene Glycol, Menthol, Parfum, Tocopheryl Acetate, Biotin, Sodium PCA, Hydrolyzed Collagen, Potassium Sorbate, Sodium Benzoate, CI 19140, CI 14720, Alpha-Isomethyl Ionone, Benzyl Salicylate, Citronellol, Hexyl Cinnamal, Linalool.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/868/342/017/0045/front_fr.19.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/8683420170045"
-    },
-    {
-      "code": "5903794199934",
-      "product_name": "Glass Skin",
-      "brands": "Kimoco",
-      "category": "마스크팩",
-      "obf_category": "face-masks",
-      "countries": [
-        "Poland"
-      ],
-      "ingredients_text": "Aqua, Oryza Sativa (Rice) Bran Water, Glycerin, Dipropylene Glycol, Butylene Glycol, 1,2-Hexanediol, Sodium Hyaluronate, Squalane, Citrus Junos Fruit Extract, PEG-60 Hydrogenated Castor Oil, Beta-Glucan, Betaine, Carbomer, Allantoin, Triethanolamine, Xanthan Gum, Ethylhexylglycerin, Disodium EDTA, Caprylic/Capric Triglyceride, Lactobacillus Ferment Lysate, Centella Asiatica Extract, Glycyrrhiza Glabra (Licorice) Root Extract, Morus Alba Bark Extract, Polygonum Multiflorum Root Extract, Scutellaria Baicalensis Root Extract, Phellinus Linteus Extract, Sesamum Indicum (Sesame) Seed Extract, Paeonia Albiflora Root Extract, Angelica Gigas Root Extract, Sophora Flavescens Root Extract, Cimicifuga Racemosa Root Extract, Trehalose, Propanediol, Parfum.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/590/379/419/9934/front_en.5.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/5903794199934"
-    },
-    {
-      "code": "9341106912899",
-      "product_name": "OXX Coconut face mask",
-      "brands": "Anko",
-      "category": "마스크팩",
-      "obf_category": "face-masks",
-      "countries": [
-        "Australia"
-      ],
-      "ingredients_text": "Aqua, Glycerin, Glycereth-26, 1,2-Hexanediol, Hydroxyacetophenone, Cocos Nucifera (Coconut) Oil, Xanthan Gum, Polysorbate 20, Allantoin, Disodium EDTA, Fragrance, Coumarin.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/934/110/691/2899/front_en.3.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/9341106912899"
-    },
     {
       "code": "3337875597333",
       "product_name": "CeraVe Hydraterende Reinigingscrème",

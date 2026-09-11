@@ -1,18 +1,18 @@
 ---
-title: "Record c278736dfd · A-Look-Back-on-the-Biggest-K-Beauty-Trends-of-2025---Vogue"
+title: "Record c278736dfd · A-Look-Back-on-the-Biggest-K-Beauty-Trends-of-2025---voguecom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.947998+00:00
+updated_at: 2026-09-11T14:10:47.350441+00:00
 tags: [record, real-data]
 ---
 
-# Record c278736dfd · A-Look-Back-on-the-Biggest-K-Beauty-Trends-of-2025---Vogue
+# Record c278736dfd · A-Look-Back-on-the-Biggest-K-Beauty-Trends-of-2025---voguecom
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xbHJNOUI3NHpqVkJiNVJiWFl1YWRPdnFQVjVjZzhVX3ZFQjRJZG8tNS1uMUZUNUZJM1IxMnJRazkxay16WlppOXJNUU5mT1RrOU1lU05seTFxa0c1V3NWcHNEVUY?oc=5)
 
-**제목:** A Look Back on the Biggest K-Beauty Trends of 2025 - Vogue
+**제목:** A Look Back on the Biggest K-Beauty Trends of 2025 - vogue.com
 
-A Look Back on the Biggest K-Beauty Trends of 2025 - Vogue
+A Look Back on the Biggest K-Beauty Trends of 2025 - vogue.com
 
 **출처:** Source · Google Search
 

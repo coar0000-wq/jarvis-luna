@@ -2,7 +2,7 @@
 title: "Record ed4b71aa26 · Botnia-Gentle-Sun-SPF-30"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.594616+00:00
+updated_at: 2026-09-11T14:10:46.996775+00:00
 tags: [record, real-data]
 ---
 

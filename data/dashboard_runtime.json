@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T22:51:03.694519+09:00",
+  "generated_at": "2026-09-11T23:16:25.676675+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-09-11T13:43:34.431338+00:00",
+      "when": "2026-09-11T14:09:04.184350+00:00",
       "summary": "219개 상품 · 등급 S 6 / A 30 / B 33 / C 150 · 새 자료 220건",
       "action": "직전 실행에서 19건 시도 중 7건 실패 (성공 12건) · 가격 없음 7",
       "status": "ok",
@@ -18,8 +18,8 @@
     {
       "id": "institutions",
       "name": "기관 수집팀",
-      "when": "2026-09-11T13:38:08.903497+00:00",
-      "summary": "35곳 1,061건 · 미수집 12건 사유 기록 · 새 자료 272건",
+      "when": "2026-09-11T14:03:40.629972+00:00",
+      "summary": "35곳 1,061건 · 미수집 12건 사유 기록 · 새 자료 273건",
       "action": null,
       "status": "ok",
       "phase": "now",
@@ -30,8 +30,8 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-11T22:45:35.016089+09:00",
-      "summary": "S등급 6개 · 고시표 입력 대기 1건 · 새 자료 40건",
+      "when": "2026-09-11T23:10:57.251632+09:00",
+      "summary": "S등급 6개 · 고시표 입력 대기 1건 · 새 자료 39건",
       "action": "다이소 상세페이지 고시 표 1건 캡처 필요",
       "status": "ok",
       "phase": "always",
@@ -42,7 +42,7 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-11T13:43:34.637632+00:00",
+      "when": "2026-09-11T14:09:04.395151+00:00",
       "summary": "등록 가능 5/6 · 카피 5 · 고시 5 · 가격 6 · 법률 5",
       "action": "카피 1건, 고시 1건, 법률 1건 이 막고 있음",
       "status": "ok",
@@ -54,8 +54,8 @@
     {
       "id": "pricing",
       "name": "가격 정책팀",
-      "when": "2026-09-11T13:43:34.540763+00:00",
-      "summary": "개당 배송비 $6.25~$10.74 · 무게 85~520g (이름추정 1 / 고시용량 5) · DDU/DDP 4개 · 새 자료 6건",
+      "when": "2026-09-11T14:09:04.300576+00:00",
+      "summary": "개당 배송비 $6.26~$10.75 · 무게 85~520g (이름추정 1 / 고시용량 5) · DDU/DDP 4개 · 새 자료 5건",
       "action": null,
       "status": "ok",
       "phase": "ready",
@@ -66,7 +66,7 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-11T13:43:34.588659+00:00",
+      "when": "2026-09-11T14:09:04.348439+00:00",
       "summary": "자동 점검 12건 · 통과 12 · 등록 차단 2 · 참고 주의 7 · 수출서류 HS 12건 · 라벨 5/6항목 자동 · 새 자료 19건",
       "action": "차단 2건: 비프루브 마린 무기자차 마일드(SPF 표기 - 미국 OT), 싸이닉 파워옴므 워터리 선크림(SPF 표기 - 미국 OT) — 라벨 갖추기 전엔 못 올림",
       "status": "ok",
@@ -78,7 +78,7 @@
     {
       "id": "robotics",
       "name": "로보틱스 수집",
-      "when": "2026-09-11T13:37:06.312395+00:00",
+      "when": "2026-09-11T14:02:34.449233+00:00",
       "summary": "89건 · arxiv 49 / rss 40 · 새 자료 76건",
       "action": null,
       "status": "ok",
@@ -90,8 +90,8 @@
     {
       "id": "design",
       "name": "디자인팀",
-      "when": "2026-09-11T13:38:16.949942+00:00",
-      "summary": "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 33건 · 새 자료 99건",
+      "when": "2026-09-11T14:03:48.742652+00:00",
+      "summary": "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 33건 · 새 자료 100건",
       "action": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "status": "ok",
       "phase": "ready",
@@ -102,7 +102,7 @@
     {
       "id": "channels",
       "name": "채널 운영팀",
-      "when": "2026-09-11T13:43:54.978103+00:00",
+      "when": "2026-09-11T14:09:23.931891+00:00",
       "summary": "가동 7/12채널 · 낡음 4건 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건",
       "action": null,
       "status": "ok",
@@ -114,7 +114,7 @@
     {
       "id": "knowledge",
       "name": "지식 수집팀",
-      "when": "2026-09-11T13:38:37.767331+00:00",
+      "when": "2026-09-11T14:04:09.649030+00:00",
       "summary": "470건 · arXiv 10 / 유기농스킨 30 / Google 300 / US뷰티 130",
       "action": null,
       "status": "ok",
@@ -126,8 +126,8 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-11T22:50:59.196100+09:00",
-      "summary": "81,047노트 · 320,476링크 · 끊어진 링크 109건 · 개인 노트 16건 별도",
+      "when": "2026-09-11T23:16:21.249517+09:00",
+      "summary": "81,053노트 · 320,512링크 · 끊어진 링크 109건 · 개인 노트 16건 별도",
       "action": null,
       "status": "failed",
       "phase": "now",
@@ -165,7 +165,7 @@
     }
   },
   "errors": {
-    "generated_at": "2026-09-11T13:44:49.046884+00:00",
+    "generated_at": "2026-09-11T14:10:11.706169+00:00",
     "total": 34,
     "counts": {
       "고장": 5,
@@ -245,7 +245,7 @@
     ]
   },
   "team_summary": {
-    "corpus_records": 3139,
+    "corpus_records": 3144,
     "pipeline_done": 4,
     "pipeline_total": 5
   },
@@ -254,13 +254,13 @@
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "3139개 코퍼스 레코드"
+      "detail": "3144개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "failed",
-      "detail": "81047개 노트 · 320476개 링크 · 끊어진 링크 109개 · 개인 노트 16개 별도"
+      "detail": "81053개 노트 · 320512개 링크 · 끊어진 링크 109개 · 개인 노트 16개 별도"
     },
     {
       "id": "dashboard",
@@ -272,7 +272,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "3139건 · 3 experts · 정확도 87.99%"
+      "detail": "3144건 · 3 experts · 정확도 88.01%"
     },
     {
       "id": "publish",
@@ -283,48 +283,48 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 3139,
+    "record_count": 3144,
     "source_counts": {},
-    "updated_at": "2026-09-11T22:45:34.523082+09:00"
+    "updated_at": "2026-09-11T23:10:56.826632+09:00"
   },
   "graph": {
-    "notes": 81047,
-    "links": 320476,
+    "notes": 81053,
+    "links": 320512,
     "dangling_links": 109,
     "dangling_personal": 16,
     "dangling_personal_note": "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다.",
-    "records": 80208,
+    "records": 80214,
     "sources": 7,
     "topics": 28,
     "orgs": 35,
     "audit": "failed",
-    "last_generated": "2026-09-11T22:50:59.196100+09:00"
+    "last_generated": "2026-09-11T23:16:21.249517+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 3139,
+    "records": 3144,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.8798980567059573,
-    "validation_accuracy": 0.8862478777589134,
-    "final_loss": 0.4082643806180037,
-    "gate_load_std": 0.14714144654849187,
+    "accuracy": 0.8800890585241731,
+    "validation_accuracy": 0.8864406779661017,
+    "final_loss": 0.4078658292586734,
+    "gate_load_std": 0.14683274897174967,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-11T13:43:05.711668+00:00"
+    "updated_at": "2026-09-11T14:08:34.243342+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 3139,
-      "notes": 81156,
-      "links": 328114
+      "records": 3144,
+      "notes": 81162,
+      "links": 328167
     },
     "prior_totals": {
-      "records": 3139,
-      "notes": 81156,
-      "links": 328114
+      "records": 3144,
+      "notes": 81162,
+      "links": 328167
     },
     "added_this_run": {
       "records": 0,
@@ -332,9 +332,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 3139,
-      "notes": 81047,
-      "links": 320476
+      "records": 3144,
+      "notes": 81053,
+      "links": 320512
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -665,8 +665,8 @@
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWlTTVg4ZkQ1N1Rfemtmamx1WXdDemF4b1JIaUIxWVdJeUJKQlh5QjRCbXFmTWxnT3JMWlh0TmwwaVpfVnZNR1B1N0prR0p6dlhJTHhVQU9fN3VNdDlDZHN3dWswdTcydjVvMmo2RXVrN09vcUgweHotU0dQZjFIb2V3?oc=5"
       },
       {
-        "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
-        "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+        "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
+        "product": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
         "sub": "K-beauty",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5"
@@ -700,8 +700,8 @@
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeEJ0MTljNGRxbHppX0V4djZuR3ZoTTlQX1FRT0Z0VHgwMmxuLWhyRlY1ZnRkMktJYjItc0ZSUi05T0hIeDFFUGhZSUNtN2xqVHhQSHozeHJWYzY1Vzl2UFoxUjV3Q3AzdXowc1hlODhkck50Z3V2N3d0Wm5JX3EtYWsxeFBQQVh3Z0FnYnZ3Nm02SFJDd1hPYzltdkdOVFMwdUR1eW1QbnpuUQ?oc=5"
       },
       {
-        "keyword": "You’ve been buying K-beauty. Is it time to try Korean treatments? - thetimes.com",
-        "product": "You’ve been buying K-beauty. Is it time to try Korean treatments? - thetimes.com",
+        "keyword": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
+        "product": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
         "sub": "K-beauty",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFlyd3hfU3ozdUtzS0d1MU5Hbmx6MHlWZTFicUdJT2NrSWlaLWJTS2lzQ21tZGhrQTRRei1FeDJnQk1OU0dvM1R5cUlnYnZFM05SM0syVjhnYXlnTmV5LVlHRmNpTmVBamFQMVFHVWJEQW9JVm1uTGxWLW84dTZCYTZ1RU1QVjhYTGhaaEp2NHNkQ2k3T1hsZElFcw?oc=5"
@@ -816,6 +816,12 @@
     ],
     "allure_media": [
       {
+        "product": "17 Witchy Fragrances That Will Have You in Your Coven Era",
+        "sub": "Fri, 11 Sep 2026",
+        "badge": "11 Sep",
+        "url": "https://www.allure.com/story/witchy-fragrance-trend"
+      },
+      {
         "product": "Lash Painting: The Makeup Artist Technique for Clump-Free Mascara",
         "sub": "Thu, 10 Sep 2026",
         "badge": "10 Sep",
@@ -898,12 +904,6 @@
         "sub": "Wed, 09 Sep 2026",
         "badge": "09 Sep",
         "url": "https://www.allure.com/story/2016-beauty-youtubers-interview"
-      },
-      {
-        "product": "Florence Pugh Elevated the Messiest Bun With the Fanciest Scarf — See Photos",
-        "sub": "Tue, 08 Sep 2026",
-        "badge": "08 Sep",
-        "url": "https://www.allure.com/story/florence-pugh-messy-bun-scarf"
       }
     ],
     "openfda_sunscreen": [
@@ -1298,72 +1298,6 @@
     ],
     "open_beauty_facts": [
       {
-        "product": "Masque Purifiant Naturel à L'Argile Verte.",
-        "brand": "Argile, Juvaflorine",
-        "category": "마스크팩",
-        "url": "https://world.openbeautyfacts.org/product/3160920402005"
-      },
-      {
-        "product": "Garnier SkinActive Pure Charcoal Tissuemasker",
-        "brand": "Garnier, Garnier SkinActive",
-        "category": "마스크팩",
-        "url": "https://world.openbeautyfacts.org/product/3600542097024"
-      },
-      {
-        "product": "Masque crème hydratant",
-        "brand": "Caudalie",
-        "category": "마스크팩",
-        "url": "https://world.openbeautyfacts.org/product/3522932031787"
-      },
-      {
-        "product": "Sebum Control Masque purifiant charbon végétal façon crème fouettée",
-        "brand": "Bioré",
-        "category": "마스크팩",
-        "url": "https://world.openbeautyfacts.org/product/5017634256739"
-      },
-      {
-        "product": "Polishing Charcoal + Black Sugar Gel Mask + Scrub",
-        "brand": "Freeman",
-        "category": "마스크팩",
-        "url": "https://world.openbeautyfacts.org/product/0072151421119"
-      },
-      {
-        "product": "Le masque de pureté nettoyant",
-        "brand": "La Provençale",
-        "category": "마스크팩",
-        "url": "https://world.openbeautyfacts.org/product/3600550972153"
-      },
-      {
-        "product": "1 Masque Anti-Rides Bio-Cellulose",
-        "brand": "Barbara Gould",
-        "category": "마스크팩",
-        "url": "https://world.openbeautyfacts.org/product/3331300096460"
-      },
-      {
-        "product": "Pâte d'argile",
-        "brand": "Copar, Laboratoires Biocos, Lovea, Lovea Nature",
-        "category": "마스크팩",
-        "url": "https://world.openbeautyfacts.org/product/3329310012495"
-      },
-      {
-        "product": "SOHO N.Y.C. Anti-Aging No Rinse 2in1 Face Serum + Mask",
-        "brand": "SOHO N.Y.C",
-        "category": "마스크팩",
-        "url": "https://world.openbeautyfacts.org/product/8683420170045"
-      },
-      {
-        "product": "Glass Skin",
-        "brand": "Kimoco",
-        "category": "마스크팩",
-        "url": "https://world.openbeautyfacts.org/product/5903794199934"
-      },
-      {
-        "product": "OXX Coconut face mask",
-        "brand": "Anko",
-        "category": "마스크팩",
-        "url": "https://world.openbeautyfacts.org/product/9341106912899"
-      },
-      {
         "product": "CeraVe Hydraterende Reinigingscrème",
         "brand": "CeraVe",
         "category": "클렌징",
@@ -1386,6 +1320,72 @@
         "brand": "CeraVe",
         "category": "클렌징",
         "url": "https://world.openbeautyfacts.org/product/3337875743563"
+      },
+      {
+        "product": "Skin Active Solution Micellaire Tout En 1 Peaux Sèches et Sensibles",
+        "brand": "Garnier",
+        "category": "클렌징",
+        "url": "https://world.openbeautyfacts.org/product/3600541594968"
+      },
+      {
+        "product": "Low PH good morning gel cleanser",
+        "brand": "COSRX",
+        "category": "클렌징",
+        "url": "https://world.openbeautyfacts.org/product/8809416470511"
+      },
+      {
+        "product": "Précieux Argan Eau micellaire anti-âge",
+        "brand": "Léa Nature, So Bio Etic",
+        "category": "클렌징",
+        "url": "https://world.openbeautyfacts.org/product/3517360008685"
+      },
+      {
+        "product": "Micellar water fresh",
+        "brand": "Cien",
+        "category": "클렌징",
+        "url": "https://world.openbeautyfacts.org/product/20864774"
+      },
+      {
+        "product": "compact  micellar cleansing lemon",
+        "brand": "",
+        "category": "클렌징",
+        "url": "https://world.openbeautyfacts.org/product/8697420539214"
+      },
+      {
+        "product": "Effaclar",
+        "brand": "La roche-posay",
+        "category": "클렌징",
+        "url": "https://world.openbeautyfacts.org/product/3337875722827"
+      },
+      {
+        "product": "la Rosée lait solaire spf 50+",
+        "brand": "La Rosée",
+        "category": "선케어",
+        "url": "https://world.openbeautyfacts.org/product/3770000717587"
+      },
+      {
+        "product": "SVR Spray Sun Secure SPF 50+",
+        "brand": "SVR",
+        "category": "선케어",
+        "url": "https://world.openbeautyfacts.org/product/3662361002146"
+      },
+      {
+        "product": "Intense Protect 50+",
+        "brand": "Avène, אוון",
+        "category": "선케어",
+        "url": "https://world.openbeautyfacts.org/product/3282770141214"
+      },
+      {
+        "product": "Dermo protect spf 50+",
+        "brand": "Mixa",
+        "category": "선케어",
+        "url": "https://world.openbeautyfacts.org/product/3600551125305"
+      },
+      {
+        "product": "Sensitive expert + Spf 50+",
+        "brand": "Garnier, Garnier ambre solaire",
+        "category": "선케어",
+        "url": "https://world.openbeautyfacts.org/product/3600542520454"
       }
     ]
   },
@@ -1397,7 +1397,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 9,
       "trust": "manual",
-      "age_hours": 253.9,
+      "age_hours": 254.3,
       "stale": true
     },
     "walmart_beauty": {
@@ -1407,14 +1407,14 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 5,
       "trust": "manual",
-      "age_hours": 253.9,
+      "age_hours": 254.3,
       "stale": true
     },
     "oliveyoung_us": {
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "2026-09-11T13:39:13.087764+00:00",
+      "collected_at": "2026-09-11T14:04:39.020958+00:00",
       "count": 15,
       "trust": "verified",
       "age_hours": 0.2,
@@ -1424,7 +1424,7 @@
       "status": "ok",
       "source": "google news rss (beauty queries) + trends daily filtered",
       "reason": "",
-      "collected_at": "2026-09-11T13:39:48.438913+00:00",
+      "collected_at": "2026-09-11T14:05:14.434134+00:00",
       "count": 15,
       "trust": "verified",
       "age_hours": 0.2,
@@ -1434,33 +1434,33 @@
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-11T08:39:46.484718+00:00",
+      "collected_at": "2026-09-11T13:43:33.850984+00:00",
       "count": 8,
       "trust": "verified",
       "note": "2026-08-11 ~ 2026-09-09 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 5.2,
+      "age_hours": 0.5,
       "stale": false
     },
     "allure_media": {
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-11T08:39:46.484718+00:00",
+      "collected_at": "2026-09-11T13:43:33.850984+00:00",
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 5.2,
+      "age_hours": 0.5,
       "stale": false
     },
     "openfda_sunscreen": {
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-11T08:39:46.484718+00:00",
+      "collected_at": "2026-09-11T13:43:33.850984+00:00",
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 5.2,
+      "age_hours": 0.5,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1486,7 +1486,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 8,
       "trust": "manual",
-      "age_hours": 253.9,
+      "age_hours": 254.3,
       "stale": true
     },
     "sephora": {
@@ -1496,14 +1496,14 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 10,
       "trust": "manual",
-      "age_hours": 253.9,
+      "age_hours": 254.3,
       "stale": true
     },
     "open_beauty_facts": {
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-11T13:39:12.484967+00:00",
+      "collected_at": "2026-09-11T14:04:38.426754+00:00",
       "count": 15,
       "trust": "verified",
       "age_hours": 0.2,
@@ -1516,5 +1516,5 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-11"
   },
-  "last_synced": "09. 11. 오후 10:43 KST"
+  "last_synced": "09. 11. 오후 11:08 KST"
 }

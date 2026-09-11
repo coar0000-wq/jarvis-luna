@@ -2,7 +2,7 @@
 title: "Record 4908bca683 · Us-Debt-Fiscal-Policy-Midterm-Outlook-Ariana-Salvatore"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:25.304287+00:00
+updated_at: 2026-09-11T14:10:47.688964+00:00
 tags: [record, real-data]
 ---
 

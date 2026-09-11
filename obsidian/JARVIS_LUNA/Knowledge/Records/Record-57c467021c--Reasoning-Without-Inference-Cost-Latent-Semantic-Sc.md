@@ -2,7 +2,7 @@
 title: "Record 57c467021c · Reasoning-Without-Inference-Cost-Latent-Semantic-Scaffolding-for-Robot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.629513+00:00
+updated_at: 2026-09-11T14:10:47.032940+00:00
 tags: [record, real-data]
 ---
 

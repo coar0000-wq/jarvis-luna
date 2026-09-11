@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T13:43:33.850984+00:00",
+  "generated_at": "2026-09-11T14:09:03.575994+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,12 +11,44 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
+          "keyword": "condoleezza rice",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Fri, 11 Sep 2026 06:40:00 -0700",
+          "source_name": "CBS News",
+          "url": "https://trends.google.com/trending?geo=US&q=condoleezza%20rice"
+        },
+        {
+          "keyword": "ace bailey",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Fri, 11 Sep 2026 05:50:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=ace%20bailey"
+        },
+        {
           "keyword": "saudi arabia",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
           "published": "Fri, 11 Sep 2026 05:50:00 -0700",
           "source_name": "Reuters",
           "url": "https://trends.google.com/trending?geo=US&q=saudi%20arabia"
+        },
+        {
+          "keyword": "firpo - olimpia",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 11 Sep 2026 06:40:00 -0700",
+          "source_name": "Cal Poly Pomona",
+          "url": "https://trends.google.com/trending?geo=US&q=firpo%20-%20olimpia"
+        },
+        {
+          "keyword": "rick rescorla",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 11 Sep 2026 06:00:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=rick%20rescorla"
         },
         {
           "keyword": "garnet ace bailey",
@@ -35,20 +67,12 @@
           "url": "https://trends.google.com/trending?geo=US&q=bill%20clinton"
         },
         {
-          "keyword": "ace bailey",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 11 Sep 2026 05:50:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=ace%20bailey"
-        },
-        {
-          "keyword": "khalid sheikh mohammed",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 11 Sep 2026 05:50:00 -0700",
-          "source_name": "CBS News",
-          "url": "https://trends.google.com/trending?geo=US&q=khalid%20sheikh%20mohammed"
+          "keyword": "princess astrid",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Fri, 11 Sep 2026 06:40:00 -0700",
+          "source_name": "Reuters",
+          "url": "https://trends.google.com/trending?geo=US&q=princess%20astrid"
         },
         {
           "keyword": "xbox game pass",
@@ -59,36 +83,12 @@
           "url": "https://trends.google.com/trending?geo=US&q=xbox%20game%20pass"
         },
         {
-          "keyword": "rick rescorla",
+          "keyword": "joe biden",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Fri, 11 Sep 2026 06:00:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=rick%20rescorla"
-        },
-        {
-          "keyword": "the falling man",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Fri, 11 Sep 2026 05:50:00 -0700",
-          "source_name": "The Times",
-          "url": "https://trends.google.com/trending?geo=US&q=the%20falling%20man"
-        },
-        {
-          "keyword": "bloomberg",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Fri, 11 Sep 2026 05:50:00 -0700",
-          "source_name": "Reuters",
-          "url": "https://trends.google.com/trending?geo=US&q=bloomberg"
-        },
-        {
-          "keyword": "9/11 time",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Fri, 11 Sep 2026 05:40:00 -0700",
-          "source_name": "Katie Couric Media",
-          "url": "https://trends.google.com/trending?geo=US&q=9/11%20time"
+          "published": "Fri, 11 Sep 2026 06:30:00 -0700",
+          "source_name": "WBOC TV",
+          "url": "https://trends.google.com/trending?geo=US&q=joe%20biden"
         }
       ]
     },

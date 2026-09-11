@@ -182,16 +182,16 @@
     "with_rating": 210
   },
   "fx": {
-    "usd_to_krw": 1345.06,
-    "krw_to_usd": 0.00074346,
+    "usd_to_krw": 1342.79,
+    "krw_to_usd": 0.00074472,
     "as_of": "2026-09-11",
-    "source": "ExchangeRate-API",
-    "api_url": "https://open.er-api.com/v6/latest/USD",
-    "fetched_at": "2026-09-11T13:43:34.353690+00:00",
+    "source": "Frankfurter API",
+    "api_url": "https://api.frankfurter.app/latest?from=USD&to=KRW",
+    "fetched_at": "2026-09-11T14:09:04.106331+00:00",
     "ok": true,
     "대조": [
-      "exchangerate-api 1,345.06(2026-09-11)",
-      "Frankfurter API 1,343.80(2026-09-10)"
+      "ExchangeRate-API 1,345.06(2026-09-11)",
+      "exchangerate-api 1,345.06(2026-09-11)"
     ]
   },
   "sitemap_urls_known": 19739,

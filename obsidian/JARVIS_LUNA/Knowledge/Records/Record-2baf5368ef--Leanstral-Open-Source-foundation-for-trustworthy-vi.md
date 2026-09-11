@@ -2,7 +2,7 @@
 title: "Record 2baf5368ef · Leanstral-Open-Source-foundation-for-trustworthy-vibe-coding"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T13:45:24.903318+00:00
+updated_at: 2026-09-11T14:10:47.308709+00:00
 tags: [record, real-data]
 ---
 
