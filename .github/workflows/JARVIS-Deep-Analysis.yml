@@ -273,6 +273,12 @@ jobs:
         continue-on-error: true
         run: python scripts/discover_channels.py
 
+      - name: 기관 수집팀 + 채널 운영팀 지속 확장
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python -u scripts/channel_expansion_agent.py
+
+
       # =========================
       # VALIDATION
       # =========================
