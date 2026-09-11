@@ -2,14 +2,22 @@ name: JARVIS Deep Analysis
 
 on:
   schedule:
-    # 30분으로 걸어뒀지만 실측 중앙값은 132분이었다. 24시간 동안 48회
-    # 예정 중 7회만 돌았다. 깃허브가 스케줄을 부하에 따라 걸러낸다.
-    #
-    # 점수를 만드는 원재료인 다이소 상품 목록은 하루 한 번 바뀐다.
-    # 그 사이에 48번 다시 채점해도 같은 174건을 다시 세는 것뿐이다.
-    # 실제로 도는 간격에 맞춰 2시간으로 내린다.
+    # 실측 실행 간격을 고려해 2시간 주기
     - cron: '0 */2 * * *'
+
   workflow_dispatch:
+    inputs:
+      agents:
+        description: '다중 에이전트 진단 실행'
+        required: false
+        default: true
+        type: boolean
+
+      autofix:
+        description: 'Safe Auto-Fix 실행'
+        required: false
+        default: true
+        type: boolean
 
 permissions:
   contents: write
@@ -25,12 +33,11 @@ jobs:
     timeout-minutes: 60
 
     steps:
-    # 단계 순서 = 데이터가 만들어지는 순서.
-    # 예전에는 대시보드를 25번째에 만들고 점수·가격·마케팅·채널을 27~31번째에
-    # 만들었다. 그래서 화면은 언제나 한 회차 전 숫자를 보여줬다. 소싱 S 5 와
-    # 마케팅 S 12 가 어긋나 보인 것도, 채널이 계속 0/0 이던 것도 이 순서 탓이다.
-    # 학습 전 대시보드 스냅샷은 없앴다. 어차피 뒤에서 덮어쓰는데 2만 8천개
-    # 노트를 한 번 더 훑느라 시간만 먹었다.
+
+      # =========================
+      # CHECKOUT / PYTHON
+      # =========================
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
@@ -45,9 +52,11 @@ jobs:
       - name: Install runtime dependencies
         run: |
           python -m pip install --upgrade pip
+
           if [ -f requirements.txt ]; then
             python -m pip install -r requirements.txt
           fi
+
           if [ -f requirements-moe.txt ]; then
             python -m pip install -r requirements-moe.txt
           else
@@ -66,8 +75,6 @@ jobs:
         continue-on-error: true
         run: python scripts/collect_institutions.py
 
-      # 디자인 레퍼런스. 서버가 데이터를 그대로 주는 곳만 쓴다.
-      # coolors·imweb·refero 를 왜 뺐는지는 산출물 rejected 에 적혀 있다.
       - name: 디자인 소스 수집 (폰트·팔레트·기사)
         continue-on-error: true
         timeout-minutes: 5
@@ -77,16 +84,6 @@ jobs:
         continue-on-error: true
         run: python scripts/build_design_team.py
 
-      # 고시 수집(5분)과 Gemini 비전(39분)은 gosi-vision.yml 로 옮겼다.
-      # 이 job 은 timeout-minutes 60 인데 그 둘이 44분을 먹어서 MoE 튜닝
-      # 도중 한도에 걸렸고, 그 뒤 9단계(점수 재계산·가격 모델·대시보드
-      # 최종 생성·커밋)가 전부 skipped 되었다. 대시보드가 갱신되지 않던
-      # 이유 중 하나다. 느린 수집은 따로 돌린다.
-
-      # 사람이 찾아낸 영상. data/manual/youtube_links.txt 에 URL 을 넣으면
-      # 받아온다. robots.txt 가 /watch 는 막지 않아 개별 영상은 가능하다.
-      # 지켜볼 채널. robots.txt 가 /@ 와 /channel/ 은 막지 않는다.
-      # 검색 결과를 긁는 게 아니라 지정된 채널만 하나씩 본다.
       - name: 지정 YouTube 채널 수집 (최신 영상 목록)
         continue-on-error: true
         timeout-minutes: 8
@@ -97,8 +94,6 @@ jobs:
         timeout-minutes: 5
         run: python -u scripts/ingest_youtube_links.py
 
-      # 사람이 넣은 논문. arxiv robots.txt 가 Crawl-delay 15 를 걸어서
-      # 한 편에 15초씩 걸린다. 팀 피드가 이 결과를 읽으므로 앞에 둔다.
       - name: 논문 수집 (사람 지정)
         continue-on-error: true
         timeout-minutes: 10
@@ -120,19 +115,6 @@ jobs:
       # =========================
       # DAISO + US BEAUTY PIPELINE
       # =========================
-
-      # 2026-08-31: 가짜 데이터 생성 단계 제거
-      #   - oliveyoung_us_discovery.py : 하드코딩 15건 (archive 로 이동)
-      #   - build_shopify_demand_matching.py : demand_score 등 조작값
-      # 실제 다이소 수집은 daiso-real-collection.yml 이 담당한다.
-
-      # 2026-09-09 제거: Collect US Beauty Market
-      #   scripts/collect_us_beauty_data.py 는 손으로 적은 8건을 돌려줬다.
-      #   가격이 없고 별점만 있는데 source 는 "Olive Young US" 였다.
-      #   더 나쁜 것은 쓰는 자리가 collect_oliveyoung_us.py 와 같았다는 점이다.
-      #   실수집기가 한 번 실패하자 그 8건이 그대로 남아
-      #   market_team.json 과 shopify_demand_matching.json 에
-      #   미국 베스트셀러로 들어갔다. 스크립트째 지운다.
 
       - name: Collect Open Beauty Facts (오픈데이터, 인증 불필요)
         continue-on-error: true
@@ -172,7 +154,7 @@ jobs:
         run: python scripts/ingest_manual_channels.py
 
       # =========================
-      # TRAINING
+      # TRAINING / OBSIDIAN
       # =========================
 
       - name: Prepare transparent real-data corpus
@@ -181,40 +163,29 @@ jobs:
       - name: Normalize Obsidian wikilinks
         continue-on-error: true
         run: |
-          test -f scripts/normalize_obsidian_links.py
-          # non-strict: ambiguous links are auto-resolved; unresolved only warns
-          python scripts/normalize_obsidian_links.py
+          if [ -f scripts/normalize_obsidian_links.py ]; then
+            python scripts/normalize_obsidian_links.py
+          else
+            echo "normalize_obsidian_links.py missing — skip"
+          fi
 
       - name: Rebuild Obsidian graph from real records
         run: |
           python organize_obsidian_graph.py
+
           if [ -f expand_obsidian_graph.py ]; then
             python expand_obsidian_graph.py
           fi
 
-      # Records 가 볼트의 98.6% 라 그래프뷰가 허브 몇 개에 점 수만 개가
-      # 매달린 모습이었다. Record -> Topic -> 팀 으로 층을 하나 넣는다.
-      # 그래프 재구성 뒤에 돌아야 Topic 이 이미 있다.
       - name: 팀 허브 생성 (그래프 층 나누기)
         continue-on-error: true
         timeout-minutes: 5
         run: python -u scripts/build_team_hubs.py
 
-      # 2026-09-09: train 단계를 뺐다.
-      #   train 12분 + tune 15분을 매 회차 돌렸다. 그런데 tune 에 --promote
-      #   가 붙어 있어서 real_knowledge_moe.npz 와 real_knowledge_router.npz
-      #   를 자기 것으로 덮어썼다. train 이 만든 가중치는 매번 그대로
-      #   버려졌다. 12분이 통째로 버려진 것이다.
-      #   train_real_knowledge.py 는 남겨둔다. 손으로 한 벌만 돌려볼 때 쓴다.
-      #   대시보드가 읽던 항목은 tune 이 대신 적는다.
-      #
-      #   그리고 einsum 에 optimize=True 를 붙였다. 기본값이 False 라
-      #   수축 순서를 안 잡고 도는데, 2262x10444 행렬에서 그 차이가 컸다.
-      #   500스텝이 22.1분에서 43초가 됐다. tune 이 15분 타임아웃에 계속
-      #   걸리던 이유가 이것이다.
-      #
-      #   전에는 후보가 1개였다. 값을 하나씩만 줘서 탐색이 아니었다.
-      #   이제 4개를 본다(전문가 3·4 × 학습률 0.7·1.2). 약 3분이다.
+      # =========================
+      # MoE
+      # =========================
+
       - name: MoE 튜닝 후 승격 (실측 말뭉치만)
         continue-on-error: true
         timeout-minutes: 10
@@ -227,14 +198,16 @@ jobs:
             --steps 500 \
             --promote
 
+      # =========================
+      # GLOBAL CHANNELS
+      # =========================
+
       - name: Sync Global Channels and Fix Dashboard UI
         run: |
           if [ -f sync_channels.py ]; then
             python sync_channels.py
           fi
-      # 미국 매체가 K뷰티를 어떻게 다루는지 센다. 판매 데이터가 아니라
-      # 매체 노출 신호라 점수에는 넣지 않고, 어떤 상품군을 더 모을지
-      # 정하는 근거로 쓴다. 첫 수집에서 스킨케어 언급이 85.9% 였다.
+
       - name: K뷰티 미국 기사 수집 (상품군·성분 언급 집계)
         continue-on-error: true
         timeout-minutes: 5
@@ -244,9 +217,10 @@ jobs:
         continue-on-error: true
         run: python scripts/collect_public_signals.py
 
-      # 환율은 상품 수집과 별개로 돈다. 예전에는 collect_daiso.py 안에
-      # 있어서 다이소가 막히면 환율도 같이 멈췄다.
-      # 점수·원가 계산이 이 값을 읽으므로 그 앞에 둔다.
+      # =========================
+      # FX / SCORE
+      # =========================
+
       - name: 환율 갱신 (USD/KRW)
         continue-on-error: true
         timeout-minutes: 3
@@ -256,8 +230,6 @@ jobs:
         continue-on-error: true
         run: python scripts/daiso/score_shopify_demand.py
 
-      # S등급 → Shopify Products CSV (Admin Import용)
-      # score 직후 돌려야 shopify_s_recommendations.json 과 숫자가 맞다.
       - name: Export Shopify S-grade import CSV
         continue-on-error: true
         run: python scripts/daiso/export_shopify_s_csv.py
@@ -274,16 +246,15 @@ jobs:
         continue-on-error: true
         run: python scripts/build_listing_gate.py
 
-      # 법률팀이 "5항목 대기" 로 멈춰 있었는데 그중 넷은 이미 저장소에
-      # 있는 값으로 채울 수 있었다. HS 코드는 미국 공식 HTS 에서 받는다.
       - name: 수출 서류 자동 준비 (HS코드·라벨 시안)
         continue-on-error: true
         timeout-minutes: 5
         run: python -u scripts/prepare_legal_export.py
 
-      # 스토어 개설은 사람이 하지만 준비물은 미리 만들어 둔다.
-      # 사용자가 만든 사이트를 브랜드 기준으로 삼는다.
-      # 브랜드 키트보다 먼저 돌아야 그 값을 쓸 수 있다.
+      # =========================
+      # BRAND / MARKETING
+      # =========================
+
       - name: 내 사이트 수집 (브랜드 기준)
         continue-on-error: true
         timeout-minutes: 3
@@ -306,11 +277,6 @@ jobs:
       # VALIDATION
       # =========================
 
-      # 흩어진 실패 기록을 한 곳에 모은다. 막힘·고장·대기·보류를 나눈다.
-      # 대시보드가 이걸 읽으므로 대시보드 생성보다 먼저 돌아야 한다.
-      # 수집원을 직접 찔러본다. 메모가 아니라 결과를 남긴다.
-      # 샌드박스는 FDA 에 차단당해 404 를 받는데 러너에서는 정상이다.
-      # 그래서 러너에서 확인해야 한다.
       - name: 수집원 생존 확인 (러너에서 직접 호출)
         continue-on-error: true
         timeout-minutes: 5
@@ -321,34 +287,79 @@ jobs:
         timeout-minutes: 3
         run: python -u scripts/build_error_report.py
 
+      # =========================
+      # INITIAL RUNTIME
+      # =========================
+
       - name: Generate final dashboard snapshot
         timeout-minutes: 10
         run: python scripts/generate_dashboard_runtime.py
 
-      # runtime 생성 후 commit_summary 를 다시 붙여 CSV·S건수를 대시보드에 남긴다
       - name: Attach commit_summary to runtime
         continue-on-error: true
         run: python scripts/daiso/export_shopify_s_csv.py
 
-      # 다중 에이전트 진단 플레인 (조건부). 데이터 JSON은 수정하지 않고 data/agents/ 만 기록.
-      # 다중 에이전트 + Safe Auto-Fix.
-      # 자동 수정은 링크/queue/runtime 같은 검증 가능한 영역만 허용한다.
-      # Shopify 등록·광고·force push·secrets 변경·임의 코드패치는 하지 않는다.
-      - name: JARVIS multi-agent ops + safe auto-fix
+      # =========================
+      # JARVIS AGENTS + SAFE AUTOFIX
+      # =========================
+
+      - name: JARVIS multi-agent + Safe Auto-Fix
         continue-on-error: true
         env:
-          JARVIS_AGENTS_FORCE: "0"
-          JARVIS_AUTOFIX: "1"
+          JARVIS_AGENTS_FORCE: ${{ inputs.agents }}
+          JARVIS_AUTOFIX: ${{ inputs.autofix }}
         run: |
-          python scripts/run_jarvis_agents.py
+          echo "JARVIS_AGENTS_FORCE=${JARVIS_AGENTS_FORCE}"
+          echo "JARVIS_AUTOFIX=${JARVIS_AUTOFIX}"
 
-      # 팀이 보고한 숫자를 원본 파일과 대조한다. 스크립트가 오류 없이
-      # 끝나도 숫자가 틀릴 수 있고, 실제로 이틀 동안 네 번 그랬다.
-      # 여기서 빨갛게 뜨는 편이 조용히 틀린 값을 띄우는 것보다 낫다.
-      # 팀 보고 숫자 감사는 발행 액션(.github/actions/publish) 안으로 옮겼다.
-      # 여기서 돌리면 아직 원격과 합치기 전 트리를 본다. 그런데 다른
-      # 워크플로가 그 사이 원본 파일을 갱신했으면 합친 뒤 숫자가 달라진다.
-      # 실제로 밀어넣는 트리를 봐야 감사가 뜻이 있다.
+          python scripts/run_jarvis_agents_safe_autofix.py
+
+      # =========================
+      # POST AUTOFIX GRAPH REBUILD
+      # =========================
+
+      - name: Rebuild Obsidian graph after Safe Auto-Fix
+        continue-on-error: true
+        run: |
+          if [ -f scripts/normalize_obsidian_links.py ]; then
+            python scripts/normalize_obsidian_links.py
+          fi
+
+          python organize_obsidian_graph.py
+
+          if [ -f expand_obsidian_graph.py ]; then
+            python expand_obsidian_graph.py
+          fi
+
+          if [ -f scripts/build_team_hubs.py ]; then
+            python -u scripts/build_team_hubs.py
+          fi
+
+      # =========================
+      # FINAL RUNTIME
+      # =========================
+
+      - name: Generate final dashboard runtime after Auto-Fix
+        timeout-minutes: 10
+        run: |
+          python scripts/generate_dashboard_runtime.py
+
+      # =========================
+      # AUTOFIX REPORT VALIDATION
+      # =========================
+
+      - name: Validate Safe Auto-Fix report
+        run: |
+          if [ -f data/agents/autofix_report.json ]; then
+            python -m json.tool data/agents/autofix_report.json >/dev/null
+            echo "Safe Auto-Fix report OK"
+          else
+            echo "Safe Auto-Fix report not found — continuing"
+          fi
+
+      # =========================
+      # REAL-DATA VALIDATION
+      # =========================
 
       - name: Validate real-data artifacts
         run: |
@@ -363,21 +374,34 @@ jobs:
           import json
           from pathlib import Path
 
-          runtime = json.loads(Path("data/dashboard_runtime.json").read_text(encoding="utf-8"))
-          training = json.loads(Path("data/knowledge/training_status.json").read_text(encoding="utf-8"))
+          runtime = json.loads(
+              Path("data/dashboard_runtime.json")
+              .read_text(encoding="utf-8")
+          )
+
+          training = json.loads(
+              Path("data/knowledge/training_status.json")
+              .read_text(encoding="utf-8")
+          )
 
           assert "global_channels" in runtime
-          assert "global_channels_status" in runtime, "채널 상태 메타가 없음"
+          assert "global_channels_status" in runtime, \
+              "채널 상태 메타가 없음"
 
-          # 채널이 비어 있는 것은 정상이다. 비었는데 사유가 없으면 실패로 본다.
           for name, meta in runtime["global_channels_status"].items():
               if meta.get("count", 0) == 0:
-                  assert meta.get("status") in ("empty", "disabled", "failed"), \
-                      f"{name}: 빈 채널인데 상태가 {meta.get('status')}"
-                  assert meta.get("reason"), f"{name}: 빈 채널인데 사유가 없음"
+                  assert meta.get("status") in (
+                      "empty",
+                      "disabled",
+                      "failed",
+                  ), f"{name}: 빈 채널인데 상태가 {meta.get('status')}"
+
+                  assert meta.get("reason"), \
+                      f"{name}: 빈 채널인데 사유가 없음"
 
           assert "training" in runtime
           assert "graph" in runtime
+
           assert training["training_performed"] is True
 
           print("Validation OK")
@@ -387,15 +411,6 @@ jobs:
       # COMMIT & PUSH
       # =========================
 
-      # 앞 단계가 깨져도 이번 회차가 모은 것은 커밋한다.
-      #
-      # 대시보드 생성이 NameError 로 죽자 이 단계가 통째로 건너뛰어졌고,
-      # 그 바람에 팀 피드·팀 허브·브랜드 키트·K뷰티 뉴스·기관 피드·
-      # 유튜브 채널까지 여덟 개가 29시간 동안 09-07 에 멈춰 있었다.
-      # 화면 한 곳이 깨졌다고 그날 모은 자료를 통째로 버릴 이유가 없다.
-      #
-      # 다만 결과는 그대로 실패로 남긴다. 아래 '앞 단계 실패 확인' 이
-      # 빨갛게 끝낸다. 자료는 남기고 문제는 드러낸다.
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: always()
         uses: ./.github/actions/publish
@@ -403,14 +418,37 @@ jobs:
           paths: data obsidian
           message: Run JARVIS Daiso + US Beauty Shopify Pipeline & Sync Channels
 
+      # =========================
+      # SUMMARY
+      # =========================
+
       - name: Complete summary
         if: always()
         run: |
           echo "JARVIS Deep Analysis finished."
           echo "Workflow: ${{ job.status }}"
 
-      # 위에서 continue-on-error 나 if: always() 로 넘어간 실패를 여기서
-      # 드러낸다. 커밋은 이미 끝났으므로 자료는 남아 있다.
+          if [ -f data/agents/autofix_report.json ]; then
+            echo "Safe Auto-Fix report:"
+            python - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path("data/agents/autofix_report.json")
+
+          try:
+              d = json.loads(p.read_text(encoding="utf-8"))
+              print("status:", d.get("status"))
+              print("generated_at:", d.get("generated_at"))
+          except Exception as e:
+              print("report read failed:", e)
+          PY
+          fi
+
+      # =========================
+      # FINAL FAILURE CHECK
+      # =========================
+
       - name: 앞 단계 실패 확인
         if: always()
         run: |
@@ -418,4 +456,5 @@ jobs:
             echo "::error::앞 단계 중 하나가 실패했다. 커밋은 마쳤으니 자료는 남아 있다."
             exit 1
           fi
+
           echo "모든 단계 정상"
