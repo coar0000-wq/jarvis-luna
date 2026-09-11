@@ -2,7 +2,7 @@
 title: "Record 473f6fe980 · I-Spent-6-Weeks-in-KoreaThese-Are-the-K-Beauty-Products-Everyones-Buzz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.651070+00:00
+updated_at: 2026-09-11T07:44:36.204369+00:00
 tags: [record, real-data]
 ---
 

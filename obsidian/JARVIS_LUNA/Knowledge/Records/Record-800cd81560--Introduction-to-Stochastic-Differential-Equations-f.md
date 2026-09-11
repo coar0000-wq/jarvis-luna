@@ -2,7 +2,7 @@
 title: "Record 800cd81560 · Introduction-to-Stochastic-Differential-Equations-for-Generative-Machi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.769647+00:00
+updated_at: 2026-09-11T07:44:36.296137+00:00
 tags: [record, real-data]
 ---
 

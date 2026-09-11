@@ -2,7 +2,7 @@
 title: "Record 44436688db · DSPI-Net-a-dual-stream-perception-interaction-network-for-lightweight-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.384926+00:00
+updated_at: 2026-09-11T07:44:36.017745+00:00
 tags: [record, real-data]
 ---
 

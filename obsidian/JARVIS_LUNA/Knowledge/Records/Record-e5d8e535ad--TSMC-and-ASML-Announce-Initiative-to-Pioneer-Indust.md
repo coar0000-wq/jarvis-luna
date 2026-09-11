@@ -2,7 +2,7 @@
 title: "Record e5d8e535ad · TSMC-and-ASML-Announce-Initiative-to-Pioneer-Industry-Transition-to-La"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.839590+00:00
+updated_at: 2026-09-11T07:44:36.349623+00:00
 tags: [record, real-data]
 ---
 

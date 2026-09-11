@@ -2,7 +2,7 @@
 title: "Record c5ae0eca0e · Everything-Shower-the-TikTok-beauty-routine-causing-aesthetic-burnout-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.637333+00:00
+updated_at: 2026-09-11T07:44:36.194517+00:00
 tags: [record, real-data]
 ---
 

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-11T06:08:55.777874+00:00",
+  "generated_at": "2026-09-11T07:42:58.747534+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
-  "count": 6,
+  "count": 7,
   "priority_note": "Shopify 1차 등록 후보. 이 파일만 정본으로 사용.",
   "recommendations": [
     {
@@ -17,16 +17,16 @@
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048583",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/GuN4uykABHahtwRmVfHO1048583_00_00GuN4uykABHahtwRmVfHO.png",
-      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
       "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-        "similarity": 0.667,
-        "demand_weight": 0.833,
+        "channel": "tiktok_shop_us",
+        "global_product": "Skin1004 Madagascar Centella Ampoule",
+        "similarity": 0.7,
+        "demand_weight": 0.75,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.555
+        "match_score": 0.525
       },
       "registerable": true
     },
@@ -107,6 +107,31 @@
     },
     {
       "rank": 5,
+      "pd_no": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 90,
+      "grade": "S",
+      "s_rule": "ingredient+form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
+      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "ANUA Heartleaf 77 Soothing Toner",
+        "similarity": 0.92,
+        "demand_weight": 0.95,
+        "matched_tokens": [
+          "heartleaf",
+          "toner"
+        ],
+        "match_score": 0.874
+      },
+      "registerable": true
+    },
+    {
+      "rank": 6,
       "pd_no": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
       "bucket": "스킨케어",
@@ -131,27 +156,26 @@
       "registerable": true
     },
     {
-      "rank": 6,
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "rank": 7,
+      "pd_no": "1045421",
+      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 87,
+      "shopify_score": 85,
       "grade": "S",
-      "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+      "s_rule": "strong_form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231221/4S2p6tvbv9F2EJVNtStV1045421_00_004S2p6tvbv9F2EJVNtStV.jpg",
+      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
       "matched_global": {
         "channel": "tiktok_shop_us",
-        "global_product": "ANUA Heartleaf 77 Soothing Toner",
-        "similarity": 0.92,
-        "demand_weight": 0.95,
+        "global_product": "TIRTIR Mask Fit Red Cushion",
+        "similarity": 0.733,
+        "demand_weight": 1.0,
         "matched_tokens": [
-          "heartleaf",
-          "toner"
+          "cushion"
         ],
-        "match_score": 0.874
+        "match_score": 0.733
       },
       "registerable": true
     }

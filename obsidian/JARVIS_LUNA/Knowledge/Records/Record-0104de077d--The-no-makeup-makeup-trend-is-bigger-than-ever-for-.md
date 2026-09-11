@@ -2,7 +2,7 @@
 title: "Record 0104de077d · The-no-makeup-makeup-trend-is-bigger-than-ever-for-summer-2026-What-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.621276+00:00
+updated_at: 2026-09-11T07:44:36.183125+00:00
 tags: [record, real-data]
 ---
 
@@ -10,12 +10,12 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifkFVX3lxTFBQU0dyLXR0ZGNlaDlOZXQ1djdfa3paNUdvLW44UmduVjFuLWYzMG12NjBwZjg2Z1Q4N25BUXpVQ29qRmJ3dXRVSjEyQmdhNnFPSWt1bnNzZVZoZW1OMVB4RFBOX1JZcEllMkFIcmo0UnZSVERITmFPZEJyWDRyUQ?oc=5)
 
-**제목:** The 'no makeup makeup' trend is bigger than ever for summer 2026: What to know - ABC News - Breaking News, Latest News and Videos
+**제목:** The 'no makeup makeup' trend is bigger than ever for summer 2026: What to know - abcnews.com
 
-The 'no makeup makeup' trend is bigger than ever for summer 2026: What to know - ABC News - Breaking News, Latest News and Videos
+The 'no makeup makeup' trend is bigger than ever for summer 2026: What to know - abcnews.com
 
 **출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

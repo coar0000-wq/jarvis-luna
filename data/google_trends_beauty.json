@@ -1,26 +1,26 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-11T05:46:34.587556+00:00",
+  "collected_at": "2026-09-11T07:39:01.026786+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
-  "count": 89,
+  "count": 90,
   "items": [
     {
-      "keyword": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - celebsecrets.com",
-      "product": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - celebsecrets.com",
+      "keyword": "K-beauty giant Cosmax moves a gentler retinol into stick form - Korea Biomedical Review",
+      "product": "K-beauty giant Cosmax moves a gentler retinol into stick form - Korea Biomedical Review",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWlTTVg4ZkQ1N1Rfemtmamx1WXdDemF4b1JIaUIxWVdJeUJKQlh5QjRCbXFmTWxnT3JMWlh0TmwwaVpfVnZNR1B1N0prR0p6dlhJTHhVQU9fN3VNdDlDZHN3dWswdTcydjVvMmo2RXVrN09vcUgweHotU0dQZjFIb2V3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUdDdvR2d2OVFOalFSSmtja1NjWlY0R3FVUUI3THBYR1c1YXo0SEh5WkVYZHJWQWdsdjI3eWRFNi1ZZ0l1MF9XOWtTNlFsUHczczFpNWo0SVR6bU14b1RidEkwSU10TnVKbkdEMU5n0gFyQVVfeXFMT1AxUmtWUF9xczdQd0hNbkxXdTE2OC1LSm11Y00tVUQyVEpjYnlGazJqd09FODQwc1RheV9haVJzOHBWZXhra0ZhX09UREJHUlhfdXE1b19UZWdtOUpHNXlNWHNkdlVybFJER1pKZ0JKYktR?oc=5",
       "kind": "news",
       "beauty": true
     },
     {
-      "keyword": "Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - Korea Biomedical Review",
-      "product": "Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - Korea Biomedical Review",
+      "keyword": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - Celeb Secrets",
+      "product": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - Celeb Secrets",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TTjJFMUxHR3ZlOEJkRlNLekZpOTBpOVREVVZqUmNEcWhfbkFIb0pMclZybVZGNThud3pJdlE5TzNBaUZMTmNFQkZxWDdKNk50LUI3OTFJVTVJOEt6M1ZuVGNzZHN0NnhhUHZvLXpB0gFyQVVfeXFMT2wyVzU1U2NGZmcwMFRXdWJfT3VNdXpLYWlzSkcyUHBtRnZSZHRrMHJ3R1RIV01yTmtDaktQUi1hSDVrblRuQ3BTbXFlb1RZeTY4Rzc3RktnS0tSQWlUNkRwM1l0ZDM3al9ZdHFQSm45RFZR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWlTTVg4ZkQ1N1Rfemtmamx1WXdDemF4b1JIaUIxWVdJeUJKQlh5QjRCbXFmTWxnT3JMWlh0TmwwaVpfVnZNR1B1N0prR0p6dlhJTHhVQU9fN3VNdDlDZHN3dWswdTcydjVvMmo2RXVrN09vcUgweHotU0dQZjFIb2V3?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -43,11 +43,20 @@
       "beauty": true
     },
     {
-      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
-      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
+      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
+      "product": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeEJ0MTljNGRxbHppX0V4djZuR3ZoTTlQX1FRT0Z0VHgwMmxuLWhyRlY1ZnRkMktJYjItc0ZSUi05T0hIeDFFUGhZSUNtN2xqVHhQSHozeHJWYzY1Vzl2UFoxUjV3Q3AzdXowc1hlODhkck50Z3V2N3d0Wm5JX3EtYWsxeFBQQVh3Z0FnYnZ3Nm02SFJDd1hPYzltdkdOVFMwdUR1eW1QbnpuUQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -61,11 +70,11 @@
       "beauty": true
     },
     {
-      "keyword": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - healthline.com",
-      "product": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - healthline.com",
+      "keyword": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
+      "product": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeEJ0MTljNGRxbHppX0V4djZuR3ZoTTlQX1FRT0Z0VHgwMmxuLWhyRlY1ZnRkMktJYjItc0ZSUi05T0hIeDFFUGhZSUNtN2xqVHhQSHozeHJWYzY1Vzl2UFoxUjV3Q3AzdXowc1hlODhkck50Z3V2N3d0Wm5JX3EtYWsxeFBQQVh3Z0FnYnZ3Nm02SFJDd1hPYzltdkdOVFMwdUR1eW1QbnpuUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFlyd3hfU3ozdUtzS0d1MU5Hbmx6MHlWZTFicUdJT2NrSWlaLWJTS2lzQ21tZGhrQTRRei1FeDJnQk1OU0dvM1R5cUlnYnZFM05SM0syVjhnYXlnTmV5LVlHRmNpTmVBamFQMVFHVWJEQW9JVm1uTGxWLW84dTZCYTZ1RU1QVjhYTGhaaEp2NHNkQ2k3T1hsZElFcw?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -88,20 +97,20 @@
       "beauty": true
     },
     {
-      "keyword": "We Tested Dozens of the Best Korean Skincare Products—These 17 Gave Us Radiant Skin - byrdie.com",
-      "product": "We Tested Dozens of the Best Korean Skincare Products—These 17 Gave Us Radiant Skin - byrdie.com",
+      "keyword": "US and Korean sunscreens are not created equal, study says - WTOP News",
+      "product": "US and Korean sunscreens are not created equal, study says - WTOP News",
       "sub": "Korean sunscreen",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sc1dUR0l3QkxvbDVjMnk4bzBxd0RKMW13ZVFBZlRLQmFwM3gtdjR1Sk5vZkp3c2xFNUc5Tm9ycThJWGc3TnVZekNOWHNYVHppZEhWWkZ6NjFwQzlZakk2VERaNzlNRVVxaGk1a0ZUWQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnpvNUR0bm0tV2E0M183TDZLUVUwal9NRHduZ21ULUtPZFl2SnFoVS1WVFVZTjJtZjFfX1R5Um1Lajk0TXZzbnVpbkdpMXdMbno4dHo0Y3g4R3lYbV9rRkcyY0VsSjRVSFFPWVV5cTNNWG0tVC0zZ0tER251cDRCM3A0ZEJnNTBjWjBrYnp2dHRHSXd2UkNMckJqQ1JmUmFkX1RCeElDdmtzMGJ4X3V6SjJYbTQyUlNvazMycGw4b2k4aG44YkdN?oc=5",
       "kind": "news",
       "beauty": true
     },
     {
-      "keyword": "US and Korean sunscreens are not created equal, study says - wtop.com",
-      "product": "US and Korean sunscreens are not created equal, study says - wtop.com",
+      "keyword": "We Tested Dozens of the Best Korean Skincare Products—These 17 Gave Us Radiant Skin - Byrdie",
+      "product": "We Tested Dozens of the Best Korean Skincare Products—These 17 Gave Us Radiant Skin - Byrdie",
       "sub": "Korean sunscreen",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnpvNUR0bm0tV2E0M183TDZLUVUwal9NRHduZ21ULUtPZFl2SnFoVS1WVFVZTjJtZjFfX1R5Um1Lajk0TXZzbnVpbkdpMXdMbno4dHo0Y3g4R3lYbV9rRkcyY0VsSjRVSFFPWVV5cTNNWG0tVC0zZ0tER251cDRCM3A0ZEJnNTBjWjBrYnp2dHRHSXd2UkNMckJqQ1JmUmFkX1RCeElDdmtzMGJ4X3V6SjJYbTQyUlNvazMycGw4b2k4aG44YkdN?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sc1dUR0l3QkxvbDVjMnk4bzBxd0RKMW13ZVFBZlRLQmFwM3gtdjR1Sk5vZkp3c2xFNUc5Tm9ycThJWGc3TnVZekNOWHNYVHppZEhWWkZ6NjFwQzlZakk2VERaNzlNRVVxaGk1a0ZUWQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -133,8 +142,8 @@
       "beauty": true
     },
     {
-      "keyword": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
-      "product": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
+      "keyword": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
+      "product": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5",
@@ -187,8 +196,8 @@
       "beauty": true
     },
     {
-      "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
-      "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
+      "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
+      "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LUmI0VzFqenBxYXlPcjlQVE4xOEVsbE8wYW4xdG1jSHRWbFQzWFZEOVRpTmN0bndubWptdUJqc3BRb2ExWUJCZmtRSVhSWDliZDN5RGhjVGhLSW1ieU45TVhMZVpKSFVYZWc?oc=5",
@@ -259,8 +268,8 @@
       "beauty": true
     },
     {
-      "keyword": "Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - NewBeauty",
-      "product": "Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - NewBeauty",
+      "keyword": "Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - newbeauty.com",
+      "product": "Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - newbeauty.com",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0TXdQNUtJTm1FMlBLR2ZtRTF0RDA5QjJqM3FuNENyZm9sU3NJb2pVYzhaZ0xSckpIOHBNRlJmTERjd0E2TGphTlhJb3p1V0prc19YenBRVmk1d095SzZ6SXZEdTRSSWd5MWpTNDVud1JXUWZqX3c?oc=5",
@@ -354,15 +363,6 @@
       "sub": "niacinamide serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTlpDWDM1WVl1OUxvNFJjVGFROXM2TFE0YWNOMUk1aEgtM3g0QWFsb1VVU3RValNGTTlIRTdVWVhZUmNZbm9OZGlKVUZLb3o4NkVpcG40VWtkdUd1UWVCT3lUekFPX2RlUVQzRy1GLUNHQkNnSzFTX3pkU3FrUUNfckVzSXAtSjhEWnpzMThUX2dlQQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "I've Had So Many Compliments on My \"Buttery\" Skin Since Using This Product - Who What Wear",
-      "product": "I've Had So Many Compliments on My \"Buttery\" Skin Since Using This Product - Who What Wear",
-      "sub": "niacinamide serum",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DVS1JOUxVSWRkci0zVk1ibFIza2xrcFpRZlNXM3JCWnJELThyc0ZRYThSZ3kxUjljZDB0R1pUbGJOREtkMi1GejkzOHM5RzVTOGN4RkNBMUhzeWI1RHBZbVdpejFHTGNKS3pEWlYxbmE?oc=5",
       "kind": "news",
       "beauty": true
     }

@@ -2,7 +2,7 @@
 title: "Record 340d4363f7 · Is-Your-Scalp-the-New-It-Body-Part---The-New-York-Times"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.623046+00:00
+updated_at: 2026-09-11T07:44:36.184334+00:00
 tags: [record, real-data]
 ---
 

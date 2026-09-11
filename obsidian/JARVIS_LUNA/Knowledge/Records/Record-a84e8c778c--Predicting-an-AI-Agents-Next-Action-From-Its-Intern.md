@@ -2,7 +2,7 @@
 title: "Record a84e8c778c · Predicting-an-AI-Agents-Next-Action-From-Its-Internal-State-Before-It-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.469116+00:00
+updated_at: 2026-09-11T07:44:36.076765+00:00
 tags: [record, real-data]
 ---
 

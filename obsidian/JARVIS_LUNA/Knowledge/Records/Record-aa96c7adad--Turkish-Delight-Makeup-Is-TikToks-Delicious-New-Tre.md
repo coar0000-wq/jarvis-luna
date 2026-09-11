@@ -1,18 +1,18 @@
 ---
-title: "Record aa96c7adad · Turkish-Delight-Makeup-Is-TikToks-Delicious-New-Trend---NewBeauty"
+title: "Record aa96c7adad · Turkish-Delight-Makeup-Is-TikToks-Delicious-New-Trend---newbeautycom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.563561+00:00
+updated_at: 2026-09-11T07:44:36.143994+00:00
 tags: [record, real-data]
 ---
 
-# Record aa96c7adad · Turkish-Delight-Makeup-Is-TikToks-Delicious-New-Trend---NewBeauty
+# Record aa96c7adad · Turkish-Delight-Makeup-Is-TikToks-Delicious-New-Trend---newbeautycom
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMia0FVX3lxTE9uTmZ5Wm12WUUwc2xlcjJyOWlMT1VLVkxvM2VVekEtWmtvNDkwNnpLbTU2TF95S24wSkZNUlBqS2JBdUFGNnpyS240cnlYQmM5bHFleURIdDdSTG9qQk94R1RmazlpTWFNOEJV?oc=5)
 
-**제목:** Turkish Delight Makeup Is TikTok’s Delicious New Trend - NewBeauty
+**제목:** Turkish Delight Makeup Is TikTok’s Delicious New Trend - newbeauty.com
 
-Turkish Delight Makeup Is TikTok’s Delicious New Trend - NewBeauty
+Turkish Delight Makeup Is TikTok’s Delicious New Trend - newbeauty.com
 
 **출처:** Source · Google Search
 

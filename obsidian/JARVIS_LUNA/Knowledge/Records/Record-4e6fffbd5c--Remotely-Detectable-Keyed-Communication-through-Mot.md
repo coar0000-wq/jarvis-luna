@@ -2,7 +2,7 @@
 title: "Record 4e6fffbd5c · Remotely-Detectable-Keyed-Communication-through-Motion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.282717+00:00
+updated_at: 2026-09-11T07:44:35.928357+00:00
 tags: [record, real-data]
 ---
 

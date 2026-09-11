@@ -2,7 +2,7 @@
 title: "Record 48d3aa1168 · Iceland-launches-a-national-AI-education-pilot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.822635+00:00
+updated_at: 2026-09-11T07:44:36.337129+00:00
 tags: [record, real-data]
 ---
 

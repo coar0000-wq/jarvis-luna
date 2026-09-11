@@ -2,7 +2,7 @@
 title: "Record 36451c5c92 · Dielectric-stacking-engineered-scalable-reconfigurable-transistor-plat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.371888+00:00
+updated_at: 2026-09-11T07:44:36.008873+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 38db17ef33 · Adaptogen-Deep-Moisture-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.901818+00:00
+updated_at: 2026-09-11T07:44:36.393354+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 5e0906e6e4 · Improving-Lakebase-Postgres-compute-cache"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.850569+00:00
+updated_at: 2026-09-11T07:44:36.357713+00:00
 tags: [record, real-data]
 ---
 

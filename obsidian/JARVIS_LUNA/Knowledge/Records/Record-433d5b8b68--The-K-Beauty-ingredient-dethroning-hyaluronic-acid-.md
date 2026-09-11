@@ -2,7 +2,7 @@
 title: "Record 433d5b8b68 · The-K-Beauty-ingredient-dethroning-hyaluronic-acid-in-2026-meet-PDRN--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.626057+00:00
+updated_at: 2026-09-11T07:44:36.186395+00:00
 tags: [record, real-data]
 ---
 

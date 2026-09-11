@@ -2,7 +2,7 @@
 title: "Record e06c60c7b2 · AI4AI-Bench-Benchmarking-LLM-Agents-in-Algorithmic-Design-for-Recursiv"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.958290+00:00
+updated_at: 2026-09-11T07:44:36.429993+00:00
 tags: [record, real-data]
 ---
 

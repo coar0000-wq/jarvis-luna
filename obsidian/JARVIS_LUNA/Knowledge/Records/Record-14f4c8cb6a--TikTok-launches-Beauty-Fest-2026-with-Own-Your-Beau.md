@@ -2,7 +2,7 @@
 title: "Record 14f4c8cb6a · TikTok-launches-Beauty-Fest-2026-with-Own-Your-Beautiful-The-Glow-Up-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.522054+00:00
+updated_at: 2026-09-11T07:44:36.115546+00:00
 tags: [record, real-data]
 ---
 

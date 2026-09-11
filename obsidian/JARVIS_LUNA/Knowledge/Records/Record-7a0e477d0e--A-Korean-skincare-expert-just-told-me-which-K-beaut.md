@@ -2,7 +2,7 @@
 title: "Record 7a0e477d0e · A-Korean-skincare-expert-just-told-me-which-K-beauty-trend-is-complete"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.552979+00:00
+updated_at: 2026-09-11T07:44:36.136570+00:00
 tags: [record, real-data]
 ---
 

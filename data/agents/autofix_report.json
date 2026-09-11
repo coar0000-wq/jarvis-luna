@@ -1,15 +1,125 @@
 {
   "agent": "Safe-Auto-Fix",
-  "generated_at": "2026-09-11T06:09:48.415857+00:00",
+  "generated_at": "2026-09-11T07:44:17.222184+00:00",
   "status": "success",
   "enabled": true,
-  "trigger": [
-    "parse_failed=7"
+  "chief_of_staff": {
+    "report_path": "data/agents/chief_of_staff.json",
+    "overall_priority": "P1",
+    "overall_action": "SAFE_BLACKLIST_SYNC",
+    "risk": "high"
+  },
+  "snapshot_before": {
+    "collection": {
+      "requested": 110,
+      "ok": 12,
+      "parse_failed": 7,
+      "finished_at": "2026-09-09T22:42:59.014772+00:00"
+    },
+    "channels": {
+      "live": 11,
+      "total": 12,
+      "empty": [
+        {
+          "channel": "shopify_demand_matching",
+          "count": 0,
+          "status": "disabled",
+          "reason": "demand_score·predicted_orders·expected_roas 가 조작값이라 삭제. 실측 지표 확보 후 재설계."
+        }
+      ]
+    },
+    "graph": {
+      "nodes": 0,
+      "links": 321832,
+      "dangling_generated": 0
+    },
+    "shopify": {
+      "s_count": 7
+    },
+    "queue": {
+      "blacklist_count": 7
+    }
+  },
+  "snapshot_after": {
+    "collection": {
+      "requested": 110,
+      "ok": 12,
+      "parse_failed": 7,
+      "finished_at": "2026-09-09T22:42:59.014772+00:00"
+    },
+    "channels": {
+      "live": 11,
+      "total": 12,
+      "empty": [
+        {
+          "channel": "shopify_demand_matching",
+          "count": 0,
+          "status": "disabled",
+          "reason": "demand_score·predicted_orders·expected_roas 가 조작값이라 삭제. 실측 지표 확보 후 재설계."
+        }
+      ]
+    },
+    "graph": {
+      "nodes": 0,
+      "links": 321832,
+      "dangling_generated": 0
+    },
+    "shopify": {
+      "s_count": 7
+    },
+    "queue": {
+      "blacklist_count": 7
+    }
+  },
+  "improvement": {
+    "graph_dangling_before": 0,
+    "graph_dangling_after": 0,
+    "parse_failed_before": 7,
+    "parse_failed_after": 7,
+    "s_count_before": 7,
+    "s_count_after": 7,
+    "channels_live_before": 11,
+    "channels_live_after": 11
+  },
+  "changes": [
+    {
+      "action": "repair_daiso_queue",
+      "started_at": "2026-09-11T07:44:17.220931+00:00",
+      "enabled": true,
+      "changed": false,
+      "added_to_blacklist": [],
+      "already_blacklisted": [
+        "1069432",
+        "1058806",
+        "30493",
+        "1065883",
+        "1072035",
+        "10346312",
+        "1057256"
+      ],
+      "removed_from_priority": [],
+      "removed_from_urls": [],
+      "candidate_count": 7,
+      "reason": null,
+      "blacklist_field": "blacklist_pd_nos",
+      "finished_at": "2026-09-11T07:44:17.220975+00:00"
+    },
+    {
+      "action": "normalize_obsidian_links",
+      "changed": false,
+      "skipped": true,
+      "reason": "Chief of Staff did not approve NORMALIZE_AND_REBUILD_GRAPH"
+    },
+    {
+      "action": "runtime_refresh",
+      "changed": false,
+      "skipped": true,
+      "reason": "no safe autofix output changed and runtime refresh not explicitly enabled"
+    }
   ],
-  "parse_failed": 7,
   "queue": {
     "action": "repair_daiso_queue",
-    "started_at": "2026-09-11T06:09:48.415779+00:00",
+    "started_at": "2026-09-11T07:44:17.220931+00:00",
     "enabled": true,
     "changed": false,
     "added_to_blacklist": [],
@@ -24,11 +134,10 @@
     ],
     "removed_from_priority": [],
     "removed_from_urls": [],
-    "skipped": [],
+    "candidate_count": 7,
     "reason": null,
     "blacklist_field": "blacklist_pd_nos",
-    "candidate_count": 7,
-    "finished_at": "2026-09-11T06:09:48.415837+00:00"
+    "finished_at": "2026-09-11T07:44:17.220975+00:00"
   },
   "queue_validation": {
     "queue_is_dict": true,
@@ -36,27 +145,14 @@
     "blacklist_field": "blacklist_pd_nos",
     "ok": true
   },
-  "obsidian": null,
-  "graph_rebuild": null,
-  "runtime_generation": null,
-  "summary": {
-    "changed": false,
-    "changed_files": [],
-    "safe_scope": [
-      "data/daiso_real/beauty_queue.json",
-      "obsidian/",
-      "data/dashboard_runtime.json",
-      "data/agents/"
-    ],
-    "never_modified": [
-      "Python source code",
-      "GitHub Actions YAML",
-      "collection_status.json",
-      "Shopify Admin",
-      "ad accounts",
-      "payment/legal/external accounts"
-    ]
+  "runtime_validation": {
+    "exists": true,
+    "valid_json": true,
+    "has_channels": true,
+    "has_graph": true,
+    "ok": true
   },
+  "command_failures": [],
   "policy": {
     "allow_code_autofix": false,
     "allow_workflow_autofix": false,
@@ -65,5 +161,24 @@
     "allow_external_account_write": false,
     "allow_force_push": false,
     "allow_deterministic_data_repair": true
-  }
+  },
+  "safe_scope": [
+    "data/daiso_real/beauty_queue.json",
+    "obsidian/",
+    "data/dashboard_runtime.json",
+    "data/agents/chief_of_staff.json",
+    "data/agents/autofix_report.json"
+  ],
+  "never_modified": [
+    "Python source code",
+    "GitHub Actions YAML",
+    "data/daiso_real/collection_status.json",
+    "Shopify Admin",
+    "Shopify product publication",
+    "ad accounts",
+    "payment settings",
+    "legal submissions",
+    "secrets",
+    "external accounts"
+  ]
 }

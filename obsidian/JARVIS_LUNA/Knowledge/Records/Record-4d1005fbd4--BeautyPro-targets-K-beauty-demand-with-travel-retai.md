@@ -2,7 +2,7 @@
 title: "Record 4d1005fbd4 · BeautyPro-targets-K-beauty-demand-with-travel-retail-exclusive-Glass-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.713050+00:00
+updated_at: 2026-09-11T07:44:36.250900+00:00
 tags: [record, real-data]
 ---
 

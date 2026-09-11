@@ -2,7 +2,7 @@
 title: "Record f8194799e1 · Target-launches-Beauty-Studio-with-K-beauty-and-premium-skin-care-focu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.612936+00:00
+updated_at: 2026-09-11T07:44:36.177553+00:00
 tags: [record, real-data]
 ---
 

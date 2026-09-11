@@ -2,7 +2,7 @@
 title: "Record b83c08f333 · Construction-of-Control-Lyapunov-Barrier-Functions-from-CLF-CBF-Pairs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.316711+00:00
+updated_at: 2026-09-11T07:44:35.970099+00:00
 tags: [record, real-data]
 ---
 

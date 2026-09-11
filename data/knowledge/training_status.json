@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-11T06:08:26.170639+00:00",
-  "real_records": 3118,
+  "updated_at": "2026-09-11T07:42:26.527631+00:00",
+  "real_records": 3120,
   "source_labels": {
     "ai-image": 109,
     "ai-research": 2743,
-    "shopify-commerce-image": 266
+    "shopify-commerce-image": 268
   },
-  "corpus_sha256": "b53a79b84519bb0fd222f3cb39e8331342c24701b4551f308f637f0b35a05adb",
+  "corpus_sha256": "3ab4420461d72877597809492bcf851564426b467449cabffb342e7662a572e7",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,21 +14,21 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.8797305965362412,
+  "training_accuracy_on_corpus": 0.8791666666666667,
   "mean_gate_load": [
     0.278962,
     0.3227,
     0.398337
   ],
   "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
-  "trained_corpus_sha256": "b53a79b84519bb0fd222f3cb39e8331342c24701b4551f308f637f0b35a05adb",
+  "trained_corpus_sha256": "3ab4420461d72877597809492bcf851564426b467449cabffb342e7662a572e7",
   "tuning_promoted": true,
   "tuning_steps": 500,
   "tuning_validation_accuracy": 0.8860544217687075,
-  "tuning_final_loss": 0.40912624528948804,
-  "tuning_gate_load_std": 0.1454699951919328,
+  "tuning_final_loss": 0.4099959475304798,
+  "tuning_gate_load_std": 0.14885910250730638,
   "records_before": 3118,
-  "records_added": 0,
+  "records_added": 2,
   "source_status": {
     "arxiv": "ok",
     "robotics": "ok",

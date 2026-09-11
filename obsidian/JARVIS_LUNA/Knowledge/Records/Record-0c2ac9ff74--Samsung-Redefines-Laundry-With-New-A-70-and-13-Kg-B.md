@@ -2,7 +2,7 @@
 title: "Record 0c2ac9ff74 · Samsung-Redefines-Laundry-With-New-A-70-and-13-Kg-Bespoke-AI-Washers-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.733291+00:00
+updated_at: 2026-09-11T07:44:36.267427+00:00
 tags: [record, real-data]
 ---
 

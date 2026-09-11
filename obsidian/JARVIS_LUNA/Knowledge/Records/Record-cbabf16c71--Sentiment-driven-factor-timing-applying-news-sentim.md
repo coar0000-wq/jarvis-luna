@@ -2,7 +2,7 @@
 title: "Record cbabf16c71 · Sentiment-driven-factor-timing-applying-news-sentiment-to-Fama-French-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.383814+00:00
+updated_at: 2026-09-11T07:44:36.017006+00:00
 tags: [record, real-data]
 ---
 

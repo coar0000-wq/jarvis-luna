@@ -1,0 +1,109 @@
+{
+  "agent": "Chief-of-Staff",
+  "role": "전체 JARVIS 운영상태를 종합하여 우선순위와 Safe Auto-Fix 실행 여부를 결정",
+  "generated_at": "2026-09-11T07:44:17.220649+00:00",
+  "risk": "high",
+  "overall_priority": "P1",
+  "overall_action": "SAFE_BLACKLIST_SYNC",
+  "overall_reason": "다이소 수집 parse_failed가 7건 존재한다.",
+  "decisions": [
+    {
+      "priority": "P1",
+      "severity_score": 72,
+      "area": "daiso",
+      "action": "SAFE_BLACKLIST_SYNC",
+      "reason": "다이소 수집 parse_failed가 7건 존재한다.",
+      "auto_execute": true
+    },
+    {
+      "priority": "P2",
+      "severity_score": 72,
+      "area": "signals",
+      "action": "INVESTIGATE_EMPTY_CHANNELS",
+      "reason": "비어 있거나 실패 상태인 채널이 1개 존재한다.",
+      "channels": [
+        "shopify_demand_matching"
+      ],
+      "auto_execute": false
+    },
+    {
+      "priority": "P3",
+      "severity_score": 45,
+      "area": "daiso_queue",
+      "action": "MONITOR_BLACKLIST",
+      "reason": "현재 blacklist가 7건이다.",
+      "auto_execute": false
+    }
+  ],
+  "approved_auto_actions": [
+    {
+      "priority": "P1",
+      "severity_score": 72,
+      "area": "daiso",
+      "action": "SAFE_BLACKLIST_SYNC",
+      "reason": "다이소 수집 parse_failed가 7건 존재한다.",
+      "auto_execute": true
+    }
+  ],
+  "human_review_actions": [
+    {
+      "priority": "P2",
+      "severity_score": 72,
+      "area": "signals",
+      "action": "INVESTIGATE_EMPTY_CHANNELS",
+      "reason": "비어 있거나 실패 상태인 채널이 1개 존재한다.",
+      "channels": [
+        "shopify_demand_matching"
+      ],
+      "auto_execute": false
+    },
+    {
+      "priority": "P3",
+      "severity_score": 45,
+      "area": "daiso_queue",
+      "action": "MONITOR_BLACKLIST",
+      "reason": "현재 blacklist가 7건이다.",
+      "auto_execute": false
+    }
+  ],
+  "policy": {
+    "may_modify_data": true,
+    "may_modify_code": false,
+    "may_modify_workflows": false,
+    "may_register_shopify": false,
+    "may_run_ads": false,
+    "may_change_secrets": false,
+    "may_force_push": false
+  },
+  "snapshot": {
+    "collection": {
+      "requested": 110,
+      "ok": 12,
+      "parse_failed": 7,
+      "finished_at": "2026-09-09T22:42:59.014772+00:00"
+    },
+    "channels": {
+      "live": 11,
+      "total": 12,
+      "empty": [
+        {
+          "channel": "shopify_demand_matching",
+          "count": 0,
+          "status": "disabled",
+          "reason": "demand_score·predicted_orders·expected_roas 가 조작값이라 삭제. 실측 지표 확보 후 재설계."
+        }
+      ]
+    },
+    "graph": {
+      "nodes": 0,
+      "links": 321832,
+      "dangling_generated": 0
+    },
+    "shopify": {
+      "s_count": 7
+    },
+    "queue": {
+      "blacklist_count": 7
+    }
+  }
+}

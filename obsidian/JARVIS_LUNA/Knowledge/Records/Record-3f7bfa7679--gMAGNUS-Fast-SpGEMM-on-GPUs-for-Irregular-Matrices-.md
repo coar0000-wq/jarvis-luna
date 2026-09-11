@@ -2,7 +2,7 @@
 title: "Record 3f7bfa7679 · gMAGNUS-Fast-SpGEMM-on-GPUs-for-Irregular-Matrices-via-Hierarchical-Mu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.775812+00:00
+updated_at: 2026-09-11T07:44:36.300888+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 6540d31427 · Consumer-Reports-puts-K-Beauty-sunscreens-to-the-test---WRAL"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.651985+00:00
+updated_at: 2026-09-11T07:44:36.205039+00:00
 tags: [record, real-data]
 ---
 
