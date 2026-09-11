@@ -1,0 +1,63 @@
+{
+  "agent": "Listing-Draft",
+  "generated_at": "2026-09-11T06:42:33.094441+00:00",
+  "s_count": 6,
+  "csv_path": "data/daiso_real/shopify_s_products_import.csv",
+  "items": [
+    {
+      "pd_no": "1048583",
+      "name": "드롭비 탄탄 광채 앰플 40 ml",
+      "csv": "data/daiso_real/shopify_s_products_import.csv",
+      "status_suggest": "draft",
+      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
+    },
+    {
+      "pd_no": "1062781",
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "csv": "data/daiso_real/shopify_s_products_import.csv",
+      "status_suggest": "draft",
+      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
+    },
+    {
+      "pd_no": "1041749",
+      "name": "식물원 병풀 클리어 앰플 30 ml",
+      "csv": "data/daiso_real/shopify_s_products_import.csv",
+      "status_suggest": "draft",
+      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
+    },
+    {
+      "pd_no": "1059834",
+      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "csv": "data/daiso_real/shopify_s_products_import.csv",
+      "status_suggest": "draft",
+      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
+    },
+    {
+      "pd_no": "1049271",
+      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "csv": "data/daiso_real/shopify_s_products_import.csv",
+      "status_suggest": "draft",
+      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
+    },
+    {
+      "pd_no": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "csv": "data/daiso_real/shopify_s_products_import.csv",
+      "status_suggest": "draft",
+      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
+    }
+  ],
+  "legal_blocks": [
+    "차단 2건: 비프루브 마린 무기자차 마일드(SPF 표기 - 미국 OT), 싸이닉 파워옴므 워터리 선크림(SPF 표기 - 미국 OT) — 라벨 갖추기 전엔 못 올림"
+  ],
+  "suggestions": [
+    {
+      "action": "import_csv_as_draft",
+      "detail": "S등급 6건 CSV → Shopify Admin Products Import (Published=false)"
+    },
+    {
+      "action": "resolve_legal_blocks",
+      "detail": "차단 2건: 비프루브 마린 무기자차 마일드(SPF 표기 - 미국 OT), 싸이닉 파워옴므 워터리 선크림(SPF 표기 - 미국 OT) — 라벨 갖추기 전엔 못 올림"
+    }
+  ]
+}
