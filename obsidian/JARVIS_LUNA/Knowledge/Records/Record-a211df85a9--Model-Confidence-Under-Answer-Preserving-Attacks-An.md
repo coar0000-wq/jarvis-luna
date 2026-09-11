@@ -2,7 +2,7 @@
 title: "Record a211df85a9 · Model-Confidence-Under-Answer-Preserving-Attacks-An-Informativeness-Ma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.116811+00:00
+updated_at: 2026-09-11T20:59:42.933986+00:00
 tags: [record, real-data]
 ---
 

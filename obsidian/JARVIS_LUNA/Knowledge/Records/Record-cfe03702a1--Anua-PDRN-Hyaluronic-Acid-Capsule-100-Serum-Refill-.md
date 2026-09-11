@@ -2,7 +2,7 @@
 title: "Record cfe03702a1 · Anua-PDRN-Hyaluronic-Acid-Capsule-100-Serum-Refill-Set-202-fl-oz60ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.127557+00:00
+updated_at: 2026-09-11T20:59:42.944623+00:00
 tags: [record, real-data]
 ---
 

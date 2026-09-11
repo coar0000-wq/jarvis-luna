@@ -2,7 +2,7 @@
 title: "Record 266a082734 · 7types-MEDIHEAL-Toner-Pad-100ct"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.137137+00:00
+updated_at: 2026-09-11T20:59:42.954073+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** [7types] MEDIHEAL Toner Pad 100ct
 
 [7types] MEDIHEAL Toner Pad 100ct
-[7types] MEDIHEAL Toner Pad 100ct · 평점 4.8 · 리뷰 12,828
+[7types] MEDIHEAL Toner Pad 100ct · 평점 4.8 · 리뷰 12,851
 
 **출처:** Source · us_beauty
 

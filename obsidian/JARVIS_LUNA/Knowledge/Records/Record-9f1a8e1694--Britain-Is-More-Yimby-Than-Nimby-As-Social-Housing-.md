@@ -2,7 +2,7 @@
 title: "Record 9f1a8e1694 · Britain-Is-More-Yimby-Than-Nimby-As-Social-Housing-Tops-Consume"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.820618+00:00
+updated_at: 2026-09-11T20:59:42.613864+00:00
 tags: [record, real-data]
 ---
 

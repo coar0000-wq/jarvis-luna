@@ -2,7 +2,7 @@
 title: "Record e51a9f8254 · Anthropic-Expands-Global-Leadership-In-Enterprise-Ai-Naming-Chris-Ciau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.161839+00:00
+updated_at: 2026-09-11T20:59:42.978498+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ee1a3207ea · A-Bits-to-Antenna-F-Band-120-Gbs-CMOS-RF-64QAM-Transmitter-for-FutureG"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.713061+00:00
+updated_at: 2026-09-11T20:59:42.515439+00:00
 tags: [record, real-data]
 ---
 

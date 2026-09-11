@@ -2,7 +2,7 @@
 title: "Record d6f13b0d7d · Musinsa-announced-on-the-10th-that-it-will-open-the-first-store-of-Mus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.861583+00:00
+updated_at: 2026-09-11T20:59:42.654781+00:00
 tags: [record, real-data]
 ---
 

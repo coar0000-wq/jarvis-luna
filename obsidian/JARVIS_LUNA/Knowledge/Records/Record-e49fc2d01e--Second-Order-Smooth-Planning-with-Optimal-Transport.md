@@ -2,7 +2,7 @@
 title: "Record e49fc2d01e · Second-Order-Smooth-Planning-with-Optimal-Transport-Bellman-Smoothing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.579308+00:00
+updated_at: 2026-09-11T20:59:42.390041+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7ef446a0a5 · Wonderbalm-steps-up-global-travel-retail-push-for-K-beauty-led-skincar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.053926+00:00
+updated_at: 2026-09-11T20:59:42.870220+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** Wonderbalm steps up global travel retail push for K-beauty-led skincare with Gebr. Heinemann - Moodie Davitt Report
 
 Wonderbalm steps up global travel retail push for K-beauty-led skincare with Gebr. Heinemann - Moodie Davitt Report
+Wonderbalm steps up global travel retail push for K-beauty-led skincare with Gebr. Heinemann - Moodie Davitt Report
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

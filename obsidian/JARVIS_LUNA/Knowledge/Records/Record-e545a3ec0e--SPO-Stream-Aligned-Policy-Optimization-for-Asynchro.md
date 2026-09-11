@@ -2,7 +2,7 @@
 title: "Record e545a3ec0e · SPO-Stream-Aligned-Policy-Optimization-for-Asynchronous-Agentic-RL"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.329360+00:00
+updated_at: 2026-09-11T20:59:43.136062+00:00
 tags: [record, real-data]
 ---
 

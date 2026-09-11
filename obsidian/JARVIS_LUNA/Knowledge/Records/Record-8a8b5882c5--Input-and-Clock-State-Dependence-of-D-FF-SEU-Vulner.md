@@ -2,7 +2,7 @@
 title: "Record 8a8b5882c5 · Input-and-Clock-State-Dependence-of-D-FF-SEU-Vulnerability-at-3-nm-Bul"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.720432+00:00
+updated_at: 2026-09-11T20:59:42.522788+00:00
 tags: [record, real-data]
 ---
 

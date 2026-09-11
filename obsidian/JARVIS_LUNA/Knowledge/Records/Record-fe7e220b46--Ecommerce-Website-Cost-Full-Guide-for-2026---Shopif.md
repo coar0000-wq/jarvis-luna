@@ -2,7 +2,7 @@
 title: "Record fe7e220b46 · Ecommerce-Website-Cost-Full-Guide-for-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.889520+00:00
+updated_at: 2026-09-11T20:59:42.686545+00:00
 tags: [record, real-data]
 ---
 

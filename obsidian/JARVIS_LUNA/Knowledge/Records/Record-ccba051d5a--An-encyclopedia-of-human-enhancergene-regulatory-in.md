@@ -2,7 +2,7 @@
 title: "Record ccba051d5a · An-encyclopedia-of-human-enhancergene-regulatory-interactions"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.691227+00:00
+updated_at: 2026-09-11T20:59:42.493406+00:00
 tags: [record, real-data]
 ---
 

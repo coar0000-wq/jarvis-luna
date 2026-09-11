@@ -2,7 +2,7 @@
 title: "Record 36877f0da3 · K--Beauty-Trends-Into-Essentials---Cosmetics-Business"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.911614+00:00
+updated_at: 2026-09-11T20:59:42.711344+00:00
 tags: [record, real-data]
 ---
 

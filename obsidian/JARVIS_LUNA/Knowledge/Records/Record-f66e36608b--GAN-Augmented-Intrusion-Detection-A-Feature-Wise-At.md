@@ -2,7 +2,7 @@
 title: "Record f66e36608b · GAN-Augmented-Intrusion-Detection-A-Feature-Wise-Attention-MLP-Framewo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.775138+00:00
+updated_at: 2026-09-11T20:59:42.573875+00:00
 tags: [record, real-data]
 ---
 

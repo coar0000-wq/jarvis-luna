@@ -2,7 +2,7 @@
 title: "Record c825976101 · Preference-Oriented-Aggregation-of-Heterogeneous-Distributed-Energy-Re"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.546382+00:00
+updated_at: 2026-09-11T20:59:42.358870+00:00
 tags: [record, real-data]
 ---
 

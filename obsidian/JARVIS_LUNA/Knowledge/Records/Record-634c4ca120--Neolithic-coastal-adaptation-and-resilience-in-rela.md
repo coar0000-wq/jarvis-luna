@@ -2,7 +2,7 @@
 title: "Record 634c4ca120 · Neolithic-coastal-adaptation-and-resilience-in-relation-to-environment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.760030+00:00
+updated_at: 2026-09-11T20:59:42.560195+00:00
 tags: [record, real-data]
 ---
 

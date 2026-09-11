@@ -2,7 +2,7 @@
 title: "Record 4ebe61d86c · The-2025-Top-100-Riding-the-K-Craze---WWD"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.052990+00:00
+updated_at: 2026-09-11T20:59:42.869158+00:00
 tags: [record, real-data]
 ---
 

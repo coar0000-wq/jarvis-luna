@@ -2,7 +2,7 @@
 title: "Record 2f2d21cd7e · Best-K-beauty-skincare-on-amazonae-2026-Five-routine-heroes-worth-know"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.058343+00:00
+updated_at: 2026-09-11T20:59:42.875112+00:00
 tags: [record, real-data]
 ---
 

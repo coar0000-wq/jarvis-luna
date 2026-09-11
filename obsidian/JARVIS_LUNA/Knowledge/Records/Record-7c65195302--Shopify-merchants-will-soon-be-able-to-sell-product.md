@@ -2,7 +2,7 @@
 title: "Record 7c65195302 · Shopify-merchants-will-soon-be-able-to-sell-products-through-ChatGPT--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.929052+00:00
+updated_at: 2026-09-11T20:59:42.730884+00:00
 tags: [record, real-data]
 ---
 

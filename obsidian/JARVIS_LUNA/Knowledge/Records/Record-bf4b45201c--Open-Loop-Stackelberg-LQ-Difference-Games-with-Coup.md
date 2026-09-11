@@ -2,7 +2,7 @@
 title: "Record bf4b45201c · Open-Loop-Stackelberg-LQ-Difference-Games-with-Coupled-Affine-Inequali"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.564455+00:00
+updated_at: 2026-09-11T20:59:42.376569+00:00
 tags: [record, real-data]
 ---
 

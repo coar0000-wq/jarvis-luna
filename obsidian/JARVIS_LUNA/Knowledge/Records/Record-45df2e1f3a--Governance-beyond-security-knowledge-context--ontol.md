@@ -2,7 +2,7 @@
 title: "Record 45df2e1f3a · Governance-beyond-security-knowledge-context--ontology-on-the-lakehous"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.191456+00:00
+updated_at: 2026-09-11T20:59:43.007370+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0ef633c856 · Project-Pan-Is-the-Beauty-Communitys-Answer-to-Consumption-Overload---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.021865+00:00
+updated_at: 2026-09-11T20:59:42.834504+00:00
 tags: [record, real-data]
 ---
 

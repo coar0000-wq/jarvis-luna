@@ -2,7 +2,7 @@
 title: "Record 9f7a1760e7 · DrDifferent-Ceq-Anti-Oxidant-Serum-050-fl-oz15ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.129574+00:00
+updated_at: 2026-09-11T20:59:42.946596+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Dr.Different Ceq Anti Oxidant Serum 0.50 fl. oz.(15ml)
 
 Dr.Different Ceq Anti Oxidant Serum 0.50 fl. oz.(15ml)
-Dr.Different Ceq Anti Oxidant Serum 0.50 fl. oz.(15ml) · 평점 4.9 · 리뷰 1,873
+Dr.Different Ceq Anti Oxidant Serum 0.50 fl. oz.(15ml) · 평점 4.9 · 리뷰 1,883
 
 **출처:** Source · us_beauty
 

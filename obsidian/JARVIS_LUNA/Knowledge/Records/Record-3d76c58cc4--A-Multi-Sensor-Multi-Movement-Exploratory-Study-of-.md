@@ -2,7 +2,7 @@
 title: "Record 3d76c58cc4 · A-Multi-Sensor-Multi-Movement-Exploratory-Study-of-Motion-Tape-Strain-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.768252+00:00
+updated_at: 2026-09-11T20:59:42.567749+00:00
 tags: [record, real-data]
 ---
 

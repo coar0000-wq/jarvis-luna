@@ -2,7 +2,7 @@
 title: "Record 31e2a4473f · Inflation-And-Labor-Market-Debunking-Myths"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.217334+00:00
+updated_at: 2026-09-11T20:59:43.030098+00:00
 tags: [record, real-data]
 ---
 

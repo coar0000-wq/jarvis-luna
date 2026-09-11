@@ -2,7 +2,7 @@
 title: "Record 12a78559ee · FORTALECIMENTO-DA-UNIVERSIDADE-EMPREENDEDORA-POR-MEIO-DE-PROGRAMAS-INS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.812423+00:00
+updated_at: 2026-09-11T20:59:42.606521+00:00
 tags: [record, real-data]
 ---
 

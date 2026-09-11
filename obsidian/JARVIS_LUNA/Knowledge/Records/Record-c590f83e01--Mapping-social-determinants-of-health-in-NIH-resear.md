@@ -2,7 +2,7 @@
 title: "Record c590f83e01 · Mapping-social-determinants-of-health-in-NIH-research-funding-with-lar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.744968+00:00
+updated_at: 2026-09-11T20:59:42.546607+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b77cf8f952 · Collision-Snapshot-Guided-Time-Reversed-Safety-Critical-Scenario-Gener"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.578547+00:00
+updated_at: 2026-09-11T20:59:42.389380+00:00
 tags: [record, real-data]
 ---
 

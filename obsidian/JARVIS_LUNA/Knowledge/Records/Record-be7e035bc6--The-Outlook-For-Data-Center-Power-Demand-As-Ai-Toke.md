@@ -2,7 +2,7 @@
 title: "Record be7e035bc6 · The-Outlook-For-Data-Center-Power-Demand-As-Ai-Token-Use-Grows---Trans"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.200124+00:00
+updated_at: 2026-09-11T20:59:43.014827+00:00
 tags: [record, real-data]
 ---
 

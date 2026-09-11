@@ -2,7 +2,7 @@
 title: "Record d72dc8effd · Driven-by-TikTok-trends-new-beauty-brands-target-children---Canadian-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.025932+00:00
+updated_at: 2026-09-11T20:59:42.838943+00:00
 tags: [record, real-data]
 ---
 

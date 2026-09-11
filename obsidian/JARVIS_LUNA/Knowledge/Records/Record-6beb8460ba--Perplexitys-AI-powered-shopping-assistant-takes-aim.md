@@ -2,7 +2,7 @@
 title: "Record 6beb8460ba · Perplexitys-AI-powered-shopping-assistant-takes-aim-at-Amazon-and-Goog"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.050198+00:00
+updated_at: 2026-09-11T20:59:42.866031+00:00
 tags: [record, real-data]
 ---
 

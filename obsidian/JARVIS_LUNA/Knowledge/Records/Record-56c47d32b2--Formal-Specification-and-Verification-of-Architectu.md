@@ -2,7 +2,7 @@
 title: "Record 56c47d32b2 · Formal-Specification-and-Verification-of-Architecturally-Defined-Attes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.711206+00:00
+updated_at: 2026-09-11T20:59:42.513603+00:00
 tags: [record, real-data]
 ---
 

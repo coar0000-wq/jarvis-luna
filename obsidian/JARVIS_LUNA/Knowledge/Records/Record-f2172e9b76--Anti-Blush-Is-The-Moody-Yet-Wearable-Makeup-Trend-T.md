@@ -1,18 +1,18 @@
 ---
-title: "Record f2172e9b76 · Anti-Blush-Is-The-Moody-Yet-Wearable-Makeup-Trend-To-Try-Now---harpers"
+title: "Record f2172e9b76 · Anti-Blush-Is-The-Moody-Yet-Wearable-Makeup-Trend-To-Try-Now---Harpers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.905970+00:00
+updated_at: 2026-09-11T20:59:42.704988+00:00
 tags: [record, real-data]
 ---
 
-# Record f2172e9b76 · Anti-Blush-Is-The-Moody-Yet-Wearable-Makeup-Trend-To-Try-Now---harpers
+# Record f2172e9b76 · Anti-Blush-Is-The-Moody-Yet-Wearable-Makeup-Trend-To-Try-Now---Harpers
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTE9HeW5JcWxfLU1RS2RYYzMxYTAzbGFVQTBvWktyOExud0JYc3dDZFFpQ0NobzMzUnhxR3BjOXVYQnFZaVh5RjZKM1F3QUp5TlZmZTl3OUNCQy1fYzREQmlvUmdTOHZ1X1JXM05HZVJ5MA?oc=5)
 
-**제목:** Anti-Blush Is The Moody Yet Wearable Makeup Trend To Try Now - harpersbazaar.com.sg
+**제목:** Anti-Blush Is The Moody Yet Wearable Makeup Trend To Try Now - Harper's Bazaar Singapore
 
-Anti-Blush Is The Moody Yet Wearable Makeup Trend To Try Now - harpersbazaar.com.sg
+Anti-Blush Is The Moody Yet Wearable Makeup Trend To Try Now - Harper's Bazaar Singapore
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record 95d48f4050 · FRAME-Factored-Retrieval-via-Attribute-Readouts-for-Object-Centric-Sce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.590646+00:00
+updated_at: 2026-09-11T20:59:42.400189+00:00
 tags: [record, real-data]
 ---
 

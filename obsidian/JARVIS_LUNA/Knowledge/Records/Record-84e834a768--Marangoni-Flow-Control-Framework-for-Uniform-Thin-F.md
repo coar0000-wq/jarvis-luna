@@ -2,7 +2,7 @@
 title: "Record 84e834a768 · Marangoni-Flow-Control-Framework-for-Uniform-Thin-Film-Formation-in-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.683129+00:00
+updated_at: 2026-09-11T20:59:42.485367+00:00
 tags: [record, real-data]
 ---
 

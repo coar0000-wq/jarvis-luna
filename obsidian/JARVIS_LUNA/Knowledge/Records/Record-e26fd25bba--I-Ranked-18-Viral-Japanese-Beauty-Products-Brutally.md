@@ -2,7 +2,7 @@
 title: "Record e26fd25bba · I-Ranked-18-Viral-Japanese-Beauty-Products-Brutally-Honest"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.285851+00:00
+updated_at: 2026-09-11T20:59:43.095131+00:00
 tags: [record, real-data]
 ---
 

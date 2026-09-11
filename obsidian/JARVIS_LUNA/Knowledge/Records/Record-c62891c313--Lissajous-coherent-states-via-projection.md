@@ -2,7 +2,7 @@
 title: "Record c62891c313 · Lissajous-coherent-states-via-projection"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.701912+00:00
+updated_at: 2026-09-11T20:59:42.504143+00:00
 tags: [record, real-data]
 ---
 

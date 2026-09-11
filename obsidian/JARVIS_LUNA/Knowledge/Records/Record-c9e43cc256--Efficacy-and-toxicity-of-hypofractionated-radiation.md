@@ -2,7 +2,7 @@
 title: "Record c9e43cc256 · Efficacy-and-toxicity-of-hypofractionated-radiation-therapy-for-patien"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.676624+00:00
+updated_at: 2026-09-11T20:59:42.478859+00:00
 tags: [record, real-data]
 ---
 

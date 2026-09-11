@@ -2,7 +2,7 @@
 title: "Record 9efb285b2e · The-National-Artificial-Intelligence-Advisory-Committee-NAIAC--Recomme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.750045+00:00
+updated_at: 2026-09-11T20:59:42.551140+00:00
 tags: [record, real-data]
 ---
 

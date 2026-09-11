@@ -2,7 +2,7 @@
 title: "Record 94c89999fd · 7types-MEDIHEAL-Essential-Face-Mask-10ct-081-fl-oz24ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:35.134528+00:00
+updated_at: 2026-09-11T20:59:42.951537+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** [7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)
 
 [7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)
-[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml) · 평점 4.8 · 리뷰 1,069
+[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml) · 평점 4.8 · 리뷰 1,070
 
 **출처:** Source · us_beauty
 

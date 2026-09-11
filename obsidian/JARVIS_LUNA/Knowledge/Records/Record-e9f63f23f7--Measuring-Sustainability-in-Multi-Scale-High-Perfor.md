@@ -2,7 +2,7 @@
 title: "Record e9f63f23f7 · Measuring-Sustainability-in-Multi-Scale-High-Performance-Computing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.778820+00:00
+updated_at: 2026-09-11T20:59:42.577105+00:00
 tags: [record, real-data]
 ---
 

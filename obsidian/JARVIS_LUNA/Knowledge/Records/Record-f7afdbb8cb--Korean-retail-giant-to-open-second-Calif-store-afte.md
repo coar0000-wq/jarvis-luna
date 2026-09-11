@@ -2,7 +2,7 @@
 title: "Record f7afdbb8cb · Korean-retail-giant-to-open-second-Calif-store-after-blockbuster-launc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T19:06:34.929270+00:00
+updated_at: 2026-09-11T20:59:42.731136+00:00
 tags: [record, real-data]
 ---
 
