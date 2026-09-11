@@ -74,19 +74,37 @@ def graph_metrics() -> dict:
             top = note.relative_to(VAULT).parts[0]
         except ValueError:
             top = ""
-        bucket = personal if top == "Personal" else generated
+
+        # Truth Guard와 동일한 기준으로 그래프 품질을 판정한다.
+        # Knowledge/만 자동 생성 지식 그래프로 보고 dangling 검증 대상에 포함한다.
+        # Personal/은 별도 통계로 분리하고, 그 외 루트/시스템 영역은 품질 감사에서 제외한다.
+        if top == "Knowledge":
+            bucket = generated
+        elif top == "Personal":
+            bucket = personal
+        else:
+            bucket = None
 
         for target in found:
             normalized = unicodedata.normalize("NFC", target).strip().replace("\\", "/")
+
+            # Obsidian 문서 안의 외부/URI 링크는 vault 내부 note dangling 검증 대상이 아니다.
+            if normalized.lower().startswith((
+                "http://", "https://", "mailto:", "obsidian:", "file:",
+            )):
+                continue
+
             normalized = normalized.rsplit("/", 1)[-1]
             if normalized.endswith(".md"):
                 normalized = normalized[:-3]
-            if normalized:
-                # Obsidian 은 파일명을 대소문자 구분 없이 찾는다. 여기서 구분하면
-                # Windows 가 기존 파일명 대소문자를 유지하는 탓에 멀쩡한 링크가
-                # 끊어진 것으로 잡힌다. (ASML-reports... vs Asml-Reports...)
-                # NFC 로 맞추지 않으면 한글 NFD 자모 링크가 실파일과 어긋난다.
-                targets.add(normalized)
+            if not normalized:
+                continue
+
+            # Obsidian 은 파일명을 대소문자 구분 없이 찾는다. NFC로 정규화해
+            # Windows의 대소문자 유지와 한글 NFD/NFC 차이 때문에 정상 링크를
+            # 끊어진 것으로 판정하지 않도록 한다.
+            targets.add(normalized)
+            if bucket is not None:
                 bucket.add(normalized.lower())
 
     stems = {unicodedata.normalize("NFC", n.stem).lower() for n in notes}
@@ -110,6 +128,8 @@ def graph_metrics() -> dict:
         "sources": get_md_count(VAULT, "Knowledge", "Sources"),
         "topics": get_md_count(VAULT, "Knowledge", "Topics"),
         "orgs": get_md_count(VAULT, "Knowledge", "Orgs"),
+        # 실제 자동 생성 그래프(Knowledge/)의 dangling만 품질 게이트로 사용한다.
+        # Personal 링크는 참고 지표일 뿐 자동화 실패로 승격하지 않는다.
         "audit": "failed" if dangling_generated else "passed",
         "last_generated": max(valid_mtimes, default=None),
     }
