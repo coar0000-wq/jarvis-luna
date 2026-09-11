@@ -2,7 +2,7 @@
 title: "Record 9e4f73a96b · Werkraum-Zeit-Artefakte-als-temporale-Forderungsstrukturen--Zeitwürdig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.029076+00:00
+updated_at: 2026-09-11T05:00:44.279324+00:00
 tags: [record, real-data]
 ---
 

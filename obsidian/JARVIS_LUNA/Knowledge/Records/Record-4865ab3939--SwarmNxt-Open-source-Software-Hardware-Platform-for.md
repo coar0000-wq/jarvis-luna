@@ -2,7 +2,7 @@
 title: "Record 4865ab3939 · SwarmNxt-Open-source-Software-Hardware-Platform-for-Fast-and-Agile-Aer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:31.860002+00:00
+updated_at: 2026-09-11T05:00:44.113117+00:00
 tags: [record, real-data]
 ---
 

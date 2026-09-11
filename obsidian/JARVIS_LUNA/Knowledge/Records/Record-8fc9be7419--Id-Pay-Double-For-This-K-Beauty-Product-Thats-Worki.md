@@ -2,7 +2,7 @@
 title: "Record 8fc9be7419 · Id-Pay-Double-For-This-K-Beauty-Product-Thats-Working-Wonders-On-My-Ne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.251436+00:00
+updated_at: 2026-09-11T05:00:44.494682+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilAFBVV95cUxQM3VWZjc2RlRMajZ5MlJUdXp0NjlXb2tpUXdqcklNRzdyWlpXdmZObjFzWGNZVEtGekdtM05mcGxHM19KczUtN00yU0x4NlRMVzhYWWRVLXowR2I4dDgxZXlIWFpNNXVlRjFPWlI1ODUxVXlSUEdYT1ZTeWVWNzd4SlhxdkdHYzdwVHB4N3BLSzRMYUtk0gGaAUFVX3lxTFB2eGlDdHI1bG92Qkc1cUNleVo0SG16OFdtenVLY3o5b1ZldzY3aFY4czdhNVNEOU9NQWFQcFdqajF5U2lockQycm8yNGtjLVZxTm9hYjFBcjdodVlldGRLQ2hYamFXXzh1bnBxdnVfOTVwamYwMTFILUozU1VRcmR3QUpGS0NORkdKVEJVbXM0NTVpTkp2OGF6SlE?oc=5)
 
-**제목:** I'd Pay Double For This K-Beauty Product That's Working Wonders On My Neck Lines - HuffPost
+**제목:** I'd Pay Double For This K-Beauty Product That's Working Wonders On My Neck Lines - huffpost.com
 
-I'd Pay Double For This K-Beauty Product That's Working Wonders On My Neck Lines - HuffPost
+I'd Pay Double For This K-Beauty Product That's Working Wonders On My Neck Lines - huffpost.com
 
 **출처:** Source · Google Search
 

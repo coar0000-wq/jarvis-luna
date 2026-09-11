@@ -2,7 +2,7 @@
 title: "Record 5c8d75ef9c · Better-answers-broader-thinking-What-students-gain-from-ChatGPT-and-cr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.348397+00:00
+updated_at: 2026-09-11T05:00:44.589830+00:00
 tags: [record, real-data]
 ---
 

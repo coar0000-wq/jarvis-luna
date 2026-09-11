@@ -2,7 +2,7 @@
 title: "Record 62d5eb25a4 · Anthropic-acquires-Vercept"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.420122+00:00
+updated_at: 2026-09-11T05:00:44.661905+00:00
 tags: [record, real-data]
 ---
 

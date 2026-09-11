@@ -2,7 +2,7 @@
 title: "Record 4e5b5df064 · TikTok-says-drinking-your-skincare-is-the-hottest-beauty-trend-to-know"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.197843+00:00
+updated_at: 2026-09-11T05:00:44.443833+00:00
 tags: [record, real-data]
 ---
 

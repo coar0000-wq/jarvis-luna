@@ -2,7 +2,7 @@
 title: "Record e6549df0db · ilso-Super-Melting-Sebum-Softener-529-oz150ml--Skin-Fit-Wrap-Pad-40ct"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.390188+00:00
+updated_at: 2026-09-11T05:00:44.631666+00:00
 tags: [record, real-data]
 ---
 

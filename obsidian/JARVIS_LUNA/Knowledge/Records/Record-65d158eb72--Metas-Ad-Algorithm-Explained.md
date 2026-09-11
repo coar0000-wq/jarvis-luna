@@ -2,7 +2,7 @@
 title: "Record 65d158eb72 · Metas-Ad-Algorithm-Explained"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.562256+00:00
+updated_at: 2026-09-11T05:00:44.802561+00:00
 tags: [record, real-data]
 ---
 

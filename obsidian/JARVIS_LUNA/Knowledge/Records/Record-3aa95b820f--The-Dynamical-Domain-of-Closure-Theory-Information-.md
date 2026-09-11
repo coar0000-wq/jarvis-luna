@@ -2,7 +2,7 @@
 title: "Record 3aa95b820f · The-Dynamical-Domain-of-Closure-Theory-Information-Preserving-Transfor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.031389+00:00
+updated_at: 2026-09-11T05:00:44.281620+00:00
 tags: [record, real-data]
 ---
 

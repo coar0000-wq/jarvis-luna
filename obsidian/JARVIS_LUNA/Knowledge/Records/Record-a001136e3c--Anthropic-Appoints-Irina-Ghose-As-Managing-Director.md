@@ -2,7 +2,7 @@
 title: "Record a001136e3c · Anthropic-Appoints-Irina-Ghose-As-Managing-Director-Of-India"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.423053+00:00
+updated_at: 2026-09-11T05:00:44.664813+00:00
 tags: [record, real-data]
 ---
 

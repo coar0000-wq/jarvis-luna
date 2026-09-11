@@ -2,7 +2,7 @@
 title: "Record 01e2bb0bda · Sound-Compilation-of-Weighted-Event-Signal-Temporal-Logic-to-Timeless-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:31.823726+00:00
+updated_at: 2026-09-11T05:00:44.076499+00:00
 tags: [record, real-data]
 ---
 

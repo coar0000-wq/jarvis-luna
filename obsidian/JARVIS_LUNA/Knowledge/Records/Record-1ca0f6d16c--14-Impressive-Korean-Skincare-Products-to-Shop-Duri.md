@@ -2,7 +2,7 @@
 title: "Record 1ca0f6d16c · 14-Impressive-Korean-Skincare-Products-to-Shop-During-Amazon-Prime-Day"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.260466+00:00
+updated_at: 2026-09-11T05:00:44.503224+00:00
 tags: [record, real-data]
 ---
 

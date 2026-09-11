@@ -2,7 +2,7 @@
 title: "Record e6911096fd · The-40-year-old-database-rule-agents-just-broke-How-LTAP-unifies-OLTP-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.449048+00:00
+updated_at: 2026-09-11T05:00:44.690786+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9ab8c8c88c · Electric-forces-on-conducting-spheres-in-millimeter-sized-high-voltage"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:31.905940+00:00
+updated_at: 2026-09-11T05:00:44.161079+00:00
 tags: [record, real-data]
 ---
 

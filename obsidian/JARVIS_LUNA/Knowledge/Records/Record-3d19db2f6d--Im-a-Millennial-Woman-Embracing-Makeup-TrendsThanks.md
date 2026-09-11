@@ -2,7 +2,7 @@
 title: "Record 3d19db2f6d · Im-a-Millennial-Woman-Embracing-Makeup-TrendsThanks-to-Gen-Z---Best-He"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.168106+00:00
+updated_at: 2026-09-11T05:00:44.414414+00:00
 tags: [record, real-data]
 ---
 

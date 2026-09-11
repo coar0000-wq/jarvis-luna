@@ -2,7 +2,7 @@
 title: "Record 2b2e5c085b · From-spreadsheets-to-AI-Deere-gives-farmers-new-features-in-Operations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.494578+00:00
+updated_at: 2026-09-11T05:00:44.736500+00:00
 tags: [record, real-data]
 ---
 

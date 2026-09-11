@@ -2,7 +2,7 @@
 title: "Record e80fb67ff1 · beplain-Mung-Bean-Pore-Double-Cleansing-Duo-Set-Cleansing-Oil-676-fl-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.393367+00:00
+updated_at: 2026-09-11T05:00:44.634821+00:00
 tags: [record, real-data]
 ---
 

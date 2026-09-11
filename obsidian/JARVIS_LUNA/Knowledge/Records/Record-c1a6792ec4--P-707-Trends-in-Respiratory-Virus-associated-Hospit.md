@@ -2,7 +2,7 @@
 title: "Record c1a6792ec4 · P-707-Trends-in-Respiratory-Virus-associated-Hospitalizations--Nationa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:31.947976+00:00
+updated_at: 2026-09-11T05:00:44.200848+00:00
 tags: [record, real-data]
 ---
 

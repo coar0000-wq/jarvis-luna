@@ -2,7 +2,7 @@
 title: "Record 17414959db · CordisBench-Can-Language-Models-Reason-About-Component-Lifecycles-in-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:31.778858+00:00
+updated_at: 2026-09-11T05:00:44.033180+00:00
 tags: [record, real-data]
 ---
 

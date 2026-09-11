@@ -1,18 +1,18 @@
 ---
-title: "Record d773892483 · Olive-Young-Is-Now-At-SephoraShop-These-K-Beauty-Favorites-First---for"
+title: "Record d773892483 · Olive-Young-Is-Now-At-SephoraShop-These-K-Beauty-Favorites-First---For"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.254851+00:00
+updated_at: 2026-09-11T05:00:44.497906+00:00
 tags: [record, real-data]
 ---
 
-# Record d773892483 · Olive-Young-Is-Now-At-SephoraShop-These-K-Beauty-Favorites-First---for
+# Record d773892483 · Olive-Young-Is-Now-At-SephoraShop-These-K-Beauty-Favorites-First---For
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilgFBVV95cUxQWWlnak4xOTY3RFk5dGxpcC1oQXpJdVdMejJ2ZEEyaTI4dGlMcEpNM0V0bVlJS295Zkg5ZUVjMGowWWhGd3RGd2lPajl6bWRsUVpIYklsUVlzV3BTcGVFVk9uZDI3OEwwNkNDcFpKSVlpRDJUMUNQZzdtV1EwendxSkU3UnR2ZUMzOWRaZzg5UVk0Q2hVX2c?oc=5)
 
-**제목:** Olive Young Is Now At Sephora—Shop These K-Beauty Favorites First - forbes.com
+**제목:** Olive Young Is Now At Sephora—Shop These K-Beauty Favorites First - Forbes
 
-Olive Young Is Now At Sephora—Shop These K-Beauty Favorites First - forbes.com
+Olive Young Is Now At Sephora—Shop These K-Beauty Favorites First - Forbes
 
 **출처:** Source · Google Search
 

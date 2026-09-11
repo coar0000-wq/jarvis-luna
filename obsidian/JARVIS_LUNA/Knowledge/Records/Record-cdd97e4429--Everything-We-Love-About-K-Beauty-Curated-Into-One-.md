@@ -2,7 +2,7 @@
 title: "Record cdd97e4429 · Everything-We-Love-About-K-Beauty-Curated-Into-One-Box---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.150053+00:00
+updated_at: 2026-09-11T05:00:44.397418+00:00
 tags: [record, real-data]
 ---
 

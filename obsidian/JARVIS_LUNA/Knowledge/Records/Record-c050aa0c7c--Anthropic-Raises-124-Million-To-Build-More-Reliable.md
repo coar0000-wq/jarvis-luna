@@ -2,7 +2,7 @@
 title: "Record c050aa0c7c · Anthropic-Raises-124-Million-To-Build-More-Reliable-General-Ai-Systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.425880+00:00
+updated_at: 2026-09-11T05:00:44.667649+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1a4350f63b · Samsung-Electronics-To-Establish-HVAC-Production-Line-in-Korea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T04:28:32.323618+00:00
+updated_at: 2026-09-11T05:00:44.564948+00:00
 tags: [record, real-data]
 ---
 
