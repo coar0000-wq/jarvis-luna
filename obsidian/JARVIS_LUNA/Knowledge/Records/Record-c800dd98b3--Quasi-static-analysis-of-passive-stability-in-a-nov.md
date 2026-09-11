@@ -2,7 +2,7 @@
 title: "Record c800dd98b3 · Quasi-static-analysis-of-passive-stability-in-a-novel-underactuated-mu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.509739+00:00
+updated_at: 2026-09-11T13:45:24.688595+00:00
 tags: [record, real-data]
 ---
 

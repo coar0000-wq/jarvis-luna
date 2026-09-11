@@ -2,7 +2,7 @@
 title: "Record 50333386ea · Virtual-Testing-of-Automated-Driving-Systems-through-Credible-Simulati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.441793+00:00
+updated_at: 2026-09-11T13:45:24.616319+00:00
 tags: [record, real-data]
 ---
 

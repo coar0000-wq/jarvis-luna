@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T08:34:01.408141+00:00",
+  "generated_at": "2026-09-11T13:38:37.687836+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -12,8 +12,8 @@
       "recent": 220
     },
     "market": {
-      "total": 450,
-      "recent": 42
+      "total": 447,
+      "recent": 40
     },
     "listing": {
       "total": 13,
@@ -28,7 +28,7 @@
       "recent": 19
     },
     "design": {
-      "total": 360,
+      "total": 359,
       "recent": 99
     },
     "robotics": {
@@ -36,7 +36,7 @@
       "recent": 76
     },
     "knowledge": {
-      "total": 160,
+      "total": 159,
       "recent": 53
     },
     "institutions": {
@@ -503,7 +503,7 @@
         "by_hand": true
       },
       {
-        "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
+        "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
         "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
         "pool": "youtube_channel",
         "date": "",
@@ -587,7 +587,7 @@
         "by_hand": false
       },
       {
-        "title": "Halo lips: lip pencil trends on TikTok in 2026 - beninwebtv.bj",
+        "title": "Halo lips: lip pencil trends on TikTok in 2026 - Benin Web TV",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1FN0tHM1BaMDgzdk84ajZCQjJfVjlHekR3UlV5Q3hoSXlxTHVydW5MV3ZxOHZRSEVpMy1kTHBNNlV0TDlRRXljU2xMa1dJenhOcUdOVWlBUk1rY3NQMGRSSEV4aTRpTjdzQURyVUxuVWI3YzZCa281c1dUcw?oc=5",
         "pool": "google",
         "date": "2026-09-11",
@@ -601,15 +601,15 @@
         "by_hand": false
       },
       {
-        "title": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - Celeb Secrets",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWlTTVg4ZkQ1N1Rfemtmamx1WXdDemF4b1JIaUIxWVdJeUJKQlh5QjRCbXFmTWxnT3JMWlh0TmwwaVpfVnZNR1B1N0prR0p6dlhJTHhVQU9fN3VNdDlDZHN3dWswdTcydjVvMmo2RXVrN09vcUgweHotU0dQZjFIb2V3?oc=5",
+        "title": "COSMECCA KOREA plans $150 mil. AI-based skincare factory in Korea - Korea Biomedical Review",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JOHRFeGJMRElFbVVDVkNFMXdWZTVvVWF1Sy1nckZmdHU2dVNuVlRyYktZZ0RnTTU1aWUwT3Z0LVJxeGxrRnVpaHV6RHNjaHVrQVJNNDVkVlQ1SXZTNFluWFBiWGZ4bURabzZIZUJ30gFyQVVfeXFMUHJVc2QwM0dFXzMyM1Jjek50c3A0LVp4NXo5MVhIb0haZ1JILVdWYUpTV0NVNUtXaExVdUw2Q1YxOVpfU3NMalBJMWZ4b0tJS1gxSnJacEpuQnRkSE1YdUd4dzVJMnRVQktqNnl2Rnk4Ymp3?oc=5",
         "pool": "google",
         "date": "2026-09-10",
         "by_hand": false
       },
       {
-        "title": "COSMECCA KOREA plans $150 mil. AI-based skincare factory in Korea - Korea Biomedical Review",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JOHRFeGJMRElFbVVDVkNFMXdWZTVvVWF1Sy1nckZmdHU2dVNuVlRyYktZZ0RnTTU1aWUwT3Z0LVJxeGxrRnVpaHV6RHNjaHVrQVJNNDVkVlQ1SXZTNFluWFBiWGZ4bURabzZIZUJ30gFyQVVfeXFMUHJVc2QwM0dFXzMyM1Jjek50c3A0LVp4NXo5MVhIb0haZ1JILVdWYUpTV0NVNUtXaExVdUw2Q1YxOVpfU3NMalBJMWZ4b0tJS1gxSnJacEpuQnRkSE1YdUd4dzVJMnRVQktqNnl2Rnk4Ymp3?oc=5",
+        "title": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - Celeb Secrets",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWlTTVg4ZkQ1N1Rfemtmamx1WXdDemF4b1JIaUIxWVdJeUJKQlh5QjRCbXFmTWxnT3JMWlh0TmwwaVpfVnZNR1B1N0prR0p6dlhJTHhVQU9fN3VNdDlDZHN3dWswdTcydjVvMmo2RXVrN09vcUgweHotU0dQZjFIb2V3?oc=5",
         "pool": "google",
         "date": "2026-09-10",
         "by_hand": false
@@ -622,24 +622,10 @@
         "by_hand": false
       },
       {
-        "title": "My beauty routine started to overwhelm me so I replaced it with these two viral K-beauty products - graziadaily.co.uk",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVzduZ092dl81cFdySU9Md2pxY0w4Z2FRTlpuOGxudFY3UWVLcWV6UU1qb0VBLXotb0h5bUYtTFNFMWMyYkZNeDhaRVUyQk4teUJpZkMtWHU5VVd4d0JyVXhUelcxVWR4WkVaRTFIZE90RE5JWXh0S1VEbk1FbGtoZFR6b1kzQQ?oc=5",
-        "pool": "google",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
         "title": "Discounts Allocator Function API developer preview has ended",
         "url": "https://shopify.dev/changelog/discounts-allocator-function-api-developer-preview-has-ended",
         "pool": "design_refs",
         "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Medicube, other K-beauty brands chart new course: aboard cruise ships in high seas - KED Global",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3ZU9yYWdlM1JUZGlkem45TFVrY1Z1ZzVCZEJ2V29RX3FaZ043TG9PamFJdjBHUWxWOG1IbzktajdOZzRKLUxkZF8xaHJ4R2NMaDNDQy0yOGItRHVobEd2bk9IVmh1S2FSM0g0cEtRY0xFTFpWQUE?oc=5",
-        "pool": "google",
-        "date": "2026-09-09",
         "by_hand": false
       },
       {
@@ -685,7 +671,7 @@
         "by_hand": false
       },
       {
-        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
+        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -727,7 +713,7 @@
         "by_hand": false
       },
       {
-        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
+        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -741,15 +727,15 @@
         "by_hand": false
       },
       {
-        "title": "The Vogue Business Beauty Trend Tracker - vogue.com",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96eFRtR1g5NG15VmJxdk9GX3B1V1FJdWRDdkJPb1pHMWk3d2pwMV81WFBURlJxaHRadVZTWUFKR1VSc21KX1lyVTUxa2NSa05nRmxUU1FRb1hFVWNvc2hDZ25YYUQ0Y09jMzNhLTZuWGk?oc=5",
+        "title": "8 best ecommerce AI Website Builder for creating an online store - Hostinger",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpU29tczMwM1pKaUdZYld0aThjYVRYWlE1c3k2VXc4RDBpUDdLOEx5bDg1OHljdURVUG5Xc25PWUxVZDY0RGl2OEFNM1ZYelFhN3FTVm1ySC1hRFk5amtVbkpudm9ZSFFCaEVQX1hleGRKWHV0d1NzSDhJdw?oc=5",
         "pool": "google",
         "date": "2026-09-04",
         "by_hand": false
       },
       {
-        "title": "Anti-Blush Is The Moody Yet Wearable Makeup Trend To Try Now - Harper's Bazaar Singapore",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HeW5JcWxfLU1RS2RYYzMxYTAzbGFVQTBvWktyOExud0JYc3dDZFFpQ0NobzMzUnhxR3BjOXVYQnFZaVh5RjZKM1F3QUp5TlZmZTl3OUNCQy1fYzREQmlvUmdTOHZ1X1JXM05HZVJ5MA?oc=5",
+        "title": "The Vogue Business Beauty Trend Tracker - Vogue",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96eFRtR1g5NG15VmJxdk9GX3B1V1FJdWRDdkJPb1pHMWk3d2pwMV81WFBURlJxaHRadVZTWUFKR1VSc21KX1lyVTUxa2NSa05nRmxUU1FRb1hFVWNvc2hDZ25YYUQ0Y09jMzNhLTZuWGk?oc=5",
         "pool": "google",
         "date": "2026-09-04",
         "by_hand": false
@@ -764,6 +750,13 @@
       {
         "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
         "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5",
+        "pool": "google",
+        "date": "2026-09-03",
+        "by_hand": false
+      },
+      {
+        "title": "Anti-Blush Is The Moody Yet Wearable Makeup Trend To Try Now - Harper's Bazaar Singapore",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HeW5JcWxfLU1RS2RYYzMxYTAzbGFVQTBvWktyOExud0JYc3dDZFFpQ0NobzMzUnhxR3BjOXVYQnFZaVh5RjZKM1F3QUp5TlZmZTl3OUNCQy1fYzREQmlvUmdTOHZ1X1JXM05HZVJ5MA?oc=5",
         "pool": "google",
         "date": "2026-09-03",
         "by_hand": false
@@ -797,13 +790,6 @@
         "by_hand": false
       },
       {
-        "title": "Why Korean Beauty Products Are Appearing in More Mainstream U.S. Stores Than Ever Before - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYXdORGtRaW5rN1VrM3pKZnl5dzJuVmd2Z0lUWkZ2Wl8zWkVXSFZyY3ljWHgybk9hb2xzT2VhMFdoRUFCVWxlNVNfb2pfRjUzdmg5VmhnbmpNTGU3QzNzT1dnb1FpTDV4aHktTmVHNXROMy15ZldpNzl5bTRJSHRuVER6ZkVVRUZ6eHh2c1RRUW5YR3hKUzJXU2pnUlZST0NaMWQ5a1hB?oc=5",
-        "pool": "google",
-        "date": "2026-09-01",
-        "by_hand": false
-      },
-      {
         "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - Sacramento Bee",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzRUhWam1YWHZYXzlFQlVlMFcwRDBYX003QTZqSzM0WURnYnNudkZveEs3RHJCczBzSUpvMklOeXR3elA4ZVdIc2lDd2RNeEJLeE9RdGNEbVFrTjVhcnFPaUJSNEpNeXpWLWRpcGhQb0ozdU3SAXNBVV95cUxPV1Qwc05zNHBGQmhLclBFVzhrQjQ1bjBZWWFKa25fVllZRXRobkhXZGZpeUplUVFYTjJ4dEpBTDZ1TXVlc3FGT3FOOUl2VFBqdzhYcHRFeEtJV2ExN29TUTVQVVdVTmNwWW9YVHZHSkZ0TDZN?oc=5",
         "pool": "google",
@@ -825,7 +811,7 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - cnbc.com",
+        "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
         "pool": "google",
         "date": "2026-08-30",
@@ -891,6 +877,20 @@
         "title": "The New Galaxy Z Series Earns Strong Early Reviews From European Consumers",
         "url": "https://news.samsung.com/global/the-new-galaxy-z-series-earns-strong-early-reviews-from-european-consumers",
         "pool": "institutions",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "Smoking and vaping trends among active-duty U.S. Navy and Marine Corps personnel: results from the Annual Periodic Health Assessment, 2017-2021",
+        "url": "https://doi.org/10.1093/ntr/ntag188",
+        "pool": "institutions",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - ELLE",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5",
+        "pool": "google",
         "date": "2026-08-26",
         "by_hand": false
       }
@@ -1568,7 +1568,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
+        "title": "Learn to Design 10X Better Mobile UI Designs",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -1715,7 +1715,7 @@
         "by_hand": true
       },
       {
-        "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
+        "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
         "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
         "pool": "youtube_channel",
         "date": "",

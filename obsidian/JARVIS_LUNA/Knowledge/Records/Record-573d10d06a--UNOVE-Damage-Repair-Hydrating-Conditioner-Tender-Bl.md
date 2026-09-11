@@ -2,7 +2,7 @@
 title: "Record 573d10d06a · UNOVE-Damage-Repair-Hydrating-Conditioner-Tender-Bloom-98-fl-oz290ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.999587+00:00
+updated_at: 2026-09-11T13:45:25.201492+00:00
 tags: [record, real-data]
 ---
 

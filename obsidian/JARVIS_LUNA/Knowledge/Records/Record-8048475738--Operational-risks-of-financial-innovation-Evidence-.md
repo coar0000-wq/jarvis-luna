@@ -2,7 +2,7 @@
 title: "Record 8048475738 · Operational-risks-of-financial-innovation-Evidence-from-large-US-BHCs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.552615+00:00
+updated_at: 2026-09-11T13:45:24.733546+00:00
 tags: [record, real-data]
 ---
 

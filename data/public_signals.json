@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T08:39:46.484718+00:00",
+  "generated_at": "2026-09-11T13:43:33.850984+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "vaccines",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Thu, 10 Sep 2026 21:20:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=vaccines"
-        },
-        {
-          "keyword": "vaccinations",
+          "keyword": "saudi arabia",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Thu, 10 Sep 2026 21:20:00 -0700",
-          "source_name": "WBAL-TV",
-          "url": "https://trends.google.com/trending?geo=US&q=vaccinations"
+          "published": "Fri, 11 Sep 2026 05:50:00 -0700",
+          "source_name": "Reuters",
+          "url": "https://trends.google.com/trending?geo=US&q=saudi%20arabia"
         },
         {
-          "keyword": "josh hartnett",
+          "keyword": "garnet ace bailey",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 10 Sep 2026 22:10:00 -0700",
-          "source_name": "Deadline",
-          "url": "https://trends.google.com/trending?geo=US&q=josh%20hartnett"
+          "published": "Fri, 11 Sep 2026 06:00:00 -0700",
+          "source_name": "KTLA",
+          "url": "https://trends.google.com/trending?geo=US&q=garnet%20ace%20bailey"
         },
         {
-          "keyword": "ted cruz",
+          "keyword": "bill clinton",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 10 Sep 2026 22:00:00 -0700",
-          "source_name": "CNN",
-          "url": "https://trends.google.com/trending?geo=US&q=ted%20cruz"
+          "published": "Fri, 11 Sep 2026 06:00:00 -0700",
+          "source_name": "WSJ",
+          "url": "https://trends.google.com/trending?geo=US&q=bill%20clinton"
         },
         {
-          "keyword": "내일 날씨",
+          "keyword": "ace bailey",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 10 Sep 2026 21:10:00 -0700",
-          "source_name": "미주중앙일보",
-          "url": "https://trends.google.com/trending?geo=US&q=%EB%82%B4%EC%9D%BC%20%EB%82%A0%EC%94%A8"
+          "published": "Fri, 11 Sep 2026 05:50:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=ace%20bailey"
         },
         {
-          "keyword": "fire weather watch",
+          "keyword": "khalid sheikh mohammed",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 11 Sep 2026 05:50:00 -0700",
+          "source_name": "CBS News",
+          "url": "https://trends.google.com/trending?geo=US&q=khalid%20sheikh%20mohammed"
+        },
+        {
+          "keyword": "xbox game pass",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Thu, 10 Sep 2026 23:30:00 -0700",
-          "source_name": "Sacramento Bee",
-          "url": "https://trends.google.com/trending?geo=US&q=fire%20weather%20watch"
+          "published": "Fri, 11 Sep 2026 06:30:00 -0700",
+          "source_name": "Mashable",
+          "url": "https://trends.google.com/trending?geo=US&q=xbox%20game%20pass"
         },
         {
-          "keyword": "cable tv",
+          "keyword": "rick rescorla",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Thu, 10 Sep 2026 21:20:00 -0700",
-          "source_name": "Media Play News",
-          "url": "https://trends.google.com/trending?geo=US&q=cable%20tv"
-        },
-        {
-          "keyword": "home prices",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Fri, 11 Sep 2026 01:20:00 -0700",
-          "source_name": "Realtor.com",
-          "url": "https://trends.google.com/trending?geo=US&q=home%20prices"
-        },
-        {
-          "keyword": "nick woltemade",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Fri, 11 Sep 2026 01:00:00 -0700",
-          "source_name": "WELT",
-          "url": "https://trends.google.com/trending?geo=US&q=nick%20woltemade"
-        },
-        {
-          "keyword": "elon musk",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Fri, 11 Sep 2026 01:00:00 -0700",
+          "published": "Fri, 11 Sep 2026 06:00:00 -0700",
           "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=elon%20musk"
+          "url": "https://trends.google.com/trending?geo=US&q=rick%20rescorla"
+        },
+        {
+          "keyword": "the falling man",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Fri, 11 Sep 2026 05:50:00 -0700",
+          "source_name": "The Times",
+          "url": "https://trends.google.com/trending?geo=US&q=the%20falling%20man"
+        },
+        {
+          "keyword": "bloomberg",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Fri, 11 Sep 2026 05:50:00 -0700",
+          "source_name": "Reuters",
+          "url": "https://trends.google.com/trending?geo=US&q=bloomberg"
+        },
+        {
+          "keyword": "9/11 time",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Fri, 11 Sep 2026 05:40:00 -0700",
+          "source_name": "Katie Couric Media",
+          "url": "https://trends.google.com/trending?geo=US&q=9/11%20time"
         }
       ]
     },
@@ -187,6 +187,11 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "17 Witchy Fragrances That Will Have You in Your Coven Era",
+          "published": "Fri, 11 Sep 2026 10:30:00 +0000",
+          "url": "https://www.allure.com/story/witchy-fragrance-trend"
+        },
         {
           "title": "Lash Painting: The Makeup Artist Technique for Clump-Free Mascara",
           "published": "Thu, 10 Sep 2026 22:39:00 +0000",
@@ -331,11 +336,6 @@
           "title": "Ulta Beauty Is Using Flock Cameras at Some Stores",
           "published": "Thu, 03 Sep 2026 17:06:58 +0000",
           "url": "https://www.allure.com/story/ulta-beauty-flock-petition"
-        },
-        {
-          "title": "6 Best Products for Hair Breakage for Stronger, Healthier-Looking Strands",
-          "published": "Wed, 02 Sep 2026 20:56:48 +0000",
-          "url": "https://www.allure.com/story/best-products-for-hair-breakage"
         }
       ]
     },

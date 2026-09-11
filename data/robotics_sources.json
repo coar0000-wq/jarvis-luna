@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T08:32:15.273126+00:00",
+  "generated_at": "2026-09-11T13:37:06.312395+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -539,7 +539,7 @@
         },
         {
           "title": "Video Friday: Digit Redecorates",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-tidies-an-orange-couch-while-a-person-watches-in-a-modern-living-room.gif?id=67725697&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upc",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-tidies-an-orange-couch-while-a-person-watches-in-a-modern-living-room.gif?id=67725697&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcom",
           "published": "Fri, 04 Sep 2026 16:00:05 +0000",
           "url": "https://spectrum.ieee.org/video-friday-agility-robotics-digit",
           "feed": "IEEE Spectrum Robotics",
@@ -547,7 +547,7 @@
         },
         {
           "title": "Protecting Dynamic Industrial Robot Cable Carriers",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/industrial-robotic-arm-with-cable-management-system-and-flexible-energy-chains.jpg?id=67633840&width=1200&height=800&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://tsubaki-kabelschlepp.com/\" target=\"_blank\">Tsubaki KabelSchlepp</a>.</em></p><p>In modern automated manufacturing, six-axis articulated r",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/industrial-robotic-arm-with-cable-management-system-and-flexible-energy-chains.jpg?id=67633840&width=1245&height=700&coordinates=0%2C104%2C0%2C104\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://tsubaki-kabelschlepp.com/\" target=\"_blank\">Tsubaki KabelSchlepp</a>.</em></p><p>In modern automated manufacturing, six-axis articulat",
           "published": "Thu, 03 Sep 2026 12:18:21 +0000",
           "url": "https://spectrum.ieee.org/industrial-robot-cable-carrier-protection",
           "feed": "IEEE Spectrum Robotics",
@@ -555,7 +555,7 @@
         },
         {
           "title": "The Best Way to Explore Lunar Craters Is a Giant Robot Ball",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-gif-of-a-spherical-robot-rolling-over-a-bumpy-path.gif?id=67701776&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p>On a good day, the rock quarry in central Texas is about 370,000 kilometers (230,000 miles) from the moon. But last February, when Rishi Jangale watched his 1.8-meter-wide, 150-kilogram inflatable robot roll effortle",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-gif-of-a-spherical-robot-rolling-over-a-bumpy-path.gif?id=67701776&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p>On a good day, the rock quarry in central Texas is about 370,000 kilometers (230,000 miles) from the moon. But last February, when Rishi Jangale watched his 1.8-meter-wide, 150-kilogram inflatable robot roll effortless",
           "published": "Thu, 03 Sep 2026 12:00:01 +0000",
           "url": "https://spectrum.ieee.org/moon-ball-robot",
           "feed": "IEEE Spectrum Robotics",
@@ -563,7 +563,7 @@
         },
         {
           "title": "Video Friday: Meet Microduck",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/colorful-desk-robots-posed-among-books-beside-an-open-laptop-in-an-office.png?id=67687638&width=1200&height=800&coordinates=241%2C0%2C242%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming rob",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/colorful-desk-robots-posed-among-books-beside-an-open-laptop-in-an-office.png?id=67687638&width=1245&height=700&coordinates=101%2C0%2C101%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming rob",
           "published": "Fri, 28 Aug 2026 16:00:03 +0000",
           "url": "https://spectrum.ieee.org/video-friday-microduck-robot",
           "feed": "IEEE Spectrum Robotics",
@@ -571,7 +571,7 @@
         },
         {
           "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/cute-home-robot-on-carpet-in-cozy-living-room-with-beige-sofa-and-warm-lighting.jpg?id=67154308&width=1200&height=800&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://ollobot.com/\" target=\"_blank\">Ollobot</a>.</em></p><p>From about 2017, individuals began to truly connect with the initial wave of compa",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/cute-home-robot-on-carpet-in-cozy-living-room-with-beige-sofa-and-warm-lighting.jpg?id=67154308&width=1245&height=700&coordinates=0%2C260%2C0%2C261\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://ollobot.com/\" target=\"_blank\">Ollobot</a>.</em></p><p>From about 2017, individuals began to truly connect with the initial wave of c",
           "published": "Tue, 25 Aug 2026 10:00:03 +0000",
           "url": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
           "feed": "IEEE Spectrum Robotics",
@@ -579,7 +579,7 @@
         },
         {
           "title": "Video Friday: Do We Need Superhuman Humanoid Robots?",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-leaps-over-200-centimeter-height-board-beside-person-in-warehouse.png?id=67655329&width=1200&height=800&coordinates=150%2C0%2C150%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcom",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-leaps-over-200-centimeter-height-board-beside-person-in-warehouse.png?id=67655329&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming ",
           "published": "Fri, 21 Aug 2026 16:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-unitree-superhuman",
           "feed": "IEEE Spectrum Robotics",
@@ -587,7 +587,7 @@
         },
         {
           "title": "Drones With Claws Perch on Arctic Icebergs",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-drone-firmly-planted-on-the-steep-slope-of-an-iceberg-after-a-successful-landing.jpg?id=67573301&width=1200&height=800&coordinates=0%2C83%2C0%2C84\"/><br/><br/><p><em><em>This article is part of our exclusive </em></em><a href=\"https://spectrum.ieee.org/collections/journal-watch/\" target=\"_self\"><em><em>IEEE Journal Watch series</em></em></a><em><",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-drone-firmly-planted-on-the-steep-slope-of-an-iceberg-after-a-successful-landing.jpg?id=67573301&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p><em><em>This article is part of our exclusive </em></em><a href=\"https://spectrum.ieee.org/collections/journal-watch/\" target=\"_self\"><em><em>IEEE Journal Watch series</em></em></a><em",
           "published": "Tue, 18 Aug 2026 13:00:01 +0000",
           "url": "https://spectrum.ieee.org/arctic-iceberg-drones",
           "feed": "IEEE Spectrum Robotics",
@@ -595,7 +595,7 @@
         },
         {
           "title": "Is Shipyard Welding the Right First Job for Humanoid Robots?",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-men-supervise-a-humanoid-robot-as-it-completes-a-welding-task-in-an-industrial-warehouse.jpg?id=67626093&width=1200&height=800&coordinates=0%2C83%2C0%2C84\"/><br/><br/><p>Humanoids desperately need to stop making YouTube videos and get a job already, and <a href=\"https://persona.ai/\" rel=\"noopener noreferrer\" target=\"_blank\">Persona AI</a> is on",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-men-supervise-a-humanoid-robot-as-it-completes-a-welding-task-in-an-industrial-warehouse.jpg?id=67626093&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p>Humanoids desperately need to stop making YouTube videos and get a job already, and <a href=\"https://persona.ai/\" rel=\"noopener noreferrer\" target=\"_blank\">Persona AI</a> is ",
           "published": "Mon, 17 Aug 2026 15:33:42 +0000",
           "url": "https://spectrum.ieee.org/persona-ai-humanoid-robot-welding",
           "feed": "IEEE Spectrum Robotics",
@@ -603,7 +603,7 @@
         },
         {
           "title": "Video Friday: Lift Happens",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/drone-crash-on-grassland-engulfed-in-flames-with-thick-black-smoke-rising.png?id=67615846&width=1200&height=800&coordinates=156%2C0%2C156%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming rob",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/drone-crash-on-grassland-engulfed-in-flames-with-thick-black-smoke-rising.png?id=67615846&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming robotic",
           "published": "Fri, 14 Aug 2026 17:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge",
           "feed": "IEEE Spectrum Robotics",
@@ -611,7 +611,7 @@
         },
         {
           "title": "Robot Recycler Salvages Parts From Broken Machines",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&width=1200&height=800&coordinates=156%2C0%2C156%2C0\"/><br/><br/><p>Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacture",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&width=1245&height=700&coordinates=0%2C156%2C0%2C157\"/><br/><br/><p>Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacture",
           "published": "Mon, 10 Aug 2026 18:01:25 +0000",
           "url": "https://spectrum.ieee.org/recycling-robot",
           "feed": "IEEE Spectrum Robotics",
@@ -619,7 +619,7 @@
         },
         {
           "title": "Video Friday: Drones Go Heavy in DARPA Lift Challenge",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/engineers-watch-a-slender-experimental-drone-fly-near-a-large-hangar.jpg?id=67585216&width=1200&height=800&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming robotics eve",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/engineers-watch-a-slender-experimental-drone-fly-near-a-large-hangar.jpg?id=67585216&width=1245&height=700&coordinates=0%2C104%2C0%2C104\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming robotics",
           "published": "Fri, 07 Aug 2026 16:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-heavy-lift-drone",
           "feed": "IEEE Spectrum Robotics",
@@ -627,7 +627,7 @@
         },
         {
           "title": "What Robotics Companies Think About the U.S. Foreign Robot Ban",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/photo-collage-of-humanoid-quadruped-and-unmanned-ground-vehicle-robots.jpg?id=67563239&width=1200&height=800&coordinates=0%2C208%2C0%2C209\"/><br/><br/><p>The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment and services that it says pose a threat to national security. <sp",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/photo-collage-of-humanoid-quadruped-and-unmanned-ground-vehicle-robots.jpg?id=67563239&width=1245&height=700&coordinates=0%2C469%2C0%2C469\"/><br/><br/><p>The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment and services that it says pose a threat to national security. <sp",
           "published": "Tue, 04 Aug 2026 11:00:01 +0000",
           "url": "https://spectrum.ieee.org/fcc-covered-list-mobile-robots",
           "feed": "IEEE Spectrum Robotics",
@@ -635,7 +635,7 @@
         },
         {
           "title": "Walden Robotics Partners With Toyota on Practical Humanoids",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-orange-and-white-robot-using-two-finger-gripper-hands-to-work-with-metal-tool-components.jpg?id=67568024&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p>For a while there, it seemed as though robotics as a whole was stuck in a <a href=\"https://spectrum.ieee.org/top-robotics-stories-2024\" target=\"_self\">mad rush</a> towards",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-orange-and-white-robot-using-two-finger-gripper-hands-to-work-with-metal-tool-components.jpg?id=67568024&width=1245&height=700&coordinates=0%2C62%2C0%2C63\"/><br/><br/><p>For a while there, it seemed as though robotics as a whole was stuck in a <a href=\"https://spectrum.ieee.org/top-robotics-stories-2024\" target=\"_self\">mad rush</a> towards",
           "published": "Mon, 03 Aug 2026 16:05:39 +0000",
           "url": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota",
           "feed": "IEEE Spectrum Robotics",
@@ -643,7 +643,7 @@
         },
         {
           "title": "Video Friday: Meet Google DeepMind’s Gemini Robotics 2",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-and-robotic-arm-labeled-gemini-robotics-er-2-in-a-workshop-setting.webp?id=67560022&width=1200&height=800&coordinates=125%2C0%2C125%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upc",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-and-robotic-arm-labeled-gemini-robotics-er-2-in-a-workshop-setting.webp?id=67560022&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcomin",
           "published": "Fri, 31 Jul 2026 16:00:03 +0000",
           "url": "https://spectrum.ieee.org/video-robot-gemini2-ai-robot",
           "feed": "IEEE Spectrum Robotics",
@@ -651,7 +651,7 @@
         },
         {
           "title": "Robot Finger Feels in Color",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/close-up-of-a-sensor-for-a-robotic-fingertip-and-raised-relief-images-of-a-leaf-and-a-u-s-penny.jpg?id=67542077&width=1200&height=800&coordinates=0%2C83%2C0%2C84\"/><br/><br/><p><span>Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and, ",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/close-up-of-a-sensor-for-a-robotic-fingertip-and-raised-relief-images-of-a-leaf-and-a-u-s-penny.jpg?id=67542077&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p><span>Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and",
           "published": "Tue, 28 Jul 2026 15:00:03 +0000",
           "url": "https://spectrum.ieee.org/robot-finger",
           "feed": "IEEE Spectrum Robotics",
@@ -659,7 +659,7 @@
         },
         {
           "title": "Optical Tech Would Update a Robot’s AI on the Fly",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-asian-man-positions-the-lens-of-an-optical-receiver-a-meter-away-from-a-beam-of-led-light-in-a-lab.jpg?id=67530602&width=1200&height=800&coordinates=0%2C209%2C0%2C209\"/><br/><br/><p>Atop a lab bench, <a href=\"https://tech.cornell.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Cornell Tech</a> postdoctoral researcher <a href=\"https://www.linkedi",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-asian-man-positions-the-lens-of-an-optical-receiver-a-meter-away-from-a-beam-of-led-light-in-a-lab.jpg?id=67530602&width=1245&height=700&coordinates=0%2C469%2C0%2C470\"/><br/><br/><p>Atop a lab bench, <a href=\"https://tech.cornell.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Cornell Tech</a> postdoctoral researcher <a href=\"https://www.linkedi",
           "published": "Sun, 26 Jul 2026 13:00:01 +0000",
           "url": "https://spectrum.ieee.org/ai-in-robotics",
           "feed": "IEEE Spectrum Robotics",
@@ -667,7 +667,7 @@
         },
         {
           "title": "Video Friday: An Italian Humanoid Comes to Life",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-with-red-armor-and-glowing-lights-stands-against-a-dark-background.png?id=67531350&width=1200&height=800&coordinates=150%2C0%2C150%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upco",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-with-red-armor-and-glowing-lights-stands-against-a-dark-background.png?id=67531350&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming",
           "published": "Fri, 24 Jul 2026 15:30:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
           "feed": "IEEE Spectrum Robotics",
@@ -675,7 +675,7 @@
         },
         {
           "title": "This Graduate Student Equips NASA’s Robots With Assembly Skills",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-young-woman-with-blonde-hair-softly-smiling-next-to-a-pair-of-collaborative-robot-arms.jpg?id=67499761&width=1200&height=800&coordinates=156%2C0%2C156%2C0\"/><br/><br/><p>Like many engineers, <a href=\"https://www.linkedin.com/in/sarahdownsprofile\" rel=\"noopener noreferrer\" target=\"_blank\">Sarah Downs</a> says she knew she wanted to pursue a STEM c",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-young-woman-with-blonde-hair-softly-smiling-next-to-a-pair-of-collaborative-robot-arms.jpg?id=67499761&width=1245&height=700&coordinates=0%2C156%2C0%2C157\"/><br/><br/><p>Like many engineers, <a href=\"https://www.linkedin.com/in/sarahdownsprofile\" rel=\"noopener noreferrer\" target=\"_blank\">Sarah Downs</a> says she knew she wanted to pursue a STEM c",
           "published": "Fri, 17 Jul 2026 18:00:01 +0000",
           "url": "https://spectrum.ieee.org/graduate-student-nasas-robots-assembly",
           "feed": "IEEE Spectrum Robotics",
@@ -683,7 +683,7 @@
         },
         {
           "title": "Video Friday: Your Robot Surgeon Will See You Now",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-humanoid-robots-perform-a-surgical-procedure-on-a-patient-in-a-dark-lab.png?id=67494478&width=1200&height=800&coordinates=150%2C0%2C150%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming r",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-humanoid-robots-perform-a-surgical-procedure-on-a-patient-in-a-dark-lab.png?id=67494478&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming robot",
           "published": "Fri, 17 Jul 2026 16:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-robotic-surgery",
           "feed": "IEEE Spectrum Robotics",
@@ -691,7 +691,7 @@
         },
         {
           "title": "How to Make an Invisible Drone",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/low-visibility-drone-flying-in-front-of-an-office-plant.jpg?id=67480624&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p><span>There are many words that I would never, ever use to describe a drone. Stealthy. Subtle. Whatever the opposite of obnoxious is. Much of this is because of the giant angry bee sound that drones tend to make, ",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/low-visibility-drone-flying-in-front-of-an-office-plant.jpg?id=67480624&width=1245&height=700&coordinates=0%2C62%2C0%2C63\"/><br/><br/><p><span>There are many words that I would never, ever use to describe a drone. Stealthy. Subtle. Whatever the opposite of obnoxious is. Much of this is because of the giant angry bee sound that drones tend to make, ",
           "published": "Thu, 16 Jul 2026 16:09:21 +0000",
           "url": "https://spectrum.ieee.org/invisible-spinning-drone",
           "feed": "IEEE Spectrum Robotics",
@@ -699,7 +699,7 @@
         },
         {
           "title": "Building a Foundation Stack for General-Purpose Robots",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-folding-laundry-on-a-neatly-made-bed-in-a-sunlit-bedroom.png?id=67111698&width=1200&height=800&coordinates=115%2C0%2C115%2C0\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://x2robot.com/\" target=\"_blank\">X Square Robot</a>.</em></p><p>Large language models gave artificial intelligence a working recipe. Pretrain a",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-folding-laundry-on-a-neatly-made-bed-in-a-sunlit-bedroom.png?id=67111698&width=1245&height=700&coordinates=4%2C0%2C4%2C0\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://x2robot.com/\" target=\"_blank\">X Square Robot</a>.</em></p><p>Large language models gave artificial intelligence a working recipe. Pretrain a lar",
           "published": "Mon, 13 Jul 2026 10:19:51 +0000",
           "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
           "feed": "IEEE Spectrum Robotics",
@@ -707,10 +707,18 @@
         },
         {
           "title": "Video Friday: A World Cup for Robots",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robots-play-soccer-as-a-ball-flies-toward-the-goal-in-a-tournament-arena.jpg?id=67119515&width=1200&height=800&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span><a href=\"https://spectrum.ieee.org/tag/video-friday\" target=\"_blank\">Video Friday</a> is your weekly selection of <a data-linked-post=\"2677074152\" href=\"https://spectrum.ieee.org/vide",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robots-play-soccer-as-a-ball-flies-toward-the-goal-in-a-tournament-arena.jpg?id=67119515&width=1245&height=700&coordinates=0%2C312%2C0%2C313\"/><br/><br/><p><span><a href=\"https://spectrum.ieee.org/tag/video-friday\" target=\"_blank\">Video Friday</a> is your weekly selection of <a data-linked-post=\"2677074152\" href=\"https://spectrum.ieee.org/",
           "published": "Fri, 10 Jul 2026 16:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-robot-world-cup",
           "feed": "IEEE Spectrum Robotics",
+          "source": "rss"
+        },
+        {
+          "title": "How drone developers are navigating changing regulatory landscapes to help farmers",
+          "summary": "<p>Before the FCC put restrictions on foreign-made robots, it had already set similar restrictions on drones last year, noted Hylio.</p> <p>The post <a href=\"https://www.therobotreport.com/how-hylio-drone-developers-navigate-changing-regulatory-landscape-help-farmers/\">How drone developers are navigating changing regulatory landscapes to help farmers</a> appeared first on <a href=\"https://www.ther",
+          "published": "Fri, 11 Sep 2026 12:21:16 +0000",
+          "url": "https://www.therobotreport.com/how-hylio-drone-developers-navigate-changing-regulatory-landscape-help-farmers/",
+          "feed": "The Robot Report",
           "source": "rss"
         },
         {
@@ -822,14 +830,6 @@
           "summary": "<p>An interview with Eric Sivertson of Lattice Semiconductor about FPGAs and how they can improve robot safety and security.</p> <p>The post <a href=\"https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/\">Eric Sivertson discusses FPGAs and robot security</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
           "published": "Sun, 06 Sep 2026 14:30:01 +0000",
           "url": "https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Pressure sensors can help improve robotic gripping accuracy",
-          "summary": "<p>From first contact through surface deformation, load distribution, and final stable hold, pressure sensors can improve robotic bin picking.</p> <p>The post <a href=\"https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/\">Pressure sensors can help improve robotic gripping accuracy</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report",
-          "published": "Sun, 06 Sep 2026 12:30:17 +0000",
-          "url": "https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/",
           "feed": "The Robot Report",
           "source": "rss"
         }

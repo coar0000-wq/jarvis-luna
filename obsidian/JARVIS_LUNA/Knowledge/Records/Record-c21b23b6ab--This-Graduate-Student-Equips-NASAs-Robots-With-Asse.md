@@ -2,7 +2,7 @@
 title: "Record c21b23b6ab · This-Graduate-Student-Equips-NASAs-Robots-With-Assembly-Skills"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.990201+00:00
+updated_at: 2026-09-11T13:45:25.192773+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** This Graduate Student Equips NASA’s Robots With Assembly Skills
 
 This Graduate Student Equips NASA’s Robots With Assembly Skills
-<img src="https://spectrum.ieee.org/media-library/a-young-woman-with-blonde-hair-softly-smiling-next-to-a-pair-of-collaborative-robot-arms.jpg?id=67499761&width=1200&height=800&coordinates=156%2C0%2C156%2C0"/><br/><br/><p>Like many engineers, <a href="https://www.linkedin.com/in/sarahdownsprofile" rel="noopener noreferrer" target="_blank">Sarah Downs</a> says she knew she wanted to pursue a STEM c
+<img src="https://spectrum.ieee.org/media-library/a-young-woman-with-blonde-hair-softly-smiling-next-to-a-pair-of-collaborative-robot-arms.jpg?id=67499761&width=1245&height=700&coordinates=0%2C156%2C0%2C157"/><br/><br/><p>Like many engineers, <a href="https://www.linkedin.com/in/sarahdownsprofile" rel="noopener noreferrer" target="_blank">Sarah Downs</a> says she knew she wanted to pursue a STEM c
 
 **출처:** Source · robotics
 

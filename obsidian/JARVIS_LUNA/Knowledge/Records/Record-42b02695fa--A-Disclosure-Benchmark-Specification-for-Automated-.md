@@ -2,7 +2,7 @@
 title: "Record 42b02695fa · A-Disclosure-Benchmark-Specification-for-Automated-Alignment-Research-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.669903+00:00
+updated_at: 2026-09-11T13:45:24.858135+00:00
 tags: [record, real-data]
 ---
 

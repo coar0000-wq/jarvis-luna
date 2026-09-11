@@ -1,10 +1,10 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-11T08:35:16.181603+00:00",
+  "collected_at": "2026-09-11T13:39:48.438913+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
-  "count": 91,
+  "count": 89,
   "items": [
     {
       "keyword": "K-beauty giant Cosmax moves a gentler retinol into stick form - Korea Biomedical Review",
@@ -21,6 +21,15 @@
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWlTTVg4ZkQ1N1Rfemtmamx1WXdDemF4b1JIaUIxWVdJeUJKQlh5QjRCbXFmTWxnT3JMWlh0TmwwaVpfVnZNR1B1N0prR0p6dlhJTHhVQU9fN3VNdDlDZHN3dWswdTcydjVvMmo2RXVrN09vcUgweHotU0dQZjFIb2V3?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -43,11 +52,11 @@
       "beauty": true
     },
     {
-      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
-      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "keyword": "Sulwhasoo tests Japan's luxury beauty market with first Tokyo pop-up - Korea JoongAng Daily",
+      "product": "Sulwhasoo tests Japan's luxury beauty market with first Tokyo pop-up - Korea JoongAng Daily",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLVFjc3hJVkl0Z3ZVbC1PRUlicUE3Y3B2QUFPT1EzYXdJOTJKSUZUaWVldzdqalNvcE1iODhXVlpzakROZHB4d3dmSHZDYkwzWDMzaGVRaGRGeHhHa3pxZFpPOENWb2ZiOGNob0swMDFaVkNmZkllTHFxb2ZNc2J4TWFINGd5T0xfbHVKUFdWd2tRSVpqX0R6S0ZBRVlqY3huY1FYVmE2QzA4LWtwcHg1V3JvTVduU3ZwdTJ3?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -61,20 +70,11 @@
       "beauty": true
     },
     {
-      "keyword": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
-      "product": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
+      "keyword": "You’ve been buying K-beauty. Is it time to try Korean treatments? - thetimes.com",
+      "product": "You’ve been buying K-beauty. Is it time to try Korean treatments? - thetimes.com",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFlyd3hfU3ozdUtzS0d1MU5Hbmx6MHlWZTFicUdJT2NrSWlaLWJTS2lzQ21tZGhrQTRRei1FeDJnQk1OU0dvM1R5cUlnYnZFM05SM0syVjhnYXlnTmV5LVlHRmNpTmVBamFQMVFHVWJEQW9JVm1uTGxWLW84dTZCYTZ1RU1QVjhYTGhaaEp2NHNkQ2k3T1hsZElFcw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
-      "product": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXkzOEhOM0k2RV9QV1hUbWlZSDhQZ2dGbWVZNHp6XzM3dWtvVTU5OTlJa3NROGF6R0ZjUlg0eHp5WTFUUmUzdElxSE9iX1JVTDV1cUdHeHBrVTVFLXRyTWVGWGVLWVdaOWQwMjVKSVVPbmxBRlhDOFp2cmRnd3JITUFibWR6UF8xSFo5aFlqem5hR2phaU5qdmx0SXJtdjJzZFA2ZmNFbTV0R0g0ZmNqMGYzZnI?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -84,6 +84,15 @@
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGtUdkEtYWNZaFVvSFFvcUlXQzNRWS1zcXUtVUctWkx2b3V4d3JWNk42dmtPYjFweUxTX2IxUHNqamdCRWY0T2lxUWtyN3RkYnA4Z0dORHJNR05HaWpvX3lJT190RVFtVXhNVk10YnNuNjdqZ1NBdFNRUU94cG9nYmJ1Uld1c2hmS1YyXzF5VmRMMTRo?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
+      "product": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
+      "sub": "Korean sunscreen",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZHBXQzBDZ2dGRHdEeXdtSXk5NkpMbW5vZzYzdGVWWVk1RllId3RCaUtPVnRIUVVEME84QmUzYTRBcGt5SE9rd3VpU0NZcWhBak1tMjVNR2lPd050RUdwaUJQbHB6TU81UDVmejBkVElrcnFKdnY1UHZ6SjVOMmtCNjNod3AtYm5Qb3c?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -120,15 +129,6 @@
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGRVSGtHWWhrdzhNWEl1ZkZJcUxCMVpfem14eFVoOGlUV0x5UVpBTGR0TVRzMUo3ODlPM3MwMF8zSXJTa1pZZ0dELThiVlhtRjlqdTQ4SDFPcUdPaUR4ZnF0VmZvRWktajNibk9JT3pTam5CV0JGY0VOUnBFQmVXa0V1T3VJNXVQb1JLWjhkanRxWXBBeU5DZVVrUnFLWHBMWGRfa284UkFuaWNCYXV3RHJJeGtGck5TRFRES21aUV9WY3NCY21UazhEdjZ1bVk?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
-      "product": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
-      "sub": "Korean sunscreen",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZHBXQzBDZ2dGRHdEeXdtSXk5NkpMbW5vZzYzdGVWWVk1RllId3RCaUtPVnRIUVVEME84QmUzYTRBcGt5SE9rd3VpU0NZcWhBak1tMjVNR2lPd050RUdwaUJQbHB6TU81UDVmejBkVElrcnFKdnY1UHZ6SjVOMmtCNjNod3AtYm5Qb3c?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -187,8 +187,8 @@
       "beauty": true
     },
     {
-      "keyword": "Snail slime for your face? - cnn.com",
-      "product": "Snail slime for your face? - cnn.com",
+      "keyword": "Snail slime for your face? - CNN",
+      "product": "Snail slime for your face? - CNN",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0l4Szg4MWtxM2RLY0MzSHpBYkRHQVdCSEc1b29TNFdrUzA4QmZoNldsRnctNXRFNVNQVWowMEdXdzJ2T244SGRGSnF2cVVhUHFuZnZuS1U2NVVCQ1BPTVRoelJqcUZZZnNEVEU0a3hlZ2JuaGJ5TFhBZjJSOFowaVlPMW5IZkZnbC1zYmdTb1dVSFZscmhLaFJGRXI3Wmc?oc=5",
@@ -205,8 +205,8 @@
       "beauty": true
     },
     {
-      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
-      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
+      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - goodhousekeeping.com",
+      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - goodhousekeeping.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVFB2b0FsdDRfdzNDNmZiTU9kX2RJdmJncVQxcWtUUGYyNHhHb3ZXZkZCdXR6ck4wYmxIUzJMbUFhb1Mxc2FTVkZRbmlKVFBQMEY0aXZsODdCLWIxZUV3QnZJcEtMaW9EeTFfaUNtek9hQU10YmJ5OHd0QjAwZWR3UGRUdGo2XzBuenFwcA?oc=5",
@@ -250,8 +250,8 @@
       "beauty": true
     },
     {
-      "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com",
-      "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com",
+      "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
+      "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LemdVMDM3Q3hoem1Xa013a0JQMVdWd0UxSDZpdjc4T3BmT29PMWJZZTltMl9lQkhRM1NzckFMbnBiMlIycWxqZXhrQ3lCeU1YNzFEcnpPQkRpeDQ?oc=5",
@@ -268,8 +268,8 @@
       "beauty": true
     },
     {
-      "keyword": "Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - newbeauty.com",
-      "product": "Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - newbeauty.com",
+      "keyword": "Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - NewBeauty",
+      "product": "Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - NewBeauty",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0TXdQNUtJTm1FMlBLR2ZtRTF0RDA5QjJqM3FuNENyZm9sU3NJb2pVYzhaZ0xSckpIOHBNRlJmTERjd0E2TGphTlhJb3p1V0prc19YenBRVmk1d095SzZ6SXZEdTRSSWd5MWpTNDVud1JXUWZqX3c?oc=5",

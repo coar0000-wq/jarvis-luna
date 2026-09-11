@@ -2,7 +2,7 @@
 title: "Record 4cedd9a805 · Securing-Software-at-the-Speed-of-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.520352+00:00
+updated_at: 2026-09-11T13:45:24.700132+00:00
 tags: [record, real-data]
 ---
 

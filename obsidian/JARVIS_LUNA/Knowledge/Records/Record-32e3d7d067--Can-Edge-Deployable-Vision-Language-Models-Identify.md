@@ -2,7 +2,7 @@
 title: "Record 32e3d7d067 · Can-Edge-Deployable-Vision-Language-Models-Identify-Species"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.517381+00:00
+updated_at: 2026-09-11T13:45:24.696926+00:00
 tags: [record, real-data]
 ---
 

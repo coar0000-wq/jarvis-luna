@@ -2,7 +2,7 @@
 title: "Record 69995e9cfe · Why-TikTok-cant-stop-talking-about-SKIMS-beauty-wrap-and-the-morning-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.723874+00:00
+updated_at: 2026-09-11T13:45:24.916330+00:00
 tags: [record, real-data]
 ---
 

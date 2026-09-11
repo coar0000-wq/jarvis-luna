@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T08:33:39.921365+00:00",
+  "generated_at": "2026-09-11T13:38:16.949942+00:00",
   "generator": "scripts/collect_design_sources.py",
   "원칙": "서버가 데이터를 그대로 주는 곳만 쓴다. 브라우저에서만 그려지는 사이트는 자동 수집 대상이 아니다. robots.txt 와일드카드 그룹이 허용하는 경로만 요청한다.",
   "robots_checked_at": "2026-09-06",

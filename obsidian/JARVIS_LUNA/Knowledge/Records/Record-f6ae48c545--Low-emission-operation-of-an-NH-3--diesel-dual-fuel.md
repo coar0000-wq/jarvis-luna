@@ -2,7 +2,7 @@
 title: "Record f6ae48c545 · Low-emission-operation-of-an-NH-3--diesel-dual-fuel-4-stroke-engine-ta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.613054+00:00
+updated_at: 2026-09-11T13:45:24.798206+00:00
 tags: [record, real-data]
 ---
 

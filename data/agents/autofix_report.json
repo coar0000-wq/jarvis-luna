@@ -1,6 +1,6 @@
 {
   "agent": "Safe-Auto-Fix",
-  "generated_at": "2026-09-11T08:40:46.405760+00:00",
+  "generated_at": "2026-09-11T13:45:00.917576+00:00",
   "status": "success",
   "enabled": true,
   "chief_of_staff": {
@@ -29,16 +29,16 @@
       ]
     },
     "graph": {
-      "nodes": 81132,
-      "links": 321862,
+      "nodes": 81156,
+      "links": 322092,
       "dangling_generated": 0,
-      "runtime_nodes": 81132,
-      "runtime_links": 321862,
+      "runtime_nodes": 81156,
+      "runtime_links": 322092,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 81132,
-        "actual_links": 321862,
+        "actual_nodes": 81156,
+        "actual_links": 322092,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -56,36 +56,60 @@
             "target": "jarvis_level3.5_10명전문가_협력"
           },
           {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
-            "target": "youtube_마케팅_전략"
-          },
-          {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
-            "target": "kb증권_api_튜토리얼_전략"
-          },
-          {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
-            "target": "satellite_ai_saas_비즈니스_모델"
-          },
-          {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
-            "target": "series_b_투자_전략"
-          },
-          {
             "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "satellite ai 콘텐츠 마케팅"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+            "target": "{metadata['channel'"
+          },
+          {
+            "source": "Personal/templates/kms/JARVIS_기술구현_동적가격_예측모델.md",
+            "target": "group_a_conversions, group_a_impressions - group_a_conversions"
+          },
+          {
+            "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+            "target": "{metadata['channel'"
+          },
+          {
+            "source": "Personal/templates/kms/🎯_JARVIS_그래프데이터화_심도있는작업계획.md",
+            "target": "phase-x"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "target": "youtube_마케팅_전략"
           },
           {
             "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "youtube 마케팅 전략"
           },
           {
+            "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+            "target": "youtube_integration_{metadata['video_id'"
+          },
+          {
+            "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+            "target": "youtube_integration_{metadata['video_id'"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "target": "kb증권_api_튜토리얼_전략"
+          },
+          {
             "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "satellite ai 콘텐츠 마케팅"
           },
           {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "target": "satellite_ai_saas_비즈니스_모델"
+          },
+          {
             "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "saas 무료+프리미엄 비즈니스 모델"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "target": "series_b_투자_전략"
           },
           {
             "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
@@ -98,34 +122,12 @@
           {
             "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "satellite ai 사용 사례"
-          },
-          {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
-            "target": "ai 제품 론칭 전략"
-          },
-          {
-            "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-            "target": "{metadata['channel'"
-          },
-          {
-            "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-            "target": "youtube_integration_{metadata['video_id'"
-          },
-          {
-            "source": "Personal/templates/kms/JARVIS_기술구현_동적가격_예측모델.md",
-            "target": "group_a_conversions, group_a_impressions - group_a_conversions"
-          },
-          {
-            "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-            "target": "{metadata['channel'"
-          },
-          {
-            "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-            "target": "youtube_integration_{metadata['video_id'"
           }
         ],
-        "runtime_nodes": 81132,
-        "runtime_links": 321862,
+        "generated_dangling_sample_source_count": 0,
+        "personal_dangling_sample_source_count": 8,
+        "runtime_nodes": 81156,
+        "runtime_links": 322092,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -133,7 +135,7 @@
       }
     },
     "shopify": {
-      "s_count": 7
+      "s_count": 6
     },
     "queue": {
       "blacklist_count": 7
@@ -159,16 +161,16 @@
       ]
     },
     "graph": {
-      "nodes": 81132,
-      "links": 321862,
+      "nodes": 81156,
+      "links": 322092,
       "dangling_generated": 0,
-      "runtime_nodes": 81132,
-      "runtime_links": 321862,
+      "runtime_nodes": 81156,
+      "runtime_links": 322092,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 81132,
-        "actual_links": 321862,
+        "actual_nodes": 81156,
+        "actual_links": 322092,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -186,36 +188,60 @@
             "target": "jarvis_level3.5_10명전문가_협력"
           },
           {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
-            "target": "youtube_마케팅_전략"
-          },
-          {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
-            "target": "kb증권_api_튜토리얼_전략"
-          },
-          {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
-            "target": "satellite_ai_saas_비즈니스_모델"
-          },
-          {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
-            "target": "series_b_투자_전략"
-          },
-          {
             "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "satellite ai 콘텐츠 마케팅"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+            "target": "{metadata['channel'"
+          },
+          {
+            "source": "Personal/templates/kms/JARVIS_기술구현_동적가격_예측모델.md",
+            "target": "group_a_conversions, group_a_impressions - group_a_conversions"
+          },
+          {
+            "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+            "target": "{metadata['channel'"
+          },
+          {
+            "source": "Personal/templates/kms/🎯_JARVIS_그래프데이터화_심도있는작업계획.md",
+            "target": "phase-x"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "target": "youtube_마케팅_전략"
           },
           {
             "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "youtube 마케팅 전략"
           },
           {
+            "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+            "target": "youtube_integration_{metadata['video_id'"
+          },
+          {
+            "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+            "target": "youtube_integration_{metadata['video_id'"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "target": "kb증권_api_튜토리얼_전략"
+          },
+          {
             "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "satellite ai 콘텐츠 마케팅"
           },
           {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "target": "satellite_ai_saas_비즈니스_모델"
+          },
+          {
             "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "saas 무료+프리미엄 비즈니스 모델"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "target": "series_b_투자_전략"
           },
           {
             "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
@@ -228,34 +254,12 @@
           {
             "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "satellite ai 사용 사례"
-          },
-          {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
-            "target": "ai 제품 론칭 전략"
-          },
-          {
-            "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-            "target": "{metadata['channel'"
-          },
-          {
-            "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-            "target": "youtube_integration_{metadata['video_id'"
-          },
-          {
-            "source": "Personal/templates/kms/JARVIS_기술구현_동적가격_예측모델.md",
-            "target": "group_a_conversions, group_a_impressions - group_a_conversions"
-          },
-          {
-            "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-            "target": "{metadata['channel'"
-          },
-          {
-            "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-            "target": "youtube_integration_{metadata['video_id'"
           }
         ],
-        "runtime_nodes": 81132,
-        "runtime_links": 321862,
+        "generated_dangling_sample_source_count": 0,
+        "personal_dangling_sample_source_count": 8,
+        "runtime_nodes": 81156,
+        "runtime_links": 322092,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -263,7 +267,7 @@
       }
     },
     "shopify": {
-      "s_count": 7
+      "s_count": 6
     },
     "queue": {
       "blacklist_count": 7
@@ -272,20 +276,20 @@
   "improvement": {
     "graph_dangling_before": 0,
     "graph_dangling_after": 0,
-    "graph_nodes_before": 81132,
-    "graph_nodes_after": 81132,
-    "graph_links_before": 321862,
-    "graph_links_after": 321862,
+    "graph_nodes_before": 81156,
+    "graph_nodes_after": 81156,
+    "graph_links_before": 322092,
+    "graph_links_after": 322092,
     "parse_failed_before": 7,
     "parse_failed_after": 7,
-    "s_count_before": 7,
-    "s_count_after": 7,
+    "s_count_before": 6,
+    "s_count_after": 6,
     "channels_live_before": 11,
     "channels_live_after": 11,
     "obsidian_truth_before": {
       "vault": "obsidian/JARVIS_LUNA",
-      "actual_nodes": 81132,
-      "actual_links": 321862,
+      "actual_nodes": 81156,
+      "actual_links": 322092,
       "actual_dangling_generated": 0,
       "actual_dangling_personal": 21,
       "generated_dangling_samples": [],
@@ -303,36 +307,60 @@
           "target": "jarvis_level3.5_10명전문가_협력"
         },
         {
-          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
-          "target": "youtube_마케팅_전략"
-        },
-        {
-          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
-          "target": "kb증권_api_튜토리얼_전략"
-        },
-        {
-          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
-          "target": "satellite_ai_saas_비즈니스_모델"
-        },
-        {
-          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
-          "target": "series_b_투자_전략"
-        },
-        {
           "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
           "target": "satellite ai 콘텐츠 마케팅"
+        },
+        {
+          "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+          "target": "{metadata['channel'"
+        },
+        {
+          "source": "Personal/templates/kms/JARVIS_기술구현_동적가격_예측모델.md",
+          "target": "group_a_conversions, group_a_impressions - group_a_conversions"
+        },
+        {
+          "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+          "target": "{metadata['channel'"
+        },
+        {
+          "source": "Personal/templates/kms/🎯_JARVIS_그래프데이터화_심도있는작업계획.md",
+          "target": "phase-x"
+        },
+        {
+          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+          "target": "youtube_마케팅_전략"
         },
         {
           "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
           "target": "youtube 마케팅 전략"
         },
         {
+          "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+          "target": "youtube_integration_{metadata['video_id'"
+        },
+        {
+          "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+          "target": "youtube_integration_{metadata['video_id'"
+        },
+        {
+          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+          "target": "kb증권_api_튜토리얼_전략"
+        },
+        {
           "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
           "target": "satellite ai 콘텐츠 마케팅"
         },
         {
+          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+          "target": "satellite_ai_saas_비즈니스_모델"
+        },
+        {
           "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
           "target": "saas 무료+프리미엄 비즈니스 모델"
+        },
+        {
+          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+          "target": "series_b_투자_전략"
         },
         {
           "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
@@ -345,34 +373,12 @@
         {
           "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
           "target": "satellite ai 사용 사례"
-        },
-        {
-          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
-          "target": "ai 제품 론칭 전략"
-        },
-        {
-          "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-          "target": "{metadata['channel'"
-        },
-        {
-          "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-          "target": "youtube_integration_{metadata['video_id'"
-        },
-        {
-          "source": "Personal/templates/kms/JARVIS_기술구현_동적가격_예측모델.md",
-          "target": "group_a_conversions, group_a_impressions - group_a_conversions"
-        },
-        {
-          "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-          "target": "{metadata['channel'"
-        },
-        {
-          "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-          "target": "youtube_integration_{metadata['video_id'"
         }
       ],
-      "runtime_nodes": 81132,
-      "runtime_links": 321862,
+      "generated_dangling_sample_source_count": 0,
+      "personal_dangling_sample_source_count": 8,
+      "runtime_nodes": 81156,
+      "runtime_links": 322092,
       "runtime_dangling_generated": 0,
       "runtime_consistent": true,
       "anomaly": false,
@@ -380,8 +386,8 @@
     },
     "obsidian_truth_after": {
       "vault": "obsidian/JARVIS_LUNA",
-      "actual_nodes": 81132,
-      "actual_links": 321862,
+      "actual_nodes": 81156,
+      "actual_links": 322092,
       "actual_dangling_generated": 0,
       "actual_dangling_personal": 21,
       "generated_dangling_samples": [],
@@ -399,36 +405,60 @@
           "target": "jarvis_level3.5_10명전문가_협력"
         },
         {
-          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
-          "target": "youtube_마케팅_전략"
-        },
-        {
-          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
-          "target": "kb증권_api_튜토리얼_전략"
-        },
-        {
-          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
-          "target": "satellite_ai_saas_비즈니스_모델"
-        },
-        {
-          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
-          "target": "series_b_투자_전략"
-        },
-        {
           "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
           "target": "satellite ai 콘텐츠 마케팅"
+        },
+        {
+          "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+          "target": "{metadata['channel'"
+        },
+        {
+          "source": "Personal/templates/kms/JARVIS_기술구현_동적가격_예측모델.md",
+          "target": "group_a_conversions, group_a_impressions - group_a_conversions"
+        },
+        {
+          "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+          "target": "{metadata['channel'"
+        },
+        {
+          "source": "Personal/templates/kms/🎯_JARVIS_그래프데이터화_심도있는작업계획.md",
+          "target": "phase-x"
+        },
+        {
+          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+          "target": "youtube_마케팅_전략"
         },
         {
           "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
           "target": "youtube 마케팅 전략"
         },
         {
+          "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+          "target": "youtube_integration_{metadata['video_id'"
+        },
+        {
+          "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+          "target": "youtube_integration_{metadata['video_id'"
+        },
+        {
+          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+          "target": "kb증권_api_튜토리얼_전략"
+        },
+        {
           "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
           "target": "satellite ai 콘텐츠 마케팅"
         },
         {
+          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+          "target": "satellite_ai_saas_비즈니스_모델"
+        },
+        {
           "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
           "target": "saas 무료+프리미엄 비즈니스 모델"
+        },
+        {
+          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+          "target": "series_b_투자_전략"
         },
         {
           "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
@@ -441,34 +471,12 @@
         {
           "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
           "target": "satellite ai 사용 사례"
-        },
-        {
-          "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
-          "target": "ai 제품 론칭 전략"
-        },
-        {
-          "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-          "target": "{metadata['channel'"
-        },
-        {
-          "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-          "target": "youtube_integration_{metadata['video_id'"
-        },
-        {
-          "source": "Personal/templates/kms/JARVIS_기술구현_동적가격_예측모델.md",
-          "target": "group_a_conversions, group_a_impressions - group_a_conversions"
-        },
-        {
-          "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-          "target": "{metadata['channel'"
-        },
-        {
-          "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-          "target": "youtube_integration_{metadata['video_id'"
         }
       ],
-      "runtime_nodes": 81132,
-      "runtime_links": 321862,
+      "generated_dangling_sample_source_count": 0,
+      "personal_dangling_sample_source_count": 8,
+      "runtime_nodes": 81156,
+      "runtime_links": 322092,
       "runtime_dangling_generated": 0,
       "runtime_consistent": true,
       "anomaly": false,
@@ -478,7 +486,7 @@
   "changes": [
     {
       "action": "repair_daiso_queue",
-      "started_at": "2026-09-11T08:40:43.509538+00:00",
+      "started_at": "2026-09-11T13:44:57.150033+00:00",
       "enabled": true,
       "changed": false,
       "added_to_blacklist": [],
@@ -496,7 +504,7 @@
       "candidate_count": 7,
       "reason": null,
       "blacklist_field": "blacklist_pd_nos",
-      "finished_at": "2026-09-11T08:40:43.509586+00:00"
+      "finished_at": "2026-09-11T13:44:57.150110+00:00"
     },
     {
       "action": "normalize_obsidian_links",
@@ -513,7 +521,7 @@
   ],
   "queue": {
     "action": "repair_daiso_queue",
-    "started_at": "2026-09-11T08:40:43.509538+00:00",
+    "started_at": "2026-09-11T13:44:57.150033+00:00",
     "enabled": true,
     "changed": false,
     "added_to_blacklist": [],
@@ -531,7 +539,7 @@
     "candidate_count": 7,
     "reason": null,
     "blacklist_field": "blacklist_pd_nos",
-    "finished_at": "2026-09-11T08:40:43.509586+00:00"
+    "finished_at": "2026-09-11T13:44:57.150110+00:00"
   },
   "queue_validation": {
     "queue_is_dict": true,

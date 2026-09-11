@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T11:46:29.794785+00:00",
+  "generated_at": "2026-09-11T13:44:14.137589+00:00",
   "discovery_mode": "seed_catalog_plus_health_probe",
   "candidate_count": 18,
   "verified_count": 9,
@@ -18,7 +18,7 @@
       "content_length": 14488,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-11T11:46:09.714541+00:00"
+      "checked_at": "2026-09-11T13:43:55.646322+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -30,10 +30,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.google.com/shopping",
-      "content_length": 114322,
+      "content_length": 113460,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-11T11:46:29.153520+00:00"
+      "checked_at": "2026-09-11T13:44:13.898577+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -48,7 +48,7 @@
       "content_length": 172023,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-11T11:46:10.606799+00:00"
+      "checked_at": "2026-09-11T13:43:56.074123+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -60,10 +60,10 @@
       "reachable": false,
       "status_code": 403,
       "final_url": "https://www.sephora.com/beauty",
-      "content_length": 371,
+      "content_length": 375,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-11T11:46:12.453091+00:00"
+      "checked_at": "2026-09-11T13:43:57.528212+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -75,10 +75,10 @@
       "reachable": false,
       "status_code": 403,
       "final_url": "https://www.bls.gov/data/",
-      "content_length": 1325,
+      "content_length": 1323,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-11T11:46:09.301227+00:00"
+      "checked_at": "2026-09-11T13:43:55.311539+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -90,10 +90,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.census.gov/data.html",
-      "content_length": 512963,
+      "content_length": 513073,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-11T11:46:09.016392+00:00"
+      "checked_at": "2026-09-11T13:43:55.255029+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -105,10 +105,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://data.un.org/",
-      "content_length": 88683,
+      "content_length": 88667,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-11T11:46:12.196162+00:00"
+      "checked_at": "2026-09-11T13:43:57.042806+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -123,7 +123,7 @@
       "content_length": 72037,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-11T11:46:10.949769+00:00"
+      "checked_at": "2026-09-11T13:43:56.284831+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -135,10 +135,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://data.worldbank.org/",
-      "content_length": 191897,
+      "content_length": 191823,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-11T11:46:09.923500+00:00"
+      "checked_at": "2026-09-11T13:43:55.710816+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -150,10 +150,10 @@
       "reachable": false,
       "status_code": 403,
       "final_url": "https://www.ebay.com/b/Beauty/26395/bn_7000259124",
-      "content_length": 1832,
+      "content_length": 1831,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-11T11:46:12.290746+00:00"
+      "checked_at": "2026-09-11T13:43:57.204474+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -168,7 +168,7 @@
       "content_length": 776,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-11T11:46:12.376002+00:00"
+      "checked_at": "2026-09-11T13:43:57.320877+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -177,13 +177,13 @@
       "kind": "community-signal",
       "country": "US",
       "priority": 2,
-      "reachable": true,
-      "status_code": 200,
+      "reachable": false,
+      "status_code": 403,
       "final_url": "https://www.reddit.com/r/SkincareAddiction/",
-      "content_length": 8417,
+      "content_length": 190240,
       "has_html": true,
-      "status": "candidate",
-      "checked_at": "2026-09-11T11:46:29.794760+00:00"
+      "status": "unverified",
+      "checked_at": "2026-09-11T13:44:14.137558+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -195,10 +195,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://trends.google.com/trends/",
-      "content_length": 767655,
+      "content_length": 771655,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-11T11:46:29.745920+00:00"
+      "checked_at": "2026-09-11T13:44:14.086696+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -207,13 +207,13 @@
       "kind": "commerce",
       "country": "US",
       "priority": 3,
-      "reachable": false,
-      "status_code": 403,
+      "reachable": true,
+      "status_code": 200,
       "final_url": "https://www.instacart.com/",
-      "content_length": 919,
+      "content_length": 329098,
       "has_html": true,
-      "status": "unverified",
-      "checked_at": "2026-09-11T11:46:28.713055+00:00"
+      "status": "candidate",
+      "checked_at": "2026-09-11T13:44:13.766264+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -226,7 +226,7 @@
       "status_code": null,
       "error": "ReadTimeout: HTTPSConnectionPool(host='www.kroger.com', port=443): Read timed out. (read timeout=15)",
       "status": "unverified",
-      "checked_at": "2026-09-11T11:46:28.632328+00:00"
+      "checked_at": "2026-09-11T13:44:13.246806+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -241,7 +241,7 @@
       "content_length": 9900,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-11T11:46:13.547459+00:00"
+      "checked_at": "2026-09-11T13:43:58.089874+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -253,10 +253,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.nordstrom.com/browse/beauty",
-      "content_length": 253478,
+      "content_length": 256641,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-11T11:46:13.478406+00:00"
+      "checked_at": "2026-09-11T13:43:57.956953+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -271,7 +271,7 @@
       "content_length": 782,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-11T11:46:12.937666+00:00"
+      "checked_at": "2026-09-11T13:43:57.728160+00:00"
     }
   ],
   "next_expansion_queries": [

@@ -2,7 +2,7 @@
 title: "Record 9564b1f81a · Comau-automates-picking-handling-and-palletizing-for-Decathlon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:50.104845+00:00
+updated_at: 2026-09-11T13:45:25.310147+00:00
 tags: [record, real-data]
 ---
 

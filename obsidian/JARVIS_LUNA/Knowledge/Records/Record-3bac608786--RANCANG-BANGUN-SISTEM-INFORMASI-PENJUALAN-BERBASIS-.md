@@ -2,7 +2,7 @@
 title: "Record 3bac608786 · RANCANG-BANGUN-SISTEM-INFORMASI-PENJUALAN-BERBASIS-WEB-MENGGUNAKAN-MET"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.682125+00:00
+updated_at: 2026-09-11T13:45:24.871325+00:00
 tags: [record, real-data]
 ---
 

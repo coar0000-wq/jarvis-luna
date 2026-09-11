@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T08:33:56.967182+00:00",
+  "generated_at": "2026-09-11T13:38:33.035062+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -16,7 +16,17 @@
     "sourcing": 1
   },
   "팀_고정": "한 번 정한 팀은 유지한다. 유튜브가 제목을 A/B 로 돌려서 같은 영상이 회차마다 다른 팀으로 가는 일이 있었다.",
-  "제목_바뀐_영상": [],
+  "제목_바뀐_영상": [
+    {
+      "video_id": "CSr4DYGUPOM",
+      "before": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
+      "after": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+      "kept_teams": [
+        "design",
+        "market"
+      ]
+    }
+  ],
   "top_by_views": [
     {
       "video_id": "6lSvKk7lTl0",
@@ -57,9 +67,9 @@
     {
       "video_id": "2TlIg3VokY8",
       "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-      "views_text": "480K views",
+      "views_text": "481K views",
       "published_text": "2 months ago",
-      "views": 480000,
+      "views": 481000,
       "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
       "channel": "uxpeak",
       "teams": [
@@ -93,9 +103,9 @@
     {
       "video_id": "YlN28RNChl0",
       "title": "This Video Will Take You From Junior to Senior UX/UI Designer",
-      "views_text": "251K views",
+      "views_text": "252K views",
       "published_text": "1 year ago",
-      "views": 251000,
+      "views": 252000,
       "url": "https://www.youtube.com/watch?v=YlN28RNChl0",
       "channel": "uxpeak",
       "teams": [
@@ -140,10 +150,10 @@
     },
     {
       "video_id": "GGg61sdEjeI",
-      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
-      "views_text": "193K views",
+      "title": "Learn to Design 10X Better Mobile UI Designs",
+      "views_text": "194K views",
       "published_text": "2 weeks ago",
-      "views": 193000,
+      "views": 194000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -202,7 +212,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-11T08:33:46.604210+00:00",
+      "last_ok_at": "2026-09-11T13:38:22.701559+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -211,14 +221,14 @@
       "subscribers": "122K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-11T08:33:46.604234+00:00",
+      "checked_at": "2026-09-11T13:38:22.701582+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
-          "views_text": "193K views",
+          "title": "Learn to Design 10X Better Mobile UI Designs",
+          "views_text": "194K views",
           "published_text": "2 weeks ago",
-          "views": 193000,
+          "views": 194000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -228,9 +238,9 @@
         {
           "video_id": "2TlIg3VokY8",
           "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-          "views_text": "480K views",
+          "views_text": "481K views",
           "published_text": "2 months ago",
-          "views": 480000,
+          "views": 481000,
           "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
           "channel": "uxpeak",
           "teams": [
@@ -300,9 +310,9 @@
         {
           "video_id": "YlN28RNChl0",
           "title": "This Video Will Take You From Junior to Senior UX/UI Designer",
-          "views_text": "251K views",
+          "views_text": "252K views",
           "published_text": "1 year ago",
-          "views": 251000,
+          "views": 252000,
           "url": "https://www.youtube.com/watch?v=YlN28RNChl0",
           "channel": "uxpeak",
           "teams": [
@@ -469,7 +479,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-11T08:33:51.966973+00:00",
+      "last_ok_at": "2026-09-11T13:38:28.034855+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -478,14 +488,14 @@
       "subscribers": "18.2K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-11T08:33:51.966989+00:00",
+      "checked_at": "2026-09-11T13:38:28.034871+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
-          "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-          "views_text": "64K views",
-          "published_text": "7 days ago",
-          "views": 64000,
+          "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+          "views_text": "65K views",
+          "published_text": "8 days ago",
+          "views": 65000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
           "teams": [
@@ -560,7 +570,7 @@
           "video_id": "VY3vXUfKMEI",
           "title": "비즈니스 선물로 \"감각 있다\" 소리 듣는 법 🎁 | 10만원 이하 내돈내산 선물 추천템 공개",
           "views_text": "22K views",
-          "published_text": "2 months ago",
+          "published_text": "3 months ago",
           "views": 22000,
           "url": "https://www.youtube.com/watch?v=VY3vXUfKMEI",
           "channel": "땡스큐레이터",

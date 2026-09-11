@@ -2,7 +2,7 @@
 title: "Record b860b971cc · Health-CareAssociated-Infections-in-US-Hospitals-2023-versus-2015"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.575212+00:00
+updated_at: 2026-09-11T13:45:24.757669+00:00
 tags: [record, real-data]
 ---
 

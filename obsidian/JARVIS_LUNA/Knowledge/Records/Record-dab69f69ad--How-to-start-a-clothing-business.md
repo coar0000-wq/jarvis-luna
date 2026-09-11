@@ -2,7 +2,7 @@
 title: "Record dab69f69ad · How-to-start-a-clothing-business"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:50.170392+00:00
+updated_at: 2026-09-11T13:45:25.384756+00:00
 tags: [record, real-data]
 ---
 

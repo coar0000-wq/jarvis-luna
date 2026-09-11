@@ -2,7 +2,7 @@
 title: "Record c0d483a361 · Human-Skin-Is-the-Newest-Ingredient-in-the-K-Beauty-Boom---Bloombergco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.905970+00:00
+updated_at: 2026-09-11T13:45:25.107793+00:00
 tags: [record, real-data]
 ---
 

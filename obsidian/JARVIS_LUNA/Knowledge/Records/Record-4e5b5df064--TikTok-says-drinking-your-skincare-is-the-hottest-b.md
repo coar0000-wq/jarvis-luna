@@ -2,7 +2,7 @@
 title: "Record 4e5b5df064 · TikTok-says-drinking-your-skincare-is-the-hottest-beauty-trend-to-know"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.815402+00:00
+updated_at: 2026-09-11T13:45:25.013861+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifEFVX3lxTE9RaHZWZVYySkhLMXpoVlR6aXI3SG94UmYxUkgzZmxZbXliX2NCczZnSzFHYWZvUlFwTlFmN29raVZwcUNnVDczVHF2aHJRSTI4dWhJRWFBNDA0N1ZvWWVWeDZma19tRlc2MkdMZ2tqaV80RHQwemUwQ1p0SXA?oc=5)
 
-**제목:** TikTok says drinking your skincare is the hottest beauty trend to know now - so we tried it - graziadaily.co.uk
+**제목:** TikTok says drinking your skincare is the hottest beauty trend to know now - so we tried it - Grazia Daily UK
 
-TikTok says drinking your skincare is the hottest beauty trend to know now - so we tried it - graziadaily.co.uk
+TikTok says drinking your skincare is the hottest beauty trend to know now - so we tried it - Grazia Daily UK
 
 **출처:** Source · Google Search
 

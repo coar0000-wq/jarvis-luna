@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T17:39:54.490262+09:00",
+  "generated_at": "2026-09-11T22:43:40.487498+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -7,12 +7,12 @@
   "summary": {
     "ready_to_list": 0,
     "ready_with_notes": 5,
-    "fix_then_list": 2,
+    "fix_then_list": 1,
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-09-11T08:34:49.457918+00:00",
+      "collected_at": "2026-09-11T13:39:26.065340+00:00",
       "keyword_pool": 40
     }
   },
@@ -250,7 +250,7 @@
       "pd_no": "1041749",
       "name": "식물원 병풀 클리어 앰플 30 ml",
       "bucket": "스킨케어",
-      "shopify_score": 91,
+      "shopify_score": 92,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
       "readiness": "fix_then_list",
       "checklist": [
@@ -258,7 +258,7 @@
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=91",
+          "evidence": "grade=S, score=92",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -360,123 +360,10 @@
       }
     },
     {
-      "pd_no": "1059834",
-      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "bucket": "마스크팩",
-      "shopify_score": 90,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
-      "readiness": "ready_with_notes",
-      "checklist": [
-        {
-          "id": "grade_s",
-          "label": "S등급 유지",
-          "status": "pass",
-          "evidence": "grade=S, score=90",
-          "tip": "S가 아니면 1차 등록 보류"
-        },
-        {
-          "id": "margin",
-          "label": "마진 확인",
-          "status": "warn",
-          "evidence": "pricing 미연결",
-          "tip": "pricing_model 재실행"
-        },
-        {
-          "id": "price_band",
-          "label": "권장가",
-          "status": "warn",
-          "evidence": "suggested_price 없음",
-          "tip": "pricing_model 확인"
-        },
-        {
-          "id": "listing_copy",
-          "label": "영문 리스팅 카피",
-          "status": "pass",
-          "evidence": "Gemini 카피 있음",
-          "tip": "shopify-listing-copy 워크플로 실행"
-        },
-        {
-          "id": "listing_ready_flag",
-          "label": "등록 준비 플래그",
-          "status": "warn",
-          "evidence": "listing_ready=False",
-          "tip": "카피·이미지 준비되면 true"
-        },
-        {
-          "id": "global_signal",
-          "label": "글로벌 수요 시그널",
-          "status": "pass",
-          "evidence": "글로벌 '콜라겐 리얼 딥 마스크' (sephora) 유사 100% · 토큰 collagen, mask",
-          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
-        },
-        {
-          "id": "social_proof",
-          "label": "국내 리뷰(대리지표)",
-          "status": "pass",
-          "evidence": "review_count=1687",
-          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
-        },
-        {
-          "id": "reddit_community",
-          "label": "Reddit 뷰티 커뮤니티 키워드",
-          "status": "pass",
-          "evidence": "matched=['ask', 'over']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-        }
-      ],
-      "ad_copy_ab": {
-        "variant_a": {
-          "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — ask · sheet mask",
-          "headline": "Celderma Daily Transforming Firming Coll",
-          "description": "Discover the Celderma Daily Transforming Firming Collagen Mask, designed to give your daily skincare routine a refreshing boost. This 28g sheet mask delivers convenient and soothing care for your skin",
-          "cta": "Shop now"
-        },
-        "variant_b": {
-          "label": "B · 가성비/가격 후킹",
-          "primary_text": "Mask Collagen — Daiso Find — Affordable collagen mask pick",
-          "headline": "Mask Collagen — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [7types] MEDIHEAL Essential Face Mask 10.",
-          "cta": "See price"
-        },
-        "suggested_keywords": [
-          "mask",
-          "collagen",
-          "sheet mask",
-          "overnight mask",
-          "collagen mask",
-          "ask",
-          "over"
-        ],
-        "reddit_keywords_used": [
-          "ask",
-          "over"
-        ],
-        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
-        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
-      },
-      "reddit_match": {
-        "matched": [
-          "ask",
-          "over"
-        ],
-        "score": 2,
-        "status": "pass",
-        "evidence": "matched=['ask', 'over']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-      },
-      "coach_summary": {
-        "pass": 5,
-        "warn": 3,
-        "fail": 0,
-        "next_action": "경고 항목 보완 후 등록"
-      }
-    },
-    {
       "pd_no": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "bucket": "스킨케어",
-      "shopify_score": 90,
+      "shopify_score": 91,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
       "readiness": "ready_with_notes",
       "checklist": [
@@ -484,7 +371,7 @@
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=90",
+          "evidence": "grade=S, score=91",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -592,7 +479,7 @@
       "pd_no": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
       "bucket": "스킨케어",
-      "shopify_score": 90,
+      "shopify_score": 91,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
       "readiness": "ready_with_notes",
       "checklist": [
@@ -600,7 +487,7 @@
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=90",
+          "evidence": "grade=S, score=91",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -704,18 +591,18 @@
       }
     },
     {
-      "pd_no": "1045421",
-      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
-      "bucket": "스킨케어",
-      "shopify_score": 85,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
-      "readiness": "fix_then_list",
+      "pd_no": "1059834",
+      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "bucket": "마스크팩",
+      "shopify_score": 89,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
+      "readiness": "ready_with_notes",
       "checklist": [
         {
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=85",
+          "evidence": "grade=S, score=89",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -735,8 +622,8 @@
         {
           "id": "listing_copy",
           "label": "영문 리스팅 카피",
-          "status": "fail",
-          "evidence": "카피 미생성",
+          "status": "pass",
+          "evidence": "Gemini 카피 있음",
           "tip": "shopify-listing-copy 워크플로 실행"
         },
         {
@@ -750,71 +637,70 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 73% · 토큰 cushion",
+          "evidence": "글로벌 '콜라겐 리얼 딥 마스크' (sephora) 유사 100% · 토큰 collagen, mask",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
           "id": "social_proof",
           "label": "국내 리뷰(대리지표)",
           "status": "pass",
-          "evidence": "review_count=567",
+          "evidence": "review_count=1687",
           "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
         },
         {
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'cushion', 'skin']",
+          "evidence": "matched=['ask', 'over']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Cushion — Daiso Find — beauty · K-beauty",
-          "headline": "Cushion — Daiso Find",
-          "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
+          "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — ask · sheet mask",
+          "headline": "Celderma Daily Transforming Firming Coll",
+          "description": "Discover the Celderma Daily Transforming Firming Collagen Mask, designed to give your daily skincare routine a refreshing boost. This 28g sheet mask delivers convenient and soothing care for your skin",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
-          "primary_text": "Cushion — Daiso Find — Affordable hydrating pick",
-          "headline": "Cushion — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Centellian24 Madeca Cream Time Reverse D.",
+          "primary_text": "Mask Collagen — Daiso Find — Affordable collagen mask pick",
+          "headline": "Mask Collagen — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [7types] MEDIHEAL Essential Face Mask 10.",
           "cta": "See price"
         },
         "suggested_keywords": [
-          "cushion",
-          "K-beauty",
-          "glass skin",
-          "hydrating",
-          "beauty",
-          "skin"
+          "mask",
+          "collagen",
+          "sheet mask",
+          "overnight mask",
+          "collagen mask",
+          "ask",
+          "over"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "cushion",
-          "skin"
+          "ask",
+          "over"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "cushion",
-          "skin"
+          "ask",
+          "over"
         ],
-        "score": 3,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['beauty', 'cushion', 'skin']",
+        "evidence": "matched=['ask', 'over']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
-        "pass": 4,
+        "pass": 5,
         "warn": 3,
-        "fail": 1,
-        "next_action": "실패 항목 수정"
+        "fail": 0,
+        "next_action": "경고 항목 보완 후 등록"
       }
     }
   ],

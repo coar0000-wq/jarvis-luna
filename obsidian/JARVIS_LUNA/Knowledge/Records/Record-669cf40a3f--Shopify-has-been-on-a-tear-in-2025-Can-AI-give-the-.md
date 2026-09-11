@@ -2,7 +2,7 @@
 title: "Record 669cf40a3f · Shopify-has-been-on-a-tear-in-2025-Can-AI-give-the-e-commerce-stock-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.919439+00:00
+updated_at: 2026-09-11T13:45:25.122344+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiugFBVV95cUxOYU5hLUV0VUxuYWd0cFdzOTlVZXlhNGVudGVZZlpuRnJ1OG9BSEFfSGtwcGRGNklnY2VoZzUyM05kY2FUVVpJRG9pNUZycWVxRGR4TEU3YU5INnBnbEFvTFN2Ry0zX2RzN2ItSWF6TjFGVXpLdTh4emVjSmMzcENYZEJYVlREQ01UNGp3OTdKWTM3MnkyNGZkTXdnR0xKZ2RzZTA5NXVoQUw3ZHk1Z0V5T185dXpQUUVXUWc?oc=5)
 
-**제목:** Shopify has been on a tear in 2025. Can AI give the e-commerce stock another boost? - CNBC
+**제목:** Shopify has been on a tear in 2025. Can AI give the e-commerce stock another boost? - cnbc.com
 
-Shopify has been on a tear in 2025. Can AI give the e-commerce stock another boost? - CNBC
+Shopify has been on a tear in 2025. Can AI give the e-commerce stock another boost? - cnbc.com
 
 **출처:** Source · Google Search
 

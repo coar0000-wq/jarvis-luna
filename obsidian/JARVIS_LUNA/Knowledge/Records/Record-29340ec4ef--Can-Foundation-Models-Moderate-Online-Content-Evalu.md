@@ -2,7 +2,7 @@
 title: "Record 29340ec4ef · Can-Foundation-Models-Moderate-Online-Content-Evaluating-Instruction--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.497377+00:00
+updated_at: 2026-09-11T13:45:24.675116+00:00
 tags: [record, real-data]
 ---
 

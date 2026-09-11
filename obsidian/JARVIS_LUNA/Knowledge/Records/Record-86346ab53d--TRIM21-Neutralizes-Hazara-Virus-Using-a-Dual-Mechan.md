@@ -2,7 +2,7 @@
 title: "Record 86346ab53d · TRIM21-Neutralizes-Hazara-Virus-Using-a-Dual-Mechanism-of-Nucleoprotei"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.645932+00:00
+updated_at: 2026-09-11T13:45:24.831944+00:00
 tags: [record, real-data]
 ---
 

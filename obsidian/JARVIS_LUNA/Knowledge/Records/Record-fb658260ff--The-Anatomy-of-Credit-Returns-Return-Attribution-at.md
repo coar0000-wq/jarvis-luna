@@ -2,7 +2,7 @@
 title: "Record fb658260ff · The-Anatomy-of-Credit-Returns-Return-Attribution-at-Issue-Level"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.648705+00:00
+updated_at: 2026-09-11T13:45:24.834961+00:00
 tags: [record, real-data]
 ---
 

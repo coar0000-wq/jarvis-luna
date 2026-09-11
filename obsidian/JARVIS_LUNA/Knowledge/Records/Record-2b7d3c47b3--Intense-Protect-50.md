@@ -2,7 +2,7 @@
 title: "Record 2b7d3c47b3 · Intense-Protect-50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:50.014602+00:00
+updated_at: 2026-09-11T13:45:25.215977+00:00
 tags: [record, real-data]
 ---
 

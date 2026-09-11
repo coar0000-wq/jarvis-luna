@@ -2,7 +2,7 @@
 title: "Record 7300871340 · Lady-Gaga-is-the-latest-star-to-use-this-19-K-beauty-face-mask---Page-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.872442+00:00
+updated_at: 2026-09-11T13:45:25.074566+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7cec6dcbd5 · NexCOBOT-discusses-physical-AI-market-hurdles-and-acceleration"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:50.108883+00:00
+updated_at: 2026-09-11T13:45:25.315202+00:00
 tags: [record, real-data]
 ---
 

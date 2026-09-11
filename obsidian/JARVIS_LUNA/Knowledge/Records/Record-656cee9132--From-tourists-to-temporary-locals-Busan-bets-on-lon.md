@@ -2,7 +2,7 @@
 title: "Record 656cee9132 · From-tourists-to-temporary-locals-Busan-bets-on-longer-stays-for-K-cul"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.730938+00:00
+updated_at: 2026-09-11T13:45:24.923820+00:00
 tags: [record, real-data]
 ---
 

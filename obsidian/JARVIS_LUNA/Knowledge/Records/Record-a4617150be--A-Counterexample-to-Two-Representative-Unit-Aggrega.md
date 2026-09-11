@@ -2,7 +2,7 @@
 title: "Record a4617150be · A-Counterexample-to-Two-Representative-Unit-Aggregation-Formulations-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.503925+00:00
+updated_at: 2026-09-11T13:45:24.682183+00:00
 tags: [record, real-data]
 ---
 

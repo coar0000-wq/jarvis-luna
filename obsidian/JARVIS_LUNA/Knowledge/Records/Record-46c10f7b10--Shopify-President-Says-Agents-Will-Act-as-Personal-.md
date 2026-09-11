@@ -2,7 +2,7 @@
 title: "Record 46c10f7b10 · Shopify-President-Says-Agents-Will-Act-as-Personal-Shoppers---PYMNTSco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.830711+00:00
+updated_at: 2026-09-11T13:45:25.030410+00:00
 tags: [record, real-data]
 ---
 

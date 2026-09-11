@@ -2,7 +2,7 @@
 title: "Record ed1aada0e2 · Move-over-K-beauty-K-pharmacy-is-Koreas-new-clinical-skin-care-trend--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.808704+00:00
+updated_at: 2026-09-11T13:45:25.006792+00:00
 tags: [record, real-data]
 ---
 

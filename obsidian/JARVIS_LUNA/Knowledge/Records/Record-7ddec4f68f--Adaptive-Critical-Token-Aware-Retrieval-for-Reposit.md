@@ -2,7 +2,7 @@
 title: "Record 7ddec4f68f · Adaptive-Critical-Token-Aware-Retrieval-for-Repository-Level-Code-Gene"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.431593+00:00
+updated_at: 2026-09-11T13:45:24.604701+00:00
 tags: [record, real-data]
 ---
 

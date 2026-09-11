@@ -2,7 +2,7 @@
 title: "Record 130343f96d · Synchronization-of-directed-hypergraphs-with-heterogeneities-via-dynam"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.440024+00:00
+updated_at: 2026-09-11T13:45:24.614237+00:00
 tags: [record, real-data]
 ---
 

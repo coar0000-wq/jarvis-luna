@@ -2,7 +2,7 @@
 title: "Record c9f88c0ced · Why-the-Keep-Your-Lower-Bleph-Trend-Is-a-Quiet-Rebellion-Against-Perfe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:49.827111+00:00
+updated_at: 2026-09-11T13:45:25.026486+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigwFBVV95cUxOTmpoeEFyajdBNkM0S1BKNlhXYUNneDR5d21ES0xLTUFfVHllV2VYTUpTRmJROTNrcEpuRnVWNG1jdzFBc1lGcDVNS1AwY0YyNUxLNjYtN3dkR0lfZ1d1NkZfQXNvOXVSUVYtUFVGZnRidnFWYmZ5LTI2bVU0ME5ybl9rbw?oc=5)
 
-**제목:** Why the "Keep Your Lower Bleph" Trend Is a Quiet Rebellion Against Perfection - marieclaire.com
+**제목:** Why the "Keep Your Lower Bleph" Trend Is a Quiet Rebellion Against Perfection - Marie Claire
 
-Why the "Keep Your Lower Bleph" Trend Is a Quiet Rebellion Against Perfection - marieclaire.com
+Why the "Keep Your Lower Bleph" Trend Is a Quiet Rebellion Against Perfection - Marie Claire
 
 **출처:** Source · Google Search
 
