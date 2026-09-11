@@ -1,652 +1,854 @@
 #!/usr/bin/env python3
-"""JARVIS multi-agent plane + Safe Auto-Fix.
+# -*- coding: utf-8 -*-
 
-에이전트는 진단만 하는 데서 끝나지 않고, 검증 가능한 안전 수정만 자동 적용한다.
-
-자동 수정 허용
-----------------
-- Obsidian wikilink 정규화/legacy Record 링크 복구
-- Daiso 가격 파싱 실패 상품의 beauty_queue blacklist 정합성 보정
-- runtime 재생성
-
-자동 수정 금지
-----------------
-- Shopify 실제 등록/발행
-- 광고 집행
-- secrets 변경
-- force push
-- 임의 코드 생성·배포
-- 원본 상품 데이터의 가격 추정
-
-모든 자동 수정은 별도 data/agents/autofix_report.json 에 기록한다.
-Git push는 하지 않으며, 이후 기존 publish 액션이 변경사항을 검사/발행한다.
-
-기존 설명:
-
-
-데이터 플레인(수집·채점·CSV·커밋)은 건드리지 않는다.
-읽기: collection_status, products, S등급, runtime, CSV
-쓰기: data/agents/*.json 만
-
-LLM 없이 규칙 기반으로 동작한다. 토큰 0, Actions 안정.
-필요 시 나중에 Gemini 호출 훅만 붙일 수 있지만, 자동 수정 정책과 권한은
-별도로 유지한다.
 """
+JARVIS Safe Auto-Fix Agent
+==========================
+
+목적
+----
+진단 → 우선순위 → 제한된 자동수정 → 결과 기록
+
+안전 원칙
+---------
+1. 허용된 파일만 수정한다.
+2. 코드(.py/.yml) 자동수정은 하지 않는다.
+3. collection_status.json은 직접 수정하지 않는다.
+4. 수집 실패 SKU는 조건이 맞을 때만 beauty_queue.json에 반영한다.
+5. Obsidian 링크 정리는 기존 검증된 스크립트를 호출한다.
+6. 모든 자동수정 결과는 data/agents/autofix_report.json에 남긴다.
+7. 수정이 없어도 정상 종료한다.
+
+허용 자동수정
+-------------
+A. Daiso 실패 SKU의 blacklist 동기화
+   - reason에 "가격" 포함
+   - og_title이 "다이소몰"/"Daiso"/빈값
+   - sold_out이 false
+   - 해당 pd_no를 blacklist에 추가
+   - priority 목록에서 제거
+
+B. Obsidian 링크 정규화
+   - JARVIS_AUTOFIX_OBSIDIAN=1일 때만 실행
+   - scripts/normalize_obsidian_links.py
+   - 성공 후 graph rebuild 스크립트가 존재하면 실행 가능
+
+C. Runtime은 필요할 때만 재생성
+   - scripts/generate_dashboard_runtime.py가 존재하고
+   - JARVIS_AUTOFIX_RUNTIME=1일 때만 실행
+
+자동수정하지 않는 것
+--------------------
+- Python 코드 수정
+- GitHub Actions YAML 수정
+- Shopify Admin 등록
+- 광고 집행
+- 결제/법률/외부 계정 변경
+- 강제 push
+- collection_status.json 조작
+- 임의의 상품 가격/재고 생성
+"""
+
 from __future__ import annotations
 
 import json
 import os
-import re
 import subprocess
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+
 ROOT = Path(__file__).resolve().parents[1]
-AGENTS = ROOT / "data" / "agents"
-DAISO = ROOT / "data" / "daiso_real"
+
+AGENTS_DIR = ROOT / "data" / "agents"
+DAISO_DIR = ROOT / "data" / "daiso_real"
+
+COLLECTION_STATUS = DAISO_DIR / "collection_status.json"
+BEAUTY_QUEUE = DAISO_DIR / "beauty_queue.json"
 RUNTIME = ROOT / "data" / "dashboard_runtime.json"
 
+NORMALIZE_SCRIPT = ROOT / "scripts" / "normalize_obsidian_links.py"
+GRAPH_SCRIPT_CANDIDATES = [
+    ROOT / "scripts" / "rebuild_obsidian_graph.py",
+    ROOT / "scripts" / "rebuild_graph.py",
+    ROOT / "scripts" / "rebuild_obsidian.py",
+]
 
-def load(path: Path, default: Any = None) -> Any:
-    if not path.exists():
-        return default if default is not None else {}
-    try:
-        return json.loads(path.read_text(encoding="utf-8"))
-    except Exception:
-        return default if default is not None else {}
+RUNTIME_SCRIPT = ROOT / "scripts" / "generate_dashboard_runtime.py"
 
-
-def save(path: Path, obj: Any) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+REPORT = AGENTS_DIR / "autofix_report.json"
 
 
 def now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
+def load_json(path: Path, default: Any = None) -> Any:
+    if not path.exists():
+        return default if default is not None else {}
 
-def run_command(command: list[str], cwd: Path | None = None) -> dict:
-    """안전한 로컬 repair 명령을 실행하고 결과만 반환한다."""
     try:
-        proc = subprocess.run(
-            command,
-            cwd=str(cwd or ROOT),
-            text=True,
-            capture_output=True,
-            timeout=180,
-            check=False,
-        )
-        return {
-            "command": command,
-            "returncode": proc.returncode,
-            "stdout": proc.stdout[-8000:],
-            "stderr": proc.stderr[-8000:],
-        }
+        return json.loads(path.read_text(encoding="utf-8"))
     except Exception as exc:
-        return {
-            "command": command,
-            "returncode": -1,
-            "stdout": "",
-            "stderr": f"{type(exc).__name__}: {exc}",
-        }
+        print(f"[WARN] JSON load failed: {path} :: {exc}")
+        return default if default is not None else {}
 
 
-def autofix_queue_blacklist(collector: dict, queue: dict) -> dict:
-    """가격 없음/기본 페이지 응답 상품을 queue blacklist와 동기화한다.
+def save_json(path: Path, data: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
 
-    데이터 값을 만들어내지 않고, Collector-Audit가 이미 확인한 실패 pd_no만
-    blacklist에 추가한다. priority 목록에서는 제거하여 다음 크롤 회차가
-    계속 같은 실패 상품을 우선 재시도하지 않도록 한다.
+    tmp = path.with_suffix(path.suffix + ".tmp")
+
+    tmp.write_text(
+        json.dumps(
+            data,
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    tmp.replace(path)
+
+
+def env_true(name: str, default: bool = False) -> bool:
+    value = str(os.environ.get(name, "")).strip().lower()
+
+    if value in {"1", "true", "yes", "y", "on"}:
+        return True
+
+    if value in {"0", "false", "no", "n", "off"}:
+        return False
+
+    return default
+
+
+def ensure_list(value: Any) -> list:
+    if isinstance(value, list):
+        return value
+
+    if value is None:
+        return []
+
+    return [value]
+
+
+def normalize_pd_no(value: Any) -> str:
+    if value is None:
+        return ""
+
+    return str(value).strip()
+
+
+def get_collection_last_run(collection_status: dict) -> dict:
+    value = collection_status.get("last_run")
+
+    if isinstance(value, dict):
+        return value
+
+    return {}
+
+
+def extract_failed_products(collection_status: dict) -> list[dict]:
     """
-    result = {
-        "action": "queue_blacklist_sync",
-        "changed": False,
-        "added": [],
-        "removed_priority": [],
+    현재 collection_status에서 자동수정 대상으로 삼을
+    parse_failed 샘플을 추출한다.
+    """
+
+    last_run = get_collection_last_run(collection_status)
+
+    samples = last_run.get("parse_fail_samples")
+
+    if not isinstance(samples, list):
+        return []
+
+    return [x for x in samples if isinstance(x, dict)]
+
+
+def is_safe_daiso_blacklist_candidate(sample: dict) -> bool:
+    """
+    다음 조건을 모두 만족할 때만 자동 blacklist 대상.
+
+    - pd_no 존재
+    - 가격 관련 실패
+    - og_title이 다이소몰 계열
+    - sold_out이 아님
+    """
+
+    pd_no = normalize_pd_no(sample.get("pd_no"))
+
+    if not pd_no:
+        return False
+
+    reason = str(sample.get("reason") or "").strip()
+
+    if "가격" not in reason:
+        return False
+
+    og_title = str(sample.get("og_title") or "").strip()
+
+    allowed_titles = {
+        "",
+        "다이소몰",
+        "Daiso",
+        "DAISO",
+        "daiso",
     }
 
-    if not isinstance(queue, dict):
-        result["reason"] = "beauty_queue missing or invalid"
-        return result
+    if og_title not in allowed_titles:
+        return False
 
-    failure_types = collector.get("failure_types") or []
-    target_ids = [
-        str(item.get("pd_no"))
-        for item in failure_types
-        if item.get("pd_no")
-        and item.get("type") == "og_title_only_no_price"
+    sold_out = sample.get("sold_out")
+
+    if sold_out is True:
+        return False
+
+    return True
+
+
+def get_blacklist(queue: dict) -> tuple[list[Any], str]:
+    """
+    기존 queue 구조를 최대한 보존한다.
+
+    반환값:
+      blacklist 리스트
+      실제 사용된 필드명
+    """
+
+    if "blacklist_pd_nos" in queue:
+        value = queue.get("blacklist_pd_nos")
+
+        if isinstance(value, list):
+            return value, "blacklist_pd_nos"
+
+    if "blacklist" in queue:
+        value = queue.get("blacklist")
+
+        if isinstance(value, list):
+            return value, "blacklist"
+
+    queue["blacklist"] = []
+
+    return queue["blacklist"], "blacklist"
+
+
+def get_priority_pd_nos(queue: dict) -> tuple[list[Any] | None, str | None]:
+    """
+    priority/queue 구조를 보존하기 위해
+    실제 존재하는 리스트 필드를 찾는다.
+    """
+
+    candidate_fields = [
+        "priority_pd_nos",
+        "priority",
+        "pd_nos",
+        "priority_products",
     ]
-    target_ids = list(dict.fromkeys(target_ids))
 
-    if not target_ids:
-        result["reason"] = "no safe blacklist candidates"
-        return result
+    for field in candidate_fields:
+        value = queue.get(field)
 
-    blacklist = queue.get("blacklist_pd_nos") or []
-    blacklist = [str(x) for x in blacklist]
+        if isinstance(value, list):
+            return value, field
 
-    for pd_no in target_ids:
-        if pd_no not in blacklist:
-            blacklist.append(pd_no)
-            result["added"].append(pd_no)
+    return None, None
 
-    queue["blacklist_pd_nos"] = blacklist
 
-    changed = bool(result["added"])
+def remove_pd_from_priority_list(
+    queue: dict,
+    pd_no: str,
+) -> tuple[bool, str | None]:
+    """
+    우선순위 리스트에서 실패 SKU 제거.
+    """
 
-    for key_name in ("priority_pd_nos", "priority_urls"):
-        values = queue.get(key_name)
-        if not isinstance(values, list):
+    priority_list, field = get_priority_pd_nos(queue)
+
+    if priority_list is None or field is None:
+        return False, None
+
+    original = list(priority_list)
+
+    filtered = []
+
+    for value in priority_list:
+        current = normalize_pd_no(value)
+
+        if current == pd_no:
             continue
 
-        new_values = []
-        removed = []
-        for value in values:
-            text = str(value)
-            matched = any(
-                pd_no == text
-                or f"pdNo={pd_no}" in text
-                for pd_no in target_ids
-            )
-            if matched:
-                removed.append(text)
-            else:
-                new_values.append(value)
+        filtered.append(value)
 
-        if removed:
-            queue[key_name] = new_values
-            result["removed_priority"].extend(removed)
-            changed = True
+    changed = original != filtered
 
     if changed:
-        queue["updated_at"] = now_iso()
-        queue["autofix"] = {
-            "action": "blacklist_sync",
-            "reason": "Collector-Audit og_title_only_no_price",
-            "pd_nos": target_ids,
-            "at": now_iso(),
-        }
+        queue[field] = filtered
 
-    result["changed"] = changed
-    result["target_pd_nos"] = target_ids
-    return result
+    return changed, field
 
 
-def autofix_obsidian() -> dict:
-    """기존 normalize 스크립트로 실제 vault 링크를 안전하게 복구한다."""
-    script = ROOT / "scripts" / "normalize_obsidian_links.py"
-    if not script.exists():
-        return {
-            "action": "obsidian_normalize",
-            "changed": False,
-            "skipped": True,
-            "reason": "normalize_obsidian_links.py missing",
-        }
-
-    result = run_command(
-        [os.sys.executable, str(script)],
-        cwd=ROOT,
-    )
-    result["action"] = "obsidian_normalize"
-    result["changed"] = result.get("returncode") == 0
-    result["verification"] = "returncode==0"
-    return result
-
-
-def autofix_runtime() -> dict:
-    """안전 수정 뒤 dashboard_runtime을 다시 만든다."""
-    script = ROOT / "scripts" / "generate_dashboard_runtime.py"
-    if not script.exists():
-        return {
-            "action": "runtime_refresh",
-            "changed": False,
-            "skipped": True,
-            "reason": "generate_dashboard_runtime.py missing",
-        }
-
-    result = run_command(
-        [os.sys.executable, str(script)],
-        cwd=ROOT,
-    )
-    result["action"] = "runtime_refresh"
-    result["changed"] = result.get("returncode") == 0
-    result["verification"] = "returncode==0"
-    return result
-
-
-def apply_safe_autofix(
-    collector: dict,
+def maybe_remove_from_url_list(
     queue: dict,
-    runtime: dict,
-    reason: str,
-    enabled: bool,
+    pd_no: str,
+) -> tuple[bool, str | None]:
+    """
+    urls 리스트가 pd_no를 명확하게 포함하는 경우에만 제거한다.
+
+    임의 URL은 제거하지 않는다.
+    """
+
+    urls = queue.get("urls")
+
+    if not isinstance(urls, list):
+        return False, None
+
+    original = list(urls)
+    filtered = []
+
+    for value in urls:
+        text = str(value)
+
+        if pd_no in text:
+            continue
+
+        filtered.append(value)
+
+    changed = original != filtered
+
+    if changed:
+        queue["urls"] = filtered
+
+    return changed, "urls" if changed else None
+
+
+def repair_daiso_queue(
+    collection_status: dict,
+    queue: dict,
 ) -> dict:
-    """트리거 발생시에만 안전 수정 세트를 실행한다."""
+    """
+    가격없음 + og_title only 실패 SKU를 blacklist에 자동 동기화.
+    """
+
     report = {
-        "agent": "Safe-Auto-Fix",
-        "generated_at": now_iso(),
-        "enabled": enabled,
-        "trigger": reason,
-        "policy": {
-            "allow_obsidian_normalize": True,
-            "allow_queue_blacklist_sync": True,
-            "allow_runtime_refresh": True,
-            "allow_shopify_register": False,
-            "allow_ads": False,
-            "allow_force_push": False,
-            "allow_secret_changes": False,
-            "allow_arbitrary_code_patch": False,
-        },
-        "changes": [],
+        "action": "repair_daiso_queue",
+        "started_at": now_iso(),
+        "enabled": True,
+        "changed": False,
+        "added_to_blacklist": [],
+        "already_blacklisted": [],
+        "removed_from_priority": [],
+        "removed_from_urls": [],
+        "skipped": [],
+        "reason": None,
     }
 
-    if not enabled:
-        report["status"] = "disabled"
-        report["note"] = "JARVIS_AUTOFIX=0"
+    samples = extract_failed_products(collection_status)
+
+    candidates = [
+        sample
+        for sample in samples
+        if is_safe_daiso_blacklist_candidate(sample)
+    ]
+
+    if not candidates:
+        report["reason"] = "safe_blacklist_candidate=0"
+        report["finished_at"] = now_iso()
         return report
 
-    queue_change = autofix_queue_blacklist(
-        collector,
-        queue,
-    )
-    if queue_change.get("changed"):
-        save(
-            DAISO / "beauty_queue.json",
+    blacklist, blacklist_field = get_blacklist(queue)
+
+    existing = {
+        normalize_pd_no(value)
+        for value in blacklist
+        if normalize_pd_no(value)
+    }
+
+    for sample in candidates:
+        pd_no = normalize_pd_no(sample.get("pd_no"))
+
+        if not pd_no:
+            continue
+
+        if pd_no in existing:
+            report["already_blacklisted"].append(pd_no)
+        else:
+            blacklist.append(pd_no)
+            existing.add(pd_no)
+
+            report["added_to_blacklist"].append(pd_no)
+            report["changed"] = True
+
+        priority_changed, priority_field = remove_pd_from_priority_list(
             queue,
+            pd_no,
         )
-    report["changes"].append(queue_change)
 
-    obsidian_change = autofix_obsidian()
-    report["changes"].append(obsidian_change)
+        if priority_changed:
+            report["removed_from_priority"].append(
+                {
+                    "pd_no": pd_no,
+                    "field": priority_field,
+                }
+            )
 
-    runtime_change = autofix_runtime()
-    report["changes"].append(runtime_change)
+            report["changed"] = True
 
-    report["status"] = (
-        "ok"
-        if all(
-            c.get("returncode", 0) in (0,)
-            for c in report["changes"]
-            if "returncode" in c
+        url_changed, url_field = maybe_remove_from_url_list(
+            queue,
+            pd_no,
         )
-        else "partial"
-    )
-    report["note"] = (
-        "Safe Auto-Fix만 수행. "
-        "Shopify 등록/광고/force push/임의 코드패치는 금지."
-    )
 
-    save(
-        AGENTS / "autofix_report.json",
-        report,
-    )
+        if url_changed:
+            report["removed_from_urls"].append(
+                {
+                    "pd_no": pd_no,
+                    "field": url_field,
+                }
+            )
+
+            report["changed"] = True
+
+    queue[blacklist_field] = blacklist
+
+    report["blacklist_field"] = blacklist_field
+    report["candidate_count"] = len(candidates)
+    report["finished_at"] = now_iso()
+
     return report
 
 
-def channel_live_count(runtime: dict) -> tuple[int, int, list[dict]]:
-    st = runtime.get("global_channels_status") or {}
-    gc = runtime.get("global_channels") or {}
-    keys = list(st.keys()) or list(gc.keys())
-    live = []
-    stale = []
-    for k in keys:
-        meta = st.get(k) or {}
-        n = meta.get("count")
-        if n is None:
-            n = len(gc.get(k) or [])
-        status = (meta.get("status") or "").lower()
-        if status in ("disabled", "failed"):
-            continue
-        if int(n or 0) > 0:
-            live.append(k)
-        # stale hint
-        src = meta.get("source") or meta.get("note") or ""
-        if "수동" in str(src) or "fallback" in str(src).lower() or status == "empty":
-            stale.append({"channel": k, "count": n, "status": status or "unknown", "note": str(src)[:120]})
-    return len(live), len(keys) or 12, stale
+def run_command(
+    command: list[str],
+    label: str,
+    timeout: int = 120,
+) -> dict:
+    """
+    외부 스크립트 실행 결과를 구조화한다.
+    """
 
-
-def agent_collector(coll: dict, queue: dict) -> dict:
-    lr = coll.get("last_run") or {}
-    pf = int(lr.get("parse_failed") or 0)
-    ok = int(lr.get("ok") or 0)
-    req = int(lr.get("requested") or 0)
-    samples = lr.get("parse_fail_samples") or []
-    reasons = lr.get("parse_fail_reasons") or {}
-    types = []
-    for s in samples:
-        og = (s.get("og_title") or "").strip()
-        reason = s.get("reason") or ""
-        if og in ("다이소몰", "Daiso", "") and "가격" in reason:
-            types.append({"pd_no": s.get("pd_no"), "type": "og_title_only_no_price", "og_title": og, "sold_out": s.get("sold_out")})
-        elif s.get("sold_out"):
-            types.append({"pd_no": s.get("pd_no"), "type": "sold_out", "og_title": og})
-        else:
-            types.append({"pd_no": s.get("pd_no"), "type": "parse_other", "reason": reason, "og_title": og})
-    bl = []
-    if isinstance(queue, dict):
-        bl = queue.get("blacklist") or queue.get("blacklist_pd_nos") or []
-        if not bl and isinstance(queue.get("urls"), list):
-            pass
-    suggestions = []
-    if pf > 0:
-        suggestions.append({
-            "action": "keep_blacklist_and_prefer_category",
-            "detail": "가격없음/og_title만 잡히는 pd_no는 beauty_queue 블랙리스트 유지. 로션/오일/미스트 등 대체 카테고리 URL 우선.",
-            "category_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01114",
-        })
-        suggestions.append({
-            "action": "do_not_retry_failed_pd_nos",
-            "pd_nos": [t.get("pd_no") for t in types if t.get("pd_no")],
-        })
-    totals = (coll.get("totals") or {}).get("products")
-    return {
-        "agent": "Collector-Audit",
-        "generated_at": now_iso(),
-        "last_run": {
-            "requested": req,
-            "ok": ok,
-            "parse_failed": pf,
-            "reasons": reasons,
-            "finished_at": lr.get("finished_at"),
-        },
-        "failure_types": types,
-        "products_total": totals,
-        "blacklist_hint": bl[:20] if isinstance(bl, list) else bl,
-        "suggestions": suggestions,
-        "severity": pf > 0,
+    result = {
+        "label": label,
+        "command": command,
+        "started_at": now_iso(),
+        "returncode": None,
+        "ok": False,
+        "stdout": "",
+        "stderr": "",
+        "timed_out": False,
     }
 
-
-def agent_signal(runtime: dict) -> dict:
-    live, total, stale = channel_live_count(runtime)
-    st = runtime.get("global_channels_status") or {}
-    empty = []
-    for k, meta in st.items():
-        n = int((meta or {}).get("count") or 0)
-        status = ((meta or {}).get("status") or "").lower()
-        if n == 0 or status in ("empty", "failed"):
-            empty.append({"channel": k, "count": n, "status": status or "empty"})
-    return {
-        "agent": "Signal-Audit",
-        "generated_at": now_iso(),
-        "live_channels": live,
-        "total_channels": total,
-        "empty_or_failed": empty,
-        "stale_or_manual": stale[:12],
-        "severity": live < 8 or len(empty) > 0,
-        "suggestions": (
-            [{"action": "refresh_stale_channels", "channels": [s["channel"] for s in stale[:5]]}]
-            if stale else []
+    try:
+        completed = subprocess.run(
+            command,
+            cwd=ROOT,
+            text=True,
+            capture_output=True,
+            timeout=timeout,
+            check=False,
         )
-        + ([{"action": "investigate_empty_channels", "channels": [e["channel"] for e in empty[:5]]}] if empty else []),
-    }
+
+        result["returncode"] = completed.returncode
+        result["stdout"] = (completed.stdout or "")[-8000:]
+        result["stderr"] = (completed.stderr or "")[-8000:]
+        result["ok"] = completed.returncode == 0
+
+    except subprocess.TimeoutExpired as exc:
+        result["timed_out"] = True
+        result["stdout"] = str(getattr(exc, "stdout", "") or "")[-8000:]
+        result["stderr"] = str(getattr(exc, "stderr", "") or "")[-8000:]
+
+    except Exception as exc:
+        result["stderr"] = str(exc)
+
+    result["finished_at"] = now_iso()
+
+    print(
+        f"[{'OK' if result['ok'] else 'FAIL'}] "
+        f"{label} "
+        f"returncode={result['returncode']}"
+    )
+
+    return result
 
 
-def agent_score(srec: dict, demand: dict | None = None) -> dict:
-    recs = srec.get("recommendations") or []
-    lines = []
-    for r in recs[:12]:
-        m = r.get("matched_global") or r.get("best_global_match") or {}
-        tokens = m.get("matched_tokens") or []
-        lines.append({
-            "pd_no": r.get("pd_no"),
-            "name": r.get("name"),
-            "score": r.get("shopify_score"),
-            "why": r.get("recommend_reason") or "",
-            "global": m.get("global_product"),
-            "channel": m.get("channel"),
-            "tokens": tokens,
-        })
-    gaps = []
-    if not recs:
-        gaps.append("S등급 0건 — score_shopify_demand 재실행 또는 글로벌 시그널·다이소 매칭 점검")
-    return {
-        "agent": "Score-Explain",
-        "generated_at": now_iso(),
-        "s_count": srec.get("count", len(recs)),
-        "rule": srec.get("rule"),
-        "items": lines,
-        "gaps": gaps,
-        "severity": len(recs) == 0,
-    }
+def run_obsidian_normalizer() -> dict:
+    """
+    기존 정규화 스크립트를 호출한다.
+    """
 
-
-def agent_listing(srec: dict, runtime: dict) -> dict:
-    recs = srec.get("recommendations") or []
-    # legal blocks from teams if present
-    blocked = []
-    for t in runtime.get("teams") or []:
-        if t.get("id") == "legal" or "법률" in str(t.get("name") or ""):
-            act = t.get("action") or ""
-            if act:
-                blocked.append(act[:200])
-    notes = []
-    for r in recs:
-        notes.append({
-            "pd_no": r.get("pd_no"),
-            "name": r.get("name"),
-            "csv": "data/daiso_real/shopify_s_products_import.csv",
-            "status_suggest": "draft",
-            "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음.",
-        })
-    return {
-        "agent": "Listing-Draft",
-        "generated_at": now_iso(),
-        "s_count": len(recs),
-        "csv_path": "data/daiso_real/shopify_s_products_import.csv",
-        "items": notes,
-        "legal_blocks": blocked,
-        "suggestions": [
-            {
-                "action": "import_csv_as_draft",
-                "detail": f"S등급 {len(recs)}건 CSV → Shopify Admin Products Import (Published=false)",
-            }
-        ]
-        + ([{"action": "resolve_legal_blocks", "detail": b} for b in blocked[:3]]),
-    }
-
-
-def agent_ops(collector: dict, signal: dict, score: dict, listing: dict, runtime: dict) -> dict:
-    tasks = []
-    risk = "low"
-
-    if collector.get("severity"):
-        risk = "high"
-        pf = (collector.get("last_run") or {}).get("parse_failed") or 0
-        tasks.append({
-            "priority": 1,
-            "title": f"수집 파싱실패 {pf}건 처리",
-            "detail": "블랙리스트 유지 · 대체 카테고리 우선 · 실패 pd_no 재시도 금지",
-            "refs": ["data/agents/collector_audit.json", "data/daiso_real/collection_status.json"],
-            "approve": "사람: beauty_queue/수집 범위 확인 후 다음 daiso-real-collection",
-        })
-
-    if signal.get("severity"):
-        if risk != "high":
-            risk = "medium"
-        live = signal.get("live_channels")
-        total = signal.get("total_channels")
-        tasks.append({
-            "priority": 2,
-            "title": f"채널 시그널 점검 ({live}/{total} 라이브)",
-            "detail": "empty/수동·낡은 채널 갱신",
-            "refs": ["data/agents/signal_audit.json"],
-            "approve": "사람: 해당 채널 수집기 또는 수동 JSON 갱신",
-        })
-
-    if score.get("severity"):
-        risk = "high"
-        tasks.append({
-            "priority": 1,
-            "title": "S등급 0건 — 점수 파이프 점검",
-            "detail": "score_shopify_demand · 글로벌 매칭 · products.json",
-            "refs": ["data/agents/score_explain.json"],
-            "approve": "사람: Deep Analysis 재실행",
-        })
-    elif (score.get("s_count") or 0) > 0:
-        tasks.append({
-            "priority": 3,
-            "title": f"S등급 {score.get('s_count')}건 Shopify draft 등록",
-            "detail": "CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력",
-            "refs": ["data/daiso_real/shopify_s_products_import.csv", "data/agents/listing_notes.json"],
-            "approve": "사람: Admin Import + 가격·재고",
-        })
-
-    # team actions from runtime
-    for t in runtime.get("teams") or []:
-        act = (t.get("action") or "").strip()
-        if not act:
-            continue
-        tasks.append({
-            "priority": 4,
-            "title": f"팀 조치 · {t.get('name') or t.get('id')}",
-            "detail": act[:180],
-            "refs": ["data/dashboard_runtime.json"],
-            "approve": "사람: 팀 카드 조치 확인",
-        })
-
-    # dedupe by title, sort, cap 5
-    seen = set()
-    uniq = []
-    for t in sorted(tasks, key=lambda x: x.get("priority", 99)):
-        k = t["title"]
-        if k in seen:
-            continue
-        seen.add(k)
-        uniq.append(t)
-        if len(uniq) >= 5:
-            break
-
-    return {
-        "agent": "Ops-Prioritizer",
-        "generated_at": now_iso(),
-        "risk": risk,
-        "task_count": len(uniq),
-        "tasks": uniq,
-        "note": "진단·제안 + Safe Auto-Fix. 안전 규칙에 맞는 링크/queue/runtime 보정만 자동 수행하며 Shopify 등록·광고·force push는 하지 않음.",
-        "dashboard": {
-            "title": "에이전트 제안",
-            "items": [{"n": i + 1, "text": t["title"] + " — " + t["detail"][:80]} for i, t in enumerate(uniq)],
-        },
-    }
-
-
-def should_run(force: bool, coll: dict, srec: dict, runtime: dict) -> tuple[bool, str]:
-    if force or os.environ.get("JARVIS_AGENTS_FORCE") == "1":
-        return True, "force"
-    pf = int(((coll.get("last_run") or {}).get("parse_failed") or 0))
-    if pf >= 1:
-        return True, f"parse_failed={pf}"
-    s_count = int(srec.get("count") or len(srec.get("recommendations") or []))
-    if s_count == 0:
-        return True, "s_count=0"
-    live, total, _ = channel_live_count(runtime)
-    if total and live < 8:
-        return True, f"live_channels={live}<8"
-    # also run lightly if team actions exist
-    acts = sum(1 for t in (runtime.get("teams") or []) if t.get("action"))
-    if acts >= 3:
-        return True, f"team_actions={acts}"
-    return False, "skip_healthy"
-
-
-def main() -> int:
-    force = os.environ.get("JARVIS_AGENTS_FORCE") == "1" or "--force" in os.sys.argv
-    coll = load(DAISO / "collection_status.json", {})
-    queue = load(DAISO / "beauty_queue.json", {})
-    srec = load(DAISO / "shopify_s_recommendations.json", {})
-    runtime = load(RUNTIME, {})
-
-    run, reason = should_run(force, coll, srec, runtime)
-    AGENTS.mkdir(parents=True, exist_ok=True)
-
-    if not run:
-        payload = {
-            "generated_at": now_iso(),
-            "ran": False,
-            "trigger": reason,
-            "note": "이상 없음 — 에이전트 스킵 (비용·시간 절약)",
+    if not NORMALIZE_SCRIPT.exists():
+        return {
+            "label": "normalize_obsidian_links",
+            "ok": False,
+            "skipped": True,
+            "reason": "script_not_found",
         }
-        save(AGENTS / "last_run.json", payload)
-        print("SKIP agents:", reason)
-        return 0
 
-    collector = agent_collector(coll, queue)
-    signal = agent_signal(runtime)
-    score = agent_score(srec)
-    listing = agent_listing(srec, runtime)
-    ops = agent_ops(collector, signal, score, listing, runtime)
-
-    autofix_enabled = (
-        os.environ.get("JARVIS_AUTOFIX", "1").strip().lower()
-        not in {"0", "false", "no"}
-    )
-    autofix = apply_safe_autofix(
-        collector=collector,
-        queue=queue,
-        runtime=runtime,
-        reason=reason,
-        enabled=autofix_enabled,
+    return run_command(
+        [
+            sys.executable,
+            str(NORMALIZE_SCRIPT),
+        ],
+        label="normalize_obsidian_links",
+        timeout=180,
     )
 
-    # autofix 결과를 Ops plan에 남긴다.
-    ops["autofix"] = {
-        "status": autofix.get("status"),
-        "enabled": autofix.get("enabled"),
-        "changes": [
-            {
-                "action": change.get("action"),
-                "changed": change.get("changed"),
-                "returncode": change.get("returncode"),
-                "added": change.get("added", []),
-            }
-            for change in autofix.get("changes", [])
+
+def find_graph_script() -> Path | None:
+    for candidate in GRAPH_SCRIPT_CANDIDATES:
+        if candidate.exists():
+            return candidate
+
+    return None
+
+
+def run_graph_rebuild() -> dict:
+    """
+    존재하는 그래프 rebuild 스크립트만 실행한다.
+    없으면 스킵.
+    """
+
+    script = find_graph_script()
+
+    if script is None:
+        return {
+            "label": "graph_rebuild",
+            "ok": True,
+            "skipped": True,
+            "reason": "graph_script_not_found",
+        }
+
+    return run_command(
+        [
+            sys.executable,
+            str(script),
+        ],
+        label="graph_rebuild",
+        timeout=180,
+    )
+
+
+def run_runtime_generation() -> dict:
+    """
+    dashboard_runtime 재생성.
+    """
+
+    if not RUNTIME_SCRIPT.exists():
+        return {
+            "label": "generate_dashboard_runtime",
+            "ok": False,
+            "skipped": True,
+            "reason": "script_not_found",
+        }
+
+    return run_command(
+        [
+            sys.executable,
+            str(RUNTIME_SCRIPT),
+        ],
+        label="generate_dashboard_runtime",
+        timeout=180,
+    )
+
+
+def validate_queue_after_fix(queue: dict) -> dict:
+    """
+    자동수정 후 최소 구조 검증.
+    """
+
+    valid = isinstance(queue, dict)
+
+    blacklist, blacklist_field = get_blacklist(queue)
+
+    checks = {
+        "queue_is_dict": valid,
+        "blacklist_is_list": isinstance(blacklist, list),
+        "blacklist_field": blacklist_field,
+    }
+
+    checks["ok"] = all(
+        value
+        for key, value in checks.items()
+        if key.endswith("_is_list")
+        or key == "queue_is_dict"
+    )
+
+    return checks
+
+
+def build_summary(
+    queue_report: dict,
+    obsidian_report: dict | None,
+    graph_report: dict | None,
+    runtime_report: dict | None,
+) -> dict:
+
+    changed_files = []
+
+    if queue_report.get("changed"):
+        changed_files.append(str(BEAUTY_QUEUE.relative_to(ROOT)))
+
+    if obsidian_report and obsidian_report.get("ok"):
+        if not obsidian_report.get("skipped"):
+            changed_files.append("obsidian/")
+
+    if graph_report and graph_report.get("ok"):
+        if not graph_report.get("skipped"):
+            changed_files.append("obsidian/graph artifacts")
+
+    if runtime_report and runtime_report.get("ok"):
+        if not runtime_report.get("skipped"):
+            changed_files.append("data/dashboard_runtime.json")
+
+    return {
+        "changed": bool(changed_files),
+        "changed_files": changed_files,
+        "safe_scope": [
+            "data/daiso_real/beauty_queue.json",
+            "obsidian/",
+            "data/dashboard_runtime.json",
+            "data/agents/",
+        ],
+        "never_modified": [
+            "Python source code",
+            "GitHub Actions YAML",
+            "collection_status.json",
+            "Shopify Admin",
+            "ad accounts",
+            "payment/legal/external accounts",
         ],
     }
 
-    save(AGENTS / "collector_audit.json", collector)
-    save(AGENTS / "signal_audit.json", signal)
-    save(AGENTS / "score_explain.json", score)
-    save(AGENTS / "listing_notes.json", listing)
-    save(AGENTS / "ops_plan.json", ops)
-    save(AGENTS / "last_run.json", {
+
+def main() -> int:
+    AGENTS_DIR.mkdir(parents=True, exist_ok=True)
+
+    print("=" * 72)
+    print("JARVIS SAFE AUTO-FIX")
+    print("=" * 72)
+
+    collection_status = load_json(COLLECTION_STATUS, {})
+    queue = load_json(BEAUTY_QUEUE, {})
+
+    if not isinstance(collection_status, dict):
+        collection_status = {}
+
+    if not isinstance(queue, dict):
+        queue = {}
+
+    last_run = get_collection_last_run(collection_status)
+
+    parse_failed = int(
+        last_run.get("parse_failed") or 0
+    )
+
+    print(f"parse_failed={parse_failed}")
+
+    autofix_force = env_true(
+        "JARVIS_AUTOFIX_FORCE",
+        default=False,
+    )
+
+    autofix_enabled = env_true(
+        "JARVIS_AUTOFIX",
+        default=True,
+    )
+
+    if not autofix_enabled:
+        report = {
+            "generated_at": now_iso(),
+            "enabled": False,
+            "ran": False,
+            "trigger": "JARVIS_AUTOFIX disabled",
+        }
+
+        save_json(REPORT, report)
+
+        print("SAFE AUTO-FIX disabled.")
+
+        return 0
+
+    trigger_reasons = []
+
+    if autofix_force:
+        trigger_reasons.append("force")
+
+    if parse_failed >= 1:
+        trigger_reasons.append(
+            f"parse_failed={parse_failed}"
+        )
+
+    if not trigger_reasons:
+        trigger_reasons.append("manual_or_workflow")
+
+    queue_report = repair_daiso_queue(
+        collection_status,
+        queue,
+    )
+
+    if queue_report.get("changed"):
+        save_json(
+            BEAUTY_QUEUE,
+            queue,
+        )
+
+        print(
+            "[WRITE]",
+            BEAUTY_QUEUE,
+        )
+
+    else:
+        print(
+            "[NO CHANGE]",
+            BEAUTY_QUEUE,
+        )
+
+    queue_validation = validate_queue_after_fix(
+        queue
+    )
+
+    if not queue_validation.get("ok"):
+        print(
+            "[ERROR] beauty_queue validation failed"
+        )
+
+        failure_report = {
+            "generated_at": now_iso(),
+            "status": "failed",
+            "trigger": trigger_reasons,
+            "queue": queue_report,
+            "queue_validation": queue_validation,
+        }
+
+        save_json(
+            REPORT,
+            failure_report,
+        )
+
+        return 1
+
+    obsidian_report = None
+    graph_report = None
+    runtime_report = None
+
+    if env_true(
+        "JARVIS_AUTOFIX_OBSIDIAN",
+        default=False,
+    ):
+        print(
+            "[RUN] Obsidian normalization"
+        )
+
+        obsidian_report = run_obsidian_normalizer()
+
+        if obsidian_report.get("ok"):
+            graph_report = run_graph_rebuild()
+
+    if env_true(
+        "JARVIS_AUTOFIX_RUNTIME",
+        default=False,
+    ):
+        print(
+            "[RUN] dashboard runtime regeneration"
+        )
+
+        runtime_report = run_runtime_generation()
+
+    summary = build_summary(
+        queue_report,
+        obsidian_report,
+        graph_report,
+        runtime_report,
+    )
+
+    final_status = "success"
+
+    if (
+        obsidian_report
+        and not obsidian_report.get("ok")
+        and not obsidian_report.get("skipped")
+    ):
+        final_status = "warning"
+
+    if (
+        graph_report
+        and not graph_report.get("ok")
+        and not graph_report.get("skipped")
+    ):
+        final_status = "warning"
+
+    if (
+        runtime_report
+        and not runtime_report.get("ok")
+        and not runtime_report.get("skipped")
+    ):
+        final_status = "warning"
+
+    report = {
+        "agent": "Safe-Auto-Fix",
         "generated_at": now_iso(),
-        "ran": True,
-        "trigger": reason,
-        "risk": ops.get("risk"),
-        "task_count": ops.get("task_count"),
-        "autofix": {
-            "status": autofix.get("status"),
-            "enabled": autofix.get("enabled"),
+        "status": final_status,
+        "enabled": True,
+        "trigger": trigger_reasons,
+        "parse_failed": parse_failed,
+        "queue": queue_report,
+        "queue_validation": queue_validation,
+        "obsidian": obsidian_report,
+        "graph_rebuild": graph_report,
+        "runtime_generation": runtime_report,
+        "summary": summary,
+        "policy": {
+            "allow_code_autofix": False,
+            "allow_workflow_autofix": False,
+            "allow_collection_status_edit": False,
+            "allow_shopify_write": False,
+            "allow_external_account_write": False,
+            "allow_force_push": False,
+            "allow_deterministic_data_repair": True,
         },
-    })
+    }
 
-    # patch runtime commit_summary (optional, non-fatal)
-    if RUNTIME.exists():
-        try:
-            rt = load(RUNTIME, {})
-            line = f"agents: 조치후보 {ops.get('task_count', 0)}건 · risk {ops.get('risk')} · {reason}"
-            prev = rt.get("commit_summary")
-            if isinstance(prev, dict):
-                prev["agents_line"] = line
-                rt["commit_summary"] = prev
-            else:
-                rt["commit_summary"] = {"line": prev or line, "agents_line": line}
-            rt["agents_ops"] = {
-                "risk": ops.get("risk"),
-                "task_count": ops.get("task_count"),
-                "at": now_iso(),
-            }
-            save(RUNTIME, rt)
-        except Exception as e:
-            print("runtime patch skip:", e)
+    save_json(
+        REPORT,
+        report,
+    )
 
-    print(f"OK agents trigger={reason} risk={ops.get('risk')} tasks={ops.get('task_count')}")
-    for t in ops.get("tasks") or []:
-        print(f"  P{t.get('priority')}: {t.get('title')}")
+    print("=" * 72)
+    print(
+        "SAFE AUTO-FIX RESULT:",
+        final_status,
+    )
+
+    if queue_report.get("added_to_blacklist"):
+        print(
+            "Added blacklist:",
+            queue_report["added_to_blacklist"],
+        )
+
+    if queue_report.get("already_blacklisted"):
+        print(
+            "Already blacklisted:",
+            queue_report["already_blacklisted"],
+        )
+
+    if summary.get("changed_files"):
+        print(
+            "Changed:",
+            summary["changed_files"],
+        )
+    else:
+        print(
+            "Changed: none"
+        )
+
+    print(
+        "Report:",
+        REPORT,
+    )
+
     return 0
 
 
