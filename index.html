@@ -102,8 +102,6 @@ box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
 .secretary-row .team-name{color:#ffffff;font-weight:600;}
 .secretary-badge{color:#58a6ff;border-color:rgba(88,166,255,0.42);background:rgba(88,166,255,0.10);}
 .secretary-row .team-summary{color:#8b949e;}
-.secretary-icon{width:40px;height:40px;flex:0 0 40px;border-radius:11px;background:#0f0f0f;display:flex;align-items:center;justify-content:center;overflow:hidden;}
-.secretary-icon img{width:40px;height:40px;object-fit:contain;display:block;background:#0f0f0f;border-radius:11px;}
 @media(max-width:600px){
 .team-when{margin-left:0;padding-left:0;width:100%;}
 .team-name{gap:4px;}
@@ -317,6 +315,7 @@ nav a{font-size:12px;}
 .of-hl td{color:#7ee787;font-weight:600;}
 .of-fs{font-size:9.5px;background:rgba(126,231,135,.14);border:1px solid rgba(126,231,135,.26);border-radius:999px;padding:1px 6px;margin-left:5px;}
 .of-note{font-size:11px;color:#6e7681;line-height:1.6;}
+
 .ops-meta{font-size:11px;color:#8b949e;margin-top:8px;}
 .sd-csv-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0 4px;font-size:12px;}
 .sd-csv-bar a{color:#58a6ff;}
@@ -374,26 +373,6 @@ nav a{font-size:12px;}
 </ul>
 </div>
 
-<!-- 다중 에이전트 제안 (data/agents/ops_plan.json) -->
-<div id="agent-plan" class="agent-card" style="display:none;"></div>
-
-<div id="commit-summary" class="ops-meta" style="margin:-6px 0 14px 2px;"></div>
-
-<!-- Shopify 등록 후보 · 다이소 Dropshipping · S등급 우선순위 (통합) -->
-<div class="stats-section stats-merged">
-<div class="dashboard-card sd-card" id="daiso">
-<div class="sd-header">
-<div class="sd-title"><img class="icon-img" src="images/shopify.png" alt="Shopify" width="40" height="40">Shopify 등록 후보 · 다이소 Dropshipping</div>
-<div class="sd-sub" style="font-size:12px;color:#8b949e;">S등급 우선순위 · 원가/판매가 · 글로벌 매칭</div>
-</div>
-<div id="daiso-panel"></div>
-<div id="mt-health"></div>
-<div class="sd-summary" id="sd-summary">불러오는 중…</div>
-<ul class="sd-list" id="sd-list">
-<li style="color:#666;font-size:13px;">데이터 로딩 중…</li>
-</ul>
-</div>
-</div>
 
 <!-- 글로벌 판매 전략 수집 채널 (8대 데이터) -->
 <div class="section-header">🌐 수집 채널 현황</div>
@@ -476,6 +455,28 @@ nav a{font-size:12px;}
     </ul>
   </div>
 
+
+
+<!-- 다중 에이전트 제안 (data/agents/ops_plan.json) -->
+<div id="agent-plan" class="agent-card" style="display:none;"></div>
+
+<div id="commit-summary" class="ops-meta" style="margin:-6px 0 14px 2px;"></div>
+
+<!-- Shopify 등록 후보 · 다이소 Dropshipping · S등급 우선순위 (통합) -->
+<div class="stats-section stats-merged">
+<div class="dashboard-card sd-card" id="daiso">
+<div class="sd-header">
+<div class="sd-title"><img class="icon-img" src="images/shopify.png" alt="Shopify" width="40" height="40">Shopify 등록 후보 · 다이소 Dropshipping</div>
+<div class="sd-sub" style="font-size:12px;color:#8b949e;">S등급 우선순위 · 원가/판매가 · 글로벌 매칭</div>
+</div>
+<div id="daiso-panel"></div>
+<div id="mt-health"></div>
+<div class="sd-summary" id="sd-summary">불러오는 중…</div>
+<ul class="sd-list" id="sd-list">
+<li style="color:#666;font-size:13px;">데이터 로딩 중…</li>
+</ul>
+</div>
+</div>
 
 <!-- 마케팅 조사 분석팀 -->
 <div class="section-header"><img class="sh-img" src="images/teams/market.png" alt="" width="40" height="40">마케팅 조사 분석팀</div>
@@ -654,6 +655,7 @@ function setListFallback(id, msg){
   const el = $(id);
   if(el) el.innerHTML = '<li style="color:#8b949e;font-size:13px;padding:10px 0;">'+esc(msg||'데이터 없음')+'</li>';
 }
+
 const KST = ts => {
 if(!ts) return '시각 정보 없음';
 const d = new Date(ts);
@@ -717,7 +719,7 @@ const teams=Array.isArray(d.teams)?d.teams:[];
 // 비서실장은 런타임 teams 데이터와 무관하게 항상 최상단에 표시한다.
 // 이미지 파일은 images/비서실장.png 를 우선 사용하고, 없으면 JARVIS 기본 아이콘으로 대체한다.
 const secretary = '<li class="team-row secretary-row">'+
-  '<div class="secretary-icon"><img src="images/비서실장.png" alt="비서실장" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\';" />'+
+  '<div class="team-icon"><img src="images/비서실장.png" alt="비서실장" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\';" style="border-radius:11px;" />'+
   '<div class="team-icon-fb secretary-fallback" style="display:none;background:#2a2a2a;"><svg viewBox="0 0 24 24">'+TEAM_GLYPH.robot+'</svg></div></div>'+
   '<div class="team-body">'+
   '<div class="team-name">비서실장<span class="team-badge secretary-badge">총괄</span><span class="team-when">상시</span></div>'+
