@@ -1,5 +1,6 @@
 """
-generate_dashboard_runtime.py - FULL FILE
+generate_dashboard_runtime.py - FULL FILE v3.0
+gosi + product 증거 필수 검증
 """
 import json
 import datetime
@@ -18,28 +19,43 @@ def load_json_safe(path: Path, default=None):
     except:
         return default
 
-def validate_product_evidence(item: dict) -> bool:
+def validate_evidence(item: dict, name_field="title") -> bool:
     ev = item.get("evidence", {})
     for k in ["source_url", "collected_at", "raw_snippet"]:
         if not ev.get(k):
             return False
+    if not ev["source_url"].startswith("http"):
+        return False
     try:
         datetime.datetime.fromisoformat(ev["collected_at"].replace("Z", "+00:00"))
     except:
         return False
     return True
 
-def build_product_discovery():
-    data = load_json_safe(DATA_DIR / "products.json", {"products": []})
-    valid = [p for p in data.get("products", []) if validate_product_evidence(p)]
+def build_gosi():
+    gosi_path = DATA_DIR / "gosi.json"
+    data = load_json_safe(gosi_path, {"items": []})
+    items = data.get("items", []) if isinstance(data, dict) else data
+    valid = [item for item in items if validate_evidence(item, "title")]
     return {
-        "products": valid,
-        "updated_at": data.get("updated_at") or datetime.datetime.utcnow().isoformat() + "Z",
-        "count": len(valid)
+        "items": valid,
+        "updated_at": data.get("updated_at") if isinstance(data, dict) else datetime.datetime.utcnow().isoformat() + "Z",
+        "count": len(valid),
+        "source": "https://www.gosi.kr",
+        "evidence_required": True
     }
 
-def build_gosi():
-    return load_json_safe(DATA_DIR / "gosi.json", {"items": []})
+def build_product_discovery():
+    products_path = DATA_DIR / "products.json"
+    data = load_json_safe(products_path, {"products": []})
+    products = data.get("products", []) if isinstance(data, dict) else []
+    valid = [p for p in products if validate_evidence(p, "name")]
+    return {
+        "products": valid,
+        "updated_at": data.get("updated_at") if isinstance(data, dict) else datetime.datetime.utcnow().isoformat() + "Z",
+        "count": len(valid),
+        "evidence_required": True
+    }
 
 def build_daiso():
     return load_json_safe(DATA_DIR / "daiso_products.json", {"products": []})
@@ -47,14 +63,14 @@ def build_daiso():
 def generate_runtime():
     runtime = {
         "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
-        "version": "2.0-evidence-required",
+        "version": "3.0-gosi-product-evidence-required",
         "gosi": build_gosi(),
-        "daiso": build_daiso(),
         "product_discovery": build_product_discovery(),
-        "meta": {"fake_data_allowed": False}
+        "daiso": build_daiso(),
+        "meta": {"fake_data_allowed": False, "evidence_popup": True}
     }
     RUNTIME_PATH.write_text(json.dumps(runtime, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"✅ Runtime {len(runtime['product_discovery']['products'])}개")
+    print(f"✅ Runtime - gosi:{runtime['gosi']['count']} product:{runtime['product_discovery']['count']}")
     return runtime
 
 if __name__ == "__main__":
