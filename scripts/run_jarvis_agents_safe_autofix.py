@@ -288,6 +288,43 @@ def normalize_note_target(value: str) -> str:
     return normalized.lower()
 
 
+def sample_dangling_by_source(items: list[dict], limit: int) -> list[dict]:
+    if limit <= 0 or len(items) <= limit:
+        return items[:limit] if limit > 0 else []
+
+    buckets = {}
+    source_order = []
+
+    for item in items:
+        source = str(item.get("source") or "")
+        if source not in buckets:
+            buckets[source] = []
+            source_order.append(source)
+        buckets[source].append(item)
+
+    sampled = []
+
+    while len(sampled) < limit:
+        progressed = False
+
+        for source in source_order:
+            bucket = buckets.get(source) or []
+
+            if not bucket:
+                continue
+
+            sampled.append(bucket.pop(0))
+            progressed = True
+
+            if len(sampled) >= limit:
+                break
+
+        if not progressed:
+            break
+
+    return sampled
+
+
 def inspect_obsidian_truth(runtime_graph: dict | None = None) -> dict:
     """실제 Obsidian 파일을 직접 검사해 runtime graph보다 우선하는 진실값을 만든다."""
     runtime_graph = runtime_graph if isinstance(runtime_graph, dict) else {}
@@ -349,8 +386,14 @@ def inspect_obsidian_truth(runtime_graph: dict | None = None) -> dict:
         "actual_links": links,
         "actual_dangling_generated": len(broken_generated),
         "actual_dangling_personal": len(broken_personal),
-        "generated_dangling_samples": broken_generated[:50],
-        "personal_dangling_samples": broken_personal[:20],
+        "generated_dangling_samples": sample_dangling_by_source(broken_generated, 50),
+        "personal_dangling_samples": sample_dangling_by_source(broken_personal, 20),
+        "generated_dangling_sample_source_count": len({
+            str(x.get("source") or "") for x in broken_generated
+        }),
+        "personal_dangling_sample_source_count": len({
+            str(x.get("source") or "") for x in broken_personal
+        }),
         "runtime_nodes": runtime_nodes,
         "runtime_links": runtime_links,
         "runtime_dangling_generated": runtime_dangling,
@@ -1199,7 +1242,11 @@ def main() -> int:
         "obsidian_truth_after": after_snapshot["graph"].get("truth_guard"),
     }
 
-    # G. Report
+    # G. Chief report refresh
+    chief_after = build_chief_of_staff_decision(after_snapshot)
+    save_json(CHIEF_REPORT, chief_after)
+
+    # H. Report
     report = {
         "agent": "Safe-Auto-Fix",
         "generated_at": now_iso(),
@@ -1242,7 +1289,7 @@ def main() -> int:
     }
     save_json(REPORT, report)
 
-    # H. Console summary
+    # I. Console summary
     print("=" * 80)
     print("CHIEF OF STAFF:", chief.get("overall_priority"), chief.get("overall_action"))
     print("RISK:", chief.get("risk"))
