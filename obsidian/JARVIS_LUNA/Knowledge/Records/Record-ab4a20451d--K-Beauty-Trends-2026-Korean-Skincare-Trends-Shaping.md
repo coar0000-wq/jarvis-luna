@@ -2,7 +2,7 @@
 title: "Record ab4a20451d · K-Beauty-Trends-2026-Korean-Skincare-Trends-Shaping-Luxury-Beauty---Fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.364631+00:00
+updated_at: 2026-09-11T11:23:49.914964+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes
 
 K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes
+K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

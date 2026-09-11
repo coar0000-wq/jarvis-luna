@@ -2,7 +2,7 @@
 title: "Record a515fbb0ca · Characterization-of-Multi-Model-Agentic-AI-Systems-on-General-Tasks-vi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.409663+00:00
+updated_at: 2026-09-11T11:23:49.966668+00:00
 tags: [record, real-data]
 ---
 

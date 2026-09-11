@@ -2,7 +2,7 @@
 title: "Record 16e42ef4fc · Utility-Oriented-Visual-Evidence-Selection-for-Multimodal-Retrieval-Au"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.407865+00:00
+updated_at: 2026-09-11T11:23:49.964322+00:00
 tags: [record, real-data]
 ---
 

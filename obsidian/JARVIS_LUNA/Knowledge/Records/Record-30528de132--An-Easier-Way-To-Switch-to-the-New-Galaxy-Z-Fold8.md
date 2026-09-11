@@ -2,7 +2,7 @@
 title: "Record 30528de132 · An-Easier-Way-To-Switch-to-the-New-Galaxy-Z-Fold8"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.376717+00:00
+updated_at: 2026-09-11T11:23:49.928747+00:00
 tags: [record, real-data]
 ---
 

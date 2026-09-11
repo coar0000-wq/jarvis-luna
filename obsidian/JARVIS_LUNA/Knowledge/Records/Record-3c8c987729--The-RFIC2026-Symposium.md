@@ -2,7 +2,7 @@
 title: "Record 3c8c987729 · The-RFIC2026-Symposium"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.097744+00:00
+updated_at: 2026-09-11T11:23:49.597548+00:00
 tags: [record, real-data]
 ---
 

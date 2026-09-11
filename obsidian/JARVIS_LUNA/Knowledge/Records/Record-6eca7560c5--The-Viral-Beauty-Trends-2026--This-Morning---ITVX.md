@@ -2,7 +2,7 @@
 title: "Record 6eca7560c5 · The-Viral-Beauty-Trends-2026--This-Morning---ITVX"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.270953+00:00
+updated_at: 2026-09-11T11:23:49.802560+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f50cbdd12e · Halo-lips-lip-pencil-trends-on-TikTok-in-2026---Benin-Web-TV"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T06:13:55.599180+00:00
+updated_at: 2026-09-11T11:23:49.797071+00:00
 tags: [record, real-data]
 ---
 

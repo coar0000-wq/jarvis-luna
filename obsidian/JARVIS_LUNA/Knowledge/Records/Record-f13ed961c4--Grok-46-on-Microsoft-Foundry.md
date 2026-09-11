@@ -2,7 +2,7 @@
 title: "Record f13ed961c4 · Grok-46-on-Microsoft-Foundry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.566318+00:00
+updated_at: 2026-09-11T11:23:50.158095+00:00
 tags: [record, real-data]
 ---
 

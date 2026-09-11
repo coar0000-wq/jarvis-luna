@@ -2,7 +2,7 @@
 title: "Record e7ea8c7cd8 · Shopify-wants-chatbots-to-become-the-internets-next-shoppers---YourSto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.268219+00:00
+updated_at: 2026-09-11T11:23:49.799338+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 5901757652 · PharmaPlain-SOUL-trial-looking-at-the-effect-of-oral-semaglutide-on-ca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.085655+00:00
+updated_at: 2026-09-11T11:23:49.582949+00:00
 tags: [record, real-data]
 ---
 

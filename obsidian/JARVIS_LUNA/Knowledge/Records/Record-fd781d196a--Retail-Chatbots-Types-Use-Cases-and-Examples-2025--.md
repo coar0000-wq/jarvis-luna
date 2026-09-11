@@ -2,7 +2,7 @@
 title: "Record fd781d196a · Retail-Chatbots-Types-Use-Cases-and-Examples-2025---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.235899+00:00
+updated_at: 2026-09-11T11:23:49.761604+00:00
 tags: [record, real-data]
 ---
 

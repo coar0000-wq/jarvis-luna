@@ -2,7 +2,7 @@
 title: "Record 4cb7438d5b · RENACER-CV-National-Registry-of-Cardiac-Rehabilitation-Centers-in-Arge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.170918+00:00
+updated_at: 2026-09-11T11:23:49.685522+00:00
 tags: [record, real-data]
 ---
 

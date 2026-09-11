@@ -2,7 +2,7 @@
 title: "Record 57cb6f42ff · ForeSea-AI-Forensic-Search-with-Multi-modal-Queries-for-Video-Surveill"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.403883+00:00
+updated_at: 2026-09-11T11:23:49.959104+00:00
 tags: [record, real-data]
 ---
 

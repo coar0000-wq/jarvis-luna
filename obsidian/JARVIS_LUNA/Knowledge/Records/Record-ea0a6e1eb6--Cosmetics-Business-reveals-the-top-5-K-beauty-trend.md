@@ -2,7 +2,7 @@
 title: "Record ea0a6e1eb6 · Cosmetics-Business-reveals-the-top-5-K-beauty-trends-of-2026-in-new-re"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.292892+00:00
+updated_at: 2026-09-11T11:23:49.828382+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ2dNaGRXSUVOa1doWFc4eHo5OVUtZ091ZjNnWFEwbUc1YUdpMURUdXJVZkdpVlg5azZhb1QxWHZyT1JDQ190OVg1eFFUb3RBS0ZTSGJmc0tfdm92MEZTelg5SXVwRjViRmNqT2IzQkdkTzlYcmh5dUhRZjZoa2pxVzEwNA?oc=5)
 
-**제목:** Cosmetics Business reveals the top 5 K-beauty trends of 2026 in new report - Cosmetics Business
+**제목:** Cosmetics Business reveals the top 5 K-beauty trends of 2026 in new report - cosmeticsbusiness.com
 
-Cosmetics Business reveals the top 5 K-beauty trends of 2026 in new report - Cosmetics Business
+Cosmetics Business reveals the top 5 K-beauty trends of 2026 in new report - cosmeticsbusiness.com
 
 **출처:** Source · Google Search
 

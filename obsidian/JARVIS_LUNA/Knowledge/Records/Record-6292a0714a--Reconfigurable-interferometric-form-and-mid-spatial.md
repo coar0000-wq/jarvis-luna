@@ -2,7 +2,7 @@
 title: "Record 6292a0714a · Reconfigurable-interferometric-form-and-mid-spatial-frequency-metrolog"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.113686+00:00
+updated_at: 2026-09-11T11:23:49.616804+00:00
 tags: [record, real-data]
 ---
 

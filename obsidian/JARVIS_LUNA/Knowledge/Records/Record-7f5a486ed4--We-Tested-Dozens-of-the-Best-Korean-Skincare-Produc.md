@@ -2,7 +2,7 @@
 title: "Record 7f5a486ed4 · We-Tested-Dozens-of-the-Best-Korean-Skincare-ProductsThese-17-Gave-Us-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.242781+00:00
+updated_at: 2026-09-11T11:23:49.769681+00:00
 tags: [record, real-data]
 ---
 

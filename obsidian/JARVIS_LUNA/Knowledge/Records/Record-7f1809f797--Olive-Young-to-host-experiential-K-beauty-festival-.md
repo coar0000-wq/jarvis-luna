@@ -2,7 +2,7 @@
 title: "Record 7f1809f797 · Olive-Young-to-host-experiential-K-beauty-festival---Drug-Store-News"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.283350+00:00
+updated_at: 2026-09-11T11:23:49.817275+00:00
 tags: [record, real-data]
 ---
 

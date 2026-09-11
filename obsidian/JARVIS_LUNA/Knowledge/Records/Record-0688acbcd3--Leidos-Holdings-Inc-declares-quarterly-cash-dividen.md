@@ -2,7 +2,7 @@
 title: "Record 0688acbcd3 · Leidos-Holdings-Inc-declares-quarterly-cash-dividend-share-repurchase-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.183590+00:00
+updated_at: 2026-09-11T11:23:49.700300+00:00
 tags: [record, real-data]
 ---
 

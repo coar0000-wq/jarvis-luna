@@ -2,7 +2,7 @@
 title: "Record 0f9b9318c1 · Everyone-With-Glass-Skin-Swears-by-This-Under-the-Radar-K-Beauty-Brand"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.255939+00:00
+updated_at: 2026-09-11T11:23:49.785037+00:00
 tags: [record, real-data]
 ---
 

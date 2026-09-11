@@ -2,7 +2,7 @@
 title: "Record f8e84c3236 · Donating-The-Model-Context-Protocol-And-Establishing-Of-The-Agentic-Ai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.470280+00:00
+updated_at: 2026-09-11T11:23:50.044740+00:00
 tags: [record, real-data]
 ---
 

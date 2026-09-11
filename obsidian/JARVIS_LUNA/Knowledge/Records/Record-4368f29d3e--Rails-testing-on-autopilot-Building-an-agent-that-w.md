@@ -2,7 +2,7 @@
 title: "Record 4368f29d3e · Rails-testing-on-autopilot-Building-an-agent-that-writes-what-develope"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.195895+00:00
+updated_at: 2026-09-11T11:23:49.714198+00:00
 tags: [record, real-data]
 ---
 

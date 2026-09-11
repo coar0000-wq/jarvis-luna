@@ -2,7 +2,7 @@
 title: "Record 8822a96a20 · K-beauty-giant-Cosmax-moves-a-gentler-retinol-into-stick-form---Korea-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.251782+00:00
+updated_at: 2026-09-11T11:23:49.780244+00:00
 tags: [record, real-data]
 ---
 

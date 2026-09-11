@@ -2,7 +2,7 @@
 title: "Record bbc2694392 · Future-Aware-Flow-Planning-for-Safe-UAV-Target-Following"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.006919+00:00
+updated_at: 2026-09-11T11:23:49.490760+00:00
 tags: [record, real-data]
 ---
 

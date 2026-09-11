@@ -2,7 +2,7 @@
 title: "Record 94ed37b9ab · FarnesolImprinted-Nanospheres-FINs-as-Quorum-Sensing-Modulators-of-Can"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.047266+00:00
+updated_at: 2026-09-11T11:23:49.536406+00:00
 tags: [record, real-data]
 ---
 

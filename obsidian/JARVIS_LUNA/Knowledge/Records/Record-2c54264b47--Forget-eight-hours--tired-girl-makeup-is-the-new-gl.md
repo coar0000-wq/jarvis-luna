@@ -1,18 +1,18 @@
 ---
-title: "Record 2c54264b47 · Forget-eight-hours--tired-girl-makeup-is-the-new-glow-up---bodyandsoul"
+title: "Record 2c54264b47 · Forget-eight-hours--tired-girl-makeup-is-the-new-glow-up---Newscomau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.233820+00:00
+updated_at: 2026-09-11T11:23:49.759108+00:00
 tags: [record, real-data]
 ---
 
-# Record 2c54264b47 · Forget-eight-hours--tired-girl-makeup-is-the-new-glow-up---bodyandsoul
+# Record 2c54264b47 · Forget-eight-hours--tired-girl-makeup-is-the-new-glow-up---Newscomau
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi_AFBVV95cUxPaTVTdzJvcUhZZXo4N3R6UUN0UGl0SmdZLVFQTkF3WV9ycTFSZ0l5dmpGcExMbEJGODZqRG0xX3VDeHlYWlVZYWprdjY1UGdlTVZmbFlSSG1ZSk9YNGpqNFFySG1TblUxb0YxVFhPamtBOXV2RjBoaUhRVmdNZG04MjQwR1dwY0dreVpEM1dTR3N4bzVoNlRSRWxwbFB0NWo0dkl5Q192S1ZNcDZMTl9uNTVraGVaU3dpSEx1cEo4ZkMzdy14VXJILWU1TXFVSWhqOC15d2NHN2VDZlBCdmZ3YS00azk4SzVMU01jTzhkRFcxWGJrdXZSZXEtR3Y?oc=5)
 
-**제목:** Forget eight hours – tired girl makeup is the new glow-up - bodyandsoul.com.au
+**제목:** Forget eight hours – tired girl makeup is the new glow-up - News.com.au
 
-Forget eight hours – tired girl makeup is the new glow-up - bodyandsoul.com.au
+Forget eight hours – tired girl makeup is the new glow-up - News.com.au
 
 **출처:** Source · Google Search
 

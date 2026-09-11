@@ -2,7 +2,7 @@
 title: "Record 6059ae7c94 · Towards-the-Geometric-Origins-of-Mass-and-Charge-Projection-Geodesics-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.152169+00:00
+updated_at: 2026-09-11T11:23:49.663557+00:00
 tags: [record, real-data]
 ---
 

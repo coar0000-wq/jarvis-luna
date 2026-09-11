@@ -2,7 +2,7 @@
 title: "Record ff1d5955c4 · ICE-arrests-20152026-Variation-in-targeting-method-and-geography"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T08:41:07.081285+00:00
+updated_at: 2026-09-11T11:23:49.577657+00:00
 tags: [record, real-data]
 ---
 
