@@ -1,0 +1,81 @@
+{
+  "agent": "Ops-Prioritizer",
+  "generated_at": "2026-09-11T06:44:48.374878+00:00",
+  "risk": "high",
+  "task_count": 5,
+  "tasks": [
+    {
+      "priority": 1,
+      "title": "수집 파싱실패 7건 처리",
+      "detail": "블랙리스트 유지 · 대체 카테고리 우선 · 실패 pd_no 재시도 금지",
+      "refs": [
+        "data/agents/collector_audit.json",
+        "data/daiso_real/collection_status.json"
+      ],
+      "approve": "사람: beauty_queue/수집 범위 확인 후 다음 daiso-real-collection"
+    },
+    {
+      "priority": 2,
+      "title": "채널 시그널 점검 (11/12 라이브)",
+      "detail": "empty/수동·낡은 채널 갱신",
+      "refs": [
+        "data/agents/signal_audit.json"
+      ],
+      "approve": "사람: 해당 채널 수집기 또는 수동 JSON 갱신"
+    },
+    {
+      "priority": 3,
+      "title": "S등급 6건 Shopify draft 등록",
+      "detail": "CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력",
+      "refs": [
+        "data/daiso_real/shopify_s_products_import.csv",
+        "data/agents/listing_notes.json"
+      ],
+      "approve": "사람: Admin Import + 가격·재고"
+    },
+    {
+      "priority": 4,
+      "title": "팀 조치 · 상품 소싱팀",
+      "detail": "직전 실행에서 19건 시도 중 7건 실패 (성공 12건) · 가격 없음 7",
+      "refs": [
+        "data/dashboard_runtime.json"
+      ],
+      "approve": "사람: 팀 카드 조치 확인"
+    },
+    {
+      "priority": 4,
+      "title": "팀 조치 · 마케팅 조사팀",
+      "detail": "다이소 상세페이지 고시 표 1건 캡처 필요",
+      "refs": [
+        "data/dashboard_runtime.json"
+      ],
+      "approve": "사람: 팀 카드 조치 확인"
+    }
+  ],
+  "note": "제안만 수행. 데이터 플레인 JSON은 수정하지 않음. 승인 후 기존 스크립트/수동 작업.",
+  "dashboard": {
+    "title": "에이전트 제안",
+    "items": [
+      {
+        "n": 1,
+        "text": "수집 파싱실패 7건 처리 — 블랙리스트 유지 · 대체 카테고리 우선 · 실패 pd_no 재시도 금지"
+      },
+      {
+        "n": 2,
+        "text": "채널 시그널 점검 (11/12 라이브) — empty/수동·낡은 채널 갱신"
+      },
+      {
+        "n": 3,
+        "text": "S등급 6건 Shopify draft 등록 — CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력"
+      },
+      {
+        "n": 4,
+        "text": "팀 조치 · 상품 소싱팀 — 직전 실행에서 19건 시도 중 7건 실패 (성공 12건) · 가격 없음 7"
+      },
+      {
+        "n": 5,
+        "text": "팀 조치 · 마케팅 조사팀 — 다이소 상세페이지 고시 표 1건 캡처 필요"
+      }
+    ]
+  }
+}
