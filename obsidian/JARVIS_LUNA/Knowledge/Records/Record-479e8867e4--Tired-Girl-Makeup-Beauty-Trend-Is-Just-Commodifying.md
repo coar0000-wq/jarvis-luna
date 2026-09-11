@@ -2,7 +2,7 @@
 title: "Record 479e8867e4 · Tired-Girl-Makeup-Beauty-Trend-Is-Just-Commodifying-Burnout---betchesc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.609718+00:00
+updated_at: 2026-09-11T03:05:49.726116+00:00
 tags: [record, real-data]
 ---
 

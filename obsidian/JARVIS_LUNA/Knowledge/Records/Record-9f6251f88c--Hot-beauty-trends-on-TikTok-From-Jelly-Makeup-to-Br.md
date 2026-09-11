@@ -2,7 +2,7 @@
 title: "Record 9f6251f88c · Hot-beauty-trends-on-TikTok-From-Jelly-Makeup-to-Broccoli-Freckles---H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.641113+00:00
+updated_at: 2026-09-11T03:05:49.758131+00:00
 tags: [record, real-data]
 ---
 

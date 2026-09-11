@@ -2,7 +2,7 @@
 title: "Record c75f89842c · What-is-the-Bebot-style-and-why-TikTok-revived-2000s-makeup-find-out-h"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.524981+00:00
+updated_at: 2026-09-11T03:05:49.642539+00:00
 tags: [record, real-data]
 ---
 

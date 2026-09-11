@@ -2,7 +2,7 @@
 title: "Record ce11d1c227 · Swarmer-to-acquire-Ukrainian-UGV-maker-Ratel-Robotics-for-up-to-224M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.871956+00:00
+updated_at: 2026-09-11T03:05:49.975732+00:00
 tags: [record, real-data]
 ---
 

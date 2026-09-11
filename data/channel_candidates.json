@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T22:40:08.679545+00:00",
+  "generated_at": "2026-09-11T03:09:13.095950+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,12 +65,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 25966,
+      "bytes": 25923,
       "items": 30,
       "samples": [
+        "Lash Painting: The Makeup Artist Technique for Clump-Free Mascara",
         "\"Sunglass Nails\" Are the Fashion Week-Approved Way to Go Sheer—See the Photos",
-        "An Oral History of Allure’s Best of Beauty Awards",
-        "Morphe Signature Lip Pencil Review"
+        "An Oral History of Allure’s Best of Beauty Awards"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름",
@@ -97,12 +97,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21277,
+      "bytes": 21734,
       "items": 40,
       "samples": [
-        "leshon johnson",
-        "Ex-NFL RB LeShon Johnson sentenced to 5 years for dogfighting",
-        "Former NFL Player Sentenced to 10 Years in Prison for Operating Large-Scale Dog Fighting and Trafficking Venture in Oklahoma"
+        "martha stewart",
+        "Martha Stewart reveals haunting conversation she had with ‘90s heartthrob before his tragic death",
+        "Martha Stewart reveals the warning she gave JFK Jr. days before he died"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름",

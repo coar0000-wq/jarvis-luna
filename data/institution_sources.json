@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-10T22:16:16.205769+00:00",
+  "collected_at": "2026-09-11T02:44:35.086096+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-10T22:15:12.208448+00:00"
+      "collected_at": "2026-09-11T02:43:43.235071+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-10T22:15:51.869509+00:00"
+      "collected_at": "2026-09-11T02:44:13.616099+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-10T22:16:16.204631+00:00"
+      "collected_at": "2026-09-11T02:44:35.084859+00:00"
     }
   },
   "not_collected": {
@@ -345,11 +345,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
       "date": "2026-09-03",
       "date_raw": "Thu, 03 Sep 2026 12:00:00 GMT",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -358,11 +358,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
       "date": "2026-09-03",
       "date_raw": "Thu, 03 Sep 2026 12:00:00 GMT",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -4115,11 +4115,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-sponsors-global-credit-markets",
+      "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
       "date": "2026-09-09",
       "date_raw": "2026-09-09",
       "title_source": "url-slug",
-      "title": "Financial Sponsors Global Credit Markets",
+      "title": "Current Events   Us Tariffs",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -4128,11 +4128,11 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-sponsors-global-credit-markets",
       "date": "2026-09-09",
       "date_raw": "2026-09-09",
       "title_source": "url-slug",
-      "title": "Current Events   Us Tariffs",
+      "title": "Financial Sponsors Global Credit Markets",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",

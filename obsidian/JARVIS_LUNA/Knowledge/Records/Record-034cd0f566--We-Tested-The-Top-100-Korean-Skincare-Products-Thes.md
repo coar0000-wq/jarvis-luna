@@ -2,7 +2,7 @@
 title: "Record 034cd0f566 · We-Tested-The-Top-100-Korean-Skincare-Products-These-Are-The-10-That-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.550027+00:00
+updated_at: 2026-09-11T03:05:49.666360+00:00
 tags: [record, real-data]
 ---
 

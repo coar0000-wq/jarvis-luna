@@ -2,7 +2,7 @@
 title: "Record ed682542ee · Want-Glowing-Skin-Experts-Agree-These-Are-the-Korean-Beauty-Essentials"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.605336+00:00
+updated_at: 2026-09-11T03:05:49.721442+00:00
 tags: [record, real-data]
 ---
 

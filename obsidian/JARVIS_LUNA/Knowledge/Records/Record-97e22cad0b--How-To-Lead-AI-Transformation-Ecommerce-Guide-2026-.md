@@ -2,7 +2,7 @@
 title: "Record 97e22cad0b · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.523655+00:00
+updated_at: 2026-09-11T03:05:49.641292+00:00
 tags: [record, real-data]
 ---
 

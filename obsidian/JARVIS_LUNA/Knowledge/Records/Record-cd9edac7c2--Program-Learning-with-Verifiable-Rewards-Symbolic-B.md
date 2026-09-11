@@ -2,7 +2,7 @@
 title: "Record cd9edac7c2 · Program-Learning-with-Verifiable-Rewards-Symbolic-Backpropagation-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.177616+00:00
+updated_at: 2026-09-11T03:05:49.287970+00:00
 tags: [record, real-data]
 ---
 

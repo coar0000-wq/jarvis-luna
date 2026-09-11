@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-10T22:17:25.280926+00:00",
+  "collected_at": "2026-09-11T02:45:47.680765+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -45,10 +45,6 @@
   "hot_keywords": [
     {
       "keyword": "2026",
-      "score": 5
-    },
-    {
-      "keyword": "september",
       "score": 4
     },
     {
@@ -66,6 +62,10 @@
     {
       "keyword": "korean",
       "score": 4
+    },
+    {
+      "keyword": "september",
+      "score": 3
     },
     {
       "keyword": "products",
@@ -105,14 +105,6 @@
     },
     {
       "keyword": "thoughts",
-      "score": 2
-    },
-    {
-      "keyword": "anything",
-      "score": 2
-    },
-    {
-      "keyword": "goes",
       "score": 2
     },
     {
@@ -172,6 +164,30 @@
       "score": 1
     },
     {
+      "keyword": "gorgeous",
+      "score": 1
+    },
+    {
+      "keyword": "lancome",
+      "score": 1
+    },
+    {
+      "keyword": "lippie",
+      "score": 1
+    },
+    {
+      "keyword": "only",
+      "score": 1
+    },
+    {
+      "keyword": "sold",
+      "score": 1
+    },
+    {
+      "keyword": "asia",
+      "score": 1
+    },
+    {
       "keyword": "cleansing",
       "score": 1
     },
@@ -180,27 +196,11 @@
       "score": 1
     },
     {
-      "keyword": "ordered",
+      "keyword": "finish",
       "score": 1
     },
     {
-      "keyword": "dasique",
-      "score": 1
-    },
-    {
-      "keyword": "off",
-      "score": 1
-    },
-    {
-      "keyword": "amazon",
-      "score": 1
-    },
-    {
-      "keyword": "recieved",
-      "score": 1
-    },
-    {
-      "keyword": "limited",
+      "keyword": "sunstick",
       "score": 1
     }
   ],
@@ -254,16 +254,16 @@
       "feed": "hot"
     },
     {
-      "title": "Cleansing balm or mascara remover?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wckkbs/cleansing_balm_or_mascara_remover/",
-      "published": "2026-09-10T14:19:30+00:00",
+      "title": "gorgeous lancome lippie only sold in asia",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcyx6x/gorgeous_lancome_lippie_only_sold_in_asia/",
+      "published": "2026-09-10T23:07:57+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Ordered a dasique tint off Amazon and recieved a... limited romand Hannah Banhg balm? 😭",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wc2n1b/ordered_a_dasique_tint_off_amazon_and_recieved_a/",
-      "published": "2026-09-09T23:54:46+00:00",
+      "title": "Cleansing balm or mascara remover?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wckkbs/cleansing_balm_or_mascara_remover/",
+      "published": "2026-09-10T14:19:30+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -275,16 +275,16 @@
       "feed": "hot"
     },
     {
-      "title": "Milky toners vs watery hydrating toners for oily skin?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wca8xe/milky_toners_vs_watery_hydrating_toners_for_oily/",
-      "published": "2026-09-10T05:45:41+00:00",
+      "title": "Ordered a dasique tint off Amazon and recieved a... limited romand Hannah Banhg balm? 😭",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wc2n1b/ordered_a_dasique_tint_off_amazon_and_recieved_a/",
+      "published": "2026-09-09T23:54:46+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Daiso/affordable products that you like?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcbmr4/daisoaffordable_products_that_you_like/",
-      "published": "2026-09-10T07:00:53+00:00",
+      "title": "Milky toners vs watery hydrating toners for oily skin?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wca8xe/milky_toners_vs_watery_hydrating_toners_for_oily/",
+      "published": "2026-09-10T05:45:41+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -296,16 +296,9 @@
       "feed": "hot"
     },
     {
-      "title": "Fwee all day black cushion",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcf1hy/fwee_all_day_black_cushion/",
-      "published": "2026-09-10T10:14:35+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Thursday: September 10, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcv53u/anything_goes_thursday_september_10_2026/",
-      "published": "2026-09-10T20:39:09+00:00",
+      "title": "Daiso/affordable products that you like?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcbmr4/daisoaffordable_products_that_you_like/",
+      "published": "2026-09-10T07:00:53+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -317,6 +310,13 @@
       "feed": "hot"
     },
     {
+      "title": "Fwee all day black cushion",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcf1hy/fwee_all_day_black_cushion/",
+      "published": "2026-09-10T10:14:35+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "1 month progress: switched from a european retinol to a korean 0.1% retinol",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wchuur/1_month_progress_switched_from_a_european_retinol/",
       "published": "2026-09-10T12:31:11+00:00",
@@ -324,9 +324,23 @@
       "feed": "hot"
     },
     {
+      "title": "Anything Goes Thursday: September 10, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcv53u/anything_goes_thursday_september_10_2026/",
+      "published": "2026-09-10T20:39:09+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "What is the product(s) you have repurchased over and over again",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbshx8/what_is_the_products_you_have_repurchased_over/",
       "published": "2026-09-09T17:40:55+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "My first online purchase from Sekkisei. I think I got extra free stuff:O? Was it a mistake or a promotion I wasn’t aware about?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbvseq/my_first_online_purchase_from_sekkisei_i_think_i/",
+      "published": "2026-09-09T19:34:55+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -345,13 +359,6 @@
       "feed": "hot"
     },
     {
-      "title": "My first online purchase from Sekkisei. I think I got extra free stuff:O? Was it a mistake or a promotion I wasn’t aware about?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbvseq/my_first_online_purchase_from_sekkisei_i_think_i/",
-      "published": "2026-09-09T19:34:55+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Any mascara/ lash recommendations?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wckd2i/any_mascara_lash_recommendations/",
       "published": "2026-09-10T14:11:50+00:00",
@@ -366,16 +373,16 @@
       "feed": "hot"
     },
     {
-      "title": "Easyderm beauty patch",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcimzh/easyderm_beauty_patch/",
-      "published": "2026-09-10T13:03:55+00:00",
+      "title": "[Review] Dear Klairs Blue EGF Intensive Pro Cream",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbp0oz/review_dear_klairs_blue_egf_intensive_pro_cream/",
+      "published": "2026-09-09T15:36:51+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "[Review] Dear Klairs Blue EGF Intensive Pro Cream",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbp0oz/review_dear_klairs_blue_egf_intensive_pro_cream/",
-      "published": "2026-09-09T15:36:51+00:00",
+      "title": "Easyderm beauty patch",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcimzh/easyderm_beauty_patch/",
+      "published": "2026-09-10T13:03:55+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -397,13 +404,6 @@
       "title": "Any Korean oil infused micellar water products?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcbw6x/any_korean_oil_infused_micellar_water_products/",
       "published": "2026-09-10T07:15:24+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Wednesday: September 09, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbxm31/anything_goes_wednesday_september_09_2026/",
-      "published": "2026-09-09T20:39:06+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },

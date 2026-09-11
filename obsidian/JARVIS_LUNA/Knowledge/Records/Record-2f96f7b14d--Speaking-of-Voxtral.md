@@ -2,7 +2,7 @@
 title: "Record 2f96f7b14d · Speaking-of-Voxtral"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.458536+00:00
+updated_at: 2026-09-11T03:05:49.580086+00:00
 tags: [record, real-data]
 ---
 

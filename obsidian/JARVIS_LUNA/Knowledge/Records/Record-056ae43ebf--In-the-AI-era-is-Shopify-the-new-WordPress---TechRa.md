@@ -2,7 +2,7 @@
 title: "Record 056ae43ebf · In-the-AI-era-is-Shopify-the-new-WordPress---TechRadar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.566458+00:00
+updated_at: 2026-09-11T03:05:49.681839+00:00
 tags: [record, real-data]
 ---
 

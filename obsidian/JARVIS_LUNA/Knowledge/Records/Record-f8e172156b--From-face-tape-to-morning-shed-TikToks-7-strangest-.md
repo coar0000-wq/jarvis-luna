@@ -2,7 +2,7 @@
 title: "Record f8e172156b · From-face-tape-to-morning-shed-TikToks-7-strangest-beauty-fads--and-wh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.632720+00:00
+updated_at: 2026-09-11T03:05:49.750129+00:00
 tags: [record, real-data]
 ---
 

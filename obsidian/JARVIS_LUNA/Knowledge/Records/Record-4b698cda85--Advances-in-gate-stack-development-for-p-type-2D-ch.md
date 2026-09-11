@@ -2,7 +2,7 @@
 title: "Record 4b698cda85 · Advances-in-gate-stack-development-for-p-type-2D-channel-FETs-through-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.311715+00:00
+updated_at: 2026-09-11T03:05:49.429870+00:00
 tags: [record, real-data]
 ---
 

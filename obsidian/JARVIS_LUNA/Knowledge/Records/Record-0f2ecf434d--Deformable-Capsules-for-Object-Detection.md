@@ -2,7 +2,7 @@
 title: "Record 0f2ecf434d · Deformable-Capsules-for-Object-Detection"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.271165+00:00
+updated_at: 2026-09-11T03:05:49.386995+00:00
 tags: [record, real-data]
 ---
 

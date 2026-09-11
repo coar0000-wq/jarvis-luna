@@ -2,7 +2,7 @@
 title: "Record 3068bbc72f · Bloomreach-partners-with-Shopify-to-deliver-AI-powered-personalization"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.484978+00:00
+updated_at: 2026-09-11T03:05:49.604873+00:00
 tags: [record, real-data]
 ---
 

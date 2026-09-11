@@ -2,7 +2,7 @@
 title: "Record 01a0fc2b6a · 9-TikTok-Buys-That-Are-Genuinely-Worth-Your-Money---SheerLuxe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.488242+00:00
+updated_at: 2026-09-11T03:05:49.607782+00:00
 tags: [record, real-data]
 ---
 

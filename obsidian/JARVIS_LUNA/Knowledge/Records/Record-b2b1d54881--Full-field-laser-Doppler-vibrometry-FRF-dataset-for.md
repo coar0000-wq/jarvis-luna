@@ -2,7 +2,7 @@
 title: "Record b2b1d54881 · Full-field-laser-Doppler-vibrometry-FRF-dataset-for-a-four-bolt-alumin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.219726+00:00
+updated_at: 2026-09-11T03:05:49.332742+00:00
 tags: [record, real-data]
 ---
 

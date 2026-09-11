@@ -2,7 +2,7 @@
 title: "Record 18370db0bc · Leadership-beyond-the-UX-box"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.344428+00:00
+updated_at: 2026-09-11T03:05:49.464955+00:00
 tags: [record, real-data]
 ---
 

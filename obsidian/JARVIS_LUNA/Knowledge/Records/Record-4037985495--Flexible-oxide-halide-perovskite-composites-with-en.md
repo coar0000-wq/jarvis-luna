@@ -2,7 +2,7 @@
 title: "Record 4037985495 · Flexible-oxide-halide-perovskite-composites-with-enhanced-piezoelectri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.291233+00:00
+updated_at: 2026-09-11T03:05:49.408122+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record da9541f7d9 · Asoka-makeup-trend-on-TikTok-inspired-by-2000s-Bollywood-movie---NBC-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T22:36:46.644288+00:00
+updated_at: 2026-09-11T03:05:49.761103+00:00
 tags: [record, real-data]
 ---
 

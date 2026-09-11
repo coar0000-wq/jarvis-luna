@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T22:39:17.755644+00:00",
+  "updated_at": "2026-09-11T03:08:24.302537+00:00",
   "real_records": 3042,
   "source_labels": {
     "ai-image": 102,
@@ -27,8 +27,8 @@
   "tuning_validation_accuracy": 0.8863232682060391,
   "tuning_final_loss": 0.4061772672009157,
   "tuning_gate_load_std": 0.15363123046676117,
-  "records_before": 3032,
-  "records_added": 10,
+  "records_before": 3042,
+  "records_added": 0,
   "source_status": {
     "arxiv": "ok",
     "robotics": "ok",
@@ -38,5 +38,5 @@
     "us_beauty": "ok"
   },
   "corpus": "data/knowledge/training_corpus.jsonl",
-  "말뭉치": "바뀌었다. 지금 가중치는 이 말뭉치로 학습한 것이 아니다. 학습기가 돌아야 다시 참이 된다."
+  "말뭉치": "변화 없음. 기존 가중치가 이 말뭉치 기준이라 학습 상태를 유지한다."
 }
