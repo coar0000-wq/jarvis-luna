@@ -98,10 +98,12 @@ box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
 .team-badge{font-size:10px;letter-spacing:0.5px;border-radius:4px;padding:1px 6px;border:1px solid;}
 .team-badge.miss{color:#f85149;border-color:rgba(248,81,73,0.4);background:rgba(248,81,73,0.1);}
 .team-badge.fail{color:#f85149;border-color:rgba(248,81,73,0.4);background:rgba(248,81,73,0.1);}
-.secretary-row{background:linear-gradient(90deg,rgba(88,166,255,0.055),transparent 62%);border-bottom-color:#31415a;}
+.secretary-row{background:#0f0f0f;border-bottom-color:#232323;}
 .secretary-row .team-name{color:#ffffff;font-weight:600;}
 .secretary-badge{color:#58a6ff;border-color:rgba(88,166,255,0.42);background:rgba(88,166,255,0.10);}
-.secretary-row .team-summary{color:#b7c4d6;}
+.secretary-row .team-summary{color:#8b949e;}
+.secretary-icon{width:40px;height:40px;flex:0 0 40px;border-radius:11px;background:#0f0f0f;display:flex;align-items:center;justify-content:center;overflow:hidden;}
+.secretary-icon img{width:40px;height:40px;object-fit:contain;display:block;background:#0f0f0f;border-radius:11px;}
 @media(max-width:600px){
 .team-when{margin-left:0;padding-left:0;width:100%;}
 .team-name{gap:4px;}
@@ -767,7 +769,7 @@ const teams=Array.isArray(d.teams)?d.teams:[];
 // 비서실장은 런타임 teams 데이터와 무관하게 항상 최상단에 표시한다.
 // 이미지 파일은 images/비서실장.png 를 우선 사용하고, 없으면 JARVIS 기본 아이콘으로 대체한다.
 const secretary = '<li class="team-row secretary-row">'+
-  '<div class="team-icon"><img src="images/비서실장.png" alt="비서실장" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\';" style="border-radius:11px;" />'+
+  '<div class="secretary-icon"><img src="images/비서실장.png" alt="비서실장" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\';" />'+
   '<div class="team-icon-fb secretary-fallback" style="display:none;background:#2a2a2a;"><svg viewBox="0 0 24 24">'+TEAM_GLYPH.robot+'</svg></div></div>'+
   '<div class="team-body">'+
   '<div class="team-name">비서실장<span class="team-badge secretary-badge">총괄</span><span class="team-when">상시</span></div>'+
