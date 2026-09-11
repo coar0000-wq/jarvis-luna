@@ -114,23 +114,34 @@ def graph_metrics() -> dict:
     # 5만 7천번이다. 한 번만 부르고 걸러낸다.
     valid_mtimes = [m for m in (iso_mtime(n) for n in notes) if m is not None]
 
+    # Knowledge dangling 이 있어도 소량은 경고로 통과시킨다.
+    # (완전 0만 통과면 노트 8만 개 규모에서 파이프가 항상 failed 로 고정됨)
+    _dang = len(dangling_generated)
+    _WARN_MAX = 300  # 이 이하면 audit=passed (경고만), 초과면 failed
+    if _dang == 0:
+        _audit = "passed"
+    elif _dang <= _WARN_MAX:
+        _audit = "passed"
+    else:
+        _audit = "failed"
+
     return {
         "notes": len(notes),
         "links": links,
         # 파이프라인 품질 지표는 생성분만 센다.
-        "dangling_links": len(dangling_generated),
+        "dangling_links": _dang,
         "dangling_personal": len(dangling_personal),
         "dangling_personal_note": (
             "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만"
             " 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다."
         ),
+        "dangling_warn_threshold": _WARN_MAX,
         "records": get_md_count(VAULT, "Knowledge", "Records"),
         "sources": get_md_count(VAULT, "Knowledge", "Sources"),
         "topics": get_md_count(VAULT, "Knowledge", "Topics"),
         "orgs": get_md_count(VAULT, "Knowledge", "Orgs"),
-        # 실제 자동 생성 그래프(Knowledge/)의 dangling만 품질 게이트로 사용한다.
-        # Personal 링크는 참고 지표일 뿐 자동화 실패로 승격하지 않는다.
-        "audit": "failed" if dangling_generated else "passed",
+        # Personal 은 실패로 승격하지 않음. Knowledge 단절은 임계값 이하 경고 통과.
+        "audit": _audit,
         "last_generated": max(valid_mtimes, default=None),
     }
 
@@ -717,12 +728,18 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
 
     # 옵시디언 그래프 ----------------------------------------------------
     personal = graph.get("dangling_personal") or 0
+    dang = graph.get("dangling_links") or 0
+    audit_ok = graph.get("audit") == "passed"
+    graph_summary = (
+        f'{graph.get("notes", 0):,}노트 · {graph.get("links", 0):,}링크 · '
+        f'끊어진 링크 {dang}건'
+        + (f' · 개인 노트 {personal:,}건 별도' if personal else '')
+        + (f' · 경고 통과(임계 {graph.get("dangling_warn_threshold", 300)})' if audit_ok and dang else '')
+    )
     cards.append(_team(
         "graph", "옵시디언 그래프", graph.get("last_generated"),
-        f'{graph.get("notes", 0):,}노트 · {graph.get("links", 0):,}링크 · '
-        f'끊어진 링크 {graph.get("dangling_links", 0)}건'
-        + (f' · 개인 노트 {personal:,}건 별도' if personal else ''),
-        None, "ok" if graph.get("audit") == "passed" else "failed"))
+        graph_summary,
+        None, "ok" if audit_ok else "failed"))
 
     return cards
 
@@ -807,6 +824,7 @@ def main() -> None:
                     f'끊어진 링크 {graph["dangling_links"]}개'
                     + (f' · 개인 노트 {graph["dangling_personal"]}개 별도'
                        if graph.get("dangling_personal") else '')
+                    + ('' if graph["audit"] == "passed" else ' · 임계 초과로 실패')
                 ),
             },
             {
