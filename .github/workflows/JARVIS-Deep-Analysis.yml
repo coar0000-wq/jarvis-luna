@@ -330,6 +330,18 @@ jobs:
         continue-on-error: true
         run: python scripts/daiso/export_shopify_s_csv.py
 
+      # 다중 에이전트 진단 플레인 (조건부). 데이터 JSON은 수정하지 않고 data/agents/ 만 기록.
+      # 다중 에이전트 + Safe Auto-Fix.
+      # 자동 수정은 링크/queue/runtime 같은 검증 가능한 영역만 허용한다.
+      # Shopify 등록·광고·force push·secrets 변경·임의 코드패치는 하지 않는다.
+      - name: JARVIS multi-agent ops + safe auto-fix
+        continue-on-error: true
+        env:
+          JARVIS_AGENTS_FORCE: "0"
+          JARVIS_AUTOFIX: "1"
+        run: |
+          python scripts/run_jarvis_agents.py
+
       # 팀이 보고한 숫자를 원본 파일과 대조한다. 스크립트가 오류 없이
       # 끝나도 숫자가 틀릴 수 있고, 실제로 이틀 동안 네 번 그랬다.
       # 여기서 빨갛게 뜨는 편이 조용히 틀린 값을 띄우는 것보다 낫다.
