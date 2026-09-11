@@ -552,6 +552,273 @@ def get_source_snapshot() -> dict:
 
 
 # ============================================================================
+# TEAM HEALTH / OPERATIONS CONTROL
+# ============================================================================
+
+TEAM_DEFINITIONS = {
+    "collector": {
+        "name": "Collector-Audit",
+        "description": "실제 데이터 수집 성공률, parse 실패, 수집 실행 상태를 감시",
+    },
+    "market": {
+        "name": "Signal-Audit",
+        "description": "Amazon/TikTok/Trends/Walmart/OliveYoung 등 글로벌 신호 채널을 감시",
+    },
+    "score": {
+        "name": "Score-Explain",
+        "description": "Shopify 수요점수와 S등급 추천 산출 상태를 감시",
+    },
+    "ops": {
+        "name": "Ops-Prioritizer",
+        "description": "실행 우선순위와 후보 큐 상태를 감시",
+    },
+    "listing": {
+        "name": "Listing-Draft",
+        "description": "상품 Listing/CSV/Gate 준비 상태를 감시",
+    },
+    "legal": {
+        "name": "Legal",
+        "description": "법률/라벨/기능성 검증 파이프라인 상태를 감시",
+    },
+    "pricing": {
+        "name": "Pricing",
+        "description": "환율/원가/마진 계산 파이프라인 상태를 감시",
+    },
+    "shopify": {
+        "name": "Shopify",
+        "description": "Shopify 등록 준비와 S등급 산출 결과를 감시",
+    },
+    "obsidian": {
+        "name": "Obsidian",
+        "description": "지식 그래프/위키링크/노트 구조를 감시",
+    },
+    "knowledge": {
+        "name": "Knowledge-MoE",
+        "description": "실제 소스 corpus와 학습 상태를 감시",
+    },
+}
+
+
+def _file_exists(*paths: Path) -> bool:
+    return any(path.exists() for path in paths)
+
+
+def load_dict_file(*paths: Path) -> tuple[dict, str | None]:
+    for path in paths:
+        if not path.exists():
+            continue
+        value = load_json(path, {})
+        if isinstance(value, dict):
+            return value, str(path.relative_to(ROOT))
+    return {}, None
+
+
+def build_team_health(snapshot: dict) -> dict:
+    """각 운영팀의 건강상태를 공통 스키마로 만든다. 숫자를 임의 생성하지 않는다."""
+    collection = snapshot.get("collection", {})
+    channels = snapshot.get("channels", {})
+    graph = snapshot.get("graph", {})
+    shopify = snapshot.get("shopify", {})
+    queue = snapshot.get("queue", {})
+
+    parse_failed = int(collection.get("parse_failed") or 0)
+    live_channels = int(channels.get("live") or 0)
+    total_channels = int(channels.get("total") or 0)
+    empty_channels = channels.get("empty") or []
+    s_count = int(shopify.get("s_count") or 0)
+    blacklist_count = int(queue.get("blacklist_count") or 0)
+    dangling = int(graph.get("dangling_generated") or 0)
+    truth_guard = graph.get("truth_guard") or {}
+
+    training, training_path = load_dict_file(
+        ROOT / "data" / "knowledge" / "training_status.json"
+    )
+    score_data, score_path = load_dict_file(
+        DAISO_DIR / "shopify_s_recommendations.json",
+        ROOT / "data" / "shopify_s_recommendations.json",
+    )
+
+    team = {}
+
+    collector_status = "ok" if parse_failed == 0 else "attention"
+    team["collector"] = {
+        **TEAM_DEFINITIONS["collector"],
+        "status": collector_status,
+        "priority": "P1" if parse_failed > 0 else "P4",
+        "evidence": {
+            "requested": collection.get("requested", 0),
+            "ok": collection.get("ok", 0),
+            "parse_failed": parse_failed,
+            "finished_at": collection.get("finished_at"),
+        },
+        "recommended_action": "SAFE_BLACKLIST_SYNC" if parse_failed > 0 else "MONITOR",
+        "auto_execute": parse_failed > 0,
+    }
+
+    market_attention = total_channels > 0 and live_channels < total_channels
+    team["market"] = {
+        **TEAM_DEFINITIONS["market"],
+        "status": "attention" if market_attention else "ok",
+        "priority": "P2" if market_attention else "P4",
+        "evidence": {
+            "live_channels": live_channels,
+            "total_channels": total_channels,
+            "empty_channels": [x.get("channel") for x in empty_channels[:20] if isinstance(x, dict)],
+        },
+        "recommended_action": "INVESTIGATE_EMPTY_CHANNELS" if empty_channels else "MONITOR",
+        "auto_execute": False,
+    }
+
+    score_attention = s_count == 0
+    team["score"] = {
+        **TEAM_DEFINITIONS["score"],
+        "status": "attention" if score_attention else "ok",
+        "priority": "P2" if score_attention else "P4",
+        "evidence": {
+            "s_grade_count": s_count,
+            "recommendation_source": score_path,
+        },
+        "recommended_action": "REVIEW_SCORE_PIPELINE" if score_attention else "MONITOR",
+        "auto_execute": False,
+    }
+
+    ops_attention = blacklist_count > 0
+    team["ops"] = {
+        **TEAM_DEFINITIONS["ops"],
+        "status": "attention" if ops_attention else "ok",
+        "priority": "P3" if ops_attention else "P4",
+        "evidence": {"blacklist_count": blacklist_count},
+        "recommended_action": "MONITOR_BLACKLIST" if ops_attention else "MONITOR",
+        "auto_execute": False,
+    }
+
+    listing_ready = _file_exists(
+        ROOT / "data" / "listing_gate.json",
+        ROOT / "data" / "daiso_real" / "listing_gate.json",
+    )
+    team["listing"] = {
+        **TEAM_DEFINITIONS["listing"],
+        "status": "ok" if listing_ready else "waiting",
+        "priority": "P4" if listing_ready else "P3",
+        "evidence": {"listing_gate_present": listing_ready},
+        "recommended_action": "MONITOR" if listing_ready else "REVIEW_LISTING_GATE",
+        "auto_execute": False,
+    }
+
+    legal_ready = _file_exists(
+        ROOT / "data" / "legal_check.json",
+        ROOT / "data" / "legal" / "legal_check.json",
+        ROOT / "data" / "legal_products.json",
+    )
+    team["legal"] = {
+        **TEAM_DEFINITIONS["legal"],
+        "status": "ok" if legal_ready else "waiting",
+        "priority": "P4" if legal_ready else "P3",
+        "evidence": {"legal_artifact_present": legal_ready},
+        "recommended_action": "MONITOR" if legal_ready else "REVIEW_LEGAL_PIPELINE",
+        "auto_execute": False,
+    }
+
+    pricing_ready = _file_exists(
+        ROOT / "data" / "pricing_model.json",
+        ROOT / "data" / "daiso_real" / "pricing_model.json",
+    )
+    team["pricing"] = {
+        **TEAM_DEFINITIONS["pricing"],
+        "status": "ok" if pricing_ready else "waiting",
+        "priority": "P4" if pricing_ready else "P3",
+        "evidence": {"pricing_artifact_present": pricing_ready},
+        "recommended_action": "MONITOR" if pricing_ready else "REVIEW_PRICING_PIPELINE",
+        "auto_execute": False,
+    }
+
+    team["shopify"] = {
+        **TEAM_DEFINITIONS["shopify"],
+        "status": "attention" if s_count == 0 else "ok",
+        "priority": "P2" if s_count == 0 else "P4",
+        "evidence": {"s_grade_count": s_count, "recommendation_source": score_path},
+        "recommended_action": "REVIEW_SCORE_PIPELINE" if s_count == 0 else "MONITOR",
+        "auto_execute": False,
+    }
+
+    obsidian_problem = bool(truth_guard.get("anomaly")) or dangling > 0
+    team["obsidian"] = {
+        **TEAM_DEFINITIONS["obsidian"],
+        "status": "attention" if obsidian_problem else "ok",
+        "priority": "P1" if obsidian_problem else "P4",
+        "evidence": {
+            "nodes": graph.get("nodes", 0),
+            "links": graph.get("links", 0),
+            "dangling_generated": dangling,
+            "truth_guard_anomaly": bool(truth_guard.get("anomaly")),
+            "anomaly_reasons": truth_guard.get("anomaly_reasons", []),
+        },
+        "recommended_action": "NORMALIZE_AND_REBUILD_GRAPH" if obsidian_problem else "MONITOR",
+        "auto_execute": obsidian_problem,
+    }
+
+    training_ok = bool(training.get("training_performed") and training.get("weights_updated"))
+    corpus_present = _file_exists(ROOT / "data" / "knowledge" / "training_corpus.jsonl")
+    knowledge_attention = not (training_ok and corpus_present)
+    team["knowledge"] = {
+        **TEAM_DEFINITIONS["knowledge"],
+        "status": "attention" if knowledge_attention else "ok",
+        "priority": "P2" if knowledge_attention else "P4",
+        "evidence": {
+            "training_performed": bool(training.get("training_performed")),
+            "weights_updated": bool(training.get("weights_updated")),
+            "corpus_present": corpus_present,
+            "training_status_source": training_path,
+        },
+        "recommended_action": "REVIEW_KNOWLEDGE_PIPELINE" if knowledge_attention else "MONITOR",
+        "auto_execute": False,
+    }
+
+    return team
+
+
+def append_team_decisions(decisions: list[dict], team_health: dict) -> list[dict]:
+    """팀별 장애를 Chief 판단 목록에 통합한다."""
+    existing_actions = {(x.get("area"), x.get("action")) for x in decisions if isinstance(x, dict)}
+    action_map = {
+        "collector": ("collector", "P1", "SAFE_BLACKLIST_SYNC", "다이소 수집 실패"),
+        "market": ("market", "P2", "INVESTIGATE_EMPTY_CHANNELS", "글로벌 신호 채널 저하"),
+        "score": ("score", "P2", "REVIEW_SCORE_PIPELINE", "Shopify 수요점수/추천 산출 점검 필요"),
+        "ops": ("ops", "P3", "MONITOR_BLACKLIST", "운영 큐 모니터링 필요"),
+        "listing": ("listing", "P3", "REVIEW_LISTING_GATE", "Listing 준비 산출물 확인 필요"),
+        "legal": ("legal", "P3", "REVIEW_LEGAL_PIPELINE", "법률 검증 산출물 확인 필요"),
+        "pricing": ("pricing", "P3", "REVIEW_PRICING_PIPELINE", "가격/원가 산출물 확인 필요"),
+        "shopify": ("shopify", "P2", "REVIEW_SCORE_PIPELINE", "Shopify 추천 산출 상태 확인 필요"),
+        "obsidian": ("obsidian", "P1", "NORMALIZE_AND_REBUILD_GRAPH", "Obsidian 그래프 상태 복구 필요"),
+        "knowledge": ("knowledge", "P2", "REVIEW_KNOWLEDGE_PIPELINE", "Knowledge/MoE 산출 상태 확인 필요"),
+    }
+
+    severity = {"P1": 70, "P2": 50, "P3": 30, "P4": 10}
+    for team_id, item in team_health.items():
+        if item.get("status") not in {"attention", "error"}:
+            continue
+        area, priority, action, reason = action_map[team_id]
+        key = (area, action)
+        if key in existing_actions:
+            continue
+        decisions.append({
+            "priority": priority,
+            "severity_score": severity[priority],
+            "area": area,
+            "team": team_id,
+            "action": action,
+            "reason": reason,
+            "evidence": item.get("evidence", {}),
+            "auto_execute": bool(item.get("auto_execute") and action in {
+                "SAFE_BLACKLIST_SYNC",
+                "NORMALIZE_AND_REBUILD_GRAPH",
+            }),
+        })
+    return decisions
+
+
+
+# ============================================================================
 # CHIEF OF STAFF JUDGMENT
 # ============================================================================
 
@@ -574,6 +841,7 @@ def build_chief_of_staff_decision(snapshot: dict) -> dict:
     dangling_generated = int(graph.get("dangling_generated") or 0)
     s_count = int(shopify.get("s_count") or 0)
     truth_guard = graph.get("truth_guard") or {}
+    team_health = build_team_health(snapshot)
 
     # P0 - 명백한 메타데이터/상태 모순
     if (
@@ -665,6 +933,9 @@ def build_chief_of_staff_decision(snapshot: dict) -> dict:
             "auto_execute": False,
         })
 
+    # 전체 팀 건강상태를 Chief 판단에 통합
+    append_team_decisions(decisions, team_health)
+
     if not decisions:
         decisions.append({
             "priority": "P4",
@@ -701,6 +972,24 @@ def build_chief_of_staff_decision(snapshot: dict) -> dict:
             "may_run_ads": False,
             "may_change_secrets": False,
             "may_force_push": False,
+        },
+        "team_health": team_health,
+        "team_control_policy": {
+            "team_diagnosis": "all_teams",
+            "automatic_data_repairs": [
+                "SAFE_BLACKLIST_SYNC",
+                "NORMALIZE_AND_REBUILD_GRAPH",
+            ],
+            "human_review_required": [
+                "REFRESH_LOW_SIGNAL_CHANNELS",
+                "INVESTIGATE_EMPTY_CHANNELS",
+                "REVIEW_SCORE_PIPELINE",
+                "REVIEW_LISTING_GATE",
+                "REVIEW_LEGAL_PIPELINE",
+                "REVIEW_PRICING_PIPELINE",
+                "REVIEW_KNOWLEDGE_PIPELINE",
+                "SHOPIFY_ADMIN_WRITE",
+            ],
         },
         "snapshot": snapshot,
     }
@@ -759,6 +1048,7 @@ def main() -> int:
     print("  Graph links:", snapshot["graph"]["links"])
     print("  Graph dangling:", snapshot["graph"]["dangling_generated"])
     print("  Shopify S:", snapshot["shopify"]["s_count"])
+    print("  Team health:", ", ".join(f"{k}={v.get('status')}" for k, v in build_team_health(snapshot).items()))
 
     chief = build_chief_of_staff_decision(snapshot)
     save_json(CHIEF_REPORT, chief)
