@@ -2,7 +2,7 @@
 title: "Record d5a641533b · Anthropic-Accenture-Partnership"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.998888+00:00
+updated_at: 2026-09-12T04:37:08.045650+00:00
 tags: [record, real-data]
 ---
 

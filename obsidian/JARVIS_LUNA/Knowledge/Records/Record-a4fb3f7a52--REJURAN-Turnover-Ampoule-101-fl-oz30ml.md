@@ -2,7 +2,7 @@
 title: "Record a4fb3f7a52 · REJURAN-Turnover-Ampoule-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.983964+00:00
+updated_at: 2026-09-12T04:37:08.020051+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)
 
 REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)
-REJURAN Turnover Ampoule 1.01 fl. oz.(30ml) · 평점 5 · 리뷰 11
+REJURAN Turnover Ampoule 1.01 fl. oz.(30ml) · 평점 4.8 · 리뷰 12
 
 **출처:** Source · us_beauty
 

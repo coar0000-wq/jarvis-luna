@@ -2,7 +2,7 @@
 title: "Record c835c63b1b · Shopify-Review-Build-an-Online-Store-With-Just-a-Few-Words---techco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.821661+00:00
+updated_at: 2026-09-12T04:37:07.722562+00:00
 tags: [record, real-data]
 ---
 

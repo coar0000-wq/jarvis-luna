@@ -2,7 +2,7 @@
 title: "Record 0bf8267cd1 · Subspace-Inference-Enables-Efficient-Active-Reward-Learning-from-Prefe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.629506+00:00
+updated_at: 2026-09-12T04:37:07.393978+00:00
 tags: [record, real-data]
 ---
 

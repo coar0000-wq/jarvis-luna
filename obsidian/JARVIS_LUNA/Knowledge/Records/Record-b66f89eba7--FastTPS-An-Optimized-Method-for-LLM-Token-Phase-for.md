@@ -2,7 +2,7 @@
 title: "Record b66f89eba7 · FastTPS-An-Optimized-Method-for-LLM-Token-Phase-for-AI-accelerators"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.965213+00:00
+updated_at: 2026-09-12T04:37:07.990502+00:00
 tags: [record, real-data]
 ---
 

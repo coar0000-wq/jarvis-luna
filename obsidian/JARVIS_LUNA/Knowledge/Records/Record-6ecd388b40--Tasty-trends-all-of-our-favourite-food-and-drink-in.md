@@ -2,7 +2,7 @@
 title: "Record 6ecd388b40 · Tasty-trends-all-of-our-favourite-food-and-drink-inspired-beauty-looks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.916810+00:00
+updated_at: 2026-09-12T04:37:07.907404+00:00
 tags: [record, real-data]
 ---
 

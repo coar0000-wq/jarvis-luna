@@ -2,7 +2,7 @@
 title: "Record e496322ca2 · An-Enclosed-Mode-Is-a-Gauge-Choice-Topology-Relative-to-Reach-in-Certi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.615609+00:00
+updated_at: 2026-09-12T04:37:07.372586+00:00
 tags: [record, real-data]
 ---
 

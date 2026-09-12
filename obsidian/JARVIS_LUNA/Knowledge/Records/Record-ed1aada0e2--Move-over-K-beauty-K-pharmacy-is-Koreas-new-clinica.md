@@ -2,7 +2,7 @@
 title: "Record ed1aada0e2 · Move-over-K-beauty-K-pharmacy-is-Koreas-new-clinical-skin-care-trend--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.865478+00:00
+updated_at: 2026-09-12T04:37:07.812951+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiekFVX3lxTFB6eFNadFFpXzZndmV6Q0VpRDN5bEFEVkN0SHl5dk5tSDlNdURXS0tpRjNhSkEwb0NBenRyak9ReG1DVVZVc1BmQzVpVlRGR0pXY3Rxa2JhWU1mZVlTNFBkMDBSU0dRazU2cDdySUUxNnVVZk4yeHl4aDVR?oc=5)
 
-**제목:** Move over K-beauty: K-pharmacy is Korea’s new clinical skin care trend - cosmeticsbusiness.com
+**제목:** Move over K-beauty: K-pharmacy is Korea’s new clinical skin care trend - Cosmetics Business
 
-Move over K-beauty: K-pharmacy is Korea’s new clinical skin care trend - cosmeticsbusiness.com
+Move over K-beauty: K-pharmacy is Korea’s new clinical skin care trend - Cosmetics Business
 
 **출처:** Source · Google Search
 

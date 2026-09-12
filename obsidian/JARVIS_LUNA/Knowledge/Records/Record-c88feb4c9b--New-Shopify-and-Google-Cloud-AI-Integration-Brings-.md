@@ -2,7 +2,7 @@
 title: "Record c88feb4c9b · New-Shopify-and-Google-Cloud-AI-Integration-Brings-Advanced-Ecommerce-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.836662+00:00
+updated_at: 2026-09-12T04:37:07.753909+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 56b22827cd · Labeling-matters-A-multicenter-machine-learning-study-on-visual-field-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.743645+00:00
+updated_at: 2026-09-12T04:37:07.587632+00:00
 tags: [record, real-data]
 ---
 

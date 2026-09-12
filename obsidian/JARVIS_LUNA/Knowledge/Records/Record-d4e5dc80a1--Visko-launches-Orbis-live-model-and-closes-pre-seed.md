@@ -2,7 +2,7 @@
 title: "Record d4e5dc80a1 · Visko-launches-Orbis-live-model-and-closes-pre-seed-funding-round"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:22.051543+00:00
+updated_at: 2026-09-12T04:37:08.131846+00:00
 tags: [record, real-data]
 ---
 

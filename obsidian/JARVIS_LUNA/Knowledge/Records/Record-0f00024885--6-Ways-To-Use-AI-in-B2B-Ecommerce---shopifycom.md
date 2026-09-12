@@ -2,7 +2,7 @@
 title: "Record 0f00024885 · 6-Ways-To-Use-AI-in-B2B-Ecommerce---shopifycom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.825386+00:00
+updated_at: 2026-09-12T04:37:07.730467+00:00
 tags: [record, real-data]
 ---
 

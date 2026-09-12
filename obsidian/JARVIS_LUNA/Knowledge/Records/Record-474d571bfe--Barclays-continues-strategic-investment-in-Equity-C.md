@@ -2,7 +2,7 @@
 title: "Record 474d571bfe · Barclays-continues-strategic-investment-in-Equity-Capital-Markets-team"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.792915+00:00
+updated_at: 2026-09-12T04:37:07.672779+00:00
 tags: [record, real-data]
 ---
 

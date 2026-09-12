@@ -2,7 +2,7 @@
 title: "Record e47384bbbf · Memory-as-Plans-World-Action-Modeling-with-Memory-Grounded-Planning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.673168+00:00
+updated_at: 2026-09-12T04:37:07.460837+00:00
 tags: [record, real-data]
 ---
 

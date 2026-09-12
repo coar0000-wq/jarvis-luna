@@ -2,7 +2,7 @@
 title: "Record e2c8456ffa · GraFT-A-Training-Free-Framework-for-Spatial-Reasoning-in-Multimodal-La"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.627775+00:00
+updated_at: 2026-09-12T04:37:07.391421+00:00
 tags: [record, real-data]
 ---
 

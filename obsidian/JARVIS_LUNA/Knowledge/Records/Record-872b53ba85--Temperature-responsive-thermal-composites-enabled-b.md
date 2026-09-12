@@ -2,7 +2,7 @@
 title: "Record 872b53ba85 · Temperature-responsive-thermal-composites-enabled-by-liquid-metal-impr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.699204+00:00
+updated_at: 2026-09-12T04:37:07.507296+00:00
 tags: [record, real-data]
 ---
 

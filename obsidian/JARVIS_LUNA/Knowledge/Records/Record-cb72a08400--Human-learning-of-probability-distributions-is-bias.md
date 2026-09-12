@@ -2,7 +2,7 @@
 title: "Record cb72a08400 · Human-learning-of-probability-distributions-is-biased-toward-moderate-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.711083+00:00
+updated_at: 2026-09-12T04:37:07.529497+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record a58f9ffbe3 · Well-turn-to-AI-before-hiring-new-staff-says-Shopify-CEO---thestacktec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.912020+00:00
+updated_at: 2026-09-12T04:37:07.898809+00:00
 tags: [record, real-data]
 ---
 

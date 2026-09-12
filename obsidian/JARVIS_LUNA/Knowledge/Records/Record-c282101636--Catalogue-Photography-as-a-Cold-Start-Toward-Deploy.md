@@ -2,7 +2,7 @@
 title: "Record c282101636 · Catalogue-Photography-as-a-Cold-Start-Toward-Deployable-Carbide-Burr-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.629297+00:00
+updated_at: 2026-09-12T04:37:07.393653+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3b59590f2a · 24-Korean-Skin-Care-Products-That-Will-Completely-Transform-Your-Routi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.831813+00:00
+updated_at: 2026-09-12T04:37:07.744130+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 6d8b676981 · Bundled-Care-Interventions-for-the-Management-of-Intracerebral-Hemorrh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.763556+00:00
+updated_at: 2026-09-12T04:37:07.620657+00:00
 tags: [record, real-data]
 ---
 

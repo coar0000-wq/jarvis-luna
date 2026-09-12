@@ -2,7 +2,7 @@
 title: "Record cf41c36503 · Q3-2025-Financial-Results"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:22.010857+00:00
+updated_at: 2026-09-12T04:37:08.066260+00:00
 tags: [record, real-data]
 ---
 

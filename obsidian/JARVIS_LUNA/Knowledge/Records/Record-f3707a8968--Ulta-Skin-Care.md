@@ -2,7 +2,7 @@
 title: "Record f3707a8968 · Ulta-Skin-Care"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:22.052206+00:00
+updated_at: 2026-09-12T04:37:08.132904+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 91a4b458c2 · Anua-PDRN-Hyaluronic-Acid-100-Moisturizing-Cream-202-fl-oz60ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.978829+00:00
+updated_at: 2026-09-12T04:37:08.011986+00:00
 tags: [record, real-data]
 ---
 

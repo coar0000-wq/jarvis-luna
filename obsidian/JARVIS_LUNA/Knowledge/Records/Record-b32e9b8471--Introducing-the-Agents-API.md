@@ -2,7 +2,7 @@
 title: "Record b32e9b8471 · Introducing-the-Agents-API"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.950009+00:00
+updated_at: 2026-09-12T04:37:07.963558+00:00
 tags: [record, real-data]
 ---
 
