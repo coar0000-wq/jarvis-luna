@@ -4,15 +4,9 @@ on:
   schedule:
     - cron: '*/30 * * * *'
   workflow_dispatch:
-  push:
-    paths:
-      - 'data/team_status.json'
-      - 'product_discovery.py'
-      - 'gosi_collector.py'
-      - 'generate_dashboard_runtime.py'
 
 concurrency:
-  group: jarvis-chief-${{ github.ref }}
+  group: jarvis-main-writer-${{ github.ref }}
   cancel-in-progress: false
 
 permissions:
@@ -22,8 +16,12 @@ jobs:
   chief-auto-fix:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -32,8 +30,24 @@ jobs:
 
       - name: Show current team status
         run: |
-          cat data/team_status.json | python -m json.tool || echo "no file"
-          python3 -c "import json; d=json.load(open('data/team_status.json')); print(f'이상: {len([r for r in d.get(\"reports\",[]) if r.get(\"status\")==\"이상\"])}건')"
+          if [ -f data/team_status.json ]; then
+            cat data/team_status.json | python -m json.tool || true
+            python3 - <<'PY'
+          import json
+
+          with open("data/team_status.json", "r", encoding="utf-8") as f:
+              d = json.load(f)
+
+          fail_count = len([
+              r for r in d.get("reports", [])
+              if r.get("status") == "이상"
+          ])
+
+          print(f"이상: {fail_count}건")
+          PY
+          else
+            echo "data/team_status.json not found"
+          fi
 
       - name: Run Chief of Staff auto-fix
         run: |
@@ -44,15 +58,42 @@ jobs:
 
       - name: Check FAIL after auto-fix
         run: |
-          FAIL_COUNT=$(python3 -c "import json; d=json.load(open('data/team_status.json')); print(len([r for r in d.get('reports',[]) if r.get('status')=='이상']))")
-          echo "FAIL Count after fix: $FAIL_COUNT"
-          cat data/chief_of_staff_log.json || echo "no log"
-          exit 0
+          if [ -f data/team_status.json ]; then
+            python3 - <<'PY'
+          import json
 
-      - name: Push if fixed
+          with open("data/team_status.json", "r", encoding="utf-8") as f:
+              d = json.load(f)
+
+          fail_count = len([
+              r for r in d.get("reports", [])
+              if r.get("status") == "이상"
+          ])
+
+          print(f"FAIL Count after fix: {fail_count}")
+          PY
+          else
+            echo "data/team_status.json not found"
+          fi
+
+          cat data/chief_of_staff_log.json || echo "no log"
+
+      - name: Commit and push fixed data
         run: |
           git config user.name "JARVIS"
           git config user.email "jarvis@luna.bot"
+
           git add -A
-          git commit -m "fix: auto-fix FAIL -> 0 - $(date +%Y-%m-%d) - JARVIS auto" || echo "nothing to commit"
-          git push origin main || echo "push skipped"
+
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+
+          git commit -m "fix: auto-fix FAIL - $(date +%Y-%m-%d) - JARVIS auto"
+
+          git fetch origin main
+
+          git rebase origin/main
+
+          git push origin HEAD:main
