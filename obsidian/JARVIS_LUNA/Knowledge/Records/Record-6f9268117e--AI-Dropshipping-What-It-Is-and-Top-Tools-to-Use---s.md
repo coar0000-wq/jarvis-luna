@@ -1,18 +1,18 @@
 ---
-title: "Record 6f9268117e · AI-Dropshipping-What-It-Is-and-Top-Tools-to-Use---shopifycom"
+title: "Record 6f9268117e · AI-Dropshipping-What-It-Is-and-Top-Tools-to-Use---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T03:05:49.597268+00:00
+updated_at: 2026-09-11T22:43:21.821549+00:00
 tags: [record, real-data]
 ---
 
-# Record 6f9268117e · AI-Dropshipping-What-It-Is-and-Top-Tools-to-Use---shopifycom
+# Record 6f9268117e · AI-Dropshipping-What-It-Is-and-Top-Tools-to-Use---Shopify
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zWHVSb0lsX1B4MC16UmliOVdSSFBROVk0VmVqS1IyLURZa0huTHJVTk1SLWZUaEZzby1ENWFnSU9pMVZwTm5BUzVHNWRmZXk1SUpzSFV4czlCYWc?oc=5)
 
-**제목:** AI Dropshipping: What It Is and Top Tools to Use - shopify.com
+**제목:** AI Dropshipping: What It Is and Top Tools to Use - Shopify
 
-AI Dropshipping: What It Is and Top Tools to Use - shopify.com
+AI Dropshipping: What It Is and Top Tools to Use - Shopify
 
 **출처:** Source · Google Search
 

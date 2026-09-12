@@ -1,19 +1,18 @@
 ---
-title: "Record 9f1a8e1694 · Britain-is-more-YIMBY-than-NIMBY-as-social-housing-tops-consumers-hous"
+title: "Record 9f1a8e1694 · Britain-Is-More-Yimby-Than-Nimby-As-Social-Housing-Tops-Consume"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.524455+00:00
+updated_at: 2026-09-11T22:43:21.791769+00:00
 tags: [record, real-data]
 ---
 
-# Record 9f1a8e1694 · Britain-is-more-YIMBY-than-NIMBY-as-social-housing-tops-consumers-hous
+# Record 9f1a8e1694 · Britain-Is-More-Yimby-Than-Nimby-As-Social-Housing-Tops-Consume
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/080/britain-is-more-yimby-than-nimby--as-social-housing-tops-consume/)
 
-**제목:** Britain is more YIMBY than NIMBY, as social housing tops consumers’ housing policy priorities | Barclays
+**제목:** Britain Is More Yimby Than Nimby As Social Housing Tops Consume
 
-Britain is more YIMBY than NIMBY, as social housing tops consumers’ housing policy priorities | Barclays
-Barclays Property Insights finds that support for local housing development is nearly twice as common as opposition, with the strongest backing from Gen Z.
+Britain Is More Yimby Than Nimby As Social Housing Tops Consume
 
 **출처:** Source · institutions
 

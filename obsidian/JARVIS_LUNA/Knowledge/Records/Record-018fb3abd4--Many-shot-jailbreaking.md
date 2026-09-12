@@ -1,19 +1,18 @@
 ---
-title: "Record 018fb3abd4 · Many-shot-jailbreaking"
+title: "Record 018fb3abd4 · Many-Shot-Jailbreaking"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T16:31:03.884405+00:00
+updated_at: 2026-09-11T22:43:22.009565+00:00
 tags: [record, real-data]
 ---
 
-# Record 018fb3abd4 · Many-shot-jailbreaking
+# Record 018fb3abd4 · Many-Shot-Jailbreaking
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/research/many-shot-jailbreaking)
 
-**제목:** Many-shot jailbreaking
+**제목:** Many Shot Jailbreaking
 
-Many-shot jailbreaking
-Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+Many Shot Jailbreaking
 
 **출처:** Source · institutions
 

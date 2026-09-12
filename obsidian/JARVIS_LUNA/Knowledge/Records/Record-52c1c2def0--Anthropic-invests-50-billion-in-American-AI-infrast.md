@@ -1,19 +1,18 @@
 ---
-title: "Record 52c1c2def0 · Anthropic-invests-50-billion-in-American-AI-infrastructure"
+title: "Record 52c1c2def0 · Anthropic-Invests-50-Billion-In-American-Ai-Infrastructure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:50.037201+00:00
+updated_at: 2026-09-11T22:43:22.000691+00:00
 tags: [record, real-data]
 ---
 
-# Record 52c1c2def0 · Anthropic-invests-50-billion-in-American-AI-infrastructure
+# Record 52c1c2def0 · Anthropic-Invests-50-Billion-In-American-Ai-Infrastructure
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure)
 
-**제목:** Anthropic invests $50 billion in American AI infrastructure
+**제목:** Anthropic Invests 50 Billion In American Ai Infrastructure
 
-Anthropic invests $50 billion in American AI infrastructure
-Anthropic is partnering with Fluidstack to build data centers in Texas and New York, creating roughly 800 permanent and 2,400 construction jobs.
+Anthropic Invests 50 Billion In American Ai Infrastructure
 
 **출처:** Source · institutions
 

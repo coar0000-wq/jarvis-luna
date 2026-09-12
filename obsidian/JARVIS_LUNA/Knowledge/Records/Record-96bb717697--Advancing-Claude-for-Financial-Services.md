@@ -1,19 +1,18 @@
 ---
-title: "Record 96bb717697 · Advancing-Claude-for-Financial-Services"
+title: "Record 96bb717697 · Advancing-Claude-For-Financial-Services"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:50.032839+00:00
+updated_at: 2026-09-11T22:43:21.998363+00:00
 tags: [record, real-data]
 ---
 
-# Record 96bb717697 · Advancing-Claude-for-Financial-Services
+# Record 96bb717697 · Advancing-Claude-For-Financial-Services
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/news/advancing-claude-for-financial-services)
 
-**제목:** Advancing Claude for Financial Services
+**제목:** Advancing Claude For Financial Services
 
-Advancing Claude for Financial Services
-Claude for Financial Services adds a native Excel plugin, real-time market connectors, and skills for modeling, comp analysis, and earnings reports.
+Advancing Claude For Financial Services
 
 **출처:** Source · institutions
 

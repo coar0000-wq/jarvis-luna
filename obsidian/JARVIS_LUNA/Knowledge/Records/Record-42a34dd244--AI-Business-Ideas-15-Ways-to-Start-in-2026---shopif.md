@@ -1,18 +1,18 @@
 ---
-title: "Record 42a34dd244 · AI-Business-Ideas-15-Ways-to-Start-in-2026---shopifycom"
+title: "Record 42a34dd244 · AI-Business-Ideas-15-Ways-to-Start-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-10T21:09:59.810868+00:00
+updated_at: 2026-09-11T22:43:21.827593+00:00
 tags: [record, real-data]
 ---
 
-# Record 42a34dd244 · AI-Business-Ideas-15-Ways-to-Start-in-2026---shopifycom
+# Record 42a34dd244 · AI-Business-Ideas-15-Ways-to-Start-in-2026---Shopify
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XN3h1el9qb0pzeUI5MXN5M1MyNFAxVUl4bTMybHJIWURzQ1BndFJoRXZueUZZcV9WWE83SG9CWWNjTGY5MVpUaVhyaDQ1dHJZZXNKazNUSmlMcWY4TVE?oc=5)
 
-**제목:** AI Business Ideas: 15 Ways to Start in 2026 - shopify.com
+**제목:** AI Business Ideas: 15 Ways to Start in 2026 - Shopify
 
-AI Business Ideas: 15 Ways to Start in 2026 - shopify.com
+AI Business Ideas: 15 Ways to Start in 2026 - Shopify
 
 **출처:** Source · Google Search
 
