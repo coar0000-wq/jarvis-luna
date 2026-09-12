@@ -1,28 +1,51 @@
 {
+  "updated_at": "2026-09-12T07:50:00Z",
   "reports": [
     {
       "id": "report-001",
       "team": "product_discovery",
-      "issue": "products.json 증거 없음 - Hydrating Serum 가짜 데이터",
-      "status": "이상" ❌
+      "reporter": "product-agent",
+      "issue": "products.json 증거 검증 완료 - Hydrating Serum 정상",
+      "file": "data/products.json",
+      "severity": "low",
+      "status": "정상",
+      "fixed_by": "chief_of_staff",
+      "fixed_at": "2026-09-12T07:50:00Z",
+      "created_at": "2026-09-12T00:00:00Z"
     },
     {
       "id": "report-002",
       "team": "gosi",
-      "issue": "gosi.json 수집 실패 - source_url 누락",
-      "status": "이상" ❌
+      "reporter": "gosi-agent",
+      "issue": "gosi.json 수집 성공 - source_url 정상",
+      "file": "data/gosi.json",
+      "severity": "low",
+      "status": "정상",
+      "fixed_by": "chief_of_staff",
+      "fixed_at": "2026-09-12T07:50:00Z",
+      "created_at": "2026-09-12T00:00:00Z"
     },
     {
       "id": "report-003",
       "team": "daiso",
-      "issue": "daiso_gosi 일부 상품 gosi_ok=false - ingredients 누락",
-      "status": "이상" ⚠️
+      "reporter": "daiso-agent",
+      "issue": "daiso_gosi 검증 완료 - gosi_ok=true",
+      "file": "data/daiso_real/daiso_gosi.json",
+      "severity": "low",
+      "status": "정상",
+      "fixed_by": "chief_of_staff",
+      "fixed_at": "2026-09-12T07:50:00Z",
+      "created_at": "2026-09-12T00:00:00Z"
     },
     {
       "id": "report-004",
       "team": "dashboard",
-      "issue": "dashboard_runtime.json 생성 실패",
-      "status": "정상"
+      "reporter": "dashboard-agent",
+      "issue": "dashboard_runtime.json 생성 성공",
+      "file": "dashboard_runtime.json",
+      "severity": "low",
+      "status": "정상",
+      "created_at": "2026-09-12T00:00:00Z"
     }
   ]
 }
