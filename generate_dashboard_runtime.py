@@ -83,7 +83,6 @@ def build_product_discovery():
 def build_daiso():
     daiso_path = DATA_DIR / "daiso_products.json"
     data = load_json_safe(daiso_path, {"products": []})
-    # daiso도 증거 있으면 검증, 없으면 그대로 (선택적)
     return data
 
 def generate_runtime():
