@@ -2,7 +2,7 @@
 title: "Record 7bba43c33d · Grounding-Generated-Video-Plans-in-Simulation-Towards-Versatile-Dexter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:49.732928+00:00
+updated_at: 2026-09-12T20:35:20.825030+00:00
 tags: [record, real-data]
 ---
 

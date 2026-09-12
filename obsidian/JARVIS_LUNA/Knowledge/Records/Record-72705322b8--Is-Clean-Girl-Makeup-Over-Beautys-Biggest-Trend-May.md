@@ -2,7 +2,7 @@
 title: "Record 72705322b8 · Is-Clean-Girl-Makeup-Over-Beautys-Biggest-Trend-May-Be-Shifting---ELLE"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.155960+00:00
+updated_at: 2026-09-12T20:35:21.233948+00:00
 tags: [record, real-data]
 ---
 

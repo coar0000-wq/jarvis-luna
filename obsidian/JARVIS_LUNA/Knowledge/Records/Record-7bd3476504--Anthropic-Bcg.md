@@ -2,7 +2,7 @@
 title: "Record 7bd3476504 · Anthropic-Bcg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.332398+00:00
+updated_at: 2026-09-12T20:35:21.409602+00:00
 tags: [record, real-data]
 ---
 

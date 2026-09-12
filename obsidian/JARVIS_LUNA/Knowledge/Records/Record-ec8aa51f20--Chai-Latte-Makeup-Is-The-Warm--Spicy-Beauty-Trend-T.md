@@ -2,7 +2,7 @@
 title: "Record ec8aa51f20 · Chai-Latte-Makeup-Is-The-Warm--Spicy-Beauty-Trend-Taking-Over-TikTok--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.020747+00:00
+updated_at: 2026-09-12T20:35:21.102347+00:00
 tags: [record, real-data]
 ---
 

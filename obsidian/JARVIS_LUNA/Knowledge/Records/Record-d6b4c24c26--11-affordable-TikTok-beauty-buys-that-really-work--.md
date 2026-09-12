@@ -1,18 +1,18 @@
 ---
-title: "Record d6b4c24c26 · 11-affordable-TikTok-beauty-buys-that-really-work---thetimescom"
+title: "Record d6b4c24c26 · 11-affordable-TikTok-beauty-buys-that-really-work---The-Times"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.164725+00:00
+updated_at: 2026-09-12T20:35:21.242626+00:00
 tags: [record, real-data]
 ---
 
-# Record d6b4c24c26 · 11-affordable-TikTok-beauty-buys-that-really-work---thetimescom
+# Record d6b4c24c26 · 11-affordable-TikTok-beauty-buys-that-really-work---The-Times
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimwFBVV95cUxNcjVFWVlsbWtjZWF3RmRWQ1ZMMU4wMC1TVEY2cmxUNDZtTUIxMlZHUzF2TkVNRklvQUxoMHRUdzUxbU9FcjhSM212YUZyU2VDN1Bha1k2X0NXeGZfQ0U3aXZHNXp3UTNSSlVXN1h5NmtMSGFDUDlMUDZJOUdhZlNRVDZPZm5oZ29zLXFwa3F4WGU5LW5DOXFYNFU5cw?oc=5)
 
-**제목:** 11 affordable TikTok beauty buys that really work - thetimes.com
+**제목:** 11 affordable TikTok beauty buys that really work - The Times
 
-11 affordable TikTok beauty buys that really work - thetimes.com
+11 affordable TikTok beauty buys that really work - The Times
 
 **출처:** Source · Google Search
 

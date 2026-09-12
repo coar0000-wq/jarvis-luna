@@ -2,7 +2,7 @@
 title: "Record ddbf5fcf7a · Whats-Better-Than-K-Beauty-Award-Winning-K-Beauty-of-Course---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.069732+00:00
+updated_at: 2026-09-12T20:35:21.148598+00:00
 tags: [record, real-data]
 ---
 

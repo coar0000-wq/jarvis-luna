@@ -2,7 +2,7 @@
 title: "Record 105cbbd741 · Neutrogena-Mineral-Invisible-Daily-Defense-Face-Sunscreen-Broad-Spectr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:49.658592+00:00
+updated_at: 2026-09-12T20:35:20.752149+00:00
 tags: [record, real-data]
 ---
 

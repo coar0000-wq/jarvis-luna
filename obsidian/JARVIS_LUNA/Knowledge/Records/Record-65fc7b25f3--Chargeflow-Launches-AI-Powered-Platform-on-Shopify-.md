@@ -2,7 +2,7 @@
 title: "Record 65fc7b25f3 · Chargeflow-Launches-AI-Powered-Platform-on-Shopify-to-Help-E-Commerce-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.194118+00:00
+updated_at: 2026-09-12T20:35:21.271836+00:00
 tags: [record, real-data]
 ---
 

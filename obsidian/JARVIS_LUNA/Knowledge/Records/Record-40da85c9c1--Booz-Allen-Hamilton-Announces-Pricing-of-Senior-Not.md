@@ -2,7 +2,7 @@
 title: "Record 40da85c9c1 · Booz-Allen-Hamilton-Announces-Pricing-of-Senior-Notes-Offering"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:49.964345+00:00
+updated_at: 2026-09-12T20:35:21.047218+00:00
 tags: [record, real-data]
 ---
 

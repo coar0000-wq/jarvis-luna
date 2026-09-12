@@ -2,7 +2,7 @@
 title: "Record 3193aa8719 · Learning-Terrain-Adaptive-Humanoid-Locomotion-on-Granular-Terrain"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:49.738262+00:00
+updated_at: 2026-09-12T20:35:20.830359+00:00
 tags: [record, real-data]
 ---
 

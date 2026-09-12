@@ -2,7 +2,7 @@
 title: "Record 600577f7c7 · What-Are-AI-Agents-Types-Uses-and-How-They-Work---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:49.998654+00:00
+updated_at: 2026-09-12T20:35:21.081276+00:00
 tags: [record, real-data]
 ---
 

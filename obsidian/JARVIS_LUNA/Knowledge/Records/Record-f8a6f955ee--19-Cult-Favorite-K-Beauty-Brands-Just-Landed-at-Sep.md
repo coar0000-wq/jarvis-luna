@@ -2,7 +2,7 @@
 title: "Record f8a6f955ee · 19-Cult-Favorite-K-Beauty-Brands-Just-Landed-at-Sephora---NewBeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.043912+00:00
+updated_at: 2026-09-12T20:35:21.123047+00:00
 tags: [record, real-data]
 ---
 

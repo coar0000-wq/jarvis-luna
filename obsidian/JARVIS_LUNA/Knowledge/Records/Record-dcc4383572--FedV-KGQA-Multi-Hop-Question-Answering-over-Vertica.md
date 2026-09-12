@@ -2,7 +2,7 @@
 title: "Record dcc4383572 · FedV-KGQA-Multi-Hop-Question-Answering-over-Vertically-Partitioned-Kno"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.496534+00:00
+updated_at: 2026-09-12T20:35:21.578615+00:00
 tags: [record, real-data]
 ---
 

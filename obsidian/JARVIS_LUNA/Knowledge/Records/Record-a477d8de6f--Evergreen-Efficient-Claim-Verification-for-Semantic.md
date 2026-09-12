@@ -2,7 +2,7 @@
 title: "Record a477d8de6f · Evergreen-Efficient-Claim-Verification-for-Semantic-Aggregates"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.258492+00:00
+updated_at: 2026-09-12T20:35:21.331934+00:00
 tags: [record, real-data]
 ---
 

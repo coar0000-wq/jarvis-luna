@@ -2,7 +2,7 @@
 title: "Record b3c1d07e2f · K-Beautys-US-Boom-Is-Making-Korean-Less-of-a-Differentiator---KoreaTec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.101272+00:00
+updated_at: 2026-09-12T20:35:21.179206+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** K-Beauty’s U.S. Boom Is Making ‘Korean’ Less of a Differentiator - KoreaTechDesk
 
 K-Beauty’s U.S. Boom Is Making ‘Korean’ Less of a Differentiator - KoreaTechDesk
-K-Beauty’s U.S. Boom Is Making ‘Korean’ Less of a Differentiator - KoreaTechDesk
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

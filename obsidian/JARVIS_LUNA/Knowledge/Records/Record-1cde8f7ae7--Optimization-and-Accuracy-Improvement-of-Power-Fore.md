@@ -2,7 +2,7 @@
 title: "Record 1cde8f7ae7 · Optimization-and-Accuracy-Improvement-of-Power-Forecasting-Models-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:49.952242+00:00
+updated_at: 2026-09-12T20:35:21.035740+00:00
 tags: [record, real-data]
 ---
 

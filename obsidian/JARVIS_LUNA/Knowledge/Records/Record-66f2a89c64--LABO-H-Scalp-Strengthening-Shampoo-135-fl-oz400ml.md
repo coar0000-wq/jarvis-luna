@@ -2,7 +2,7 @@
 title: "Record 66f2a89c64 · LABO-H-Scalp-Strengthening-Shampoo-135-fl-oz400ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.302476+00:00
+updated_at: 2026-09-12T20:35:21.376010+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)
 
 LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)
-LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml) · 평점 5 · 리뷰 1
+LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml) · 평점 5 · 리뷰 2
 
 **출처:** Source · us_beauty
 

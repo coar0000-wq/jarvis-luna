@@ -2,7 +2,7 @@
 title: "Record 4d80feff8c · Torriden-Dive-in-Low-Molecule-Hyaluronic-Acid-Serum-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.303769+00:00
+updated_at: 2026-09-12T20:35:21.377449+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)
 
 Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)
-Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml) · 평점 5 · 리뷰 10
+Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml) · 평점 5 · 리뷰 11
 
 **출처:** Source · us_beauty
 

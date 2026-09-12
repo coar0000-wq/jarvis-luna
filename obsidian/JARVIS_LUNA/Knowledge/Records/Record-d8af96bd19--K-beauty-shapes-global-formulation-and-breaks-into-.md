@@ -2,7 +2,7 @@
 title: "Record d8af96bd19 · K-beauty-shapes-global-formulation-and-breaks-into-new-categories---Pe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.127278+00:00
+updated_at: 2026-09-12T20:35:21.205466+00:00
 tags: [record, real-data]
 ---
 

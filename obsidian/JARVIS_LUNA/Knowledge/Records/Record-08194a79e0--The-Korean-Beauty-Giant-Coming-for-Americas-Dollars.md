@@ -1,18 +1,18 @@
 ---
-title: "Record 08194a79e0 · The-Korean-Beauty-Giant-Coming-for-Americas-Dollars---wsjcom"
+title: "Record 08194a79e0 · The-Korean-Beauty-Giant-Coming-for-Americas-Dollars---WSJ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.142770+00:00
+updated_at: 2026-09-12T20:35:21.220731+00:00
 tags: [record, real-data]
 ---
 
-# Record 08194a79e0 · The-Korean-Beauty-Giant-Coming-for-Americas-Dollars---wsjcom
+# Record 08194a79e0 · The-Korean-Beauty-Giant-Coming-for-Americas-Dollars---WSJ
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikgFBVV95cUxNS3ZMaXU3eXVhN0s5dV9yNmNrU3l3THlQeVJWLXFBUWdCNDR3MjNpOVN4QUxUVmRpRE15enlXTTZQS3o1blhZTVlZT3RESTFtX2RDNldEd0VTNHpXdVhXV2J1SGwyX1NvUDZnVERzRldrR19JUTM3UU4ybWFKbEQtbnRWQlN3U1hkME5mT3ZSeEc4Zw?oc=5)
 
-**제목:** The Korean Beauty Giant Coming for America’s Dollars - wsj.com
+**제목:** The Korean Beauty Giant Coming for America’s Dollars - WSJ
 
-The Korean Beauty Giant Coming for America’s Dollars - wsj.com
+The Korean Beauty Giant Coming for America’s Dollars - WSJ
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record 72c87a5bb9 · The-NANOGrav-15-yr-Data-Set-Impacts-of-Customized-Chromatic-Noise-Mode"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.270788+00:00
+updated_at: 2026-09-12T20:35:21.343475+00:00
 tags: [record, real-data]
 ---
 

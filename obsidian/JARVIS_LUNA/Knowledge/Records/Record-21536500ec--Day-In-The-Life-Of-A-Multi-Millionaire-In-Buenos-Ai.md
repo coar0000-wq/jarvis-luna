@@ -2,7 +2,7 @@
 title: "Record 21536500ec · Day-In-The-Life-Of-A-Multi-Millionaire-In-Buenos-Aires"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.462571+00:00
+updated_at: 2026-09-12T20:35:21.544676+00:00
 tags: [record, real-data]
 ---
 

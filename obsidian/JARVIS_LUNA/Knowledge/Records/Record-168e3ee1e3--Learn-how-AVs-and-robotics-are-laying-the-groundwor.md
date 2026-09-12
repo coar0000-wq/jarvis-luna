@@ -2,7 +2,7 @@
 title: "Record 168e3ee1e3 · Learn-how-AVs-and-robotics-are-laying-the-groundwork-for-field-deploym"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.413679+00:00
+updated_at: 2026-09-12T20:35:21.495760+00:00
 tags: [record, real-data]
 ---
 

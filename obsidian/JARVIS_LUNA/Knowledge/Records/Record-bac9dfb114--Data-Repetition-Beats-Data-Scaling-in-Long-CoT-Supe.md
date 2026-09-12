@@ -2,7 +2,7 @@
 title: "Record bac9dfb114 · Data-Repetition-Beats-Data-Scaling-in-Long-CoT-Supervised-Fine-Tuning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.254348+00:00
+updated_at: 2026-09-12T20:35:21.328273+00:00
 tags: [record, real-data]
 ---
 

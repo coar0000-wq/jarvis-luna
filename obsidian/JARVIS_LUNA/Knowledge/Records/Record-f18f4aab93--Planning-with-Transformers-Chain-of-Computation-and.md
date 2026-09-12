@@ -2,7 +2,7 @@
 title: "Record f18f4aab93 · Planning-with-Transformers-Chain-of-Computation-and-Structured-Context"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.277029+00:00
+updated_at: 2026-09-12T20:35:21.349733+00:00
 tags: [record, real-data]
 ---
 

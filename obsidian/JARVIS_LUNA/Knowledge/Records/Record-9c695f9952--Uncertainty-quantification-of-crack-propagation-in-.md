@@ -2,7 +2,7 @@
 title: "Record 9c695f9952 · Uncertainty-quantification-of-crack-propagation-in-isotropic-and-ortho"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:49.787470+00:00
+updated_at: 2026-09-12T20:35:20.880243+00:00
 tags: [record, real-data]
 ---
 

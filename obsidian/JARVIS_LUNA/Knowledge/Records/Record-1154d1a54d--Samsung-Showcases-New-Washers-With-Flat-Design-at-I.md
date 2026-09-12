@@ -2,7 +2,7 @@
 title: "Record 1154d1a54d · Samsung-Showcases-New-Washers-With-Flat-Design-at-IFA-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.228817+00:00
+updated_at: 2026-09-12T20:35:21.305367+00:00
 tags: [record, real-data]
 ---
 

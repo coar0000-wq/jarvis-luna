@@ -2,7 +2,7 @@
 title: "Record 049fcaeb9e · Duty-Free-Global-Beauty-builds-K-beauty-portfolio-for-global-travel-re"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.207579+00:00
+updated_at: 2026-09-12T20:35:21.284823+00:00
 tags: [record, real-data]
 ---
 

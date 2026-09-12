@@ -2,7 +2,7 @@
 title: "Record 5ec7668317 · Kylie-Jenner-Goes-Makeup-Free-as-She-Embraces-a-Viral-Beauty-Trend-as-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.151540+00:00
+updated_at: 2026-09-12T20:35:21.229523+00:00
 tags: [record, real-data]
 ---
 

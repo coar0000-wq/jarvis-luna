@@ -2,7 +2,7 @@
 title: "Record 1d49f0de6c · Rendering-Aware-Bayesian-3D-Gaussian-Splatting-with-Native-Uncertainty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.273334+00:00
+updated_at: 2026-09-12T20:35:21.345932+00:00
 tags: [record, real-data]
 ---
 

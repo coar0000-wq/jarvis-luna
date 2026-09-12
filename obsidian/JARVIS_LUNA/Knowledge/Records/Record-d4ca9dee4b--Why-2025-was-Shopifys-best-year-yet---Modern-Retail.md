@@ -2,7 +2,7 @@
 title: "Record d4ca9dee4b · Why-2025-was-Shopifys-best-year-yet---Modern-Retail"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.106566+00:00
+updated_at: 2026-09-12T20:35:21.184509+00:00
 tags: [record, real-data]
 ---
 

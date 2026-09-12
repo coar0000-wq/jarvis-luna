@@ -1,18 +1,18 @@
 ---
-title: "Record b2974ae6cd · How-AI-Shopping-Could-Turn-Fashion-Advertising-on-its-Head---Vogue"
+title: "Record b2974ae6cd · How-AI-Shopping-Could-Turn-Fashion-Advertising-on-its-Head---voguecom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.142984+00:00
+updated_at: 2026-09-12T20:35:21.220963+00:00
 tags: [record, real-data]
 ---
 
-# Record b2974ae6cd · How-AI-Shopping-Could-Turn-Fashion-Advertising-on-its-Head---Vogue
+# Record b2974ae6cd · How-AI-Shopping-Could-Turn-Fashion-Advertising-on-its-Head---voguecom
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikgFBVV95cUxNT0dRZmFUbXEwMHg5MHZ5QUZJc0d2WTlqN2RLeXc5WGp1VWJVTWE1WmZnTU5kZlQzYXZEQi1JdEphZUg3ajlxcENZWmxzM0pmcm00Z0Y1ZE1MRFlLUGNUalZOaExWeVRlTl96Qnlmb1NsLTVKRmlqbmF2TWZueThfaWJYcl9NSFE3Z3BpV25OS0R0UQ?oc=5)
 
-**제목:** How AI Shopping Could Turn Fashion Advertising on its Head - Vogue
+**제목:** How AI Shopping Could Turn Fashion Advertising on its Head - vogue.com
 
-How AI Shopping Could Turn Fashion Advertising on its Head - Vogue
+How AI Shopping Could Turn Fashion Advertising on its Head - vogue.com
 
 **출처:** Source · Google Search
 

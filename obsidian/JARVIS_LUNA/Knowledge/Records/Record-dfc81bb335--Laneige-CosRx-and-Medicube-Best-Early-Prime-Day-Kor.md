@@ -2,7 +2,7 @@
 title: "Record dfc81bb335 · Laneige-CosRx-and-Medicube-Best-Early-Prime-Day-Korean-Beauty-Deals---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.141307+00:00
+updated_at: 2026-09-12T20:35:21.219251+00:00
 tags: [record, real-data]
 ---
 

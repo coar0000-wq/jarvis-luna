@@ -2,7 +2,7 @@
 title: "Record a350924f57 · 2AM-Grounding-Agent-Side-Memory-as-Guidance-for-Steerable-Action-Model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:49.749425+00:00
+updated_at: 2026-09-12T20:35:20.841385+00:00
 tags: [record, real-data]
 ---
 

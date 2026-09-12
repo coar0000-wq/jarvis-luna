@@ -2,7 +2,7 @@
 title: "Record 2256c155d5 · Methicillin-Resistant-Staphylococcus-aureus-Bacteremia-Originating-Fro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:49.952817+00:00
+updated_at: 2026-09-12T20:35:21.036277+00:00
 tags: [record, real-data]
 ---
 

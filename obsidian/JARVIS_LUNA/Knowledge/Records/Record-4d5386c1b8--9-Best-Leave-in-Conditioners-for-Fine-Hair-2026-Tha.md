@@ -2,7 +2,7 @@
 title: "Record 4d5386c1b8 · 9-Best-Leave-in-Conditioners-for-Fine-Hair-2026-That-Wont-Nix-Volume"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.324706+00:00
+updated_at: 2026-09-12T20:35:21.400933+00:00
 tags: [record, real-data]
 ---
 
