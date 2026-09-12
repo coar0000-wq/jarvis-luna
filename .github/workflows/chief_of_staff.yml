@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write
 
+# 같은 참모장 작업이 동시에 실행되어 서로의 커밋을 덮지 않게 한다.
+concurrency:
+  group: chief-of-staff-main
+  cancel-in-progress: false
+
 jobs:
   chief-auto-fix:
     runs-on: ubuntu-latest
@@ -29,44 +34,45 @@ jobs:
 
       - name: Auto Fix 실행
         run: |
-          python scripts/generate_dashboard_runtime.py || true
+          python scripts/generate_dashboard_runtime.py
 
-      - name: Commit & Push (JSON 충돌 자동 해결)
+      - name: Commit & Push (원격 우선 재생성 방식)
         shell: bash
         run: |
+          set -u
+
           git config user.name "JARVIS"
           git config user.email "actions@github.com"
 
-          git add .
+          # 생성 파일만 커밋한다.
+          # gosi.json / products.json 은 다른 수집기가 관리하므로
+          # 참모장이 같이 커밋하지 않는다.
+          for attempt in 1 2 3 4 5; do
+            echo "===== push attempt ${attempt} ====="
 
-          if git diff --cached --quiet; then
-            echo "변경사항 없음"
-            exit 0
-          fi
+            # 매 시도마다 최신 main에서 다시 시작한다.
+            git fetch origin main
+            git reset --hard origin/main
 
-          git commit -m "fix: auto-fix $(date +'%Y-%m-%d %H:%M')"
+            # 최신 원격 상태에서 런타임을 다시 생성한다.
+            python scripts/generate_dashboard_runtime.py
 
-          git fetch origin main
+            git add data/dashboard_runtime.json
 
-          # 충돌이 자주 나는 생성 파일은 항상 원격 최신 사용
-          git checkout origin/main -- dashboard_runtime.json || true
-          git checkout origin/main -- data/gosi.json || true
-          git checkout origin/main -- data/products.json || true
+            if git diff --cached --quiet; then
+              echo "변경사항 없음"
+              exit 0
+            fi
 
-          git add dashboard_runtime.json data/gosi.json data/products.json
-
-          git rebase origin/main || {
-            git rebase --abort
-            echo "Rebase 충돌 → 원격 기준으로 재시도"
-
-            git reset --soft HEAD~1
-
-            git checkout origin/main -- dashboard_runtime.json
-            git checkout origin/main -- data/gosi.json
-            git checkout origin/main -- data/products.json
-
-            git add .
             git commit -m "fix: auto-fix $(date +'%Y-%m-%d %H:%M')"
-          }
 
-          git push origin HEAD:main
+            if git push origin HEAD:main; then
+              echo "push 성공"
+              exit 0
+            fi
+
+            echo "원격 main 이 이동했습니다. 최신 main 에서 다시 생성합니다."
+          done
+
+          echo "5회 시도 후에도 push 실패"
+          exit 1
