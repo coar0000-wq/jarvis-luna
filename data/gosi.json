@@ -3,83 +3,266 @@
     "1048583": {
       "product_id": "1048583",
       "name": "드롭비 탄탄 광채 앰플 40 ml",
-      "volume": "",
+      "volume": "40ml",
       "maker": "",
       "origin": "한국",
       "ingredients": "",
       "warnings": "",
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048583",
-      "captured_at": "2026-09-12T22:44:53.463903+00:00"
+      "captured_at": "2026-09-12T22:53:27.780702+00:00",
+      "detail_blurb": "DROP BE Firming & Glow Ampoule 탄탄 광채 앰플 피부 자극 테스트 완료 미백 & 주름개선 2중 기능성 화장품 VEGAN FORMULA 40ml 탄력 잃은 피부에 영양감을 채워 주어 탄탄하고 윤기나게 해주는 탄력 광채 케어 앰플 시카 엑소좀의 이탈리아 쫀쫀 영양 피부 컨디션 케어 화이트 트러플 함유 고농축 젤 앰플 Key Point 01 드롭비 핵심! 나노 입자의 시카 엑소좀 함유 특허: 제 10-2265811호 민감한 피부를 잠재우는 병풀 성분에 특허받은 엑소좀 공법으로 유효 성분의 피부 흡수율을 높이고, 수분 및 영양 공급을 통하여 보습 장벽을 강화하는데 도움을 주는 천연 나노입자 전달체입니다. 남다른 흡수력으로 유효 성분 착붙흡수 병풀 성분을 엑소좀 공법으로 농축하여 정제한 시카 엑소좀 성분이 피부에 고스란히 전달되어 건강한 피부 컨디션을 유지하는데 도움을 줍니다. Key Point 02 고귀한 영양이 가득 담긴 이탈리아 화이트 트러플 앰플 땅 속의 보물 트러플 땅 속 깊은 곳에서 자라나 땅 속의 보물로 불리는 고귀한 화이트 트러플인 흰서양송로 성분이 지치고 힘 잃은 피부에 영양을 공급하여 탄탄하고 광채 나는 피부로 가꾸어 줍니다. 쫀쫀 영양/은은 광채 피부 에너지 UP 6가지 펩타이드로 꽉 잡는 피부 6종 펩타이드 콤플렉스 피부 탄력 향상 6가지 펩타이드 성분이 활력을 잃은 피부에 에너지를 불어 넣어 주어 탄탄하고 건강한 피부로 가꾸어 줍니다. Key Point 03 쫀쫀촉촉/보습 고농축 젤 앰플 쫀쫀한 영양감이 느껴지는 고농축 젤 타입의 앰플로 깊은 보습감과 은은한 광채를 선사해",
+      "자동_출처": {
+        "volume": "daiso_api:vsipPdDtl",
+        "functional": "daiso_api:vsipPdDtl"
+      },
+      "functional": "기능성 화장품(상세 소개문)",
+      "detail_images": [
+        "https://cdn.daisomall.co.kr/file/PD/20240127/3wLXFi8zRQKdesML5Ixv1048583_01_003wLXFi8zRQKdesML5Ixv.jpg/dims/resize/850/quality/100",
+        "https://cdn.daisomall.co.kr/file/PD/20240127/CzkxifUQ7b3fpSjl9XQe1048583_01_01CzkxifUQ7b3fpSjl9XQe.jpg/dims/resize/850/quality/100",
+        "https://cdn.daisomall.co.kr/file/PD/20240127/8tKFXD8ESmAomAtYYTn01048583_01_028tKFXD8ESmAomAtYYTn0.jpg/dims/resize/850/quality/100",
+        "https://cdn.daisomall.co.kr/file/PD/20240127/qVIwYB0TntttTOLSPW771048583_01_03qVIwYB0TntttTOLSPW77.jpg/dims/resize/850/quality/100",
+        "https://cdn.daisomall.co.kr/file/PD/20240127/RyTYSGHZ2ZrYWDLYFk0y1048583_01_04RyTYSGHZ2ZrYWDLYFk0y.jpg/dims/resize/850/quality/100",
+        "https://cdn.daisomall.co.kr/file/PD/20240127/cp9MsaFre45In3mTT7BL1048583_01_05cp9MsaFre45In3mTT7BL.jpg/dims/resize/850/quality/100"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1048583_00.jpg",
+      "gosi_images": [
+        "data/daiso_real/gosi_img/1048583_00.jpg",
+        "data/daiso_real/gosi_img/1048583_01.jpg",
+        "data/daiso_real/gosi_img/1048583_02.jpg",
+        "data/daiso_real/gosi_img/1048583_03.jpg",
+        "data/daiso_real/gosi_img/1048583_04.jpg",
+        "data/daiso_real/gosi_img/1048583_05.jpg"
+      ],
+      "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
+      "텍스트_미수집": [
+        "maker",
+        "ingredients"
+      ],
+      "다음_조치": "이미지 6장에서 비전으로 maker, ingredients 추출 필요"
     },
     "1062781": {
       "product_id": "1062781",
       "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-      "volume": "",
+      "volume": "50ml",
       "maker": "",
       "origin": "한국",
       "ingredients": "",
       "warnings": "",
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
-      "captured_at": "2026-09-12T22:45:04.863797+00:00"
+      "captured_at": "2026-09-12T22:53:31.542767+00:00",
+      "detail_blurb": "더마블록 피디알엔 콜라겐 크림 집중관리받은듯한 물광피부를 홈케어로 가능할까? 매끈쫀쫀, 속광탄력을 한번에! 연어유래 PDRN + 콜라겐 + 히알루론산 물광 퍼밍 피디알엔 콜라겐 크림 결은 부드럽게, 광은 짱짱하게 피디알엔 콜라겐 크림 미백, 주름개선 2중 기능성 CHECK POINT Point 1 집중관리받은듯한 물광탄력피부로 케어 Point 2 앰플품은 크림제형의 수분탄력 연어물광크림 PDRN, 콜라겐, 히알루론산 펩타이드 성분함유 물광 부스팅, 피부결 & 탄력 개선의 물광탄력 시너지 효과 연어유래 콜라겐이 이용된 탄력을 도와주는 성분으로 탱탱하고 매끈한 피부로 관리 TEXTURE 롤링하면 가볍게 앰플이 베어나오는 부드러운 크림제형 HOW TO USE 세안 후 아침, 저녁 스킨케어 마지막 단계에서 적당량을 취해 부드럽게 펴발라줍니다. PDRN LINE 연어유래 PDRN과 제품별 특화 성분이 함유된 물광탄력 라인 토너, 앰플, 크림 상품정보제공고시 제품명: 더마블록 피디알엔 콜라겐 크림 내용물의 용량 또는 중량: 50ml 제품 주요사양: 모든피부 사용기한(또는 개봉 후 사용기간): 86개월 사용방법: 세안 후 아침, 저녁 스킨케어 마지막 단계에서 적당량을 취해 부드럽게 펴발라줍니다. 화장품 제조업자 및 판매업자: (주)씨엠에스랩 제조국: 한국 기능성화장품: 미백, 주름개선 2중 기능성 화장품 소비자상담전화번호: 080-447-1820",
+      "자동_출처": {
+        "volume": "daiso_api:vsipPdDtl",
+        "functional": "daiso_api:vsipPdDtl"
+      },
+      "functional": "기능성 화장품(상세 소개문)",
+      "detail_images": [
+        "https://cdn.daisomall.co.kr/file/PD/20250404/ExzUHSR3Tu4zPyqbqHpu1062781_01_01ExzUHSR3Tu4zPyqbqHpu.jpg/dims/resize/850/quality/100"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1062781_00.jpg",
+      "gosi_images": [
+        "data/daiso_real/gosi_img/1062781_00.jpg"
+      ],
+      "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
+      "텍스트_미수집": [
+        "maker",
+        "ingredients"
+      ],
+      "다음_조치": "이미지 1장에서 비전으로 maker, ingredients 추출 필요"
     },
     "1041749": {
       "product_id": "1041749",
       "name": "식물원 병풀 클리어 앰플 30 ml",
-      "volume": "",
+      "volume": "30ml",
       "maker": "",
       "origin": "한국",
       "ingredients": "",
       "warnings": "",
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
-      "captured_at": "2026-09-12T22:45:16.200925+00:00"
+      "captured_at": "2026-09-12T22:53:35.407581+00:00",
+      "detail_blurb": "식물원 병풀 클리어 앰플 제품명: 식물원 병풀 클리어 앰플 30ml 용량: 30ml / 1.01fl.oz 제조국: 대한민국 제조업자: 코스맥스(주) 판매업자: (주)네이처리퍼블릭 제품 특징 예민하고 지친 피부를 산뜻하게 케어해주는 저자극 병풀 클리어 라인입니다. 병풀 추출물과 저자극 피부결 케어 성분을 함유하고 있습니다. 병풀을 담아내어 피부를 촉촉하게 케어해주는 앰플입니다. 워터 타입의 제형으로 피부 결을 산뜻하고 부드럽게 가꿔주는데 도움을 줍니다. 사용법 토너 사용 후, 적당량을 덜어 얼굴 전면에 부드럽게 펴 바르고 흡수시켜줍니다. 테스트 정보 피부 일차 자극 테스트 완료 시험기관: (주)글로벌의학연구센터 성인 31명 대상 시험기간: 2022.09.27 ~ 2022.09.29 제품 사이즈 높이: 약 9cm 너비: 약 4cm 제품의 사이즈는 재는 방법에 따라 약간의 오차가 있을 수 있습니다. 상품정보제공 고시 제품주요사양: 모든피부타입 제조번호및사용기간: 별도표기 기능성화장품: 해당없음 심사필 유무: 해당없음 전성분 정제수, 부틸렌글라이콜, 글리세린, 1,2-헥산다이올, 프로판다이올, 흰버드나무껍질추출물, 병풀추출물(100.1 ppm), 병풀잎추출물(100ppm), 병풀뿌리추출물(100 ppm), 티트리잎오일, C12-14알케스-12, 소듐폴리아크릴로알다이메틸타우레이트, 소듐시트레이트, 에틸헥실글리세린, 시트릭애씨드, 토코페롤, 에피갈로카테킨갈레이트, 살리실릭애씨드, 글라이콜릭애씨드, 카프릴릭/카프릭트라이글리세라이드, 매스틱검, 하이드로제네이티드레시틴, 잔탄검, 페네틸알코올 사용할 때의 주의사항 1. 화장품",
+      "자동_출처": {
+        "volume": "daiso_api:vsipPdDtl",
+        "functional": "daiso_api:vsipPdDtl"
+      },
+      "functional": "기능성 화장품(상세 소개문)",
+      "detail_images": [
+        "https://cdn.daisomall.co.kr/file/PD/20250925/vbizSf4WLbQXZ7PSqLw21041749_01_01vbizSf4WLbQXZ7PSqLw2.jpg/dims/resize/850/quality/100"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1041749_00.jpg",
+      "gosi_images": [
+        "data/daiso_real/gosi_img/1041749_00.jpg"
+      ],
+      "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
+      "텍스트_미수집": [
+        "maker",
+        "ingredients"
+      ],
+      "다음_조치": "이미지 1장에서 비전으로 maker, ingredients 추출 필요"
     },
     "1049271": {
       "product_id": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-      "volume": "",
+      "volume": "300ml",
       "maker": "",
       "origin": "한국",
       "ingredients": "",
       "warnings": "",
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
-      "captured_at": "2026-09-12T22:45:27.427993+00:00"
+      "captured_at": "2026-09-12T22:53:39.375154+00:00",
+      "detail_blurb": "**VT 시카 카밍 토너** 매일매일, 순하게 만나는 초록빛 진정 수분 토너 **제품 설명** 산뜻한 수분·진정 토너로, 진정에 효과적인 성분을 까다롭게 선별하여 예민해진 피부를 편안하고 건강하게 가꾸어주는 제품입니다. **주요 성분** 히알루론산 - 수분 공급 제주산 병풀추출물 - 진정&수분 공급, 보습 강화 판테놀 - 수분장벽강화, 피부진정 케어 글루코노락톤 PHA - 피부 결 정돈 소듐하이알루로네이트 건조하고 여린 피부의 진정을 위한 청정지역 제주산 병풀추출물에 수분 케어를 위한 히알루론산이 함유되어 건조하고 메마른 피부에 수분을 공급하고 편안한 피부를 완성합니다. **3-in-1 케어 활용법** 닦토 - 피부결 정돈 아침 저녁 세안 후, 화장솜에 토너를 적당히 적셔 피부결을 따라 가볍게 닦아줍니다. 흡토 - 수분 진정 세안 후, 손이나 얼굴에 적당량을 덜어 부드럽게 펴 발라 가볍게 두드리듯 흡수시켜줍니다. 토너팩 - 집중 케어 화장솜에 토너를 덜어 충분히 적신 후, 수분&진정 집중 케어가 필요한 부위에 5분간 얹어줍니다. **제품 특성** 진정 효과: 높음 끈적임: 적음 유분감: 적음 결 케어: 우수 피부에 풍부한 수분을 공급하지만, 끈적임 없이 산뜻하게 흡수되는 토너 제형입니다. **사용 방법** 세안 후 화장솜이나 손에 적당량 덜어 얼굴 안쪽에서 바깥쪽으로 피부 결을 따라 고르게 펴 발라 흡수시켜 줍니다. **상품 정보** 제품명: VT 시카 카밍 토너 300ml 용량: 10.14 fl. oz. / 300 mL 제품 주요 사양: 모든 피부 타입 사용기한: 개봉 전 36개월, 개봉 후 12개월 제조업",
+      "자동_출처": {
+        "volume": "daiso_api:vsipPdDtl",
+        "functional": "daiso_api:vsipPdDtl"
+      },
+      "functional": "기능성 화장품(상세 소개문)",
+      "detail_images": [
+        "https://cdn.daisomall.co.kr/file/PD/20260403/1ePKgcvrCt2MafUTfJKT1049271_01_011ePKgcvrCt2MafUTfJKT.jpg/dims/resize/850/quality/100",
+        "https://cdn.daisomall.co.kr/file/PD/20260403/A2SJLfp02PVT889BcpYh1049271_01_02A2SJLfp02PVT889BcpYh.jpg/dims/resize/850/quality/100"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1049271_00.jpg",
+      "gosi_images": [
+        "data/daiso_real/gosi_img/1049271_00.jpg",
+        "data/daiso_real/gosi_img/1049271_01.jpg"
+      ],
+      "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
+      "텍스트_미수집": [
+        "maker",
+        "ingredients"
+      ],
+      "다음_조치": "이미지 2장에서 비전으로 maker, ingredients 추출 필요"
     },
     "1041403": {
       "product_id": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "volume": "",
+      "volume": "150ml",
       "maker": "",
       "origin": "한국",
       "ingredients": "",
       "warnings": "",
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "captured_at": "2026-09-12T22:45:38.631546+00:00"
+      "captured_at": "2026-09-12T22:53:42.900481+00:00",
+      "detail_blurb": "재구매로 인증하는 누적판매량 50만 병 장군포항 매번 주문해서 사용중이에요 모너레으로 최고에요 ⌀20mmx⌀20mm 재구매했어요 피부 뒤집어졌을 때 이거 쓰고 관다피리는 피부 피지 분비로 유기농 어국내산 테스트 완료 쿠에르치트린이라는 다량으로 함유되어 있어 피지생성억제에 도움을 주며, 유수분케어 및 노매물관리에 도움을 줍니다 고령군에서 가정성 스레 지배한 예민한 피부 100% 유기농 어성초잎 000번 이상의 절구질 완성한 유기농원물 숙성공법이란? 파괴는 최소화입니다. 어성초의 효능은 순수한 여성초 수 완성 10,000회 이상 절구질과 숙성을 통한 항산화효과 극대화 240시간 더 좋아진 텍스처로 사용품으로 걱정없이, 저자극 안심 8년 동안 농약없이 깨끗한 땅에서 자란 유기농 어성초잎 유기농 원물을 사용한 비건토너 매일 부담이 적은 사용감을 전합 EWG GREEN EWG 기준 그런 등급 원보를 선별에 담았습니 최적의 피부 상태를 유지할 수 있도록 피부 본연의 pH에 가장 가깝게 만들었습니다. 다양하게 활용 가능 지속 기능한 움을 위하여 FSC 인증 패키지와 용기 스스 제거 후 분리배출 세척 후 분리배출 제거 후 분류 FSC 인증 자주 묻는 질문 유통기한은 어떻게 되나요? 제조일로부터 3년이며, 개봉 후에는 6개월 이내 사용을 권장드립니다. 제품 하단에 유통기한 별도 표기되어 있습니다. 보관은 어떻게 해야 하나요? 온도가 높고 직사광선이 들어오는 곳에서 변질 우려가 있으므로 직사광선을 피하여 서늘한 곳에서 보관해주시기 바랍니다. 어린이 청소년 임산부도 사용 가능한가요? 비건토너는 전성분 EWG 등급으로 어린이, 청",
+      "자동_출처": {
+        "volume": "product_name"
+      },
+      "detail_images": [
+        "https://cdn.daisomall.co.kr/file/PD/20260710/s0I3I33b4XU82ba0cRxn1041403_01_02s0I3I33b4XU82ba0cRxn.jpg/dims/resize/850/quality/100"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1041403_00.jpg",
+      "gosi_images": [
+        "data/daiso_real/gosi_img/1041403_00.jpg"
+      ],
+      "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
+      "텍스트_미수집": [
+        "maker",
+        "ingredients"
+      ],
+      "다음_조치": "이미지 1장에서 비전으로 maker, ingredients 추출 필요"
     },
     "1045421": {
       "product_id": "1045421",
       "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
-      "volume": "",
+      "volume": "15g",
       "maker": "",
       "origin": "한국",
       "ingredients": "",
       "warnings": "",
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
-      "captured_at": "2026-09-12T22:45:49.889325+00:00"
+      "captured_at": "2026-09-12T22:53:46.830813+00:00",
+      "detail_blurb": "DEWY CUSHION 태그듀이스킨쿠션 SPF50+/PA+++ 빛의 손길이 닿다 그림자의 절묘한 조화 데일리음영 메이크업 이슬을 머금은 금은듯한 투명함으로 화사하고 촉촉하게 DEWY GLOW RADIANT LAYERING 히알루론산을 촉촉히 머금어 발 블레이어링으로 어느 각도에서도 빛나는 쌓을수록 반사광채를 내뿜는 유리알 커버 MOISTFIXING SKINFIT FORMULA 피부결을 따라 식물유래오일과 수분이 촉촉하게 밀착되어 블렌딩되어 내 피부처럼 타고난듯 투명한 피부 펴발리는 얇은 밀착감 GLOW LAYERING 레이어링할수록 빛나는 수분광 피부 커버UP! 광채UP! 밀착UP! SKINCARING EFFECT 보습 성분들이 함유되어 메이크업 중에도 마르지 않는 스킨케어효과 COLOR CHART 01 PALELIGHT 02 NDELIGHT ON THE SKIN 01 PALELIGHT 02 NDELIGHT MOISTURE FITTING PUFF 두드릴수록 광채감이 살아나는 밀착수분핏퍼프로 섬세하고 부드럽게 커버 제품정보 제품명 태그듀 스킨쿠션2호 누드라이트 (대백, 주름개선, 자외선 차단 기능성화장품) 제조사및 책임판매업자 (주)코스메카코리아/(주)투쿨포스쿨 사용기한 개봉전 30개월/개봉후 12개월 사용할때의 주의사항 상처가 있는 부위등에는 사용을 자재할것 보관및 취급시 주의사항 어린이 손이 닿지 않는곳에 보관할것 자상담관련전화번호 1566-3128",
+      "functional": "기능성 화장품(상세 소개문)",
+      "자동_출처": {
+        "functional": "daiso_api:vsipPdDtl",
+        "volume": "product_name"
+      },
+      "detail_images": [
+        "https://cdn.daisomall.co.kr/file/PD/20231221/D8xcNaxuTMnIN17sWMhc1045421_01_00D8xcNaxuTMnIN17sWMhc.jpg/dims/resize/850/quality/100"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1045421_00.jpg",
+      "gosi_images": [
+        "data/daiso_real/gosi_img/1045421_00.jpg"
+      ],
+      "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
+      "텍스트_미수집": [
+        "maker",
+        "ingredients"
+      ],
+      "다음_조치": "이미지 1장에서 비전으로 maker, ingredients 추출 필요"
     },
     "1059834": {
       "product_id": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "volume": "",
+      "volume": "28g",
       "maker": "",
       "origin": "한국",
       "ingredients": "",
       "warnings": "",
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
-      "captured_at": "2026-09-12T22:46:01.122370+00:00"
+      "captured_at": "2026-09-12T22:53:51.375112+00:00",
+      "detail_blurb": "수분과학이 담긴 데일리더마 코스메틱 셀더마 daily 마스크팩 한 장으로 누리는 특별한 DAILY 홈케어 앰플 마스크가 천천히 녹아드는 핵심성분의 흡수효과를 눈으로 확인하세요! 셀더마데일리 트랜스포밍 마스크 3종 퍼밍 콜라겐 마스크 - 탄력UP 비타 토닝 마스크 - 브라이트닝UP 아줄렌 카밍 마스크 - 진정UP 퍼밍 콜라겐 마스크 주름개선기능성화장품 단 한장으로! 속부터 올라오는 푸석함 데일리 스킨케어로는 부족한 영양감과 보습감 시간이 지날수록 신경쓰이는 탄력 싱그러운 새싹 유래 유사 콜라겐 함유로 건강한 피부 컨디션 케어 하이드롤라이즈드식물성단백질 녹두싹추출물 브로콜리싹추출물 유채싹추출물 POINT01 어리고 푸른 새싹의 발아 에너지를 그대로 담아낸 유사 콜라겐이 피부를 탱탱하게 POINT02 주름개선기능성성분 아데노신 더하기 탄력시너지UP! 안티에이징 대표 성분 아데노신이 주름을 완화하고 탄력을 부여 POINT03 앰플 한통을 그대로 굳힌 붙이는 앰플 마스크 핵심성분 그대로전달 촉촉한하이드로겔 마스크가 피부에 들뜸없이 밀착 일차자극 테스트 완료 피부자극 테스트 완료 피부 저자극 테스트 완료 인체적용시험 완료 HOW TO USE 1) 세안 후 피부결을 정돈한 후 상, 하로 분리된 양쪽 필름을 제거해 줍니다. 2) 상단은 눈을 중심으로, 하단은 입을 중심으로 맞추어 얼굴에 밀착시켜 줍니다. 3) 약 20~40분 후 떼어내고 피부에 남아있는 에센스를 흡수시켜 줍니다. 특별한 효과를 경험 하시려면 1~2시간 정도 붙여 주십시오 개인차이 있을 수 있음 상품정보제공고시 제품명: 셀더마데일리 트랜스포밍 퍼밍 콜라겐 마",
+      "자동_출처": {
+        "volume": "daiso_api:vsipPdDtl",
+        "functional": "daiso_api:vsipPdDtl"
+      },
+      "functional": "기능성 화장품(상세 소개문)",
+      "detail_images": [
+        "https://cdn.daisomall.co.kr/file/PD/20250325/xUFjJz1qBRYRV84yZJtU1059834_01_01xUFjJz1qBRYRV84yZJtU.jpg/dims/resize/850/quality/100",
+        "https://cdn.daisomall.co.kr/file/PD/20250325/9nE4FUUe34t0cwPoJinY1059834_01_029nE4FUUe34t0cwPoJinY.gif",
+        "https://cdn.daisomall.co.kr/file/PD/20250325/klxyeV7XQSYkU9pBxDQ01059834_01_03klxyeV7XQSYkU9pBxDQ0.jpg/dims/resize/850/quality/100"
+      ],
+      "gosi_image": "data/daiso_real/gosi_img/1059834_00.jpg",
+      "gosi_images": [
+        "data/daiso_real/gosi_img/1059834_00.jpg",
+        "data/daiso_real/gosi_img/1059834_01.jpg",
+        "data/daiso_real/gosi_img/1059834_02.jpg"
+      ],
+      "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
+      "텍스트_미수집": [
+        "maker",
+        "ingredients"
+      ],
+      "다음_조치": "이미지 3장에서 비전으로 maker, ingredients 추출 필요"
     }
   },
   "updated_at": "2026-09-12T10:08:50Z",
   "source": "https://www.daisomall.co.kr",
   "schema_version": 2,
-  "last_auto_run": "2026-09-12T22:46:01.122390+00:00"
+  "last_auto_run": "2026-09-12T22:53:51.375169+00:00",
+  "수집_설명": "공식 고시 API는 대부분 '상세페이지 참조'. 사용자가 보는 고시 표는 상품설명 더보기 상세 이미지. 이미지는 data/daiso_real/gosi_img/ 에 저장. 전성분·제조사는 비전 추출 또는 수동 입력이 필요하다.",
+  "vision_deferred": [],
+  "vision_status": "ok",
+  "vision_note": "용량·전성분은 상세 이미지에만 있어 Gemini 비전으로 읽었다. 읽기이지 생성이 아니다. 표에 없는 항목은 빈칸. verified 는 사람이 원본 이미지와 대조한 뒤 true 로 바꾼다.",
+  "vision_failures": [
+    {
+      "pd_no": "1048583",
+      "reason": "gemini-2.5-flash-lite RuntimeError: HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash-lite is no longer available to "
+    },
+    {
+      "pd_no": "1062781",
+      "reason": "gemini-2.5-flash-lite RuntimeError: HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash-lite is no longer available to "
+    },
+    {
+      "pd_no": "1041749",
+      "reason": "gemini-2.5-flash-lite RuntimeError: HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash-lite is no longer available to "
+    },
+    {
+      "pd_no": "1049271",
+      "reason": "gemini-2.5-flash-lite RuntimeError: HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash-lite is no longer available to "
+    },
+    {
+      "pd_no": "1041403",
+      "reason": "gemini-2.5-flash-lite RuntimeError: HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash-lite is no longer available to "
+    },
+    {
+      "pd_no": "1045421",
+      "reason": "gemini-2.5-flash-lite RuntimeError: HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash-lite is no longer available to "
+    },
+    {
+      "pd_no": "1059834",
+      "reason": "gemini-2.5-flash-lite RuntimeError: HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash-lite is no longer available to "
+    }
+  ],
+  "gosi_ok_count": 0,
+  "vision_at": "2026-09-12T22:55:42.029383+00:00"
 }
