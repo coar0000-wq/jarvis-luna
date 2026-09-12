@@ -1,19 +1,6 @@
 {
-  "items": [
-    {
-      "id": "gosi-2026-09-12-001",
-      "title": "2026년도 국가공무원 9급 공채 필기시험 합격자 발표",
-      "agency": "인사혁신처",
-      "published_at": "2026-09-11",
-      "category": "합격자발표",
-      "evidence": {
-        "source_url": "https://www.gosi.kr/announce/2026-9th-pass",
-        "collected_at": "2026-09-12T07:02:35.668399Z",
-        "raw_snippet": "2026년도 9급 공채 필기시험 합격자 5,432명 발표 - 인사혁신처 공고 제2026-123호",
-        "method": "gosi_kr_crawler"
-      }
-    }
-  ],
+  "items": {},
   "updated_at": "2026-09-12T07:02:35.668410Z",
-  "source": "https://www.gosi.kr"
-}
+  "source": "https://www.gosi.kr",
+  "last_auto_run": "2026-09-12T09:49:27.301309+00:00"
+}\n

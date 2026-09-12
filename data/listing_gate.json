@@ -1,4 +1,359 @@
 {
-  "count": 0,
-  "items": []
+  "schema_version": 2,
+  "generated_at": "2026-09-12T09:49:27.447968+00:00",
+  "source": "data/daiso_real/shopify_s_recommendations.json",
+  "total": 7,
+  "ready": 0,
+  "counts": {
+    "copy": 7,
+    "gosi": 1,
+    "price": 7,
+    "legal": 0
+  },
+  "blockers": {
+    "gosi": 6,
+    "legal": 7
+  },
+  "count": 7,
+  "items": [
+    {
+      "rank": 1,
+      "pd_no": "1048583",
+      "product_id": "1048583",
+      "name": "드롭비 탄탄 광채 앰플 40 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 97,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048583",
+      "copy": {
+        "title": "Drop Be Firming Glow Ampoule 40 ml",
+        "description_html": "<p>Discover the Drop Be Firming Glow Ampoule in a convenient 40 ml size, designed to enhance your daily skincare routine. This facial ampoule helps deliver a radiant and glowing appearance to the skin with every application.</p><p>Incorporate this lightweight formula into your morning or evening regimen for a smoother-looking and more luminous complexion. Suitable for effortless everyday use.</p>",
+        "seo_title": "Drop Be Firming Glow Ampoule 40 ml",
+        "seo_description": "Shop the Drop Be Firming Glow Ampoule 40 ml for a radiant, glowing complexion. Lightweight daily facial ampoule for smooth and luminous skin.",
+        "tags": [
+          "drop-be",
+          "glow-ampoule",
+          "facial-ampoule",
+          "korean-skincare",
+          "brightening-ampoule",
+          "firming-ampoule",
+          "face-serum"
+        ],
+        "product_type": "Face Serum"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "net_contents": "40 ml",
+        "manufacturer": "주식회사 씨엔에프 / (주)더샘인터내셔날",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "Water, Glycerin, Propanediol, Butylene Glycol, Betaine, Isopentyldiol, Niacinamide, 1,2-Hexanediol, Tuber Magnatum Extract, Centella Asiatica Leaf Extract, Acetyl Hexapeptide-8...",
+        "gosi_ok": true
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 47.4,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
+      },
+      "ready": false,
+      "blocked_by": [
+        "legal"
+      ]
+    },
+    {
+      "rank": 2,
+      "pd_no": "1062781",
+      "product_id": "1062781",
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 93,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
+      "copy": {
+        "title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
+        "description_html": "<p>Discover the nourishing benefits of Cell Fusion C Derma Block PDRN Collagen Cream. This 50 ml facial cream is formulated to help smooth the look of fine lines for a more refreshed and glowing appearance.</p><p>Suitable for your daily skincare routine, it helps maintain a hydrated and comfortable feel throughout the day. Add this effortless step to your routine for a brighter-looking complexion.</p>",
+        "seo_title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
+        "seo_description": "Shop Cell Fusion C Derma Block PDRN Collagen Cream 50ml. Hydrating facial cream for a smoother-looking and brighter complexion. Perfect for daily skincare.",
+        "tags": [
+          "cell-fusion-c",
+          "pdrn-cream",
+          "collagen-cream",
+          "korean-skincare",
+          "face-cream",
+          "hydrating-cream"
+        ],
+        "product_type": "Face Cream"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "gosi_ok": false
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 47.4,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
+      },
+      "ready": false,
+      "blocked_by": [
+        "gosi",
+        "legal"
+      ]
+    },
+    {
+      "rank": 3,
+      "pd_no": "1041749",
+      "product_id": "1041749",
+      "name": "식물원 병풀 클리어 앰플 30 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 93,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
+      "copy": {
+        "title": "Sikmulnara Centella Clear Ampoule 30ml",
+        "description_html": "<p>Discover the Sikmulnara Centella Clear Ampoule in a convenient 30 ml size. Formulated with centella, this lightweight face serum helps soothe and care for your skin.</p><p>Add this refreshing clear ampoule to your daily skincare routine for a balanced and hydrated complexion.</p>",
+        "seo_title": "Sikmulnara Centella Clear Ampoule 30ml | K-Beauty Serum",
+        "seo_description": "Shop the Sikmulnara Centella Clear Ampoule 30ml. A soothing Korean skincare serum formulated with centella for a balanced complexion.",
+        "tags": [
+          "sikmulnara",
+          "centella-ampoule",
+          "korean-skincare",
+          "face-serum",
+          "k-beauty",
+          "clear-ampoule",
+          "soothing-serum"
+        ],
+        "product_type": "Face Serum"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "gosi_ok": false
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 50.4,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "missing",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "ready": false,
+      "blocked_by": [
+        "gosi",
+        "legal"
+      ]
+    },
+    {
+      "rank": 4,
+      "pd_no": "1049271",
+      "product_id": "1049271",
+      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 90,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
+      "copy": {
+        "title": "VT Cica Calming Toner 300 ml",
+        "description_html": "<p>Discover the refreshing hydration of VT Cica Calming Toner in a generous 300 ml size. Designed to help soothe and refresh your skin as part of your daily skincare routine.</p><p>Apply gently after cleansing to help maintain a balanced and comfortable complexion throughout the day.</p>",
+        "seo_title": "VT Cica Calming Toner 300 ml",
+        "seo_description": "Refresh and hydrate your skin with VT Cica Calming Toner 300 ml. A soothing toner designed for daily skincare routines.",
+        "tags": [
+          "vt-cica",
+          "cica-toner",
+          "korean-toner",
+          "calming-toner",
+          "facial-toner",
+          "k-beauty",
+          "skincare"
+        ],
+        "product_type": "Facial Toner"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "gosi_ok": false
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 32.4,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
+      },
+      "ready": false,
+      "blocked_by": [
+        "gosi",
+        "legal"
+      ]
+    },
+    {
+      "rank": 5,
+      "pd_no": "1041403",
+      "product_id": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 88,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "copy": {
+        "title": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
+        "description_html": "<p>Discover the Chaebi Gongan Heartleaf Extract Vegan Toner, designed to refresh and hydrate your daily skincare routine. Formulated with heartleaf extract, this lightweight toner helps balance and soothe your skin for a comfortable feel.</p><p>Suitable for everyday use, simply apply an appropriate amount to the skin after cleansing and gently pat until absorbed. Enjoy a clean, hydrated complexion with this simple vegan formula.</p>",
+        "seo_title": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
+        "seo_description": "Refresh and hydrate your skin with Chaebi Gongan Heartleaf Extract Vegan Toner 150ml. A soothing daily toner formulated with heartleaf extract.",
+        "tags": [
+          "k-beauty",
+          "vegan-toner",
+          "heartleaf-toner",
+          "facial-toner",
+          "korean-skincare",
+          "hydrating-toner"
+        ],
+        "product_type": "Face Toner"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "gosi_ok": false
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 44.4,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
+      },
+      "ready": false,
+      "blocked_by": [
+        "gosi",
+        "legal"
+      ]
+    },
+    {
+      "rank": 6,
+      "pd_no": "1045421",
+      "product_id": "1045421",
+      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 88,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
+      "copy": {
+        "title": "Too Cool For School Tag Dewy Skin Cushion 15g Nude Light",
+        "description_html": "<p>Discover the Tag Dewy Skin Cushion in Nude Light, sized at 15g for your daily makeup routine. This cushion helps create a smooth, dewy-looking complexion with a lightweight finish.</p><p>Designed for easy application, it delivers a fresh appearance and sits comfortably on the skin throughout the day.</p>",
+        "seo_title": "Tag Dewy Skin Cushion 15g Nude Light",
+        "seo_description": "Shop the Tag Dewy Skin Cushion 15g in Nude Light for a smooth, dewy-looking complexion with a lightweight finish for daily wear.",
+        "tags": [
+          "k-beauty",
+          "cushion-foundation",
+          "dewy-skin",
+          "makeup",
+          "nude-light",
+          "face-makeup"
+        ],
+        "product_type": "Cushion Foundation"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "gosi_ok": false
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 50.4,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "missing",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "ready": false,
+      "blocked_by": [
+        "gosi",
+        "legal"
+      ]
+    },
+    {
+      "rank": 7,
+      "pd_no": "1059834",
+      "product_id": "1059834",
+      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "category": "마스크팩",
+      "price_krw": 2000,
+      "shopify_score": 87,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
+      "copy": {
+        "title": "Celderma Daily Transforming Firming Collagen Mask 28g",
+        "description_html": "<p>Discover the Celderma Daily Transforming Firming Collagen Mask, designed to give your skin a nourished and revitalized look. Each 28g sheet mask delivers convenient daily care for a smoother-looking complexion.</p><p>Simply apply to clean skin, relax, and let the formula help enhance your natural glow. Perfect for incorporating into your everyday beauty routine.</p>",
+        "seo_title": "Celderma Daily Transforming Firming Collagen Mask 28g",
+        "seo_description": "Shop the Celderma Daily Transforming Firming Collagen Mask 28g. Experience a daily sheet mask designed for a smooth, bright, and nourished complexion.",
+        "tags": [
+          "celderma",
+          "sheet-mask",
+          "collagen-mask",
+          "k-beauty",
+          "facial-mask",
+          "skincare",
+          "firming-mask"
+        ],
+        "product_type": "Sheet Mask"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "gosi_ok": false
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 60.7,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
+      },
+      "ready": false,
+      "blocked_by": [
+        "gosi",
+        "legal"
+      ]
+    }
+  ]
 }

@@ -63,7 +63,7 @@
         },
         "kr_functional": {
           "ok": true,
-          "detail": "한국 기능성 표기 있음 - 영문에 옮기지 말 것",
+          "detail": "해당 없음",
           "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
         },
         "otc_sunscreen": {
@@ -71,8 +71,8 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
+          "ok": false,
+          "detail": "미확보: ingredients, volume, maker, origin"
         }
       },
       "hs_code": "3304.99",
@@ -80,11 +80,13 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [],
-      "needs_attention": true,
-      "auto_checked_at": "2026-09-11T22:41:46.277769+00:00",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "auto_blockers": [
+        "label_fields"
+      ],
+      "needs_attention": false,
+      "auto_checked_at": "2026-09-12T09:49:27.402951+00:00",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -98,7 +100,7 @@
         },
         "kr_functional": {
           "ok": true,
-          "detail": "한국 기능성 표기 있음 - 영문에 옮기지 말 것",
+          "detail": "해당 없음",
           "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
         },
         "otc_sunscreen": {
@@ -106,8 +108,8 @@
           "detail": "SPF 제품 - 미국에서 OTC 의약품. Drug Facts 라벨 필요"
         },
         "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
+          "ok": false,
+          "detail": "미확보: ingredients, volume, maker, origin"
         }
       },
       "hs_code": "3304.99",
@@ -115,11 +117,13 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [],
+      "auto_blockers": [
+        "label_fields"
+      ],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-11T22:41:46.277823+00:00",
+      "auto_checked_at": "2026-09-12T09:49:27.402998+00:00",
       "hard_block": true,
-      "hard_block_reason": "SPF 표기 - 미국 OTC 의약품이라 라벨 요건이 별도",
+      "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 ''",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -141,8 +145,8 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
+          "ok": false,
+          "detail": "미확보: ingredients, volume, maker, origin"
         }
       },
       "hs_code": "3304.99",
@@ -150,11 +154,13 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [],
+      "auto_blockers": [
+        "label_fields"
+      ],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-11T22:41:46.277858+00:00",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "auto_checked_at": "2026-09-12T09:49:27.403041+00:00",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -168,7 +174,7 @@
         },
         "kr_functional": {
           "ok": true,
-          "detail": "한국 기능성 표기 있음 - 영문에 옮기지 말 것",
+          "detail": "해당 없음",
           "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
         },
         "otc_sunscreen": {
@@ -176,8 +182,8 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
+          "ok": false,
+          "detail": "미확보: ingredients, volume, maker, origin"
         }
       },
       "hs_code": "3304.99",
@@ -185,11 +191,13 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [],
-      "needs_attention": true,
-      "auto_checked_at": "2026-09-11T22:41:46.277892+00:00",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "auto_blockers": [
+        "label_fields"
+      ],
+      "needs_attention": false,
+      "auto_checked_at": "2026-09-12T09:49:27.403057+00:00",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -203,7 +211,7 @@
         },
         "kr_functional": {
           "ok": true,
-          "detail": "한국 기능성 표기 있음 - 영문에 옮기지 말 것",
+          "detail": "해당 없음",
           "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
         },
         "otc_sunscreen": {
@@ -211,8 +219,8 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
+          "ok": false,
+          "detail": "미확보: ingredients, volume, maker, origin"
         }
       },
       "hs_code": "3304.99",
@@ -220,11 +228,13 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [],
-      "needs_attention": true,
-      "auto_checked_at": "2026-09-11T22:41:46.277933+00:00",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "auto_blockers": [
+        "label_fields"
+      ],
+      "needs_attention": false,
+      "auto_checked_at": "2026-09-12T09:49:27.403072+00:00",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -238,7 +248,7 @@
         },
         "kr_functional": {
           "ok": true,
-          "detail": "한국 기능성 표기 있음 - 영문에 옮기지 말 것",
+          "detail": "해당 없음",
           "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
         },
         "otc_sunscreen": {
@@ -246,8 +256,8 @@
           "detail": "SPF 제품 - 미국에서 OTC 의약품. Drug Facts 라벨 필요"
         },
         "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
+          "ok": false,
+          "detail": "미확보: ingredients, volume, maker, origin"
         }
       },
       "hs_code": "3304.99",
@@ -255,11 +265,13 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [],
+      "auto_blockers": [
+        "label_fields"
+      ],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-11T22:41:46.277968+00:00",
+      "auto_checked_at": "2026-09-12T09:49:27.403085+00:00",
       "hard_block": true,
-      "hard_block_reason": "SPF 표기 - 미국 OTC 의약품이라 라벨 요건이 별도",
+      "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 ''",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -273,7 +285,7 @@
         },
         "kr_functional": {
           "ok": true,
-          "detail": "한국 기능성 표기 있음 - 영문에 옮기지 말 것",
+          "detail": "해당 없음",
           "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
         },
         "otc_sunscreen": {
@@ -281,8 +293,8 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
+          "ok": false,
+          "detail": "미확보: ingredients, volume, maker, origin"
         }
       },
       "hs_code": "3304.99",
@@ -290,11 +302,13 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [],
-      "needs_attention": true,
-      "auto_checked_at": "2026-09-11T22:41:46.278005+00:00",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "auto_blockers": [
+        "label_fields"
+      ],
+      "needs_attention": false,
+      "auto_checked_at": "2026-09-12T09:49:27.403125+00:00",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '마스크팩'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -316,8 +330,8 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
+          "ok": false,
+          "detail": "미확보: ingredients, volume, maker, origin"
         }
       },
       "hs_code": "3304.99",
@@ -325,11 +339,13 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [],
+      "auto_blockers": [
+        "label_fields"
+      ],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-11T22:41:46.278048+00:00",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "auto_checked_at": "2026-09-12T09:49:27.403177+00:00",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -343,7 +359,7 @@
         },
         "kr_functional": {
           "ok": true,
-          "detail": "한국 기능성 표기 있음 - 영문에 옮기지 말 것",
+          "detail": "해당 없음",
           "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
         },
         "otc_sunscreen": {
@@ -351,8 +367,8 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
+          "ok": false,
+          "detail": "미확보: ingredients, volume, maker, origin"
         }
       },
       "hs_code": "3304.99",
@@ -360,11 +376,13 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [],
-      "needs_attention": true,
-      "auto_checked_at": "2026-09-11T22:41:46.278085+00:00",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "auto_blockers": [
+        "label_fields"
+      ],
+      "needs_attention": false,
+      "auto_checked_at": "2026-09-12T09:49:27.403219+00:00",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -386,8 +404,8 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
+          "ok": false,
+          "detail": "미확보: ingredients, volume, maker, origin"
         }
       },
       "hs_code": "3304.99",
@@ -395,11 +413,13 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [],
+      "auto_blockers": [
+        "label_fields"
+      ],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-11T22:41:46.278135+00:00",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "auto_checked_at": "2026-09-12T09:49:27.403235+00:00",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '마스크팩'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -421,8 +441,8 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
+          "ok": false,
+          "detail": "미확보: ingredients, volume, maker, origin"
         }
       },
       "hs_code": "3305",
@@ -430,11 +450,13 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [],
+      "auto_blockers": [
+        "label_fields"
+      ],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-11T22:41:46.278172+00:00",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "auto_checked_at": "2026-09-12T09:49:27.403247+00:00",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '헤어케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -456,8 +478,8 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
+          "ok": false,
+          "detail": "미확보: ingredients, volume, maker, origin"
         }
       },
       "hs_code": "3304.99",
@@ -465,20 +487,22 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [],
+      "auto_blockers": [
+        "label_fields"
+      ],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-11T22:41:46.278211+00:00",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "auto_checked_at": "2026-09-12T09:49:27.403258+00:00",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '클렌징'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     }
   },
   "auto_summary": {
     "checked": 12,
-    "clean": 12,
-    "needs_attention": 7,
+    "clean": 0,
+    "needs_attention": 2,
     "pass": 0
   },
-  "auto_checked_at": "2026-09-11T22:41:46.278218+00:00"
+  "auto_checked_at": "2026-09-12T09:49:27.403265+00:00"
 }
