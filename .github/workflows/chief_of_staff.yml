@@ -1,13 +1,9 @@
-name: Chief of Staff Auto-Fix
+name: 참모장 자동 수정
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'
   workflow_dispatch:
-
-concurrency:
-  group: jarvis-main-writer-${{ github.ref }}
-  cancel-in-progress: false
+  schedule:
+    - cron: "*/30 * * * *"
 
 permissions:
   contents: write
@@ -15,64 +11,62 @@ permissions:
 jobs:
   chief-auto-fix:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
 
     steps:
-      - name: Checkout latest main
+      - name: 저장소 체크아웃
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Set up Python
+      - name: Python 설치
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      - name: Show current team status
+      - name: 의존성 설치
         run: |
-          if [ -f data/team_status.json ]; then
-            cat data/team_status.json | python -m json.tool || true
-            python3 -c "import json; d=json.load(open('data/team_status.json', encoding='utf-8')); print('이상:', len([r for r in d.get('reports', []) if r.get('status') == '이상']))"
-          else
-            echo "data/team_status.json not found"
-          fi
+          python -m pip install --upgrade pip
 
-      - name: Run Chief of Staff auto-fix
+      - name: Auto Fix 실행
         run: |
-          python chief_of_staff.py || true
-          python gosi_collector.py || true
-          python product_discovery.py || true
-          python generate_dashboard_runtime.py || true
+          python scripts/generate_dashboard_runtime.py || true
 
-      - name: Check FAIL after auto-fix
-        run: |
-          if [ -f data/team_status.json ]; then
-            python3 -c "import json; d=json.load(open('data/team_status.json', encoding='utf-8')); print('FAIL Count after fix:', len([r for r in d.get('reports', []) if r.get('status') == '이상']))"
-          else
-            echo "data/team_status.json not found"
-          fi
-
-          if [ -f data/chief_of_staff_log.json ]; then
-            cat data/chief_of_staff_log.json
-          else
-            echo "no log"
-          fi
-
-      - name: Commit and push fixed data
+      - name: Commit & Push (JSON 충돌 자동 해결)
+        shell: bash
         run: |
           git config user.name "JARVIS"
-          git config user.email "jarvis@luna.bot"
+          git config user.email "actions@github.com"
 
-          git add -A
+          git add .
 
           if git diff --cached --quiet; then
-            echo "nothing to commit"
+            echo "변경사항 없음"
             exit 0
           fi
 
-          git commit -m "fix: auto-fix FAIL - $(date +%Y-%m-%d) - JARVIS auto"
+          git commit -m "fix: auto-fix $(date +'%Y-%m-%d %H:%M')"
 
           git fetch origin main
-          git rebase origin/main
+
+          # 충돌이 자주 나는 생성 파일은 항상 원격 최신 사용
+          git checkout origin/main -- dashboard_runtime.json || true
+          git checkout origin/main -- data/gosi.json || true
+          git checkout origin/main -- data/products.json || true
+
+          git add dashboard_runtime.json data/gosi.json data/products.json
+
+          git rebase origin/main || {
+            git rebase --abort
+            echo "Rebase 충돌 → 원격 기준으로 재시도"
+
+            git reset --soft HEAD~1
+
+            git checkout origin/main -- dashboard_runtime.json
+            git checkout origin/main -- data/gosi.json
+            git checkout origin/main -- data/products.json
+
+            git add .
+            git commit -m "fix: auto-fix $(date +'%Y-%m-%d %H:%M')"
+          }
 
           git push origin HEAD:main
