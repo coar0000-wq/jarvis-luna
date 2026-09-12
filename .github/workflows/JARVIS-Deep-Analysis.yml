@@ -23,9 +23,10 @@ permissions:
   contents: write
 
 concurrency:
-  group: jarvis-deep-analysis-main
+  # 모든 main 자동 발행 워크플로가 공유하는 잠금 그룹
+  group: main-publish
+  # 실행 중인 데이터 생성은 중단하지 않고 다음 실행을 대기시킨다.
   cancel-in-progress: false
-
 jobs:
   deep-analysis:
     name: Collect, normalize, graph, train and publish runtime state
