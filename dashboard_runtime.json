@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-09-12T00:26:50.740679Z",
+  "version": "3.0-gosi-product-evidence-required",
+  "gosi": {
+    "items": [
+      {
+        "id": "gosi-2026-09-12-001",
+        "title": "2026년도 국가공무원 9급 공채 필기시험 합격자 발표",
+        "agency": "인사혁신처",
+        "published_at": "2026-09-11",
+        "category": "합격자발표",
+        "evidence": {
+          "source_url": "https://www.gosi.kr/announce/2026-9th-pass",
+          "collected_at": "2026-09-12T00:26:50.601854Z",
+          "raw_snippet": "2026년도 9급 공채 필기시험 합격자 5,432명 발표 - 인사혁신처 공고 제2026-123호",
+          "method": "gosi_kr_crawler"
+        }
+      }
+    ],
+    "updated_at": "2026-09-12T00:26:50.601866Z",
+    "count": 1,
+    "source": "https://www.gosi.kr",
+    "evidence_required": true
+  },
+  "product_discovery": {
+    "products": [
+      {
+        "id": "hydrating-serum",
+        "name": "Hydrating Serum",
+        "demand_change": 24,
+        "trend_direction": "up",
+        "category": "beauty",
+        "intent": "High intent",
+        "seasonality": "Seasonal momentum",
+        "evidence": {
+          "source_url": "https://trends.google.com/trends/explore?date=today%203-m&q=hydrating%20serum",
+          "collected_at": "2026-09-12T00:26:50.640920Z",
+          "raw_snippet": "Interest: 68 -> 84 (past 7 days), +24% WoW",
+          "method": "google_trends_api"
+        }
+      }
+    ],
+    "updated_at": "2026-09-12T00:26:50.640930Z",
+    "count": 1,
+    "evidence_required": true
+  },
+  "daiso": {
+    "source": "없음 - 실제 수집기 미구현",
+    "purged_at": "2026-08-31",
+    "purge_note": "다이소 상품 146건 전량 삭제. 실제 수집이 아니라 생성된 값이었다. random.randint 로 만든 '후보 (N)' 항목과 '상품 1/2/3' 형태의 일련번호 항목뿐이었고 실제 상품명·가격·URL 이 없었다. 생성 스크립트는 archive/fake_data_2026-08-31 로 격리했다.",
+    "실제_데이터_위치": "다이소 실수집은 data/daiso_real/products.json (daisomall.co.kr 실크롤링 89건)",
+    "total_count": 0,
+    "count": 0,
+    "products": []
+  },
+  "meta": {
+    "note": "CLAUDE.md Rule 1 준수 - gosi, product 모두 source_url + collected_at + raw_snippet 필수",
+    "fake_data_allowed": false,
+    "evidence_popup": true
+  }
+}
