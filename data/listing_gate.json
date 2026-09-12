@@ -1,20 +1,22 @@
 {
-  "schema_version": 2,
-  "generated_at": "2026-09-12T09:49:27.447968+00:00",
+  "schema_version": 3,
+  "generated_at": "2026-09-12T12:17:02.103839+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 7,
   "ready": 0,
   "counts": {
     "copy": 7,
-    "gosi": 1,
+    "gosi": 0,
+    "us_label": 0,
     "price": 7,
-    "legal": 0
-  },
-  "blockers": {
-    "gosi": 6,
     "legal": 7
   },
+  "blockers": {
+    "gosi": 7,
+    "us_label": 7
+  },
   "count": 7,
+  "note": "gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=MoCRA 등 하드블록. ready는 5개 조건 모두 통과한 건수.",
   "items": [
     {
       "rank": 1,
@@ -43,11 +45,18 @@
       },
       "copy_status": "ok",
       "gosi": {
+        "volume": "",
+        "maker": "",
+        "origin": "한국",
+        "ingredients": "",
+        "gosi_ok": false
+      },
+      "us_label": {
         "net_contents": "40 ml",
-        "manufacturer": "주식회사 씨엔에프 / (주)더샘인터내셔날",
+        "manufacturer": "실제 포장에 기재된 제조사",
         "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Propanediol, Butylene Glycol, Betaine, Isopentyldiol, Niacinamide, 1,2-Hexanediol, Tuber Magnatum Extract, Centella Asiatica Leaf Extract, Acetyl Hexapeptide-8...",
-        "gosi_ok": true
+        "ingredients_inci": "실제 제품 포장에 기재된 전체 INCI 성분",
+        "us_label_ok": false
       },
       "price": {
         "price_usd": 24.99,
@@ -56,12 +65,13 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
+        "hard_block": false,
+        "hard_block_reason": ""
       },
       "ready": false,
       "blocked_by": [
-        "legal"
+        "gosi",
+        "us_label"
       ]
     },
     {
@@ -90,11 +100,18 @@
       },
       "copy_status": "ok",
       "gosi": {
-        "net_contents": "",
-        "manufacturer": "",
-        "country_of_origin": "",
-        "ingredients_inci": "",
+        "volume": "",
+        "maker": "",
+        "origin": "한국",
+        "ingredients": "",
         "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "실제 확인값",
+        "manufacturer": "실제 확인한 제조사",
+        "country_of_origin": "실제 확인한 원산지",
+        "ingredients_inci": "실제 확인한 전체 INCI 성분",
+        "us_label_ok": false
       },
       "price": {
         "price_usd": 24.99,
@@ -103,13 +120,13 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
+        "hard_block": false,
+        "hard_block_reason": ""
       },
       "ready": false,
       "blocked_by": [
         "gosi",
-        "legal"
+        "us_label"
       ]
     },
     {
@@ -139,11 +156,18 @@
       },
       "copy_status": "ok",
       "gosi": {
-        "net_contents": "",
-        "manufacturer": "",
-        "country_of_origin": "",
-        "ingredients_inci": "",
+        "volume": "",
+        "maker": "",
+        "origin": "한국",
+        "ingredients": "",
         "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "실제 확인값",
+        "manufacturer": "실제 확인한 제조사",
+        "country_of_origin": "실제 확인한 원산지",
+        "ingredients_inci": "실제 확인한 전체 INCI 성분",
+        "us_label_ok": false
       },
       "price": {
         "price_usd": 24.99,
@@ -151,14 +175,14 @@
         "register_blocked": false
       },
       "legal": {
-        "status": "missing",
+        "status": "auto_checked",
         "hard_block": false,
         "hard_block_reason": ""
       },
       "ready": false,
       "blocked_by": [
         "gosi",
-        "legal"
+        "us_label"
       ]
     },
     {
@@ -188,11 +212,18 @@
       },
       "copy_status": "ok",
       "gosi": {
-        "net_contents": "",
-        "manufacturer": "",
-        "country_of_origin": "",
-        "ingredients_inci": "",
+        "volume": "",
+        "maker": "",
+        "origin": "한국",
+        "ingredients": "",
         "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "실제 확인값",
+        "manufacturer": "실제 확인한 제조사",
+        "country_of_origin": "실제 확인한 원산지",
+        "ingredients_inci": "실제 확인한 전체 INCI 성분",
+        "us_label_ok": false
       },
       "price": {
         "price_usd": 24.99,
@@ -201,13 +232,13 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
+        "hard_block": false,
+        "hard_block_reason": ""
       },
       "ready": false,
       "blocked_by": [
         "gosi",
-        "legal"
+        "us_label"
       ]
     },
     {
@@ -236,11 +267,18 @@
       },
       "copy_status": "ok",
       "gosi": {
-        "net_contents": "",
-        "manufacturer": "",
-        "country_of_origin": "",
-        "ingredients_inci": "",
+        "volume": "",
+        "maker": "",
+        "origin": "한국",
+        "ingredients": "",
         "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "실제 확인값",
+        "manufacturer": "실제 확인한 제조사",
+        "country_of_origin": "실제 확인한 원산지",
+        "ingredients_inci": "실제 확인한 전체 INCI 성분",
+        "us_label_ok": false
       },
       "price": {
         "price_usd": 24.99,
@@ -249,13 +287,13 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
+        "hard_block": false,
+        "hard_block_reason": ""
       },
       "ready": false,
       "blocked_by": [
         "gosi",
-        "legal"
+        "us_label"
       ]
     },
     {
@@ -284,11 +322,18 @@
       },
       "copy_status": "ok",
       "gosi": {
-        "net_contents": "",
-        "manufacturer": "",
-        "country_of_origin": "",
-        "ingredients_inci": "",
+        "volume": "",
+        "maker": "",
+        "origin": "한국",
+        "ingredients": "",
         "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "실제 확인값",
+        "manufacturer": "실제 확인한 제조사",
+        "country_of_origin": "실제 확인한 원산지",
+        "ingredients_inci": "실제 확인한 전체 INCI 성분",
+        "us_label_ok": false
       },
       "price": {
         "price_usd": 24.99,
@@ -296,14 +341,14 @@
         "register_blocked": false
       },
       "legal": {
-        "status": "missing",
+        "status": "auto_checked",
         "hard_block": false,
         "hard_block_reason": ""
       },
       "ready": false,
       "blocked_by": [
         "gosi",
-        "legal"
+        "us_label"
       ]
     },
     {
@@ -333,11 +378,18 @@
       },
       "copy_status": "ok",
       "gosi": {
-        "net_contents": "",
-        "manufacturer": "",
-        "country_of_origin": "",
-        "ingredients_inci": "",
+        "volume": "",
+        "maker": "",
+        "origin": "한국",
+        "ingredients": "",
         "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "실제 확인값",
+        "manufacturer": "실제 확인한 제조사",
+        "country_of_origin": "실제 확인한 원산지",
+        "ingredients_inci": "실제 확인한 전체 INCI 성분",
+        "us_label_ok": false
       },
       "price": {
         "price_usd": 24.99,
@@ -346,13 +398,13 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
+        "hard_block": false,
+        "hard_block_reason": ""
       },
       "ready": false,
       "blocked_by": [
         "gosi",
-        "legal"
+        "us_label"
       ]
     }
   ]

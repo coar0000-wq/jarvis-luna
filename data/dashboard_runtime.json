@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T20:33:43.639219+09:00",
+  "generated_at": "2026-09-12T21:17:06.814712+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -30,7 +30,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-12T20:32:27.925878+09:00",
+      "when": "2026-09-12T21:15:35.869043+09:00",
       "summary": "S등급 7개 · 고시표 입력 대기 7건 · 새 자료 38건",
       "action": "다이소 상세페이지 고시 표 7건 캡처 필요",
       "status": "ok",
@@ -42,9 +42,9 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-12T09:49:27.447968+00:00",
-      "summary": "등록 가능 0/7 · 카피 7 · 고시 1 · 가격 7 · 법률 0",
-      "action": "고시 6건, 법률 7건 이 막고 있음",
+      "when": "2026-09-12T12:17:02.103839+00:00",
+      "summary": "등록 가능 0/7 · 카피 7 · 고시 0 · 가격 7 · 법률 7",
+      "action": "고시 7건, us_label 7건 이 막고 있음",
       "status": "ok",
       "phase": "ready",
       "phase_label": "2단계 · 가입 후 등록",
@@ -66,9 +66,9 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-12T09:49:27.403265+00:00",
-      "summary": "자동 점검 12건 · 통과 0 · 등록 차단 12 · 참고 주의 2 · 수출서류 HS 12건 · 라벨 5/6항목 자동 · 새 자료 17건",
-      "action": "차단 12건: 드롭비 탄탄 광채 앰플 40 (자동 점검 미통과: lab), 비프루브 마린 무기자차 마일드(자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림",
+      "when": "2026-09-12T12:17:02.054719+00:00",
+      "summary": "자동 점검 14건 · 통과 0 · 등록 차단 7 · 참고 주의 14 · 수출서류 HS 12건 · 라벨 5/6항목 자동 · 새 자료 17건",
+      "action": "차단 7건: 비프루브 마린 무기자차 마일드(자동 점검 미통과: otc), 드롭비 잡티 말끔 앰플 40 (자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림",
       "status": "ok",
       "phase": "ready",
       "phase_label": "2단계 · 가입 후 등록",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-12T20:32:31.029313+09:00",
+      "when": "2026-09-12T21:15:38.975319+09:00",
       "summary": "81,113노트 · 320,907링크 · 끊어진 링크 110건 · 개인 노트 16건 별도 · 경고 통과(임계 300)",
       "action": null,
       "status": "ok",
@@ -285,7 +285,7 @@
     "status": "completed",
     "record_count": 3197,
     "source_counts": {},
-    "updated_at": "2026-09-12T20:32:27.919336+09:00"
+    "updated_at": "2026-09-12T21:15:35.863308+09:00"
   },
   "graph": {
     "notes": 81113,
@@ -299,7 +299,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-12T20:32:31.029313+09:00"
+    "last_generated": "2026-09-12T21:15:38.975319+09:00"
   },
   "training": {
     "status": "completed",
@@ -1398,7 +1398,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 9,
       "trust": "manual",
-      "age_hours": 275.6,
+      "age_hours": 276.3,
       "stale": true
     },
     "walmart_beauty": {
@@ -1408,7 +1408,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 5,
       "trust": "manual",
-      "age_hours": 275.6,
+      "age_hours": 276.3,
       "stale": true
     },
     "oliveyoung_us": {
@@ -1418,7 +1418,7 @@
       "collected_at": "2026-09-12T05:17:22.056486+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 6.3,
+      "age_hours": 7.0,
       "stale": false
     },
     "google_trends_us": {
@@ -1428,7 +1428,7 @@
       "collected_at": "2026-09-12T05:18:01.024242+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 6.3,
+      "age_hours": 7.0,
       "stale": false
     },
     "wikipedia_interest": {
@@ -1439,7 +1439,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-11 ~ 2026-09-09 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 12.9,
+      "age_hours": 13.6,
       "stale": false
     },
     "allure_media": {
@@ -1450,7 +1450,7 @@
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 12.9,
+      "age_hours": 13.6,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -1461,7 +1461,7 @@
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 12.9,
+      "age_hours": 13.6,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1487,7 +1487,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 8,
       "trust": "manual",
-      "age_hours": 275.6,
+      "age_hours": 276.3,
       "stale": true
     },
     "sephora": {
@@ -1497,7 +1497,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 10,
       "trust": "manual",
-      "age_hours": 275.6,
+      "age_hours": 276.3,
       "stale": true
     },
     "open_beauty_facts": {
@@ -1507,7 +1507,7 @@
       "collected_at": "2026-09-12T05:17:21.442382+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 6.3,
+      "age_hours": 7.0,
       "stale": false
     }
   },

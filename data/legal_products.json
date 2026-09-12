@@ -61,18 +61,13 @@
           "ok": true,
           "detail": "없음"
         },
-        "kr_functional": {
-          "ok": true,
-          "detail": "해당 없음",
-          "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
-        },
         "otc_sunscreen": {
           "ok": true,
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "ok": true,
+          "detail": "4항목 확보"
         }
       },
       "hs_code": "3304.99",
@@ -80,13 +75,11 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [
-        "label_fields"
-      ],
+      "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-12T09:49:27.402951+00:00",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields",
+      "auto_checked_at": "2026-09-12T12:17:02.054409+00:00",
+      "hard_block": false,
+      "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -98,18 +91,13 @@
           "ok": true,
           "detail": "없음"
         },
-        "kr_functional": {
-          "ok": true,
-          "detail": "해당 없음",
-          "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
-        },
         "otc_sunscreen": {
-          "ok": true,
-          "detail": "SPF 제품 - 미국에서 OTC 의약품. Drug Facts 라벨 필요"
+          "ok": false,
+          "detail": "SPF/선스크린 제품 - 미국 OTC 의약품 검토 필요"
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
         }
       },
       "hs_code": "3304.99",
@@ -118,12 +106,13 @@
       "reviewed_at": "",
       "note": "",
       "auto_blockers": [
+        "otc_sunscreen",
         "label_fields"
       ],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-12T09:49:27.402998+00:00",
+      "auto_checked_at": "2026-09-12T12:17:02.054259+00:00",
       "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields",
+      "hard_block_reason": "자동 점검 미통과: otc_sunscreen, label_fields",
       "hs_basis": "버킷 ''",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -135,18 +124,13 @@
           "ok": true,
           "detail": "없음"
         },
-        "kr_functional": {
-          "ok": true,
-          "detail": "해당 없음",
-          "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
-        },
         "otc_sunscreen": {
           "ok": true,
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "ok": true,
+          "detail": "4항목 확보"
         }
       },
       "hs_code": "3304.99",
@@ -154,13 +138,11 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [
-        "label_fields"
-      ],
+      "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-12T09:49:27.403041+00:00",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields",
+      "auto_checked_at": "2026-09-12T12:17:02.054466+00:00",
+      "hard_block": false,
+      "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -172,18 +154,13 @@
           "ok": true,
           "detail": "없음"
         },
-        "kr_functional": {
-          "ok": true,
-          "detail": "해당 없음",
-          "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
-        },
         "otc_sunscreen": {
           "ok": true,
           "detail": "해당 없음"
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
         }
       },
       "hs_code": "3304.99",
@@ -194,8 +171,8 @@
       "auto_blockers": [
         "label_fields"
       ],
-      "needs_attention": false,
-      "auto_checked_at": "2026-09-12T09:49:27.403057+00:00",
+      "needs_attention": true,
+      "auto_checked_at": "2026-09-12T12:17:02.054341+00:00",
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '스킨케어'",
@@ -209,18 +186,13 @@
           "ok": true,
           "detail": "없음"
         },
-        "kr_functional": {
-          "ok": true,
-          "detail": "해당 없음",
-          "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
-        },
         "otc_sunscreen": {
           "ok": true,
           "detail": "해당 없음"
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
         }
       },
       "hs_code": "3304.99",
@@ -231,8 +203,8 @@
       "auto_blockers": [
         "label_fields"
       ],
-      "needs_attention": false,
-      "auto_checked_at": "2026-09-12T09:49:27.403072+00:00",
+      "needs_attention": true,
+      "auto_checked_at": "2026-09-12T12:17:02.054712+00:00",
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '스킨케어'",
@@ -246,18 +218,13 @@
           "ok": true,
           "detail": "없음"
         },
-        "kr_functional": {
-          "ok": true,
-          "detail": "해당 없음",
-          "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
-        },
         "otc_sunscreen": {
-          "ok": true,
-          "detail": "SPF 제품 - 미국에서 OTC 의약품. Drug Facts 라벨 필요"
+          "ok": false,
+          "detail": "SPF/선스크린 제품 - 미국 OTC 의약품 검토 필요"
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
         }
       },
       "hs_code": "3304.99",
@@ -266,12 +233,13 @@
       "reviewed_at": "",
       "note": "",
       "auto_blockers": [
+        "otc_sunscreen",
         "label_fields"
       ],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-12T09:49:27.403085+00:00",
+      "auto_checked_at": "2026-09-12T12:17:02.054685+00:00",
       "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields",
+      "hard_block_reason": "자동 점검 미통과: otc_sunscreen, label_fields",
       "hs_basis": "버킷 ''",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -283,18 +251,13 @@
           "ok": true,
           "detail": "없음"
         },
-        "kr_functional": {
-          "ok": true,
-          "detail": "해당 없음",
-          "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
-        },
         "otc_sunscreen": {
           "ok": true,
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "ok": true,
+          "detail": "4항목 확보"
         }
       },
       "hs_code": "3304.99",
@@ -302,13 +265,11 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [
-        "label_fields"
-      ],
+      "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-12T09:49:27.403125+00:00",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields",
+      "auto_checked_at": "2026-09-12T12:17:02.054542+00:00",
+      "hard_block": false,
+      "hard_block_reason": "",
       "hs_basis": "버킷 '마스크팩'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -320,18 +281,13 @@
           "ok": true,
           "detail": "없음"
         },
-        "kr_functional": {
-          "ok": true,
-          "detail": "해당 없음",
-          "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
-        },
         "otc_sunscreen": {
           "ok": true,
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "ok": true,
+          "detail": "4항목 확보"
         }
       },
       "hs_code": "3304.99",
@@ -339,13 +295,11 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [
-        "label_fields"
-      ],
+      "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-12T09:49:27.403177+00:00",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields",
+      "auto_checked_at": "2026-09-12T12:17:02.054157+00:00",
+      "hard_block": false,
+      "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -357,18 +311,13 @@
           "ok": true,
           "detail": "없음"
         },
-        "kr_functional": {
-          "ok": true,
-          "detail": "해당 없음",
-          "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
-        },
         "otc_sunscreen": {
           "ok": true,
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "ok": true,
+          "detail": "4항목 확보"
         }
       },
       "hs_code": "3304.99",
@@ -376,13 +325,11 @@
       "reviewer": "",
       "reviewed_at": "",
       "note": "",
-      "auto_blockers": [
-        "label_fields"
-      ],
+      "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-12T09:49:27.403219+00:00",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields",
+      "auto_checked_at": "2026-09-12T12:17:02.054653+00:00",
+      "hard_block": false,
+      "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
@@ -394,18 +341,13 @@
           "ok": true,
           "detail": "없음"
         },
-        "kr_functional": {
-          "ok": true,
-          "detail": "해당 없음",
-          "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
-        },
         "otc_sunscreen": {
           "ok": true,
           "detail": "해당 없음"
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
         }
       },
       "hs_code": "3304.99",
@@ -416,8 +358,8 @@
       "auto_blockers": [
         "label_fields"
       ],
-      "needs_attention": false,
-      "auto_checked_at": "2026-09-12T09:49:27.403235+00:00",
+      "needs_attention": true,
+      "auto_checked_at": "2026-09-12T12:17:02.054560+00:00",
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '마스크팩'",
@@ -431,18 +373,13 @@
           "ok": true,
           "detail": "없음"
         },
-        "kr_functional": {
-          "ok": true,
-          "detail": "해당 없음",
-          "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
-        },
         "otc_sunscreen": {
           "ok": true,
           "detail": "해당 없음"
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
         }
       },
       "hs_code": "3305",
@@ -453,8 +390,8 @@
       "auto_blockers": [
         "label_fields"
       ],
-      "needs_attention": false,
-      "auto_checked_at": "2026-09-12T09:49:27.403247+00:00",
+      "needs_attention": true,
+      "auto_checked_at": "2026-09-12T12:17:02.054699+00:00",
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '헤어케어'",
@@ -468,18 +405,13 @@
           "ok": true,
           "detail": "없음"
         },
-        "kr_functional": {
-          "ok": true,
-          "detail": "해당 없음",
-          "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다."
-        },
         "otc_sunscreen": {
           "ok": true,
           "detail": "해당 없음"
         },
         "label_fields": {
           "ok": false,
-          "detail": "미확보: ingredients, volume, maker, origin"
+          "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
         }
       },
       "hs_code": "3304.99",
@@ -490,19 +422,65 @@
       "auto_blockers": [
         "label_fields"
       ],
-      "needs_attention": false,
-      "auto_checked_at": "2026-09-12T09:49:27.403258+00:00",
+      "needs_attention": true,
+      "auto_checked_at": "2026-09-12T12:17:02.054670+00:00",
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '클렌징'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+    },
+    "1041749": {
+      "name": "식물원 병풀 클리어 앰플 30 ml",
+      "status": "auto_checked",
+      "auto_checks": {
+        "banned_claim": {
+          "ok": true,
+          "detail": "없음"
+        },
+        "otc_sunscreen": {
+          "ok": true,
+          "detail": "해당 없음"
+        },
+        "label_fields": {
+          "ok": true,
+          "detail": "4항목 확보"
+        }
+      },
+      "auto_blockers": [],
+      "needs_attention": false,
+      "hard_block": false,
+      "hard_block_reason": "",
+      "auto_checked_at": "2026-09-12T12:17:02.054235+00:00"
+    },
+    "1045421": {
+      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+      "status": "auto_checked",
+      "auto_checks": {
+        "banned_claim": {
+          "ok": true,
+          "detail": "없음"
+        },
+        "otc_sunscreen": {
+          "ok": true,
+          "detail": "해당 없음"
+        },
+        "label_fields": {
+          "ok": true,
+          "detail": "4항목 확보"
+        }
+      },
+      "auto_blockers": [],
+      "needs_attention": false,
+      "hard_block": false,
+      "hard_block_reason": "",
+      "auto_checked_at": "2026-09-12T12:17:02.054321+00:00"
     }
   },
   "auto_summary": {
-    "checked": 12,
+    "checked": 14,
     "clean": 0,
-    "needs_attention": 2,
+    "needs_attention": 14,
     "pass": 0
   },
-  "auto_checked_at": "2026-09-12T09:49:27.403265+00:00"
+  "auto_checked_at": "2026-09-12T12:17:02.054719+00:00"
 }
