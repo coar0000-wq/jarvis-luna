@@ -10,11 +10,11 @@
       "seasonality": "Seasonal momentum",
       "evidence": {
         "source_url": "https://trends.google.com/trends/explore?date=today%203-m&q=hydrating%20serum",
-        "collected_at": "2026-09-12T00:37:42.319413Z",
+        "collected_at": "2026-09-12T00:40:11.400714Z",
         "raw_snippet": "Interest: 68 -> 84 (past 7 days), +24% WoW",
         "method": "google_trends_api"
       }
     }
   ],
-  "updated_at": "2026-09-12T00:37:42.319425Z"
+  "updated_at": "2026-09-12T00:40:11.400725Z"
 }
