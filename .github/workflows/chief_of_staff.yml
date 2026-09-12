@@ -8,14 +8,12 @@ on:
 permissions:
   contents: write
 
-# 참모장이 동시에 두 번 실행되어 서로의 결과를 덮지 않도록 한다.
+# 자동 발행 작업은 한 번에 하나만 실행한다.
+# 새 실행은 기존 실행이 끝날 때까지 대기한다.
 concurrency:
-  # 모든 main 자동 발행 워크플로가 공유하는 잠금 그룹
   group: main-publish
-  # 동시에 들어온 실행을 최대 100개까지 대기열에 보관한다.
-  queue: max
-  # 실행 중인 데이터 생성은 중단하지 않고 다음 실행을 대기시킨다.
   cancel-in-progress: false
+
 jobs:
   chief-auto-fix:
     runs-on: ubuntu-latest
@@ -36,9 +34,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
 
-      # ------------------------------------------------------------
-      # 1. 항상 최신 main 기준으로 시작
-      # ------------------------------------------------------------
       - name: 최신 main 동기화
         shell: bash
         run: |
@@ -46,12 +41,6 @@ jobs:
           git reset --hard origin/main
           git clean -fd
 
-      # ------------------------------------------------------------
-      # 2. 등록 게이트를 먼저 새로 계산
-      #
-      # 오래된 listing_gate.json 때문에
-      # 실제 카피 7/7인데 카피 5/7로 표시되는 현상을 먼저 제거한다.
-      # ------------------------------------------------------------
       - name: 등록 게이트 1차 재계산
         shell: bash
         run: |
@@ -61,26 +50,21 @@ jobs:
           import json
           from pathlib import Path
 
-          p = Path("data/listing_gate.json")
-          d = json.loads(p.read_text(encoding="utf-8"))
+          path = Path("data/listing_gate.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+          counts = data.get("counts") or {}
 
-          print()
           print("===== 현재 등록 게이트 =====")
-          print(f"S등급 전체 : {d.get('total', 0)}")
-          print(f"등록 가능  : {d.get('ready', 0)}")
-          print(f"카피       : {(d.get('counts') or {}).get('copy', 0)}")
-          print(f"고시       : {(d.get('counts') or {}).get('gosi', 0)}")
-          print(f"가격       : {(d.get('counts') or {}).get('price', 0)}")
-          print(f"법률       : {(d.get('counts') or {}).get('legal', 0)}")
-          print(f"병목       : {d.get('blockers') or {}}")
+          print(f"S등급 전체 : {data.get('total', 0)}")
+          print(f"등록 가능  : {data.get('ready', 0)}")
+          print(f"카피       : {counts.get('copy', 0)}")
+          print(f"고시       : {counts.get('gosi', 0)}")
+          print(f"가격       : {counts.get('price', 0)}")
+          print(f"법률       : {counts.get('legal', 0)}")
+          print(f"병목       : {data.get('blockers') or {}}")
           print("============================")
           PY
 
-      # ------------------------------------------------------------
-      # 3. 카피 병목이 실제로 남아 있을 때만 Gemini 실행
-      #
-      # 현재 실제 파일이 7/7이면 이 단계는 실행하지 않는다.
-      # ------------------------------------------------------------
       - name: Shopify 카피 자동 보완
         shell: bash
         env:
@@ -91,13 +75,13 @@ jobs:
           from pathlib import Path
 
           try:
-              d = json.loads(
+              data = json.loads(
                   Path("data/listing_gate.json").read_text(
                       encoding="utf-8"
                   )
               )
               print(
-                  1 if (d.get("blockers") or {}).get("copy", 0) > 0
+                  1 if (data.get("blockers") or {}).get("copy", 0) > 0
                   else 0
               )
           except Exception:
@@ -107,75 +91,65 @@ jobs:
 
           if [ "$NEED_COPY" = "1" ]; then
             echo "카피 병목 발견"
-
             if [ -z "${GEMINI_API_KEY:-}" ]; then
-              echo "::warning::GEMINI_API_KEY가 없어 카피 자동 보완을 건너뜁니다."
+              echo "::warning::GEMINI_API_KEY가 없어 카피 보완을 건너뜁니다."
             else
-              echo "Gemini 카피 생성 실행"
               python -u scripts/gemini_listing_copy.py || true
             fi
           else
-            echo "카피 병목 없음 - 기존 카피 유지"
+            echo "카피 병목 없음"
           fi
 
-      # ------------------------------------------------------------
-      # 4. 고시 병목이 실제로 남아 있을 때만 고시 수집/비전 추출
-      # ------------------------------------------------------------
-      - name: 고시 정보 자동 보완
+      - name: 고시 정보 수집 및 라벨 동기화
         shell: bash
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           NEED_GOSI=$(python - <<'PY'
           import json
           from pathlib import Path
 
           try:
-              d = json.loads(
+              data = json.loads(
                   Path("data/listing_gate.json").read_text(
                       encoding="utf-8"
                   )
               )
               print(
-                  1 if (d.get("blockers") or {}).get("gosi", 0) > 0
+                  1 if (data.get("blockers") or {}).get("gosi", 0) > 0
                   else 0
               )
           except Exception:
-              print(0)
+              print(1)
           PY
           )
 
           if [ "$NEED_GOSI" = "1" ]; then
             echo "고시 병목 발견"
-            echo "다이소 고시 정보 재수집 시작"
 
+            # 고시 수집기는 data/gosi.json을 갱신한다.
             python -u scripts/collect_daiso_gosi.py || true
+
+            # 수집 결과를 data/daiso_real/daiso_us_labels.json에 병합한다.
+            python -u scripts/sync_gosi_to_us_labels.py
 
             if [ -n "${GEMINI_API_KEY:-}" ]; then
               echo "Gemini 비전 추출 시작"
               VISION_BUDGET_SEC=900 \
                 python -u scripts/extract_gosi_vision.py || true
+
+              # 비전 추출 이후 추가된 값도 다시 병합한다.
+              python -u scripts/sync_gosi_to_us_labels.py
             else
               echo "::warning::GEMINI_API_KEY가 없어 비전 추출을 건너뜁니다."
             fi
           else
-            echo "고시 병목 없음 - 기존 고시 정보 유지"
+            echo "고시 병목 없음"
           fi
 
-      # ------------------------------------------------------------
-      # 5. 법률 점검은 자동 갱신
-      #
-      # SPF/OTC 같은 항목은 자동으로 '통과'시키지 않는다.
-      # 대신 최신 점검 결과를 만들어 비서실장이 판단할 수 있게 한다.
-      # ------------------------------------------------------------
       - name: 법률 자동 점검 갱신
         shell: bash
         run: |
-          python -u scripts/check_legal_products.py || true
+          python -u scripts/check_legal_products.py
 
-      # ------------------------------------------------------------
-      # 6. 모든 자동 처리가 끝난 뒤 등록 게이트 재계산
-      # ------------------------------------------------------------
       - name: 등록 게이트 최종 재계산
         shell: bash
         run: |
@@ -185,41 +159,30 @@ jobs:
           import json
           from pathlib import Path
 
-          d = json.loads(
+          data = json.loads(
               Path("data/listing_gate.json").read_text(
                   encoding="utf-8"
               )
           )
+          counts = data.get("counts") or {}
 
-          print()
           print("===== 최종 등록 게이트 =====")
+          print(f"등록 가능 {data.get('ready', 0)}/{data.get('total', 0)}")
           print(
-              f"등록 가능 {d.get('ready', 0)}/{d.get('total', 0)}"
+              f"카피 {counts.get('copy', 0)} / "
+              f"고시 {counts.get('gosi', 0)} / "
+              f"가격 {counts.get('price', 0)} / "
+              f"법률 {counts.get('legal', 0)}"
           )
-          print(
-              f"카피 {(d.get('counts') or {}).get('copy', 0)}"
-              f" / 고시 {(d.get('counts') or {}).get('gosi', 0)}"
-              f" / 가격 {(d.get('counts') or {}).get('price', 0)}"
-              f" / 법률 {(d.get('counts') or {}).get('legal', 0)}"
-          )
-          print(f"병목: {d.get('blockers') or {}}")
+          print(f"병목: {data.get('blockers') or {}}")
           print("============================")
           PY
 
-      # ------------------------------------------------------------
-      # 7. 최종 대시보드 생성
-      # ------------------------------------------------------------
       - name: 대시보드 최종 생성
         shell: bash
         run: |
           python scripts/generate_dashboard_runtime.py
 
-      # ------------------------------------------------------------
-      # 8. 실제 변경이 있는 파일만 발행
-      #
-      # gosi / products 전체를 참모장이 무조건 다시 커밋하지 않는다.
-      # 이번 실행에서 실제 수정된 산출물만 올린다.
-      # ------------------------------------------------------------
       - name: 변경사항 확인
         shell: bash
         run: |
@@ -229,6 +192,7 @@ jobs:
             data/listing_gate.json \
             data/shopify_listing_copy.json \
             data/gosi.json \
+            data/daiso_real/daiso_us_labels.json \
             data/legal_products.json \
             data/dashboard_runtime.json \
             data/daiso_real/gosi_img 2>/dev/null || true
@@ -238,18 +202,8 @@ jobs:
             exit 0
           fi
 
-          echo "===== 커밋 예정 변경 ====="
           git diff --cached --stat
-          echo "=========================="
 
-      # ------------------------------------------------------------
-      # 9. 원격이 바뀌어도 rebase 충돌을 만들지 않는 push
-      #
-      # 핵심:
-      # - rebase를 하지 않는다.
-      # - push가 거절되면 최신 main으로 다시 시작한다.
-      # - 다시 계산 후 다시 push한다.
-      # ------------------------------------------------------------
       - name: Commit & Push
         shell: bash
         run: |
@@ -262,8 +216,7 @@ jobs:
 
           git config user.name "JARVIS"
           git config user.email "actions@github.com"
-
-          git commit -m "fix: chief of staff resolve listing state"
+          git commit -m "fix: refresh gosi labels and listing gate"
 
           for attempt in 1 2 3 4 5; do
             echo "===== PUSH ATTEMPT ${attempt}/5 ====="
@@ -274,39 +227,36 @@ jobs:
             fi
 
             echo "원격 main 변경 감지"
-            echo "최신 main에서 다시 생성합니다."
-
             git fetch origin main
             git reset --hard origin/main
             git clean -fd
 
-            # 최신 원격 상태에서 다시 계산한다.
-            python scripts/build_listing_gate.py || true
-            python scripts/check_legal_products.py || true
+            python scripts/collect_daiso_gosi.py || true
+            python scripts/sync_gosi_to_us_labels.py
+            python scripts/check_legal_products.py
+            python scripts/build_listing_gate.py
             python scripts/generate_dashboard_runtime.py
 
             git add \
               data/listing_gate.json \
               data/shopify_listing_copy.json \
               data/gosi.json \
+              data/daiso_real/daiso_us_labels.json \
               data/legal_products.json \
               data/dashboard_runtime.json \
               data/daiso_real/gosi_img 2>/dev/null || true
 
             if git diff --cached --quiet; then
-              echo "최신 main 기준으로 변경사항 없음"
+              echo "최신 main 기준 변경사항 없음"
               exit 0
             fi
 
-            git commit -m "fix: chief of staff refresh listing state"
+            git commit -m "fix: refresh gosi labels after remote update"
           done
 
           echo "5회 push 시도 후 실패"
           exit 1
 
-      # ------------------------------------------------------------
-      # 10. 사람이 봐야 하는 병목만 요약
-      # ------------------------------------------------------------
       - name: 최종 요약
         if: always()
         shell: bash
@@ -316,29 +266,26 @@ jobs:
           import json
           from pathlib import Path
 
-          d = json.loads(
+          data = json.loads(
               Path("data/listing_gate.json").read_text(
                   encoding="utf-8"
               )
           )
 
-          print()
           print("===================================")
           print("       JARVIS 참모장 최종 보고")
           print("===================================")
           print(
-              f"등록 가능: {d.get('ready', 0)}/{d.get('total', 0)}"
+              f"등록 가능: {data.get('ready', 0)}/{data.get('total', 0)}"
           )
-          print(f"병목: {d.get('blockers') or {}}")
+          print(f"병목: {data.get('blockers') or {}}")
 
-          items = d.get("items") or []
-
-          for item in items:
+          for item in data.get("items") or []:
               if item.get("blocked_by"):
                   print(
                       f"- {item.get('pd_no')} "
                       f"{item.get('name')}: "
-                      f"{', '.join(item.get('blocked_by'))}"
+                      f"{', '.join(item.get('blocked_by') or [])}"
                   )
 
           print("===================================")
