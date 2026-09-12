@@ -2,7 +2,7 @@
 title: "Record 9598d3ca6f · Shopify-sellers-get-in-chat-checkout-and-AI-ticketing-in-one-flow---St"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.533838+00:00
+updated_at: 2026-09-12T15:33:57.511047+00:00
 tags: [record, real-data]
 ---
 

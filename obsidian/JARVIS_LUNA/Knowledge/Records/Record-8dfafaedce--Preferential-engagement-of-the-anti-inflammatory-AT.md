@@ -2,7 +2,7 @@
 title: "Record 8dfafaedce · Preferential-engagement-of-the-anti-inflammatory-ATPadenosine-axis-by-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.171121+00:00
+updated_at: 2026-09-12T15:33:57.190006+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d5827ab182 · TripleLevel-ContentAddressable-Vertical-NAND-Flash-Memory"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.140790+00:00
+updated_at: 2026-09-12T15:33:57.162048+00:00
 tags: [record, real-data]
 ---
 

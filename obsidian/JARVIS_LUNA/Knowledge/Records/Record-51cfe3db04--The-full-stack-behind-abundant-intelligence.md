@@ -2,7 +2,7 @@
 title: "Record 51cfe3db04 · The-full-stack-behind-abundant-intelligence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.582131+00:00
+updated_at: 2026-09-12T15:33:57.554076+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 34dbc9bd86 · Economic-Outlook-Mid-Year-2023-Global-Gdp-Slowing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.719301+00:00
+updated_at: 2026-09-12T15:33:57.668381+00:00
 tags: [record, real-data]
 ---
 

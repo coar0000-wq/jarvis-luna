@@ -2,7 +2,7 @@
 title: "Record 1f9fddc425 · 8-Best-Foundations-for-Oily-Skin-for-a-Smooth-Natural-Looking-Finish"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.648867+00:00
+updated_at: 2026-09-12T15:33:57.611080+00:00
 tags: [record, real-data]
 ---
 

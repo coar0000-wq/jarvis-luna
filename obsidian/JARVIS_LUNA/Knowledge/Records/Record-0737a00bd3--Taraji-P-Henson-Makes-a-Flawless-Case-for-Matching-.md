@@ -2,7 +2,7 @@
 title: "Record 0737a00bd3 · Taraji-P-Henson-Makes-a-Flawless-Case-for-Matching-Your-Manicure-to-Yo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.656788+00:00
+updated_at: 2026-09-12T15:33:57.617435+00:00
 tags: [record, real-data]
 ---
 

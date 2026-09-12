@@ -2,7 +2,7 @@
 title: "Record 9d27891392 · The-3-Beauty-Trends-That-Dominated-TikTok-In-2024---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.457967+00:00
+updated_at: 2026-09-12T15:33:57.443795+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 5c61a46039 · Immersive-Virtual-Reality-in-Foreign-Language-Learning-A-Bibliometric-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.150916+00:00
+updated_at: 2026-09-12T15:33:57.171887+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 38451120e6 · Driven-by-TikTok-trends-new-beauty-brands-target-children---The-Japan-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.490318+00:00
+updated_at: 2026-09-12T15:33:57.472660+00:00
 tags: [record, real-data]
 ---
 

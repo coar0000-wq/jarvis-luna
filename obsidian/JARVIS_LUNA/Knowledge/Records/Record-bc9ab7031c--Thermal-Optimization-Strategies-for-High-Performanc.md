@@ -2,7 +2,7 @@
 title: "Record bc9ab7031c · Thermal-Optimization-Strategies-for-High-Performance-Semiconductor-3D-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.218607+00:00
+updated_at: 2026-09-12T15:33:57.232206+00:00
 tags: [record, real-data]
 ---
 

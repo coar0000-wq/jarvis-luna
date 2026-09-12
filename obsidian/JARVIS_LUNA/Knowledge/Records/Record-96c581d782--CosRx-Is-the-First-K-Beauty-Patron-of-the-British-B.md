@@ -1,18 +1,18 @@
 ---
-title: "Record 96c581d782 · CosRx-Is-the-First-K-Beauty-Patron-of-the-British-Beauty-Council---bea"
+title: "Record 96c581d782 · CosRx-Is-the-First-K-Beauty-Patron-of-the-British-Beauty-Council---Bea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.533610+00:00
+updated_at: 2026-09-12T15:33:57.510847+00:00
 tags: [record, real-data]
 ---
 
-# Record 96c581d782 · CosRx-Is-the-First-K-Beauty-Patron-of-the-British-Beauty-Council---bea
+# Record 96c581d782 · CosRx-Is-the-First-K-Beauty-Patron-of-the-British-Beauty-Council---Bea
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMisAFBVV95cUxNVE5XYUEyc1Ayam4wbmUzamRLMDFHLWV3cEJuYjFtOGxaSkJkaEZMQ0VBVmlic3NhQ3VuckFnejByOVV2MzJVZm9KY0ZZX0NmNm9UU2tmcUoxVGNQREk2dHNJWVptaGJLUHdaMllqLWZoUlVpeEFPTWhYQ1NSWDlHWmlqcXhBWHNHM19pQVJUcUZob01DUWNTSTRvZHlIZnI3Q243eGNDOG9vQjBHbjgyaQ?oc=5)
 
-**제목:** CosRx Is the First K-Beauty Patron of the British Beauty Council - beautypackaging.com
+**제목:** CosRx Is the First K-Beauty Patron of the British Beauty Council - Beauty Packaging
 
-CosRx Is the First K-Beauty Patron of the British Beauty Council - beautypackaging.com
+CosRx Is the First K-Beauty Patron of the British Beauty Council - Beauty Packaging
 
 **출처:** Source · Google Search
 

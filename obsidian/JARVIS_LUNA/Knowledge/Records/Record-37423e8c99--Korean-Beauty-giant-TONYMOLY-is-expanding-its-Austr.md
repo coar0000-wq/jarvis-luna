@@ -2,7 +2,7 @@
 title: "Record 37423e8c99 · Korean-Beauty-giant-TONYMOLY-is-expanding-its-Australian-footprint-int"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.335729+00:00
+updated_at: 2026-09-12T15:33:57.336398+00:00
 tags: [record, real-data]
 ---
 

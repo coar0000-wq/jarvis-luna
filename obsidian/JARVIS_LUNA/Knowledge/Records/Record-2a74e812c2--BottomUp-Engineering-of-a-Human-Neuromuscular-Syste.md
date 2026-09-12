@@ -2,7 +2,7 @@
 title: "Record 2a74e812c2 · BottomUp-Engineering-of-a-Human-Neuromuscular-System-for-Modeling-Acti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.140056+00:00
+updated_at: 2026-09-12T15:33:57.161400+00:00
 tags: [record, real-data]
 ---
 

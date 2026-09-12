@@ -2,7 +2,7 @@
 title: "Record 7ac4e02fc8 · Anatomy-Aware-Promptable-Segmentation-with-Online-Interactive-Training"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.029011+00:00
+updated_at: 2026-09-12T15:33:57.062338+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 595fa46ebd · Data-Driven-Generator-Transient-Prediction-for-Digital-Twin-Decision-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.069360+00:00
+updated_at: 2026-09-12T15:33:57.097981+00:00
 tags: [record, real-data]
 ---
 

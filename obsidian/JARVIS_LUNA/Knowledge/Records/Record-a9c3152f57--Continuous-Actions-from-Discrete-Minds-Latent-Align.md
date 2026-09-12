@@ -2,7 +2,7 @@
 title: "Record a9c3152f57 · Continuous-Actions-from-Discrete-Minds-Latent-Aligned-Planning-for-End"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.052335+00:00
+updated_at: 2026-09-12T15:33:57.082785+00:00
 tags: [record, real-data]
 ---
 

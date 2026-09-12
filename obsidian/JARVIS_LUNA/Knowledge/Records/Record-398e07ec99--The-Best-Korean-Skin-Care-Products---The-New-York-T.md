@@ -2,7 +2,7 @@
 title: "Record 398e07ec99 · The-Best-Korean-Skin-Care-Products---The-New-York-Times"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.434422+00:00
+updated_at: 2026-09-12T15:33:57.423029+00:00
 tags: [record, real-data]
 ---
 

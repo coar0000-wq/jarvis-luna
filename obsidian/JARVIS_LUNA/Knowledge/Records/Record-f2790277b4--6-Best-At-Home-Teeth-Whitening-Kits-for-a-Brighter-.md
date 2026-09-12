@@ -2,7 +2,7 @@
 title: "Record f2790277b4 · 6-Best-At-Home-Teeth-Whitening-Kits-for-a-Brighter-Smile"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.648571+00:00
+updated_at: 2026-09-12T15:33:57.610883+00:00
 tags: [record, real-data]
 ---
 

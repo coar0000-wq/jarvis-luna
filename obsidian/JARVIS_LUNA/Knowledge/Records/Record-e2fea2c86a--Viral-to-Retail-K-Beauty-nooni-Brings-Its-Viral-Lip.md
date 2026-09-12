@@ -2,7 +2,7 @@
 title: "Record e2fea2c86a · Viral-to-Retail-K-Beauty-nooni-Brings-Its-Viral-Lip-Oil-to-Target-in-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.368908+00:00
+updated_at: 2026-09-12T15:33:57.366118+00:00
 tags: [record, real-data]
 ---
 

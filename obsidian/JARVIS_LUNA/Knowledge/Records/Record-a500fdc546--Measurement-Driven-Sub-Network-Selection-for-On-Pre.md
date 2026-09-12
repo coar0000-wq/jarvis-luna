@@ -2,7 +2,7 @@
 title: "Record a500fdc546 · Measurement-Driven-Sub-Network-Selection-for-On-Premise-Retrieval-Augm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.037086+00:00
+updated_at: 2026-09-12T15:33:57.069005+00:00
 tags: [record, real-data]
 ---
 

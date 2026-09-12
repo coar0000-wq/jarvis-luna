@@ -2,7 +2,7 @@
 title: "Record 34a392f2ea · 3-K-Beauty-Brands-About-to-Be-Americas-Next-Obsessions---NewBeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.372057+00:00
+updated_at: 2026-09-12T15:33:57.368816+00:00
 tags: [record, real-data]
 ---
 

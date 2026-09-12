@@ -2,7 +2,7 @@
 title: "Record 49f9694274 · Microporous-diffractive-filter-for-infrared-rejection-in-high-harmonic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.229603+00:00
+updated_at: 2026-09-12T15:33:57.242780+00:00
 tags: [record, real-data]
 ---
 

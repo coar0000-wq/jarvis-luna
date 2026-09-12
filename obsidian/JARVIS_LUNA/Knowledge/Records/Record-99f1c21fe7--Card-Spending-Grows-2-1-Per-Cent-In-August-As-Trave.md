@@ -2,7 +2,7 @@
 title: "Record 99f1c21fe7 · Card-Spending-Grows-2-1-Per-Cent-In-August-As-Travel-Rebounds-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.692355+00:00
+updated_at: 2026-09-12T15:33:57.645538+00:00
 tags: [record, real-data]
 ---
 

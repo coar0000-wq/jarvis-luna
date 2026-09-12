@@ -2,7 +2,7 @@
 title: "Record 0f6a2fed1f · Beauty-Briefing-From-tampons-to-fragrance-K-beauty-is-everywhere---glo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.500329+00:00
+updated_at: 2026-09-12T15:33:57.481462+00:00
 tags: [record, real-data]
 ---
 

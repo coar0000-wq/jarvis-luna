@@ -2,7 +2,7 @@
 title: "Record 83b8d7ab21 · MulDP-Multimodal-Diffusion-Policy-for-Autonomous-Quadruped-Parkour-Nav"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.051426+00:00
+updated_at: 2026-09-12T15:33:57.081964+00:00
 tags: [record, real-data]
 ---
 

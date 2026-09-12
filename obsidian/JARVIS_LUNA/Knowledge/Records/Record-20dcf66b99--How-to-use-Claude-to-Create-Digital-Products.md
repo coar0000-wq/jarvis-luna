@@ -2,7 +2,7 @@
 title: "Record 20dcf66b99 · How-to-use-Claude-to-Create-Digital-Products"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.812676+00:00
+updated_at: 2026-09-12T15:33:57.750465+00:00
 tags: [record, real-data]
 ---
 

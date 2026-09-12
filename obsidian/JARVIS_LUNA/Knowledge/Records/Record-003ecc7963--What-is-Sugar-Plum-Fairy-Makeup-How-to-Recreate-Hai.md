@@ -2,7 +2,7 @@
 title: "Record 003ecc7963 · What-is-Sugar-Plum-Fairy-Makeup-How-to-Recreate-Hailey-Biebers-Winter-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.549584+00:00
+updated_at: 2026-09-12T15:33:57.524869+00:00
 tags: [record, real-data]
 ---
 

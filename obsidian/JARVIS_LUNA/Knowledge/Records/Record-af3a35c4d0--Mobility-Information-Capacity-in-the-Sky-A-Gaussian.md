@@ -2,7 +2,7 @@
 title: "Record af3a35c4d0 · Mobility-Information-Capacity-in-the-Sky-A-Gaussian-Channel-Perspectiv"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.106389+00:00
+updated_at: 2026-09-12T15:33:57.131208+00:00
 tags: [record, real-data]
 ---
 

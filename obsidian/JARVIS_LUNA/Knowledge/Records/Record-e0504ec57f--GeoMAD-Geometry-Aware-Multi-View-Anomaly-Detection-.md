@@ -2,7 +2,7 @@
 title: "Record e0504ec57f · GeoMAD-Geometry-Aware-Multi-View-Anomaly-Detection-via-Deformable-Fusi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T13:29:59.612624+00:00
+updated_at: 2026-09-12T15:33:57.581154+00:00
 tags: [record, real-data]
 ---
 
