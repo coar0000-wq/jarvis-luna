@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T00:45:38.095068Z",
+  "generated_at": "2026-09-12T00:47:48.277945Z",
   "version": "3.0-gosi-product-evidence-required",
   "gosi": {
     "items": [
@@ -11,13 +11,13 @@
         "category": "합격자발표",
         "evidence": {
           "source_url": "https://www.gosi.kr/announce/2026-9th-pass",
-          "collected_at": "2026-09-12T00:45:38.041882Z",
+          "collected_at": "2026-09-12T00:47:48.138005Z",
           "raw_snippet": "2026년도 9급 공채 필기시험 합격자 5,432명 발표 - 인사혁신처 공고 제2026-123호",
           "method": "gosi_kr_crawler"
         }
       }
     ],
-    "updated_at": "2026-09-12T00:45:38.041894Z",
+    "updated_at": "2026-09-12T00:47:48.138016Z",
     "count": 1,
     "source": "https://www.gosi.kr",
     "evidence_required": true
@@ -34,13 +34,13 @@
         "seasonality": "Seasonal momentum",
         "evidence": {
           "source_url": "https://trends.google.com/trends/explore?date=today%203-m&q=hydrating%20serum",
-          "collected_at": "2026-09-12T00:45:38.068316Z",
+          "collected_at": "2026-09-12T00:47:48.176316Z",
           "raw_snippet": "Interest: 68 -> 84 (past 7 days), +24% WoW",
           "method": "google_trends_api"
         }
       }
     ],
-    "updated_at": "2026-09-12T00:45:38.068328Z",
+    "updated_at": "2026-09-12T00:47:48.176326Z",
     "count": 1,
     "evidence_required": true
   },
