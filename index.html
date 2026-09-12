@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
@@ -721,9 +721,9 @@ const list=$('team-list'); if(!list) return;
 const teams=Array.isArray(d.teams)?d.teams:[];
 
 // 비서실장은 런타임 teams 데이터와 무관하게 항상 최상단에 표시한다.
-// 이미지 파일은 images/비서실장.png 를 우선 사용하고, 없으면 JARVIS 기본 아이콘으로 대체한다.
+// 이미지 파일은 images/teams/secretary.png 를 우선 사용하고, 없으면 JARVIS 기본 아이콘으로 대체한다.
 const secretary = '<li class="team-row secretary-row">'+
-  '<div class="team-icon"><img src="images/비서실장.png" alt="비서실장" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\';" style="border-radius:11px;" />'+
+  '<div class="team-icon"><img src="images/teams/secretary.png" alt="비서실장" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\';" style="border-radius:11px;" />'+
   '<div class="team-icon-fb secretary-fallback" style="display:none;background:#2a2a2a;"><svg viewBox="0 0 24 24">'+TEAM_GLYPH.robot+'</svg></div></div>'+
   '<div class="team-body">'+
   '<div class="team-name">비서실장<span class="team-badge secretary-badge">총괄</span><span class="team-when">상시</span></div>'+
@@ -1512,3 +1512,4 @@ a.classList.add('active');
 </script>
 </body>
 </html>
+
