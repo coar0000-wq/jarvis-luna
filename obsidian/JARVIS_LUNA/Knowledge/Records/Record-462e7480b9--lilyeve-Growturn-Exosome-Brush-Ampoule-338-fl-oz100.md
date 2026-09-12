@@ -2,7 +2,7 @@
 title: "Record 462e7480b9 · lilyeve-Growturn-Exosome-Brush-Ampoule-338-fl-oz100ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.440923+00:00
+updated_at: 2026-09-12T10:49:31.391490+00:00
 tags: [record, real-data]
 ---
 

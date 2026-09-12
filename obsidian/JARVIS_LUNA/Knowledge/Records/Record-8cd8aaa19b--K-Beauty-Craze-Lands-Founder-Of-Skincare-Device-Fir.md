@@ -2,7 +2,7 @@
 title: "Record 8cd8aaa19b · K-Beauty-Craze-Lands-Founder-Of-Skincare-Device-Firm-In-Ranks-Of-South"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.173204+00:00
+updated_at: 2026-09-12T10:49:31.072070+00:00
 tags: [record, real-data]
 ---
 

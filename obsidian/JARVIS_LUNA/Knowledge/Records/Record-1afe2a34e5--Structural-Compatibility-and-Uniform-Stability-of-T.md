@@ -2,7 +2,7 @@
 title: "Record 1afe2a34e5 · Structural-Compatibility-and-Uniform-Stability-of-Temporally-Degenerat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:40.900926+00:00
+updated_at: 2026-09-12T10:49:30.882620+00:00
 tags: [record, real-data]
 ---
 

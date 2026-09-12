@@ -2,7 +2,7 @@
 title: "Record d0812d12f0 · SKIN1004-Madagascar-Centella-Hyalu-cica-Water-fit-Sun-Serum-UV-169-fl-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.432022+00:00
+updated_at: 2026-09-12T10:49:31.386887+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9e229ec2dc · sonatural-Powder4room-All-Day-Tight-Make-Up-Setting-Fixx-253-fl-oz75ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.431072+00:00
+updated_at: 2026-09-12T10:49:31.386431+00:00
 tags: [record, real-data]
 ---
 

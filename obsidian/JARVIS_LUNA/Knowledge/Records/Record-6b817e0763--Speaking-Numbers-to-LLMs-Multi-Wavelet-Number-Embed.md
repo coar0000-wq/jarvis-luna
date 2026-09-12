@@ -2,7 +2,7 @@
 title: "Record 6b817e0763 · Speaking-Numbers-to-LLMs-Multi-Wavelet-Number-Embeddings-for-Time-Seri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.406752+00:00
+updated_at: 2026-09-12T10:49:31.373435+00:00
 tags: [record, real-data]
 ---
 

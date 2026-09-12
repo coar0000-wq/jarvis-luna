@@ -2,7 +2,7 @@
 title: "Record 665be143d0 · Scaling-Graph-Neural-Networks-for-Friend-Recommendation-Multi-Hash-Use"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.612852+00:00
+updated_at: 2026-09-12T10:49:31.488146+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 972c5d2329 · Mia-Korean-Skincare-Highlights-Growing-Interest-in-K-Beauty-in-Milan--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.349393+00:00
+updated_at: 2026-09-12T10:49:31.236792+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - Issuewire.com
 
 Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - Issuewire.com
+Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - Issuewire.com
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

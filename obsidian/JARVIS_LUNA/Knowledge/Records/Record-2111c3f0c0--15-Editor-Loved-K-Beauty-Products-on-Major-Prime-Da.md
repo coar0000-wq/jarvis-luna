@@ -2,7 +2,7 @@
 title: "Record 2111c3f0c0 · 15-Editor-Loved-K-Beauty-Products-on-Major-Prime-Day-Sale---Harpers-BA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.311513+00:00
+updated_at: 2026-09-12T10:49:31.217715+00:00
 tags: [record, real-data]
 ---
 

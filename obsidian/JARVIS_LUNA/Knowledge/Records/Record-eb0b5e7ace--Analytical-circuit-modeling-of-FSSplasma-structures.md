@@ -2,7 +2,7 @@
 title: "Record eb0b5e7ace · Analytical-circuit-modeling-of-FSSplasma-structures-Analysis-on-reflec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.038831+00:00
+updated_at: 2026-09-12T10:49:31.001324+00:00
 tags: [record, real-data]
 ---
 

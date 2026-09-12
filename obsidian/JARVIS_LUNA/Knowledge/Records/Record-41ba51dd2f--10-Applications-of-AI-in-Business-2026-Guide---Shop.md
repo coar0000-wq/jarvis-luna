@@ -2,7 +2,7 @@
 title: "Record 41ba51dd2f · 10-Applications-of-AI-in-Business-2026-Guide---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.223731+00:00
+updated_at: 2026-09-12T10:49:31.173609+00:00
 tags: [record, real-data]
 ---
 

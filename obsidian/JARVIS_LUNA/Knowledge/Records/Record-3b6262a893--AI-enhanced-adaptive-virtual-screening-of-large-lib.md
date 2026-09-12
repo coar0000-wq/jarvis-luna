@@ -2,7 +2,7 @@
 title: "Record 3b6262a893 · AI-enhanced-adaptive-virtual-screening-of-large-libraries-for-ligand-d"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.035726+00:00
+updated_at: 2026-09-12T10:49:30.999516+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record fb429cc3ad · Samsung-Hosts-PlayGalaxy-Cup-World-Final-at-Gamescom-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.372146+00:00
+updated_at: 2026-09-12T10:49:31.248504+00:00
 tags: [record, real-data]
 ---
 

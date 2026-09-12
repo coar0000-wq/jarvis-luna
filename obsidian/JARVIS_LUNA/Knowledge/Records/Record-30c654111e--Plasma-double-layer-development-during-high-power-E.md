@@ -2,7 +2,7 @@
 title: "Record 30c654111e · Plasma-double-layer-development-during-high-power-EUV-exposure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.408206+00:00
+updated_at: 2026-09-12T10:49:31.374171+00:00
 tags: [record, real-data]
 ---
 

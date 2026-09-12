@@ -2,7 +2,7 @@
 title: "Record c435d09471 · Barclays-launches-ISA-and-Life-Insurance-reward-offers-worth-up-to-750"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.148854+00:00
+updated_at: 2026-09-12T10:49:31.058831+00:00
 tags: [record, real-data]
 ---
 

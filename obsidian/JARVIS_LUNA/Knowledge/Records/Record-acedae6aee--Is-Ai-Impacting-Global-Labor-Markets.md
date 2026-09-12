@@ -2,7 +2,7 @@
 title: "Record acedae6aee · Is-Ai-Impacting-Global-Labor-Markets"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.491679+00:00
+updated_at: 2026-09-12T10:49:31.418370+00:00
 tags: [record, real-data]
 ---
 

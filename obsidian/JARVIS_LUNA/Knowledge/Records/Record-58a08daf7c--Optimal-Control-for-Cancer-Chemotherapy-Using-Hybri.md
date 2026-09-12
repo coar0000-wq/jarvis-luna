@@ -2,7 +2,7 @@
 title: "Record 58a08daf7c · Optimal-Control-for-Cancer-Chemotherapy-Using-Hybrid-Quantum-Particle-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:40.969335+00:00
+updated_at: 2026-09-12T10:49:30.950152+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 33e8c65357 · I-Test-Korean-Skin-Care-Products-for-a-LivingThese-Are-My-10-Favorites"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.224357+00:00
+updated_at: 2026-09-12T10:49:31.173920+00:00
 tags: [record, real-data]
 ---
 

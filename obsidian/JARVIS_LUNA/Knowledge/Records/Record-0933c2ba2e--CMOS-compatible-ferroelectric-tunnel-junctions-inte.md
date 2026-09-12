@@ -2,7 +2,7 @@
 title: "Record 0933c2ba2e · CMOS-compatible-ferroelectric-tunnel-junctions-integrate-stochastic-sa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.032684+00:00
+updated_at: 2026-09-12T10:49:30.997810+00:00
 tags: [record, real-data]
 ---
 

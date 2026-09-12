@@ -2,7 +2,7 @@
 title: "Record 9068bbd7de · Is-Vitamin-C-REALLY-Worth-the-HYPE-GOOD-yet-affordable-Vitamin-C-that-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.546314+00:00
+updated_at: 2026-09-12T10:49:31.449726+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1ea3866143 · Domain-Specific-Hallucination-Detection-in-Large-Language-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:40.982180+00:00
+updated_at: 2026-09-12T10:49:30.956733+00:00
 tags: [record, real-data]
 ---
 

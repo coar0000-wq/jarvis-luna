@@ -2,7 +2,7 @@
 title: "Record 71a67e1bd9 · Single-crystalline-CoSi-semimetals-with-high-conductivity-and-reliabil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.034208+00:00
+updated_at: 2026-09-12T10:49:30.998671+00:00
 tags: [record, real-data]
 ---
 

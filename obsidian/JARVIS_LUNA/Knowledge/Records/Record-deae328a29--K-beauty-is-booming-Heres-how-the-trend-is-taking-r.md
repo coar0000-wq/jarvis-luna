@@ -2,7 +2,7 @@
 title: "Record deae328a29 · K-beauty-is-booming-Heres-how-the-trend-is-taking-root-in-the-DC-area-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.333148+00:00
+updated_at: 2026-09-12T10:49:31.228766+00:00
 tags: [record, real-data]
 ---
 

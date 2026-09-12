@@ -2,7 +2,7 @@
 title: "Record b728c77918 · The-20-Best-Korean-Beauty-Products-for-Mature-Skin-According-to-a-K-Be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.326131+00:00
+updated_at: 2026-09-12T10:49:31.225213+00:00
 tags: [record, real-data]
 ---
 

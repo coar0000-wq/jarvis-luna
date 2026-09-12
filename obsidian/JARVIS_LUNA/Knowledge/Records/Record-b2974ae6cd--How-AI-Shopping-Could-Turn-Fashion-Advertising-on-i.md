@@ -2,7 +2,7 @@
 title: "Record b2974ae6cd · How-AI-Shopping-Could-Turn-Fashion-Advertising-on-its-Head---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.301413+00:00
+updated_at: 2026-09-12T10:49:31.212745+00:00
 tags: [record, real-data]
 ---
 

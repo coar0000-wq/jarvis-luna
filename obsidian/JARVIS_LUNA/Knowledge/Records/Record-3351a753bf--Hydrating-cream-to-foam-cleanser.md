@@ -2,7 +2,7 @@
 title: "Record 3351a753bf · Hydrating-cream-to-foam-cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.443309+00:00
+updated_at: 2026-09-12T10:49:31.392660+00:00
 tags: [record, real-data]
 ---
 

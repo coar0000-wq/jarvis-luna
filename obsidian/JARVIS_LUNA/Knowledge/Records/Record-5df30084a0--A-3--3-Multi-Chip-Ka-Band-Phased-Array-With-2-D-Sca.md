@@ -2,7 +2,7 @@
 title: "Record 5df30084a0 · A-3--3-Multi-Chip-Ka-Band-Phased-Array-With-2-D-Scalable-LO-Distributi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.055804+00:00
+updated_at: 2026-09-12T10:49:31.010902+00:00
 tags: [record, real-data]
 ---
 

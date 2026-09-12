@@ -2,7 +2,7 @@
 title: "Record 693c646921 · Shopify-Inc-SHOP-Shows-Why-AI-Search-Could-Become-a-Bigger-E-Commerce-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.311314+00:00
+updated_at: 2026-09-12T10:49:31.217620+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilgFBVV95cUxQcFZPNGhmcnplaE5pUU9hLXNoY3lYRmVPS1EyQ1BYQ1AxamJxaVFqdHV2OThkcUQ1SFRLNTZUdlh1M1EwbnF3c2JLRXpXYjlRWmtoUEpqY21ibzJnVl9VTXBaZFl3cGs4WHRSS0RSUlhXMXJYMmNnQmVfQUNmUEdvQlo2b1RveHNMT1NSU3RTZmFRb01VM1E?oc=5)
 
-**제목:** Shopify Inc. (SHOP) Shows Why AI Search Could Become a Bigger E-Commerce Growth Channel - finance.yahoo.com
+**제목:** Shopify Inc. (SHOP) Shows Why AI Search Could Become a Bigger E-Commerce Growth Channel - Yahoo Finance
 
-Shopify Inc. (SHOP) Shows Why AI Search Could Become a Bigger E-Commerce Growth Channel - finance.yahoo.com
+Shopify Inc. (SHOP) Shows Why AI Search Could Become a Bigger E-Commerce Growth Channel - Yahoo Finance
 
 **출처:** Source · Google Search
 

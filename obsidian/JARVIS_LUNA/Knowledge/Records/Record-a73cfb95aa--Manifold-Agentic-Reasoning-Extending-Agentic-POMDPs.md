@@ -2,7 +2,7 @@
 title: "Record a73cfb95aa · Manifold-Agentic-Reasoning-Extending-Agentic-POMDPs-and-Post-Training-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.137126+00:00
+updated_at: 2026-09-12T10:49:31.052872+00:00
 tags: [record, real-data]
 ---
 

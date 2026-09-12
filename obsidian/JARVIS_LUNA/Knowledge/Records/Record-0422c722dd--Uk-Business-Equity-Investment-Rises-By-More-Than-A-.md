@@ -2,7 +2,7 @@
 title: "Record 0422c722dd · Uk-Business-Equity-Investment-Rises-By-More-Than-A-Quarter-In-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.144821+00:00
+updated_at: 2026-09-12T10:49:31.056802+00:00
 tags: [record, real-data]
 ---
 

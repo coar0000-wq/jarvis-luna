@@ -2,7 +2,7 @@
 title: "Record 9958b39a9d · A-Numerical-Model-for-Combustion-and-Condensation-of-Micron-sized-Alum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.008375+00:00
+updated_at: 2026-09-12T10:49:30.984641+00:00
 tags: [record, real-data]
 ---
 

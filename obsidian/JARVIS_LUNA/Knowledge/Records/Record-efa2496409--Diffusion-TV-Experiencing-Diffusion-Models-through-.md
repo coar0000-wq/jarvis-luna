@@ -2,7 +2,7 @@
 title: "Record efa2496409 · Diffusion-TV-Experiencing-Diffusion-Models-through-Tangible-Embodied-I"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:40.930905+00:00
+updated_at: 2026-09-12T10:49:30.912105+00:00
 tags: [record, real-data]
 ---
 

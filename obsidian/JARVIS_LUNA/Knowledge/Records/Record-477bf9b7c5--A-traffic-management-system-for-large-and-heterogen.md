@@ -2,7 +2,7 @@
 title: "Record 477bf9b7c5 · A-traffic-management-system-for-large-and-heterogeneous-vehicles-in-na"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:40.961596+00:00
+updated_at: 2026-09-12T10:49:30.944642+00:00
 tags: [record, real-data]
 ---
 

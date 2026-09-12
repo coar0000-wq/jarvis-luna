@@ -2,7 +2,7 @@
 title: "Record 35bf9da074 · Explainable-and-Resource-Efficient-Spatial-Reasoning-in-Multimodal-LLM"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:41.415829+00:00
+updated_at: 2026-09-12T10:49:31.378117+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 42b5b394cf · A-Confidence-Aware-Multimodal-Fusion-Framework-for-Industrial-Human-Ro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T05:23:40.960098+00:00
+updated_at: 2026-09-12T10:49:30.943882+00:00
 tags: [record, real-data]
 ---
 
