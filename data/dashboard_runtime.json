@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T14:42:11.350981+09:00",
+  "generated_at": "2026-09-12T15:01:16.057924+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -30,7 +30,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-12T14:36:10.870332+09:00",
+      "when": "2026-09-12T15:01:02.573338+09:00",
       "summary": "S등급 7개 · 고시표 입력 대기 1건 · 새 자료 38건",
       "action": "다이소 상세페이지 고시 표 1건 캡처 필요",
       "status": "ok",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-12T14:42:07.008228+09:00",
+      "when": "2026-09-12T15:01:05.636720+09:00",
       "summary": "81,109노트 · 320,885링크 · 끊어진 링크 110건 · 개인 노트 16건 별도 · 경고 통과(임계 300)",
       "action": null,
       "status": "ok",
@@ -285,7 +285,7 @@
     "status": "completed",
     "record_count": 3194,
     "source_counts": {},
-    "updated_at": "2026-09-12T14:36:10.580326+09:00"
+    "updated_at": "2026-09-12T15:01:02.566253+09:00"
   },
   "graph": {
     "notes": 81109,
@@ -299,7 +299,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-12T14:42:07.008228+09:00"
+    "last_generated": "2026-09-12T15:01:05.636720+09:00"
   },
   "training": {
     "status": "completed",
@@ -1394,21 +1394,21 @@
     "amazon_best_sellers": {
       "status": "stale",
       "source": "사람이 직접 확인 (sephora_2026-09-01.json)",
-      "reason": "2026-09-01 이후 갱신 없음 (11.2일). 출처 URL 미기재",
+      "reason": "2026-09-01 이후 갱신 없음 (11.3일). 출처 URL 미기재",
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 9,
       "trust": "manual",
-      "age_hours": 269.7,
+      "age_hours": 270.0,
       "stale": true
     },
     "walmart_beauty": {
       "status": "stale",
       "source": "사람이 직접 확인 (sephora_2026-09-01.json)",
-      "reason": "2026-09-01 이후 갱신 없음 (11.2일). 출처 URL 미기재",
+      "reason": "2026-09-01 이후 갱신 없음 (11.3일). 출처 URL 미기재",
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 5,
       "trust": "manual",
-      "age_hours": 269.7,
+      "age_hours": 270.0,
       "stale": true
     },
     "oliveyoung_us": {
@@ -1418,7 +1418,7 @@
       "collected_at": "2026-09-12T05:17:22.056486+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.4,
+      "age_hours": 0.7,
       "stale": false
     },
     "google_trends_us": {
@@ -1428,7 +1428,7 @@
       "collected_at": "2026-09-12T05:18:01.024242+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.4,
+      "age_hours": 0.7,
       "stale": false
     },
     "wikipedia_interest": {
@@ -1439,7 +1439,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-11 ~ 2026-09-09 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 7.0,
+      "age_hours": 7.3,
       "stale": false
     },
     "allure_media": {
@@ -1450,7 +1450,7 @@
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 7.0,
+      "age_hours": 7.3,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -1461,7 +1461,7 @@
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 7.0,
+      "age_hours": 7.3,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1483,21 +1483,21 @@
     "ulta_beauty": {
       "status": "stale",
       "source": "사람이 직접 확인 (sephora_2026-09-01.json)",
-      "reason": "2026-09-01 이후 갱신 없음 (11.2일). 출처 URL 미기재",
+      "reason": "2026-09-01 이후 갱신 없음 (11.3일). 출처 URL 미기재",
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 8,
       "trust": "manual",
-      "age_hours": 269.7,
+      "age_hours": 270.0,
       "stale": true
     },
     "sephora": {
       "status": "stale",
       "source": "사람이 직접 확인 (sephora_2026-09-01.json)",
-      "reason": "2026-09-01 이후 갱신 없음 (11.2일). 출처 URL 미기재",
+      "reason": "2026-09-01 이후 갱신 없음 (11.3일). 출처 URL 미기재",
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 10,
       "trust": "manual",
-      "age_hours": 269.7,
+      "age_hours": 270.0,
       "stale": true
     },
     "open_beauty_facts": {
@@ -1507,7 +1507,7 @@
       "collected_at": "2026-09-12T05:17:21.442382+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.4,
+      "age_hours": 0.7,
       "stale": false
     }
   },
