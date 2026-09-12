@@ -22,6 +22,11 @@ def validate_evidence(item: dict) -> bool:
     return True
 
 def collect_real_products():
+    """
+    여기에 실제 수집 로직 구현
+    예: Google Trends, Naver DataLab API 등
+    현재는 예시 데이터 1개 (증거 포함된 정상 예시)
+    """
     products = [
         {
             "id": "hydrating-serum",
@@ -39,7 +44,9 @@ def collect_real_products():
             }
         }
     ]
+    
     valid = [p for p in products if validate_evidence(p)]
+    
     if not valid:
         DATA_PATH.write_text(json.dumps({
             "products": [],
@@ -48,6 +55,7 @@ def collect_real_products():
         }, indent=2), encoding="utf-8")
         print("ℹ️ 유효 데이터 없음 - 위젯 숨김")
         return []
+    
     DATA_PATH.write_text(json.dumps({
         "products": valid,
         "updated_at": datetime.datetime.utcnow().isoformat() + "Z"
