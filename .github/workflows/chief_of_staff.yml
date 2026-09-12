@@ -32,19 +32,7 @@ jobs:
         run: |
           if [ -f data/team_status.json ]; then
             cat data/team_status.json | python -m json.tool || true
-            python3 - <<'PY'
-          import json
-
-          with open("data/team_status.json", "r", encoding="utf-8") as f:
-              d = json.load(f)
-
-          fail_count = len([
-              r for r in d.get("reports", [])
-              if r.get("status") == "이상"
-          ])
-
-          print(f"이상: {fail_count}건")
-          PY
+            python3 -c "import json; d=json.load(open('data/team_status.json', encoding='utf-8')); print('이상:', len([r for r in d.get('reports', []) if r.get('status') == '이상']))"
           else
             echo "data/team_status.json not found"
           fi
@@ -59,24 +47,16 @@ jobs:
       - name: Check FAIL after auto-fix
         run: |
           if [ -f data/team_status.json ]; then
-            python3 - <<'PY'
-          import json
-
-          with open("data/team_status.json", "r", encoding="utf-8") as f:
-              d = json.load(f)
-
-          fail_count = len([
-              r for r in d.get("reports", [])
-              if r.get("status") == "이상"
-          ])
-
-          print(f"FAIL Count after fix: {fail_count}")
-          PY
+            python3 -c "import json; d=json.load(open('data/team_status.json', encoding='utf-8')); print('FAIL Count after fix:', len([r for r in d.get('reports', []) if r.get('status') == '이상']))"
           else
             echo "data/team_status.json not found"
           fi
 
-          cat data/chief_of_staff_log.json || echo "no log"
+          if [ -f data/chief_of_staff_log.json ]; then
+            cat data/chief_of_staff_log.json
+          else
+            echo "no log"
+          fi
 
       - name: Commit and push fixed data
         run: |
@@ -93,7 +73,6 @@ jobs:
           git commit -m "fix: auto-fix FAIL - $(date +%Y-%m-%d) - JARVIS auto"
 
           git fetch origin main
-
           git rebase origin/main
 
           git push origin HEAD:main
