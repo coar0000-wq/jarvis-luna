@@ -141,7 +141,7 @@ def convert_ingredients(kr_ingredients: str) -> tuple:
     protected = protect_comma(kr_ingredients)
     parts = [p.strip() for p in protected.split(",") if p.strip()]
     parts = [restore_comma(p) for p in parts]
-    
+
     inci = []
     unmapped = []
     for kr in parts:
@@ -159,27 +159,27 @@ def generate_us_label():
     if not DATA_PATH.exists():
         print(f"❌ 파일 없음: {DATA_PATH}")
         return {}
-    
+
     data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
     items = data.get("items", {})
-    
+
     print(f"📦 등록후보 S: {len(items)}개")
-    
+
     us_labels = {}
     unmapped_total = {}
-    
+
     for pid, info in items.items():
         # 필수 4개 체크 (gosi_ok 상관없이 S면 변환 시도)
         required = ["ingredients", "volume", "maker", "origin"]
         if not all(info.get(k) and str(info.get(k)).strip() for k in required):
             print(f"❌ {pid} 필수 누락 스킵")
             continue
-        
+
         inci, unmapped = convert_ingredients(info.get("ingredients", ""))
-        
+
         if unmapped:
             unmapped_total[pid] = unmapped
-        
+
         us_labels[pid] = {
             "id": pid,
             "product_name_kr": info.get("name"),
@@ -199,18 +199,18 @@ def generate_us_label():
             "unmapped": unmapped,
             "captured_at": info.get("captured_at")
         }
-    
+
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(us_labels, ensure_ascii=False, indent=2), encoding="utf-8")
-    
+
     ready = sum(1 for v in us_labels.values() if v["english_copy_ready"])
     print(f"✅ US 라벨 {len(us_labels)}개 생성 (영문준비: {ready}/{len(us_labels)})")
-    
+
     if unmapped_total:
         print("⚠️ 매핑 필요:")
         for pid, um in unmapped_total.items():
-            print(f"  {pid}: {um}")
-    
+            print(f" {pid}: {um}")
+
     # CSV 생성 (Shopify 자동 등록용)
     import csv
     csv_path = OUTPUT_PATH.parent / "daiso_us_labels.csv"
@@ -219,7 +219,7 @@ def generate_us_label():
         writer.writeheader()
         for v in us_labels.values():
             writer.writerow({k: v.get(k,"") for k in ["id","product_name_en","net_contents","ingredients_inci","manufacturer","english_copy_ready","shopify_ready"]})
-    
+
     return us_labels
 
 if __name__ == "__main__":
