@@ -1,4 +1,11 @@
-name: DAISO GOSI Vision
+name: 고시 수집·비전 추출
+
+# 1) 다이소 API + 상세 이미지 다운로드
+# 2) Gemini 비전으로 전성분·제조사·용량 읽기
+# 3) gosi.json + 이미지 커밋
+#
+# 필요 시크릿: GEMINI_API_KEY
+# (없으면 이미지 수집까지만 하고 비전은 건너뜀)
 
 on:
   workflow_dispatch:
@@ -9,19 +16,20 @@ permissions:
   contents: write
 
 concurrency:
-  # 모든 main 자동 발행 워크플로가 공유하는 잠금 그룹
   group: main-publish
-  # 동시에 들어온 실행을 최대 100개까지 대기열에 보관한다.
-  queue: max
-  # 실행 중인 데이터 생성은 중단하지 않고 다음 실행을 대기시킨다.
   cancel-in-progress: false
+
 jobs:
   collect:
+    name: Collect images + vision extract
     runs-on: ubuntu-latest
+    timeout-minutes: 45
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -33,20 +41,82 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml
 
-      - name: Collect DAISO GOSI
-        run: |
-          python scripts/collect_daiso_gosi.py
+      - name: Collect DAISO GOSI images
+        run: python scripts/collect_daiso_gosi.py
 
-      - name: Commit updated gosi.json
+      - name: Vision extract (ingredients / maker / volume)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          VISION_BUDGET_SEC: "1200"
+        run: python scripts/extract_gosi_vision.py
+
+      - name: Summary
+        if: always()
+        run: |
+          python3 <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          p = Path("data/gosi.json")
+          if not p.exists():
+              print("gosi.json 없음")
+              raise SystemExit
+          d = json.loads(p.read_text(encoding="utf-8-sig"))
+          items = d.get("items") or {}
+          if isinstance(items, list):
+              items = {str(i.get("pd_no")): i for i in items if isinstance(i, dict)}
+          need = ("ingredients", "volume", "maker", "origin")
+          done = sum(
+              1 for r in items.values()
+              if isinstance(r, dict) and all(str(r.get(f) or "").strip() for f in need)
+          )
+          print(f"## 고시 수집 결과")
+          print(f"- 상품 {len(items)}건 · 필수 4항목 완료 **{done}/{len(items)}**")
+          print(f"- vision_status: `{d.get('vision_status', '-')}`")
+          print(f"- vision_note: {d.get('vision_note', '')[:200]}")
+          fails = d.get("vision_failures") or []
+          if fails:
+              print(f"- 실패 {len(fails)}건")
+              for f in fails[:8]:
+                  print(f"  - {f.get('pd_no')}: {f.get('reason')}")
+          print("")
+          print("| pd_no | volume | maker | origin | ingredients |")
+          print("|---|---|---|---|---|")
+          for k, r in list(items.items())[:12]:
+              if not isinstance(r, dict):
+                  continue
+              ing = str(r.get("ingredients") or "")
+              print(
+                  f"| {k} | {str(r.get('volume') or '')[:20]} | "
+                  f"{str(r.get('maker') or '')[:24]} | "
+                  f"{str(r.get('origin') or '')[:10]} | "
+                  f"{len(ing)}자 |"
+              )
+          PY
+
+      - name: Commit gosi.json + images
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/gosi.json
+          git add data/gosi.json data/daiso_real/gosi_img/ || true
 
           if git diff --cached --quiet; then
             echo "No changes"
-          else
-            git commit -m "Update DAISO GOSI"
-            git push
+            exit 0
           fi
+
+          git commit -m "고시 이미지 수집 + 비전 추출 (전성분/제조사/용량)"
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "Push success"
+              exit 0
+            fi
+            git fetch origin main
+            git rebase --autostash origin/main || {
+              git rebase --abort || true
+              exit 1
+            }
+            sleep $((attempt * 5))
+          done
+          exit 1
