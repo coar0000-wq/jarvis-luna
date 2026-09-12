@@ -82,29 +82,48 @@ def http_json(url: str, payload: dict | None = None) -> dict:
 
 
 def pick_models(key: str) -> list[str]:
+    """사용 가능한 비전 모델만 고른다.
+
+    2026-09-12 실측: gemini-2.5-flash-lite 는 HTTP 404
+    (no longer available). lite / discontinued 는 제외한다.
+    """
     forced = os.environ.get("GEMINI_MODEL", "").strip()
     if forced:
         return [forced]
+
+    fallback = [
+        "gemini-2.0-flash",
+        "gemini-2.0-flash-001",
+        "gemini-1.5-flash",
+        "gemini-1.5-pro",
+    ]
     try:
         d = http_json(f"{API_ROOT}/models?key={key}&pageSize=200")
     except Exception as exc:
-        print(f"모델 목록 조회 실패: {exc}")
-        return ["gemini-2.0-flash", "gemini-1.5-flash"]
+        print(f"모델 목록 조회 실패: {exc} → fallback 사용")
+        return fallback
+
     usable = [
         m["name"].replace("models/", "")
         for m in d.get("models", [])
         if "generateContent" in (m.get("supportedGenerationMethods") or [])
     ]
+    ban = ("lite", "discontinued", "vision-exp", "1.0")
+    usable = [n for n in usable if not any(b in n.lower() for b in ban)]
+
     order, seen = [], set()
     for pat in (
-        "2.5-flash", "2.0-flash", "flash-latest", "1.5-flash",
-        "2.5-pro", "1.5-pro", "pro",
+        "2.0-flash", "flash-latest", "1.5-flash",
+        "2.5-flash", "2.0-pro", "1.5-pro", "pro",
     ):
         for name in usable:
-            if pat in name.lower() and name not in seen:
+            low = name.lower()
+            if pat in low and name not in seen:
+                if "lite" in low:
+                    continue
                 order.append(name)
                 seen.add(name)
-    return order[:3] or usable[:2]
+    return (order[:4] or usable[:3] or fallback)
 
 
 def mime_of(path: Path) -> str:
