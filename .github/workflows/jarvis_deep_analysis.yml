@@ -1,4 +1,25 @@
-name: JARVIS Deep Analysis
+# 루트 수집기 3종 (gosi_collector / product_discovery / inci_converter)
+#
+# 이 파일은 JARVIS-Deep-Analysis.yml 과 다른 파일이다.
+# 2026-09-12 까지 둘 다 name 이 "JARVIS Deep Analysis" 라서
+# Actions 화면에서 구분이 안 됐다. 그래서 이름을 바꿨다.
+#
+# 그동안 이 워크플로가 한 일:
+#   gosi_collector.py 가 data/gosi.json 에 공무원 시험 공고를 썼다.
+#   그 파일은 다이소 화장품 고시 전용이고 MoCRA 신고에 쓰는 값이다.
+#   gosi-vision 이 14건을 채우면 이 워크플로가 1건으로 지웠다.
+#   git log 30개를 되짚어 보니 하루 종일 서로 덮고 있었다.
+#   게다가 git add -A 로 전부 담아 push 해서 남의 결과까지 되돌렸다.
+#
+# 고친 것:
+#   1. gosi_collector 는 이제 data/civil_service_gosi.json 에만 쓴다
+#   2. 커밋 직전에 scripts/guard_gosi.py 로 화장품 고시를 지킨다
+#   3. git add -A 대신 발행 액션을 쓴다. 이번에 만든 파일만 올린다
+#   4. 루트 generate_dashboard_runtime.py 중복본 대신
+#      scripts/generate_dashboard_runtime.py 를 쓴다 (다른 워크플로와 같은 것)
+#   5. 없는 shopify_uploader.py 를 부르던 단계를 뺐다
+
+name: 루트 수집기 3종 (gosi / product / inci)
 
 on:
   workflow_dispatch:
@@ -10,7 +31,6 @@ on:
     paths:
       - 'product_discovery.py'
       - 'gosi_collector.py'
-      - 'generate_dashboard_runtime.py'
       - 'inci_converter.py'
 
 concurrency:
@@ -21,7 +41,7 @@ permissions:
   contents: write
 
 jobs:
-  deep-analysis:
+  root-collectors:
     runs-on: ubuntu-latest
     timeout-minutes: 25
 
@@ -38,43 +58,43 @@ jobs:
 
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install requests beautifulsoup4 || true
 
-      - name: Run GOSI collector
-        run: |
-          python gosi_collector.py
+      # 시작 상태를 남긴다. 이 실행이 고시를 망가뜨렸는지 나중에 구분하려면
+      # 들어올 때 이미 망가져 있었는지를 알아야 한다.
+      - name: 시작 시점 고시 상태 기록
+        continue-on-error: true
+        run: python -u scripts/guard_gosi.py
 
-      - name: Run product discovery
-        run: |
-          python product_discovery.py
+      - name: 시험 공고 수집 (data/civil_service_gosi.json 전용)
+        continue-on-error: true
+        run: python -u gosi_collector.py
 
-      - name: Run INCI converter
-        run: |
-          python inci_converter.py
+      - name: 상품 수요 신호 수집 (data/products.json)
+        continue-on-error: true
+        run: python -u product_discovery.py
 
-      - name: Run Shopify uploader
-        run: |
-          python shopify_uploader.py || echo "shopify optional"
+      - name: INCI 변환 (data/daiso_real/daiso_gosi.json)
+        continue-on-error: true
+        run: python -u inci_converter.py
 
-      - name: Generate dashboard runtime
-        run: |
-          python generate_dashboard_runtime.py
+      # 여기가 핵심이다. 어떤 단계가 화장품 고시를 덮었다면
+      # 커밋하기 전에 직전 정상 커밋에서 되살린다.
+      # 되살리지 못하면 종료코드 1 로 멈춘다. 망가진 채로 올리지 않는다.
+      - name: 화장품 고시 보호 (덮였으면 복구, 못 하면 중단)
+        run: python -u scripts/guard_gosi.py --restore
 
-      - name: Commit and push generated data
-        run: |
-          git config user.name "JARVIS"
-          git config user.email "jarvis@luna.bot"
+      - name: 대시보드 생성
+        run: python -u scripts/generate_dashboard_runtime.py
 
-          git add -A
-
-          if git diff --cached --quiet; then
-            echo "nothing to commit"
-            exit 0
-          fi
-
-          git commit -m "feat: JARVIS Deep Analysis - $(date +%Y-%m-%d) - auto"
-
-          git fetch origin main
-          git rebase origin/main
-
-          git push origin HEAD:main
+      # git add -A 를 쓰지 않는다. 이번 실행이 만든 것만 올린다.
+      - name: 산출물 발행 (원격 최신 위에 이번 변경만)
+        if: always()
+        uses: ./.github/actions/publish
+        with:
+          paths: >-
+            data/civil_service_gosi.json
+            data/products.json
+            data/daiso_real/daiso_gosi.json
+          message: 루트 수집기 3종 실행 결과

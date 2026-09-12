@@ -290,6 +290,55 @@ def check_deploy():
                 pass
 
 
+# ── 5. 고시 파일 주인 확인 ────────────────────────────────────
+# data/gosi.json 은 화장품 고시 전용이다. 다이소 상품의 전성분·용량·제조국이
+# 들어가고 MoCRA 신고에 쓴다. 그런데 2026-09-12 에 공무원 시험 합격자 발표로
+# 덮여 있었다. gosi_collector.py 가 같은 경로에 쓰고 있었기 때문이다.
+# 두 워크플로가 하루 종일 서로 덮었다. 사람 눈에는 둘 다 "gosi" 라 안 보였다.
+# 그래서 배포 전에 기계가 본다.
+GOSI_WRITERS = {
+    "scripts/collect_daiso_gosi.py",
+    "scripts/extract_gosi_vision.py",
+    "scripts/guard_gosi.py",
+}
+
+
+def check_gosi_owner():
+    sys.path.insert(0, str(ROOT / "scripts"))
+    try:
+        from guard_gosi import judge
+    except Exception as e:
+        warn("고시", f"scripts/guard_gosi.py 를 못 불러와 건너뜀: {str(e)[:60]}")
+        return
+
+    p = ROOT / "data" / "gosi.json"
+    t = read(p)
+    if t is None:
+        fail("고시", "data/gosi.json 을 읽지 못했다")
+    else:
+        good, why = judge(t)
+        if good:
+            ok("고시", f"data/gosi.json 정상 — {why}")
+        else:
+            fail("고시",
+                 f"data/gosi.json 이 화장품 고시가 아니다 — {why}. "
+                 "시험 공고는 data/civil_service_gosi.json 으로 가야 한다. "
+                 "python scripts/guard_gosi.py --restore 로 되살린다")
+
+    # 허락한 곳 말고 다른 데서 이 파일에 쓰고 있는지 본다.
+    for f in list(walk("*.py")):
+        rel = f.relative_to(ROOT).as_posix()
+        if rel in GOSI_WRITERS or rel.startswith("archive/"):
+            continue
+        txt = read(f) or ""
+        if not re.search(r'["\'][^"\']*\bgosi\.json["\']', txt):
+            continue
+        if re.search(r'\b(write_text|json\.dump)\b', txt):
+            warn("고시",
+                 f"{rel} 이 gosi.json 경로와 쓰기 호출을 같이 갖고 있다. "
+                 "화장품 고시를 덮지 않는지 확인")
+
+
 def check_undefined():
     """쓰지 않는 이름을 쓰는 곳을 찾는다.
 
@@ -336,6 +385,7 @@ def main() -> int:
     print(f"검사 대상: {'git 블롭 (' + GIT_REF + ')' if GIT_MODE else '작업 트리'}\n")
     check_integrity()
     check_undefined()
+    check_gosi_owner()
     if not quick:
         check_fake()
         check_consistency()

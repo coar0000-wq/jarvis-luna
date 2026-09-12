@@ -1,20 +1,6 @@
 {
-  "products": [
-    {
-      "id": "hydrating-serum",
-      "name": "Hydrating Serum",
-      "demand_change": 24,
-      "trend_direction": "up",
-      "category": "beauty",
-      "intent": "High intent",
-      "seasonality": "Seasonal momentum",
-      "evidence": {
-        "source_url": "https://trends.google.com/trends/explore?date=today%203-m&q=hydrating%20serum",
-        "collected_at": "2026-09-12T23:21:35.305676Z",
-        "raw_snippet": "Interest: 68 -> 84 (past 7 days), +24% WoW",
-        "method": "google_trends_api"
-      }
-    }
-  ],
-  "updated_at": "2026-09-12T23:21:35.305687Z"
+  "products": [],
+  "updated_at": "2026-09-12T23:47:10.071355+00:00",
+  "수집기": "product_discovery.py",
+  "note": "수집기가 아직 없다. 지어낸 예시 데이터를 넣지 않으려고 비워 둔다. 예전 버전은 Hydrating Serum 의 수요 증가율 24% 를 소스에 박아 두고 대시보드에 올렸다. 2026-09-12 에 제거했다. 실측 수요는 scripts/daiso/score_shopify_demand.py 를 본다."
 }

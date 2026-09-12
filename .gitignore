@@ -22,5 +22,12 @@ push*.txt
 push*.log
 *_log.txt
 _bak/
+_bak2/
 _trash/
+
+# 조사용 일회성 스크립트와 출력. 밑줄로 시작하면 올리지 않는다.
+scripts/_*.py
+zz*.md
+zz*.txt
+COMMIT*.txt
 
