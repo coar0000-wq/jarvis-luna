@@ -39,17 +39,21 @@ def validate_evidence(item: dict, name_field="title") -> bool:
     return True
 
 def build_gosi():
+    """gosi.json 검증 후 반환"""
     gosi_path = DATA_DIR / "gosi.json"
     data = load_json_safe(gosi_path, {"items": []})
     items = data.get("items", []) if isinstance(data, dict) else data
     if isinstance(items, dict):
         items = [items]
+
     valid = []
     for item in items:
         if validate_evidence(item, "title"):
             valid.append(item)
+
     if not valid:
         print("ℹ️ gosi 유효 데이터 없음 - 위젯 숨김")
+
     return {
         "items": valid,
         "updated_at": data.get("updated_at") if isinstance(data, dict) else datetime.datetime.utcnow().isoformat() + "Z",
@@ -59,12 +63,16 @@ def build_gosi():
     }
 
 def build_product_discovery():
+    """products.json 검증 후 반환"""
     products_path = DATA_DIR / "products.json"
     data = load_json_safe(products_path, {"products": []})
     products = data.get("products", []) if isinstance(data, dict) else []
+
     valid = [p for p in products if validate_evidence(p, "name")]
+
     if not valid:
         print("ℹ️ Product Discovery 유효 데이터 없음 - 위젯 숨김")
+
     return {
         "products": valid,
         "updated_at": data.get("updated_at") if isinstance(data, dict) else datetime.datetime.utcnow().isoformat() + "Z",
@@ -75,10 +83,12 @@ def build_product_discovery():
 def build_daiso():
     daiso_path = DATA_DIR / "daiso_products.json"
     data = load_json_safe(daiso_path, {"products": []})
+    # daiso도 증거 있으면 검증, 없으면 그대로 (선택적)
     return data
 
 def generate_runtime():
     print("🚀 Dashboard Runtime 생성 시작 (gosi + product 증거 검증 포함)")
+
     runtime = {
         "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
         "version": "3.0-gosi-product-evidence-required",
@@ -91,6 +101,7 @@ def generate_runtime():
             "evidence_popup": True
         }
     }
+
     RUNTIME_PATH.write_text(json.dumps(runtime, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"✅ Runtime 생성 완료: {RUNTIME_PATH}")
     print(f" - gosi: {runtime['gosi']['count']}개")
