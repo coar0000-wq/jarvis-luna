@@ -1,10 +1,22 @@
 name: Shopify 영문 리스팅 카피 생성
 
-# S등급 다이소 상품(실크롤링)의 한국어 상품명을 Gemini 로 영문 카피로 바꾸고
-# Shopify 상품 임포트 CSV 를 만든다.
+# S등급 다이소 상품의 정본이 갱신되면 자동으로 실행한다.
 #
-# 필요한 시크릿: GEMINI_API_KEY  (Google AI Studio 키)
-# 없으면 실행하지 않고 안내만 남긴다. 가짜 카피를 만들지 않는다.
+# 흐름:
+# S등급 후보 갱신
+# -> 영문 카피 자동 생성
+# -> 가격 모델 계산
+# -> Shopify CSV 생성
+# -> 등록 게이트 확인
+# -> publish 액션으로 안전하게 main 반영
+#
+# 수동 실행도 계속 지원한다.
+#
+# 필요한 시크릿:
+# GEMINI_API_KEY
+#
+# 없으면 실행은 중단하고 안내만 남긴다.
+# 가짜 카피는 만들지 않는다.
 
 on:
   workflow_dispatch:
@@ -13,13 +25,20 @@ on:
         description: '배송비 분담 전제 (1개_묶음배송 / 3개_묶음배송 / 5개_묶음배송)'
         required: false
         default: '5개_묶음배송'
+
       vendor:
         description: 'Shopify Vendor 명'
         required: false
         default: 'MD family'
 
+  # S등급 정본이 갱신되면 자동 실행
+  push:
+    paths:
+      - 'data/daiso_real/shopify_s_recommendations.json'
+
 concurrency:
-  group: shopify-listing-copy
+  # Deep Analysis / Chief of Staff와 동일한 main 작성 대기열
+  group: jarvis-main-writer-${{ github.ref }}
   cancel-in-progress: false
 
 permissions:
@@ -29,106 +48,384 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+
     steps:
-      - uses: actions/checkout@v4
+
+      # -------------------------------------------------------
+      # 최신 main 기준으로 시작
+      # -------------------------------------------------------
+      - name: 최신 메인 콘텐츠 확인
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      # -------------------------------------------------------
+      # Python
+      # -------------------------------------------------------
+      - name: Python 설정
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: 시크릿 확인
+      # -------------------------------------------------------
+      # Python 패키지
+      # -------------------------------------------------------
+      - name: 필요한 패키지 설치
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 || true
+
+      # -------------------------------------------------------
+      # Gemini API 키 확인
+      # -------------------------------------------------------
+      - name: Gemini API 키 확인
         id: guard
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           if [ -z "$GEMINI_API_KEY" ]; then
-            echo "GEMINI_API_KEY 시크릿이 없습니다." >> $GITHUB_STEP_SUMMARY
-            echo "Settings > Secrets and variables > Actions 에서 등록하세요." >> $GITHUB_STEP_SUMMARY
-            echo "ready=false" >> $GITHUB_OUTPUT
+            echo "GEMINI_API_KEY 시크릿이 없습니다." >> "$GITHUB_STEP_SUMMARY"
+            echo "GitHub Settings > Secrets and variables > Actions 에 GEMINI_API_KEY를 등록하세요." >> "$GITHUB_STEP_SUMMARY"
+            echo "ready=false" >> "$GITHUB_OUTPUT"
           else
-            echo "ready=true" >> $GITHUB_OUTPUT
+            echo "GEMINI_API_KEY 확인 완료"
+            echo "ready=true" >> "$GITHUB_OUTPUT"
           fi
 
+      # -------------------------------------------------------
+      # S등급 입력 확인
+      # -------------------------------------------------------
+      - name: S등급 정본 확인
+        if: steps.guard.outputs.ready == 'true'
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("data/daiso_real/shopify_s_recommendations.json")
+
+          if not path.exists():
+              raise SystemExit(
+                  "S등급 정본이 없습니다: "
+                  "data/daiso_real/shopify_s_recommendations.json"
+              )
+
+          data = json.loads(
+              path.read_text(encoding="utf-8")
+          )
+
+          products = data.get("recommendations") or []
+
+          print(f"S등급 후보: {len(products)}건")
+
+          for item in products:
+              print(
+                  f"- "
+                  f"{item.get('rank')}위 | "
+                  f"{item.get('pd_no')} | "
+                  f"{item.get('name')} | "
+                  f"score={item.get('shopify_score')}"
+              )
+
+          if not products:
+              raise SystemExit(
+                  "S등급 후보가 0건입니다."
+              )
+          PY
+
+      # -------------------------------------------------------
+      # 환율 갱신
+      # -------------------------------------------------------
       - name: 환율 갱신
         if: steps.guard.outputs.ready == 'true'
         continue-on-error: true
-        run: python -c "import sync_channels as s; s.fetch_and_update_fx_status()"
+        run: |
+          python -c "import sync_channels as s; s.fetch_and_update_fx_status()"
 
+      # -------------------------------------------------------
+      # OliveYoung US 시장가
+      # -------------------------------------------------------
       - name: OliveYoung US 시장가 수집
         if: steps.guard.outputs.ready == 'true'
         continue-on-error: true
-        run: python scripts/collect_oliveyoung_us.py
+        run: |
+          python scripts/collect_oliveyoung_us.py
 
+      # -------------------------------------------------------
+      # 실배송 원가 모델
+      # -------------------------------------------------------
       - name: 실배송 원가 모델 계산
         if: steps.guard.outputs.ready == 'true'
-        run: python scripts/pricing_model.py
+        run: |
+          python scripts/pricing_model.py
 
+      # -------------------------------------------------------
+      # Gemini 영문 카피
+      #
+      # 이 단계에서 S등급 전체를 읽어 카피를 생성한다.
+      # -------------------------------------------------------
       - name: Gemini 영문 카피 생성
         if: steps.guard.outputs.ready == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
-        run: python scripts/gemini_listing_copy.py
+        run: |
+          python scripts/gemini_listing_copy.py
 
+      # -------------------------------------------------------
+      # 생성 결과 검증
+      # -------------------------------------------------------
+      - name: 영문 카피 결과 검증
+        if: steps.guard.outputs.ready == 'true'
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("data/shopify_listing_copy.json")
+
+          if not path.exists():
+              raise SystemExit(
+                  "영문 카피 결과 파일이 없습니다."
+              )
+
+          data = json.loads(
+              path.read_text(encoding="utf-8")
+          )
+
+          total = int(data.get("total") or 0)
+          ok = int(data.get("ok") or 0)
+          failed = int(data.get("failed") or 0)
+
+          print(f"영문 카피 결과: {ok}/{total}")
+          print(f"실패: {failed}")
+
+          for item in data.get("items") or []:
+              status = item.get("copy_status")
+              pd_no = item.get("pd_no")
+              name = item.get("name_ko")
+
+              print(
+                  f"- {pd_no} | "
+                  f"{status} | "
+                  f"{name}"
+              )
+
+          if total == 0:
+              raise SystemExit(
+                  "영문 카피 대상이 0건입니다."
+              )
+
+          if ok == 0:
+              raise SystemExit(
+                  "영문 카피 생성 성공 상품이 0건입니다."
+              )
+          PY
+
+      # -------------------------------------------------------
+      # Shopify CSV
+      # -------------------------------------------------------
       - name: Shopify 임포트 CSV 생성
         if: steps.guard.outputs.ready == 'true'
         env:
           SHOPIFY_BUNDLE: ${{ github.event.inputs.bundle || '5개_묶음배송' }}
           SHOPIFY_VENDOR: ${{ github.event.inputs.vendor || 'MD family' }}
-        run: python scripts/build_shopify_import_csv.py
+        run: |
+          python scripts/build_shopify_import_csv.py
 
+      # -------------------------------------------------------
+      # 결과 요약
+      # -------------------------------------------------------
       - name: 결과 요약
         if: steps.guard.outputs.ready == 'true'
         run: |
-          python - <<'PY' >> $GITHUB_STEP_SUMMARY
-          import json, csv
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          import csv
           from pathlib import Path
-          d = json.loads(Path("data/shopify_listing_copy.json").read_text(encoding="utf-8"))
-          print(f"### 영문 카피 {d['ok']}/{d['total']}건 생성 (모델 {d.get('model','?')})\n")
-          rows = list(csv.DictReader(open("data/shopify_import.csv", encoding="utf-8")))
-          print(f"Shopify 임포트 CSV: {len(rows)}행\n")
-          print("| 한국어 원본 | 영문 제목 | 판매가 | 착지원가 | 순익 |")
-          print("|---|---|---|---|---|")
-          idx = {r["SKU"]: r for r in rows}
-          for it in d["items"]:
-              c = it.get("copy")
-              r = idx.get(f"DAISO-{it['pd_no']}")
-              if c and r:
-                  s_, c_ = float(r["Price"]), float(r["Cost per item"])
-                  net = s_ - c_ - (s_ * 0.029 + 0.06)
-                  print(f"| {it['name_ko']} | {c['title']} | ${s_:.2f} | ${c_:.2f} | ${net:+.2f} |")
-              elif c:
-                  print(f"| {it['name_ko']} | {c['title']} | 제외됨 | - | - |")
+
+          copy_path = Path(
+              "data/shopify_listing_copy.json"
+          )
+
+          csv_path = Path(
+              "data/shopify_import.csv"
+          )
+
+          report_path = Path(
+              "data/shopify_import_report.json"
+          )
+
+          data = json.loads(
+              copy_path.read_text(
+                  encoding="utf-8"
+              )
+          )
+
+          print(
+              f"## 영문 카피 "
+              f"{data.get('ok', 0)}/"
+              f"{data.get('total', 0)}건 생성"
+          )
+
+          print(
+              f"모델: "
+              f"{data.get('model', '?')}"
+          )
+
+          print("")
+
+          if csv_path.exists():
+              with csv_path.open(
+                  encoding="utf-8"
+              ) as f:
+                  rows = list(
+                      csv.DictReader(f)
+                  )
+
+              print(
+                  f"Shopify 임포트 CSV: "
+                  f"{len(rows)}행"
+              )
+          else:
+              rows = []
+              print(
+                  "Shopify 임포트 CSV: 없음"
+              )
+
+          print("")
+
+          print(
+              "| 한국어 원본 | 영문 제목 | 판매가 | 착지원가 | 순익 |"
+          )
+          print("|---|---|---:|---:|---:|")
+
+          idx = {
+              row["SKU"]: row
+              for row in rows
+              if row.get("SKU")
+          }
+
+          for item in data.get("items") or []:
+
+              copy = item.get("copy")
+
+              sku = (
+                  f"DAISO-"
+                  f"{item.get('pd_no')}"
+              )
+
+              row = idx.get(sku)
+
+              if copy and row:
+
+                  try:
+                      sell = float(
+                          row["Price"]
+                      )
+
+                      cost = float(
+                          row["Cost per item"]
+                      )
+
+                      net = (
+                          sell
+                          - cost
+                          - (
+                              sell * 0.029
+                              + 0.06
+                          )
+                      )
+
+                      print(
+                          f"| "
+                          f"{item.get('name_ko', '')} | "
+                          f"{copy.get('title', '')} | "
+                          f"${sell:.2f} | "
+                          f"${cost:.2f} | "
+                          f"${net:+.2f} |"
+                      )
+
+                  except Exception:
+                      print(
+                          f"| "
+                          f"{item.get('name_ko', '')} | "
+                          f"{copy.get('title', '')} | "
+                          f"- | "
+                          f"- | "
+                          f"- |"
+                      )
+
+              elif copy:
+
+                  print(
+                      f"| "
+                      f"{item.get('name_ko', '')} | "
+                      f"{copy.get('title', '')} | "
+                      f"제외됨 | "
+                      f"- | "
+                      f"- |"
+                  )
+
               else:
-                  print(f"| {it['name_ko']} | 실패: {it.get('error','')[:50]} | - | - | - |")
-          rep = json.loads(Path("data/shopify_import_report.json").read_text(encoding="utf-8"))
-          print(f"\n환율 {rep['exchange_rate']}\n")
-          print(f"원가 모델: {rep['pricing_model']}\n")
-          print(f"{rep['가격_근거']}\n")
-          print("게시 전 확인사항")
-          for x in rep["게시전_확인사항"]:
-              print(f"- {x}")
+
+                  print(
+                      f"| "
+                      f"{item.get('name_ko', '')} | "
+                      f"실패: "
+                      f"{str(item.get('error', ''))[:60]} | "
+                      f"- | "
+                      f"- | "
+                      f"- |"
+                  )
+
+          if report_path.exists():
+
+              report = json.loads(
+                  report_path.read_text(
+                      encoding="utf-8"
+                  )
+              )
+
+              print("")
+              print(
+                  f"환율: "
+                  f"{report.get('exchange_rate', '-')}"
+              )
+
+              print(
+                  f"원가 모델: "
+                  f"{report.get('pricing_model', '-')}"
+              )
+
+              print(
+                  f"{report.get('가격_근거', '')}"
+              )
+
+              print("")
+              print("게시 전 확인사항")
+
+              for x in (
+                  report.get(
+                      "게시전_확인사항"
+                  )
+                  or []
+              ):
+                  print(
+                      f"- {x}"
+                  )
           PY
 
-      # 2026-09-09: 커밋 블록을 .github/actions/publish 로 옮겼다.
-      #   전에는 이랬다.
-      #     git checkout -B publish origin/main
-      #     git checkout $MINE -- <경로>
-      #   원격 최신을 베이스로 두는 것까지는 맞다. 그런데 둘째 줄이
-      #   경로 전체를 자기 스냅샷으로 덮어서, 내가 건드리지도 않은 파일을
-      #   내 실행이 시작할 때 값으로 되돌렸다.
+      # -------------------------------------------------------
+      # 산출물 발행
       #
-      #   실제로 그 일이 났다. Deep Analysis #443 이 만든 45개 파일을
-      #   같은 방식으로 만든 커밋 하나가 통째로 되돌렸다.
-      #   이 워크플로는 2시간마다 도니까 그럴 기회가 하루 열두 번 있다.
-      #
-      #   이제 이번 실행이 실제로 바꾼 파일만 얹는다. 대시보드는
-      #   밀어넣을 그 트리에서 다시 만들고, 감사도 거기서 돌린다.
-      - name: 산출물 발행 (원격 최신 위에 이번 변경만)
+      # 여기서 직접 git checkout / merge / push하지 않는다.
+      # 공통 publish 액션이 최신 main 위에 이번 실행의
+      # 변경 파일만 안전하게 얹는다.
+      # -------------------------------------------------------
+      - name: 산출물 발행
+        if: steps.guard.outputs.ready == 'true'
         uses: ./.github/actions/publish
         with:
           paths: data/shopify_listing_copy.json data/shopify_import.csv data/shopify_import_report.json data/pricing_model.json data/daiso_real/collection_status.json
-          message: Shopify 영문 리스팅 카피 및 임포트 CSV 갱신
-
+          message: Shopify 영문 리스팅 카피 자동 갱신
