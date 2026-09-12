@@ -106,11 +106,34 @@ def judge(text: str) -> tuple[bool, str]:
     return True, f"화장품 고시 {len(items)}건"
 
 
-def find_last_good() -> tuple[str, str, str] | None:
-    """data/gosi.json 이력에서 검사를 통과하는 가장 최근 커밋을 찾는다."""
+def count_items(text: str) -> int:
+    try:
+        return len(json.loads(text).get("items") or {})
+    except Exception:
+        return 0
+
+
+# 통과하는 커밋 몇 개까지 후보로 볼지.
+# 최근 것 하나만 보면 적게 담긴 스냅샷을 집을 수 있다. 실제로 겪었다.
+CANDIDATES = 10
+
+
+def find_last_good(verbose: bool = True) -> tuple[str, str, str] | None:
+    """이력에서 검사를 통과하면서 항목이 가장 많은 커밋을 찾는다.
+
+    처음에는 '가장 최근 통과 커밋' 을 집었다. 그런데 실제로 돌려 보니
+    14건짜리를 두고 7건짜리를 집었다. 고시는 하루에도 여러 번 다시 쓰이고
+    비전 추출이 몇 건만 건진 실행도 커밋으로 남기 때문이다.
+
+    되살리는 일에서 적게 담긴 쪽을 고르면 조용히 7건을 잃는다.
+    그래서 통과한 후보 여러 개를 모아 항목 수가 가장 많은 것을 집는다.
+    같으면 더 최근 것을 집는다.
+    """
     out, _ = git("log", "--format=%H|%ad|%s", "--date=short",
                  "-60", "--", "data/gosi.json")
-    for line in out.splitlines():
+
+    picks: list[tuple[int, int, str, str, str]] = []  # (건수, -순번, sha, when, why)
+    for order, line in enumerate(out.splitlines()):
         if not line.strip():
             continue
         sha, date, subj = (line.split("|", 2) + ["", ""])[:3]
@@ -118,9 +141,26 @@ def find_last_good() -> tuple[str, str, str] | None:
         if rc != 0:
             continue
         good, why = judge(blob)
-        if good and "수집 전" not in why:
-            return sha, f"{date} {subj[:50]}", why
-    return None
+        if not good or "수집 전" in why:
+            continue
+        picks.append((count_items(blob), -order, sha,
+                      f"{date} {subj[:50]}", why))
+        if len(picks) >= CANDIDATES:
+            break
+
+    if not picks:
+        return None
+
+    picks.sort(reverse=True)
+    best = picks[0]
+
+    if verbose and len(picks) > 1:
+        newest = max(picks, key=lambda x: x[1])
+        if newest[2] != best[2]:
+            print(f"           가장 최근 통과본은 {newest[2][:9]} {newest[0]}건인데")
+            print(f"           {best[2][:9]} 이 {best[0]}건으로 더 많아 그쪽을 쓴다")
+
+    return best[2], best[3], best[4]
 
 
 def main() -> int:
