@@ -2,7 +2,7 @@
 title: "Record 041ba87341 · Sanofi-Chooses-Snowflake-to-Accelerate-its-AI-Powered-Drug-Development"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.064418+00:00
+updated_at: 2026-09-12T13:29:59.319335+00:00
 tags: [record, real-data]
 ---
 

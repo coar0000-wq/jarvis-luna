@@ -2,7 +2,7 @@
 title: "Record b011508d19 · Why-imperfect-beauty-is-becoming-a-planning-signal-for-MUAs-and-brand-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.089056+00:00
+updated_at: 2026-09-12T13:29:59.372538+00:00
 tags: [record, real-data]
 ---
 

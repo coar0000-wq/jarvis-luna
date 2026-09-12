@@ -2,7 +2,7 @@
 title: "Record d62f0afff5 · Implementing-LLMs-in-clinical-practice-from-unstructured-and-semistruc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:30.985095+00:00
+updated_at: 2026-09-12T13:29:59.153349+00:00
 tags: [record, real-data]
 ---
 

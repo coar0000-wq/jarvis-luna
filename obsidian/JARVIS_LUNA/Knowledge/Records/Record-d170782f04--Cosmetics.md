@@ -2,7 +2,7 @@
 title: "Record d170782f04 · Cosmetics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.056059+00:00
+updated_at: 2026-09-12T13:29:59.301915+00:00
 tags: [record, real-data]
 ---
 

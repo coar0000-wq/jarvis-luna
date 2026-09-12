@@ -2,7 +2,7 @@
 title: "Record 270bf5aff1 · Start-building-with-Nano-Banana-2-Lite-and-Gemini-Omni-Flash"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:30.961928+00:00
+updated_at: 2026-09-12T13:29:59.137150+00:00
 tags: [record, real-data]
 ---
 

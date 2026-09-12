@@ -2,7 +2,7 @@
 title: "Record 0bdb529d98 · Real-time-Puncture-Detection-and-Recovery-for-Pneumatic-Soft-Actuators"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:30.934970+00:00
+updated_at: 2026-09-12T13:29:59.084563+00:00
 tags: [record, real-data]
 ---
 

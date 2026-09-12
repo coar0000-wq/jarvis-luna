@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-12T10:50:19.096357+00:00",
-  "real_records": 3197,
+  "updated_at": "2026-09-12T13:27:42.943294+00:00",
+  "real_records": 3200,
   "source_labels": {
     "ai-image": 109,
-    "ai-research": 2816,
+    "ai-research": 2819,
     "shopify-commerce-image": 272
   },
-  "corpus_sha256": "bb99d7584db3e0a6d722db2338b3373b222861796fdafce2311a5bc7e1caec35",
+  "corpus_sha256": "56db35ecb62cc11a27c54d70ec64d8176f3801606270d9c9faa728febe9fcae9",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,17 +14,29 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.8808257741632781,
+  "training_accuracy_on_corpus": 0.8809375,
   "mean_gate_load": [
     0.278147,
     0.322384,
     0.399469
   ],
-  "note": "This is a text knowledge-routing MoE, not an image foundation model.",
-  "trained_corpus_sha256": "bb99d7584db3e0a6d722db2338b3373b222861796fdafce2311a5bc7e1caec35",
+  "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
+  "trained_corpus_sha256": "56db35ecb62cc11a27c54d70ec64d8176f3801606270d9c9faa728febe9fcae9",
   "tuning_promoted": true,
   "tuning_steps": 500,
   "tuning_validation_accuracy": 0.8872305140961857,
-  "tuning_final_loss": 0.4054902339454981,
-  "tuning_gate_load_std": 0.14919610805732775
+  "tuning_final_loss": 0.40517678039752075,
+  "tuning_gate_load_std": 0.14903398086605973,
+  "records_before": 3197,
+  "records_added": 3,
+  "source_status": {
+    "arxiv": "ok",
+    "robotics": "ok",
+    "institutions": "ok",
+    "organic_skincare": "ok",
+    "google": "ok",
+    "us_beauty": "ok"
+  },
+  "corpus": "data/knowledge/training_corpus.jsonl",
+  "말뭉치": "바뀌었다. 지금 가중치는 이 말뭉치로 학습한 것이 아니다. 학습기가 돌아야 다시 참이 된다."
 }

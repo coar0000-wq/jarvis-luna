@@ -2,7 +2,7 @@
 title: "Record b5d83446bd · Networked-Solid-Polymer-Electrolyte-Enabling-5C-Fast-Cycling-and-Enhan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:30.981807+00:00
+updated_at: 2026-09-12T13:29:59.146500+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 6415582bcc · News---Workflows"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.467266+00:00
+updated_at: 2026-09-12T13:29:59.801035+00:00
 tags: [record, real-data]
 ---
 

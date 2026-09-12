@@ -1,18 +1,18 @@
 ---
-title: "Record 7fdbaef7ff · How-TikTok-Trends-Feed-the-Beauty-Product-Pipeline---The-Business-of-F"
+title: "Record 7fdbaef7ff · How-TikTok-Trends-Feed-the-Beauty-Product-Pipeline---businessoffashion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.228460+00:00
+updated_at: 2026-09-12T13:29:59.515473+00:00
 tags: [record, real-data]
 ---
 
-# Record 7fdbaef7ff · How-TikTok-Trends-Feed-the-Beauty-Product-Pipeline---The-Business-of-F
+# Record 7fdbaef7ff · How-TikTok-Trends-Feed-the-Beauty-Product-Pipeline---businessoffashion
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiowFBVV95cUxOWmFxLUIyQXB1NHAwWEhxRmdOUUktNEVab2FpUGRIUEFCLVRITC11cjJIUV90VGpZU01DSVpjRWNjdXF1QkFsOEdpMXVQc2ZuRjlwYXNoenJhVEZvRkRudmllTlhwWW5SYW5qdkdPeDVRVkpyVVVpR1FmaWxRZmpPMjlDdDZVWTRyMDdfWGN2ZzdINU1pQlBKNHRjVHFTQ2d5R0tZ?oc=5)
 
-**제목:** How TikTok Trends Feed the Beauty Product Pipeline - The Business of Fashion
+**제목:** How TikTok Trends Feed the Beauty Product Pipeline - businessoffashion.com
 
-How TikTok Trends Feed the Beauty Product Pipeline - The Business of Fashion
+How TikTok Trends Feed the Beauty Product Pipeline - businessoffashion.com
 
 **출처:** Source · Google Search
 

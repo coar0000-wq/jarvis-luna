@@ -2,7 +2,7 @@
 title: "Record fa2791fbc9 · Bringing-ChatGPT-for-Teachers-to-more-US-school-districts"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.254097+00:00
+updated_at: 2026-09-12T13:29:59.571790+00:00
 tags: [record, real-data]
 ---
 

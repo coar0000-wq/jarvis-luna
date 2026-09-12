@@ -2,7 +2,7 @@
 title: "Record 2227dbd857 · Us-Tariffs-Research-Roundtable"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.432358+00:00
+updated_at: 2026-09-12T13:29:59.729315+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 8b96329aed · Investigating-three-real-world-incidents-in-our-cybersecurity-evaluati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.406679+00:00
+updated_at: 2026-09-12T13:29:59.675077+00:00
 tags: [record, real-data]
 ---
 

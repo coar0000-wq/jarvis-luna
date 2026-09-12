@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T05:15:10.982859+00:00",
+  "generated_at": "2026-09-12T13:20:52.820661+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -714,6 +714,14 @@
           "source": "rss"
         },
         {
+          "title": "Ultrasound offers a scalable path to tactile intelligence for physical AI",
+          "summary": "<p>Ultrasound sensing can provide tactile perception for robotic hands while avoiding wear and tear, says UltraSense.</p> <p>The post <a href=\"https://www.therobotreport.com/ultrasound-offers-scalable-path-tactile-intelligence-physical-ai/\">Ultrasound offers a scalable path to tactile intelligence for physical AI</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.<",
+          "published": "Sat, 12 Sep 2026 12:35:38 +0000",
+          "url": "https://www.therobotreport.com/ultrasound-offers-scalable-path-tactile-intelligence-physical-ai/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
           "title": "One brick at a time: How Monumental uses robotics to build walls",
           "summary": "<p>CEO Salar al Khafaji introduces podcast listeners to how Monumental is using robotics to build walls.</p> <p>The post <a href=\"https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/\">One brick at a time: How Monumental uses robotics to build walls</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
           "published": "Fri, 11 Sep 2026 21:09:01 +0000",
@@ -822,14 +830,6 @@
           "summary": "<p>Vision AI doesn't replace robots or human judgement; it provides the continuous perception that allows both to operate safely together.</p> <p>The post <a href=\"https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/\">Why vision AI is the safety backbone of the automated job site</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.<",
           "published": "Tue, 08 Sep 2026 16:05:04 +0000",
           "url": "https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Inbolt to discuss physical AI’s deployment problem at RoboBusiness",
-          "summary": "<p>Rudy Cohen, the co-founder and CEO of Inbolt, will reframe where physical AI pays off at RoboBusiness this fall.</p> <p>The post <a href=\"https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/\">Inbolt to discuss physical AI&#8217;s deployment problem at RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>",
-          "published": "Mon, 07 Sep 2026 14:00:13 +0000",
-          "url": "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/",
           "feed": "The Robot Report",
           "source": "rss"
         }

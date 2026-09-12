@@ -2,7 +2,7 @@
 title: "Record 110a6ceee4 · How-To-Start-A-1-Person-AI-Business-0-to-1M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.464563+00:00
+updated_at: 2026-09-12T13:29:59.794943+00:00
 tags: [record, real-data]
 ---
 

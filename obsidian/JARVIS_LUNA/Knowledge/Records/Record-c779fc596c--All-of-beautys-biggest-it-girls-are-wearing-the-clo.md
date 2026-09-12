@@ -2,7 +2,7 @@
 title: "Record c779fc596c · All-of-beautys-biggest-it-girls-are-wearing-the-cloud-lips-trend---her"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.172550+00:00
+updated_at: 2026-09-12T13:29:59.389881+00:00
 tags: [record, real-data]
 ---
 

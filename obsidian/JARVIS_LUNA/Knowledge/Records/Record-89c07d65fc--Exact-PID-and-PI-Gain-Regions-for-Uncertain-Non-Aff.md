@@ -2,7 +2,7 @@
 title: "Record 89c07d65fc · Exact-PID-and-PI-Gain-Regions-for-Uncertain-Non-Affine-MIMO-Systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:30.949795+00:00
+updated_at: 2026-09-12T13:29:59.111483+00:00
 tags: [record, real-data]
 ---
 

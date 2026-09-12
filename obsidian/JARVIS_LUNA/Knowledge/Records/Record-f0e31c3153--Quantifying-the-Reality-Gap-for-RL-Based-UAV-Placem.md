@@ -2,7 +2,7 @@
 title: "Record f0e31c3153 · Quantifying-the-Reality-Gap-for-RL-Based-UAV-Placement-at-mmWave-and-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:30.949630+00:00
+updated_at: 2026-09-12T13:29:59.111205+00:00
 tags: [record, real-data]
 ---
 

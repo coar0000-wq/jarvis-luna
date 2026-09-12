@@ -2,7 +2,7 @@
 title: "Record 763aa4c625 · Accounting-for-Workload-Churn-in-Design-Space-Exploration"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.012821+00:00
+updated_at: 2026-09-12T13:29:59.208809+00:00
 tags: [record, real-data]
 ---
 

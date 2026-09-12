@@ -2,7 +2,7 @@
 title: "Record eb7745b526 · CLAP-Cross-Embodiment-Video-World-Models-are-Zero-Shot-Physical-Simula"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.487754+00:00
+updated_at: 2026-09-12T13:29:59.833506+00:00
 tags: [record, real-data]
 ---
 

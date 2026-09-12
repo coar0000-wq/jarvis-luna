@@ -2,7 +2,7 @@
 title: "Record 04844ef21d · Olive-Young-Is-Bringing-Its-K-Beauty-Favorites-to-SephoraHeres-What-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.175270+00:00
+updated_at: 2026-09-12T13:29:59.395935+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibEFVX3lxTFBrY09pU19jMGI3NVRZZTNXekxSa1VWNXBSc19vZjhaVWNnNWo0UUJwRzdSVE5MODdVdG9ZRmg5emFsMjVjRXF6SUVkc3Q5cGZOeGdnVmhFa2tuelM1UFQtUlJfb3VpcUFFTkpmTw?oc=5)
 
-**제목:** Olive Young Is Bringing Its K-Beauty Favorites to Sephora—Here’s What to Buy - Allure
+**제목:** Olive Young Is Bringing Its K-Beauty Favorites to Sephora—Here’s What to Buy - allure.com
 
-Olive Young Is Bringing Its K-Beauty Favorites to Sephora—Here’s What to Buy - Allure
+Olive Young Is Bringing Its K-Beauty Favorites to Sephora—Here’s What to Buy - allure.com
 
 **출처:** Source · Google Search
 

@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-09-12T05:16:53.343605+00:00",
+  "generated_at": "2026-09-12T13:22:20.421206+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
   "pool_size": 2093,
   "제목없어_버림": 38,
-  "unrouted": 9,
+  "unrouted": 10,
   "summary": {
     "sourcing": {
       "total": 224,
       "recent": 223
     },
     "market": {
-      "total": 446,
-      "recent": 38
+      "total": 443,
+      "recent": 39
     },
     "listing": {
       "total": 13,
       "recent": 9
     },
     "pricing": {
-      "total": 13,
-      "recent": 5
+      "total": 14,
+      "recent": 6
     },
     "legal": {
       "total": 115,
       "recent": 17
     },
     "design": {
-      "total": 359,
+      "total": 358,
       "recent": 98
     },
     "robotics": {
@@ -41,7 +41,7 @@
     },
     "institutions": {
       "total": 1061,
-      "recent": 282
+      "recent": 284
     }
   },
   "fda_failures": [],
@@ -587,16 +587,16 @@
         "by_hand": false
       },
       {
-        "title": "K-Beauty’s U.S. Boom Is Making ‘Korean’ Less of a Differentiator - KoreaTechDesk",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HZ0dkQmFkU3ppdGRTcnRJQXV3TjEyaUNKQ2JqbXVldHpDM1k5UlEyTXAtS2c5NnRYcXhXZ0hWeFlMRkNXX3Bpc200dXI0eUZjUHJFTHMtVUZvb2R2T3VDODk0Qjl6SU9CQzZQbUREM0ZDeFBuc3F4ODhVNm5yZw?oc=5",
+        "title": "Boots shoppers race to buy £140 Korean and Japanese skincare box for just £35 - Manchester Evening News",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVTlEUGJraXVPZ244SFRDNHZ5WG40VDJhb0NxZnNFOFJxa0FUVnNtMUVnV3hTclBfRHZPSno4Nk9uVzVCYnQtWHJIb2t0MEZkV3R4UkthaURQaFNhUGpBc1l3NmFaRExLMDJjcDhMMlBleDRMV2lyS0Jic1M0NVY4UzBRdldrQ05ib0toUDBUQkM4YkxZWWZyamRB0gGfAUFVX3lxTE1sNW1hOWVramVDaEJCdl94RTE4WmZBeVBmcnM0eDZZY29uM3VhVVgxbEJ4TVhCYkh5X0RWWjVhS2xGMXQ0OEg2RnlRQlUydUtKb2xEV0dvWGwxUHBrTVdZRXkydXlDWk5zNFZDbUZxLWw5TmlYcFlvb2x6MmNySG11UHQzcVhtaFFFUFdBYU9pUmw3ZmVUakV3Sm8zd0o3MA?oc=5",
         "pool": "google",
         "date": "2026-09-12",
         "by_hand": false
       },
       {
-        "title": "Wonderbalm steps up global travel retail push for K-beauty-led skincare with Gebr. Heinemann - Moodie Davitt Report",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZTBKRXRfSzJ1dTk5MV9OUkc0NGhuLWd5ek53VGthSEdJY01VSHV4VGFvZEwtVWRvZEFzUEVwMmpOT3JvbENnTGlsZ29nLXUxdUdzbHlaTjZfUlA1NWloSjhfQ08zRDNZMVR4SDBiX00wSFI1cXpLbExISG9QcmgyVTZ4cVBrd0JrQl9RTXpERDVDb05HT1pJOFpQTGtSRE52b05qeEotZ2VwV3h6MkIyZ2ZLSDItenpYc1Rrdjg5dDc?oc=5",
-        "pool": "google",
+        "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+        "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+        "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false
       },
@@ -608,8 +608,8 @@
         "by_hand": false
       },
       {
-        "title": "Halo lips: lip pencil trends on TikTok in 2026 - Benin Web TV",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1FN0tHM1BaMDgzdk84ajZCQjJfVjlHekR3UlV5Q3hoSXlxTHVydW5MV3ZxOHZRSEVpMy1kTHBNNlV0TDlRRXljU2xMa1dJenhOcUdOVWlBUk1rY3NQMGRSSEV4aTRpTjdzQURyVUxuVWI3YzZCa281c1dUcw?oc=5",
+        "title": "Wonderbalm steps up global travel retail push for K-beauty-led skincare with Gebr. Heinemann - Moodie Davitt Report",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZTBKRXRfSzJ1dTk5MV9OUkc0NGhuLWd5ek53VGthSEdJY01VSHV4VGFvZEwtVWRvZEFzUEVwMmpOT3JvbENnTGlsZ29nLXUxdUdzbHlaTjZfUlA1NWloSjhfQ08zRDNZMVR4SDBiX00wSFI1cXpLbExISG9QcmgyVTZ4cVBrd0JrQl9RTXpERDVDb05HT1pJOFpQTGtSRE52b05qeEotZ2VwV3h6MkIyZ2ZLSDItenpYc1Rrdjg5dDc?oc=5",
         "pool": "google",
         "date": "2026-09-11",
         "by_hand": false
@@ -685,15 +685,8 @@
         "by_hand": false
       },
       {
-        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
+        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
-        "pool": "google",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWDhHZXdJUDRjOTRTZ01GNmc0UTdpSFB5QVdTVWxTM25ERVBfX0FKOEpjVXh4OERnU3NtMWJSOUpnSFA1Qkh0THI3MTFscmQtLS00U3c2SGxTN0FkdjdWYWhOMGFiX0RuSG1mQnVOd29wRXRUemRpM09NX1VOZlNxWTlqcWVMSXJzS3cxWDc3Yw?oc=5",
         "pool": "google",
         "date": "2026-09-08",
         "by_hand": false
@@ -706,8 +699,22 @@
         "by_hand": false
       },
       {
+        "title": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRURKYS1ZekRkbWVwN2g1TTFWd3VkUmtReXFsVFFlbEFlR0cxTXFXd2k5Zkw5WGM0TmRWc0tSS21fWjROdHZMYVI2S3pqOF90QnJNQ242blFzLTNFd0V1NlhQQ1h5UkFYZS1qQ21RQnN0bW5oenpibURlTi1XVmE2R255Mm5Ga0NEUEwyVEhhUzk1LVhKeEVXbm14NNIBoAFBVV95cUxOWVE3UVVwRWxaYWpnVDgxUHdiWUF1YzVsMkJZVFpJZGlOOEpCdXNxX1hjWGJfY0MtelJjZkREVzhMX2VZdkVDd1hJVWdYcHRHenU2Ylh5Z25kN2lGWm5WZTJTeWthWldFbndJTjNYODdlV0FqaFpnYXVFQ0hlU1NSSjhONXZtQmloUndlT3FrVW1tSEV4b3FPNHEycWI3VjZj?oc=5",
+        "pool": "google",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
         "title": "mixsoon Joins Target Beauty Studio, Bringing pure ingredients skincare philosophy to Target Guests Nationwide - PR Newswire",
         "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcVVwbEh2aWc5U0p4MU0xQmgzTUJNY1dYd3AyQ3F6TEtCR3d4Y2d3Yk5DWm90YnYtaVRmUDNSeEw2b25ySFFiejJMWm4zODJBTDNWU2tpamFHX25kRWRSOTBNSFp0VWFRLUMzdnZIdzRldXo0NVNRNEdOZE5QelpJcTUyemdQaE5XR083YUwxVDNKR3VvSm85ZFg1WEswaTRyeldXVUpLTG5iVlNvUUVmdWVPZkVnNnB3TlZScm5lb29aZThpOXJEQTZqNjZ1Z0xBMGVjVXBDUXM1Q0RhNzd0M19XeFhnZDl4SVFjRmUyTUFhZUoyc0c4?oc=5",
+        "pool": "google",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "I'd Pay Double For This K-Beauty Product That's Working Wonders On My Neck Lines - HuffPost",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM3VWZjc2RlRMajZ5MlJUdXp0NjlXb2tpUXdqcklNRzdyWlpXdmZObjFzWGNZVEtGekdtM05mcGxHM19KczUtN00yU0x4NlRMVzhYWWRVLXowR2I4dDgxZXlIWFpNNXVlRjFPWlI1ODUxVXlSUEdYT1ZTeWVWNzd4SlhxdkdHYzdwVHB4N3BLSzRMYUtk0gGaAUFVX3lxTFB2eGlDdHI1bG92Qkc1cUNleVo0SG16OFdtenVLY3o5b1ZldzY3aFY4czdhNVNEOU9NQWFQcFdqajF5U2lockQycm8yNGtjLVZxTm9hYjFBcjdodVlldGRLQ2hYamFXXzh1bnBxdnVfOTVwamYwMTFILUozU1VRcmR3QUpGS0NORkdKVEJVbXM0NTVpTkp2OGF6SlE?oc=5",
         "pool": "google",
         "date": "2026-09-08",
         "by_hand": false
@@ -720,7 +727,7 @@
         "by_hand": false
       },
       {
-        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
+        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -825,7 +832,7 @@
         "by_hand": false
       },
       {
-        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - GeekWire",
+        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - geekwire.com",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSmd3bV80NzFvZlZtOUNnSUF4eTRlQ0VoamFoUlY5aEQ2Q000MmlBVmVTQ3ZuWV9wTmhzWXROSWNyaDNuQ0JrTFdEczljM0JlbTBtdFBZbnhtakNaWHBTZTBGWDFzbDJURU1ESi1mano4T21KMHV0ZEQwOFI3aWI3Q2lTbzhPSmw5dEp6cGZVXzhadW5GNTRNaVhhMEhIdjY0czMwTmN4aUlpVWNYTmV5ZnNxWkdlcUZFUUhoNEdId3gxZw?oc=5",
         "pool": "google",
         "date": "2026-08-28",
@@ -846,7 +853,7 @@
         "by_hand": false
       },
       {
-        "title": "Meet the K-beauty products that beauty lovers consistently rank as their absolute skincare favorites - star-telegram.com",
+        "title": "Meet the K-beauty products that beauty lovers consistently rank as their absolute skincare favorites - Fort Worth Star-Telegram",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3Y2ZRR0YyT1RTSXFnT2R1M2R4RGdBMzdXSEFGcDg3V2dKX3dnS3dOdXNNUXZzakhkSDFsZllvTXlsOXVQdWROSEFNUDdpYlA1SDc4RmFaVWFLVzgzUGtXMnkyYUxEWEV5a0NqNE90cENyMTJ4dVFLSWlKRGjSAXxBVV95cUxPcUJTSmtsZDhHR0FvUlNpVDl1bkZPcHJiaFJIN0xCNnRCaWZLUGZIWVpzY2llSVdkQnhPMzA5Yk1tWGtJN3k1LW14dkF4NTExeFk2T0JuMVQ3ZWVEbjl5NklwMTd1cVZoenBJUmJVVWFnbTZQSzc3VFY1Vm9S?oc=5",
         "pool": "google",
         "date": "2026-08-27",
@@ -884,13 +891,6 @@
         "title": "Smoking and vaping trends among active-duty U.S. Navy and Marine Corps personnel: results from the Annual Periodic Health Assessment, 2017-2021",
         "url": "https://doi.org/10.1093/ntr/ntag188",
         "pool": "institutions",
-        "date": "2026-08-26",
-        "by_hand": false
-      },
-      {
-        "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - elle.com",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5",
-        "pool": "google",
         "date": "2026-08-26",
         "by_hand": false
       }
@@ -974,7 +974,7 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - premiumbeautynews.com",
+        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - Premium Beauty News",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5",
         "pool": "google",
         "date": "2026-06-06",
@@ -1027,6 +1027,13 @@
       {
         "title": "Global Tariffs",
         "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
+        "pool": "institutions",
+        "date": "2026-09-09",
+        "by_hand": false
+      },
+      {
+        "title": "Trump Tariff Delay Ongoing Outlook Uncertainty",
+        "url": "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
@@ -1561,7 +1568,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials",
+        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -2778,8 +2785,22 @@
         "by_hand": false
       },
       {
+        "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+        "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
         "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
         "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+        "url": "https://openai.com/index/cognition-devin-testing-with-astra",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false
@@ -2911,13 +2932,6 @@
         "by_hand": false
       },
       {
-        "title": "Bain Capitals David Gross On Global Opportunities And Private Equitys Evolution",
-        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/bain-capitals-david-gross-on-global-opportunities-and-private-equitys-evolution",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
         "title": "How Automation Impacts The Lives And Careers Of Displaced Workers",
         "url": "https://www.goldmansachs.com/insights/articles/how-automation-impacts-the-lives-and-careers-of-displaced-workers",
         "pool": "institutions",
@@ -2927,6 +2941,27 @@
       {
         "title": "Why Global Bond Yields Are Expected To Stay Elevated",
         "url": "https://www.goldmansachs.com/insights/articles/why-global-bond-yields-are-expected-to-stay-elevated",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Bain Capitals David Gross On Global Opportunities And Private Equitys Evolution",
+        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/bain-capitals-david-gross-on-global-opportunities-and-private-equitys-evolution",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "What A Fed Rate Hike Could Mean For Us Stocks",
+        "url": "https://www.goldmansachs.com/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "What A Fed Rate Hike Could Mean For Us Stocks   Transcript",
+        "url": "https://www.goldmansachs.com/pdfs/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks/transcript.pdf",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false
@@ -2990,6 +3025,34 @@
       {
         "title": "Hope And Heroes",
         "url": "https://www.jpmorgan.com/insights/corporate-responsibility/community-impact/hope-and-heroes",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Global Healthcare Conference",
+        "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Insights",
+        "url": "https://www.morganstanley.com/insights",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Singing In Holiday Giving",
+        "url": "https://www.morganstanley.com/ideas/singing-in-holiday-giving",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false
@@ -3114,8 +3177,8 @@
         "by_hand": false
       },
       {
-        "title": "Thoughts On The Market",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
+        "title": "Market Volatility Investors May Miss Andrew Sheets",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/market-volatility-investors-may-miss-andrew-sheets",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
@@ -3128,64 +3191,8 @@
         "by_hand": false
       },
       {
-        "title": "Global Healthcare Conference",
-        "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Market Volatility Investors May Miss Andrew Sheets",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/market-volatility-investors-may-miss-andrew-sheets",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
         "title": "Multi-Agent Tourism Support Systems (MATSS): a SOR-CLT perspective on traveller cognition and AI-mediated service experience",
         "url": "https://doi.org/10.1080/13683500.2026.2729832",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Cfap410a and Cby work together with tissue-specific requirements to build Drosophila ciliary transition zones",
-        "url": "https://doi.org/10.64898/2026.09.08.749861",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Depression as a Risk of Lung Cancer in Women: a Nationwide Cohort Study",
-        "url": "https://doi.org/10.4046/trd.2026.0108",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Interplay of Adsorbed and Free Polymer Governs Microstructure and Processability of Battery Slurries",
-        "url": "https://doi.org/10.1021/acsnano.6c10201",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Marangoni Flow Control Framework for Uniform Thin-Film Formation in Inkjet-Printed Light-Emitting Devices",
-        "url": "https://doi.org/10.1021/acsami.6c10360",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "On the Finite Upper Bound f(6) <= 24,600 and Structural Barriers to Counterexamples in the Erdős–Gyárfás Conjecture",
-        "url": "https://doi.org/10.5281/zenodo.22697836",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "On the Finite Upper Bound f(6) <= 24,600 and Structural Barriers to Counterexamples in the Erdős–Gyárfás Conjecture",
-        "url": "https://doi.org/10.5281/zenodo.22697825",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false

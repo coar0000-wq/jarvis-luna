@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-12T05:17:35.638789+00:00",
+  "collected_at": "2026-09-12T13:23:40.551300+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -44,22 +44,6 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "cushion",
-      "score": 6
-    },
-    {
-      "keyword": "skin",
-      "score": 4
-    },
-    {
-      "keyword": "serum",
-      "score": 4
-    },
-    {
-      "keyword": "toners",
-      "score": 4
-    },
-    {
       "keyword": "september",
       "score": 3
     },
@@ -68,7 +52,7 @@
       "score": 3
     },
     {
-      "keyword": "product",
+      "keyword": "mascara",
       "score": 3
     },
     {
@@ -89,6 +73,14 @@
     },
     {
       "keyword": "here",
+      "score": 2
+    },
+    {
+      "keyword": "product",
+      "score": 2
+    },
+    {
+      "keyword": "review",
       "score": 2
     },
     {
@@ -120,6 +112,26 @@
       "score": 2
     },
     {
+      "keyword": "oil",
+      "score": 2
+    },
+    {
+      "keyword": "korean",
+      "score": 2
+    },
+    {
+      "keyword": "skin",
+      "score": 2
+    },
+    {
+      "keyword": "cushion",
+      "score": 2
+    },
+    {
+      "keyword": "serum",
+      "score": 2
+    },
+    {
       "keyword": "hair",
       "score": 2
     },
@@ -148,79 +160,51 @@
       "score": 1
     },
     {
-      "keyword": "calling",
+      "keyword": "elegance",
       "score": 1
     },
     {
-      "keyword": "missha",
+      "keyword": "paris",
       "score": 1
     },
     {
-      "keyword": "perfect",
+      "keyword": "gravityless",
       "score": 1
     },
     {
-      "keyword": "cover",
+      "keyword": "worst",
       "score": 1
     },
     {
-      "keyword": "lovers",
+      "keyword": "ive",
       "score": 1
     },
     {
-      "keyword": "found",
+      "keyword": "ever",
       "score": 1
     },
     {
-      "keyword": "feels",
+      "keyword": "used",
       "score": 1
     },
     {
-      "keyword": "true",
+      "keyword": "cow",
       "score": 1
     },
     {
-      "keyword": "next",
+      "keyword": "brand",
       "score": 1
     },
     {
-      "keyword": "level",
+      "keyword": "moist",
       "score": 1
     },
     {
-      "keyword": "days",
-      "score": 1
-    },
-    {
-      "keyword": "using",
-      "score": 1
-    },
-    {
-      "keyword": "madagascar",
-      "score": 1
-    },
-    {
-      "keyword": "freshian",
+      "keyword": "milk",
       "score": 1
     }
   ],
   "beauty_keywords": [
-    {
-      "keyword": "cushion",
-      "score": 6
-    },
-    {
-      "keyword": "skin",
-      "score": 4
-    },
-    {
-      "keyword": "serum",
-      "score": 4
-    },
-    {
-      "keyword": "toners",
-      "score": 4
-    },
     {
       "keyword": "skin1004",
       "score": 2
@@ -231,6 +215,22 @@
     },
     {
       "keyword": "ampoule",
+      "score": 2
+    },
+    {
+      "keyword": "korean",
+      "score": 2
+    },
+    {
+      "keyword": "skin",
+      "score": 2
+    },
+    {
+      "keyword": "cushion",
+      "score": 2
+    },
+    {
+      "keyword": "serum",
       "score": 2
     }
   ],
@@ -246,6 +246,20 @@
       "title": "Product Authenticity Thursday September 10, 2026",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wceshh/product_authenticity_thursday_september_10_2026/",
       "published": "2026-09-10T10:01:02+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Elegance paris gravityless mascara (worst mascara ive ever used)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we8o8n/elegance_paris_gravityless_mascara_worst_mascara/",
+      "published": "2026-09-12T10:08:33+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Cow Brand Moist Milk – a little review :)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we3mhb/cow_brand_moist_milk_a_little_review/",
+      "published": "2026-09-12T05:21:27+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -271,9 +285,23 @@
       "feed": "hot"
     },
     {
+      "title": "I\"m totally confused :( about SqualAne oil.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we4yll/im_totally_confused_about_squalane_oil/",
+      "published": "2026-09-12T06:33:22+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Colorgram contours",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdkt2a/colorgram_contours/",
       "published": "2026-09-11T16:17:30+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Korean powder contour",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we6696/korean_powder_contour/",
+      "published": "2026-09-12T07:41:36+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -285,9 +313,9 @@
       "feed": "hot"
     },
     {
-      "title": "Desperately looking for a lip product that has a similar shade to this :,)",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we1muw/desperately_looking_for_a_lip_product_that_has_a/",
-      "published": "2026-09-12T03:39:24+00:00",
+      "title": "Bodycare recommendation",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we75mx/bodycare_recommendation/",
+      "published": "2026-09-12T08:38:13+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -295,6 +323,13 @@
       "title": "Severe reaction to Some by mi Yuja Niacin serum",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdgk8l/severe_reaction_to_some_by_mi_yuja_niacin_serum/",
       "published": "2026-09-11T13:37:49+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Acne pustules",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdmmxy/acne_pustules/",
+      "published": "2026-09-11T17:23:18+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -309,13 +344,6 @@
       "title": "Anything Goes Friday: September 11, 2026",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wds2po/anything_goes_friday_september_11_2026/",
       "published": "2026-09-11T20:39:25+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Acne pustules",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdmmxy/acne_pustules/",
-      "published": "2026-09-11T17:23:18+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -355,16 +383,16 @@
       "feed": "hot"
     },
     {
-      "title": "Deep cut: illi total aging care cleansing oil fragrance",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wd7snl/deep_cut_illi_total_aging_care_cleansing_oil/",
-      "published": "2026-09-11T06:04:34+00:00",
+      "title": "How do you finish a sunstick?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcr0iw/how_do_you_finish_a_sunstick/",
+      "published": "2026-09-10T18:11:59+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "How do you finish a sunstick?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcr0iw/how_do_you_finish_a_sunstick/",
-      "published": "2026-09-10T18:11:59+00:00",
+      "title": "Deep cut: illi total aging care cleansing oil fragrance",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wd7snl/deep_cut_illi_total_aging_care_cleansing_oil/",
+      "published": "2026-09-11T06:04:34+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -379,34 +407,6 @@
       "title": "Daiso/affordable products that you like?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcbmr4/daisoaffordable_products_that_you_like/",
       "published": "2026-09-10T07:00:53+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Milky toners vs watery hydrating toners for oily skin?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wca8xe/milky_toners_vs_watery_hydrating_toners_for_oily/",
-      "published": "2026-09-10T05:45:41+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Thoughts on amuse dew power vegan cushion",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wciksw/thoughts_on_amuse_dew_power_vegan_cushion/",
-      "published": "2026-09-10T13:01:31+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Fwee all day black cushion",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcf1hy/fwee_all_day_black_cushion/",
-      "published": "2026-09-10T10:14:35+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Decorté Liposome Advanced Serum batch code",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcu8xw/decorté_liposome_advanced_serum_batch_code/",
-      "published": "2026-09-10T20:06:18+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

@@ -2,7 +2,7 @@
 title: "Record 4c4566752e · From-spandex-to-skin-care-Hyosung-bets-big-on-K-beauty-through-new-sup"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.245109+00:00
+updated_at: 2026-09-12T13:29:59.553495+00:00
 tags: [record, real-data]
 ---
 

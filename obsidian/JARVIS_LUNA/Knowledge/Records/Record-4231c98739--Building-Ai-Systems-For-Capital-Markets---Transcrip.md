@@ -2,7 +2,7 @@
 title: "Record 4231c98739 · Building-Ai-Systems-For-Capital-Markets---Transcript"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.419930+00:00
+updated_at: 2026-09-12T13:29:59.704238+00:00
 tags: [record, real-data]
 ---
 

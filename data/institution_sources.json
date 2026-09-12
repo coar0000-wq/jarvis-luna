@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-12T05:16:22.652939+00:00",
+  "collected_at": "2026-09-12T13:21:52.000078+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-12T05:15:22.566096+00:00"
+      "collected_at": "2026-09-12T13:21:02.882204+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-12T05:15:59.923362+00:00"
+      "collected_at": "2026-09-12T13:21:34.577304+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-12T05:16:22.651887+00:00"
+      "collected_at": "2026-09-12T13:21:51.999000+00:00"
     }
   },
   "not_collected": {
@@ -4128,19 +4128,6 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/markets/insights/ai-blockchain-and-the-new-market-reality",
-      "date": "2026-09-11",
-      "date_raw": "2026-09-11",
-      "title_source": "url-slug",
-      "title": "Ai Blockchain And The New Market Reality",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
       "url": "https://www.jpmorgan.com/markets/insights/private-credit-machine-learning-moment",
       "date": "2026-09-11",
       "date_raw": "2026-09-11",
@@ -4193,11 +4180,11 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/markets/insights/volatility-is-no-longer-the-exception",
+      "url": "https://www.jpmorgan.com/markets/insights/ai-blockchain-and-the-new-market-reality",
       "date": "2026-09-11",
       "date_raw": "2026-09-11",
       "title_source": "url-slug",
-      "title": "Volatility Is No Longer The Exception",
+      "title": "Ai Blockchain And The New Market Reality",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -4206,11 +4193,11 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/the-future-of-treasury-from-back-office-to-strategic-forefront",
+      "url": "https://www.jpmorgan.com/markets/insights/volatility-is-no-longer-the-exception",
       "date": "2026-09-11",
       "date_raw": "2026-09-11",
       "title_source": "url-slug",
-      "title": "The Future Of Treasury From Back Office To Strategic Forefront",
+      "title": "Volatility Is No Longer The Exception",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -4232,11 +4219,24 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-sponsors-global-credit-markets",
-      "date": "2026-09-09",
-      "date_raw": "2026-09-09",
+      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/the-future-of-treasury-from-back-office-to-strategic-forefront",
+      "date": "2026-09-11",
+      "date_raw": "2026-09-11",
       "title_source": "url-slug",
-      "title": "Financial Sponsors Global Credit Markets",
+      "title": "The Future Of Treasury From Back Office To Strategic Forefront",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/real-estate/community-development-banking/expanding-healthcare-access-with-nmtc-equity-investment",
+      "date": "2026-09-11",
+      "date_raw": "2026-09-11",
+      "title_source": "url-slug",
+      "title": "Expanding Healthcare Access With Nmtc Equity Investment",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -4250,6 +4250,19 @@
       "date_raw": "2026-09-09",
       "title_source": "url-slug",
       "title": "Current Events   Us Tariffs",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-sponsors-global-credit-markets",
+      "date": "2026-09-09",
+      "date_raw": "2026-09-09",
+      "title_source": "url-slug",
+      "title": "Financial Sponsors Global Credit Markets",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -4354,19 +4367,6 @@
       "date_raw": "2026-09-03",
       "title_source": "url-slug",
       "title": "Financial Market Technology Moves Into Focus",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/how-are-trading-platforms-evolving",
-      "date": "2026-09-03",
-      "date_raw": "2026-09-03",
-      "title_source": "url-slug",
-      "title": "How Are Trading Platforms Evolving",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",

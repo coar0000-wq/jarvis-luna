@@ -2,7 +2,7 @@
 title: "Record 024f69c626 · K-beauty-From-social-media-trend-to-economic-powerhouse---BBC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.081486+00:00
+updated_at: 2026-09-12T13:29:59.355283+00:00
 tags: [record, real-data]
 ---
 

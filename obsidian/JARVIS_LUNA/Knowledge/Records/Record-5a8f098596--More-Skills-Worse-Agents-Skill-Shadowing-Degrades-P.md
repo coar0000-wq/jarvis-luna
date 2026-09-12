@@ -2,7 +2,7 @@
 title: "Record 5a8f098596 · More-Skills-Worse-Agents-Skill-Shadowing-Degrades-Performance-When-Exp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.370652+00:00
+updated_at: 2026-09-12T13:29:59.591982+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ab9aed2e62 · SwarmWorld-Stigmergic-technological-evolution-in-societies-of-language"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T10:49:31.484826+00:00
+updated_at: 2026-09-12T13:29:59.829206+00:00
 tags: [record, real-data]
 ---
 
