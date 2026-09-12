@@ -1,6 +1,78 @@
 {
-  "items": {},
-  "updated_at": "2026-09-12T07:02:35.668410Z",
-  "source": "https://www.gosi.kr",
-  "last_auto_run": "2026-09-12T09:49:27.301309+00:00"
+  "items": {
+    "1048583": {
+      "product_id": "1048583",
+      "name": "드롭비 탄탄 광채 앰플 40 ml",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "ingredients": "",
+      "warnings": "",
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048583"
+    },
+    "1062781": {
+      "product_id": "1062781",
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "ingredients": "",
+      "warnings": "",
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781"
+    },
+    "1041749": {
+      "product_id": "1041749",
+      "name": "식물원 병풀 클리어 앰플 30 ml",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "ingredients": "",
+      "warnings": "",
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749"
+    },
+    "1049271": {
+      "product_id": "1049271",
+      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "ingredients": "",
+      "warnings": "",
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271"
+    },
+    "1041403": {
+      "product_id": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "ingredients": "",
+      "warnings": "",
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403"
+    },
+    "1045421": {
+      "product_id": "1045421",
+      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "ingredients": "",
+      "warnings": "",
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421"
+    },
+    "1059834": {
+      "product_id": "1059834",
+      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "volume": "",
+      "maker": "",
+      "origin": "",
+      "ingredients": "",
+      "warnings": "",
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834"
+    }
+  },
+  "updated_at": "2026-09-12T10:08:50Z",
+  "source": "https://www.daisomall.co.kr",
+  "schema_version": 2,
+  "last_auto_run": null
 }
