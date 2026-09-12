@@ -477,19 +477,19 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         # 고시 수집기가 생긴 뒤로 실제 상태와 맞지 않는다.
         gate = load_json(D / "listing_gate.json", None)
 
-if isinstance(gate, dict):
-    gate_items = gate.get("items") or []
+        if isinstance(gate, dict):
+            gate_items = gate.get("items") or []
 
-    pending = [
-        p for p in s_grade
-        if any(
-            str(g.get("pd_no")) == str(p.get("pd_no"))
-            and "gosi" in (g.get("blocked_by") or [])
-            for g in gate_items
-        )
-    ]
-else:
-    pending = []
+            pending = [
+                p for p in s_grade
+                if any(
+                    str(g.get("pd_no")) == str(p.get("pd_no"))
+                    and "gosi" in (g.get("blocked_by") or [])
+                    for g in gate_items
+                )
+            ]
+        else:
+            pending = []
         cards.append(_team(
             "market", "마케팅 조사팀", iso_mtime(D / "market_team.json"),
             f'S등급 {len(s_grade)}개 · 고시표 입력 대기 {len(pending)}건' + feed_tail("market"),
