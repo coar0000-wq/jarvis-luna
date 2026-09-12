@@ -11,6 +11,8 @@ permissions:
 concurrency:
   # 모든 main 자동 발행 워크플로가 공유하는 잠금 그룹
   group: main-publish
+  # 동시에 들어온 실행을 최대 100개까지 대기열에 보관한다.
+  queue: max
   # 실행 중인 데이터 생성은 중단하지 않고 다음 실행을 대기시킨다.
   cancel-in-progress: false
 jobs:
