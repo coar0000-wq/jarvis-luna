@@ -1,18 +1,17 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-12T20:46:19.027877+00:00",
+  "generated_at": "2026-09-12T22:46:01.225194+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 7,
   "ready": 0,
   "counts": {
-    "copy": 6,
+    "copy": 7,
     "gosi": 0,
     "us_label": 0,
     "price": 7,
     "legal": 6
   },
   "blockers": {
-    "copy": 1,
     "gosi": 7,
     "us_label": 7,
     "legal": 1
@@ -29,8 +28,23 @@
       "price_krw": 5000,
       "shopify_score": 97,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048583",
-      "copy": {},
-      "copy_status": "failed",
+      "copy": {
+        "title": "Dropbe Firming Glow Ampoule 40 ml",
+        "description_html": "<p>Discover the Dropbe Firming Glow Ampoule in a convenient 40 ml size, designed to enhance your daily skincare routine. This lightweight formula helps give your complexion a radiant and glowing appearance.</p><p>Smooth it gently over your skin to help achieve a visibly firmer and more luminous look. Perfect for adding an extra touch of moisture and shine to your everyday beauty regimen.</p>",
+        "seo_title": "Dropbe Firming Glow Ampoule 40 ml | K-Beauty Skincare",
+        "seo_description": "Shop the Dropbe Firming Glow Ampoule 40 ml. Add a radiant glow and a visibly firmer look to your skincare routine with this Korean beauty favorite.",
+        "tags": [
+          "dropbe",
+          "glow-ampoule",
+          "firming-ampoule",
+          "korean-skincare",
+          "face-serum",
+          "k-beauty",
+          "brightening-ampoule"
+        ],
+        "product_type": "Face Serum"
+      },
+      "copy_status": "ok",
       "gosi": {
         "volume": "",
         "maker": "",
@@ -57,69 +71,12 @@
       },
       "ready": false,
       "blocked_by": [
-        "copy",
         "gosi",
         "us_label"
       ]
     },
     {
       "rank": 2,
-      "pd_no": "1062781",
-      "product_id": "1062781",
-      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-      "category": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 91,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
-      "copy": {
-        "title": "Cell Fusion C Derma Block PDRN Collagen Cream 50 ml",
-        "description_html": "<p>Discover the Cell Fusion C Derma Block PDRN Collagen Cream in a convenient 50 ml size, formulated to help support a smooth and balanced looking complexion.</p><p>This nourishing cream incorporates PDRN and collagen to help condition the skin and enhance your daily skincare routine with a comfortable finish.</p>",
-        "seo_title": "Cell Fusion C Derma Block PDRN Collagen Cream 50 ml",
-        "seo_description": "Shop the Cell Fusion C Derma Block PDRN Collagen Cream 50 ml for a well-conditioned, smooth-looking complexion. Perfect addition to your daily skincare routine.",
-        "tags": [
-          "cell-fusion-c",
-          "pdrn-cream",
-          "collagen-cream",
-          "korean-skincare",
-          "face-cream",
-          "hydrating-cream",
-          "k-beauty"
-        ],
-        "product_type": "Face Cream"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "",
-        "maker": "",
-        "origin": "한국",
-        "ingredients": "",
-        "gosi_ok": false
-      },
-      "us_label": {
-        "net_contents": "실제 확인값",
-        "manufacturer": "실제 확인한 제조사",
-        "country_of_origin": "실제 확인한 원산지",
-        "ingredients_inci": "실제 확인한 전체 INCI 성분",
-        "us_label_ok": false
-      },
-      "price": {
-        "price_usd": 24.99,
-        "margin_pct": 47.4,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "ready": false,
-      "blocked_by": [
-        "gosi",
-        "us_label"
-      ]
-    },
-    {
-      "rank": 3,
       "pd_no": "1041749",
       "product_id": "1041749",
       "name": "식물원 병풀 클리어 앰플 30 ml",
@@ -129,17 +86,17 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
       "copy": {
         "title": "Sikmulnara Centella Clear Ampoule 30 ml",
-        "description_html": "<p>Discover the Sikmulnara Centella Clear Ampoule in a convenient 30 ml size, designed to help care for your skin daily. This lightweight formula absorbs easily to support a fresh and balanced complexion.</p><p>Incorporate this clear ampoule into your regular skincare routine for a smooth, hydrated look. Suitable for all skin types looking for a gentle daily boost.</p>",
+        "description_html": "<p>Discover the Sikmulnara Centella Clear Ampoule, featuring a 30 ml formula designed for your daily skincare routine. This lightweight facial ampoule helps support a balanced and refreshed-looking complexion.</p><p>Incorporate this easy-to-use ampoule into your morning and evening regimen for a smooth and comfortable feel throughout the day. Suitable for regular skincare application.</p>",
         "seo_title": "Sikmulnara Centella Clear Ampoule 30 ml",
-        "seo_description": "Shop the Sikmulnara Centella Clear Ampoule 30 ml for a hydrated and balanced complexion. Gentle daily skincare from Korea.",
+        "seo_description": "Shop the Sikmulnara Centella Clear Ampoule 30 ml for a refreshed and balanced complexion. Lightweight formula for your daily K-beauty skincare routine.",
         "tags": [
+          "centella-ampoule",
+          "korean-skincare",
+          "facial-serum",
           "k-beauty",
-          "skincare",
-          "face-serum",
-          "ampoule",
-          "centella",
           "sikmulnara",
-          "korean-skincare"
+          "hydrating-ampoule",
+          "skincare-routine"
         ],
         "product_type": "Face Serum"
       },
@@ -175,6 +132,61 @@
       ]
     },
     {
+      "rank": 3,
+      "pd_no": "1062781",
+      "product_id": "1062781",
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 91,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
+      "copy": {
+        "title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
+        "description_html": "<p>Discover the nourishing benefits of Cell Fusion C Derma Block PDRN Collagen Cream, formulated with PDRN and collagen.</p><p>This 50ml facial cream helps moisturize and support a smoother-looking, radiant complexion for daily skincare routines.</p>",
+        "seo_title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
+        "seo_description": "Shop Cell Fusion C Derma Block PDRN Collagen Cream 50ml. A hydrating facial cream formulated with PDRN and collagen for a smooth, radiant complexion.",
+        "tags": [
+          "cell-fusion-c",
+          "pdrn-cream",
+          "collagen-cream",
+          "korean-skincare",
+          "face-cream",
+          "moisturizing-cream"
+        ],
+        "product_type": "Face Cream"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "volume": "",
+        "maker": "",
+        "origin": "한국",
+        "ingredients": "",
+        "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "실제 확인값",
+        "manufacturer": "실제 확인한 제조사",
+        "country_of_origin": "실제 확인한 원산지",
+        "ingredients_inci": "실제 확인한 전체 INCI 성분",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 47.4,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "ready": false,
+      "blocked_by": [
+        "gosi",
+        "us_label"
+      ]
+    },
+    {
       "rank": 4,
       "pd_no": "1059834",
       "product_id": "1059834",
@@ -185,19 +197,19 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
       "copy": {
         "title": "Celderma Daily Transforming Firming Collagen Mask 28g",
-        "description_html": "<p>Discover the Celderma Daily Transforming Firming Collagen Mask, formulated to help support a firm and glowing appearance. Each 28g sheet mask is designed to deliver a refreshing surge of moisture to the face.</p><p>Incorporate this collagen-infused mask into your regular skincare routine for a smooth, radiant, and well-hydrated complexion.</p>",
+        "description_html": "<p>Discover the Celderma Daily Transforming Firming Collagen Mask, formulated to help support a smooth and firm-looking complexion.</p><p>Each 28g sheet mask is designed for easy application, delivering moisture to the skin for a fresh and glowing appearance.</p>",
         "seo_title": "Celderma Daily Transforming Firming Collagen Mask 28g",
-        "seo_description": "Shop the Celderma Daily Transforming Firming Collagen Mask 28g for deep hydration and a firm, glowing complexion. Easy-to-use sheet mask for radiant skin.",
+        "seo_description": "Shop the Celderma Daily Transforming Firming Collagen Mask 28g. Hydrate and support a firm, glowing complexion with this K-beauty sheet mask.",
         "tags": [
           "celderma",
           "collagen-mask",
           "sheet-mask",
           "k-beauty",
           "face-mask",
-          "hydrating-mask",
-          "firming-mask"
+          "firming-mask",
+          "skincare"
         ],
-        "product_type": "Sheet Mask"
+        "product_type": "Face Mask"
       },
       "copy_status": "ok",
       "gosi": {
@@ -241,17 +253,17 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
       "copy": {
         "title": "VT Cica Calming Toner 300 ml",
-        "description_html": "<p>Discover the refreshing hydration of VT Cica Calming Toner, formulated with cica to help soothe and comfort the look of your skin. This generous 300 ml bottle provides ample moisture for your daily skincare routine.</p><p>Gently sweep across your face after cleansing to help prep your skin for the next steps of your routine, leaving your complexion feeling balanced and refreshed.</p>",
-        "seo_title": "VT Cica Calming Toner 300 ml - Soothing Facial Toner",
-        "seo_description": "Shop VT Cica Calming Toner 300 ml. Formulated with cica to help soothe and refresh your skin. Perfect for your daily hydrating skincare routine.",
+        "description_html": "<p>Discover the refreshing hydration of VT Cica Calming Toner, formulated with cica to help soothe and comfort your skin.</p><p>This generous 300 ml bottle provides ample moisture for your daily skincare routine, leaving your complexion feeling soft and balanced.</p>",
+        "seo_title": "VT Cica Calming Toner 300 ml",
+        "seo_description": "Shop the VT Cica Calming Toner 300 ml for daily hydration and soothing care. Formulated with cica for a balanced and refreshed complexion.",
         "tags": [
           "vt-cica",
           "cica-toner",
           "calming-toner",
-          "korean-toner",
+          "korean-skincare",
           "facial-toner",
-          "k-beauty",
-          "skincare"
+          "hydrating-toner",
+          "k-beauty"
         ],
         "product_type": "Facial Toner"
       },
@@ -296,19 +308,19 @@
       "shopify_score": 86,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
       "copy": {
-        "title": "Medi-Peel Extra Super 9 Plus Pore Calming Toner 200 ml",
-        "description_html": "<p>Discover the Medi-Peel Extra Super 9 Plus Pore Calming Toner in a convenient 200 ml size. Designed to help soothe and refresh your skin as part of your daily routine.</p><p>Apply gently to the face to help balance and care for pores, leaving your complexion looking clean, smooth, and revitalized.</p>",
-        "seo_title": "Medi-Peel Extra Super 9 Plus Pore Calming Toner 200 ml",
-        "seo_description": "Shop Medi-Peel Extra Super 9 Plus Pore Calming Toner 200 ml. Refresh and soothe your skin for a clean, balanced, and smooth complexion.",
+        "title": "Medipeel Extra Super 9 Plus Pore Calming Toner 200 ml",
+        "description_html": "<p>Discover the Medipeel Extra Super 9 Plus Pore Calming Toner in a convenient 200 ml size. This refreshing toner helps to soothe the skin and maintain a balanced, comfortable feel for your daily routine.</p><p>Designed for easy application, simply apply to clean skin to help refine the look of pores and support a clear-looking complexion. Perfect for everyday skincare use.</p>",
+        "seo_title": "Medipeel Extra Super 9 Plus Pore Calming Toner 200 ml",
+        "seo_description": "Shop the Medipeel Extra Super 9 Plus Pore Calming Toner 200 ml. A soothing facial toner designed to help refine pores and support a clear, balanced complexion.",
         "tags": [
-          "medi-peel",
+          "medipeel",
           "pore-toner",
           "calming-toner",
-          "k-beauty",
-          "skincare",
-          "face-toner"
+          "korean-skincare",
+          "face-toner",
+          "k-beauty"
         ],
-        "product_type": "Toner"
+        "product_type": "Face Toner"
       },
       "copy_status": "ok",
       "gosi": {
@@ -352,18 +364,17 @@
       "shopify_score": 85,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
       "copy": {
-        "title": "Too The Dewy Skin Cushion 15g Nude Light",
-        "description_html": "<p>Discover the Too The Dewy Skin Cushion in Nude Light, sized at 15g, designed to give your skin a fresh and glowing finish.</p><p>This lightweight cushion compact provides smooth coverage for a radiant and even-looking complexion throughout the day.</p>",
-        "seo_title": "Too The Dewy Skin Cushion 15g Nude Light",
-        "seo_description": "Shop the Too The Dewy Skin Cushion 15g Nude Light for a radiant and glowing finish with smooth coverage for your daily makeup routine.",
+        "title": "Too The Glitz Dewy Skin Cushion 15g Nude Light",
+        "description_html": "<p>Discover the Too The Glitz Dewy Skin Cushion in Nude Light, sized at 15g. This cushion compact delivers a fresh, glowing finish for a radiant complexion.</p><p>Lightweight and easy to apply, it helps create a smooth and dewy look throughout the day with a natural, luminous glow.</p>",
+        "seo_title": "Too The Glitz Dewy Skin Cushion 15g Nude Light",
+        "seo_description": "Shop the Too The Glitz Dewy Skin Cushion 15g in Nude Light. Get a fresh, glowing, and radiant complexion with this easy-to-apply cushion compact.",
         "tags": [
           "cushion-foundation",
-          "k-beauty",
           "dewy-skin",
-          "makeup",
           "nude-light",
+          "k-beauty",
           "face-makeup",
-          "korean-cosmetics"
+          "glow-finish"
         ],
         "product_type": "Foundation"
       },

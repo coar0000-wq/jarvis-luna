@@ -9,7 +9,7 @@
       "ingredients": "",
       "warnings": "",
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048583",
-      "captured_at": "2026-09-12T20:45:08.781481+00:00"
+      "captured_at": "2026-09-12T22:44:53.463903+00:00"
     },
     "1062781": {
       "product_id": "1062781",
@@ -20,7 +20,7 @@
       "ingredients": "",
       "warnings": "",
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
-      "captured_at": "2026-09-12T20:45:21.140802+00:00"
+      "captured_at": "2026-09-12T22:45:04.863797+00:00"
     },
     "1041749": {
       "product_id": "1041749",
@@ -31,7 +31,7 @@
       "ingredients": "",
       "warnings": "",
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
-      "captured_at": "2026-09-12T20:45:32.751480+00:00"
+      "captured_at": "2026-09-12T22:45:16.200925+00:00"
     },
     "1049271": {
       "product_id": "1049271",
@@ -42,7 +42,7 @@
       "ingredients": "",
       "warnings": "",
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
-      "captured_at": "2026-09-12T20:45:44.316519+00:00"
+      "captured_at": "2026-09-12T22:45:27.427993+00:00"
     },
     "1041403": {
       "product_id": "1041403",
@@ -53,7 +53,7 @@
       "ingredients": "",
       "warnings": "",
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "captured_at": "2026-09-12T20:45:55.740907+00:00"
+      "captured_at": "2026-09-12T22:45:38.631546+00:00"
     },
     "1045421": {
       "product_id": "1045421",
@@ -64,7 +64,7 @@
       "ingredients": "",
       "warnings": "",
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
-      "captured_at": "2026-09-12T20:46:07.291636+00:00"
+      "captured_at": "2026-09-12T22:45:49.889325+00:00"
     },
     "1059834": {
       "product_id": "1059834",
@@ -75,11 +75,11 @@
       "ingredients": "",
       "warnings": "",
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
-      "captured_at": "2026-09-12T20:46:18.899822+00:00"
+      "captured_at": "2026-09-12T22:46:01.122370+00:00"
     }
   },
   "updated_at": "2026-09-12T10:08:50Z",
   "source": "https://www.daisomall.co.kr",
   "schema_version": 2,
-  "last_auto_run": "2026-09-12T20:46:18.899839+00:00"
+  "last_auto_run": "2026-09-12T22:46:01.122390+00:00"
 }
