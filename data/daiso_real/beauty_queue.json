@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T03:42:43.289403+00:00",
+  "generated_at": "2026-09-12T21:29:55.941256+00:00",
   "generator": "scripts/daiso/build_beauty_queue.py",
   "왜": "사이트맵을 훑으면 뷰티관 밖 상품을 받아본 뒤 버린다. 한 회차 110건 중 82건이 그랬고 Crawl-delay 30 이라 41분이 버려졌다.",
   "신뢰": "URL 만 받는다. 이름과 가격은 collect_daiso.py 가 직접 받는다. LLM 이 옮긴 숫자를 실측값으로 쓰지 않는다.",
@@ -11,15 +11,15 @@
       "target": "뷰티관 허브",
       "url": "https://www.daisomall.co.kr/ds/diy2/C245",
       "count": 0,
-      "url_context": "{\"call_id\": \"call_843082\", \"signature\": \"Eq8YCqwYCAISpxgBEU0yD7395R24gzUKw1tY6ONSYWlf/KFRNFbiDUvX623fwpoKqgV3QeKIc9Xj+HxDRIbCBqVYPLU0+G0nLCIQC1tTCmzff0p5NMxd4KJfjZxEa77i9yOn4XXjK/LAeRTefYZ55LRMjvlOMvo",
-      "진단": "Title: 다이소몰, 0 product cards visible, First 40 characters: \"다이소몰 다이소몰 - 다이소 검색 페이지 랜딩 디즈니 검색 신상꿀템 디\""
+      "url_context": "",
+      "진단": "Title: \"다이소몰\", 29 product cards, first 40 characters: \"다이소몰 다이소몰 - 다이소 검색 페이지 랜딩 키티 검색 실리콘 키티 노\""
     }
   ],
   "errors": [
     {
       "target": "뷰티관 허브",
       "url": "https://www.daisomall.co.kr/ds/diy2/C245",
-      "error": "상품 URL 없음: []"
+      "error": "HTTP 500: {\"error\":{\"message\":\"gemini-flash-latest is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.\",\"code\":\"api_error\"}}"
     }
   ],
   "new_this_run": 0,

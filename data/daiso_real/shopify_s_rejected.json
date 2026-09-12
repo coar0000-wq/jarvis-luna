@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T20:15:02.242939+00:00",
+  "generated_at": "2026-09-12T22:30:20.718933+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
   "count": 28,
   "items": [
@@ -28,7 +28,7 @@
       "shopify_score": 94,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'PDRN 핑크 콜라겐 볼륨 멀티밤' (ulta_beauty) 유사 52% · 토큰 pdrn · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'PDRN 핑크 콜라겐 볼륨 멀티밤' (ulta_beauty) 유사 45% · 토큰 pdrn · S제외:match_too_weak"
     },
     {
       "pd_no": "1044554",
@@ -91,7 +91,7 @@
       "shopify_score": 86,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'COSRX Advanced Snail 96 Mucin Essence' (amazon_best_sellers) 유사 28% · 토큰 essence · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'COSRX Advanced Snail 96 Mucin Essence' (tiktok_shop_us) 유사 28% · 토큰 essence · S제외:weak_solo_token"
     },
     {
       "pd_no": "1044967",
@@ -112,6 +112,15 @@
       "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner"
     },
     {
+      "pd_no": "1067024",
+      "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
+      "bucket": "클렌징",
+      "shopify_score": 85,
+      "s_rule": "weak_solo_token",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 '메이크업 리무버 물티슈 (25매x2)' (amazon_best_sellers) 유사 40% · 토큰 cleanser · S제외:weak_solo_token"
+    },
+    {
       "pd_no": "1074979",
       "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
       "bucket": "스킨케어",
@@ -119,15 +128,6 @@
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
       "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
-    },
-    {
-      "pd_no": "1067024",
-      "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
-      "bucket": "클렌징",
-      "shopify_score": 85,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "클렌징 카테고리 · 평점 4.8 · 리뷰 1,078건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1049295",
@@ -161,9 +161,9 @@
       "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
       "bucket": "스킨케어",
       "shopify_score": 84,
-      "s_rule": "weak_solo_token",
+      "s_rule": "no_global_match",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'CeraVe Daily Moisturizing Lotion' (walmart_beauty) 유사 28% · 토큰 lotion · S제외:weak_solo_token"
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,107건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1072803",
@@ -175,31 +175,22 @@
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 444건 (글로벌 시그널 약함)"
     },
     {
-      "pd_no": "1068733",
-      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
-      "bucket": "스킨케어",
-      "shopify_score": 83,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 40% · 토큰 ampoule · S제외:match_too_weak"
-    },
-    {
-      "pd_no": "1043659",
-      "name": "닥터지오 모이스처 올인원 젤로션 150 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 83,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'La Roche-Posay Double Repair Moisturizer' (amazon_best_sellers) 유사 38% · 토큰 moisturizer · S제외:match_too_weak"
-    },
-    {
       "pd_no": "1051730",
       "name": "랩잇 by 닥터지 포어 클렌징 폼 100 g",
       "bucket": "클렌징",
       "shopify_score": 83,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'CeraVe Foaming Facial Cleanser' (amazon_best_sellers) 유사 28% · 토큰 cleanser · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 '톨레리안 퓨리파잉 폼 클렌저' (walmart_beauty) 유사 40% · 토큰 cleanser · S제외:weak_solo_token"
+    },
+    {
+      "pd_no": "1068733",
+      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+      "bucket": "스킨케어",
+      "shopify_score": 83,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 33% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
       "pd_no": "58600",
@@ -209,6 +200,15 @@
       "s_rule": "no_global_match",
       "downgrade_reason": null,
       "recommend_reason": "바디케어 카테고리 · 평점 4.8 · 리뷰 672건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1043659",
+      "name": "닥터지오 모이스처 올인원 젤로션 150 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 83,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 587건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1041809",
@@ -224,9 +224,9 @@
       "name": "존슨즈 베이비 로션 핑크 200ml",
       "bucket": "스킨케어",
       "shopify_score": 82,
-      "s_rule": "weak_solo_token",
+      "s_rule": "no_global_match",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'CeraVe Daily Moisturizing Lotion' (walmart_beauty) 유사 28% · 토큰 lotion · S제외:weak_solo_token"
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 511건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1060208",
