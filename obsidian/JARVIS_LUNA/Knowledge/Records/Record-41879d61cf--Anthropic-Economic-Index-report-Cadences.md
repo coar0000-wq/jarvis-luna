@@ -2,7 +2,7 @@
 title: "Record 41879d61cf · Anthropic-Economic-Index-report-Cadences"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:08.062206+00:00
+updated_at: 2026-09-12T05:23:41.473186+00:00
 tags: [record, real-data]
 ---
 

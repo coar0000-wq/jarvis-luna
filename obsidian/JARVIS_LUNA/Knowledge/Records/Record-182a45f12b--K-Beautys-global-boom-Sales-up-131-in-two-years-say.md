@@ -2,7 +2,7 @@
 title: "Record 182a45f12b · K-Beautys-global-boom-Sales-up-131-in-two-years-says-NIQ---Premium-Bea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.816256+00:00
+updated_at: 2026-09-12T05:23:41.260110+00:00
 tags: [record, real-data]
 ---
 

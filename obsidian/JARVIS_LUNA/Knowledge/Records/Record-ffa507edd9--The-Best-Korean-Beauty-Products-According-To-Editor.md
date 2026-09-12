@@ -2,7 +2,7 @@
 title: "Record ffa507edd9 · The-Best-Korean-Beauty-Products-According-To-Editors--Experts---Covete"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.731544+00:00
+updated_at: 2026-09-12T05:23:41.195113+00:00
 tags: [record, real-data]
 ---
 

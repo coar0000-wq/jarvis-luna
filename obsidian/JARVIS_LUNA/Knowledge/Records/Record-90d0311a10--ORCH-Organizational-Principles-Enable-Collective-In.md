@@ -2,7 +2,7 @@
 title: "Record 90d0311a10 · ORCH-Organizational-Principles-Enable-Collective-Intelligence-in-Embod"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.464629+00:00
+updated_at: 2026-09-12T05:23:40.978184+00:00
 tags: [record, real-data]
 ---
 

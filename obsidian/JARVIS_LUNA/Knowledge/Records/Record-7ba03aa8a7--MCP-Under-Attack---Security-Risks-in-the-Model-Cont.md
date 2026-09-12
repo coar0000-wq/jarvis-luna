@@ -2,7 +2,7 @@
 title: "Record 7ba03aa8a7 · MCP-Under-Attack---Security-Risks-in-the-Model-Context-Protocol-Ecosys"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.643024+00:00
+updated_at: 2026-09-12T05:23:41.125749+00:00
 tags: [record, real-data]
 ---
 

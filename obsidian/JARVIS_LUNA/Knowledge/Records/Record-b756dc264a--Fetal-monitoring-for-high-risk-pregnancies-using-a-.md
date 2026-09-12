@@ -2,7 +2,7 @@
 title: "Record b756dc264a · Fetal-monitoring-for-high-risk-pregnancies-using-a-wearable-ultrasound"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.532543+00:00
+updated_at: 2026-09-12T05:23:41.035507+00:00
 tags: [record, real-data]
 ---
 

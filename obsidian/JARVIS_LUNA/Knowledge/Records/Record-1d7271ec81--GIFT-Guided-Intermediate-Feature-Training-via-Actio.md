@@ -2,7 +2,7 @@
 title: "Record 1d7271ec81 · GIFT-Guided-Intermediate-Feature-Training-via-Action-Oriented-Structur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.397890+00:00
+updated_at: 2026-09-12T05:23:40.914255+00:00
 tags: [record, real-data]
 ---
 

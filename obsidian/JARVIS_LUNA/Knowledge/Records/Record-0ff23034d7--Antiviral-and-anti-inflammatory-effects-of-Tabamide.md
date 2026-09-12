@@ -2,7 +2,7 @@
 title: "Record 0ff23034d7 · Antiviral-and-anti-inflammatory-effects-of-Tabamide-A-derivative-TA25-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.533941+00:00
+updated_at: 2026-09-12T05:23:41.036578+00:00
 tags: [record, real-data]
 ---
 

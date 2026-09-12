@@ -2,7 +2,7 @@
 title: "Record 1a14c17416 · Gastric-Mucosa-Cancer-Risk-The-Operative-Link-on-Gastritis-Assessment-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.663473+00:00
+updated_at: 2026-09-12T05:23:41.141578+00:00
 tags: [record, real-data]
 ---
 

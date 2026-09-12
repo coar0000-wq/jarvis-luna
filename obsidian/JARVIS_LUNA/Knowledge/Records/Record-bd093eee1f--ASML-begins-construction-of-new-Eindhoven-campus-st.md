@@ -2,7 +2,7 @@
 title: "Record bd093eee1f · ASML-begins-construction-of-new-Eindhoven-campus-strengthening-its-pre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:08.066712+00:00
+updated_at: 2026-09-12T05:23:41.477059+00:00
 tags: [record, real-data]
 ---
 

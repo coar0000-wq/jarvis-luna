@@ -1,6 +1,6 @@
 {
   "agent": "Safe-Auto-Fix",
-  "generated_at": "2026-09-11T22:43:05.608692+00:00",
+  "generated_at": "2026-09-12T05:23:19.153453+00:00",
   "status": "success",
   "enabled": true,
   "chief_of_staff": {
@@ -12,9 +12,9 @@
   "snapshot_before": {
     "collection": {
       "requested": 110,
-      "ok": 12,
-      "parse_failed": 7,
-      "finished_at": "2026-09-09T22:42:59.014772+00:00"
+      "ok": 3,
+      "parse_failed": 3,
+      "finished_at": "2026-09-12T04:41:38.292904+00:00"
     },
     "channels": {
       "live": 11,
@@ -29,16 +29,16 @@
       ]
     },
     "graph": {
-      "nodes": 81208,
-      "links": 322604,
+      "nodes": 81219,
+      "links": 322716,
       "dangling_generated": 0,
-      "runtime_nodes": 81208,
-      "runtime_links": 322604,
+      "runtime_nodes": 81219,
+      "runtime_links": 322716,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 81208,
-        "actual_links": 322604,
+        "actual_nodes": 81219,
+        "actual_links": 322716,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -126,8 +126,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 81208,
-        "runtime_links": 322604,
+        "runtime_nodes": 81219,
+        "runtime_links": 322716,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -138,15 +138,15 @@
       "s_count": 7
     },
     "queue": {
-      "blacklist_count": 7
+      "blacklist_count": 0
     }
   },
   "snapshot_after": {
     "collection": {
       "requested": 110,
-      "ok": 12,
-      "parse_failed": 7,
-      "finished_at": "2026-09-09T22:42:59.014772+00:00"
+      "ok": 3,
+      "parse_failed": 3,
+      "finished_at": "2026-09-12T04:41:38.292904+00:00"
     },
     "channels": {
       "live": 11,
@@ -161,16 +161,16 @@
       ]
     },
     "graph": {
-      "nodes": 81208,
-      "links": 322604,
+      "nodes": 81219,
+      "links": 322716,
       "dangling_generated": 0,
-      "runtime_nodes": 81208,
-      "runtime_links": 322604,
+      "runtime_nodes": 81219,
+      "runtime_links": 322716,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 81208,
-        "actual_links": 322604,
+        "actual_nodes": 81219,
+        "actual_links": 322716,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -258,8 +258,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 81208,
-        "runtime_links": 322604,
+        "runtime_nodes": 81219,
+        "runtime_links": 322716,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -270,26 +270,26 @@
       "s_count": 7
     },
     "queue": {
-      "blacklist_count": 7
+      "blacklist_count": 0
     }
   },
   "improvement": {
     "graph_dangling_before": 0,
     "graph_dangling_after": 0,
-    "graph_nodes_before": 81208,
-    "graph_nodes_after": 81208,
-    "graph_links_before": 322604,
-    "graph_links_after": 322604,
-    "parse_failed_before": 7,
-    "parse_failed_after": 7,
+    "graph_nodes_before": 81219,
+    "graph_nodes_after": 81219,
+    "graph_links_before": 322716,
+    "graph_links_after": 322716,
+    "parse_failed_before": 3,
+    "parse_failed_after": 3,
     "s_count_before": 7,
     "s_count_after": 7,
     "channels_live_before": 11,
     "channels_live_after": 11,
     "obsidian_truth_before": {
       "vault": "obsidian/JARVIS_LUNA",
-      "actual_nodes": 81208,
-      "actual_links": 322604,
+      "actual_nodes": 81219,
+      "actual_links": 322716,
       "actual_dangling_generated": 0,
       "actual_dangling_personal": 21,
       "generated_dangling_samples": [],
@@ -377,8 +377,8 @@
       ],
       "generated_dangling_sample_source_count": 0,
       "personal_dangling_sample_source_count": 8,
-      "runtime_nodes": 81208,
-      "runtime_links": 322604,
+      "runtime_nodes": 81219,
+      "runtime_links": 322716,
       "runtime_dangling_generated": 0,
       "runtime_consistent": true,
       "anomaly": false,
@@ -386,8 +386,8 @@
     },
     "obsidian_truth_after": {
       "vault": "obsidian/JARVIS_LUNA",
-      "actual_nodes": 81208,
-      "actual_links": 322604,
+      "actual_nodes": 81219,
+      "actual_links": 322716,
       "actual_dangling_generated": 0,
       "actual_dangling_personal": 21,
       "generated_dangling_samples": [],
@@ -475,8 +475,8 @@
       ],
       "generated_dangling_sample_source_count": 0,
       "personal_dangling_sample_source_count": 8,
-      "runtime_nodes": 81208,
-      "runtime_links": 322604,
+      "runtime_nodes": 81219,
+      "runtime_links": 322716,
       "runtime_dangling_generated": 0,
       "runtime_consistent": true,
       "anomaly": false,
@@ -486,25 +486,16 @@
   "changes": [
     {
       "action": "repair_daiso_queue",
-      "started_at": "2026-09-11T22:43:03.513703+00:00",
+      "started_at": "2026-09-12T05:23:15.757540+00:00",
       "enabled": true,
       "changed": false,
       "added_to_blacklist": [],
-      "already_blacklisted": [
-        "1069432",
-        "1058806",
-        "30493",
-        "1065883",
-        "1072035",
-        "10346312",
-        "1057256"
-      ],
+      "already_blacklisted": [],
       "removed_from_priority": [],
       "removed_from_urls": [],
-      "candidate_count": 7,
-      "reason": null,
-      "blacklist_field": "blacklist_pd_nos",
-      "finished_at": "2026-09-11T22:43:03.513745+00:00"
+      "candidate_count": 0,
+      "reason": "safe_blacklist_candidate=0",
+      "finished_at": "2026-09-12T05:23:15.757557+00:00"
     },
     {
       "action": "normalize_obsidian_links",
@@ -521,30 +512,21 @@
   ],
   "queue": {
     "action": "repair_daiso_queue",
-    "started_at": "2026-09-11T22:43:03.513703+00:00",
+    "started_at": "2026-09-12T05:23:15.757540+00:00",
     "enabled": true,
     "changed": false,
     "added_to_blacklist": [],
-    "already_blacklisted": [
-      "1069432",
-      "1058806",
-      "30493",
-      "1065883",
-      "1072035",
-      "10346312",
-      "1057256"
-    ],
+    "already_blacklisted": [],
     "removed_from_priority": [],
     "removed_from_urls": [],
-    "candidate_count": 7,
-    "reason": null,
-    "blacklist_field": "blacklist_pd_nos",
-    "finished_at": "2026-09-11T22:43:03.513745+00:00"
+    "candidate_count": 0,
+    "reason": "safe_blacklist_candidate=0",
+    "finished_at": "2026-09-12T05:23:15.757557+00:00"
   },
   "queue_validation": {
     "queue_is_dict": true,
     "blacklist_is_list": true,
-    "blacklist_field": "blacklist_pd_nos",
+    "blacklist_field": "blacklist",
     "ok": true
   },
   "runtime_validation": {

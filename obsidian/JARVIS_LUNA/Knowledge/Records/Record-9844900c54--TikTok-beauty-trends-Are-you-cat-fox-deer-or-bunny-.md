@@ -2,7 +2,7 @@
 title: "Record 9844900c54 · TikTok-beauty-trends-Are-you-cat-fox-deer-or-bunny-pretty---Prestige-O"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.825867+00:00
+updated_at: 2026-09-12T05:23:41.267689+00:00
 tags: [record, real-data]
 ---
 

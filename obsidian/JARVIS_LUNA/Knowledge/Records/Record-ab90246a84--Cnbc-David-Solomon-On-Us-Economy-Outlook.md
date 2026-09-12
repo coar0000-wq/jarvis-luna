@@ -2,7 +2,7 @@
 title: "Record ab90246a84 · Cnbc-David-Solomon-On-Us-Economy-Outlook"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:08.086400+00:00
+updated_at: 2026-09-12T05:23:41.494314+00:00
 tags: [record, real-data]
 ---
 

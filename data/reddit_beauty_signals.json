@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-11T22:37:52.871390+00:00",
+  "collected_at": "2026-09-12T05:17:35.638789+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -68,6 +68,10 @@
       "score": 3
     },
     {
+      "keyword": "product",
+      "score": 3
+    },
+    {
       "keyword": "care",
       "score": 3
     },
@@ -88,10 +92,6 @@
       "score": 2
     },
     {
-      "keyword": "product",
-      "score": 2
-    },
-    {
       "keyword": "cream",
       "score": 2
     },
@@ -108,15 +108,15 @@
       "score": 2
     },
     {
-      "keyword": "asian",
+      "keyword": "skin1004",
       "score": 2
     },
     {
-      "keyword": "anyone",
+      "keyword": "centella",
       "score": 2
     },
     {
-      "keyword": "sunscreen",
+      "keyword": "ampoule",
       "score": 2
     },
     {
@@ -188,19 +188,19 @@
       "score": 1
     },
     {
+      "keyword": "days",
+      "score": 1
+    },
+    {
+      "keyword": "using",
+      "score": 1
+    },
+    {
+      "keyword": "madagascar",
+      "score": 1
+    },
+    {
       "keyword": "freshian",
-      "score": 1
-    },
-    {
-      "keyword": "blush",
-      "score": 1
-    },
-    {
-      "keyword": "beauty",
-      "score": 1
-    },
-    {
-      "keyword": "dupes",
       "score": 1
     }
   ],
@@ -222,7 +222,15 @@
       "score": 4
     },
     {
-      "keyword": "sunscreen",
+      "keyword": "skin1004",
+      "score": 2
+    },
+    {
+      "keyword": "centella",
+      "score": 2
+    },
+    {
+      "keyword": "ampoule",
       "score": 2
     }
   ],
@@ -249,16 +257,16 @@
       "feed": "hot"
     },
     {
-      "title": "Freshian cream blush",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdkqrd/freshian_cream_blush/",
-      "published": "2026-09-11T16:15:14+00:00",
+      "title": "30 days using SKIN1004 Madagascar Centella Ampoule",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we0p7d/30_days_using_skin1004_madagascar_centella_ampoule/",
+      "published": "2026-09-12T02:53:22+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Asian beauty dupes in Europe?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdq8ze/asian_beauty_dupes_in_europe/",
-      "published": "2026-09-11T19:31:23+00:00",
+      "title": "Freshian cream blush",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdkqrd/freshian_cream_blush/",
+      "published": "2026-09-11T16:15:14+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -277,16 +285,16 @@
       "feed": "hot"
     },
     {
-      "title": "Severe reaction to Some by mi Yuja Niacin serum",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdgk8l/severe_reaction_to_some_by_mi_yuja_niacin_serum/",
-      "published": "2026-09-11T13:37:49+00:00",
+      "title": "Desperately looking for a lip product that has a similar shade to this :,)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we1muw/desperately_looking_for_a_lip_product_that_has_a/",
+      "published": "2026-09-12T03:39:24+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Anyone Fitzpatrick 4 or darker who've used Kose Sekkisei milk sunscreen?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdq09w/anyone_fitzpatrick_4_or_darker_whove_used_kose/",
-      "published": "2026-09-11T19:22:43+00:00",
+      "title": "Severe reaction to Some by mi Yuja Niacin serum",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdgk8l/severe_reaction_to_some_by_mi_yuja_niacin_serum/",
+      "published": "2026-09-11T13:37:49+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -340,16 +348,16 @@
       "feed": "hot"
     },
     {
-      "title": "Deep cut: illi total aging care cleansing oil fragrance",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wd7snl/deep_cut_illi_total_aging_care_cleansing_oil/",
-      "published": "2026-09-11T06:04:34+00:00",
+      "title": "Does anyone here have a numbuzin product/parcel insert?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wd7oyo/does_anyone_here_have_a_numbuzin_productparcel/",
+      "published": "2026-09-11T05:59:14+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Does anyone here have a numbuzin product/parcel insert?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wd7oyo/does_anyone_here_have_a_numbuzin_productparcel/",
-      "published": "2026-09-11T05:59:14+00:00",
+      "title": "Deep cut: illi total aging care cleansing oil fragrance",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wd7snl/deep_cut_illi_total_aging_care_cleansing_oil/",
+      "published": "2026-09-11T06:04:34+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },

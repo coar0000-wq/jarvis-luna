@@ -1,20 +1,12 @@
 {
   "agent": "Chief-of-Staff",
   "role": "전체 JARVIS 운영상태를 종합하여 우선순위와 Safe Auto-Fix 실행 여부를 결정",
-  "generated_at": "2026-09-11T22:43:05.608139+00:00",
+  "generated_at": "2026-09-12T05:23:19.152730+00:00",
   "risk": "high",
   "overall_priority": "P1",
   "overall_action": "SAFE_BLACKLIST_SYNC",
-  "overall_reason": "다이소 수집 parse_failed가 7건 존재한다.",
+  "overall_reason": "다이소 수집 실패",
   "decisions": [
-    {
-      "priority": "P1",
-      "severity_score": 72,
-      "area": "daiso",
-      "action": "SAFE_BLACKLIST_SYNC",
-      "reason": "다이소 수집 parse_failed가 7건 존재한다.",
-      "auto_execute": true
-    },
     {
       "priority": "P1",
       "severity_score": 70,
@@ -24,10 +16,18 @@
       "reason": "다이소 수집 실패",
       "evidence": {
         "requested": 110,
-        "ok": 12,
-        "parse_failed": 7,
-        "finished_at": "2026-09-09T22:42:59.014772+00:00"
+        "ok": 3,
+        "parse_failed": 3,
+        "finished_at": "2026-09-12T04:41:38.292904+00:00"
       },
+      "auto_execute": true
+    },
+    {
+      "priority": "P1",
+      "severity_score": 68,
+      "area": "daiso",
+      "action": "SAFE_BLACKLIST_SYNC",
+      "reason": "다이소 수집 parse_failed가 3건 존재한다.",
       "auto_execute": true
     },
     {
@@ -56,37 +56,9 @@
         ]
       },
       "auto_execute": false
-    },
-    {
-      "priority": "P3",
-      "severity_score": 45,
-      "area": "daiso_queue",
-      "action": "MONITOR_BLACKLIST",
-      "reason": "현재 blacklist가 7건이다.",
-      "auto_execute": false
-    },
-    {
-      "priority": "P3",
-      "severity_score": 30,
-      "area": "ops",
-      "team": "ops",
-      "action": "MONITOR_BLACKLIST",
-      "reason": "운영 큐 모니터링 필요",
-      "evidence": {
-        "blacklist_count": 7
-      },
-      "auto_execute": false
     }
   ],
   "approved_auto_actions": [
-    {
-      "priority": "P1",
-      "severity_score": 72,
-      "area": "daiso",
-      "action": "SAFE_BLACKLIST_SYNC",
-      "reason": "다이소 수집 parse_failed가 7건 존재한다.",
-      "auto_execute": true
-    },
     {
       "priority": "P1",
       "severity_score": 70,
@@ -96,10 +68,18 @@
       "reason": "다이소 수집 실패",
       "evidence": {
         "requested": 110,
-        "ok": 12,
-        "parse_failed": 7,
-        "finished_at": "2026-09-09T22:42:59.014772+00:00"
+        "ok": 3,
+        "parse_failed": 3,
+        "finished_at": "2026-09-12T04:41:38.292904+00:00"
       },
+      "auto_execute": true
+    },
+    {
+      "priority": "P1",
+      "severity_score": 68,
+      "area": "daiso",
+      "action": "SAFE_BLACKLIST_SYNC",
+      "reason": "다이소 수집 parse_failed가 3건 존재한다.",
       "auto_execute": true
     }
   ],
@@ -130,26 +110,6 @@
         ]
       },
       "auto_execute": false
-    },
-    {
-      "priority": "P3",
-      "severity_score": 45,
-      "area": "daiso_queue",
-      "action": "MONITOR_BLACKLIST",
-      "reason": "현재 blacklist가 7건이다.",
-      "auto_execute": false
-    },
-    {
-      "priority": "P3",
-      "severity_score": 30,
-      "area": "ops",
-      "team": "ops",
-      "action": "MONITOR_BLACKLIST",
-      "reason": "운영 큐 모니터링 필요",
-      "evidence": {
-        "blacklist_count": 7
-      },
-      "auto_execute": false
     }
   ],
   "policy": {
@@ -169,9 +129,9 @@
       "priority": "P1",
       "evidence": {
         "requested": 110,
-        "ok": 12,
-        "parse_failed": 7,
-        "finished_at": "2026-09-09T22:42:59.014772+00:00"
+        "ok": 3,
+        "parse_failed": 3,
+        "finished_at": "2026-09-12T04:41:38.292904+00:00"
       },
       "recommended_action": "SAFE_BLACKLIST_SYNC",
       "auto_execute": true
@@ -206,12 +166,12 @@
     "ops": {
       "name": "Ops-Prioritizer",
       "description": "실행 우선순위와 후보 큐 상태를 감시",
-      "status": "attention",
-      "priority": "P3",
+      "status": "ok",
+      "priority": "P4",
       "evidence": {
-        "blacklist_count": 7
+        "blacklist_count": 0
       },
-      "recommended_action": "MONITOR_BLACKLIST",
+      "recommended_action": "MONITOR",
       "auto_execute": false
     },
     "listing": {
@@ -265,8 +225,8 @@
       "status": "ok",
       "priority": "P4",
       "evidence": {
-        "nodes": 81208,
-        "links": 322604,
+        "nodes": 81219,
+        "links": 322716,
         "dangling_generated": 0,
         "truth_guard_anomaly": false,
         "anomaly_reasons": []
@@ -309,9 +269,9 @@
   "snapshot": {
     "collection": {
       "requested": 110,
-      "ok": 12,
-      "parse_failed": 7,
-      "finished_at": "2026-09-09T22:42:59.014772+00:00"
+      "ok": 3,
+      "parse_failed": 3,
+      "finished_at": "2026-09-12T04:41:38.292904+00:00"
     },
     "channels": {
       "live": 11,
@@ -326,16 +286,16 @@
       ]
     },
     "graph": {
-      "nodes": 81208,
-      "links": 322604,
+      "nodes": 81219,
+      "links": 322716,
       "dangling_generated": 0,
-      "runtime_nodes": 81208,
-      "runtime_links": 322604,
+      "runtime_nodes": 81219,
+      "runtime_links": 322716,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 81208,
-        "actual_links": 322604,
+        "actual_nodes": 81219,
+        "actual_links": 322716,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -423,8 +383,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 81208,
-        "runtime_links": 322604,
+        "runtime_nodes": 81219,
+        "runtime_links": 322716,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -435,7 +395,7 @@
       "s_count": 7
     },
     "queue": {
-      "blacklist_count": 7
+      "blacklist_count": 0
     }
   }
 }

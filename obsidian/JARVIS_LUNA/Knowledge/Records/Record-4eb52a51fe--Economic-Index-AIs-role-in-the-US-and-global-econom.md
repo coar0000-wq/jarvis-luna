@@ -2,7 +2,7 @@
 title: "Record 4eb52a51fe · Economic-Index-AIs-role-in-the-US-and-global-economy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:08.061959+00:00
+updated_at: 2026-09-12T05:23:41.472973+00:00
 tags: [record, real-data]
 ---
 

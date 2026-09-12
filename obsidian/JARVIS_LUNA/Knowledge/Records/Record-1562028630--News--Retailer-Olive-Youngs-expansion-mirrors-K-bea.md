@@ -2,7 +2,7 @@
 title: "Record 1562028630 · News--Retailer-Olive-Youngs-expansion-mirrors-K-beauty-demand-in-US---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.905704+00:00
+updated_at: 2026-09-12T05:23:41.336342+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMipgFBVV95cUxPYl9HLWJXV2V5bk53Sks2R1kyM3RGbF9jX1kxWURHY2ZvMmlJTTVaNlo3YWhORnlsWV9hMGJ2QmxVMEtZVjFienR1cDR5SWw0VjRjWmwzeGZURGxWYktHcEk5ZmhnSm1YektIbUNqYnVrejQ2ZUhUeWxERmlxODVKczVGdkRkTE0xSUM2bmNrNjh1MFRlMUVmV2VEb0wxZ0daM3Z0b1lB?oc=5)
 
-**제목:** News | Retailer Olive Young's expansion mirrors K-beauty demand in US - costar.com
+**제목:** News | Retailer Olive Young's expansion mirrors K-beauty demand in US - CoStar
 
-News | Retailer Olive Young's expansion mirrors K-beauty demand in US - costar.com
+News | Retailer Olive Young's expansion mirrors K-beauty demand in US - CoStar
 
 **출처:** Source · Google Search
 

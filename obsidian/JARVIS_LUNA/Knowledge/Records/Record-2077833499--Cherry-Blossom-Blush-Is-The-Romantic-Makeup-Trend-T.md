@@ -2,7 +2,7 @@
 title: "Record 2077833499 · Cherry-Blossom-Blush-Is-The-Romantic-Makeup-Trend-Taking-Over-TikTok--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.743111+00:00
+updated_at: 2026-09-12T05:23:41.203881+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d3660e9e80 · Token-Efficient-Data-Reasoning-Agents-via-Adaptive-Structuring-of-Unst"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.374450+00:00
+updated_at: 2026-09-12T05:23:40.892131+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4119ab778e · Shopify-SHOP-Evolution-from-E-Commerce-Platform-to-AI-Operating-System"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.895318+00:00
+updated_at: 2026-09-12T05:23:41.327276+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMinwFBVV95cUxNUUQydWxwR2xWR1E2VXlHODRzQXZESS02TWVRYzF4S2tSYy1vVVlKUV96SjFCMElleU9yQXRjYU55bmZlWUtOanBtSVNnenR0cEpoSXh5Ui1vSHVoZmNwNUMtb2ZqelJzZ2JPNl9naksyaHhPS3k4cTVrTGZiMUlfS2RWMmR2bm1UZEh0ODIwSVdCdUR4d2dGU1RKR1RYckE?oc=5)
 
-**제목:** Shopify (SHOP): Evolution from E-Commerce Platform to AI Operating System - Yahoo Finance
+**제목:** Shopify (SHOP): Evolution from E-Commerce Platform to AI Operating System - finance.yahoo.com
 
-Shopify (SHOP): Evolution from E-Commerce Platform to AI Operating System - Yahoo Finance
+Shopify (SHOP): Evolution from E-Commerce Platform to AI Operating System - finance.yahoo.com
 
 **출처:** Source · Google Search
 

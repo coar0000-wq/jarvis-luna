@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T04:36:40.792059+00:00",
+  "updated": "2026-09-12T05:16:53.427959+00:00",
   "sources": {
     "arxiv": {
       "status": "ok",
@@ -61,7 +61,7 @@
       "status": "ok",
       "source": "Robotics (arXiv cs.RO/eess.SY + IEEE Spectrum + Robot Report)",
       "reason": "",
-      "collected_at": "2026-09-11T22:35:28.002857+00:00",
+      "collected_at": "2026-09-12T05:15:10.982859+00:00",
       "items": [
         {
           "title": "EVPeriscope: Extended Perception across Aerial and Ground Vehicles with Event-based Propeller Tracking",
@@ -692,13 +692,33 @@
       "status": "ok",
       "source": "Institutions (RSS + sitemap + OpenAlex, 35개 기관)",
       "reason": "",
-      "collected_at": "2026-09-11T22:36:39.225576+00:00",
+      "collected_at": "2026-09-12T05:16:22.652939+00:00",
       "items": [
+        {
+          "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "text": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+          "published": "2026-09-14",
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "org": "OpenAI",
+          "category": "AI연구소",
+          "kind": "발표물",
+          "venue": ""
+        },
         {
           "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
           "text": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
           "published": "2026-09-11",
           "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+          "org": "OpenAI",
+          "category": "AI연구소",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+          "text": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+          "published": "2026-09-11",
+          "url": "https://openai.com/index/cognition-devin-testing-with-astra",
           "org": "OpenAI",
           "category": "AI연구소",
           "kind": "발표물",
@@ -919,26 +939,6 @@
           "text": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
           "published": "2026-09-03",
           "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-          "org": "OpenAI",
-          "category": "AI연구소",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "GPT-6 Astra: A new generation of intelligence",
-          "text": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-          "published": "2026-09-03",
-          "url": "https://openai.com/index/gpt-6-astra",
-          "org": "OpenAI",
-          "category": "AI연구소",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Safety overview: GPT-6 Astra",
-          "text": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-          "published": "2026-09-03",
-          "url": "https://openai.com/index/safety-overview-gpt-6-astra",
           "org": "OpenAI",
           "category": "AI연구소",
           "kind": "발표물",
@@ -3595,16 +3595,6 @@
           "venue": ""
         },
         {
-          "title": "Bain Capitals David Gross On Global Opportunities And Private Equitys Evolution",
-          "text": "",
-          "published": "2026-09-11",
-          "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/bain-capitals-david-gross-on-global-opportunities-and-private-equitys-evolution",
-          "org": "Goldman Sachs",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
           "title": "How Automation Impacts The Lives And Careers Of Displaced Workers",
           "text": "",
           "published": "2026-09-11",
@@ -3619,6 +3609,36 @@
           "text": "",
           "published": "2026-09-11",
           "url": "https://www.goldmansachs.com/insights/articles/why-global-bond-yields-are-expected-to-stay-elevated",
+          "org": "Goldman Sachs",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Bain Capitals David Gross On Global Opportunities And Private Equitys Evolution",
+          "text": "",
+          "published": "2026-09-11",
+          "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/bain-capitals-david-gross-on-global-opportunities-and-private-equitys-evolution",
+          "org": "Goldman Sachs",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "What A Fed Rate Hike Could Mean For Us Stocks",
+          "text": "",
+          "published": "2026-09-11",
+          "url": "https://www.goldmansachs.com/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks",
+          "org": "Goldman Sachs",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "What A Fed Rate Hike Could Mean For Us Stocks   Transcript",
+          "text": "",
+          "published": "2026-09-11",
+          "url": "https://www.goldmansachs.com/pdfs/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks/transcript.pdf",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
@@ -3675,20 +3695,20 @@
           "venue": ""
         },
         {
-          "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
+          "title": "Why Gold Is Expected To Rise To Record Highs",
           "text": "",
           "published": "2026-09-04",
-          "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
+          "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Why Gold Is Expected To Rise To Record Highs",
+          "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
           "text": "",
           "published": "2026-09-04",
-          "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
+          "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
@@ -3725,20 +3745,20 @@
           "venue": ""
         },
         {
-          "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
+          "title": "David Solomon Cnbc Sep 2026   Transcript",
           "text": "",
           "published": "2026-09-02",
-          "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
+          "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "David Solomon Cnbc Sep 2026   Transcript",
+          "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
           "text": "",
           "published": "2026-09-02",
-          "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
+          "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
@@ -3755,16 +3775,6 @@
           "venue": ""
         },
         {
-          "title": "What Is The Outlook For Diesel And Gasoline Supplies",
-          "text": "",
-          "published": "2026-08-28",
-          "url": "https://www.goldmansachs.com/insights/the-markets/what-is-the-outlook-for-diesel-and-gasoline-supplies",
-          "org": "Goldman Sachs",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
           "title": "Gold Is Forecast To Climb As Central Banks Buy The Precious Metal",
           "text": "",
           "published": "2026-08-28",
@@ -3775,20 +3785,10 @@
           "venue": ""
         },
         {
-          "title": "What Is The Outlook For Diesel And Gasoline Supplies   Transcript",
+          "title": "What Is The Outlook For Diesel And Gasoline Supplies",
           "text": "",
           "published": "2026-08-28",
-          "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/what-is-the-outlook-for-diesel-and-gasoline-supplies/transcript.pdf",
-          "org": "Goldman Sachs",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "The Insight Powering The Ai Era",
-          "text": "",
-          "published": "2026-08-27",
-          "url": "https://www.goldmansachs.com/what-we-do/investment-banking/insights/articles/the-insight-powering-the-ai-era",
+          "url": "https://www.goldmansachs.com/insights/the-markets/what-is-the-outlook-for-diesel-and-gasoline-supplies",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
@@ -3995,9 +3995,29 @@
           "venue": ""
         },
         {
+          "title": "Global Healthcare Conference",
+          "text": "",
+          "published": "2026-09-11",
+          "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Insights",
+          "text": "",
+          "published": "2026-09-11",
+          "url": "https://www.morganstanley.com/insights",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
           "title": "Thoughts On The Market",
           "text": "",
-          "published": "2026-09-10",
+          "published": "2026-09-11",
           "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
           "org": "Morgan Stanley",
           "category": "투자은행",
@@ -4005,20 +4025,10 @@
           "venue": ""
         },
         {
-          "title": "Sustainable Funds Outperform Traditional First Half 2026",
+          "title": "Singing In Holiday Giving",
           "text": "",
-          "published": "2026-09-10",
-          "url": "https://www.morganstanley.com/insights/articles/sustainable-funds-outperform-traditional-first-half-2026",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Global Healthcare Conference",
-          "text": "",
-          "published": "2026-09-10",
-          "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
+          "published": "2026-09-11",
+          "url": "https://www.morganstanley.com/ideas/singing-in-holiday-giving",
           "org": "Morgan Stanley",
           "category": "투자은행",
           "kind": "발표물",
@@ -4035,20 +4045,10 @@
           "venue": ""
         },
         {
-          "title": "Tmt Barcelona 2015",
+          "title": "Sustainable Funds Outperform Traditional First Half 2026",
           "text": "",
-          "published": "2026-09-09",
-          "url": "https://www.morganstanley.com/ideas/tmt-barcelona-2015",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Genai Revenue Growth And Profitability",
-          "text": "",
-          "published": "2026-09-09",
-          "url": "https://www.morganstanley.com/insights/articles/genai-revenue-growth-and-profitability",
+          "published": "2026-09-10",
+          "url": "https://www.morganstanley.com/insights/articles/sustainable-funds-outperform-traditional-first-half-2026",
           "org": "Morgan Stanley",
           "category": "투자은행",
           "kind": "발표물",
@@ -4065,50 +4065,30 @@
           "venue": ""
         },
         {
+          "title": "Ai Monetization Race To Roi Tmt",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/insights/articles/ai-monetization-race-to-roi-tmt",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "M A Outlook Election Policy 2024",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/ideas/m-a-outlook-election-policy-2024",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
           "title": "Fed Policy And Markets",
           "text": "",
           "published": "2026-09-09",
           "url": "https://www.morganstanley.com/ideas/fed-policy-and-markets",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Election 2024 Convention Wisdom",
-          "text": "",
-          "published": "2026-09-09",
-          "url": "https://www.morganstanley.com/ideas/election-2024-convention-wisdom",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Tech Startups Insiders Lessons For Growth",
-          "text": "",
-          "published": "2026-09-09",
-          "url": "https://www.morganstanley.com/ideas/tech-startups-insiders-lessons-for-growth",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Global Tariffs",
-          "text": "",
-          "published": "2026-09-09",
-          "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Power Moves Detroit",
-          "text": "",
-          "published": "2026-09-09",
-          "url": "https://www.morganstanley.com/ideas/power-moves-detroit",
           "org": "Morgan Stanley",
           "category": "투자은행",
           "kind": "발표물",
@@ -4125,20 +4105,40 @@
           "venue": ""
         },
         {
-          "title": "Future Plastics Ideas Podcast",
+          "title": "Global Tariffs",
           "text": "",
           "published": "2026-09-09",
-          "url": "https://www.morganstanley.com/ideas/future-plastics-ideas-podcast",
+          "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
           "org": "Morgan Stanley",
           "category": "투자은행",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Ai Monetization Race To Roi Tmt",
+          "title": "Trump Tariff Delay Ongoing Outlook Uncertainty",
           "text": "",
           "published": "2026-09-09",
-          "url": "https://www.morganstanley.com/insights/articles/ai-monetization-race-to-roi-tmt",
+          "url": "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Us Tariffs Research Roundtable",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/ideas/us-tariffs-research-roundtable",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Election 2024 Convention Wisdom",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/ideas/election-2024-convention-wisdom",
           "org": "Morgan Stanley",
           "category": "투자은행",
           "kind": "발표물",
@@ -4155,10 +4155,20 @@
           "venue": ""
         },
         {
-          "title": "Entrepreneurs Roundtable Multicultural Innovation Lab 2018",
+          "title": "Future Plastics Ideas Podcast",
           "text": "",
           "published": "2026-09-09",
-          "url": "https://www.morganstanley.com/ideas/entrepreneurs-roundtable-multicultural-innovation-lab-2018",
+          "url": "https://www.morganstanley.com/ideas/future-plastics-ideas-podcast",
+          "org": "Morgan Stanley",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Us Election 60 Seconds Michael Zezas Two Investor Takeaways",
+          "text": "",
+          "published": "2026-09-09",
+          "url": "https://www.morganstanley.com/ideas/us-election-60-seconds-michael-zezas-two-investor-takeaways",
           "org": "Morgan Stanley",
           "category": "투자은행",
           "kind": "발표물",
@@ -4175,20 +4185,10 @@
           "venue": ""
         },
         {
-          "title": "What Is A Good Return On Investment Financial Plan",
+          "title": "Tmt Barcelona 2015",
           "text": "",
           "published": "2026-09-09",
-          "url": "https://www.morganstanley.com/ideas/what-is-a-good-return-on-investment-financial-plan",
-          "org": "Morgan Stanley",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Us Tariffs Research Roundtable",
-          "text": "",
-          "published": "2026-09-09",
-          "url": "https://www.morganstanley.com/ideas/us-tariffs-research-roundtable",
+          "url": "https://www.morganstanley.com/ideas/tmt-barcelona-2015",
           "org": "Morgan Stanley",
           "category": "투자은행",
           "kind": "발표물",
@@ -11326,7 +11326,7 @@
           "site": "tataharperskincare.com",
           "url": "https://www.tataharperskincare.com/",
           "text": "Regenerating Cleanser · Tata Harper · Cleanser · $88.0 · organic, cleanser",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11343,7 +11343,7 @@
           "site": "tataharperskincare.com",
           "url": "https://www.tataharperskincare.com/",
           "text": "Resurfacing Mask · Tata Harper · Mask · $105.0 · organic, exfoliating",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11360,7 +11360,7 @@
           "site": "farmacybeauty.com",
           "url": "https://www.farmacybeauty.com/",
           "text": "Green Clean Makeup Removing Cleansing Balm · Farmacy Beauty · Cleanser · $36.0 · clean, balm cleanser",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11377,7 +11377,7 @@
           "site": "farmacybeauty.com",
           "url": "https://www.farmacybeauty.com/",
           "text": "Honey Potion Renewing Antioxidant Hydration Mask · Farmacy Beauty · Mask · $60.0 · honey, hydrating",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11394,7 +11394,7 @@
           "site": "youthtothepeople.com",
           "url": "https://www.youthtothepeople.com/",
           "text": "Superfood Antioxidant Cleanser · Youth To The People · Cleanser · $39.0 · vegan, superfood",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11411,7 +11411,7 @@
           "site": "youthtothepeople.com",
           "url": "https://www.youthtothepeople.com/",
           "text": "Adaptogen Deep Moisture Cream · Youth To The People · Moisturizer · $58.0 · vegan, moisturizer",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11428,7 +11428,7 @@
           "site": "biossance.com",
           "url": "https://www.biossance.com/",
           "text": "Squalane + Vitamin C Dark Spot Serum · Biossance · Serum · $72.0 · squalane, vitamin c",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11445,7 +11445,7 @@
           "site": "biossance.com",
           "url": "https://www.biossance.com/",
           "text": "Squalane + Omega Repair Cream · Biossance · Moisturizer · $54.0 · squalane, barrier",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11462,7 +11462,7 @@
           "site": "herbivorebotanicals.com",
           "url": "https://www.herbivorebotanicals.com/",
           "text": "Blue Tansy Resurfacing Clarity Mask · Herbivore Botanicals · Mask · $48.0 · botanical, clarity",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11479,7 +11479,7 @@
           "site": "herbivorebotanicals.com",
           "url": "https://www.herbivorebotanicals.com/",
           "text": "Coco Rose Body Polish · Herbivore Botanicals · Body · $36.0 · body, exfoliating",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11496,7 +11496,7 @@
           "site": "truebotanicals.com",
           "url": "https://truebotanicals.com/",
           "text": "Pure Radiance Oil · True Botanicals · Oil · $110.0 · organic, face oil",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11513,7 +11513,7 @@
           "site": "truebotanicals.com",
           "url": "https://truebotanicals.com/",
           "text": "Chebula Active Serum · True Botanicals · Serum · $90.0 · organic, serum",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11530,7 +11530,7 @@
           "site": "juicebeauty.com",
           "url": "https://juicebeauty.com/",
           "text": "Stem Cellular Anti-Wrinkle Moisturizer · Juice Beauty · Moisturizer · $68.0 · organic, anti-aging",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11547,7 +11547,7 @@
           "site": "juicebeauty.com",
           "url": "https://juicebeauty.com/",
           "text": "Green Apple Brightening Peel · Juice Beauty · Treatment · $48.0 · organic, peel",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11564,7 +11564,7 @@
           "site": "weleda.com",
           "url": "https://www.weleda.com/",
           "text": "Skin Food Original Ultra-Rich Cream · Weleda · Moisturizer · $18.0 · organic, skin food",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11581,7 +11581,7 @@
           "site": "weleda.com",
           "url": "https://www.weleda.com/",
           "text": "Calendula Face Cream · Weleda · Moisturizer · $22.0 · calendula, sensitive",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11598,7 +11598,7 @@
           "site": "burtsbees.com",
           "url": "https://www.burtsbees.com/",
           "text": "Sensitive Facial Cleanser with Cotton Extract · Burt's Bees · Cleanser · $10.0 · natural, sensitive",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11615,7 +11615,7 @@
           "site": "burtsbees.com",
           "url": "https://www.burtsbees.com/",
           "text": "Hydrating Facial Mask with Honey · Burt's Bees · Mask · $14.0 · honey, hydrating",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11632,7 +11632,7 @@
           "site": "acure.com",
           "url": "https://www.acure.com/",
           "text": "Brightening Facial Scrub · Acure · Exfoliator · $10.0 · clean, scrub",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11649,7 +11649,7 @@
           "site": "acure.com",
           "url": "https://www.acure.com/",
           "text": "Radically Rejuvenating Whipped Night Cream · Acure · Moisturizer · $20.0 · night cream, clean",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11666,7 +11666,7 @@
           "site": "madhippie.com",
           "url": "https://www.madhippie.com/",
           "text": "Vitamin C Serum · Mad Hippie · Serum · $34.0 · vitamin c, clean",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11683,7 +11683,7 @@
           "site": "madhippie.com",
           "url": "https://www.madhippie.com/",
           "text": "Antioxidant Facial Oil · Mad Hippie · Oil · $25.0 · facial oil, antioxidant",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11700,7 +11700,7 @@
           "site": "pacificabeauty.com",
           "url": "https://www.pacificabeauty.com/",
           "text": "Vegan Collagen Barrier Face Cream · Pacifica Beauty · Moisturizer · $22.0 · vegan, collagen",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11717,7 +11717,7 @@
           "site": "pacificabeauty.com",
           "url": "https://www.pacificabeauty.com/",
           "text": "Glow Baby Vitamin C Booster Serum · Pacifica Beauty · Serum · $17.0 · vitamin c, vegan",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11734,7 +11734,7 @@
           "site": "paiskincare.com",
           "url": "https://www.paiskincare.com/",
           "text": "Rosehip BioRegenerate Oil · Pai Skincare · Oil · $52.0 · organic, rosehip",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11751,7 +11751,7 @@
           "site": "paiskincare.com",
           "url": "https://www.paiskincare.com/",
           "text": "Camellia & Geranium Gentle Cream Cleanser · Pai Skincare · Cleanser · $36.0 · organic, sensitive",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11768,7 +11768,7 @@
           "site": "lovekinship.com",
           "url": "https://www.lovekinship.com/",
           "text": "Self Reflect Probiotic Moisturizing Sunscreen SPF 32 · Kinship · Sunscreen · $36.0 · spf, probiotic",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11785,7 +11785,7 @@
           "site": "lovekinship.com",
           "url": "https://www.lovekinship.com/",
           "text": "Supermelts Cleanse Meltaway Cleansing Balm · Kinship · Cleanser · $28.0 · cleanse, balm",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11803,7 +11803,7 @@
           "site": "iliabeauty.com",
           "url": "https://www.iliabeauty.com/",
           "text": "Super Serum Skin Tint SPF 40 · Ilia Beauty · Tint + SPF · $48.0 · clean, spf, tint",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11820,7 +11820,7 @@
           "site": "iliabeauty.com",
           "url": "https://www.iliabeauty.com/",
           "text": "The Base Face Milk SPF 20 · Ilia Beauty · Moisturizer · $48.0 · clean, spf",
-          "collected_at": "2026-09-12T04:36:41.080755+00:00",
+          "collected_at": "2026-09-12T05:16:53.635617+00:00",
           "source": "organic_skincare_catalog"
         }
       ],
@@ -11844,7 +11844,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
+          "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
           "published": "Tue, 08 Sep 2026 17:52:16 GMT",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5"
         },
@@ -11892,13 +11892,13 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Meet the K-beauty products that beauty lovers consistently rank as their absolute skincare favorites - star-telegram.com",
+          "title": "Meet the K-beauty products that beauty lovers consistently rank as their absolute skincare favorites - Fort Worth Star-Telegram",
           "published": "Thu, 27 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3Y2ZRR0YyT1RTSXFnT2R1M2R4RGdBMzdXSEFGcDg3V2dKX3dnS3dOdXNNUXZzakhkSDFsZllvTXlsOXVQdWROSEFNUDdpYlA1SDc4RmFaVWFLVzgzUGtXMnkyYUxEWEV5a0NqNE90cENyMTJ4dVFLSWlKRGjSAXxBVV95cUxPcUJTSmtsZDhHR0FvUlNpVDl1bkZPcHJiaFJIN0xCNnRCaWZLUGZIWVpzY2llSVdkQnhPMzA5Yk1tWGtJN3k1LW14dkF4NTExeFk2T0JuMVQ3ZWVEbjl5NklwMTd1cVZoenBJUmJVVWFnbTZQSzc3VFY1Vm9S?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - Korea Biomedical Review",
+          "title": "Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - koreabiomed.com",
           "published": "Fri, 11 Sep 2026 02:09:47 GMT",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TTjJFMUxHR3ZlOEJkRlNLekZpOTBpOVREVVZqUmNEcWhfbkFIb0pMclZybVZGNThud3pJdlE5TzNBaUZMTmNFQkZxWDdKNk50LUI3OTFJVTVJOEt6M1ZuVGNzZHN0NnhhUHZvLXpB0gFyQVVfeXFMT2wyVzU1U2NGZmcwMFRXdWJfT3VNdXpLYWlzSkcyUHBtRnZSZHRrMHJ3R1RIV01yTmtDaktQUi1hSDVrblRuQ3BTbXFlb1RZeTY4Rzc3RktnS0tSQWlUNkRwM1l0ZDM3al9ZdHFQSm45RFZR?oc=5"
         },
@@ -11922,7 +11922,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - Woman's World",
+          "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - womansworld.com",
           "published": "Sat, 29 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR0hPOFV3NTlQQ2h0LWNDUHBoUTNRZHNDbjllRTNFOHdlQzd5Y20zWmgwWEloVjkwdlpoTEIxcE9YMUwtX1lDazd0LXJUckRBMDhjS1JIV1o0T0l2Y3daZEZiSVBFZElES3lKLWFYVmw4WVlHQ0dKd18xeW1wX3NFN0lJQUxMZjhwbUpPTm9ZclZwZw?oc=5"
         },
@@ -11940,19 +11940,19 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
+          "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
           "published": "Fri, 04 Sep 2026 09:30:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "COSMECCA KOREA plans $150 mil. AI-based skincare factory in Korea - Korea Biomedical Review",
+          "title": "COSMECCA KOREA plans $150 mil. AI-based skincare factory in Korea - koreabiomed.com",
           "published": "Thu, 10 Sep 2026 06:20:08 GMT",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JOHRFeGJMRElFbVVDVkNFMXdWZTVvVWF1Sy1nckZmdHU2dVNuVlRyYktZZ0RnTTU1aWUwT3Z0LVJxeGxrRnVpaHV6RHNjaHVrQVJNNDVkVlQ1SXZTNFluWFBiWGZ4bURabzZIZUJ30gFyQVVfeXFMUHJVc2QwM0dFXzMyM1Jjek50c3A0LVp4NXo5MVhIb0haZ1JILVdWYUpTV0NVNUtXaExVdUw2Q1YxOVpfU3NMalBJMWZ4b0tJS1gxSnJacEpuQnRkSE1YdUd4dzVJMnRVQktqNnl2Rnk4Ymp3?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
+          "title": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
           "published": "Mon, 03 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LUmI0VzFqenBxYXlPcjlQVE4xOEVsbE8wYW4xdG1jSHRWbFQzWFZEOVRpTmN0bndubWptdUJqc3BRb2ExWUJCZmtRSVhSWDliZDN5RGhjVGhLSW1ieU45TVhMZVpKSFVYZWc?oc=5"
         },
@@ -11964,7 +11964,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "These K-Beauty Trends Are About to Be Everywhere—We Asked Korean Skin Experts Which Ones Are Actually Worth It - Real Simple",
+          "title": "These K-Beauty Trends Are About to Be Everywhere—We Asked Korean Skin Experts Which Ones Are Actually Worth It - realsimple.com",
           "published": "Thu, 18 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc0dIOUxOUjV2Um8yamZUTWV0ZUEzX1NfWHpyTlJGUmhMZGdQc1Y2RlQ3eTMzWENxUEdGU0NCZWR5dTQ0bzhuX1lNb1prZUxDcU81azZzMlNpRW1LNnU4QXZTcXllY3VjNXQtR0JoSzY1bmlvVFFINTdRNl90eTRVRm5FUDBrbU15Q1l4Rg?oc=5"
         },
@@ -12048,15 +12048,15 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "The K-Beauty Products I Recommend Most Are Finally on Sale for Prime Day - elle.com",
-          "published": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMURzQjJKNGs4eUl6dGxwQkxkTUttanM4ZW1COUJlWmZrUEoxTWJWRDcyRUhGS19nZmNRV1pxV0ZOT3BnMEU5X1BlNmNGM2ZNdnhlQThScjA1dnFSUEZtcjJCQU9oaGhVdzNZekVadE0tNGtQWG1Sd255VU5Sb3lQVXZ1Vi1GenV6TjBQaDJScE9NUkMzLXc?oc=5"
+          "title": "The Best of K-Beauty: Shop Medicube, Innisfree and More Award-Winning Picks - TODAY.com",
+          "published": "Tue, 21 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5pRWtfNmxFQ01KczlrR1JyaTBXNEFXVENmcU1kbnZGXzBNalU3MDd6R1FTMk5td25WaWd4RlBvcjFIcklOWnVoUGhiZ2l0dFg3WFd0blZ2cjJubGxTMWtFYm9rNlF2VXg5RExMeFZEdFpRUmg2LUl5WW9n?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "The Best of K-Beauty: Shop Medicube, Innisfree and More Award-Winning Picks - today.com",
-          "published": "Tue, 21 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5pRWtfNmxFQ01KczlrR1JyaTBXNEFXVENmcU1kbnZGXzBNalU3MDd6R1FTMk5td25WaWd4RlBvcjFIcklOWnVoUGhiZ2l0dFg3WFd0blZ2cjJubGxTMWtFYm9rNlF2VXg5RExMeFZEdFpRUmg2LUl5WW9n?oc=5"
+          "title": "The K-Beauty Products I Recommend Most Are Finally on Sale for Prime Day - elle.com",
+          "published": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMURzQjJKNGs4eUl6dGxwQkxkTUttanM4ZW1COUJlWmZrUEoxTWJWRDcyRUhGS19nZmNRV1pxV0ZOT3BnMEU5X1BlNmNGM2ZNdnhlQThScjA1dnFSUEZtcjJCQU9oaGhVdzNZekVadE0tNGtQWG1Sd255VU5Sb3lQVXZ1Vi1GenV6TjBQaDJScE9NUkMzLXc?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -12072,19 +12072,19 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K-beauty is booming: Here’s how the trend is taking root in the DC area - WTOP News",
-          "published": "Fri, 17 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMVlMY25hYmtCZDMtSUdGVHhJQTFhOEo2V0JKQU9tQWd3bklqc0o4UUlkTTViaUhNYWxLRG9DYVdVOGZhaWlUR1VUSWFPbkp5LUFybGZMQUFWQjJCMUZCT2kxTDJiOHU3Z0ZkYXpkTHhjMFBCWF96enBRdXBIR0JFdDRxYTEyZzl1eVg3ZEFZN3pRTzBWdzNUSkF4YWtxZXR6ZUtn?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
           "published": "Thu, 03 Sep 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "LOTTE K-Beauty Pop-Up Opens at The Grove in Los Angeles - LAmag",
+          "title": "K-beauty is booming: Here’s how the trend is taking root in the DC area - WTOP News",
+          "published": "Fri, 17 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMVlMY25hYmtCZDMtSUdGVHhJQTFhOEo2V0JKQU9tQWd3bklqc0o4UUlkTTViaUhNYWxLRG9DYVdVOGZhaWlUR1VUSWFPbkp5LUFybGZMQUFWQjJCMUZCT2kxTDJiOHU3Z0ZkYXpkTHhjMFBCWF96enBRdXBIR0JFdDRxYTEyZzl1eVg3ZEFZN3pRTzBWdzNUSkF4YWtxZXR6ZUtn?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "LOTTE K-Beauty Pop-Up Opens at The Grove in Los Angeles - lamag.com",
           "published": "Wed, 15 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLUF1bFRuUFI5dDY1RGVSdnM1OUoxM2xSU2NJMDZURkFLSWdTRzVxOFRtVXFZRWFCOUpsRUxaUGs4RjNvcGFCUHZKTUp5bUJkVGMxSXU2Q01xdnlpZk1UTkU5Y2hvcnZ4Y0hOekZUSjdXUkY4b3FRaU5zeFRQMHRUTi1ZX2luTy1iQnZ4QzJpa2U?oc=5"
         },
@@ -12102,27 +12102,27 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Five of the best Korean skincare brands you can actually find in the US - theguardian.com",
-          "published": "Fri, 10 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTWc4TWUxblZCeDRxX2NHVEdYUEY3Q09yeUFDclFySVZheFhyZUY2eW95NjduTTJBYWxHdjdOTk1IYzdrVVFsVzVsZ0VfcVN3NzIzLWlZaV82VXJFNENFSVp0am5yVHlxYnZjckQxMTRaNnFzZWdpa0VYUm01UGVjY3VzdUkzQ2E1UDZRdE1tZFIxbEU?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "Inside BTS’ Skincare Routines: SUGA’s Go-To $18 Sunscreen & More K-Beauty Favorites Worth Shopping - Billboard",
           "published": "Wed, 05 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUzFCY3dMbmc5LXF1Y0FYVUVDdFVWYTVxMDBFYk80VVhpTk83MGNnX0JFc2hFcmRwRDhEalFYdzNDNUFmNUxhVUJTYnpVejRBMVdqTUlkeGlIUUV0eHh2RDU4ZUtPY0N6X2tJU3RCbnhNOFp4YXRqczg3OGZlS0hLOEhtUk42cFdNd01yUDlVVVBpbEZacUNPWUhlbl83M2tLYk9qYVpISTlVeXRRajRjSV80Y1QwZ0hOZHdWVVBWMlk3dUk?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Breaking Down K-Beauty’s Slow-Aging Philosophy - vogue.com",
-          "published": "Tue, 05 May 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hdHRjZWI3QWR4eGZIQVlTQ2laeWNjazRnWmtINGFRcDZ6bVFvczJtSkh2U3JZQllmbGhmeG9NcGVyOFJmWXBqamJXN2w3MXAwRVVuNmJoVEt1OG81V1ZCbmdsODVJTWpSd2c?oc=5"
+          "title": "Five of the best Korean skincare brands you can actually find in the US - The Guardian",
+          "published": "Fri, 10 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTWc4TWUxblZCeDRxX2NHVEdYUEY3Q09yeUFDclFySVZheFhyZUY2eW95NjduTTJBYWxHdjdOTk1IYzdrVVFsVzVsZ0VfcVN3NzIzLWlZaV82VXJFNENFSVp0am5yVHlxYnZjckQxMTRaNnFzZWdpa0VYUm01UGVjY3VzdUkzQ2E1UDZRdE1tZFIxbEU?oc=5"
         },
         {
           "query": "K-Beauty skincare",
           "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - GeekWire",
           "published": "Fri, 28 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSmd3bV80NzFvZlZtOUNnSUF4eTRlQ0VoamFoUlY5aEQ2Q000MmlBVmVTQ3ZuWV9wTmhzWXROSWNyaDNuQ0JrTFdEczljM0JlbTBtdFBZbnhtakNaWHBTZTBGWDFzbDJURU1ESi1mano4T21KMHV0ZEQwOFI3aWI3Q2lTbzhPSmw5dEp6cGZVXzhadW5GNTRNaVhhMEhIdjY0czMwTmN4aUlpVWNYTmV5ZnNxWkdlcUZFUUhoNEdId3gxZw?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "Breaking Down K-Beauty’s Slow-Aging Philosophy - Vogue",
+          "published": "Tue, 05 May 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hdHRjZWI3QWR4eGZIQVlTQ2laeWNjazRnWmtINGFRcDZ6bVFvczJtSkh2U3JZQllmbGhmeG9NcGVyOFJmWXBqamJXN2w3MXAwRVVuNmJoVEt1OG81V1ZCbmdsODVJTWpSd2c?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -12138,7 +12138,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - uk.style.yahoo.com",
+          "title": "This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - Yahoo Life UK",
           "published": "Tue, 25 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9CRUhpMWQ5TkZld196MlVISE1rdTJWY1FvUlVNT2hSTGN4SEs0Q1p6WmNYM0FsSjd5QW9WT2RxSTJ6aEFjc2ZLLXpFR0pKUDZBZm9nN1RGT3BkaUFKTmpNQ0NYVUJTbVg3QzAwbHFCd3RCOTQ?oc=5"
         },
@@ -12168,15 +12168,21 @@
         },
         {
           "query": "K-Beauty skincare",
+          "title": "South Korea's Olive Young brings K-beauty routine to California - upi.com",
+          "published": "Mon, 17 Aug 2026 00:28:20 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZzFCeDdBRE12aUMyZEUwZkMzUXRHcFhDdWVtb3dFeUxRcFVfdHVBM2tsbEU0N2VCU3FNd0ZfSWF3UVFhSWY2eDFZWjhKSW5mSnhiZkYzdnBCbk5vZlEtNEZvaTBYZUo3d3Z3U3lNSjMtLUlfakpSVEtZdVV3YktwVG5nX011T1M3WjdmVjg5M29MWXpqQ1ItSnZnWdIBoAFBVV95cUxOaTNQMzg1eFR2WFVlQnJsUzBWVF9vcVBFMEl4SU1iTEI1cl9QcTlhdnU5U3hSV1dOVm9KZUNVcXhDQzRFdE9halVseGVsSG9pcWdxbXc0QUpieU5sRm9ITW5BdTF5TU4zelVBMnZPYnI4NlJrMUU5T0ZVN1pReVlWQm9Ub2pqVjVEUGthMDZrSW03WHB6bGhleTI0MGxkbDVV?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
           "title": "The 10 K-Beauty Products Bazaar Readers Couldn’t Stop Buying - Harper's BAZAAR",
           "published": "Fri, 01 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLXdZMkswVE5OVkExTmxfMndSY200WWI5dks3OF9od2tHVEZDdEdHeHJ6S1JqWGktaUZ4TXZmci1aMmNXajdWX3FPUkpaaWJJR0w0eDBjQjExWk5JajBoZXV4UnpyY29xMVFla2J2UTFwOU9JaGh2QUhtczM3TTUwUVhYTXlFQzVuaVRQUDBJODlxZVBsQ3puMTU1QWZiM2c?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "South Korea's Olive Young brings K-beauty routine to California - upi.com",
-          "published": "Mon, 17 Aug 2026 00:28:20 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZzFCeDdBRE12aUMyZEUwZkMzUXRHcFhDdWVtb3dFeUxRcFVfdHVBM2tsbEU0N2VCU3FNd0ZfSWF3UVFhSWY2eDFZWjhKSW5mSnhiZkYzdnBCbk5vZlEtNEZvaTBYZUo3d3Z3U3lNSjMtLUlfakpSVEtZdVV3YktwVG5nX011T1M3WjdmVjg5M29MWXpqQ1ItSnZnWdIBoAFBVV95cUxOaTNQMzg1eFR2WFVlQnJsUzBWVF9vcVBFMEl4SU1iTEI1cl9QcTlhdnU5U3hSV1dOVm9KZUNVcXhDQzRFdE9halVseGVsSG9pcWdxbXc0QUpieU5sRm9ITW5BdTF5TU4zelVBMnZPYnI4NlJrMUU5T0ZVN1pReVlWQm9Ub2pqVjVEUGthMDZrSW03WHB6bGhleTI0MGxkbDVV?oc=5"
+          "title": "The surprising truth behind Korea's most effective skincare products - sciencefocus.com",
+          "published": "Sun, 07 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QV3RKV0YtanBaLThoaDNzb2gyWTRUTy1xRTBvSHhLOElFT29DbHFpeklxZmNiQ0wwT1loQ0o1bW0xRHVCQ0V1dkx6akpQTEl0aEtUNVlkV1p2M1lEb0RETDBLQi1tTzJ2R0E?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -12210,15 +12216,15 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K-Beauty skincare tourism booms in South Korea - WFSB",
-          "published": "Tue, 09 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSzRNcEtPS1BKWWpfaW12TW5vam1IZjBrazNpS0ZzU2pTMjdmYzNQZ2tiYkNCTzMzRzNjbkthLXo3X18zbDRmOU5zMXdYYTlaUTZkSk9vY1h1bjg0QWh1d2JvaF9aclRTU0liMUhYZ00zNEFOd2tpbGtXSjN5OHlZOUhzQ2NENmtEdHc?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "Wall Street chases K-beauty with first dedicated ETF filing - Personal Care Insights",
           "published": "Wed, 15 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8tS3NtVlB4QXNKYl95UGFSQmxlU1BvMmFxaFVCblR1dmJsZHYxOXVyWjRsdy1hZFpoLTlrLUtWU3lWZXlRem53RHh6RUowbVh5LTJWX1pJZUwtbDNUVkF2MzRHT1QtU3RKWWFXZEJjNjVnYi1OTGU2UDlB?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "K-Beauty skincare tourism booms in South Korea - WFSB",
+          "published": "Tue, 09 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSzRNcEtPS1BKWWpfaW12TW5vam1IZjBrazNpS0ZzU2pTMjdmYzNQZ2tiYkNCTzMzRzNjbkthLXo3X18zbDRmOU5zMXdYYTlaUTZkSk9vY1h1bjg0QWh1d2JvaF9aclRTU0liMUhYZ00zNEFOd2tpbGtXSjN5OHlZOUhzQ2NENmtEdHc?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -12234,21 +12240,15 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K-Beauty Craze Lands Founder Of Skincare Device Firm In Ranks Of South Korea’s Richest - Forbes",
-          "published": "Mon, 13 Apr 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWlRtNlZWcW9rMlpwM1o0VjVuT3VVRWJ4Y2hpYkJTdHFHUzFwWTNjUmZrY0cxX2Y5N043WHRHamh0MFY2Q3QtRUZVM3BsaG15b1oyMnF5M0xFZkRvcEJ6aF9YN0d3MTFxVUJtUDFTVVRteWdRdWlIb0tSTGdROWs2cXh4a2JzZTR3Zy0zdHVjUHM3cFI4ZWNfMTVyOE9TeThWOTJ1ak5PeGJ2LWd4VTZsbWNYTnUtbms4N1E2RFRiWTRYMDE4OHZMOHFwbXRzMDAy?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "The Rise of K-Beauty and the Economic Implications for South Korea - Korea Economic Institute of America -",
-          "published": "Mon, 12 Jan 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSjVaaEZTNjItYjRGamR5Y1dvOWc4TlFycGo1MDBnMjZHY25RYkRLcU04M2tXdUE4bU90aVZROHZjNnFFTG9NLWROVFcyamtKOW0yVnozS2FYaHFMWV9WS2FQRTQ1MlpVb180QThfTmw2MmV0T3RrM0RDMUg3Qkl1MHh0SmRaT1J3YXJsMU9lX1pGLVZUT3ZKMQ?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "'Glass Skin' Treatments: A Top Korean Aesthetic Doctor's Insider Tips - Healthline",
           "published": "Wed, 09 Sep 2026 19:29:23 GMT",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeEJ0MTljNGRxbHppX0V4djZuR3ZoTTlQX1FRT0Z0VHgwMmxuLWhyRlY1ZnRkMktJYjItc0ZSUi05T0hIeDFFUGhZSUNtN2xqVHhQSHozeHJWYzY1Vzl2UFoxUjV3Q3AzdXowc1hlODhkck50Z3V2N3d0Wm5JX3EtYWsxeFBQQVh3Z0FnYnZ3Nm02SFJDd1hPYzltdkdOVFMwdUR1eW1QbnpuUQ?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "K-Beauty Craze Lands Founder Of Skincare Device Firm In Ranks Of South Korea’s Richest - Forbes",
+          "published": "Mon, 13 Apr 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWlRtNlZWcW9rMlpwM1o0VjVuT3VVRWJ4Y2hpYkJTdHFHUzFwWTNjUmZrY0cxX2Y5N043WHRHamh0MFY2Q3QtRUZVM3BsaG15b1oyMnF5M0xFZkRvcEJ6aF9YN0d3MTFxVUJtUDFTVVRteWdRdWlIb0tSTGdROWs2cXh4a2JzZTR3Zy0zdHVjUHM3cFI4ZWNfMTVyOE9TeThWOTJ1ak5PeGJ2LWd4VTZsbWNYTnUtbms4N1E2RFRiWTRYMDE4OHZMOHFwbXRzMDAy?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -12258,9 +12258,9 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "The surprising truth behind Korea's most effective skincare products - BBC Science Focus Magazine",
-          "published": "Sun, 07 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QV3RKV0YtanBaLThoaDNzb2gyWTRUTy1xRTBvSHhLOElFT29DbHFpeklxZmNiQ0wwT1loQ0o1bW0xRHVCQ0V1dkx6akpQTEl0aEtUNVlkV1p2M1lEb0RETDBLQi1tTzJ2R0E?oc=5"
+          "title": "The Rise of K-Beauty and the Economic Implications for South Korea - Korea Economic Institute of America -",
+          "published": "Mon, 12 Jan 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSjVaaEZTNjItYjRGamR5Y1dvOWc4TlFycGo1MDBnMjZHY25RYkRLcU04M2tXdUE4bU90aVZROHZjNnFFTG9NLWROVFcyamtKOW0yVnozS2FYaHFMWV9WS2FQRTQ1MlpVb180QThfTmw2MmV0T3RrM0RDMUg3Qkl1MHh0SmRaT1J3YXJsMU9lX1pGLVZUT3ZKMQ?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -12270,15 +12270,21 @@
         },
         {
           "query": "K-Beauty skincare",
+          "title": "Why Mikayla Nogueira Chose Skin Prep Over Skincare And Sephora For POV - Forbes",
+          "published": "Wed, 09 Sep 2026 14:30:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTEFReVYycEt0SVlVejR4R0w1UEdoT3V1dVBpN2NXZXFYdDNqeUZLQ21HdnQ5ekVPeHFiYXFUbWM5dFpqdWs3TE8xblE3RWRaTm94el9fTjVvQkhpQnN3eloxLWVQalM1dEtOaHYtN2Y1OTJCV1k0RTFZeFVWOUd4RTFLLWt1SW1tZVlBa19WckZDUmJUeHJrVmtLemZaMkRmTVhLeXRxZjZJTzhxek5KVmYySE5BWi1QSV9hUUQzVWgzNGM?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
           "title": "K-beauty retailer, Olive Young, draws quite a crowd in Pasadena, its first U.S. location - CBS News",
           "published": "Fri, 29 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdVRXNkQxWEVKbGl5SUV1ZzUzZjV5a1hZZVlhakdCTWhLdE53M1R3b1B2dGQ4Y1llZkNWeDhLQkl0LXo3UHNlcjRSVEFVY1RoVEpqeUdKQU1laHc4eUZoYjEyVV9YOWZnT29kWFhLQ3p2T2lrR2JTOVUtSEhxTU4tNW5qYU94bFYyejdxemh3?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Why Mikayla Nogueira Chose Skin Prep Over Skincare And Sephora For POV - Forbes",
-          "published": "Wed, 09 Sep 2026 14:30:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTEFReVYycEt0SVlVejR4R0w1UEdoT3V1dVBpN2NXZXFYdDNqeUZLQ21HdnQ5ekVPeHFiYXFUbWM5dFpqdWs3TE8xblE3RWRaTm94el9fTjVvQkhpQnN3eloxLWVQalM1dEtOaHYtN2Y1OTJCV1k0RTFZeFVWOUd4RTFLLWt1SW1tZVlBa19WckZDUmJUeHJrVmtLemZaMkRmTVhLeXRxZjZJTzhxek5KVmYySE5BWi1QSV9hUUQzVWgzNGM?oc=5"
+          "title": "K-beauty has moved beyond the skin care aisle - The Korea Times",
+          "published": "Sat, 08 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUjFQQmIwWTFHM091SU9sQkJWNHQyZWRlcTJ5STJqbFhJTlQ1QkJ6WmFlZEdQWDFNeHBWN2JzZWF4aHBscE1fTDhzVkdYYkxFTlJTQmJRSkFiNHdydzFzMTZ3RmZ0OW9oUHdJcVNsUmhjQnhtcGhVVXY5eVNHZTRQZy1jVWU0TEV4RXluT0pLeFNMTmtLd1RWdEN30gGfAUFVX3lxTE0ybTFVVU9EWWJKWmxfT21XVnZFU01za0dXSkJVSkN3NWpWRXhqRjVta1dDaVZ6Sk56UjV3bWdfUDJWam5uM3N1TlRZQjFzYUlSZWl0TGZqSTZQekwyZHpLNjBpN3VFYVpGWk5vVVpwMDJvUlFBRkxWd0xGTnhJOS1zalhrYmw3RmJEdXVna0IzdXBqMmNVUHdybjNzdTh1WQ?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -12288,9 +12294,9 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K-beauty has moved beyond the skin care aisle - The Korea Times",
-          "published": "Sat, 08 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUjFQQmIwWTFHM091SU9sQkJWNHQyZWRlcTJ5STJqbFhJTlQ1QkJ6WmFlZEdQWDFNeHBWN2JzZWF4aHBscE1fTDhzVkdYYkxFTlJTQmJRSkFiNHdydzFzMTZ3RmZ0OW9oUHdJcVNsUmhjQnhtcGhVVXY5eVNHZTRQZy1jVWU0TEV4RXluT0pLeFNMTmtLd1RWdEN30gGfAUFVX3lxTE0ybTFVVU9EWWJKWmxfT21XVnZFU01za0dXSkJVSkN3NWpWRXhqRjVta1dDaVZ6Sk56UjV3bWdfUDJWam5uM3N1TlRZQjFzYUlSZWl0TGZqSTZQekwyZHpLNjBpN3VFYVpGWk5vVVpwMDJvUlFBRkxWd0xGTnhJOS1zalhrYmw3RmJEdXVna0IzdXBqMmNVUHdybjNzdTh1WQ?oc=5"
+          "title": "14 Impressive Korean Skincare Products to Shop During Amazon Prime Day - Who What Wear",
+          "published": "Fri, 26 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTWNoSUdnbGpBeDNSVm5XdTM5YndVbWNjanI5czRIS2VQbm9DMUFoQVptczE3VWlfSEliOS1LdjYwNkVMa042bTU0UWQzYUNFZ081c2c5LVJXRkdZT2JzOVczWVRVTU8yNnBiOVAxdzJCS3F5d3BqRUp5MlllU2ZnN3JqZzBIMmlIR1lJallQWG9YU1hfOHhocw?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -12303,12 +12309,6 @@
           "title": "The Best Korean Beauty Products, According To Editors & Experts - Coveteur",
           "published": "Mon, 24 Nov 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ueDcxeXh1TTFoT3FhbHFneENjaW9lMVJxQkRYNzRSU1RjZ3R1bkZyYkRLMmJ6VXdQLWNTRktaVDdnWFl6c0dBc2NaRFI4V3A2d0IwRVJXOHoyT1Z5?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "14 Impressive Korean Skincare Products to Shop During Amazon Prime Day - Who What Wear",
-          "published": "Fri, 26 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTWNoSUdnbGpBeDNSVm5XdTM5YndVbWNjanI5czRIS2VQbm9DMUFoQVptczE3VWlfSEliOS1LdjYwNkVMa042bTU0UWQzYUNFZ081c2c5LVJXRkdZT2JzOVczWVRVTU8yNnBiOVAxdzJCS3F5d3BqRUp5MlllU2ZnN3JqZzBIMmlIR1lJallQWG9YU1hfOHhocw?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -12336,19 +12336,19 @@
         },
         {
           "query": "K-Beauty skincare",
+          "title": "CosRx Is the First K-Beauty Patron of the British Beauty Council - beautypackaging.com",
+          "published": "Mon, 24 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVE5XYUEyc1Ayam4wbmUzamRLMDFHLWV3cEJuYjFtOGxaSkJkaEZMQ0VBVmlic3NhQ3VuckFnejByOVV2MzJVZm9KY0ZZX0NmNm9UU2tmcUoxVGNQREk2dHNJWVptaGJLUHdaMllqLWZoUlVpeEFPTWhYQ1NSWDlHWmlqcXhBWHNHM19pQVJUcUZob01DUWNTSTRvZHlIZnI3Q243eGNDOG9vQjBHbjgyaQ?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
           "title": "We Tested The Top 100 Korean Skincare Products: These Are The 10 That Actually Give You Glass Skin - elle.com",
           "published": "Wed, 18 Mar 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9pdzQtbzJReEhNeTZzaThfaG9kVXBhWlNLTGpGSHV1TXF2eGhNZmdWUTkxS0I1RDVzdVpneEJJWkhsX21seDBkMEk4N3YxeTQ4S3FkWTlELUtFbnZpNnUyZ004bFlnVEF4WUR4eXdvMVVRVC1MVllzOWdQZw?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "CosRx Is the First K-Beauty Patron of the British Beauty Council - Beauty Packaging",
-          "published": "Mon, 24 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVE5XYUEyc1Ayam4wbmUzamRLMDFHLWV3cEJuYjFtOGxaSkJkaEZMQ0VBVmlic3NhQ3VuckFnejByOVV2MzJVZm9KY0ZZX0NmNm9UU2tmcUoxVGNQREk2dHNJWVptaGJLUHdaMllqLWZoUlVpeEFPTWhYQ1NSWDlHWmlqcXhBWHNHM19pQVJUcUZob01DUWNTSTRvZHlIZnI3Q243eGNDOG9vQjBHbjgyaQ?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "The Korean Makeup Products You Should Absolutely Try - vogue.com",
+          "title": "The Korean Makeup Products You Should Absolutely Try - Vogue",
           "published": "Thu, 11 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mazhXejlTOE5YMTJFZmhhY05iNVRsYk5RcjZHR2NVcnBCdE9XNFhkbjAtSWgxaVBKUVQxeWNHZm1veWhTUkJCOTduU1RVTzZfcjBzQk5RZVZCcm54M1pqUXp3?oc=5"
         },
@@ -12360,19 +12360,13 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K-beauty’s China retreat boosts Amorepacific and LG H&H profits - Personal Care Insights",
-          "published": "Mon, 10 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzY1ljc2xfa0RodHNDaHBNOEdETkJzTmQzaG9TUXZtSEpQaG9xU3dNdDNVazBXX091eWhWYktCUTRKUHRMTEwzMTZZYk5Bb09hS0ZObVByUXAwdEs4ZGVWLURoVjlFQU1uZEpBSnZRVHI4ZG40WTNJ?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "Olive Young is bringing its K-beauty festival to the US for the first time - Cosmetics Business",
           "published": "Thu, 02 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVVJLU2dJSXdWM1dIemFvemR6VWdWSHVTOGxXMVdBS2cwbjRaN0p4Wmh1TEdkNkJDSWFmRzV4eUoxTGRpZWRoTUJMZHh4RWhLNExlRl9Lak5OY3dkOTJ2QWtDUXVZYkU0bUpLMFF6ck1aNUdGRHpuX0xBbHB0ZUdsMHRKM3JIN3ZYTlE?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - premiumbeautynews.com",
+          "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - Premium Beauty News",
           "published": "Sat, 06 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5"
         },
@@ -12414,19 +12408,25 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "7 K-Beauty Trends Shaping 2026 - vogue.com",
-          "published": "Fri, 16 Jan 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5aSW9GVV9hWUZyZWp2eVowQm1HT3BJcVVWUjRTWk9yYkJJZmNjQTdpeWhhYllUalZ5aEZMTVNzdnRpMDJubFV3RHpXclFrQUtxRXBGWjBkRmxVa0NsYllV?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "News | Retailer Olive Young's expansion mirrors K-beauty demand in US - costar.com",
+          "title": "News | Retailer Olive Young's expansion mirrors K-beauty demand in US - CoStar",
           "published": "Tue, 23 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYl9HLWJXV2V5bk53Sks2R1kyM3RGbF9jX1kxWURHY2ZvMmlJTTVaNlo3YWhORnlsWV9hMGJ2QmxVMEtZVjFienR1cDR5SWw0VjRjWmwzeGZURGxWYktHcEk5ZmhnSm1YektIbUNqYnVrejQ2ZUhUeWxERmlxODVKczVGdkRkTE0xSUM2bmNrNjh1MFRlMUVmV2VEb0wxZ0daM3Z0b1lB?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "A Look Back on the Biggest K-Beauty Trends of 2025 - vogue.com",
+          "title": "7 K-Beauty Trends Shaping 2026 - Vogue",
+          "published": "Fri, 16 Jan 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5aSW9GVV9hWUZyZWp2eVowQm1HT3BJcVVWUjRTWk9yYkJJZmNjQTdpeWhhYllUalZ5aEZMTVNzdnRpMDJubFV3RHpXclFrQUtxRXBGWjBkRmxVa0NsYllV?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "We tested more than a dozen viral Medicube products — these are the ones actually worth it - NBC News",
+          "published": "Wed, 26 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBkT1NralB4YzNQSklyUVNfcVdBMDRCMG1FdXJQWERnaXpxRDlyZUlTYlVDSTNDS05HWFlad3ZVR1d3RFYzdXF0TXgxQkNNOU5XOEwwbUk3ZDBLSzRBTGI1NjlVXzBBTEdLdGY4dWxndkdla2hacGM4akQ0X0c?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "A Look Back on the Biggest K-Beauty Trends of 2025 - Vogue",
           "published": "Wed, 31 Dec 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xbHJNOUI3NHpqVkJiNVJiWFl1YWRPdnFQVjVjZzhVX3ZFQjRJZG8tNS1uMUZUNUZJM1IxMnJRazkxay16WlppOXJNUU5mT1RrOU1lU05seTFxa0c1V3NWcHNEVUY?oc=5"
         },
@@ -12438,7 +12438,7 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Ecommerce Evolution: Shopify’s (SHOP) AI-Driven Approach to Retail Success - Yahoo Finance",
+          "title": "Ecommerce Evolution: Shopify’s (SHOP) AI-Driven Approach to Retail Success - finance.yahoo.com",
           "published": "Wed, 02 Sep 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQnNfUW9Pdjhhc2ZBejlUV0lWYmZXRW9KeWxSbjJWLWltODYyQnZGTkpzRE9QOVNUamxuTzFSc1VhcktzWGhSVU5xRnI3QlBTS1c1a0lzTHdEUklzYUw0RDdzNFE0X2FUS3VoX1dWSkRuUDQ2Z0NabkJheVZRUXJOSXhsR0hOajNmYTQ4TUtLUHNWSzlTZTRuYlpmc0FtWXAy?oc=5"
         },
@@ -12450,19 +12450,31 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - Eastern Progress",
-          "published": "Fri, 28 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOVkyMlJwUEdQeGlvdlhURGpYdXJyY1hoWmVWai16TFFhckI2MmR1OFdBd1BCOXNPM1lOYTFmT0J2UExSRGFmbklVRUtsazJhajZZUHh2eTZyNG5mTUc1US16WF9oYzZfWjB5Y3ZIR0UtazJjcXFHb21XdFJ3ZjJUQ2VBWDVoTHE5SkYwUW9raVA5ZHBhcmF0cmNtOENtRXNsR09aYmhuVTU5NHBRdnd0c2pSX1ZndDR0YUE0Q0RTUTAyRllwQzhwZXlLZFRrOHNEclN1MjV0NEdrQQ?oc=5"
+          "title": "Shopify Wants To Be Merchants' Built-in AI Agency - ADWEEK",
+          "published": "Thu, 18 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVjFvRFlHS3ZPelZFemxCSEQ5bnplUWFBN0JEV25mQmR2SkNZSWxGVHlScmxJbjFka0NjOFZXSXNfQlEzQmtZS1U2aXZIWFVXdDhEUmhiR0VVNEZsd0E4Y3BYQ19oQTZfeXVxLVNOWGoxdHNaUjU2Z01jbENtanVXVUV3MFFBdHJr?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify Inc. (SHOP) Shows Why AI Search Could Become a Bigger E-Commerce Growth Channel - Yahoo Finance",
+          "title": "Shopify: The Next Era Of E-Commerce (NASDAQ:SHOP) - Seeking Alpha",
+          "published": "Sun, 09 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbFFNMVdVWVk5bms5RmxRdkp3QlRBZ2ZBRS1WbWVsbmVaNzI2VFJvT3ZiMTFIOVozZVRTUms5bzhoa2ZLS1lISWNjRzNadDY5aUdUeVlobmc0YXkwNHVyYVdPakNDd3RaMDRnSl9XYVZfdlVQN0FvZTlmVTE5bXNWQw?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - finance.yahoo.com",
+          "published": "Fri, 28 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPczlRZTVPTlpYTHNGbFFVaGQzbXRLSF83VDZWemlkbE1DOUpUNlpKLUUzLTFJSTRTaEdhRXZ5X21xeExTdlM1ZXhIUXNNNHczRld2Q2pOZVNuMXZoS3hEbDVUM1BfQ3I0UEJSS21iMGxzVzZ0UU40cjlFOXBoMFBvTTZVa2NYSlNkSWF3bVBYZ28wZw?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Shopify Inc. (SHOP) Shows Why AI Search Could Become a Bigger E-Commerce Growth Channel - finance.yahoo.com",
           "published": "Sun, 14 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcFZPNGhmcnplaE5pUU9hLXNoY3lYRmVPS1EyQ1BYQ1AxamJxaVFqdHV2OThkcUQ1SFRLNTZUdlh1M1EwbnF3c2JLRXpXYjlRWmtoUEpqY21ibzJnVl9VTXBaZFl3cGs4WHRSS0RSUlhXMXJYMmNnQmVfQUNmUEdvQlo2b1RveHNMT1NSU3RTZmFRb01VM1E?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify (SHOP): Evolution from E-Commerce Platform to AI Operating System - Yahoo Finance",
+          "title": "Shopify (SHOP): Evolution from E-Commerce Platform to AI Operating System - finance.yahoo.com",
           "published": "Mon, 03 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUUQydWxwR2xWR1E2VXlHODRzQXZESS02TWVRYzF4S2tSYy1vVVlKUV96SjFCMElleU9yQXRjYU55bmZlWUtOanBtSVNnenR0cEpoSXh5Ui1vSHVoZmNwNUMtb2ZqelJzZ2JPNl9naksyaHhPS3k4cTVrTGZiMUlfS2RWMmR2bm1UZEh0ODIwSVdCdUR4d2dGU1RKR1RYckE?oc=5"
         },
@@ -12498,15 +12510,15 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "AI and organic search are doing different jobs: What Shopify's data shows (2026) - Shopify",
-          "published": "Tue, 11 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1UWlJqUjhBT0RudnhqRjAxY1ByN1BfbmJpakpkUGxXY2M4TGZ3U0loNUJkZ2diM2dqdk9tM2VYNG9aSEdnQ0lyc1ZKSWZaMlZVaWtiem9fTEluajJia2lwd3NvWG9SR1ZmekZXakVTX3V6dExzcXc?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
           "title": "Ecommerce Fraud Management in the AI Era: A 2026 Guide - Shopify",
           "published": "Tue, 23 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TWmo4d1VlYV9RVVdHeDA0NTdpZGVRNU5KYld1RUsxcU5yRG1hUXZ0T1pjOV84anZ0b1dTLU8tUHdqellvODc2OTZZRVRqMTJmYzFiSkFNRnJPbVlyV29xVXRmd3h6ek5feGZyTnkzdmU5THRK?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "AI and organic search are doing different jobs: What Shopify's data shows (2026) - Shopify",
+          "published": "Tue, 11 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1UWlJqUjhBT0RudnhqRjAxY1ByN1BfbmJpakpkUGxXY2M4TGZ3U0loNUJkZ2diM2dqdk9tM2VYNG9aSEdnQ0lyc1ZKSWZaMlZVaWtiem9fTEluajJia2lwd3NvWG9SR1ZmekZXakVTX3V6dExzcXc?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12516,33 +12528,15 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify: The Next Era Of E-Commerce (NASDAQ:SHOP) - Seeking Alpha",
-          "published": "Sun, 09 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbFFNMVdVWVk5bms5RmxRdkp3QlRBZ2ZBRS1WbWVsbmVaNzI2VFJvT3ZiMTFIOVozZVRTUms5bzhoa2ZLS1lISWNjRzNadDY5aUdUeVlobmc0YXkwNHVyYVdPakNDd3RaMDRnSl9XYVZfdlVQN0FvZTlmVTE5bXNWQw?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
           "title": "Shopify’s results show that AI is already a driver of eCommerce growth - Marketing4eCommerce",
           "published": "Fri, 07 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLWxOVHM5ZXdvNFg0SzI1NlNxSXlieUpFMGpkdkJON1kyQ2h4SzdyXzdaOHJvV2VxcEF6UFFVNTV2SGY1Y1BnY3JYOTd6R2tDMlgxU3I2UlNrUlowTEtmSVdXV1dzT1ctSGFSNEU3cTg1UU1uUmk1aldyb3d4TW13bUIySzdoT0N6N1RMN1MxQWZHVkNHMjlMMUR3T0x5MThYcmFQYnlIQVpUVV9fSlE?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify says AI search is driving more traffic and sales, not replacing Google - TechCrunch",
-          "published": "Wed, 05 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHh0TWI3dHdLZjBVWnpfTkVlbl9IRVJSY1RGOFdVYVdqSXBzb1JSbU5DVExZTHlwTEVWSGYwSGFrc1MtZFJGVTlRY0RFRWJCX0NmakF0UXZJVHhReGt1Q19ybUlKRkg5RmRKSFBQdXBzUzFUa244TTZocXlwcVQtSHpvcVZJMmxMNGZ2NS0xc3ZRZlowR2xKbHhSem1tRmR0bUVpTlhNLWRUSzY1OHRVVDZ3?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "Millions of merchants can sell in AI chats - Shopify",
-          "published": "Tue, 24 Mar 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6QTdDN09XcmtrM3hqenZCcnN5Mml5aWdDSWUweE5qMWRSOVBBRWNFMzdLNDFfcml4RUFrMjJpSkFpMDA4cUUwSXNUZ013Zm9jUFpZMmlWdHE5OVdUYlBPR042N2w?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "Shopify Wants To Be Merchants' Built-in AI Agency - ADWEEK",
-          "published": "Thu, 18 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVjFvRFlHS3ZPelZFemxCSEQ5bnplUWFBN0JEV25mQmR2SkNZSWxGVHlScmxJbjFka0NjOFZXSXNfQlEzQmtZS1U2aXZIWFVXdDhEUmhiR0VVNEZsd0E4Y3BYQ19oQTZfeXVxLVNOWGoxdHNaUjU2Z01jbENtanVXVUV3MFFBdHJr?oc=5"
+          "title": "AI-referred shoppers convert better and spend more (2026) - Shopify",
+          "published": "Mon, 11 May 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wUHhyLTVFdFo5VHU5YTRYZjJmVzNrd0NkMHcxZEQ0LTFrM3ZzS0dlZi05SExWaDNqSS10NnJSQUxGcDhMbkVqVy1pWWNLWlh2cE9yRkQ3TldSZk5aak9OV1o3OFk1dTFOMkE?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12552,33 +12546,21 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "What Are AI Agents? Types, Uses, and How They Work (2026) - Shopify",
-          "published": "Wed, 29 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEWDV1aHlpdVJHRTlwOXl1MVpqemFOakdsRTRmajJScGpRVkN3TDhXMG1kWWN0dUtSUmFueUc0VE1vS0tsODBMRkVVS1paQ0pBdHZB?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "AI and Efficiency: How Businesses Save Time (2026) - Shopify",
-          "published": "Wed, 29 Apr 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MLUZhQzRwMWM3VVhUNTg4RDRqaVdfMkVYQ20zNW5iNDRhVldkeXIzNmxHRHR5bGJUaVVmdGxlcU5TWGVrWHhxS1loUktYNWxqNElxNzlsZ0NiSGVpX2d0cHROenNvLXpG?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "5 Ecommerce Questions AI Answers in Seconds (2026) - Shopify",
-          "published": "Tue, 24 Mar 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4wb3ByLTdJQ2ExU04waDNUMFFvY2tnZ2laTEZ0elNObFJnbkFZa2xnTWk3Y2x4Q2hlcTdjTFhUNmpWYTRHTThIVm9RZWxqMWNJSVZqcWZjOENZU0VVTUdfemRWRkxTU3BJWDRMYUFR?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
           "title": "Inside BoF and Shopify’s Knowledge Breakfast on the Future of AI Commerce - The Business of Fashion",
           "published": "Tue, 26 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX3hpZW1XN3h2d0tMUWVTN2ZVSHJlOUdjMHVkeWE0cDdsTmhyX0E0cTJpUkpPS0NHNVk0Y0dpZlllckRzb1puQ1FjODdPclpLdFJvQmtURTNuUEZtZ3JqLTBDQ1d6UlRCTENQclc4NU9SbWdBUFdNRC1WdlpkbGR4djhTZ0lwQ0FxS3l3Tko5QmgwbVA5bUc3WmtTRDJYdXRHNlpQTHhPNEJEamVfVWY1eFBDS3BibG8waUdHSml0UEFNUG5ILUE?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "AI Tools for Ecommerce: 11 Best Options (2026) - Shopify",
-          "published": "Fri, 05 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwa3gtc01TcnpYTXFTVTVWMTg2NkJRTml2MG9KQlhoTk9lNTFGeVdNZnYwY24wRV9ibjhSSW5fb2Z3V0ZsOEthLW9TX29mWmJYb1dfcDRPSlZUVDNXU19McGI2WnA?oc=5"
+          "title": "Millions of merchants can sell in AI chats - Shopify",
+          "published": "Tue, 24 Mar 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6QTdDN09XcmtrM3hqenZCcnN5Mml5aWdDSWUweE5qMWRSOVBBRWNFMzdLNDFfcml4RUFrMjJpSkFpMDA4cUUwSXNUZ013Zm9jUFpZMmlWdHE5OVdUYlBPR042N2w?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Shopify says AI search is driving more traffic and sales, not replacing Google - TechCrunch",
+          "published": "Wed, 05 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHh0TWI3dHdLZjBVWnpfTkVlbl9IRVJSY1RGOFdVYVdqSXBzb1JSbU5DVExZTHlwTEVWSGYwSGFrc1MtZFJGVTlRY0RFRWJCX0NmakF0UXZJVHhReGt1Q19ybUlKRkg5RmRKSFBQdXBzUzFUa244TTZocXlwcVQtSHpvcVZJMmxMNGZ2NS0xc3ZRZlowR2xKbHhSem1tRmR0bUVpTlhNLWRUSzY1OHRVVDZ3?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12588,33 +12570,27 @@
         },
         {
           "query": "Shopify ecommerce AI",
+          "title": "5 Ecommerce Questions AI Answers in Seconds (2026) - Shopify",
+          "published": "Tue, 24 Mar 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4wb3ByLTdJQ2ExU04waDNUMFFvY2tnZ2laTEZ0elNObFJnbkFZa2xnTWk3Y2x4Q2hlcTdjTFhUNmpWYTRHTThIVm9RZWxqMWNJSVZqcWZjOENZU0VVTUdfemRWRkxTU3BJWDRMYUFR?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "AI Tools for Ecommerce: 11 Best Options (2026) - Shopify",
+          "published": "Fri, 05 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwa3gtc01TcnpYTXFTVTVWMTg2NkJRTml2MG9KQlhoTk9lNTFGeVdNZnYwY24wRV9ibjhSSW5fb2Z3V0ZsOEthLW9TX29mWmJYb1dfcDRPSlZUVDNXU19McGI2WnA?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "What Are AI Agents? Types, Uses, and How They Work (2026) - Shopify",
+          "published": "Wed, 29 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEWDV1aHlpdVJHRTlwOXl1MVpqemFOakdsRTRmajJScGpRVkN3TDhXMG1kWWN0dUtSUmFueUc0VE1vS0tsODBMRkVVS1paQ0pBdHZB?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
           "title": "Text Becomes AI Operating Layer for the Modern E-commerce Stack with New Shopify App and WhatsApp for Business Integration - prweb.com",
           "published": "Wed, 01 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQWmQtLU85aXJNU3E5R25pbjZyeXVpMmN6eTl6b3pNM085NmJ2QjM0WGxHU3VncFppV2w4MUxSV3gyUURRdjAwRXJqX1VXNWdsbWc2RVlfUHZJZ3ZRb2FYdzBsLVNZY0plT2wwMmZxZXpEbWdHU2pWUkx6TFlHRVhMSUxSN3hCZmlPNkJ2QjFoUkNENXdJZmt6U3hsMWFORmFaWEhFZGt5UW1zd1gwNXpPNWpUR2I5ZGkyLUlMendNVU5TODR0Rk1IWTMtWFlSZ2dqbE43b25mOV96OURod1FmUTVuaGMwd0EyLU9NbVhBcFctOFZjZVN5UUpjM0c?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "AI 3D Model Generation: Top Tools for Ecommerce (2026) - Shopify",
-          "published": "Wed, 22 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtekd5czRGeV9ocmFrYVFXdUo1TlViSlBkeWZuSS1oUFNfWUxsdHBxZmNYOTdieDVhaHAxdDIxQzFEUjBoZTRNMmJpMWF4dlZiM2xQQ2RocEFPekhHOExrUkFzdTg?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "8 Tips to Prepare Your Product Data for AI Channels (2026) - Shopify",
-          "published": "Thu, 30 Apr 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54NzNDMGxaY2hTUE10eW45Y3ZtREFiOTIxaG1PWExvRXZwTXlnelJWUW1OQll4c2JHb0NhQUhDSjRNYU1sMXFBeXRyblBTU2M3ZkpWN283b3pBQnpKUWZ3THVlcWZZV2Y2d1M0QWtqZXJTUno1dVhNTQ?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "Is Shopify (SHOP) The Best AI Ecommerce Stock to Buy in 2026? - Yahoo Finance",
-          "published": "Tue, 17 Mar 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLWtSZHYzQ3UtYjR4dUZMV21CTzdiay1iV1VrX2tsZGcxX2k4aEt2LXlaeWpiTHhQbUpZU2dSb0Etb2NHVlNmY0hmUEhKUE5EYlExUUYtcjZPcjVFNXp1b19BS0ZGWTBsV2ZTVmJQYTB3anJGSmp1Y2hUNzNBWFdsU2J3?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - Shopify",
-          "published": "Thu, 26 Mar 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kZ3BiZThhVlBwRHI4RU41b3VFWF83MDZRbV9lcEI1dWdWS3E3UzdUQUlBMDBXR1FmczJtVUdLMFNqc2o3Z05IWVpwcGIybExlV1RKNDlnbw?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12624,27 +12600,33 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify President Says Agents Will Act as Personal Shoppers - PYMNTS.com",
-          "published": "Mon, 16 Mar 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVlNZTlI4a2owUWQ2UFpTelNEUWdkZ2Z1cmt5MHpxX21fOWFOUW5peXNWSFlrbk9pazE3YlFCYWRjc0JsVXNtaWRGSHhkQnJiblkyUlBJOG80LThhalNYUkEwcTZxbDM5N25iZjdpcTVlb0Vrai1FUlY2Q2k1ZWZrbEJuaTk?oc=5"
+          "title": "AI 3D Model Generation: Top Tools for Ecommerce (2026) - Shopify",
+          "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtekd5czRGeV9ocmFrYVFXdUo1TlViSlBkeWZuSS1oUFNfWUxsdHBxZmNYOTdieDVhaHAxdDIxQzFEUjBoZTRNMmJpMWF4dlZiM2xQQ2RocEFPekhHOExrUkFzdTg?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify revenue, GMV each grow +30% in Q2 2026 - Digital Commerce 360",
+          "title": "Shopify Leans Into AI Commerce as Profit Pressure Mounts - PYMNTS.com",
+          "published": "Wed, 11 Feb 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaVpKME5mSTFEb3JjNUFMRkVVWFRma25Gc1VBRjE1eXZRSlVIcUVPdGFrREVjdlNGYjZvQzI1THNtQ0NzbWdINEpsRXJBOUR6dExsVl9UWHlCTmg4N0NZcjdydmxHempQdVhNS0g3SEU5LXlOY0FMX1dUU2NZX2VUbHNfdTRTU2wtZEFqU1MwN0FMZXNULWZCa0hWZldDSzRP?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Shopify revenue, GMV each grow +30% in Q2 2026 - digitalcommerce360.com",
           "published": "Thu, 06 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1tdlhEQ0ZaZmpiTU1NVUZmZW9oOWFhVXFiWE9MOENrUUZGTkY0NG9Bei1RaERoUml3dGF4c01WWHM2eE1vQkhGd1k2SjU1bUFfTElELWt5am5adW9hQ1NwdzVTcXd3S3QtT1RFcVloa0LSAXZBVV95cUxOeU45RGZkYWtvNUFqUE5VVWxfbGoxOC1zN0VkMEtBLXVNbzA1c2p2OTQ2QU9ET1FBOUxlc2hIVGVkY2tWbDA2dkpnQUZKSG92WGptSnQyRjlScmhnSDhlYTNRZG5obUk3SjBpbW1pMWpLa2sxNzZ3?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify is preparing for AI shopping agents to change everything, exec says - TechCrunch",
-          "published": "Mon, 16 Mar 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaTRqWW5KUEt4ZDUyYVVJcVJEZFRGdWZVNFl1b3ktbUhlNDVyeDRIM29ZOW9zUHQ3Y21JMkVHOHdLdEh5OEc2a0hKQlE0U3JsalRwUFJSTThvWWRmOWwxb1huYzhSLVM2VFJtR0FaVDNhLWJiQi0zV1BlRm1PYzZyaU9ZeUtGSlktZm4tblpNS29PQjVaclZHVVZocDdEcnZZOWdPRVhNekVvNF9oYXc?oc=5"
+          "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - Shopify",
+          "published": "Thu, 26 Mar 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kZ3BiZThhVlBwRHI4RU41b3VFWF83MDZRbV9lcEI1dWdWS3E3UzdUQUlBMDBXR1FmczJtVUdLMFNqc2o3Z05IWVpwcGIybExlV1RKNDlnbw?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "AI Chatbot Customer Service: Shopify Guide (2026) - Shopify",
-          "published": "Sat, 04 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1BcW1SNmhjZExGRWxiNUg3aTZBOUlMbmJQc01hOGpuaUdLRVViWFl5TmlSckcza3hHTGtoaGszNXY5bGZ0WDFSN1BQMGdLc1Y0d1JxWjRURzBFX2RoZG8taVdxeVVrUTBkX25v?oc=5"
+          "title": "Shopify President Says Agents Will Act as Personal Shoppers - PYMNTS.com",
+          "published": "Mon, 16 Mar 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVlNZTlI4a2owUWQ2UFpTelNEUWdkZ2Z1cmt5MHpxX21fOWFOUW5peXNWSFlrbk9pazE3YlFCYWRjc0JsVXNtaWRGSHhkQnJiblkyUlBJOG80LThhalNYUkEwcTZxbDM5N25iZjdpcTVlb0Vrai1FUlY2Q2k1ZWZrbEJuaTk?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12654,9 +12636,9 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify Leans Into AI Commerce as Profit Pressure Mounts - PYMNTS.com",
-          "published": "Wed, 11 Feb 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaVpKME5mSTFEb3JjNUFMRkVVWFRma25Gc1VBRjE1eXZRSlVIcUVPdGFrREVjdlNGYjZvQzI1THNtQ0NzbWdINEpsRXJBOUR6dExsVl9UWHlCTmg4N0NZcjdydmxHempQdVhNS0g3SEU5LXlOY0FMX1dUU2NZX2VUbHNfdTRTU2wtZEFqU1MwN0FMZXNULWZCa0hWZldDSzRP?oc=5"
+          "title": "8 Tips to Prepare Your Product Data for AI Channels (2026) - Shopify",
+          "published": "Thu, 30 Apr 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54NzNDMGxaY2hTUE10eW45Y3ZtREFiOTIxaG1PWExvRXZwTXlnelJWUW1OQll4c2JHb0NhQUhDSjRNYU1sMXFBeXRyblBTU2M3ZkpWN283b3pBQnpKUWZ3THVlcWZZV2Y2d1M0QWtqZXJTUno1dVhNTQ?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12672,57 +12654,9 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
-          "published": "Thu, 03 Sep 2026 08:12:33 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "AI Business Ideas: 15 Ways to Start in 2026 - Shopify",
-          "published": "Fri, 28 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lSWZmcDR2dzJZbG1zSkxkWFlGRWxlSjJGZ2MyNWxkYTI4NHRSTmNOLUlOd1h1cGlpODdNZTlMOXk3d3B5cHZUcjdRVWswNkh2cjdQVjk5LWxoUQ?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "TIME100 Most Influential Companies 2026: Shopify - Time Magazine",
-          "published": "Thu, 30 Apr 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaHcwNmIxV0E5WjkwZnp1QkdJU3N0R3RQaXNJOXpIUDk3bmpsa1BvSmNOQWhQb0pFUEJPVWxBd0FFUk5ERWt6UkxNa2RfWXNacHI4a1RyMWRkSzFuSGdMQkV3ZEozVWwzLTRSbkc0bGFOUVU5ak9NVnBHcXJPTC13Wktn?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "Agentic-Ready Product Data: How to Get It & the Cost of Inaction (2026) - Shopify",
-          "published": "Mon, 02 Mar 2026 17:25:23 GMT",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VSE9FdVR2NWUtR2FYNTZMR3VPTkJwckVXMTlFZjJyUFpRVDFwZ1ZaTXNoYzlDX3ZZR01TcDRVYTlLZGpzMUR4aWE1UVBkaDNBbWZFTUFGU3Q1RngzdnJpRHVqTFhuN3FyNWxrM1Baa0h4X1hR?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "How AI Shopping Could Turn Fashion Advertising on its Head - vogue.com",
-          "published": "Wed, 14 Jan 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT0dRZmFUbXEwMHg5MHZ5QUZJc0d2WTlqN2RLeXc5WGp1VWJVTWE1WmZnTU5kZlQzYXZEQi1JdEphZUg3ajlxcENZWmxzM0pmcm00Z0Y1ZE1MRFlLUGNUalZOaExWeVRlTl96Qnlmb1NsLTVKRmlqbmF2TWZueThfaWJYcl9NSFE3Z3BpV25OS0R0UQ?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "AI for Sales: Ecommerce Strategies and Tools (2026) - Shopify",
-          "published": "Wed, 29 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5WQ0pDZUZqb3o5Y0NXc3NMWmNqaDlEdWhGMDA2Ti1WLU83Y2wzZWlLa3E4TWNMZkZuNFF6dGFlaEtRLWVYbzVnSTlIdXp6dmc1YUthdUxUbw?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "Most Retailers Are Getting Half-Baked AI Insights. Here's the Fix. (2026) - Shopify",
-          "published": "Mon, 09 Feb 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5EV0hnZmdlLVV6dWV1MzlYeUsyYWZIenE2SmRBU2plRDEtb3JmZWNaTEtCazlrbjBaZnlJQVBXcmJCQXlHc2dQb216X0FKZU1xVFVTTzNjcEZNYVJlOUg2a0NpcENTWDd6bjdSZzFySXl0T1kwdUdZME92eW96UQ?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "AI Dropshipping: What It Is and Top Tools to Use - Shopify",
-          "published": "Fri, 26 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zWHVSb0lsX1B4MC16UmliOVdSSFBROVk0VmVqS1IyLURZa0huTHJVTk1SLWZUaEZzby1ENWFnSU9pMVZwTm5BUzVHNWRmZXk1SUpzSFV4czlCYWc?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "New Ecommerce Tools: May 20, 2026 - Practical Ecommerce",
-          "published": "Wed, 20 May 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5xNWhhUjBtQXNzQVc2UjJjMV9XOTZaT1VMNng3ME9EeHZGRGxKWjZicEo3clVfYmtRUmRlOUItMVBkaGRFeEgxajhWSzFoT2pxbzg0dWtjT2kwV0loN3BNRlFLTTVXNU1ZXzVISVRfNElrLWtG?oc=5"
+          "title": "Is Shopify (SHOP) The Best AI Ecommerce Stock to Buy in 2026? - finance.yahoo.com",
+          "published": "Tue, 17 Mar 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLWtSZHYzQ3UtYjR4dUZMV21CTzdiay1iV1VrX2tsZGcxX2k4aEt2LXlaeWpiTHhQbUpZU2dSb0Etb2NHVlNmY0hmUEhKUE5EYlExUUYtcjZPcjVFNXp1b19BS0ZGWTBsV2ZTVmJQYTB3anJGSmp1Y2hUNzNBWFdsU2J3?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12732,21 +12666,51 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "AI Agents For Retail: How Retail AI Agents Work - Shopify",
+          "title": "AI Business Ideas: 15 Ways to Start in 2026 - Shopify",
+          "published": "Fri, 28 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lSWZmcDR2dzJZbG1zSkxkWFlGRWxlSjJGZ2MyNWxkYTI4NHRSTmNOLUlOd1h1cGlpODdNZTlMOXk3d3B5cHZUcjdRVWswNkh2cjdQVjk5LWxoUQ?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
+          "published": "Thu, 03 Sep 2026 08:12:33 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Enterprise Artificial Intelligence Guide (2026) - Shopify",
           "published": "Tue, 17 Mar 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5DQWkxMFN2Y3U1eGdLa3UxWjRLMjFrRWVRMTkzSWxESHVlemxFZW0xWEtvUzV6bGVVbG9BeUk5SzJhalEwRFdZMmZnT2RwckFPSXZ6WDFWSkg2dzV0?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtNFNpQ05Sd28yczBwRm5ibGVNZm8tU2ViQ3ZIOXhwU0UwLTB0bVV2SXJYMVoyVDBpNWg0aTFlRWlCQWNXS05iZWRJVHpxa2xYQnJjamdpSXFySWFMUWdxX0FrdW5RZ3U2RWp3aWM3VmJuNmNvaVNCTFZRRmdleFU?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "New Ecommerce Tools: June 24, 2026 - Practical Ecommerce",
-          "published": "Wed, 24 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YR0lkbDUtblJOajFhYkVreGlscDlCRnFtS2dBdy0xendNOVlZSmhidUlTUGJXcjVOb3JzNEk4eTRTaDhrX1V0Q1dmYzRSZkxXMjlNY0t0NkhZRV9FdUlLZS1YYzYwRVNIeHFXTmk4VUxBa2dIOGc?oc=5"
+          "title": "Shopify is preparing for AI shopping agents to change everything, exec says - TechCrunch",
+          "published": "Mon, 16 Mar 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaTRqWW5KUEt4ZDUyYVVJcVJEZFRGdWZVNFl1b3ktbUhlNDVyeDRIM29ZOW9zUHQ3Y21JMkVHOHdLdEh5OEc2a0hKQlE0U3JsalRwUFJSTThvWWRmOWwxb1huYzhSLVM2VFJtR0FaVDNhLWJiQi0zV1BlRm1PYzZyaU9ZeUtGSlktZm4tblpNS29PQjVaclZHVVZocDdEcnZZOWdPRVhNekVvNF9oYXc?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "10 Best AI Tools for Shopify Owners 2026: Platforms Ranked by Intelligence Depth - Ask Luca",
-          "published": "Sat, 14 Feb 2026 06:07:48 GMT",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZQU1rdC05UlJ3bDRuMFlrMWdWN3NlMXBUT1VRTUxxdW1HZDBCdnpYWU9lQlRSSkJ4cjA3MExEc1N4RVlKNGJBblZlbGd0OGhEcFVzLUtBU1lNT2ZWNjVySDRpbC1rR0ozVnJB?oc=5"
+          "title": "AI Chatbot Customer Service: Shopify Guide (2026) - Shopify",
+          "published": "Sat, 04 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1BcW1SNmhjZExGRWxiNUg3aTZBOUlMbmJQc01hOGpuaUdLRVViWFl5TmlSckcza3hHTGtoaGszNXY5bGZ0WDFSN1BQMGdLc1Y0d1JxWjRURzBFX2RoZG8taVdxeVVrUTBkX25v?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "AI Dropshipping: What It Is and Top Tools to Use - Shopify",
+          "published": "Fri, 26 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zWHVSb0lsX1B4MC16UmliOVdSSFBROVk0VmVqS1IyLURZa0huTHJVTk1SLWZUaEZzby1ENWFnSU9pMVZwTm5BUzVHNWRmZXk1SUpzSFV4czlCYWc?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "TIME100 Most Influential Companies 2026: Shopify - Time Magazine",
+          "published": "Thu, 30 Apr 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaHcwNmIxV0E5WjkwZnp1QkdJU3N0R3RQaXNJOXpIUDk3bmpsa1BvSmNOQWhQb0pFUEJPVWxBd0FFUk5ERWt6UkxNa2RfWXNacHI4a1RyMWRkSzFuSGdMQkV3ZEozVWwzLTRSbkc0bGFOUVU5ak9NVnBHcXJPTC13Wktn?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "AI for Sales: Ecommerce Strategies and Tools (2026) - Shopify",
+          "published": "Wed, 29 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5WQ0pDZUZqb3o5Y0NXc3NMWmNqaDlEdWhGMDA2Ti1WLU83Y2wzZWlLa3E4TWNMZkZuNFF6dGFlaEtRLWVYbzVnSTlIdXp6dmc1YUthdUxUbw?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12756,9 +12720,33 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "33% Turn to AI: Shopify UCP Advances AI-Powered Shopping - DesignRush",
-          "published": "Wed, 29 Apr 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoS3VKMmFrUVd4am9BMDN6NU9jcDN3RzdVUkl1SHBVc0RHQW9kTHhmNVpZSV9GcXB6UGpqT1c5RjAwblVTZ3FxX2x1bF9KLU5BVlJCekxUVTFEb3EyNThRNUlDV25oeUdCYk5hWFJQMUxWNkwxc1Y2LWZ4aUQ?oc=5"
+          "title": "New Ecommerce Tools: May 20, 2026 - Practical Ecommerce",
+          "published": "Wed, 20 May 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5xNWhhUjBtQXNzQVc2UjJjMV9XOTZaT1VMNng3ME9EeHZGRGxKWjZicEo3clVfYmtRUmRlOUItMVBkaGRFeEgxajhWSzFoT2pxbzg0dWtjT2kwV0loN3BNRlFLTTVXNU1ZXzVISVRfNElrLWtG?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "How AI Shopping Could Turn Fashion Advertising on its Head - Vogue",
+          "published": "Wed, 14 Jan 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT0dRZmFUbXEwMHg5MHZ5QUZJc0d2WTlqN2RLeXc5WGp1VWJVTWE1WmZnTU5kZlQzYXZEQi1JdEphZUg3ajlxcENZWmxzM0pmcm00Z0Y1ZE1MRFlLUGNUalZOaExWeVRlTl96Qnlmb1NsLTVKRmlqbmF2TWZueThfaWJYcl9NSFE3Z3BpV25OS0R0UQ?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Shopify Debuts Tinker App for AI-Powered Stores - PYMNTS.com",
+          "published": "Fri, 27 Mar 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMmpXdE81cm0wbTZELWhkUXk4ci1WLWVwNXd2UnFGUTFzckpRNlZJeHFVdlVwMWgweVhmS2dZQVNnQjctd2NuM1VLdXR5emtXQVJnUy0tT3NtMHYwZnA5V0h6N2IzY1JaaWxuRGVmR2hSUHZQdTV0LVZMNF9TUUZJUThDZ05aaEkwUHZMQzRPd0otWklIalFKTFpQb0k?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Most Retailers Are Getting Half-Baked AI Insights. Here's the Fix. (2026) - Shopify",
+          "published": "Mon, 09 Feb 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5EV0hnZmdlLVV6dWV1MzlYeUsyYWZIenE2SmRBU2plRDEtb3JmZWNaTEtCazlrbjBaZnlJQVBXcmJCQXlHc2dQb216X0FKZU1xVFVTTzNjcEZNYVJlOUg2a0NpcENTWDd6bjdSZzFySXl0T1kwdUdZME92eW96UQ?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "New Ecommerce Tools: June 24, 2026 - Practical Ecommerce",
+          "published": "Wed, 24 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YR0lkbDUtblJOajFhYkVreGlscDlCRnFtS2dBdy0xendNOVlZSmhidUlTUGJXcjVOb3JzNEk4eTRTaDhrX1V0Q1dmYzRSZkxXMjlNY0t0NkhZRV9FdUlLZS1YYzYwRVNIeHFXTmk4VUxBa2dIOGc?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12768,15 +12756,9 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "The GEO Playbook: How (& Why) to Optimize for AI Discovery (2026) - Shopify",
-          "published": "Mon, 23 Feb 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5KS1hBZlRCUy1ENzc1ckd3REEtV2E3bkRHM01uM05IZjFDcGQtelcyeVlYa0tVMTBTVkdGN19CUWJfQzVVQ1FpcllTYVZuZko2RG91ZTBvSmduUXQ3SjNpSGRYanNhdnF1V0duVktVc0VHMkg0OGFsa25R?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "Shopify Debuts Tinker App for AI-Powered Stores - PYMNTS.com",
-          "published": "Fri, 27 Mar 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMmpXdE81cm0wbTZELWhkUXk4ci1WLWVwNXd2UnFGUTFzckpRNlZJeHFVdlVwMWgweVhmS2dZQVNnQjctd2NuM1VLdXR5emtXQVJnUy0tT3NtMHYwZnA5V0h6N2IzY1JaaWxuRGVmR2hSUHZQdTV0LVZMNF9TUUZJUThDZ05aaEkwUHZMQzRPd0otWklIalFKTFpQb0k?oc=5"
+          "title": "10 Best AI Tools for Shopify Owners 2026: Platforms Ranked by Intelligence Depth - Ask Luca",
+          "published": "Sat, 14 Feb 2026 06:07:48 GMT",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZQU1rdC05UlJ3bDRuMFlrMWdWN3NlMXBUT1VRTUxxdW1HZDBCdnpYWU9lQlRSSkJ4cjA3MExEc1N4RVlKNGJBblZlbGd0OGhEcFVzLUtBU1lNT2ZWNjVySDRpbC1rR0ozVnJB?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12792,45 +12774,21 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "What's Driving Shopify Inc (TSX:SHOP) In AI Stocks Today? - Kalkine Media",
-          "published": "Mon, 07 Sep 2026 22:58:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMVpoNXFhcjZCNFdianAtT0d4b0gxSG9pc1A2UW1yNzlXR01ha0JZOWlXVlM1dVhWOWxoaFVWTEZqdjUybXJUTzlIbHJUUkV3MmxGVk4wRFNFUmg2R3NjSVhjN1pvY1ZHTkJsQ2U0UW5BQ0EzejJYeW5rS1NNd1QwVFRxVTNSWDdaUUhOSGg2RzNwZWdFYkNLMUNvbm1LTGRKSGo1YTdLOExxMXNiTWlFMA?oc=5"
+          "title": "Shopify Merchants to Pay 4% Fee on ChatGPT Checkout Sales - PYMNTS.com",
+          "published": "Wed, 21 Jan 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdzdjaUtabUxBNmxpNi1UdmZrY2pEZEV6SGZkaGlHMjRBZjBOY1VuSWJCM2RqcFMtMUp6SGF1aDB1VGRJUE1XSEZFUGdTOTFla09WTnpFVXhQcWQ1blUtbTRBeXkwTkJaeFQ1WjZlSkI1cG9STXloSlNHWDNXNGtGVVhJeHV6NmdobDAtR0ZZei1JZzBlRnlqeS13RmNkWG1jQnRkNHhIWFl0bnRGVVAweEJ3SlJfdmZ5QkRndjFwem9EUQ?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Native AI Search Is Only Half the Battle for E-Commerce Brands - ecommercetimes.com",
-          "published": "Tue, 28 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdkhsQzJITFpzblNJSHFCZktrckJKNGpWd2FKcnZGUU5ya3Jtdl9EX01FT3F2anRrcmlHMGFyMm5XbVdaUVYxbllBXzF2U0p4SjhJTXdVNkJOODBLSGlEZGlGSWFyRWJ0ZTZPRVpWSy1PdEhSaF9fWGJrMk83VWh2b3ZoTFZXX2lRb3N2VHdaZW9YV1E5LXhXTklSb3ZuTVJaS055aVcwUDJFWWJCelZjQg?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "Shopify’s revenue rises 30% in 2025 as B2B sales surge and AI commerce expands - Digital Commerce 360",
+          "title": "Shopify’s revenue rises 30% in 2025 as B2B sales surge and AI commerce expands - digitalcommerce360.com",
           "published": "Thu, 12 Feb 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdUtTaUpqSmFLYmVyZlVGSTJPLVFRckFoYkwyWk9BcVp5Q2pRcFZRQkgtM2t0NVRXdmptcGE1bUtOVDlSRl9LZXhrWmpJRjQ0bmNKSUZzWlZoMklYYXZNa0dOaHBOMXFFcVZCdm1OT2NCT0hEVzBrNjlOYW5TVHBxQUI4eUV6R2vSAYwBQVVfeXFMTXRaOTVJb19OVV9EYmppbTdwT1RwcERnbkFfNEFiZ1BvMGRlX1dxLWxzbmFLVHNrYjF2YW1MUHFJYnBfd09KMlVSUkdJbXlCdDM5N1lXbldxYVZzNW9DSW9ELTNoN0c0YzJVU2N2Uk8xM2E5YWNSdnY5YUZlX3FqZEFvYVpqY3E1MXJpclc?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "ShamlaTech Launches AI Agent for Shopify, WooCommerce, and Magento Stores in the U.S. - Morningstar",
-          "published": "Mon, 13 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdFhXeEw3Z200Nmh3cFNCTVVzcmFYSGhtQUFuOHNKOFVJSTlyVmlMRzY3ZjR6VVRhOFJfVS1zWndvR25TbEpFTUZLUFhFVEVvSkZkMlpQdGhKOEZ2TVQyYURFc0pZbTN6OTV6V1hlU01qVnRjSnl2RDV0YUxfYnRJTm9tT2JJU01oYlhWWTd3S3JlSDJOTDl5R1BtUXpOamo2NVZOZjd3eHl5YjkteEwwVGRSMzZHMUxVX3hYeHhpdlFRbi04OEJXZkRMdVNWU3Fzc2c?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "The agentic commerce platform: Shopify connects any merchant to every AI conversation - Shopify",
-          "published": "Sun, 11 Jan 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1MaHA5dXZRekNkZHpaTW9KNmpzMGt6bjQ2aHF3TEtvWjFvLWRJSWxBNHBGRDl0RzNMQ0dYdDQxUmZEV1VhYzJ5YUxDUzBFYWR3MjdOcW9YZmpEOW12Wmc?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "12 Best AI Website Builders to Design Your Site in 2026 - Shopify",
-          "published": "Sun, 19 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1QSDFiWEJQUEZGX0ZPcjlZWXQxcWZmckdzMm9uUHdDd3VSWTdpd3BZeVN0Ty1UUjBINlVza1NLR1NyV3dhUVpMZ1lyTnE5Q1VlSG1fWXFqSlhVUjN0YmI0?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "Carve Designs shares approach toward AI agents’ traffic - Digital Commerce 360",
-          "published": "Wed, 29 Apr 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUnBpeHRYN0F6Y2RTeDFDN3VZa0VaZk85NHJDT29xTFVhSnZlOFJ6Wno3ZnFvb3pUQ3lVUUhkczhWYWV2Ym5ibUZJRThXZmhScGk4RUZSNzlOWUZxNFJhMUhOMHVyMC1Ba0JfcVlSTV9FaXI0Ykc1cHh6YkRQay14SkNyZUlJUkljSEtubllQcEd2RjQwSDBLanBkc0JCRV9xNFBj0gGoAUFVX3lxTE8wYXBDbTJPSnI0OHU3ZEJXVXd1MGp4TU9IVC0xeEZLZFE0WUpZRUhkWkxsNzJqbUNHUlVYeThIVmdJVmQweEgxREhiclZHMTRVNlNvR2NoeHBvcnp1aTlYcDlaZkNrbkNPeTZOVEIyeUQySDc5eEZEWWhTN0VFTUdoUkFyNURPVlBBYVlOLUZLZHR6enZfcWg4dkt4dXJfOXV1czFpYWtqZA?oc=5"
+          "title": "Native AI Search Is Only Half the Battle for E-Commerce Brands - E-Commerce Times",
+          "published": "Tue, 28 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdkhsQzJITFpzblNJSHFCZktrckJKNGpWd2FKcnZGUU5ya3Jtdl9EX01FT3F2anRrcmlHMGFyMm5XbVdaUVYxbllBXzF2U0p4SjhJTXdVNkJOODBLSGlEZGlGSWFyRWJ0ZTZPRVpWSy1PdEhSaF9fWGJrMk83VWh2b3ZoTFZXX2lRb3N2VHdaZW9YV1E5LXhXTklSb3ZuTVJaS055aVcwUDJFWWJCelZjQg?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12840,9 +12798,21 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify Merchants to Pay 4% Fee on ChatGPT Checkout Sales - PYMNTS.com",
-          "published": "Wed, 21 Jan 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdzdjaUtabUxBNmxpNi1UdmZrY2pEZEV6SGZkaGlHMjRBZjBOY1VuSWJCM2RqcFMtMUp6SGF1aDB1VGRJUE1XSEZFUGdTOTFla09WTnpFVXhQcWQ1blUtbTRBeXkwTkJaeFQ1WjZlSkI1cG9STXloSlNHWDNXNGtGVVhJeHV6NmdobDAtR0ZZei1JZzBlRnlqeS13RmNkWG1jQnRkNHhIWFl0bnRGVVAweEJ3SlJfdmZ5QkRndjFwem9EUQ?oc=5"
+          "title": "The GEO Playbook: How (& Why) to Optimize for AI Discovery (2026) - Shopify",
+          "published": "Mon, 23 Feb 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5KS1hBZlRCUy1ENzc1ckd3REEtV2E3bkRHM01uM05IZjFDcGQtelcyeVlYa0tVMTBTVkdGN19CUWJfQzVVQ1FpcllTYVZuZko2RG91ZTBvSmduUXQ3SjNpSGRYanNhdnF1V0duVktVc0VHMkg0OGFsa25R?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Algolia announces enhancements to Shopify AI search integration - digitalcommerce360.com",
+          "published": "Tue, 24 Mar 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSFlWeUtVa2tCZHoxRXY3UVBmX1JPcUlZRjRlQzh5V1dUU2MwcUl0b0djSGxtdnp4U2RqaC05THVGYXRPWlVBeEhqS2p0LVdNVnI1MkFJekNQUDg1NnliOUlRT1VheWFhaVhLamxObHBILUJhS0ljQkhVbmNpY21tdVpWOVpzN3c5MkstUzVXYUVVVHFNaGMza25QTFRpUdIBowFBVV95cUxQcjhrMkdVa3VZMlNkMjA1WHRRSDQ4d3EtdGd1cHBPNjlHQlR5LW5laUxGYktqU1VvVjEwdkpqOG5nWlJwQ0FsQThDT0NHMFdPYXVkUktvdU9OdjBlZGxWV3hzeXNxODZVMUFsYURhTkJ1dFpaaDVTdkxDSl8xY0NLY1hPZThwUlE3WFdXLU1ldlRSSEx5REtTc0dqOXI3Y3BNMkFr?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "33% Turn to AI: Shopify UCP Advances AI-Powered Shopping - DesignRush",
+          "published": "Wed, 29 Apr 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoS3VKMmFrUVd4am9BMDN6NU9jcDN3RzdVUkl1SHBVc0RHQW9kTHhmNVpZSV9GcXB6UGpqT1c5RjAwblVTZ3FxX2x1bF9KLU5BVlJCekxUVTFEb3EyNThRNUlDV25oeUdCYk5hWFJQMUxWNkwxc1Y2LWZ4aUQ?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12852,21 +12822,27 @@
         },
         {
           "query": "Shopify ecommerce AI",
+          "title": "What's Driving Shopify Inc (TSX:SHOP) In AI Stocks Today? - Kalkine Media",
+          "published": "Mon, 07 Sep 2026 22:58:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMVpoNXFhcjZCNFdianAtT0d4b0gxSG9pc1A2UW1yNzlXR01ha0JZOWlXVlM1dVhWOWxoaFVWTEZqdjUybXJUTzlIbHJUUkV3MmxGVk4wRFNFUmg2R3NjSVhjN1pvY1ZHTkJsQ2U0UW5BQ0EzejJYeW5rS1NNd1QwVFRxVTNSWDdaUUhOSGg2RzNwZWdFYkNLMUNvbm1LTGRKSGo1YTdLOExxMXNiTWlFMA?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
           "title": "AI referrals drive higher ecommerce traffic and conversions - Marketing Tech News",
           "published": "Tue, 16 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRzRySllZZ0Z3UjRMRkdyVWwxMTZySFBNeFRhQ1NyVElmSUFpWVFIU3Zud0h4eGZFQ3RIZTFXY3VJdmp2RFB3WHhQQzV3Vk5DMzBMMEVnSmNmVHJyT2RIcUtDY1VFd1R4S1QwckIxUlBRYUhlZjladnowV09FUW1vODcwVmdOX1VqdkE?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Algolia announces enhancements to Shopify AI search integration - Digital Commerce 360",
-          "published": "Tue, 24 Mar 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSFlWeUtVa2tCZHoxRXY3UVBmX1JPcUlZRjRlQzh5V1dUU2MwcUl0b0djSGxtdnp4U2RqaC05THVGYXRPWlVBeEhqS2p0LVdNVnI1MkFJekNQUDg1NnliOUlRT1VheWFhaVhLamxObHBILUJhS0ljQkhVbmNpY21tdVpWOVpzN3c5MkstUzVXYUVVVHFNaGMza25QTFRpUdIBowFBVV95cUxQcjhrMkdVa3VZMlNkMjA1WHRRSDQ4d3EtdGd1cHBPNjlHQlR5LW5laUxGYktqU1VvVjEwdkpqOG5nWlJwQ0FsQThDT0NHMFdPYXVkUktvdU9OdjBlZGxWV3hzeXNxODZVMUFsYURhTkJ1dFpaaDVTdkxDSl8xY0NLY1hPZThwUlE3WFdXLU1ldlRSSEx5REtTc0dqOXI3Y3BNMkFr?oc=5"
+          "title": "ShamlaTech Launches AI Agent for Shopify, WooCommerce, and Magento Stores in the U.S. - Morningstar",
+          "published": "Mon, 13 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdFhXeEw3Z200Nmh3cFNCTVVzcmFYSGhtQUFuOHNKOFVJSTlyVmlMRzY3ZjR6VVRhOFJfVS1zWndvR25TbEpFTUZLUFhFVEVvSkZkMlpQdGhKOEZ2TVQyYURFc0pZbTN6OTV6V1hlU01qVnRjSnl2RDV0YUxfYnRJTm9tT2JJU01oYlhWWTd3S3JlSDJOTDl5R1BtUXpOamo2NVZOZjd3eHl5YjkteEwwVGRSMzZHMUxVX3hYeHhpdlFRbi04OEJXZkRMdVNWU3Fzc2c?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "AI Chatbot for Shopify: Tools Compared (2026) - Shopify New Zealand - Shopify",
-          "published": "Wed, 22 Jul 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYWG12UFI0bkVWWkVsWkhDQk5aMk1vbjlfd1RuX19sRE11aERydW9MOHZORWJvMk5iLTMtZGlNYTVDa2NkODU3N045Vnk0UDZ0azh0Yg?oc=5"
+          "title": "Carve Designs shares approach toward AI agents’ traffic - digitalcommerce360.com",
+          "published": "Wed, 29 Apr 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUnBpeHRYN0F6Y2RTeDFDN3VZa0VaZk85NHJDT29xTFVhSnZlOFJ6Wno3ZnFvb3pUQ3lVUUhkczhWYWV2Ym5ibUZJRThXZmhScGk4RUZSNzlOWUZxNFJhMUhOMHVyMC1Ba0JfcVlSTV9FaXI0Ykc1cHh6YkRQay14SkNyZUlJUkljSEtubllQcEd2RjQwSDBLanBkc0JCRV9xNFBj0gGoAUFVX3lxTE8wYXBDbTJPSnI0OHU3ZEJXVXd1MGp4TU9IVC0xeEZLZFE0WUpZRUhkWkxsNzJqbUNHUlVYeThIVmdJVmQweEgxREhiclZHMTRVNlNvR2NoeHBvcnp1aTlYcDlaZkNrbkNPeTZOVEIyeUQySDc5eEZEWWhTN0VFTUdoUkFyNURPVlBBYVlOLUZLZHR6enZfcWg4dkt4dXJfOXV1czFpYWtqZA?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12876,21 +12852,21 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "AI Search Engines: 5 Best Tools in 2026 - Shopify",
-          "published": "Wed, 12 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84VlNuMXlrRURjQzJnRXRULWY2VnEwZ1I4VkVPY3M5NWxIR254TnVBd0lna0NRQmp4Z1BFY29hQTN5Q2l0YzNJMS1YVXBsbjdQQXlSc3BPbnpuVDVq?oc=5"
+          "title": "Why 2025 was Shopify’s best year yet - Modern Retail",
+          "published": "Mon, 05 Jan 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQY3dReTBaT0I2ZDQyZXlXVUd0My1teURIbG50NkNibGt0d2pNLVVINVVUSW5iVkZjck9zeTBrQlZHWTBFNXloNDg4M0FLdlBYM2ZnMWJJajVWZ2FaVlNINEdBaWpHWEZ2aWU0X2hmU0ZPdFpHS3pucVB5a2RKZHpBOQ?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Best eCommerce Development Service Companies in USA - clickpost.ai",
+          "title": "AI Chatbot for Shopify: Tools Compared (2026) - Shopify New Zealand - Shopify",
+          "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYWG12UFI0bkVWWkVsWkhDQk5aMk1vbjlfd1RuX19sRE11aERydW9MOHZORWJvMk5iLTMtZGlNYTVDa2NkODU3N045Vnk0UDZ0azh0Yg?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Best eCommerce Development Service Companies in USA - ClickPost",
           "published": "Fri, 21 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51cHZ6NTJfMTQ0QllLb1Q3X2hod3llUmxsRWpDX01WRjVod25LbG44NW4ySE9qNnFwMzRLeFRycEJGTGlQS0VrVFJWQjhUSThGX2tjVGNocUdWUXdOUlFDYnJ0Z1dKUQ?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "AI Dropshipping: What It Is and Top Tools to Use (2026) - Shopify",
-          "published": "Fri, 26 Jun 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5mQWEyUy16Y1dESDJ5S2h6SldCQXFXQW1BNlBPSEMxMlNkTmI4UmhmYTZrVF9IMmNUUXFuOVRlbVMyRjFhZFMyQlVDS2FYZWtWeXF5eE5PalVOVm8?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12900,27 +12876,33 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "2026 Ecommerce Trends: How Brands Are Planning Ahead - Shopify",
-          "published": "Fri, 09 Jan 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JTVQ0QUl6ekNWYUxkRUpMa2RqZjlIdlJCcVFmNXgzN25pVmRLdzhlZUF3OV96UGJjNkR3UERlcS1lazRKOHdBRC1VODFuOFhYcjkwZmJJY3NfaXBFY3RvUm1IVFVINWd2T0VFcQ?oc=5"
+          "title": "12 Best AI Website Builders to Design Your Site in 2026 - Shopify",
+          "published": "Sun, 19 Jul 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1QSDFiWEJQUEZGX0ZPcjlZWXQxcWZmckdzMm9uUHdDd3VSWTdpd3BZeVN0Ty1UUjBINlVza1NLR1NyV3dhUVpMZ1lyTnE5Q1VlSG1fWXFqSlhVUjN0YmI0?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify: AI Traffic Tripled, but Classic Search Keeps Growing - pasqualepillitteri.it",
-          "published": "Fri, 07 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSF9RZzlnRWhvRVlYeE9nQVFXM255Q1c1TGdaRFV3WTBJeV9GM1g3dk9jcEk1M0RtYlFWcGh4SjZZa0hzUnE0TUVELXRXVTlaSW4xejNBU3BicjlfVjFkWjdDazE1U2xtcDBnMXBUV2RxNTFjdzNYLThtZl8yR3FmbE9FMmg?oc=5"
+          "title": "The agentic commerce platform: Shopify connects any merchant to every AI conversation - Shopify",
+          "published": "Sun, 11 Jan 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1MaHA5dXZRekNkZHpaTW9KNmpzMGt6bjQ2aHF3TEtvWjFvLWRJSWxBNHBGRDl0RzNMQ0dYdDQxUmZEV1VhYzJ5YUxDUzBFYWR3MjdOcW9YZmpEOW12Wmc?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "AI Content Creation: 5 Best Tools in 2026 - Shopify",
+          "title": "AI Dropshipping: What It Is and Top Tools to Use (2026) - Shopify",
+          "published": "Fri, 26 Jun 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5mQWEyUy16Y1dESDJ5S2h6SldCQXFXQW1BNlBPSEMxMlNkTmI4UmhmYTZrVF9IMmNUUXFuOVRlbVMyRjFhZFMyQlVDS2FYZWtWeXF5eE5PalVOVm8?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Shopify deepens push into agentic AI and B2B ecommerce - digitalcommerce360.com",
+          "published": "Wed, 05 Nov 2025 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT2h6SUJSQVY1Q2FVWER0NjBYbGFoMkRNNFhQMFI5bVJjWlU5ZjE5NUFLVGhxcktPVXRETG5QOEp1REdqQk9NeVBGaVNZeDNKZGR4RXlSMUhTanFWXzh0UlNkTWNXM2hOYnVyUk1pMWRYV1NrSW8yQ25td2tua19aUWVXTDR6WDAwSm5TeUFJTkJxbUdGaW1nS3ZweHZLZ9IBowFBVV95cUxOOG45SzN4b0hKVTE0UkJsQnFaSFVzVEN6M0Q2V3lXZEVzVm5FN0NEamRrWHpkMlZjM2JPLVpNRF9SNDhpUlhYckxfOUl6LW9oeEJnMzVISU0wX0g5ZkNSQTdCdWZZTXRKNXQzTVZ4bjc4V0RkdHB2dzZNX1M1U0stREQtbjgzYW8yVDJOT28ycUNBUU5sNFpoQi00dmNXeklPTzE0?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "AI Search Engines: 5 Best Tools in 2026 - Shopify",
           "published": "Wed, 12 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yN2hFdG9hTnFrcHRTRG53NzBlbGJmR2hQZVJRZlRzV2UyWWJ3UVVjZzNBelBEOEdNd3BHc2Q4b1cyUXBZMWRWYUcwQjhYSGh4a0dxdzNPLWkzWTFmR0k5cQ?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "Why 2025 was Shopify’s best year yet - Modern Retail",
-          "published": "Mon, 05 Jan 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQY3dReTBaT0I2ZDQyZXlXVUd0My1teURIbG50NkNibGt0d2pNLVVINVVUSW5iVkZjck9zeTBrQlZHWTBFNXloNDg4M0FLdlBYM2ZnMWJJajVWZ2FaVlNINEdBaWpHWEZ2aWU0X2hmU0ZPdFpHS3pucVB5a2RKZHpBOQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84VlNuMXlrRURjQzJnRXRULWY2VnEwZ1I4VkVPY3M5NWxIR254TnVBd0lna0NRQmp4Z1BFY29hQTN5Q2l0YzNJMS1YVXBsbjdQQXlSc3BPbnpuVDVq?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12930,9 +12912,21 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify deepens push into agentic AI and B2B ecommerce - Digital Commerce 360",
-          "published": "Wed, 05 Nov 2025 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT2h6SUJSQVY1Q2FVWER0NjBYbGFoMkRNNFhQMFI5bVJjWlU5ZjE5NUFLVGhxcktPVXRETG5QOEp1REdqQk9NeVBGaVNZeDNKZGR4RXlSMUhTanFWXzh0UlNkTWNXM2hOYnVyUk1pMWRYV1NrSW8yQ25td2tua19aUWVXTDR6WDAwSm5TeUFJTkJxbUdGaW1nS3ZweHZLZ9IBowFBVV95cUxOOG45SzN4b0hKVTE0UkJsQnFaSFVzVEN6M0Q2V3lXZEVzVm5FN0NEamRrWHpkMlZjM2JPLVpNRF9SNDhpUlhYckxfOUl6LW9oeEJnMzVISU0wX0g5ZkNSQTdCdWZZTXRKNXQzTVZ4bjc4V0RkdHB2dzZNX1M1U0stREQtbjgzYW8yVDJOT28ycUNBUU5sNFpoQi00dmNXeklPTzE0?oc=5"
+          "title": "AI Content Creation: 5 Best Tools in 2026 - Shopify",
+          "published": "Wed, 12 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yN2hFdG9hTnFrcHRTRG53NzBlbGJmR2hQZVJRZlRzV2UyWWJ3UVVjZzNBelBEOEdNd3BHc2Q4b1cyUXBZMWRWYUcwQjhYSGh4a0dxdzNPLWkzWTFmR0k5cQ?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Using AI in Ecommerce: How It’s Transforming Online Shopping - Triple Whale",
+          "published": "Mon, 22 Dec 2025 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0tVUQ4M3BMY2RobFA1ejZxNEdiY3V6eTlCSDZwRmQ2bENUbHpuWkpDX3ZITFhwZzhTS1hMS0o5Tm5fdC12eUlZV2o2TFBzSTdZczVmSmlpZlcyVWs5?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "2026 Ecommerce Trends: How Brands Are Planning Ahead - Shopify",
+          "published": "Fri, 09 Jan 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JTVQ0QUl6ekNWYUxkRUpMa2RqZjlIdlJCcVFmNXgzN25pVmRLdzhlZUF3OV96UGJjNkR3UERlcS1lazRKOHdBRC1VODFuOFhYcjkwZmJJY3NfaXBFY3RvUm1IVFVINWd2T0VFcQ?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12948,15 +12942,21 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify says AI traffic is up 7x since January, AI-driven orders are up 11x - TechCrunch",
-          "published": "Tue, 04 Nov 2025 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcUV2Q3lMR2NhdmJyRF9jUGNxWi1NcVdpck11RmVTbXQ3THhDTnB3Z3diYUplazRFQUpkbDFXMkg1U29yNGFoQUFHOEg3cF9BeDJfQVotTm02Njc1VkNRZUVucDNYR3dxRGRWa0RPV1BsSlpxdGN4RWNudjB2cWdZZy02SFBRN2NlQ1dEUkp4RTJRVHJodzVGNWtraVVrMWlSUEZZdjJmM3BJWTVTN1E?oc=5"
+          "title": "David’s Bridal adds two AI platforms as shopping channels - digitalcommerce360.com",
+          "published": "Fri, 17 Apr 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVGliNXRleUlXRTJoaXI3a3kyTWdhRlBFRnA1NEswNGRFei1fVmNQczN6SWZDQXl4QThKYlRmMUlrbFhta0VnUWRwaUJNSmgtM1JMSzB0LU5Kc1o0bEFLR05ITGlNLXZZVWYycmhSU2pMRXFEbUhtSkU4bWhpbzdnTGU1c1NkRU8xNjBRZUhheVpOZ1J4UnNhbnBKRTdFd3fSAaQBQVVfeXFMT0dFbUh6TnJIY051aGVYYkVsTElTbWUtRUF2Z2RJQk52RkhuRXlja0xXc0pfYUlRa1haTW84MmtURTkyZE9PYTE1aEJWSUlNNVpid1hTbDJENl9jclFjV0FRMGRfbm92cl9ZalN5eHBZUGlSMGRXSUZGRE5DekdiVm5iYTFNZzh1RjBKaW9Lby1TTjJCekhBSkVmOTFpYkpiR21Kcjk?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "What is Virtual Shopping? AI Try-On, Benefits and 2026 Trends - Shopify",
-          "published": "Thu, 20 Nov 2025 18:58:23 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80SmZIUEtZNmZjNkJyUHU2d2FxMW1oNk5BSXNtSWlsaTdrQlhtb29UTlVCMmd3ZkhvMDlYS0tNNlEyRjVJTnF5S1FIcTgwQWNqbGNBanFUX2lzR1drZWNxLWNSVmpuMTQ?oc=5"
+          "title": "Noibu Deepens Investment in Shopify Plus, Bringing Ecommerce Analytics & Monitoring Platform to Plus Merchants Across Every Build - businesswire.com",
+          "published": "Tue, 12 May 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNRVJneWFnLXpRMncyWkNLc3pPRTR4WGlGVFhpUDFCTzFQYWY4SUlBdTB5dm9TcUNubTNXRGxZNXdTWm5GZEFuZGhuZTh0Yk40a054WHRkVzFUMlVQOE5yWDZ5aE5iUjI3NV9RTlF5UTlkUVAxQnhQRUMxM1BVRnpNbDk1WlpkRmdCZ3BKTTIxNWlXejc5RzF4cUdoSnptUkpLNl9zMXgxQlpsUThpYXFHQkVoYkRBd2NNa2FXYW5oUHhhVGRaNFFPNEhPbVVLNlNhc1FFbHpMUk1XNHpDZUNzMEJJc25SODRyZndGSVVycEJmam52SmJxejh1VzdtVnZaeUtTemxjOC1uTmJfOGVSWQ?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Shopify: AI Traffic Tripled, but Classic Search Keeps Growing - Pasquale Pillitteri",
+          "published": "Fri, 07 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSF9RZzlnRWhvRVlYeE9nQVFXM255Q1c1TGdaRFV3WTBJeV9GM1g3dk9jcEk1M0RtYlFWcGh4SjZZa0hzUnE0TUVELXRXVTlaSW4xejNBU3BicjlfVjFkWjdDazE1U2xtcDBnMXBUV2RxNTFjdzNYLThtZl8yR3FmbE9FMmg?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12966,9 +12966,27 @@
         },
         {
           "query": "Shopify ecommerce AI",
+          "title": "What is Virtual Shopping? AI Try-On, Benefits and 2026 Trends - Shopify",
+          "published": "Thu, 20 Nov 2025 18:58:23 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80SmZIUEtZNmZjNkJyUHU2d2FxMW1oNk5BSXNtSWlsaTdrQlhtb29UTlVCMmd3ZkhvMDlYS0tNNlEyRjVJTnF5S1FIcTgwQWNqbGNBanFUX2lzR1drZWNxLWNSVmpuMTQ?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
           "title": "Shopify vs. Wix Stores: I Tested Both E-Commerce Platforms and Found a Clear Champ - PCMag",
           "published": "Fri, 20 Feb 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcWJKNTUyLUxtYjh1algyc25UUGJydkRwS1pJWnpWaURXYXJCSjNUN2JYVGU1cXZJUGxjaTVkNGlEVDNnYU83akNSRUtJY1N4NjVqc3Nxc2dqX3NOaVY4eVk5dVNWODItY2QtQmtCTHo5eEpiaE1sS25qajNxY1RCak80Q05Gdkp0NDhzUFB0QWNkUTM0SFNNWi1lakRnY1ZRY2ZPNW1MMUstYTJE?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Shopify says AI traffic is up 7x since January, AI-driven orders are up 11x - TechCrunch",
+          "published": "Tue, 04 Nov 2025 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcUV2Q3lMR2NhdmJyRF9jUGNxWi1NcVdpck11RmVTbXQ3THhDTnB3Z3diYUplazRFQUpkbDFXMkg1U29yNGFoQUFHOEg3cF9BeDJfQVotTm02Njc1VkNRZUVucDNYR3dxRGRWa0RPV1BsSlpxdGN4RWNudjB2cWdZZy02SFBRN2NlQ1dEUkp4RTJRVHJodzVGNWtraVVrMWlSUEZZdjJmM3BJWTVTN1E?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "8 best ecommerce AI Website Builder for creating an online store - Hostinger",
+          "published": "Fri, 04 Sep 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpU29tczMwM1pKaUdZYld0aThjYVRYWlE1c3k2VXc4RDBpUDdLOEx5bDg1OHljdURVUG5Xc25PWUxVZDY0RGl2OEFNM1ZYelFhN3FTVm1ySC1hRFk5amtVbkpudm9ZSFFCaEVQX1hleGRKWHV0d1NzSDhJdw?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12978,9 +12996,15 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Using AI in Ecommerce: How It’s Transforming Online Shopping - Triple Whale",
-          "published": "Mon, 22 Dec 2025 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0tVUQ4M3BMY2RobFA1ejZxNEdiY3V6eTlCSDZwRmQ2bENUbHpuWkpDX3ZITFhwZzhTS1hMS0o5Tm5fdC12eUlZV2o2TFBzSTdZczVmSmlpZlcyVWs5?oc=5"
+          "title": "Shopify partners with Liquid AI on product search, recommendations - digitalcommerce360.com",
+          "published": "Thu, 13 Nov 2025 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZnA2akZoWG41VjZKZEpTLW1xWjh0UXFGNEpFVHZpeGlQTktMa3luTjNNT2IxUnF4NDEycHY0azNpSGwya1R4TEZ3Y3JwTlpQU1R4M2l0d3JHa19wZDc2M3k5aDFBZDY0Nkp2YmpqSGRUWE50TFRUN2ROcXU4V0Q4NEd4VHV4Ym91MEd4b2RwVE4tSzRMNUt4T0t4VdIBoAFBVV95cUxOWUhGUEwxU1ZtbjFVSEpaU3F0ekRnbmNNWXlyS2NjZVlLN042M2tCZzJLT3BGdktxUDMxV3NsQWdRbE16YVhmUDFFQTVlMzJkaWl1WDJoUmJlcThKYkZxdFh4NjZpTWlsTDlUVjdPZXBMREJ1SUhFazQ0V3h3N3g0QVB3R3lmMTE3TmN4djBtQjk4TTFuU3FlYVl3d001SG14?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Shopify revenue, GMV maintain +30% growth streak in Q4 2025 - digitalcommerce360.com",
+          "published": "Tue, 17 Feb 2026 08:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44VFBVa1ExN3BvaTNiMEdqLXVremhkUXpCTHNZWmlmMWtCWUFDaGFmeGpYdlAzbGREd3lrZEtMNVl3X2V2SUhyN2l4Qm1MWjhpMEZRbzAya2dfU0RnYzRkSzZkYkEtSUZjS01IeW1mdkhNWm9UMHVvU09ucXljSHPSAYQBQVVfeXFMTmtXeG9NVWQxSjQ5NFFTM1BHVHZBZU4tS1RVbFJKWTFuMUhOLUIzOTBRZHBpakVRNzVOWWdoaGN6ZlJGTVpTaHZ1bUViWTBFbEZKVWlKRkZDcXA1XzRFQnBaQk1FZnVieUxiRFJzR0l6X2M2TDZVUUVWRUpNaXg4WXA0YmJE?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -12990,45 +13014,21 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "David’s Bridal adds two AI platforms as shopping channels - Digital Commerce 360",
-          "published": "Fri, 17 Apr 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVGliNXRleUlXRTJoaXI3a3kyTWdhRlBFRnA1NEswNGRFei1fVmNQczN6SWZDQXl4QThKYlRmMUlrbFhta0VnUWRwaUJNSmgtM1JMSzB0LU5Kc1o0bEFLR05ITGlNLXZZVWYycmhSU2pMRXFEbUhtSkU4bWhpbzdnTGU1c1NkRU8xNjBRZUhheVpOZ1J4UnNhbnBKRTdFd3fSAaQBQVVfeXFMT0dFbUh6TnJIY051aGVYYkVsTElTbWUtRUF2Z2RJQk52RkhuRXlja0xXc0pfYUlRa1haTW84MmtURTkyZE9PYTE1aEJWSUlNNVpid1hTbDJENl9jclFjV0FRMGRfbm92cl9ZalN5eHBZUGlSMGRXSUZGRE5DekdiVm5iYTFNZzh1RjBKaW9Lby1TTjJCekhBSkVmOTFpYkpiR21Kcjk?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "Shopify revenue, GMV maintain +30% growth streak in Q4 2025 - Digital Commerce 360",
-          "published": "Tue, 17 Feb 2026 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44VFBVa1ExN3BvaTNiMEdqLXVremhkUXpCTHNZWmlmMWtCWUFDaGFmeGpYdlAzbGREd3lrZEtMNVl3X2V2SUhyN2l4Qm1MWjhpMEZRbzAya2dfU0RnYzRkSzZkYkEtSUZjS01IeW1mdkhNWm9UMHVvU09ucXljSHPSAYQBQVVfeXFMTmtXeG9NVWQxSjQ5NFFTM1BHVHZBZU4tS1RVbFJKWTFuMUhOLUIzOTBRZHBpakVRNzVOWWdoaGN6ZlJGTVpTaHZ1bUViWTBFbEZKVWlKRkZDcXA1XzRFQnBaQk1FZnVieUxiRFJzR0l6X2M2TDZVUUVWRUpNaXg4WXA0YmJE?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "Noibu Deepens Investment in Shopify Plus, Bringing Ecommerce Analytics & Monitoring Platform to Plus Merchants Across Every Build - Business Wire",
-          "published": "Tue, 12 May 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNRVJneWFnLXpRMncyWkNLc3pPRTR4WGlGVFhpUDFCTzFQYWY4SUlBdTB5dm9TcUNubTNXRGxZNXdTWm5GZEFuZGhuZTh0Yk40a054WHRkVzFUMlVQOE5yWDZ5aE5iUjI3NV9RTlF5UTlkUVAxQnhQRUMxM1BVRnpNbDk1WlpkRmdCZ3BKTTIxNWlXejc5RzF4cUdoSnptUkpLNl9zMXgxQlpsUThpYXFHQkVoYkRBd2NNa2FXYW5oUHhhVGRaNFFPNEhPbVVLNlNhc1FFbHpMUk1XNHpDZUNzMEJJc25SODRyZndGSVVycEJmam52SmJxejh1VzdtVnZaeUtTemxjOC1uTmJfOGVSWQ?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
           "title": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol - OpenAI",
           "published": "Mon, 29 Sep 2025 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCZC1fZHFfMXFaZm5EV2x0WEJ2U0tkV2tndWprV0VHQVUtZzZEcjN6amdRWXk4c3pxZ2U3bVdDLXhDWkNrb2FYeGg2dnRlTlR6TFJrcGN3?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
+          "title": "Is Hiring a Shopify Developer Still Worth It in 2026, or Can AI Store Builders Replace Them? - Vocal",
+          "published": "Fri, 10 Apr 2026 12:48:37 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdlllbkJIMFJrZ1F2NDd3TGJpMmk4Z3pjdTVPQ0UzSll5alNQblozYXRpTFZES2V1dHdiZUtXNXpzanljemJWVk1taG4tSWtPRVJBRE56QkdxUGtHakVKNldRMkhiZ1RFT1lIUXNBcjhwdGtETTVNRmN2ekNzamlCWE1SeVJlNEhqUGhKMWJuRkFkX19SM241MUgwUXFoNmU1OEs2cklsaG80RTFlS2NDVVR0VQ?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
           "title": "Shopify wants chatbots to become the internet’s next shoppers - YourStory.com",
           "published": "Mon, 11 May 2026 11:10:12 GMT",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rdnI3LVNXbVQ2THpaVnlCaWlxZnlSUzhTY2tuYWpUTWVzQW9zcWRTa0Qzc3NPRmFXQzlVRXZZMENYa2gwSGRxa3JDZE54UGpXN0VjcThWQVgxNE01Ui04QTZHRzFBSlN1SFp6c29ueHNSN1BDUVVqS0dVQQ?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "Shopify partners with Liquid AI on product search, recommendations - Digital Commerce 360",
-          "published": "Thu, 13 Nov 2025 08:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZnA2akZoWG41VjZKZEpTLW1xWjh0UXFGNEpFVHZpeGlQTktMa3luTjNNT2IxUnF4NDEycHY0azNpSGwya1R4TEZ3Y3JwTlpQU1R4M2l0d3JHa19wZDc2M3k5aDFBZDY0Nkp2YmpqSGRUWE50TFRUN2ROcXU4V0Q4NEd4VHV4Ym91MEd4b2RwVE4tSzRMNUt4T0t4VdIBoAFBVV95cUxOWUhGUEwxU1ZtbjFVSEpaU3F0ekRnbmNNWXlyS2NjZVlLN042M2tCZzJLT3BGdktxUDMxV3NsQWdRbE16YVhmUDFFQTVlMzJkaWl1WDJoUmJlcThKYkZxdFh4NjZpTWlsTDlUVjdPZXBMREJ1SUhFazQ0V3h3N3g0QVB3R3lmMTE3TmN4djBtQjk4TTFuU3FlYVl3d001SG14?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "8 best ecommerce AI Website Builder for creating an online store - Hostinger",
-          "published": "Fri, 04 Sep 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpU29tczMwM1pKaUdZYld0aThjYVRYWlE1c3k2VXc4RDBpUDdLOEx5bDg1OHljdURVUG5Xc25PWUxVZDY0RGl2OEFNM1ZYelFhN3FTVm1ySC1hRFk5amtVbkpudm9ZSFFCaEVQX1hleGRKWHV0d1NzSDhJdw?oc=5"
         },
         {
           "query": "TikTok beauty trend",
@@ -13044,7 +13044,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Trying Out A TikTok Beauty Trend - wwltv.com",
+          "title": "Trying Out A TikTok Beauty Trend - WWLTV.com",
           "published": "Thu, 23 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcnhLOTZqc2NtdFgwdURqajQyUzN4YzQ3V3d2YXlsVGg2SUk0U21xYzhCWk9wNnVtRi1oY2JpQkl2dXQyR1NLT1o1VjIza1l5VEdXZ3NLejJOdUR6eXV3d1F1bnA2emVBR0s2Mk5wa1NEaUp2cjRpTEdveVEzWVJrUkR1R0gxMEg0b0Q5bmR4aFFFdkVpVlNMMUJGcTFBYkNhUGxkRW15YzVyalZaZVV5M1hBRkFySVcwdXlhbU1MbFZ1TExydU9zaDBQQmdXblQ4dDgxNFdnZVVtWHNkRlJ6eHoxRzJvQ2NZMTZj?oc=5"
         },
@@ -13062,7 +13062,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - Teen Vogue",
+          "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - teenvogue.com",
           "published": "Mon, 31 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OdzQ0OXlSbWVrOW1FUXdtSURIcjVsZnJhNEFleWtxZnRjcDdESjdFZlBXUVR0eEM0Tzg2NDN2M2tqU0pEaXd6TTZBOE5yRkVZR2ZBQU1DNWp1RTlxN2V6UHNHUUFJb28?oc=5"
         },
@@ -13074,19 +13074,19 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "The Vogue Business Beauty Trend Tracker - vogue.com",
+          "title": "The Vogue Business Beauty Trend Tracker - Vogue",
           "published": "Tue, 04 Nov 2025 09:49:54 GMT",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96eFRtR1g5NG15VmJxdk9GX3B1V1FJdWRDdkJPb1pHMWk3d2pwMV81WFBURlJxaHRadVZTWUFKR1VSc21KX1lyVTUxa2NSa05nRmxUU1FRb1hFVWNvc2hDZ25YYUQ0Y09jMzNhLTZuWGk?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Year in Review: The Best Viral Beauty Products of 2025, According to a Chronically Online Editor - Cosmopolitan",
+          "title": "Year in Review: The Best Viral Beauty Products of 2025, According to a Chronically Online Editor - cosmopolitan.com",
           "published": "Fri, 19 Dec 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTG0tdDBsQ2JFZTFFWEpsdlpzZzY4U0JuNGFYN0pHN2dlUWhIbjF5cjNFeWNJc2pweE8yWWpwTVFOZWJVYXpHcUZMX1BoazVUdDlJdS1iQ25sWV85NHVpVHRyZW9zTFdXMXRHTERPQW5UWDg3VU1DSnEwSkRVUmhVeWpUX09YWHNPZTBlT1dsNXUwd0hMdWc?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "These K-Beauty Trends Are About to Be Everywhere—We Asked Korean Skin Experts Which Ones Are Actually Worth It - Real Simple",
+          "title": "These K-Beauty Trends Are About to Be Everywhere—We Asked Korean Skin Experts Which Ones Are Actually Worth It - realsimple.com",
           "published": "Thu, 18 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc0dIOUxOUjV2Um8yamZUTWV0ZUEzX1NfWHpyTlJGUmhMZGdQc1Y2RlQ3eTMzWENxUEdGU0NCZWR5dTQ0bzhuX1lNb1prZUxDcU81azZzMlNpRW1LNnU4QXZTcXllY3VjNXQtR0JoSzY1bmlvVFFINTdRNl90eTRVRm5FUDBrbU15Q1l4Rg?oc=5"
         },
@@ -13188,7 +13188,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "7 K-Beauty Trends Shaping 2026 - vogue.com",
+          "title": "7 K-Beauty Trends Shaping 2026 - Vogue",
           "published": "Fri, 16 Jan 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5aSW9GVV9hWUZyZWp2eVowQm1HT3BJcVVWUjRTWk9yYkJJZmNjQTdpeWhhYllUalZ5aEZMTVNzdnRpMDJubFV3RHpXclFrQUtxRXBGWjBkRmxVa0NsYllV?oc=5"
         },
@@ -13386,19 +13386,19 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Filipinos rebelling against extreme TikTok beauty trends — doctor - Daily Tribune",
+          "title": "Filipinos rebelling against extreme TikTok beauty trends — doctor - tribune.net.ph",
           "published": "Fri, 19 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdTBmMFFFRG9JVkdQNDc1U2hGV2RleTBNZTh6MUtGcDludDFxYmtUNUJPLURVb2FTQjdxTnhhSGhVMW5KTzRndDdnRzVCdHVHVzVuX2kwWXltaWk4bW1CNl9LbnhGOHhibXc3NVprMEtlekI1S1FQQVRERDRrY1M4ZUNtcUZiMkQybDBuWGNXM2V1Z2NHLVhSY2tkQThsZw?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "TikTok and the Korean beauty boom are shifting global retail - Retail Merchandiser Magazine",
+          "title": "TikTok and the Korean beauty boom are shifting global retail - retail-merchandiser.com",
           "published": "Mon, 01 Dec 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTTFBajJjSXQxMXJjMkhJLXMxTEJCd0xtdGpmcE9kbkJ4cDlFQmluVkNTajhwTnhyWGdpRDU1MG5UVHQyOU51Y1RFUUtHV0tQa2pqTkVGWUNueHBmUGxmc1ozQ0VSYUZQOS11cVB1dEhLQnEwR0tDTXFhb1BtdU5jVHFISHNTYTdUa0FxaFN0SXRkU2E0T2Fqb2t3?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "The biggest beauty trends of 2026 - luxurylondon.co.uk",
+          "title": "The biggest beauty trends of 2026 - Luxury London",
           "published": "Wed, 07 Jan 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONjI3ZUNOcWNhUVdPVElLSTdLeEJ0U1hDMUFBa1VwMkVWQXYxSXVlWVg5QUtyb25Nd2d3Q0dBYVR2STVnRzA3bGQ0TDhvQ1U1cFQ5eUhrQlJVOUVSOURoSUJuUHRHQ041TkZPVEh3VDFmbEF4RWJZZUJ3cnNzQlZjeGY4cV9jUEI5aGJveA?oc=5"
         },
@@ -13416,7 +13416,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "The Vogue Business TikTok Trend Tracker - vogue.com",
+          "title": "The Vogue Business TikTok Trend Tracker - Vogue",
           "published": "Tue, 04 Nov 2025 08:04:38 GMT",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nc2ktNnQxVzlMTjl1MjR5MFYwSkMtVjI1Z0VhZlBLU0JqVlBjdHUyejJCVDV3OE9xYmF3ckhxR2VXLTk1Y3ZScXZfN0VPSU1ManFXYmFUWWxKTDN6cjFXTzk2OGxSVWxDOHIyeXZmRG9jUktfd2FIMg?oc=5"
         },
@@ -13446,7 +13446,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "How K-Beauty Brand Medicube Pulled Off Its Global Breakout - vogue.com",
+          "title": "How K-Beauty Brand Medicube Pulled Off Its Global Breakout - Vogue",
           "published": "Fri, 13 Feb 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdFR0Slg1M0dud2k3S1dqNld0N3lBeWZqSVczWndQNkZuVTJmRVlqV3FFSDVlREw0VVZpOEY4MTAzZ3VDb192c0Z2MWRhalBjeTBPNGVOTVlYWXFDTkw0RjFIeFhCaHUyVV9acWhBWnh5WjdvdGhibnM5ZDRpdW1vNm5peDkxV1drMkp6dEZ6V2IyZw?oc=5"
         },
@@ -13476,15 +13476,15 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "TikTok Shop poised for 'record' Black Friday as it reveals top beauty trends for golden quarter - TheIndustry.beauty",
-          "published": "Tue, 23 Sep 2025 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb0c3UlJyOEYtZmJoV3pXcXhrQkV6eTd4TkgxdGJzY0o4VzhVaDJNYVAwZFNYNExsRXhYY3JuOG1yZGR1c19zNlpnZGVvUURwUkQ0STlnSTdsWWhycnVOaUktcmZ3MmV3RnY0M211UXJXZFhSTEN3aDRleG1tb0lYcHlJVURhSy1Pendmdlk4czRHNWlubUN6eDNCc1FlUWdidklhd3FZT0dRekYyX2RqQ3o2WWFzc3otZ2lNRk9n?oc=5"
-        },
-        {
-          "query": "TikTok beauty trend",
           "title": "2026’s hottest makeup trend? Euphoria-inspired blue eyeshadow – shop our favourite palettes - HELLO! Magazine",
           "published": "Sat, 16 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSFNWNkhRcDJlOURyamNDNlU4SWxVVXF4R3psUFMwanFZbTlDVzgwWGdiNU50YVB6QnZ4QTB0VDk1R01DUVF5UXNhWjF2Q2cxVUp0Q3F4MmlDaC1XZkFzblYyd0xqRTN5dVR5dDV6YmFkektkenRHQURhQzN4c05KU3lBWEtTYkVvRThaSHdfR1RhR1hDVVBJ?oc=5"
+        },
+        {
+          "query": "TikTok beauty trend",
+          "title": "TikTok Shop poised for 'record' Black Friday as it reveals top beauty trends for golden quarter - TheIndustry.beauty",
+          "published": "Tue, 23 Sep 2025 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb0c3UlJyOEYtZmJoV3pXcXhrQkV6eTd4TkgxdGJzY0o4VzhVaDJNYVAwZFNYNExsRXhYY3JuOG1yZGR1c19zNlpnZGVvUURwUkQ0STlnSTdsWWhycnVOaUktcmZ3MmV3RnY0M211UXJXZFhSTEN3aDRleG1tb0lYcHlJVURhSy1Pendmdlk4czRHNWlubUN6eDNCc1FlUWdidklhd3FZT0dRekYyX2RqQ3o2WWFzc3otZ2lNRk9n?oc=5"
         },
         {
           "query": "TikTok beauty trend",
@@ -13518,7 +13518,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "The Latest TikTok Beauty Trend? Looking Tired! - wokv.com",
+          "title": "The Latest TikTok Beauty Trend? Looking Tired! - 104.5 WOKV",
           "published": "Thu, 14 Aug 2025 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM2lleGZaNVZxTGhhOFpJOUlmSVFBemF5S2pFUjIxQlNPcHZtU2dEOVFIbWtiNEJMR2FaZklHVk1PNjVjMlVvVkJVN0t6YWstUnJPbFphZzRyN3BEeGVQZ3RISjNzcDBKM0xJWUZVM29Cb2RSVXRpYlowSldMeXZybmRjUURRcXh2RlZPdTFBN2ZaUmUyYUtXeWRObnc2UHczUWkxUzR30gG6AUFVX3lxTFAyNHlRN1dDU2JZOEsyZm9PYTRWck40VzZqbWNmN2h4cjNqVFQ2NlZuUkJkUmt3UkVmTGZuMWZXRTZuUW5WQ0h6OTdxenJvZF9vdk84ZTJEdWlENEV0Z0VNakEtMDhGeURMejRDYWVOeW5PVENMUmFOQmhsVXRNNlp2NjhXa1c0UV82RXlVRS16bktyaHh4ZHlGaU1OaTVzd1JsNVRldnVBd1d4a2pyOUEyUnNwZDczNHZzUQ?oc=5"
         },
@@ -13590,13 +13590,13 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "What is the 'Bebot' beauty trend and where did it come from? - Philstar Life",
+          "title": "What is the 'Bebot' beauty trend and where did it come from? - philstarlife.com",
           "published": "Sat, 07 Feb 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE92UUVVaXN1aFA3MF9paFJZWHdScnJGbElzYzE3WHVHWFdxVm9ubzdBZEpvc2FNNWhFUXFSNlZ4T1R1blZyZlFVdk1sTFc2YmpxQUV0WU1LYXE0V1BvY3BHRnJuSW9vaE5SQkRvaHhQUnZXUEdGUkUw0gFzQVVfeXFMTloxa3lqWnR4ZHF5c2NnRGRJdmY2Q2RPYzBQdGRBNHdkMVVSRjdrREF3TExQVDNkRzNFYXJNZDlWSGZkUEIyU1BqRnNXampCYWhBSW9tZ1pvMnZxOTN3d0dSTHJ1NGxUdGZsQjduQzdTcmJhZw?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "The darker side of beauty trends - vogue.com",
+          "title": "The darker side of beauty trends - Vogue",
           "published": "Tue, 30 Jul 2024 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBuS3pkb3M4SXlrWl94YnBBNGJfc2NCTEpIRnRtR2JSZHNoTG04RzVNTzJXbFZUS3RVZ0Izb3ZJQXctV0xjN2FFbzFuUkI1YVJZOXZ0U1FfSXQxZzBPVXBrdkJyaENRcUZGa3V4dzAzQm50M09ydHhxaw?oc=5"
         },

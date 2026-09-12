@@ -2,7 +2,7 @@
 title: "Record c242b12152 · YUNJAC-Skin-Perfecting-Protective-Base-Prep-135-fl-oz40ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:08.017026+00:00
+updated_at: 2026-09-12T05:23:41.434132+00:00
 tags: [record, real-data]
 ---
 

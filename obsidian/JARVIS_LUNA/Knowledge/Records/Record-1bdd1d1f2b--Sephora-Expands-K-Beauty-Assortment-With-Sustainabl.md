@@ -2,7 +2,7 @@
 title: "Record 1bdd1d1f2b · Sephora-Expands-K-Beauty-Assortment-With-Sustainable-Brand-Yepoda---Be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.900302+00:00
+updated_at: 2026-09-12T05:23:41.331651+00:00
 tags: [record, real-data]
 ---
 

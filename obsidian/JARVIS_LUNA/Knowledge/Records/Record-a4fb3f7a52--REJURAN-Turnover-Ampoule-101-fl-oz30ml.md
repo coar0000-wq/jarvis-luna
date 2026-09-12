@@ -2,7 +2,7 @@
 title: "Record a4fb3f7a52 · REJURAN-Turnover-Ampoule-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:08.020051+00:00
+updated_at: 2026-09-12T05:23:41.436737+00:00
 tags: [record, real-data]
 ---
 

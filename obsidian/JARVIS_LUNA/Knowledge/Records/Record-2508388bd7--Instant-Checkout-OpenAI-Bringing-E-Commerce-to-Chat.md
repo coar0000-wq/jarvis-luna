@@ -2,7 +2,7 @@
 title: "Record 2508388bd7 · Instant-Checkout-OpenAI-Bringing-E-Commerce-to-ChatGPT---AI-Magazine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.850419+00:00
+updated_at: 2026-09-12T05:23:41.288540+00:00
 tags: [record, real-data]
 ---
 

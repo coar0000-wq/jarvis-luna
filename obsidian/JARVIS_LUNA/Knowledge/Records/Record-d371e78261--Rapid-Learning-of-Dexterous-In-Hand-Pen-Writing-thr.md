@@ -2,7 +2,7 @@
 title: "Record d371e78261 · Rapid-Learning-of-Dexterous-In-Hand-Pen-Writing-through-Real-Time-Jaco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.465899+00:00
+updated_at: 2026-09-12T05:23:40.979402+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 89caee9600 · Bayesian-thermal-digital-twin-for-a-space-habitat-subjected-to-an-impa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T04:37:07.400250+00:00
+updated_at: 2026-09-12T05:23:40.916307+00:00
 tags: [record, real-data]
 ---
 

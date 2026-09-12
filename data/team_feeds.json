@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-11T22:37:11.186681+00:00",
+  "generated_at": "2026-09-12T05:16:53.343605+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2090,
+  "pool_size": 2093,
   "제목없어_버림": 38,
-  "unrouted": 10,
+  "unrouted": 9,
   "summary": {
     "sourcing": {
-      "total": 221,
-      "recent": 220
+      "total": 224,
+      "recent": 223
     },
     "market": {
-      "total": 447,
-      "recent": 43
+      "total": 446,
+      "recent": 38
     },
     "listing": {
       "total": 13,
@@ -25,23 +25,23 @@
     },
     "legal": {
       "total": 115,
-      "recent": 19
+      "recent": 17
     },
     "design": {
       "total": 359,
-      "recent": 102
+      "recent": 98
     },
     "robotics": {
       "total": 109,
-      "recent": 77
+      "recent": 76
     },
     "knowledge": {
-      "total": 155,
+      "total": 156,
       "recent": 53
     },
     "institutions": {
       "total": 1061,
-      "recent": 286
+      "recent": 282
     }
   },
   "fda_failures": [],
@@ -56,420 +56,420 @@
         "title": "2080 닥터크리닉 잇몸 치약 120 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044428",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "2080 파워쉴드 플러스 치약 130 gX3개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044430",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "A 초미세모 칫솔 2개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030674",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "더블 라인 치실 50개입 420D",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1047504",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "디즈니 칫솔 캡",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1022934",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "스테인리스 칫솔 치약 스탠드",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051565",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "원터치 케이스 치실 100P",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=98800",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "일본제 타나베 장인 칫솔 미세모 2개입 핑크그린",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=10530041",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "작은 헤드 미세모 칫솔 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042265",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "토끼모양 어린이 칫솔 3개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030673",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "페리오 토탈7 메디컬 허브 바질",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1031990",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "페리오 펌핑치약 쿨민트 285 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1010376",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "페리오46CM 구강스프레이 6.2ml (쿨민트)",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=60729",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "SNP 프렙 팔자 주름패치 12개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072420",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "[영양광채버블]VT 프로그로스 버블 스파클링 부스터 10 g 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049294",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "[진정수분버블]VT 시카 버블 스파클링 부스터 10 g 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049295",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "[펫] 퍼팩트 미니 비트 50g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=69525",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "깔창형 핫팩 2개입 260~280 mm",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059674",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "돌림형 스마트폰 방수팩",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1063312",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "랩잇 by 닥터지 포어 젤리 마스크 50 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061917",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "랩잇 by 닥터지 포어 코팩",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051736",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "리노이아 워터 트리트먼트 200 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061927",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060487",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "본셉 비타씨 젤리 마스크 1매 23 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061922",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059832",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "손가락 씌우개 30매입 중형",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1058854",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "스마트폰 방수팩 화이트",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068269",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "스팀베이스 데일리 아이워머 카모마일 향",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060015",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "식물원 병풀 클리어 마스크 시트",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038603",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "안내표지 (마스크를 착용하세요)",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030736",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "에센셜 마스크시트 그린티",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1004153",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "에코팩 유리 저장 용기 230ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027208",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "여행용 간편 롤업 압축팩 25 X 35 cm 2개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=65686",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "이불용 밸브 압축팩 130x100cm",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1009201",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "이불용 밸브 압축팩 90x110cm",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1009199",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "일본제 콤팩트 이중 미세모 칫솔 2개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=913192170",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "정직한실험실 트루랩 엔젤링 워터 트리트먼트 210 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060496",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "제이엠솔루션 B5 히아 모이스처라이징 마스크 30 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038593",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "제일 파프 쿨 5매입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051797",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "참조은 덴탈 마스크 컬러 대형 10매입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038192",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "캐릭터 팩트형 누드 쌍꺼풀 테이프 슬림 156개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1065375",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1032881",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "쿤달 콜라겐 데미지 케어 트리트먼트 150 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060208",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "프리모팩토리 헤어 블리치(2개입/80ml)",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039235",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "핫팩아이마스크1P",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=61773",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "항균 입체 마스크 중형",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1029256",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "3중날 일체형 면도기 2개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042526",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "[프레시시트러스]데일리콤마 오드 퍼퓸 30 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1043653",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "기모조거팬츠(L)(블랙)",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072195",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "남성 구두끈 4개입 브라운",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=99572122",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "남성용 배색 스트라이프 단목 양말",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=55256",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "데일리 조거 팬츠 XL 그레이",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072259",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "도루코 EVE 모이스처 6중날 휴대용 면도기",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061706",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "도루코윈4 시스템 면도기 SET",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1033694",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "디즈니 미키마우스 아동용 내복 상의 레드 M",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1047755",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "라두스 가로선 남성 스니커즈",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=41771",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "면 혼방 파자마 상의 M 핑크",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067763",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       },
       {
         "title": "몬풋 남성 넓은 골지 장목 양말 와인",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059044",
         "pool": "daiso",
-        "date": "2026-09-11",
+        "date": "2026-09-12",
         "by_hand": true
       }
     ],
@@ -580,6 +580,20 @@
         "by_hand": true
       },
       {
+        "title": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - Issuewire.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUGkzV1p3dHozWEE5LWlTdmRreHlfYWhfQUluLUVoRHpDM04yQ0lFMnRzQnJOR1lxemM1TWh2WEYzLU5nWnlkTURmZ3c3N2hYaGs5aFJ1UmNFckQyV1lkOWNIdUxVUHVEY3ByR0tkd09jb0dQYlkyQ0paOW9NRzlldExQSnMwdEZtaDBvTnFPNVFFTktDSzNoVkJwYWlJb1RzZkFDalFVS1pDcGdKMzA2bw?oc=5",
+        "pool": "google",
+        "date": "2026-09-12",
+        "by_hand": false
+      },
+      {
+        "title": "K-Beauty’s U.S. Boom Is Making ‘Korean’ Less of a Differentiator - KoreaTechDesk",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HZ0dkQmFkU3ppdGRTcnRJQXV3TjEyaUNKQ2JqbXVldHpDM1k5UlEyTXAtS2c5NnRYcXhXZ0hWeFlMRkNXX3Bpc200dXI0eUZjUHJFTHMtVUZvb2R2T3VDODk0Qjl6SU9CQzZQbUREM0ZDeFBuc3F4ODhVNm5yZw?oc=5",
+        "pool": "google",
+        "date": "2026-09-12",
+        "by_hand": false
+      },
+      {
         "title": "Wonderbalm steps up global travel retail push for K-beauty-led skincare with Gebr. Heinemann - Moodie Davitt Report",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZTBKRXRfSzJ1dTk5MV9OUkc0NGhuLWd5ek53VGthSEdJY01VSHV4VGFvZEwtVWRvZEFzUEVwMmpOT3JvbENnTGlsZ29nLXUxdUdzbHlaTjZfUlA1NWloSjhfQ08zRDNZMVR4SDBiX00wSFI1cXpLbExISG9QcmgyVTZ4cVBrd0JrQl9RTXpERDVDb05HT1pJOFpQTGtSRE52b05qeEotZ2VwV3h6MkIyZ2ZLSDItenpYc1Rrdjg5dDc?oc=5",
         "pool": "google",
@@ -622,20 +636,6 @@
         "by_hand": false
       },
       {
-        "title": "My beauty routine started to overwhelm me so I replaced it with these two viral K-beauty products - Grazia Daily UK",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVzduZ092dl81cFdySU9Md2pxY0w4Z2FRTlpuOGxudFY3UWVLcWV6UU1qb0VBLXotb0h5bUYtTFNFMWMyYkZNeDhaRVUyQk4teUJpZkMtWHU5VVd4d0JyVXhUelcxVWR4WkVaRTFIZE90RE5JWXh0S1VEbk1FbGtoZFR6b1kzQQ?oc=5",
-        "pool": "google",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Korean Beauty giant TONYMOLY is expanding its Australian footprint into 1,600 stores nationwide - 7NEWS",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNWwxTHE4SlpGN21NSmhwTHBMRlJuUmtUcjg5UUNPTVFCR21IbjdONWRSVUM0Yk1jUTlkc1dNa2s3YWJRX2hsc0FtWF9pY0N2N0lOcEhZOFBjajVCSkVXaUhUb1BXYlFVLWYwMjhOaGJ1aGdBSDJVdVgtdnl2X0hYZGw0RWxHSDc2TjlKLXlYaUNybTF5Vy12TTNzd2ZURmFNUEJCU1JTel9kWUlDcTI0LXZDazN2MHhQTjhOS3hPLUVrZHFSaGtYc2tnZWZRTDJhczFGU9IB2gFBVV95cUxPUVBHX21LaWFhUk5SX0FnWVpjeVlLTmNXWU55NHY1YjV3UlJxNG5EQ0ViaEJMdG5ja1JMODN4TGhxWkFGSTQ2bWJBOU5sYV9XQmU1Q2dIdUdoYmhZMnJ3OWtsQ0djcGRpOENWbWpMb3N0SF8zMEFUWmNpQmxRVWR4M2VKeWkzelF3VE1LamE5bDJDWXpUZ0RacTZRTFRTMmVjeExXODU0ZHNxQ256bmlHQjVHQ21NUGhDem1pb0ZIa0JtTDZYaW9teGphRktiaG4tX0pLc1c0d0xKUQ?oc=5",
-        "pool": "google",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
         "title": "Discounts Allocator Function API developer preview has ended",
         "url": "https://shopify.dev/changelog/discounts-allocator-function-api-developer-preview-has-ended",
         "pool": "design_refs",
@@ -650,7 +650,7 @@
         "by_hand": false
       },
       {
-        "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - trendhunter.com",
+        "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - Trend Hunter",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yd21ockxiN01RTlN0SGRoNWdlcFBFdkpab3JqdXRGUHRIS3NjS1VzR3VDWjhKRmJtaTN4MGlaS0NLUjlVbVRxZE5xY1lqU28yV0dVOTNLby03OUhKVWVuVlg3ZjBVMEkydXc?oc=5",
         "pool": "google",
         "date": "2026-09-09",
@@ -685,7 +685,7 @@
         "by_hand": false
       },
       {
-        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -699,7 +699,7 @@
         "by_hand": false
       },
       {
-        "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - koreajoongangdaily.com",
+        "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - Korea JoongAng Daily",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDhGOE5GQWVncngtaGZBcVkzT0pGcjB4V3dHLUNMMjNoMGJVcjIzWDRjWDJGS3JWWjZ1N1dkN2dfSWpabktCMzd0bXEyNU9TYmtUMUk0VDZlVktNMjh6aER3cTZmdDFnWS1EN1RvOUJDMlNlY0huVlROa0tCUF9RMXNOaGZ5R0NvNEd0UWFjRVhsSmpXZ053WEpfN01zaUNOZExHMm5zLU5OckVKUEktMm5UUTBwT2VyV2dKZUJWNmUtT2xBSklwTHFwN1pzcXVj?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -713,13 +713,6 @@
         "by_hand": false
       },
       {
-        "title": "I'd Pay Double For This K-Beauty Product That's Working Wonders On My Neck Lines - HuffPost",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM3VWZjc2RlRMajZ5MlJUdXp0NjlXb2tpUXdqcklNRzdyWlpXdmZObjFzWGNZVEtGekdtM05mcGxHM19KczUtN00yU0x4NlRMVzhYWWRVLXowR2I4dDgxZXlIWFpNNXVlRjFPWlI1ODUxVXlSUEdYT1ZTeWVWNzd4SlhxdkdHYzdwVHB4N3BLSzRMYUtk0gGaAUFVX3lxTFB2eGlDdHI1bG92Qkc1cUNleVo0SG16OFdtenVLY3o5b1ZldzY3aFY4czdhNVNEOU9NQWFQcFdqajF5U2lockQycm8yNGtjLVZxTm9hYjFBcjdodVlldGRLQ2hYamFXXzh1bnBxdnVfOTVwamYwMTFILUozU1VRcmR3QUpGS0NORkdKVEJVbXM0NTVpTkp2OGF6SlE?oc=5",
-        "pool": "google",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
         "title": "Samsung Medison Expands Women’s Health Diagnostic Portfolio With Launch of Premium Ultrasound ‘HERA Z10’",
         "url": "https://news.samsung.com/global/samsung-medison-expands-womens-health-diagnostic-portfolio-with-launch-of-premium-ultrasound-hera-z10",
         "pool": "institutions",
@@ -727,7 +720,7 @@
         "by_hand": false
       },
       {
-        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -755,6 +748,13 @@
         "by_hand": false
       },
       {
+        "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5",
+        "pool": "google",
+        "date": "2026-09-03",
+        "by_hand": false
+      },
+      {
         "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
         "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5",
         "pool": "google",
@@ -776,22 +776,8 @@
         "by_hand": false
       },
       {
-        "title": "What makes K-beauty Korean? The answer is getting complicated. - koreajoongangdaily.com",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5",
-        "pool": "google",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
         "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - Yahoo",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUTUzUEwwYzIteVlTcng5Zl9GT3hfTElLcWRGTGVXN09lT01icWhVamUwS1BlREI0YmJCTmdDaW9iRVlKQ0hVOGZ2TTFHY2RhdTFaS3UwelgtT3gxeXY3RnBrTE9RTXRySjFDa3BFWVdMSXo4bTRhdFA2QjB4T2EzNUZuRlBUVFJqQjhtS3RLTko5WGJBbmJseEh3?oc=5",
-        "pool": "google",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
-        "title": "Best K-beauty skincare on amazon.ae 2026: Five routine heroes worth knowing - Gulf News",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOek9ucFlYcFdwVjc1VFpoekFDMHpNQklnbUE0a3hUN1ZqNHh0dWlqRmVzUU9ab05MV2I2Y010YWJ2WTZuUThPQ2p0TmJYb2lpRmlyN0pDTHJGRXhPRlNLeG9KdDRkcXJpaUZDcnJnX2RPbG9VOTFXRzVTMWlha1dBbkQ3VHkycXgwUFF5ZU9jNWc4UFI5ZlBJa0MtNElHd2NveUY3WlVKTGJQWkhaRnQwNi1ZQnRrbHPSAccBQVVfeXFMTmF4Tl8td1MwTUpNN2pvM2ZKQVFWcEhOdDJ3Smp1eHpsdmc4cEREcXktS3BieXhSZ0FTbXl0b1F1V2VNSi0xMVVjeVZ5LTVIRFZ5amctWHNBQ014bmtfWmdCWjlieHlpVmpRZG1oR25KU0VyVV84VFRJa2hqS1lvbzIzS1pjQVgtZXVFUXpSTEc0bTlJWVpheEZMMTIxZWZiOHlsaW9TZExlM2tXakNFbUl6dlFJT0JCcFdsXy16SDlPN2wycDBmQQ?oc=5",
         "pool": "google",
         "date": "2026-09-02",
         "by_hand": false
@@ -801,13 +787,6 @@
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQnNfUW9Pdjhhc2ZBejlUV0lWYmZXRW9KeWxSbjJWLWltODYyQnZGTkpzRE9QOVNUamxuTzFSc1VhcktzWGhSVU5xRnI3QlBTS1c1a0lzTHdEUklzYUw0RDdzNFE0X2FUS3VoX1dWSkRuUDQ2Z0NabkJheVZRUXJOSXhsR0hOajNmYTQ4TUtLUHNWSzlTZTRuYlpmc0FtWXAy?oc=5",
         "pool": "google",
         "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
-        "title": "Why Korean Beauty Products Are Appearing in More Mainstream U.S. Stores Than Ever Before - usmagazine.com",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObk9pR1JvZ1I2Q0tPQXVvUHRGU1djM3laSGlMNUc0eldHLVRlYjgwS0dFdllib2l5bFNPWU95Yk56eW0tMDFpZ3hiYVF4RFZnZWlQUUhpZ09mTjFEeVkzaEkzcEZJTVcyYURGQnNtTTZzU1otNWMyOTJHUjVjVlRsSzJMLUt2UG5xXzBpcjB4TTJlUm8waFFwVVNCaGwwU1pnbW5oWkp0WWhRaG9a?oc=5",
-        "pool": "google",
-        "date": "2026-09-01",
         "by_hand": false
       },
       {
@@ -893,6 +872,27 @@
         "pool": "google",
         "date": "2026-08-27",
         "by_hand": false
+      },
+      {
+        "title": "The New Galaxy Z Series Earns Strong Early Reviews From European Consumers",
+        "url": "https://news.samsung.com/global/the-new-galaxy-z-series-earns-strong-early-reviews-from-european-consumers",
+        "pool": "institutions",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "Smoking and vaping trends among active-duty U.S. Navy and Marine Corps personnel: results from the Annual Periodic Health Assessment, 2017-2021",
+        "url": "https://doi.org/10.1093/ntr/ntag188",
+        "pool": "institutions",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - elle.com",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5",
+        "pool": "google",
+        "date": "2026-08-26",
+        "by_hand": false
       }
     ],
     "listing": [
@@ -974,7 +974,7 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - Premium Beauty News",
+        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - premiumbeautynews.com",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5",
         "pool": "google",
         "date": "2026-06-06",
@@ -1090,6 +1090,13 @@
         "by_hand": true
       },
       {
+        "title": "Whole Foods Market Issues Allergy Alert on Undeclared Egg in Cabricharme Cheese",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/whole-foods-market-issues-allergy-alert-undeclared-egg-cabricharme-cheese",
+        "pool": "fda",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
         "title": "Using Automated Vehicles Operational Data to Confirm Safety and Anticipate Threats",
         "url": "https://arxiv.org/abs/2609.11549v1",
         "pool": "robotics",
@@ -1181,7 +1188,7 @@
         "by_hand": false
       },
       {
-        "title": "Frutas y Hortalizas del Sur S.A. Expands Recall to Include One Lot of Great Value Frozen Organic Triple Berry Blend Because of Potential Contamination with Escherichia coli O145:H28 (E. coli O145)",
+        "title": "Frutas y Hortalizas Del Sur S.A. Expands Recall to Include One Lot of Great Value Frozen Organic Triple Berry Blend Because of Potential Contamination with Escherichia Coli 0145 (E. Coli O145)",
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/frutas-y-hortalizas-del-sur-sa-expands-recall-include-one-lot-great-value-frozen-organic-triple",
         "pool": "fda",
         "date": "2026-09-02",
@@ -1246,13 +1253,6 @@
       {
         "title": "Baxter Issues Voluntary Nationwide Recall for One Lot of 70% Dextrose Injection Due to Potential Presence of Particulate Matter",
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/baxter-issues-voluntary-nationwide-recall-one-lot-70-dextrose-injection-due-potential-presence",
-        "pool": "fda",
-        "date": "2026-08-25",
-        "by_hand": false
-      },
-      {
-        "title": "Baxter Issues Voluntary Nationwide Recall for Two Lots of 0.9% Sodium Chloride Injection Due to Potential Presence of Particulate Matter",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/baxter-issues-voluntary-nationwide-recall-two-lots-09-sodium-chloride-injection-due-potential",
         "pool": "fda",
         "date": "2026-08-25",
         "by_hand": false

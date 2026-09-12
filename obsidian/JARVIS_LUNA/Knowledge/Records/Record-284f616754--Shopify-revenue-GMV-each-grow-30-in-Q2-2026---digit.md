@@ -1,18 +1,18 @@
 ---
-title: "Record 284f616754 · Shopify-revenue-GMV-each-grow-30-in-Q2-2026---Digital-Commerce-360"
+title: "Record 284f616754 · Shopify-revenue-GMV-each-grow-30-in-Q2-2026---digitalcommerce360com"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T22:43:21.851297+00:00
+updated_at: 2026-09-12T05:23:41.235457+00:00
 tags: [record, real-data]
 ---
 
-# Record 284f616754 · Shopify-revenue-GMV-each-grow-30-in-Q2-2026---Digital-Commerce-360
+# Record 284f616754 · Shopify-revenue-GMV-each-grow-30-in-Q2-2026---digitalcommerce360com
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMicEFVX3lxTE1tdlhEQ0ZaZmpiTU1NVUZmZW9oOWFhVXFiWE9MOENrUUZGTkY0NG9Bei1RaERoUml3dGF4c01WWHM2eE1vQkhGd1k2SjU1bUFfTElELWt5am5adW9hQ1NwdzVTcXd3S3QtT1RFcVloa0LSAXZBVV95cUxOeU45RGZkYWtvNUFqUE5VVWxfbGoxOC1zN0VkMEtBLXVNbzA1c2p2OTQ2QU9ET1FBOUxlc2hIVGVkY2tWbDA2dkpnQUZKSG92WGptSnQyRjlScmhnSDhlYTNRZG5obUk3SjBpbW1pMWpLa2sxNzZ3?oc=5)
 
-**제목:** Shopify revenue, GMV each grow +30% in Q2 2026 - Digital Commerce 360
+**제목:** Shopify revenue, GMV each grow +30% in Q2 2026 - digitalcommerce360.com
 
-Shopify revenue, GMV each grow +30% in Q2 2026 - Digital Commerce 360
+Shopify revenue, GMV each grow +30% in Q2 2026 - digitalcommerce360.com
 
 **출처:** Source · Google Search
 
