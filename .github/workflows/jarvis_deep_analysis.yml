@@ -1,0 +1,36 @@
+name: JARVIS Deep Analysis
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *'
+  push:
+    paths:
+      - 'product_discovery.py'
+      - 'gosi_collector.py'
+      - 'generate_dashboard_runtime.py'
+      - 'inci_converter.py'
+concurrency:
+  group: jarvis-deep-${{ github.ref }}
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  deep-analysis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install requests beautifulsoup4 || true
+      - run: python gosi_collector.py
+      - run: python product_discovery.py
+      - run: python inci_converter.py
+      - run: python shopify_uploader.py || echo "shopify optional"
+      - run: python generate_dashboard_runtime.py
+      - run: |
+          git config user.name "JARVIS"
+          git config user.email "jarvis@luna.bot"
+          git add -A
+          git commit -m "feat: JARVIS Deep Analysis - $(date +%Y-%m-%d) - auto" || echo "nothing"
+          git push origin main
