@@ -2,7 +2,7 @@
 title: "Record f0ca567bc0 · How-Peach--Lily-Helped-Build-K-Beautys-US-Success-Story---BeautyMatter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.706546+00:00
+updated_at: 2026-09-12T20:16:50.086308+00:00
 tags: [record, real-data]
 ---
 

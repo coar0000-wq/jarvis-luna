@@ -2,7 +2,7 @@
 title: "Record 13db15169b · gimmicky-or-result-driven-skincare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:19.053633+00:00
+updated_at: 2026-09-12T20:16:50.455785+00:00
 tags: [record, real-data]
 ---
 

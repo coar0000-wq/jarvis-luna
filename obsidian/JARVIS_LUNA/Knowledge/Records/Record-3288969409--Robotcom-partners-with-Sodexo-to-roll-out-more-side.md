@@ -2,7 +2,7 @@
 title: "Record 3288969409 · Robotcom-partners-with-Sodexo-to-roll-out-more-sidewalk-delivery-robot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:19.014986+00:00
+updated_at: 2026-09-12T20:16:50.416984+00:00
 tags: [record, real-data]
 ---
 

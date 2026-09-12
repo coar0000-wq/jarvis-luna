@@ -2,7 +2,7 @@
 title: "Record 577a6d1291 · How-DNA-forensics-is-transforming-studies-of-ancient-manuscripts"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.485496+00:00
+updated_at: 2026-09-12T20:16:49.816237+00:00
 tags: [record, real-data]
 ---
 

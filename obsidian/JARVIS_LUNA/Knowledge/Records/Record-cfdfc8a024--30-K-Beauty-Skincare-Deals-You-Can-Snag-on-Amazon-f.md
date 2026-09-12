@@ -2,7 +2,7 @@
 title: "Record cfdfc8a024 · 30-K-Beauty-Skincare-Deals-You-Can-Snag-on-Amazon-for-Up-to-50-Off-Rig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.736093+00:00
+updated_at: 2026-09-12T20:16:50.120416+00:00
 tags: [record, real-data]
 ---
 

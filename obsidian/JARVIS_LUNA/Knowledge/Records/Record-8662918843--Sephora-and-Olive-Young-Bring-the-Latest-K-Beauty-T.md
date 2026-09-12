@@ -2,7 +2,7 @@
 title: "Record 8662918843 · Sephora-and-Olive-Young-Bring-the-Latest-K-Beauty-Trends-Closer-to-Sou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.818544+00:00
+updated_at: 2026-09-12T20:16:50.207337+00:00
 tags: [record, real-data]
 ---
 

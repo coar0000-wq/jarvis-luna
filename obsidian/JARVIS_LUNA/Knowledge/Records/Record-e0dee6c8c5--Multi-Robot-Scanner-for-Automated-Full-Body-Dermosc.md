@@ -2,7 +2,7 @@
 title: "Record e0dee6c8c5 · Multi-Robot-Scanner-for-Automated-Full-Body-Dermoscopic-Imaging"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.415132+00:00
+updated_at: 2026-09-12T20:16:49.734790+00:00
 tags: [record, real-data]
 ---
 

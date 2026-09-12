@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T16:52:15.313043+00:00",
+  "generated_at": "2026-09-12T20:15:43.484654+00:00",
   "discovery_mode": "seed_catalog_plus_health_probe",
   "candidate_count": 18,
   "verified_count": 9,
@@ -18,7 +18,7 @@
       "content_length": 14490,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-12T16:51:56.996766+00:00"
+      "checked_at": "2026-09-12T20:15:23.579955+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -30,10 +30,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.google.com/shopping",
-      "content_length": 113484,
+      "content_length": 113479,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-12T16:52:15.056825+00:00"
+      "checked_at": "2026-09-12T20:15:43.142229+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -48,7 +48,7 @@
       "content_length": 172023,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-12T16:51:57.691474+00:00"
+      "checked_at": "2026-09-12T20:15:24.401870+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -60,10 +60,10 @@
       "reachable": false,
       "status_code": 403,
       "final_url": "https://www.sephora.com/beauty",
-      "content_length": 373,
+      "content_length": 375,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-12T16:51:58.661750+00:00"
+      "checked_at": "2026-09-12T20:15:26.191340+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -75,10 +75,10 @@
       "reachable": false,
       "status_code": 403,
       "final_url": "https://www.bls.gov/data/",
-      "content_length": 1325,
+      "content_length": 1323,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-12T16:51:56.796504+00:00"
+      "checked_at": "2026-09-12T20:15:23.244687+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -90,10 +90,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.census.gov/data.html",
-      "content_length": 512963,
+      "content_length": 513073,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-12T16:51:56.723556+00:00"
+      "checked_at": "2026-09-12T20:15:23.154834+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -105,10 +105,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://data.un.org/",
-      "content_length": 88835,
+      "content_length": 88283,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-12T16:51:58.253230+00:00"
+      "checked_at": "2026-09-12T20:15:25.651191+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -123,7 +123,7 @@
       "content_length": 72037,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-12T16:51:57.859354+00:00"
+      "checked_at": "2026-09-12T20:15:25.180144+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -138,7 +138,7 @@
       "content_length": 191823,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-12T16:51:57.091867+00:00"
+      "checked_at": "2026-09-12T20:15:23.716181+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -153,7 +153,7 @@
       "content_length": 1832,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-12T16:51:58.409018+00:00"
+      "checked_at": "2026-09-12T20:15:25.758211+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -168,7 +168,7 @@
       "content_length": 776,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-12T16:51:58.503547+00:00"
+      "checked_at": "2026-09-12T20:15:25.968842+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -183,7 +183,7 @@
       "content_length": 190240,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-12T16:52:15.313006+00:00"
+      "checked_at": "2026-09-12T20:15:43.484598+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -195,10 +195,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://trends.google.com/trends/",
-      "content_length": 771649,
+      "content_length": 771648,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-12T16:52:15.228269+00:00"
+      "checked_at": "2026-09-12T20:15:43.398451+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -210,10 +210,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.instacart.com/",
-      "content_length": 442127,
+      "content_length": 988920,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-12T16:52:14.886563+00:00"
+      "checked_at": "2026-09-12T20:15:42.930838+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -226,7 +226,7 @@
       "status_code": null,
       "error": "ReadTimeout: HTTPSConnectionPool(host='www.kroger.com', port=443): Read timed out. (read timeout=15)",
       "status": "unverified",
-      "checked_at": "2026-09-12T16:52:14.223912+00:00"
+      "checked_at": "2026-09-12T20:15:41.951009+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -241,7 +241,7 @@
       "content_length": 9901,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-12T16:51:59.120722+00:00"
+      "checked_at": "2026-09-12T20:15:26.846358+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -253,10 +253,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.nordstrom.com/browse/beauty",
-      "content_length": 254930,
+      "content_length": 250938,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-12T16:51:58.988341+00:00"
+      "checked_at": "2026-09-12T20:15:26.663743+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -271,7 +271,7 @@
       "content_length": 782,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-12T16:51:58.805026+00:00"
+      "checked_at": "2026-09-12T20:15:26.403961+00:00"
     }
   ],
   "next_expansion_queries": [

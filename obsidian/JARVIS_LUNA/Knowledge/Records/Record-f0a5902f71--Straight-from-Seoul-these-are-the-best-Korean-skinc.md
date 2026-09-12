@@ -2,7 +2,7 @@
 title: "Record f0a5902f71 · Straight-from-Seoul-these-are-the-best-Korean-skincare-products-worth-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.694659+00:00
+updated_at: 2026-09-12T20:16:50.071199+00:00
 tags: [record, real-data]
 ---
 

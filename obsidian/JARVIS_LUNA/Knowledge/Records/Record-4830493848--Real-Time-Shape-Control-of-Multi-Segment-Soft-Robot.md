@@ -2,7 +2,7 @@
 title: "Record 4830493848 · Real-Time-Shape-Control-of-Multi-Segment-Soft-Robotic-Arms-Using-Koopm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.365275+00:00
+updated_at: 2026-09-12T20:16:49.676479+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T16:45:50.734570+00:00",
+  "generated_at": "2026-09-12T20:09:39.087841+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -141,9 +141,9 @@
     {
       "video_id": "GGg61sdEjeI",
       "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-      "views_text": "202K views",
+      "views_text": "203K views",
       "published_text": "2 weeks ago",
-      "views": 202000,
+      "views": 203000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -202,7 +202,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-12T16:45:40.373278+00:00",
+      "last_ok_at": "2026-09-12T20:09:28.768476+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -211,14 +211,14 @@
       "subscribers": "122K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-12T16:45:40.373301+00:00",
+      "checked_at": "2026-09-12T20:09:28.768499+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
           "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-          "views_text": "202K views",
+          "views_text": "203K views",
           "published_text": "2 weeks ago",
-          "views": 202000,
+          "views": 203000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -469,7 +469,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-12T16:45:45.734359+00:00",
+      "last_ok_at": "2026-09-12T20:09:34.087647+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -478,7 +478,7 @@
       "subscribers": "18.3K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-12T16:45:45.734377+00:00",
+      "checked_at": "2026-09-12T20:09:34.087663+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
@@ -583,9 +583,9 @@
         {
           "video_id": "s04NYW3nOxA",
           "title": "🔑 브랜딩 잘하면 영업 안 해도 됩니다 | MD가 먼저 연락 오는 브랜드, 뭐가 다를까요",
-          "views_text": "89K views",
+          "views_text": "90K views",
           "published_text": "3 months ago",
-          "views": 89000,
+          "views": 90000,
           "url": "https://www.youtube.com/watch?v=s04NYW3nOxA",
           "channel": "땡스큐레이터",
           "teams": [
@@ -644,9 +644,9 @@
         {
           "video_id": "4ru4xgZfDPA",
           "title": "VLOG 직장인 브이로그ㅣ 연남동 퇴근길😍 콤콤오락실,달링스푼,스튜디오그림비,오월상점,소이연남,동백양과점,소품샵,카페투어ㅣ퇴근길 브이로그❤️",
-          "views_text": "570 views",
+          "views_text": "571 views",
           "published_text": "6 years ago",
-          "views": 570,
+          "views": 571,
           "url": "https://www.youtube.com/watch?v=4ru4xgZfDPA",
           "channel": "땡스큐레이터",
           "teams": [

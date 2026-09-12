@@ -2,7 +2,7 @@
 title: "Record f006f6df64 · Serum-Tumor-Markers-and-Outcomes-in-Patients-With-Appendiceal-Adenocar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.450631+00:00
+updated_at: 2026-09-12T20:16:49.775880+00:00
 tags: [record, real-data]
 ---
 

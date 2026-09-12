@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-12T16:47:16.491930+00:00",
+  "collected_at": "2026-09-12T20:10:38.884330+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -60,14 +60,6 @@
       "score": 3
     },
     {
-      "keyword": "care",
-      "score": 3
-    },
-    {
-      "keyword": "cleansing",
-      "score": 3
-    },
-    {
       "keyword": "here",
       "score": 2
     },
@@ -76,11 +68,19 @@
       "score": 2
     },
     {
-      "keyword": "review",
+      "keyword": "numbuzin",
+      "score": 2
+    },
+    {
+      "keyword": "toner",
       "score": 2
     },
     {
       "keyword": "skincare",
+      "score": 2
+    },
+    {
+      "keyword": "review",
       "score": 2
     },
     {
@@ -104,15 +104,7 @@
       "score": 2
     },
     {
-      "keyword": "aging",
-      "score": 2
-    },
-    {
       "keyword": "korean",
-      "score": 2
-    },
-    {
-      "keyword": "oil",
       "score": 2
     },
     {
@@ -132,7 +124,15 @@
       "score": 2
     },
     {
+      "keyword": "care",
+      "score": 2
+    },
+    {
       "keyword": "products",
+      "score": 2
+    },
+    {
+      "keyword": "cleansing",
       "score": 2
     },
     {
@@ -164,47 +164,51 @@
       "score": 1
     },
     {
-      "keyword": "elegance",
+      "keyword": "teso",
       "score": 1
     },
     {
-      "keyword": "paris",
+      "keyword": "life",
       "score": 1
     },
     {
-      "keyword": "gravityless",
+      "keyword": "opening",
       "score": 1
     },
     {
-      "keyword": "worst",
+      "keyword": "60+",
       "score": 1
     },
     {
-      "keyword": "ive",
+      "keyword": "new",
       "score": 1
     },
     {
-      "keyword": "ever",
+      "keyword": "stores",
       "score": 1
     },
     {
-      "keyword": "used",
+      "keyword": "across",
       "score": 1
     },
     {
-      "keyword": "cow",
+      "keyword": "soon",
       "score": 1
     },
     {
-      "keyword": "brand",
+      "keyword": "total",
       "score": 1
     },
     {
-      "keyword": "moist",
+      "keyword": "reformulation",
       "score": 1
     }
   ],
   "beauty_keywords": [
+    {
+      "keyword": "toner",
+      "score": 2
+    },
     {
       "keyword": "skincare",
       "score": 2
@@ -254,6 +258,20 @@
       "feed": "hot"
     },
     {
+      "title": "Teso Life opening 60+ new stores across the US soon",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wehvva/teso_life_opening_60_new_stores_across_the_us_soon/",
+      "published": "2026-09-12T17:01:10+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Numbuzin 3 Toner Total Reformulation!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wehyxu/numbuzin_3_toner_total_reformulation/",
+      "published": "2026-09-12T17:04:15+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Elegance paris gravityless mascara (worst mascara ive ever used)",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1we8o8n/elegance_paris_gravityless_mascara_worst_mascara/",
       "published": "2026-09-12T10:08:33+00:00",
@@ -261,16 +279,16 @@
       "feed": "hot"
     },
     {
-      "title": "Cow Brand Moist Milk – a little review :)",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we3mhb/cow_brand_moist_milk_a_little_review/",
-      "published": "2026-09-12T05:21:27+00:00",
+      "title": "Skincare recommendations in TW",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weepn6/skincare_recommendations_in_tw/",
+      "published": "2026-09-12T14:54:55+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Skincare recommendations in TW",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weepn6/skincare_recommendations_in_tw/",
-      "published": "2026-09-12T14:54:55+00:00",
+      "title": "Cow Brand Moist Milk – a little review :)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we3mhb/cow_brand_moist_milk_a_little_review/",
+      "published": "2026-09-12T05:21:27+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -397,20 +415,6 @@
       "title": "Does anyone here have a numbuzin product/parcel insert?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wd7oyo/does_anyone_here_have_a_numbuzin_productparcel/",
       "published": "2026-09-11T05:59:14+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "How do you finish a sunstick?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcr0iw/how_do_you_finish_a_sunstick/",
-      "published": "2026-09-10T18:11:59+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Deep cut: illi total aging care cleansing oil fragrance",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wd7snl/deep_cut_illi_total_aging_care_cleansing_oil/",
-      "published": "2026-09-11T06:04:34+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

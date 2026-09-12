@@ -2,7 +2,7 @@
 title: "Record ce7beb73a1 · Yes-Korean-Sunscreens-Are-Better-But-Dermatologists-Warn-You-Shouldnt-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.744709+00:00
+updated_at: 2026-09-12T20:16:50.130314+00:00
 tags: [record, real-data]
 ---
 

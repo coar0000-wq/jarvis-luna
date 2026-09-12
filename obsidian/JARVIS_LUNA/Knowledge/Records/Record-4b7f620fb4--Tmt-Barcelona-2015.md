@@ -2,7 +2,7 @@
 title: "Record 4b7f620fb4 · Tmt-Barcelona-2015"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.995055+00:00
+updated_at: 2026-09-12T20:16:50.396276+00:00
 tags: [record, real-data]
 ---
 

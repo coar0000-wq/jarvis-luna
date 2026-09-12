@@ -2,7 +2,7 @@
 title: "Record 3400164120 · K-Beautys-Best-Masks-Are-Helping-Skincare-Fans-Achieve-a-True-Glass-Sk"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.803704+00:00
+updated_at: 2026-09-12T20:16:50.191595+00:00
 tags: [record, real-data]
 ---
 

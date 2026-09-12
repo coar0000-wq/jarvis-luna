@@ -2,7 +2,7 @@
 title: "Record dcae22b9ed · CUA-Universe-A-Scalable-and-Dynamic-Environment-for-Hybrid-GUICLI-Agen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.390542+00:00
+updated_at: 2026-09-12T20:16:49.706106+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 96c26c17c5 · 8-Korean-beauty-launches-and-treatments-we-cant-wait-to-try-silkier-ha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.748931+00:00
+updated_at: 2026-09-12T20:16:50.135358+00:00
 tags: [record, real-data]
 ---
 

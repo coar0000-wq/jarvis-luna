@@ -2,7 +2,7 @@
 title: "Record 63cacd26dc · What-is-menstrual-masking-The-potentially-risky-new-beauty-trend---The"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.823217+00:00
+updated_at: 2026-09-12T20:16:50.212189+00:00
 tags: [record, real-data]
 ---
 

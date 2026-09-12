@@ -2,7 +2,7 @@
 title: "Record b2338188c8 · The-Oriented-Completed-Intrinsic-Closure-Elimination-as-a-Candidate-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.575525+00:00
+updated_at: 2026-09-12T20:16:49.925609+00:00
 tags: [record, real-data]
 ---
 

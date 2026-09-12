@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T16:51:36.651251+00:00",
+  "generated_at": "2026-09-12T20:15:02.364789+00:00",
   "exchange_rate": {
     "usd_to_krw": 1342.53,
     "as_of": "2026-09-12",
@@ -21,8 +21,8 @@
     ]
   },
   "market_benchmark": {
-    "min": 7.84,
-    "p25": 20.0,
+    "min": 4.99,
+    "p25": 20.7,
     "median": 24.7,
     "max": 279.0,
     "n": 100,
@@ -77,6 +77,21 @@
         "block_reason": ""
       },
       {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "qty": 1,
+        "price_usd": 24.99,
+        "unit_price_usd": 24.99,
+        "landed_cost_total_usd": 7.98,
+        "fee_usd": 1.85,
+        "net_profit_usd": 15.16,
+        "margin_pct": 60.7,
+        "market_median_usd": 24.7,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
         "pd_no": "1049271",
         "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
         "qty": 1,
@@ -92,15 +107,15 @@
         "block_reason": ""
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "pd_no": "1053482",
+        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
         "qty": 1,
         "price_usd": 24.99,
         "unit_price_usd": 24.99,
-        "landed_cost_total_usd": 12.05,
+        "landed_cost_total_usd": 12.8,
         "fee_usd": 1.85,
-        "net_profit_usd": 11.09,
-        "margin_pct": 44.4,
+        "net_profit_usd": 10.34,
+        "margin_pct": 41.4,
         "market_median_usd": 24.7,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
@@ -116,21 +131,6 @@
         "fee_usd": 1.85,
         "net_profit_usd": 12.59,
         "margin_pct": 50.4,
-        "market_median_usd": 24.7,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
-        "landed_cost_total_usd": 7.98,
-        "fee_usd": 1.85,
-        "net_profit_usd": 15.16,
-        "margin_pct": 60.7,
         "market_median_usd": 24.7,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
@@ -184,6 +184,21 @@
         "block_reason": ""
       },
       {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "qty": 2,
+        "price_usd": 41.99,
+        "unit_price_usd": 21.0,
+        "landed_cost_total_usd": 10.44,
+        "fee_usd": 3.11,
+        "net_profit_usd": 28.44,
+        "margin_pct": 67.7,
+        "market_median_usd": 24.7,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
         "pd_no": "1049271",
         "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
         "qty": 2,
@@ -199,15 +214,15 @@
         "block_reason": ""
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "pd_no": "1053482",
+        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
         "qty": 2,
         "price_usd": 41.99,
         "unit_price_usd": 21.0,
-        "landed_cost_total_usd": 19.32,
+        "landed_cost_total_usd": 20.74,
         "fee_usd": 3.11,
-        "net_profit_usd": 19.56,
-        "margin_pct": 46.6,
+        "net_profit_usd": 18.14,
+        "margin_pct": 43.2,
         "market_median_usd": 24.7,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
@@ -223,21 +238,6 @@
         "fee_usd": 3.11,
         "net_profit_usd": 23.3,
         "margin_pct": 55.5,
-        "market_median_usd": 24.7,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
-        "landed_cost_total_usd": 10.44,
-        "fee_usd": 3.11,
-        "net_profit_usd": 28.44,
-        "margin_pct": 67.7,
         "market_median_usd": 24.7,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
@@ -264,11 +264,11 @@
       "discount_pct": 0,
       "price_usd": 24.99,
       "unit_price_usd": 24.99,
-      "landed_cost_total_usd": 11.25,
-      "shipping_in_cost_usd": 7.34,
+      "landed_cost_total_usd": 11.36,
+      "shipping_in_cost_usd": 7.44,
       "fee_usd": 1.85,
-      "net_profit_usd": 11.89,
-      "margin_pct": 47.6,
+      "net_profit_usd": 11.78,
+      "margin_pct": 47.1,
       "free_shipping": false,
       "orders_for_500usd": 42,
       "price_basis": "상품별 권장가의 중앙값",
@@ -282,11 +282,11 @@
       "discount_pct": 15,
       "price_usd": 41.99,
       "unit_price_usd": 21.0,
-      "landed_cost_total_usd": 16.74,
-      "shipping_in_cost_usd": 8.91,
+      "landed_cost_total_usd": 16.94,
+      "shipping_in_cost_usd": 9.11,
       "fee_usd": 3.11,
-      "net_profit_usd": 22.15,
-      "margin_pct": 52.7,
+      "net_profit_usd": 21.94,
+      "margin_pct": 52.3,
       "free_shipping": true,
       "orders_for_500usd": 23,
       "price_basis": "상품별 권장가의 중앙값",
@@ -329,10 +329,10 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 7.22,
-          "margin_pct": 36.1
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.87,
+          "margin_pct": 38.0
         },
         "at_market_median": {
           "sell": 24.7,
@@ -349,7 +349,7 @@
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
@@ -372,10 +372,10 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 7.22,
-          "margin_pct": 36.1
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.87,
+          "margin_pct": 38.0
         },
         "at_market_median": {
           "sell": 24.7,
@@ -392,7 +392,7 @@
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
@@ -415,16 +415,59 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 7.97,
-          "margin_pct": 39.9
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 8.62,
+          "margin_pct": 41.6
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
           "profit": 12.32,
           "margin_pct": 49.9
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.7,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 90,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.49,
+        "shipping_unit_usd": 6.26,
+        "shipping_order_usd": 6.26,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.98,
+        "landed_cost_ddu_usd": 7.98,
+        "landed_cost_ddp_usd": 7.75,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.61,
+        "at_2_2x": {
+          "sell": 3.28,
+          "fee": 0.24,
+          "profit": -4.94,
+          "margin_pct": -150.8
+        },
+        "at_market_p25": {
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.19,
+          "margin_pct": 54.1
+        },
+        "at_market_median": {
+          "sell": 24.7,
+          "fee": 1.83,
+          "profit": 14.89,
+          "margin_pct": 60.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -458,10 +501,10 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 3.48,
-          "margin_pct": 17.4
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 4.13,
+          "margin_pct": 19.9
         },
         "at_market_median": {
           "sell": 24.7,
@@ -475,42 +518,42 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "pd_no": "1053482",
+        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
         "bucket": "스킨케어",
-        "shopify_score": 88,
+        "shopify_score": 86,
         "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
         "weight_source": "estimated",
         "weigh_needed": false,
         "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 7.77,
-        "shipping_order_usd": 7.77,
+        "shipping_unit_usd": 8.52,
+        "shipping_order_usd": 8.52,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 12.05,
-        "landed_cost_ddu_usd": 12.05,
-        "landed_cost_ddp_usd": 11.49,
+        "landed_cost_usd": 12.8,
+        "landed_cost_ddu_usd": 12.8,
+        "landed_cost_ddp_usd": 12.25,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 13.01,
+        "breakeven_usd": 13.83,
         "at_2_2x": {
           "sell": 8.19,
           "fee": 0.61,
-          "profit": -4.46,
-          "margin_pct": -54.5
+          "profit": -5.22,
+          "margin_pct": -63.7
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 6.47,
-          "margin_pct": 32.3
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 6.36,
+          "margin_pct": 30.7
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
-          "profit": 10.82,
-          "margin_pct": 43.8
+          "profit": 10.07,
+          "margin_pct": 40.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -521,7 +564,7 @@
         "pd_no": "1045421",
         "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
         "bucket": "스킨케어",
-        "shopify_score": 88,
+        "shopify_score": 85,
         "price_krw": 5000,
         "weight_g_est": 64,
         "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
@@ -544,59 +587,16 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 7.97,
-          "margin_pct": 39.9
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 8.62,
+          "margin_pct": 41.6
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
           "profit": 12.32,
           "margin_pct": 49.9
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 87,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 1.49,
-        "shipping_unit_usd": 6.26,
-        "shipping_order_usd": 6.26,
-        "tariff_usd": 0.22,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.98,
-        "landed_cost_ddu_usd": 7.98,
-        "landed_cost_ddp_usd": 7.75,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.61,
-        "at_2_2x": {
-          "sell": 3.28,
-          "fee": 0.24,
-          "profit": -4.94,
-          "margin_pct": -150.8
-        },
-        "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 10.54,
-          "margin_pct": 52.7
-        },
-        "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 14.89,
-          "margin_pct": 60.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -632,10 +632,10 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 10.35,
-          "margin_pct": 51.8
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.0,
+          "margin_pct": 53.1
         },
         "at_market_median": {
           "sell": 24.7,
@@ -652,7 +652,7 @@
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
@@ -675,10 +675,10 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 10.35,
-          "margin_pct": 51.8
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.0,
+          "margin_pct": 53.1
         },
         "at_market_median": {
           "sell": 24.7,
@@ -695,7 +695,7 @@
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
@@ -718,16 +718,59 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 10.73,
-          "margin_pct": 53.6
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.38,
+          "margin_pct": 55.0
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
           "profit": 15.08,
           "margin_pct": 61.1
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.7,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 90,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.49,
+        "shipping_unit_usd": 3.51,
+        "shipping_order_usd": 7.02,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.22,
+        "landed_cost_ddu_usd": 5.22,
+        "landed_cost_ddp_usd": 5.0,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 5.64,
+        "at_2_2x": {
+          "sell": 3.28,
+          "fee": 0.24,
+          "profit": -2.19,
+          "margin_pct": -66.7
+        },
+        "at_market_p25": {
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 13.95,
+          "margin_pct": 67.4
+        },
+        "at_market_median": {
+          "sell": 24.7,
+          "fee": 1.83,
+          "profit": 17.65,
+          "margin_pct": 71.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -761,10 +804,10 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 6.74,
-          "margin_pct": 33.7
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.39,
+          "margin_pct": 35.7
         },
         "at_market_median": {
           "sell": 24.7,
@@ -778,42 +821,42 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "pd_no": "1053482",
+        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
         "bucket": "스킨케어",
-        "shopify_score": 88,
+        "shopify_score": 86,
         "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
         "weight_source": "estimated",
         "weigh_needed": false,
         "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 5.38,
-        "shipping_order_usd": 10.76,
+        "shipping_unit_usd": 6.09,
+        "shipping_order_usd": 12.17,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 9.66,
-        "landed_cost_ddu_usd": 9.66,
-        "landed_cost_ddp_usd": 9.1,
+        "landed_cost_usd": 10.37,
+        "landed_cost_ddu_usd": 10.37,
+        "landed_cost_ddp_usd": 9.81,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.43,
+        "breakeven_usd": 11.2,
         "at_2_2x": {
           "sell": 8.19,
           "fee": 0.61,
-          "profit": -2.07,
-          "margin_pct": -25.3
+          "profit": -2.78,
+          "margin_pct": -33.9
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 8.86,
-          "margin_pct": 44.3
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 8.8,
+          "margin_pct": 42.5
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
-          "profit": 13.21,
-          "margin_pct": 53.5
+          "profit": 12.5,
+          "margin_pct": 50.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -824,7 +867,7 @@
         "pd_no": "1045421",
         "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
         "bucket": "스킨케어",
-        "shopify_score": 88,
+        "shopify_score": 85,
         "price_krw": 5000,
         "weight_g_est": 64,
         "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
@@ -847,59 +890,16 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 10.73,
-          "margin_pct": 53.6
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.38,
+          "margin_pct": 55.0
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
           "profit": 15.08,
           "margin_pct": 61.1
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 87,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 1.49,
-        "shipping_unit_usd": 3.51,
-        "shipping_order_usd": 7.02,
-        "tariff_usd": 0.22,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 5.22,
-        "landed_cost_ddu_usd": 5.22,
-        "landed_cost_ddp_usd": 5.0,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.64,
-        "at_2_2x": {
-          "sell": 3.28,
-          "fee": 0.24,
-          "profit": -2.19,
-          "margin_pct": -66.7
-        },
-        "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 13.3,
-          "margin_pct": 66.5
-        },
-        "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 17.65,
-          "margin_pct": 71.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -937,10 +937,10 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 7.22,
-          "margin_pct": 36.1
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.87,
+          "margin_pct": 38.0
         },
         "at_market_median": {
           "sell": 24.7,
@@ -957,7 +957,7 @@
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
@@ -980,10 +980,10 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 7.22,
-          "margin_pct": 36.1
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.87,
+          "margin_pct": 38.0
         },
         "at_market_median": {
           "sell": 24.7,
@@ -1000,7 +1000,7 @@
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
@@ -1023,16 +1023,59 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 7.97,
-          "margin_pct": 39.9
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 8.62,
+          "margin_pct": 41.6
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
           "profit": 12.32,
           "margin_pct": 49.9
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.7,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 90,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.49,
+        "shipping_unit_usd": 6.26,
+        "shipping_order_usd": 6.26,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.98,
+        "landed_cost_ddu_usd": 7.98,
+        "landed_cost_ddp_usd": 7.75,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.61,
+        "at_2_2x": {
+          "sell": 3.28,
+          "fee": 0.24,
+          "profit": -4.94,
+          "margin_pct": -150.8
+        },
+        "at_market_p25": {
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.19,
+          "margin_pct": 54.1
+        },
+        "at_market_median": {
+          "sell": 24.7,
+          "fee": 1.83,
+          "profit": 14.89,
+          "margin_pct": 60.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -1066,10 +1109,10 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 3.48,
-          "margin_pct": 17.4
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 4.13,
+          "margin_pct": 19.9
         },
         "at_market_median": {
           "sell": 24.7,
@@ -1083,42 +1126,42 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "pd_no": "1053482",
+        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
         "bucket": "스킨케어",
-        "shopify_score": 88,
+        "shopify_score": 86,
         "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
         "weight_source": "estimated",
         "weigh_needed": false,
         "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 7.77,
-        "shipping_order_usd": 7.77,
+        "shipping_unit_usd": 8.52,
+        "shipping_order_usd": 8.52,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 12.05,
-        "landed_cost_ddu_usd": 12.05,
-        "landed_cost_ddp_usd": 11.49,
+        "landed_cost_usd": 12.8,
+        "landed_cost_ddu_usd": 12.8,
+        "landed_cost_ddp_usd": 12.25,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 13.01,
+        "breakeven_usd": 13.83,
         "at_2_2x": {
           "sell": 8.19,
           "fee": 0.61,
-          "profit": -4.46,
-          "margin_pct": -54.5
+          "profit": -5.22,
+          "margin_pct": -63.7
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 6.47,
-          "margin_pct": 32.3
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 6.36,
+          "margin_pct": 30.7
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
-          "profit": 10.82,
-          "margin_pct": 43.8
+          "profit": 10.07,
+          "margin_pct": 40.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -1129,7 +1172,7 @@
         "pd_no": "1045421",
         "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
         "bucket": "스킨케어",
-        "shopify_score": 88,
+        "shopify_score": 85,
         "price_krw": 5000,
         "weight_g_est": 64,
         "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
@@ -1152,59 +1195,16 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 7.97,
-          "margin_pct": 39.9
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 8.62,
+          "margin_pct": 41.6
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
           "profit": 12.32,
           "margin_pct": 49.9
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 87,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 1.49,
-        "shipping_unit_usd": 6.26,
-        "shipping_order_usd": 6.26,
-        "tariff_usd": 0.22,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.98,
-        "landed_cost_ddu_usd": 7.98,
-        "landed_cost_ddp_usd": 7.75,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.61,
-        "at_2_2x": {
-          "sell": 3.28,
-          "fee": 0.24,
-          "profit": -4.94,
-          "margin_pct": -150.8
-        },
-        "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 10.54,
-          "margin_pct": 52.7
-        },
-        "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 14.89,
-          "margin_pct": 60.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -1240,10 +1240,10 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 10.35,
-          "margin_pct": 51.8
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.0,
+          "margin_pct": 53.1
         },
         "at_market_median": {
           "sell": 24.7,
@@ -1260,7 +1260,7 @@
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
@@ -1283,10 +1283,10 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 10.35,
-          "margin_pct": 51.8
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.0,
+          "margin_pct": 53.1
         },
         "at_market_median": {
           "sell": 24.7,
@@ -1303,7 +1303,7 @@
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
@@ -1326,16 +1326,59 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 10.73,
-          "margin_pct": 53.6
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.38,
+          "margin_pct": 55.0
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
           "profit": 15.08,
           "margin_pct": 61.1
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.7,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 90,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.49,
+        "shipping_unit_usd": 3.51,
+        "shipping_order_usd": 7.02,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.22,
+        "landed_cost_ddu_usd": 5.22,
+        "landed_cost_ddp_usd": 5.0,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 5.64,
+        "at_2_2x": {
+          "sell": 3.28,
+          "fee": 0.24,
+          "profit": -2.19,
+          "margin_pct": -66.7
+        },
+        "at_market_p25": {
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 13.95,
+          "margin_pct": 67.4
+        },
+        "at_market_median": {
+          "sell": 24.7,
+          "fee": 1.83,
+          "profit": 17.65,
+          "margin_pct": 71.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -1369,10 +1412,10 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 6.74,
-          "margin_pct": 33.7
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.39,
+          "margin_pct": 35.7
         },
         "at_market_median": {
           "sell": 24.7,
@@ -1386,42 +1429,42 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "pd_no": "1053482",
+        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
         "bucket": "스킨케어",
-        "shopify_score": 88,
+        "shopify_score": 86,
         "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
         "weight_source": "estimated",
         "weigh_needed": false,
         "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 5.38,
-        "shipping_order_usd": 10.76,
+        "shipping_unit_usd": 6.09,
+        "shipping_order_usd": 12.17,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 9.66,
-        "landed_cost_ddu_usd": 9.66,
-        "landed_cost_ddp_usd": 9.1,
+        "landed_cost_usd": 10.37,
+        "landed_cost_ddu_usd": 10.37,
+        "landed_cost_ddp_usd": 9.81,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.43,
+        "breakeven_usd": 11.2,
         "at_2_2x": {
           "sell": 8.19,
           "fee": 0.61,
-          "profit": -2.07,
-          "margin_pct": -25.3
+          "profit": -2.78,
+          "margin_pct": -33.9
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 8.86,
-          "margin_pct": 44.3
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 8.8,
+          "margin_pct": 42.5
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
-          "profit": 13.21,
-          "margin_pct": 53.5
+          "profit": 12.5,
+          "margin_pct": 50.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -1432,7 +1475,7 @@
         "pd_no": "1045421",
         "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
         "bucket": "스킨케어",
-        "shopify_score": 88,
+        "shopify_score": 85,
         "price_krw": 5000,
         "weight_g_est": 64,
         "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
@@ -1455,59 +1498,16 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 10.73,
-          "margin_pct": 53.6
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.38,
+          "margin_pct": 55.0
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
           "profit": 15.08,
           "margin_pct": 61.1
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 87,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 1.49,
-        "shipping_unit_usd": 3.51,
-        "shipping_order_usd": 7.02,
-        "tariff_usd": 0.22,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 5.22,
-        "landed_cost_ddu_usd": 5.22,
-        "landed_cost_ddp_usd": 5.0,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.64,
-        "at_2_2x": {
-          "sell": 3.28,
-          "fee": 0.24,
-          "profit": -2.19,
-          "margin_pct": -66.7
-        },
-        "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 13.3,
-          "margin_pct": 66.5
-        },
-        "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 17.65,
-          "margin_pct": 71.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -1543,10 +1543,10 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 7.78,
-          "margin_pct": 38.9
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 8.43,
+          "margin_pct": 40.7
         },
         "at_market_median": {
           "sell": 24.7,
@@ -1563,7 +1563,7 @@
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
@@ -1586,10 +1586,10 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 7.78,
-          "margin_pct": 38.9
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 8.43,
+          "margin_pct": 40.7
         },
         "at_market_median": {
           "sell": 24.7,
@@ -1606,7 +1606,7 @@
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
@@ -1629,16 +1629,59 @@
           "margin_pct": -29.3
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 8.53,
-          "margin_pct": 42.7
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 9.18,
+          "margin_pct": 44.3
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
           "profit": 12.88,
           "margin_pct": 52.2
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.7,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 90,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.49,
+        "shipping_unit_usd": 6.26,
+        "shipping_order_usd": 6.26,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 7.75,
+        "landed_cost_ddu_usd": 7.98,
+        "landed_cost_ddp_usd": 7.75,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 8.37,
+        "at_2_2x": {
+          "sell": 3.28,
+          "fee": 0.24,
+          "profit": -4.72,
+          "margin_pct": -144.0
+        },
+        "at_market_p25": {
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.41,
+          "margin_pct": 55.1
+        },
+        "at_market_median": {
+          "sell": 24.7,
+          "fee": 1.83,
+          "profit": 15.12,
+          "margin_pct": 61.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -1672,10 +1715,10 @@
           "margin_pct": -84.1
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 4.04,
-          "margin_pct": 20.2
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 4.69,
+          "margin_pct": 22.6
         },
         "at_market_median": {
           "sell": 24.7,
@@ -1689,42 +1732,42 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "pd_no": "1053482",
+        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
         "bucket": "스킨케어",
-        "shopify_score": 88,
+        "shopify_score": 86,
         "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
         "weight_source": "estimated",
         "weigh_needed": false,
         "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 7.77,
-        "shipping_order_usd": 7.77,
+        "shipping_unit_usd": 8.52,
+        "shipping_order_usd": 8.52,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 11.49,
-        "landed_cost_ddu_usd": 12.05,
-        "landed_cost_ddp_usd": 11.49,
+        "landed_cost_usd": 12.25,
+        "landed_cost_ddu_usd": 12.8,
+        "landed_cost_ddp_usd": 12.25,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 12.41,
+        "breakeven_usd": 13.22,
         "at_2_2x": {
           "sell": 8.19,
           "fee": 0.61,
-          "profit": -3.91,
-          "margin_pct": -47.7
+          "profit": -4.66,
+          "margin_pct": -56.9
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 7.03,
-          "margin_pct": 35.1
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 6.92,
+          "margin_pct": 33.4
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
-          "profit": 11.38,
-          "margin_pct": 46.1
+          "profit": 10.63,
+          "margin_pct": 43.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -1735,7 +1778,7 @@
         "pd_no": "1045421",
         "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
         "bucket": "스킨케어",
-        "shopify_score": 88,
+        "shopify_score": 85,
         "price_krw": 5000,
         "weight_g_est": 64,
         "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
@@ -1758,59 +1801,16 @@
           "margin_pct": -29.3
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 8.53,
-          "margin_pct": 42.7
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 9.18,
+          "margin_pct": 44.3
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
           "profit": 12.88,
           "margin_pct": 52.2
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 87,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 1.49,
-        "shipping_unit_usd": 6.26,
-        "shipping_order_usd": 6.26,
-        "tariff_usd": 0.22,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 7.75,
-        "landed_cost_ddu_usd": 7.98,
-        "landed_cost_ddp_usd": 7.75,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.37,
-        "at_2_2x": {
-          "sell": 3.28,
-          "fee": 0.24,
-          "profit": -4.72,
-          "margin_pct": -144.0
-        },
-        "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 10.77,
-          "margin_pct": 53.8
-        },
-        "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 15.12,
-          "margin_pct": 61.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -1846,10 +1846,10 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 10.91,
-          "margin_pct": 54.6
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.56,
+          "margin_pct": 55.8
         },
         "at_market_median": {
           "sell": 24.7,
@@ -1866,7 +1866,7 @@
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "50ml x 1.6(용기) + 40g(포장) 추정",
@@ -1889,10 +1889,10 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 10.91,
-          "margin_pct": 54.6
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.56,
+          "margin_pct": 55.8
         },
         "at_market_median": {
           "sell": 24.7,
@@ -1909,7 +1909,7 @@
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
@@ -1932,16 +1932,59 @@
           "margin_pct": 4.3
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 11.29,
-          "margin_pct": 56.4
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.94,
+          "margin_pct": 57.7
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
           "profit": 15.64,
           "margin_pct": 63.3
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.7,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 90,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.49,
+        "shipping_unit_usd": 3.51,
+        "shipping_order_usd": 7.02,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 5.0,
+        "landed_cost_ddu_usd": 5.22,
+        "landed_cost_ddp_usd": 5.0,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 5.4,
+        "at_2_2x": {
+          "sell": 3.28,
+          "fee": 0.24,
+          "profit": -1.96,
+          "margin_pct": -59.9
+        },
+        "at_market_p25": {
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 14.17,
+          "margin_pct": 68.5
+        },
+        "at_market_median": {
+          "sell": 24.7,
+          "fee": 1.83,
+          "profit": 17.87,
+          "margin_pct": 72.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -1975,10 +2018,10 @@
           "margin_pct": -44.4
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 7.3,
-          "margin_pct": 36.5
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 7.95,
+          "margin_pct": 38.4
         },
         "at_market_median": {
           "sell": 24.7,
@@ -1992,42 +2035,42 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "pd_no": "1053482",
+        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
         "bucket": "스킨케어",
-        "shopify_score": 88,
+        "shopify_score": 86,
         "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "150ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
         "weight_source": "estimated",
         "weigh_needed": false,
         "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 5.38,
-        "shipping_order_usd": 10.76,
+        "shipping_unit_usd": 6.09,
+        "shipping_order_usd": 12.17,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 9.1,
-        "landed_cost_ddu_usd": 9.66,
-        "landed_cost_ddp_usd": 9.1,
+        "landed_cost_usd": 9.81,
+        "landed_cost_ddu_usd": 10.37,
+        "landed_cost_ddp_usd": 9.81,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 9.83,
+        "breakeven_usd": 10.59,
         "at_2_2x": {
           "sell": 8.19,
           "fee": 0.61,
-          "profit": -1.52,
-          "margin_pct": -18.5
+          "profit": -2.22,
+          "margin_pct": -27.1
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 9.42,
-          "margin_pct": 47.1
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 9.36,
+          "margin_pct": 45.2
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
-          "profit": 13.77,
-          "margin_pct": 55.7
+          "profit": 13.06,
+          "margin_pct": 52.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,
@@ -2038,7 +2081,7 @@
         "pd_no": "1045421",
         "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
         "bucket": "스킨케어",
-        "shopify_score": 88,
+        "shopify_score": 85,
         "price_krw": 5000,
         "weight_g_est": 64,
         "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
@@ -2061,59 +2104,16 @@
           "margin_pct": 4.3
         },
         "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 11.29,
-          "margin_pct": 56.4
+          "sell": 20.7,
+          "fee": 1.53,
+          "profit": 11.94,
+          "margin_pct": 57.7
         },
         "at_market_median": {
           "sell": 24.7,
           "fee": 1.83,
           "profit": 15.64,
           "margin_pct": 63.3
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 87,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "28g x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 1.49,
-        "shipping_unit_usd": 3.51,
-        "shipping_order_usd": 7.02,
-        "tariff_usd": 0.22,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 5.0,
-        "landed_cost_ddu_usd": 5.22,
-        "landed_cost_ddp_usd": 5.0,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.4,
-        "at_2_2x": {
-          "sell": 3.28,
-          "fee": 0.24,
-          "profit": -1.96,
-          "margin_pct": -59.9
-        },
-        "at_market_p25": {
-          "sell": 20.0,
-          "fee": 1.48,
-          "profit": 13.52,
-          "margin_pct": 67.6
-        },
-        "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 17.87,
-          "margin_pct": 72.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 24.7,

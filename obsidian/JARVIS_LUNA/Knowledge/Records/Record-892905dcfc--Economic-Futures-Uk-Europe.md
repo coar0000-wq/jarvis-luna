@@ -2,7 +2,7 @@
 title: "Record 892905dcfc · Economic-Futures-Uk-Europe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.942058+00:00
+updated_at: 2026-09-12T20:16:50.341798+00:00
 tags: [record, real-data]
 ---
 

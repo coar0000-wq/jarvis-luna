@@ -2,7 +2,7 @@
 title: "Record 63ba306570 · UNOVE-Deep-Damage-Repair-Hair-Mask-Tender-Bloom-699-fl-oz207ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.902858+00:00
+updated_at: 2026-09-12T20:16:50.300359+00:00
 tags: [record, real-data]
 ---
 

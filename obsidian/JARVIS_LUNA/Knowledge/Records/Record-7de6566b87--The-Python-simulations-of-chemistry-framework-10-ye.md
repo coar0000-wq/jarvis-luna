@@ -2,7 +2,7 @@
 title: "Record 7de6566b87 · The-Python-simulations-of-chemistry-framework-10-years-of-an-open-sour"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.494111+00:00
+updated_at: 2026-09-12T20:16:49.825897+00:00
 tags: [record, real-data]
 ---
 

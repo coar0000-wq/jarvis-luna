@@ -2,7 +2,7 @@
 title: "Record a386829220 · Seoul-Travel-Haul-All-the-Beauty-Products-I-Brought-Home---The-Daily-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.738686+00:00
+updated_at: 2026-09-12T20:16:50.123382+00:00
 tags: [record, real-data]
 ---
 

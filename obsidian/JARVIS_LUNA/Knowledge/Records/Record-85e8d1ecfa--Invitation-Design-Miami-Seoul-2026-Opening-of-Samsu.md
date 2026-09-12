@@ -2,7 +2,7 @@
 title: "Record 85e8d1ecfa · Invitation-Design-Miami-Seoul-2026-Opening-of-Samsungs-Design-Is-an-Ac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.832847+00:00
+updated_at: 2026-09-12T20:16:50.222444+00:00
 tags: [record, real-data]
 ---
 

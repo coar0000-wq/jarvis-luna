@@ -2,7 +2,7 @@
 title: "Record c617649841 · Unifying-governance-across-engines-and-catalogs-in-the-Open-Lakehouse"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.966981+00:00
+updated_at: 2026-09-12T20:16:50.367551+00:00
 tags: [record, real-data]
 ---
 

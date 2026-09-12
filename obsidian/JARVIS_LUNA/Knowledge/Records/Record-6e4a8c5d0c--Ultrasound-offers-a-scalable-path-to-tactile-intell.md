@@ -2,7 +2,7 @@
 title: "Record 6e4a8c5d0c · Ultrasound-offers-a-scalable-path-to-tactile-intelligence-for-physical"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:19.016704+00:00
+updated_at: 2026-09-12T20:16:50.418728+00:00
 tags: [record, real-data]
 ---
 

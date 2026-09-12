@@ -2,7 +2,7 @@
 title: "Record 81880c68a4 · NMRhub-An-NMR-Data-Ecosystem-Spanning-the-Complete-Data-Lifecycle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.471898+00:00
+updated_at: 2026-09-12T20:16:49.800657+00:00
 tags: [record, real-data]
 ---
 

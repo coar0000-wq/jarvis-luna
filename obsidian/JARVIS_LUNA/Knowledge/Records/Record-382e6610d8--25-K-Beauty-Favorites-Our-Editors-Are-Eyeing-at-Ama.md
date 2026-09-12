@@ -2,7 +2,7 @@
 title: "Record 382e6610d8 · 25-K-Beauty-Favorites-Our-Editors-Are-Eyeing-at-Amazons-Summer-Sale---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.814498+00:00
+updated_at: 2026-09-12T20:16:50.203090+00:00
 tags: [record, real-data]
 ---
 

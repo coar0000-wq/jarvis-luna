@@ -2,7 +2,7 @@
 title: "Record 4cd6c12253 · Hyaluronic-acid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.597854+00:00
+updated_at: 2026-09-12T20:16:49.954091+00:00
 tags: [record, real-data]
 ---
 

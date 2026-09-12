@@ -2,7 +2,7 @@
 title: "Record 8717ce659e · I-Studied-AI-Digital-Products-for-1000-Hours-Only-These-Make-100KMonth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:19.050883+00:00
+updated_at: 2026-09-12T20:16:50.453045+00:00
 tags: [record, real-data]
 ---
 

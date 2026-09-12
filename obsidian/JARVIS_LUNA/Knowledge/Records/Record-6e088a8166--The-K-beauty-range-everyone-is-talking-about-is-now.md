@@ -2,7 +2,7 @@
 title: "Record 6e088a8166 · The-K-beauty-range-everyone-is-talking-about-is-now-in-Echuca---Riveri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.807014+00:00
+updated_at: 2026-09-12T20:16:50.195285+00:00
 tags: [record, real-data]
 ---
 

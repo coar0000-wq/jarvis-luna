@@ -2,7 +2,7 @@
 title: "Record 2896846880 · Moo-Deng-Makeup-Why-Fans-Of-The-Viral-Baby-Hippo-Want-Her-Look---Forbe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.803941+00:00
+updated_at: 2026-09-12T20:16:50.191874+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d70ca999d1 · On-the-Nature-of-Curvature-A-Transport-Based-Ontology-for-Closure-Theo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.573970+00:00
+updated_at: 2026-09-12T20:16:49.923584+00:00
 tags: [record, real-data]
 ---
 

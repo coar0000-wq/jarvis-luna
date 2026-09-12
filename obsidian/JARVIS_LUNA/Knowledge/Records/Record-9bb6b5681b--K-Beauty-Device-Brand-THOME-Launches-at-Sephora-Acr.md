@@ -2,7 +2,7 @@
 title: "Record 9bb6b5681b · K-Beauty-Device-Brand-THOME-Launches-at-Sephora-Across-580-US-Stores--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.828773+00:00
+updated_at: 2026-09-12T20:16:50.217902+00:00
 tags: [record, real-data]
 ---
 

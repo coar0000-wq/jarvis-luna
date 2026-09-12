@@ -2,7 +2,7 @@
 title: "Record d2c30bb7fe · Digital-social-capital-and-performance-of-initial-coin-offerings"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.477823+00:00
+updated_at: 2026-09-12T20:16:49.807567+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1562028630 · News--Retailer-Olive-Youngs-expansion-mirrors-K-beauty-demand-in-US---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.796259+00:00
+updated_at: 2026-09-12T20:16:50.183982+00:00
 tags: [record, real-data]
 ---
 

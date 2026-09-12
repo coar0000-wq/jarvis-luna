@@ -2,7 +2,7 @@
 title: "Record c32298a61c · My-K-Beauty-brings-Korean-skin-care-cosmetics-to-Northwest-Austin---Co"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.821806+00:00
+updated_at: 2026-09-12T20:16:50.210716+00:00
 tags: [record, real-data]
 ---
 

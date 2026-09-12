@@ -2,7 +2,7 @@
 title: "Record 32dd5fbe27 · Moderate-and-Useful-The-Performance-of-Quality-Factor-in-Chinese-Marke"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.529151+00:00
+updated_at: 2026-09-12T20:16:49.867168+00:00
 tags: [record, real-data]
 ---
 

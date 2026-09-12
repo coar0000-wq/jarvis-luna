@@ -2,7 +2,7 @@
 title: "Record b59954e42c · Sephoras-Olive-Young-Partnership-Will-Debut-With-19-K-Beauty-Brands---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.706324+00:00
+updated_at: 2026-09-12T20:16:50.086069+00:00
 tags: [record, real-data]
 ---
 

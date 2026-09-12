@@ -2,7 +2,7 @@
 title: "Record 2cd6a90c5c · How-to-select-the-right-rack-and-pinion-system-for-high-precision-line"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:19.009954+00:00
+updated_at: 2026-09-12T20:16:50.411557+00:00
 tags: [record, real-data]
 ---
 

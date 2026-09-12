@@ -2,7 +2,7 @@
 title: "Record 29f9e61ab4 · 15-Editor-Loved-K-Beauty-Products-on-Major-Prime-Day-Sale---Yahoo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:18.766184+00:00
+updated_at: 2026-09-12T20:16:50.153056+00:00
 tags: [record, real-data]
 ---
 

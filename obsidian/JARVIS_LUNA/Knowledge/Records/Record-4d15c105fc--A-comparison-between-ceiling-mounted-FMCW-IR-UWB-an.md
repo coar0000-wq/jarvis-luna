@@ -2,7 +2,7 @@
 title: "Record 4d15c105fc · A-comparison-between-ceiling-mounted-FMCW-IR-UWB-and-Wi-Fi-radar-for-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T16:53:19.073280+00:00
+updated_at: 2026-09-12T20:16:50.475718+00:00
 tags: [record, real-data]
 ---
 
