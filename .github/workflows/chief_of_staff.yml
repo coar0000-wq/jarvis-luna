@@ -10,9 +10,10 @@ permissions:
 
 # 참모장이 동시에 두 번 실행되어 서로의 결과를 덮지 않도록 한다.
 concurrency:
-  group: chief-of-staff-main
+  # 모든 main 자동 발행 워크플로가 공유하는 잠금 그룹
+  group: main-publish
+  # 실행 중인 데이터 생성은 중단하지 않고 다음 실행을 대기시킨다.
   cancel-in-progress: false
-
 jobs:
   chief-auto-fix:
     runs-on: ubuntu-latest
