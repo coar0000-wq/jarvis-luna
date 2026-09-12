@@ -18,7 +18,6 @@ def validate_gosi_evidence(item: dict) -> bool:
         if not ev.get(k):
             print(f"❌ gosi 증거 없음 {k} - {item.get('title', 'unknown')} 제외")
             return False
-    # URL 형식 간단 검증
     if not ev["source_url"].startswith("http"):
         print(f"❌ source_url 형식 오류")
         return False
@@ -50,9 +49,9 @@ def collect_gosi():
             }
         }
     ]
-    
+
     valid = [item for item in items if validate_gosi_evidence(item)]
-    
+
     if not valid:
         DATA_PATH.write_text(json.dumps({
             "items": [],
@@ -62,7 +61,7 @@ def collect_gosi():
         }, indent=2, ensure_ascii=False), encoding="utf-8")
         print("ℹ️ gosi 유효 데이터 없음 - 숨김 처리")
         return []
-    
+
     DATA_PATH.write_text(json.dumps({
         "items": valid,
         "updated_at": datetime.datetime.utcnow().isoformat() + "Z",
