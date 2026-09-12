@@ -2,7 +2,7 @@
 title: "Record a15e8d4194 · Circulatory-pathology-in-osteoarthritic-subchondral-bone"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.182668+00:00
+updated_at: 2026-09-12T16:53:18.472379+00:00
 tags: [record, real-data]
 ---
 

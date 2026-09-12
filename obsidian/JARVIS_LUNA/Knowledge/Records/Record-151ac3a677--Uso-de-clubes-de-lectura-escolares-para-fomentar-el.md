@@ -2,7 +2,7 @@
 title: "Record 151ac3a677 · Uso-de-clubes-de-lectura-escolares-para-fomentar-el-hábito-lector-en-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.296032+00:00
+updated_at: 2026-09-12T16:53:18.587280+00:00
 tags: [record, real-data]
 ---
 

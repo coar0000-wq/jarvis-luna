@@ -2,7 +2,7 @@
 title: "Record 4f728c7afc · TikTok-beauty-trend-Are-you-cat-fox-deer-or-bunny-lovely---Prestige-On"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.466306+00:00
+updated_at: 2026-09-12T16:53:18.759653+00:00
 tags: [record, real-data]
 ---
 

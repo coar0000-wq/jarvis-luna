@@ -2,7 +2,7 @@
 title: "Record 77d87de891 · The-Global-Asymptotic-Stability-Problem-for-Linear-MPC-Is-Undecidable"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.121224+00:00
+updated_at: 2026-09-12T16:53:18.412185+00:00
 tags: [record, real-data]
 ---
 

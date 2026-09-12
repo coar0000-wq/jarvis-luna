@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-12T13:23:40.551300+00:00",
+  "collected_at": "2026-09-12T16:47:16.491930+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -56,19 +56,15 @@
       "score": 3
     },
     {
+      "keyword": "cream",
+      "score": 3
+    },
+    {
       "keyword": "care",
       "score": 3
     },
     {
-      "keyword": "products",
-      "score": 3
-    },
-    {
       "keyword": "cleansing",
-      "score": 3
-    },
-    {
-      "keyword": "balm",
       "score": 3
     },
     {
@@ -84,7 +80,7 @@
       "score": 2
     },
     {
-      "keyword": "cream",
+      "keyword": "skincare",
       "score": 2
     },
     {
@@ -93,10 +89,6 @@
     },
     {
       "keyword": "better",
-      "score": 2
-    },
-    {
-      "keyword": "like",
       "score": 2
     },
     {
@@ -112,11 +104,15 @@
       "score": 2
     },
     {
-      "keyword": "oil",
+      "keyword": "aging",
       "score": 2
     },
     {
       "keyword": "korean",
+      "score": 2
+    },
+    {
+      "keyword": "oil",
       "score": 2
     },
     {
@@ -133,6 +129,14 @@
     },
     {
       "keyword": "hair",
+      "score": 2
+    },
+    {
+      "keyword": "products",
+      "score": 2
+    },
+    {
+      "keyword": "balm",
       "score": 2
     },
     {
@@ -198,13 +202,13 @@
     {
       "keyword": "moist",
       "score": 1
-    },
-    {
-      "keyword": "milk",
-      "score": 1
     }
   ],
   "beauty_keywords": [
+    {
+      "keyword": "skincare",
+      "score": 2
+    },
     {
       "keyword": "skin1004",
       "score": 2
@@ -236,9 +240,9 @@
   ],
   "posts": [
     {
-      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 10, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wclwkn/have_a_question_ask_here_alterdaily_help_and/",
-      "published": "2026-09-10T15:09:07+00:00",
+      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 12, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wef2lj/have_a_question_ask_here_alterdaily_help_and/",
+      "published": "2026-09-12T15:09:06+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -264,6 +268,13 @@
       "feed": "hot"
     },
     {
+      "title": "Skincare recommendations in TW",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weepn6/skincare_recommendations_in_tw/",
+      "published": "2026-09-12T14:54:55+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Calling all Missha Perfect Cover BB Cream lovers! Have you found anything better that feels like a true \"next level\"?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdc7hm/calling_all_missha_perfect_cover_bb_cream_lovers/",
       "published": "2026-09-11T10:19:05+00:00",
@@ -278,16 +289,16 @@
       "feed": "hot"
     },
     {
-      "title": "Freshian cream blush",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdkqrd/freshian_cream_blush/",
-      "published": "2026-09-11T16:15:14+00:00",
+      "title": "Well aging cream",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weebhm/well_aging_cream/",
+      "published": "2026-09-12T14:38:21+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "I\"m totally confused :( about SqualAne oil.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we4yll/im_totally_confused_about_squalane_oil/",
-      "published": "2026-09-12T06:33:22+00:00",
+      "title": "Freshian cream blush",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdkqrd/freshian_cream_blush/",
+      "published": "2026-09-11T16:15:14+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -299,9 +310,23 @@
       "feed": "hot"
     },
     {
+      "title": "Bodycare recommendation",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we75mx/bodycare_recommendation/",
+      "published": "2026-09-12T08:38:13+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Korean powder contour",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1we6696/korean_powder_contour/",
       "published": "2026-09-12T07:41:36+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "I\"m totally confused :( about SqualAne oil.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we4yll/im_totally_confused_about_squalane_oil/",
+      "published": "2026-09-12T06:33:22+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -313,9 +338,9 @@
       "feed": "hot"
     },
     {
-      "title": "Bodycare recommendation",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we75mx/bodycare_recommendation/",
-      "published": "2026-09-12T08:38:13+00:00",
+      "title": "Acne pustules",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdmmxy/acne_pustules/",
+      "published": "2026-09-11T17:23:18+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -323,13 +348,6 @@
       "title": "Severe reaction to Some by mi Yuja Niacin serum",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdgk8l/severe_reaction_to_some_by_mi_yuja_niacin_serum/",
       "published": "2026-09-11T13:37:49+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Acne pustules",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdmmxy/acne_pustules/",
-      "published": "2026-09-11T17:23:18+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -393,20 +411,6 @@
       "title": "Deep cut: illi total aging care cleansing oil fragrance",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wd7snl/deep_cut_illi_total_aging_care_cleansing_oil/",
       "published": "2026-09-11T06:04:34+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Ordered a dasique tint off Amazon and recieved a... limited romand Hannah Banhg balm? 😭",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wc2n1b/ordered_a_dasique_tint_off_amazon_and_recieved_a/",
-      "published": "2026-09-09T23:54:46+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Daiso/affordable products that you like?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcbmr4/daisoaffordable_products_that_you_like/",
-      "published": "2026-09-10T07:00:53+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

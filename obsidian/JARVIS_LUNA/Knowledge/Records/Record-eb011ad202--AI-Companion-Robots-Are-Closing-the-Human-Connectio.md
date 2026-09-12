@@ -2,7 +2,7 @@
 title: "Record eb011ad202 · AI-Companion-Robots-Are-Closing-the-Human-Connection-in-Modern-Homes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.584721+00:00
+updated_at: 2026-09-12T16:53:18.891881+00:00
 tags: [record, real-data]
 ---
 

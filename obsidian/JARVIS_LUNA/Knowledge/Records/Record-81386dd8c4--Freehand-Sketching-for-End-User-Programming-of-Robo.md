@@ -2,7 +2,7 @@
 title: "Record 81386dd8c4 · Freehand-Sketching-for-End-User-Programming-of-Robot-Swarms"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.135241+00:00
+updated_at: 2026-09-12T16:53:18.426026+00:00
 tags: [record, real-data]
 ---
 

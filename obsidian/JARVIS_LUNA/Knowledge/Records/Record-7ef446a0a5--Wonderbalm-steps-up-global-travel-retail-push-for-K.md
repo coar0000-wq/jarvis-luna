@@ -2,7 +2,7 @@
 title: "Record 7ef446a0a5 · Wonderbalm-steps-up-global-travel-retail-push-for-K-beauty-led-skincar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.522553+00:00
+updated_at: 2026-09-12T16:53:18.823463+00:00
 tags: [record, real-data]
 ---
 

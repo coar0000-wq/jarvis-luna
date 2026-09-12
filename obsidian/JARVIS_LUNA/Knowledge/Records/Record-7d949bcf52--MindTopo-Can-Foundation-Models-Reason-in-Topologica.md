@@ -2,7 +2,7 @@
 title: "Record 7d949bcf52 · MindTopo-Can-Foundation-Models-Reason-in-Topological-Space"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.148258+00:00
+updated_at: 2026-09-12T16:53:18.438989+00:00
 tags: [record, real-data]
 ---
 

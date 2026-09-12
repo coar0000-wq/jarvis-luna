@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T22:28:19.472637+09:00",
+  "generated_at": "2026-09-13T01:51:42.815090+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -12,7 +12,7 @@
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-09-12T13:23:40.551300+00:00",
+      "collected_at": "2026-09-12T16:47:16.491930+00:00",
       "keyword_pool": 40
     }
   },
@@ -78,7 +78,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ampoule', 'skin', 'skin1004']",
+          "evidence": "matched=['ampoule', 'skin', 'skin1004', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -103,12 +103,14 @@
           "glass skin",
           "hydrating",
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
         "reddit_keywords_used": [
           "ampoule",
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -117,11 +119,12 @@
         "matched": [
           "ampoule",
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
-        "score": 3,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['ampoule', 'skin', 'skin1004']",
+        "evidence": "matched=['ampoule', 'skin', 'skin1004', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -192,7 +195,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['cream', 'moist', 'skin', 'skin1004']",
+          "evidence": "matched=['cream', 'moist', 'skin', 'skin1004', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -220,13 +223,15 @@
           "hydrating",
           "moist",
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
         "reddit_keywords_used": [
           "cream",
           "moist",
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -236,11 +241,12 @@
           "cream",
           "moist",
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
-        "score": 4,
+        "score": 5,
         "status": "pass",
-        "evidence": "matched=['cream', 'moist', 'skin', 'skin1004']",
+        "evidence": "matched=['cream', 'moist', 'skin', 'skin1004', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -311,7 +317,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ampoule', 'centella', 'skin', 'skin1004']",
+          "evidence": "matched=['ampoule', 'centella', 'skin', 'skin1004', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -337,13 +343,15 @@
           "glass skin",
           "hydrating",
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
         "reddit_keywords_used": [
           "ampoule",
           "centella",
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -353,11 +361,12 @@
           "ampoule",
           "centella",
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
-        "score": 4,
+        "score": 5,
         "status": "pass",
-        "evidence": "matched=['ampoule', 'centella', 'skin', 'skin1004']",
+        "evidence": "matched=['ampoule', 'centella', 'skin', 'skin1004', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -428,7 +437,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['skin', 'skin1004']",
+          "evidence": "matched=['skin', 'skin1004', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -453,11 +462,13 @@
           "glass skin",
           "hydrating",
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
         "reddit_keywords_used": [
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -465,11 +476,12 @@
       "reddit_match": {
         "matched": [
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['skin', 'skin1004']",
+        "evidence": "matched=['skin', 'skin1004', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -540,7 +552,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['skin', 'skin1004']",
+          "evidence": "matched=['skin', 'skin1004', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -566,11 +578,13 @@
           "glass skin",
           "hydrating",
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
         "reddit_keywords_used": [
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -578,11 +592,12 @@
       "reddit_match": {
         "matched": [
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['skin', 'skin1004']",
+        "evidence": "matched=['skin', 'skin1004', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -653,7 +668,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['cushion', 'skin', 'skin1004']",
+          "evidence": "matched=['cushion', 'skin', 'skin1004', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -678,12 +693,14 @@
           "glass skin",
           "hydrating",
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
         "reddit_keywords_used": [
           "cushion",
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -692,11 +709,12 @@
         "matched": [
           "cushion",
           "skin",
-          "skin1004"
+          "skin1004",
+          "skincare"
         ],
-        "score": 3,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['cushion', 'skin', 'skin1004']",
+        "evidence": "matched=['cushion', 'skin', 'skin1004', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {

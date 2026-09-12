@@ -2,7 +2,7 @@
 title: "Record 5710f8b84c · Controlled-time-domain-beating-via-parametric-normal-mode-splitting-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.176778+00:00
+updated_at: 2026-09-12T16:53:18.466548+00:00
 tags: [record, real-data]
 ---
 

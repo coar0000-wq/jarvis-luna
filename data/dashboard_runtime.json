@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T01:08:24.243402+09:00",
+  "generated_at": "2026-09-13T01:59:28.272872+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-09-12T13:28:12.900419+00:00",
+      "when": "2026-09-12T16:51:36.529844+00:00",
       "summary": "222개 상품 · 등급 S 7 / A 34 / B 28 / C 153 · 새 자료 223건",
       "action": "직전 실행에서 7건 시도 중 3건 실패 (성공 3건) · 상품 상세 HTML이 다이소몰 기본 페이지로 반환됨 3 · 품절·판매종료 1건",
       "status": "ok",
@@ -18,7 +18,7 @@
     {
       "id": "institutions",
       "name": "기관 수집팀",
-      "when": "2026-09-12T13:21:52.000078+00:00",
+      "when": "2026-09-12T16:45:26.408136+00:00",
       "summary": "35곳 1,061건 · 미수집 12건 사유 기록 · 새 자료 284건",
       "action": null,
       "status": "ok",
@@ -30,7 +30,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-13T01:07:09.017613+09:00",
+      "when": "2026-09-13T01:53:28.698412+09:00",
       "summary": "S등급 7개 · 고시표 입력 대기 7건 · 새 자료 39건",
       "action": "다이소 상세페이지 고시 표 7건 캡처 필요",
       "status": "ok",
@@ -42,7 +42,7 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-12T15:43:09.013873+00:00",
+      "when": "2026-09-12T16:51:36.753097+00:00",
       "summary": "등록 가능 0/7 · 카피 7 · 고시 0 · 가격 7 · 법률 7",
       "action": "고시 7건, us_label 7건 이 막고 있음",
       "status": "ok",
@@ -54,7 +54,7 @@
     {
       "id": "pricing",
       "name": "가격 정책팀",
-      "when": "2026-09-12T13:28:13.011587+00:00",
+      "when": "2026-09-12T16:51:36.651251+00:00",
       "summary": "개당 배송비 $6.26~$10.76 · 무게 64~520g (이름추정 7) · DDU/DDP 4개 · 새 자료 6건",
       "action": null,
       "status": "ok",
@@ -66,7 +66,7 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-12T15:43:08.968637+00:00",
+      "when": "2026-09-12T16:51:36.703743+00:00",
       "summary": "자동 점검 14건 · 통과 0 · 등록 차단 7 · 참고 주의 14 · 수출서류 HS 14건 · 라벨 1/6항목 자동 · 새 자료 17건",
       "action": "차단 7건: 비프루브 마린 무기자차 마일드(자동 점검 미통과: otc), 드롭비 잡티 말끔 앰플 40 (자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림",
       "status": "ok",
@@ -78,8 +78,8 @@
     {
       "id": "robotics",
       "name": "로보틱스 수집",
-      "when": "2026-09-12T13:20:52.820661+00:00",
-      "summary": "89건 · arxiv 49 / rss 40 · 새 자료 76건",
+      "when": "2026-09-12T16:44:25.039608+00:00",
+      "summary": "40건 · arxiv 0 / rss 40 · 새 자료 76건",
       "action": null,
       "status": "ok",
       "phase": "now",
@@ -90,8 +90,8 @@
     {
       "id": "design",
       "name": "디자인팀",
-      "when": "2026-09-12T13:22:00.134318+00:00",
-      "summary": "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 33건 · 새 자료 98건",
+      "when": "2026-09-12T16:45:34.636770+00:00",
+      "summary": "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 33건 · 새 자료 99건",
       "action": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "status": "ok",
       "phase": "ready",
@@ -102,7 +102,7 @@
     {
       "id": "channels",
       "name": "채널 운영팀",
-      "when": "2026-09-12T13:28:33.554318+00:00",
+      "when": "2026-09-12T16:51:56.413716+00:00",
       "summary": "가동 7/12채널 · 낡음 4건 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건",
       "action": null,
       "status": "ok",
@@ -114,7 +114,7 @@
     {
       "id": "knowledge",
       "name": "지식 수집팀",
-      "when": "2026-09-12T15:33:32.774557+00:00",
+      "when": "2026-09-12T16:45:55.506266+00:00",
       "summary": "470건 · arXiv 10 / 유기농스킨 30 / Google 300 / US뷰티 130",
       "action": null,
       "status": "ok",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-13T01:07:12.185590+09:00",
+      "when": "2026-09-13T01:59:23.941892+09:00",
       "summary": "81,117노트 · 320,930링크 · 끊어진 링크 110건 · 개인 노트 16건 별도 · 경고 통과(임계 300)",
       "action": null,
       "status": "ok",
@@ -165,7 +165,7 @@
     }
   },
   "errors": {
-    "generated_at": "2026-09-12T13:29:23.364923+00:00",
+    "generated_at": "2026-09-12T16:52:45.760491+00:00",
     "total": 43,
     "counts": {
       "고장": 5,
@@ -305,7 +305,7 @@
     "status": "completed",
     "record_count": 3200,
     "source_counts": {},
-    "updated_at": "2026-09-13T01:07:09.008614+09:00"
+    "updated_at": "2026-09-13T01:53:28.200399+09:00"
   },
   "graph": {
     "notes": 81117,
@@ -319,7 +319,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-13T01:07:12.185590+09:00"
+    "last_generated": "2026-09-13T01:59:23.941892+09:00"
   },
   "training": {
     "status": "completed",
@@ -330,22 +330,22 @@
     "experts": 3,
     "accuracy": 0.8809375,
     "validation_accuracy": 0.8872305140961857,
-    "final_loss": 0.40519688324043424,
-    "gate_load_std": 0.14894858991972137,
+    "final_loss": 0.4052237752514039,
+    "gate_load_std": 0.1488218097060238,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-12T15:35:11.825182+00:00"
+    "updated_at": "2026-09-12T16:51:06.930617+00:00"
   },
   "cumulative": {
     "totals": {
       "records": 3200,
       "notes": 81227,
-      "links": 328829
+      "links": 328859
     },
     "prior_totals": {
       "records": 3200,
       "notes": 81227,
-      "links": 328829
+      "links": 328859
     },
     "added_this_run": {
       "records": 0,
@@ -686,18 +686,11 @@
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5"
       },
       {
-        "keyword": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - issuewire.com",
-        "product": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - issuewire.com",
+        "keyword": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - Issuewire",
+        "product": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - Issuewire",
         "sub": "K-beauty",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUGkzV1p3dHozWEE5LWlTdmRreHlfYWhfQUluLUVoRHpDM04yQ0lFMnRzQnJOR1lxemM1TWh2WEYzLU5nWnlkTURmZ3c3N2hYaGs5aFJ1UmNFckQyV1lkOWNIdUxVUHVEY3ByR0tkd09jb0dQYlkyQ0paOW9NRzlldExQSnMwdEZtaDBvTnFPNVFFTktDSzNoVkJwYWlJb1RzZkFDalFVS1pDcGdKMzA2bw?oc=5"
-      },
-      {
-        "keyword": "K-Beauty’s U.S. Boom Is Making ‘Korean’ Less of a Differentiator - KoreaTechDesk",
-        "product": "K-Beauty’s U.S. Boom Is Making ‘Korean’ Less of a Differentiator - KoreaTechDesk",
-        "sub": "K-beauty",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HZ0dkQmFkU3ppdGRTcnRJQXV3TjEyaUNKQ2JqbXVldHpDM1k5UlEyTXAtS2c5NnRYcXhXZ0hWeFlMRkNXX3Bpc200dXI0eUZjUHJFTHMtVUZvb2R2T3VDODk0Qjl6SU9CQzZQbUREM0ZDeFBuc3F4ODhVNm5yZw?oc=5"
       },
       {
         "keyword": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - Celeb Secrets",
@@ -707,25 +700,32 @@
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWlTTVg4ZkQ1N1Rfemtmamx1WXdDemF4b1JIaUIxWVdJeUJKQlh5QjRCbXFmTWxnT3JMWlh0TmwwaVpfVnZNR1B1N0prR0p6dlhJTHhVQU9fN3VNdDlDZHN3dWswdTcydjVvMmo2RXVrN09vcUgweHotU0dQZjFIb2V3?oc=5"
       },
       {
-        "keyword": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
-        "product": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
+        "keyword": "K-Beauty’s U.S. Boom Is Making ‘Korean’ Less of a Differentiator - KoreaTechDesk",
+        "product": "K-Beauty’s U.S. Boom Is Making ‘Korean’ Less of a Differentiator - KoreaTechDesk",
         "sub": "K-beauty",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFlyd3hfU3ozdUtzS0d1MU5Hbmx6MHlWZTFicUdJT2NrSWlaLWJTS2lzQ21tZGhrQTRRei1FeDJnQk1OU0dvM1R5cUlnYnZFM05SM0syVjhnYXlnTmV5LVlHRmNpTmVBamFQMVFHVWJEQW9JVm1uTGxWLW84dTZCYTZ1RU1QVjhYTGhaaEp2NHNkQ2k3T1hsZElFcw?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HZ0dkQmFkU3ppdGRTcnRJQXV3TjEyaUNKQ2JqbXVldHpDM1k5UlEyTXAtS2c5NnRYcXhXZ0hWeFlMRkNXX3Bpc200dXI0eUZjUHJFTHMtVUZvb2R2T3VDODk0Qjl6SU9CQzZQbUREM0ZDeFBuc3F4ODhVNm5yZw?oc=5"
       },
       {
-        "keyword": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
-        "product": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
+        "keyword": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - forbes.com",
+        "product": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - forbes.com",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXkzOEhOM0k2RV9QV1hUbWlZSDhQZ2dGbWVZNHp6XzM3dWtvVTU5OTlJa3NROGF6R0ZjUlg0eHp5WTFUUmUzdElxSE9iX1JVTDV1cUdHeHBrVTVFLXRyTWVGWGVLWVdaOWQwMjVKSVVPbmxBRlhDOFp2cmRnd3JITUFibWR6UF8xSFo5aFlqem5hR2phaU5qdmx0SXJtdjJzZFA2ZmNFbTV0R0g0ZmNqMGYzZnI?oc=5"
+      },
+      {
+        "keyword": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - personalcareinsights.com",
+        "product": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - personalcareinsights.com",
         "sub": "K-beauty",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5N2ZIdEFwRWx5ZzJ0aHhib3ZvMHQ5c1o0Z1J5Nm14ZW5wUmpHZ0xKcGhnaVBTVVRFYU81WVFrbUZkQnhNTmxHeGMzQ3dHWHhtc0xxQzVoRkhqNFFWVjR4WGNoT0lhYXktTGhHZ001VHJ1Z282RWpRdGFabG43Zw?oc=5"
       },
       {
-        "keyword": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
-        "product": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
+        "keyword": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
+        "product": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
         "sub": "K-beauty",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXkzOEhOM0k2RV9QV1hUbWlZSDhQZ2dGbWVZNHp6XzM3dWtvVTU5OTlJa3NROGF6R0ZjUlg0eHp5WTFUUmUzdElxSE9iX1JVTDV1cUdHeHBrVTVFLXRyTWVGWGVLWVdaOWQwMjVKSVVPbmxBRlhDOFp2cmRnd3JITUFibWR6UF8xSFo5aFlqem5hR2phaU5qdmx0SXJtdjJzZFA2ZmNFbTV0R0g0ZmNqMGYzZnI?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5"
       },
       {
         "keyword": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
@@ -749,8 +749,8 @@
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnpvNUR0bm0tV2E0M183TDZLUVUwal9NRHduZ21ULUtPZFl2SnFoVS1WVFVZTjJtZjFfX1R5Um1Lajk0TXZzbnVpbkdpMXdMbno4dHo0Y3g4R3lYbV9rRkcyY0VsSjRVSFFPWVV5cTNNWG0tVC0zZ0tER251cDRCM3A0ZEJnNTBjWjBrYnp2dHRHSXd2UkNMckJqQ1JmUmFkX1RCeElDdmtzMGJ4X3V6SjJYbTQyUlNvazMycGw4b2k4aG44YkdN?oc=5"
       },
       {
-        "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
-        "product": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
+        "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - wral.com",
+        "product": "Consumer Reports puts K-Beauty sunscreens to the test - wral.com",
         "sub": "Korean sunscreen",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhPYk45c2xzWEw3Mmx2akplQWJZS1F1SnJSbnZJV3RmV0hLTktMUnl4cDBQak5jdDQ0LWlUWWtGODZSbkFfU0Q3MDZ0S0FtVFNDSjUyaldtU0l6WjhiZXpjN1MxVjdRNGVXeEUyZkNqY29aeXBqckFYYWxTYkF4TkpFVUFsZjFRMk9EU1N3?oc=5"
@@ -770,11 +770,11 @@
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5"
       },
       {
-        "keyword": "Does Korean sunscreen work better? | Consumer Reports - KING5.com",
-        "product": "Does Korean sunscreen work better? | Consumer Reports - KING5.com",
+        "keyword": "Is Korean sunscreen worth the hype? - WAFB",
+        "product": "Is Korean sunscreen worth the hype? - WAFB",
         "sub": "Korean sunscreen",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGRVSGtHWWhrdzhNWEl1ZkZJcUxCMVpfem14eFVoOGlUV0x5UVpBTGR0TVRzMUo3ODlPM3MwMF8zSXJTa1pZZ0dELThiVlhtRjlqdTQ4SDFPcUdPaUR4ZnF0VmZvRWktajNibk9JT3pTam5CV0JGY0VOUnBFQmVXa0V1T3VJNXVQb1JLWjhkanRxWXBBeU5DZVVrUnFLWHBMWGRfa284UkFuaWNCYXV3RHJJeGtGck5TRFRES21aUV9WY3NCY21UazhEdjZ1bVk?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjenlzd2RLQUd1RWtfc0V4dlZIeldiM3FfOTJ4S08wdmplNUdTVUZrUXhrU25oOVpTeVFPSGgxYXpBNWpIbTVQSlRHQlV6MW4wVkNHTzhSQlYtSmJrQmQ1bkRCc3dMOUF0OUpyZlRNQnhvMXdmMFprTQ?oc=5"
       }
     ],
     "wikipedia_interest": [
@@ -836,6 +836,12 @@
       }
     ],
     "allure_media": [
+      {
+        "product": "8 Best Guerlain Products 2026 to Add Luxury to Your Routine",
+        "sub": "Sat, 12 Sep 2026",
+        "badge": "12 Sep",
+        "url": "https://www.allure.com/story/best-guerlain-products"
+      },
       {
         "product": "14 Best Gourmand Perfumes 2026 to Delight Your Senses",
         "sub": "Fri, 11 Sep 2026",
@@ -919,12 +925,6 @@
         "sub": "Thu, 10 Sep 2026",
         "badge": "10 Sep",
         "url": "https://www.allure.com/story/practical-magic-2-sandra-bullock-nicole-kidman-beauty-looks"
-      },
-      {
-        "product": "Why the French Manicure Has Divided People For Decades",
-        "sub": "Wed, 09 Sep 2026",
-        "badge": "09 Sep",
-        "url": "https://www.allure.com/story/french-manicure-history-50th-anniversary-jeff-pink"
       }
     ],
     "openfda_sunscreen": [
@@ -1418,7 +1418,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 9,
       "trust": "manual",
-      "age_hours": 280.1,
+      "age_hours": 281.0,
       "stale": true
     },
     "walmart_beauty": {
@@ -1428,60 +1428,60 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 5,
       "trust": "manual",
-      "age_hours": 280.1,
+      "age_hours": 281.0,
       "stale": true
     },
     "oliveyoung_us": {
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "2026-09-12T13:23:27.599761+00:00",
+      "collected_at": "2026-09-12T16:47:03.319123+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 2.7,
+      "age_hours": 0.2,
       "stale": false
     },
     "google_trends_us": {
       "status": "ok",
       "source": "google news rss (beauty queries) + trends daily filtered",
       "reason": "",
-      "collected_at": "2026-09-12T13:24:11.778125+00:00",
+      "collected_at": "2026-09-12T16:47:49.426788+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 2.7,
+      "age_hours": 0.2,
       "stale": false
     },
     "wikipedia_interest": {
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-12T05:21:51.636844+00:00",
+      "collected_at": "2026-09-12T13:28:12.226303+00:00",
       "count": 8,
       "trust": "verified",
       "note": "2026-08-12 ~ 2026-09-10 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 10.8,
+      "age_hours": 3.5,
       "stale": false
     },
     "allure_media": {
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-12T05:21:51.636844+00:00",
+      "collected_at": "2026-09-12T13:28:12.226303+00:00",
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 10.8,
+      "age_hours": 3.5,
       "stale": false
     },
     "openfda_sunscreen": {
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-12T05:21:51.636844+00:00",
+      "collected_at": "2026-09-12T13:28:12.226303+00:00",
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 10.8,
+      "age_hours": 3.5,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1507,7 +1507,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 8,
       "trust": "manual",
-      "age_hours": 280.1,
+      "age_hours": 281.0,
       "stale": true
     },
     "sephora": {
@@ -1517,17 +1517,17 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 10,
       "trust": "manual",
-      "age_hours": 280.1,
+      "age_hours": 281.0,
       "stale": true
     },
     "open_beauty_facts": {
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-12T13:22:51.182923+00:00",
+      "collected_at": "2026-09-12T16:46:26.947008+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 2.8,
+      "age_hours": 0.2,
       "stale": false
     }
   },
@@ -1535,7 +1535,7 @@
     "rate": 1342.53,
     "as_of": "2026-09-12",
     "source": "https://open.er-api.com/v6/latest/USD",
-    "updated_at": "2026-09-12"
+    "updated_at": "2026-09-13"
   },
-  "last_synced": "09. 12. 오후 10:27 KST"
+  "last_synced": "09. 13. 오전 01:51 KST"
 }

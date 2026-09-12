@@ -2,7 +2,7 @@
 title: "Record 6b83018b2d · Bebot-Makeup-101-Everything-You-Need-To-Look-Like-A-Filipina-Y2K-Baddi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.425681+00:00
+updated_at: 2026-09-12T16:53:18.717569+00:00
 tags: [record, real-data]
 ---
 

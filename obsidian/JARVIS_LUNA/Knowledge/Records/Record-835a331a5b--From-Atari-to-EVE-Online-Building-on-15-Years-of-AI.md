@@ -2,7 +2,7 @@
 title: "Record 835a331a5b · From-Atari-to-EVE-Online-Building-on-15-Years-of-AI-Research-in-Games"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.154985+00:00
+updated_at: 2026-09-12T16:53:18.445766+00:00
 tags: [record, real-data]
 ---
 

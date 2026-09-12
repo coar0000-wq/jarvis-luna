@@ -2,7 +2,7 @@
 title: "Record 751ffd21f4 · Perplexity-Rolls-Out-Its-AI-Powered-Ecommerce-Experience-in-the-US---A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.510426+00:00
+updated_at: 2026-09-12T16:53:18.809655+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2ddf9b092b · Eqqualberry-packs-booth-at-Olive-Youngs-US-festival---The-Korea-Herald"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.347796+00:00
+updated_at: 2026-09-12T16:53:18.639520+00:00
 tags: [record, real-data]
 ---
 

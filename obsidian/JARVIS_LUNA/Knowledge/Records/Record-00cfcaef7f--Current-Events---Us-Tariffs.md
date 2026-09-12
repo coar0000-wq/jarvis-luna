@@ -2,7 +2,7 @@
 title: "Record 00cfcaef7f · Current-Events---Us-Tariffs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.659066+00:00
+updated_at: 2026-09-12T16:53:18.976008+00:00
 tags: [record, real-data]
 ---
 

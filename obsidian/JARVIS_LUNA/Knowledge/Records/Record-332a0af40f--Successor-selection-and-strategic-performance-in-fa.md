@@ -2,7 +2,7 @@
 title: "Record 332a0af40f · Successor-selection-and-strategic-performance-in-family-businesses-the"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.217734+00:00
+updated_at: 2026-09-12T16:53:18.508149+00:00
 tags: [record, real-data]
 ---
 

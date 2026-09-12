@@ -2,7 +2,7 @@
 title: "Record bc7b4e1f4a · Thomson-Reuters-Powers-Trusted-Enterprise-AI-at-Scale-on-Snowflake"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.323402+00:00
+updated_at: 2026-09-12T16:53:18.614935+00:00
 tags: [record, real-data]
 ---
 

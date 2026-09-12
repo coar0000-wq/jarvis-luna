@@ -2,7 +2,7 @@
 title: "Record b58bb99dfe · Anthropic-Raises-30-Billion-Series-G-Funding-380-Billion-Post-Money-Va"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.624169+00:00
+updated_at: 2026-09-12T16:53:18.935578+00:00
 tags: [record, real-data]
 ---
 

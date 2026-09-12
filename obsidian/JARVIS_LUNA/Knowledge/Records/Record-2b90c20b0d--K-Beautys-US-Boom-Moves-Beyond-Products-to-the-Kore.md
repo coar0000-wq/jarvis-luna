@@ -2,7 +2,7 @@
 title: "Record 2b90c20b0d · K-Beautys-US-Boom-Moves-Beyond-Products-to-the-Korean-Skin-Care-Routin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.497308+00:00
+updated_at: 2026-09-12T16:53:18.794616+00:00
 tags: [record, real-data]
 ---
 

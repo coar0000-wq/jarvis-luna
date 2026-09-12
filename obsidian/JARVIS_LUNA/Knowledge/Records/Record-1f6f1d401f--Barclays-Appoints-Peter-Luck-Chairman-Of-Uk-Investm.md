@@ -2,7 +2,7 @@
 title: "Record 1f6f1d401f · Barclays-Appoints-Peter-Luck-Chairman-Of-Uk-Investment-Banking"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.642185+00:00
+updated_at: 2026-09-12T16:53:18.956510+00:00
 tags: [record, real-data]
 ---
 

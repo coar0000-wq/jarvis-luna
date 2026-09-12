@@ -2,7 +2,7 @@
 title: "Record 5dc27e78ab · Rapid-phage-susceptibility-determination-using-a-semi-automated-biolum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.231746+00:00
+updated_at: 2026-09-12T16:53:18.522176+00:00
 tags: [record, real-data]
 ---
 

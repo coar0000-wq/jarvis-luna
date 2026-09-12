@@ -2,7 +2,7 @@
 title: "Record 0b8c02eb83 · Deepfake-A-Boon-for-Pediatric-Dental-Patients"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.274242+00:00
+updated_at: 2026-09-12T16:53:18.564862+00:00
 tags: [record, real-data]
 ---
 

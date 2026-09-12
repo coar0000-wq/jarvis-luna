@@ -2,7 +2,7 @@
 title: "Record 2caad961d9 · Evaluating-the-Fourier-Approximation-in-Pulsar-Timing-Array-Analysis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.568975+00:00
+updated_at: 2026-09-12T16:53:18.874863+00:00
 tags: [record, real-data]
 ---
 

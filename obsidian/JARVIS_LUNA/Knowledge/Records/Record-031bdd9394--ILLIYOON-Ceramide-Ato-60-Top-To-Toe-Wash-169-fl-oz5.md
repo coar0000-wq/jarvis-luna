@@ -2,7 +2,7 @@
 title: "Record 031bdd9394 · ILLIYOON-Ceramide-Ato-60-Top-To-Toe-Wash-169-fl-oz500ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.591031+00:00
+updated_at: 2026-09-12T16:53:18.898834+00:00
 tags: [record, real-data]
 ---
 

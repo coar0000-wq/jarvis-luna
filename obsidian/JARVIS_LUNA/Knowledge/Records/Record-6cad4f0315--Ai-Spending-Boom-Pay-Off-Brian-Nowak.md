@@ -2,7 +2,7 @@
 title: "Record 6cad4f0315 · Ai-Spending-Boom-Pay-Off-Brian-Nowak"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.680738+00:00
+updated_at: 2026-09-12T16:53:19.001024+00:00
 tags: [record, real-data]
 ---
 

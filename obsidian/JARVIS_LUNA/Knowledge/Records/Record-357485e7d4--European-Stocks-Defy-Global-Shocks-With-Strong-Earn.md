@@ -2,7 +2,7 @@
 title: "Record 357485e7d4 · European-Stocks-Defy-Global-Shocks-With-Strong-Earnings-Growth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.651906+00:00
+updated_at: 2026-09-12T16:53:18.967663+00:00
 tags: [record, real-data]
 ---
 

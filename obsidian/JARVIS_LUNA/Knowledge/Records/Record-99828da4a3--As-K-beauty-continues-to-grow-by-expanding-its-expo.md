@@ -2,7 +2,7 @@
 title: "Record 99828da4a3 · As-K-beauty-continues-to-grow-by-expanding-its-export-market-to-the-US"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.343482+00:00
+updated_at: 2026-09-12T16:53:18.635210+00:00
 tags: [record, real-data]
 ---
 

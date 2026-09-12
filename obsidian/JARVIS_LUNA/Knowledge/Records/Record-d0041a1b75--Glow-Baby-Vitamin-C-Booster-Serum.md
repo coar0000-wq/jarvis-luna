@@ -2,7 +2,7 @@
 title: "Record d0041a1b75 · Glow-Baby-Vitamin-C-Booster-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.683593+00:00
+updated_at: 2026-09-12T16:53:19.004371+00:00
 tags: [record, real-data]
 ---
 

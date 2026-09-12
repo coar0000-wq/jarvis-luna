@@ -2,7 +2,7 @@
 title: "Record 49af5a6e2d · A-Low-Cost-Open-Platform-for-End-to-End-Autonomous-Driving-on-a-Miniat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.083904+00:00
+updated_at: 2026-09-12T16:53:18.375744+00:00
 tags: [record, real-data]
 ---
 

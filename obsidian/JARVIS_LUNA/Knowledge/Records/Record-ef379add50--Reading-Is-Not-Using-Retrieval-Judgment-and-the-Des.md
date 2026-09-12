@@ -2,7 +2,7 @@
 title: "Record ef379add50 · Reading-Is-Not-Using-Retrieval-Judgment-and-the-Design-of-AI-Financial"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.761672+00:00
+updated_at: 2026-09-12T16:53:19.093682+00:00
 tags: [record, real-data]
 ---
 

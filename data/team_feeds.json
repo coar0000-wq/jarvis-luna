@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-12T13:22:20.421206+00:00",
+  "generated_at": "2026-09-12T16:45:55.422643+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
   "pool_size": 2093,
   "제목없어_버림": 38,
-  "unrouted": 10,
+  "unrouted": 8,
   "summary": {
     "sourcing": {
       "total": 224,
       "recent": 223
     },
     "market": {
-      "total": 443,
+      "total": 447,
       "recent": 39
     },
     "listing": {
@@ -28,8 +28,8 @@
       "recent": 17
     },
     "design": {
-      "total": 358,
-      "recent": 98
+      "total": 359,
+      "recent": 99
     },
     "robotics": {
       "total": 109,
@@ -580,14 +580,14 @@
         "by_hand": true
       },
       {
-        "title": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - Issuewire.com",
+        "title": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - Issuewire",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUGkzV1p3dHozWEE5LWlTdmRreHlfYWhfQUluLUVoRHpDM04yQ0lFMnRzQnJOR1lxemM1TWh2WEYzLU5nWnlkTURmZ3c3N2hYaGs5aFJ1UmNFckQyV1lkOWNIdUxVUHVEY3ByR0tkd09jb0dQYlkyQ0paOW9NRzlldExQSnMwdEZtaDBvTnFPNVFFTktDSzNoVkJwYWlJb1RzZkFDalFVS1pDcGdKMzA2bw?oc=5",
         "pool": "google",
         "date": "2026-09-12",
         "by_hand": false
       },
       {
-        "title": "Boots shoppers race to buy £140 Korean and Japanese skincare box for just £35 - Manchester Evening News",
+        "title": "Boots shoppers race to buy £140 Korean and Japanese skincare box for just £35 - manchestereveningnews.co.uk",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVTlEUGJraXVPZ244SFRDNHZ5WG40VDJhb0NxZnNFOFJxa0FUVnNtMUVnV3hTclBfRHZPSno4Nk9uVzVCYnQtWHJIb2t0MEZkV3R4UkthaURQaFNhUGpBc1l3NmFaRExLMDJjcDhMMlBleDRMV2lyS0Jic1M0NVY4UzBRdldrQ05ib0toUDBUQkM4YkxZWWZyamRB0gGfAUFVX3lxTE1sNW1hOWVramVDaEJCdl94RTE4WmZBeVBmcnM0eDZZY29uM3VhVVgxbEJ4TVhCYkh5X0RWWjVhS2xGMXQ0OEg2RnlRQlUydUtKb2xEV0dvWGwxUHBrTVdZRXkydXlDWk5zNFZDbUZxLWw5TmlYcFlvb2x6MmNySG11UHQzcVhtaFFFUFdBYU9pUmw3ZmVUakV3Sm8zd0o3MA?oc=5",
         "pool": "google",
         "date": "2026-09-12",
@@ -601,15 +601,15 @@
         "by_hand": false
       },
       {
-        "title": "Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - Korea Biomedical Review",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TTjJFMUxHR3ZlOEJkRlNLekZpOTBpOVREVVZqUmNEcWhfbkFIb0pMclZybVZGNThud3pJdlE5TzNBaUZMTmNFQkZxWDdKNk50LUI3OTFJVTVJOEt6M1ZuVGNzZHN0NnhhUHZvLXpB0gFyQVVfeXFMT2wyVzU1U2NGZmcwMFRXdWJfT3VNdXpLYWlzSkcyUHBtRnZSZHRrMHJ3R1RIV01yTmtDaktQUi1hSDVrblRuQ3BTbXFlb1RZeTY4Rzc3RktnS0tSQWlUNkRwM1l0ZDM3al9ZdHFQSm45RFZR?oc=5",
+        "title": "Wonderbalm steps up global travel retail push for K-beauty-led skincare with Gebr. Heinemann - moodiedavittreport.com",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZTBKRXRfSzJ1dTk5MV9OUkc0NGhuLWd5ek53VGthSEdJY01VSHV4VGFvZEwtVWRvZEFzUEVwMmpOT3JvbENnTGlsZ29nLXUxdUdzbHlaTjZfUlA1NWloSjhfQ08zRDNZMVR4SDBiX00wSFI1cXpLbExISG9QcmgyVTZ4cVBrd0JrQl9RTXpERDVDb05HT1pJOFpQTGtSRE52b05qeEotZ2VwV3h6MkIyZ2ZLSDItenpYc1Rrdjg5dDc?oc=5",
         "pool": "google",
         "date": "2026-09-11",
         "by_hand": false
       },
       {
-        "title": "Wonderbalm steps up global travel retail push for K-beauty-led skincare with Gebr. Heinemann - Moodie Davitt Report",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZTBKRXRfSzJ1dTk5MV9OUkc0NGhuLWd5ek53VGthSEdJY01VSHV4VGFvZEwtVWRvZEFzUEVwMmpOT3JvbENnTGlsZ29nLXUxdUdzbHlaTjZfUlA1NWloSjhfQ08zRDNZMVR4SDBiX00wSFI1cXpLbExISG9QcmgyVTZ4cVBrd0JrQl9RTXpERDVDb05HT1pJOFpQTGtSRE52b05qeEotZ2VwV3h6MkIyZ2ZLSDItenpYc1Rrdjg5dDc?oc=5",
+        "title": "Proprietary Botanical Ingredients: RIMAN Introduces Araliadiol from Its Protected… - Trend Hunter",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1BdkFfUmJPRVhPd0lmVl9CWHRqSlBPdm94LTI4UE1DdVpQdGNmSFJXN1ZwbkR2T2RXU3dWamFMTFhBVDFQYmxxUEZMY0dZMDFsU1psNFJmcV9wZ19LTVVKN3VVZWZoX3hkRU5EV1dsVTRqVF91Q0xB?oc=5",
         "pool": "google",
         "date": "2026-09-11",
         "by_hand": false
@@ -664,7 +664,7 @@
         "by_hand": false
       },
       {
-        "title": "How Generative AI Is Reshaping Ecommerce Search and Product Discovery - Technology Org",
+        "title": "How Generative AI Is Reshaping Ecommerce Search and Product Discovery - technology.org",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTlhickxjakJSeHNMZWVRLXlrcjhaRzdaM3lEV183eTZVM1EwZEQ1SjR3VFlwNkdvOVZ0TVdfa192cERxRWF0dFVKN2FRb0N0aFNHblo0OERET0RMTnFmdURUcC1vY18wNTRFdFlCZUhQQjA0MlFobEkyeDFKYkpHV25abmlhS2o5OXd4S0NvUkRienRHVHV4eFhJX3NGa2NVUjdOTDJ0VjdxcGFu?oc=5",
         "pool": "google",
         "date": "2026-09-09",
@@ -692,7 +692,7 @@
         "by_hand": false
       },
       {
-        "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - Korea JoongAng Daily",
+        "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - koreajoongangdaily.com",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDhGOE5GQWVncngtaGZBcVkzT0pGcjB4V3dHLUNMMjNoMGJVcjIzWDRjWDJGS3JWWjZ1N1dkN2dfSWpabktCMzd0bXEyNU9TYmtUMUk0VDZlVktNMjh6aER3cTZmdDFnWS1EN1RvOUJDMlNlY0huVlROa0tCUF9RMXNOaGZ5R0NvNEd0UWFjRVhsSmpXZ053WEpfN01zaUNOZExHMm5zLU5OckVKUEktMm5UUTBwT2VyV2dKZUJWNmUtT2xBSklwTHFwN1pzcXVj?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -755,7 +755,7 @@
         "by_hand": false
       },
       {
-        "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
+        "title": "What makes K-beauty Korean? The answer is getting complicated. - koreajoongangdaily.com",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5",
         "pool": "google",
         "date": "2026-09-03",
@@ -797,7 +797,7 @@
         "by_hand": false
       },
       {
-        "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - Sacramento Bee",
+        "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - sacbee.com",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzRUhWam1YWHZYXzlFQlVlMFcwRDBYX003QTZqSzM0WURnYnNudkZveEs3RHJCczBzSUpvMklOeXR3elA4ZVdIc2lDd2RNeEJLeE9RdGNEbVFrTjVhcnFPaUJSNEpNeXpWLWRpcGhQb0ozdU3SAXNBVV95cUxPV1Qwc05zNHBGQmhLclBFVzhrQjQ1bjBZWWFKa25fVllZRXRobkhXZGZpeUplUVFYTjJ4dEpBTDZ1TXVlc3FGT3FOOUl2VFBqdzhYcHRFeEtJV2ExN29TUTVQVVdVTmNwWW9YVHZHSkZ0TDZN?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -860,7 +860,7 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty’s fastest-growing products are quietly crossing over from cult status to household names - Sacramento Bee",
+        "title": "K-beauty’s fastest-growing products are quietly crossing over from cult status to household names - sacbee.com",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aWFdHVGswUVFLUzNOYnhaRzV4RXpLSE4yUU5IcHJVa2lieDYtRjBxNkZma1NUSG9hQS1QT3ZJcHVxekFETnhNUzloR3g5UkxEQWx5QVJxY1V5emtySDRYZzNnTUl3RWVCX29nazdaRUlMYWPSAXNBVV95cUxNdjl6SVNhV25mQjFJeUZITi0tLXlnMlFPcWc0a3lxNGU2cGdldm5GRzF2Yk1HY2VrQUhsVF9zemRaeVJvUkZzSDJxQnd4cXlDWTlGSEVYM3VYUEJ5aFMweWtBREtQb3NVTUVJRmxSMTlJQXBN?oc=5",
         "pool": "google",
         "date": "2026-08-27",
@@ -1785,6 +1785,13 @@
         "by_hand": false
       },
       {
+        "title": "Expanding Healthcare Access With Nmtc Equity Investment",
+        "url": "https://www.jpmorgan.com/insights/real-estate/community-development-banking/expanding-healthcare-access-with-nmtc-equity-investment",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
         "title": "Multi-currency payouts now available in Australia and France",
         "url": "https://changelog.shopify.com/posts/multi-currency-payouts-now-available-in-australia-and-france",
         "pool": "design_refs",
@@ -1923,16 +1930,16 @@
         "pool": "robotics",
         "date": "2026-09-10",
         "by_hand": false
-      },
-      {
-        "title": "A Primal-Dual Formulation for Pricing Static Voltage Stability Services within a Unit Commitment Model",
-        "url": "https://arxiv.org/abs/2609.11436v1",
-        "pool": "robotics",
-        "date": "2026-09-10",
-        "by_hand": false
       }
     ],
     "robotics": [
+      {
+        "title": "Ultrasound offers a scalable path to tactile intelligence for physical AI",
+        "url": "https://www.therobotreport.com/ultrasound-offers-scalable-path-tactile-intelligence-physical-ai/",
+        "pool": "robotics",
+        "date": "2026-09-12",
+        "by_hand": false
+      },
       {
         "title": "Video Friday: Humanoid Robot Takes On Monkey Bars",
         "url": "https://spectrum.ieee.org/video-friday-disaster-response-robots",
@@ -2342,13 +2349,6 @@
       {
         "title": "What bricklaying has taught Monumental about robots in construction",
         "url": "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Unitree shares down 53% from IPO debut",
-        "url": "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/",
         "pool": "robotics",
         "date": "2026-09-09",
         "by_hand": false
@@ -2974,13 +2974,6 @@
         "by_hand": false
       },
       {
-        "title": "Ai Blockchain And The New Market Reality",
-        "url": "https://www.jpmorgan.com/markets/insights/ai-blockchain-and-the-new-market-reality",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
         "title": "Private Credit Machine Learning Moment",
         "url": "https://www.jpmorgan.com/markets/insights/private-credit-machine-learning-moment",
         "pool": "institutions",
@@ -3009,8 +3002,22 @@
         "by_hand": false
       },
       {
+        "title": "Ai Blockchain And The New Market Reality",
+        "url": "https://www.jpmorgan.com/markets/insights/ai-blockchain-and-the-new-market-reality",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
         "title": "Volatility Is No Longer The Exception",
         "url": "https://www.jpmorgan.com/markets/insights/volatility-is-no-longer-the-exception",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Hope And Heroes",
+        "url": "https://www.jpmorgan.com/insights/corporate-responsibility/community-impact/hope-and-heroes",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false
@@ -3023,8 +3030,8 @@
         "by_hand": false
       },
       {
-        "title": "Hope And Heroes",
-        "url": "https://www.jpmorgan.com/insights/corporate-responsibility/community-impact/hope-and-heroes",
+        "title": "Expanding Healthcare Access With Nmtc Equity Investment",
+        "url": "https://www.jpmorgan.com/insights/real-estate/community-development-banking/expanding-healthcare-access-with-nmtc-equity-investment",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false
@@ -3186,13 +3193,6 @@
       {
         "title": "Sustainable Funds Outperform Traditional First Half 2026",
         "url": "https://www.morganstanley.com/insights/articles/sustainable-funds-outperform-traditional-first-half-2026",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Multi-Agent Tourism Support Systems (MATSS): a SOR-CLT perspective on traveller cognition and AI-mediated service experience",
-        "url": "https://doi.org/10.1080/13683500.2026.2729832",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false

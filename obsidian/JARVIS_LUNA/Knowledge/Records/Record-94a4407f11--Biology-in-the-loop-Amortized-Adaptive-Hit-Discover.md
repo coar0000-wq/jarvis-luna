@@ -2,7 +2,7 @@
 title: "Record 94a4407f11 · Biology-in-the-loop-Amortized-Adaptive-Hit-Discovery-in-CRISPR-Screens"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.147874+00:00
+updated_at: 2026-09-12T16:53:18.438601+00:00
 tags: [record, real-data]
 ---
 

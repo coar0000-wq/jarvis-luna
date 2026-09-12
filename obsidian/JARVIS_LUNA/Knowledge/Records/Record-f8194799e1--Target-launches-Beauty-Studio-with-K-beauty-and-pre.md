@@ -2,7 +2,7 @@
 title: "Record f8194799e1 · Target-launches-Beauty-Studio-with-K-beauty-and-premium-skin-care-focu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.422010+00:00
+updated_at: 2026-09-12T16:53:18.713884+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMif0FVX3lxTE5Jb2hGbEh0dHE2ME9CaXV3eFNqVEdYR2hJaU5zWnIyal9IakpwdjNPNlgyVzlHTlo2aFJfYkxLbVlIYWhtT3FfR3AzTURkUmVQc3A5R29FNEtLLTdVWVdzd0FRV1N5c0lWVzVfTUczRi1kc1gyU2U1VU03ZHl0Zk0?oc=5)
 
-**제목:** Target launches Beauty Studio with K-beauty and premium skin care focus. - Personal Care Insights
+**제목:** Target launches Beauty Studio with K-beauty and premium skin care focus. - personalcareinsights.com
 
-Target launches Beauty Studio with K-beauty and premium skin care focus. - Personal Care Insights
+Target launches Beauty Studio with K-beauty and premium skin care focus. - personalcareinsights.com
 
 **출처:** Source · Google Search
 

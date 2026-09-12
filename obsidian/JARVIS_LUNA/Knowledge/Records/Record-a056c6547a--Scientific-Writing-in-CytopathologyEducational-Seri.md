@@ -2,7 +2,7 @@
 title: "Record a056c6547a · Scientific-Writing-in-CytopathologyEducational-Series-A-Practical-Guid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.227273+00:00
+updated_at: 2026-09-12T16:53:18.517788+00:00
 tags: [record, real-data]
 ---
 

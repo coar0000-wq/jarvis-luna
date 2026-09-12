@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T13:28:12.226303+00:00",
+  "generated_at": "2026-09-12T16:51:35.841269+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "chelsea vs hull",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Sat, 12 Sep 2026 06:00:00 -0700",
-          "source_name": "Chelsea Football Club",
-          "url": "https://trends.google.com/trending?geo=US&q=chelsea%20vs%20hull"
-        },
-        {
-          "keyword": "liverpool vs fulham",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Sat, 12 Sep 2026 06:00:00 -0700",
-          "source_name": "Liverpool FC",
-          "url": "https://trends.google.com/trending?geo=US&q=liverpool%20vs%20fulham"
-        },
-        {
-          "keyword": "aston villa vs nottm forest",
+          "keyword": "barcelona - atlético madrid",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Sat, 12 Sep 2026 06:10:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=aston%20villa%20vs%20nottm%20forest"
+          "published": "Sat, 12 Sep 2026 09:30:00 -0700",
+          "source_name": "EL PAÍS",
+          "url": "https://trends.google.com/trending?geo=US&q=barcelona%20-%20atl%C3%A9tico%20madrid"
         },
         {
-          "keyword": "pat mcafee",
+          "keyword": "fox",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sat, 12 Sep 2026 09:20:00 -0700",
+          "source_name": "Fox News",
+          "url": "https://trends.google.com/trending?geo=US&q=fox"
+        },
+        {
+          "keyword": "netflix cancels ransom canyon",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sat, 12 Sep 2026 09:20:00 -0700",
+          "source_name": "Deadline",
+          "url": "https://trends.google.com/trending?geo=US&q=netflix%20cancels%20ransom%20canyon"
+        },
+        {
+          "keyword": "jason witten",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 12 Sep 2026 06:10:00 -0700",
-          "source_name": "Sports Illustrated",
-          "url": "https://trends.google.com/trending?geo=US&q=pat%20mcafee"
+          "published": "Sat, 12 Sep 2026 09:30:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=jason%20witten"
         },
         {
-          "keyword": "bournemouth vs brentford",
+          "keyword": "charlie becker",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 12 Sep 2026 06:10:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=bournemouth%20vs%20brentford"
+          "published": "Sat, 12 Sep 2026 09:30:00 -0700",
+          "source_name": "Inside the Hall",
+          "url": "https://trends.google.com/trending?geo=US&q=charlie%20becker"
         },
         {
-          "keyword": "will muschamp",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 12 Sep 2026 06:10:00 -0700",
-          "source_name": "On3",
-          "url": "https://trends.google.com/trending?geo=US&q=will%20muschamp"
+          "keyword": "burger king nugget purse",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sat, 12 Sep 2026 09:30:00 -0700",
+          "source_name": "Burger King Newsroom",
+          "url": "https://trends.google.com/trending?geo=US&q=burger%20king%20nugget%20purse"
         },
         {
-          "keyword": "texas a&m football schedule",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 12 Sep 2026 06:10:00 -0700",
-          "source_name": "Texas A&M Athletics",
-          "url": "https://trends.google.com/trending?geo=US&q=texas%20a%26m%20football%20schedule"
+          "keyword": "capsizing",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sat, 12 Sep 2026 09:20:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=capsizing"
         },
         {
-          "keyword": "ucrania",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 12 Sep 2026 06:10:00 -0700",
-          "source_name": "DW.com",
-          "url": "https://trends.google.com/trending?geo=US&q=ucrania"
+          "keyword": "girona - castellón",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sat, 12 Sep 2026 09:20:00 -0700",
+          "source_name": "MARCA",
+          "url": "https://trends.google.com/trending?geo=US&q=girona%20-%20castell%C3%B3n"
         },
         {
-          "keyword": "halftime show",
+          "keyword": "casa pia vs porto",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 12 Sep 2026 06:10:00 -0700",
-          "source_name": "Billboard",
-          "url": "https://trends.google.com/trending?geo=US&q=halftime%20show"
+          "published": "Sat, 12 Sep 2026 09:30:00 -0700",
+          "source_name": "A Bola",
+          "url": "https://trends.google.com/trending?geo=US&q=casa%20pia%20vs%20porto"
         },
         {
-          "keyword": "clemson football schedule 2026",
+          "keyword": "kip lewis",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 12 Sep 2026 06:10:00 -0700",
-          "source_name": "Clemson University Athletics",
-          "url": "https://trends.google.com/trending?geo=US&q=clemson%20football%20schedule%202026"
+          "published": "Sat, 12 Sep 2026 09:30:00 -0700",
+          "source_name": "The Oklahoman",
+          "url": "https://trends.google.com/trending?geo=US&q=kip%20lewis"
         }
       ]
     },

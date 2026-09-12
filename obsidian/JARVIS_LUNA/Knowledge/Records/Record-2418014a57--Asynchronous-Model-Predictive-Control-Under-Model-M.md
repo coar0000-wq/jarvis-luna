@@ -2,7 +2,7 @@
 title: "Record 2418014a57 · Asynchronous-Model-Predictive-Control-Under-Model-Mismatch-Stability-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.112063+00:00
+updated_at: 2026-09-12T16:53:18.403314+00:00
 tags: [record, real-data]
 ---
 

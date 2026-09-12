@@ -2,7 +2,7 @@
 title: "Record 9226e143b7 · Why-Is-the-Turning-Myself-Into-an-LA-10-Trend-Attracting-So-Many-Hate-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T15:33:57.516349+00:00
+updated_at: 2026-09-12T16:53:18.816392+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMitAFBVV95cUxQSkxUWkRTY2d4d1BIcEw4UGNNd3Vkem9JXzBZTXZnWnY3TWNZLVhwUTFFSHpEM3ZkdnVpWkZaRWc4Yl9lem9pMVdHVnRMakhNSUo3YUZZMXhjbnlSVmhEbTYtYUFFLU9vNDVLRzJ4eE5fSndFUW9kVl9hVVozRktFSXZkRzFfWTJPd3lJeE5pTzFVNURJTGZCMmZSZnQwNzAxbzQ4Y2oydkQ5b0x4ZTgxMlpEN2g?oc=5)
 
-**제목:** Why Is the "Turning Myself Into an LA 10" Trend Attracting So Many Hate Comments? - hypebae.com
+**제목:** Why Is the "Turning Myself Into an LA 10" Trend Attracting So Many Hate Comments? - Hypebae
 
-Why Is the "Turning Myself Into an LA 10" Trend Attracting So Many Hate Comments? - hypebae.com
+Why Is the "Turning Myself Into an LA 10" Trend Attracting So Many Hate Comments? - Hypebae
 
 **출처:** Source · Google Search
 
