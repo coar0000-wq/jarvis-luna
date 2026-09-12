@@ -1,121 +1,231 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""상품별 법률 자동 점검.
+"""S등급 상품의 미국 판매 전 자동 법률·라벨 점검.
 
-상품은 자비스가 고른다. 이 스크립트는 그 상품을 미국에 팔아도 되는지
-스스로 확인한다. 사람에게 상품 정보를 요구하지 않는다.
-
-점검 4가지
-  금지 표현      영문 카피에 미국에서 의약품 주장이 되는 문구가 있는지
-  기능성 표기    고시에 미백·주름개선이 적혀 있으면 영문에 옮기면 안 된다
-  선케어 OTC     SPF 표기가 있으면 미국에서 OTC 의약품이다
-  라벨 필수항목  성분·용량·제조사·원산지가 고시에서 확보됐는지
-
-pass 는 사람만 적는다. 여기서는 auto_checked 까지만 올린다.
-규제 판정을 기계가 확정하면 판매에 오히려 해롭다.
+중요:
+- 이 스크립트는 법률 자문이나 사람의 최종 PASS 판정을 대신하지 않는다.
+- 화장품 라벨 정보는 data/daiso_real/daiso_us_labels.json에서 읽는다.
+- data/gosi.json은 국가고시 데이터이므로 화장품 라벨 판정에 사용하지 않는다.
+- SPF/선스크린 상품은 OTC 의약품 검토 대상으로 계속 차단한다.
 """
+
 from __future__ import annotations
-import json, re
+
+import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Any
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 OUT = DATA / "legal_products.json"
+RECOMMENDATIONS = DATA / "daiso_real" / "shopify_s_recommendations.json"
+LABELS = DATA / "daiso_real" / "daiso_us_labels.json"
+COPIES = DATA / "shopify_listing_copy.json"
+RULES = DATA / "us_claim_rules.json"
+
+S_PRODUCT_IDS = {
+    "1048583",
+    "1062781",
+    "1041749",
+    "1049271",
+    "1041403",
+    "1045421",
+    "1059834",
+}
+
+LABEL_FIELDS = (
+    "ingredients_inci",
+    "net_contents",
+    "manufacturer",
+    "country_of_origin",
+)
 
 
-def load(p: Path):
+def load(path: Path, default: Any) -> Any:
     try:
-        return json.loads(p.read_text(encoding="utf-8-sig"))
+        return json.loads(path.read_text(encoding="utf-8-sig"))
     except (OSError, json.JSONDecodeError, UnicodeDecodeError):
-        return None
+        return default
+
+
+def now() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def as_text(value: Any) -> str:
+    return str(value or "").strip()
 
 
 def main() -> int:
-    doc = load(OUT)
-    if not doc:
-        print("legal_products.json 을 읽지 못했다")
-        return 1
-    rules = load(DATA / "us_claim_rules.json") or {}
-    banned = [t.lower() for g in (rules.get("banned") or {}).values() for t in g]
-    gosi = ((load(DATA / "gosi.json") or {}).get("items") or {})
-    copies = {str(i.get("pd_no")): (i.get("copy") or {})
-              for i in ((load(DATA / "shopify_listing_copy.json") or {}).get("items") or [])}
+    legal_doc = load(OUT, {})
+    if not isinstance(legal_doc, dict):
+        legal_doc = {}
 
-    KR_FUNCTIONAL = ("미백", "주름개선", "기능성")
+    existing_items = legal_doc.get("items")
+    if not isinstance(existing_items, dict):
+        existing_items = {}
+
+    recommendations_doc = load(RECOMMENDATIONS, {})
+    recommendations = recommendations_doc.get("recommendations") or []
+    recommendations_by_id = {
+        str(row.get("pd_no")): row
+        for row in recommendations
+        if isinstance(row, dict)
+        and str(row.get("pd_no", "")) in S_PRODUCT_IDS
+        and row.get("grade") == "S"
+    }
+
+    labels = load(LABELS, {})
+    if not isinstance(labels, dict):
+        labels = {}
+
+    copies_doc = load(COPIES, {})
+    copies = {
+        str(row.get("pd_no")): (row.get("copy") or {})
+        for row in (copies_doc.get("items") or [])
+        if isinstance(row, dict) and row.get("pd_no") is not None
+    }
+
+    rules_doc = load(RULES, {})
+    banned = [
+        as_text(term).lower()
+        for group in (rules_doc.get("banned") or {}).values()
+        if isinstance(group, list)
+        for term in group
+        if as_text(term)
+    ]
+
+    # 기존 상품을 보존하면서 현재 S등급 상품이 누락되어 있으면 자동 생성한다.
+    target_ids = set(existing_items) | set(recommendations_by_id)
     flagged = 0
-    for pd_no, row in (doc.get("items") or {}).items():
-        g = gosi.get(pd_no) or {}
-        c = copies.get(pd_no) or {}
-        blob = " ".join(str(c.get(k) or "") for k in
-                        ("title", "description_html", "seo_title",
-                         "seo_description", "product_type")).lower()
-        blob += " " + " ".join(str(t) for t in (c.get("tags") or []))
-        hits = sorted({t for t in banned if t in blob})
+    clean = 0
 
-        kr = str(g.get("functional") or "") + " " + str(g.get("name") or "")
-        is_functional = any(k in kr for k in KR_FUNCTIONAL)
-        name_all = f'{row.get("name","")} {g.get("volume","")} {g.get("name","")}'
-        is_spf = bool(re.search(r"spf\s*\d+|선크림|선쿠션|sunscreen", name_all, re.I))
-        label_fields = ("ingredients", "volume", "maker", "origin")
-        label_ok = all(str(g.get(f) or "").strip() for f in label_fields)
+    for pd_no in sorted(target_ids):
+        row = existing_items.get(pd_no)
+        if not isinstance(row, dict):
+            row = {}
+            existing_items[pd_no] = row
+
+        recommendation = recommendations_by_id.get(pd_no, {})
+        label = labels.get(pd_no) or {}
+        copy = copies.get(pd_no) or {}
+
+        row["name"] = (
+            recommendation.get("name")
+            or label.get("product_name_kr")
+            or row.get("name")
+            or ""
+        )
+
+        text_blob = " ".join(
+            as_text(copy.get(field))
+            for field in (
+                "title",
+                "description_html",
+                "seo_title",
+                "seo_description",
+                "product_type",
+            )
+        )
+        text_blob += " " + " ".join(
+            as_text(tag) for tag in (copy.get("tags") or [])
+        )
+
+        claim_hits = sorted({term for term in banned if term in text_blob.lower()})
+        product_blob = " ".join(
+            as_text(value)
+            for value in (
+                recommendation.get("name"),
+                label.get("product_name_kr"),
+                row.get("name"),
+            )
+        )
+        is_spf = bool(
+            re.search(r"spf\s*\d+|선크림|선쿠션|sunscreen", product_blob, re.I)
+        )
+
+        label_ok = all(as_text(label.get(field)) for field in LABEL_FIELDS)
+        label_missing = [
+            field for field in LABEL_FIELDS if not as_text(label.get(field))
+        ]
 
         checks = {
-            "banned_claim": {"ok": not hits, "detail": ", ".join(hits[:5]) or "없음"},
-            "kr_functional": {
-                "ok": True,
-                "detail": ("한국 기능성 표기 있음 - 영문에 옮기지 말 것"
-                           if is_functional else "해당 없음"),
-                "note": "표기 자체는 문제가 아니다. 영문으로 번역하면 문제가 된다.",
+            "banned_claim": {
+                "ok": not claim_hits,
+                "detail": ", ".join(claim_hits[:5]) or "없음",
             },
             "otc_sunscreen": {
-                "ok": True,
-                "detail": ("SPF 제품 - 미국에서 OTC 의약품. Drug Facts 라벨 필요"
-                           if is_spf else "해당 없음"),
+                "ok": not is_spf,
+                "detail": (
+                    "SPF/선스크린 제품 - 미국 OTC 의약품 검토 필요"
+                    if is_spf else "해당 없음"
+                ),
             },
             "label_fields": {
                 "ok": label_ok,
-                "detail": ("4항목 확보" if label_ok else
-                           "미확보: " + ", ".join(
-                               f for f in label_fields if not str(g.get(f) or "").strip())),
+                "detail": (
+                    "4항목 확보"
+                    if label_ok
+                    else "미확보: " + ", ".join(label_missing)
+                ),
             },
         }
-        blockers = [k for k, v in checks.items() if not v["ok"]]
+
+        blockers = [
+            name for name, result in checks.items() if not result["ok"]
+        ]
+        hard_block = bool(blockers)
+
+        row["status"] = row.get("status") or "auto_checked"
+        if row["status"] == "pass" and hard_block:
+            # 새 자동 차단 사유가 생기면 사람 PASS를 유지하지 않는다.
+            row["status"] = "pending"
         row["auto_checks"] = checks
         row["auto_blockers"] = blockers
-        row["needs_attention"] = bool(hits) or is_functional or is_spf
-        # 등록을 실제로 막을 것과 알려만 둘 것을 나눈다.
-        # 한국 기능성 표기 자체는 막을 사유가 아니다. 영문 카피 생성 단계에서
-        # 금지어를 아예 쓰지 않게 막고 있어서 여기서 또 막으면 이중이다.
-        # SPF 는 미국에서 OTC 의약품이라 사람 확인 없이는 못 올린다.
-        row["hard_block"] = bool(blockers) or is_spf or bool(hits)
+        row["needs_attention"] = bool(claim_hits) or is_spf or not label_ok
+        row["hard_block"] = hard_block
         row["hard_block_reason"] = (
-            ("자동 점검 미통과: " + ", ".join(blockers)) if blockers
-            else "SPF 표기 - 미국 OTC 의약품이라 라벨 요건이 별도" if is_spf
-            else "금지 표현 발견" if hits else ""
+            "자동 점검 미통과: " + ", ".join(blockers)
+            if blockers else ""
         )
-        row["auto_checked_at"] = datetime.now(timezone.utc).isoformat()
-        if row.get("status") == "pending":
-            row["status"] = "auto_checked" if not blockers else "pending"
-        if row["needs_attention"]:
-            flagged += 1
+        row["auto_checked_at"] = now()
 
-    items = doc.get("items") or {}
-    doc["auto_summary"] = {
-        "checked": len(items),
-        "clean": sum(1 for r in items.values() if not r.get("auto_blockers")),
+        if hard_block or row["status"] != "pass":
+            flagged += 1
+        else:
+            clean += 1
+
+    legal_doc["team"] = legal_doc.get("team", "법률·규제팀")
+    legal_doc["items"] = existing_items
+    legal_doc["auto_summary"] = {
+        "checked": len(existing_items),
+        "clean": clean,
         "needs_attention": flagged,
-        "pass": sum(1 for r in items.values() if r.get("status") == "pass"),
+        "pass": sum(
+            1 for row in existing_items.values()
+            if isinstance(row, dict) and row.get("status") == "pass"
+        ),
     }
-    doc["auto_checked_at"] = datetime.now(timezone.utc).isoformat()
-    OUT.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    s = doc["auto_summary"]
-    print(f"점검 {s['checked']}건 · 통과 {s['clean']} · 주의 {s['needs_attention']} · 사람 PASS {s['pass']}")
-    for k, r in items.items():
-        if r.get("needs_attention"):
-            det = [v["detail"] for v in (r.get("auto_checks") or {}).values()
-                   if v.get("detail") not in ("없음", "해당 없음", "4항목 확보")]
-            print(f"  주의 {k}  {str(r.get('name'))[:24]}  {' / '.join(det)[:70]}")
+    legal_doc["auto_checked_at"] = now()
+
+    OUT.write_text(
+        json.dumps(legal_doc, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    print(
+        f"법률 점검 완료: {len(existing_items)}건 · "
+        f"자동 무차단 {clean} · 주의/차단 {flagged}"
+    )
+    for pd_no in sorted(recommendations_by_id):
+        row = existing_items[pd_no]
+        if row.get("hard_block"):
+            print(
+                f"  차단 {pd_no} {row.get('name', '')[:30]}: "
+                f"{row.get('hard_block_reason', '')}"
+            )
     return 0
 
 
