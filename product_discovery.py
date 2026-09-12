@@ -44,9 +44,9 @@ def collect_real_products():
             }
         }
     ]
-    
+
     valid = [p for p in products if validate_evidence(p)]
-    
+
     if not valid:
         DATA_PATH.write_text(json.dumps({
             "products": [],
@@ -55,7 +55,7 @@ def collect_real_products():
         }, indent=2), encoding="utf-8")
         print("ℹ️ 유효 데이터 없음 - 위젯 숨김")
         return []
-    
+
     DATA_PATH.write_text(json.dumps({
         "products": valid,
         "updated_at": datetime.datetime.utcnow().isoformat() + "Z"
