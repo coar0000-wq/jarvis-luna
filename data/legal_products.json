@@ -77,7 +77,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-12T13:28:13.061660+00:00",
+      "auto_checked_at": "2026-09-12T15:43:08.968355+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
@@ -110,7 +110,7 @@
         "label_fields"
       ],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-12T13:28:13.061511+00:00",
+      "auto_checked_at": "2026-09-12T15:43:08.968206+00:00",
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: otc_sunscreen, label_fields",
       "hs_basis": "버킷 ''",
@@ -140,7 +140,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-12T13:28:13.061716+00:00",
+      "auto_checked_at": "2026-09-12T15:43:08.968412+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
@@ -172,7 +172,7 @@
         "label_fields"
       ],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-12T13:28:13.061593+00:00",
+      "auto_checked_at": "2026-09-12T15:43:08.968288+00:00",
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '스킨케어'",
@@ -204,7 +204,7 @@
         "label_fields"
       ],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-12T13:28:13.061931+00:00",
+      "auto_checked_at": "2026-09-12T15:43:08.968630+00:00",
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '스킨케어'",
@@ -237,7 +237,7 @@
         "label_fields"
       ],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-12T13:28:13.061904+00:00",
+      "auto_checked_at": "2026-09-12T15:43:08.968602+00:00",
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: otc_sunscreen, label_fields",
       "hs_basis": "버킷 ''",
@@ -267,7 +267,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-12T13:28:13.061791+00:00",
+      "auto_checked_at": "2026-09-12T15:43:08.968487+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '마스크팩'",
@@ -297,7 +297,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-12T13:28:13.061411+00:00",
+      "auto_checked_at": "2026-09-12T15:43:08.968106+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
@@ -327,7 +327,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-12T13:28:13.061877+00:00",
+      "auto_checked_at": "2026-09-12T15:43:08.968573+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
@@ -359,7 +359,7 @@
         "label_fields"
       ],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-12T13:28:13.061809+00:00",
+      "auto_checked_at": "2026-09-12T15:43:08.968505+00:00",
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '마스크팩'",
@@ -391,7 +391,7 @@
         "label_fields"
       ],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-12T13:28:13.061918+00:00",
+      "auto_checked_at": "2026-09-12T15:43:08.968617+00:00",
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '헤어케어'",
@@ -423,7 +423,7 @@
         "label_fields"
       ],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-12T13:28:13.061891+00:00",
+      "auto_checked_at": "2026-09-12T15:43:08.968588+00:00",
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '클렌징'",
@@ -450,7 +450,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-12T13:28:13.061488+00:00",
+      "auto_checked_at": "2026-09-12T15:43:08.968182+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -476,7 +476,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-12T13:28:13.061573+00:00",
+      "auto_checked_at": "2026-09-12T15:43:08.968268+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -488,5 +488,5 @@
     "needs_attention": 14,
     "pass": 0
   },
-  "auto_checked_at": "2026-09-12T13:28:13.061938+00:00"
+  "auto_checked_at": "2026-09-12T15:43:08.968637+00:00"
 }
