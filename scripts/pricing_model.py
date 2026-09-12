@@ -188,13 +188,31 @@ def load_gosi_volume() -> dict:
 
     다만 이것은 내용물 기준이다. 배송 무게는 여기에 용기와 포장이 붙는다.
     그래서 실측은 아니고 근거가 더 나은 추정이다.
+
+    items 가 dict / list 둘 다 와도 동작하도록 처리한다.
+    (list 인데 .items() 를 호출하면 AttributeError 가 난다.)
     """
     try:
         d = json.loads(GOSI_PATH.read_text(encoding="utf-8-sig"))
     except (OSError, json.JSONDecodeError, UnicodeDecodeError):
         return {}
     out = {}
-    for pd_no, v in (d.get("items") or {}).items():
+    raw_items = d.get("items") if isinstance(d, dict) else None
+    if isinstance(raw_items, dict):
+        pairs = list(raw_items.items())
+    elif isinstance(raw_items, list):
+        pairs = []
+        for i, v in enumerate(raw_items):
+            if not isinstance(v, dict):
+                continue
+            pd_no = v.get("pd_no") or v.get("product_id") or v.get("id") or i
+            pairs.append((str(pd_no), v))
+    else:
+        pairs = []
+
+    for pd_no, v in pairs:
+        if not isinstance(v, dict):
+            continue
         raw = str(v.get("volume") or "").strip()
         if not raw:
             continue
