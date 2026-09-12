@@ -1,36 +1,80 @@
 name: JARVIS Deep Analysis
+
 on:
   workflow_dispatch:
+
   schedule:
     - cron: '0 2 * * *'
+
   push:
     paths:
       - 'product_discovery.py'
       - 'gosi_collector.py'
       - 'generate_dashboard_runtime.py'
       - 'inci_converter.py'
+
 concurrency:
-  group: jarvis-deep-${{ github.ref }}
+  group: jarvis-main-writer-${{ github.ref }}
   cancel-in-progress: false
+
 permissions:
   contents: write
+
 jobs:
   deep-analysis:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: {python-version: '3.11'}
-      - run: pip install requests beautifulsoup4 || true
-      - run: python gosi_collector.py
-      - run: python product_discovery.py
-      - run: python inci_converter.py
-      - run: python shopify_uploader.py || echo "shopify optional"
-      - run: python generate_dashboard_runtime.py
-      - run: |
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 || true
+
+      - name: Run GOSI collector
+        run: |
+          python gosi_collector.py
+
+      - name: Run product discovery
+        run: |
+          python product_discovery.py
+
+      - name: Run INCI converter
+        run: |
+          python inci_converter.py
+
+      - name: Run Shopify uploader
+        run: |
+          python shopify_uploader.py || echo "shopify optional"
+
+      - name: Generate dashboard runtime
+        run: |
+          python generate_dashboard_runtime.py
+
+      - name: Commit and push generated data
+        run: |
           git config user.name "JARVIS"
           git config user.email "jarvis@luna.bot"
+
           git add -A
-          git commit -m "feat: JARVIS Deep Analysis - $(date +%Y-%m-%d) - auto" || echo "nothing"
-          git push origin main
+
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+
+          git commit -m "feat: JARVIS Deep Analysis - $(date +%Y-%m-%d) - auto"
+
+          git fetch origin main
+          git rebase origin/main
+
+          git push origin HEAD:main
