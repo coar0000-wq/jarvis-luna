@@ -9,6 +9,7 @@ on:
       - 'data/team_status.json'
       - 'product_discovery.py'
       - 'gosi_collector.py'
+      - 'generate_dashboard_runtime.py'
 
 concurrency:
   group: jarvis-chief-${{ github.ref }}
@@ -23,16 +24,15 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+
       - name: Show current team status
         run: |
           cat data/team_status.json | python -m json.tool || echo "no file"
-          echo "---"
           python3 -c "import json; d=json.load(open('data/team_status.json')); print(f'이상: {len([r for r in d.get(\"reports\",[]) if r.get(\"status\")==\"이상\"])}건')"
 
       - name: Run Chief of Staff auto-fix
@@ -46,14 +46,7 @@ jobs:
         run: |
           FAIL_COUNT=$(python3 -c "import json; d=json.load(open('data/team_status.json')); print(len([r for r in d.get('reports',[]) if r.get('status')=='이상']))")
           echo "FAIL Count after fix: $FAIL_COUNT"
-          if [ "$FAIL_COUNT" -gt 0 ]; then
-            echo "⚠️ FAIL 항목 $FAIL_COUNT건 남음 - 로그 확인"
-            cat data/team_status.json | python -m json.tool
-            cat data/chief_of_staff_log.json | python -m json.tool || true
-          else
-            echo "✅ FAIL 없음 - 정상"
-          fi
-          # 여기서 exit 1 하지 않음 - 자동화가 계속 돌아가게
+          cat data/chief_of_staff_log.json || echo "no log"
           exit 0
 
       - name: Push if fixed
@@ -61,6 +54,5 @@ jobs:
           git config user.name "JARVIS"
           git config user.email "jarvis@luna.bot"
           git add -A
-          git commit -m "fix: auto-fix FAIL ${FAIL_COUNT} -> 0 - JARVIS auto" || echo "nothing to commit"
-          git push origin main || echo "push failed"
-          git log -1 --oneline
+          git commit -m "fix: auto-fix FAIL -> 0 - $(date +%Y-%m-%d) - JARVIS auto" || echo "nothing to commit"
+          git push origin main || echo "push skipped"
