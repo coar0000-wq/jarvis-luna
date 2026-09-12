@@ -475,21 +475,11 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         # 수동 입력 폴더에 pd_no 가 등장하는 상품만 고시표가 들어온 것으로 본다
         # 고시는 gosi.json 이 정본이다. data/manual 을 뒤지던 옛 방식은
         # 고시 수집기가 생긴 뒤로 실제 상태와 맞지 않는다.
-        gate = load_json(D / "listing_gate.json", None)
-
-        if isinstance(gate, dict):
-            gate_items = gate.get("items") or []
-
-            pending = [
-                p for p in s_grade
-                if any(
-                    str(g.get("pd_no")) == str(p.get("pd_no"))
-                    and "gosi" in (g.get("blocked_by") or [])
-                    for g in gate_items
-                )
-            ]
-        else:
-            pending = []
+        gosi = (load_json(D / "gosi.json", None) or {}).get("items") or {}
+        REQ = ("ingredients", "volume", "maker", "origin")
+        entered = {k for k, v in gosi.items()
+                   if all(str(v.get(f) or "").strip() for f in REQ)}
+        pending = [p for p in s_grade if str(p.get("pd_no")) not in entered]
         cards.append(_team(
             "market", "마케팅 조사팀", iso_mtime(D / "market_team.json"),
             f'S등급 {len(s_grade)}개 · 고시표 입력 대기 {len(pending)}건' + feed_tail("market"),
