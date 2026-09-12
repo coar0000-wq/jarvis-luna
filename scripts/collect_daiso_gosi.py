@@ -197,4 +197,82 @@ def collect_one(pd_no: str, row: dict[str, Any]) -> None:
             ext = ".png"
         dest = IMGDIR / f"{pd_no}_{i:02d}{ext}"
         if download_image(url, dest):
-            saved.
+            saved.append(str(dest.relative_to(ROOT)))
+        time.sleep(0.3)
+
+    if detail_imgs:
+        row["detail_images"] = detail_imgs
+    if saved:
+        row["gosi_image"] = saved[0]
+        row["gosi_images"] = saved
+        row["고시_위치"] = (
+            "텍스트 API는 '상세페이지 참조'만 반환. "
+            "실제 고시 표는 상품설명 더보기 상세 이미지에 있음. "
+            "비전/OCR 또는 수동 입력이 필요."
+        )
+        print(f"  상세 이미지 {len(saved)}/{len(detail_imgs)}장 저장")
+    else:
+        print("  상세 이미지 없음/다운로드 실패")
+
+    row["captured_at"] = datetime.now(timezone.utc).isoformat()
+    # 비어 있는 필수칸 표시 (거짓으로 '완료'라고 쓰지 않음)
+    missing = [
+        k for k in ("volume", "maker", "origin", "ingredients")
+        if not str(row.get(k) or "").strip()
+    ]
+    row["텍스트_미수집"] = missing
+    if missing and saved:
+        row["다음_조치"] = (
+            f"이미지 {len(saved)}장에서 비전으로 {', '.join(missing)} 추출 필요"
+        )
+
+
+def main() -> int:
+    try:
+        doc = json.loads(GOSI.read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"data/gosi.json 읽기 실패: {exc}")
+        return 1
+
+    items = doc.get("items") or {}
+    if isinstance(items, list):
+        items = {
+            str(row.get("product_id") or row.get("pd_no")): row
+            for row in items
+            if isinstance(row, dict)
+            and (row.get("product_id") or row.get("pd_no"))
+        }
+        doc["items"] = items
+    if not isinstance(items, dict):
+        print("data/gosi.json의 items는 object 또는 list여야 합니다.")
+        return 1
+
+    print(f"고시 수집 대상 {len(items)}건")
+    print("참고: 다이소 고시 본문은 이미지고, API는 '상세페이지 참조'가 기본입니다.")
+
+    for pd_no, row in items.items():
+        if not isinstance(row, dict):
+            continue
+        try:
+            collect_one(str(pd_no), row)
+        except Exception as exc:
+            print(f"  오류 {pd_no}: {exc}")
+            row["collect_error"] = f"{type(exc).__name__}: {exc}"
+
+    doc["last_auto_run"] = datetime.now(timezone.utc).isoformat()
+    doc["수집_설명"] = (
+        "공식 고시 API는 대부분 '상세페이지 참조'. "
+        "사용자가 보는 고시 표는 상품설명 더보기 상세 이미지. "
+        "이미지는 data/daiso_real/gosi_img/ 에 저장. "
+        "전성분·제조사는 비전 추출 또는 수동 입력이 필요하다."
+    )
+    GOSI.write_text(
+        json.dumps(doc, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    print("DAISO gosi updated")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
