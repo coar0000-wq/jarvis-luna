@@ -1,17 +1,61 @@
 name: Chief of Staff Auto-Fix
+
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/30 * * * *'  # 30분마다 팀 현황 체크
   workflow_dispatch:
   push:
-    paths: ['data/team_status.json']
+    paths:
+      - 'data/team_status.json'
+
+concurrency:
+  group: jarvis-chief-${{ github.ref }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
+
 jobs:
   chief-auto-fix:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: '3.11' }
-      - run: python chief_of_staff.py
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Check team status
+        run: |
+          cat data/team_status.json | python -m json.tool
+          python -m json.tool data/team_status.json > /dev/null
+      
+      - name: Run Chief of Staff auto-fix
+        run: |
+          python chief_of_staff.py
+      
+      - name: Generate Dashboard Runtime (증거 검증)
+        run: |
+          python gosi_collector.py
+          python product_discovery.py
+          python generate_dashboard_runtime.py
+          python -m json.tool dashboard_runtime.json > /dev/null
+      
+      - name: Push if fixed (CLAUDE.md Rule 3)
+        run: |
+          git config user.name "JARVIS"
+          git config user.email "jarvis@luna.bot"
+          git status
+          git diff --stat
+          git add -A
+          git commit -m "fix: chief_of_staff auto-fix + runtime regen - $(date +%Y-%m-%d) - auto" || echo "nothing to commit"
+          git push origin main
+          git log -1 --oneline
+      
+      - name: Report result
+        if: always()
+        run: |
+          cat data/chief_of_staff_log.json || echo "no log"
+          cat dashboard_runtime.json | python -m json.tool | head -100
