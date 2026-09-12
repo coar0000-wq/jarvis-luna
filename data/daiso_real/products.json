@@ -1,9 +1,7 @@
 {
-  "updated_at": "2026-09-11T03:52:38.949269+00:00",
+  "updated_at": "2026-09-12T04:41:38.277974+00:00",
   "source": "Daiso Korea",
-  "truth_note": "가격은 상품 페이지에 표시된 실제 원화 금액입니다. 배송비·관세·수수료는 확정 견적이 없어 계산하지 않습니다.",
-  "merge_note": "2026-09-11: 가격없음 실패 7건 블랙리스트 제외, 로션/오일/미스트 계열 대체 7건 병합 (added=5, updated=2, removed_blacklist=0). category_url=https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01114",
-  "count": 219,
+  "count": 222,
   "products": [
     {
       "pd_no": "1044428",
@@ -1742,6 +1740,20 @@
       "bucket": "바디케어"
     },
     {
+      "pd_no": "1072855",
+      "name": "[등드름케어]VT 리들샷 비 클리어 AC 워시오프 바디미스트 150 ml",
+      "brand": "VT",
+      "site_category": "로션/오일/미스트",
+      "price_krw": 5000,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260629/8DGepjQE26iBOECx7gh71072855_00_018DGepjQE26iBOECx7gh7.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072855",
+      "collected_at": "2026-09-11T03:48:55.048999+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "바디케어",
+      "replace_for": "가격없음 7건 → 로션/오일/미스트",
+      "category_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01114"
+    },
+    {
       "pd_no": "1041809",
       "name": "[뮤겟바닐라]데일리콤마 모스트 퍼퓸 핸드크림 50 ml",
       "brand": "데일리콤마",
@@ -1852,6 +1864,20 @@
       "collected_at": "2026-09-05T21:17:37.399811+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "바디케어"
+    },
+    {
+      "pd_no": "1048267",
+      "name": "샤워메이트 사철쑥 시카 케어 바디 미스트 200 ml",
+      "brand": "샤워메이트",
+      "site_category": "로션/오일/미스트",
+      "price_krw": 5000,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251218/tLwZ56GKJpzQHMsLAG2N1048267_00_01tLwZ56GKJpzQHMsLAG2N.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048267",
+      "collected_at": "2026-09-11T03:48:56.050972+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "바디케어",
+      "replace_for": "가격없음 7건 → 로션/오일/미스트",
+      "category_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01114"
     },
     {
       "pd_no": "1042531",
@@ -2190,6 +2216,20 @@
       "bucket": "스킨케어"
     },
     {
+      "pd_no": "1062777",
+      "name": "닥터씨피유 모이스처소프트 스팀크림 60 g",
+      "brand": "닥터씨피유",
+      "site_category": "크림",
+      "price_krw": 5000,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250403/J9yrAc6bVG73Qjyvg6mb1062777_00_01J9yrAc6bVG73Qjyvg6mb.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062777",
+      "collected_at": "2026-09-11T03:48:58.051808+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "스킨케어",
+      "replace_for": "가격없음 7건 → 로션/오일/미스트",
+      "category_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01114"
+    },
+    {
       "pd_no": "1064419",
       "name": "닥터오라클 큐어소나 리쥬코드 캡슐 세럼 30 ml",
       "brand": "닥터오라클",
@@ -2244,6 +2284,34 @@
       "collected_at": "2026-08-23T06:03:37.734698+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "스킨케어"
+    },
+    {
+      "pd_no": "1061697",
+      "name": "더페이스샵 스밈 보습밀도 장벽 세럼 45 ml",
+      "brand": "더페이스샵",
+      "site_category": "에센스/세럼/앰플",
+      "price_krw": 5000,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250213/81CX04PlrLKd3AYOc95u1061697_00_0181CX04PlrLKd3AYOc95u.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061697",
+      "collected_at": "2026-09-11T03:48:59.056176+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "스킨케어",
+      "replace_for": "가격없음 7건 → 로션/오일/미스트",
+      "category_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01114"
+    },
+    {
+      "pd_no": "1061698",
+      "name": "더페이스샵 스밈 보습밀도 장벽 에멀전 100 ml",
+      "brand": "더페이스샵",
+      "site_category": "크림",
+      "price_krw": 5000,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250213/gCxk2UQhxxJ9XSAOZDLq1061698_00_01gCxk2UQhxxJ9XSAOZDLq.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061698",
+      "collected_at": "2026-09-11T03:48:57.048211+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "스킨케어",
+      "replace_for": "가격없음 7건 → 로션/오일/미스트",
+      "category_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01114"
     },
     {
       "pd_no": "1074954",
@@ -2356,22 +2424,6 @@
       "collected_at": "2026-09-08T22:05:53.696464+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "스킨케어"
-    },
-    {
-      "pd_no": "1060583",
-      "name": "메리트 미라클 아르간 오일 플로럴 블룸 95 ml",
-      "brand": "다이소",
-      "site_category": "헤어에센스",
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 441,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250507/OeJ6ooTkYW0V7AtuHx2P1060583_00_00OeJ6ooTkYW0V7AtuHx2P.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060583",
-      "collected_at": "2026-09-11T03:49:01.070538+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "헤어케어",
-      "replace_for": "가격없음 7건 → 로션/오일/미스트",
-      "category_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01114"
     },
     {
       "pd_no": "1055165",
@@ -2936,6 +2988,60 @@
       "bucket": "헤어케어"
     },
     {
+      "pd_no": "1078702",
+      "name": "디즈니 베이커리 푸 접이식 빗 거울 세트",
+      "brand": "다이소",
+      "site_category": "헤어기기/브러시",
+      "price_krw": 1000,
+      "price_source": "json:price",
+      "sold_out": true,
+      "stock_note": "품절 표시 있음",
+      "stock_checked_at": "2026-09-12T04:17:32.990810+00:00",
+      "rating": 4.9,
+      "review_count": 73,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260723/80nMRNYoFPXEddtdr18h1078702_00_0080nMRNYoFPXEddtdr18h.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1078702",
+      "collected_at": "2026-09-12T04:17:32.990823+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "헤어케어",
+      "detailed_http_status": 200
+    },
+    {
+      "pd_no": "1078705",
+      "name": "디즈니 베이커리 푸 헤어롤 45 mm 3개입",
+      "brand": "다이소",
+      "site_category": "헤어소품",
+      "price_krw": 1000,
+      "price_source": "json:price",
+      "sold_out": false,
+      "stock_note": "판매 중",
+      "stock_checked_at": "2026-09-12T04:24:20.415034+00:00",
+      "rating": null,
+      "review_count": null,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260811/GioOf4uZct56CWxNMBnA1078705_00_00GioOf4uZct56CWxNMBnA.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1078705",
+      "collected_at": "2026-09-12T04:24:20.415047+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "헤어케어",
+      "detailed_http_status": 200
+    },
+    {
+      "pd_no": "1060583",
+      "name": "메리트 미라클 아르간 오일 플로럴 블룸 95 ml",
+      "brand": "다이소",
+      "site_category": "헤어에센스",
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 441,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250507/OeJ6ooTkYW0V7AtuHx2P1060583_00_00OeJ6ooTkYW0V7AtuHx2P.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060583",
+      "collected_at": "2026-09-11T03:49:01.070538+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "헤어케어",
+      "replace_for": "가격없음 7건 → 로션/오일/미스트",
+      "category_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01114"
+    },
+    {
       "pd_no": "1069995",
       "name": "실크테라피 실크케라틴 앰플트리트먼트 150 ml",
       "brand": "실크테라피",
@@ -3006,74 +3112,23 @@
       "bucket": "헤어케어"
     },
     {
-      "pd_no": "1072855",
-      "name": "[등드름케어]VT 리들샷 비 클리어 AC 워시오프 바디미스트 150 ml",
-      "brand": "VT",
-      "site_category": "로션/오일/미스트",
+      "pd_no": "1079875",
+      "name": "쿤달 리치퍼퓸 볼륨업 샴푸 385 ml",
+      "brand": "쿤달",
+      "site_category": "샴푸/린스",
       "price_krw": 5000,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260629/8DGepjQE26iBOECx7gh71072855_00_018DGepjQE26iBOECx7gh7.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072855",
-      "collected_at": "2026-09-11T03:48:55.048999+00:00",
+      "price_source": "json:price",
+      "sold_out": false,
+      "stock_note": "판매 중",
+      "stock_checked_at": "2026-09-12T04:34:49.971270+00:00",
+      "rating": 4.7,
+      "review_count": 81,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260723/ipvjXCN0wEhJtxskTmYV1079875_00_00ipvjXCN0wEhJtxskTmYV.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1079875",
+      "collected_at": "2026-09-12T04:34:49.971282+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "바디케어",
-      "replace_for": "가격없음 7건 → 로션/오일/미스트",
-      "category_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01114"
-    },
-    {
-      "pd_no": "1048267",
-      "name": "샤워메이트 사철쑥 시카 케어 바디 미스트 200 ml",
-      "brand": "샤워메이트",
-      "site_category": "로션/오일/미스트",
-      "price_krw": 5000,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251218/tLwZ56GKJpzQHMsLAG2N1048267_00_01tLwZ56GKJpzQHMsLAG2N.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048267",
-      "collected_at": "2026-09-11T03:48:56.050972+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "바디케어",
-      "replace_for": "가격없음 7건 → 로션/오일/미스트",
-      "category_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01114"
-    },
-    {
-      "pd_no": "1061698",
-      "name": "더페이스샵 스밈 보습밀도 장벽 에멀전 100 ml",
-      "brand": "더페이스샵",
-      "site_category": "크림",
-      "price_krw": 5000,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250213/gCxk2UQhxxJ9XSAOZDLq1061698_00_01gCxk2UQhxxJ9XSAOZDLq.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061698",
-      "collected_at": "2026-09-11T03:48:57.048211+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어",
-      "replace_for": "가격없음 7건 → 로션/오일/미스트",
-      "category_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01114"
-    },
-    {
-      "pd_no": "1062777",
-      "name": "닥터씨피유 모이스처소프트 스팀크림 60 g",
-      "brand": "닥터씨피유",
-      "site_category": "크림",
-      "price_krw": 5000,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250403/J9yrAc6bVG73Qjyvg6mb1062777_00_01J9yrAc6bVG73Qjyvg6mb.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062777",
-      "collected_at": "2026-09-11T03:48:58.051808+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어",
-      "replace_for": "가격없음 7건 → 로션/오일/미스트",
-      "category_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01114"
-    },
-    {
-      "pd_no": "1061697",
-      "name": "더페이스샵 스밈 보습밀도 장벽 세럼 45 ml",
-      "brand": "더페이스샵",
-      "site_category": "에센스/세럼/앰플",
-      "price_krw": 5000,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250213/81CX04PlrLKd3AYOc95u1061697_00_0181CX04PlrLKd3AYOc95u.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061697",
-      "collected_at": "2026-09-11T03:48:59.056176+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어",
-      "replace_for": "가격없음 7건 → 로션/오일/미스트",
-      "category_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01114"
+      "bucket": "헤어케어",
+      "detailed_http_status": 200
     }
   ]
 }

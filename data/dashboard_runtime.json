@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T08:07:05.551626+09:00",
+  "generated_at": "2026-09-12T13:41:44.951130+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-09-11T22:41:46.157937+00:00",
-      "summary": "219개 상품 · 등급 S 7 / A 35 / B 27 / C 150 · 새 자료 220건",
-      "action": "직전 실행에서 19건 시도 중 7건 실패 (성공 12건) · 가격 없음 7",
+      "when": "2026-09-12T04:41:38.372644+00:00",
+      "summary": "222개 상품 · 등급 S 7 / A 35 / B 27 / C 153 · 새 자료 220건",
+      "action": "직전 실행에서 7건 시도 중 3건 실패 (성공 3건) · 상품 상세 HTML이 다이소몰 기본 페이지로 반환됨 3 · 품절·판매종료 1건",
       "status": "ok",
       "phase": "now",
       "phase_label": "1단계 · 후보 선정",
@@ -30,7 +30,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-12T08:05:44.948794+09:00",
+      "when": "2026-09-12T12:42:09.029691+09:00",
       "summary": "S등급 7개 · 고시표 입력 대기 1건 · 새 자료 43건",
       "action": "다이소 상세페이지 고시 표 1건 캡처 필요",
       "status": "ok",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-12T08:05:48.052687+09:00",
+      "when": "2026-09-12T12:42:12.157722+09:00",
       "summary": "81,098노트 · 320,811링크 · 끊어진 링크 110건 · 개인 노트 16건 별도 · 경고 통과(임계 300)",
       "action": null,
       "status": "ok",
@@ -285,7 +285,7 @@
     "status": "completed",
     "record_count": 3183,
     "source_counts": {},
-    "updated_at": "2026-09-12T08:05:44.940710+09:00"
+    "updated_at": "2026-09-12T12:42:09.022691+09:00"
   },
   "graph": {
     "notes": 81098,
@@ -299,7 +299,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-12T08:05:48.052687+09:00"
+    "last_generated": "2026-09-12T12:42:12.157722+09:00"
   },
   "training": {
     "status": "completed",
@@ -1394,21 +1394,21 @@
     "amazon_best_sellers": {
       "status": "stale",
       "source": "사람이 직접 확인 (sephora_2026-09-01.json)",
-      "reason": "2026-09-01 이후 갱신 없음 (11.0일). 출처 URL 미기재",
+      "reason": "2026-09-01 이후 갱신 없음 (11.2일). 출처 URL 미기재",
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 9,
       "trust": "manual",
-      "age_hours": 263.1,
+      "age_hours": 268.7,
       "stale": true
     },
     "walmart_beauty": {
       "status": "stale",
       "source": "사람이 직접 확인 (sephora_2026-09-01.json)",
-      "reason": "2026-09-01 이후 갱신 없음 (11.0일). 출처 URL 미기재",
+      "reason": "2026-09-01 이후 갱신 없음 (11.2일). 출처 URL 미기재",
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 5,
       "trust": "manual",
-      "age_hours": 263.1,
+      "age_hours": 268.7,
       "stale": true
     },
     "oliveyoung_us": {
@@ -1418,7 +1418,7 @@
       "collected_at": "2026-09-11T22:37:39.288064+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.5,
+      "age_hours": 6.1,
       "stale": false
     },
     "google_trends_us": {
@@ -1428,7 +1428,7 @@
       "collected_at": "2026-09-11T22:38:22.810582+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.5,
+      "age_hours": 6.1,
       "stale": false
     },
     "wikipedia_interest": {
@@ -1439,7 +1439,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-11 ~ 2026-09-09 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 0.8,
+      "age_hours": 6.4,
       "stale": false
     },
     "allure_media": {
@@ -1450,7 +1450,7 @@
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 0.8,
+      "age_hours": 6.4,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -1461,7 +1461,7 @@
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 0.8,
+      "age_hours": 6.4,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1483,21 +1483,21 @@
     "ulta_beauty": {
       "status": "stale",
       "source": "사람이 직접 확인 (sephora_2026-09-01.json)",
-      "reason": "2026-09-01 이후 갱신 없음 (11.0일). 출처 URL 미기재",
+      "reason": "2026-09-01 이후 갱신 없음 (11.2일). 출처 URL 미기재",
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 8,
       "trust": "manual",
-      "age_hours": 263.1,
+      "age_hours": 268.7,
       "stale": true
     },
     "sephora": {
       "status": "stale",
       "source": "사람이 직접 확인 (sephora_2026-09-01.json)",
-      "reason": "2026-09-01 이후 갱신 없음 (11.0일). 출처 URL 미기재",
+      "reason": "2026-09-01 이후 갱신 없음 (11.2일). 출처 URL 미기재",
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 10,
       "trust": "manual",
-      "age_hours": 263.1,
+      "age_hours": 268.7,
       "stale": true
     },
     "open_beauty_facts": {
@@ -1507,7 +1507,7 @@
       "collected_at": "2026-09-11T22:37:32.549408+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.5,
+      "age_hours": 6.1,
       "stale": false
     }
   },
