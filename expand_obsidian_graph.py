@@ -36,6 +36,63 @@ def slug(text: str, fallback: str = "Node") -> str:
     return clean or fallback
 
 
+# 해시 -> 처음 정한 이름. 회차가 바뀌어도 같은 이름을 쓰게 한다.
+# 볼트 밖에 둔다. 노트가 아니라 장부라서 그래프에 끼면 안 된다.
+LEDGER = Path(__file__).resolve().parent / "data" / "obsidian_record_names.json"
+_LEDGER: dict[str, str] | None = None
+_LEDGER_DIRTY: list[int] = []
+
+
+def name_ledger() -> dict[str, str]:
+    global _LEDGER
+    if _LEDGER is None:
+        try:
+            _LEDGER = json.loads(LEDGER.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            _LEDGER = {}
+        if not isinstance(_LEDGER, dict):
+            _LEDGER = {}
+    return _LEDGER
+
+
+def save_ledger() -> None:
+    if not _LEDGER_DIRTY:
+        return
+    LEDGER.parent.mkdir(parents=True, exist_ok=True)
+    LEDGER.write_text(
+        json.dumps(name_ledger(), indent=0, ensure_ascii=False,
+                   sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+    print(f"이름 장부 {len(name_ledger()):,}건 저장 "
+          f"(이번에 새로 정한 것 {len(_LEDGER_DIRTY):,}건)")
+
+
+def seed_ledger_from_disk(folder: Path) -> int:
+    """이미 디스크에 있는 노트 이름을 장부에 먼저 넣는다.
+
+    장부가 없던 시절에 만들어진 노트가 대부분이다. 그것들을 먼저
+    등록해야 오늘부터 이름이 바뀌지 않는다. 같은 해시가 여러 개면
+    먼저 만난 것을 쓴다. 어느 쪽이든 하나로 고정되는 것이 중요하다.
+    """
+    led = name_ledger()
+    added = 0
+    for p in sorted(folder.rglob("Record-*.md")):
+        m = re.match(r"Record-([0-9a-f]{10})--", p.stem)
+        if not m:
+            continue
+        h = m.group(1)
+        if h in led:
+            continue
+        # 파일 이름은 이미 slug 를 거친 형태다. 그대로 뒤에 붙이면
+        # 다시 slug 를 통과해도 같은 파일 이름이 나온다.
+        led[h] = f"Record {h} · " + p.stem[len(f"Record-{h}--"):]
+        added += 1
+    if added:
+        _LEDGER_DIRTY.append(added)
+    return added
+
+
 def record_key(row: dict) -> str:
     """자료 하나를 가리키는 고정 이름.
 
@@ -64,7 +121,35 @@ def record_key(row: dict) -> str:
     url = str(row.get("url") or "").strip()
     title = unicodedata.normalize("NFC", str(row.get("title") or "Untitled").strip())
     h = hashlib.sha256((url or title).encode("utf-8")).hexdigest()[:10]
-    return f"Record {h} · {slug(title, 'Record')}"
+    name = f"Record {h} · {slug(title, 'Record')}"
+
+    # 한 번 정한 이름은 계속 그 이름을 쓴다 (2026-09-13)
+    #
+    # 해시는 URL 로 정해지니 회차가 바뀌어도 같다. 그런데 제목은 바뀐다.
+    # 정확히는 제목의 대소문자가 바뀐다. 수집기마다 출처 이름을 다르게
+    # 적기 때문이다. 그래서 같은 해시에 이런 짝이 생겼다.
+    #
+    #   Record-018fb3abd4--Many-Shot-Jailbreaking.md
+    #   Record-018fb3abd4--Many-shot-jailbreaking.md
+    #   Record-056ae43ebf--...---TechRa.md
+    #   Record-056ae43ebf--...---techra.md
+    #
+    # 30쌍 60개를 실측했다. 전부 같은 해시에 대소문자만 다르다.
+    #
+    # 윈도우는 이 둘을 같은 파일로 본다. 그래서 저장소에는 두 경로가
+    # 등록되는데 디스크에는 하나뿐이다. 그러면 한쪽은 영원히 '수정됨'
+    # 으로 남는다. 작업 폴더가 절대 깨끗해지지 않고 rebase 가 막힌다.
+    # 오늘 푸시할 때 실제로 그것 때문에 막혀서 배관 명령으로 우회했다.
+    #
+    # 회차 안에서만 걸러서는 안 막힌다. 다음 회차는 기억이 없기 때문이다.
+    # 그래서 해시별로 처음 정한 이름을 파일에 적어 두고 계속 그것을 쓴다.
+    # 이름을 바꾸지 않으므로 이미 걸린 링크도 안 끊어진다.
+    fixed = name_ledger().get(h)
+    if fixed:
+        return fixed
+    name_ledger()[h] = name
+    _LEDGER_DIRTY.append(1)
+    return name
 
 
 def wiki(name: str) -> str:
@@ -199,6 +284,11 @@ def main() -> int:
     if not rows:
         raise SystemExit("No real records found; refusing to generate graph nodes.")
     KNOWLEDGE.mkdir(parents=True, exist_ok=True)
+    # 장부가 비어 있으면 이미 있는 노트 이름부터 등록한다.
+    # 그래야 오늘 이후로 같은 자료의 이름이 안 바뀐다.
+    seeded = seed_ledger_from_disk(KNOWLEDGE)
+    if seeded:
+        print(f"기존 노트 {seeded:,}건의 이름을 장부에 등록했다")
     source_records: dict[str, list[dict]] = defaultdict(list)
     topic_records: dict[str, list[dict]] = defaultdict(list)
     org_records: dict[str, list[dict]] = defaultdict(list)
@@ -273,6 +363,7 @@ def main() -> int:
         "### Topic nodes\n\n" + "\n".join(f"- {wiki(link)}" for link in topic_links)
     )
     write_note(KNOWLEDGE / "JARVIS Real Knowledge Index.md", "JARVIS Real Knowledge Index", ["index", "real-data", "graph"], index_links, body)
+    save_ledger()
     print(json.dumps({"records": len(rows), "source_nodes": len(source_links), "topic_nodes": len(topic_links), "output": str(KNOWLEDGE)}, ensure_ascii=False))
     return 0
 
