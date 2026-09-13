@@ -1,18 +1,18 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-12T23:50:10.924000+00:00",
+  "generated_at": "2026-09-13T00:32:35.114104+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 7,
   "ready": 0,
   "counts": {
     "copy": 7,
-    "gosi": 0,
+    "gosi": 4,
     "us_label": 0,
     "price": 7,
     "legal": 6
   },
   "blockers": {
-    "gosi": 7,
+    "gosi": 3,
     "us_label": 7,
     "legal": 1
   },
@@ -46,11 +46,11 @@
       },
       "copy_status": "ok",
       "gosi": {
-        "volume": "",
-        "maker": "",
-        "origin": "",
-        "ingredients": "",
-        "gosi_ok": false
+        "volume": "40 ml",
+        "maker": "주식회사 씨엔에프 / (주)더샘인터내셔날",
+        "origin": "한국",
+        "ingredients": "정제수, 글리세린, 프로판다이올, 부틸렌글라이콜, 베타인, 아이소펜틸다이올, 나이아신아마이드, 1,2-헥산다이올, 흰서양송로추출물, 병풀잎추출물, 아세틸헥사펩타이드-8, 헥사펩타이드-9, 노나펩타이드-1, 팔미토일펜",
+        "gosi_ok": true
       },
       "us_label": {
         "net_contents": "40 ml",
@@ -71,7 +71,6 @@
       },
       "ready": false,
       "blocked_by": [
-        "gosi",
         "us_label"
       ]
     },
@@ -101,11 +100,11 @@
       },
       "copy_status": "ok",
       "gosi": {
-        "volume": "",
-        "maker": "",
-        "origin": "",
-        "ingredients": "",
-        "gosi_ok": false
+        "volume": "50ml (1.69 fl.oz)",
+        "maker": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
+        "origin": "한국",
+        "ingredients": "정제수, 글리세린, 다이프로필렌글라이콜, 부틸렌글라이콜, 옥틸도데칸올, 네오펜틸글라이콜다이카프레이트, 나이아신아마이드, 1,2-헥산다이올, 진흙버섯추출물, 하이드롤라이즈드하이알루로닉애씨드, 하이드롤라이즈드콜라겐, 마",
+        "gosi_ok": true
       },
       "us_label": {
         "net_contents": "실제 확인값",
@@ -126,7 +125,6 @@
       },
       "ready": false,
       "blocked_by": [
-        "gosi",
         "us_label"
       ]
     },
@@ -213,11 +211,11 @@
       },
       "copy_status": "ok",
       "gosi": {
-        "volume": "",
-        "maker": "",
-        "origin": "",
-        "ingredients": "",
-        "gosi_ok": false
+        "volume": "28 g",
+        "maker": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
+        "origin": "한국",
+        "ingredients": "정제수, 글리세린, 세틸에틸헥사노에이트, 시어버터, 아크릴레이트코폴리머, 아이리쉬모스추출물, 캐롭검, 다이프로필렌글라이콜, 베타인, 포타슘클로라이드, 하이드록시아세토페논, 수크로오스, 세틸하이드록시에틸셀룰로오스, 카",
+        "gosi_ok": true
       },
       "us_label": {
         "net_contents": "실제 확인값",
@@ -238,7 +236,6 @@
       },
       "ready": false,
       "blocked_by": [
-        "gosi",
         "us_label"
       ]
     },
@@ -269,11 +266,11 @@
       },
       "copy_status": "ok",
       "gosi": {
-        "volume": "",
-        "maker": "",
-        "origin": "",
-        "ingredients": "",
-        "gosi_ok": false
+        "volume": "10.14 fl. oz. / 300 mL",
+        "maker": "화장품제조업자: (주)에스테르\n화장품책임판매업자: (주)브이티코스메틱",
+        "origin": "한국",
+        "ingredients": "신) 정제수, 글리세린, 1,2-헥산다이올, 부틸렌글라이콜, 글리세레스-26, C12-14알케스-12, 다이소듐이디티에이, 에틸헥실글리세린, 알지닌, 카보머, 황련뿌리추출물, 잔탄검, 향료, 말토덱스트린, 치자추출물",
+        "gosi_ok": true
       },
       "us_label": {
         "net_contents": "실제 확인값",
@@ -294,7 +291,6 @@
       },
       "ready": false,
       "blocked_by": [
-        "gosi",
         "us_label"
       ]
     },
