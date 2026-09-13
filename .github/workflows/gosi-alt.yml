@@ -1,0 +1,129 @@
+# 고시를 렌더링된 페이지의 img alt 에서 글자로 꺼낸다
+#
+# 왜 이 워크플로가 따로 필요한가 (2026-09-13)
+#
+#   고시는 모든 다이소 제품에 있다. 자리는 두 곳이다.
+#     ① 「상품정보 제공 고시」 표 — 11항목인데 대부분 "상세페이지 참조"
+#     ② img 의 alt — ①이 가리키는 그 상세페이지. 실제 내용이 여기 있다.
+#
+#   그런데 ②는 HTTP 로 받은 원본 HTML 에 없다. 상품 3개로 쟀다.
+#     HTML 43,799자 · 200자 넘는 alt 0개 · editor-content 영역 없음
+#   스크립트가 그리기 때문이다. 그래서 브라우저가 필요하다.
+#
+#   대신 좋은 점이 있다. alt 가 이미 글자다.
+#   이미지를 내려받아 비전 모델로 읽을 필요가 없다.
+#   GEMINI_API_KEY 도 필요 없다. gosi-vision.yml 이 그 키가 없어
+#   매번 "비전 추출을 건너뜁니다" 경고를 내던 문제가 여기서는 없다.
+#
+# robots.txt (2026-09-13 확인)
+#   /pd/pdr/ 은 Allow. Crawl-delay 30 을 지킨다.
+#   그래서 한 회차에 많이 보지 않는다. 기본 12건이다.
+
+name: 고시 alt 수집 (브라우저)
+
+on:
+  workflow_dispatch:
+    inputs:
+      pd_no:
+        description: '특정 상품번호만 (비우면 고시 없는 S등급 전체)'
+        required: false
+        default: ''
+      max_items:
+        description: '한 번에 볼 최대 개수'
+        required: false
+        default: '12'
+
+  schedule:
+    # 하루 한 번. Crawl-delay 30 이라 12건이면 6분쯤 걸린다.
+    - cron: '40 18 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: main-publish
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 브라우저 설치
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: 수집 전 고시 상태
+        continue-on-error: true
+        run: python -u scripts/guard_gosi.py
+
+      - name: alt 에서 고시 꺼내기
+        env:
+          DAISO_DELAY: '30'
+          DAISO_GOSI_MAX: ${{ inputs.max_items || '12' }}
+        run: |
+          if [ -n "${{ inputs.pd_no }}" ]; then
+            python -u scripts/daiso/collect_gosi_alt.py "${{ inputs.pd_no }}"
+          else
+            python -u scripts/daiso/collect_gosi_alt.py
+          fi
+
+      # 고시가 채워졌으면 영문 라벨까지 이어서 간다.
+      # 여기서 안 이으면 다음 참모장 회차를 기다려야 한다.
+      # 사용자가 "순서에 맞게 착착" 이라고 한 것이 이것이다.
+      - name: 영문 라벨로 옮기기
+        run: python -u scripts/sync_gosi_to_us_labels.py
+
+      - name: 등록 게이트 재계산
+        run: python -u scripts/build_listing_gate.py
+
+      - name: 화장품 고시 보호 (덮였으면 복구, 못 하면 중단)
+        run: python -u scripts/guard_gosi.py --restore
+
+      - name: 결과 요약
+        if: always()
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+
+          g = json.loads(Path("data/gosi.json").read_text(encoding="utf-8"))
+          meta = g.get("alt_수집") or {}
+          print("## 고시 alt 수집")
+          print(f"- 대상 {meta.get('대상')}건 · 채움 {meta.get('채움')}건 "
+                f"· 못 찾음 {len(meta.get('못찾음') or [])}건")
+          print()
+          print("| 상품 | alt 길이 | 찾은 항목 | 채운 칸 |")
+          print("|---|---|---|---|")
+          for r in (meta.get("상품별") or [])[:20]:
+              print(f"| {r.get('pd_no')} | {r.get('alt_len')} | "
+                    f"{', '.join(r.get('찾음') or []) or '-'} | "
+                    f"{', '.join(r.get('채움') or []) or '-'} |")
+
+          gate = json.loads(Path("data/listing_gate.json").read_text(encoding="utf-8"))
+          print()
+          print(f"등록 가능 {gate.get('ready')}/{gate.get('total')} "
+                f"· 막힘 {gate.get('blockers')}")
+          PY
+
+      - name: 산출물 발행 (원격 최신 위에 이번 변경만)
+        if: always()
+        uses: ./.github/actions/publish
+        with:
+          paths: >-
+            data/gosi.json
+            data/daiso_real/daiso_us_labels.json
+            data/daiso_real/us_label_sync_report.json
+            data/listing_gate.json
+          message: 고시를 렌더링된 페이지 alt 에서 꺼낸다
