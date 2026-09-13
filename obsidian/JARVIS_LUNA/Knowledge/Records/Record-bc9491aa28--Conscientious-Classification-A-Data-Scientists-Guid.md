@@ -2,7 +2,7 @@
 title: "Record bc9491aa28 · Conscientious-Classification-A-Data-Scientists-Guide-to-Discrimination"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.925818+00:00
+updated_at: 2026-09-12T23:46:55.625467+00:00
 tags: [record, real-data]
 ---
 

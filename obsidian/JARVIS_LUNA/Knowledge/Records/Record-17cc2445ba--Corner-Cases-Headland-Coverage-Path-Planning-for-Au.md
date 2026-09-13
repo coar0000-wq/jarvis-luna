@@ -2,7 +2,7 @@
 title: "Record 17cc2445ba · Corner-Cases-Headland-Coverage-Path-Planning-for-Autonomous-Driving-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.780710+00:00
+updated_at: 2026-09-12T23:46:55.489824+00:00
 tags: [record, real-data]
 ---
 

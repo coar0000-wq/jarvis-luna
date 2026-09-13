@@ -2,7 +2,7 @@
 title: "Record 60ae6c6fee · The-next-Turing-tests-Reimagining-conceptions-and-measures-of-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.950156+00:00
+updated_at: 2026-09-12T23:46:55.647898+00:00
 tags: [record, real-data]
 ---
 

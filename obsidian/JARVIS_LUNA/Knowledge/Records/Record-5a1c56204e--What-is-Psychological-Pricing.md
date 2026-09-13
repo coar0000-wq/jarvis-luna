@@ -2,7 +2,7 @@
 title: "Record 5a1c56204e · What-is-Psychological-Pricing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.560826+00:00
+updated_at: 2026-09-12T23:46:56.244276+00:00
 tags: [record, real-data]
 ---
 

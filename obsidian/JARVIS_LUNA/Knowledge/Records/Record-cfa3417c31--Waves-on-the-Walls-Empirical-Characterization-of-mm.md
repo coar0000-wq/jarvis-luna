@@ -2,7 +2,7 @@
 title: "Record cfa3417c31 · Waves-on-the-Walls-Empirical-Characterization-of-mmWave-Lateral-Waves-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.784280+00:00
+updated_at: 2026-09-12T23:46:55.493309+00:00
 tags: [record, real-data]
 ---
 

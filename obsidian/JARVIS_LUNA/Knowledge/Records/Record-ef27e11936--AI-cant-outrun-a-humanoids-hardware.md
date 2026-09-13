@@ -2,7 +2,7 @@
 title: "Record ef27e11936 · AI-cant-outrun-a-humanoids-hardware"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.490788+00:00
+updated_at: 2026-09-12T23:46:56.170553+00:00
 tags: [record, real-data]
 ---
 

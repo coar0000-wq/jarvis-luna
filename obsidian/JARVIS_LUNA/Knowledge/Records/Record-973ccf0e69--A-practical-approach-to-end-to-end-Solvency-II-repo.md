@@ -2,7 +2,7 @@
 title: "Record 973ccf0e69 · A-practical-approach-to-end-to-end-Solvency-II-reporting-in-Databricks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.447668+00:00
+updated_at: 2026-09-12T23:46:56.127584+00:00
 tags: [record, real-data]
 ---
 

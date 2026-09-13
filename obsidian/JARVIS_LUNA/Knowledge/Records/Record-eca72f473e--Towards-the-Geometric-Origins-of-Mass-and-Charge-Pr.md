@@ -2,7 +2,7 @@
 title: "Record eca72f473e · Towards-the-Geometric-Origins-of-Mass-and-Charge-Projection-Geodesics-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.012735+00:00
+updated_at: 2026-09-12T23:46:55.712900+00:00
 tags: [record, real-data]
 ---
 

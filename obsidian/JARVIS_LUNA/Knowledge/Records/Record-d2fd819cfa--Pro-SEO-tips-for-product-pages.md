@@ -2,7 +2,7 @@
 title: "Record d2fd819cfa · Pro-SEO-tips-for-product-pages"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.562997+00:00
+updated_at: 2026-09-12T23:46:56.246579+00:00
 tags: [record, real-data]
 ---
 

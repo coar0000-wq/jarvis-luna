@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T20:15:22.735425+00:00",
+  "generated_at": "2026-09-12T23:50:27.135229+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -97,12 +97,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21218,
+      "bytes": 21327,
       "items": 40,
       "samples": [
-        "la liga",
-        "Barcelona Predicted Lineup vs. Levante: Yamal, Raphinha Chasing Greatness",
-        "Eric, Bernal start in a 4-2-3-1: How Barcelona can line up against Levante"
+        "nebraska football score",
+        "Nebraska high school football scores, highlights for week 3",
+        "High School Football Week 3: Millard South overtakes Elkhorn South"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름",

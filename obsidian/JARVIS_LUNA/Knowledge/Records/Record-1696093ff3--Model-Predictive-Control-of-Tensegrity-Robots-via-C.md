@@ -2,7 +2,7 @@
 title: "Record 1696093ff3 · Model-Predictive-Control-of-Tensegrity-Robots-via-Contact-Aware-Graph-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.815568+00:00
+updated_at: 2026-09-12T23:46:55.522695+00:00
 tags: [record, real-data]
 ---
 

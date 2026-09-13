@@ -2,7 +2,7 @@
 title: "Record 8e88fe610e · EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safety-Auditing-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.575106+00:00
+updated_at: 2026-09-12T23:46:56.259143+00:00
 tags: [record, real-data]
 ---
 

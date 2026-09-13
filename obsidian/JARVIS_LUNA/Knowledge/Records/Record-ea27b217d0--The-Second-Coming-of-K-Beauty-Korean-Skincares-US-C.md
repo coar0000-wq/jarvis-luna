@@ -2,7 +2,7 @@
 title: "Record ea27b217d0 · The-Second-Coming-of-K-Beauty-Korean-Skincares-US-Comeback---Circana"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.126126+00:00
+updated_at: 2026-09-12T23:46:55.831691+00:00
 tags: [record, real-data]
 ---
 

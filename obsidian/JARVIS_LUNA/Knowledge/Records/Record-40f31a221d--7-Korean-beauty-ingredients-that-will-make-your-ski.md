@@ -2,7 +2,7 @@
 title: "Record 40f31a221d · 7-Korean-beauty-ingredients-that-will-make-your-skin-glow-according-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.181360+00:00
+updated_at: 2026-09-12T23:46:55.883505+00:00
 tags: [record, real-data]
 ---
 

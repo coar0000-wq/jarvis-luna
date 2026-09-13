@@ -2,7 +2,7 @@
 title: "Record d111f14ddb · SNATURE-Aqua-Squalane-Moisturizing-Cream-202-fl-oz60ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.369081+00:00
+updated_at: 2026-09-12T23:46:56.057639+00:00
 tags: [record, real-data]
 ---
 

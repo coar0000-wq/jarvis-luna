@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-13T05:15:08.817186+09:00",
+    "updated_at": "2026-09-13T08:50:13.363254+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -405,11 +405,11 @@
       ],
       "us_example_count": 3,
       "gemini_tags": [
-        "brightening ampoule",
         "centella ampoule",
-        "clear ampoule",
-        "facial ampoule",
-        "firming ampoule"
+        "firming ampoule",
+        "glow ampoule",
+        "hydrating ampoule",
+        "korean skincare"
       ],
       "linked_s_products": [
         "드롭비 탄탄 광채 앰플 40 ml",
@@ -494,8 +494,9 @@
       "gemini_tags": [
         "calming toner",
         "cica toner",
+        "face toner",
         "facial toner",
-        "korean toner"
+        "hydrating toner"
       ],
       "linked_s_products": [
         "[퀵시카진정]VT 시카 카밍 토너 300 ml",
@@ -538,8 +539,8 @@
       "gemini_tags": [
         "collagen cream",
         "face cream",
-        "hydrating cream",
         "korean skincare",
+        "moisturizing cream",
         "pdrn cream"
       ],
       "linked_s_products": [
@@ -630,7 +631,8 @@
       "us_example_count": 0,
       "gemini_tags": [
         "collagen mask",
-        "facial mask",
+        "face mask",
+        "firming mask",
         "sheet mask"
       ],
       "linked_s_products": [
@@ -665,7 +667,7 @@
       "rank": 1,
       "pd_no": "1048583",
       "name": "드롭비 탄탄 광채 앰플 40 ml",
-      "name_en": "Drop Be Firming Glow Ampoule 40 ml",
+      "name_en": "Dropbe Firming Glow Ampoule 40 ml",
       "bucket": "스킨케어",
       "score": 97,
       "rating": 4.8,
@@ -677,12 +679,12 @@
       "margin_pct": null,
       "shopify_action": "1차 등록",
       "ad_keywords": [
-        "drop-be",
+        "dropbe",
         "glow-ampoule",
-        "facial-ampoule",
+        "firming-ampoule",
         "korean-skincare",
-        "brightening-ampoule",
-        "firming-ampoule"
+        "face-serum",
+        "k-beauty"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -709,7 +711,7 @@
         "collagen-cream",
         "korean-skincare",
         "face-cream",
-        "hydrating-cream"
+        "moisturizing-cream"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -719,7 +721,7 @@
       "rank": 3,
       "pd_no": "1041749",
       "name": "식물원 병풀 클리어 앰플 30 ml",
-      "name_en": "Sikmulnara Centella Clear Ampoule 30ml",
+      "name_en": "Sikmulnara Centella Clear Ampoule 30 ml",
       "bucket": "스킨케어",
       "score": 91,
       "rating": 4.8,
@@ -731,12 +733,12 @@
       "margin_pct": null,
       "shopify_action": "1차 등록",
       "ad_keywords": [
-        "sikmulnara",
         "centella-ampoule",
         "korean-skincare",
-        "face-serum",
+        "facial-serum",
         "k-beauty",
-        "clear-ampoule"
+        "sikmulnara",
+        "hydrating-ampoule"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -759,11 +761,11 @@
       "shopify_action": "1차 등록",
       "ad_keywords": [
         "celderma",
-        "sheet-mask",
         "collagen-mask",
+        "sheet-mask",
         "k-beauty",
-        "facial-mask",
-        "skincare"
+        "face-mask",
+        "firming-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -787,10 +789,10 @@
       "ad_keywords": [
         "vt-cica",
         "cica-toner",
-        "korean-toner",
         "calming-toner",
+        "korean-skincare",
         "facial-toner",
-        "k-beauty"
+        "hydrating-toner"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -800,7 +802,7 @@
       "rank": 6,
       "pd_no": "1053482",
       "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-      "name_en": null,
+      "name_en": "Medipeel Extra Super 9 Plus Pore Calming Toner 200 ml",
       "bucket": "스킨케어",
       "score": 86,
       "rating": 4.8,
@@ -811,16 +813,23 @@
       "suggested_price_usd": 20.7,
       "margin_pct": null,
       "shopify_action": "2차 검토",
-      "ad_keywords": [],
-      "ad_keywords_source": "카피 미생성",
-      "listing_ready": false,
+      "ad_keywords": [
+        "medipeel",
+        "pore-toner",
+        "calming-toner",
+        "korean-skincare",
+        "face-toner",
+        "k-beauty"
+      ],
+      "ad_keywords_source": "Gemini 영문 카피 태그",
+      "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482"
     },
     {
       "rank": 7,
       "pd_no": "1045421",
       "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
-      "name_en": "Too Cool For School Tag Dewy Skin Cushion 15g Nude Light",
+      "name_en": "Too The Glitz Dewy Skin Cushion 15g Nude Light",
       "bucket": "스킨케어",
       "score": 85,
       "rating": 4.7,
@@ -832,12 +841,12 @@
       "margin_pct": null,
       "shopify_action": "2차 검토",
       "ad_keywords": [
-        "k-beauty",
         "cushion-foundation",
         "dewy-skin",
-        "makeup",
         "nude-light",
-        "face-makeup"
+        "k-beauty",
+        "face-makeup",
+        "glow-finish"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -919,8 +928,7 @@
     }
   ],
   "weekly_actions": [
-    "영문 카피가 준비된 6건 중 상위 5건을 Shopify 초안으로 등록",
-    "카피 미생성 1건에 대해 shopify-listing-copy 워크플로 재실행",
+    "영문 카피가 준비된 7건 중 상위 5건을 Shopify 초안으로 등록",
     "시장 가격대 100건 기준 중앙값 $24.7 주 1회 확인",
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],
@@ -944,7 +952,7 @@
       "open_beauty_facts"
     ],
     "s_count": 7,
-    "listing_ready_count": 6,
+    "listing_ready_count": 7,
     "last_score_run": "2026-09-12",
     "last_pricing_run": "2026-09-12",
     "exchange_rate": 1342.53

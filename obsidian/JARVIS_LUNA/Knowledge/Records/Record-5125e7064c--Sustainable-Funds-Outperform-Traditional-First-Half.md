@@ -2,7 +2,7 @@
 title: "Record 5125e7064c · Sustainable-Funds-Outperform-Traditional-First-Half-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.484120+00:00
+updated_at: 2026-09-12T23:46:56.163530+00:00
 tags: [record, real-data]
 ---
 

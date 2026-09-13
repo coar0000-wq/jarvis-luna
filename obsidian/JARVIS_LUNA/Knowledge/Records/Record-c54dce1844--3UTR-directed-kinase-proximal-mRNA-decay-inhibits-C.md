@@ -2,7 +2,7 @@
 title: "Record c54dce1844 · 3UTR-directed-kinase-proximal-mRNA-decay-inhibits-CEBPβ-phosphorylatio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.892114+00:00
+updated_at: 2026-09-12T23:46:55.593991+00:00
 tags: [record, real-data]
 ---
 

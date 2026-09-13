@@ -2,7 +2,7 @@
 title: "Record f89b0aa247 · The-Korean-Skin-Care-Brands-You-Need-to-Know-Right-Now---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.121846+00:00
+updated_at: 2026-09-12T23:46:55.827145+00:00
 tags: [record, real-data]
 ---
 

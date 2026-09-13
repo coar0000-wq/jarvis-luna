@@ -2,7 +2,7 @@
 title: "Record c7ff73165c · Wtf-is-Bimbo-Stoicism-Unpacking-the-internets-wildest-new-beauty-trend"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.296039+00:00
+updated_at: 2026-09-12T23:46:55.990032+00:00
 tags: [record, real-data]
 ---
 

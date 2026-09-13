@@ -2,7 +2,7 @@
 title: "Record e0cf5db5b3 · WikiSkill-Compiling-Agent-Experience-into-Persistent-Knowledge-for-Ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.590209+00:00
+updated_at: 2026-09-12T23:46:56.273984+00:00
 tags: [record, real-data]
 ---
 

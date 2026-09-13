@@ -2,7 +2,7 @@
 title: "Record c2b3824a20 · Faster-shipping-can-make-a-big-difference-for-your-eCommerce-business"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.506321+00:00
+updated_at: 2026-09-12T23:46:56.187399+00:00
 tags: [record, real-data]
 ---
 

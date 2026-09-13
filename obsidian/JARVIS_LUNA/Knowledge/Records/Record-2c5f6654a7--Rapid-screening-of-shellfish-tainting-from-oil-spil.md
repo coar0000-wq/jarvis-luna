@@ -2,7 +2,7 @@
 title: "Record 2c5f6654a7 · Rapid-screening-of-shellfish-tainting-from-oil-spills-using-an-antibod"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.926341+00:00
+updated_at: 2026-09-12T23:46:55.625972+00:00
 tags: [record, real-data]
 ---
 

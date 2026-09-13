@@ -2,7 +2,7 @@
 title: "Record c030acdb3f · Mitigating-Degradation-Attacks-in-Cooperative-Autonomous-Driving-via-I"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.829140+00:00
+updated_at: 2026-09-12T23:46:55.535490+00:00
 tags: [record, real-data]
 ---
 

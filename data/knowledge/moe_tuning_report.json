@@ -1,14 +1,16 @@
 {
-  "updated_at": "2026-09-12T20:36:35.380572+00:00",
+  "updated_at": "2026-09-12T23:49:39.584868+00:00",
   "real_records": 3204,
   "train_records": 2600,
   "validation_records": 604,
   "steps_per_candidate": 500,
   "search_space": {
     "experts": [
-      3
+      3,
+      4
     ],
     "learning_rates": [
+      0.7,
       1.2
     ],
     "l2_values": [
@@ -18,7 +20,7 @@
       0.9
     ]
   },
-  "candidates": 1,
+  "candidates": 4,
   "best": {
     "experts": 3,
     "lr": 1.2,

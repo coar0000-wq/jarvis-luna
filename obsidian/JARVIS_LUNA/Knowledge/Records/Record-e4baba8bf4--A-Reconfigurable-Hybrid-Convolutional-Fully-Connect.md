@@ -2,7 +2,7 @@
 title: "Record e4baba8bf4 · A-Reconfigurable-Hybrid-Convolutional-Fully-Connected-Neuromorphic-Cor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.768590+00:00
+updated_at: 2026-09-12T23:46:55.478415+00:00
 tags: [record, real-data]
 ---
 

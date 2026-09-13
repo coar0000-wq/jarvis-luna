@@ -2,7 +2,7 @@
 title: "Record 12923ae830 · Rapid-detection-and-quantification-of-glyphosate-in-water-using-a-hand"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.914996+00:00
+updated_at: 2026-09-12T23:46:55.615495+00:00
 tags: [record, real-data]
 ---
 

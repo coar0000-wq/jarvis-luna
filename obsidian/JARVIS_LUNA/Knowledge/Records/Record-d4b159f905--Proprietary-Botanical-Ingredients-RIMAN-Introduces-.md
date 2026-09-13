@@ -2,7 +2,7 @@
 title: "Record d4b159f905 · Proprietary-Botanical-Ingredients-RIMAN-Introduces-Araliadiol-from-Its"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.149127+00:00
+updated_at: 2026-09-12T23:46:55.853726+00:00
 tags: [record, real-data]
 ---
 

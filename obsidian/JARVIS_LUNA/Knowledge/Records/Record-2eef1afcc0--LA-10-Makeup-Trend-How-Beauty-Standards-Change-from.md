@@ -2,7 +2,7 @@
 title: "Record 2eef1afcc0 · LA-10-Makeup-Trend-How-Beauty-Standards-Change-from-LA-to-London---nss"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.171212+00:00
+updated_at: 2026-09-12T23:46:55.873937+00:00
 tags: [record, real-data]
 ---
 

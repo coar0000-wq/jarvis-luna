@@ -2,7 +2,7 @@
 title: "Record 98176e57e4 · Driven-by-TikTok-trends-new-beauty-brands-target-children---The-Jakart"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.268628+00:00
+updated_at: 2026-09-12T23:46:55.964521+00:00
 tags: [record, real-data]
 ---
 

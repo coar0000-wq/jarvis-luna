@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-12T20:10:06.890682+00:00",
+  "collected_at": "2026-09-12T23:45:46.000011+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -20,7 +20,7 @@
   },
   "per_category": {
     "스킨케어": 6,
-    "마스크팩": 10,
+    "마스크팩": 11,
     "클렌징": 10,
     "선케어": 9,
     "메이크업": 10,
@@ -33,7 +33,7 @@
     "립케어": 12
   },
   "errors": {},
-  "count": 122,
+  "count": 123,
   "products": [
     {
       "code": "4005900963499",
@@ -232,17 +232,30 @@
       "url": "https://world.openbeautyfacts.org/product/8683420170045"
     },
     {
-      "code": "8809990942121",
-      "product_name": "purple rice PDRN bubble mask",
-      "brands": "Over The Moon Global Co. Ltd., tokki on the moon",
+      "code": "4260199896983",
+      "product_name": "Eye Pad Mask Paradise Punch",
+      "brands": "Yeauty",
       "category": "마스크팩",
       "obf_category": "face-masks",
       "countries": [
-        "Singapore"
+        "Netherlands"
       ],
-      "ingredients_text": "",
-      "image_url": "https://images.openbeautyfacts.org/images/products/880/999/094/2121/front_en.5.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/8809990942121"
+      "ingredients_text": "Glycerin, Carrageenan, 1,2-Hexanediol, Xanthan Gum, Propylene Glycol, Sodium Benzoate, Citrullus Lanatus Fruit Extract, Citrulline, Caprylyl Glycol, Potassium Sorbate, Butylene Glycol, Caprylhydroxamic Acid, Sodium Hyaluronate, Carica Papaya Fruit Extract, CI 15985, CI 77007, CI 77891, CI 73360, CI 77492, CI 74160, Parfum, Polysorbate 80, Caprylyl Glycol",
+      "image_url": "https://images.openbeautyfacts.org/images/products/426/019/989/6983/front_en.8.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/4260199896983"
+    },
+    {
+      "code": "0690864505263",
+      "product_name": "KOREACO Matcha Mucize Bubble Clay Yüz Maskesi",
+      "brands": "KOREACO",
+      "category": "마스크팩",
+      "obf_category": "face-masks",
+      "countries": [
+        "Turkey"
+      ],
+      "ingredients_text": "Aqua, Sodium Laureth Sulfate, Disiloxane, Kaolin, Acrylates Copolymer, Glycerin, Cocamide DEA, Cocamidopropyl Betaine, Decyl Glucoside, PEG-7 Glyceryl Cocoate, Parfum, Triethanolamine, CI 11710, CI 74260, Tetrasodium EDTA, Camellia Sinensis Leaf Extract, Hydrolyzed Collagen, Triethylene Glycol, Benzyl Alcohol, Propylene Glycol, Sodium Hyaluronate, Tocopherol, Magnesium Nitrate, Magnesium Chloride, Methylchloroisothiazolinone, Methylisothiazolinone, Phenoxyethanol, Tetramethyl Acetyloctahydronaphthalenes, Benzyl Salicylate.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/069/086/450/5263/front_tr.9.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/0690864505263"
     },
     {
       "code": "3337875597333",
@@ -851,6 +864,19 @@
       "url": "https://world.openbeautyfacts.org/product/8717163607268"
     },
     {
+      "code": "3574661701028",
+      "product_name": "crème lavante main lait",
+      "brands": "le Petit Marseillais",
+      "category": "바디케어",
+      "obf_category": "soaps",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "",
+      "image_url": "https://images.openbeautyfacts.org/images/products/357/466/170/1028/front_fr.7.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3574661701028"
+    },
+    {
       "code": "8714789700045",
       "product_name": "Palmolive Naturals zeeptablet original",
       "brands": "Palmolive",
@@ -863,19 +889,6 @@
       "ingredients_text": "Sodium Palmate, Sodium Oleate, Aqua, Glycerin, Kaolin, Sodium Laurate, Sodium Chloride, Parfum, Sodium Adipe Lac, Olea Europaea Fruit Oil, Aloe Barbadensis Leaf Juice Powder, Citrus Aurantium Dulcis Peel Powder, Prunus Amygdalus Dulcis Oil, Alpha-Isomethyl Ionone, Benzyl Salicylate, Citronellol, Coumarin, Limonene, Linalool, CI 77891",
       "image_url": "https://images.openbeautyfacts.org/images/products/871/478/970/0045/front_fr.6.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/8714789700045"
-    },
-    {
-      "code": "3574661701028",
-      "product_name": "crème lavante main lait",
-      "brands": "le Petit Marseillais",
-      "category": "바디케어",
-      "obf_category": "soaps",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "",
-      "image_url": "https://images.openbeautyfacts.org/images/products/357/466/170/1028/front_fr.7.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3574661701028"
     },
     {
       "code": "8003520012944",

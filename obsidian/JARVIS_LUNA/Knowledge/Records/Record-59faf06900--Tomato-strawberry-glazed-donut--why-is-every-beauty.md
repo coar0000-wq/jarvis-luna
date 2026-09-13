@@ -2,7 +2,7 @@
 title: "Record 59faf06900 · Tomato-strawberry-glazed-donut--why-is-every-beauty-trend-named-after-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.226443+00:00
+updated_at: 2026-09-12T23:46:55.925426+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c2adbd18eb · Deformable-Object-Manipulation-under-Partial-Observability-via-Real-Ti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.830694+00:00
+updated_at: 2026-09-12T23:46:55.536983+00:00
 tags: [record, real-data]
 ---
 

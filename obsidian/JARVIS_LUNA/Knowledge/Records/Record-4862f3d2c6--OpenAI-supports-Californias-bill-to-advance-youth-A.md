@@ -2,7 +2,7 @@
 title: "Record 4862f3d2c6 · OpenAI-supports-Californias-bill-to-advance-youth-AI-safety"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.324594+00:00
+updated_at: 2026-09-12T23:46:56.016978+00:00
 tags: [record, real-data]
 ---
 

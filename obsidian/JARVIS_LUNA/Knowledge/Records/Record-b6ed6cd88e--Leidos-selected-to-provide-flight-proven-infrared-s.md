@@ -2,7 +2,7 @@
 title: "Record b6ed6cd88e · Leidos-selected-to-provide-flight-proven-infrared-sensors-to-Sierra-Sp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.054197+00:00
+updated_at: 2026-09-12T23:46:55.756323+00:00
 tags: [record, real-data]
 ---
 

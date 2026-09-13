@@ -2,7 +2,7 @@
 title: "Record 7ed6645ef6 · Boots-shoppers-race-to-buy-140-Korean-and-Japanese-skincare-box-for-ju"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.240918+00:00
+updated_at: 2026-09-12T23:46:55.938929+00:00
 tags: [record, real-data]
 ---
 

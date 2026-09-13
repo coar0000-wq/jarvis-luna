@@ -2,7 +2,7 @@
 title: "Record 4d688aa3c4 · A-beauty-reporters-guide-to-the-best-in-K-beauty-starting-at-18---New-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.260859+00:00
+updated_at: 2026-09-12T23:46:55.957342+00:00
 tags: [record, real-data]
 ---
 

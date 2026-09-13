@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T20:15:01.522006+00:00",
+  "generated_at": "2026-09-12T23:50:10.078915+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "ncaa football",
-          "approx_traffic": "50000+",
-          "traffic_num": 50000,
-          "published": "Sat, 12 Sep 2026 12:40:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=ncaa%20football"
-        },
-        {
-          "keyword": "la liga",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Sat, 12 Sep 2026 12:50:00 -0700",
-          "source_name": "Sports Illustrated",
-          "url": "https://trends.google.com/trending?geo=US&q=la%20liga"
-        },
-        {
-          "keyword": "laliga",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Sat, 12 Sep 2026 12:40:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=laliga"
-        },
-        {
-          "keyword": "angels vs nationals",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Sat, 12 Sep 2026 12:40:00 -0700",
+          "keyword": "grambling st vs tcu",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sat, 12 Sep 2026 16:10:00 -0700",
           "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=angels%20vs%20nationals"
+          "url": "https://trends.google.com/trending?geo=US&q=grambling%20st%20vs%20tcu"
         },
         {
-          "keyword": "college football rankings",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Sat, 12 Sep 2026 12:50:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=college%20football%20rankings"
+          "keyword": "prairie view vs baylor",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sat, 12 Sep 2026 16:10:00 -0700",
+          "source_name": "SicEm365",
+          "url": "https://trends.google.com/trending?geo=US&q=prairie%20view%20vs%20baylor"
         },
         {
-          "keyword": "mets score",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Sat, 12 Sep 2026 12:40:00 -0700",
-          "source_name": "MLB.com",
-          "url": "https://trends.google.com/trending?geo=US&q=mets%20score"
+          "keyword": "santos x cruzeiro",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sat, 12 Sep 2026 16:20:00 -0700",
+          "source_name": "ge",
+          "url": "https://trends.google.com/trending?geo=US&q=santos%20x%20cruzeiro"
         },
         {
-          "keyword": "la liga match",
+          "keyword": "lsu football schedule 2026",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sat, 12 Sep 2026 16:20:00 -0700",
+          "source_name": "Louisiana Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=lsu%20football%20schedule%202026"
+        },
+        {
+          "keyword": "nebraska football score",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 12 Sep 2026 12:50:00 -0700",
-          "source_name": "Eurosport",
-          "url": "https://trends.google.com/trending?geo=US&q=la%20liga%20match"
+          "published": "Sat, 12 Sep 2026 16:30:00 -0700",
+          "source_name": "KETV",
+          "url": "https://trends.google.com/trending?geo=US&q=nebraska%20football%20score"
         },
         {
-          "keyword": "pittsburgh weather",
+          "keyword": "uh football",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 12 Sep 2026 12:50:00 -0700",
-          "source_name": "WTAE",
-          "url": "https://trends.google.com/trending?geo=US&q=pittsburgh%20weather"
+          "published": "Sat, 12 Sep 2026 16:30:00 -0700",
+          "source_name": "Houston Chronicle",
+          "url": "https://trends.google.com/trending?geo=US&q=uh%20football"
         },
         {
-          "keyword": "real madrid score",
+          "keyword": "kevin durant",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 12 Sep 2026 12:50:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=real%20madrid%20score"
+          "published": "Sat, 12 Sep 2026 16:20:00 -0700",
+          "source_name": "Heavy.com",
+          "url": "https://trends.google.com/trending?geo=US&q=kevin%20durant"
         },
         {
-          "keyword": "tim elliott",
+          "keyword": "troy football",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 12 Sep 2026 12:50:00 -0700",
-          "source_name": "Bloody Elbow",
-          "url": "https://trends.google.com/trending?geo=US&q=tim%20elliott"
+          "published": "Sat, 12 Sep 2026 16:20:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=troy%20football"
+        },
+        {
+          "keyword": "malika andrews",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sat, 12 Sep 2026 16:20:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=malika%20andrews"
+        },
+        {
+          "keyword": "byu football schedule 2026",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sat, 12 Sep 2026 16:20:00 -0700",
+          "source_name": "Arkansas Razorbacks",
+          "url": "https://trends.google.com/trending?geo=US&q=byu%20football%20schedule%202026"
         }
       ]
     },

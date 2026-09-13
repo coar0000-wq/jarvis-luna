@@ -2,7 +2,7 @@
 title: "Record b628bd56f6 · Directly-Probing-StackingEngineered-Defect-State-Delocalization-in-Mar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.876682+00:00
+updated_at: 2026-09-12T23:46:55.579450+00:00
 tags: [record, real-data]
 ---
 

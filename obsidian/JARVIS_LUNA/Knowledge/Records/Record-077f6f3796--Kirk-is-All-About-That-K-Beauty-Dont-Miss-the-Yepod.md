@@ -2,7 +2,7 @@
 title: "Record 077f6f3796 · Kirk-is-All-About-That-K-Beauty-Dont-Miss-the-Yepoda-Pop-Up-This-Weeke"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.296842+00:00
+updated_at: 2026-09-12T23:46:55.990710+00:00
 tags: [record, real-data]
 ---
 

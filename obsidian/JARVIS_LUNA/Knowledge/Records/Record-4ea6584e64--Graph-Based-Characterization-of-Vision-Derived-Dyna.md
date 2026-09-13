@@ -2,7 +2,7 @@
 title: "Record 4ea6584e64 · Graph-Based-Characterization-of-Vision-Derived-Dynamic-Modes-for-Struc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.821584+00:00
+updated_at: 2026-09-12T23:46:55.528350+00:00
 tags: [record, real-data]
 ---
 

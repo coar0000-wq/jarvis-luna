@@ -2,7 +2,7 @@
 title: "Record ea82f8a320 · Elementwise-Positivity-of-the-Solution-to-Lyapunov-Equation-for-Hurwit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.847748+00:00
+updated_at: 2026-09-12T23:46:55.553216+00:00
 tags: [record, real-data]
 ---
 

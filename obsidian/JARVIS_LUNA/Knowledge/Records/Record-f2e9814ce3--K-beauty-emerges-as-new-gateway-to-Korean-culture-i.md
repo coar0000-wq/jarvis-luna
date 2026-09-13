@@ -2,7 +2,7 @@
 title: "Record f2e9814ce3 · K-beauty-emerges-as-new-gateway-to-Korean-culture-in-Japan---The-Korea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.267879+00:00
+updated_at: 2026-09-12T23:46:55.963817+00:00
 tags: [record, real-data]
 ---
 

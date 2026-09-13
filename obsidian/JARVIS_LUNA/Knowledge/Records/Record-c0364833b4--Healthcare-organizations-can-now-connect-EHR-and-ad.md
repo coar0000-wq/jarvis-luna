@@ -2,7 +2,7 @@
 title: "Record c0364833b4 · Healthcare-organizations-can-now-connect-EHR-and-additional-industry-d"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.315686+00:00
+updated_at: 2026-09-12T23:46:56.008648+00:00
 tags: [record, real-data]
 ---
 

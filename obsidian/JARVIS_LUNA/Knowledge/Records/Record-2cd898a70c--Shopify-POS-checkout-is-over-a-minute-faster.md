@@ -2,7 +2,7 @@
 title: "Record 2cd898a70c · Shopify-POS-checkout-is-over-a-minute-faster"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.564345+00:00
+updated_at: 2026-09-12T23:46:56.248005+00:00
 tags: [record, real-data]
 ---
 

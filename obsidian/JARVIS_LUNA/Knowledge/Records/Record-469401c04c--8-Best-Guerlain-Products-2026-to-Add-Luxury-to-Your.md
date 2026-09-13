@@ -2,7 +2,7 @@
 title: "Record 469401c04c · 8-Best-Guerlain-Products-2026-to-Add-Luxury-to-Your-Routine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.395766+00:00
+updated_at: 2026-09-12T23:46:56.082020+00:00
 tags: [record, real-data]
 ---
 

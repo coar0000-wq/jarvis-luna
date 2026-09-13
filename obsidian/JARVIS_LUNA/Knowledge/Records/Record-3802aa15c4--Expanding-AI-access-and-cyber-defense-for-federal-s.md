@@ -2,7 +2,7 @@
 title: "Record 3802aa15c4 · Expanding-AI-access-and-cyber-defense-for-federal-state-local-and-trib"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.317313+00:00
+updated_at: 2026-09-12T23:46:56.010190+00:00
 tags: [record, real-data]
 ---
 

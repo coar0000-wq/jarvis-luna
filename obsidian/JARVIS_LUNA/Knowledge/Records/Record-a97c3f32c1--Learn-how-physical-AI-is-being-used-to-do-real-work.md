@@ -2,7 +2,7 @@
 title: "Record a97c3f32c1 · Learn-how-physical-AI-is-being-used-to-do-real-work-at-RoboBusiness"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.496055+00:00
+updated_at: 2026-09-12T23:46:56.176731+00:00
 tags: [record, real-data]
 ---
 

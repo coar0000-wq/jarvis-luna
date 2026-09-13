@@ -2,7 +2,7 @@
 title: "Record 31d425fc62 · Everyone-in-the-know-is-using-these-bestselling-Korean-skincare-buys--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.192687+00:00
+updated_at: 2026-09-12T23:46:55.894042+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 683fc9e066 · Why-Korean-Beauty-Products-Are-Appearing-in-More-Mainstream-US-Stores-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.270356+00:00
+updated_at: 2026-09-12T23:46:55.966173+00:00
 tags: [record, real-data]
 ---
 

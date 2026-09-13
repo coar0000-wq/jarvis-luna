@@ -2,7 +2,7 @@
 title: "Record 39842fa0b3 · How-a-researcher-uses-Codex-and-ChatGPT-to-search-for-new-antimicrobia"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.326530+00:00
+updated_at: 2026-09-12T23:46:56.018763+00:00
 tags: [record, real-data]
 ---
 

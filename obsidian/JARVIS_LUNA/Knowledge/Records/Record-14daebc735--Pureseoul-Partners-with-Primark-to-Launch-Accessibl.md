@@ -2,7 +2,7 @@
 title: "Record 14daebc735 · Pureseoul-Partners-with-Primark-to-Launch-Accessible-K-Beauty-Mini-Mar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.271087+00:00
+updated_at: 2026-09-12T23:46:55.966820+00:00
 tags: [record, real-data]
 ---
 

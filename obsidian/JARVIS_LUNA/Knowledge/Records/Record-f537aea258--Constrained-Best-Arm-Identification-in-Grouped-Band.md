@@ -2,7 +2,7 @@
 title: "Record f537aea258 · Constrained-Best-Arm-Identification-in-Grouped-Bandits"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.936183+00:00
+updated_at: 2026-09-12T23:46:55.634852+00:00
 tags: [record, real-data]
 ---
 

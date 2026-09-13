@@ -2,7 +2,7 @@
 title: "Record b3c1d07e2f · K-Beautys-US-Boom-Is-Making-Korean-Less-of-a-Differentiator---KoreaTec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.179206+00:00
+updated_at: 2026-09-12T23:46:55.881408+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 82fcac7ecb · Sally-Foran-Blonzing-is-the-one-and-done-trend-you-should-try---Irish-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.183535+00:00
+updated_at: 2026-09-12T23:46:55.885513+00:00
 tags: [record, real-data]
 ---
 

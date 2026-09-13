@@ -2,7 +2,7 @@
 title: "Record 75b46ee03f · Tensor-Network-Simulation-of-the-Heisenberg-Model-on-Heavy-Hex-Lattice"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.351173+00:00
+updated_at: 2026-09-12T23:46:56.041288+00:00
 tags: [record, real-data]
 ---
 

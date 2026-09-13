@@ -2,7 +2,7 @@
 title: "Record 5a45f4bdbe · Decoding-the-PI3KAktmTOR-AMPK-signalling-nexus-molecular-crosstalk-met"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.923535+00:00
+updated_at: 2026-09-12T23:46:55.623367+00:00
 tags: [record, real-data]
 ---
 

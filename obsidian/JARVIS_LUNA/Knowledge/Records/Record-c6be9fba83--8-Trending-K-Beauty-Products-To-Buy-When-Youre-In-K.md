@@ -2,7 +2,7 @@
 title: "Record c6be9fba83 · 8-Trending-K-Beauty-Products-To-Buy-When-Youre-In-Korea-According-To-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.229261+00:00
+updated_at: 2026-09-12T23:46:55.928065+00:00
 tags: [record, real-data]
 ---
 

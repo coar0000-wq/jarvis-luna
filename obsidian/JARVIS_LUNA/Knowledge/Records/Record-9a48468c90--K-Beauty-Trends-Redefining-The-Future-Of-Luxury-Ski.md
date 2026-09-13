@@ -2,7 +2,7 @@
 title: "Record 9a48468c90 · K-Beauty-Trends-Redefining-The-Future-Of-Luxury-Skincare---Yahoo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.256132+00:00
+updated_at: 2026-09-12T23:46:55.952981+00:00
 tags: [record, real-data]
 ---
 

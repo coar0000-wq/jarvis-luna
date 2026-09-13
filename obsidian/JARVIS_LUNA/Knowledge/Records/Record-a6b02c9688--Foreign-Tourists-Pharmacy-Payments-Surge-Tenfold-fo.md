@@ -2,7 +2,7 @@
 title: "Record a6b02c9688 · Foreign-Tourists-Pharmacy-Payments-Surge-Tenfold-for-K-Beauty-Suppleme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.202801+00:00
+updated_at: 2026-09-12T23:46:55.903370+00:00
 tags: [record, real-data]
 ---
 

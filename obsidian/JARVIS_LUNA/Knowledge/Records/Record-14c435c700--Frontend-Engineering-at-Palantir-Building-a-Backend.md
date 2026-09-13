@@ -2,7 +2,7 @@
 title: "Record 14c435c700 · Frontend-Engineering-at-Palantir-Building-a-Backend-less-Cross-Applica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.856983+00:00
+updated_at: 2026-09-12T23:46:55.561666+00:00
 tags: [record, real-data]
 ---
 

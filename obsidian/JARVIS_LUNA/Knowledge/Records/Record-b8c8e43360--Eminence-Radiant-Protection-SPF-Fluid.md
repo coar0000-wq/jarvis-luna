@@ -2,7 +2,7 @@
 title: "Record b8c8e43360 · Eminence-Radiant-Protection-SPF-Fluid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.751387+00:00
+updated_at: 2026-09-12T23:46:55.461820+00:00
 tags: [record, real-data]
 ---
 

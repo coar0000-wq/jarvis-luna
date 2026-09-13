@@ -2,7 +2,7 @@
 title: "Record f0151e20d6 · AI-Agents-For-Retail-How-Retail-AI-Agents-Work---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.097492+00:00
+updated_at: 2026-09-12T23:46:55.801392+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record bedc26b346 · Inhaled-Corticosteroids-Continuation-in-the-First-Trimester-and-Pregna"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.868189+00:00
+updated_at: 2026-09-12T23:46:55.572172+00:00
 tags: [record, real-data]
 ---
 

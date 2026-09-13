@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-13T05:15:08.860207+09:00",
+  "generated_at": "2026-09-13T08:50:13.405482+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
   "scope": "S등급 상위 15개",
   "summary": {
     "ready_to_list": 0,
-    "ready_with_notes": 6,
-    "fix_then_list": 1,
+    "ready_with_notes": 7,
+    "fix_then_list": 0,
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-09-12T20:10:38.884330+00:00",
+      "collected_at": "2026-09-12T23:46:00.641511+00:00",
       "keyword_pool": 40
     }
   },
@@ -85,9 +85,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Drop Be Firming Glow Ampoule 40 ml — ampoule · K-beauty",
-          "headline": "Drop Be Firming Glow Ampoule 40 ml",
-          "description": "Discover the Drop Be Firming Glow Ampoule in a convenient 40 ml size, designed to enhance your daily skincare routine. This facial ampoule helps deliver a radiant and glowing appearance to the skin wi",
+          "primary_text": "Dropbe Firming Glow Ampoule 40 ml — ampoule · K-beauty",
+          "headline": "Dropbe Firming Glow Ampoule 40 ml",
+          "description": "Discover the Dropbe Firming Glow Ampoule in a convenient 40 ml size, designed to enhance your daily skincare routine. This lightweight formula helps give your complexion a radiant and glowing appearan",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -204,7 +204,7 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml — cream · K-beauty",
           "headline": "Cell Fusion C Derma Block PDRN Collagen ",
-          "description": "Discover the nourishing benefits of Cell Fusion C Derma Block PDRN Collagen Cream. This 50 ml facial cream is formulated to help smooth the look of fine lines for a more refreshed and glowing appearan",
+          "description": "Discover the nourishing benefits of Cell Fusion C Derma Block PDRN Collagen Cream, formulated with PDRN and collagen. This 50ml facial cream helps moisturize and support a smoother-looking, radiant co",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -321,9 +321,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Sikmulnara Centella Clear Ampoule 30ml — ampoule · K-beauty",
-          "headline": "Sikmulnara Centella Clear Ampoule 30ml",
-          "description": "Discover the Sikmulnara Centella Clear Ampoule in a convenient 30 ml size. Formulated with centella, this lightweight face serum helps soothe and care for your skin. Add this refreshing clear ampoule ",
+          "primary_text": "Sikmulnara Centella Clear Ampoule 30 ml — ampoule · K-beauty",
+          "headline": "Sikmulnara Centella Clear Ampoule 30 ml",
+          "description": "Discover the Sikmulnara Centella Clear Ampoule, featuring a 30 ml formula designed for your daily skincare routine. This lightweight facial ampoule helps support a balanced and refreshed-looking compl",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -443,7 +443,7 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — ask · sheet mask",
           "headline": "Celderma Daily Transforming Firming Coll",
-          "description": "Discover the Celderma Daily Transforming Firming Collagen Mask, designed to give your skin a nourished and revitalized look. Each 28g sheet mask delivers convenient daily care for a smoother-looking c",
+          "description": "Discover the Celderma Daily Transforming Firming Collagen Mask, formulated to help support a smooth and firm-looking complexion. Each 28g sheet mask is designed for easy application, delivering moistu",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -553,7 +553,7 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "VT Cica Calming Toner 300 ml — skin · K-beauty",
           "headline": "VT Cica Calming Toner 300 ml",
-          "description": "Discover the refreshing hydration of VT Cica Calming Toner in a generous 300 ml size. Designed to help soothe and refresh your skin as part of your daily skincare routine. Apply gently after cleansing",
+          "description": "Discover the refreshing hydration of VT Cica Calming Toner, formulated with cica to help soothe and comfort your skin. This generous 300 ml bottle provides ample moisture for your daily skincare routi",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -606,7 +606,7 @@
       "bucket": "스킨케어",
       "shopify_score": 86,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
-      "readiness": "fix_then_list",
+      "readiness": "ready_with_notes",
       "checklist": [
         {
           "id": "grade_s",
@@ -632,8 +632,8 @@
         {
           "id": "listing_copy",
           "label": "영문 리스팅 카피",
-          "status": "fail",
-          "evidence": "카피 미생성",
+          "status": "pass",
+          "evidence": "Gemini 카피 있음",
           "tip": "shopify-listing-copy 워크플로 실행"
         },
         {
@@ -668,9 +668,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Toner — Daiso Find — skin · K-beauty",
-          "headline": "Toner — Daiso Find",
-          "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
+          "primary_text": "Medipeel Extra Super 9 Plus Pore Calming Toner 200 ml — skin · K-beauty",
+          "headline": "Medipeel Extra Super 9 Plus Pore Calming",
+          "description": "Discover the Medipeel Extra Super 9 Plus Pore Calming Toner in a convenient 200 ml size. This refreshing toner helps to soothe the skin and maintain a balanced, comfortable feel for your daily routine",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -711,10 +711,10 @@
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
-        "pass": 4,
+        "pass": 5,
         "warn": 3,
-        "fail": 1,
-        "next_action": "실패 항목 수정"
+        "fail": 0,
+        "next_action": "경고 항목 보완 후 등록"
       }
     },
     {
@@ -785,9 +785,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Too Cool For School Tag Dewy Skin Cushion 15g Nude Light — cushion · K-beauty",
-          "headline": "Too Cool For School Tag Dewy Skin Cushio",
-          "description": "Discover the Tag Dewy Skin Cushion in Nude Light, sized at 15g for your daily makeup routine. This cushion helps create a smooth, dewy-looking complexion with a lightweight finish. Designed for easy a",
+          "primary_text": "Too The Glitz Dewy Skin Cushion 15g Nude Light — cushion · K-beauty",
+          "headline": "Too The Glitz Dewy Skin Cushion 15g Nude",
+          "description": "Discover the Too The Glitz Dewy Skin Cushion in Nude Light, sized at 15g. This cushion compact delivers a fresh, glowing finish for a radiant complexion. Lightweight and easy to apply, it helps create",
           "cta": "Shop now"
         },
         "variant_b": {

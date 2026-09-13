@@ -2,7 +2,7 @@
 title: "Record 13487b2d86 · Video-K-beauty-trend-reshaping-views-of-masculinity---ABC-News---Break"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.079638+00:00
+updated_at: 2026-09-12T23:46:55.782418+00:00
 tags: [record, real-data]
 ---
 

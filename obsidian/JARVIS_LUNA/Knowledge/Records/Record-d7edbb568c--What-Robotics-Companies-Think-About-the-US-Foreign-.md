@@ -2,7 +2,7 @@
 title: "Record d7edbb568c · What-Robotics-Companies-Think-About-the-US-Foreign-Robot-Ban"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.359594+00:00
+updated_at: 2026-09-12T23:46:56.048612+00:00
 tags: [record, real-data]
 ---
 

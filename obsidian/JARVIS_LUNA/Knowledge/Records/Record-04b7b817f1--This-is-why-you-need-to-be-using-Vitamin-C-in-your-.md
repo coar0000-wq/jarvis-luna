@@ -2,7 +2,7 @@
 title: "Record 04b7b817f1 · This-is-why-you-need-to-be-using-Vitamin-C-in-your-skincare-routine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.519751+00:00
+updated_at: 2026-09-12T23:46:56.201411+00:00
 tags: [record, real-data]
 ---
 

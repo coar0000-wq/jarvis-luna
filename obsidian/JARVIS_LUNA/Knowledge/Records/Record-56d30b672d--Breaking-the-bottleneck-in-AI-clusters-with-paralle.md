@@ -2,7 +2,7 @@
 title: "Record 56d30b672d · Breaking-the-bottleneck-in-AI-clusters-with-parallel-photonic-integrat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:20.911532+00:00
+updated_at: 2026-09-12T23:46:55.612272+00:00
 tags: [record, real-data]
 ---
 

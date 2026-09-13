@@ -2,7 +2,7 @@
 title: "Record 6a30ee56e5 · 8-Tips-to-Prepare-Your-Product-Data-for-AI-Channels-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.162675+00:00
+updated_at: 2026-09-12T23:46:55.866046+00:00
 tags: [record, real-data]
 ---
 

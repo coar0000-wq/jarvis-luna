@@ -2,7 +2,7 @@
 title: "Record f7d24fd60f · HUG-multi-resource-fairness-for-correlated-and-elastic-demands"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.327046+00:00
+updated_at: 2026-09-12T23:46:56.019262+00:00
 tags: [record, real-data]
 ---
 

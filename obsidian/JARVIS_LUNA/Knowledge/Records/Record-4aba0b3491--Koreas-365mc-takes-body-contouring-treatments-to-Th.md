@@ -2,7 +2,7 @@
 title: "Record 4aba0b3491 · Koreas-365mc-takes-body-contouring-treatments-to-Thai-reality-TV---Kor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.135289+00:00
+updated_at: 2026-09-12T23:46:55.840737+00:00
 tags: [record, real-data]
 ---
 

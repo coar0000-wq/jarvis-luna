@@ -2,7 +2,7 @@
 title: "Record 018fb3abd4 · Many-Shot-Jailbreaking"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.428187+00:00
+updated_at: 2026-09-12T23:46:56.111449+00:00
 tags: [record, real-data]
 ---
 

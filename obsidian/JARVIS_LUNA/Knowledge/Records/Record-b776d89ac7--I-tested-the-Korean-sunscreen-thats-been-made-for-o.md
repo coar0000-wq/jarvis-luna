@@ -2,7 +2,7 @@
 title: "Record b776d89ac7 · I-tested-the-Korean-sunscreen-thats-been-made-for-oily-skin---The-Inde"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:35:21.295274+00:00
+updated_at: 2026-09-12T23:46:55.989330+00:00
 tags: [record, real-data]
 ---
 
