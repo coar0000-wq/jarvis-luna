@@ -2,7 +2,7 @@
 title: "Record 75947f0ece · TikTok-Thinks-Your-Celebrity-Twin-Holds-The-Secret-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T07:03:55.931252+00:00
+updated_at: 2026-09-13T08:53:48.749886+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMieEFVX3lxTE9ReWE5QkkyMmxNTnVPYWg5cjh1b3dVdlphQngybXZ6dElEamtHTGJhNEFycG81cUdPcTUzSGliem5HR2phQ1pCMG8zUDdfZUVjS1ZsakxWQzRGUmtxdFBDcF91aDVVWElMdEx6NDNJemE2RHdNNlVhcQ?oc=5)
 
-**제목:** TikTok Thinks Your Celebrity Twin Holds The Secret To Better Makeup - bustle.com
+**제목:** TikTok Thinks Your Celebrity Twin Holds The Secret To Better Makeup - Bustle
 
-TikTok Thinks Your Celebrity Twin Holds The Secret To Better Makeup - bustle.com
+TikTok Thinks Your Celebrity Twin Holds The Secret To Better Makeup - Bustle
 
 **출처:** Source · Google Search
 

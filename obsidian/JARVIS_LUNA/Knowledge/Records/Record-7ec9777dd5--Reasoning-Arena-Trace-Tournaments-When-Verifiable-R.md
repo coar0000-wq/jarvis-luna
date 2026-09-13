@@ -2,7 +2,7 @@
 title: "Record 7ec9777dd5 · Reasoning-Arena-Trace-Tournaments-When-Verifiable-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T07:03:56.074810+00:00
+updated_at: 2026-09-13T08:53:48.881549+00:00
 tags: [record, real-data]
 ---
 

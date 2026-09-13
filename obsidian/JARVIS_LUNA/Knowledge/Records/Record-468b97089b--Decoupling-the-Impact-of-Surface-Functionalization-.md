@@ -2,7 +2,7 @@
 title: "Record 468b97089b · Decoupling-the-Impact-of-Surface-Functionalization-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T07:03:55.740596+00:00
+updated_at: 2026-09-13T08:53:48.565518+00:00
 tags: [record, real-data]
 ---
 

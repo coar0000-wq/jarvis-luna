@@ -2,7 +2,7 @@
 title: "Record 04421fbce3 · Diagnostic-accuracy-of-core-needle-biopsy-versus-fi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T07:03:55.785020+00:00
+updated_at: 2026-09-13T08:53:48.606369+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:01:34.871650+00:00",
+  "generated_at": "2026-09-13T08:51:51.404622+00:00",
   "exchange_rate": {
     "usd_to_krw": 1343.03,
     "as_of": "2026-09-13",
@@ -22,8 +22,8 @@
   },
   "market_benchmark": {
     "min": 7.5,
-    "p25": 19.99,
-    "median": 23.99,
+    "p25": 19.0,
+    "median": 23.76,
     "max": 279.0,
     "n": 100,
     "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-13)"
@@ -41,37 +41,7 @@
         "fee_usd": 1.78,
         "net_profit_usd": 10.91,
         "margin_pct": 45.5,
-        "market_median_usd": 23.99,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-        "qty": 1,
-        "price_usd": 23.99,
-        "unit_price_usd": 23.99,
-        "landed_cost_total_usd": 11.3,
-        "fee_usd": 1.78,
-        "net_profit_usd": 10.91,
-        "margin_pct": 45.5,
-        "market_median_usd": 23.99,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1041749",
-        "name": "식물원 병풀 클리어 앰플 30 ml",
-        "qty": 1,
-        "price_usd": 23.99,
-        "unit_price_usd": 23.99,
-        "landed_cost_total_usd": 10.54,
-        "fee_usd": 1.78,
-        "net_profit_usd": 11.67,
-        "margin_pct": 48.7,
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -86,7 +56,37 @@
         "fee_usd": 1.78,
         "net_profit_usd": 14.24,
         "margin_pct": 59.4,
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "qty": 1,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
+        "landed_cost_total_usd": 11.3,
+        "fee_usd": 1.78,
+        "net_profit_usd": 10.91,
+        "margin_pct": 45.5,
+        "market_median_usd": 23.76,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1041749",
+        "name": "식물원 병풀 클리어 앰플 30 ml",
+        "qty": 1,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
+        "landed_cost_total_usd": 10.54,
+        "fee_usd": 1.78,
+        "net_profit_usd": 11.67,
+        "margin_pct": 48.7,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -101,7 +101,7 @@
         "fee_usd": 1.78,
         "net_profit_usd": 7.18,
         "margin_pct": 29.9,
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -116,7 +116,7 @@
         "fee_usd": 1.78,
         "net_profit_usd": 10.16,
         "margin_pct": 42.4,
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -131,7 +131,7 @@
         "fee_usd": 1.78,
         "net_profit_usd": 11.67,
         "margin_pct": 48.7,
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -148,37 +148,7 @@
         "fee_usd": 3.03,
         "net_profit_usd": 21.64,
         "margin_pct": 52.8,
-        "market_median_usd": 23.99,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-        "qty": 2,
-        "price_usd": 40.99,
-        "unit_price_usd": 20.5,
-        "landed_cost_total_usd": 16.32,
-        "fee_usd": 3.03,
-        "net_profit_usd": 21.64,
-        "margin_pct": 52.8,
-        "market_median_usd": 23.99,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1041749",
-        "name": "식물원 병풀 클리어 앰플 30 ml",
-        "qty": 2,
-        "price_usd": 40.99,
-        "unit_price_usd": 20.5,
-        "landed_cost_total_usd": 15.58,
-        "fee_usd": 3.03,
-        "net_profit_usd": 22.38,
-        "margin_pct": 54.6,
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -193,7 +163,37 @@
         "fee_usd": 3.03,
         "net_profit_usd": 27.52,
         "margin_pct": 67.1,
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "qty": 2,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
+        "landed_cost_total_usd": 16.32,
+        "fee_usd": 3.03,
+        "net_profit_usd": 21.64,
+        "margin_pct": 52.8,
+        "market_median_usd": 23.76,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1041749",
+        "name": "식물원 병풀 클리어 앰플 30 ml",
+        "qty": 2,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
+        "landed_cost_total_usd": 15.58,
+        "fee_usd": 3.03,
+        "net_profit_usd": 22.38,
+        "margin_pct": 54.6,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -208,7 +208,7 @@
         "fee_usd": 3.03,
         "net_profit_usd": 14.4,
         "margin_pct": 35.1,
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -223,7 +223,7 @@
         "fee_usd": 3.03,
         "net_profit_usd": 18.64,
         "margin_pct": 45.5,
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -238,7 +238,7 @@
         "fee_usd": 3.03,
         "net_profit_usd": 22.38,
         "margin_pct": 54.6,
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -306,7 +306,7 @@
         "pd_no": "1048583",
         "name": "드롭비 탄탄 광채 앰플 40 ml",
         "bucket": "스킨케어",
-        "shopify_score": 97,
+        "shopify_score": 96,
         "price_krw": 5000,
         "weight_g_est": 104,
         "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
@@ -329,105 +329,19 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 7.22,
-          "margin_pct": 36.1
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 6.3,
+          "margin_pct": 33.2
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 10.92,
-          "margin_pct": 45.5
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 10.71,
+          "margin_pct": 45.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 7.01,
-        "shipping_order_usd": 7.01,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 11.3,
-        "landed_cost_ddu_usd": 11.3,
-        "landed_cost_ddp_usd": 10.74,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.2,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -3.71,
-          "margin_pct": -45.3
-        },
-        "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 7.22,
-          "margin_pct": 36.1
-        },
-        "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 10.92,
-          "margin_pct": 45.5
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041749",
-        "name": "식물원 병풀 클리어 앰플 30 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 88,
-        "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 6.26,
-        "shipping_order_usd": 6.26,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 10.54,
-        "landed_cost_ddu_usd": 10.54,
-        "landed_cost_ddp_usd": 9.98,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.39,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -2.96,
-          "margin_pct": -36.1
-        },
-        "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 7.97,
-          "margin_pct": 39.9
-        },
-        "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 11.67,
-          "margin_pct": 48.7
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -458,19 +372,105 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 10.54,
-          "margin_pct": 52.7
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 9.62,
+          "margin_pct": 50.6
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 14.24,
-          "margin_pct": 59.4
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.03,
+          "margin_pct": 59.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 7.01,
+        "shipping_order_usd": 7.01,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.3,
+        "landed_cost_ddu_usd": 11.3,
+        "landed_cost_ddp_usd": 10.74,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 12.2,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -3.71,
+          "margin_pct": -45.3
+        },
+        "at_market_p25": {
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 6.3,
+          "margin_pct": 33.2
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 10.71,
+          "margin_pct": 45.1
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041749",
+        "name": "식물원 병풀 클리어 앰플 30 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 88,
+        "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 6.26,
+        "shipping_order_usd": 6.26,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 10.54,
+        "landed_cost_ddu_usd": 10.54,
+        "landed_cost_ddp_usd": 9.98,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 11.39,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -2.96,
+          "margin_pct": -36.1
+        },
+        "at_market_p25": {
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 7.05,
+          "margin_pct": 37.1
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 11.46,
+          "margin_pct": 48.2
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -501,19 +501,19 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 3.48,
-          "margin_pct": 17.4
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 2.56,
+          "margin_pct": 13.5
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 7.18,
-          "margin_pct": 29.9
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 6.97,
+          "margin_pct": 29.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -521,7 +521,7 @@
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 86,
+        "shopify_score": 88,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -544,19 +544,19 @@
           "margin_pct": -54.5
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 6.46,
-          "margin_pct": 32.3
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 5.55,
+          "margin_pct": 29.2
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 10.17,
-          "margin_pct": 42.4
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 9.95,
+          "margin_pct": 41.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -564,7 +564,7 @@
         "pd_no": "1045421",
         "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
         "bucket": "스킨케어",
-        "shopify_score": 85,
+        "shopify_score": 83,
         "price_krw": 5000,
         "weight_g_est": 64,
         "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
@@ -587,19 +587,19 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 7.97,
-          "margin_pct": 39.9
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 7.05,
+          "margin_pct": 37.1
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 11.67,
-          "margin_pct": 48.7
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 11.46,
+          "margin_pct": 48.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -609,7 +609,7 @@
         "pd_no": "1048583",
         "name": "드롭비 탄탄 광채 앰플 40 ml",
         "bucket": "스킨케어",
-        "shopify_score": 97,
+        "shopify_score": 96,
         "price_krw": 5000,
         "weight_g_est": 104,
         "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
@@ -632,105 +632,19 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 10.35,
-          "margin_pct": 51.8
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 9.43,
+          "margin_pct": 49.6
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 14.05,
-          "margin_pct": 58.6
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 13.84,
+          "margin_pct": 58.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 3.88,
-        "shipping_order_usd": 7.77,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 8.16,
-        "landed_cost_ddu_usd": 8.16,
-        "landed_cost_ddp_usd": 7.61,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.82,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -0.58,
-          "margin_pct": -7.1
-        },
-        "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 10.35,
-          "margin_pct": 51.8
-        },
-        "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 14.05,
-          "margin_pct": 58.6
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041749",
-        "name": "식물원 병풀 클리어 앰플 30 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 88,
-        "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 3.51,
-        "shipping_order_usd": 7.01,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.79,
-        "landed_cost_ddu_usd": 7.79,
-        "landed_cost_ddp_usd": 7.23,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.41,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -0.2,
-          "margin_pct": -2.5
-        },
-        "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 10.72,
-          "margin_pct": 53.6
-        },
-        "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 14.43,
-          "margin_pct": 60.1
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -761,19 +675,105 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 13.29,
-          "margin_pct": 66.5
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 12.37,
+          "margin_pct": 65.1
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 17.0,
-          "margin_pct": 70.8
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 16.78,
+          "margin_pct": 70.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 3.88,
+        "shipping_order_usd": 7.77,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 8.16,
+        "landed_cost_ddu_usd": 8.16,
+        "landed_cost_ddp_usd": 7.61,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.82,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -0.58,
+          "margin_pct": -7.1
+        },
+        "at_market_p25": {
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 9.43,
+          "margin_pct": 49.6
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 13.84,
+          "margin_pct": 58.2
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041749",
+        "name": "식물원 병풀 클리어 앰플 30 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 88,
+        "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 3.51,
+        "shipping_order_usd": 7.01,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.79,
+        "landed_cost_ddu_usd": 7.79,
+        "landed_cost_ddp_usd": 7.23,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.41,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -0.2,
+          "margin_pct": -2.5
+        },
+        "at_market_p25": {
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 9.81,
+          "margin_pct": 51.6
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.21,
+          "margin_pct": 59.8
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -804,19 +804,19 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 6.74,
-          "margin_pct": 33.7
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 5.82,
+          "margin_pct": 30.6
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 10.44,
-          "margin_pct": 43.5
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 10.23,
+          "margin_pct": 43.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -824,7 +824,7 @@
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 86,
+        "shopify_score": 88,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -847,19 +847,19 @@
           "margin_pct": -25.3
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 8.85,
-          "margin_pct": 44.3
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 7.94,
+          "margin_pct": 41.8
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 12.56,
-          "margin_pct": 52.3
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 12.34,
+          "margin_pct": 52.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -867,7 +867,7 @@
         "pd_no": "1045421",
         "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
         "bucket": "스킨케어",
-        "shopify_score": 85,
+        "shopify_score": 83,
         "price_krw": 5000,
         "weight_g_est": 64,
         "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
@@ -890,19 +890,19 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 10.72,
-          "margin_pct": 53.6
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 9.81,
+          "margin_pct": 51.6
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 14.43,
-          "margin_pct": 60.1
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.21,
+          "margin_pct": 59.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -914,7 +914,7 @@
         "pd_no": "1048583",
         "name": "드롭비 탄탄 광채 앰플 40 ml",
         "bucket": "스킨케어",
-        "shopify_score": 97,
+        "shopify_score": 96,
         "price_krw": 5000,
         "weight_g_est": 104,
         "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
@@ -937,105 +937,19 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 7.22,
-          "margin_pct": 36.1
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 6.3,
+          "margin_pct": 33.2
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 10.92,
-          "margin_pct": 45.5
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 10.71,
+          "margin_pct": 45.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 7.01,
-        "shipping_order_usd": 7.01,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 11.3,
-        "landed_cost_ddu_usd": 11.3,
-        "landed_cost_ddp_usd": 10.74,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.2,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -3.71,
-          "margin_pct": -45.3
-        },
-        "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 7.22,
-          "margin_pct": 36.1
-        },
-        "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 10.92,
-          "margin_pct": 45.5
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041749",
-        "name": "식물원 병풀 클리어 앰플 30 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 88,
-        "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 6.26,
-        "shipping_order_usd": 6.26,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 10.54,
-        "landed_cost_ddu_usd": 10.54,
-        "landed_cost_ddp_usd": 9.98,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.39,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -2.96,
-          "margin_pct": -36.1
-        },
-        "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 7.97,
-          "margin_pct": 39.9
-        },
-        "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 11.67,
-          "margin_pct": 48.7
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1066,19 +980,105 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 10.54,
-          "margin_pct": 52.7
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 9.62,
+          "margin_pct": 50.6
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 14.24,
-          "margin_pct": 59.4
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.03,
+          "margin_pct": 59.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 7.01,
+        "shipping_order_usd": 7.01,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.3,
+        "landed_cost_ddu_usd": 11.3,
+        "landed_cost_ddp_usd": 10.74,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 12.2,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -3.71,
+          "margin_pct": -45.3
+        },
+        "at_market_p25": {
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 6.3,
+          "margin_pct": 33.2
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 10.71,
+          "margin_pct": 45.1
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041749",
+        "name": "식물원 병풀 클리어 앰플 30 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 88,
+        "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 6.26,
+        "shipping_order_usd": 6.26,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 10.54,
+        "landed_cost_ddu_usd": 10.54,
+        "landed_cost_ddp_usd": 9.98,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 11.39,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -2.96,
+          "margin_pct": -36.1
+        },
+        "at_market_p25": {
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 7.05,
+          "margin_pct": 37.1
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 11.46,
+          "margin_pct": 48.2
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1109,19 +1109,19 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 3.48,
-          "margin_pct": 17.4
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 2.56,
+          "margin_pct": 13.5
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 7.18,
-          "margin_pct": 29.9
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 6.97,
+          "margin_pct": 29.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1129,7 +1129,7 @@
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 86,
+        "shopify_score": 88,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -1152,19 +1152,19 @@
           "margin_pct": -54.5
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 6.46,
-          "margin_pct": 32.3
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 5.55,
+          "margin_pct": 29.2
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 10.17,
-          "margin_pct": 42.4
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 9.95,
+          "margin_pct": 41.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1172,7 +1172,7 @@
         "pd_no": "1045421",
         "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
         "bucket": "스킨케어",
-        "shopify_score": 85,
+        "shopify_score": 83,
         "price_krw": 5000,
         "weight_g_est": 64,
         "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
@@ -1195,19 +1195,19 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 7.97,
-          "margin_pct": 39.9
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 7.05,
+          "margin_pct": 37.1
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 11.67,
-          "margin_pct": 48.7
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 11.46,
+          "margin_pct": 48.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -1217,7 +1217,7 @@
         "pd_no": "1048583",
         "name": "드롭비 탄탄 광채 앰플 40 ml",
         "bucket": "스킨케어",
-        "shopify_score": 97,
+        "shopify_score": 96,
         "price_krw": 5000,
         "weight_g_est": 104,
         "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
@@ -1240,105 +1240,19 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 10.35,
-          "margin_pct": 51.8
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 9.43,
+          "margin_pct": 49.6
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 14.05,
-          "margin_pct": 58.6
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 13.84,
+          "margin_pct": 58.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 3.88,
-        "shipping_order_usd": 7.77,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 8.16,
-        "landed_cost_ddu_usd": 8.16,
-        "landed_cost_ddp_usd": 7.61,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.82,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -0.58,
-          "margin_pct": -7.1
-        },
-        "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 10.35,
-          "margin_pct": 51.8
-        },
-        "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 14.05,
-          "margin_pct": 58.6
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041749",
-        "name": "식물원 병풀 클리어 앰플 30 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 88,
-        "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 3.51,
-        "shipping_order_usd": 7.01,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.79,
-        "landed_cost_ddu_usd": 7.79,
-        "landed_cost_ddp_usd": 7.23,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.41,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -0.2,
-          "margin_pct": -2.5
-        },
-        "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 10.72,
-          "margin_pct": 53.6
-        },
-        "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 14.43,
-          "margin_pct": 60.1
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1369,19 +1283,105 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 13.29,
-          "margin_pct": 66.5
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 12.37,
+          "margin_pct": 65.1
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 17.0,
-          "margin_pct": 70.8
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 16.78,
+          "margin_pct": 70.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 3.88,
+        "shipping_order_usd": 7.77,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 8.16,
+        "landed_cost_ddu_usd": 8.16,
+        "landed_cost_ddp_usd": 7.61,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.82,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -0.58,
+          "margin_pct": -7.1
+        },
+        "at_market_p25": {
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 9.43,
+          "margin_pct": 49.6
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 13.84,
+          "margin_pct": 58.2
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041749",
+        "name": "식물원 병풀 클리어 앰플 30 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 88,
+        "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 3.51,
+        "shipping_order_usd": 7.01,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.79,
+        "landed_cost_ddu_usd": 7.79,
+        "landed_cost_ddp_usd": 7.23,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.41,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -0.2,
+          "margin_pct": -2.5
+        },
+        "at_market_p25": {
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 9.81,
+          "margin_pct": 51.6
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.21,
+          "margin_pct": 59.8
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1412,19 +1412,19 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 6.74,
-          "margin_pct": 33.7
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 5.82,
+          "margin_pct": 30.6
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 10.44,
-          "margin_pct": 43.5
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 10.23,
+          "margin_pct": 43.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1432,7 +1432,7 @@
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 86,
+        "shopify_score": 88,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -1455,19 +1455,19 @@
           "margin_pct": -25.3
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 8.85,
-          "margin_pct": 44.3
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 7.94,
+          "margin_pct": 41.8
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 12.56,
-          "margin_pct": 52.3
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 12.34,
+          "margin_pct": 52.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1475,7 +1475,7 @@
         "pd_no": "1045421",
         "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
         "bucket": "스킨케어",
-        "shopify_score": 85,
+        "shopify_score": 83,
         "price_krw": 5000,
         "weight_g_est": 64,
         "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
@@ -1498,19 +1498,19 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 10.72,
-          "margin_pct": 53.6
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 9.81,
+          "margin_pct": 51.6
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 14.43,
-          "margin_pct": 60.1
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.21,
+          "margin_pct": 59.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -1520,7 +1520,7 @@
         "pd_no": "1048583",
         "name": "드롭비 탄탄 광채 앰플 40 ml",
         "bucket": "스킨케어",
-        "shopify_score": 97,
+        "shopify_score": 96,
         "price_krw": 5000,
         "weight_g_est": 104,
         "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
@@ -1543,105 +1543,19 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 7.77,
-          "margin_pct": 38.9
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 6.86,
+          "margin_pct": 36.1
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 11.48,
-          "margin_pct": 47.8
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 11.26,
+          "margin_pct": 47.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 7.01,
-        "shipping_order_usd": 7.01,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 10.74,
-        "landed_cost_ddu_usd": 11.3,
-        "landed_cost_ddp_usd": 10.74,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 11.59,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -3.15,
-          "margin_pct": -38.5
-        },
-        "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 7.77,
-          "margin_pct": 38.9
-        },
-        "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 11.48,
-          "margin_pct": 47.8
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041749",
-        "name": "식물원 병풀 클리어 앰플 30 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 88,
-        "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 6.26,
-        "shipping_order_usd": 6.26,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 9.98,
-        "landed_cost_ddu_usd": 10.54,
-        "landed_cost_ddp_usd": 9.98,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 10.78,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -2.4,
-          "margin_pct": -29.3
-        },
-        "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 8.53,
-          "margin_pct": 42.7
-        },
-        "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 12.23,
-          "margin_pct": 51.0
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1672,19 +1586,105 @@
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 10.76,
-          "margin_pct": 53.8
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 9.84,
+          "margin_pct": 51.8
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 14.46,
-          "margin_pct": 60.3
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.25,
+          "margin_pct": 60.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 7.01,
+        "shipping_order_usd": 7.01,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 10.74,
+        "landed_cost_ddu_usd": 11.3,
+        "landed_cost_ddp_usd": 10.74,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 11.59,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -3.15,
+          "margin_pct": -38.5
+        },
+        "at_market_p25": {
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 6.86,
+          "margin_pct": 36.1
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 11.26,
+          "margin_pct": 47.4
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041749",
+        "name": "식물원 병풀 클리어 앰플 30 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 88,
+        "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 6.26,
+        "shipping_order_usd": 6.26,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 9.98,
+        "landed_cost_ddu_usd": 10.54,
+        "landed_cost_ddp_usd": 9.98,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 10.78,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -2.4,
+          "margin_pct": -29.3
+        },
+        "at_market_p25": {
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 7.61,
+          "margin_pct": 40.0
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 12.02,
+          "margin_pct": 50.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1715,19 +1715,19 @@
           "margin_pct": -84.1
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 4.04,
-          "margin_pct": 20.2
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 3.12,
+          "margin_pct": 16.4
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 7.74,
-          "margin_pct": 32.3
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 7.53,
+          "margin_pct": 31.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1735,7 +1735,7 @@
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 86,
+        "shopify_score": 88,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -1758,19 +1758,19 @@
           "margin_pct": -47.7
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 7.02,
-          "margin_pct": 35.1
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 6.11,
+          "margin_pct": 32.1
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 10.73,
-          "margin_pct": 44.7
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 10.51,
+          "margin_pct": 44.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1778,7 +1778,7 @@
         "pd_no": "1045421",
         "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
         "bucket": "스킨케어",
-        "shopify_score": 85,
+        "shopify_score": 83,
         "price_krw": 5000,
         "weight_g_est": 64,
         "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
@@ -1801,19 +1801,19 @@
           "margin_pct": -29.3
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 8.53,
-          "margin_pct": 42.7
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 7.61,
+          "margin_pct": 40.0
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 12.23,
-          "margin_pct": 51.0
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 12.02,
+          "margin_pct": 50.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -1823,7 +1823,7 @@
         "pd_no": "1048583",
         "name": "드롭비 탄탄 광채 앰플 40 ml",
         "bucket": "스킨케어",
-        "shopify_score": 97,
+        "shopify_score": 96,
         "price_krw": 5000,
         "weight_g_est": 104,
         "weight_note": "고시 용량 40 ml x 1.6(용기) + 40g(포장)",
@@ -1846,105 +1846,19 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 10.9,
-          "margin_pct": 54.6
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 9.99,
+          "margin_pct": 52.6
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 14.61,
-          "margin_pct": 60.9
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.4,
+          "margin_pct": 60.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 3.88,
-        "shipping_order_usd": 7.77,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 7.61,
-        "landed_cost_ddu_usd": 8.16,
-        "landed_cost_ddp_usd": 7.61,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.21,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -0.02,
-          "margin_pct": -0.3
-        },
-        "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 10.9,
-          "margin_pct": 54.6
-        },
-        "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 14.61,
-          "margin_pct": 60.9
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041749",
-        "name": "식물원 병풀 클리어 앰플 30 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 88,
-        "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 3.51,
-        "shipping_order_usd": 7.01,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 7.23,
-        "landed_cost_ddu_usd": 7.79,
-        "landed_cost_ddp_usd": 7.23,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.81,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": 0.35,
-          "margin_pct": 4.3
-        },
-        "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 11.28,
-          "margin_pct": 56.4
-        },
-        "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 14.98,
-          "margin_pct": 62.5
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1975,19 +1889,105 @@
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 13.51,
-          "margin_pct": 67.6
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 12.6,
+          "margin_pct": 66.3
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 17.22,
-          "margin_pct": 71.8
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 17.01,
+          "margin_pct": 71.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 3.88,
+        "shipping_order_usd": 7.77,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 7.61,
+        "landed_cost_ddu_usd": 8.16,
+        "landed_cost_ddp_usd": 7.61,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 8.21,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -0.02,
+          "margin_pct": -0.3
+        },
+        "at_market_p25": {
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 9.99,
+          "margin_pct": 52.6
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.4,
+          "margin_pct": 60.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041749",
+        "name": "식물원 병풀 클리어 앰플 30 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 88,
+        "weight_note": "30ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 3.51,
+        "shipping_order_usd": 7.01,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 7.23,
+        "landed_cost_ddu_usd": 7.79,
+        "landed_cost_ddp_usd": 7.23,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 7.81,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": 0.35,
+          "margin_pct": 4.3
+        },
+        "at_market_p25": {
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 10.36,
+          "margin_pct": 54.5
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.77,
+          "margin_pct": 62.2
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2018,19 +2018,19 @@
           "margin_pct": -44.4
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 7.29,
-          "margin_pct": 36.5
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 6.38,
+          "margin_pct": 33.6
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 11.0,
-          "margin_pct": 45.8
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 10.78,
+          "margin_pct": 45.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2038,7 +2038,7 @@
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 86,
+        "shopify_score": 88,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -2061,19 +2061,19 @@
           "margin_pct": -18.5
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 9.41,
-          "margin_pct": 47.1
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 8.5,
+          "margin_pct": 44.7
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 13.12,
-          "margin_pct": 54.7
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 12.9,
+          "margin_pct": 54.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2081,7 +2081,7 @@
         "pd_no": "1045421",
         "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
         "bucket": "스킨케어",
-        "shopify_score": 85,
+        "shopify_score": 83,
         "price_krw": 5000,
         "weight_g_est": 64,
         "weight_note": "15g x 1.6(용기) + 40g(포장) 추정",
@@ -2104,19 +2104,19 @@
           "margin_pct": 4.3
         },
         "at_market_p25": {
-          "sell": 19.99,
-          "fee": 1.48,
-          "profit": 11.28,
-          "margin_pct": 56.4
+          "sell": 19.0,
+          "fee": 1.41,
+          "profit": 10.36,
+          "margin_pct": 54.5
         },
         "at_market_median": {
-          "sell": 23.99,
-          "fee": 1.78,
-          "profit": 14.98,
-          "margin_pct": 62.5
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.77,
+          "margin_pct": 62.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.99,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       }

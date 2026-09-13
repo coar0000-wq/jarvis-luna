@@ -2,7 +2,7 @@
 title: "Record 2b90c20b0d · K-Beautys-US-Boom-Moves-Beyond-Products-to-the-Kore"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T07:03:56.010170+00:00
+updated_at: 2026-09-13T08:53:48.821628+00:00
 tags: [record, real-data]
 ---
 

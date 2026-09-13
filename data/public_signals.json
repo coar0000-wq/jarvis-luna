@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:01:33.989084+00:00",
+  "generated_at": "2026-09-13T08:51:50.707603+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -23,24 +23,8 @@
           "approx_traffic": "1000+",
           "traffic_num": 1000,
           "published": "Sat, 12 Sep 2026 22:10:00 -0700",
-          "source_name": "The New York Times",
+          "source_name": "IMDb",
           "url": "https://trends.google.com/trending?geo=US&q=tyler%20perry"
-        },
-        {
-          "keyword": "wendy williams",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sat, 12 Sep 2026 21:30:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=wendy%20williams"
-        },
-        {
-          "keyword": "henry cavill",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sat, 12 Sep 2026 21:30:00 -0700",
-          "source_name": "Red Bank Green",
-          "url": "https://trends.google.com/trending?geo=US&q=henry%20cavill"
         },
         {
           "keyword": "leslie jones",
@@ -55,23 +39,31 @@
           "approx_traffic": "500+",
           "traffic_num": 500,
           "published": "Sat, 12 Sep 2026 22:00:00 -0700",
-          "source_name": "Soy Futbol",
+          "source_name": "OneFootball",
           "url": "https://trends.google.com/trending?geo=US&q=miguel%20borja"
         },
         {
-          "keyword": "hawaii",
+          "keyword": "steam frame",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 12 Sep 2026 23:00:00 -0700",
-          "source_name": "Hawaii News Now",
-          "url": "https://trends.google.com/trending?geo=US&q=hawaii"
+          "published": "Sun, 13 Sep 2026 00:20:00 -0700",
+          "source_name": "TechPowerUp",
+          "url": "https://trends.google.com/trending?geo=US&q=steam%20frame"
+        },
+        {
+          "keyword": "aj hill",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 12 Sep 2026 23:10:00 -0700",
+          "source_name": "Whole Hog Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=aj%20hill"
         },
         {
           "keyword": "jessica alba",
           "approx_traffic": "200+",
           "traffic_num": 200,
           "published": "Sat, 12 Sep 2026 23:00:00 -0700",
-          "source_name": "People.com",
+          "source_name": "The Times of India",
           "url": "https://trends.google.com/trending?geo=US&q=jessica%20alba"
         },
         {
@@ -83,12 +75,20 @@
           "url": "https://trends.google.com/trending?geo=US&q=%C3%B3scar%20perea"
         },
         {
-          "keyword": "cole young",
+          "keyword": "damson idris",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 12 Sep 2026 21:40:00 -0700",
-          "source_name": "MLB.com",
-          "url": "https://trends.google.com/trending?geo=US&q=cole%20young"
+          "published": "Sat, 12 Sep 2026 22:00:00 -0700",
+          "source_name": "The Shade Room",
+          "url": "https://trends.google.com/trending?geo=US&q=damson%20idris"
+        },
+        {
+          "keyword": "cycling",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Sun, 13 Sep 2026 01:10:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=cycling"
         }
       ]
     },

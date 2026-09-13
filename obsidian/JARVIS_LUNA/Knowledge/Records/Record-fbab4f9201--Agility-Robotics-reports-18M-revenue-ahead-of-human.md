@@ -2,7 +2,7 @@
 title: "Record fbab4f9201 · Agility-Robotics-reports-18M-revenue-ahead-of-human"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T07:03:56.181594+00:00
+updated_at: 2026-09-13T08:53:48.982601+00:00
 tags: [record, real-data]
 ---
 

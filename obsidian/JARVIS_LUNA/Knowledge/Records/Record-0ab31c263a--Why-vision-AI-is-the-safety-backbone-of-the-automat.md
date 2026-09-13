@@ -2,7 +2,7 @@
 title: "Record 0ab31c263a · Why-vision-AI-is-the-safety-backbone-of-the-automat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T07:03:56.191098+00:00
+updated_at: 2026-09-13T08:53:48.991126+00:00
 tags: [record, real-data]
 ---
 

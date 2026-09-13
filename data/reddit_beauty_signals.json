@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-13T06:56:31.711336+00:00",
+  "collected_at": "2026-09-13T08:48:03.782749+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 25,
+  "post_count": 33,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -35,14 +35,25 @@
     },
     {
       "subreddit": "AsianBeautyAdvice",
-      "post_count": 0,
+      "post_count": 25,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests",
         "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     }
   ],
   "hot_keywords": [
+    {
+      "keyword": "random",
+      "score": 13
+    },
+    {
+      "keyword": "thoughts",
+      "score": 13
+    },
+    {
+      "keyword": "know",
+      "score": 6
+    },
     {
       "keyword": "toner",
       "score": 4
@@ -56,15 +67,15 @@
       "score": 3
     },
     {
+      "keyword": "review",
+      "score": 3
+    },
+    {
       "keyword": "cream",
       "score": 3
     },
     {
       "keyword": "sunscreen",
-      "score": 2
-    },
-    {
-      "keyword": "review",
       "score": 2
     },
     {
@@ -88,11 +99,15 @@
       "score": 2
     },
     {
-      "keyword": "mascara",
+      "keyword": "beauty",
       "score": 2
     },
     {
-      "keyword": "beauty",
+      "keyword": "products",
+      "score": 2
+    },
+    {
+      "keyword": "mascara",
       "score": 2
     },
     {
@@ -125,6 +140,18 @@
     },
     {
       "keyword": "korean",
+      "score": 2
+    },
+    {
+      "keyword": "routine",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreens",
+      "score": 2
+    },
+    {
+      "keyword": "k-beauty",
       "score": 2
     },
     {
@@ -174,34 +201,6 @@
     {
       "keyword": "teso",
       "score": 1
-    },
-    {
-      "keyword": "life",
-      "score": 1
-    },
-    {
-      "keyword": "opening",
-      "score": 1
-    },
-    {
-      "keyword": "60+",
-      "score": 1
-    },
-    {
-      "keyword": "new",
-      "score": 1
-    },
-    {
-      "keyword": "stores",
-      "score": 1
-    },
-    {
-      "keyword": "across",
-      "score": 1
-    },
-    {
-      "keyword": "soon",
-      "score": 1
     }
   ],
   "beauty_keywords": [
@@ -243,6 +242,18 @@
     },
     {
       "keyword": "korean",
+      "score": 2
+    },
+    {
+      "keyword": "routine",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreens",
+      "score": 2
+    },
+    {
+      "keyword": "k-beauty",
       "score": 2
     }
   ],
@@ -304,6 +315,20 @@
       "feed": "hot"
     },
     {
+      "title": "Please save me from Seoul clinic decision paralysis 🥲",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wf1a55/please_save_me_from_seoul_clinic_decision/",
+      "published": "2026-09-13T07:44:39+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Beauty products from each asian country",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wez3wl/beauty_products_from_each_asian_country/",
+      "published": "2026-09-13T05:40:07+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Numbuzin 3 Toner Total Reformulation!",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wehyxu/numbuzin_3_toner_total_reformulation/",
       "published": "2026-09-12T17:04:15+00:00",
@@ -318,6 +343,13 @@
       "feed": "hot"
     },
     {
+      "title": "Isntree AHA 8% essence from Chestnut Line Discontinued?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weh8co/isntree_aha_8_essence_from_chestnut_line/",
+      "published": "2026-09-12T16:35:52+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "20 years with YesStyle",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1we20xz/20_years_with_yesstyle/",
       "published": "2026-09-12T03:58:47+00:00",
@@ -328,13 +360,6 @@
       "title": "Beauty of joseam green plum toner smells",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1were73/beauty_of_joseam_green_plum_toner_smells/",
       "published": "2026-09-12T23:19:12+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Isntree AHA 8% essence from Chestnut Line Discontinued?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weh8co/isntree_aha_8_essence_from_chestnut_line/",
-      "published": "2026-09-12T16:35:52+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -356,13 +381,6 @@
       "title": "Anything Goes Saturday: September 12, 2026",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wenlfj/anything_goes_saturday_september_12_2026/",
       "published": "2026-09-12T20:39:13+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Beauty products from each asian country",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wez3wl/beauty_products_from_each_asian_country/",
-      "published": "2026-09-13T05:40:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -416,10 +434,59 @@
       "feed": "hot"
     },
     {
-      "title": "Colorgram contours",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdkt2a/colorgram_contours/",
-      "published": "2026-09-11T16:17:30+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "Revamping ABA",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/10dpkk9/revamping_aba/",
+      "published": "2023-01-16T19:53:22+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "Random AB thoughts",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1wec0xc/random_ab_thoughts/",
+      "published": "2026-09-12T13:00:11+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[GUIDE] help on the products",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1wcv8dp/guide_help_on_the_products/",
+      "published": "2026-09-10T20:42:30+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "I know it’s not AB, but...",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w59ohe/i_know_its_not_ab_but/",
+      "published": "2026-09-02T13:00:24+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "Routine Journal",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w3d44t/routine_journal/",
+      "published": "2026-08-31T13:00:10+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[Review] Japanese sunscreens",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1vzze8m/review_japanese_sunscreens/",
+      "published": "2026-08-27T16:49:56+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[Q&A] Can I still use it after the expiry date?",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1vvhx8l/qa_can_i_still_use_it_after_the_expiry_date/",
+      "published": "2026-08-22T17:09:57+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[Q&A] Who’s the most honest K-beauty YouTuber you actually trust?",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1un7xgb/qa_whos_the_most_honest_kbeauty_youtuber_you/",
+      "published": "2026-07-04T12:32:43+00:00",
+      "subreddit": "AsianBeautyAdvice",
       "feed": "hot"
     }
   ],

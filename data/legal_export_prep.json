@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:01:37.035826+00:00",
+  "generated_at": "2026-09-13T08:51:53.416040+00:00",
   "generator": "scripts/prepare_legal_export.py",
   "왜": "법률팀이 '검토 0건, 5항목 대기' 였는데 그 다섯 중 넷은 이미 저장소에 있는 값으로 채울 수 있었다. 먼저 채우고 사람은 확인만 한다.",
   "hs_출처": "hts.usitc.gov/reststop/search (미국 국제무역위원회 공식)",
@@ -12,7 +12,6 @@
     "내용량",
     "원산지",
     "전성분",
-    "제품 정체 표시",
     "책임자 이름·주소"
   ],
   "items": [
@@ -454,8 +453,8 @@
       "제조국": "",
       "내용량": "",
       "제조업자": "",
-      "name_en": "TAG Dewy Skin Cushion 15g Nude Light",
-      "product_type_en": "Foundation",
+      "name_en": "Too The Dewy Skin Cushion 15g Nude Light",
+      "product_type_en": "Cushion Foundation",
       "hs": {
         "code": "3304.99",
         "basis": "버킷 '스킨케어'",
@@ -491,7 +490,7 @@
         "draft": {
           "product_identity": {
             "label": "제품 정체 표시",
-            "value": "TAG Dewy Skin Cushion 15g Nude Light",
+            "value": "Too The Dewy Skin Cushion 15g Nude Light",
             "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
           },
           "net_quantity": {
@@ -542,8 +541,8 @@
       "제조국": "한국",
       "내용량": "150ml",
       "제조업자": "(주)뉴앤뉴 / (주)브랜뉴이",
-      "name_en": "",
-      "product_type_en": "",
+      "name_en": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
+      "product_type_en": "Face Toner",
       "hs": {
         "code": "3304.99",
         "basis": "버킷 '스킨케어'",
@@ -579,7 +578,7 @@
         "draft": {
           "product_identity": {
             "label": "제품 정체 표시",
-            "value": "",
+            "value": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
             "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
           },
           "net_quantity": {
@@ -609,7 +608,6 @@
           }
         },
         "missing": [
-          "제품 정체 표시",
           "책임자 이름·주소"
         ],
         "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",

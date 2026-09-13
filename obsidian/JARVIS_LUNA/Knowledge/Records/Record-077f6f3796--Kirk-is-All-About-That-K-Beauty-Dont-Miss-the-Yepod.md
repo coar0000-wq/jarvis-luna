@@ -2,7 +2,7 @@
 title: "Record 077f6f3796 · Kirk-is-All-About-That-K-Beauty-Dont-Miss-the-Yepod"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T07:03:56.040924+00:00
+updated_at: 2026-09-13T08:53:48.850087+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMizAFBVV95cUxQdXphZlNXamZTd2JuSFJuU05CNVJKekdBZS1XNHM0RjNTNk15SExPNHh5Q1JjNUM1RTE5X1BFcG1VVGFJN1hHcGZNZW9Ja0xXdGdXTm1xM0N1ZWxpWlJrT3Q4VDFGbjlnNVIzTFlXVi0yT3A2ZXU2Sm5Ra3RkRmR1Z1NGeUt0UlBrMTlsS2QweTM0S25xMWhlZmFYNUJCdHZ3Um0tLWRoR0R3MmlXQjFBMXZhMXZuQXF4d3RaWTNsU1FrdHMwbEMxNUVld3A?oc=5)
 
-**제목:** Kirk is All About That K-Beauty! Don't Miss the Yepoda Pop-Up This Weekend At The Grove & The Americana - KTLA
+**제목:** Kirk is All About That K-Beauty! Don't Miss the Yepoda Pop-Up This Weekend At The Grove & The Americana - ktla.com
 
-Kirk is All About That K-Beauty! Don't Miss the Yepoda Pop-Up This Weekend At The Grove & The Americana - KTLA
-Kirk is All About That K-Beauty! Don't Miss the Yepoda Pop-Up This Weekend At The Grove & The Americana - KTLA
+Kirk is All About That K-Beauty! Don't Miss the Yepoda Pop-Up This Weekend At The Grove & The Americana - ktla.com
+Kirk is All About That K-Beauty! Don't Miss the Yepoda Pop-Up This Weekend At The Grove & The Americana - ktla.com
 
 **출처:** Source · us_beauty
 

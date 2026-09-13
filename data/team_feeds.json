@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T06:55:45.416016+00:00",
+  "generated_at": "2026-09-13T08:47:21.326186+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -503,7 +503,7 @@
         "by_hand": true
       },
       {
-        "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+        "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
         "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
         "pool": "youtube_channel",
         "date": "",
@@ -1708,7 +1708,7 @@
         "by_hand": true
       },
       {
-        "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+        "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
         "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
         "pool": "youtube_channel",
         "date": "",

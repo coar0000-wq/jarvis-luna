@@ -2,7 +2,7 @@
 title: "Record 3e0f3dac49 · Human-Skin-Is-the-Newest-Ingredient-in-K-Beauty---T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T07:03:55.987634+00:00
+updated_at: 2026-09-13T08:53:48.800975+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilwFBVV95cUxNdjRtVEFBdkhkT0Q4TXZPQzRaeDBHYTNLLXZyLV9QMC02eERQSTBBM3FIbWQwX0N3YmQtUEdNUXZ0aktUYXN0VC1aR280U2lOS0FURVJZaVFZS3hUcVZZd2dGalZLVlc4S1A5amxuUmNXNlJsMkpXdUgtRXFHemlydENNOE55SEdNcnBvZnZXUDZvaVY3clk0?oc=5)
 
-**제목:** Human Skin Is the Newest Ingredient in K-Beauty - The Business of Fashion
+**제목:** Human Skin Is the Newest Ingredient in K-Beauty - businessoffashion.com
 
-Human Skin Is the Newest Ingredient in K-Beauty - The Business of Fashion
+Human Skin Is the Newest Ingredient in K-Beauty - businessoffashion.com
 
 **출처:** Source · Google Search
 

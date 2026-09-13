@@ -2,7 +2,7 @@
 title: "Record 8105300c8c · Korean-beauty-products-are-becoming-mainstream-in-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T07:03:55.990229+00:00
+updated_at: 2026-09-13T08:53:48.803072+00:00
 tags: [record, real-data]
 ---
 

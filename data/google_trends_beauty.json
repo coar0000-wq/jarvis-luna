@@ -1,14 +1,14 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-13T06:56:58.082019+00:00",
+  "collected_at": "2026-09-13T08:48:25.180246+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
   "count": 91,
   "items": [
     {
-      "keyword": "Kirk is All About That K-Beauty! Don't Miss the Yepoda Pop-Up This Weekend At The Grove & The Americana - ktla.com",
-      "product": "Kirk is All About That K-Beauty! Don't Miss the Yepoda Pop-Up This Weekend At The Grove & The Americana - ktla.com",
+      "keyword": "Kirk is All About That K-Beauty! Don't Miss the Yepoda Pop-Up This Weekend At The Grove & The Americana - KTLA",
+      "product": "Kirk is All About That K-Beauty! Don't Miss the Yepoda Pop-Up This Weekend At The Grove & The Americana - KTLA",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdXphZlNXamZTd2JuSFJuU05CNVJKekdBZS1XNHM0RjNTNk15SExPNHh5Q1JjNUM1RTE5X1BFcG1VVGFJN1hHcGZNZW9Ja0xXdGdXTm1xM0N1ZWxpWlJrT3Q4VDFGbjlnNVIzTFlXVi0yT3A2ZXU2Sm5Ra3RkRmR1Z1NGeUt0UlBrMTlsS2QweTM0S25xMWhlZmFYNUJCdHZ3Um0tLWRoR0R3MmlXQjFBMXZhMXZuQXF4d3RaWTNsU1FrdHMwbEMxNUVld3A?oc=5",
@@ -16,11 +16,20 @@
       "beauty": true
     },
     {
-      "keyword": "K-Beauty Expert Brings Industry Experience to Auburn Through Sejong Culture Academy - Auburn University",
-      "product": "K-Beauty Expert Brings Industry Experience to Auburn Through Sejong Culture Academy - Auburn University",
+      "keyword": "K-Beauty Expert Brings Industry Experience to Auburn Through Sejong Culture Academy - wire.auburn.edu",
+      "product": "K-Beauty Expert Brings Industry Experience to Auburn Through Sejong Culture Academy - wire.auburn.edu",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWFo5eXpyZ1JXdWRmc2p0dEJUd011UXVyWW5XOVFJZlVUQ0I4MUxNZXlHelBnUVo2aHhMT0MzMDI0NzI1MEROMmVmSlJ6VHYzbDFqYkRpbDdycFFKVEN0ZUEycXg4azZnMVd3VVFzbGR4WUw5eXBWaTJEWlBGVmpXY05pUFVxUW1HMG5JWXI3c3JHaF9qSlVOSXRIdHVMWk5DdC1Iem5pRmo5MEFzWXl6ZTVtaEpsTll3dzJLTmpWTkZlakM4YXlOaFo3X3NpVUlLa3pIMzhkcG1ibGNXUG93c0tmc2lydw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Rising number of South Korean beauticians providing illicit services in Hong Kong - South China Morning Post",
+      "product": "Rising number of South Korean beauticians providing illicit services in Hong Kong - South China Morning Post",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUVotSmc3OHdOX21IVnVBWEswVmM4OGRUejR5YWVqN1Nwb0R4OC1MakZEbGVscEZzeTF5MC1oNlEtSHV6blVuNkxiSzBnRi1GZ0g1N2VZVXo3MDYyNEdQMlZkRHJ1aWxiS2FIWktzaHk4R21TLTdicU5HWWJLRlhtbGpxZlVVZ01XbUlvUElSSUplRVNTanhybnY2aGpOckF4RHJqQllzR2J0MGZKSEtweHczSV9QclRvSTJIZlBqc1RpVFVCTVBBYnN1Vlo0b1RaT2Iw0gHTAUFVX3lxTFAwblZhOUJoakdNREZvME5JWl8tMUZ3dDdTZEptNTUyVllZb3FHTWw1M2lXLU1RQTh6Ym1JNmVpUV9iRkY0TDY2dE0xTGxFVGh0YXFqdnRWOVZ6eXZDRjBYdkdMTTNoMkV6a2xSQnlPLWstUXZpdmZiVVlCeWtrenBDZnBnS0VSX3NaWFJKWTVJNFFzQnVkeUJLU19LTG1Rb25PNjFxdHhSV0g1REtRWWNtYVZRMmZ4Q0M0U3RxY2U3UnBEbG8zb2ZXanpFYVpMbm9SWU0?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -34,15 +43,6 @@
       "beauty": true
     },
     {
-      "keyword": "Coupang Pilots Brand Hotline to Fight Counterfeit K-Beauty - Seoul Economic Daily",
-      "product": "Coupang Pilots Brand Hotline to Fight Counterfeit K-Beauty - Seoul Economic Daily",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOExFbWtQVnpnVHVuSEJrVzdpYmpmZi1jc1BZWWhBeFl2SzFHTFdEUnlfZ0N1cWNSMDlJOEZDOE9fOEplU2V0UEpVcDdTV2ZwRzZMX04wTmcwSE9WVnhWQmxRdXN6QUk4ZGdDZlRGdllTNjNDSzFMZ3QyOGw0LTBpRTNKOU8tTmRja2hYSDlMRFZvbVNPWUtfTzNrSnZJVFlKNVE?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - Celeb Secrets",
       "product": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - Celeb Secrets",
       "sub": "K-beauty",
@@ -52,11 +52,11 @@
       "beauty": true
     },
     {
-      "keyword": "K-Beauty Stocks Stumble on Won's Strength, but Analysts See the Pullback as a Buying Opportunity - finance.biggo.com",
-      "product": "K-Beauty Stocks Stumble on Won's Strength, but Analysts See the Pullback as a Buying Opportunity - finance.biggo.com",
+      "keyword": "Coupang Pilots Brand Hotline to Fight Counterfeit K-Beauty - Seoul Economic Daily",
+      "product": "Coupang Pilots Brand Hotline to Fight Counterfeit K-Beauty - Seoul Economic Daily",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rRDNuYVMydmRhRjJnMWhWRnZJdUNBN2hjU0hsMlBzYzk0Mm9VLXR4dzNKeURRTTFqbnlFTFYwR0ZCSTBwQ2dWUGdEMmdYSnd3NWJsUFZURS1LQ0FpdURuc3dSSGp0c1pxY3QyaGxlWHJnbi1ud0E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOExFbWtQVnpnVHVuSEJrVzdpYmpmZi1jc1BZWWhBeFl2SzFHTFdEUnlfZ0N1cWNSMDlJOEZDOE9fOEplU2V0UEpVcDdTV2ZwRzZMX04wTmcwSE9WVnhWQmxRdXN6QUk4ZGdDZlRGdllTNjNDSzFMZ3QyOGw0LTBpRTNKOU8tTmRja2hYSDlMRFZvbVNPWUtfTzNrSnZJVFlKNVE?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -142,8 +142,8 @@
       "beauty": true
     },
     {
-      "keyword": "We Tested Dozens of the Best Korean Skincare Products—These 17 Gave Us Radiant Skin - Byrdie",
-      "product": "We Tested Dozens of the Best Korean Skincare Products—These 17 Gave Us Radiant Skin - Byrdie",
+      "keyword": "We Tested Dozens of the Best Korean Skincare Products—These 17 Gave Us Radiant Skin - byrdie.com",
+      "product": "We Tested Dozens of the Best Korean Skincare Products—These 17 Gave Us Radiant Skin - byrdie.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sc1dUR0l3QkxvbDVjMnk4bzBxd0RKMW13ZVFBZlRLQmFwM3gtdjR1Sk5vZkp3c2xFNUc5Tm9ycThJWGc3TnVZekNOWHNYVHppZEhWWkZ6NjFwQzlZakk2VERaNzlNRVVxaGk1a0ZUWQ?oc=5",
@@ -169,20 +169,20 @@
       "beauty": true
     },
     {
-      "keyword": "Should You Get a Tofu Facial? - vegnews.com",
-      "product": "Should You Get a Tofu Facial? - vegnews.com",
-      "sub": "snail mucin",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GMWpDQXJra1dxSm5ZVVlScW91MDlvb0dxeEJKUXN4TkJCUGNZcjNuYTFlTnVlYzNsN0g1MlFrWTRZQkU5SXlzcFlPRDNsblN4WFRLZlpR?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "Sticky or slippery? Snails can change their slime to meet the moment - NPR",
       "product": "Sticky or slippery? Snails can change their slime to meet the moment - NPR",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRlRZZlJCZVJLZThvM0ZQYXpuNWFfck9MV2pBekdVSUxPMGRTSGFuZzJBYjV4ZExXUElZNnRLY3ZsankzTnNIV0dxVGdMWFQ3Qk1xMGlVR1JBTzJnZk1JQlhFYUt0X1BXT2s3WXdIc1MyZDF3bm5ZUzVQM2lVc2Z0a21lSm9BMGRianFtbg?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Should You Get a Tofu Facial? - VegNews.com",
+      "product": "Should You Get a Tofu Facial? - VegNews.com",
+      "sub": "snail mucin",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GMWpDQXJra1dxSm5ZVVlScW91MDlvb0dxeEJKUXN4TkJCUGNZcjNuYTFlTnVlYzNsN0g1MlFrWTRZQkU5SXlzcFlPRDNsblN4WFRLZlpR?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -205,8 +205,8 @@
       "beauty": true
     },
     {
-      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
-      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
+      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - goodhousekeeping.com",
+      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - goodhousekeeping.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVFB2b0FsdDRfdzNDNmZiTU9kX2RJdmJncVQxcWtUUGYyNHhHb3ZXZkZCdXR6ck4wYmxIUzJMbUFhb1Mxc2FTVkZRbmlKVFBQMEY0aXZsODdCLWIxZUV3QnZJcEtMaW9EeTFfaUNtek9hQU10YmJ5OHd0QjAwZWR3UGRUdGo2XzBuenFwcA?oc=5",
@@ -214,8 +214,8 @@
       "beauty": true
     },
     {
-      "keyword": "Snails are masters of mucus chemistry - C&EN",
-      "product": "Snails are masters of mucus chemistry - C&EN",
+      "keyword": "Snails are masters of mucus chemistry - cen.acs.org",
+      "product": "Snails are masters of mucus chemistry - cen.acs.org",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdWxLYWM0V1J4VkM4aWpQRXRGM2h2RTFYYUg4NmdNd0RFbEtpZlNTdHc1Rkg5alNqbzByMEkycVh1bnJSby1seFpNc3JZMkgzUVBmOUJQT0pxYTI2RnA4bHh5U0lQdzZDa1E4eUxXZnBUa3FVUE55T0JsaXFIbTZnbkZFRFVtNmJNRVNLNlN0SVNaXzM1UVVqNmVjTjlmRkk?oc=5",
@@ -349,11 +349,11 @@
       "beauty": true
     },
     {
-      "keyword": "Korean Serums Are Like a 10-Step Routine in a Single Bottle - Allure",
-      "product": "Korean Serums Are Like a 10-Step Routine in a Single Bottle - Allure",
+      "keyword": "I’d Gladly Pay 4 Times As Much for This Magical $20 Serum - New York Magazine",
+      "product": "I’d Gladly Pay 4 Times As Much for This Magical $20 Serum - New York Magazine",
       "sub": "centella serum",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDN1ZQRXVfcUhQZnNfenU5VHZSc21Tb0NaeWdiUVNDNnJXdzZoMUJoNU9yak5wUnpnNDlpV1FLTnVTdDFKRFp2SGtaUkpIVjNmNndJaW41YU9YY0V4U0RSRUUzYnR0UzQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9BdnVBTlktX1N3RVoxTllWUjVDMF9FS0JxMWZjU2JXMUNJeXJGZU9YWk1mRk4waE5RREF5RXpjU1NER2NLcXh5LXJ2ME01bXRTM1UwaHpNaVBhbHRSeUJFYjU0ZjBsWTZuTDV1ZHBB?oc=5",
       "kind": "news",
       "beauty": true
     },
