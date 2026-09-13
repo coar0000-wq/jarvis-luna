@@ -43,28 +43,16 @@ jobs:
 
       # 규칙을 바꿨으면 이미 쌓인 자료도 그 규칙으로 맞춘다 (2026-09-13)
       #
-      # 2026-09-13 에 FDA 의약품 네 갈래를 category_map.json 의 exclude 에
-      # 넣었다. 불소치약·구강, 항균세정, 비듬·탈모, 땀억제데오 다.
-      # 큐는 그 규칙으로 걸렀는데 이미 수집된 products.json 222건은 그대로 뒀다.
-      #
-      # 그래서 푸시 직전 감사가 막았다.
-      #   FAIL 제외 대상이 상품 목록에 10건 남아 있다
-      #   Error: 원격 main에는 아직 푸시하지 않는다
-      # 워크플로 네 개가 전부 그 관문에서 멈췄다.
-      #
-      # 규칙 바꾸는 사람과 자료 쌓는 기계가 따로 놀면 같은 일이 또 난다.
-      # 그래서 매 회차에 사전으로 한 번 훑는다.
-      #
-      # 지울 목록을 여기 적지 않는다. category_map.json 을 읽어 거른다.
-      # 사전을 고치면 이 단계가 알아서 따라간다.
-      # 걸리는 것이 없으면 파일을 건드리지 않으므로 빈 커밋이 안 생긴다.
+      # category_map.json의 exclude 규칙을 기준으로
+      # 이미 쌓인 상품도 매 회차 감사한다.
+      # 걸리는 것이 없으면 파일을 건드리지 않는다.
       - name: 제외 규칙으로 상품 목록 정리
         shell: bash
         run: |
           python -u scripts/daiso/prune_excluded_products.py --apply
 
           # 목록이 실제로 바뀌었을 때만 점수를 다시 낸다.
-          # 매번 다시 내면 generated_at 만 바뀐 커밋이 30분마다 쌓인다.
+          # 매번 다시 내면 generated_at만 바뀌는 커밋이 쌓인다.
           if ! git diff --quiet -- data/daiso_real/products.json; then
             echo "상품 목록이 바뀌었다. 점수를 다시 계산한다."
             python -u scripts/daiso/score_shopify_demand.py
@@ -156,10 +144,10 @@ jobs:
           if [ "$NEED_GOSI" = "1" ]; then
             echo "고시 병목 발견"
 
-            # 고시 수집기는 data/gosi.json을 갱신한다.
+            # 다이소 상품 고시는 data/gosi.json만 사용한다.
             python -u scripts/collect_daiso_gosi.py || true
 
-            # 수집 결과를 data/daiso_real/daiso_us_labels.json에 병합한다.
+            # 수집 결과를 미국 라벨 데이터에 병합한다.
             python -u scripts/sync_gosi_to_us_labels.py
 
             if [ -n "${GEMINI_API_KEY:-}" ]; then
@@ -214,6 +202,47 @@ jobs:
         run: |
           python scripts/generate_dashboard_runtime.py
 
+      # ============================================================
+      # 에이전트 진단·우선순위 생성
+      # ============================================================
+      #
+      # run_jarvis_agents.py 는 데이터 플레인을 수정하지 않고
+      # data/agents/*.json 만 생성한다.
+      #
+      # 30분 주기 참모장에서는 정상 상태에서도 강제로 다시 작성한다.
+      # 따라서 ops_plan이 며칠 전 문장으로 남는 문제를 막는다.
+      #
+      # 생성:
+      #   data/agents/ops_plan.json
+      #   data/agents/last_run.json
+      #   data/agents/collector_audit.json
+      #   data/agents/signal_audit.json
+      #
+      # 데이터 수집·채점·CSV 자체는 건드리지 않는다.
+      - name: 에이전트 진단 및 오늘 우선순위 생성
+        shell: bash
+        env:
+          JARVIS_AGENTS_FORCE: "1"
+        run: |
+          python -u scripts/run_jarvis_agents.py --force
+
+          echo "===== 에이전트 산출물 ====="
+
+          for f in \
+            data/agents/ops_plan.json \
+            data/agents/last_run.json \
+            data/agents/collector_audit.json \
+            data/agents/signal_audit.json
+          do
+            if [ -f "$f" ]; then
+              echo "OK: $f"
+            else
+              echo "::warning::에이전트 산출물 없음: $f"
+            fi
+          done
+
+          echo "==========================="
+
       - name: 변경사항 확인 (기록용)
         shell: bash
         run: |
@@ -221,31 +250,14 @@ jobs:
           git status --short
           echo "=========================="
 
-      # 손으로 만든 커밋·푸시 루프를 발행 액션으로 바꿨다 (2026-09-13)
+      # ============================================================
+      # 안전 발행
+      # ============================================================
       #
-      # 이 워크플로만 자기 루프를 갖고 있었다. 나머지 아홉 개는
-      # .github/actions/publish 를 쓴다. 그 액션은 정확히 이 문제를
-      # 풀려고 만든 것이다. 원격이 움직이는 중에 발행하는 문제다.
+      # 이번 실행이 실제로 만든 파일만 최신 origin/main 위에 얹는다.
+      # publish 액션 자체가 최신 원격과 충돌을 처리한다.
       #
-      # 증상은 이랬다. 실행은 30분(실제로는 스로틀링되어 2~3시간)마다
-      # 성공으로 끝나는데 커밋이 09-13 00:32 이후로 끊겼다.
-      # 09:30 실행 로그를 보면 변경 6개와 새 이미지 10장이 스테이징됐는데
-      # Commit & Push 단계가 2초 만에 끝나고 커밋이 남지 않았다.
-      #
-      # 옛 루프의 문제는 두 가지였다.
-      #
-      #   푸시가 거절되면 reset --hard 로 원격을 받은 뒤 스크립트를 다시
-      #   돌린다. 그런데 그 사이 다른 워크플로가 같은 스크립트를 이미
-      #   돌려 같은 결과를 올려 놨으면 "변경사항 없음" 으로 조용히 끝난다.
-      #   이번 회차가 한 일이 통째로 사라지고 로그에는 성공만 남는다.
-      #
-      #   무슨 일이 있었는지 로그에 거의 안 남는다. 그래서 위 증상을
-      #   눈으로 보고도 원인을 못 짚었다. 추측만 두 번 틀렸다.
-      #
-      # 발행 액션은 다르다. 이번 실행이 기준 커밋 대비 바꾼 파일만
-      # 골라서 최신 원격 위에 얹는다. 남이 바꾼 것은 안 건드린다.
-      # 몇 개를 얹었는지, 푸시가 됐는지 로그에 찍는다.
-      # 화장품 고시 보호도 그 안에 들어 있다.
+      # 에이전트 산출물도 함께 발행한다.
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: always()
         uses: ./.github/actions/publish
@@ -262,7 +274,13 @@ jobs:
             data/daiso_real/excluded_products.json
             data/daiso_real/shopify_demand_score.json
             data/daiso_real/shopify_s_recommendations.json
-          message: 참모장 · 고시 라벨과 등록 게이트 갱신
+            data/agents/ops_plan.json
+            data/agents/last_run.json
+            data/agents/collector_audit.json
+            data/agents/signal_audit.json
+          message: 참모장 · 등록 게이트 및 에이전트 산출물 갱신
+          regenerate-dashboard: 'true'
+          audit: 'true'
 
       - name: 최종 요약
         if: always()
