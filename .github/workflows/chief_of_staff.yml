@@ -183,79 +183,50 @@ jobs:
         run: |
           python scripts/generate_dashboard_runtime.py
 
-      - name: 변경사항 확인
+      - name: 변경사항 확인 (기록용)
         shell: bash
         run: |
+          echo "===== 작업 폴더 상태 ====="
           git status --short
+          echo "=========================="
 
-          git add \
-            data/listing_gate.json \
-            data/shopify_listing_copy.json \
-            data/gosi.json \
-            data/daiso_real/daiso_us_labels.json \
-            data/legal_products.json \
-            data/dashboard_runtime.json \
-            data/daiso_real/gosi_img 2>/dev/null || true
-
-          if git diff --cached --quiet; then
-            echo "변경사항 없음"
-            exit 0
-          fi
-
-          git diff --cached --stat
-
-      - name: Commit & Push
-        shell: bash
-        run: |
-          set -u
-
-          if git diff --cached --quiet; then
-            echo "커밋할 변경사항 없음"
-            exit 0
-          fi
-
-          git config user.name "JARVIS"
-          git config user.email "actions@github.com"
-          git commit -m "fix: refresh gosi labels and listing gate"
-
-          for attempt in 1 2 3 4 5; do
-            echo "===== PUSH ATTEMPT ${attempt}/5 ====="
-
-            if git push origin HEAD:main; then
-              echo "push 성공"
-              exit 0
-            fi
-
-            echo "원격 main 변경 감지"
-            git fetch origin main
-            git reset --hard origin/main
-            git clean -fd
-
-            python scripts/collect_daiso_gosi.py || true
-            python scripts/sync_gosi_to_us_labels.py
-            python scripts/check_legal_products.py
-            python scripts/build_listing_gate.py
-            python scripts/generate_dashboard_runtime.py
-
-            git add \
-              data/listing_gate.json \
-              data/shopify_listing_copy.json \
-              data/gosi.json \
-              data/daiso_real/daiso_us_labels.json \
-              data/legal_products.json \
-              data/dashboard_runtime.json \
-              data/daiso_real/gosi_img 2>/dev/null || true
-
-            if git diff --cached --quiet; then
-              echo "최신 main 기준 변경사항 없음"
-              exit 0
-            fi
-
-            git commit -m "fix: refresh gosi labels after remote update"
-          done
-
-          echo "5회 push 시도 후 실패"
-          exit 1
+      # 손으로 만든 커밋·푸시 루프를 발행 액션으로 바꿨다 (2026-09-13)
+      #
+      # 이 워크플로만 자기 루프를 갖고 있었다. 나머지 아홉 개는
+      # .github/actions/publish 를 쓴다. 그 액션은 정확히 이 문제를
+      # 풀려고 만든 것이다. 원격이 움직이는 중에 발행하는 문제다.
+      #
+      # 증상은 이랬다. 실행은 30분(실제로는 스로틀링되어 2~3시간)마다
+      # 성공으로 끝나는데 커밋이 09-13 00:32 이후로 끊겼다.
+      # 09:30 실행 로그를 보면 변경 6개와 새 이미지 10장이 스테이징됐는데
+      # Commit & Push 단계가 2초 만에 끝나고 커밋이 남지 않았다.
+      #
+      # 옛 루프의 문제는 두 가지였다.
+      #
+      #   푸시가 거절되면 reset --hard 로 원격을 받은 뒤 스크립트를 다시
+      #   돌린다. 그런데 그 사이 다른 워크플로가 같은 스크립트를 이미
+      #   돌려 같은 결과를 올려 놨으면 "변경사항 없음" 으로 조용히 끝난다.
+      #   이번 회차가 한 일이 통째로 사라지고 로그에는 성공만 남는다.
+      #
+      #   무슨 일이 있었는지 로그에 거의 안 남는다. 그래서 위 증상을
+      #   눈으로 보고도 원인을 못 짚었다. 추측만 두 번 틀렸다.
+      #
+      # 발행 액션은 다르다. 이번 실행이 기준 커밋 대비 바꾼 파일만
+      # 골라서 최신 원격 위에 얹는다. 남이 바꾼 것은 안 건드린다.
+      # 몇 개를 얹었는지, 푸시가 됐는지 로그에 찍는다.
+      # 화장품 고시 보호도 그 안에 들어 있다.
+      - name: 산출물 발행 (원격 최신 위에 이번 변경만)
+        if: always()
+        uses: ./.github/actions/publish
+        with:
+          paths: >-
+            data/listing_gate.json
+            data/shopify_listing_copy.json
+            data/gosi.json
+            data/daiso_real/daiso_us_labels.json
+            data/legal_products.json
+            data/daiso_real/gosi_img
+          message: 참모장 · 고시 라벨과 등록 게이트 갱신
 
       - name: 최종 요약
         if: always()

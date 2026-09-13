@@ -94,29 +94,24 @@ jobs:
               )
           PY
 
-      - name: Commit gosi.json + images
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add data/gosi.json data/daiso_real/gosi_img/ || true
-
-          if git diff --cached --quiet; then
-            echo "No changes"
-            exit 0
-          fi
-
-          git commit -m "고시 이미지 수집 + 비전 추출 (전성분/제조사/용량)"
-          for attempt in 1 2 3 4 5; do
-            if git push origin HEAD:main; then
-              echo "Push success"
-              exit 0
-            fi
-            git fetch origin main
-            git rebase --autostash origin/main || {
-              git rebase --abort || true
-              exit 1
-            }
-            sleep $((attempt * 5))
-          done
-          exit 1
+      # 손으로 만든 커밋·푸시를 발행 액션으로 바꿨다 (2026-09-13)
+      #
+      # 마지막 남은 하나였다. 나머지 열 개는 이미 발행 액션을 쓴다.
+      #
+      # 옛 방식은 rebase 로 원격을 따라잡았다. 그런데 이 저장소는
+      # 윈도우에서 대소문자만 다른 경로가 생기면 작업 폴더가 영구히
+      # dirty 가 되어 rebase 가 막힌다. 오늘 그것 때문에 로컬에서
+      # 푸시가 막혀 배관 명령으로 우회했다. 러너에서는 안 나지만
+      # 같은 방식을 열한 곳에 두 가지로 두는 것 자체가 위험하다.
+      #
+      # 발행 액션은 rebase 를 쓰지 않는다. 최신 원격 위에 이번 실행이
+      # 바꾼 파일만 골라 얹는다. 그리고 화장품 고시 보호가 들어 있다.
+      # 이 워크플로가 바로 gosi.json 을 쓰는 곳이라 그 보호가 특히 맞다.
+      - name: 산출물 발행 (원격 최신 위에 이번 변경만)
+        if: always()
+        uses: ./.github/actions/publish
+        with:
+          paths: >-
+            data/gosi.json
+            data/daiso_real/gosi_img
+          message: 고시 이미지 수집 + 비전 추출 (전성분/제조사/용량)
