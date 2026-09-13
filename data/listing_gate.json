@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-13T06:33:09.218471+00:00",
+  "generated_at": "2026-09-13T06:44:08.477274+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 7,
   "ready": 1,
@@ -74,6 +74,60 @@
     },
     {
       "rank": 2,
+      "pd_no": "1062781",
+      "product_id": "1062781",
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 91,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
+      "copy": {
+        "title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
+        "description_html": "<p>Discover the nourishing benefits of Cell Fusion C Derma Block PDRN Collagen Cream, formulated with PDRN and collagen.</p><p>This 50ml facial cream helps moisturize and support a smoother-looking, radiant complexion for daily skincare routines.</p>",
+        "seo_title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
+        "seo_description": "Shop Cell Fusion C Derma Block PDRN Collagen Cream 50ml. A hydrating facial cream formulated with PDRN and collagen for a smooth, radiant complexion.",
+        "tags": [
+          "cell-fusion-c",
+          "pdrn-cream",
+          "collagen-cream",
+          "korean-skincare",
+          "face-cream",
+          "moisturizing-cream"
+        ],
+        "product_type": "Face Cream"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "volume": "50ml (1.69 fl.oz)",
+        "maker": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
+        "origin": "한국",
+        "ingredients": "정제수, 글리세린, 다이프로필렌글라이콜, 부틸렌글라이콜, 옥틸도데칸올, 네오펜틸글라이콜다이카프레이트, 나이아신아마이드, 1,2-헥산다이올, 진흙버섯추출물, 하이드롤라이즈드하이알루로닉애씨드, 하이드롤라이즈드콜라겐, 마",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "50ml (1.69 fl.oz)",
+        "manufacturer": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "실제 확인한 전체 INCI 성분",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 47.4,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "ready": false,
+      "blocked_by": [
+        "us_label"
+      ]
+    },
+    {
+      "rank": 3,
       "pd_no": "1041749",
       "product_id": "1041749",
       "name": "식물원 병풀 클리어 앰플 30 ml",
@@ -125,60 +179,6 @@
       "ready": false,
       "blocked_by": [
         "gosi",
-        "us_label"
-      ]
-    },
-    {
-      "rank": 3,
-      "pd_no": "1062781",
-      "product_id": "1062781",
-      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-      "category": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 91,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
-      "copy": {
-        "title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
-        "description_html": "<p>Discover the nourishing benefits of Cell Fusion C Derma Block PDRN Collagen Cream, formulated with PDRN and collagen.</p><p>This 50ml facial cream helps moisturize and support a smoother-looking, radiant complexion for daily skincare routines.</p>",
-        "seo_title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
-        "seo_description": "Shop Cell Fusion C Derma Block PDRN Collagen Cream 50ml. A hydrating facial cream formulated with PDRN and collagen for a smooth, radiant complexion.",
-        "tags": [
-          "cell-fusion-c",
-          "pdrn-cream",
-          "collagen-cream",
-          "korean-skincare",
-          "face-cream",
-          "moisturizing-cream"
-        ],
-        "product_type": "Face Cream"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "50ml (1.69 fl.oz)",
-        "maker": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
-        "origin": "한국",
-        "ingredients": "정제수, 글리세린, 다이프로필렌글라이콜, 부틸렌글라이콜, 옥틸도데칸올, 네오펜틸글라이콜다이카프레이트, 나이아신아마이드, 1,2-헥산다이올, 진흙버섯추출물, 하이드롤라이즈드하이알루로닉애씨드, 하이드롤라이즈드콜라겐, 마",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "50ml (1.69 fl.oz)",
-        "manufacturer": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "실제 확인한 전체 INCI 성분",
-        "us_label_ok": false
-      },
-      "price": {
-        "price_usd": 24.99,
-        "margin_pct": 47.4,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "ready": false,
-      "blocked_by": [
         "us_label"
       ]
     },
@@ -279,7 +279,7 @@
       },
       "price": {
         "price_usd": 24.99,
-        "margin_pct": 32.4,
+        "margin_pct": 32.5,
         "register_blocked": false
       },
       "legal": {
