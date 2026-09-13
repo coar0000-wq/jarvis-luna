@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T14:13:35.104732+00:00",
+  "generated_at": "2026-09-13T18:40:18.803173+00:00",
   "generator": "scripts/build_error_report.py",
   "구분": {
     "막힘": "robots.txt 나 규정 때문에 앞으로도 못 한다. 고칠 대상이 아니다",
@@ -8,9 +8,9 @@
     "대기": "사람이 값을 줘야 진행된다",
     "보류": "기술적으로 가능하지만 안 하기로 정했다"
   },
-  "total": 32,
+  "total": 33,
   "counts": {
-    "고장": 5,
+    "고장": 6,
     "대기": 8,
     "대체됨": 5,
     "막힘": 10,
@@ -43,6 +43,13 @@
       "고장": 1,
       "대체됨": 0,
       "대기": 4,
+      "보류": 0
+    },
+    "마케팅 조사팀": {
+      "막힘": 0,
+      "고장": 1,
+      "대체됨": 0,
+      "대기": 0,
       "보류": 0
     },
     "상품 소싱팀": {
@@ -79,6 +86,13 @@
       "team": "채널 운영팀",
       "item": "FDA 화장품 리콜·조치 이력",
       "reason": "요청 실패: HTTP 404",
+      "kind": "고장",
+      "fix": ""
+    },
+    {
+      "team": "마케팅 조사팀",
+      "item": "1045421",
+      "reason": "gemini-2.5-flash-image RuntimeError: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billi",
       "kind": "고장",
       "fix": ""
     },
@@ -336,6 +350,13 @@
       "item": "r/KoreanBeauty 신규글 RSS",
       "reason": "robots.txt 금지 경로: /",
       "kind": "막힘",
+      "fix": ""
+    },
+    {
+      "team": "마케팅 조사팀",
+      "item": "1045421",
+      "reason": "gemini-2.5-flash-image RuntimeError: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billi",
+      "kind": "고장",
       "fix": ""
     },
     {

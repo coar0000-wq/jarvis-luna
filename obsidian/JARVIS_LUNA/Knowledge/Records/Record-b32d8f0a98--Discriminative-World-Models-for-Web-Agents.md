@@ -2,7 +2,7 @@
 title: "Record b32d8f0a98 · Discriminative-World-Models-for-Web-Agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T14:14:12.264948+00:00
+updated_at: 2026-09-13T18:40:56.962701+00:00
 tags: [record, real-data]
 ---
 

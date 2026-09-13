@@ -2,7 +2,7 @@
 title: "Record d0da66e75d · Truncated-Noisy-Best-Response-Algorithms-Toward-Gam"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T14:14:12.347603+00:00
+updated_at: 2026-09-13T18:40:57.051635+00:00
 tags: [record, real-data]
 ---
 

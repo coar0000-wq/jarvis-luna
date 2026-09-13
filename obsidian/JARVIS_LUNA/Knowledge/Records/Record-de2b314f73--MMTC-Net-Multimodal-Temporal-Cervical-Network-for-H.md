@@ -2,7 +2,7 @@
 title: "Record de2b314f73 · MMTC-Net-Multimodal-Temporal-Cervical-Network-for-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T14:14:12.372000+00:00
+updated_at: 2026-09-13T18:40:57.078773+00:00
 tags: [record, real-data]
 ---
 

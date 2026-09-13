@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-13T14:05:25.241096+00:00",
+  "collected_at": "2026-09-13T18:32:40.492856+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-13T14:04:32.970242+00:00"
+      "collected_at": "2026-09-13T18:31:50.227685+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-13T14:05:05.567291+00:00"
+      "collected_at": "2026-09-13T18:32:23.153306+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-13T14:05:25.239914+00:00"
+      "collected_at": "2026-09-13T18:32:40.491742+00:00"
     }
   },
   "not_collected": {
@@ -5640,7 +5640,7 @@
       "title_source": "openalex",
       "venue": "Advanced Science",
       "work_type": "article",
-      "cited_by": 0
+      "cited_by": 1
     },
     {
       "title": "Privacy-Preserving Federated Fraud Detection in Payment Transactions with NVIDIA FLARE",
@@ -7435,6 +7435,34 @@
       "cited_by": 0
     },
     {
+      "title": "A Charged Lense-Thirring Effect Experiment that might Support the Assumption that the Space-Time is an Emergent Entity",
+      "url": "https://doi.org/10.5281/zenodo.22703574",
+      "date": "2026-09-11",
+      "summary": "",
+      "org": "AMD",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
+      "title": "A Charged Lense-Thirring Effect Experiment that might Support the Assumption that the Space-Time is an Emergent Entity",
+      "url": "https://doi.org/10.5281/zenodo.22703575",
+      "date": "2026-09-11",
+      "summary": "",
+      "org": "AMD",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
       "title": "From Bottleneck to Breakthrough: A Hands-On Workflow for Profiling and Optimizing HPC Applications on AMD GPUs",
       "url": "https://doi.org/10.5281/zenodo.22237470",
       "date": "2026-09-01",
@@ -7488,6 +7516,20 @@
       "title_source": "openalex",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
       "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
+      "title": "Electrolytic Reduction of CO 2 in a Flowing Electrolyte Interlayer MEA Cell",
+      "url": "https://doi.org/10.1149/1945-7111/ae9b74",
+      "date": "2026-08-18",
+      "summary": "",
+      "org": "AMD",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Journal of The Electrochemical Society",
+      "work_type": "article",
       "cited_by": 0
     },
     {
@@ -7743,48 +7785,6 @@
       "cited_by": 0
     },
     {
-      "title": "Bell's Theorem might provide support to a Multi-Space-Times model of the Universe",
-      "url": "https://doi.org/10.5281/zenodo.20759276",
-      "date": "2026-06-19",
-      "summary": "",
-      "org": "AMD",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "HPP: Hierarchical Programmatic Probing for Long Video Understanding by Decoupling Perception and Reasoning",
-      "url": "https://openalex.org/W7165816020",
-      "date": "2026-06-19",
-      "summary": "",
-      "org": "AMD",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "arXiv (Cornell University)",
-      "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "Library-Aware Doubles and Iterative Repair for Large Language Model-Generated Unit Tests in OpenSIL Firmware",
-      "url": "https://openalex.org/W7165424144",
-      "date": "2026-06-18",
-      "summary": "",
-      "org": "AMD",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "arXiv (Cornell University)",
-      "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
       "title": "NEXUS: Speeding Up the Next Wave of AI Workloads, GNN and SSM Optimization on NPUs",
       "url": "https://doi.org/10.1145/3846378",
       "date": "2026-09-07",
@@ -7796,6 +7796,20 @@
       "title_source": "openalex",
       "venue": "ACM Transactions on Embedded Computing Systems",
       "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions",
+      "url": "https://openalex.org/W7211978741",
+      "date": "2026-09-04",
+      "summary": "",
+      "org": "Intel",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "arXiv (Cornell University)",
+      "work_type": "preprint",
       "cited_by": 0
     },
     {
@@ -8118,20 +8132,6 @@
       "title_source": "openalex",
       "venue": "arXiv (Cornell University)",
       "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "CLEAR: an auditable foundation model for radiology grounded in clinical concepts",
-      "url": "https://doi.org/10.1038/s41551-026-01741-4",
-      "date": "2026-07-22",
-      "summary": "",
-      "org": "Intel",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Nature Biomedical Engineering",
-      "work_type": "article",
       "cited_by": 0
     },
     {
@@ -9549,6 +9549,20 @@
       "cited_by": 0
     },
     {
+      "title": "Dual-site catalysis in Cu2ZnSnS4-derived electrocatalysts for selectivity-tunable high-rate electrochemical CO2 reduction",
+      "url": "https://doi.org/10.1016/j.electacta.2026.149938",
+      "date": "2026-09-07",
+      "summary": "",
+      "org": "TSMC",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Electrochimica Acta",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Reverse scheduling on a single machine with adjustable release and processing times: optimal algorithms and applications",
       "url": "https://doi.org/10.1080/01605682.2026.2724047",
       "date": "2026-09-06",
@@ -9577,8 +9591,8 @@
       "cited_by": 0
     },
     {
-      "title": "Dual-Site Catalysis in Cu2ZnSnS4-Derived Electrocatalysts for Selectivity-Tunable High-Rate Electrochemical CO2 Reduction",
-      "url": "https://doi.org/10.1016/j.electacta.2026.149938",
+      "title": "Integrating GPS and Low-Cost Sensors to Enhance Personal PM2.5 Exposure Modeling for Schoolchildren",
+      "url": "https://doi.org/10.1016/j.envpol.2026.129149",
       "date": "2026-09-01",
       "summary": "",
       "org": "TSMC",
@@ -9586,7 +9600,7 @@
       "kind": "논문",
       "source": "openalex",
       "title_source": "openalex",
-      "venue": "Electrochimica Acta",
+      "venue": "Environmental Pollution",
       "work_type": "article",
       "cited_by": 0
     },
@@ -9871,16 +9885,30 @@
       "cited_by": 0
     },
     {
-      "title": "Dielectric stacking-engineered scalable reconfigurable transistor platform for adaptive logic circuits",
-      "url": "https://doi.org/10.1038/s41467-026-75864-2",
-      "date": "2026-07-24",
+      "title": "Progressive increase in ascending aortic diameter across the menopausal transition: A longitudinal study using AI-based automated measurement from chest radiographs",
+      "url": "https://doi.org/10.1016/j.maturitas.2026.109117",
+      "date": "2026-09-12",
       "summary": "",
-      "org": "TSMC",
+      "org": "Samsung Electronics",
       "category": "반도체",
       "kind": "논문",
       "source": "openalex",
       "title_source": "openalex",
-      "venue": "Nature Communications",
+      "venue": "Maturitas",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Real-world outcomes of lenvatinib versus sorafenib as the second-line therapy after atezolizumab plus bevacizumab in patients with hepatocellular carcinoma: a large-scale multicenter study in Korea",
+      "url": "https://doi.org/10.1007/s12072-026-11142-z",
+      "date": "2026-09-11",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Hepatology International",
       "work_type": "article",
       "cited_by": 0
     },
@@ -9927,6 +9955,34 @@
       "cited_by": 0
     },
     {
+      "title": "Array‐Level Integration of MoS 2– Hf 0.5 Zr 0.5 O 2 Ferroelectric Memristors for in‐Memory Image Preprocessing in Neural Networks",
+      "url": "https://doi.org/10.1002/smll.75739",
+      "date": "2026-09-10",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Small",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Ferroelectric‐Assisted van der Waals Charge‐Dynamics Reservoir Arrays for Spatiotemporal Computing",
+      "url": "https://doi.org/10.1002/adma.74987",
+      "date": "2026-09-10",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Advanced Materials",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Lifestyle transitions and healthier biological aging in middle-aged and older adults: a prospective study in an East Asian cohort",
       "url": "https://doi.org/10.1186/s13148-026-02240-8",
       "date": "2026-09-09",
@@ -9938,6 +9994,20 @@
       "title_source": "openalex",
       "venue": "Clinical Epigenetics",
       "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Heterogeneous Associations of Latency Duration with Neonatal Outcomes After Preterm Prelabor Rupture of Membranes: A Nationwide Cohort Study",
+      "url": "https://doi.org/10.64898/2026.09.07.26361886",
+      "date": "2026-09-09",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "medRxiv",
+      "work_type": "preprint",
       "cited_by": 0
     },
     {
@@ -9997,6 +10067,20 @@
       "cited_by": 0
     },
     {
+      "title": "Elevated remnant cholesterol levels and variability with incident mental disorders in adults with type 1 diabetes: a nationwide cohort study",
+      "url": "https://doi.org/10.1016/j.jpsychores.2026.112984",
+      "date": "2026-09-07",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Journal of Psychosomatic Research",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Enhancing Chiroptical Selectivity and Device Stability of Chiral Perovskite Photodetectors Via Interfacial AlF 3 Passivation",
       "url": "https://doi.org/10.1002/smtd.71019",
       "date": "2026-09-07",
@@ -10007,6 +10091,20 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Small Methods",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Leveraging gated architectures for enhanced long-range dependency learning in non-attributed graphs",
+      "url": "https://doi.org/10.1016/j.knosys.2026.116985",
+      "date": "2026-09-06",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Knowledge-Based Systems",
       "work_type": "article",
       "cited_by": 0
     },
@@ -10120,7 +10218,7 @@
       "title_source": "openalex",
       "venue": "Advanced Functional Materials",
       "work_type": "article",
-      "cited_by": 0
+      "cited_by": 1
     },
     {
       "title": "Near-field treatment to maintain supercooling and improve beef quality during subzero storage",
@@ -10133,104 +10231,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Innovative Food Science & Emerging Technologies",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Novel high‐isolation circuit for multiple antennas integrated in small IoT modules",
-      "url": "https://doi.org/10.4218/etrij.2025-0530",
-      "date": "2026-09-02",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "ETRI Journal",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Single-session estimation of cardiorespiratory fitness, lower-limb strength, and core strength using a wearable hip-joint exoskeleton",
-      "url": "https://doi.org/10.1038/s41598-026-69403-8",
-      "date": "2026-09-01",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Scientific Reports",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Controlling lithiation distribution via layered architecture for high-performance SiC/graphite anodes",
-      "url": "https://doi.org/10.1016/j.est.2026.124242",
-      "date": "2026-09-01",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Journal of Energy Storage",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Temperature-responsive thermal composites enabled by liquid-metal impregnation of fatty-acid–cellulose nanofiber phase-change frameworks",
-      "url": "https://doi.org/10.1016/j.indcrop.2026.124276",
-      "date": "2026-09-01",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Industrial Crops and Products",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Augmenting interferon-β and anti-PD-L1 antibody bolsters non-ablative radiotherapy to leverage potent abscopal effect in metastatic cancers",
-      "url": "https://doi.org/10.3389/fimmu.2026.1925859",
-      "date": "2026-09-01",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Frontiers in Immunology",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Toward Ab Initio Technology Computer-Aided Design",
-      "url": "https://doi.org/10.1016/j.cap.2026.09.002",
-      "date": "2026-09-01",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Current Applied Physics",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Leveraging gated architectures for enhanced long-range dependency learning in non-attributed graphs",
-      "url": "https://doi.org/10.1016/j.knosys.2026.116985",
-      "date": "2026-09-01",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Knowledge-Based Systems",
       "work_type": "article",
       "cited_by": 0
     },
@@ -10585,6 +10585,34 @@
       "cited_by": 0
     },
     {
+      "title": "Closure Theory: From Intrinsic Geometric Closure to Relational Mass, Charge and Coupling",
+      "url": "https://doi.org/10.5281/zenodo.22726548",
+      "date": "2026-09-12",
+      "summary": "",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Closure Theory: From Intrinsic Geometric Closure to Relational Mass, Charge and Coupling",
+      "url": "https://doi.org/10.5281/zenodo.22726549",
+      "date": "2026-09-12",
+      "summary": "",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "On the Finite Upper Bound f(6) <= 24,600 and Structural Barriers to Counterexamples in the Erdős–Gyárfás Conjecture",
       "url": "https://doi.org/10.5281/zenodo.22697836",
       "date": "2026-09-10",
@@ -10895,34 +10923,6 @@
     {
       "title": "Towards the Geometric Origins of Mass and Charge: Projection, Geodesics and Relational Sign in Closure Theory",
       "url": "https://doi.org/10.5281/zenodo.21478990",
-      "date": "2026-07-21",
-      "summary": "",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "The Dynamical Domain of Closure Theory Information-Preserving Transformation of Completed Intrinsic Closures",
-      "url": "https://doi.org/10.5281/zenodo.21478024",
-      "date": "2026-07-21",
-      "summary": "",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "The Oriented Completed Intrinsic Closure Elimination as a Candidate Intrinsic Charge Invariant",
-      "url": "https://doi.org/10.5281/zenodo.21478941",
       "date": "2026-07-21",
       "summary": "",
       "org": "OpenAI",
@@ -11649,6 +11649,20 @@
       "cited_by": 0
     },
     {
+      "title": "Prescriptive AI for Climate Action: A Causal Physics-Informed Optimization Framework for High- Impact Methane Abatement",
+      "url": "https://doi.org/10.54905/disssi.v62i341.e18d3283",
+      "date": "2026-08-27",
+      "summary": "",
+      "org": "Microsoft",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Discovery",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "A Conceptual and Applied Framework for Enterprise ServiceNow Program Design, Governance, And Scalable Delivery Across Organizations",
       "url": "https://doi.org/10.56201/ijssmr.vol.12no2.2026.pg124.143",
       "date": "2026-08-24",
@@ -11722,20 +11736,6 @@
       "title": "Can AI Models Hide Capabilities",
       "url": "https://doi.org/10.5281/zenodo.22095430",
       "date": "2026-08-20",
-      "summary": "",
-      "org": "Microsoft",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Measuring Genuine Conceptual Novelty in Frontier Models",
-      "url": "https://doi.org/10.5281/zenodo.22051546",
-      "date": "2026-08-18",
       "summary": "",
       "org": "Microsoft",
       "category": "데이터분석",
@@ -11982,7 +11982,7 @@
       "title_source": "openalex",
       "venue": "medRxiv",
       "work_type": "preprint",
-      "cited_by": 1
+      "cited_by": 2
     },
     {
       "title": "Influence of mobility and work–family conflict on U.S. military spouse employment",
@@ -12097,6 +12097,20 @@
       "cited_by": 0
     },
     {
+      "title": "In Response to: Mental Health Diagnosis Counts Need Care‐Pathway Measures in Pregnancy",
+      "url": "https://doi.org/10.1111/ppe.70202",
+      "date": "2026-09-11",
+      "summary": "",
+      "org": "Leidos",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Paediatric and Perinatal Epidemiology",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Oral Fungal Infection Impacts Epithelial Innate Immunity to Promote Local and Distal Squamous Cell Carcinoma Progression",
       "url": "https://doi.org/10.1158/0008-5472.can-26-0070",
       "date": "2026-09-10",
@@ -12163,6 +12177,20 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Science Signaling",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Barriers to the Creation of Social Value: Perspectives of Multinational Enterprises",
+      "url": "https://doi.org/10.24018/ejbmr.2026.11.5.52777",
+      "date": "2026-09-07",
+      "summary": "",
+      "org": "Leidos",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "European Journal of Business Management and Research",
       "work_type": "article",
       "cited_by": 0
     },
@@ -12415,34 +12443,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Military Medicine",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Spatially Organized Tertiary Lymphoid Structures Emerge in Small Cell Lung Cancer and Associate with Improved Survival",
-      "url": "https://doi.org/10.64898/2026.08.08.743663",
-      "date": "2026-08-10",
-      "summary": "",
-      "org": "Leidos",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "Integrating Modafinil Effects Into a Biomathematical Model of Fatigue",
-      "url": "https://doi.org/10.1177/10711813261475234",
-      "date": "2026-08-10",
-      "summary": "",
-      "org": "Leidos",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
       "work_type": "article",
       "cited_by": 0
     },
@@ -12948,7 +12948,7 @@
       "title_source": "openalex",
       "venue": "Movement Disorders",
       "work_type": "article",
-      "cited_by": 191
+      "cited_by": 192
     },
     {
       "title": "OnlineSTL",
@@ -13105,20 +13105,6 @@
       "cited_by": 1
     },
     {
-      "title": "Group incentives and rational voting1",
-      "url": "https://openalex.org/W3100995621",
-      "date": "2016-02-23",
-      "summary": "",
-      "org": "Splunk",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "RePEc: Research Papers in Economics",
-      "work_type": "article",
-      "cited_by": 8
-    },
-    {
       "title": "Group incentives and rational voting",
       "url": "https://doi.org/10.1177/0951629816630439",
       "date": "2016-02-22",
@@ -13144,7 +13130,21 @@
       "title_source": "openalex",
       "venue": "The Journal of Politics",
       "work_type": "article",
-      "cited_by": 7
+      "cited_by": 6
+    },
+    {
+      "title": "Analyzing Log Analysis: An Empirical Study of User Log Mining",
+      "url": "https://openalex.org/W2203075298",
+      "date": "2014-12-12",
+      "summary": "",
+      "org": "Splunk",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "",
+      "work_type": "article",
+      "cited_by": 34
     },
     {
       "title": "More Skills, Worse Agents? Skill Shadowing Degrades Performance When Expanding Skill Libraries",
@@ -13340,7 +13340,7 @@
       "title_source": "openalex",
       "venue": "Networked Systems Design and Implementation",
       "work_type": "article",
-      "cited_by": 104
+      "cited_by": 102
     },
     {
       "title": "Scaling spark in the real world",
@@ -13970,7 +13970,7 @@
       "title_source": "openalex",
       "venue": "Nano Energy",
       "work_type": "article",
-      "cited_by": 0
+      "cited_by": 1
     },
     {
       "title": "Ising Solver Using Vertical NAND Flash Memory",
@@ -14068,7 +14068,7 @@
       "title_source": "openalex",
       "venue": "Radiotherapy and Oncology",
       "work_type": "article",
-      "cited_by": 2
+      "cited_by": 3
     },
     {
       "title": "Impact of Microstructural Heterogeneities on Fluid Transport in Unconventional Rocks",
@@ -14222,7 +14222,7 @@
       "title_source": "openalex",
       "venue": "Journal of Education for Business",
       "work_type": "article",
-      "cited_by": 4
+      "cited_by": 5
     },
     {
       "title": "From SuperBIT to GigaBIT: Informing next-generation balloon-borne telescope design with Fine Guidance System flight data",
@@ -14544,7 +14544,7 @@
       "title_source": "openalex",
       "venue": "Technological Forecasting and Social Change",
       "work_type": "article",
-      "cited_by": 52
+      "cited_by": 51
     },
     {
       "title": "Measuring the effects of urban heat island mitigation techniques in the field: Application to the case of pavement-watering in Paris",
@@ -14572,7 +14572,7 @@
       "title_source": "openalex",
       "venue": "Journal of Computational and Graphical Statistics",
       "work_type": "article",
-      "cited_by": 24
+      "cited_by": 23
     },
     {
       "title": "Fast Tree Inference With Weighted Fusion Penalties",

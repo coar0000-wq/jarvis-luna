@@ -2,7 +2,7 @@
 title: "Record eac547f905 · Talk-to-Sidekick-on-your-Apple-Watch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T14:14:13.052619+00:00
+updated_at: 2026-09-13T18:40:57.798802+00:00
 tags: [record, real-data]
 ---
 

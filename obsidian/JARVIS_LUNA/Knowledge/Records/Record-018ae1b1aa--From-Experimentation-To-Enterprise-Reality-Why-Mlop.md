@@ -2,7 +2,7 @@
 title: "Record 018ae1b1aa · From-Experimentation-To-Enterprise-Reality-Why-Mlop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T14:14:12.496704+00:00
+updated_at: 2026-09-13T18:40:57.213996+00:00
 tags: [record, real-data]
 ---
 

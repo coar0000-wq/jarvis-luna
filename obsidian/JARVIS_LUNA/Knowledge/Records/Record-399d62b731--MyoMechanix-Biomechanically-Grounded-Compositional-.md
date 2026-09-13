@@ -2,7 +2,7 @@
 title: "Record 399d62b731 · MyoMechanix-Biomechanically-Grounded-Compositional-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T14:14:13.075539+00:00
+updated_at: 2026-09-13T18:40:57.822885+00:00
 tags: [record, real-data]
 ---
 

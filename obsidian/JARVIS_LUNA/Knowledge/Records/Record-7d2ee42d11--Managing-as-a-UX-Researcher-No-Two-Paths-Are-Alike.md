@@ -2,7 +2,7 @@
 title: "Record 7d2ee42d11 · Managing-as-a-UX-Researcher-No-Two-Paths-Are-Alike"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T14:14:12.449443+00:00
+updated_at: 2026-09-13T18:40:57.164866+00:00
 tags: [record, real-data]
 ---
 

@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-13T14:06:53.926071+00:00",
+  "collected_at": "2026-09-13T18:34:17.910225+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -45,10 +45,6 @@
   "hot_keywords": [
     {
       "keyword": "toner",
-      "score": 6
-    },
-    {
-      "keyword": "skincare",
       "score": 4
     },
     {
@@ -60,27 +56,23 @@
       "score": 3
     },
     {
-      "keyword": "review",
+      "keyword": "dry",
       "score": 3
+    },
+    {
+      "keyword": "product",
+      "score": 2
+    },
+    {
+      "keyword": "cream",
+      "score": 2
     },
     {
       "keyword": "sunscreen",
       "score": 2
     },
     {
-      "keyword": "dry",
-      "score": 2
-    },
-    {
       "keyword": "skin",
-      "score": 2
-    },
-    {
-      "keyword": "best",
-      "score": 2
-    },
-    {
-      "keyword": "glass",
       "score": 2
     },
     {
@@ -92,7 +84,15 @@
       "score": 2
     },
     {
-      "keyword": "numbuzin",
+      "keyword": "glass",
+      "score": 2
+    },
+    {
+      "keyword": "best",
+      "score": 2
+    },
+    {
+      "keyword": "skincare",
       "score": 2
     },
     {
@@ -109,18 +109,6 @@
     },
     {
       "keyword": "essence",
-      "score": 2
-    },
-    {
-      "keyword": "skin1004",
-      "score": 2
-    },
-    {
-      "keyword": "centella",
-      "score": 2
-    },
-    {
-      "keyword": "ampoule",
       "score": 2
     },
     {
@@ -144,15 +132,35 @@
       "score": 1
     },
     {
-      "keyword": "product",
-      "score": 1
-    },
-    {
       "keyword": "authenticity",
       "score": 1
     },
     {
       "keyword": "thursday",
+      "score": 1
+    },
+    {
+      "keyword": "hyntoor",
+      "score": 1
+    },
+    {
+      "keyword": "blush",
+      "score": 1
+    },
+    {
+      "keyword": "does",
+      "score": 1
+    },
+    {
+      "keyword": "anyone",
+      "score": 1
+    },
+    {
+      "keyword": "tips",
+      "score": 1
+    },
+    {
+      "keyword": "use",
       "score": 1
     },
     {
@@ -165,6 +173,18 @@
     },
     {
       "keyword": "makeup",
+      "score": 1
+    },
+    {
+      "keyword": "review",
+      "score": 1
+    },
+    {
+      "keyword": "order",
+      "score": 1
+    },
+    {
+      "keyword": "eotd",
       "score": 1
     },
     {
@@ -182,35 +202,11 @@
     {
       "keyword": "60+",
       "score": 1
-    },
-    {
-      "keyword": "new",
-      "score": 1
-    },
-    {
-      "keyword": "stores",
-      "score": 1
-    },
-    {
-      "keyword": "across",
-      "score": 1
-    },
-    {
-      "keyword": "soon",
-      "score": 1
-    },
-    {
-      "keyword": "current",
-      "score": 1
     }
   ],
   "beauty_keywords": [
     {
       "keyword": "toner",
-      "score": 6
-    },
-    {
-      "keyword": "skincare",
       "score": 4
     },
     {
@@ -226,23 +222,15 @@
       "score": 2
     },
     {
+      "keyword": "skincare",
+      "score": 2
+    },
+    {
       "keyword": "kbeauty",
       "score": 2
     },
     {
       "keyword": "essence",
-      "score": 2
-    },
-    {
-      "keyword": "skin1004",
-      "score": 2
-    },
-    {
-      "keyword": "centella",
-      "score": 2
-    },
-    {
-      "keyword": "ampoule",
       "score": 2
     }
   ],
@@ -262,6 +250,13 @@
       "feed": "hot"
     },
     {
+      "title": "Hyntoor cream blush - does anyone have any tips on how to use this?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfagaw/hyntoor_cream_blush_does_anyone_have_any_tips_on/",
+      "published": "2026-09-13T15:17:45+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Douyin-style (inspired?) makeup",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1weta6s/douyinstyle_inspired_makeup/",
       "published": "2026-09-13T00:46:28+00:00",
@@ -272,6 +267,13 @@
       "title": "Sunscreen review",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wer6is/sunscreen_review/",
       "published": "2026-09-12T23:09:45+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "do NOT order from EOTD",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfc8je/do_not_order_from_eotd/",
+      "published": "2026-09-13T16:25:47+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -290,9 +292,16 @@
       "feed": "hot"
     },
     {
-      "title": "Best way to fade recent sunspots?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wexstw/best_way_to_fade_recent_sunspots/",
-      "published": "2026-09-13T04:29:55+00:00",
+      "title": "Beauty products from each asian country",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wez3wl/beauty_products_from_each_asian_country/",
+      "published": "2026-09-13T05:40:07+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Japanese shampoo for dry scalp",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wff3v7/japanese_shampoo_for_dry_scalp/",
+      "published": "2026-09-13T18:12:35+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -304,16 +313,16 @@
       "feed": "hot"
     },
     {
-      "title": "Beauty products from each asian country",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wez3wl/beauty_products_from_each_asian_country/",
-      "published": "2026-09-13T05:40:07+00:00",
+      "title": "How is this product?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfcc2n/how_is_this_product/",
+      "published": "2026-09-13T16:29:34+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Can someone review all 3 versions of the Numbuzin No3 toner ?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wf7a1r/can_someone_review_all_3_versions_of_the_numbuzin/",
-      "published": "2026-09-13T13:09:47+00:00",
+      "title": "Best way to fade recent sunspots?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wexstw/best_way_to_fade_recent_sunspots/",
+      "published": "2026-09-13T04:29:55+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -398,27 +407,6 @@
       "title": "What are your favorite C-beauty brands?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1we05st/what_are_your_favorite_cbeauty_brands/",
       "published": "2026-09-12T02:26:51+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Cow Brand Moist Milk – a little review :)",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we3mhb/cow_brand_moist_milk_a_little_review/",
-      "published": "2026-09-12T05:21:27+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Skincare recommendations in TW",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weepn6/skincare_recommendations_in_tw/",
-      "published": "2026-09-12T14:54:55+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "30 days using SKIN1004 Madagascar Centella Ampoule",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we0p7d/30_days_using_skin1004_madagascar_centella_ampoule/",
-      "published": "2026-09-12T02:53:22+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

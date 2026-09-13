@@ -2,7 +2,7 @@
 title: "Record c835c63b1b · Shopify-Review-Build-an-Online-Store-With-Just-a-Fe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T14:14:12.587592+00:00
+updated_at: 2026-09-13T18:40:57.307934+00:00
 tags: [record, real-data]
 ---
 

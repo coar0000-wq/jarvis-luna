@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T23:11:59.573547+09:00",
+  "generated_at": "2026-09-14T03:38:54.450437+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -12,7 +12,7 @@
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-09-13T14:06:53.926071+00:00",
+      "collected_at": "2026-09-13T18:34:17.910225+00:00",
       "keyword_pool": 40
     }
   },
@@ -78,14 +78,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ampoule', 'beauty', 'glass', 'kbeauty', 'skin', 'skin1004', 'skincare']",
+          "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Drop B Firming Glow Ampoule 40 ml — ampoule · K-beauty",
+          "primary_text": "Drop B Firming Glow Ampoule 40 ml — beauty · K-beauty",
           "headline": "Drop B Firming Glow Ampoule 40 ml",
           "description": "Experience the Drop B Firming Glow Ampoule, designed to give your skin a radiant and luminous appearance. This lightweight formula helps enhance your natural glow with every application. Simply apply ",
           "cta": "Shop now"
@@ -105,31 +105,30 @@
           "beauty",
           "glass",
           "kbeauty",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "ampoule",
           "beauty",
           "glass",
           "kbeauty",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "ampoule",
           "beauty",
           "glass",
           "kbeauty",
           "skin",
-          "skin1004",
           "skincare"
         ],
-        "score": 7,
+        "score": 5,
         "status": "pass",
-        "evidence": "matched=['ampoule', 'beauty', 'glass', 'kbeauty', 'skin', 'skin1004', 'skincare']",
+        "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -310,14 +309,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ampoule', 'beauty', 'centella', 'glass', 'kbeauty', 'skin', 'skin1004', 'skincare']",
+          "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Sikmulnara Centella Clear Ampoule 30ml — ampoule · K-beauty",
+          "primary_text": "Sikmulnara Centella Clear Ampoule 30ml — beauty · K-beauty",
           "headline": "Sikmulnara Centella Clear Ampoule 30ml",
           "description": "Discover the Sikmulnara Centella Clear Ampoule in a convenient 30 ml size, designed to fit seamlessly into your daily skincare routine. This lightweight formula helps hydrate and soothe the skin for a",
           "cta": "Shop now"
@@ -337,32 +336,31 @@
           "hydrating",
           "beauty",
           "glass",
-          "kbeauty"
+          "kbeauty",
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "ampoule",
           "beauty",
-          "centella",
           "glass",
-          "kbeauty"
+          "kbeauty",
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "ampoule",
           "beauty",
-          "centella",
           "glass",
           "kbeauty",
           "skin",
-          "skin1004",
           "skincare"
         ],
-        "score": 8,
+        "score": 5,
         "status": "pass",
-        "evidence": "matched=['ampoule', 'beauty', 'centella', 'glass', 'kbeauty', 'skin', 'skin1004', 'skincare']",
+        "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -433,7 +431,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'skin1004', 'skincare', 'toner']",
+          "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'skincare', 'toner']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -461,14 +459,14 @@
           "glass",
           "kbeauty",
           "skin",
-          "skin1004"
+          "skincare"
         ],
         "reddit_keywords_used": [
           "beauty",
           "glass",
           "kbeauty",
           "skin",
-          "skin1004"
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -479,13 +477,12 @@
           "glass",
           "kbeauty",
           "skin",
-          "skin1004",
           "skincare",
           "toner"
         ],
-        "score": 7,
+        "score": 6,
         "status": "pass",
-        "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'skin1004', 'skincare', 'toner']",
+        "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'skincare', 'toner']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -556,7 +553,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'skin1004', 'skincare']",
+          "evidence": "matched=['beauty', 'cream', 'glass', 'kbeauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -589,10 +586,10 @@
         ],
         "reddit_keywords_used": [
           "beauty",
+          "cream",
           "glass",
           "kbeauty",
-          "skin",
-          "skin1004"
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -600,15 +597,15 @@
       "reddit_match": {
         "matched": [
           "beauty",
+          "cream",
           "glass",
           "kbeauty",
           "skin",
-          "skin1004",
           "skincare"
         ],
         "score": 6,
         "status": "pass",
-        "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'skin1004', 'skincare']",
+        "evidence": "matched=['beauty', 'cream', 'glass', 'kbeauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -679,7 +676,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'skin1004', 'skincare', 'toner']",
+          "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'skincare', 'toner']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -708,14 +705,14 @@
           "glass",
           "kbeauty",
           "skin",
-          "skin1004"
+          "skincare"
         ],
         "reddit_keywords_used": [
           "beauty",
           "glass",
           "kbeauty",
           "skin",
-          "skin1004"
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -726,13 +723,12 @@
           "glass",
           "kbeauty",
           "skin",
-          "skin1004",
           "skincare",
           "toner"
         ],
-        "score": 7,
+        "score": 6,
         "status": "pass",
-        "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'skin1004', 'skincare', 'toner']",
+        "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'skincare', 'toner']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {

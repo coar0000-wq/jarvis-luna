@@ -2,7 +2,7 @@
 title: "Record 2771bbdcb5 · We-Asked-Dermatologists-If-the-Viral-Sardine-Skin-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T14:14:12.758742+00:00
+updated_at: 2026-09-13T18:40:57.476356+00:00
 tags: [record, real-data]
 ---
 

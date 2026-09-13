@@ -2,7 +2,7 @@
 title: "Record 4f0ecdb603 · Real-time-virtual-circuits-for-plasma-shape-control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T14:14:12.255685+00:00
+updated_at: 2026-09-13T18:40:56.952603+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 58d77d2962 · The-Sum-of-the-Solid-Angles-of-an-n-Simplex"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T14:14:12.482079+00:00
+updated_at: 2026-09-13T18:40:57.198837+00:00
 tags: [record, real-data]
 ---
 

@@ -1,7 +1,7 @@
 {
   "agent": "Chief-of-Staff",
   "role": "전체 JARVIS 운영상태를 종합하여 우선순위와 Safe Auto-Fix 실행 여부를 결정",
-  "generated_at": "2026-09-13T14:13:46.996333+00:00",
+  "generated_at": "2026-09-13T18:40:30.921086+00:00",
   "risk": "high",
   "overall_priority": "P1",
   "overall_action": "SAFE_BLACKLIST_SYNC",

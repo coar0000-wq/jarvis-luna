@@ -2,7 +2,7 @@
 title: "Record d4b159f905 · Proprietary-Botanical-Ingredients-RIMAN-Introduces-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T14:14:12.651450+00:00
+updated_at: 2026-09-13T18:40:57.371824+00:00
 tags: [record, real-data]
 ---
 
