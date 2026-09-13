@@ -113,16 +113,33 @@ def check_integrity():
             fail("무결성", "index.html 이 </html> 로 끝나지 않음 (잘림)")
         if re.search(r"^(<<<<<<<|>>>>>>>|=======)$", h, re.M):
             fail("무결성", "index.html 에 병합 충돌 마커 있음")
-        Path("/tmp/_pf_index.html").write_text(h, encoding="utf-8")
-        r = subprocess.run(["node", "-e",
-            "const h=require('fs').readFileSync(process.argv[1],'utf8');"
-            "const m=h.match(/<script>([\\s\\S]*?)<\\/script>/);"
-            "if(m) new Function(m[1]);", "/tmp/_pf_index.html"],
-            capture_output=True, text=True)
-        if r.returncode:
-            fail("무결성", f"index.html JS 구문 오류: {r.stderr.strip()[:100]}")
-        else:
-            ok("무결성", "index.html 구조·JS 정상")
+        # 전에는 /tmp 를 그대로 적었다. 리눅스 CI 에서는 돌고 윈도우에서는
+        # FileNotFoundError 로 죽었다. 이 파일 설명에는 "윈도우에서 돌린다"
+        # 고 적혀 있는데 정작 윈도우에서 첫 검사도 못 넘겼다.
+        # tempfile 로 OS 를 안 가리게 한다.
+        import tempfile
+        tmp = Path(tempfile.gettempdir()) / "_pf_index.html"
+        try:
+            tmp.write_text(h, encoding="utf-8")
+            r = subprocess.run(["node", "-e",
+                "const h=require('fs').readFileSync(process.argv[1],'utf8');"
+                "const m=h.match(/<script>([\\s\\S]*?)<\\/script>/);"
+                "if(m) new Function(m[1]);", str(tmp)],
+                capture_output=True, text=True)
+            if r.returncode:
+                fail("무결성", f"index.html JS 구문 오류: {r.stderr.strip()[:100]}")
+            else:
+                ok("무결성", "index.html 구조·JS 정상")
+        except FileNotFoundError:
+            # node 가 없는 환경. 검사를 건너뛰되 건너뛴 사실을 남긴다.
+            warn("무결성", "node 가 없어 index.html JS 검사를 건너뜀")
+        except OSError as e:
+            warn("무결성", f"index.html 임시 파일 쓰기 실패: {str(e)[:60]}")
+        finally:
+            try:
+                tmp.unlink(missing_ok=True)
+            except OSError:
+                pass
 
     for p in walk("*.yml"):
         if ".github/workflows" not in str(p):
@@ -326,17 +343,102 @@ def check_gosi_owner():
                  "python scripts/guard_gosi.py --restore 로 되살린다")
 
     # 허락한 곳 말고 다른 데서 이 파일에 쓰고 있는지 본다.
+    #
+    # 처음에는 'gosi.json 이라는 글자'와 '쓰기 호출'이 같은 파일에 있으면
+    # 경고했다. 그랬더니 15건이 떴는데 거의 다 오탐이었다.
+    #   pricing_model.py    gosi.json 을 읽기만 하고 다른 걸 쓴다
+    #   build_listing_gate.py  마찬가지
+    #   preflight.py        자기 자신. 임시 파일 write_text 때문에 걸렸다
+    #   _bak/ _bak2/        백업 폴더
+    # 이런 경고는 무시하는 습관을 만든다. 없느니만 못하다.
+    #
+    # 그래서 좁힌다. gosi.json 경로를 담은 변수 이름을 먼저 찾고,
+    # 그 변수에 대고 쓰기를 하는 곳만 잡는다.
+    SKIP_PREFIX = ("archive/", "_bak/", "_bak2/", "legacy/", "scripts/_")
+
     for f in list(walk("*.py")):
         rel = f.relative_to(ROOT).as_posix()
-        if rel in GOSI_WRITERS or rel.startswith("archive/"):
+        if rel in GOSI_WRITERS or rel.startswith(SKIP_PREFIX):
             continue
+
         txt = read(f) or ""
-        if not re.search(r'["\'][^"\']*\bgosi\.json["\']', txt):
+
+        # gosi.json 을 가리키는 변수 이름 모으기
+        holders = set(
+            re.findall(
+                r'^\s*([A-Za-z_][A-Za-z_0-9]*)\s*=\s*[^\n]*["\'][^"\']*'
+                r'\bgosi\.json["\']',
+                txt, re.M)
+        )
+        holders |= set(
+            re.findall(
+                r'^\s*([A-Za-z_][A-Za-z_0-9]*)\s*=\s*[A-Za-z_][\w.]*\s*/\s*'
+                r'["\']gosi\.json["\']',
+                txt, re.M)
+        )
+        if not holders:
             continue
-        if re.search(r'\b(write_text|json\.dump)\b', txt):
+
+        hits = []
+        for name in holders:
+            n = re.escape(name)
+            if re.search(rf'\b{n}\s*\.\s*write_text\s*\(', txt):
+                hits.append(f"{name}.write_text")
+            if re.search(rf'\b(save_json|json\.dump)\s*\(\s*{n}\b', txt):
+                hits.append(f"save_json({name})")
+            if re.search(rf'\bopen\s*\(\s*{n}\s*,\s*["\'][wa]', txt):
+                hits.append(f"open({name}, 'w')")
+
+        if hits:
             warn("고시",
-                 f"{rel} 이 gosi.json 경로와 쓰기 호출을 같이 갖고 있다. "
-                 "화장품 고시를 덮지 않는지 확인")
+                 f"{rel} 이 gosi.json 에 직접 쓴다 ({', '.join(hits[:3])}). "
+                 "화장품 고시 전용 파일이다. 허락된 곳인지 확인")
+
+
+# ── 6. 생성된 글이 틀만 바꿔 끼운 글인지 ──────────────────────
+# 가짜 데이터 감시(2번)는 '없는 값을 지어냈나' 를 본다.
+# 이건 다른 문제다. 값은 진짜인데 글이 다 똑같아지는 것이다.
+#
+# Taste Labs 영상을 검토하다 넣었다. 슬롭의 첫째 특징이 반복성이고
+# 그건 기계로 잴 수 있다. 재보니 리스팅 카피 7건은 평균 겹침 0.3% 로
+# 멀쩡했는데 틀 자국은 이미 있었다.
+#   "ml discover the" 4/7문서 · "your daily skincare routine" 3/7문서
+# 7건이라 티가 안 났을 뿐이다. Pinterest 는 주 10핀이 최소선이고
+# Threads 는 하루 5~10회를 권한다. 그 양이 되면 저 틀이 글의 질감이 된다.
+# 양이 늘기 전에 자를 둔다.
+#
+# 대상 파일은 scripts/check_slop.py 의 SOURCES 에 적혀 있다.
+# Pinterest·Threads 것도 미리 적어 뒀다. 파일이 생기면 자동으로 켜진다.
+def check_slop():
+    sys.path.insert(0, str(ROOT / "scripts"))
+    try:
+        from check_slop import run as slop_run
+    except Exception as e:
+        warn("글품질", f"scripts/check_slop.py 를 못 불러와 건너뜀: {str(e)[:60]}")
+        return
+
+    try:
+        _rc, results = slop_run()
+    except Exception as e:
+        warn("글품질", f"검사 중 오류: {str(e)[:80]}")
+        return
+
+    for r in results:
+        label = r["label"]
+        if "metrics" not in r:
+            # 아직 안 만든 생성물. 조용히 넘어가되 흔적은 남긴다.
+            ok("글품질", f"{label}: {r['status']}")
+            continue
+        m = r["metrics"]
+        head = (f"{label}: 글 {m['docs']}건 · "
+                f"평균 겹침 {m['avg_overlap'] * 100:.1f}% · "
+                f"틀 자국 {m['seam_count']}개")
+        for f in r["fails"]:
+            fail("글품질", f"{label}: {f}")
+        for w in r["warns"]:
+            warn("글품질", f"{label}: {w}")
+        if not r["fails"] and not r["warns"]:
+            ok("글품질", head)
 
 
 def check_undefined():
@@ -386,6 +488,7 @@ def main() -> int:
     check_integrity()
     check_undefined()
     check_gosi_owner()
+    check_slop()
     if not quick:
         check_fake()
         check_consistency()
