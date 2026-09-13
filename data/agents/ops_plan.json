@@ -1,12 +1,12 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-11T06:44:48.374878+00:00",
+  "generated_at": "2026-09-13T08:20:15.181127+00:00",
   "risk": "high",
   "task_count": 5,
   "tasks": [
     {
       "priority": 1,
-      "title": "수집 파싱실패 7건 처리",
+      "title": "수집 파싱실패 5건 처리",
       "detail": "블랙리스트 유지 · 대체 카테고리 우선 · 실패 pd_no 재시도 금지",
       "refs": [
         "data/agents/collector_audit.json",
@@ -25,7 +25,7 @@
     },
     {
       "priority": 3,
-      "title": "S등급 6건 Shopify draft 등록",
+      "title": "S등급 7건 Shopify draft 등록",
       "detail": "CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력",
       "refs": [
         "data/daiso_real/shopify_s_products_import.csv",
@@ -36,7 +36,7 @@
     {
       "priority": 4,
       "title": "팀 조치 · 상품 소싱팀",
-      "detail": "직전 실행에서 19건 시도 중 7건 실패 (성공 12건) · 가격 없음 7",
+      "detail": "직전 실행에서 110건 받아 5건 판정 · 5건 실패 (성공 0건) · 상품 상세 HTML이 다이소몰 기본 페이지로 반환됨 5 · 받아보고 뷰티 아니라 버림 105건 · 후보 출처 sitemap",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -45,7 +45,7 @@
     {
       "priority": 4,
       "title": "팀 조치 · 마케팅 조사팀",
-      "detail": "다이소 상세페이지 고시 표 1건 캡처 필요",
+      "detail": "고시 표 2건 필요 — 1041749 식물원 병풀 클리어 앰플 30 m https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749 / 1045421 태그 듀이 스킨 쿠션 15g 누드 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pd",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -58,7 +58,7 @@
     "items": [
       {
         "n": 1,
-        "text": "수집 파싱실패 7건 처리 — 블랙리스트 유지 · 대체 카테고리 우선 · 실패 pd_no 재시도 금지"
+        "text": "수집 파싱실패 5건 처리 — 블랙리스트 유지 · 대체 카테고리 우선 · 실패 pd_no 재시도 금지"
       },
       {
         "n": 2,
@@ -66,15 +66,15 @@
       },
       {
         "n": 3,
-        "text": "S등급 6건 Shopify draft 등록 — CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력"
+        "text": "S등급 7건 Shopify draft 등록 — CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력"
       },
       {
         "n": 4,
-        "text": "팀 조치 · 상품 소싱팀 — 직전 실행에서 19건 시도 중 7건 실패 (성공 12건) · 가격 없음 7"
+        "text": "팀 조치 · 상품 소싱팀 — 직전 실행에서 110건 받아 5건 판정 · 5건 실패 (성공 0건) · 상품 상세 HTML이 다이소몰 기본 페이지로 반환됨 5 · 받아보고 뷰티"
       },
       {
         "n": 5,
-        "text": "팀 조치 · 마케팅 조사팀 — 다이소 상세페이지 고시 표 1건 캡처 필요"
+        "text": "팀 조치 · 마케팅 조사팀 — 고시 표 2건 필요 — 1041749 식물원 병풀 클리어 앰플 30 m https://www.daisomall.co.kr/pd/pdr/SCR_P"
       }
     ]
   }

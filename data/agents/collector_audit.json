@@ -1,69 +1,49 @@
 {
   "agent": "Collector-Audit",
-  "generated_at": "2026-09-11T06:42:33.094220+00:00",
+  "generated_at": "2026-09-13T08:20:15.181024+00:00",
   "last_run": {
     "requested": 110,
-    "ok": 12,
-    "parse_failed": 7,
+    "ok": 0,
+    "parse_failed": 5,
     "reasons": {
-      "가격 없음": 7
+      "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨": 5
     },
-    "finished_at": "2026-09-09T22:42:59.014772+00:00"
+    "finished_at": "2026-09-12T22:30:20.658862+00:00"
   },
   "failure_types": [
     {
-      "pd_no": "1069432",
-      "type": "og_title_only_no_price",
-      "og_title": "다이소몰",
-      "sold_out": false
+      "pd_no": "1037532",
+      "type": "parse_other",
+      "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
+      "og_title": "다이소몰"
     },
     {
-      "pd_no": "1058806",
-      "type": "og_title_only_no_price",
-      "og_title": "다이소몰",
-      "sold_out": false
+      "pd_no": "1037533",
+      "type": "parse_other",
+      "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
+      "og_title": "다이소몰"
     },
     {
-      "pd_no": "30493",
-      "type": "og_title_only_no_price",
-      "og_title": "다이소몰",
-      "sold_out": false
+      "pd_no": "1068835",
+      "type": "parse_other",
+      "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
+      "og_title": "다이소몰"
     },
     {
-      "pd_no": "1065883",
-      "type": "og_title_only_no_price",
-      "og_title": "다이소몰",
-      "sold_out": false
+      "pd_no": "048025191",
+      "type": "parse_other",
+      "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
+      "og_title": "다이소몰"
     },
     {
-      "pd_no": "1072035",
-      "type": "og_title_only_no_price",
-      "og_title": "다이소몰",
-      "sold_out": false
-    },
-    {
-      "pd_no": "10346312",
-      "type": "og_title_only_no_price",
-      "og_title": "다이소몰",
-      "sold_out": false
-    },
-    {
-      "pd_no": "1057256",
-      "type": "og_title_only_no_price",
-      "og_title": "다이소몰",
-      "sold_out": false
+      "pd_no": "1056006",
+      "type": "parse_other",
+      "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
+      "og_title": "다이소몰"
     }
   ],
-  "products_total": 219,
-  "blacklist_hint": [
-    "1069432",
-    "1058806",
-    "30493",
-    "1065883",
-    "1072035",
-    "10346312",
-    "1057256"
-  ],
+  "products_total": 222,
+  "blacklist_hint": [],
   "suggestions": [
     {
       "action": "keep_blacklist_and_prefer_category",
@@ -73,13 +53,11 @@
     {
       "action": "do_not_retry_failed_pd_nos",
       "pd_nos": [
-        "1069432",
-        "1058806",
-        "30493",
-        "1065883",
-        "1072035",
-        "10346312",
-        "1057256"
+        "1037532",
+        "1037533",
+        "1068835",
+        "048025191",
+        "1056006"
       ]
     }
   ],
