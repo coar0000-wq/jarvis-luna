@@ -634,10 +634,25 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         entered = {k for k, v in gosi.items()
                    if all(str(v.get(f) or "").strip() for f in REQ)}
         pending = [p for p in s_grade if str(p.get("pd_no")) not in entered]
+        # 몇 건인지만 적으면 무엇을 해야 할지 알 수 없다.
+        # 사용자가 지적했다. "고시없는제품이 내가 먼지 어떻게 알아
+        # 대시보드에 링크를 주던지 해야지"
+        # 맞는 말이다. 조치는 상품번호와 여는 주소를 같이 준다.
+        DAISO = "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo="
+        act = None
+        if pending:
+            bits = []
+            for p in pending[:4]:
+                pid = str(p.get("pd_no"))
+                nm = str(p.get("name") or "")[:18]
+                bits.append(f"{pid} {nm} {DAISO}{pid}")
+            more = f" 외 {len(pending) - 4}건" if len(pending) > 4 else ""
+            act = (f"고시 표 {len(pending)}건 필요 — "
+                   + " / ".join(bits) + more)
         cards.append(_team(
             "market", "마케팅 조사팀", iso_mtime(D / "market_team.json"),
             f'S등급 {len(s_grade)}개 · 고시표 입력 대기 {len(pending)}건' + feed_tail("market"),
-            f'다이소 상세페이지 고시 표 {len(pending)}건 캡처 필요' if pending else None))
+            act))
     else:
         cards.append(_team("market", "마케팅 조사팀", None,
                            "market_team.json 없음", None, "missing"))

@@ -753,7 +753,14 @@ const mark = src
 : '<div class="team-icon-fb" style="background:'+esc(t.color||'#555')+';"><svg viewBox="0 0 24 24">'+(TEAM_GLYPH[t.glyph]||TEAM_GLYPH.dot)+'</svg></div>';
 const badge = t.status==='missing' ? '<span class="team-badge miss">파일 없음</span>'
 : (t.status==='failed' ? '<span class="team-badge fail">검증 실패</span>' : '');
-const act = t.action ? '<div><span class="team-action">← 조치 · '+esc(t.action)+'</span></div>' : '';
+// 조치 문구 안의 다이소 주소를 누를 수 있게 만든다.
+// "고시 3건 캡처 필요" 만 있으면 무엇을 열어야 하는지 알 수 없다.
+// esc() 로 먼저 막은 뒤 주소만 링크로 되살린다. 순서를 바꾸면 안 된다.
+function linkify(s){
+  return s.replace(/https:\/\/www\.daisomall\.co\.kr\/[^\s]+/g,
+    function(u){ return '<a href="'+u+'" target="_blank" rel="noopener" class="team-link">열기</a>'; });
+}
+const act = t.action ? '<div><span class="team-action">← 조치 · '+linkify(esc(t.action))+'</span></div>' : '';
 return '<li class="team-row">'
 +'<div class="team-icon">'+mark+'</div>'
 +'<div class="team-body">'
