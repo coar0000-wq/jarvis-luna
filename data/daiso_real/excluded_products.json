@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-13T06:33:08.863123+00:00",
+  "generated_at": "2026-09-13T09:39:42.394929+00:00",
   "generator": "scripts/daiso/prune_excluded_products.py",
   "왜_남기나": "규칙이 다시 바뀌어 되살려야 할 때 근거가 필요하다. 지우면 왜 뺐는지도 같이 사라진다.",
   "규칙_출처": "scripts/daiso/category_map.json 의 exclude",
-  "count": 10,
+  "count": 12,
   "items": {
     "1044428": {
       "name": "2080 닥터크리닉 잇몸 치약 120 g",
@@ -213,6 +213,48 @@
         "collected_at": "2026-09-02T22:17:05.223608+00:00",
         "source": "daisomall.co.kr 상품 상세 페이지",
         "bucket": "헤어케어"
+      }
+    },
+    "1032881": {
+      "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
+      "뺀_규칙": "비듬·탈모",
+      "걸린_낱말": "탈모 (고시 본문)",
+      "왜": "FDA 가 OTC 모노그래프 범주로 'treatments for dandruff, seborrheic dermatitis, and psoriasis' 를 나열한다. 탈모는 따로다. 미국에서 모발 성장을 내세우면 구조·기능 주장이라 의약품이 된다. FDA 가 '머리가 다시 자라게 한다' 를 의약품이 되는 주장의 예로 든다.",
+      "뺀_시각": "2026-09-13T09:39:42.394907+00:00",
+      "row": {
+        "pd_no": "1032881",
+        "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
+        "brand": "케라시스",
+        "site_category": "트리트먼트/팩",
+        "price_krw": 3000,
+        "rating": 4.8,
+        "review_count": 759,
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20260129/qgTdnRguYR6oGojy18Td1032881_00_01qgTdnRguYR6oGojy18Td.jpg",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1032881",
+        "collected_at": "2026-09-01T22:17:00.246948+00:00",
+        "source": "daisomall.co.kr 상품 상세 페이지",
+        "bucket": "마스크팩"
+      }
+    },
+    "1045421": {
+      "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+      "뺀_규칙": "선케어",
+      "걸린_낱말": "자외선 (고시 본문)",
+      "왜": "미국에서 선크림은 화장품이 아니라 OTC 의약품이다. Drug Facts 라벨, 활성성분 표기, 시설 등록이 별도로 필요해 그대로는 못 판다.",
+      "뺀_시각": "2026-09-13T09:39:42.394925+00:00",
+      "row": {
+        "pd_no": "1045421",
+        "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
+        "brand": "태그",
+        "site_category": "베이스메이크업",
+        "price_krw": 5000,
+        "rating": 4.7,
+        "review_count": 567,
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20231221/4S2p6tvbv9F2EJVNtStV1045421_00_004S2p6tvbv9F2EJVNtStV.jpg",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
+        "collected_at": "2026-09-03T21:56:15.828822+00:00",
+        "source": "daisomall.co.kr 상품 상세 페이지",
+        "bucket": "스킨케어"
       }
     }
   }

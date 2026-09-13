@@ -89,6 +89,32 @@ def main() -> int:
         row for row in recommendation_doc.get("recommendations", [])
         if isinstance(row, dict) and row.get("grade") == "S"
     ]
+
+    # 팔지 않기로 한 것은 게이트에 올리지 않는다. (2026-09-13)
+    # products.json 에서 빼도 추천 파일은 그대로라서, 뺀 상품이 계속
+    # "막힘" 으로 남아 있었다. 1045421 태그 듀이 쿠션이 그랬다.
+    # SPF50+ 자외선 차단 기능성이라 미국에선 OTC 의약품이고 애초에 팔 물건이 아닌데,
+    # 고시가 없다고 게이트가 붙들고 있었다. 막힌 게 아니라 뺀 것이다.
+    # items 는 pdNo 를 키로 하는 dict 다. 리스트로 알고 짰다가 한 번 헛돌았다.
+    parked = load_json(DATA / "daiso_real" / "excluded_products.json", {})
+    parked_items = parked.get("items") or {}
+    if isinstance(parked_items, dict):
+        parked_ids = {str(k) for k in parked_items}
+    else:
+        parked_ids = {
+            str(r.get("pdNo") or r.get("pd_no"))
+            for r in parked_items if isinstance(r, dict)
+        }
+    if parked_ids:
+        kept = [r for r in recommendations
+                if str(r.get("pdNo") or r.get("pd_no")) not in parked_ids]
+        if len(kept) != len(recommendations):
+            dropped = [str(r.get("pdNo") or r.get("pd_no"))
+                       for r in recommendations if r not in kept]
+            print(f"제외 목록에 있어 게이트에서 뺌 {len(dropped)}건: "
+                  f"{', '.join(dropped)}")
+        recommendations = kept
+
     if not recommendations:
         raise RuntimeError(
             "S등급 추천 상품이 없습니다: data/daiso_real/shopify_s_recommendations.json"

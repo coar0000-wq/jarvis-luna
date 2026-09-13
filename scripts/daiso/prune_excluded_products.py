@@ -78,12 +78,41 @@ def exclude_rules(catmap: dict) -> list[tuple[str, str]]:
     return out
 
 
-def hit(row: dict, rules: list[tuple[str, str]]) -> tuple[str, str] | None:
+# 상품명만 봐서는 놓친다. 2026-09-13 에 실측으로 알았다.
+#   1045421 태그 듀이 스킨 쿠션 15g 누드 라이트
+#   이름 어디에도 SPF·자외선이 없다. 그런데 상세 alt 를 열어 보면
+#   "SPF50+/PA+++ ... 자외선 차단 기능성화장품" 이다. 미국에선 OTC 의약품이다.
+# 그래서 고시 본문도 같이 훑는다. 이름은 마케팅 문구고 고시가 사실이다.
+GOSI_FIELDS = ("name", "functional", "ingredients", "warnings", "usage")
+
+
+def gosi_text(gosi: dict) -> dict[str, str]:
+    """pdNo -> 고시 본문 한 덩이. 없으면 빈 칸."""
+    items = gosi.get("items") if isinstance(gosi, dict) else None
+    if not isinstance(items, dict):
+        return {}
+    out = {}
+    for pd, rec in items.items():
+        if isinstance(rec, dict):
+            out[str(pd)] = " ".join(
+                str(rec.get(k) or "") for k in GOSI_FIELDS).lower()
+    return out
+
+
+def hit(row: dict, rules: list[tuple[str, str]],
+        gtext: dict[str, str] | None = None) -> tuple[str, str] | None:
     hay = " ".join(str(row.get(k) or "") for k in
                    ("name", "site_category", "bucket")).lower()
     for label, kw in rules:
         if kw.lower() in hay:
             return label, kw
+
+    pd = str(row.get("pdNo") or row.get("pd_no") or "")
+    body = (gtext or {}).get(pd, "")
+    if body:
+        for label, kw in rules:
+            if kw.lower() in body:
+                return label, f"{kw} (고시 본문)"
     return None
 
 
@@ -98,6 +127,9 @@ def main() -> int:
     print(f"제외 규칙 {len(rules)}개 "
           f"({len({l for l, _ in rules})}갈래)")
 
+    gtext = gosi_text(load(DATA / "gosi.json", {}))
+    print(f"고시 본문도 훑는다 {len(gtext)}건")
+
     doc = load(PRODUCTS, {})
     rows = doc.get("products")
     if not isinstance(rows, list):
@@ -110,7 +142,7 @@ def main() -> int:
         if not isinstance(r, dict):
             keep.append(r)
             continue
-        m = hit(r, rules)
+        m = hit(r, rules, gtext)
         if m:
             drop.append((r, m[0], m[1]))
         else:
