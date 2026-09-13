@@ -2,7 +2,7 @@
 title: "Record e7968164d9 · Distinction-between-inelastic-scattering-and-dephas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.451885+00:00
+updated_at: 2026-09-13T07:03:55.724011+00:00
 tags: [record, real-data]
 ---
 

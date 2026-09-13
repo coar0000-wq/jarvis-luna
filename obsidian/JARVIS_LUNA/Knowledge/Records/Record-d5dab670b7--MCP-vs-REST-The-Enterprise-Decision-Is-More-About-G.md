@@ -2,7 +2,7 @@
 title: "Record d5dab670b7 · MCP-vs-REST-The-Enterprise-Decision-Is-More-About-G"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.427274+00:00
+updated_at: 2026-09-13T07:03:55.704299+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record cf6c5472bd · K-beauty-top-10-innovative-launches-spotted-at-Cosm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.702370+00:00
+updated_at: 2026-09-13T07:03:55.928633+00:00
 tags: [record, real-data]
 ---
 

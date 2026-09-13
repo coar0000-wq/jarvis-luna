@@ -2,7 +2,7 @@
 title: "Record ef3af3e18c · Multimodal-alignment-improves-generalizability-of-g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.453192+00:00
+updated_at: 2026-09-13T07:03:55.725175+00:00
 tags: [record, real-data]
 ---
 

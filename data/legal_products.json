@@ -77,7 +77,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-13T06:47:37.013318+00:00",
+      "auto_checked_at": "2026-09-13T07:01:34.919882+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
@@ -107,7 +107,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-13T06:47:37.013351+00:00",
+      "auto_checked_at": "2026-09-13T07:01:34.919936+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
@@ -137,7 +137,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-13T06:47:37.013429+00:00",
+      "auto_checked_at": "2026-09-13T07:01:34.919993+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '마스크팩'",
@@ -167,7 +167,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-13T06:47:37.013461+00:00",
+      "auto_checked_at": "2026-09-13T07:01:34.920044+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
@@ -194,7 +194,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-13T06:47:37.013237+00:00",
+      "auto_checked_at": "2026-09-13T07:01:34.919771+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -220,13 +220,13 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-13T06:47:37.013283+00:00",
+      "auto_checked_at": "2026-09-13T07:01:34.919829+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
-    "1053482": {
-      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+    "1041403": {
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "status": "auto_checked",
       "auto_checks": {
         "banned_claim": {
@@ -238,17 +238,22 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": false,
-          "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
+          "ok": true,
+          "detail": "4항목 확보"
         }
       },
-      "auto_blockers": [
-        "label_fields"
-      ],
-      "needs_attention": true,
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields",
-      "auto_checked_at": "2026-09-13T06:47:37.013394+00:00"
+      "hs_code": "3304.99",
+      "regulator": "",
+      "reviewer": "",
+      "reviewed_at": "",
+      "note": "",
+      "auto_blockers": [],
+      "needs_attention": false,
+      "auto_checked_at": "2026-09-13T07:01:34.919700+00:00",
+      "hard_block": false,
+      "hard_block_reason": "",
+      "hs_basis": "버킷 '스킨케어'",
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     }
   },
   "auto_summary": {
@@ -258,7 +263,7 @@
     "pass": 0,
     "out_of_scope": 8
   },
-  "auto_checked_at": "2026-09-13T06:47:37.013466+00:00",
+  "auto_checked_at": "2026-09-13T07:01:34.920052+00:00",
   "out_of_scope": {
     "1045146": {
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
@@ -414,42 +419,6 @@
         "hs_source": "hts.usitc.gov/reststop (미국 공식)"
       }
     },
-    "1041403": {
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
-      "뺀_시각": "2026-09-13T04:33:37.622263+00:00",
-      "마지막_판정": "auto_checked",
-      "row": {
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "status": "auto_checked",
-        "auto_checks": {
-          "banned_claim": {
-            "ok": true,
-            "detail": "없음"
-          },
-          "otc_sunscreen": {
-            "ok": true,
-            "detail": "해당 없음"
-          },
-          "label_fields": {
-            "ok": true,
-            "detail": "4항목 확보"
-          }
-        },
-        "hs_code": "3304.99",
-        "regulator": "",
-        "reviewer": "",
-        "reviewed_at": "",
-        "note": "",
-        "auto_blockers": [],
-        "needs_attention": false,
-        "auto_checked_at": "2026-09-12T22:46:01.189095+00:00",
-        "hard_block": false,
-        "hard_block_reason": "",
-        "hs_basis": "버킷 '스킨케어'",
-        "hs_source": "hts.usitc.gov/reststop (미국 공식)"
-      }
-    },
     "1060487": {
       "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
       "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
@@ -562,6 +531,37 @@
         "hard_block_reason": "자동 점검 미통과: label_fields",
         "hs_basis": "버킷 '클렌징'",
         "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+      }
+    },
+    "1053482": {
+      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-09-13T07:01:34.918495+00:00",
+      "마지막_판정": "자동 점검 미통과: label_fields",
+      "row": {
+        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+        "status": "auto_checked",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": false,
+            "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
+          }
+        },
+        "auto_blockers": [
+          "label_fields"
+        ],
+        "needs_attention": true,
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields",
+        "auto_checked_at": "2026-09-13T06:47:37.013394+00:00"
       }
     }
   },

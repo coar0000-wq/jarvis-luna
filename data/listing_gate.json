@@ -1,20 +1,20 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-13T06:47:37.043104+00:00",
+  "generated_at": "2026-09-13T07:01:34.965698+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 7,
   "ready": 1,
   "counts": {
-    "copy": 7,
-    "gosi": 4,
+    "copy": 6,
+    "gosi": 5,
     "us_label": 1,
     "price": 7,
-    "legal": 6
+    "legal": 7
   },
   "blockers": {
-    "gosi": 3,
-    "us_label": 6,
-    "legal": 1
+    "copy": 1,
+    "gosi": 2,
+    "us_label": 6
   },
   "count": 7,
   "note": "gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=MoCRA 등 하드블록. ready는 5개 조건 모두 통과한 건수.",
@@ -74,6 +74,60 @@
     },
     {
       "rank": 2,
+      "pd_no": "1062781",
+      "product_id": "1062781",
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 91,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
+      "copy": {
+        "title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
+        "description_html": "<p>Discover the nourishing care of Cell Fusion C Derma Block PDRN Collagen Cream, presented in a convenient 50 ml size.</p><p>This facial cream helps maintain a smooth, soft, and balanced complexion for your daily skincare routine.</p>",
+        "seo_title": "Cell Fusion C PDRN Collagen Cream 50ml",
+        "seo_description": "Shop Cell Fusion C Derma Block PDRN Collagen Cream 50ml for daily skin hydration and a smooth complexion. Authentic Korean skincare.",
+        "tags": [
+          "cell-fusion-c",
+          "pdrn-cream",
+          "collagen-cream",
+          "korean-skincare",
+          "face-cream",
+          "k-beauty"
+        ],
+        "product_type": "Face Cream"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "volume": "50ml (1.69 fl.oz)",
+        "maker": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
+        "origin": "한국",
+        "ingredients": "정제수, 글리세린, 다이프로필렌글라이콜, 부틸렌글라이콜, 옥틸도데칸올, 네오펜틸글라이콜다이카프레이트, 나이아신아마이드, 1,2-헥산다이올, 진흙버섯추출물, 하이드롤라이즈드하이알루로닉애씨드, 하이드롤라이즈드콜라겐, 마",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "50ml (1.69 fl.oz)",
+        "manufacturer": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "실제 확인한 전체 INCI 성분",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": 23.99,
+        "margin_pct": 45.5,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "ready": false,
+      "blocked_by": [
+        "us_label"
+      ]
+    },
+    {
+      "rank": 3,
       "pd_no": "1041749",
       "product_id": "1041749",
       "name": "식물원 병풀 클리어 앰플 30 ml",
@@ -125,60 +179,6 @@
       "ready": false,
       "blocked_by": [
         "gosi",
-        "us_label"
-      ]
-    },
-    {
-      "rank": 3,
-      "pd_no": "1062781",
-      "product_id": "1062781",
-      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-      "category": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 91,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
-      "copy": {
-        "title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
-        "description_html": "<p>Discover the nourishing care of Cell Fusion C Derma Block PDRN Collagen Cream, presented in a convenient 50 ml size.</p><p>This facial cream helps maintain a smooth, soft, and balanced complexion for your daily skincare routine.</p>",
-        "seo_title": "Cell Fusion C PDRN Collagen Cream 50ml",
-        "seo_description": "Shop Cell Fusion C Derma Block PDRN Collagen Cream 50ml for daily skin hydration and a smooth complexion. Authentic Korean skincare.",
-        "tags": [
-          "cell-fusion-c",
-          "pdrn-cream",
-          "collagen-cream",
-          "korean-skincare",
-          "face-cream",
-          "k-beauty"
-        ],
-        "product_type": "Face Cream"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "50ml (1.69 fl.oz)",
-        "maker": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
-        "origin": "한국",
-        "ingredients": "정제수, 글리세린, 다이프로필렌글라이콜, 부틸렌글라이콜, 옥틸도데칸올, 네오펜틸글라이콜다이카프레이트, 나이아신아마이드, 1,2-헥산다이올, 진흙버섯추출물, 하이드롤라이즈드하이알루로닉애씨드, 하이드롤라이즈드콜라겐, 마",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "50ml (1.69 fl.oz)",
-        "manufacturer": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "실제 확인한 전체 INCI 성분",
-        "us_label_ok": false
-      },
-      "price": {
-        "price_usd": 23.99,
-        "margin_pct": 45.5,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "ready": false,
-      "blocked_by": [
         "us_label"
       ]
     },
@@ -293,59 +293,43 @@
     },
     {
       "rank": 6,
-      "pd_no": "1053482",
-      "product_id": "1053482",
-      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+      "pd_no": "1041403",
+      "product_id": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "category": "스킨케어",
       "price_krw": 5000,
       "shopify_score": 86,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
-      "copy": {
-        "title": "Medipeel Extra Super 9 Plus Pore Calming Toner 200 ml",
-        "description_html": "<p>Discover the Medipeel Extra Super 9 Plus Pore Calming Toner in a convenient 200 ml size. This refreshing toner is designed to help maintain a balanced and clear-looking complexion for your daily skincare routine.</p><p>Gently apply to the skin after cleansing to help soothe and refresh, leaving your face feeling clean, comfortable, and prepared for the next steps in your beauty regimen.</p>",
-        "seo_title": "Medipeel Extra Super 9 Plus Pore Calming Toner 200 ml",
-        "seo_description": "Shop the Medipeel Extra Super 9 Plus Pore Calming Toner 200 ml from Korea. Refresh and balance your skin for a clearer-looking complexion every day.",
-        "tags": [
-          "medipeel",
-          "pore-toner",
-          "calming-toner",
-          "korean-skincare",
-          "facial-toner",
-          "k-beauty",
-          "skincare"
-        ],
-        "product_type": "Face Toner"
-      },
-      "copy_status": "ok",
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "copy": {},
+      "copy_status": "missing",
       "gosi": {
-        "volume": "",
-        "maker": "",
-        "origin": "",
-        "ingredients": "",
-        "gosi_ok": false
+        "volume": "150ml",
+        "maker": "(주)뉴앤뉴 / (주)브랜뉴이",
+        "origin": "한국",
+        "ingredients": "약모밀꽃/잎/줄기추출물(95%), 1,2-헥산다이올, 정제수, 약모밀추출물(1%)",
+        "gosi_ok": true
       },
       "us_label": {
-        "net_contents": "",
-        "manufacturer": "",
-        "country_of_origin": "",
-        "ingredients_inci": "",
+        "net_contents": "150ml",
+        "manufacturer": "(주)뉴앤뉴 / (주)브랜뉴이",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "실제 확인한 전체 INCI 성분",
         "us_label_ok": false
       },
       "price": {
         "price_usd": 23.99,
-        "margin_pct": 39.2,
+        "margin_pct": 42.4,
         "register_blocked": false
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
+        "hard_block": false,
+        "hard_block_reason": ""
       },
       "ready": false,
       "blocked_by": [
-        "gosi",
-        "us_label",
-        "legal"
+        "copy",
+        "us_label"
       ]
     },
     {

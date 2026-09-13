@@ -2,7 +2,7 @@
 title: "Record 6517f03fc5 · Shopify-says-AI-agents-will-not-bypass-its-checkout"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.759573+00:00
+updated_at: 2026-09-13T07:03:55.983455+00:00
 tags: [record, real-data]
 ---
 

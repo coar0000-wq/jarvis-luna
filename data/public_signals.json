@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T00:54:44.309629+00:00",
+  "generated_at": "2026-09-13T07:01:33.989084+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "skattebo",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Sat, 12 Sep 2026 17:40:00 -0700",
-          "source_name": "PR Newswire",
-          "url": "https://trends.google.com/trending?geo=US&q=skattebo"
+          "keyword": "shipping",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Sat, 12 Sep 2026 21:40:00 -0700",
+          "source_name": "Al Jazeera",
+          "url": "https://trends.google.com/trending?geo=US&q=shipping"
         },
         {
-          "keyword": "ryan wingo",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Sat, 12 Sep 2026 17:30:00 -0700",
-          "source_name": "247Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=ryan%20wingo"
+          "keyword": "tyler perry",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sat, 12 Sep 2026 22:10:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=tyler%20perry"
         },
         {
-          "keyword": "caleb downs",
+          "keyword": "wendy williams",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sat, 12 Sep 2026 21:30:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=wendy%20williams"
+        },
+        {
+          "keyword": "henry cavill",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sat, 12 Sep 2026 21:30:00 -0700",
+          "source_name": "Red Bank Green",
+          "url": "https://trends.google.com/trending?geo=US&q=henry%20cavill"
+        },
+        {
+          "keyword": "leslie jones",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 12 Sep 2026 17:40:00 -0700",
-          "source_name": "Dallas Cowboys",
-          "url": "https://trends.google.com/trending?geo=US&q=caleb%20downs"
+          "published": "Sat, 12 Sep 2026 22:50:00 -0700",
+          "source_name": "The Daily Beast",
+          "url": "https://trends.google.com/trending?geo=US&q=leslie%20jones"
         },
         {
-          "keyword": "shedeur sanders",
+          "keyword": "miguel borja",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 12 Sep 2026 17:40:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=shedeur%20sanders"
+          "published": "Sat, 12 Sep 2026 22:00:00 -0700",
+          "source_name": "Soy Futbol",
+          "url": "https://trends.google.com/trending?geo=US&q=miguel%20borja"
         },
         {
-          "keyword": "météo demain",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sat, 12 Sep 2026 17:40:00 -0700",
-          "source_name": "InfOccitanie",
-          "url": "https://trends.google.com/trending?geo=US&q=m%C3%A9t%C3%A9o%20demain"
+          "keyword": "hawaii",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 12 Sep 2026 23:00:00 -0700",
+          "source_name": "Hawaii News Now",
+          "url": "https://trends.google.com/trending?geo=US&q=hawaii"
         },
         {
-          "keyword": "hank brown",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sat, 12 Sep 2026 17:40:00 -0700",
-          "source_name": "Hawkeyes Wire",
-          "url": "https://trends.google.com/trending?geo=US&q=hank%20brown"
+          "keyword": "jessica alba",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 12 Sep 2026 23:00:00 -0700",
+          "source_name": "People.com",
+          "url": "https://trends.google.com/trending?geo=US&q=jessica%20alba"
         },
         {
-          "keyword": "tony diaz",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sat, 12 Sep 2026 17:40:00 -0700",
-          "source_name": "www.thegazette.com",
-          "url": "https://trends.google.com/trending?geo=US&q=tony%20diaz"
+          "keyword": "óscar perea",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 12 Sep 2026 22:40:00 -0700",
+          "source_name": "Club América | Sitio Oficial",
+          "url": "https://trends.google.com/trending?geo=US&q=%C3%B3scar%20perea"
         },
         {
-          "keyword": "ohio state defensive coordinator",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sat, 12 Sep 2026 17:40:00 -0700",
-          "source_name": "Press Pros Magazine",
-          "url": "https://trends.google.com/trending?geo=US&q=ohio%20state%20defensive%20coordinator"
-        },
-        {
-          "keyword": "mahira khan",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sat, 12 Sep 2026 17:40:00 -0700",
-          "source_name": "Geo News",
-          "url": "https://trends.google.com/trending?geo=US&q=mahira%20khan"
-        },
-        {
-          "keyword": "parker washington",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sat, 12 Sep 2026 17:40:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=parker%20washington"
+          "keyword": "cole young",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 12 Sep 2026 21:40:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=cole%20young"
         }
       ]
     },

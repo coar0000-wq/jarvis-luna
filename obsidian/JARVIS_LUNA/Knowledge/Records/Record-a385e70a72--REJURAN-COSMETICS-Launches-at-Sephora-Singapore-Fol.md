@@ -2,7 +2,7 @@
 title: "Record a385e70a72 · REJURAN-COSMETICS-Launches-at-Sephora-Singapore-Fol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.810740+00:00
+updated_at: 2026-09-13T07:03:56.033499+00:00
 tags: [record, real-data]
 ---
 

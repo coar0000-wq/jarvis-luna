@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-13T00:50:25.019153+00:00",
+  "collected_at": "2026-09-13T06:56:31.711336+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -44,10 +44,6 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "skin",
-      "score": 4
-    },
-    {
       "keyword": "toner",
       "score": 4
     },
@@ -60,7 +56,7 @@
       "score": 3
     },
     {
-      "keyword": "review",
+      "keyword": "cream",
       "score": 3
     },
     {
@@ -68,7 +64,7 @@
       "score": 2
     },
     {
-      "keyword": "acne",
+      "keyword": "review",
       "score": 2
     },
     {
@@ -76,11 +72,35 @@
       "score": 2
     },
     {
+      "keyword": "skin",
+      "score": 2
+    },
+    {
+      "keyword": "best",
+      "score": 2
+    },
+    {
+      "keyword": "kbeauty",
+      "score": 2
+    },
+    {
+      "keyword": "haircare",
+      "score": 2
+    },
+    {
       "keyword": "mascara",
       "score": 2
     },
     {
-      "keyword": "skincare",
+      "keyword": "beauty",
+      "score": 2
+    },
+    {
+      "keyword": "essence",
+      "score": 2
+    },
+    {
+      "keyword": "missha",
       "score": 2
     },
     {
@@ -88,7 +108,7 @@
       "score": 2
     },
     {
-      "keyword": "essence",
+      "keyword": "skincare",
       "score": 2
     },
     {
@@ -104,19 +124,7 @@
       "score": 2
     },
     {
-      "keyword": "cream",
-      "score": 2
-    },
-    {
       "keyword": "korean",
-      "score": 2
-    },
-    {
-      "keyword": "cushion",
-      "score": 2
-    },
-    {
-      "keyword": "serum",
       "score": 2
     },
     {
@@ -152,6 +160,18 @@
       "score": 1
     },
     {
+      "keyword": "douyin-style",
+      "score": 1
+    },
+    {
+      "keyword": "inspired",
+      "score": 1
+    },
+    {
+      "keyword": "makeup",
+      "score": 1
+    },
+    {
       "keyword": "teso",
       "score": 1
     },
@@ -182,33 +202,9 @@
     {
       "keyword": "soon",
       "score": 1
-    },
-    {
-      "keyword": "current",
-      "score": 1
-    },
-    {
-      "keyword": "faves",
-      "score": 1
-    },
-    {
-      "keyword": "sensitive",
-      "score": 1
-    },
-    {
-      "keyword": "prone",
-      "score": 1
-    },
-    {
-      "keyword": "numbuzin",
-      "score": 1
     }
   ],
   "beauty_keywords": [
-    {
-      "keyword": "skin",
-      "score": 4
-    },
     {
       "keyword": "toner",
       "score": 4
@@ -218,11 +214,19 @@
       "score": 2
     },
     {
-      "keyword": "skincare",
+      "keyword": "skin",
+      "score": 2
+    },
+    {
+      "keyword": "kbeauty",
       "score": 2
     },
     {
       "keyword": "essence",
+      "score": 2
+    },
+    {
+      "keyword": "skincare",
       "score": 2
     },
     {
@@ -239,14 +243,6 @@
     },
     {
       "keyword": "korean",
-      "score": 2
-    },
-    {
-      "keyword": "cushion",
-      "score": 2
-    },
-    {
-      "keyword": "serum",
       "score": 2
     }
   ],
@@ -266,9 +262,9 @@
       "feed": "hot"
     },
     {
-      "title": "Teso Life opening 60+ new stores across the US soon",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wehvva/teso_life_opening_60_new_stores_across_the_us_soon/",
-      "published": "2026-09-12T17:01:10+00:00",
+      "title": "Douyin-style (inspired?) makeup",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weta6s/douyinstyle_inspired_makeup/",
+      "published": "2026-09-13T00:46:28+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -280,9 +276,30 @@
       "feed": "hot"
     },
     {
+      "title": "Teso Life opening 60+ new stores across the US soon",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wehvva/teso_life_opening_60_new_stores_across_the_us_soon/",
+      "published": "2026-09-12T17:01:10+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "My current faves for sensitive acne prone dry skin",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wesht8/my_current_faves_for_sensitive_acne_prone_dry_skin/",
       "published": "2026-09-13T00:09:00+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Best way to fade recent sunspots?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wexstw/best_way_to_fade_recent_sunspots/",
+      "published": "2026-09-13T04:29:55+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Best of kbeauty haircare?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wey2us/best_of_kbeauty_haircare/",
+      "published": "2026-09-13T04:44:29+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -301,13 +318,6 @@
       "feed": "hot"
     },
     {
-      "title": "Beauty of joseam green plum toner smells",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1were73/beauty_of_joseam_green_plum_toner_smells/",
-      "published": "2026-09-12T23:19:12+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "20 years with YesStyle",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1we20xz/20_years_with_yesstyle/",
       "published": "2026-09-12T03:58:47+00:00",
@@ -315,37 +325,9 @@
       "feed": "hot"
     },
     {
-      "title": "Favourite in shower haircare for dry textured hair?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wepfs9/favourite_in_shower_haircare_for_dry_textured_hair/",
-      "published": "2026-09-12T21:54:22+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Douyin-style (inspired?) makeup",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weta6s/douyinstyle_inspired_makeup/",
-      "published": "2026-09-13T00:46:28+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Skincare recommendations in TW",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weepn6/skincare_recommendations_in_tw/",
-      "published": "2026-09-12T14:54:55+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Cow Brand Moist Milk – a little review :)",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we3mhb/cow_brand_moist_milk_a_little_review/",
-      "published": "2026-09-12T05:21:27+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Saturday: September 12, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wenlfj/anything_goes_saturday_september_12_2026/",
-      "published": "2026-09-12T20:39:13+00:00",
+      "title": "Beauty of joseam green plum toner smells",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1were73/beauty_of_joseam_green_plum_toner_smells/",
+      "published": "2026-09-12T23:19:12+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -357,9 +339,51 @@
       "feed": "hot"
     },
     {
+      "title": "Favourite in shower haircare for dry textured hair?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wepfs9/favourite_in_shower_haircare_for_dry_textured_hair/",
+      "published": "2026-09-12T21:54:22+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Missha BB Cream No. 29",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wetehy/missha_bb_cream_no_29/",
+      "published": "2026-09-13T00:52:18+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Anything Goes Saturday: September 12, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wenlfj/anything_goes_saturday_september_12_2026/",
+      "published": "2026-09-12T20:39:13+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Beauty products from each asian country",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wez3wl/beauty_products_from_each_asian_country/",
+      "published": "2026-09-13T05:40:07+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Cow Brand Moist Milk – a little review :)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we3mhb/cow_brand_moist_milk_a_little_review/",
+      "published": "2026-09-12T05:21:27+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "What are your favorite C-beauty brands?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1we05st/what_are_your_favorite_cbeauty_brands/",
       "published": "2026-09-12T02:26:51+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Skincare recommendations in TW",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weepn6/skincare_recommendations_in_tw/",
+      "published": "2026-09-12T14:54:55+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -395,34 +419,6 @@
       "title": "Colorgram contours",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdkt2a/colorgram_contours/",
       "published": "2026-09-11T16:17:30+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "I\"m totally confused :( about SqualAne oil.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we4yll/im_totally_confused_about_squalane_oil/",
-      "published": "2026-09-12T06:33:22+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "JSM Essential Skin Nuder Cushion Review",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdhs5v/jsm_essential_skin_nuder_cushion_review/",
-      "published": "2026-09-11T14:25:01+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Acne pustules",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdmmxy/acne_pustules/",
-      "published": "2026-09-11T17:23:18+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Severe reaction to Some by mi Yuja Niacin serum",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdgk8l/severe_reaction_to_some_by_mi_yuja_niacin_serum/",
-      "published": "2026-09-11T13:37:49+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

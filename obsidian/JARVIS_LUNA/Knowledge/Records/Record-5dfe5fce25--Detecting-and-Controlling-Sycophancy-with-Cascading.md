@@ -2,7 +2,7 @@
 title: "Record 5dfe5fce25 · Detecting-and-Controlling-Sycophancy-with-Cascading"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.857750+00:00
+updated_at: 2026-09-13T07:03:56.077974+00:00
 tags: [record, real-data]
 ---
 

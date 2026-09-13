@@ -2,7 +2,7 @@
 title: "Record 6b89d4d0a8 · These-are-the-best-K-beauty-products-to-get-that-gl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.730101+00:00
+updated_at: 2026-09-13T07:03:55.954597+00:00
 tags: [record, real-data]
 ---
 

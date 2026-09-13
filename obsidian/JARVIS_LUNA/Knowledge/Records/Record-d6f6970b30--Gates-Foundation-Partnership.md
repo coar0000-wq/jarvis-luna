@@ -2,7 +2,7 @@
 title: "Record d6f6970b30 · Gates-Foundation-Partnership"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.924208+00:00
+updated_at: 2026-09-13T07:03:56.135577+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 41ba51dd2f · 10-Applications-of-AI-in-Business-2026-Guide---Shop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.672061+00:00
+updated_at: 2026-09-13T07:03:55.905492+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 747778575f · AI-referrals-drive-higher-ecommerce-traffic-and-con"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.740552+00:00
+updated_at: 2026-09-13T07:03:55.964619+00:00
 tags: [record, real-data]
 ---
 

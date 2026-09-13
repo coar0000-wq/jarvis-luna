@@ -2,7 +2,7 @@
 title: "Record bcb7aef09a · TikToks-Beauty-Stacking-Trend-Has-People-Doing-Full"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.733133+00:00
+updated_at: 2026-09-13T07:03:55.957461+00:00
 tags: [record, real-data]
 ---
 

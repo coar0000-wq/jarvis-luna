@@ -2,7 +2,7 @@
 title: "Record 59d22aec59 · Shopify-Defies-Logic-AI-Disruption-Is-a-Good-Thing-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.752504+00:00
+updated_at: 2026-09-13T07:03:55.976455+00:00
 tags: [record, real-data]
 ---
 

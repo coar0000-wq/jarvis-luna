@@ -2,7 +2,7 @@
 title: "Record 4c036e81bd · Hosting-Capacity-Assessment-of-Data-Centers-with-Vo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.345370+00:00
+updated_at: 2026-09-13T07:03:55.628960+00:00
 tags: [record, real-data]
 ---
 

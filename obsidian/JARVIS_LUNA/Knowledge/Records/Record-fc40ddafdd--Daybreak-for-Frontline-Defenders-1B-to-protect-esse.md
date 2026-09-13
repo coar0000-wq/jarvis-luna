@@ -2,7 +2,7 @@
 title: "Record fc40ddafdd · Daybreak-for-Frontline-Defenders-1B-to-protect-esse"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.835110+00:00
+updated_at: 2026-09-13T07:03:56.058085+00:00
 tags: [record, real-data]
 ---
 

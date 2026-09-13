@@ -2,7 +2,7 @@
 title: "Record bbf1c4ef5d · Allure-Best-of-Beauty-Live-Is-BackHeres-What-You-Ne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.906521+00:00
+updated_at: 2026-09-13T07:03:56.120956+00:00
 tags: [record, real-data]
 ---
 

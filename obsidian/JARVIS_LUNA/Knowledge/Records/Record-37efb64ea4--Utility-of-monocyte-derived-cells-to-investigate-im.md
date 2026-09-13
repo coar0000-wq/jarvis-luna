@@ -2,7 +2,7 @@
 title: "Record 37efb64ea4 · Utility-of-monocyte-derived-cells-to-investigate-im"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.464339+00:00
+updated_at: 2026-09-13T07:03:55.735015+00:00
 tags: [record, real-data]
 ---
 

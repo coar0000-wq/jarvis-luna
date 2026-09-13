@@ -2,7 +2,7 @@
 title: "Record 9efba4b30f · Video-Friday-Meet-Google-DeepMinds-Gemini-Robotics-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.878262+00:00
+updated_at: 2026-09-13T07:03:56.096261+00:00
 tags: [record, real-data]
 ---
 

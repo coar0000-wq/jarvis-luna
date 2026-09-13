@@ -2,7 +2,7 @@
 title: "Record 2e10ec3ca5 · Samsung-Wins-Multiple-Honors-at-IFA-Innovation-Awar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.826601+00:00
+updated_at: 2026-09-13T07:03:56.049490+00:00
 tags: [record, real-data]
 ---
 

@@ -1,6 +1,6 @@
 {
   "agent": "Safe-Auto-Fix",
-  "generated_at": "2026-09-13T00:56:13.303768+00:00",
+  "generated_at": "2026-09-13T07:03:33.275868+00:00",
   "status": "success",
   "enabled": true,
   "chief_of_staff": {
@@ -486,7 +486,7 @@
   "changes": [
     {
       "action": "repair_daiso_queue",
-      "started_at": "2026-09-13T00:56:09.842299+00:00",
+      "started_at": "2026-09-13T07:03:30.416564+00:00",
       "enabled": true,
       "changed": false,
       "added_to_blacklist": [],
@@ -495,7 +495,7 @@
       "removed_from_urls": [],
       "candidate_count": 0,
       "reason": "safe_blacklist_candidate=0",
-      "finished_at": "2026-09-13T00:56:09.842318+00:00"
+      "finished_at": "2026-09-13T07:03:30.416582+00:00"
     },
     {
       "action": "normalize_obsidian_links",
@@ -512,7 +512,7 @@
   ],
   "queue": {
     "action": "repair_daiso_queue",
-    "started_at": "2026-09-13T00:56:09.842299+00:00",
+    "started_at": "2026-09-13T07:03:30.416564+00:00",
     "enabled": true,
     "changed": false,
     "added_to_blacklist": [],
@@ -521,7 +521,7 @@
     "removed_from_urls": [],
     "candidate_count": 0,
     "reason": "safe_blacklist_candidate=0",
-    "finished_at": "2026-09-13T00:56:09.842318+00:00"
+    "finished_at": "2026-09-13T07:03:30.416582+00:00"
   },
   "queue_validation": {
     "queue_is_dict": true,

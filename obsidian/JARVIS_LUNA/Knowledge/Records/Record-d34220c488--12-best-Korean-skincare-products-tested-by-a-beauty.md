@@ -2,7 +2,7 @@
 title: "Record d34220c488 · 12-best-Korean-skincare-products-tested-by-a-beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.803762+00:00
+updated_at: 2026-09-13T07:03:56.026671+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e7d4150b08 · TIME100-Most-Influential-Companies-2026-Shopify---T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.726023+00:00
+updated_at: 2026-09-13T07:03:55.950580+00:00
 tags: [record, real-data]
 ---
 

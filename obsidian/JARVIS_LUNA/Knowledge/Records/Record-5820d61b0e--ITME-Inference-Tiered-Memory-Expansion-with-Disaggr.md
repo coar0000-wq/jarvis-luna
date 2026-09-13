@@ -2,7 +2,7 @@
 title: "Record 5820d61b0e · ITME-Inference-Tiered-Memory-Expansion-with-Disaggr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.854724+00:00
+updated_at: 2026-09-13T07:03:56.075337+00:00
 tags: [record, real-data]
 ---
 

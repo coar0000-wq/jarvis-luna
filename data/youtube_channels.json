@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T00:49:39.345525+00:00",
+  "generated_at": "2026-09-13T06:55:40.474893+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -16,7 +16,17 @@
     "sourcing": 1
   },
   "팀_고정": "한 번 정한 팀은 유지한다. 유튜브가 제목을 A/B 로 돌려서 같은 영상이 회차마다 다른 팀으로 가는 일이 있었다.",
-  "제목_바뀐_영상": [],
+  "제목_바뀐_영상": [
+    {
+      "video_id": "CSr4DYGUPOM",
+      "before": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
+      "after": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+      "kept_teams": [
+        "design",
+        "market"
+      ]
+    }
+  ],
   "top_by_views": [
     {
       "video_id": "6lSvKk7lTl0",
@@ -33,9 +43,9 @@
     {
       "video_id": "xgk5N4rCJIw",
       "title": "3D Carousel in Figma Using Smart Animate | Prototyping Tutorial",
-      "views_text": "539K views",
+      "views_text": "540K views",
       "published_text": "3 years ago",
-      "views": 539000,
+      "views": 540000,
       "url": "https://www.youtube.com/watch?v=xgk5N4rCJIw",
       "channel": "uxpeak",
       "teams": [
@@ -57,9 +67,9 @@
     {
       "video_id": "2TlIg3VokY8",
       "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-      "views_text": "485K views",
+      "views_text": "486K views",
       "published_text": "2 months ago",
-      "views": 485000,
+      "views": 486000,
       "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
       "channel": "uxpeak",
       "teams": [
@@ -128,10 +138,10 @@
     },
     {
       "video_id": "GGg61sdEjeI",
-      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-      "views_text": "205K views",
+      "title": "These UI/UX Design Mistakes Scream You're a Junior Designer",
+      "views_text": "208K views",
       "published_text": "2 weeks ago",
-      "views": 205000,
+      "views": 208000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -202,7 +212,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-13T00:49:28.984521+00:00",
+      "last_ok_at": "2026-09-13T06:55:30.198718+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -211,14 +221,14 @@
       "subscribers": "122K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-13T00:49:28.984549+00:00",
+      "checked_at": "2026-09-13T06:55:30.198740+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-          "views_text": "205K views",
+          "title": "These UI/UX Design Mistakes Scream You're a Junior Designer",
+          "views_text": "208K views",
           "published_text": "2 weeks ago",
-          "views": 205000,
+          "views": 208000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -228,9 +238,9 @@
         {
           "video_id": "2TlIg3VokY8",
           "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-          "views_text": "485K views",
+          "views_text": "486K views",
           "published_text": "2 months ago",
-          "views": 485000,
+          "views": 486000,
           "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
           "channel": "uxpeak",
           "teams": [
@@ -240,9 +250,9 @@
         {
           "video_id": "zr37ibqXl1U",
           "title": "Top 3 UX/UI Redesigns That Make You Design Like a Pro",
-          "views_text": "102K views",
+          "views_text": "103K views",
           "published_text": "3 months ago",
-          "views": 102000,
+          "views": 103000,
           "url": "https://www.youtube.com/watch?v=zr37ibqXl1U",
           "channel": "uxpeak",
           "teams": [
@@ -420,9 +430,9 @@
         {
           "video_id": "xgk5N4rCJIw",
           "title": "3D Carousel in Figma Using Smart Animate | Prototyping Tutorial",
-          "views_text": "539K views",
+          "views_text": "540K views",
           "published_text": "3 years ago",
-          "views": 539000,
+          "views": 540000,
           "url": "https://www.youtube.com/watch?v=xgk5N4rCJIw",
           "channel": "uxpeak",
           "teams": [
@@ -469,7 +479,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-13T00:49:34.345303+00:00",
+      "last_ok_at": "2026-09-13T06:55:35.474716+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -478,14 +488,14 @@
       "subscribers": "18.3K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-13T00:49:34.345320+00:00",
+      "checked_at": "2026-09-13T06:55:35.474731+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
-          "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-          "views_text": "69K views",
+          "title": "스몰 브랜드도 충분히 할 수 있다 👀 | 브랜딩 잘하는 인스타 채널 큐레이션",
+          "views_text": "70K views",
           "published_text": "9 days ago",
-          "views": 69000,
+          "views": 70000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
           "teams": [

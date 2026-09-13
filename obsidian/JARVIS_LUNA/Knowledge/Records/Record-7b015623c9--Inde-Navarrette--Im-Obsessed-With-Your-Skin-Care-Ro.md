@@ -2,7 +2,7 @@
 title: "Record 7b015623c9 · Inde-Navarrette--Im-Obsessed-With-Your-Skin-Care-Ro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:38.016522+00:00
+updated_at: 2026-09-13T07:03:56.212443+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f155544ff7 · From-K-Beauty-Momentum-to-a-Global-Beauty-Ecosystem"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.772329+00:00
+updated_at: 2026-09-13T07:03:55.995821+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c327caa688 · What-role-for-real-world-evidence-in-market-access-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.536632+00:00
+updated_at: 2026-09-13T07:03:55.797869+00:00
 tags: [record, real-data]
 ---
 

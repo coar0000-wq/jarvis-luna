@@ -2,7 +2,7 @@
 title: "Record 825f9a547f · From-photons-to-electrons-making-electron-microscop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.532475+00:00
+updated_at: 2026-09-13T07:03:55.794172+00:00
 tags: [record, real-data]
 ---
 

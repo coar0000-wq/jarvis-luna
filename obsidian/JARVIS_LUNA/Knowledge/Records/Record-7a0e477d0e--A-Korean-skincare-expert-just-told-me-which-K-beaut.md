@@ -2,7 +2,7 @@
 title: "Record 7a0e477d0e · A-Korean-skincare-expert-just-told-me-which-K-beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.650335+00:00
+updated_at: 2026-09-13T07:03:55.889105+00:00
 tags: [record, real-data]
 ---
 

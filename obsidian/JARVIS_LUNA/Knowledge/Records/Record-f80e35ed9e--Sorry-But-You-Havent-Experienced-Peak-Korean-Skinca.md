@@ -2,7 +2,7 @@
 title: "Record f80e35ed9e · Sorry-But-You-Havent-Experienced-Peak-Korean-Skinca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.669010+00:00
+updated_at: 2026-09-13T07:03:55.903203+00:00
 tags: [record, real-data]
 ---
 

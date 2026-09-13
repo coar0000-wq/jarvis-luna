@@ -2,7 +2,7 @@
 title: "Record 5c7f2b4fc7 · I-Credit-These-Cult-Favorite-K-Beauty-Products-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.734811+00:00
+updated_at: 2026-09-13T07:03:55.959097+00:00
 tags: [record, real-data]
 ---
 

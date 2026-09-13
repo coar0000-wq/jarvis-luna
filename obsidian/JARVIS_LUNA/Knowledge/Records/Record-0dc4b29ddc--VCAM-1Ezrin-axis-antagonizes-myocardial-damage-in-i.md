@@ -2,7 +2,7 @@
 title: "Record 0dc4b29ddc · VCAM-1Ezrin-axis-antagonizes-myocardial-damage-in-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T00:56:37.472379+00:00
+updated_at: 2026-09-13T07:03:55.742131+00:00
 tags: [record, real-data]
 ---
 
